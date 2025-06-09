@@ -1,0 +1,129 @@
+## libswiftDemangle.dylib
+
+> `/usr/lib/swift/libswiftDemangle.dylib`
+
+```diff
+
+-6.1.2.1.2
+-  __TEXT.__text: 0x5632c
+-  __TEXT.__auth_stubs: 0x200
+-  __TEXT.__cstring: 0x4fdf
++6.2.0.9.950
++  __TEXT.__text: 0x57738
++  __TEXT.__auth_stubs: 0x1f0
++  __TEXT.__cstring: 0x5130
+   __TEXT.__const: 0x1b8
+-  __TEXT.__unwind_info: 0x728
++  __TEXT.__unwind_info: 0x720
+   __DATA_CONST.__got: 0x8
+-  __DATA_CONST.__const: 0xc78
+-  __AUTH_CONST.__auth_got: 0x100
++  __DATA_CONST.__const: 0xcb0
++  __AUTH_CONST.__auth_got: 0xf8
+   __AUTH_CONST.__const: 0x98
+   __DATA.__crash_info: 0x40
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 018FF583-0CB8-3FE6-8B52-CB916D341C41
+-  Functions: 632
+-  Symbols:   1055
+-  CStrings:  1307
++  UUID: 86D6D55F-FF2D-32CF-98AD-64172E1A1586
++  Functions: 627
++  Symbols:   1045
++  CStrings:  1330
+ 
+Symbols:
++ __ZN12_GLOBAL__N_19Remangler16mangleConstValueEPN5swift8Demangle4NodeEj
++ __ZN12_GLOBAL__N_19Remangler24mangleCompileTimeLiteralEPN5swift8Demangle4NodeEj
++ __ZN12_GLOBAL__N_19Remangler24mangleSugaredInlineArrayEPN5swift8Demangle4NodeEj
++ __ZN12_GLOBAL__N_19Remangler40mangleDependentProtocolConformanceOpaqueEPN5swift8Demangle4NodeEj
++ __ZN4llvm12function_refIFNS_9StringRefEvEE11callback_fnIZL33setParentForOpaqueReturnTypeNodesRN5swift8Demangle9DemanglerEPNS6_4NodeESA_NS5_6Mangle14ManglingFlavorEE3$_0EES1_l
++ __ZN4llvm12function_refIFPN5swift8Demangle4NodeENS2_21SymbolicReferenceKindEPKvEE11callback_fnIZNS2_10mangleNodeES4_NS1_6Mangle14ManglingFlavorEE3$_0EES4_lS5_S7_
++ __ZN5swift8Demangle10mangleNodeEPNS0_4NodeEN4llvm12function_refIFS2_NS0_21SymbolicReferenceKindEPKvEEENS_6Mangle14ManglingFlavorE
++ __ZN5swift8Demangle10mangleNodeEPNS0_4NodeEN4llvm12function_refIFS2_NS0_21SymbolicReferenceKindEPKvEEERNS0_11NodeFactoryENS_6Mangle14ManglingFlavorE
++ __ZN5swift8Demangle10mangleNodeEPNS0_4NodeENS_6Mangle14ManglingFlavorE
++ __ZN5swift8Demangle34mangledNameForTypeMetadataAccessorEN4llvm9StringRefES2_NS0_4Node4KindENS_6Mangle14ManglingFlavorE
++ __ZN5swift8Demangle9Demangler42demangleDependentProtocolConformanceOpaqueEv
++ __ZN5swift8Demangle9Demangler6nextIfEN4llvm9StringRefE
++ __ZNKSt3__110__function12__value_funcIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyyEEclB8nn200100EOySA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100EPKcm
++ __ZNSt3__114__split_bufferIjRNS_9allocatorIjEEE12emplace_backIJRKjEEEvDpOT_
++ __ZNSt3__125__throw_bad_function_callB8nn200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE12emplace_backIJS6_EEERS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPN5swift8Demangle4NodeENS_9allocatorIS4_EEE12emplace_backIJRKS4_EEERS4_DpOT_
++ __ZNSt3__16vectorIPN5swift8Demangle4NodeENS_9allocatorIS4_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPN5swift8Demangle4NodeENS_9allocatorIS4_EEE9push_backB8nn200100ERKS4_
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8nn200100EOj
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8nn200100ERKj
++ __ZNSt3__1plB8nn200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_OS9_
++ __ZSt28__throw_bad_array_new_lengthB8nn200100v
+- __ZN12_GLOBAL__N_19Remangler15mangleEmptyListEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler16mangleIdentifierEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler18mangleAsyncRemovedEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler18mangleImplEscapingEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler18mangleIsSerializedEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler20mangleVariadicMarkerEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler22mangleCompileTimeConstEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler22mangleThrowsAnnotationEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler22mangleTupleElementNameEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler23mangleImplSendingResultEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler24mangleFirstElementMarkerEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler25mangleImplErasedIsolationEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler26mangleAutoDiffFunctionKindEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler31mangleImplDifferentiabilityKindEPN5swift8Demangle4NodeEj
+- __ZN12_GLOBAL__N_19Remangler36mangleSILThunkHopToMainActorIfNeededEPN5swift8Demangle4NodeEj
+- __ZN4llvm12function_refIFNS_9StringRefEvEE11callback_fnIZL33setParentForOpaqueReturnTypeNodesRN5swift8Demangle9DemanglerEPNS6_4NodeESA_E3$_0EES1_l
+- __ZN4llvm12function_refIFPN5swift8Demangle4NodeENS2_21SymbolicReferenceKindEPKvEE11callback_fnIZNS2_10mangleNodeES4_E3$_0EES4_lS5_S7_
+- __ZN5swift8Demangle10mangleNodeEPNS0_4NodeE
+- __ZN5swift8Demangle10mangleNodeEPNS0_4NodeEN4llvm12function_refIFS2_NS0_21SymbolicReferenceKindEPKvEEE
+- __ZN5swift8Demangle10mangleNodeEPNS0_4NodeEN4llvm12function_refIFS2_NS0_21SymbolicReferenceKindEPKvEEERNS0_11NodeFactoryE
+- __ZN5swift8Demangle34mangledNameForTypeMetadataAccessorEN4llvm9StringRefES2_NS0_4Node4KindE
+- __ZN5swift8Demangle6VectorINS_6Mangle15WordReplacementEE9push_backERKS3_RNS0_11NodeFactoryE
+- __ZN5swift8Demangle6VectorINS_6Mangle16SubstitutionWordEE9push_backERKS3_RNS0_11NodeFactoryE
+- __ZNKSt3__18functionIFNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEyyEEclEyy
+- __ZNR5swift8Demangle16DemanglerPrinterlsEj
+- __ZNR5swift8Demangle16DemanglerPrinterlsEl
+- __ZNSt3__125__throw_bad_function_callB8nn190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8nn190102EOS6_
+- __ZNSt3__16vectorIPN5swift8Demangle4NodeENS_9allocatorIS4_EEE9push_backB8nn190102ERKS4_
+- __ZNSt3__1plB8nn190102IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EERKS9_OS9_
+- __ZSt28__throw_bad_array_new_lengthB8nn190102v
+- __ZZN12_GLOBAL__N_112OldDemangler21demangleArchetypeTypeEjENKUlPN5swift8Demangle4NodeEE_clES4_
+- __Znwm
+CStrings:
++ " x "
++ "$e"
++ "@const "
++ "CompileTimeLiteral"
++ "ConstValue"
++ "CoroFunctionPointer"
++ "DefaultOverride"
++ "DependentProtocolConformanceOpaque"
++ "HO"
++ "KeyPathAppliedMethodThunkHelper"
++ "KeyPathUnappliedMethodThunkHelper"
++ "NonIsolatedCallerFunctionType"
++ "SugaredInlineArray"
++ "TkMA"
++ "Tkmu"
++ "Twc"
++ "Twd"
++ "XSA"
++ "YC"
++ "Yg"
++ "coro function pointer to "
++ "default override of "
++ "key path applied method "
++ "key path unapplied method "
++ "nonisolated(nonsending) "
++ "opaque result conformance "
+- "CompileTimeConst"
+- "SILThunkHopToMainActorIfNeeded"
+- "hop to main actor thunk of "
+
+```

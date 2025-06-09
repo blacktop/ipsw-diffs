@@ -1,0 +1,1546 @@
+## VoiceShortcutClient
+
+> `/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient`
+
+```diff
+
+-3607.0.2.0.0
+-  __TEXT.__text: 0x116924
+-  __TEXT.__auth_stubs: 0x3340
+-  __TEXT.__objc_methlist: 0xbf54
+-  __TEXT.__const: 0x9d20
++4022.0.27.101.0
++  __TEXT.__text: 0x1263e8
++  __TEXT.__auth_stubs: 0x3440
++  __TEXT.__objc_methlist: 0xc314
++  __TEXT.__const: 0xbae0
+   __TEXT.__dlopen_cstrs: 0xdb4
+-  __TEXT.__cstring: 0x15eb8
+-  __TEXT.__swift5_typeref: 0x2693
+-  __TEXT.__swift5_reflstr: 0xdba
+-  __TEXT.__swift5_assocty: 0x2e8
+-  __TEXT.__constg_swiftt: 0x26e8
+-  __TEXT.__swift5_fieldmd: 0x1d08
+-  __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_proto: 0x8b0
+-  __TEXT.__swift5_types: 0x2e8
+-  __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__swift5_capture: 0x35c
+-  __TEXT.__oslogstring: 0x382b
+-  __TEXT.__swift_as_entry: 0x8c
+-  __TEXT.__swift_as_ret: 0x74
+-  __TEXT.__swift5_protos: 0x2c
+-  __TEXT.__gcc_except_tab: 0x1a50
++  __TEXT.__cstring: 0x1675b
++  __TEXT.__swift5_typeref: 0x2be7
++  __TEXT.__swift5_reflstr: 0x116a
++  __TEXT.__swift5_assocty: 0x360
++  __TEXT.__constg_swiftt: 0x2be0
++  __TEXT.__swift5_fieldmd: 0x2240
++  __TEXT.__swift5_builtin: 0x154
++  __TEXT.__swift5_proto: 0xa5c
++  __TEXT.__swift5_types: 0x368
++  __TEXT.__swift5_capture: 0x3dc
++  __TEXT.__swift_as_entry: 0xb8
++  __TEXT.__swift_as_ret: 0xa4
++  __TEXT.__swift5_mpenum: 0x74
++  __TEXT.__oslogstring: 0x388b
++  __TEXT.__swift5_protos: 0x30
++  __TEXT.__gcc_except_tab: 0x1a6c
+   __TEXT.__ustring: 0x14e
+-  __TEXT.__unwind_info: 0x5640
+-  __TEXT.__eh_frame: 0x42a8
+-  __TEXT.__objc_classname: 0x2274
+-  __TEXT.__objc_methname: 0x1b080
+-  __TEXT.__objc_methtype: 0x4625
+-  __TEXT.__objc_stubs: 0x11700
+-  __DATA_CONST.__got: 0x1150
+-  __DATA_CONST.__const: 0x3328
+-  __DATA_CONST.__objc_classlist: 0x8f8
++  __TEXT.__unwind_info: 0x5ad8
++  __TEXT.__eh_frame: 0x4e40
++  __TEXT.__objc_classname: 0x22e6
++  __TEXT.__objc_methname: 0x1b80d
++  __TEXT.__objc_methtype: 0x47c8
++  __TEXT.__objc_stubs: 0x11900
++  __DATA_CONST.__got: 0x1158
++  __DATA_CONST.__const: 0x3420
++  __DATA_CONST.__objc_classlist: 0x918
+   __DATA_CONST.__objc_catlist: 0xc0
+-  __DATA_CONST.__objc_protolist: 0x160
++  __DATA_CONST.__objc_protolist: 0x170
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5b00
+-  __DATA_CONST.__objc_protorefs: 0x90
+-  __DATA_CONST.__objc_superrefs: 0x768
+-  __DATA_CONST.__objc_arraydata: 0x1648
+-  __AUTH_CONST.__auth_got: 0x19b0
+-  __AUTH_CONST.__const: 0x6420
+-  __AUTH_CONST.__cfstring: 0x165c0
+-  __AUTH_CONST.__objc_const: 0x185f0
+-  __AUTH_CONST.__objc_intobj: 0x3e58
++  __DATA_CONST.__objc_selrefs: 0x5c18
++  __DATA_CONST.__objc_protorefs: 0x98
++  __DATA_CONST.__objc_superrefs: 0x780
++  __DATA_CONST.__objc_arraydata: 0x1658
++  __AUTH_CONST.__auth_got: 0x1a30
++  __AUTH_CONST.__const: 0x73e8
++  __AUTH_CONST.__cfstring: 0x169e0
++  __AUTH_CONST.__objc_const: 0x18c30
++  __AUTH_CONST.__objc_intobj: 0x3ea0
+   __AUTH_CONST.__objc_arrayobj: 0x150
+   __AUTH_CONST.__objc_dictobj: 0x208
+-  __AUTH.__objc_data: 0x3510
+-  __AUTH.__data: 0x18b0
+-  __DATA.__objc_ivar: 0xc04
+-  __DATA.__data: 0x3290
+-  __DATA.__bss: 0x10da8
++  __AUTH.__objc_data: 0x39a0
++  __AUTH.__data: 0x1910
++  __DATA.__objc_ivar: 0xc3c
++  __DATA.__data: 0x36b8
++  __DATA.__bss: 0x14368
+   __DATA.__common: 0x28
+-  __DATA_DIRTY.__objc_data: 0x24d8
+-  __DATA_DIRTY.__data: 0x568
+-  __DATA_DIRTY.__bss: 0x12c8
++  __DATA_DIRTY.__objc_data: 0x21e8
++  __DATA_DIRTY.__data: 0x560
++  __DATA_DIRTY.__bss: 0x12d0
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 34E368D0-0E76-3993-9305-EC0A345755D3
+-  Functions: 8375
+-  Symbols:   18152
+-  CStrings:  11865
++  UUID: E2559518-F03A-3CC0-9F22-D308424260DD
++  Functions: 8990
++  Symbols:   18715
++  CStrings:  12055
+ 
+Symbols:
++ +[WFDialogResponseContext supportsBSXPCSecureCoding]
++ +[WFDialogResponseContext supportsSecureCoding]
++ +[WFLinkChoiceDialogRequest supportsSecureCoding]
++ +[WFLinkChoiceDialogResponse supportsBSXPCSecureCoding]
++ +[WFLinkChoiceDialogResponse supportsSecureCoding]
++ -[VCVoiceShortcutClient(MenuBar) markMenuBarWorkflowAsMigratedWithIdentifiers:error:]
++ -[VCVoiceShortcutClient(MenuBar) runShortcutIntentForWorkflow:error:]
++ -[WFChooseFromListDialogRequest initWithItems:allowsMultipleSelection:message:attribution:prompt:done:parameterKey:]
++ -[WFDialogResponse .cxx_destruct]
++ -[WFDialogResponse context]
++ -[WFDialogResponse setContext:]
++ -[WFDialogResponseContext .cxx_destruct]
++ -[WFDialogResponseContext description]
++ -[WFDialogResponseContext encodeWithBSXPCCoder:]
++ -[WFDialogResponseContext encodeWithCoder:]
++ -[WFDialogResponseContext initWithBSXPCCoder:]
++ -[WFDialogResponseContext initWithCoder:]
++ -[WFDialogResponseContext setTurnIdentifier:]
++ -[WFDialogResponseContext turnIdentifier]
++ -[WFLinkChoiceDialogRequest .cxx_destruct]
++ -[WFLinkChoiceDialogRequest buttons]
++ -[WFLinkChoiceDialogRequest encodeWithCoder:]
++ -[WFLinkChoiceDialogRequest initWithCoder:]
++ -[WFLinkChoiceDialogRequest initWithRequest:title:attribution:]
++ -[WFLinkChoiceDialogRequest request]
++ -[WFLinkChoiceDialogRequest title]
++ -[WFLinkChoiceDialogResponse encodeWithBSXPCCoder:]
++ -[WFLinkChoiceDialogResponse encodeWithCoder:]
++ -[WFLinkChoiceDialogResponse initWithBSXPCCoder:]
++ -[WFLinkChoiceDialogResponse initWithCoder:]
++ -[WFLinkChoiceDialogResponse initWithResponseCode:selectedButtonIndex:]
++ -[WFLinkChoiceDialogResponse selectedButtonIndex]
++ -[WFLinkConfirmationDialogRequest initWithActionMetadata:showPrompt:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:destructive:]
++ -[WFLinkConfirmationDialogRequest initWithActionParameterMetadata:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:attribution:parameterInfo:]
++ -[WFLinkConfirmationDialogRequest initWithTitle:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:]
++ -[WFLinkConfirmationDialogResponse .cxx_destruct]
++ -[WFLinkConfirmationDialogResponse initWithConfirmationResponseCode:value:]
++ -[WFLinkConfirmationDialogResponse value]
++ -[WFLinkSnippetDialogRequest encodedSnippetActionToolInvocation]
++ -[WFLinkSnippetDialogRequest initWithViewSnippet:snippetAction:encodedSnippetActionToolInvocation:attribution:showPrompt:]
++ -[WFLinkSnippetDialogRequest snippetAction]
++ -[WFLocalizationContext initWithLocale:stringLocalizer:localizationUsage:]
++ -[WFLocalizationContext localizationUsage]
++ -[WFOutOfProcessWorkflowController fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:]
++ -[WFOutOfProcessWorkflowController resignDialogHandlingIfNeededWithPersistentMode:]
++ -[WFOutOfProcessWorkflowController resolveContent:completionHandler:]
++ -[WFOutOfProcessWorkflowController transformAction:completionHandler:]
++ -[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:]
++ -[WFOutOfProcessWorkflowControllerXPCProxy resignDialogHandlingIfNeededWithPersistentMode:]
++ -[WFOutOfProcessWorkflowControllerXPCProxy resolveContent:completionHandler:]
++ -[WFOutOfProcessWorkflowControllerXPCProxy transformAction:completionHandler:]
++ -[WFSageWorkflowRunnerClient fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:]
++ -[WFSageWorkflowRunnerClient initWithClientIdentifier:siriSessionID:locale:runSource:]
++ -[WFSageWorkflowRunnerClient resignDialogHandlingIfNeededWithPersistentMode:]
++ -[WFSageWorkflowRunnerClient resolveContent:completionHandler:]
++ -[WFSageWorkflowRunnerClient transformAction:completionHandler:]
++ -[WFSymbolIcon initWithSymbolName:]
++ -[WFSymbolIcon initWithSymbolName:renderingMode:symbolColors:]
++ -[WFSymbolIcon initWithSymbolName:renderingMode:symbolColors:background:]
++ -[WFSymbolIcon renderingMode]
++ -[WFSymbolIcon symbolColors]
++ -[WFWorkflowQuery hash]
++ -[WFWorkflowQuery isEqual:]
++ -[WFWorkflowRunRequest firingTriggerID]
++ -[WFWorkflowRunRequest setFiringTriggerID:]
++ -[WFWorkflowRunRequest setUrlNeedingAccess:]
++ -[WFWorkflowRunRequest urlNeedingAccess]
++ -[WFWorkflowRunningContext isRunningInPersistentMode]
++ -[WFWorkflowRunningContext setRunningInPersistentMode:]
++ GCC_except_table1088
++ GCC_except_table1092
++ GCC_except_table11
++ GCC_except_table1114
++ GCC_except_table1115
++ GCC_except_table1116
++ GCC_except_table1125
++ GCC_except_table1180
++ GCC_except_table1211
++ GCC_except_table1250
++ GCC_except_table1337
++ GCC_except_table1341
++ GCC_except_table1376
++ GCC_except_table1389
++ GCC_except_table1416
++ GCC_except_table1421
++ GCC_except_table1427
++ GCC_except_table1472
++ GCC_except_table1474
++ GCC_except_table1476
++ GCC_except_table1477
++ GCC_except_table1488
++ GCC_except_table1493
++ GCC_except_table1558
++ GCC_except_table1559
++ GCC_except_table1616
++ GCC_except_table1692
++ GCC_except_table1708
++ GCC_except_table1757
++ GCC_except_table1778
++ GCC_except_table1780
++ GCC_except_table1782
++ GCC_except_table1840
++ GCC_except_table1842
++ GCC_except_table1844
++ GCC_except_table1845
++ GCC_except_table1847
++ GCC_except_table1856
++ GCC_except_table1864
++ GCC_except_table1866
++ GCC_except_table1887
++ GCC_except_table1993
++ GCC_except_table2016
++ GCC_except_table2053
++ GCC_except_table2083
++ GCC_except_table2136
++ GCC_except_table2147
++ GCC_except_table217
++ GCC_except_table2172
++ GCC_except_table2195
++ GCC_except_table2200
++ GCC_except_table2276
++ GCC_except_table2341
++ GCC_except_table2348
++ GCC_except_table2355
++ GCC_except_table2565
++ GCC_except_table2615
++ GCC_except_table2619
++ GCC_except_table2624
++ GCC_except_table2655
++ GCC_except_table2773
++ GCC_except_table2776
++ GCC_except_table2783
++ GCC_except_table2789
++ GCC_except_table2794
++ GCC_except_table2813
++ GCC_except_table2819
++ GCC_except_table3000
++ GCC_except_table3070
++ GCC_except_table3082
++ GCC_except_table3085
++ GCC_except_table3161
++ GCC_except_table3167
++ GCC_except_table3168
++ GCC_except_table3174
++ GCC_except_table318
++ GCC_except_table3377
++ GCC_except_table339
++ GCC_except_table3464
++ GCC_except_table3506
++ GCC_except_table3596
++ GCC_except_table3625
++ GCC_except_table3626
++ GCC_except_table3627
++ GCC_except_table3832
++ GCC_except_table3839
++ GCC_except_table3842
++ GCC_except_table3845
++ GCC_except_table3847
++ GCC_except_table3855
++ GCC_except_table3960
++ GCC_except_table3964
++ GCC_except_table3977
++ GCC_except_table4084
++ GCC_except_table4163
++ GCC_except_table4168
++ GCC_except_table4171
++ GCC_except_table4174
++ GCC_except_table4177
++ GCC_except_table4180
++ GCC_except_table4185
++ GCC_except_table4189
++ GCC_except_table4192
++ GCC_except_table4194
++ GCC_except_table4197
++ GCC_except_table4200
++ GCC_except_table4207
++ GCC_except_table4212
++ GCC_except_table4217
++ GCC_except_table4233
++ GCC_except_table4237
++ GCC_except_table4249
++ GCC_except_table4281
++ GCC_except_table453
++ GCC_except_table458
++ GCC_except_table461
++ GCC_except_table468
++ GCC_except_table471
++ GCC_except_table6
++ GCC_except_table656
++ GCC_except_table77
++ GCC_except_table815
++ GCC_except_table947
++ _BiomeLibraryLibraryCore.frameworkLibrary.20234
++ _BiomeLibraryLibraryCore.frameworkLibrary.3417
++ _BiomeLibraryLibraryCore.frameworkLibrary.8583
++ _CFGetTypeID
++ _CFUUIDCreateString
++ _CFUUIDGetTypeID
++ _ContentKitLibrary.13309
++ _ContentKitLibrary.18823
++ _ContentKitLibrary.5226
++ _ContentKitLibraryCore.frameworkLibrary.13312
++ _ContentKitLibraryCore.frameworkLibrary.18834
++ _ContentKitLibraryCore.frameworkLibrary.5236
++ _CoreLocationLibraryCore.frameworkLibrary.9058
++ _CoreTextLibraryCore.frameworkLibrary.12250
++ _IconServicesLibrary.16549
++ _IconServicesLibraryCore.frameworkLibrary.16559
++ _ImageIOLibrary.5547
++ _ImageIOLibrary.9735
++ _ImageIOLibraryCore.frameworkLibrary.5565
++ _ImageIOLibraryCore.frameworkLibrary.9780
++ _LinkPresentationLibraryCore.frameworkLibrary.13293
++ _LinkServicesLibrary.6918
++ _LinkServicesLibraryCore.frameworkLibrary.6923
++ _OBJC_CLASS_$_LNChoiceRequest
++ _OBJC_CLASS_$_LNSystemEntityValueType
++ _OBJC_CLASS_$_WFDialogResponseContext
++ _OBJC_CLASS_$_WFLinkChoiceDialogRequest
++ _OBJC_CLASS_$_WFLinkChoiceDialogResponse
++ _OBJC_CLASS_$__TtC19VoiceShortcutClient15WFDiskSanitizer
++ _OBJC_IVAR_$_WFDialogResponse._context
++ _OBJC_IVAR_$_WFDialogResponseContext._turnIdentifier
++ _OBJC_IVAR_$_WFLinkChoiceDialogRequest._buttons
++ _OBJC_IVAR_$_WFLinkChoiceDialogRequest._request
++ _OBJC_IVAR_$_WFLinkChoiceDialogRequest._title
++ _OBJC_IVAR_$_WFLinkChoiceDialogResponse._selectedButtonIndex
++ _OBJC_IVAR_$_WFLinkConfirmationDialogResponse._value
++ _OBJC_IVAR_$_WFLinkSnippetDialogRequest._encodedSnippetActionToolInvocation
++ _OBJC_IVAR_$_WFLinkSnippetDialogRequest._snippetAction
++ _OBJC_IVAR_$_WFLocalizationContext._localizationUsage
++ _OBJC_IVAR_$_WFSymbolIcon._renderingMode
++ _OBJC_IVAR_$_WFSymbolIcon._symbolColors
++ _OBJC_IVAR_$_WFWorkflowRunRequest._firingTriggerID
++ _OBJC_IVAR_$_WFWorkflowRunRequest._urlNeedingAccess
++ _OBJC_IVAR_$_WFWorkflowRunningContext._runningInPersistentMode
++ _OBJC_METACLASS_$_WFDialogResponseContext
++ _OBJC_METACLASS_$_WFLinkChoiceDialogRequest
++ _OBJC_METACLASS_$_WFLinkChoiceDialogResponse
++ _OBJC_METACLASS_$__TtC19VoiceShortcutClient15WFDiskSanitizer
++ _OUTLINED_FUNCTION_90
++ _OUTLINED_FUNCTION_91
++ _UIImageFunction.9770
++ _UIKitLibrary.19347
++ _UIKitLibrary.sLib.12052
++ _UIKitLibrary.sLib.4907
++ _UIKitLibrary.sLib.9775
++ _UIKitLibrary.sOnce.12045
++ _UIKitLibrary.sOnce.4902
++ _UIKitLibrary.sOnce.9765
++ _UIKitLibraryCore.frameworkLibrary.18859
++ _UIKitLibraryCore.frameworkLibrary.19357
++ _VCBundleIdentifierDataActions
++ _VisionKitCoreLibraryCore.frameworkLibrary.14714
++ _WFBiomeLibrary.8573
++ _WFLocalizationUsageDisplay
++ _WFLocalizationUsageLanguageModel
++ _WFLogCategoryFilesystemEvents
++ _WFLogCategoryLanguage
++ _WFLogCategoryRuntimeUI
++ _WFLogCategoryToolKitExecutionPool
++ _WFLogCategoryUserStrings
++ _WFRunSourceIsToolKit
++ _WFRunSourceIsToolKit.onceToken
++ _WFRunSourceIsToolKit.toolKitRunSources
++ _WFSymbolIconRenderingModeHierarchical
++ _WFSymbolIconRenderingModeMonochrome
++ _WFSymbolIconRenderingModeMulticolor
++ _WFSymbolIconRenderingModePalette
++ _WFWorkflowControllerActionStateActionIndexKey
++ _WFWorkflowControllerProgressActionIndexKey
++ _WFWorkflowRunSourceReminders
++ _WFWorkflowRunSourceSpotlightTool
++ _WFWorkflowRunSourceToolKit
++ _WFWorkflowTypeReceivesInputFromSearch
++ __CLASS_METHODS__TtC19VoiceShortcutClient15WFDiskSanitizer
++ __DATA__TtC19VoiceShortcutClient15WFDiskSanitizer
++ __INSTANCE_METHODS__TtC19VoiceShortcutClient15WFDiskSanitizer
++ __METACLASS_DATA__TtC19VoiceShortcutClient15WFDiskSanitizer
++ __OBJC_$_CLASS_METHODS_WFDialogResponseContext
++ __OBJC_$_CLASS_METHODS_WFLinkChoiceDialogRequest
++ __OBJC_$_CLASS_METHODS_WFLinkChoiceDialogResponse
++ __OBJC_$_CLASS_PROP_LIST_WFDialogResponseContext
++ __OBJC_$_CLASS_PROP_LIST_WFLinkChoiceDialogRequest
++ __OBJC_$_INSTANCE_METHODS_VCVoiceShortcutClient(DaemonConfig|Spotlight|MenuBar|Sting|AppIntents|TopHitContextual|VoiceShortcuts|AutoShortcuts|Accessibility|Staccato|Automations|ContextualActions|ShareSheet|Suggestions)
++ __OBJC_$_INSTANCE_METHODS_WFDialogResponseContext
++ __OBJC_$_INSTANCE_METHODS_WFLinkChoiceDialogRequest
++ __OBJC_$_INSTANCE_METHODS_WFLinkChoiceDialogResponse
++ __OBJC_$_INSTANCE_VARIABLES_WFDialogResponseContext
++ __OBJC_$_INSTANCE_VARIABLES_WFLinkChoiceDialogRequest
++ __OBJC_$_INSTANCE_VARIABLES_WFLinkChoiceDialogResponse
++ __OBJC_$_PROP_LIST_WFDialogResponseContext
++ __OBJC_$_PROP_LIST_WFLinkChoiceDialogRequest
++ __OBJC_$_PROP_LIST_WFLinkChoiceDialogResponse
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_REFS_BSServiceConnectionConfiguring
++ __OBJC_CLASS_PROTOCOLS_$_WFDialogResponseContext
++ __OBJC_CLASS_PROTOCOLS_$_WFLinkChoiceDialogRequest
++ __OBJC_CLASS_RO_$_WFDialogResponseContext
++ __OBJC_CLASS_RO_$_WFLinkChoiceDialogRequest
++ __OBJC_CLASS_RO_$_WFLinkChoiceDialogResponse
++ __OBJC_LABEL_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ __OBJC_METACLASS_RO_$_WFDialogResponseContext
++ __OBJC_METACLASS_RO_$_WFLinkChoiceDialogRequest
++ __OBJC_METACLASS_RO_$_WFLinkChoiceDialogResponse
++ __OBJC_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ ___124-[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:]_block_invoke
++ ___124-[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:]_block_invoke_2
++ ___63-[WFLinkChoiceDialogRequest initWithRequest:title:attribution:]_block_invoke
++ ___68-[WFSingleConnectionXPCListener listener:shouldAcceptNewConnection:]_block_invoke.63
++ ___69-[VCVoiceShortcutClient(MenuBar) runShortcutIntentForWorkflow:error:]_block_invoke
++ ___69-[VCVoiceShortcutClient(MenuBar) runShortcutIntentForWorkflow:error:]_block_invoke_2
++ ___71-[WFOutOfProcessWorkflowController runnerWithError:synchronous:reason:]_block_invoke.166
++ ___77-[WFOutOfProcessWorkflowControllerXPCProxy resolveContent:completionHandler:]_block_invoke
++ ___77-[WFOutOfProcessWorkflowControllerXPCProxy resolveContent:completionHandler:]_block_invoke_2
++ ___78-[WFOutOfProcessWorkflowControllerXPCProxy transformAction:completionHandler:]_block_invoke
++ ___78-[WFOutOfProcessWorkflowControllerXPCProxy transformAction:completionHandler:]_block_invoke_2
++ ___85-[VCVoiceShortcutClient(MenuBar) markMenuBarWorkflowAsMigratedWithIdentifiers:error:]_block_invoke
++ ___85-[VCVoiceShortcutClient(MenuBar) markMenuBarWorkflowAsMigratedWithIdentifiers:error:]_block_invoke_2
++ ___91-[WFOutOfProcessWorkflowControllerXPCProxy resignDialogHandlingIfNeededWithPersistentMode:]_block_invoke
++ ___BiomeLibraryLibraryCore_block_invoke.20235
++ ___BiomeLibraryLibraryCore_block_invoke.3418
++ ___BiomeLibraryLibraryCore_block_invoke.8584
++ ___Block_byref_object_copy_.10595
++ ___Block_byref_object_copy_.1145
++ ___Block_byref_object_copy_.13134
++ ___Block_byref_object_copy_.14896
++ ___Block_byref_object_copy_.16028
++ ___Block_byref_object_copy_.1769
++ ___Block_byref_object_copy_.18843
++ ___Block_byref_object_copy_.20774
++ ___Block_byref_object_copy_.2792
++ ___Block_byref_object_copy_.5475
++ ___Block_byref_object_copy_.5662
++ ___Block_byref_object_copy_.5964
++ ___Block_byref_object_dispose_.10596
++ ___Block_byref_object_dispose_.1146
++ ___Block_byref_object_dispose_.13135
++ ___Block_byref_object_dispose_.14897
++ ___Block_byref_object_dispose_.16029
++ ___Block_byref_object_dispose_.1770
++ ___Block_byref_object_dispose_.18844
++ ___Block_byref_object_dispose_.20775
++ ___Block_byref_object_dispose_.2793
++ ___Block_byref_object_dispose_.5476
++ ___Block_byref_object_dispose_.5663
++ ___Block_byref_object_dispose_.5965
++ ___ContentKitLibraryCore_block_invoke.13313
++ ___ContentKitLibraryCore_block_invoke.18835
++ ___ContentKitLibraryCore_block_invoke.5237
++ ___CoreLocationLibraryCore_block_invoke.9059
++ ___CoreTextLibraryCore_block_invoke.12251
++ ___IconServicesLibraryCore_block_invoke.16560
++ ___ImageIOLibraryCore_block_invoke.5566
++ ___ImageIOLibraryCore_block_invoke.9781
++ ___LinkPresentationLibraryCore_block_invoke.13294
++ ___LinkServicesLibraryCore_block_invoke.6924
++ ___UIKitLibraryCore_block_invoke.18860
++ ___UIKitLibraryCore_block_invoke.19358
++ ___UIKitLibrary_block_invoke.12050
++ ___UIKitLibrary_block_invoke.4905
++ ___UIKitLibrary_block_invoke.9773
++ ___VisionKitCoreLibraryCore_block_invoke.14715
++ ___WFRunSourceIsToolKit_block_invoke
++ ___block_descriptor_32_e43_"WFDialogButton"24?0"LNChoiceOption"8Q16l
++ ___block_descriptor_40_e8_32bs_e41_v24?0"WFContentCollection"8"NSError"16ls32l8
++ ___block_descriptor_41_e93_B36?0{CGBitmapContextContentInfo=IiIBBf}8^{CGBitmapContextInfo=IQQQQiII^{CGColorSpace}BIf}28l
++ ___block_descriptor_48_e8_32r40r_e30_v24?0"INIntent"8"NSError"16lr32l8r40l8
++ ___block_literal_global.10105
++ ___block_literal_global.10418
++ ___block_literal_global.10618
++ ___block_literal_global.109
++ ___block_literal_global.11026
++ ___block_literal_global.11060
++ ___block_literal_global.112
++ ___block_literal_global.114
++ ___block_literal_global.1165
++ ___block_literal_global.11675
++ ___block_literal_global.120
++ ___block_literal_global.12046
++ ___block_literal_global.12391
++ ___block_literal_global.13395
++ ___block_literal_global.138
++ ___block_literal_global.140.10142
++ ___block_literal_global.141.11047
++ ___block_literal_global.1426
++ ___block_literal_global.14454
++ ___block_literal_global.14740
++ ___block_literal_global.149.12378
++ ___block_literal_global.14919
++ ___block_literal_global.15273
++ ___block_literal_global.155.10589
++ ___block_literal_global.15717
++ ___block_literal_global.16032
++ ___block_literal_global.171
++ ___block_literal_global.17381
++ ___block_literal_global.1742
++ ___block_literal_global.18013
++ ___block_literal_global.18075
++ ___block_literal_global.185.20779
++ ___block_literal_global.188
++ ___block_literal_global.18853
++ ___block_literal_global.18903
++ ___block_literal_global.18914
++ ___block_literal_global.19173
++ ___block_literal_global.194.20772
++ ___block_literal_global.19434
++ ___block_literal_global.1963
++ ___block_literal_global.197
++ ___block_literal_global.198
++ ___block_literal_global.19914
++ ___block_literal_global.200.10583
++ ___block_literal_global.20102
++ ___block_literal_global.202
++ ___block_literal_global.20922
++ ___block_literal_global.3586
++ ___block_literal_global.4282
++ ___block_literal_global.4739
++ ___block_literal_global.4908
++ ___block_literal_global.50.17662
++ ___block_literal_global.5175
++ ___block_literal_global.5223
++ ___block_literal_global.5473
++ ___block_literal_global.5587
++ ___block_literal_global.56.1967
++ ___block_literal_global.5717
++ ___block_literal_global.5861
++ ___block_literal_global.59.1969
++ ___block_literal_global.5975
++ ___block_literal_global.6129
++ ___block_literal_global.62.16033
++ ___block_literal_global.6282
++ ___block_literal_global.63
++ ___block_literal_global.65.1971
++ ___block_literal_global.7194
++ ___block_literal_global.73.15264
++ ___block_literal_global.8772
++ ___block_literal_global.8807
++ ___block_literal_global.9660
++ ___block_literal_global.9766
++ ___block_literal_global.9887
++ ___getBiomeLibrarySymbolLoc_block_invoke.20225
++ ___getBiomeLibrarySymbolLoc_block_invoke.3415
++ ___getBiomeLibrarySymbolLoc_block_invoke.8575
++ ___getCGImageSourceCopyPropertiesAtIndexSymbolLoc_block_invoke.9753
++ ___getCGImageSourceCreateImageAtIndexSymbolLoc_block_invoke.9749
++ ___getCGImageSourceCreateWithDataSymbolLoc_block_invoke.9741
++ ___getCGImageSourceGetCountSymbolLoc_block_invoke.9745
++ ___getCLLocationClass_block_invoke.9057
++ ___getISImageDescriptorClass_block_invoke.16546
++ ___getLPLinkMetadataClass_block_invoke.13290
++ ___getVKCRemoveBackgroundRequestHandlerClass_block_invoke.14710
++ ___getWFContentCollectionClass_block_invoke.5225
++ ___getWFContentItemClass_block_invoke.13287
++ ___getWFContentItemClass_block_invoke.18847
++ ___getWFFilesystemEventsLogObject_block_invoke
++ ___getWFInterchangeURLRequestClass_block_invoke
++ ___getWFLanguageLogObject_block_invoke
++ ___getWFRuntimeUILogObject_block_invoke
++ ___getWFStringContentItemClass_block_invoke.18822
++ ___getWFToolKitExecutionPoolLogObject_block_invoke
++ ___getWFUserStringsLogObject_block_invoke
++ ___getkCGImagePropertyOrientationSymbolLoc_block_invoke.9759
++ ___getkISImageDescriptorHomeScreenSymbolLoc_block_invoke.16548
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_10
++ ___unnamed_13
++ ___unnamed_18
++ ___unnamed_24
++ ___unnamed_34
++ ___unnamed_7
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_VoiceShortcutClient
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_VoiceShortcutClient
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_VoiceShortcutClient
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_VoiceShortcutClient
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_VoiceShortcutClient
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0lJ0AAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0lJ0AAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO19DaemonConfigurationOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183L3A34LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183L3A34LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183L3A34LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO24IndexShortcutsCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO24IndexShortcutsCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO37FullContextualActionReindexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient0abC7RequestO9SpotlightO37FullContextualActionReindexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient16XPCFSEventStreamV5EventV21XPCEventDecodingError33_5B8E907848C76F83C1A296A888D70424LLOSHAASQ
++ _associated conformance 19VoiceShortcutClient16XPCFSEventStreamVAA08XPCEventE0AA5EventAaDP_AA0F0
++ _associated conformance 19VoiceShortcutClient19CodableSecureObjectV10CodingKeysOyx_GSHAASQ
++ _associated conformance 19VoiceShortcutClient19CodableSecureObjectV10CodingKeysOyx_Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient19CodableSecureObjectV10CodingKeysOyx_Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V10CodingKeysOSHAASQ
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V10CodingKeysOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V10CodingKeysOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V21XPCEventDecodingError33_119264B5C8F161F8DADEABBDA5F7556DLLOSHAASQ
++ _associated conformance 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamVAA08XPCEventH0AA0G0AaDP_AA0I0
++ _associated conformance So21VCVoiceShortcutClientC05VoicebC0E7ServiceOSHACSQ
++ _audit_stringBiomeLibrary.20239
++ _audit_stringBiomeLibrary.3421
++ _audit_stringBiomeLibrary.8587
++ _audit_stringContentKit.13316
++ _audit_stringContentKit.18840
++ _audit_stringContentKit.5243
++ _audit_stringCoreLocation.9074
++ _audit_stringCoreText.12255
++ _audit_stringIconServices.16563
++ _audit_stringImageIO.5569
++ _audit_stringImageIO.9784
++ _audit_stringLinkPresentation.13308
++ _audit_stringLinkServices.6930
++ _audit_stringUIKit.18863
++ _audit_stringUIKit.19361
++ _audit_stringVisionKitCore.14718
++ _block_copy_helper.1
++ _block_copy_helper.226
++ _block_descriptor.228
++ _block_descriptor.3
++ _block_destroy_helper.2
++ _block_destroy_helper.227
++ _classUIImage.9768
++ _getBiomeLibrarySymbolLoc.ptr.20224
++ _getBiomeLibrarySymbolLoc.ptr.3414
++ _getBiomeLibrarySymbolLoc.ptr.8574
++ _getCGImageSourceCopyPropertiesAtIndexSymbolLoc.ptr.9752
++ _getCGImageSourceCreateImageAtIndexSymbolLoc.ptr.9748
++ _getCGImageSourceCreateWithDataSymbolLoc.ptr.9740
++ _getCGImageSourceGetCountSymbolLoc.ptr.9744
++ _getCLLocationClass.softClass.9056
++ _getISImageDescriptorClass.softClass.16545
++ _getLPLinkMetadataClass.softClass.13289
++ _getUIImageClass.9762
++ _getVKCRemoveBackgroundRequestHandlerClass.softClass.14709
++ _getWFContentCollectionClass.softClass.5224
++ _getWFContentItemClass.softClass.13286
++ _getWFContentItemClass.softClass.18846
++ _getWFFilesystemEventsLogObject
++ _getWFFilesystemEventsLogObject.log
++ _getWFFilesystemEventsLogObject.onceToken
++ _getWFInterchangeURLRequestClass.softClass
++ _getWFLanguageLogObject
++ _getWFLanguageLogObject.log
++ _getWFLanguageLogObject.onceToken
++ _getWFRuntimeUILogObject
++ _getWFRuntimeUILogObject.log
++ _getWFRuntimeUILogObject.onceToken
++ _getWFStringContentItemClass.softClass.18821
++ _getWFToolKitExecutionPoolLogObject
++ _getWFToolKitExecutionPoolLogObject.log
++ _getWFToolKitExecutionPoolLogObject.onceToken
++ _getWFUserStringsLogObject
++ _getWFUserStringsLogObject.log
++ _getWFUserStringsLogObject.onceToken
++ _get_enum_tag_for_layout_string 19VoiceShortcutClient0abC7RequestO9SpotlightO
++ _getkCGImagePropertyOrientationSymbolLoc.ptr.9758
++ _getkISImageDescriptorHomeScreenSymbolLoc.ptr.16547
++ _initUIImage.9764
++ _objc_msgSend$buttons
++ _objc_msgSend$encodedSnippetActionToolInvocation
++ _objc_msgSend$fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:
++ _objc_msgSend$firingTriggerID
++ _objc_msgSend$getRunShortcutIntentForWorkflow:completion:
++ _objc_msgSend$initWithConfirmationResponseCode:value:
++ _objc_msgSend$initWithItems:allowsMultipleSelection:message:attribution:prompt:done:parameterKey:
++ _objc_msgSend$initWithLocale:stringLocalizer:localizationUsage:
++ _objc_msgSend$initWithSymbolName:renderingMode:symbolColors:background:
++ _objc_msgSend$initWithTitle:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:
++ _objc_msgSend$isRunningInPersistentMode
++ _objc_msgSend$markMenuBarWorkflowAsMigratedWithIdentifiers:completion:
++ _objc_msgSend$request
++ _objc_msgSend$resignDialogHandlingIfNeededWithPersistentMode:
++ _objc_msgSend$resolveContent:completionHandler:
++ _objc_msgSend$selectedButtonIndex
++ _objc_msgSend$setPriority:
++ _objc_msgSend$setRunningInPersistentMode:
++ _objc_msgSend$snippetAction
++ _objc_msgSend$symbolColors
++ _objc_msgSend$transformAction:completionHandler:
++ _objc_msgSend$turnIdentifier
++ _objc_setProperty_atomic_copy
++ _objectdestroy.32Tm
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_retain_n
++ _symbolic $s19VoiceShortcutClient20CodableTransformableP
++ _symbolic 12SecureCoding_____Qz 19VoiceShortcutClient20CodableTransformableP
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic SDySSypG
++ _symbolic SDySSypGSg
++ _symbolic SayypG
++ _symbolic SbIeyBy_Sg
++ _symbolic SccySb_____G s5NeverO
++ _symbolic ShySSG7updated_AA7removedSb5forcet
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO07UserHasE10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO19DaemonConfigurationO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys028_7E07E9B612B0F096B9217137183N3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys028_7E07E9B612B0F096B9217137183M3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183L3A34LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO24IndexShortcutsCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____ 19VoiceShortcutClient0abC7RequestO9SpotlightO37FullContextualActionReindexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____ 19VoiceShortcutClient15WFDiskSanitizerC
++ _symbolic _____ 19VoiceShortcutClient16XPCFSEventStreamV
++ _symbolic _____ 19VoiceShortcutClient16XPCFSEventStreamV5EventV
++ _symbolic _____ 19VoiceShortcutClient16XPCFSEventStreamV5EventV21XPCEventDecodingError33_5B8E907848C76F83C1A296A888D70424LLO
++ _symbolic _____ 19VoiceShortcutClient19CodableSecureObjectV
++ _symbolic _____ 19VoiceShortcutClient19CodableSecureObjectV10CodingKeysO
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V10CodingKeysO
++ _symbolic _____ 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V21XPCEventDecodingError33_119264B5C8F161F8DADEABBDA5F7556DLLO
++ _symbolic _____ 19VoiceShortcutClient8XPCCoderV
++ _symbolic _____ So21VCVoiceShortcutClientC05VoicebC0E7ServiceO
++ _symbolic ______pSg So13OS_xpc_objectP
++ _symbolic _____ySSSDySSSo15LNQueryMetadataCGG s18_DictionaryStorageC
++ _symbolic _____ySSypG s17_NativeDictionaryV
++ _symbolic _____ySaySSGG 19VoiceShortcutClient0aB17ResponseWithValueO
++ _symbolic _____ySbG 19VoiceShortcutClient0aB17ResponseWithValueO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO07UserHasH10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PullCodingKeys028_7E07E9B612B0F096B9217137183Q3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PushCodingKeys028_7E07E9B612B0F096B9217137183Q3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO08IndexingG10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183O3A34LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO24IndexShortcutsCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO37FullContextualActionReindexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO07UserHasH10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO10CodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO21FireTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO24RefreshTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO27UnregisterTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO32DeleteTriggerShortcutsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO38CheckTriggerStateWithKeyPathCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO41CheckTriggerStateWithIdentifierCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO42GetConfiguredTriggerDescriptionsCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO43ResetAutomationConfirmationStatusCodingKeys33_4C034B6054E729C093D63752F4614418LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO19SpotlightCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO29DaemonConfigurationCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PullCodingKeys028_7E07E9B612B0F096B9217137183Q3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PushCodingKeys028_7E07E9B612B0F096B9217137183Q3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO08IndexingG10CodingKeys028_7E07E9B612B0F096B9217137183P3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO10CodingKeys028_7E07E9B612B0F096B9217137183O3A34LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO10CodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO21DeleteIndexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO24IndexShortcutsCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO28IndexToolChangesetCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO9SpotlightO37FullContextualActionReindexCodingKeys33_A11E3F0B9AD167B64B6F86218D3D5BB3LLO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 3XPC18XPCReceivedMessageV AC12XPCRichErrorV
++ _timestampDateFormatter.dateFormatter.15394
++ _timestampDateFormatter.onceToken.15392
++ _type_layout_string 19VoiceShortcutClient0abC7RequestO9SpotlightO
++ _type_layout_string 19VoiceShortcutClient16XPCFSEventStreamV5EventV
++ _type_layout_string 19VoiceShortcutClient41XPCDiskArbitrationNotificationEventStreamV0G0V
++ _type_layout_string So8NSObjectCRbzSo14NSSecureCodingRzl19VoiceShortcutClient19CodableSecureObjectVyxG
++ _xpc_set_event
+- -[VCVoiceShortcutClient(Spotlight) triggerFullContextualActionReindexWithCompletion:]
+- -[WFChooseFromListDialogRequest initWithItems:allowsMultipleSelection:message:attribution:prompt:parameterKey:]
+- -[WFLinkConfirmationDialogRequest initWithActionMetadata:showPrompt:dialogString:viewSnippet:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:destructive:]
+- -[WFLinkConfirmationDialogRequest initWithActionParameterMetadata:dialogString:viewSnippet:attribution:parameterInfo:]
+- -[WFLinkConfirmationDialogRequest initWithTitle:viewSnippet:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:]
+- -[WFLinkSnippetDialogRequest initWithViewSnippet:attribution:showPrompt:]
+- -[WFOutOfProcessWorkflowController fetchToolInvocationSummaryForInvocation:completionHandler:]
+- -[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:completionHandler:]
+- -[WFSageWorkflowRunnerClient fetchToolInvocationSummaryForInvocation:completionHandler:]
+- -[WFSageWorkflowRunnerClient initWithClientIdentifier:siriSessionID:locale:]
+- GCC_except_table1053
+- GCC_except_table1057
+- GCC_except_table1079
+- GCC_except_table1080
+- GCC_except_table1081
+- GCC_except_table1090
+- GCC_except_table1145
+- GCC_except_table1177
+- GCC_except_table1216
+- GCC_except_table1303
+- GCC_except_table1307
+- GCC_except_table1342
+- GCC_except_table1355
+- GCC_except_table1382
+- GCC_except_table1387
+- GCC_except_table1393
+- GCC_except_table1438
+- GCC_except_table1440
+- GCC_except_table1442
+- GCC_except_table1443
+- GCC_except_table1454
+- GCC_except_table1459
+- GCC_except_table1514
+- GCC_except_table1515
+- GCC_except_table1572
+- GCC_except_table1648
+- GCC_except_table1664
+- GCC_except_table1713
+- GCC_except_table1734
+- GCC_except_table1736
+- GCC_except_table1738
+- GCC_except_table1796
+- GCC_except_table1798
+- GCC_except_table1800
+- GCC_except_table1801
+- GCC_except_table1803
+- GCC_except_table1812
+- GCC_except_table1820
+- GCC_except_table1822
+- GCC_except_table1843
+- GCC_except_table1946
+- GCC_except_table1969
+- GCC_except_table2006
+- GCC_except_table2036
+- GCC_except_table206
+- GCC_except_table2085
+- GCC_except_table2096
+- GCC_except_table2104
+- GCC_except_table2127
+- GCC_except_table2132
+- GCC_except_table2135
+- GCC_except_table2268
+- GCC_except_table2275
+- GCC_except_table2282
+- GCC_except_table2489
+- GCC_except_table2539
+- GCC_except_table2543
+- GCC_except_table2548
+- GCC_except_table2579
+- GCC_except_table2697
+- GCC_except_table2700
+- GCC_except_table2707
+- GCC_except_table2713
+- GCC_except_table2718
+- GCC_except_table2737
+- GCC_except_table2743
+- GCC_except_table2922
+- GCC_except_table2992
+- GCC_except_table3004
+- GCC_except_table3007
+- GCC_except_table305
+- GCC_except_table3083
+- GCC_except_table3089
+- GCC_except_table3090
+- GCC_except_table3096
+- GCC_except_table326
+- GCC_except_table3299
+- GCC_except_table3386
+- GCC_except_table3428
+- GCC_except_table3518
+- GCC_except_table3547
+- GCC_except_table3548
+- GCC_except_table3549
+- GCC_except_table3749
+- GCC_except_table3756
+- GCC_except_table3759
+- GCC_except_table3762
+- GCC_except_table3764
+- GCC_except_table3772
+- GCC_except_table3877
+- GCC_except_table3881
+- GCC_except_table3894
+- GCC_except_table4001
+- GCC_except_table4051
+- GCC_except_table4080
+- GCC_except_table4085
+- GCC_except_table4088
+- GCC_except_table4091
+- GCC_except_table4094
+- GCC_except_table4097
+- GCC_except_table4102
+- GCC_except_table4106
+- GCC_except_table4109
+- GCC_except_table4111
+- GCC_except_table4114
+- GCC_except_table4117
+- GCC_except_table4124
+- GCC_except_table4129
+- GCC_except_table4150
+- GCC_except_table4154
+- GCC_except_table4166
+- GCC_except_table4198
+- GCC_except_table430
+- GCC_except_table435
+- GCC_except_table438
+- GCC_except_table445
+- GCC_except_table448
+- GCC_except_table623
+- GCC_except_table69
+- GCC_except_table780
+- GCC_except_table912
+- _BiomeLibraryLibraryCore.frameworkLibrary.19878
+- _BiomeLibraryLibraryCore.frameworkLibrary.3345
+- _BiomeLibraryLibraryCore.frameworkLibrary.8377
+- _ContentKitLibrary.12977
+- _ContentKitLibrary.18475
+- _ContentKitLibrary.5150
+- _ContentKitLibraryCore.frameworkLibrary.12980
+- _ContentKitLibraryCore.frameworkLibrary.18486
+- _ContentKitLibraryCore.frameworkLibrary.5160
+- _CoreLocationLibraryCore.frameworkLibrary.8864
+- _CoreTextLibraryCore.frameworkLibrary.11912
+- _IconServicesLibrary.16225
+- _IconServicesLibraryCore.frameworkLibrary.16234
+- _ImageIOLibrary.5470
+- _ImageIOLibrary.9422
+- _ImageIOLibraryCore.frameworkLibrary.5488
+- _ImageIOLibraryCore.frameworkLibrary.9467
+- _LinkPresentationLibraryCore.frameworkLibrary.12961
+- _LinkServicesLibrary.6727
+- _LinkServicesLibraryCore.frameworkLibrary.6732
+- _OBJC_IVAR_$_WFSymbolIcon._symbolColor
+- _UIImageFunction.9457
+- _UIKitLibrary.18994
+- _UIKitLibrary.sLib.11715
+- _UIKitLibrary.sLib.4821
+- _UIKitLibrary.sLib.9462
+- _UIKitLibrary.sOnce.11708
+- _UIKitLibrary.sOnce.4816
+- _UIKitLibrary.sOnce.9452
+- _UIKitLibraryCore.frameworkLibrary.18511
+- _UIKitLibraryCore.frameworkLibrary.19004
+- _VisionKitCoreLibraryCore.frameworkLibrary.14389
+- _WFBiomeLibrary.8373
+- _WFWorkflowControllerCurrentActionIndexKey
+- __OBJC_$_INSTANCE_METHODS_VCVoiceShortcutClient(MenuBar|Sting|AppIntents|TopHitContextual|VoiceShortcuts|AutoShortcuts|Accessibility|Staccato|Automations|ContextualActions|ShareSheet|Suggestions|Spotlight)
+- ___102-[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:completionHandler:]_block_invoke
+- ___102-[WFOutOfProcessWorkflowControllerXPCProxy fetchToolInvocationSummaryForInvocation:completionHandler:]_block_invoke_2
+- ___68-[WFSingleConnectionXPCListener listener:shouldAcceptNewConnection:]_block_invoke.12
+- ___71-[WFOutOfProcessWorkflowController runnerWithError:synchronous:reason:]_block_invoke.154
+- ___85-[VCVoiceShortcutClient(Spotlight) triggerFullContextualActionReindexWithCompletion:]_block_invoke
+- ___BiomeLibraryLibraryCore_block_invoke.19879
+- ___BiomeLibraryLibraryCore_block_invoke.3346
+- ___BiomeLibraryLibraryCore_block_invoke.8378
+- ___Block_byref_object_copy_.10269
+- ___Block_byref_object_copy_.12801
+- ___Block_byref_object_copy_.14574
+- ___Block_byref_object_copy_.15705
+- ___Block_byref_object_copy_.1738
+- ___Block_byref_object_copy_.18495
+- ___Block_byref_object_copy_.20407
+- ___Block_byref_object_copy_.2733
+- ___Block_byref_object_copy_.5400
+- ___Block_byref_object_copy_.5586
+- ___Block_byref_object_copy_.5867
+- ___Block_byref_object_dispose_.10270
+- ___Block_byref_object_dispose_.12802
+- ___Block_byref_object_dispose_.14575
+- ___Block_byref_object_dispose_.15706
+- ___Block_byref_object_dispose_.1739
+- ___Block_byref_object_dispose_.18496
+- ___Block_byref_object_dispose_.20408
+- ___Block_byref_object_dispose_.2734
+- ___Block_byref_object_dispose_.5401
+- ___Block_byref_object_dispose_.5587
+- ___Block_byref_object_dispose_.5868
+- ___ContentKitLibraryCore_block_invoke.12981
+- ___ContentKitLibraryCore_block_invoke.18487
+- ___ContentKitLibraryCore_block_invoke.5161
+- ___CoreLocationLibraryCore_block_invoke.8865
+- ___CoreTextLibraryCore_block_invoke.11913
+- ___IconServicesLibraryCore_block_invoke.16235
+- ___ImageIOLibraryCore_block_invoke.5489
+- ___ImageIOLibraryCore_block_invoke.9468
+- ___LinkPresentationLibraryCore_block_invoke.12962
+- ___LinkServicesLibraryCore_block_invoke.6733
+- ___UIKitLibraryCore_block_invoke.18512
+- ___UIKitLibraryCore_block_invoke.19005
+- ___UIKitLibrary_block_invoke.11713
+- ___UIKitLibrary_block_invoke.4819
+- ___UIKitLibrary_block_invoke.9460
+- ___VisionKitCoreLibraryCore_block_invoke.14390
+- ___block_descriptor_41_e91_B32?0{CGBitmapContextContentInfo=IiIBB}8^{CGBitmapContextInfo=IQQQQiII^{CGColorSpace}BI}24l
+- ___block_literal_global.10097
+- ___block_literal_global.10293
+- ___block_literal_global.10706
+- ___block_literal_global.10739
+- ___block_literal_global.11338
+- ___block_literal_global.11709
+- ___block_literal_global.1172
+- ___block_literal_global.12052
+- ___block_literal_global.126
+- ___block_literal_global.13053
+- ___block_literal_global.141.10726
+- ___block_literal_global.1410
+- ___block_literal_global.14137
+- ___block_literal_global.14421
+- ___block_literal_global.14597
+- ___block_literal_global.149.12039
+- ___block_literal_global.14951
+- ___block_literal_global.15072
+- ___block_literal_global.155.10263
+- ___block_literal_global.15709
+- ___block_literal_global.17054
+- ___block_literal_global.1711
+- ___block_literal_global.17681
+- ___block_literal_global.17743
+- ___block_literal_global.18505
+- ___block_literal_global.18555
+- ___block_literal_global.18566
+- ___block_literal_global.18821
+- ___block_literal_global.189
+- ___block_literal_global.19081
+- ___block_literal_global.1936
+- ___block_literal_global.19558
+- ___block_literal_global.19746
+- ___block_literal_global.20552
+- ___block_literal_global.3509
+- ___block_literal_global.4206
+- ___block_literal_global.4653
+- ___block_literal_global.4822
+- ___block_literal_global.50.17335
+- ___block_literal_global.5098
+- ___block_literal_global.5147
+- ___block_literal_global.5398
+- ___block_literal_global.55
+- ___block_literal_global.5510
+- ___block_literal_global.5637
+- ___block_literal_global.5763
+- ___block_literal_global.58
+- ___block_literal_global.5878
+- ___block_literal_global.60
+- ___block_literal_global.6032
+- ___block_literal_global.6088
+- ___block_literal_global.62.15710
+- ___block_literal_global.62.1940
+- ___block_literal_global.64
+- ___block_literal_global.66
+- ___block_literal_global.7002
+- ___block_literal_global.73.14942
+- ___block_literal_global.75
+- ___block_literal_global.8579
+- ___block_literal_global.8614
+- ___block_literal_global.90.9804
+- ___block_literal_global.92.9805
+- ___block_literal_global.9453
+- ___block_literal_global.9573
+- ___block_literal_global.9767
+- ___getBiomeLibrarySymbolLoc_block_invoke.19869
+- ___getBiomeLibrarySymbolLoc_block_invoke.3342
+- ___getBiomeLibrarySymbolLoc_block_invoke.8375
+- ___getCGImageSourceCopyPropertiesAtIndexSymbolLoc_block_invoke.9440
+- ___getCGImageSourceCreateImageAtIndexSymbolLoc_block_invoke.9436
+- ___getCGImageSourceCreateWithDataSymbolLoc_block_invoke.9428
+- ___getCGImageSourceGetCountSymbolLoc_block_invoke.9432
+- ___getCLLocationClass_block_invoke.8863
+- ___getISImageDescriptorClass_block_invoke.16222
+- ___getLPLinkMetadataClass_block_invoke.12958
+- ___getVKCRemoveBackgroundRequestHandlerClass_block_invoke.14388
+- ___getWFContentCollectionClass_block_invoke.5149
+- ___getWFContentItemClass_block_invoke.12955
+- ___getWFContentItemClass_block_invoke.18499
+- ___getWFFileTypeClass_block_invoke
+- ___getWFStringContentItemClass_block_invoke.18474
+- ___get_ICURLRequestClass_block_invoke
+- ___getkCGImagePropertyOrientationSymbolLoc_block_invoke.9446
+- ___getkISImageDescriptorHomeScreenSymbolLoc_block_invoke.16224
+- ___unnamed_16
+- ___unnamed_17
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_VoiceShortcutClient
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_VoiceShortcutClient
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOSHAASQ
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _audit_stringBiomeLibrary.19883
+- _audit_stringBiomeLibrary.3349
+- _audit_stringBiomeLibrary.8381
+- _audit_stringContentKit.12984
+- _audit_stringContentKit.18492
+- _audit_stringContentKit.5167
+- _audit_stringCoreLocation.8880
+- _audit_stringCoreText.11917
+- _audit_stringIconServices.16238
+- _audit_stringImageIO.5492
+- _audit_stringImageIO.9471
+- _audit_stringLinkPresentation.12976
+- _audit_stringLinkServices.6739
+- _audit_stringUIKit.18515
+- _audit_stringUIKit.19008
+- _audit_stringVisionKitCore.14393
+- _block_copy_helper.214
+- _block_descriptor.216
+- _block_destroy_helper.215
+- _classUIImage.9455
+- _getBiomeLibrarySymbolLoc.ptr.19868
+- _getBiomeLibrarySymbolLoc.ptr.3341
+- _getBiomeLibrarySymbolLoc.ptr.8374
+- _getCGImageSourceCopyPropertiesAtIndexSymbolLoc.ptr.9439
+- _getCGImageSourceCreateImageAtIndexSymbolLoc.ptr.9435
+- _getCGImageSourceCreateWithDataSymbolLoc.ptr.9427
+- _getCGImageSourceGetCountSymbolLoc.ptr.9431
+- _getCLLocationClass.softClass.8862
+- _getISImageDescriptorClass.softClass.16221
+- _getLPLinkMetadataClass.softClass.12957
+- _getUIImageClass.9449
+- _getVKCRemoveBackgroundRequestHandlerClass.softClass.14387
+- _getWFContentCollectionClass.softClass.5148
+- _getWFContentItemClass.softClass.12954
+- _getWFContentItemClass.softClass.18498
+- _getWFFileTypeClass.softClass
+- _getWFStringContentItemClass.softClass.18473
+- _get_ICURLRequestClass.softClass
+- _getkCGImagePropertyOrientationSymbolLoc.ptr.9445
+- _getkISImageDescriptorHomeScreenSymbolLoc.ptr.16223
+- _initUIImage.9451
+- _malloc
+- _objc_msgSend$fetchToolInvocationSummaryForInvocation:completionHandler:
+- _objc_msgSend$initWithItems:allowsMultipleSelection:message:attribution:prompt:parameterKey:
+- _objc_msgSend$initWithLocale:stringLocalizer:
+- _objc_msgSend$initWithTitle:viewSnippet:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:
+- _objc_msgSend$symbolColor
+- _objc_msgSend$triggerFullContextualActionReindexWithCompletion:
+- _swift_release_n
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO07SyncingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO08IndexingD10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____ 19VoiceShortcutClient0abC7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO08IndexingG10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23CreateTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO23DeleteTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO31FetchScheduledTriggerCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO11AutomationsO35FetchAllScheduledTriggersCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PullCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG0O14PushCodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO07SyncingG10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO08IndexingG10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 19VoiceShortcutClient0deF7RequestO7ToolKitO10CodingKeys33_0D66B3A0F8EA9F0433EC7AFC786AA002LLO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 3XPC18XPCReceivedMessageV AC12XPCRichErrorV
+- _timestampDateFormatter.dateFormatter.15073
+- _timestampDateFormatter.onceToken.15071
+CStrings:
++ ", diskDescription="
++ "<%@: %p, turnIdentifier: %@>"
++ "<DiskArbitrationEvent name="
++ "<fsevent, payload: "
++ "@\"LNChoiceRequest\""
++ "@\"LNValue\""
++ "@\"WFDialogButton\"24@?0@\"LNChoiceOption\"8Q16"
++ "@\"WFDialogResponseContext\""
++ "@100@0:8@16@24@32@40@48@56@64@72B80@84B92B96"
++ "@108@0:8@16B24@28@36@44@52@60@68@76@84B92@96B104"
++ "@32@0:8q16q24"
++ "@68@0:8@16B24@28@36@44@52@60"
++ "Apple Intelligence"
++ "Attempting to add event for stream: %s."
++ "B36@?0{CGBitmapContextContentInfo=IiIBBf}8^{CGBitmapContextInfo=IQQQQiII^{CGColorSpace}BIf}28"
++ "BSServiceConnectionCommonConfiguring"
++ "Class getWFInterchangeURLRequestClass(void)_block_invoke"
++ "Client dropped request"
++ "DaemonConfig"
++ "Description"
++ "DiskAppeared"
++ "DiskDisappeared"
++ "Failed to decode data as Data"
++ "Failed to unarchive Data as Trigger"
++ "FilesystemEvents"
++ "Hierarchical"
++ "Language"
++ "Monochrome"
++ "Multicolor"
++ "Palette"
++ "RuntimeUI"
++ "Stream: %s has added listener for %s: %s."
++ "T@\"LNAction\",R,C,N,V_snippetAction"
++ "T@\"LNChoiceRequest\",R,C,N,V_request"
++ "T@\"LNValue\",R,N,V_value"
++ "T@\"NSArray\",R,C,N,V_buttons"
++ "T@\"NSArray\",R,N,V_symbolColors"
++ "T@\"NSData\",R,C,N,V_encodedSnippetActionToolInvocation"
++ "T@\"NSString\",C,N,V_firingTriggerID"
++ "T@\"NSString\",C,V_turnIdentifier"
++ "T@\"NSString\",R,N,V_localizationUsage"
++ "T@\"NSString\",R,N,V_renderingMode"
++ "T@\"NSURL\",&,N"
++ "T@\"NSURL\",&,N,V_urlNeedingAccess"
++ "T@\"WFDialogResponseContext\",&,N,V_context"
++ "TB,N,GisRunningInPersistentMode,V_runningInPersistentMode"
++ "TQ,N"
++ "ToolKitExecutionPool"
++ "Tq,R,N,V_selectedButtonIndex"
++ "TrackedFilesystemNode"
++ "UnknownDiskEvent"
++ "UserStrings"
++ "VCIsolatedModules"
++ "VoiceShortcutClient/WFLogActivity.swift"
++ "Vv32@0:8@\"WFAnyToolKitVariableContent\"16@?<v@?@\"WFContentCollection\"@\"NSError\">24"
++ "Vv36@0:8@\"NSData\"16B24@?<v@?@\"NSData\"@\"NSError\">28"
++ "Vv36@0:8@16B24@?28"
++ "WFDialogResponseContext"
++ "WFInterchangeURLRequest"
++ "WFLinkChoiceDialogRequest"
++ "WFLinkChoiceDialogResponse"
++ "WFWorkflowTypeReceivesInputFromSearch"
++ "You must be running before fetching a tool invocation summary"
++ "You must be running before resolving a deferred value"
++ "You must be running before resolving content"
++ "You must be running before transforming an action"
++ "_TtC19VoiceShortcutClient15WFDiskSanitizer"
++ "_buttons"
++ "_encodedSnippetActionToolInvocation"
++ "_firingTriggerID"
++ "_localizationUsage"
++ "_request"
++ "_runningInPersistentMode"
++ "_selectedButtonIndex"
++ "_snippetAction"
++ "_symbolColors"
++ "_turnIdentifier"
++ "_urlNeedingAccess"
++ "actionStateActionIndex"
++ "app.2.stack.3d.fill"
++ "apple.intelligence"
++ "automation_data_source_migration"
++ "checkTriggerStateWithIdentifier"
++ "checkTriggerStateWithKeyPath"
++ "coherence_database"
++ "coherence_sync"
++ "com.apple.diskarbitration"
++ "com.apple.fsevents.matching"
++ "com.apple.intelligenceplatformd"
++ "daemonConfiguration"
++ "deleteTriggerShortcuts"
++ "display"
++ "encodedSnippetActionToolInvocation"
++ "executor:needsChoiceWithRequest:"
++ "fetchToolInvocationSummaryForInvocation:fetchingDefaultValues:completionHandler:"
++ "firingTriggerID"
++ "fullContextualActionReindex"
++ "getConfiguredTriggerDescriptions"
++ "getRunShortcutIntentForWorkflow:completion:"
++ "indexToolChangeset"
++ "indexed_entity_find_action"
++ "initWithActionMetadata:showPrompt:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:destructive:"
++ "initWithActionParameterMetadata:dialogString:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:attribution:parameterInfo:"
++ "initWithClientIdentifier:siriSessionID:locale:runSource:"
++ "initWithConfirmationResponseCode:value:"
++ "initWithItems:allowsMultipleSelection:message:attribution:prompt:done:parameterKey:"
++ "initWithLocale:stringLocalizer:localizationUsage:"
++ "initWithRequest:title:attribution:"
++ "initWithResponseCode:selectedButtonIndex:"
++ "initWithSymbolName:"
++ "initWithSymbolName:renderingMode:symbolColors:"
++ "initWithSymbolName:renderingMode:symbolColors:background:"
++ "initWithTitle:viewSnippet:snippetAction:encodedSnippetActionToolInvocation:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:"
++ "initWithViewSnippet:snippetAction:encodedSnippetActionToolInvocation:attribution:showPrompt:"
++ "ios_new_automations"
++ "isRunningInPersistentMode"
++ "languageModel"
++ "listModulesWithCompletionHandler:"
++ "listSubsystems"
++ "llm_actions"
++ "localizationUsage"
++ "mac_automations"
++ "mac_filesystem_automations"
++ "mac_show_share_for_new_blank_automations"
++ "markMenuBarWorkflowAsMigratedWithIdentifiers:completion:"
++ "markMenuBarWorkflowAsMigratedWithIdentifiers:error:"
++ "montara_snippets"
++ "new_icon_picker"
++ "new_runtime_ui"
++ "os_activity_create_wrapper failed to create os_activity object!"
++ "performAsynchronously(service:request:)"
++ "progressActionIndex"
++ "reminders-tool"
++ "resetAutomationConfirmationStatus"
++ "resignDialogHandlingIfNeededWithPersistentMode:"
++ "resolveContent:completionHandler:"
++ "runShortcutIntentForWorkflow:error:"
++ "runningInPersistentMode"
++ "sanitizeValue:"
++ "sanitizedDictionary:"
++ "search_action"
++ "selectedButtonIndex"
++ "setFiringTriggerID:"
++ "setPriority:"
++ "setQueue:"
++ "setRunningInPersistentMode:"
++ "setTurnIdentifier:"
++ "setUrlNeedingAccess:"
++ "siriactionsd_rearchitecture"
++ "snippetAction"
++ "spotlight-tool"
++ "symbolColors"
++ "toolKit"
++ "transformAction:completionHandler:"
++ "turnIdentifier"
++ "unregisterTrigger"
++ "urlNeedingAccess"
++ "userHasAutomations"
++ "v12@?0B8"
++ "v24@0:8@\"BSServiceQueue\"16"
++ "v24@?0@\"INIntent\"8@\"NSError\"16"
++ "v32@0:8@\"LNActionExecutor\"16@\"LNChoiceRequest\"24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"WFWorkflowDescriptor\"16@?<v@?@\"INIntent\"@\"NSError\">24"
+- "@60@0:8@16B24@28@36@44@52"
+- "@84@0:8@16@24@32@40@48@56B64@68B76B80"
+- "@92@0:8@16B24@28@36@44@52@60@68B76@80B88"
+- "B32@?0{CGBitmapContextContentInfo=IiIBB}8^{CGBitmapContextInfo=IQQQQiII^{CGColorSpace}BI}24"
+- "Class  _Nonnull getWFFileTypeClass(void)_block_invoke"
+- "Class get_ICURLRequestClass(void)_block_invoke"
+- "NewIconPicker"
+- "T@\"WFColor\",R,N,V_symbolColor"
+- "_ICURLRequest"
+- "_symbolColor"
+- "currentActionIndex"
+- "fetchToolInvocationSummaryForInvocation:completionHandler:"
+- "initWithActionMetadata:showPrompt:dialogString:viewSnippet:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:destructive:"
+- "initWithActionParameterMetadata:dialogString:viewSnippet:attribution:parameterInfo:"
+- "initWithClientIdentifier:siriSessionID:locale:"
+- "initWithItems:allowsMultipleSelection:message:attribution:prompt:parameterKey:"
+- "initWithTitle:viewSnippet:yesText:noText:attribution:parameterInfo:isContinueInAppRequest:systemStyle:showPrompt:destructive:"
+- "initWithViewSnippet:attribution:showPrompt:"
+- "performAsynchronously(request:)"
+
+```

@@ -1,0 +1,1256 @@
+## HealthRecordsUI
+
+> `/System/Library/PrivateFrameworks/HealthRecordsUI.framework/HealthRecordsUI`
+
+```diff
+
+-5200.5.1.0.0
+-  __TEXT.__text: 0x37bdfc
+-  __TEXT.__auth_stubs: 0x59d0
+-  __TEXT.__objc_methlist: 0x9ae4
+-  __TEXT.__const: 0x181b4
+-  __TEXT.__gcc_except_tab: 0x48c
+-  __TEXT.__cstring: 0x1a2ff
+-  __TEXT.__oslogstring: 0x738f
+-  __TEXT.__swift5_typeref: 0x6fb2
+-  __TEXT.__constg_swiftt: 0xfed8
+-  __TEXT.__swift5_reflstr: 0x8868
+-  __TEXT.__swift5_fieldmd: 0x897c
+-  __TEXT.__swift5_builtin: 0x550
+-  __TEXT.__swift5_assocty: 0xe98
+-  __TEXT.__swift5_proto: 0x11e8
+-  __TEXT.__swift5_types: 0xa10
+-  __TEXT.__swift5_capture: 0x37ac
+-  __TEXT.__swift5_protos: 0x114
+-  __TEXT.__swift_as_entry: 0x1d8
+-  __TEXT.__swift_as_ret: 0x204
+-  __TEXT.__swift5_mpenum: 0x80
+-  __TEXT.__unwind_info: 0xc620
+-  __TEXT.__eh_frame: 0xb010
+-  __TEXT.__objc_classname: 0xf70
+-  __TEXT.__objc_methname: 0x178a4
+-  __TEXT.__objc_methtype: 0x2e7b
+-  __TEXT.__objc_stubs: 0xb540
+-  __DATA_CONST.__got: 0x1c58
+-  __DATA_CONST.__const: 0x2010
+-  __DATA_CONST.__objc_classlist: 0xc58
++6074.1.2.4.0
++  __TEXT.__text: 0x363588
++  __TEXT.__auth_stubs: 0x5c20
++  __TEXT.__objc_methlist: 0x95bc
++  __TEXT.__const: 0x18a74
++  __TEXT.__gcc_except_tab: 0x4a0
++  __TEXT.__cstring: 0x1a09f
++  __TEXT.__oslogstring: 0x73ff
++  __TEXT.__swift5_typeref: 0x749e
++  __TEXT.__constg_swiftt: 0xfd28
++  __TEXT.__swift5_reflstr: 0x89b8
++  __TEXT.__swift5_fieldmd: 0x8ae0
++  __TEXT.__swift5_builtin: 0x564
++  __TEXT.__swift5_assocty: 0xe68
++  __TEXT.__swift5_proto: 0x1268
++  __TEXT.__swift5_types: 0xa04
++  __TEXT.__swift5_capture: 0x3744
++  __TEXT.__swift_as_entry: 0x270
++  __TEXT.__swift_as_ret: 0x2b4
++  __TEXT.__swift5_protos: 0x120
++  __TEXT.__swift5_mpenum: 0x90
++  __TEXT.__unwind_info: 0xbe00
++  __TEXT.__eh_frame: 0xc820
++  __TEXT.__objc_classname: 0xf85
++  __TEXT.__objc_methname: 0x178bc
++  __TEXT.__objc_methtype: 0x2f3e
++  __TEXT.__objc_stubs: 0xb4a0
++  __DATA_CONST.__got: 0x1ce0
++  __DATA_CONST.__const: 0x1a00
++  __DATA_CONST.__objc_classlist: 0xc20
+   __DATA_CONST.__objc_catlist: 0x138
+   __DATA_CONST.__objc_catlist2: 0x10
+-  __DATA_CONST.__objc_protolist: 0x2f0
++  __DATA_CONST.__objc_protolist: 0x2f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5cd8
+-  __DATA_CONST.__objc_protorefs: 0x168
++  __DATA_CONST.__objc_selrefs: 0x5c40
++  __DATA_CONST.__objc_protorefs: 0x170
+   __DATA_CONST.__objc_superrefs: 0x210
+-  __DATA_CONST.__objc_arraydata: 0xd0
+-  __AUTH_CONST.__auth_got: 0x2cf8
+-  __AUTH_CONST.__const: 0x12200
+-  __AUTH_CONST.__cfstring: 0x2160
+-  __AUTH_CONST.__objc_const: 0x1e490
+-  __AUTH_CONST.__objc_arrayobj: 0xa8
++  __DATA_CONST.__objc_arraydata: 0xc0
++  __AUTH_CONST.__auth_got: 0x2e20
++  __AUTH_CONST.__const: 0x12078
++  __AUTH_CONST.__cfstring: 0x20e0
++  __AUTH_CONST.__objc_const: 0x1df30
++  __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_intobj: 0x120
+-  __AUTH.__objc_data: 0x103e8
+-  __AUTH.__data: 0xb400
++  __AUTH.__objc_data: 0xfd20
++  __AUTH.__data: 0xb6c8
+   __DATA.__objc_ivar: 0x608
+-  __DATA.__data: 0x8698
++  __DATA.__data: 0x7ef8
+   __DATA.__objc_stublist: 0x100
+-  __DATA.__bss: 0x1e040
+-  __DATA.__common: 0x7e0
++  __DATA.__bss: 0x1ed10
++  __DATA.__common: 0x6e8
+   __DATA_DIRTY.__objc_data: 0x1088
+-  __DATA_DIRTY.__data: 0x2898
+-  __DATA_DIRTY.__bss: 0x1920
++  __DATA_DIRTY.__data: 0x27e8
++  __DATA_DIRTY.__bss: 0x1ba0
+   __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices
+   - /System/Library/Frameworks/Combine.framework/Combine
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+-  - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/HealthAppServices.framework/HealthAppServices
++  - /System/Library/PrivateFrameworks/HealthContent.framework/HealthContent
+   - /System/Library/PrivateFrameworks/HealthExperience.framework/HealthExperience
+   - /System/Library/PrivateFrameworks/HealthExperienceUI.framework/HealthExperienceUI
+   - /System/Library/PrivateFrameworks/HealthKitAdditions.framework/HealthKitAdditions
+
+   - /System/Library/PrivateFrameworks/HealthPlatformCore.framework/HealthPlatformCore
+   - /System/Library/PrivateFrameworks/HealthPluginHost.framework/HealthPluginHost
+   - /System/Library/PrivateFrameworks/HealthRecordServices.framework/HealthRecordServices
+-  - /System/Library/PrivateFrameworks/HealthRecordsConceptsSupport.framework/HealthRecordsConceptsSupport
+   - /System/Library/PrivateFrameworks/HealthRecordsWalletSupport.framework/HealthRecordsWalletSupport
+   - /System/Library/PrivateFrameworks/HealthToolbox.framework/HealthToolbox
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+
+   - /System/Library/PrivateFrameworks/PrintKitUI.framework/PrintKitUI
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/WirelessDiagnostics
++  - /System/Library/PrivateFrameworks/UserDomainConceptsSupport.framework/UserDomainConceptsSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 25E5120A-0514-372A-938F-CE3130E8293D
+-  Functions: 18953
+-  Symbols:   13273
+-  CStrings:  7576
++  UUID: 5605286B-7F8F-3849-9A7C-84C9DC5C53D9
++  Functions: 17420
++  Symbols:   13197
++  CStrings:  7548
+ 
+Symbols:
++ +[WDMedicalRecordDisplayItemProvider filteredSampleTypes:]
++ -[HRProfile initWithHealthStore:healthRecordsStore:clinicalAccountStore:ingestionStore:]
++ GCC_except_table178
++ GCC_except_table22
++ GCC_except_table32
++ GCC_except_table58
++ GCC_except_table62
++ GCC_except_table67
++ GCC_except_table80
++ GCC_except_table88
++ GCC_except_table98
++ _HKHealthRecordsEnvironmentsLogicallySorted
++ _HKLogHealthRecordsCategory
++ _OBJC_CLASS_$_HAServicesDefines
++ _OBJC_CLASS_$_HKDemographicsInformationWrapper
++ _OBJC_CLASS_$_HKFHIRIdentifier
++ _OBJC_CLASS_$_HKObserverSet
++ _OBJC_CLASS_$_HKSynchronousObserverSet
++ _OBJC_CLASS_$_NSURLSession
++ _OBJC_CLASS_$_NSURLSessionConfiguration
++ _OBJC_CLASS_$_OS_os_log
++ _OBJC_CLASS_$__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ _OBJC_METACLASS_$__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ _OBJC_METACLASS_$__TtC18HealthExperienceUI34OnboardingCollectionViewController
++ _OUTLINED_FUNCTION_9
++ __DATA__TtC15HealthRecordsUI21TimelineRecordFetcher
++ __DATA__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ __DATA__TtC15HealthRecordsUI24TimelinePagingDataSource
++ __DATA__TtC15HealthRecordsUI24TimelineViewDataProvider
++ __DATA__TtC15HealthRecordsUI29TimelineViewDataDayCollection
++ __DATA__TtC15HealthRecordsUI39CategorySearchSectionDataSourceProvider
++ __DATA__TtC15HealthRecordsUIP33_766154230A8DC4663A59392D072AE21B16SandboxViewModel
++ __DATA__TtC15HealthRecordsUIP33_AC6A825C06A38C484D4B45BDB6B630A412RecordsActor
++ __INSTANCE_METHODS__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ __IVARS__TtC15HealthRecordsUI21TimelineRecordFetcher
++ __IVARS__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ __IVARS__TtC15HealthRecordsUI24TimelinePagingDataSource
++ __IVARS__TtC15HealthRecordsUI24TimelineViewDataProvider
++ __IVARS__TtC15HealthRecordsUI29TimelineViewDataDayCollection
++ __IVARS__TtC15HealthRecordsUI39CategorySearchSectionDataSourceProvider
++ __IVARS__TtC15HealthRecordsUIP33_766154230A8DC4663A59392D072AE21B16SandboxViewModel
++ __IVARS__TtC15HealthRecordsUIP33_AC6A825C06A38C484D4B45BDB6B630A412RecordsActor
++ __METACLASS_DATA__TtC15HealthRecordsUI21TimelineRecordFetcher
++ __METACLASS_DATA__TtC15HealthRecordsUI22AccountUpgradeTileCell
++ __METACLASS_DATA__TtC15HealthRecordsUI24TimelinePagingDataSource
++ __METACLASS_DATA__TtC15HealthRecordsUI24TimelineViewDataProvider
++ __METACLASS_DATA__TtC15HealthRecordsUI29TimelineViewDataDayCollection
++ __METACLASS_DATA__TtC15HealthRecordsUI39CategorySearchSectionDataSourceProvider
++ __METACLASS_DATA__TtC15HealthRecordsUIP33_766154230A8DC4663A59392D072AE21B16SandboxViewModel
++ __METACLASS_DATA__TtC15HealthRecordsUIP33_AC6A825C06A38C484D4B45BDB6B630A412RecordsActor
++ __OBJC_$_INSTANCE_METHODS__TtC15HealthRecordsUI24TimelinePagingDataSource(HealthRecordsUI)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_UIPopoverPresentationControllerSourceItem
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIPopoverPresentationControllerSourceItem
++ __OBJC_$_PROTOCOL_REFS_UIPopoverPresentationControllerSourceItem
++ __OBJC_CLASS_PROTOCOLS_$__TtC15HealthRecordsUI24TimelinePagingDataSource(HealthRecordsUI)
++ __OBJC_LABEL_PROTOCOL_$_UIPopoverPresentationControllerSourceItem
++ __OBJC_PROTOCOL_$_UIPopoverPresentationControllerSourceItem
++ __PROTOCOLS__TtC15HealthRecordsUI18NotificationPolicy.2
++ __PROTOCOLS__TtC15HealthRecordsUI39SignedClinicalDataPreviewViewController.3
++ __PROTOCOLS__TtC15HealthRecordsUI41DownloadableAttachmentStateChangeListener.2
++ __PROTOCOLS__TtC15HealthRecordsUIP33_F9D686935E182FED04EA791AA4CFB7FB18DataSourceObserver.12
++ __PROTOCOL_INSTANCE_METHODS__TtP15HealthRecordsUI29TimelineRecordFetcherObserver_
++ __PROTOCOL_METHOD_TYPES__TtP15HealthRecordsUI29TimelineRecordFetcherObserver_
++ __PROTOCOL__TtP15HealthRecordsUI29TimelineRecordFetcherObserver_
++ ___51-[WDClinicalSettingsOptInSection _fetchOptInStatus]_block_invoke.343
++ ___57-[WDClinicalOnboardingViewController _changeEnvironment:]_block_invoke.502
++ ___57-[WDClinicalOnboardingViewController _changeEnvironment:]_block_invoke_2
++ ___59-[WDClinicalProviderDetailsViewController _computeSections]_block_invoke.308
++ ___59-[WDClinicalProviderDetailsViewController _computeSections]_block_invoke_2.312
++ ___66-[WDClinicalOnboardingViewController _searchResultsForQuery:from:]_block_invoke.414
++ ___70-[WDClinicalOnboardingViewController _loadGatewayProxyForDeeplinking:]_block_invoke.393
++ ___71-[WDClinicalOnboardingOAuthNavigationViewController didLoginToAccount:]_block_invoke.320
++ ___82-[WDMedicalRecordSourceDataViewController _fetchAndDisplaySourceStringIfNecessary]_block_invoke.319
++ ___86-[WDClinicalOnboardingViewController _beginLoadingAlreadyConnectedAccountsIfNecessary]_block_invoke.437
++ ___86-[WDClinicalOnboardingViewController _beginLoadingAlreadyConnectedAccountsIfNecessary]_block_invoke_2.441
++ ___88-[HRProfile initWithHealthStore:healthRecordsStore:clinicalAccountStore:ingestionStore:]_block_invoke
++ ___88-[HRProfile initWithHealthStore:healthRecordsStore:clinicalAccountStore:ingestionStore:]_block_invoke.cold.1
++ ___block_descriptor_48_e8_32w_e20_v20?0B8"NSError"12lw32l8
++ ___block_literal_global.311
++ ___block_literal_global.367
++ ___block_literal_global.387
++ ___block_literal_global.419
++ ___block_literal_global.440
++ ___block_literal_global.444
++ ___block_literal_global.447
++ ___block_literal_global.449
++ ___block_literal_global.451
++ ___block_literal_global.489
++ ___block_literal_global.500
++ ___swift_memcpy96_8
++ ___unnamed_12
++ ___unnamed_14
++ ___unnamed_16
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_HealthRecordsUI
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_HealthRecordsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_HealthRecordsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_HealthRecordsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_HealthRecordsUI
++ _associated conformance 15HealthRecordsUI10ButtonItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI10QRCodeItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI10RecordItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI11SandboxView33_766154230A8DC4663A59392D072AE21BLLV05SwiftC00E0AA4BodyAeFP_AeF
++ _associated conformance 15HealthRecordsUI13EducationItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI13TimelineStyleOSHAASQ
++ _associated conformance 15HealthRecordsUI13UDCRecentItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI14NavigationItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI14TimelineRecordVSHAASQ
++ _associated conformance 15HealthRecordsUI16DeleteRecordItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI16RecordSourceItemC0A10Experience013SectionedDataeF0AaD08SnapshotieF0
++ _associated conformance 15HealthRecordsUI16SandboxViewModel33_766154230A8DC4663A59392D072AE21BLLC7Combine16ObservableObjectAA0N19WillChangePublisherAeFP_AE0Q0
++ _associated conformance 15HealthRecordsUI17AccountActionItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI17AccountSourceItemC0A10Experience013SectionedDataeF0AaD08SnapshotieF0
++ _associated conformance 15HealthRecordsUI17PDFAttachmentItemV0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI17PinnedConceptItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI17UploadNewDataItemC0A10Experience09Sectionedf6SourceG0AaD08SnapshotfjG0
++ _associated conformance 15HealthRecordsUI18ReferenceRangeItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI18TextAttachmentItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI19ImageAttachmentItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI19UDCAlphabeticalItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI20AttachmentSearchItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI21RecordDetailTitleItemC0A10Experience019SectionedDataSourceG0AaD08SnapshotjkG0
++ _associated conformance 15HealthRecordsUI22TopAlignedIconListItemV0A10Experience019SectionedDataSourceH0AaD08SnapshotklH0
++ _associated conformance 15HealthRecordsUI22TurnOnAllDataTypesItemC0A10Experience09Sectionedg6SourceI0AaD08SnapshotglI0
++ _associated conformance 15HealthRecordsUI23ThumbnailAttachmentItemC0A10Experience019SectionedDataSourceF0AaD08SnapshotijF0
++ _associated conformance 15HealthRecordsUI23TitleSubtitleDetailItemC0A10Experience019SectionedDataSourceG0AaD08SnapshotjkG0
++ _associated conformance 15HealthRecordsUI25ClinicalSharingPausedItemV0A10Experience019SectionedDataSourceG0AaD08SnapshotjkG0
++ _associated conformance 15HealthRecordsUI27RecordTitleWithSubtitleItemV0A10Experience019SectionedDataSourceH0AaD08SnapshotklH0
++ _associated conformance 15HealthRecordsUI29TimelineViewDataDayCollectionCSHAASQ
++ _associated conformance 15HealthRecordsUI30MedicalRecordTimelineChartItemC0A10Experience019SectionedDataSourceH0AaD08SnapshotklH0
++ _associated conformance 15HealthRecordsUI31TimelineViewDataProviderContextOSHAASQ
++ _associated conformance 15HealthRecordsUI34TitleSubtitleDetailItemWithSpinnerC0A10Experience019SectionedDataSourceG0AaD08SnapshotlmG0
++ _associated conformance 15HealthRecordsUI37MedicalRecordTimelineSystemStatusItemC0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI38MedicalRecordTimelineAccountHeaderItemC0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI39MedicalRecordTimelineAccountDetailsItemC0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI39MedicalRecordTimelineAccountUpgradeItemC0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI41MedicalRecordTimelineAccountReconnectItemC0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI43MedicalRecordTimelineAccountUpgradeTileItemC0A10Experience019SectionedDataSourceJ0AaD08SnapshotmnJ0
++ _associated conformance 15HealthRecordsUI50ClinicalSharingSelectableAuthorizationCategoryItemV0A10Experience019SectionedDataSourceI0AaD08SnapshotlmI0
++ _associated conformance 15HealthRecordsUI8TextItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _associated conformance 15HealthRecordsUI9ChartItemC0A10Experience019SectionedDataSourceE0AaD08SnapshothiE0
++ _block_copy_helper.101
++ _block_copy_helper.124
++ _block_copy_helper.130
++ _block_copy_helper.134
++ _block_copy_helper.136
++ _block_copy_helper.145
++ _block_copy_helper.146
++ _block_copy_helper.150
++ _block_copy_helper.152
++ _block_copy_helper.156
++ _block_copy_helper.160
++ _block_copy_helper.163
++ _block_copy_helper.165
++ _block_copy_helper.166
++ _block_copy_helper.169
++ _block_copy_helper.172
++ _block_copy_helper.174
++ _block_copy_helper.178
++ _block_copy_helper.180
++ _block_copy_helper.182
++ _block_copy_helper.186
++ _block_copy_helper.190
++ _block_copy_helper.194
++ _block_copy_helper.204
++ _block_copy_helper.211
++ _block_copy_helper.221
++ _block_copy_helper.31
++ _block_copy_helper.38
++ _block_copy_helper.40
++ _block_copy_helper.73
++ _block_copy_helper.79
++ _block_copy_helper.80
++ _block_copy_helper.87
++ _block_copy_helper.91
++ _block_copy_helper.96
++ _block_descriptor.103
++ _block_descriptor.126
++ _block_descriptor.132
++ _block_descriptor.136
++ _block_descriptor.138
++ _block_descriptor.147
++ _block_descriptor.148
++ _block_descriptor.152
++ _block_descriptor.154
++ _block_descriptor.158
++ _block_descriptor.162
++ _block_descriptor.165
++ _block_descriptor.167
++ _block_descriptor.168
++ _block_descriptor.171
++ _block_descriptor.174
++ _block_descriptor.176
++ _block_descriptor.180
++ _block_descriptor.182
++ _block_descriptor.184
++ _block_descriptor.188
++ _block_descriptor.192
++ _block_descriptor.196
++ _block_descriptor.206
++ _block_descriptor.213
++ _block_descriptor.223
++ _block_descriptor.33
++ _block_descriptor.40
++ _block_descriptor.42
++ _block_descriptor.75
++ _block_descriptor.81
++ _block_descriptor.82
++ _block_descriptor.89
++ _block_descriptor.93
++ _block_descriptor.98
++ _block_destroy_helper.102
++ _block_destroy_helper.125
++ _block_destroy_helper.131
++ _block_destroy_helper.135
++ _block_destroy_helper.137
++ _block_destroy_helper.146
++ _block_destroy_helper.147
++ _block_destroy_helper.151
++ _block_destroy_helper.153
++ _block_destroy_helper.157
++ _block_destroy_helper.161
++ _block_destroy_helper.164
++ _block_destroy_helper.166
++ _block_destroy_helper.167
++ _block_destroy_helper.170
++ _block_destroy_helper.173
++ _block_destroy_helper.175
++ _block_destroy_helper.179
++ _block_destroy_helper.181
++ _block_destroy_helper.183
++ _block_destroy_helper.187
++ _block_destroy_helper.191
++ _block_destroy_helper.195
++ _block_destroy_helper.205
++ _block_destroy_helper.212
++ _block_destroy_helper.222
++ _block_destroy_helper.32
++ _block_destroy_helper.39
++ _block_destroy_helper.41
++ _block_destroy_helper.74
++ _block_destroy_helper.80
++ _block_destroy_helper.81
++ _block_destroy_helper.88
++ _block_destroy_helper.92
++ _block_destroy_helper.97
++ _dispatch_after
++ _dispatch_time
++ _flat unique 15HealthRecordsUI29TimelineRecordFetcherObserver_p
++ _flat unique 18HealthExperienceUI30SnapshotDataSourceEventHandler_p
++ _flat unique So41UIPopoverPresentationControllerSourceItem_p
++ _get_enum_tag_for_layout_string 15HealthRecordsUI26UpgradeFlowViewEnvironment33_C1E9680787D6FC085CDD3D854B2FD8D9LLV0fG4TypeO
++ _get_enum_tag_for_layout_string 15HealthRecordsUI29PostUpgradePresentationOption33_C1E9680787D6FC085CDD3D854B2FD8D9LLO
++ _get_enum_tag_for_layout_string 7SwiftUI11StateObjectV7StorageOy013HealthRecordsB016SandboxViewModel33_766154230A8DC4663A59392D072AE21BLLC_G
++ _get_witness_table 7SwiftUI4FormVyAA9TupleViewVyAA7SectionVyAA4TextVAA15ModifiedContentVy013HealthRecordsB012RegistryList33_766154230A8DC4663A59392D072AE21BLLVAA30_EnvironmentKeyWritingModifierVyAL17EntriesDataSourceANLLCSgGGAA05EmptyE0VG_AGyAiKyAL07SandboxE0ANLLVAUGAXGtGGAA0E0HPyHC.72
++ _get_witness_table 7SwiftUI4ListVys5NeverOAA7ForEachVySaySo28HKOntologyShardRegistryEntryCGSSAA14NavigationLinkVy013HealthRecordsB00J3Row33_766154230A8DC4663A59392D072AE21BLLVAM0J6DetailAOLLVGGGAA4ViewHPyHC.105
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAEyAA4TextV_AA6SpacerVtGSg_AGtGGAA0E0HPyHC.8
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA6HStackVyAEyAA4TextV_AA6SpacerVAKtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_AGyAIyAEyAK_AkmKtGGAUGtGGAA0E0HPyHC.120
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEyAA4TextV_AA6SpacerVAA0E0PAAE13textSelectionyQrqd__AA0G13SelectabilityRd__lFQOyAI_AA07EnabledgK0VQo_tGG_AA15ModifiedContentVyAGyAEyAK_AItGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGSgtGGAaLHPyHC.128
++ _get_witness_table 7SwiftUI9TupleViewVyAA15ModifiedContentVyAA6PickerVyAA4TextVSo28HKOntologyShardRegistryEntryCAA7ForEachVySayAKGAkIGGAA13_TaskModifierVG_AEyAA6ButtonVyAIGAA024_EnvironmentKeyTransformP0VySbGGtGAA0D0HPyHC.106
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7ForEachVySay013HealthRecordsB011EntryDetail33_766154230A8DC4663A59392D072AE21BLLV0lM3RowVGSSAPGG_SSQo_HO.122
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7SectionVyAA05EmptyC0VAA05TupleC0Vy013HealthRecordsB010BylineCellV_A3QSgtGAA4TextVGSgG_SSQo_HO.7
++ _objc_msgSend$filteredSampleTypes:
++ _objc_msgSend$initWithHealthStore:healthRecordsStore:clinicalAccountStore:ingestionStore:
++ _objc_msgSend$internalPrivacySettingsURLString
++ _objc_msgSend$setHealthRecordsEnvironment:completion:
++ _objc_release_x11
++ _objectdestroy.10Tm
++ _objectdestroy.11Tm
++ _objectdestroy.34Tm
++ _objectdestroy.46Tm
++ _objectdestroy.49Tm
++ _objectdestroy.52Tm
++ _objectdestroy.58Tm
++ _objectdestroy.60Tm
++ _objectdestroy.72Tm
++ _objectdestroy.77Tm
++ _objectdestroy.97Tm
++ _swift_coroFrameAlloc
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _symbolic $s15HealthRecordsUI16TimelineViewDataP
++ _symbolic $s15HealthRecordsUI22SampleTypeReachabilityP
++ _symbolic $s15HealthRecordsUI29TimelineRecordFetcherObserverP
++ _symbolic $s15HealthRecordsUI30TimelineRecordFetcherObservingP
++ _symbolic SDySSSaySSGG
++ _symbolic SDySS_____G 15HealthRecordsUI29TimelineViewDataDayCollectionC
++ _symbolic SDySS_____G 18HealthExperienceUI22ArrayDataSourceSectionV
++ _symbolic SDySo12HKSampleTypeCSo11NSPredicateCG
++ _symbolic SDySo8HKSourceCSDy_____Say______pGGG 15HealthRecordsUI15DisplayCategoryV AA16TimelineViewDataP
++ _symbolic SaySo12HKSampleTypeCG
++ _symbolic SaySo28HKOntologyShardRegistryEntryCGSg
++ _symbolic SaySo8HKSampleCG
++ _symbolic SaySo8HKSampleCG______pSgIeggg_ s5ErrorP
++ _symbolic SaySo8HKSourceCG
++ _symbolic Say_____G 10Foundation4DateV
++ _symbolic Say_____G 15HealthRecordsUI14TimelineRecordV
++ _symbolic ScCySaySo15HKMedicalRecordCG______pG s5ErrorP
++ _symbolic ScCySay_____G______pG 15HealthRecordsUI14TimelineRecordV s5ErrorP
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SccySay_____G_So13HKQueryAnchorCSgt______pG 15HealthRecordsUI18CategoryRecordKindV s5ErrorP
++ _symbolic ShySSG
++ _symbolic SiSg______pSgIeghyg_ s5ErrorP
++ _symbolic So13HKObserverSetCy______pG 15HealthRecordsUI29TimelineRecordFetcherObserverP
++ _symbolic So16UIViewControllerC9presenter_AB5modalSo012UINavigationB0C4naviABSg6targett
++ _symbolic So16UIViewControllerC9presenter_AB5modalt
++ _symbolic So21HKAnchoredObjectQueryCSg
++ _symbolic So22UINavigationControllerC4navi_SaySo06UIViewB0CG5stackt
++ _symbolic So22UINavigationControllerC_S2it
++ _symbolic So22UINavigationControllerC_SiABSit
++ _symbolic So22UINavigationControllerC_Sit
++ _symbolic So24HKSynchronousObserverSetCy______pG 18HealthExperienceUI30SnapshotDataSourceEventHandlerP
++ _symbolic So25HKMultiTypeSampleIteratorCSg
++ _symbolic So36HKSignedClinicalDataParsingResultMuxCSg
++ _symbolic So8HKSampleC
++ _symbolic _____ 15HealthRecordsUI0B5Actor33_AC6A825C06A38C484D4B45BDB6B630A4LLC
++ _symbolic _____ 15HealthRecordsUI0aB10ViewRouterV
++ _symbolic _____ 15HealthRecordsUI11SandboxView33_766154230A8DC4663A59392D072AE21BLLV
++ _symbolic _____ 15HealthRecordsUI13TimelineStyleO
++ _symbolic _____ 15HealthRecordsUI14TimelineRecordV
++ _symbolic _____ 15HealthRecordsUI16SandboxViewModel33_766154230A8DC4663A59392D072AE21BLLC
++ _symbolic _____ 15HealthRecordsUI21TimelineRecordFetcherC
++ _symbolic _____ 15HealthRecordsUI24TimelinePagingDataSourceC
++ _symbolic _____ 15HealthRecordsUI24TimelineViewDataProviderC
++ _symbolic _____ 15HealthRecordsUI26UpgradeFlowViewEnvironment33_C1E9680787D6FC085CDD3D854B2FD8D9LLV
++ _symbolic _____ 15HealthRecordsUI26UpgradeFlowViewEnvironment33_C1E9680787D6FC085CDD3D854B2FD8D9LLV0fG4TypeO
++ _symbolic _____ 15HealthRecordsUI29PostUpgradePresentationOption33_C1E9680787D6FC085CDD3D854B2FD8D9LLO
++ _symbolic _____ 15HealthRecordsUI29TimelineViewDataDayCollectionC
++ _symbolic _____ 15HealthRecordsUI31TimelineViewDataProviderContextO
++ _symbolic _____ 15HealthRecordsUI39CategorySearchSectionDataSourceProviderC
++ _symbolic _____ 16HealthExperience32SnapshotDataSourceCellResolutionO
++ _symbolic _____ 18HealthExperienceUI22ArrayDataSourceSectionV
++ _symbolic _____ 18HealthExperienceUI34OnboardingCollectionViewControllerC
++ _symbolic _____ 25UserDomainConceptsSupport0aB21ConceptChangeProviderC
++ _symbolic _____ 25UserDomainConceptsSupport18ListConceptManagerC
++ _symbolic _____Say______pGIeghHno_ 15HealthRecordsUI14TimelineRecordV AA0D8ViewDataP
++ _symbolic _____Sg 15HealthRecordsUI028MedicalRecordTimelineRemovedE4ItemC
++ _symbolic _____Sg 15HealthRecordsUI25MedicalRecordTimelineItemC
++ _symbolic _____Sg 15HealthRecordsUI29TimelineViewDataDayCollectionC
++ _symbolic _____Sg 15HealthRecordsUI30MedicalRecordTimelinePanelItemC
++ _symbolic _____Sg 15HealthRecordsUI31MedicalRecordTimelineHeaderItemC
++ _symbolic _____Sg 15HealthRecordsUI32MedicalRecordTimelineUnknownItemC
++ _symbolic _____Sg 15HealthRecordsUI35MedicalRecordTimelineChartValueItemC
++ _symbolic _____Sg 15HealthRecordsUI35MedicalRecordTimelineViewControllerC
++ _symbolic _____Sg 15HealthRecordsUI36ClinicalAccountDetailsViewControllerC
++ _symbolic _____Sg 15HealthRecordsUI36MedicalRecordTimelinePanelHeaderItemC
++ _symbolic _____Sg 15HealthRecordsUI39CategorySearchSectionDataSourceProviderC
++ _symbolic _____Sg 15HealthRecordsUI42MedicalRecordTimelineTitleWithSubtitleItemC
++ _symbolic _____Sg 25UserDomainConceptsSupport0aB21ConceptChangeProviderC
++ _symbolic _____Sg 25UserDomainConceptsSupport18ListConceptManagerC
++ _symbolic _____Sg s5Int64V
++ _symbolic _____SgXw 15HealthRecordsUI21TimelineRecordFetcherC
++ _symbolic _____SgXw 15HealthRecordsUI22RecordKindDataProviderC
++ _symbolic _____SgXw 15HealthRecordsUI24TimelinePagingDataSourceC
++ _symbolic _____SgXwz_Xx 15HealthRecordsUI21TimelineRecordFetcherC
++ _symbolic _____SgXwz_Xx 15HealthRecordsUI22RecordKindDataProviderC
++ _symbolic _____SgXwz_Xx 15HealthRecordsUI24TimelinePagingDataSourceC
++ _symbolic _____XMT 15HealthRecordsUI24TimelineViewDataProviderC
++ _symbolic _____XMT 15HealthRecordsUI32MedicalAttachmentSectionProviderC
++ _symbolic ___________pIgrzo_ 15HealthRecordsUI46ClinicalSharingDataTypeSelectionViewControllerC s5ErrorP
++ _symbolic ___________pIgrzo_ 15HealthRecordsUI64ClinicalSharingOnboardingNecessaryScopesNotPresentViewControllerC s5ErrorP
++ _symbolic ______pSg So41UIPopoverPresentationControllerSourceItemP
++ _symbolic ______pSg_____YaKc 15HealthRecordsUI14AttachmentItemP AA0D7ContextV
++ _symbolic ______pSg_____c 15HealthRecordsUI14AttachmentItemP AA0D7ContextV
++ _symbolic _____yS2SG 5UIKit28NSDiffableDataSourceSnapshotV
++ _symbolic _____ySDy_____SiGSg______pGIegg_ s6ResultOsRi_zRi0_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
++ _symbolic _____ySDy_____SiGSg______pGIegn_ s6ResultOsRi_zRi0_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
++ _symbolic _____ySDy_____SiG______pGIegg_ s6ResultOsRi_zRi0_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
++ _symbolic _____ySDy_____So23HKListUserDomainConceptCG_SaySo09HKMedicalbcD0CGt______pGIegg_ s6ResultOsRi_zRi0_zrlE 10Foundation4UUIDV s5ErrorP
++ _symbolic _____ySDy_____So23HKListUserDomainConceptCG_SaySo09HKMedicalbcD0CGt______pGIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4UUIDV s5ErrorP
++ _symbolic _____ySaySS___________tG______pGIegg_ s6ResultOsRi_zRi0_zrlE 10Foundation4DateV AC4UUIDV s5ErrorP
++ _symbolic _____ySaySS___________tG______pGIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4DateV AC4UUIDV s5ErrorP
++ _symbolic _____ySaySo15HKMedicalRecordCG______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo17HKClinicalAccountCG_____GIegg_ s6ResultOsRi_zRi0_zrlE s5NeverO
++ _symbolic _____ySaySo17HKClinicalAccountCG_____GIegn_ s6ResultOsRi_zRi0_zrlE s5NeverO
++ _symbolic _____ySaySo19HKUserDomainConceptCG______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo19HKUserDomainConceptCG______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo22HKDiagnosticTestResultCG______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo22HKDiagnosticTestResultCG______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo26HKMedicalUserDomainConceptCG______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo26HKMedicalUserDomainConceptCG______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo28HKOntologyShardRegistryEntryCGSgG 7Combine9PublishedV
++ _symbolic _____ySb_____GIegn_ s6ResultOsRi_zRi0_zrlE s5NeverO
++ _symbolic _____ySb_____GIegy_ s6ResultOsRi_zRi0_zrlE s5NeverO
++ _symbolic _____ySiSg______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySiSg______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySi______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo13HKQueryAnchorCSg______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo15HKMedicalRecordC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo17HKClinicalAccountC_____GIegn_ s6ResultOsRi_zRi0_zrlE 15HealthRecordsUI22ClinicalAccountManagerC9FlowErrorV
++ _symbolic _____ySo17HKClinicalAccountC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo17HKClinicalAccountC______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo22HKDiagnosticTestResultCSg______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo22HKDiagnosticTestResultCSg______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo25HKSignedClinicalDataGroupC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo25HKSignedClinicalDataGroupC______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo26HKMedicalUserDomainConceptC_SitSg______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo26HKMedicalUserDomainConceptC_SitSg______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo28HKOntologyShardRegistryEntryCG 7Combine9PublishedV
++ _symbolic _____y_____AB_____18HealthExperienceUIyHCg0_G 18HealthExperienceUI34FetchedResultsControllerDataSourceC 0A8Platform8FeedItemC 0aB008SnapshotghK0P
++ _symbolic _____y_____AB_____18HealthExperienceUIyHCg_G 18HealthExperienceUI34FetchedResultsWithLayoutDataSourceC 0A8Platform8FeedItemC 0aB008SnapshothiL0P
++ _symbolic _____y_____G 7SwiftUI11StateObjectV 013HealthRecordsB016SandboxViewModel33_766154230A8DC4663A59392D072AE21BLLC
++ _symbolic _____y_____Sg______pGIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4DateV s5ErrorP
++ _symbolic _____y__________GIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4UUIDV 15HealthRecordsUI22ClinicalAccountManagerC9FlowErrorV
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 15HealthRecordsUI011RecordKindsA7WrapperV s5ErrorP
++ _symbolic _____y__________ySaySo28HKOntologyShardRegistryEntryCGSS_____y__________GGG 7SwiftUI4ListV s5NeverO AA7ForEachV AA14NavigationLinkV 013HealthRecordsB08EntryRow33_766154230A8DC4663A59392D072AE21BLLV AJ0K6DetailALLLV
++ _symbolic _____y______pSgG 7Combine9PublishedV s5ErrorP
++ _symbolic _____y_____y_____AC_____18HealthExperienceUIyHCg_GGSg 18HealthExperienceUI18HideableDataSourceC AA08CategoryeF0C 0A8Platform8FeedItemC 0aB008SnapshotefJ0P
++ _symbolic _____y_____y_____y_____So28HKOntologyShardRegistryEntryC_____ySayAFGAfDGG_____G_ABy_____yADG_____ySbGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6PickerV AA4TextV AA7ForEachV AA13_TaskModifierV AA6ButtonV AA024_EnvironmentKeyTransformL0V
++ _symbolic _____y_____y_____y__________y__________y_____SgGG_____G_ACyAdEy_____AJGALGtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV AA15ModifiedContentV 013HealthRecordsB012RegistryList33_766154230A8DC4663A59392D072AE21BLLV AA30_EnvironmentKeyWritingModifierV AL17EntriesDataSourceANLLC AA05EmptyE0V AL07SandboxE0ANLLV
++ _symbolic y______pYbc s5ErrorP
++ _symbolic ytSg______pIgrzo_ s5ErrorP
++ _symbolic yyYbcSg
++ _type_layout_string 15HealthRecordsUI11SandboxView33_766154230A8DC4663A59392D072AE21BLLV
++ _type_layout_string 15HealthRecordsUI26UpgradeFlowViewEnvironment33_C1E9680787D6FC085CDD3D854B2FD8D9LLV0fG4TypeO
++ _type_layout_string 15HealthRecordsUI29PostUpgradePresentationOption33_C1E9680787D6FC085CDD3D854B2FD8D9LLO
+- -[HRBrandImageManager cacheFeaturedBrandLogosWithCompletion:]
+- -[WDClinicalOnboardingViewController _cacheFeaturedBrandLogos]
+- GCC_except_table182
+- GCC_except_table57
+- GCC_except_table61
+- GCC_except_table66
+- GCC_except_table84
+- GCC_except_table90
+- _HKHealthRecordsSetEnvironment
+- _OBJC_CLASS_$_HKInteractiveChartStackHeight
+- _OBJC_CLASS_$_HRAccountHeaderCell
+- _OBJC_CLASS_$_HRAccountLoginCell
+- _OBJC_CLASS_$_HRAccountTimelineButtonCell
+- _OBJC_CLASS_$_HRAccountUpgradeTileCell
+- _OBJC_CLASS_$_HRContentStatusCell
+- _OBJC_CLASS_$_HRExplainerTextFooterCell
+- _OBJC_CLASS_$_HRSideBySideLabelCell
+- _OBJC_CLASS_$_HRUITextAndActionCell
+- _OBJC_CLASS_$_NSTask
+- _OBJC_CLASS_$_WDSignedClinicalDataRecordDetailViewFactory
+- _OBJC_CLASS_$__TtC15HealthRecordsUI16ActionButtonCell
+- _OBJC_METACLASS_$_HRAccountHeaderCell
+- _OBJC_METACLASS_$_HRAccountLoginCell
+- _OBJC_METACLASS_$_HRAccountTimelineButtonCell
+- _OBJC_METACLASS_$_HRAccountUpgradeTileCell
+- _OBJC_METACLASS_$_HRContentStatusCell
+- _OBJC_METACLASS_$_HRExplainerTextFooterCell
+- _OBJC_METACLASS_$_HRSideBySideLabelCell
+- _OBJC_METACLASS_$_HRUITextAndActionCell
+- _OBJC_METACLASS_$_WDSignedClinicalDataRecordDetailViewFactory
+- _OBJC_METACLASS_$__TtC15HealthRecordsUI16ActionButtonCell
+- _OBJC_METACLASS_$__TtC18HealthExperienceUI48OnboardingCollectionViewControllerWithNextButton
+- __CLASS_METHODS_HRAccountHeaderCell
+- __CLASS_METHODS_HRAccountLoginCell
+- __CLASS_METHODS_HRAccountTimelineButtonCell
+- __CLASS_METHODS_HRAccountUpgradeTileCell
+- __CLASS_METHODS_HRExplainerTextFooterCell
+- __CLASS_METHODS_WDSignedClinicalDataRecordDetailViewFactory
+- __CLASS_METHODS__TtC15HealthRecordsUI15RecordImageCell
+- __CLASS_METHODS__TtC15HealthRecordsUI16ActionButtonCell
+- __CLASS_METHODS__TtC15HealthRecordsUI18RecordTextItemCell
+- __CLASS_METHODS__TtC15HealthRecordsUI20RecordDataSourceCell
+- __CLASS_METHODS__TtC15HealthRecordsUI20RecordDetailItemCell
+- __CLASS_METHODS__TtC15HealthRecordsUI22RecordPrimaryTitleCell
+- __CLASS_METHODS__TtC15HealthRecordsUI24RecordReferenceRangeCell
+- __CLASS_METHODS__TtC15HealthRecordsUI27RecordDetailItemSpinnerCell
+- __CLASS_PROPERTIES_HRAccountHeaderCell
+- __CLASS_PROPERTIES_HRAccountLoginCell
+- __CLASS_PROPERTIES_HRAccountTimelineButtonCell
+- __CLASS_PROPERTIES_HRAccountUpgradeTileCell
+- __CLASS_PROPERTIES_HRExplainerTextFooterCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI15RecordImageCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI16ActionButtonCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI18RecordTextItemCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI20RecordDataSourceCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI20RecordDetailItemCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI22RecordPrimaryTitleCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI24RecordReferenceRangeCell
+- __CLASS_PROPERTIES__TtC15HealthRecordsUI27RecordDetailItemSpinnerCell
+- __DATA_HRAccountHeaderCell
+- __DATA_HRAccountLoginCell
+- __DATA_HRAccountTimelineButtonCell
+- __DATA_HRAccountUpgradeTileCell
+- __DATA_HRContentStatusCell
+- __DATA_HRExplainerTextFooterCell
+- __DATA_HRSideBySideLabelCell
+- __DATA_HRUITextAndActionCell
+- __DATA_WDSignedClinicalDataRecordDetailViewFactory
+- __DATA__TtC15HealthRecordsUI16ActionButtonCell
+- __DATA__TtC15HealthRecordsUI23HealthRecordsViewRouter
+- __DATA__TtC15HealthRecordsUI31MedicalRecordTimelineDataSource
+- __DATA__TtC15HealthRecordsUI32CategorySearchDataSourceProvider
+- __DATA__TtC15HealthRecordsUI33SignedClinicalDataQRCodeGenerator
+- __DATA__TtCC15HealthRecordsUI18PDFReportGeneratorP33_4CB6A7B70990D83F1E205A82706BA99D17CancellationToken
+- __INSTANCE_METHODS_HRAccountHeaderCell
+- __INSTANCE_METHODS_HRAccountTimelineButtonCell
+- __INSTANCE_METHODS_HRAccountUpgradeTileCell
+- __INSTANCE_METHODS_HRContentStatusCell
+- __INSTANCE_METHODS_HRExplainerTextFooterCell
+- __INSTANCE_METHODS_HRSideBySideLabelCell
+- __INSTANCE_METHODS_HRUITextAndActionCell
+- __INSTANCE_METHODS_WDSignedClinicalDataRecordDetailViewFactory
+- __INSTANCE_METHODS__TtC15HealthRecordsUI16ActionButtonCell
+- __IVARS_HRAccountHeaderCell
+- __IVARS_HRAccountLoginCell
+- __IVARS_HRAccountTimelineButtonCell
+- __IVARS_HRAccountUpgradeTileCell
+- __IVARS_HRContentStatusCell
+- __IVARS_HRExplainerTextFooterCell
+- __IVARS_HRSideBySideLabelCell
+- __IVARS_HRUITextAndActionCell
+- __IVARS__TtC15HealthRecordsUI16ActionButtonCell
+- __IVARS__TtC15HealthRecordsUI31MedicalRecordTimelineDataSource
+- __IVARS__TtC15HealthRecordsUI32CategorySearchDataSourceProvider
+- __IVARS__TtCC15HealthRecordsUI18PDFReportGeneratorP33_4CB6A7B70990D83F1E205A82706BA99D17CancellationToken
+- __METACLASS_DATA_HRAccountHeaderCell
+- __METACLASS_DATA_HRAccountLoginCell
+- __METACLASS_DATA_HRAccountTimelineButtonCell
+- __METACLASS_DATA_HRAccountUpgradeTileCell
+- __METACLASS_DATA_HRContentStatusCell
+- __METACLASS_DATA_HRExplainerTextFooterCell
+- __METACLASS_DATA_HRSideBySideLabelCell
+- __METACLASS_DATA_HRUITextAndActionCell
+- __METACLASS_DATA_WDSignedClinicalDataRecordDetailViewFactory
+- __METACLASS_DATA__TtC15HealthRecordsUI16ActionButtonCell
+- __METACLASS_DATA__TtC15HealthRecordsUI23HealthRecordsViewRouter
+- __METACLASS_DATA__TtC15HealthRecordsUI31MedicalRecordTimelineDataSource
+- __METACLASS_DATA__TtC15HealthRecordsUI32CategorySearchDataSourceProvider
+- __METACLASS_DATA__TtC15HealthRecordsUI33SignedClinicalDataQRCodeGenerator
+- __METACLASS_DATA__TtCC15HealthRecordsUI18PDFReportGeneratorP33_4CB6A7B70990D83F1E205A82706BA99D17CancellationToken
+- __OBJC_$_INSTANCE_METHODS_HRAccountLoginCell(HealthRecordsUI)
+- __OBJC_$_PROTOCOL_REFS_WDNotificationPolicy
+- __OBJC_LABEL_PROTOCOL_$_WDNotificationPolicy
+- __OBJC_PROTOCOL_$_WDNotificationPolicy
+- __PROPERTIES_HRAccountTimelineButtonCell
+- __PROPERTIES_HRAccountUpgradeTileCell
+- __PROPERTIES_HRContentStatusCell
+- __PROPERTIES_HRExplainerTextFooterCell
+- __PROPERTIES_HRSideBySideLabelCell
+- __PROPERTIES_HRUITextAndActionCell
+- __PROPERTIES__TtC15HealthRecordsUI15RecordImageCell
+- __PROPERTIES__TtC15HealthRecordsUI16ActionButtonCell
+- __PROPERTIES__TtC15HealthRecordsUI18RecordTextItemCell
+- __PROPERTIES__TtC15HealthRecordsUI20RecordDetailItemCell
+- __PROPERTIES__TtC15HealthRecordsUI22RecordPrimaryTitleCell
+- __PROPERTIES__TtC15HealthRecordsUI24RecordReferenceRangeCell
+- __PROPERTIES__TtC15HealthRecordsUI27RecordDetailItemSpinnerCell
+- __PROTOCOLS__TtC15HealthRecordsUI18NotificationPolicy.4
+- __PROTOCOLS__TtC15HealthRecordsUI39SignedClinicalDataPreviewViewController.8
+- __PROTOCOLS__TtC15HealthRecordsUI41DownloadableAttachmentStateChangeListener.6
+- __PROTOCOLS__TtC15HealthRecordsUIP33_F9D686935E182FED04EA791AA4CFB7FB18DataSourceObserver.8
+- ___51-[HRProfile initWithHealthStore:profileIdentifier:]_block_invoke
+- ___51-[HRProfile initWithHealthStore:profileIdentifier:]_block_invoke.cold.1
+- ___51-[WDClinicalSettingsOptInSection _fetchOptInStatus]_block_invoke.340
+- ___57-[WDClinicalOnboardingViewController _changeEnvironment:]_block_invoke.511
+- ___59-[WDClinicalProviderDetailsViewController _computeSections]_block_invoke.305
+- ___59-[WDClinicalProviderDetailsViewController _computeSections]_block_invoke_2.309
+- ___61-[HRBrandImageManager cacheFeaturedBrandLogosWithCompletion:]_block_invoke
+- ___61-[HRBrandImageManager cacheFeaturedBrandLogosWithCompletion:]_block_invoke_2
+- ___62-[WDClinicalOnboardingViewController _cacheFeaturedBrandLogos]_block_invoke
+- ___62-[WDClinicalOnboardingViewController _cacheFeaturedBrandLogos]_block_invoke.cold.1
+- ___66-[WDClinicalOnboardingViewController _searchResultsForQuery:from:]_block_invoke.413
+- ___70-[WDClinicalOnboardingViewController _loadGatewayProxyForDeeplinking:]_block_invoke.391
+- ___71-[WDClinicalOnboardingOAuthNavigationViewController didLoginToAccount:]_block_invoke.317
+- ___82-[WDMedicalRecordSourceDataViewController _fetchAndDisplaySourceStringIfNecessary]_block_invoke.316
+- ___86-[WDClinicalOnboardingViewController _beginLoadingAlreadyConnectedAccountsIfNecessary]_block_invoke.436
+- ___86-[WDClinicalOnboardingViewController _beginLoadingAlreadyConnectedAccountsIfNecessary]_block_invoke_2.440
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls40l8s32l8
+- ___block_literal_global.308
+- ___block_literal_global.364
+- ___block_literal_global.381
+- ___block_literal_global.411
+- ___block_literal_global.418
+- ___block_literal_global.439
+- ___block_literal_global.443
+- ___block_literal_global.446
+- ___block_literal_global.448
+- ___block_literal_global.450
+- ___block_literal_global.488
+- ___block_literal_global.499
+- ___swift_memcpy88_8
+- ___unnamed_11
+- ___unnamed_4
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_HealthRecordsUI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_HealthRecordsUI
+- _associated conformance 15HealthRecordsUI20AccountIconViewErrorOSHAASQ
+- _associated conformance 15HealthRecordsUI31MedicalRecordTimelineDataSourceC0a10ExperienceC051UICollectionViewCompositionalLayoutSectionProvidingAaD010CollectionkmnO0
+- _associated conformance So31HRBrandImageManagerFetchOptionsVs10SetAlgebraSCSQ
+- _associated conformance So31HRBrandImageManagerFetchOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
+- _associated conformance So31HRBrandImageManagerFetchOptionsVs9OptionSetSCSY
+- _associated conformance So31HRBrandImageManagerFetchOptionsVs9OptionSetSCs0G7Algebra
+- _block_copy_helper.100
+- _block_copy_helper.104
+- _block_copy_helper.112
+- _block_copy_helper.115
+- _block_copy_helper.117
+- _block_copy_helper.121
+- _block_copy_helper.122
+- _block_copy_helper.123
+- _block_copy_helper.126
+- _block_copy_helper.127
+- _block_copy_helper.141
+- _block_copy_helper.151
+- _block_copy_helper.158
+- _block_copy_helper.171
+- _block_copy_helper.184
+- _block_copy_helper.188
+- _block_copy_helper.191
+- _block_copy_helper.197
+- _block_copy_helper.201
+- _block_copy_helper.205
+- _block_copy_helper.209
+- _block_copy_helper.29
+- _block_copy_helper.41
+- _block_copy_helper.43
+- _block_copy_helper.47
+- _block_copy_helper.50
+- _block_copy_helper.54
+- _block_copy_helper.59
+- _block_copy_helper.69
+- _block_copy_helper.71
+- _block_copy_helper.72
+- _block_copy_helper.77
+- _block_copy_helper.78
+- _block_copy_helper.9
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.102
+- _block_descriptor.106
+- _block_descriptor.11
+- _block_descriptor.114
+- _block_descriptor.117
+- _block_descriptor.119
+- _block_descriptor.123
+- _block_descriptor.124
+- _block_descriptor.125
+- _block_descriptor.128
+- _block_descriptor.129
+- _block_descriptor.143
+- _block_descriptor.153
+- _block_descriptor.160
+- _block_descriptor.173
+- _block_descriptor.186
+- _block_descriptor.190
+- _block_descriptor.193
+- _block_descriptor.199
+- _block_descriptor.203
+- _block_descriptor.207
+- _block_descriptor.211
+- _block_descriptor.31
+- _block_descriptor.43
+- _block_descriptor.45
+- _block_descriptor.49
+- _block_descriptor.52
+- _block_descriptor.56
+- _block_descriptor.61
+- _block_descriptor.71
+- _block_descriptor.73
+- _block_descriptor.74
+- _block_descriptor.79
+- _block_descriptor.80
+- _block_destroy_helper.10
+- _block_destroy_helper.101
+- _block_destroy_helper.105
+- _block_destroy_helper.113
+- _block_destroy_helper.116
+- _block_destroy_helper.118
+- _block_destroy_helper.122
+- _block_destroy_helper.123
+- _block_destroy_helper.124
+- _block_destroy_helper.127
+- _block_destroy_helper.128
+- _block_destroy_helper.142
+- _block_destroy_helper.152
+- _block_destroy_helper.159
+- _block_destroy_helper.172
+- _block_destroy_helper.185
+- _block_destroy_helper.189
+- _block_destroy_helper.192
+- _block_destroy_helper.198
+- _block_destroy_helper.202
+- _block_destroy_helper.206
+- _block_destroy_helper.210
+- _block_destroy_helper.30
+- _block_destroy_helper.42
+- _block_destroy_helper.44
+- _block_destroy_helper.48
+- _block_destroy_helper.51
+- _block_destroy_helper.55
+- _block_destroy_helper.60
+- _block_destroy_helper.70
+- _block_destroy_helper.72
+- _block_destroy_helper.73
+- _block_destroy_helper.78
+- _block_destroy_helper.79
+- _block_destroy_helper.99
+- _dispatch_get_global_queue
+- _get_witness_table 7SwiftUI15ModifiedContentVy013HealthRecordsB012RegistryList33_766154230A8DC4663A59392D072AE21BLLVAA30_EnvironmentKeyWritingModifierVyAD17EntriesDataSourceAFLLCSgGGAA4ViewHPAgaOHPyHC_AmA0uQ0HPyHCHC.13
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAEyAA4TextV_AA6SpacerVtGSg_AGtGGAA0E0HPyHC.9
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAA6HStackVyAEyAA4TextV_AA6SpacerVAKtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_AGyAIyAEyAK_AkmKtGGAUGtGGAA0E0HPyHC.34
+- _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA6HStackVyAEyAA4TextV_AA6SpacerVAA0E0PAAE13textSelectionyQrqd__AA0G13SelectabilityRd__lFQOyAI_AA07EnabledgK0VQo_tGG_AA15ModifiedContentVyAGyAEyAK_AItGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGSgtGGAaLHPyHC.42
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7ForEachVySay013HealthRecordsB011EntryDetail33_766154230A8DC4663A59392D072AE21BLLV0lM3RowVGSSAPGG_SSQo_HO.36
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE15navigationTitleyQrqd__SyRd__lFQOyAA4ListVys5NeverOAA7SectionVyAA05EmptyC0VAA05TupleC0Vy013HealthRecordsB010BylineCellV_A3QSgtGAA4TextVGSgG_SSQo_HO.8
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQOyAA4ListVys5NeverOAA7ForEachVySaySo28HKOntologyShardRegistryEntryCGSSAA14NavigationLinkVy013HealthRecordsB00P3Row33_766154230A8DC4663A59392D072AE21BLLVAR0P6DetailATLLVGGG_Qo_HO.20
+- _keypath_get.10Tm
+- _memset_pattern16
+- _objc_msgSend$_cacheFeaturedBrandLogos
+- _objc_msgSend$cacheFeaturedBrandLogosWithCompletion:
+- _objc_msgSend$fetchLogoDataForFeaturedBrandsAtScaleKey:completion:
+- _objc_msgSend$initWithExternalID:batchID:
+- _objc_msgSend$launchAndReturnError:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$setArguments:
+- _objc_msgSend$setLaunchPath:
+- _objc_msgSend$waitUntilExit
+- _objectdestroy.102Tm
+- _objectdestroy.13Tm
+- _objectdestroy.14Tm
+- _objectdestroy.30Tm
+- _objectdestroy.36Tm
+- _objectdestroy.47Tm
+- _objectdestroy.4Tm
+- _objectdestroy.53Tm
+- _objectdestroy.75Tm
+- _objectdestroy.9Tm
+- _symbolic SDy_____SaySo15HKMedicalRecordCGGIegg_ 15HealthRecordsUI15DisplayCategoryV4KindO
+- _symbolic SDy_____SaySo15HKMedicalRecordCGGz_Xx 15HealthRecordsUI15DisplayCategoryV4KindO
+- _symbolic Say_____G 18HealthExperienceUI22ArrayDataSourceSectionV
+- _symbolic Say_____GSbIeggy_ 15HealthRecordsUI50ClinicalSharingSelectableAuthorizationCategoryItemV
+- _symbolic Say_____GSbytIegnnr_ 15HealthRecordsUI50ClinicalSharingSelectableAuthorizationCategoryItemV
+- _symbolic SbIegd_
+- _symbolic SbIgd_
+- _symbolic ScCySaySo7CIImageCG______pG s5ErrorP
+- _symbolic ShySiG
+- _symbolic SiSg______pSgIegyg_ s5ErrorP
+- _symbolic So16OBLinkTrayButtonCSg
+- _symbolic So17OS_dispatch_queueCSg
+- _symbolic So21HKSampleIteratorQueryC
+- _symbolic So26WDMedicalRecordDisplayItemCSg
+- _symbolic So33HKSignedClinicalDataParsingResultCSg
+- _symbolic So36HKSignedClinicalDataQRRepresentationC
+- _symbolic _____ 15HealthRecordsUI06SideByD9LabelCellC
+- _symbolic _____ 15HealthRecordsUI0aB10ViewRouterC
+- _symbolic _____ 15HealthRecordsUI16AccountLoginCellC
+- _symbolic _____ 15HealthRecordsUI16ActionButtonCellC
+- _symbolic _____ 15HealthRecordsUI17AccountHeaderCellC
+- _symbolic _____ 15HealthRecordsUI17ContentStatusCellC
+- _symbolic _____ 15HealthRecordsUI17TextAndActionCellC
+- _symbolic _____ 15HealthRecordsUI18PDFReportGeneratorC17CancellationToken33_4CB6A7B70990D83F1E205A82706BA99DLLC
+- _symbolic _____ 15HealthRecordsUI20AccountIconViewErrorO
+- _symbolic _____ 15HealthRecordsUI23DisplayItemSectionStateV
+- _symbolic _____ 15HealthRecordsUI23ExplainerTextFooterCellC
+- _symbolic _____ 15HealthRecordsUI25AccountTimelineButtonCellC
+- _symbolic _____ 15HealthRecordsUI31MedicalRecordTimelineDataSourceC
+- _symbolic _____ 15HealthRecordsUI32CategorySearchDataSourceProviderC
+- _symbolic _____ 15HealthRecordsUI33SignedClinicalDataQRCodeGeneratorC
+- _symbolic _____ 15HealthRecordsUI41SignedClinicalDataRecordDetailViewFactoryC
+- _symbolic _____ 18HealthExperienceUI48OnboardingCollectionViewControllerWithNextButtonC
+- _symbolic _____ 28HealthRecordsConceptsSupport18ListConceptManagerC
+- _symbolic _____ 28HealthRecordsConceptsSupport31UserDomainConceptChangeProviderC
+- _symbolic _____ So31HRBrandImageManagerFetchOptionsV
+- _symbolic _____Sg 15HealthRecordsUI32CategorySearchDataSourceProviderC
+- _symbolic _____Sg 28HealthRecordsConceptsSupport18ListConceptManagerC
+- _symbolic _____Sg 28HealthRecordsConceptsSupport31UserDomainConceptChangeProviderC
+- _symbolic _____SgXw 15HealthRecordsUI18BrowseIconProviderC
+- _symbolic _____SgXw 15HealthRecordsUI31MedicalRecordTimelineDataSourceC
+- _symbolic _____SgXwz_Xx 15HealthRecordsUI18BrowseIconProviderC
+- _symbolic _____XDXMT 15HealthRecordsUI0aB10ViewRouterC
+- _symbolic _____XDXMT 15HealthRecordsUI15PDFDataProviderC
+- _symbolic _____XMT 15HealthRecordsUI0aB10ViewRouterC
+- _symbolic ______SStSgIegg_ 10Foundation4DataV
+- _symbolic _____ySDy_____SiGSg______pGIegg_ s6ResultOsRi_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
+- _symbolic _____ySDy_____SiGSg______pGIegn_ s6ResultOsRi_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
+- _symbolic _____ySDy_____SiG______pGIegg_ s6ResultOsRi_zrlE 15HealthRecordsUI14BrowseCategoryO s5ErrorP
+- _symbolic _____ySDy_____So23HKListUserDomainConceptCG_SaySo09HKMedicalbcD0CGt______pGIegg_ s6ResultOsRi_zrlE 10Foundation4UUIDV s5ErrorP
+- _symbolic _____ySDy_____So23HKListUserDomainConceptCG_SaySo09HKMedicalbcD0CGt______pGIegn_ s6ResultOsRi_zrlE 10Foundation4UUIDV s5ErrorP
+- _symbolic _____ySaySS___________tG______pGIegg_ s6ResultOsRi_zrlE 10Foundation4DateV AC4UUIDV s5ErrorP
+- _symbolic _____ySaySS___________tG______pGIegn_ s6ResultOsRi_zrlE 10Foundation4DateV AC4UUIDV s5ErrorP
+- _symbolic _____ySaySo15HKMedicalRecordCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo15HKMedicalRecordCG______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo17HKClinicalAccountCG_____GIegg_ s6ResultOsRi_zrlE s5NeverO
+- _symbolic _____ySaySo17HKClinicalAccountCG_____GIegn_ s6ResultOsRi_zrlE s5NeverO
+- _symbolic _____ySaySo19HKUserDomainConceptCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo19HKUserDomainConceptCG______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo22HKDiagnosticTestResultCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo22HKDiagnosticTestResultCG______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo26HKMedicalUserDomainConceptCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo26HKMedicalUserDomainConceptCG______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo7CIImageCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySb_____GIegn_ s6ResultOsRi_zrlE s5NeverO
+- _symbolic _____ySb_____GIegy_ s6ResultOsRi_zrlE s5NeverO
+- _symbolic _____ySiSg______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySiSg______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySi______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo13HKQueryAnchorCSg______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo15HKMedicalRecordC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo17HKClinicalAccountC_____GIegn_ s6ResultOsRi_zrlE 15HealthRecordsUI22ClinicalAccountManagerC9FlowErrorV
+- _symbolic _____ySo17HKClinicalAccountC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo17HKClinicalAccountC______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo22HKDiagnosticTestResultCSg______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo22HKDiagnosticTestResultCSg______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo25HKSignedClinicalDataGroupC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo25HKSignedClinicalDataGroupC______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo26HKMedicalUserDomainConceptC_SitSg______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo26HKMedicalUserDomainConceptC_SitSg______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo7UIImageCSg______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo7UIImageCSg______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____AB_____18HealthExperienceUIyHCg0_G 18HealthExperienceUI34FetchedResultsControllerDataSourceC 0A8Platform8FeedItemC 0aB009SectionedghK0P
+- _symbolic _____y_____AB_____18HealthExperienceUIyHCg_G 18HealthExperienceUI34FetchedResultsWithLayoutDataSourceC 0A8Platform8FeedItemC 0aB009SectionedhiL0P
+- _symbolic _____y_____Sg______pG s6ResultOsRi_zrlE 15HealthRecordsUI10BrowseIconO s5ErrorP
+- _symbolic _____y_____Sg______pGIegn_ s6ResultOsRi_zrlE 10Foundation4DateV s5ErrorP
+- _symbolic _____y_____Sg______pGIegn_ s6ResultOsRi_zrlE 15HealthRecordsUI10BrowseIconO s5ErrorP
+- _symbolic _____y______SStSg_____GIegn_ s6ResultOsRi_zrlE 10Foundation4DataV s5NeverO
+- _symbolic _____y__________GIegn_ s6ResultOsRi_zrlE 10Foundation4UUIDV 15HealthRecordsUI22ClinicalAccountManagerC9FlowErrorV
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 15HealthRecordsUI11AccountIconV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 15HealthRecordsUI011RecordKindsA7WrapperV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 15HealthRecordsUI11AccountIconV s5ErrorP
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV 013HealthRecordsB012RegistryList33_766154230A8DC4663A59392D072AE21BLLV AA30_EnvironmentKeyWritingModifierV AD17EntriesDataSourceAFLLC
+- _symbolic _____y_____y_____AC_____18HealthExperienceUIyHCg_GGSg 18HealthExperienceUI18HideableDataSourceC AA08CategoryeF0C 0A8Platform8FeedItemC 0aB009SectionedefJ0P
+- _symbolic _____y_____y__________ySaySo28HKOntologyShardRegistryEntryCGSS_____y__________GGG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA18LocalizedStringKeyVFQO AA4ListV s5NeverO AA7ForEachV AA14NavigationLinkV 013HealthRecordsB08EntryRow33_766154230A8DC4663A59392D072AE21BLLV AO0Q6DetailAQLLV
+- _symbolic xIegn_Sgz______ySaySo15HKMedicalRecordCG______pG_lXX s6ResultOsRi_zrlE s5ErrorP
+- _symbolic xRi_zRi0_zly_____ySaySo15HKMedicalRecordCG______pGIsegn_Sg s6ResultOsRi_zrlE s5ErrorP
+- _symbolic y______pc s5ErrorP
+- _symbolic ypSg
+- _type_layout_string 15HealthRecordsUI23DisplayItemSectionStateV
+CStrings:
++ "$__lazy_storage_$_SearchSectionDataSourceProvider"
++ "%@"
++ "%s Failed to fetch corresponding SCD record for %s: %@"
++ "%s: failed to fetch more data: %s"
++ "%{public}@ did update environment to %{public}@"
++ "%{public}@ failed to update environment: %{public}@"
++ "/LOCATION/com.apple.Health"
++ "/PROBLEM_REPORTING/SHARE_HEALTH_RECORDS_DATA"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "Available Shards"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "Error fetching sandbox manifest: %@"
++ "FHIRIdentifier"
++ "Failed to load initial samples: %s"
++ "HealthRecordsUI/AccountOnboardingSession+ViewControllers.swift"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "MedicalRecordTimelineViewController"
++ "RecordTitleWithSubtitleView"
++ "TimelineRecordFetcherObserver"
++ "TimelineRecordFetcherQueue"
++ "TimelineSlidingWindowObservers"
++ "UIPopoverPresentationControllerSourceItem"
++ "Unable to fetch account: %{public}s"
++ "Unable to fetch icon for account with identifier %s"
++ "Update Ontology from Selection"
++ "[%s]: Item %s using legacy reuseIdentifier path but does not conform to `SnapshotDataSourceItem`: %s"
++ "[%{public}s]: PDF generation was cancelled"
++ "_TtC15HealthRecordsUI21TimelineRecordFetcher"
++ "_TtC15HealthRecordsUI22AccountUpgradeTileCell"
++ "_TtC15HealthRecordsUI24TimelinePagingDataSource"
++ "_TtC15HealthRecordsUI24TimelineViewDataProvider"
++ "_TtC15HealthRecordsUI29TimelineViewDataDayCollection"
++ "_TtC15HealthRecordsUI39CategorySearchSectionDataSourceProvider"
++ "_TtC15HealthRecordsUIP33_766154230A8DC4663A59392D072AE21B16SandboxViewModel"
++ "_TtC15HealthRecordsUIP33_AC6A825C06A38C484D4B45BDB6B630A412RecordsActor"
++ "_TtP15HealthRecordsUI29TimelineRecordFetcherObserver_"
++ "_availableEntries"
++ "_error"
++ "_isDownloading"
++ "_selectedEntry"
++ "cellResolution"
++ "changeObservers"
++ "dataSourceSection"
++ "dateFormatter"
++ "day"
++ "dayMap"
++ "downloading and inserting %s entries"
++ "ephemeralSessionConfiguration"
++ "error manually updating ontology: %@"
++ "fetchMedicalRecords(in:predicate:)"
++ "fetchNextPageOfSamples()"
++ "fetcherExhausted"
++ "fetching"
++ "filteredSampleTypes:"
++ "forwardIterator"
++ "frameInView:"
++ "globalFilter"
++ "hasRemovedRecordsSection"
++ "https://ontology-sandbox.health.apple.com/manifest.csv"
++ "hxui_addCancelButton"
++ "hxui_addNextButtonWithAccessibilityIdentifier:"
++ "hxui_cancelButtonTapped"
++ "identifierBase"
++ "identifiersOfSection"
++ "imageItemProvider"
++ "initWithHealthStore:healthRecordsStore:clinicalAccountStore:ingestionStore:"
++ "initWithIdentifier:schemaType:schemaVersion:availableURL:"
++ "initWithIdentifier:schemaType:schemaVersion:availableVersion:availableRegion:availableLocale:availableURL:availableChecksum:availableSize:date:"
++ "initWithName:loggingCategory:"
++ "initWithQueryDescriptors:sortDescriptors:followingAnchor:upToAndIncludingAnchor:distinctByKeyPaths:bufferSize:limit:healthStore:"
++ "internalPrivacySettingsURLString"
++ "isValid"
++ "itemMapping"
++ "loadedSampleIdentifiers"
++ "noDateDayCollection"
++ "notifyObservers:"
++ "observerQuery"
++ "observerSet"
++ "oldestSampleDate"
++ "parentRecords"
++ "pdfGenerationTask"
++ "perTypeFilter"
++ "perTypePredicates"
++ "reloadTrigger"
++ "repository"
++ "sessionWithConfiguration:"
++ "setHealthRecordsEnvironment:completion:"
++ "showRemovedRecordsOnTimeline"
++ "signedClinicalData"
++ "snapshot"
++ "sortedSectionIdentifiers"
++ "successfully updated ontology with sandbox %s"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "thumbnailItemProvider"
++ "timelineContext"
++ "timelinePagedDataSource"
++ "timelineRecordFetcherHasChangeWithDates:"
++ "timelineStyle"
++ "updateOntologyWithEntry:completion:"
++ "v16@?0@\"<_TtP15HealthRecordsUI29TimelineRecordFetcherObserver_>\"8"
++ "v24@0:8@\"NSArray\"16"
++ "v24@?0@\"HKSignedClinicalDataParsingResultMux\"8@\"NSError\"16"
++ "viewDataProvider"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@\"UIView\"16"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8@16"
+- "$__lazy_storage_$_buttonLabel"
+- "$__lazy_storage_$_containerView"
+- "$__lazy_storage_$_dontShareButton"
+- "$__lazy_storage_$_explanationLabel"
+- "$__lazy_storage_$_searchDataSourceProvider"
+- "%{public}@ error killing healthd: %{public}@"
+- "%{public}s requesting next page of data"
+- "%{public}s: Skipping: item %{public}s"
+- "/bin/zsh"
+- "Caching brand logo for %@ featured brands"
+- "Error retrieving logo for account: %{public}s"
+- "Failed to cache brand logos: %{public}@"
+- "Failed to create image with white background: %{public}s"
+- "FetchPDFDataQueue"
+- "HRAccountHeaderCell"
+- "HRAccountLoginCell"
+- "HRAccountTimelineButtonCell"
+- "HRAccountUpgradeTileCell"
+- "HRContentStatusCell"
+- "HRExplainerTextFooterCell"
+- "HRSideBySideLabelCell"
+- "HRUITextAndActionCell"
+- "HealthRecordsUI.ContentStatusCell"
+- "HealthRecordsUI.FHIRRawResourceItem"
+- "HealthRecordsUI.MedicalRecordTimelineDataSource"
+- "HealthRecordsUI.MultiRecordItem"
+- "HealthRecordsUI.ShowAllItem"
+- "HealthRecordsUI.ShowAllRecordsItem"
+- "HealthRecordsUI/AccountHeaderCells.swift"
+- "HealthRecordsUI/ActionButtonCell.swift"
+- "HealthRecordsUI/ContentStatusCell.swift"
+- "Incorrect view model for MedicalRecordTimelineChartValueItem: %{public}s"
+- "Incorrect view model for MedicalRecordTimelineUnknownItem: %{public}s"
+- "Loading new page of data"
+- "MEDICAL_RECORD_DETAIL_VALUE_UNIT_DISPLAY_%@_%@"
+- "MedicalRecordTimelineDataSource.workQueue"
+- "QRCodeViewControllerForSignedClinicalDataGroup:"
+- "RemovedDataTitle"
+- "T@\"HKInspectableValueInRange\",N,&,VvalueInRange"
+- "T@\"UIActivityIndicatorView\",N,R,Vspinner"
+- "T@\"UIButton\",N,R,VactionButton"
+- "T@\"UIImage\",N,&,Vicon"
+- "T@\"UIImageView\",N,R,VrecordImageView"
+- "T@\"UILabel\",N,R,VbodyLabel"
+- "T@\"UILabel\",N,R,VrecordDateLabel"
+- "T@\"UILabel\",N,R,VrecordTitleLabel"
+- "T@\"UILabel\",N,R,VtitleLabel"
+- "TB,N,VactionEnabled"
+- "TB,N,VroundBottomCorners"
+- "WDNotificationPolicy"
+- "WDSignedClinicalDataRecordDetailViewFactory"
+- "[%s] Adding data type with identifier '%s' to the selected data types array"
+- "[ClinicalFeedItemKind:accountStatus]["
+- "_TtC15HealthRecordsUI16ActionButtonCell"
+- "_TtC15HealthRecordsUI23HealthRecordsViewRouter"
+- "_TtC15HealthRecordsUI31MedicalRecordTimelineDataSource"
+- "_TtC15HealthRecordsUI32CategorySearchDataSourceProvider"
+- "_TtC15HealthRecordsUI33SignedClinicalDataQRCodeGenerator"
+- "_TtCC15HealthRecordsUI18PDFReportGeneratorP33_4CB6A7B70990D83F1E205A82706BA99D17CancellationToken"
+- "_cacheFeaturedBrandLogos"
+- "accountIconProvider"
+- "accountStatusView"
+- "actionButton"
+- "actionTitle"
+- "allAccountsWithError:"
+- "cacheFeaturedBrandLogosWithCompletion:"
+- "categorySectionIndexes"
+- "closure"
+- "configCellWith:owner:dataProvider:"
+- "configCellWith:subject:dataProvider:"
+- "configureWithAccount:"
+- "dataProviderToken"
+- "diastolicRange"
+- "displayItemProviderSubject"
+- "dontShareButtonTapped:"
+- "explanation"
+- "explanationLabel"
+- "explanationText"
+- "featured"
+- "fetchLogoDataForFeaturedBrandsAtScaleKey:completion:"
+- "fetchQRCodeCIImages(qr:)"
+- "generatorCancellable"
+- "hasUpgradableAccounts"
+- "healthd"
+- "iconProvider"
+- "init(labelText:font:textColor:backgroundColor:accessories:accessibilityIdentifier:)"
+- "initWithProfile:presentingViewController:"
+- "isHighlighted"
+- "issuerDetailViewControllerForSignedClinicalDataGroup:"
+- "killall"
+- "label"
+- "launchAndReturnError:"
+- "monogramProvider"
+- "multiRecordViewControllerForMedicalRecords:profile:"
+- "nextButtonTapped:"
+- "paddedView"
+- "pdfGenerationToken"
+- "prefs:root=Privacy&path=LOCATION/com.apple.Health"
+- "prefs:root=Privacy&path=PROBLEM_REPORTING/SHARE_HEALTH_RECORDS_DATA"
+- "previewCancellable"
+- "removedRecordsSections"
+- "roundBottomCorners"
+- "setActionTitle:"
+- "setArguments:"
+- "setBusy:"
+- "setButtonText:"
+- "setContent:"
+- "setExplanation:"
+- "setExplanationText:"
+- "setIcon:"
+- "setInsetsLayoutMarginsFromSafeArea:"
+- "setLaunchPath:"
+- "setRoundBottomCorners:"
+- "stanley"
+- "systolicRange"
+- "title section "
+- "v24@?0@\"HKSignedClinicalDataParsingResult\"8@\"NSError\"16"
+- "waitUntilExit"
+- "workQueue"
+
+```

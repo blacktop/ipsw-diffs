@@ -1,0 +1,884 @@
+## ChronoUIServices
+
+> `/System/Library/PrivateFrameworks/ChronoUIServices.framework/ChronoUIServices`
+
+```diff
+
+-537.6.13.0.0
+-  __TEXT.__text: 0x82aac
+-  __TEXT.__auth_stubs: 0x2a30
+-  __TEXT.__objc_methlist: 0x2ccc
+-  __TEXT.__const: 0x304a
+-  __TEXT.__gcc_except_tab: 0x36dc
+-  __TEXT.__cstring: 0x2e5e
+-  __TEXT.__oslogstring: 0x2555
++631.0.3.0.0
++  __TEXT.__text: 0x8ea7c
++  __TEXT.__auth_stubs: 0x2cc0
++  __TEXT.__objc_methlist: 0x2fd4
++  __TEXT.__const: 0x3988
++  __TEXT.__gcc_except_tab: 0x3e48
++  __TEXT.__cstring: 0x33ce
++  __TEXT.__oslogstring: 0x28f5
+   __TEXT.__dlopen_cstrs: 0x68
+-  __TEXT.__constg_swiftt: 0x209c
+-  __TEXT.__swift5_typeref: 0x2c4a
+-  __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x1029
+-  __TEXT.__swift5_fieldmd: 0x11cc
+-  __TEXT.__swift5_assocty: 0x210
+-  __TEXT.__swift5_proto: 0x1e8
+-  __TEXT.__swift5_types: 0x114
++  __TEXT.__constg_swiftt: 0x2580
++  __TEXT.__swift5_typeref: 0x3270
++  __TEXT.__swift5_builtin: 0xdc
++  __TEXT.__swift5_reflstr: 0x11d9
++  __TEXT.__swift5_fieldmd: 0x13a8
++  __TEXT.__swift5_assocty: 0x2d0
++  __TEXT.__swift5_proto: 0x218
++  __TEXT.__swift5_types: 0x148
+   __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift5_capture: 0x680
++  __TEXT.__swift5_capture: 0x6b0
+   __TEXT.__swift_as_entry: 0xa0
+   __TEXT.__swift_as_ret: 0x9c
+   __TEXT.__swift5_mpenum: 0x14
+-  __TEXT.__unwind_info: 0x2dd8
+-  __TEXT.__eh_frame: 0x1d00
+-  __TEXT.__objc_classname: 0x7ee
+-  __TEXT.__objc_methname: 0x6744
+-  __TEXT.__objc_methtype: 0xe7f
+-  __TEXT.__objc_stubs: 0x40c0
+-  __DATA_CONST.__got: 0xae0
+-  __DATA_CONST.__const: 0xba8
+-  __DATA_CONST.__objc_classlist: 0x230
++  __TEXT.__unwind_info: 0x3180
++  __TEXT.__eh_frame: 0x1bd0
++  __TEXT.__objc_classname: 0x805
++  __TEXT.__objc_methname: 0x6e45
++  __TEXT.__objc_methtype: 0xefa
++  __TEXT.__objc_stubs: 0x4680
++  __DATA_CONST.__got: 0xbe8
++  __DATA_CONST.__const: 0xcb0
++  __DATA_CONST.__objc_classlist: 0x250
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1a18
++  __DATA_CONST.__objc_selrefs: 0x1c28
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x118
+-  __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x1528
+-  __AUTH_CONST.__const: 0x22b8
+-  __AUTH_CONST.__cfstring: 0x1320
+-  __AUTH_CONST.__objc_const: 0x8c80
+-  __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x98
+-  __DATA.__objc_ivar: 0x274
+-  __DATA.__data: 0x1078
+-  __DATA.__bss: 0x2490
+-  __DATA.__common: 0x28
+-  __DATA_DIRTY.__objc_data: 0x1588
+-  __DATA_DIRTY.__data: 0x3978
+-  __DATA_DIRTY.__bss: 0x14b0
++  __DATA_CONST.__objc_arraydata: 0x20
++  __AUTH_CONST.__auth_got: 0x1670
++  __AUTH_CONST.__const: 0x2520
++  __AUTH_CONST.__cfstring: 0x1700
++  __AUTH_CONST.__objc_const: 0x9258
++  __AUTH_CONST.__objc_dictobj: 0x50
++  __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH.__objc_data: 0xb98
++  __AUTH.__data: 0xce0
++  __DATA.__objc_ivar: 0x298
++  __DATA.__data: 0xf18
++  __DATA.__bss: 0x2298
++  __DATA.__common: 0x38
++  __DATA_DIRTY.__objc_data: 0xc88
++  __DATA_DIRTY.__data: 0x31e8
++  __DATA_DIRTY.__bss: 0x1cb0
+   __DATA_DIRTY.__common: 0x120
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 92153AE1-AB67-3825-86B2-FF4C949E8005
+-  Functions: 3302
+-  Symbols:   4583
+-  CStrings:  2059
++  UUID: 458F4BC3-A6F5-31D2-AA5E-9AB88A5EA64E
++  Functions: 3664
++  Symbols:   4909
++  CStrings:  2241
+ 
+Symbols:
++ -[CHUISLiveSnapshotView .cxx_destruct]
++ -[CHUISLiveSnapshotView setSnapshotView:]
++ -[CHUISLiveSnapshotView snapshotView]
++ -[CHUISMutableWidgetSceneClientSettings entryContentType]
++ -[CHUISMutableWidgetSceneClientSettings lightingImageData]
++ -[CHUISMutableWidgetSceneClientSettings setEntryContentType:]
++ -[CHUISMutableWidgetSceneClientSettings setLightingImageData:]
++ -[CHUISMutableWidgetSceneSettings idealizedDateComponents]
++ -[CHUISMutableWidgetSceneSettings proximity]
++ -[CHUISMutableWidgetSceneSettings renderingScale]
++ -[CHUISMutableWidgetSceneSettings separateLayers]
++ -[CHUISMutableWidgetSceneSettings setIdealizedDateComponents:]
++ -[CHUISMutableWidgetSceneSettings setProximity:]
++ -[CHUISMutableWidgetSceneSettings setRenderingScale:]
++ -[CHUISMutableWidgetSceneSettings setSeparateLayers:]
++ -[CHUISMutableWidgetSceneSettings setSupportedProximities:]
++ -[CHUISMutableWidgetSceneSettings supportedProximities]
++ -[CHUISMutableWidgetVisibilitySettings setFocal:]
++ -[CHUISPreferences debugRenderBoxSurfaces]
++ -[CHUISPreferences emulateFallbackTreatment]
++ -[CHUISWidgetHostViewController _applyLiveSnapshotContents]
++ -[CHUISWidgetHostViewController _createCGImageFromNSData:]
++ -[CHUISWidgetHostViewController _createCGImageFromNSData:].cold.1
++ -[CHUISWidgetHostViewController _createCGImageFromNSData:].cold.2
++ -[CHUISWidgetHostViewController _effectiveColorScheme]
++ -[CHUISWidgetHostViewController _emulatesFallbackTreatment]
++ -[CHUISWidgetHostViewController _evaluateAdditionalForegroundLayers]
++ -[CHUISWidgetHostViewController _evaluateAdditionalForegroundLayers].cold.1
++ -[CHUISWidgetHostViewController _evaluateAdditionalForegroundLayers].cold.2
++ -[CHUISWidgetHostViewController _evaluateEffectiveColorScheme]
++ -[CHUISWidgetHostViewController _glassBackgroundView]
++ -[CHUISWidgetHostViewController _materialView]
++ -[CHUISWidgetHostViewController _setBackgroundViewMode:].cold.1
++ -[CHUISWidgetHostViewController _setBackgroundViewMode:].cold.2
++ -[CHUISWidgetHostViewController _setBackgroundViewMode:].cold.3
++ -[CHUISWidgetHostViewController _setBackgroundViewMode:].cold.4
++ -[CHUISWidgetHostViewController _setEffectivePresentationMode:reason:]
++ -[CHUISWidgetHostViewController _setEffectivePresentationMode:reason:forceExistingRebuild:]
++ -[CHUISWidgetHostViewController _setEffectivePresentationMode:reason:forceExistingRebuild:allowCreatingScene:]
++ -[CHUISWidgetHostViewController _solariumForegroundView]
++ -[CHUISWidgetHostViewController _updateToLiveContentFromLiveSnapshotIfPossible]
++ -[CHUISWidgetHostViewController _windowDidAttachToContext:]
++ -[CHUISWidgetHostViewController idealizedDateComponents]
++ -[CHUISWidgetHostViewController proximity]
++ -[CHUISWidgetHostViewController renderingScale]
++ -[CHUISWidgetHostViewController scene:didUpdateClientSettings:]
++ -[CHUISWidgetHostViewController scene:handleActions:]
++ -[CHUISWidgetHostViewController sceneDidDeactivate:withContext:]
++ -[CHUISWidgetHostViewController separateLayers]
++ -[CHUISWidgetHostViewController setIdealizedDateComponents:]
++ -[CHUISWidgetHostViewController setProximity:]
++ -[CHUISWidgetHostViewController setRenderingScale:]
++ -[CHUISWidgetHostViewController setSeparateLayers:]
++ -[CHUISWidgetHostViewController setSupportedProximities:]
++ -[CHUISWidgetHostViewController supportedProximities]
++ -[CHUISWidgetScene idealizedDateComponents]
++ -[CHUISWidgetScene proximity]
++ -[CHUISWidgetScene renderingScale]
++ -[CHUISWidgetScene separateLayers]
++ -[CHUISWidgetScene supportedProximities]
++ -[CHUISWidgetSceneClientSettings entryContentType]
++ -[CHUISWidgetSceneClientSettings lightingImageData]
++ -[CHUISWidgetSceneSettings idealizedDateComponents]
++ -[CHUISWidgetSceneSettings proximity]
++ -[CHUISWidgetSceneSettings renderingScale]
++ -[CHUISWidgetSceneSettings separateLayers]
++ -[CHUISWidgetSceneSettings supportedProximities]
++ -[CHUISWidgetSceneSettingsDiffInspector observeIdealizedDateComponentsWithBlock:]
++ -[CHUISWidgetSceneSettingsDiffInspector observeProximityWithBlock:]
++ -[CHUISWidgetSceneSettingsDiffInspector observeRenderingScaleWithBlock:]
++ -[CHUISWidgetSceneSettingsDiffInspector observeSeparateLayersWithBlock:]
++ -[CHUISWidgetSceneSettingsDiffInspector observeSupportedProximitiesWithBlock:]
++ -[CHUISWidgetVisibilitySettings isFocal]
++ GCC_except_table102
++ GCC_except_table104
++ GCC_except_table110
++ GCC_except_table115
++ GCC_except_table119
++ GCC_except_table122
++ GCC_except_table123
++ GCC_except_table127
++ GCC_except_table128
++ GCC_except_table130
++ GCC_except_table136
++ GCC_except_table151
++ GCC_except_table152
++ GCC_except_table153
++ GCC_except_table157
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table165
++ GCC_except_table184
++ GCC_except_table185
++ GCC_except_table187
++ GCC_except_table190
++ GCC_except_table191
++ GCC_except_table198
++ GCC_except_table200
++ GCC_except_table204
++ GCC_except_table205
++ GCC_except_table216
++ GCC_except_table227
++ GCC_except_table228
++ GCC_except_table232
++ GCC_except_table236
++ GCC_except_table237
++ GCC_except_table238
++ GCC_except_table242
++ GCC_except_table243
++ GCC_except_table244
++ GCC_except_table245
++ GCC_except_table246
++ GCC_except_table247
++ GCC_except_table248
++ GCC_except_table249
++ GCC_except_table250
++ GCC_except_table256
++ GCC_except_table284
++ GCC_except_table285
++ GCC_except_table286
++ GCC_except_table287
++ GCC_except_table290
++ GCC_except_table292
++ GCC_except_table293
++ GCC_except_table294
++ GCC_except_table295
++ GCC_except_table297
++ GCC_except_table304
++ GCC_except_table305
++ GCC_except_table306
++ GCC_except_table307
++ GCC_except_table31
++ GCC_except_table32
++ GCC_except_table85
++ GCC_except_table88
++ GCC_except_table91
++ GCC_except_table92
++ GCC_except_table93
++ GCC_except_table97
++ GCC_except_table98
++ OBJC_IVAR_$_CHUISWidgetVisibilitySettings._focal
++ _CGImageSourceCreateWithData
++ _CHUISSharedExtensionProvider
++ _CHUISSharedExtensionProvider.cold.1
++ _CHUISSharedExtensionProviderWithRemote
++ _CHUISSharedExtensionProviderWithRemote.__instance
++ _CHUISSharedExtensionProviderWithRemote.__once
++ _CHUISSharedExtensionProviderWithRemote.cold.1
++ _NSStringFromCHSColorSchemes
++ _NSStringFromCHSWidgetProximities
++ _NSStringFromCHSWidgetProximity
++ _NSStringFromCHUISWidgetEntryContentType
++ _OBJC_CLASS_$_CHSMutableWidgetTintParameters
++ _OBJC_CLASS_$_CHSWidgetDescriptorsPredicate
++ _OBJC_CLASS_$_CHUISLiveSnapshotView
++ _OBJC_CLASS_$_FBMutableProcessExecutionContext
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSDateComponents
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_UIWindow
++ _OBJC_CLASS_$__TtC16ChronoUIServices23CHUISSolariumEffectView
++ _OBJC_IVAR_$_CHUISLiveSnapshotView._snapshotView
++ _OBJC_IVAR_$_CHUISPreferences._debugRenderBoxSurfaces
++ _OBJC_IVAR_$_CHUISPreferences._emulateFallbackTreatment
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._effectiveColorScheme
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._glassBackgroundView
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._idealizedDateComponents
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._materialBackgroundView
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._proximity
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._renderingScale
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._requestedColorScheme
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._separateLayers
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._solariumForegroundEffectView
++ _OBJC_IVAR_$_CHUISWidgetHostViewController._supportedProximities
++ _OBJC_METACLASS_$_CHUISLiveSnapshotView
++ _OBJC_METACLASS_$__TtC16ChronoUIServices23CHUISSolariumEffectView
++ _OUTLINED_FUNCTION_9
++ __DATA__TtC16ChronoUIServices23CHUISSolariumEffectView
++ __DATA__TtC16ChronoUIServices23SolariumEffectViewModel
++ __DATA__TtC16ChronoUIServices26FixedEnvironmentDataSource
++ __INSTANCE_METHODS__TtC16ChronoUIServices23CHUISSolariumEffectView
++ __IVARS__TtC16ChronoUIServices23CHUISSolariumEffectView
++ __IVARS__TtC16ChronoUIServices23SolariumEffectViewModel
++ __IVARS__TtC16ChronoUIServices26FixedEnvironmentDataSource
++ __METACLASS_DATA__TtC16ChronoUIServices23CHUISSolariumEffectView
++ __METACLASS_DATA__TtC16ChronoUIServices23SolariumEffectViewModel
++ __METACLASS_DATA__TtC16ChronoUIServices26FixedEnvironmentDataSource
++ __OBJC_$_INSTANCE_METHODS_CHUISLiveSnapshotView
++ __OBJC_$_INSTANCE_VARIABLES_CHUISLiveSnapshotView
++ __OBJC_$_PROP_LIST_CHUISLiveSnapshotView
++ __OBJC_CLASS_RO_$_CHUISLiveSnapshotView
++ __OBJC_METACLASS_RO_$_CHUISLiveSnapshotView
++ __UIWindowDidAttachContextNotification
++ ___110-[CHUISWidgetHostViewController _setEffectivePresentationMode:reason:forceExistingRebuild:allowCreatingScene:]_block_invoke
++ ___41-[CHUISWidgetVisibilitySettings isEqual:]_block_invoke_3
++ ___46-[CHUISWidgetHostViewController setProximity:]_block_invoke
++ ___51-[CHUISWidgetHostViewController setRenderingScale:]_block_invoke
++ ___51-[CHUISWidgetHostViewController setSeparateLayers:]_block_invoke
++ ___57-[CHUISWidgetHostViewController setSupportedProximities:]_block_invoke
++ ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke.372
++ ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke_2.379
++ ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke_3.380
++ ___60-[CHUISWidgetHostViewController setIdealizedDateComponents:]_block_invoke
++ ___62-[CHUISWidgetHostViewController _evaluateEffectiveColorScheme]_block_invoke
++ ___64-[CHUISWidgetHostViewController sceneDidDeactivate:withContext:]_block_invoke
++ ___64-[CHUISWidgetHostViewController sceneDidDeactivate:withContext:]_block_invoke_2
++ ___69-[CHUISWidgetHostViewController ensureContentWithTimeout:completion:]_block_invoke.213
++ ___69-[CHUISWidgetHostViewController ensureContentWithTimeout:completion:]_block_invoke.222
++ ___82-[CHUISWidgetHostViewController _hideSnapshotViewsAnimated:forceCompleteTeardown:]_block_invoke.317
++ ___CHUISSharedExtensionProviderWithRemote_block_invoke
++ ___block_descriptor_32_e35_v16?0"FBSMutableSceneParameters"8l
++ ___block_descriptor_32_e39_v16?0"FBSMutableSceneClientSettings"8l
++ ___block_descriptor_34_e46_v16?0"CHUISMutableWidgetVisibilitySettings"8l
++ ___block_literal_global.1017
++ ___block_literal_global.1022
++ ___block_literal_global.1024
++ ___block_literal_global.247
++ ___block_literal_global.250
++ ___block_literal_global.344
++ ___block_literal_global.387
++ ___block_literal_global.406
++ ___block_literal_global.945
++ ___swift_get_extra_inhabitant_index.56Tm
++ ___swift_store_extra_inhabitant_index.57Tm
++ ___unnamed_13
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_ChronoUIServices
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_ChronoUIServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ChronoUIServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ChronoUIServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ChronoUIServices
++ _associated conformance 16ChronoUIServices18SolariumEffectViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 16ChronoUIServices22CHUISSolariumLayerTypeOSHAASQ
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyAEyAA9EmptyViewVACyACyACyACyAA5ImageV16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAJ0h5ScaleM0ALLLVGAJ04FontM0ALLLVGAJ17SymbolColorEffectALLLVGGAEyAEyAEyAA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyACyACyACyACyACy9WidgetKit015MetadataGraphicG0VAMGAPGASGAVGAA20_TransactionModifierVG_SbQo_ACyAJ010RasterizedhG0VASGGAWGACyAJ07AppIconG0VASGGGAJ09AlignmentM0ALLLVGAaYHPA22_AaYHPAxaYHPAgaYHPyHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmA0G8ModifierHPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A21_AaYHPA17_AaYHPA16_AaYHPqd0__AaYHD3_A12_HO_A15_AaYHPA14_AaYHPyHC_AsAA26_HPyHCHCHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmAA26_HPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A20_AaYHPA19_AaYHPyHC_AsAA26_HPyHCHCHCHC_A24_AAA26_HPyHCHC.43
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices12FontOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA022_EnvironmentKeyWritingF0VyAA0I0VSgGGAA0E0HPAjaRHPyHC_ApA0eF0HPyHCHC.185
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices18ImageScaleOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA022_EnvironmentKeyWritingF0VyAA0I0V0J0OGGAA0E0HPAjaSHPyHC_AqA0eF0HPyHCHC.184
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA01_J6EffectVGAA0E0HPAjaNHPyHC_AlA0eF0HPyHCHC.183
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA08_OverlayH0VyACyAA05_Viewh1_D0Vy16ChronoUIServices17AlignmentOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV023WidthPreservingTextLineN0VGAA015_GeometryActionH0Vy12CoreGraphics7CGFloatVGGGGAA12_FrameLayoutVGAA0K0HPA3_AAA7_HPAkAA7_HPAeAA7_HPyHC_AjA0kH0HPyHCHC_A2_AAA8_HPyHCHC_A5_AAA8_HPyHCHC.195
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACy16ChronoUIServices15ControlIconViewVAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVGGAKGAKGAKGAHyAA5ImageV5ScaleOSgGGAHyAA5ColorVGGAA0I0HPAvAA_HPAoAA_HPAnAA_HPAmAA_HPAlAA_HPAfAA_HPyHC_AkA0iM0HPyHCHC_AkAA0_HPyHCHC_AkAA0_HPyHCHC_AkAA0_HPyHCHC_AuAA0_HPyHCHC_AyAA0_HPyHCHC.44
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA5ImageVAA18_AspectRatioLayoutVG16ChronoUIServices18AppIconStyleEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAEyAEyAEyAEyAgK22VerticalOffsetOverrideAMLLVGAK0f5ScaleY0AMLLVGAK04FontY0AMLLVGAK011SymbolColorO0AMLLVGGAA4ViewHPAoAA1_HPAjAA1_HPAgAA1_HPyHC_AiA12ViewModifierHPyHCHC_AnAA2_HPyHCHC_A_AAA1_HPAxAA1_HPAuAA1_HPArAA1_HPAgAA1_HPyHC_AqAA2_HPyHCHC_AtAA2_HPyHCHC_AwAA2_HPyHCHC_AzAA2_HPyHCHCHC.187
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17AlignmentOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAK023WidthPreservingTextLineJ0VGAEyAEyAEyAA5ImageVAH04FontK0AJLLVGAA016_ForegroundStyleG0VyAA5ColorVGGAA08_OverlayG0VyALGGGALGAA0F0HPA3_AAA5_HPAoAA5_HPAlAA5_HPyHC_AnA0fG0HPyHCHC_A2_AAA5_HPAzAA5_HPAtAA5_HPAqAA5_HPyHC_AsAA6_HPyHCHC_AyAA6_HPyHCHC_A1_AAA6_HPyHCHCHC_AlAA5_HPyHCHC.190
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA6ZStackVyAA9TupleViewVyAA08ModifiedD0VyAIyAIyAIyAA5ColorVAA12_FrameLayoutVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA07_ShadowM0VGAA010_BlendModeM0VG_AIyAA0G0PAAE12_colorMatrixyQrAA01_iT0VFQOyAIyAA01_g9Modifier_D0Vy16ChronoUIServices012AppIconStyleM033_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAMG_Qo_AA09_BackdropM0VyAIyA0_AAEA1_yQrA3_FQOyAA09_BackdropM11PlaceholderV_Qo_ASGGGtGGAIyA10_ASGGA23_GAAA_HPA24_AAA_HPA22_AAA_HPyHC_A23_AAA_HPA10_AAA_HPyHC_AsA0gU0HPyHCHCHC_A23_AAA_HPA10_AAA_HPyHC_AsAA26_HPyHCHCHC.194
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA016_ForegroundStyleG0VyAA08AnyShapeU0VGGAEyAEyAlA01_tU9Modifier3VyAA01_K6MatrixVA2VGGAA010_AnimationG0VyAA0K0VSgGGGACyAEyAEyAlTyA0_A0_A0_GGA2_GAEyAlTyA3PGGGGALGAA0F0HPA11_AAA13_HPA4_AAA13_HPArAA13_HPAlAA13_HPyHC_AqA0fG0HPyHCHC_A3_AAA13_HPAxAA13_HPAlAA13_HPyHC_AwAA14_HPyHCHC_A2_AAA14_HPyHCHCHC_A10_AAA13_HPA7_AAA13_HPA6_AAA13_HPAlAA13_HPyHC_A5_AAA14_HPyHCHC_A2_AAA14_HPyHCHC_A9_AAA13_HPAlAA13_HPyHC_A8_AAA14_HPyHCHCHCHC_AlAA13_HPyHCHC.186
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA08ModifiedE0VyxAA16_OverlayModifierVyAFy16ChronoUIServices014SolariumEffectC0VAA017_AllowsHitTestingH0VGGGxGAaBHPApaBHPxAaBHD1__AoA0cH0HPyHCHC_xAaBHD1_HC.40
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA08ModifiedE0VyxAA19_BackgroundModifierVy16ChronoUIServices014SolariumEffectC0VGGxGAaBHPAmaBHPxAaBHD1__AlA0cH0HPyHCHC_xAaBHD1_HC.39
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAA08ModifiedE0VyxAA19_BackgroundModifierVy16ChronoUIServices014SolariumEffectC0VGGxGAaBHPAmaBHPxAaBHD1__AlA0cH0HPyHCHC_xAaBHD1_HCTm
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOy16ChronoUIServices015RasterizedImageC0V_AG07AppIconK5CacheC0N3KeyVSgQo_HO.189
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA5GroupVyAA19_ConditionalContentVyAA08ModifiedJ0VyALyALyAJyALyAA16RoundedRectangleVAA24_ForegroundStyleModifierVyAA8MaterialVGGATGAA022_EnvironmentKeyWritingP0VyAA11ColorSchemeOGGAA12_FrameLayoutVGAA010_FixedSizeX0VGA_GG_SbSgQo_HO.54
++ _keypath_get.2Tm
++ _objc_msgSend$_applyLiveSnapshotContents
++ _objc_msgSend$_emulatesFallbackTreatment
++ _objc_msgSend$_evaluateAdditionalForegroundLayers
++ _objc_msgSend$_evaluateEffectiveColorScheme
++ _objc_msgSend$_setEffectivePresentationMode:reason:
++ _objc_msgSend$_setEffectivePresentationMode:reason:forceExistingRebuild:
++ _objc_msgSend$_setEffectivePresentationMode:reason:forceExistingRebuild:allowCreatingScene:
++ _objc_msgSend$_updateToLiveContentFromLiveSnapshotIfPossible
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$bringSubviewToFront:
++ _objc_msgSend$bs_CGFloatValue
++ _objc_msgSend$captureSnapshotPresentationView
++ _objc_msgSend$cornerRadius
++ _objc_msgSend$debugRenderBoxSurfaces
++ _objc_msgSend$defaultCenter
++ _objc_msgSend$emulateFallbackTreatment
++ _objc_msgSend$entryContentType
++ _objc_msgSend$extensionIdentity
++ _objc_msgSend$filterStyle
++ _objc_msgSend$hasPrefix:
++ _objc_msgSend$idealizedDateComponents
++ _objc_msgSend$initIncludingRelevanceBacked:
++ _objc_msgSend$initWithLayerType:tintParameters:cornerRadius:frame:
++ _objc_msgSend$initWithOptions:
++ _objc_msgSend$initWithWidgetsPredicate:controlsPredicate:
++ _objc_msgSend$invalidate:
++ _objc_msgSend$isCarDisplay
++ _objc_msgSend$isCarInstrumentsDisplay
++ _objc_msgSend$isRemote
++ _objc_msgSend$minusSet:
++ _objc_msgSend$object
++ _objc_msgSend$previousSettings
++ _objc_msgSend$proximity
++ _objc_msgSend$removeObserver:name:object:
++ _objc_msgSend$renderingScale
++ _objc_msgSend$separateLayers
++ _objc_msgSend$setCollectAsRemoteElement:
++ _objc_msgSend$setEntryContentType:
++ _objc_msgSend$setEnvironment:
++ _objc_msgSend$setExecutionContext:
++ _objc_msgSend$setFocal:
++ _objc_msgSend$setIdealizedDateComponents:
++ _objc_msgSend$setProximity:
++ _objc_msgSend$setRemoteWidgetInclusions:
++ _objc_msgSend$setRenderingScale:
++ _objc_msgSend$setSeparateLayers:
++ _objc_msgSend$setSnapshotView:
++ _objc_msgSend$setSupportedProximities:
++ _objc_msgSend$settingsDiff
++ _objc_msgSend$snapshotView
++ _objc_msgSend$supportedProximities
++ _objc_msgSend$transitionContext
++ _objc_msgSend$ui_intelligenceComponent
++ _objc_msgSend$wantsGlassMaterial
++ _objectdestroy.155Tm
++ _swift_coroFrameAlloc
++ _swift_isaMask
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic SbSg
++ _symbolic So23CHSWidgetTintParametersC
++ _symbolic So6UIViewC
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 16ChronoUIServices18SolariumEffectViewV
++ _symbolic _____ 16ChronoUIServices22CHUISSolariumLayerTypeO
++ _symbolic _____ 16ChronoUIServices23CHUISSolariumEffectViewC
++ _symbolic _____ 16ChronoUIServices23SolariumEffectViewModelC
++ _symbolic _____ 16ChronoUIServices25ControlIconViewParametersV
++ _symbolic _____ 16ChronoUIServices26FixedEnvironmentDataSourceC
++ _symbolic _____ 7SwiftUI13AnyShapeStyleV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE27__Key_controlIconImageScale33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE28__Key_controlIconDefaultTint33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE36__Key_controlIconHierarchicalPrimary33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE37__Key_controlIconHierarchicalTertiary33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE37__Key_controlIconMonochromeShapeStyle33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV16ChronoUIServicesE38__Key_controlIconHierarchicalSecondary33_9F33113B44FE0FFD4EB13F27DDC4994ELLV
++ _symbolic _____ So18CHSWidgetProximityV
++ _symbolic _____ s6UInt64V
++ _symbolic _____Sg 7SwiftUI17ContentTransitionV
++ _symbolic _____Sg 7SwiftUI5ImageV5ScaleO
++ _symbolic _____Sg 9ChronoKit20EnvironmentModifiersV
++ _symbolic ______p 9ChronoKit20ControlsCacheReadingP
++ _symbolic ______pSg 9ChronoKit20ControlsCacheReadingP
++ _symbolic _____yAAyAAyAAyAAyAAy__________y_____GGAEGAEGAEGACy_____SgGGACy_____GG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA5ImageV5ScaleO AA5ColorV
++ _symbolic _____yAAyAAyAAyAAy__________y_____GGAEGAEGAEGACy_____SgGG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV AA5ImageV5ScaleO
++ _symbolic _____yAAyAAyAAy__________y_____GGAEGAEGAEG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____yAAyAAy__________y_____GGAEGAEG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____yAAyAAy_____yAAy__________y_____GGAGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingJ0V AA11ColorSchemeO AA12_FrameLayoutV AA010_FixedSizeR0V
++ _symbolic _____yAAyAAy_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____y_____SgGGGAAyAByAByAeJyA3OGGAQGAByAeJyA3GGGGGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA08AnyShapeU0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V AA0K0V
++ _symbolic _____yAAy__________y_____GGAEG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____yAAy_____yAAy__________y_____GGAGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingJ0V AA11ColorSchemeO AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____y_____SgGGGAAyAByAByAeJyA3OGGAQGAByAeJyA3GGGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA08AnyShapeU0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V AA0K0V
++ _symbolic _____ySbSgG 7SwiftUI10AppStorageV
++ _symbolic _____y_____A2BG 7SwiftUI25_ForegroundStyleModifier3V AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV 16ChronoUIServices18SolariumEffectViewV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ImageV5ScaleO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 16ChronoUIServices18SolariumEffectViewV AA25_AllowsHitTestingModifierV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 16ChronoUIServices15ControlIconViewV AA30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____yAAy__________y_____GGAGG_____y_____GG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingJ0V AA11ColorSchemeO
++ _symbolic _____y_____yAByAByAAyABy__________y_____GGAGG_____y_____GG_____G_____GALG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingJ0V AA11ColorSchemeO AA12_FrameLayoutV AA010_FixedSizeR0V
++ _symbolic _____y_____yAByABy_____yABy__________y_____GGAHG_____y_____GG_____G_____GAM_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingK0V AA11ColorSchemeO AA12_FrameLayoutV AA010_FixedSizeS0V
++ _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____yAGSgGGAByAeFy_____A2NGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA0K0V AA010_AnimationG0V AA08AnyShapeU0V
++ _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____yAGSgGGAByAeFy_____A2NGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA0L0V AA010_AnimationH0V AA08AnyShapeV0V
++ _symbolic _____y_____yABy_____y_____y_____G_____y_____GGACyACyAF_____y_____A2LGG_____y_____SgGGGAByACyACyAfKyA3PGGARGACyAfKyA3HGGGGAF_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA08AnyShapeV0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V AA0L0V
++ _symbolic _____y_____y_____G_____y_____A2FGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA08AnyShapeT0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleF0V AA08AnyShapeT0V
++ _symbolic _____y_____y__________GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV 16ChronoUIServices18SolariumEffectViewV AA017_AllowsHitTestingD0V
++ _symbolic _____y_____y__________y_____GGAGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y__________y_____GGAG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y_____yACyACyAByACy__________y_____GGAHG_____y_____GG_____G_____GAMGG 7SwiftUI5GroupV AA19_ConditionalContentV AA08ModifiedE0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingK0V AA11ColorSchemeO AA12_FrameLayoutV AA010_FixedSizeS0V
++ _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____y_____SgGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA08AnyShapeU0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V AA0K0V
++ _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____y_____SgGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA08AnyShapeV0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V AA0L0V
++ _symbolic _____y_____y_____y_____yACyACyAByACy__________y_____GGAHG_____y_____GG_____G_____GAMGG_SbSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5GroupV AA19_ConditionalContentV AA08ModifiedJ0V AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA8MaterialV AA022_EnvironmentKeyWritingP0V AA11ColorSchemeO AA12_FrameLayoutV AA010_FixedSizeX0V
++ _symbolic _____y_____y_____y_____y_____G_____y_____GGACyACyAF_____y_____A2LGG_____y_____SgGGGAByACyACyAfKyA3PGGARGACyAfKyA3HGGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA08AnyShapeV0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V AA0L0V
++ _symbolic _____y_____yx_____yABy__________GGGxG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16_OverlayModifierV 16ChronoUIServices18SolariumEffectViewV AA017_AllowsHitTestingG0V
++ _symbolic _____y_____yx_____y_____GGxG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA19_BackgroundModifierV 16ChronoUIServices18SolariumEffectViewV
++ _type_layout_string 16ChronoUIServices18SolariumEffectViewV
++ _type_layout_string So6CGSizeV
+- -[CHUISWidgetHostViewController _applyLiveSnapshotContentsFromSnapshot:]
+- -[CHUISWidgetHostViewController _implicitSetRenderScheme:].cold.1
+- -[CHUISWidgetHostViewController _setEffectivePresentationMode:]
+- -[CHUISWidgetHostViewController _setEffectivePresentationMode:forceExistingRebuild:]
+- -[CHUISWidgetHostViewController _setEffectivePresentationMode:forceExistingRebuild:allowCreatingScene:]
+- -[CHUISWidgetHostViewController initWithWidget:metrics:widgetConfigurationIdentifier:].cold.1
+- -[CHUISWidgetHostViewController scene:didReceiveActions:]
+- -[CHUISWidgetHostViewController scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]
+- -[CHUISWidgetHostViewController sceneDidDeactivate:withError:]
+- -[CHUISWidgetHostViewController setTintParameters:fencingAnimations:].cold.2
+- -[CHUISWidgetHostViewController setTintParameters:fencingAnimations:].cold.3
+- -[CHUISWidgetScene .cxx_destruct]
+- -[CHUISWidgetScene setSupportedColorSchemes:]
+- -[CHUISWidgetScene setSupportedRenderSchemes:]
+- GCC_except_table105
+- GCC_except_table116
+- GCC_except_table121
+- GCC_except_table131
+- GCC_except_table132
+- GCC_except_table133
+- GCC_except_table134
+- GCC_except_table135
+- GCC_except_table138
+- GCC_except_table139
+- GCC_except_table141
+- GCC_except_table142
+- GCC_except_table143
+- GCC_except_table145
+- GCC_except_table146
+- GCC_except_table147
+- GCC_except_table155
+- GCC_except_table156
+- GCC_except_table163
+- GCC_except_table167
+- GCC_except_table170
+- GCC_except_table171
+- GCC_except_table172
+- GCC_except_table180
+- GCC_except_table196
+- GCC_except_table197
+- GCC_except_table203
+- GCC_except_table211
+- GCC_except_table222
+- GCC_except_table223
+- GCC_except_table224
+- GCC_except_table225
+- GCC_except_table257
+- GCC_except_table258
+- GCC_except_table259
+- GCC_except_table260
+- GCC_except_table262
+- GCC_except_table263
+- GCC_except_table264
+- GCC_except_table265
+- GCC_except_table267
+- GCC_except_table273
+- GCC_except_table274
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table36
+- GCC_except_table37
+- _NSStringFromCHSWidgetColorSchemes
+- _OBJC_IVAR_$_CHUISWidgetHostViewController._colorScheme
+- _OBJC_IVAR_$_CHUISWidgetHostViewController._materialView
+- _OBJC_IVAR_$_CHUISWidgetHostViewController._usesSystemBackgroundMaterial
+- _OBJC_IVAR_$_CHUISWidgetScene._supportedColorSchemes
+- _OBJC_IVAR_$_CHUISWidgetScene._supportedRenderSchemes
+- __OBJC_$_INSTANCE_VARIABLES_CHUISWidgetScene
+- ___103-[CHUISWidgetHostViewController _setEffectivePresentationMode:forceExistingRebuild:allowCreatingScene:]_block_invoke
+- ___48-[CHUISWidgetHostViewController setColorScheme:]_block_invoke
+- ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke.306
+- ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke_2.313
+- ___58-[CHUISWidgetHostViewController _updateSceneToForeground:]_block_invoke_3.314
+- ___69-[CHUISWidgetHostViewController ensureContentWithTimeout:completion:]_block_invoke.174
+- ___69-[CHUISWidgetHostViewController ensureContentWithTimeout:completion:]_block_invoke.183
+- ___82-[CHUISWidgetHostViewController _hideSnapshotViewsAnimated:forceCompleteTeardown:]_block_invoke.266
+- ___block_descriptor_33_e46_v16?0"CHUISMutableWidgetVisibilitySettings"8l
+- ___block_literal_global.287
+- ___block_literal_global.323
+- ___block_literal_global.336
+- ___block_literal_global.832
+- ___block_literal_global.899
+- ___block_literal_global.902
+- ___swift_get_extra_inhabitant_index.22Tm
+- ___swift_store_extra_inhabitant_index.23Tm
+- ___unnamed_4
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_ChronoUIServices
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_ChronoUIServices
+- _flat unique 9ChronoKit16FileCacheReading_pq_7ContentAaBPRts_x8EntryKeyADRtsXP
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyAEyAA9EmptyViewVACyACyACyACyAA5ImageV16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAJ0h5ScaleM0ALLLVGAJ04FontM0ALLLVGAJ17SymbolColorEffectALLLVGGAEyAEyAEyAA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyACyACyACyACyACy9WidgetKit015MetadataGraphicG0VAMGAPGASGAVGAA20_TransactionModifierVG_SbQo_ACyAJ010RasterizedhG0VASGGAWGACyAJ07AppIconG0VASGGGAJ09AlignmentM0ALLLVGAaYHPA22_AaYHPAxaYHPAgaYHPyHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmA0G8ModifierHPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A21_AaYHPA17_AaYHPA16_AaYHPqd0__AaYHD3_A12_HO_A15_AaYHPA14_AaYHPyHC_AsAA26_HPyHCHCHC_AwaYHPAtaYHPAqaYHPAnaYHPAiaYHPyHC_AmAA26_HPyHCHC_ApAA26_HPyHCHC_AsAA26_HPyHCHC_AvAA26_HPyHCHCHC_A20_AaYHPA19_AaYHPyHC_AsAA26_HPyHCHCHCHC_A24_AAA26_HPyHCHC.10
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices12FontOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA022_EnvironmentKeyWritingF0VyAA0I0VSgGGAA0E0HPAjaRHPyHC_ApA0eF0HPyHCHC.142
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices18ImageScaleOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA022_EnvironmentKeyWritingF0VyAA0I0V0J0OGGAA0E0HPAjaSHPyHC_AqA0eF0HPyHCHC.141
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy16ChronoUIServices22VerticalOffsetOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA01_J6EffectVGAA0E0HPAjaNHPyHC_AlA0eF0HPyHCHC.140
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA08_OverlayH0VyACyAA05_Viewh1_D0Vy16ChronoUIServices17AlignmentOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLV023WidthPreservingTextLineN0VGAA015_GeometryActionH0Vy12CoreGraphics7CGFloatVGGGGAA12_FrameLayoutVGAA0K0HPA3_AAA7_HPAkAA7_HPAeAA7_HPyHC_AjA0kH0HPyHCHC_A2_AAA8_HPyHCHC_A5_AAA8_HPyHCHC.152
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA5ImageVAA18_AspectRatioLayoutVG16ChronoUIServices18AppIconStyleEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAEyAEyAEyAEyAgK22VerticalOffsetOverrideAMLLVGAK0f5ScaleY0AMLLVGAK04FontY0AMLLVGAK011SymbolColorO0AMLLVGGAA4ViewHPAoAA1_HPAjAA1_HPAgAA1_HPyHC_AiA12ViewModifierHPyHCHC_AnAA2_HPyHCHC_A_AAA1_HPAxAA1_HPAuAA1_HPArAA1_HPAgAA1_HPyHC_AqAA2_HPyHCHC_AtAA2_HPyHCHC_AwAA2_HPyHCHC_AzAA2_HPyHCHCHC.144
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17AlignmentOverride33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAK023WidthPreservingTextLineJ0VGAEyAEyAEyAA5ImageVAH04FontK0AJLLVGAA016_ForegroundStyleG0VyAA5ColorVGGAA08_OverlayG0VyALGGGALGAA0F0HPA3_AAA5_HPAoAA5_HPAlAA5_HPyHC_AnA0fG0HPyHCHC_A2_AAA5_HPAzAA5_HPAtAA5_HPAqAA5_HPyHC_AsAA6_HPyHCHC_AyAA6_HPyHCHC_A1_AAA6_HPyHCHCHC_AlAA5_HPyHCHC.147
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAA016_ForegroundStyleG0VyAA0K0VGGAEyAEyAlA01_tU9Modifier3VyAA01_K6MatrixVA2VGGAA010_AnimationG0VyAPSgGGGACyAEyAEyAlTyA3PGGA0_GALGGAA0F0HPA2_AAA8_HPArAA8_HPAlAA8_HPyHC_AqA0fG0HPyHCHC_A1_AAA8_HPAxAA8_HPAlAA8_HPyHC_AwAA9_HPyHCHC_A0_AAA9_HPyHCHCHC_A6_AAA8_HPA5_AAA8_HPA4_AAA8_HPAlAA8_HPyHC_A3_AAA9_HPyHCHC_A0_AAA9_HPyHCHC_AlAA8_HPyHCHCHC.143
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA6ZStackVyAA9TupleViewVyAA08ModifiedD0VyAIyAIyAIyAA5ColorVAA12_FrameLayoutVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA07_ShadowM0VGAA010_BlendModeM0VG_AIyAA0G0PAAE12_colorMatrixyQrAA01_iT0VFQOyAIyAA01_g9Modifier_D0Vy16ChronoUIServices012AppIconStyleM033_9F33113B44FE0FFD4EB13F27DDC4994ELLVGAMG_Qo_AA09_BackdropM0VyAIyA0_AAEA1_yQrA3_FQOyAA09_BackdropM11PlaceholderV_Qo_ASGGGtGGAIyA10_ASGGA23_GAAA_HPA24_AAA_HPA22_AAA_HPyHC_A23_AAA_HPA10_AAA_HPyHC_AsA0gU0HPyHCHCHC_A23_AAA_HPA10_AAA_HPyHC_AsAA26_HPyHCHCHC.151
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOy16ChronoUIServices015RasterizedImageC0V_AG07AppIconK5CacheC0N3KeyVSgQo_HO.146
+- _objc_msgSend$IOSurface
+- _objc_msgSend$_applyLiveSnapshotContentsFromSnapshot:
+- _objc_msgSend$_setEffectivePresentationMode:
+- _objc_msgSend$_setEffectivePresentationMode:forceExistingRebuild:
+- _objc_msgSend$_setEffectivePresentationMode:forceExistingRebuild:allowCreatingScene:
+- _objc_msgSend$contents
+- _objc_msgSend$newSnapshot
+- _objc_msgSend$setContents:
+- _objectdestroy.114Tm
+- _objectdestroy.55Tm
+- _swift_bridgeObjectRelease_n
+- _symbolic 7Content_____Qyd__ 9ChronoKit16FileCacheReadingP
+- _symbolic 8EntryKey_____Qyd__ 9ChronoKit16FileCacheReadingP
+- _symbolic _______________Xj r0_l9ChronoKit16FileCacheReading_pq_7ContentRts_x8EntryKeyRtsXPXGMq AA07ControlgH0V AA0igF0C
+- _symbolic _______________XjSg r0_l9ChronoKit16FileCacheReading_pq_7ContentRts_x8EntryKeyRtsXPXGMq AA07ControlgH0V AA0igF0C
+- _symbolic _____yAAy_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____yAGSgGGGAAyAByAByAeJyA3GGGAPGAEGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE12_colorMatrixyQrAA06_ColorE0VFQO AA26_BackdropEffectPlaceholderV
+- _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____yAGSgGGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA0K0V AA010_AnimationG0V
+- _symbolic _____y_____yABy_____y_____G_____y_____A2GGG_____yAGSgGGAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA25_ForegroundStyleModifier3V AA0L0V AA010_AnimationH0V
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleF0V AA0J0V
+- _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____yAGSgGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleG0V AA0K0V AA01_tU9Modifier3V AA01_K6MatrixV AA010_AnimationG0V
+- _symbolic _____y_____y_____y_____G_____y_____GGAByAByAE_____y_____A2KGG_____yAGSgGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V
+- _symbolic _____y_____y_____y_____y_____G_____y_____GGACyACyAF_____y_____A2LGG_____yAHSgGGGAByACyACyAfKyA3HGGAQGAFG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 16ChronoUIServices17SymbolColorEffect33_9F33113B44FE0FFD4EB13F27DDC4994ELLV AA016_ForegroundStyleH0V AA0L0V AA01_uV9Modifier3V AA01_L6MatrixV AA010_AnimationH0V
+- _type_layout_string So7CGPointV
+CStrings:
++ "<PerformControlActionRequest: sessionKey="
++ "<SetControlStateRequest: sessionKey="
++ "<Unknown>"
++ "@\"CHUISLiveSnapshotView\""
++ "@\"NSDateComponents\""
++ "@\"_TtC16ChronoUIServices23CHUISSolariumEffectView\""
++ "@72@0:8Q16@24d32{CGRect={CGPoint=dd}{CGSize=dd}}40"
++ "CHUISLiveSnapshotView"
++ "ChronoUIServices/CHUISSolariumEffectView.swift"
++ "ClientEnvironmentProviderFactory systemEnvironmentDidChange, diff old vs new: %{public}s"
++ "Compute app icon image for side length: %{public}s"
++ "DebugRenderBoxSurfaces"
++ "Empty"
++ "EmulateFallbackTreatment"
++ "Glass Background View"
++ "Invalid type of client settings received: %@"
++ "Invalid type of transition context received: %@"
++ "Live"
++ "Live mode preferred and the scene is now foreground."
++ "Live snapshot unsupported for this widget"
++ "Placeholder"
++ "RB_SAVE_ARCHIVES"
++ "Requested mode"
++ "Solarium Foreground View"
++ "T@\"NSData\",&,N"
++ "T@\"NSData\",R,N"
++ "T@\"NSDateComponents\",&,N"
++ "T@\"NSDateComponents\",R,N"
++ "T@\"UIView\",&,N"
++ "TB,D,N,GisFocal"
++ "TB,R,N,GisFocal"
++ "TB,R,N,V_debugRenderBoxSurfaces"
++ "TB,R,N,V_emulateFallbackTreatment"
++ "Td,N,V_renderingScale"
++ "Tq,N,V_proximity"
++ "Use -init(frame: CGRect, cornerRadius: CGFloat, layerType: CHUISGlassEffectLayer)"
++ "User default preference for static snapshots"
++ "Using shortcuts app icon for %{public}s"
++ "Visible, Not Settled"
++ "Visibly Settled"
++ "Visibly Settled Focal"
++ "WidgetRenderer died; moving to LiveSnapshot in the interim"
++ "[%p-%{public}@] Effective color scheme changed to %{public}@"
++ "[%p-%{public}@] Effective presentation mode will change to %{public}@ for reason: %{public}@"
++ "[%p-%{public}@] Entry content type did change xfrom %{public}@ to %{public}@."
++ "[%p-%{public}@] Failed to create CGImage."
++ "[%p-%{public}@] Failed to create CGImageSource."
++ "[%p-%{public}@] Hiding solarium fg view - tintParameters=%{public}@"
++ "[%p-%{public}@] Idealized date components changed to %{public}@"
++ "[%p-%{public}@] Requested color scheme changed to %{public}@"
++ "[%p-%{public}@] Separate layers changed to %{public}@"
++ "[%p-%{public}@] Showing solarium fg view"
++ "[%p-%{public}@] Supported proximities changed to %{public}@"
++ "[%p-%{public}@] Tinting parameters changed to %{public}@"
++ "[%p-%{public}@] backgroundViewMode = BLUR"
++ "[%p-%{public}@] backgroundViewMode = GLASS"
++ "[%p-%{public}@] backgroundViewMode = NONE"
++ "[%p-%{public}@] backgroundViewMode = SOLID"
++ "[%{public}@] Toggle control action failed: %{public}@"
++ "[%{public}s] Button control action failed with error: %{public}@"
++ "[%{public}s] Button control action succeeded (isAnimating: %{bool,public}d)."
++ "[%{public}s] Control action: asked to perform. instance:%{public}s"
++ "[%{public}s] Destroyed"
++ "[%{public}s] Toggle control action succeeded"
++ "[%{public}s] View model changed. new value is %{public}s"
++ "[%{public}s] created new ControlInstance:%{public}s"
++ "[%{public}s] viewModel?.action is nil, viewModel is %{public}s, instance:%{public}s"
++ "^{CGImage=}24@0:8@16"
++ "_$observationRegistrar"
++ "_TtC16ChronoUIServices23CHUISSolariumEffectView"
++ "_TtC16ChronoUIServices23SolariumEffectViewModel"
++ "_TtC16ChronoUIServices26FixedEnvironmentDataSource"
++ "_applyLiveSnapshotContents"
++ "_cornerRadius"
++ "_createCGImageFromNSData:"
++ "_debugRenderBoxSurfaces"
++ "_effectiveColorScheme"
++ "_emulateFallbackTreatment"
++ "_emulatesFallbackTreatment"
++ "_evaluateAdditionalForegroundLayers"
++ "_evaluateEffectiveColorScheme"
++ "_fixedSize"
++ "_focal"
++ "_glassBackgroundView"
++ "_idealizedDateComponents"
++ "_layerType"
++ "_materialBackgroundView"
++ "_proximity"
++ "_renderingScale"
++ "_requestedColorScheme"
++ "_separateLayers"
++ "_setEffectivePresentationMode:reason:"
++ "_setEffectivePresentationMode:reason:forceExistingRebuild:"
++ "_setEffectivePresentationMode:reason:forceExistingRebuild:allowCreatingScene:"
++ "_snapshotView"
++ "_solariumForegroundEffectView"
++ "_solariumForegroundView"
++ "_supportedProximities"
++ "_updateToLiveContentFromLiveSnapshotIfPossible"
++ "_viewModel"
++ "_windowDidAttachToContext:"
++ "a value"
++ "addObserver:selector:name:object:"
++ "additionalSupportedProximities"
++ "blue"
++ "bringSubviewToFront:"
++ "bs_CGFloatValue"
++ "captureSnapshotPresentationView"
++ "com.apple.Maps"
++ "com.apple.findmy"
++ "com.apple.mobileslideshow"
++ "cornerRadius"
++ "debugRenderBoxSurfaces"
++ "defaultCenter"
++ "emulateFallbackTreatment"
++ "entryContentType"
++ "filterStyle"
++ "focal"
++ "glassOptions"
++ "green"
++ "hasPrefix:"
++ "i"
++ "idealizedDateComponents"
++ "imageData"
++ "initIncludingRelevanceBacked:"
++ "initWithLayerType:tintParameters:cornerRadius:frame:"
++ "initWithWidgetsPredicate:controlsPredicate:"
++ "invalidate:"
++ "isCarDisplay"
++ "isCarInstrumentsDisplay"
++ "isFocal"
++ "isRemote"
++ "lightingImageData"
++ "minusSet:"
++ "nil"
++ "object"
++ "observeIdealizedDateComponentsWithBlock:"
++ "observeProximityWithBlock:"
++ "observeRenderingScaleWithBlock:"
++ "observeSeparateLayersWithBlock:"
++ "observeSupportedProximitiesWithBlock:"
++ "pending widget change"
++ "previousSettings"
++ "primaryTintColor"
++ "proximity"
++ "red"
++ "removeObserver:name:object:"
++ "renderingScale"
++ "secure environment changed"
++ "separateLayers"
++ "setCollectAsRemoteElement:"
++ "setEntryContentType:"
++ "setEnvironment:"
++ "setExecutionContext:"
++ "setFocal:"
++ "setIdealizedDateComponents:"
++ "setIncludeRemote:"
++ "setLayerType:"
++ "setLightingImageData:"
++ "setProximity:"
++ "setRemoteWidgetInclusions:"
++ "setRenderingScale:"
++ "setSeparateLayers:"
++ "setSnapshotView:"
++ "setSupportedProximities:"
++ "setWantsSubduedGlass:"
++ "settingsDiff"
++ "supportedProximities"
++ "systemEnvironment"
++ "systemEnvironmentDidChangePublisher"
++ "ui_intelligenceComponent"
++ "v36@0:8Q16@24B32"
++ "v40@0:8Q16@24B32B36"
++ "wantsGlassMaterial"
++ "wantsSubduedGlass"
++ "wantsWhitePointBoost"
++ "widget changed"
++ "\xf0\xf0\xf0\xc1"
+- "ClientEnvironmentProviderFactory systemEnvironmentDidChange, diff old vs new: %s"
+- "Compute app icon image for side length: %s"
+- "IOSurface"
+- "Invalidtype of client settings received: %@"
+- "T@\"NSArray\",C,N,V_supportedRenderSchemes"
+- "TQ,N,V_supportedColorSchemes"
+- "Using shortcuts app icon for %s"
+- "Visible Not Settled"
+- "Visible Settled"
+- "[%p-%{public}@] Color scheme changed to %{public}@"
+- "[%p-%{public}@] Effective mode overridden to \"static\" due to live snapshot being unsupported."
+- "[%p-%{public}@] Effective mode overridden to \"static\" due to user default."
+- "[%p-%{public}@] Tinting parameters change deferred"
+- "[%p-%{public}@] Tinting parameters changed"
+- "[%s] Destroyed"
+- "[%{public}s] Control action succeeded"
+- "[%{public}s] Control action: asked to perform."
+- "[%{public}s] Control action: failed with error: %{public}@"
+- "[%{public}s] Control action: succeeded (isAnimating: %{bool,public}d)."
+- "[%{public}s] View model changed."
+- "_applyLiveSnapshotContentsFromSnapshot:"
+- "_setEffectivePresentationMode:"
+- "_setEffectivePresentationMode:forceExistingRebuild:"
+- "_setEffectivePresentationMode:forceExistingRebuild:allowCreatingScene:"
+- "_usesSystemBackgroundMaterial"
+- "contents"
+- "newSnapshot"
+- "preview"
+- "s"
+- "setContents:"
+- "timeline"
+- "v28@0:8Q16B24"
+- "v32@0:8Q16B24B28"
+- "vb"
+- "\xf0\xf0\xf0q"
+
+```

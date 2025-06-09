@@ -1,0 +1,1031 @@
+## DocumentManagerExecutables
+
+> `/System/Library/PrivateFrameworks/DocumentManagerExecutables.framework/DocumentManagerExecutables`
+
+```diff
+
+-337.6.3.0.0
+-  __TEXT.__text: 0xc7ab0
+-  __TEXT.__auth_stubs: 0x3050
+-  __TEXT.__objc_methlist: 0x3c8c
+-  __TEXT.__const: 0x6ec4
+-  __TEXT.__cstring: 0x87ea
+-  __TEXT.__oslogstring: 0x2278
++357.2.0.0.0
++  __TEXT.__text: 0xdb664
++  __TEXT.__auth_stubs: 0x3270
++  __TEXT.__objc_methlist: 0x3fcc
++  __TEXT.__const: 0x8324
++  __TEXT.__cstring: 0x936a
++  __TEXT.__oslogstring: 0x2c18
+   __TEXT.__ustring: 0x64
+   __TEXT.__gcc_except_tab: 0x188
+-  __TEXT.__swift5_typeref: 0x3140
+-  __TEXT.__swift5_capture: 0x1440
+-  __TEXT.__constg_swiftt: 0x2cb0
+-  __TEXT.__swift5_reflstr: 0x163a
+-  __TEXT.__swift5_fieldmd: 0x1ca8
+-  __TEXT.__swift5_builtin: 0x208
+-  __TEXT.__swift5_assocty: 0x888
+-  __TEXT.__swift5_proto: 0x468
+-  __TEXT.__swift5_types: 0x2a8
+-  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift5_typeref: 0x3d1e
++  __TEXT.__swift5_capture: 0x1a00
++  __TEXT.__constg_swiftt: 0x3430
++  __TEXT.__swift5_reflstr: 0x19aa
++  __TEXT.__swift5_fieldmd: 0x2194
++  __TEXT.__swift5_builtin: 0x244
++  __TEXT.__swift5_assocty: 0x948
++  __TEXT.__swift5_proto: 0x55c
++  __TEXT.__swift5_types: 0x2fc
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x2fa8
+-  __TEXT.__eh_frame: 0x1010
+-  __TEXT.__objc_classname: 0x787
+-  __TEXT.__objc_methname: 0x9ee6
+-  __TEXT.__objc_methtype: 0x1e32
+-  __TEXT.__objc_stubs: 0x50e0
+-  __DATA_CONST.__got: 0xe18
+-  __DATA_CONST.__const: 0xba8
+-  __DATA_CONST.__objc_classlist: 0x2b8
+-  __DATA_CONST.__objc_catlist: 0x108
++  __TEXT.__unwind_info: 0x34a0
++  __TEXT.__eh_frame: 0x1218
++  __TEXT.__objc_classname: 0x788
++  __TEXT.__objc_methname: 0xa665
++  __TEXT.__objc_methtype: 0x1eea
++  __TEXT.__objc_stubs: 0x5220
++  __DATA_CONST.__got: 0xea0
++  __DATA_CONST.__const: 0xca0
++  __DATA_CONST.__objc_classlist: 0x2e8
++  __DATA_CONST.__objc_catlist: 0x110
+   __DATA_CONST.__objc_nlcatlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x1a0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2c10
++  __DATA_CONST.__objc_selrefs: 0x2e70
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0xe8
+   __DATA_CONST.__objc_arraydata: 0x20
+-  __AUTH_CONST.__auth_got: 0x1838
+-  __AUTH_CONST.__const: 0x77f8
++  __AUTH_CONST.__auth_got: 0x1948
++  __AUTH_CONST.__const: 0x8b30
+   __AUTH_CONST.__cfstring: 0xe20
+-  __AUTH_CONST.__objc_const: 0x82d8
++  __AUTH_CONST.__objc_const: 0x8c30
+   __AUTH_CONST.__objc_intobj: 0x210
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x28c8
+-  __AUTH.__data: 0x1378
+-  __DATA.__objc_ivar: 0x1f0
+-  __DATA.__data: 0x2698
+-  __DATA.__bss: 0x7670
++  __AUTH.__objc_data: 0x30d8
++  __AUTH.__data: 0x14e8
++  __DATA.__objc_ivar: 0x1f4
++  __DATA.__data: 0x2b60
++  __DATA.__bss: 0x9070
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__objc_data: 0x9b8
+-  __DATA_DIRTY.__data: 0xf60
+-  __DATA_DIRTY.__bss: 0x11e0
++  __DATA_DIRTY.__data: 0xf20
++  __DATA_DIRTY.__bss: 0x11d0
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SharedWithYou.framework/SharedWithYou
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/Symbols.framework/Symbols
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/LiveFS.framework/LiveFS
+   - /System/Library/PrivateFrameworks/SocialLayer.framework/SocialLayer
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/StorageKit.framework/StorageKit
+   - /System/Library/PrivateFrameworks/Synapse.framework/Synapse
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 6BF78755-7D75-3321-8240-71A96097D79C
+-  Functions: 5254
+-  Symbols:   5304
+-  CStrings:  3206
++  UUID: 6B7EE22A-884D-3354-84DB-B6D56A076007
++  Functions: 5944
++  Symbols:   5592
++  CStrings:  3405
+ 
+Symbols:
++ +[DOCFileRenamingSupport(Swift_OBJC) _workaroundWrapper_importDocumentAtURL:hostIdentifier:completionHandler:]
++ -[DOCTagCheckmarkView checked]
++ -[DOCTagCheckmarkView setChecked:]
++ -[DOCTagRenderer renderAttributedStringWithRequest:titleHighlighter:]
++ -[DOCTagRenderer renderAttributedStringWithRequest:titleHighlighter:].cold.1
++ -[SBSHomeScreenService(DOCExtensions) doc_addFileStackWithURL:]
++ -[SBSHomeScreenService(DOCExtensions) doc_removeFileStackWithURL:]
++ GCC_except_table11
++ GCC_except_table15
++ _CGAffineTransformMakeTranslation
++ _CGBitmapContextCreate
++ _CGColorSpaceCreateDeviceRGB
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _DOCDocumentSourceIdentifierLocalAutomatic
++ _DOCUserDefaultsTimestampOfLastCallToImportToDefaultLocationSPI
++ _OBJC_CLASS_$_DOCDocumentSource
++ _OBJC_CLASS_$_FIDeleteOperation
++ _OBJC_CLASS_$_FINewFolderOperation
++ _OBJC_CLASS_$_FIOperation
++ _OBJC_CLASS_$_FIOperationReply
++ _OBJC_CLASS_$_FIRenameOperation
++ _OBJC_CLASS_$_FPActionOperation
++ _OBJC_CLASS_$_FPCopyOperation
++ _OBJC_CLASS_$_LSClaimBindingBindable
++ _OBJC_CLASS_$_LSClaimBindingConfiguration
++ _OBJC_CLASS_$_NSLock
++ _OBJC_CLASS_$_NSSymbolDrawOffEffect
++ _OBJC_CLASS_$_NSSymbolDrawOnEffect
++ _OBJC_CLASS_$_NSSymbolEffectOptions
++ _OBJC_CLASS_$_SBSHomeScreenService
++ _OBJC_CLASS_$__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ _OBJC_CLASS_$__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ _OBJC_IVAR_$_DOCTagCheckmarkView._checked
++ _OBJC_METACLASS_$_FINewFolderOperation
++ _OBJC_METACLASS_$_FIRenameOperation
++ _OBJC_METACLASS_$__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ _OBJC_METACLASS_$__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ _OBJC_METACLASS_$__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ _OBJC_METACLASS_$__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ _OBJC_METACLASS_$__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ _UIDocumentBrowserActionIdentifierCopy
++ _UIDocumentBrowserActionIdentifierMove
++ _UIDocumentBrowserActionIdentifierMoveToNamedFolder
++ __DATA__TtC26DocumentManagerExecutables15ImageBezierPath
++ __DATA__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __DATA__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __DATA__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __DATA__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __DATA__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __INSTANCE_METHODS__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __INSTANCE_METHODS__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __INSTANCE_METHODS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __INSTANCE_METHODS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __INSTANCE_METHODS__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __IVARS__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __IVARS__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __IVARS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __IVARS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __IVARS__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __METACLASS_DATA__TtC26DocumentManagerExecutables15ImageBezierPath
++ __METACLASS_DATA__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __METACLASS_DATA__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __METACLASS_DATA__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __METACLASS_DATA__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __METACLASS_DATA__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_SBSHomeScreenService_$_DOCExtensions
++ __OBJC_$_CATEGORY_SBSHomeScreenService_$_DOCExtensions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DOCUndoableOperation
++ __PROPERTIES__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __PROPERTIES__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __PROPERTIES__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __PROPERTIES__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __PROPERTIES__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutables18DOCDeleteOperation.12
++ __PROTOCOLS__TtC26DocumentManagerExecutables18DOCRenameOperation.27
++ __PROTOCOLS__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutables21DOC_FIDeleteOperation.4
++ __PROTOCOLS__TtC26DocumentManagerExecutables24DOCCreateFolderOperation.19
++ __PROTOCOLS__TtC26DocumentManagerExecutables24DOCTypeToFocusController.6
++ __PROTOCOLS__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation.14
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation.7
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation.19
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation
++ __PROTOCOLS__TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation.9
++ __PROTOCOLS__TtCV26DocumentManagerExecutables11LaunchUtilsP33_785CBA6FF492D1A84D3A93B2D10ABBAB15OpenAppDelegate.27
++ __UISolariumEnabled
++ ___110+[DOCFileRenamingSupport(Swift_OBJC) _workaroundWrapper_importDocumentAtURL:hostIdentifier:completionHandler:]_block_invoke
++ ___58-[DOCTagsCollectionItemContentView updateAttributedString]_block_invoke
++ ___CGBitmapContextCreate
++ ___block_descriptor_32_e55_"NSMutableAttributedString"16?0"NSAttributedString"8l
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_DocumentManagerExecutables
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_DocumentManagerExecutables
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOSHAASQ
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO13TagCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO13TagCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14KindCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14KindCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14NameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14NameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14SizeCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO14SizeCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO16StatusCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO16StatusCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOSHAASQ
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs0F17StringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs0F22DebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO21DateCreatedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO21DateCreatedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO22DateModifiedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO22DateModifiedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO24DateLastOpenedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeO24DateLastOpenedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeOSHAASQ
++ _associated conformance 26DocumentManagerExecutables10ColumnTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 26DocumentManagerExecutables18DOCItemTapBehaviorOSHAASQ
++ _associated conformance 26DocumentManagerExecutables18DOCItemTapBehaviorOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 26DocumentManagerExecutables18DOCItemTapBehaviorOs12IdentifiableAA2IDsADP_SH
++ _associated conformance 26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeOSHAASQ
++ _associated conformance So11PermissionsVSH26DocumentManagerExecutablesSQ
++ _associated conformance So11PermissionsVs10SetAlgebraSCSQ
++ _associated conformance So11PermissionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So11PermissionsVs9OptionSetSCSY
++ _associated conformance So11PermissionsVs9OptionSetSCs0C7Algebra
++ _block_copy_helper.100
++ _block_copy_helper.103
++ _block_copy_helper.109
++ _block_copy_helper.110
++ _block_copy_helper.121
++ _block_copy_helper.125
++ _block_copy_helper.131
++ _block_copy_helper.137
++ _block_copy_helper.140
++ _block_copy_helper.143
++ _block_copy_helper.149
++ _block_copy_helper.15
++ _block_copy_helper.155
++ _block_copy_helper.164
++ _block_copy_helper.170
++ _block_copy_helper.176
++ _block_copy_helper.185
++ _block_copy_helper.194
++ _block_copy_helper.20
++ _block_copy_helper.207
++ _block_copy_helper.213
++ _block_copy_helper.24
++ _block_copy_helper.29
++ _block_copy_helper.35
++ _block_copy_helper.44
++ _block_copy_helper.50
++ _block_copy_helper.53
++ _block_copy_helper.54
++ _block_copy_helper.56
++ _block_copy_helper.60
++ _block_copy_helper.67
++ _block_copy_helper.78
++ _block_copy_helper.8
++ _block_copy_helper.81
++ _block_copy_helper.9
++ _block_descriptor.10
++ _block_descriptor.102
++ _block_descriptor.105
++ _block_descriptor.11
++ _block_descriptor.111
++ _block_descriptor.112
++ _block_descriptor.123
++ _block_descriptor.127
++ _block_descriptor.133
++ _block_descriptor.139
++ _block_descriptor.142
++ _block_descriptor.145
++ _block_descriptor.151
++ _block_descriptor.157
++ _block_descriptor.166
++ _block_descriptor.17
++ _block_descriptor.172
++ _block_descriptor.178
++ _block_descriptor.187
++ _block_descriptor.196
++ _block_descriptor.209
++ _block_descriptor.215
++ _block_descriptor.22
++ _block_descriptor.26
++ _block_descriptor.31
++ _block_descriptor.37
++ _block_descriptor.46
++ _block_descriptor.52
++ _block_descriptor.55
++ _block_descriptor.56
++ _block_descriptor.58
++ _block_descriptor.62
++ _block_descriptor.69
++ _block_descriptor.80
++ _block_descriptor.83
++ _block_destroy_helper.10
++ _block_destroy_helper.101
++ _block_destroy_helper.104
++ _block_destroy_helper.110
++ _block_destroy_helper.111
++ _block_destroy_helper.122
++ _block_destroy_helper.126
++ _block_destroy_helper.132
++ _block_destroy_helper.138
++ _block_destroy_helper.141
++ _block_destroy_helper.144
++ _block_destroy_helper.150
++ _block_destroy_helper.156
++ _block_destroy_helper.16
++ _block_destroy_helper.165
++ _block_destroy_helper.171
++ _block_destroy_helper.177
++ _block_destroy_helper.186
++ _block_destroy_helper.195
++ _block_destroy_helper.208
++ _block_destroy_helper.21
++ _block_destroy_helper.214
++ _block_destroy_helper.25
++ _block_destroy_helper.30
++ _block_destroy_helper.36
++ _block_destroy_helper.45
++ _block_destroy_helper.51
++ _block_destroy_helper.54
++ _block_destroy_helper.55
++ _block_destroy_helper.57
++ _block_destroy_helper.61
++ _block_destroy_helper.68
++ _block_destroy_helper.79
++ _block_destroy_helper.82
++ _block_destroy_helper.9
++ _get_enum_tag_for_layout_string 26DocumentManagerExecutables10ColumnTypeO
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQOyAiAE0lN0yQrqd__SyRd__lFQOyAA4FormVyAA05TupleH0VyAA7SectionVyAA4TextVAiAE21disableAutocorrectionyQrSbSgFQOyAA0U5FieldVyAZG_Qo_AA05EmptyH0VG_AXyAzCyAiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyA6_26DocumentManagerExecutables9USBFormatOAA7ForEachVySayA14_GA14_AZGG_AA17InlinePickerStyleVQo_AA31AccessibilityAttachmentModifierVGAZGAXyAZA16_ySayA12_15USBFormatOptionOGA28_AA6ToggleVyAZGGA6_GSgAXyAzVyACyAA06SecureX0VyAZGAA30_EnvironmentKeyWritingModifierVySSSgGG_A43_tGACyAzA14_OpacityEffectVGGSgtGG_SSQo__Qo__AA0skD0VyAA0kQ0VyytAA6ButtonVyAZGG_AaLPAAE13containerTintyQrAA5ColorVSgFQOyA57_yytAiAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyACyA60_AA32_EnvironmentKeyTransformModifierVySbGGA40_yA66_GG_Qo_G_Qo_tGQo_GAA14_PaddingLayoutVGAA19_BackgroundModifierVyACyA65_AA30_SafeAreaRegionsIgnoringLayoutVGGGAaHHPA87_AaHHPA84_AaHHPyHC_A86_AA0H8ModifierHPyHCHC_A93_AAA95_HPyHCHC.210
++ _hypot
++ _objc_msgSend$_importDocumentAtURL:hostIdentifier:roleIdentifier:completion:
++ _objc_msgSend$addFileStackWithURL:
++ _objc_msgSend$addSymbolEffect:options:animated:
++ _objc_msgSend$effect
++ _objc_msgSend$enumerateObjectsWithOptions:usingBlock:
++ _objc_msgSend$fontDescriptor
++ _objc_msgSend$fontDescriptorWithSymbolicTraits:
++ _objc_msgSend$fontWithDescriptor:size:
++ _objc_msgSend$initWithAttributedString:
++ _objc_msgSend$options
++ _objc_msgSend$removeFileStackWithURL:
++ _objc_msgSend$renderAttributedStringWithRequest:titleHighlighter:
++ _objc_opt_respondsToSelector
++ _objc_retain_x13
++ _objectdestroy.141Tm
++ _objectdestroy.37Tm
++ _objectdestroy.3Tm
++ _objectdestroy.41Tm
++ _objectdestroy.48Tm
++ _objectdestroy.51Tm
++ _objectdestroy.57Tm
++ _objectdestroy.5Tm
++ _objectdestroy.62Tm
++ _objectdestroy.6Tm
++ _objectdestroy.76Tm
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_coroFrameAlloc
++ _swift_dynamicCastMetatype
++ _symbolic $s26DocumentManagerExecutables11SchedulableP
++ _symbolic $s26DocumentManagerExecutables13SomeOperationP
++ _symbolic $s26DocumentManagerExecutables19SomeDeleteOperationP
++ _symbolic SSSg______S2SSAySo7NSErrorCSgGSgtcSg 26DocumentManagerExecutables24DOCCreateFolderOperationC
++ _symbolic SS_SSt
++ _symbolic SS_So8NSObjectCt
++ _symbolic SaySo17DOCSmartFolderHitCG
++ _symbolic Say_____G 26DocumentManagerExecutables10ColumnTypeO
++ _symbolic Say_____G 26DocumentManagerExecutables18DOCItemTapBehaviorO
++ _symbolic Say_____GIegg_ 10Foundation3URLV
++ _symbolic Say______p4node______3urltG So7DOCNodeP 10Foundation3URLV
++ _symbolic Say______p4node______3urltGIegg_ So7DOCNodeP 10Foundation3URLV
++ _symbolic Say______p4node______3urltGz_Xx So7DOCNodeP 10Foundation3URLV
++ _symbolic Say______pG So7DOCNodeP
++ _symbolic So11FIOperationCS2SSAySo7NSErrorCSgGSgSSSgIeggggyo_Sg
++ _symbolic So11FIOperationCSaySo6FINodeCGIeggg_Sg
++ _symbolic So11FIOperationCSo0A5ErrorCSo0A5ReplyCSgIegggo_Sg
++ _symbolic So11FIOperationCSo0A5ErrorCSo0A5ReplyCSgIeyByya_
++ _symbolic So11FIOperationCSo7NSArrayCIeyByy_
++ _symbolic So11FIOperationCSo8NSStringCADSAySo7NSErrorCSgGSgADSgIeyByyyya_
++ _symbolic So11FIOperationC_____So0A6RecordC_____Ieggygd_Sg So17OperationConflictV So0A10ResolutionV
++ _symbolic So11FIOperationC_____So0A6RecordC_____IeyByyyd_ So17OperationConflictV So0A10ResolutionV
++ _symbolic So11NSOperationCSg
++ _symbolic So15FPCopyOperationC
++ _symbolic So16FIOperationReplyCSg______So0A5ErrorCSg______pSgtcSg 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic So16FIOperationReplyCSg______So0A5ErrorCSg______pSgtcSg 26DocumentManagerExecutables24DOCCreateFolderOperationC s5ErrorP
++ _symbolic So17FIDeleteOperationCSg
++ _symbolic So17FIRenameOperationC
++ _symbolic So19LSApplicationRecordC
++ _symbolic So20FINewFolderOperationC
++ _symbolic So20SBSHomeScreenServiceC
++ _symbolic So22DOCFileRenamingSupportCXMT
++ _symbolic So6FINodeCSgz_Xx
++ _symbolic So6FPItemCSgSo7NSErrorCSgIeyByy_
++ _symbolic So6FPItemCSg______pSgIeggg_Sg s5ErrorP
++ _symbolic So6NSLockCSg
++ _symbolic So7NSErrorCIeyBy_
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO13TagCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO14KindCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO14NameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO14SizeCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO16StatusCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO21DateCreatedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO22DateModifiedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables10ColumnTypeO24DateLastOpenedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____ 26DocumentManagerExecutables15ImageBezierPathC
++ _symbolic _____ 26DocumentManagerExecutables18DOCItemTapBehaviorO
++ _symbolic _____ 26DocumentManagerExecutables18DOCRenameOperationC8NameTypeO
++ _symbolic _____ 26DocumentManagerExecutables21DOC_FIDeleteOperationC
++ _symbolic _____ 26DocumentManagerExecutables21DOC_FIRenameOperation33_3DF2C731D711A9239F302026BC8371EALLC
++ _symbolic _____ 26DocumentManagerExecutables21DOC_FPRenameOperation33_3DF2C731D711A9239F302026BC8371EALLC
++ _symbolic _____ 26DocumentManagerExecutables24DOC_FINewFolderOperation33_D62D100ED26770BFC74B1CBE50EFE27ELLC
++ _symbolic _____ 26DocumentManagerExecutables27DOCFINodeDragPasteboardTypeO
++ _symbolic _____ 26DocumentManagerExecutables27DOC_FPCreateFolderOperationC
++ _symbolic _____ So11PermissionsV
++ _symbolic _____ So17OperationConflictV
++ _symbolic _____ So19OperationResolutionV
++ _symbolic _____3key_So6FPItemC5valuetSg s11AnyHashableV
++ _symbolic _____S2SSAySo7NSErrorCSgGSgSSSgIeggggyo_ 26DocumentManagerExecutables24DOCCreateFolderOperationC
++ _symbolic _____S2SSAySo7NSErrorCSgGSgSSSgIegnnnnr_ 26DocumentManagerExecutables24DOCCreateFolderOperationC
++ _symbolic _____Sg 26DocumentManagerExecutables21DOC_FIRenameOperation33_3DF2C731D711A9239F302026BC8371EALLC
++ _symbolic _____Sg 26DocumentManagerExecutables21DOC_FPRenameOperation33_3DF2C731D711A9239F302026BC8371EALLC
++ _symbolic _____Sg 26DocumentManagerExecutables24DOC_FINewFolderOperation33_D62D100ED26770BFC74B1CBE50EFE27ELLC
++ _symbolic _____Sg 26DocumentManagerExecutables27DOC_FPCreateFolderOperationC
++ _symbolic _____SgXw 26DocumentManagerExecutables18DOCRenameOperationC
++ _symbolic _____SgXw 26DocumentManagerExecutables24DOCCreateFolderOperationC
++ _symbolic _____SgXwz_Xx 26DocumentManagerExecutables18DOCRenameOperationC
++ _symbolic _____SgXwz_Xx 26DocumentManagerExecutables24DOCCreateFolderOperationC
++ _symbolic _____Sg_SSt So11CFStringRefa
++ _symbolic _____So16FIOperationErrorCSg______pSgSo0A5ReplyCSgIeggggo_ 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic _____So16FIOperationErrorCSg______pSgSo0A5ReplyCSgIeggggo_ 26DocumentManagerExecutables24DOCCreateFolderOperationC s5ErrorP
++ _symbolic _____So16FIOperationErrorCSg______pSgSo0A5ReplyCSgIegnnnr_ 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic _____So16FIOperationErrorCSg______pSgSo0A5ReplyCSgIegnnnr_ 26DocumentManagerExecutables24DOCCreateFolderOperationC s5ErrorP
++ _symbolic ______SDy_____SbGt 26DocumentManagerExecutables9USBFormatO AA0D6OptionO
++ _symbolic ______SayAAGt 26DocumentManagerExecutables9USBFormatO
++ _symbolic __________So17FIOperationRecordC_____Ieggygd_ 26DocumentManagerExecutables18DOCRenameOperationC So0E8ConflictV So0E10ResolutionV
++ _symbolic __________So17FIOperationRecordC_____Iegnnnr_ 26DocumentManagerExecutables18DOCRenameOperationC So0E8ConflictV So0E10ResolutionV
++ _symbolic ________________So17FIOperationRecordCtcSg So19OperationResolutionV 26DocumentManagerExecutables09DOCRenameA0C So0A8ConflictV
++ _symbolic ___________pIeggg_ 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic ___________pSgIeggg_ 26DocumentManagerExecutables18DOCRenameOperationC So7DOCNodeP
++ _symbolic ___________pSgIeggg_ 26DocumentManagerExecutables24DOCCreateFolderOperationC So7DOCNodeP
++ _symbolic ___________pSgytIegnnr_ 26DocumentManagerExecutables18DOCRenameOperationC So7DOCNodeP
++ _symbolic ___________pSgytIegnnr_ 26DocumentManagerExecutables24DOCCreateFolderOperationC So7DOCNodeP
++ _symbolic ___________pytIegnnr_ 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic ___________t So21UIContentSizeCategorya 12CoreGraphics7CGFloatV
++ _symbolic ______p 26DocumentManagerExecutables11SchedulableP
++ _symbolic ______p 26DocumentManagerExecutables13SomeOperationP
++ _symbolic ______p4node______3urlt So7DOCNodeP 10Foundation3URLV
++ _symbolic ______pIegg_Sg s5ErrorP
++ _symbolic ______pSg 26DocumentManagerExecutables11SchedulableP
++ _symbolic ______pSg So7DOCNodeP
++ _symbolic ______pSgytIegnr_ s5ErrorP
++ _symbolic ______pSgz_Xx s5ErrorP
++ _symbolic ______p_Sit So7DOCNodeP
++ _symbolic _____yAAy_____y__________y_____y_____y_____y_____y_____y__________y_____yAGG_Qo______G_AFyAgAy_____y_____yAK__________ySayANGAnGGG______Qo______GAGGAFyAgOySay_____GAX_____yAGGGAKGSgAFyAgEyAAy_____yAGG_____ySSSgGG_A8_tGAAyAG_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAGGG______yA19_yyt_____yAAyAAyA21______ySbGGA5_y_____SgGG_Qo_G_Qo_tGQo_G_____G_____yAAyA26______GGG 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQO AiAE0lN0yQrqd__SyRd__lFQO AA4FormV AA05TupleH0V AA7SectionV AA4TextV AiAE21disableAutocorrectionyQrSbSgFQO AA0U5FieldV AA05EmptyH0V AiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureX0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0skD0V AA0kQ0V AA6ButtonV AaLPAAE13containerTintyQrAA5ColorVSgFQO AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV A37_ AA14_PaddingLayoutV AA19_BackgroundModifierV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____ySo6FINodeCG s11_SetStorageC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO13TagCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO14KindCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO14NameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO14SizeCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO16StatusCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO21DateCreatedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO22DateModifiedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 26DocumentManagerExecutables10ColumnTypeO24DateLastOpenedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO10CodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO13TagCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO14KindCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO14NameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO14SizeCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO16StatusCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO20CustomNameCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO21DateCreatedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO22DateModifiedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 26DocumentManagerExecutables10ColumnTypeO24DateLastOpenedCodingKeys33_3B84591AC55F811F8B02574F7A9AADB4LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So7CGPointV
++ _symbolic _____y__________y_____y_____y_____y_____y_____y__________y_____yAFG_Qo______G_AEyAF_____y_____y_____yAJ__________ySayANGAnFGG______Qo______GAFGAEyAfOySay_____GAX_____yAFGGAJGSgAEyAfDyALy_____yAFG_____ySSSgGG_A8_tGALyAF_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAFGG______yA19_yyt_____yALyALyA21______ySbGGA5_y_____SgGG_Qo_G_Qo_tGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE29navigationBarTitleDisplayModeyQrAA0cL4ItemV0mnO0OFQO AgAE0kM0yQrqd__SyRd__lFQO AA4FormV AA05TupleF0V AA7SectionV AA4TextV AgAE21disableAutocorrectionyQrSbSgFQO AA0T5FieldV AA05EmptyF0V AA08ModifiedJ0V AgAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureW0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0riJ0V AA0iP0V AA6ButtonV AaJPAAE13containerTintyQrAA5ColorVSgFQO AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV A37_
++ _symbolic _____y______p_SitG s23_ContiguousArrayStorageC So7DOCNodeP
++ _symbolic _____y_____y__________y_____y_____y_____y_____y_____y__________y_____yAGG_Qo______G_AFyAgAy_____y_____yAK__________ySayANGAnGGG______Qo______GAGGAFyAgOySay_____GAX_____yAGGGAKGSgAFyAgEyAAy_____yAGG_____ySSSgGG_A8_tGAAyAG_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAGGG______yA19_yyt_____yAAyAAyA21______ySbGGA5_y_____SgGG_Qo_G_Qo_tGQo_G_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQO AiAE0lN0yQrqd__SyRd__lFQO AA4FormV AA05TupleH0V AA7SectionV AA4TextV AiAE21disableAutocorrectionyQrSbSgFQO AA0U5FieldV AA05EmptyH0V AiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureX0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0skD0V AA0kQ0V AA6ButtonV AaLPAAE13containerTintyQrAA5ColorVSgFQO AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV A37_ AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y__________y_____yADG_Qo______G_ACyAD_____y_____y_____yAH__________ySayALGAlDGG______Qo______GADGACyAdMySay_____GAV_____yADGGAHGSgACyAdByAJy_____yADG_____ySSSgGG_A6_tGAJyAD_____GGSgtGG_SSQo__Qo_______y_____yyt_____yADGG______yA17_yyt_____yAJyAJyA19______ySbGGA3_y_____SgGG_Qo_G_Qo_tGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV AcAE21disableAutocorrectionyQrSbSgFQO AA0R5FieldV AA05EmptyC0V AA08ModifiedG0V AcAE11pickerStyleyQrqd__AA06PickerY0Rd__lFQO AA0Z0V 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA06InlinezY0V AA31AccessibilityAttachmentModifierV A5_15USBFormatOptionO AA6ToggleV AA06SecureU0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0pfG0V AA0fN0V AA6ButtonV AaFPAAE13containerTintyQrAA5ColorVSgFQO AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV A33_
++ _symbolic _____y_____yyt_____y_____GG______yAByyt_____y_____yAGyAE_____ySbGG_____y_____SgGG_Qo_G_Qo_tG 7SwiftUI19TupleToolbarContentV AA0D4ItemV AA6ButtonV AA4TextV AA0dE0PAAE13containerTintyQrAA5ColorVSgFQO AA4ViewPAAE10fontWeightyQrAA4FontV0N0VSgFQO AA08ModifiedE0V AA32_EnvironmentKeyTransformModifierV AA01_qr7WritingT0V AN
++ _symbolic _____y_____yyt_____y_____yABy_____y_____G_____ySbGG_____y_____SgGG_Qo_G_Qo_ 7SwiftUI14ToolbarContentPAAE13containerTintyQrAA5ColorVSgFQO AA0C4ItemV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA08ModifiedD0V AA6ButtonV AA4TextV AA32_EnvironmentKeyTransformModifierV AA01_pq7WritingS0V AF
++ _symbolic _____yyt_____y_____GG______yAAyyt_____y_____yAFyAD_____ySbGG_____y_____SgGG_Qo_G_Qo_t 7SwiftUI11ToolbarItemV AA6ButtonV AA4TextV AA0C7ContentPAAE13containerTintyQrAA5ColorVSgFQO AA4ViewPAAE10fontWeightyQrAA4FontV0M0VSgFQO AA08ModifiedG0V AA32_EnvironmentKeyTransformModifierV AA01_pq7WritingS0V AL
++ _symbolic yXlSgSo7NSErrorCSgIeyByy_
++ _symbolic y____________pSgtcSg 26DocumentManagerExecutables18DOCRenameOperationC So7DOCNodeP
++ _symbolic y____________pSgtcSg 26DocumentManagerExecutables24DOCCreateFolderOperationC So7DOCNodeP
++ _symbolic y____________ptcSg 26DocumentManagerExecutables18DOCRenameOperationC s5ErrorP
++ _symbolic y______pSgcSg s5ErrorP
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 26DocumentManagerExecutables10ColumnTypeO
++ _type_layout_string So17OperationConflictV
++ _type_layout_string So6CGSizeV
+- -[DOCTagRenderer renderAttributedStringWithRequest:]
+- -[DOCTagRenderer renderAttributedStringWithRequest:].cold.1
+- GCC_except_table9
+- _DOCBundleIdentifierKeynote
+- _DOCBundleIdentifierNumbers
+- _DOCBundleIdentifierPages
+- _DOCRunInMainThread
+- _OBJC_CLASS_$_FPDownloadOperation
+- __PROTOCOLS__TtC26DocumentManagerExecutables18DOCDeleteOperation.1
+- __PROTOCOLS__TtC26DocumentManagerExecutables18DOCRenameOperation.1
+- __PROTOCOLS__TtC26DocumentManagerExecutables24DOCCreateFolderOperation.1
+- __PROTOCOLS__TtC26DocumentManagerExecutables24DOCTypeToFocusController.5
+- __PROTOCOLS__TtCV26DocumentManagerExecutables11LaunchUtilsP33_785CBA6FF492D1A84D3A93B2D10ABBAB15OpenAppDelegate.17
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_DocumentManagerExecutables
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_DocumentManagerExecutables
+- _block_copy_helper.105
+- _block_copy_helper.111
+- _block_copy_helper.117
+- _block_copy_helper.118
+- _block_copy_helper.126
+- _block_copy_helper.132
+- _block_copy_helper.138
+- _block_copy_helper.144
+- _block_copy_helper.150
+- _block_copy_helper.156
+- _block_copy_helper.16
+- _block_copy_helper.162
+- _block_copy_helper.171
+- _block_copy_helper.180
+- _block_copy_helper.193
+- _block_copy_helper.199
+- _block_copy_helper.30
+- _block_copy_helper.31
+- _block_copy_helper.32
+- _block_copy_helper.36
+- _block_copy_helper.38
+- _block_copy_helper.40
+- _block_copy_helper.42
+- _block_copy_helper.48
+- _block_copy_helper.5
+- _block_copy_helper.51
+- _block_copy_helper.55
+- _block_copy_helper.61
+- _block_copy_helper.62
+- _block_copy_helper.64
+- _block_copy_helper.70
+- _block_copy_helper.80
+- _block_copy_helper.87
+- _block_copy_helper.89
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.107
+- _block_descriptor.113
+- _block_descriptor.119
+- _block_descriptor.120
+- _block_descriptor.128
+- _block_descriptor.134
+- _block_descriptor.140
+- _block_descriptor.146
+- _block_descriptor.152
+- _block_descriptor.158
+- _block_descriptor.164
+- _block_descriptor.173
+- _block_descriptor.18
+- _block_descriptor.182
+- _block_descriptor.195
+- _block_descriptor.201
+- _block_descriptor.32
+- _block_descriptor.33
+- _block_descriptor.34
+- _block_descriptor.38
+- _block_descriptor.40
+- _block_descriptor.42
+- _block_descriptor.44
+- _block_descriptor.50
+- _block_descriptor.53
+- _block_descriptor.57
+- _block_descriptor.63
+- _block_descriptor.64
+- _block_descriptor.66
+- _block_descriptor.7
+- _block_descriptor.72
+- _block_descriptor.82
+- _block_descriptor.89
+- _block_descriptor.91
+- _block_destroy_helper.106
+- _block_destroy_helper.112
+- _block_destroy_helper.118
+- _block_destroy_helper.119
+- _block_destroy_helper.127
+- _block_destroy_helper.133
+- _block_destroy_helper.139
+- _block_destroy_helper.145
+- _block_destroy_helper.151
+- _block_destroy_helper.157
+- _block_destroy_helper.163
+- _block_destroy_helper.17
+- _block_destroy_helper.172
+- _block_destroy_helper.181
+- _block_destroy_helper.194
+- _block_destroy_helper.200
+- _block_destroy_helper.31
+- _block_destroy_helper.32
+- _block_destroy_helper.33
+- _block_destroy_helper.37
+- _block_destroy_helper.39
+- _block_destroy_helper.41
+- _block_destroy_helper.43
+- _block_destroy_helper.49
+- _block_destroy_helper.52
+- _block_destroy_helper.56
+- _block_destroy_helper.6
+- _block_destroy_helper.62
+- _block_destroy_helper.63
+- _block_destroy_helper.65
+- _block_destroy_helper.71
+- _block_destroy_helper.81
+- _block_destroy_helper.88
+- _block_destroy_helper.90
+- _block_destroy_helper.99
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQOyAiAE0lN0yQrqd__SyRd__lFQOyAA4FormVyAA05TupleH0VyAA7SectionVyAA4TextVAiAE21disableAutocorrectionyQrSbSgFQOyAA0U5FieldVyAZG_Qo_AA05EmptyH0VG_AXyAzCyAiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyA6_26DocumentManagerExecutables9USBFormatOAA7ForEachVySayA14_GA14_AZGG_AA17InlinePickerStyleVQo_AA31AccessibilityAttachmentModifierVGAZGAXyAZA16_ySayA12_15USBFormatOptionOGA28_AA6ToggleVyAZGGA6_GSgAXyAzVyACyAA06SecureX0VyAZGAA30_EnvironmentKeyWritingModifierVySSSgGG_A43_tGACyAzA14_OpacityEffectVGGSgtGG_SSQo__Qo__AA0skD0VyAA0kQ0VyytAA6ButtonVyAZGG_A57_yytAiAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyACyA60_AA32_EnvironmentKeyTransformModifierVySbGGA40_yAA5ColorVSgGG_Qo_GtGQo_GAA14_PaddingLayoutVGAA19_BackgroundModifierVyACyA73_AA30_SafeAreaRegionsIgnoringLayoutVGGGAaHHPA84_AaHHPA81_AaHHPyHC_A83_AA0H8ModifierHPyHCHC_A90_AAA92_HPyHCHC.210
+- _objc_msgSend$labelFontStyle
+- _objc_msgSend$renderAttributedStringWithRequest:
+- _objectdestroy.115Tm
+- _objectdestroy.23Tm
+- _objectdestroy.26Tm
+- _objectdestroy.34Tm
+- _objectdestroy.44Tm
+- _objectdestroy.53Tm
+- _objectdestroy.59Tm
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _symbolic SaySo6FPItemCGSg
+- _symbolic SaySo6FPItemCGz_Xx
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____yAAy_____y__________y_____y_____y_____y_____y_____y__________y_____yAGG_Qo______G_AFyAgAy_____y_____yAK__________ySayANGAnGGG______Qo______GAGGAFyAgOySay_____GAX_____yAGGGAKGSgAFyAgEyAAy_____yAGG_____ySSSgGG_A8_tGAAyAG_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAGGG_A19_yyt_____yAAyAAyA21______ySbGGA5_y_____SgGG_Qo_GtGQo_G_____G_____yAAyA26______GGG 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQO AiAE0lN0yQrqd__SyRd__lFQO AA4FormV AA05TupleH0V AA7SectionV AA4TextV AiAE21disableAutocorrectionyQrSbSgFQO AA0U5FieldV AA05EmptyH0V AiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureX0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0skD0V AA0kQ0V AA6ButtonV AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV AA5ColorV AA14_PaddingLayoutV AA19_BackgroundModifierV AA30_SafeAreaRegionsIgnoringLayoutV
+- _symbolic _____y__________y_____y_____y_____y_____y_____y__________y_____yAFG_Qo______G_AEyAF_____y_____y_____yAJ__________ySayANGAnFGG______Qo______GAFGAEyAfOySay_____GAX_____yAFGGAJGSgAEyAfDyALy_____yAFG_____ySSSgGG_A8_tGALyAF_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAFGG_A19_yyt_____yALyALyA21______ySbGGA5_y_____SgGG_Qo_GtGQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE29navigationBarTitleDisplayModeyQrAA0cL4ItemV0mnO0OFQO AgAE0kM0yQrqd__SyRd__lFQO AA4FormV AA05TupleF0V AA7SectionV AA4TextV AgAE21disableAutocorrectionyQrSbSgFQO AA0T5FieldV AA05EmptyF0V AA08ModifiedJ0V AgAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureW0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0riJ0V AA0iP0V AA6ButtonV AgAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV AA5ColorV
+- _symbolic _____y_____y__________y_____y_____y_____y_____y_____y__________y_____yAGG_Qo______G_AFyAgAy_____y_____yAK__________ySayANGAnGGG______Qo______GAGGAFyAgOySay_____GAX_____yAGGGAKGSgAFyAgEyAAy_____yAGG_____ySSSgGG_A8_tGAAyAG_____GGSgtGG_SSQo__Qo_______y_____yyt_____yAGGG_A19_yyt_____yAAyAAyA21______ySbGGA5_y_____SgGG_Qo_GtGQo_G_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE29navigationBarTitleDisplayModeyQrAA0eM4ItemV0noP0OFQO AiAE0lN0yQrqd__SyRd__lFQO AA4FormV AA05TupleH0V AA7SectionV AA4TextV AiAE21disableAutocorrectionyQrSbSgFQO AA0U5FieldV AA05EmptyH0V AiAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA17InlinePickerStyleV AA31AccessibilityAttachmentModifierV A9_15USBFormatOptionO AA6ToggleV AA06SecureX0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0skD0V AA0kQ0V AA6ButtonV AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV AA5ColorV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y_____y_____y__________y_____yADG_Qo______G_ACyAD_____y_____y_____yAH__________ySayALGAlDGG______Qo______GADGACyAdMySay_____GAV_____yADGGAHGSgACyAdByAJy_____yADG_____ySSSgGG_A6_tGAJyAD_____GGSgtGG_SSQo__Qo_______y_____yyt_____yADGG_A17_yyt_____yAJyAJyA19______ySbGGA3_y_____SgGG_Qo_GtGQo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV AcAE21disableAutocorrectionyQrSbSgFQO AA0R5FieldV AA05EmptyC0V AA08ModifiedG0V AcAE11pickerStyleyQrqd__AA06PickerY0Rd__lFQO AA0Z0V 26DocumentManagerExecutables9USBFormatO AA7ForEachV AA06InlinezY0V AA31AccessibilityAttachmentModifierV A5_15USBFormatOptionO AA6ToggleV AA06SecureU0V AA30_EnvironmentKeyWritingModifierV AA14_OpacityEffectV AA0pfG0V AA0fN0V AA6ButtonV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA32_EnvironmentKeyTransformModifierV AA5ColorV
+- _symbolic _____y_____yyt_____y_____GG_AByyt_____y_____yAGyAE_____ySbGG_____y_____SgGG_Qo_GtG 7SwiftUI19TupleToolbarContentV AA0D4ItemV AA6ButtonV AA4TextV AA4ViewPAAE10fontWeightyQrAA4FontV0K0VSgFQO AA08ModifiedE0V AA32_EnvironmentKeyTransformModifierV AA01_no7WritingQ0V AA5ColorV
+- _symbolic _____yytG 2os21OSAllocatedUnfairLockV
+- _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____yyt_____y_____GG_AAyyt_____y_____yAFyAD_____ySbGG_____y_____SgGG_Qo_Gt 7SwiftUI11ToolbarItemV AA6ButtonV AA4TextV AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA15ModifiedContentV AA32_EnvironmentKeyTransformModifierV AA01_mn7WritingP0V AA5ColorV
+- _type_layout_string So16os_unfair_lock_sV
+- _type_layout_string So7CGPointV
+CStrings:
++ "$__lazy_storage_$_stateLock"
++ "%s %s function is rate-limited. Returning error."
++ "%s %s function ran without rate-limiting."
++ "%s Adding url: %s to dock using homeScreenService: %s"
++ "%s app: %s requireOpenIn: %s supportsOpenInPlace: %s"
++ "%s attempting to install: %s"
++ "%s attempting to open: %s in: %s"
++ "%s characters: %s"
++ "%s error creating FPProviderDomain from domainID: %s of node: %s"
++ "%s failed opening: %s in: %s"
++ "%s failed to fetch item from URL: %s error: %s"
++ "%s failed to launch Documents app for url: %s"
++ "%s failed to queue: %s for install: %s"
++ "%s failed to read: %s error: %s"
++ "%s falling back to opening: %s LSHandler rank in: %s"
++ "%s fetched appID: %s for FINode: %@"
++ "%s fetching appID for FINode: %@"
++ "%s launching Documents app for url: %s"
++ "%s no appID for FINode: %@"
++ "%s no fetching appID for FPItem: %@"
++ "%s node is nil and trying to create FINode with node from URL: %s failed. Created FPItem: %s"
++ "%s node is nil and trying to create FINode with node from URL: %s failed. Failed to create FPItem with error: %s"
++ "%s node is nil and trying to create FINode with node from URL: %s failed. Trying to create FPItem."
++ "%s node is nil trying to create FINode with node from URL: %s created node: %s"
++ "%s node is non-nil trying to open with node first: %s"
++ "%s operation: %s"
++ "%s operation: %s error: %s"
++ "%s operation: %s resourceURL: %s"
++ "%s queued: %s for install from: %s"
++ "%s should open node: %s in: %s"
++ "%s should open: %s in: %s"
++ "%s should quicklook: %s"
++ "%s trying to open: %s node: %s providerBundleId: %s appContainerBundleId: %s"
++ "%s unable to get url for node: %s error: %s"
++ "@\"FIOperationReply\"24@?0@\"FIOperation\"8@\"FIOperationError\"16"
++ "@\"ISIcon\"16@0:8"
++ "@\"NSMutableAttributedString\"16@?0@\"NSAttributedString\"8"
++ "@\"NSObject<DOCNode>\"16@0:8"
++ "@\"NSString\"40@?0@\"FIOperation\"8@\"NSString\"16@\"NSString\"24^@32"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@36@0:8@16@24B32"
++ "Attempting to set up callbacks prematurely"
++ "B24@0:8@\"NSSet\"16"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "DOCUserActivityDOCNodeKey"
++ "Date Last Opened"
++ "DocumentManagerExecutables.DOC_FIDeleteOperation"
++ "DocumentManagerExecutables.DOC_FINewFolderOperation"
++ "DocumentManagerExecutables.DOC_FPCreateFolderOperation"
++ "DocumentManagerExecutables.DOC_FPRenameOperation"
++ "Error fetching the url for item %{public}s: %@"
++ "Error fetching the url for item: %{public}s but also did not get an error"
++ "Failed to get FPItem for destinationNode: %@"
++ "Failed to get FPItem for node: %@"
++ "Failed to get FPItem representing default location for %@ in %@: %@"
++ "Failed to get LSApplicationRecord for bundle identifier %s: %@"
++ "Failed to get URL for FPItem %@: %@"
++ "Failed to get a transfer result for importing %s"
++ "Failed to get create sandboxing URL wrapper for %s: %@"
++ "Failed to get default source to import document for bundle identifier %s: %@"
++ "Failed to get provider domain for source identifier %s: %@"
++ "Failed to import document at %s: %@"
++ "Fetching FPItem for destinationNode async: %@"
++ "Fetching FPItem for node async: %@"
++ "I28@0:8I16^@20"
++ "I28@?0@\"FIOperation\"8I16@\"FIOperationRecord\"20"
++ "Invalid number of keys found, expected one."
++ "Largest to Smallest"
++ "Newest to Oldest"
++ "Oldest to Newest"
++ "Q32@0:8Q16^@24"
++ "Received FPItem for %s: `%@`"
++ "Rename: cancelled due to name conflict: %@"
++ "Schedule attempted without configuring the operation first"
++ "Shared by [icloud status]"
++ "Smallest to Largest"
++ "Subtitle in Sort By menu indicating ascending sort order."
++ "Subtitle in Sort By menu indicating descending sort order."
++ "Subtitle in Sort By menu indicating largest to smallest sort order."
++ "Subtitle in Sort By menu indicating newest to oldest sort order."
++ "Subtitle in Sort By menu indicating oldest to newest sort order."
++ "Subtitle in Sort By menu indicating smallest to largest sort order."
++ "T@\"FINode\",N,R"
++ "T@\"ISIcon\",R,N"
++ "T@\"NSString\",R,C,N"
++ "Tap Opens and Click Selects"
++ "Tap and Click Opens"
++ "Tap and Click Selects"
++ "Title for sorting items by creation date"
++ "Title for sorting items by file type"
++ "Title for sorting items by iCloud status"
++ "Title for sorting items by last used date"
++ "Title for sorting items by modification date"
++ "Title for sorting items by name"
++ "Title for sorting items by sharer"
++ "Title for sorting items by size"
++ "Title for sorting items by tags"
++ "Title shown for the undo / redo action of renaming a node"
++ "[Rename] failed to fetch a node for URL: %s"
++ "_TtC26DocumentManagerExecutables15ImageBezierPath"
++ "_TtC26DocumentManagerExecutables21DOC_FIDeleteOperation"
++ "_TtC26DocumentManagerExecutables27DOC_FPCreateFolderOperation"
++ "_TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FIRenameOperation"
++ "_TtC26DocumentManagerExecutablesP33_3DF2C731D711A9239F302026BC8371EA21DOC_FPRenameOperation"
++ "_TtC26DocumentManagerExecutablesP33_D62D100ED26770BFC74B1CBE50EFE27E24DOC_FINewFolderOperation"
++ "__tryOpeningInDefaultApp(for:node:urlManagedState:providerBundleId:appContainerBundleId:preferQuickLook:alertPresenting:completionBlock:)"
++ "_appContainerBundleIdentifier(of:url:)"
++ "_importDocumentAtURL:hostIdentifier:roleIdentifier:completion:"
++ "_openingApp(for:requireOpenInPlace:)"
++ "_performRateLimitedCall(apiIdentifier:hostIdentifier:roleIdentifier:blockToRun:completionIfBlockToRunDoesNotRun:)"
++ "_renameDocumentIfNotRateLimitedAtURL:newName:hostIdentifier:completion:"
++ "_tryOpeningInDefaultApp(_:node:preferQuickLook:)"
++ "_workaroundWrapper_importDocumentAtURL:hostIdentifier:completionHandler:"
++ "actionCompletionBlock"
++ "addFileStackWithURL:"
++ "addSymbolEffect:options:animated:"
++ "appIdentifier"
++ "appLibraryNodeForNode:"
++ "applyTransform:"
++ "bindableWithURL:"
++ "calendar.badge.clock"
++ "calendar.badge.plus"
++ "canAppWithBundleIdentifier:performAction:node:"
++ "canPerformActions:"
++ "com.apple.DocumentManager.FINode.File"
++ "com.apple.DocumentManager.FINode.Location"
++ "com.apple.DocumentManager.analytics.importDocumentSPIEvent"
++ "conflictHandler"
++ "contextMenuShowsOpenWithApp"
++ "convertPoint:fromCoordinateSpace:"
++ "createFolderCompletionBlock"
++ "date file was created"
++ "date file was modified"
++ "date file was opened"
++ "defaultSourceForBundleIdentifier:selectedSourceIdentifier:completionBlock:"
++ "destinationNode"
++ "determineLaunchAction(for:node:urlManagedState:providerBundleId:appContainerBundleId:preferQuickLook:completionBlock:)"
++ "determined opening app for %s to be %@"
++ "determined opening app for %s to be %@, requireOpenInPlace: %{bool}d"
++ "didRegisterUndo"
++ "docNode"
++ "doc_addFileStackWithURL:"
++ "doc_eligibleActions"
++ "doc_removeFileStackWithURL:"
++ "document.badge.gearshape"
++ "documentProxyForURL:"
++ "downloaded state from icloud"
++ "effect"
++ "enumerateObjectsWithOptions:usingBlock:"
++ "error"
++ "error determining opening app for %s - claimBindings had no apps - %s"
++ "error determining opening app for %s - claimBindings was empty - %s"
++ "error determining opening app for %s - error: %s - %s"
++ "error determining opening app for %s - opening app %s - %s"
++ "errorHandler"
++ "errorRecoveryHandler"
++ "errorRecoveryHandler_FP"
++ "fetchDefaultLocationForApplicationRecord:defaultProviderDomain:completionHandler:"
++ "fiNodeNewFolderOp"
++ "fiNodeRenameOp"
++ "fiOperation"
++ "fileOpNode"
++ "fileParent"
++ "folderIcon"
++ "folderNode"
++ "fontDescriptorWithSymbolicTraits:"
++ "fpItemCreateFolderOp"
++ "fpItemRenameOp"
++ "handlePressesBegan(_:with:)"
++ "hideExtension"
++ "icloudStatus"
++ "iconsFromIconPackage"
++ "init(name:destinationFolder:propertyList:)"
++ "init(name:destinationFolderItem:)"
++ "initWithAttributedString:"
++ "initWithConfiguration:error:"
++ "initWithItem:rawName:"
++ "initWithItem:rawName:hideExtension:"
++ "initWithName:destinationFolder:propertyList:"
++ "initWithName:destinationFolderItem:"
++ "initWithNode:rawName:"
++ "initWithNode:rawName:hideExtension:"
++ "initWithNodes:subject:"
++ "initWithResolution:error:"
++ "initWithSourceItems:"
++ "initWithSourceNodes:"
++ "initWithURLs:destinationFolder:"
++ "isBrowsable"
++ "launchAction(for:node:urlManagedState:providerBundleId:appContainerBundleId:requireOpenIn:preferQuickLook:)"
++ "launchDocuments(toPreview:node:alertPresenting:)"
++ "localizedCompactTitle"
++ "localizedTitle"
++ "nameConflictHandler"
++ "nodeIs:error:"
++ "nodePermissions:error:"
++ "oneTapOpenClaimBindingConfigurationForBindable:"
++ "options"
++ "originalRawName"
++ "parent"
++ "qualityOfService"
++ "queueFileDataForAcceptance:originalFileName:forBundleID:completion:"
++ "rawName"
++ "removeFileStackWithURL:"
++ "renderAttributedStringWithRequest:titleHighlighter:"
++ "resolvedNode"
++ "scale"
++ "schedule"
++ "scheduleWasDeferred"
++ "setConflictHandler:"
++ "setErrorHandler:"
++ "setErrorRecoveryHandler:"
++ "setLastUsageUpdatePolicy:"
++ "setNameConflictHandler:"
++ "setShouldBounceOnCollision:"
++ "stringByAppendingPathExtension:"
++ "supportsPickingFolders"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "transferResults"
++ "tryOpeningInApp(applicationIdentifier:url:node:urlManagedState:requireOpenIn:alertPresenting:completionBlock:)"
++ "tryOpeningInDefaultApp(_:node:requireOpenInPlace:preferQuickLook:alertPresenting:completionBlock:)"
++ "typeToFocus"
++ "uniqueNameByAppendingNumber:fileExtension:"
++ "unlock"
++ "useFIOperations"
++ "v24@?0@\"DOCDocumentSource\"8@\"NSError\"16"
++ "v24@?0@\"FIOperation\"8@\"NSArray\"16"
++ "v24@?0@\"NSString\"8@\"NSError\"16"
++ "v40@0:8@16@24@?32"
++ "volumeIs:error:"
++ "waitingForNodes"
+- "%@: app: %@. requireOpenIn: %@, supportsOpenInPlace: %@"
+- "%@: attempting to install %@"
+- "%@: attempting to open %@ in %@"
+- "%@: failed opening %@ in %@"
+- "%@: failed to fetch item from URL %@ error: %@"
+- "%@: failed to launch Documents app for url %@"
+- "%@: failed to queue %@ for install: %@"
+- "%@: failed to read %@: %@"
+- "%@: falling back to opening %@ LSHandler rank in %@"
+- "%@: launching Documents app for url %@"
+- "%@: operation: %@"
+- "%@: operation: %@, error: %@"
+- "%@: operation: %@, resourceURL: %@"
+- "%@: queued %@ for install from %@"
+- "%@: should open %@ in %@"
+- "%@: should open item: %@ in %@"
+- "%@: should quicklook %@"
+- "%@: trying to open %@"
+- "%s function ran without rate-limiting."
+- "%s rename function is rate-limited. Returning error."
+- "DOCUserActivityFPItemKey"
+- "Didn't get an error"
+- "Error fetching providerDomain %s"
+- "Failed to download item %@ for opening %s. %s"
+- "Failed to fetch item for url %@ in %s. %s"
+- "Rename: cancelled: %@"
+- "SDKVersion"
+- "[Rename] FPItemManager failed to fetch item from URL: %s with error: %@"
+- "__tryOpeningInDefaultApp(for:item:urlManagedState:providerBundleId:appContainerBundleId:preferQuickLook:alertPresenting:completionBlock:)"
+- "_owningApp(for:requireOpenInPlace:)"
+- "_renameDocument(atURL:newName:hostIdentifier:roleIdentifier:completion:)"
+- "canAppWithBundleIdentifier:performAction:item:"
+- "determineLaunchAction(for:urlManagedState:providerBundleId:appContainerBundleId:preferQuickLook:completionBlock:)"
+- "determined owningApp (requireOpenInPlace = false) of %@ to be %@"
+- "determined owningApp (requireOpenInPlace = true) of %@ to be %@"
+- "documentProxyForName:type:MIMEType:isContentManaged:sourceAuditToken:"
+- "error determining owningApp of %@ - claimBindings had no apps - %s"
+- "error determining owningApp of %@ - claimBindings loading error: %s - %s"
+- "error determining owningApp of %@ - claimBindings was empty - %s"
+- "error determining owningApp of %@ - owningApp %s - %s"
+- "initWithFINodes:"
+- "isVersion:greaterThanOrEqualToVersion:"
+- "launchAction(for:urlManagedState:providerBundleId:appContainerBundleId:requireOpenIn:preferQuickLook:)"
+- "launchDocuments(toPreview:item:alertPresenting:)"
+- "queueFileDataForAcceptance:originalFileName:forBundleID:outError:"
+- "renderAttributedStringWithRequest:"
+- "tryOpeningInApp(applicationIdentifier:url:item:urlManagedState:requireOpenIn:alertPresenting:completionBlock:)"
+
+```

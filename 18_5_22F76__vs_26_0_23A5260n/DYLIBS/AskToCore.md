@@ -1,0 +1,782 @@
+## AskToCore
+
+> `/System/Library/PrivateFrameworks/AskToCore.framework/AskToCore`
+
+```diff
+
+-41.227.0.0.0
+-  __TEXT.__text: 0x201b4
+-  __TEXT.__auth_stubs: 0xf80
+-  __TEXT.__objc_methlist: 0x654
+-  __TEXT.__const: 0x192c
+-  __TEXT.__cstring: 0x1a09
+-  __TEXT.__swift5_typeref: 0x6d3
+-  __TEXT.__oslogstring: 0xa0e
+-  __TEXT.__swift5_reflstr: 0x60e
+-  __TEXT.__swift5_assocty: 0x150
+-  __TEXT.__constg_swiftt: 0x97c
+-  __TEXT.__swift5_fieldmd: 0x814
+-  __TEXT.__swift5_builtin: 0xa0
++57.2.1.1.0
++  __TEXT.__text: 0x40fd4
++  __TEXT.__auth_stubs: 0x15b0
++  __TEXT.__objc_methlist: 0x9c0
++  __TEXT.__const: 0x3df0
++  __TEXT.__cstring: 0x29fd
++  __TEXT.__swift5_typeref: 0xe5f
++  __TEXT.__constg_swiftt: 0x11c4
++  __TEXT.__swift5_reflstr: 0xaa2
++  __TEXT.__swift5_fieldmd: 0x12e4
++  __TEXT.__swift5_proto: 0x3a8
++  __TEXT.__swift5_types: 0x170
++  __TEXT.__swift5_assocty: 0x198
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__oslogstring: 0x129a
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__swift5_proto: 0x15c
+-  __TEXT.__swift5_types: 0xac
+-  __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__swift5_capture: 0x30
+-  __TEXT.__swift_as_entry: 0x14
+-  __TEXT.__swift_as_ret: 0x20
+-  __TEXT.__unwind_info: 0x8a8
+-  __TEXT.__eh_frame: 0xa20
++  __TEXT.__swift5_protos: 0x20
++  __TEXT.__swift5_capture: 0x74
++  __TEXT.__swift_as_entry: 0x38
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__unwind_info: 0x13f0
++  __TEXT.__eh_frame: 0x1aa0
+   __TEXT.__objc_classname: 0x3b
+-  __TEXT.__objc_methname: 0x9f8
++  __TEXT.__objc_methname: 0xee5
+   __TEXT.__objc_methtype: 0x100
+-  __DATA_CONST.__got: 0x1d0
+-  __DATA_CONST.__const: 0x188
+-  __DATA_CONST.__objc_classlist: 0x48
+-  __DATA_CONST.__objc_protolist: 0x68
++  __DATA_CONST.__got: 0x390
++  __DATA_CONST.__const: 0x218
++  __DATA_CONST.__objc_classlist: 0xa0
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3e0
+-  __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x7c0
+-  __AUTH_CONST.__const: 0x1068
+-  __AUTH_CONST.__objc_const: 0xf08
+-  __AUTH.__data: 0x4b8
+-  __DATA.__data: 0x810
+-  __DATA.__bss: 0x2800
+-  __DATA.__common: 0x108
+-  __DATA_DIRTY.__objc_data: 0x4d8
+-  __DATA_DIRTY.__data: 0x188
++  __DATA_CONST.__objc_selrefs: 0x4c8
++  __DATA_CONST.__objc_protorefs: 0x48
++  __AUTH_CONST.__auth_got: 0xad8
++  __AUTH_CONST.__const: 0x2218
++  __AUTH_CONST.__objc_const: 0x1a90
++  __AUTH.__objc_data: 0xa50
++  __AUTH.__data: 0xcc0
++  __DATA.__data: 0x10f0
++  __DATA.__bss: 0x6f00
++  __DATA.__common: 0x170
++  __DATA_DIRTY.__objc_data: 0x158
++  __DATA_DIRTY.__data: 0x68
++  __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/PrivateFrameworks/AAAFoundation.framework/AAAFoundation
++  - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F68A9267-4488-3F6B-BCB1-458B5B36D6B7
+-  Functions: 779
+-  Symbols:   528
+-  CStrings:  401
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: D89ACB63-6227-3607-BB3D-C959FB4F4ECA
++  Functions: 1691
++  Symbols:   898
++  CStrings:  584
+ 
+Symbols:
++ _APP_SANDBOX_MACH
++ _CFDataCreateMutable
++ _CGImageDestinationAddImage
++ _CGImageDestinationCreateWithData
++ _CGImageDestinationFinalize
++ _CNContactFamilyNameKey
++ _CNContactGivenNameKey
++ _CNContactMiddleNameKey
++ _CNContactNamePrefixKey
++ _CNContactNameSuffixKey
++ _CNContactNicknameKey
++ _CNContactPhoneticFamilyNameKey
++ _CNContactPhoneticGivenNameKey
++ _CNContactPhoneticMiddleNameKey
++ _CNContactSocialProfilesKey
++ _CNContactThumbnailImageDataKey
++ _OBJC_CLASS_$_CNPhoneNumber
++ _OBJC_CLASS_$_CNSocialProfile
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSCompoundPredicate
++ _OBJC_CLASS_$_NSPersonNameComponentsFormatter
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_CLASS_$_NSSet
++ _OBJC_CLASS_$_NSString
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$__TtC9AskToCore13ClientPayload
++ _OBJC_CLASS_$__TtC9AskToCore18SendRequestPayload
++ _OBJC_CLASS_$__TtC9AskToCore20_CommunicationHandle
++ _OBJC_CLASS_$__TtC9AskToCore22TopicRegistrationEntry
++ _OBJC_CLASS_$__TtC9AskToCore23ATCommunicationMetadata
++ _OBJC_CLASS_$__TtC9AskToCore26SendableSendRequestPayload
++ _OBJC_CLASS_$__TtC9AskToCore29SendableMessageComposeRequest
++ _OBJC_METACLASS_$__TtC9AskToCore13ClientPayload
++ _OBJC_METACLASS_$__TtC9AskToCore18SendRequestPayload
++ _OBJC_METACLASS_$__TtC9AskToCore20_CommunicationHandle
++ _OBJC_METACLASS_$__TtC9AskToCore22TopicRegistrationEntry
++ _OBJC_METACLASS_$__TtC9AskToCore23ATCommunicationMetadata
++ _OBJC_METACLASS_$__TtC9AskToCore26SendableSendRequestPayload
++ _OBJC_METACLASS_$__TtC9AskToCore29SendableMessageComposeRequest
++ _OBJC_METACLASS_$__TtC9AskToCoreP33_06A7F6AB6B94C8EECD38276F4573836312Localization
++ __CLASS_METHODS__TtC9AskToCore20_CommunicationHandle
++ __CLASS_METHODS__TtC9AskToCore22TopicRegistrationEntry
++ __CLASS_PROPERTIES__TtC9AskToCore20_CommunicationHandle
++ __CLASS_PROPERTIES__TtC9AskToCore22TopicRegistrationEntry
++ __DATA__TtC9AskToCore13ClientPayload
++ __DATA__TtC9AskToCore18SendRequestPayload
++ __DATA__TtC9AskToCore20_CommunicationHandle
++ __DATA__TtC9AskToCore21MessageComposeRequest
++ __DATA__TtC9AskToCore21SandboxExtensionToken
++ __DATA__TtC9AskToCore22TopicRegistrationEntry
++ __DATA__TtC9AskToCore23ATCommunicationMetadata
++ __DATA__TtC9AskToCore26SendableSendRequestPayload
++ __DATA__TtC9AskToCore28PrivledgedRecipientGroupInfo
++ __DATA__TtC9AskToCore29SendableMessageComposeRequest
++ __DATA__TtC9AskToCoreP33_06A7F6AB6B94C8EECD38276F4573836312Localization
++ __INSTANCE_METHODS__TtC9AskToCore20_CommunicationHandle
++ __INSTANCE_METHODS__TtC9AskToCore22TopicRegistrationEntry
++ __INSTANCE_METHODS__TtC9AskToCoreP33_06A7F6AB6B94C8EECD38276F4573836312Localization
++ __IVARS__TtC9AskToCore13ClientPayload
++ __IVARS__TtC9AskToCore18SendRequestPayload
++ __IVARS__TtC9AskToCore20_CommunicationHandle
++ __IVARS__TtC9AskToCore21MessageComposeRequest
++ __IVARS__TtC9AskToCore21SandboxExtensionToken
++ __IVARS__TtC9AskToCore22TopicRegistrationEntry
++ __IVARS__TtC9AskToCore23ATCommunicationMetadata
++ __IVARS__TtC9AskToCore26SendableSendRequestPayload
++ __IVARS__TtC9AskToCore28PrivledgedRecipientGroupInfo
++ __IVARS__TtC9AskToCore29SendableMessageComposeRequest
++ __METACLASS_DATA__TtC9AskToCore13ClientPayload
++ __METACLASS_DATA__TtC9AskToCore18SendRequestPayload
++ __METACLASS_DATA__TtC9AskToCore20_CommunicationHandle
++ __METACLASS_DATA__TtC9AskToCore21MessageComposeRequest
++ __METACLASS_DATA__TtC9AskToCore21SandboxExtensionToken
++ __METACLASS_DATA__TtC9AskToCore22TopicRegistrationEntry
++ __METACLASS_DATA__TtC9AskToCore23ATCommunicationMetadata
++ __METACLASS_DATA__TtC9AskToCore26SendableSendRequestPayload
++ __METACLASS_DATA__TtC9AskToCore28PrivledgedRecipientGroupInfo
++ __METACLASS_DATA__TtC9AskToCore29SendableMessageComposeRequest
++ __METACLASS_DATA__TtC9AskToCoreP33_06A7F6AB6B94C8EECD38276F4573836312Localization
++ __OBJC_$_CLASS_METHODS__TtC5AskTo10ATQuestion(AskToCore|AskToCore1|AskToCore2)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore13ClientPayload(AskToCore)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore18SendRequestPayload(AskToCore)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore23ATCommunicationMetadata(AskToCore)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore26SendableSendRequestPayload(AskToCore)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore29SendableMessageComposeRequest(AskToCore)
++ __OBJC_$_CLASS_METHODS__TtC9AskToCore9ATPayload(AskToCore|AskToCore1|AskToCore2|AskToCore3|AskToCore4)
++ __OBJC_$_INSTANCE_METHODS__TtC5AskTo10ATQuestion(AskToCore|AskToCore1|AskToCore2)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore13ClientPayload(AskToCore)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore18SendRequestPayload(AskToCore)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore23ATCommunicationMetadata(AskToCore)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore26SendableSendRequestPayload(AskToCore)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore29SendableMessageComposeRequest(AskToCore)
++ __OBJC_$_INSTANCE_METHODS__TtC9AskToCore9ATPayload(AskToCore|AskToCore1|AskToCore2|AskToCore3|AskToCore4)
++ __OBJC_CLASS_PROTOCOLS_$__TtC5AskTo10ATQuestion(AskToCore|AskToCore1|AskToCore2)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore13ClientPayload(AskToCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore18SendRequestPayload(AskToCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore23ATCommunicationMetadata(AskToCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore26SendableSendRequestPayload(AskToCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore29SendableMessageComposeRequest(AskToCore)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9AskToCore9ATPayload(AskToCore|AskToCore1|AskToCore2|AskToCore3|AskToCore4)
++ __PROPERTIES__TtC9AskToCore20_CommunicationHandle
++ __PROTOCOLS__TtC9AskToCore20_CommunicationHandle
++ __PROTOCOLS__TtC9AskToCore20_CommunicationHandle.2
++ __PROTOCOLS__TtC9AskToCore22TopicRegistrationEntry
++ __PROTOCOLS__TtC9AskToCore22TopicRegistrationEntry.2
++ __PROTOCOL_INSTANCE_METHODS__TtP9AskToCore19_ATResponseListener_
++ __PROTOCOL_METHOD_TYPES__TtP9AskToCore19_ATResponseListener_
++ __PROTOCOL__TtP9AskToCore19_ATResponseListener_
++ ___CGBitmapContextCreate
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_get_extra_inhabitant_index.77Tm
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy80_8
++ ___swift_store_extra_inhabitant_index.78Tm
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_AskToCore
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_AskToCore
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_AskToCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AskToCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AskToCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AskToCore
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_AskToCore
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOSHADSQ
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOs0O3KeyADs23CustomStringConvertible
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOs0O3KeyADs28CustomDebugStringConvertible
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10CodingKeysOSHADSQ
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10CodingKeysOs0E3KeyADs23CustomStringConvertible
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE10CodingKeysOs0E3KeyADs28CustomDebugStringConvertible
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOSHADSQ
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOs0O3KeyADs23CustomStringConvertible
++ _associated conformance 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysOs0O3KeyADs28CustomDebugStringConvertible
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOSHAASQ
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOSHAASQ
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5AskTo10ATQuestionC5TopicC8MetadataOSHAASQ
++ _associated conformance 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6I17F97212BD718B1AB83LLOSHAASQ
++ _associated conformance 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6I17F97212BD718B1AB83LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6I17F97212BD718B1AB83LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLOSHAASQ
++ _associated conformance 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLOSHAASQ
++ _associated conformance 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore20_CommunicationHandleC4KindOSHAASQ
++ _associated conformance 9AskToCore21ATMessageComposeErrorO10Foundation021_ObjectiveCBridgeableF0AAs0F0
++ _associated conformance 9AskToCore21ATMessageComposeErrorO10Foundation15_BridgedNSErrorAA8RawValueSY_s17FixedWidthInteger
++ _associated conformance 9AskToCore21ATMessageComposeErrorO10Foundation15_BridgedNSErrorAASH
++ _associated conformance 9AskToCore21ATMessageComposeErrorO10Foundation15_BridgedNSErrorAASY
++ _associated conformance 9AskToCore21ATMessageComposeErrorO10Foundation15_BridgedNSErrorAaD021_ObjectiveCBridgeableF0
++ _associated conformance 9AskToCore21ATMessageComposeErrorOSHAASQ
++ _associated conformance 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLOSHAASQ
++ _associated conformance 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLOSHAASQ
++ _associated conformance 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore21SandboxExtensionTokenCSHAASQ
++ _associated conformance 9AskToCore22ConnectionManagerErrorOSHAASQ
++ _associated conformance 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLOSHAASQ
++ _associated conformance 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOSHAASQ
++ _associated conformance 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOSHAASQ
++ _associated conformance 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC17PersonInformationVSHAASQ
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOSHAASQ
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO14CallCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO14CallCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO16FollowCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO16FollowCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO16FriendCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO16FriendCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO17MessageCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO17MessageCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO19VideoChatCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionO19VideoChatCodingKeys33_018464744FB3D64D90F2041DA3514459LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore23ATCommunicationMetadataC6ActionOSHAASQ
++ _associated conformance 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLOSHAASQ
++ _associated conformance 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9AskToCore29ClientLaunchActionSettingsKeyOSHAASQ
++ _associated conformance 9AskToCore5ATURLO5ErrorO10Foundation09LocalizedE0AAsAD
++ _associated conformance 9AskToCore5ATURLO5ErrorO10Foundation13CustomNSErrorAAsAD
++ _associated conformance 9AskToCore5ATURLO5ErrorOSHAASQ
++ _associated conformance 9AskToCore5ATURLO6ParserV5ErrorO10Foundation13CustomNSErrorAAsAF
++ _block_copy_helper.12
++ _block_copy_helper.17
++ _block_copy_helper.22
++ _block_copy_helper.29
++ _block_copy_helper.34
++ _block_copy_helper.38
++ _block_copy_helper.4
++ _block_copy_helper.43
++ _block_copy_helper.54
++ _block_copy_helper.57
++ _block_copy_helper.73
++ _block_copy_helper.78
++ _block_copy_helper.8
++ _block_copy_helper.81
++ _block_descriptor.10
++ _block_descriptor.14
++ _block_descriptor.19
++ _block_descriptor.24
++ _block_descriptor.31
++ _block_descriptor.36
++ _block_descriptor.40
++ _block_descriptor.45
++ _block_descriptor.56
++ _block_descriptor.59
++ _block_descriptor.6
++ _block_descriptor.75
++ _block_descriptor.80
++ _block_descriptor.83
++ _block_destroy_helper.13
++ _block_destroy_helper.18
++ _block_destroy_helper.23
++ _block_destroy_helper.30
++ _block_destroy_helper.35
++ _block_destroy_helper.39
++ _block_destroy_helper.44
++ _block_destroy_helper.5
++ _block_destroy_helper.55
++ _block_destroy_helper.58
++ _block_destroy_helper.74
++ _block_destroy_helper.79
++ _block_destroy_helper.82
++ _block_destroy_helper.9
++ _dispatch_semaphore_create
++ _free
++ _kUTTypePNG
++ _memcmp
++ _objc_retain_x10
++ _objc_retain_x9
++ _sandbox_extension_consume
++ _sandbox_extension_issue_mach
++ _sandbox_extension_release
++ _swift_allocBox
++ _swift_continuation_resume
++ _swift_getDynamicType
++ _swift_getObjCClassFromMetadata
++ _swift_retain_n
++ _symbolic $s9AskToCore19_ATResponseListenerP
++ _symbolic $s9AskToCore33ATDaemonConnectionManagerProtocolP
++ _symbolic SDySSSaySo9CNContactCGSgG
++ _symbolic SaySSG
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 9AskToCore20_CommunicationHandleC
++ _symbolic Say_____G 9AskToCore23ATCommunicationMetadataC17PersonInformationV
++ _symbolic ScCyShy_____G_____G 9AskToCore20_CommunicationHandleC s5NeverO
++ _symbolic SccySb_____G s5NeverO
++ _symbolic SccySb______pG s5ErrorP
++ _symbolic Sccy___________pG 9AskToCore18SendRequestPayloadC s5ErrorP
++ _symbolic ShySSG
++ _symbolic Shy_____G 9AskToCore20_CommunicationHandleC
++ _symbolic Shy_____G 9AskToCore23ATCommunicationMetadataC6ActionO
++ _symbolic SiSg
++ _symbolic So14CNContactStoreC
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So5NSSetCm
++ _symbolic _____ 5AskTo10ATQuestionC0aB4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV
++ _symbolic _____ 5AskTo10ATQuestionC0aB4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysO
++ _symbolic _____ 5AskTo10ATQuestionC0aB4CoreE10CodingKeysO
++ _symbolic _____ 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV
++ _symbolic _____ 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysO
++ _symbolic _____ 5AskTo10ATQuestionC5TopicC8MetadataO
++ _symbolic _____ 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____ 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____ 9AskToCore12Localization33_06A7F6AB6B94C8EECD38276F45738363LLC
++ _symbolic _____ 9AskToCore13ClientPayloadC
++ _symbolic _____ 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6I17F97212BD718B1AB83LLO
++ _symbolic _____ 9AskToCore15ContactResolverV
++ _symbolic _____ 9AskToCore17ATStringsResolverV
++ _symbolic _____ 9AskToCore18SendRequestPayloadC
++ _symbolic _____ 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLO
++ _symbolic _____ 9AskToCore20_CommunicationHandleC
++ _symbolic _____ 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLO
++ _symbolic _____ 9AskToCore20_CommunicationHandleC4KindO
++ _symbolic _____ 9AskToCore21ATMessageComposeErrorO
++ _symbolic _____ 9AskToCore21MessageComposeRequestC
++ _symbolic _____ 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLO
++ _symbolic _____ 9AskToCore21RequestSendErrorEvent33_FFF05204D7DDE95B20550B814A9FA4F8LLV
++ _symbolic _____ 9AskToCore21SandboxExtensionTokenC
++ _symbolic _____ 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLO
++ _symbolic _____ 9AskToCore22ConnectionManagerErrorO
++ _symbolic _____ 9AskToCore22ResponseSendErrorEvent33_FFF05204D7DDE95B20550B814A9FA4F8LLV
++ _symbolic _____ 9AskToCore22TopicRegistrationEntryC
++ _symbolic _____ 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC17PersonInformationV
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO14CallCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO16FollowCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO16FriendCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO17MessageCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore23ATCommunicationMetadataC6ActionO19VideoChatCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____ 9AskToCore26SendableSendRequestPayloadC
++ _symbolic _____ 9AskToCore27RequestReceiptReceivedEvent33_FFF05204D7DDE95B20550B814A9FA4F8LLV
++ _symbolic _____ 9AskToCore28PrivledgedRecipientGroupInfoC
++ _symbolic _____ 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLO
++ _symbolic _____ 9AskToCore29ClientLaunchActionSettingsKeyO
++ _symbolic _____ 9AskToCore29SendableMessageComposeRequestC
++ _symbolic _____ 9AskToCore35ATThreadSafeDaemonConnectionManagerV
++ _symbolic _____ 9AskToCore5ATURLO5ErrorO
++ _symbolic _____ 9AskToCore7MetricsO16RequestSendErrorO
++ _symbolic _____ 9AskToCore7MetricsO17ResponseSendErrorO
++ _symbolic _____ 9AskToCore7MetricsO22RequestReceiptReceivedO
++ _symbolic _____ s5Int32V
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 5AskTo10ATQuestionC5TopicC8MetadataO
++ _symbolic _____Sg 5AskTo14ATAnswerChoiceC
++ _symbolic _____Sg 9AskToCore13ClientPayloadC
++ _symbolic _____Sg s5Int64V
++ _symbolic _____Sg_ABt 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgz_Xx s5ErrorP
++ _symbolic _____m 9AskToCore20_CommunicationHandleC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____y_____G 18AAAFoundationSwift22NSSecureCodingEnvelopeC 10Foundation4DataV
++ _symbolic _____y_____G 18AAAFoundationSwift22NSSecureCodingEnvelopeC 9AskToCore13ClientPayloadC
++ _symbolic _____y_____G 18AAAFoundationSwift22NSSecureCodingEnvelopeC 9AskToCore18SendRequestPayloadC
++ _symbolic _____y_____G s11_SetStorageC 9AskToCore20_CommunicationHandleC
++ _symbolic _____y_____G s11_SetStorageC 9AskToCore23ATCommunicationMetadataC6ActionO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5AskTo10ATQuestionC0dE4CoreE10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6L17F97212BD718B1AB83LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO14CallCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO16FollowCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO16FriendCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO17MessageCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO19VideoChatCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC0dE4CoreE10AllContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC0dE4CoreE10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC0dE4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC5TopicC8MetadataO10CodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC5TopicC8MetadataO23CommunicationCodingKeys33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore13ClientPayloadC10CodingKeys014_06EE66363B0E6L17F97212BD718B1AB83LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore18SendRequestPayloadC10CodingKeys33_F14741ADE65911B617DE16167260111ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore20_CommunicationHandleC10CodingKeys33_FC5AA90052225D8B4A73A3235D07F8BFLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore21MessageComposeRequestC10CodingKeys33_07464AAD21A6630C20AAECE098B74BD1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore21SandboxExtensionTokenC10CodingKeys33_913DC71C649280C07EE360EB21B15F1DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore22TopicRegistrationEntryC10CodingKeys33_596DFEF33CC9887BDFEE70AD72E2A26BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC17PersonInformationV10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO10CodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO14CallCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO16FollowCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO16FriendCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO17MessageCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore23ATCommunicationMetadataC6ActionO19VideoChatCodingKeys33_018464744FB3D64D90F2041DA3514459LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9AskToCore28PrivledgedRecipientGroupInfoC10CodingKeys33_3DA3FF38D4051443F6174F4CCA25D3AFLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s9CodingKeyP
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 5AskTo10ATQuestionC0aB4CoreE20CommunicationContent33_14CA1FA22CB8C6840C5635AEA6A9EF1CLLV
++ _type_layout_string 5AskTo10ATQuestionC5TopicC8MetadataO
++ _type_layout_string 9AskToCore15ContactResolverV
++ _type_layout_string 9AskToCore17ATStringsResolverV
+- __CLASS_METHODS__TtC9AskToCore9ATPayload
+- __CLASS_PROPERTIES__TtC9AskToCore9ATPayload
+- __INSTANCE_METHODS__TtC9AskToCore9ATPayload
+- __OBJC_$_CLASS_METHODS__TtC5AskTo10ATQuestion(AskToCore)
+- __OBJC_$_INSTANCE_METHODS__TtC5AskTo10ATQuestion(AskToCore)
+- __OBJC_CLASS_PROTOCOLS_$__TtC5AskTo10ATQuestion(AskToCore)
+- __PROPERTIES__TtC5AskTo10ATQuestion
+- __PROPERTIES__TtC9AskToCore9ATPayload
+- __PROTOCOLS__TtC9AskToCore9ATPayload
+- __PROTOCOLS__TtC9AskToCore9ATPayload.5
+- ___swift_get_extra_inhabitant_indexTm
+- ___swift_store_extra_inhabitant_indexTm
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AskToCore
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AskToCore
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AskToCore
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AskToCore
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AskToCore
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AskToCore
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AskToCore
+- _associated conformance 5AskTo10ATQuestionC10CodingKeysOSHAASQ
+- _associated conformance 5AskTo10ATQuestionC10CodingKeysOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 5AskTo10ATQuestionC10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.11
+- _block_copy_helper.18
+- _block_copy_helper.2
+- _block_copy_helper.26
+- _block_copy_helper.6
+- _block_descriptor.13
+- _block_descriptor.20
+- _block_descriptor.28
+- _block_descriptor.4
+- _block_descriptor.8
+- _block_destroy_helper.12
+- _block_destroy_helper.19
+- _block_destroy_helper.27
+- _block_destroy_helper.3
+- _block_destroy_helper.7
+- _swift_bridgeObjectRelease_n
+- _symbolic _____ 5AskTo10ATQuestionC10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 5AskTo10ATQuestionC10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 5AskTo10ATQuestionC10CodingKeysO
+CStrings:
++ "\nanswerChoices[$0].id: "
++ "\nclientDisplayName: "
++ "\ncustomTopicData: "
++ "\ndefaultAnswerChoice.id: "
++ "\nrequesterDSID: "
++ "\ntopic.rawValue: "
++ "\ntopicMetadata: "
++ "%s Could not JSON encode content of type %s"
++ "%s JSON is %s"
++ "%s content hash string is %s"
++ "%s failed to obtain synchronous daemon proxy"
++ "%s hashStr has %ld characters, expected 32"
++ "%s uuid is %s"
++ "%s uuidStr is %s"
++ "%s uuidStr was not valid"
++ "@64@0:8@16@24@32@40@48@56"
++ "@96@0:8@16d24@32@40@48@56@64@72@80@88"
++ "AskToCore.ATCommunicationMetadata"
++ "AskToCore.ATMessageComposeError"
++ "AskToCore.ClientPayload"
++ "AskToCore.SendRequestPayload"
++ "AskToCore.SendableMessageComposeRequest"
++ "AskToCore.SendableSendRequestPayload"
++ "AskToCore.TopicRegistrationEntry"
++ "AskToCore._CommunicationHandle"
++ "AskToCore1"
++ "AskToCore2"
++ "AskToCore3"
++ "AskToCore4"
++ "Attempting to issue mach lookup sandbox extension for mach service named %s"
++ "CFDataCreateMutable failed"
++ "CGImageDestinationCreateWithData failed"
++ "CGImageDestinationFinalize failed"
++ "ClientPayload.init(coder:) processIdentity was nil"
++ "Error archiving Handle %@"
++ "Error archiving MessageComposeRequest %@"
++ "Error archiving TopicRegistrationEntry %@"
++ "Error fetching contacts for handles %s: %@"
++ "Error obtaining synchronous remote object proxy: %@"
++ "ID string could not be decoded to UUID"
++ "Invalid number of keys found, expected one."
++ "Logging request receipt received metric"
++ "Logging request send error metric %s %s %ld"
++ "Logging response send error metric %s %s %ld"
++ "Not initializing ClientPayload (coder had nil value for key \"data\")"
++ "Not initializing ClientPayload (coder had nil value for key \"processIdentityData\")"
++ "Not initializing Handle (coder had nil value for key \"data\")"
++ "Not initializing Handle (nil value for key \"data\")"
++ "Not initializing Handle (unarchiver had nil value for key \"value\")"
++ "Not initializing MessageComposeRequest (coder had nil value for key \"data\")"
++ "Not initializing MessageComposeRequest failed to unarchiver: %@"
++ "Not initializing SendRequestPayload (coder had nil value for key \"data\")"
++ "Not initializing TopicRegistrationEntry (coder had nil value for key \"data\")"
++ "Not initializing TopicRegistrationEntry (nil value for key \"data\")"
++ "Not initializing TopicRegistrationEntry (unarchiver had nil value for key \"value\")"
++ "Obtaining daemon proxy"
++ "Releasing sandbox extension handle %lld. token: %s"
++ "Sandbox extension consume returned with %lld. token: %s"
++ "SandboxExtension"
++ "Successfully issued mach lookup sandbox extension for mach service named %s. token: %s"
++ "Successfully obtained daemon proxy"
++ "T@\"NSData\",N,C"
++ "TopicRegistrationEntry"
++ "Unable to parse ATPayload.  Skipping sending metrics event"
++ "YourChildAskedTo"
++ "_TtC9AskToCore13ClientPayload"
++ "_TtC9AskToCore18SendRequestPayload"
++ "_TtC9AskToCore20_CommunicationHandle"
++ "_TtC9AskToCore21MessageComposeRequest"
++ "_TtC9AskToCore21SandboxExtensionToken"
++ "_TtC9AskToCore22TopicRegistrationEntry"
++ "_TtC9AskToCore23ATCommunicationMetadata"
++ "_TtC9AskToCore26SendableSendRequestPayload"
++ "_TtC9AskToCore28PrivledgedRecipientGroupInfo"
++ "_TtC9AskToCore29SendableMessageComposeRequest"
++ "_TtC9AskToCoreP33_06A7F6AB6B94C8EECD38276F4573836312Localization"
++ "_TtP9AskToCore19_ATResponseListener_"
++ "actions"
++ "archivedDataWithRootObject:requiringSecureCoding:error:"
++ "bundleForClass:"
++ "bundleIdentifier"
++ "canAsk(recipientGroup:topic:)"
++ "canAskWithRecipientGroup:via:topic:completionHandler:"
++ "clientDisplayName"
++ "clientInfo"
++ "com.apple.AskToMessagesHost.AskToMessagesExtension"
++ "com.apple.MobileSMS"
++ "com.apple.askto.client."
++ "com.apple.contacts.commlimits"
++ "com.apple.contacts.commlimits.approve"
++ "com.apple.family.AskTo.RequestReceiptReceived"
++ "com.apple.family.AskTo.RequestSendErrorEvent"
++ "com.apple.family.AskTo.ResponseSendErrorEvent"
++ "com.apple.parentalconsent.choice.approve"
++ "com.apple.parentalconsent.communicationlimits"
++ "com.apple.screentime.moretime"
++ "communication { "
++ "contactIdentifier"
++ "contentHash"
++ "customTopicData"
++ "data"
++ "defaultAnswerChoice"
++ "deliverResponse(response:toClientWithBundleIdentifier:)"
++ "deliverResponseWithResponse:toClientWithBundleIdentifier:reply:"
++ "didReceiveResponse:completionHandler:"
++ "errorDescription"
++ "fetchPredicate: %@"
++ "formattedStringValue"
++ "initWithArray:"
++ "initWithId:topic:title:summary:shortTitle:shortSummary:"
++ "initWithStringValue:"
++ "initWithSystemId:version:id:topic:title:summary:longTitle:longSummary:notificationText:answerChoices:"
++ "initWithUrlString:username:userIdentifier:service:displayname:teamIdentifier:bundleIdentifiers:"
++ "isReleased"
++ "knownHandles(from:clientBundleIdentifier:)"
++ "knownHandlesFrom:clientBundleIdentifier:reply:"
++ "longSummary"
++ "longTitle"
++ "machService"
++ "markAskMessageComposeRequestAsSent(_:)"
++ "markAskMessageComposeRequestAsSent:completionHandler:"
++ "messagesDataPayloadFor:messagesDetailsURL:requiredRegistrationCapabilities:reply:"
++ "messagesDataPayloadFor:requiredRegistrationCapabilities:reply:"
++ "orPredicateWithSubpredicates:"
++ "payload"
++ "payloadForSendRequest(question:recipientGroup:clientPayload:shouldValidateSendDestionations:)"
++ "payloadForSendRequestWithQuestion:recipientGroup:clientPayload:shouldValidateSendDestionations:completionHandler:"
++ "personInformation"
++ "pid"
++ "predicateForContactsMatchingSocialProfile:"
++ "processIdentityData"
++ "promptAcknowledgement"
++ "questionSystemID"
++ "recipientGroup"
++ "recipientGroupInfo"
++ "requestMessageDeliveryReceiptReceived"
++ "requestToSend(question:to:)"
++ "requestToSendWithQuestion:to:completionHandler:"
++ "requesterDSID"
++ "requiredCapabilities"
++ "responseAcknowledgedByRequester"
++ "responseListenerID"
++ "sandboxExtensionHandle"
++ "sendDestinations"
++ "sendResponse(_:to:requestMessageGUID:)"
++ "sendResponse:to:requestMessageGUID:completionHandler:"
++ "setClass:forSelector:argumentIndex:ofReply:"
++ "setClasses:forSelector:argumentIndex:ofReply:"
++ "setCustomTopicData:"
++ "setLongSummary:"
++ "setLongTitle:"
++ "shouldValidateSendDestionations"
++ "signedAndSerializedProcessIdentity"
++ "stringFromPersonNameComponents:"
++ "stringGUID"
++ "style"
++ "summaryV2"
++ "synchronousRemoteObjectProxyWithErrorHandler:"
++ "titleV2"
++ "topicMetadata"
++ "v12@?0B8"
++ "v16@?0@\"NSSet\"8"
++ "v20@?0B8@\"NSError\"12"
++ "v24@0:8@?16"
++ "v24@0:8@?<v@?>16"
++ "v24@?0@\"_TtC9AskToCore18SendRequestPayload\"8@\"NSError\"16"
++ "v28@0:8s16@?20"
++ "v28@0:8s16@?<v@?B@\"NSError\">20"
++ "v32@0:8@\"_TtC9AskToCore10ATResponse\"16@?<v@?>24"
++ "v32@0:8@\"_TtC9AskToCore29SendableMessageComposeRequest\"16@?<v@?@\"NSError\">24"
++ "v36@0:8@\"_TtC5AskTo10ATQuestion\"16s24@?<v@?@\"NSError\">28"
++ "v40@0:8@\"NSSet\"16@\"NSString\"24@?<v@?@\"NSSet\">32"
++ "v40@0:8@\"_TtC9AskToCore10ATResponse\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"_TtC9AskToCore9ATPayload\"16@\"NSSet\"24@?<v@?@\"NSError\"@\"NSData\">32"
++ "v40@0:8s16s20@\"NSString\"24@?<v@?B>32"
++ "v40@0:8s16s20@24@?32"
++ "v48@0:8@\"_TtC5AskTo10ATQuestion\"16s24@\"_TtC9AskToCore13ClientPayload\"28B36@?<v@?@\"_TtC9AskToCore18SendRequestPayload\"@\"NSError\">40"
++ "v48@0:8@\"_TtC9AskToCore9ATPayload\"16@\"NSArray\"24@\"NSString\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"_TtC9AskToCore9ATPayload\"16@\"NSURL\"24@\"NSSet\"32@?<v@?@\"NSError\"@\"NSData\">40"
++ "v48@0:8@16s24@28B36@?40"
++ "val0"
++ "val1"
++ "val2"
++ "val3"
++ "val4"
++ "val5"
++ "val6"
++ "val7"
++ "validateCurrentUserCanComposeMessage(group:)"
++ "validateCurrentUserCanComposeMessageWithGroup:completionHandler:"
++ "wakeUpWithCompletionHandler:"
+- "\nanswerChoices: "
+- "@80@0:8@16d24@32@40@48@56@64@72"
+- "TB,N,R,VisForFamily"
+- "initWithSystemId:version:id:topic:title:summary:notificationText:answerChoices:"
+- "initWithTopic:title:summary:"
+- "isForFamily"
+- "messagesDataPayloadFor:reply:"
+- "sendResponse(_:to:)"
+- "sendResponse:to:completionHandler:"
+- "v32@0:8@\"_TtC9AskToCore9ATPayload\"16@?<v@?@\"NSError\"@\"NSData\">24"
+- "v40@0:8@\"_TtC9AskToCore9ATPayload\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
+
+```

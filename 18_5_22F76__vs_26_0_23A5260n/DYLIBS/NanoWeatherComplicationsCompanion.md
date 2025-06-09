@@ -1,0 +1,1191 @@
+## NanoWeatherComplicationsCompanion
+
+> `/System/Library/PrivateFrameworks/NanoWeatherComplicationsCompanion.framework/NanoWeatherComplicationsCompanion`
+
+```diff
+
+-1025.3.2.0.0
+-  __TEXT.__text: 0xfb3c
+-  __TEXT.__auth_stubs: 0x430
+-  __TEXT.__objc_methlist: 0x146c
+-  __TEXT.__const: 0x370
+-  __TEXT.__cstring: 0xb23
+-  __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__dlopen_cstrs: 0x66
++1102.0.0.0.0
++  __TEXT.__text: 0x8f6c
++  __TEXT.__auth_stubs: 0x360
++  __TEXT.__delay_helper: 0xc8
++  __TEXT.__objc_methlist: 0xc14
++  __TEXT.__const: 0x1c0
++  __TEXT.__cstring: 0x3d1
+   __TEXT.__ustring: 0x8
+-  __TEXT.__unwind_info: 0x4c0
+-  __TEXT.__objc_classname: 0x594
+-  __TEXT.__objc_methname: 0x398b
+-  __TEXT.__objc_methtype: 0x689
+-  __TEXT.__objc_stubs: 0x2f60
+-  __DATA_CONST.__got: 0x2d0
+-  __DATA_CONST.__const: 0x458
+-  __DATA_CONST.__objc_classlist: 0x110
+-  __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x50
++  __TEXT.__unwind_info: 0x2f8
++  __TEXT.__objc_classname: 0x445
++  __TEXT.__objc_methname: 0x1c3d
++  __TEXT.__objc_methtype: 0x443
++  __TEXT.__objc_stubs: 0x1b40
++  __DATA_CONST.__got: 0x190
++  __DATA_CONST.__const: 0x188
++  __DATA_CONST.__objc_classlist: 0xf0
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf00
++  __DATA_CONST.__objc_selrefs: 0x8c0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x98
+-  __DATA_CONST.__objc_arraydata: 0x80
+-  __AUTH_CONST.__auth_got: 0x228
+-  __AUTH_CONST.__const: 0x300
+-  __AUTH_CONST.__cfstring: 0x1700
+-  __AUTH_CONST.__objc_const: 0x2d80
+-  __AUTH_CONST.__objc_intobj: 0x510
+-  __AUTH_CONST.__objc_doubleobj: 0x100
+-  __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0xaa0
+-  __DATA.__objc_ivar: 0x100
+-  __DATA.__data: 0x6a0
+-  __DATA.__bss: 0x3c0
++  __DATA_CONST.__objc_superrefs: 0x78
++  __AUTH_CONST.__auth_got: 0x1b8
++  __AUTH_CONST.__const: 0x1e0
++  __AUTH_CONST.__cfstring: 0x4a0
++  __AUTH_CONST.__objc_const: 0x2090
++  __AUTH_CONST.__objc_intobj: 0x168
++  __AUTH_CONST.__objc_doubleobj: 0x50
++  __AUTH.__objc_data: 0x960
++  __DATA.__objc_ivar: 0x98
++  __DATA.__data: 0x304
++  __DATA.__bss: 0x2f8
+   - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit
+   - /System/Library/PrivateFrameworks/NanoWeatherKitUICompanion.framework/NanoWeatherKitUICompanion
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+-  - /System/Library/PrivateFrameworks/WeatherFoundation.framework/WeatherFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 98F06923-66DB-3034-97B6-4AB4CD837A7D
+-  Functions: 435
+-  Symbols:   1940
+-  CStrings:  1136
++  UUID: 55A07A42-1B8C-35EF-85F9-E4255AF351A1
++  Functions: 244
++  Symbols:   1222
++  CStrings:  522
+ 
+Symbols:
++ +[NWCLocationDisplayName _attributedDisplayName:prefixedWithLocationGlyph:]
++ +[NWCLocationDisplayName attributedDisplayNameWithLocationGlyph:inFont:]
++ +[NWCLocationDisplayName attributedDisplayNameWithLocationGlyph:withTextStyle:]
++ +[NWMUltravioletIndexCategoryColor colorForNumber:]
++ _FixedDateFormatter_block_invoke.__cachedDevice
++ _FixedDateFormatter_block_invoke.__previousCLKDeviceVersion
++ _FixedDateFormatter_block_invoke.lock
++ _FixedDateFormatter_block_invoke.value
++ _GossamerCapability_block_invoke_2.__cachedDevice
++ _GossamerCapability_block_invoke_2.__previousCLKDeviceVersion
++ _GossamerCapability_block_invoke_2.lock
++ _GossamerCapability_block_invoke_2.value
++ _NWCCurrentObservationsMetadata_WindUnit_block_invoke.__cachedDevice
++ _NWCCurrentObservationsMetadata_WindUnit_block_invoke.__previousCLKDeviceVersion
++ _NWCCurrentObservationsMetadata_WindUnit_block_invoke.lock
++ _NWCCurrentObservationsMetadata_WindUnit_block_invoke.value
++ _NWCMaxHourlyCountInDay_block_invoke.__cachedDevice
++ _NWCMaxHourlyCountInDay_block_invoke.__previousCLKDeviceVersion
++ _NWCMaxHourlyCountInDay_block_invoke.lock
++ _NWCMaxHourlyCountInDay_block_invoke.value
++ _OBJC_CLASS_$_NTKOverrideTextProvider
++ _OBJC_CLASS_$_NWCLocationDisplayName
++ _OBJC_METACLASS_$_NWCLocationDisplayName
++ __OBJC_$_CLASS_METHODS_NWCLocationDisplayName
++ __OBJC_CLASS_RO_$_NWCLocationDisplayName
++ __OBJC_METACLASS_RO_$_NWCLocationDisplayName
++ ___67-[NWCSevenDayForecastUltravioletIndexView processSimpleEntryModel:]_block_invoke.14
++ ___NWCExtraLargeScalingFactor_block_invoke_3
++ ____LayoutConstants_block_invoke_3
++ ____LinearGaugeLayoutConstants_block_invoke_3
++ ___block_literal_global.15
++ ___block_literal_global.26
++ __block_invoke.__cachedDevice
++ __block_invoke.__previousCLKDeviceVersion
++ __block_invoke.lock
++ __block_invoke.value
++ _dlopen
++ _dlopenHelper$NanoTimeKit
++ _dlopenHelperFlag$NanoTimeKit
++ _gotLoadHelper_x8$_OBJC_CLASS_$_NTKOverrideTextProvider
++ _kNanoWeatherUI_LocalizedStringsTable_Conditions_block_invoke.__cachedDevice
++ _kNanoWeatherUI_LocalizedStringsTable_Conditions_block_invoke.__previousCLKDeviceVersion
++ _kNanoWeatherUI_LocalizedStringsTable_Conditions_block_invoke.lock
++ _kNanoWeatherUI_LocalizedStringsTable_Conditions_block_invoke.value
++ _objc_msgSend$_attributedDisplayName:prefixedWithLocationGlyph:
++ _objc_msgSend$attributedDisplayNameWithLocationGlyph:inFont:
++ _objc_msgSend$colorForNumber:
+- +[NSNumberFormatter(NWMNumberFormatters) nwm_airQualityIndexNumberFormatter]
+- +[NSNumberFormatter(NWMNumberFormatters) nwm_ultravioletIndexNumberFormatter]
+- +[NWCEntryModel supportsSecureCoding]
+- +[NWMPrecipitationFormatter sharedFormatter]
+- +[NWMPrecipitationFormatter sharedFormatter].cold.1
+- +[NWMTemperatureColor colorForTemperature:]
+- +[NWMTemperatureColor colorSpectrumBetweenLow:high:handler:]
+- +[NWMTemperatureColor colorSpectrum]
+- +[NWMTemperatureColorIndex allIndices]
+- +[NWMTemperatureColorIndex allIndices].cold.1
+- +[NWMTemperatureColorIndex indexWithTemperature:color:]
+- +[NWMTemperatureFormatter autoupdatingFormatter]
+- +[NWMTemperatureFormatter autoupdatingSharedFormatter]
+- +[NWMTemperatureFormatter autoupdatingSharedFormatter].cold.1
+- +[WFAirQualityConditions(NWMLocalizedDescription) _nwm_descriptionForAirQualityConditions:atLocation:withExtension:]
+- +[WFAirQualityConditions(NWMLocalizedDescription) _nwm_v2AirQualityConditionsDescriptionKeyForCategory:atLocation:]
+- +[WFAirQualityConditions(NWMLocalizedDescription) nwm_longDescriptionForAirQualityConditions:atLocation:]
+- +[WFAirQualityConditions(NWMLocalizedDescription) nwm_shortDescriptionForAirQualityConditions:atLocation:]
+- +[WFAirQualityConditions(NWMLocalizedDescription) nwm_titleForAirQualityConditions:atLocation:]
+- +[WFLocation(NWMDisplayName) _nwm_attributedDisplayName:prefixedWithLocationGlyph:]
+- +[WFLocation(NWMDisplayName) nwm_attributedDisplayNameWithLocationGlyph:inFont:]
+- +[WFLocation(NWMDisplayName) nwm_attributedDisplayNameWithLocationGlyph:withTextStyle:]
+- +[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexCategoryColorForNumber:]
+- +[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexCategoryColorSpectrum]
+- +[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexCategoryColorUnknown]
+- +[WFWeatherConditions(NWMLocalizedDescription) _nwm_shortSuffixedKey:]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionForConditionCode:timeOfDay:]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionKeyForConditionCode:timeOfDay:]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionShortForConditionCode:timeOfDay:]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionShortKeyForConditionCode:timeOfDay:]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedNoDataRounded]
+- +[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedNoData]
+- +[WFWeatherConditions(NWMLocalizedWind) _defaultWindSpeedWithUnit:]
+- +[WFWeatherConditions(NWMLocalizedWind) _localizedWindspeed:withUnit:forLocale:]
+- +[WFWeatherConditions(NWMLocalizedWind) _localizedWindspeed:withUnit:forLocale:].cold.1
+- +[WFWeatherConditions(NWMLocalizedWind) _preferredWindSpeedUnitForLocale:]
+- +[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindpeedUnit]
+- -[NWCEntryModel .cxx_destruct]
+- -[NWCEntryModel airQualityConditions]
+- -[NWCEntryModel conditions]
+- -[NWCEntryModel dailyConditions]
+- -[NWCEntryModel encodeWithCoder:]
+- -[NWCEntryModel hourlyEntryModels]
+- -[NWCEntryModel initWithCoder:]
+- -[NWCEntryModel initWithConditions:airQualityConditions:dailyConditions:timeOfDay:]
+- -[NWCEntryModel initWithConditions:airQualityConditions:hourlyEntryModels:dailyConditions:timeOfDay:]
+- -[NWCEntryModel initWithConditions:dailyConditions:timeOfDay:]
+- -[NWCEntryModel initWithConditions:hourlyEntryModels:dailyConditions:timeOfDay:]
+- -[NWCEntryModel initWithConditions:hourlyEntryModels:timeOfDay:]
+- -[NWCEntryModel initWithConditions:timeOfDay:]
+- -[NWCEntryModel timeOfDay]
+- -[NWCFiveHourForecastPrecipitationView .cxx_destruct]
+- -[NWCFiveHourForecastPrecipitationView dataFormatter]
+- -[NWCFiveHourForecastPrecipitationView formatter]
+- -[NWCFiveHourForecastPrecipitationView setFormatter:]
+- -[NWCFiveHourForecastTemperatureView .cxx_destruct]
+- -[NWCFiveHourForecastTemperatureView dataFormatter]
+- -[NWCFiveHourForecastTemperatureView formatter]
+- -[NWCFiveHourForecastTemperatureView setFormatter:]
+- -[NWCFiveHourForecastView dataFormatter]
+- -[NWCFiveHourForecastView processHourlyForecastEntryModels:forTimeZone:]
+- -[NWCFiveHourForecastWindView dataFormatter]
+- -[NWCHourlyForecastConditionGlyphView applyEntryModel:date:timeZone:]
+- -[NWCHourlyForecastConditionGlyphView topLabelTextFromConditions:]
+- -[NWCHourlyForecastPrecipitationView topLabelTextFromConditions:]
+- -[NWCHourlyForecastTemperatureView topLabelTextFromConditions:]
+- -[NWCHourlyForecastView formatter]
+- -[NWCHourlyForecastView setFormatter:]
+- -[NWCHourlyForecastWindView applyEntryModel:date:timeZone:]
+- -[NWCSevenDayForecastUltravioletIndexView processConditions:dailyForecastedConditions:timeZone:]
+- -[NWCSevenDayForecastUltravioletIndexView processConditions:dailyForecastedConditions:timeZone:].cold.1
+- -[NWCSevenDayForecastView processConditions:dailyForecastedConditions:timeZone:]
+- -[NWMPrecipitationFormatter .cxx_destruct]
+- -[NWMPrecipitationFormatter formattedChanceOfPrecipitation:shouldIncludePercentSymbol:]
+- -[NWMPrecipitationFormatter formattedChanceOfPrecipitation:style:shouldIncludePercentSymbol:]
+- -[NWMPrecipitationFormatter formattedChanceOfPrecipitationChance:style:shouldIncludePercentSymbol:]
+- -[NWMPrecipitationFormatter init]
+- -[NWMPrecipitationFormatter minimumPercentage]
+- -[NWMPrecipitationFormatter numberFormatter]
+- -[NWMPrecipitationFormatter percentSymbol]
+- -[NWMPrecipitationFormatter percentageFormatter]
+- -[NWMPrecipitationFormatter roundedChanceOfPrecipitation:]
+- -[NWMPrecipitationFormatter setMinimumPercentage:]
+- -[NWMPrecipitationFormatter setNumberFormatter:]
+- -[NWMPrecipitationFormatter setPercentageFormatter:]
+- -[NWMPrecipitationFormatter value:]
+- -[NWMTemperatureColorIndex .cxx_destruct]
+- -[NWMTemperatureColorIndex initWithTemperature:color:]
+- -[NWMTemperatureColorIndex temperature]
+- -[NWMTemperatureFormatter .cxx_destruct]
+- -[NWMTemperatureFormatter _formattedStaleTemperatureWithDegreeSymbol:]
+- -[NWMTemperatureFormatter _formattedStaleTemperatureWithUnit:]
+- -[NWMTemperatureFormatter _formattedStaleTemperatureWithoutUnit:]
+- -[NWMTemperatureFormatter _localeChanged:]
+- -[NWMTemperatureFormatter _measurementForTemperature:]
+- -[NWMTemperatureFormatter _value:]
+- -[NWMTemperatureFormatter dealloc]
+- -[NWMTemperatureFormatter degreeSymbolOnlyFormatter]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithDegreeSymbolRoundedVariant]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithDegreeSymbol]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithUnitRoundedVariant]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithUnit]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithoutUnitRoundedVariant]
+- -[NWMTemperatureFormatter formattedStaleTemperatureWithoutUnit]
+- -[NWMTemperatureFormatter formattedWithDegreeSymbol:fallbackStyle:]
+- -[NWMTemperatureFormatter formattedWithDegreeSymbol:style:fallbackStyle:]
+- -[NWMTemperatureFormatter formattedWithUnit:]
+- -[NWMTemperatureFormatter formattedWithUnit:style:]
+- -[NWMTemperatureFormatter formattedWithoutUnit:]
+- -[NWMTemperatureFormatter formattedWithoutUnit:style:]
+- -[NWMTemperatureFormatter initWithLocale:]
+- -[NWMTemperatureFormatter initWithLocale:temperatureUnit:]
+- -[NWMTemperatureFormatter init]
+- -[NWMTemperatureFormatter isCelsiusPreferred]
+- -[NWMTemperatureFormatter locale]
+- -[NWMTemperatureFormatter noMeasurement]
+- -[NWMTemperatureFormatter noUnitFormatter]
+- -[NWMTemperatureFormatter reloadWithLocale:]
+- -[NWMTemperatureFormatter setAvoidDegreeSymbolOnly:]
+- -[NWMTemperatureFormatter setCelsiusPreferred:]
+- -[NWMTemperatureFormatter setDegreeSymbolOnlyFormatter:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithDegreeSymbol:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithDegreeSymbolRoundedVariant:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithUnit:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithUnitRoundedVariant:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithoutUnit:]
+- -[NWMTemperatureFormatter setFormattedStaleTemperatureWithoutUnitRoundedVariant:]
+- -[NWMTemperatureFormatter setLocale:]
+- -[NWMTemperatureFormatter setNoMeasurement:]
+- -[NWMTemperatureFormatter setNoUnitFormatter:]
+- -[NWMTemperatureFormatter setUnitFormatter:]
+- -[NWMTemperatureFormatter shouldAvoidDegreeSymbolOnly]
+- -[NWMTemperatureFormatter temperatureUnit]
+- -[NWMTemperatureFormatter unitFormatter]
+- -[WFLocation(NWMAirQualityScale) nwm_isAQICountry]
+- -[WFLocation(NWMAirQualityScale) nwm_isAQICountry].cold.1
+- -[WFLocation(NWMAirQualityScale) nwm_isDAQICountry]
+- -[WFLocation(NWMAirQualityScale) nwm_isDAQICountry].cold.1
+- -[WFLocation(NWMAirQualityScale) nwm_isUBACountry]
+- -[WFLocation(NWMAirQualityScale) nwm_isUBACountry].cold.1
+- -[WFNextHourPrecipitation(NWCPrecipitation) conditionsForDate:]
+- -[WFNextHourPrecipitation(NWCPrecipitation) isRelevantForDate:]
+- -[WFTemperature(NWMComparison) nwm_compare:]
+- -[WFTemperature(NWMComparison) nwm_percentageBetweenLow:high:]
+- -[WFWeatherConditions(NWCConditionImage) _nwc_code]
+- -[WFWeatherConditions(NWCConditionImage) nwc_conditionImageForTimeOfDay:withScale:]
+- -[WFWeatherConditions(NWCDate) nwc_date]
+- -[WFWeatherConditions(NWCDate) nwc_expirationDate]
+- -[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexCategoryColor]
+- -[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexCategory]
+- -[WFWeatherConditions(NWCLocalizedUltravioletIndex) nwc_ultravioletIndexRiskDescription]
+- -[WFWeatherConditions(NWCPrecipitation) _code]
+- -[WFWeatherConditions(NWCPrecipitation) isTypeOfPrecipitation]
+- -[WFWeatherConditions(NWCPrecipitation) isTypeOfPrecipitation].cold.1
+- -[WFWeatherConditions(NWCPrecipitation) simplifiedPrecipitationCondition]
+- -[WFWeatherConditions(NWMLocalizedDescription) nw_timeOfDay]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionForTimeOfDay:]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionKeyForTimeOfDay:]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionKey]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionShortForTimeOfDay:]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescriptionShort]
+- -[WFWeatherConditions(NWMLocalizedDescription) nwm_localizedDescription]
+- -[WFWeatherConditions(NWMLocalizedUltravioletIndex) nwm_localizedUltravioletIndexRiskDescription]
+- -[WFWeatherConditions(NWMLocalizedUltravioletIndex) nwm_ultravioletIndexCategory]
+- -[WFWeatherConditions(NWMLocalizedWind) _indexOfWindDirectionKeyForWindDirectionInDegrees:keys:]
+- -[WFWeatherConditions(NWMLocalizedWind) _localizedWindDirectionAbbreviation:]
+- -[WFWeatherConditions(NWMLocalizedWind) _speedByConverting:toUnit:]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindDirectionAbbreviationCompact]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindDirectionAbbreviation]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindDirection]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindspeedWithUnit]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_localizedWindspeedWithoutUnit]
+- -[WFWeatherConditions(NWMLocalizedWind) nwm_windDirectionKey]
+- GCC_except_table20
+- _NSCurrentLocaleDidChangeNotification
+- _NSLocaleCountryCode
+- _NSLocaleLanguageCode
+- _NSLocaleTemperatureUnit
+- _NSLocaleTemperatureUnitCelsius
+- _NSLocaleUsesMetricSystem
+- _NWCDemoAirQualityObservations
+- _NWCDemoChanceRainNowObservations
+- _NWCDemoFiveHourChanceRainHourlyForecastedConditions
+- _NWCDemoFiveHourHourlyForecastedConditions
+- _NWCDemoLocation
+- _NWCDemoNowObservations
+- _NWCDemoSevenDayDailyForecastedConditions
+- _NWCDemoTodayForecastedConditions
+- _NWCExtraLargeScalingFactor.__cachedDevice
+- _NWCExtraLargeScalingFactor.__lock
+- _NWCExtraLargeScalingFactor.__previousCLKDeviceVersion
+- _NWCHighLowFormattedStringFromDailyForecastedConditions
+- _NWCPlaceholderDailyConditionsStartingAtDate
+- _NWCPlaceholderHourlyConditionsStartingAtDate
+- _NWCWFWeatherConditionsDaytimeImages
+- _NWCWFWeatherConditionsNighttimeImages
+- _NWMAirQualityLocalizedString
+- _NWMPrecipitationLocalizedString
+- _NWMUltravioletIndexLocalizedString
+- _NWMUltravioletIndex_MaximumRangeValue
+- _NWMUltravioletIndex_MinimumRangeValue
+- _NWMWindLocalizedString
+- _NWWFWeatherConditionsDescriptionKeys
+- _NanoTimeKitCompanionLibraryCore.frameworkLibrary
+- _OBJC_CLASS_$_CLKDate
+- _OBJC_CLASS_$_NSCharacterSet
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSMeasurement
+- _OBJC_CLASS_$_NSMeasurementFormatter
+- _OBJC_CLASS_$_NSNotificationCenter
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSUnitTemperature
+- _OBJC_CLASS_$_NWCEntryModel
+- _OBJC_CLASS_$_NWMPrecipitationFormatter
+- _OBJC_CLASS_$_NWMTemperatureColor
+- _OBJC_CLASS_$_NWMTemperatureColorIndex
+- _OBJC_CLASS_$_NWMTemperatureFormatter
+- _OBJC_CLASS_$_WFAQIScale
+- _OBJC_CLASS_$_WFAQIScaleCategoryCAQI
+- _OBJC_CLASS_$_WFAQIScaleCategoryDAQI
+- _OBJC_CLASS_$_WFAQIScaleCategoryEPA
+- _OBJC_CLASS_$_WFAQIScaleCategoryUBA
+- _OBJC_CLASS_$_WFAQIScaleGradient
+- _OBJC_CLASS_$_WFAQIScaleGradientStop
+- _OBJC_CLASS_$_WFAirQualityConditions
+- _OBJC_CLASS_$_WFLocation
+- _OBJC_CLASS_$_WFNextHourPrecipitation
+- _OBJC_CLASS_$_WFTemperature
+- _OBJC_CLASS_$_WFWeatherConditions
+- _OBJC_IVAR_$_NWCEntryModel._airQualityConditions
+- _OBJC_IVAR_$_NWCEntryModel._conditions
+- _OBJC_IVAR_$_NWCEntryModel._dailyConditions
+- _OBJC_IVAR_$_NWCEntryModel._hourlyEntryModels
+- _OBJC_IVAR_$_NWCEntryModel._timeOfDay
+- _OBJC_IVAR_$_NWCFiveHourForecastPrecipitationView._formatter
+- _OBJC_IVAR_$_NWCFiveHourForecastTemperatureView._formatter
+- _OBJC_IVAR_$_NWCHourlyForecastView._formatter
+- _OBJC_IVAR_$_NWMPrecipitationFormatter._minimumPercentage
+- _OBJC_IVAR_$_NWMPrecipitationFormatter._numberFormatter
+- _OBJC_IVAR_$_NWMPrecipitationFormatter._percentageFormatter
+- _OBJC_IVAR_$_NWMTemperatureColorIndex._temperature
+- _OBJC_IVAR_$_NWMTemperatureFormatter._avoidDegreeSymbolOnly
+- _OBJC_IVAR_$_NWMTemperatureFormatter._celsiusPreferred
+- _OBJC_IVAR_$_NWMTemperatureFormatter._degreeSymbolOnlyFormatter
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithDegreeSymbol
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithDegreeSymbolRoundedVariant
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithUnit
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithUnitRoundedVariant
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithoutUnit
+- _OBJC_IVAR_$_NWMTemperatureFormatter._formattedStaleTemperatureWithoutUnitRoundedVariant
+- _OBJC_IVAR_$_NWMTemperatureFormatter._locale
+- _OBJC_IVAR_$_NWMTemperatureFormatter._noMeasurement
+- _OBJC_IVAR_$_NWMTemperatureFormatter._noUnitFormatter
+- _OBJC_IVAR_$_NWMTemperatureFormatter._temperatureUnit
+- _OBJC_IVAR_$_NWMTemperatureFormatter._unitFormatter
+- _OBJC_METACLASS_$_NWCEntryModel
+- _OBJC_METACLASS_$_NWMPrecipitationFormatter
+- _OBJC_METACLASS_$_NWMTemperatureColor
+- _OBJC_METACLASS_$_NWMTemperatureColorIndex
+- _OBJC_METACLASS_$_NWMTemperatureFormatter
+- _WFWeatherConditionComponent
+- _WFWeatherForecastDateComponent
+- _WFWeatherForecastExpirationDateComponent
+- _WFWeatherForecastTimeComponent
+- _WFWeatherHighTemperatureComponent
+- _WFWeatherLowTemperatureComponent
+- _WFWeatherPrecipitationChanceComponent
+- _WFWeatherSunriseDateComponent
+- _WFWeatherSunsetDateComponent
+- _WFWeatherTemperatureComponent
+- _WFWeatherUVIndexComponent
+- _WFWeatherWindDirectionComponent
+- _WFWeatherWindSpeedComponent
+- __Block_object_dispose
+- __LayoutConstants
+- __LayoutConstants.__cachedDevice
+- __LayoutConstants.__lock
+- __LayoutConstants.__previousCLKDeviceVersion
+- __LinearGaugeLayoutConstants
+- __LinearGaugeLayoutConstants.__cachedDevice
+- __LinearGaugeLayoutConstants.__lock
+- __LinearGaugeLayoutConstants.__previousCLKDeviceVersion
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSNumberFormatter_$_NWMNumberFormatters
+- __OBJC_$_CATEGORY_CLASS_METHODS_WFAirQualityConditions_$_NWMLocalizedDescription
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WFLocation_$_NWMAirQualityScale
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WFNextHourPrecipitation_$_NWCPrecipitation
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_WFTemperature_$_NWMComparison
+- __OBJC_$_CATEGORY_NSNumberFormatter_$_NWMNumberFormatters
+- __OBJC_$_CATEGORY_WFAirQualityConditions_$_NWMLocalizedDescription
+- __OBJC_$_CATEGORY_WFLocation_$_NWMAirQualityScale
+- __OBJC_$_CATEGORY_WFNextHourPrecipitation_$_NWCPrecipitation
+- __OBJC_$_CATEGORY_WFTemperature_$_NWMComparison
+- __OBJC_$_CATEGORY_WFWeatherConditions_$_NWMLocalizedWind
+- __OBJC_$_CLASS_METHODS_NWCEntryModel
+- __OBJC_$_CLASS_METHODS_NWMPrecipitationFormatter
+- __OBJC_$_CLASS_METHODS_NWMTemperatureColor
+- __OBJC_$_CLASS_METHODS_NWMTemperatureColorIndex
+- __OBJC_$_CLASS_METHODS_NWMTemperatureFormatter
+- __OBJC_$_CLASS_METHODS_WFLocation(NWMAirQualityScale|NWMDisplayName)
+- __OBJC_$_CLASS_METHODS_WFWeatherConditions(NWMLocalizedWind|NWCConditionImage|NWMLocalizedDescription|NWCLocalizedUltravioletIndex|NWCDate|NWCPrecipitation|NWMLocalizedUltravioletIndex)
+- __OBJC_$_CLASS_PROP_LIST_NWCEntryModel
+- __OBJC_$_CLASS_PROP_LIST_NWMColorPalette
+- __OBJC_$_CLASS_PROP_LIST_NWMPrecipitationFormatter
+- __OBJC_$_CLASS_PROP_LIST_NWMTemperatureColor
+- __OBJC_$_CLASS_PROP_LIST_NWMTemperatureColorIndex
+- __OBJC_$_CLASS_PROP_LIST_NWMTemperatureFormatter
+- __OBJC_$_INSTANCE_METHODS_NWCEntryModel
+- __OBJC_$_INSTANCE_METHODS_NWCHourlyForecastPrecipitationView
+- __OBJC_$_INSTANCE_METHODS_NWCHourlyForecastTemperatureView
+- __OBJC_$_INSTANCE_METHODS_NWMPrecipitationFormatter
+- __OBJC_$_INSTANCE_METHODS_NWMTemperatureColorIndex
+- __OBJC_$_INSTANCE_METHODS_NWMTemperatureFormatter
+- __OBJC_$_INSTANCE_METHODS_WFWeatherConditions(NWMLocalizedWind|NWCConditionImage|NWMLocalizedDescription|NWCLocalizedUltravioletIndex|NWCDate|NWCPrecipitation|NWMLocalizedUltravioletIndex)
+- __OBJC_$_INSTANCE_VARIABLES_NWCEntryModel
+- __OBJC_$_INSTANCE_VARIABLES_NWCFiveHourForecastPrecipitationView
+- __OBJC_$_INSTANCE_VARIABLES_NWCFiveHourForecastTemperatureView
+- __OBJC_$_INSTANCE_VARIABLES_NWMPrecipitationFormatter
+- __OBJC_$_INSTANCE_VARIABLES_NWMTemperatureColorIndex
+- __OBJC_$_INSTANCE_VARIABLES_NWMTemperatureFormatter
+- __OBJC_$_PROP_LIST_NWCEntryModel
+- __OBJC_$_PROP_LIST_NWCFiveHourForecastPrecipitationView
+- __OBJC_$_PROP_LIST_NWCFiveHourForecastTemperatureView
+- __OBJC_$_PROP_LIST_NWMPrecipitationFormatter
+- __OBJC_$_PROP_LIST_NWMTemperatureColor
+- __OBJC_$_PROP_LIST_NWMTemperatureColorIndex
+- __OBJC_$_PROP_LIST_NWMTemperatureFormatter
+- __OBJC_$_PROP_LIST_WFLocation_$_NWMAirQualityScale
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NWMColorPalette
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NWMColorPalette
+- __OBJC_$_PROTOCOL_REFS_NWMColorPalette
+- __OBJC_$_PROTOCOL_REFS_NWMDataFormatter
+- __OBJC_CLASS_PROTOCOLS_$_NWCEntryModel
+- __OBJC_CLASS_PROTOCOLS_$_NWMPrecipitationFormatter
+- __OBJC_CLASS_PROTOCOLS_$_NWMTemperatureColor
+- __OBJC_CLASS_PROTOCOLS_$_NWMTemperatureColorIndex
+- __OBJC_CLASS_PROTOCOLS_$_NWMTemperatureFormatter
+- __OBJC_CLASS_RO_$_NWCEntryModel
+- __OBJC_CLASS_RO_$_NWMPrecipitationFormatter
+- __OBJC_CLASS_RO_$_NWMTemperatureColor
+- __OBJC_CLASS_RO_$_NWMTemperatureColorIndex
+- __OBJC_CLASS_RO_$_NWMTemperatureFormatter
+- __OBJC_LABEL_PROTOCOL_$_NWMColorPalette
+- __OBJC_LABEL_PROTOCOL_$_NWMDataFormatter
+- __OBJC_METACLASS_RO_$_NWCEntryModel
+- __OBJC_METACLASS_RO_$_NWMPrecipitationFormatter
+- __OBJC_METACLASS_RO_$_NWMTemperatureColor
+- __OBJC_METACLASS_RO_$_NWMTemperatureColorIndex
+- __OBJC_METACLASS_RO_$_NWMTemperatureFormatter
+- __OBJC_PROTOCOL_$_NWMColorPalette
+- __OBJC_PROTOCOL_$_NWMDataFormatter
+- __Unwind_Resume
+- ___38+[NWMTemperatureColorIndex allIndices]_block_invoke
+- ___44+[NWMPrecipitationFormatter sharedFormatter]_block_invoke
+- ___50-[WFLocation(NWMAirQualityScale) nwm_isAQICountry]_block_invoke
+- ___50-[WFLocation(NWMAirQualityScale) nwm_isUBACountry]_block_invoke
+- ___51-[WFLocation(NWMAirQualityScale) nwm_isDAQICountry]_block_invoke
+- ___54+[NWMTemperatureFormatter autoupdatingSharedFormatter]_block_invoke
+- ___62-[WFWeatherConditions(NWCPrecipitation) isTypeOfPrecipitation]_block_invoke
+- ___67-[NWCSevenDayForecastUltravioletIndexView processSimpleEntryModel:]_block_invoke_2
+- ___72-[NWCFiveHourForecastView processHourlyForecastEntryModels:forTimeZone:]_block_invoke
+- ___80+[WFWeatherConditions(NWMLocalizedWind) _localizedWindspeed:withUnit:forLocale:]_block_invoke
+- ___96-[NWCSevenDayForecastUltravioletIndexView processConditions:dailyForecastedConditions:timeZone:]_block_invoke
+- ___96-[NWCSevenDayForecastUltravioletIndexView processConditions:dailyForecastedConditions:timeZone:]_block_invoke_2
+- ___NSArray0__struct
+- ___NanoTimeKitCompanionLibraryCore_block_invoke
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_48_e8_32s40s_e30_v32?0"NWCEntryModel"8Q16^B24ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56s_e37_v32?0"NWCDailyForecastView"8Q16^B24ls32l8s40l8s48l8s56l8
+- ___block_literal_global.10
+- ___block_literal_global.11
+- ___block_literal_global.12
+- ___block_literal_global.134
+- ___block_literal_global.17
+- ___getNTKOverrideTextProviderClass_block_invoke
+- ___getNTKOverrideTextProviderClass_block_invoke.cold.1
+- ___objc_personality_v0
+- __localizedWindspeed:withUnit:forLocale:.NonDecimalDigitCharacterSet
+- __localizedWindspeed:withUnit:forLocale:.onceToken
+- __preferredWindSpeedUnitForLocale:.MPSCountries
+- __sl_dlopen
+- _abort_report_np
+- _audit_stringNanoTimeKitCompanion
+- _autoupdatingSharedFormatter.SharedFormatter
+- _autoupdatingSharedFormatter.onceToken
+- _colorSpectrum.ColorSpectrum
+- _free
+- _getNTKOverrideTextProviderClass.softClass
+- _isTypeOfPrecipitation.PrecipitationConditions
+- _isTypeOfPrecipitation.onceToken
+- _nwm_isAQICountry.AQICountries
+- _nwm_isAQICountry.onceToken
+- _nwm_isDAQICountry.DAQICountries
+- _nwm_isDAQICountry.onceToken
+- _nwm_isUBACountry.UBACountries
+- _nwm_isUBACountry.onceToken
+- _nwm_windDirectionKey.DirectionKeys
+- _objc_getClass
+- _objc_msgSend$_code
+- _objc_msgSend$_defaultWindSpeedWithUnit:
+- _objc_msgSend$_formattedStaleTemperatureWithDegreeSymbol:
+- _objc_msgSend$_formattedStaleTemperatureWithUnit:
+- _objc_msgSend$_formattedStaleTemperatureWithoutUnit:
+- _objc_msgSend$_indexOfWindDirectionKeyForWindDirectionInDegrees:keys:
+- _objc_msgSend$_localizedWindDirectionAbbreviation:
+- _objc_msgSend$_localizedWindspeed:withUnit:forLocale:
+- _objc_msgSend$_measurementForTemperature:
+- _objc_msgSend$_nwm_attributedDisplayName:prefixedWithLocationGlyph:
+- _objc_msgSend$_nwm_descriptionForAirQualityConditions:atLocation:withExtension:
+- _objc_msgSend$_nwm_shortSuffixedKey:
+- _objc_msgSend$_nwm_v2AirQualityConditionsDescriptionKeyForCategory:atLocation:
+- _objc_msgSend$_preferredWindSpeedUnitForLocale:
+- _objc_msgSend$_speedByConverting:toUnit:
+- _objc_msgSend$addObserver:selector:name:object:
+- _objc_msgSend$airQualityConditions
+- _objc_msgSend$applyEntryModel:date:timeZone:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithObject:
+- _objc_msgSend$autoupdatingSharedFormatter
+- _objc_msgSend$boolValue
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$category
+- _objc_msgSend$categoryName
+- _objc_msgSend$celsius
+- _objc_msgSend$color
+- _objc_msgSend$colorForTemperature:
+- _objc_msgSend$complicationDate
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$componentsSeparatedByCharactersInSet:
+- _objc_msgSend$componentsSeparatedByString:
+- _objc_msgSend$conditions
+- _objc_msgSend$countryAbbreviation
+- _objc_msgSend$currentScaleCategory
+- _objc_msgSend$dailyConditions
+- _objc_msgSend$dataFormatter
+- _objc_msgSend$day
+- _objc_msgSend$decimalDigitCharacterSet
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$decodeObjectOfClasses:forKey:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$degreeSymbolOnlyFormatter
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$fahrenheit
+- _objc_msgSend$floatValue
+- _objc_msgSend$formattedChanceOfPrecipitation:style:shouldIncludePercentSymbol:
+- _objc_msgSend$formattedChanceOfPrecipitationChance:style:shouldIncludePercentSymbol:
+- _objc_msgSend$formattedStaleTemperatureWithDegreeSymbol
+- _objc_msgSend$formattedStaleTemperatureWithDegreeSymbolRoundedVariant
+- _objc_msgSend$formattedStaleTemperatureWithUnit
+- _objc_msgSend$formattedStaleTemperatureWithUnitRoundedVariant
+- _objc_msgSend$formattedStaleTemperatureWithoutUnit
+- _objc_msgSend$formattedStaleTemperatureWithoutUnitRoundedVariant
+- _objc_msgSend$formattedWithDegreeSymbol:fallbackStyle:
+- _objc_msgSend$formattedWithDegreeSymbol:style:fallbackStyle:
+- _objc_msgSend$formattedWithUnit:
+- _objc_msgSend$formattedWithUnit:style:
+- _objc_msgSend$formattedWithoutUnit:
+- _objc_msgSend$formattedWithoutUnit:style:
+- _objc_msgSend$formatter
+- _objc_msgSend$image
+- _objc_msgSend$indexWithTemperature:color:
+- _objc_msgSend$initWithCategoryIndex:localizedCategoryDescription:
+- _objc_msgSend$initWithConditions:airQualityConditions:hourlyEntryModels:dailyConditions:timeOfDay:
+- _objc_msgSend$initWithDoubleValue:unit:
+- _objc_msgSend$initWithLocale:
+- _objc_msgSend$initWithLocale:temperatureUnit:
+- _objc_msgSend$initWithLocation:color:
+- _objc_msgSend$initWithStops:
+- _objc_msgSend$initWithTemperature:color:
+- _objc_msgSend$initWithTemperatureUnit:value:
+- _objc_msgSend$integerValue
+- _objc_msgSend$invertedSet
+- _objc_msgSend$isCelsiusPreferred
+- _objc_msgSend$isDate:inSameDayAsDate:
+- _objc_msgSend$isNightForecast
+- _objc_msgSend$kelvin
+- _objc_msgSend$lastObject
+- _objc_msgSend$locale
+- _objc_msgSend$localeIdentifier
+- _objc_msgSend$minimumPercentage
+- _objc_msgSend$noMeasurement
+- _objc_msgSend$noUnitFormatter
+- _objc_msgSend$numberFormatter
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$nw_timeOfDay
+- _objc_msgSend$nwc_conditionImageForTimeOfDay:withScale:
+- _objc_msgSend$nwc_date
+- _objc_msgSend$nwc_ultravioletIndexCategoryColor
+- _objc_msgSend$nwc_ultravioletIndexCategoryColorForNumber:
+- _objc_msgSend$nwm_attributedDisplayNameWithLocationGlyph:inFont:
+- _objc_msgSend$nwm_compare:
+- _objc_msgSend$nwm_isAQICountry
+- _objc_msgSend$nwm_isDAQICountry
+- _objc_msgSend$nwm_isUBACountry
+- _objc_msgSend$nwm_localizedDescriptionKey
+- _objc_msgSend$nwm_localizedDescriptionKeyForConditionCode:timeOfDay:
+- _objc_msgSend$nwm_localizedDescriptionKeyForTimeOfDay:
+- _objc_msgSend$nwm_localizedDescriptionShortKeyForConditionCode:timeOfDay:
+- _objc_msgSend$nwm_localizedNoDataRounded
+- _objc_msgSend$nwm_localizedUltravioletIndexRiskDescription
+- _objc_msgSend$nwm_localizedWindDirectionAbbreviationCompact
+- _objc_msgSend$nwm_localizedWindspeedWithUnit
+- _objc_msgSend$nwm_localizedWindspeedWithoutUnit
+- _objc_msgSend$nwm_percentageBetweenLow:high:
+- _objc_msgSend$nwm_ultravioletIndexCategory
+- _objc_msgSend$nwm_windDirectionKey
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$percentSymbol
+- _objc_msgSend$percentageFormatter
+- _objc_msgSend$processConditions:dailyForecastedConditions:timeZone:
+- _objc_msgSend$processHourlyForecastEntryModels:forTimeZone:
+- _objc_msgSend$reloadWithLocale:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$roundedChanceOfPrecipitation:
+- _objc_msgSend$setAvoidDegreeSymbolOnly:
+- _objc_msgSend$setCelsiusPreferred:
+- _objc_msgSend$setCountryAbbreviation:
+- _objc_msgSend$setCurrentScaleCategory:
+- _objc_msgSend$setDay:
+- _objc_msgSend$setDegreeSymbolOnlyFormatter:
+- _objc_msgSend$setDisplayName:
+- _objc_msgSend$setFormattedStaleTemperatureWithDegreeSymbol:
+- _objc_msgSend$setFormattedStaleTemperatureWithDegreeSymbolRoundedVariant:
+- _objc_msgSend$setFormattedStaleTemperatureWithUnit:
+- _objc_msgSend$setFormattedStaleTemperatureWithUnitRoundedVariant:
+- _objc_msgSend$setFormattedStaleTemperatureWithoutUnit:
+- _objc_msgSend$setFormattedStaleTemperatureWithoutUnitRoundedVariant:
+- _objc_msgSend$setFormatter:
+- _objc_msgSend$setGradient:
+- _objc_msgSend$setLocalizedAirQualityIndex:
+- _objc_msgSend$setNilSymbol:
+- _objc_msgSend$setNoUnitFormatter:
+- _objc_msgSend$setNotANumberSymbol:
+- _objc_msgSend$setNumberFormatter:
+- _objc_msgSend$setNumberStyle:
+- _objc_msgSend$setNumerical:
+- _objc_msgSend$setPercentSymbol:
+- _objc_msgSend$setRange:
+- _objc_msgSend$setScale:
+- _objc_msgSend$setUnitFormatter:
+- _objc_msgSend$setUnitOptions:
+- _objc_msgSend$shouldAvoidDegreeSymbolOnly
+- _objc_msgSend$spectrum
+- _objc_msgSend$stringByAppendingString:
+- _objc_msgSend$stringByTrimmingCharactersInSet:
+- _objc_msgSend$stringFromMeasurement:
+- _objc_msgSend$stringWithCString:encoding:
+- _objc_msgSend$systemTimeZone
+- _objc_msgSend$temperature
+- _objc_msgSend$temperatureUnit
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$timeOfDay
+- _objc_msgSend$topLabelTextFromConditions:
+- _objc_msgSend$type
+- _objc_msgSend$unitFormatter
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$uppercaseString
+- _objc_msgSend$validUntil
+- _objc_msgSend$valueForComponent:
+- _objc_msgSend$whitespaceCharacterSet
+- _objc_opt_isKindOfClass
+- _objc_retainAutorelease
+- _objc_retainAutoreleasedReturnValue
+- _objc_setProperty_atomic
+- _processConditions:dailyForecastedConditions:timeZone:.RangeFormatter
+- _processConditions:dailyForecastedConditions:timeZone:.WeekdayFormatter
+- _processConditions:dailyForecastedConditions:timeZone:.onceToken
+- _sharedFormatter.SharedFormatter
+- _sharedFormatter.onceToken
+- _u_strToUTF8
+- _uameasfmt_close
+- _uameasfmt_format
+- _uameasfmt_open
+CStrings:
++ "/System/Library/PrivateFrameworks/NanoTimeKit.framework/NanoTimeKit"
++ "NWCLocationDisplayName"
++ "_attributedDisplayName:prefixedWithLocationGlyph:"
++ "attributedDisplayNameWithLocationGlyph:inFont:"
++ "attributedDisplayNameWithLocationGlyph:withTextStyle:"
++ "colorForNumber:"
+- "#34C759"
+- "#75212D"
+- "#9C08B8"
+- "#AA00FF"
+- "#FF2D55"
+- "#FF9500"
+- "#FFCC00"
+- "%.0f %@"
+- "%@ %@"
+- "%@_COMPACT"
+- "%@_LONG"
+- "%s"
+- "-Day"
+- "-Night"
+- "-Short"
+- "@\"<NWMDataFormatter>\""
+- "@\"NSLocale\""
+- "@\"NSMeasurement\""
+- "@\"NSMeasurementFormatter\""
+- "@\"NSNumber\""
+- "@\"NSNumberFormatter\""
+- "@\"NWMPrecipitationFormatter\""
+- "@\"NWMTemperatureFormatter\""
+- "@\"WFAirQualityConditions\""
+- "@\"WFTemperature\""
+- "@\"WFWeatherConditions\""
+- "@20@0:8B16"
+- "@24@0:8Q16"
+- "@28@0:8@16B24"
+- "@28@0:8@16i24"
+- "@32@0:8@16Q24"
+- "@32@0:8Q16@24"
+- "@32@0:8Q16Q24"
+- "@32@0:8Q16q24"
+- "@36@0:8@16Q24B32"
+- "@36@0:8d16i24@28"
+- "@40@0:8@16@24@32"
+- "@40@0:8@16@24Q32"
+- "@40@0:8@16Q24Q32"
+- "@48@0:8@16@24@32Q40"
+- "@56@0:8@16@24@32@40Q48"
+- "AIR_POLLUTION"
+- "AIR_QUALITY"
+- "AirQuality"
+- "AirQualityBad"
+- "AirQualityGood"
+- "AirQualityHazardous"
+- "AirQualityHigh"
+- "AirQualityLow"
+- "AirQualityModerate"
+- "AirQualityUnhealthy"
+- "AirQualityUnhealthyForSensitiveGroups"
+- "AirQualityUnknown"
+- "AirQualityVeryBad"
+- "AirQualityVeryGood"
+- "AirQualityVeryHigh"
+- "AirQualityVeryUnhealthy"
+- "BlowingSnow"
+- "Blustery"
+- "CN"
+- "COMPANION_DEMO_AIR_QUALITY_CATEGORY_DESCRIPTION"
+- "COMPANION_DEMO_AIR_QUALITY_INDEX"
+- "COMPANION_DEMO_AIR_QUALITY_SCALE"
+- "Clear"
+- "Cloudy"
+- "Cold"
+- "DAQI"
+- "DE"
+- "DEFAULT_WINDSPEED_UNIT"
+- "DEMO_LOCATION_DISPLAY_NAME"
+- "DK"
+- "Drizzle"
+- "Dust"
+- "E"
+- "ENE"
+- "ESE"
+- "FI"
+- "Fair"
+- "Foggy"
+- "FreezingDrizzle"
+- "FreezingRain"
+- "GB"
+- "Hail"
+- "Haze"
+- "HeavySnow"
+- "Hot"
+- "Hurricane"
+- "IN"
+- "IsolatedThundershowers"
+- "IsolatedThunderstorms"
+- "JP"
+- "KR"
+- "MX"
+- "MixedRainAndHail"
+- "MixedRainAndSleet"
+- "MixedRainAndSnow"
+- "MixedSnowAndSleet"
+- "MostlyCloudy"
+- "N"
+- "NE"
+- "NNE"
+- "NNW"
+- "NO"
+- "NO_DATA"
+- "NTKOverrideTextProvider"
+- "NW"
+- "NWCConditionImage"
+- "NWCDate"
+- "NWCEntryModel"
+- "NWCLocalizedUltravioletIndex"
+- "NWCPrecipitation"
+- "NWMAirQualityScale"
+- "NWMColorPalette"
+- "NWMComparison"
+- "NWMDataFormatter"
+- "NWMDisplayName"
+- "NWMLocalizedDescription"
+- "NWMLocalizedUltravioletIndex"
+- "NWMLocalizedWind"
+- "NWMNumberFormatters"
+- "NWMPrecipitationFormatter"
+- "NWMTemperatureColor"
+- "NWMTemperatureColorIndex"
+- "NWMTemperatureFormatter"
+- "NotAvailable"
+- "PartlyCloudy"
+- "Q32@0:8d16@24"
+- "RU"
+- "S"
+- "SE"
+- "SSE"
+- "SSW"
+- "SW"
+- "ScatteredShowers"
+- "ScatteredSnowShowers"
+- "ScatteredThunderstorms"
+- "SevereThunderstorms"
+- "Showers"
+- "Sleet"
+- "Smoky"
+- "Snow"
+- "SnowFlurries"
+- "SnowShowers"
+- "Subclasses are expected to override %@ with a valid NWMDataFormatter."
+- "Subclasses should override %@."
+- "T@\"<NWMDataFormatter>\",R,N"
+- "T@\"<NWMDataFormatter>\",W,N,V_formatter"
+- "T@\"NSDate\",R,N"
+- "T@\"NSLocale\",&,V_locale"
+- "T@\"NSMeasurement\",&,N,V_noMeasurement"
+- "T@\"NSMeasurementFormatter\",&,N,V_degreeSymbolOnlyFormatter"
+- "T@\"NSMeasurementFormatter\",&,N,V_unitFormatter"
+- "T@\"NSNumber\",&,N,V_minimumPercentage"
+- "T@\"NSNumberFormatter\",&,N,V_noUnitFormatter"
+- "T@\"NSNumberFormatter\",&,N,V_numberFormatter"
+- "T@\"NSNumberFormatter\",&,N,V_percentageFormatter"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithDegreeSymbol"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithDegreeSymbolRoundedVariant"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithUnit"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithUnitRoundedVariant"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithoutUnit"
+- "T@\"NSString\",&,N,V_formattedStaleTemperatureWithoutUnitRoundedVariant"
+- "T@\"NSString\",R,N"
+- "T@\"NWMPrecipitationFormatter\",&,N,V_formatter"
+- "T@\"NWMPrecipitationFormatter\",R"
+- "T@\"NWMTemperatureFormatter\",&,N,V_formatter"
+- "T@\"NWMTemperatureFormatter\",R"
+- "T@\"NWMTemperatureFormatter\",R,C"
+- "T@\"WFAirQualityConditions\",R,V_airQualityConditions"
+- "T@\"WFTemperature\",R,N,V_temperature"
+- "T@\"WFWeatherConditions\",R,V_conditions"
+- "T@\"WFWeatherConditions\",R,V_dailyConditions"
+- "TB,GisCelsiusPreferred,V_celsiusPreferred"
+- "TB,GshouldAvoidDegreeSymbolOnly,V_avoidDegreeSymbolOnly"
+- "TB,R,N"
+- "TB,R,N,GisTypeOfPrecipitation"
+- "TEMPERATURE_UNKNOWN_NODEGREES"
+- "TEMPERATURE_UNKNOWN_NODEGREES_ALWAYS_LTR"
+- "TEMPERATURE_UNKNOWN_NODEGREES_ALWAYS_LTR_ROUNDED"
+- "TEMPERATURE_UNKNOWN_NODEGREES_ROUNDED"
+- "TQ,R,N"
+- "TQ,R,V_timeOfDay"
+- "TW"
+- "Temperature"
+- "Thunderstorms"
+- "Ti,R,N,V_temperatureUnit"
+- "Tornado"
+- "TropicalStorm"
+- "UA"
+- "UBA"
+- "US"
+- "UV_INDEX_EXTREME"
+- "UV_INDEX_HIGH"
+- "UV_INDEX_LOW"
+- "UV_INDEX_MODERATE"
+- "UV_INDEX_UNKNOWN"
+- "UV_INDEX_VERY_HIGH"
+- "UltravioletIndex"
+- "Unable to find class %s"
+- "W"
+- "WNW"
+- "WSW"
+- "Wind"
+- "Windy"
+- "_airQualityConditions"
+- "_avoidDegreeSymbolOnly"
+- "_celsiusPreferred"
+- "_code"
+- "_conditions"
+- "_dailyConditions"
+- "_defaultWindSpeedWithUnit:"
+- "_degreeSymbolOnlyFormatter"
+- "_formattedStaleTemperatureWithDegreeSymbol"
+- "_formattedStaleTemperatureWithDegreeSymbol:"
+- "_formattedStaleTemperatureWithDegreeSymbolRoundedVariant"
+- "_formattedStaleTemperatureWithUnit"
+- "_formattedStaleTemperatureWithUnit:"
+- "_formattedStaleTemperatureWithUnitRoundedVariant"
+- "_formattedStaleTemperatureWithoutUnit"
+- "_formattedStaleTemperatureWithoutUnit:"
+- "_formattedStaleTemperatureWithoutUnitRoundedVariant"
+- "_formatter"
+- "_indexOfWindDirectionKeyForWindDirectionInDegrees:keys:"
+- "_locale"
+- "_localeChanged:"
+- "_localizedWindDirectionAbbreviation:"
+- "_localizedWindspeed:withUnit:forLocale:"
+- "_measurementForTemperature:"
+- "_minimumPercentage"
+- "_noMeasurement"
+- "_noUnitFormatter"
+- "_numberFormatter"
+- "_nwc_code"
+- "_nwm_attributedDisplayName:prefixedWithLocationGlyph:"
+- "_nwm_descriptionForAirQualityConditions:atLocation:withExtension:"
+- "_nwm_shortSuffixedKey:"
+- "_nwm_v2AirQualityConditionsDescriptionKeyForCategory:atLocation:"
+- "_percentageFormatter"
+- "_preferredWindSpeedUnitForLocale:"
+- "_speedByConverting:toUnit:"
+- "_temperature"
+- "_temperatureUnit"
+- "_timeOfDay"
+- "_unitFormatter"
+- "_value:"
+- "addObserver:selector:name:object:"
+- "airQualityConditions"
+- "array"
+- "arrayWithObject:"
+- "autoupdatingFormatter"
+- "autoupdatingSharedFormatter"
+- "avoidDegreeSymbolOnly"
+- "boolValue"
+- "cStringUsingEncoding:"
+- "category"
+- "categoryName"
+- "celsius"
+- "celsiusPreferred"
+- "cloud.bolt.fill"
+- "cloud.drizzle.fill"
+- "cloud.fill"
+- "cloud.fog.fill"
+- "cloud.hail.fill"
+- "cloud.moon.fill"
+- "cloud.rain.fill"
+- "cloud.sleet.fill"
+- "cloud.snow.fill"
+- "cloud.sun.fill"
+- "colorForTemperature:"
+- "colorSpectrum"
+- "colorSpectrumBetweenLow:high:handler:"
+- "complicationDate"
+- "componentsJoinedByString:"
+- "componentsSeparatedByCharactersInSet:"
+- "componentsSeparatedByString:"
+- "conditions"
+- "conditionsForDate:"
+- "countryAbbreviation"
+- "currentScaleCategory"
+- "d24@0:8@16"
+- "d28@0:8d16i24"
+- "d32@0:8@16@24"
+- "dailyConditions"
+- "dataFormatter"
+- "day"
+- "dealloc"
+- "decimalDigitCharacterSet"
+- "decodeIntegerForKey:"
+- "decodeObjectOfClasses:forKey:"
+- "defaultCenter"
+- "degreeSymbolOnlyFormatter"
+- "en_GB"
+- "encodeInteger:forKey:"
+- "fahrenheit"
+- "floatValue"
+- "formattedChanceOfPrecipitation:shouldIncludePercentSymbol:"
+- "formattedChanceOfPrecipitation:style:shouldIncludePercentSymbol:"
+- "formattedChanceOfPrecipitationChance:style:shouldIncludePercentSymbol:"
+- "formattedStaleTemperatureWithDegreeSymbol"
+- "formattedStaleTemperatureWithDegreeSymbolRoundedVariant"
+- "formattedStaleTemperatureWithUnit"
+- "formattedStaleTemperatureWithUnitRoundedVariant"
+- "formattedStaleTemperatureWithoutUnit"
+- "formattedStaleTemperatureWithoutUnitRoundedVariant"
+- "formattedWithDegreeSymbol:fallbackStyle:"
+- "formattedWithDegreeSymbol:style:fallbackStyle:"
+- "formattedWithUnit:"
+- "formattedWithUnit:style:"
+- "formattedWithoutUnit:"
+- "formattedWithoutUnit:style:"
+- "formatter"
+- "hurricane"
+- "i16@0:8"
+- "i24@0:8@16"
+- "image"
+- "indexWithTemperature:color:"
+- "initWithCategoryIndex:localizedCategoryDescription:"
+- "initWithConditions:airQualityConditions:dailyConditions:timeOfDay:"
+- "initWithConditions:airQualityConditions:hourlyEntryModels:dailyConditions:timeOfDay:"
+- "initWithConditions:dailyConditions:timeOfDay:"
+- "initWithConditions:hourlyEntryModels:dailyConditions:timeOfDay:"
+- "initWithConditions:hourlyEntryModels:timeOfDay:"
+- "initWithConditions:timeOfDay:"
+- "initWithDoubleValue:unit:"
+- "initWithLocale:"
+- "initWithLocale:temperatureUnit:"
+- "initWithLocation:color:"
+- "initWithStops:"
+- "initWithTemperature:color:"
+- "initWithTemperatureUnit:value:"
+- "integerValue"
+- "invertedSet"
+- "isCelsiusPreferred"
+- "isDate:inSameDayAsDate:"
+- "isNightForecast"
+- "isRelevantForDate:"
+- "isTypeOfPrecipitation"
+- "kelvin"
+- "lastObject"
+- "locale"
+- "localeIdentifier"
+- "minimumPercentage"
+- "moon.stars.fill"
+- "no-report"
+- "noMeasurement"
+- "noUnitFormatter"
+- "numberFormatter"
+- "numberWithDouble:"
+- "numberWithUnsignedInteger:"
+- "nw_timeOfDay"
+- "nwc_conditionImageForTimeOfDay:withScale:"
+- "nwc_date"
+- "nwc_expirationDate"
+- "nwc_ultravioletIndexCategory"
+- "nwc_ultravioletIndexCategoryColor"
+- "nwc_ultravioletIndexCategoryColorForNumber:"
+- "nwc_ultravioletIndexCategoryColorSpectrum"
+- "nwc_ultravioletIndexCategoryColorUnknown"
+- "nwc_ultravioletIndexRiskDescription"
+- "nwm_airQualityIndexNumberFormatter"
+- "nwm_attributedDisplayNameWithLocationGlyph:inFont:"
+- "nwm_attributedDisplayNameWithLocationGlyph:withTextStyle:"
+- "nwm_compare:"
+- "nwm_isAQICountry"
+- "nwm_isDAQICountry"
+- "nwm_isUBACountry"
+- "nwm_localizedDescription"
+- "nwm_localizedDescriptionForConditionCode:timeOfDay:"
+- "nwm_localizedDescriptionForTimeOfDay:"
+- "nwm_localizedDescriptionKey"
+- "nwm_localizedDescriptionKeyForConditionCode:timeOfDay:"
+- "nwm_localizedDescriptionKeyForTimeOfDay:"
+- "nwm_localizedDescriptionShort"
+- "nwm_localizedDescriptionShortForConditionCode:timeOfDay:"
+- "nwm_localizedDescriptionShortForTimeOfDay:"
+- "nwm_localizedDescriptionShortKeyForConditionCode:timeOfDay:"
+- "nwm_localizedNoData"
+- "nwm_localizedNoDataRounded"
+- "nwm_localizedUltravioletIndexRiskDescription"
+- "nwm_localizedWindDirection"
+- "nwm_localizedWindDirectionAbbreviation"
+- "nwm_localizedWindDirectionAbbreviationCompact"
+- "nwm_localizedWindpeedUnit"
+- "nwm_localizedWindspeedWithUnit"
+- "nwm_localizedWindspeedWithoutUnit"
+- "nwm_longDescriptionForAirQualityConditions:atLocation:"
+- "nwm_percentageBetweenLow:high:"
+- "nwm_shortDescriptionForAirQualityConditions:atLocation:"
+- "nwm_titleForAirQualityConditions:atLocation:"
+- "nwm_ultravioletIndexCategory"
+- "nwm_ultravioletIndexNumberFormatter"
+- "nwm_windDirectionKey"
+- "objectForKey:"
+- "percentSymbol"
+- "percentageFormatter"
+- "processConditions:dailyForecastedConditions:timeZone:"
+- "processHourlyForecastEntryModels:forTimeZone:"
+- "q"
+- "q24@0:8@16"
+- "reloadWithLocale:"
+- "removeObserver:"
+- "roundedChanceOfPrecipitation:"
+- "setAvoidDegreeSymbolOnly:"
+- "setCelsiusPreferred:"
+- "setCountryAbbreviation:"
+- "setCurrentScaleCategory:"
+- "setDay:"
+- "setDegreeSymbolOnlyFormatter:"
+- "setDisplayName:"
+- "setFormattedStaleTemperatureWithDegreeSymbol:"
+- "setFormattedStaleTemperatureWithDegreeSymbolRoundedVariant:"
+- "setFormattedStaleTemperatureWithUnit:"
+- "setFormattedStaleTemperatureWithUnitRoundedVariant:"
+- "setFormattedStaleTemperatureWithoutUnit:"
+- "setFormattedStaleTemperatureWithoutUnitRoundedVariant:"
+- "setFormatter:"
+- "setGradient:"
+- "setLocalizedAirQualityIndex:"
+- "setMinimumPercentage:"
+- "setNilSymbol:"
+- "setNoMeasurement:"
+- "setNoUnitFormatter:"
+- "setNotANumberSymbol:"
+- "setNumberFormatter:"
+- "setNumberStyle:"
+- "setNumerical:"
+- "setPercentSymbol:"
+- "setPercentageFormatter:"
+- "setRange:"
+- "setScale:"
+- "setUnitFormatter:"
+- "setUnitOptions:"
+- "sharedFormatter"
+- "shouldAvoidDegreeSymbolOnly"
+- "simplifiedPrecipitationCondition"
+- "smoke.fill"
+- "snowflake"
+- "softlink:r:path:/System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/NanoTimeKitCompanion"
+- "stringByAppendingString:"
+- "stringByTrimmingCharactersInSet:"
+- "stringFromMeasurement:"
+- "stringWithCString:encoding:"
+- "sun.dust.fill"
+- "sun.haze.fill"
+- "sun.max.fill"
+- "systemTimeZone"
+- "temperature"
+- "temperatureUnit"
+- "thermometer.snowflake"
+- "thermometer.sun.fill"
+- "timeIntervalSinceDate:"
+- "timeIntervalSinceReferenceDate"
+- "timeOfDay"
+- "topLabelTextFromConditions:"
+- "tornado"
+- "tropicalstorm"
+- "type"
+- "typeOfPrecipitation"
+- "unitFormatter"
+- "unsignedIntegerValue"
+- "uppercaseString"
+- "v20@0:8B16"
+- "v32@?0@\"NWCEntryModel\"8Q16^B24"
+- "v40@0:8@16@24@?32"
+- "validUntil"
+- "value:"
+- "valueForComponent:"
+- "whitespaceCharacterSet"
+- "wind"
+- "wind.snow"
+
+```

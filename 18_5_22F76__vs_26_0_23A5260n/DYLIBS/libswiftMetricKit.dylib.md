@@ -1,0 +1,83 @@
+## libswiftMetricKit.dylib
+
+> `/usr/lib/swift/libswiftMetricKit.dylib`
+
+```diff
+
+-6.0.0.0.0
+-  __TEXT.__text: 0xb30
++7.0.0.0.0
++  __TEXT.__text: 0xe40
+   __TEXT.__auth_stubs: 0x130
+   __TEXT.__const: 0x2
+-  __TEXT.__unwind_info: 0xa0
++  __TEXT.__unwind_info: 0x78
+   __DATA_CONST.__got: 0x8
+-  __DATA_CONST.__const: 0x78
++  __DATA_CONST.__const: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0x98
+   __DATA.__data: 0x8
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: AA127BDE-D591-359E-A913-50D1CA25CD89
+-  Functions: 16
+-  Symbols:   90
++  UUID: 84F6D671-FDCB-3BCF-9F73-4A0900F357EE
++  Functions: 8
++  Symbols:   72
+   CStrings:  0
+ 
+Symbols:
++ _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yATXEfU_yAWXEfU_ys14CVaListPointerVXEfU_TA.1
++ _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yATXEfU_yAWXEfU_ys14CVaListPointerVXEfU_TA.3
++ _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yATXEfU_yAWXEfU_ys14CVaListPointerVXEfU_TATm
++ _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_yAUXEfU_ys14CVaListPointerVXEfU_TA.4
++ _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_yAUXEfU_ys14CVaListPointerVXEfU_TA.5
++ _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_yAUXEfU_ys14CVaListPointerVXEfU_TA.6
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_MetricKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_MetricKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_MetricKit
+- _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_TA
+- _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_TATm
+- _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_Tm
+- _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yATXEfU_TA
+- _$s9MetricKit10mxSignpost_3dso3log4name10signpostID__ySo03os_H7_type_ta_SVSo03OS_j1_F0Cs12StaticStringV0J0010OSSignpostI0VALSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yATXEfU_Tm
+- _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_TA
+- _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_TA
+- _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_TATm
+- _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_yAUXEfU_ys14CVaListPointerVXEfU_TA.1
+- _$s9MetricKit32mxSignpostAnimationIntervalBegin3dso3log4name10signpostID__ySV_So06OS_os_I0Cs12StaticStringV0N0010OSSignpostL0VAJSays7CVarArg_pGtFySRys5UInt8VGXEfU_ySPys4Int8VGXEfU_yARXEfU_yAUXEfU_ys14CVaListPointerVXEfU_TATm
+- _$ss7UnicodeO6ScalarV17withUTF8CodeUnitsyxxSRys5UInt8VGKXEKlFyt_Tg5024$ss12StaticStringV14withd14BufferyxxSRys5G20VGXElFxAFXEfU_yt_Tg5AHxRi_zRi0_zlyytIsgyr_Tf1ncn_n
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_MetricKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_MetricKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_MetricKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_MetricKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_MetricKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_MetricKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_MetricKit
+
+```

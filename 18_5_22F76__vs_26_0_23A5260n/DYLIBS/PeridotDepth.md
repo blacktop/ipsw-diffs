@@ -1,0 +1,1066 @@
+## PeridotDepth
+
+> `/System/Library/PrivateFrameworks/PeridotDepth.framework/PeridotDepth`
+
+```diff
+
+-40.0.0.0.0
+-  __TEXT.__text: 0x130804
+-  __TEXT.__auth_stubs: 0x1840
+-  __TEXT.__objc_methlist: 0x110c
+-  __TEXT.__const: 0x18600
+-  __TEXT.__gcc_except_tab: 0x773c
+-  __TEXT.__cstring: 0x5139
+-  __TEXT.__oslogstring: 0x12ef
+-  __TEXT.__unwind_info: 0x1a28
+-  __TEXT.__eh_frame: 0x80
+-  __TEXT.__objc_classname: 0x1e1
+-  __TEXT.__objc_methname: 0x4985
+-  __TEXT.__objc_methtype: 0x58d1
+-  __TEXT.__objc_stubs: 0x1f80
+-  __DATA_CONST.__got: 0x420
+-  __DATA_CONST.__const: 0x140
+-  __DATA_CONST.__objc_classlist: 0xb0
+-  __DATA_CONST.__objc_protolist: 0x8
++47.0.0.0.0
++  __TEXT.__text: 0x137a54
++  __TEXT.__auth_stubs: 0x1870
++  __TEXT.__objc_methlist: 0x133c
++  __TEXT.__const: 0x18d00
++  __TEXT.__gcc_except_tab: 0x7fc4
++  __TEXT.__cstring: 0x5805
++  __TEXT.__oslogstring: 0x1334
++  __TEXT.__unwind_info: 0x1b20
++  __TEXT.__eh_frame: 0xc0
++  __TEXT.__objc_classname: 0x242
++  __TEXT.__objc_methname: 0x4f6b
++  __TEXT.__objc_methtype: 0x588d
++  __TEXT.__objc_stubs: 0x2540
++  __DATA_CONST.__got: 0x468
++  __DATA_CONST.__const: 0x190
++  __DATA_CONST.__objc_classlist: 0xc8
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd38
+-  __DATA_CONST.__objc_superrefs: 0x70
+-  __AUTH_CONST.__auth_got: 0xc30
++  __DATA_CONST.__objc_selrefs: 0xf10
++  __DATA_CONST.__objc_superrefs: 0x88
++  __DATA_CONST.__objc_arraydata: 0x58
++  __AUTH_CONST.__auth_got: 0xc48
+   __AUTH_CONST.__const: 0x4e8
+-  __AUTH_CONST.__cfstring: 0x3a00
+-  __AUTH_CONST.__objc_const: 0x29d0
++  __AUTH_CONST.__cfstring: 0x40c0
++  __AUTH_CONST.__objc_const: 0x2df8
++  __AUTH_CONST.__objc_intobj: 0x138
++  __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_floatobj: 0x10
+-  __AUTH_CONST.__objc_intobj: 0x90
+-  __AUTH.__objc_data: 0x3c0
++  __AUTH.__objc_data: 0x460
+   __AUTH.__data: 0x18
+-  __DATA.__objc_ivar: 0x274
+-  __DATA.__data: 0x12770
++  __DATA.__objc_ivar: 0x29c
++  __DATA.__data: 0x127d0
+   __DATA.__bss: 0x28a8c4
+   __DATA.__common: 0x2
+-  __DATA_DIRTY.__objc_data: 0x320
+-  __DATA_DIRTY.__bss: 0x278
++  __DATA_DIRTY.__objc_data: 0x370
++  __DATA_DIRTY.__bss: 0x2a0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreML.framework/CoreML
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2138DC50-C2EB-3DC4-9E18-11E645EAF72C
+-  Functions: 1427
+-  Symbols:   3873
+-  CStrings:  2292
++  UUID: C621CD64-F75D-3CBC-AA1B-8D72B4015B79
++  Functions: 1494
++  Symbols:   4121
++  CStrings:  2507
+ 
+Symbols:
++ +[main_nyc2d88ffc_44000 URLOfModelInThisBundle]
++ +[main_nyc2d88ffc_44000 loadContentsOfURL:configuration:completionHandler:]
++ +[main_nyc2d88ffc_44000 loadWithConfiguration:completionHandler:]
++ -[PDDepthProcessor postProcessAllBanks:]
++ -[PDDepthProcessor rawFrameFromPointCloud:]
++ -[PDDepthProcessor setSpotClasificationEnabled:]
++ -[PDDepthProcessor spotClasificationEnabled]
++ -[PDUserDefaults spotClasificationEnabled]
++ -[main_nyc2d88ffc_44000 .cxx_destruct]
++ -[main_nyc2d88ffc_44000 initWithConfiguration:error:]
++ -[main_nyc2d88ffc_44000 initWithContentsOfURL:configuration:error:]
++ -[main_nyc2d88ffc_44000 initWithContentsOfURL:error:]
++ -[main_nyc2d88ffc_44000 initWithMLModel:]
++ -[main_nyc2d88ffc_44000 init]
++ -[main_nyc2d88ffc_44000 model]
++ -[main_nyc2d88ffc_44000 predictionFromFeatures:completionHandler:]
++ -[main_nyc2d88ffc_44000 predictionFromFeatures:error:]
++ -[main_nyc2d88ffc_44000 predictionFromFeatures:options:completionHandler:]
++ -[main_nyc2d88ffc_44000 predictionFromFeatures:options:error:]
++ -[main_nyc2d88ffc_44000 predictionFromJasper:error:]
++ -[main_nyc2d88ffc_44000 predictionsFromInputs:options:error:]
++ -[main_nyc2d88ffc_44000Input .cxx_destruct]
++ -[main_nyc2d88ffc_44000Input featureNames]
++ -[main_nyc2d88ffc_44000Input featureValueForName:]
++ -[main_nyc2d88ffc_44000Input initWithJasper:]
++ -[main_nyc2d88ffc_44000Input jasper]
++ -[main_nyc2d88ffc_44000Input setJasper:]
++ -[main_nyc2d88ffc_44000Output .cxx_destruct]
++ -[main_nyc2d88ffc_44000Output featureNames]
++ -[main_nyc2d88ffc_44000Output featureValueForName:]
++ -[main_nyc2d88ffc_44000Output initWithOut_argmax_x8:out_prob_class_0:out_prob_class_1:out_prob_class_2:out_spatial_only:]
++ -[main_nyc2d88ffc_44000Output out_argmax_x8]
++ -[main_nyc2d88ffc_44000Output out_prob_class_0]
++ -[main_nyc2d88ffc_44000Output out_prob_class_1]
++ -[main_nyc2d88ffc_44000Output out_prob_class_2]
++ -[main_nyc2d88ffc_44000Output out_spatial_only]
++ -[main_nyc2d88ffc_44000Output setOut_argmax_x8:]
++ -[main_nyc2d88ffc_44000Output setOut_prob_class_0:]
++ -[main_nyc2d88ffc_44000Output setOut_prob_class_1:]
++ -[main_nyc2d88ffc_44000Output setOut_prob_class_2:]
++ -[main_nyc2d88ffc_44000Output setOut_spatial_only:]
++ GCC_except_table1000
++ GCC_except_table1005
++ GCC_except_table1006
++ GCC_except_table102
++ GCC_except_table1020
++ GCC_except_table103
++ GCC_except_table1033
++ GCC_except_table1044
++ GCC_except_table105
++ GCC_except_table1057
++ GCC_except_table1058
++ GCC_except_table1060
++ GCC_except_table1061
++ GCC_except_table1072
++ GCC_except_table1084
++ GCC_except_table1085
++ GCC_except_table1086
++ GCC_except_table1094
++ GCC_except_table1095
++ GCC_except_table1096
++ GCC_except_table1097
++ GCC_except_table1098
++ GCC_except_table1099
++ GCC_except_table1100
++ GCC_except_table1101
++ GCC_except_table1106
++ GCC_except_table1107
++ GCC_except_table1108
++ GCC_except_table1163
++ GCC_except_table1168
++ GCC_except_table117
++ GCC_except_table1171
++ GCC_except_table1174
++ GCC_except_table1175
++ GCC_except_table119
++ GCC_except_table120
++ GCC_except_table121
++ GCC_except_table122
++ GCC_except_table1222
++ GCC_except_table1228
++ GCC_except_table1229
++ GCC_except_table150
++ GCC_except_table153
++ GCC_except_table154
++ GCC_except_table161
++ GCC_except_table180
++ GCC_except_table196
++ GCC_except_table197
++ GCC_except_table202
++ GCC_except_table205
++ GCC_except_table208
++ GCC_except_table211
++ GCC_except_table212
++ GCC_except_table213
++ GCC_except_table216
++ GCC_except_table219
++ GCC_except_table231
++ GCC_except_table238
++ GCC_except_table242
++ GCC_except_table243
++ GCC_except_table244
++ GCC_except_table250
++ GCC_except_table253
++ GCC_except_table254
++ GCC_except_table267
++ GCC_except_table276
++ GCC_except_table277
++ GCC_except_table281
++ GCC_except_table283
++ GCC_except_table291
++ GCC_except_table317
++ GCC_except_table324
++ GCC_except_table328
++ GCC_except_table329
++ GCC_except_table352
++ GCC_except_table353
++ GCC_except_table354
++ GCC_except_table357
++ GCC_except_table358
++ GCC_except_table359
++ GCC_except_table360
++ GCC_except_table362
++ GCC_except_table37
++ GCC_except_table390
++ GCC_except_table391
++ GCC_except_table40
++ GCC_except_table408
++ GCC_except_table409
++ GCC_except_table411
++ GCC_except_table416
++ GCC_except_table419
++ GCC_except_table42
++ GCC_except_table43
++ GCC_except_table442
++ GCC_except_table45
++ GCC_except_table47
++ GCC_except_table480
++ GCC_except_table506
++ GCC_except_table513
++ GCC_except_table521
++ GCC_except_table522
++ GCC_except_table525
++ GCC_except_table533
++ GCC_except_table545
++ GCC_except_table547
++ GCC_except_table551
++ GCC_except_table571
++ GCC_except_table575
++ GCC_except_table576
++ GCC_except_table58
++ GCC_except_table582
++ GCC_except_table583
++ GCC_except_table586
++ GCC_except_table593
++ GCC_except_table607
++ GCC_except_table62
++ GCC_except_table63
++ GCC_except_table64
++ GCC_except_table654
++ GCC_except_table664
++ GCC_except_table665
++ GCC_except_table67
++ GCC_except_table703
++ GCC_except_table704
++ GCC_except_table705
++ GCC_except_table708
++ GCC_except_table716
++ GCC_except_table717
++ GCC_except_table718
++ GCC_except_table720
++ GCC_except_table721
++ GCC_except_table722
++ GCC_except_table73
++ GCC_except_table761
++ GCC_except_table762
++ GCC_except_table766
++ GCC_except_table78
++ GCC_except_table782
++ GCC_except_table783
++ GCC_except_table784
++ GCC_except_table788
++ GCC_except_table795
++ GCC_except_table8
++ GCC_except_table800
++ GCC_except_table802
++ GCC_except_table803
++ GCC_except_table804
++ GCC_except_table805
++ GCC_except_table814
++ GCC_except_table815
++ GCC_except_table822
++ GCC_except_table827
++ GCC_except_table829
++ GCC_except_table834
++ GCC_except_table835
++ GCC_except_table839
++ GCC_except_table840
++ GCC_except_table841
++ GCC_except_table847
++ GCC_except_table849
++ GCC_except_table854
++ GCC_except_table861
++ GCC_except_table864
++ GCC_except_table865
++ GCC_except_table873
++ GCC_except_table876
++ GCC_except_table885
++ GCC_except_table886
++ GCC_except_table901
++ GCC_except_table902
++ GCC_except_table909
++ GCC_except_table910
++ GCC_except_table912
++ GCC_except_table916
++ GCC_except_table918
++ GCC_except_table919
++ GCC_except_table933
++ GCC_except_table935
++ GCC_except_table936
++ GCC_except_table937
++ GCC_except_table944
++ GCC_except_table953
++ GCC_except_table955
++ GCC_except_table957
++ GCC_except_table958
++ GCC_except_table972
++ GCC_except_table980
++ GCC_except_table990
++ GCC_except_table992
++ GCC_except_table997
++ GCC_except_table998
++ _OBJC_CLASS_$_MLArrayBatchProvider
++ _OBJC_CLASS_$_MLFeatureValue
++ _OBJC_CLASS_$_MLModel
++ _OBJC_CLASS_$_MLMultiArray
++ _OBJC_CLASS_$_MLPredictionOptions
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSJSONSerialization
++ _OBJC_CLASS_$_NSSet
++ _OBJC_CLASS_$_main_nyc2d88ffc_44000
++ _OBJC_CLASS_$_main_nyc2d88ffc_44000Input
++ _OBJC_CLASS_$_main_nyc2d88ffc_44000Output
++ _OBJC_IVAR_$_PDDepthProcessor._lastSpotDepth
++ _OBJC_IVAR_$_PDDepthProcessor._spotClasificationEnabled
++ _OBJC_IVAR_$_PDUserDefaults._spotClasificationEnabled
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000._model
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Input._jasper
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Output._out_argmax_x8
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Output._out_prob_class_0
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Output._out_prob_class_1
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Output._out_prob_class_2
++ _OBJC_IVAR_$_main_nyc2d88ffc_44000Output._out_spatial_only
++ _OBJC_METACLASS_$_main_nyc2d88ffc_44000
++ _OBJC_METACLASS_$_main_nyc2d88ffc_44000Input
++ _OBJC_METACLASS_$_main_nyc2d88ffc_44000Output
++ __OBJC_$_CLASS_METHODS_main_nyc2d88ffc_44000
++ __OBJC_$_INSTANCE_METHODS_main_nyc2d88ffc_44000
++ __OBJC_$_INSTANCE_METHODS_main_nyc2d88ffc_44000Input
++ __OBJC_$_INSTANCE_METHODS_main_nyc2d88ffc_44000Output
++ __OBJC_$_INSTANCE_VARIABLES_main_nyc2d88ffc_44000
++ __OBJC_$_INSTANCE_VARIABLES_main_nyc2d88ffc_44000Input
++ __OBJC_$_INSTANCE_VARIABLES_main_nyc2d88ffc_44000Output
++ __OBJC_$_PROP_LIST_MLFeatureProvider
++ __OBJC_$_PROP_LIST_main_nyc2d88ffc_44000
++ __OBJC_$_PROP_LIST_main_nyc2d88ffc_44000Input
++ __OBJC_$_PROP_LIST_main_nyc2d88ffc_44000Output
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MLFeatureProvider
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MLFeatureProvider
++ __OBJC_CLASS_PROTOCOLS_$_main_nyc2d88ffc_44000Input
++ __OBJC_CLASS_PROTOCOLS_$_main_nyc2d88ffc_44000Output
++ __OBJC_CLASS_RO_$_main_nyc2d88ffc_44000
++ __OBJC_CLASS_RO_$_main_nyc2d88ffc_44000Input
++ __OBJC_CLASS_RO_$_main_nyc2d88ffc_44000Output
++ __OBJC_LABEL_PROTOCOL_$_MLFeatureProvider
++ __OBJC_METACLASS_RO_$_main_nyc2d88ffc_44000
++ __OBJC_METACLASS_RO_$_main_nyc2d88ffc_44000Input
++ __OBJC_METACLASS_RO_$_main_nyc2d88ffc_44000Output
++ __OBJC_PROTOCOL_$_MLFeatureProvider
++ __Z22extractFromCalsAndCompI23CALS_calibration_ver00511COMP_ver00111PeridotAFDREvRKT_T0_RKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT1_RK8VersionsP19NSMutableDictionary
++ __Z22extractFromCalsAndCompI23CALS_calibration_ver00511COMP_ver00211PeridotAFDREvRKT_T0_RKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT1_RK8VersionsP19NSMutableDictionary
++ __Z8nvmToFDRPK8__CFDataS1_PKcR11PeridotAFDRP14__CFDictionary
++ __ZN11MatrixNxPtsILj1EbED2Ev
++ __ZN11MatrixNxPtsILj1EdED2Ev
++ __ZN11MatrixNxPtsILj1EhED2Ev
++ __ZN11MatrixNxPtsILj9EdED2Ev
++ __ZN21InstrumentsTraceGuardD2Ev
++ __ZN22GlobalEstimationResultD2Ev
++ __ZN5coder5arrayI11cell_wrap_0Li2EED2Ev
++ __ZN5coder5arrayI11cell_wrap_1Li2EED2Ev
++ __ZN6MatrixIbED2Ev
++ __ZN6MatrixIdED2Ev
++ __ZN6MatrixIfED2Ev
++ __ZN6MatrixIjED2Ev
++ __ZN6MatrixItED2Ev
++ __ZN7peridot11PeridotAlgo21runNearRangeIndicatorEP25ADMutableJasperPointCloudPNS_25PeridotNearRangeIndicator36NearRangeIndicatorAdditionalDataBankE
++ __ZN7peridot11PeridotAlgo4Impl21runNearRangeIndicatorEP25ADMutableJasperPointCloudPNS_25PeridotNearRangeIndicator36NearRangeIndicatorAdditionalDataBankE
++ __ZN7peridot12PeridotDepthD2Ev
++ __ZN7peridot12PeridotDepthaSERKS0_
++ __ZN7peridot16PeridotDepthSpotaSERKS0_
++ __ZN7peridot23PeridotPreProcessOutput15PreProcessorOutD1Ev
++ __ZN7peridot25PeridotNearRangeIndicator13dbgDumpInputsEP25ADMutableJasperPointCloud
++ __ZN7peridot25PeridotNearRangeIndicator15setAndInitModelEv
++ __ZN7peridot25PeridotNearRangeIndicator18dbgDumpInputsToCsvEP18ADJasperPointCloudRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZN7peridot25PeridotNearRangeIndicator21prepareModelInputDataEP25ADMutableJasperPointCloudPKNS0_36NearRangeIndicatorAdditionalDataBankE
++ __ZN7peridot25PeridotNearRangeIndicator3runEP25ADMutableJasperPointCloudPNS0_36NearRangeIndicatorAdditionalDataBankE
++ __ZN7peridot25PeridotNearRangeIndicatorC1Ev
++ __ZN7peridot25PeridotNearRangeIndicatorC2Ev
++ __ZN7peridot25PeridotNearRangeIndicatorD1Ev
++ __ZN7peridot25PeridotNearRangeIndicatorD2Ev
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7peridot10DataBufferEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdPdPFddEiES7_S8_SA_iEEENS3_ISD_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdS7_PdPFdddEiES7_S7_S8_SA_iEEENS3_ISD_EEED1B8ne200100Ev
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
++ __ZNSt3__113__nth_elementB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
++ __ZNSt3__113unordered_mapImN7peridot13ChannelsNamesENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEED2B8ne200100Ev
++ __ZNSt3__113unordered_mapIyNS_4pairIPhiEENS_4hashIyEENS_8equal_toIyEENS_9allocatorINS1_IKyS3_EEEEEC2ESt16initializer_listISA_E
++ __ZNSt3__114__split_bufferI6MatrixIdERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIN7peridot12ImgHistogramERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIPN8TimeSync17TimestampedObjectINS1_5ImageEEENS_9allocatorIS5_EEE12emplace_backIJRS5_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPN8TimeSync17TimestampedObjectIU8__strongP18ADJasperPointCloudEENS_9allocatorIS7_EEE12emplace_backIJRS7_EEEvDpOT_
++ __ZNSt3__114__thread_proxyB8ne200100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdPdPFddEiES8_S9_SB_iEEEEEPvSF_
++ __ZNSt3__114__thread_proxyB8ne200100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdS8_PdPFdddEiES8_S8_S9_SB_iEEEEEPvSF_
++ __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED2Ev
++ __ZNSt3__116allocator_traitsINS_9allocatorIN10ImageUtils4BlobEEEE9constructB8ne200100IS3_JRKS3_ELi0EEEvRS4_PT_DpOT0_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN10ImageUtils4BlobEEEPS4_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI12SpecsResultsNS2_IS4_EEEEEEPS6_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorImNS2_ImEEEEEEPS5_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorI6MatrixIdENS_9allocatorIS3_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN10ImageUtils4BlobENS_9allocatorIS3_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot12ImgHistogramENS_9allocatorIS3_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot12RefHistogramENS_9allocatorIS3_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS3_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_I12SpecsResultsNS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IN7peridot12ImgHistogramENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IN7peridot12RefHistogramENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_ImNS_9allocatorImEEEENS2_IS4_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIN10ImageUtils4BlobEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
++ __ZNSt3__14endlB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
++ __ZNSt3__15dequeIN8TimeSync17TimestampedObjectINS1_5ImageEEENS_9allocatorIS4_EEED2B8ne200100Ev
++ __ZNSt3__15dequeIN8TimeSync17TimestampedObjectIU8__strongP18ADJasperPointCloudEENS_9allocatorIS6_EEED2B8ne200100Ev
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16vectorI12SpecsResultsNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJRKS2_EEEPS2_DpOT_.cold.1
++ __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEED1B8ne200100Ev
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEED1B8ne200100Ev
++ __ZNSt3__16vectorIN6common17PeridotSpotValuesI7CGPointEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN6common17PeridotSpotValuesIfEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEED1B8ne200100Ev
++ __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEED2B8ne200100Ev
++ __ZNSt3__16vectorIN7peridot15PeridotDXPCalib11InputPriCfgENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi2EEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot20PeridotDepthSpotEchoENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN7peridot20PeridotDepthSpotEchoENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEEC2B8ne200100Em
++ __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS0_I12SpecsResultsNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot12RefHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi2EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIijEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIjjEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE9push_backB8ne200100EOS3_
++ __ZNSt3__16vectorIPNS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED2B8ne200100Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIbNS_9allocatorIbEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne200100IPfS5_EEvT_T0_l
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE9push_backB8ne200100ERKf
++ __ZNSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne200100IPKiS6_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne200100IPiS5_EEvT_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8ne200100IPjS5_EEvT_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8ne200100ERKj
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne200100IPmS5_EEvT_T0_l
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE9push_backB8ne200100ERKm
++ __ZNSt3__18__rotateB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPmEES4_EENS_4pairIT0_S6_EES6_S6_T1_
++ __ZNSt3__1lsB8ne200100INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ ___66-[main_nyc2d88ffc_44000 predictionFromFeatures:completionHandler:]_block_invoke
++ ___74-[main_nyc2d88ffc_44000 predictionFromFeatures:options:completionHandler:]_block_invoke
++ ___75+[main_nyc2d88ffc_44000 loadContentsOfURL:configuration:completionHandler:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e29_v24?0"MLModel"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32bs_e41_v24?0"<MLFeatureProvider>"8"NSError"16ls32l8
++ ___block_literal_global.1201
++ _fputc
++ _objc_msgSend$URLForResource:withExtension:
++ _objc_msgSend$URLOfModelInThisBundle
++ _objc_msgSend$arrayWithObjects:count:
++ _objc_msgSend$bundleForClass:
++ _objc_msgSend$confidences
++ _objc_msgSend$dataPointer
++ _objc_msgSend$dataType
++ _objc_msgSend$dataWithJSONObject:options:error:
++ _objc_msgSend$euclideanDistances
++ _objc_msgSend$featureValueForName:
++ _objc_msgSend$featureValueWithMultiArray:
++ _objc_msgSend$featuresAtIndex:
++ _objc_msgSend$initByMergingPointClouds:
++ _objc_msgSend$initWithBytes:length:
++ _objc_msgSend$initWithContentsOfURL:configuration:error:
++ _objc_msgSend$initWithContentsOfURL:error:
++ _objc_msgSend$initWithFeatureProviderArray:
++ _objc_msgSend$initWithJasper:
++ _objc_msgSend$initWithMLModel:
++ _objc_msgSend$initWithOut_argmax_x8:out_prob_class_0:out_prob_class_1:out_prob_class_2:out_spatial_only:
++ _objc_msgSend$initWithShape:dataType:error:
++ _objc_msgSend$intensities
++ _objc_msgSend$jasper
++ _objc_msgSend$loadContentsOfURL:configuration:completionHandler:
++ _objc_msgSend$localizedDescription
++ _objc_msgSend$model
++ _objc_msgSend$modelWithContentsOfURL:configuration:error:
++ _objc_msgSend$modelWithContentsOfURL:error:
++ _objc_msgSend$multiArrayValue
++ _objc_msgSend$objectAtIndex:
++ _objc_msgSend$out_argmax_x8
++ _objc_msgSend$out_prob_class_0
++ _objc_msgSend$out_prob_class_1
++ _objc_msgSend$out_prob_class_2
++ _objc_msgSend$out_spatial_only
++ _objc_msgSend$pathForResource:ofType:
++ _objc_msgSend$points
++ _objc_msgSend$predictionFromFeatures:completionHandler:
++ _objc_msgSend$predictionFromFeatures:error:
++ _objc_msgSend$predictionFromFeatures:options:completionHandler:
++ _objc_msgSend$predictionFromFeatures:options:error:
++ _objc_msgSend$predictionFromJasper:error:
++ _objc_msgSend$predictionsFromBatch:options:error:
++ _objc_msgSend$setWithArray:
++ _objc_msgSend$spotClasificationEnabled
++ _objc_msgSend$spotIds
++ _objc_retain_x26
++ _objc_retain_x4
++ _objc_retain_x5
+- GCC_except_table1001
+- GCC_except_table1003
+- GCC_except_table1011
+- GCC_except_table1014
+- GCC_except_table1027
+- GCC_except_table1028
+- GCC_except_table1032
+- GCC_except_table1034
+- GCC_except_table1038
+- GCC_except_table1042
+- GCC_except_table1048
+- GCC_except_table1054
+- GCC_except_table1056
+- GCC_except_table1065
+- GCC_except_table1066
+- GCC_except_table1067
+- GCC_except_table1069
+- GCC_except_table107
+- GCC_except_table1070
+- GCC_except_table1076
+- GCC_except_table1077
+- GCC_except_table108
+- GCC_except_table1133
+- GCC_except_table1138
+- GCC_except_table1141
+- GCC_except_table1144
+- GCC_except_table1145
+- GCC_except_table1153
+- GCC_except_table1159
+- GCC_except_table1160
+- GCC_except_table137
+- GCC_except_table140
+- GCC_except_table141
+- GCC_except_table147
+- GCC_except_table148
+- GCC_except_table16
+- GCC_except_table162
+- GCC_except_table167
+- GCC_except_table172
+- GCC_except_table174
+- GCC_except_table176
+- GCC_except_table177
+- GCC_except_table182
+- GCC_except_table183
+- GCC_except_table184
+- GCC_except_table191
+- GCC_except_table192
+- GCC_except_table193
+- GCC_except_table218
+- GCC_except_table222
+- GCC_except_table232
+- GCC_except_table233
+- GCC_except_table234
+- GCC_except_table246
+- GCC_except_table249
+- GCC_except_table256
+- GCC_except_table260
+- GCC_except_table262
+- GCC_except_table296
+- GCC_except_table304
+- GCC_except_table307
+- GCC_except_table308
+- GCC_except_table309
+- GCC_except_table316
+- GCC_except_table331
+- GCC_except_table333
+- GCC_except_table336
+- GCC_except_table337
+- GCC_except_table339
+- GCC_except_table341
+- GCC_except_table347
+- GCC_except_table36
+- GCC_except_table369
+- GCC_except_table370
+- GCC_except_table38
+- GCC_except_table386
+- GCC_except_table387
+- GCC_except_table393
+- GCC_except_table396
+- GCC_except_table41
+- GCC_except_table417
+- GCC_except_table455
+- GCC_except_table481
+- GCC_except_table488
+- GCC_except_table49
+- GCC_except_table496
+- GCC_except_table497
+- GCC_except_table500
+- GCC_except_table508
+- GCC_except_table518
+- GCC_except_table520
+- GCC_except_table524
+- GCC_except_table529
+- GCC_except_table54
+- GCC_except_table544
+- GCC_except_table548
+- GCC_except_table549
+- GCC_except_table553
+- GCC_except_table555
+- GCC_except_table559
+- GCC_except_table566
+- GCC_except_table60
+- GCC_except_table627
+- GCC_except_table636
+- GCC_except_table637
+- GCC_except_table675
+- GCC_except_table676
+- GCC_except_table677
+- GCC_except_table680
+- GCC_except_table688
+- GCC_except_table689
+- GCC_except_table690
+- GCC_except_table691
+- GCC_except_table692
+- GCC_except_table693
+- GCC_except_table733
+- GCC_except_table734
+- GCC_except_table738
+- GCC_except_table743
+- GCC_except_table744
+- GCC_except_table745
+- GCC_except_table746
+- GCC_except_table750
+- GCC_except_table754
+- GCC_except_table755
+- GCC_except_table756
+- GCC_except_table758
+- GCC_except_table760
+- GCC_except_table767
+- GCC_except_table775
+- GCC_except_table776
+- GCC_except_table777
+- GCC_except_table785
+- GCC_except_table787
+- GCC_except_table791
+- GCC_except_table792
+- GCC_except_table794
+- GCC_except_table80
+- GCC_except_table807
+- GCC_except_table809
+- GCC_except_table811
+- GCC_except_table812
+- GCC_except_table817
+- GCC_except_table821
+- GCC_except_table826
+- GCC_except_table833
+- GCC_except_table836
+- GCC_except_table857
+- GCC_except_table858
+- GCC_except_table859
+- GCC_except_table860
+- GCC_except_table874
+- GCC_except_table875
+- GCC_except_table879
+- GCC_except_table880
+- GCC_except_table881
+- GCC_except_table882
+- GCC_except_table884
+- GCC_except_table89
+- GCC_except_table890
+- GCC_except_table891
+- GCC_except_table90
+- GCC_except_table905
+- GCC_except_table906
+- GCC_except_table91
+- GCC_except_table92
+- GCC_except_table924
+- GCC_except_table926
+- GCC_except_table928
+- GCC_except_table929
+- GCC_except_table943
+- GCC_except_table951
+- GCC_except_table96
+- GCC_except_table961
+- GCC_except_table962
+- GCC_except_table963
+- GCC_except_table967
+- GCC_except_table968
+- GCC_except_table969
+- GCC_except_table971
+- GCC_except_table976
+- GCC_except_table977
+- __Z22extractFromCalsAndCompI23CALS_calibration_ver00511COMP_ver00111PeridotAFDREvRKT_T0_RKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT1_RK8Versions
+- __Z22extractFromCalsAndCompI23CALS_calibration_ver00511COMP_ver00211PeridotAFDREvRKT_T0_RKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERT1_RK8Versions
+- __Z8nvmToFDRPK8__CFDataS1_PKcR11PeridotAFDR
+- __ZN22GlobalEstimationResultD1Ev
+- __ZN5coder5arrayI11cell_wrap_0Li2EED1Ev
+- __ZN5coder5arrayI11cell_wrap_1Li2EED1Ev
+- __ZN5coder8internalL11merge_blockEPiPdiiiS1_S2_
+- __ZN7peridot12PeridotDepthD1Ev
+- __ZN7peridot23PeridotPreProcessOutput15PreProcessorOutD2Ev
+- __ZNK9MatrixMxNILj3ELj3EdE6SVDMxNILj3EvEEjRS0_RS_ILj1ELj3EdES2_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI12SpecsResultsNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorIN6common17PeridotSpotValuesI7CGPointEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN6common17PeridotSpotValuesIfEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN7peridot15PeridotDXPCalib11InputPriCfgENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi2EEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN7peridot20PeridotDepthSpotEchoENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_I12SpecsResultsNS_9allocatorIS1_EEEENS2_IS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi2EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_IN7peridot17DoubleStaticArrayIfLi61ELi45EEENS_9allocatorIS3_EEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIijEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIjjEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN7peridot9HistogramENS_9allocatorIS3_EEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorIPNS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIbNS_9allocatorIbEEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorIhNS_9allocatorIhEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt12out_of_rangeC1B8ne190102EPKc
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEN7peridot10DataBufferEEEPvEENS_22__tree_node_destructorINS6_ISD_EEEEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdPdPFddEiES7_S8_SA_iEEENS3_ISD_EEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEPFvPKdS7_PdPFdddEiES7_S7_S8_SA_iEEENS3_ISD_EEED1B8ne190102Ev
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyNS_4pairIPhiEEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED1Ev
+- __ZNSt3__113__nth_elementB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPfEEEEvT1_S8_S8_T0_
+- __ZNSt3__113unordered_mapImN7peridot13ChannelsNamesENS_4hashImEENS_8equal_toImEENS_9allocatorINS_4pairIKmS2_EEEEED1B8ne190102Ev
+- __ZNSt3__113unordered_mapIyNS_4pairIPhiEENS_4hashIyEENS_8equal_toIyEENS_9allocatorINS1_IKyS3_EEEEEC1ESt16initializer_listISA_E
+- __ZNSt3__114__split_bufferI6MatrixIdERNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__114__split_bufferIN7peridot12ImgHistogramERNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__114__thread_proxyB8ne190102INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdPdPFddEiES8_S9_SB_iEEEEEPvSF_
+- __ZNSt3__114__thread_proxyB8ne190102INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEPFvPKdS8_PdPFdddEiES8_S8_S9_SB_iEEEEEPvSF_
+- __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN10ImageUtils4BlobEEEPS4_EEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorI12SpecsResultsNS2_IS4_EEEEEEPS6_EEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorImNS2_ImEEEEEEPS5_EEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorI6MatrixIdENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN10ImageUtils4BlobENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot12ImgHistogramENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot12RefHistogramENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS3_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_I12SpecsResultsNS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IN7peridot12ImgHistogramENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IN7peridot12RefHistogramENS_9allocatorIS3_EEEENS4_IS6_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_INS1_IfNS_9allocatorIfEEEENS2_IS4_EEEENS2_IS6_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IfNS_9allocatorIfEEEENS2_IS4_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_IiNS_9allocatorIiEEEENS2_IS4_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS1_ImNS_9allocatorImEEEENS2_IS4_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorIN10ImageUtils4BlobEEEPS3_S5_S5_EET2_RT_T0_T1_S6_
+- __ZNSt3__14endlB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_
+- __ZNSt3__15dequeIN8TimeSync17TimestampedObjectINS1_5ImageEEENS_9allocatorIS4_EEED2B8ne190102Ev
+- __ZNSt3__15dequeIN8TimeSync17TimestampedObjectIU8__strongP18ADJasperPointCloudEENS_9allocatorIS6_EEED2B8ne190102Ev
+- __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_
+- __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_.cold.1
+- __ZNSt3__16vectorI6MatrixIdENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorIN10ImageUtils4BlobENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorIN7peridot12ImgHistogramENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEEC2B8ne190102Em
+- __ZNSt3__16vectorIN7peridot20RefHistogramAllSpotsENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS0_IN7peridot12ImgHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS0_IN7peridot12RefHistogramENS_9allocatorIS2_EEEENS3_IS5_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS0_INS0_IfNS_9allocatorIfEEEENS1_IS3_EEEENS1_IS5_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS0_IfNS_9allocatorIfEEEENS1_IS3_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS0_IiNS_9allocatorIiEEEENS1_IS3_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne190102Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEED1B8ne190102Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE18__assign_with_sizeB8ne190102IPfS5_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne190102IPKiS6_EEvT_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__assign_with_sizeB8ne190102IPiS5_EEvT_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8ne190102IPjS5_EEvT_T0_l
+- __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne190102IPmS5_EEvT_T0_l
+- __ZNSt3__16vectorImNS_9allocatorImEEE9push_backB8ne190102ERKm
+- __ZNSt3__18__rotateB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPmEES4_EENS_4pairIT0_S6_EES6_S6_T1_
+- __ZNSt3__1lsB8ne190102INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+- ___block_literal_global.1043
+CStrings:
++ "%.6f"
++ "%.6f, "
++ "%d"
++ "%d, "
++ "%zu, "
++ "%zu, %zu, %zu, %zu, %d, %d, %d, "
++ "%zu,%zu,%zu,%zu,%d,%d,%d,"
++ "@\"MLFeatureValue\"24@0:8@\"NSString\"16"
++ "@\"MLModel\""
++ "@\"MLMultiArray\""
++ "@\"NSSet\"16@0:8"
++ "@32@0:8@16^@24"
++ "@40@0:8@16@24^@32"
++ "@56@0:8@16@24@32@40@48"
++ "CALSCalibrationNvmVersion"
++ "Could not load main_nyc2d88ffc_44000.mlmodelc in the bundle resource"
++ "Depth__NVM__VDDLAS"
++ "Depth__NVM__WPSP_3rd_lowest"
++ "Depth__NVM__WPSP_mean"
++ "Depth__NVM__cals_sw_version"
++ "Depth__NVM__cals_zefram_sw_version"
++ "Depth__NVM__checksum_quark"
++ "Depth__NVM__comp_nvm_version"
++ "Depth__NVM__idac_h_txcfg0"
++ "Depth__NVM__idac_h_txcfg1"
++ "Depth__NVM__idac_l_txcfg0"
++ "Depth__NVM__idac_l_txcfg1"
++ "Depth__NVM__module_sn_checksum_validation"
++ "Depth__NVM__quark_lld_test_id"
++ "Depth__NVM__quark_optical_test_id"
++ "Depth__NVM__quark_test_fap_id"
++ "Depth__NVM__vsr_nvm_version"
++ "Depth__RXNVM__cis_fab_id"
++ "Depth__RXNVM__cis_mask_id"
++ "Depth__RXNVM__cis_process_id"
++ "Depth__RXNVM__dm_vddh_measure_offset"
++ "Depth__RXNVM__dm_vddio_measure_offset"
++ "Depth__RXNVM__dm_vddl1_measure_offset"
++ "Depth__RXNVM__dm_vddl2_measure_offset"
++ "Depth__RXNVM__dtm_ns_1"
++ "Depth__RXNVM__dtm_ns_2"
++ "Depth__RXNVM__dtm_ns_3"
++ "Depth__RXNVM__dts_ns_1"
++ "Depth__RXNVM__dts_ns_2"
++ "Depth__RXNVM__dts_ns_3"
++ "Depth__RXNVM__logic_fab_id"
++ "Depth__RXNVM__logic_mask_id"
++ "Depth__RXNVM__logic_process_id"
++ "Depth__RXNVM__mean_pde"
++ "Depth__RXNVM__s_test_multi"
++ "Depth__RXNVM__sigma_pde"
++ "Depth__RXNVM__stack_fab_id"
++ "Depth__RXNVM__test_fab_id"
++ "Depth__RXNVM__test_id"
++ "Error converting NSDictionary to JSON: %@"
++ "Error creating MLMultiArray: %@"
++ "Error making prediction: %@"
++ "Error: Could not open file %s for writing."
++ "Error: MLMultiArray data type mismatch. Expected Float32."
++ "MLFeatureProvider"
++ "SpotClasificationEnabled"
++ "T@\"MLModel\",R,N,V_model"
++ "T@\"MLMultiArray\",&,N,V_jasper"
++ "T@\"MLMultiArray\",&,N,V_out_argmax_x8"
++ "T@\"MLMultiArray\",&,N,V_out_prob_class_0"
++ "T@\"MLMultiArray\",&,N,V_out_prob_class_1"
++ "T@\"MLMultiArray\",&,N,V_out_prob_class_2"
++ "T@\"MLMultiArray\",&,N,V_out_spatial_only"
++ "T@\"NSSet\",R,N"
++ "TB,V_spotClasificationEnabled"
++ "Ti,R,V_spotClasificationEnabled"
++ "T{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v^v^v},R,N,V_localSpotsLocRefDist"
++ "T{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=^v^v^v},R,N,V_localNa"
++ "T{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=^v^v^v},R,N,V_specsOut"
++ "T{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=^v^v^v},R,N,V_specPhasePriOrder"
++ "URLForResource:withExtension:"
++ "URLOfModelInThisBundle"
++ "[4[8{PeridotDepth=\"spots\"[14{PeridotDepthSpot=\"HS\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}\"HS2\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}\"HP\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}\"M1_wide\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}\"M1_narrow\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}\"SP\"{PeridotDepthSpotType=\"echos\"{vector<peridot::PeridotDepthSpotEcho, std::allocator<peridot::PeridotDepthSpotEcho>>=\"__begin_\"^{PeridotDepthSpotEcho}\"__end_\"^{PeridotDepthSpotEcho}\"__cap_\"^{PeridotDepthSpotEcho}}\"na\"f}}]\"detTh\"f}]]"
++ "_jasper"
++ "_lastSpotDepth"
++ "_model"
++ "_out_argmax_x8"
++ "_out_prob_class_0"
++ "_out_prob_class_1"
++ "_out_prob_class_2"
++ "_out_spatial_only"
++ "_spotClasificationEnabled"
++ "arrayWithObjects:count:"
++ "bundleForClass:"
++ "channel_%zu"
++ "confidences"
++ "dataPointer"
++ "dataType"
++ "dataWithJSONObject:options:error:"
++ "euclideanDistances"
++ "featureNames"
++ "featureValueForName:"
++ "featureValueWithMultiArray:"
++ "featuresAtIndex:"
++ "foms"
++ "getBankModeSkews: index exceeds matrix size"
++ "initByMergingPointClouds:"
++ "initWithBytes:length:"
++ "initWithConfiguration:error:"
++ "initWithContentsOfURL:configuration:error:"
++ "initWithContentsOfURL:error:"
++ "initWithFeatureProviderArray:"
++ "initWithJasper:"
++ "initWithMLModel:"
++ "initWithOut_argmax_x8:out_prob_class_0:out_prob_class_1:out_prob_class_2:out_spatial_only:"
++ "initWithShape:dataType:error:"
++ "intensities"
++ "jasper"
++ "loadContentsOfURL:configuration:completionHandler:"
++ "loadWithConfiguration:completionHandler:"
++ "localizedDescription"
++ "main_nyc2d88ffc_44000"
++ "main_nyc2d88ffc_44000Input"
++ "main_nyc2d88ffc_44000Output"
++ "mlmodelc"
++ "model"
++ "modelWithContentsOfURL:configuration:error:"
++ "modelWithContentsOfURL:error:"
++ "multiArrayValue"
++ "objectAtIndex:"
++ "out_argmax_x8"
++ "out_prob_class_0"
++ "out_prob_class_1"
++ "out_prob_class_2"
++ "out_spatial_only"
++ "pathForResource:ofType:"
++ "points"
++ "postProcessAllBanks:"
++ "predictionFromFeatures:completionHandler:"
++ "predictionFromFeatures:error:"
++ "predictionFromFeatures:options:completionHandler:"
++ "predictionFromFeatures:options:error:"
++ "predictionFromJasper:error:"
++ "predictionsFromBatch:options:error:"
++ "predictionsFromInputs:options:error:"
++ "rawFrameFromPointCloud:"
++ "setJasper:"
++ "setOut_argmax_x8:"
++ "setOut_prob_class_0:"
++ "setOut_prob_class_1:"
++ "setOut_prob_class_2:"
++ "setOut_spatial_only:"
++ "setSpotClasificationEnabled:"
++ "setWithArray:"
++ "spot, curr_x_ind, curr_y_ind, spot_echo0_ind, conf0>th, conf1>th, z0<z1, "
++ "spot,curr_x_ind,curr_y_ind,spot_echo0_ind,conf0>th,conf1>th,z0<z1,"
++ "spotClasificationEnabled"
++ "spotClassNet Enabled: %d"
++ "spotIds"
++ "unknown VSR buffer version (%u)"
++ "v24@?0@\"<MLFeatureProvider>\"8@\"NSError\"16"
++ "v24@?0@\"MLModel\"8@\"NSError\"16"
++ "v32@0:8@16@?24"
++ "v40@0:8@16@24@?32"
++ "{PeridotAlgo=\"_impl\"{unique_ptr<peridot::PeridotAlgo::Impl, std::default_delete<peridot::PeridotAlgo::Impl>>=\"__ptr_\"^{Impl}}}"
++ "{PeridotPresetInfo=\"dimensions\"{CGSize=\"width\"d\"height\"d}\"banksPerFrame\"Q\"pointsPerFrame\"Q\"additionalSize\"Q\"requiredBytes\"Q\"additionalDataHeader\"{AdditionalDataHeader=\"magic\"I\"version\"I\"dataSizes\"[2Q]}}"
++ "{TimeSync=\"m_pointClouds\"{deque<TimeSync::TimestampedObject<ADJasperPointCloud *>, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *>>>=\"__map_\"{__split_buffer<TimeSync::TimestampedObject<ADJasperPointCloud *> *, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *> *>>=\"__first_\"^^v\"__begin_\"^^v\"__end_\"^^v\"__cap_\"^^v}\"__start_\"Q\"__size_\"Q}\"m_images\"{deque<TimeSync::TimestampedObject<TimeSync::Image>, std::allocator<TimeSync::TimestampedObject<TimeSync::Image>>>=\"__map_\"{__split_buffer<TimeSync::TimestampedObject<TimeSync::Image> *, std::allocator<TimeSync::TimestampedObject<TimeSync::Image> *>>=\"__first_\"^^v\"__begin_\"^^v\"__end_\"^^v\"__cap_\"^^v}\"__start_\"Q\"__size_\"Q}\"m_lock\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}\"m_numberOfBanksToMatch\"i}"
++ "{unique_ptr<bool[], std::default_delete<bool[]>>=\"__ptr_\"^B}"
++ "{unique_ptr<float[], std::default_delete<float[]>>=\"__ptr_\"^f}"
++ "{unique_ptr<unsigned long[], std::default_delete<unsigned long[]>>=\"__ptr_\"^Q}"
++ "{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v^v^v}16@0:8"
++ "{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=^v^v^v}16@0:8"
++ "{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=^v^v^v}16@0:8"
++ "{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=^v^v^v}16@0:8"
++ "\x921!"
+- "T{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v^v{__compressed_pair<common::PeridotSpotValues<CGPoint> *, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v}},R,N,V_localSpotsLocRefDist"
+- "T{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=^v^v{__compressed_pair<common::PeridotSpotValues<float> *, std::allocator<common::PeridotSpotValues<float>>>=^v}},R,N,V_localNa"
+- "T{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=^v^v{__compressed_pair<std::vector<SpecsResults> *, std::allocator<std::vector<SpecsResults>>>=^v}},R,N,V_specsOut"
+- "T{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=^v^v{__compressed_pair<std::vector<unsigned long> *, std::allocator<std::vector<unsigned long>>>=^v}},R,N,V_specPhasePriOrder"
+- "b1!"
+- "storeRawFramesInPointCloud is on, but point cloud's additionalData is too small (%zu)"
+- "unknow VSR buffer version"
+- "{PeridotAlgo=\"_impl\"{unique_ptr<peridot::PeridotAlgo::Impl, std::default_delete<peridot::PeridotAlgo::Impl>>=\"__ptr_\"{__compressed_pair<peridot::PeridotAlgo::Impl *, std::default_delete<peridot::PeridotAlgo::Impl>>=\"__value_\"^{Impl}}}}"
+- "{PeridotPresetInfo=\"dimensions\"{CGSize=\"width\"d\"height\"d}\"banksPerFrame\"Q\"pointsPerFrame\"Q\"additionalSize\"Q\"requiredBytes\"Q}"
+- "{TimeSync=\"m_pointClouds\"{deque<TimeSync::TimestampedObject<ADJasperPointCloud *>, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *>>>=\"__map_\"{__split_buffer<TimeSync::TimestampedObject<ADJasperPointCloud *> *, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *> *>>=\"__first_\"^^v\"__begin_\"^^v\"__end_\"^^v\"__end_cap_\"{__compressed_pair<TimeSync::TimestampedObject<ADJasperPointCloud *> **, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *> *>>=\"__value_\"^^v}}\"__start_\"Q\"__size_\"{__compressed_pair<unsigned long, std::allocator<TimeSync::TimestampedObject<ADJasperPointCloud *>>>=\"__value_\"Q}}\"m_images\"{deque<TimeSync::TimestampedObject<TimeSync::Image>, std::allocator<TimeSync::TimestampedObject<TimeSync::Image>>>=\"__map_\"{__split_buffer<TimeSync::TimestampedObject<TimeSync::Image> *, std::allocator<TimeSync::TimestampedObject<TimeSync::Image> *>>=\"__first_\"^^v\"__begin_\"^^v\"__end_\"^^v\"__end_cap_\"{__compressed_pair<TimeSync::TimestampedObject<TimeSync::Image> **, std::allocator<TimeSync::TimestampedObject<TimeSync::Image> *>>=\"__value_\"^^v}}\"__start_\"Q\"__size_\"{__compressed_pair<unsigned long, std::allocator<TimeSync::TimestampedObject<TimeSync::Image>>>=\"__value_\"Q}}\"m_lock\"{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}\"m_numberOfBanksToMatch\"i}"
+- "{unique_ptr<bool[], std::default_delete<bool[]>>=\"__ptr_\"{__compressed_pair<bool *, std::default_delete<bool[]>>=\"__value_\"^B}}"
+- "{unique_ptr<float[], std::default_delete<float[]>>=\"__ptr_\"{__compressed_pair<float *, std::default_delete<float[]>>=\"__value_\"^f}}"
+- "{unique_ptr<unsigned long[], std::default_delete<unsigned long[]>>=\"__ptr_\"{__compressed_pair<unsigned long *, std::default_delete<unsigned long[]>>=\"__value_\"^Q}}"
+- "{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<common::PeridotSpotValues<CGPoint> *, std::allocator<common::PeridotSpotValues<CGPoint>>>=\"__value_\"^v}}"
+- "{vector<common::PeridotSpotValues<CGPoint>, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v^v{__compressed_pair<common::PeridotSpotValues<CGPoint> *, std::allocator<common::PeridotSpotValues<CGPoint>>>=^v}}16@0:8"
+- "{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<common::PeridotSpotValues<float> *, std::allocator<common::PeridotSpotValues<float>>>=\"__value_\"^v}}"
+- "{vector<common::PeridotSpotValues<float>, std::allocator<common::PeridotSpotValues<float>>>=^v^v{__compressed_pair<common::PeridotSpotValues<float> *, std::allocator<common::PeridotSpotValues<float>>>=^v}}16@0:8"
+- "{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::vector<SpecsResults> *, std::allocator<std::vector<SpecsResults>>>=\"__value_\"^v}}"
+- "{vector<std::vector<SpecsResults>, std::allocator<std::vector<SpecsResults>>>=^v^v{__compressed_pair<std::vector<SpecsResults> *, std::allocator<std::vector<SpecsResults>>>=^v}}16@0:8"
+- "{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::vector<unsigned long> *, std::allocator<std::vector<unsigned long>>>=\"__value_\"^v}}"
+- "{vector<std::vector<unsigned long>, std::allocator<std::vector<unsigned long>>>=^v^v{__compressed_pair<std::vector<unsigned long> *, std::allocator<std::vector<unsigned long>>>=^v}}16@0:8"
+
+```

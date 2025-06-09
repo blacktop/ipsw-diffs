@@ -1,0 +1,819 @@
+## MLRuntime
+
+> `/System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime`
+
+```diff
+
+-108.0.0.0.0
+-  __TEXT.__text: 0xc7f4
+-  __TEXT.__auth_stubs: 0x480
+-  __TEXT.__objc_methlist: 0xf18
+-  __TEXT.__const: 0xa0
+-  __TEXT.__cstring: 0xb36
+-  __TEXT.__oslogstring: 0xbed
+-  __TEXT.__gcc_except_tab: 0x2c8
+-  __TEXT.__unwind_info: 0x3a0
+-  __TEXT.__objc_classname: 0x2ee
+-  __TEXT.__objc_methname: 0x2881
+-  __TEXT.__objc_methtype: 0x681
+-  __TEXT.__objc_stubs: 0x1f40
+-  __DATA_CONST.__got: 0x200
+-  __DATA_CONST.__const: 0x240
+-  __DATA_CONST.__objc_classlist: 0xa8
+-  __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x68
++111.1.0.0.0
++  __TEXT.__text: 0x681c
++  __TEXT.__auth_stubs: 0x3c0
++  __TEXT.__objc_methlist: 0x968
++  __TEXT.__const: 0x70
++  __TEXT.__cstring: 0x5fe
++  __TEXT.__oslogstring: 0x470
++  __TEXT.__gcc_except_tab: 0x18
++  __TEXT.__unwind_info: 0x240
++  __TEXT.__objc_classname: 0x244
++  __TEXT.__objc_methname: 0x16f7
++  __TEXT.__objc_methtype: 0x446
++  __TEXT.__objc_stubs: 0x10e0
++  __DATA_CONST.__got: 0x170
++  __DATA_CONST.__const: 0x178
++  __DATA_CONST.__objc_classlist: 0x80
++  __DATA_CONST.__objc_catlist: 0x18
++  __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa98
++  __DATA_CONST.__objc_selrefs: 0x668
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__objc_superrefs: 0x90
+-  __AUTH_CONST.__auth_got: 0x250
++  __DATA_CONST.__objc_superrefs: 0x60
++  __AUTH_CONST.__auth_got: 0x1f0
+   __AUTH_CONST.__const: 0xa0
+-  __AUTH_CONST.__cfstring: 0xd60
+-  __AUTH_CONST.__objc_const: 0x1f78
+-  __AUTH.__objc_data: 0x3c0
+-  __DATA.__objc_ivar: 0xf4
+-  __DATA.__data: 0x4e0
++  __AUTH_CONST.__cfstring: 0x7c0
++  __AUTH_CONST.__objc_const: 0x13a8
++  __AUTH.__objc_data: 0x320
++  __DATA.__objc_ivar: 0x64
++  __DATA.__data: 0x420
+   __DATA.__bss: 0x50
+-  __DATA_DIRTY.__objc_data: 0x2d0
++  __DATA_DIRTY.__objc_data: 0x1e0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /System/Library/PrivateFrameworks/TrialProto.framework/TrialProto
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DA0BE876-D24D-3BCA-8892-E0A0F1492E8C
+-  Functions: 344
+-  Symbols:   1437
+-  CStrings:  873
++  UUID: 3EA1D543-C0A3-3752-8BCC-57B4D4DB8561
++  Functions: 191
++  Symbols:   874
++  CStrings:  503
+ 
+Symbols:
++ -[MLRServiceClient performOnRemoteObjectWithBlock:errorHandler:]
++ -[MLRServiceClient performOnRemoteObjectWithBlock:isSynchronous:errorHandler:]
++ -[MLRServiceClient performSynchronouslyOnRemoteObjectWithBlock:errorHandler:]
++ ___78-[MLRServiceClient performOnRemoteObjectWithBlock:isSynchronous:errorHandler:]_block_invoke
++ ___78-[MLRServiceClient performOnRemoteObjectWithBlock:isSynchronous:errorHandler:]_block_invoke_2
++ _objc_msgSend$performOnRemoteObjectWithBlock:errorHandler:
++ _objc_msgSend$performOnRemoteObjectWithBlock:isSynchronous:errorHandler:
+- +[MLRBMLTSchedulingPolicy supportsSecureCoding]
+- +[MLRInternalBMLTTask supportsSecureCoding]
+- +[MLRInternalTrialTask supportsSecureCoding]
+- +[MLRInternalTrialTaskResult supportsSecureCoding]
+- -[MLRBMLTSchedulingPolicy .cxx_destruct]
+- -[MLRBMLTSchedulingPolicy attachmentsFactorName]
+- -[MLRBMLTSchedulingPolicy description]
+- -[MLRBMLTSchedulingPolicy dictionaryRepresentation]
+- -[MLRBMLTSchedulingPolicy dodMLPredicate]
+- -[MLRBMLTSchedulingPolicy dodMLRequireDESRecordStore]
+- -[MLRBMLTSchedulingPolicy encodeWithCoder:]
+- -[MLRBMLTSchedulingPolicy initWithCoder:]
+- -[MLRBMLTSchedulingPolicy initWithDictionary:]
+- -[MLRBMLTSchedulingPolicy initWithDictionary:].cold.1
+- -[MLRBMLTSchedulingPolicy initWithDictionary:].cold.2
+- -[MLRBMLTSchedulingPolicy initWithTRIPBStruct:]
+- -[MLRBMLTSchedulingPolicy maxEvaluation]
+- -[MLRBMLTSchedulingPolicy maxRunTimeInSeconds]
+- -[MLRBMLTSchedulingPolicy pluginMinGapInSeconds]
+- -[MLRBMLTSchedulingPolicy recipeFactorName]
+- -[MLRBMLTSchedulingPolicy recipeID]
+- -[MLRBMLTSchedulingPolicy taskCount]
+- -[MLRBMLTSchedulingPolicy taskMinGapInSeconds]
+- -[MLRBMLTSchedulingPolicy taskType]
+- -[MLRBMLTSchedulingPolicy upload]
+- -[MLRExtensionRemoteContext createMLRTrialTaskWithTask:]
+- -[MLRExtensionRemoteContext loadPluginIfNecessaryWithError:]
+- -[MLRExtensionRemoteContext loadPluginIfNecessaryWithError:].cold.1
+- -[MLRExtensionRemoteContext loadPluginIfNecessaryWithError:].cold.2
+- -[MLRExtensionRemoteContext performSynchronouslyTask:sandBoxExtensions:error:]
+- -[MLRExtensionRemoteContext performSynchronouslyTask:sandBoxExtensions:error:].cold.1
+- -[MLRExtensionRemoteContext performSynchronouslyTask:sandBoxExtensions:error:].cold.2
+- -[MLRExtensionRemoteContext performSynchronouslyTrialTask:completion:]
+- -[MLRExtensionRemoteContext performSynchronouslyTrialTask:completion:].cold.1
+- -[MLRExtensionRemoteContext performTask:sandBoxExtensions:completion:]
+- -[MLRExtensionRemoteContext performTrialTask:completion:]
+- -[MLRExtensionRemoteContext plugin]
+- -[MLRExtensionRemoteContext processTaskResult:forTask:duration:error:]
+- -[MLRExtensionRemoteContext setPlugin:]
+- -[MLRExtensionRemoteContext setStopTransaction:]
+- -[MLRExtensionRemoteContext setTaskTransaction:]
+- -[MLRExtensionRemoteContext simulateCrash]
+- -[MLRExtensionRemoteContext simulateCrash].cold.1
+- -[MLRExtensionRemoteContext stopSynchronously]
+- -[MLRExtensionRemoteContext stopTransaction]
+- -[MLRExtensionRemoteContext stop]
+- -[MLRExtensionRemoteContext taskTransaction]
+- -[MLRInternalBMLTTask .cxx_destruct]
+- -[MLRInternalBMLTTask MLRSandboxExtensionRequests]
+- -[MLRInternalBMLTTask MLRTaskWithError:]
+- -[MLRInternalBMLTTask attachmentsDirURL]
+- -[MLRInternalBMLTTask attachmentsDirURL].cold.1
+- -[MLRInternalBMLTTask attachmentsDirURL].cold.2
+- -[MLRInternalBMLTTask attachmentsDirURL].cold.3
+- -[MLRInternalBMLTTask description]
+- -[MLRInternalBMLTTask downloadFactorsSynchronouslyWithError:]
+- -[MLRInternalBMLTTask downloadFactorsSynchronouslyWithError:].cold.1
+- -[MLRInternalBMLTTask downloadFactorsSynchronouslyWithError:].cold.2
+- -[MLRInternalBMLTTask encodeWithCoder:]
+- -[MLRInternalBMLTTask evaluateTargetingExpressionForPlugin:error:]
+- -[MLRInternalBMLTTask evaluateTargetingExpressionForPlugin:error:].cold.1
+- -[MLRInternalBMLTTask evaluateTargetingExpressionForPlugin:error:].cold.2
+- -[MLRInternalBMLTTask evaluateTargetingExpressionWithParameters:error:]
+- -[MLRInternalBMLTTask factorsState]
+- -[MLRInternalBMLTTask fetchDataIfNecessaryWithError:]
+- -[MLRInternalBMLTTask initWithCoder:]
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:]
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:]
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.1
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.2
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.3
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.4
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.5
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.6
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.7
+- -[MLRInternalBMLTTask initWithTRIClientBackgroundMLTask:factorsState:recordSet:].cold.8
+- -[MLRInternalBMLTTask performOnPlugin:error:]
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.1
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.2
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.3
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.4
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.5
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.6
+- -[MLRInternalBMLTTask performOnPlugin:error:].cold.7
+- -[MLRInternalBMLTTask pluginID]
+- -[MLRInternalBMLTTask policy]
+- -[MLRInternalBMLTTask recipeURL]
+- -[MLRInternalBMLTTask recipeURL].cold.1
+- -[MLRInternalBMLTTask recipeURL].cold.2
+- -[MLRInternalBMLTTask recipeURL].cold.3
+- -[MLRInternalBMLTTask recordSet]
+- -[MLRInternalBMLTTask submitTask:result:duration:errorToBeSubmitted:error:]
+- -[MLRInternalBMLTTask taskAttachmentsWithError:]
+- -[MLRInternalBMLTTask taskID]
+- -[MLRInternalBMLTTask taskParametersWithError:]
+- -[MLRInternalBMLTTask triBMLT]
+- -[MLRInternalBMLTTask triClient]
+- -[MLRInternalTrialTask .cxx_destruct]
+- -[MLRInternalTrialTask copyWithZone:]
+- -[MLRInternalTrialTask description]
+- -[MLRInternalTrialTask encodeWithCoder:]
+- -[MLRInternalTrialTask evaluationID]
+- -[MLRInternalTrialTask evaluationState]
+- -[MLRInternalTrialTask initWithCoder:]
+- -[MLRInternalTrialTask initWithEvaluationState:runtimeEvaluation:]
+- -[MLRInternalTrialTask initWithEvaluationState:runtimeEvaluation:pluginProjectId:]
+- -[MLRInternalTrialTask initWithEvaluationState:schedulingPolicy:pluginProjectId:]
+- -[MLRInternalTrialTask policy]
+- -[MLRInternalTrialTask projectId]
+- -[MLRInternalTrialTaskResult .cxx_destruct]
+- -[MLRInternalTrialTaskResult JSONResult]
+- -[MLRInternalTrialTaskResult copyWithZone:]
+- -[MLRInternalTrialTaskResult encodeWithCoder:]
+- -[MLRInternalTrialTaskResult initWithCoder:]
+- -[MLRInternalTrialTaskResult initWithJSONResult:]
+- -[MLRServiceClient performOnRemoteObjecWithBlock:errorHandler:]
+- -[MLRServiceClient performOnRemoteObjecWithBlock:isSynchronous:errorHandler:]
+- -[MLRServiceClient performSynchronouslyOnRemoteObjecWithBlock:errorHandler:]
+- -[MLRTask DESTask]
+- -[MLRTask initWithDodMLTask:]
+- -[MLRTask initWithParameters:attachments:internalTask:]
+- -[MLRTask internalTask]
+- -[MLRTrialTask initWithTriClient:].cold.2
+- -[MLRTrialTask initWithTrialTask:]
+- -[MLRTrialTask initWithTrialTask:].cold.1
+- -[MLRTrialTask initWithTrialTask:].cold.2
+- -[MLRTrialTaskSchedulingPolicy .cxx_destruct]
+- -[MLRTrialTaskSchedulingPolicy description]
+- -[MLRTrialTaskSchedulingPolicy endAtDate]
+- -[MLRTrialTaskSchedulingPolicy initWithMaxEvaluations:periodicIntervalSeconds:startAfterDate:endAtDate:taskID:]
+- -[MLRTrialTaskSchedulingPolicy initWithTRIMLRuntimeEvaluation:]
+- -[MLRTrialTaskSchedulingPolicy initWithTRIMLRuntimeEvaluation:].cold.1
+- -[MLRTrialTaskSchedulingPolicy initWithTRIMLRuntimeEvaluation:].cold.2
+- -[MLRTrialTaskSchedulingPolicy initWithTRIMLRuntimeEvaluation:].cold.3
+- -[MLRTrialTaskSchedulingPolicy maxPerformCount]
+- -[MLRTrialTaskSchedulingPolicy minInterval]
+- -[MLRTrialTaskSchedulingPolicy startAfterDate]
+- -[MLRTrialTaskSchedulingPolicy taskID]
+- -[TRIPBStruct(MLRuntime) mlr_arrayWithTRIPBListValue:]
+- -[TRIPBStruct(MLRuntime) mlr_dictionaryRepresentation]
+- -[TRIPBStruct(MLRuntime) mlr_objectForTRIPBValue:]
+- GCC_except_table18
+- GCC_except_table9
+- _DESLogAndSetSunsetError
+- _DESSubmissionLogDirectoryURL
+- _NSClassFromString
+- _NSInternalInconsistencyException
+- _NSLocalizedFailureReasonErrorKey
+- _OBJC_CLASS_$_DESRecordStoreManager
+- _OBJC_CLASS_$_DESSandBoxManager
+- _OBJC_CLASS_$_MLRBMLTSchedulingPolicy
+- _OBJC_CLASS_$_MLRInternalBMLTTask
+- _OBJC_CLASS_$_MLRInternalTrialTask
+- _OBJC_CLASS_$_MLRInternalTrialTaskResult
+- _OBJC_CLASS_$_MLRTrialTaskSchedulingPolicy
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_TRIClientBackgroundMLTask
+- _OBJC_CLASS_$_TRIDownloadOptions
+- _OBJC_CLASS_$_TRIFactorsState
+- _OBJC_CLASS_$_TRIMLRuntimeEvaluation
+- _OBJC_CLASS_$_TRIPBStruct
+- _OBJC_CLASS_$_TRIPBValue
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._attachmentsFactorName
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._dictionaryRepresentation
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._dodMLPredicate
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._dodMLRequireDESRecordStore
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._maxEvaluation
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._maxRunTimeInSeconds
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._pluginMinGapInSeconds
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._recipeFactorName
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._recipeID
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._taskCount
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._taskMinGapInSeconds
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._taskType
+- _OBJC_IVAR_$_MLRBMLTSchedulingPolicy._upload
+- _OBJC_IVAR_$_MLRExtensionRemoteContext._plugin
+- _OBJC_IVAR_$_MLRExtensionRemoteContext._stopTransaction
+- _OBJC_IVAR_$_MLRExtensionRemoteContext._taskTransaction
+- _OBJC_IVAR_$_MLRInternalBMLTTask._factorsState
+- _OBJC_IVAR_$_MLRInternalBMLTTask._pluginID
+- _OBJC_IVAR_$_MLRInternalBMLTTask._policy
+- _OBJC_IVAR_$_MLRInternalBMLTTask._recordSet
+- _OBJC_IVAR_$_MLRInternalBMLTTask._syncQueue
+- _OBJC_IVAR_$_MLRInternalBMLTTask._taskID
+- _OBJC_IVAR_$_MLRInternalBMLTTask._triBMLT
+- _OBJC_IVAR_$_MLRInternalBMLTTask._triClient
+- _OBJC_IVAR_$_MLRInternalTrialTask._evaluationID
+- _OBJC_IVAR_$_MLRInternalTrialTask._evaluationState
+- _OBJC_IVAR_$_MLRInternalTrialTask._policy
+- _OBJC_IVAR_$_MLRInternalTrialTask._projectId
+- _OBJC_IVAR_$_MLRInternalTrialTaskResult._JSONResult
+- _OBJC_IVAR_$_MLRTask._DESTask
+- _OBJC_IVAR_$_MLRTask._internalTask
+- _OBJC_IVAR_$_MLRTrialTaskSchedulingPolicy._endAtDate
+- _OBJC_IVAR_$_MLRTrialTaskSchedulingPolicy._maxPerformCount
+- _OBJC_IVAR_$_MLRTrialTaskSchedulingPolicy._minInterval
+- _OBJC_IVAR_$_MLRTrialTaskSchedulingPolicy._startAfterDate
+- _OBJC_IVAR_$_MLRTrialTaskSchedulingPolicy._taskID
+- _OBJC_METACLASS_$_MLRBMLTSchedulingPolicy
+- _OBJC_METACLASS_$_MLRInternalBMLTTask
+- _OBJC_METACLASS_$_MLRInternalTrialTask
+- _OBJC_METACLASS_$_MLRInternalTrialTaskResult
+- _OBJC_METACLASS_$_MLRTrialTaskSchedulingPolicy
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_TRIPBStruct_$_MLRuntime
+- __OBJC_$_CATEGORY_TRIPBStruct_$_MLRuntime
+- __OBJC_$_CLASS_METHODS_MLRBMLTSchedulingPolicy
+- __OBJC_$_CLASS_METHODS_MLRInternalBMLTTask
+- __OBJC_$_CLASS_METHODS_MLRInternalTrialTask
+- __OBJC_$_CLASS_METHODS_MLRInternalTrialTaskResult
+- __OBJC_$_CLASS_PROP_LIST_MLRBMLTSchedulingPolicy
+- __OBJC_$_CLASS_PROP_LIST_MLRInternalBMLTTask
+- __OBJC_$_CLASS_PROP_LIST_MLRInternalTrialTask
+- __OBJC_$_CLASS_PROP_LIST_MLRInternalTrialTaskResult
+- __OBJC_$_INSTANCE_METHODS_MLRBMLTSchedulingPolicy
+- __OBJC_$_INSTANCE_METHODS_MLRInternalBMLTTask
+- __OBJC_$_INSTANCE_METHODS_MLRInternalTrialTask
+- __OBJC_$_INSTANCE_METHODS_MLRInternalTrialTaskResult
+- __OBJC_$_INSTANCE_METHODS_MLRTrialTaskSchedulingPolicy
+- __OBJC_$_INSTANCE_VARIABLES_MLRBMLTSchedulingPolicy
+- __OBJC_$_INSTANCE_VARIABLES_MLRInternalBMLTTask
+- __OBJC_$_INSTANCE_VARIABLES_MLRInternalTrialTask
+- __OBJC_$_INSTANCE_VARIABLES_MLRInternalTrialTaskResult
+- __OBJC_$_INSTANCE_VARIABLES_MLRTrialTaskSchedulingPolicy
+- __OBJC_$_PROP_LIST_MLRBMLTSchedulingPolicy
+- __OBJC_$_PROP_LIST_MLRInternalBMLTTask
+- __OBJC_$_PROP_LIST_MLRInternalTaskRepresenting
+- __OBJC_$_PROP_LIST_MLRInternalTrialTask
+- __OBJC_$_PROP_LIST_MLRInternalTrialTaskResult
+- __OBJC_$_PROP_LIST_MLRTrialTaskSchedulingPolicy
+- __OBJC_$_PROP_LIST_TRIPBStruct_$_MLRuntime
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MLRExtensionRemoteProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MLRInternalTaskRepresenting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MLRExtensionRemoteProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MLRInternalTaskRepresenting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_REFS_MLRInternalTaskRepresenting
+- __OBJC_CLASS_PROTOCOLS_$_MLRBMLTSchedulingPolicy
+- __OBJC_CLASS_PROTOCOLS_$_MLRInternalBMLTTask
+- __OBJC_CLASS_PROTOCOLS_$_MLRInternalTrialTask
+- __OBJC_CLASS_PROTOCOLS_$_MLRInternalTrialTaskResult
+- __OBJC_CLASS_RO_$_MLRBMLTSchedulingPolicy
+- __OBJC_CLASS_RO_$_MLRInternalBMLTTask
+- __OBJC_CLASS_RO_$_MLRInternalTrialTask
+- __OBJC_CLASS_RO_$_MLRInternalTrialTaskResult
+- __OBJC_CLASS_RO_$_MLRTrialTaskSchedulingPolicy
+- __OBJC_LABEL_PROTOCOL_$_MLRInternalTaskRepresenting
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_METACLASS_RO_$_MLRBMLTSchedulingPolicy
+- __OBJC_METACLASS_RO_$_MLRInternalBMLTTask
+- __OBJC_METACLASS_RO_$_MLRInternalTrialTask
+- __OBJC_METACLASS_RO_$_MLRInternalTrialTaskResult
+- __OBJC_METACLASS_RO_$_MLRTrialTaskSchedulingPolicy
+- __OBJC_PROTOCOL_$_MLRInternalTaskRepresenting
+- __OBJC_PROTOCOL_$_NSCopying
+- ___32-[MLRInternalBMLTTask triClient]_block_invoke
+- ___33-[MLRExtensionRemoteContext stop]_block_invoke
+- ___45-[MLRInternalBMLTTask performOnPlugin:error:]_block_invoke
+- ___57-[MLRExtensionRemoteContext performTrialTask:completion:]_block_invoke
+- ___61-[MLRInternalBMLTTask downloadFactorsSynchronouslyWithError:]_block_invoke
+- ___70-[MLRExtensionRemoteContext performSynchronouslyTrialTask:completion:]_block_invoke
+- ___70-[MLRExtensionRemoteContext performTask:sandBoxExtensions:completion:]_block_invoke
+- ___77-[MLRServiceClient performOnRemoteObjecWithBlock:isSynchronous:errorHandler:]_block_invoke
+- ___77-[MLRServiceClient performOnRemoteObjecWithBlock:isSynchronous:errorHandler:]_block_invoke_2
+- ___block_descriptor_56_e8_32s40r48r_e20_v20?0B8"NSError"12lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e35_v24?0"MLRTaskResult"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e40_v24?0"MLRTrialTaskResult"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_sync
+- _dispatch_time
+- _kMLRTrialTaskMinInterval
+- _objc_msgSend$DESTask
+- _objc_msgSend$MLRTaskWithError:
+- _objc_msgSend$attachmentsDirURL
+- _objc_msgSend$attachmentsFactorName
+- _objc_msgSend$clientWithProjectId:factorsState:
+- _objc_msgSend$consumeExtensionsWithError:
+- _objc_msgSend$createMLRTrialTaskWithTask:
+- _objc_msgSend$customTargeting
+- _objc_msgSend$customTargetingKeysArray
+- _objc_msgSend$date
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$directoryValue
+- _objc_msgSend$distantFuture
+- _objc_msgSend$distantPast
+- _objc_msgSend$dodMLPredicate
+- _objc_msgSend$dodMLRequireDESRecordStore
+- _objc_msgSend$downloadFactorsSynchronouslyWithError:
+- _objc_msgSend$downloadLevelsForFactors:withNamespace:queue:options:progress:completion:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$endsAt
+- _objc_msgSend$evaluateBMLTTargetingExpression:withParameters:error:
+- _objc_msgSend$evaluateTargetingExpressionForPlugin:error:
+- _objc_msgSend$evaluateTargetingExpressionWithParameters:error:
+- _objc_msgSend$evaluationId
+- _objc_msgSend$evaluationState
+- _objc_msgSend$experimentIdentifiers
+- _objc_msgSend$fetchRecordSetSynchronouslyForBundleId:error:
+- _objc_msgSend$fields
+- _objc_msgSend$filteredRecordSetWithJSONPredicate:
+- _objc_msgSend$hasCustomTargeting
+- _objc_msgSend$hasDeploymentId
+- _objc_msgSend$hasEndsAt
+- _objc_msgSend$hasEvaluationId
+- _objc_msgSend$hasMaxEvaluations
+- _objc_msgSend$hasNamespaceId
+- _objc_msgSend$hasPeriodicIntervalSeconds
+- _objc_msgSend$hasPluginId
+- _objc_msgSend$hasProjectId
+- _objc_msgSend$hasSchedulingPolicy
+- _objc_msgSend$hasStartsAfter
+- _objc_msgSend$hasTaskId
+- _objc_msgSend$infoDictionary
+- _objc_msgSend$initWithContentsOfURL:error:
+- _objc_msgSend$initWithDESRecipe:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithEvaluationState:runtimeEvaluation:pluginProjectId:
+- _objc_msgSend$initWithEvaluationState:schedulingPolicy:pluginProjectId:
+- _objc_msgSend$initWithExtensions:
+- _objc_msgSend$initWithJSONResult:
+- _objc_msgSend$initWithMaxEvaluations:periodicIntervalSeconds:startAfterDate:endAtDate:taskID:
+- _objc_msgSend$initWithParameters:attachments:internalTask:
+- _objc_msgSend$initWithTRIClientBackgroundMLTask:factorsState:recordSet:
+- _objc_msgSend$initWithTRIMLRuntimeEvaluation:
+- _objc_msgSend$initWithTRIPBStruct:
+- _objc_msgSend$initWithTriClient:
+- _objc_msgSend$initWithTrialTask:
+- _objc_msgSend$initWithURL:error:
+- _objc_msgSend$initWithURLs:requireWrite:
+- _objc_msgSend$internalTask
+- _objc_msgSend$kindOneOfCase
+- _objc_msgSend$levelOneOfCase
+- _objc_msgSend$listValue
+- _objc_msgSend$loadPluginIfNecessaryWithError:
+- _objc_msgSend$matchingRecordSet
+- _objc_msgSend$maxEvaluations
+- _objc_msgSend$mlr_arrayWithTRIPBListValue:
+- _objc_msgSend$mlr_dictionaryRepresentation
+- _objc_msgSend$mlr_dictionaryValueForKey:
+- _objc_msgSend$mlr_objectForTRIPBValue:
+- _objc_msgSend$namespaceId
+- _objc_msgSend$null
+- _objc_msgSend$numberValue
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithDouble:
+- _objc_msgSend$performAsyncTask:completionHandler:
+- _objc_msgSend$performAsyncTrialTask:completionHandler:
+- _objc_msgSend$performOnPlugin:error:
+- _objc_msgSend$performOnRemoteObjecWithBlock:errorHandler:
+- _objc_msgSend$performOnRemoteObjecWithBlock:isSynchronous:errorHandler:
+- _objc_msgSend$performSynchronouslyTask:sandBoxExtensions:error:
+- _objc_msgSend$performSynchronouslyTrialTask:completion:
+- _objc_msgSend$performTask:outError:
+- _objc_msgSend$performTrialTask:outError:
+- _objc_msgSend$periodicIntervalSeconds
+- _objc_msgSend$plugin
+- _objc_msgSend$pluginId
+- _objc_msgSend$pluginProjectId
+- _objc_msgSend$projectId
+- _objc_msgSend$recipe
+- _objc_msgSend$recipeFactorName
+- _objc_msgSend$recipeID
+- _objc_msgSend$recipeURL
+- _objc_msgSend$recordDirURLsForBundleId:
+- _objc_msgSend$recordSet
+- _objc_msgSend$rolloutId
+- _objc_msgSend$rolloutIdentifiers
+- _objc_msgSend$schedulingPolicy
+- _objc_msgSend$sendEventRecordsMatchedForBundleID:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setPlugin:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$startsAfter
+- _objc_msgSend$stop
+- _objc_msgSend$stopSynchronously
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$stringValue
+- _objc_msgSend$structValue
+- _objc_msgSend$submitForTask:error:
+- _objc_msgSend$submitTask:result:duration:errorToBeSubmitted:error:
+- _objc_msgSend$targetingKeyValuePairsForKeys:error:
+- _objc_msgSend$taskAttachmentsWithError:
+- _objc_msgSend$taskID
+- _objc_msgSend$taskId
+- _objc_msgSend$taskParametersWithError:
+- _objc_msgSend$triBMLT
+- _objc_msgSend$upload
+- _objc_msgSend$valuesArray
+- _objc_opt_respondsToSelector
+- _objc_retain_x25
+- _objc_retain_x3
+- _os_transaction_create
+CStrings:
++ "API is deprecated"
++ "performOnRemoteObjectWithBlock:errorHandler:"
++ "performOnRemoteObjectWithBlock:isSynchronous:errorHandler:"
++ "performSynchronouslyOnRemoteObjectWithBlock:errorHandler:"
+- "#"
+- "%@(%@, %@, %ld)"
+- "%@(%lu, %f, %@, %@)"
+- "%@(BMLT=%@, recordSet=%@)"
+- "@"
+- "@\"<MLRTaskPerforming>\""
+- "@\"DESInternalDodMLTask\""
+- "@\"DESRecordSet\""
+- "@\"MLRBMLTSchedulingPolicy\""
+- "@\"MLRTrialTaskSchedulingPolicy\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSDate\""
+- "@\"NSObject<OS_os_transaction>\""
+- "@\"TRIClientBackgroundMLTask\""
+- "@\"TRIFactorsState\""
+- "@24@0:8^@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8@\"<MLRTaskPerforming>\"16^@24"
+- "@36@0:8@16@24i32"
+- "@48@0:8@16@24d32^@40"
+- "@56@0:8Q16d24@32@40@48"
+- "B24@0:8^@16"
+- "B56@0:8@16@24d32@40^@48"
+- "Cannot create MLRTrialTask for %@, missing entitlement?"
+- "Cannot initiate MLRuntimeTaskPrincipalClass"
+- "Cannot initiate class=%@ for bundle=%@"
+- "Custom targeting evaluated as false, predicate=%@, parameters=%@"
+- "DESTask"
+- "Evaluation cannot be nil."
+- "Fail to consume extensions for %@ with error=%@"
+- "Fail to create TRIClient: task=%@, error=%@"
+- "Fail to decode URL=(%@)"
+- "Fail to download factors for task=%@ with error=%@"
+- "Fail to download factors with error=%@"
+- "Fail to evaluate custom targeting expression for task=%@ with error=%@"
+- "Fail to fetch attachmentsDirURL"
+- "Fail to fetch recipeURL"
+- "Fail to initialize TRIClient with factoryState=%@."
+- "Fail to load task parameters for task=%@ with error=%@"
+- "Fail to submit result for plugin(%@) with error=%@"
+- "Fail to submit results for plugin=%@, error=%@"
+- "Failed to create MLRBMLTSchedulingPolicy with TRIClientBackgroundMLTask=%@"
+- "Finish downloading factors for %@"
+- "Ignore customTargeting=(%@) with empty customTargetingKeysArray"
+- "Invalid DodML client predicate for recipeID=%@"
+- "Invalid TRIClientBackgroundMLTask: no DeploymentId with bmlt=%@"
+- "Invalid TRIClientBackgroundMLTask: no NamespaceId with bmlt=%@"
+- "Invalid TRIClientBackgroundMLTask: no PluginId with bmlt=%@"
+- "Invalid TRIClientBackgroundMLTask: no ProjectId with bmlt=%@"
+- "Invalid TRIClientBackgroundMLTask: no TaskId with bmlt=%@"
+- "Invalid TRIClientBackgroundMLTask: no schedulingPolicy, TRIClientBackgroundMLTask=%@"
+- "Invalid TRIFactorsState: nil factorsState"
+- "Invalid schedulingPolicy: nil recipe_id"
+- "MLRBMLTSchedulingPolicy"
+- "MLRExtensionRemoteContext.performTask"
+- "MLRExtensionRemoteContext.startTrialTask"
+- "MLRExtensionRemoteContext.stop"
+- "MLRInternalBMLTTask"
+- "MLRInternalTaskRepresenting"
+- "MLRInternalTrialTask"
+- "MLRInternalTrialTaskResult"
+- "MLRSandboxExtensionRequests"
+- "MLRTaskWithError:"
+- "MLRTrialTaskSchedulingPolicy"
+- "MLRuntimeTaskPrincipalClass"
+- "NSCopying"
+- "Nil TRIClient: missing entitlement?"
+- "Nil obj in TRIPBStruct key%@, value=%@"
+- "Nil parameters returned for predicate=%@"
+- "No MLRuntimeTaskPrincipalClass Class found"
+- "No class (%@) found for bundle=%@"
+- "No matched DES records for recipeID=%@"
+- "Plugin did not terminate in timely fashion when asked to stop. The plugin should exit on request"
+- "Plugin fail to return JSON result"
+- "Plugin(%@) fail to return JSON result."
+- "Plugin(%@) return error=%@"
+- "Plugin(%@) return result=%@"
+- "Plugin=%@ return error=%@"
+- "Plugin=%@ return result=%@"
+- "RecordSet"
+- "Request plugin to start Trial task %@."
+- "Request plugin to start task %@."
+- "Request plugin to stop"
+- "Skip targeting expression evaluation: no predicate"
+- "T@\"<MLRTaskPerforming>\",&,N,V_plugin"
+- "T@\"DESInternalDodMLTask\",R,N,V_DESTask"
+- "T@\"DESRecordSet\",R,N,V_recordSet"
+- "T@\"MLRBMLTSchedulingPolicy\",R,N,V_policy"
+- "T@\"MLRTrialTaskSchedulingPolicy\",R,N,V_policy"
+- "T@\"NSDate\",R,N,V_endAtDate"
+- "T@\"NSDate\",R,N,V_startAfterDate"
+- "T@\"NSDictionary\",R,C,N,V_dictionaryRepresentation"
+- "T@\"NSDictionary\",R,C,N,V_dodMLPredicate"
+- "T@\"NSObject<OS_os_transaction>\",&,N,V_stopTransaction"
+- "T@\"NSObject<OS_os_transaction>\",&,N,V_taskTransaction"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_attachmentsFactorName"
+- "T@\"NSString\",R,C,N,V_pluginID"
+- "T@\"NSString\",R,C,N,V_recipeID"
+- "T@\"NSString\",R,C,N,V_taskID"
+- "T@\"NSString\",R,N,V_evaluationID"
+- "T@\"NSString\",R,N,V_taskID"
+- "T@\"TRIClientBackgroundMLTask\",R,N,V_triBMLT"
+- "T@\"TRIFactorsState\",R,N,V_evaluationState"
+- "T@\"TRIFactorsState\",R,N,V_factorsState"
+- "T@,R,N,V_internalTask"
+- "TB,R,N,V_dodMLRequireDESRecordStore"
+- "TQ,R,N,V_maxEvaluation"
+- "TQ,R,N,V_maxPerformCount"
+- "TQ,R,N,V_taskCount"
+- "TQ,R,N,V_taskType"
+- "TQ,R,N,V_upload"
+- "TRIFactorsState"
+- "TRIMLRuntimeEvaluation"
+- "Td,R,N,V_maxRunTimeInSeconds"
+- "Td,R,N,V_minInterval"
+- "Td,R,N,V_pluginMinGapInSeconds"
+- "Td,R,N,V_taskMinGapInSeconds"
+- "Ti,R,N,V_projectId"
+- "Timeout while downloading factors for task=%@"
+- "Trial.framework is not loaded."
+- "Unexpected type for factor %@"
+- "Unexpected type in TRIPBStruct"
+- "Unknown"
+- "Unknown taskType"
+- "_%d"
+- "_%u"
+- "_DESTask"
+- "_attachmentsFactorName"
+- "_dictionaryRepresentation"
+- "_dodMLPredicate"
+- "_dodMLRequireDESRecordStore"
+- "_endAtDate"
+- "_evaluationID"
+- "_evaluationState"
+- "_factorsState"
+- "_internalTask"
+- "_maxEvaluation"
+- "_maxPerformCount"
+- "_maxRunTimeInSeconds"
+- "_minInterval"
+- "_plugin"
+- "_pluginID"
+- "_pluginMinGapInSeconds"
+- "_policy"
+- "_projectId"
+- "_recipeID"
+- "_recordSet"
+- "_startAfterDate"
+- "_stopTransaction"
+- "_syncQueue"
+- "_taskCount"
+- "_taskID"
+- "_taskMinGapInSeconds"
+- "_taskTransaction"
+- "_taskType"
+- "_triBMLT"
+- "_upload"
+- "attachmentsDirURL"
+- "attachmentsFactorName"
+- "attachments_factor_name"
+- "clientWithProjectId:factorsState:"
+- "com.apple.MLRuntime.MLRInternalBMLTTask.syncQueue"
+- "consumeExtensionsWithError:"
+- "copyWithZone:"
+- "createMLRTrialTaskWithTask:"
+- "customTargeting"
+- "customTargetingKeysArray"
+- "d"
+- "d16@0:8"
+- "date"
+- "decodeInt32ForKey:"
+- "dictionaryWithValuesForKeys:error: not implemented"
+- "directoryValue"
+- "distantFuture"
+- "distantPast"
+- "dodMLPredicate"
+- "dodMLRequireDESRecordStore"
+- "dodml"
+- "downloadFactorsSynchronouslyWithError:"
+- "downloadLevelsForFactors:withNamespace:queue:options:progress:completion:"
+- "encodeInt32:forKey:"
+- "endAtDate"
+- "endsAt"
+- "evaluateBMLTTargetingExpression:withParameters:error:"
+- "evaluateTargetingExpressionForPlugin:error:"
+- "evaluateTargetingExpressionWithParameters:error:"
+- "evaluationID"
+- "evaluationId"
+- "evaluationState"
+- "experimentIdentifiers"
+- "factorsState"
+- "fail to create MLRTrialTask."
+- "fetchDataIfNecessaryWithError:"
+- "fetchRecordSetSynchronouslyForBundleId:error:"
+- "fields"
+- "fileLevel.directoryValue.path for %@ is nil"
+- "fileLevel.fileValue.path for %@ is nil"
+- "filteredRecordSetWithJSONPredicate:"
+- "hasCustomTargeting"
+- "hasDeploymentId"
+- "hasEndsAt"
+- "hasEvaluationId"
+- "hasMaxEvaluations"
+- "hasNamespaceId"
+- "hasPeriodicIntervalSeconds"
+- "hasPluginId"
+- "hasProjectId"
+- "hasSchedulingPolicy"
+- "hasStartsAfter"
+- "hasTaskId"
+- "i"
+- "i16@0:8"
+- "infoDictionary"
+- "initWithDictionary:"
+- "initWithDodMLTask:"
+- "initWithEvaluationState:runtimeEvaluation:"
+- "initWithEvaluationState:runtimeEvaluation:pluginProjectId:"
+- "initWithEvaluationState:schedulingPolicy:pluginProjectId:"
+- "initWithExtensions:"
+- "initWithMaxEvaluations:periodicIntervalSeconds:startAfterDate:endAtDate:taskID:"
+- "initWithParameters:attachments:internalTask:"
+- "initWithTRIClientBackgroundMLTask:factorsState:"
+- "initWithTRIClientBackgroundMLTask:factorsState:recordSet:"
+- "initWithTRIMLRuntimeEvaluation:"
+- "initWithTRIPBStruct:"
+- "initWithTrialTask:"
+- "internalTask"
+- "kindOneOfCase"
+- "levelOneOfCase"
+- "listValue"
+- "loadPluginIfNecessaryWithError:"
+- "matchingRecordSet"
+- "maxEvaluation"
+- "maxEvaluations"
+- "maxPerformCount"
+- "maxRunTimeInSeconds"
+- "max_evaluation"
+- "minInterval"
+- "min_gap_in_seconds"
+- "mlr_arrayWithTRIPBListValue:"
+- "mlr_dictionaryRepresentation"
+- "mlr_objectForTRIPBValue:"
+- "namespaceId"
+- "nil TRIClient"
+- "nil dictionary"
+- "null"
+- "numberValue"
+- "numberWithBool:"
+- "numberWithDouble:"
+- "path for %@: (%@)"
+- "performAsyncTask:completionHandler:"
+- "performAsyncTrialTask:completionHandler:"
+- "performOnPlugin:error:"
+- "performOnRemoteObjecWithBlock:errorHandler:"
+- "performOnRemoteObjecWithBlock:isSynchronous:errorHandler:"
+- "performSynchronouslyOnRemoteObjecWithBlock:errorHandler:"
+- "performSynchronouslyTask:sandBoxExtensions:error:"
+- "performSynchronouslyTrialTask:completion:"
+- "performTask:outError:"
+- "performTask:outError: not implemented"
+- "performTask:sandBoxExtensions:completion:"
+- "performTrialTask:completion:"
+- "performTrialTask:outError:"
+- "performTrialTask:outError: not implemented"
+- "periodicIntervalSeconds"
+- "plugin"
+- "pluginID"
+- "pluginId"
+- "pluginMinGapInSeconds"
+- "pluginProjectId"
+- "policy"
+- "policy cannot be nil."
+- "predicate"
+- "processTaskResult:forTask:duration:error:"
+- "projectId"
+- "recipe"
+- "recipeID"
+- "recipeURL"
+- "recipe_factor_name"
+- "recipe_id"
+- "recordDirURLsForBundleId:"
+- "recordSet"
+- "require_des_record_store"
+- "rolloutId"
+- "rolloutIdentifiers"
+- "schedulingPolicy"
+- "sendEventRecordsMatchedForBundleID:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setPlugin:"
+- "setStopTransaction:"
+- "setTaskTransaction:"
+- "setWithArray:"
+- "simulateCrash"
+- "startAfterDate"
+- "startsAfter"
+- "stop"
+- "stopSynchronously"
+- "stopTransaction"
+- "stringByAppendingFormat:"
+- "stringValue"
+- "structValue"
+- "submitTask:result:duration:errorToBeSubmitted:error:"
+- "targetingKeyValuePairsForKeys:error:"
+- "taskAttachmentsWithError:"
+- "taskCount"
+- "taskID"
+- "taskID cannot be nil."
+- "taskId"
+- "taskMinGapInSeconds"
+- "taskParametersWithError:"
+- "taskTransaction"
+- "taskType"
+- "task_type"
+- "triBMLT"
+- "triClient cannot be nil."
+- "upload"
+- "use _triClient before initialization"
+- "v20@?0B8@\"NSError\"12"
+- "v24@?0@\"MLRTrialTaskResult\"8@\"NSError\"16"
+- "v32@0:8@\"MLRInternalTrialTask\"16@?<v@?@\"MLRInternalTrialTaskResult\"@\"NSError\">24"
+- "v40@0:8@\"<MLRInternalTaskRepresenting>\"16@\"NSArray\"24@?<v@?@@\"NSError\">32"
+- "value class=%@, key=%@"
+- "valuesArray"
+
+```

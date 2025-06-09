@@ -1,0 +1,624 @@
+## SiriKitFlow
+
+> `/System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow`
+
+```diff
+
+-3405.28.4.0.0
+-  __TEXT.__text: 0x604074
+-  __TEXT.__auth_stubs: 0x5390
+-  __TEXT.__objc_methlist: 0x8a8
+-  __TEXT.__const: 0x24b28
+-  __TEXT.__cstring: 0x1bb04
+-  __TEXT.__constg_swiftt: 0x1820c
+-  __TEXT.__swift5_typeref: 0x10a1d
+-  __TEXT.__swift5_reflstr: 0xe4a6
+-  __TEXT.__swift5_fieldmd: 0xe56c
+-  __TEXT.__swift5_builtin: 0x744
+-  __TEXT.__swift5_assocty: 0x2558
+-  __TEXT.__oslogstring: 0x23467
+-  __TEXT.__swift5_proto: 0x1a18
+-  __TEXT.__swift5_types: 0x1040
+-  __TEXT.__swift_as_entry: 0x296c
+-  __TEXT.__swift_as_ret: 0x2c5c
+-  __TEXT.__swift5_capture: 0xcc40
+-  __TEXT.__swift5_mpenum: 0x348
++3500.50.2.0.0
++  __TEXT.__text: 0x5c5188
++  __TEXT.__auth_stubs: 0x5480
++  __TEXT.__objc_methlist: 0x8b8
++  __TEXT.__const: 0x2c5c0
++  __TEXT.__cstring: 0x1be34
++  __TEXT.__constg_swiftt: 0x183a4
++  __TEXT.__swift5_typeref: 0x10b57
++  __TEXT.__swift5_reflstr: 0xe606
++  __TEXT.__swift5_fieldmd: 0xe6d4
++  __TEXT.__swift5_builtin: 0x76c
++  __TEXT.__swift5_assocty: 0x2588
++  __TEXT.__oslogstring: 0x23867
++  __TEXT.__swift5_proto: 0x1a70
++  __TEXT.__swift5_types: 0x105c
++  __TEXT.__swift_as_entry: 0x2950
++  __TEXT.__swift_as_ret: 0x2c44
++  __TEXT.__swift5_capture: 0xbc84
++  __TEXT.__swift5_mpenum: 0x358
+   __TEXT.__swift5_protos: 0x3f4
+-  __TEXT.__unwind_info: 0x19e90
+-  __TEXT.__eh_frame: 0x37e04
++  __TEXT.__unwind_info: 0x18de0
++  __TEXT.__eh_frame: 0x35940
+   __TEXT.__objc_classname: 0x1cc
+-  __TEXT.__objc_methname: 0x419f
+-  __TEXT.__objc_methtype: 0x80e
++  __TEXT.__objc_methname: 0x4259
++  __TEXT.__objc_methtype: 0x83f
+   __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0x1748
+-  __DATA_CONST.__const: 0x3b28
+-  __DATA_CONST.__objc_classlist: 0x6e8
++  __DATA_CONST.__got: 0x1788
++  __DATA_CONST.__const: 0x3b30
++  __DATA_CONST.__objc_classlist: 0x6f8
+   __DATA_CONST.__objc_protolist: 0x170
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x19b8
++  __DATA_CONST.__objc_selrefs: 0x19f0
+   __DATA_CONST.__objc_protorefs: 0xb8
+-  __AUTH_CONST.__auth_got: 0x29d0
+-  __AUTH_CONST.__const: 0x30b90
++  __AUTH_CONST.__auth_got: 0x2a48
++  __AUTH_CONST.__const: 0x2e248
+   __AUTH_CONST.__cfstring: 0x2d20
+-  __AUTH_CONST.__objc_const: 0x114f0
+-  __AUTH.__objc_data: 0x550
+-  __AUTH.__data: 0xc008
+-  __DATA.__data: 0x138f8
+-  __DATA.__bss: 0x25b40
+-  __DATA.__common: 0x320
+-  __DATA_DIRTY.__objc_data: 0x2c0
+-  __DATA_DIRTY.__data: 0x9370
+-  __DATA_DIRTY.__bss: 0x6600
+-  __DATA_DIRTY.__common: 0x190
++  __AUTH_CONST.__objc_const: 0x11788
++  __AUTH.__objc_data: 0x4b0
++  __AUTH.__data: 0xba90
++  __DATA.__data: 0xc038
++  __DATA.__bss: 0x252e0
++  __DATA.__common: 0x308
++  __DATA_DIRTY.__objc_data: 0x360
++  __DATA_DIRTY.__data: 0xa330
++  __DATA_DIRTY.__bss: 0x7980
++  __DATA_DIRTY.__common: 0x1a0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/ManagedSettings.framework/ManagedSettings
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+
+   - /System/Library/PrivateFrameworks/SiriVirtualDeviceResolution.framework/SiriVirtualDeviceResolution
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F6FD175D-A78C-378F-A0E4-C3F14B0B0BCD
+-  Functions: 37129
+-  Symbols:   28514
+-  CStrings:  5973
++  UUID: BCF947B4-BCF4-39F7-A844-1BA9A1796B0C
++  Functions: 36491
++  Symbols:   26134
++  CStrings:  6013
+ 
+Symbols:
++ _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionContext
++ _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionEnded
++ _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionFailed
++ _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionMetadata
++ _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionStarted
++ __DATA__TtC11SiriKitFlow28SessionConfigurationProvider
++ __DATA__TtC11SiriKitFlow30AppIntentSELFPerformanceLogger
++ __IVARS__TtC11SiriKitFlow28SessionConfigurationProvider
++ __IVARS__TtC11SiriKitFlow30AppIntentSELFPerformanceLogger
++ __METACLASS_DATA__TtC11SiriKitFlow28SessionConfigurationProvider
++ __METACLASS_DATA__TtC11SiriKitFlow30AppIntentSELFPerformanceLogger
++ ___swift_coroFrameAllocStub
++ ___unnamed_19
++ ___unnamed_20
++ ___unnamed_21
++ ___unnamed_25
++ ___unnamed_26
++ ___unnamed_28
++ ___unnamed_29
++ ___unnamed_31
++ ___unnamed_32
++ ___unnamed_33
++ ___unnamed_34
++ ___unnamed_35
++ ___unnamed_36
++ ___unnamed_37
++ ___unnamed_38
++ ___unnamed_39
++ ___unnamed_63
++ ___unnamed_66
++ ___unnamed_72
++ ___unnamed_86
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriKitFlow
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriKitFlow
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriKitFlow
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO14NoMatchingToolV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOSHAASQ
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOSHAASQ
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOSHAASQ
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO32ValueSelectionRequiredCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO32ValueSelectionRequiredCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 11SiriKitFlow28SessionConfigurationProviderC0A9Utilities019MockableEnvironmentF0AA0F0AdEP_AD0aiF0
++ _associated conformance 11SiriKitFlow28SessionConfigurationProviderC0A9Utilities019MockableEnvironmentF0AaD0aiF0
++ _associated conformance 11SiriKitFlow28SessionConfigurationProviderC0A9Utilities0a11EnvironmentF0AA7Combine16ObservableObject
++ _associated conformance 11SiriKitFlow28SessionConfigurationProviderC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _block_copy_helper.3
++ _block_copy_helper.7
++ _block_descriptor.5
++ _block_descriptor.9
++ _block_destroy_helper.4
++ _block_destroy_helper.8
++ _get_type_metadata 15Synchronization5MutexVy11SiriKitFlow12MetricsState_pSgG.7
++ _get_witness_table 11SiriKitFlow017LifeCycleModifierC0Cys6ResultOyAA6InformC6StatusOs5Error_pGGAA06ActingC0HPyHC.19
++ _get_witness_table 11SiriKitFlow06ActingC0RzSb9ValueTypeRtzlAA09TransformC0CySbGAaBHPyHC.19
++ _get_witness_table 11SiriKitFlow06ActingC0RzlAA09TransformC0CySbGAaBHPyHC.18
++ _get_witness_table 11SiriKitFlow06ActingC0Rzs6ResultOyAA6InformC6StatusOs5Error_pG9ValueTypeRtzlAA017LifeCycleModifierC0CyAJGAaBHPyHC.20
++ _objectdestroy.19Tm
++ _objectdestroy.208Tm
++ _objectdestroy.229Tm
++ _objectdestroy.92Tm
++ _swift_coroFrameAlloc
++ _swift_runtimeSupportsNoncopyableTypes
++ _symbolic 7Success_____QzSbSgAD__________yAC______pGXjIegnyyr_ 11SiriKitFlow08ReactiveC4PlanP lAA06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic SS_____y___________pG_____Ieggno_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP AC0bC5EventC
++ _symbolic So12SISchemaUUIDC
++ _symbolic So25FLOWSchemaFLOWClientEventC
++ _symbolic So37FLOWSchemaFLOWDomainExecutionMetadataCSg
++ _symbolic _____ 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV
++ _symbolic _____ 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____ 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____ 11SiriKitFlow0A16XRedirectContextV14RedirectReasonO32ValueSelectionRequiredCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____ 11SiriKitFlow28SessionConfigurationProviderC
++ _symbolic _____ 11SiriKitFlow30AppIntentSELFPerformanceLoggerC
++ _symbolic _____ So33FLOWSchemaFLOWDomainExecutionTypeV
++ _symbolic _____Sg 11SiriKitFlow11IntentTopicV
++ _symbolic _____Sg 11SiriKitFlow16TemplatingResultV
++ _symbolic _____Sg 16SiriMessageTypes20SessionConfigurationV
++ _symbolic __________y___________pGXj l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP
++ _symbolic __________y___________pGXj7Success_____QzKc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP AA08ReactiveC4PlanP
++ _symbolic __________yq_______pGXj7Success_____Qzc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE s5ErrorP AA08ReactiveC4PlanP
++ _symbolic __________yq_______pGXjxc8producer_t l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic __________yq_______pGXjyc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic __________yx______pGXj l11SiriKitFlow17InputInterpreting_px5ValueRts_XPXGMq s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ______pSg 11SiriKitFlow30LocationAuthorizationProvidingP
++ _symbolic ______p_____y_____y10IntentType_____QzG______pGIegng_ 11SiriKitFlow30ResolveConfirmHandleProcessingP s6ResultOsRi_zRi0_zrlE AA010ResolutionhgH0C AA15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y7Success_____Qz______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow08ReactiveD4PlanP s5ErrorP
++ _symbolic _____y9ValueType_____Qz_____yyt______pGG 11SiriKitFlow07ChainedC0C AA06ActingC0P s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yAAy___________pGAC_pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
++ _symbolic _____ySSSg_____GIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow30AudioOutputContextRouteFailureO
++ _symbolic _____ySS______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySay22DisambiguationItemType_____QzG______pGIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow028UnsupportedUnsetRelationshipD8StrategyP s5ErrorP
++ _symbolic _____ySaySo13SABaseCommandCG______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySaySo9SAAceViewCG______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo13SABaseCommandC_____G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18SubmitCommandErrorO
++ _symbolic _____ySo13SASTItemGroupC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo20SAUIConfirmationViewC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo34SAIntentGroupHandleIntentCompletedC_____G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18SubmitCommandErrorO
++ _symbolic _____ySo35SAIntentGroupProcessIntentCompletedC_____G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18SubmitCommandErrorO
++ _symbolic _____ySo9SAAceViewC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____G 11SiriKitFlow12PromptResultO AA23UnsetRelationshipPersonV
++ _symbolic _____y_____G 11SiriKitFlow22PaginatedItemContainerV 0A13AppResolution0G0C
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO14NoMatchingToolV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO32ValueSelectionRequiredCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO21UnableToHandleRequestV10CodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO24UnableToHandleCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 11SiriKitFlow0D16XRedirectContextV14RedirectReasonO32ValueSelectionRequiredCodingKeys33_545B0424D2A613F4290CACC1EE5C411FLLO
++ _symbolic _____y_____GSg 13SiriUtilities29EnvironmentProviderMockHelperC 0A7KitFlow020SessionConfigurationD0C
++ _symbolic _____y_____SgG 13SiriUtilities17MockablePublishedC 0A12MessageTypes20SessionConfigurationV
++ _symbolic _____y_____Sg_G 13SiriUtilities17MockablePublishedC9PublisherV 0A12MessageTypes20SessionConfigurationV
++ _symbolic _____y_____Sg______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y_____Sg______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow23UnsetRelationshipPersonV s5ErrorP
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 32SiriReferenceResolutionDataModel8RREntityV 0B7KitFlow011CompositionD5ErrorO
++ _symbolic _____y__________GIegHr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________GIegHr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________GIegHr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
++ _symbolic _____y__________GIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________GIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
++ _symbolic _____y__________GIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
++ _symbolic _____y__________GSg s6ResultOsRi_zRi0_zrlE 32SiriReferenceResolutionDataModel8RREntityV 0B7KitFlow011CompositionD5ErrorO
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow15HandoffResponseV s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow17RelationshipLabelO s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 12FlowFrameKit14UnderstandableO s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 17SiriAppResolution0cdA0O s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 32SiriReferenceResolutionDataModel8RRResultO s5ErrorP
++ _symbolic _____y___________pGIegHr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow0bC14AceViewBuilderC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow0bC25DisambiguationListAdapterC s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow0bC25DisambiguationListAdapterC s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow15HandoffResponseV s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultOsRi_zRi0_zrlE 12FlowFrameKit14UnderstandableO s5ErrorP
++ _symbolic _____y___________pGSg s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
++ _symbolic _____y___________pGytIegnr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
++ _symbolic _____y______p13handoffOutput_SS16notificationTextt______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y______p13handoffOutput_SS16notificationTextt______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y______pSgG 15Synchronization5MutexVAARi_zrlE 11SiriKitFlow12MetricsStateP
++ _symbolic _____y______p______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y______p______pG s6ResultOsRi_zRi0_zrlE 17SiriAppResolution0cD14StateProvidingP s5ErrorP
++ _symbolic _____y______p______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y______p______pGIegn_Iegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow012HandleIntentd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow012RCHFlowFrameA0V AC0E8DelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014ResolveConfirmd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow012HandleIntentd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____QzGSg______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18IntentPromptAnswerV AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____QzG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010Resolutiona10ProcessingA0C AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____y10IntentType_____QzG______pGIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow15AnnotatedIntentC AC0F13ErrorHandlingP s0G0P
++ _symbolic _____y_____y10IntentType_____QzG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow23NeedsConfirmationAnswerV AC15RCHFlowDelegateP s5ErrorP
++ _symbolic _____y_____yABy___________pGAD_pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP
++ _symbolic _____y_____ySo8SAPersonCG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow32BasicDisambiguationItemContainerC s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
++ _symbolic _____y_____y_____G______pGIegHr_ s6ResultOsRi_zRi0_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
++ _symbolic _____y_____y_____G______pGIegn_ s6ResultOsRi_zRi0_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
++ _symbolic _____y_____y___________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP
++ _symbolic _____y_____y___________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zRi0_zrlE AA6InformC6StatusO s5ErrorP
++ _symbolic _____y_____y___________pGG 11SiriKitFlow6PromptC s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP
++ _symbolic _____y_____y___________pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zRi0_zrlE AA20ConfirmationResponseO s5ErrorP
++ _symbolic _____y_____y___________pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zRi0_zrlE AA6InformC6StatusO s5ErrorP
++ _symbolic _____y_____yqd________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yxq0_q__G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20DisambiguationPromptC8ResponseO s5ErrorP
++ _symbolic _____y_____yxq_q0__G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow20DisambiguationPromptC8ResponseO s5ErrorP
++ _symbolic _____y_____yyt______pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yyt______pGG 11SiriKitFlow08AnyValueC0C s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yyt______pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yyt______pGGyc 11SiriKitFlow08AnyValueC0C s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yq_______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yqd________pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yqd________pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yx_____GIeghn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18SubmitCommandErrorO
++ _symbolic _____yx______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yx______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyp______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt_____GIegHr_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow14CommandFailureC
++ _symbolic _____yyt_____GIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow14CommandFailureC
++ _symbolic _____yyt_____GIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow14CommandFailureC
++ _symbolic _____yyt______G 11SiriKitFlow022WindowingOrchestrationC0C06WindowC18ProviderParameters016_092A4A13DC26808I15EB40CDEA2D5E35DLLV AA28LexicalWindowedContentSourceC
++ _symbolic _____yyt______G 11SiriKitFlow022WindowingOrchestrationC0C5State016_092A4A13DC26808G15EB40CDEA2D5E35DLLO AA28LexicalWindowedContentSourceC
++ _symbolic _____yyt______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGm s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic qd____________yqd_0_7Failure_____QzGXjIegnr_ l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zRi0_zrlE 7Combine9PublisherP
++ _symbolic yy_____y___________pGcc s6ResultOsRi_zRi0_zrlE 11SiriKitFlow13ResponseChunkC s5ErrorP
++ _symbolic yy_____y______p______pGcc s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _OUTLINED_FUNCTION_329
+- _OUTLINED_FUNCTION_330
+- _OUTLINED_FUNCTION_331
+- _OUTLINED_FUNCTION_332
+- _OUTLINED_FUNCTION_333
+- _OUTLINED_FUNCTION_334
+- _OUTLINED_FUNCTION_335
+- _OUTLINED_FUNCTION_336
+- _OUTLINED_FUNCTION_337
+- _OUTLINED_FUNCTION_338
+- _OUTLINED_FUNCTION_339
+- _OUTLINED_FUNCTION_340
+- _OUTLINED_FUNCTION_341
+- _OUTLINED_FUNCTION_342
+- _OUTLINED_FUNCTION_343
+- _OUTLINED_FUNCTION_344
+- _OUTLINED_FUNCTION_345
+- _OUTLINED_FUNCTION_346
+- _OUTLINED_FUNCTION_347
+- _OUTLINED_FUNCTION_348
+- _OUTLINED_FUNCTION_349
+- _OUTLINED_FUNCTION_350
+- _OUTLINED_FUNCTION_351
+- _OUTLINED_FUNCTION_352
+- _OUTLINED_FUNCTION_353
+- _OUTLINED_FUNCTION_354
+- _OUTLINED_FUNCTION_355
+- _OUTLINED_FUNCTION_356
+- _OUTLINED_FUNCTION_357
+- _OUTLINED_FUNCTION_358
+- _OUTLINED_FUNCTION_359
+- _OUTLINED_FUNCTION_360
+- _OUTLINED_FUNCTION_361
+- _OUTLINED_FUNCTION_362
+- _OUTLINED_FUNCTION_363
+- _OUTLINED_FUNCTION_364
+- _OUTLINED_FUNCTION_365
+- _OUTLINED_FUNCTION_366
+- _OUTLINED_FUNCTION_367
+- _OUTLINED_FUNCTION_368
+- _OUTLINED_FUNCTION_369
+- _OUTLINED_FUNCTION_370
+- _OUTLINED_FUNCTION_371
+- _OUTLINED_FUNCTION_372
+- _OUTLINED_FUNCTION_373
+- _OUTLINED_FUNCTION_374
+- _OUTLINED_FUNCTION_375
+- _OUTLINED_FUNCTION_376
+- _OUTLINED_FUNCTION_377
+- _OUTLINED_FUNCTION_378
+- _OUTLINED_FUNCTION_379
+- _OUTLINED_FUNCTION_380
+- _OUTLINED_FUNCTION_381
+- _OUTLINED_FUNCTION_382
+- _OUTLINED_FUNCTION_383
+- _OUTLINED_FUNCTION_384
+- _OUTLINED_FUNCTION_385
+- _OUTLINED_FUNCTION_386
+- _OUTLINED_FUNCTION_387
+- _OUTLINED_FUNCTION_388
+- _OUTLINED_FUNCTION_389
+- _OUTLINED_FUNCTION_390
+- _OUTLINED_FUNCTION_391
+- _OUTLINED_FUNCTION_392
+- _OUTLINED_FUNCTION_393
+- ___unnamed_42
+- ___unnamed_45
+- ___unnamed_47
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriKitFlow
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriKitFlow
+- _block_copy_helper.2
+- _block_copy_helper.22
+- _block_descriptor.24
+- _block_descriptor.4
+- _block_destroy_helper.23
+- _block_destroy_helper.3
+- _get_witness_table 11SiriKitFlow017LifeCycleModifierC0Cys6ResultOyAA6InformC6StatusOs5Error_pGGAA06ActingC0HPyHC.17
+- _get_witness_table 11SiriKitFlow06ActingC0RzSb9ValueTypeRtzlAA09TransformC0CySbGAaBHPyHC.18
+- _get_witness_table 11SiriKitFlow06ActingC0RzlAA09TransformC0CySbGAaBHPyHC.17
+- _get_witness_table 11SiriKitFlow06ActingC0Rzs6ResultOyAA6InformC6StatusOs5Error_pG9ValueTypeRtzlAA017LifeCycleModifierC0CyAJGAaBHPyHC.18
+- _objectdestroy.147Tm
+- _objectdestroy.209Tm
+- _objectdestroy.210Tm
+- _objectdestroy.42Tm
+- _objectdestroy.82Tm
+- _symbolic 7Success_____QzSbSgAD__________yAC______pGXjIegnyyr_ 11SiriKitFlow08ReactiveC4PlanP lAA06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE s5ErrorP
+- _symbolic SSIego_
+- _symbolic SS_____y___________pG_____Ieggno_ s6ResultOsRi_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP AC0bC5EventC
+- _symbolic SaySsG
+- _symbolic SbIegd_
+- _symbolic SiIegd_
+- _symbolic SiIegr_
+- _symbolic So13DialogElementC
+- _symbolic So26SAUIAssistantUtteranceViewC
+- _symbolic _____ SS5IndexV
+- _symbolic _____ s5UInt8V
+- _symbolic _____Iegd_ s5Int32V
+- _symbolic _____Iegr_ 13SiriUtilities12ResponseModeV
+- _symbolic _____Iegr_ s5Int32V
+- _symbolic __________y___________pGXj l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP
+- _symbolic __________y___________pGXj7Success_____QzKc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP AA08ReactiveC4PlanP
+- _symbolic __________yq_______pGXj7Success_____Qzc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE s5ErrorP AA08ReactiveC4PlanP
+- _symbolic __________yq_______pGXjxc8producer_t l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE s5ErrorP
+- _symbolic __________yq_______pGXjyc l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE s5ErrorP
+- _symbolic __________yx______pGXj l11SiriKitFlow17InputInterpreting_px5ValueRts_XPXGMq s6ResultOsRi_zrlE s5ErrorP
+- _symbolic ______p_____y_____y10IntentType_____QzG______pGIegng_ 11SiriKitFlow30ResolveConfirmHandleProcessingP s6ResultOsRi_zrlE AA010ResolutionhgH0C AA15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y7Success_____Qz______pG s6ResultOsRi_zrlE 11SiriKitFlow08ReactiveD4PlanP s5ErrorP
+- _symbolic _____y9ValueType_____Qz_____yyt______pGG 11SiriKitFlow07ChainedC0C AA06ActingC0P s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yAAy___________pGAC_pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
+- _symbolic _____ySSSg_____GIegn_ s6ResultOsRi_zrlE 11SiriKitFlow30AudioOutputContextRouteFailureO
+- _symbolic _____ySS______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySay22DisambiguationItemType_____QzG______pGIegg_ s6ResultOsRi_zrlE 11SiriKitFlow028UnsupportedUnsetRelationshipD8StrategyP s5ErrorP
+- _symbolic _____ySaySo13SABaseCommandCG______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySaySo9SAAceViewCG______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo13SABaseCommandC_____G s6ResultOsRi_zrlE 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____ySo13SASTItemGroupC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo20SAUIConfirmationViewC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySo34SAIntentGroupHandleIntentCompletedC_____G s6ResultOsRi_zrlE 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____ySo35SAIntentGroupProcessIntentCompletedC_____G s6ResultOsRi_zrlE 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____ySo9SAAceViewC______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y__________G s6ResultOsRi_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________G s6ResultOsRi_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________G s6ResultOsRi_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________G s6ResultOsRi_zrlE 32SiriReferenceResolutionDataModel8RREntityV 0B7KitFlow011CompositionD5ErrorO
+- _symbolic _____y__________GIegHr_ s6ResultOsRi_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________GIegHr_ s6ResultOsRi_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________GIegHr_ s6ResultOsRi_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
+- _symbolic _____y__________GIegn_ s6ResultOsRi_zrlE 11SiriKitFlow016HandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________GIegn_ s6ResultOsRi_zrlE 11SiriKitFlow020AutoHandleProcessingA0O AC14CommandFailureC
+- _symbolic _____y__________GIegn_ s6ResultOsRi_zrlE 11SiriKitFlow024ResolveConfirmProcessingA0O AC0eF5ErrorO
+- _symbolic _____y__________GSg s6ResultOsRi_zrlE 32SiriReferenceResolutionDataModel8RREntityV 0B7KitFlow011CompositionD5ErrorO
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow15HandoffResponseV s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow17RelationshipLabelO s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 12FlowFrameKit14UnderstandableO s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 17SiriAppResolution0cdA0O s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 32SiriReferenceResolutionDataModel8RRResultO s5ErrorP
+- _symbolic _____y___________pGIegHr_ s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 11SiriKitFlow0bC14AceViewBuilderC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 11SiriKitFlow0bC25DisambiguationListAdapterC s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow0bC25DisambiguationListAdapterC s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow15HandoffResponseV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow20ConfirmationResponseO s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 12FlowFrameKit14UnderstandableO s5ErrorP
+- _symbolic _____y___________pGSg s6ResultOsRi_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
+- _symbolic _____y___________pGytIegnr_ s6ResultOsRi_zrlE 11SiriKitFlow6InformC6StatusO s5ErrorP
+- _symbolic _____y______p13handoffOutput_SS16notificationTextt______pG s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y______p13handoffOutput_SS16notificationTextt______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y______p______pG s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y______p______pG s6ResultOsRi_zrlE 17SiriAppResolution0cD14StateProvidingP s5ErrorP
+- _symbolic _____y______p______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y______p______pGIegn_Iegg_ s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zrlE 11SiriKitFlow012HandleIntentd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zrlE 11SiriKitFlow012RCHFlowFrameA0V AC0E8DelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pG s6ResultOsRi_zrlE 11SiriKitFlow014ResolveConfirmd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____Qz0a8ResponseB0ADQzG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow012HandleIntentd5FrameA0V AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____QzGSg______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow18IntentPromptAnswerV AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____QzG______pG s6ResultOsRi_zrlE 11SiriKitFlow010Resolutiona10ProcessingA0C AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____y10IntentType_____QzG______pGIegg_ s6ResultOsRi_zrlE 11SiriKitFlow15AnnotatedIntentC AC0F13ErrorHandlingP s0G0P
+- _symbolic _____y_____y10IntentType_____QzG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow23NeedsConfirmationAnswerV AC15RCHFlowDelegateP s5ErrorP
+- _symbolic _____y_____yABy___________pGAD_pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP
+- _symbolic _____y_____ySo8SAPersonCG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow32BasicDisambiguationItemContainerC s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
+- _symbolic _____y_____y_____G______pGIegHr_ s6ResultOsRi_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
+- _symbolic _____y_____y_____G______pGIegn_ s6ResultOsRi_zrlE 12FlowFrameKit0C9OperationV 04SiridB00fdbC5InputV s5ErrorP
+- _symbolic _____y_____y___________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP
+- _symbolic _____y_____y___________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zrlE AA6InformC6StatusO s5ErrorP
+- _symbolic _____y_____y___________pGG 11SiriKitFlow6PromptC s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP
+- _symbolic _____y_____y___________pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zrlE AA20ConfirmationResponseO s5ErrorP
+- _symbolic _____y_____y___________pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zrlE AA6InformC6StatusO s5ErrorP
+- _symbolic _____y_____yqd________pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____yxq0_q__G______pG s6ResultOsRi_zrlE 11SiriKitFlow20DisambiguationPromptC8ResponseO s5ErrorP
+- _symbolic _____y_____yxq_q0__G______pG s6ResultOsRi_zrlE 11SiriKitFlow20DisambiguationPromptC8ResponseO s5ErrorP
+- _symbolic _____y_____yyt______pGG 11SiriKitFlow017LifeCycleModifierC0C s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____yyt______pGG 11SiriKitFlow08AnyValueC0C s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____yyt______pGG 11SiriKitFlow8ConcludeV s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____yyt______pGGyc 11SiriKitFlow08AnyValueC0C s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yq_______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yqd________pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yqd________pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yx_____GIeghn_ s6ResultOsRi_zrlE 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____yx______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yx______pGSg s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztcG s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____yyp______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt_____GIegHr_ s6ResultOsRi_zrlE 11SiriKitFlow14CommandFailureC
+- _symbolic _____yyt_____GIegg_ s6ResultOsRi_zrlE 11SiriKitFlow14CommandFailureC
+- _symbolic _____yyt_____GIegn_ s6ResultOsRi_zrlE 11SiriKitFlow14CommandFailureC
+- _symbolic _____yyt______pG s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt______pGSg s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt______pGm s6ResultOsRi_zrlE s5ErrorP
+- _symbolic qd____________yqd_0_7Failure_____QzGXjIegnr_ l11SiriKitFlow06ActingC0_px9ValueTypeRts_XPXGMq s6ResultOsRi_zrlE 7Combine9PublisherP
+- _symbolic ySpy_____Gz_SpySo8NSObjectCSgGSgzSpyypGSgztc s5UInt8V
+- _symbolic yy_____y___________pGcc s6ResultOsRi_zrlE 11SiriKitFlow13ResponseChunkC s5ErrorP
+- _symbolic yy_____y______p______pGcc s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+CStrings:
++ "    Error, event wasn't logged successfully.\n    Make sure that you called end() for every initialized AppIntentSELFPerformanceLogger"
++ "    Sent FLOWSchemaFLOWDomainExecutionEnded:\n        type: %s\n        contextId: %@\n        taskType: %s"
++ "    Sent FLOWSchemaFLOWDomainExecutionFailed\n        type: %s\n        contextId: %@\n        taskType: %s"
++ "    Sent FLOWSchemaFLOWDomainExecutionStarted:\n        type: %s\n        contextId: %@\n        taskType: %s"
++ " useConverationSnippetAsSmartDialogOverrideInSAE="
++ "%s\n%{public}s: %s\n    at %{public}s:%{public}ld"
++ "/Library/Caches/com.apple.xbs/Sources/SiriKitExecutor/SiriKitFlow/AppIntentLatency/AppIntentSELFPerformanceLogger.swift"
++ "AppShortcuts enablement result=%{bool}d"
++ "Couldn't initialize FLOWSchemaFLOWDomainExecutionEnded"
++ "Couldn't initialize FLOWSchemaFLOWDomainExecutionFailed"
++ "Couldn't initialize FLOWSchemaFLOWDomainExecutionStarted"
++ "Couldn't initialize end FLOWSchemaFLOWDomainExecutionContext"
++ "Couldn't initialize failed FLOWSchemaFLOWDomainExecutionContext"
++ "Couldn't initialize start FLOWSchemaFLOWDomainExecutionContext"
++ "Couldn't log start event"
++ "Encore feature is disabled on HomePods and AppleTV devices we should not have reached here. This needs to be investigated."
++ "ExecuteOnRemoteFlow: companionName: %s"
++ "HomePodSpeechProfileCheckFlow: companionName: %s"
++ "NOT fully implemented: AppShortcutProviding.areAppShortcutsEnabled(bundleId:)"
++ "PerformanceLogging"
++ "Siri is not enabled on the companion device"
++ "_TtC11SiriKitFlow28SessionConfigurationProvider"
++ "_TtC11SiriKitFlow30AppIntentSELFPerformanceLogger"
++ "_sessionConfiguration"
++ "areAppShortcutsEnabled(bundleId:)"
++ "cannot get AppShortcuts enablement result; defaulting to: %{bool}d"
++ "companionName"
++ "contextId"
++ "endClientEvent"
++ "eventLoggedSuccessfully"
++ "executor:needsChoiceWithRequest:"
++ "instanceIdentifier"
++ "isPersonalContent"
++ "metadata"
++ "rewrittenUtterance"
++ "setContextId:"
++ "setDomainExecutionAppIntentBundleID:"
++ "setDomainExecutionMetadata:"
++ "setDomainExecutionType:"
++ "setFlowDomainExecutionContext:"
++ "startAlreadyCalled"
++ "startClientEvent"
++ "taskType"
++ "v32@0:8@\"LNActionExecutor\"16@\"LNChoiceRequest\"24"
++ "valueSelectionRequired"
+- "#SiriLocationAccessCheckFlow - starting with overridden state for shouldCleanupTCCDialog=%{bool}d"
+- "Encore feature is disabled on HomePods we should not have reached here. This needs to be investigated."
+- "IsDeviceOwner: %{bool}d"
+- "areAppShortcutsEnabled(for:)"
+- "isDeviceOwner"
+- "userAssignedDeviceName"
+
+```

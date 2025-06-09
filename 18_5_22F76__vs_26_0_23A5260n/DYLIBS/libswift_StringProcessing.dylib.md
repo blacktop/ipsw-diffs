@@ -1,0 +1,175 @@
+## libswift_StringProcessing.dylib
+
+> `/usr/lib/swift/libswift_StringProcessing.dylib`
+
+```diff
+
+-6.1.2.1.2
+-  __TEXT.__text: 0x7d624
++6.2.0.9.950
++  __TEXT.__text: 0x791ac
+   __TEXT.__auth_stubs: 0x1900
+-  __TEXT.__const: 0x5251
+-  __TEXT.__cstring: 0x11aa
+-  __TEXT.__swift5_typeref: 0x1299
++  __TEXT.__const: 0x5241
++  __TEXT.__cstring: 0x117a
++  __TEXT.__swift5_typeref: 0x12b1
+   __TEXT.__swift5_capture: 0x7fc
+-  __TEXT.__swift5_reflstr: 0xd3c
++  __TEXT.__swift5_reflstr: 0xd4c
+   __TEXT.__swift5_assocty: 0x518
+   __TEXT.__swift5_fieldmd: 0x14d4
+   __TEXT.__constg_swiftt: 0x1120
+
+   __TEXT.__swift5_mpenum: 0x34
+   __TEXT.__swift5_protos: 0x2c
+   __TEXT.__swift5_proto: 0x1b0
+-  __TEXT.__swift5_types: 0x19c
+-  __TEXT.__unwind_info: 0x10a0
+-  __TEXT.__eh_frame: 0xc48
+-  __DATA_CONST.__got: 0xd78
++  __TEXT.__swift5_types: 0x1a0
++  __TEXT.__unwind_info: 0x1040
++  __TEXT.__eh_frame: 0xcc0
++  __DATA_CONST.__got: 0xd80
+   __DATA_CONST.__const: 0x18
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __AUTH_CONST.__auth_got: 0xc80
+-  __AUTH_CONST.__const: 0x31d0
++  __AUTH_CONST.__const: 0x3270
+   __AUTH_CONST.__objc_const: 0x188
+   __AUTH.__data: 0x2d8
+-  __DATA.__data: 0x390
+-  __DATA.__bss: 0x3a50
+-  __DATA_DIRTY.__data: 0x960
+-  __DATA_DIRTY.__bss: 0x680
++  __DATA.__data: 0x360
++  __DATA.__bss: 0x3750
++  __DATA_DIRTY.__data: 0x998
++  __DATA_DIRTY.__bss: 0x980
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswift_RegexParser.dylib
+-  UUID: 42474211-DD8B-3CAB-9353-398B005207DB
+-  Functions: 1883
+-  Symbols:   6248
+-  CStrings:  111
++  UUID: 03FA05BC-11D8-3F45-B6EA-D66BF25504E4
++  Functions: 1861
++  Symbols:   6207
++  CStrings:  110
+ 
+Symbols:
++ _$s17_StringProcessing13SplitSequenceV8IteratorV4next8Searched_03SubD0QZSgyFAA17SubstringSearcherV_Tg5
++ _$s17_StringProcessing13SplitSequenceV8IteratorVyAA17SubstringSearcherV_GMD
++ _$s17_StringProcessing13SplitSequenceVyAA17SubstringSearcherVGMD
++ _$s17_StringProcessing13SplitSequenceVyAA17SubstringSearcherVGWOhTm
++ _$s17_StringProcessing14RangesSequenceVyAA9ZSearcherVySsGGMD
++ _$s17_StringProcessing17SubstringSearcherVWOc
++ _$s17_StringProcessing17SubstringSearcherVWOh
++ _$s17_StringProcessing21RegexCompilationErrorO2eeoiySbAC_ACtFZTf4nnd_n
++ _$s17_StringProcessing30scriptExtensionScalarPredicate33_B0851FDC6BBCC419F5470EBC884D2DD0LLySbs7UnicodeO0E0VcAE12_RegexParserE6ScriptOFSbAGcfU_
++ _$s17_StringProcessing9ProcessorV11matchScalar_13boundaryCheck17isCaseInsensitiveSbs7UnicodeO0E0V_S2btF
++ _$s17_StringProcessing9ProcessorV5match_17isCaseInsensitiveSbSJ_SbtF
++ _$s17_StringProcessing9ProcessorV9RegistersVWOc
++ _$s17_StringProcessing9ProcessorV9SavePointVSgMJ
++ _$s17_StringProcessing9ProcessorV9SavePointVSgMN
++ _$s17_StringProcessing9ProcessorV9SavePointVSgWV
++ _$s17_StringProcessing9ProcessorV9SavePointVWOh
++ _$s17_StringProcessing9ProcessorVWOh
++ _$sSD8_VariantV11updateValue_6forKeyq_Sgq_n_xtF17_StringProcessing11ReferenceIDV_SiTB5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tF17_StringProcessing17SubstringSearcherV_Tg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF12_RegexParser13PrettyPrinterV17_StringProcessingE11NodeToPrintO_SayAJGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF17_StringProcessing7DSLTreeV4NodeO_SayAIGTg5
++ _$sSh5IndexV8_VariantOys7UnicodeO6ScalarV__GWOe
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySJG_17_StringProcessing7DSLTreeV20CustomCharacterClassV6MemberOs5NeverOTg505$s17_d46Processing8CompilerC11ByteCodeGenV37flatteningghi51Members33_39AB0CA4F16DF29C6C8E2960922072B7LLySayAA7f8V0hiJ0V6J14OGANFAMSJXEfU_Tf1cn_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShys7UnicodeO6ScalarVG_17_StringProcessing7DSLTreeV20CustomCharacterClassV6MemberOs5NeverOTg505$s17_f46Processing8CompilerC11ByteCodeGenV37flatteningijk51Members33_39AB0CA4F16DF29C6C8E2960922072B7LLySayAA7h8V0hiJ0V6l9OGANFAMs7d2O6E7VXEfU0_Tf1cn_n
++ _$sSs17UnicodeScalarViewV9formIndex5afterySS0E0Vz_tF
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$sypSgWOhTm
++ ___unnamed_164
++ ___unnamed_165
++ ___unnamed_166
++ ___unnamed_17
++ ___unnamed_19
++ ___unnamed_21
++ ___unnamed_23
++ ___unnamed_261
++ ___unnamed_77
++ ___unnamed_88
++ _memset_pattern16
++ _swift_coroFrameAlloc
++ _symbolic _____y_____G 17_StringProcessing13SplitSequenceV AA17SubstringSearcherV
++ _symbolic _____y______G 17_StringProcessing13SplitSequenceV8IteratorV AA17SubstringSearcherV
++ _symbolic _____y_____ySsGG 17_StringProcessing14RangesSequenceV AA9ZSearcherV
+- _$s17_StringProcessing13SplitSequenceV8IteratorVyAA17SubstringSearcherV_GWOs
+- _$s17_StringProcessing13SplitSequenceVyAA17SubstringSearcherVGWOr
+- _$s17_StringProcessing13SplitSequenceVyAA17SubstringSearcherVGWOs
+- _$s17_StringProcessing14RangesSequenceVyAA9ZSearcherVySsGGWOr
+- _$s17_StringProcessing14RangesSequenceVyAA9ZSearcherVySsGGWOs
+- _$s17_StringProcessing15QuantifyPayloadV14packInfoValues____17isScalarSemanticss6UInt64V12_RegexParser3ASTV14QuantificationV4KindO_S2iSgAC0D4TypeOSbtFZTf4nnnnnd_n
+- _$s17_StringProcessing17SubstringSearcherVWOr
+- _$s17_StringProcessing17SubstringSearcherVWOs
+- _$s17_StringProcessing20_CharacterClassModelV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s17_StringProcessing21RegexCompilationErrorO4hash4intoys6HasherVz_tF
+- _$s17_StringProcessing7DSLTreeV18QuantificationKindOSgMD
+- _$s17_StringProcessing7DSLTreeV20CustomCharacterClassV22hasUnprintablePropertySbvg
+- _$s17_StringProcessing9MEProgramV7BuilderV13buildQuantify5model___17isScalarSemanticsyAA20_CharacterClassModelV_12_RegexParser3ASTV14QuantificationV4KindOS2iSgSbtF
+- _$s17_StringProcessing9MEProgramV7BuilderV13buildQuantify6bitset___17isScalarSemanticsyAA7DSLTreeV20CustomCharacterClassV11AsciiBitsetV_12_RegexParser3ASTV14QuantificationV4KindOS2iSgSbtF
+- _$s17_StringProcessing9ProcessorV7program5input13subjectBounds06searchG09matchModeAcA9MEProgramV_SSSnySS5IndexVGAmA05MatchJ0OtcfCTf4nnnnnd_n
+- _$s17_StringProcessing9ProcessorV9RegistersVWOr
+- _$s17_StringProcessing9ProcessorV9SavePointVSgWOe
+- _$s17_StringProcessing9ProcessorV9SavePointVSgWOs
+- _$s17_StringProcessing9ProcessorV9SavePointVWOs
+- _$s17_StringProcessing9ProcessorVWOs
+- _$sSS17_StringProcessingE11matchScalar_2at9limitedBy13boundaryCheck17isCaseInsensitiveSS5IndexVSgs7UnicodeO0D0V_A2HS2btF
+- _$sSS17_StringProcessingE16isOnWordBoundary2at2in5using_SbSS5IndexV_SnyAGGShyAGGSgzAGSgztF
+- _$sSS17_StringProcessingE5match_2at9limitedBy17isCaseInsensitiveSS5IndexVSgSJ_A2GSbtF
+- _$sST12_RegexParserE3allyS2b7ElementQzXEFSay17_StringProcessing7DSLTreeV20CustomCharacterClassV6MemberOG_Tg505$s17_e11Processing7g3V20hij2V6K74O12isOnlyTriviaSbvgSbAGcfu_33_37481a65ebbe60f080325ce370457824AGSbTf3npk_nTf1cn_n
+- _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tF17_StringProcessing17SubstringSearcherV_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSays7UnicodeO12_RegexParserE6ScriptOG_Tg5
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSays7UnicodeO15GeneralCategoryOG_Tg5
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyF17_StringProcessing11InstructionV_Tg5
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyF17_StringProcessing8TypedIntVyAB19_InstructionAddressOGSg_Tg5Tm
+- _$sSa21_makeMutableAndUniqueyyF17_StringProcessing8TypedIntVyAB19_InstructionAddressOGSg_Tg5
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tF17_StringProcessing11InstructionV_Tg5
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tF17_StringProcessing8TypedIntVyAC19_InstructionAddressOGSg_Tg5Tm
+- _$sSa9repeating5countSayxGx_SitcfCSi_Tt1g5Tm
+- _$sSh5IndexV8_VariantOySJ__GWOe
+- _$sSnySS5IndexVG5range_ypSg5valuetSgWOhTm
+- _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
+- _$ss10_NativeSetV10startIndexSh0D0Vyx_Gvgs7UnicodeO6ScalarV_Tg5Tm
+- _$ss10_NativeSetV5index5afterSh5IndexVyx_GAG_tFs7UnicodeO6ScalarV_Tg5Tm
+- _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyF17_StringProcessing7DSLTreeV20CustomCharacterClassV6MemberO_Tg5
+- _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntF17_StringProcessing7DSLTreeV20CustomCharacterClassV6MemberO_Tg5
+- _$ss17_NativeDictionaryV11updateValue_6forKey8isUniqueq_Sgq_n_xSbtF17_StringProcessing11ReferenceIDV_SiTB5
+- _$ss17_NativeDictionaryV16_unsafeInsertNew3key5valueyxn_q_ntFSays5UInt8VG_17_StringProcessing8TypedIntVyAI13_UTF8RegisterOGTg5
+- _$ss7UnicodeO12_RegexParserE6ScriptOSgMD
+- _$ss7UnicodeO15GeneralCategoryOSgMD
+- _$sypSgWOh
+- ___unnamed_158
+- ___unnamed_159
+- ___unnamed_16
+- ___unnamed_160
+- ___unnamed_18
+- ___unnamed_20
+- ___unnamed_22
+- ___unnamed_260
+- ___unnamed_76
+- ___unnamed_79
+- _swift_bridgeObjectRetain_n
+- _swift_retain_n
+- _swift_unknownObjectRelease_n
+- _symbolic _____Sg 17_StringProcessing7DSLTreeV18QuantificationKindO
+- _symbolic _____Sg s7UnicodeO12_RegexParserE6ScriptO
+- _symbolic _____Sg s7UnicodeO15GeneralCategoryO
+CStrings:
+- "Out-of-order bounds prevented by _RegexParser"
+
+```

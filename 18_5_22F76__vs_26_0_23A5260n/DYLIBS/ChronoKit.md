@@ -1,0 +1,1150 @@
+## ChronoKit
+
+> `/System/Library/PrivateFrameworks/ChronoKit.framework/ChronoKit`
+
+```diff
+
+-537.6.13.0.0
+-  __TEXT.__text: 0x163f38
+-  __TEXT.__auth_stubs: 0x33d0
+-  __TEXT.__objc_methlist: 0x63c
+-  __TEXT.__const: 0xad78
+-  __TEXT.__gcc_except_tab: 0x18
+-  __TEXT.__cstring: 0x79f3
+-  __TEXT.__dlopen_cstrs: 0x64
+-  __TEXT.__swift5_typeref: 0x4840
+-  __TEXT.__swift5_fieldmd: 0x3ad0
+-  __TEXT.__constg_swiftt: 0x7a5c
+-  __TEXT.__swift5_reflstr: 0x3c7c
++631.0.3.0.0
++  __TEXT.__text: 0x15d6f8
++  __TEXT.__auth_stubs: 0x3720
++  __TEXT.__objc_methlist: 0x4c0
++  __TEXT.__const: 0xc938
++  __TEXT.__cstring: 0x84b3
++  __TEXT.__swift5_typeref: 0x4d74
++  __TEXT.__swift5_fieldmd: 0x41c0
++  __TEXT.__constg_swiftt: 0x8090
++  __TEXT.__swift5_reflstr: 0x438c
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_assocty: 0x828
+-  __TEXT.__oslogstring: 0x3fc3
+-  __TEXT.__swift5_protos: 0x134
+-  __TEXT.__swift5_proto: 0x6c8
+-  __TEXT.__swift5_types: 0x3f8
+-  __TEXT.__swift5_capture: 0xb50
+-  __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__swift_as_entry: 0x10
+-  __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__unwind_info: 0x4750
+-  __TEXT.__eh_frame: 0x5ecc
+-  __TEXT.__objc_classname: 0x106
+-  __TEXT.__objc_methname: 0x195e
+-  __TEXT.__objc_methtype: 0x2b1
+-  __TEXT.__objc_stubs: 0x160
+-  __DATA_CONST.__got: 0xd10
+-  __DATA_CONST.__const: 0xc08
+-  __DATA_CONST.__objc_classlist: 0x340
+-  __DATA_CONST.__objc_protolist: 0x98
++  __TEXT.__swift5_assocty: 0xa08
++  __TEXT.__oslogstring: 0x4323
++  __TEXT.__swift5_protos: 0x150
++  __TEXT.__swift5_proto: 0x878
++  __TEXT.__swift5_types: 0x464
++  __TEXT.__swift5_capture: 0xba8
++  __TEXT.__swift5_mpenum: 0x2c
++  __TEXT.__swift_as_entry: 0xc
++  __TEXT.__swift_as_ret: 0x8
++  __TEXT.__unwind_info: 0x4ad8
++  __TEXT.__eh_frame: 0x5eb8
++  __TEXT.__objc_classname: 0xa1
++  __TEXT.__objc_methname: 0x1668
++  __TEXT.__objc_methtype: 0x1ca
++  __TEXT.__objc_stubs: 0x140
++  __DATA_CONST.__got: 0xd60
++  __DATA_CONST.__const: 0xd30
++  __DATA_CONST.__objc_classlist: 0x328
++  __DATA_CONST.__objc_protolist: 0x78
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x800
+-  __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0x19f8
+-  __AUTH_CONST.__const: 0x65f0
+-  __AUTH_CONST.__cfstring: 0x180
+-  __AUTH_CONST.__objc_const: 0x83e0
++  __DATA_CONST.__objc_selrefs: 0x770
++  __DATA_CONST.__objc_protorefs: 0x40
++  __AUTH_CONST.__auth_got: 0x1b98
++  __AUTH_CONST.__const: 0x7968
++  __AUTH_CONST.__cfstring: 0x120
++  __AUTH_CONST.__objc_const: 0x7b78
++  __AUTH.__objc_data: 0x200
++  __AUTH.__data: 0xf10
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0xfd8
+-  __DATA.__bss: 0x61c0
+-  __DATA.__common: 0x78
+-  __DATA_DIRTY.__objc_data: 0x1098
+-  __DATA_DIRTY.__data: 0xb540
+-  __DATA_DIRTY.__bss: 0x5a10
+-  __DATA_DIRTY.__common: 0x370
++  __DATA.__data: 0x1060
++  __DATA.__bss: 0x85d0
++  __DATA.__common: 0xe0
++  __DATA_DIRTY.__objc_data: 0xc88
++  __DATA_DIRTY.__data: 0xaad8
++  __DATA_DIRTY.__bss: 0x6600
++  __DATA_DIRTY.__common: 0x330
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
+   - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/DataMigration.framework/DataMigration
+   - /System/Library/PrivateFrameworks/DuetActivityScheduler.framework/DuetActivityScheduler
++  - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+-  - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/ReplicatorEngine.framework/ReplicatorEngine
+   - /System/Library/PrivateFrameworks/ReplicatorServices.framework/ReplicatorServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter
+   - /System/Library/PrivateFrameworks/Timeline.framework/Timeline
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
++  - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 0618B423-2D74-378B-8F0D-3231CB1CCEE0
+-  Functions: 6971
+-  Symbols:   2495
+-  CStrings:  1526
++  UUID: 9C24D264-3306-3444-9B43-1F0A0EF745DD
++  Functions: 7547
++  Symbols:   2560
++  CStrings:  1585
+ 
+Symbols:
++ _AnalyticsSendEventLazy
++ _NSLocalizedFailureReasonErrorKey
++ _NSLocalizedRecoverySuggestionErrorKey
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_FBSDisplayMonitor
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_UNMutableNotificationContent
++ _OBJC_CLASS_$_UNNotificationIcon
++ _OBJC_CLASS_$_UNNotificationRequest
++ _OBJC_CLASS_$_UNUserNotificationCenter
++ _OBJC_CLASS_$__EXExtensionIdentity
++ _OBJC_CLASS_$__EXQuery
++ _OBJC_CLASS_$__EXQueryController
++ _OBJC_CLASS_$__SystemEXExtensionIdentityDiscoverer
++ _OBJC_METACLASS_$__SystemEXExtensionIdentityDiscoverer
++ __AXDarkenSystemColors
++ __AXSCopyPreferredContentSizeCategoryName
++ __AXSDifferentiateWithoutColorEnabled
++ __AXSEnhanceBackgroundContrastEnabled
++ __AXSEnhanceTextLegibilityEnabled
++ __AXSInvertColorsEnabled
++ __AXSReduceMotionEnabled
++ __DATA__SystemEXExtensionIdentityDiscoverer
++ __DATA__TtC9ChronoKit43ActivityExtensionSystemDataCacheKeyProvider
++ __DATA__TtC9ChronoKit9Analytics
++ __DATA__TtCC9ChronoKit19ChronoMetadataStore25PreviewConfigurationStore
++ __DATA__TtCC9ChronoKit19ChronoMetadataStore32MutablePreviewConfigurationStore
++ __DATA__TtCC9ChronoKit28IOSSystemEnvironmentProviderP33_8139C377433ACB8DE10C22F32913479213_AXPublishers
++ __INSTANCE_METHODS__SystemEXExtensionIdentityDiscoverer
++ __IVARS__SystemEXExtensionIdentityDiscoverer
++ __IVARS__TtC9ChronoKit43ActivityExtensionSystemDataCacheKeyProvider
++ __METACLASS_DATA__SystemEXExtensionIdentityDiscoverer
++ __METACLASS_DATA__TtC9ChronoKit43ActivityExtensionSystemDataCacheKeyProvider
++ __METACLASS_DATA__TtC9ChronoKit9Analytics
++ __METACLASS_DATA__TtCC9ChronoKit19ChronoMetadataStore25PreviewConfigurationStore
++ __METACLASS_DATA__TtCC9ChronoKit19ChronoMetadataStore32MutablePreviewConfigurationStore
++ __METACLASS_DATA__TtCC9ChronoKit28IOSSystemEnvironmentProviderP33_8139C377433ACB8DE10C22F32913479213_AXPublishers
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__EXQueryControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES__EXQueryControllerDelegate
++ __OBJC_$_PROTOCOL_REFS__EXQueryControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$__EXQueryControllerDelegate
++ __OBJC_PROTOCOL_$__EXQueryControllerDelegate
++ __PROPERTIES__TtC9ChronoKit28RemoteWidgetExtensionSession
++ __PROTOCOLS__SystemEXExtensionIdentityDiscoverer
++ __PROTOCOLS__SystemEXExtensionIdentityDiscoverer.6
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_memcpy129_8
++ ___swift_memcpy41_8
++ ___unnamed_10
++ ___unnamed_11
++ ___unnamed_13
++ ___unnamed_16
++ ___unnamed_17
++ ___unnamed_19
++ ___unnamed_52
++ ___unnamed_7
++ ___unnamed_8
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_ChronoKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ChronoKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ChronoKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ChronoKit
++ _associated conformance 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLOSHAASQ
++ _associated conformance 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLOs0eD0AAs23CustomStringConvertible
++ _associated conformance 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLOs0eD0AAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit13ActivityErrorO10Foundation09LocalizedD0AAs0D0
++ _associated conformance 9ChronoKit13ActivityErrorO10Foundation13CustomNSErrorAAs0D0
++ _associated conformance 9ChronoKit14DescriptorKindVs10SetAlgebraAASQ
++ _associated conformance 9ChronoKit14DescriptorKindVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 9ChronoKit14DescriptorKindVs9OptionSetAASY
++ _associated conformance 9ChronoKit14DescriptorKindVs9OptionSetAAs0F7Algebra
++ _associated conformance 9ChronoKit14MockAttributesV08ActivityB00eD0AA12ContentStateAdEP_SE
++ _associated conformance 9ChronoKit14MockAttributesV08ActivityB00eD0AA12ContentStateAdEP_SH
++ _associated conformance 9ChronoKit14MockAttributesV08ActivityB00eD0AA12ContentStateAdEP_Se
++ _associated conformance 9ChronoKit14MockAttributesV08ActivityB00eD0AASE
++ _associated conformance 9ChronoKit14MockAttributesV08ActivityB00eD0AASe
++ _associated conformance 9ChronoKit14MockAttributesV0C12ContentStateV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 9ChronoKit14MockAttributesV0C12ContentStateV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit14MockAttributesV0C12ContentStateVSHAASQ
++ _associated conformance 9ChronoKit14MockAttributesV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9ChronoKit14MockAttributesV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLOSHAASQ
++ _associated conformance 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLOs0fE0AAs23CustomStringConvertible
++ _associated conformance 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLOs0fE0AAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit15TapToRadarDraftV0cdE5ErrorO10Foundation09LocalizedG0AAs0G0
++ _associated conformance 9ChronoKit15TapToRadarDraftV0cdE5ErrorOSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV11DeviceClassOSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV14ClassificationOSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV15AutoDiagnosticsOSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV15ReproducibilityOSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsVSHAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsVs10SetAlgebraAASQ
++ _associated conformance 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsVs9OptionSetAASY
++ _associated conformance 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsVs9OptionSetAAs0K7Algebra
++ _associated conformance 9ChronoKit15TapToRadarDraftV9ComponentVSHAASQ
++ _associated conformance 9ChronoKit16PushSubscriptionV0D4TypeO6WidgetV0cE0OSHAASQ
++ _associated conformance 9ChronoKit16PushSubscriptionV0D4TypeO6WidgetVSHAASQ
++ _associated conformance 9ChronoKit17VariantIdentifierVA2A11ActivityKeyVRszAA0ecF0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLOyxq__GSHAASQ
++ _associated conformance 9ChronoKit17VariantIdentifierVA2A11ActivityKeyVRszAA0ecF0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLOyxq__Gs0gF0AAs23CustomStringConvertible
++ _associated conformance 9ChronoKit17VariantIdentifierVA2A11ActivityKeyVRszAA0ecF0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLOyxq__Gs0gF0AAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLOSHAASQ
++ _associated conformance 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLOs0fE0AAs23CustomStringConvertible
++ _associated conformance 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLOs0fE0AAs28CustomDebugStringConvertible
++ _associated conformance 9ChronoKit20CacheManagementErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 9ChronoKit24WidgetDiagnosticTriggersV10IdentifierOSHAASQ
++ _associated conformance 9ChronoKit5TopicV8PushTypeOSHAASQ
++ _associated conformance 9ChronoKit9AnalyticsC17InteractionTargetOSHAASQ
++ _associated conformance 9ChronoKit9AnalyticsC17UpdateFailureTypeOSHAASQ
++ _associated conformance 9ChronoKit9AnalyticsC19ArchiveProviderTypeOSHAASQ
++ _associated conformance 9ChronoKit9AnalyticsC24ArchiveUpdateNetworkPathOSHAASQ
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _associated conformance So20CHSWidgetProximitiesVs10SetAlgebraSCSQ
++ _associated conformance So20CHSWidgetProximitiesVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So20CHSWidgetProximitiesVs9OptionSetSCSY
++ _associated conformance So20CHSWidgetProximitiesVs9OptionSetSCs0D7Algebra
++ _block_copy_helper.105
++ _block_copy_helper.11
++ _block_copy_helper.111
++ _block_copy_helper.21
++ _block_copy_helper.31
++ _block_copy_helper.4
++ _block_copy_helper.41
++ _block_copy_helper.57
++ _block_copy_helper.63
++ _block_copy_helper.69
++ _block_copy_helper.81
++ _block_copy_helper.90
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.107
++ _block_descriptor.113
++ _block_descriptor.13
++ _block_descriptor.23
++ _block_descriptor.33
++ _block_descriptor.43
++ _block_descriptor.59
++ _block_descriptor.6
++ _block_descriptor.65
++ _block_descriptor.71
++ _block_descriptor.83
++ _block_descriptor.92
++ _block_destroy_helper.100
++ _block_destroy_helper.106
++ _block_destroy_helper.112
++ _block_destroy_helper.12
++ _block_destroy_helper.22
++ _block_destroy_helper.32
++ _block_destroy_helper.42
++ _block_destroy_helper.5
++ _block_destroy_helper.58
++ _block_destroy_helper.64
++ _block_destroy_helper.70
++ _block_destroy_helper.82
++ _block_destroy_helper.91
++ _generic environment 9ChronoKit21URLParameterEncodableRzl
++ _get_enum_tag_for_layout_string 9ChronoKit16PushSubscriptionV0D4TypeO
++ _get_enum_tag_for_layout_string 9ChronoKit20CacheManagementErrorO
++ _get_enum_tag_for_layout_string 9ChronoKit30DescriptorCollectionFilterTypeOyxG
++ _kAXSDarkenSystemColorsEnabledNotification
++ _kAXSDifferentiateWithoutColorChangedNotification
++ _kAXSEnhanceBackgroundContrastChangedNotification
++ _kAXSEnhanceTextLegibilityChangedNotification
++ _kAXSInvertColorsEnabledNotification
++ _kAXSReduceMotionChangedNotification
++ _keypath_get.41Tm
++ _keypath_get.44Tm
++ _keypath_getTm
++ _keypath_set.45Tm
++ _objc_release_x1
++ _objectdestroy.67Tm
++ _strerror
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_coroFrameAlloc
++ _swift_getExistentialTypeMetadata
++ _symbolic $s11ActivityKit0A10AttributesP
++ _symbolic $s9ChronoKit13FailableEntryP
++ _symbolic $s9ChronoKit20ActivityCacheReadingP
++ _symbolic $s9ChronoKit20ControlsCacheReadingP
++ _symbolic $s9ChronoKit21ActivityCacheManagingP
++ _symbolic $s9ChronoKit21URLParameterEncodableP
++ _symbolic $s9ChronoKit22ConfigurationServicingP
++ _symbolic $s9ChronoKit25ControlsCacheURLProvidingP
++ _symbolic $s9ChronoKit27CHSWidgetExtensionProvidingP
++ _symbolic $s9ChronoKit35SystemEXExtensionIdentityDiscovererP
++ _symbolic SDySSSo8NSObjectCGIego_
++ _symbolic SS_So8NSObjectCt
++ _symbolic SaySSGSg
++ _symbolic SaySiG
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic Say_____G 9ChronoKit15TapToRadarDraftV11DeviceClassO
++ _symbolic Say_____yxGG 9ChronoKit30DescriptorCollectionFilterTypeO
++ _symbolic Sbxc6filter_t
++ _symbolic SccySDySSypGSg______pG s5ErrorP
++ _symbolic So18_EXQueryControllerCSg
++ _symbolic So20_EXExtensionIdentityC
++ _symbolic _____ 9ChronoKit0A13MetadataStoreC020PreviewConfigurationD0C
++ _symbolic _____ 9ChronoKit0A13MetadataStoreC027MutablePreviewConfigurationD0C
++ _symbolic _____ 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLO
++ _symbolic _____ 9ChronoKit11BootSessionV
++ _symbolic _____ 9ChronoKit12URLParameterV
++ _symbolic _____ 9ChronoKit13ActivityErrorO
++ _symbolic _____ 9ChronoKit14DescriptorKindV
++ _symbolic _____ 9ChronoKit14MockAttributesV
++ _symbolic _____ 9ChronoKit14MockAttributesV0C12ContentStateV
++ _symbolic _____ 9ChronoKit14MockAttributesV0C12ContentStateV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLO
++ _symbolic _____ 9ChronoKit14MockAttributesV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLO
++ _symbolic _____ 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV0cdE5ErrorO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV11DeviceClassO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV14ClassificationO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV15AutoDiagnosticsO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV15ReproducibilityO
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsV
++ _symbolic _____ 9ChronoKit15TapToRadarDraftV9ComponentV
++ _symbolic _____ 9ChronoKit16PushSubscriptionV0D4TypeO6WidgetV
++ _symbolic _____ 9ChronoKit16PushSubscriptionV0D4TypeO6WidgetV0cE0O
++ _symbolic _____ 9ChronoKit17VariantIdentifierVA2A11ActivityKeyVRszAA0ecF0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLO
++ _symbolic _____ 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLO
++ _symbolic _____ 9ChronoKit20CacheManagementErrorO
++ _symbolic _____ 9ChronoKit24WidgetDiagnosticTriggersV
++ _symbolic _____ 9ChronoKit24WidgetDiagnosticTriggersV10IdentifierO
++ _symbolic _____ 9ChronoKit28IOSSystemEnvironmentProviderC13_AXPublishers33_8139C377433ACB8DE10C22F329134792LLC
++ _symbolic _____ 9ChronoKit30ActivityDescriptorsChangeEventV
++ _symbolic _____ 9ChronoKit30DescriptorCollectionFilterTypeO
++ _symbolic _____ 9ChronoKit36_SystemEXExtensionIdentityDiscovererC
++ _symbolic _____ 9ChronoKit43ActivityExtensionSystemDataCacheKeyProviderC
++ _symbolic _____ 9ChronoKit5TopicV8PushTypeO
++ _symbolic _____ 9ChronoKit9AnalyticsC
++ _symbolic _____ 9ChronoKit9AnalyticsC17InteractionTargetO
++ _symbolic _____ 9ChronoKit9AnalyticsC17UpdateFailureTypeO
++ _symbolic _____ 9ChronoKit9AnalyticsC19ArchiveProviderTypeO
++ _symbolic _____ 9ChronoKit9AnalyticsC24ArchiveUpdateNetworkPathO
++ _symbolic _____ So20CHSWidgetProximitiesV
++ _symbolic _____3key______yAAG5valuet 9ChronoKit26PowerlogWidgetViewIdentityV AA0cE5EntryC
++ _symbolic _____6target_SaySo27CHSSessionPlatterDescriptorCG16foundDescriptorst 11ActivityKit17ProcessDescriptorV
++ _symbolic _____Sg 10Foundation12URLQueryItemV
++ _symbolic _____Sg 7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO
++ _symbolic _____Sg 9ChronoKit15TapToRadarDraftV14ClassificationO
++ _symbolic _____Sg 9ChronoKit15TapToRadarDraftV15ReproducibilityO
++ _symbolic _____Sg 9ChronoKit15TapToRadarDraftV9ComponentV
++ _symbolic __________Xj l9ChronoKit17CacheURLProviding_px0C3KeyRts_XPXGMq AA07ControlcE0V
++ _symbolic ___________t 9ChronoKit19ReloadConfigurationV0C6ReasonO AA13BackoffPolicyO
++ _symbolic ___________yyt_____Gt So11CFStringRefa 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic ______p 9ChronoKit13FailableEntryP
++ _symbolic ______p 9ChronoKit35SystemEXExtensionIdentityDiscovererP
++ _symbolic ______p15underlyingError_t s5ErrorP
++ _symbolic ______pAA_p_xq_tcSg 9ChronoKit9AssertionP
++ _symbolic ______pSg 9ChronoKit13FailableEntryP
++ _symbolic _____ySDyq_7Content_____Qy0_GSg______pG s6ResultOsRi_zRi0_zrlE 9ChronoKit12ContentEntryP s5ErrorP
++ _symbolic _____ySDyq_7Content_____Qy0_GSg______pGIegg_ s6ResultOsRi_zRi0_zrlE 9ChronoKit12ContentEntryP s5ErrorP
++ _symbolic _____ySSSgG 9ChronoKit11UserDefaultC
++ _symbolic _____ySSSgG 9ChronoKit12URLParameterV
++ _symbolic _____ySSSg_G 9ChronoKit11UserDefaultC24_KVOUserDefaultsObserver33_71C2CAD08EAF7F2F8D3AC991F9C31B45LLC
++ _symbolic _____ySSSg_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySSGG 9ChronoKit12URLParameterV
++ _symbolic _____ySaySiGG 9ChronoKit12URLParameterV
++ _symbolic _____ySaySo20_EXExtensionIdentityCG_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySaySo20_EXExtensionIdentityCG_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____ySay_____GG 9ChronoKit12URLParameterV 10Foundation3URLV
++ _symbolic _____ySay_____GG 9ChronoKit12URLParameterV AA15TapToRadarDraftV11DeviceClassO
++ _symbolic _____ySbG 9ChronoKit12URLParameterV
++ _symbolic _____ySfG 9ChronoKit11UserDefaultC
++ _symbolic _____ySf_G 9ChronoKit11UserDefaultC24_KVOUserDefaultsObserver33_71C2CAD08EAF7F2F8D3AC991F9C31B45LLC
++ _symbolic _____ySf_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo27CHSSessionPlatterDescriptorCG 9ChronoKit20DescriptorCollectionC
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 9WidgetKit21DescriptorFetchResultC
++ _symbolic _____y_____G 9ChronoKit12URLParameterV AA15TapToRadarDraftV15AutoDiagnosticsO
++ _symbolic _____y_____G 9ChronoKit12URLParameterV AA15TapToRadarDraftV22RemoteDeviceSelectionsV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9ChronoKit11ActivityKeyV10CodingKeys33_48ECE6DB1EFC6E2229B7D0BECFB72F10LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9ChronoKit14MockAttributesV0F12ContentStateV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9ChronoKit14MockAttributesV10CodingKeys33_CA67B8A34E687FD10731F51B4076D8E9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9ChronoKit15ControlEntryKeyV10CodingKeys33_7C27B201356CE4B03AF003B4369A0D4ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9ChronoKit18ActivityVariantKeyV10CodingKeys33_18D41570CB6FD33C7057F6F39C12B0E5LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation12URLQueryItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit19ControlTemplateTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s4Int8V
++ _symbolic _____y_____SgG 9ChronoKit12URLParameterV 10Foundation4DateV
++ _symbolic _____y_____SgG 9ChronoKit12URLParameterV AA15TapToRadarDraftV14ClassificationO
++ _symbolic _____y_____SgG 9ChronoKit12URLParameterV AA15TapToRadarDraftV15ReproducibilityO
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 9WidgetKit21DescriptorFetchResultC So16os_unfair_lock_sV
++ _symbolic _____y__________G s18_DictionaryStorageC 16ReplicatorEngine6RecordV2IDC AC0E8MetadataC
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 9WidgetKit21ViewableTimelineEntryV 06ChronoC00bF0C0bF5ErrorO
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 9WidgetKit30ActivityArchivedViewCollectionV s5ErrorP
++ _symbolic _____y___________t______pG s6ResultOsRi_zRi0_zrlE 10Foundation3URLV 9WidgetKit19DataProtectionLevelO s5ErrorP
++ _symbolic _____y___________yyt_____GtG s23_ContiguousArrayStorageC So11CFStringRefa 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____y__________yyt_____GG s18_DictionaryStorageC So11CFStringRefa 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____y______yyt_____GSo17OS_dispatch_queueCG 7Combine10PublishersO8DebounceV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y_____y___________GG s22KeyedDecodingContainerV 9ChronoKit17VariantIdentifierVA2C11ActivityKeyVRszAC0hfI0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLO AG AI
++ _symbolic _____y_____y___________GG s22KeyedEncodingContainerV 9ChronoKit17VariantIdentifierVA2C11ActivityKeyVRszAC0hfI0VRs_rlE10CodingKeys33_EB35A6B23BB684B9DCDD00485CBCF00ELLO AG AI
++ _sysctlbyname
++ _type_layout_string 9ChronoKit14DescriptorKindV
++ _type_layout_string 9ChronoKit15TapToRadarDraftV22RemoteDeviceSelectionsV
++ _type_layout_string 9ChronoKit15TapToRadarDraftV9ComponentV
++ _type_layout_string 9ChronoKit16PushSubscriptionV0D4TypeO6WidgetV
++ _type_layout_string 9ChronoKit20CacheManagementErrorO
++ _type_layout_string 9ChronoKit24WidgetDiagnosticTriggersV
++ _type_layout_string 9ChronoKit30ActivityDescriptorsChangeEventV
++ _type_layout_string So17CHSBaseDescriptorCRbzl9ChronoKit0B16CollectionFilterVyxG
++ _type_layout_string So17CHSBaseDescriptorCRbzl9ChronoKit0B20CollectionFilterTypeOyxG
++ _type_layout_string So20CHSWidgetProximitiesV
+- +[CHK_WFLinkActionWorkflowRunnerClient newClientWithLinkAction:appBundleIdentifier:extensionBundleIdentifier:runSource:launchOriginOverride:authenticationPolicy:]
+- GCC_except_table0
+- _NSExtensionIdentifierName
+- _NSExtensionPointName
+- _OBJC_CLASS_$_CHK_WFLinkActionWorkflowRunnerClient
+- _OBJC_CLASS_$_CHSWidgetConfiguration
+- _OBJC_CLASS_$_LNAction
+- _OBJC_CLASS_$_LSPlugInKitProxy
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSProgress
+- _OBJC_CLASS_$_UITraitCollection
+- _OBJC_CLASS_$__TtC9ChronoKit12WidgetReaper
+- _OBJC_METACLASS_$_CHK_WFLinkActionWorkflowRunnerClient
+- _OBJC_METACLASS_$__TtC9ChronoKit12WidgetReaper
+- _OBJC_METACLASS_$__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- _UIAccessibilityBoldTextStatusDidChangeNotification
+- _UIAccessibilityDarkerSystemColorsEnabled
+- _UIAccessibilityDarkerSystemColorsStatusDidChangeNotification
+- _UIAccessibilityInvertColorsStatusDidChangeNotification
+- _UIAccessibilityIsInvertColorsEnabled
+- _UIAccessibilityIsReduceMotionEnabled
+- _UIAccessibilityIsReduceTransparencyEnabled
+- _UIAccessibilityReduceMotionStatusDidChangeNotification
+- _UIAccessibilityReduceTransparencyStatusDidChangeNotification
+- _UIAccessibilityShouldDifferentiateWithoutColor
+- _UIAccessibilityShouldDifferentiateWithoutColorDidChangeNotification
+- _UIContentSizeCategoryDidChangeNotification
+- _UIScreenModeDidChangeNotification
+- _VoiceShortcutClientLibraryCore.frameworkLibrary
+- __Block_object_dispose
+- __DATA__TtC9ChronoKit12WidgetReaper
+- __DATA__TtC9ChronoKit28_SystemNSExtensionDiscoverer
+- __DATA__TtC9ChronoKit29InteractiveWidgetActionRunner
+- __DATA__TtC9ChronoKit30RemoteActivityCacheURLProvider
+- __DATA__TtCC9ChronoKit19ChronoMetadataStore26SnapshotConfigurationStore
+- __DATA__TtCC9ChronoKit19ChronoMetadataStore33MutableSnapshotConfigurationStore
+- __DATA__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- __DATA__TtCFC9ChronoKit16ExtensionManager5startFT10completionGSqFT_T___T_L_20InitialValueObserver
+- __INSTANCE_METHODS__TtC9ChronoKit12WidgetReaper
+- __INSTANCE_METHODS__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- __IVARS__TtC9ChronoKit12WidgetReaper
+- __IVARS__TtC9ChronoKit28_SystemNSExtensionDiscoverer
+- __IVARS__TtC9ChronoKit29InteractiveWidgetActionRunner
+- __IVARS__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- __IVARS__TtCFC9ChronoKit16ExtensionManager5startFT10completionGSqFT_T___T_L_20InitialValueObserver
+- __METACLASS_DATA__TtC9ChronoKit12WidgetReaper
+- __METACLASS_DATA__TtC9ChronoKit28_SystemNSExtensionDiscoverer
+- __METACLASS_DATA__TtC9ChronoKit29InteractiveWidgetActionRunner
+- __METACLASS_DATA__TtC9ChronoKit30RemoteActivityCacheURLProvider
+- __METACLASS_DATA__TtCC9ChronoKit19ChronoMetadataStore26SnapshotConfigurationStore
+- __METACLASS_DATA__TtCC9ChronoKit19ChronoMetadataStore33MutableSnapshotConfigurationStore
+- __METACLASS_DATA__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- __METACLASS_DATA__TtCFC9ChronoKit16ExtensionManager5startFT10completionGSqFT_T___T_L_20InitialValueObserver
+- __OBJC_$_CLASS_METHODS_CHK_WFLinkActionWorkflowRunnerClient
+- __OBJC_$_PROP_LIST_NSProgressReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSProgressReporting
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WFWorkflowRunnerClientDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSProgressReporting
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WFWorkflowRunnerClientDelegate
+- __OBJC_$_PROTOCOL_REFS_LSApplicationWorkspaceObserverProtocol
+- __OBJC_$_PROTOCOL_REFS_NSProgressReporting
+- __OBJC_$_PROTOCOL_REFS_WFWorkflowRunnerClientDelegate
+- __OBJC_CLASS_RO_$_CHK_WFLinkActionWorkflowRunnerClient
+- __OBJC_LABEL_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
+- __OBJC_LABEL_PROTOCOL_$_NSProgressReporting
+- __OBJC_LABEL_PROTOCOL_$_WFWorkflowRunnerClientDelegate
+- __OBJC_METACLASS_RO_$_CHK_WFLinkActionWorkflowRunnerClient
+- __OBJC_PROTOCOL_$_LSApplicationWorkspaceObserverProtocol
+- __OBJC_PROTOCOL_$_NSProgressReporting
+- __OBJC_PROTOCOL_$_WFWorkflowRunnerClientDelegate
+- __PROPERTIES__TtC9ChronoKit12WidgetReaper
+- __PROTOCOLS__TtC9ChronoKit12WidgetReaper
+- __PROTOCOLS__TtC9ChronoKit12WidgetReaper.11
+- __PROTOCOLS__TtC9ChronoKit16ExtensionManager
+- __PROTOCOLS__TtC9ChronoKit16ExtensionManager.25
+- __PROTOCOLS__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate
+- __PROTOCOLS__TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate.26
+- __Unwind_Resume
+- ___VoiceShortcutClientLibraryCore_block_invoke
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___getWFLinkActionWorkflowRunnerClientClass_block_invoke
+- ___getWFLinkActionWorkflowRunnerClientClass_block_invoke.cold.1
+- ___getWFLinkActionWorkflowRunnerClientClass_block_invoke.cold.2
+- ___objc_personality_v0
+- ___swift_memcpy128_8
+- ___swift_project_boxed_opaque_existential_1Tm
+- ___unnamed_14
+- ___unnamed_18
+- ___unnamed_42
+- ___unnamed_5
+- __sl_dlopen
+- __swift_FORCE_LOAD_$_swiftAVFoundation
+- __swift_FORCE_LOAD_$_swiftAVFoundation_$_ChronoKit
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_ChronoKit
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_ChronoKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_ChronoKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_ChronoKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_ChronoKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_ChronoKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_ChronoKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_ChronoKit
+- _associated conformance 9ChronoKit12WidgetReaperC7Combine16ObservableObjectAA0G19WillChangePublisherAdEP_AD0J0
+- _associated conformance 9ChronoKit16BaseCacheManagerC0D15ManagementErrorOyxq_q0__G10Foundation09LocalizedG0AAs0G0
+- _associated conformance 9ChronoKit17InteractionSourceOSHAASQ
+- _associated conformance 9ChronoKit20ActivityCacheManagerV0D15ManagementErrorO10Foundation09LocalizedG0AAs0G0
+- _associated conformance 9ChronoKit26DescriptorCollectionFilterVs10SetAlgebraAASQ
+- _associated conformance 9ChronoKit26DescriptorCollectionFilterVs10SetAlgebraAAs25ExpressibleByArrayLiteral
+- _associated conformance 9ChronoKit26DescriptorCollectionFilterVs9OptionSetAASY
+- _associated conformance 9ChronoKit26DescriptorCollectionFilterVs9OptionSetAAs0G7Algebra
+- _associated conformance 9ChronoKit29InteractiveWidgetActionRunnerC6ErrorsO10Foundation14LocalizedErrorAAs0J0
+- _associated conformance 9ChronoKit31InteractionAuthenticationPolicyOSHAASQ
+- _audit_stringVoiceShortcutClient
+- _block_copy_helper.100
+- _block_copy_helper.101
+- _block_copy_helper.59
+- _block_copy_helper.77
+- _block_copy_helper.85
+- _block_copy_helper.89
+- _block_copy_helper.92
+- _block_copy_helper.95
+- _block_descriptor.102
+- _block_descriptor.103
+- _block_descriptor.61
+- _block_descriptor.79
+- _block_descriptor.87
+- _block_descriptor.91
+- _block_descriptor.94
+- _block_descriptor.97
+- _block_destroy_helper.101
+- _block_destroy_helper.102
+- _block_destroy_helper.60
+- _block_destroy_helper.78
+- _block_destroy_helper.86
+- _block_destroy_helper.90
+- _block_destroy_helper.93
+- _block_destroy_helper.96
+- _getWFLinkActionWorkflowRunnerClientClass.softClass
+- _get_enum_tag_for_layout_string 9ChronoKit29InteractiveWidgetActionRunnerC6ErrorsO
+- _keypath_get.10Tm
+- _keypath_get.2Tm
+- _keypath_get.38Tm
+- _keypath_get.40Tm
+- _keypath_set.41Tm
+- _objc_alloc
+- _objc_getClass
+- _objc_msgSend$initWithLinkAction:appBundleIdentifier:extensionBundleIdentifier:runSource:runSourceOverride:authenticationPolicy:
+- _objc_retainAutoreleaseReturnValue
+- _objectdestroy.104Tm
+- _objectdestroy.2Tm
+- _objectdestroy.63Tm
+- _swift_dynamicCastObjCClass
+- _symbolic $s9ChronoKit26SystemApplicationWorkspaceP
+- _symbolic $s9ChronoKit27SystemNSExtensionDiscovererP
+- _symbolic SS13attributeName_Si10returnCode_____15underlyingErrort 10Foundation10POSIXErrorV
+- _symbolic SaySsG
+- _symbolic Say_____G 9ChronoKit12WidgetReaperC
+- _symbolic ShySo17CHSBaseDescriptorCGSg
+- _symbolic Shy_____G 10Foundation3URLV
+- _symbolic So10NSProgressC
+- _symbolic So11NSExtensionC
+- _symbolic _____ 9ChronoKit0A13MetadataStoreC021SnapshotConfigurationD0C
+- _symbolic _____ 9ChronoKit0A13MetadataStoreC028MutableSnapshotConfigurationD0C
+- _symbolic _____ 9ChronoKit12WidgetReaperC
+- _symbolic _____ 9ChronoKit16BaseCacheManagerC0D15ManagementErrorO
+- _symbolic _____ 9ChronoKit16ExtensionManagerC5start10completionyyycSg_tF20InitialValueObserverL_C
+- _symbolic _____ 9ChronoKit17InteractionSourceO
+- _symbolic _____ 9ChronoKit20ActivityCacheManagerV0D15ManagementErrorO
+- _symbolic _____ 9ChronoKit28_SystemNSExtensionDiscovererC
+- _symbolic _____ 9ChronoKit29InteractiveWidgetActionRunnerC
+- _symbolic _____ 9ChronoKit29InteractiveWidgetActionRunnerC6ErrorsO
+- _symbolic _____ 9ChronoKit29InteractiveWidgetActionRunnerC8Delegate08_1C4DBC0H23C60E41750913BD55B2D37FBLLC
+- _symbolic _____ 9ChronoKit30RemoteActivityCacheURLProviderC
+- _symbolic _____ 9ChronoKit31InteractionAuthenticationPolicyO
+- _symbolic _____ SS5IndexV
+- _symbolic _____3key_yp5valuet So16NSURLResourceKeya
+- _symbolic _____Sg 16ReplicatorEngine14RecordMetadataV
+- _symbolic _____SgXw 9ChronoKit28_SystemNSExtensionDiscovererC
+- _symbolic _____SgXwz_Xx 9ChronoKit16ExtensionManagerC
+- _symbolic _____Sg_ABt 10Foundation4UUIDV
+- _symbolic ______p 10Foundation15ContiguousBytesP
+- _symbolic ______p 9ChronoKit26SystemApplicationWorkspaceP
+- _symbolic ______p 9ChronoKit27SystemNSExtensionDiscovererP
+- _symbolic ______pSg 10Foundation15ContiguousBytesP
+- _symbolic ______pSgIegg_ s5ErrorP
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____ySDy_____y_____G_____GG 2os21OSAllocatedUnfairLockV 14ChronoServices15TypedIdentifierV AD0H4TypeO6BundleO9ExtensionO 10Foundation4UUIDV
+- _symbolic _____ySDy_____y_____G_____G_____G s13ManagedBufferCsRi__rlE 14ChronoServices15TypedIdentifierV AC0F4TypeO6BundleO9ExtensionO 10Foundation4UUIDV So16os_unfair_lock_sV
+- _symbolic _____ySDyq_7Content_____Qy0_GSg______pG s6ResultOsRi_zrlE 9ChronoKit12ContentEntryP s5ErrorP
+- _symbolic _____ySDyq_7Content_____Qy0_GSg______pGIegg_ s6ResultOsRi_zrlE 9ChronoKit12ContentEntryP s5ErrorP
+- _symbolic _____ySaySo11NSExtensionCG_____G 7Combine12AnyPublisherV s5NeverO
+- _symbolic _____ySaySo11NSExtensionCG_____G 7Combine18PassthroughSubjectC s5NeverO
+- _symbolic _____ySaySo19CHSWidgetDescriptorCGG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySaySo19CHSWidgetDescriptorCG_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____y_____G s11_SetStorageC 10Foundation3URLV
+- _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
+- _symbolic _____y_____G8bundleID_t 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ExtensionO
+- _symbolic _____y__________G s18_DictionaryStorageC 16ReplicatorEngine6RecordV2IDV AC0E8MetadataV
+- _symbolic _____y__________G s6ResultOsRi_zrlE 9WidgetKit21ViewableTimelineEntryV 06ChronoC00bF0C0bF5ErrorO
+- _symbolic _____y________________G 9ChronoKit16BaseCacheManagerC0D15ManagementErrorO AA15ControlEntryKeyV AA0hdJ0V AA0hI7ContentC
+- _symbolic _____y________________p_G 9ChronoKit16BaseCacheManagerC0D15ManagementErrorO AA14WidgetEntryKeyV AA0hdJ0V 0hB022TimelineViewCollectionP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 9WidgetKit30ActivityArchivedViewCollectionV s5ErrorP
+- _symbolic _____y___________t______pG s6ResultOsRi_zrlE 10Foundation3URLV 9WidgetKit19DataProtectionLevelO s5ErrorP
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____y_____y_____GG_So22CHSWidgetConfigurationCt 14ChronoServices20DeviceScopedIdentityV AA15TypedIdentifierV AA0G4TypeO10WidgetHostO
+- _symbolic _____y_____y_____G_____G s18_DictionaryStorageC 14ChronoServices15TypedIdentifierV AC0F4TypeO6BundleO9ExtensionO 10Foundation4UUIDV
+- _symbolic _____y_____y_____y_____GGSo22CHSWidgetConfigurationCG s18_DictionaryStorageC 14ChronoServices20DeviceScopedIdentityV AC15TypedIdentifierV AC0I4TypeO10WidgetHostO
+- _symbolic y______pSgc s5ErrorP
+- _type_layout_string 9ChronoKit20CacheManagerEntryKeyRzAA0cdF0R_r1_lAA04BasecD0C0C15ManagementErrorOyxq_q0__G
+- _type_layout_string 9ChronoKit26DescriptorCollectionFilterV
+- _type_layout_string 9ChronoKit29InteractiveWidgetActionRunnerC6ErrorsO
+- _type_layout_string So15CHSColorSchemesV
+CStrings:
++ "$__lazy_storage_$_failurePublisher"
++ "%{public}s"
++ "%{public}s (%{public}ld) %{public}s"
++ "%{public}s Cache hit; url: `%{public}s`; entry count: %{public}ld; requiresReload: %{public}s; date range: %{public}s"
++ "%{public}s Follow-on reload from completion needed: [%{public}s]"
++ "%{public}s Updating descriptors: %{public}@"
++ "%{public}s marking with version %{public}s"
++ "%{public}s next update: %{public}s, privacy: .public)"
++ "%{public}s update: %{public}s, privacy: .public)"
++ "%{public}s: %{public}s (%{public}ld) %{public}s"
++ "%{public}s:%{public}s assertion released (%{public}ld)"
++ "%{public}s:%{public}s assertion: acquired (%{public}ld)"
++ ", intermediates="
++ ", supportedProximities="
++ "-1"
++ ".push-type.widgets"
++ "/var/mobile/Library/chronod"
++ "0"
++ "@\"NSDictionary\"8@?0"
++ "Abandoned ArchivedFilePromise"
++ "Activity UI is set to be handled by another process."
++ "Activity ended: %{public}s"
++ "Activity with identifier "
++ "Added: %{public}s"
++ "Adding assertion for variant: %{public}s"
++ "Always"
++ "ApplePreferredContentSizeCategoryChangedNotification"
++ "AppleTV"
++ "ArchiveFilePromise"
++ "ArchiveFilePromise abandoned [%{public}s]: %{public}s"
++ "CFBundleIdentifier"
++ "CFBundleInfoDictionaryVersion"
++ "CFBundlePackageType"
++ "CFBundleShortVersionString"
++ "CHCKnownContainingBundleDescriptors"
++ "CHCTargetContainingBundle"
++ "Cannot find widget descriptor for activity "
++ "Capturing bug report with type %{public}s; subtype: %{public}s; name: %{public}s; value: %{public}s"
++ "Changing Extension's preferred app override languages in container (%s) changed to: %s from: %s"
++ "Check that the activity was started, and that you have an active content assertion for it."
++ "ChronoKit/ChronoStore_PreviewConfigurationStore.swift"
++ "CollaborationContactHandles"
++ "CollaborationGroupChatID"
++ "ComponentVersion"
++ "Content was fetched and reloaded but somehow the destination URL is empty."
++ "Crash/Hang/Data Loss"
++ "Detected database schema downgrade from %{public}s to %{public}s. Will attempt to truncate %{public}s"
++ "ERROR! graphic from template for %{public}s contains old path %{public}s"
++ "Earliest assertion expiration date is %{public}s"
++ "Effective container specified, but error finding container bundle: %{public}@"
++ "Effective container specified, but no effective container bundle found."
++ "EmulateFallbackTreatment"
++ "Encountered an unexpected Widget state. Please file a Radar to help us diagnose this issue!"
++ "Encountered malformed result for host data: %{public}s"
++ "Encountered malformed result for host: %{public}s-%{public}lu: %{public}s"
++ "Encountered malformed result for widget identity in push subscription."
++ "Encountered malformed string for topic in push subscription."
++ "Encountered malformed subscription control data for: %{public}s, %{public}@."
++ "Encountered malformed subscription extension, %{public}s."
++ "Enhancement"
++ "Error from sysctlbyname: %{public}s %{public}d"
++ "Error posting TTR request notification: %{public}@"
++ "Error rebuilding cache: %{public}@"
++ "Error subscribing to activity payloads: %{public}@"
++ "Error terminating plugin %{public}s: %{public}@"
++ "Executing event: %{public}s for successful reload of %{public}s"
++ "Explicit effective container specified for extension: %{public}s - looking for effective container bundle."
++ "ExtensionIdentifiers"
++ "Failed to append %{public}s when rebuilding cache"
++ "Failed to capture bug for reason: %{public}s"
++ "Failed to generate TTR URL: %{public}@; Draft: %{public}s"
++ "Failed to launch Tap-to-Radar"
++ "Failed to subscribe to announcement feed: %{public}s"
++ "Feature (New)"
++ "Filling descriptor cache with %{public}ld activity descriptors"
++ "ForceCARendering"
++ "Found effective original app container bundle identifier: %{public}s"
++ "Foundation/arm64e-apple-ios.private.swiftinterface"
++ "HomePod"
++ "I Didn't Try"
++ "IncludeDevicePrefixInTitle"
++ "Invalidating activity subscription: %{public}s"
++ "Mac"
++ "No change to preferred app overrides for (%{public}s)."
++ "Not Applicable"
++ "Other Bug"
++ "Parsed stored remote device: %{public}s"
++ "Pending removal of extension %{public}s without existing widget extension"
++ "Performance"
++ "Power"
++ "Preferences[%{public}s]: %{public}s preference changed to %{public}s [default=%{public}s]"
++ "PreviewConfigurationWithHostType"
++ "PrimaryOverrideTintColor"
++ "Prompting for TTR."
++ "Query Controller did update: %{public}@"
++ "Rarely"
++ "Received payload: %{public}s"
++ "Registering for payload...: %{public}s"
++ "RelevanceCache failed due to access permission %{public}@, rethrowing now"
++ "RelevanceCache failed to load with error %{public}@, retry %{public}ld"
++ "RelevanceCache rebuild insert %{public}@"
++ "RelevanceCacheManager removing abandoned key %{public}@"
++ "RemoteAttachments"
++ "Removed: %{public}s"
++ "Removing item for key %{public}s because  %{public}@"
++ "SecondaryOverrideTintColor"
++ "Security"
++ "Serious Bug"
++ "Simulating migration for %{public}lds"
++ "Sometimes"
++ "Subscribing to activity: %{public}s"
++ "TB,N"
++ "TB,N,VboostToForegroundPriority"
++ "TTR request notification posted."
++ "Tap-to-Radar isn't supported on this platform"
++ "Task"
++ "UI/Usability"
++ "UIScreen.main or its displayConfiguration was nil. Falling back to FBSDisplayMonitor mainConfiguration"
++ "Unable"
++ "Unable to construct URL from query items"
++ "Unable to make String from kern.bootsessionuuid!"
++ "Unable to make UUID from kern.bootsessionuuid!"
++ "Updating descriptor cache for %{public}@ with %{public}s."
++ "UseAlternateGlassColorMatrix"
++ "View recorder flushing %{public}ld entries for reason: %{public}s"
++ "Watch"
++ "Widget Problem Detected (Internal)"
++ "[%{public}s] All diagnostics are disabled."
++ "[%{public}s] Already prompted in this boot session."
++ "[%{public}s] Begin fetching preferred languages"
++ "[%{public}s] Descriptors did change: %{public}ld"
++ "[%{public}s] End fetching preferred languages"
++ "[%{public}s] Failed to get boot session."
++ "[%{public}s] Registering for descriptor changes for widget: %{public}s"
++ "[%{public}s] Setting _preferredSystemWidgetBackgroundStyle to: %{public}ld"
++ "[%{public}s] Unregistering for descriptor changes for widget: %{public}s"
++ "[%{public}s] Updating descriptor: %{public}s with: %{public}s"
++ "_EXQueryControllerDelegate"
++ "_TtC9ChronoKit43ActivityExtensionSystemDataCacheKeyProvider"
++ "_TtC9ChronoKit9Analytics"
++ "_TtCC9ChronoKit19ChronoMetadataStore25PreviewConfigurationStore"
++ "_TtCC9ChronoKit19ChronoMetadataStore32MutablePreviewConfigurationStore"
++ "_TtCC9ChronoKit28IOSSystemEnvironmentProviderP33_8139C377433ACB8DE10C22F32913479213_AXPublishers"
++ "_emulateFallbackTreatment"
++ "_failurePublisher"
++ "_fileManager"
++ "_forceCARendering"
++ "_glassM44"
++ "_highlightMisconfiguredScenes"
++ "_initUniqueWithURL:"
++ "_lock_isFailed"
++ "_lock_protectionType"
++ "_needsCleanup"
++ "_primaryOverrideTintColor"
++ "_replicateAllVisibleControls"
++ "_secondaryOverrideTintColor"
++ "_simulateMemoryWarning"
++ "_subduedOpacity"
++ "_subsystemIdentifier"
++ "_systemDataURLProvider"
++ "_useAlternateGlassColorMatrix"
++ "activityKey"
++ "addNotificationRequest:withCompletionHandler:"
++ "all"
++ "applicationExtensionRecord"
++ "assetLibraryURL did not return a path contained in a bundle: %{public}s"
++ "boostToForegroundPriority"
++ "com.apple.TapToRadar"
++ "com.apple.carousel.liveactivities.sessioninteraction"
++ "com.apple.chrono.control.customsymbols."
++ "com.apple.chronod.anonymous-activity-host"
++ "com.apple.chronod.diagnostics.usernotifications"
++ "com.apple.chronod.liveactivities"
++ "com.apple.developer.aps-environment"
++ "com.apple.widgets.diagnostics."
++ "com.apple.widgets.placeholder.failures"
++ "com.apple.widgets.session-platter.failures"
++ "com.apple.widgets.snapshots.failures"
++ "com.apple.widgets.timeline.failures"
++ "control"
++ "controlPushTokensDidChange:completion:"
++ "dataWithPropertyList:format:options:error:"
++ "exExtensionIdentity"
++ "exExtensionIdentityDiscoverer"
++ "exExtensionIdentityDiscovererSubscription"
++ "executeQueries:"
++ "executeQuery:"
++ "extensionIdentities"
++ "extensionIdentity: "
++ "failed to unarchive configuration"
++ "failed to verify bundle exists at %s"
++ "filtering out %{public}s due to feature flag: %{public}s:%{public}s"
++ "full-log-archive"
++ "highlightMisconfiguredScenes"
++ "iPad"
++ "iPhone"
++ "iconForApplicationIdentifier:"
++ "initWithBundleIdentifier:"
++ "initWithBytes:length:encoding:"
++ "initWithExtensionPointIdentifier:"
++ "initWithInteger:"
++ "initWithQueries:"
++ "input of String.init(cString:encoding:) must be null-terminated"
++ "interactionFailed"
++ "interactionTimedOut"
++ "kern.bootsessionuuid"
++ "lifetimeVariantAssertionWrapper"
++ "log-archive-only"
++ "mainConfiguration"
++ "no bundle found at %s"
++ "openURL:configuration:completionHandler:"
++ "previewConfigurationStore"
++ "queryController"
++ "queryControllerDidUpdate:"
++ "queryControllerDidUpdate:difference:"
++ "queryControllerDidUpdate:enabledCount:disabledCount:unelectedCount:"
++ "queryControllerDidUpdate:resultDifference:"
++ "replicateAllVisibleControls"
++ "requestWithIdentifier:content:trigger:"
++ "resume"
++ "setBody:"
++ "setBoostToForegroundPriority:"
++ "setDateFormat:"
++ "setDefaultActionURL:"
++ "setDoesRelativeDateFormatting:"
++ "setExpirationDate:"
++ "setIcon:"
++ "setInterruptionLevel:"
++ "setShouldSuppressScreenLightUp:"
++ "setThreadIdentifier:"
++ "setTitle:"
++ "simulateMemoryWarning"
++ "skips-local-sysdiagnose-only"
++ "staleIntervalLapsed"
++ "supportedProximities"
++ "sysdiagnose-only"
++ "target foundDescriptors "
++ "updating %{public}ld templates for %{public}@"
++ "v16@?0@\"NSError\"8"
++ "v24@0:8@\"_EXQueryController\"16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v32@0:8@\"_EXQueryController\"16@\"NSOrderedCollectionDifference\"24"
++ "v32@0:8@\"_TtC9WidgetKit35WidgetPushConfigurationXPCContainer\"16@?<v@?@\"NSError\">24"
++ "v48@0:8@\"_EXQueryController\"16Q24Q32Q40"
++ "v48@0:8@16Q24Q32Q40"
++ "variantKey"
++ "widgetPushTokensDidChange:completion:"
++ "writing vector glyphs asset library for %s to %s"
++ "yyyy.MM.dd_HH-mm-ss"
+- "%s"
+- "%{public}s (%ld) %{public}s"
+- "%{public}s Cache hit; url: `%{public}s`; entry count: %ld; requiresReload: %{public}s; date range: %s"
+- "%{public}s Follow-on reload from completion needed: [%s]"
+- "%{public}s Updating descriptors: %{public}ld - %{public}s"
+- "%{public}s marked with version %{public}s"
+- "%{public}s next update: %s, privacy: .public)"
+- "%{public}s update: %s, privacy: .public)"
+- "%{public}s: %{public}s (%ld) %{public}s"
+- "%{public}s:%{public}s assertion released (%ld)"
+- "%{public}s:%{public}s assertion: acquired (%ld)"
+- "@\"NSProgress\"16@0:8"
+- "@64@0:8@16@24@32q40@48q56"
+- "Activity ended: %s"
+- "Added: %s"
+- "Adding assertion for variant: %s"
+- "CHKShortcutsSoftLinking.m"
+- "CHK_WFLinkActionWorkflowRunnerClient"
+- "Can't handle remote widget"
+- "Capturing bug report with type %s; subtype: %s; name: %s; value: %s"
+- "Changing NSExtension's preferred app override languages in container (%s) changed to: %s from: %s"
+- "ChronoKit.Delegate"
+- "ChronoKit.WidgetReaper"
+- "Class getWFLinkActionWorkflowRunnerClientClass(void)_block_invoke"
+- "Completed start."
+- "Descriptor Searching for %{public}s from \"%{public}s\""
+- "Detected database schema downgrade from %{public}s to %{public}s. Will attempt to truncate %s"
+- "Discovery reports the removal of %{public}s deferring to LS for actual removal (exists in LS? %{public}s"
+- "Earliest assertion expiration date is %s"
+- "Encountered malformed result for host data: %s"
+- "Encountered malformed result for host: %s-%lu: %s"
+- "Encountered malformed subscription control data for: %s, %@."
+- "Encountered malformed subscription extension, %s."
+- "Error reaping %{public}s: %{public}@"
+- "Error rebuilding cache: %@"
+- "Error subscribing to activity payloads: %@"
+- "Error terminating plugin %s: %@"
+- "Executing event: %{public}s for successful reload of %s"
+- "Failed to append %s when rebuilding cache"
+- "Failed to capture bug for reason: %s"
+- "Failed to execute LNAction: "
+- "Failed to subscribe to announcement feed: %s"
+- "Filling descriptor cache with %ld activity descriptors"
+- "Filtering %@: classA/B Widgets not supported"
+- "Ignoring child of protected path during reaping: %{public}s"
+- "Ignoring parent of protected child during reaping: %{public}s"
+- "Ignoring previously removed extension %{public}@, pluginUUID: %{public}s"
+- "Invalid extension identity: "
+- "Invalidating activity subscription: %s"
+- "LSApplicationWorkspaceObserverProtocol"
+- "NSProgressReporting"
+- "No change to preferred app overrides for (%s)."
+- "No direct container found for extension: %{public}s - looking for effective container bundle identifier."
+- "Not removing extension %{public}s, pluginUUID: %{public}s because we have UUID %{public}s, %{public}@"
+- "Parsed stored remote device: %s"
+- "Pending removal of extension %{public}s, pluginUUID: %{public}s without existing widget extension"
+- "Plugins did uninstall %{public}s"
+- "Preferences[%s]: %s preference changed to %s [default=%s]"
+- "Reaping %{public}s"
+- "Reaping session completed: %{public}ld purged"
+- "Reaping session initiated."
+- "Received payload: %s"
+- "Registering for payload...: %s"
+- "RelevanceCache failed due to access permission %@, rethrowing now"
+- "RelevanceCache failed to load with error %@, retry %ld"
+- "RelevanceCache rebuild insert %@"
+- "RelevanceCacheManager removing abandoned key %@"
+- "Removed: %s"
+- "Removing item for key %{public}s because  %@"
+- "Simulating migration for %lds"
+- "Started executing LNAction %s(%s) in %@ from %s."
+- "Subscribing to activity: %s"
+- "T@\"NSProgress\",N,&,Vprogress"
+- "T@\"NSProgress\",R"
+- "Unable to convert "
+- "Unable to execute LNAction %{public}s for invalid identity: %{public}@"
+- "Unable to find class %s"
+- "Unexpected error fetching initial extension list: %{public}@"
+- "Unexpected error matching extensions %{public}@"
+- "Updating descriptor cache for %{public}@ with %s."
+- "View recorder flushing %{public}ld entries for reason: %s"
+- "WFLinkActionWorkflowRunnerClient"
+- "WFWorkflowRunnerClientDelegate"
+- "[%s] Begin fetching preferred languages"
+- "[%s] End fetching preferred languages"
+- "[%{public}s] Descriptors did change: %ld"
+- "[%{public}s] Registering for descriptor changes for widget: %s"
+- "[%{public}s] Setting _preferredSystemWidgetBackgroundStyle to default value of .opaque"
+- "[%{public}s] Setting _preferredSystemWidgetBackgroundStyle to: %ld"
+- "[%{public}s] Unregistering for descriptor changes for widget: %s"
+- "[%{public}s] Updating descriptor: %s with: %{public}s"
+- "_TtC9ChronoKit12WidgetReaper"
+- "_TtC9ChronoKit28_SystemNSExtensionDiscoverer"
+- "_TtC9ChronoKit29InteractiveWidgetActionRunner"
+- "_TtC9ChronoKit30RemoteActivityCacheURLProvider"
+- "_TtCC9ChronoKit19ChronoMetadataStore26SnapshotConfigurationStore"
+- "_TtCC9ChronoKit19ChronoMetadataStore33MutableSnapshotConfigurationStore"
+- "_TtCC9ChronoKit29InteractiveWidgetActionRunnerP33_1C4DBC0C4C60E41750913BD55B2D37FB8Delegate"
+- "_TtCFC9ChronoKit16ExtensionManager5startFT10completionGSqFT_T___T_L_20InitialValueObserver"
+- "_debugConfiguredDescriptors"
+- "activity-archive"
+- "addObserver:"
+- "applicationIconDidChange:"
+- "applicationInstallsArePrioritized:arePaused:"
+- "applicationInstallsDidCancel:"
+- "applicationInstallsDidChange:"
+- "applicationInstallsDidPause:"
+- "applicationInstallsDidPrioritize:"
+- "applicationInstallsDidResume:"
+- "applicationInstallsDidStart:"
+- "applicationInstallsDidUpdateIcon:"
+- "applicationStateDidChange:"
+- "applicationWorkspace"
+- "applicationsDidChangePersonas:"
+- "applicationsDidFailToInstall:"
+- "applicationsDidFailToUninstall:"
+- "applicationsDidInstall:"
+- "applicationsDidUninstall:"
+- "applicationsWillInstall:"
+- "applicationsWillUninstall:"
+- "beginMatchingExtensionsWithAttributes:completion:"
+- "cacheManager"
+- "candidateURLsToRemove"
+- "candidateURLsToRemoveWithChildrenToKeep"
+- "colorScheme"
+- "completedUnitCount"
+- "completion"
+- "content"
+- "contentLoadError"
+- "contentLoadErrorDate"
+- "currentTraitCollection"
+- "cutoffDate"
+- "databaseWasRebuilt"
+- "debugConfiguredDescriptors"
+- "delegate"
+- "deviceManagementPolicyDidChange:"
+- "endMatchingExtensions:"
+- "expirationTimerSubject"
+- "extensionMatchingToken"
+- "extensionPoint"
+- "extensionsWithMatchingAttributes:error:"
+- "filtering out %s due to feature flag: %s:%s"
+- "helperPlaceholdersInstalled:"
+- "helperPlaceholdersUninstalled:"
+- "initWithLinkAction:appBundleIdentifier:extensionBundleIdentifier:runSource:runSourceOverride:authenticationPolicy:"
+- "launchOriginOverride"
+- "mangledTypeName"
+- "networkUsageChanged:"
+- "newClientWithLinkAction:appBundleIdentifier:extensionBundleIdentifier:runSource:launchOriginOverride:authenticationPolicy:"
+- "nsExtension"
+- "nsExtensionDiscoverer"
+- "nsExtensionDiscovererSubscription"
+- "nsExtensionsPublished"
+- "observeLaunchProhibitedApps"
+- "pluginsDidInstall:"
+- "pluginsDidUninstall:"
+- "pluginsWillUninstall:"
+- "preferredContentSizeCategory"
+- "progress"
+- "progressWithTotalUnitCount:"
+- "pushTokensDidChange:completion:"
+- "remoteExtensionsPublished"
+- "removedPluginUUIDsByIdentifier"
+- "setCompletedUnitCount:"
+- "setPreferredLanguages:"
+- "setProgress:"
+- "sizeCategory"
+- "snapshotConfigurationStore"
+- "softlink:r:path:/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient"
+- "start"
+- "subpathsOfDirectoryAtPath:error:"
+- "urlsToProtect"
+- "uuid"
+- "v24@0:8@\"NSArray\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v32@0:8@\"NSArray\"16@\"NSArray\"24"
+- "v32@0:8@\"WFWorkflowRunnerClient\"16@\"NSProgress\"24"
+- "v36@0:8@\"WFWorkflowRunnerClient\"16@\"NSError\"24B32"
+- "v36@0:8@16@24B32"
+- "v44@0:8@\"WFWorkflowRunnerClient\"16@\"NSDictionary\"24@\"NSError\"32B40"
+- "v44@0:8@\"WFWorkflowRunnerClient\"16@\"WFContentCollection\"24@\"NSError\"32B40"
+- "v44@0:8@16@24@32B40"
+- "void *VoiceShortcutClientLibrary(void)"
+- "workflowRunnerClient:didFinishRunningWorkflowWithAllResults:error:cancelled:"
+- "workflowRunnerClient:didFinishRunningWorkflowWithError:cancelled:"
+- "workflowRunnerClient:didFinishRunningWorkflowWithOutput:error:cancelled:"
+- "workflowRunnerClient:didStartRunningWorkflowWithProgress:"
+
+```

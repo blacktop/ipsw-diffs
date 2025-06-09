@@ -1,0 +1,279 @@
+## libswift_RegexParser.dylib
+
+> `/usr/lib/swift/libswift_RegexParser.dylib`
+
+```diff
+
+-6.1.2.1.2
+-  __TEXT.__text: 0x896f4
+-  __TEXT.__auth_stubs: 0xb90
+-  __TEXT.__const: 0x56a8
++6.2.0.9.950
++  __TEXT.__text: 0x86664
++  __TEXT.__auth_stubs: 0xb80
++  __TEXT.__const: 0x56c8
+   __TEXT.__cstring: 0x4f06
+-  __TEXT.__swift5_typeref: 0xb55
++  __TEXT.__swift5_typeref: 0xbe3
+   __TEXT.__swift5_capture: 0x2e8
+-  __TEXT.__swift5_reflstr: 0x368f
++  __TEXT.__swift5_reflstr: 0x36ff
+   __TEXT.__swift5_assocty: 0x2c8
+-  __TEXT.__constg_swiftt: 0xc2c
+-  __TEXT.__swift5_fieldmd: 0x3694
++  __TEXT.__constg_swiftt: 0xc6c
++  __TEXT.__swift5_fieldmd: 0x3720
+   __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_mpenum: 0xc4
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_proto: 0x544
+-  __TEXT.__swift5_types: 0x1ac
+-  __TEXT.__unwind_info: 0x1718
+-  __TEXT.__eh_frame: 0x4d8
++  __TEXT.__swift5_types: 0x1d8
++  __TEXT.__unwind_info: 0x1720
++  __TEXT.__eh_frame: 0x4b0
+   __DATA_CONST.__got: 0x1e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x5c8
+-  __AUTH_CONST.__const: 0x6430
+-  __DATA.__data: 0x7e8
++  __AUTH_CONST.__auth_got: 0x5c0
++  __AUTH_CONST.__const: 0x6b18
++  __DATA.__data: 0x828
+   __DATA.__bss: 0xa7c0
+-  __DATA_DIRTY.__data: 0x3f8
++  __DATA_DIRTY.__data: 0x420
+   __DATA_DIRTY.__bss: 0x1f0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: 17718290-1E82-35D4-B32D-B81C865965C5
+-  Functions: 2691
+-  Symbols:   8621
++  UUID: 0B0A585A-7DFF-3054-9075-5990B13C06F3
++  Functions: 2702
++  Symbols:   8693
+   CStrings:  804
+ 
+Symbols:
++ _$s12_RegexParser0B0V10lexCommentAA3ASTV6TriviaVSgyFSSSgACzXEfU_
++ _$s12_RegexParser0B0V13lexQuantBoundAA3ASTV4AtomV6NumberVSgyF
++ _$s12_RegexParser0B0V14tryEatNonEmpty8sequenceSbx_tSlRzSJ7ElementRtzlFSS_Tg5
++ _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtF03mapT0L0_yyAA0dE0V_AI0sT0V4KindOtFSbAPXEfU_TA
++ _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtF03mapT0L0_yyAA0dE0V_AI0sT0V4KindOtFSbAPXEfU_TA.415
++ _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtF03mapT0L_yyAA0dE0V_SbAI0sT0VXEtF
++ _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtFSbAI0sT0Vcfu1_33_7bf159d6a9b162adada0d7e3a10aeab4AMSbTf3npk_n
++ _$s12_RegexParser0B0V19expectGroupLikeAtomAA3ASTV0F0V4KindOyFTv_r
++ _$s12_RegexParser0B0V8lexQuoteAA3ASTV0D0VSgyFSSSgACzXEfU_
++ _$s12_RegexParser0B0V8lexQuoteAA3ASTV0D0VSgyFTm
++ _$s12_RegexParser0B0V8lexUntil33_E16AF135E664C72DDA9A5705859E2720LLyAA6SourceV7LocatedVy_SSGSbACzXEF05$s12_a27Parser0B0V12expectQuoted33_efghijk48LL10endingWith5count13ignoreEscaped9eatEndingAA6l2V7M36Vy_SSGSS_SiS2btFSSACzXEfU_SbACzXEfU_S2SSbTf1ncn_n
++ _$s12_RegexParser0B0V9tryEatingyxSgAeCzXElFAA3ASTV14QuantificationV6AmountO_Tg505$s12_a62Parser0B0V13lexQuantRange6triviaAA6SourceV7LocatedVy_AA3ASTV14f2V6G43OGSgSayAK6TriviaVGz_tFAOSgACzXEfU_AuCzXEfU_SayAG0Y0VGTf1ncn_n
++ _$s12_RegexParser0B0VMF
++ _$s12_RegexParser0B0VMa
++ _$s12_RegexParser0B0VMf
++ _$s12_RegexParser0B0VMn
++ _$s12_RegexParser0B0VN
++ _$s12_RegexParser0B0VWOc
++ _$s12_RegexParser0B0VWOh
++ _$s12_RegexParser0B0VWV
++ _$s12_RegexParser0B0VwCP
++ _$s12_RegexParser0B0Vwca
++ _$s12_RegexParser0B0Vwcp
++ _$s12_RegexParser0B0Vwet
++ _$s12_RegexParser0B0Vwst
++ _$s12_RegexParser0B0Vwta
++ _$s12_RegexParser0B0Vwxx
++ _$s12_RegexParser10DiagnosticVWOc
++ _$s12_RegexParser10DiagnosticVWOh
++ _$s12_RegexParser10ParseErrorOWOc
++ _$s12_RegexParser13PrettyPrinterVWOh
++ _$s12_RegexParser13_ASTPrintablePAAE11descriptionSSvgAA3ASTV28GlobalMatchingOptionSequenceV_TB5Tm
++ _$s12_RegexParser14ParsingContextVMF
++ _$s12_RegexParser14ParsingContextVMa
++ _$s12_RegexParser14ParsingContextVMf
++ _$s12_RegexParser14ParsingContextVMn
++ _$s12_RegexParser14ParsingContextVN
++ _$s12_RegexParser14ParsingContextVWV
++ _$s12_RegexParser14ParsingContextVwCP
++ _$s12_RegexParser14ParsingContextVwca
++ _$s12_RegexParser14ParsingContextVwcp
++ _$s12_RegexParser14ParsingContextVwet
++ _$s12_RegexParser14ParsingContextVwst
++ _$s12_RegexParser14ParsingContextVwta
++ _$s12_RegexParser14ParsingContextVwxx
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV17PCREVersionNumberV9hashValueSivgTm
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV17PCREVersionNumberVSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV17PCREVersionNumberVSHAASH9hashValueSivgTWTm
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSHAASH9hashValueSivgTWTm
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSgMJ
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSgMN
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSgWV
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOWOc
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO_AItMD
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgMJ
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgMN
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgWOi_
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgWV
++ _$s12_RegexParser3ASTV11ConditionalV9ConditionVWOc
++ _$s12_RegexParser3ASTV11ConditionalVWOc
++ _$s12_RegexParser3ASTV13ConcatenationV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s12_RegexParser3ASTV13InterpolationV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s12_RegexParser3ASTV14AbsentFunctionVWOc
++ _$s12_RegexParser3ASTV14QuantificationVWOc
++ _$s12_RegexParser3ASTV22MatchingOptionSequenceVSgMJ
++ _$s12_RegexParser3ASTV22MatchingOptionSequenceVSgMN
++ _$s12_RegexParser3ASTV22MatchingOptionSequenceVSgWV
++ _$s12_RegexParser3ASTV22MatchingOptionSequenceVWOh
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSHAASH9hashValueSivgTWTm
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgMJ
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgMN
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgWOc
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgWOhTm
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgWV
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSg_AJtMD
++ _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVWOh
++ _$s12_RegexParser3ASTV4AtomV7CalloutOSgMJ
++ _$s12_RegexParser3ASTV4AtomV7CalloutOSgMN
++ _$s12_RegexParser3ASTV4AtomV7CalloutOSgWOi_
++ _$s12_RegexParser3ASTV4AtomV7CalloutOSgWV
++ _$s12_RegexParser3ASTV4AtomV7CalloutOWOc
++ _$s12_RegexParser3ASTV4AtomV7CalloutOWOh
++ _$s12_RegexParser3ASTV4AtomV7CalloutOWOj1_
++ _$s12_RegexParser3ASTV4AtomV7CalloutOWOj_
++ _$s12_RegexParser3ASTV4AtomV7CalloutO_AGtMD
++ _$s12_RegexParser3ASTV4NodeO10_postOrderSayAEGyF
++ _$s12_RegexParser3ASTV4NodeOWOc
++ _$s12_RegexParser3ASTV5GroupV4KindOSgMJ
++ _$s12_RegexParser3ASTV5GroupV4KindOSgMN
++ _$s12_RegexParser3ASTV5GroupV4KindOSgWV
++ _$s12_RegexParser3ASTV5GroupV4KindOWOc
++ _$s12_RegexParser3ASTV5GroupV4KindO_AGtMD
++ _$s12_RegexParser3ASTV5GroupVWOc
++ _$s12_RegexParser3ASTV9ReferenceVWOc
++ _$s12_RegexParser3ASTV9ReferenceVWOhTm
++ _$s12_RegexParser6SourceV10peekPrefix9maxLength_SsSgSiSg_SbSJXEtF05$s12_a42Parser9RadixKindO15characterFilterySbSJcvgN54SJcfu0_33_296d4e95e4c00982497bcd0e2689b2f6SJSbTf3npk_nTf1ncn_n
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV11ConditionalV9ConditionV4KindOGSgWOi_
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgMD
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV7CalloutO4PCREV8ArgumentOGMf
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV7CalloutO4PCREV8ArgumentOGWOc
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV7CalloutO4PCREV8ArgumentOGWV
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGMf
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGSgMJ
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGSgMN
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGSgWV
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGWOc
++ _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGWV
++ _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgMD
++ _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgWOi_
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSay12_RegexParser3ASTV14MatchingOptionVG_Tg5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySJG_TG5TA.416
++ _$sSasSHRzlE4hash4intoys6HasherVz_tF12_RegexParser6SourceV7LocatedVy_SSG_Tg5Tm
++ _$sSasSHRzlE4hash4intoys6HasherVz_tF12_RegexParser6SourceV8LocationV_Tg5
++ _$sSlsE5countSivgSs8UTF8ViewV_Tgq5
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSy12_RegexParserE020spansMultipleLinesInA7LiteralSbvgSs_Tg5
++ _$ss13_parseInteger5ascii5radixq_Sgx_SitSyRzs010FixedWidthB0R_r0_lFSS_s6UInt16VTg5
++ _$ss17FixedWidthIntegerPsE_5radixxSgqd___SitcSyRd__lufcADSRys5UInt8VGXEfU_AGSiADs5Error_psAARzSSRsd__r__lIetyyrzo_Tpq5AF_Tg5
++ _$ss17FixedWidthIntegerPsEyxSgSScfCs5UInt8V_Tt1g5
++ _$ss26DefaultStringInterpolationV06appendC0yyxs06CustomB11ConvertibleRzlF12_RegexParser3ASTV28GlobalMatchingOptionSequenceV_TB5
++ ___swift_memcpy41_8
++ ___swift_memcpy89_8
++ ___unnamed_290
++ ___unnamed_291
++ _objectdestroy.44Tm
++ _objectdestroy.59Tm
++ _objectdestroy.62Tm
++ _symbolic ShySSG
++ _symbolic _____ 12_RegexParser0B0V
++ _symbolic _____ 12_RegexParser14ParsingContextV
++ _symbolic _____Sg_ABt 12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagV
++ _symbolic ______AAt 12_RegexParser3ASTV11ConditionalV9ConditionV4KindO
++ _symbolic ______AAt 12_RegexParser3ASTV4AtomV7CalloutO
++ _symbolic ______AAt 12_RegexParser3ASTV5GroupV4KindO
++ _symbolic _____y_AAy______G_AAy______GSay_____GtGSg 12_RegexParser6SourceV7LocatedV AA3ASTV14QuantificationV6AmountO AI4KindO AG6TriviaV
++ _symbolic _____y______G_AAy______GSay_____GtSg 12_RegexParser6SourceV7LocatedV AA3ASTV14QuantificationV6AmountO AI4KindO AG6TriviaV
+- _$s12_RegexParser0B0V10lexCommentAA3ASTV6TriviaVSgyF
+- _$s12_RegexParser0B0V11peekCCBinOpAA3ASTV20CustomCharacterClassV03SetE0OSgyF
+- _$s12_RegexParser0B0V12expectQuoted33_E16AF135E664C72DDA9A5705859E2720LL10endingWith5count13ignoreEscaped9eatEndingAA6SourceV7LocatedVy_SSGSS_SiS2btF
+- _$s12_RegexParser0B0V14expectNonEmptyySbAA10ParseErrorOF
+- _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtF
+- _$s12_RegexParser0B0V18applySyntaxOptions33_F50E6FA39D48CAE20DE1ECAC5A1082E2LL2of8isScopedyAA3ASTV22MatchingOptionSequenceV_SbtF03mapT0L_yyAA0dE0V_SbAI0sT0VXEtF05$s12_a17Parser0B0V18applyd10Options33_fghijklmn24LL2of8isScopedyAA3ASTV22stU67V_SbtFSbAI0sT0Vcfu1_33_7bf159d6a9b162adada0d7e3a10aeab4AMSbTf3npk_nTf1ncnn_n
+- _$s12_RegexParser0B0V20expectNamedReference33_E16AF135E664C72DDA9A5705859E2720LL10endingWith9eatEnding19allowRecursionLevelAA3ASTV0E0VSS_S2btF
+- _$s12_RegexParser0B0V8lexQuoteAA3ASTV0D0VSgyF
+- _$s12_RegexParser0B0V8lexUntil33_E16AF135E664C72DDA9A5705859E2720LLyAA6SourceV7LocatedVy_SSGSbACzXEF05$s12_A60Parser0B0V19expectGroupLikeAtomAA3ASTV0F0V4KindOyFSbACzXEfU_Tf1ncn_n
+- _$s12_RegexParser0B0V8lexUntil33_E16AF135E664C72DDA9A5705859E2720LLyAA6SourceV7LocatedVy_SSGSbACzXEF05$s12_a48Parser0B0V8lexQuoteAA3ASTV0D0VSgyFSSSgACzXEfU_SbxY2U_Tf1ncn_n
+- _$s12_RegexParser0B0V8lexUntil33_E16AF135E664C72DDA9A5705859E2720LLyAA6SourceV7LocatedVy_SSGSbACzXEF05$s12_a55Parser0B0V10lexCommentAA3ASTV6TriviaVSgyFSSSgACzXEfU_SbxY2U_Tf1ncn_nTm
+- _$s12_RegexParser0B0V9tryEatingyxSgAeCzXElFAA3ASTV14QuantificationV6AmountO_Tg505$s12_a56Parser0B0V8lexRange6triviaAA6SourceV7LocatedVy_AA3ASTV14f2V6G43OGSgSayAK6TriviaVGz_tFAOSgACzXEfU_AuCzXEfU_SayAG0X0VGTf1ncn_n
+- _$s12_RegexParser0B0VWOr
+- _$s12_RegexParser0B0VWOs
+- _$s12_RegexParser10DiagnosticVWOr
+- _$s12_RegexParser10DiagnosticVWOs
+- _$s12_RegexParser10ParseErrorOWOh
+- _$s12_RegexParser11DiagnosticsV13throwAnyErroryyKF
+- _$s12_RegexParser13PrettyPrinterVWOs
+- _$s12_RegexParser13_ASTPrintablePAAE5_dumpSSyFAA3ASTV28GlobalMatchingOptionSequenceV_TB5
+- _$s12_RegexParser20LocatedErrorProtocol_pWOb
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSgWOe
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOSgWOg
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindOWOj0_
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionV4KindO_AItWOs
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgWOe
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgWOi0_
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionVSgWOs
+- _$s12_RegexParser3ASTV11ConditionalV9ConditionVWOrTm
+- _$s12_RegexParser3ASTV11ConditionalVWOr
+- _$s12_RegexParser3ASTV14AbsentFunctionVWOr
+- _$s12_RegexParser3ASTV14AbsentFunctionVWOs
+- _$s12_RegexParser3ASTV14QuantificationVWOr
+- _$s12_RegexParser3ASTV22MatchingOptionSequenceVSHAASH13_rawHashValue4seedS2i_tFTWTm
+- _$s12_RegexParser3ASTV22MatchingOptionSequenceVSHAASH9hashValueSivgTWTm
+- _$s12_RegexParser3ASTV22MatchingOptionSequenceVSgWOe
+- _$s12_RegexParser3ASTV22MatchingOptionSequenceVSgWOs
+- _$s12_RegexParser3ASTV22MatchingOptionSequenceVWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgWOr
+- _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSgWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVSg_AJtWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutO12OnigurumaTagVWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutO14OnigurumaNamedVWOr
+- _$s12_RegexParser3ASTV4AtomV7CalloutO14OnigurumaNamedVWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutO19OnigurumaOfContentsVWOr
+- _$s12_RegexParser3ASTV4AtomV7CalloutO19OnigurumaOfContentsVWOs
+- _$s12_RegexParser3ASTV4AtomV7CalloutOSgWOe
+- _$s12_RegexParser3ASTV4AtomV7CalloutOWOsTm
+- _$s12_RegexParser3ASTV4AtomV7CalloutO_AGtWOs
+- _$s12_RegexParser3ASTV4NodeO10_postOrder4intoySayAEGz_tF
+- _$s12_RegexParser3ASTV4NodeOWOr
+- _$s12_RegexParser3ASTV5GroupV15BalancedCaptureVWOr
+- _$s12_RegexParser3ASTV5GroupV15BalancedCaptureVWOs
+- _$s12_RegexParser3ASTV5GroupV4KindOSgWOe
+- _$s12_RegexParser3ASTV5GroupV4KindO_AGtWOs
+- _$s12_RegexParser3ASTV5GroupVWOr
+- _$s12_RegexParser3ASTV9ReferenceVWOsTm
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgWOe
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtSgWOs
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV4AtomV7CalloutO4PCREV8ArgumentOGWOr
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGSgWOe
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGSgWOs
+- _$s12_RegexParser6SourceV7LocatedVy_AA3ASTV5GroupV4KindOGWOrTm
+- _$s12_RegexParser6SourceV7LocatedVy_AEy_AA3ASTV14QuantificationV6AmountOG_AEy_AI4KindOGSayAG6TriviaVGtGSgWOe
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSs17UnicodeScalarViewV_Tg5059$sSy12_RegexParserE020spansMultipleLinesInA7LiteralSbvgSbs7d2O6E6VXEfU_Tf1cn_n
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySJG_TG5TA.414
+- _$sSasSHRzlE4hash4intoys6HasherVz_tF12_RegexParser3ASTV4NodeO_Tg5
+- _$sSasSHRzlE4hash4intoys6HasherVz_tF12_RegexParser3ASTV6TriviaV_Tg5
+- _$sSasSHRzlE4hash4intoys6HasherVz_tF12_RegexParser6SourceV7LocatedVy_SSG_Tg5
+- _$sSlsE5countSivgSs8UTF8ViewV_Tg5
+- ___unnamed_284
+- ___unnamed_285
+- _objectdestroy.51Tm
+- _objectdestroy.66Tm
+- _objectdestroy.69Tm
+- _swift_release_n
+- _swift_retain_n
+
+```

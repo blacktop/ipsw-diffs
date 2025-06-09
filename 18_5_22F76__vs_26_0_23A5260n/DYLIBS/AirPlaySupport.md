@@ -1,0 +1,2252 @@
+## AirPlaySupport
+
+> `/System/Library/PrivateFrameworks/AirPlaySupport.framework/AirPlaySupport`
+
+```diff
+
+-860.7.1.0.0
+-  __TEXT.__text: 0x7223c
+-  __TEXT.__auth_stubs: 0x2cf0
+-  __TEXT.__objc_methlist: 0x44
+-  __TEXT.__const: 0xc28
+-  __TEXT.__dlopen_cstrs: 0xac
+-  __TEXT.__gcc_except_tab: 0x214
+-  __TEXT.__cstring: 0x1d782
++890.61.4.11.2
++  __TEXT.__text: 0x8c684
++  __TEXT.__auth_stubs: 0x2f60
++  __TEXT.__objc_methlist: 0x2c4
++  __TEXT.__const: 0xcc8
++  __TEXT.__dlopen_cstrs: 0x102
++  __TEXT.__gcc_except_tab: 0x260
++  __TEXT.__cstring: 0x24e14
+   __TEXT.__oslogstring: 0x6c
+-  __TEXT.__unwind_info: 0x12b0
+-  __TEXT.__objc_classname: 0x18
+-  __TEXT.__objc_methname: 0x689
+-  __TEXT.__objc_methtype: 0x25
+-  __TEXT.__objc_stubs: 0x880
+-  __DATA_CONST.__got: 0x600
+-  __DATA_CONST.__const: 0x1af8
+-  __DATA_CONST.__objc_classlist: 0x8
++  __TEXT.__unwind_info: 0x1728
++  __TEXT.__objc_classname: 0x7d
++  __TEXT.__objc_methname: 0xc99
++  __TEXT.__objc_methtype: 0x33c
++  __TEXT.__objc_stubs: 0xbe0
++  __DATA_CONST.__got: 0x618
++  __DATA_CONST.__const: 0x2608
++  __DATA_CONST.__objc_classlist: 0x20
++  __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x220
+-  __AUTH_CONST.__auth_got: 0x1690
+-  __AUTH_CONST.__const: 0x23a8
+-  __AUTH_CONST.__cfstring: 0x4380
+-  __AUTH_CONST.__objc_const: 0x130
+-  __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x150
+-  __DATA.__objc_ivar: 0xc
+-  __DATA.__data: 0x1aa8
+-  __DATA.__bss: 0x900
+-  __DATA_DIRTY.__data: 0x780
+-  __DATA_DIRTY.__bss: 0x4c8
++  __DATA_CONST.__objc_selrefs: 0x3e8
++  __DATA_CONST.__objc_superrefs: 0x18
++  __DATA_CONST.__objc_arraydata: 0x8
++  __AUTH_CONST.__auth_got: 0x17c8
++  __AUTH_CONST.__const: 0x2c10
++  __AUTH_CONST.__cfstring: 0x5480
++  __AUTH_CONST.__objc_const: 0x570
++  __AUTH_CONST.__objc_intobj: 0x30
++  __AUTH_CONST.__objc_arrayobj: 0x18
++  __AUTH.__objc_data: 0x140
++  __AUTH.__data: 0x1d0
++  __DATA.__objc_ivar: 0x24
++  __DATA.__data: 0x1f58
++  __DATA.__bss: 0xa38
++  __DATA_DIRTY.__data: 0x830
++  __DATA_DIRTY.__bss: 0x528
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/PrivateFrameworks/CoreAUC.framework/CoreAUC
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 58B2E435-BB6D-3D03-AC3B-224E5CF6101F
+-  Functions: 1569
+-  Symbols:   4253
+-  CStrings:  3456
++  UUID: 98082D65-1177-3026-BA50-0D4D3C2D5FDF
++  Functions: 1983
++  Symbols:   5161
++  CStrings:  4229
+ 
+Symbols:
++ -[APSDeferredTask dealloc]
++ -[APSDeferredTask init]
++ -[APSDeferredTask result]
++ -[APSDeferredTask setNotCompleted]
++ -[APSDeferredTask setResult:]
++ -[APSRateControllerDelegate dealloc]
++ -[APSRateControllerDelegate initWithContext:]
++ -[APSRateControllerDelegate rateController:probingSequenceRequestedWithID:probingSequenceSize:]
++ -[APSRateControllerDelegate rateController:targetBitrateDidChange:rateChangeCounter:]
++ -[APSTimeSyncNetworkClock addIPv4PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:]
++ -[APSTimeSyncNetworkClock addIPv6PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:]
++ -[APSTimeSyncNetworkClock cm8021ASClock]
++ -[APSTimeSyncNetworkClock createClockForSystemDomainClockIdentifier:]
++ -[APSTimeSyncNetworkClock dealloc]
++ -[APSTimeSyncNetworkClock disablePort:]
++ -[APSTimeSyncNetworkClock enablePort:]
++ -[APSTimeSyncNetworkClock init]
++ -[APSTimeSyncNetworkClock overridePortReceiveMatching:clockIdentity:remotePort:]
++ -[APSTimeSyncNetworkClock removeIPv4Port:destinationAddress:]
++ -[APSTimeSyncNetworkClock removeIPv6Port:destinationAddress:]
++ -[APSTimeSyncNetworkClock setAllPortRemoteSyncMessageIntervals:]
++ -[APSTimeSyncNetworkClock setupClock]
++ GCC_except_table1217
++ GCC_except_table1221
++ GCC_except_table1410
++ GCC_except_table1413
++ GCC_except_table1416
++ GCC_except_table1420
++ GCC_except_table164
++ GCC_except_table166
++ GCC_except_table1714
++ GCC_except_table1957
++ GCC_except_table1960
++ GCC_except_table1961
++ GCC_except_table362
++ GCC_except_table396
++ GCC_except_table72
++ GCC_except_table759
++ GCC_except_table80
++ GCC_except_table906
++ GCC_except_table928
++ GCC_except_table929
++ GCC_except_table935
++ _APAudioFormatCopyPreferredRealTimeAudioFormatsSender
++ _APAudioFormatGetTransportAudioFormatForPCMFormatSender
++ _APAudioFormatIsAudioChannelLayoutTag9_1_6
++ _APAudioFormatIsScreenSpatialAudioReceiver
++ _APSAPAPBBufEncodeHeader
++ _APSAPAPRTPBBufCopyAPAPBBuf
++ _APSAPAPRTPBBufCopyAPAPRTPFragmentBBufs
++ _APSAPAPRTPBBufCreateWithAPAPBBuf
++ _APSAPAPRTPBBufCreateWithAPAPRTPFragmentBBufs
++ _APSAPAPRTPBBufGetAPAPRTPFragmentCount
++ _APSAPAPRTPBBufGetAPAPTimestamp
++ _APSAudioFormatDescriptionGetPCMASBD
++ _APSAudioFormatDescriptionIsPassthroughFormatForCurrentDeviceAsSender
++ _APSAudioFormatDescriptionListCopyChannelLayoutTagsDataArray
++ _APSAudioFormatDescriptionListCreateCopy
++ _APSAudioFormatDescriptionListCreateForMediumLatencyReceiver
++ _APSAudioFormatDescriptionListCreateForMediumLatencySender
++ _APSAudioFormatDescriptionListCreateIntersection
++ _APSAudioFormatDescriptionListFindCompatibleTransportFromPCMAndSetDefault
++ _APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsReceiver.audioFormatList
++ _APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsReceiver.initOnce
++ _APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsSender.audioFormatList
++ _APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsSender.initOnce
++ _APSAudioHoseMetricCollectorCreate
++ _APSAudioHoseMetricCollectorDeregisterHose
++ _APSAudioHoseMetricCollectorGetTypeID
++ _APSAudioHoseMetricCollectorIncrementRTCPSignatureFailureCountForHose
++ _APSAudioHoseMetricCollectorRegisterHose
++ _APSAudioHoseMetricCollectorReportMetrics
++ _APSAudioHoseMetricCollectorSetPlaybackStateForHose
++ _APSAudioHoseMetricCollectorUpdateAPATTransmissionDataForHose
++ _APSAudioHoseMetricCollectorUpdateMediaTimeStatsForHose
++ _APSAudioHoseMetricCollectorUpdatePacketSize
++ _APSAudioHoseMetricCollectorUpdateRateControllerDataForHose
++ _APSAudioHoseMetricCollectorUpdateRoundTripTimeDataForHose
++ _APSAudioHoseMetricCollectorUpdateSendRateForHose
++ _APSAudioHoseMetricCollectorUpdateSendWindowDataForHose
++ _APSAudioHoseMetricCollectorUpdateSlotsAvailableCountForHose
++ _APSAudioLatencyForSystemAudioInClusterModelMs
++ _APSAudioProtocolDriverHoseControlProtocolGetProtocolID
++ _APSAudioProtocolDriverHoseControlProtocolGetProtocolID.sRegisterAPSAudioProtocolDriverHoseControlProtocolTypeOnce
++ _APSAudioProtocolDriverHoseDataAPATProtocolGetProtocolID
++ _APSAudioProtocolDriverHoseDataAPATProtocolGetProtocolID.sRegisterAPSAudioProtocolDriverHoseDataAPATProtocolTypeOnce
++ _APSAudioProtocolDriverHoseDataBaseProtocolGetProtocolID
++ _APSAudioProtocolDriverHoseDataBaseProtocolGetProtocolID.sRegisterAPSAudioProtocolDriverHoseDataBaseProtocolTypeOnce
++ _APSAudioProtocolDriverHoseSetProperty
++ _APSAudioProtocolDriverHoseTimeConverterProtocolGetProtocolID
++ _APSAudioProtocolDriverHoseTimeConverterProtocolGetProtocolID.sRegisterAPSAudioProtocolDriverHoseTimeConverterProtocolTypeOnce
++ _APSAudioProtocolDriverReceiverAPATCreate
++ _APSAudioProtocolDriverReceiverGetCMBaseObject
++ _APSAudioProtocolDriverReceiverGetClassID.sClassID
++ _APSAudioProtocolDriverReceiverGetClassID.sRegisterOnce
++ _APSAudioProtocolDriverSenderAPATCreate
++ _APSAudioProtocolDriverSenderGetCMBaseObject
++ _APSAudioProtocolDriverSenderGetClassID
++ _APSAudioProtocolDriverSenderGetClassID.sClassID
++ _APSAudioProtocolDriverSenderGetClassID.sRegisterOnce
++ _APSAudioProtocolDriverSenderGetTypeID
++ _APSAudioProtocolDriverSenderHoseControllerAPATCancelAllForcedDataTransmissions
++ _APSAudioProtocolDriverSenderHoseControllerAPATCreate
++ _APSAudioProtocolDriverSenderHoseControllerAPATCreate.rtcpCallbacks
++ _APSAudioProtocolDriverSenderHoseControllerAPATCreate.rtpCallbacks
++ _APSAudioProtocolDriverSenderHoseControllerAPATFlush
++ _APSAudioProtocolDriverSenderHoseControllerAPATFlushFromTime
++ _APSAudioProtocolDriverSenderHoseControllerAPATForceTransmitDataAtMediaTime
++ _APSAudioProtocolDriverSenderHoseControllerAPATGetLastDeliveredSeqNum
++ _APSAudioProtocolDriverSenderHoseControllerAPATGetTypeID
++ _APSAudioProtocolDriverSenderHoseControllerAPATNotifyAudioDataAvailableIfNecessary
++ _APSAudioProtocolDriverSenderHoseControllerAPATProbingSequenceRequestedWithID
++ _APSAudioProtocolDriverSenderHoseControllerAPATProbingStatus
++ _APSAudioProtocolDriverSenderHoseControllerAPATPrunePacketsWithinRange
++ _APSAudioProtocolDriverSenderHoseControllerAPATTick
++ _APSAudioProtocolDriverSenderHoseControllerAPATTriggerBurst
++ _APSAudioProtocolDriverSenderHoseControllerNotifyFlushCompleteForHose
++ _APSAudioProtocolDriverSenderHoseControllerNotifyPendingFlushForHose
++ _APSAudioProtocolDriverSenderLocalCreate
++ _APSBinaryTXTRecordCopyString
++ _APSCFDictionaryGetSockAddr
++ _APSCFDictionarySetSockAddr
++ _APSCFSetAddSet
++ _APSCFStringToSockAddr
++ _APSCompactNTPGetMs
++ _APSCompactNTPMakeWithCMTime
++ _APSCompactNTPMakeWithUpTicks
++ _APSCompoundRTCPBBufApplyBlock
++ _APSCompoundRTCPBBufApplyFunction
++ _APSCompoundRTCPBBufCopySubRTCPBBufs
++ _APSCompoundRTCPBBufGetSubRTCPCount
++ _APSCopyNetworkInterfaceType
++ _APSDataPacerBitRateChangeToSteadyState
++ _APSDataPacerBitRateCreate
++ _APSDataPacerBitRateUpdate
++ _APSDataPacerCongestionControlCreate
++ _APSDataPacerCongestionControlSetProbing
++ _APSDataPacerGetCMBaseObject
++ _APSDataPacerGetClassID
++ _APSDataPacerGetClassID.sClassID
++ _APSDataPacerGetClassID.sRegisterOnce
++ _APSDataPacerGetPacedRate
++ _APSDataPacerGetTypeID
++ _APSDataPacerHoseCountCreateWithCapacity
++ _APSDataPacerHoseCountCreateWithDefaultCapacityForCurrentDevice
++ _APSDataPacerHoseCountDecrement
++ _APSDataPacerHoseCountIncrement
++ _APSDisplayUtilsGetAggregatedDisplayProtectionBits
++ _APSDynamicLatencyManagerGetRef
++ _APSDynamicLatencyManagerGetRef.sAPSDynamicLatencyManager
++ _APSDynamicLatencyManagerGetRef.sInitOnce
++ _APSEventRecorderGetTimeBetweenEventRecorderTimeAndEventInMilliSecond
++ _APSEventRecorderGetTimeFromDictionaryIfPresent
++ _APSEventRecorderSetTimeInDictionary
++ _APSGetCurrentLocalTimeString
++ _APSIsOpenNANReceiverEnabled
++ _APSIsOpenNANReceiverEnabled.sOnce
++ _APSIsOpenNANReceiverEnabled.sOpenNANReceiverEnabled
++ _APSIsOpenNANSenderEnabled
++ _APSIsOpenNANSenderEnabled.sOnce
++ _APSIsOpenNANSenderEnabled.sOpenNANSenderEnabled
++ _APSIsWHAParallelSetupProcessingEnabled
++ _APSIsWHAParallelSetupProcessingEnabled.sOnce
++ _APSIsWHAParallelSetupProcessingEnabled.sWHAParallelSetupProcessingEnabled
++ _APSIsWHAReduceActivationMessagesEnabled
++ _APSIsWHAReduceActivationMessagesEnabled.sOnce
++ _APSIsWHAReduceActivationMessagesEnabled.sWHAReduceActivationMessagesEnabled
++ _APSRTCPAVPFBBufGetFeedbackMessageType
++ _APSRTCPAVPFBBufGetPacketSenderSSRC
++ _APSRTCPBBufGetLength
++ _APSRTCPBBufGetPayloadOffset
++ _APSRTCPBBufGetPayloadType
++ _APSRTCPBBufIsAVPF
++ _APSRTCPBBufIsCCFB
++ _APSRTCPBBufIsCompound
++ _APSRTCPBBufIsKnown
++ _APSRTCPBBufIsValid
++ _APSRTCPBBufIsXR
++ _APSRTCPCCFBBBufArrayCreateWithRecordsAndTrailingUnReceivedRange
++ _APSRTCPCCFBBBufCopyRecordsWithMediaSourceSSRC
++ _APSRTCPCCFBBBufGetReportTimestamp
++ _APSRTCPCCFBBBufGetTrailingUnReceivedRangeWithMediaSourceSSRC
++ _APSRTCPCCFBGeneratorAddSequenceNumberAndArrivalTime
++ _APSRTCPCCFBGeneratorCopyPendingSequenceNumbers
++ _APSRTCPCCFBGeneratorCopyRecords
++ _APSRTCPCCFBGeneratorCreate
++ _APSRTCPCCFBGeneratorGetMaxSequenceNumber
++ _APSRTCPCCFBGeneratorGetSendWindow
++ _APSRTCPCCFBGeneratorGetTypeID
++ _APSRTCPCCFBGeneratorSetSendWindow
++ _APSRTCPCCFBProcessorAddPacketSizeAndSendTime
++ _APSRTCPCCFBProcessorCreate
++ _APSRTCPCCFBProcessorFlushPacketsWithinRange
++ _APSRTCPCCFBProcessorGetMostRecentPacketSendTime
++ _APSRTCPCCFBProcessorGetRTTEstimate
++ _APSRTCPCCFBProcessorGetSendWindow
++ _APSRTCPCCFBProcessorGetTypeID
++ _APSRTCPCCFBProcessorSetRateControlFeedbackInformationCallback
++ _APSRTCPCCFBProcessorSetRequestRetransmitCallback
++ _APSRTCPCCFBProcessorSetRetransmitTime
++ _APSRTCPCCFBProcessorUpdateFeedback
++ _APSRTCPCompoundBBufCreateWithSubRTCPBBufs
++ _APSRTCPXRBBufApplyBlock
++ _APSRTCPXRBBufApplyFunction
++ _APSRTCPXRBBufCopyRTCPXRBlockBBufs
++ _APSRTCPXRBBufCreateWithRTCPXRBlockBBufs
++ _APSRTCPXRBBufGetPacketSenderSSRC
++ _APSRTCPXRBBufGetRTCPXRBlockCount
++ _APSRTCPXRBlockBBufGetBlockType
++ _APSRTCPXRBlockIsRLE
++ _APSRTCPXRRLEBlockBBufCopySeqNumRangeSet
++ _APSRTCPXRRLEBlockBBufCreateWithSeqNumRangeSet
++ _APSRTCPXRRLEBlockBBufGetMediaSourceSSRC
++ _APSRTCReportingAgentSendEventWithCompletionHandler
++ _APSRTPBBufCreateMutableHeaderCopy
++ _APSRTPBBufGetPayloadOffset
++ _APSRTPBBufGetPayloadType
++ _APSRTPBBufGetSSRC
++ _APSRTPBBufGetSeqNum
++ _APSRTPBBufGetTimestamp
++ _APSRTPBBufIsValid
++ _APSRTPBBufSetSSRC
++ _APSRTPBBufSetSeqNum
++ _APSRTPSeqNumDictionaryApplyBlock
++ _APSRTPSeqNumDictionaryApplyBlockWithFilterRange
++ _APSRTPSeqNumDictionaryApplyFunction
++ _APSRTPSeqNumDictionaryApplyFunctionWithFilterRange
++ _APSRTPSeqNumDictionaryCreateCopy
++ _APSRTPSeqNumDictionaryCreateMutable
++ _APSRTPSeqNumDictionaryCreateMutableCopy
++ _APSRTPSeqNumDictionaryFilterWithRangeSet
++ _APSRTPSeqNumDictionaryGetCount
++ _APSRTPSeqNumDictionaryGetFirstSeqNum
++ _APSRTPSeqNumDictionaryGetLastSeqNum
++ _APSRTPSeqNumDictionaryGetLimitSeqNum
++ _APSRTPSeqNumDictionaryGetSeqNumAfterSeqNum
++ _APSRTPSeqNumDictionaryGetSeqNumBeforeSeqNum
++ _APSRTPSeqNumDictionaryGetSeqNumRangeCount
++ _APSRTPSeqNumDictionaryGetSeqNumRangeSet
++ _APSRTPSeqNumDictionaryGetSpan
++ _APSRTPSeqNumDictionaryGetTypeID
++ _APSRTPSeqNumDictionaryGetTypeID.sOnce
++ _APSRTPSeqNumDictionaryGetTypeID.sTypeID
++ _APSRTPSeqNumDictionaryGetValue
++ _APSRTPSeqNumDictionaryHintLimitSeqNum
++ _APSRTPSeqNumDictionaryRemoveAllValues
++ _APSRTPSeqNumDictionaryRemoveValue
++ _APSRTPSeqNumDictionaryRemoveValuesWithinSeqNumRange
++ _APSRTPSeqNumDictionaryRemoveValuesWithinSeqNumRangeSet
++ _APSRTPSeqNumDictionarySetValue
++ _APSRTPSeqNumRangeContainsSeqNum
++ _APSRTPSeqNumRangeEqual
++ _APSRTPSeqNumRangeIntersection
++ _APSRTPSeqNumRangeIsEmpty
++ _APSRTPSeqNumRangeIsValid
++ _APSRTPSeqNumRangeMake
++ _APSRTPSeqNumRangeMerge
++ _APSRTPSeqNumRangeSetAddSeqNum
++ _APSRTPSeqNumRangeSetAddSeqNumRange
++ _APSRTPSeqNumRangeSetAddSeqNumRangeSet
++ _APSRTPSeqNumRangeSetApplyBlock
++ _APSRTPSeqNumRangeSetApplyBlockWithFilterRange
++ _APSRTPSeqNumRangeSetApplyBlockWithFilterRangeSet
++ _APSRTPSeqNumRangeSetApplyFunction
++ _APSRTPSeqNumRangeSetApplyFunctionWithFilterRange
++ _APSRTPSeqNumRangeSetApplyFunctionWithFilterRangeSet
++ _APSRTPSeqNumRangeSetContainsSeqNum
++ _APSRTPSeqNumRangeSetCreateCopy
++ _APSRTPSeqNumRangeSetCreateMutable
++ _APSRTPSeqNumRangeSetCreateMutableCopy
++ _APSRTPSeqNumRangeSetFilterWithRangeSet
++ _APSRTPSeqNumRangeSetGetFirstSeqNum
++ _APSRTPSeqNumRangeSetGetFirstSeqNumRange
++ _APSRTPSeqNumRangeSetGetLastSeqNum
++ _APSRTPSeqNumRangeSetGetLastSeqNumRange
++ _APSRTPSeqNumRangeSetGetLimitSeqNum
++ _APSRTPSeqNumRangeSetGetSeqNumAfterSeqNum
++ _APSRTPSeqNumRangeSetGetSeqNumBeforeSeqNum
++ _APSRTPSeqNumRangeSetGetSeqNumCount
++ _APSRTPSeqNumRangeSetGetSeqNumRangeCount
++ _APSRTPSeqNumRangeSetGetSpan
++ _APSRTPSeqNumRangeSetGetTypeID
++ _APSRTPSeqNumRangeSetGetTypeID.sOnce
++ _APSRTPSeqNumRangeSetGetTypeID.sTypeID
++ _APSRTPSeqNumRangeSetHintLimitSeqNum
++ _APSRTPSeqNumRangeSetRemoveAllSeqNumRanges
++ _APSRTPSeqNumRangeSetRemoveSeqNum
++ _APSRTPSeqNumRangeSetRemoveSeqNumRange
++ _APSRTPSeqNumRangeSetRemoveSeqNumRangeSet
++ _APSRTPSeqNumRangeUnion
++ _APSRateControllerAVCWrapperAddFeedbackReport
++ _APSRateControllerAVCWrapperCreate
++ _APSRateControllerAVCWrapperGetBandwidthEstimation
++ _APSRateControllerAVCWrapperGetMaxBitrate
++ _APSRateControllerAVCWrapperGetMinBitrate
++ _APSRateControllerAVCWrapperGetOWRD
++ _APSRateControllerAVCWrapperGetTypeID
++ _APSRateControllerAVCWrapperSetMaxBitrate
++ _APSRateControllerAVCWrapperSetMinBitrate
++ _APSRateControllerAVCWrapperSetProbingSequenceRequestedCallback
++ _APSRateControllerAVCWrapperSetTargetBitrateDidChangeCallback
++ _APSRateControllerAVCWrapperStart
++ _APSRateControllerAVCWrapperStop
++ _APSRingBufferAdvance
++ _APSRingBufferPeek
++ _APSSRTCPBBufCopyRTCPBBuf
++ _APSSRTCPBBufCreateWithRTCPBBuf
++ _APSSRTCPBBufGetIndex
++ _APSSRTPBBufCopyRTPBBuf
++ _APSSRTPBBufCreateWithRTPBBuf
++ _APSSockAddrToCFString
++ _APSStatsHistogramRemoveAllValues
++ _APSTXTRecordUtilsCopyCFStringFromTXTRecord
++ _APSTXTRecordUtilsGetBooleanFromTXTRecord
++ _APSTXTRecordUtilsGetInt64FromTXTRecord
++ _APSZTSControllerCreate
++ _APSZTSControllerGetTypeID
++ _APSZTSControllerGetZeroTimeStamp
++ _AVConferenceLibraryCore.frameworkLibrary
++ _BonjourDevice_GetInt64
++ _CFAllocatorAllocateTyped
++ _CFArrayAppendBytes
++ _CFArrayApplyFunction
++ _CFArrayBSearchValues
++ _CFArrayEnsureCreatedAndAppend
++ _CFArrayGetFirstIndexOfValue
++ _CFAutorelease
++ _CFErrorGetCode
++ _CFHash
++ _CFNumberGetObject
++ _CFSetCreateMutableCopy
++ _CFSetGetValue
++ _CFSetGetValues
++ _CMBlockBufferAppendMemoryBlock
++ _CMTimeMaximum
++ _CMTimeMultiplyByRatio
++ _CMTimeRangeCopyAsDictionary
++ _CMTimebaseCreateWithSourceTimebase
++ _CMTimebaseGetTimeWithTimeScale
++ _CMTimebaseSetRate
++ _CUObfuscatedPtr
++ _FVDUtilsSupportedProtectionFlags
++ _FigAudioSessionCreateWithAVAudioSessionSiblingForAudioSessionID
++ _FigCFArrayAppendArray
++ _FigCFArrayApplyBlock
++ _FigCFArrayCreateCopy
++ _FigCFArrayCreateMutableCopy
++ _FigCFArrayGetFirstValue
++ _FigCFArrayGetLastValue
++ _FigCFArrayRemoveAllValues
++ _FigCFDictionaryApplyBlock
++ _FigCFDictionaryRemoveAllValues
++ _FigCFDictionarySetUInt32
++ _FigCFDictionarySetUInt64
++ _FigCFNumberCreateUInt64
++ _FigCFRelease.1684
++ _FigCFSetCopyValuesAsCFArray
++ _FigSignalErrorAt3
++ _IOMobileFramebufferCreateDisplayList
++ _IOMobileFramebufferGetProtectionOptions
++ _IOMobileFramebufferOpenByName
++ _MGGetBoolAnswer
++ _OBJC_CLASS_$_APSDeferredTask
++ _OBJC_CLASS_$_APSRateControllerDelegate
++ _OBJC_CLASS_$_APSTimeSyncNetworkClock
++ _OBJC_CLASS_$_NSConstantArray
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSSet
++ _OBJC_IVAR_$_APSDeferredTask._completed
++ _OBJC_IVAR_$_APSDeferredTask._cond
++ _OBJC_IVAR_$_APSDeferredTask._mutex
++ _OBJC_IVAR_$_APSDeferredTask._obj
++ _OBJC_IVAR_$_APSRateControllerDelegate._weakWrapper
++ _OBJC_IVAR_$_APSTimeSyncNetworkClock._cm8021ASClock
++ _OBJC_METACLASS_$_APSDeferredTask
++ _OBJC_METACLASS_$_APSRateControllerDelegate
++ _OBJC_METACLASS_$_APSTimeSyncNetworkClock
++ __APSAudioHoseMetricCollectorFinalize
++ __APSAudioHoseMetricCollectorGetTypeID
++ __APSAudioProtocolDriverSenderHoseControllerAPATFinalize
++ __APSAudioProtocolDriverSenderHoseControllerAPATGetTypeID
++ __APSRTCPCCFBGeneratorFinalize
++ __APSRTCPCCFBGeneratorGetTypeID
++ __APSRTCPCCFBProcessorFinalize
++ __APSRTCPCCFBProcessorGetTypeID
++ __APSRateControllerAVCWrapperFinalize
++ __APSRateControllerAVCWrapperGetTypeID
++ __APSZTSControllerFinalize
++ __APSZTSControllerGetTypeID
++ __CFRuntimeInitStaticInstance
++ __CreateTXTRecordFromBinaryTXTRecord
++ __OBJC_$_INSTANCE_METHODS_APSDeferredTask
++ __OBJC_$_INSTANCE_METHODS_APSRateControllerDelegate
++ __OBJC_$_INSTANCE_METHODS_APSTimeSyncNetworkClock
++ __OBJC_$_INSTANCE_VARIABLES_APSDeferredTask
++ __OBJC_$_INSTANCE_VARIABLES_APSRateControllerDelegate
++ __OBJC_$_INSTANCE_VARIABLES_APSTimeSyncNetworkClock
++ __OBJC_$_PROP_LIST_APSDeferredTask
++ __OBJC_$_PROP_LIST_APSRateControllerDelegate
++ __OBJC_$_PROP_LIST_APSTimeSyncNetworkClock
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVCRateControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCRateControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCRateControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_REFS_AVCRateControllerDelegate
++ __OBJC_CLASS_PROTOCOLS_$_APSRateControllerDelegate
++ __OBJC_CLASS_RO_$_APSDeferredTask
++ __OBJC_CLASS_RO_$_APSRateControllerDelegate
++ __OBJC_CLASS_RO_$_APSTimeSyncNetworkClock
++ __OBJC_LABEL_PROTOCOL_$_AVCRateControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_METACLASS_RO_$_APSDeferredTask
++ __OBJC_METACLASS_RO_$_APSRateControllerDelegate
++ __OBJC_METACLASS_RO_$_APSTimeSyncNetworkClock
++ __OBJC_PROTOCOL_$_AVCRateControllerDelegate
++ __OBJC_PROTOCOL_$_NSObject
++ ___APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsReceiver_block_invoke
++ ___APSAudioFormatDescriptionListGetSupportedPassthroughFormatsForCurrentDeviceAsSender_block_invoke
++ ___APSAudioHoseMetricCollectorReportMetrics_block_invoke
++ ___APSIsOpenNANReceiverEnabled_block_invoke
++ ___APSIsOpenNANSenderEnabled_block_invoke
++ ___APSIsWHAParallelSetupProcessingEnabled_block_invoke
++ ___APSIsWHAReduceActivationMessagesEnabled_block_invoke
++ ___APSRTCReportingAgentSendEventWithCompletionHandler_block_invoke
++ ___APSRateControllerAVCWrapperAddFeedbackReport_block_invoke
++ ___AVConferenceLibraryCore_block_invoke
++ ___Block_byref_object_copy_.1387
++ ___Block_byref_object_copy_.2055
++ ___Block_byref_object_dispose_.1388
++ ___Block_byref_object_dispose_.2056
++ ___block_descriptor_40_e13_i20?0S8r^v12l
++ ___block_descriptor_48_e15_v24?0r^v8r^v16l
++ ___block_descriptor_48_e8_32r_e15_v24?0r^v8r^v16lr32l8
++ ___block_descriptor_56_e15_v24?0r^v8r^v16l
++ ___block_descriptor_58_e8_32b_e5_v8?0ls32l8
++ ___block_descriptor_60_e8_32b_e5_v8?0ls32l8
++ ___block_descriptor_64_e8_32b_e5_v8?0ls32l8
++ ___block_descriptor_72_e8_32r_e10_v16?0r^v8lr32l8
++ ___block_descriptor_tmp.108
++ ___block_descriptor_tmp.11.2662
++ ___block_descriptor_tmp.111
++ ___block_descriptor_tmp.1145
++ ___block_descriptor_tmp.12.2434
++ ___block_descriptor_tmp.12.2481
++ ___block_descriptor_tmp.12.2661
++ ___block_descriptor_tmp.1294
++ ___block_descriptor_tmp.13.3211
++ ___block_descriptor_tmp.14.1581
++ ___block_descriptor_tmp.14.2487
++ ___block_descriptor_tmp.1498
++ ___block_descriptor_tmp.15.2407
++ ___block_descriptor_tmp.15.3216
++ ___block_descriptor_tmp.1577
++ ___block_descriptor_tmp.1591
++ ___block_descriptor_tmp.16.3209
++ ___block_descriptor_tmp.160
++ ___block_descriptor_tmp.1610
++ ___block_descriptor_tmp.167
++ ___block_descriptor_tmp.17.3210
++ ___block_descriptor_tmp.179
++ ___block_descriptor_tmp.18.2545
++ ___block_descriptor_tmp.185
++ ___block_descriptor_tmp.2.3046
++ ___block_descriptor_tmp.207
++ ___block_descriptor_tmp.2341
++ ___block_descriptor_tmp.2436
++ ___block_descriptor_tmp.2477
++ ___block_descriptor_tmp.25.3201
++ ___block_descriptor_tmp.2503
++ ___block_descriptor_tmp.2659
++ ___block_descriptor_tmp.2675
++ ___block_descriptor_tmp.2695
++ ___block_descriptor_tmp.28.3198
++ ___block_descriptor_tmp.293
++ ___block_descriptor_tmp.30.1279
++ ___block_descriptor_tmp.30.2424
++ ___block_descriptor_tmp.3041
++ ___block_descriptor_tmp.31.3197
++ ___block_descriptor_tmp.32.1278
++ ___block_descriptor_tmp.32.3195
++ ___block_descriptor_tmp.3218
++ ___block_descriptor_tmp.346
++ ___block_descriptor_tmp.36.2479
++ ___block_descriptor_tmp.360
++ ___block_descriptor_tmp.3602
++ ___block_descriptor_tmp.366
++ ___block_descriptor_tmp.38.2454
++ ___block_descriptor_tmp.405
++ ___block_descriptor_tmp.422
++ ___block_descriptor_tmp.430
++ ___block_descriptor_tmp.44.2485
++ ___block_descriptor_tmp.458
++ ___block_descriptor_tmp.46.2486
++ ___block_descriptor_tmp.5.2501
++ ___block_descriptor_tmp.50.2441
++ ___block_descriptor_tmp.53
++ ___block_descriptor_tmp.59.1299
++ ___block_descriptor_tmp.65
++ ___block_descriptor_tmp.69
++ ___block_descriptor_tmp.71
++ ___block_descriptor_tmp.737
++ ___block_descriptor_tmp.765
++ ___block_descriptor_tmp.80
++ ___block_descriptor_tmp.918
++ ___block_descriptor_tmp.921
++ ___block_descriptor_tmp.937
++ ___block_literal_global.103
++ ___block_literal_global.113
++ ___block_literal_global.1143
++ ___block_literal_global.125
++ ___block_literal_global.1270
++ ___block_literal_global.131
++ ___block_literal_global.1390
++ ___block_literal_global.1496
++ ___block_literal_global.1575
++ ___block_literal_global.1589
++ ___block_literal_global.1603
++ ___block_literal_global.162
++ ___block_literal_global.164
++ ___block_literal_global.17
++ ___block_literal_global.1733
++ ___block_literal_global.176
++ ___block_literal_global.177
++ ___block_literal_global.181
++ ___block_literal_global.187
++ ___block_literal_global.1999
++ ___block_literal_global.212
++ ___block_literal_global.214
++ ___block_literal_global.219
++ ___block_literal_global.2336
++ ___block_literal_global.2429
++ ___block_literal_global.2460
++ ___block_literal_global.2497
++ ___block_literal_global.2534
++ ___block_literal_global.2538
++ ___block_literal_global.268
++ ___block_literal_global.27.3199
++ ___block_literal_global.30
++ ___block_literal_global.3039
++ ___block_literal_global.3214
++ ___block_literal_global.34
++ ___block_literal_global.346
++ ___block_literal_global.358
++ ___block_literal_global.360
++ ___block_literal_global.362
++ ___block_literal_global.362.1986
++ ___block_literal_global.364
++ ___block_literal_global.374
++ ___block_literal_global.376
++ ___block_literal_global.39
++ ___block_literal_global.417
++ ___block_literal_global.418
++ ___block_literal_global.424
++ ___block_literal_global.432
++ ___block_literal_global.531
++ ___block_literal_global.55
++ ___block_literal_global.61
++ ___block_literal_global.67
++ ___block_literal_global.68
++ ___block_literal_global.68.1789
++ ___block_literal_global.73.1793
++ ___block_literal_global.73.798
++ ___block_literal_global.732
++ ___block_literal_global.757
++ ___block_literal_global.899
++ ___block_literal_global.919
++ ___block_literal_global.93
++ ___getAVCRateControllerClass_block_invoke
++ ___hoseControllerAPAT_copyAudioDataBBufsForRetransmissionInternal_block_invoke
++ ___hoseSBAR_getCallbacksForSampleBuffersSortedByTransportSeqNum_block_invoke
++ ___protcolDriverSenderAPAT_pruneTXBufferFromTimeInternal_block_invoke
++ ___protectionBitsFromPrefsIfPresent_block_invoke
++ ___protocolDriverReceiverAPAT_copyDeframedRTPBBufsFromRxBufferInternal_block_invoke
++ ___protocolDriverSenderAPAT_CancelAllForcedDataTransmissions_block_invoke
++ ___protocolDriverSenderAPAT_ForceTransmitDataAtMediaTime_block_invoke
++ ___protocolDriverSenderAPAT_SendAudioData_block_invoke
++ ___protocolDriverSenderAPAT_TriggerBurst_block_invoke
++ ___protocolDriverSenderAPAT_flushHoseControllersFromTime_block_invoke
++ ___protocolDriverSenderAPAT_flushHoseControllers_block_invoke
++ ___protocolDriverSenderAPAT_pruneHoseControllersWithPacketRange_block_invoke
++ ___protocolDriverSenderAPAT_pruneTxBufferUntilTimeInternal_block_invoke
++ ___ptpClock_StopForClient_block_invoke
++ ___ptpClock_copyPeerListForRegularPeer_block_invoke_3
++ ___ptpClock_removeAllRemotePortsForPeer_block_invoke
++ ___rtcpCCFBProcessor_requestRetransmitIfNeeded_block_invoke
++ ___rtcpCCFBProcessor_updateRTTEstimate_block_invoke
++ ___rtcpCCFBProcessor_updateRateController_block_invoke
++ _apsCFUtils_setAddSetApplier
++ _audioFormatList_copyChannelLayoutTagsDataArrayApplier
++ _audioFormatList_createFilteredListApplier
++ _audioFormat_Hash
++ _audioFormat_cacheEqual
++ _audioFormat_getCache.sCache
++ _audioFormat_getCache.sOnce
++ _audioFormat_initCache
++ _audioProtocolDriverReceiver_copyFormattingDesc
++ _audioProtocolDriverReceiver_registerBaseClass
++ _audioProtocolDriverReceiver_registerBaseClass.sClassDesc
++ _audioProtocolDriverSender_copyFormattingDesc
++ _audioProtocolDriverSender_registerBaseClass
++ _audioProtocolDriverSender_registerBaseClass.sClassDesc
++ _audit_stringAVConference
++ _bitRateDataPacer_CopyDebugDescription
++ _bitRateDataPacer_CopyProperty
++ _bitRateDataPacer_Finalize
++ _bitRateDataPacer_GetPacedRate
++ _bitRateDataPacer_handleDataPacingRateDidChange
++ _congestionControlDataPacer_CopyDebugDescription
++ _congestionControlDataPacer_Finalize
++ _congestionControlDataPacer_GetPacedRate
++ _congestionControlDataPacer_handleDataPacingRateDidChange
++ _congestionControlDataPacer_targetBitrateDidChangeCallback
++ _dataPacer_copyFormattingDesc
++ _dataPacer_registerBaseClass
++ _dataPacer_registerBaseClass.sClassDesc
++ _dispatch_activate
++ _dynamicLatencyManager_GetCreationOptions
++ _dynamicLatencyManager_GetSCR
++ _dynamicLatencyManager_IsLLAVariant
++ _gAPSAudioHoseMetricCollectorInitOnce
++ _gAPSAudioHoseMetricCollectorTypeID
++ _gAPSAudioProtocolDriverSenderHoseControllerAPATInitOnce
++ _gAPSAudioProtocolDriverSenderHoseControllerAPATTypeID
++ _gAPSRTCPCCFBGeneratorInitOnce
++ _gAPSRTCPCCFBGeneratorTypeID
++ _gAPSRTCPCCFBProcessorInitOnce
++ _gAPSRTCPCCFBProcessorTypeID
++ _gAPSRateControllerAVCWrapperInitOnce
++ _gAPSRateControllerAVCWrapperTypeID
++ _gAPSZTSControllerInitOnce
++ _gAPSZTSControllerTypeID
++ _gLogCategory_APSAudioHoseMetricCollector
++ _gLogCategory_APSAudioProtocolDriverReceiverAPAT
++ _gLogCategory_APSAudioProtocolDriverSenderAPAT
++ _gLogCategory_APSAudioProtocolDriverSenderHoseControllerAPAT
++ _gLogCategory_APSAudioProtocolDriverSenderLocal
++ _gLogCategory_APSDataPacerBitRate
++ _gLogCategory_APSDataPacerCongestionControl
++ _gLogCategory_APSDataPacerHoseCount
++ _gLogCategory_APSRTCPCCFBGenerator
++ _gLogCategory_APSRTCPCCFBProcessor
++ _gLogCategory_APSRateControllerAVCWrapper
++ _gLogCategory_APSZTSController
++ _getAVCRateControllerClass.softClass
++ _gettimeofday
++ _hoseControllerAPAT_CopyAudioDataBBufs
++ _hoseControllerAPAT_CopyRTCPDataBBufsToSend
++ _hoseControllerAPAT_ProbingSequenceRequestedWithIDCallback
++ _hoseControllerAPAT_ReceiveRTCPDataBBuf
++ _hoseControllerAPAT_processAndUpdateProbingSequenceInternal
++ _hoseControllerAPAT_processCCFBRateControlFeedbackInformationCallback
++ _hoseControllerAPAT_processCCFBRetransmitRequestCallback
++ _hoseControllerAPAT_receiveRTCPDataBBufApplierInternal
++ _hoseControllerAPAT_receiveSecureRTCPDataBBufApplierInternal
++ _hoseControllerAPAT_shouldGenerateRTCPDiscardReportPacketInternal
++ _hoseControllerAPAT_updateHoseStatsInternal
++ _hoseCountDataPacer_CopyDebugDescription
++ _hoseCountDataPacer_CopyProperty
++ _hoseCountDataPacer_Finalize
++ _hoseCountDataPacer_GetPacedRate
++ _hoseSBAR_GetLastSentMediaTime
++ _hoseSBAR_SetLastSentMediaTime
++ _hoseSBAR_configureUnderrunTrackingIfNeeded
++ _hoseSBAR_getCallbacksForSampleBuffersSortedByTransportSeqNum.sCallbacks
++ _hoseSBAR_getCallbacksForSampleBuffersSortedByTransportSeqNum.sOnce
++ _hoseSBAR_initializeTransportContext.sTransportContext.387
++ _hoseSBAR_initializeTransportContext.sTransportContext.389
++ _hoseSBAR_protocolDriverHoseApplyVolumeFade
++ _hoseSBAR_protocolDriverHoseControlProtocolCopyDebugDescription
++ _hoseSBAR_protocolDriverHoseDataBaseProtocolCopyDebugDescription
++ _hoseSBAR_protocolDriverHoseGetAnchor
++ _hoseSBAR_protocolDriverHoseLegacyFlush
++ _hoseSBAR_protocolDriverHoseLegacyFlushWithinSampleRange
++ _hoseSBAR_protocolDriverHoseSetCryptor
++ _hoseSBAR_protocolDriverHoseSetMagicCookie
++ _hoseSBAR_protocolDriverHoseSetRate
++ _hoseSBAR_protocolDriverHoseSetRateAndAnchorTime
++ _hoseSBAR_sbarLowWaterTimerFired
++ _hoseSBAR_sbufCompareTransportSeqNum
++ _kAPSAudioHoseMetricCollectorClass
++ _kAPSAudioHoseMetricCollectorMetricTypeString_APAP
++ _kAPSAudioHoseMetricCollectorMetricTypeString_APAT
++ _kAPSAudioHoseMetricCollectorMetricTypeString_RTP
++ _kAPSAudioPerformanceReportKey_LiveAdaptiveGlitchHistogram
++ _kAPSAudioProtocolDriverHoseProperty_ArrivalToRenderTicks
++ _kAPSAudioProtocolDriverHoseProperty_AudioBufferSize
++ _kAPSAudioProtocolDriverHoseProperty_ClusterSize
++ _kAPSAudioProtocolDriverHoseProperty_ClusterType
++ _kAPSAudioProtocolDriverHoseProperty_ClusterUUID
++ _kAPSAudioProtocolDriverHoseProperty_DataPacer
++ _kAPSAudioProtocolDriverHoseProperty_EchoCancellationIsEnabled
++ _kAPSAudioProtocolDriverHoseProperty_HasAudioDataBeenSent
++ _kAPSAudioProtocolDriverHoseProperty_InputEncryptionKey
++ _kAPSAudioProtocolDriverHoseProperty_IsAppleTV
++ _kAPSAudioProtocolDriverHoseProperty_IsClusterLeader
++ _kAPSAudioProtocolDriverHoseProperty_IsCritical
++ _kAPSAudioProtocolDriverHoseProperty_IsDolbyCertified
++ _kAPSAudioProtocolDriverHoseProperty_IsTimelineEstablished
++ _kAPSAudioProtocolDriverHoseProperty_LastDeliveredAudioDataBBuf
++ _kAPSAudioProtocolDriverHoseProperty_Model
++ _kAPSAudioProtocolDriverHoseProperty_Name
++ _kAPSAudioProtocolDriverHoseProperty_OSBuildVersion
++ _kAPSAudioProtocolDriverHoseProperty_OutputEncryptionKey
++ _kAPSAudioProtocolDriverHoseProperty_SupportsRFC2198Redundancy
++ _kAPSAudioProtocolDriverHoseProperty_SupportsReceiverChoosesAnchor
++ _kAPSAudioProtocolDriverHoseProperty_WASCalibrationSupportsMATAtmos
++ _kAPSAudioProtocolDriverReceiverAPATVTable
++ _kAPSAudioProtocolDriverReceiverAPAT_BaseClassWrapper
++ _kAPSAudioProtocolDriverReceiverAPAT_Class
++ _kAPSAudioProtocolDriverReceiverAPAT_audioProtocolDriverHoseDataRTPProtocolProtocolVTable
++ _kAPSAudioProtocolDriverReceiverAPAT_audioProtocolDriverHoseDataRTPProtocolVTable
++ _kAPSAudioProtocolDriverReceiverAPAT_audioProtocolDriverHoseDataRTPProtocol_BaseProtocol
++ _kAPSAudioProtocolDriverReceiverAPAT_protocolEntries
++ _kAPSAudioProtocolDriverReceiverAPAT_protocolTable
++ _kAPSAudioProtocolDriverReceiverProperty_BufferFullnessCount
++ _kAPSAudioProtocolDriverReceiverProperty_RTCPSignatureFailureCount
++ _kAPSAudioProtocolDriverReceiverProperty_RTPSignatureFailureCount
++ _kAPSAudioProtocolDriverSenderAPATVTable
++ _kAPSAudioProtocolDriverSenderAPAT_BaseClassWrapper
++ _kAPSAudioProtocolDriverSenderAPAT_Class
++ _kAPSAudioProtocolDriverSenderHoseControllerAPATClass
++ _kAPSAudioProtocolDriverSenderLocalVTable
++ _kAPSAudioProtocolDriverSenderLocal_BaseClassWrapper
++ _kAPSAudioProtocolDriverSenderLocal_Class
++ _kAPSAudioProtocolDriverSenderProperty_BufferFullnessBytes
++ _kAPSAudioProtocolDriverSenderProperty_BufferFullnessCount
++ _kAPSAudioProtocolDriverSenderProperty_FirstValidBufferTimestamp
++ _kAPSAudioProtocolDriverSenderProperty_MaxPacketSize
++ _kAPSAudioProtocolDriverSenderProperty_NextSequenceNumber
++ _kAPSAudioProtocolDriverSenderProperty_OutputCryptorOverhead
++ _kAPSAudioProtocolDriverSenderProperty_PreferedTickIntervalMs
++ _kAPSAudioProtocolDriverSenderProperty_PruneMarginMs
++ _kAPSAudioProtocolDriverSenderType_APAT
++ _kAPSAudioProtocolDriverSenderType_Local
++ _kAPSDataPacerBitRateCreationOption_Multiplier
++ _kAPSDataPacerBitRateProperty_TotalWindowDurationSeconds
++ _kAPSDataPacerBitRateVTable
++ _kAPSDataPacerBitRate_APSDataPacerClass
++ _kAPSDataPacerBitRate_BaseClassWrapper
++ _kAPSDataPacerCongestionControlVTable
++ _kAPSDataPacerCongestionControl_APSDataPacerClass
++ _kAPSDataPacerCongestionControl_BaseClassWrapper
++ _kAPSDataPacerHoseCountProperty_NumHoses
++ _kAPSDataPacerHoseCountVTable
++ _kAPSDataPacerHoseCount_APSDataPacerClass
++ _kAPSDataPacerHoseCount_BaseClassWrapper
++ _kAPSDataPacerNotification_PacedRateChanged
++ _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerWindowToDemoteTier
++ _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerWindowToPromoteTier
++ _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerWindowToWorstTier
++ _kAPSDynamicLatencyManagerCreationOptionKey_PromotionWindowSecs
++ _kAPSDynamicLatencyManagerPerformanceReportKey_IsLiveAdaptive
++ _kAPSDynamicLatencyManagerVariantIdentifier_ScreenDefault
++ _kAPSDynamicLatencyManagerVariantIdentifier_ScreenHigh
++ _kAPSDynamicLatencyManagerVariantIdentifier_ScreenHomeTheater
++ _kAPSDynamicLatencyManagerVariantIdentifier_ScreenLow
++ _kAPSEndpointStreamAudioHoseProtocolProperty_DataPacer
++ _kAPSEndpointStreamAudioHoseRegistrarProperty_UseProtocolDriverHoseInterface
++ _kAPSEndpointStreamAudioHoseSBARCreationOption_ClientAuditToken
++ _kAPSEndpointStreamAudioHoseSBARCreationOption_IsSourceUnordered
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseControlProtocolProtocolVTable
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseControlProtocolVTable
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseControlProtocol_BaseProtocol
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseDataBaseProtocolProtocolVTable
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseDataBaseProtocolVTable
++ _kAPSEndpointStreamAudioHoseSBAR_protocolDriverHoseDataBaseProtocol_BaseProtocol
++ _kAPSRTCPCCFBGeneratorClass
++ _kAPSRTCPCCFBProcessorClass
++ _kAPSRTCPCCFBRateControllerFeedbackKey_PacketLength
++ _kAPSRTCPCCFBRateControllerFeedbackKey_PacketRecvTimestamp
++ _kAPSRTCPCCFBRateControllerFeedbackKey_PacketSendTimestamp
++ _kAPSRTCPCCFBRateControllerFeedbackKey_ProbingSequenceID
++ _kAPSRTCPCCFBRateControllerFeedbackKey_ReportTimestamp
++ _kAPSRTCPCCFBRecordKey_ArrivalTime
++ _kAPSRTCPCCFBRecordKey_ECN
++ _kAPSRTPSeqNumRangeEmpty
++ _kAPSRTPSeqNumRangeInvalid
++ _kAPSRateControllerAVCWrapperClass
++ _kAPSTransportMessageAttachmentKey_ArrivalTicks
++ _kAPSZTSControllerClass
++ _kCMTimePositiveInfinity
++ _kFigSampleBufferAudioRendererProperty_UnderrunTrackingTimeRange
++ _localtime
++ _memcmp
++ _metricCollector_cancelUnderrunForHoseInternal
++ _metricCollector_hoseDescriptorDictionaryCallbacks
++ _metricCollector_hoseDescriptorDictionaryRelease
++ _metricCollector_hoseDescriptorDictionaryRetain
++ _metricCollector_resetMetricsAndDataForHoseInternal
++ _objc_msgSend$addIPv4PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:
++ _objc_msgSend$addIPv6PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:
++ _objc_msgSend$allowAppsToInitiatePlayback:clientType:isTemporary:
++ _objc_msgSend$arrayWithCapacity:
++ _objc_msgSend$bandwidthEstimation
++ _objc_msgSend$cm8021ASClock
++ _objc_msgSend$configure:
++ _objc_msgSend$createClockForSystemDomainClockIdentifier:
++ _objc_msgSend$disablePort:
++ _objc_msgSend$enablePort:
++ _objc_msgSend$feedbackController
++ _objc_msgSend$initWithContext:
++ _objc_msgSend$initWithDelegate:dumpID:isUplink:isForSimulation:useExternalThread:rateSharingGroupToken:
++ _objc_msgSend$maxTargetBitrate
++ _objc_msgSend$minTargetBitrate
++ _objc_msgSend$numberWithUnsignedShort:
++ _objc_msgSend$overridePortReceiveMatching:clockIdentity:remotePort:
++ _objc_msgSend$owrd
++ _objc_msgSend$processRateControlMessageArray:type:
++ _objc_msgSend$removeIPv4Port:destinationAddress:
++ _objc_msgSend$removeIPv6Port:destinationAddress:
++ _objc_msgSend$setAllPortRemoteSyncMessageIntervals:
++ _objc_msgSend$setDiagnosticExtensionIDs:
++ _objc_msgSend$setMaxTargetBitrate:
++ _objc_msgSend$setMinTargetBitrate:
++ _objc_msgSend$setObject:atIndexedSubscript:
++ _objc_msgSend$setWithObject:
++ _objc_msgSend$setupClock
++ _objc_msgSend$start
++ _objc_msgSend$stop
++ _objc_msgSendSuper2
++ _objc_opt_new
++ _objc_release
++ _objc_retain
++ _objc_retain_x8
++ _protectionBitsFromPrefsIfPresent.isPrefPresent
++ _protectionBitsFromPrefsIfPresent.onceToken
++ _protectionBitsFromPrefsIfPresent.protectionBits
++ _protocolDriverReceiverAPAT_CopyAudioDataAvailable
++ _protocolDriverReceiverAPAT_CopyDebugDescription
++ _protocolDriverReceiverAPAT_CopyProperty
++ _protocolDriverReceiverAPAT_Finalize
++ _protocolDriverReceiverAPAT_Flush
++ _protocolDriverReceiverAPAT_SetAudioDataAvailableCallbacks
++ _protocolDriverReceiverAPAT_SetProperty
++ _protocolDriverReceiverAPAT_Tick
++ _protocolDriverReceiverAPAT_audioProtocolDriverHoseDataRTPCopyDebugDescription
++ _protocolDriverReceiverAPAT_notifyClientAudioDataIsAvailable
++ _protocolDriverReceiverAPAT_processInputDataBBufsApplierInternal
++ _protocolDriverReceiverAPAT_processInputDataBBufsInternal
++ _protocolDriverReceiverAPAT_processInputRTCPBBufApplierInternal
++ _protocolDriverReceiverAPAT_processInputRTCPXRBlockBBufApplierInternal
++ _protocolDriverReceiverAPAT_sendCCFBRecordsInternal
++ _protocolDriverReceiverAPAT_setRTCPCallbacks
++ _protocolDriverReceiverAPAT_setRTPCallbacks
++ _protocolDriverReceiverAPAT_signalRTCPDataAvailable
++ _protocolDriverReceiverAPAT_signalRTPDataAvailable
++ _protocolDriverSenderAPAT_CancelAllForcedDataTransmissions
++ _protocolDriverSenderAPAT_CopyDebugDescription
++ _protocolDriverSenderAPAT_CopyMessageAtOrNextValidSequenceNumber
++ _protocolDriverSenderAPAT_CopyMessagesSessionEnd
++ _protocolDriverSenderAPAT_CopyMessagesSessionStart
++ _protocolDriverSenderAPAT_CopyProperty
++ _protocolDriverSenderAPAT_DeregisterHose
++ _protocolDriverSenderAPAT_Finalize
++ _protocolDriverSenderAPAT_Flush
++ _protocolDriverSenderAPAT_FlushFromTime
++ _protocolDriverSenderAPAT_ForceTransmitDataAtMediaTime
++ _protocolDriverSenderAPAT_GetLastDeliveredMediaTimeForHose
++ _protocolDriverSenderAPAT_IsHoseRegistered
++ _protocolDriverSenderAPAT_NotifyFlushCompleteForHose
++ _protocolDriverSenderAPAT_NotifyPendingFlushForHose
++ _protocolDriverSenderAPAT_RegisterHose
++ _protocolDriverSenderAPAT_SendAudioData
++ _protocolDriverSenderAPAT_SetProperty
++ _protocolDriverSenderAPAT_Tick
++ _protocolDriverSenderAPAT_TriggerBurst
++ _protocolDriverSenderAPAT_getTxBufferEndItemInternal
++ _protocolDriverSenderAPAT_getTxBufferFirstItemTimestampInternal
++ _protocolDriverSenderAPAT_getTxBufferTotalItemCountInternal
++ _protocolDriverSenderAPAT_hoseDescriptorDictionaryCallbacks
++ _protocolDriverSenderAPAT_hoseDescriptorDictionaryRelease
++ _protocolDriverSenderAPAT_hoseDescriptorDictionaryRetain
++ _protocolDriverSenderAPAT_pruneHoseControllersWithPacketRange
++ _protocolDriverSenderAPAT_txBufferItemRelease
++ _protocolDriverSenderAPAT_txBufferItemRetain
++ _protocolDriverSenderLocal_CopyDebugDescription
++ _protocolDriverSenderLocal_CopyProperty
++ _protocolDriverSenderLocal_DeregisterHose
++ _protocolDriverSenderLocal_Finalize
++ _protocolDriverSenderLocal_Flush
++ _protocolDriverSenderLocal_FlushFromTime
++ _protocolDriverSenderLocal_GetLastDeliveredMediaTimeForHose
++ _protocolDriverSenderLocal_IsHoseRegistered
++ _protocolDriverSenderLocal_RegisterHose
++ _protocolDriverSenderLocal_RegisterHose.callbacks
++ _protocolDriverSenderLocal_SendAudioData
++ _protocolDriverSenderLocal_SetProperty
++ _protocolDriverSenderLocal_copyAudioDataBBufs
++ _pthread_cond_destroy
++ _pthread_cond_init
++ _pthread_cond_signal
++ _pthread_cond_wait
++ _ptpClock_getLocalPeerClockPortsForClient
++ _ptpClock_getLocalPeerInfoForClient
++ _ptpClock_setLocalPeerClockPortsForClient
++ _registerAPSAudioProtocolDriverHoseControlProtocolType
++ _registerAPSAudioProtocolDriverHoseDataAPATProtocolType
++ _registerAPSAudioProtocolDriverHoseDataBaseProtocolType
++ _registerAPSAudioProtocolDriverHoseTimeConverterProtocolType
++ _rtcpBBufUtils_compoundRTCPBBufBlockApplier
++ _rtcpBBufUtils_compoundRTCPBBufCopySubRTCPBBufsApplier
++ _rtcpBBufUtils_compoundRTCPBBufGetCountApplier
++ _rtcpBBufUtils_getLengthAtOffset
++ _rtcpBBufUtils_rtcpCCFBApplyFunction
++ _rtcpBBufUtils_rtcpCCFBFromRecordsApplier
++ _rtcpBBufUtils_rtcpCCFBFromRecordsApplierAddReportMetricGap
++ _rtcpBBufUtils_rtcpCCFBFromRecordsApplierCompleteBBuf
++ _rtcpBBufUtils_rtcpCCFBFromRecordsApplierCompleteReport
++ _rtcpBBufUtils_rtcpCCFBFromRecordsApplierEnsureReport
++ _rtcpBBufUtils_rtcpCCFBGetTrailingUnReceivedRangeApplier
++ _rtcpBBufUtils_rtcpCCFBToRecordsApplier
++ _rtcpBBufUtils_rtcpXRBBufBlockApplier
++ _rtcpBBufUtils_rtcpXRBBufCopyRTCPXRBlockBBufsApplier
++ _rtcpBBufUtils_rtcpXRBBufGetRTCPXRBlockCountApplier
++ _rtcpBBufUtils_rtcpXRRLEBlockChunksFromRangeSetApplier
++ _rtcpBBufUtils_validateAndGetPayloadOffset
++ _rtpBBufUtils_validateAndGetPayloadOffset
++ _rtpSeqNumDictKey_Hash
++ _rtpSeqNumDict_CopyDebugDesc
++ _rtpSeqNumDict_CopyFormattingDesc
++ _rtpSeqNumDict_Equal
++ _rtpSeqNumDict_Finalize
++ _rtpSeqNumDict_Hash
++ _rtpSeqNumDict_blockApplier
++ _rtpSeqNumDict_copyFormattingDescApplier
++ _rtpSeqNumDict_invertFilterApplier
++ _rtpSeqNumDict_rangeSetApplier
++ _rtpSeqNumDict_registerClass
++ _rtpSeqNumDict_registerClass.sClass
++ _rtpSeqNumDict_removeValueRangeApplier
++ _rtpSeqNumRangeSet_ArrayValueCompare
++ _rtpSeqNumRangeSet_ArrayValueCopyDesc
++ _rtpSeqNumRangeSet_CopyDebugDesc
++ _rtpSeqNumRangeSet_CopyFormattingDesc
++ _rtpSeqNumRangeSet_Equal
++ _rtpSeqNumRangeSet_Finalize
++ _rtpSeqNumRangeSet_Hash
++ _rtpSeqNumRangeSet_addRangeApplier
++ _rtpSeqNumRangeSet_appendApplier
++ _rtpSeqNumRangeSet_blockApplier
++ _rtpSeqNumRangeSet_findIndexOfRangeForSeqNum
++ _rtpSeqNumRangeSet_invertApplier
++ _rtpSeqNumRangeSet_registerClass
++ _rtpSeqNumRangeSet_registerClass.sClass
++ _rtpSeqNumRangeSet_tryOrderedMergeIntoIndex
++ _rtpSeqNumRangeSet_tryOrderedSubtractAtIndex
++ _sAPAC_MagicSurround916
++ _sAPAC_MagicSurround916Size
++ _sAPSAudioProtocolDriverHoseControlProtocolDesc
++ _sAPSAudioProtocolDriverHoseControlProtocolID
++ _sAPSAudioProtocolDriverHoseDataAPATProtocolDesc
++ _sAPSAudioProtocolDriverHoseDataAPATProtocolID
++ _sAPSAudioProtocolDriverHoseDataBaseProtocolDesc
++ _sAPSAudioProtocolDriverHoseDataBaseProtocolID
++ _sAPSAudioProtocolDriverHoseTimeConverterProtocolDesc
++ _sAPSAudioProtocolDriverHoseTimeConverterProtocolID
++ _strftime
++ _strnlen
++ _ztsController_Logger
++ _ztsController_getCurrentOffset
+- GCC_except_table1003
+- GCC_except_table1179
+- GCC_except_table1182
+- GCC_except_table1185
+- GCC_except_table1189
+- GCC_except_table1387
+- GCC_except_table1537
+- GCC_except_table1540
+- GCC_except_table1541
+- GCC_except_table186
+- GCC_except_table188
+- GCC_except_table579
+- GCC_except_table63
+- GCC_except_table71
+- GCC_except_table719
+- GCC_except_table720
+- GCC_except_table726
+- GCC_except_table999
+- _APAudioFormatCopyPreferredRealTimeAudioFormats
+- _APAudioFormatFilterFormatsForCurrentLowLatencySender
+- _APAudioFormatGetTransportAudioFormatForPCMFormatLowLatencySender
+- _APAudioFormatIsLowLatencyAudioSurroundSender
+- _APSAudioFormatDescriptionGetAudioChannelLayout
+- _APSAudioLatencyForSystemAudioMs
+- _APSDynamicLatencyManagerGetLLA
+- _APSDynamicLatencyManagerGetLLA.sAPSDynamicLatencyManager
+- _APSDynamicLatencyManagerGetLLA.sInitOnce
+- _APSEndpointStreamAudioHoseSBARMockCreate
+- _APSEndpointStreamAudioHoseSBARMockInvalidate
+- _APSEventRecorderGetTimeBetweenCFAbsoluteTimeAndEventInMilliSecond
+- _APSLatencyOffsetStepperCreate
+- _APSLatencyOffsetStepperGetOffsetSamples
+- _APSLatencyOffsetStepperGetTypeID
+- _APSLatencyOffsetStepperGetTypeID.class
+- _APSLatencyOffsetStepperGetTypeID.once
+- _APSLatencyOffsetStepperGetTypeID.typeID
+- _APSLatencyOffsetStepperSetTargetLatencyOffset
+- _APSLatencyOffsetStepperStepForInterval
+- _APSNetworkClockRemoveAllPeers
+- _APSShouldClusterEngageOnActivation
+- _APSShouldClusterEngageOnActivation.sEngageOnActivateCluster
+- _APSShouldClusterEngageOnActivation.sOnce
+- _AUCWirelessHDCPSessionManagerGetHDCPCapabilityOfDevice
+- _AUCWirelessHDCPSessionManagerGetProtectionBitsOfDisplay
+- _AVSystemController_AllowAppToInitiatePlaybackTemporarilyAttribute
+- _AVSystemController_CanBeNowPlayingAppAttribute
+- _CFAllocatorAllocate
+- _CFBagAddValue
+- _CFBagContainsValue
+- _CFBagCreateMutable
+- _CFBagRemoveAllValues
+- _CFBagRemoveValue
+- _CFBundleGetIdentifier
+- _CFBundleGetMainBundle
+- _CFDateFormatterCreate
+- _CFDateFormatterCreateStringWithAbsoluteTime
+- _CFDateFormatterSetFormat
+- _CFDictionaryMergeDictionary
+- _CFLocaleCopyCurrent
+- _CMBufferQueueGetHead
+- _CMSyncGetRelativeRate
+- _FigCFRelease.1432
+- _FigSignalErrorAt
+- _GestaltGetBoolean
+- ___APSLatencyOffsetStepperGetTypeID_block_invoke
+- ___APSRTCReportingAgentSendEvent_block_invoke
+- ___APSShouldClusterEngageOnActivation_block_invoke
+- ___Block_byref_object_copy_.1783
+- ___Block_byref_object_dispose_.1784
+- ___block_descriptor_50_e5_v8?0l
+- ___block_descriptor_52_e5_v8?0l
+- ___block_descriptor_tmp.1075
+- ___block_descriptor_tmp.11.2358
+- ___block_descriptor_tmp.12.2126
+- ___block_descriptor_tmp.12.2173
+- ___block_descriptor_tmp.12.2357
+- ___block_descriptor_tmp.1241
+- ___block_descriptor_tmp.1325
+- ___block_descriptor_tmp.1340
+- ___block_descriptor_tmp.1358
+- ___block_descriptor_tmp.14.1330
+- ___block_descriptor_tmp.14.2179
+- ___block_descriptor_tmp.144
+- ___block_descriptor_tmp.15.2099
+- ___block_descriptor_tmp.157
+- ___block_descriptor_tmp.177
+- ___block_descriptor_tmp.18.2237
+- ___block_descriptor_tmp.191
+- ___block_descriptor_tmp.196
+- ___block_descriptor_tmp.199
+- ___block_descriptor_tmp.2.2597
+- ___block_descriptor_tmp.2062
+- ___block_descriptor_tmp.2128
+- ___block_descriptor_tmp.2169
+- ___block_descriptor_tmp.2195
+- ___block_descriptor_tmp.2355
+- ___block_descriptor_tmp.2365
+- ___block_descriptor_tmp.2592
+- ___block_descriptor_tmp.2602
+- ___block_descriptor_tmp.30.2116
+- ___block_descriptor_tmp.310
+- ___block_descriptor_tmp.349
+- ___block_descriptor_tmp.350
+- ___block_descriptor_tmp.355
+- ___block_descriptor_tmp.36.2171
+- ___block_descriptor_tmp.38.2146
+- ___block_descriptor_tmp.386
+- ___block_descriptor_tmp.39
+- ___block_descriptor_tmp.42.1059
+- ___block_descriptor_tmp.435
+- ___block_descriptor_tmp.44.2177
+- ___block_descriptor_tmp.46.1065
+- ___block_descriptor_tmp.46.2178
+- ___block_descriptor_tmp.49
+- ___block_descriptor_tmp.5.2193
+- ___block_descriptor_tmp.50.2133
+- ___block_descriptor_tmp.52
+- ___block_descriptor_tmp.521
+- ___block_descriptor_tmp.57
+- ___block_descriptor_tmp.58
+- ___block_descriptor_tmp.61.1080
+- ___block_descriptor_tmp.617
+- ___block_descriptor_tmp.644
+- ___block_descriptor_tmp.72
+- ___block_descriptor_tmp.773
+- ___block_descriptor_tmp.776
+- ___block_descriptor_tmp.92
+- ___block_descriptor_tmp.96
+- ___block_literal_global.1051
+- ___block_literal_global.107
+- ___block_literal_global.1135
+- ___block_literal_global.116
+- ___block_literal_global.1239
+- ___block_literal_global.1323
+- ___block_literal_global.1338
+- ___block_literal_global.1351
+- ___block_literal_global.14.245
+- ___block_literal_global.1481
+- ___block_literal_global.149
+- ___block_literal_global.159
+- ___block_literal_global.161
+- ___block_literal_global.166
+- ___block_literal_global.172
+- ___block_literal_global.1727
+- ___block_literal_global.194
+- ___block_literal_global.199
+- ___block_literal_global.204
+- ___block_literal_global.2059
+- ___block_literal_global.2121
+- ___block_literal_global.2152
+- ___block_literal_global.2189
+- ___block_literal_global.2226
+- ___block_literal_global.2230
+- ___block_literal_global.232
+- ___block_literal_global.253
+- ___block_literal_global.2590
+- ___block_literal_global.2600
+- ___block_literal_global.320
+- ___block_literal_global.326
+- ___block_literal_global.338
+- ___block_literal_global.342
+- ___block_literal_global.344
+- ___block_literal_global.351
+- ___block_literal_global.351.1482
+- ___block_literal_global.353
+- ___block_literal_global.395
+- ___block_literal_global.401
+- ___block_literal_global.430
+- ___block_literal_global.48
+- ___block_literal_global.498
+- ___block_literal_global.54
+- ___block_literal_global.57
+- ___block_literal_global.60.637
+- ___block_literal_global.614
+- ___block_literal_global.636
+- ___block_literal_global.65
+- ___block_literal_global.71
+- ___block_literal_global.762
+- ___block_literal_global.774
+- ___hoseSBARMock_Invalidate_block_invoke
+- ___hoseSBARMock_audioHoseSetCallbacks_block_invoke
+- _audioFormatList_copyHashedKeyFromAudioFormatDescription
+- _eventRecorder_createSharedDateFormatter
+- _eventRecorder_getSharedDateFormatter.dateFormatter
+- _eventRecorder_getSharedDateFormatter.once
+- _gLogCategory_APSEndpointStreamAudioHoseSBARMock
+- _gLogCategory_APSLatencyOffsetStepper
+- _hoseSBARMock_CopyDebugDescription
+- _hoseSBARMock_CopyProperty
+- _hoseSBARMock_Finalize
+- _hoseSBARMock_Invalidate
+- _hoseSBARMock_SetProperty
+- _hoseSBARMock_audioHoseApplyVolumeFade
+- _hoseSBARMock_audioHoseApplyVolumeFadeCallbackDispatchInternal
+- _hoseSBARMock_audioHoseFlush
+- _hoseSBARMock_audioHoseFlushCallbackDispatchInternal
+- _hoseSBARMock_audioHoseFlushWithinSampleRange
+- _hoseSBARMock_audioHoseFlushWithinSampleRangeDispatchInternal
+- _hoseSBARMock_audioHoseGetAnchor
+- _hoseSBARMock_audioHoseGetAnchorCallbackDispatchInternal
+- _hoseSBARMock_audioHoseNotifyAudioAvailable
+- _hoseSBARMock_audioHoseProtocolCopyDebugDescription
+- _hoseSBARMock_audioHoseSendAudio
+- _hoseSBARMock_audioHoseSetCallbacks
+- _hoseSBARMock_audioHoseSetCryptor
+- _hoseSBARMock_audioHoseSetCryptorCallbackDispatchInternal
+- _hoseSBARMock_audioHoseSetMagicCookie
+- _hoseSBARMock_audioHoseSetMagicCookieCallbackDispatchInternal
+- _hoseSBARMock_audioHoseSetRate
+- _hoseSBARMock_audioHoseSetRateAndAnchorTime
+- _hoseSBARMock_audioHoseSetRateAndAnchorTimeCallbackDispatchInternal
+- _hoseSBARMock_audioHoseSetRateCallbackDispatchInternal
+- _hoseSBARMock_audioHoseTimeAnnounce
+- _hoseSBARMock_audioHoseTimeAnnounceDispatchInternal
+- _hoseSBARMock_callAudioEngineFlushWithinSampleRangeCompletionHandlerCaller
+- _hoseSBARMock_callAudioHoseFlushCompletionHandlerCaller
+- _hoseSBARMock_getClassID.sClassID
+- _hoseSBARMock_getClassID.sRegisterOnce
+- _hoseSBARMock_hoseSendAudioDataDispatchInternal
+- _hoseSBARMock_invalidateInternal
+- _hoseSBARMock_notifyAudioDataAvailableEngineCallbackDispatchInternal
+- _hoseSBARMock_registerBaseClass
+- _hoseSBARMock_registerBaseClass.sClassDesc
+- _hoseSBARMock_sbarEnqueueSingleAudioBBuffDispatchFunction
+- _hoseSBAR_initializeTransportContext.sTransportContext.368
+- _hoseSBAR_initializeTransportContext.sTransportContext.370
+- _hoseSBAR_purgeTimerCancelled
+- _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerHourDemoteTier
+- _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerHourPromoteTier
+- _kAPSDynamicLatencyManagerCreationOptionKey_GlitchesPerHourWorstTier
+- _kAPSDynamicLatencyManagerCreationOptionKey_PromotionSecs
+- _kAPSEndpointStreamAudioHoseSBARCreationOption_FigAudioSession
+- _kAPSEndpointStreamAudioHoseSBARMockCreationOption_ClusterType
+- _kAPSEndpointStreamAudioHoseSBARMockCreationOption_ReceiverShouldDetermineAnchor
+- _kAPSEndpointStreamAudioHoseSBARMockCreationOption_StreamID
+- _kAPSEndpointStreamAudioHoseSBARMockVTable
+- _kAPSEndpointStreamAudioHoseSBARMock_BaseClassWrapper
+- _kAPSEndpointStreamAudioHoseSBARMock_audioHoseProtocolProtocolVTable
+- _kAPSEndpointStreamAudioHoseSBARMock_audioHoseProtocolVTable
+- _kAPSEndpointStreamAudioHoseSBARMock_audioHoseProtocol_BaseProtocol
+- _kAPSEndpointStreamAudioHoseSBARMock_protocolEntries
+- _kAPSEndpointStreamAudioHoseSBARMock_protocolTable
+- _kCFTypeBagCallBacks
+- _latencyStepper_Finalize
+- _latencyStepper_relativeRatePeriodicUpdater
+- _latencyStepper_stepAsyncLogger
+- _ntpClock_ClearLocalPeerInfo
+- _objc_msgSend$attributeForKey:
+- _objc_msgSend$boolValue
+- _objc_msgSend$setAttribute:forKey:error:
+- _ptpClock_ClearLocalPeerInfo
+CStrings:
++ "#16@0:8"
++ "%16s %10.1f %7.2f%% "
++ "%@ (%@)\nBucket count: %@\nTotal samples: %u\nDuration: %.1f sec\n"
++ "%Y-%m-%d %H:%M:%S"
++ "%llu.%03llu ( %02llu:%02llu:%02llu.%03llu since boot )"
++ "%s%s%s signalled err=%d (%s) (%s) at %s:%d"
++ "%s.%06u%s"
++ "%u = %@;\n"
++ "%u = %p;\n"
++ "%u..<%u"
++ "%z"
++ "%{ptr}"
++ "(Fig)"
++ "-108"
++ "-6705"
++ "-877"
++ "-878"
++ "-879"
++ "-880"
++ "-[APSRateControllerDelegate rateController:probingSequenceRequestedWithID:probingSequenceSize:]"
++ "-[APSRateControllerDelegate rateController:targetBitrateDidChange:rateChangeCounter:]"
++ "<APSAudioProtocolDriverReceiverAPAT %p>"
++ "<APSAudioProtocolDriverSenderAPAT %p>"
++ "<APSAudioProtocolDriverSenderLocal %p>"
++ "<APSDataPacer %p>{ rate=%lluB/s }"
++ "<APSDataPacerBitRate %p>{ rate=%lluB/s }"
++ "<APSDataPacerCongestionControl %p>{ rate=%lluB/s }"
++ "<APSDataPacerHoseCount %p>"
++ "<APSRTPSeqNumDictionary %p [%p]>{\n"
++ "<APSRTPSeqNumRangeSet %p [%p]>{ rtpSeqNumCount = %u, rtpSeqNumLimit = %d, rtpSeqNumRanges = %@ }"
++ "@"
++ "@\"NSString\"16@0:8"
++ "@24@0:8:16"
++ "@24@0:8^v16"
++ "@32@0:8:16@24"
++ "@40@0:8:16@24@32"
++ "A Hose is already registered"
++ "APAC/48000/9.1.6"
++ "APAP"
++ "APAT"
++ "APAT_Realtime"
++ "APAudioFormatCopyPreferredRealTimeAudioFormatsSender"
++ "APAudioFormatInitializeMagicCookieForCodecAPAC916"
++ "APSAPAPExtensionLoudnessInfoUtils.c"
++ "APSAudioFormatDescription.c"
++ "APSAudioFormatDescriptionGetPCMASBD"
++ "APSAudioFormatDescriptionList.c"
++ "APSAudioFormatDescriptionListCopyChannelLayoutTagsDataArray"
++ "APSAudioFormatDescriptionListCreateCopy"
++ "APSAudioFormatDescriptionListCreateForMediumLatencyReceiver"
++ "APSAudioFormatDescriptionListCreateForMediumLatencySender"
++ "APSAudioFormatDescriptionListCreateIntersection"
++ "APSAudioHoseMetricCollector"
++ "APSAudioHoseMetricCollectorCreate"
++ "APSAudioHoseMetricCollectorDeregisterHose"
++ "APSAudioHoseMetricCollectorIncrementRTCPSignatureFailureCountForHose"
++ "APSAudioHoseMetricCollectorRegisterHose"
++ "APSAudioHoseMetricCollectorReportMetrics"
++ "APSAudioHoseMetricCollectorSetPlaybackStateForHose"
++ "APSAudioHoseMetricCollectorUpdateAPATTransmissionDataForHose"
++ "APSAudioHoseMetricCollectorUpdateMediaTimeStatsForHose"
++ "APSAudioHoseMetricCollectorUpdatePacketSize"
++ "APSAudioHoseMetricCollectorUpdateRateControllerDataForHose"
++ "APSAudioHoseMetricCollectorUpdateRoundTripTimeDataForHose"
++ "APSAudioHoseMetricCollectorUpdateSendRateForHose"
++ "APSAudioHoseMetricCollectorUpdateSendWindowDataForHose"
++ "APSAudioHoseMetricCollectorUpdateSlotsAvailableCountForHose"
++ "APSAudioProtocolDriverHoseControlProtocol"
++ "APSAudioProtocolDriverHoseDataAPATProtocol"
++ "APSAudioProtocolDriverHoseDataBaseProtocol"
++ "APSAudioProtocolDriverHoseProperty_ArrivalToRenderTicks"
++ "APSAudioProtocolDriverHoseProperty_AudioBufferSize"
++ "APSAudioProtocolDriverHoseProperty_DataPacer"
++ "APSAudioProtocolDriverHoseProperty_EchoCancellationIsEnabled"
++ "APSAudioProtocolDriverHoseProperty_HasAudioDataBeenSent"
++ "APSAudioProtocolDriverHoseProperty_InputEncryptionKey"
++ "APSAudioProtocolDriverHoseProperty_IsAppleTV"
++ "APSAudioProtocolDriverHoseProperty_IsCritical"
++ "APSAudioProtocolDriverHoseProperty_IsDolbyCertified"
++ "APSAudioProtocolDriverHoseProperty_IsTimelineEstablished"
++ "APSAudioProtocolDriverHoseProperty_LastDeliveredAudioDataBBuf"
++ "APSAudioProtocolDriverHoseProperty_Name"
++ "APSAudioProtocolDriverHoseProperty_OutputEncryptionKey"
++ "APSAudioProtocolDriverHoseProperty_SupportsRFC2198Redundancy"
++ "APSAudioProtocolDriverHoseProperty_SupportsReceiverChoosesAnchor"
++ "APSAudioProtocolDriverHoseProperty_WASCalibrationSupportsMATAtmos"
++ "APSAudioProtocolDriverHoseTimeConverterProtocol"
++ "APSAudioProtocolDriverReceiver"
++ "APSAudioProtocolDriverReceiverAPAT"
++ "APSAudioProtocolDriverReceiverAPAT <APSAudioProtocolDriverHoseDataAPATProtocol> on <%p>"
++ "APSAudioProtocolDriverReceiverAPATCreate"
++ "APSAudioProtocolDriverReceiverProperty_BufferFullnessCount"
++ "APSAudioProtocolDriverReceiverProperty_RTCPSignatureFailureCount"
++ "APSAudioProtocolDriverReceiverProperty_RTPSignatureFailureCount"
++ "APSAudioProtocolDriverSender"
++ "APSAudioProtocolDriverSenderAPAT"
++ "APSAudioProtocolDriverSenderAPATCreate"
++ "APSAudioProtocolDriverSenderHoseControllerAPAT"
++ "APSAudioProtocolDriverSenderHoseControllerAPATCreate"
++ "APSAudioProtocolDriverSenderHoseControllerAPATFlush"
++ "APSAudioProtocolDriverSenderHoseControllerAPATFlushFromTime"
++ "APSAudioProtocolDriverSenderHoseControllerAPATGetLastDeliveredSeqNum"
++ "APSAudioProtocolDriverSenderHoseControllerAPATNotifyAudioDataAvailableIfNecessary"
++ "APSAudioProtocolDriverSenderHoseControllerAPATProbingStatus"
++ "APSAudioProtocolDriverSenderHoseControllerAPATPrunePacketsWithinRange"
++ "APSAudioProtocolDriverSenderHoseControllerAPATTick"
++ "APSAudioProtocolDriverSenderHoseControllerAPATTriggerBurst"
++ "APSAudioProtocolDriverSenderLocal"
++ "APSAudioProtocolDriverSenderLocalCreate"
++ "APSBinaryTXTRecordCopyString"
++ "APSCFDictionaryGetSockAddr"
++ "APSCFDictionarySetSockAddr"
++ "APSCFStringToSockAddr"
++ "APSCopyNetworkInterfaceType"
++ "APSDataPacer"
++ "APSDataPacerBitRate"
++ "APSDataPacerBitRate %p finalizing.\n"
++ "APSDataPacerBitRate [%{ptr}] updating pacing rate to %llu"
++ "APSDataPacerBitRateChangeToSteadyState"
++ "APSDataPacerBitRateCreate"
++ "APSDataPacerBitRateUpdate"
++ "APSDataPacerCongestionControl"
++ "APSDataPacerCongestionControl %p finalizing.\n"
++ "APSDataPacerCongestionControlCreate"
++ "APSDataPacerHoseCount"
++ "APSDataPacerHoseCount %p finalizing.\n"
++ "APSDataPacerHoseCount [%{ptr}] updating pacing rate to %llu"
++ "APSDataPacerHoseCountCreateWithCapacity"
++ "APSDataPacerHoseCountCreateWithDefaultCapacityForCurrentDevice"
++ "APSDataPacerHoseCountDecrement"
++ "APSDataPacerHoseCountIncrement"
++ "APSDataPacerNotification_PacedRateChanged"
++ "APSDeferredTask"
++ "APSDisplayUtilsGetAggregatedDisplayProtectionBits"
++ "APSDynamicLatencyManagerGetRef"
++ "APSEndpointStreamAudioHoseRegistrarProperty_SupportProtocolDriverHose"
++ "APSEndpointStreamAudioHoseSBAR <APSAudioProtocolDriverHoseControlProtocol> on <%p>"
++ "APSEndpointStreamAudioHoseSBAR <APSAudioProtocolDriverHoseDataBaseProtocol> on <%p>"
++ "APSEnsureCanInitiatePlayback"
++ "APSEventRecorderGetTimeBetweenEventRecorderTimeAndEventInMilliSecond"
++ "APSEventRecorderSetTimeInDictionary"
++ "APSGetCurrentLocalTimeString"
++ "APSRTCPCCFBGenerator"
++ "APSRTCPCCFBGeneratorAddSequenceNumberAndArrivalTime"
++ "APSRTCPCCFBGeneratorCopyPendingSequenceNumbers"
++ "APSRTCPCCFBGeneratorCopyRecords"
++ "APSRTCPCCFBGeneratorCreate"
++ "APSRTCPCCFBGeneratorGetMaxSequenceNumber"
++ "APSRTCPCCFBGeneratorSetSendWindow"
++ "APSRTCPCCFBProcessor"
++ "APSRTCPCCFBProcessorAddPacketSizeAndSendTime"
++ "APSRTCPCCFBProcessorCreate"
++ "APSRTCPCCFBProcessorFlushPacketsWithinRange"
++ "APSRTCPCCFBProcessorGetMostRecentPacketSendTime"
++ "APSRTCPCCFBProcessorSetRateControlFeedbackInformationCallback"
++ "APSRTCPCCFBProcessorSetRequestRetransmitCallback"
++ "APSRTCPCCFBProcessorSetRetransmitTime"
++ "APSRTCPCCFBProcessorUpdateFeedback"
++ "APSRTPSeqNumDictionary"
++ "APSRTPSeqNumRangeSet"
++ "APSRateControllerAVCWrapper"
++ "APSRateControllerAVCWrapperAddFeedbackReport"
++ "APSRateControllerAVCWrapperAddFeedbackReport_block_invoke"
++ "APSRateControllerAVCWrapperCreate"
++ "APSRateControllerAVCWrapperSetProbingSequenceRequestedCallback"
++ "APSRateControllerAVCWrapperSetTargetBitrateDidChangeCallback"
++ "APSRateControllerDelegate"
++ "APSSharedRingBuffer.c"
++ "APSSockAddrToCFString"
++ "APSTXTRecordUtilsCopyCFStringFromTXTRecord"
++ "APSTXTRecordUtilsGetBooleanFromTXTRecord"
++ "APSTXTRecordUtilsGetInt64FromTXTRecord"
++ "APSTimeSyncNetworkClock"
++ "APSZTSController"
++ "APSZTSControllerCreate"
++ "APSZTSControllerGetZeroTimeStamp"
++ "AVCRateController"
++ "AVCRateController %{ptr} probingSequenceRequestedWithID probingSequenceID:%d, probingSequenceSize:%d"
++ "AVCRateController %{ptr} targetBitrateDidChange targetBitrate:%d, rateChangeCounter:%d"
++ "AVCRateControllerDelegate"
++ "ArrivalTime"
++ "B"
++ "B16@0:8"
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B24@0:8@16"
++ "Boolean APSAudioFormatDescriptionListFindCompatibleTransportFromPCMAndSetDefault(APSAudioFormatDescriptionListRef, AudioStreamBasicDescription *, APSAudioFormatDescriptionRef *)"
++ "Boolean hoseControllerAPAT_dataHoseAPATIsHighWaterMarkReachedInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef, uint64_t)"
++ "Boolean protectionBitsFromPrefsIfPresent(uint64_t *)_block_invoke"
++ "CCPipe"
++ "CFDataRef _CreateTXTRecordFromBinaryTXTRecord(CFDataRef, const char *, OSStatus *)"
++ "ClientAuditToken"
++ "CompletionHandler"
++ "Could not allocate APSAudioFormatDescription"
++ "Could not allocate APSAudioFormatDescriptionList"
++ "Creating Protocol Driver Sender APAT\n"
++ "DLMMinSessionDurationSec"
++ "DataHose [%{ptr}] reached highwater: %u"
++ "Dequeuing %zu bytes from a buffer of size %u"
++ "Display protection bits: 0x%llx"
++ "DisplayCapabilities for display with ID=%u: %@"
++ "ECN"
++ "Enqueue to send audio packet with seqNum:%u, mediaTime:%f"
++ "Enqueueing BBuf with SSRC %p and seqnum %u into rxBuffer"
++ "Failed to create bufferMemObject"
++ "Failed to create stateMemObject"
++ "Failed to set bundleID '%@' to allow initiating playback with error: %#m\n"
++ "GlitchesPerWindowToDemoteTier"
++ "GlitchesPerWindowToPromoteTier"
++ "GlitchesPerWindowToWorstTier"
++ "Histogram_ReceiverBufferLevel"
++ "Hose is already registered"
++ "Hose is not registererd."
++ "HoseData [%{ptr}] highWatermarkBytes = %d startSeqNum = %u\n"
++ "HoseSBARTransportSeqNum"
++ "IsLiveAdaptive"
++ "IsSourceUnordered"
++ "LiveAdaptiveGlitchHistogram"
++ "NSObject"
++ "OSStatus APSAudioHoseMetricCollectorCreate(APSRTCReportingAgentRef, uint64_t, APSAudioHoseMetricCollectorRef *)"
++ "OSStatus APSAudioHoseMetricCollectorDeregisterHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus APSAudioHoseMetricCollectorIncrementRTCPSignatureFailureCountForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus APSAudioHoseMetricCollectorRegisterHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, Boolean, APSAudioHoseMetricCollectorMetricType)"
++ "OSStatus APSAudioHoseMetricCollectorReportMetrics(APSAudioHoseMetricCollectorRef, CMTime)"
++ "OSStatus APSAudioHoseMetricCollectorSetPlaybackStateForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, APSAudioHoseMetricCollectorMetricPlaybackState, CMTime)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateAPATTransmissionDataForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint64_t, uint64_t, uint64_t, uint64_t)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateMediaTimeStatsForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, CMTime, CMTime, CMTime)"
++ "OSStatus APSAudioHoseMetricCollectorUpdatePacketSize(APSAudioHoseMetricCollectorRef, uint64_t, CMTime)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateRateControllerDataForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint64_t, uint64_t, uint64_t, uint32_t, uint32_t)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateRoundTripTimeDataForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint64_t)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateSendRateForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, Float64)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateSendWindowDataForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint16_t, uint16_t)"
++ "OSStatus APSAudioHoseMetricCollectorUpdateSlotsAvailableCountForHose(APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverHoseRef, uint16_t)"
++ "OSStatus APSAudioProtocolDriverReceiverAPATCreate(CFAllocatorRef, uint16_t, CFDataRef, CFDataRef, APSAudioProtocolDriverReceiverRef *)"
++ "OSStatus APSAudioProtocolDriverSenderAPATCreate(CFAllocatorRef, APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverSenderRef *)"
++ "OSStatus APSAudioProtocolDriverSenderHoseControllerAPATCreate(APSAudioProtocolDriverHoseDataAPATRef, uint16_t, uint16_t, const APSAudioProtocolDriverSenderHoseControllerAPATMessageCallbacks, CFTypeRef, uint32_t, APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverSenderHoseControllerAPATRef *)"
++ "OSStatus APSAudioProtocolDriverSenderLocalCreate(CFAllocatorRef, APSAudioHoseMetricCollectorRef, APSAudioProtocolDriverSenderRef *)"
++ "OSStatus APSCMSampleBufferMergerCreate(Boolean, CFArrayRef, APSCMSampleBufferMergerRef *)"
++ "OSStatus APSDataPacerBitRateCreate(CFAllocatorRef, APSDataPacerRef, CFDictionaryRef, APSDataPacerRef *)"
++ "OSStatus APSDataPacerCongestionControlCreate(CFAllocatorRef, APSRateControllerAVCWrapperRef, APSDataPacerRef, int32_t, APSDataPacerRef *)"
++ "OSStatus APSDataPacerHoseCountCreateWithCapacity(CFAllocatorRef, uint64_t, APSDataPacerRef *)"
++ "OSStatus APSRTCPCCFBGeneratorAddSequenceNumberAndArrivalTime(APSRTCPCCFBGeneratorRef, uint16_t, uint64_t)"
++ "OSStatus APSRTCPCCFBGeneratorCreate(APSRTCPCCFBGeneratorRef *)"
++ "OSStatus APSRTCPCCFBProcessorAddPacketSizeAndSendTime(APSRTCPCCFBProcessorRef, uint16_t, uint32_t, uint32_t, Boolean, uint32_t)"
++ "OSStatus APSRTCPCCFBProcessorCreate(APSRTCPCCFBProcessorRef *)"
++ "OSStatus APSRTCReportingSendMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef, APSRTCReportingCompletionHandler)_block_invoke"
++ "OSStatus APSRateControllerAVCWrapperCreate(CFStringRef, uint64_t, uint64_t, uint64_t, uint32_t, APSRateControllerAVCWrapperRef *)"
++ "OSStatus APSRateControllerAVCWrapperSetMaxBitrate(APSRateControllerAVCWrapperRef, uint64_t)"
++ "OSStatus APSRateControllerAVCWrapperSetMinBitrate(APSRateControllerAVCWrapperRef, uint64_t)"
++ "OSStatus APSRateControllerAVCWrapperStart(APSRateControllerAVCWrapperRef)"
++ "OSStatus APSRateControllerAVCWrapperStop(APSRateControllerAVCWrapperRef)"
++ "OSStatus APSRingBufferAdvance(APSRingBufferRef)"
++ "OSStatus APSRingBufferPeek(APSRingBufferRef, size_t, void **)"
++ "OSStatus _ProcessNextKey(TXTRecordRef *, CacheEntry *, const UInt8 *, CFIndex *, CFIndex, const char *, Boolean *)"
++ "OSStatus apsrr_cacheMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef, APSRTCReportingCompletionHandler)"
++ "OSStatus apsrr_sendOneMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef, APSRTCReportingCompletionHandler)_block_invoke"
++ "OSStatus bitRateDataPacer_GetPacedRate(APSDataPacerRef, uint64_t *)"
++ "OSStatus hoseControllerAPAT_copyAudioDataBBufsForRetransmissionInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef, CFMutableArrayRef)_block_invoke"
++ "OSStatus hoseControllerAPAT_copyAudioDataBBufsUntilRestingInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef, APSAudioProtocolDriverHoseDataAPATRef, CFMutableArrayRef, Boolean *)"
++ "OSStatus hoseControllerAPAT_copySingleAudioDataBBufInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef, APSAudioProtocolDriverHoseDataAPATRef, CMBlockBufferRef *)"
++ "OSStatus hoseControllerAPAT_processAndUpdateProbingSequenceInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef, Boolean, Boolean *)"
++ "OSStatus hoseControllerAPAT_processCCFBRetransmitRequestCallback(CFTypeRef, APSRTPSeqNumRangeSetRef)"
++ "OSStatus hoseCountDataPacer_GetPacedRate(APSDataPacerRef, uint64_t *)"
++ "OSStatus hoseSBAR_createClientAudioSession(APSEndpointStreamAudioHoseRef, CFNumberRef, CFDataRef, FigAudioSessionRef *)"
++ "OSStatus hoseSBAR_dequeueAndRetainMergedBufferForSBAR(APSEndpointStreamAudioHoseSBARRef, CMSampleBufferRef *)"
++ "OSStatus metricCollector_addBufferLevelHistogramForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr)"
++ "OSStatus metricCollector_cancelUnderrunForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CMTime)"
++ "OSStatus metricCollector_reportMaxBitrateDiffStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportMinBitrateStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportOWRDStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportPacketSlotCountStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportRTTStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportSendWindowStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportTargetBitrateStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportTransmissionStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_reportbandwidthEstimationStatsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CFMutableDictionaryRef)"
++ "OSStatus metricCollector_updateBufferLevelHistogramForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CMTime, CMTime)"
++ "OSStatus metricCollector_updateUnderrunStateForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr, CMTime)"
++ "OSStatus protcolDriverSenderAPAT_pruneTXBufferFromTimeInternal(APSAudioProtocolDriverSenderRef, CMTime, APSRTPSeqNumRange *)_block_invoke"
++ "OSStatus protocolDriverReceiverAPAT_CopyAudioDataAvailable(APSAudioProtocolDriverReceiverRef, CFArrayRef *)"
++ "OSStatus protocolDriverReceiverAPAT_CopyProperty(CMBaseObjectRef, CFStringRef, CFAllocatorRef, void *)"
++ "OSStatus protocolDriverReceiverAPAT_Flush(APSAudioProtocolDriverReceiverRef, CMTimeRange, APSProtocolDriverReceiverFlushCompletionHandler, void *)"
++ "OSStatus protocolDriverReceiverAPAT_SetAudioDataAvailableCallbacks(APSAudioProtocolDriverReceiverRef, const APSAudioProtocolDriverReceiverCallbacks *, CFTypeRef)"
++ "OSStatus protocolDriverReceiverAPAT_SetProperty(CMBaseObjectRef, CFStringRef, const void *)"
++ "OSStatus protocolDriverReceiverAPAT_Tick(APSAudioProtocolDriverReceiverRef, CMTime, UInt64)"
++ "OSStatus protocolDriverReceiverAPAT_enqueueRTPPacketToRxBufferInternal(APSAudioProtocolDriverReceiverRef, CMBlockBufferRef, uint64_t)"
++ "OSStatus protocolDriverReceiverAPAT_processInputRTCPXRDiscardRLEBlockBBufInternal(APSAudioProtocolDriverReceiverRef, CMBlockBufferRef)"
++ "OSStatus protocolDriverReceiverAPAT_sendCCFBRecordsInternal(APSAudioProtocolDriverReceiverRef)"
++ "OSStatus protocolDriverReceiverAPAT_setRTCPCallbacks(APSAudioProtocolDriverHoseDataAPATRef, const APSAudioProtocolDriverHoseDataRTCPCallbacks *, CFTypeRef)"
++ "OSStatus protocolDriverReceiverAPAT_setRTPCallbacks(APSAudioProtocolDriverHoseDataAPATRef, const APSAudioProtocolDriverHoseDataRTPCallbacks *, CFTypeRef)"
++ "OSStatus protocolDriverReceiverAPAT_signalRTPDataAvailable(APSAudioProtocolDriverHoseDataAPATRef)"
++ "OSStatus protocolDriverSenderAPAT_CopyMessageAtOrNextValidSequenceNumber(CFTypeRef, uint16_t, uint16_t *, uint64_t *, CMTime *, Float64 *, uint16_t *, CMBlockBufferRef *)"
++ "OSStatus protocolDriverSenderAPAT_CopyProperty(CMBaseObjectRef, CFStringRef, CFAllocatorRef, void *)"
++ "OSStatus protocolDriverSenderAPAT_DeregisterHose(APSAudioProtocolDriverSenderRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus protocolDriverSenderAPAT_RegisterHose(APSAudioProtocolDriverSenderRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus protocolDriverSenderAPAT_SetProperty(CMBaseObjectRef, CFStringRef, const void *)"
++ "OSStatus protocolDriverSenderAPAT_pruneTxBufferToMediaTimeWithMargin(APSAudioProtocolDriverSenderRef, CMTime, APSRTPSeqNumRange *)"
++ "OSStatus protocolDriverSenderAPAT_pruneTxBufferUntilTimeInternal(APSAudioProtocolDriverSenderRef, CMTime, APSRTPSeqNumRange *)_block_invoke"
++ "OSStatus protocolDriverSenderLocal_CopyProperty(CMBaseObjectRef, CFStringRef, CFAllocatorRef, void *)"
++ "OSStatus protocolDriverSenderLocal_DeregisterHose(APSAudioProtocolDriverSenderRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus protocolDriverSenderLocal_Flush(APSAudioProtocolDriverSenderRef, uint16_t *)"
++ "OSStatus protocolDriverSenderLocal_FlushFromTime(APSAudioProtocolDriverSenderRef, CMTime, uint16_t *, uint16_t *)"
++ "OSStatus protocolDriverSenderLocal_RegisterHose(APSAudioProtocolDriverSenderRef, APSAudioProtocolDriverHoseRef)"
++ "OSStatus protocolDriverSenderLocal_SetProperty(CMBaseObjectRef, CFStringRef, const void *)"
++ "OSStatus protocolDriverSenderLocal_copyAudioDataBBufs(void *, APSEndpointStreamAudioHoseRef, CFArrayRef *, Boolean *)"
++ "OSStatus protocolDriverSenderLocal_enqueueAPAPPacketForSending(APSAudioProtocolDriverSenderRef, CMBlockBufferRef)"
++ "OSStatus ptpClock_SetPeers(APSNetworkClockRef, void *, CFArrayRef, CFDictionaryRef *, Boolean *)"
++ "OSStatus ptpClock_addOrUpdatePeerInternal(APSNetworkClockRef, void *, CFDictionaryRef, CFDictionaryRef *, Boolean *)"
++ "OSStatus ptpClock_copyPeerListForRegularPeer(APSNetworkClockRef, void *, CFDictionaryRef, CFArrayRef *)"
++ "OSStatus ptpClock_copyRelevantPortAddressesFromPeer(APSNetworkClockRef, CFDictionaryRef, CFArrayRef *)"
++ "OSStatus ptpClock_isClockPortMatrixComplete(APSNetworkClockRef, void *, Boolean *)"
++ "OSStatus ptpClock_overrideClockPortMatchingForPeerIfPossible(APSNetworkClockRef, void *, CFDictionaryRef)"
++ "OSStatus ptpClock_removePeerInternal(APSNetworkClockRef, void *, CFStringRef)"
++ "OSStatus rtcpCCFBProcessor_updateRateController(APSRTCPCCFBProcessorRef, APSRTPSeqNumDictionaryRef, uint32_t)_block_invoke"
++ "Overriding audio latency adjust for medium latency mode: %d ms\n"
++ "Overriding audio latency for medium latency mode: %d ms\n"
++ "Overriding audio latency min for medium latency mode: %d ms\n"
++ "Overriding audio latency offset for medium latency mode: %d ms\n"
++ "PCM/48000/16/9.1.6"
++ "PCM/48000/32f/9.1.6"
++ "PacketLength"
++ "PacketRecvTimestamp"
++ "PacketSendTimestamp"
++ "PacketSize"
++ "Peeking %zu bytes from a buffer of size %u"
++ "ProbingSequenceID"
++ "PromotionWindowSecs"
++ "Prune TxBuffer until pruneTime: %.6f"
++ "Prune item in TX Buffer itemTime: %.6f"
++ "Purge old cryptor with cryptorID: %@"
++ "Q16@0:8"
++ "RTP"
++ "ReportTimestamp"
++ "RetransmitTimestamp"
++ "ScreenDefault"
++ "ScreenHigh"
++ "ScreenHomeTheater"
++ "ScreenLow"
++ "ScreenSpatialAudioReceiver"
++ "ScreenSpatialAudioSender"
++ "SendTimestamp"
++ "Setting bundleID '%@' to allow initiating playback\n"
++ "Supported format does not include APAC 9.1.6 format. Checking next supported format. "
++ "T#,R"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "T@,&,N"
++ "TQ,R"
++ "T^{OpaqueCM8021ASClock=},R,N,V_cm8021ASClock"
++ "Unrecognized cluster model=%d. Using latency=%d ms"
++ "Using display protection bits from prefs: 0x%llx"
++ "Vv16@0:8"
++ "WHAParallelSetupProcessing"
++ "WHAReduceActivationMessages"
++ "[%{ptr}] %@ report endpointID=%@ sessionID=%llu durationSec=%llu glitches=%u minRenderDeadlineMs=%lld isLiveAdaptive=%s (totalReports=%d totalDurationSec=%llu old reports=%u)\n"
++ "[%{ptr}] %s: TargetOffset ,%d, CurrentOffset ,%1.3f, TimeDiff ,%1.3f, (log latency: %1.3f ms)"
++ "[%{ptr}] (%@) BandwidthEstimation: %zu kbps, OWRD: %zu ms, minBitRateDataPacer: %@, congestionControlDataPacer: %@, maxBitrate: %llu "
++ "[%{ptr}] (%@) Ending probing sequence early. SequenceID: %u Number of packets processed: %u"
++ "[%{ptr}] (%@) SeqNum: %u, lastSentMediaTime: %1.3f, TotalTxByteCount: %llu, TotalRTPTxByteCount: %llu, TotalRTCPTxByteCount: %llu, TxPacketCount: %llu, ReTxPacketCount: %llu, RTT Estimate: %zu ms"
++ "[%{ptr}] (%@) TUR: %u..<%u, SendWindow: %@"
++ "[%{ptr}] APSAudioHoseMetricCollectorDeregisterHose"
++ "[%{ptr}] APSAudioHoseMetricCollectorIncrementRTCPSignatureFailureCountForHose hose: [%{ptr}]"
++ "[%{ptr}] APSAudioHoseMetricCollectorRegisterHose hose: [%{ptr}]"
++ "[%{ptr}] APSAudioHoseMetricCollectorReportMetrics"
++ "[%{ptr}] APSAudioHoseMetricCollectorSetPlaybackStateForHose state: %u"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateAPATTransmissionDataForHose hose: [%{ptr}] inTxCount: %llu, inReTxCount: %llu, inRTPTxByteCount: %llu, inRTCPTxByteCount: %llu"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateMediaTimeStatsForHose: hose: [%{ptr}] inLastDeliveredMediaTime %1.3f"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdatePacketSize inPacketSize: %llu"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateRateControllerDataForHose hose: [%{ptr}] inTargetBitrate: %llu, inMinBitrate: %llu, inMaxBitrate: %llu, inBandwidthEstimation: %zu, inOWRD: %zu"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateRoundTripTimeDataForHose hose: [%{ptr}] inRoundTripTime: %llu"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateSendRateForHose inSendRate: %1.3f"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateSendWindowDataForHose hose: [%{ptr}] inSpanLen: %u inCount: %u"
++ "[%{ptr}] APSAudioHoseMetricCollectorUpdateSlotsAvailableCountForHose hose: [%{ptr}] inSlotsAvailableCount: %u"
++ "[%{ptr}] APSDataPacerBitRate created.\n"
++ "[%{ptr}] APSDataPacerCongestionControl created.\n"
++ "[%{ptr}] APSDataPacerHoseCount created.\n"
++ "[%{ptr}] APSRTCPCCFBGenerator created"
++ "[%{ptr}] APSRTCPCCFBGenerator finalized"
++ "[%{ptr}] APSRTCPCCFBProcessor created"
++ "[%{ptr}] APSRTCPCCFBProcessor finalized"
++ "[%{ptr}] APSRateControllerAVCWrapper created. maxBitrate: %u, minBitrate: %u, initialBitrate: %u"
++ "[%{ptr}] APSRateControllerAVCWrapper finalized"
++ "[%{ptr}] APSRateControllerAVCWrapper start"
++ "[%{ptr}] APSRateControllerAVCWrapper stop"
++ "[%{ptr}] APSRingBuffer had %zu bytes dequeued from it"
++ "[%{ptr}] APSRingBuffer had %zu bytes enqueued to it"
++ "[%{ptr}] APSRingBuffer had %zu bytes peeked from it"
++ "[%{ptr}] APSRingBuffer had read pointer advanced to peek pointer"
++ "[%{ptr}] AddPerformanceReport skipping report endpointID=%@ sessionID=%llu because isLiveAdaptive=%s\n"
++ "[%{ptr}] Adding port with address: %@ for peer: %'@"
++ "[%{ptr}] CCFBGenerator Records: %@"
++ "[%{ptr}] CCFBGenerator SendWindow: %@"
++ "[%{ptr}] Created\n"
++ "[%{ptr}] Created APSAudioProtocolDriverReceiverAPAT\n"
++ "[%{ptr}] Created MetricCollector"
++ "[%{ptr}] Created bufferLevelHistogram for Hose: [%{ptr}]"
++ "[%{ptr}] Created client FigAudioSession=%{ptr} audioSessionID=%@\n"
++ "[%{ptr}] Deregistered hoseData [%{ptr}] with protocolDriverSenderAPAT (hosecount = %u)\n"
++ "[%{ptr}] Deregistered hoseData [%{ptr}] with protocolDriverSenderLocal. \n"
++ "[%{ptr}] Deregistering hoseData [%{ptr}] with protocolDriverSenderAPAT (current hoseCount = %d)\n"
++ "[%{ptr}] Drop seqNum:%d, already received\n"
++ "[%{ptr}] Elaspsed time since send insufficient, waiting to retransmit seqNum %u"
++ "[%{ptr}] Enqueued bbuf [%{ptr}]. Index of Value in Array: %i. Buffer count after enqueueing: %i "
++ "[%{ptr}] Failed to add seqNum:%d to RTCPCCFBGenerator, err:%d\n"
++ "[%{ptr}] Failed to copy CCFB records from Generator\n"
++ "[%{ptr}] Failed to create BBuf Array with CCFB records\n"
++ "[%{ptr}] Failed to update rate controller constraints!"
++ "[%{ptr}] Finalizing APSAudioProtocolDriverReceiverAPAT\n"
++ "[%{ptr}] Flush protocol driver local "
++ "[%{ptr}] FlushFromTime: %1.3f protocol driver local "
++ "[%{ptr}] Hose [%{ptr}] has flush pending, pausing data transmission, flushPendingCount = %d \n"
++ "[%{ptr}] Hose [%{ptr}] is resting\n"
++ "[%{ptr}] Hose [%{ptr}] lastDeliveredRemoteMediaTime: %1.6f, inHoseDescriptor->rtcStats.underrun.start: %1.6f, currentRemoteMediaTime: %1.6f"
++ "[%{ptr}] Hose [%{ptr}] started underrunning at: %1.6f"
++ "[%{ptr}] Hose [%{ptr}] stopped underrunning at: %1.6f underrun duration: %1.6f, count: %lu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Max BitrateDiff Stats: avgMaxBitrateDiff: %llu, maxMaxBitrateDiff: %llu, minMaxBitrateDiff: %llu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Min Bitrate Stats: avgMinBitrate: %llu, maxMinBitrate: %llu, minMinBitrate: %llu, avgMinBitrateDiff: %llu, maxMinBitrateDiff: %llu, minMinBitrateDiff: %llu "
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Network Performance Stats: RTP Retransmit Count: %llu, Packet Loss Rate: %llu, Throughput: %llu, Goodput: %llu, RTCP Signature Failure Count: %llu, RTP Avg PacketSize: %llu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: One Way Relative Delay Stats: avgOWRD: %llu, maxOWRD: %llu, minOWRD: %llu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Packet Slot Count Stats: avgPacketSlotCount: %llu, zeroAvailablePacketSlotEventCount: %llu, avgZeroAvailablePacketSlotDurationMS: %llu, maxZeroAvailablePacketSlotDurationMS: %llu "
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Round Trip Time Stats: avgRTT: %llu, maxRTT: %llu, minRTT: %llu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: SendWindow Stats: sendWindowAvgCount: %llu, sendWindowMaxCount: %llu, sendWindowSpanAvgLen: %llu, sendWindowSpanMaxLen: %llu "
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: Target Bitrate Stats: avgTargetBitRate: %llu, maxTargetBitRate: %llu, minTargetBitRate: %llu"
++ "[%{ptr}] Hose: [%{ptr}] APAT RTC Metrics: bandwidthEstimation Stats: avgBandwidthEstimation: %llu, maxBandwidthEstimation: %llu, minBandwidthEstimation: %llu"
++ "[%{ptr}] Hose: [%{ptr}] BufferLevel RTC Metrics Send Rate Statistics: Min: %@, Max: %@, Mean: %@, Median: %@"
++ "[%{ptr}] Hose: [%{ptr}] BufferLevel RTC Metrics Summary: Model: %@, Build: %@, HoseCount: %lu, hist: %@, Topology Duration (ms): %@, Protocol Type: %@"
++ "[%{ptr}] Hose: [%{ptr}] BufferLevel RTC Metrics Underruns: Underrun Count: %lu, Total Underrun Duration: %@, Min Underrun Duration: %@, Max Underrun Duration: %@, Mean Underrun Duration: %@, Median Underrun Duration: %@, ( Total Underrun Duration / Topology Duration ): %1.4f"
++ "[%{ptr}] Hose: [%{ptr}] RTC Metrics Payload Dict: %@"
++ "[%{ptr}] No message for HoseData [%{ptr}]. Requested seqNum: %u, lastSentMediaTime: %f"
++ "[%{ptr}] No preferred address for peer %'@"
++ "[%{ptr}] Packet Info already present for seqNum:%d"
++ "[%{ptr}] Packet send time and size not available for seqNum:%d"
++ "[%{ptr}] Registered hoseData [%{ptr}] with protocolDriverSenderAPAT (hosecount = %d).\n"
++ "[%{ptr}] Registered hoseData [%{ptr}] with protocolDriverSenderLocal.\n"
++ "[%{ptr}] Registering hoseData [%{ptr}] with protocolDriverSenderAPAT (current hoseCount = %d)\n"
++ "[%{ptr}] Removing port with address: %@ for peer: %'@"
++ "[%{ptr}] Requested seqNum: %u, is not within CCFB unreceived range"
++ "[%{ptr}] RxBuffer: %@"
++ "[%{ptr}] Sequence number %d less than the send window %@"
++ "[%{ptr}] TXBuffer is empty, current query seqNumber: %d"
++ "[%{ptr}] There are no valid seqNums after %u in the protocolDriverSender txBuffer"
++ "[%{ptr}] TxBuffer: %@, Full TxBuffer Error Count: %llu"
++ "[%{ptr}] Using %s (NoExtraHub%s) clock topology"
++ "[%{ptr}] bufferLevelPercentage %1.4f hose [%{ptr}], bufferLevelTime: %1.4f currentRemoteMediaTime: %1.4f, maxDurationAvailableSecs: %1.4f, maxBufferLevelTime: %1.4f"
++ "[%{ptr}] created! Variant=%@ initialLatencyTierIdx=%u latencyMs=%u promotionWindowSecs=%d minSessionDurationSec=%u maxGlitchesPerWindowToPromote=%f minGlitchesPerWindowToDemote=%f minGlitchesPerWindowToWorst=%f\n"
++ "[%{ptr}] creating BufferLevelHistogram for hose [%{ptr}]"
++ "[%{ptr}] discontinuity, yielding until low water. lastEndPTSDequeuedForSBAR=%1.6f (%lld/%d), peekSBufPTS=%1.6f (%lld/%d), isBelowLowWaterLevel=%d\n"
++ "[%{ptr}] hoseControllerAPAT_processCCFBRetransmitRequestCallback inLostSequenceNumbers=%@"
++ "[%{ptr}] lowWaterTimerFire, filling to high water"
++ "[%{ptr}] protocolDriverReceiverAPAT_CopyAudioDataAvailable\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_CopyProperty\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_Flush\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_SetAudioDataAvailableCallbacks\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_SetProperty\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_Tick\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_enqueueRTPPacketToRxBuffer\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_sendCCFBRecordsInternal\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_setRTCPCallbacks\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_setRTPCallbacks\n"
++ "[%{ptr}] protocolDriverReceiverAPAT_signalRTPDataAvailable\n"
++ "[%{ptr}] protocolDriverSenderLocal_copyAudioDataBBufs"
++ "[%{ptr}] setting maxBitrate to %u"
++ "[%{ptr}] setting minBitrate to %u"
++ "[APSAudioProtocolDriverReceiver %p]"
++ "[APSAudioProtocolDriverSender %p]"
++ "^{OpaqueCM8021ASClock=}"
++ "^{OpaqueCM8021ASClock=}16@0:8"
++ "^{OpaqueFigCFWeakReferenceHolder=}"
++ "^{_NSZone=}16@0:8"
++ "_CreateTXTRecordFromBinaryTXTRecord"
++ "_SplitString"
++ "_cm8021ASClock"
++ "_completed"
++ "_cond"
++ "_mutex"
++ "_obj"
++ "_weakWrapper"
++ "absoluteTime"
++ "addIPv4PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:"
++ "addIPv6PortAndGetIdentity:destinationAddress:clockIdentity:localPortNumber:"
++ "allowAppsToInitiatePlayback:clientType:isTemporary:"
++ "allowOpenNANReceiver"
++ "allowOpenNANSender"
++ "apatSRTCPEncrypt"
++ "arrayWithCapacity:"
++ "arrivalTicks"
++ "audioFormatList_copyChannelLayoutTagsDataArrayApplier"
++ "audioFormatList_createFilteredListApplier"
++ "autorelease"
++ "availablePacketSlotAvgCount"
++ "bandwidthEstimation"
++ "bitRateDataPacer_CopyProperty"
++ "bitRateDataPacer_GetPacedRate"
++ "bufferMemory region maps to NULL"
++ "bufferMemorySize is zero"
++ "class"
++ "cm8021ASClock"
++ "com.apple.coremedia.CoreMediaDiagnostics.CoreMediaDiagnosticExtension"
++ "configure:"
++ "conformsToProtocol:"
++ "congestionControlDataPacerMinRateMultiplier"
++ "congestionControlDataPacerProbingRateBps"
++ "congestionControlDataPacer_GetPacedRate"
++ "congestionControlDataPacer_updateRateContollerConstraints"
++ "createClockForSystemDomainClockIdentifier:"
++ "dealloc"
++ "debugDescription"
++ "description"
++ "disablePort:"
++ "dynamicLatencyManager_GetSCR"
++ "dynamicLatencyManager_IsLLAVariant"
++ "dynamicLatencyManager_IsSCRVariant"
++ "enablePort:"
++ "feedbackController"
++ "goodputByteSec"
++ "hash"
++ "hoseControllerAPAT_CopyAudioDataBBufs"
++ "hoseControllerAPAT_CopyRTCPDataBBufsToSend"
++ "hoseControllerAPAT_ReceiveRTCPDataBBuf"
++ "hoseControllerAPAT_copyAudioDataBBufsForRetransmissionInternal_block_invoke"
++ "hoseControllerAPAT_copyAudioDataBBufsUntilRestingInternal"
++ "hoseControllerAPAT_copySingleAudioDataBBufInternal"
++ "hoseControllerAPAT_generateRTCPDiscardReportPacketInternal"
++ "hoseControllerAPAT_processAndUpdateProbingSequenceInternal"
++ "hoseControllerAPAT_processCCFBPacketInternal"
++ "hoseControllerAPAT_processCCFBRateControlFeedbackInformationCallback"
++ "hoseControllerAPAT_processCCFBRetransmitRequestCallback"
++ "hoseControllerAPAT_receiveRTCPDataBBufApplierInternal"
++ "hoseControllerAPAT_receiveSecureRTCPDataBBufApplierInternal"
++ "hoseControllerAPAT_secureRTCPBBufsForOutputInternal"
++ "hoseControllerAPAT_secureRTPBBufsForOutputInternal"
++ "hoseCountDataPacer_CopyProperty"
++ "hoseCountDataPacer_GetPacedRate"
++ "hoseSBAR_GetLastSentMediaTime"
++ "hoseSBAR_configureUnderrunTrackingIfNeeded"
++ "hoseSBAR_createClientAudioSession"
++ "hoseSBAR_isSourceUnordered"
++ "hoseSBAR_sbarLowWaterTimerFired"
++ "i"
++ "i12@?0{?=SS}8"
++ "i16@0:8"
++ "i20@0:8S16"
++ "i20@?0S8r^v12"
++ "i24@0:8^^{OpaqueCMClock}16"
++ "i28@0:8@\"NSString\"16i24"
++ "i28@0:8@16i24"
++ "i28@0:8^{__CFString=}16I24"
++ "i32@0:8S16Q20S28"
++ "i40@0:8^{__CFString=}16{in6_addr=(?=[16C][8S][4I])}24"
++ "i40@0:8{?=qiIq}16"
++ "i44@0:8^{__CFString=}16I24^Q28^S36"
++ "i56@0:8^{__CFString=}16{in6_addr=(?=[16C][8S][4I])}24^Q40^S48"
++ "index = %d; \t comparing currentFormat=%{asbd} =? inPCMASBD=%{asbd}"
++ "init"
++ "initWithContext:"
++ "initWithDelegate:dumpID:isUplink:isForSimulation:useExternalThread:rateSharingGroupToken:"
++ "int32_t APSAudioLatencyForSystemAudioInClusterModelMs(APSClusterModel)"
++ "int32_t APSAudioLatencyMinForAVMs(void)"
++ "isEqual:"
++ "isKindOfClass:"
++ "isMemberOfClass:"
++ "isProxy"
++ "kAPSAudioProtocolDriverSenderProperty_BufferFullnessBytes"
++ "kAPSAudioProtocolDriverSenderProperty_BufferFullnessCount"
++ "kAPSAudioProtocolDriverSenderProperty_FirstValidBufferTimestamp"
++ "kAPSAudioProtocolDriverSenderProperty_MaxPacketSize"
++ "kAPSAudioProtocolDriverSenderProperty_NextSequenceNumber"
++ "kAPSAudioProtocolDriverSenderProperty_OutputCryptorOverhead"
++ "kAPSAudioProtocolDriverSenderProperty_PreferedTickIntervalMs"
++ "kAPSAudioProtocolDriverSenderProperty_PruneMarginMs"
++ "kAPSAudioProtocolDriverSenderType_APAT"
++ "kAPSAudioProtocolDriverSenderType_Local"
++ "kAPSDataPacerBitRateCreationOption_Multiplier"
++ "kAPSDataPacerBitRateProperty_TotalWindowDurationSeconds"
++ "kAPSDataPacerHoseCountProperty_NumHoses"
++ "kAPSEndpointStreamAudioHoseProtocolProperty_DataPacer"
++ "kCMBaseObjectError_AllocationFailed"
++ "learntBitrateForSegment:defaultValue:"
++ "llaDLMGlitchesPerWindowToDemoteTier"
++ "llaDLMGlitchesPerWindowToPromoteTier"
++ "llaDLMGlitchesPerWindowToWorstTier"
++ "llaDLMPromotionWindowSec"
++ "loudness key missing"
++ "maxTargetBitrate"
++ "mediumLatencyPathway"
++ "mediumLatencyPathwayLatencyMs"
++ "metricCollector_addBufferLevelHistogramForHoseInternal"
++ "metricCollector_hoseDescriptorDictionaryRelease"
++ "metricCollector_hoseDescriptorDictionaryRetain"
++ "metricCollector_reportMaxBitrateDiffStatsForHoseInternal"
++ "metricCollector_reportMetricsForHoseInternal"
++ "metricCollector_reportMinBitrateStatsForHoseInternal"
++ "metricCollector_reportOWRDStatsForHoseInternal"
++ "metricCollector_reportPacketSlotCountStatsForHoseInternal"
++ "metricCollector_reportRTTStatsForHoseInternal"
++ "metricCollector_reportSendWindowStatsForHoseInternal"
++ "metricCollector_reportTargetBitrateStatsForHoseInternal"
++ "metricCollector_reportTransmissionStatsForHoseInternal"
++ "metricCollector_reportbandwidthEstimationStatsForHoseInternal"
++ "metricCollector_updateBufferLevelHistogramForHoseInternal"
++ "minTargetBitrate"
++ "ms"
++ "numberWithUnsignedShort:"
++ "overridePortReceiveMatching:clockIdentity:remotePort:"
++ "owrd"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "processRateControlMessageArray:type:"
++ "protcolDriverSenderAPAT_pruneTXBufferFromTimeInternal"
++ "protocolDriverAPATTickIntervalMS"
++ "protocolDriverReceiverAPAT_CopyAudioDataAvailable"
++ "protocolDriverReceiverAPAT_CopyProperty"
++ "protocolDriverReceiverAPAT_Tick"
++ "protocolDriverReceiverAPAT_computeCCFBTrailingUnReceivedRangeInternal"
++ "protocolDriverReceiverAPAT_copyDeframedRTPBBufsFromRxBufferInternal"
++ "protocolDriverReceiverAPAT_enqueueRTPPacketToRxBufferInternal"
++ "protocolDriverReceiverAPAT_notifyClientAudioDataIsAvailable"
++ "protocolDriverReceiverAPAT_processInputDataBBufsApplierInternal"
++ "protocolDriverReceiverAPAT_processInputDataBBufsInternal"
++ "protocolDriverReceiverAPAT_processInputRTCPBBufApplierInternal"
++ "protocolDriverReceiverAPAT_processInputRTCPXRBlockBBufApplierInternal"
++ "protocolDriverReceiverAPAT_processInputRTCPXRDiscardRLEBlockBBufInternal"
++ "protocolDriverReceiverAPAT_secureRTCPBBufsForOutputInternal"
++ "protocolDriverReceiverAPAT_sendCCFBRecordsInternal"
++ "protocolDriverReceiverAPAT_signalRTCPDataAvailable"
++ "protocolDriverReceiverAPAT_signalRTPDataAvailable"
++ "protocolDriverSenderAPAT_CopyMessageAtOrNextValidSequenceNumber"
++ "protocolDriverSenderAPAT_CopyProperty"
++ "protocolDriverSenderAPAT_DeregisterHose"
++ "protocolDriverSenderAPAT_Flush"
++ "protocolDriverSenderAPAT_FlushFromTime"
++ "protocolDriverSenderAPAT_GetLastDeliveredMediaTimeForHose"
++ "protocolDriverSenderAPAT_NotifyFlushCompleteForHose"
++ "protocolDriverSenderAPAT_NotifyPendingFlushForHose"
++ "protocolDriverSenderAPAT_RegisterHose"
++ "protocolDriverSenderAPAT_SendAudioData"
++ "protocolDriverSenderAPAT_SetProperty"
++ "protocolDriverSenderAPAT_Tick"
++ "protocolDriverSenderAPAT_TriggerBurst"
++ "protocolDriverSenderAPAT_addHose"
++ "protocolDriverSenderAPAT_enqueueRTPPacketForSendingInternal"
++ "protocolDriverSenderAPAT_getTxBufferEndItemInternal"
++ "protocolDriverSenderAPAT_getTxBufferFirstItemTimestampInternal"
++ "protocolDriverSenderAPAT_getTxBufferTotalByteCountInternal"
++ "protocolDriverSenderAPAT_hoseDescriptorDictionaryRelease"
++ "protocolDriverSenderAPAT_hoseDescriptorDictionaryRetain"
++ "protocolDriverSenderAPAT_pruneTxBufferToMediaTimeWithMargin"
++ "protocolDriverSenderAPAT_pruneTxBufferUntilTimeInternal"
++ "protocolDriverSenderAPAT_removeHose"
++ "protocolDriverSenderLocal_CopyProperty"
++ "protocolDriverSenderLocal_DeregisterHose"
++ "protocolDriverSenderLocal_FlushFromTime"
++ "protocolDriverSenderLocal_GetLastDeliveredMediaTimeForHose"
++ "protocolDriverSenderLocal_RegisterHose"
++ "protocolDriverSenderLocal_SendAudioData"
++ "protocolDriverSenderLocal_SetProperty"
++ "protocolDriverSenderLocal_copyAudioDataBBufs"
++ "protocolType"
++ "ptpClock_enablePortsBasedOnTopology"
++ "ptpClock_getLocalPeerClockPortsForClient"
++ "ptpClock_getLocalPeerInfoForClient"
++ "ptpClock_hasPeerWithTightSyncUUID"
++ "ptpClock_removeAllRemotePortsForPeer_block_invoke"
++ "ptpClock_setLocalPeerClockPortsForClient"
++ "ptpReenablePortMatchingOverride"
++ "rateController:isECNEnabled:isECNCapable:"
++ "rateController:probingSequenceRequestedWithID:probingSequenceSize:"
++ "rateController:targetBitrateDidChange:rateChangeCounter:"
++ "rateController:targetBitrateUnchangedForRemoteSSRC:targetBitrate:"
++ "rateControllerAvgMaxBitrateDiff"
++ "rateControllerAvgMinBitrate"
++ "rateControllerAvgMinBitrateDiff"
++ "rateControllerAvgTargetBitrate"
++ "rateControllerBandwidthEstAvgBitSec"
++ "rateControllerBandwidthEstMaxBitSec"
++ "rateControllerBandwidthEstMinBitSec"
++ "rateControllerMaxMaxBitrateDiff"
++ "rateControllerMaxMinBitrate"
++ "rateControllerMaxMinBitrateDiff"
++ "rateControllerMaxTargetBitrate"
++ "rateControllerMinMaxBitrateDiff"
++ "rateControllerMinMinBitrate"
++ "rateControllerMinMinBitrateDiff"
++ "rateControllerMinTargetBitrate"
++ "rateControllerOWRDAvgMs"
++ "rateControllerOWRDMaxMs"
++ "rateControllerOWRDMinMs"
++ "receiverBufferLevelEventBufferLevelHistogram"
++ "receiverBufferLevelEventDeviceCount"
++ "receiverBufferLevelEventMaxSendRateMsgsPerMs"
++ "receiverBufferLevelEventMaxUnderrunDurationSecs"
++ "receiverBufferLevelEventMeanSendRateMsgsPerMs"
++ "receiverBufferLevelEventMeanUnderrunDurationSecs"
++ "receiverBufferLevelEventMedianSendRateMsgsPerMs"
++ "receiverBufferLevelEventMedianUnderrunDurationSecs"
++ "receiverBufferLevelEventMinSendRateMsgsPerMs"
++ "receiverBufferLevelEventMinUnderrunDurationSecs"
++ "receiverBufferLevelEventModel"
++ "receiverBufferLevelEventOSBuildVersion"
++ "receiverBufferLevelEventReceiverIsLocal"
++ "receiverBufferLevelEventSessionDurationMs"
++ "receiverBufferLevelEventTotalUnderrunCount"
++ "receiverBufferLevelEventTotalUnderrunDurationSecs"
++ "release"
++ "removeIPv4Port:destinationAddress:"
++ "removeIPv6Port:destinationAddress:"
++ "respondsToSelector:"
++ "result"
++ "retain"
++ "retainCount"
++ "rtcpCCFBProcessor_requestRetransmitIfNeeded"
++ "rtcpCCFBProcessor_updatePacketSendInfo"
++ "rtcpCCFBProcessor_updateRateController"
++ "rtcpCCFBProcessor_updateRateController_block_invoke"
++ "rtcpSignatureFailureCount"
++ "rtpPacketLossRate"
++ "rtpPacketSizeAvgBytes"
++ "rtpRetransmitCount"
++ "rttAvgMs"
++ "rttMaxMs"
++ "rttMinMs"
++ "sample peak key missing"
++ "scrDLMGlitchesPerWindowToDemoteTier"
++ "scrDLMGlitchesPerWindowToPromoteTier"
++ "scrDLMGlitchesPerWindowToWorstTier"
++ "scrDLMPromotionWindowSec"
++ "self"
++ "sendWindowAvgCount"
++ "sendWindowMaxCount"
++ "sendWindowSpanAvgLen"
++ "sendWindowSpanMaxLen"
++ "setAllPortRemoteSyncMessageIntervals:"
++ "setDiagnosticExtensionIDs:"
++ "setMaxTargetBitrate:"
++ "setMinTargetBitrate:"
++ "setNotCompleted"
++ "setObject:atIndexedSubscript:"
++ "setResult:"
++ "setWithObject:"
++ "setupClock"
++ "siblingClientSessionForHoseSbar-%{ptr}"
++ "softlink:r:path:/System/Library/PrivateFrameworks/AVConference.framework/AVConference"
++ "start"
++ "stateMemObject maps to NULL"
++ "stateMemoryLength < sizeof(RingState)"
++ "stop"
++ "superclass"
++ "throughputByteSec"
++ "time"
++ "true peak key missing"
++ "txt"
++ "v16@0:8"
++ "v24@0:8@16"
++ "v32@0:8@\"AVCRateController\"16B24B28"
++ "v32@0:8@\"AVCRateController\"16I24I28"
++ "v32@0:8@16B24B28"
++ "v32@0:8@16I24I28"
++ "void _APSAudioHoseMetricCollectorFinalize(CFTypeRef)"
++ "void _APSAudioProtocolDriverSenderHoseControllerAPATFinalize(CFTypeRef)"
++ "void _APSRTCPCCFBGeneratorFinalize(CFTypeRef)"
++ "void _APSRTCPCCFBProcessorFinalize(CFTypeRef)"
++ "void _APSRateControllerAVCWrapperFinalize(CFTypeRef)"
++ "void bitRateDataPacer_Finalize(CMBaseObjectRef)"
++ "void congestionControlDataPacer_Finalize(CMBaseObjectRef)"
++ "void congestionControlDataPacer_handleDataPacingRateDidChange(CMNotificationCenterRef, const void *, CFStringRef, const void *, CFTypeRef)"
++ "void dynamicLatencyManager_GetSCR(void *)"
++ "void hoseControllerAPAT_updateHoseStatsInternal(APSAudioProtocolDriverSenderHoseControllerAPATRef)"
++ "void hoseCountDataPacer_Finalize(CMBaseObjectRef)"
++ "void hoseSBAR_sbarLowWaterTimerFired(void *)"
++ "void metricCollector_reportMetricsForHoseInternal(APSAudioHoseMetricCollectorRef, APSAudioHoseMetricCollectorHoseDescriptorPtr)"
++ "void protocolDriverReceiverAPAT_Finalize(CMBaseObjectRef)"
++ "void protocolDriverReceiverAPAT_updateStateLoggingInternal(APSAudioProtocolDriverReceiverRef)"
++ "void protocolDriverSenderAPAT_updateStateLoggingInternal(APSAudioProtocolDriverSenderRef)"
++ "void ptpClock_closeClockPortsForPeer(APSNetworkClockRef, CFDictionaryRef)"
++ "void ptpClock_enableOnePortOrAll(APSNetworkClockRef, void *, CFDictionaryRef, CFStringRef, CFStringRef)"
++ "void reportingAgent_SendReportToRTC(APSRTCReportingAgentRef, uint16_t, CFDictionaryRef, APSRTCReportingAgentCompletionHandler)"
++ "void ztsController_Logger(const APSAsyncLoggerParameters *, Float64)"
++ "zeroAvailablePacketSlotEventCount"
++ "zeroAvailablePacketSlotEventDurationAvgMs"
++ "zeroAvailablePacketSlotEventDurationMaxMs"
++ "zone"
++ "ztsController_Logger"
++ "{_opaque_pthread_cond_t=\"__sig\"q\"__opaque\"[40c]}"
++ "{_opaque_pthread_mutex_t=\"__sig\"q\"__opaque\"[56c]}"
++ "|NoPortMatchingOverride"
++ "}"
+- "### Error '%@' setting bundleID '%@' to allow initiate playback\n"
+- "%16s %5.1f%%  "
+- "%@ (%@)\nBucket count: %@\nTotal samples: %@\nDuration: %.1f sec\n"
+- "5_1"
+- "5_1_2"
+- "5_1_4"
+- "7_1"
+- "7_1_2"
+- "7_1_4"
+- "9_1_6"
+- "<APSEndpointStreamAudioHoseSBARMock %p '%@'>"
+- "APAudioFormatCopyPreferredRealTimeAudioFormats"
+- "APSAudioFormatDescriptionGetAudioChannelLayout"
+- "APSDisplayUtilsCopyDisplayCapabilities"
+- "APSEndpointStreamAudioHoseSBARMock"
+- "APSEndpointStreamAudioHoseSBARMock <APSEndpointStreamAudioHoseProtocol> on <%p>"
+- "APSEndpointStreamAudioHoseSBARMock.%@.dataProcessing"
+- "APSEndpointStreamAudioHoseSBARMock.%@.notification"
+- "APSEndpointStreamAudioHoseSBARMockCreate"
+- "APSEventRecorderGetTimeBetweenCFAbsoluteTimeAndEventInMilliSecond"
+- "APSLatencyOffsetStepper"
+- "APSLatencyOffsetStepper.%{ptr}.background"
+- "APSLatencyOffsetStepperCreate"
+- "APSLatencyOffsetStepperStepForInterval"
+- "APSRTCReportingAgentSendEvent"
+- "APSRingBufferDequeueBytes"
+- "APSRingBufferEnqueueBytes"
+- "APSRingBufferReset"
+- "AUCWirelessHDCPSessionManagerGetHDCPCapabilityOfDevice:%s (%#m)"
+- "AUCWirelessHDCPSessionManagerGetProtectionBitsOfDisplay:0x%x (%#m)"
+- "CCLogPipe"
+- "CFDataRef CreateTXTRecordFromBinaryTXTRecord(CFDataRef, OSStatus *)"
+- "ChannelLayoutTag:%@"
+- "CreateTXTRecordFromBinaryTXTRecord"
+- "DisplayCapabilities for display with ID=%u: %1.64@ (isProvisionedForHDCP2FromPrefs:%s, protectionBitsFromPrefs:%s)"
+- "EngageOnActivateCluster"
+- "FigAudioSession"
+- "GlitchesPerHourDemoteTier"
+- "GlitchesPerHourPromoteTier"
+- "GlitchesPerHourWorstTier"
+- "Index_%llu:%s"
+- "MMMM d, HH:mm:ss.SSS"
+- "Mono"
+- "OSStatus APSCMSampleBufferMergerCreate(Boolean, APSCMSampleBufferMergerRef *)"
+- "OSStatus APSEndpointStreamAudioHoseSBARMockCreate(CFAllocatorRef, CFStringRef, CFDictionaryRef, APSEndpointStreamAudioHoseSBARMockRef *)"
+- "OSStatus APSLatencyOffsetStepperCreate(CFAllocatorRef, CMClockOrTimebaseRef, Float32, APSLatencyOffsetStepperRef *)"
+- "OSStatus APSLatencyOffsetStepperSetTargetLatencyOffset(APSLatencyOffsetStepperRef, Float32)"
+- "OSStatus APSRTCReportingSendMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef)_block_invoke"
+- "OSStatus _ProcessNextKey(TXTRecordRef *, CacheEntry *, const UInt8 *, CFIndex *, CFIndex, Boolean *)"
+- "OSStatus apsrr_cacheMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef)"
+- "OSStatus apsrr_sendOneMsg(APSRTCReportingRef, uint16_t, uint16_t, CFDictionaryRef)_block_invoke"
+- "OSStatus hoseSBARMock_CopyProperty(CMBaseObjectRef, CFStringRef, CFAllocatorRef, void *)"
+- "OSStatus hoseSBARMock_SetProperty(CMBaseObjectRef, CFStringRef, CFTypeRef)"
+- "OSStatus hoseSBARMock_audioHoseApplyVolumeFade(APSEndpointStreamAudioHoseRef, APSVolumeFadeType, CMTime)"
+- "OSStatus hoseSBARMock_audioHoseFlush(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, APSEndpointStreamAudioHoseFlushCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseFlushWithinSampleRange(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, uint32_t, APSAudioTransportTime, APSEndpointStreamAudioHoseFlushWithinSampleRangeCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseGetAnchor(APSEndpointStreamAudioHoseRef, uint32_t, APSEndpointStreamAudioHoseSetRateCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseSendAudio(APSEndpointStreamAudioHoseRef, OSType, CMBlockBufferRef)"
+- "OSStatus hoseSBARMock_audioHoseSetCryptor(APSEndpointStreamAudioHoseRef, uint64_t, FigCPECryptorRef, APSEndpointStreamAudioHoseSetCryptorCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseSetCryptorCallbackInternal(APSEndpointStreamAudioHoseSBARMockRef, uint64_t, FigCPECryptorRef)"
+- "OSStatus hoseSBARMock_audioHoseSetMagicCookie(APSEndpointStreamAudioHoseRef, uint64_t, CFDataRef, APSEndpointStreamAudioHoseSetMagicCookieCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseSetMagicCookieCallbackInternal(APSEndpointStreamAudioHoseSBARMockRef, uint64_t, CFDataRef)"
+- "OSStatus hoseSBARMock_audioHoseSetRate(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, APSEndpointStreamAudioHoseSetRateCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseSetRateAndAnchorTime(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, APSNetworkTime, APSAudioTransportTime, APSEndpointStreamAudioHoseSetRateAndAnchorTimeCompletionHandler, void *)"
+- "OSStatus hoseSBARMock_audioHoseSetRateAndAnchorTime_RateToOne(APSEndpointStreamAudioHoseSBARMockRef, APSAudioTransportTime, APSNetworkTime, APSAudioTransportTime)"
+- "OSStatus hoseSBARMock_audioHoseSetRateAndAnchorTime_RateToZero(APSEndpointStreamAudioHoseSBARMockRef, APSAudioTransportTime *)"
+- "OSStatus ptpClock_ClearLocalPeerInfo(APSNetworkClockRef)"
+- "OSStatus ptpClock_SetPeers(APSNetworkClockRef, CFArrayRef, CFDictionaryRef *, Boolean *)"
+- "OSStatus ptpClock_addOrUpdatePeerInternal(APSNetworkClockRef, CFDictionaryRef, CFDictionaryRef *, Boolean *)"
+- "OSStatus ptpClock_copyPeerListForRegularPeer(APSNetworkClockRef, CFDictionaryRef, CFArrayRef *)"
+- "OSStatus ptpClock_isClockPortMatrixComplete(APSNetworkClockRef, Boolean *)"
+- "OSStatus ptpClock_overrideClockPortMatchingForPeerIfPossible(APSNetworkClockRef, CFDictionaryRef)"
+- "OSStatus ptpClock_removeAllRemotePortsForPeer(APSNetworkClockRef, CFStringRef)"
+- "OSStatus ptpClock_removePeerInternal(APSNetworkClockRef, CFStringRef)"
+- "PromotionSecs"
+- "Reading %zu bytes from a buffer of size %u"
+- "ReceiverShouldDetermineAnchor"
+- "Set bundleID '%@' to allow initiate playback\n"
+- "[%{ptr}] %@ report endpointID=%@ sessionID=%llu durationSec=%llu glitches=%u minRenderDeadlineMs=%lld (totalReports=%d totalDurationSec=%llu old reports=%u)\n"
+- "[%{ptr}] APSEndpointStreamAudioHoseSBARMockCreate \n"
+- "[%{ptr}] APSRingBuffer had %zu bytes read from it"
+- "[%{ptr}] APSRingBuffer had %zu bytes written to it"
+- "[%{ptr}] Clearing local peer info %@%?{end}%ld active peers"
+- "[%{ptr}] New Calculated Offsets. TargetMs: %1.3f; CurrentMs: %1.3f; CurrentTicks: %d (logLatencyMs: %1.3f)\n"
+- "[%{ptr}] New Target OffsetMs: %1.3f (inStepper->currentLatencyOffsetMs: %1.3f)\n"
+- "[%{ptr}] No clock ports dictionary found for peer %@\n"
+- "[%{ptr}] Received audio data with new cryptorID: 0x%llx"
+- "[%{ptr}] Removing old cryptor with cryptorID: 0x%llx"
+- "[%{ptr}] SetRateAndAnchorTime Rate to One Callback\n"
+- "[%{ptr}] Start\n"
+- "[%{ptr}] Stepper Created maxRateAdjustmentAbsValue=%1.3f\n"
+- "[%{ptr}] Using %s (NoExtraHub) clock topology"
+- "[%{ptr}] created! Variant=%@ initialLatencyTierIdx=%u latencyMs=%u promotionSecs=%d minSessionDurationSec=%u maxGlitchesPerHourToPromote=%f minGlitchesPerHourToDemote=%f minGlitchesPerHourToGoWorst=%f\n"
+- "[%{ptr}] hoseSBARMock_Finalize\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlush\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlushCallbackDispatchInternal\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlushEverythingInternal\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlushWithinSampleRange\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlushWithinSampleRangeDispatchInternal\n"
+- "[%{ptr}] hoseSBARMock_audioHoseFlushWithinSampleRangeInternal\n"
+- "[%{ptr}] hoseSBARMock_audioHoseSendAudio; bbuf: %{ptr}"
+- "[%{ptr}] hoseSBARMock_callAudioEngineFlushWithinSampleRangeCompletionHandlerCaller\n"
+- "[%{ptr}] hoseSBARMock_callAudioHoseFlushCompletionHandlerCaller\n"
+- "[%{ptr}] hoseSBARMock_callAudioHoseFlushCompletionHandlerInternal\n"
+- "[%{ptr}] hoseSBARMock_callAudioHoseFlushWithinSampleRangeCompletionHandlerInternal\n"
+- "[%{ptr}] hoseSBARMock_hoseSendAudioDataDispatchInternal"
+- "[%{ptr}] hoseSBARMock_invalidateInternal\n"
+- "[%{ptr}] hoseSBARMock_sbarEnqueueSingleAudioBBuffDispatchFunction"
+- "attributeForKey:"
+- "audioFormatList_copyHashedKeyFromAudioFormatDescription"
+- "audioFormat_Equal"
+- "boolValue"
+- "fakeDisplayIsProvisionedForHDCP2"
+- "hoseSBARMock_CopyProperty"
+- "hoseSBARMock_SetProperty"
+- "hoseSBARMock_audioHoseApplyVolumeFade"
+- "hoseSBARMock_audioHoseFlushEverythingInternal"
+- "hoseSBARMock_audioHoseFlushWithinSampleRangeInternal"
+- "hoseSBARMock_audioHoseGetAnchorCallbackInternal"
+- "hoseSBARMock_audioHoseSendAudio"
+- "hoseSBARMock_audioHoseSetRateAndAnchorTimeCallbackInternal"
+- "hoseSBARMock_audioHoseSetRateCallbackInternal"
+- "hoseSBARMock_sbarEnqueueSingleAudioBBuffDispatchFunction"
+- "hoseSBAR_attachCryptorIfNecessary"
+- "int32_t APSAudioLatencyForSystemAudioMs(void)"
+- "isProvisionedForHDCP2"
+- "llaDLMGlitchesPerHourDemoteTier"
+- "llaDLMGlitchesPerHourPromoteTier"
+- "llaDLMGlitchesPerHourWorstTier"
+- "llaDLMMinSessionDurationSec"
+- "llaDLMPromotionSec"
+- "lowLatencyAudioSurroundSender"
+- "setAttribute:forKey:error:"
+- "siblingClientSessionForFigSbarOnMusic-%{ptr}-%s"
+- "void hoseSBARMock_Finalize(CMBaseObjectRef)"
+- "void hoseSBARMock_audioHoseFlushCallbackDispatchInternal(void *)"
+- "void hoseSBARMock_audioHoseFlushEverythingInternal(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, APSEndpointStreamAudioHoseFlushCompletionHandler, void *)"
+- "void hoseSBARMock_audioHoseFlushWithinSampleRangeDispatchInternal(void *)"
+- "void hoseSBARMock_audioHoseFlushWithinSampleRangeInternal(APSEndpointStreamAudioHoseRef, uint32_t, APSAudioTransportTime, uint32_t, APSAudioTransportTime, APSEndpointStreamAudioHoseFlushWithinSampleRangeCompletionHandler, void *)"
+- "void hoseSBARMock_callAudioEngineFlushWithinSampleRangeCompletionHandlerCaller(void *)"
+- "void hoseSBARMock_callAudioHoseFlushCompletionHandlerCaller(void *)"
+- "void hoseSBARMock_callAudioHoseFlushCompletionHandlerInternal(APSEndpointStreamAudioHoseRef, APSEndpointStreamAudioHoseFlushCompletionHandler, uint32_t, APSAudioTransportTime, OSStatus, void *)"
+- "void hoseSBARMock_callAudioHoseFlushWithinSampleRangeCompletionHandlerInternal(APSEndpointStreamAudioHoseRef, APSEndpointStreamAudioHoseFlushWithinSampleRangeCompletionHandler, uint32_t, APSAudioTransportTime, uint32_t, APSAudioTransportTime, OSStatus, void *)"
+- "void hoseSBARMock_hoseSendAudioDataDispatchInternal(void *)"
+- "void hoseSBARMock_hoseSendAudioDataInternal(APSEndpointStreamAudioHoseRef, CMBlockBufferRef)"
+- "void hoseSBARMock_invalidateInternal(APSEndpointStreamAudioHoseSBARMockRef)"
+- "void hoseSBARMock_notifyAudioDataAvailableEngineCallbackInternal(APSEndpointStreamAudioHoseSBARMockRef)"
+- "void hoseSBARMock_sbarEnqueueSingleAudioBBuffDispatchFunction(void *)"
+- "void latencyStepper_stepAsyncLogger(const APSAsyncLoggerParameters *, Float64)"
+- "void ptpClock_enableOnePortOrAll(APSNetworkClockRef, CFDictionaryRef, CFStringRef, CFStringRef)"
+- "void reportingAgent_SendReportToRTC(APSRTCReportingAgentRef, uint16_t, CFDictionaryRef)"
+
+```

@@ -1,0 +1,655 @@
+## Celestial
+
+> `/System/Library/PrivateFrameworks/Celestial.framework/Celestial`
+
+```diff
+
+-3225.7.1.0.0
+-  __TEXT.__text: 0xc0c
+-  __TEXT.__auth_stubs: 0x320
+-  __TEXT.__objc_methlist: 0x98
+-  __TEXT.__const: 0x4
+-  __TEXT.__cstring: 0x1484
++3255.61.4.11.7
++  __TEXT.__text: 0x1520
++  __TEXT.__auth_stubs: 0x2b0
++  __TEXT.__objc_methlist: 0xa0
++  __TEXT.__const: 0x10
++  __TEXT.__cstring: 0x570
++  __TEXT.__oslogstring: 0x2cc
+   __TEXT.__unwind_info: 0x98
+   __TEXT.__objc_classname: 0x25
+-  __TEXT.__objc_methname: 0x29f
++  __TEXT.__objc_methname: 0x2b8
+   __TEXT.__objc_methtype: 0x68
+   __TEXT.__objc_stubs: 0x220
+   __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0x110
++  __DATA_CONST.__const: 0xb0
+   __DATA_CONST.__objc_classlist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xd0
++  __DATA_CONST.__objc_selrefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x198
+-  __AUTH_CONST.__cfstring: 0x19c0
++  __AUTH_CONST.__auth_got: 0x160
++  __AUTH_CONST.__cfstring: 0x8e0
+   __AUTH_CONST.__objc_const: 0x168
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x460
++  __DATA.__data: 0x68
++  __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0xa0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 166B4F5B-65AA-32BF-82DD-6944C2445F6F
+-  Functions: 45
+-  Symbols:   547
+-  CStrings:  451
++  UUID: 3E65485B-B506-3447-8565-E732CEEA495B
++  Functions: 33
++  Symbols:   170
++  CStrings:  194
+ 
+Symbols:
++ +[FigCheckpointSupport makeDictionaryForDevice:]
++ _CMPhotoJPEGAddMPDataToJPEG
++ _CMPhotoJPEGCalculateOutputDimensions
++ _CMPhotoJPEGCopyMPDataFromJPEG
++ _CMPhotoJPEGCreateCGImageFromIOSurface
++ _CMPhotoJPEGCreateCGImageFromJPEG
++ _CMPhotoJPEGCreateIOSurfaceFromJPEG
++ _CMPhotoJPEGCreateJPEGFromCVPixelBuffer
++ _CMPhotoJPEGCreateJPEGFromIOSurface
++ _CMPhotoJPEGCreateJPEGFromSbuf
++ _CMPhotoJPEGCreateJPEGNativePixelFormatArray
++ _CMPhotoJPEGCreateJPEGNativeSubsamplingArray
++ _CMPhotoJPEGCreateJPEGOutputIOSurface
++ _CMPhotoJPEGCreateNativeDecodePixelFormatArray
++ _CMPhotoJPEGDecodeJPEGIntoSurface
++ _CMPhotoJPEGGetDecodeTiming
++ _CMPhotoJPEGGetEncodeTiming
++ _CMPhotoJPEGGetMPDataCountFromJPEG
++ _CMPhotoJPEGGetMaximumHardwareOutputDimensions
++ _CMPhotoJPEGShouldUseHardwareDecode
++ _FigCreateModelSpecificPropertyListForModel
++ _FigNote_AllowInternalDefaultLogs
++ __computeCheckpoint
++ __os_log_send_and_compose_impl
++ _fig_log_call_emit_and_clean_up_after_send_and_compose
++ _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
++ _fig_note_initialize_category_with_default_work_cf
++ _gFigCheckpointTrace
++ _objc_release_x20
++ _objc_release_x28
++ _os_log_type_enabled
+- OBJC_IVAR_$_AVSystemController._priv
+- _AVControllerActionAtEnd_Advance
+- _AVControllerActionAtEnd_None
+- _AVControllerActionAtEnd_Stop
+- _AVControllerImageOptions_MaxHeight
+- _AVControllerImageOptions_MaxWidth
+- _AVController_ActionAtEnd
+- _AVController_ActiveAudioRouteAttribute
+- _AVController_AllowGaplessTransitionsAttribute
+- _AVController_AttributeValueAvailableNotification
+- _AVController_AttributeValueAvailableNotificationParameter
+- _AVController_AudioCategoryAttribute
+- _AVController_AudioModeAttribute
+- _AVController_AudioPipelineEarlyDumpAttribute
+- _AVController_BufferStateAttribute
+- _AVController_BufferState_Filling
+- _AVController_BufferState_Full
+- _AVController_CALayer
+- _AVController_CALayerDestinationIsTVOutAttribute
+- _AVController_CGImageParameter
+- _AVController_ClientNameAttribute
+- _AVController_ClientPriorityAttribute
+- _AVController_CurrentItemDidChangeNotification
+- _AVController_CurrentItemWillChangeNotification
+- _AVController_CurrentTimeParameter
+- _AVController_DisplayClosedCaptions
+- _AVController_DisplayList
+- _AVController_DisplayNonForcedSubtitlesAttribute
+- _AVController_EQPresetAttribute
+- _AVController_EffectiveVolumeDidChangeNotification
+- _AVController_EffectiveVolumeNotificationParameter_Category
+- _AVController_EffectiveVolumeNotificationParameter_Volume
+- _AVController_EnableTimedMetadataAttribute
+- _AVController_Error
+- _AVController_FirstVideoFrameDisplayedNotification
+- _AVController_FullMuteDidChangeNotification
+- _AVController_FullMuteDidChangeNotificationParameter
+- _AVController_GatherPerformanceDataAttribute
+- _AVController_ImageTimeParameter
+- _AVController_InterruptionHandlingFadeOutDurationAttribute
+- _AVController_InterruptionStatusNotificationParameter
+- _AVController_InterruptorNameNotificationParameter
+- _AVController_ItemCompletedDecodeNotification
+- _AVController_ItemDidGenerateCGImageNotification
+- _AVController_ItemFailedToGenerateCGImageNotification
+- _AVController_ItemFailedToPlayNotification
+- _AVController_ItemNotificationParameter
+- _AVController_ItemPlaybackDidEndNotification
+- _AVController_ItemReadyToPlayNotification
+- _AVController_ItemRunLoop
+- _AVController_LKLayer
+- _AVController_LeaveLastItemQueuedWhenPlaybackEndsAttribute
+- _AVController_MutedAttribute
+- _AVController_MutedDidChangeNotification
+- _AVController_MutedDidChangeNotificationParameter
+- _AVController_NextItemNotificationParameter
+- _AVController_OutputQTESFilePath
+- _AVController_OverrideRouteAttribute
+- _AVController_PerformanceDictionaryArrayAttribute
+- _AVController_PickableRouteType_Default
+- _AVController_PickableRouteType_Override
+- _AVController_PickableRouteType_Wireless
+- _AVController_PickableRoutesAttribute
+- _AVController_PickableRoutesDidChangeNotification
+- _AVController_PickedRouteAttribute
+- _AVController_PlaybackInterruptionDidEndNotification
+- _AVController_PlaybackWasInterruptedNotification
+- _AVController_PostNotificationsFromMainThreadOnly
+- _AVController_RateAttribute
+- _AVController_RateDidChangeNotification
+- _AVController_RateDidChangeNotificationParameter
+- _AVController_RepeatGapAttribute
+- _AVController_RepeatModeAttribute
+- _AVController_RepeatModeDidChangeNotification
+- _AVController_RepeatModeDidChangeNotificationParameter
+- _AVController_RequestIDNotificationParameter
+- _AVController_RouteDescriptionKey_AVAudioRouteName
+- _AVController_RouteDescriptionKey_AirPlayRouteHasCloudConnectivity
+- _AVController_RouteDescriptionKey_AlternateUIDs
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType_Headphones
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType_Speakers
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType_TTY
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType_Unspecified
+- _AVController_RouteDescriptionKey_BTDetails_EndpointType_Vehicle
+- _AVController_RouteDescriptionKey_BTDetails_IsAvailableForVoicePrompts
+- _AVController_RouteDescriptionKey_BTDetails_IsHFPRoute
+- _AVController_RouteDescriptionKey_BTDetails_SupportsDoAP
+- _AVController_RouteDescriptionKey_IsBTRoute
+- _AVController_RouteDescriptionKey_IsCurrentlyPickedOnPairedDevice
+- _AVController_RouteDescriptionKey_IsPreferredExternalRoute
+- _AVController_RouteDescriptionKey_OtherDevicesConnected
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_ModelIdentifier
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_Name
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_Playing
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_ProductName
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_RouteUID
+- _AVController_RouteDescriptionKey_OtherDevicesConnected_UniqueID
+- _AVController_RouteDescriptionKey_PortHasPassword
+- _AVController_RouteDescriptionKey_PortStatusChangeReason
+- _AVController_RouteDescriptionKey_PreferredExternalRouteDetails_InEarDetectEnabled
+- _AVController_RouteDescriptionKey_PreferredExternalRouteDetails_InEarDetectSupported
+- _AVController_RouteDescriptionKey_PreferredExternalRouteDetails_IsActive
+- _AVController_RouteDescriptionKey_RouteCurrentlyPicked
+- _AVController_RouteDescriptionKey_RouteName
+- _AVController_RouteDescriptionKey_RouteRequiresAirPlayPIN
+- _AVController_RouteDescriptionKey_RouteSubtype
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayAudio
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayFromCloud
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayPhoto
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayScreen
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlaySlideshow
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayVideo
+- _AVController_RouteDescriptionKey_RouteSupportsAirPlayVideoPlayQueue
+- _AVController_RouteDescriptionKey_RouteType
+- _AVController_RouteDescriptionKey_RouteUID
+- _AVController_ServerConnectionDiedNotification
+- _AVController_SetLayerBoundsAutomaticallyAttribute
+- _AVController_SizeDidChangeNotification
+- _AVController_SizeDidChangeNotificationParameter
+- _AVController_StoppingFadeOutDurationAttribute
+- _AVController_StreamBufferFullNotification
+- _AVController_StreamLikelyToKeepUpNotification
+- _AVController_StreamRanDryNotification
+- _AVController_StreamUnlikelyToKeepUpNotification
+- _AVController_SubtitleRecipientAttribute
+- _AVController_ThirdPartyApplicationAttribute
+- _AVController_TimeAttribute
+- _AVController_TimeHasJumpedNotification
+- _AVController_TimeHasJumpedNotificationParameter
+- _AVController_TimedMetadataKey_DataType
+- _AVController_TimedMetadataKey_Info
+- _AVController_TimedMetadataKey_Key
+- _AVController_TimedMetadataKey_Keyspace
+- _AVController_TimedMetadataKey_LanguageCode
+- _AVController_TimedMetadataKey_MIMEType
+- _AVController_TimedMetadataKey_Name
+- _AVController_TimedMetadataKey_Timestamp
+- _AVController_TimedMetadataKey_Value
+- _AVController_TimedMetadataNotification
+- _AVController_UseApplicationAudioSessionAttribute
+- _AVController_VibrationEnabledAttribute
+- _AVController_VibrationPatternAttribute
+- _AVController_VideoPipelineEarlyDumpAttribute
+- _AVController_VisualContext
+- _AVController_VolumeAttribute
+- _AVController_VolumeDidChangeNotification
+- _AVController_VolumeDidChangeNotificationParameter
+- _AVController_WantsExternalVolumeChangesOnly
+- _AVController_WantsVolumeChangesWhenPaused
+- _AVController_WantsVolumeChangesWhenPausedOrInactive
+- _AVController_WillKeepUpPredictionAttribute
+- _AVController_WillKeepUpPrediction_LikelyToKeepUp
+- _AVController_WillKeepUpPrediction_UnlikelyToKeepUp
+- _AVSystemController_ActiveAudioRouteAttribute
+- _AVSystemController_ActiveAudioRouteDidChangeNotification
+- _AVSystemController_ActiveAudioRouteDidChangeNotificationParameter_ShouldPause
+- _AVSystemController_ActiveClientPIDsThatHideTheSpeechDetectionDeviceAttribute
+- _AVSystemController_ActiveInputRouteForPlayAndRecordNoBluetoothAttribute
+- _AVSystemController_ActiveInputRouteForPlayAndRecordNoBluetoothDidChangeNotification
+- _AVSystemController_AirPlayScreenSuspended
+- _AVSystemController_AllowAppToFadeInTemporarilyAttribute
+- _AVSystemController_AllowAppToInitiatePlaybackTemporarilyAttribute
+- _AVSystemController_AppToInterruptCurrentNowPlayingSessionAttribute
+- _AVSystemController_AppWantsVolumeChangesAttribute
+- _AVSystemController_AudioCategoryNotificationParameter
+- _AVSystemController_AudioFullMutedNotificationParameter
+- _AVSystemController_AudioIsPlayingSomewhereAttribute
+- _AVSystemController_AudioMutedNotificationParameter
+- _AVSystemController_AudioVolumeChangeReasonNotificationParameter
+- _AVSystemController_AudioVolumeNotificationParameter
+- _AVSystemController_CallIsActive
+- _AVSystemController_CallIsActiveDidChangeNotification
+- _AVSystemController_CallIsActiveNotificationParameter
+- _AVSystemController_CanBeNowPlayingAppAttribute
+- _AVSystemController_CarPlayAuxStreamSupportAttribute
+- _AVSystemController_CarPlayAuxStreamSupportDidChangeNotification
+- _AVSystemController_CarPlayAuxStreamSupportNotificationParameter
+- _AVSystemController_CarPlayIsConnectedAttribute
+- _AVSystemController_CarPlayIsConnectedDidChangeNotification
+- _AVSystemController_CarPlayIsConnectedNotificationParameter
+- _AVSystemController_CarPlayIsPlayingLongerDurationSession
+- _AVSystemController_CarPlaySupportsMixableSiriAttribute
+- _AVSystemController_CurrentExternalScreenAttribute
+- _AVSystemController_CurrentRouteHasVolumeControlDidChangeNotification
+- _AVSystemController_CurrentRouteHasVolumeControlNotificationParameter
+- _AVSystemController_CurrentVideoStreamsAttribute
+- _AVSystemController_CurrentVideoStreams_BundleID
+- _AVSystemController_CurrentVideoStreams_VideoRoutes
+- _AVSystemController_CurrentlyActiveCategoryAttribute
+- _AVSystemController_CurrentlyActiveModeAttribute
+- _AVSystemController_DeviceManufacturedForEURegion
+- _AVSystemController_DiscoveryModeAttribute
+- _AVSystemController_DiscoveryMode_DetailedDiscovery
+- _AVSystemController_DiscoveryMode_None
+- _AVSystemController_DiscoveryMode_PresenceScan
+- _AVSystemController_DownlinkMuteAttribute
+- _AVSystemController_EUVolumeLimitAttribute
+- _AVSystemController_EUVolumeLimitDidChangeNotification
+- _AVSystemController_EUVolumeLimitEnforcedAttribute
+- _AVSystemController_EUVolumeLimitEnforcedDidChangeNotification
+- _AVSystemController_EUVolumeLimitEnforcedNotificationParameter
+- _AVSystemController_EUVolumeLimitNotificationParameter
+- _AVSystemController_EffectiveVolumeDidChangeNotification
+- _AVSystemController_EffectiveVolumeNotificationParameter_Category
+- _AVSystemController_EffectiveVolumeNotificationParameter_Volume
+- _AVSystemController_EffectiveVolumeNotificationParameter_VolumeChangeReason
+- _AVSystemController_ExternalScreenDidChangeNotification
+- _AVSystemController_ExternalScreenType_AirPlay
+- _AVSystemController_ExternalScreenType_None
+- _AVSystemController_ExternalScreenType_TVOut
+- _AVSystemController_FullMuteAttribute
+- _AVSystemController_FullMuteDidChangeNotification
+- _AVSystemController_HeadphoneJackHasInputAttribute
+- _AVSystemController_HeadphoneJackIsConnectedAttribute
+- _AVSystemController_HeadphoneJackIsConnectedDidChangeNotification
+- _AVSystemController_HeadphoneVolumeLimitAttribute
+- _AVSystemController_IAmTheiPodAppAttribute
+- _AVSystemController_IsSomeoneRecordingAttribute
+- _AVSystemController_LongFormVideoAppsAttribute
+- _AVSystemController_MeasuredHDMILatencyAttribute
+- _AVSystemController_MeasuredHDMILatency_MeasuredAudioHDMILatency24Hz
+- _AVSystemController_MeasuredHDMILatency_MeasuredAudioHDMILatency60Hz
+- _AVSystemController_MeasuredHDMILatency_MeasuredVideoHDMILatency24Hz
+- _AVSystemController_MeasuredHDMILatency_MeasuredVideoHDMILatency60Hz
+- _AVSystemController_MutedDidChangeNotification
+- _AVSystemController_NowPlayingAppDidChangeNotification
+- _AVSystemController_NowPlayingAppDisplayIDAttribute
+- _AVSystemController_NowPlayingAppIsInterruptedAttribute
+- _AVSystemController_NowPlayingAppIsPlayingAttribute
+- _AVSystemController_NowPlayingAppIsPlayingDidChangeNotification
+- _AVSystemController_NowPlayingAppIsPlayingNotificationParameter
+- _AVSystemController_NowPlayingAppNotificationParameter
+- _AVSystemController_NowPlayingAppPIDAttribute
+- _AVSystemController_NowPlayingAppPIDDidChangeNotification
+- _AVSystemController_NowPlayingAppPIDNotificationParameter
+- _AVSystemController_NowPlayingAppShouldPlayOnCarPlayConnectAttribute
+- _AVSystemController_PIDToInheritApplicationStateFrom
+- _AVSystemController_ParentalVolumeCappedToEUVolumeLimitAttribute
+- _AVSystemController_PickableRouteType_Default
+- _AVSystemController_PickableRouteType_Override
+- _AVSystemController_PickableRouteType_Wireless
+- _AVSystemController_PickableRoutesAttribute
+- _AVSystemController_PickableRoutesDidChangeNotification
+- _AVSystemController_PickedRouteAttribute
+- _AVSystemController_PlayingSessionsDescriptionAttribute
+- _AVSystemController_PlayingSessionsDescriptionKey_AudioSessionID
+- _AVSystemController_PlayingSessionsDescriptionKey_ClientPID
+- _AVSystemController_PlayingSessionsDescriptionKey_IsNowPlayingEligible
+- _AVSystemController_PlayingSessionsDescriptionKey_MXSessionIDs
+- _AVSystemController_PortStatusDidChangeNotification
+- _AVSystemController_PostNotificationsFromMainThreadOnly
+- _AVSystemController_PreferredExternalRouteDidChangeNotification
+- _AVSystemController_RecordingClientPIDNotificationParameter
+- _AVSystemController_RecordingClientPIDsAttribute
+- _AVSystemController_RecordingClientPIDsNotificationParameter
+- _AVSystemController_RecordingStateDidChangeNotification
+- _AVSystemController_RecordingStateNotificationParameter
+- _AVSystemController_RouteAwayFromAirPlayAttribute
+- _AVSystemController_RouteDescriptionKey_AVAudioRouteName
+- _AVSystemController_RouteDescriptionKey_AirPlayRouteHasCloudConnectivity
+- _AVSystemController_RouteDescriptionKey_AlternateUIDs
+- _AVSystemController_RouteDescriptionKey_BTDetails_BatteryLevelCase
+- _AVSystemController_RouteDescriptionKey_BTDetails_BatteryLevelLeft
+- _AVSystemController_RouteDescriptionKey_BTDetails_BatteryLevelRight
+- _AVSystemController_RouteDescriptionKey_BTDetails_BatteryLevelSingle
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType_Headphones
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType_Speakers
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType_TTY
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType_Unspecified
+- _AVSystemController_RouteDescriptionKey_BTDetails_EndpointType_Vehicle
+- _AVSystemController_RouteDescriptionKey_BTDetails_IsA2DPRoute
+- _AVSystemController_RouteDescriptionKey_BTDetails_IsAvailableForVoicePrompts
+- _AVSystemController_RouteDescriptionKey_BTDetails_IsBTManaged
+- _AVSystemController_RouteDescriptionKey_BTDetails_IsHFPRoute
+- _AVSystemController_RouteDescriptionKey_BTDetails_ProductID
+- _AVSystemController_RouteDescriptionKey_BTDetails_SupportsDoAP
+- _AVSystemController_RouteDescriptionKey_BTDetails_SupportsLiveListen
+- _AVSystemController_RouteDescriptionKey_BTDetails_SupportsStereoHFP
+- _AVSystemController_RouteDescriptionKey_IsBTRoute
+- _AVSystemController_RouteDescriptionKey_IsCurrentlyPickedOnPairedDevice
+- _AVSystemController_RouteDescriptionKey_IsPreferredExternalRoute
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_ModelIdentifier
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_Name
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_Playing
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_ProductName
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_RouteUID
+- _AVSystemController_RouteDescriptionKey_OtherDevicesConnected_UniqueID
+- _AVSystemController_RouteDescriptionKey_PortHasPassword
+- _AVSystemController_RouteDescriptionKey_PortStatusChangeReason
+- _AVSystemController_RouteDescriptionKey_PreferredExternalRouteDetails_InEarDetectEnabled
+- _AVSystemController_RouteDescriptionKey_PreferredExternalRouteDetails_InEarDetectSupported
+- _AVSystemController_RouteDescriptionKey_PreferredExternalRouteDetails_IsActive
+- _AVSystemController_RouteDescriptionKey_RouteCurrentlyPicked
+- _AVSystemController_RouteDescriptionKey_RouteName
+- _AVSystemController_RouteDescriptionKey_RouteRequiresAirPlayPIN
+- _AVSystemController_RouteDescriptionKey_RouteSubtype
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlayAudio
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlayFromCloud
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlayPhoto
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlayScreen
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlaySlideshow
+- _AVSystemController_RouteDescriptionKey_RouteSupportsAirPlayVideo
+- _AVSystemController_RouteDescriptionKey_RouteType
+- _AVSystemController_RouteDescriptionKey_RouteUID
+- _AVSystemController_ServerConnectionDiedNotification
+- _AVSystemController_SharedAudioRouteHijackDeniedReason_AmbiguousPriority
+- _AVSystemController_SharedAudioRouteHijackDeniedReason_LowerPriority
+- _AVSystemController_ShouldIgnorePlayCommandsFromAccessoryAttribute
+- _AVSystemController_SoftMuteDidChangeNotification
+- _AVSystemController_SoftMuteNotificationParameter
+- _AVSystemController_SomeClientIsActiveDidChangeNotification
+- _AVSystemController_SomeClientIsPlayingDidChangeNotification
+- _AVSystemController_SomeClientIsPlayingLongFormAudioAttribute
+- _AVSystemController_SomeClientIsPlayingNotificationParameter
+- _AVSystemController_SomeSessionIsActiveThatPrefersNoInterruptionsByRingtonesAndAlertsAttribute
+- _AVSystemController_SomeSessionIsPlayingDidChangeNotification
+- _AVSystemController_SomeSessionIsPlayingDidChangeNotificationParameter_Sessions
+- _AVSystemController_SomeSidekickSessionIsPlayingDidChangeNotification
+- _AVSystemController_SomeSidekickSessionIsPlayingDidChangeNotificationParameter_RemoteDeviceID
+- _AVSystemController_SourceFormatInfoDidChangeNotification
+- _AVSystemController_SpeechDetectionDevicePresentAttribute
+- _AVSystemController_SpeechDetectionDevicePresentDidChangeNotification
+- _AVSystemController_SpeechDetectionDevicePresentNotificationParameter
+- _AVSystemController_SubscribeToNotificationsAttribute
+- _AVSystemController_SystemHasAudioInputDeviceAttribute
+- _AVSystemController_SystemHasAudioInputDeviceDidChangeNotification
+- _AVSystemController_SystemHasAudioInputDeviceExcludingBluetoothAttribute
+- _AVSystemController_SystemHasAudioInputDeviceExcludingBluetoothDidChangeNotification
+- _AVSystemController_SystemVolumeDidChangeNotification
+- _AVSystemController_ThermalControlInfoAttribute
+- _AVSystemController_UplinkMuteAttribute
+- _AVSystemController_UplinkMuteDidChangeNotification
+- _AVSystemController_UplinkMuteNotificationParameter
+- _AVSystemController_UserVolumeAboveEUVolumeLimitNotificationParameter
+- _AVSystemController_VibeIntensityDidChangeNotification
+- _AVSystemController_VibeIntensityNotificationParameter
+- _AVSystemController_VideoStreamsDidChangeNotification
+- _AVSystemController_VideoStreamsDidChangeNotificationParameter_BundleID
+- _AVSystemController_VideoStreamsDidChangeNotificationParameter_RouteNames
+- _AVSystemController_VoicePromptStyleAttribute
+- _AVSystemController_VoicePromptStyleDidChangeNotification
+- _AVSystemController_VoicePromptStyleDidChangeNotificationParameter
+- _AVSystemController_VoicePromptStyle_None
+- _AVSystemController_VoicePromptStyle_Normal
+- _AVSystemController_VoicePromptStyle_Short
+- _CMPhotoCascadingDownscale
+- _CMPhotoCascadingDownscaleCreate
+- _CMPhotoCascadingDownscaleDestroy
+- _FigCascadingDownscale
+- _FigCascadingDownscaleCreate
+- _FigCascadingDownscaleDestroy
+- _FigJPEGDecodeSessionCancelRequest
+- _FigJPEGDecodeSessionCopyPoolDebugInfo
+- _FigJPEGDecodeSessionCreate
+- _FigJPEGDecodeSessionCreateCGImageFromData
+- _FigJPEGDecodeSessionCreateCVPixelBufferFromData
+- _FigJPEGDecodeSessionDecodeDataToCGImageAsynchronously
+- _FigJPEGDecodeSessionDecodeDataToCVPixelBufferAsynchronously
+- _FigJPEGDecodeSessionDiscardCachedBuffers
+- _FigJPEGDecodeSessionGetTypeID
+- _FigJPEGDecodeSessionLogCGImageBackingConversion
+- _FigPhotoJPEGAddMPDataToJPEG
+- _FigPhotoJPEGCalculateOutputDimensions
+- _FigPhotoJPEGCopyMPDataFromJPEG
+- _FigPhotoJPEGCreateCGImageFromIOSurface
+- _FigPhotoJPEGCreateCGImageFromJPEG
+- _FigPhotoJPEGCreateIOSurfaceFromJPEG
+- _FigPhotoJPEGCreateJPEGFromCVPixelBuffer
+- _FigPhotoJPEGCreateJPEGFromIOSurface
+- _FigPhotoJPEGCreateJPEGFromSbuf
+- _FigPhotoJPEGCreateJPEGNativePixelFormatArray
+- _FigPhotoJPEGCreateJPEGNativeSubsamplingArray
+- _FigPhotoJPEGCreateJPEGOutputIOSurface
+- _FigPhotoJPEGCreateNativeDecodePixelFormatArray
+- _FigPhotoJPEGDecodeJPEGIntoSurface
+- _FigPhotoJPEGDecodeSessionCancelRequest
+- _FigPhotoJPEGDecodeSessionCopyPoolDebugInfo
+- _FigPhotoJPEGDecodeSessionCreate
+- _FigPhotoJPEGDecodeSessionCreateCGImageFromData
+- _FigPhotoJPEGDecodeSessionCreateCVPixelBufferFromData
+- _FigPhotoJPEGDecodeSessionDecodeDataToCGImageAsynchronously
+- _FigPhotoJPEGDecodeSessionDecodeDataToCVPixelBufferAsynchronously
+- _FigPhotoJPEGDecodeSessionDiscardCachedBuffers
+- _FigPhotoJPEGDecodeSessionGetTypeID
+- _FigPhotoJPEGDecodeSessionLogCGImageBackingConversion
+- _FigPhotoJPEGGetDecodeTiming
+- _FigPhotoJPEGGetEncodeTiming
+- _FigPhotoJPEGGetMPDataCountFromJPEG
+- _FigPhotoJPEGGetMaximumHardwareOutputDimensions
+- _FigPhotoJPEGPreload
+- _FigPhotoJPEGShouldUseHardwareDecode
+- _FigPreloadAspenJPEG
+- _OBJC_CLASS_$_AVSystemController
+- _kFigJPEGDecodeSessionImageOptionKey_AllowNonExactOutputDimensions
+- _kFigJPEGDecodeSessionImageOptionKey_ApplyTransform
+- _kFigJPEGDecodeSessionImageOptionKey_AsyncDecode
+- _kFigJPEGDecodeSessionImageOptionKey_BackCGImageWithIOSurface
+- _kFigJPEGDecodeSessionImageOptionKey_ForceHighSpeedDecode
+- _kFigJPEGDecodeSessionImageOptionKey_HighPriority
+- _kFigJPEGDecodeSessionImageOptionKey_MaxPixelSize
+- _kFigJPEGDecodeSessionImageOptionKey_OutputBytesPerRowAlignment
+- _kFigJPEGDecodeSessionImageOptionKey_OutputPixelFormat
+- _kFigJPEGDecodeSessionImageOptionKey_RelaxMaxPixelSize
+- _kFigJPEGDecodeSessionOptionKey_ColorSpaceAware
+- _kFigJPEGDecodeSessionOptionKey_EnableAsyncDecode
+- _objc_release_x25
+- _objc_release_x27
+CStrings:
++ "<<<< FigCheckpointSupport >>>> %s: CHECKPOINT %@"
++ "<<<< FigCheckpointSupport >>>> %s: Finished creating audio codec list %@"
++ "<<<< FigCheckpointSupport >>>> %s: Finished creating complete list %@"
++ "<<<< FigCheckpointSupport >>>> %s: Finished creating video codec list %@"
++ "<<<< FigCheckpointSupport >>>> %s: Opening checkpointAdditionsSpecificationDictionary %@"
++ "<<<< FigCheckpointSupport >>>> %s: creating audio and video codec dictionary from input %@"
++ "<<<< FigCheckpointSupport >>>> %s: failed to create dictionary from %s"
++ "<<<< FigCheckpointSupport >>>> %s: specificationDictionary was NIL, audioSpecificationDictionary %@"
++ "<<<< FigCheckpointSupport >>>> %s: specificationDictionary was NIL, videoSpecificationDictionary %@"
++ "_addSpecificationAdditions"
++ "_computeCheckpoint"
++ "_twiddleCheckpoint"
++ "checkpoint_trace"
++ "com.apple.coremedia"
++ "makeDictionaryForDevice:"
+- "AVController_ActionAtEnd"
+- "AVController_AllowGaplessTransitionsAttribute"
+- "AVController_AttributeName"
+- "AVController_AttributeValueAvailable"
+- "AVController_AudioCategoryAttribute"
+- "AVController_AudioModeAttribute"
+- "AVController_AudioPipelineEarlyDumpAttribute"
+- "AVController_BufferState"
+- "AVController_CALayer"
+- "AVController_CALayerDestinationIsTVOutAttribute"
+- "AVController_CGImageParameter"
+- "AVController_ClientNameAttribute"
+- "AVController_ClientPriorityAttribute"
+- "AVController_CurrentItemDidChange"
+- "AVController_CurrentItemWillChange"
+- "AVController_CurrentTimeParameter"
+- "AVController_DisplayClosedCaptions"
+- "AVController_DisplayList"
+- "AVController_DisplayNonForcedSubtitles"
+- "AVController_EQPresetAttribute"
+- "AVController_EffectiveVolumeDidChange"
+- "AVController_EffectiveVolume_Category"
+- "AVController_EffectiveVolume_Volume"
+- "AVController_EnableTimedMetadataAttribute"
+- "AVController_Error"
+- "AVController_FirstVideoFrameDisplayedNotification"
+- "AVController_FullMute"
+- "AVController_FullMuteDidChange"
+- "AVController_GatherPerformanceDataAttribute"
+- "AVController_ImageTimeParameter"
+- "AVController_InterruptionHandlingFadeOutDurationAttribute"
+- "AVController_InterruptionStatusNotificationParameter"
+- "AVController_InterruptorNameNotificationParameter"
+- "AVController_Item"
+- "AVController_ItemCompletedDecode"
+- "AVController_ItemDidGenerateCGImageNotification"
+- "AVController_ItemFailedToGenerateCGImageNotification"
+- "AVController_ItemFailedToPlay"
+- "AVController_ItemPlaybackDidEnd"
+- "AVController_ItemReadyToPlay"
+- "AVController_ItemRunLoop"
+- "AVController_LeaveLastItemQueuedWhenPlaybackEndsAttribute"
+- "AVController_Muted"
+- "AVController_MutedAttribute"
+- "AVController_MutedDidChange"
+- "AVController_NextItemNotificationParameter"
+- "AVController_OutputQTESFilePath"
+- "AVController_OverrideRouteAttribute"
+- "AVController_PerformanceDictionaryArrayAttribute"
+- "AVController_PlaybackInterruptionDidEndNotification"
+- "AVController_PlaybackWasInterruptedNotification"
+- "AVController_Rate"
+- "AVController_RateAttribute"
+- "AVController_RateDidChange"
+- "AVController_RepeatGapAttribute"
+- "AVController_RepeatMode"
+- "AVController_RepeatModeAttribute"
+- "AVController_RepeatModeDidChange"
+- "AVController_RequestIDNotificationParameter"
+- "AVController_SetLayerBoundsAutomaticallyAttribute"
+- "AVController_Size"
+- "AVController_SizeDidChange"
+- "AVController_StoppingFadeOutDurationAttribute"
+- "AVController_StreamBufferFullNotification"
+- "AVController_StreamLikelyToKeepUpNotification"
+- "AVController_StreamRanDryNotification"
+- "AVController_StreamUnlikelyToKeepUpNotification"
+- "AVController_SubtitleRecipient"
+- "AVController_ThirdPartyApplicationAttribute"
+- "AVController_Time"
+- "AVController_TimeAttribute"
+- "AVController_TimeHasJumped"
+- "AVController_TimedMetadataNotification"
+- "AVController_UseApplicationAudioSessionAttribute"
+- "AVController_VibrationEnabledAttribute"
+- "AVController_VibrationPatternAttribute"
+- "AVController_VideoPipelineEarlyDumpAttribute"
+- "AVController_VisualContext"
+- "AVController_Volume"
+- "AVController_VolumeAttribute"
+- "AVController_VolumeDidChange"
+- "AVController_WantsExternalVolumeChangesOnly"
+- "AVController_WantsVolumeChangesWhenPaused"
+- "AVController_WantsVolumeChangesWhenPausedOrInactive"
+- "AVController_WillKeepUpPrediction"
+- "Advance"
+- "AllowNonExactOutputDimensions"
+- "ApplyTransform"
+- "AsyncDecode"
+- "BTDetails_EndpointType"
+- "BTDetails_IsAvailableForVoicePrompts"
+- "BTDetails_IsHFPRoute"
+- "BTDetails_SupportsDoAP"
+- "BackCGImageWithIOSurface"
+- "ColorSpaceAware"
+- "ConnectedDevice_ModelIdentifier"
+- "ConnectedDevice_Name"
+- "ConnectedDevice_Playing"
+- "ConnectedDevice_ProductName"
+- "ConnectedDevice_RouteUID"
+- "ConnectedDevice_UniqueID"
+- "Filling"
+- "ForceHighSpeedDecode"
+- "Full"
+- "Headphones"
+- "HighPriority"
+- "IsBTRoute"
+- "IsCurrentlyPickedOnPairedDevice"
+- "IsPreferredExternalRoute"
+- "LikelyToKeepUp"
+- "MIMEtype"
+- "MaxHeight"
+- "MaxPixelSize"
+- "MaxWidth"
+- "None"
+- "OtherDevicesConnected"
+- "OutputBytesPerRowAlignment"
+- "OutputPixelFormat"
+- "PreferredExternalRouteDetails_InEarDetectEnabled"
+- "PreferredExternalRouteDetails_InEarDetectSupported"
+- "PreferredExternalRouteDetails_IsActive"
+- "RelaxMaxPixelSize"
+- "RouteSupportsAirPlayVideoPlayQueue"
+- "Speakers"
+- "Stop"
+- "TTY"
+- "UnlikelyToKeepUp"
+- "Unspecified"
+- "Vehicle"
+- "dataType"
+- "info"
+- "key"
+- "keyspace"
+- "languageCode"
+- "name"
+- "timestamp"
+- "value"
+
+```

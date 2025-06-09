@@ -1,0 +1,574 @@
+## SiriPlaybackControlIntents
+
+> `/System/Library/PrivateFrameworks/SiriPlaybackControlIntents.framework/SiriPlaybackControlIntents`
+
+```diff
+
+-3405.17.1.0.0
+-  __TEXT.__text: 0x2541d0
+-  __TEXT.__auth_stubs: 0x47e0
+-  __TEXT.__objc_methlist: 0x2748
+-  __TEXT.__const: 0x192f0
+-  __TEXT.__cstring: 0x8068
+-  __TEXT.__constg_swiftt: 0x6c6c
+-  __TEXT.__swift5_typeref: 0x5dd4
+-  __TEXT.__swift5_builtin: 0x514
+-  __TEXT.__swift5_reflstr: 0x4f93
+-  __TEXT.__swift5_fieldmd: 0x5c38
+-  __TEXT.__swift5_assocty: 0x1c18
+-  __TEXT.__swift5_proto: 0x15c0
+-  __TEXT.__swift5_types: 0x6d0
++3500.48.1.0.0
++  __TEXT.__text: 0x268dc4
++  __TEXT.__auth_stubs: 0x48a0
++  __TEXT.__objc_methlist: 0x2780
++  __TEXT.__const: 0x19910
++  __TEXT.__cstring: 0x81a8
++  __TEXT.__constg_swiftt: 0x6cdc
++  __TEXT.__swift5_typeref: 0x5e3c
++  __TEXT.__swift5_builtin: 0x528
++  __TEXT.__swift5_reflstr: 0x4fbc
++  __TEXT.__swift5_fieldmd: 0x5c60
++  __TEXT.__swift5_assocty: 0x1c30
++  __TEXT.__swift5_proto: 0x15e0
++  __TEXT.__swift5_types: 0x6d8
+   __TEXT.__swift5_protos: 0xc4
+-  __TEXT.__swift5_capture: 0x4410
+-  __TEXT.__oslogstring: 0x1d256
++  __TEXT.__swift5_capture: 0x44b0
++  __TEXT.__oslogstring: 0x1de76
+   __TEXT.__swift_as_entry: 0xf0
+   __TEXT.__swift_as_ret: 0x104
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__unwind_info: 0x7330
+-  __TEXT.__eh_frame: 0x5070
++  __TEXT.__unwind_info: 0x73a8
++  __TEXT.__eh_frame: 0x5a2c
+   __TEXT.__objc_classname: 0x134
+-  __TEXT.__objc_methname: 0x2d45
++  __TEXT.__objc_methname: 0x2e03
+   __TEXT.__objc_methtype: 0x1d0
+   __DATA_CONST.__got: 0xe98
+-  __DATA_CONST.__const: 0xb50
+-  __DATA_CONST.__objc_classlist: 0x5c8
++  __DATA_CONST.__const: 0xb30
++  __DATA_CONST.__objc_classlist: 0x5d0
+   __DATA_CONST.__objc_protolist: 0x180
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf20
++  __DATA_CONST.__objc_selrefs: 0xf50
+   __DATA_CONST.__objc_protorefs: 0x100
+-  __AUTH_CONST.__auth_got: 0x23f0
+-  __AUTH_CONST.__const: 0x12f28
+-  __AUTH_CONST.__objc_const: 0x12150
+-  __AUTH.__objc_data: 0x5818
+-  __AUTH.__data: 0x73d0
+-  __DATA.__data: 0x4680
+-  __DATA.__bss: 0x24480
++  __AUTH_CONST.__auth_got: 0x2450
++  __AUTH_CONST.__const: 0x12c28
++  __AUTH_CONST.__objc_const: 0x121a8
++  __AUTH.__objc_data: 0x58e0
++  __AUTH.__data: 0x73f8
++  __DATA.__data: 0x43a0
++  __DATA.__bss: 0x24800
+   __DATA.__common: 0x2a0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /System/Library/PrivateFrameworks/SiriVirtualDeviceResolution.framework/SiriVirtualDeviceResolution
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/Trial.framework/Trial
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 6DBCE9E7-8B10-3B4E-AB0E-C447E0E7B0A9
+-  Functions: 14179
+-  Symbols:   12404
+-  CStrings:  2913
++  UUID: 80B0DBBB-63CB-3780-87E7-AF63B41B47BB
++  Functions: 14353
++  Symbols:   12190
++  CStrings:  2961
+ 
+Symbols:
++ _OBJC_CLASS_$_NSError
++ _OBJC_CLASS_$_RequestedPlaybackSpeedUnitResolutionResult
++ _OBJC_METACLASS_$_RequestedPlaybackSpeedUnitResolutionResult
++ __CLASS_METHODS_RequestedPlaybackSpeedUnitResolutionResult
++ __DATA_RequestedPlaybackSpeedUnitResolutionResult
++ __INSTANCE_METHODS_RequestedPlaybackSpeedUnitResolutionResult
++ __METACLASS_DATA_RequestedPlaybackSpeedUnitResolutionResult
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents21SeekTimeIntentHandler.8
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents21SkipTimeIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents23AddSpeakerIntentHandler.17
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents23PauseMediaIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents24MoveSpeakerIntentHandler.17
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents24ResumeMediaIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents24SkipContentIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents27SetRepeatStateIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents27WhatDidTheySayIntentHandler.11
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents28SetShuffleStateIntentHandler.5
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents29SetAudioLanguageIntentHandler.17
++ __PROTOCOLS__TtC26SiriPlaybackControlIntents29SetSubtitleStateIntentHandler.17
++ ___swift_coroFrameAllocStub
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriPlaybackControlIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriPlaybackControlIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriPlaybackControlIntents
++ _associated conformance 12SiriOntology34UsoTask_unrequest_common_MediaItemC0A22PlaybackControlSupport08ControlscD00aiJ7IntentsAD21ListPositionProviding
++ _associated conformance 12SiriOntology34UsoTask_unrequest_common_MediaItemC0A22PlaybackControlSupport08ControlscD00aiJ7IntentsAD29HomeAutomationEntityProviding
++ _associated conformance 26SiriPlaybackControlIntents09RequestedB9SpeedUnitOSHAASQ
++ _block_copy_helper.175
++ _block_copy_helper.217
++ _block_copy_helper.267
++ _block_copy_helper.305
++ _block_copy_helper.343
++ _block_copy_helper.381
++ _block_copy_helper.415
++ _block_copy_helper.95
++ _block_descriptor.177
++ _block_descriptor.219
++ _block_descriptor.269
++ _block_descriptor.307
++ _block_descriptor.345
++ _block_descriptor.383
++ _block_descriptor.417
++ _block_descriptor.97
++ _block_destroy_helper.176
++ _block_destroy_helper.218
++ _block_destroy_helper.268
++ _block_destroy_helper.306
++ _block_destroy_helper.344
++ _block_destroy_helper.382
++ _block_destroy_helper.416
++ _block_destroy_helper.96
++ _bzero
++ _keypath_get_selector_requestedPlaybackSpeedUnit
++ _objectdestroy.15Tm
++ _objectdestroy.18Tm
++ _objectdestroy.26Tm
++ _objectdestroy.32Tm
++ _objectdestroy.36Tm
++ _objectdestroy.40Tm
++ _objectdestroy.46Tm
++ _objectdestroy.53Tm
++ _objectdestroy.55Tm
++ _objectdestroy.56Tm
++ _objectdestroy.63Tm
++ _objectdestroy.85Tm
++ _swift_coroFrameAlloc
++ _symbolic SaySdG
++ _symbolic ScCy_____y_____8template_So21DialogExecutionResultC06dialogD0t______pG_____G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP s5NeverO
++ _symbolic Sd
++ _symbolic SdSgIegy_
++ _symbolic _____ 26SiriPlaybackControlIntents09RequestedB25SpeedUnitResolutionResultC
++ _symbolic _____ 26SiriPlaybackControlIntents09RequestedB9SpeedUnitO
++ _symbolic _____Sg 11SiriKitFlow5ParseO
++ _symbolic _____Sg 12SiriOntology21PayloadAttachmentInfoV
++ _symbolic _____Sg 26SiriPlaybackControlIntents14DialogProviderC19SkipErrorParametersV
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySo9SAAceViewCG______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySay_____G_Sbt_____GIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
++ _symbolic _____ySay_____G_Sbt_____GIegn_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
++ _symbolic _____ySay_____G_____G s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlSupport14LanguageOptionV AC0F5ErrorO
++ _symbolic _____ySay_____G_____GIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
++ _symbolic _____ySay_____G_____GIegn_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
++ _symbolic _____ySdG s23_ContiguousArrayStorageC
++ _symbolic _____ySf_____G s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
++ _symbolic _____ySf_____G s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlSupport22VolumeControllingErrorO
++ _symbolic _____ySo13SABaseCommandC_____G s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18SubmitCommandErrorO
++ _symbolic _____y_____8template_So21DialogExecutionResultC06dialogD0t______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y_____8template_So21DialogExecutionResultC06dialogD0t______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26SiriPlaybackControlIntents19HomeAutomationStateO
++ _symbolic _____y_____Sg______pGIegg_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow03AnyD0C s5ErrorP
++ _symbolic _____y_____Sg______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow03AnyD0C s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents03SetC11SpeedIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents14SeekTimeIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents14SkipTimeIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents16AddSpeakerIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents16PauseMediaIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents17MoveSpeakerIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents17ResumeMediaIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents17SkipContentIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents20GetVolumeLevelIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents20SetRepeatStateIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents20SetVolumeLevelIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents20WhatDidTheySayIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents21SetShuffleStateIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents22SetAudioLanguageIntentC s5ErrorP
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlIntents22SetSubtitleStateIntentC s5ErrorP
++ _symbolic _____y______p______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y______p______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow6OutputP s5ErrorP
++ _symbolic _____y_____y_____GSg______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow18IntentPromptAnswerV 0B22PlaybackControlIntents014SetVolumeLevelE0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow23NeedsConfirmationAnswerV 0B22PlaybackControlIntents20SetVolumeLevelIntentC s5ErrorP
++ _symbolic _____y_____y_____G______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow32BasicDisambiguationItemContainerC 0B22PlaybackControlIntents14LanguageOptionC s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
++ _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zRi0_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
++ _symbolic _____yyt_____G s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
++ _symbolic _____yyt_____GSSSgIegng_ s6ResultOsRi_zRi0_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
++ _type_layout_string 26SiriPlaybackControlIntents19AudioBooksBundleIdsV
+- _OUTLINED_FUNCTION_322
+- _OUTLINED_FUNCTION_323
+- _OUTLINED_FUNCTION_324
+- _OUTLINED_FUNCTION_325
+- _OUTLINED_FUNCTION_326
+- _OUTLINED_FUNCTION_327
+- _OUTLINED_FUNCTION_328
+- _OUTLINED_FUNCTION_329
+- _OUTLINED_FUNCTION_330
+- _OUTLINED_FUNCTION_331
+- _OUTLINED_FUNCTION_332
+- _OUTLINED_FUNCTION_333
+- _OUTLINED_FUNCTION_334
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents21SeekTimeIntentHandler.5
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents21SkipTimeIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents23AddSpeakerIntentHandler.8
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents23PauseMediaIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents24MoveSpeakerIntentHandler.8
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents24ResumeMediaIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents24SkipContentIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents27SetRepeatStateIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents27WhatDidTheySayIntentHandler.8
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents28SetShuffleStateIntentHandler.2
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents29SetAudioLanguageIntentHandler.11
+- __PROTOCOLS__TtC26SiriPlaybackControlIntents29SetSubtitleStateIntentHandler.11
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriPlaybackControlIntents
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriPlaybackControlIntents
+- _block_copy_helper.174
+- _block_copy_helper.215
+- _block_copy_helper.23
+- _block_copy_helper.265
+- _block_copy_helper.302
+- _block_copy_helper.339
+- _block_copy_helper.376
+- _block_copy_helper.409
+- _block_copy_helper.96
+- _block_descriptor.176
+- _block_descriptor.217
+- _block_descriptor.25
+- _block_descriptor.267
+- _block_descriptor.304
+- _block_descriptor.341
+- _block_descriptor.378
+- _block_descriptor.411
+- _block_descriptor.98
+- _block_destroy_helper.175
+- _block_destroy_helper.216
+- _block_destroy_helper.24
+- _block_destroy_helper.266
+- _block_destroy_helper.303
+- _block_destroy_helper.340
+- _block_destroy_helper.377
+- _block_destroy_helper.410
+- _block_destroy_helper.97
+- _objc_release_x1
+- _objectdestroy.11Tm
+- _objectdestroy.12Tm
+- _objectdestroy.21Tm
+- _objectdestroy.23Tm
+- _objectdestroy.29Tm
+- _objectdestroy.34Tm
+- _objectdestroy.37Tm
+- _objectdestroy.41Tm
+- _objectdestroy.47Tm
+- _objectdestroy.48Tm
+- _objectdestroy.51Tm
+- _objectdestroy.54Tm
+- _objectdestroy.57Tm
+- _objectdestroy.64Tm
+- _objectdestroy.86Tm
+- _swift_unknownObjectRelease_n
+- _swift_unknownObjectRetain_n
+- _symbolic ScCy_____y_____8template_So21DialogExecutionResultC06dialogD0t______pG_____G s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP s5NeverO
+- _symbolic _____Sg 12SiriOntology13UsoIdentifierV
+- _symbolic _____Sg 19SiriAudioSnippetKit0aB23DisambiguationItemModelV
+- _symbolic _____ySaySo9SAAceViewCG______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySay_____G_Sbt_____GIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
+- _symbolic _____ySay_____G_Sbt_____GIegn_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
+- _symbolic _____ySay_____G_____G s6ResultOsRi_zrlE 26SiriPlaybackControlSupport14LanguageOptionV AC0F5ErrorO
+- _symbolic _____ySay_____G_____GIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
+- _symbolic _____ySay_____G_____GIegn_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents6DeviceC AC0F14SelectingErrorO
+- _symbolic _____ySf_____G s6ResultOsRi_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
+- _symbolic _____ySf_____G s6ResultOsRi_zrlE 26SiriPlaybackControlSupport22VolumeControllingErrorO
+- _symbolic _____ySo13SABaseCommandC_____G s6ResultOsRi_zrlE 11SiriKitFlow18SubmitCommandErrorO
+- _symbolic _____y_____8template_So21DialogExecutionResultC06dialogD0t______pG s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y_____8template_So21DialogExecutionResultC06dialogD0t______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y_____Sg______pGIegg_ s6ResultOsRi_zrlE 11SiriKitFlow03AnyD0C s5ErrorP
+- _symbolic _____y_____Sg______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow03AnyD0C s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 11SiriKitFlow010TemplatingA0V s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents03SetC11SpeedIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents14SeekTimeIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents14SkipTimeIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents16AddSpeakerIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents16PauseMediaIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents17MoveSpeakerIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents17ResumeMediaIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents17SkipContentIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents20GetVolumeLevelIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents20SetRepeatStateIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents20SetVolumeLevelIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents20WhatDidTheySayIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents21SetShuffleStateIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents22SetAudioLanguageIntentC s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 26SiriPlaybackControlIntents22SetSubtitleStateIntentC s5ErrorP
+- _symbolic _____y______p______pG s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y______p______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow6OutputP s5ErrorP
+- _symbolic _____y_____y_____GSg______pG s6ResultOsRi_zrlE 11SiriKitFlow18IntentPromptAnswerV 0B22PlaybackControlIntents014SetVolumeLevelE0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow19ConfirmIntentAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
+- _symbolic _____y_____y_____G______pG s6ResultOsRi_zrlE 11SiriKitFlow23NeedsConfirmationAnswerV 0B22PlaybackControlIntents20SetVolumeLevelIntentC s5ErrorP
+- _symbolic _____y_____y_____G______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow32BasicDisambiguationItemContainerC 0B22PlaybackControlIntents14LanguageOptionC s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pG s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents010PauseMediaF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011ResumeMediaF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents011SkipContentF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014SetRepeatStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents014WhatDidTheySayF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents015SetShuffleStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetAudioLanguageF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents016SetSubtitleStateF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SeekTimeF0C s5ErrorP
+- _symbolic _____y_____y_____y_____GG______pGIegn_ s6ResultOsRi_zrlE 11SiriKitFlow014DisambiguationA0V AC18IntentPromptAnswerV 0B22PlaybackControlIntents08SkipTimeF0C s5ErrorP
+- _symbolic _____yyt_____G s6ResultOsRi_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
+- _symbolic _____yyt_____GSSSgIegng_ s6ResultOsRi_zrlE 26SiriPlaybackControlSupport0C16ControllingErrorO
+- _type_layout_string 26SiriPlaybackControlIntents14MusicBundleIdsV
+CStrings:
++ "%f speed is not supported. No supported speed is within 0.5 of the requested speed: %f"
++ "%f speed is not supported. Returning closest speed: %f"
++ "AddSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "AddSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "AddSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "AddSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "AddSpeakerHandleIntentStrategy.makeIntentHandledResponse cached responseMode = %s"
++ "AddSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "AddSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "AddSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "GetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "GetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "GetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "MoveSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "MoveSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "MoveSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "MoveSpeakerHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "MoveSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "MoveSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput failed to execute dialog"
++ "MoveSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "MoveSpeakerUnsupportedValueStrategy.makeUnsupportedValueOutput..."
++ "NowPlaying.AccessoryItemAppIntentError"
++ "PauseMediaHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "PlayMediaIOSSnippetModelProvider#getBundleIdForSnippet returning MediaRemote system media application identifier for apple music."
++ "PlayMediaIOSSnippetModelProvider#getBundleIdForSnippet returning MediaRemote system podcast application identifier for apple podcast."
++ "PlaybackControls#LyricsNotAvailable"
++ "PlaybackRate is 0"
++ "PlaybackRate is nil"
++ "ResumeMediaHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "ResumeMediaHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "ResumeMediaHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "ResumeMediaHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "SeekTimeHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "SeekTimeHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "SeekTimeHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "SeekTimeHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "SeekTimeUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "SeekTimeUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "SeekTimeUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "Sending setPlaybackSpeedToValue dialog with speed magnitude: %f and requestedPlaybackSpeedUnit %ld"
++ "SetAudioLanguageUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "SetAudioLanguageUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "SetAudioLanguageUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "SetLyricsStateFlow#execute dialoging to reflect lyrics not available error"
++ "SetPlaybackSpeed.SetPlaybackSpeedIntentHandler.getClosestPlaybackSpeed() called"
++ "SetPlaybackSpeedIntent#amend Amended requestedPlaybackSpeedUnit as %ld"
++ "SetPlaybackSpeedIntent#amend Handling USO/Pommes parse in MediaPlayerIntent"
++ "SetPlaybackSpeedUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "SetPlaybackSpeedUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "SetPlaybackSpeedUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "SetPlaybackSpeedUnsupportedValueStrategy.makeUnsupportedValueOutput() called"
++ "SetRepeatStateHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "SetRepeatStateHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "SetRepeatStateHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "SetRepeatStateHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "SetShuffleStateHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "SetShuffleStateHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "SetShuffleStateHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "SetShuffleStateHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "SetSubtitleStateUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "SetSubtitleStateUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "SetSubtitleStateUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "SetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "SetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "SetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "SetVolumeLevelUnsupportedValueStrategy.makeUnsupportedValueOutput..."
++ "SkipContentHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "SkipContentHandleIntentStrategy.makeIntentHandledResponse cached responseMode = %s"
++ "SkipTimeHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "SkipTimeHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "SkipTimeHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "SkipTimeHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "SkipTimeHandleIntentStrategy.makeIntentHandledResponse cached responseMode = %s"
++ "TTRErrorExtraDesc"
++ "TTRErrorExtraDescCmdID"
++ "TTRErrorExtraDescPlayerPath"
++ "TTRErrorExtraDescTS"
++ "Unable to autoselect a language, returning filteredOptions: %@"
++ "WhatDidTheySayHandleIntentStrategy.makeFailureHandlingIntentResponse cached responseMode = %s"
++ "WhatDidTheySayHandleIntentStrategy.makeFailureHandlingIntentResponse executed failure dialog creating output"
++ "WhatDidTheySayHandleIntentStrategy.makeFailureHandlingIntentResponse failed to execute dialog"
++ "WhatDidTheySayHandleIntentStrategy.makeFailureHandlingIntentResponse returning failure output"
++ "WhatDidTheySayUnsupportedValueStrategy.makeUnsupportedValueOutput cached responseMode = %s"
++ "WhatDidTheySayUnsupportedValueStrategy.makeUnsupportedValueOutput returning output"
++ "WhatDidTheySayUnsupportedValueStrategy.makeUnsupportedValueOutput unable to execute dialog"
++ "confirmationRequiredWithRequestedPlaybackSpeedUnitToConfirm:"
++ "domain"
++ "not specified by Siri"
++ "requestedPlaybackSpeedUnit"
++ "requestedSpeedIsFraction"
++ "setRequestedPlaybackSpeedUnit:"
++ "successWithResolvedRequestedPlaybackSpeedUnit:"
++ "underlyingErrors"
+- "%f speed is not supported"
+- "AddSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "AddSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "AddSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "AddSpeakerUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "AddSpeakerUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "GetVolumeLevelUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "GetVolumeLevelUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "MoveSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "MoveSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "MoveSpeakerHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "MoveSpeakerUnsupportedValueStrategy#makeUnsupportedValueOutput failed to execute dialog"
+- "MoveSpeakerUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "MoveSpeakerUnsupportedValueStrategy#makeUnsupportedValueOutput..."
+- "ResumeMediaHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "ResumeMediaHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "ResumeMediaHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "SeekTimeHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "SeekTimeHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "SeekTimeHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "SeekTimeUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "SeekTimeUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "Sending setPlaybackSpeedToValue dialog with speed magnitude: %f"
+- "SetAudioLanguageUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "SetAudioLanguageUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "SetPlaybackSpeedUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "SetPlaybackSpeedUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "SetRepeatStateHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "SetRepeatStateHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "SetRepeatStateHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "SetShuffleStateHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "SetShuffleStateHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "SetShuffleStateHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "SetSubtitleStateUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "SetSubtitleStateUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "SetVolumeLevelUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "SetVolumeLevelUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+- "SkipTimeHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "SkipTimeHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "SkipTimeHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "Unable to autoselect a language, returning all options: %@"
+- "WhatDidTheySayHandleIntentStrategy#makeFailureHandlingIntentResponse executed failure dialog creating output"
+- "WhatDidTheySayHandleIntentStrategy#makeFailureHandlingIntentResponse failed to execute dialog"
+- "WhatDidTheySayHandleIntentStrategy#makeFailureHandlingIntentResponse returning failure output"
+- "WhatDidTheySayUnsupportedValueStrategy#makeUnsupportedValueOutput returning output"
+- "WhatDidTheySayUnsupportedValueStrategy#makeUnsupportedValueOutput unable to execute dialog"
+
+```

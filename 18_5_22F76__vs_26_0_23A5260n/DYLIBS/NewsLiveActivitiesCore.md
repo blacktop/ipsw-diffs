@@ -1,0 +1,274 @@
+## NewsLiveActivitiesCore
+
+> `/System/Library/PrivateFrameworks/NewsLiveActivitiesCore.framework/NewsLiveActivitiesCore`
+
+```diff
+
+-5681.0.0.0.0
+-  __TEXT.__text: 0x1d615c
+-  __TEXT.__auth_stubs: 0x3360
++5718.1.0.0.0
++  __TEXT.__text: 0x19962c
++  __TEXT.__auth_stubs: 0x3330
+   __TEXT.__objc_methlist: 0x2cc
+-  __TEXT.__const: 0x1ec24
+-  __TEXT.__cstring: 0x20eb
+-  __TEXT.__swift5_typeref: 0x9253
+-  __TEXT.__swift5_reflstr: 0x2c7b
++  __TEXT.__const: 0x1f644
++  __TEXT.__cstring: 0x20bb
++  __TEXT.__swift5_typeref: 0x9989
++  __TEXT.__swift5_reflstr: 0x2cab
+   __TEXT.__swift5_assocty: 0xea0
+-  __TEXT.__constg_swiftt: 0x4980
++  __TEXT.__constg_swiftt: 0x49b8
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_fieldmd: 0x4940
+-  __TEXT.__swift5_proto: 0x1168
+-  __TEXT.__swift5_types: 0x590
++  __TEXT.__swift5_fieldmd: 0x4984
++  __TEXT.__swift5_proto: 0x1174
++  __TEXT.__swift5_types: 0x598
+   __TEXT.__swift5_capture: 0x7f0
+   __TEXT.__swift5_protos: 0x74
+   __TEXT.__swift5_mpenum: 0xa8
+   __TEXT.__oslogstring: 0x2fd8
+   __TEXT.__swift_as_entry: 0x33c
+   __TEXT.__swift_as_ret: 0x330
+-  __TEXT.__unwind_info: 0x6060
+-  __TEXT.__eh_frame: 0x8ebc
++  __TEXT.__unwind_info: 0x5a38
++  __TEXT.__eh_frame: 0x8914
+   __TEXT.__objc_classname: 0x53
+   __TEXT.__objc_methname: 0xade
+   __TEXT.__objc_methtype: 0x2f3
+   __DATA_CONST.__got: 0x8f0
+-  __DATA_CONST.__const: 0x150
++  __DATA_CONST.__const: 0x128
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2b0
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x19b0
+-  __AUTH_CONST.__const: 0x9b70
++  __AUTH_CONST.__auth_got: 0x1998
++  __AUTH_CONST.__const: 0x9c40
+   __AUTH_CONST.__objc_const: 0x13b0
+   __AUTH.__objc_data: 0x90
+-  __AUTH.__data: 0x24b8
+-  __DATA.__data: 0x55b8
+-  __DATA.__bss: 0x20570
++  __AUTH.__data: 0x22f8
++  __DATA.__data: 0x4fa0
++  __DATA.__bss: 0x20460
+   __DATA.__common: 0x170
+   __DATA_DIRTY.__objc_data: 0x130
+-  __DATA_DIRTY.__data: 0x2bd8
+-  __DATA_DIRTY.__bss: 0x1880
++  __DATA_DIRTY.__data: 0x2e08
++  __DATA_DIRTY.__bss: 0x1b00
+   __DATA_DIRTY.__common: 0x78
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
+   - /System/Library/PrivateFrameworks/NewsCore.framework/NewsCore
+   - /System/Library/PrivateFrameworks/NewsDaemon.framework/NewsDaemon
+
+   - /System/Library/PrivateFrameworks/TeaFoundation.framework/TeaFoundation
+   - /System/Library/PrivateFrameworks/TeaSettings.framework/TeaSettings
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F01AAD02-C61D-3F53-BDE2-EB4E29B1EC2F
+-  Functions: 8152
+-  Symbols:   2721
+-  CStrings:  594
++  UUID: DD65BE37-FC7A-3872-8DA5-BC91C579A1B4
++  Functions: 7923
++  Symbols:   2772
++  CStrings:  593
+ 
+Symbols:
++ ___unnamed_10
++ ___unnamed_19
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsLiveActivitiesCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_NewsLiveActivitiesCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_NewsLiveActivitiesCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_NewsLiveActivitiesCore
++ _associated conformance 22NewsLiveActivitiesCore26ActivityAccessTokenRequestVSHAASQ
++ _get_witness_table SyRzlSSSyHPyHC.1
++ _objc_release
++ _objc_retain_x27
++ _swift_coroFrameAlloc
++ _symbolic SDy__________yyt______pGG 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic SS3key______5valuet 22NewsLiveActivitiesCore20ActivityTextPropertyO
++ _symbolic SS______t 22NewsLiveActivitiesCore17ActivityTextThemeV6TraitsV
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic Say_____y______GG 22NewsLiveActivitiesCore7DynamicV7VariantV AA12ActivityFillO
++ _symbolic Say_____y______GG 22NewsLiveActivitiesCore7DynamicV7VariantV AA13ActivityColorO
++ _symbolic Say_____y______GG 22NewsLiveActivitiesCore7DynamicV7VariantV AA17ActivityTextThemeV
++ _symbolic Si6offset______4data______5theme_____6resultt7elementt 22NewsLiveActivitiesCore19PrimaryElectionDataV9CandidateV AA0eH5ThemeV AA0F12EntityResultO8ResolvedO
++ _symbolic _____ 22NewsLiveActivitiesCore18DataDownloadResultV
++ _symbolic _____ 22NewsLiveActivitiesCore26ActivityAccessTokenRequestV
++ _symbolic _____3key______yyt______pG5valuet 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____4data______5theme_____6resultt 22NewsLiveActivitiesCore19PrimaryElectionDataV9CandidateV AA0eH5ThemeV AA0F12EntityResultO8ResolvedO
++ _symbolic _____4data______5theme_____6resulttSg 22NewsLiveActivitiesCore19PrimaryElectionDataV9CandidateV AA0eH5ThemeV AA0F12EntityResultO8ResolvedO
++ _symbolic _____Sg 22NewsLiveActivitiesCore0B12BlogBodyViewV012HeaderKickerG033_957D1E522B2EBA5D47C973EF2A4E0B77LLV
++ _symbolic _____Sg 22NewsLiveActivitiesCore17ActivityTextThemeV
++ _symbolic _____Sg 22NewsLiveActivitiesCore23ActivityTextStaticThemeV
++ _symbolic _____Sg 22NewsLiveActivitiesCore26ActivityFlexibleUpdateViewV012HeaderKickerH033_C0F70D96878F1DA186C25A3C5DE9086FLLV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore0B13BlogBodyThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore0B23BlogCompactLeadingThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore0B9BlogThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore12ActivityFillO
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore17ActivityTextThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore18ActivityAssetThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore18ActivityPhotoThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore19ActivityFooterThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore19ActivityHeaderThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore19ActivitySymbolThemeV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore27ActivityFlexibleUpdateThemeV7GraphicV
++ _symbolic _____Sg_ABt 22NewsLiveActivitiesCore29NationalElectionUpdatePayloadO
++ _symbolic ______AAt 22NewsLiveActivitiesCore12ActivityFillO
++ _symbolic ______AAt 22NewsLiveActivitiesCore20ActivityTextPropertyO
++ _symbolic ______AAt 22NewsLiveActivitiesCore21URLAssetConfigurationV6RecipeV5Token33_70AD6CCED9D45BAF08E0A7852ECF3121LLO
++ _symbolic ______AAt 22NewsLiveActivitiesCore29NationalElectionUpdatePayloadO
++ _symbolic ___________yyt______pGt 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ___________yyt______pGtIeAgHr_ 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ___________yyt______pGtSg 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yAAyAAyAAyAAy__________y_____GG_____ySiSgGG_____G_____G_____y_____yAAy__________y_____GGGGGSg 7SwiftUI15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA014LayoutPriorityF3KeyV AA012_EnvironmentkgH0V AA010_FixedSizeI0V AA010_FlexFrameI0V AA011_BackgroundH0V AA14GeometryReaderV AA5ColorV AA01_r6ActionH0V 12CoreGraphics7CGFloatV
++ _symbolic _____yAAyAAy__________y_____GG_____ySiSgGG_____GSg 7SwiftUI15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA014LayoutPriorityF3KeyV AA012_EnvironmentkgH0V AA010_FixedSizeI0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 22NewsLiveActivitiesCore12RaceBarGaugeV AA12_FrameLayoutV AA08_PaddingM0V
++ _symbolic _____yAAy__________y_____GGACySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____yAAy__________y_____GGACySiSgGGSg 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____yAAy__________y_____GG_____ySiSgGGSg 7SwiftUI15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA014LayoutPriorityF3KeyV AA012_EnvironmentkgH0V
++ _symbolic _____yAAy__________y_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AD12ActivityFillO AA022_EnvironmentKeyWritingP0V AA4FontV
++ _symbolic _____yAAy_____y_____yAAy__________y_____GG______AHtGG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AH12ActivityFillO AA6SpacerV AA14_PaddingLayoutV AA022_EnvironmentKeyWritingS0V AA4FontV
++ _symbolic _____ySSG 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV
++ _symbolic _____ySSSgG 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA12ActivityFillO
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA12ActivityFontO
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA13ActivityColorO
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA17ActivityTextThemeV
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA17ActivityTextThemeV6TraitsV
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA18ActivityFontWeightO
++ _symbolic _____y_____G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV AA19ActivityFontLeadingO
++ _symbolic _____y_____GSg_ADt 22NewsLiveActivitiesCore7DynamicV AA12ActivityFillO
++ _symbolic _____y_____GSg_ADt 22NewsLiveActivitiesCore7DynamicV AA13ActivityColorO
++ _symbolic _____y_____GSg_ADt 22NewsLiveActivitiesCore7DynamicV AA17ActivityTextThemeV
++ _symbolic _____y_____Sg______ACtG 7SwiftUI9TupleViewV AA4TextV AA6SpacerV
++ _symbolic _____y_____Sg______SgA2EtG 7SwiftUI9TupleViewV 22NewsLiveActivitiesCore022ActivityFlexibleUpdateD0V012HeaderKickerD033_C0F70D96878F1DA186C25A3C5DE9086FLLV AA4TextV
++ _symbolic _____y_____Sg______y__________y_____GGSgA2JtG 7SwiftUI9TupleViewV 22NewsLiveActivitiesCore0f8BlogBodyD0V012HeaderKickerD033_957D1E522B2EBA5D47C973EF2A4E0B77LLV AA15ModifiedContentV AA4TextV AA21_TraitWritingModifierV AA014LayoutPriorityZ3KeyV
++ _symbolic _____y______G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV12VariantMatchV AA12ActivityFillO
++ _symbolic _____y______G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV12VariantMatchV AA13ActivityColorO
++ _symbolic _____y______G 22NewsLiveActivitiesCore26SelectMatchingValueVisitor33_261E60CABF0E01182B183F1A63928865LLV12VariantMatchV AA17ActivityTextThemeV
++ _symbolic _____y______G 22NewsLiveActivitiesCore7DynamicV7VariantV AA12ActivityFillO
++ _symbolic _____y______G 22NewsLiveActivitiesCore7DynamicV7VariantV AA13ActivityColorO
++ _symbolic _____y______G 22NewsLiveActivitiesCore7DynamicV7VariantV AA17ActivityTextThemeV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 22NewsLiveActivitiesCore12RaceBarGaugeV AA12_FrameLayoutV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________yyt______pGt_G ScG8IteratorV 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 22NewsLiveActivitiesCore28NationalElectionCompactViewsV14LargeVoteCountV AA24_ForegroundStyleModifierV AD12ActivityFillO
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AD12ActivityFillO
++ _symbolic _____y__________yyt______pGG s18_DictionaryStorageC 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yABy__________y_____GGADySiSgGGSg_AByAcIGSgtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yABy__________y_____GGADySiSgGG_AJSgtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____yABy__________y_____GG_____y_____SgGG______ALtG 7SwiftUI9TupleViewV AA15ModifiedContentV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AF12ActivityFillO AA022_EnvironmentKeyWritingR0V AA4FontV AA6SpacerV
++ _symbolic _____y_____y_____Sg______SgA2FtGG 7SwiftUI6VStackV AA9TupleViewV 22NewsLiveActivitiesCore022ActivityFlexibleUpdateE0V012HeaderKickerE033_C0F70D96878F1DA186C25A3C5DE9086FLLV AA4TextV
++ _symbolic _____y_____y__________G_ABy_____yAAyABy__________y_____GG______AKtGG_____y_____SgGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV 22NewsLiveActivitiesCore12RaceBarGaugeV AA12_FrameLayoutV AA6HStackV AF30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AF12ActivityFillO AA6SpacerV AA022_EnvironmentKeyWritingX0V AA4FontV
++ _symbolic _____y_____y___________AC_____tGAByAC_AdCtGG 7SwiftUI19_ConditionalContentV AA9TupleViewV AA6SpacerV 22NewsLiveActivitiesCore0i8BlogBodyF0V AH014ActivityFooterF0V
++ _symbolic _____y_____y___________pGG 13TeaFoundation8AccessorC s6ResultOsRi_zRi0_zrlE 0B03URLV s5ErrorP
++ _symbolic _____y_____y__________ySiSgGGSg______AHtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA6SpacerV
++ _symbolic _____y_____y__________y_____GG______AGtG 7SwiftUI9TupleViewV AA15ModifiedContentV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AF12ActivityFillO AA6SpacerV
++ _symbolic _____y_____y_____yAAy__________y_____GG______AHtGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AH12ActivityFillO AA6SpacerV AA022_EnvironmentKeyWritingS0V AA4FontV
++ _symbolic _____y_____y_____yACy__________y_____GGAEySiSgGGSg_ACyAdJGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____yACy__________y_____GG_____y_____SgGG______AMtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV 22NewsLiveActivitiesCore30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AH12ActivityFillO AA022_EnvironmentKeyWritingS0V AA4FontV AA6SpacerV
++ _symbolic _____y_____y_____y__________G_ACy_____yAByACy__________y_____GG______ALtGG_____y_____SgGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 22NewsLiveActivitiesCore12RaceBarGaugeV AA12_FrameLayoutV AA6HStackV AH30NationalElectionEntityNameTextV AA24_ForegroundStyleModifierV AH12ActivityFillO AA6SpacerV AA022_EnvironmentKeyWritingY0V AA4FontV
++ _type_layout_string 22NewsLiveActivitiesCore18DataDownloadResultV
++ _type_layout_string 22NewsLiveActivitiesCore26ActivityAccessTokenRequestV
+- ___unnamed_15
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_NewsLiveActivitiesCore
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_NewsLiveActivitiesCore
+- _get_witness_table SyRzlSSSyHPyHC.25
+- _get_witness_table SyRzlSSSyHPyHC.42
+- _objc_retain_x23
+- _objc_retain_x28
+- _swift_dynamicCastClass
+- _swift_initStackObject
+- _swift_unknownObjectRetain_n
+- _symbolic SDy__________yyt______pGG 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic SS_SSt
+- _symbolic _____3key______yyt______pG5valuet 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____Sg 22NewsLiveActivitiesCore19ElectionEntityThemeV
+- _symbolic ___________yyt______pGt 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic ___________yyt______pGtIeAgHr_ 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic ___________yyt______pGtSg 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic ______pSg s9CodingKeyP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 10Foundation3URLV s5ErrorP
+- _symbolic _____y___________yyt______pGt_G ScG8IteratorV 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y__________yyt______pGG s18_DictionaryStorageC 22NewsLiveActivitiesCore13ActivityAssetO s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____yAAyAAy__________y_____GGAAy_____AEGGAAy_____ACy_____GGG_Qo_ 7SwiftUI4ViewPAAE10fontDesignyQrAA4FontV0E0OSgFQO AA19_ConditionalContentV 22NewsLiveActivitiesCore021NationalElectionWatchhC0V AL026InternalMessagePlaceholderC0V AA5ColorV AL07PrimarynohC0V AL0j4BlogohC0V AA05EmptyC0V
+- _symbolic _____y_____y___________pGG 13TeaFoundation8AccessorC s6ResultOsRi_zrlE 0B03URLV s5ErrorP
+- _symbolic _____y_____y_____y_____yACy__________y_____GGAEySiSgGG_AKSgtGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleC0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV 12CoreGraphics7CGFloatV
+- _type_layout_string 22NewsLiveActivitiesCore20ActivityAccessTokensV
+CStrings:
+- "Contradictory frame constraints specified."
+
+```

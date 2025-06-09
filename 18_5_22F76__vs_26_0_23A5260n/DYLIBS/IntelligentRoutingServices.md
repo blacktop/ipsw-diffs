@@ -1,0 +1,387 @@
+## IntelligentRoutingServices
+
+> `/System/Library/PrivateFrameworks/IntelligentRoutingServices.framework/IntelligentRoutingServices`
+
+```diff
+
+-96.0.6.0.1
+-  __TEXT.__text: 0x2b24
+-  __TEXT.__auth_stubs: 0x3e0
+-  __TEXT.__objc_methlist: 0x2c
+-  __TEXT.__const: 0x11a
+-  __TEXT.__cstring: 0x118
+-  __TEXT.__constg_swiftt: 0xb8
+-  __TEXT.__swift5_typeref: 0xa2
+-  __TEXT.__swift5_fieldmd: 0x6c
++96.0.18.0.0
++  __TEXT.__text: 0xda0
++  __TEXT.__auth_stubs: 0x1d0
++  __TEXT.__const: 0x13a
++  __TEXT.__constg_swiftt: 0x70
++  __TEXT.__swift5_typeref: 0x4e
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_reflstr: 0x534
++  __TEXT.__swift5_fieldmd: 0x288
+   __TEXT.__swift5_types: 0xc
+-  __TEXT.__swift5_capture: 0xb0
+-  __TEXT.__swift5_reflstr: 0x5a
+-  __TEXT.__unwind_info: 0x108
+-  __TEXT.__objc_methname: 0x1b
+-  __DATA_CONST.__got: 0x78
+-  __DATA_CONST.__const: 0x70
+-  __DATA_CONST.__objc_classlist: 0x8
++  __TEXT.__oslogstring: 0x24
++  __TEXT.__cstring: 0x25
++  __TEXT.__unwind_info: 0xc0
++  __DATA_CONST.__got: 0x28
++  __DATA_CONST.__const: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1f0
+-  __AUTH_CONST.__const: 0x2d8
+-  __AUTH_CONST.__objc_const: 0x90
+-  __AUTH.__objc_data: 0xf8
+-  __AUTH.__data: 0x28
+-  __DATA.__data: 0x60
++  __AUTH_CONST.__auth_got: 0xe8
++  __AUTH_CONST.__const: 0x208
++  __DATA.__data: 0x18
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F0AB4A70-EE3A-3592-9BF8-D7AEE3604278
+-  Functions: 71
+-  Symbols:   299
+-  CStrings:  13
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  UUID: DDE7BAD3-6050-307D-B237-811C884D7F6A
++  Functions: 31
++  Symbols:   151
++  CStrings:  3
+ 
+Symbols:
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV03logE0_6loggerySS_2os6LoggerVtF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV03logE7AndPeak_6loggerySS_2os6LoggerVtF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV04peakE0SdyF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV11formatBytesySSSdFZ
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV4loadSdyF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV5resetyyF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV6rusageSo0G8_info_v6VvM
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV6rusageSo0G8_info_v6VvM.resume.0
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV6rusageSo0G8_info_v6Vvg
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV6rusageSo0G8_info_v6VvpMV
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV6rusageSo0G8_info_v6Vvs
++ _$s26IntelligentRoutingServices16MemoryLoadHelperV7measureyyF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVACycfC
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVMF
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVMa
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVMf
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVMn
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVN
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVWV
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVwet
++ _$s26IntelligentRoutingServices16MemoryLoadHelperVwst
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSdN
++ _$sSds7CVarArgsWP
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo14rusage_info_v6VMB
++ _$sSo14rusage_info_v6VMF
++ _$sSo14rusage_info_v6VML
++ _$sSo14rusage_info_v6VMa
++ _$sSo14rusage_info_v6VMf
++ _$sSo14rusage_info_v6VMn
++ _$sSo14rusage_info_v6VWV
++ _$sSo14rusage_info_v6Vwet
++ _$sSo14rusage_info_v6Vwst
++ _$sSoMXM
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss11_StringGutsVN
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss20__StaticArrayStorageCN
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMD
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss5UInt8VMn
++ _$ss7CVarArgMp
++ _$sypN
++ _$sypWOc
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_memcpy464_8
++ ___swift_noop_void_return
++ __os_log_impl
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_IntelligentRoutingServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_IntelligentRoutingServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_IntelligentRoutingServices
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_IntelligentRoutingServices
++ __swift_stdlib_malloc_size
++ _getpid
++ _malloc_size
++ _memcpy
++ _os_log_type_enabled
++ _proc_pid_rusage
++ _proc_reset_footprint_interval
++ _swift_arrayDestroy
++ _swift_getForeignTypeMetadata
++ _swift_getObjectType
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_unknownObjectRetain
++ _symbolic _____ 26IntelligentRoutingServices16MemoryLoadHelperV
++ _symbolic _____ So14rusage_info_v6V
++ _symbolic ______A15At s5UInt8V
++ _symbolic ______A8At s6UInt64V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _type_layout_string 26IntelligentRoutingServices16MemoryLoadHelperV
++ _type_layout_string So14rusage_info_v6V
+- _$s26IntelligentRoutingServices12PlatformInfoO9subSystem33_ED4BFC469ED2AFC91BB2D6CCEC6A5E98LLSSvpZ
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC06handledE8Callback33_DC641FC3ED3F451A49B2167BA0FF6463LL03forE4NameySS_tF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC06handledE8Callback33_DC641FC3ED3F451A49B2167BA0FF6463LL03forE4NameySS_tFyyYbcfU_TA
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVMF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVMXX
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVMa
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVMf
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVMn
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVSgWOe
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVSgWOs
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVWV
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVwet
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVwst
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFTj
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFTq
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFyyXEfU_
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFyyXEfU_TA
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFyyXEfU_ys5Int32VcfU_
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC11addObserver03forE4Name7handlerSbSS_yyctFyyXEfU_ys5Int32VcfU_TA
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC13registrations33_DC641FC3ED3F451A49B2167BA0FF6463LLSDySSAC0dE6RecordAELLVGvpWvd
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC14removeObserver03forE4NameSbSS_tF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC14removeObserver03forE4NameSbSS_tFTj
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC14removeObserver03forE4NameSbSS_tFTq
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC14removeObserver03forE4NameSbSS_tFyyXEfU_
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC14removeObserver03forE4NameSbSS_tFyyXEfU_TA
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5queue33_DC641FC3ED3F451A49B2167BA0FF6463LLSo012OS_dispatch_G0CvpWvd
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5state03forE4Names6UInt32VSS_tF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5state03forE4Names6UInt32VSS_tFTj
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5state03forE4Names6UInt32VSS_tFTq
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5state03forE4Names6UInt32VSS_tFyyXEfU_
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperC5state03forE4Names6UInt32VSS_tFyyXEfU_TA
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCACycfC
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCACycfc
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCACycfcTo
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMF
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMa
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMf
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMn
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMo
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCMu
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCN
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCfD
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCfDTo
+- _$s26IntelligentRoutingServices24DarwinNotificationHelperCfETo
+- _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
+- _$s8Dispatch0A13WorkItemFlagsVMa
+- _$s8Dispatch0A13WorkItemFlagsVMn
+- _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+- _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+- _$s8Dispatch0A3QoSVMa
+- _$s8Dispatch0A9PredicateO10notOnQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
+- _$s8Dispatch0A9PredicateOMa
+- _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
+- _$sBOWV
+- _$sIeg_IyB_TR
+- _$sIegh_IeyBh_TR
+- _$sIg_Ieg_TRTA
+- _$sIg_Ieg_TRTA.10
+- _$sIg_Ieg_TRTA.20
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_26IntelligentRoutingServices24DarwinNotificationHelperC0iJ6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVTg5
+- _$sSS4hash4intoys6HasherVz_tF
+- _$sSSN
+- _$sSSWOr
+- _$sSSWOs
+- _$sSay8Dispatch0A13WorkItemFlagsVGMD
+- _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWL
+- _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWlTm
+- _$sSayxGSTsMc
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWL
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWlTm
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
+- _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
+- _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+- _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+- _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
+- _$sSo17OS_dispatch_queueCML
+- _$sSo17OS_dispatch_queueCMa
+- _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_26IntelligentRoutingServices24DarwinNotificationHelperC0nO6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVTg5
+- _$ss17_NativeDictionaryV4copyyyFSS_26IntelligentRoutingServices24DarwinNotificationHelperC0gH6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVTg5
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_26IntelligentRoutingServices24DarwinNotificationHelperC0kL6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVTg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_26IntelligentRoutingServices24DarwinNotificationHelperC0lM6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVTg5
+- _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
+- _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
+- _$ss18_DictionaryStorageCMn
+- _$ss18_DictionaryStorageCySS26IntelligentRoutingServices24DarwinNotificationHelperC0fG6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLVGMD
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
+- _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+- _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+- _$ss5Int32VIegy_ABIeyBy_TR
+- _$ss5Int32VMn
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV9_finalizeSiyF
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- __Block_copy
+- __Block_release
+- __DATA__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- __INSTANCE_METHODS__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- __IVARS__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- __METACLASS_DATA__TtC26IntelligentRoutingServices24DarwinNotificationHelper
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- ___swift_instantiateConcreteTypeFromMangledNameAbstract
+- ___swift_memcpy40_8
+- __objc_empty_cache
+- __swiftEmptyDictionarySingleton
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_IntelligentRoutingServices
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_IntelligentRoutingServices
+- _block_copy_helper
+- _block_copy_helper.11
+- _block_copy_helper.21
+- _block_copy_helper.31
+- _block_copy_helper.40
+- _block_descriptor
+- _block_descriptor.13
+- _block_descriptor.23
+- _block_descriptor.33
+- _block_descriptor.42
+- _block_destroy_helper
+- _block_destroy_helper.12
+- _block_destroy_helper.22
+- _block_destroy_helper.32
+- _block_destroy_helper.41
+- _bzero
+- _dispatch_sync
+- _notify_cancel
+- _notify_get_state
+- _notify_register_dispatch
+- _objc_allocWithZone
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x8
+- _objc_retain
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x24
+- _objectdestroy.5Tm
+- _swift_beginAccess
+- _swift_cvw_assignWithCopy
+- _swift_cvw_assignWithTake
+- _swift_cvw_destroy
+- _swift_cvw_initWithCopy
+- _swift_deallocObject
+- _swift_deletedMethodError
+- _swift_endAccess
+- _swift_getObjCClassMetadata
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_isEscapingClosureAtFileLocation
+- _swift_isaMask
+- _swift_lookUpClassMethod
+- _swift_retain
+- _swift_unknownObjectWeakDestroy
+- _swift_unknownObjectWeakInit
+- _swift_unknownObjectWeakLoadStrong
+- _symbolic Ieg_
+- _symbolic Ig_
+- _symbolic SDySS_____G 26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLV
+- _symbolic SS
+- _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+- _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
+- _symbolic Sb
+- _symbolic So17OS_dispatch_queueC
+- _symbolic So8NSObjectC
+- _symbolic _____ 26IntelligentRoutingServices24DarwinNotificationHelperC
+- _symbolic _____ 26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLV
+- _symbolic _____ s5Int32V
+- _symbolic _____SgXw 26IntelligentRoutingServices24DarwinNotificationHelperC
+- _symbolic _____SgXwz_Xx 26IntelligentRoutingServices24DarwinNotificationHelperC
+- _symbolic _____ySS_____G s18_DictionaryStorageC 26IntelligentRoutingServices24DarwinNotificationHelperC0fG6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLV
+- _symbolic yyc
+- _type_layout_string 26IntelligentRoutingServices24DarwinNotificationHelperC0dE6Record33_DC641FC3ED3F451A49B2167BA0FF6463LLV
+CStrings:
++ "%s: mem=%s"
++ "%s: mem=%s, peak=%s"
+- ".cxx_destruct"
+- "@16@0:8"
+- "_TtC26IntelligentRoutingServices24DarwinNotificationHelper"
+- "com.apple.DarwinNotificationHelper.ClientQueue"
+- "com.apple.DarwinNotificationHelper.InternalQueue"
+- "dealloc"
+- "init"
+- "queue"
+- "registrations"
+- "v12@?0i8"
+- "v16@0:8"
+- "v8@?0"
+
+```

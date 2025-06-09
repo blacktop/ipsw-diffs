@@ -1,0 +1,577 @@
+## RoomPlan
+
+> `/System/Library/Frameworks/RoomPlan.framework/RoomPlan`
+
+```diff
+
+-2.15.0.0.0
+-  __TEXT.__text: 0x14ad8c
+-  __TEXT.__auth_stubs: 0x3220
+-  __TEXT.__objc_methlist: 0x1ee0
+-  __TEXT.__const: 0xb0c4
++2.16.0.0.0
++  __TEXT.__text: 0x151598
++  __TEXT.__auth_stubs: 0x3240
++  __TEXT.__objc_methlist: 0x2088
++  __TEXT.__const: 0xaf64
+   __TEXT.__gcc_except_tab: 0xac
+-  __TEXT.__cstring: 0x8007
+-  __TEXT.__constg_swiftt: 0x8d58
+-  __TEXT.__swift5_typeref: 0x3894
+-  __TEXT.__swift5_reflstr: 0x51bc
+-  __TEXT.__swift5_fieldmd: 0x5394
++  __TEXT.__cstring: 0x7fe7
++  __TEXT.__constg_swiftt: 0x8d60
++  __TEXT.__swift5_typeref: 0x372a
++  __TEXT.__swift5_reflstr: 0x51ac
++  __TEXT.__swift5_fieldmd: 0x5388
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_assocty: 0x7b0
+   __TEXT.__swift5_proto: 0x81c
+   __TEXT.__swift5_types: 0x48c
+-  __TEXT.__swift5_capture: 0xad8
++  __TEXT.__swift5_capture: 0xa3c
+   __TEXT.__oslogstring: 0xdb8
+   __TEXT.__swift5_protos: 0x84
+   __TEXT.__swift5_mpenum: 0x20
+   __TEXT.__swift_as_entry: 0x10
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__unwind_info: 0x3778
+-  __TEXT.__eh_frame: 0x3384
++  __TEXT.__unwind_info: 0x36b8
++  __TEXT.__eh_frame: 0x3014
+   __TEXT.__objc_classname: 0x1da
+-  __TEXT.__objc_methname: 0x5092
+-  __TEXT.__objc_methtype: 0x2552
++  __TEXT.__objc_methname: 0x5507
++  __TEXT.__objc_methtype: 0x2a55
+   __TEXT.__objc_stubs: 0x180
+-  __DATA_CONST.__got: 0xa80
+-  __DATA_CONST.__const: 0x6d8
++  __DATA_CONST.__got: 0xa48
++  __DATA_CONST.__const: 0x6c0
+   __DATA_CONST.__objc_classlist: 0x3c0
+   __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1948
++  __DATA_CONST.__objc_selrefs: 0x1a50
+   __DATA_CONST.__objc_protorefs: 0xd8
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __AUTH_CONST.__auth_got: 0x1920
+-  __AUTH_CONST.__const: 0x8d50
+-  __AUTH_CONST.__objc_const: 0x1c798
++  __AUTH_CONST.__auth_got: 0x1930
++  __AUTH_CONST.__const: 0x8900
++  __AUTH_CONST.__objc_const: 0x1dfc8
+   __AUTH.__objc_data: 0x2710
+-  __AUTH.__data: 0x9408
++  __AUTH.__data: 0x9430
+   __DATA.__objc_ivar: 0x48
+-  __DATA.__data: 0x3548
+-  __DATA.__bss: 0xec40
+-  __DATA.__common: 0x778
++  __DATA.__data: 0x3500
++  __DATA.__bss: 0xec10
++  __DATA.__common: 0x768
+   - /System/Library/Frameworks/ARKit.framework/ARKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/RealityFoundation.framework/RealityFoundation
+   - /System/Library/Frameworks/RealityKit.framework/RealityKit
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AssetViewer.framework/AssetViewer
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/CoreRE.framework/CoreRE
+
+   - /System/Library/PrivateFrameworks/ObjectUnderstanding.framework/ObjectUnderstanding
+   - /System/Library/PrivateFrameworks/RoomScanCore.framework/RoomScanCore
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/USDKit.framework/USDKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CD9BEBAD-5546-3ABF-9242-7EEC13708101
+-  Functions: 5889
+-  Symbols:   3773
+-  CStrings:  2448
++  UUID: ED19EF5C-B700-3F86-9B0C-A7BC9A59A739
++  Functions: 5795
++  Symbols:   3732
++  CStrings:  2508
+ 
+Symbols:
++ __PROTOCOLS__TtC8RoomPlan24OUSessionDelegateWrapper.181
++ __ZN5boost7polygon15voronoi_builderIiNS0_6detail20voronoi_ctype_traitsIiEENS2_18voronoi_predicatesIS4_EEED2Ev
++ __ZN5boost7polygon15voronoi_diagramIdNS0_22voronoi_diagram_traitsIdEEED2Ev
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
++ __ZNSt3__113__tree_removeB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__115__adjacent_findB8ne200100INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_NS_10__equal_toENS_10__identityEEET_SB_T0_RT1_RT2_
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
++ __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEbT1_SH_T0_
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEET0_SH_SH_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEENS_4pairIT0_bEESI_SI_T1_
++ __ZNSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE9push_backB8ne200100EOS4_
++ __ZNSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_Li0EEEvT1_SH_SH_SH_T0_
++ __ZNSt3__18__uniqueB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZnwmSt19__type_descriptor_t
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftAppleArchive_$_RoomPlan
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_RoomPlan
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_RoomPlan
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_RoomPlan
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_RoomPlan
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_RoomPlan
++ _block_copy_helper.107
++ _block_copy_helper.113
++ _block_copy_helper.119
++ _block_copy_helper.149
++ _block_copy_helper.156
++ _block_copy_helper.163
++ _block_copy_helper.170
++ _block_copy_helper.177
++ _block_copy_helper.190
++ _block_copy_helper.196
++ _block_copy_helper.205
++ _block_copy_helper.217
++ _block_copy_helper.220
++ _block_copy_helper.223
++ _block_copy_helper.229
++ _block_copy_helper.235
++ _block_copy_helper.244
++ _block_copy_helper.250
++ _block_copy_helper.256
++ _block_copy_helper.262
++ _block_copy_helper.268
++ _block_copy_helper.274
++ _block_copy_helper.280
++ _block_copy_helper.286
++ _block_copy_helper.289
++ _block_copy_helper.292
++ _block_copy_helper.295
++ _block_copy_helper.298
++ _block_copy_helper.35
++ _block_copy_helper.41
++ _block_copy_helper.48
++ _block_copy_helper.92
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.109
++ _block_descriptor.115
++ _block_descriptor.121
++ _block_descriptor.151
++ _block_descriptor.158
++ _block_descriptor.165
++ _block_descriptor.172
++ _block_descriptor.179
++ _block_descriptor.192
++ _block_descriptor.198
++ _block_descriptor.207
++ _block_descriptor.219
++ _block_descriptor.222
++ _block_descriptor.225
++ _block_descriptor.231
++ _block_descriptor.237
++ _block_descriptor.246
++ _block_descriptor.252
++ _block_descriptor.258
++ _block_descriptor.264
++ _block_descriptor.270
++ _block_descriptor.276
++ _block_descriptor.282
++ _block_descriptor.288
++ _block_descriptor.291
++ _block_descriptor.294
++ _block_descriptor.297
++ _block_descriptor.300
++ _block_descriptor.37
++ _block_descriptor.43
++ _block_descriptor.50
++ _block_descriptor.94
++ _block_destroy_helper.108
++ _block_destroy_helper.114
++ _block_destroy_helper.120
++ _block_destroy_helper.150
++ _block_destroy_helper.157
++ _block_destroy_helper.164
++ _block_destroy_helper.171
++ _block_destroy_helper.178
++ _block_destroy_helper.191
++ _block_destroy_helper.197
++ _block_destroy_helper.206
++ _block_destroy_helper.218
++ _block_destroy_helper.221
++ _block_destroy_helper.224
++ _block_destroy_helper.230
++ _block_destroy_helper.236
++ _block_destroy_helper.245
++ _block_destroy_helper.251
++ _block_destroy_helper.257
++ _block_destroy_helper.263
++ _block_destroy_helper.269
++ _block_destroy_helper.275
++ _block_destroy_helper.281
++ _block_destroy_helper.287
++ _block_destroy_helper.290
++ _block_destroy_helper.293
++ _block_destroy_helper.296
++ _block_destroy_helper.299
++ _block_destroy_helper.36
++ _block_destroy_helper.42
++ _block_destroy_helper.49
++ _block_destroy_helper.93
++ _block_destroy_helper.99
++ _objc_getAssociatedObject
++ _objc_release_x10
++ _objc_retain_x11
++ _objc_setAssociatedObject
++ _objc_sync_enter
++ _objc_sync_exit
++ _objectdestroy.111Tm
++ _objectdestroy.147Tm
++ _objectdestroy.161Tm
++ _objectdestroy.272Tm
++ _swift_coroFrameAlloc
++ _symbolic SS_SDySS______pGt 8RoomPlan08CapturedA9AttributeP
++ _symbolic SS_Sit
++ _symbolic Si6offset______7elementtSg 8RoomPlan08CapturedA0V7SectionV
+- __IVARS__TtC8RoomPlan24ScanItemPerimeterManager
+- __PROTOCOLS__TtC8RoomPlan24OUSessionDelegateWrapper.180
+- __ZN5boost7polygon15voronoi_builderIiNS0_6detail20voronoi_ctype_traitsIiEENS2_18voronoi_predicatesIS4_EEED1Ev
+- __ZN5boost7polygon15voronoi_diagramIdNS0_22voronoi_diagram_traitsIdEEE20_process_single_siteIiEEvRKNS0_6detail10site_eventIT_EE
+- __ZN5boost7polygon15voronoi_diagramIdNS0_22voronoi_diagram_traitsIdEEED1Ev
+- __ZNKSt3__16vectorI10PointInt64NS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7polygon12voronoi_cellIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7polygon12voronoi_edgeIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7polygon14voronoi_vertexIdEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7polygon6detail10site_eventIiEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvS7_EEEEPNS_11__tree_nodeISH_PvEElEEEEEESJ_EENS_9allocatorISP_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvNS4_12circle_eventIdEEEEEEPNS_11__tree_nodeISI_PvEElEEEEEENS_9allocatorISP_EEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_OT0_NS_15iterator_traitsISH_E15difference_typeESH_
+- __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__115__adjacent_findB8ne190102INS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES8_RNS_10__equal_toEEET_SB_T0_OT1_
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEET1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEET1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EET1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI10PointInt64EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7polygon12voronoi_cellIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7polygon12voronoi_edgeIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7polygon14voronoi_vertexIdEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7polygon6detail10site_eventIiEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_15__list_iteratorINS_4pairIN5boost7polygon6detail12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS6_19beach_line_node_keyINS6_10site_eventIiEEEENS6_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEESK_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIN5boost7polygon6detail8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISJ_PvEElEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSU_m
+- __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_SG_EET1_SH_SH_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEbT1_SH_T0_
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEET0_SH_SH_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPN5boost7polygon6detail10site_eventIiEERNS4_18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateIS6_NS4_12circle_eventIdEEEEEENS_4pairIT0_bEESI_SI_T1_
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEjT1_SH_SH_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_SH_SH_SH_T0_
+- __ZNSt3__18__uniqueB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPN5boost7polygon6detail10site_eventIiEEEES9_RNS_10__equal_toEEENS_4pairIT0_SD_EESD_T1_OT2_
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon15voronoi_builderIiNS3_6detail20voronoi_ctype_traitsIiEENS5_18voronoi_predicatesIS7_EEE20end_point_comparisonENS_11__wrap_iterIPNS_4pairINS5_8point_2dIiEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS5_19beach_line_node_keyINS5_10site_eventIiEEEENS5_20beach_line_node_dataIvNS5_12circle_eventIdEEEEEEPNS_11__tree_nodeISS_PvEElEEEEEEEEEEvT1_S12_OT0_NS_15iterator_traitsIS12_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail13ordered_queueINS_4pairINS4_12circle_eventIdEENS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeINS4_19beach_line_node_keyINS4_10site_eventIiEEEENS4_20beach_line_node_dataIvS8_EEEEPNS_11__tree_nodeISI_PvEElEEEEEENS3_15voronoi_builderIiNS4_20voronoi_ctype_traitsIiEENS4_18voronoi_predicatesISS_EEE21event_comparison_typeEE10comparisonENS_11__wrap_iterIPNS_15__list_iteratorISP_SK_EEEEEEvT1_S15_OT0_NS_15iterator_traitsIS15_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN5boost7polygon6detail18voronoi_predicatesINS4_20voronoi_ctype_traitsIiEEE26event_comparison_predicateINS4_10site_eventIiEENS4_12circle_eventIdEEEEPSB_EEvT1_SH_OT0_NS_15iterator_traitsISH_E15difference_typeE
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_RoomPlan
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_RoomPlan
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_RoomPlan
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_RoomPlan
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_RoomPlan
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_RoomPlan
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_RoomPlan
+- _block_copy_helper.108
+- _block_copy_helper.114
+- _block_copy_helper.120
+- _block_copy_helper.137
+- _block_copy_helper.143
+- _block_copy_helper.150
+- _block_copy_helper.157
+- _block_copy_helper.164
+- _block_copy_helper.171
+- _block_copy_helper.178
+- _block_copy_helper.191
+- _block_copy_helper.195
+- _block_copy_helper.201
+- _block_copy_helper.204
+- _block_copy_helper.216
+- _block_copy_helper.222
+- _block_copy_helper.228
+- _block_copy_helper.234
+- _block_copy_helper.240
+- _block_copy_helper.243
+- _block_copy_helper.249
+- _block_copy_helper.255
+- _block_copy_helper.261
+- _block_copy_helper.267
+- _block_copy_helper.273
+- _block_copy_helper.279
+- _block_copy_helper.285
+- _block_copy_helper.288
+- _block_copy_helper.291
+- _block_copy_helper.294
+- _block_copy_helper.297
+- _block_copy_helper.42
+- _block_copy_helper.43
+- _block_copy_helper.50
+- _block_copy_helper.64
+- _block_copy_helper.93
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.110
+- _block_descriptor.116
+- _block_descriptor.122
+- _block_descriptor.139
+- _block_descriptor.145
+- _block_descriptor.152
+- _block_descriptor.159
+- _block_descriptor.166
+- _block_descriptor.173
+- _block_descriptor.180
+- _block_descriptor.193
+- _block_descriptor.197
+- _block_descriptor.203
+- _block_descriptor.206
+- _block_descriptor.218
+- _block_descriptor.224
+- _block_descriptor.230
+- _block_descriptor.236
+- _block_descriptor.242
+- _block_descriptor.245
+- _block_descriptor.251
+- _block_descriptor.257
+- _block_descriptor.263
+- _block_descriptor.269
+- _block_descriptor.275
+- _block_descriptor.281
+- _block_descriptor.287
+- _block_descriptor.290
+- _block_descriptor.293
+- _block_descriptor.296
+- _block_descriptor.299
+- _block_descriptor.44
+- _block_descriptor.45
+- _block_descriptor.52
+- _block_descriptor.66
+- _block_descriptor.95
+- _block_destroy_helper.100
+- _block_destroy_helper.109
+- _block_destroy_helper.115
+- _block_destroy_helper.121
+- _block_destroy_helper.138
+- _block_destroy_helper.144
+- _block_destroy_helper.151
+- _block_destroy_helper.158
+- _block_destroy_helper.165
+- _block_destroy_helper.172
+- _block_destroy_helper.179
+- _block_destroy_helper.192
+- _block_destroy_helper.196
+- _block_destroy_helper.202
+- _block_destroy_helper.205
+- _block_destroy_helper.217
+- _block_destroy_helper.223
+- _block_destroy_helper.229
+- _block_destroy_helper.235
+- _block_destroy_helper.241
+- _block_destroy_helper.244
+- _block_destroy_helper.250
+- _block_destroy_helper.256
+- _block_destroy_helper.262
+- _block_destroy_helper.268
+- _block_destroy_helper.274
+- _block_destroy_helper.280
+- _block_destroy_helper.286
+- _block_destroy_helper.289
+- _block_destroy_helper.292
+- _block_destroy_helper.295
+- _block_destroy_helper.298
+- _block_destroy_helper.43
+- _block_destroy_helper.44
+- _block_destroy_helper.51
+- _block_destroy_helper.65
+- _block_destroy_helper.94
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.21
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.28
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.38
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.27
+- _keypath_hashTm
+- _objc_retain_x27
+- _objc_retain_x3
+- _objectdestroy.112Tm
+- _objectdestroy.148Tm
+- _objectdestroy.162Tm
+- _objectdestroy.21Tm
+- _objectdestroy.271Tm
+- _swift_getKeyPath
+- _symbolic Si6offset_Say_____ySfGG7elementt s5SIMD2V
+- _symbolic Si6offset______7elementt 8RoomPlan9HullPointC
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0O
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV04FontB0O
+- _symbolic _____ 10Foundation22AttributeDynamicLookupO
+- _symbolic _____ySi6offset_Say_____ySfGG7elementtG s23_ContiguousArrayStorageC s5SIMD2V
+- _symbolic _____ySi6offset______4type______ySfG6vertext7elementtG s23_ContiguousArrayStorageC 8RoomPlan15CDTTriangulatorC10VertexType33_761C473CF040F86233F1F9275DA5C0DDLLO s5SIMD2V
+- _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 8RoomPlan13ObjectElementV
+- _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 8RoomPlan14simd_rectangleV
+- _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 8RoomPlan9HullPointC
+- _symbolic _____ySi6offset______ySfG7elementtG s23_ContiguousArrayStorageC s5SIMD2V
+- _symbolic _____ySi6offset______ySfG7elementtG s23_ContiguousArrayStorageC s5SIMD3V
+- _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO5UIKitE0F10AttributesV AH015ForegroundColorD0O
+- _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO5UIKitE0F10AttributesV AH04FontD0O
+CStrings:
++ "@\"<MTL4Archive>\"32@0:8@\"NSURL\"16^@24"
++ "@\"<MTL4ArgumentTable>\"32@0:8@\"MTL4ArgumentTableDescriptor\"16^@24"
++ "@\"<MTL4CommandAllocator>\"16@0:8"
++ "@\"<MTL4CommandAllocator>\"32@0:8@\"MTL4CommandAllocatorDescriptor\"16^@24"
++ "@\"<MTL4CommandBuffer>\"16@0:8"
++ "@\"<MTL4CommandQueue>\"16@0:8"
++ "@\"<MTL4CommandQueue>\"32@0:8@\"MTL4CommandQueueDescriptor\"16^@24"
++ "@\"<MTL4Compiler>\"32@0:8@\"MTL4CompilerDescriptor\"16^@24"
++ "@\"<MTL4CounterHeap>\"32@0:8@\"MTL4CounterHeapDescriptor\"16^@24"
++ "@\"<MTL4PipelineDataSetSerializer>\"24@0:8@\"MTL4PipelineDataSetSerializerDescriptor\"16"
++ "@\"<MTLBuffer>\"40@0:8Q16Q24q32"
++ "@\"<MTLFunctionHandle>\"24@0:8@\"<MTL4BinaryFunction>\"16"
++ "@\"<MTLFunctionHandle>\"24@0:8@\"NSString\"16"
++ "@\"<MTLFunctionHandle>\"32@0:8@\"<MTL4BinaryFunction>\"16Q24"
++ "@\"<MTLFunctionHandle>\"32@0:8@\"NSString\"16Q24"
++ "@\"<MTLRenderPipelineState>\"32@0:8@\"MTL4RenderPipelineBinaryFunctionsDescriptor\"16^@24"
++ "@\"<MTLTensor>\"32@0:8@\"MTLTensorDescriptor\"16^@24"
++ "@\"<MTLTensor>\"40@0:8@\"MTLTensorDescriptor\"16Q24^@32"
++ "@\"<MTLTexture>\"24@0:8@\"MTLTextureViewDescriptor\"16"
++ "@\"<MTLTextureViewPool>\"32@0:8@\"MTLResourceViewPoolDescriptor\"16^@24"
++ "@\"MTL4PipelineDescriptor\"16@0:8"
++ "@\"MTLComputePipelineReflection\"16@0:8"
++ "@\"MTLFunctionReflection\"24@0:8@\"NSString\"16"
++ "@\"MTLRenderPipelineReflection\"16@0:8"
++ "@40@0:8@16Q24^@32"
++ "@40@0:8Q16Q24q32"
++ "T@\"MTLComputePipelineReflection\",R"
++ "T@\"MTLRenderPipelineReflection\",R"
++ "functionHandleWithBinaryFunction:"
++ "functionHandleWithBinaryFunction:stage:"
++ "functionHandleWithName:"
++ "functionHandleWithName:stage:"
++ "newArchiveWithURL:error:"
++ "newArgumentTableWithDescriptor:error:"
++ "newBufferWithLength:options:placementSparsePageSize:"
++ "newCommandAllocator"
++ "newCommandAllocatorWithDescriptor:error:"
++ "newCommandBuffer"
++ "newCompilerWithDescriptor:error:"
++ "newComputePipelineStateWithBinaryFunctions:error:"
++ "newCounterHeapWithDescriptor:error:"
++ "newMTL4CommandQueue"
++ "newMTL4CommandQueueWithDescriptor:error:"
++ "newPipelineDataSetSerializerWithDescriptor:"
++ "newRenderPipelineDescriptorForSpecialization"
++ "newRenderPipelineStateWithBinaryFunctions:error:"
++ "newTensorWithDescriptor:error:"
++ "newTensorWithDescriptor:offset:error:"
++ "newTextureViewPoolWithDescriptor:error:"
++ "newTextureViewWithDescriptor:"
++ "queryTimestampFrequency"
++ "reflection"
++ "reflectionForFunctionWithName:"
++ "requiredThreadsPerMeshThreadgroup"
++ "requiredThreadsPerObjectThreadgroup"
++ "requiredThreadsPerThreadgroup"
++ "requiredThreadsPerTileThreadgroup"
++ "sizeOfCounterHeapEntry:"
++ "sparseBufferTier"
++ "sparseTextureTier"
++ "tensorSizeAndAlignWithDescriptor:"
++ "{?=QQ}24@0:8@\"MTLTensorDescriptor\"16"
+- "lineAlpha"
+- "strutPoints"
+
+```

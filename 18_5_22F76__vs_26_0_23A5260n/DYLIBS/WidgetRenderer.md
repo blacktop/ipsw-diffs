@@ -1,0 +1,2280 @@
+## WidgetRenderer
+
+> `/System/Library/PrivateFrameworks/WidgetRenderer.framework/WidgetRenderer`
+
+```diff
+
+-537.6.13.0.0
+-  __TEXT.__text: 0xe73e8
+-  __TEXT.__auth_stubs: 0x4200
+-  __TEXT.__objc_methlist: 0xf8c
+-  __TEXT.__const: 0x604c
+-  __TEXT.__cstring: 0x49e1
+-  __TEXT.__constg_swiftt: 0x4a54
+-  __TEXT.__swift5_typeref: 0x5ea4
+-  __TEXT.__swift5_reflstr: 0x3037
+-  __TEXT.__swift5_fieldmd: 0x24dc
+-  __TEXT.__swift5_builtin: 0x17c
+-  __TEXT.__swift5_assocty: 0x648
+-  __TEXT.__oslogstring: 0x41b1
+-  __TEXT.__swift5_capture: 0x1238
+-  __TEXT.__swift5_proto: 0x2b8
+-  __TEXT.__swift5_types: 0x238
+-  __TEXT.__swift5_protos: 0x48
++631.0.3.0.0
++  __TEXT.__text: 0x15d6a4
++  __TEXT.__auth_stubs: 0x5aa0
++  __TEXT.__objc_methlist: 0x17f4
++  __TEXT.__const: 0x9a8c
++  __TEXT.__cstring: 0x6e51
++  __TEXT.__constg_swiftt: 0x7758
++  __TEXT.__swift5_typeref: 0x9c2a
++  __TEXT.__swift5_reflstr: 0x4c3e
++  __TEXT.__swift5_fieldmd: 0x392c
++  __TEXT.__swift5_builtin: 0x230
++  __TEXT.__swift5_assocty: 0x8c0
++  __TEXT.__oslogstring: 0x6318
++  __TEXT.__swift5_capture: 0x1c68
++  __TEXT.__swift5_proto: 0x470
++  __TEXT.__swift5_types: 0x358
++  __TEXT.__swift5_protos: 0x68
++  __TEXT.__swift_as_entry: 0x18
++  __TEXT.__swift_as_ret: 0x18
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x2638
+-  __TEXT.__eh_frame: 0x1138
+-  __TEXT.__objc_classname: 0x259
+-  __TEXT.__objc_methname: 0x34e1
+-  __TEXT.__objc_methtype: 0x11ea
++  __TEXT.__unwind_info: 0x3940
++  __TEXT.__eh_frame: 0x1f10
++  __TEXT.__objc_classname: 0x342
++  __TEXT.__objc_methname: 0x44b0
++  __TEXT.__objc_methtype: 0x1514
+   __TEXT.__objc_stubs: 0x260
+-  __DATA_CONST.__got: 0xee8
+-  __DATA_CONST.__const: 0x670
+-  __DATA_CONST.__objc_classlist: 0x1c0
+-  __DATA_CONST.__objc_protolist: 0x138
++  __DATA_CONST.__got: 0x1508
++  __DATA_CONST.__const: 0x810
++  __DATA_CONST.__objc_classlist: 0x2e0
++  __DATA_CONST.__objc_protolist: 0x1b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1060
+-  __DATA_CONST.__objc_protorefs: 0x90
++  __DATA_CONST.__objc_selrefs: 0x1528
++  __DATA_CONST.__objc_protorefs: 0xd0
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x2108
+-  __AUTH_CONST.__const: 0x4bd8
+-  __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0x6960
+-  __AUTH.__objc_data: 0xdd0
+-  __AUTH.__data: 0xe30
++  __AUTH_CONST.__auth_got: 0x2d58
++  __AUTH_CONST.__const: 0x71b0
++  __AUTH_CONST.__cfstring: 0x180
++  __AUTH_CONST.__objc_const: 0xae58
++  __AUTH.__objc_data: 0x2100
++  __AUTH.__data: 0x2680
+   __DATA.__objc_ivar: 0x18
+-  __DATA.__data: 0x15e8
++  __DATA.__data: 0x2528
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x2960
+-  __DATA.__common: 0xb0
+-  __DATA_DIRTY.__objc_data: 0x1c60
+-  __DATA_DIRTY.__data: 0x5880
+-  __DATA_DIRTY.__bss: 0x2790
+-  __DATA_DIRTY.__common: 0x320
++  __DATA.__bss: 0x3a10
++  __DATA.__common: 0x2c0
++  __DATA_DIRTY.__objc_data: 0x3820
++  __DATA_DIRTY.__data: 0x7f08
++  __DATA_DIRTY.__bss: 0x4c10
++  __DATA_DIRTY.__common: 0x5e0
++  - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
++  - /System/Library/Frameworks/ClockKit.framework/ClockKit
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
++  - /System/Library/Frameworks/_PhotosUI_WidgetKit.framework/_PhotosUI_WidgetKit
++  - /System/Library/PrivateFrameworks/ActivityUIServices.framework/ActivityUIServices
+   - /System/Library/PrivateFrameworks/BacklightServices.framework/BacklightServices
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BaseBoardUI.framework/BaseBoardUI
+
+   - /System/Library/PrivateFrameworks/ChronoKit.framework/ChronoKit
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+   - /System/Library/PrivateFrameworks/ChronoUIServices.framework/ChronoUIServices
++  - /System/Library/PrivateFrameworks/ComplicationDisplay.framework/ComplicationDisplay
+   - /System/Library/PrivateFrameworks/ContactsWidgetUI.framework/ContactsWidgetUI
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FitnessUI.framework/FitnessUI
+
+   - /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/RenderBox.framework/RenderBox
++  - /System/Library/PrivateFrameworks/SessionAssertion.framework/SessionAssertion
++  - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UIKitServices.framework/UIKitServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: CF546C45-07F5-33FA-A984-5AD7EF79D226
+-  Functions: 4092
+-  Symbols:   2439
+-  CStrings:  1533
++  UUID: 8D2ABFEE-585C-36EA-BAE9-7C415982E354
++  Functions: 6210
++  Symbols:   3450
++  CStrings:  2115
+ 
+Symbols:
++ _CGRectEqualToRect
++ _CGRectGetMaxX
++ _CGRectMake
++ _CHUISWindowSceneSessionRoleWidget
++ _CLKGaugeProviderStyleSegments
++ _NSStringFromCHSColorScheme
++ _NSStringFromCHSColorSchemes
++ _NSStringFromWRReloadReason
++ _OBJC_CLASS_$_ACUISHandleLiveActivityDoubleTapAction
++ _OBJC_CLASS_$_ACUISOpenApplicationAction
++ _OBJC_CLASS_$_BSAnimationSettings
++ _OBJC_CLASS_$_CHSSessionPlatterDescriptor
++ _OBJC_CLASS_$_CHSWidgetExtensionsBox
++ _OBJC_CLASS_$_CHUISMutableWatchComplicationsWidgetSceneClientSettings
++ _OBJC_CLASS_$_CHUISMutableWatchComplicationsWidgetSnapshotMetadata
++ _OBJC_CLASS_$_CHUISWatchComplicationsSnapshotMetadataUpdateAction
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetScene
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetSceneSettings
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetSceneSettingsDiffContext
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetSceneSettingsDiffInspector
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetSnapshotMetadata
++ _OBJC_CLASS_$_CHUISWatchComplicationsWidgetSnapshotMetadataLabelData
++ _OBJC_CLASS_$_CLKCurrentTimeTextProvider
++ _OBJC_CLASS_$_CLKDateTextProvider
++ _OBJC_CLASS_$_CLKImageProvider
++ _OBJC_CLASS_$_CLKRelativeDateTextProvider
++ _OBJC_CLASS_$_CLKSimpleGaugeProvider
++ _OBJC_CLASS_$_CLKSimpleTextProvider
++ _OBJC_CLASS_$_CLKTextProvider
++ _OBJC_CLASS_$_CLKTimeIntervalGaugeProvider
++ _OBJC_CLASS_$_CLKTimeIntervalTextProvider
++ _OBJC_CLASS_$_CLKTimeTextProvider
++ _OBJC_CLASS_$_FBSSceneTransitionContext
++ _OBJC_CLASS_$_NSScanner
++ _OBJC_CLASS_$_NSThread
++ _OBJC_CLASS_$_UIApplicationSceneSettings
++ _OBJC_CLASS_$_UIApplicationSceneSettingsDiffInspector
++ _OBJC_CLASS_$_UIBezierPath
++ _OBJC_CLASS_$__TtC14WidgetRenderer19_JindoAccessoryView
++ _OBJC_CLASS_$__TtC14WidgetRenderer20AmbientSceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer21ActivitySceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer21ListItemSceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer22ActivityRendererClient
++ _OBJC_CLASS_$__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ _OBJC_CLASS_$__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ _OBJC_CLASS_$__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer27ActivityBannerSceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer27SingleActivitySceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer28CarPlayActivitySceneDelegate
++ _OBJC_CLASS_$__TtC14WidgetRenderer29_JindoAccessoryViewController
++ _OBJC_CLASS_$__TtC14WidgetRenderer34ActivitySceneContentViewController
++ _OBJC_CLASS_$__TtC14WidgetRenderer35SystemApertureElementViewController
++ _OBJC_CLASS_$__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ _OBJC_METACLASS_$__TtC14WidgetRenderer19_JindoAccessoryView
++ _OBJC_METACLASS_$__TtC14WidgetRenderer20AmbientSceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer21ActivitySceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer21ListItemSceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer22ActivityRendererClient
++ _OBJC_METACLASS_$__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ _OBJC_METACLASS_$__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ _OBJC_METACLASS_$__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer27ActivityBannerSceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer27SingleActivitySceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer28CarPlayActivitySceneDelegate
++ _OBJC_METACLASS_$__TtC14WidgetRenderer29_JindoAccessoryViewController
++ _OBJC_METACLASS_$__TtC14WidgetRenderer34ActivitySceneContentViewController
++ _OBJC_METACLASS_$__TtC14WidgetRenderer35SystemApertureElementViewController
++ _OBJC_METACLASS_$__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ _OBJC_METACLASS_$__TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter
++ __DATA__TtC14WidgetRenderer11BugReporter
++ __DATA__TtC14WidgetRenderer12ViewDecoders
++ __DATA__TtC14WidgetRenderer14WidgetServices
++ __DATA__TtC14WidgetRenderer16ActivityServices
++ __DATA__TtC14WidgetRenderer17ActivityViewModel
++ __DATA__TtC14WidgetRenderer18WidgetArchiveEntry
++ __DATA__TtC14WidgetRenderer19_JindoAccessoryView
++ __DATA__TtC14WidgetRenderer20ActivityArchiveEntry
++ __DATA__TtC14WidgetRenderer20AmbientSceneDelegate
++ __DATA__TtC14WidgetRenderer20WidgetArchiveService
++ __DATA__TtC14WidgetRenderer21ActivitySceneDelegate
++ __DATA__TtC14WidgetRenderer21ListItemSceneDelegate
++ __DATA__TtC14WidgetRenderer22ActivityArchiveService
++ __DATA__TtC14WidgetRenderer22ActivityRendererClient
++ __DATA__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ __DATA__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __DATA__TtC14WidgetRenderer25WidgetArchiveServiceStore
++ __DATA__TtC14WidgetRenderer26ActivityRendererSessionKey
++ __DATA__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ __DATA__TtC14WidgetRenderer27ActivityArchiveServiceStore
++ __DATA__TtC14WidgetRenderer27ActivityBannerSceneDelegate
++ __DATA__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ __DATA__TtC14WidgetRenderer27SingleActivitySceneDelegate
++ __DATA__TtC14WidgetRenderer27WidgetArchiveEntryAssertion
++ __DATA__TtC14WidgetRenderer28ActivityLaunchRequestBuilder
++ __DATA__TtC14WidgetRenderer28CarPlayActivitySceneDelegate
++ __DATA__TtC14WidgetRenderer29InProcessActivityInstanceBase
++ __DATA__TtC14WidgetRenderer29_JindoAccessoryViewController
++ __DATA__TtC14WidgetRenderer30InProcessJindoActivityInstance
++ __DATA__TtC14WidgetRenderer31_DefaultActivityRendererSession
++ __DATA__TtC14WidgetRenderer32XcodePreviewWidgetRendererClient
++ __DATA__TtC14WidgetRenderer33InProcessListItemActivityInstance
++ __DATA__TtC14WidgetRenderer33WatchComplicationsWidgetViewModel
++ __DATA__TtC14WidgetRenderer34ActivitySceneContentViewController
++ __DATA__TtC14WidgetRenderer35SystemApertureElementViewController
++ __DATA__TtC14WidgetRenderer37WatchComplicationsLiveWidgetViewModel
++ __DATA__TtC14WidgetRenderer38_DefaultActivityRendererSessionFactory
++ __DATA__TtC14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProvider
++ __DATA__TtC14WidgetRenderer42ActivityRendererSessionSubscriptionRequest
++ __DATA__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ __DATA__TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter
++ __DATA__TtC14WidgetRendererP33_5C8471822765AF2C6E3BB50E2CBFE58D35ActivityViewModelSecurityDataSource
++ __DATA__TtC14WidgetRendererP33_AAAF5E0B91342CB37DBE996ED544FA1C29ActivityArchiveEntryAssertion
++ __INSTANCE_METHODS__TtC14WidgetRenderer19_JindoAccessoryView
++ __INSTANCE_METHODS__TtC14WidgetRenderer20AmbientSceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer21ActivitySceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer21ListItemSceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ __INSTANCE_METHODS__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __INSTANCE_METHODS__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer27ActivityBannerSceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer27SingleActivitySceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer28CarPlayActivitySceneDelegate
++ __INSTANCE_METHODS__TtC14WidgetRenderer29_JindoAccessoryViewController
++ __INSTANCE_METHODS__TtC14WidgetRenderer34ActivitySceneContentViewController
++ __INSTANCE_METHODS__TtC14WidgetRenderer35SystemApertureElementViewController
++ __INSTANCE_METHODS__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ __INSTANCE_METHODS__TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter
++ __IVARS__TtC14WidgetRenderer14WidgetServices
++ __IVARS__TtC14WidgetRenderer16ActivityServices
++ __IVARS__TtC14WidgetRenderer17ActivityViewModel
++ __IVARS__TtC14WidgetRenderer18WidgetArchiveEntry
++ __IVARS__TtC14WidgetRenderer19_JindoAccessoryView
++ __IVARS__TtC14WidgetRenderer20ActivityArchiveEntry
++ __IVARS__TtC14WidgetRenderer20AmbientSceneDelegate
++ __IVARS__TtC14WidgetRenderer20WidgetArchiveService
++ __IVARS__TtC14WidgetRenderer21ActivitySceneDelegate
++ __IVARS__TtC14WidgetRenderer21ListItemSceneDelegate
++ __IVARS__TtC14WidgetRenderer22ActivityArchiveService
++ __IVARS__TtC14WidgetRenderer22ActivityRendererClient
++ __IVARS__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __IVARS__TtC14WidgetRenderer25BugReportingObjectCounter
++ __IVARS__TtC14WidgetRenderer25WidgetArchiveServiceStore
++ __IVARS__TtC14WidgetRenderer26ActivityRendererSessionKey
++ __IVARS__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ __IVARS__TtC14WidgetRenderer27ActivityArchiveServiceStore
++ __IVARS__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ __IVARS__TtC14WidgetRenderer27WidgetArchiveEntryAssertion
++ __IVARS__TtC14WidgetRenderer29InProcessActivityInstanceBase
++ __IVARS__TtC14WidgetRenderer29_JindoAccessoryViewController
++ __IVARS__TtC14WidgetRenderer30InProcessJindoActivityInstance
++ __IVARS__TtC14WidgetRenderer31_DefaultActivityRendererSession
++ __IVARS__TtC14WidgetRenderer32XcodePreviewWidgetRendererClient
++ __IVARS__TtC14WidgetRenderer33InProcessListItemActivityInstance
++ __IVARS__TtC14WidgetRenderer33WatchComplicationsWidgetViewModel
++ __IVARS__TtC14WidgetRenderer34ActivitySceneContentViewController
++ __IVARS__TtC14WidgetRenderer35SystemApertureElementViewController
++ __IVARS__TtC14WidgetRenderer37WatchComplicationsLiveWidgetViewModel
++ __IVARS__TtC14WidgetRenderer38_DefaultActivityRendererSessionFactory
++ __IVARS__TtC14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProvider
++ __IVARS__TtC14WidgetRenderer42ActivityRendererSessionSubscriptionRequest
++ __IVARS__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ __IVARS__TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter
++ __IVARS__TtC14WidgetRendererP33_5C8471822765AF2C6E3BB50E2CBFE58D35ActivityViewModelSecurityDataSource
++ __IVARS__TtC14WidgetRendererP33_AAAF5E0B91342CB37DBE996ED544FA1C29ActivityArchiveEntryAssertion
++ __METACLASS_DATA__TtC14WidgetRenderer11BugReporter
++ __METACLASS_DATA__TtC14WidgetRenderer12ViewDecoders
++ __METACLASS_DATA__TtC14WidgetRenderer14WidgetServices
++ __METACLASS_DATA__TtC14WidgetRenderer16ActivityServices
++ __METACLASS_DATA__TtC14WidgetRenderer17ActivityViewModel
++ __METACLASS_DATA__TtC14WidgetRenderer18WidgetArchiveEntry
++ __METACLASS_DATA__TtC14WidgetRenderer19_JindoAccessoryView
++ __METACLASS_DATA__TtC14WidgetRenderer20ActivityArchiveEntry
++ __METACLASS_DATA__TtC14WidgetRenderer20AmbientSceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer20WidgetArchiveService
++ __METACLASS_DATA__TtC14WidgetRenderer21ActivitySceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer21ListItemSceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer22ActivityArchiveService
++ __METACLASS_DATA__TtC14WidgetRenderer22ActivityRendererClient
++ __METACLASS_DATA__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ __METACLASS_DATA__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __METACLASS_DATA__TtC14WidgetRenderer25WidgetArchiveServiceStore
++ __METACLASS_DATA__TtC14WidgetRenderer26ActivityRendererSessionKey
++ __METACLASS_DATA__TtC14WidgetRenderer26JindoActivitySceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer27ActivityArchiveServiceStore
++ __METACLASS_DATA__TtC14WidgetRenderer27ActivityBannerSceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer27AmbientCompactSceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer27SingleActivitySceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer27WidgetArchiveEntryAssertion
++ __METACLASS_DATA__TtC14WidgetRenderer28ActivityLaunchRequestBuilder
++ __METACLASS_DATA__TtC14WidgetRenderer28CarPlayActivitySceneDelegate
++ __METACLASS_DATA__TtC14WidgetRenderer29InProcessActivityInstanceBase
++ __METACLASS_DATA__TtC14WidgetRenderer29_JindoAccessoryViewController
++ __METACLASS_DATA__TtC14WidgetRenderer30InProcessJindoActivityInstance
++ __METACLASS_DATA__TtC14WidgetRenderer31_DefaultActivityRendererSession
++ __METACLASS_DATA__TtC14WidgetRenderer32XcodePreviewWidgetRendererClient
++ __METACLASS_DATA__TtC14WidgetRenderer33InProcessListItemActivityInstance
++ __METACLASS_DATA__TtC14WidgetRenderer33WatchComplicationsWidgetViewModel
++ __METACLASS_DATA__TtC14WidgetRenderer34ActivitySceneContentViewController
++ __METACLASS_DATA__TtC14WidgetRenderer35SystemApertureElementViewController
++ __METACLASS_DATA__TtC14WidgetRenderer37WatchComplicationsLiveWidgetViewModel
++ __METACLASS_DATA__TtC14WidgetRenderer38_DefaultActivityRendererSessionFactory
++ __METACLASS_DATA__TtC14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProvider
++ __METACLASS_DATA__TtC14WidgetRenderer42ActivityRendererSessionSubscriptionRequest
++ __METACLASS_DATA__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ __METACLASS_DATA__TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter
++ __METACLASS_DATA__TtC14WidgetRendererP33_5C8471822765AF2C6E3BB50E2CBFE58D35ActivityViewModelSecurityDataSource
++ __METACLASS_DATA__TtC14WidgetRendererP33_AAAF5E0B91342CB37DBE996ED544FA1C29ActivityArchiveEntryAssertion
++ __OBJC_$_INSTANCE_METHODS__TtC14WidgetRenderer22ActivityRendererClient(WidgetRenderer)
++ __OBJC_$_PROP_LIST_SBUISystemApertureElement
++ __OBJC_$_PROP_LIST_SBUISystemApertureElementProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSInvalidatable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSSceneObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBUISystemApertureAccessoryView
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBUISystemApertureElement
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBUISystemApertureElementProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SBUISystemApertureElement
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SBUISystemApertureElementProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WRActivityRendererServiceXPCClient
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WRActivityRendererServiceXPCServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSInvalidatable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSSceneObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBUISystemApertureAccessoryView
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBUISystemApertureElement
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBUISystemApertureElementProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WRActivityRendererServiceXPCClient
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WRActivityRendererServiceXPCServer
++ __OBJC_$_PROTOCOL_REFS_BSInvalidatable
++ __OBJC_$_PROTOCOL_REFS_BSServiceConnectionConfiguring
++ __OBJC_$_PROTOCOL_REFS_FBSSceneObserver
++ __OBJC_$_PROTOCOL_REFS_SBUISystemApertureAccessoryView
++ __OBJC_$_PROTOCOL_REFS_SBUISystemApertureElement
++ __OBJC_$_PROTOCOL_REFS_SBUISystemApertureElementProviding
++ __OBJC_CLASS_PROTOCOLS_$__TtC14WidgetRenderer22ActivityRendererClient(WidgetRenderer)
++ __OBJC_LABEL_PROTOCOL_$_BSInvalidatable
++ __OBJC_LABEL_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ __OBJC_LABEL_PROTOCOL_$_FBSSceneObserver
++ __OBJC_LABEL_PROTOCOL_$_SBUISystemApertureAccessoryView
++ __OBJC_LABEL_PROTOCOL_$_SBUISystemApertureElement
++ __OBJC_LABEL_PROTOCOL_$_SBUISystemApertureElementProviding
++ __OBJC_LABEL_PROTOCOL_$_WRActivityRendererServiceXPCClient
++ __OBJC_LABEL_PROTOCOL_$_WRActivityRendererServiceXPCServer
++ __OBJC_PROTOCOL_$_BSInvalidatable
++ __OBJC_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ __OBJC_PROTOCOL_$_FBSSceneObserver
++ __OBJC_PROTOCOL_$_SBUISystemApertureAccessoryView
++ __OBJC_PROTOCOL_$_SBUISystemApertureElement
++ __OBJC_PROTOCOL_$_SBUISystemApertureElementProviding
++ __OBJC_PROTOCOL_$_WRActivityRendererServiceXPCClient
++ __OBJC_PROTOCOL_$_WRActivityRendererServiceXPCServer
++ __PROPERTIES__TtC14WidgetRenderer19_JindoAccessoryView
++ __PROPERTIES__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __PROPERTIES__TtC14WidgetRenderer35SystemApertureElementViewController
++ __PROTOCOLS__TtC14WidgetRenderer19_JindoAccessoryView
++ __PROTOCOLS__TtC14WidgetRenderer19_JindoAccessoryView.75
++ __PROTOCOLS__TtC14WidgetRenderer21ActivitySceneDelegate
++ __PROTOCOLS__TtC14WidgetRenderer21ActivitySceneDelegate.1
++ __PROTOCOLS__TtC14WidgetRenderer24_EmptyJindoAccessoryView
++ __PROTOCOLS__TtC14WidgetRenderer24_EmptyJindoAccessoryView.70
++ __PROTOCOLS__TtC14WidgetRenderer25ActivitySceneDelegateBase
++ __PROTOCOLS__TtC14WidgetRenderer25ActivitySceneDelegateBase.2
++ __PROTOCOLS__TtC14WidgetRenderer35SystemApertureElementViewController
++ __PROTOCOLS__TtC14WidgetRenderer35SystemApertureElementViewController.1
++ __PROTOCOLS__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController
++ __PROTOCOLS__TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController.1
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy10_8
++ ___swift_memcpy24_8
++ ___swift_memcpy2_1
++ ___swift_memcpy40_8
++ ___swift_memcpy72_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_2
++ ___unnamed_5
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_WidgetRenderer
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_WidgetRenderer
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_WidgetRenderer
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_WidgetRenderer
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_WidgetRenderer
++ _associated conformance 14WidgetRenderer012XcodePreviewaB6ClientC9ChronoKit0A19DescriptorProvidingAaD0hI0
++ _associated conformance 14WidgetRenderer017WatchComplicationA4ViewVyxG7SwiftUI0E0AA4BodyAeFP_AeF
++ _associated conformance 14WidgetRenderer018WatchComplicationsA9ViewModelC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 14WidgetRenderer08ActivityB10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLOSHAASQ
++ _associated conformance 14WidgetRenderer08ActivityB10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLOs0fE0AAs23CustomStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLOs0fE0AAs28CustomDebugStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB10SessionKeyCSHAASQ
++ _associated conformance 14WidgetRenderer08ActivityB21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLOSHAASQ
++ _associated conformance 14WidgetRenderer08ActivityB21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLOSHAASQ
++ _associated conformance 14WidgetRenderer08ActivityB26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLOSHAASQ
++ _associated conformance 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14WidgetRenderer08ActivityB6ClientC9ChronoKit0C19DescriptorProvidingAaD0gH0
++ _associated conformance 14WidgetRenderer0B8ServicesOSHAASQ
++ _associated conformance 14WidgetRenderer0aB19ClientInterfaceMockC9ChronoKit0A19DescriptorProvidingAaD0hI0
++ _associated conformance 14WidgetRenderer12ActivityViewV7SwiftUI0D0AA4BodyAdEP_AdE
++ _associated conformance 14WidgetRenderer17ActivityViewModelC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _associated conformance 14WidgetRenderer19CarPlayExpandedViewVyxq_G7SwiftUI0F0AA4BodyAeFP_AeF
++ _associated conformance 14WidgetRenderer19CarPlayListItemViewV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 14WidgetRenderer23CompactLiveActivityViewVyxq_G7SwiftUI0F0AA4BodyAeFP_AeF
++ _associated conformance 14WidgetRenderer24ActivityViewChangeReasonOSHAASQ
++ _associated conformance 14WidgetRenderer25ActivityErrorViewModifierV7SwiftUI0eF0AA4BodyAdEP_AD0E0
++ _associated conformance 14WidgetRenderer26_RenderEffectsViewModifier33_D279DDC09B73AE5261A79639295C8BC9LLV7SwiftUI0eF0AA4BodyAeFP_AE0E0
++ _associated conformance 14WidgetRenderer27ActivityContentSizeModifier33_F6F15B4D3A488C549784D141E7F19913LLV7SwiftUI04ViewF0AA4BodyAeFP_AE0R0
++ _associated conformance 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLOSHAASQ
++ _associated conformance 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV7SwiftUI29UIViewControllerRepresentableAaD0E0
++ _associated conformance 14WidgetRenderer29InProcessActivityInstanceBaseC0E10UIServices0eF0AA11Observation10Observable
++ _associated conformance 14WidgetRenderer30InProcessJindoActivityInstanceC0F10UIServices0efG0AaD0fG0
++ _associated conformance 14WidgetRenderer30_InProcessActivityInstanceViewV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 14WidgetRenderer33InProcessListItemActivityInstanceC0G10UIServices0efgH0AaD0gH0
++ _associated conformance 14WidgetRenderer34InProcessJindoActivityInstanceViewV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 14WidgetRenderer35ActivityViewModelSecurityDataSource33_5C8471822765AF2C6E3BB50E2CBFE58DLLCAA0adfgH0AA0D5EntryAaEP_AA0adpF9Providing
++ _associated conformance 14WidgetRenderer37InProcessListItemActivityInstanceViewV7SwiftUI0I0AA4BodyAdEP_AdE
++ _associated conformance So20CHSWidgetProximitiesVs10SetAlgebraSCSQ
++ _associated conformance So20CHSWidgetProximitiesVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So20CHSWidgetProximitiesVs9OptionSetSCSY
++ _associated conformance So20CHSWidgetProximitiesVs9OptionSetSCs0D7Algebra
++ _associated conformance So35SBUISystemApertureElementIdentifieraSHSCSQ
++ _associated conformance So35SBUISystemApertureElementIdentifieras20_SwiftNewtypeWrapperSCSY
++ _associated conformance So35SBUISystemApertureElementIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So39SBUISystemAperturePresentationBehaviorsVs10SetAlgebraSCSQ
++ _associated conformance So39SBUISystemAperturePresentationBehaviorsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So39SBUISystemAperturePresentationBehaviorsVs9OptionSetSCSY
++ _associated conformance So39SBUISystemAperturePresentationBehaviorsVs9OptionSetSCs0F7Algebra
++ _block_copy_helper.103
++ _block_copy_helper.105
++ _block_copy_helper.108
++ _block_copy_helper.110
++ _block_copy_helper.114
++ _block_copy_helper.116
++ _block_copy_helper.119
++ _block_copy_helper.121
++ _block_copy_helper.123
++ _block_copy_helper.124
++ _block_copy_helper.13
++ _block_copy_helper.141
++ _block_copy_helper.147
++ _block_copy_helper.149
++ _block_copy_helper.155
++ _block_copy_helper.156
++ _block_copy_helper.161
++ _block_copy_helper.162
++ _block_copy_helper.167
++ _block_copy_helper.173
++ _block_copy_helper.174
++ _block_copy_helper.179
++ _block_copy_helper.181
++ _block_copy_helper.185
++ _block_copy_helper.188
++ _block_copy_helper.197
++ _block_copy_helper.202
++ _block_copy_helper.203
++ _block_copy_helper.209
++ _block_copy_helper.216
++ _block_copy_helper.223
++ _block_copy_helper.230
++ _block_copy_helper.237
++ _block_copy_helper.244
++ _block_copy_helper.251
++ _block_copy_helper.258
++ _block_copy_helper.265
++ _block_copy_helper.27
++ _block_copy_helper.272
++ _block_copy_helper.279
++ _block_copy_helper.286
++ _block_copy_helper.46
++ _block_copy_helper.52
++ _block_copy_helper.53
++ _block_copy_helper.57
++ _block_copy_helper.59
++ _block_copy_helper.61
++ _block_copy_helper.65
++ _block_copy_helper.66
++ _block_copy_helper.72
++ _block_copy_helper.76
++ _block_copy_helper.78
++ _block_copy_helper.79
++ _block_copy_helper.80
++ _block_copy_helper.84
++ _block_copy_helper.85
++ _block_copy_helper.90
++ _block_copy_helper.94
++ _block_copy_helper.96
++ _block_descriptor.105
++ _block_descriptor.107
++ _block_descriptor.110
++ _block_descriptor.112
++ _block_descriptor.116
++ _block_descriptor.118
++ _block_descriptor.121
++ _block_descriptor.123
++ _block_descriptor.125
++ _block_descriptor.126
++ _block_descriptor.143
++ _block_descriptor.149
++ _block_descriptor.15
++ _block_descriptor.151
++ _block_descriptor.157
++ _block_descriptor.158
++ _block_descriptor.163
++ _block_descriptor.164
++ _block_descriptor.169
++ _block_descriptor.175
++ _block_descriptor.176
++ _block_descriptor.181
++ _block_descriptor.183
++ _block_descriptor.187
++ _block_descriptor.190
++ _block_descriptor.199
++ _block_descriptor.204
++ _block_descriptor.205
++ _block_descriptor.211
++ _block_descriptor.218
++ _block_descriptor.225
++ _block_descriptor.232
++ _block_descriptor.239
++ _block_descriptor.246
++ _block_descriptor.253
++ _block_descriptor.260
++ _block_descriptor.267
++ _block_descriptor.274
++ _block_descriptor.281
++ _block_descriptor.288
++ _block_descriptor.29
++ _block_descriptor.48
++ _block_descriptor.54
++ _block_descriptor.55
++ _block_descriptor.59
++ _block_descriptor.61
++ _block_descriptor.63
++ _block_descriptor.67
++ _block_descriptor.68
++ _block_descriptor.74
++ _block_descriptor.78
++ _block_descriptor.80
++ _block_descriptor.81
++ _block_descriptor.82
++ _block_descriptor.86
++ _block_descriptor.87
++ _block_descriptor.92
++ _block_descriptor.96
++ _block_descriptor.98
++ _block_destroy_helper.104
++ _block_destroy_helper.106
++ _block_destroy_helper.109
++ _block_destroy_helper.111
++ _block_destroy_helper.115
++ _block_destroy_helper.117
++ _block_destroy_helper.120
++ _block_destroy_helper.122
++ _block_destroy_helper.124
++ _block_destroy_helper.125
++ _block_destroy_helper.14
++ _block_destroy_helper.142
++ _block_destroy_helper.148
++ _block_destroy_helper.150
++ _block_destroy_helper.156
++ _block_destroy_helper.157
++ _block_destroy_helper.162
++ _block_destroy_helper.163
++ _block_destroy_helper.168
++ _block_destroy_helper.174
++ _block_destroy_helper.175
++ _block_destroy_helper.180
++ _block_destroy_helper.182
++ _block_destroy_helper.186
++ _block_destroy_helper.189
++ _block_destroy_helper.198
++ _block_destroy_helper.203
++ _block_destroy_helper.204
++ _block_destroy_helper.210
++ _block_destroy_helper.217
++ _block_destroy_helper.224
++ _block_destroy_helper.231
++ _block_destroy_helper.238
++ _block_destroy_helper.245
++ _block_destroy_helper.252
++ _block_destroy_helper.259
++ _block_destroy_helper.266
++ _block_destroy_helper.273
++ _block_destroy_helper.28
++ _block_destroy_helper.280
++ _block_destroy_helper.287
++ _block_destroy_helper.47
++ _block_destroy_helper.53
++ _block_destroy_helper.54
++ _block_destroy_helper.58
++ _block_destroy_helper.60
++ _block_destroy_helper.62
++ _block_destroy_helper.66
++ _block_destroy_helper.67
++ _block_destroy_helper.73
++ _block_destroy_helper.77
++ _block_destroy_helper.79
++ _block_destroy_helper.80
++ _block_destroy_helper.81
++ _block_destroy_helper.85
++ _block_destroy_helper.86
++ _block_destroy_helper.91
++ _block_destroy_helper.95
++ _block_destroy_helper.97
++ _flat unique So31SBUISystemApertureAccessoryView_p
++ _flat unique So34WRActivityRendererServiceXPCServer_p
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOyAA13AnyShapeStyleVSg_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOyy18ActivityUIServices0E13LaunchRequestVcSg_G
++ _get_enum_tag_for_layout_string xq_Ri_zRi0_zRi__Ri0__r0_ly18ActivityUIServices0A13LaunchRequestVytIsegnr_Sg
++ _get_witness_table 18ActivityUIServices15AnySceneSettingRzlAA0dE6ScopesO0A8SettingsV30WantsBaseContentTouchEventsKeyVAaBHPyHC.69
++ _get_witness_table 18ActivityUIServices15AnySceneSettingRzlAA0dE6ScopesO19ApplicationSettingsV8FrameKeyVAaBHPyHC.63
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyAEyACyAA014_ViewModifier_D0Vy14WidgetRenderer04Liveh19EntryLaunchHandlingG0VGAH0hlfG0VGAKGAH015SystemURLActionfG0VGAOGAA017_AllowsHitTestingG0VGAA0F0HPAsaWHPAraWHPAoaWHPAnaWHPAkaWHPyHC_AmA0fG0HPyHCHC_AkaWHPyHCHC_AqaXHPyHCHC_AoaWHPAnaWHPAkaWHPyHC_AmaXHPyHCHC_AkaWHPyHCHCHC_AuaXHPyHCHC.78
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyAEyACyAEyACyACyAA16SubscriptionViewVy7Combine12AnyPublisherVySay14WidgetRenderer04LivekG12ChangeReasonOGs5NeverOGAGyAJyytAPGAGyArCyACyACyACyACyACyACyACyACyACyACyAA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQOyACyAEyAEyAA6ZStackVyAA05TupleG0VyAT0K3KitE05showsD5LayeryQrA2_0kdX0OFQOyAA0iG0V_Qo__ACyACyAA22ContainerRelativeShapeVAA24_ForegroundStyleModifierVyAA14LinearGradientVGGAA16_OverlayModifierVyACyACyA16_AA12_ScaleEffectVGAA11_BlurEffectVGGGA8_tGGA7_GA7_GAA30_EnvironmentKeyWritingModifierVySo19CHSWidgetDescriptorCSgGG_Qo_A32_yAYGGA32_yAV0R10ComponentsVSgGGA32_ySbGGA32_ySo23CHSWidgetTintParametersCSgGGA46_GAA19_BackgroundModifierVyAA5GroupVyAEyA7_AEyA7_AA5ColorVGGGGGAA25_AllowsHitTestingModifierVGAK012DebugMarginsG8ModifierVGAK0kG16ClippingModifierVGA46_GAA25_AppearanceActionModifierVGGGGAK011Interactivek5SetupG8ModifierVGA18_yACyACyAA6VStackVyA1_yAEyAA4TextVA87_GSg_A87_SgA90_A90_tGGA32_yAA4FontVSgGGA12_yA59_GGGGA83_GA18_yACyACyACyA87_AA24_BackgroundStyleModifierVyA59_GGA96_GAA14_PaddingLayoutVGGGA102_GAK0K17URLReaderModifierVGA113_GAK0mK27EntryLaunchHandlingModifierVGAaSHPA117_AaSHPA116_AaSHPA113_AaSHPA112_AaSHPA102_AaSHPA101_AaSHPA83_AaSHPA80_AaSHPyHC_A82_AA0G8ModifierHPyHCHC_A100_AAA121_HPyHCHC_A83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHCHC_A111_AAA121_HPyHCHC_A102_AaSHPA101_AaSHPA83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHC_A100_AAA121_HPyHCHC_A83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHCHCHC_A115_AAA121_HPyHCHC_A113_AaSHPA112_AaSHPA102_AaSHPA101_AaSHPA83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHC_A100_AAA121_HPyHCHC_A83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHCHC_A111_AAA121_HPyHCHC_A102_AaSHPA101_AaSHPA83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHC_A100_AAA121_HPyHCHC_A83_AaSHPA80_AaSHPyHC_A82_AAA121_HPyHCHCHCHCHC_A119_AAA121_HPyHCHC.77
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA16SubscriptionViewVy7Combine12AnyPublisherVy14WidgetRenderer08ActivityF12ChangeReasonOs5NeverOGAEyAHyytAMGACyACyAA012_ConditionalD0VyACyAQyACyAQyACyACyACyACyACyACyAA0F0PAAE13referenceDateyQr10Foundation0R0VSgFQOyAQyACyAsAE38addingHandGestureShortcutPlatformLayerQryFQOyAA0hF0V_Qo_AI0l5ErrorF8ModifierVGA0_G_Qo_AA30_EnvironmentKeyWritingModifierVySbGGAA20_TransactionModifierVGAA25_AllowsHitTestingModifierVGAA01_D13ShapeModifierVyAA16RoundedRectangleVGGA8_GAI0J17URLReaderModifierVGA22_GAI0j6LaunchF8ModifierVGA26_GAI015SystemURLActionF8ModifierVGA30_GA8_GAA25_AppearanceActionModifierVGGGAI011Interactivej5SetupF8ModifierVGAaRHPA40_AaRHPyHC_A42_AA0F8ModifierHPyHCHC.44
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyAA6HStackVyAA9TupleViewVy14WidgetRenderer026_InProcessActivityInstanceI0V_ACyAA6SpacerVAA12_FrameLayoutVGANtGGANGGAA24_BackgroundStyleModifierVyAA08AnyShapeT0VGGAA0I0HPAwAA2_HPAvAA2_HPAuAA2_HPyHC_AnAA2_HPyHCHC_HC_A0_AA0iU0HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAeAE010addingHandH21ShortcutPlatformLayerQryFQOyACyAA012_ConditionalD0VyACyACyAA6IDViewVy14WidgetRenderer04Liver5EntryE0V16ChronoUIServices0R8IdentityVGAA12_FrameLayoutVGAA19_DrawingGroupEffectVGAWGAN014_RenderEffectsE8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLVG_Qo__Qo_AA25_AppearanceActionModifierVGA7_GAA20_ValueActionModifierVyAN010_InProcessR18InstanceComparableA1_LLVGGAaDHPA9_AaDHPA8_AaDHPqd__AaDHD2_A5_HO_A7_AA0E8ModifierHPyHCHC_A7_AAA16_HPyHCHC_A14_AAA16_HPyHCHC.14
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6ZStackVyAA9TupleViewVyACyAA03AnyG0VAA23_SafeAreaIgnoringLayoutVG_ACyACyACyAA4TextVAA08_PaddingL0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGSgtGGAVGAA01_d5ShapeQ0VyA_GGAA022_EnvironmentKeyWritingQ0VyAA0R6SchemeOGGA11_ySbGGAA0G0HPA15_AAA18_HPA9_AAA18_HPA5_AAA18_HPA4_AAA18_HPyHC_AvA0gQ0HPyHCHC_A8_AAA19_HPyHCHC_A14_AAA19_HPyHCHC_A16_AAA19_HPyHCHC.42
++ _get_witness_table 7SwiftUI16SubscriptionViewVy7Combine12AnyPublisherVy14WidgetRenderer08ActivityD12ChangeReasonOs5NeverOGAA15ModifiedContentVyANyANyAA01_d9Modifier_O0VyAG0jo4SizeP033_F6F15B4D3A488C549784D141E7F19913LLVGAA12_FrameLayoutVGAA06_FixedQ6LayoutVGAA11_ClipEffectVyAA9RectangleVGGGAA0D0HPyHC.14
++ _get_witness_table 7SwiftUI16SubscriptionViewVy7Combine12AnyPublisherVy14WidgetRenderer08ActivityD12ChangeReasonOs5NeverOGAA5GroupVyAA19_ConditionalContentVyAG0jD0VAG015CarPlayExpandedD0VyA2RGGSgGGAA0D0HPyHC.69
++ _get_witness_table 7SwiftUI19_ConditionalContentVy14WidgetRenderer06TintedE4ViewVyAA08ModifiedD0VyAA03AnyH0V0E3Kit31CommonServerEnvironmentModifierVGANGANGAA0H0HPAoaQHPyHC_AnaQHPAjaQHPyHC_AmA0hO0HPyHCHCHC.323
++ _get_witness_table 7SwiftUI19_ConditionalContentVy14WidgetRenderer29BSUIVibrancyEffectViewAdapterVAA0I0P16ChronoUIServicesE015foregroundGlassH11IfNecessary14tintParameters12cornerRadiusQrSo013CHSWidgetTintR0CSg_12CoreGraphics7CGFloatVtFQOyAhIE010backgroundnhoP0AK17includeBackgroundALQrAO_SbARtFQOyAA01_i9Modifier_D0VyAD014_RenderEffectsI8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLVG_Qo__Qo_GAaGHPAfaGHPyHC_qd__AaGHD2_A0_HOHC.26
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEy14WidgetRenderer12ActivityViewVAA25_AppearanceActionModifierVGAJGAF0hd4SizeL033_F6F15B4D3A488C549784D141E7F19913LLVGAA08ProgressI0VyAA05EmptyI0VATGGAA0I0HPApaWHPAlaWHPAkaWHPAhaWHPyHC_AjA0iL0HPyHCHC_AjaXHPyHCHC_AoaXHPyHCHC_AuaWHPyHCHC.10
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACy14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLVyAA01_i9Modifier_D0VyAD0geR0AFLLVGGALGAD0ge11DesaturatedI0AFLLVyALGGAA0I0HPAnaSHPAmaSHPyHC_AlaSHPyHCHC_AqaSHPyHCHC.41
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA15ModifiedContentVyAA6ZStackVyAA05TupleC0VyADyxSgAA14_OpacityEffectVGSg_ADyADyq_Sg14WidgetRenderer06TintedJ8Modifier33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLVGAKGSgtGGAA022_EnvironmentKeyWritingM0VySo30CHSTintAccentedDesaturatedModeVGGAaBHPAwaBHPyHC_A0_AA0cM0HPyHCHC.13
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA6VStackVyAA05TupleC0VyAA15ModifiedContentVyAHyAHyAA4TextVAA16_FlexFrameLayoutVGAA08_PaddingK0VGAOGSg_AHyAA6HStackVyAFyx_AA6SpacerVq_tGGAOGtGGAaBHPyHC.70
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA6VStackVyAA05TupleC0VyAA15ModifiedContentVyAHyAHyAHyAHyAHyAaBPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQOyAiAE10fontDesignyQrAA4FontV0M0OSgFQOyAiAE0L6WeightyQrAO0O0VSgFQOyAHyAiAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAA4TextV_Qo_AA30_EnvironmentKeyWritingModifierVyAOSgGG_Qo__Qo__Qo_AA016_ForegroundStyleX0VyAA017HierarchicalShapeZ0VGGAA16_FlexFrameLayoutVGAA06_TraitwX0VyAA019LayoutPriorityTraitV0VGGAA14_PaddingLayoutVGAA01_g5ShapeX0VyAA9RectangleVGG14WidgetRenderer026LiveActivityLaunchHandlingX0VG_AHyAHyAHyAHyAA6HStackVyAFyx_AA6SpacerVq_tGGA23_GA26_GA32_GA36_GtGGAaBHPyHC.1
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lqd0__AaBHD3_AaBPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQOyAA15ModifiedContentVyAA0G0VyAGyAGyAGyAA6HStackVyAA05TupleC0Vyx_AA6SpacerVq_tGGAA21_TraitWritingModifierVyAA014LayoutPriorityM3KeyVGGAA08_PaddingP0VGAA01_i5ShapeO0VyAA9RectangleVGGGAA011_BackgroundO0VyAA5ColorVGG_AA05PlaingE0VQo_HO.2
++ _get_witness_table 7SwiftUI4ViewRzlAA012SubscriptionC0Vy7Combine12AnyPublisherVySds5NeverOGADyAGySfAIGADyAGySbAIGADyAGySSSgAIGADyAnA15ModifiedContentVyAA5GroupVyAA012_ConditionalJ0VyATyATyAPyAPyAPyxAA012_CompositingK6EffectVGAA025_PremultipliedColorMatrixN0VGAA01_p8MultiplyN0VGAZGATyAPyAPyAPyAwA017_LuminanceToAlphaN0VGAYGA0_GA6_GGAPyxAA021_ForegroundLayerLevelpqN0VGGGAA08_OpacityN0VGGGGGGAaBHPyHC.59
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyADyADyADyxAA23_SafeAreaIgnoringLayoutVGAA30_EnvironmentKeyWritingModifierVyAA16RedactionReasonsVGGAIySo9CHSWidgetCSgGGAIySbGGASGSgAaBHpAuaBHPAtaBHPAraBHPAmaBHPAgaBHPxAaBHD1__AfA0cM0HPyHCHC_AlaWHPyHCHC_AqaWHPyHCHC_AsaWHPyHCHC_AsaWHPyHCHC_HC.88
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyADyx19ComplicationDisplay06CornerfC0VyxGGADyAE0f13CircularBezelC0VyAA05EmptyC0VxGAE0f11CurvedLabelC0VyAMGGGAaBHPAiaBHPxAaBHD1__AhaBHPyHCHC_AraBHPAnaBHPyHC_AqaBHPyHCHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE12_colorMatrixyQrAA06_ColorG0VFQOyAeAE12drawingGroup6opaque0F4ModeQrSb_AA0h9RenderingL0OtFQOyAA08ModifiedE0VyAA0H0VAA16_OverlayModifierVyAeAEAFyQrAHFQOyx_Qo_GG_Qo__Qo_ATGAaBHPqd__AaBHD2_AXHO_qd__AaBHD2_ATHOHC.60
++ _get_witness_table 7SwiftUI6ZStackVyAA9TupleViewVyAA01_E16Modifier_ContentVy14WidgetRenderer013ActivityErroreF0VG_AA5ColorVAA08ModifiedG0VyAA08ProgressE0VyAA05EmptyE0VASGAA022_EnvironmentKeyWritingF0VyAMSgGGtGGAA0E0HPyHC.1
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOy14WidgetRenderer026_InProcessActivityInstanceC0V_AA11ColorSchemeOQo_HO.7
++ _keypath_get.154Tm
++ _keypath_get.186Tm
++ _keypath_get.196Tm
++ _keypath_get.22Tm
++ _keypath_hashTm
++ _keypath_set.159Tm
++ _keypath_set.173Tm
++ _keypath_set.199Tm
++ _keypath_set.23Tm
++ _keypath_set.7Tm
++ _objc_release_x1
++ _objectdestroy.11Tm
++ _objectdestroy.121Tm
++ _objectdestroy.139Tm
++ _objectdestroy.151Tm
++ _objectdestroy.165Tm
++ _objectdestroy.17Tm
++ _objectdestroy.195Tm
++ _objectdestroy.43Tm
++ _objectdestroy.52Tm
++ _objectdestroy.63Tm
++ _objectdestroy.7Tm
++ _objectdestroy.82Tm
++ _objectdestroy.92Tm
++ _swift_coroFrameAlloc
++ _swift_cvw_instantiateLayoutString
++ _swift_deletedAsyncMethodErrorTu
++ _swift_getMetatypeMetadata
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _symbolic $s14WidgetRenderer08ActivityB14SessionFactoryP
++ _symbolic $s14WidgetRenderer08ActivityB15ClientInterfaceP
++ _symbolic $s14WidgetRenderer08ActivityB7SessionP
++ _symbolic $s14WidgetRenderer0A14EntryAssertionP
++ _symbolic $s14WidgetRenderer0A17ServicesInterfaceP
++ _symbolic $s14WidgetRenderer12BugReportingP
++ _symbolic $s14WidgetRenderer22ActivityEntryAssertionP
++ _symbolic $s14WidgetRenderer22ServiceFacadeInterfaceP
++ _symbolic $s14WidgetRenderer25ActivityServicesInterfaceP
++ _symbolic $s14WidgetRenderer27ActivityDescriptorReloadingP
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic $s7SwiftUI29UIViewControllerRepresentableP
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic B0
++ _symbolic B1
++ _symbolic SDy__________G 14WidgetRenderer08ActivityB10SessionKeyC AA0cbD19SubscriptionRequestC
++ _symbolic SDy__________G 9ChronoKit14WidgetEntryKeyV 0C8Renderer0c7ArchiveD0C
++ _symbolic SDy_____y__________G_____G 9ChronoKit17VariantIdentifierV AA11ActivityKeyV AA0ecF0V 14WidgetRenderer0E12ArchiveEntryC
++ _symbolic SNy_____G 10Foundation4DateV
++ _symbolic SNy_____G_Sbt 10Foundation4DateV
++ _symbolic SS_SSt
++ _symbolic SaySo19BLSAlwaysOnTimelineCG
++ _symbolic SaySo27CHSSessionPlatterDescriptorCG
++ _symbolic Say_____G 14WidgetRenderer0A21ArchiveEntryAssertionC
++ _symbolic Say_____G 14WidgetRenderer17ActivityViewModelC
++ _symbolic Say_____G 14WidgetRenderer29ActivityArchiveEntryAssertion33_AAAF5E0B91342CB37DBE996ED544FA1CLLC
++ _symbolic Say_____G 7Combine14AnyCancellableC
++ _symbolic Say_____G 9WidgetKit15ActivityViewTagO
++ _symbolic Say_____GSg 14WidgetRenderer17ActivityViewModelC
++ _symbolic SbSg
++ _symbolic ScA_pSg
++ _symbolic ScCy___________pG 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScPSg
++ _symbolic ShySo18CHSWidgetExtensionCGIego_
++ _symbolic Si6offset______7elementt 19ComplicationDisplay0A13LabelProviderV
++ _symbolic Si6offset______7elementtSg 19ComplicationDisplay0A13LabelProviderV
++ _symbolic So13UIWindowSceneCSgXw
++ _symbolic So16BMBiomeSchedulerC
++ _symbolic So26CHSWidgetDisplayPropertiesC
++ _symbolic So27CHSSessionPlatterDescriptorCSg
++ _symbolic So29FBSMutableSceneClientSettingsCIghg_
++ _symbolic So34CHUISWatchComplicationsWidgetSceneC
++ _symbolic So39UIApplicationSceneSettingsDiffInspectorCSg
++ _symbolic So45CHUISWatchComplicationsWidgetSnapshotMetadataCSg
++ _symbolic So55CHUISWatchComplicationsWidgetSceneSettingsDiffInspectorCSg
++ _symbolic So7BPSSinkCyyXlGSg
++ _symbolic _____ 11ActivityKit0A10DescriptorV
++ _symbolic _____ 11ActivityKit22RemoteSubscriptionTypeO
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 14WidgetRenderer012XcodePreviewaB6ClientC
++ _symbolic _____ 14WidgetRenderer016_DefaultActivityB14SessionFactoryC
++ _symbolic _____ 14WidgetRenderer016_DefaultActivityB7SessionC
++ _symbolic _____ 14WidgetRenderer017WatchComplicationA4ViewV
++ _symbolic _____ 14WidgetRenderer018WatchComplicationsA26SceneContentViewControllerC
++ _symbolic _____ 14WidgetRenderer018WatchComplicationsA9ViewModelC
++ _symbolic _____ 14WidgetRenderer018WatchComplicationsA9ViewModelC5StyleO
++ _symbolic _____ 14WidgetRenderer022WatchComplicationsLiveA9ViewModelC
++ _symbolic _____ 14WidgetRenderer08ActivityB10SessionKeyC
++ _symbolic _____ 14WidgetRenderer08ActivityB10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLO
++ _symbolic _____ 14WidgetRenderer08ActivityB20ServiceXPCDefinitionV
++ _symbolic _____ 14WidgetRenderer08ActivityB21InitializationPayloadV
++ _symbolic _____ 14WidgetRenderer08ActivityB21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLO
++ _symbolic _____ 14WidgetRenderer08ActivityB26SessionSubscriptionRequestC
++ _symbolic _____ 14WidgetRenderer08ActivityB26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLO
++ _symbolic _____ 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV
++ _symbolic _____ 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLO
++ _symbolic _____ 14WidgetRenderer08ActivityB6ClientC
++ _symbolic _____ 14WidgetRenderer0A12ArchiveEntryC
++ _symbolic _____ 14WidgetRenderer0A14ArchiveServiceC
++ _symbolic _____ 14WidgetRenderer0A19ArchiveServiceStoreC
++ _symbolic _____ 14WidgetRenderer0A21ArchiveEntryAssertionC
++ _symbolic _____ 14WidgetRenderer0A36ActivityInstanceContentConfigurationV
++ _symbolic _____ 14WidgetRenderer0A8ServicesC
++ _symbolic _____ 14WidgetRenderer0B8ServicesO
++ _symbolic _____ 14WidgetRenderer11BugReporterC
++ _symbolic _____ 14WidgetRenderer12ActivityViewV
++ _symbolic _____ 14WidgetRenderer12ViewDecodersC
++ _symbolic _____ 14WidgetRenderer16ActivityServicesC
++ _symbolic _____ 14WidgetRenderer17ActivityViewModelC
++ _symbolic _____ 14WidgetRenderer19CarPlayExpandedViewV
++ _symbolic _____ 14WidgetRenderer19CarPlayListItemViewV
++ _symbolic _____ 14WidgetRenderer19_JindoAccessoryViewC
++ _symbolic _____ 14WidgetRenderer20ActivityArchiveEntryC
++ _symbolic _____ 14WidgetRenderer20AmbientSceneDelegateC
++ _symbolic _____ 14WidgetRenderer21ActivitySceneDelegateC
++ _symbolic _____ 14WidgetRenderer21ListItemSceneDelegateC
++ _symbolic _____ 14WidgetRenderer21_RenderEffectsContextV
++ _symbolic _____ 14WidgetRenderer22ActivityArchiveServiceC
++ _symbolic _____ 14WidgetRenderer22InProcessLaunchHandlerV
++ _symbolic _____ 14WidgetRenderer23CompactLiveActivityViewV
++ _symbolic _____ 14WidgetRenderer24ActivityViewChangeReasonO
++ _symbolic _____ 14WidgetRenderer24_EmptyJindoAccessoryViewC
++ _symbolic _____ 14WidgetRenderer25ActivityErrorViewModifierV
++ _symbolic _____ 14WidgetRenderer25ActivitySceneDelegateBaseC
++ _symbolic _____ 14WidgetRenderer25BugReportingObjectCounterC
++ _symbolic _____ 14WidgetRenderer26JindoActivitySceneDelegateC
++ _symbolic _____ 14WidgetRenderer26_RenderEffectsViewModifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____ 14WidgetRenderer27ActivityArchiveServiceStoreC
++ _symbolic _____ 14WidgetRenderer27ActivityBannerSceneDelegateC
++ _symbolic _____ 14WidgetRenderer27ActivityContentSizeModifier33_F6F15B4D3A488C549784D141E7F19913LLV
++ _symbolic _____ 14WidgetRenderer27AmbientCompactSceneDelegateC
++ _symbolic _____ 14WidgetRenderer27SingleActivitySceneDelegateC
++ _symbolic _____ 14WidgetRenderer28ActivityLaunchRequestBuilderC
++ _symbolic _____ 14WidgetRenderer28CarPlayActivitySceneDelegateC
++ _symbolic _____ 14WidgetRenderer29ActivityArchiveEntryAssertion33_AAAF5E0B91342CB37DBE996ED544FA1CLLC
++ _symbolic _____ 14WidgetRenderer29ActivityContentDidChangeEventV
++ _symbolic _____ 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLO
++ _symbolic _____ 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV
++ _symbolic _____ 14WidgetRenderer29InProcessActivityInstanceBaseC
++ _symbolic _____ 14WidgetRenderer29_JindoAccessoryViewControllerC
++ _symbolic _____ 14WidgetRenderer30InProcessJindoActivityInstanceC
++ _symbolic _____ 14WidgetRenderer30_InProcessActivityInstanceViewV
++ _symbolic _____ 14WidgetRenderer33InProcessListItemActivityInstanceC
++ _symbolic _____ 14WidgetRenderer33_UIComposedViewWithVibrancyFilter33_378CA5B31CE91C170433E67C5DF10459LLC
++ _symbolic _____ 14WidgetRenderer34ActivitySceneContentViewControllerC
++ _symbolic _____ 14WidgetRenderer34InProcessJindoActivityInstanceViewV
++ _symbolic _____ 14WidgetRenderer35ActivityViewModelSecurityDataSource33_5C8471822765AF2C6E3BB50E2CBFE58DLLC
++ _symbolic _____ 14WidgetRenderer35SystemApertureElementViewControllerC
++ _symbolic _____ 14WidgetRenderer37InProcessListItemActivityInstanceViewV
++ _symbolic _____ 14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProviderC
++ _symbolic _____ 18ActivityUIServices0A14MetricsRequestC
++ _symbolic _____ 18ActivityUIServices0A16InstanceIdentityV
++ _symbolic _____ 18ActivityUIServices0A18InstanceJindoStateO
++ _symbolic _____ 18ActivityUIServices0A5SceneC
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO0A8SettingsV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO0A8SettingsV0A12PayloadIDKeyV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO0A8SettingsV0A13DescriptorKeyV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO0A8SettingsV0A17MetricsRequestKeyV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO0A8SettingsV30WantsBaseContentTouchEventsKeyV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO19ApplicationSettingsV
++ _symbolic _____ 18ActivityUIServices18SceneSettingScopesO19ApplicationSettingsV8FrameKeyV
++ _symbolic _____ 18ActivityUIServices25SceneSettingDynamicLookupO
++ _symbolic _____ 19ComplicationDisplay0A17CurvedTextMetricsV
++ _symbolic _____ 19ComplicationDisplay15MonochromeModelC
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV14WidgetRendererE22__Key_widgetDescriptor33_526FF4ACE3CF4BD7A515EE07F2FB6A3DLLV
++ _symbolic _____ 9ChronoKit11ActivityKeyV
++ _symbolic _____ 9ChronoKit13ActivityEntryC
++ _symbolic _____ 9ChronoKit40LSApplicationRecordSystemDataURLProviderC
++ _symbolic _____ 9WidgetKit12JindoViewTagO
++ _symbolic _____ 9WidgetKit14ActivityFamilyO
++ _symbolic _____ 9WidgetKit15ActivityViewTagO
++ _symbolic _____ 9WidgetKit25ActivityMetricsDefinitionV
++ _symbolic _____ 9WidgetKit26ActivityUpdateAvailabilityO
++ _symbolic _____ So14CHSColorSchemeV
++ _symbolic _____ So14WRReloadReasonV
++ _symbolic _____ So15CHSWidgetFamilyV
++ _symbolic _____ So18CHSWidgetProximityV
++ _symbolic _____ So20CHSWidgetProximitiesV
++ _symbolic _____ So20UIUserInterfaceStyleV
++ _symbolic _____ So27CHUISWidgetEntryContentTypeV
++ _symbolic _____ So28SBUISystemApertureLayoutModeV
++ _symbolic _____ So29SBUISystemApertureContentRoleV
++ _symbolic _____ So35SBUISystemApertureElementIdentifiera
++ _symbolic _____ So36CDRichComplicationCornerViewPositionV
++ _symbolic _____ So39SBUISystemAperturePresentationBehaviorsV
++ _symbolic _____ s5NeverO
++ _symbolic _____13configuration______13contentCentert 19ComplicationDisplay0A28CurvedLabelViewConfigurationV So7CGPointV
++ _symbolic _____13configuration_t 19ComplicationDisplay0A23CornerViewConfigurationV
++ _symbolic _____13configuration_t 19ComplicationDisplay0A28CurvedLabelViewConfigurationV
++ _symbolic _____3key______5valuet 9ChronoKit14WidgetEntryKeyV 0C8Renderer0c7ArchiveD0C
++ _symbolic _____3key______5valuetSg 9ChronoKit14WidgetEntryKeyV 0C8Renderer0c7ArchiveD0C
++ _symbolic _____6target_SaySo27CHSSessionPlatterDescriptorCG16foundDescriptorst 11ActivityKit17ProcessDescriptorV
++ _symbolic _____Iegn_ 18ActivityUIServices0A13LaunchRequestV
++ _symbolic _____Iegn_Sg 18ActivityUIServices0A13LaunchRequestV
++ _symbolic _____Sg 10Foundation14DateComponentsV
++ _symbolic _____Sg 11ActivityKit0A10DescriptorV
++ _symbolic _____Sg 14WidgetRenderer018WatchComplicationsA9ViewModelC5StyleO
++ _symbolic _____Sg 14WidgetRenderer06TintedA9ViewModelC
++ _symbolic _____Sg 14WidgetRenderer17ActivityViewModelC
++ _symbolic _____Sg 14WidgetRenderer29ActivityContentDidChangeEventV
++ _symbolic _____Sg 14WidgetRenderer29_JindoAccessoryViewControllerC
++ _symbolic _____Sg 14WidgetRenderer34ActivitySceneContentViewControllerC
++ _symbolic _____Sg 14WidgetRenderer35ActivityViewModelSecurityDataSource33_5C8471822765AF2C6E3BB50E2CBFE58DLLC
++ _symbolic _____Sg 14WidgetRenderer35SystemApertureElementViewControllerC
++ _symbolic _____Sg 16SessionAssertion012PresentationB0C
++ _symbolic _____Sg 18ActivityUIServices08ArchivedA6FamilyO
++ _symbolic _____Sg 18ActivityUIServices0A13LaunchRequestV
++ _symbolic _____Sg 19ComplicationDisplay0A13LabelProviderV
++ _symbolic _____Sg 19ComplicationDisplay0A23CornerViewConfigurationV12InnerContentO
++ _symbolic _____Sg 19ComplicationDisplay0A23CurvedTextConfigurationV
++ _symbolic _____Sg 7SwiftUI13AnyShapeStyleV
++ _symbolic _____Sg 7SwiftUI15LayoutDirectionO
++ _symbolic _____Sg 7SwiftUI17ContentTransitionV
++ _symbolic _____Sg 7SwiftUI19WatchDisplayVariantO
++ _symbolic _____Sg 7SwiftUI27WidgetAuxiliaryViewMetadataV4TextV0F0V4KindO
++ _symbolic _____Sg 7SwiftUI27WidgetAuxiliaryViewMetadataV5GaugeV
++ _symbolic _____Sg 7SwiftUI27WidgetAuxiliaryViewMetadataV8ProgressV
++ _symbolic _____Sg 9ChronoKit20EnvironmentModifiersV
++ _symbolic _____Sg 9WidgetKit0A9ProximityV
++ _symbolic _____Sg 9WidgetKit22JindoMetricsDefinitionV
++ _symbolic _____Sg 9WidgetKit25ActivityMetricsDefinitionV
++ _symbolic _____Sg 9WidgetKit30ActivityArchivedViewCollectionV
++ _symbolic _____Sg So27CHUISWidgetEntryContentTypeV
++ _symbolic _____Sg So35SBUISystemApertureElementIdentifiera
++ _symbolic _____Sg So36CDRichComplicationCornerViewPositionV
++ _symbolic _____Sg So7CGPointV
++ _symbolic _____SgXw 14WidgetRenderer016_DefaultActivityB7SessionC
++ _symbolic _____SgXw 14WidgetRenderer018WatchComplicationsA26SceneContentViewControllerC
++ _symbolic _____SgXw 14WidgetRenderer022WatchComplicationsLiveA9ViewModelC
++ _symbolic _____SgXw 14WidgetRenderer0A14ArchiveServiceC
++ _symbolic _____SgXw 14WidgetRenderer0A19ArchiveServiceStoreC
++ _symbolic _____SgXw 14WidgetRenderer0A21ArchiveEntryAssertionC
++ _symbolic _____SgXw 14WidgetRenderer11AppDelegateC
++ _symbolic _____SgXw 14WidgetRenderer17ActivityViewModelC
++ _symbolic _____SgXw 14WidgetRenderer21ActivitySceneDelegateC
++ _symbolic _____SgXw 14WidgetRenderer22ActivityArchiveServiceC
++ _symbolic _____SgXw 14WidgetRenderer25ActivitySceneDelegateBaseC
++ _symbolic _____SgXw 14WidgetRenderer26JindoActivitySceneDelegateC
++ _symbolic _____SgXw 14WidgetRenderer27ActivityArchiveServiceStoreC
++ _symbolic _____SgXw 14WidgetRenderer29ActivityArchiveEntryAssertion33_AAAF5E0B91342CB37DBE996ED544FA1CLLC
++ _symbolic _____SgXw 14WidgetRenderer29InProcessActivityInstanceBaseC
++ _symbolic _____SgXw 14WidgetRenderer34ActivitySceneContentViewControllerC
++ _symbolic _____SgXw 14WidgetRenderer35SystemApertureElementViewControllerC
++ _symbolic _____SgXw 14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProviderC
++ _symbolic _____SgXw 18ActivityUIServices0A5SceneC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer016_DefaultActivityB7SessionC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer018WatchComplicationsA26SceneContentViewControllerC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer022WatchComplicationsLiveA9ViewModelC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer0A21ArchiveEntryAssertionC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer21ActivitySceneDelegateC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer25ActivitySceneDelegateBaseC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer26JindoActivitySceneDelegateC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer29ActivityArchiveEntryAssertion33_AAAF5E0B91342CB37DBE996ED544FA1CLLC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer29InProcessActivityInstanceBaseC
++ _symbolic _____SgXwz_Xx 14WidgetRenderer35SystemApertureElementViewControllerC
++ _symbolic _____SgXwz_Xx 18ActivityUIServices0A5SceneC
++ _symbolic _____Sg_ABt 10Foundation14DateComponentsV
++ _symbolic _____Sg_ABt 18ActivityUIServices08ArchivedA6FamilyO
++ _symbolic _____Sg_ABt 7SwiftUI15LayoutDirectionO
++ _symbolic _____Sg_ABt 9WidgetKit0A9ProximityV
++ _symbolic _____Sg______pSgIegng_ 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV s5ErrorP
++ _symbolic ______So16UIViewControllerCXc 7SwiftUI18_UIHostingViewableP
++ _symbolic ______So6UIViewCXcSg So31SBUISystemApertureAccessoryViewP
++ _symbolic ___________Xc 7SwiftUI18_UIHostingViewableP 14WidgetRenderer23SecureHostingControllerC
++ _symbolic ___________p 9ChronoKit27ActivityDescriptorProvidingP 14WidgetRenderer0cD9ReloadingP
++ _symbolic ___________y__________GAAt 14WidgetRenderer30_InProcessActivityInstanceViewV 7SwiftUI15ModifiedContentV AD6SpacerV AD12_FrameLayoutV
++ _symbolic ______p 14WidgetRenderer08ActivityB14SessionFactoryP
++ _symbolic ______p 14WidgetRenderer08ActivityB15ClientInterfaceP
++ _symbolic ______p 14WidgetRenderer0A14EntryAssertionP
++ _symbolic ______p 14WidgetRenderer0A18ViewSecurityPolicyP
++ _symbolic ______p 14WidgetRenderer12BugReportingP
++ _symbolic ______p 14WidgetRenderer22ActivityEntryAssertionP
++ _symbolic ______p 14WidgetRenderer22ServiceFacadeInterfaceP
++ _symbolic ______p 9ChronoKit20ActivityCacheReadingP
++ _symbolic ______p 9ChronoKit20EnvironmentProvidingP
++ _symbolic ______p 9ChronoKit22ConfigurationServicingP
++ _symbolic ______p 9ChronoKit25ActivityCacheKeyProvidingP
++ _symbolic ______p 9ChronoKit27ActivityDescriptorProvidingP
++ _symbolic ______p So34WRActivityRendererServiceXPCServerP
++ _symbolic ______p s7CVarArgP
++ _symbolic ______pSg 14WidgetRenderer08ActivityB7SessionP
++ _symbolic ______pSg 14WidgetRenderer0A17ServicesInterfaceP
++ _symbolic ______pSg 14WidgetRenderer22ActivityEntryAssertionP
++ _symbolic ______pSg 14WidgetRenderer25ActivityServicesInterfaceP
++ _symbolic ______pSg 16ChronoUIServices27ClientEnvironmentDataSourceP
++ _symbolic ______pSg 9ChronoKit20EnvironmentProvidingP
++ _symbolic _____m 14WidgetRenderer0A19ArchiveServiceStoreC
++ _symbolic _____m 14WidgetRenderer25ActivitySceneDelegateBaseC
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG_____G_____G_____GA10_G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV AA017_AllowsHitTestingV0V 0L8Renderer012DebugMarginseV0V A19_0le8ClippingV0V AA017_AppearanceActionV0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG_____G_____G_____GA10_G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV AA017_AllowsHitTestingV0V 0L8Renderer012DebugMarginseV0V A19_0le8ClippingV0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV AA017_AllowsHitTestingV0V 0L8Renderer012DebugMarginseV0V A19_0le8ClippingV0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV AA017_AllowsHitTestingV0V 0L8Renderer012DebugMarginseV0V
++ _symbolic _____yAAyAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV AA017_AllowsHitTestingV0V
++ _symbolic _____yAAyAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G_____y_____yAByAeByAE_____GGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV AA011_BackgroundV0V AA5GroupV AA5ColorV
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____yAAy_____y______Qo______y_____SgGG_Qo__Qo__Qo______y_____GG_____G_____y_____GG_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicgH0OFQO AeAE10fontDesignyQrAA4FontV0K0OSgFQO AeAE0J6WeightyQrAK0M0VSgFQO AeAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AK AA016_ForegroundStyleV0V AA017HierarchicalShapeX0V AA16_FlexFrameLayoutV AA06_TraituV0V AA019LayoutPriorityTraitT0V AA14_PaddingLayoutV AA01_dzV0V AA9RectangleV 14WidgetRenderer026LiveActivityLaunchHandlingV0V
++ _symbolic _____yAAyAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGGA10_G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV
++ _symbolic _____yAAyAAyAAyAAy_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____yAAy_____y______Qo______y_____SgGG_Qo__Qo__Qo______y_____GG_____G_____y_____GG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrAA07DynamicgH0OFQO AeAE10fontDesignyQrAA4FontV0K0OSgFQO AeAE0J6WeightyQrAK0M0VSgFQO AeAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AK AA016_ForegroundStyleV0V AA017HierarchicalShapeX0V AA16_FlexFrameLayoutV AA06_TraituV0V AA019LayoutPriorityTraitT0V AA14_PaddingLayoutV AA01_dzV0V AA9RectangleV
++ _symbolic _____yAAyAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGGAWySo0A14TintParametersCSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV
++ _symbolic _____yAAyAAyAAy_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV
++ _symbolic _____yAAyAAy__________GACG_____G 7SwiftUI15ModifiedContentV 14WidgetRenderer12ActivityViewV AA25_AppearanceActionModifierV AD0gd4SizeK033_F6F15B4D3A488C549784D141E7F19913LLV
++ _symbolic _____yAAyAAy__________G_____GAEG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V
++ _symbolic _____yAAyAAy__________G_____GAEGSg 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V
++ _symbolic _____yAAyAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGGAWySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV
++ _symbolic _____yAAyAAy_____y_____G_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 14WidgetRenderer08Activityd4SizeF033_F6F15B4D3A488C549784D141E7F19913LLV AA12_FrameLayoutV AA06_FixedjU0V AA11_ClipEffectV AA9RectangleV
++ _symbolic _____yAAyAAy_____y_____yAAy_____yAAyAAy_____y__________G_____G_____GAHG_____G_Qo__Qo______GAPG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AN014_RenderEffectsE8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV AA25_AppearanceActionModifierV AA20_ValueActionModifierV AN010_InProcessR18InstanceComparableAYLLV
++ _symbolic _____yAAyAAy_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV 14WidgetRenderer12ActivityViewV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy__________y_____GG_____yAAyAAyAF_____G_____GGG 7SwiftUI15ModifiedContentV AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayJ0V AA12_ScaleEffectV AA05_BlurO0V
++ _symbolic _____yAAy__________y_____y_____y_____GABGGG_____G 7SwiftUI15ModifiedContentV AA5ColorV AA16_OverlayModifierV AA10_ShapeViewV AA08_StrokedH0V AA9RectangleV6_InsetV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____yAAyAByAAyAByAAyAAyAAyAAyAAyAAy_____yAByAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____GAWG_____GAZGAJG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V AP015SystemURLActionfU0V AA017_AppearanceActionU0V
++ _symbolic _____yAAy_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGGAWy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI AG0G10ComponentsV
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 14WidgetRenderer08Activityd4SizeF033_F6F15B4D3A488C549784D141E7F19913LLV AA12_FrameLayoutV AA06_FixedjU0V
++ _symbolic _____yAAy_____y_____yAAy_____yAAyAAy_____y__________G_____G_____GAHG_____G_Qo__Qo______GAPG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AN014_RenderEffectsE8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V
++ _symbolic _____yAAy_____y_____ySay_____G_____GAByACyytAFGAByAhAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yAIy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAIyAlIyAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAAyAAy_____yAKyAIy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGG 7SwiftUI15ModifiedContentV AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivejF12ChangeReasonO s5NeverO AA0F0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleF0V AO0J3KitE05showsD5LayeryQrA_0jdX0OFQO AA0hF0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AS AQ0Q10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AI012DebugMarginsF8ModifierV AI0jF16ClippingModifierV AA25_AppearanceActionModifierV AI011Interactivej5SetupF8ModifierV AA6VStackV AA4TextV AA4FontV
++ _symbolic _____yAAy_____y_____y_____GGAEG_____yAEGG 7SwiftUI19_ConditionalContentV 14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_i9Modifier_D0V AD0geR0AFLLV AD0ge11DesaturatedI0AFLLV
++ _symbolic _____yAAy_____y_____y_____y______Qo_______yAFy__________y_____GG_____yAFyAFyAK_____G_____GGGAEtGGADGADG 7SwiftUI19_ConditionalContentV AA6ZStackV AA9TupleViewV AA0G0P9WidgetKitE05showsD5LayeryQrAJ0hdK0OFQO AA03AnyG0V AA08ModifiedD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayS0V AA12_ScaleEffectV AA05_BlurX0V
++ _symbolic _____yAAyx_____yxGGAAy_____y_____xG_____yAFGGG 7SwiftUI19_ConditionalContentV 19ComplicationDisplay06CornerE4ViewV AD0e13CircularBezelH0V AA05EmptyH0V AD0e11CurvedLabelH0V
++ _symbolic _____ySSSgG 7SwiftUI5StateV
++ _symbolic _____ySSSg_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySbSgG 7SwiftUI10AppStorageV
++ _symbolic _____ySb_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____ySb_____G 7Combine19CurrentValueSubjectC s5NeverO
++ _symbolic _____ySdG 7SwiftUI5StateV
++ _symbolic _____ySdSg_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySd_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySfG 7SwiftUI5StateV
++ _symbolic _____ySf_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____yShySo18CHSWidgetExtensionCG_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____yShySo18CHSWidgetExtensionCG_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____ySiG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySiGSg 7SwiftUI11AnyLocationC
++ _symbolic _____ySi_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____ySo18CHSWidgetExtensionC_G Sh5IndexV
++ _symbolic _____ySo19CHSWidgetDescriptorCSgG 7SwiftUI11EnvironmentV
++ _symbolic _____ySo19CHSWidgetDescriptorCSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySo27CHSSessionPlatterDescriptorCG 9ChronoKit20DescriptorCollectionC
++ _symbolic _____ySo27CHSSessionPlatterDescriptorCGSg 9ChronoKit20DescriptorCollectionC
++ _symbolic _____ySuG 7Combine9PublishedV
++ _symbolic _____y_____ABG 14WidgetRenderer19CarPlayExpandedViewV AA08ActivityF0V
++ _symbolic _____y_____ABG 7SwiftUI12ProgressViewV AA05EmptyD0V
++ _symbolic _____y_____G 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic _____y_____G 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ExtensionO
++ _symbolic _____y_____G 14WidgetRenderer0A24ViewSecurityPolicyResultO 0A3Kit016ActivityArchivedC10CollectionV0C5EntryV
++ _symbolic _____y_____G 14WidgetRenderer25BugReportingObjectCounterC 18ActivityUIServices0G5SceneC
++ _symbolic _____y_____G 19ComplicationDisplay0A15CurvedLabelViewV 7SwiftUI05EmptyE0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 14WidgetRenderer018WatchComplicationsE9ViewModelC
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 14WidgetRenderer17ActivityViewModelC
++ _symbolic _____y_____G 7SwiftUI19_BackgroundModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 14WidgetRenderer013ActivityErrorcD0V
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 14WidgetRenderer014_RenderEffectscD033_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 14WidgetRenderer08Activitye4SizeD033_F6F15B4D3A488C549784D141E7F19913LLV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA08AnyShapeD0V
++ _symbolic _____y_____G 7SwiftUI5StateV AA7AnyViewV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14WidgetRenderer08ActivityE10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14WidgetRenderer08ActivityE21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14WidgetRenderer08ActivityE26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14WidgetRenderer08ActivityE27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14WidgetRenderer08ActivityE10SessionKeyC10CodingKeys33_73FF3D2752656C0302751BC70D264DFALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14WidgetRenderer08ActivityE21InitializationPayloadV10CodingKeys33_C07B6727EE5EA86618C27E15231EA7ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14WidgetRenderer08ActivityE26SessionSubscriptionRequestC10CodingKeys33_76E92E3FA55AD274572781889D58E88BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14WidgetRenderer08ActivityE27SessionSubscriptionResponseV10CodingKeys33_F5B07E9D47B33203D9ADDC028FA6E680LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 14WidgetRenderer29ActivityContentDidChangeEventV10CodingKeys33_290C2266F599293132E7B77B463A7705LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ComplicationDisplay0D13LabelProviderV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit15ActivityViewTagO
++ _symbolic _____y_____GSg 14ChronoServices15TypedIdentifierV AA0D4TypeO6BundleO9ContainerO
++ _symbolic _____y_____GSg 14WidgetRenderer0A24ViewSecurityPolicyResultO AA07Defaulta4LiveC5EntryO
++ _symbolic _____y_____G___________y_____y_____AGG_____yADSgGGt 7SwiftUI21_ViewModifier_ContentV 14WidgetRenderer013ActivityErrorcD0V AA5ColorV AA08ModifiedE0V AA08ProgressC0V AA05EmptyC0V AA022_EnvironmentKeyWritingD0V
++ _symbolic _____y_____SgG 7Combine9PublishedV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV AA13AnyShapeStyleV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV 10Foundation14DateComponentsV
++ _symbolic _____y_____SgG 7SwiftUI5StateV AA5ColorV
++ _symbolic _____y_____SgG 7SwiftUI5StateV So6CGSizeV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 7SwiftUI11ColorSchemeO s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 9WidgetKit30ActivityArchivedViewCollectionV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine18PassthroughSubjectC 7SwiftUI11ColorSchemeO s5NeverO
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA11ColorSchemeO
++ _symbolic _____y______Qo_ 7SwiftUI4ViewP9WidgetKitE17showsContentLayeryQrAD0dgH0OFQO AA03AnyC0V
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyC0V
++ _symbolic _____y______Qo_______yACy__________y_____GG_____yACyACyAH_____G_____GGGABt 7SwiftUI4ViewP9WidgetKitE17showsContentLayeryQrAD0dgH0OFQO AA03AnyC0V AA08ModifiedG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayP0V AA12_ScaleEffectV AA05_BlurU0V
++ _symbolic _____y__________G 7Combine12AnyPublisherV 11ActivityKit22RemoteSubscriptionTypeO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 14WidgetRenderer24ActivityViewChangeReasonO s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 14WidgetRenderer29ActivityContentDidChangeEventV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV 9ChronoKit30ActivityDescriptorsChangeEventV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV So6CGRectV s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 11ActivityKit22RemoteSubscriptionTypeO s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 14WidgetRenderer24ActivityViewChangeReasonO s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 14WidgetRenderer29ActivityContentDidChangeEventV s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 9ChronoKit28WidgetDescriptorsChangeEventV s5NeverO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14WidgetRenderer12ActivityViewV AA25_AppearanceActionModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ColorV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 9ChronoKit17VariantIdentifierV AA11ActivityKeyV AA0ecF0V
++ _symbolic _____y__________G s18_DictionaryStorageC 14WidgetRenderer08ActivityD10SessionKeyC AC0edF19SubscriptionRequestC
++ _symbolic _____y__________G s18_DictionaryStorageC 9ChronoKit14WidgetEntryKeyV 0E8Renderer0e7ArchiveF0C
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 9WidgetKit21ViewableTimelineEntryV 06ChronoC00bF0C0bF5ErrorO
++ _symbolic _____y__________G s7KeyPathC 18ActivityUIServices18SceneSettingScopesO0C8SettingsV AG027WantsBaseContentTouchEventsA0V
++ _symbolic _____y__________G s7KeyPathC 18ActivityUIServices18SceneSettingScopesO19ApplicationSettingsV AG05FrameA0V
++ _symbolic _____y__________G3key______5valuet 9ChronoKit17VariantIdentifierV AA11ActivityKeyV AA0ecF0V 14WidgetRenderer0E12ArchiveEntryC
++ _symbolic _____y__________G3key______5valuetSg 9ChronoKit17VariantIdentifierV AA11ActivityKeyV AA0ecF0V 14WidgetRenderer0E12ArchiveEntryC
++ _symbolic _____y__________GSg 7Combine12AnyPublisherV 11ActivityKit22RemoteSubscriptionTypeO s5NeverO
++ _symbolic _____y__________GSg 7Combine12AnyPublisherV 14WidgetRenderer29ActivityContentDidChangeEventV s5NeverO
++ _symbolic _____y__________GSg 7Combine12AnyPublisherV 7SwiftUI17EnvironmentValuesV s5NeverO
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO 14WidgetRenderer026_InProcessActivityInstanceC0V AA11ColorSchemeO
++ _symbolic _____y___________y___________y__________GADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 14WidgetRenderer026_InProcessActivityInstanceD0V AA15ModifiedContentV AA6SpacerV AA06_FrameG0V
++ _symbolic _____y___________y_____y_____G___________y_____y_____AJG_____yAGSgGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA01_D16Modifier_ContentV 14WidgetRenderer013ActivityErrordI0V AA5ColorV AA08ModifiedJ0V AA08ProgressD0V AA05EmptyD0V AA022_EnvironmentKeyWritingI0V
++ _symbolic _____y___________y_____y______Qo_______yAFy__________y_____GG_____yAFyAFyAK_____G_____GGGAEtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA0D0P9WidgetKitE17showsContentLayeryQrAL0ilM0OFQO AA03AnyD0V AA08ModifiedL0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayU0V AA12_ScaleEffectV AA05_BlurZ0V
++ _symbolic _____y__________yA2BGG 7SwiftUI19_ConditionalContentV 14WidgetRenderer12ActivityViewV AD015CarPlayExpandedH0V
++ _symbolic _____y__________yA2BG_G 7SwiftUI19_ConditionalContentV7StorageO 14WidgetRenderer12ActivityViewV AF015CarPlayExpandedI0V
++ _symbolic _____y__________y_____y_____y_____G_Qo__Qo_G 7SwiftUI19_ConditionalContentV 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV AA0I0P16ChronoUIServicesE015foregroundGlassH11IfNecessary14tintParameters12cornerRadiusQrSo013CHSWidgetTintR0CSg_12CoreGraphics7CGFloatVtFQO AhIE010backgroundnhoP0AK17includeBackgroundALQrAO_SbARtFQO AA01_i9Modifier_D0V AD014_RenderEffectsI8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y__________y_____y_____y_____G_Qo__Qo__G 7SwiftUI19_ConditionalContentV7StorageO 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV AA0J0P16ChronoUIServicesE015foregroundGlassI11IfNecessary14tintParameters12cornerRadiusQrSo013CHSWidgetTintS0CSg_12CoreGraphics7CGFloatVtFQO AjKE010backgroundoipQ0AM17includeBackgroundANQrAQ_SbATtFQO AA01_j9Modifier_D0V AF014_RenderEffectsJ8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y______ySb_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______ySdSg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______y_____Sg_GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA9PublishedV9PublisherV 12CoreGraphics7CGFloatV
++ _symbolic _____y______y_____Sg_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 9WidgetKit30ActivityArchivedViewCollectionV s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO6FilterV AA12AnyPublisherV 14WidgetRenderer24ActivityViewChangeReasonO s5NeverO
++ _symbolic _____y______y__________GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 9ChronoKit30ActivityDescriptorsChangeEventV s5NeverO
++ _symbolic _____y______y______y__________GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC6FilterV AA12AnyPublisherV 14WidgetRenderer24ActivityViewChangeReasonO s5NeverO
++ _symbolic _____y______yyt_____GG 7Combine10PublishersO12HandleEventsV AA18PassthroughSubjectC s5NeverO
++ _symbolic _____y______yyt_____GShySo18CHSWidgetExtensionCGG 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______yyt_____GSo9NSRunLoopCG 7Combine10PublishersO8DebounceV AA12AnyPublisherV s5NeverO
++ _symbolic _____y______yyt_____G_____G 7Combine10PublishersO3MapV AA12AnyPublisherV s5NeverO 9ChronoKit30ActivityDescriptorsChangeEventV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAy_____yAByAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V
++ _symbolic _____y_____yAAyAAy_____y__________G_____G_____GAHG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04LiveG9EntryViewV 16ChronoUIServices0G8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AH014_RenderEffectsK8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____yAAyAAy_____y_____ySay_____G_____GACyADyytAGGACyAiAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAyAByABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAByAlByAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAAyAAy_____yAKyABy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_GASyAAyAAyAAyA48______yA27_GGA56_G_____GGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____yAAyAByAAyAAyAAyAAyAAyAAy_____yAByAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____GAWG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V AP015SystemURLActionfU0V
++ _symbolic _____y_____yAAyAByAAyAAy_____y_____ySay_____G_____GACyADyytAGGACyAiAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAyAByABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAByAlByAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAAyAAy_____yAKyABy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_GASyAAyAAyAAyA48______yA27_GGA56_G_____GGGA62_G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV AK0K17URLReaderModifierV
++ _symbolic _____y_____yAAyAByAAyAByAAyAAyAAyAAyAAyAAy_____yAByAAy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____GAWG_____GAZGAJG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V AP015SystemURLActionfU0V
++ _symbolic _____y_____yAAyAByAAyAByAAyAAy_____y_____ySay_____G_____GACyADyytAGGACyAiAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAyAByABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAByAlByAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAAyAAy_____yAKyABy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_GASyAAyAAyAAyA48______yA27_GGA56_G_____GGGA62_G_____GA71_G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV AK0K17URLReaderModifierV AK0mK27EntryLaunchHandlingModifierV
++ _symbolic _____y_____yAAyAByAAyAByAByAByAByAByABy_____yAAyABy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____GAWG_____GAZG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V AP015SystemURLActionfU0V
++ _symbolic _____y_____yAAyAByAAyAByABy_____y_____ySay_____G_____GACyADyytAGGACyAiByAByAByAByAByAByAByAByAByAByABy_____yAByAAyAAy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAAyAlAyAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAByABy_____yAKyAAy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_GASyAByAByAByA48______yA27_GGA56_G_____GGGA62_G_____GA71_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV AK0K17URLReaderModifierV
++ _symbolic _____y_____yAAyAByAByAByAByAByABy_____yAAyABy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG_____GAWG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V AP0q6LaunchfU0V
++ _symbolic _____y_____yAAyAByABy_____y_____ySay_____G_____GACyADyytAGGACyAiByAByAByAByAByAByAByAByAByAByABy_____yAByAAyAAy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAAyAlAyAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAByABy_____yAKyAAy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_GASyAByAByAByA48______yA27_GGA56_G_____GGGA62_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____yAAy_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG_Qo_AWy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleE0V AE9WidgetKitE05showsD5LayeryQrAQ0ldO0OFQO AA03AnyE0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayV0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingV0V AI
++ _symbolic _____y_____yAByAByAByAByABy_____yAAyABy_____y______Qo______GADG_Qo______ySbGG_____G_____G_____y_____GGAJG_____GATG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE13referenceDateyQr10Foundation0H0VSgFQO AgAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV AA022_EnvironmentKeyWritingU0V AA012_TransactionU0V AA017_AllowsHitTestingU0V AA01_d5ShapeU0V AA16RoundedRectangleV AP0q9URLReaderU0V
++ _symbolic _____y_____yAByAByAByAByABy_____y_____yABy_____y______Qo______GAEG_Qo______ySbGG_____G_____G_____y_____GGAKG_____GAU_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE13referenceDateyQr10Foundation0I0VSgFQO AC AiAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyG0V 14WidgetRenderer013ActivityErrorG8ModifierV AA022_EnvironmentKeyWritingV0V AA012_TransactionV0V AA017_AllowsHitTestingV0V AA01_d5ShapeV0V AA16RoundedRectangleV AR0r9URLReaderV0V
++ _symbolic _____y_____yAByABy__________GADG_____G_____y_____AJGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 14WidgetRenderer12ActivityViewV AA25_AppearanceActionModifierV AF0hd4SizeL033_F6F15B4D3A488C549784D141E7F19913LLV AA08ProgressI0V AA05EmptyI0V
++ _symbolic _____y_____yAByABy__________GADG_____G_____y_____AJG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 14WidgetRenderer12ActivityViewV AA25_AppearanceActionModifierV AH0id4SizeM033_F6F15B4D3A488C549784D141E7F19913LLV AA08ProgressJ0V AA05EmptyJ0V
++ _symbolic _____y_____yAByABy__________y_____GG_____G_____GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA22ContainerRelativeShapeV AA016_ForegroundStyleD0V AA14LinearGradientV AA12_ScaleEffectV AA05_BlurO0V
++ _symbolic _____y_____yAByABy_____y_____G_____G_____y_____GGAHy_____GGG 14WidgetRenderer16_RootContentView33_C0CA493AD0C736F6E6331C8B29E2CCA4LLV 7SwiftUI08ModifiedD0V AA017WatchComplicationaE0V AA04Livea5EntryE0V AA0uaV22LaunchHandlingModifierV AE017_PreferenceActionY0V 0T7Display0T20CurvedTextMetricsKeyV AP0T16ContainerPathKeyV
++ _symbolic _____y_____yABy_____y_____ySay_____G_____GACyADyytAGGACyAiByAByAByAByAByAByAByAByAByAByABy_____yAByAAyAAy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAAyAlAyAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____GASyAByABy_____yAKyAAy_____A48_GSg_A48_SgA51_A51_tGGA2_y_____SgGGAOyA27_GGGGA46_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA6ZStackV AA05TupleG0V AQ0K3KitE05showsD5LayeryQrA_0kdX0OFQO AA0iG0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AU AS0R10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AK012DebugMarginsG8ModifierV AK0kG16ClippingModifierV AA25_AppearanceActionModifierV AK011Interactivek5SetupG8ModifierV AA6VStackV AA4TextV AA4FontV
++ _symbolic _____y_____yABy_____y_____ySay_____G_____GACyADyytAGGACyAiByAByAByAByAByAByAByAByAByAByABy_____yABy_____yAJy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAS_____G_____GGGANtGGAMGAMG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A3_y_____SgGGA3_y_____SgGGA3_ySbGGA3_ySo0A14TintParametersCSgGGA18_G_____y_____yAJyAmJyAM_____GGGGG_____G_____G_____GA18_G_____GGGG_____GATyAByABy_____yALyAJy_____A49_GSg_A49_SgA52_A52_tGGA3_y_____SgGGAPyA28_GGGGA47__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AC AA6ZStackV AA05TupleH0V AS0L3KitE05showsD5LayeryQrA1_0ldY0OFQO AA0jH0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AW AU0S10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AM012DebugMarginsH8ModifierV AM0lH16ClippingModifierV AA25_AppearanceActionModifierV AM011Interactivel5SetupH8ModifierV AA6VStackV AA4TextV AA4FontV
++ _symbolic _____y_____yABy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAK_____G_____GGGAFtGGAEGAEG_____ySo19CHSWidgetDescriptorCSgGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6ZStackV AA9TupleViewV AA0H0P9WidgetKitE05showsD5LayeryQrAL0idL0OFQO AA03AnyH0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayS0V AA12_ScaleEffectV AA05_BlurX0V AA022_EnvironmentKeyWritingS0V
++ _symbolic _____y_____ySay_____G_____GAAyAByytAEGAAyAG_____yAHyAHyAHyAHyAHyAHyAHyAHyAHyAHy_____yAHy_____yAIy_____y_____y_____y______Qo__AHyAHy__________y_____GG_____yAHyAHyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAIyAlIyAL_____GGGGG_____G_____G_____GA17_G_____GGGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivehD12ChangeReasonO s5NeverO AA15ModifiedContentV AA0D0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA012_ConditionalO0V AA6ZStackV AA05TupleD0V AO0H3KitE05showsO5LayeryQrA_0hoX0OFQO AA0fD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AS AQ0Q10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AG012DebugMarginsD8ModifierV AG0hD16ClippingModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____ySd_____GAAyABySfACGAAyABySbACGAAyABySSSgACGAAyAH_____y_____y_____yAKyAKyAIyAIyAIyx_____G_____G_____GAOGAKyAIyAIyAIyAM_____GANGAPGAUGGAIyx_____GGG_____GGGGGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV s5NeverO AA15ModifiedContentV AA5GroupV AA012_ConditionalJ0V AA012_CompositingK6EffectV AA025_PremultipliedColorMatrixN0V AA01_p8MultiplyN0V AA017_LuminanceToAlphaN0V AA021_ForegroundLayerLevelpqN0V AA08_OpacityN0V
++ _symbolic _____y_____y_____ACGSg_ACSgA2FtG 7SwiftUI9TupleViewV AA19_ConditionalContentV AA4TextV
++ _symbolic _____y_____y_____ACG_____y_____SgGG 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____y_____GGSg 14ChronoServices20DeviceScopedIdentityV AA15TypedIdentifierV AA0G4TypeO10WidgetHostO
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewP16ChronoUIServicesE32backgroundGlassEffectIfNecessary14tintParameters17includeBackground12cornerRadiusQrSo013CHSWidgetTintL0CSg_Sb12CoreGraphics7CGFloatVtFQO AA01_C16Modifier_ContentV 14WidgetRenderer014_RenderEffectscV033_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____y_____G_____G 7SwiftUI10_ShapeViewV AA08_StrokedC0V AA9RectangleV6_InsetV AA5ColorV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 14WidgetRenderer08Activityd4SizeF033_F6F15B4D3A488C549784D141E7F19913LLV AA12_FrameLayoutV
++ _symbolic _____y_____y______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV
++ _symbolic _____y_____y__________GAAyAByytADG_____yAGy_____yAGyAHyAGyAHyAGyAGyAGyAGyAGyAGy_____yAHyAGy_____y______Qo______GAJG_Qo______ySbGG_____G_____G_____y_____GGAPG_____GAZG_____GA1_G_____GA4_GAPG_____GGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer08ActivityD12ChangeReasonO s5NeverO AA15ModifiedContentV AA012_ConditionalO0V AA0D0PAAE13referenceDateyQr10Foundation0R0VSgFQO AqAE38addingHandGestureShortcutPlatformLayerQryFQO AA0fD0V AG0j5ErrorD8ModifierV AA30_EnvironmentKeyWritingModifierV AA20_TransactionModifierV AA25_AllowsHitTestingModifierV AA01_O13ShapeModifierV AA16RoundedRectangleV AG0H17URLReaderModifierV AG0h6LaunchD8ModifierV AG015SystemURLActionD8ModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y__________GG s23_ContiguousArrayStorageC 9ChronoKit17VariantIdentifierV AC11ActivityKeyV AC0hfI0V
++ _symbolic _____y_____y__________G_____G s18_DictionaryStorageC 9ChronoKit17VariantIdentifierV AC11ActivityKeyV AC0geH0V 14WidgetRenderer0G12ArchiveEntryC
++ _symbolic _____y_____y__________G_____yAFyAFy_____y_____G_____G_____G_____y_____GGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer08ActivityD12ChangeReasonO s5NeverO AA15ModifiedContentV AA01_d9Modifier_O0V AG0jo4SizeP033_F6F15B4D3A488C549784D141E7F19913LLV AA12_FrameLayoutV AA06_FixedQ6LayoutV AA11_ClipEffectV AA9RectangleV
++ _symbolic _____y_____y__________G_____y_____y__________yA2HGGSgGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer08ActivityD12ChangeReasonO s5NeverO AA5GroupV AA19_ConditionalContentV AG0jD0V AG015CarPlayExpandedD0V
++ _symbolic _____y_____y___________y__________GACtGG 7SwiftUI6HStackV AA9TupleViewV 14WidgetRenderer026_InProcessActivityInstanceE0V AA15ModifiedContentV AA6SpacerV AA12_FrameLayoutV
++ _symbolic _____y_____y_____yAAyAAyAAy_____y_____yx______q_tGG_____y_____GG_____G_____y_____GGG_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA6HStackV AA05TupleC0V AA6SpacerV AA21_TraitWritingModifierV AA014LayoutPriorityM3KeyV AA08_PaddingP0V AA01_i5ShapeO0V AA9RectangleV AA011_BackgroundO0V AA5ColorV AA05PlaingE0V
++ _symbolic _____y_____y_____yAAyAAy_____y__________G_____G_____GAHG_____G_Qo_ 7SwiftUI4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA15ModifiedContentV AA012_ConditionalK0V AA6IDViewV 14WidgetRenderer04Liven5EntryC0V 16ChronoUIServices0N8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AK014_RenderEffectsC8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____y_____yAAy_____yAAyAAy_____y__________G_____G_____GAHG_____G_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AN014_RenderEffectsE8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yAAy_____y______Qo______GADG_Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA012_ConditionalD0V AeAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyE0V 14WidgetRenderer013ActivityErrorE8ModifierV AA022_EnvironmentKeyWritingU0V
++ _symbolic _____y_____y_____yAAyxSg_____GSg_AAyAAyq_Sg_____GAEGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA14_OpacityEffectV 14WidgetRenderer06TintedJ8Modifier33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA022_EnvironmentKeyWritingM0V So30CHSTintAccentedDesaturatedModeV
++ _symbolic _____y_____y_____yAByAByAByAByAByABy_____yACyABy_____y______Qo______GAEG_Qo______ySbGG_____G_____G_____y_____GGAKG_____GAUG_____GAX_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA4ViewPAAE13referenceDateyQr10Foundation0I0VSgFQO AiAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyG0V 14WidgetRenderer013ActivityErrorG8ModifierV AA022_EnvironmentKeyWritingV0V AA012_TransactionV0V AA017_AllowsHitTestingV0V AA01_d5ShapeV0V AA16RoundedRectangleV AR0r9URLReaderV0V AR0r6LaunchgV0V
++ _symbolic _____y_____y_____yAByABy_____y_____ySay_____G_____GADyAEyytAHGADyAjByAByAByAByAByAByAByAByAByAByABy_____yAByACyACy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAS_____G_____GGGANtGGAMGAMG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A3_y_____SgGGA3_y_____SgGGA3_ySbGGA3_ySo0A14TintParametersCSgGGA18_G_____y_____yACyAmCyAM_____GGGGG_____G_____G_____GA18_G_____GGGG_____GATyAByABy_____yALyACy_____A49_GSg_A49_SgA52_A52_tGGA3_y_____SgGGAPyA28_GGGGA47_GATyAByAByAByA49______yA28_GGA57_G_____GGGA63__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AA6ZStackV AA05TupleH0V AS0L3KitE05showsD5LayeryQrA1_0ldY0OFQO AA0jH0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AW AU0S10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AM012DebugMarginsH8ModifierV AM0lH16ClippingModifierV AA25_AppearanceActionModifierV AM011Interactivel5SetupH8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAByACyAByAByAByAByAByABy_____yACyABy_____y______Qo______GAEG_Qo______ySbGG_____G_____G_____y_____GGAKG_____GAUG_____GAXG_____GA__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA4ViewPAAE13referenceDateyQr10Foundation0I0VSgFQO AiAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyG0V 14WidgetRenderer013ActivityErrorG8ModifierV AA022_EnvironmentKeyWritingV0V AA012_TransactionV0V AA017_AllowsHitTestingV0V AA01_d5ShapeV0V AA16RoundedRectangleV AR0r9URLReaderV0V AR0r6LaunchgV0V AR015SystemURLActiongV0V
++ _symbolic _____y_____y_____yAByACyAByABy_____y_____ySay_____G_____GADyAEyytAHGADyAjByAByAByAByAByAByAByAByAByAByABy_____yAByACyACy_____y_____y_____y______Qo__AByABy__________y_____GG_____yAByAByAS_____G_____GGGANtGGAMGAMG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A3_y_____SgGGA3_y_____SgGGA3_ySbGGA3_ySo0A14TintParametersCSgGGA18_G_____y_____yACyAmCyAM_____GGGGG_____G_____G_____GA18_G_____GGGG_____GATyAByABy_____yALyACy_____A49_GSg_A49_SgA52_A52_tGGA3_y_____SgGGAPyA28_GGGGA47_GATyAByAByAByA49______yA28_GGA57_G_____GGGA63_G_____GA72__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AA6ZStackV AA05TupleH0V AS0L3KitE05showsD5LayeryQrA1_0ldY0OFQO AA0jH0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AW AU0S10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AM012DebugMarginsH8ModifierV AM0lH16ClippingModifierV AA25_AppearanceActionModifierV AM011Interactivel5SetupH8ModifierV AA6VStackV AA4TextV AA4FontV AA24_BackgroundStyleModifierV AA14_PaddingLayoutV AM0L17URLReaderModifierV
++ _symbolic _____y_____y_____yACyACyACyACyACy_____y_____y_____yACy_____y______Qo______y_____SgGG_Qo__Qo__Qo______y_____GG_____G_____y_____GG_____G_____y_____GG_____G_ACyACyACyACy_____yAByx______q_tGGAVGAXGA0_GA2_GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQO AiAE10fontDesignyQrAA4FontV0M0OSgFQO AiAE0L6WeightyQrAO0O0VSgFQO AiAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AO AA016_ForegroundStyleX0V AA017HierarchicalShapeZ0V AA16_FlexFrameLayoutV AA06_TraitwX0V AA019LayoutPriorityTraitV0V AA14_PaddingLayoutV AA01_g5ShapeX0V AA9RectangleV 14WidgetRenderer026LiveActivityLaunchHandlingX0V AA6HStackV AA6SpacerV
++ _symbolic _____y_____y_____yACyACy__________G_____GAGGSg_ACy_____yAByx______q_tGGAGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingK0V AA6HStackV AA6SpacerV
++ _symbolic _____y_____y_____ySay_____G_____GAByACyytAFGAByAhAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____yAAy_____yAIy_____y_____y_____y______Qo__AAyAAy__________y_____GG_____yAAyAAyAR_____G_____GGGAMtGGALGALG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A2_y_____SgGGA2_y_____SgGGA2_ySbGGA2_ySo0A14TintParametersCSgGGA17_G_____y_____yAIyAlIyAL_____GGGGG_____G_____G_____GA17_G_____GGGG_____G 7SwiftUI15ModifiedContentV AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivejF12ChangeReasonO s5NeverO AA0F0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA012_ConditionalD0V AA6ZStackV AA05TupleF0V AO0J3KitE05showsD5LayeryQrA_0jdX0OFQO AA0hF0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA16_OverlayModifierV AA12_ScaleEffectV AA11_BlurEffectV AA30_EnvironmentKeyWritingModifierV AS AQ0Q10ComponentsV AA19_BackgroundModifierV AA5GroupV AA5ColorV AA25_AllowsHitTestingModifierV AI012DebugMarginsF8ModifierV AI0jF16ClippingModifierV AA25_AppearanceActionModifierV AI011Interactivej5SetupF8ModifierV
++ _symbolic _____y_____y_____y_____GGAEG 7SwiftUI19_ConditionalContentV 14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_i9Modifier_D0V AD0geR0AFLLV
++ _symbolic _____y_____y_____y_____GGAE_G 7SwiftUI19_ConditionalContentV7StorageO 14WidgetRenderer06TintedF12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_j9Modifier_D0V AF0hfS0AHLLV
++ _symbolic _____y_____y_____y_____G_Qo__Qo_ 7SwiftUI4ViewP16ChronoUIServicesE32foregroundGlassEffectIfNecessary14tintParameters12cornerRadiusQrSo013CHSWidgetTintL0CSg_12CoreGraphics7CGFloatVtFQO AcDE010backgroundghiJ0AF17includeBackgroundAGQrAJ_SbAMtFQO AA01_C16Modifier_ContentV 14WidgetRenderer014_RenderEffectscW033_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____y_____y_____G_____GG 7SwiftUI16_OverlayModifierV AA10_ShapeViewV AA08_StrokedE0V AA9RectangleV6_InsetV AA5ColorV
++ _symbolic _____y_____y_____y_____G___________y_____y_____AIG_____yAFSgGGtGG 7SwiftUI6ZStackV AA9TupleViewV AA01_E16Modifier_ContentV 14WidgetRenderer013ActivityErroreF0V AA5ColorV AA08ModifiedG0V AA08ProgressE0V AA05EmptyE0V AA022_EnvironmentKeyWritingF0V
++ _symbolic _____y_____y_____y______Qo______GADG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyF0V 14WidgetRenderer013ActivityErrorF8ModifierV
++ _symbolic _____y_____y_____y______Qo______GAD_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyG0V 14WidgetRenderer013ActivityErrorG8ModifierV
++ _symbolic _____y_____y_____y______Qo_______yAEy__________y_____GG_____yAEyAEyAJ_____G_____GGGADtGG 7SwiftUI6ZStackV AA9TupleViewV AA0E0P9WidgetKitE17showsContentLayeryQrAH0fiJ0OFQO AA03AnyE0V AA08ModifiedI0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayR0V AA12_ScaleEffectV AA05_BlurW0V
++ _symbolic _____y_____y_____y__________GAByACyytAEGAAyAAy_____yAAyAHyAAyAHyAAyAAyAAyAAyAAyAAy_____yAHyAAy_____y______Qo______GAJG_Qo______ySbGG_____G_____G_____y_____GGAPG_____GAZG_____GA1_G_____GA4_GAPG_____GGG_____G 7SwiftUI15ModifiedContentV AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer08ActivityF12ChangeReasonO s5NeverO AA012_ConditionalD0V AA0F0PAAE13referenceDateyQr10Foundation0R0VSgFQO AqAE38addingHandGestureShortcutPlatformLayerQryFQO AA0hF0V AI0l5ErrorF8ModifierV AA30_EnvironmentKeyWritingModifierV AA20_TransactionModifierV AA25_AllowsHitTestingModifierV AA01_D13ShapeModifierV AA16RoundedRectangleV AI0J17URLReaderModifierV AI0j6LaunchF8ModifierV AI015SystemURLActionF8ModifierV AA25_AppearanceActionModifierV AI011Interactivej5SetupF8ModifierV
++ _symbolic _____y_____y_____y___________AeDtGGACyAByACyAE_AEtGG______y__________GtGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA6SpacerV AA03AnyG0V AA08ModifiedD0V AA5ColorV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y___________y__________GADtGGADG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV 14WidgetRenderer026_InProcessActivityInstanceG0V AA08ModifiedD0V AA6SpacerV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y___________y__________GADtGGAD_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV 14WidgetRenderer026_InProcessActivityInstanceH0V AA08ModifiedD0V AA6SpacerV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____yAAyAAy_____y__________G_____G_____GAHG_____G_Qo__Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AcAE010addingHandF21ShortcutPlatformLayerQryFQO AA15ModifiedContentV AA012_ConditionalO0V AA6IDViewV 14WidgetRenderer04Liver5EntryC0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AN014_RenderEffectsC8Modifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _symbolic _____y_____y_____y_____y_____GGAFG_____yAFG_G 7SwiftUI19_ConditionalContentV7StorageO AC 14WidgetRenderer06TintedF12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_j9Modifier_D0V AF0hfS0AHLLV AF0hf11DesaturatedJ0AHLLV
++ _symbolic _____y_____y_____y_____y______Qo______GADG_Qo_ 7SwiftUI4ViewPAAE13referenceDateyQr10Foundation0E0VSgFQO AA19_ConditionalContentV AA08ModifiedH0V AcAE38addingHandGestureShortcutPlatformLayerQryFQO AA03AnyC0V 14WidgetRenderer013ActivityErrorC8ModifierV
++ _symbolic _____y_____y_____y_____y______Qo_______yAFy__________y_____GG_____yAFyAFyAK_____G_____GGGAEtGGADG 7SwiftUI19_ConditionalContentV AA6ZStackV AA9TupleViewV AA0G0P9WidgetKitE05showsD5LayeryQrAJ0hdK0OFQO AA03AnyG0V AA08ModifiedD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayS0V AA12_ScaleEffectV AA05_BlurX0V
++ _symbolic _____y_____y_____y_____y______Qo_______yAFy__________y_____GG_____yAFyAFyAK_____G_____GGGAEtGGAD_G 7SwiftUI19_ConditionalContentV7StorageO AA6ZStackV AA9TupleViewV AA0H0P9WidgetKitE05showsD5LayeryQrAL0idL0OFQO AA03AnyH0V AA08ModifiedD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayT0V AA12_ScaleEffectV AA05_BlurY0V
++ _symbolic _____y_____y_____y_____y___________y__________GAEtGGAEGG 7SwiftUI5GroupV AA19_ConditionalContentV AA6HStackV AA9TupleViewV 14WidgetRenderer026_InProcessActivityInstanceH0V AA08ModifiedE0V AA6SpacerV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y______AAy__________GAFtGGAFGG_____y_____GG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6HStackV AA9TupleViewV 14WidgetRenderer026_InProcessActivityInstanceI0V AA6SpacerV AA12_FrameLayoutV AA24_BackgroundStyleModifierV AA08AnyShapeT0V
++ _symbolic _____y_____y_____y_____y_____y______Qo_______yAGy__________y_____GG_____yAGyAGyAL_____G_____GGGAFtGGAEGAE_G 7SwiftUI19_ConditionalContentV7StorageO AC AA6ZStackV AA9TupleViewV AA0H0P9WidgetKitE05showsD5LayeryQrAL0idL0OFQO AA03AnyH0V AA08ModifiedD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayT0V AA12_ScaleEffectV AA05_BlurY0V
++ _symbolic _____y_____yyt_____GAAyAD_____yAEyAEyAEyAEyAEyAEyAEyAEyAEyAEy_____yAEy_____yAFy_____y_____y_____y______Qo__AEyAEy__________y_____GG_____yAEyAEyAO_____G_____GGGAJtGGAIGAIG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A_y_____SgGGA_y_____SgGGA_ySbGGA_ySo0A14TintParametersCSgGGA14_G_____y_____yAFyAiFyAI_____GGGGG_____G_____G_____GA14_G_____GGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV s5NeverO AA15ModifiedContentV AA0D0PAAE13referenceDateyQr10Foundation0L0VSgFQO AA012_ConditionalJ0V AA6ZStackV AA05TupleD0V AL9WidgetKitE05showsJ5LayeryQrAX0qjT0OFQO AA0fD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayZ0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingZ0V AP AN0L10ComponentsV AA011_BackgroundZ0V AA5GroupV AA5ColorV AA017_AllowsHitTestingZ0V 0Q8Renderer012DebugMarginsdZ0V A26_0qd8ClippingZ0V AA017_AppearanceActionZ0V
++ _symbolic _____y_____yyt_____G_____yAEyAEyAEyAEyAEyAEyAEyAEyAEyAEy_____yAEy_____yAFy_____y_____y_____y______Qo__AEyAEy__________y_____GG_____yAEyAEyAO_____G_____GGGAJtGGAIGAIG_____ySo19CHSWidgetDescriptorCSgGG_Qo_A_y_____SgGGA_y_____SgGGA_ySbGGA_ySo0A14TintParametersCSgGGA14_G_____y_____yAFyAiFyAI_____GGGGG_____G_____G_____GA14_G_____GG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV s5NeverO AA15ModifiedContentV AA0D0PAAE13referenceDateyQr10Foundation0L0VSgFQO AA012_ConditionalJ0V AA6ZStackV AA05TupleD0V AL9WidgetKitE05showsJ5LayeryQrAX0qjT0OFQO AA0fD0V AA22ContainerRelativeShapeV AA24_ForegroundStyleModifierV AA14LinearGradientV AA08_OverlayZ0V AA12_ScaleEffectV AA11_BlurEffectV AA022_EnvironmentKeyWritingZ0V AP AN0L10ComponentsV AA011_BackgroundZ0V AA5GroupV AA5ColorV AA017_AllowsHitTestingZ0V 0Q8Renderer012DebugMarginsdZ0V A26_0qd8ClippingZ0V AA017_AppearanceActionZ0V
++ _symbolic _____y_____yyt_____G_____yAEy_____yAEyAFyAEyAFyAEyAEyAEyAEyAEyAEy_____yAFyAEy_____y______Qo______GAHG_Qo______ySbGG_____G_____G_____y_____GGANG_____GAXG_____GA_G_____GA2_GANG_____GG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV s5NeverO AA15ModifiedContentV AA012_ConditionalJ0V AA0D0PAAE13referenceDateyQr10Foundation0M0VSgFQO AnAE38addingHandGestureShortcutPlatformLayerQryFQO AA0fD0V 14WidgetRenderer013ActivityErrorD8ModifierV AA022_EnvironmentKeyWritingY0V AA012_TransactionY0V AA017_AllowsHitTestingY0V AA01_j5ShapeY0V AA16RoundedRectangleV AW0u9URLReaderY0V AW0u6LaunchdY0V AW015SystemURLActiondY0V AA017_AppearanceActionY0V
++ _symbolic _____ytIegnr_ 18ActivityUIServices0A13LaunchRequestV
++ _symbolic _____yxG 14WidgetRenderer06TintedA12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV
++ _symbolic _____yxq_G 14WidgetRenderer23CompactLiveActivityViewV
++ _symbolic _____yy_____cSgG 7SwiftUI11EnvironmentV 18ActivityUIServices0D13LaunchRequestV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yyt_____GSg 7Combine12AnyPublisherV s5NeverO
++ _symbolic ySScSg
++ _symbolic y_____cSg 18ActivityUIServices0A13LaunchRequestV
++ _symbolic ytIeAgHr_
++ _type_layout_string 14WidgetRenderer08ActivityB27SessionSubscriptionResponseV
++ _type_layout_string 14WidgetRenderer19CarPlayListItemViewV
++ _type_layout_string 14WidgetRenderer21_RenderEffectsContextV
++ _type_layout_string 14WidgetRenderer22InProcessLaunchHandlerV
++ _type_layout_string 14WidgetRenderer26_RenderEffectsViewModifier33_D279DDC09B73AE5261A79639295C8BC9LLV
++ _type_layout_string 14WidgetRenderer27ActivityContentSizeModifier33_F6F15B4D3A488C549784D141E7F19913LLV
++ _type_layout_string 14WidgetRenderer29BSUIVibrancyEffectViewAdapterV
++ _type_layout_string 14WidgetRenderer34InProcessJindoActivityInstanceViewV
++ _type_layout_string 7SwiftUI4ViewRzl14WidgetRenderer017WatchComplicationdC0VyxG
++ _type_layout_string So35SBUISystemApertureElementIdentifiera
++ _type_layout_string So39SBUISystemAperturePresentationBehaviorsV
++ _type_layout_string So7CGPointV
+- _CGRectGetHeight
+- _CGSizeMake
+- _NSStringFromCHSWidgetColorSchemes
+- _NSStringFromCHUISWidgetContentType
+- _NSStringFromWRWidgetReloadReason
+- _OBJC_CLASS_$__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- _OBJC_METACLASS_$__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- __DATA__TtC14WidgetRenderer14ArchiveService
+- __DATA__TtC14WidgetRenderer18ArchiveWidgetEntry
+- __DATA__TtC14WidgetRenderer19ArchiveServiceStore
+- __DATA__TtC14WidgetRenderer25URLScopedSandboxExtension
+- __DATA__TtC14WidgetRenderer27ArchiveWidgetEntryAssertion
+- __DATA__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- __DATA__TtCC14WidgetRenderer34WidgetPreviewHostingViewController15EntryController
+- __INSTANCE_METHODS__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- __IVARS__TtC14WidgetRenderer14ArchiveService
+- __IVARS__TtC14WidgetRenderer18ArchiveWidgetEntry
+- __IVARS__TtC14WidgetRenderer19ArchiveServiceStore
+- __IVARS__TtC14WidgetRenderer25URLScopedSandboxExtension
+- __IVARS__TtC14WidgetRenderer27ArchiveWidgetEntryAssertion
+- __IVARS__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- __IVARS__TtCC14WidgetRenderer34WidgetPreviewHostingViewController15EntryController
+- __METACLASS_DATA__TtC14WidgetRenderer14ArchiveService
+- __METACLASS_DATA__TtC14WidgetRenderer18ArchiveWidgetEntry
+- __METACLASS_DATA__TtC14WidgetRenderer19ArchiveServiceStore
+- __METACLASS_DATA__TtC14WidgetRenderer25URLScopedSandboxExtension
+- __METACLASS_DATA__TtC14WidgetRenderer27ArchiveWidgetEntryAssertion
+- __METACLASS_DATA__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- __METACLASS_DATA__TtCC14WidgetRenderer34WidgetPreviewHostingViewController15EntryController
+- __PROPERTIES__TtC14WidgetRenderer34WidgetPreviewHostingViewController
+- ___swift_memcpy41_8
+- ___swift_memcpy48_8
+- ___swift_project_boxed_opaque_existential_2Tm
+- ___unnamed_3
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_WidgetRenderer
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_WidgetRenderer
+- _associated conformance 14WidgetRenderer0A28PreviewHostingViewControllerC013_AutoupdatingcE033_57374E34C565B32D0F8C763FC64F9E51LLV7SwiftUI0E0AA4BodyAgHP_AgH
+- _associated conformance 14WidgetRenderer0A28PreviewHostingViewControllerC05EntryF0C7Combine16ObservableObjectAA0J19WillChangePublisherAfGP_AF0M0
+- _associated conformance 14WidgetRenderer21WatchCompactJindoViewVyxq_G7SwiftUI0F0AA4BodyAeFP_AeF
+- _block_copy_helper.101
+- _block_copy_helper.104
+- _block_copy_helper.107
+- _block_copy_helper.113
+- _block_copy_helper.125
+- _block_copy_helper.146
+- _block_copy_helper.152
+- _block_copy_helper.158
+- _block_copy_helper.163
+- _block_copy_helper.164
+- _block_copy_helper.170
+- _block_copy_helper.176
+- _block_copy_helper.177
+- _block_copy_helper.182
+- _block_copy_helper.184
+- _block_copy_helper.189
+- _block_copy_helper.198
+- _block_copy_helper.205
+- _block_copy_helper.212
+- _block_copy_helper.219
+- _block_copy_helper.226
+- _block_copy_helper.233
+- _block_copy_helper.240
+- _block_copy_helper.247
+- _block_copy_helper.254
+- _block_copy_helper.33
+- _block_copy_helper.51
+- _block_copy_helper.54
+- _block_copy_helper.56
+- _block_copy_helper.58
+- _block_copy_helper.68
+- _block_copy_helper.73
+- _block_copy_helper.74
+- _block_copy_helper.81
+- _block_copy_helper.82
+- _block_copy_helper.88
+- _block_copy_helper.89
+- _block_descriptor.103
+- _block_descriptor.106
+- _block_descriptor.109
+- _block_descriptor.115
+- _block_descriptor.127
+- _block_descriptor.148
+- _block_descriptor.154
+- _block_descriptor.160
+- _block_descriptor.165
+- _block_descriptor.166
+- _block_descriptor.172
+- _block_descriptor.178
+- _block_descriptor.179
+- _block_descriptor.184
+- _block_descriptor.186
+- _block_descriptor.191
+- _block_descriptor.200
+- _block_descriptor.207
+- _block_descriptor.214
+- _block_descriptor.221
+- _block_descriptor.228
+- _block_descriptor.235
+- _block_descriptor.242
+- _block_descriptor.249
+- _block_descriptor.256
+- _block_descriptor.35
+- _block_descriptor.53
+- _block_descriptor.56
+- _block_descriptor.58
+- _block_descriptor.60
+- _block_descriptor.70
+- _block_descriptor.75
+- _block_descriptor.76
+- _block_descriptor.83
+- _block_descriptor.84
+- _block_descriptor.90
+- _block_descriptor.91
+- _block_destroy_helper.102
+- _block_destroy_helper.105
+- _block_destroy_helper.108
+- _block_destroy_helper.114
+- _block_destroy_helper.126
+- _block_destroy_helper.147
+- _block_destroy_helper.153
+- _block_destroy_helper.159
+- _block_destroy_helper.164
+- _block_destroy_helper.165
+- _block_destroy_helper.171
+- _block_destroy_helper.177
+- _block_destroy_helper.178
+- _block_destroy_helper.183
+- _block_destroy_helper.185
+- _block_destroy_helper.190
+- _block_destroy_helper.199
+- _block_destroy_helper.206
+- _block_destroy_helper.213
+- _block_destroy_helper.220
+- _block_destroy_helper.227
+- _block_destroy_helper.234
+- _block_destroy_helper.241
+- _block_destroy_helper.248
+- _block_destroy_helper.255
+- _block_destroy_helper.34
+- _block_destroy_helper.52
+- _block_destroy_helper.55
+- _block_destroy_helper.57
+- _block_destroy_helper.59
+- _block_destroy_helper.69
+- _block_destroy_helper.74
+- _block_destroy_helper.75
+- _block_destroy_helper.82
+- _block_destroy_helper.83
+- _block_destroy_helper.89
+- _block_destroy_helper.90
+- _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOySb_G
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyAEyACyAA014_ViewModifier_D0Vy14WidgetRenderer04Liveh19EntryLaunchHandlingG0VGAH0hlfG0VGAKGAH015SystemURLActionfG0VGAOGAA017_AllowsHitTestingG0VGAA0F0HPAsaWHPAraWHPAoaWHPAnaWHPAkaWHPyHC_AmA0fG0HPyHCHC_AkaWHPyHCHC_AqaXHPyHCHC_AoaWHPAnaWHPAkaWHPyHC_AmaXHPyHCHC_AkaWHPyHCHCHC_AuaXHPyHCHC.58
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA012_ConditionalD0VyACyAEyACyAEyACyACyAA16SubscriptionViewVy7Combine12AnyPublisherVySay14WidgetRenderer04LivekG12ChangeReasonOGs5NeverOGAGyAJyytAPGACyACyACyACyACyACyACyACyAA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQOyAA0iG0VSg_Qo_AA30_EnvironmentKeyWritingModifierVyAYGGA3_ySbGGAA011_BackgroundW0VyAA5GroupVyAEyA_AEyA_AA5ColorVGGGGGAA017_AllowsHitTestingW0VGAK012DebugMarginsgW0VGAK0kg8ClippingW0VGA6_GAA017_AppearanceActionW0VGGGAK011Interactivek5SetupgW0VGAA08_OverlayW0VyACyACyAA6VStackVyAA05TupleG0VyAEyAA4TextVA44_GSg_A44_SgA47_A47_tGGA3_yAA4FontVSgGGAA016_ForegroundStyleW0VyA13_GGGGA36_GA38_yACyACyACyA44_AA01_x5StyleW0VyA13_GGA53_GAA14_PaddingLayoutVGGGA61_GAK0k9URLReaderW0VGA72_GAK0mk19EntryLaunchHandlingW0VGAaSHPA76_AaSHPA75_AaSHPA72_AaSHPA71_AaSHPA61_AaSHPA60_AaSHPA36_AaSHPA33_AaSHPyHC_A35_AA0gW0HPyHCHC_A59_AAA80_HPyHCHC_A36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHCHC_A70_AAA80_HPyHCHC_A61_AaSHPA60_AaSHPA36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHC_A59_AAA80_HPyHCHC_A36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHCHCHC_A74_AAA80_HPyHCHC_A72_AaSHPA71_AaSHPA61_AaSHPA60_AaSHPA36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHC_A59_AAA80_HPyHCHC_A36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHCHC_A70_AAA80_HPyHCHC_A61_AaSHPA60_AaSHPA36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHC_A59_AAA80_HPyHCHC_A36_AaSHPA33_AaSHPyHC_A35_AAA80_HPyHCHCHCHCHC_A78_AAA80_HPyHCHC.57
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQOyAeAE010addingHandH21ShortcutPlatformLayerQryFQOyAA012_ConditionalD0VyACyACyAA6IDViewVy14WidgetRenderer04Liver5EntryE0V16ChronoUIServices0R8IdentityVGAA12_FrameLayoutVGAA19_DrawingGroupEffectVGAWG_Qo__Qo_AA25_AppearanceActionModifierVGA3_GAA20_ValueActionModifierVyAN010_InProcessR18InstanceComparable33_D279DDC09B73AE5261A79639295C8BC9LLVGGAaDHPA5_AaDHPA4_AaDHPqd__AaDHD2_A1_HO_A3_AA0E8ModifierHPyHCHC_A3_AAA13_HPyHCHC_A11_AAA13_HPyHCHC.12
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA9TupleViewVyACyAA03AnyG0VAA23_SafeAreaIgnoringLayoutVG_ACyACyACyAA4TextVAA08_PaddingL0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGSgtGGAVGAA022_EnvironmentKeyWritingQ0VyAA0R6SchemeOGGA7_ySbGGAA0G0HPA11_AAA14_HPA5_AAA14_HPA4_AAA14_HPyHC_AvA0gQ0HPyHCHC_A10_AAA15_HPyHCHC_A12_AAA15_HPyHCHC.47
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6ZStackVyAA9TupleViewVyACyAA03AnyG0VAA23_SafeAreaIgnoringLayoutVG_ACyACyACyAA4TextVAA08_PaddingL0VGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGSgtGGAVGAA01_d5ShapeQ0VyA_GGAA022_EnvironmentKeyWritingQ0VyAA0R6SchemeOGGA11_ySbGGAA0G0HPA15_AAA18_HPA9_AAA18_HPA5_AAA18_HPA4_AAA18_HPyHC_AvA0gQ0HPyHCHC_A8_AAA19_HPyHCHC_A14_AAA19_HPyHCHC_A16_AAA19_HPyHCHC.51
+- _get_witness_table 7SwiftUI19_ConditionalContentVy14WidgetRenderer06TintedE4ViewVyAA08ModifiedD0VyAA03AnyH0V0E3Kit31CommonServerEnvironmentModifierVGANGANGAA0H0HPAoaQHPyHC_AnaQHPAjaQHPyHC_AmA0hO0HPyHCHCHC.273
+- _get_witness_table 7SwiftUI19_ConditionalContentVyACy14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLVyAA01_i9Modifier_D0VyAD0geR0AFLLVGGAMGAD0ge11DesaturatedI0AFLLVyALGGAA0I0HPAnaSHPAmaSHPyHC_AmaSHPyHCHC_AqaSHPyHCHC.43
+- _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyADyADyADyADyAaBPAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQOyAiAE10fontDesignyQrAA4FontV0M0OSgFQOyAiAE0L6WeightyQrAO0O0VSgFQOyADyAiAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAA4TextV_Qo_AA30_EnvironmentKeyWritingModifierVyAOSgGG_Qo__Qo__Qo_AA016_ForegroundStyleX0VyAA017HierarchicalShapeZ0VGGAA16_FlexFrameLayoutVGAA06_TraitwX0VyAA019LayoutPriorityTraitV0VGGAA14_PaddingLayoutVG_ADyADyAA6HStackVyAHyx_AA6SpacerVq_tGGA23_GA26_GtGG14WidgetRenderer026LiveActivityLaunchHandlingX0VGAaBHPA37_AaBHPyHC_A40_AA0cX0HPyHCHC.1
+- _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA15ModifiedContentVyAA6ZStackVyAA05TupleC0VyADyxSgAA14_OpacityEffectVG_ADyADyq_Sg14WidgetRenderer06TintedJ8Modifier33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLVGAKGtGGAA022_EnvironmentKeyWritingM0VySo30CHSTintAccentedDesaturatedModeVGGAaBHPAuaBHPyHC_AzA0cM0HPyHCHC.11
+- _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lAA15ModifiedContentVyADyAA6VStackVyADyAA6HStackVyAA05TupleC0Vyx_AA6SpacerVq_tGGAA21_TraitWritingModifierVyAA014LayoutPriorityJ3KeyVGGGAA08_PaddingM0VG14WidgetRenderer026LiveActivityLaunchHandlingL0VGAaBHPAxaBHPAuaBHPyHC_AwA0cL0HPyHCHC_A_AAA1_HPyHCHC.1
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyADyADyADyADyxAA23_SafeAreaIgnoringLayoutVGAA30_EnvironmentKeyWritingModifierVyAA16RedactionReasonsVGGAIySo9CHSWidgetCSgGGAIySbGGASGSgAaBHpAuaBHPAtaBHPAraBHPAmaBHPAgaBHPxAaBHD1__AfA0cM0HPyHCHC_AlaWHPyHCHC_AqaWHPyHCHC_AsaWHPyHCHC_AsaWHPyHCHC_HC.89
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA38_ForegroundLayerLevelColorMatrixEffectVGAaBHPxAaBHD1__AfA0C8ModifierHPyHCHC.46
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyAaBPAAE12_colorMatrixyQrAA06_ColorG0VFQOyAeAE12drawingGroup6opaque0F4ModeQrSb_AA0h9RenderingL0OtFQOyAA08ModifiedE0VyAA0H0VAA16_OverlayModifierVyAeAEAFyQrAHFQOyx_Qo_GG_Qo__Qo_ATGAaBHPqd__AaBHD2_AXHO_qd__AaBHD2_ATHOHC.47
+- _keypath_get.130Tm
+- _keypath_get.134Tm
+- _keypath_get.21Tm
+- _keypath_set.141Tm
+- _objectdestroy.111Tm
+- _objectdestroy.135Tm
+- _objectdestroy.13Tm
+- _objectdestroy.147Tm
+- _objectdestroy.161Tm
+- _objectdestroy.29Tm
+- _objectdestroy.45Tm
+- _objectdestroy.4Tm
+- _objectdestroy.69Tm
+- _symbolic $s14WidgetRenderer14EntryAssertionP
+- _symbolic $s14WidgetRenderer22ConfigurationServicingP
+- _symbolic SDySS_____G 7SwiftUI17EnvironmentValuesV
+- _symbolic SDy__________G 9ChronoKit14WidgetEntryKeyV 0C8Renderer07ArchivecD0C
+- _symbolic Say_____G 14WidgetRenderer07ArchiveA14EntryAssertionC
+- _symbolic So26NSSecurityScopedURLWrapperC
+- _symbolic _____ 14WidgetRenderer07ArchiveA14EntryAssertionC
+- _symbolic _____ 14WidgetRenderer07ArchiveA5EntryC
+- _symbolic _____ 14WidgetRenderer0A28PreviewHostingViewControllerC
+- _symbolic _____ 14WidgetRenderer0A28PreviewHostingViewControllerC013_AutoupdatingcE033_57374E34C565B32D0F8C763FC64F9E51LLV
+- _symbolic _____ 14WidgetRenderer0A28PreviewHostingViewControllerC05EntryF0C
+- _symbolic _____ 14WidgetRenderer14ArchiveServiceC
+- _symbolic _____ 14WidgetRenderer19ArchiveServiceStoreC
+- _symbolic _____ 14WidgetRenderer21WatchCompactJindoViewV
+- _symbolic _____ 14WidgetRenderer25EnvironmentChangedPayloadV
+- _symbolic _____ 14WidgetRenderer25URLScopedSandboxExtensionC
+- _symbolic _____ 9WidgetKit31_TimelineArchivedViewCollectionC
+- _symbolic _____ So18CHSTintFilterStyleV
+- _symbolic _____ So20WRWidgetReloadReasonV
+- _symbolic _____ So22CHUISWidgetColorSchemeV
+- _symbolic _____3key______5valuet 9ChronoKit14WidgetEntryKeyV 0C8Renderer07ArchivecD0C
+- _symbolic _____3key______5valuetSg 9ChronoKit14WidgetEntryKeyV 0C8Renderer07ArchivecD0C
+- _symbolic _____Sg 9WidgetKit19ActivityViewMetricsV
+- _symbolic _____Sg 9WidgetKit30ActivityArchivedViewCollectionV0E5IndexV
+- _symbolic _____SgXw 14WidgetRenderer07ArchiveA14EntryAssertionC
+- _symbolic _____SgXw 14WidgetRenderer14ArchiveServiceC
+- _symbolic _____SgXw 14WidgetRenderer19ArchiveServiceStoreC
+- _symbolic _____SgXwz_Xx 14WidgetRenderer07ArchiveA14EntryAssertionC
+- _symbolic ______p 14WidgetRenderer14EntryAssertionP
+- _symbolic ______p 14WidgetRenderer22ConfigurationServicingP
+- _symbolic _____m 14WidgetRenderer19ArchiveServiceStoreC
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG_____G_____G_____GAJG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingM0V 14WidgetRenderer012DebugMarginseM0V AY0ue8ClippingM0V AA017_AppearanceActionM0V
+- _symbolic _____yAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG_____G_____G_____GAJG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingM0V 14WidgetRenderer012DebugMarginseM0V AY0ue8ClippingM0V
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingM0V 14WidgetRenderer012DebugMarginseM0V AY0ue8ClippingM0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingM0V 14WidgetRenderer012DebugMarginseM0V
+- _symbolic _____yAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingM0V
+- _symbolic _____yAAyAAy_____y_____Sg_Qo______y_____SgGGAEySbGG_____y_____y_____yAbNyAB_____GGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI AA011_BackgroundM0V AA5GroupV AA012_ConditionalD0V AA5ColorV
+- _symbolic _____yAAyAAy_____y_____yAAy__________G_AAyAAyAAy__________G_____y_____GG_____y_____GGSgtGGALG_____y_____GGAVySbGG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA03AnyG0V AA23_SafeAreaIgnoringLayoutV AA4TextV AA08_PaddingL0V AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingQ0V AA0R6SchemeO
+- _symbolic _____yAAyAAy_____y_____y_____yAAyAAy_____y__________G_____G_____GAHG_Qo__Qo______GANG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AA25_AppearanceActionModifierV AA20_ValueActionModifierV AN010_InProcessR18InstanceComparable33_D279DDC09B73AE5261A79639295C8BC9LLV
+- _symbolic _____yAAy_____yAAy_____y_____yx______q_tGG_____y_____GGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA6HStackV AA9TupleViewV AA6SpacerV AA21_TraitWritingModifierV AA014LayoutPriorityJ3KeyV AA08_PaddingM0V 14WidgetRenderer026LiveActivityLaunchHandlingL0V
+- _symbolic _____yAAy_____y_____Sg_Qo______y_____SgGGAEySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI
+- _symbolic _____yAAy_____y_____yAAy__________G_AAyAAyAAy__________G_____y_____GG_____y_____GGSgtGGALG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA03AnyG0V AA23_SafeAreaIgnoringLayoutV AA4TextV AA08_PaddingL0V AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingQ0V AA0R6SchemeO
+- _symbolic _____yAAy_____y_____ySay_____G_____GAByACyytAFGAAyAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGALySbGG_____y_____y_____yAiUyAI_____GGGGG_____G_____G_____GAQG_____GGG_____G_____yAAyAAy_____y_____yAUy_____A16_GSg_A16_SgA19_A19_tGGALy_____SgGG_____yAVGGGG 7SwiftUI15ModifiedContentV AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivejF12ChangeReasonO s5NeverO AA0F0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA0hF0V AA30_EnvironmentKeyWritingModifierV AS AA011_BackgroundV0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingV0V AI012DebugMarginsfV0V AI0jf8ClippingV0V AA017_AppearanceActionV0V AI011Interactivej5SetupfV0V AA08_OverlayV0V AA6VStackV AA05TupleF0V AA4TextV AA4FontV AA016_ForegroundStyleV0V
+- _symbolic _____yAAy_____y_____y_____GGAFG_____yAEGG 7SwiftUI19_ConditionalContentV 14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_i9Modifier_D0V AD0geR0AFLLV AD0ge11DesaturatedI0AFLLV
+- _symbolic _____yAAy_____y_____y_____yAAyAAy_____y__________G_____G_____GAHG_Qo__Qo______GANG 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AA25_AppearanceActionModifierV
+- _symbolic _____y_____G 7SwiftUI14ObservedObjectV 14WidgetRenderer0E28PreviewHostingViewControllerC05EntryJ0C
+- _symbolic _____y__________G 7Combine18PassthroughSubjectC 14WidgetRenderer25EnvironmentChangedPayloadV s5NeverO
+- _symbolic _____y__________G s18_DictionaryStorageC 9ChronoKit14WidgetEntryKeyV 0E8Renderer07ArchiveeF0C
+- _symbolic _____y__________G s6ResultOsRi_zrlE 9WidgetKit21ViewableTimelineEntryV 06ChronoC00bF0C0bF5ErrorO
+- _symbolic _____y_____yAAyAAy_____y_____ySay_____G_____GACyADyytAGGAAyAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAByAjByAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAAyAAy_____y_____yABy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_GA13_yAAyAAyAAyA16______yAVGGA24_G_____GGG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V AA01_x5StyleW0V AA14_PaddingLayoutV
+- _symbolic _____y_____yAAyAByAAyAAy_____y_____ySay_____G_____GACyADyytAGGAAyAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAByAjByAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAAyAAy_____y_____yABy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_GA13_yAAyAAyAAyA16______yAVGGA24_G_____GGGA31_G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V AA01_x5StyleW0V AA14_PaddingLayoutV AK0k9URLReaderW0V
+- _symbolic _____y_____yAAyAByAAyAByAAyAAy_____y_____ySay_____G_____GACyADyytAGGAAyAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAByAjByAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAAyAAy_____y_____yABy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_GA13_yAAyAAyAAyA16______yAVGGA24_G_____GGGA31_G_____GA40_G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V AA01_x5StyleW0V AA14_PaddingLayoutV AK0k9URLReaderW0V AK0mk19EntryLaunchHandlingW0V
+- _symbolic _____y_____yAAyAByAAyAByABy_____y_____ySay_____G_____GACyADyytAGGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAAyAjAyAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAByABy_____y_____yAAy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_GA13_yAByAByAByA16______yAVGGA24_G_____GGGA31_G_____GA40_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V AA01_x5StyleW0V AA14_PaddingLayoutV AK0k9URLReaderW0V
+- _symbolic _____y_____yAAyAByABy_____y_____ySay_____G_____GACyADyytAGGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAAyAjAyAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAByABy_____y_____yAAy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_GA13_yAByAByAByA16______yAVGGA24_G_____GGGA31_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V AA01_x5StyleW0V AA14_PaddingLayoutV
+- _symbolic _____y_____yABy_____y__________G_ACyAF_____GtGSg______y_____GtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA4TextV 14WidgetRenderer0H18ParametersModifierV AA023AccessibilityAttachmentL0V AA01_el1_G0V AJ010InlineDateL0V
+- _symbolic _____y_____yABy_____y_____ySay_____G_____GACyADyytAGGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____yAAyAjAyAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAByABy_____y_____yAAy_____A16_GSg_A16_SgA19_A19_tGGAMy_____SgGG_____yAVGGGGA12_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivekG12ChangeReasonO s5NeverO AA0G0PAAE13referenceDateyQr10Foundation0R0VSgFQO AA0iG0V AA30_EnvironmentKeyWritingModifierV AU AA011_BackgroundW0V AA5GroupV AA5ColorV AA017_AllowsHitTestingW0V AK012DebugMarginsgW0V AK0kg8ClippingW0V AA017_AppearanceActionW0V AK011Interactivek5SetupgW0V AA08_OverlayW0V AA6VStackV AA05TupleG0V AA4TextV AA4FontV AA016_ForegroundStyleW0V
+- _symbolic _____y_____yABy_____y_____ySay_____G_____GACyADyytAGGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGAMySbGG_____y_____y_____yAjVyAJ_____GGGGG_____G_____G_____GARG_____GGG_____G_____yAByABy_____y_____yAVy_____A17_GSg_A17_SgA20_A20_tGGAMy_____SgGG_____yAWGGGGA13__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AA0jH0V AA30_EnvironmentKeyWritingModifierV AW AA011_BackgroundX0V AA5GroupV AC AA5ColorV AA017_AllowsHitTestingX0V AM012DebugMarginshX0V AM0lh8ClippingX0V AA017_AppearanceActionX0V AM011Interactivel5SetuphX0V AA08_OverlayX0V AA6VStackV AA05TupleH0V AA4TextV AA4FontV AA016_ForegroundStyleX0V
+- _symbolic _____y_____ySay_____G_____GAAyAByytAEG_____yAHyAHyAHyAHyAHyAHyAHy_____y_____Sg_Qo______y_____SgGGALySbGG_____y_____y_____yAiUyAI_____GGGGG_____G_____G_____GAQG_____GGG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivehD12ChangeReasonO s5NeverO AA15ModifiedContentV AA0D0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA0fD0V AA30_EnvironmentKeyWritingModifierV AS AA011_BackgroundV0V AA5GroupV AA012_ConditionalO0V AA5ColorV AA017_AllowsHitTestingV0V AG012DebugMarginsdV0V AG0hd8ClippingV0V AA017_AppearanceActionV0V
+- _symbolic _____y_____y_____Sg_Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE13referenceDateyQr10Foundation0G0VSgFQO AA03AnyE0V AA30_EnvironmentKeyWritingModifierV AI
+- _symbolic _____y_____y_____yAAyAAyAAyAAy_____y_____y_____yAAy_____y______Qo______y_____SgGG_Qo__Qo__Qo______y_____GG_____G_____y_____GG_____G_AAyAAy_____yACyx______q_tGGAVGAXGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE15dynamicTypeSizeyQrAA07DynamiciJ0OFQO AiAE10fontDesignyQrAA4FontV0M0OSgFQO AiAE0L6WeightyQrAO0O0VSgFQO AiAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AO AA016_ForegroundStyleX0V AA017HierarchicalShapeZ0V AA16_FlexFrameLayoutV AA06_TraitwX0V AA019LayoutPriorityTraitV0V AA14_PaddingLayoutV AA6HStackV AA6SpacerV 14WidgetRenderer026LiveActivityLaunchHandlingX0V
+- _symbolic _____y_____y_____yAAyxSg_____G_AAyAAyq_Sg_____GAEGtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA14_OpacityEffectV 14WidgetRenderer06TintedJ8Modifier33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA022_EnvironmentKeyWritingM0V So30CHSTintAccentedDesaturatedModeV
+- _symbolic _____y_____y_____yAByABy_____y_____ySay_____G_____GADyAEyytAHGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGANySbGG_____y_____yACyAkCyAK_____GGGGG_____G_____G_____GASG_____GGG_____G_____yAByABy_____y_____yACy_____A17_GSg_A17_SgA20_A20_tGGANy_____SgGG_____yAWGGGGA13_GA14_yAByAByAByA17______yAWGGA25_G_____GGGA32__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AA0jH0V AA30_EnvironmentKeyWritingModifierV AW AA011_BackgroundX0V AA5GroupV AA5ColorV AA017_AllowsHitTestingX0V AM012DebugMarginshX0V AM0lh8ClippingX0V AA017_AppearanceActionX0V AM011Interactivel5SetuphX0V AA08_OverlayX0V AA6VStackV AA05TupleH0V AA4TextV AA4FontV AA016_ForegroundStyleX0V AA01_y5StyleX0V AA14_PaddingLayoutV
+- _symbolic _____y_____y_____yAByACyAByABy_____y_____ySay_____G_____GADyAEyytAHGAByAByAByAByAByAByAByABy_____y_____Sg_Qo______y_____SgGGANySbGG_____y_____yACyAkCyAK_____GGGGG_____G_____G_____GASG_____GGG_____G_____yAByABy_____y_____yACy_____A17_GSg_A17_SgA20_A20_tGGANy_____SgGG_____yAWGGGGA13_GA14_yAByAByAByA17______yAWGGA25_G_____GGGA32_G_____GA41__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AC AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivelH12ChangeReasonO s5NeverO AA0H0PAAE13referenceDateyQr10Foundation0S0VSgFQO AA0jH0V AA30_EnvironmentKeyWritingModifierV AW AA011_BackgroundX0V AA5GroupV AA5ColorV AA017_AllowsHitTestingX0V AM012DebugMarginshX0V AM0lh8ClippingX0V AA017_AppearanceActionX0V AM011Interactivel5SetuphX0V AA08_OverlayX0V AA6VStackV AA05TupleH0V AA4TextV AA4FontV AA016_ForegroundStyleX0V AA01_y5StyleX0V AA14_PaddingLayoutV AM0l9URLReaderX0V
+- _symbolic _____y_____y_____yABy_____y__________G_____G_____GAHG_Qo_ 7SwiftUI4ViewPAAE38addingHandGestureShortcutPlatformLayerQryFQO AA19_ConditionalContentV AA08ModifiedK0V AA6IDViewV 14WidgetRenderer04Liven5EntryC0V 16ChronoUIServices0N8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV
+- _symbolic _____y_____y_____ySay_____G_____GAByACyytAFGAAyAAyAAyAAyAAyAAyAAyAAy_____y_____Sg_Qo______y_____SgGGALySbGG_____y_____y_____yAiUyAI_____GGGGG_____G_____G_____GAQG_____GGG_____G 7SwiftUI15ModifiedContentV AA16SubscriptionViewV 7Combine12AnyPublisherV 14WidgetRenderer04LivejF12ChangeReasonO s5NeverO AA0F0PAAE13referenceDateyQr10Foundation0Q0VSgFQO AA0hF0V AA30_EnvironmentKeyWritingModifierV AS AA011_BackgroundV0V AA5GroupV AA012_ConditionalD0V AA5ColorV AA017_AllowsHitTestingV0V AI012DebugMarginsfV0V AI0jf8ClippingV0V AA017_AppearanceActionV0V AI011Interactivej5SetupfV0V
+- _symbolic _____y_____y_____y_____GGAFG 7SwiftUI19_ConditionalContentV 14WidgetRenderer06TintedE12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_i9Modifier_D0V AD0geR0AFLLV
+- _symbolic _____y_____y_____y_____GGAF_G 7SwiftUI19_ConditionalContentV7StorageO 14WidgetRenderer06TintedF12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_j9Modifier_D0V AF0hfS0AHLLV
+- _symbolic _____y_____y_____y_____yAAyAAy_____y__________G_____G_____GAHG_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AeAE010addingHandH21ShortcutPlatformLayerQryFQO AA012_ConditionalD0V AA6IDViewV 14WidgetRenderer04Liver5EntryE0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV AA25_AppearanceActionModifierV
+- _symbolic _____y_____y_____y_____yABy_____y__________G_____G_____GAHG_Qo__Qo_ 7SwiftUI4ViewPAAE12onTapGesture5count7performQrSi_yyctFQO AcAE010addingHandF21ShortcutPlatformLayerQryFQO AA19_ConditionalContentV AA08ModifiedO0V AA6IDViewV 14WidgetRenderer04Liver5EntryC0V 16ChronoUIServices0R8IdentityV AA12_FrameLayoutV AA19_DrawingGroupEffectV
+- _symbolic _____y_____y_____y_____y_____GGAGG_____yAFG_G 7SwiftUI19_ConditionalContentV7StorageO AC 14WidgetRenderer06TintedF12AccentedView33_C3CF3DEF0DCDFB692DAF18B5ED350CF8LLV AA01_j9Modifier_D0V AF0hfS0AHLLV AF0hf11DesaturatedJ0AHLLV
+- _symbolic _____y_____yyt_____G_____yAEyAEyAEyAEyAEyAEyAEy_____y_____Sg_Qo______y_____SgGGAIySbGG_____y_____y_____yAfRyAF_____GGGGG_____G_____G_____GANG_____GG 7SwiftUI16SubscriptionViewV 7Combine12AnyPublisherV s5NeverO AA15ModifiedContentV AA0D0PAAE13referenceDateyQr10Foundation0L0VSgFQO AA0fD0V AA30_EnvironmentKeyWritingModifierV AP AA011_BackgroundQ0V AA5GroupV AA012_ConditionalJ0V AA5ColorV AA017_AllowsHitTestingQ0V 14WidgetRenderer012DebugMarginsdQ0V A4_0yd8ClippingQ0V AA017_AppearanceActionQ0V
+- _symbolic _____yx_____G 7SwiftUI15ModifiedContentV AA38_ForegroundLayerLevelColorMatrixEffectV
+- _type_layout_string 14WidgetRenderer0A28PreviewHostingViewControllerC013_AutoupdatingcE033_57374E34C565B32D0F8C763FC64F9E51LLV
+- _type_layout_string So23RBDrawableStatisticsKeya
+- _type_layout_string So6CGSizeV
+CStrings:
++ " exceeds current available protection "
++ "$__lazy_storage_$_activityReloadedPublisher"
++ "$__lazy_storage_$_currentRemoteSubscriptionTypeDidChangePublisher"
++ "$__lazy_storage_$_extensionsDidChangePublisher"
++ "$__lazy_storage_$_systemEnvironmentDidChangePublisher"
++ "%{public}s - %{public}s - DisabledAnimations = %{bool,public}d"
++ "%{public}s - %{public}s - isSnapshotting = %{public}s"
++ "%{public}s currentViewableEntry: No content%{public}s, (entry protected by: %{public}s)"
++ "%{public}s placeholder reload error: %{public}@"
++ "%{public}s placeholder reload: No content%{public}s, (entry protected by: %{public}s)"
++ "%{public}s-%{public}@-%{public}s: activating"
++ "%{public}s-%{public}@-%{public}s: deactivating"
++ "%{public}s-%{public}@-%{public}s: decrement activation count to: %{public}ld for viewID: %{public}s"
++ "%{public}s-%{public}@-%{public}s: increment activation count to: %{public}ld for viewID: %{public}s"
++ "%{public}s-%{public}@-%{public}s: update visibility preference for viewModel: %{public}s to: %{public}s, and overall visibility is: %{public}s"
++ "%{public}s: %{public}u"
++ ", activityIdentifier="
++ ", attributesType="
++ ", extensionIdentity="
++ "-carPlayCompactLeading"
++ "-carPlayCompactTrailing"
++ "-carPlaySmallListItem"
++ ": No window description"
++ "<ActivityRendererSessionKey: identifier="
++ "@\"<SBUISystemApertureElement>\"16@0:8"
++ "@\"BSAction\"16@0:8"
++ "@\"NSSet\"16@0:8"
++ "@\"NSSet\"32@0:8@\"FBSScene\"16@\"NSSet\"24"
++ "@\"NSURL\"16@0:8"
++ "@\"UIColor\"16@0:8"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UIView<SBUISystemApertureAccessoryView>\"16@0:8"
++ "@\"UIViewController<SBUISystemApertureElement>\"16@0:8"
++ "Acquired %{public}ld timeline and placeholder assertions."
++ "ActivitySceneLimitExceeded"
++ "Archive was nil. LiveActivity will be empty"
++ "Attempted decrement of zero %{public}s"
++ "Attempting to load content for key: %{public}s"
++ "BSInvalidatable"
++ "BSServiceConnectionCommonConfiguring"
++ "BUG IN CLIENT OF CHRONO. Please verify your scene lifecyles. %{public}s Foreground scenes exceed area limit: scenes: %{public}ld (area limit=%{public}f, in use=%{public}f) (count limit=%{public}ld)"
++ "CHUISWidgetLaunchRequest will use effectiveContainerBundleIdentifier: %{public}s"
++ "Cannot create root view without at least one view model"
++ "Cannot find a list item view model"
++ "Content data protection level "
++ "Content load not possible: data protection level of entry ["
++ "Content load successful for key: %{public}s"
++ "Content load was successful, but now the data protection level  ["
++ "Count of %{public}s decreased to %{public}ld"
++ "Count of %{public}s increased to %{public}ld"
++ "Count of %{public}s increased to %{public}ld. This exceeds the maximum of %{public}ld"
++ "Creating UI activity renderer session"
++ "Default implementation, returning an empty root view"
++ "Error decoding activity keys: %{public}@"
++ "Error decoding initialization payload: %{public}@"
++ "Error decoding system environment: %{public}@"
++ "Error subscribing to session %{public}@: %{public}@"
++ "Error subscribing to session %{public}s: %{public}@"
++ "Error subscribing to session %{public}s: unknown response"
++ "FBSSceneObserver"
++ "Failed to load custom vc class \"%{public}s\""
++ "ForceLayerSeparation"
++ "GlassPrototype"
++ "Handle action: %{public}@"
++ "Has unlocked since boot? %{bool,public}d"
++ "Host content changed"
++ "Ignored view update for reason: %{public}s - (foreground: %{bool,public}d)"
++ "Ignoring activity descriptor reload for %{public}s because we haven't yet initialized."
++ "Initial environment received: %{public}s"
++ "IntelligentWidgets"
++ "Invalid response received for request: "
++ "Invoking background block on LiveWidgetEntryView for %{public}s"
++ "Max content area for effective unit count [%{public}ld]: %{public}f [for reference 1 unit area is: %{public}f]"
++ "New value set for 'overrideDate': %{public}f"
++ "No activity descriptor provided [%{public}s]"
++ "Optional<(ActivityLaunchRequest) -> ()>"
++ "Optional<AnyShapeStyle>"
++ "Preferences: %{public}s"
++ "Provided remote subscription type value was invalid: %{public}@"
++ "Received activity content did change for key: %{public}s"
++ "Received extension: %{public}s"
++ "Received initial extension: %{public}s"
++ "Reconnecting because we had %{public}ld subscriptions active."
++ "Registering custom view decoders..."
++ "Reload activity descriptors for container: %{public}s"
++ "Reloading widget for session: %{public}@, reason: %{public}s"
++ "Reloading widget if failed for session: %{public}@, reason: %{public}s"
++ "RemoteControls"
++ "RenderBox hosting configured - async? %{bool,public}d, opaque: %{bool,public}d"
++ "Resubscribing to %{public}ld active sessions."
++ "ReverseRemoteWidgetSource"
++ "SBUISystemApertureAccessoryView"
++ "SBUISystemApertureElement"
++ "SBUISystemApertureElementProviding"
++ "Scene is not a session scene - received: %{public}s"
++ "Scene received memory warning - action: none, because delegate doesn't support dynamic invalidations"
++ "Scene received memory warning - action: none, because no UI currently exists."
++ "Subscribing to session: %{public}@"
++ "Subscribing to session: %{public}s"
++ "Successfully subscribed to session: %{public}s"
++ "T@\"<SBUISystemApertureElement>\",?,R,W,N"
++ "T@\"BSAction\",?,R,N"
++ "T@\"NSSet\",?,R,C,N"
++ "T@\"NSString\",?,R,C,N"
++ "T@\"NSString\",N,C"
++ "T@\"NSURL\",?,R,C,N"
++ "T@\"NSURL\",N,R"
++ "T@\"UIColor\",?,R,C,N"
++ "T@\"UIColor\",N,R"
++ "T@\"UIView<SBUISystemApertureAccessoryView>\",?,R,N"
++ "T@\"UIView<SBUISystemApertureAccessoryView>\",N,&,VleadingView"
++ "T@\"UIView<SBUISystemApertureAccessoryView>\",N,&,VminimalView"
++ "T@\"UIView<SBUISystemApertureAccessoryView>\",N,&,VtrailingView"
++ "T@\"UIViewController<SBUISystemApertureElement>\",N,R"
++ "T@\"UIViewController<SBUISystemApertureElement>\",R,N"
++ "TB,?,N"
++ "TB,?,R,N"
++ "TB,N,VattachedMinimalViewRequiresZeroPadding"
++ "TQ,?,N"
++ "TQ,?,R,N"
++ "TQ,N,VpresentationBehaviors"
++ "Td,?,R,N"
++ "Tq,?,R,N"
++ "Tq,N"
++ "Tq,N,VactiveLayoutMode"
++ "Tq,N,VcontentRole"
++ "Tq,N,VmaximumLayoutMode"
++ "Tq,N,VpreferredLayoutMode"
++ "Tq,R,N"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N"
++ "T{CGSize=dd},?,R,N"
++ "UIIntelligence"
++ "Unable to encode session key data for operation: %{public}s: %{public}@"
++ "Unable to find leading or trailing view models"
++ "Unhandled monochrome style"
++ "Unlocked; allowing in coversheet."
++ "Unsubscribing from session: %{public}@"
++ "Unsubscribing from session: %{public}s"
++ "Vv24@0:8@\"NSNumber\"16"
++ "Vv24@0:8@\"NSString\"16"
++ "Vv32@0:8@\"NSData\"16@\"NSNumber\"24"
++ "Vv32@0:8@\"NSNumber\"16@\"NSData\"24"
++ "Vv48@0:8@\"NSData\"16@\"NSNumber\"24@\"LNAction\"32@?<v@?@\"NSError\">40"
++ "WRActivityRendererServiceXPCClient"
++ "WRActivityRendererServiceXPCServer"
++ "Waiting on first unlock to show in coversheet."
++ "WatchComplicationsWidgetSceneContentViewController("
++ "WidgetExtensionRunQOSUtility"
++ "WidgetRenderer.ActivitySceneContentViewController"
++ "WidgetRenderer.SystemApertureElementViewController"
++ "WidgetRenderer.WatchComplicationsLiveWidgetViewModel"
++ "WidgetRenderer._JindoAccessoryView"
++ "WidgetRenderer._JindoAccessoryViewController"
++ "WidgetRenderer._UIComposedViewWithVibrancyFilter"
++ "WidgetRenderer/ActivitySceneContentViewController.swift"
++ "WidgetRenderer/BSUIVibrancyEffectViewAdapter.swift"
++ "WidgetRenderer/JindoActivityViewController.swift"
++ "WidgetRenderer/WatchComplicationsWidgetViewModel.swift"
++ "Will add FBSSceneObserver."
++ "Will handle Double Tap BSAction."
++ "Will remove FBSSceneObserver."
++ "[%{public}s] AOD timeline invalidated by host content change."
++ "[%{public}s] Activate"
++ "[%{public}s] Animating pending view change..."
++ "[%{public}s] Animating pending view change: %{public}s"
++ "[%{public}s] AoD timeline request with dateInterval: %{public}s"
++ "[%{public}s] AoD timeline request with dateInterval: %{public}s - timelines: %{public}s"
++ "[%{public}s] AoD timeline result from UIHostingController base: %{public}s"
++ "[%{public}s] AoD timeline result: %{public}@"
++ "[%{public}s] AoD update to override date: %{public}s with specifier: %{public}s"
++ "[%{public}s] Archive was nil. LiveActivity will be empty for view model with tag %{private}s"
++ "[%{public}s] Background"
++ "[%{public}s] Backgrounded"
++ "[%{public}s] Became active"
++ "[%{public}s] Cached [%{public}s] view assigned."
++ "[%{public}s] Color scheme changed: (%{public}s)"
++ "[%{public}s] Content backgroundTintColor changed to: %{public}s"
++ "[%{public}s] Content size changed to: %{public}s"
++ "[%{public}s] Content textColor changed to: %{public}s"
++ "[%{public}s] Create view models"
++ "[%{public}s] Created or found activity entry"
++ "[%{public}s] Created with id: %{public}s"
++ "[%{public}s] Creating UI - reason: %{public}s."
++ "[%{public}s] Decrement foreground count to: %{public}ld for viewID: %{public}s"
++ "[%{public}s] Descriptor: %{public}s"
++ "[%{public}s] Destroyed"
++ "[%{public}s] Disabling RenderBox update interval because background."
++ "[%{public}s] Enabling RenderBox default update interval because foreground."
++ "[%{public}s] Ending batch update with reasons: %{public}s"
++ "[%{public}s] Entry metadata changed to: %{public}s"
++ "[%{public}s] Evaluated inner view with result: %{public}s - view sequence number: %{public}lld, reasons: %{public}s"
++ "[%{public}s] Evaluated inner view with result: %{public}s, reason: %{public}s, has view collection: %{bool,public}d"
++ "[%{public}s] Failed to execute LNAction with error: %{public}@"
++ "[%{public}s] Failed to return view entry from archive for view model with tag %{private}s with error: %{private}@"
++ "[%{public}s] Finished executing LNAction"
++ "[%{public}s] Foregrounded"
++ "[%{public}s] Forground"
++ "[%{public}s] Frame did change: %{public}s"
++ "[%{public}s] Handling payload update %{public}s for view %{public}s"
++ "[%{public}s] Ignored view update for reason: %{public}s, (content paused: %{bool,public}d, foreground: %{bool,public}d)"
++ "[%{public}s] Including date in timeline: %{public}s"
++ "[%{public}s] Increment foreground count to: %{public}ld for viewID: %{public}s"
++ "[%{public}s] Invalidate"
++ "[%{public}s] Invalidating UI - reason: %{public}s"
++ "[%{public}s] Launching from legacy widgetURL"
++ "[%{public}s] Launching from system URL"
++ "[%{public}s] Launching from widgetURL"
++ "[%{public}s] Launching with no widgetURL"
++ "[%{public}s] No metrics provided or they were invalid: %{public}s."
++ "[%{public}s] Notifying client that archive is ready."
++ "[%{public}s] Open application from openURL requested: %{sensitive}s"
++ "[%{public}s] Open application from tap requested."
++ "[%{public}s] Override date changed (%{public}s)"
++ "[%{public}s] Reload widget for reason: %{public}s"
++ "[%{public}s] Reload widget if Failed for reason: %{public}s"
++ "[%{public}s] Rendering view: %{public}s - override date: %{public}s"
++ "[%{public}s] Resigned active"
++ "[%{public}s] SELECTING tinted fullColor (%{public}@)"
++ "[%{public}s] SELECTING tinted fullColor - NIL (%{public}@)"
++ "[%{public}s] Scene received memory warning - action: invalidating content VC because background."
++ "[%{public}s] Scene received memory warning - action: none, content is actively foreground."
++ "[%{public}s] Separated layers changed to: %{bool}d"
++ "[%{public}s] Supported widget proximities changed to: %s"
++ "[%{public}s] Task priority did change: %{public}s"
++ "[%{public}s] Trait collection did change."
++ "[%{public}s] Trait collection did change. (had previous collection = %{public}s)"
++ "[%{public}s] Trying to lazily find descriptor..."
++ "[%{public}s] Unable to perform interaction - no session key found."
++ "[%{public}s] Updating base content touched down: %{bool,public}d"
++ "[%{public}s] Updating client background tint color: %{public}s"
++ "[%{public}s] Updating client resolved metrics: %{public}@"
++ "[%{public}s] Updating client supported family: %{public}s"
++ "[%{public}s] Updating client text color: %{public}s"
++ "[%{public}s] User interface style changed from host: %{public}s"
++ "[%{public}s] Visibility did change: %{bool,public}d"
++ "[%{public}s] Widget proximity changed to: %s"
++ "[%{public}s] Widget tint parameters changed: %{public}@"
++ "[%{public}s] Will invalidate and rebuild view controller due to rendering engine change."
++ "[%{public}s] config validation found error: Metrics\n%s don't match CHSConfiguredWidgetDescriptor metrics id %s\n%s."
++ "[%{public}s] config validation found error: Request for showsWidgetLabel (%{bool,public}d) not in matching CHSConfiguredWidgetDescriptor id %{public}s."
++ "[%{public}s] config validation found error: Request for supportsLowLuminance (%{bool,public}d) not in matching CHSConfiguredWidgetDescriptor id %{public}s."
++ "[%{public}s] config validation found error: Requested CHSWidgetDisplayProperties not in matching CHSConfiguredWidgetDescriptor id %{public}s."
++ "[%{public}s] config validation found error: Requested color scheme %{public}s not in matching CHSConfiguredWidgetDescriptor id %{public}s."
++ "[%{public}s] config validation found error: Requested render scheme %{public}@ not in matching CHSConfiguredWidgetDescriptor id %{public}s."
++ "[%{public}s] config validation found error: scene 'canAppearInSecureEnvironment' but CHSConfiguredWidgetDescriptor id %{public}s says it can't."
++ "[%{public}s] config validation: Can't validate configuration against scene settings, no widgetConfigurationIdentifier"
++ "[%{public}s] config validation: Can't validate configuration against scene settings, widgetConfigurationIdentifier '%{public}s' not found in any CHSConfiguredWidgetDescriptor"
++ "[%{public}s] idealizedDateComponents changed to (%{public}s)"
++ "[%{public}s] in AoD changed (%{bool,public}d)"
++ "[%{public}s] inherited color scheme changed %{public}s)"
++ "[%{public}s] missing entitlement for event service: %{public}@"
++ "[%{public}s] prefersPlaceholderContent changed (%{bool,public}d)"
++ "[%{public}s] prefersUnredactedContentInLowLuminanceEnvironment changed %{bool,public}d)"
++ "[%{public}s] raw environment did change: %{public}s"
++ "[%{public}s] renderScheme changed to (%{public}s)"
++ "[%{public}s] scene did disconnect"
++ "[%{public}s] self.view.bounds = %{public}s"
++ "[%{public}s] sizeThatFits: %{public}s - hasEntry? %{bool,public}d"
++ "[%{public}s] view collection did change."
++ "[%{public}s] view entry changed - aperture element needs update"
++ "[%{public}s] viewEvaluate: allowedToFetchLiveContent = %{bool,public}d"
++ "[%{public}s] viewEvaluate: begin"
++ "[%{public}s] viewEvaluate: end"
++ "[%{public}s] viewEvaluate: liveContentContainsPrivacyRedactions = true"
++ "[%{public}s] viewEvaluate: securityAllowsLiveContent = %{bool,public}d"
++ "[%{public}s]: expanded view bounds after view change: %{public}s"
++ "_$observationRegistrar"
++ "_TtC14WidgetRenderer11BugReporter"
++ "_TtC14WidgetRenderer12ViewDecoders"
++ "_TtC14WidgetRenderer14WidgetServices"
++ "_TtC14WidgetRenderer16ActivityServices"
++ "_TtC14WidgetRenderer17ActivityViewModel"
++ "_TtC14WidgetRenderer18WidgetArchiveEntry"
++ "_TtC14WidgetRenderer19_JindoAccessoryView"
++ "_TtC14WidgetRenderer20ActivityArchiveEntry"
++ "_TtC14WidgetRenderer20AmbientSceneDelegate"
++ "_TtC14WidgetRenderer20WidgetArchiveService"
++ "_TtC14WidgetRenderer21ActivitySceneDelegate"
++ "_TtC14WidgetRenderer21ListItemSceneDelegate"
++ "_TtC14WidgetRenderer22ActivityArchiveService"
++ "_TtC14WidgetRenderer22ActivityRendererClient"
++ "_TtC14WidgetRenderer24_EmptyJindoAccessoryView"
++ "_TtC14WidgetRenderer25ActivitySceneDelegateBase"
++ "_TtC14WidgetRenderer25WidgetArchiveServiceStore"
++ "_TtC14WidgetRenderer26ActivityRendererSessionKey"
++ "_TtC14WidgetRenderer26JindoActivitySceneDelegate"
++ "_TtC14WidgetRenderer27ActivityArchiveServiceStore"
++ "_TtC14WidgetRenderer27ActivityBannerSceneDelegate"
++ "_TtC14WidgetRenderer27AmbientCompactSceneDelegate"
++ "_TtC14WidgetRenderer27SingleActivitySceneDelegate"
++ "_TtC14WidgetRenderer27WidgetArchiveEntryAssertion"
++ "_TtC14WidgetRenderer28ActivityLaunchRequestBuilder"
++ "_TtC14WidgetRenderer28CarPlayActivitySceneDelegate"
++ "_TtC14WidgetRenderer29InProcessActivityInstanceBase"
++ "_TtC14WidgetRenderer29_JindoAccessoryViewController"
++ "_TtC14WidgetRenderer30InProcessJindoActivityInstance"
++ "_TtC14WidgetRenderer31_DefaultActivityRendererSession"
++ "_TtC14WidgetRenderer32XcodePreviewWidgetRendererClient"
++ "_TtC14WidgetRenderer33InProcessListItemActivityInstance"
++ "_TtC14WidgetRenderer33WatchComplicationsWidgetViewModel"
++ "_TtC14WidgetRenderer34ActivitySceneContentViewController"
++ "_TtC14WidgetRenderer35SystemApertureElementViewController"
++ "_TtC14WidgetRenderer37WatchComplicationsLiveWidgetViewModel"
++ "_TtC14WidgetRenderer38_DefaultActivityRendererSessionFactory"
++ "_TtC14WidgetRenderer41RemoteSubscriptionTypeEnvironmentProvider"
++ "_TtC14WidgetRenderer42ActivityRendererSessionSubscriptionRequest"
++ "_TtC14WidgetRenderer50WatchComplicationsWidgetSceneContentViewController"
++ "_TtC14WidgetRendererP33_378CA5B31CE91C170433E67C5DF1045933_UIComposedViewWithVibrancyFilter"
++ "_TtC14WidgetRendererP33_5C8471822765AF2C6E3BB50E2CBFE58D35ActivityViewModelSecurityDataSource"
++ "_TtC14WidgetRendererP33_AAAF5E0B91342CB37DBE996ED544FA1C29ActivityArchiveEntryAssertion"
++ "__activeRequesters"
++ "__cancellables"
++ "__foregroundAssertion"
++ "__invalidated"
++ "__isLoaded"
++ "__isLoadedPublisher"
++ "__logIdentifier"
++ "__pendingInteractionSequenceNumber"
++ "_activityDescriptorProvider"
++ "_activityEntryAssertion"
++ "_activityFamily"
++ "_activitySessionFactory"
++ "_alwaysOnOverrideDate"
++ "_appSceneDiffInspector"
++ "_backgroundTintColor"
++ "_baseEnvironmentProvider"
++ "_calloutQueue_activityReloadedPublisher"
++ "_calloutQueue_currentRemoteSubscriptionTypeDidChangePublisher"
++ "_colorSchemeDidChangePublisher"
++ "_contentConfiguration"
++ "_contentSize"
++ "_currentViewEntry"
++ "_descriptorObserver"
++ "_effectView"
++ "_entryContentTypeChangedListener"
++ "_environmentProvider"
++ "_extensionPublisher"
++ "_forXcodePreviews"
++ "_hasUI"
++ "_hostController"
++ "_hostingController"
++ "_idealizedDateComponentsDidChangePublisher"
++ "_isFocal"
++ "_isSubscribed"
++ "_jindoState"
++ "_lastSnapshotMetadata"
++ "_lock_activityDescriptorCollection"
++ "_lock_currentRemoteSubscriptionType"
++ "_model"
++ "_overrideDatePreferenceValue"
++ "_queue_hasReceivedInitializationPayload"
++ "_rendererClient"
++ "_renderingScale"
++ "_renderingScaleObserver"
++ "_sceneIdentifier"
++ "_sceneSettingsDiffInspector"
++ "_services"
++ "_snapshotMetadata"
++ "_snapshotMetadataDirty"
++ "_store"
++ "_stringKeyRepresentation"
++ "_style"
++ "_synchronizedDrawingFence"
++ "_systemApertureElementProvider"
++ "_textColor"
++ "_tintedViewModelSubscription"
++ "_uniqueSceneDiffActionKey"
++ "_useWatchContentView"
++ "_validated"
++ "_view"
++ "_viewController"
++ "_viewModels"
++ "_viewSecurityPolicyDataSource"
++ "_viewTags"
++ "_watchScene"
++ "_watchViewModel"
++ "_widgetDescriptorPublisher"
++ "`debugPlaceholderViews` preference is set or data source prefers placeholder, preferring placeholder content"
++ "accessoryMaxSize"
++ "accessoryPadding"
++ "accessoryPlacement"
++ "activeLayoutMode"
++ "activity-archive"
++ "activityDescriptor"
++ "activityLiveViewAmbient"
++ "activityLiveViewAmbientCompact"
++ "activityLiveViewBanner"
++ "activityLiveViewCarPlay"
++ "activityLiveViewJindo"
++ "activityLiveViewLock"
++ "activityRendererClient"
++ "activityRendererClient-verbose"
++ "activityRendererSession"
++ "activitySceneAmbient"
++ "activitySceneAmbientClient"
++ "activitySceneAmbientCompact"
++ "activitySceneAmbientCompactClient"
++ "activitySceneBanner"
++ "activitySceneBannerClient"
++ "activitySceneCarPlay"
++ "activitySceneJindo"
++ "activitySceneJindoClient"
++ "activitySceneLock"
++ "activitySceneLockClient"
++ "activityServices"
++ "addObserver:"
++ "allowContentPaused"
++ "animateAlongsideTransition:completion:"
++ "associatedAppBundleIdentifier"
++ "associatedScenePersistenceIdentifier"
++ "attachedMinimalViewRequiresZeroPadding"
++ "attemptedDecrementOfZero"
++ "backgroundActivitiesToSuppress"
++ "bezelContentCenter"
++ "bezierPath"
++ "bezierPathWithCGPath:"
++ "biomeScheduler"
++ "biomeSink"
++ "bugReporter"
++ "canRequestAlertingAssertion"
++ "cancel"
++ "centerAngle"
++ "cgPath"
++ "circleCenter"
++ "circleRadius"
++ "clientLogger"
++ "colorSchemeDidChangePublisher"
++ "com.apple.chrono.activityRenderer"
++ "com.apple.chrono.activityRendererClient.callout"
++ "com.apple.chrono.activityRendererClient.xpc"
++ "com.apple.chrono.renderer.activityArchiveServiceStore-"
++ "com.apple.chrono.renderer.widgetArchiveServiceStore-"
++ "com.apple.chronod"
++ "com.apple.findmy"
++ "com.apple.mobileslideshow"
++ "configuration contentCenter "
++ "container"
++ "contentDidChange:"
++ "contentFromXcodePreviews"
++ "contentKey"
++ "contentRole"
++ "contentSize"
++ "cornerGaugeSegmented"
++ "cornerMetadataText"
++ "cornerPosition"
++ "countLock"
++ "counter created for %{public}s with maximum %{public}ld"
++ "currentRemoteSubscriptionTypeDidChange:"
++ "curvedLabelMetrics"
++ "curvedTextConfiguration"
++ "d16@0:8"
++ "defaultView"
++ "detachedMinimalView"
++ "effectiveUserInterfaceLayoutDirection"
++ "elementIdentifier"
++ "environmentDidChangePublisher"
++ "environmentProvider"
++ "expandedUIHostingController"
++ "fontSize"
++ "fontStyle"
++ "forXcodePreviews"
++ "gaugeProviderWithStyle:gaugeColors:gaugeColorLocations:fillFraction:"
++ "gaugeProviderWithStyle:gaugeColors:gaugeColorLocations:startDate:startFillFraction:endDate:endFillFraction:"
++ "generateSnapshotMetadata"
++ "handleInteraction"
++ "handleInteraction(_:keybagLockPolicy:action:)"
++ "handlePayloadUpdated"
++ "idealizedDateComponents"
++ "idealizedDateComponentsDidChangePublisher"
++ "identifier=%{public}s, reason=%{public}s"
++ "imageProviderWithOnePieceImage:"
++ "inLowLuminanceEnvironment"
++ "includeAccessoryViews"
++ "inheritedColorScheme"
++ "init(metrics:)"
++ "initWithData:"
++ "initWithExtensions:"
++ "initWithMetadata:completion:"
++ "initWithNSUserActivity:"
++ "initWithScale:colorGamut:"
++ "initWithString:"
++ "initWithSuiteName:"
++ "initWithURL:"
++ "integerValue"
++ "interior"
++ "isAccentedGlass"
++ "isAwayFromCompanion"
++ "isAwayFromCompanionPublisher"
++ "isBackgroundRemovable"
++ "isClearGlass"
++ "isFocal"
++ "isMainThread"
++ "keyColor"
++ "launchAction"
++ "launchURL"
++ "layerSeparationChanged"
++ "leadingUIHostingController"
++ "leadingView"
++ "levelOfDetailChanged"
++ "liveActivityDescriptors"
++ "maximumAngularWidth"
++ "maximumCount"
++ "maximumLayoutMode"
++ "memoryWarningSimulationSubscription"
++ "metadata"
++ "metricsChanged"
++ "metricsDefinition"
++ "metricsRequest"
++ "minimalUIHostingController"
++ "minimalView"
++ "minimalViewLayoutAxis"
++ "minimumLayoutMode"
++ "monochromeModel"
++ "newViewCollection"
++ "observeBezelContentCenterWithBlock:"
++ "observeCornerPositionWithBlock:"
++ "observeCurvedLabelMetricsWithBlock:"
++ "observeGenerateSnapshotMetadataWithBlock:"
++ "observeIdealizedDateComponentsWithBlock:"
++ "observeIncludeAccessoryViewsWithBlock:"
++ "observeProximityWithBlock:"
++ "observeRenderingScaleWithBlock:"
++ "observeSeparateLayersWithBlock:"
++ "observeSupportedProximitiesWithBlock:"
++ "observeUserInterfaceStyleWithBlock:"
++ "persistentSubscriptions"
++ "preferredContentSize"
++ "preferredContentSizeDidChangeForChildContentContainer:"
++ "preferredCustomAspectRatio"
++ "preferredCustomLayout"
++ "preferredHeightForBottomSafeArea"
++ "preferredLayoutMode"
++ "preferredWindowingControlStyleForScene:"
++ "prefersFixedPortraitOrientation"
++ "prefersPlaceholderContent"
++ "prefersRedactedContent"
++ "presentationBehaviors"
++ "preventsAutomaticDismissal"
++ "preventsInteractiveDismissal"
++ "proximity"
++ "proximityChanged"
++ "q16@0:8"
++ "rawEnvironmentValues"
++ "recursiveDescription"
++ "reloadContent:reason:"
++ "reloadDescriptors:"
++ "remoteSubscriptionType"
++ "removeObserver:"
++ "renderingScale"
++ "resolvedColorWithTraitCollection:"
++ "scale"
++ "scanHexLongLong:"
++ "scene delegate idealizedDateComponents changed to: %s"
++ "scene:didUpdateClientSettings:"
++ "scene:didUpdateHostHandle:"
++ "scene:didUpdateSettings:"
++ "scene:handleActions:"
++ "sceneWillInvalidate:"
++ "securityPolicyChanged"
++ "separateLayers"
++ "session"
++ "sessionFactory"
++ "setAccessibilityLabel:"
++ "setActiveLayoutMode:"
++ "setAnimationFence:"
++ "setAnimationSettings:"
++ "setAssociatedAppBundleIdentifier:"
++ "setAssociatedScenePersistenceIdentifier:"
++ "setAttachedMinimalViewRequiresZeroPadding:"
++ "setCanRequestAlertingAssertion:"
++ "setContentRole:"
++ "setCurvedTextAngularWidth:"
++ "setElementIdentifier:"
++ "setElementNeedsUpdate"
++ "setElementNeedsUpdateWithCoordinatedAnimations:"
++ "setEntryContentType:"
++ "setFontFeatures:"
++ "setGaugeMaximumLabelData:"
++ "setGaugeMinimumLabelData:"
++ "setGaugeProviderData:"
++ "setHidden:"
++ "setLabelData:"
++ "setLeadingView:"
++ "setMaximumLayoutMode:"
++ "setMinimalView:"
++ "setMinimalViewLayoutAxis:"
++ "setOuterLabelData:"
++ "setOverrideDate:"
++ "setPaused:"
++ "setPreferredLayoutMode:"
++ "setPresentationBehaviors:"
++ "setQueue:"
++ "setRelativeToDate:"
++ "setSystemApertureElementViewControllerProvider:"
++ "setTaskPriority:forSession:"
++ "setTintColor:"
++ "setTrailingView:"
++ "settingsDiff"
++ "settingsWithDuration:"
++ "sizeThatFits:forLayoutMode:"
++ "snapshotMetadataPublisher"
++ "statusBarStyleOverridesToSuppress"
++ "subscribe to live activity"
++ "subscriberCount"
++ "subscriptionTypePublisher"
++ "supportedProximities"
++ "supportsAccentedContent"
++ "systemApertureElement"
++ "systemApertureElementContext"
++ "systemApertureElementViewController"
++ "systemDataURLProvider"
++ "textColor"
++ "textProviderWithDate:"
++ "textProviderWithDate:style:units:"
++ "textProviderWithDate:units:"
++ "textProviderWithFormat:arguments:"
++ "textProviderWithStartDate:endDate:"
++ "textProviderWithText:"
++ "textProviderWithTimeZone:"
++ "tintedViewModel"
++ "tracking"
++ "trailingUIHostingController"
++ "trailingView"
++ "updateClientSettingsWithBlock:"
++ "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
++ "v16@?0@\"CHUISWatchComplicationsWidgetSceneSettingsDiffContext\"8"
++ "v16@?0@\"FBSMutableSceneClientSettings\"8"
++ "v24@0:8@\"<UIViewControllerTransitionCoordinator>\"16"
++ "v24@0:8@\"BSServiceQueue\"16"
++ "v24@0:8@\"FBSScene\"16"
++ "v24@0:8Q16"
++ "v24@0:8q16"
++ "v32@0:8@\"FBSScene\"16@\"FBSSceneHostHandle\"24"
++ "v32@0:8@\"FBSScene\"16@\"FBSSceneUpdate\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
++ "vibrancyLevel"
++ "viewController"
++ "viewLogger"
++ "viewModels"
++ "viewTag"
++ "viewWillLayoutSubviewsWithTransitionCoordinator:"
++ "wantsContentPaused"
++ "wantsGlassMaterial"
++ "wantsInheritedColorScheme"
++ "wantsSubduedGlass"
++ "widgetServices"
++ "widgetSupportsRTL? %{bool,public}d, isRTLnatively? %{bool,public}d"
++ "widgetViewModel"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "wrapped"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8"
++ "{CGSize=dd}16@0:8"
++ "{CGSize=dd}32@0:8{CGSize=dd}16"
++ "{CGSize=dd}40@0:8{CGSize=dd}16q32"
+- "%s - %s - DisabledAnimations = %{bool}d"
+- "%s - %s - isSnapshotting = %s"
+- "%s-%@-%s: activating"
+- "%s-%@-%s: deactivating"
+- "%s-%@-%s: decrement activation count to: %ld for viewID: %s"
+- "%s-%@-%s: increment activation count to: %ld for viewID: %s"
+- "%s-%@-%s: update visibility preference for viewModel: %s to: %s, and overall visibility is: %s"
+- "%{public}s currentViewableEntry: No content%s, (entry protected by: %s)"
+- "%{public}s placeholder reload error: %@"
+- "%{public}s placeholder reload: No content%{public}s, (entry protected by: %s)"
+- "%{public}s: %u"
+- "Acquired %ld timeline and placeholder assertions."
+- "Attempting to load content for key: %s"
+- "BUG IN CLIENT OF CHRONO. Please verify your scene lifecyles. %s Foreground scenes exceed area limit: scenes: %ld (area limit=%f, in use=%f) (count limit=%ld)"
+- "CHUISWidgetLaunchRequest will use effectiveContainerBundleIdentifier: %s"
+- "Content data protection level exceeds current available protection"
+- "DevonDebug touchedDown publisher %{bool}d"
+- "Error subscribing to session %{public}@: %@"
+- "Handle action: %@"
+- "Invoking background block on LiveWidgetEntryView for %s"
+- "Launching from legacy widgetURL"
+- "Launching from system URL"
+- "Launching from widgetURL"
+- "Launching with no widgetURL"
+- "Max content area for effective screen count [%{public}f]: %{public}f [for reference 1 screen area is: %{public}f]"
+- "No activity metrics found"
+- "No view found in preview view collection: showing empty view."
+- "No view matching environment found in preview view collection"
+- "PREVIEW (EMPTY - MISSING ENVIRONMENT)"
+- "Preferences: %s"
+- "Received extension: %s"
+- "Received initial extension: %s"
+- "Reconnecting because we had %ld subscriptions active."
+- "Reloading widget for session: %{public}@, reason: %s"
+- "Reloading widget if failed for session: %{public}@, reason: %s"
+- "RenderBox hosting configured - async? %{bool}d, opaque: %{bool}d"
+- "Resubscribing to %ld active sessions."
+- "Subscribing to session: %@"
+- "T@\"CHSInlineTextParameters\",N,&"
+- "T@\"CHSWidgetTintParameters\",N,&,VtintParameters"
+- "Unknown view kind when fetching metrics"
+- "Unsubscribing from session: %@"
+- "View matching environment found!"
+- "WidgetRenderer.WidgetSceneContentViewController"
+- "WidgetRenderer/WidgetPreviewHostingViewController.swift"
+- "WidgetSceneConfiguration"
+- "[%s] Destroyed"
+- "[%s] viewEvaluate: allowedToFetchLiveContent = %{bool}d"
+- "[%s] viewEvaluate: begin"
+- "[%s] viewEvaluate: end"
+- "[%s] viewEvaluate: liveContentContainsPrivacyRedactions = true"
+- "[%s] viewEvaluate: securityAllowsLiveContent = %{bool}d"
+- "[%{public}s] Animating pending view change: %s"
+- "[%{public}s] AoD timeline request with dateInterval: %s"
+- "[%{public}s] AoD timeline result from UIHostingController base: %s"
+- "[%{public}s] AoD timeline result: %@"
+- "[%{public}s] AoD update to override date: %s with specifier: %s"
+- "[%{public}s] Cached [%s] view assigned."
+- "[%{public}s] Ending batch update with reasons: %s"
+- "[%{public}s] Evaluated inner view with result: %{public}s - view sequence number: %lld, reasons: %{public}s"
+- "[%{public}s] Ignored view update for reason: %{public}s, (content paused: %{bool}d, foreground: %{bool}d)"
+- "[%{public}s] Including date in timeline: %s"
+- "[%{public}s] Reload widget for reason: %s"
+- "[%{public}s] Reload widget if Failed for reason: %s"
+- "[%{public}s] Task priority did change: %s"
+- "[%{public}s] Trait collection did change. (had previous collection = %s)"
+- "[%{public}s] Visibility did change: %{bool}d"
+- "[%{public}s] Widget tintability changed: %{bool,public}d"
+- "[%{public}s] renderScheme changed (%{public}s)"
+- "_TtC14WidgetRenderer14ArchiveService"
+- "_TtC14WidgetRenderer18ArchiveWidgetEntry"
+- "_TtC14WidgetRenderer19ArchiveServiceStore"
+- "_TtC14WidgetRenderer25URLScopedSandboxExtension"
+- "_TtC14WidgetRenderer27ArchiveWidgetEntryAssertion"
+- "_TtC14WidgetRenderer34WidgetPreviewHostingViewController"
+- "_TtCC14WidgetRenderer34WidgetPreviewHostingViewController15EntryController"
+- "_areAnimationsPaused"
+- "_currentViewInLowLuminance"
+- "_entryIndex"
+- "_environmentDidChangePublisher"
+- "_overrideDate"
+- "_queue_placeholders"
+- "_queue_snapshots"
+- "_queue_timelines"
+- "_value"
+- "_vibrancyView"
+- "`debugPlaceholderViews` preference is set, preferring placeholder content"
+- "com.apple.chrono.renderer.archiveServiceStore-"
+- "entryController"
+- "environmentByExtensionIdentifier"
+- "greenColor"
+- "identifier=%{public}s, isInitialEvent=%{bool,public}d, reason=%{public}s"
+- "identityToken"
+- "initWithContentRect:"
+- "orangeColor"
+- "setIsEnabled:"
+- "stringRepresentation"
+- "url"
+- "usesIOSLockScreenVibrancyEffect"
+- "vibrancyColor"
+- "viewCollection"
+- "viewDidLoad"
+
+```

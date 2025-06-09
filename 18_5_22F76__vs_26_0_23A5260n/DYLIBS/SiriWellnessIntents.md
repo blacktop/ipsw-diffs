@@ -1,0 +1,246 @@
+## SiriWellnessIntents
+
+> `/System/Library/PrivateFrameworks/SiriWellnessIntents.framework/SiriWellnessIntents`
+
+```diff
+
+-3405.10.1.0.0
+-  __TEXT.__text: 0x14daa0
+-  __TEXT.__auth_stubs: 0x13a0
++3500.31.1.0.0
++  __TEXT.__text: 0x1444ec
++  __TEXT.__auth_stubs: 0x1330
+   __TEXT.__objc_methlist: 0x1180
+-  __TEXT.__const: 0x40a8
+-  __TEXT.__cstring: 0x34b9
++  __TEXT.__const: 0x4638
++  __TEXT.__cstring: 0x3589
+   __TEXT.__constg_swiftt: 0x16e8
+-  __TEXT.__swift5_typeref: 0x1990
++  __TEXT.__swift5_typeref: 0x19a6
+   __TEXT.__swift5_fieldmd: 0x14d0
+   __TEXT.__swift5_builtin: 0x230
+   __TEXT.__swift5_reflstr: 0xe7d
+
+   __TEXT.__oslogstring: 0x3ca1
+   __TEXT.__swift_as_entry: 0x258
+   __TEXT.__swift_as_ret: 0x3a8
+-  __TEXT.__unwind_info: 0x1bc8
+-  __TEXT.__eh_frame: 0x2694
++  __TEXT.__unwind_info: 0x1b50
++  __TEXT.__eh_frame: 0x266c
+   __TEXT.__objc_classname: 0x9
+   __TEXT.__objc_methname: 0x1b7a
+   __TEXT.__objc_methtype: 0xad
+-  __DATA_CONST.__got: 0x520
+-  __DATA_CONST.__const: 0x1f8
++  __DATA_CONST.__got: 0x508
++  __DATA_CONST.__const: 0x1d0
+   __DATA_CONST.__objc_classlist: 0x190
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x9b0
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __AUTH_CONST.__auth_got: 0x9d0
++  __AUTH_CONST.__auth_got: 0x998
+   __AUTH_CONST.__const: 0xc190
+   __AUTH_CONST.__objc_const: 0x7430
+   __AUTH.__objc_data: 0x2580
+   __AUTH.__data: 0x7d0
+-  __DATA.__data: 0x13f0
++  __DATA.__data: 0xea8
+   __DATA.__bss: 0x3f50
+   __DATA.__common: 0xd8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HealthKit.framework/HealthKit
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/HealthDomainsTools.framework/HealthDomainsTools
+   - /System/Library/PrivateFrameworks/HealthMedications.framework/HealthMedications
+   - /System/Library/PrivateFrameworks/HealthMenstrualCycles.framework/HealthMenstrualCycles
+   - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+   - /System/Library/PrivateFrameworks/SeymourCore.framework/SeymourCore
+   - /System/Library/PrivateFrameworks/SleepHealth.framework/SleepHealth
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftSwiftOnoneSupport.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 0B8FF82D-DF32-37D7-A72B-066A9CE85907
+-  Functions: 3941
+-  Symbols:   11582
+-  CStrings:  1105
++  UUID: 001E7143-24C9-3A1C-8A14-DD6062D88ED6
++  Functions: 3934
++  Symbols:   11315
++  CStrings:  1107
+ 
+Symbols:
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_Siycfu0_
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_Siycfu0_TA
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_TA
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_sAK_pycfu_
++ _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtYbcfU_sAK_pycfu_TA
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_S2d_Sdtcfu3_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_S2d_Sdtcfu4_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SSycfu_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SSycfu_TA
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SbARXEfU0_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SbARXEfU_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SdARXEfU1_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_SdARXEfU2_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_Siycfu0_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_Siycfu0_TA
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_Siycfu1_
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_Siycfu1_TA
++ _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtYbcfU_TA
++ _$s19SiriWellnessIntents25HealthKitDistanceProviderVyxGlWOc
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZs5UInt8V_Tt1gq5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSbSo7NSErrorCSgIeyBhyy_SbTz_
++ _$sSi10bitPatternSis13OpaquePointerVSg_tcfC
++ _$sSiSxsWP
++ _$sSnySiGMD
++ _$sSnySiGSnyxGSlsSxRzSZ6StrideRpzrlWL
++ _$sSnySiGSnyxGSlsSxRzSZ6StrideRpzrlWl
++ _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSo12NSDictionaryCSo7NSErrorCSgIeyBhyy_SDySo14HKQuantityTypeCSo6HKUnitCGTz_
++ _$sSo22HKSleepDaySummaryQueryCSaySo0abC0CGSgs5Error_pSgIeghggg_ABSo7NSArrayCSgSo7NSErrorCSgIeyBhyyy_TR
++ _$sSo25HKSiriAuthorizationStatusVs5Error_pSgIeghyg_ABSo7NSErrorCSgIeyBhyy_TR
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyBhyy_SaySo30HKMedicationExposableDoseEventCGTz_
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss16IndexingIteratorVySnySiGGMD
++ _$ss27_finalizeUninitializedArrayySayxGABnlFs5UInt8V_Tgq5
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriWellnessIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriWellnessIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriWellnessIntents
++ _swift_initStackObject
++ _symbolic SnySiG
++ _symbolic _____ySnySiGG s16IndexingIteratorV
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_Siycfu0_
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_Siycfu0_TA
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_TA
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_sAK_pycfu_
+- _$s19SiriWellnessIntents02isA28AuthorizedToAccessHealthData5storeSbSo13HKHealthStoreC_tYaFyScCySbs5NeverOGXEfU_ySo25HKSiriAuthorizationStatusV_s5Error_pSgtcfU_sAK_pycfu_TA
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_S2d_Sdtcfu3_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_S2d_Sdtcfu4_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SSycfu_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SSycfu_TA
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SbARXEfU0_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SbARXEfU_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SdARXEfU1_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_SdARXEfU2_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_Siycfu0_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_Siycfu0_TA
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_Siycfu1_
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_Siycfu1_TA
+- _$s19SiriWellnessIntents20SleepAnalysisFetcherV5query5start3endAA03GetdE14IntentResponseC10Foundation4DateV_AKtYaFyScCyAHs5NeverOGXEfU_ySo22HKSleepDaySummaryQueryC_SaySo0pqR0CGSgs5Error_pSgtcfU_TA
+- _$s19SiriWellnessIntents25HealthKitDistanceProviderVyxGlWOr
+- _$s19SiriWellnessIntents25HealthKitDistanceProviderVyxGlWOs
+- _$s19SiriWellnessIntents28HealthKitCorrelationProviderVyxGlWOr
+- _$sS2iSzsWL
+- _$sS2iSzsWl
+- _$sS2uSzsWL
+- _$sS2uSzsWl
+- _$sSC11HKErrorCodeLeVWOh
+- _$sSUss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufC
+- _$sSZss17FixedWidthIntegerRzrlEyxqd__cSzRd__lufC
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFs5UInt8V_Tgq5
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFs5UInt8V_Tgq5
+- _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFs5UInt8V_Tgq5
+- _$sSa5countSivgSS_Tg5
+- _$sSa5countSivgSd_Tg5
+- _$sSa6appendyyxnFSS_Tg5
+- _$sSaySo13HKCorrelationCGWOh
+- _$sSaySo16HKQuantitySampleCGWOh
+- _$sSaySo17HKActivitySummaryCGWOh
+- _$sSaySo17HKSleepDaySummaryCGWOh
+- _$sSaySo8HKSampleCGWOh
+- _$sSaySo9HKMCCycleCGWOh
+- _$sSayxSicigSS_Tg5
+- _$sSbSo7NSErrorCSgIeyByy_SbTz_
+- _$sSbSo7NSErrorCSgIeyByy_ytTz1_
+- _$sSd4signs17FloatingPointSignOvg
+- _$sSiSzsMc
+- _$sSlss16IndexingIteratorVyxG0B0RtzrlE04makeB0ACyFSnySiG_Tg5
+- _$sSo12NSDictionaryCSo7NSErrorCSgIeyByy_SDySo14HKQuantityTypeCSo6HKUnitCGTz_
+- _$sSo22HKSleepDaySummaryQueryCSaySo0abC0CGSgs5Error_pSgIegggg_ABSo7NSArrayCSgSo7NSErrorCSgIeyByyy_TR
+- _$sSo25HKSiriAuthorizationStatusVs5Error_pSgIegyg_ABSo7NSErrorCSgIeyByy_TR
+- _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySo30HKMedicationExposableDoseEventCGTz_
+- _$sSuSzsMc
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss12StaticStringV14withUTF8BufferyxxSRys5UInt8VGXElFxAFXEfU_yt_Tgq5TA.284
+- _$ss16IndexingIteratorV4next7ElementQzSgyFSnySiG_Tg5
+- _$ss18ReversedCollectionVySaySo30HKMedicationExposableDoseEventCGGWOh
+- _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_
+- _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA
+- _$ss6UInt32VABSUsWL
+- _$ss6UInt32VABSUsWl
+- _$ss6UInt32VABs17FixedWidthIntegersWL
+- _$ss6UInt32VABs17FixedWidthIntegersWl
+- _$ss6UInt32VN
+- _$ss6UInt32VSUsMc
+- _$ss6UInt32Vs17FixedWidthIntegersMc
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriWellnessIntents
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriWellnessIntents
+CStrings:
++ "Insufficient space allocated to copy array contents"
++ "Swift/Array.swift"
++ "Swift/FloatingPointTypes.swift"
++ "newElements.underestimatedCount was an overestimate"
++ "os/arm64e-apple-ios.private.swiftinterface"
+- "Index out of bounds"
+- "Swift/Collection.swift"
+- "os/OSSignpostStringInterpolationAPI.swift"
+
+```

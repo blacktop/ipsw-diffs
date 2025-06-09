@@ -1,0 +1,1208 @@
+## PerfPowerServicesReader
+
+> `/System/Library/PrivateFrameworks/PerfPowerServicesReader.framework/PerfPowerServicesReader`
+
+```diff
+
+-2423.120.12.0.0
+-  __TEXT.__text: 0x11461c
+-  __TEXT.__auth_stubs: 0xf40
++2954.0.0.502.3
++  __TEXT.__text: 0x12d844
++  __TEXT.__auth_stubs: 0xf20
+   __TEXT.__init_offsets: 0xdc
+-  __TEXT.__objc_methlist: 0x11d24
+-  __TEXT.__const: 0x603a
+-  __TEXT.__cstring: 0xaeed
+-  __TEXT.__gcc_except_tab: 0x477c
+-  __TEXT.__oslogstring: 0xbb1
+-  __TEXT.__unwind_info: 0x46b8
++  __TEXT.__objc_methlist: 0x12354
++  __TEXT.__const: 0x605e
++  __TEXT.__cstring: 0xbf92
++  __TEXT.__gcc_except_tab: 0x4984
++  __TEXT.__oslogstring: 0xc21
++  __TEXT.__unwind_info: 0x4658
+   __TEXT.__eh_frame: 0x98
+-  __TEXT.__objc_classname: 0x185a
+-  __TEXT.__objc_methname: 0x18aaa
+-  __TEXT.__objc_methtype: 0x282a
+-  __TEXT.__objc_stubs: 0x9260
+-  __DATA_CONST.__got: 0xa48
+-  __DATA_CONST.__const: 0x2748
+-  __DATA_CONST.__objc_classlist: 0x518
++  __TEXT.__objc_classname: 0x18d8
++  __TEXT.__objc_methname: 0x191e0
++  __TEXT.__objc_methtype: 0x2723
++  __TEXT.__objc_stubs: 0x9540
++  __DATA_CONST.__got: 0xa60
++  __DATA_CONST.__const: 0x2840
++  __DATA_CONST.__objc_classlist: 0x530
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5a58
++  __DATA_CONST.__objc_selrefs: 0x5c98
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x490
++  __DATA_CONST.__objc_superrefs: 0x4a8
+   __DATA_CONST.__objc_arraydata: 0x110
+-  __AUTH_CONST.__auth_got: 0x7b8
++  __AUTH_CONST.__auth_got: 0x7a8
+   __AUTH_CONST.__const: 0x3090
+-  __AUTH_CONST.__cfstring: 0xc220
+-  __AUTH_CONST.__objc_const: 0x158b8
+-  __AUTH_CONST.__objc_intobj: 0x1b0
++  __AUTH_CONST.__cfstring: 0xdba0
++  __AUTH_CONST.__objc_const: 0x16010
++  __AUTH_CONST.__objc_intobj: 0x1e0
+   __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x27b0
++  __AUTH.__objc_data: 0x28a0
+   __AUTH.__data: 0x28
+-  __DATA.__objc_ivar: 0x1018
++  __DATA.__objc_ivar: 0x1074
+   __DATA.__data: 0x521
+   __DATA.__bss: 0x38
+   __DATA_DIRTY.__objc_data: 0xb40
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: D3B2005A-1819-3B0D-BAFF-D343AE2F4120
+-  Functions: 7517
+-  Symbols:   20358
+-  CStrings:  7590
++  UUID: 90419A2B-E702-34B6-A713-673987603897
++  Functions: 7630
++  Symbols:   20628
++  CStrings:  8098
+ 
+Symbols:
++ +[AWDMETRICSKCellularRfTunerHist tunerStateDurationType]
++ +[AWDMETRICSMetricLogPower kCellularNrDataInactivityBeforeIdleType]
++ +[AWDMETRICSMetricLogPower kCellularRfTunerHistType]
++ +[PPSPredicateUtilities predicateByReplacingUint64bit:legalMetricNames:]
++ +[PPSPredicateUtilities predicateByReplacingUnsignedIntegerWithSignedInteger:legalMetricNames:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle copyTo:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle copyWithZone:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle dataInactivityDurMs]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle description]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle dictionaryRepresentation]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle hasDataInactivityDurMs]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle hasSubsId]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle hasTimestamp]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle hash]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle isEqual:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle mergeFrom:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle readFrom:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setDataInactivityDurMs:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setHasDataInactivityDurMs:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setHasSubsId:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setHasTimestamp:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setSubsId:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle setTimestamp:]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle subsId]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle timestamp]
++ -[AWDMETRICSKCellularNrDataInactivityBeforeIdle writeTo:]
++ -[AWDMETRICSKCellularPlatformApBbSleepStatsPlatformState durationUlpnMs]
++ -[AWDMETRICSKCellularPlatformApBbSleepStatsPlatformState hasDurationUlpnMs]
++ -[AWDMETRICSKCellularPlatformApBbSleepStatsPlatformState setDurationUlpnMs:]
++ -[AWDMETRICSKCellularPlatformApBbSleepStatsPlatformState setHasDurationUlpnMs:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin StringAsBandGroup:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin StringAsMcgState:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin bandGroupAsString:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin bandGroup]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin hasBandGroup]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin hasMcgState]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin mcgStateAsString:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin mcgState]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin setBandGroup:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin setHasBandGroup:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin setHasMcgState:]
++ -[AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin setMcgState:]
++ -[AWDMETRICSKCellularRfTunerHist .cxx_destruct]
++ -[AWDMETRICSKCellularRfTunerHist addTunerStateDuration:]
++ -[AWDMETRICSKCellularRfTunerHist clearTunerStateDurations]
++ -[AWDMETRICSKCellularRfTunerHist copyTo:]
++ -[AWDMETRICSKCellularRfTunerHist copyWithZone:]
++ -[AWDMETRICSKCellularRfTunerHist description]
++ -[AWDMETRICSKCellularRfTunerHist dictionaryRepresentation]
++ -[AWDMETRICSKCellularRfTunerHist hasIsDataPreferred]
++ -[AWDMETRICSKCellularRfTunerHist hasPlmn]
++ -[AWDMETRICSKCellularRfTunerHist hasSubsId]
++ -[AWDMETRICSKCellularRfTunerHist hasTimestamp]
++ -[AWDMETRICSKCellularRfTunerHist hash]
++ -[AWDMETRICSKCellularRfTunerHist isDataPreferred]
++ -[AWDMETRICSKCellularRfTunerHist isEqual:]
++ -[AWDMETRICSKCellularRfTunerHist mergeFrom:]
++ -[AWDMETRICSKCellularRfTunerHist plmn]
++ -[AWDMETRICSKCellularRfTunerHist readFrom:]
++ -[AWDMETRICSKCellularRfTunerHist setHasIsDataPreferred:]
++ -[AWDMETRICSKCellularRfTunerHist setHasSubsId:]
++ -[AWDMETRICSKCellularRfTunerHist setHasTimestamp:]
++ -[AWDMETRICSKCellularRfTunerHist setIsDataPreferred:]
++ -[AWDMETRICSKCellularRfTunerHist setPlmn:]
++ -[AWDMETRICSKCellularRfTunerHist setSubsId:]
++ -[AWDMETRICSKCellularRfTunerHist setTimestamp:]
++ -[AWDMETRICSKCellularRfTunerHist setTunerStateDurations:]
++ -[AWDMETRICSKCellularRfTunerHist subsId]
++ -[AWDMETRICSKCellularRfTunerHist timestamp]
++ -[AWDMETRICSKCellularRfTunerHist tunerStateDurationAtIndex:]
++ -[AWDMETRICSKCellularRfTunerHist tunerStateDurationsCount]
++ -[AWDMETRICSKCellularRfTunerHist tunerStateDurations]
++ -[AWDMETRICSKCellularRfTunerHist writeTo:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration StringAsRat:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration StringAsScenarioDecision:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration StringAsTxBand:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration copyTo:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration copyWithZone:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration description]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration dictionaryRepresentation]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration duration]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration ftQualInd]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasDuration]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasFtQualInd]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasPort]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasRat]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasScenarioDecision]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasTxBand]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hasWorkMode]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration hash]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration isEqual:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration mergeFrom:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration port]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration ratAsString:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration rat]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration readFrom:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration scenarioDecisionAsString:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration scenarioDecision]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setDuration:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setFtQualInd:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasDuration:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasFtQualInd:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasPort:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasRat:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasScenarioDecision:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasTxBand:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setHasWorkMode:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setPort:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setRat:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setScenarioDecision:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setTxBand:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration setWorkMode:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration txBandAsString:]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration txBand]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration workMode]
++ -[AWDMETRICSKCellularRfTunerHistTunerStateDuration writeTo:]
++ -[AWDMETRICSMetricLogPower addKCellularNrDataInactivityBeforeIdle:]
++ -[AWDMETRICSMetricLogPower addKCellularRfTunerHist:]
++ -[AWDMETRICSMetricLogPower clearKCellularNrDataInactivityBeforeIdles]
++ -[AWDMETRICSMetricLogPower clearKCellularRfTunerHists]
++ -[AWDMETRICSMetricLogPower kCellularNrDataInactivityBeforeIdleAtIndex:]
++ -[AWDMETRICSMetricLogPower kCellularNrDataInactivityBeforeIdlesCount]
++ -[AWDMETRICSMetricLogPower kCellularNrDataInactivityBeforeIdles]
++ -[AWDMETRICSMetricLogPower kCellularRfTunerHistAtIndex:]
++ -[AWDMETRICSMetricLogPower kCellularRfTunerHistsCount]
++ -[AWDMETRICSMetricLogPower kCellularRfTunerHists]
++ -[AWDMETRICSMetricLogPower setKCellularNrDataInactivityBeforeIdles:]
++ -[AWDMETRICSMetricLogPower setKCellularRfTunerHists:]
++ -[PPSSQLiteEntity joinClauses]
++ GCC_except_table100
++ GCC_except_table102
++ GCC_except_table104
++ GCC_except_table106
++ GCC_except_table108
++ GCC_except_table110
++ GCC_except_table112
++ GCC_except_table114
++ GCC_except_table116
++ GCC_except_table118
++ GCC_except_table120
++ GCC_except_table122
++ GCC_except_table124
++ GCC_except_table126
++ GCC_except_table130
++ GCC_except_table132
++ GCC_except_table134
++ GCC_except_table136
++ GCC_except_table138
++ GCC_except_table140
++ GCC_except_table144
++ GCC_except_table148
++ GCC_except_table149
++ GCC_except_table156
++ GCC_except_table165
++ GCC_except_table170
++ GCC_except_table173
++ GCC_except_table176
++ GCC_except_table178
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table187
++ GCC_except_table189
++ GCC_except_table191
++ GCC_except_table194
++ GCC_except_table197
++ GCC_except_table199
++ GCC_except_table207
++ GCC_except_table209
++ GCC_except_table211
++ GCC_except_table213
++ GCC_except_table223
++ GCC_except_table224
++ GCC_except_table227
++ GCC_except_table233
++ GCC_except_table237
++ GCC_except_table239
++ GCC_except_table244
++ GCC_except_table247
++ GCC_except_table256
++ GCC_except_table257
++ GCC_except_table259
++ GCC_except_table261
++ GCC_except_table266
++ GCC_except_table267
++ GCC_except_table269
++ GCC_except_table276
++ GCC_except_table282
++ GCC_except_table284
++ GCC_except_table293
++ GCC_except_table294
++ GCC_except_table297
++ GCC_except_table299
++ GCC_except_table302
++ GCC_except_table306
++ GCC_except_table307
++ GCC_except_table308
++ GCC_except_table314
++ GCC_except_table318
++ GCC_except_table321
++ GCC_except_table326
++ GCC_except_table327
++ GCC_except_table331
++ GCC_except_table339
++ GCC_except_table341
++ GCC_except_table344
++ GCC_except_table352
++ GCC_except_table364
++ GCC_except_table365
++ GCC_except_table377
++ GCC_except_table379
++ GCC_except_table385
++ GCC_except_table39
++ GCC_except_table393
++ GCC_except_table394
++ GCC_except_table413
++ GCC_except_table421
++ GCC_except_table429
++ GCC_except_table437
++ GCC_except_table438
++ GCC_except_table450
++ GCC_except_table451
++ GCC_except_table46
++ GCC_except_table467
++ GCC_except_table468
++ GCC_except_table471
++ GCC_except_table472
++ GCC_except_table473
++ GCC_except_table482
++ GCC_except_table483
++ GCC_except_table484
++ GCC_except_table497
++ GCC_except_table505
++ GCC_except_table513
++ GCC_except_table52
++ GCC_except_table521
++ GCC_except_table529
++ GCC_except_table531
++ GCC_except_table546
++ GCC_except_table554
++ GCC_except_table555
++ GCC_except_table570
++ GCC_except_table571
++ GCC_except_table572
++ GCC_except_table583
++ GCC_except_table60
++ GCC_except_table600
++ GCC_except_table608
++ GCC_except_table616
++ GCC_except_table62
++ GCC_except_table624
++ GCC_except_table631
++ GCC_except_table64
++ GCC_except_table640
++ GCC_except_table645
++ GCC_except_table649
++ GCC_except_table652
++ GCC_except_table659
++ GCC_except_table669
++ GCC_except_table676
++ GCC_except_table685
++ GCC_except_table692
++ GCC_except_table699
++ GCC_except_table706
++ GCC_except_table715
++ GCC_except_table716
++ GCC_except_table717
++ GCC_except_table719
++ GCC_except_table72
++ GCC_except_table724
++ GCC_except_table731
++ GCC_except_table738
++ GCC_except_table745
++ GCC_except_table753
++ GCC_except_table770
++ GCC_except_table777
++ GCC_except_table794
++ GCC_except_table795
++ GCC_except_table799
++ GCC_except_table811
++ GCC_except_table818
++ GCC_except_table819
++ GCC_except_table82
++ GCC_except_table84
++ GCC_except_table94
++ GCC_except_table96
++ GCC_except_table98
++ OBJC_IVAR_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle._dataInactivityDurMs
++ OBJC_IVAR_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle._has
++ OBJC_IVAR_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle._subsId
++ OBJC_IVAR_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle._timestamp
++ OBJC_IVAR_$_AWDMETRICSKCellularPlatformApBbSleepStatsPlatformState._durationUlpnMs
++ OBJC_IVAR_$_AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin._bandGroup
++ OBJC_IVAR_$_AWDMETRICSKCellularPowerLogLteNrRxDiversityHistRxdBin._mcgState
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._has
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._isDataPreferred
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._plmn
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._subsId
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._timestamp
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHist._tunerStateDurations
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._duration
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._ftQualInd
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._has
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._port
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._rat
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._scenarioDecision
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._txBand
++ OBJC_IVAR_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration._workMode
++ OBJC_IVAR_$_AWDMETRICSMetricLogPower._kCellularNrDataInactivityBeforeIdles
++ OBJC_IVAR_$_AWDMETRICSMetricLogPower._kCellularRfTunerHists
++ _AWDMETRICSKCellularNrDataInactivityBeforeIdleReadFrom
++ _AWDMETRICSKCellularRfTunerHistReadFrom
++ _AWDMETRICSKCellularRfTunerHistTunerStateDurationReadFrom
++ _OBJC_CLASS_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ _OBJC_CLASS_$_AWDMETRICSKCellularRfTunerHist
++ _OBJC_CLASS_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ _OBJC_METACLASS_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ _OBJC_METACLASS_$_AWDMETRICSKCellularRfTunerHist
++ _OBJC_METACLASS_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_$_CLASS_METHODS_AWDMETRICSKCellularRfTunerHist
++ __OBJC_$_INSTANCE_METHODS_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_$_INSTANCE_METHODS_AWDMETRICSKCellularRfTunerHist
++ __OBJC_$_INSTANCE_METHODS_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_$_INSTANCE_VARIABLES_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_$_INSTANCE_VARIABLES_AWDMETRICSKCellularRfTunerHist
++ __OBJC_$_INSTANCE_VARIABLES_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_$_PROP_LIST_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_$_PROP_LIST_AWDMETRICSKCellularRfTunerHist
++ __OBJC_$_PROP_LIST_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_CLASS_PROTOCOLS_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_CLASS_PROTOCOLS_$_AWDMETRICSKCellularRfTunerHist
++ __OBJC_CLASS_PROTOCOLS_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_CLASS_RO_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_CLASS_RO_$_AWDMETRICSKCellularRfTunerHist
++ __OBJC_CLASS_RO_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __OBJC_METACLASS_RO_$_AWDMETRICSKCellularNrDataInactivityBeforeIdle
++ __OBJC_METACLASS_RO_$_AWDMETRICSKCellularRfTunerHist
++ __OBJC_METACLASS_RO_$_AWDMETRICSKCellularRfTunerHistTunerStateDuration
++ __ZN3pps19AxisConfig_InternalD2Ev
++ __ZN5boost7archive6detail18interface_oarchiveINS0_13text_oarchiveEElsINS_13serialization3nvpIKNS6_17item_version_typeEEEEERS3_RKT_
++ __ZN5boost7archive6detail18interface_oarchiveINS0_13text_oarchiveEElsINS_13serialization3nvpINS6_20collection_size_typeEEEEERS3_RKT_
++ __ZN5boost7archive6detail18interface_oarchiveINS0_13text_oarchiveEElsIdEERS3_RKT_
++ __ZN5boost7archive6detail18interface_oarchiveINS0_13text_oarchiveEElsIiEERS3_RKT_
++ __ZN5boost7archive6detail18interface_oarchiveINS0_13text_oarchiveEElsIyEERS3_RKT_
++ __ZN5boost9histogram4axis8variableIdNS_11use_defaultES3_NSt3__19allocatorIdEEED2Ev
++ __ZN5boost9histogram6detail20compressed_pair_implINSt3__16vectorIdNS3_9allocatorIdEEEENS3_12basic_stringIcNS3_11char_traitsIcEENS5_IcEEEELb0EED2Ev
++ __ZN5boost9histogram6detail9static_ifINSt3__117integral_constantIbLb1EEEJZNS1_13relaxed_equalINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEEEbRKT_SF_EUlSF_RKT0_E_ZNS6_ISC_EEbSF_SF_EUlSF_SI_E0_RKSC_SM_EEEDcDpOT0_
++ __ZNKSt3__110__equal_toclB8ne200100INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEbRKT_RKT0_
++ __ZNKSt3__111__copy_implclB8ne200100IN5boost7archive9iterators17insert_linebreaksINS4_18base64_from_binaryINS4_15transform_widthIPKcLi6ELi8EcEEcEELi76ES8_EESC_NS4_16ostream_iteratorIcEEEENS_4pairIT_T1_EESG_T0_SH_
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN3pps19AxisConfig_InternalEEEPS3_EclB8ne200100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_EclB8ne200100Ev
++ __ZNKSt9type_info6beforeB8ne200100ERKS_
++ __ZNKSt9type_infoeqB8ne200100ERKS_
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt12out_of_rangeD1Ev
++ __ZNSt16invalid_argumentC1B8ne200100EPKc
++ __ZNSt3__110__function12__value_funcIFvP14NSMutableArrayEE4swapB8ne200100ERS5_
++ __ZNSt3__110__function12__value_funcIFvP14NSMutableArrayEED2B8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113__upper_boundB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEES9_S7_NS_10__identityEEET1_SB_T2_RKT3_OT0_OT4_
++ __ZNSt3__114__split_bufferIN3pps19AxisConfig_InternalERNS_9allocatorIS2_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100Ej
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_T0_
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116__rotate_forwardB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairIddEEEEEET0_S7_S7_S7_
++ __ZNSt3__118__stable_sort_implB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairIddEEEENS_6__lessIvvEEEEvT0_S9_RT1_
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN3pps19AxisConfig_InternalEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN3pps8AxisEnumEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7archive6detail19basic_iarchive_impl10cobject_idEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost7archive6detail19basic_iarchive_impl7aobjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSL_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIddEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__merge_move_assignB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEES7_NS_11__wrap_iterIS7_EEEEvT1_SA_T2_SB_T3_T0_
++ __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ERKNS_12basic_stringIcS2_S4_EEj
++ __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__120__half_inplace_mergeB8ne200100INS_17_ClassicAlgPolicyENS_8__invertIRNS_6__lessIvvEEEENS_16reverse_iteratorIPNS_4pairIddEEEESB_NS7_INS_11__wrap_iterISA_EEEESE_SE_EEvT1_T2_T3_T4_T5_OT0_
++ __ZNSt3__120__half_inplace_mergeB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEES7_NS_11__wrap_iterIS7_EES9_S9_EEvT1_T2_T3_T4_T5_OT0_
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__121__insertion_sort_moveB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_PNS_15iterator_traitsISA_E10value_typeET0_
++ __ZNSt3__122__merge_move_constructB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEES9_EEvT1_SA_T2_SB_PNS_15iterator_traitsISA_E10value_typeET0_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS1_IS9_EEEEEEPvEEEEEclB8ne200100EPSE_
++ __ZNSt3__124__buffered_inplace_mergeB8ne200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_SA_OT0_NS_15iterator_traitsISA_E15difference_typeESF_PNSE_10value_typeE
++ __ZNSt3__124__copy_move_unwrap_itersB8ne200100INS_11__copy_implEN5boost7archive9iterators17insert_linebreaksINS4_18base64_from_binaryINS4_15transform_widthIPKcLi6ELi8EcEEcEELi76ES8_EESC_NS4_16ostream_iteratorIcEELi0EEENS_4pairIT0_T2_EESG_T1_SH_
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN3pps19AxisConfig_InternalEEEPS4_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN3pps19AxisConfig_InternalEEEPS3_EEvRT_T0_S8_S8_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEEPSH_EEvRT_T0_SM_SM_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEEPSH_SJ_SJ_EET2_RT_T0_T1_SK_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__13mapIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEENS_4lessIiEENS5_INS_4pairIKiS9_EEEEE6insertB8ne200100INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIiS9_EEPNS_11__tree_nodeISL_PvEElEEEEEEvT_SS_
++ __ZNSt3__13mapIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEENS_4lessIiEENS5_INS_4pairIKiS9_EEEEEC2B8ne200100ERKSG_
++ __ZNSt3__14pairIRiRNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IS8_EEEEEaSB8ne200100IKiSA_Li0EEERSC_RKNS0_IT_T0_EE
++ __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IS8_EEEEEENS_19__map_value_compareIiSB_NS_4lessIiEELb1EEENS6_ISB_EEE18_DetachedTreeCacheD2B8ne200100Ev
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16vectorIN3pps19AxisConfig_InternalENS_9allocatorIS2_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIN3pps19AxisConfig_InternalENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN3pps19AxisConfig_InternalENS_9allocatorIS2_EEE22__construct_one_at_endB8ne200100IJRS2_EEEvDpOT_
++ __ZNSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl10cobject_idENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl10cobject_idENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl10cobject_idENS_9allocatorIS5_EEE9push_backB8ne200100EOS5_
++ __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl7aobjectENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl7aobjectENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE18__assign_with_sizeB8ne200100IPSH_SL_EEvT_T0_l
++ __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8ne200100IPS6_SA_EEvT_T0_l
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIPKvN5boost10shared_ptrIvEEEENS_9allocatorIS7_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB8ne200100IPdS5_EEvT_T0_m
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB8ne200100IPdS5_EEvT_T0_l
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIdNS_9allocatorIdEEE9push_backB8ne200100EOd
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne200100Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE16__init_with_sizeB8ne200100IPyS5_EEvT_T0_m
++ __ZNSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIyNS_9allocatorIyEEEC2B8ne200100ILi0EEEmRKyRKS2_
++ __ZNSt3__19allocatorIN3pps19AxisConfig_InternalEE7destroyB8ne200100EPS2_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTISt12out_of_range
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __ZTVSt12out_of_range
++ ___30-[PPSSQLiteEntity joinClauses]_block_invoke
++ ___56-[PPSSQLiteQueryDescriptor _sqlForSelectWithProperties:]_block_invoke
++ ___87-[PPSSQLiteTimeSeriesIngester _convertSQLiteDataFromQuery:withMetricDefinitions:error:]_block_invoke.42
++ ___87-[PPSSQLiteTimeSeriesIngester _convertSQLiteDataFromQuery:withMetricDefinitions:error:]_block_invoke.42.cold.1
++ ___block_descriptor_40_e8_32s_e25_v32?0"NSString"8Q16^B24ls32l8
++ ___block_descriptor_40_ea8_32s_e25_v32?0"NSString"8Q16^B24ls32l8
++ ___block_descriptor_88_e8_32s40s48s56s64r_e15_"PPSEvent"8?0ls32l8s40l8s48l8r64l8s56l8
++ ___block_descriptor_98_e8_32s40s48s56s64r72r80r88r_e39_B32?0"NSArray"8^{PPSSQLiteRow=}16^24ls32l8r64l8s40l8s48l8s56l8r72l8r80l8r88l8
++ _objc_msgSend$_setError
++ _objc_msgSend$addKCellularNrDataInactivityBeforeIdle:
++ _objc_msgSend$addKCellularRfTunerHist:
++ _objc_msgSend$addTunerStateDuration:
++ _objc_msgSend$arrayWithObjects:
++ _objc_msgSend$clearKCellularNrDataInactivityBeforeIdles
++ _objc_msgSend$clearKCellularRfTunerHists
++ _objc_msgSend$clearTunerStateDurations
++ _objc_msgSend$data
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$hasError
++ _objc_msgSend$joinClauses
++ _objc_msgSend$kCellularNrDataInactivityBeforeIdleAtIndex:
++ _objc_msgSend$kCellularNrDataInactivityBeforeIdlesCount
++ _objc_msgSend$kCellularRfTunerHistAtIndex:
++ _objc_msgSend$kCellularRfTunerHistsCount
++ _objc_msgSend$numberWithLongLong:
++ _objc_msgSend$position
++ _objc_msgSend$predicateByReplacingUint64bit:legalMetricNames:
++ _objc_msgSend$predicateByReplacingUnsignedIntegerWithSignedInteger:legalMetricNames:
++ _objc_msgSend$setPosition:
++ _objc_msgSend$tunerStateDurationAtIndex:
++ _objc_msgSend$tunerStateDurationsCount
++ _objc_msgSend$unsignedLongLongValue
+- -[PPSSQLiteEntity joinClause]
+- GCC_except_table101
+- GCC_except_table105
+- GCC_except_table107
+- GCC_except_table109
+- GCC_except_table111
+- GCC_except_table113
+- GCC_except_table115
+- GCC_except_table117
+- GCC_except_table121
+- GCC_except_table123
+- GCC_except_table125
+- GCC_except_table127
+- GCC_except_table129
+- GCC_except_table131
+- GCC_except_table137
+- GCC_except_table139
+- GCC_except_table142
+- GCC_except_table145
+- GCC_except_table146
+- GCC_except_table147
+- GCC_except_table150
+- GCC_except_table154
+- GCC_except_table157
+- GCC_except_table160
+- GCC_except_table161
+- GCC_except_table166
+- GCC_except_table167
+- GCC_except_table186
+- GCC_except_table188
+- GCC_except_table190
+- GCC_except_table193
+- GCC_except_table196
+- GCC_except_table204
+- GCC_except_table206
+- GCC_except_table208
+- GCC_except_table210
+- GCC_except_table218
+- GCC_except_table220
+- GCC_except_table228
+- GCC_except_table230
+- GCC_except_table231
+- GCC_except_table238
+- GCC_except_table240
+- GCC_except_table248
+- GCC_except_table250
+- GCC_except_table251
+- GCC_except_table253
+- GCC_except_table258
+- GCC_except_table260
+- GCC_except_table262
+- GCC_except_table263
+- GCC_except_table264
+- GCC_except_table270
+- GCC_except_table272
+- GCC_except_table273
+- GCC_except_table274
+- GCC_except_table275
+- GCC_except_table290
+- GCC_except_table300
+- GCC_except_table301
+- GCC_except_table304
+- GCC_except_table312
+- GCC_except_table316
+- GCC_except_table322
+- GCC_except_table323
+- GCC_except_table325
+- GCC_except_table332
+- GCC_except_table345
+- GCC_except_table347
+- GCC_except_table349
+- GCC_except_table351
+- GCC_except_table355
+- GCC_except_table359
+- GCC_except_table361
+- GCC_except_table362
+- GCC_except_table372
+- GCC_except_table373
+- GCC_except_table374
+- GCC_except_table387
+- GCC_except_table403
+- GCC_except_table404
+- GCC_except_table415
+- GCC_except_table423
+- GCC_except_table431
+- GCC_except_table448
+- GCC_except_table449
+- GCC_except_table45
+- GCC_except_table457
+- GCC_except_table47
+- GCC_except_table470
+- GCC_except_table475
+- GCC_except_table476
+- GCC_except_table479
+- GCC_except_table480
+- GCC_except_table481
+- GCC_except_table490
+- GCC_except_table491
+- GCC_except_table492
+- GCC_except_table506
+- GCC_except_table514
+- GCC_except_table522
+- GCC_except_table538
+- GCC_except_table539
+- GCC_except_table540
+- GCC_except_table565
+- GCC_except_table566
+- GCC_except_table574
+- GCC_except_table580
+- GCC_except_table591
+- GCC_except_table592
+- GCC_except_table593
+- GCC_except_table61
+- GCC_except_table611
+- GCC_except_table619
+- GCC_except_table627
+- GCC_except_table63
+- GCC_except_table635
+- GCC_except_table650
+- GCC_except_table656
+- GCC_except_table660
+- GCC_except_table663
+- GCC_except_table670
+- GCC_except_table681
+- GCC_except_table688
+- GCC_except_table697
+- GCC_except_table704
+- GCC_except_table711
+- GCC_except_table718
+- GCC_except_table728
+- GCC_except_table73
+- GCC_except_table730
+- GCC_except_table732
+- GCC_except_table736
+- GCC_except_table742
+- GCC_except_table749
+- GCC_except_table75
+- GCC_except_table756
+- GCC_except_table772
+- GCC_except_table791
+- GCC_except_table798
+- GCC_except_table805
+- GCC_except_table81
+- GCC_except_table820
+- GCC_except_table832
+- GCC_except_table836
+- GCC_except_table837
+- GCC_except_table839
+- GCC_except_table840
+- GCC_except_table87
+- GCC_except_table91
+- GCC_except_table93
+- GCC_except_table95
+- GCC_except_table97
+- GCC_except_table99
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- __ZN3pps19AxisConfig_InternalD1Ev
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__13mapIiNS4_6vectorINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENSA_ISC_EEEENS4_4lessIiEENSA_INS4_4pairIKiSE_EEEEEEE6invokeERS3_RKSL_j
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__16vectorIN3pps8AxisEnumENS4_9allocatorIS7_EEEEE6invokeERS3_RKSA_j
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__16vectorINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS9_ISB_EEEEE6invokeERS3_RKSD_j
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__16vectorINS_9histogram4axis7variantIJNS7_7regularIdNS_11use_defaultESA_SA_EENS7_8variableIdSA_SA_NS4_9allocatorIdEEEENS7_7integerIiSA_NS7_6option3bitILj1EEEEEEEENSD_ISL_EEEEE6invokeERS3_RKSN_j
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__16vectorIdNS4_9allocatorIdEEEEE6invokeERS3_RKS8_j
+- __ZN5boost13serialization10free_saverINS_7archive13text_oarchiveENSt3__16vectorIyNS4_9allocatorIyEEEEE6invokeERS3_RKS8_j
+- __ZN5boost13serialization11free_loaderINS_7archive13text_iarchiveENSt3__16vectorIN3pps8AxisEnumENS4_9allocatorIS7_EEEEE6invokeERS3_RSA_j
+- __ZN5boost13serialization11free_loaderINS_7archive13text_iarchiveENSt3__16vectorINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS9_ISB_EEEEE6invokeERS3_RSD_j
+- __ZN5boost13serialization11free_loaderINS_7archive13text_iarchiveENSt3__16vectorINS_9histogram4axis7variantIJNS7_7regularIdNS_11use_defaultESA_SA_EENS7_8variableIdSA_SA_NS4_9allocatorIdEEEENS7_7integerIiSA_NS7_6option3bitILj1EEEEEEEENSD_ISL_EEEEE6invokeERS3_RSN_j
+- __ZN5boost13serialization11free_loaderINS_7archive13text_iarchiveENSt3__16vectorIdNS4_9allocatorIdEEEEE6invokeERS3_RS8_j
+- __ZN5boost13serialization11free_loaderINS_7archive13text_iarchiveENSt3__16vectorIyNS4_9allocatorIyEEEEE6invokeERS3_RS8_j
+- __ZN5boost4mp116detail16mp_for_each_implIJNSt3__117integral_constantImLm0EEENS4_ImLm1EEEEZNS_9histogram6detail13args_to_indexILj0ELj2ENS7_17unlimited_storageINS3_9allocatorIcEEEENS3_6vectorINS7_4axis7variantIJNSF_7regularIdNS_11use_defaultESI_SI_EENSF_8variableIdSI_SI_NSB_IdEEEENSF_7integerIiSI_NSF_6option3bitILj1EEEEEEEENSB_ISS_EEEENS3_5tupleIJddEEEEENS8_14optional_indexENS4_IbLb0EEERT1_RKT2_RKT3_EUlT_E_EET0_NS0_7mp_listIJDpT_EEEOS19_
+- __ZN5boost4mp116detail19tuple_for_each_implIRKNSt3__15tupleIJNS_9histogram4axis7regularIdNS_11use_defaultES8_S8_EEEEEJLm0EEZNS5_6detail8bincountISA_EEmRKT_EUlSH_E_EET1_OSF_NS0_16integer_sequenceImJXspT0_EEEEOSJ_
+- __ZN5boost6detail7variant15direct_assignerINS_9histogram4axis8variableIdNS_11use_defaultES6_NSt3__19allocatorIdEEEEEclERSA_
+- __ZN5boost6detail7variant21make_initializer_node5applyINS_3mpl4pairINS3_INS5_INS1_16initializer_rootEN4mpl_4int_ILi0EEEEENS4_6l_iterINS4_5list3INS_9histogram4axis7regularIdNS_11use_defaultESG_SG_EENSE_8variableIdSG_SG_NSt3__19allocatorIdEEEENSE_7integerIiSG_NSE_6option3bitILj1EEEEEEEEEE16initializer_nodeENS8_ILi1EEEEENSB_INS4_5list2ISM_SR_EEEEE16initializer_node10initializeEPvRKSM_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS0_12version_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS0_13class_id_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS0_13tracking_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS0_21object_reference_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS0_23class_id_reference_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS_13serialization17item_version_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveENS_13serialization20collection_size_typeEEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEcEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEdEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEhEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEiEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEjEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEtEEvRT_RKT0_
+- __ZN5boost7archive11save_access14save_primitiveINS0_13text_oarchiveEyEEvRT_RKT0_
+- __ZN5boost9histogram4axis3getINS1_7integerIiNS_11use_defaultENS1_6option3bitILj1EEEEEJNS1_7regularIdS4_S4_S4_EENS1_8variableIdS4_S4_NSt3__19allocatorIdEEEES8_EEERT_RNS1_7variantIJDpT0_EEE
+- __ZN5boost9histogram4axis3getINS1_7regularIdNS_11use_defaultES4_S4_EEJS5_NS1_8variableIdS4_S4_NSt3__19allocatorIdEEEENS1_7integerIiS4_NS1_6option3bitILj1EEEEEEEERT_RNS1_7variantIJDpT0_EEE
+- __ZN5boost9histogram4axis3getINS1_8variableIdNS_11use_defaultES4_NSt3__19allocatorIdEEEEJNS1_7regularIdS4_S4_S4_EES8_NS1_7integerIiS4_NS1_6option3bitILj1EEEEEEEERT_RNS1_7variantIJDpT0_EEE
+- __ZN5boost9histogram4axis8variableIdNS_11use_defaultES3_NSt3__19allocatorIdEEED1Ev
+- __ZN5boost9histogram6detail11static_if_cILb0EZZNKS0_4axis7variantIJNS3_7regularIdNS_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NSt3__19allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEE3binEiENKUlRKT_E_clIS7_EEDaSL_EUlSL_E_ZZNKSI_3binEiENKSN_IS7_EESO_SL_EUlSL_E0_JRKS7_EEEDcOT0_OT1_DpOT2_
+- __ZN5boost9histogram6detail11static_if_cILb1EZNS1_13relaxed_equalINSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEEEbRKT_SD_EUlSD_RKT0_E_ZNS3_ISA_EEbSD_SD_EUlSD_SG_E0_JRKSA_SK_EEEDcOSE_OT1_DpOT2_
+- __ZN5boost9histogram6detail20compressed_pair_implINSt3__16vectorIdNS3_9allocatorIdEEEENS3_12basic_stringIcNS3_11char_traitsIcEENS5_IcEEEELb0EED1Ev
+- __ZNK5boost6detail7variant14assign_storage14internal_visitINS_9histogram4axis8variableIdNS_11use_defaultES7_NSt3__19allocatorIdEEEEEEvRT_i
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram13indexed_rangeIKNS3_9histogramINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEENS3_17unlimited_storageINSE_IcEEEEEEEC1ERST_NS3_8coverageEEUlRKT_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSC_EEvOSX_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram13indexed_rangeIKNS3_9histogramINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEENS3_17unlimited_storageINSE_IcEEEEEEEC1ERST_NS3_8coverageEEUlRKT_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSG_EEvOSX_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram13indexed_rangeIKNS3_9histogramINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEENS3_17unlimited_storageINSE_IcEEEEEEEC1ERST_NS3_8coverageEEUlRKT_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSL_EEvOSX_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram6detail15linearize_valueIJNS3_4axis7regularIdNS_11use_defaultES8_S8_EENS6_8variableIdS8_S8_NSt3__19allocatorIdEEEENS6_7integerIiS8_NS6_6option3bitILj1EEEEEEdEEvRNS4_14optional_indexERKNS6_7variantIJDpT_EEERKT0_EUlRKT_E_RKNS_7variantIS9_JSE_SJ_EEEEclIRKSJ_EEvOSV_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram6detail8bincountINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEEEEmRKT_EUlSR_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSC_EEvOSP_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram6detail8bincountINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEEEEmRKT_EUlSR_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSG_EEvOSP_
+- __ZNK5boost6detail7variant15result_wrapper1IZNS_9histogram6detail8bincountINSt3__16vectorINS3_4axis7variantIJNS8_7regularIdNS_11use_defaultESB_SB_EENS8_8variableIdSB_SB_NS6_9allocatorIdEEEENS8_7integerIiSB_NS8_6option3bitILj1EEEEEEEENSE_ISM_EEEEEEmRKT_EUlSR_E_RKNS_7variantISC_JSG_SL_EEEEclIRKSL_EEvOSP_
+- __ZNK5boost6detail7variant9copy_into14internal_visitINS_9histogram4axis8variableIdNS_11use_defaultES7_NSt3__19allocatorIdEEEEEEvRKT_i
+- __ZNKSt3__110__equal_toclB8ne190102INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EEbRKT_RKT0_
+- __ZNKSt3__110__equal_toclB8ne190102INS_4pairIKiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS8_ISA_EEEEEESD_EEbRKT_RKT0_
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IN5boost7archive9iterators17insert_linebreaksINS6_18base64_from_binaryINS6_15transform_widthIPKcLi6ELi8EcEEcEELi76ESA_EESE_NS6_16ostream_iteratorIcEEEENS_4pairIT_T1_EESI_T0_SJ_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN3pps19AxisConfig_InternalEEEPS3_EclB8ne190102Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_EclB8ne190102Ev
+- __ZNKSt3__16vectorIN3pps19AxisConfig_InternalENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl10cobject_idENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl7aobjectENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIdNS_9allocatorIdEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIyNS_9allocatorIyEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt9type_info6beforeB8ne190102ERKS_
+- __ZNKSt9type_infoeqB8ne190102ERKS_
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt16invalid_argumentC1B8ne190102EPKc
+- __ZNSt3__110__function12__value_funcIFvP14NSMutableArrayEE4swapB8ne190102ERS5_
+- __ZNSt3__110__function12__value_funcIFvP14NSMutableArrayEED2B8ne190102Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113__upper_boundB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEES9_S7_NS_10__identityEEET1_SB_T2_RKT3_OT0_OT4_
+- __ZNSt3__114__split_bufferIN3pps19AxisConfig_InternalERNS_9allocatorIS2_EEE5clearB8ne190102Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne190102Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_T0_
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116__rotate_forwardB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairIddEEEEEET0_S7_S7_S7_
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN3pps19AxisConfig_InternalEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN3pps8AxisEnumEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7archive6detail19basic_iarchive_impl10cobject_idEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost7archive6detail19basic_iarchive_impl7aobjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSL_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIddEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIdEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIyEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__merge_move_assignB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEES7_NS_11__wrap_iterIS7_EEEEvT1_SA_T2_SB_T3_T0_
+- __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102ERKNS_12basic_stringIcS2_S4_EEj
+- __ZNSt3__119basic_istringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__120__half_inplace_mergeB8ne190102INS_17_ClassicAlgPolicyENS_8__invertIRNS_6__lessIvvEEEENS_16reverse_iteratorIPNS_4pairIddEEEESB_NS7_INS_11__wrap_iterISA_EEEESE_SE_EEvT1_T2_T3_T4_T5_OT0_
+- __ZNSt3__120__half_inplace_mergeB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIddEES7_NS_11__wrap_iterIS7_EES9_S9_EEvT1_T2_T3_T4_T5_OT0_
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120get_temporary_bufferB8ne190102INS_4pairIddEEEENS1_IPT_lEEl
+- __ZNSt3__121__insertion_sort_moveB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_PNS_15iterator_traitsISA_E10value_typeET0_
+- __ZNSt3__122__merge_move_constructB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEES9_EEvT1_SA_T2_SB_PNS_15iterator_traitsISA_E10value_typeET0_
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS1_IS9_EEEEEEPvEEEEEclB8ne190102EPSE_
+- __ZNSt3__124__buffered_inplace_mergeB8ne190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEENS_11__wrap_iterIPNS_4pairIddEEEEEEvT1_SA_SA_OT0_NS_15iterator_traitsISA_E15difference_typeESF_PNSE_10value_typeE
+- __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__copy_implINS_17_ClassicAlgPolicyEEEN5boost7archive9iterators17insert_linebreaksINS6_18base64_from_binaryINS6_15transform_widthIPKcLi6ELi8EcEEcEELi76ESA_EESE_NS6_16ostream_iteratorIcEELi0EEENS_4pairIT0_T2_EESI_T1_SJ_
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN3pps19AxisConfig_InternalEEEPS4_EEED2B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne190102Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN3pps19AxisConfig_InternalEEES3_EEvRT_PT0_S8_S8_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEESH_EEvRT_PT0_SM_SM_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorIN5boost9histogram4axis7variantIJNS4_7regularIdNS2_11use_defaultES7_S7_EENS4_8variableIdS7_S7_NS1_IdEEEENS4_7integerIiS7_NS4_6option3bitILj1EEEEEEEEEEPSH_SJ_SJ_EET2_RT_T0_T1_SK_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__13mapIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEENS_4lessIiEENS5_INS_4pairIKiS9_EEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIiS9_EEPNS_11__tree_nodeISL_PvEElEEEEEEvT_SS_
+- __ZNSt3__13mapIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEENS_4lessIiEENS5_INS_4pairIKiS9_EEEEEC2B8ne190102ERKSG_
+- __ZNSt3__14pairIRiRNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IS8_EEEEEaSB8ne190102IKiSA_Li0EEERSC_RKNS0_IT_T0_EE
+- __ZNSt3__16__treeINS_12__value_typeIiNS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS6_IS8_EEEEEENS_19__map_value_compareIiSB_NS_4lessIiEELb1EEENS6_ISB_EEE18_DetachedTreeCacheD2B8ne190102Ev
+- __ZNSt3__16vectorIN3pps19AxisConfig_InternalENS_9allocatorIS2_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIN3pps8AxisEnumENS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl10cobject_idENS_9allocatorIS5_EEE21__push_back_slow_pathIS5_EEPS5_OT_
+- __ZNSt3__16vectorIN5boost7archive6detail19basic_iarchive_impl7aobjectENS_9allocatorIS5_EEE21__push_back_slow_pathIS5_EEPS5_OT_
+- __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIN5boost9histogram4axis7variantIJNS3_7regularIdNS1_11use_defaultES6_S6_EENS3_8variableIdS6_S6_NS_9allocatorIdEEEENS3_7integerIiS6_NS3_6option3bitILj1EEEEEEEENS9_ISH_EEE18__assign_with_sizeB8ne190102IPSH_SL_EEvT_T0_l
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne190102IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__assign_with_sizeB8ne190102IPS6_SA_EEvT_T0_l
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairIPKvN5boost10shared_ptrIvEEEENS_9allocatorIS7_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_4pairIddEENS_9allocatorIS2_EEE16__init_with_sizeB8ne190102IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE16__init_with_sizeB8ne190102IPdS5_EEvT_T0_m
+- __ZNSt3__16vectorIdNS_9allocatorIdEEE18__assign_with_sizeB8ne190102IPdS5_EEvT_T0_l
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne190102Em
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIyNS_9allocatorIyEEE16__init_with_sizeB8ne190102IPyS5_EEvT_T0_m
+- __ZNSt3__19allocatorIN3pps19AxisConfig_InternalEE7destroyB8ne190102EPS2_
+- __ZNSt3__19allocatorIN3pps19AxisConfig_InternalEE9constructB8ne190102IS2_JRS2_EEEvPT_DpOT0_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- ___87-[PPSSQLiteTimeSeriesIngester _convertSQLiteDataFromQuery:withMetricDefinitions:error:]_block_invoke.cold.1
+- ___block_descriptor_80_e8_32s40s48s56s64r72r_e39_B32?0"NSArray"8^{PPSSQLiteRow=}16^24ls32l8s40l8s48l8s56l8r64l8r72l8
+- _objc_msgSend$joinClause
+CStrings:
++ " FROM '%@' AS '%d'"
++ "'%d'.ID"
++ "@\"PPSEvent\"8@?0"
++ "AWDMETRICSKCellularNrDataInactivityBeforeIdle"
++ "AWDMETRICSKCellularRfTunerHist"
++ "AWDMETRICSKCellularRfTunerHistTunerStateDuration"
++ "Connected"
++ "E_SCENARIO"
++ "FREE_SPACE_SCENARIO"
++ "High"
++ "Idle"
++ "LATA_UATF_SCENARIO"
++ "LATA_UATH_SCENARIO"
++ "LATF_UATH_SCENARIO"
++ "LATGA_UATF_SCENARIO"
++ "LATGA_UATH_SCENARIO"
++ "LATG_UATF_SCENARIO"
++ "LATG_UATH_SCENARIO"
++ "LEFT JOIN '%@' AS '%lu' ON '%d'.%@ = '%lu'.%@"
++ "LHH_SCENARIO"
++ "Low"
++ "Mid"
++ "RHH_SCENARIO"
++ "R_SCENARIO"
++ "SYS_BAND_GSM_380"
++ "SYS_BAND_GSM_410"
++ "SYS_BAND_GSM_450"
++ "SYS_BAND_GSM_480"
++ "SYS_BAND_GSM_710"
++ "SYS_BAND_GSM_750"
++ "SYS_BAND_GSM_810"
++ "SYS_BAND_GSM_850"
++ "SYS_BAND_GSM_900"
++ "SYS_BAND_GSM_BAND_GSM_900"
++ "SYS_BAND_GSM_DCS_1800"
++ "SYS_BAND_GSM_EGSM_900"
++ "SYS_BAND_GSM_INVALID"
++ "SYS_BAND_GSM_PCS_1900"
++ "SYS_BAND_GSM_PGSM_900"
++ "SYS_BAND_GSM_RGSM_900"
++ "SYS_BAND_INVALID"
++ "SYS_BAND_LTE_EUTRAN_BAND1"
++ "SYS_BAND_LTE_EUTRAN_BAND10"
++ "SYS_BAND_LTE_EUTRAN_BAND11"
++ "SYS_BAND_LTE_EUTRAN_BAND12"
++ "SYS_BAND_LTE_EUTRAN_BAND13"
++ "SYS_BAND_LTE_EUTRAN_BAND14"
++ "SYS_BAND_LTE_EUTRAN_BAND17"
++ "SYS_BAND_LTE_EUTRAN_BAND18"
++ "SYS_BAND_LTE_EUTRAN_BAND19"
++ "SYS_BAND_LTE_EUTRAN_BAND2"
++ "SYS_BAND_LTE_EUTRAN_BAND20"
++ "SYS_BAND_LTE_EUTRAN_BAND21"
++ "SYS_BAND_LTE_EUTRAN_BAND22"
++ "SYS_BAND_LTE_EUTRAN_BAND23"
++ "SYS_BAND_LTE_EUTRAN_BAND24"
++ "SYS_BAND_LTE_EUTRAN_BAND25"
++ "SYS_BAND_LTE_EUTRAN_BAND26"
++ "SYS_BAND_LTE_EUTRAN_BAND27"
++ "SYS_BAND_LTE_EUTRAN_BAND28"
++ "SYS_BAND_LTE_EUTRAN_BAND29"
++ "SYS_BAND_LTE_EUTRAN_BAND3"
++ "SYS_BAND_LTE_EUTRAN_BAND30"
++ "SYS_BAND_LTE_EUTRAN_BAND31"
++ "SYS_BAND_LTE_EUTRAN_BAND33"
++ "SYS_BAND_LTE_EUTRAN_BAND34"
++ "SYS_BAND_LTE_EUTRAN_BAND35"
++ "SYS_BAND_LTE_EUTRAN_BAND36"
++ "SYS_BAND_LTE_EUTRAN_BAND37"
++ "SYS_BAND_LTE_EUTRAN_BAND38"
++ "SYS_BAND_LTE_EUTRAN_BAND39"
++ "SYS_BAND_LTE_EUTRAN_BAND4"
++ "SYS_BAND_LTE_EUTRAN_BAND40"
++ "SYS_BAND_LTE_EUTRAN_BAND41"
++ "SYS_BAND_LTE_EUTRAN_BAND42"
++ "SYS_BAND_LTE_EUTRAN_BAND43"
++ "SYS_BAND_LTE_EUTRAN_BAND44"
++ "SYS_BAND_LTE_EUTRAN_BAND45"
++ "SYS_BAND_LTE_EUTRAN_BAND46"
++ "SYS_BAND_LTE_EUTRAN_BAND48"
++ "SYS_BAND_LTE_EUTRAN_BAND49"
++ "SYS_BAND_LTE_EUTRAN_BAND5"
++ "SYS_BAND_LTE_EUTRAN_BAND50"
++ "SYS_BAND_LTE_EUTRAN_BAND51"
++ "SYS_BAND_LTE_EUTRAN_BAND52"
++ "SYS_BAND_LTE_EUTRAN_BAND53"
++ "SYS_BAND_LTE_EUTRAN_BAND6"
++ "SYS_BAND_LTE_EUTRAN_BAND65"
++ "SYS_BAND_LTE_EUTRAN_BAND66"
++ "SYS_BAND_LTE_EUTRAN_BAND67"
++ "SYS_BAND_LTE_EUTRAN_BAND68"
++ "SYS_BAND_LTE_EUTRAN_BAND69"
++ "SYS_BAND_LTE_EUTRAN_BAND7"
++ "SYS_BAND_LTE_EUTRAN_BAND70"
++ "SYS_BAND_LTE_EUTRAN_BAND71"
++ "SYS_BAND_LTE_EUTRAN_BAND72"
++ "SYS_BAND_LTE_EUTRAN_BAND73"
++ "SYS_BAND_LTE_EUTRAN_BAND74"
++ "SYS_BAND_LTE_EUTRAN_BAND75"
++ "SYS_BAND_LTE_EUTRAN_BAND76"
++ "SYS_BAND_LTE_EUTRAN_BAND8"
++ "SYS_BAND_LTE_EUTRAN_BAND85"
++ "SYS_BAND_LTE_EUTRAN_BAND87"
++ "SYS_BAND_LTE_EUTRAN_BAND88"
++ "SYS_BAND_LTE_EUTRAN_BAND9"
++ "SYS_BAND_LTE_EUTRAN_INVALID"
++ "SYS_BAND_NR5G_BAND1"
++ "SYS_BAND_NR5G_BAND12"
++ "SYS_BAND_NR5G_BAND13"
++ "SYS_BAND_NR5G_BAND14"
++ "SYS_BAND_NR5G_BAND18"
++ "SYS_BAND_NR5G_BAND2"
++ "SYS_BAND_NR5G_BAND20"
++ "SYS_BAND_NR5G_BAND24"
++ "SYS_BAND_NR5G_BAND25"
++ "SYS_BAND_NR5G_BAND257"
++ "SYS_BAND_NR5G_BAND258"
++ "SYS_BAND_NR5G_BAND259"
++ "SYS_BAND_NR5G_BAND26"
++ "SYS_BAND_NR5G_BAND260"
++ "SYS_BAND_NR5G_BAND261"
++ "SYS_BAND_NR5G_BAND262"
++ "SYS_BAND_NR5G_BAND28"
++ "SYS_BAND_NR5G_BAND29"
++ "SYS_BAND_NR5G_BAND3"
++ "SYS_BAND_NR5G_BAND30"
++ "SYS_BAND_NR5G_BAND34"
++ "SYS_BAND_NR5G_BAND38"
++ "SYS_BAND_NR5G_BAND39"
++ "SYS_BAND_NR5G_BAND40"
++ "SYS_BAND_NR5G_BAND41"
++ "SYS_BAND_NR5G_BAND46"
++ "SYS_BAND_NR5G_BAND47"
++ "SYS_BAND_NR5G_BAND48"
++ "SYS_BAND_NR5G_BAND5"
++ "SYS_BAND_NR5G_BAND50"
++ "SYS_BAND_NR5G_BAND51"
++ "SYS_BAND_NR5G_BAND53"
++ "SYS_BAND_NR5G_BAND65"
++ "SYS_BAND_NR5G_BAND66"
++ "SYS_BAND_NR5G_BAND67"
++ "SYS_BAND_NR5G_BAND7"
++ "SYS_BAND_NR5G_BAND70"
++ "SYS_BAND_NR5G_BAND71"
++ "SYS_BAND_NR5G_BAND74"
++ "SYS_BAND_NR5G_BAND75"
++ "SYS_BAND_NR5G_BAND76"
++ "SYS_BAND_NR5G_BAND77"
++ "SYS_BAND_NR5G_BAND78"
++ "SYS_BAND_NR5G_BAND79"
++ "SYS_BAND_NR5G_BAND8"
++ "SYS_BAND_NR5G_BAND80"
++ "SYS_BAND_NR5G_BAND81"
++ "SYS_BAND_NR5G_BAND82"
++ "SYS_BAND_NR5G_BAND83"
++ "SYS_BAND_NR5G_BAND84"
++ "SYS_BAND_NR5G_BAND85"
++ "SYS_BAND_NR5G_BAND86"
++ "SYS_BAND_NR5G_BAND89"
++ "SYS_BAND_NR5G_BAND90"
++ "SYS_BAND_NR5G_BAND91"
++ "SYS_BAND_NR5G_BAND92"
++ "SYS_BAND_NR5G_BAND93"
++ "SYS_BAND_NR5G_BAND94"
++ "SYS_BAND_NR5G_BAND95"
++ "SYS_BAND_NR5G_BAND96"
++ "SYS_BAND_NR5G_BAND97"
++ "SYS_BAND_NR5G_BAND98"
++ "SYS_BAND_NR5G_BAND99"
++ "SYS_BAND_NR5G_INVALID"
++ "SYS_BAND_WCDMA_III_1700"
++ "SYS_BAND_WCDMA_II_PCS_1900"
++ "SYS_BAND_WCDMA_INVALID"
++ "SYS_BAND_WCDMA_IV_1700"
++ "SYS_BAND_WCDMA_IX_1700"
++ "SYS_BAND_WCDMA_I_IMT_2000"
++ "SYS_BAND_WCDMA_VIII_900"
++ "SYS_BAND_WCDMA_VII_2600"
++ "SYS_BAND_WCDMA_VI_800"
++ "SYS_BAND_WCDMA_V_850"
++ "SYS_BAND_WCDMA_X"
++ "SYS_BAND_WCDMA_XII"
++ "SYS_BAND_WCDMA_XIII"
++ "SYS_BAND_WCDMA_XIV"
++ "SYS_BAND_WCDMA_XIX_850"
++ "SYS_BAND_WCDMA_XI_1500"
++ "SYS_BAND_WCDMA_XV"
++ "SYS_BAND_WCDMA_XVI"
++ "SYS_BAND_WCDMA_XVII"
++ "SYS_BAND_WCDMA_XVIII"
++ "SYS_BAND_WCDMA_XX"
++ "SYS_BAND_WCDMA_XXI"
++ "SYS_BAND_WCDMA_XXII"
++ "SYS_BAND_WCDMA_XXV"
++ "SYS_MODE_GSM"
++ "SYS_MODE_LTE"
++ "SYS_MODE_NO_SRV"
++ "SYS_MODE_NR"
++ "SYS_MODE_WCDMA"
++ "StringAsBandGroup:"
++ "StringAsMcgState:"
++ "StringAsScenarioDecision:"
++ "StringAsTxBand:"
++ "T@\"NSMutableArray\",&,N,V_kCellularNrDataInactivityBeforeIdles"
++ "T@\"NSMutableArray\",&,N,V_kCellularRfTunerHists"
++ "T@\"NSMutableArray\",&,N,V_tunerStateDurations"
++ "TI,N,V_durationUlpnMs"
++ "TI,N,V_ftQualInd"
++ "TI,N,V_port"
++ "TI,N,V_workMode"
++ "The readback for Uint64 path is triggered with values for signedVal= %lld, unsignedVal=%llu and correctedVal=%@"
++ "Ti,N,V_bandGroup"
++ "Ti,N,V_mcgState"
++ "Ti,N,V_scenarioDecision"
++ "Ti,N,V_txBand"
++ "T{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v^v},R"
++ "UHH_SCENARIO"
++ "_bandGroup"
++ "_durationUlpnMs"
++ "_ftQualInd"
++ "_kCellularNrDataInactivityBeforeIdles"
++ "_kCellularRfTunerHists"
++ "_mcgState"
++ "_port"
++ "_scenarioDecision"
++ "_setError"
++ "_tunerStateDurations"
++ "_txBand"
++ "_workMode"
++ "addKCellularNrDataInactivityBeforeIdle:"
++ "addKCellularRfTunerHist:"
++ "addTunerStateDuration:"
++ "arrayWithObjects:"
++ "bandGroup"
++ "bandGroupAsString:"
++ "band_group"
++ "clearKCellularNrDataInactivityBeforeIdles"
++ "clearKCellularRfTunerHists"
++ "clearTunerStateDurations"
++ "durationUlpnMs"
++ "duration_ulpn_ms"
++ "ftQualInd"
++ "ft_qual_ind"
++ "getBytes:range:"
++ "hasBandGroup"
++ "hasDurationUlpnMs"
++ "hasError"
++ "hasFtQualInd"
++ "hasMcgState"
++ "hasPort"
++ "hasScenarioDecision"
++ "hasTxBand"
++ "hasWorkMode"
++ "item_version"
++ "joinClauses"
++ "kCellularNrDataInactivityBeforeIdle"
++ "kCellularNrDataInactivityBeforeIdleAtIndex:"
++ "kCellularNrDataInactivityBeforeIdleType"
++ "kCellularNrDataInactivityBeforeIdles"
++ "kCellularNrDataInactivityBeforeIdlesCount"
++ "kCellularRfTunerHist"
++ "kCellularRfTunerHistAtIndex:"
++ "kCellularRfTunerHistType"
++ "kCellularRfTunerHists"
++ "kCellularRfTunerHistsCount"
++ "mcgState"
++ "mcgStateAsString:"
++ "mcg_state"
++ "numberWithLongLong:"
++ "port"
++ "position"
++ "predicateByReplacingUint64bit:legalMetricNames:"
++ "predicateByReplacingUnsignedIntegerWithSignedInteger:legalMetricNames:"
++ "scenarioDecision"
++ "scenarioDecisionAsString:"
++ "scenario_decision"
++ "setBandGroup:"
++ "setDurationUlpnMs:"
++ "setFtQualInd:"
++ "setHasBandGroup:"
++ "setHasDurationUlpnMs:"
++ "setHasFtQualInd:"
++ "setHasMcgState:"
++ "setHasPort:"
++ "setHasScenarioDecision:"
++ "setHasTxBand:"
++ "setHasWorkMode:"
++ "setKCellularNrDataInactivityBeforeIdles:"
++ "setKCellularRfTunerHists:"
++ "setMcgState:"
++ "setPort:"
++ "setPosition:"
++ "setScenarioDecision:"
++ "setTunerStateDurations:"
++ "setTxBand:"
++ "setWorkMode:"
++ "tunerStateDurationAtIndex:"
++ "tunerStateDurationType"
++ "tunerStateDurations"
++ "tunerStateDurationsCount"
++ "tuner_state_duration"
++ "txBand"
++ "txBandAsString:"
++ "tx_band"
++ "unsignedLongLongValue"
++ "workMode"
++ "work_mode"
++ "{?=\"ap\"b1\"bbChipset\"b1\"durationMs\"b1\"durationUlpnMs\"b1\"nonPsPrefSim\"b1\"psPrefSim\"b1}"
++ "{?=\"bandGroup\"b1\"caIndex\"b1\"durationMs\"b1\"mcgCcNum\"b1\"mcgState\"b1\"rat\"b1\"rxDivState\"b1\"isEndc\"b1}"
++ "{?=\"duration\"b1\"ftQualInd\"b1\"port\"b1\"rat\"b1\"scenarioDecision\"b1\"txBand\"b1\"workMode\"b1}"
++ "{unique_ptr<pps::Histogram_Internal, std::default_delete<pps::Histogram_Internal>>=\"__ptr_\"^{Histogram_Internal}}"
++ "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v^v}16@0:8"
++ "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v^v}24@0:8@16"
+- " FROM '%@'"
+- "%@_Array_%@.%@"
+- "INNER JOIN '%@' ON '%@'.%@ = '%@'.%@"
+- "T{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v{__compressed_pair<std::pair<double, double> *, std::allocator<std::pair<double, double>>>=^v}},R"
+- "auto boost::histogram::detail::bincount(const std::tuple<boost::histogram::axis::regular<>> &)::(anonymous class)::operator()(const auto &) const [a:auto = boost::histogram::axis::regular<>]"
+- "joinClause"
+- "{?=\"ap\"b1\"bbChipset\"b1\"durationMs\"b1\"nonPsPrefSim\"b1\"psPrefSim\"b1}"
+- "{?=\"caIndex\"b1\"durationMs\"b1\"mcgCcNum\"b1\"rat\"b1\"rxDivState\"b1\"isEndc\"b1}"
+- "{unique_ptr<pps::Histogram_Internal, std::default_delete<pps::Histogram_Internal>>=\"__ptr_\"{__compressed_pair<pps::Histogram_Internal *, std::default_delete<pps::Histogram_Internal>>=\"__value_\"^{Histogram_Internal}}}"
+- "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::pair<double, double> *, std::allocator<std::pair<double, double>>>=\"__value_\"^v}}"
+- "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v{__compressed_pair<std::pair<double, double> *, std::allocator<std::pair<double, double>>>=^v}}16@0:8"
+- "{vector<std::pair<double, double>, std::allocator<std::pair<double, double>>>=^v^v{__compressed_pair<std::pair<double, double> *, std::allocator<std::pair<double, double>>>=^v}}24@0:8@16"
+
+```

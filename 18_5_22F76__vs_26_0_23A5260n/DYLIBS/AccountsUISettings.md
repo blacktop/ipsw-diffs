@@ -1,0 +1,1152 @@
+## AccountsUISettings
+
+> `/System/Library/PrivateFrameworks/AccountsUISettings.framework/AccountsUISettings`
+
+```diff
+
+-61.0.0.0.0
+-  __TEXT.__text: 0x386a8
+-  __TEXT.__auth_stubs: 0x12b0
+-  __TEXT.__objc_methlist: 0x2dc
+-  __TEXT.__const: 0x26a4
+-  __TEXT.__swift5_typeref: 0x2782
+-  __TEXT.__swift5_capture: 0x4a0
+-  __TEXT.__cstring: 0x1902
+-  __TEXT.__oslogstring: 0x204
+-  __TEXT.__swift5_reflstr: 0x771
+-  __TEXT.__swift5_assocty: 0x318
+-  __TEXT.__constg_swiftt: 0x1018
+-  __TEXT.__swift5_fieldmd: 0x878
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_proto: 0xc0
+-  __TEXT.__swift5_types: 0x98
++83.0.0.0.0
++  __TEXT.__text: 0x5debc
++  __TEXT.__auth_stubs: 0x1ca0
++  __TEXT.__objc_methlist: 0x4b4
++  __TEXT.__const: 0x3a54
++  __TEXT.__gcc_except_tab: 0x74
++  __TEXT.__cstring: 0x2a82
++  __TEXT.__oslogstring: 0x1a81
++  __TEXT.__swift5_typeref: 0x3c5a
++  __TEXT.__swift5_capture: 0x808
++  __TEXT.__swift5_reflstr: 0xc31
++  __TEXT.__swift5_assocty: 0x4d0
++  __TEXT.__constg_swiftt: 0x1c4c
++  __TEXT.__swift5_fieldmd: 0xe68
++  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__swift5_proto: 0x130
++  __TEXT.__swift5_types: 0x104
++  __TEXT.__swift_as_entry: 0x30
++  __TEXT.__swift_as_ret: 0x34
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0xc38
+-  __TEXT.__eh_frame: 0x3c0
+-  __TEXT.__objc_classname: 0x68
+-  __TEXT.__objc_methname: 0x7ad
+-  __TEXT.__objc_methtype: 0xce
+-  __DATA_CONST.__got: 0x498
+-  __DATA_CONST.__const: 0x350
+-  __DATA_CONST.__objc_classlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x48
++  __TEXT.__unwind_info: 0x1298
++  __TEXT.__eh_frame: 0xda8
++  __TEXT.__objc_classname: 0xe8
++  __TEXT.__objc_methname: 0x13fe
++  __TEXT.__objc_methtype: 0x3e9
++  __TEXT.__objc_stubs: 0x400
++  __DATA_CONST.__got: 0x7b0
++  __DATA_CONST.__const: 0x3b8
++  __DATA_CONST.__objc_classlist: 0x78
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x308
+-  __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x958
+-  __AUTH_CONST.__const: 0x1be8
+-  __AUTH_CONST.__objc_const: 0xd88
+-  __AUTH.__objc_data: 0x1e8
+-  __AUTH.__data: 0x3c0
+-  __DATA.__data: 0xbe0
+-  __DATA.__common: 0x20
+-  __DATA.__bss: 0x19b0
+-  __DATA_DIRTY.__objc_data: 0x720
+-  __DATA_DIRTY.__data: 0x668
+-  __DATA_DIRTY.__common: 0x20
++  __DATA_CONST.__objc_selrefs: 0x670
++  __DATA_CONST.__objc_protorefs: 0x40
++  __AUTH_CONST.__auth_got: 0xe60
++  __AUTH_CONST.__const: 0x2d48
++  __AUTH_CONST.__cfstring: 0x80
++  __AUTH_CONST.__objc_const: 0x18b8
++  __AUTH.__objc_data: 0xb28
++  __AUTH.__data: 0x790
++  __DATA.__objc_ivar: 0x14
++  __DATA.__data: 0x14d8
++  __DATA.__bss: 0x2900
++  __DATA.__common: 0xa0
++  __DATA_DIRTY.__objc_data: 0x6e8
++  __DATA_DIRTY.__data: 0x630
+   __DATA_DIRTY.__bss: 0x80
++  __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AccountSuggestions.framework/AccountSuggestions
++  - /System/Library/PrivateFrameworks/AccountsUI.framework/AccountsUI
++  - /System/Library/PrivateFrameworks/AccountsUISupport.framework/AccountsUISupport
++  - /System/Library/PrivateFrameworks/AccountsUISupportShared.framework/AccountsUISupportShared
++  - /System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
++  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
++  - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/Settings.framework/Settings
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 3E1D61ED-4B45-3C98-9281-334C87383F78
+-  Functions: 1434
+-  Symbols:   830
+-  CStrings:  281
++  UUID: 63E58BA4-6F37-315F-A859-49AF8456C84C
++  Functions: 2067
++  Symbols:   1333
++  CStrings:  622
+ 
+Symbols:
++ +[ACUISAddAccountHelper dataclassConfigurationControllerForAccount:name:completion:]
++ +[ACUISAddAccountHelper showAlternateSetupControllerForAccount:username:from:completion:]
++ -[ACUISAddAccountHelper .cxx_destruct]
++ -[ACUISAddAccountHelper presentationControllerDidDismiss:]
++ -[ACUISAddAccountHelper setupViewControllerDidDismiss:]
++ -[ACUISAddAccountHelper showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:]
++ -[ACUISAddAccountHelper signInControllerDidCancel]
++ -[ACUISAddAccountHelper signInControllerDidCompleteWithSuccess:error:]
++ GCC_except_table0
++ _ACAccountPropertyIdentityEmailAddress
++ _ACAccountTypeIdentifierIMAPMail
++ _ACAccountTypeIdentifierSMTP
++ _ACAccountTypeIdentifierSubscribedCalendar
++ _ACUIAccountIdentifierKey
++ _ACUIAccountKey
++ _ACUIForceMailSetupKey
++ _AnalyticsSendEvent
++ _CreateDetailControllerInstanceWithClass
++ _MCFeatureAccountModificationAllowed
++ _MobileGestalt_copy_regionCode_obj
++ _MobileGestalt_get_current_device
++ _NSClassFromString
++ _NSStringFromClass
++ _OBJC_CLASS_$_AAUISignInController
++ _OBJC_CLASS_$_ACAccountStore
++ _OBJC_CLASS_$_ACUIAccountViewProvidersManager
++ _OBJC_CLASS_$_ACUISAddAccountControllerSwap
++ _OBJC_CLASS_$_ACUISAddAccountHelper
++ _OBJC_CLASS_$_ACUISetupViewController
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OBJC_CLASS_$_LARatchet
++ _OBJC_CLASS_$_LARatchetManager
++ _OBJC_CLASS_$_LSApplicationWorkspace
++ _OBJC_CLASS_$_MCProfileConnection
++ _OBJC_CLASS_$_NSDictionary
++ _OBJC_CLASS_$_NSLayoutConstraint
++ _OBJC_CLASS_$_NSMutableDictionary
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_PSListController
++ _OBJC_CLASS_$_PSRootController
++ _OBJC_CLASS_$_PSSetupController
++ _OBJC_CLASS_$_PSSpecifier
++ _OBJC_CLASS_$_PSViewController
++ _OBJC_CLASS_$_UIBarButtonItem
++ _OBJC_CLASS_$_UIDevice
++ _OBJC_CLASS_$_UIViewController
++ _OBJC_CLASS_$__TtC18AccountsUISettings19AccountAddViewModel
++ _OBJC_CLASS_$__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ _OBJC_IVAR_$_ACUISAddAccountHelper._accountCreationController
++ _OBJC_IVAR_$_ACUISAddAccountHelper._completion
++ _OBJC_IVAR_$_ACUISAddAccountHelper._setupController
++ _OBJC_IVAR_$_ACUISAddAccountHelper._setupViewController
++ _OBJC_IVAR_$_ACUISAddAccountHelper.viewProviderManager
++ _OBJC_METACLASS_$_ACUISAddAccountControllerSwap
++ _OBJC_METACLASS_$_ACUISAddAccountHelper
++ _OBJC_METACLASS_$_PSListController
++ _OBJC_METACLASS_$__TtC18AccountsUISettings19AccountAddViewModel
++ _OBJC_METACLASS_$__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ _PSAppSettingsBundleIDKey
++ _PSSetupCustomClassKey
++ __ACUILogSystem
++ __CLASS_METHODS_ACUISAddAccountControllerSwap
++ __DATA_ACUISAddAccountControllerSwap
++ __DATA__TtC18AccountsUISettings19AccountAddViewModel
++ __DATA__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ __DATA__TtC18AccountsUISettings25AccountAddAnalyticsSender
++ __INSTANCE_METHODS_ACUISAddAccountControllerSwap
++ __INSTANCE_METHODS__TtC18AccountsUISettings19AccountAddViewModel
++ __INSTANCE_METHODS__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ __IVARS__TtC18AccountsUISettings19AccountAddViewModel
++ __IVARS__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ __IVARS__TtC18AccountsUISettings25AccountAddAnalyticsSender
++ __METACLASS_DATA_ACUISAddAccountControllerSwap
++ __METACLASS_DATA__TtC18AccountsUISettings19AccountAddViewModel
++ __METACLASS_DATA__TtC18AccountsUISettings22AccountTypeSheetPSRoot
++ __METACLASS_DATA__TtC18AccountsUISettings25AccountAddAnalyticsSender
++ __OBJC_$_CLASS_METHODS_ACUISAddAccountHelper
++ __OBJC_$_INSTANCE_METHODS_ACUISAddAccountHelper
++ __OBJC_$_INSTANCE_VARIABLES_ACUISAddAccountHelper
++ __OBJC_$_PROP_LIST_ACUISAddAccountHelper
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ACUIAccountCreationControlling
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ACUISetupViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIAdaptivePresentationControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ACUIAccountCreationControlling
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ACUISetupViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIAdaptivePresentationControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_ACUIAccountCreationControlling
++ __OBJC_$_PROTOCOL_REFS_ACUISetupViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_UIAdaptivePresentationControllerDelegate
++ __OBJC_CLASS_PROTOCOLS_$_ACUISAddAccountHelper
++ __OBJC_CLASS_RO_$_ACUISAddAccountHelper
++ __OBJC_LABEL_PROTOCOL_$_ACUIAccountCreationControlling
++ __OBJC_LABEL_PROTOCOL_$_ACUISetupViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
++ __OBJC_METACLASS_RO_$_ACUISAddAccountHelper
++ __OBJC_PROTOCOL_$_ACUIAccountCreationControlling
++ __OBJC_PROTOCOL_$_ACUISetupViewControllerDelegate
++ __OBJC_PROTOCOL_$_UIAdaptivePresentationControllerDelegate
++ __OBJC_PROTOCOL_REFERENCE_$_ACUIAccountCreationControlling
++ __PROTOCOLS__TtC18AccountsUISettings15AccountsUIModel.59
++ __Unwind_Resume
++ ___115-[ACUISAddAccountHelper showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:]_block_invoke
++ ___115-[ACUISAddAccountHelper showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:]_block_invoke.67
++ ___50-[ACUISAddAccountHelper signInControllerDidCancel]_block_invoke
++ ___70-[ACUISAddAccountHelper signInControllerDidCompleteWithSuccess:error:]_block_invoke
++ ___CFConstantStringClassReference
++ ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
++ ___block_descriptor_48_e8_32bs40w_e39_v32?0"ACAccount"8q16"NSDictionary"24lw40l8s32l8
++ ___block_descriptor_72_e8_32s40s48bs56w_e5_v8?0lw56l8s48l8s32l8s40l8
++ ___objc_personality_v0
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_memcpy0_1
++ ___swift_memcpy48_8
++ ___swift_project_boxed_opaque_existential_0
++ __dispatch_main_q
++ __swiftEmptySetSingleton
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_AccountsUISettings
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_AccountsUISettings
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_AccountsUISettings
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AccountsUISettings
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AccountsUISettings
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AccountsUISettings
++ _associated conformance 18AccountsUISettings0A7UIModelC12FeatureFlagsOSHAASQ
++ _associated conformance 18AccountsUISettings14ErrorTextStackV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings15AddAccountTitleV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings16AccountTypeSheetV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings16SuggestionButtonV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings18AccountTypeSectionV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings19AccountAddViewModelC0D4TypeOSHAASQ
++ _associated conformance 18AccountsUISettings19AccountAddViewModelC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 18AccountsUISettings19AccountAddViewModelC9DimpleKeyOSHAASQ
++ _associated conformance 18AccountsUISettings20AccountAddViewLegacyV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings20AccountAddViewModernV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings21EmailAddressTextFieldV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings22ExistingAccountSectionV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings23AccountTypeSheetWrapperV7SwiftUI29UIViewControllerRepresentableAaD4View
++ _associated conformance 18AccountsUISettings23AccountTypeSheetWrapperV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings24AccountSuggestionSectionV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings25AccountAddAnalyticsSenderC0cD12ResolverTypeOSHAASQ
++ _associated conformance 18AccountsUISettings25AccountAddAnalyticsSenderC12ManualMethodOSHAASQ
++ _associated conformance 18AccountsUISettings26EnterYourEmailAddressTitleV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings26ModdernAddViewFormContentsV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings30EmailAddressFieldSectionFooterV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings34AccountTypeIconNameButtonViewSmallV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _block_copy_helper.165
++ _block_copy_helper.171
++ _block_copy_helper.174
++ _block_copy_helper.18
++ _block_copy_helper.180
++ _block_copy_helper.399
++ _block_copy_helper.405
++ _block_copy_helper.419
++ _block_copy_helper.433
++ _block_copy_helper.440
++ _block_copy_helper.477
++ _block_copy_helper.482
++ _block_descriptor.167
++ _block_descriptor.173
++ _block_descriptor.176
++ _block_descriptor.182
++ _block_descriptor.20
++ _block_descriptor.401
++ _block_descriptor.407
++ _block_descriptor.421
++ _block_descriptor.435
++ _block_descriptor.442
++ _block_descriptor.479
++ _block_descriptor.484
++ _block_destroy_helper.166
++ _block_destroy_helper.172
++ _block_destroy_helper.175
++ _block_destroy_helper.181
++ _block_destroy_helper.19
++ _block_destroy_helper.400
++ _block_destroy_helper.406
++ _block_destroy_helper.420
++ _block_destroy_helper.434
++ _block_destroy_helper.441
++ _block_destroy_helper.478
++ _block_destroy_helper.483
++ _dispatch_async
++ _generic environment s15LazyMapSequenceVy7IndicesSlQyd__5IndexSlQyd___q_tGRszSHR_7SwiftUI4ViewR0_SMRd__SkRd__SHAFRQr1__l
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4ViewPAAE8onSubmit2of_QrAA0H8TriggersV_yyctFQOyAgAE0G6ChangeAI7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA11SecureFieldVyAA4TextVG_Qo__SbQo__Qo_AA32_EnvironmentKeyTransformModifierVySbGGAA023AccessibilityAttachmentW0VGAEyAEyAEyAgAEAhI_QrAK_yyctFQOyAgAEAliM_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAgAEANyQrASFQOyAA0sR0VyAWG_Qo__SbQo__Qo_AA017_AppearanceActionW0VGA2_GA5_GGAaFHPA6_AaFHPA3_AaFHPqd__AaFHD2_A_HO_A2_AA0fW0HPyHCHC_A5_AAA19_HPyHCHC_A17_AaFHPA16_AaFHPA15_AaFHPqd__AaFHD2_A12_HO_A14_AAA19_HPyHCHC_A2_AAA19_HPyHCHC_A5_AAA19_HPyHCHCHC.156
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA7AnyViewVAA16_FlexFrameLayoutVGAA010_FixedSizeJ0VGAA4TextVGAA0G0HPAmaQHPAjaQHPAgaQHPyHC_AiA0G8ModifierHPyHCHC_AlaRHPyHCHC_AoaQHPyHCHC.97
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE14sectionActions7contentQrqd__yXE_tAaDRd__lFQOyAA7SectionVyAA4TextV18AccountsUISettings07SettingiE0VAA05EmptyE0VG_ACyAA03AnyE0VAPGQo_AeAEAfGQrqd__yXE_tAaDRd__lFQOyAIyApnPG_ATQo_GAaDHPqd0__AaDHD3_AUHO_qd0__AaDHD3_AWHOHC.95
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAA07LabeledE0VyAA5LabelVyAA05TupleE0VyAA4TextVSg_A2VSgtGAE8SettingsE16settingsIconSizeyQrAY0qsE0V5StyleOFQOyAA03AnyE0V_Qo_SgGAA6ButtonVyAUGSgG_18AccountsUISettings012DetailsSheetD0VQo_AUGAaDHPqd0__AaDHD3_A16_HO_AuaDHPyHCHC.29
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA03AnyG0V_AA4TextVAA6SpacerVtGG18AccountsUISettings020AccountIconAddButtonG0VGAA0G0HPAoaTHPyHC_AraTHPyHCHC.648
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0VyAA03AnyG0VAA18_AspectRatioLayoutVG_AA4TextVAA6SpacerVtGGAEyAGyAR_AA0G0P8SettingsE16settingsIconSizeyQrAW0oqG0V5StyleOFQOyAK_Qo_ApRtGGGAaUHPAtaUHPyHC_A3_AaUHPyHCHC.649
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0VyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGG_AA4TextVAA6SpacerVtGGAWGSgAA0G0HpAxaZHPAwaZHPyHC_AwaZHPyHCHC_HC.319
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA08ModifiedD0VyAIyAA03AnyG0VAA18_AspectRatioLayoutVGAA31AccessibilityAttachmentModifierVG_AA6SpacerVtGGAEyAGyAS_AIyAkPGAStGGGAA0G0HPAuaZHPyHC_AxaZHPyHCHC.650
++ _get_witness_table 7SwiftUI4FormVy18AccountsUISettings18AccountTypeSectionVGAA4ViewHPyHC.323
++ _get_witness_table 7SwiftUI4FormVyAA0C13FooterContentVyAA9TupleViewVy18AccountsUISettings25DisabledSettingsIconLabelVSg_AA7ForEachVySayAH23AccountUISettingSectionCGSSAH07Settingr7WrapperG0VGtGAH0pdG0VGGAA0G0HPyHC.115
++ _get_witness_table 7SwiftUI4TextVAA4ViewHPyHC.314
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVy18AccountsUISettings012DeleteButtonE0V_AA6SpacerVtGGSgAA0E0HpAlaNHPyHC_HC.96
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA19_ConditionalContentVyAA08ModifiedG0VyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGAQG_AA6SpacerVtGGAA0E0HPyHC.321
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA6SpacerV_AA6VStackVyAEy014_IconServices_aB005AsyncH5ImageVyAA0K0VGSg_AA15ModifiedContentVyAA4TextVAA31AccessibilityAttachmentModifierVGtGGAGtGGAA0E0HPyHC.315
++ _get_witness_table 7SwiftUI6VStackVy18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextVGAA4ViewHPyHC.320
++ _get_witness_table 7SwiftUI7ForEachVySay18AccountsUISettings16AccountUISettingVGSSAA19_ConditionalContentVyAIyAIyAD13DetailsHeaderVAD14DataclassTableVGAIyAD06CustommN0VAIyAD16DelayedTextFieldVAA11LabeledViewVyAA0Q0VAVGGGGAIyAIyArA0T0PAAE4helpyQrqd__SyRd__lFQOyAA08ModifiedJ0VyAA0qR0VyAVGAA32_EnvironmentKeyTransformModifierVySbGG_SSQo_GAIyA0_AAEA1_yQrqd__SyRd__lFQOyA3_yAA6ToggleVyAVGA9_G_SSQo_AA03AnyT0VGGGGAAA_HPA22_AAA_HPAzAA_HPAnAA_HPAkAA_HPyHC_AmAA_HPyHCHC_AyAA_HPApAA_HPyHC_AxAA_HPArAA_HPyHC_AwAA_HPyHCHCHCHC_A21_AAA_HPA12_AAA_HPArAA_HPyHC_qd0__AAA_HD3_A11_HOHC_A20_AAA_HPqd0__AAA_HD3_A17_HO_A19_AAA_HPyHCHCHCHC_HC.114
++ _get_witness_table 7SwiftUI7SectionVyAA19_ConditionalContentVyAA4TextVAGGAA7ForEachVySay18AccountSuggestions0I10SuggestionVGSS18AccountsUISettings0K6ButtonVGAA9EmptyViewVGSgAA0P0HpAuaWHPAhaWHPAgaWHPyHC_AgaWHPyHCHC_AraWHPAqaWHPyHC_HCAtaWHPyHCHC_HC.322
++ _get_witness_table 7SwiftUI7SectionVyAA4TextVAA15ModifiedContentVyAA6ButtonVy18AccountsUISettings019AccountTypeIconNameG9ViewSmallVGAA16_FlexFrameLayoutVGAA05EmptyN0VGSgAA0N0HpAsaUHPAeaUHPyHC_ApaUHPAmaUHPyHC_AoA0N8ModifierHPyHCHCAraUHPyHCHC_HC.318
++ _get_witness_table 7SwiftUI7SectionVyAA6VStackVyAA6HStackVyAA9TupleViewVyAA4TextV_AA6SpacerVtGGGSgAIyAA7ForEachVys15LazyMapSequenceVySnySiGSi_SStGSS18AccountsUISettings13ShowAddButtonVG_AA19_ConditionalContentVyAA0S0VyAGyAIyA1_yAIyAM_AKtGAKG_AMtGGGASySaySSGSSAZGGSgtGAA05EmptyG0VGAA0G0HPAqAA17_HpApAA17_HPyHC_HC_A13_AAA17_HPyHCA15_AAA17_HPyHCHC.324
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA15ModifiedContentVyAGyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAA016_ForegroundStyleL0VyAA017HierarchicalShapeQ0VGGAKyAA4FontVSgGGAEGAA0E0HPAeAA1_HPyHC_A_AAA1_HPAvAA1_HPApAA1_HPAiAA1_HPyHC_AoA0eL0HPyHCHC_AuAA2_HPyHCHC_AzAA2_HPyHCHCAeAA1_HPyHCHC.94
++ _get_witness_table 7SwiftUI9TupleViewVyAA0D0PAAE17sectionBackgroundyQrAA10VisibilityOFQOyAA15ModifiedContentVyAA7SectionVyAA05EmptyD0V18AccountsUISettings15AddAccountTitleVANGAA21_TraitWritingModifierVyAA07ListRowfQ3KeyVGG_Qo__ALyAO021EnterYourEmailAddressP0VAO0yZ9TextFieldVAA6VStackVyACyAA6HStackVyACyAO14ErrorTextStackV_AA6SpacerVtGG_AO0yz5FieldJ6FooterVtGGGAO08ExistingoJ0VALyAA4TextVAA7ForEachVys15LazyMapSequenceVySnySiGSi_0L15UISupportShared22PreliminaryInformationV10SuggestionVtGA30_AJyAA6ButtonVyAO0o18TypeIconNameButtonD5SmallVGAA16_FlexFrameLayoutVGGANGSgAO0o10SuggestionJ0VtGAaDHPyHC.313
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOy18AccountsUISettings13ShowAddButtonV_AA0L0VyAA4TextVGQo_HO.646
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyAA4FormVyAA012_ConditionalL0Vy18AccountsUISettings010ModdernAddcM8ContentsVAR25DisabledSettingsIconLabelVGGAA25_AppearanceActionModifierVG_AMyAR23AccountTypeSheetWrapperVAA23_SafeAreaIgnoringLayoutVGQo_HO.312
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA4FormVyAA05TupleC0VyAcAE17sectionBackgroundyQrAA10VisibilityOFQOyAA08ModifiedG0VyAA7SectionVyAA05EmptyC0V18AccountsUISettings010AddAccountI0VATGAA21_TraitWritingModifierVyAA07ListRowmV3KeyVGG_Qo_Sg_AU0u10SuggestionP0VAU0u4TypeP0VtGG_SSQo__AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQOy_AA0F4ItemVyytAA6ButtonVyAA4TextVGGQo_Qo_HO.326
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6ButtonVyAA012_ConditionalK0Vy18AccountsUISettings019AccountTypeIconNamelC5SmallVAPyAQ0pr3AddlC0VAPyAQ08BigImageulC0VAUGGGSgGAA16_FlexFrameLayoutVG_SSAA05TupleC0VyANyAA4TextVG_A8_tGAPyA7_A7_GQo_HO.647
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6ZStackVyAA012_ConditionalK0VyAPy18AccountsUISettings010AccountAddC6LegacyVAQ0pqC6ModernVGASGGAA25_AppearanceActionModifierVG_SSAA05TupleC0VyAA6ButtonVyAA4TextVG_A6_tGAPyA5_A5_GQo_HO.310
++ _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAA15ModifiedContentVyAA6ZStackVyAA012_ConditionalK0VyAPy18AccountsUISettings010AccountAddC6LegacyVAQ0pqC6ModernVGASGGAA25_AppearanceActionModifierVG_SSAA05TupleC0VyAA6ButtonVyAA4TextVG_A6_tGAPyA5_A5_GQo_HOTm
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQOyAcAE11submitLabelyQrAA0eI0VFQOyAcAE27textInputAutocapitalizationyQrAA04TextkL0VSgFQOyAcAE12keyboardTypeyQrSo010UIKeyboardO0VFQOyAcAE21disableAutocorrectionyQrSbSgFQOyAcAE12labelsHiddenQryFQOyAA15ModifiedContentVyAA0M5FieldVyAA05EmptyC0VGAA31AccessibilityAttachmentModifierVG_Qo__Qo__Qo__Qo__Qo__Qo_HO.317
++ _kISImageDescriptorTableUIName
++ _objc_alloc_init
++ _objc_claimAutoreleasedReturnValue
++ _objc_copyWeak
++ _objc_destroyWeak
++ _objc_initWeak
++ _objc_loadWeakRetained
++ _objc_msgSend$beginAccountCreationWithSpecifier:fromViewController:completion:
++ _objc_msgSend$configurationInfoForCreatingAccountWithType:
++ _objc_msgSend$conformsToProtocol:
++ _objc_msgSend$controllerClassForCreatingAccountWithType:
++ _objc_msgSend$currentDevice
++ _objc_msgSend$dataclassConfigurationControllerForAccount:name:specifier:completion:
++ _objc_msgSend$detailControllerClass
++ _objc_msgSend$dictionary
++ _objc_msgSend$dismissViewControllerAnimated:completion:
++ _objc_msgSend$isEqualToString:
++ _objc_msgSend$mutableCopy
++ _objc_msgSend$numberWithBool:
++ _objc_msgSend$objectForKeyedSubscript:
++ _objc_msgSend$preferenceSpecifierNamed:target:set:get:detail:cell:edit:
++ _objc_msgSend$presentViewController:animated:completion:
++ _objc_msgSend$presentationController
++ _objc_msgSend$setDelegate:
++ _objc_msgSend$setDelegate:forSignInController:forAccountWithType:
++ _objc_msgSend$setModalPresentationStyle:
++ _objc_msgSend$setModalTransitionStyle:
++ _objc_msgSend$setObject:forKeyedSubscript:
++ _objc_msgSend$setParentController:
++ _objc_msgSend$setProperty:forKey:
++ _objc_msgSend$setSpecifier:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$setUsername:
++ _objc_msgSend$setupController
++ _objc_msgSend$sharedInstance
++ _objc_msgSend$showAlternateCreationControllerForAccountType:username:fromViewController:specifier:completion:
++ _objc_msgSend$userInterfaceIdiom
++ _objc_msgSend$username
++ _objc_msgSend$viewControllerClassForCreatingAccountWithType:
++ _objc_opt_class
++ _objc_opt_isKindOfClass
++ _objc_release_x9
++ _objc_retainBlock
++ _objc_retain_x1
++ _objc_retain_x3
++ _objc_retain_x4
++ _objc_retain_x9
++ _objc_storeStrong
++ _objectdestroy.117Tm
++ _objectdestroy.123Tm
++ _objectdestroy.32Tm
++ _objectdestroy.367Tm
++ _objectdestroy.493Tm
++ _objectdestroy.536Tm
++ _objectdestroy.545Tm
++ _objectdestroy.549Tm
++ _objectdestroy.555Tm
++ _objectdestroy.55Tm
++ _swift_allocError
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_coroFrameAlloc
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastObjCClass
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getFunctionReplacement
++ _swift_getObjCClassFromMetadata
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _symbolic $s7SwiftUI29UIViewControllerRepresentableP
++ _symbolic 5IndexSlQyd__
++ _symbolic 5IndexSlQyd___q_t
++ _symbolic SDyS2SG
++ _symbolic SDy_____ypGSg s11AnyHashableV
++ _symbolic SS_SSt
++ _symbolic SS_SaySo9ACAccountCGt
++ _symbolic SS_So8NSObjectCt
++ _symbolic SS_ypt
++ _symbolic SaySDy_____ypGG s11AnyHashableV
++ _symbolic Say_____G 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic ScPSg
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic SccySaySo9ACAccountCGSg______pG s5ErrorP
++ _symbolic SccySb_____G s5NeverO
++ _symbolic Shy_____G 7Combine14AnyCancellableC
++ _symbolic SiSS_____Iegnnr_ 18AccountsUISettings13ShowAddButtonV
++ _symbolic Si__________y_____y_____G_____GIegnnr_ 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV 7SwiftUI15ModifiedContentV AF6ButtonV 0A10UISettings019AccountTypeIconNameK9ViewSmallV AF16_FlexFrameLayoutV
++ _symbolic Si______t 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic SnySiG
++ _symbolic So15UIBarButtonItemCSg
++ _symbolic So16PSListControllerC
++ _symbolic So16PSRootControllerC
++ _symbolic So16PSViewControllerC
++ _symbolic So16PSViewControllerCSg
++ _symbolic So16PSViewControllerCSgXw
++ _symbolic So21ACUISAddAccountHelperCSg
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 17AccountsUISupport21ConfigurationResolverC
++ _symbolic _____ 18AccountsUISettings0A7UIModelC12FeatureFlagsO
++ _symbolic _____ 18AccountsUISettings14ErrorTextStackV
++ _symbolic _____ 18AccountsUISettings15AddAccountTitleV
++ _symbolic _____ 18AccountsUISettings16AccountTypeSheetV
++ _symbolic _____ 18AccountsUISettings16SuggestionButtonV
++ _symbolic _____ 18AccountsUISettings18AccountTypeSectionV
++ _symbolic _____ 18AccountsUISettings19AccountAddViewModelC
++ _symbolic _____ 18AccountsUISettings19AccountAddViewModelC0D4TypeO
++ _symbolic _____ 18AccountsUISettings19AccountAddViewModelC22ContinueButtonNextStepO
++ _symbolic _____ 18AccountsUISettings19AccountAddViewModelC28EmailAddressValidationResultV
++ _symbolic _____ 18AccountsUISettings19AccountAddViewModelC9DimpleKeyO
++ _symbolic _____ 18AccountsUISettings20AccountAddViewLegacyV
++ _symbolic _____ 18AccountsUISettings20AccountAddViewModernV
++ _symbolic _____ 18AccountsUISettings21EmailAddressTextFieldV
++ _symbolic _____ 18AccountsUISettings22AccountTypeSheetPSRootC
++ _symbolic _____ 18AccountsUISettings22ExistingAccountSectionV
++ _symbolic _____ 18AccountsUISettings23AccountTypeSheetWrapperV
++ _symbolic _____ 18AccountsUISettings24AccountSuggestionSectionV
++ _symbolic _____ 18AccountsUISettings25AccountAddAnalyticsSenderC
++ _symbolic _____ 18AccountsUISettings25AccountAddAnalyticsSenderC0cD12ResolverTypeO
++ _symbolic _____ 18AccountsUISettings25AccountAddAnalyticsSenderC12ManualMethodO
++ _symbolic _____ 18AccountsUISettings25AccountAddAnalyticsSenderC16ResolveMechanismO
++ _symbolic _____ 18AccountsUISettings26EnterYourEmailAddressTitleV
++ _symbolic _____ 18AccountsUISettings26ModdernAddViewFormContentsV
++ _symbolic _____ 18AccountsUISettings30EmailAddressFieldSectionFooterV
++ _symbolic _____ 18AccountsUISettings34AccountTypeIconNameButtonViewSmallV
++ _symbolic _____ 18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextV
++ _symbolic _____ 23AccountsUISupportShared12EmailAddressV
++ _symbolic _____ 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____ 7SwiftUI13OpenURLActionV
++ _symbolic _____ So29ACUISAddAccountStageOneResultV
++ _symbolic _____ s5NeverO
++ _symbolic _____Iegn_ 18AccountSuggestions0A10SuggestionV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 18AccountsUISettings19AccountAddViewModelC
++ _symbolic _____Sg 18AccountsUISettings19AccountAddViewModelC22ContinueButtonNextStepO
++ _symbolic _____Sg 18AccountsUISettings19AccountAddViewModelC28EmailAddressValidationResultV
++ _symbolic _____Sg 18AccountsUISettings25AccountAddAnalyticsSenderC
++ _symbolic _____Sg 23AccountsUISupportShared22PreliminaryInformationV8NextStepO
++ _symbolic _____Sg 23AccountsUISupportShared8ProviderO
++ _symbolic _____Sg 7SwiftUI27TextInputAutocapitalizationV
++ _symbolic _____Sg So9NSRunLoopC10FoundationE16SchedulerOptionsV
++ _symbolic _____SgXw 18AccountsUISettings19AccountAddViewModelC
++ _symbolic _____SgXwz_Xx 18AccountsUISettings19AccountAddViewModelC
++ _symbolic ______So17ACDataclassActionCt So18ACAccountDataclassa
++ _symbolic ___________y______Qo______AAt 7SwiftUI6SpacerV AA4ViewP8SettingsE16settingsIconSizeyQrAF0egD0V5StyleOFQO AA03AnyD0V AA4TextV
++ _symbolic ___________y__________GAAt 7SwiftUI6SpacerV AA15ModifiedContentV AA7AnyViewV AA31AccessibilityAttachmentModifierV
++ _symbolic ___________y_____y_____y_____GSg______y__________GtGGAAt 7SwiftUI6SpacerV AA6VStackV AA9TupleViewV 014_IconServices_aB005AsyncG5ImageV AA0J0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____y7IndicesSlQyd__5IndexSlQyd___q_tG s15LazyMapSequenceV
++ _symbolic _____yAAyAAy__________y_____SgGGACy_____SgGGACy_____SgGG 7SwiftUI15ModifiedContentV 18AccountsUISettings16AccountTypeSheetV AA30_EnvironmentKeyWritingModifierV AD0E7UIModelC 0G11Suggestions0G17SuggestionManagerC AD0G12AddViewModelC
++ _symbolic _____yAAy__________GABG 7SwiftUI19_ConditionalContentV 18AccountsUISettings20AccountAddViewLegacyV AD0ghI6ModernV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA16_FlexFrameLayoutV AA012_AspectRatioH0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV
++ _symbolic _____yAAy__________G_____G______t 7SwiftUI15ModifiedContentV AA7AnyViewV AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____yS2SG s7KeyPathC
++ _symbolic _____ySSG 7Combine9PublishedV
++ _symbolic _____ySSG_____Iegnr_ 7SwiftUI7BindingV 18AccountsUISettings13ShowAddButtonV
++ _symbolic _____ySSSgG 7Combine9PublishedV
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSo8NSObjectCG s18_DictionaryStorageC
++ _symbolic _____ySS_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_So8NSObjectCtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySaySSGG 7SwiftUI7BindingV
++ _symbolic _____ySay_____GG 7Combine9PublishedV 18AccountSuggestions0C10SuggestionV
++ _symbolic _____ySay_____GG 7Combine9PublishedV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____ySay_____GG 7SwiftUI7BindingV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____ySay_____GSS_____G 7SwiftUI7ForEachV 18AccountSuggestions0E10SuggestionV 18AccountsUISettings0G6ButtonV
++ _symbolic _____ySbGSg 7SwiftUI11AnyLocationC
++ _symbolic _____ySnySiGSi_SStG s15LazyMapSequenceV
++ _symbolic _____ySnySiGSi______tG s15LazyMapSequenceV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____y_____AAy_____AAy_____ACGGG 7SwiftUI19_ConditionalContentV 18AccountsUISettings34AccountTypeIconNameButtonViewSmallV AD0gi3AddkL0V AD08BigImagenkL0V
++ _symbolic _____y_____AAy_____AAy_____ACGGGSg 7SwiftUI19_ConditionalContentV 18AccountsUISettings34AccountTypeIconNameButtonViewSmallV AD0gi3AddkL0V AD08BigImagenkL0V
++ _symbolic _____y_____AAy_____ABGG 7SwiftUI19_ConditionalContentV 18AccountsUISettings24AccountIconAddButtonViewV AD08BigImageijK0V
++ _symbolic _____y_____ABG 7SwiftUI19_ConditionalContentV AA4TextV
++ _symbolic _____y_____ABG s7KeyPathC 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____y_____G 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V
++ _symbolic _____y_____G 7Combine9PublishedV 18AccountsUISettings19AccountAddViewModelC0F4TypeO
++ _symbolic _____y_____G 7SwiftUI17EnvironmentObjectV 18AccountsUISettings19AccountAddViewModelC
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA017ListRowBackgroundC3KeyV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y_____G 7SwiftUI4FormV 18AccountsUISettings18AccountTypeSectionV
++ _symbolic _____y_____G 7SwiftUI6ButtonV 18AccountsUISettings019AccountTypeIconNameC9ViewSmallV
++ _symbolic _____y_____G 7SwiftUI6VStackV 18AccountsUISettings40EmailAddressFieldSectionFooterChooseTextV
++ _symbolic _____y_____G 7SwiftUI7BindingV 23AccountsUISupportShared12EmailAddressV
++ _symbolic _____y_____G 7SwiftUI7BindingV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____y_____G 7SwiftUI9TextFieldV AA9EmptyViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18AccountSuggestions0D10SuggestionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV
++ _symbolic _____y_____GSg 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V
++ _symbolic _____y_____GSg______y__________Gt 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V AD15ModifiedContentV AD4TextV AD31AccessibilityAttachmentModifierV
++ _symbolic _____y_____G_____y_____y_____G_____GIegnr_ 7SwiftUI7BindingV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV AA15ModifiedContentV AA6ButtonV 0D10UISettings019AccountTypeIconNameL9ViewSmallV AA16_FlexFrameLayoutV
++ _symbolic _____y_____SgG 7Combine9PublishedV 18AccountSuggestions0C10SuggestionV
++ _symbolic _____y_____SgG 7Combine9PublishedV 18AccountsUISettings19AccountAddViewModelC
++ _symbolic _____y_____SgG 7Combine9PublishedV 18AccountsUISettings19AccountAddViewModelC22ContinueButtonNextStepO
++ _symbolic _____y______Qo_ 7SwiftUI4ViewP8SettingsE16settingsIconSizeyQrAD0dfC0V5StyleOFQO AA03AnyC0V
++ _symbolic _____y______Qo_Sg 7SwiftUI4ViewP8SettingsE16settingsIconSizeyQrAD0dfC0V5StyleOFQO AA03AnyC0V
++ _symbolic _____y__________ABG 7SwiftUI7SectionV AA9EmptyViewV 18AccountsUISettings07SettingcE0V
++ _symbolic _____y__________ABG 7SwiftUI7SectionV AA9EmptyViewV 18AccountsUISettings15AddAccountTitleV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 18AccountsUISettings23AccountTypeSheetWrapperV AA23_SafeAreaIgnoringLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA18_AspectRatioLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 18AccountsUISettings20AccountAddViewLegacyV AD0ghI6ModernV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 18AccountsUISettings21BigImageAddButtonViewV AD011AccountIconijK0V
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 18AccountsUISettings26ModdernAddViewFormContentsV AD25DisabledSettingsIconLabelV
++ _symbolic _____y_______________G 7SwiftUI7SectionV AA4TextV 18AccountsUISettings07SettingC4ViewV AA05EmptyH0V
++ _symbolic _____y_______________y_____y_____yAEy___________tGG______tGGG 7SwiftUI7SectionV 18AccountsUISettings26EnterYourEmailAddressTitleV AD0hI9TextFieldV AA6VStackV AA9TupleViewV AA6HStackV AD05ErrorK5StackV AA6SpacerV AD0hilC6FooterV
++ _symbolic _____y___________tG 7SwiftUI9TupleViewV AA6SpacerV AA4TextV
++ _symbolic _____y___________y___________yACy_____y_____GSg______y__________GtGGADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA6VStackV 014_IconServices_aB005AsyncK5ImageV AA0N0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y___________y___________y______Qo______ADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA0D0P8SettingsE16settingsIconSizeyQrAN0jlD0V5StyleOFQO AA03AnyD0V AA4TextV
++ _symbolic _____y___________y___________y__________GADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6SpacerV AA15ModifiedContentV AA03AnyD0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y___________y_____yADy__________G_____G______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA03AnyD0V AA012_AspectRatioG0V AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y___________y_____y_____GSg______y__________GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 014_IconServices_aB005AsyncI5ImageV AA0L0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y___________y_____y_____y__________y_____GGAJG______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA6SpacerV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y__________y_____ySnySiGSi______tGAF_____y_____y_____G_____GG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV s15LazyMapSequenceV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV AA15ModifiedContentV AA6ButtonV 0J10UISettings019AccountTypeIconNameR9ViewSmallV AA16_FlexFrameLayoutV AA05EmptyX0V
++ _symbolic _____y__________y_____ySnySiGSi______tGAF_____y_____y_____G_____GG_____GSg 7SwiftUI7SectionV AA4TextV AA7ForEachV s15LazyMapSequenceV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV AA15ModifiedContentV AA6ButtonV 0J10UISettings019AccountTypeIconNameR9ViewSmallV AA16_FlexFrameLayoutV AA05EmptyX0V
++ _symbolic _____y__________y_____y_____G_____G_____G 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6ButtonV 18AccountsUISettings019AccountTypeIconNameG9ViewSmallV AA16_FlexFrameLayoutV AA05EmptyN0V
++ _symbolic _____y__________y_____y_____G_____G_____GSg 7SwiftUI7SectionV AA4TextV AA15ModifiedContentV AA6ButtonV 18AccountsUISettings019AccountTypeIconNameG9ViewSmallV AA16_FlexFrameLayoutV AA05EmptyN0V
++ _symbolic _____y______ySS_GSo9NSRunLoopCG 7Combine10PublishersO8DebounceV AA9PublishedV9PublisherV
++ _symbolic _____y______y______ySS_GSo9NSRunLoopCGG 7Combine10PublishersO16RemoveDuplicatesV AC8DebounceV AA9PublishedV9PublisherV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____yAAy___________tGG______tG 7SwiftUI9TupleViewV AA6HStackV 18AccountsUISettings14ErrorTextStackV AA6SpacerV AF30EmailAddressFieldSectionFooterV
++ _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGGADy_____SgGGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV 18AccountsUISettings14AccountAddViewV AA30_EnvironmentKeyWritingModifierV AF0G7UIModelC 0I11Suggestions0I17SuggestionManagerC AF0ijK5ModelC
++ _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGGADy_____SgGGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV 18AccountsUISettings16AccountTypeSheetV AA30_EnvironmentKeyWritingModifierV AF0G7UIModelC 0I11Suggestions0I17SuggestionManagerC AF0I12AddViewModelC
++ _symbolic _____y_____yABy__________GACGG 7SwiftUI6ZStackV AA19_ConditionalContentV 18AccountsUISettings20AccountAddViewLegacyV AF0hiJ6ModernV
++ _symbolic _____y_____ySnySiGSi_SStGSS_____G 7SwiftUI7ForEachV s15LazyMapSequenceV 18AccountsUISettings13ShowAddButtonV
++ _symbolic _____y_____ySnySiGSi_SStGSS_____G______y_____y_____y_____yAGyAJy___________tGALG_AKtGGGAAySaySSGSSAEGGSgt 7SwiftUI7ForEachV s15LazyMapSequenceV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA0L0V AA6HStackV AA9TupleViewV AA6SpacerV AA4TextV
++ _symbolic _____y_____ySnySiGSi______tGAD_____y_____y_____G_____GG 7SwiftUI7ForEachV s15LazyMapSequenceV 23AccountsUISupportShared22PreliminaryInformationV10SuggestionV AA15ModifiedContentV AA6ButtonV 0H10UISettings019AccountTypeIconNameP9ViewSmallV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____ABy_____ABy_____ADGGGSgG 7SwiftUI6ButtonV AA19_ConditionalContentV 18AccountsUISettings019AccountTypeIconNameC9ViewSmallV AF0hj3AddcL0V AF08BigImagencL0V
++ _symbolic _____y_____y_____ACG_____ySay_____GSS_____G_____G 7SwiftUI7SectionV AA19_ConditionalContentV AA4TextV AA7ForEachV 18AccountSuggestions0I10SuggestionV 18AccountsUISettings0K6ButtonV AA9EmptyViewV
++ _symbolic _____y_____y_____ACG_____ySay_____GSS_____G_____GSg 7SwiftUI7SectionV AA19_ConditionalContentV AA4TextV AA7ForEachV 18AccountSuggestions0I10SuggestionV 18AccountsUISettings0K6ButtonV AA9EmptyViewV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6ButtonV 18AccountsUISettings019AccountTypeIconNameE9ViewSmallV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA9TextFieldV AA9EmptyViewV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____Sg_A2DSgtG_____y______Qo_SgG 7SwiftUI5LabelV AA9TupleViewV AA4TextV AA0E0P8SettingsE16settingsIconSizeyQrAJ0giE0V5StyleOFQO AA03AnyE0V
++ _symbolic _____y_____y__________ABG______y_____ABGQo_ 7SwiftUI4ViewPAAE14sectionActions7contentQrqd__yXE_tAaBRd__lFQO AA7SectionV AA05EmptyC0V 18AccountsUISettings07SettinggC0V AA19_ConditionalContentV AA03AnyC0V
++ _symbolic _____y_____y__________ACG_____y_____GG 7SwiftUI15ModifiedContentV AA7SectionV AA9EmptyViewV 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA017ListRowBackgroundM3KeyV
++ _symbolic _____y_____y__________GG 7SwiftUI4FormV AA19_ConditionalContentV 18AccountsUISettings014ModdernAddViewC8ContentsV AF25DisabledSettingsIconLabelV
++ _symbolic _____y_____y__________G___________tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA03AnyD0V AA18_AspectRatioLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_______________G______y_____ADGQo_ 7SwiftUI4ViewPAAE14sectionActions7contentQrqd__yXE_tAaBRd__lFQO AA7SectionV AA4TextV 18AccountsUISettings07SettinggC0V AA05EmptyC0V AA19_ConditionalContentV AA03AnyC0V
++ _symbolic _____y_____y________________tGG 7SwiftUI6HStackV AA9TupleViewV AA03AnyE0V AA4TextV AA6SpacerV
++ _symbolic _____y_____y___________tGG 7SwiftUI6HStackV AA9TupleViewV 18AccountsUISettings14ErrorTextStackV AA6SpacerV
++ _symbolic _____y_____y___________yABy_____y_____GSg______y__________GtGGACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA6VStackV 014_IconServices_aB005AsyncH5ImageV AA0K0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y___________y______Qo______ACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA0E0P8SettingsE16settingsIconSizeyQrAJ0giE0V5StyleOFQO AA03AnyE0V AA4TextV
++ _symbolic _____y_____y___________y__________GACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA15ModifiedContentV AA03AnyE0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y__________y_____GGAGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y_____y__________y_____GGAGG______t 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA6SpacerV
++ _symbolic _____y_____y__________y_____GGAG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y_____y_____yABy___________tGAEG_ADtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA6SpacerV AA4TextV
++ _symbolic _____y_____y_____yABy___________tGG______tGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV 18AccountsUISettings14ErrorTextStackV AA6SpacerV AH30EmailAddressFieldSectionFooterV
++ _symbolic _____y_____y_____yACy__________GADGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA012_ConditionalD0V 18AccountsUISettings20AccountAddViewLegacyV AH0ijK6ModernV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yACy__________G_____G______tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA03AnyE0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y_____y_____ySnySiGSi_SStGSS_____G______y_____y_____yAAyAHyAAy___________tGALG_AKtGGGABySaySSGSSAFGGSgtG 7SwiftUI9TupleViewV AA7ForEachV s15LazyMapSequenceV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA0N0V AA6HStackV AA6SpacerV AA4TextV
++ _symbolic _____y_____y_____y_____ACy_____ACy_____AEGGGSgG_____G 7SwiftUI15ModifiedContentV AA6ButtonV AA012_ConditionalD0V 18AccountsUISettings019AccountTypeIconNameE9ViewSmallV AH0ik3AddeM0V AH08BigImageoeM0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____GSg______y__________GtGG 7SwiftUI6VStackV AA9TupleViewV 014_IconServices_aB005AsyncF5ImageV AA0I0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____G_____G_Qo_ 7SwiftUI4ViewPAAE12labelsHiddenQryFQO AA15ModifiedContentV AA9TextFieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____Sg_A2ESgtG_____y______Qo_SgG_____yADGSgG 7SwiftUI11LabeledViewV AA5LabelV AA05TupleD0V AA4TextV AA0D0P8SettingsE16settingsIconSizeyQrAL0hjD0V5StyleOFQO AA03AnyD0V AA6ButtonV
++ _symbolic _____y_____y_____y__________ACG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRoweP3KeyV
++ _symbolic _____y_____y_____y__________ACG_____y_____GG_Qo_Sg 7SwiftUI4ViewPAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRoweP3KeyV
++ _symbolic _____y_____y_____y__________ACG_____y_____GG_Qo_Sg___________t 7SwiftUI4ViewPAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRoweP3KeyV AM0n10SuggestionI0V AM0n4TypeI0V
++ _symbolic _____y_____y_____y__________ACG_____y_____GG_Qo__ABy_______________y_____y_____yANy___________tGG______tGGG_____ABy__________y_____ySnySiGSi______tGA1_AAy_____y_____G_____GGACGSg_____t 7SwiftUI4ViewPAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRoweP3KeyV AM021EnterYourEmailAddressO0V AM0xY9TextFieldV AA6VStackV AA05TupleC0V AA6HStackV AM05ErrorZ5StackV AA6SpacerV AM0xy5FieldI6FooterV AM08ExistingnI0V AA0Z0V AA7ForEachV s15LazyMapSequenceV 0K15UISupportShared22PreliminaryInformationV10SuggestionV AA6ButtonV AM0n18TypeIconNameButtonC5SmallV AA16_FlexFrameLayoutV AM0n10SuggestionI0V
++ _symbolic _____y_____y_____y__________GG_____G 7SwiftUI15ModifiedContentV AA4FormV AA012_ConditionalD0V 18AccountsUISettings014ModdernAddViewE8ContentsV AH25DisabledSettingsIconLabelV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y__________G___________tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA03AnyE0V AA18_AspectRatioLayoutV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_______________G_AAy_____AEGQo______yAByAedEG_AHQo_G 7SwiftUI19_ConditionalContentV AA4ViewPAAE14sectionActions7contentQrqd__yXE_tAaDRd__lFQO AA7SectionV AA4TextV 18AccountsUISettings07SettingiE0V AA05EmptyE0V AA03AnyE0V AeAEAfGQrqd__yXE_tAaDRd__lFQO
++ _symbolic _____y_____y_____y_______________G______y_____AEGQo______yAByAedEG_AIQo__G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE14sectionActions7contentQrqd__yXE_tAaFRd__lFQO AA7SectionV AA4TextV 18AccountsUISettings07SettingjF0V AA05EmptyF0V AC AA03AnyF0V AgAEAhIQrqd__yXE_tAaFRd__lFQO
++ _symbolic _____y_____y_____y________________tGG_____G 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA03AnyG0V AA4TextV AA6SpacerV 18AccountsUISettings020AccountIconAddButtonG0V
++ _symbolic _____y_____y_____y___________tGGG 7SwiftUI6VStackV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y___________tGGGSg 7SwiftUI6VStackV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y__________y_____GG___________tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____yAAyADy___________tGAFG_AEtGGG_____ySaySSGSS_____GG 7SwiftUI19_ConditionalContentV AA6ButtonV AA6HStackV AA9TupleViewV AA6SpacerV AA4TextV AA7ForEachV 18AccountsUISettings07ShowAddE0V
++ _symbolic _____y_____y_____y_____yAAyADy___________tGAFG_AEtGGG_____ySaySSGSS_____GGSg 7SwiftUI19_ConditionalContentV AA6ButtonV AA6HStackV AA9TupleViewV AA6SpacerV AA4TextV AA7ForEachV 18AccountsUISettings07ShowAddE0V
++ _symbolic _____y_____y_____y_____yACy__________GADGG_____G_SS_____y_____y_____G_ANtGACyA2MGQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6ZStackV AA012_ConditionalK0V 18AccountsUISettings010AccountAddC6LegacyV AQ0pqC6ModernV AA25_AppearanceActionModifierV AA05TupleC0V AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____yACy___________tGAFG_AEtGGG 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA19_ConditionalContentV AA6SpacerV AA4TextV
++ _symbolic _____y_____y_____y_____yADy__________G_____G______tGGAByACyAJ_ADyAeHGAJtGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA03AnyG0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y_____y_____y_____yADy__________G_____G______tGGAByACyAJ_ADyAeHGAJtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV AA08ModifiedD0V AA03AnyH0V AA18_AspectRatioLayoutV AA31AccessibilityAttachmentModifierV AA6SpacerV
++ _symbolic _____y_____y_____y_____y_____ACy_____ACy_____AEGGGSgG_____G_SS_____yABy_____G_APtGACyA2OGQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6ButtonV AA012_ConditionalK0V 18AccountsUISettings019AccountTypeIconNamelC5SmallV AQ0pr3AddlC0V AQ08BigImageulC0V AA16_FlexFrameLayoutV AA05TupleC0V AA4TextV
++ _symbolic _____y_____y_____y_____y_____G_____G_Qo__Qo_ 7SwiftUI4ViewPAAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA9TextFieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____Sg_A2ESgtG_____y______Qo_SgG_____yADGSgG______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA07LabeledC0V AA5LabelV AA05TupleC0V AA4TextV AC8SettingsE16settingsIconSizeyQrAT0oqC0V5StyleOFQO AA03AnyC0V AA6ButtonV 18AccountsUISettings19DetailsSheetContentV
++ _symbolic _____y_____y_____y_____y__________ADG_____y_____GG_Qo_Sg___________tG 7SwiftUI9TupleViewV AA0D0PAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyD0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRowfQ3KeyV AO0o10SuggestionJ0V AO0o4TypeJ0V
++ _symbolic _____y_____y_____y_____y__________ADG_____y_____GG_Qo__ACy_______________yAAy_____yAAy___________tGG______tGGG_____ACy__________y_____ySnySiGSi______tGA1_ABy_____y_____G_____GGADGSg_____tG 7SwiftUI9TupleViewV AA0D0PAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyD0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRowfQ3KeyV AO021EnterYourEmailAddressP0V AO0yZ9TextFieldV AA6VStackV AA6HStackV AO14ErrorTextStackV AA6SpacerV AO0yz5FieldJ6FooterV AO08ExistingoJ0V AA4TextV AA7ForEachV s15LazyMapSequenceV 0L15UISupportShared22PreliminaryInformationV10SuggestionV AA6ButtonV AO0o18TypeIconNameButtonD5SmallV AA16_FlexFrameLayoutV AO0o10SuggestionJ0V
++ _symbolic _____y_____y_____y_____y__________GG_____G_AAy__________GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA4FormV AA012_ConditionalL0V 18AccountsUISettings010ModdernAddcM8ContentsV AR25DisabledSettingsIconLabelV AA25_AppearanceActionModifierV AR23AccountTypeSheetWrapperV AA23_SafeAreaIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y__________G___________tGGAByACyAI______yAE_Qo_AhItGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA03AnyG0V AA18_AspectRatioLayoutV AA4TextV AA6SpacerV AA0G0P8SettingsE16settingsIconSizeyQrAT0oqG0V5StyleOFQO
++ _symbolic _____y_____y_____y_____y__________G___________tGGAByACyAI______yAE_Qo_AhItGG_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV AA08ModifiedD0V AA03AnyH0V AA18_AspectRatioLayoutV AA4TextV AA6SpacerV AA0H0P8SettingsE16settingsIconSizeyQrAV0prH0V5StyleOFQO
++ _symbolic _____y_____y_____y_____y___________tGGGSgADy_____y_____ySnySiGSi_SStGSS_____G______y_____yACyADyAQyADyAF_AEtGAEG_AFtGGGAKySaySSGSSAOGGSgtG_____G 7SwiftUI7SectionV AA6VStackV AA6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA7ForEachV s15LazyMapSequenceV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA0S0V AA05EmptyG0V
++ _symbolic _____y_____y_____y_____y__________y_____GGAIG______tGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA6SpacerV
++ _symbolic _____y_____y_____y_____y__________y_____GG___________tGGAMG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____y__________y_____GG___________tGGAMGSg 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA08ModifiedD0V AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA4TextV AA6SpacerV
++ _symbolic _____y_____y_____y_____y_____yADy___________tGAGG_AFtGGG_____ySaySSGSS_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA6ButtonV AA6HStackV AA9TupleViewV AC AA6SpacerV AA4TextV AA7ForEachV 18AccountsUISettings07ShowAddF0V
++ _symbolic _____y_____y_____y_____y_____y_____G_____G_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE12keyboardTypeyQrSo010UIKeyboardE0VFQO AcAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA9TextFieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____y_____Sg_A2FSgtG_____y______Qo_SgG_____yAEGSgG______Qo_AEG 7SwiftUI19_ConditionalContentV AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AA07LabeledE0V AA5LabelV AA05TupleE0V AA4TextV AE8SettingsE16settingsIconSizeyQrAV0qsE0V5StyleOFQO AA03AnyE0V AA6ButtonV 18AccountsUISettings012DetailsSheetD0V
++ _symbolic _____y_____y_____y_____y_____y_____Sg_A2FSgtG_____y______Qo_SgG_____yAEGSgG______Qo_AE_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQO AA07LabeledF0V AA5LabelV AA05TupleF0V AA4TextV AG8SettingsE16settingsIconSizeyQrAX0rtF0V5StyleOFQO AA03AnyF0V AA6ButtonV 18AccountsUISettings012DetailsSheetD0V
++ _symbolic _____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG 7SwiftUI4FormV AA9TupleViewV AA0E0PAAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyE0V 18AccountsUISettings15AddAccountTitleV AA21_TraitWritingModifierV AA07ListRowgR3KeyV AQ0p10SuggestionK0V AQ0p4TypeK0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____G_____G_Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE27textInputAutocapitalizationyQrAA04TexteF0VSgFQO AcAE12keyboardTypeyQrSo010UIKeyboardI0VFQO AcAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA0G5FieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA15ModifiedContentV AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountE0V AA21_TraitWritingModifierV AA07ListRowiS3KeyV AR0r10SuggestionM0V AR0r4TypeM0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____G_____G_Qo__Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE11submitLabelyQrAA06SubmitE0VFQO AcAE27textInputAutocapitalizationyQrAA04TexthI0VSgFQO AcAE12keyboardTypeyQrSo010UIKeyboardL0VFQO AcAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA0J5FieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y__________AEG_____y_____GG_Qo_Sg___________tGG_SSQo_______y______yyt_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AcAE17sectionBackgroundyQrAA10VisibilityOFQO AA08ModifiedG0V AA7SectionV AA05EmptyC0V 18AccountsUISettings010AddAccountI0V AA21_TraitWritingModifierV AA07ListRowmV3KeyV AU0u10SuggestionP0V AU0u4TypeP0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F4ItemV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____y_____G_____G_Qo__Qo__Qo__Qo__Qo__Qo_ 7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQO AcAE11submitLabelyQrAA0eI0VFQO AcAE27textInputAutocapitalizationyQrAA04TextkL0VSgFQO AcAE12keyboardTypeyQrSo010UIKeyboardO0VFQO AcAE21disableAutocorrectionyQrSbSgFQO AcAE12labelsHiddenQryFQO AA15ModifiedContentV AA0M5FieldV AA05EmptyC0V AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic q0_
++ _symbolic q_
++ _symbolic qd__
++ _symbolic yt
++ _symbolic ytIeAgHr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yycSg
++ _type_layout_string 18AccountsUISettings15AddAccountTitleV
++ _type_layout_string 18AccountsUISettings16AccountTypeSheetV
++ _type_layout_string 18AccountsUISettings18AccountTypeSectionV
++ _type_layout_string 18AccountsUISettings20AccountAddViewModernV
++ _type_layout_string 18AccountsUISettings21EmailAddressTextFieldV
++ _type_layout_string 18AccountsUISettings24AccountSuggestionSectionV
++ _type_layout_string 18AccountsUISettings34AccountTypeIconNameButtonViewSmallV
+- _CFPreferencesAppValueIsForced
+- _CFPreferencesGetAppBooleanValue
+- __PROTOCOLS__TtC18AccountsUISettings15AccountsUIModel.58
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AccountsUISettings
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AccountsUISettings
+- _associated conformance 18AccountsUISettings14AccountAddViewV0D4TypeOSHAASQ
+- _block_copy_helper.163
+- _block_copy_helper.169
+- _block_copy_helper.172
+- _block_copy_helper.178
+- _block_descriptor.165
+- _block_descriptor.171
+- _block_descriptor.174
+- _block_descriptor.180
+- _block_destroy_helper.164
+- _block_destroy_helper.170
+- _block_destroy_helper.173
+- _block_destroy_helper.179
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA5ImageV8SettingsE16settingsIconSizeyQrAJ0ikG0V5StyleOFQOy_Qo__AA4TextVtGGAA16_FlexFrameLayoutVGAA0G0HPAtaXHPyHC_AvA0G8ModifierHPyHCHC.65
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4ViewPAAE8onSubmit2of_QrAA0H8TriggersV_yyctFQOyAgAE0G6ChangeAI7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAgAE7focusedyQrAA10FocusStateV7BindingVySb_GFQOyAA11SecureFieldVyAA4TextVG_Qo__SbQo__Qo_AA32_EnvironmentKeyTransformModifierVySbGGAA023AccessibilityAttachmentW0VGAEyAEyAEyAgAEAhI_QrAK_yyctFQOyAgAEAliM_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAgAEANyQrASFQOyAA0sR0VyAWG_Qo__SbQo__Qo_AA017_AppearanceActionW0VGA2_GA5_GGAaFHPA6_AaFHPA3_AaFHPqd__AaFHD2_A_HO_A2_AA0fW0HPyHCHC_A5_AAA19_HPyHCHC_A17_AaFHPA16_AaFHPA15_AaFHPqd__AaFHD2_A12_HO_A14_AAA19_HPyHCHC_A2_AAA19_HPyHCHC_A5_AAA19_HPyHCHCHC.155
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA7AnyViewVAA16_FlexFrameLayoutVGAA010_FixedSizeJ0VGAA4TextVGAA0G0HPAmaQHPAjaQHPAgaQHPyHC_AiA0G8ModifierHPyHCHC_AlaRHPyHCHC_AoaQHPyHCHC.95
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyAA07LabeledE0VyAA5LabelVyAA05TupleE0VyAA4TextVSg_A2VSgtGACy8Settings0q4IconE0VAA5ImageVAYE08settingsR4SizeyQrA_5StyleOFQOy_Qo_GSgGAA6ButtonVyAUGSgG_18AccountsUISettings012DetailsSheetD0VQo_AUGAaDHPqd0__AaDHD3_A17_HO_AuaDHPyHCHC.29
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA7SectionVyAA4TextV18AccountsUISettings07SettingE4ViewVACyAA03AnyJ0VAA05EmptyJ0VGGAEyAnjOGGAA0J0HPApaSHPAgaSHPyHC_AjaSHPyHCAoaSHPAlaSHPyHC_AnaSHPyHCHCHC_AqaSHPAnaSHPyHC_AjaSHPyHCAoaSHPAlaSHPyHC_AnaSHPyHCHCHCHC.93
+- _get_witness_table 7SwiftUI4FormVyAA0C13FooterContentVyAA9TupleViewVy18AccountsUISettings25DisabledSettingsIconLabelVSg_AA7ForEachVySayAH23AccountUISettingSectionCGSSAH07Settingr7WrapperG0VGtGAH0pdG0VGGAA0G0HPyHC.114
+- _get_witness_table 7SwiftUI6HStackVyAA5ImageVGAA4ViewHPyHC.66
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVy18AccountsUISettings012DeleteButtonE0V_AA6SpacerVtGGSgAA0E0HpAlaNHPyHC_HC.94
+- _get_witness_table 7SwiftUI7ForEachVySay18AccountsUISettings16AccountUISettingVGSSAA19_ConditionalContentVyAIyAIyAD13DetailsHeaderVAD14DataclassTableVGAIyAD06CustommN0VAIyAD16DelayedTextFieldVAA11LabeledViewVyAA0Q0VAVGGGGAIyAIyArA0T0PAAE4helpyQrqd__SyRd__lFQOyAA08ModifiedJ0VyAA0qR0VyAVGAA32_EnvironmentKeyTransformModifierVySbGG_SSQo_GAIyA0_AAEA1_yQrqd__SyRd__lFQOyA3_yAA6ToggleVyAVGA9_G_SSQo_AA03AnyT0VGGGGAAA_HPA22_AAA_HPAzAA_HPAnAA_HPAkAA_HPyHC_AmAA_HPyHCHC_AyAA_HPApAA_HPyHC_AxAA_HPArAA_HPyHC_AwAA_HPyHCHCHCHC_A21_AAA_HPA12_AAA_HPArAA_HPyHC_qd0__AAA_HD3_A11_HOHC_A20_AAA_HPqd0__AAA_HD3_A17_HO_A19_AAA_HPyHCHCHCHC_HC.113
+- _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA15ModifiedContentVyAGyAGyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA19SymbolRenderingModeVSgGGAA016_ForegroundStyleL0VyAA017HierarchicalShapeQ0VGGAKyAA4FontVSgGGAEGAA0E0HPAeAA1_HPyHC_A_AAA1_HPAvAA1_HPApAA1_HPAiAA1_HPyHC_AoA0eL0HPyHCHC_AuAA2_HPyHCHC_AzAA2_HPyHCHCAeAA1_HPyHCHC.96
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE15navigationTitleyQrqd__SyRd__lFQOyAA4FormVyAA05TupleC0VyAA7SectionVyAA4TextVAA7ForEachVySay18AccountSuggestions0P10SuggestionVGAtcAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOy18AccountsUISettings13ShowAddButtonV_AA6ButtonVyAOGQo_GAA05EmptyC0VGSg_AMyA5_AKyAQySaySSGSSAZG_AA012_ConditionalG0VyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyA0_yAA08ModifiedG0VyAA6HStackVyAKyAA6SpacerV_AOA19_tGGAA16_FlexFrameLayoutVGG_AA21BorderlessButtonStyleVQo_A9_GtGA5_GtGG_SSQo__AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQOy_AA0F4ItemVyytA1_GQo_Qo_HO.8
+- _get_witness_table qd0__7SwiftUI4ViewHD5_AaBPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQOyAA0M0VyAA19_ConditionalContentVyAPy18AccountsUISettings014AccountIconAddmC0VAPyAA08ModifiedO0VyAsA16_FlexFrameLayoutVGAQ08BigImagetmC0VGGAA05EmptyC0VGG_AA010BorderlessmK0VQo__SSAA05TupleC0VyANyAA4TextVG_A12_tGA11_Qo_HO.64
+- _objectdestroy.116Tm
+- _objectdestroy.122Tm
+- _objectdestroy.23Tm
+- _swift_bridgeObjectRelease_n
+- _symbolic SDy_____SaySSGG 18AccountsUISettings14AccountAddViewV0D4TypeO
+- _symbolic _____ 18AccountsUISettings14AccountAddViewV0D4TypeO
+- _symbolic ______SaySSGt 18AccountsUISettings14AccountAddViewV0D4TypeO
+- _symbolic _____yAAy_____AAy_____yAB_____G_____GG_____G 7SwiftUI19_ConditionalContentV 18AccountsUISettings24AccountIconAddButtonViewV AA08ModifiedD0V AA16_FlexFrameLayoutV AD08BigImageijK0V AA05EmptyK0V
+- _symbolic _____ySaySSGSS_____G______y_____y_____y_____y_____y_____y___________AJtGG_____GG______Qo_ADGt 7SwiftUI7ForEachV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA09PrimitiveiN0Rd__lFQO AA0I0V AA08ModifiedK0V AA6HStackV AA05TupleL0V AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlessiN0V
+- _symbolic _____ySay_____GAB_____y___________y_____GQo_G 7SwiftUI7ForEachV 18AccountSuggestions0E10SuggestionV AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaGRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0Q0V AA4TextV
+- _symbolic _____y_Qo_______t 7SwiftUI5ImageV8SettingsE16settingsIconSizeyQrAD0dF4ViewV5StyleOFQO AA4TextV
+- _symbolic _____y_____AAy_____yAB_____G_____GG 7SwiftUI19_ConditionalContentV 18AccountsUISettings24AccountIconAddButtonViewV AA08ModifiedD0V AA16_FlexFrameLayoutV AD08BigImageijK0V
+- _symbolic _____y_____G 7SwiftUI6HStackV AA5ImageV
+- _symbolic _____y_____SaySSGG s18_DictionaryStorageC 18AccountsUISettings14AccountAddViewV0F4TypeO
+- _symbolic _____y______SaySSGtG s23_ContiguousArrayStorageC 18AccountsUISettings14AccountAddViewV0G4TypeO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 18AccountsUISettings24AccountIconAddButtonViewV AA16_FlexFrameLayoutV
+- _symbolic _____y_______________y_____ABGG 7SwiftUI7SectionV AA9EmptyViewV 18AccountsUISettings07SettingcE0V AA19_ConditionalContentV AA03AnyE0V
+- _symbolic _____y_______________y__________GG 7SwiftUI7SectionV AA4TextV 18AccountsUISettings07SettingC4ViewV AA19_ConditionalContentV AA03AnyH0V AA05EmptyH0V
+- _symbolic _____y___________y_____y_Qo_______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA5ImageV8SettingsE16settingsIconSizeyQrAL0jlD0V5StyleOFQO AA4TextV
+- _symbolic _____y__________ySay_____GAD_____y___________yABGQo_G_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0G10SuggestionV AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaKRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0S0V AA05EmptyJ0V
+- _symbolic _____y__________ySay_____GAD_____y___________yABGQo_G_____GSg 7SwiftUI7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0G10SuggestionV AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaKRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0S0V AA05EmptyJ0V
+- _symbolic _____y__________ySay_____GAD_____y___________yABGQo_G_____GSg_AAyAK_____yACySaySSGSSAFG______y_____yAGy_____y_____yANy______AbTtGG_____GG______Qo_APGtGAKGt 7SwiftUI7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0G10SuggestionV AA4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaKRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0S0V AA05EmptyJ0V AA05TupleJ0V AA19_ConditionalContentV AlAE11buttonStyleyQrqd__AA09PrimitivesY0Rd__lFQO AA08ModifiedW0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA010BorderlesssY0V
+- _symbolic _____y__________y_Qo_G 7SwiftUI19_ConditionalContentV 8Settings0E8IconViewV AA5ImageVADE08settingsF4SizeyQrAF5StyleOFQO
+- _symbolic _____y__________y_Qo_GSg 7SwiftUI19_ConditionalContentV 8Settings0E8IconViewV AA5ImageVADE08settingsF4SizeyQrAF5StyleOFQO
+- _symbolic _____y__________y_Qo__G 7SwiftUI19_ConditionalContentV7StorageO 8Settings0F8IconViewV AA5ImageVAFE08settingsG4SizeyQrAH5StyleOFQO
+- _symbolic _____y__________y_____ySaySSGSS_____G______y_____y_____y_____y_____yACy___________ALtGG_____GG______Qo_AGGtGABG 7SwiftUI7SectionV AA9EmptyViewV AA05TupleE0V AA7ForEachV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA0E0PAAE11buttonStyleyQrqd__AA09PrimitivemQ0Rd__lFQO AA0M0V AA08ModifiedO0V AA6HStackV AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlessmQ0V
+- _symbolic _____y_____yABy_____ABy_____yAC_____G_____GG_____GG 7SwiftUI6ButtonV AA19_ConditionalContentV 18AccountsUISettings014AccountIconAddC4ViewV AA08ModifiedE0V AA16_FlexFrameLayoutV AF08BigImagejcK0V AA05EmptyK0V
+- _symbolic _____y_____ySaySSGSS_____G______y_____y_____y_____y_____yAAy___________AJtGG_____GG______Qo_AEGtG 7SwiftUI9TupleViewV AA7ForEachV 18AccountsUISettings13ShowAddButtonV AA19_ConditionalContentV AA0D0PAAE11buttonStyleyQrqd__AA09PrimitivekO0Rd__lFQO AA0K0V AA08ModifiedM0V AA6HStackV AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlesskO0V
+- _symbolic _____y_____y_____Sg_A2DSgtG_____y__________y_Qo_GSgG 7SwiftUI5LabelV AA9TupleViewV AA4TextV AA19_ConditionalContentV 8Settings0i4IconE0V AA5ImageVAJE08settingsJ4SizeyQrAL5StyleOFQO
+- _symbolic _____y_____y__________AAy__________GGAByAfdGGG 7SwiftUI19_ConditionalContentV AA7SectionV AA4TextV 18AccountsUISettings07SettingE4ViewV AA03AnyJ0V AA05EmptyJ0V
+- _symbolic _____y_____y__________G_____G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V 18AccountsUISettings24AccountIconAddButtonViewV AA16_FlexFrameLayoutV AF08BigImagejkL0V
+- _symbolic _____y_____y___________ACtGG 7SwiftUI6HStackV AA9TupleViewV AA6SpacerV AA4TextV
+- _symbolic _____y_____y_______________y__________GGAByAgdHG_G 7SwiftUI19_ConditionalContentV7StorageO AA7SectionV AA4TextV 18AccountsUISettings07SettingF4ViewV AC AA03AnyK0V AA05EmptyK0V
+- _symbolic _____y_____y__________ySay_____GAE_____y___________yACGQo_G_____GSg_AByAlAyADySaySSGSSAGG______y_____yAHy_____y_____yAAy______AcTtGG_____GG______Qo_APGtGALGtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0I10SuggestionV AA0D0PAAE11contextMenu9menuItemsQrqd__yXE_tAaMRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0T0V AA05EmptyD0V AA19_ConditionalContentV AnAE11buttonStyleyQrqd__AA09PrimitivetY0Rd__lFQO AA08ModifiedW0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA010BorderlesstY0V
+- _symbolic _____y_____y_____yABy_____ABy_____yAC_____G_____GG_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA19_ConditionalContentV 18AccountsUISettings014AccountIconAddgC0V AA08ModifiedI0V AA16_FlexFrameLayoutV AJ08BigImagengC0V AA05EmptyC0V AA010BorderlessgE0V
+- _symbolic _____y_____y_____y_Qo_______tGG 7SwiftUI6HStackV AA9TupleViewV AA5ImageV8SettingsE16settingsIconSizeyQrAH0giE0V5StyleOFQO AA4TextV
+- _symbolic _____y_____y_____y_____Sg_A2ESgtG_____y__________y_Qo_GSgG_____yADGSgG 7SwiftUI11LabeledViewV AA5LabelV AA05TupleD0V AA4TextV AA19_ConditionalContentV 8Settings0j4IconD0V AA5ImageVALE08settingsK4SizeyQrAN5StyleOFQO AA6ButtonV
+- _symbolic _____y_____y_____y___________ADtGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA6SpacerV AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y__________ySay_____GAF_____y___________yADGQo_G_____GSg_ACyAmByAEySaySSGSSAHG______y_____yAIy_____y_____yABy______AdUtGG_____GG______Qo_AQGtGAMGtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0J10SuggestionV AA0E0PAAE11contextMenu9menuItemsQrqd__yXE_tAaORd__lFQO 18AccountsUISettings13ShowAddButtonV AA0U0V AA05EmptyE0V AA19_ConditionalContentV ApAE11buttonStyleyQrqd__AA09PrimitiveuZ0Rd__lFQO AA08ModifiedX0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA010BorderlessuZ0V
+- _symbolic _____y_____y_____y_____yABy_____ABy_____yAC_____G_____GG_____GG______Qo__SS_____yAAy_____G_AQtGAPQo_ 7SwiftUI4ViewPAAE5alert_11isPresented7actions7messageQrqd___AA7BindingVySbGqd_0_yXEqd_1_yXEtSyRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonK0Rd__lFQO AA0M0V AA19_ConditionalContentV 18AccountsUISettings014AccountIconAddmC0V AA08ModifiedO0V AA16_FlexFrameLayoutV AQ08BigImagetmC0V AA05EmptyC0V AA010BorderlessmK0V AA05TupleC0V AA4TextV
+- _symbolic _____y_____y_____y_____y_Qo_______tGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA5ImageV8SettingsE16settingsIconSizeyQrAJ0ikG0V5StyleOFQO AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y_____G_Qo__SbQo__Qo_ 7SwiftUI4ViewPAAE8onSubmit2of_QrAA0E8TriggersV_yyctFQO AcAE0D6ChangeAE7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7focusedyQrAA10FocusStateV7BindingVySb_GFQO AA9TextFieldV AA0N0V
+- _symbolic _____y_____y_____y_____y_____Sg_A2ESgtG_____y__________y_Qo_GSgG_____yADGSgG______Qo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA07LabeledC0V AA5LabelV AA05TupleC0V AA4TextV AA19_ConditionalContentV 8Settings0q4IconC0V AA5ImageVAVE08settingsR4SizeyQrAX5StyleOFQO AA6ButtonV 18AccountsUISettings012DetailsSheetP0V
+- _symbolic _____y_____y_____y_____y___________AEtGG_____GG 7SwiftUI6ButtonV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA6SpacerV AA4TextV AA16_FlexFrameLayoutV
+- _symbolic _____y_____y_____y_____y__________ySay_____GAF_____y___________yADGQo_G_____GSg_ACyAmByAEySaySSGSSAHG______y_____yAIy_____y_____yABy______AdUtGG_____GG______Qo_AQGtGAMGtGG_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0L10SuggestionV AcAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO 18AccountsUISettings13ShowAddButtonV AA0W0V AA05EmptyC0V AA19_ConditionalContentV AcAE11buttonStyleyQrqd__AA09PrimitiveW5StyleRd__lFQO AA08ModifiedZ0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA010BorderlessW5StyleV
+- _symbolic _____y_____y_____y_____y_____y_____Sg_A2FSgtGAAy__________y_Qo_GSgG_____yAEGSgG______Qo_AEG 7SwiftUI19_ConditionalContentV AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AA07LabeledE0V AA5LabelV AA05TupleE0V AA4TextV 8Settings0q4IconE0V AA5ImageVAVE08settingsR4SizeyQrAX5StyleOFQO AA6ButtonV 18AccountsUISettings012DetailsSheetD0V
+- _symbolic _____y_____y_____y_____y_____y_____Sg_A2FSgtG_____y__________y_Qo_GSgG_____yAEGSgG______Qo_AE_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaFRd__lFQO AA07LabeledF0V AA5LabelV AA05TupleF0V AA4TextV AC 8Settings0r4IconF0V AA5ImageVAXE08settingsS4SizeyQrAZ5StyleOFQO AA6ButtonV 18AccountsUISettings012DetailsSheetD0V
+- _symbolic _____y_____y_____y_____y_____y___________AEtGG_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlessgE0V
+- _symbolic _____y_____y_____y_____y_____y__________ySay_____GAF_____y___________yADGQo_G_____GSg_ACyAmByAEySaySSGSSAHG______y_____yAIy_____y_____yABy______AdUtGG_____GG______Qo_AQGtGAMGtGG_SSQo_______y______yytAJGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE15navigationTitleyQrqd__SyRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV AA7ForEachV 18AccountSuggestions0P10SuggestionV AcAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO 18AccountsUISettings13ShowAddButtonV AA6ButtonV AA05EmptyC0V AA012_ConditionalG0V AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA08ModifiedG0V AA6HStackV AA6SpacerV AA16_FlexFrameLayoutV AA21BorderlessButtonStyleV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F4ItemV
+- _symbolic _____y_____y_____y_____y_____y_____y___________AFtGG_____GG______Qo______ySaySSGSS_____GG 7SwiftUI19_ConditionalContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA08ModifiedD0V AA6HStackV AA05TupleE0V AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlessiG0V AA7ForEachV 18AccountsUISettings07ShowAddI0V
+- _symbolic _____y_____y_____y_____y_____y_____y___________AFtGG_____GG______Qo______ySaySSGSS_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA08ModifiedD0V AA6HStackV AA05TupleF0V AA6SpacerV AA4TextV AA16_FlexFrameLayoutV AA010BorderlessjH0V AA7ForEachV 18AccountsUISettings07ShowAddJ0V
+- _type_layout_string 18AccountsUISettings24AccountIconAddButtonViewV
+CStrings:
++ ""
++ "%s (%d) \"ACUISAddAccountHelper: Begining account creation controller with %{public}@\""
++ "%s (%d) \"ACUISAddAccountHelper: PSSetupController based sign in flow for account type %@\""
++ "%s (%d) \"ACUISAddAccountHelper: Primary iCloud sign in flow begin\""
++ "%s (%d) \"ACUISAddAccountHelper: dataclass onfig controller called\""
++ "%s (%d) \"ACUISAddAccountHelper: presentationControllerDidDismiss\""
++ "%s (%d) \"ACUISAddAccountHelper: setup view controller did dismiss\""
++ "%s (%d) \"ACUISAddAccountHelper: showAlternateSetupControllerForAccount %@\""
++ "%s (%d) \"ACUISAddAccountHelper: signInControllerDidCancel\""
++ "%s (%d) \"ACUISAddAccountHelper: signInControllerDidCompleteWithSuccess: %{public}@ error: %@\""
++ "%s (%d) \"Account Creation Controller completed with action: %{public}ld\""
++ "+[ACUISAddAccountHelper dataclassConfigurationControllerForAccount:name:completion:]"
++ "+[ACUISAddAccountHelper showAlternateSetupControllerForAccount:username:from:completion:]"
++ "-[ACUISAddAccountHelper presentationControllerDidDismiss:]"
++ "-[ACUISAddAccountHelper setupViewControllerDidDismiss:]"
++ "-[ACUISAddAccountHelper showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:]"
++ "-[ACUISAddAccountHelper showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:]_block_invoke"
++ "-[ACUISAddAccountHelper signInControllerDidCancel]"
++ "-[ACUISAddAccountHelper signInControllerDidCompleteWithSuccess:error:]"
++ "?internetAccountsApplicationTarget="
++ "@\"ACUIAccountViewProvidersManager\""
++ "@\"NSObject<ACUIAccountCreationControlling>\""
++ "@\"PSSetupController\""
++ "@\"PSViewController\""
++ "@\"UIViewController\"32@0:8@\"UIPresentationController\"16q24"
++ "@24@0:8@16"
++ "@32@0:8@16@24"
++ "@32@0:8@16q24"
++ "@40@0:8@16@24@?32"
++ "@?"
++ "A security delay is required before you can add an Exchange account because Stolen Device Protection is active and iPhone is not at a familiar location."
++ "ACCOUNTS_ON_OTHER_DEVICES_TITLE"
++ "ACUIAccountCreationControlling"
++ "ACUIAccountSetupDidFinish"
++ "ACUIAddAccountViewController"
++ "ACUIAddMailAccountViewController"
++ "ACUISAddAccountControllerSwap"
++ "ACUISAddAccountControllerSwap presenting account from host app: %s, force mail: %s"
++ "ACUISAddAccountHelper"
++ "ACUISaysNotToSaveThis"
++ "ACUISettingsController"
++ "ACUISetupViewControllerDelegate"
++ "AccountAddAnalyticsSender: fall back to manual"
++ "AccountAddAnalyticsSender: not sending canceled analytics due to having previously sent succceeded from this sender"
++ "AccountAddAnalyticsSender: not sending canceled analytics due to short time span"
++ "AccountAddAnalyticsSender: sending canceled analytics"
++ "AccountAddAnalyticsSender: sending success analytics"
++ "AccountAddAnalyticsSender: showed add flow for type %s"
++ "AccountAddAnalyticsSender: user toggled other account type visible"
++ "AccountAddViewLegacy cancel button pressed"
++ "AccountAddViewModel.continueButtonPressed(:) begin"
++ "AccountAddViewModel.continueButtonPressed(:) end"
++ "AccountAddViewModel.nextStepForContinueButton() found empty username string, returning nil"
++ "AccountAddViewModel.nextStepForContinueButton() returning .loginSuggestion for override"
++ "AccountAddViewModel.nextStepForContinueButton() returning .loginSuggestion for resolver found type"
++ "AccountAddViewModel.nextStepForContinueButton() returning .none because we don't know what else to do, probably an error is showing"
++ "AccountAddViewModel.nextStepForContinueButton() returning .showExisting"
++ "AccountAddViewModel.nextStepForContinueButton() returning .showOtherSheet because we don't know what type"
++ "AccountAddViewModel.openExistingAccountPressed(:) Preferences app flow (fragile)"
++ "AccountAddViewModel.openExistingAccountPressed(:) begin"
++ "AccountAddViewModel.openExistingAccountPressed(:) end"
++ "AccountAddViewModel.openExistingAccountPressed(:) found settings controller, yay"
++ "AccountAddViewModel.openExistingAccountPressed(:) has no identifier"
++ "AccountAddViewModel.openExistingAccountPressed(:) url based flow for iOS Mail"
++ "AccountAddViewModel.ratchet(for:completion:) Presenting ratchet for account type %s"
++ "AccountAddViewModel.ratchet(for:completion:) error from ratchet: %s"
++ "AccountAddViewModel.ratchet(for:completion:) no need to present ratchet, moving on"
++ "AccountAddViewModel.ratchet(for:completion:) ratchet failure"
++ "AccountAddViewModel.ratchet(for:completion:) ratchet success"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) begin"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) dataclass config finished"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state alternate creation"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state alternate creation end"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state dataclass canceled"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state dataclass config"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state done"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) end state none"
++ "AccountAddViewModel.setupSheetCompletion(:accountTypeIdentifier:account:action:action:accountInfo) unable to make dataclass config view for some reason!"
++ "AccountAddViewModel.showAddSheet(for:suggestion:) is missing a psListControllerHost"
++ "AccountAddViewModel.showAddSheet(for:suggestion:host:) begin for type %s"
++ "AccountAddViewModel.showAddSheet(for:suggestion:host:) calling ratchet"
++ "AccountAddViewModel.showAddSheet(for:suggestion:host:) calling setupSheetCompletion"
++ "AccountAddViewModel.showAddSheet(for:suggestion:host:) end"
++ "AccountAddViewModel.showAddSheet(for:suggestion:host:) ratchet success %s"
++ "AccountAddViewModel.validateEmailAddress(:) begin"
++ "AccountAddViewModel.validateEmailAddress(:) custom OAuth: unimplemented"
++ "AccountAddViewModel.validateEmailAddress(:) end"
++ "AccountAddViewModel.validateEmailAddress(:) error running resolve"
++ "AccountAddViewModel.validateEmailAddress(:) found %ld suggestions"
++ "AccountAddViewModel.validateEmailAddress(:) invalid"
++ "AccountAddViewModel.validateEmailAddress(:) known type: %s"
++ "AccountAddViewModel.validateEmailAddress(:) oauth type %s"
++ "AccountAddViewModel.validateEmailAddress(:) unknown default"
++ "AccountAddViewModel.validateEmailAddress(:) unknown default from resolver"
++ "AccountAddViewModel.validateEmailAddress(:) unknown type from resolver"
++ "AccountAddViewModel.validateEmailAddress(:) valid but suspicious"
++ "AccountAddViewModel.validateEmailAddress(:) validated empty"
++ "AccountAddViewModel.validateEmailAddress(:) validated good, running resolve"
++ "AccountTypeSection show other account types tapped"
++ "AccountTypeSheetPSRoot cancel button pressed"
++ "Accounts on your other devices"
++ "AccountsUI"
++ "AccountsUISettings.AccountAddViewModel"
++ "AccountsUISettings.AccountTypeSheetPSRoot"
++ "An unknown error occurred trying to determine account type"
++ "Authentication is required before you can add an Exchange account."
++ "B24@0:8@\"UIPresentationController\"16"
++ "Begin Security Delay to Add an Exchange Account?"
++ "CHOOSE_YOUR_EMAIL_PROVIDER"
++ "CONFIG_RESOLVER_NETWORK_ISSUE"
++ "Caught error %s trying to check health of config resolve service"
++ "Choose your provider"
++ "ConfigResolver suggestion tapped"
++ "DID_YOU_MEAN_TITLE"
++ "ENTER_YOUR_EMAIL_ADDRESS"
++ "EXAMPLE_EMAIL_ADDRESS"
++ "EXCHANGE_DTO_LOCALIZED_CALLOUT"
++ "EXCHANGE_DTO_LOCALIZED_REASON"
++ "EXCHANGE_DTO_RATCHET_COUNTDOWN_TEXT"
++ "EXCHANGE_DTO_RATCHET_TEXT"
++ "EXCHANGE_DTO_RATCHET_TITLE"
++ "EXISTING_ACCOUNT_HEADER"
++ "Enter your email address"
++ "Existing account"
++ "ForceAllAccountTypes"
++ "LocalAuthentication"
++ "ModernAddFlow"
++ "NEXT_BUTTON_TEXT"
++ "NO"
++ "RegionalDisplayName"
++ "RegionalMailAccountTypes"
++ "SIGN_IN_OR_CHOOSE"
++ "SIGN_IN_OR_CHOOSE_MAIL"
++ "ShowAddButton addButtonPressed"
++ "ShowAddButton continue with add flow"
++ "Sign in to your account provider\nor [choose from a list.](showAccountTypeList://)"
++ "Sign in to your mail account provider\nor [choose from a list.](showAccountTypeList://)"
++ "Something seems wrong with the entered address"
++ "There was an issue communicating with the server."
++ "UIAdaptivePresentationControllerDelegate"
++ "UNKNOWN_ERROR_EMAIL_ADDRESS"
++ "URLForResource:withExtension:"
++ "Unable to determine account type, or suggestion for ShOowAddButton"
++ "VALID_BUT_SUSPICIOUS_EMAIL"
++ "YES"
++ "You can add an Exchange account in Settings."
++ "You will be notified when the security delay has ended and you can add an Exchange account."
++ "_TtC18AccountsUISettings19AccountAddViewModel"
++ "_TtC18AccountsUISettings22AccountTypeSheetPSRoot"
++ "_TtC18AccountsUISettings25AccountAddAnalyticsSender"
++ "_accountCreationController"
++ "_accountTypeToAdd"
++ "_accountTypesToDisplay"
++ "_addButtonEnabled"
++ "_addByAccountTypeSheetPresented"
++ "_addModel"
++ "_addPluginInProgress"
++ "_addType"
++ "_addedAccount"
++ "_completion"
++ "_continueButtonGoogleAlertShown"
++ "_existingAccountForUsername"
++ "_filteredAccountsOnOtherDevices"
++ "_formattedErrorText"
++ "_hostAppBundleID"
++ "_iOS_continueButtonPressed"
++ "_networkIssue"
++ "_nextStep"
++ "_overrideSuggestion"
++ "_preliminarySuggestions"
++ "_resolverEnabled"
++ "_setupController"
++ "_setupViewController"
++ "_usernameString"
++ "_validatedUsername"
++ "aListAccountTypes"
++ "accountTypeWithAccountTypeIdentifier:"
++ "activateConstraints:"
++ "adaptivePresentationStyleForPresentationController:"
++ "adaptivePresentationStyleForPresentationController:traitCollection:"
++ "addAccountHelper"
++ "addChildViewController:"
++ "addModel"
++ "addSubview:"
++ "added"
++ "analyticsModel"
++ "armWithOptions:completion:"
++ "beginAccountCreationWithSpecifier:fromViewController:completion:"
++ "bottomAnchor"
++ "bundleForClass:"
++ "bundleIdentifier"
++ "cancelButtonPressed"
++ "cancelThis"
++ "childViewControllers"
++ "chinaAccountTypes"
++ "com.apple.MobileAddressBook"
++ "com.apple.account.Exchange.add"
++ "com.apple.account.unknown"
++ "com.apple.application-icon.icloud"
++ "com.apple.mail.account_setup_outcomes"
++ "com.apple.mobilecal"
++ "com.apple.mobilemail"
++ "configResolver"
++ "configurationInfoForCreatingAccountWithType:"
++ "constraintEqualToAnchor:"
++ "continueButton"
++ "controllerClassForCreatingAccountWithType:"
++ "currentDevice"
++ "dataclassConfigurationControllerForAccount:name:completion:"
++ "dataclassConfigurationControllerForAccount:name:specifier:completion:"
++ "defaultCenter"
++ "defaultStore"
++ "defaultWorkspace"
++ "detailControllerClass"
++ "dictionary"
++ "dismissViewControllerAnimated:completion:"
++ "displayAccount"
++ "effectiveBoolValueForSetting:"
++ "emailAddressTextField"
++ "googleLoginRedirectAlert cancel button pressed"
++ "googleLoginRedirectAlert continue button pressed"
++ "googlePlatformShow"
++ "handleURL:withCompletion:"
++ "imageDescriptorNamed:"
++ "init(nibName:bundle:)"
++ "initWithBarButtonSystemItem:target:action:"
++ "initWithBool:"
++ "initWithBundleIdentifier:"
++ "initWithCoder:"
++ "initWithContentsOfURL:error:"
++ "initWithIdentifier:"
++ "initWithNibName:bundle:"
++ "initWithRootViewController:"
++ "initWithTitle:style:target:action:"
++ "initWithType:"
++ "isEqualToString:"
++ "isFeatureAvailable"
++ "isFeatureEnabled"
++ "isFeatureSupported"
++ "lastAddMechanism"
++ "lastManualMethod"
++ "lastPresentedAddType"
++ "lastProviderLaunched"
++ "lastSetUpMechanismTried"
++ "leadingAnchor"
++ "mainBundle"
++ "mainRunLoop"
++ "modernAddFlowWrappedForViewController:"
++ "mutableCopy"
++ "navigationController"
++ "navigationItem"
++ "numberOfTypesShown"
++ "numberWithBool:"
++ "openSensitiveURL:withOptions:"
++ "otherAccountTypes"
++ "persistentDomainForName:"
++ "popViewControllerAnimated:"
++ "postNotificationName:object:"
++ "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
++ "prefs:root=ACCOUNTS_AND_PASSWORDS&path=ADD_ACCOUNT"
++ "presentViewController:animated:completion:"
++ "presentationController"
++ "presentationController:prepareAdaptivePresentationController:"
++ "presentationController:viewControllerForAdaptivePresentationStyle:"
++ "presentationController:willPresentWithAdaptiveStyle:transitionCoordinator:"
++ "presentationControllerDidAttemptToDismiss:"
++ "presentationControllerDidDismiss:"
++ "presentationControllerShouldDismiss:"
++ "presentationControllerWillDismiss:"
++ "primary"
++ "propertyForKey:"
++ "psListControllerHost"
++ "pushViewController:animated:"
++ "q24@0:8@\"UIPresentationController\"16"
++ "q24@0:8@16"
++ "q32@0:8@\"UIPresentationController\"16@\"UITraitCollection\"24"
++ "q32@0:8@16@24"
++ "removeFromSuperview"
++ "resolveTask"
++ "setDelegate:"
++ "setDelegate:forSignInController:forAccountWithType:"
++ "setEnabled:"
++ "setModalPresentationStyle:"
++ "setModalTransitionStyle:"
++ "setObject:forKeyedSubscript:"
++ "setParentController:"
++ "setProperty:forKey:"
++ "setRightBarButtonItem:"
++ "setSpecifier:"
++ "setTitle:"
++ "setTranslatesAutoresizingMaskIntoConstraints:"
++ "setUpAccountType"
++ "setUserInfo:"
++ "setUsername:"
++ "settings-navigation://com.apple.Settings.AppleAccount"
++ "settings-navigation://com.apple.Settings.InternetAccounts/"
++ "setupController"
++ "setupViewControllerDidDismiss:"
++ "sharedConnection"
++ "sharedInstance"
++ "showAddSheetForAccountType:onController:withAccount:configDictionary:forceMail:completion:"
++ "showAlternateCreationControllerForAccountType:username:fromViewController:specifier:completion:"
++ "showAlternateSetupControllerForAccount:username:from:completion:"
++ "signInControllerDidCancel"
++ "signInControllerDidCompleteWithSuccess:error:"
++ "size"
++ "specifier"
++ "specifiers"
++ "standardUserDefaults"
++ "startDate"
++ "succeeded"
++ "table"
++ "topAnchor"
++ "topViewController"
++ "totalProvidersLaunched"
++ "trailingAnchor"
++ "user@example.com"
++ "userInterfaceIdiom"
++ "v12@?0B8"
++ "v24@0:8@\"ACUISetupViewController\"16"
++ "v24@0:8@\"UIPresentationController\"16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v28@0:8B16@20"
++ "v32@0:8@\"UIPresentationController\"16@\"UIPresentationController\"24"
++ "v32@0:8@16@24"
++ "v32@?0@\"ACAccount\"8q16@\"NSDictionary\"24"
++ "v40@0:8@\"PSSpecifier\"16@\"PSViewController\"24@?<v@?@\"ACAccount\"q@\"NSDictionary\">32"
++ "v40@0:8@\"UIPresentationController\"16q24@\"<UIViewControllerTransitionCoordinator>\"32"
++ "v40@0:8@16@24@?32"
++ "v40@0:8@16q24@32"
++ "v48@0:8@16@24@32@?40"
++ "v60@0:8@16@24@32@40B48@?52"
++ "valueForKey:"
++ "view"
++ "viewControllerClassForCreatingAccountWithType:"
++ "viewDidLoad"
++ "viewProviderManager"
++ "viewWillAppear:"
++ "visibleTopLevelAccountsWithAccountTypeIdentifiers:completion:"
++ "willMoveToParentViewController:"
+- "allowAccountModification"
+- "com.apple.accounts.mail-account"
+- "com.apple.applicationaccess"
+
+```

@@ -1,0 +1,8320 @@
+## ExtensionFoundation
+
+> `/System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation`
+
+```diff
+
+-212.5.0.0.0
+-  __TEXT.__text: 0x8ba80
+-  __TEXT.__auth_stubs: 0x2110
+-  __TEXT.__objc_methlist: 0x47b0
+-  __TEXT.__const: 0x1a74
+-  __TEXT.__gcc_except_tab: 0x824
+-  __TEXT.__cstring: 0x6dec
+-  __TEXT.__oslogstring: 0x61c4
+-  __TEXT.__dlopen_cstrs: 0x10b
+-  __TEXT.__constg_swiftt: 0x1820
+-  __TEXT.__swift5_typeref: 0x1166
+-  __TEXT.__swift5_reflstr: 0xc42
+-  __TEXT.__swift5_fieldmd: 0xc88
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__swift5_proto: 0xe0
+-  __TEXT.__swift5_types: 0xec
+-  __TEXT.__swift5_capture: 0x5f8
+-  __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift_as_entry: 0x20
+-  __TEXT.__swift_as_ret: 0x20
+-  __TEXT.__unwind_info: 0x2280
+-  __TEXT.__eh_frame: 0x1218
+-  __TEXT.__objc_classname: 0x887
+-  __TEXT.__objc_methname: 0x99b3
+-  __TEXT.__objc_methtype: 0x11fa
+-  __TEXT.__objc_stubs: 0x5ae0
+-  __DATA_CONST.__got: 0x708
+-  __DATA_CONST.__const: 0xfd0
+-  __DATA_CONST.__objc_classlist: 0x288
++246.1.0.0.0
++  __TEXT.__text: 0xdb2bc
++  __TEXT.__auth_stubs: 0x27f0
++  __TEXT.__delay_helper: 0xc8
++  __TEXT.__objc_methlist: 0x4c1c
++  __TEXT.__const: 0x3b70
++  __TEXT.__cstring: 0x88d1
++  __TEXT.__gcc_except_tab: 0x7e4
++  __TEXT.__oslogstring: 0x643f
++  __TEXT.__dlopen_cstrs: 0x66
++  __TEXT.__constg_swiftt: 0x271c
++  __TEXT.__swift5_typeref: 0x2006
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift5_reflstr: 0x1951
++  __TEXT.__swift5_fieldmd: 0x19ac
++  __TEXT.__swift5_assocty: 0x320
++  __TEXT.__swift5_proto: 0x278
++  __TEXT.__swift5_types: 0x1c4
++  __TEXT.__swift_as_entry: 0x8c
++  __TEXT.__swift5_capture: 0x9e8
++  __TEXT.__swift5_protos: 0x48
++  __TEXT.__swift_as_ret: 0x80
++  __TEXT.__unwind_info: 0x33a0
++  __TEXT.__eh_frame: 0x3320
++  __TEXT.__objc_classname: 0x88a
++  __TEXT.__objc_methname: 0x9d70
++  __TEXT.__objc_methtype: 0x1379
++  __TEXT.__objc_stubs: 0x52e0
++  __DATA_CONST.__got: 0x7d0
++  __DATA_CONST.__const: 0xfb8
++  __DATA_CONST.__objc_classlist: 0x2f0
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0x1b0
++  __DATA_CONST.__objc_protolist: 0x218
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2458
+-  __DATA_CONST.__objc_protorefs: 0x100
+-  __DATA_CONST.__objc_superrefs: 0x150
+-  __DATA_CONST.__objc_arraydata: 0x348
+-  __AUTH_CONST.__auth_got: 0x1098
+-  __AUTH_CONST.__const: 0x2678
+-  __AUTH_CONST.__cfstring: 0x2ce0
+-  __AUTH_CONST.__objc_const: 0x10578
+-  __AUTH_CONST.__objc_dictobj: 0x320
+-  __AUTH_CONST.__objc_intobj: 0xa8
++  __DATA_CONST.__objc_selrefs: 0x25f8
++  __DATA_CONST.__objc_protorefs: 0x150
++  __DATA_CONST.__objc_superrefs: 0x138
++  __DATA_CONST.__objc_arraydata: 0x1d8
++  __AUTH_CONST.__auth_got: 0x1408
++  __AUTH_CONST.__const: 0x4648
++  __AUTH_CONST.__cfstring: 0x2260
++  __AUTH_CONST.__objc_const: 0x12678
+   __AUTH_CONST.__objc_arrayobj: 0xa8
+-  __AUTH.__objc_data: 0x1660
+-  __AUTH.__data: 0x890
+-  __DATA.__objc_ivar: 0x314
+-  __DATA.__data: 0x1a18
+-  __DATA.__crash_info: 0x40
+-  __DATA.__bss: 0x1a60
+-  __DATA.__common: 0x508
+-  __DATA_DIRTY.__objc_data: 0x1930
+-  __DATA_DIRTY.__data: 0x568
+-  __DATA_DIRTY.__bss: 0x290
++  __AUTH_CONST.__objc_intobj: 0x90
++  __AUTH_CONST.__objc_dictobj: 0x50
++  __AUTH.__objc_data: 0x2478
++  __AUTH.__data: 0x12a8
++  __DATA.__objc_ivar: 0x2dc
++  __DATA.__data: 0x235c
++  __DATA.__crash_info: 0x148
++  __DATA.__bss: 0x45a0
++  __DATA.__common: 0x570
++  __DATA_DIRTY.__objc_data: 0x1688
++  __DATA_DIRTY.__data: 0x760
++  __DATA_DIRTY.__bss: 0x368
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/PrivateFrameworks/AppServerSupport.framework/AppServerSupport
+   - /System/Library/PrivateFrameworks/AppleMobileFileIntegrity.framework/AppleMobileFileIntegrity
+   - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: C7396624-315C-328A-A5C2-47CFE6E3F88E
+-  Functions: 3382
+-  Symbols:   6926
+-  CStrings:  3514
++  UUID: 8BD077AF-E11F-322B-9DBB-144F8282B338
++  Functions: 5023
++  Symbols:   16265
++  CStrings:  3660
+ 
+Symbols:
++ +[EXConcreteExtension(Filtering) _evaluateActivationRule:withExtensionItemsRepresentation:error:]
++ +[EXExtensionPointEnumerator enumeratorIncludingPlaceHolders]
++ +[NSExtension(ExtensionKitAdditions) evaluateActivationRule:withExtensionItemsRepresentation:error:]
++ +[NSExtension(ExtensionKitAdditions) evaluateActivationRule:withExtensionItemsRepresentation:error:].cold.1
++ +[_EXUtil _PKServiceStartWithArguments:count:]
++ +[_EXUtil _checkIn]
++ +[_EXUtil _checkIn].cold.1
++ +[_EXUtil _getEntryPointFunction]
++ +[_EXUtil _getEntryPointFunction].cold.1
++ +[_EXUtil bootstrap]
++ +[_EXUtil createRunningExtensionWithClassName:error:]
++ +[_EXUtil ditionaryFromPropertyList:]
++ +[_EXUtil xpcObjectFromDictionary:]
++ -[EXConcreteExtension _identity]
++ -[EXConcreteExtension _initWithPKPlugin:identity:]
++ -[EXConcreteExtension requestBlockLock]
++ -[EXEnumeratorConfig includePlaceholders]
++ -[EXEnumeratorConfig setIncludePlaceholders:]
++ -[NSExtension(ExtensionKitAdditions) beginRequest:completion:]
++ -[NSExtension(ExtensionKitAdditions) beginRequest:error:]
++ -[_EXExtension identity]
++ -[_EXExtension makeSceneWithConfiguration:]
++ -[_EXExtension setIdentity:]
++ -[_EXExtensionContext .cxx_destruct]
++ -[_EXExtensionContext inputItems]
++ -[_EXExtensionContext principalObject]
++ -[_EXExtensionContext setInputItems:]
++ -[_EXExtensionContext setPrincipalObject:]
++ -[_EXNSExtensionShim .cxx_destruct]
++ -[_EXNSExtensionShim _beginExtensionRequest:completion:]
++ -[_EXNSExtensionShim _beginExtensionRequest:error:]
++ -[_EXNSExtensionShim _implementation]
++ -[_EXNSExtensionShim _init]
++ -[_EXNSExtensionShim attributes]
++ -[_EXNSExtensionShim beginExtensionRequest:completion:]
++ -[_EXNSExtensionShim beginExtensionRequest:error:]
++ -[_EXNSExtensionShim beginExtensionRequestWithInputItems:completion:]
++ -[_EXNSExtensionShim beginExtensionRequestWithInputItems:error:]
++ -[_EXNSExtensionShim beginExtensionRequestWithInputItems:listenerEndpoint:completion:]
++ -[_EXNSExtensionShim beginExtensionRequestWithInputItems:listenerEndpoint:error:]
++ -[_EXNSExtensionShim beginExtensionRequestWithOptions:inputItems:completion:]
++ -[_EXNSExtensionShim beginExtensionRequestWithOptions:inputItems:error:]
++ -[_EXNSExtensionShim beginExtensionRequestWithOptions:inputItems:listenerEndpoint:completion:]
++ -[_EXNSExtensionShim beginExtensionRequestWithOptions:inputItems:listenerEndpoint:error:]
++ -[_EXNSExtensionShim beginRequest:completion:]
++ -[_EXNSExtensionShim beginRequest:error:]
++ -[_EXNSExtensionShim cancelExtensionRequestWithIdentifier:]
++ -[_EXNSExtensionShim extensionPointIdentifier]
++ -[_EXNSExtensionShim identifier]
++ -[_EXNSExtensionShim identity]
++ -[_EXNSExtensionShim implementation]
++ -[_EXNSExtensionShim initWithIdentity:]
++ -[_EXNSExtensionShim initWithIdentity:implementation:]
++ -[_EXNSExtensionShim optedIn]
++ -[_EXNSExtensionShim requestBlockLock]
++ -[_EXNSExtensionShim requestCancellationBlock]
++ -[_EXNSExtensionShim requestCompletionBlock]
++ -[_EXNSExtensionShim requestInterruptionBlock]
++ -[_EXNSExtensionShim setRequestCancellationBlock:]
++ -[_EXNSExtensionShim setRequestCompletionBlock:]
++ -[_EXNSExtensionShim setRequestInterruptionBlock:]
++ -[_EXNSExtensionShim set_implementation:]
++ -[_EXNSExtensionShim version]
++ -[_EXNSExtensionShimExtension principalObject]
++ -[_EXNSExtensionShimExtension setPrincipalObject:]
++ GCC_except_table120
++ GCC_except_table129
++ GCC_except_table207
++ GCC_except_table209
++ GCC_except_table211
++ GCC_except_table44
++ GCC_except_table47
++ GCC_except_table63
++ GCC_except_table65
++ GCC_except_table78
++ GCC_except_table82
++ GCC_except_table86
++ GCC_except_table92
++ GCC_except_table94
++ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
++ _$s10Foundation11JSONDecoderCACycfc
++ _$s10Foundation11JSONDecoderCMa
++ _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ
++ _$s10Foundation11JSONEncoderC16OutputFormattingVMa
++ _$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj
++ _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
++ _$s10Foundation11JSONEncoderCACycfc
++ _$s10Foundation11JSONEncoderCMa
++ _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_AA0B0VTf1ncn_nTf4nng_n
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
++ _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
++ _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _$s10Foundation13__DataStorageC6lengthACSi_tcfc
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s10Foundation13__DataStorageCMa
++ _$s10Foundation15ContiguousBytesMp
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s10Foundation15ContiguousBytes_pMD
++ _$s10Foundation15ContiguousBytes_pSgMD
++ _$s10Foundation15ContiguousBytes_pWOb
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
++ _$s10Foundation25NSFastEnumerationIteratorV4nextypSgyF
++ _$s10Foundation25NSFastEnumerationIteratorVMa
++ _$s10Foundation3URLV08absoluteB0ACvg
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLV4path14percentEncodedSSSb_tF
++ _$s10Foundation3URLV4pathSSvg
++ _$s10Foundation3URLVACs21_ObjectiveCBridgeableAAWL
++ _$s10Foundation3URLVMa
++ _$s10Foundation3URLVMn
++ _$s10Foundation3URLVSgMD
++ _$s10Foundation3URLVSgML
++ _$s10Foundation3URLVSgMa
++ _$s10Foundation3URLVSgWOb
++ _$s10Foundation3URLVSgWOc
++ _$s10Foundation3URLVs21_ObjectiveCBridgeableAAMc
++ _$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n
++ _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
++ _$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n
++ _$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n
++ _$s10Foundation4DataV13base64Encoded7optionsACSgSSh_So27NSDataBase64DecodingOptionsVtcfC
++ _$s10Foundation4DataV14RangeReferenceCMa
++ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
++ _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
++ _$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
++ _$s10Foundation4DataV15_RepresentationON
++ _$s10Foundation4DataV15_RepresentationOSgWOe
++ _$s10Foundation4DataV15_RepresentationOWOe
++ _$s10Foundation4DataV15_RepresentationOWOy
++ _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV19base64EncodedString7optionsSSSo27NSDataBase64EncodingOptionsV_tF
++ _$s10Foundation4DataV26_forceBridgeFromObjectiveC_6resultySo6NSDataC_ACSgztFZ
++ _$s10Foundation4DataV2eeoiySbAC_ACtFZSbSWXEfU_
++ _$s10Foundation4DataV2eeoiySbAC_ACtFZTf4nnd_n
++ _$s10Foundation4DataV34_conditionallyBridgeFromObjectiveC_6resultSbSo6NSDataC_ACSgztFZ
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataV4hash4intoys6HasherVz_tF
++ _$s10Foundation4DataV9hashValueSivg
++ _$s10Foundation4DataVACSHAAWL
++ _$s10Foundation4DataVACSHAAWl
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVN
++ _$s10Foundation4DataVSHAAMc
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tt0g5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSRyAEGXEfU0_
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_
++ _$s10Foundation4UUIDV09ExtensionA0E04nullB033_15A70CFBAC6D8F7592B747DCE46320A0LLACvpZ
++ _$s10Foundation4UUIDV09ExtensionA0E04nullB033_15A70CFBAC6D8F7592B747DCE46320A0LL_WZ
++ _$s10Foundation4UUIDV09ExtensionA0E04nullB033_15A70CFBAC6D8F7592B747DCE46320A0LL_Wz
++ _$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC
++ _$s10Foundation4UUIDV10uuidStringSSvg
++ _$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF
++ _$s10Foundation4UUIDV2eeoiySbAC_ACtFZ
++ _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ
++ _$s10Foundation4UUIDV4hash4intoys6HasherVz_tF
++ _$s10Foundation4UUIDV9hashValueSivg
++ _$s10Foundation4UUIDVACSEAAWL
++ _$s10Foundation4UUIDVACSHAAWL
++ _$s10Foundation4UUIDVACSHAAWl
++ _$s10Foundation4UUIDVACSHAAWlTm
++ _$s10Foundation4UUIDVACSQAAWL
++ _$s10Foundation4UUIDVACSeAAWL
++ _$s10Foundation4UUIDVACs21_ObjectiveCBridgeableAAWL
++ _$s10Foundation4UUIDVACs21_ObjectiveCBridgeableAAWl
++ _$s10Foundation4UUIDVACs23CustomStringConvertibleAAWL
++ _$s10Foundation4UUIDVACs23CustomStringConvertibleAAWl
++ _$s10Foundation4UUIDVACycfC
++ _$s10Foundation4UUIDVMa
++ _$s10Foundation4UUIDVMn
++ _$s10Foundation4UUIDVSEAAMc
++ _$s10Foundation4UUIDVSHAAMc
++ _$s10Foundation4UUIDVSQAAMc
++ _$s10Foundation4UUIDVSeAAMc
++ _$s10Foundation4UUIDVSgMD
++ _$s10Foundation4UUIDVSgML
++ _$s10Foundation4UUIDVSgWOb
++ _$s10Foundation4UUIDVSgWObTm
++ _$s10Foundation4UUIDVSgWOc
++ _$s10Foundation4UUIDVSgWOcTm
++ _$s10Foundation4UUIDVSgWOdTm
++ _$s10Foundation4UUIDVSgWOf
++ _$s10Foundation4UUIDVSgWOh
++ _$s10Foundation4UUIDVSgWOhTm
++ _$s10Foundation4UUIDVSg_ADtMD
++ _$s10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionA0E14ImplementationC7RequestVtMD
++ _$s10Foundation4UUIDVs21_ObjectiveCBridgeableAAMc
++ _$s10Foundation4UUIDVs23CustomStringConvertibleAAMc
++ _$s10ObjectiveC8ObjCBoolVIeyBy_SbIegy_TRTA
++ _$s10ObjectiveC8ObjCBoolVMn
++ _$s11Observation0A9RegistrarV12withMutation2of7keyPath_q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
++ _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
++ _$s11Observation0A9RegistrarVACycfC
++ _$s11Observation0A9RegistrarVMa
++ _$s11Observation0A9RegistrarVMn
++ _$s11Observation10ObservableMp
++ _$s13AsyncIteratorSciTl
++ _$s13Configuration19ExtensionFoundation03AppB0PTl
++ _$s15_ObjectiveCTypes01_A11CBridgeablePTl
++ _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
++ _$s19ArrayLiteralElements013ExpressibleByaB0PTl
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvM
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvM.resume.0
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvMTj
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvMTq
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvg
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvgTj
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvgTq
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvpACTk
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvpMV
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvs
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvsTj
++ _$s19ExtensionFoundation010_EXRunningA0C03appA0So12_EXExtensionCvsTq
++ _$s19ExtensionFoundation010_EXRunningA0C04_appA033_55032D791D588793590683F0073779CBLLSo12_EXExtensionCSgvpWvd
++ _$s19ExtensionFoundation010_EXRunningA0C12shouldAcceptySbSo15NSXPCConnectionCF
++ _$s19ExtensionFoundation010_EXRunningA0C12shouldAcceptySbSo15NSXPCConnectionCFTj
++ _$s19ExtensionFoundation010_EXRunningA0C12shouldAcceptySbSo15NSXPCConnectionCFTo
++ _$s19ExtensionFoundation010_EXRunningA0C12shouldAcceptySbSo15NSXPCConnectionCFTq
++ _$s19ExtensionFoundation010_EXRunningA0C14hostAuditTokenSo13audit_token_tavg
++ _$s19ExtensionFoundation010_EXRunningA0C14hostAuditTokenSo13audit_token_tavgTj
++ _$s19ExtensionFoundation010_EXRunningA0C14hostAuditTokenSo13audit_token_tavgTq
++ _$s19ExtensionFoundation010_EXRunningA0C14hostAuditTokenSo13audit_token_tavpMV
++ _$s19ExtensionFoundation010_EXRunningA0C14sharedInstanceACXDyFZ
++ _$s19ExtensionFoundation010_EXRunningA0C14sharedInstanceACXDyFZTj
++ _$s19ExtensionFoundation010_EXRunningA0C14sharedInstanceACXDyFZTm
++ _$s19ExtensionFoundation010_EXRunningA0C14sharedInstanceACXDyFZTq
++ _$s19ExtensionFoundation010_EXRunningA0C15_hostAuditToken33_55032D791D588793590683F0073779CBLLSo13audit_token_taSgvpWvd
++ _$s19ExtensionFoundation010_EXRunningA0C15sessionListener33_55032D791D588793590683F0073779CBLL3XPC11XPCListenerCSgvpWvd
++ _$s19ExtensionFoundation010_EXRunningA0C17extensionIdentitySo012_EXExtensionE0CvgTq
++ _$s19ExtensionFoundation010_EXRunningA0C18_extensionIdentity33_55032D791D588793590683F0073779CBLLAA03AppaE0VSgvpWvd
++ _$s19ExtensionFoundation010_EXRunningA0C18didFinishLaunchingyyF
++ _$s19ExtensionFoundation010_EXRunningA0C18didFinishLaunchingyyFTj
++ _$s19ExtensionFoundation010_EXRunningA0C18didFinishLaunchingyyFTq
++ _$s19ExtensionFoundation010_EXRunningA0C18entryPointFunctions5Int32VAF_SpySPys4Int8VGGSgtXCSgyFZ
++ _$s19ExtensionFoundation010_EXRunningA0C18entryPointFunctions5Int32VAF_SpySPys4Int8VGGSgtXCSgyFZTj
++ _$s19ExtensionFoundation010_EXRunningA0C18entryPointFunctions5Int32VAF_SpySPys4Int8VGGSgtXCSgyFZTq
++ _$s19ExtensionFoundation010_EXRunningA0C19willFinishLaunchingyyF
++ _$s19ExtensionFoundation010_EXRunningA0C19willFinishLaunchingyyFTj
++ _$s19ExtensionFoundation010_EXRunningA0C19willFinishLaunchingyyFTm
++ _$s19ExtensionFoundation010_EXRunningA0C19willFinishLaunchingyyFTq
++ _$s19ExtensionFoundation010_EXRunningA0C28bsConnectionListenerDelegate33_55032D791D588793590683F0073779CBLLAA0fG0Cvg
++ _$s19ExtensionFoundation010_EXRunningA0C46$__lazy_storage_$_bsConnectionListenerDelegate33_55032D791D588793590683F0073779CBLLAA0hI0CSgvpWvd
++ _$s19ExtensionFoundation010_EXRunningA0C5start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtF
++ _$s19ExtensionFoundation010_EXRunningA0C5start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtFTj
++ _$s19ExtensionFoundation010_EXRunningA0C5start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtFTq
++ _$s19ExtensionFoundation010_EXRunningA0C6_start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtF
++ _$s19ExtensionFoundation010_EXRunningA0C6_start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtFTj
++ _$s19ExtensionFoundation010_EXRunningA0C6_start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtFTq
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyF
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyF3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIYbcfU_TA
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyFTj
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyFTq
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyFySo38BSServiceConnectionListenerConfiguring_pXEfU0_
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyFySo38BSServiceConnectionListenerConfiguring_pXEfU0_TA
++ _$s19ExtensionFoundation010_EXRunningA0C6resumeyyFyyYbScMYccfU1_TA
++ _$s19ExtensionFoundation010_EXRunningA0C6sharedACXDvgZ
++ _$s19ExtensionFoundation010_EXRunningA0C6sharedACXDvgZTj
++ _$s19ExtensionFoundation010_EXRunningA0C6sharedACXDvgZTq
++ _$s19ExtensionFoundation010_EXRunningA0C6sharedACXDvpZMV
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLLACvpZ
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLLACvpZfiACyXEfU_
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLLACvpZfiACyXEfU_yyScMYcXEfU_
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLLACvpZfiACyXEfU_yyScMYcXEfU_TA
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLL_WZ
++ _$s19ExtensionFoundation010_EXRunningA0C7_shared33_55032D791D588793590683F0073779CBLL_Wz
++ _$s19ExtensionFoundation010_EXRunningA0C7checkInyyF
++ _$s19ExtensionFoundation010_EXRunningA0C7checkInyyFTj
++ _$s19ExtensionFoundation010_EXRunningA0C7checkInyyFTq
++ _$s19ExtensionFoundation010_EXRunningA0C8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTq
++ _$s19ExtensionFoundation010_EXRunningA0CACycfC
++ _$s19ExtensionFoundation010_EXRunningA0CACycfc
++ _$s19ExtensionFoundation010_EXRunningA0CACycfcTo
++ _$s19ExtensionFoundation010_EXRunningA0CMF
++ _$s19ExtensionFoundation010_EXRunningA0CMa
++ _$s19ExtensionFoundation010_EXRunningA0CMf
++ _$s19ExtensionFoundation010_EXRunningA0CMn
++ _$s19ExtensionFoundation010_EXRunningA0CMo
++ _$s19ExtensionFoundation010_EXRunningA0CMu
++ _$s19ExtensionFoundation010_EXRunningA0CN
++ _$s19ExtensionFoundation010_EXRunningA0CfD
++ _$s19ExtensionFoundation010_EXRunningA0CfDTm
++ _$s19ExtensionFoundation010_EXRunningA0CfETo
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C15launchArgumentsAA06LaunchG0VSgvMTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C15launchArgumentsAA06LaunchG0VSgvgTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C15launchArgumentsAA06LaunchG0VSgvpWvd
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C15launchArgumentsAA06LaunchG0VSgvsTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C15sessionListener33_98F577081D552A06BA8EA7691B7C3CABLL3XPC11XPCListenerCSgvpWvd
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C23libXPCConnectionHandlerySo13OS_xpc_object_pcSgvpZ
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C24sessionConnectionHandler3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIcSgvMTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C24sessionConnectionHandler3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIcSgvgTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C24sessionConnectionHandler3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIcSgvpWvd
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C24sessionConnectionHandler3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIcSgvsTq
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C36$__lazy_storage_$__extensionIdentity33_98F577081D552A06BA8EA7691B7C3CABLLAA03AppaI0VSgvpWvd
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6_start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtF
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6_start13withArguments5counts5Int32VSpySPys4Int8VGGSg_AHtFTo
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyF
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyF3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIYbcfU_TA
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyFTo
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyFySo13OS_xpc_object_pcfU1_To
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyFyyYbScMYccfU0_TA
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyFyyYbScMYccfU2_TA
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0C6resumeyyFyyYbScMYccfU2_TATm
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CACycfcTo
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CMF
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CMa
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CMf
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CMn
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CN
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CfD
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CfE
++ _$s19ExtensionFoundation023_EXRunningLibXPCServiceA0CfETo
++ _$s19ExtensionFoundation03AppA0Mp
++ _$s19ExtensionFoundation03AppA0P13ConfigurationAC_AA0caD0Tn
++ _$s19ExtensionFoundation03AppA0P13configuration13ConfigurationQzvgTj
++ _$s19ExtensionFoundation03AppA0P13configuration13ConfigurationQzvgTq
++ _$s19ExtensionFoundation03AppA0PAAE4mainyyKFZ
++ _$s19ExtensionFoundation03AppA0PxycfCTj
++ _$s19ExtensionFoundation03AppA0PxycfCTq
++ _$s19ExtensionFoundation03AppA0TL
++ _$s19ExtensionFoundation03AppA0_pMF
++ _$s19ExtensionFoundation03AppA13ConfigurationMp
++ _$s19ExtensionFoundation03AppA13ConfigurationP6accept10connectionSbSo15NSXPCConnectionC_tFTj
++ _$s19ExtensionFoundation03AppA13ConfigurationP6accept10connectionSbSo15NSXPCConnectionC_tFTq
++ _$s19ExtensionFoundation03AppA13ConfigurationTL
++ _$s19ExtensionFoundation03AppA13Configuration_AA023LibXPCConnectionHandlerD0pMD
++ _$s19ExtensionFoundation03AppA13Configuration_AA023LibXPCConnectionHandlerD0pSgMD
++ _$s19ExtensionFoundation03AppA13Configuration_AA023LibXPCConnectionHandlerD0pSgWOhTm
++ _$s19ExtensionFoundation03AppA13Configuration_AA023LibXPCConnectionHandlerD0pWOb
++ _$s19ExtensionFoundation03AppA13Configuration_pMF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VMF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VMa
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VMf
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VMn
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VN
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0VWV
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0Vwet
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV0aD0Vwst
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV12isThirdPartySbvgTf4x_n
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV16bundleIdentifier13sdkDictionary12entitlementsACSS_SDySSypGSDys11AnyHashableVypGtcfCTf4nnnd_n
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorV13attributesKey3keySDySSypGSgSS10identifier_AA8PlatformO8platformt_tF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorV4nextAC0aD0VSgyF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVAEStAAWL
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVAEStAAWl
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVMF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVMa
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVMf
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVMn
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVN
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVStAAMA
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVStAAMc
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVStAAMcMK
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVStAASt4next7ElementQzSgyFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVWV
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVwet
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVwst
++ _$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorVyAeCcfCTf4xd_nTf4nngn_n
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVMF
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVMa
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVMf
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVMn
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVN
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAA8IteratorST_StWT
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAMA
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAMc
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAMcMK
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST12makeIterator0G0QzyFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST19underestimatedCountSivgTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST22_copyToContiguousArrays0hI0Vy7ElementQzGyFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST31_customContainsEquatableElementySbSg0I0QzFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVSTAAST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTW
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVWV
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVwet
++ _$s19ExtensionFoundation03AppA15PointEnumeratorVwst
++ _$s19ExtensionFoundation03AppA16XPCConfigurationV16handleConnectionyySo13OS_xpc_object_pF
++ _$s19ExtensionFoundation03AppA16XPCConfigurationV17connectionHandlerACySo13OS_xpc_object_pc_tcfC
++ _$s19ExtensionFoundation03AppA16XPCConfigurationV6accept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA0cA13ConfigurationA2aDP6accept10connectionSbSo15NSXPCConnectionC_tFTW
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA0cA13ConfigurationAAMc
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA0cA13ConfigurationAAWP
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA36LibXPCConnectionHandlerConfigurationA2aDP16handleConnectionyySo13OS_xpc_object_pFTW
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA36LibXPCConnectionHandlerConfigurationAAMc
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVAA36LibXPCConnectionHandlerConfigurationAAWP
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVMF
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVMa
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVMf
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVMn
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVN
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVWV
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVwet
++ _$s19ExtensionFoundation03AppA16XPCConfigurationVwst
++ _$s19ExtensionFoundation03AppA5PointV09extensionD7RecordsACSaySo011LSExtensionD6RecordCG_tKcfC
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionV10buildBlockyA2C4NameV_xxQptRvzAC9AttributeRzlFZ
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionVMF
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionVMa
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionVMf
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionVMn
++ _$s19ExtensionFoundation03AppA5PointV10DefinitionVN
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierV4host4nameAEs12StaticStringV_AItcfC
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVMF
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVMa
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVMf
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVMn
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVN
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVWV
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVwet
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVwetTm
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVwst
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVwstTm
++ _$s19ExtensionFoundation03AppA5PointV10IdentifierVyAEs12StaticStringVcfC
++ _$s19ExtensionFoundation03AppA5PointV10identifier8platformACSS_s6UInt32VtKcfC
++ _$s19ExtensionFoundation03AppA5PointV10identifierACs12StaticStringV_tKcfC
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceV5valueSbvg
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceV5valueSbvpMV
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVAC9AttributeAAMc
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVAC9AttributeAAWP
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVMF
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVMa
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVMf
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVMn
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVN
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVWV
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVwet
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVwetTm
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVwst
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVwstTm
++ _$s19ExtensionFoundation03AppA5PointV13UserInterfaceVyAESbcfC
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVAC9AttributeAAMc
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVAC9AttributeAAWP
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVMF
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVMa
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVMf
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVMn
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVN
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVWV
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVwet
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVwst
++ _$s19ExtensionFoundation03AppA5PointV16EnhancedSecurityVyAESbcfC
++ _$s19ExtensionFoundation03AppA5PointV16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA5PointV16debugDescriptionSSvpMV
++ _$s19ExtensionFoundation03AppA5PointV2eeoiySbAC_ACtFZ
++ _$s19ExtensionFoundation03AppA5PointV2idSSvg
++ _$s19ExtensionFoundation03AppA5PointV2idSSvpMV
++ _$s19ExtensionFoundation03AppA5PointV4BindV10buildBlockyA2C10IdentifierVFZ
++ _$s19ExtensionFoundation03AppA5PointV4BindVMF
++ _$s19ExtensionFoundation03AppA5PointV4BindVMa
++ _$s19ExtensionFoundation03AppA5PointV4BindVMf
++ _$s19ExtensionFoundation03AppA5PointV4BindVMn
++ _$s19ExtensionFoundation03AppA5PointV4BindVN
++ _$s19ExtensionFoundation03AppA5PointV4NameVMF
++ _$s19ExtensionFoundation03AppA5PointV4NameVMa
++ _$s19ExtensionFoundation03AppA5PointV4NameVMf
++ _$s19ExtensionFoundation03AppA5PointV4NameVMn
++ _$s19ExtensionFoundation03AppA5PointV4NameVN
++ _$s19ExtensionFoundation03AppA5PointV4NameVWV
++ _$s19ExtensionFoundation03AppA5PointV4NameVwet
++ _$s19ExtensionFoundation03AppA5PointV4NameVwst
++ _$s19ExtensionFoundation03AppA5PointV4NameVyAEs12StaticStringVcfC
++ _$s19ExtensionFoundation03AppA5PointV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO011unspecifiedcaD4NameyA2EmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO014hostMustDefinecaD0yAESScAEmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO023hostMustBeApplicationOrcA0yA2EmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO04onlyc19ExtensionsCanBindTocA6PointsyA2EmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO07invalidcaD0yA2EmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorO28hostMustHaveBundleIdentifieryA2EmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOAEsAdAWL
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOAEsAdAWl
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOMF
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOMa
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOMf
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOMn
++ _$s19ExtensionFoundation03AppA5PointV5ErrorON
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOWV
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAMc
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAMcMK
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAsADP5_codeSivgTW
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAsADP7_domainSSvgTW
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOsAdAsADP9_userInfoyXlSgvgTW
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOwet
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOwst
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOwui
++ _$s19ExtensionFoundation03AppA5PointV5ErrorOwup
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO11applicationyA2GmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO2eeoiySbAG_AGtFZ
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO4noneyA2GmFWC
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO9hashValueSivg
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO9hashValueSivpMV
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOAGSQAAWL
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOAGSQAAWl
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOMF
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOMa
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOMf
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOMn
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionON
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAAMc
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAASQWb
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSQAAMc
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSQAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOWV
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOwet
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOwst
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOwug
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOwui
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOwup
++ _$s19ExtensionFoundation03AppA5PointV5ScopeV11restrictionA2E11RestrictionO_tcfC
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVAC9AttributeAAMc
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVAC9AttributeAAWP
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVMF
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVMa
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVMf
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVMn
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVN
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVWV
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVwet
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVwetTm
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVwst
++ _$s19ExtensionFoundation03AppA5PointV5ScopeVwstTm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03addcaD0yyACYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03addcaD0yyACYaKFTQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03addcaD0yyACYaKFTY1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03addcaD0yyACYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfC
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTj
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTjTQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTjTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfCTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfcTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfcTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfcTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD07optionsAeC_AE7OptionsVtYaKcfcTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD0AeC_tYaKcfC
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD0AeC_tYaKcfCTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD0AeC_tYaKcfCTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD0AeC_tYaKcfCTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC03appaD0AeC_tYaKcfCTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC04_addcaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC06removecaD0yyACYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC06removecaD0yyACYaKFTQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC06removecaD0yyACYaKFTY1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC06removecaD0yyACYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTY3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC07_removecaD033_5D985BB42A36A6D664ED77CA96129115LLyyACYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC10identitiesSayAA0cA8IdentityVGvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC10identitiesSayAA0cA8IdentityVGvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC11Observation10ObservableAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC11Observation10ObservableAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC12applyOptionsyyAE0G0VYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC12applyOptionsyyAE0G0VYaKFTQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC12applyOptionsyyAE0G0VYaKFTY1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC12applyOptionsyyAE0G0VYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC12identityLock33_5D985BB42A36A6D664ED77CA96129115LL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKFTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKFTY3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC13_applyOptions33_5D985BB42A36A6D664ED77CA96129115LLyyAE0G0VYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTQ3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTY4_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTY5_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTY6_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC14updateIdentity33_5D985BB42A36A6D664ED77CA96129115LL2toyAE0G0V_tYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC16debugDescriptionSSvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFSbAE5StateVYaXEfU_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFSbAE5StateVYaXEfU_Tu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTQ2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY4_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY5_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTY6_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TATQ0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TATu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TQ3_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TY4_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TY5_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_TY6_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC03addE0_3foryAE_AE8IdentityVtYaKFyyYaKcfU0_Tu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVMXX
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVWOb
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVWOc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVWOd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVWOh
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVWV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVwet
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLVwst
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKFTY1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKFTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC06removeE0_3foryAE_AE8IdentityVtYaKFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLV8onUpdateyyAE5StateVYaF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLV8onUpdateyyAE5StateVYaFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLV8onUpdateyyAE5StateVYaFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVMXX
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVSgWOe
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVWOc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVWOd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVWV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVwet
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLVwst
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC12updateSource33_5D985BB42A36A6D664ED77CA96129115LLAE0I0_pvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC6sharedAGvpZ
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC6shared_WZ
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC6shared_Wz
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC8onUpdate33_5D985BB42A36A6D664ED77CA96129115LL_3foryAE5StateV_AE8IdentityVtYaF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC8onUpdate33_5D985BB42A36A6D664ED77CA96129115LL_3foryAE5StateV_AE8IdentityVtYaFTQ1_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC8onUpdate33_5D985BB42A36A6D664ED77CA96129115LL_3foryAE5StateV_AE8IdentityVtYaFTY0_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC8onUpdate33_5D985BB42A36A6D664ED77CA96129115LL_3foryAE5StateV_AE8IdentityVtYaFTY2_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC8onUpdate33_5D985BB42A36A6D664ED77CA96129115LL_3foryAE5StateV_AE8IdentityVtYaFTu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC9observers33_5D985BB42A36A6D664ED77CA96129115LLSDyAE8IdentityVAG0F0AILLVGvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCAGScAAAWL
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCAGycfCTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCMm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCScAAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCScAAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCScAAAScA15unownedExecutorScevgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCfD
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAA0I4TypesAHP_ScAWT
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAAMA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAAsAHP21sharedUnownedExecutorScevgZTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAAsAHP6shared0I4TypeQzvgZTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC22_$observationRegistrar33_5D985BB42A36A6D664ED77CA96129115LL11Observation0oG0VvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC4lock33_5D985BB42A36A6D664ED77CA96129115LL2os21OSAllocatedUnfairLockVyytGvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV10identitiesSayAA0cA8IdentityVGvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV10identitiesSayAA0cA8IdentityVGvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV13disabledCountSivg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV13disabledCountSivpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV15unapprovedCountSivg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV15unapprovedCountSivpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV16debugDescriptionSSvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateV2eeoiySbAG_AGtFZ
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVSQAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVSQAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVWV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVs28CustomDebugStringConvertibleAAsAHP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVwet
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5StateVwst
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5stateAE5StateVvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC5stateAE5StateVvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6SourceMp
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6SourceP12makeSequence3for4hostSci_pAE5StateV7ElementRts_s5Error_p7FailureRtsXPAE8IdentityV_AA10AuditTokenVSgtKFTj
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6SourceP12makeSequence3for4hostSci_pAE5StateV7ElementRts_s5Error_p7FailureRtsXPAE8IdentityV_AA10AuditTokenVSgtKFTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6SourceTL
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6Source_pMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6_state33_5D985BB42A36A6D664ED77CA96129115LLAE5StateVvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6update5stateyAE5StateV_tF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6update5stateyAE5StateV_tFyyXEfU_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6update5stateyAE5StateV_tFyyXEfU_TA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6update5stateyAE5StateV_tFyyXEfU_yytz_tYbXEfU_
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC6update5stateyAE5StateV_tFyyXEfU_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV16debugDescriptionSSvpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV2eeoiySbAG_AGtFZ
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV2eeoiySbAG_AGtFZTf4nnd_n
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV9hashValueSivg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV9hashValueSivpMV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVAGSQAAWL
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVAGSQAAWl
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAASQWb
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSQAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSQAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVWV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVs28CustomDebugStringConvertibleAAsAHP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVwet
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVwst
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7optionsA2E7OptionsV_tcfC
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7optionsA2E7OptionsV_tcfCTj
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7optionsA2E7OptionsV_tcfCTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC7optionsA2E7OptionsV_tcfc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV2eeoiySbAG_AGtFZTf4nnd_n
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVAGSQAAWL
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVAGSQAAWl
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAASQWb
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSQAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSQAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVWV
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVs28CustomDebugStringConvertibleAAsAHP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVwet
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVwst
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvgAIytz_tYbXEfU_TA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvgAIytz_tYbXEfU_TA.64
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvgAIytz_tYbXEfU_TA.79
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvgAIytz_tYbXEfU_TA.82
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvgAIytz_tYbXEfU_TATm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC8identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvsyytz_tYbXEfU_TA
++ _$s19ExtensionFoundation03AppA5PointV7MonitorC9_identity33_5D985BB42A36A6D664ED77CA96129115LLAE8IdentityVvpWvd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAE11Observation10ObservableAAWL
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAE11Observation10ObservableAAWlTm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAEycfC
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAEycfCTj
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAEycfCTq
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCAEycfc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMF
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMU
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMa
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMaTm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMf
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMl
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMm
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMn
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMo
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMr
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCMu
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCN
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCfD
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCfd
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA5PointV7MonitorCs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVAC9AttributeAAMc
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVAC9AttributeAAWP
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVMF
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVMa
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVMf
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVMn
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVN
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVWV
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVwet
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVwst
++ _$s19ExtensionFoundation03AppA5PointV7_DomainVyAEs12StaticStringVcfC
++ _$s19ExtensionFoundation03AppA5PointV9AttributeMp
++ _$s19ExtensionFoundation03AppA5PointV9Attribute_pMF
++ _$s19ExtensionFoundation03AppA5PointV9hashValueSivg
++ _$s19ExtensionFoundation03AppA5PointV9hashValueSivpMV
++ _$s19ExtensionFoundation03AppA5PointVAA0aD8DefiningAAMc
++ _$s19ExtensionFoundation03AppA5PointVAA0aD8DefiningAAWP
++ _$s19ExtensionFoundation03AppA5PointVACSQAAWL
++ _$s19ExtensionFoundation03AppA5PointVACSQAAWl
++ _$s19ExtensionFoundation03AppA5PointVMF
++ _$s19ExtensionFoundation03AppA5PointVMa
++ _$s19ExtensionFoundation03AppA5PointVMf
++ _$s19ExtensionFoundation03AppA5PointVMn
++ _$s19ExtensionFoundation03AppA5PointVN
++ _$s19ExtensionFoundation03AppA5PointVSHAAMc
++ _$s19ExtensionFoundation03AppA5PointVSHAAMcMK
++ _$s19ExtensionFoundation03AppA5PointVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA5PointVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA5PointVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA5PointVSHAASQWb
++ _$s19ExtensionFoundation03AppA5PointVSQAAMc
++ _$s19ExtensionFoundation03AppA5PointVSQAAMcMK
++ _$s19ExtensionFoundation03AppA5PointVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA5PointVSgWOe
++ _$s19ExtensionFoundation03AppA5PointVWOh
++ _$s19ExtensionFoundation03AppA5PointVWV
++ _$s19ExtensionFoundation03AppA5PointVs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation03AppA5PointVs12IdentifiableAAMA
++ _$s19ExtensionFoundation03AppA5PointVs12IdentifiableAAMc
++ _$s19ExtensionFoundation03AppA5PointVs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation03AppA5PointVs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation03AppA5PointVs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA5PointVs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA5PointVs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA5PointVwet
++ _$s19ExtensionFoundation03AppA5PointVwst
++ _$s19ExtensionFoundation03AppA7ProcessV02exaD0So8NSObjectCvg
++ _$s19ExtensionFoundation03AppA7ProcessV02exaD0So8NSObjectCvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV10_terminateyyKF
++ _$s19ExtensionFoundation03AppA7ProcessV10invalidateyyF
++ _$s19ExtensionFoundation03AppA7ProcessV11_auditTokenSo0E8_token_tavg
++ _$s19ExtensionFoundation03AppA7ProcessV11_auditTokenSo0E8_token_tavpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA014onInterruptionAeA0cA8IdentityV_yyctcfC
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA0AA0cA8IdentityVvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA0AA0cA8IdentityVvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA0AA0cA8IdentityVvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA0AA0cA8IdentityVvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA0AA0cA8IdentityVvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8Identity14onInterruptionAeA0caG0V_yyctcfC
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8IdentityAA0caG0VvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8IdentityAA0caG0VvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8IdentityAA0caG0Vvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8IdentityAA0caG0VvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV03appA8IdentityAA0caG0Vvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvpAETkTm
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV14onInterruptionyycvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV19_instanceIdentifierAC09_InstanceG0VvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV19_instanceIdentifierAC09_InstanceG0VvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV19_instanceIdentifierAC09_InstanceG0Vvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV19_instanceIdentifierAC09_InstanceG0VvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV19_instanceIdentifierAC09_InstanceG0Vvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvpAETk
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_requireInvalidationSbvM
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_requireInvalidationSbvM.resume.0
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_requireInvalidationSbvg
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_requireInvalidationSbvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationV20_requireInvalidationSbvs
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMF
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMa
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMaTm
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMf
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMl
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMn
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVMr
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVN
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVWOhTm
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVWV
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVwet
++ _$s19ExtensionFoundation03AppA7ProcessV13ConfigurationVwst
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tKcfC
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfC
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTQ1_
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY0_
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY2_
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY3_
++ _$s19ExtensionFoundation03AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTu
++ _$s19ExtensionFoundation03AppA7ProcessV14makeXPCSession3XPC0F0CyKF
++ _$s19ExtensionFoundation03AppA7ProcessV15_makeXPCSession3XPC0F0CyKF
++ _$s19ExtensionFoundation03AppA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV03nileF0AEvgZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV03nileF0AEvpZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV03nileF0AEvpZMV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV03nileF0_WZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV03nileF0_Wz
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0AEvgZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0AEvgZTm
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0AEvpZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0AEvpZMV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0_WZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV07defaulteF0_Wz
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV11effectiveID0B04UUIDVSgvg
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV11effectiveID0B04UUIDVSgvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV2eeoiySbAE_AEtFZ
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV2id0B04UUIDVvg
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV2id0B04UUIDVvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV9hashValueSivg
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierV9hashValueSivpMV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVAESQAAWL
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVAEycfC
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMF
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMa
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMf
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMl
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMn
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVMr
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVN
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAAMc
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAAMcMK
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSHAASQWb
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSQAAMc
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSQAAMcMK
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVWOc
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVWOcTm
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVWOd
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVWOf
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVWV
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVs12IdentifiableAA2IDsAFP_SHWT
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVs12IdentifiableAAMA
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVs12IdentifiableAAMc
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVs12IdentifiableAAsAFP2id2IDQzvgTW
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVwet
++ _$s19ExtensionFoundation03AppA7ProcessV19_InstanceIdentifierVwst
++ _$s19ExtensionFoundation03AppA7ProcessV21_makeLibXPCConnectionSo13OS_xpc_object_pyKF
++ _$s19ExtensionFoundation03AppA7ProcessV25invalidateLaunchAssertionyyF
++ _$s19ExtensionFoundation03AppA7ProcessV4_pids5Int32Vvg
++ _$s19ExtensionFoundation03AppA7ProcessV4_pids5Int32VvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV6_validSbvg
++ _$s19ExtensionFoundation03AppA7ProcessV6_validSbvgTm
++ _$s19ExtensionFoundation03AppA7ProcessV6_validSbvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV7isValidSbvg
++ _$s19ExtensionFoundation03AppA7ProcessV7isValidSbvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV9_identityAA0cA8IdentityVvg
++ _$s19ExtensionFoundation03AppA7ProcessV9_identityAA0cA8IdentityVvpMV
++ _$s19ExtensionFoundation03AppA7ProcessV9terminateyyKF
++ _$s19ExtensionFoundation03AppA7ProcessVAA01_caD8ProtocolAAMc
++ _$s19ExtensionFoundation03AppA7ProcessVAA01_caD8ProtocolAAWP
++ _$s19ExtensionFoundation03AppA7ProcessVMF
++ _$s19ExtensionFoundation03AppA7ProcessVMa
++ _$s19ExtensionFoundation03AppA7ProcessVMf
++ _$s19ExtensionFoundation03AppA7ProcessVMn
++ _$s19ExtensionFoundation03AppA7ProcessVN
++ _$s19ExtensionFoundation03AppA7ProcessVSgWOe
++ _$s19ExtensionFoundation03AppA7ProcessVSgWOy
++ _$s19ExtensionFoundation03AppA7ProcessVWV
++ _$s19ExtensionFoundation03AppA7ProcessVwet
++ _$s19ExtensionFoundation03AppA7ProcessVwst
++ _$s19ExtensionFoundation03AppA7WrapperC12shouldAcceptySbSo15NSXPCConnectionCFTo
++ _$s19ExtensionFoundation03AppA7WrapperC14_acceptSession3XPC11XPCListenerC08IncomingF7RequestC8DecisionVAIcSgvpWvd
++ _$s19ExtensionFoundation03AppA7WrapperC17_handleConnectionyySo13OS_xpc_object_pcvpWvd
++ _$s19ExtensionFoundation03AppA7WrapperC18didFinishLaunchingyyFTo
++ _$s19ExtensionFoundation03AppA7WrapperC19willFinishLaunchingyyFTo
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfCTq
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfc3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAKcAFcfu1_AmKcfu2_
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfc3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAKcAFcfu1_AmKcfu2_TA
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfcSbSo15NSXPCConnectionCcAFcfu_SbAHcfu0_
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfcSbSo15NSXPCConnectionCcAFcfu_SbAHcfu0_TA
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfcySo13OS_xpc_object_pcAFcfu3_ySoAG_pcfu4_
++ _$s19ExtensionFoundation03AppA7WrapperC20handlerConfigurationAcA17ConnectionHandlerV_tcfcySo13OS_xpc_object_pcAFcfu3_ySoAG_pcfu4_TA
++ _$s19ExtensionFoundation03AppA7WrapperC23libXPCConnectionHandlerySo13OS_xpc_object_pcSgvgTq
++ _$s19ExtensionFoundation03AppA7WrapperC24sessionConnectionHandler3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVAIcSgvgTq
++ _$s19ExtensionFoundation03AppA7WrapperC7_acceptySbSo15NSXPCConnectionCcvpWvd
++ _$s19ExtensionFoundation03AppA7WrapperCACycfcTo
++ _$s19ExtensionFoundation03AppA7WrapperCMF
++ _$s19ExtensionFoundation03AppA7WrapperCMa
++ _$s19ExtensionFoundation03AppA7WrapperCMf
++ _$s19ExtensionFoundation03AppA7WrapperCMn
++ _$s19ExtensionFoundation03AppA7WrapperCN
++ _$s19ExtensionFoundation03AppA7WrapperCfD
++ _$s19ExtensionFoundation03AppA7WrapperCfETo
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufCTq
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufcSbSo15NSXPCConnectionCcxcfu_
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufcSbSo15NSXPCConnectionCcxcfu_SbAGcfu0_TA
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufcTf4gn_n
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufcySo13OS_xpc_object_pcxcfu1_
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzAA023LibXPCConnectionHandlerE0RzlufcySo13OS_xpc_object_pcxcfu1_ySoAF_pcfu2_TA
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzlufCTq
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzlufcSbSo15NSXPCConnectionCcxcfu_
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzlufcSbSo15NSXPCConnectionCcxcfu_SbAFcfu0_TA
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzlufcTf4gn_n
++ _$s19ExtensionFoundation03AppA7WrapperCyACxcAA0cA13ConfigurationRzlufcySo13OS_xpc_object_pcfU_
++ _$s19ExtensionFoundation03AppA8IdentityV02nsA0So11NSExtensionCSgvg
++ _$s19ExtensionFoundation03AppA8IdentityV02nsA0So11NSExtensionCSgvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV02nsA10AttributesSDySSypGvg
++ _$s19ExtensionFoundation03AppA8IdentityV02nsA10AttributesSDySSypGvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV03_nsA10AttributesSDySSypGvg
++ _$s19ExtensionFoundation03AppA8IdentityV03_nsA10AttributesSDySSypGvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0V11entitlement2of5namedyXlSgyXlXp_SStF
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0V5coderAESo7NSCoderC_tKcfC
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP011applicationA6RecordSo013LSApplicationaH0CSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP011launchesViaA10KitServiceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP013targetsSystemA5PointSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP014targetsServiceA5PointSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP025requiresHostToBeContainerC0SbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP02nsA10AttributesSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP10attributesSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP10canDisableSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP11entitlement2of5namedyXlSgyXlXp_SStFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP11processTypeAA07ProcessH0VSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP12entitlementsSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP12remappedCopyxyKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP12userElection3forSo013LSApplicationa4UserH0VSo0J6RecordCSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP13bundleVersionSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP13developerNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP13executableURL0B00H0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP13localizedNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP13sdkDictionarySDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP14extensionClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP14principalClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP15enablementState3forAA010EnablementH0VSo19LSApplicationRecordCSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP15groupIdentifierSSSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP15setUserElection_3forySo013LSApplicationahI0V_So0K6RecordCSgtKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP15systemComponentSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP16bundleIdentifierSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP16hostContextClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP16uniqueIdentifier0B04UUIDVvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP18extensionPointTypeSo011LSExtensionhI0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP18sandboxProfileNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP18spotlightIndexableSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP19builtForNSExtensionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP19defaultUserElectionSo013LSApplicationahI0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP19extensionDictionarySDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP20extensionSettingsKey3forSSSo19LSApplicationRecordCSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP20launchThrottlePolicyAA06LaunchhI0OvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21extensionContextClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21hasSandboxEntitlementSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21hostRequirementExemptSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21presentsUserInterfaceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21requiresMultiInstanceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP21xpcSessionServiceNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP22connectionHandlerClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP22containingBundleRecordSo08LSBundleI0CSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP22requiresFBSceneHostingSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP23forceCheckedAllocationsSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP24extensionPointIdentifierSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP24requiredHostEntitlementsSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP24requiresEnhancedSecuritySbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP24requiresLibXPCConnectionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP24showsInExtensionsManagerSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP25requiresPerHostEnablementSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP25requiresUIKitSceneHostingSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP26requiresNetworkAttributionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP27performsUserInteractiveWorkSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP27requiresMacCatalystBehaviorSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP28alternateSandboxProfileNamesSaySSGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP28disableLaunchdCheckinTimeoutSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP28requiresLegacyInfrastructureSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP28spotlightImporterIdentifiersSaySSGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP28supportsNSExtensionPlistKeysSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP32privateSandboxProfileEntitlementSSSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP3url0B03URLVvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP45requiresUrgentCheckedAllocationsLogSubmissionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP4iconSo6ISIconCvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP4typeAA0A4TypeOvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP6encode2toySo7NSCoderC_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP7enabled3forSbSo19LSApplicationRecordCSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP8platforms6UInt32VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0A2aFP9unelected3forSbSo19LSApplicationRecordCSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0AAMc
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VAA06_InnercaD0AAWP
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMF
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMa
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMf
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMl
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMn
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VMr
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VN
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VWOcTm
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0VWV
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0Vwet
++ _$s19ExtensionFoundation03AppA8IdentityV05ValueD0Vwst
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V10attributesSDySSyXlGvg
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V11entitlement2of5namedyXlSgyXlXp_SStF
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V15setUserElection_3forySo013LSApplicationagH0V_So0jE0CSgtKF
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V19defaultUserElectionSo013LSApplicationagH0Vvg
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V19extensionDictionarySDySSyXlGvg
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V20extensionSettingsKey3forSSSo013LSApplicationE0CSg_tF
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0V5coderAESo7NSCoderC_tKcfCTf4nd_n
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP011applicationaE0So013LSApplicationaE0CSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP011launchesViaA10KitServiceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP013targetsSystemA5PointSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP014targetsServiceA5PointSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP016containingBundleE0So08LSBundleE0CSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP025requiresHostToBeContainerC0SbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP02nsA10AttributesSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP10attributesSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP10canDisableSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP11entitlement2of5namedyXlSgyXlXp_SStFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP11processTypeAA07ProcessH0VSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP12entitlementsSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP12remappedCopyxyKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP12userElection3forSo013LSApplicationa4UserH0VSo0jE0CSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP13bundleVersionSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP13developerNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP13executableURL0B00H0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP13localizedNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP13sdkDictionarySDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP14extensionClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP14principalClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP15enablementState3forAA010EnablementH0VSo013LSApplicationE0CSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP15groupIdentifierSSSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP15setUserElection_3forySo013LSApplicationahI0V_So0kE0CSgtKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP15systemComponentSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP16bundleIdentifierSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP16hostContextClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP16uniqueIdentifier0B04UUIDVvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP16uniqueIdentifier0B04UUIDVvgTWTm
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP18extensionPointTypeSo011LSExtensionhI0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP18sandboxProfileNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP18spotlightIndexableSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP19builtForNSExtensionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP19defaultUserElectionSo013LSApplicationahI0VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP19extensionDictionarySDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP20extensionSettingsKey3forSSSo013LSApplicationE0CSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP20launchThrottlePolicyAA06LaunchhI0OvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21extensionContextClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21hasSandboxEntitlementSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21hostRequirementExemptSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21presentsUserInterfaceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21requiresMultiInstanceSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP21xpcSessionServiceNameSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP22connectionHandlerClassyXlXpSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP22requiresFBSceneHostingSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP23forceCheckedAllocationsSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP24extensionPointIdentifierSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP24requiredHostEntitlementsSDySSyXlGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP24requiresEnhancedSecuritySbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP24requiresLibXPCConnectionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP24showsInExtensionsManagerSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP25requiresPerHostEnablementSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP25requiresUIKitSceneHostingSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP26requiresNetworkAttributionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP27performsUserInteractiveWorkSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP27requiresMacCatalystBehaviorSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP28alternateSandboxProfileNamesSaySSGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP28disableLaunchdCheckinTimeoutSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP28requiresLegacyInfrastructureSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP28spotlightImporterIdentifiersSaySSGvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP28supportsNSExtensionPlistKeysSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP32privateSandboxProfileEntitlementSSSgvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP3url0B03URLVvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP45requiresUrgentCheckedAllocationsLogSubmissionSbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP4iconSo6ISIconCvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP4typeAA0A4TypeOvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP6encode2toySo7NSCoderC_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP7enabled3forSbSo013LSApplicationE0CSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP8platforms6UInt32VvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0A2aFP9unelected3forSbSo013LSApplicationE0CSg_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0AAMc
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VAA06_InnercaD0AAWP
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VMF
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VMa
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VMf
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VMn
++ _$s19ExtensionFoundation03AppA8IdentityV06RecordD0VN
++ _$s19ExtensionFoundation03AppA8IdentityV09extensionD0So012_EXExtensionD0Cvg
++ _$s19ExtensionFoundation03AppA8IdentityV09extensionD0So012_EXExtensionD0CvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaF
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaFTQ1_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaFTY0_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaFTY2_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaFTY3_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorV4nextSayACGSgyYaFTu
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVAGScIAAWL
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMF
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMa
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMaTm
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMf
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMl
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMn
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVMr
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVN
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAA7FailureScI_s5ErrorPWT
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTWTQ0_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTWTu
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTW
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTQ0_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY1_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTu
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVWOc
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVWV
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVwet
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV13AsyncIteratorVwst
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_SbypSg_SDySSypGSgtcfU0_TA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_SbypSg_SDySSypGSgtcfU_TA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_SbypSg_SDySSypGSgtcfU_Tm
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_TA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_TA.2
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_TA.3
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_yAP11TerminationOyAQ__GYbcfU2_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_yAP11TerminationOyAQ__GYbcfU2_TA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_ySaySo012_EXExtensionD0CGcfU1_
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV15extensionPoints7options_AESayAA01_cA5PointVGSg_AC16_MatchingOptionsVSbACctc33_561A8376487B9064A369D61EFCA7CBE2LlfcyScS12ContinuationVySayACG_GXEfU_ySaySo012_EXExtensionD0CGcfU1_TA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesV17makeAsyncIteratorAE0gH0VyF
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMF
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMa
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMf
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMl
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMn
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMr
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVMrTm
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVN
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVSciAA13AsyncIteratorSci_ScIWT
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVSciAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVSciAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVSciAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVSciAASci17makeAsyncIterator0gH0QzyFTW
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVWV
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVwet
++ _$s19ExtensionFoundation03AppA8IdentityV10IdentitiesVwst
++ _$s19ExtensionFoundation03AppA8IdentityV10attributesSDySSypGvg
++ _$s19ExtensionFoundation03AppA8IdentityV10attributesSDySSypGvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV10canDisableSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV10canDisableSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV11_attributesSDySSypGvg
++ _$s19ExtensionFoundation03AppA8IdentityV11_attributesSDySSypGvgTm
++ _$s19ExtensionFoundation03AppA8IdentityV11_attributesSDySSypGvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV11allMatchingyAC10IdentitiesVSbACcFZ
++ _$s19ExtensionFoundation03AppA8IdentityV11entitlement2of5namedyXlSgyXlXp_SStF
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV10totalCountSivg
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV10totalCountSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV11descriptionSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV11descriptionSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV12enabledCountSivg
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV12enabledCountSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV13disabledCountSivg
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV13disabledCountSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV15unapprovedCountSivg
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityV15unapprovedCountSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVAEycfC
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVMF
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVMa
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVMf
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVMn
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVN
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVWV
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVwet
++ _$s19ExtensionFoundation03AppA8IdentityV12AvailabilityVwst
++ _$s19ExtensionFoundation03AppA8IdentityV13bundleVersionSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV13bundleVersionSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV13developerNameSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV13developerNameSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV13localizedNameSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV13localizedNameSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV10nativeOnlySivgZ
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV10nativeOnlySivpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV15includeDisabledSivgZ
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV15includeDisabledSivpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV19includeUpdatingAppsSivgZ
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV19includeUpdatingAppsSivpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV7defaultAEvgZ
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV7defaultAEvpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV8rawValueAESi_tcfC
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV8rawValueSivg
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV8rawValueSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAESQAAWL
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAESQAAWl
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAESYAAWL
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAESYAAWl
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAEs10SetAlgebraAAWL
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAEs10SetAlgebraAAWl
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAEs25ExpressibleByArrayLiteralAAWL
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVAEs25ExpressibleByArrayLiteralAAWl
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVMF
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVMa
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVMf
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVMn
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVN
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSQAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSQAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSYAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSYAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSYAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSYAASY8rawValue03RawH0QzvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVSYAASY8rawValuexSg03RawH0Qz_tcfCTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAASQWb
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteralPWb
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP10isDisjoint4withSbx_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP10isSuperset2ofSbx_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP11subtractingyxxFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP12intersectionyxxFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP16formIntersectionyyxFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP19symmetricDifferenceyxxnFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP23formSymmetricDifferenceyyxnFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP5unionyxxnFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP6insertySb8inserted_7ElementQz17memberAfterInserttAKnFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP6removey7ElementQzSgAJFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP6update4with7ElementQzSgAKn_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP7isEmptySbvgTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP8containsySb7ElementQzFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP8isSubset2ofSbx_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP8subtractyyxFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFP9formUnionyyxnFTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFPxycfCTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAsAFPyxqd__ncSTRd__7ElementQyd__AHRtzlufCTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs25ExpressibleByArrayLiteralAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs25ExpressibleByArrayLiteralAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs25ExpressibleByArrayLiteralAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs25ExpressibleByArrayLiteralAAsAFP05arrayJ0x0iJ7ElementQzd_tcfCTW
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAMA
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAMc
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAASYWb
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAs0H7AlgebraPWb
++ _$s19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAsAFP8rawValuex03RawJ0Qz_tcfCTW
++ _$s19ExtensionFoundation03AppA8IdentityV16bundleIdentifierACSS_tKcfC
++ _$s19ExtensionFoundation03AppA8IdentityV16bundleIdentifierSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV16bundleIdentifierSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV16debugDescriptionSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV16debugDescriptionSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV16uniqueIdentifier0B04UUIDVvg
++ _$s19ExtensionFoundation03AppA8IdentityV16uniqueIdentifier0B04UUIDVvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV17isSystemComponentSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV17isSystemComponentSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV17serviceIdentifierACSS_tKcfC
++ _$s19ExtensionFoundation03AppA8IdentityV18spotlightIndexableSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV18spotlightIndexableSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZ
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZyScS12ContinuationVyAF_GXEfU_
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZyScS12ContinuationVyAF_GXEfU_yAFcfU_
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZyScS12ContinuationVyAF_GXEfU_yAFcfU_TA
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZyScS12ContinuationVyAF_GXEfU_yAI11TerminationOyAF__GYbcfU0_
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvgZyScS12ContinuationVyAF_GXEfU_yAI11TerminationOyAF__GYbcfU0_TA
++ _$s19ExtensionFoundation03AppA8IdentityV19availabilityUpdatesScSyAC12AvailabilityVGvpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV19builtForNSExtensionSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV19builtForNSExtensionSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV20extensionPointRecordSo011LSExtensionfG0CSgvg
++ _$s19ExtensionFoundation03AppA8IdentityV20extensionPointRecordSo011LSExtensionfG0CSgvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV20extensionSettingsKey3forSSSo19LSApplicationRecordCSg_tF
++ _$s19ExtensionFoundation03AppA8IdentityV21presentsUserInterfaceSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV21presentsUserInterfaceSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV24extensionPointIdentifierSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV24extensionPointIdentifierSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV24showsInExtensionsManagerSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV24showsInExtensionsManagerSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV27containingApplicationRecordSo013LSApplicationG0CSgvg
++ _$s19ExtensionFoundation03AppA8IdentityV27containingApplicationRecordSo013LSApplicationG0CSgvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV27requiresMacCatalystBehaviorSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV27requiresMacCatalystBehaviorSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV28spotlightImporterIdentifiersSaySSGvg
++ _$s19ExtensionFoundation03AppA8IdentityV28spotlightImporterIdentifiersSaySSGvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV2eeoiySbAC_ACtFZ
++ _$s19ExtensionFoundation03AppA8IdentityV2idSSvg
++ _$s19ExtensionFoundation03AppA8IdentityV2idSSvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV3allAC10IdentitiesVvgZ
++ _$s19ExtensionFoundation03AppA8IdentityV3allAC10IdentitiesVvgZSbACcfU_
++ _$s19ExtensionFoundation03AppA8IdentityV3allAC10IdentitiesVvpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV3url0B03URLVvg
++ _$s19ExtensionFoundation03AppA8IdentityV3url0B03URLVvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation03AppA8IdentityV4iconSo6ISIconCvg
++ _$s19ExtensionFoundation03AppA8IdentityV4iconSo6ISIconCvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV5innerACyXl_tcfC
++ _$s19ExtensionFoundation03AppA8IdentityV5inneryXlvg
++ _$s19ExtensionFoundation03AppA8IdentityV5inneryXlvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV6enable3forySo19LSApplicationRecordCSg_tKF
++ _$s19ExtensionFoundation03AppA8IdentityV6enable3forySo19LSApplicationRecordCSg_tKFTm
++ _$s19ExtensionFoundation03AppA8IdentityV6recordACSo013LSApplicationA6RecordC_tcfC
++ _$s19ExtensionFoundation03AppA8IdentityV7currentACvgZ
++ _$s19ExtensionFoundation03AppA8IdentityV7currentACvpZMV
++ _$s19ExtensionFoundation03AppA8IdentityV7disable3forySo19LSApplicationRecordCSg_tKF
++ _$s19ExtensionFoundation03AppA8IdentityV7enabled3forSbSo19LSApplicationRecordCSg_tF
++ _$s19ExtensionFoundation03AppA8IdentityV7enabledSbvg
++ _$s19ExtensionFoundation03AppA8IdentityV7enabledSbvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV8matching03appA8PointIDs7optionsAC10IdentitiesVSSd_AC16_MatchingOptionsVtKFZ
++ _$s19ExtensionFoundation03AppA8IdentityV8matching03appA8PointIDs7optionsAC10IdentitiesVSaySSG_AC16_MatchingOptionsVtKFZ
++ _$s19ExtensionFoundation03AppA8IdentityV8matching03appA8PointIDs7optionsAC10IdentitiesVSaySSG_AC16_MatchingOptionsVtKFZSbACcfU0_
++ _$s19ExtensionFoundation03AppA8IdentityV8matching03appA8PointIDsAC10IdentitiesVSSd_tKFZ
++ _$s19ExtensionFoundation03AppA8IdentityV8platforms6UInt32Vvg
++ _$s19ExtensionFoundation03AppA8IdentityV8platforms6UInt32VvpMV
++ _$s19ExtensionFoundation03AppA8IdentityV9hashValueSivg
++ _$s19ExtensionFoundation03AppA8IdentityV9hashValueSivpMV
++ _$s19ExtensionFoundation03AppA8IdentityVAA01_caD8ProtocolAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVAA01_caD8ProtocolAAWP
++ _$s19ExtensionFoundation03AppA8IdentityVAA06_InnercaD7WrapperAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVAA06_InnercaD7WrapperAAWP
++ _$s19ExtensionFoundation03AppA8IdentityVACSQAAWL
++ _$s19ExtensionFoundation03AppA8IdentityVACSQAAWl
++ _$s19ExtensionFoundation03AppA8IdentityVMF
++ _$s19ExtensionFoundation03AppA8IdentityVMa
++ _$s19ExtensionFoundation03AppA8IdentityVMf
++ _$s19ExtensionFoundation03AppA8IdentityVMn
++ _$s19ExtensionFoundation03AppA8IdentityVN
++ _$s19ExtensionFoundation03AppA8IdentityVSHAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVSHAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation03AppA8IdentityVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation03AppA8IdentityVSHAASQWb
++ _$s19ExtensionFoundation03AppA8IdentityVSQAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVSQAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation03AppA8IdentityVSgMD
++ _$s19ExtensionFoundation03AppA8IdentityVSgWOc
++ _$s19ExtensionFoundation03AppA8IdentityVSgWOdTm
++ _$s19ExtensionFoundation03AppA8IdentityVSgWOh
++ _$s19ExtensionFoundation03AppA8IdentityVSgWOhTm
++ _$s19ExtensionFoundation03AppA8IdentityVWOc
++ _$s19ExtensionFoundation03AppA8IdentityVWOd
++ _$s19ExtensionFoundation03AppA8IdentityVWOf
++ _$s19ExtensionFoundation03AppA8IdentityVWOh
++ _$s19ExtensionFoundation03AppA8IdentityVWV
++ _$s19ExtensionFoundation03AppA8IdentityVs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation03AppA8IdentityVs12IdentifiableAAMA
++ _$s19ExtensionFoundation03AppA8IdentityVs12IdentifiableAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityVs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation03AppA8IdentityVs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation03AppA8IdentityVs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation03AppA8IdentityVs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation03AppA8IdentityVwet
++ _$s19ExtensionFoundation03AppA8IdentityVwst
++ _$s19ExtensionFoundation03AppA8IdentityVyACSo012_EXExtensionD0CcfC
++ _$s19ExtensionFoundation03AppA8IdentityVyACSo11NSExtensionCKcfC
++ _$s19ExtensionFoundation03AppA8IdentityVyAcA01_caD0VcfC
++ _$s19ExtensionFoundation04_AppA0Mp
++ _$s19ExtensionFoundation04_AppA0P14hostAuditTokenSo13audit_token_tavg
++ _$s19ExtensionFoundation04_AppA0P14hostAuditTokenSo13audit_token_tavgTj
++ _$s19ExtensionFoundation04_AppA0P14hostAuditTokenSo13audit_token_tavgTq
++ _$s19ExtensionFoundation04_AppA0P4BodyAC_AA6_SceneTn
++ _$s19ExtensionFoundation04_AppA0P4body4BodyQzvgTj
++ _$s19ExtensionFoundation04_AppA0P4body4BodyQzvgTq
++ _$s19ExtensionFoundation04_AppA0PAAE14hostAuditTokenSo13audit_token_tavg
++ _$s19ExtensionFoundation04_AppA0PAAE14hostAuditTokenSo13audit_token_tavpMV
++ _$s19ExtensionFoundation04_AppA0PAAE4mainyyKFZ
++ _$s19ExtensionFoundation04_AppA0PxycfCTj
++ _$s19ExtensionFoundation04_AppA0PxycfCTq
++ _$s19ExtensionFoundation04_AppA0TL
++ _$s19ExtensionFoundation04_AppA0_pMF
++ _$s19ExtensionFoundation04_AppA13ConfigurationMp
++ _$s19ExtensionFoundation04_AppA13ConfigurationPAA6_SceneTb
++ _$s19ExtensionFoundation04_AppA13ConfigurationTL
++ _$s19ExtensionFoundation04_AppA13Configuration_pMF
++ _$s19ExtensionFoundation04_AppA15ProcessProtocolMp
++ _$s19ExtensionFoundation04_AppA15ProcessProtocol_pMF
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolMp
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolP5innerxyXl_tcfCTj
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolP5innerxyXl_tcfCTq
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolP5inneryXlvgTj
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolP5inneryXlvgTq
++ _$s19ExtensionFoundation04_AppA16IdentityProtocolTL
++ _$s19ExtensionFoundation04_AppA16IdentityProtocol_pMF
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderV10buildBlockyxxAA01_caD0RzlFZ
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderVMF
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderVMa
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderVMf
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderVMn
++ _$s19ExtensionFoundation04_AppA20ConfigurationBuilderVN
++ _$s19ExtensionFoundation04_AppA5PointV10identifierACSS_tKcfCTf4nd_n
++ _$s19ExtensionFoundation04_AppA5PointV22serviceGroupIdentifierSSSgvg
++ _$s19ExtensionFoundation04_AppA5PointV24requiredHostEntitlementsSDySSypGvg
++ _$s19ExtensionFoundation04_AppA5PointVACSQAAWL
++ _$s19ExtensionFoundation04_AppA5PointVACSQAAWl
++ _$s19ExtensionFoundation04_AppA5PointVMF
++ _$s19ExtensionFoundation04_AppA5PointVMa
++ _$s19ExtensionFoundation04_AppA5PointVMf
++ _$s19ExtensionFoundation04_AppA5PointVMn
++ _$s19ExtensionFoundation04_AppA5PointVN
++ _$s19ExtensionFoundation04_AppA5PointVSHAAMc
++ _$s19ExtensionFoundation04_AppA5PointVSHAAMcMK
++ _$s19ExtensionFoundation04_AppA5PointVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation04_AppA5PointVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation04_AppA5PointVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation04_AppA5PointVSHAASQWb
++ _$s19ExtensionFoundation04_AppA5PointVSQAAMc
++ _$s19ExtensionFoundation04_AppA5PointVSQAAMcMK
++ _$s19ExtensionFoundation04_AppA5PointVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation04_AppA5PointVs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation04_AppA5PointVs12IdentifiableAAMA
++ _$s19ExtensionFoundation04_AppA5PointVs12IdentifiableAAMc
++ _$s19ExtensionFoundation04_AppA5PointVs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation04_AppA5PointVs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointACSo011LSExtensionF6RecordC_tcfC
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointSo011LSExtensionF6RecordCSgvM
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointSo011LSExtensionF6RecordCSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointSo011LSExtensionF6RecordCSgvg
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointSo011LSExtensionF6RecordCSgvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV14extensionPointSo011LSExtensionF6RecordCSgvs
++ _$s19ExtensionFoundation04_AppA5QueryV14hostAuditTokenSo13audit_token_taSgvM
++ _$s19ExtensionFoundation04_AppA5QueryV14hostAuditTokenSo13audit_token_taSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA5QueryV14hostAuditTokenSo13audit_token_taSgvg
++ _$s19ExtensionFoundation04_AppA5QueryV14hostAuditTokenSo13audit_token_taSgvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV14hostAuditTokenSo13audit_token_taSgvs
++ _$s19ExtensionFoundation04_AppA5QueryV16allowsDuplicatesSbvM
++ _$s19ExtensionFoundation04_AppA5QueryV16allowsDuplicatesSbvM.resume.0
++ _$s19ExtensionFoundation04_AppA5QueryV16allowsDuplicatesSbvg
++ _$s19ExtensionFoundation04_AppA5QueryV16allowsDuplicatesSbvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV16allowsDuplicatesSbvs
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifier9predicateACSS_So11NSPredicateCtcfC
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierACSS_tcfC
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierSSvM
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierSSvM.resume.0
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierSSvg
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierSSvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV24extensionPointIdentifierSSvs
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKF
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKFTQ1_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKFTY0_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKFTY2_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKFTY3_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorV4nextSayAA01_cA8IdentityVGSgyYaKFTu
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVAGScIAAWL
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVAGScIAAWl
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMF
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMa
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMaTm
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMf
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMl
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMn
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVMr
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVN
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAA7FailureScI_s5ErrorPWT
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAMA
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAMc
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAMcMK
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTW
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTWTQ0_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next7ElementQzSgyYaKFTWTu
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTW
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTQ0_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY1_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTY2_
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVScIAAScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTWTu
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVWOc
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVWV
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVwet
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV13AsyncIteratorVwst
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsV17makeAsyncIteratorAE0gH0VyF
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMF
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMa
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMf
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMl
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMn
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMr
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVMrTm
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVN
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVSciAA13AsyncIteratorSci_ScIWT
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVSciAAMA
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVSciAAMc
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVSciAAMcMK
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVSciAASci17makeAsyncIterator0gH0QzyFTW
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVWV
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVwet
++ _$s19ExtensionFoundation04_AppA5QueryV7ResultsVwst
++ _$s19ExtensionFoundation04_AppA5QueryV7resultsAC7ResultsVvg
++ _$s19ExtensionFoundation04_AppA5QueryV7resultsAC7ResultsVvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV9predicateSo11NSPredicateCSgvM
++ _$s19ExtensionFoundation04_AppA5QueryV9predicateSo11NSPredicateCSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA5QueryV9predicateSo11NSPredicateCSgvg
++ _$s19ExtensionFoundation04_AppA5QueryV9predicateSo11NSPredicateCSgvpMV
++ _$s19ExtensionFoundation04_AppA5QueryV9predicateSo11NSPredicateCSgvs
++ _$s19ExtensionFoundation04_AppA5QueryVMF
++ _$s19ExtensionFoundation04_AppA5QueryVMa
++ _$s19ExtensionFoundation04_AppA5QueryVMf
++ _$s19ExtensionFoundation04_AppA5QueryVMn
++ _$s19ExtensionFoundation04_AppA5QueryVN
++ _$s19ExtensionFoundation04_AppA5QueryVWOc
++ _$s19ExtensionFoundation04_AppA5QueryVWOh
++ _$s19ExtensionFoundation04_AppA5QueryVWV
++ _$s19ExtensionFoundation04_AppA5QueryVwet
++ _$s19ExtensionFoundation04_AppA5QueryVwst
++ _$s19ExtensionFoundation04_AppA7ProcessV03appaD0AcA0caD0V_tcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV10auditTokenSo0E8_token_tavg
++ _$s19ExtensionFoundation04_AppA7ProcessV10auditTokenSo0E8_token_tavpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV10invalidateyyF
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV03appA014onInterruptionAeA01_cA8IdentityV_yyctcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV03appA0AA01_cA8IdentityVvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV03appA0AA01_cA8IdentityVvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV13launchPersonaSo10_EXPersonaCSgvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV13launchPersonaSo10_EXPersonaCSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV13launchPersonaSo10_EXPersonaCSgvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV13launchPersonaSo10_EXPersonaCSgvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV13launchPersonaSo10_EXPersonaCSgvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV14onInterruptionyycvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV14onInterruptionyycvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV14onInterruptionyycvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV14onInterruptionyycvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV14onInterruptionyycvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18instanceIdentifierSo020_EXExtensionInstanceG0CvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18instanceIdentifierSo020_EXExtensionInstanceG0CvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18instanceIdentifierSo020_EXExtensionInstanceG0Cvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18instanceIdentifierSo020_EXExtensionInstanceG0CvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18instanceIdentifierSo020_EXExtensionInstanceG0Cvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18preferredLanguagesSaySSGSgvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18preferredLanguagesSaySSGSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18preferredLanguagesSaySSGSgvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18preferredLanguagesSaySSGSgvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18preferredLanguagesSaySSGSgvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18sandboxProfileNameSSSgvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18sandboxProfileNameSSSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18sandboxProfileNameSSSgvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18sandboxProfileNameSSSgvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV18sandboxProfileNameSSSgvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19assertionAttributesSaySo18RBSDomainAttributeCGvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19assertionAttributesSaySo18RBSDomainAttributeCGvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19assertionAttributesSaySo18RBSDomainAttributeCGvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19assertionAttributesSaySo18RBSDomainAttributeCGvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19assertionAttributesSaySo18RBSDomainAttributeCGvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19requireInvalidationSbvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19requireInvalidationSbvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19requireInvalidationSbvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19requireInvalidationSbvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV19requireInvalidationSbvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV20networkApplicationID7Network013NWApplicationH0VSgvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV20networkApplicationID7Network013NWApplicationH0VSgvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV20networkApplicationID7Network013NWApplicationH0VSgvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV20networkApplicationID7Network013NWApplicationH0VSgvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV20networkApplicationID7Network013NWApplicationH0VSgvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV30additionalEnvironmentVariablesSDyS2SGvM
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV30additionalEnvironmentVariablesSDyS2SGvM.resume.0
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV30additionalEnvironmentVariablesSDyS2SGvg
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV30additionalEnvironmentVariablesSDyS2SGvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationV30additionalEnvironmentVariablesSDyS2SGvs
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMF
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMa
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMf
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMl
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMn
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVMr
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVN
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVWV
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVwet
++ _$s19ExtensionFoundation04_AppA7ProcessV13ConfigurationVwst
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tKcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTQ1_
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY0_
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY2_
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY3_
++ _$s19ExtensionFoundation04_AppA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTu
++ _$s19ExtensionFoundation04_AppA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$s19ExtensionFoundation04_AppA7ProcessV4make4with10completionyAC13ConfigurationV_ys6ResultOyACSo7NSErrorCGctFZ
++ _$s19ExtensionFoundation04_AppA7ProcessV4make4with10completionyAC13ConfigurationV_ys6ResultOyACSo7NSErrorCGctFZySo012_EXExtensionD0CSg_s5Error_pSgtYbcfU_
++ _$s19ExtensionFoundation04_AppA7ProcessV4make4with10completionyAC13ConfigurationV_ys6ResultOyACSo7NSErrorCGctFZySo012_EXExtensionD0CSg_s5Error_pSgtYbcfU_TA
++ _$s19ExtensionFoundation04_AppA7ProcessV5innerACyXl_tcfC
++ _$s19ExtensionFoundation04_AppA7ProcessV5inneryXlvg
++ _$s19ExtensionFoundation04_AppA7ProcessV5inneryXlvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessV7isValidSbvg
++ _$s19ExtensionFoundation04_AppA7ProcessV7isValidSbvpMV
++ _$s19ExtensionFoundation04_AppA7ProcessVAA01_caD8ProtocolAAMc
++ _$s19ExtensionFoundation04_AppA7ProcessVAA01_caD8ProtocolAAWP
++ _$s19ExtensionFoundation04_AppA7ProcessVMF
++ _$s19ExtensionFoundation04_AppA7ProcessVMa
++ _$s19ExtensionFoundation04_AppA7ProcessVMf
++ _$s19ExtensionFoundation04_AppA7ProcessVMn
++ _$s19ExtensionFoundation04_AppA7ProcessVN
++ _$s19ExtensionFoundation04_AppA8IdentityV011applicationA6RecordACSo013LSApplicationaF0C_tcfC
++ _$s19ExtensionFoundation04_AppA8IdentityV02exA12RepresentingSo012_EXExtensionD0Cvg
++ _$s19ExtensionFoundation04_AppA8IdentityV02exA12RepresentingSo012_EXExtensionD0CvgTm
++ _$s19ExtensionFoundation04_AppA8IdentityV02exA12RepresentingSo012_EXExtensionD0CvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV02exaD0So012_EXExtensionD0Cvg
++ _$s19ExtensionFoundation04_AppA8IdentityV02exaD0So012_EXExtensionD0CvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV02nsA0So11NSExtensionCSgvg
++ _$s19ExtensionFoundation04_AppA8IdentityV02nsA0So11NSExtensionCSgvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV02nsA10AttributesSDySSypGvg
++ _$s19ExtensionFoundation04_AppA8IdentityV02nsA10AttributesSDySSypGvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV10attributesSDySSypGvg
++ _$s19ExtensionFoundation04_AppA8IdentityV10attributesSDySSypGvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV10canDisableSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV10canDisableSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV13bundleVersionSSvg
++ _$s19ExtensionFoundation04_AppA8IdentityV13bundleVersionSSvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV13developerNameSSvg
++ _$s19ExtensionFoundation04_AppA8IdentityV13developerNameSSvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV13localizedNameSSvg
++ _$s19ExtensionFoundation04_AppA8IdentityV13localizedNameSSvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV16bundleIdentifierSSvg
++ _$s19ExtensionFoundation04_AppA8IdentityV16bundleIdentifierSSvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV17isSystemComponentSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV17isSystemComponentSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV17serviceIdentifierACSS_tKcfC
++ _$s19ExtensionFoundation04_AppA8IdentityV18spotlightIndexableSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV18spotlightIndexableSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV20extensionPointRecordSo011LSExtensionfG0CSgvg
++ _$s19ExtensionFoundation04_AppA8IdentityV20extensionPointRecordSo011LSExtensionfG0CSgvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV21presentsUserInterfaceSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV21presentsUserInterfaceSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV24extensionPointIdentifierSSvg
++ _$s19ExtensionFoundation04_AppA8IdentityV24extensionPointIdentifierSSvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV24showsInExtensionsManagerSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV24showsInExtensionsManagerSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV27containingApplicationRecordSo013LSApplicationG0CSgvg
++ _$s19ExtensionFoundation04_AppA8IdentityV27containingApplicationRecordSo013LSApplicationG0CSgvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV27requiresMacCatalystBehaviorSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV27requiresMacCatalystBehaviorSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV28requiresLegacyInfrastructureSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV28requiresLegacyInfrastructureSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV28spotlightImporterIdentifiersSaySSGvg
++ _$s19ExtensionFoundation04_AppA8IdentityV28spotlightImporterIdentifiersSaySSGvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV2eeoiySbAC_ACtFZ
++ _$s19ExtensionFoundation04_AppA8IdentityV2id0B04UUIDVvg
++ _$s19ExtensionFoundation04_AppA8IdentityV2id0B04UUIDVvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV3url0B03URLVvg
++ _$s19ExtensionFoundation04_AppA8IdentityV3url0B03URLVvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation04_AppA8IdentityV4iconSo6ISIconCvg
++ _$s19ExtensionFoundation04_AppA8IdentityV4iconSo6ISIconCvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV5innerACyXl_tcfC
++ _$s19ExtensionFoundation04_AppA8IdentityV5inneryXlvg
++ _$s19ExtensionFoundation04_AppA8IdentityV5inneryXlvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV6enableyyKF
++ _$s19ExtensionFoundation04_AppA8IdentityV6enableyyKFTm
++ _$s19ExtensionFoundation04_AppA8IdentityV7disableyyKF
++ _$s19ExtensionFoundation04_AppA8IdentityV7enabledSbvg
++ _$s19ExtensionFoundation04_AppA8IdentityV7enabledSbvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV8platforms6UInt32Vvg
++ _$s19ExtensionFoundation04_AppA8IdentityV8platforms6UInt32VvpMV
++ _$s19ExtensionFoundation04_AppA8IdentityV9hashValueSivg
++ _$s19ExtensionFoundation04_AppA8IdentityV9hashValueSivpMV
++ _$s19ExtensionFoundation04_AppA8IdentityVAA01_caD8ProtocolAAMc
++ _$s19ExtensionFoundation04_AppA8IdentityVAA01_caD8ProtocolAAWP
++ _$s19ExtensionFoundation04_AppA8IdentityVAA06_InnercaD7WrapperAAMc
++ _$s19ExtensionFoundation04_AppA8IdentityVAA06_InnercaD7WrapperAAWP
++ _$s19ExtensionFoundation04_AppA8IdentityVACSQAAWL
++ _$s19ExtensionFoundation04_AppA8IdentityVACSQAAWl
++ _$s19ExtensionFoundation04_AppA8IdentityVMF
++ _$s19ExtensionFoundation04_AppA8IdentityVMa
++ _$s19ExtensionFoundation04_AppA8IdentityVMf
++ _$s19ExtensionFoundation04_AppA8IdentityVMn
++ _$s19ExtensionFoundation04_AppA8IdentityVN
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAAMc
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAAMcMK
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation04_AppA8IdentityVSHAASQWb
++ _$s19ExtensionFoundation04_AppA8IdentityVSQAAMc
++ _$s19ExtensionFoundation04_AppA8IdentityVSQAAMcMK
++ _$s19ExtensionFoundation04_AppA8IdentityVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation04_AppA8IdentityVWOc
++ _$s19ExtensionFoundation04_AppA8IdentityVWOh
++ _$s19ExtensionFoundation04_AppA8IdentityVWV
++ _$s19ExtensionFoundation04_AppA8IdentityVs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation04_AppA8IdentityVs12IdentifiableAAMA
++ _$s19ExtensionFoundation04_AppA8IdentityVs12IdentifiableAAMc
++ _$s19ExtensionFoundation04_AppA8IdentityVs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation04_AppA8IdentityVs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation04_AppA8IdentityVwet
++ _$s19ExtensionFoundation04_AppA8IdentityVwst
++ _$s19ExtensionFoundation04_AppA8IdentityVyACSo012_EXExtensionD0CcfC
++ _$s19ExtensionFoundation04_AppA8IdentityVyAcA0caD0VcfC
++ _$s19ExtensionFoundation08_ServiceA7ProcessV10invalidateyyF
++ _$s19ExtensionFoundation08_ServiceA7ProcessV11descriptionSSvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV11descriptionSSvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV016requiredExistingD0SbvM
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV016requiredExistingD0SbvM.resume.0
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV016requiredExistingD0Sbvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV016requiredExistingD0SbvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV016requiredExistingD0Sbvs
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV04_rbsD8IdentitySo010RBSProcessG0Cvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV04_rbsD8IdentitySo010RBSProcessG0CvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8Identity14onInterruptionAeA01_caG0V_yyctcfC
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8IdentityAA01_caG0VvM
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8IdentityAA01_caG0VvM.resume.0
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8IdentityAA01_caG0Vvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8IdentityAA01_caG0VvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV07serviceA8IdentityAA01_caG0Vvs
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvM
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvM.resume.0
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvpAETk
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV14onInterruptionyycvs
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvM
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvM.resume.0
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvpAETk
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV20_assertionAttributesSaySo18RBSDomainAttributeCGSgvs
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMF
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMa
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMf
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMl
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMn
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVMr
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVN
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVWObTm
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVWOcTm
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVWOhTm
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVWV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVwet
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationVwst
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tKcfC
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfC
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTQ1_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY0_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY2_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTY3_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfCTu
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_TA
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_TATQ0_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_TATu
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_TY0_
++ _$s19ExtensionFoundation08_ServiceA7ProcessV13configurationA2C13ConfigurationV_tYaKcfcAC5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVyYaKcfU_Tu
++ _$s19ExtensionFoundation08_ServiceA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$s19ExtensionFoundation08_ServiceA7ProcessV3pids5Int32Vvg
++ _$s19ExtensionFoundation08_ServiceA7ProcessV3pids5Int32VvpMV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMF
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMXX
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMa
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMaTm
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMf
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMl
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMn
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVMr
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVWV
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVwet
++ _$s19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLVwst
++ _$s19ExtensionFoundation08_ServiceA7ProcessV6launch33_B444E02B49700CE9F619AE54934FF0D0LL13configurationAC5InnerAELLVAC13ConfigurationV_tKFZ
++ _$s19ExtensionFoundation08_ServiceA7ProcessV6launch33_B444E02B49700CE9F619AE54934FF0D0LL13configurationAC5InnerAELLVAC13ConfigurationV_tKFZySo16RBSProcessHandleC_So0Q11ExitContextCtcfU_TA
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMF
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMa
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMf
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMl
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMn
++ _$s19ExtensionFoundation08_ServiceA7ProcessVMr
++ _$s19ExtensionFoundation08_ServiceA7ProcessVN
++ _$s19ExtensionFoundation08_ServiceA7ProcessVWV
++ _$s19ExtensionFoundation08_ServiceA7ProcessVs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation08_ServiceA7ProcessVs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation08_ServiceA7ProcessVs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s19ExtensionFoundation08_ServiceA7ProcessVwet
++ _$s19ExtensionFoundation08_ServiceA7ProcessVwst
++ _$s19ExtensionFoundation08_ServiceA8IdentityV10identifier15groupIdentifierACSS_SStKcfC
++ _$s19ExtensionFoundation08_ServiceA8IdentityV15groupIdentifierSSvg
++ _$s19ExtensionFoundation08_ServiceA8IdentityV15groupIdentifierSSvpMV
++ _$s19ExtensionFoundation08_ServiceA8IdentityV24extensionPointIdentifierSSvg
++ _$s19ExtensionFoundation08_ServiceA8IdentityV24extensionPointIdentifierSSvpMV
++ _$s19ExtensionFoundation08_ServiceA8IdentityV2eeoiySbAC_ACtFZ
++ _$s19ExtensionFoundation08_ServiceA8IdentityV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation08_ServiceA8IdentityV9hashValueSivg
++ _$s19ExtensionFoundation08_ServiceA8IdentityV9hashValueSivpMV
++ _$s19ExtensionFoundation08_ServiceA8IdentityVACSQAAWL
++ _$s19ExtensionFoundation08_ServiceA8IdentityVACSQAAWl
++ _$s19ExtensionFoundation08_ServiceA8IdentityVMF
++ _$s19ExtensionFoundation08_ServiceA8IdentityVMa
++ _$s19ExtensionFoundation08_ServiceA8IdentityVMf
++ _$s19ExtensionFoundation08_ServiceA8IdentityVMn
++ _$s19ExtensionFoundation08_ServiceA8IdentityVN
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAAMc
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAAMcMK
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSHAASQWb
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSQAAMc
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSQAAMcMK
++ _$s19ExtensionFoundation08_ServiceA8IdentityVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation08_ServiceA8IdentityVWV
++ _$s19ExtensionFoundation08_ServiceA8IdentityVwet
++ _$s19ExtensionFoundation08_ServiceA8IdentityVwst
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperMp
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperP05innerdaE0AA01_cdaE0_pvgTj
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperP05innerdaE0AA01_cdaE0_pvgTq
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperPyxAA01_cdaE0_pcfCTj
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperPyxAA01_cdaE0_pcfCTq
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperPyxqd__cAaBRd__lufCTj
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperPyxqd__cAaBRd__lufCTq
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapperTL
++ _$s19ExtensionFoundation09_InnerAppA15IdentityWrapper_pMF
++ _$s19ExtensionFoundation09_InnerAppA8IdentityMp
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP011applicationA6RecordSo013LSApplicationaG0CSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP011applicationA6RecordSo013LSApplicationaG0CSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP011launchesViaA10KitServiceSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP011launchesViaA10KitServiceSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP013targetsSystemA5PointSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP013targetsSystemA5PointSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP014targetsServiceA5PointSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP014targetsServiceA5PointSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP025requiresHostToBeContainerD0SbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP025requiresHostToBeContainerD0SbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP02nsA10AttributesSDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP02nsA10AttributesSDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP10attributesSDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP10attributesSDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP10canDisableSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP10canDisableSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP11entitlement2of5namedyXlSgyXlXp_SStFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP11entitlement2of5namedyXlSgyXlXp_SStFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP11processTypeAA07ProcessG0VSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP11processTypeAA07ProcessG0VSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12entitlementsSDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12entitlementsSDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12remappedCopyxyKFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12remappedCopyxyKFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12userElection3forSo013LSApplicationa4UserG0VSo0I6RecordCSg_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP12userElection3forSo013LSApplicationa4UserG0VSo0I6RecordCSg_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13bundleVersionSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13bundleVersionSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13developerNameSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13developerNameSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13executableURL0B00G0VvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13executableURL0B00G0VvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13localizedNameSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13localizedNameSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13sdkDictionarySDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP13sdkDictionarySDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP14extensionClassyXlXpSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP14extensionClassyXlXpSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP14principalClassyXlXpSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP14principalClassyXlXpSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15enablementState3forAA010EnablementG0VSo19LSApplicationRecordCSg_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15enablementState3forAA010EnablementG0VSo19LSApplicationRecordCSg_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15groupIdentifierSSSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15groupIdentifierSSSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15setUserElection_3forySo013LSApplicationagH0V_So0J6RecordCSgtKFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15setUserElection_3forySo013LSApplicationagH0V_So0J6RecordCSgtKFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15systemComponentSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP15systemComponentSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16bundleIdentifierSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16bundleIdentifierSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16hostContextClassyXlXpSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16hostContextClassyXlXpSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16uniqueIdentifier0B04UUIDVvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP16uniqueIdentifier0B04UUIDVvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18extensionPointTypeSo011LSExtensiongH0VvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18extensionPointTypeSo011LSExtensiongH0VvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18sandboxProfileNameSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18sandboxProfileNameSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18spotlightIndexableSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP18spotlightIndexableSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19builtForNSExtensionSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19builtForNSExtensionSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19defaultUserElectionSo013LSApplicationagH0VvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19defaultUserElectionSo013LSApplicationagH0VvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19extensionDictionarySDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP19extensionDictionarySDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP20extensionSettingsKey3forSSSo19LSApplicationRecordCSg_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP20extensionSettingsKey3forSSSo19LSApplicationRecordCSg_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP20launchThrottlePolicyAA06LaunchgH0OvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP20launchThrottlePolicyAA06LaunchgH0OvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21extensionContextClassyXlXpSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21extensionContextClassyXlXpSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21hasSandboxEntitlementSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21hasSandboxEntitlementSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21hostRequirementExemptSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21hostRequirementExemptSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21presentsUserInterfaceSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21presentsUserInterfaceSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21requiresMultiInstanceSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21requiresMultiInstanceSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21xpcSessionServiceNameSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP21xpcSessionServiceNameSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22connectionHandlerClassyXlXpSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22connectionHandlerClassyXlXpSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22containingBundleRecordSo08LSBundleH0CSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22containingBundleRecordSo08LSBundleH0CSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22requiresFBSceneHostingSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP22requiresFBSceneHostingSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP23forceCheckedAllocationsSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP23forceCheckedAllocationsSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24extensionPointIdentifierSSvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24extensionPointIdentifierSSvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiredHostEntitlementsSDySSyXlGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiredHostEntitlementsSDySSyXlGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiresEnhancedSecuritySbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiresEnhancedSecuritySbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiresLibXPCConnectionSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24requiresLibXPCConnectionSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24showsInExtensionsManagerSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP24showsInExtensionsManagerSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP25requiresPerHostEnablementSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP25requiresPerHostEnablementSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP25requiresUIKitSceneHostingSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP25requiresUIKitSceneHostingSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP26requiresNetworkAttributionSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP26requiresNetworkAttributionSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP27performsUserInteractiveWorkSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP27performsUserInteractiveWorkSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP27requiresMacCatalystBehaviorSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP27requiresMacCatalystBehaviorSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28alternateSandboxProfileNamesSaySSGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28alternateSandboxProfileNamesSaySSGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28disableLaunchdCheckinTimeoutSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28disableLaunchdCheckinTimeoutSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28requiresLegacyInfrastructureSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28requiresLegacyInfrastructureSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28spotlightImporterIdentifiersSaySSGvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28spotlightImporterIdentifiersSaySSGvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28supportsNSExtensionPlistKeysSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP28supportsNSExtensionPlistKeysSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP32privateSandboxProfileEntitlementSSSgvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP32privateSandboxProfileEntitlementSSSgvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP3url0B03URLVvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP3url0B03URLVvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP45requiresUrgentCheckedAllocationsLogSubmissionSbvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP45requiresUrgentCheckedAllocationsLogSubmissionSbvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP4iconSo6ISIconCvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP4iconSo6ISIconCvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP4typeAA0A4TypeOvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP4typeAA0A4TypeOvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP6encode2toySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP6encode2toySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP7enabled3forSbSo19LSApplicationRecordCSg_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP7enabled3forSbSo19LSApplicationRecordCSg_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP8platforms6UInt32VvgTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP8platforms6UInt32VvgTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP9unelected3forSbSo19LSApplicationRecordCSg_tFTj
++ _$s19ExtensionFoundation09_InnerAppA8IdentityP9unelected3forSbSo19LSApplicationRecordCSg_tFTq
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE011launchesViaA10KitServiceSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE025requiresHostToBeContainerD0SbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE025requiresHostToBeContainerD0SbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE02nsA10AttributesSDySSyXlGvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE02nsA10AttributesSDySSyXlGvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE10canDisableSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE11processTypeAA07ProcessG0VSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE11processTypeAA07ProcessG0VSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE11serviceNameSSvg
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE13executableURL0B00G0VvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE13executableURL0B00G0VvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE14extensionClassyXlXpSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE14extensionClassyXlXpSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE14principalClassyXlXpSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE14principalClassyXlXpSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE15enablementState3forAA010EnablementG0VSo19LSApplicationRecordCSg_tFAA0daE0V0kE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE15groupIdentifierSSSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE15groupIdentifierSSSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE16hostContextClassyXlXpSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE16hostContextClassyXlXpSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE18sandboxProfileNameSSvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE18sandboxProfileNameSSvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE18spotlightIndexableSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE19assertionAttributesSaySo18RBSDomainAttributeCGvg
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE19builtForNSExtensionSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE19builtForNSExtensionSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE20launchThrottlePolicyAA06LaunchgH0OvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE20launchThrottlePolicyAA06LaunchgH0OvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21extensionContextClassyXlXpSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21extensionContextClassyXlXpSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21hasSandboxEntitlementSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21hasSandboxEntitlementSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21presentsUserInterfaceSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21presentsUserInterfaceSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21requiresMultiInstanceSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE21requiresMultiInstanceSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE22connectionHandlerClassyXlXpSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE22connectionHandlerClassyXlXpSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE22requiresFBSceneHostingSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE22requiresFBSceneHostingSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE23forceCheckedAllocationsSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE23forceCheckedAllocationsSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiredHostEntitlementsSDySSyXlGvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiredHostEntitlementsSDySSyXlGvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiresEnhancedSecuritySbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiresEnhancedSecuritySbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiresLibXPCConnectionSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24requiresLibXPCConnectionSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24showsInExtensionsManagerSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE24showsInExtensionsManagerSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE25requiresPerHostEnablementSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE25requiresPerHostEnablementSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE25requiresUIKitSceneHostingSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE25requiresUIKitSceneHostingSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE25translocatedExecutableURL0B00H0Vvg
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE26requiresNetworkAttributionSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE26requiresNetworkAttributionSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE27performsUserInteractiveWorkSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE27performsUserInteractiveWorkSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28alternateSandboxProfileNamesSaySSGvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28alternateSandboxProfileNamesSaySSGvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28disableLaunchdCheckinTimeoutSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28disableLaunchdCheckinTimeoutSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28requiresLegacyInfrastructureSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28requiresLegacyInfrastructureSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28spotlightImporterIdentifiersSaySSGvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28spotlightImporterIdentifiersSaySSGvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28supportsNSExtensionPlistKeysSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE28supportsNSExtensionPlistKeysSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE32privateSandboxProfileEntitlementSSSgvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE32privateSandboxProfileEntitlementSSSgvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE45requiresUrgentCheckedAllocationsLogSubmissionSbvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE45requiresUrgentCheckedAllocationsLogSubmissionSbvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE4typeAA0A4TypeOvgAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE4typeAA0A4TypeOvgAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE6encode2toySo7NSCoderC_tFAA0daE0V05ValueE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE6encode2toySo7NSCoderC_tFAA0daE0V06RecordE0V_Tg5
++ _$s19ExtensionFoundation09_InnerAppA8IdentityPAAE9unelected3forSbSo19LSApplicationRecordCSg_tFAA0daE0V05ValueE0V_Tg5Tf4dn_n
++ _$s19ExtensionFoundation09_InnerAppA8IdentityTL
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pMD
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pMF
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pML
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pMa
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgMD
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgWOc
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgWOcTm
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgWOd
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgWOdTm
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pSgWOhTm
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pWOb
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pWOc
++ _$s19ExtensionFoundation09_InnerAppA8Identity_pWOcTm
++ _$s19ExtensionFoundation0A13PointDefiningMp
++ _$s19ExtensionFoundation0A13PointDefining_pMF
++ _$s19ExtensionFoundation0A16KitInternalErrorO11descriptionSSvg
++ _$s19ExtensionFoundation0A16KitInternalErrorO11descriptionSSvpMV
++ _$s19ExtensionFoundation0A16KitInternalErrorO17prototypeAPIUsageyA2CmFWC
++ _$s19ExtensionFoundation0A16KitInternalErrorO17prototypeSPIUsageyA2CmFWC
++ _$s19ExtensionFoundation0A16KitInternalErrorO2eeoiySbAC_ACtFZ
++ _$s19ExtensionFoundation0A16KitInternalErrorO4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation0A16KitInternalErrorO9hashValueSivg
++ _$s19ExtensionFoundation0A16KitInternalErrorO9hashValueSivpMV
++ _$s19ExtensionFoundation0A16KitInternalErrorOACSQAAWL
++ _$s19ExtensionFoundation0A16KitInternalErrorOACSQAAWl
++ _$s19ExtensionFoundation0A16KitInternalErrorOACs0E0AAWL
++ _$s19ExtensionFoundation0A16KitInternalErrorOACs0E0AAWl
++ _$s19ExtensionFoundation0A16KitInternalErrorOMF
++ _$s19ExtensionFoundation0A16KitInternalErrorOMa
++ _$s19ExtensionFoundation0A16KitInternalErrorOMf
++ _$s19ExtensionFoundation0A16KitInternalErrorOMn
++ _$s19ExtensionFoundation0A16KitInternalErrorON
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAAMc
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAAMcMK
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOSHAASQWb
++ _$s19ExtensionFoundation0A16KitInternalErrorOSQAAMc
++ _$s19ExtensionFoundation0A16KitInternalErrorOSQAAMcMK
++ _$s19ExtensionFoundation0A16KitInternalErrorOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOWV
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAMc
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAMcMK
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAsADP5_codeSivgTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAsADP7_domainSSvgTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOs0E0AAsADP9_userInfoyXlSgvgTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation0A16KitInternalErrorOs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation0A16KitInternalErrorOs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s19ExtensionFoundation0A16KitInternalErrorOwet
++ _$s19ExtensionFoundation0A16KitInternalErrorOwst
++ _$s19ExtensionFoundation0A16KitInternalErrorOwug
++ _$s19ExtensionFoundation0A16KitInternalErrorOwui
++ _$s19ExtensionFoundation0A16KitInternalErrorOwup
++ _$s19ExtensionFoundation0A4MainC011makeRunningA03forAA010_EXRunningA0CAA0A4TypeO_tKFTq
++ _$s19ExtensionFoundation0A4MainC21extensionTypeRegistry33_E892ECFE0CD9431EBAF9E81000B17DEELLSDyAA0aE0OAA010_EXRunningA0CycGvpWvd
++ _$s19ExtensionFoundation0A4MainC5start13withArguments5countSiSpySPys4Int8VGGSg_SitFTq
++ _$s19ExtensionFoundation0A4MainC6sharedACvgZ
++ _$s19ExtensionFoundation0A4MainC6sharedACvpZ
++ _$s19ExtensionFoundation0A4MainC6sharedACvpZMV
++ _$s19ExtensionFoundation0A4MainC6shared_WZ
++ _$s19ExtensionFoundation0A4MainC6shared_Wz
++ _$s19ExtensionFoundation0A4MainC8register13extensionType7factoryyAA0aF0O_yXlyctF
++ _$s19ExtensionFoundation0A4MainC8register13extensionType7factoryyAA0aF0O_yXlyctFAA010_EXRunningA0CycfU_TA
++ _$s19ExtensionFoundation0A4MainC8register13extensionType7factoryyAA0aF0O_yXlyctFTj
++ _$s19ExtensionFoundation0A4MainC8register13extensionType7factoryyAA0aF0O_yXlyctFTq
++ _$s19ExtensionFoundation0A4MainCACycfCTq
++ _$s19ExtensionFoundation0A4MainCACycfcAA010_EXRunningA0CycfU0_
++ _$s19ExtensionFoundation0A4MainCACycfcAA010_EXRunningA0CycfU_
++ _$s19ExtensionFoundation0A4MainCACycfcAA010_EXRunningA0CycfU_Tm
++ _$s19ExtensionFoundation0A4MainCMF
++ _$s19ExtensionFoundation0A4MainCMa
++ _$s19ExtensionFoundation0A4MainCMf
++ _$s19ExtensionFoundation0A4MainCMm
++ _$s19ExtensionFoundation0A4MainCMn
++ _$s19ExtensionFoundation0A4MainCMo
++ _$s19ExtensionFoundation0A4MainCMu
++ _$s19ExtensionFoundation0A4MainCN
++ _$s19ExtensionFoundation0A4MainCfD
++ _$s19ExtensionFoundation0A4MainCfd
++ _$s19ExtensionFoundation0A4TypeO02nsA0yA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO12viewBridgeUIyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO13UIKitUILegacyyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO13libXPCServiceyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO15catalystUIKitUIyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO21catalystUIKitUILegacyyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO7UIKitUIyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO7serviceyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeO8rawValueACSgSi_tcfC
++ _$s19ExtensionFoundation0A4TypeO8rawValueSivg
++ _$s19ExtensionFoundation0A4TypeO8rawValueSivpMV
++ _$s19ExtensionFoundation0A4TypeO9FBSceneUIyA2CmFWC
++ _$s19ExtensionFoundation0A4TypeOACSEAAWL
++ _$s19ExtensionFoundation0A4TypeOACSEAAWl
++ _$s19ExtensionFoundation0A4TypeOACSQAAWL
++ _$s19ExtensionFoundation0A4TypeOACSQAAWl
++ _$s19ExtensionFoundation0A4TypeOACSYAAWL
++ _$s19ExtensionFoundation0A4TypeOACSYAAWl
++ _$s19ExtensionFoundation0A4TypeOACSeAAWL
++ _$s19ExtensionFoundation0A4TypeOACSeAAWl
++ _$s19ExtensionFoundation0A4TypeOMF
++ _$s19ExtensionFoundation0A4TypeOMa
++ _$s19ExtensionFoundation0A4TypeOMf
++ _$s19ExtensionFoundation0A4TypeOMn
++ _$s19ExtensionFoundation0A4TypeON
++ _$s19ExtensionFoundation0A4TypeOSEAAMc
++ _$s19ExtensionFoundation0A4TypeOSEAAMcMK
++ _$s19ExtensionFoundation0A4TypeOSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s19ExtensionFoundation0A4TypeOSHAAMc
++ _$s19ExtensionFoundation0A4TypeOSHAAMcMK
++ _$s19ExtensionFoundation0A4TypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation0A4TypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation0A4TypeOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation0A4TypeOSHAASQWb
++ _$s19ExtensionFoundation0A4TypeOSQAAMc
++ _$s19ExtensionFoundation0A4TypeOSQAAMcMK
++ _$s19ExtensionFoundation0A4TypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation0A4TypeOSYAAMA
++ _$s19ExtensionFoundation0A4TypeOSYAAMc
++ _$s19ExtensionFoundation0A4TypeOSYAAMcMK
++ _$s19ExtensionFoundation0A4TypeOSYAASY8rawValue03RawE0QzvgTW
++ _$s19ExtensionFoundation0A4TypeOSYAASY8rawValuexSg03RawE0Qz_tcfCTW
++ _$s19ExtensionFoundation0A4TypeOSeAAMc
++ _$s19ExtensionFoundation0A4TypeOSeAAMcMK
++ _$s19ExtensionFoundation0A4TypeOSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s19ExtensionFoundation0A4TypeOWV
++ _$s19ExtensionFoundation0A4TypeOwet
++ _$s19ExtensionFoundation0A4TypeOwst
++ _$s19ExtensionFoundation0A4TypeOwug
++ _$s19ExtensionFoundation0A4TypeOwui
++ _$s19ExtensionFoundation0A4TypeOwup
++ _$s19ExtensionFoundation10AuditTokenV020canHostOrDiscoverAnyA0Sbvg
++ _$s19ExtensionFoundation10AuditTokenV11descriptionSSvg
++ _$s19ExtensionFoundation10AuditTokenV7currentACvpZ
++ _$s19ExtensionFoundation10AuditTokenV7current_WZ
++ _$s19ExtensionFoundation10AuditTokenV7current_Wz
++ _$s19ExtensionFoundation10AuditTokenVACSHAAWL
++ _$s19ExtensionFoundation10AuditTokenVACSHAAWl
++ _$s19ExtensionFoundation10AuditTokenVACSQAAWL
++ _$s19ExtensionFoundation10AuditTokenVACSQAAWl
++ _$s19ExtensionFoundation10AuditTokenVMF
++ _$s19ExtensionFoundation10AuditTokenVMa
++ _$s19ExtensionFoundation10AuditTokenVMf
++ _$s19ExtensionFoundation10AuditTokenVMn
++ _$s19ExtensionFoundation10AuditTokenVN
++ _$s19ExtensionFoundation10AuditTokenVSHAAMc
++ _$s19ExtensionFoundation10AuditTokenVSHAAMcMK
++ _$s19ExtensionFoundation10AuditTokenVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation10AuditTokenVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation10AuditTokenVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation10AuditTokenVSHAASQWb
++ _$s19ExtensionFoundation10AuditTokenVSQAAMc
++ _$s19ExtensionFoundation10AuditTokenVSQAAMcMK
++ _$s19ExtensionFoundation10AuditTokenVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation10AuditTokenVWV
++ _$s19ExtensionFoundation10AuditTokenVs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation10AuditTokenVs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation10AuditTokenVs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s19ExtensionFoundation10AuditTokenVwet
++ _$s19ExtensionFoundation10AuditTokenVwst
++ _$s19ExtensionFoundation10InnerQueryMp
++ _$s19ExtensionFoundation10InnerQueryP05innerD4TypeAA8_EXQueryC0cdF0OvgZTj
++ _$s19ExtensionFoundation10InnerQueryP05innerD4TypeAA8_EXQueryC0cdF0OvgZTq
++ _$s19ExtensionFoundation10InnerQueryP14hostAuditTokenSo13audit_token_tavgTj
++ _$s19ExtensionFoundation10InnerQueryP14hostAuditTokenSo13audit_token_tavgTq
++ _$s19ExtensionFoundation10InnerQueryP21extensionPointRecordsSaySo011LSExtensionF6RecordCGvgTj
++ _$s19ExtensionFoundation10InnerQueryP21extensionPointRecordsSaySo011LSExtensionF6RecordCGvgTq
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvMTj
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvMTq
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvgTj
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvgTq
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvsTj
++ _$s19ExtensionFoundation10InnerQueryP24extensionPointIdentifierSSSgvsTq
++ _$s19ExtensionFoundation10InnerQueryP5coderxSo7NSCoderC_tKcfCTj
++ _$s19ExtensionFoundation10InnerQueryP5coderxSo7NSCoderC_tKcfCTq
++ _$s19ExtensionFoundation10InnerQueryP6encode4withySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation10InnerQueryP6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvMTj
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvMTq
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvgTj
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvgTq
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvsTj
++ _$s19ExtensionFoundation10InnerQueryP8platforms6UInt32VvsTq
++ _$s19ExtensionFoundation10InnerQueryTL
++ _$s19ExtensionFoundation10InnerQuery_pMF
++ _$s19ExtensionFoundation10InnerQuery_pWOb
++ _$s19ExtensionFoundation10InnerQuery_pWOc
++ _$s19ExtensionFoundation10_EXServiceC15runAsXPCServiceyyFZTo
++ _$s19ExtensionFoundation10_EXServiceCACycfC
++ _$s19ExtensionFoundation10_EXServiceCACycfc
++ _$s19ExtensionFoundation10_EXServiceCACycfcTo
++ _$s19ExtensionFoundation10_EXServiceCMF
++ _$s19ExtensionFoundation10_EXServiceCMa
++ _$s19ExtensionFoundation10_EXServiceCMf
++ _$s19ExtensionFoundation10_EXServiceCMn
++ _$s19ExtensionFoundation10_EXServiceCMo
++ _$s19ExtensionFoundation10_EXServiceCN
++ _$s19ExtensionFoundation10_EXServiceCfD
++ _$s19ExtensionFoundation10_EXServiceCfDTm
++ _$s19ExtensionFoundation10_EXServiceCfETo
++ _$s19ExtensionFoundation11_EmptySceneV12shouldAccept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation11_EmptySceneVAA01_D0A2aDP05_makeD04withSo8NSObjectCSgAI_tFTW
++ _$s19ExtensionFoundation11_EmptySceneVAA01_D0A2aDP12shouldAccept10connectionSbSo15NSXPCConnectionC_tFTW
++ _$s19ExtensionFoundation11_EmptySceneVAA01_D0AAMc
++ _$s19ExtensionFoundation11_EmptySceneVAA01_D0AAWP
++ _$s19ExtensionFoundation11_EmptySceneVACycfC
++ _$s19ExtensionFoundation11_EmptySceneVMF
++ _$s19ExtensionFoundation11_EmptySceneVMa
++ _$s19ExtensionFoundation11_EmptySceneVMf
++ _$s19ExtensionFoundation11_EmptySceneVMn
++ _$s19ExtensionFoundation11_EmptySceneVN
++ _$s19ExtensionFoundation12InnerProcess33_78C62825B57214473F4122DB815D7624LLMp
++ _$s19ExtensionFoundation12InnerProcess33_78C62825B57214473F4122DB815D7624LLPMXX
++ _$s19ExtensionFoundation12InnerProcess33_78C62825B57214473F4122DB815D7624LL_pMF
++ _$s19ExtensionFoundation13_SceneBuilderV10buildBlockyxxAA01_C0RzlFZ
++ _$s19ExtensionFoundation13_SceneBuilderVMF
++ _$s19ExtensionFoundation13_SceneBuilderVMa
++ _$s19ExtensionFoundation13_SceneBuilderVMf
++ _$s19ExtensionFoundation13_SceneBuilderVMn
++ _$s19ExtensionFoundation13_SceneBuilderVN
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC04makeC04withSo8_EXScene_pSgSo01_P13ConfigurationC_tF
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC04makeC04withSo8_EXScene_pSgSo01_P13ConfigurationC_tFTo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC12shouldAcceptySbSo15NSXPCConnectionCF
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC12shouldAcceptySbSo15NSXPCConnectionCFTo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC18didFinishLaunchingyyFTo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLC19willFinishLaunchingyyFTo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCADyxGycfcTf4d_n
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCADyxGycfcTo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMF
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMI
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMP
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMXX
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMa
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMi
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMn
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCMr
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCfD
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCfETo
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCyADyxGxcfCTf4gn_n
++ _$s19ExtensionFoundation13_SceneWrapper33_B81E6CBE6D6818B9AABC85E10194C8B4LLCyADyxGxcfcTf4gn_n
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVAESQAAWL
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVAESQAAWl
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVMF
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVMa
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVMf
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVMn
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVN
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAAMc
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAAMcMK
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSHAASQWb
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSQAAMc
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSQAAMcMK
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVWV
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVwet
++ _$s19ExtensionFoundation14_EXActiveQueryC06ActiveD8ObserverVwst
++ _$s19ExtensionFoundation14_EXActiveQueryC11descriptionSSvg
++ _$s19ExtensionFoundation14_EXActiveQueryC11descriptionSSvgTq
++ _$s19ExtensionFoundation14_EXActiveQueryC12currentUUIDsShy0B04UUIDVGvMTq
++ _$s19ExtensionFoundation14_EXActiveQueryC12currentUUIDsShy0B04UUIDVGvgTq
++ _$s19ExtensionFoundation14_EXActiveQueryC12currentUUIDsShy0B04UUIDVGvpWvd
++ _$s19ExtensionFoundation14_EXActiveQueryC12currentUUIDsShy0B04UUIDVGvsTq
++ _$s19ExtensionFoundation14_EXActiveQueryC17internalObserversShyAC06ActiveD8ObserverVGvMTq
++ _$s19ExtensionFoundation14_EXActiveQueryC17internalObserversShyAC06ActiveD8ObserverVGvgTq
++ _$s19ExtensionFoundation14_EXActiveQueryC17internalObserversShyAC06ActiveD8ObserverVGvpWvd
++ _$s19ExtensionFoundation14_EXActiveQueryC17internalObserversShyAC06ActiveD8ObserverVGvsTq
++ _$s19ExtensionFoundation14_EXActiveQueryC19discoveryControllerAA012_EXDiscoveryF0CvpWvd
++ _$s19ExtensionFoundation14_EXActiveQueryC20internalNewObserversShyAC06ActiveD8ObserverVGvMTq
++ _$s19ExtensionFoundation14_EXActiveQueryC20internalNewObserversShyAC06ActiveD8ObserverVGvgTq
++ _$s19ExtensionFoundation14_EXActiveQueryC20internalNewObserversShyAC06ActiveD8ObserverVGvpWvd
++ _$s19ExtensionFoundation14_EXActiveQueryC20internalNewObserversShyAC06ActiveD8ObserverVGvsTq
++ _$s19ExtensionFoundation14_EXActiveQueryC3addyyAA01_cD8Observer_pFTq
++ _$s19ExtensionFoundation14_EXActiveQueryC4hash4intoys6HasherVz_tFTq
++ _$s19ExtensionFoundation14_EXActiveQueryC5query19discoveryControllerAcA8_EXQueryC_AA012_EXDiscoveryG0CtcfCTq
++ _$s19ExtensionFoundation14_EXActiveQueryC5queryAA8_EXQueryCvpWvd
++ _$s19ExtensionFoundation14_EXActiveQueryC6removeyyAA01_cD8Observer_pFTq
++ _$s19ExtensionFoundation14_EXActiveQueryC6updateyyF
++ _$s19ExtensionFoundation14_EXActiveQueryC6updateyyFTq
++ _$s19ExtensionFoundation14_EXActiveQueryC9hashValueSivgTq
++ _$s19ExtensionFoundation14_EXActiveQueryC9observersSayAA01_cD8Observer_pGvgTq
++ _$s19ExtensionFoundation14_EXActiveQueryCACSQAAWL
++ _$s19ExtensionFoundation14_EXActiveQueryCACSQAAWlTm
++ _$s19ExtensionFoundation14_EXActiveQueryCMF
++ _$s19ExtensionFoundation14_EXActiveQueryCMa
++ _$s19ExtensionFoundation14_EXActiveQueryCMf
++ _$s19ExtensionFoundation14_EXActiveQueryCMm
++ _$s19ExtensionFoundation14_EXActiveQueryCMn
++ _$s19ExtensionFoundation14_EXActiveQueryCN
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAAMc
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAAMcMK
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation14_EXActiveQueryCSHAASQWb
++ _$s19ExtensionFoundation14_EXActiveQueryCSQAAMc
++ _$s19ExtensionFoundation14_EXActiveQueryCSQAAMcMK
++ _$s19ExtensionFoundation14_EXActiveQueryCSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation14_EXActiveQueryCfD
++ _$s19ExtensionFoundation14_EXActiveQueryCs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation14_EXActiveQueryCs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation14_EXActiveQueryCs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s19ExtensionFoundation14_EXQueryResultC10identitiesACShySo20_EXExtensionIdentityCG_tcfCTq
++ _$s19ExtensionFoundation14_EXQueryResultC10identitiesACShySo20_EXExtensionIdentityCG_tcfcTo
++ _$s19ExtensionFoundation14_EXQueryResultC10identitiesShySo20_EXExtensionIdentityCGSgvgTo
++ _$s19ExtensionFoundation14_EXQueryResultC10identitiesShySo20_EXExtensionIdentityCGSgvpWvd
++ _$s19ExtensionFoundation14_EXQueryResultC13availablilityAA25_EXExtensionAvailablilityCSgvgTo
++ _$s19ExtensionFoundation14_EXQueryResultC13availablilityAA25_EXExtensionAvailablilityCSgvpWvd
++ _$s19ExtensionFoundation14_EXQueryResultC13availablilityAcA25_EXExtensionAvailablilityC_tcfCTq
++ _$s19ExtensionFoundation14_EXQueryResultC13availablilityAcA25_EXExtensionAvailablilityC_tcfcTo
++ _$s19ExtensionFoundation14_EXQueryResultC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation14_EXQueryResultC20supportsSecureCodingSbvgZTq
++ _$s19ExtensionFoundation14_EXQueryResultC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation14_EXQueryResultC5coderACSgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation14_EXQueryResultC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation14_EXQueryResultC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation14_EXQueryResultC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation14_EXQueryResultC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation14_EXQueryResultCACycfcTo
++ _$s19ExtensionFoundation14_EXQueryResultCMF
++ _$s19ExtensionFoundation14_EXQueryResultCMa
++ _$s19ExtensionFoundation14_EXQueryResultCMf
++ _$s19ExtensionFoundation14_EXQueryResultCMn
++ _$s19ExtensionFoundation14_EXQueryResultCN
++ _$s19ExtensionFoundation14_EXQueryResultCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TR
++ _$s19ExtensionFoundation14_EXQueryResultCSgs5Error_pSgIeggg_ADSo7NSErrorCSgIeyByy_TRTm
++ _$s19ExtensionFoundation14_EXQueryResultCfD
++ _$s19ExtensionFoundation14_EXQueryResultCfDTm
++ _$s19ExtensionFoundation14_EXQueryResultCfETo
++ _$s19ExtensionFoundation15EXExtensionMainyS2i_SpySPys4Int8VGGSgtF
++ _$s19ExtensionFoundation15EnablementStateVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation15EnablementStateVs10SetAlgebraAAsADP10isSuperset2ofSbx_tFTW
++ _$s19ExtensionFoundation15EnablementStateVs10SetAlgebraAAsADP12intersectionyxxFTW
++ _$s19ExtensionFoundation15EnablementStateVs10SetAlgebraAAsADP16formIntersectionyyxFTW
++ _$s19ExtensionFoundation15EnablementStateVs10SetAlgebraAAsADP8isSubset2ofSbx_tFTW
++ _$s19ExtensionFoundation15EnablementStateVs10SetAlgebraAAsADP9formUnionyyxnFTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFSQAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFSQAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs0E3KeyAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs0E3KeyAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs23CustomStringConvertibleAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs23CustomStringConvertibleAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMF
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMXX
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMa
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMf
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMn
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQWb
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOWV
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAs23CustomStringConvertiblePWb
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAsAGP11stringValueSSvgTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAsAGP8intValueSiSgvgTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwet
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwst
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwug
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwui
++ _$s19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwup
++ _$s19ExtensionFoundation15LaunchArgumentsV4fromACs7Decoder_p_tKcfC
++ _$s19ExtensionFoundation15LaunchArgumentsV6encode2toys7Encoder_p_tKF
++ _$s19ExtensionFoundation15LaunchArgumentsVACSEAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsVACSEAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsVACSeAAWL
++ _$s19ExtensionFoundation15LaunchArgumentsVACSeAAWl
++ _$s19ExtensionFoundation15LaunchArgumentsVMF
++ _$s19ExtensionFoundation15LaunchArgumentsVMa
++ _$s19ExtensionFoundation15LaunchArgumentsVMf
++ _$s19ExtensionFoundation15LaunchArgumentsVMn
++ _$s19ExtensionFoundation15LaunchArgumentsVN
++ _$s19ExtensionFoundation15LaunchArgumentsVSEAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsVSEAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s19ExtensionFoundation15LaunchArgumentsVSeAAMc
++ _$s19ExtensionFoundation15LaunchArgumentsVSeAAMcMK
++ _$s19ExtensionFoundation15LaunchArgumentsVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s19ExtensionFoundation15LaunchArgumentsVWV
++ _$s19ExtensionFoundation15LaunchArgumentsVwet
++ _$s19ExtensionFoundation15LaunchArgumentsVwst
++ _$s19ExtensionFoundation15QueryControllerC025updateCachedIdentitiesForC0yyAA8_EXQueryCFTq
++ _$s19ExtensionFoundation15QueryControllerC05asyncC5Queue33_E449C621CE871E4D1A62DE3768717B2FLLSo17OS_dispatch_queueCvpZ
++ _$s19ExtensionFoundation15QueryControllerC05asyncC5Queue33_E449C621CE871E4D1A62DE3768717B2FLL_WZ
++ _$s19ExtensionFoundation15QueryControllerC05asyncC5Queue33_E449C621CE871E4D1A62DE3768717B2FLL_Wz
++ _$s19ExtensionFoundation15QueryControllerC11descriptionSSvgTo
++ _$s19ExtensionFoundation15QueryControllerC14extensionsLock33_E449C621CE871E4D1A62DE3768717B2FLL2os017OSAllocatedUnfairF0VyytGvpWvd
++ _$s19ExtensionFoundation15QueryControllerC15_unelectedCount33_E449C621CE871E4D1A62DE3768717B2FLLSivpWvd
++ _$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CF
++ _$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFTo
++ _$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFTq
++ _$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFyyYbcfU1_TA
++ _$s19ExtensionFoundation15QueryControllerC17notificationQueue33_E449C621CE871E4D1A62DE3768717B2FLLSo17OS_dispatch_queueCvpWvd
++ _$s19ExtensionFoundation15QueryControllerC19_internalExtensions33_E449C621CE871E4D1A62DE3768717B2FLLShySo20_EXExtensionIdentityCGSgvpWvd
++ _$s19ExtensionFoundation15QueryControllerC19extensionIdentitiesSaySo20_EXExtensionIdentityCGvgTq
++ _$s19ExtensionFoundation15QueryControllerC21availabilityDidChangeyyAA25_EXExtensionAvailablilityCFTq
++ _$s19ExtensionFoundation15QueryControllerC22remapCurrentIdentitiesyyF
++ _$s19ExtensionFoundation15QueryControllerC22remapCurrentIdentitiesyyFTq
++ _$s19ExtensionFoundation15QueryControllerC22remapCurrentIdentitiesyyFyyYbXEfU_
++ _$s19ExtensionFoundation15QueryControllerC22remapCurrentIdentitiesyyFyyYbXEfU_TA
++ _$s19ExtensionFoundation15QueryControllerC23remapIdentityIfPossibleySo012_EXExtensionF0CAFFTq
++ _$s19ExtensionFoundation15QueryControllerC2id0B04UUIDVvpWvd
++ _$s19ExtensionFoundation15QueryControllerC5query_15resultDidUpdateyAA8_EXQueryC_AA01_i6ResultH0CtFTq
++ _$s19ExtensionFoundation15QueryControllerC6resumeyyF
++ _$s19ExtensionFoundation15QueryControllerC6resumeyyFTq
++ _$s19ExtensionFoundation15QueryControllerC6resumeyyFyAA14_EXQueryResultCcfU_
++ _$s19ExtensionFoundation15QueryControllerC6resumeyyFyAA14_EXQueryResultCcfU_TA
++ _$s19ExtensionFoundation15QueryControllerC7execute7queries10completionySayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctFZTf4nnd_n
++ _$s19ExtensionFoundation15QueryControllerC7execute7queries10completionySayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctFZyAA01_H6ResultCcfU0_
++ _$s19ExtensionFoundation15QueryControllerC7execute7queries10completionySayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctFZyAA01_H6ResultCcfU0_TA
++ _$s19ExtensionFoundation15QueryControllerC7execute7queries10completionySayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctFZyyYbcfU_
++ _$s19ExtensionFoundation15QueryControllerC7execute7queries10completionySayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctFZyyYbcfU_TA
++ _$s19ExtensionFoundation15QueryControllerC7execute7queriesSaySo20_EXExtensionIdentityCGSayAA8_EXQueryCG_tFZTf4nd_n
++ _$s19ExtensionFoundation15QueryControllerC7queriesACSayAA8_EXQueryCG_tcfCTq
++ _$s19ExtensionFoundation15QueryControllerC7queriesACSayAA8_EXQueryCG_tcfc
++ _$s19ExtensionFoundation15QueryControllerC7queriesSayAA8_EXQueryCGvgTq
++ _$s19ExtensionFoundation15QueryControllerC7suspendyyF
++ _$s19ExtensionFoundation15QueryControllerC7suspendyyFTq
++ _$s19ExtensionFoundation15QueryControllerC8_queries33_E449C621CE871E4D1A62DE3768717B2FLLSayAA8_EXQueryCGvpWvd
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVMF
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVMa
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVMf
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVMn
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVN
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVSgWOe
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVSgWOy
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVWV
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVwet
++ _$s19ExtensionFoundation15QueryControllerC9CallbacksVwst
++ _$s19ExtensionFoundation15QueryControllerC9callbacksAC9CallbacksVSgvMTq
++ _$s19ExtensionFoundation15QueryControllerC9callbacksAC9CallbacksVSgvgTq
++ _$s19ExtensionFoundation15QueryControllerC9callbacksAC9CallbacksVSgvpWvd
++ _$s19ExtensionFoundation15QueryControllerC9callbacksAC9CallbacksVSgvsTq
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverA2aDP025updateCachedIdentitiesForC0yyAA8_EXQueryCFTW
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverA2aDP5query_15resultDidUpdateyAA8_EXQueryC_AA01_k6ResultJ0CtFTW
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverAAMc
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverAAMcMK
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverAAWI
++ _$s19ExtensionFoundation15QueryControllerCAA09_EXActiveC8ObserverAAWP
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverA2aDP5query_15resultDidUpdateyAA8_EXQueryC_AA01_l6ResultK0CtFTW
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverA2aDP7queriesSayAA8_EXQueryCGvgTW
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverAAMc
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverAAMcMK
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverAAWI
++ _$s19ExtensionFoundation15QueryControllerCAA24_EXServiceClientObserverAAWP
++ _$s19ExtensionFoundation15QueryControllerCACs12IdentifiableAAWL
++ _$s19ExtensionFoundation15QueryControllerCACycfcTo
++ _$s19ExtensionFoundation15QueryControllerCAcA09_EXActiveC8ObserverAAWL
++ _$s19ExtensionFoundation15QueryControllerCAcA24_EXServiceClientObserverAAWL
++ _$s19ExtensionFoundation15QueryControllerCMF
++ _$s19ExtensionFoundation15QueryControllerCMU
++ _$s19ExtensionFoundation15QueryControllerCMa
++ _$s19ExtensionFoundation15QueryControllerCMf
++ _$s19ExtensionFoundation15QueryControllerCMl
++ _$s19ExtensionFoundation15QueryControllerCMn
++ _$s19ExtensionFoundation15QueryControllerCMr
++ _$s19ExtensionFoundation15QueryControllerCN
++ _$s19ExtensionFoundation15QueryControllerCSo8NSObjectCSH10ObjectiveCWL
++ _$s19ExtensionFoundation15QueryControllerCfD
++ _$s19ExtensionFoundation15QueryControllerCfDTo
++ _$s19ExtensionFoundation15QueryControllerCfETo
++ _$s19ExtensionFoundation15QueryControllerCs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation15QueryControllerCs12IdentifiableAAMA
++ _$s19ExtensionFoundation15QueryControllerCs12IdentifiableAAMc
++ _$s19ExtensionFoundation15QueryControllerCs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation15QueryControllerCs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation16ListenerDelegateC7handlerAA010_EXRunningA0CvpWvd
++ _$s19ExtensionFoundation16ListenerDelegateC8listener_10didReceive11withContextySo019BSServiceConnectionC0C_So0jK4Host_So0jK0CXcSo13BSXPCDecoding_ptFTf4dndn_n
++ _$s19ExtensionFoundation16ListenerDelegateC8listener_10didReceive11withContextySo019BSServiceConnectionC0C_So0jK4Host_So0jK0CXcSo13BSXPCDecoding_ptFTo
++ _$s19ExtensionFoundation16ListenerDelegateC8listener_10didReceive11withContextySo019BSServiceConnectionC0C_So0jK4Host_So0jK0CXcSo13BSXPCDecoding_ptFTq
++ _$s19ExtensionFoundation16ListenerDelegateCACycfcTo
++ _$s19ExtensionFoundation16ListenerDelegateCMF
++ _$s19ExtensionFoundation16ListenerDelegateCMa
++ _$s19ExtensionFoundation16ListenerDelegateCMf
++ _$s19ExtensionFoundation16ListenerDelegateCMn
++ _$s19ExtensionFoundation16ListenerDelegateCN
++ _$s19ExtensionFoundation16ListenerDelegateCfD
++ _$s19ExtensionFoundation16ListenerDelegateCfETo
++ _$s19ExtensionFoundation16ListenerDelegateCyAcA010_EXRunningA0CcfCTq
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetC5innerShys11AnyHashableVGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetC6insertyyxAA01_cdN0RzlF
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetC6removeyyxAA01_cdN0RzlF
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCMF
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCMa
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCMf
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCMm
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCMn
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCN
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetCfD
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC10_observersAF07ServiceD11ObserverSetCvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC10connectionSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC11xpcListenerSo13NSXPCListenerCvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC4hashSivgTo
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC5queryAA8_EXQueryCvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC5query_15resultDidUpdate5replyyAA8_EXQueryC_AA01_r6ResultP0CyyctF13$sIeyB_Ieg_TRIeyB_Tf1nncn_nTf4nnng_n
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC5query_15resultDidUpdate5replyyAA8_EXQueryC_AA01_r6ResultP0CyyctFTo
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC7isEqualySbypSgF
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC7startedSbvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTf4dnn_n
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTo
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU_Tm
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCAFycfcTo
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCMF
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCMXX
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCMa
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCMf
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCMn
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCN
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCSo8NSObjectCSH10ObjectiveCWL
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCfD
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCfDTm
++ _$s19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLCfETo
++ _$s19ExtensionFoundation16_EXServiceClientC10extensions4withAA14_EXQueryResultCSayAA01_G0CG_tF
++ _$s19ExtensionFoundation16_EXServiceClientC11addObserveryyAC0F0CKF
++ _$s19ExtensionFoundation16_EXServiceClientC11notifyQueue33_591406279EDD09BF7033B88E7B83DCFDLLSo17OS_dispatch_queueCvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctF
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFyAJSg_s5Error_pSgtcfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFyAJSg_s5Error_pSgtcfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFyAJSg_s5Error_pSgtcfU0_TA.128
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFys5Error_pcfU_
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFys5Error_pcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC12fetchResults4with10completionyAA8_EXQueryC_yAA01_I6ResultCctFys5Error_pcfU_TA.121
++ _$s19ExtensionFoundation16_EXServiceClientC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKF
++ _$s19ExtensionFoundation16_EXServiceClientC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_
++ _$s19ExtensionFoundation16_EXServiceClientC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_yAX11TerminationOyALsAO_p__GYbcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC13activeQueries33_591406279EDD09BF7033B88E7B83DCFDLLShyAC06ActiveD5QueryAELLCGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC14connectionLock33_591406279EDD09BF7033B88E7B83DCFDLL2os017OSAllocatedUnfairF0VyytGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC14removeObserveryyAC0F0CF
++ _$s19ExtensionFoundation16_EXServiceClientC15activeObservers33_591406279EDD09BF7033B88E7B83DCFDLLSDy0B04UUIDVAC8ObserverCGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC15fetchExtensions4with10completionySayAA8_EXQueryCG_yAA01_I6ResultCctF
++ _$s19ExtensionFoundation16_EXServiceClientC15fetchExtensions4with10completionySayAA8_EXQueryCG_yAA01_I6ResultCctFyAKcfU_
++ _$s19ExtensionFoundation16_EXServiceClientC15fetchExtensions4with10completionySayAA8_EXQueryCG_yAA01_I6ResultCctFyAKcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC15fetchExtensions4with10completionySayAA8_EXQueryCG_yAA01_I6ResultCctFyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC15fetchExtensions4with10completionySayAA8_EXQueryCG_yAA01_I6ResultCctFyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvg
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC17_launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC17activeQueriesLock33_591406279EDD09BF7033B88E7B83DCFDLL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvg
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvg
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC19_observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC19_tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC19activeObserversLock33_591406279EDD09BF7033B88E7B83DCFDLL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvg
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU0_yytz_tYbXEfU_Tm
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgyycfU1_yytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC20_discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC22reconnectActiveQueriesyyFyytz_tYbXEfU_
++ _$s19ExtensionFoundation16_EXServiceClientC22reconnectActiveQueriesyyFyytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC24reconnectActiveObserversyyF
++ _$s19ExtensionFoundation16_EXServiceClientC31photoServiceAuthorizationStatus3fory0B04UUIDV_tKF
++ _$s19ExtensionFoundation16_EXServiceClientC31photoServiceAuthorizationStatus3fory0B04UUIDV_tKFTo
++ _$s19ExtensionFoundation16_EXServiceClientC31photoServiceAuthorizationStatus3fory0B04UUIDV_tKFySb_s5Error_pSgtcfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC31photoServiceAuthorizationStatus3fory0B04UUIDV_tKFySb_s5Error_pSgtcfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC31photoServiceAuthorizationStatus3fory0B04UUIDV_tKFys5Error_pcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC3add13queryObserveryAA01_cdG0_p_tFyytz_tYbXEfU_
++ _$s19ExtensionFoundation16_EXServiceClientC3add13queryObserveryAA01_cdG0_p_tFyytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC5begin33_591406279EDD09BF7033B88E7B83DCFDLL11activeQueryyAC06ActivedM0AELLC_tFys5Error_pSgcfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC5begin33_591406279EDD09BF7033B88E7B83DCFDLL11activeQueryyAC06ActivedM0AELLC_tFys5Error_pcfU_
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKF
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFyAGSg_So7NSErrorCSgtcfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFyAGSg_So7NSErrorCSgtcfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFys5Error_pcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFys5Error_pcfU_Tm
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFyycfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC6launch4withAA25_EXExtensionProcessHandleCAA22_EXLaunchConfigurationC_tKFyycfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC6remove13queryObserveryAA01_cdG0_p_tFyytz_tYbXEfU_
++ _$s19ExtensionFoundation16_EXServiceClientC6remove13queryObserveryAA01_cdG0_p_tFyytz_tYbXEfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tF
++ _$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5Error_pSgtcfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5Error_pSgtcfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFys5Error_pcfU_
++ _$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFys5Error_pcfU_Tm
++ _$s19ExtensionFoundation16_EXServiceClientC6sharedACvgZTo
++ _$s19ExtensionFoundation16_EXServiceClientC6sharedACvpZ
++ _$s19ExtensionFoundation16_EXServiceClientC6shared_WZ
++ _$s19ExtensionFoundation16_EXServiceClientC6shared_Wz
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC10connection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCSgvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC10invalidateyyFTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC12continuationScs12ContinuationVyAA03AppA5PointV7MonitorC5StateVs5Error_p_GvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC2id0B04UUIDVvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC4hashSivgTo
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC4hostAA10AuditTokenVvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC5resetyyFTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKF
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFyAA7ServiceC0E6UpdateCSg_s5Error_pSgtcfU1_
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFyAA7ServiceC0E6UpdateCSg_s5Error_pSgtcfU1_TA
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFys5Error_pcfU_
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFys5Error_pcfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8endpointSo21NSXPCListenerEndpointCvgTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8identity4host12continuationAeA03AppA5PointV7MonitorC8IdentityV_AA10AuditTokenVScs12ContinuationVyAL5StateVs5Error_p_GtcfCTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8identityAA03AppA5PointV7MonitorC8IdentityVvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener33_591406279EDD09BF7033B88E7B83DCFDLLSo13NSXPCListenerCvpWvd
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTf4dnn_n
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTo
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU0_
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU0_TA
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU_
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFyycfU_TA
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8observer_5replyyAA7ServiceC0E6UpdateC_yyctF13$sIeyB_Ieg_TRIeyB_Tf1ncn_nTf4nng_n
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8observer_5replyyAA7ServiceC0E6UpdateC_yyctFTo
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverC8observer_5replyyAA7ServiceC0E6UpdateC_yyctFTq
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCAEycfcTo
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMF
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMU
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMa
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMf
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMl
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMn
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCMr
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCN
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCfD
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCfETo
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAA2IDsAFP_SHWT
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAAMA
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAAMc
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAAsAFP2id2IDQzvgTW
++ _$s19ExtensionFoundation16_EXServiceClientCAA03AppA5PointV7MonitorC6SourceAAMc
++ _$s19ExtensionFoundation16_EXServiceClientCAA03AppA5PointV7MonitorC6SourceAAWP
++ _$s19ExtensionFoundation16_EXServiceClientCAA03AppA5PointV7MonitorC6SourceAagHP12makeSequence3for4hostSci_pAG5StateV7ElementRts_s5Error_p7FailureRtsXPAG8IdentityV_AA10AuditTokenVSgtKFTW
++ _$s19ExtensionFoundation16_EXServiceClientCACyc33_591406279EDD09BF7033B88E7B83DCFDLlfc
++ _$s19ExtensionFoundation16_EXServiceClientCACyc33_591406279EDD09BF7033B88E7B83DCFDLlfcTo
++ _$s19ExtensionFoundation16_EXServiceClientCMF
++ _$s19ExtensionFoundation16_EXServiceClientCMa
++ _$s19ExtensionFoundation16_EXServiceClientCMf
++ _$s19ExtensionFoundation16_EXServiceClientCMn
++ _$s19ExtensionFoundation16_EXServiceClientCN
++ _$s19ExtensionFoundation16_EXServiceClientCfD
++ _$s19ExtensionFoundation16_EXServiceClientCfDTo
++ _$s19ExtensionFoundation16_EXServiceClientCfETo
++ _$s19ExtensionFoundation16_QueryControllerC05queryD9DidUpdateyySo08_EXQueryD0CFTo
++ _$s19ExtensionFoundation16_QueryControllerC10controllerAA08_EXQueryD0CvpWvd
++ _$s19ExtensionFoundation16_QueryControllerC11descriptionSSvgTo
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_AA01_kaL0V_Tg5
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_AA01_kaL0V_Tg5TA
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_AA01_kaL0V_Tg5TA.2
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_yAM11TerminationOyAF__GYbcfU0_AA01_kaL0V_Tg5
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_yAM11TerminationOyAF__GYbcfU0_AA01_kaL0V_Tg5TA
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_ySaySo012_EXExtensionL0CGcfU_AA01_kaL0V_Tg5
++ _$s19ExtensionFoundation16_QueryControllerC21makeResultAsyncStream4withScSySayxGGSayAA8_EXQueryCG_tAA04_AppA16IdentityProtocolRzlFZyScS12ContinuationVyAF_GXEfU_ySaySo012_EXExtensionL0CGcfU_AA01_kaL0V_Tg5TA
++ _$s19ExtensionFoundation16_QueryControllerC7handleryySaySo20_EXExtensionIdentityCGcvpWvd
++ _$s19ExtensionFoundation16_QueryControllerC7queries7handlerACSayAA8_EXQueryCG_ySaySo20_EXExtensionIdentityCGctcfCTq
++ _$s19ExtensionFoundation16_QueryControllerCACycfcTo
++ _$s19ExtensionFoundation16_QueryControllerCMF
++ _$s19ExtensionFoundation16_QueryControllerCMa
++ _$s19ExtensionFoundation16_QueryControllerCMf
++ _$s19ExtensionFoundation16_QueryControllerCMn
++ _$s19ExtensionFoundation16_QueryControllerCN
++ _$s19ExtensionFoundation16_QueryControllerCfD
++ _$s19ExtensionFoundation16_QueryControllerCfDTm
++ _$s19ExtensionFoundation16_QueryControllerCfETo
++ _$s19ExtensionFoundation17ConnectionHandlerV02onC0ACSbSo15NSXPCConnectionCc_tcfC
++ _$s19ExtensionFoundation17ConnectionHandlerV16onSessionRequestAC3XPC11XPCListenerC08IncomingfG0C8DecisionVAIc_tcfC
++ _$s19ExtensionFoundation17ConnectionHandlerV6accept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation17ConnectionHandlerVAA03AppA13ConfigurationA2aDP6accept10connectionSbSo15NSXPCConnectionC_tFTW
++ _$s19ExtensionFoundation17ConnectionHandlerVAA03AppA13ConfigurationAAMc
++ _$s19ExtensionFoundation17ConnectionHandlerVAA03AppA13ConfigurationAAWP
++ _$s19ExtensionFoundation17ConnectionHandlerVMF
++ _$s19ExtensionFoundation17ConnectionHandlerVMa
++ _$s19ExtensionFoundation17ConnectionHandlerVMf
++ _$s19ExtensionFoundation17ConnectionHandlerVMn
++ _$s19ExtensionFoundation17ConnectionHandlerVN
++ _$s19ExtensionFoundation17ConnectionHandlerVWOc
++ _$s19ExtensionFoundation17ConnectionHandlerVWOh
++ _$s19ExtensionFoundation17ConnectionHandlerVWV
++ _$s19ExtensionFoundation17ConnectionHandlerVwet
++ _$s19ExtensionFoundation17ConnectionHandlerVwst
++ _$s19ExtensionFoundation18_ConnectionHandlerMp
++ _$s19ExtensionFoundation18_ConnectionHandlerP12shouldAccept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation18_ConnectionHandlerP12shouldAccept10connectionSbSo15NSXPCConnectionC_tFTj
++ _$s19ExtensionFoundation18_ConnectionHandlerP12shouldAccept10connectionSbSo15NSXPCConnectionC_tFTq
++ _$s19ExtensionFoundation18_ConnectionHandlerPAAE12shouldAccept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation18_ConnectionHandlerTL
++ _$s19ExtensionFoundation18_ConnectionHandler_pMF
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC17sourceEnvironmentSSSgvpWvd
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC20supportsSecureCodingSbvpZ
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC20supportsSecureCodingSbvsZTo
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC4nameSSvpWvd
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC5coderADSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC5coderADSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC6domainSSvpWvd
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCADycfcTo
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCMF
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCMXX
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCMa
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCMf
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCMn
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCN
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCfD
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCfDTm
++ _$s19ExtensionFoundation18_EXDomainAttribute33_0985F4D16046E2F53D44E0038F37634ALLCfETo
++ _$s19ExtensionFoundation18_EXQueryControllerC05innerD033_2E673D3308ACCA93F0A4AB5407D92B37LLAA05QueryD0CvpWvd
++ _$s19ExtensionFoundation18_EXQueryControllerC10extensionsSaySo24_EXExtensionRepresenting_pGvg
++ _$s19ExtensionFoundation18_EXQueryControllerC10extensionsSaySo24_EXExtensionRepresenting_pGvgTo
++ _$s19ExtensionFoundation18_EXQueryControllerC10extensionsSaySo24_EXExtensionRepresenting_pGvgTq
++ _$s19ExtensionFoundation18_EXQueryControllerC11descriptionSSvg
++ _$s19ExtensionFoundation18_EXQueryControllerC11descriptionSSvgTo
++ _$s19ExtensionFoundation18_EXQueryControllerC19extensionIdentitiesSaySo20_EXExtensionIdentityCGvg
++ _$s19ExtensionFoundation18_EXQueryControllerC19extensionIdentitiesSaySo20_EXExtensionIdentityCGvgTo
++ _$s19ExtensionFoundation18_EXQueryControllerC19extensionIdentitiesSaySo20_EXExtensionIdentityCGvgTq
++ _$s19ExtensionFoundation18_EXQueryControllerC19identitiesDidUpdateyyFTq
++ _$s19ExtensionFoundation18_EXQueryControllerC21availabilityDidChangeyyAA25_EXExtensionAvailablilityCFTq
++ _$s19ExtensionFoundation18_EXQueryControllerC6resumeyyFTo
++ _$s19ExtensionFoundation18_EXQueryControllerC6resumeyyFTq
++ _$s19ExtensionFoundation18_EXQueryControllerC7execute5query10completionyAA01_C0C_ySaySo20_EXExtensionIdentityCGctFZTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7execute5querySaySo20_EXExtensionIdentityCGAA01_C0C_tFZTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7execute7queries10completionySayAA01_C0CG_ySaySo20_EXExtensionIdentityCGctFZTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7execute7queriesSaySo20_EXExtensionIdentityCGSayAA01_C0CG_tFZTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfCTq
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfc
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfcTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfcyAA25_EXExtensionAvailablilityCcfU0_TA
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfcyAA25_EXExtensionAvailablilityCcfU0_Tm
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfcyycfU_TA
++ _$s19ExtensionFoundation18_EXQueryControllerC7queries8delegateACSayAA01_C0CG_So01_cD8Delegate_ptcfcyycfU_Tm
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesACSayAA01_C0CG_tcfCTq
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesACSayAA01_C0CG_tcfc
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesACSayAA01_C0CG_tcfcTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesACSayAA01_C0CG_tcfcyAA25_EXExtensionAvailablilityCcfU0_TA
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesACSayAA01_C0CG_tcfcyycfU_TA
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesSayAA01_C0CGvgTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7queriesSayAA01_C0CGvgTq
++ _$s19ExtensionFoundation18_EXQueryControllerC7suspendyyFTo
++ _$s19ExtensionFoundation18_EXQueryControllerC7suspendyyFTq
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvMTq
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvgTo
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvgTq
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvpWvd
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvsTo
++ _$s19ExtensionFoundation18_EXQueryControllerC8delegateSo01_cD8Delegate_pSgvsTq
++ _$s19ExtensionFoundation18_EXQueryControllerCACycfC
++ _$s19ExtensionFoundation18_EXQueryControllerCACycfc
++ _$s19ExtensionFoundation18_EXQueryControllerCACycfcTo
++ _$s19ExtensionFoundation18_EXQueryControllerCMF
++ _$s19ExtensionFoundation18_EXQueryControllerCMa
++ _$s19ExtensionFoundation18_EXQueryControllerCMf
++ _$s19ExtensionFoundation18_EXQueryControllerCMn
++ _$s19ExtensionFoundation18_EXQueryControllerCMo
++ _$s19ExtensionFoundation18_EXQueryControllerCMu
++ _$s19ExtensionFoundation18_EXQueryControllerCN
++ _$s19ExtensionFoundation18_EXQueryControllerCfD
++ _$s19ExtensionFoundation18_EXQueryControllerCfETo
++ _$s19ExtensionFoundation18_EXServiceProtocol_pMF
++ _$s19ExtensionFoundation19_EXTCCProxyProtocol_pMD
++ _$s19ExtensionFoundation19_EXTCCProxyProtocol_pMF
++ _$s19ExtensionFoundation20EXConnectionEndpointC019bsServiceConnectionD0So09BSServicegD0CSgvgTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC019bsServiceConnectionD0So09BSServicegD0CSgvpWvd
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvMTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvgTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvgTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvpWvd
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvsTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC03xpcD0So03OS_E7_object_pSgvsTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifier019bsServiceConnectionD0ACSS_So09BSServicehD0CtcfCTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifier019bsServiceConnectionD0ACSS_So09BSServicehD0CtcfcTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifier03xpcD0ACSS_So03OS_F7_object_ptcfCTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifier03xpcD0ACSS_So03OS_F7_object_ptcfcTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifierSSvgTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC10identifierSSvpWvd
++ _$s19ExtensionFoundation20EXConnectionEndpointC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC5coderACSgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation20EXConnectionEndpointC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation20EXConnectionEndpointC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation20EXConnectionEndpointC7serviceSSSgvgTo
++ _$s19ExtensionFoundation20EXConnectionEndpointC7serviceSSSgvgTq
++ _$s19ExtensionFoundation20EXConnectionEndpointCACycfcTo
++ _$s19ExtensionFoundation20EXConnectionEndpointCMF
++ _$s19ExtensionFoundation20EXConnectionEndpointCMa
++ _$s19ExtensionFoundation20EXConnectionEndpointCMf
++ _$s19ExtensionFoundation20EXConnectionEndpointCMn
++ _$s19ExtensionFoundation20EXConnectionEndpointCN
++ _$s19ExtensionFoundation20EXConnectionEndpointCfD
++ _$s19ExtensionFoundation20EXConnectionEndpointCfETo
++ _$s19ExtensionFoundation20_EXHostConfigurationC07processD0AcA03AppA7ProcessV0D0V_tcfC
++ _$s19ExtensionFoundation20_EXHostConfigurationC11descriptionSSvg
++ _$s19ExtensionFoundation20_EXHostConfigurationC11descriptionSSvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC13launchPersonaSo10_EXPersonaCSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC17extensionIdentitySo012_EXExtensionF0CvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC17extensionIdentitySo012_EXExtensionF0CvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC17extensionIdentitySo012_EXExtensionF0CvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18_extensionIdentity33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0CSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18_extensionIdentity33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0CSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC18_extensionIdentity33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0CSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18preferredLanguagesSaySSGSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18rbsProcessIdentitySo010RBSProcessG0Cvg
++ _$s19ExtensionFoundation20_EXHostConfigurationC18rbsProcessIdentitySo010RBSProcessG0CvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC18sandboxProfileNameSSSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19interruptionHandleryycSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC19requireInvalidationSbvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC21extensionRepresenting33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0_pvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC21extensionRepresenting33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0_pvs
++ _$s19ExtensionFoundation20_EXHostConfigurationC21extensionRepresenting33_1DA9F61A2E9FA328469F7568B8F96F70LLSo012_EXExtensionF0_pvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvMTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvgTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvgTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvpWvd
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvsTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC30additionalEnvironmentVariablesSDyS2SGvsTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC4copy4withyp10ObjectiveC6NSZoneVSg_tF
++ _$s19ExtensionFoundation20_EXHostConfigurationC4copy4withyp10ObjectiveC6NSZoneVSg_tFTj
++ _$s19ExtensionFoundation20_EXHostConfigurationC4copy4withyp10ObjectiveC6NSZoneVSg_tFTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC4copy4withyp10ObjectiveC6NSZoneVSg_tFTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CSgtc33_1DA9F61A2E9FA328469F7568B8F96F70LlfcTf4ggn_n
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CtcfC
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CtcfCTj
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CtcfCTq
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0Ctcfc
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CtcfcTf4ggn_n
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo20_EXExtensionIdentityC_AA01_h8InstanceG0CtcfcTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo24_EXExtensionRepresenting_p_AA01_h8InstanceG0CtcfcTf4ggn_n
++ _$s19ExtensionFoundation20_EXHostConfigurationC4with18instanceIdentifierACSo24_EXExtensionRepresenting_p_AA01_h8InstanceG0CtcfcTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC4withACSo20_EXExtensionIdentityC_tcfC
++ _$s19ExtensionFoundation20_EXHostConfigurationC4withACSo20_EXExtensionIdentityC_tcfc
++ _$s19ExtensionFoundation20_EXHostConfigurationC4withACSo20_EXExtensionIdentityC_tcfcTo
++ _$s19ExtensionFoundation20_EXHostConfigurationC4withACSo24_EXExtensionRepresenting_p_tcfc
++ _$s19ExtensionFoundation20_EXHostConfigurationC4withACSo24_EXExtensionRepresenting_p_tcfcTo
++ _$s19ExtensionFoundation20_EXHostConfigurationCACyc33_1DA9F61A2E9FA328469F7568B8F96F70Llfc
++ _$s19ExtensionFoundation20_EXHostConfigurationCACyc33_1DA9F61A2E9FA328469F7568B8F96F70LlfcTo
++ _$s19ExtensionFoundation20_EXHostConfigurationCMF
++ _$s19ExtensionFoundation20_EXHostConfigurationCMU
++ _$s19ExtensionFoundation20_EXHostConfigurationCMa
++ _$s19ExtensionFoundation20_EXHostConfigurationCMf
++ _$s19ExtensionFoundation20_EXHostConfigurationCMl
++ _$s19ExtensionFoundation20_EXHostConfigurationCMn
++ _$s19ExtensionFoundation20_EXHostConfigurationCMo
++ _$s19ExtensionFoundation20_EXHostConfigurationCMr
++ _$s19ExtensionFoundation20_EXHostConfigurationCMu
++ _$s19ExtensionFoundation20_EXHostConfigurationCN
++ _$s19ExtensionFoundation20_EXHostConfigurationCfD
++ _$s19ExtensionFoundation20_EXHostConfigurationCfETo
++ _$s19ExtensionFoundation20_EXHostConfigurationCyAcA04_AppA7ProcessV0D0VcfC
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC10identitiesACShySo20_EXExtensionIdentityCG_tcfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC11descriptionSSvg
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC11descriptionSSvgTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC12removedUUIDsShy0B04UUIDVGvgTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC12removedUUIDsShy0B04UUIDVGvpWvd
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC13availablilityAcA25_EXExtensionAvailablilityC_tcfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC15addedExtensions12removedUUIDsACShySo20_EXExtensionIdentityCG_Shy0B04UUIDVGtcfC
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC15addedExtensions12removedUUIDsACShySo20_EXExtensionIdentityCG_Shy0B04UUIDVGtcfCTq
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC15addedExtensions12removedUUIDsACShySo20_EXExtensionIdentityCG_Shy0B04UUIDVGtcfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC15addedExtensionsShySo20_EXExtensionIdentityCGvgTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC15addedExtensionsShySo20_EXExtensionIdentityCGvgTq
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC17currentExtensions07updatedG0ACShySo20_EXExtensionIdentityCG_AHtcfc
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC17currentExtensions07updatedG0ACShySo20_EXExtensionIdentityCG_AHtcfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC5coderACSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCACycfcTo
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCMF
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCMa
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCMf
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCMn
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCN
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCfD
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCfE
++ _$s19ExtensionFoundation20_EXQueryResultUpdateCfETo
++ _$s19ExtensionFoundation22_EXActiveQueryObserverMp
++ _$s19ExtensionFoundation22_EXActiveQueryObserverP025updateCachedIdentitiesForD0yyAA8_EXQueryCFTj
++ _$s19ExtensionFoundation22_EXActiveQueryObserverP025updateCachedIdentitiesForD0yyAA8_EXQueryCFTq
++ _$s19ExtensionFoundation22_EXActiveQueryObserverP5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTj
++ _$s19ExtensionFoundation22_EXActiveQueryObserverP5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTq
++ _$s19ExtensionFoundation22_EXActiveQueryObserverPs12IdentifiableTb
++ _$s19ExtensionFoundation22_EXActiveQueryObserverTL
++ _$s19ExtensionFoundation22_EXActiveQueryObserver_pMD
++ _$s19ExtensionFoundation22_EXActiveQueryObserver_pMF
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCAA01_G0C_tF
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCAA01_G0C_tFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCAA01_G0C_tFyyXEfU_
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCAA01_G0C_tFyyXEfU_TA
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCAA01_G0C_tFyyXEfU_ySo22LSExtensionPointRecordCcfU_Tf0nnsn_n
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCSayAA01_G0CG_tF
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10identities8matchingAA14_EXQueryResultCSayAA01_G0CG_tFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC10queryQueue33_0D0B363708E7F6EE72DFBCE68E50E01DLLSo17OS_dispatch_queueCvpWvd
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC13activeQueries33_0D0B363708E7F6EE72DFBCE68E50E01DLLSDyAA8_EXQueryCAA14_EXActiveQueryCGvpWvd
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC17activeQueriesLock33_0D0B363708E7F6EE72DFBCE68E50E01DLL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC18settingsStoreToken33_0D0B363708E7F6EE72DFBCE68E50E01DLLypSgvpWvd
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC32observerDidObserveDatabaseChangeyySo10LSObserverCFTo
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC32observerDidObserveDatabaseChangeyySo10LSObserverCFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC32observerDidObserveSettingsChangeyyF
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC32observerDidObserveSettingsChangeyyFTm
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC32observerDidObserveSettingsChangeyyFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA019_EXConnectionActivegH0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA025_EXExtensionAvailablilityH0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA0gD0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFyycfU_
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFyycfU_TA
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFyycfU_TA.29
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC3add19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFyycfU_TA.36
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6canRun5querySbAA8_EXQueryC_tFZSbSo22LSExtensionPointRecordCcfU_Tf0nns_n
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6canRun5querySbAA8_EXQueryC_tFZTf4nd_n
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6remove19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA019_EXConnectionActivegH0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6remove19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA019_EXConnectionActivegH0C_Tg5Tm
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6remove19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA025_EXExtensionAvailablilityH0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6remove19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTf4enn_nAA0gD0C_Tg5
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6remove19activeQueryObserver5queryyAA09_EXActivegH0_p_AA8_EXQueryCtFTq
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6sharedACvgZTo
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6sharedACvpZ
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6shared_WZ
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC6shared_Wz
++ _$s19ExtensionFoundation22_EXDiscoveryControllerC8observer33_0D0B363708E7F6EE72DFBCE68E50E01DLLSo10LSObserverCvpWvd
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCACycfc
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCACycfcTo
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCMF
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCMa
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCMf
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCMn
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCN
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCfD
++ _$s19ExtensionFoundation22_EXDiscoveryControllerCfETo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC04hostD0AA07_EXHostD0Cvg
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC08isLaunchD5EqualySbACF
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC08isLaunchD5EqualySbACFTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC08isLaunchD5EqualySbACFTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC11descriptionSSvg
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC11descriptionSSvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvs
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC13launchPersonaSo10_EXPersonaCSgvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC15configureRBInfoyySo16RBSLaunchContextCKFZTf4nd_nTm
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC15configureRBInfoyySo16RBSLaunchContextCKFZTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC15configureRBInfoyySo16RBSLaunchContextCKFZToTm
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC17extensionIdentityACSo012_EXExtensionF0C_tcfCTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC17extensionIdentityACSo012_EXExtensionF0C_tcfc
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC17extensionIdentityACSo012_EXExtensionF0C_tcfcTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC17extensionIdentitySo012_EXExtensionF0CvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC17extensionIdentitySo012_EXExtensionF0CvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18_extensionIdentity33_0985F4D16046E2F53D44E0038F37634ALLSo012_EXExtensionF0CvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18instanceIdentifierAA020_EXExtensionInstanceF0CSgvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18preferredLanguagesSaySSGSgvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18rbsProcessIdentity8withHostSo010RBSProcessG0CSgSo0J10IdentifierC_tF
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18rbsProcessIdentity8withHostSo010RBSProcessG0CSgSo0J10IdentifierC_tFTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC18sandboxProfileNameSSSgvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC19assertionAttributesSaySo18RBSDomainAttributeCGvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC20networkApplicationID7Network013NWApplicationG0VSgvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC22configureLaunchContextyySo09RBSLaunchG0CKFZTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC23_configureLaunchContext33_0985F4D16046E2F53D44E0038F37634ALL_11onlyJobInfoySo09RBSLaunchG0C_SbtKFZTf4ndd_n
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvMTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvgTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvpWvd
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvsTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC30additionalEnvironmentVariablesSDyS2SGvsTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC4hashSivg
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC4hashSivgTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC5coderACSgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC7isEqualySbypSgF
++ _$s19ExtensionFoundation22_EXLaunchConfigurationC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCACycfcTo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMF
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMU
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMa
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMaTm
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMf
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMl
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMn
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCMr
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCN
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCfD
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCfETo
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCyAcA03AppA7ProcessV0D0VcfCTf4nd_n
++ _$s19ExtensionFoundation22_EXLaunchConfigurationCyAcA07_EXHostD0CcfCTf4nd_n
++ _$s19ExtensionFoundation22_noteUsingPrototypeAPI33_5378EEF9118E6C705B56EF2062DC033FLLSbvp
++ _$s19ExtensionFoundation22_noteUsingPrototypeAPI33_5378EEF9118E6C705B56EF2062DC033FLL_WZ
++ _$s19ExtensionFoundation22_noteUsingPrototypeAPI33_5378EEF9118E6C705B56EF2062DC033FLL_WZTm
++ _$s19ExtensionFoundation22_noteUsingPrototypeAPI33_5378EEF9118E6C705B56EF2062DC033FLL_Wz
++ _$s19ExtensionFoundation22_noteUsingPrototypeSPI33_5378EEF9118E6C705B56EF2062DC033FLLSbvp
++ _$s19ExtensionFoundation22_noteUsingPrototypeSPI33_5378EEF9118E6C705B56EF2062DC033FLL_WZ
++ _$s19ExtensionFoundation22_noteUsingPrototypeSPI33_5378EEF9118E6C705B56EF2062DC033FLL_Wz
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC02lsE033_5D985BB42A36A6D664ED77CA96129115LLSo10LSObserverCvpWvd
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC03addE033_5D985BB42A36A6D664ED77CA96129115LLyyAC0E0VF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC06removeE033_5D985BB42A36A6D664ED77CA96129115LLyyAC0E0VF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VAESQAAWL
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMa
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMf
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMl
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMn
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VMr
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VN
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAAMc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAAMcMK
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAASQWb
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSQAAMc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSQAAMcMK
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSgMD
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VWOb
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VWOc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VWOh
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0VWV
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAA2IDsAFP_SHWT
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAAMA
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAAMc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAAsAFP2id2IDQzvgTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vwet
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vwst
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC11updateQueue33_5D985BB42A36A6D664ED77CA96129115LLSo17OS_dispatch_queueCvpWvd
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFTq
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_TA
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC12makeSequence3for4hostSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPAJ8IdentityV_AA10AuditTokenVSgtKFyScs12ContinuationVyALsAO_p_GXEfU_yAX11TerminationOyALsAO_p__GYbcfU_TA
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC13observersLock33_5D985BB42A36A6D664ED77CA96129115LL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC15stopObserviceLSyyF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC15stopObserviceLSyyFTq
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC16startObservingLSyyF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC16startObservingLSyyFTq
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC16startObservingLSyyFyycfU_
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC16startObservingLSyyFyycfU_TA
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC18settingsStoreToken33_5D985BB42A36A6D664ED77CA96129115LLypSgvpWvd
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC32observerDidObserveDatabaseChangeyySo10LSObserverCFTo
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC32observerDidObserveDatabaseChangeyySo10LSObserverCFTq
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC32observerDidObserveSettingsChangeyyFTq
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6canAdd21extensionPointRecords4hostSbSaySo011LSExtensionI6RecordCG_AA10AuditTokenVtFZ8evaluateL_6recordSbAH_tF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6canAdd21extensionPointRecords4hostSbSaySo011LSExtensionI6RecordCG_AA10AuditTokenVtFZTf4nnd_n
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6sharedACvpZ
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6shared_WZ
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6shared_Wz
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6update33_5D985BB42A36A6D664ED77CA96129115LL9observersySayAC0E0VG_tFTf4dn_n
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6update33_5D985BB42A36A6D664ED77CA96129115LL9observersySayAC0E0VG_tFyyYbcfU_
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6update33_5D985BB42A36A6D664ED77CA96129115LL9observersySayAC0E0VG_tFyyYbcfU_TA
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6update8identity4hostAA03AppA5PointV7MonitorC5StateVAJ8IdentityV_AA10AuditTokenVtKFZ
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC6update8identity4hostAA03AppA5PointV7MonitorC5StateVAJ8IdentityV_AA10AuditTokenVtKFZSaySo011LSExtensionJ6RecordCGARXEfU0_
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC7results3for4host7optionsSayAA03AppA8IdentityVG10identities_Si15unapprovedCountSi08disabledN0tSo22LSExtensionPointRecordC_AA10AuditTokenVAA0jaQ0V7MonitorC7OptionsVtFZTf4nnnd_n
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverC9observers33_5D985BB42A36A6D664ED77CA96129115LLShyAC0E0VGvpWvd
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCAA03AppA5PointV7MonitorC6SourceAAMc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCAA03AppA5PointV7MonitorC6SourceAAWP
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCAA03AppA5PointV7MonitorC6SourceAagHP12makeSequence3for4hostSci_pAG5StateV7ElementRts_s5Error_p7FailureRtsXPAG8IdentityV_AA10AuditTokenVSgtKFTW
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCACycfc
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCACycfcTo
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCMF
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCMa
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCMf
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCMn
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCN
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCfD
++ _$s19ExtensionFoundation23LocalLSDatabaseObserverCfETo
++ _$s19ExtensionFoundation23_AvailabilityControllerC5tokenypSgvpWvd
++ _$s19ExtensionFoundation23_AvailabilityControllerC6resumeyyF
++ _$s19ExtensionFoundation23_AvailabilityControllerC6resumeyyFyAA25_EXExtensionAvailablilityCcfU_TA
++ _$s19ExtensionFoundation23_AvailabilityControllerC7handlerACyAA03AppA8IdentityV0C0Vc_tcfCTq
++ _$s19ExtensionFoundation23_AvailabilityControllerC7handleryyAA03AppA8IdentityV0C0VcvpWvd
++ _$s19ExtensionFoundation23_AvailabilityControllerC7suspendyyF
++ _$s19ExtensionFoundation23_AvailabilityControllerCACycfcTo
++ _$s19ExtensionFoundation23_AvailabilityControllerCMF
++ _$s19ExtensionFoundation23_AvailabilityControllerCMa
++ _$s19ExtensionFoundation23_AvailabilityControllerCMf
++ _$s19ExtensionFoundation23_AvailabilityControllerCMn
++ _$s19ExtensionFoundation23_AvailabilityControllerCN
++ _$s19ExtensionFoundation23_AvailabilityControllerCfD
++ _$s19ExtensionFoundation23_AvailabilityControllerCfETo
++ _$s19ExtensionFoundation23_EXQueryResultsProtocol_pMD
++ _$s19ExtensionFoundation23_EXQueryResultsProtocol_pMF
++ _$s19ExtensionFoundation24_EXLaunchServiceProtocol_pMD
++ _$s19ExtensionFoundation24_EXLaunchServiceProtocol_pMF
++ _$s19ExtensionFoundation24_EXServiceClientObserverMp
++ _$s19ExtensionFoundation24_EXServiceClientObserverP21availabilityDidChangeyyAA25_EXExtensionAvailablilityCFTj
++ _$s19ExtensionFoundation24_EXServiceClientObserverP21availabilityDidChangeyyAA25_EXExtensionAvailablilityCFTq
++ _$s19ExtensionFoundation24_EXServiceClientObserverP5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTj
++ _$s19ExtensionFoundation24_EXServiceClientObserverP5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTq
++ _$s19ExtensionFoundation24_EXServiceClientObserverP7queriesSayAA8_EXQueryCGvgTj
++ _$s19ExtensionFoundation24_EXServiceClientObserverP7queriesSayAA8_EXQueryCGvgTq
++ _$s19ExtensionFoundation24_EXServiceClientObserverPSHTb
++ _$s19ExtensionFoundation24_EXServiceClientObserverTL
++ _$s19ExtensionFoundation24_EXServiceClientObserver_pMD
++ _$s19ExtensionFoundation24_EXServiceClientObserver_pMF
++ _$s19ExtensionFoundation24_EXServiceClientObserver_pWOb
++ _$s19ExtensionFoundation24_EXServiceClientObserver_pWOc
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivMTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivgTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivgTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivpWvd
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivsTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC12enabledCountSivsTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivMTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivgTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivgTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivpWvd
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivsTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC13disabledCountSivsTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivMTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivgTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivgTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivpWvd
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivsTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC14unelectedCountSivsTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC20supportsSecureCodingSbvgZ
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC20supportsSecureCodingSbvpZMV
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC3add14changeObserverypyACc_tFZ
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC3add14changeObserverypyACc_tFZTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfC
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfCTj
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC6encode4withySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityC6remove14changeObserveryyp_tFZTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCACycfcTo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCIegg_SgWOe
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCIegg_SgWOy
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCIeyBy_ACIegg_TRTA
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMF
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMa
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMf
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMn
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMo
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCMu
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCN
++ _$s19ExtensionFoundation25_EXExtensionAvailablilityCfD
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC023makeXPCConnectionRetainD0ySo15NSXPCConnectionCSbKF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC023makeXPCConnectionRetainD0ySo15NSXPCConnectionCSbKFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC023makeXPCConnectionRetainD0ySo15NSXPCConnectionCSbKFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC05innerdE033_2C315B01B2062C554A90CEDDD23DF36FLLSo010RBSProcessE0CvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC06handleD11TerminationyyFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC10invalidateyyFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC19invalidationHandlerAEyyc_tcfCTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC19invalidationHandleryycSgvMTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC19invalidationHandleryycSgvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC19invalidationHandleryycSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC19invalidationHandleryycSgvsTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC20processDidInvalidateyyACFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC20processDidInvalidateyyACFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC23invalidationHandlerLock2os017OSAllocatedUnfairI0VyytGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC5validSbvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCAEycfcTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCMF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCMa
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCMf
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCMn
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCN
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCfD
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverCfETo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC10auditTokenSo0F8_token_tavgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC10auditTokenSo0F8_token_tavgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC10invalidateyyF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC10invalidateyyFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC10invalidateyyFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC11descriptionSSvg
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC11descriptionSSvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC12mainEndpoint33_2C315B01B2062C554A90CEDDD23DF36FLLAA012EXConnectionG0CSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC13observersLock33_2C315B01B2062C554A90CEDDD23DF36FLL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC14libXPCEndpointAA20EXConnectionEndpointCSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC14xpcConnections33_2C315B01B2062C554A90CEDDD23DF36FLLSo11NSHashTableCySo15NSXPCConnectionCGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15acquireAsertionSo12RBSAssertionCSgyKFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvMTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvsTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15launchAssertionSo12RBSAssertionCSgvsTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15processIdentitySo010RBSProcessG0CSgvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15processIdentitySo010RBSProcessG0CSgvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC15sessionEndpoint33_2C315B01B2062C554A90CEDDD23DF36FLLAA012EXConnectionG0CSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC16_acquireAsertion33_2C315B01B2062C554A90CEDDD23DF36FLLSo12RBSAssertionCSgyKF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC16_acquireAsertion33_2C315B01B2062C554A90CEDDD23DF36FLLSo12RBSAssertionCSgyKFyAG_s5Error_pSgtcfU_TA
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC16_acquireAsertion33_2C315B01B2062C554A90CEDDD23DF36FLLSo12RBSAssertionCSgyKFyAG_s5Error_pSgtcfU_Tm
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC16invalidationLock33_2C315B01B2062C554A90CEDDD23DF36FLL2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC17extensionIdentitySo01_cG0CvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC17extensionIdentitySo01_cG0CvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC17makeXPCConnection33_2C315B01B2062C554A90CEDDD23DF36FLLSo15NSXPCConnectionCyKF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC17sandboxExtensions33_2C315B01B2062C554A90CEDDD23DF36FLLSaySo010_EXSandboxA0CGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC17xpcConnectionLock33_2C315B01B2062C554A90CEDDD23DF36FLL2os017OSAllocatedUnfairH0VyytGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC19launchConfiguration03rbsdE012mainEndpoint14libXPCEndpoint07sessionJ00F9AssertionAcA09_EXLaunchG0C_So010RBSProcessE0CAA012EXConnectionJ0CSgA2PSo12RBSAssertionCSgtcfCTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC19launchConfiguration03rbsdE012mainEndpoint14libXPCEndpoint07sessionJ00F9AssertionAcA09_EXLaunchG0C_So010RBSProcessE0CAA012EXConnectionJ0CSgA2PSo12RBSAssertionCSgtcfcyAM_So0P11ExitContextCtcfU_TA
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC19launchConfiguration8responseAcA09_EXLaunchG0C_So17RBSLaunchResponseCtKcfCTf4nnd_n
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC19launchConfigurationAA09_EXLaunchG0CvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC19launchConfigurationAA09_EXLaunchG0CvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20assertionAquireCountSivMTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20assertionAquireCountSivgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20assertionAquireCountSivpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20assertionAquireCountSivsTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20makeLibXPCConnectionSo13OS_xpc_object_pyKF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20makeLibXPCConnectionSo13OS_xpc_object_pyKFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20makeLibXPCConnectionSo13OS_xpc_object_pyKFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvMZ
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvMZ.resume.0
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvgZ
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvpZ
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvpZMV
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvsZ
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC20supportsSecureCodingSbvsZTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC24cleanUpAfterInvalidationyyF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC24cleanUpAfterInvalidationyyFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC24makeSessionXPCConnectionSo15NSXPCConnectionCSgyF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC24makeSessionXPCConnectionSo15NSXPCConnectionCSgyFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC24makeSessionXPCConnectionSo15NSXPCConnectionCSgyFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC27handleAssertionInvalidation5errorys5Error_pSg_tFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC28invalidationLock_invalidated33_2C315B01B2062C554A90CEDDD23DF36FLLSbvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3add8observeryAA01_cD8Observer_p_tFTf4en_n
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3add8observeryAA01_cD8Observer_p_tFTf4en_nTm
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3add8observeryAA01_cD8Observer_p_tFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3add8observeryAA01_cD8Observer_p_tFToTm
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3add8observeryAA01_cD8Observer_p_tFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3pids5Int32VvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC3pids5Int32VvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfC
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfCTj
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5coderACSgSo7NSCoderC_tcfcySo010RBSProcessE0C_So0H11ExitContextCtcfU_TA
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5validSbvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC5validSbvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6attach17sandboxExtensionsySaySo010_EXSandboxA0CG_tFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6encode4withySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6remove8observeryAA01_cD8Observer_p_tFTf4en_n
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6remove8observeryAA01_cD8Observer_p_tFTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6remove8observeryAA01_cD8Observer_p_tFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC6resumeyyKFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC7managerAA01_cD7ManngerCSgvMTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC7managerAA01_cD7ManngerCSgvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC7managerAA01_cD7ManngerCSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC7managerAA01_cD7ManngerCSgvsTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC7suspendyyKFTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvMTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvgTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvgTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvsTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9assertionSo12RBSAssertionCSgvsTq
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleC9observers33_2C315B01B2062C554A90CEDDD23DF36FLLSo11NSHashTableCyAA01_cD8Observer_pGvpWvd
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCACycfC
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCACycfc
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCACycfcTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMF
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMa
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMf
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMn
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCMu
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCN
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCSgSo7NSErrorCSgIeggg_AdGIeyByy_TR
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCfD
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCfDTo
++ _$s19ExtensionFoundation25_EXExtensionProcessHandleCfETo
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC07processA3MapSo10NSMapTableCyAA22_EXLaunchConfigurationCAA01_cD6HandleCGvpWvd
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC07processA7MapLock2os017OSAllocatedUnfairH0VyytGvpWvd
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC14sharedInstanceACvpZ
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC14sharedInstance_WZ
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC14sharedInstance_Wz
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC17makeLaunchContext33_E746776949191331AE516FB77AD7BF03LL13configuration14hostAuditTokenSo09RBSLaunchH0CAA22_EXLaunchConfigurationC_AA0pQ0VtKFZTf4nnd_n
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC20processDidInvalidateyyAA01_cD6HandleCF
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC20processDidInvalidateyyAA01_cD6HandleCFTo
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC25applyNetworkApplicationID33_E746776949191331AE516FB77AD7BF03LL2toyAA22_EXLaunchConfigurationC_tKFTf4nd_n
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC6launch13configuration14hostAuditTokenAA01_cD6HandleCAA22_EXLaunchConfigurationC_So13audit_token_tatKFZTf4nnd_n
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tKF
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tKFTq
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_TA
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_TATQ0_
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_TATu
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_TY0_
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFAGyYaKcfU_Tu
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerC7process13configurationAA01_cD6HandleCAA22_EXLaunchConfigurationC_tYaKFTq
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCACycfcTo
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMF
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMa
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMf
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMn
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMo
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCMu
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCN
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCfD
++ _$s19ExtensionFoundation26_EXExtensionProcessManngerCfETo
++ _$s19ExtensionFoundation27_EXDiscoveryServiceProtocol_pMD
++ _$s19ExtensionFoundation27_EXDiscoveryServiceProtocol_pMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC12instanceUUID0B00G0VSgvgTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC12instanceUUID0B00G0VSgvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV10attributesSaySo12RBSAttributeCGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV10xpcOverlaySDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV11_restiction33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV11_restiction33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvgAHyXEfU_
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV11runLoopTypeSSvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV14sandboxProfileSSSgvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV14serviceDomains33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV16programArgumentsSaySSGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV17managedByServicesSaySSGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV18uiApplicationClassSSSgvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV18xpcSessionMachName33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSSvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV19urgentLogSubmissionSDySSypGSgvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV19viewserviceMachName33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSSvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV20additionalProperties33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV20environmentVariablesSDyS2SGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV21additionalSubServicesSDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV23internalMachServiceName33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSSvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV26uiApplicationDelegateClassSSSgvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV33_launchRequestEndpointIdentifiers33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvg
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV33_launchRequestEndpointIdentifiers33_D2FCF0381CAFFB8CF6AB845243C2FE04LLSDySSypGvgAHyXEfU_
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVMr
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVN
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVWOb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVWObTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVWV
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV_4hostAeC_So16RBSProcessHandleCSgtKcfC
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVwet
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorVwst
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13personaStringSSSgvgTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC13personaStringSSSgvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC15groupIdentifierSSSgvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO11stringValueAHSgSS_tcfCTf4nd_n
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHSQAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHSQAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs0H3KeyAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs0H3KeyAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs23CustomStringConvertibleAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs23CustomStringConvertibleAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs28CustomDebugStringConvertibleAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs28CustomDebugStringConvertibleAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMXX
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH9hashValueSivgTWTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOWV
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAs23CustomStringConvertiblePWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAsAIP11stringValueSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAsAIP11stringValuexSgSS_tcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAsAIP8intValueSiSgvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAsAIP8intValuexSgSi_tcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwet
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwst
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwug
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwui
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwup
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV4fromAEs7Decoder_p_tKcfC
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV6encode2toys7Encoder_p_tKF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVAESEAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVAESQAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVAESeAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVMr
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVN
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSEAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSEAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASH9hashValueSivgTWTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASQWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSQAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSQAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSeAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSeAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSgMD
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSgML
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSgWOb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSg_AFtMD
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVWOc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVWOcTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVWOhTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVWV
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVwet
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVwst
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16bundleIdentifierSSSgvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC16jobConfigurationAC03JobG0VSgvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18dataRepresentation0B04DataVvgTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18dataRepresentation0B04DataVvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18dataRepresentationAC0B04DataV_tKcfCTf4nd_n
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18dataRepresentationAC0B04DataV_tKcfCTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18extensionPointTypeSo011LSExtensiongH0VvgTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC18extensionPointTypeSo011LSExtensiongH0VvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC20launchdJobDescriptor3forSo010RBSLaunchdgH0CSo010RBSProcessE0C_tKF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC20launchdJobDescriptor3forSo010RBSLaunchdgH0CSo010RBSProcessE0C_tKFTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC24extensionPointIdentifierSSvgTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC4hashSivgTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO11stringValueAHSgSS_tcfCTf4nd_n
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHSQAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHSQAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs0G3KeyAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs0G3KeyAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs23CustomStringConvertibleAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs23CustomStringConvertibleAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs28CustomDebugStringConvertibleAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOAHs28CustomDebugStringConvertibleAAWl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMXX
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOWV
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAs23CustomStringConvertiblePWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAsAIP11stringValueSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAsAIP11stringValuexSgSS_tcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAsAIP8intValueSiSgvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAsAIP8intValuexSgSi_tcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs23CustomStringConvertibleAAsAIP11descriptionSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs28CustomDebugStringConvertibleAAsAIP16debugDescriptionSSvgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwet
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwst
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwug
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwui
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOwup
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV4fromAEs7Decoder_p_tKcfC
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV4hash4intoys6HasherVz_tF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV6encode2toys7Encoder_p_tKF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVAESEAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVAESQAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVAESeAAWL
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVAESeAAWlTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMaTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVMr
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVN
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSEAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSEAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAASQWb
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSQAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSQAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSeAAMc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSeAAMcMK
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVWObTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVWOcTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVWOhTm
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVWV
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVwet
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVwst
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC5inner33_D2FCF0381CAFFB8CF6AB845243C2FE04LLAC5InnerVvpWvd
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC7isEqualySbypSgF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC8identity12instanceUUID13configurationAcA03AppaE0V_0B00H0VAC16JobConfigurationVtcfCTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC8identity12instanceUUID13configurationAcA08_ServiceaE0V_0B00H0VSgAC16JobConfigurationVtcfCTq
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityC8identity12instanceUUID13configurationAcA08_ServiceaE0V_0B00H0VSgAC16JobConfigurationVtcfc
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCACycfcTo
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMF
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMU
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMa
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMf
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMl
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMn
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCMr
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCN
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCfD
++ _$s19ExtensionFoundation27_EXExtensionProcessIdentityCfETo
++ _$s19ExtensionFoundation27_EXExtensionProcessObserver_pMD
++ _$s19ExtensionFoundation27_EXExtensionProcessObserver_pMF
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC07defaultdE0ACvgZTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08_defaultdE033_15A70CFBAC6D8F7592B747DCE46320A0LLACvpZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08_defaultdE033_15A70CFBAC6D8F7592B747DCE46320A0LL_WZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08_defaultdE033_15A70CFBAC6D8F7592B747DCE46320A0LL_Wz
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08instanceE0AC0B04UUIDVSg_tcfC
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08instanceE0AC0B04UUIDVSg_tcfCTj
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08instanceE0AC0B04UUIDVSg_tcfCTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08instanceE0AC0B04UUIDVSg_tcfc
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC08instanceE0AC0B04UUIDVSg_tcfcTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC09effectiveE00B04UUIDVSgvg
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC09effectiveE00B04UUIDVSgvpMV
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC10identifier0B04UUIDVvg
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC10identifier0B04UUIDVvgTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC10identifier0B04UUIDVvpMV
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC10identifier0B04UUIDVvpWvd
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC11descriptionSSvg
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC11descriptionSSvgTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvMZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvMZ.resume.0
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvgZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvpZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvpZMV
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvsZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC20supportsSecureCodingSbvsZTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC4hashSivg
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC4hashSivgTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC5coderACSgSo7NSCoderC_tcfC
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC5coderACSgSo7NSCoderC_tcfCTj
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC5coderACSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC6encode4withySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC7defaultACyFZ
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC7defaultACyFZTj
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC7defaultACyFZTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC7isEqualySbypSgF
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC9isDefaultSbvg
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC9isDefaultSbvgTj
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC9isDefaultSbvgTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC9isDefaultSbvgTq
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierC9isDefaultSbvpMV
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCACycfC
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCACycfc
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCACycfcTo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMF
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMU
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMa
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMf
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMl
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMn
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMo
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMr
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCMu
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCN
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCSgMD
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCfD
++ _$s19ExtensionFoundation30_EXExtensionInstanceIdentifierCfETo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC025updateCachedIdentitiesForE0yyAA8_EXQueryCFTq
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC10connectionACSo15NSXPCConnectionC_tcfCTq
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC10connectionACSo15NSXPCConnectionC_tcfc
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC10connectionSo15NSXPCConnectionCvpWvd
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC11descriptionSSvg
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC11descriptionSSvgTo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC11transactionSo06OS_os_G0_pvpWvd
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC2id0B04UUIDVvpWvd
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC4hashSivgTo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_k6ResultJ0CtF
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_k6ResultJ0CtFTq
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_k6ResultJ0CtFys5Error_pcfU_
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_k6ResultJ0CtFyycfU0_
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC7isEqualySbypSgF
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0A2aDP025updateCachedIdentitiesForE0yyAA8_EXQueryCFTW
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0A2aDP5query_15resultDidUpdateyAA8_EXQueryC_AA01_l6ResultK0CtFTW
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0AAMc
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0AAMcMK
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0AAWI
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAA09_EXActiveeF0AAWP
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCACs12IdentifiableAAWL
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCACycfcTo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCAcA09_EXActiveeF0AAWL
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMF
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMU
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMa
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMf
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMl
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMn
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCMr
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCN
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCfD
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCfDTo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCfETo
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCs12IdentifiableAAMA
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCs12IdentifiableAAMc
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation32_EXConnectionActiveQueryObserverCs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC10invalidateyyF
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC10invalidateyyFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC13observerBlockACyAA01_cD0Cc_tcfCTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC13observerBlockyyAA01_cD0CcvpWvd
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC21availabilityDidChangeyyAA01_cD0CFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC30updateCachedIdentitiesForQueryyyAA8_EXQueryCFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC4hash4intoys6HasherVz_tFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC4uuid0B04UUIDVvpWvd
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTf4dnn_n
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5query_15resultDidUpdateyAA8_EXQueryC_AA01_j6ResultI0CtFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5startyyF
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5startyyFTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5startyyFyAA14_EXQueryResultCcfU_
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC5startyyFyAA14_EXQueryResultCcfU_TA
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC7queriesSayAA8_EXQueryCGvpWvd
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverC9hashValueSivgTq
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0A2aDP025updateCachedIdentitiesForG0yyAA8_EXQueryCFTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0A2aDP5query_15resultDidUpdateyAA8_EXQueryC_AA01_l6ResultK0CtFTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0AAMc
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0AAMcMK
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0AAWI
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA014_EXActiveQueryE0AAWP
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0A2aDP5query_15resultDidUpdateyAA8_EXQueryC_AA01_l6ResultK0CtFTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0A2aDP7queriesSayAA8_EXQueryCGvgTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0AAMc
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0AAMcMK
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0AAWI
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAA016_EXServiceClientE0AAWP
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCACSHAAWL
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCACSQAAWL
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCACSQAAWlTm
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCACs12IdentifiableAAWL
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAcA014_EXActiveQueryE0AAWL
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCAcA016_EXServiceClientE0AAWL
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMF
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMU
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMa
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMf
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMl
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMm
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMn
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCMr
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCN
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAAMc
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAAMcMK
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSHAASQWb
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSQAAMc
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSQAAMcMK
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCfD
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCs12IdentifiableAA2IDsADP_SHWT
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCs12IdentifiableAAMA
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCs12IdentifiableAAMc
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCs12IdentifiableAAMcMK
++ _$s19ExtensionFoundation33_EXExtensionAvailablilityObserverCs12IdentifiableAAsADP2id2IDQzvgTW
++ _$s19ExtensionFoundation34EXDefaultImplementationXPCProtocol_pMD
++ _$s19ExtensionFoundation34EXDefaultImplementationXPCProtocol_pMF
++ _$s19ExtensionFoundation36LibXPCConnectionHandlerConfigurationMp
++ _$s19ExtensionFoundation36LibXPCConnectionHandlerConfigurationP16handleConnectionyySo13OS_xpc_object_pFTj
++ _$s19ExtensionFoundation36LibXPCConnectionHandlerConfigurationP16handleConnectionyySo13OS_xpc_object_pFTq
++ _$s19ExtensionFoundation36LibXPCConnectionHandlerConfigurationTL
++ _$s19ExtensionFoundation36LibXPCConnectionHandlerConfiguration_pMF
++ _$s19ExtensionFoundation6_SceneMp
++ _$s19ExtensionFoundation6_SceneP05_makeC04withSo8NSObjectCSgAG_tF
++ _$s19ExtensionFoundation6_SceneP05_makeC04withSo8NSObjectCSgAG_tFTj
++ _$s19ExtensionFoundation6_SceneP05_makeC04withSo8NSObjectCSgAG_tFTq
++ _$s19ExtensionFoundation6_SceneP12shouldAccept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation6_SceneP12shouldAccept10connectionSbSo15NSXPCConnectionC_tFTj
++ _$s19ExtensionFoundation6_SceneP12shouldAccept10connectionSbSo15NSXPCConnectionC_tFTq
++ _$s19ExtensionFoundation6_ScenePAAE05_makeC04withSo8NSObjectCSgAG_tF
++ _$s19ExtensionFoundation6_ScenePAAE12shouldAccept10connectionSbSo15NSXPCConnectionC_tF
++ _$s19ExtensionFoundation6_SceneTL
++ _$s19ExtensionFoundation6_Scene_pMF
++ _$s19ExtensionFoundation7ServiceC02ina3KitC0SbvpZ
++ _$s19ExtensionFoundation7ServiceC02ina3KitC0_WZ
++ _$s19ExtensionFoundation7ServiceC02ina3KitC0_Wz
++ _$s19ExtensionFoundation7ServiceC03_ina3KitC033_BA93CBAF03EEA85977F926DB446085C4LLSbvpZ
++ _$s19ExtensionFoundation7ServiceC05photoC19AuthorizationStatus03forA4UUID10completiony0B00H0V_ySb_s5Error_pSgtctF048$s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_Sbs5J12_pSgIegyg_TR0L1C0nO0VSo0Q0CSgIeyByy_Tf1ncn_nTf4ndg_n
++ _$s19ExtensionFoundation7ServiceC05photoC19AuthorizationStatus03forA4UUID10completiony0B00H0V_ySb_s5Error_pSgtctFTo
++ _$s19ExtensionFoundation7ServiceC10extensions4with5replyyAA8_EXQueryC_yAA01_G6ResultCSg_s5Error_pSgtctF04$s19a13Foundation14_gh13CSgSo7NSErrorl11IeyByy_ADs5I12_pSgIeggg_TRAKSo0N0CSgIeyByy_Tf1ncn_nTf4nng_n
++ _$s19ExtensionFoundation7ServiceC10extensions4with5replyyAA8_EXQueryC_yAA01_G6ResultCSg_s5Error_pSgtctFTo
++ _$s19ExtensionFoundation7ServiceC13sigtermSourceSo25OS_dispatch_source_signal_pvpWvd
++ _$s19ExtensionFoundation7ServiceC13sigtermSourceSo25OS_dispatch_source_signal_pvpfiSoAE_pyXEfU_
++ _$s19ExtensionFoundation7ServiceC13sigtermSourceSo25OS_dispatch_source_signal_pvpfiSoAE_pyXEfU_yycfU_
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC10identities13disabledCount09unelectedH0AESayAA03AppA8IdentityVG_S2itcfCTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC10identities13disabledCount09unelectedH0AESayAA03AppA8IdentityVG_S2itcfc
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC10identitiesSayAA03AppA8IdentityVGvgTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC11_identities33_5B0C81CCFA9FB062F426FD8AD15079AALLSaySo20_EXExtensionIdentityCGvpWvd
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC13disabledCountSivgTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC14_disabledCount33_5B0C81CCFA9FB062F426FD8AD15079AALLSivpWvd
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC14unelectedCountSivgTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC15_unelectedCount33_5B0C81CCFA9FB062F426FD8AD15079AALLSivpWvd
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC20supportsSecureCodingSbvgZTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC5coderAESgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC5coderAESgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC5coderAESgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCAEycfcTo
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCMF
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCMa
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCMf
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCMn
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCN
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCSgSo7NSErrorCSgIeyByy_AFs5Error_pSgIeggg_TR
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCSgSo7NSErrorCSgIeyByy_AFs5Error_pSgIeggg_TRTA
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCSgs5Error_pSgIeggg_AFSo7NSErrorCSgIeyByy_TR
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCfD
++ _$s19ExtensionFoundation7ServiceC14ObserverUpdateCfETo
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFTo
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_SbAA03AppA5PointV7MonitorC5StateVYaXEfU1_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_SbAA03AppA5PointV7MonitorC5StateVYaXEfU1_Tu
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TA
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TQ1_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TY0_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TY2_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_TY3_
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_Tu
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_yycfU0_TA
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_yycfU_TA
++ _$s19ExtensionFoundation7ServiceC14beginObserving13configuration5replyyAC21ObserverConfigurationC_yAC0H6UpdateCSg_s5Error_pSgtctFyyYacfU_yycfU_Tm
++ _$s19ExtensionFoundation7ServiceC15activeObservers33_BA93CBAF03EEA85977F926DB446085C4LLSDy0B04UUIDVAC8ObserverAELLCGvpWvd
++ _$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZTf4d_n
++ _$s19ExtensionFoundation7ServiceC16ObserverProtocol_pMD
++ _$s19ExtensionFoundation7ServiceC16ObserverProtocol_pMF
++ _$s19ExtensionFoundation7ServiceC19discoveryControllerAA012_EXDiscoveryE0CvpWvd
++ _$s19ExtensionFoundation7ServiceC20beginExtensionsQuery_16listenerEndpoint5replyyAA8_EXQueryC_So013NSXPCListenerH0Cys5Error_pSgctF023$sSo7NSErrorCSgIeyBy_s5L11_pSgIegg_TRSo0O0CSgIeyBy_Tf1nncn_nTf4nnng_n
++ _$s19ExtensionFoundation7ServiceC20beginExtensionsQuery_16listenerEndpoint5replyyAA8_EXQueryC_So013NSXPCListenerH0Cys5Error_pSgctFTo
++ _$s19ExtensionFoundation7ServiceC20beginExtensionsQuery_16listenerEndpoint5replyyAA8_EXQueryC_So013NSXPCListenerH0Cys5Error_pSgctFyycfU0_TA
++ _$s19ExtensionFoundation7ServiceC20beginExtensionsQuery_16listenerEndpoint5replyyAA8_EXQueryC_So013NSXPCListenerH0Cys5Error_pSgctFyycfU_TA
++ _$s19ExtensionFoundation7ServiceC20beginExtensionsQuery_16listenerEndpoint5replyyAA8_EXQueryC_So013NSXPCListenerH0Cys5Error_pSgctFyycfU_Tm
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC20supportsSecureCodingSbvgZTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC21extensionPointRecordsSaySo011LSExtensionG6RecordCGvgTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC22_extensionPointRecords33_5B0C81CCFA9FB062F426FD8AD15079AALLSaySo011LSExtensionG6RecordCGvpWvd
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC2id0B04UUIDVvgTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC2id21extensionPointRecords7options8endpointAE0B04UUIDV_SaySo011LSExtensionH6RecordCGAA03AppaH0V7MonitorC7OptionsVSo21NSXPCListenerEndpointCtcfCTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC3_id33_5B0C81CCFA9FB062F426FD8AD15079AALL0B04UUIDVvpWvd
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC5coderAESgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC5coderAESgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC5coderAESgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC7optionsAA03AppA5PointV7MonitorC7OptionsVvgTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC8_options33_5B0C81CCFA9FB062F426FD8AD15079AALLAA03AppA5PointV7MonitorC7OptionsVvpWvd
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC8endpointSo21NSXPCListenerEndpointCvgTq
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationC9_endpoint33_5B0C81CCFA9FB062F426FD8AD15079AALLSo21NSXPCListenerEndpointCvpWvd
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCAEycfcTo
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMF
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMU
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMa
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMf
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMl
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMn
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCMr
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCN
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCfD
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCfDTm
++ _$s19ExtensionFoundation7ServiceC21ObserverConfigurationCfETo
++ _$s19ExtensionFoundation7ServiceC22ObserverUpdateProtocol_pMD
++ _$s19ExtensionFoundation7ServiceC22ObserverUpdateProtocol_pMF
++ _$s19ExtensionFoundation7ServiceC26invalidateLaunchAssertions03forA10AuditToken5replyySo13audit_token_ta_yyctFTf4dnd_n
++ _$s19ExtensionFoundation7ServiceC26invalidateLaunchAssertions03forA10AuditToken5replyySo13audit_token_ta_yyctFTo
++ _$s19ExtensionFoundation7ServiceC26invalidateLaunchAssertions03forA10AuditToken5replyySo13audit_token_ta_yyctFyyScMYccfU_
++ _$s19ExtensionFoundation7ServiceC26invalidateLaunchAssertions03forA10AuditToken5replyySo13audit_token_ta_yyctFyyScMYccfU_TA
++ _$s19ExtensionFoundation7ServiceC6sharedACvpZ
++ _$s19ExtensionFoundation7ServiceC6shared_WZ
++ _$s19ExtensionFoundation7ServiceC6shared_Wz
++ _$s19ExtensionFoundation7ServiceC7prepare23withLaunchConfiguration5replyyAA09_EXLaunchG0C_yAA25_EXExtensionProcessHandleCSg_So7NSErrorCSgtctF04$s19a13Foundation25_jkl6CSgSo7mP18IeyByy_AdGIeggg_TRAkNIeyByy_Tf1ncn_nTf4ndg_n
++ _$s19ExtensionFoundation7ServiceC7prepare23withLaunchConfiguration5replyyAA09_EXLaunchG0C_yAA25_EXExtensionProcessHandleCSg_So7NSErrorCSgtctFTo
++ _$s19ExtensionFoundation7ServiceC7prepare23withLaunchConfiguration5replyyAA09_EXLaunchG0C_yAA25_EXExtensionProcessHandleCSg_So7NSErrorCSgtctFyyScMYcXEfU_
++ _$s19ExtensionFoundation7ServiceC7prepare23withLaunchConfiguration5replyyAA09_EXLaunchG0C_yAA25_EXExtensionProcessHandleCSg_So7NSErrorCSgtctFyyScMYcXEfU_TA
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC10connectionSo15NSXPCConnectionCvpWvd
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC11transactionSo06OS_os_K0_pvpWvd
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC12observerTaskScTyyts5Error_pGSgvpWvd
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC6notify6updateyAC0D6UpdateC_tFys5Error_pcfU_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC6notify6updateyAC0D6UpdateC_tFys5Error_pcfU_Tm
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC6notify6updateyAC0D6UpdateC_tFyycfU0_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC7updates10connectionAFSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXP_So15NSXPCConnectionCtcfcTf4ngn_n
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC7updatesSci_pAA03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPvpWvd
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TA
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TATQ0_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TATu
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TQ1_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TY0_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TY2_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_TY3_
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC8activateyyFyyYaKcfU_Tu
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMF
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMXX
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMa
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMf
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMm
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCMn
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCN
++ _$s19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCfD
++ _$s19ExtensionFoundation7ServiceC8listener_10didReceive11withContextySo27BSServiceConnectionListenerC_So0iJ4Host_So0iJ0CXcSo13BSXPCDecoding_ptFTf4dndn_n
++ _$s19ExtensionFoundation7ServiceC8listener_10didReceive11withContextySo27BSServiceConnectionListenerC_So0iJ4Host_So0iJ0CXcSo13BSXPCDecoding_ptFTo
++ _$s19ExtensionFoundation7ServiceC8listener_10didReceive11withContextySo27BSServiceConnectionListenerC_So0iJ4Host_So0iJ0CXcSo13BSXPCDecoding_ptFyycfU0_
++ _$s19ExtensionFoundation7ServiceC8listener_10didReceive11withContextySo27BSServiceConnectionListenerC_So0iJ4Host_So0iJ0CXcSo13BSXPCDecoding_ptFyycfU0_TA
++ _$s19ExtensionFoundation7ServiceCACycfcTo
++ _$s19ExtensionFoundation7ServiceCMF
++ _$s19ExtensionFoundation7ServiceCMa
++ _$s19ExtensionFoundation7ServiceCMf
++ _$s19ExtensionFoundation7ServiceCMn
++ _$s19ExtensionFoundation7ServiceCN
++ _$s19ExtensionFoundation7ServiceCfD
++ _$s19ExtensionFoundation7ServiceCfETo
++ _$s19ExtensionFoundation8DefaultsV013alwaysEnabledA17BundleIdentifiersShySSGvgZ
++ _$s19ExtensionFoundation8DefaultsV013alwaysEnabledA17BundleIdentifiersShySSGvgZTm
++ _$s19ExtensionFoundation8DefaultsV013alwaysEnabledA17BundleIdentifiersShySSGvpZMV
++ _$s19ExtensionFoundation8DefaultsV018allowedUnsandboxedA6PointsShySSGvgZ
++ _$s19ExtensionFoundation8DefaultsV018allowedUnsandboxedA6PointsShySSGvpZMV
++ _$s19ExtensionFoundation8DefaultsV10plistTypesSayyXlXpGvgZ
++ _$s19ExtensionFoundation8DefaultsV10plistTypesSayyXlXpGvpZMV
++ _$s19ExtensionFoundation8DefaultsV12forceSandboxSbvgZ
++ _$s19ExtensionFoundation8DefaultsV12forceSandboxSbvpZMV
++ _$s19ExtensionFoundation8DefaultsV15inProcessLaunchSbvgZ
++ _$s19ExtensionFoundation8DefaultsV15inProcessLaunchSbvpZMV
++ _$s19ExtensionFoundation8DefaultsV21queryAllowsDuplicatesSbvgZ
++ _$s19ExtensionFoundation8DefaultsV21queryAllowsDuplicatesSbvgZTm
++ _$s19ExtensionFoundation8DefaultsV21queryAllowsDuplicatesSbvpZMV
++ _$s19ExtensionFoundation8DefaultsV22checkAllowPrototypeAPIyyKFZ
++ _$s19ExtensionFoundation8DefaultsV22checkAllowPrototypeSPIyyKFZ
++ _$s19ExtensionFoundation8DefaultsV24preferInProcessDiscoverySbvgZ
++ _$s19ExtensionFoundation8DefaultsV24preferInProcessDiscoverySbvpZMV
++ _$s19ExtensionFoundation8DefaultsV25defaultSandboxProfileNameSSvgZ
++ _$s19ExtensionFoundation8DefaultsV25defaultSandboxProfileNameSSvpZMV
++ _$s19ExtensionFoundation8DefaultsV26enforceXPCCacheCodeSigningSbvgZ
++ _$s19ExtensionFoundation8DefaultsV26enforceXPCCacheCodeSigningSbvpZMV
++ _$s19ExtensionFoundation8DefaultsV28disableLaunchdCheckinTimeoutSbvgZ
++ _$s19ExtensionFoundation8DefaultsV28disableLaunchdCheckinTimeoutSbvpZMV
++ _$s19ExtensionFoundation8DefaultsV32startUIHostingSessionImmediatelySbvgZ
++ _$s19ExtensionFoundation8DefaultsV32startUIHostingSessionImmediatelySbvpZMV
++ _$s19ExtensionFoundation8DefaultsV34enhancedSecuritySandboxProfileNameSSvgZ
++ _$s19ExtensionFoundation8DefaultsV34enhancedSecuritySandboxProfileNameSSvpZMV
++ _$s19ExtensionFoundation8DefaultsVMF
++ _$s19ExtensionFoundation8DefaultsVMa
++ _$s19ExtensionFoundation8DefaultsVMf
++ _$s19ExtensionFoundation8DefaultsVMn
++ _$s19ExtensionFoundation8DefaultsVN
++ _$s19ExtensionFoundation8PlatformO14integerLiteralACs5Int32V_tcfCTf4nd_n
++ _$s19ExtensionFoundation8PlatformO6activeACvpZ
++ _$s19ExtensionFoundation8PlatformO6active_WZ
++ _$s19ExtensionFoundation8PlatformO6active_Wz
++ _$s19ExtensionFoundation8PlatformO8rawValueACSgSS_tcfCTf4nd_n
++ _$s19ExtensionFoundation8PlatformO8rawValueACSgSS_tcfCTv_r
++ _$s19ExtensionFoundation8PlatformO9availableSayACGvpZ
++ _$s19ExtensionFoundation8PlatformO9available_WZ
++ _$s19ExtensionFoundation8PlatformO9available_Wz
++ _$s19ExtensionFoundation8PlatformOACSQAAWL
++ _$s19ExtensionFoundation8PlatformOACSQAAWl
++ _$s19ExtensionFoundation8PlatformOMF
++ _$s19ExtensionFoundation8PlatformOMa
++ _$s19ExtensionFoundation8PlatformOMf
++ _$s19ExtensionFoundation8PlatformOMn
++ _$s19ExtensionFoundation8PlatformON
++ _$s19ExtensionFoundation8PlatformOSHAAMc
++ _$s19ExtensionFoundation8PlatformOSHAAMcMK
++ _$s19ExtensionFoundation8PlatformOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s19ExtensionFoundation8PlatformOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s19ExtensionFoundation8PlatformOSHAASH9hashValueSivgTW
++ _$s19ExtensionFoundation8PlatformOSHAASQWb
++ _$s19ExtensionFoundation8PlatformOSQAAMc
++ _$s19ExtensionFoundation8PlatformOSQAAMcMK
++ _$s19ExtensionFoundation8PlatformOSQAASQ2eeoiySbx_xtFZTW
++ _$s19ExtensionFoundation8PlatformOSYAAMA
++ _$s19ExtensionFoundation8PlatformOSYAAMc
++ _$s19ExtensionFoundation8PlatformOSYAAMcMK
++ _$s19ExtensionFoundation8PlatformOSYAASY8rawValue03RawE0QzvgTW
++ _$s19ExtensionFoundation8PlatformOSYAASY8rawValuexSg03RawE0Qz_tcfCTW
++ _$s19ExtensionFoundation8PlatformOWV
++ _$s19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAA0fG4TypesADP_s01_de7BuiltinfG0PWT
++ _$s19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAAMA
++ _$s19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAAMc
++ _$s19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAAMcMK
++ _$s19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAAsADP07integerG0x0fG4TypeQz_tcfCTW
++ _$s19ExtensionFoundation8PlatformOwet
++ _$s19ExtensionFoundation8PlatformOwst
++ _$s19ExtensionFoundation8PlatformOwug
++ _$s19ExtensionFoundation8PlatformOwui
++ _$s19ExtensionFoundation8PlatformOwup
++ _$s19ExtensionFoundation8_EXQueryC10resultTypeSo01_c6ResultE0VvMTq
++ _$s19ExtensionFoundation8_EXQueryC10resultTypeSo01_c6ResultE0VvgTq
++ _$s19ExtensionFoundation8_EXQueryC10resultTypeSo01_c6ResultE0VvpWvd
++ _$s19ExtensionFoundation8_EXQueryC10resultTypeSo01_c6ResultE0VvsTq
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryV24extensionPointIdentifierSSSgvs
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryV5coderAESo7NSCoderC_tKcfCTf4nd_n
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryV8platforms6UInt32VvsTf4dn_n
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP14hostAuditTokenSo13audit_token_tavgTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP21extensionPointRecordsSaySo011LSExtensionhD0CGvgTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP24extensionPointIdentifierSSSgvgTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP24extensionPointIdentifierSSSgvsTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP6encode4withySo7NSCoderC_tFTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP8platforms6UInt32VvgTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0A2aFP8platforms6UInt32VvsTW
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0AAMc
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVAA05InnerE0AAWP
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVMF
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVMa
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVMf
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVMn
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVN
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVWV
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVwet
++ _$s19ExtensionFoundation8_EXQueryC11RecordQueryVwst
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryV11descriptionSSvg
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryV21extensionPointRecordsSaySo011LSExtensionG6RecordCGvg
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryV5coderAESo7NSCoderC_tKcfCTf4nd_n
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryV6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP14hostAuditTokenSo13audit_token_tavgTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP21extensionPointRecordsSaySo011LSExtensionH6RecordCGvgTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP24extensionPointIdentifierSSSgvgTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP24extensionPointIdentifierSSSgvsTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP6encode4withySo7NSCoderC_tFTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP8platforms6UInt32VvgTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0A2aFP8platforms6UInt32VvsTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0AAMc
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVAA05InnerE0AAWP
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVMF
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVMa
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVMf
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVMn
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVN
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVWOc
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVWOh
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVWV
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVs23CustomStringConvertibleAAMc
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVs23CustomStringConvertibleAAMcMK
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVwet
++ _$s19ExtensionFoundation8_EXQueryC11ValuesQueryVwst
++ _$s19ExtensionFoundation8_EXQueryC14hostAuditTokenSo13audit_token_tavgTq
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvMTq
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvgTo
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvgTq
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvpWvd
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvsTo
++ _$s19ExtensionFoundation8_EXQueryC15excludeDisabledSbvsTq
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvMTq
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvgTo
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvgTq
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvpWvd
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvsTo
++ _$s19ExtensionFoundation8_EXQueryC16allowsDuplicatesSbvsTq
++ _$s19ExtensionFoundation8_EXQueryC16decodeInnerQuery5coderAA0eF0_pSo7NSCoderC_tKFZ
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvMTq
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvgTo
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvgTq
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvpWvd
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvsTo
++ _$s19ExtensionFoundation8_EXQueryC17excludeLockedAppsSbvsTq
++ _$s19ExtensionFoundation8_EXQueryC18allExtensionsQueryACyFZTo
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvMTq
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvgTo
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvgTq
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvpWvd
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvsTo
++ _$s19ExtensionFoundation8_EXQueryC19includeUpdatingAppsSbvsTq
++ _$s19ExtensionFoundation8_EXQueryC20extensionPointRecordACSo011LSExtensioneF0C_tcfCTq
++ _$s19ExtensionFoundation8_EXQueryC20extensionPointRecordACSo011LSExtensioneF0C_tcfcTf4gn_n
++ _$s19ExtensionFoundation8_EXQueryC20supportsSecureCodingSbvgZ
++ _$s19ExtensionFoundation8_EXQueryC20supportsSecureCodingSbvgZTo
++ _$s19ExtensionFoundation8_EXQueryC20supportsSecureCodingSbvpZMV
++ _$s19ExtensionFoundation8_EXQueryC21extensionPointRecordsSaySo011LSExtensionE6RecordCGvgTq
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvMTq
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvgTo
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvgTq
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvpWvd
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvsTo
++ _$s19ExtensionFoundation8_EXQueryC21includePostprocessingSbvsTq
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifier8platform9predicate14hostAuditTokenACSS_s6UInt32VSo11NSPredicateCSgSo13audit_token_tatcfCTq
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifier9predicateACSS_So11NSPredicateCtcfc
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifier9predicateACSS_So11NSPredicateCtcfcTo
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierACSS_tcfc
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierACSS_tcfcTo
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierSSSgvMTq
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierSSSgvgTo
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierSSSgvgTq
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierSSSgvsTo
++ _$s19ExtensionFoundation8_EXQueryC24extensionPointIdentifierSSSgvsTq
++ _$s19ExtensionFoundation8_EXQueryC4copy4withyp10ObjectiveC6NSZoneVSg_tF
++ _$s19ExtensionFoundation8_EXQueryC4copy4withyp10ObjectiveC6NSZoneVSg_tFTj
++ _$s19ExtensionFoundation8_EXQueryC4copy4withyp10ObjectiveC6NSZoneVSg_tFTo
++ _$s19ExtensionFoundation8_EXQueryC4copy4withyp10ObjectiveC6NSZoneVSg_tFTq
++ _$s19ExtensionFoundation8_EXQueryC4hashSivg
++ _$s19ExtensionFoundation8_EXQueryC4hashSivgTo
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfC
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfCTj
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfCTq
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfc
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfcTf4gn_n
++ _$s19ExtensionFoundation8_EXQueryC5coderACSgSo7NSCoderC_tcfcTo
++ _$s19ExtensionFoundation8_EXQueryC5inner33_E8348C09A8418BD58B9530AAC843C8F0LLAA10InnerQuery_pvpWvd
++ _$s19ExtensionFoundation8_EXQueryC5query24extensionPointIdentifier8platformACSS_s6UInt32VtFZTf4nnd_n
++ _$s19ExtensionFoundation8_EXQueryC5query24extensionPointIdentifier8platformACSS_s6UInt32VtFZTo
++ _$s19ExtensionFoundation8_EXQueryC6encode4withySo7NSCoderC_tF
++ _$s19ExtensionFoundation8_EXQueryC6encode4withySo7NSCoderC_tFTj
++ _$s19ExtensionFoundation8_EXQueryC6encode4withySo7NSCoderC_tFTo
++ _$s19ExtensionFoundation8_EXQueryC6encode4withySo7NSCoderC_tFTq
++ _$s19ExtensionFoundation8_EXQueryC7execute5query10completionyAC_ySaySo24_EXExtensionRepresenting_pGctFZTo
++ _$s19ExtensionFoundation8_EXQueryC7execute5query10completionyAC_ySaySo24_EXExtensionRepresenting_pGctFZySaySo01_G8IdentityCGcfU_TA
++ _$s19ExtensionFoundation8_EXQueryC7execute5query10completionyAC_ySaySo24_EXExtensionRepresenting_pGctFZySaySo01_G8IdentityCGcfU_Tm
++ _$s19ExtensionFoundation8_EXQueryC7execute5querySaySo24_EXExtensionRepresenting_pGAC_tFZTo
++ _$s19ExtensionFoundation8_EXQueryC7execute7queries10completionySayACG_ySaySo24_EXExtensionRepresenting_pGctFZTo
++ _$s19ExtensionFoundation8_EXQueryC7execute7queries10completionySayACG_ySaySo24_EXExtensionRepresenting_pGctFZySaySo01_G8IdentityCGcfU_TA
++ _$s19ExtensionFoundation8_EXQueryC7execute7queriesSaySo24_EXExtensionRepresenting_pGSayACG_tFZTo
++ _$s19ExtensionFoundation8_EXQueryC7isEqualySbypSgF
++ _$s19ExtensionFoundation8_EXQueryC7isEqualySbypSgFTo
++ _$s19ExtensionFoundation8_EXQueryC7matches6recordSbSo013LSApplicationA6RecordC_tF
++ _$s19ExtensionFoundation8_EXQueryC7matches6recordSbSo013LSApplicationA6RecordC_tFTo
++ _$s19ExtensionFoundation8_EXQueryC7matches6recordSbSo013LSApplicationA6RecordC_tFTq
++ _$s19ExtensionFoundation8_EXQueryC7matchesySbSo20_EXExtensionIdentityCF
++ _$s19ExtensionFoundation8_EXQueryC7matchesySbSo20_EXExtensionIdentityCFTo
++ _$s19ExtensionFoundation8_EXQueryC7matchesySbSo20_EXExtensionIdentityCFTq
++ _$s19ExtensionFoundation8_EXQueryC8platforms6UInt32VvMTq
++ _$s19ExtensionFoundation8_EXQueryC8platforms6UInt32VvgTo
++ _$s19ExtensionFoundation8_EXQueryC8platforms6UInt32VvgTq
++ _$s19ExtensionFoundation8_EXQueryC8platforms6UInt32VvsTo
++ _$s19ExtensionFoundation8_EXQueryC8platforms6UInt32VvsTq
++ _$s19ExtensionFoundation8_EXQueryC9makeQuery24extensionPointIdentifierACSS_tFZTf4nd_n
++ _$s19ExtensionFoundation8_EXQueryC9makeQuery24extensionPointIdentifierACSS_tFZTo
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvMTq
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvgTo
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvgTq
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvpWvd
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvsTo
++ _$s19ExtensionFoundation8_EXQueryC9predicateSo11NSPredicateCSgvsTq
++ _$s19ExtensionFoundation8_EXQueryCACycfc
++ _$s19ExtensionFoundation8_EXQueryCACycfcTo
++ _$s19ExtensionFoundation8_EXQueryCMF
++ _$s19ExtensionFoundation8_EXQueryCMa
++ _$s19ExtensionFoundation8_EXQueryCMf
++ _$s19ExtensionFoundation8_EXQueryCMn
++ _$s19ExtensionFoundation8_EXQueryCMo
++ _$s19ExtensionFoundation8_EXQueryCMu
++ _$s19ExtensionFoundation8_EXQueryCN
++ _$s19ExtensionFoundation8_EXQueryCfD
++ _$s19ExtensionFoundation8_EXQueryCfETo
++ _$s19ExtensionFoundation8_EXQueryCyAcA04_AppA5QueryVc33_CDD6639443F09112848BD34A3597427CLlfCTf4nd_n
++ _$s19ExtensionFoundationMXM
++ _$s2IDs12IdentifiablePTl
++ _$s2os0A11LogInternal_3log4typeyAA12OSLogMessageV_So03OS_a1_D0CSo0a1_d1_E2_tatFyySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcXEfU_
++ _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
++ _$s2os14OSLogArgumentsV6appendyySSycFySpys5UInt8VGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_
++ _$s2os14OSLogArgumentsV6appendyySo8NSObjectCSgycFySpys5UInt8VGz_SpyAGGSgzSpyypGSgztcfU_
++ _$s2os14OSLogArgumentsV6appendyys5UInt8VFySpyAFGz_SpySo8NSObjectCSgGSgzSpyypGSgztcfU_
++ _$s2os18OSLogInterpolationV06appendC0_5align7privacyySSyXA_AA0B15StringAlignmentVAA0B7PrivacyVtFSSycfu_
++ _$s2os18OSLogInterpolationV06appendC0_6format7privacyySbyXA_AA0B10BoolFormatOAA0B7PrivacyVtFs5Int32Vycfu_
++ _$s2os18OSLogInterpolationV06appendC0_6format7privacyys5Int32VyXA_AA0bG14ExtendedFormatOAA0B7PrivacyVtFAHycfu_
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesySo8NSObjectCyXA_AA0B7PrivacyVSStFAHSgycfu_
++ _$s2os18OSLogInterpolationV06appendC0_7privacy10attributesys5Error_pyXA_AA0B7PrivacyVSStFSo8NSObjectCycfu_
++ _$s2os18OSLogInterpolationV06appendC0_7privacyySo8NSObjectCyXA_AA0B7PrivacyVtFAGSgycfu_
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_yt_Tg5TA
++ _$s2os21OSAllocatedUnfairLockVMn
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$s2os6LoggerV19ExtensionFoundationE11preferencesACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE11preferencesACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE11preferences_WZ
++ _$s2os6LoggerV19ExtensionFoundationE11preferences_Wz
++ _$s2os6LoggerV19ExtensionFoundationE19prototypeInterfacesACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE19prototypeInterfacesACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE19prototypeInterfaces_WZ
++ _$s2os6LoggerV19ExtensionFoundationE19prototypeInterfaces_Wz
++ _$s2os6LoggerV19ExtensionFoundationE6launchACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE6launchACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE6launch_WZ
++ _$s2os6LoggerV19ExtensionFoundationE6launch_Wz
++ _$s2os6LoggerV19ExtensionFoundationE7generalACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE7generalACvgZTm
++ _$s2os6LoggerV19ExtensionFoundationE7generalACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE7general_WZ
++ _$s2os6LoggerV19ExtensionFoundationE7general_WZTm
++ _$s2os6LoggerV19ExtensionFoundationE7general_Wz
++ _$s2os6LoggerV19ExtensionFoundationE7monitorACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE7monitorACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE7monitor_WZ
++ _$s2os6LoggerV19ExtensionFoundationE7monitor_Wz
++ _$s2os6LoggerV19ExtensionFoundationE9discoveryACvgZ
++ _$s2os6LoggerV19ExtensionFoundationE9discoveryACvpZ
++ _$s2os6LoggerV19ExtensionFoundationE9discovery_WZ
++ _$s2os6LoggerV19ExtensionFoundationE9discovery_Wz
++ _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
++ _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
++ _$s2os6LoggerVMa
++ _$s2os9serialize_2atys5UInt8V_SpyAEGztF
++ _$s2os9serialize_2atyx_Spys5UInt8VGzts17FixedWidthIntegerRzlFySWXEfU_
++ _$s3XPC0A14_TYPE_ENDPOINTs13OpaquePointerVvg
++ _$s3XPC10XPCSessionC14fromConnection11targetQueue7options19cancellationHandlerACSo13OS_xpc_object_p_So0J15_dispatch_queueCSgAC21InitializationOptionsVyAA12XPCRichErrorVcSgtKcfC
++ _$s3XPC10XPCSessionC21InitializationOptionsV8inactiveAEvgZ
++ _$s3XPC10XPCSessionC21InitializationOptionsVMa
++ _$s3XPC10XPCSessionCMa
++ _$s3XPC11XPCListenerC21InitializationOptionsV4noneAEvgZ
++ _$s3XPC11XPCListenerC21InitializationOptionsVMa
++ _$s3XPC11XPCListenerC22IncomingSessionRequestC6reject6reasonAE8DecisionVSS_tFTj
++ _$s3XPC11XPCListenerC22IncomingSessionRequestC8DecisionVMn
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_SgWOe
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeggr_SgWOy
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeghgr_SgWOy
++ _$s3XPC11XPCListenerC22IncomingSessionRequestCMn
++ _$s3XPC11XPCListenerC7service11targetQueue7options22incomingSessionHandlerACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVAC08IncomingH7RequestC8DecisionVANctKcfc
++ _$s3XPC11XPCListenerCMa
++ _$s3XPC11XPCListenerCMn
++ _$s4Body19ExtensionFoundation04_AppB0PTl
++ _$s5IndexSlTl
++ _$s7ElementSTTl
++ _$s7ElementScITl
++ _$s7ElementSciTl
++ _$s7ElementStTl
++ _$s7Elements10SetAlgebraPTl
++ _$s7FailureScITl
++ _$s7FailureSciTl
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE011findEncodeda3AppC033_FA5A5127B348FED6EA31068C17FE374ELL4fromSSSgSaySSG_tFZTf4nd_n
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE03seta3AppC04fromySaySSG_tKFZTf4nd_n
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE07encodedA9AppIDArgsSaySSGyKF
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE6decode4from6forKeyACSgSo7NSCoderC_SStFZ
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE6encode4with6forKeyySo7NSCoderC_SStF
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE7setSelf33_FA5A5127B348FED6EA31068C17FE374ELLyyKF
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE9hashValueSivg
++ _$s7Network15NWApplicationIDV19ExtensionFoundationE9hashValueSivpMV
++ _$s7Network15NWApplicationIDV2eeoiySbAC_ACtFZ
++ _$s7Network15NWApplicationIDV2nwSo03OS_D15_application_id_pvg
++ _$s7Network15NWApplicationIDV4hash4intoys6HasherVz_tF
++ _$s7Network15NWApplicationIDV4selfACSgvgZ
++ _$s7Network15NWApplicationIDVACSEAAWL
++ _$s7Network15NWApplicationIDVACSEAAWlTm
++ _$s7Network15NWApplicationIDVACSQ19ExtensionFoundationWL
++ _$s7Network15NWApplicationIDVACSeAAWL
++ _$s7Network15NWApplicationIDVMa
++ _$s7Network15NWApplicationIDVMn
++ _$s7Network15NWApplicationIDVSEAAMc
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationMc
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationMcMK
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationSH13_rawHashValue4seedS2i_tFTW
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationSH4hash4intoys6HasherVz_tFTW
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationSH9hashValueSivgTW
++ _$s7Network15NWApplicationIDVSH19ExtensionFoundationSQWb
++ _$s7Network15NWApplicationIDVSQ19ExtensionFoundationMc
++ _$s7Network15NWApplicationIDVSQ19ExtensionFoundationMcMK
++ _$s7Network15NWApplicationIDVSQ19ExtensionFoundationSQ2eeoiySbx_xtFZTW
++ _$s7Network15NWApplicationIDVSeAAMc
++ _$s7Network15NWApplicationIDVSgMD
++ _$s7Network15NWApplicationIDVSgML
++ _$s7Network15NWApplicationIDVSgMa
++ _$s7Network15NWApplicationIDVSgMaTm
++ _$s7Network15NWApplicationIDVSgWOc
++ _$s7Network15NWApplicationIDVSgWOcTm
++ _$s7Network15NWApplicationIDVSgWOd
++ _$s7Network15NWApplicationIDVSgWOdTm
++ _$s7Network15NWApplicationIDVSgWOf
++ _$s7Network15NWApplicationIDVSg_ADtMD
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
++ _$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm
++ _$s8Dispatch0A13WorkItemFlagsVMa
++ _$s8Dispatch0A13WorkItemFlagsVMn
++ _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
++ _$s8Dispatch0A3QoSV11unspecifiedACvgZ
++ _$s8Dispatch0A3QoSVMa
++ _$s8Dispatch0A9PredicateO10notOnQueueyACSo17OS_dispatch_queueCcACmFWC
++ _$s8Dispatch0A9PredicateO7onQueueyACSo17OS_dispatch_queueCcACmFWC
++ _$s8Dispatch0A9PredicateOMa
++ _$s8Dispatch25_dispatchPreconditionTestySbAA0A9PredicateOF
++ _$s8IteratorSTTl
++ _$s8RawValueSYTl
++ _$s9ActorTypes06GlobalA0PTl
++ _$sBOWV
++ _$sBbWV
++ _$sBi32_WV
++ _$sBi64_WV
++ _$sBi8_WV
++ _$sBoWV
++ _$sIeg_IeyB_TR
++ _$sIeg_IyB_TR
++ _$sIeg_SgWOe
++ _$sIeg_SgWOy
++ _$sIeg_ytIegr_TR
++ _$sIeg_ytIegr_TRTA
++ _$sIeg_ytIegr_TRTA.22
++ _$sIeg_ytIegr_TRTA.61
++ _$sIegh_IeyBh_TR
++ _$sIeyB_Ieg_TR
++ _$sIeyB_Ieg_TRTA
++ _$sIg_Ieg_TR
++ _$sIg_Ieg_TRTA
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
++ _$sSD11removeValue6forKeyq_Sgx_tF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionE0E14ImplementationC7RequestVTg5Tm
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionC0E14ImplementationC7RequestVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC19ExtensionFoundation03AppC5PointV7MonitorC8IdentityV_AG18ObserverControllerC0I033_5D985BB42A36A6D664ED77CA96129115LLVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SDySSSDySSypGGTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SDySSypGTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SDySSypGTt0g5Tf4g_nTm
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_yXlTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCs11AnyHashableV_ypTt0g5Tf4g_n
++ _$sSD8IteratorV8_VariantOy19ExtensionFoundation8_EXQueryCAE14_EXActiveQueryC__GWOe
++ _$sSD8IteratorV8_VariantOySSyp__GWOe
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionF0E14ImplementationC7RequestVTg5
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF19ExtensionFoundation03AppF5PointV7MonitorC8IdentityV_AJ18ObserverControllerC0L033_5D985BB42A36A6D664ED77CA96129115LLVTB5
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF19ExtensionFoundation10AuditTokenV_So12RBSAssertionCTg5
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tF19ExtensionFoundation8_EXQueryC_AF14_EXActiveQueryCTg5
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
++ _$sSDMa
++ _$sSDsSHR_rlE4hash4intoys6HasherVz_tFSS_SSTg5
++ _$sSDy19ExtensionFoundation10AuditTokenVSo12RBSAssertionCGMD
++ _$sSDyS2SGMD
++ _$sSDyS2SGML
++ _$sSDyS2SGMa
++ _$sSDyS2SGMaTm
++ _$sSDyS2SGSDyxq_GSEsSERzSER_rlWL
++ _$sSDyS2SGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDyS2SGSDyxq_GSesSeRzSeR_rlWlTm
++ _$sSDySSSDySSypGGMD
++ _$sSDySSyXlGMD
++ _$sSDySSyXlGML
++ _$sSDySSyXlGMa
++ _$sSDySSypGMD
++ _$sSDySSypGML
++ _$sSDySSypGSgML
++ _$sSDySSypGWOcTm
++ _$sSDySSypGWOhTm
++ _$sSDySo8NSStringCABGMD
++ _$sSDyq_Sgxcig19ExtensionFoundation8_EXQueryC_AB14_EXActiveQueryCTg5
++ _$sSDyq_Sgxcis10Foundation4UUIDV_09ExtensionA016_EXServiceClientC8ObserverCTg5
++ _$sSDyq_Sgxcis10Foundation4UUIDV_09ExtensionA07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5
++ _$sSDyq_Sgxcis10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionA0E14ImplementationC7RequestVTg5
++ _$sSDyq_SgxcisSS_SSTg5
++ _$sSDys11AnyHashableVypGMD
++ _$sSDyxq_GSEsSERzSER_rlMc
++ _$sSDyxq_GSesSeRzSeR_rlMc
++ _$sSE6encode2toys7Encoder_p_tKFTq
++ _$sSEMp
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSH13_rawHashValue4seedS2i_tFTq
++ _$sSH4hash4intoys6HasherVz_tFTj
++ _$sSH4hash4intoys6HasherVz_tFTq
++ _$sSH9hashValueSivgTq
++ _$sSHMp
++ _$sSHSQTb
++ _$sSJN
++ _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
++ _$sSMsE20_halfStablePartition15isSuffixElement5IndexQzSb0F0QzKXE_tKFSay19ExtensionFoundation03AppH5PointV7MonitorC18ObserverControllerC04WeakL033_5D985BB42A36A6D664ED77CA96129115LLVG_Tg504$s19h12Foundation03j2A5k2V7l3C18mn8C0F033_5pqrstuv24LLV06removeE0yyAEFSbAG04O12E0AILLVXEfU_AKTf1cn_nTf4ng_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry19ExtensionFoundation09_InnerAppI8Identity_pG_Tg504$s19i31Foundation27_EXExtensionProcessm62C13JobDescriptorV_4hostAeC_So16RBSProcessHandleCSgtKcfcSbAA09_K20AppaE0_p_AaJ_ptXEfU_Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySSG_Tg508$sSTsSL7h33RpzrlE6sortedSayABGyFSbAB_ABtcfu_N9SSG_Tt1G5Tf1nncn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySSG_Tg508$sSTsSL7c33RpzrlE6sortedSayABGyFSbAB_ABtcfu_K9SSG_Tt1G5Tf1cn_n
++ _$sSOSHsWP
++ _$sSQ2eeoiySbx_xtFZTj
++ _$sSQ2eeoiySbx_xtFZTq
++ _$sSQMp
++ _$sSS10FoundationE10utf8StringSSSgSPys4Int8VG_tcfC
++ _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
++ _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
++ _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
++ _$sSS10FoundationE8EncodingV4utf8ACvgZ
++ _$sSS10FoundationE8EncodingVMa
++ _$sSS10describingSSx_tclufC
++ _$sSS10identifier_19ExtensionFoundation8PlatformO8platformtMD
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS14_fromSubstringySSSshFZ
++ _$sSS3key_yXl5valuetMD
++ _$sSS3key_yp5valuetMD
++ _$sSS4hash4intoys6HasherVz_tF
++ _$sSS5countSivg
++ _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
++ _$sSS6appendyySSF
++ _$sSS7cStringSSSPys4Int8VG_tcfC
++ _$sSS8IteratorV4nextSJSgyF
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
++ _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
++ _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
++ _$sSS8UTF8ViewVN
++ _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
++ _$sSS9hasPrefixySbSSF
++ _$sSS9hashValueSivg
++ _$sSSN
++ _$sSSSEsWP
++ _$sSSSHsWP
++ _$sSSSesWP
++ _$sSSSgMD
++ _$sSSSgML
++ _$sSSSgMa
++ _$sSSWOh
++ _$sSS_SDySSSDySSypGGtMD
++ _$sSS_SDySSypGtMD
++ _$sSS_SStMD
++ _$sSS_SStWOh
++ _$sSS_yXltMD
++ _$sSS_yXltWOhTm
++ _$sSS_yptMD
++ _$sSS_yptWOcTm
++ _$sSSySsSnySS5IndexVGcig
++ _$sST12makeIterator0B0QzyFTq
++ _$sST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTq
++ _$sST19underestimatedCountSivgTq
++ _$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTq
++ _$sST31_customContainsEquatableElementySbSg0D0QzFTq
++ _$sST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTq
++ _$sST8IteratorST_StTn
++ _$sSTMp
++ _$sSTTL
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tF19ExtensionFoundation03AppG15PointEnumeratorV_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSS_Tgq5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShy10Foundation4UUIDVG_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShy19ExtensionFoundation03AppG8IdentityVG_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShy19ExtensionFoundation23LocalLSDatabaseObserverC0K0VG_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFShySo20_EXExtensionIdentityCG_Tg5
++ _$sSTsE32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlF
++ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSaySo22LSExtensionPointRecordCG_AHTg5079$s19ExtensionFoundation23LocalLSDatabaseObserverC6update8identity4hostAA03AppA5e57V7MonitorC5StateVAJ8IdentityV_AA10AuditTokenVtKFZSaySo011d2J6F10CGARXEfU0_Tf1cn_n
++ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFShy19ExtensionFoundation03AppD5PointVG_SaySo011LSExtensionG6RecordCGTg504$s19d61Foundation23LocalLSDatabaseObserverC6update8identity4hostAA03f2A5g57V7MonitorC5StateVAJ8IdentityV_AA10AuditTokenVtKFZSaySo011h2J6I9CGAHXEfU_Tf1cn_n
++ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFShy19ExtensionFoundation03AppD5PointVG_SaySo011LSExtensionG6RecordCGTg504$s19d92Foundation16_EXServiceClientC8ObserverC8activate10connectionySo15NSXPCConnectionC_tKFSaySo22hgI19CGAA03AppaJ0VXEfU0_Tf1cn_n
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.10
++ _$sSY8rawValue03RawB0QzvgTq
++ _$sSY8rawValuexSg03RawB0Qz_tcfCTq
++ _$sSYMp
++ _$sSYsSERzSi8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
++ _$sSYsSERzs6UInt32V8RawValueSYRtzrlE6encode2toys7Encoder_p_tKF
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF19ExtensionFoundation8PlatformO_Tg5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF19ExtensionFoundation8PlatformO_Tg5
++ _$sSYsSeRzSi8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
++ _$sSYsSeRzs6UInt32V8RawValueSYRtzrlE4fromxs7Decoder_p_tKcfC
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFyXl_Ts5
++ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa11descriptionSSvg
++ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo12RBSAttributeC_Tg5
++ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo18RBSDomainAttributeC_Tg5
++ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tFSo22LSExtensionPointRecordC_Tg5
++ _$sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXl_Ts5
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtFSo18RBSDomainAttributeC_Tg5Tm
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtFSo22LSExtensionPointRecordC_Tg5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
++ _$sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntFyXl_Ts5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSJ_SSTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSS_SaySSGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSo12RBSAttributeC_SayAFGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSo18RBSDomainAttributeC_SayAFGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSo18RBSDomainAttributeC_SayAFGTg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSo22LSExtensionPointRecordC_SayAFGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSa6remove2atxSi_tFSnySiG_Tgq5
++ _$sSaMa
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ19ExtensionFoundation03AppB8IdentityV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSS_Tt1g5
++ _$sSay19ExtensionFoundation03AppA8IdentityVGMD
++ _$sSay19ExtensionFoundation04_AppA8IdentityVGMD
++ _$sSay8Dispatch0A13WorkItemFlagsVGMD
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
++ _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWlTm
++ _$sSaySDySSypGGMD
++ _$sSaySSGMD
++ _$sSaySSGSayxGSEsSERzlWL
++ _$sSaySSGSayxGSKsWL
++ _$sSaySSGSayxGSKsWl
++ _$sSaySSGSayxGSesSeRzlWL
++ _$sSaySSGSayxGSesSeRzlWlTm
++ _$sSaySSGSgML
++ _$sSaySSGSgMa
++ _$sSaySSGSgMaTm
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC10Foundation4UUIDV_ShyAFGTt0g5
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC19ExtensionFoundation23LocalLSDatabaseObserverC0F0V_ShyAHGTt0g5
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC19ExtensionFoundation23LocalLSDatabaseObserverC0F0V_ShyAHGTt0g5Tm
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCSo18RBSDomainAttributeC_SayAEGTt0g5
++ _$sSaySo12RBSAttributeCGMD
++ _$sSaySo12RBSAttributeCGSayxGSlsWL
++ _$sSaySo15NSExtensionItemCGMD
++ _$sSaySo15NSExtensionItemCGSgSo7NSErrorCSgIeggg_SgWOe
++ _$sSaySo15NSExtensionItemCGSgSo7NSErrorCSgIeggg_SgWOy
++ _$sSaySo15NSExtensionItemCGSgSo7NSErrorCSgIeggg_So7NSArrayCSgAGIeyByy_TR
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGMD
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWL
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWl
++ _$sSaySo17OS_dispatch_queueC8DispatchE10AttributesVGSayxGSTsWlTm
++ _$sSaySo18RBSDomainAttributeCGMD
++ _$sSaySo18RBSDomainAttributeCGML
++ _$sSaySo18RBSDomainAttributeCGMaTm
++ _$sSaySo18RBSDomainAttributeCGSayxGSlsWL
++ _$sSaySo18RBSDomainAttributeCGSayxGSlsWlTm
++ _$sSaySo18RBSDomainAttributeCGSgML
++ _$sSaySo18RBSDomainAttributeCGSgMa
++ _$sSaySo22LSExtensionPointRecordCGMD
++ _$sSaySo22LSExtensionPointRecordCGSayxGSlsWL
++ _$sSaySo8NSStringCGMD
++ _$sSayxGSEsSERzlMc
++ _$sSayxGSKsMc
++ _$sSayxGSTsMc
++ _$sSayxGSesSeRzlMc
++ _$sSayxGSlsMc
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo12RBSAttributeC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo12RBSAttributeC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo18RBSDomainAttributeC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo18RBSDomainAttributeC_Tg5.resume.0
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo22LSExtensionPointRecordC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTWSo22LSExtensionPointRecordC_Tg5.resume.0
++ _$sSayypGMD
++ _$sSbIegy_SgWOe
++ _$sSbN
++ _$sSbs5Error_pSgIegyg_10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyByy_TR
++ _$sScA15unownedExecutorScevgTj
++ _$sScA15unownedExecutorScevgTq
++ _$sScAMp
++ _$sScC6resume8throwingyq_n_tF
++ _$sScC6resume9returningyxn_tF
++ _$sScCySaySo15NSExtensionItemCGs5Error_pGMD
++ _$sScI4next7ElementQzSgyYaKFTj
++ _$sScI4next7ElementQzSgyYaKFTjTu
++ _$sScI4next7ElementQzSgyYaKFTq
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTj
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTjTu
++ _$sScI4next9isolation7ElementQzSgScA_pSgYi_tYa7FailureQzYKFTq
++ _$sScI7FailureScI_s5ErrorTn
++ _$sScIMp
++ _$sScM14assumeIsolated_4file4linexxyKScMYcXE_s12StaticStringVSutKs8SendableRzlFZyt_Tg5
++ _$sScM6sharedScMvgZ
++ _$sScMMa
++ _$sScP8rawValues5UInt8Vvg
++ _$sScPMa
++ _$sScPSgMD
++ _$sScS12ContinuationV11YieldResultOMn
++ _$sScS12ContinuationV11YieldResultOy19ExtensionFoundation03AppD8IdentityV12AvailabilityV__GMD
++ _$sScS12ContinuationV11YieldResultOySay19ExtensionFoundation03AppD8IdentityVG__GMD
++ _$sScS12ContinuationV11YieldResultOySay19ExtensionFoundation04_AppD8IdentityVG__GMD
++ _$sScS12ContinuationV13onTerminationyAB0C0Oyx__GYbcSgvs
++ _$sScS12ContinuationV15BufferingPolicyO15bufferingNewestyADyx__GSicAFmlFWC
++ _$sScS12ContinuationV15BufferingPolicyOMn
++ _$sScS12ContinuationV15BufferingPolicyOy19ExtensionFoundation03AppD8IdentityV12AvailabilityV__GMD
++ _$sScS12ContinuationV15BufferingPolicyOySay19ExtensionFoundation03AppD8IdentityVG__GMD
++ _$sScS12ContinuationV15BufferingPolicyOySay19ExtensionFoundation04_AppD8IdentityVG__GMD
++ _$sScS12ContinuationV5yieldyAB11YieldResultOyx__GxnF
++ _$sScS12ContinuationVMn
++ _$sScS12ContinuationVy19ExtensionFoundation03AppB8IdentityV12AvailabilityV_GMD
++ _$sScS12ContinuationVySay19ExtensionFoundation03AppB8IdentityVG_GMD
++ _$sScS12ContinuationVySay19ExtensionFoundation04_AppB8IdentityVG_GMD
++ _$sScS8IteratorVMn
++ _$sScS8IteratorVySay19ExtensionFoundation03AppB8IdentityVG_GAByx_GScIsWL
++ _$sScS8IteratorVySay19ExtensionFoundation03AppB8IdentityVG_GMD
++ _$sScS8IteratorVySay19ExtensionFoundation04_AppB8IdentityVG_GAByx_GScIsWL
++ _$sScS8IteratorVySay19ExtensionFoundation04_AppB8IdentityVG_GMD
++ _$sScS8IteratorVyx_GScIsMc
++ _$sScSMa
++ _$sScS_15bufferingPolicy_ScSyxGxm_ScS12ContinuationV09BufferingB0Oyx__GyADyx_GXEtcfC
++ _$sScSySay19ExtensionFoundation03AppA8IdentityVGGMD
++ _$sScSySay19ExtensionFoundation03AppA8IdentityVGGML
++ _$sScSySay19ExtensionFoundation03AppA8IdentityVGGMa
++ _$sScSySay19ExtensionFoundation03AppA8IdentityVGGScSyxGScisWL
++ _$sScSySay19ExtensionFoundation03AppA8IdentityVGGScSyxGScisWlTm
++ _$sScSySay19ExtensionFoundation04_AppA8IdentityVGGMD
++ _$sScSySay19ExtensionFoundation04_AppA8IdentityVGGML
++ _$sScSySay19ExtensionFoundation04_AppA8IdentityVGGMa
++ _$sScSySay19ExtensionFoundation04_AppA8IdentityVGGScSyxGScisWL
++ _$sScSySay19ExtensionFoundation04_AppA8IdentityVGGScSyxGScisWlTm
++ _$sScSyxGScisMc
++ _$sScT5valuexvg
++ _$sScT5valuexvgTu
++ _$sScT6cancelyyF
++ _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfC19ExtensionFoundation08_ServiceD7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLV_Tt1g5
++ _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfC19ExtensionFoundation25_EXExtensionProcessHandleC_Tt1g5Tm
++ _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfCyt_Tt1g5
++ _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
++ _$sScTss5NeverORszABRs_rlE11isCancelledSbvgZ
++ _$sSccySo19_EXExtensionProcessCs5Error_pGMD
++ _$sSci13AsyncIteratorSci_ScITn
++ _$sSci17makeAsyncIterator0bC0QzyFTj
++ _$sSci17makeAsyncIterator0bC0QzyFTq
++ _$sSciMp
++ _$sSciTL
++ _$sSci_p19ExtensionFoundation03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPMD
++ _$sSci_p19ExtensionFoundation03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPWOb
++ _$sSci_p19ExtensionFoundation03AppA5PointV7MonitorC5StateV7ElementSciRts_s5Error_p7FailureSciRtsXPWOc
++ _$sScisE5first5where7ElementQzSgSbADYaKXE_tYaKF
++ _$sScisE5first5where7ElementQzSgSbADYaKXE_tYaKFTu
++ _$sScs12ContinuationV11YieldResultOMn
++ _$sScs12ContinuationV11YieldResultOy19ExtensionFoundation03AppD5PointV7MonitorC5StateVs5Error_p__GMD
++ _$sScs12ContinuationV13onTerminationyAB0C0Oyxq___GYbcSgvs
++ _$sScs12ContinuationV15BufferingPolicyO15bufferingNewestyADyxq___GSicAFms5ErrorR_r0_lFWC
++ _$sScs12ContinuationV15BufferingPolicyOMn
++ _$sScs12ContinuationV15BufferingPolicyOy19ExtensionFoundation03AppD5PointV7MonitorC5StateVs5Error_p__GMD
++ _$sScs12ContinuationV5yieldyAB11YieldResultOyxq___GxnF
++ _$sScs12ContinuationV6finish8throwingyq_Sgn_tF
++ _$sScs12ContinuationVMa
++ _$sScs12ContinuationVMn
++ _$sScs12ContinuationVy19ExtensionFoundation03AppB5PointV7MonitorC5StateVs5Error_p_GMD
++ _$sScs12ContinuationVy19ExtensionFoundation03AppB5PointV7MonitorC5StateVs5Error_p_GML
++ _$sScs12ContinuationVy19ExtensionFoundation03AppB5PointV7MonitorC5StateVs5Error_p_GMa
++ _$sScs_15bufferingPolicy_Scsyxs5Error_pGxm_Scs12ContinuationV09BufferingB0OyxsAB_p__GyAEyxsAB_p_GXEtcsAB_pRs_rlufC
++ _$sScsy19ExtensionFoundation03AppA5PointV7MonitorC5StateVs5Error_pGMD
++ _$sScsy19ExtensionFoundation03AppA5PointV7MonitorC5StateVs5Error_pGScsyxq_GScisWL
++ _$sScsy19ExtensionFoundation03AppA5PointV7MonitorC5StateVs5Error_pGScsyxq_GScisWlTm
++ _$sScsyxq_GScisMc
++ _$sSe4fromxs7Decoder_p_tKcfCTq
++ _$sSeMp
++ _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF
++ _$sSh10FoundationE26_forceBridgeFromObjectiveC_6resultySo5NSSetC_ShyxGSgztFZ
++ _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
++ _$sSh10firstIndex2ofSh0B0Vyx_GSgx_tF19ExtensionFoundation16_EXServiceClientC06ActiveG5Query33_591406279EDD09BF7033B88E7B83DCFDLLC_Tg5
++ _$sSh11descriptionSSvg
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfC19ExtensionFoundation03AppE5PointV_Tt0g5Tf4g_n
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSo20_EXExtensionIdentityC_Tt0g5Tf4g_n
++ _$sSh2eeoiySbShyxG_ABtFZ19ExtensionFoundation03AppB5PointV_Tt1g5
++ _$sSh4hash4intoys6HasherVz_tF19ExtensionFoundation03AppD5PointV_Tg5
++ _$sSh5IndexV8_VariantOy19ExtensionFoundation03AppC5PointV__GWOe
++ _$sSh5IndexV8_VariantOy19ExtensionFoundation14_EXActiveQueryC06ActiveF8ObserverV__GWOe
++ _$sSh5IndexV8_VariantOy19ExtensionFoundation16_EXServiceClientC06ActiveF5Query33_591406279EDD09BF7033B88E7B83DCFDLLC__GWOe
++ _$sSh5IndexV8_VariantOySo20_EXExtensionIdentityC__GWOe
++ _$sSh5IndexV8_VariantOys11AnyHashableV__GWOe
++ _$sSh5IndexV8_asCocoas02__C3SetVAAVvM
++ _$sSh5IndexVMn
++ _$sSh5IndexVy19ExtensionFoundation16_EXServiceClientC06ActiveE5Query33_591406279EDD09BF7033B88E7B83DCFDLLC_GSgWOe
++ _$sSh5IndexVySo20_EXExtensionIdentityC_GMD
++ _$sSh5unionyShyxGqd__n7ElementQyd__RszSTRd__lFSo20_EXExtensionIdentityC_ShyAFGTg5
++ _$sSh8IteratorV6_cocoaAByx_Gs10__CocoaSetVAACn_tcfC
++ _$sSh8IteratorV8_VariantOy10Foundation4UUIDV__GWOe
++ _$sSh8IteratorV8_VariantOy19ExtensionFoundation16_EXServiceClientC06ActiveF5Query33_591406279EDD09BF7033B88E7B83DCFDLLC__GWOe
++ _$sSh8IteratorV8_VariantOy19ExtensionFoundation23LocalLSDatabaseObserverC0G0V__GWOe
++ _$sSh8IteratorV8_VariantOySo20_EXExtensionIdentityC__GWOe
++ _$sSh8IteratorV8_VariantOySo28LSApplicationExtensionRecordC__GWOe
++ _$sSh8_VariantV16_migrateToNative_8removingxs10__CocoaSetV_xtFSo20_EXExtensionIdentityC_Tg5Tm
++ _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo20_EXExtensionIdentityC_Tg50114$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5Error_pSgtcfU0_SbSo20_eF6CXEfU_So11NSPredicateCTf1cn_nTf4ng_nTm
++ _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo20_EXExtensionIdentityC_Tg5057$s19ExtensionFoundation14_EXActiveQueryC6updateyyFSbSo20_eF6CXEfU_Shy10Foundation4UUIDVGTf1cn_nTf4ng_n
++ _$sSh8_VariantV6filterys10_NativeSetVyxGSbxKXEKFSo20_EXExtensionIdentityC_Tg5090$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFSbSo20_eF7CXEfU0_Shy10Foundation4UUIDVGTf1cn_nTf4ng_n
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19ExtensionFoundation03AppG5PointV_TB5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19ExtensionFoundation03AppG8IdentityV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19ExtensionFoundation14_EXActiveQueryC06ActiveJ8ObserverV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19ExtensionFoundation16_EXServiceClientC06ActiveJ5Query33_591406279EDD09BF7033B88E7B83DCFDLLC_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19ExtensionFoundation23LocalLSDatabaseObserverC0K0V_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSo20_EXExtensionIdentityC_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSo20_EXExtensionIdentityC_Tg5Tm
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFs11AnyHashableV_Tg5
++ _$sSh8_VariantV6removeyxSgxF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6removeyxSgxF19ExtensionFoundation03AppC5PointV_TB5
++ _$sSh8_VariantV6removeyxSgxF19ExtensionFoundation14_EXActiveQueryC06ActiveF8ObserverV_Tg5
++ _$sSh8_VariantV6removeyxSgxF19ExtensionFoundation16_EXServiceClientC06ActiveF5Query33_591406279EDD09BF7033B88E7B83DCFDLLC_Tg5
++ _$sSh8_VariantV6removeyxSgxF19ExtensionFoundation23LocalLSDatabaseObserverC0G0V_Tg5
++ _$sSh8_VariantV6removeyxSgxFSo20_EXExtensionIdentityC_Tg5
++ _$sSh8_VariantV6removeyxSgxFSo20_EXExtensionIdentityC_Tg5Tm
++ _$sSh8_VariantV6removeyxSgxFs11AnyHashableV_Tg5
++ _$sSh8containsySbxF10Foundation4UUIDV_Tg5
++ _$sSh8containsySbxF19ExtensionFoundation23LocalLSDatabaseObserverC0F0V_Tg5
++ _$sSh8containsySbxFSS_Tg5
++ _$sSh9_subtractyyqd__7ElementQyd__RszSTRd__lF10Foundation4UUIDV_ShyAFGTg5
++ _$sSh9formUnionyyqd__n7ElementQyd__RszSTRd__lF19ExtensionFoundation03AppD8IdentityV_SayAFGTg5Tf4gn_n
++ _$sSh9formUnionyyqd__n7ElementQyd__RszSTRd__lFSo20_EXExtensionIdentityC_ShyAEGTg5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC10Foundation4UUIDV_SayAFGTt0g5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SD4KeysVySSyp_GTt0g5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo20_EXExtensionIdentityC_SayAEGTt0g5Tf4g_n
++ _$sShyxSh5IndexVyx_Gcig19ExtensionFoundation16_EXServiceClientC06ActiveE5Query33_591406279EDD09BF7033B88E7B83DCFDLLC_Tg5
++ _$sShyxSh5IndexVyx_GcigSo20_EXExtensionIdentityC_Tg5
++ _$sSi9hashValueSivg
++ _$sSiN
++ _$sSis23CustomStringConvertiblesWP
++ _$sSl10startIndex0B0QzvgTj
++ _$sSl19ExtensionFoundationAA04_AppA5QueryV7ElementRtzrlE11toEXQueries33_CDD6639443F09112848BD34A3597427CLLSayAA8_EXQueryCGyF
++ _$sSl19ExtensionFoundationAA04_AppA5QueryV7ElementRtzrlE11toEXQueries33_CDD6639443F09112848BD34A3597427CLLSayAA8_EXQueryCGyFAiCXEfU_
++ _$sSl19ExtensionFoundationAA04_AppA5QueryV7ElementRtzrlE11toEXQueries33_CDD6639443F09112848BD34A3597427CLLSayAA8_EXQueryCGyFSayACG_Tg5
++ _$sSl19ExtensionFoundationAA04_AppA5QueryV7ElementRtzrlE7resultsAC7ResultsVvg
++ _$sSl19ExtensionFoundationAA04_AppA5QueryV7ElementRtzrlE7resultsAC7ResultsVvpMV
++ _$sSl5countSivgTj
++ _$sSl9formIndex5aftery0B0Qzz_tFTj
++ _$sSlTL
++ _$sSlsE10firstIndex5where0B0QzSgSb7ElementQzKXE_tKFSay19ExtensionFoundation03AppE5PointV7MonitorC18ObserverControllerC04WeakI033_5D985BB42A36A6D664ED77CA96129115LLVG_Tg504$s19e12Foundation03g2A5h2V7i3C18jk8C0F033_5mnopqrs24LLV06removeE0yyAEFSbAG04L12E0AILLVXEfU_ALTf1cn_nTf4ng_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShy19ExtensionFoundation03AppD5PointVG_SSs5NeverOTg504$s19d12Foundation03f2A5G51V7MonitorC8IdentityV16debugDescriptionSSvgSSACXEfU_Tf1cn_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShy19ExtensionFoundation14_EXActiveQueryC06ActiveG8ObserverVG_AF01_fgI0_ps5NeverOTg504$s19d13Foundation14_fg22C9observersSayAA01_cD8I29_pGvgAaE_pAC06ActivedF0VXEfU_Tf1cn_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySo20_EXExtensionIdentityCG_AGs5NeverOTg5082$s19ExtensionFoundation15QueryControllerC22remapCurrentIdentitiesyyFyyYbXEfU_So20_dE8CAFXEfU_0H10Foundation0jK0CTf1cn_nTf4nd_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySo20_EXExtensionIdentityCG_AGs5NeverOTg5088$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFSo20_dE8CAHXEfU_Shy10Foundation4UUIDVG0hU00jK0CTf1cn_nTf4ngd_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShys11AnyHashableVG_19ExtensionFoundation24_EXServiceClientObserver_ps5NeverOTg504$s19f13Foundation16_hi66C06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11j41SetC10allObjectsSayAA01_cdN0_pGvgAaJ_ps11dE6VXEfU_Tf1cn_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShys11AnyHashableVG_yXlXps5NeverOTg5058$s19ExtensionFoundation8DefaultsV10plistTypesSayyXlXpGvgZyn5Xps11dE6VXEfU_Tf1cn_n
++ _$sSlsE9dropFirsty11SubSequenceQzSiFSS_Tg5Tf4ng_n
++ _$sSly7ElementQz5IndexQzcirTj
++ _$sSo10_EXPersonaCML
++ _$sSo10_EXPersonaCSgML
++ _$sSo11NSExtensionC19ExtensionFoundationEyAbC03AppB8IdentityVKcfC
++ _$sSo11NSExtensionC27ExtensionFoundation_PrivateE8identityABSo20_EXExtensionIdentityC_tKcfCTOTf4gn_n
++ _$sSo11NSExtensionCML
++ _$sSo11NSPredicateCML
++ _$sSo11NSPredicateCMaTm
++ _$sSo12NSDictionaryCML
++ _$sSo12NSDictionaryCMaTm
++ _$sSo12NSDictionaryCmMD
++ _$sSo12NSEnumeratorC10FoundationE12makeIteratorAC017NSFastEnumerationD0VyF
++ _$sSo12RBSAssertionCML
++ _$sSo12RBSAssertionCs5Error_pSgIeggg_ABSo7NSErrorCSgIeyByy_TR
++ _$sSo12RBSAttributeCML
++ _$sSo12RBSAttributeCMaTm
++ _$sSo12_EXExtensionC19ExtensionFoundationE9bootstrap4withyAB_tFZ
++ _$sSo12_EXExtensionCML
++ _$sSo12_EXExtensionCMaTm
++ _$sSo12_EXSceneRoleaABSHSCWL
++ _$sSo12_EXSceneRoleaABSQSCWL
++ _$sSo12_EXSceneRoleaABSYSCWL
++ _$sSo12_EXSceneRoleaABSYSCWlTm
++ _$sSo12_EXSceneRoleaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo12_EXSceneRoleaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo12_EXSceneRoleaMB
++ _$sSo12_EXSceneRoleaMF
++ _$sSo12_EXSceneRoleaML
++ _$sSo12_EXSceneRoleaMa
++ _$sSo12_EXSceneRoleaMf
++ _$sSo12_EXSceneRoleaMn
++ _$sSo12_EXSceneRoleaSHSCMc
++ _$sSo12_EXSceneRoleaSHSCMcMK
++ _$sSo12_EXSceneRoleaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo12_EXSceneRoleaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo12_EXSceneRoleaSHSCSH9hashValueSivgTW
++ _$sSo12_EXSceneRoleaSHSCSQWb
++ _$sSo12_EXSceneRoleaSQSCMc
++ _$sSo12_EXSceneRoleaSQSCMcMK
++ _$sSo12_EXSceneRoleaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo12_EXSceneRoleaSYSCMA
++ _$sSo12_EXSceneRoleaSYSCMc
++ _$sSo12_EXSceneRoleaSYSCMcMK
++ _$sSo12_EXSceneRoleaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo12_EXSceneRoleaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo12_EXSceneRoleas20_SwiftNewtypeWrapperSCMc
++ _$sSo12_EXSceneRoleas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo12_EXSceneRoleas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo12_EXSceneRoleas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCMA
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCMc
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCMcMK
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo12_EXSceneRoleas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo12_EXSceneRoleas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo12_EXSceneRoleas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo12_EXSceneRoleas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo13OS_xpc_object_pIegg_SgWOe
++ _$sSo13OS_xpc_object_pIegg_SgWOy
++ _$sSo13OS_xpc_object_pSbIeghgd_SgWOe
++ _$sSo13audit_token_taMB
++ _$sSo13audit_token_taMF
++ _$sSo13audit_token_taML
++ _$sSo13audit_token_taMa
++ _$sSo13audit_token_taMf
++ _$sSo13audit_token_taMn
++ _$sSo13audit_token_taWV
++ _$sSo13audit_token_tawet
++ _$sSo13audit_token_tawst
++ _$sSo13os_log_type_ta0A0E4infoABvgZ
++ _$sSo13os_log_type_ta0A0E5debugABvgZ
++ _$sSo13os_log_type_ta0A0E5errorABvgZ
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo13os_log_type_ta0A0E7defaultABvgZ
++ _$sSo14LSBundleRecordC10auditTokenABSo0C8_token_ta_tKcfCTO
++ _$sSo14LSBundleRecordCML
++ _$sSo14LSBundleRecordCMaTm
++ _$sSo14LSBundleRecordCSgML
++ _$sSo14LSBundleRecordCSgMaTm
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE21queryResultsInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE21queryResultsInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE21queryResultsInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE22launchServiceInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE22launchServiceInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE22launchServiceInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE23observerUpdateInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE23observerUpdateInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE23observerUpdateInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24observerServiceInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24observerServiceInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24observerServiceInterface_WZTm
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24observerServiceInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24tccProxyServiceInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24tccProxyServiceInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE24tccProxyServiceInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE25discoveryServiceInterfaceABvpZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE25discoveryServiceInterface_WZ
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE25discoveryServiceInterface_Wz
++ _$sSo14NSXPCInterfaceC19ExtensionFoundationE33defaultImplementationXPCInterfaceABvgZTf4d_n
++ _$sSo15LSDeveloperTypeVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo15NSExtensionItemCML
++ _$sSo15NSExtensionItemCmMD
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE10assertionsSDyAC10AuditTokenVSo12RBSAssertionCGvg
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE19invalidateAssertion3foryAC10AuditTokenV_tF
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE23invalidateAllAssertionsyyF
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE23invalidateAllAssertionsyyFyyScMYcXEfU_
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE23invalidateAllAssertionsyyFyyScMYcXEfU_TA
++ _$sSo15NSXPCConnectionC19ExtensionFoundationE3add9assertion13forAuditTokenySo12RBSAssertionC_AC0gH0VtF
++ _$sSo15NSXPCConnectionCML
++ _$sSo15NSXPCConnectionCSbIeghgd_SgWOe
++ _$sSo15NSXPCConnectionCSbIeghgd_SgWOy
++ _$sSo15NSXPCConnectionCSgML
++ _$sSo15NSXPCConnectionCSgMa
++ _$sSo15RBSMachEndpointCML
++ _$sSo16RBSLaunchContextC19ExtensionFoundationE10hostHandleSo010RBSProcessF0Cvg
++ _$sSo16RBSProcessHandleC3forABSo0A10Identifier_p_tKcfCTOTf4gn_n
++ _$sSo16RBSProcessHandleC3forABSo0A9PredicateC_tKcfCTOTf4gn_n
++ _$sSo16RBSProcessHandleCML
++ _$sSo16RBSProcessHandleCMaTm
++ _$sSo16RBSProcessHandleCSo0A11ExitContextCIeggg_AbDIeyByy_TR
++ _$sSo16os_unfair_lock_sVMB
++ _$sSo16os_unfair_lock_sVMF
++ _$sSo16os_unfair_lock_sVML
++ _$sSo16os_unfair_lock_sVMa
++ _$sSo16os_unfair_lock_sVMf
++ _$sSo16os_unfair_lock_sVMn
++ _$sSo17OS_dispatch_groupC8DispatchE6notify3qos5flags5queue7executeyAC0D3QoSV_AC0D13WorkItemFlagsVSo0a1_b1_H0CyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVAEs10SetAlgebraACWL
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVMn
++ _$sSo17OS_dispatch_queueC8DispatchE10AttributesVs10SetAlgebraACMc
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO7inherityA2EmFWC
++ _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
++ _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
++ _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
++ _$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC
++ _$sSo17OS_dispatch_queueCML
++ _$sSo17OS_dispatch_queueCMa
++ _$sSo17OS_dispatch_queueCMaTm
++ _$sSo18CFComparisonResultVSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo18EXExtensionRequestCML
++ _$sSo18EXExtensionRequestCMaTm
++ _$sSo18OS_dispatch_sourceC8DispatchE16makeSignalSource6signal5queueSo0a1_b1_c1_H0_ps5Int32V_So0a1_b1_I0CSgtFZ
++ _$sSo18OS_dispatch_sourceCML
++ _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF
++ _$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtFfA0_
++ _$sSo18OS_dispatch_sourceP8DispatchE6resumeyyF
++ _$sSo18RBSDomainAttributeC19ExtensionFoundationE07defaultC10AttributesSayABGvgZTf4d_n
++ _$sSo18RBSDomainAttributeCML
++ _$sSo18RBSDomainAttributeCMa
++ _$sSo18RBSDomainAttributeCMaTm
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE011makeProcessB4With33_0985F4D16046E2F53D44E0038F37634ALL_15validationToken14hostIdentifierABSo013LSApplicationC6RecordC_0D04DataVSgSo0aR0CtKF
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV07makeAppC6Record6userIDSo013LSApplicationcO0Cs6UInt32V_tKFTf4dn_n
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysO11stringValueAHSgSS_tcfCTf4nd_n
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHSQACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHSQACWl
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs0M3KeyACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs0M3KeyACWl
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs23CustomStringConvertibleACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs23CustomStringConvertibleACWl
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs28CustomDebugStringConvertibleACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOAHs28CustomDebugStringConvertibleACWl
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOMF
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOMa
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOMf
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOMn
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACSH13_rawHashValue4seedS2i_tFTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACSH4hash4intoys6HasherVz_tFTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACSH9hashValueSivgTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSHACSQWb
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSQACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSQACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOSQACSQ2eeoiySbx_xtFZTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOWV
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACs23CustomStringConvertiblePWb
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACs28CustomDebugStringConvertiblePWb
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACsAIP11stringValueSSvgTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACsAIP11stringValuexSgSS_tcfCTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACsAIP8intValueSiSgvgTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs0M3KeyACsAIP8intValuexSgSi_tcfCTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs23CustomStringConvertibleACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs23CustomStringConvertibleACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs23CustomStringConvertibleACsAIP11descriptionSSvgTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs28CustomDebugStringConvertibleACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs28CustomDebugStringConvertibleACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOs28CustomDebugStringConvertibleACsAIP16debugDescriptionSSvgTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOwet
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOwst
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOwug
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOwui
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOwup
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV4fromAFs7Decoder_p_tKcfC
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV6encode2toys7Encoder_p_tKF
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVAFSEACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVAFSeACWL
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVAFSeACWlTm
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMF
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMXX
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMa
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMf
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMl
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMn
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVMr
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSEACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSEACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSEACSE6encode2toys7Encoder_p_tKFTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSeACMc
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSeACMcMK
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSeACSe4fromxs7Decoder_p_tKcfCTW
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSgMD
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVSgWOhTm
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVWV
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVwet
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLVwst
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationE10attachment33_0985F4D16046E2F53D44E0038F37634ALLAbCE10AttachmentAELLVvg
++ _$sSo18RBSProcessIdentityC19ExtensionFoundationEMXE
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC06cancelC7Request14withIdentifiery0D04UUIDV_tFTo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC06cancelC7Request14withIdentifiery0D04UUIDV_tFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC10addRequestyyAE0G0VF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC10addRequestyyAE0G0VFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC11onTerminateyyFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0Vvg
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTQ1_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTY0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTY2_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTY3_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgTu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12asyncProcessAC03AppcG0VvgyycfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12requestsLock2os017OSAllocatedUnfairG0VyytGvMTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12requestsLock2os017OSAllocatedUnfairG0VyytGvgTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12requestsLock2os017OSAllocatedUnfairG0VyytGvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC12requestsLock2os017OSAllocatedUnfairG0VyytGvsTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC13cancelRequest3fory0D04UUIDV_tF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC13cancelRequest3fory0D04UUIDV_tFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC13removeRequest3forAE0G0VSg0D04UUIDV_tFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC15completeRequest3for5itemsy0D04UUIDV_SaySo15NSExtensionItemCGtF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC15completeRequest3for5itemsy0D04UUIDV_SaySo15NSExtensionItemCGtFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC15completionBlockyy0D04UUIDV_SayypGSgtcvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC17cancellationBlockyy0D04UUIDV_s5Error_pSgtcvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC17interruptionBlockyy0D04UUIDVcvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC17invalidateRequest3fory0D04UUIDV_tF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC17invalidateRequest3fory0D04UUIDV_tFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFTo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TATu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TQ0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TQ2_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TY1_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TY3_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TY4_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_TY5_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_Tu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5begin_10completionySo18EXExtensionRequestC_y0D04UUIDVSg_s5Error_pSgtctFyyYacfU_yALcfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFTo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyAIcfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TATQ0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TATu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TQ1_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TY0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TY2_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_TY3_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC5beginy0D04UUIDVSo18EXExtensionRequestCKFyyYaKcfU0_Tu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFTQ1_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFTY0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFTY2_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFTY3_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFTu
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_yAKSg_So7NSErrorCSgtcfU0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_yAKSg_So7NSErrorCSgtcfU0_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_ysAL_pcfU_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV5beginSaySo15NSExtensionItemCGyYaKFyScCyAKs5Error_pGXEfU_ysAL_pcfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV7connect12onInvalidateyy0D04UUIDVc_tKF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV7connect12onInvalidateyy0D04UUIDVc_tKFyycfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMa
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMf
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMl
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMn
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVMr
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVN
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVSgMD
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVSgWOhTm
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWOb
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWOc
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWOcTm
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWOd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWOhTm
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVWV
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVwet
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestVwst
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7processAC03AppC7ProcessVvg
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7processAC03AppC7ProcessVvgTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7processAC03AppC7ProcessVvgyycfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7request3forAE7RequestVSg0D04UUIDV_tFTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8_processAC03AppC7ProcessVSgvMTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8_processAC03AppC7ProcessVSgvgTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8_processAC03AppC7ProcessVSgvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8_processAC03AppC7ProcessVSgvsTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8identity15completionBlock012cancellationH0012interruptionH0AeC03AppC8IdentityV_y0D04UUIDV_SayypGSgtcyAN_s5Error_pSgtcyANctcfCTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8identityAC03AppC8IdentityVvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8requestsSDy0D04UUIDVAE7RequestVGvMTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8requestsSDy0D04UUIDVAE7RequestVGvgTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8requestsSDy0D04UUIDVAE7RequestVGvpWvd
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC8requestsSDy0D04UUIDVAE7RequestVGvsTq
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCAEycfcTo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCMF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCMa
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCMf
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCMn
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCN
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCfD
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationCfETo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyF
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFTo
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDV_SayypGSgtcfU_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDV_SayypGSgtcfU_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDV_s5Error_pSgtcfU0_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDV_s5Error_pSgtcfU0_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDVcfU1_
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationE25makeDefaultImplementationSo01_abG0_pyFy0D04UUIDVcfU1_TA
++ _$sSo18_EXNSExtensionShimC19ExtensionFoundationEMXE
++ _$sSo18_EXQueryResultTypeVMB
++ _$sSo18_EXQueryResultTypeVML
++ _$sSo18_EXQueryResultTypeVMa
++ _$sSo18_EXQueryResultTypeVMaTm
++ _$sSo18_EXQueryResultTypeVMf
++ _$sSo18_EXQueryResultTypeVMn
++ _$sSo18_EXQueryResultTypeVSYSCMA
++ _$sSo18_EXQueryResultTypeVSYSCMc
++ _$sSo18_EXQueryResultTypeVSYSCMcMK
++ _$sSo18_EXQueryResultTypeVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo18_EXQueryResultTypeVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW
++ _$sSo19LSApplicationRecordCML
++ _$sSo19LSApplicationRecordCMaTm
++ _$sSo19LSApplicationRecordCSgMD
++ _$sSo19_EXExtensionProcessC13configurationABSo20_EXHostConfigurationC_tKcfCTOTf4gn_n
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE010_extensionB15BackgroundQueue33_2DB9D1F412467A20BF3CD4E75CD25417LLSo17OS_dispatch_queueCvpZ
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE010_extensionB15BackgroundQueue33_2DB9D1F412467A20BF3CD4E75CD25417LL_WZ
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE010_extensionB15BackgroundQueue33_2DB9D1F412467A20BF3CD4E75CD25417LL_Wz
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE03appcB0AbC03AppcB0V_tcfC
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE07matchesB0ySbSo16RBSProcessHandleCF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE07matchesB0ySbSo16RBSProcessHandleCFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE08internalcB0AC01_aB6HandleCvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configuration17completionHandleryAC20_EXHostConfigurationC_yABSg_So7NSErrorCSgtctFZ
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configuration17completionHandleryAC20_EXHostConfigurationC_yABSg_So7NSErrorCSgtctFZTf4nnd_n
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configuration17completionHandleryAC20_EXHostConfigurationC_yABSg_So7NSErrorCSgtctFZTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configuration17completionHandleryAC20_EXHostConfigurationC_yABSg_So7NSErrorCSgtctFZyyYbcfU_
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configuration17completionHandleryAC20_EXHostConfigurationC_yABSg_So7NSErrorCSgtctFZyyYbcfU_TA
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configurationAbC20_EXHostConfigurationC_tKFZ
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configurationAbC20_EXHostConfigurationC_tKFZTf4nd_n
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE09extensionB013configurationAbC20_EXHostConfigurationC_tKFZTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE10auditTokenSo0E8_token_tavg
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE10auditTokenSo0E8_token_tavgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE10auditTokenSo0E8_token_tavpMV
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE10invalidateyyF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE10invalidateyyFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvg
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvpMV
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvpWvd
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvs
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13configurationAC20_EXHostConfigurationCvsTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandle13configurationAbC01_abF0C_AC20_EXHostConfigurationCtc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcTf4ggn_n
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandle13configurationAbC01_abF0C_AC20_EXHostConfigurationCtc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandle13configurationAbC01_abF0C_AC20_EXHostConfigurationCtc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcyycyKXEfu_yycfU_
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandleAbC01_abF0C_tc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcTf4gn_n
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandleAbC01_abF0C_tc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE13processHandleAbC01_abF0C_tc33_2DB9D1F412467A20BF3CD4E75CD25417LlfcyycyKXEfu_yycfU_
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE14_processHandle33_2DB9D1F412467A20BF3CD4E75CD25417LLAC01_abF0CvpWvd
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE15processIdentitySo010RBSProcessF0CSgvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE16newXPCConnectionSo15NSXPCConnectionCyKF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE16newXPCConnectionSo15NSXPCConnectionCyKFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE16processPredicateSo010RBSProcessF0CyF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE16processPredicateSo010RBSProcessF0CyFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE17extensionIdentitySo01_aF0Cvg
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE17extensionIdentitySo01_aF0CvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE17extensionIdentitySo01_aF0CvpMV
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE17makeXPCConnectionSo15NSXPCConnectionCyKFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE20makeLibXPCConnectionSo13OS_xpc_object_pyKF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE20makeLibXPCConnectionSo13OS_xpc_object_pyKFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE24makeSessionXPCConnectionSo15NSXPCConnectionCyKFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE25invalidateLaunchAssertionyyF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE25invalidateLaunchAssertionyyFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE3pids5Int32Vvg
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE3pids5Int32VvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE3pids5Int32VvpMV
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE7isValidSbvg
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE7isValidSbvgTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE7isValidSbvpMV
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE7rbs_pids5Int32VyF
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE7rbs_pids5Int32VyFTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationE9_observer33_2DB9D1F412467A20BF3CD4E75CD25417LLAC01_aB6HandleC0B8ObserverCvpWvd
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationEABycfC
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationEABycfc
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationEABycfcTo
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationEfD
++ _$sSo19_EXExtensionProcessC19ExtensionFoundationEfDTo
++ _$sSo19_EXExtensionProcessCML
++ _$sSo19_EXExtensionProcessCMa
++ _$sSo19_EXExtensionProcessCMaTm
++ _$sSo19_EXExtensionProcessCSgSo7NSErrorCSgIeyBhyy_ABTz_
++ _$sSo19_EXExtensionProcessCSgSo7NSErrorCSgIeyByy_AcFIeggg_TRTA
++ _$sSo19_EXExtensionProcessCSgs5Error_pSgIeghgg_ACSo7NSErrorCSgIeyBhyy_TR
++ _$sSo19_EXExtensionProcessCfETo
++ _$sSo19_EXSandboxExtensionCML
++ _$sSo19_EXSandboxExtensionCMaTm
++ _$sSo20LSExtensionPointTypeVABSE19ExtensionFoundationWL
++ _$sSo20LSExtensionPointTypeVABSQSCWL
++ _$sSo20LSExtensionPointTypeVABSYSCWL
++ _$sSo20LSExtensionPointTypeVABSe19ExtensionFoundationWL
++ _$sSo20LSExtensionPointTypeVMB
++ _$sSo20LSExtensionPointTypeVML
++ _$sSo20LSExtensionPointTypeVMa
++ _$sSo20LSExtensionPointTypeVMf
++ _$sSo20LSExtensionPointTypeVMn
++ _$sSo20LSExtensionPointTypeVSE19ExtensionFoundationMc
++ _$sSo20LSExtensionPointTypeVSE19ExtensionFoundationMcMK
++ _$sSo20LSExtensionPointTypeVSE19ExtensionFoundationSE6encode2toys7Encoder_p_tKFTW
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationMc
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationMcMK
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationSH13_rawHashValue4seedS2i_tFTW
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationSH4hash4intoys6HasherVz_tFTW
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationSH9hashValueSivgTW
++ _$sSo20LSExtensionPointTypeVSH19ExtensionFoundationSQWb
++ _$sSo20LSExtensionPointTypeVSQSCMc
++ _$sSo20LSExtensionPointTypeVSQSCMcMK
++ _$sSo20LSExtensionPointTypeVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo20LSExtensionPointTypeVSYSCMA
++ _$sSo20LSExtensionPointTypeVSYSCMc
++ _$sSo20LSExtensionPointTypeVSYSCMcMK
++ _$sSo20LSExtensionPointTypeVSYSCSY8rawValue03RawE0QzvgTW
++ _$sSo20LSExtensionPointTypeVSYSCSY8rawValuexSg03RawE0Qz_tcfCTW
++ _$sSo20LSExtensionPointTypeVSe19ExtensionFoundationMc
++ _$sSo20LSExtensionPointTypeVSe19ExtensionFoundationMcMK
++ _$sSo20LSExtensionPointTypeVSe19ExtensionFoundationSe4fromxs7Decoder_p_tKcfCTW
++ _$sSo20NSJSONWritingOptionsVs10SetAlgebraSCsACPxycfCTW
++ _$sSo20NSJSONWritingOptionsVs9OptionSetSCsACP8rawValuex03RawF0Qz_tcfCTW
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011applicationC6RecordABSo013LSApplicationcF0C_tcfc
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011applicationC6RecordABSo013LSApplicationcF0C_tcfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011applicationC6RecordSo013LSApplicationcF0CSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011applicationC6RecordSo013LSApplicationcF0CSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011applicationC6RecordSo013LSApplicationcF0CSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011launchesViaC10KitServiceSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011launchesViaC10KitServiceSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011launchesViaC10KitServiceSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE011pluginKitInF5ProxyABSo06LSPluggfH0C_tc33_0FEE4929707B741B16DEC35C4C553B55LlfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE013targetsSystemC5PointSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE013targetsSystemC5PointSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE013targetsSystemC5PointSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE014targetsServiceC5PointSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE014targetsServiceC5PointSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE014targetsServiceC5PointSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC0ABSo11NSExtensionC_tKcfC
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC0ABSo11NSExtensionC_tKcfc
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC0ABSo11NSExtensionC_tKcfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC10AttributesSDySSypGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC10AttributesSDySSypGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE02nsC10AttributesSDySSypGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0_4hostyAB_So19LSApplicationRecordCSgtKFZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0_4hostyAB_So19LSApplicationRecordCSgtKFZTf4nnd_nTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0_4hostyAB_So19LSApplicationRecordCSgtKFZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0_4hostyAB_So19LSApplicationRecordCSgtKFZToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0yyABKFZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0yyABKFZTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0yyABKFZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE06enableC0yyABKFZToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE07disableC0_4hostyAB_So19LSApplicationRecordCSgtKFZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE07disableC0_4hostyAB_So19LSApplicationRecordCSgtKFZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE07disableC0yyABKFZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE07disableC0yyABKFZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10attributesSDySSypGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10attributesSDySSypGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10attributesSDySSypGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10canDisableSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10canDisableSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE10canDisableSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE11serviceNameSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE11serviceNameSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE11serviceNameSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE12remappedCopyAByKF
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE12userElectionSo013LSApplicationc4UserF0Vvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE12userElectionSo013LSApplicationc4UserF0VvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE12userElectionSo013LSApplicationc4UserF0VvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13bundleVersionSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13bundleVersionSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13bundleVersionSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13containingURL0D00F0VSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13containingURL0D00F0VSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13containingURL0D00F0VSgvgToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13containingURL0D00F0VSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13developerNameSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13developerNameSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13developerNameSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13executableURL0D00F0VSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13executableURL0D00F0VSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13executableURL0D00F0VSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13localizedNameSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13localizedNameSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13localizedNameSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13sdkDictionarySDySSypGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13sdkDictionarySDySSypGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE13sdkDictionarySDySSypGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE14extensionClassyXlXpSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE14principalClassyXlXpSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15groupIdentifierSSSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15groupIdentifierSSSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15groupIdentifierSSSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15systemComponentSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15systemComponentSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE15systemComponentSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16bundleIdentifierSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16bundleIdentifierSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16bundleIdentifierSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16entitlementNamed_2ofypSS_yXlXptF
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16entitlementNamed_2ofypSS_yXlXptFTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16hostContextClassyXlXpSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16uniqueIdentifier0D04UUIDVvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16uniqueIdentifier0D04UUIDVvgTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16uniqueIdentifier0D04UUIDVvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16uniqueIdentifier0D04UUIDVvgToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE16uniqueIdentifier0D04UUIDVvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE17makeXPCConnectionSo15NSXPCConnectionCyKF
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE17makeXPCConnectionSo15NSXPCConnectionCyKFTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE17serviceIdentifierABSS_tKcfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18sandboxProfileNameSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18sandboxProfileNameSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18sandboxProfileNameSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18spotlightIndexableSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18spotlightIndexableSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE18spotlightIndexableSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19builtForNSExtensionSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19builtForNSExtensionSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19builtForNSExtensionSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19defaultUserElectionSo013LSApplicationcfG0Vvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19defaultUserElectionSo013LSApplicationcfG0VvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19defaultUserElectionSo013LSApplicationcfG0VvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19extensionDictionarySDySSypGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19extensionDictionarySDySSypGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE19extensionDictionarySDySSypGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20requiresSceneHostingSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20requiresSceneHostingSbvgTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20requiresSceneHostingSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20requiresSceneHostingSbvgToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20requiresSceneHostingSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20supportsSecureCodingSbvgZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20supportsSecureCodingSbvgZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE20supportsSecureCodingSbvpZMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21extensionContextClassyXlXpSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21hasSandboxEntitlementSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21hasSandboxEntitlementSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21hasSandboxEntitlementSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21presentsUserInterfaceSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21presentsUserInterfaceSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21presentsUserInterfaceSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21requiresMultiInstanceSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21requiresMultiInstanceSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE21requiresMultiInstanceSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22connectionHandlerClassyXlXpSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22containingBundleRecordSo08LSBundleG0CSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22containingBundleRecordSo08LSBundleG0CSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22containingBundleRecordSo08LSBundleG0CSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22requiresFBSceneHostingSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22requiresFBSceneHostingSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE22requiresFBSceneHostingSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24extensionPointIdentifierSSvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24extensionPointIdentifierSSvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24extensionPointIdentifierSSvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiredHostEntitlementsSDySSyXlGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiredHostEntitlementsSDySSyXlGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiredHostEntitlementsSDySSyXlGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiresLibXPCConnectionSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiresLibXPCConnectionSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24requiresLibXPCConnectionSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24showsInExtensionsManagerSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24showsInExtensionsManagerSbvgTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24showsInExtensionsManagerSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24showsInExtensionsManagerSbvgToTm
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE24showsInExtensionsManagerSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE25requiresUIKitSceneHostingSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE25requiresUIKitSceneHostingSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE25requiresUIKitSceneHostingSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE26requiresNetworkAttributionSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE26requiresNetworkAttributionSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE26requiresNetworkAttributionSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27performsUserInteractiveWorkSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27performsUserInteractiveWorkSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27performsUserInteractiveWorkSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27requiresMacCatalystBehaviorSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27requiresMacCatalystBehaviorSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE27requiresMacCatalystBehaviorSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28alternateSandboxProfileNamesSaySSGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28alternateSandboxProfileNamesSaySSGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28alternateSandboxProfileNamesSaySSGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28disableLaunchdCheckinTimeoutSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28disableLaunchdCheckinTimeoutSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28disableLaunchdCheckinTimeoutSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresHostToBeContainerAppSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresHostToBeContainerAppSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresHostToBeContainerAppSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresLegacyInfrastructureSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresLegacyInfrastructureSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28requiresLegacyInfrastructureSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28spotlightImporterIdentifiersSaySSGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28spotlightImporterIdentifiersSaySSGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28spotlightImporterIdentifiersSaySSGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE28supportsNSExtensionPlistKeysSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE32privateSandboxProfileEntitlementSSSgvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE32privateSandboxProfileEntitlementSSSgvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE32privateSandboxProfileEntitlementSSSgvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE3url0D03URLVvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE3url0D03URLVvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE3url0D03URLVvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4UUID0D0ADVvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4UUID0D0ADVvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4UUID0D0ADVvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4hashSivg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4hashSivgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4iconSo6ISIconCvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4iconSo6ISIconCvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE4iconSo6ISIconCvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5coderABSgSo7NSCoderC_tcfC
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5coderABSgSo7NSCoderC_tcfc
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5coderABSgSo7NSCoderC_tcfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5rolesSaySo12_EXSceneRoleaGvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5rolesSaySo12_EXSceneRoleaGvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE5rolesSaySo12_EXSceneRoleaGvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE6_inner33_0FEE4929707B741B16DEC35C4C553B55LLAC09_InnerAppcB0_pSgvpWvd
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE6encode4withySo7NSCoderC_tF
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE6encode4withySo7NSCoderC_tFTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7currentABSgvgZTf4d_n
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7currentABSgvgZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7enabledSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7enabledSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7enabledSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7isEqualySbypSgF
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE7isEqualySbypSgFTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE8identity22fromDataRepresentationSo012RBSExtensionB8Protocol_p0D00G0V_tKFZ
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE8identity22fromDataRepresentationSo012RBSExtensionB8Protocol_p0D00G0V_tKFZTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE8platforms6UInt32Vvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE8platforms6UInt32VvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE8platforms6UInt32VvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE9unelectedSbvg
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE9unelectedSbvgTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationE9unelectedSbvpMV
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationEAByc33_0FEE4929707B741B16DEC35C4C553B55LlfcTo
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationEyAbC03AppcB0VcfC
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationEyAbC04_AppcB0VcfC
++ _$sSo20_EXExtensionIdentityC19ExtensionFoundationEyAbC09_InnerAppcB0_pcfCTf4en_n
++ _$sSo20_EXExtensionIdentityCML
++ _$sSo20_EXExtensionIdentityCMa
++ _$sSo20_EXExtensionIdentityCSgMD
++ _$sSo20_EXExtensionIdentityCSo8NSObjectCSH10ObjectiveCWL
++ _$sSo20_EXExtensionIdentityCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo20_EXExtensionIdentityCSo8NSObjectCSH10ObjectiveCWlTm
++ _$sSo20_EXExtensionIdentityCfETo
++ _$sSo20_EXHostConfigurationCML
++ _$sSo20_EXHostConfigurationCMaTm
++ _$sSo21NSXPCListenerEndpointCML
++ _$sSo22LSExtensionPointRecordC10identifier8platform09parentAppC0ABSS_s6UInt32VSo013LSApplicationC0CSgtKcfcTOTf4nngn_n
++ _$sSo22LSExtensionPointRecordC10identifier8platformABSS_s6UInt32VtKcfcTO
++ _$sSo22LSExtensionPointRecordCML
++ _$sSo22LSExtensionPointRecordCMaTm
++ _$sSo22LSPersistentIdentifieraABSHSCWL
++ _$sSo22LSPersistentIdentifieraABSQSCWL
++ _$sSo22LSPersistentIdentifieraABSYSCWL
++ _$sSo22LSPersistentIdentifieraABs20_SwiftNewtypeWrapperSCWL
++ _$sSo22LSPersistentIdentifieraABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo22LSPersistentIdentifieraMB
++ _$sSo22LSPersistentIdentifieraMF
++ _$sSo22LSPersistentIdentifieraML
++ _$sSo22LSPersistentIdentifieraMa
++ _$sSo22LSPersistentIdentifieraMf
++ _$sSo22LSPersistentIdentifieraMn
++ _$sSo22LSPersistentIdentifieraSHSCMc
++ _$sSo22LSPersistentIdentifieraSHSCMcMK
++ _$sSo22LSPersistentIdentifieraSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo22LSPersistentIdentifieraSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo22LSPersistentIdentifieraSHSCSH9hashValueSivgTW
++ _$sSo22LSPersistentIdentifieraSHSCSQWb
++ _$sSo22LSPersistentIdentifieraSQSCMc
++ _$sSo22LSPersistentIdentifieraSQSCMcMK
++ _$sSo22LSPersistentIdentifieraSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo22LSPersistentIdentifieraSYSCMA
++ _$sSo22LSPersistentIdentifieraSYSCMc
++ _$sSo22LSPersistentIdentifieraSYSCMcMK
++ _$sSo22LSPersistentIdentifieraSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo22LSPersistentIdentifieraSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCMc
++ _$sSo22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCMcMK
++ _$sSo22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCSYWb
++ _$sSo22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCMA
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCMc
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCMcMK
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo22LSPersistentIdentifieras21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTWTm
++ _$sSo22LSPersistentIdentifieras35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo22LSPersistentIdentifieras35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo22LSPersistentIdentifieras35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSo24_EXExtensionRepresenting_pMD
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10connection33_3EB30E83BAC05427CC67079C82EBDB46LLSo15NSXPCConnectionCSgvpWvd
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems11contextUUIDABSgSayypGSg_0E00I0VSgtcfC
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems11contextUUIDABSgSayypGSg_0E00I0VSgtcfc
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems11contextUUIDABSgSayypGSg_0E00I0VSgtcfcTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems16listenerEndpoint11contextUUIDABSgSayypGSg_So013NSXPCListenerI0CSg0E00K0VSgtcfC
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems16listenerEndpoint11contextUUIDABSgSayypGSg_So013NSXPCListenerI0CSg0E00K0VSgtcfc
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItems16listenerEndpoint11contextUUIDABSgSayypGSg_So013NSXPCListenerI0CSg0E00K0VSgtcfcTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItemsABSgSayypGSg_tcfC
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItemsABSgSayypGSg_tcfc
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItemsABSgSayypGSg_tcfcTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItemsSayypGvg
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE10inputItemsSayypGvgTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE11_inputItems33_3EB30E83BAC05427CC67079C82EBDB46LLSaySo15NSExtensionItemCGvpWvd
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE12shouldAcceptySbSo15NSXPCConnectionCF
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE12shouldAcceptySbSo15NSXPCConnectionCFTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE13cancelRequest9withErrorys0I0_p_tF
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE13cancelRequest9withErrorys0I0_p_tFTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE14performRequest4with8responseySaySo15NSExtensionItemCG_yAISg_So7NSErrorCSgtctF
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE14performRequest4with8responseySaySo15NSExtensionItemCG_yAISg_So7NSErrorCSgtctFTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE15completeRequest14returningItems17completionHandlerySayypGSg_ySbcSgtF
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE15completeRequest14returningItems17completionHandlerySayypGSg_ySbcSgtFTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE15principalObject33_3EB30E83BAC05427CC67079C82EBDB46LLSo26NSExtensionRequestHandling_pSgvgTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE15principalObject33_3EB30E83BAC05427CC67079C82EBDB46LLSo26NSExtensionRequestHandling_pSgvpWvd
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE15principalObject33_3EB30E83BAC05427CC67079C82EBDB46LLSo26NSExtensionRequestHandling_pSgvsTo
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationE8response33_3EB30E83BAC05427CC67079C82EBDB46LLySaySo15NSExtensionItemCGSg_So7NSErrorCSgtcSgvpWvd
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationEABycfC
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationEABycfc
++ _$sSo25_EXNSExtensionContextShimC19ExtensionFoundationEABycfcTo
++ _$sSo25_EXNSExtensionContextShimCML
++ _$sSo25_EXNSExtensionContextShimCMa
++ _$sSo25_EXNSExtensionContextShimCMaTm
++ _$sSo25_EXNSExtensionContextShimCfETo
++ _$sSo26LSPlugInEnumerationOptionsVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo26LSPlugInEnumerationOptionsVs10SetAlgebraSCsACP12intersectionyxxFTW
++ _$sSo26LSPlugInEnumerationOptionsVs10SetAlgebraSCsACP16formIntersectionyyxFTW
++ _$sSo26LSPlugInEnumerationOptionsVs10SetAlgebraSCsACP9formUnionyyxnFTW
++ _$sSo26LSPlugInEnumerationOptionsVs10SetAlgebraSCsACPxycfCTW
++ _$sSo26LSPlugInEnumerationOptionsVs9OptionSetSCsACP8rawValuex03RawH0Qz_tcfCTW
++ _$sSo26_EXQueryControllerDelegate_pSgXwWOh
++ _$sSo27BSServiceConnectionEndpointCML
++ _$sSo28BSNSXPCConnectionConfiguring_pIegg_SoAA_pIyBy_TR
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0106$s19ExtensionFoundation25_EXExtensionProcessHandleC24makeSessionXPCConnectionSo15NSXPCConnectionCSgyFySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0112$s19ExtensionFoundation7ServiceC8listener_10didReceive11withContextySo27BSServiceConnectionListenerC_So0iJ4Host_o31J0CXcSo13BSXPCDecoding_ptFySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0117$s19ExtensionFoundation16ListenerDelegateC8listener_10didReceive11withContextySo019BSServiceConnectionC0C_So0jK4Host_p31K0CXcSo13BSXPCDecoding_ptFySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0124$s19ExtensionFoundation16_EXServiceClientC16launchConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0126$s19ExtensionFoundation16_EXServiceClientC18observerConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0126$s19ExtensionFoundation16_EXServiceClientC18tccProxyConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0127$s19ExtensionFoundation16_EXServiceClientC19discoveryConnection33_591406279EDD09BF7033B88E7B83DCFDLLSo15NSXPCConnectionCvgySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR0135$s19ExtensionFoundation25_EXExtensionProcessHandleC17makeXPCConnection33_2C315B01B2062C554A90CEDDD23DF36FLLSo15NSXPCConnectionCyKFySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28BSNSXPCConnectionConfiguring_pIgg_SoAA_pIegg_TR090$s19ExtensionFoundation08_ServiceA7ProcessV17makeXPCConnectionSo15NSXPCConnectionCyKFySo28aB7_pXEfU_Tf3npf_n
++ _$sSo28LSApplicationExtensionRecordC16bundleIdentifierABSS_tKcfcTO
++ _$sSo28LSApplicationExtensionRecordC16bundleIdentifierABSS_tKcfcTOTm
++ _$sSo28LSApplicationExtensionRecordC4uuidAB10Foundation4UUIDV_tKcfcTO
++ _$sSo28LSApplicationExtensionRecordCML
++ _$sSo28LSApplicationExtensionRecordCMaTm
++ _$sSo28LSApplicationExtensionRecordCSgML
++ _$sSo28LSApplicationExtensionRecordCSo8NSObjectCSH10ObjectiveCWL
++ _$sSo28LSApplicationExtensionRecordCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C10identifierSSvg
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C10identifierSSvgTj
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C10identifierSSvgTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C10identifierSSvgTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C10identifierSSvpMV
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C13sdkDictionarySDys11AnyHashableVypGvg
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C13sdkDictionarySDys11AnyHashableVypGvgTj
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C13sdkDictionarySDys11AnyHashableVypGvgTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C13sdkDictionarySDys11AnyHashableVypGvgTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C13sdkDictionarySDys11AnyHashableVypGvpMV
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C3url0E03URLVSgvg
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C3url0E03URLVSgvgTj
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C3url0E03URLVSgvgTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C3url0E03URLVSgvgTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C3url0E03URLVSgvpMV
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C5inner33_1F29963F4EAD81515B217A48FDB01BC2LLAC03AppbcD0VADVvpWvd
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C7variantSo011EXExtensionC7VariantVvg
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C7variantSo011EXExtensionC7VariantVvgTj
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C7variantSo011EXExtensionC7VariantVvgTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C7variantSo011EXExtensionC7VariantVvgTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C7variantSo011EXExtensionC7VariantVvpMV
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C8platforms6UInt32Vvg
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C8platforms6UInt32VvgTj
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C8platforms6UInt32VvgTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C8platforms6UInt32VvgTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C8platforms6UInt32VvpMV
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CAEycfC
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CAEycfc
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CAEycfcTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMF
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMa
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMf
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMn
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CMu
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CN
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CfD
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CfETo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0CyAeC03AppbcD0VADVcfCTq
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE10nextObjectypSgyF
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE10nextObjectypSgyFTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE16bundleIdentifier13sdkDictionary12entitlementsABSS_SDys11AnyHashableVypGAItcfC
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE16bundleIdentifier13sdkDictionary12entitlementsABSS_SDys11AnyHashableVypGAItcfc
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE16bundleIdentifier13sdkDictionary12entitlementsABSS_SDys11AnyHashableVypGAItcfcTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE5inner33_1F29963F4EAD81515B217A48FDB01BC2LLAC03AppbcD0VvpWvd
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationE8iterator33_1F29963F4EAD81515B217A48FDB01BC2LLAC03AppbcD0V8IteratorVvpWvd
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationEABycfC
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationEABycfc
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationEABycfcTo
++ _$sSo30_EXAppExtensionPointEnumeratorC0B10FoundationEMXE
++ _$sSo30_EXAppExtensionPointEnumeratorCML
++ _$sSo30_EXAppExtensionPointEnumeratorCMa
++ _$sSo30_EXAppExtensionPointEnumeratorCMaTm
++ _$sSo30_EXAppExtensionPointEnumeratorCfETo
++ _$sSo30_EXExtensionInstanceIdentifierCML
++ _$sSo30_EXExtensionInstanceIdentifierCSgML
++ _$sSo34LSApplicationExtensionUserElectionVMB
++ _$sSo34LSApplicationExtensionUserElectionVML
++ _$sSo34LSApplicationExtensionUserElectionVMa
++ _$sSo34LSApplicationExtensionUserElectionVMf
++ _$sSo34LSApplicationExtensionUserElectionVMn
++ _$sSo34LSApplicationExtensionUserElectionVSQSCMc
++ _$sSo34LSApplicationExtensionUserElectionVSQSCMcMK
++ _$sSo34LSApplicationExtensionUserElectionVSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo34LSApplicationExtensionUserElectionVSYSCMA
++ _$sSo34LSApplicationExtensionUserElectionVSYSCMc
++ _$sSo34LSApplicationExtensionUserElectionVSYSCMcMK
++ _$sSo34LSApplicationExtensionUserElectionVSYSCSY8rawValue03RawF0QzvgTW
++ _$sSo34LSApplicationExtensionUserElectionVSYSCSY8rawValuexSg03RawF0Qz_tcfCTW
++ _$sSo38BSServiceConnectionListenerConfiguring_pIegg_SoAA_pIyBy_TR
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TR058$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZySo38abcD7_pXEfU_Tf3npf_n
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TR058$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZySo38abcD7_pXEfU_Tf3npf_nTm
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TR058$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZySo38abcD8_pXEfU0_Tf3npf_n
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TR058$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZySo38abcD8_pXEfU1_Tf3npf_n
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TR058$s19ExtensionFoundation7ServiceC15runAsXPCServiceyyFZySo38abcD8_pXEfU2_Tf3npf_n
++ _$sSo38BSServiceConnectionListenerConfiguring_pIgg_SoAA_pIegg_TRTA
++ _$sSo5NSURLCML
++ _$sSo6NSDataCML
++ _$sSo6NSDataCMaTm
++ _$sSo6NSUUIDCML
++ _$sSo6NSUUIDCMa
++ _$sSo6NSUUIDCSgSo7NSErrorCSgIeyByy_10Foundation4UUIDVSgs5Error_pSgIegng_TR
++ _$sSo6NSUUIDCSgSo7NSErrorCSgIeyByy_10Foundation4UUIDVSgs5Error_pSgIegng_TRTA
++ _$sSo6NSUUIDCmMD
++ _$sSo7NSArrayCIeyBy_SaySo20_EXExtensionIdentityCGIegg_TR
++ _$sSo7NSArrayCIeyBy_SaySo20_EXExtensionIdentityCGIegg_TRTA
++ _$sSo7NSArrayCIeyBy_SaySo20_EXExtensionIdentityCGIegg_TRTA.21
++ _$sSo7NSArrayCIeyBy_SaySo24_EXExtensionRepresenting_pGIegg_TR
++ _$sSo7NSArrayCIeyBy_SaySo24_EXExtensionRepresenting_pGIegg_TRTA
++ _$sSo7NSArrayCIeyBy_SaySo24_EXExtensionRepresenting_pGIegg_TRTA.43
++ _$sSo7NSArrayCML
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySo15NSExtensionItemCGSgAFIeggg_TR
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySo15NSExtensionItemCGSgAFIeggg_TRTA
++ _$sSo7NSArrayCmMD
++ _$sSo7NSCoderC10FoundationE12decodeObject2of6forKeyxSgxm_SStSo8NSObjectCRbzSo8NSCodingRzlF
++ _$sSo7NSCoderC10FoundationE12decodeObject2of6forKeyypSgSayyXlXpGSg_SStF
++ _$sSo7NSCoderC10FoundationE16decodeDictionary12withKeyClass06objectG003forF0SDyxq_GSgxm_q_mSStSo8NSObjectCRbzSo9NSCopyingRzSo14NSSecureCodingRzAKRb_SoAMR_r0_lF
++ _$sSo7NSCoderC10FoundationE20decodeArrayOfObjects7ofClass6forKeySayxGSgxm_SStSo8NSObjectCRbzSo14NSSecureCodingRzlF
++ _$sSo7NSCoderC19ExtensionFoundationE13decodeOptions6forKeyAC03AppB5PointV7MonitorC0E0VSS_tF
++ _$sSo7NSCoderC19ExtensionFoundationE6encode_6forKeyyAC03AppB5PointV7MonitorC7OptionsV_SStF
++ _$sSo7NSErrorC19ExtensionFoundationE4code11descriptionABSo12_EXErrorCodeV_SStcfC
++ _$sSo7NSErrorCML
++ _$sSo7NSErrorCmMD
++ _$sSo8NSNumberCML
++ _$sSo8NSNumberCMa
++ _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
++ _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
++ _$sSo8NSObjectC10ObjectiveCE4hash4intoys6HasherVz_tF
++ _$sSo8NSObjectC10ObjectiveCE9hashValueSivg
++ _$sSo8NSObjectCML
++ _$sSo8NSObjectCMa
++ _$sSo8NSObjectCMaTm
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$sSo8NSObjectCSgMD
++ _$sSo8NSObjectCSgWOh
++ _$sSo8NSObjectCSgWOhTm
++ _$sSo8NSStringCML
++ _$sSo8NSStringCMaTm
++ _$sSo8NSStringCmMD
++ _$sSo9OS_os_logC0B0E7defaultABvgZ
++ _$sSo9OS_os_logC0B0E9subsystem8categoryABSS_SStcfC
++ _$sSo9OS_os_logC19ExtensionFoundationE11preferencesABvgZ
++ _$sSo9OS_os_logC19ExtensionFoundationE11preferencesABvpZ
++ _$sSo9OS_os_logC19ExtensionFoundationE11preferences_WZ
++ _$sSo9OS_os_logC19ExtensionFoundationE11preferences_Wz
++ _$sSo9OS_os_logC19ExtensionFoundationE19prototypeInterfacesABvgZ
++ _$sSo9OS_os_logC19ExtensionFoundationE19prototypeInterfacesABvpZ
++ _$sSo9OS_os_logC19ExtensionFoundationE19prototypeInterfaces_WZ
++ _$sSo9OS_os_logC19ExtensionFoundationE19prototypeInterfaces_Wz
++ _$sSo9OS_os_logC19ExtensionFoundationE7generalABvgZ
++ _$sSo9OS_os_logC19ExtensionFoundationE7generalABvgZTm
++ _$sSo9OS_os_logC19ExtensionFoundationE7generalABvpZ
++ _$sSo9OS_os_logC19ExtensionFoundationE7general_WZ
++ _$sSo9OS_os_logC19ExtensionFoundationE7general_WZTm
++ _$sSo9OS_os_logC19ExtensionFoundationE7general_Wz
++ _$sSo9OS_os_logC19ExtensionFoundationE9discoveryABvgZ
++ _$sSo9OS_os_logC19ExtensionFoundationE9discoveryABvpZ
++ _$sSo9OS_os_logC19ExtensionFoundationE9discovery_WZ
++ _$sSo9OS_os_logC19ExtensionFoundationE9discovery_Wz
++ _$sSo9OS_os_logCML
++ _$sSo9OS_os_logCMa
++ _$sSo9OS_os_logCMaTm
++ _$sSoMXM
++ _$sSpys4Int8VGMD
++ _$sSq19_bridgeToObjectiveCyXlyF
++ _$sSqMa
++ _$sSqsSHRzlE4hash4intoys6HasherVz_tF19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV_Tg5
++ _$sSqsSHRzlE9hashValueSivg
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF19ExtensionFoundation09_InnerAppE8Identity_p_Tg504$s19e31Foundation27_EXExtensionProcessi62C13JobDescriptorV_4hostAeC_So16RBSProcessHandleCSgtKcfcSbAA09_G20AppaE0_p_AaJ_ptXEfU_Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_K9SSG_Tt1G5Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_19ExtensionFoundation09_InnerAppE8Identity_p_Tg504$s19e31Foundation27_EXExtensionProcessi62C13JobDescriptorV_4hostAeC_So16RBSProcessHandleCSgtKcfcSbAA09_G20AppaE0_p_AaJ_ptXEfU_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_SS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_K9SSG_Tt1G5Tf1nnncn_n
++ _$sSt4next7ElementQzSgyFTq
++ _$sStMp
++ _$sSu10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$sSvN
++ _$sSw17withMemoryRebound2to_q0_xm_q0_SryxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs5UInt8V_s5NeverOs16IndexingIteratorVySS8UTF8ViewVG_SitTt1g5
++ _$sr0_lSci_px7ElementRts_q_7FailureRtsXPXGMq
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss10SetAlgebraMp
++ _$ss10SetAlgebraP10isDisjoint4withSbx_tFTq
++ _$ss10SetAlgebraP10isSuperset2ofSbx_tFTq
++ _$ss10SetAlgebraP11subtractingyxxFTq
++ _$ss10SetAlgebraP12intersectionyxxFTq
++ _$ss10SetAlgebraP16formIntersectionyyxFTq
++ _$ss10SetAlgebraP19symmetricDifferenceyxxnFTq
++ _$ss10SetAlgebraP23formSymmetricDifferenceyyxnFTq
++ _$ss10SetAlgebraP5unionyxxnFTq
++ _$ss10SetAlgebraP6insertySb8inserted_7ElementQz17memberAfterInserttAFnFTq
++ _$ss10SetAlgebraP6removey7ElementQzSgAEFTq
++ _$ss10SetAlgebraP6update4with7ElementQzSgAFn_tFTq
++ _$ss10SetAlgebraP7isEmptySbvgTq
++ _$ss10SetAlgebraP8containsySb7ElementQzFTq
++ _$ss10SetAlgebraP8isSubset2ofSbx_tFTq
++ _$ss10SetAlgebraP8subtractyyxFTq
++ _$ss10SetAlgebraP9formUnionyyxnFTq
++ _$ss10SetAlgebraPSQTb
++ _$ss10SetAlgebraPs25ExpressibleByArrayLiteralTb
++ _$ss10SetAlgebraPs7ElementQz012ArrayLiteralC0RtzrlE05arrayE0xAFd_tcfC19ExtensionFoundation03AppG8IdentityV16_MatchingOptionsV_Tg5
++ _$ss10SetAlgebraPsEyxqd__ncSTRd__7ElementQyd__ACRtzlufC
++ _$ss10SetAlgebraPxycfCTq
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
++ _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTq
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
++ _$ss10_HashTableV8nextHole9atOrAfterAB6BucketVAF_tF
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lF10Foundation4UUIDV_ShyAIGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFADs13_UnsafeBitsetVXEfU_10Foundation4UUIDV_ShyAKGTg5
++ _$ss10_NativeSetV13_unsafeUpdate4withyxn_tFSS_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF19ExtensionFoundation03AppG5PointV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF19ExtensionFoundation03AppG8IdentityV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF19ExtensionFoundation14_EXActiveQueryC06ActiveJ8ObserverV_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF19ExtensionFoundation23LocalLSDatabaseObserverC0K0V_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFs11AnyHashableV_Tg5
++ _$ss10_NativeSetV13extractSubset5using5countAByxGs13_UnsafeBitsetV_SitF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV13extractSubset5using5countAByxGs13_UnsafeBitsetV_SitFSo20_EXExtensionIdentityC_Tg5
++ _$ss10_NativeSetV16_unsafeInsertNewyyxnFSo20_EXExtensionIdentityC_Tg5
++ _$ss10_NativeSetV16_unsafeInsertNewyyxnFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV4copyyyF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV4copyyyF19ExtensionFoundation03AppD5PointV_Tg5
++ _$ss10_NativeSetV4copyyyF19ExtensionFoundation03AppD8IdentityV_Tg5Tm
++ _$ss10_NativeSetV4copyyyF19ExtensionFoundation14_EXActiveQueryC06ActiveG8ObserverV_Tg5
++ _$ss10_NativeSetV4copyyyF19ExtensionFoundation23LocalLSDatabaseObserverC0H0V_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFADs13_UnsafeBitsetVKXEfU_So20_EXExtensionIdentityC_Tg50114$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5Error_pSgtcfU0_SbSo20_fG6CXEfU_So11NSPredicateCTf1nnc_nTf4nng_nTm
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFADs13_UnsafeBitsetVKXEfU_So20_EXExtensionIdentityC_Tg5057$s19ExtensionFoundation14_EXActiveQueryC6updateyyFSbSo20_fG6CXEfU_Shy10Foundation4UUIDVGTf1nnc_nTf4nng_n
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFADs13_UnsafeBitsetVKXEfU_So20_EXExtensionIdentityC_Tg5090$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFSbSo20_fG7CXEfU0_Shy10Foundation4UUIDVGTf1nnc_nTf4nng_n
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo20_EXExtensionIdentityC_Tg50114$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5Error_pSgtcfU0_SbSo20_dE6CXEfU_So11NSPredicateCTf1cn_nTf4ng_nTm
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo20_EXExtensionIdentityC_Tg5057$s19ExtensionFoundation14_EXActiveQueryC6updateyyFSbSo20_dE6CXEfU_Shy10Foundation4UUIDVGTf1cn_nTf4ng_n
++ _$ss10_NativeSetV6filteryAByxGSbxKXEKFSo20_EXExtensionIdentityC_Tg5090$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFSbSo20_dE7CXEfU0_Shy10Foundation4UUIDVGTf1cn_nTf4ng_n
++ _$ss10_NativeSetV6resize8capacityySi_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF19ExtensionFoundation03AppE5PointV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF19ExtensionFoundation03AppE8IdentityV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF19ExtensionFoundation14_EXActiveQueryC06ActiveH8ObserverV_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF19ExtensionFoundation23LocalLSDatabaseObserverC0I0V_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSo20_EXExtensionIdentityC_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV6resize8capacityySi_tFs11AnyHashableV_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation03AppH5PointV_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation14_EXActiveQueryC06ActiveK8ObserverV_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation23LocalLSDatabaseObserverC0L0V_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tFs11AnyHashableV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF10Foundation4UUIDV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19ExtensionFoundation03AppK5PointV_TB5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19ExtensionFoundation03AppK8IdentityV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19ExtensionFoundation14_EXActiveQueryC06ActiveN8ObserverV_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19ExtensionFoundation23LocalLSDatabaseObserverC0O0V_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSo20_EXExtensionIdentityC_Tg5Tm
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFs11AnyHashableV_Tg5
++ _$ss10_NativeSetV_8capacityAByxGs07__CocoaB0Vn_SitcfCSo20_EXExtensionIdentityC_Tt1g5Tm
++ _$ss10__CocoaSetV10startIndexAB0D0Vvg
++ _$ss10__CocoaSetV12makeIteratorAB0D0CyF
++ _$ss10__CocoaSetV5IndexV16handleBitPatternSuvg
++ _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
++ _$ss10__CocoaSetV5IndexV7elementyXlvg
++ _$ss10__CocoaSetV5countSivg
++ _$ss10__CocoaSetV5index3forAB5IndexVSgyXl_tF
++ _$ss10__CocoaSetV6member3foryXlSgyXl_tF
++ _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
++ _$ss10__CocoaSetV8IteratorC4nextyXlSgyF
++ _$ss10__CocoaSetV8containsySbyXlF
++ _$ss10__CocoaSetV9formIndex5after8isUniqueyAB0D0Vz_SbtF
++ _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
++ _$ss11AnyHashableV2eeoiySbAB_ABtFZ
++ _$ss11AnyHashableVMn
++ _$ss11AnyHashableVN
++ _$ss11AnyHashableVSHsWP
++ _$ss11AnyHashableVSgMD
++ _$ss11AnyHashableVWOc
++ _$ss11AnyHashableVWOh
++ _$ss11AnyHashableV_yptMD
++ _$ss11AnyHashableVyABxcSHRzlufC
++ _$ss11CommandLineO9argumentsSaySSGvgZ
++ _$ss11GlobalActorMp
++ _$ss11GlobalActorP0B4TypeAB_ScATn
++ _$ss11GlobalActorP21sharedUnownedExecutorScevgZTq
++ _$ss11GlobalActorP6shared0B4TypeQzvgZTq
++ _$ss11GlobalActorPsE21sharedUnownedExecutorScevgZ
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageC7convert_8capacityAByxGs07__CocoaA0V_SitFZ
++ _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCy10Foundation4UUIDVGMD
++ _$ss11_SetStorageCy19ExtensionFoundation03AppC5PointVGMD
++ _$ss11_SetStorageCy19ExtensionFoundation03AppC8IdentityVGMD
++ _$ss11_SetStorageCy19ExtensionFoundation14_EXActiveQueryC06ActiveF8ObserverVGMD
++ _$ss11_SetStorageCy19ExtensionFoundation16_EXServiceClientC06ActiveF5Query33_591406279EDD09BF7033B88E7B83DCFDLLCGMD
++ _$ss11_SetStorageCy19ExtensionFoundation23LocalLSDatabaseObserverC0G0VGMD
++ _$ss11_SetStorageCySSGMD
++ _$ss11_SetStorageCySo20_EXExtensionIdentityCGMD
++ _$ss11_SetStorageCys11AnyHashableVGMD
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss11_StringGutsV27_slowEnsureMatchingEncodingySS5IndexVAEF
++ _$ss11_StringGutsV4growyySiF
++ _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsVN
++ _$ss12IdentifiableMp
++ _$ss12IdentifiableP2IDAB_SHTn
++ _$ss12IdentifiableP2id2IDQzvgTj
++ _$ss12IdentifiableP2id2IDQzvgTq
++ _$ss12IdentifiablePsRlzCrlE2idSOvg
++ _$ss12IdentifiableTL
++ _$ss12StaticStringV11descriptionSSvg
++ _$ss12StaticStringVMn
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation03AppO5PointV7MonitorC18ObserverControllerC04WeakS033_5D985BB42A36A6D664ED77CA96129115LLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation09_InnerAppO8Identity_p_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDySSypG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSJ_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS10identifier_19ExtensionFoundation8PlatformO8platformt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tgq5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXl_Ts5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF19ExtensionFoundation03AppG5PointV7MonitorC18ObserverControllerC04WeakK033_5D985BB42A36A6D664ED77CA96129115LLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF19ExtensionFoundation09_InnerAppG8Identity_p_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSnySiG_Tgq5
++ _$ss12_setDownCastyShyq_GShyxGSHRzSHR_r0_lFs11AnyHashableV_SSTg5
++ _$ss13ManagedBufferCMn
++ _$ss13ManagedBufferCyytSo16os_unfair_lock_sVGMD
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s10_NativeSetVySo20_EXExtensionIdentityCG_Tg506$ss10_gh28V6filteryAByxGSbxKXEKFADs13_ab12VKXEfU_So20_iJ5C_TG5AJxSbs5Error_pRi_zRi0_zlyAIIsgndzo_Tf1nc_n052$s19ExtensionFoundation14_EXActiveQueryC6updateyyFSbq1_iJ6CXEfU_Shy10Foundation4UUIDVGTf1nnc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s10_NativeSetVySo20_EXExtensionIdentityCG_Tg506$ss10_gh28V6filteryAByxGSbxKXEKFADs13_ab12VKXEfU_So20_iJ5C_TG5AJxSbs5Error_pRi_zRi0_zlyAIIsgndzo_Tf1nc_n085$s19ExtensionFoundation15QueryControllerC15resultDidUpdateyyAA014_EXQueryResultG0CFSbq1_iJ7CXEfU0_Shy10Foundation4UUIDVGTf1nnc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s10_NativeSetVySo20_EXExtensionIdentityCG_Tg506$ss10_gh28V6filteryAByxGSbxKXEKFADs13_ab12VKXEfU_So20_iJ5C_TG5AJxSbs5Error_pRi_zRi0_zlyAIIsgndzo_Tf1nc_n092$s19ExtensionFoundation16_EXServiceClientC6result4withAA14_EXQueryResultCAA01_G0C_tFyAGSg_s5s12_pSgtcfU0_Sbq1_iJ6CXEfU_So11NSPredicateCTf1nnc_nTm
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFyXl_Ts5
++ _$ss15ContiguousArrayV12_endMutationyyFyXl_Ts5
++ _$ss15ContiguousArrayV15reserveCapacityyySiF
++ _$ss15ContiguousArrayV15reserveCapacityyySiFyXl_Ts5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF10Foundation4UUIDV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19ExtensionFoundation03AppN8IdentityV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19ExtensionFoundation04_AppN8IdentityV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19ExtensionFoundation22_EXActiveQueryObserver_p_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF19ExtensionFoundation24_EXServiceClientObserver_p_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSo12_EXSceneRolea_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSo22LSPersistentIdentifiera_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyXlXp_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyp_Tg5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFyXl_Ts5
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFyXl_Ts5
++ _$ss15ContiguousArrayV6appendyyxnF
++ _$ss15ContiguousArrayVAByxGycfC
++ _$ss15ContiguousArrayVMa
++ _$ss15LazyMapSequenceV8IteratorV4nextq_SgyFSDySSypG_SS_yptTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFSo15NSExtensionItemC_ypTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFSo20_EXExtensionIdentityC_So01_D12Representing_pTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFSo6NSUUIDC_10Foundation4UUIDVTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFyp_So15NSExtensionItemCTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFyp_So22LSExtensionPointRecordCTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lFyp_So22LSExtensionPointRecordCTg5Tm
++ _$ss15_print_unlockedyyx_q_zts16TextOutputStreamR_r0_lF
++ _$ss16IndexingIteratorVMn
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_09ExtensionK016_EXServiceClientC8ObserverCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_09ExtensionK07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionK0E14ImplementationC7RequestVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF19ExtensionFoundation03AppK5PointV7MonitorC8IdentityV_AJ18ObserverControllerC0Q033_5D985BB42A36A6D664ED77CA96129115LLVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF19ExtensionFoundation0K4TypeO_AF010_EXRunningK0CycTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF19ExtensionFoundation10AuditTokenV_So12RBSAssertionCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF19ExtensionFoundation8_EXQueryC_AF14_EXActiveQueryCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SSTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_09ExtensionD016_EXServiceClientC8ObserverCTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_09ExtensionD07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5
++ _$ss17_NativeDictionaryV4copyyyF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionD0E14ImplementationC7RequestVTg5
++ _$ss17_NativeDictionaryV4copyyyF19ExtensionFoundation03AppD5PointV7MonitorC8IdentityV_AH18ObserverControllerC0J033_5D985BB42A36A6D664ED77CA96129115LLVTg5
++ _$ss17_NativeDictionaryV4copyyyF19ExtensionFoundation0D4TypeO_AD010_EXRunningD0CycTg5
++ _$ss17_NativeDictionaryV4copyyyF19ExtensionFoundation10AuditTokenV_So12RBSAssertionCTg5
++ _$ss17_NativeDictionaryV4copyyyF19ExtensionFoundation8_EXQueryC_AD14_EXActiveQueryCTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_SSTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_ypTg5
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_yps15LazyMapSequenceVySDySSypGSS_yptGTg586$s19ExtensionFoundation03AppA15PointEnumeratorV8IteratorV4nextAC0aD0VSgyFypyp_yptXEfU_Tf1nncn_nTf4gnn_n
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_09ExtensionH07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5Tm
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionH0E14ImplementationC7RequestVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation03AppH5PointV7MonitorC8IdentityV_AM18ObserverControllerC0N033_5D985BB42A36A6D664ED77CA96129115LLVTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation10AuditTokenV_So12RBSAssertionCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tF19ExtensionFoundation8_EXQueryC_AI14_EXActiveQueryCTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_SSTg5
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF10Foundation4UUIDV_09ExtensionJ07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5Tm
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionJ0E14ImplementationC7RequestVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF19ExtensionFoundation03AppJ5PointV7MonitorC8IdentityV_AO18ObserverControllerC0P033_5D985BB42A36A6D664ED77CA96129115LLVTB5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF10Foundation4UUIDV_09ExtensionI016_EXServiceClientC8ObserverCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF10Foundation4UUIDV_09ExtensionI07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF10Foundation4UUIDV_So18_EXNSExtensionShimC09ExtensionI0E14ImplementationC7RequestVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF19ExtensionFoundation03AppI5PointV7MonitorC8IdentityV_AJ18ObserverControllerC0O033_5D985BB42A36A6D664ED77CA96129115LLVTB5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF19ExtensionFoundation0I4TypeO_AF010_EXRunningI0CycTB5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF19ExtensionFoundation10AuditTokenV_So12RBSAssertionCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtF19ExtensionFoundation8_EXQueryC_AF14_EXActiveQueryCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SSTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
++ _$ss17_NativeDictionaryV9removeAll8isUniqueySb_tF
++ _$ss17_NativeDictionaryVMn
++ _$ss17_NativeDictionaryV_8capacityAByxq_Gs07__CocoaB0Vn_SitcfC19ExtensionFoundation8_EXQueryC_AG14_EXActiveQueryCTt1g5
++ _$ss17_NativeDictionaryVy10Foundation4UUIDV09ExtensionC016_EXServiceClientC8ObserverCGMD
++ _$ss17__CocoaDictionaryV12makeIteratorAB0D0CyF
++ _$ss17__CocoaDictionaryV5countSivg
++ _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
++ _$ss17__CocoaDictionaryV8IteratorC4nextyXl3key_yXl5valuetSgyF
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
++ _$ss17_bridgeCocoaArrayySayxGyXllF
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_S2SypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_SDySSSDySSypGGSSypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yXlSSypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yXls11AnyHashableVypTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_ypSSyXlTg5
++ _$ss17_dictionaryUpCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFSS_yps11AnyHashableVypTg5
++ _$ss18_CocoaArrayWrapperV8endIndexSivg
++ _$ss18_DictionaryStorageC4copy8originalAByxq_Gs05__RawaB0C_tFZ
++ _$ss18_DictionaryStorageC6resize8original8capacity4moveAByxq_Gs05__RawaB0C_SiSbtFZ
++ _$ss18_DictionaryStorageC7convert_8capacityAByxq_Gs07__CocoaA0V_SitFZ
++ _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
++ _$ss18_DictionaryStorageCMn
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV09ExtensionC016_EXServiceClientC8ObserverCGMD
++ _$ss18_DictionaryStorageCy10Foundation4UUIDV09ExtensionC07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLCGMD
++ _$ss18_DictionaryStorageCy10Foundation4UUIDVSo18_EXNSExtensionShimC09ExtensionC0E14ImplementationC7RequestVGMD
++ _$ss18_DictionaryStorageCy19ExtensionFoundation03AppC5PointV7MonitorC8IdentityVAG18ObserverControllerC0I033_5D985BB42A36A6D664ED77CA96129115LLVGMD
++ _$ss18_DictionaryStorageCy19ExtensionFoundation0C4TypeOAC010_EXRunningC0CycGMD
++ _$ss18_DictionaryStorageCy19ExtensionFoundation10AuditTokenVSo12RBSAssertionCGMD
++ _$ss18_DictionaryStorageCy19ExtensionFoundation8_EXQueryCAC14_EXActiveQueryCGMD
++ _$ss18_DictionaryStorageCyS2SGMD
++ _$ss18_DictionaryStorageCySSSDySSSDySSypGGGMD
++ _$ss18_DictionaryStorageCySSSDySSypGGMD
++ _$ss18_DictionaryStorageCySSyXlGMD
++ _$ss18_DictionaryStorageCySSypGMD
++ _$ss18_DictionaryStorageCys11AnyHashableVypGMD
++ _$ss19_dictionaryDownCastySDyq0_q1_GSDyxq_GSHRzSHR0_r2_lFs11AnyHashableV_ypSSypTg5
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy19ExtensionFoundation03AppJ5PointV7MonitorC18ObserverControllerC04WeakN033_5D985BB42A36A6D664ED77CA96129115LLVG_s15EmptyCollectionVyAUGTg5Tf4nndn_n
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss20__StaticArrayStorageCN
++ _$ss21_ObjectiveCBridgeableMp
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTj
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTj
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
++ _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_SSTg5
++ _$ss21_arrayConditionalCastySayq_GSgSayxGr0_lFyp_So12_EXSceneRoleaTg5
++ _$ss21_findStringSwitchCase5cases6stringSiSays06StaticB0VG_SStF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySSSgSSm_xtKF
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeyqd__Sgqd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2Sm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyS2bm_xtKF
++ _$ss22KeyedDecodingContainerV6decode_6forKeyqd__qd__m_xtKSeRd__lF
++ _$ss22KeyedDecodingContainerVMn
++ _$ss22KeyedDecodingContainerVy19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedDecodingContainerVy19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedDecodingContainerVy19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedDecodingContainerVySo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOGMD
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySSSg_xtKF
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyyqd__Sg_xtKSERd__lF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySS_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyySb_xtKF
++ _$ss22KeyedEncodingContainerV6encode_6forKeyyqd___xtKSERd__lF
++ _$ss22KeyedEncodingContainerVMn
++ _$ss22KeyedEncodingContainerVy19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedEncodingContainerVy19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedEncodingContainerVy19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOGMD
++ _$ss22KeyedEncodingContainerVySo18RBSProcessIdentityC19ExtensionFoundationE10Attachment33_0985F4D16046E2F53D44E0038F37634ALLV10CodingKeysOGMD
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19ExtensionFoundation03AppH8IdentityV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19ExtensionFoundation23LocalLSDatabaseObserverC0L0V_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19ExtensionFoundation23LocalLSDatabaseObserverC0L0V_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo18RBSDomainAttributeC_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo20_EXExtensionIdentityC_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4UUIDV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation03AppP8IdentityV_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation09_InnerAppP8Identity_p_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation22_EXActiveQueryObserver_p_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19ExtensionFoundation24_EXServiceClientObserver_p_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo22LSPersistentIdentifiera_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyXlXp_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNewAByxGyFSS_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF10Foundation4UUIDV_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19ExtensionFoundation03AppL5PointV7MonitorC8IdentityV_TB5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19ExtensionFoundation0L4TypeO_TB5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19ExtensionFoundation10AuditTokenV_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19ExtensionFoundation8_EXQueryC_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF10Foundation4UUIDV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19ExtensionFoundation03AppJ5PointV7MonitorC8IdentityV_TB5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19ExtensionFoundation0J4TypeO_TB5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19ExtensionFoundation10AuditTokenV_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19ExtensionFoundation8_EXQueryC_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
++ _$ss22_minimumMergeRunLengthyS2iF
++ _$ss23CustomStringConvertibleMp
++ _$ss23CustomStringConvertibleP11descriptionSSvgTj
++ _$ss23CustomStringConvertibleP11descriptionSSvgTq
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss23_ContiguousArrayStorageCy10Foundation4UUIDVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation03AppD15PointEnumeratorV0dG0VGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation03AppD5PointV7MonitorC18ObserverControllerC04WeakH033_5D985BB42A36A6D664ED77CA96129115LLVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation03AppD5PointVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation03AppD8IdentityVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation04_AppD5QueryVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation04_AppD8IdentityVGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation09_InnerAppD8Identity_pGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation22_EXActiveQueryObserver_pGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation23LocalLSDatabaseObserverC0H0VGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation24_EXServiceClientObserver_pGMD
++ _$ss23_ContiguousArrayStorageCy19ExtensionFoundation8PlatformOGMD
++ _$ss23_ContiguousArrayStorageCySDySSypGGMD
++ _$ss23_ContiguousArrayStorageCySJGMD
++ _$ss23_ContiguousArrayStorageCySS10identifier_19ExtensionFoundation8PlatformO8platformtGMD
++ _$ss23_ContiguousArrayStorageCySSGMD
++ _$ss23_ContiguousArrayStorageCySS_SDySSSDySSypGGtGMD
++ _$ss23_ContiguousArrayStorageCySS_SDySSypGtGMD
++ _$ss23_ContiguousArrayStorageCySS_SStGMD
++ _$ss23_ContiguousArrayStorageCySS_yXltGMD
++ _$ss23_ContiguousArrayStorageCySS_yptGMD
++ _$ss23_ContiguousArrayStorageCySnySiGGMD
++ _$ss23_ContiguousArrayStorageCySo12_EXSceneRoleaGMD
++ _$ss23_ContiguousArrayStorageCySo22LSPersistentIdentifieraGMD
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMD
++ _$ss23_ContiguousArrayStorageCyyXlGMD
++ _$ss23_ContiguousArrayStorageCyyXlXpGMD
++ _$ss23_ContiguousArrayStorageCyypGMD
++ _$ss25ExpressibleByArrayLiteralMp
++ _$ss25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfCTq
++ _$ss26DefaultStringInterpolationVN
++ _$ss26DefaultStringInterpolationVs16TextOutputStreamsWP
++ _$ss27ExpressibleByIntegerLiteralMp
++ _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTq
++ _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
++ _$ss28CustomDebugStringConvertibleMp
++ _$ss28CustomDebugStringConvertibleP16debugDescriptionSSvgTq
++ _$ss28__ContiguousArrayStorageBaseC17staticElementTypeypXpvgTj
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF19ExtensionFoundation8PlatformO_Tg5
++ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF19ExtensionFoundation03AppG15PointEnumeratorV_Tg5
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlF
++ _$ss31withCheckedThrowingContinuation9isolation8function_xScA_pSgYi_SSyScCyxs5Error_pGXEtYaKlFTu
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFShySo20_EXExtensionIdentityCG_Tg5
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$ss4Int8VMn
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$ss5ErrorMp
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
++ _$ss5ErrorP5_codeSivgTq
++ _$ss5ErrorP7_domainSSvgTq
++ _$ss5ErrorP9_userInfoyXlSgvgTq
++ _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
++ _$ss5ErrorPsE5_codeSivg
++ _$ss5ErrorPsE7_domainSSvg
++ _$ss5ErrorPsE9_userInfoyXlSgvg
++ _$ss5ErrorWS
++ _$ss5Error_pIegg_So7NSErrorCIeyBy_TR
++ _$ss5Error_pMD
++ _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR
++ _$ss5Int32V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$ss5Int32VIegd_ABIegr_TR
++ _$ss5Int32VMn
++ _$ss5Int32VN
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss5Int32Vs35_ExpressibleByBuiltinIntegerLiteralsWP
++ _$ss5NeverOMn
++ _$ss5NeverON
++ _$ss5NeverOs5ErrorsWP
++ _$ss5UInt8V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$ss5UInt8VMn
++ _$ss6HasherV5_seedABSi_tcfC
++ _$ss6HasherV8_combineyySuF
++ _$ss6HasherV8_combineyys5UInt8VF
++ _$ss6HasherV8_combineyys6UInt32VF
++ _$ss6HasherV8finalizeSiyF
++ _$ss6HasherV9_finalizeSiyF
++ _$ss6HasherVABycfC
++ _$ss6ResultOMn
++ _$ss6UInt32V10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
++ _$ss6UInt32V9hashValueSivg
++ _$ss6UInt32VMn
++ _$ss6UInt32VN
++ _$ss6UInt32Vs23CustomStringConvertiblesWP
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF19ExtensionFoundation09_InnerAppG8Identity_p_Tg504$s19g31Foundation27_EXExtensionProcessk62C13JobDescriptorV_4hostAeC_So16RBSProcessHandleCSgtKcfcSbAA09_I20AppaE0_p_AaJ_ptXEfU_Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSS_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_M9SSG_Tt1G5Tf1nnnnc_n
++ _$ss7DecoderP9container7keyedBys22KeyedDecodingContainerVyqd__Gqd__m_tKs9CodingKeyRd__lFTj
++ _$ss7EncoderP9container7keyedBys22KeyedEncodingContainerVyqd__Gqd__m_ts9CodingKeyRd__lFTj
++ _$ss9CodingKeyMp
++ _$ss9CodingKeyP11stringValueSSvgTq
++ _$ss9CodingKeyP11stringValuexSgSS_tcfCTq
++ _$ss9CodingKeyP8intValueSiSgvgTq
++ _$ss9CodingKeyP8intValuexSgSi_tcfCTq
++ _$ss9CodingKeyPs23CustomStringConvertibleTb
++ _$ss9CodingKeyPs28CustomDebugStringConvertibleTb
++ _$ss9CodingKeyPsE11descriptionSSvg
++ _$ss9CodingKeyPsE16debugDescriptionSSvg
++ _$ss9OptionSetMp
++ _$ss9OptionSetP8rawValuex03RawD0Qz_tcfCTq
++ _$ss9OptionSetPSYTb
++ _$ss9OptionSetPs0B7AlgebraTb
++ _$ss9_typeName_9qualifiedSSypXp_SbtF
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TATu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5Tu
++ _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzr0_lTRSS_ypTg575$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tKXEtKFx_q_tx_q_tcfU_SS_ypTG5Tf3nnpf_n
++ _$sxs5Error_pIgrzo_xsAA_pIegrzo_s8SendableRzlTRyt_Tg5TA
++ _$syXlN
++ _$syXlSgMD
++ _$syXlXpMD
++ _$syXlXpSgMD
++ _$sypN
++ _$sypSgMD
++ _$sypSgSDySSypGSgSbIegngd_yXlSgSo12NSDictionaryCSgSbIeyByyd_TR
++ _$sypSgWOc
++ _$sypSgWOcTm
++ _$sypSgWOd
++ _$sypSgWOh
++ _$sypSgWOhTm
++ _$sypWOb
++ _$sypWOc
++ _$sytIegr_Ieg_TR
++ _$sytIegr_Ieg_TRTA
++ _$sytIegr_Ieg_TRTA.18
++ _$sytIegr_Ieg_TRTA.57
++ _$sytN
++ _$sytWV
++ _$syycML
++ _$syycMa
++ _$syycWV
++ _EXExtensionIsSafeExpressionForObjectWithSubquerySubstitutions.cold.11
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_NSExtensionItem
++ _OBJC_CLASS_$_ObserverConfiguration
++ _OBJC_CLASS_$_ObserverUpdate
++ _OBJC_CLASS_$_RBSLaunchdJobDescriptor
++ _OBJC_CLASS_$__EXAppExtensionPointEnumerator
++ _OBJC_CLASS_$__EXNSExtensionContextShim
++ _OBJC_CLASS_$__EXNSExtensionShim
++ _OBJC_CLASS_$__TtC19ExtensionFoundation16ListenerDelegate
++ _OBJC_CLASS_$__TtC19ExtensionFoundation16_QueryController
++ _OBJC_CLASS_$__TtC19ExtensionFoundation19_EXRunningExtension
++ _OBJC_CLASS_$__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ _OBJC_CLASS_$__TtC19ExtensionFoundation23_AvailabilityController
++ _OBJC_CLASS_$__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ _OBJC_CLASS_$__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ _OBJC_CLASS_$__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ _OBJC_CLASS_$__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ _OBJC_CLASS_$__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ _OBJC_CLASS_$__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ _OBJC_IVAR_$_EXConcreteExtension.__identity
++ _OBJC_IVAR_$_EXConcreteExtension._requestBlockLock
++ _OBJC_IVAR_$_EXEnumeratorConfig._includePlaceholders
++ _OBJC_IVAR_$__EXExtension._identity
++ _OBJC_IVAR_$__EXExtensionContext._inputItems
++ _OBJC_IVAR_$__EXExtensionContext._principalObject
++ _OBJC_IVAR_$__EXNSExtensionShim._identity
++ _OBJC_IVAR_$__EXNSExtensionShim._implementation
++ _OBJC_IVAR_$__EXNSExtensionShim._requestBlockLock
++ _OBJC_IVAR_$__EXNSExtensionShim._requestCancellationBlock
++ _OBJC_IVAR_$__EXNSExtensionShim._requestCompletionBlock
++ _OBJC_IVAR_$__EXNSExtensionShim._requestInterruptionBlock
++ _OBJC_IVAR_$__EXNSExtensionShimExtension._principalObject
++ _OBJC_METACLASS_$_ObserverConfiguration
++ _OBJC_METACLASS_$_ObserverUpdate
++ _OBJC_METACLASS_$__EXAppExtensionPointEnumerator
++ _OBJC_METACLASS_$__EXNSExtensionContextShim
++ _OBJC_METACLASS_$__EXNSExtensionShim
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation16ListenerDelegate
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation16_QueryController
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation19_EXRunningExtension
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation23_AvailabilityController
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ _OBJC_METACLASS_$__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ _OBJC_METACLASS_$__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ _OBJC_METACLASS_$__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ _OBJC_METACLASS_$__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ _OBJC_METACLASS_$__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ _OBJC_METACLASS_$__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __CLASS_METHODS_ObserverConfiguration
++ __CLASS_METHODS_ObserverUpdate
++ __CLASS_METHODS__EXQueryResultUpdate
++ __CLASS_PROPERTIES_ObserverConfiguration
++ __CLASS_PROPERTIES_ObserverUpdate
++ __CLASS_PROPERTIES__EXExtensionIdentity
++ __CLASS_PROPERTIES__EXQueryResultUpdate
++ __DATA_ObserverConfiguration
++ __DATA_ObserverUpdate
++ __DATA__EXAppExtensionPointEnumerator
++ __DATA__EXExtensionIdentity
++ __DATA__EXNSExtensionContextShim
++ __DATA__TtC19ExtensionFoundation13ExtensionMain
++ __DATA__TtC19ExtensionFoundation16ListenerDelegate
++ __DATA__TtC19ExtensionFoundation16_QueryController
++ __DATA__TtC19ExtensionFoundation19_EXRunningExtension
++ __DATA__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ __DATA__TtC19ExtensionFoundation23_AvailabilityController
++ __DATA__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ __DATA__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ __DATA__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __DATA__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __DATA__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ __DATA__TtCC19ExtensionFoundation7ServiceP33_BA93CBAF03EEA85977F926DB446085C48Observer
++ __DATA__TtCCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery24ServiceClientObserverSet
++ __DATA__TtCCV19ExtensionFoundation17AppExtensionPoint7Monitor18ObserverController
++ __DATA__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ __DATA__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __DATA__TtCV19ExtensionFoundation17AppExtensionPoint7Monitor
++ __INSTANCE_METHODS_ObserverConfiguration
++ __INSTANCE_METHODS_ObserverUpdate
++ __INSTANCE_METHODS__EXAppExtensionPointEnumerator
++ __INSTANCE_METHODS__EXExtensionProcess
++ __INSTANCE_METHODS__TtC19ExtensionFoundation16ListenerDelegate
++ __INSTANCE_METHODS__TtC19ExtensionFoundation16_QueryController
++ __INSTANCE_METHODS__TtC19ExtensionFoundation19_EXRunningExtension
++ __INSTANCE_METHODS__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ __INSTANCE_METHODS__TtC19ExtensionFoundation23_AvailabilityController
++ __INSTANCE_METHODS__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ __INSTANCE_METHODS__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __INSTANCE_METHODS__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __INSTANCE_METHODS__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ __INSTANCE_METHODS__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ __INSTANCE_METHODS__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __IVARS_ObserverConfiguration
++ __IVARS_ObserverUpdate
++ __IVARS__EXAppExtensionPointEnumerator
++ __IVARS__EXExtensionIdentity
++ __IVARS__EXNSExtensionContextShim
++ __IVARS__TtC19ExtensionFoundation13ExtensionMain
++ __IVARS__TtC19ExtensionFoundation16ListenerDelegate
++ __IVARS__TtC19ExtensionFoundation16_QueryController
++ __IVARS__TtC19ExtensionFoundation19_EXRunningExtension
++ __IVARS__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ __IVARS__TtC19ExtensionFoundation23_AvailabilityController
++ __IVARS__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ __IVARS__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ __IVARS__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __IVARS__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __IVARS__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ __IVARS__TtCC19ExtensionFoundation7ServiceP33_BA93CBAF03EEA85977F926DB446085C48Observer
++ __IVARS__TtCCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery24ServiceClientObserverSet
++ __IVARS__TtCCV19ExtensionFoundation17AppExtensionPoint7Monitor18ObserverController
++ __IVARS__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ __IVARS__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __IVARS__TtCV19ExtensionFoundation17AppExtensionPoint7Monitor
++ __LSVersionNumberCompare
++ __LSVersionNumberMakeWithString
++ __METACLASS_DATA_ObserverConfiguration
++ __METACLASS_DATA_ObserverUpdate
++ __METACLASS_DATA__EXAppExtensionPointEnumerator
++ __METACLASS_DATA__EXExtensionIdentity
++ __METACLASS_DATA__EXNSExtensionContextShim
++ __METACLASS_DATA__TtC19ExtensionFoundation13ExtensionMain
++ __METACLASS_DATA__TtC19ExtensionFoundation16ListenerDelegate
++ __METACLASS_DATA__TtC19ExtensionFoundation16_QueryController
++ __METACLASS_DATA__TtC19ExtensionFoundation19_EXRunningExtension
++ __METACLASS_DATA__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ __METACLASS_DATA__TtC19ExtensionFoundation23_AvailabilityController
++ __METACLASS_DATA__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ __METACLASS_DATA__TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension
++ __METACLASS_DATA__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __METACLASS_DATA__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __METACLASS_DATA__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ __METACLASS_DATA__TtCC19ExtensionFoundation7ServiceP33_BA93CBAF03EEA85977F926DB446085C48Observer
++ __METACLASS_DATA__TtCCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery24ServiceClientObserverSet
++ __METACLASS_DATA__TtCCV19ExtensionFoundation17AppExtensionPoint7Monitor18ObserverController
++ __METACLASS_DATA__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ __METACLASS_DATA__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __METACLASS_DATA__TtCV19ExtensionFoundation17AppExtensionPoint7Monitor
++ __OBJC_$_CLASS_METHODS__EXExtensionIdentity(ExtensionFoundation|ExtensionFoundation1|ExtensionFoundation2|ExtensionFoundation3)
++ __OBJC_$_INSTANCE_METHODS__EXExtensionIdentity(ExtensionFoundation|ExtensionFoundation1|ExtensionFoundation2|ExtensionFoundation3)
++ __OBJC_$_INSTANCE_METHODS__EXNSExtensionContextShim(ExtensionFoundation)
++ __OBJC_$_INSTANCE_METHODS__EXNSExtensionShim(ExtensionFoundation)
++ __OBJC_$_INSTANCE_METHODS__EXServiceClient(ExtensionFoundation)
++ __OBJC_$_INSTANCE_METHODS__TtC19ExtensionFoundation27_EXExtensionProcessIdentity(ExtensionFoundation)
++ __OBJC_$_INSTANCE_METHODS__TtC19ExtensionFoundation7Service(ExtensionFoundation|ExtensionFoundation1|ExtensionFoundation2|ExtensionFoundation3|ExtensionFoundation4)
++ __OBJC_$_INSTANCE_VARIABLES__EXExtensionContext
++ __OBJC_$_INSTANCE_VARIABLES__EXNSExtensionShim
++ __OBJC_$_PROP_LIST_EXEnumeratorConfig.303
++ __OBJC_$_PROP_LIST_RBSExtensionIdentityProtocol
++ __OBJC_$_PROP_LIST__EXExtensionContext
++ __OBJC_$_PROP_LIST__EXNSExtensionShim
++ __OBJC_$_PROTOCOL_CLASS_METHODS_RBSExtensionIdentityFactoryProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSServiceConnectionListenerConfiguring
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__EXNSExtensionShimProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_RBSExtensionIdentityProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__EXNSExtensionShimImplementation
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSServiceConnectionListenerConfiguring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RBSExtensionIdentityFactoryProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_RBSExtensionIdentityProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES__EXNSExtensionShimImplementation
++ __OBJC_$_PROTOCOL_METHOD_TYPES__EXNSExtensionShimProtocol
++ __OBJC_$_PROTOCOL_REFS_RBSExtensionIdentityFactoryProtocol
++ __OBJC_$_PROTOCOL_REFS_RBSExtensionIdentityProtocol
++ __OBJC_$_PROTOCOL_REFS__EXNSExtensionShimImplementation
++ __OBJC_CLASS_PROTOCOLS_$__EXExtensionIdentity(ExtensionFoundation|ExtensionFoundation1|ExtensionFoundation2|ExtensionFoundation3)
++ __OBJC_CLASS_PROTOCOLS_$__EXNSExtensionContextShim(ExtensionFoundation)
++ __OBJC_CLASS_PROTOCOLS_$__EXNSExtensionShim
++ __OBJC_CLASS_PROTOCOLS_$__TtC19ExtensionFoundation27_EXExtensionProcessIdentity(ExtensionFoundation)
++ __OBJC_CLASS_PROTOCOLS_$__TtC19ExtensionFoundation7Service(ExtensionFoundation|ExtensionFoundation1|ExtensionFoundation2|ExtensionFoundation3|ExtensionFoundation4)
++ __OBJC_CLASS_RO_$__EXNSExtensionShim
++ __OBJC_LABEL_PROTOCOL_$_BSServiceConnectionListenerConfiguring
++ __OBJC_LABEL_PROTOCOL_$_RBSExtensionIdentityFactoryProtocol
++ __OBJC_LABEL_PROTOCOL_$_RBSExtensionIdentityProtocol
++ __OBJC_LABEL_PROTOCOL_$__EXNSExtensionShimImplementation
++ __OBJC_LABEL_PROTOCOL_$__EXNSExtensionShimProtocol
++ __OBJC_METACLASS_RO_$__EXNSExtensionShim
++ __OBJC_PROTOCOL_$_BSServiceConnectionListenerConfiguring
++ __OBJC_PROTOCOL_$_RBSExtensionIdentityFactoryProtocol
++ __OBJC_PROTOCOL_$_RBSExtensionIdentityProtocol
++ __OBJC_PROTOCOL_$__EXNSExtensionShimImplementation
++ __OBJC_PROTOCOL_$__EXNSExtensionShimProtocol
++ __PROPERTIES__EXNSExtensionContextShim
++ __PROPERTIES__TtC19ExtensionFoundation16_QueryController
++ __PROPERTIES__TtC19ExtensionFoundation27_EXExtensionProcessIdentity
++ __PROPERTIES__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __PROPERTIES__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __PROPERTIES__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __PROTOCOLS_ObserverConfiguration
++ __PROTOCOLS_ObserverConfiguration.2
++ __PROTOCOLS_ObserverUpdate
++ __PROTOCOLS_ObserverUpdate.14
++ __PROTOCOLS__TtC19ExtensionFoundation16ListenerDelegate
++ __PROTOCOLS__TtC19ExtensionFoundation16ListenerDelegate.20
++ __PROTOCOLS__TtC19ExtensionFoundation16_QueryController
++ __PROTOCOLS__TtC19ExtensionFoundation16_QueryController.19
++ __PROTOCOLS__TtC19ExtensionFoundation23LocalLSDatabaseObserver
++ __PROTOCOLS__TtC19ExtensionFoundation23LocalLSDatabaseObserver.28
++ __PROTOCOLS__TtC19ExtensionFoundation23_AvailabilityController
++ __PROTOCOLS__TtC19ExtensionFoundation23_AvailabilityController.24
++ __PROTOCOLS__TtCC19ExtensionFoundation16_EXServiceClient8Observer
++ __PROTOCOLS__TtCC19ExtensionFoundation16_EXServiceClient8Observer.55
++ __PROTOCOLS__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery
++ __PROTOCOLS__TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery.23
++ __PROTOCOLS__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver
++ __PROTOCOLS__TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver.5
++ __PROTOCOLS__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation
++ __PROTOCOLS__TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation.2
++ __PROTOCOLS__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint
++ __PROTOCOLS__TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint.2
++ __PROTOCOL_INSTANCE_METHODS__TtP19ExtensionFoundation34EXDefaultImplementationXPCProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtPC19ExtensionFoundation7Service16ObserverProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtPC19ExtensionFoundation7Service22ObserverUpdateProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP19ExtensionFoundation34EXDefaultImplementationXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtPC19ExtensionFoundation7Service16ObserverProtocol_
++ __PROTOCOL_METHOD_TYPES__TtPC19ExtensionFoundation7Service22ObserverUpdateProtocol_
++ __PROTOCOL__TtP19ExtensionFoundation34EXDefaultImplementationXPCProtocol_
++ __PROTOCOL__TtPC19ExtensionFoundation7Service16ObserverProtocol_
++ __PROTOCOL__TtPC19ExtensionFoundation7Service22ObserverUpdateProtocol_
++ ___33+[_EXUtil _getEntryPointFunction]_block_invoke
++ ___33+[_EXUtil _getEntryPointFunction]_block_invoke.cold.1
++ ___33+[_EXUtil _getEntryPointFunction]_block_invoke.cold.2
++ ___33+[_EXUtil _getEntryPointFunction]_block_invoke.cold.3
++ ___46-[_EXNSExtensionShim beginRequest:completion:]_block_invoke
++ ___51-[EXOSExtensionEnumerator initWithCacheURLs:paths:]_block_invoke.426
++ ___55-[_EXNSExtensionShim beginExtensionRequest:completion:]_block_invoke
++ ___56-[_EXNSExtensionShim _beginExtensionRequest:completion:]_block_invoke
++ ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.400
++ ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.400.cold.1
++ ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.400.cold.2
++ ___block_descriptor_40_e8_32bs_e28_v24?0"NSUUID"8"NSError"16ls32l8
++ ___block_literal_global.152
++ ___block_literal_global.202
++ ___block_literal_global.215
++ ___block_literal_global.24
++ ___block_literal_global.252
++ ___block_literal_global.398
++ ___block_literal_global.418
++ ___block_literal_global.420
++ ___block_literal_global.424
++ ___block_literal_global.429
++ ___block_literal_global.448
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_memcpy12_8
++ ___swift_memcpy17_8
++ ___swift_memcpy25_8
++ ___swift_memcpy26_8
++ ___swift_memcpy48_8
++ ___swift_memcpy4_1
++ ___swift_memcpy56_8
++ __getEntryPointFunction.mainFunction
++ __getEntryPointFunction.onceToken
++ __kEXPlaceholderExtensionPointKey
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ExtensionFoundation
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ExtensionFoundation
++ _associated conformance 19ExtensionFoundation03AppA15PointEnumeratorVSTAA8IteratorST_St
++ _associated conformance 19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionOSHAASQ
++ _associated conformance 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerCs11GlobalActorAA0I4TypesAHP_ScA
++ _associated conformance 19ExtensionFoundation03AppA5PointV7MonitorC7OptionsVSHAASQ
++ _associated conformance 19ExtensionFoundation03AppA5PointV7MonitorC8IdentityVSHAASQ
++ _associated conformance 19ExtensionFoundation03AppA5PointVSHAASQ
++ _associated conformance 19ExtensionFoundation03AppA5PointVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAASQ
++ _associated conformance 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAASY
++ _associated conformance 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsVs9OptionSetAAs0H7Algebra
++ _associated conformance 19ExtensionFoundation03AppA8IdentityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 19ExtensionFoundation08_ServiceA8IdentityVSHAASQ
++ _associated conformance 19ExtensionFoundation0A4TypeOSHAASQ
++ _associated conformance 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQ
++ _associated conformance 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19ExtensionFoundation16_EXServiceClientC8ObserverCs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 19ExtensionFoundation23LocalLSDatabaseObserverC0E0VSHAASQ
++ _associated conformance 19ExtensionFoundation23LocalLSDatabaseObserverC0E0Vs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQ
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationVSHAASQ
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOSHAASQ
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerVSHAASQ
++ _associated conformance 19ExtensionFoundation8PlatformOSHAASQ
++ _associated conformance 19ExtensionFoundation8PlatformOs27ExpressibleByIntegerLiteralAA0fG4TypesADP_s01_de7BuiltinfG0
++ _associated conformance 7Network15NWApplicationIDVSH19ExtensionFoundationSQ
++ _associated conformance So12_EXSceneRoleaSHSCSQ
++ _associated conformance So12_EXSceneRoleas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So12_EXSceneRoleas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So20LSExtensionPointTypeVSH19ExtensionFoundationSQ
++ _associated conformance So22LSPersistentIdentifieraSHSCSQ
++ _associated conformance So22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCSY
++ _associated conformance So22LSPersistentIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.100
++ _block_copy_helper.102
++ _block_copy_helper.103
++ _block_copy_helper.106
++ _block_copy_helper.108
++ _block_copy_helper.109
++ _block_copy_helper.111
++ _block_copy_helper.122
++ _block_copy_helper.129
++ _block_copy_helper.135
++ _block_copy_helper.141
++ _block_copy_helper.147
++ _block_copy_helper.154
++ _block_copy_helper.157
++ _block_copy_helper.160
++ _block_copy_helper.164
++ _block_copy_helper.168
++ _block_copy_helper.174
++ _block_copy_helper.18
++ _block_copy_helper.183
++ _block_copy_helper.189
++ _block_copy_helper.193
++ _block_copy_helper.199
++ _block_copy_helper.203
++ _block_copy_helper.207
++ _block_copy_helper.216
++ _block_copy_helper.22
++ _block_copy_helper.222
++ _block_copy_helper.225
++ _block_copy_helper.229
++ _block_copy_helper.23
++ _block_copy_helper.233
++ _block_copy_helper.28
++ _block_copy_helper.30
++ _block_copy_helper.37
++ _block_copy_helper.38
++ _block_copy_helper.41
++ _block_copy_helper.44
++ _block_copy_helper.46
++ _block_copy_helper.53
++ _block_copy_helper.57
++ _block_copy_helper.60
++ _block_copy_helper.69
++ _block_copy_helper.79
++ _block_copy_helper.80
++ _block_copy_helper.85
++ _block_copy_helper.87
++ _block_copy_helper.89
++ _block_copy_helper.9
++ _block_copy_helper.90
++ _block_copy_helper.93
++ _block_copy_helper.96
++ _block_copy_helper.97
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.102
++ _block_descriptor.104
++ _block_descriptor.105
++ _block_descriptor.108
++ _block_descriptor.11
++ _block_descriptor.110
++ _block_descriptor.111
++ _block_descriptor.113
++ _block_descriptor.124
++ _block_descriptor.131
++ _block_descriptor.137
++ _block_descriptor.143
++ _block_descriptor.149
++ _block_descriptor.156
++ _block_descriptor.159
++ _block_descriptor.162
++ _block_descriptor.166
++ _block_descriptor.170
++ _block_descriptor.176
++ _block_descriptor.185
++ _block_descriptor.191
++ _block_descriptor.195
++ _block_descriptor.20
++ _block_descriptor.201
++ _block_descriptor.205
++ _block_descriptor.209
++ _block_descriptor.218
++ _block_descriptor.224
++ _block_descriptor.227
++ _block_descriptor.231
++ _block_descriptor.235
++ _block_descriptor.24
++ _block_descriptor.25
++ _block_descriptor.30
++ _block_descriptor.32
++ _block_descriptor.39
++ _block_descriptor.40
++ _block_descriptor.43
++ _block_descriptor.46
++ _block_descriptor.48
++ _block_descriptor.55
++ _block_descriptor.59
++ _block_descriptor.62
++ _block_descriptor.71
++ _block_descriptor.81
++ _block_descriptor.82
++ _block_descriptor.87
++ _block_descriptor.89
++ _block_descriptor.91
++ _block_descriptor.92
++ _block_descriptor.95
++ _block_descriptor.98
++ _block_descriptor.99
++ _block_destroy_helper.10
++ _block_destroy_helper.100
++ _block_destroy_helper.101
++ _block_destroy_helper.103
++ _block_destroy_helper.104
++ _block_destroy_helper.107
++ _block_destroy_helper.109
++ _block_destroy_helper.110
++ _block_destroy_helper.112
++ _block_destroy_helper.123
++ _block_destroy_helper.130
++ _block_destroy_helper.136
++ _block_destroy_helper.142
++ _block_destroy_helper.148
++ _block_destroy_helper.155
++ _block_destroy_helper.158
++ _block_destroy_helper.161
++ _block_destroy_helper.165
++ _block_destroy_helper.169
++ _block_destroy_helper.175
++ _block_destroy_helper.184
++ _block_destroy_helper.19
++ _block_destroy_helper.190
++ _block_destroy_helper.194
++ _block_destroy_helper.200
++ _block_destroy_helper.204
++ _block_destroy_helper.208
++ _block_destroy_helper.217
++ _block_destroy_helper.223
++ _block_destroy_helper.226
++ _block_destroy_helper.23
++ _block_destroy_helper.230
++ _block_destroy_helper.234
++ _block_destroy_helper.24
++ _block_destroy_helper.29
++ _block_destroy_helper.31
++ _block_destroy_helper.38
++ _block_destroy_helper.39
++ _block_destroy_helper.42
++ _block_destroy_helper.45
++ _block_destroy_helper.47
++ _block_destroy_helper.54
++ _block_destroy_helper.58
++ _block_destroy_helper.61
++ _block_destroy_helper.70
++ _block_destroy_helper.80
++ _block_destroy_helper.81
++ _block_destroy_helper.86
++ _block_destroy_helper.88
++ _block_destroy_helper.90
++ _block_destroy_helper.91
++ _block_destroy_helper.94
++ _block_destroy_helper.97
++ _block_destroy_helper.98
++ _dispatch_main
++ _dlopen
++ _dlopenHelper$IconServices
++ _dlopenHelperFlag$IconServices
++ _flat unique 19ExtensionFoundation34EXDefaultImplementationXPCProtocol_p
++ _flat unique 19ExtensionFoundation7ServiceC16ObserverProtocol_p
++ _flat unique 19ExtensionFoundation7ServiceC22ObserverUpdateProtocol_p
++ _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
++ _flat unique So38BSServiceConnectionListenerConfiguring_p
++ _get_enum_tag_for_layout_string 19ExtensionFoundation03AppA5PointV5ErrorO
++ _get_enum_tag_for_layout_string 3XPC11XPCListenerC22IncomingSessionRequestCAE8DecisionVIeghgr_Sg
++ _get_enum_tag_for_layout_string So13OS_xpc_object_pSbIeghgd_Sg
++ _get_enum_tag_for_layout_string So15NSXPCConnectionCSbIeghgd_Sg
++ _gotLoadHelper_x8$_OBJC_CLASS_$_ISIcon
++ _keypath_get_selector_configuration
++ _memcmp
++ _objc_msgSend$_evaluateActivationRule:withExtensionItemsRepresentation:error:
++ _objc_msgSend$_identity
++ _objc_msgSend$_initWithPKPlugin:identity:
++ _objc_msgSend$beginExtensionRequest:completion:
++ _objc_msgSend$beginExtensionRequest:error:
++ _objc_msgSend$cancelExtensionRequestWithIdentifier:
++ _objc_msgSend$current
++ _objc_msgSend$enabled
++ _objc_msgSend$enumeratorIncludingPlaceHolders
++ _objc_msgSend$identity
++ _objc_msgSend$implementation
++ _objc_msgSend$includePlaceholders
++ _objc_msgSend$makeDefaultImplementation
++ _objc_msgSend$nsExtensionAttributes
++ _objc_msgSend$principalObject
++ _objc_msgSend$queryControllerDidUpdate:
++ _objc_msgSend$reason
++ _objc_msgSend$setIncludePlaceholders:
++ _objc_msgSend$setPrincipalObject:
++ _objectdestroy.12Tm
++ _objectdestroy.181Tm
++ _objectdestroy.36Tm
++ _objectdestroy.51Tm
++ _objectdestroy.78Tm
++ _objectdestroy.83Tm
++ _sandbox_enable_local_state_flag
++ _sdkDictionaryAdditions
++ _sdkDictionaryAdditions.cold.1
++ _swift_coroFrameAlloc
++ _swift_cvw_enumFn_getEnumTag
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_dynamicCastClass
++ _swift_dynamicCastMetatype
++ _swift_dynamicCastObjCProtocolConditional
++ _swift_getExistentialTypeMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromObject
++ _swift_projectBox
++ _swift_task_create
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_unknownObjectUnownedAssign
++ _swift_weakAssign
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s19ExtensionFoundation03AppA5PointV7MonitorC6SourceP
++ _symbolic $s19ExtensionFoundation03AppA5PointV9AttributeP
++ _symbolic $s19ExtensionFoundation09_InnerAppA15IdentityWrapperP
++ _symbolic $s19ExtensionFoundation09_InnerAppA8IdentityP
++ _symbolic $s19ExtensionFoundation0A13PointDefiningP
++ _symbolic $s19ExtensionFoundation12InnerProcess33_78C62825B57214473F4122DB815D7624LLP
++ _symbolic $s19ExtensionFoundation34EXDefaultImplementationXPCProtocolP
++ _symbolic $s19ExtensionFoundation7ServiceC16ObserverProtocolP
++ _symbolic $s19ExtensionFoundation7ServiceC22ObserverUpdateProtocolP
++ _symbolic $sST
++ _symbolic $sSt
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss11GlobalActorP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss27ExpressibleByIntegerLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic 7ElementSciQyd__
++ _symbolic 7FailureSciQyd__
++ _symbolic BD
++ _symbolic SDySSSDySSypGG
++ _symbolic SDySSyXlG
++ _symbolic SDySSypG
++ _symbolic SDySSypGSg
++ _symbolic SDy__________G 10Foundation4UUIDV 09ExtensionA016_EXServiceClientC8ObserverC
++ _symbolic SDy__________G 10Foundation4UUIDV 09ExtensionA07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC
++ _symbolic SDy__________G 10Foundation4UUIDV So18_EXNSExtensionShimC09ExtensionA0E14ImplementationC7RequestV
++ _symbolic SDy__________G 19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV AE18ObserverControllerC0G033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic SDy__________ycG 19ExtensionFoundation0A4TypeO AA010_EXRunningA0C
++ _symbolic SDy_____ypG s11AnyHashableV
++ _symbolic SS10identifier______8platformt 19ExtensionFoundation8PlatformO
++ _symbolic SS3key_yXl5valuet
++ _symbolic SS3key_yp5valuet
++ _symbolic SS_SDySSSDySSypGGt
++ _symbolic SS_SDySSypGt
++ _symbolic SS_SSt
++ _symbolic SS_yXlt
++ _symbolic SaySDySSypGG
++ _symbolic SaySo12RBSAttributeCG
++ _symbolic SaySo15NSExtensionItemCG
++ _symbolic SaySo18RBSDomainAttributeCGSg
++ _symbolic SaySo20_EXExtensionIdentityCG
++ _symbolic Say_____G 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic SayypG
++ _symbolic SbSo15NSXPCConnectionCYbcSg
++ _symbolic Sb______pYbcSg So13OS_xpc_objectP
++ _symbolic ScA_pSg
++ _symbolic ScCySaySo15NSExtensionItemCG______pG s5ErrorP
++ _symbolic ScPSg
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic Scsy___________pG 19ExtensionFoundation03AppA5PointV7MonitorC5StateV s5ErrorP
++ _symbolic Shy_____G 19ExtensionFoundation03AppA5PointV
++ _symbolic Shy_____G 19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC
++ _symbolic Shy_____G 19ExtensionFoundation23LocalLSDatabaseObserverC0E0V
++ _symbolic So12NSDictionaryCm
++ _symbolic So12_EXExtensionCSg
++ _symbolic So14LSBundleRecordCSg
++ _symbolic So15NSExtensionItemCm
++ _symbolic So18EXExtensionRequestC
++ _symbolic So18_EXNSExtensionShimC
++ _symbolic So19_EXExtensionProcessCSgSo7NSErrorCSgIeggg_
++ _symbolic So19_EXExtensionProcessCSgSo7NSErrorCSgIeyByy_
++ _symbolic So21NSXPCListenerEndpointC
++ _symbolic So28LSApplicationExtensionRecordC
++ _symbolic So28LSApplicationExtensionRecordCSg
++ _symbolic So30_EXAppExtensionPointEnumeratorC
++ _symbolic So6NSDataC
++ _symbolic So6NSUUIDCSgSo7NSErrorCSgIeyByy_
++ _symbolic So6NSUUIDCm
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_
++ _symbolic So7NSArrayCm
++ _symbolic So7NSErrorCm
++ _symbolic So8NSStringC
++ _symbolic So8NSStringCm
++ _symbolic Spy_____G s4Int8V
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 19ExtensionFoundation010_EXRunningA0C
++ _symbolic _____ 19ExtensionFoundation03AppA15PointEnumeratorV
++ _symbolic _____ 19ExtensionFoundation03AppA15PointEnumeratorV0aD0V
++ _symbolic _____ 19ExtensionFoundation03AppA15PointEnumeratorV8IteratorV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV10DefinitionV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV10IdentifierV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV13UserInterfaceV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV16EnhancedSecurityV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV4BindV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV4NameV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV5ErrorO
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV5ScopeV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV5ScopeV11RestrictionO
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC5StateV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV
++ _symbolic _____ 19ExtensionFoundation03AppA5PointV7_DomainV
++ _symbolic _____ 19ExtensionFoundation03AppA8IdentityV05ValueD0V
++ _symbolic _____ 19ExtensionFoundation03AppA8IdentityV06RecordD0V
++ _symbolic _____ 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV
++ _symbolic _____ 19ExtensionFoundation08_ServiceA7ProcessV
++ _symbolic _____ 19ExtensionFoundation08_ServiceA7ProcessV13ConfigurationV
++ _symbolic _____ 19ExtensionFoundation08_ServiceA7ProcessV5Inner33_B444E02B49700CE9F619AE54934FF0D0LLV
++ _symbolic _____ 19ExtensionFoundation08_ServiceA8IdentityV
++ _symbolic _____ 19ExtensionFoundation0A4MainC
++ _symbolic _____ 19ExtensionFoundation0A4TypeO
++ _symbolic _____ 19ExtensionFoundation15LaunchArgumentsV
++ _symbolic _____ 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____ 19ExtensionFoundation16ListenerDelegateC
++ _symbolic _____ 19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC
++ _symbolic _____ 19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetC
++ _symbolic _____ 19ExtensionFoundation16_EXServiceClientC8ObserverC
++ _symbolic _____ 19ExtensionFoundation16_QueryControllerC
++ _symbolic _____ 19ExtensionFoundation17ConnectionHandlerV
++ _symbolic _____ 19ExtensionFoundation23LocalLSDatabaseObserverC
++ _symbolic _____ 19ExtensionFoundation23LocalLSDatabaseObserverC0E0V
++ _symbolic _____ 19ExtensionFoundation23_AvailabilityControllerC
++ _symbolic _____ 19ExtensionFoundation25_EXExtensionProcessHandleC0D8ObserverC
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC13JobDescriptorV
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV
++ _symbolic _____ 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____ 19ExtensionFoundation7ServiceC14ObserverUpdateC
++ _symbolic _____ 19ExtensionFoundation7ServiceC21ObserverConfigurationC
++ _symbolic _____ 19ExtensionFoundation7ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC
++ _symbolic _____ 19ExtensionFoundation8PlatformO
++ _symbolic _____ So12_EXSceneRolea
++ _symbolic _____ So18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC
++ _symbolic _____ So18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV
++ _symbolic _____ So20LSExtensionPointTypeV
++ _symbolic _____ So22LSPersistentIdentifiera
++ _symbolic _____ So30_EXAppExtensionPointEnumeratorC0B10FoundationE0bC0C
++ _symbolic _____ So34LSApplicationExtensionUserElectionV
++ _symbolic _____ s12StaticStringV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s5UInt8V
++ _symbolic _____Iegn_ 10Foundation4UUIDV
++ _symbolic _____IeyBy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 19ExtensionFoundation03AppA5PointV7MonitorC5StateV
++ _symbolic _____Sg 19ExtensionFoundation03AppA7ProcessV
++ _symbolic _____Sg 19ExtensionFoundation03AppA8IdentityV
++ _symbolic _____Sg 19ExtensionFoundation15LaunchArgumentsV
++ _symbolic _____Sg 19ExtensionFoundation16ListenerDelegateC
++ _symbolic _____Sg 19ExtensionFoundation23LocalLSDatabaseObserverC0E0V
++ _symbolic _____Sg 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV
++ _symbolic _____Sg 3XPC11XPCListenerC
++ _symbolic _____Sg So18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 19ExtensionFoundation7ServiceC14ObserverUpdateC
++ _symbolic _____SgXw 19ExtensionFoundation03AppA5PointV7MonitorC
++ _symbolic _____Sg_ABt 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV
++ _symbolic _____Sg_ABt 7Network15NWApplicationIDV
++ _symbolic _____Sg______pSgIeggg_ 19ExtensionFoundation7ServiceC14ObserverUpdateC s5ErrorP
++ _symbolic _____Sg______pSgIegng_ 10Foundation4UUIDV s5ErrorP
++ _symbolic _____Sgz_Xx 19ExtensionFoundation03AppA5PointV7MonitorC5StateV
++ _symbolic _____Xo 19ExtensionFoundation010_EXRunningA0C
++ _symbolic _____Xo 19ExtensionFoundation16_EXServiceClientC06ActiveD5Query33_591406279EDD09BF7033B88E7B83DCFDLLC
++ _symbolic _____Xo 19ExtensionFoundation16_EXServiceClientC8ObserverC
++ _symbolic __________Ieggr_ 3XPC11XPCListenerC22IncomingSessionRequestC AE8DecisionV
++ _symbolic __________YbcSg 3XPC11XPCListenerC22IncomingSessionRequestC8DecisionV AE
++ _symbolic ________________pXj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 19ExtensionFoundation03AppC5PointV7MonitorC5StateV s5ErrorP
++ _symbolic ___________t 10Foundation4UUIDV So18_EXNSExtensionShimC09ExtensionA0E14ImplementationC7RequestV
++ _symbolic __________cSg 3XPC11XPCListenerC22IncomingSessionRequestC8DecisionV AE
++ _symbolic ______p 19ExtensionFoundation09_InnerAppA8IdentityP
++ _symbolic ______p 19ExtensionFoundation34EXDefaultImplementationXPCProtocolP
++ _symbolic ______p 19ExtensionFoundation7ServiceC16ObserverProtocolP
++ _symbolic ______p 19ExtensionFoundation7ServiceC22ObserverUpdateProtocolP
++ _symbolic ______pIgg_ So38BSServiceConnectionListenerConfiguringP
++ _symbolic ______pSg 19ExtensionFoundation09_InnerAppA8IdentityP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgz_Xx s5ErrorP
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySDySSypGG s23_ContiguousArrayStorageC
++ _symbolic _____ySJG s23_ContiguousArrayStorageC
++ _symbolic _____ySS10identifier______8platformtG s23_ContiguousArrayStorageC 19ExtensionFoundation8PlatformO
++ _symbolic _____ySSSDySSSDySSypGGG s18_DictionaryStorageC
++ _symbolic _____ySSSDySSypGG s18_DictionaryStorageC
++ _symbolic _____ySS_SDySSSDySSypGGtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SDySSypGtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_yXltG s23_ContiguousArrayStorageC
++ _symbolic _____ySSyXlG s18_DictionaryStorageC
++ _symbolic _____ySaySS10identifier______8platformtGG s16IndexingIteratorV 19ExtensionFoundation8PlatformO
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo20_EXExtensionIdentityC_G Sh5IndexV
++ _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation03AppC5PointV
++ _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation03AppC8IdentityV
++ _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation16_EXServiceClientC06ActiveF5Query33_591406279EDD09BF7033B88E7B83DCFDLLC
++ _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation23LocalLSDatabaseObserverC0G0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19ExtensionFoundation15LaunchArgumentsV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19ExtensionFoundation27_EXExtensionProcessIdentityC16JobConfigurationV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 19ExtensionFoundation27_EXExtensionProcessIdentityC5InnerV10CodingKeys33_D2FCF0381CAFFB8CF6AB845243C2FE04LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation03AppD15PointEnumeratorV0dG0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation03AppD5PointV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation03AppD5PointV7MonitorC18ObserverControllerC04WeakH033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation23LocalLSDatabaseObserverC0H0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation8PlatformO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So12_EXSceneRolea
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So22LSPersistentIdentifiera
++ _symbolic _____y_____So7NSErrorCGIegn_ s6ResultOsRi_zRi0_zrlE 19ExtensionFoundation04_AppB7ProcessV
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 09ExtensionC016_EXServiceClientC8ObserverC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 09ExtensionC016_EXServiceClientC8ObserverC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 09ExtensionC07ServiceC8Observer33_BA93CBAF03EEA85977F926DB446085C4LLC
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV So18_EXNSExtensionShimC09ExtensionC0E14ImplementationC7RequestV
++ _symbolic _____y__________G s18_DictionaryStorageC 19ExtensionFoundation03AppC5PointV7MonitorC8IdentityV AG18ObserverControllerC0I033_5D985BB42A36A6D664ED77CA96129115LLV
++ _symbolic _____y___________p_G Scs12ContinuationV 19ExtensionFoundation03AppB5PointV7MonitorC5StateV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 19ExtensionFoundation03AppD5PointV7MonitorC5StateV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 19ExtensionFoundation03AppD5PointV7MonitorC5StateV s5ErrorP
++ _symbolic _____y__________ycG s18_DictionaryStorageC 19ExtensionFoundation0C4TypeO AC010_EXRunningC0C
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 19ExtensionFoundation09_InnerAppD8IdentityP
++ _symbolic _____yyXlXpG s23_ContiguousArrayStorageC
++ _symbolic _____z_Xx So18_EXNSExtensionShimC19ExtensionFoundationE14ImplementationC7RequestV
++ _symbolic q_
++ _symbolic qd__
++ _symbolic ySaySo20_EXExtensionIdentityCGc
++ _symbolic yXlIego_
++ _symbolic yXlSg
++ _symbolic yXlXp
++ _symbolic yXlXpSg
++ _symbolic y______SayypGSgtc 10Foundation4UUIDV
++ _symbolic y____________pSgtc 10Foundation4UUIDV s5ErrorP
++ _symbolic y_____c 10Foundation4UUIDV
++ _symbolic ytIeAgHr_
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _type_layout_string 19ExtensionFoundation03AppA15PointEnumeratorV
++ _type_layout_string 19ExtensionFoundation03AppA15PointEnumeratorV0aD0V
++ _type_layout_string 19ExtensionFoundation03AppA15PointEnumeratorV8IteratorV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV10IdentifierV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV13UserInterfaceV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV4NameV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV5ErrorO
++ _type_layout_string 19ExtensionFoundation03AppA5PointV5ScopeV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC04WeakE033_5D985BB42A36A6D664ED77CA96129115LLV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV7MonitorC18ObserverControllerC0F033_5D985BB42A36A6D664ED77CA96129115LLV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV7MonitorC5StateV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV7MonitorC7OptionsV
++ _type_layout_string 19ExtensionFoundation03AppA5PointV7MonitorC8IdentityV
++ _type_layout_string 19ExtensionFoundation03AppA8IdentityV06RecordD0V
++ _type_layout_string 19ExtensionFoundation03AppA8IdentityV16_MatchingOptionsV
++ _type_layout_string 19ExtensionFoundation04_AppA7ProcessV
++ _type_layout_string 19ExtensionFoundation04_AppA8IdentityV
++ _type_layout_string 19ExtensionFoundation08_ServiceA8IdentityV
++ _type_layout_string 19ExtensionFoundation15LaunchArgumentsV
++ _type_layout_string 19ExtensionFoundation17ConnectionHandlerV
++ _type_layout_string So12_EXSceneRolea
++ _type_layout_string So22LSPersistentIdentifiera
+- +[_EXExtensionIdentity allocWithZone:]
+- +[_EXExtensionIdentity disableExtension:error:]
+- +[_EXExtensionIdentity enableExtension:error:]
+- +[_EXExtensionIdentity supportsSecureCoding]
+- +[_EXExtensionRecordIdentity supportsSecureCoding]
+- +[_EXExtensionValueIdentity supportsSecureCoding]
+- +[_EXRunningExtension entryPointFunction]
+- +[_EXRunningExtension entryPointFunction].cold.1
+- +[_EXRunningExtension sharedInstance]
+- +[_EXRunningExtension sharedInstance].cold.1
+- -[EXExtensionPointEnumerator nextObject].cold.2
+- -[_EXExtension configuration]
+- -[_EXExtension internalRep]
+- -[_EXExtension setInternalRep:]
+- -[_EXExtensionIdentity .cxx_destruct]
+- -[_EXExtensionIdentity _init]
+- -[_EXExtensionIdentity alternateSandboxProfileNames]
+- -[_EXExtensionIdentity canDisable]
+- -[_EXExtensionIdentity configuration]
+- -[_EXExtensionIdentity description]
+- -[_EXExtensionIdentity developerName]
+- -[_EXExtensionIdentity disableLaunchdCheckinTimeout]
+- -[_EXExtensionIdentity enabled]
+- -[_EXExtensionIdentity enablementState]
+- -[_EXExtensionIdentity encodeWithCoder:]
+- -[_EXExtensionIdentity entitlementNamed:ofClass:]
+- -[_EXExtensionIdentity executableURL]
+- -[_EXExtensionIdentity extensionContextClass]
+- -[_EXExtensionIdentity extensionContextClass].cold.1
+- -[_EXExtensionIdentity hasSandboxEntitlement]
+- -[_EXExtensionIdentity hash]
+- -[_EXExtensionIdentity hostContextClass]
+- -[_EXExtensionIdentity icon]
+- -[_EXExtensionIdentity initWithApplicationExtensionRecord:]
+- -[_EXExtensionIdentity initWithCoder:]
+- -[_EXExtensionIdentity initWithPlugInKitProxy:]
+- -[_EXExtensionIdentity initWithServiceIdentifier:error:]
+- -[_EXExtensionIdentity initWithServiceIdentifier:error:].cold.1
+- -[_EXExtensionIdentity isEqual:]
+- -[_EXExtensionIdentity isEqualToExtension:]
+- -[_EXExtensionIdentity isSystemComponent]
+- -[_EXExtensionIdentity lauchThrottlePolicy]
+- -[_EXExtensionIdentity launchesViaExtensionKitService]
+- -[_EXExtensionIdentity makeXPCConnectionWithError:]
+- -[_EXExtensionIdentity makeXPCConnectionWithError:].cold.1
+- -[_EXExtensionIdentity makeXPCConnectionWithError:].cold.2
+- -[_EXExtensionIdentity nsExtensionAttributes]
+- -[_EXExtensionIdentity performsUserInteractiveWork]
+- -[_EXExtensionIdentity requiresHostToBeContainerApp]
+- -[_EXExtensionIdentity requiresLegacyInfrastructure]
+- -[_EXExtensionIdentity requiresMultiInstance]
+- -[_EXExtensionIdentity requiresSceneHosting]
+- -[_EXExtensionIdentity requiresUIKitSceneHosting]
+- -[_EXExtensionIdentity roles]
+- -[_EXExtensionIdentity sandboxProfileName]
+- -[_EXExtensionIdentity showsInExtensionsManager]
+- -[_EXExtensionIdentity spotlightImporterIdentifiers]
+- -[_EXExtensionIdentity spotlightIndexable]
+- -[_EXExtensionIdentity targetsSystemExtensionPoint]
+- -[_EXExtensionIdentity unelected]
+- -[_EXExtensionIdentity uniqueIdentifier]
+- -[_EXExtensionIdentity(Configuration) connectionHandlerClass]
+- -[_EXExtensionIdentity(Configuration) connectionHandlerClass].cold.1
+- -[_EXExtensionIdentity(Configuration) connectionHandlerClass].cold.2
+- -[_EXExtensionIdentity(Configuration) extensionClass]
+- -[_EXExtensionIdentity(Configuration) extensionPointConfiguration]
+- -[_EXExtensionIdentity(Configuration) internalServiceName]
+- -[_EXExtensionIdentity(Configuration) presentsUserInterface]
+- -[_EXExtensionIdentity(Configuration) principalClass]
+- -[_EXExtensionIdentity(Configuration) requiredHostEntitlements]
+- -[_EXExtensionIdentity(Configuration) requiresFBSceneHosting]
+- -[_EXExtensionIdentity(Configuration) requiresLibXPCConnection]
+- -[_EXExtensionIdentity(Configuration) requiresNetworkAttribution]
+- -[_EXExtensionIdentity(Configuration) requiresUIKitSceneHosting]
+- -[_EXExtensionIdentity(Configuration) serviceName]
+- -[_EXExtensionIdentity(Configuration) supportsNSExtensionPlistKeys]
+- -[_EXExtensionIdentity(Configuration) type]
+- -[_EXExtensionIdentity(Overlay) _executableURLWithError:]
+- -[_EXExtensionIdentity(Overlay) _executableURLWithError:].cold.1
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:]
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:].cold.1
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:].cold.2
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:].cold.3
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:].cold.4
+- -[_EXExtensionIdentity(Overlay) xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:].cold.5
+- -[_EXExtensionRecordIdentity .cxx_destruct]
+- -[_EXExtensionRecordIdentity UUID]
+- -[_EXExtensionRecordIdentity applicationExtensionRecord]
+- -[_EXExtensionRecordIdentity attributes]
+- -[_EXExtensionRecordIdentity bundleIdentifier]
+- -[_EXExtensionRecordIdentity bundleVersion]
+- -[_EXExtensionRecordIdentity classForCoder]
+- -[_EXExtensionRecordIdentity containingBundleRecord]
+- -[_EXExtensionRecordIdentity containingURL]
+- -[_EXExtensionRecordIdentity defaultUserElection]
+- -[_EXExtensionRecordIdentity developerName]
+- -[_EXExtensionRecordIdentity entitlementNamed:ofClass:]
+- -[_EXExtensionRecordIdentity entitlements]
+- -[_EXExtensionRecordIdentity extensionDictionary]
+- -[_EXExtensionRecordIdentity extensionPointIdentifier]
+- -[_EXExtensionRecordIdentity extensionPoint]
+- -[_EXExtensionRecordIdentity extensionSettingsKey]
+- -[_EXExtensionRecordIdentity initWithApplicationExtensionRecord:]
+- -[_EXExtensionRecordIdentity initWithCoder:]
+- -[_EXExtensionRecordIdentity initWithPlugInKitProxy:]
+- -[_EXExtensionRecordIdentity isSystemComponent]
+- -[_EXExtensionRecordIdentity localizedName]
+- -[_EXExtensionRecordIdentity platform]
+- -[_EXExtensionRecordIdentity record]
+- -[_EXExtensionRecordIdentity sdkDictionary]
+- -[_EXExtensionRecordIdentity setUserElection:error:]
+- -[_EXExtensionRecordIdentity url]
+- -[_EXExtensionRecordIdentity userElection]
+- -[_EXExtensionValueIdentity .cxx_destruct]
+- -[_EXExtensionValueIdentity UUID]
+- -[_EXExtensionValueIdentity applicationExtensionRecord]
+- -[_EXExtensionValueIdentity attributes]
+- -[_EXExtensionValueIdentity bundleIdentifier]
+- -[_EXExtensionValueIdentity bundleVersion]
+- -[_EXExtensionValueIdentity containingBundleRecord]
+- -[_EXExtensionValueIdentity containingURL]
+- -[_EXExtensionValueIdentity defaultUserElection]
+- -[_EXExtensionValueIdentity developerName]
+- -[_EXExtensionValueIdentity entitlementNamed:ofClass:]
+- -[_EXExtensionValueIdentity entitlements]
+- -[_EXExtensionValueIdentity extensionDictionary]
+- -[_EXExtensionValueIdentity extensionPointIdentifier]
+- -[_EXExtensionValueIdentity initWithCoder:]
+- -[_EXExtensionValueIdentity isSystemComponent]
+- -[_EXExtensionValueIdentity localizedName]
+- -[_EXExtensionValueIdentity platform]
+- -[_EXExtensionValueIdentity sdkDictionary]
+- -[_EXExtensionValueIdentity url]
+- -[_EXExtensionValueIdentity userElection]
+- -[_EXRunningExtension .cxx_destruct]
+- -[_EXRunningExtension _startWithArguments:count:]
+- -[_EXRunningExtension _startWithArguments:count:].cold.1
+- -[_EXRunningExtension _startWithArguments:count:].cold.2
+- -[_EXRunningExtension _startWithArguments:count:].cold.3
+- -[_EXRunningExtension _startWithArguments:count:].cold.4
+- -[_EXRunningExtension _startWithArguments:count:].cold.5
+- -[_EXRunningExtension _startWithArguments:count:].cold.6
+- -[_EXRunningExtension _startWithArguments:count:].cold.7
+- -[_EXRunningExtension _startWithArguments:count:].cold.8
+- -[_EXRunningExtension _startWithArguments:count:].cold.9
+- -[_EXRunningExtension checkIn]
+- -[_EXRunningExtension checkIn].cold.1
+- -[_EXRunningExtension didFinishLaunching]
+- -[_EXRunningExtension didFinishLaunching].cold.1
+- -[_EXRunningExtension extensionIdentity]
+- -[_EXRunningExtension extension]
+- -[_EXRunningExtension hostAuditToken]
+- -[_EXRunningExtension listener:didReceiveConnection:withContext:]
+- -[_EXRunningExtension listener:shouldAcceptNewConnection:]
+- -[_EXRunningExtension resume]
+- -[_EXRunningExtension setExtension:]
+- -[_EXRunningExtension shouldAcceptXPCConnection:]
+- -[_EXRunningExtension shouldAcceptXPCConnection:].cold.1
+- -[_EXRunningExtension signpost]
+- -[_EXRunningExtension startWithArguments:count:]
+- -[_EXRunningExtension startWithArguments:count:].cold.1
+- -[_EXRunningExtension willFinishLaunching]
+- -[_EXRunningExtension willFinishLaunching].cold.1
+- -[_EXSceneSession dealloc].cold.1
+- GCC_except_table106
+- GCC_except_table122
+- GCC_except_table2
+- GCC_except_table204
+- GCC_except_table206
+- GCC_except_table208
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table43
+- GCC_except_table56
+- GCC_except_table58
+- GCC_except_table68
+- GCC_except_table71
+- GCC_except_table73
+- GCC_except_table79
+- GCC_except_table80
+- GCC_except_table85
+- _ExtensionKitLibrary
+- _ExtensionKitLibraryCore.frameworkLibrary
+- _IconServicesLibraryCore.frameworkLibrary
+- _OBJC_CLASS_$__EXExtensionRecordIdentity
+- _OBJC_CLASS_$__EXExtensionValueIdentity
+- _OBJC_CLASS_$__EXRunningExtension
+- _OBJC_CLASS_$__EXRunningLibXPCServiceExtension
+- _OBJC_IVAR_$__EXExtension._internalRep
+- _OBJC_IVAR_$__EXExtensionIdentity._developerName
+- _OBJC_IVAR_$__EXExtensionIdentity._requiresUIKitSceneHosting
+- _OBJC_IVAR_$__EXExtensionIdentity._systemComponent
+- _OBJC_IVAR_$__EXExtensionRecordIdentity._extensionPoint
+- _OBJC_IVAR_$__EXExtensionRecordIdentity._record
+- _OBJC_IVAR_$__EXExtensionValueIdentity._UUID
+- _OBJC_IVAR_$__EXExtensionValueIdentity._attributes
+- _OBJC_IVAR_$__EXExtensionValueIdentity._bundleIdentifier
+- _OBJC_IVAR_$__EXExtensionValueIdentity._bundleVersion
+- _OBJC_IVAR_$__EXExtensionValueIdentity._containingBundleRecord
+- _OBJC_IVAR_$__EXExtensionValueIdentity._containingURL
+- _OBJC_IVAR_$__EXExtensionValueIdentity._defaultUserElection
+- _OBJC_IVAR_$__EXExtensionValueIdentity._developerName
+- _OBJC_IVAR_$__EXExtensionValueIdentity._entitlements
+- _OBJC_IVAR_$__EXExtensionValueIdentity._extensionDictionary
+- _OBJC_IVAR_$__EXExtensionValueIdentity._extensionPointIdentifier
+- _OBJC_IVAR_$__EXExtensionValueIdentity._localizedName
+- _OBJC_IVAR_$__EXExtensionValueIdentity._platform
+- _OBJC_IVAR_$__EXExtensionValueIdentity._sdkDictionary
+- _OBJC_IVAR_$__EXExtensionValueIdentity._systemComponent
+- _OBJC_IVAR_$__EXExtensionValueIdentity._url
+- _OBJC_IVAR_$__EXExtensionValueIdentity._userElection
+- _OBJC_IVAR_$__EXRunningExtension._extension
+- _OBJC_IVAR_$__EXRunningExtension._extensionIdentity
+- _OBJC_IVAR_$__EXRunningExtension._hostAuditToken
+- _OBJC_IVAR_$__EXRunningExtension._signpost
+- _OBJC_METACLASS_$__EXExtensionRecordIdentity
+- _OBJC_METACLASS_$__EXExtensionValueIdentity
+- _OBJC_METACLASS_$__EXRunningExtension
+- _OBJC_METACLASS_$__EXRunningLibXPCServiceExtension
+- _OBJC_METACLASS_$__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- _OBJC_METACLASS_$__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- _OBJC_METACLASS_$__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- _OBJC_METACLASS_$__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __DATA__EXRunningLibXPCServiceExtension
+- __DATA__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __DATA__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __DATA__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- __DATA__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __DATA__TtCC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery24ServiceClientObserverSet
+- __EXExtractRequiredHostEntitlements
+- __INSTANCE_METHODS__EXRunningLibXPCServiceExtension
+- __INSTANCE_METHODS__EXServiceClient
+- __INSTANCE_METHODS__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __INSTANCE_METHODS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __INSTANCE_METHODS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- __INSTANCE_METHODS__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __IVARS__EXRunningLibXPCServiceExtension
+- __IVARS__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __IVARS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __IVARS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- __IVARS__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __IVARS__TtCC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery24ServiceClientObserverSet
+- __METACLASS_DATA__EXRunningLibXPCServiceExtension
+- __METACLASS_DATA__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __METACLASS_DATA__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __METACLASS_DATA__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- __METACLASS_DATA__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __METACLASS_DATA__TtCC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery24ServiceClientObserverSet
+- __OBJC_$_CLASS_METHODS__EXExtensionIdentity
+- __OBJC_$_CLASS_METHODS__EXExtensionRecordIdentity
+- __OBJC_$_CLASS_METHODS__EXExtensionValueIdentity
+- __OBJC_$_CLASS_METHODS__EXRunningExtension
+- __OBJC_$_CLASS_PROP_LIST__EXExtensionIdentity
+- __OBJC_$_INSTANCE_METHODS__EXExtensionIdentity(Configuration|Overlay)
+- __OBJC_$_INSTANCE_METHODS__EXExtensionProcess(ExtensionFoundation)
+- __OBJC_$_INSTANCE_METHODS__EXExtensionRecordIdentity
+- __OBJC_$_INSTANCE_METHODS__EXExtensionValueIdentity
+- __OBJC_$_INSTANCE_METHODS__EXRunningExtension
+- __OBJC_$_INSTANCE_METHODS__TtC19ExtensionFoundation7Service(ExtensionFoundation|ExtensionFoundation1)
+- __OBJC_$_INSTANCE_VARIABLES__EXExtensionIdentity
+- __OBJC_$_INSTANCE_VARIABLES__EXExtensionRecordIdentity
+- __OBJC_$_INSTANCE_VARIABLES__EXExtensionValueIdentity
+- __OBJC_$_INSTANCE_VARIABLES__EXRunningExtension
+- __OBJC_$_PROP_LIST_EXEnumeratorConfig.283
+- __OBJC_$_PROP_LIST__EXExtensionConfigurationProviding
+- __OBJC_$_PROP_LIST__EXExtensionPointConfigurationProviding
+- __OBJC_$_PROP_LIST__EXExtensionRecordIdentity
+- __OBJC_$_PROP_LIST__EXRunningExtension
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__EXExtensionConfigurationProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__EXExtensionPointConfigurationProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES__EXExtensionConfigurationProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES__EXExtensionPointConfigurationProviding
+- __OBJC_$_PROTOCOL_REFS__EXExtensionConfigurationProviding
+- __OBJC_$_PROTOCOL_REFS__EXExtensionPointConfigurationProviding
+- __OBJC_CLASS_PROTOCOLS_$__EXExtensionIdentity(Configuration|Overlay)
+- __OBJC_CLASS_PROTOCOLS_$__EXRunningExtension
+- __OBJC_CLASS_PROTOCOLS_$__TtC19ExtensionFoundation7Service(ExtensionFoundation|ExtensionFoundation1)
+- __OBJC_CLASS_RO_$__EXExtensionIdentity
+- __OBJC_CLASS_RO_$__EXExtensionRecordIdentity
+- __OBJC_CLASS_RO_$__EXExtensionValueIdentity
+- __OBJC_CLASS_RO_$__EXRunningExtension
+- __OBJC_LABEL_PROTOCOL_$__EXExtensionConfigurationProviding
+- __OBJC_LABEL_PROTOCOL_$__EXExtensionPointConfigurationProviding
+- __OBJC_METACLASS_RO_$__EXExtensionIdentity
+- __OBJC_METACLASS_RO_$__EXExtensionRecordIdentity
+- __OBJC_METACLASS_RO_$__EXExtensionValueIdentity
+- __OBJC_METACLASS_RO_$__EXRunningExtension
+- __OBJC_PROTOCOL_$__EXExtensionConfigurationProviding
+- __OBJC_PROTOCOL_$__EXExtensionPointConfigurationProviding
+- __PROPERTIES__EXRunningLibXPCServiceExtension
+- __PROPERTIES__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __PROPERTIES__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __PROTOCOLS__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery
+- __PROTOCOLS__TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery.2
+- __PROTOCOLS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController
+- __PROTOCOLS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController.44
+- __PROTOCOLS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController
+- __PROTOCOLS__TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController.49
+- __PROTOCOLS__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver
+- __PROTOCOLS__TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver.11
+- ___29-[_EXRunningExtension resume]_block_invoke
+- ___29-[_EXRunningExtension resume]_block_invoke_2
+- ___37+[_EXRunningExtension sharedInstance]_block_invoke
+- ___37+[_EXRunningExtension sharedInstance]_block_invoke.cold.1
+- ___37+[_EXRunningExtension sharedInstance]_block_invoke.cold.2
+- ___37+[_EXRunningExtension sharedInstance]_block_invoke.cold.3
+- ___38+[_EXExtensionIdentity allocWithZone:]_block_invoke
+- ___41+[_EXRunningExtension entryPointFunction]_block_invoke
+- ___41+[_EXRunningExtension entryPointFunction]_block_invoke.cold.1
+- ___41+[_EXRunningExtension entryPointFunction]_block_invoke.cold.2
+- ___41+[_EXRunningExtension entryPointFunction]_block_invoke.cold.3
+- ___51-[EXOSExtensionEnumerator initWithCacheURLs:paths:]_block_invoke.405
+- ___65-[_EXRunningExtension listener:didReceiveConnection:withContext:]_block_invoke
+- ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.389
+- ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.389.cold.1
+- ___EXConcreteExtensionTearDownRequestWithIdentifier_block_invoke.389.cold.2
+- ___ExtensionKitLibraryCore_block_invoke
+- ___IconServicesLibraryCore_block_invoke
+- ___block_descriptor_32_e40_v16?0"<BSNSXPCConnectionConfiguring>"8l
+- ___block_descriptor_40_e8_32w_e50_v16?0"<BSServiceConnectionListenerConfiguring>"8lw32l8
+- ___block_literal_global.146
+- ___block_literal_global.196
+- ___block_literal_global.209
+- ___block_literal_global.246
+- ___block_literal_global.38
+- ___block_literal_global.387
+- ___block_literal_global.407
+- ___block_literal_global.408
+- ___block_literal_global.409
+- ___block_literal_global.413
+- ___block_literal_global.427
+- ___getISIconClass_block_invoke
+- ___getISIconClass_block_invoke.cold.1
+- ___get_EXRunningUIKitSceneHostedExtensionClass_block_invoke
+- ___get_EXRunningUIKitSceneHostedExtensionClass_block_invoke.cold.1
+- ___get_EXRunningUISceneExtensionClass_block_invoke
+- ___get_EXRunningUISceneExtensionClass_block_invoke.cold.1
+- ___get_EXRunningUIViewServiceExtensionClass_block_invoke
+- ___get_EXRunningUIViewServiceExtensionClass_block_invoke.cold.1
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_ExtensionFoundation
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_ExtensionFoundation
+- _abort_with_reason
+- _audit_stringExtensionKit
+- _audit_stringIconServices
+- _block_copy_helper.11
+- _block_copy_helper.112
+- _block_copy_helper.118
+- _block_copy_helper.124
+- _block_copy_helper.127
+- _block_copy_helper.133
+- _block_copy_helper.137
+- _block_copy_helper.140
+- _block_copy_helper.144
+- _block_copy_helper.148
+- _block_copy_helper.151
+- _block_copy_helper.155
+- _block_copy_helper.159
+- _block_copy_helper.162
+- _block_copy_helper.165
+- _block_copy_helper.17
+- _block_copy_helper.171
+- _block_copy_helper.175
+- _block_copy_helper.26
+- _block_copy_helper.29
+- _block_copy_helper.3
+- _block_copy_helper.39
+- _block_copy_helper.43
+- _block_copy_helper.45
+- _block_copy_helper.49
+- _block_copy_helper.51
+- _block_copy_helper.52
+- _block_copy_helper.55
+- _block_copy_helper.59
+- _block_copy_helper.61
+- _block_copy_helper.64
+- _block_copy_helper.67
+- _block_copy_helper.68
+- _block_copy_helper.74
+- _block_copy_helper.86
+- _block_copy_helper.92
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.114
+- _block_descriptor.120
+- _block_descriptor.126
+- _block_descriptor.129
+- _block_descriptor.13
+- _block_descriptor.135
+- _block_descriptor.139
+- _block_descriptor.142
+- _block_descriptor.146
+- _block_descriptor.150
+- _block_descriptor.153
+- _block_descriptor.157
+- _block_descriptor.161
+- _block_descriptor.164
+- _block_descriptor.167
+- _block_descriptor.173
+- _block_descriptor.177
+- _block_descriptor.19
+- _block_descriptor.28
+- _block_descriptor.31
+- _block_descriptor.41
+- _block_descriptor.45
+- _block_descriptor.47
+- _block_descriptor.5
+- _block_descriptor.51
+- _block_descriptor.53
+- _block_descriptor.54
+- _block_descriptor.57
+- _block_descriptor.61
+- _block_descriptor.63
+- _block_descriptor.66
+- _block_descriptor.69
+- _block_descriptor.70
+- _block_descriptor.76
+- _block_descriptor.88
+- _block_descriptor.94
+- _block_destroy_helper.113
+- _block_destroy_helper.119
+- _block_destroy_helper.12
+- _block_destroy_helper.125
+- _block_destroy_helper.128
+- _block_destroy_helper.134
+- _block_destroy_helper.138
+- _block_destroy_helper.141
+- _block_destroy_helper.145
+- _block_destroy_helper.149
+- _block_destroy_helper.152
+- _block_destroy_helper.156
+- _block_destroy_helper.160
+- _block_destroy_helper.163
+- _block_destroy_helper.166
+- _block_destroy_helper.172
+- _block_destroy_helper.176
+- _block_destroy_helper.18
+- _block_destroy_helper.27
+- _block_destroy_helper.30
+- _block_destroy_helper.4
+- _block_destroy_helper.40
+- _block_destroy_helper.44
+- _block_destroy_helper.46
+- _block_destroy_helper.50
+- _block_destroy_helper.52
+- _block_destroy_helper.53
+- _block_destroy_helper.56
+- _block_destroy_helper.60
+- _block_destroy_helper.62
+- _block_destroy_helper.65
+- _block_destroy_helper.68
+- _block_destroy_helper.69
+- _block_destroy_helper.75
+- _block_destroy_helper.87
+- _block_destroy_helper.93
+- _block_destroy_helper.99
+- _entryPointFunction.mainFunction
+- _entryPointFunction.onceToken
+- _getISIconClass.softClass
+- _get_EXRunningUIKitSceneHostedExtensionClass
+- _get_EXRunningUIKitSceneHostedExtensionClass.softClass
+- _get_EXRunningUISceneExtensionClass
+- _get_EXRunningUISceneExtensionClass.softClass
+- _get_EXRunningUIViewServiceExtensionClass
+- _get_EXRunningUIViewServiceExtensionClass.softClass
+- _objc_msgSend$JSONObjectWithData:options:error:
+- _objc_msgSend$_startWithArguments:count:
+- _objc_msgSend$activateXPCService
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$alwaysEnabledExtensionBundleIdentifiers
+- _objc_msgSend$applicationExtensionRecord
+- _objc_msgSend$applicationExtensionRecords
+- _objc_msgSend$checkIn
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$containingURL
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$decodeBoolForKey:
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$defaultSandboxProfileName
+- _objc_msgSend$defaultUserElection
+- _objc_msgSend$developerName
+- _objc_msgSend$developerType
+- _objc_msgSend$didFinishLaunching
+- _objc_msgSend$disableLaunchdCheckinTimeout
+- _objc_msgSend$enablementState
+- _objc_msgSend$encodeBool:forKey:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$entitlementNamed:ofClass:
+- _objc_msgSend$entitlements
+- _objc_msgSend$entryPointFunction
+- _objc_msgSend$environment
+- _objc_msgSend$extensionClass
+- _objc_msgSend$extensionDictionary
+- _objc_msgSend$extensionIdentity
+- _objc_msgSend$extensionPoint
+- _objc_msgSend$extensionPointConfiguration
+- _objc_msgSend$extensionPointDefinitionEnumerator
+- _objc_msgSend$extensionProcessWithConfiguration:error:
+- _objc_msgSend$extensionSettingsKey
+- _objc_msgSend$extractNSXPCConnectionWithConfigurator:
+- _objc_msgSend$forceSandbox
+- _objc_msgSend$hasSandboxEntitlement
+- _objc_msgSend$hostAuditToken
+- _objc_msgSend$hostRequiresEntitlements
+- _objc_msgSend$inProcessLaunch
+- _objc_msgSend$initWithBundleIdentifier:
+- _objc_msgSend$initWithBundleIdentifier:requireValid:platform:error:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithPersistentIdentifier:
+- _objc_msgSend$initWithPlugInKitProxy:
+- _objc_msgSend$initWithUTF8String:
+- _objc_msgSend$internalRep
+- _objc_msgSend$isEqualToExtension:
+- _objc_msgSend$isSystemComponent
+- _objc_msgSend$lauchThrottlePolicy
+- _objc_msgSend$launchesViaExtensionKitService
+- _objc_msgSend$listenerWithConfigurator:
+- _objc_msgSend$loadDelegate
+- _objc_msgSend$newXPCConnectionWithError:
+- _objc_msgSend$notifyExtensionMainCalled
+- _objc_msgSend$performsUserInteractiveWork
+- _objc_msgSend$persistentIdentifier
+- _objc_msgSend$pluginUUID
+- _objc_msgSend$record
+- _objc_msgSend$requiresFBSceneHosting
+- _objc_msgSend$requiresHostToBeContainerApp
+- _objc_msgSend$requiresLibXPCConnection
+- _objc_msgSend$requiresUIKitSceneHosting
+- _objc_msgSend$sdkDictionary
+- _objc_msgSend$serviceName
+- _objc_msgSend$setActivateOnResume
+- _objc_msgSend$setExtensionIdentity:
+- _objc_msgSend$setFaultOnSuspend
+- _objc_msgSend$setHasSwiftEntryPoint:
+- _objc_msgSend$setInternalRep:
+- _objc_msgSend$setService:
+- _objc_msgSend$setUserElection:error:
+- _objc_msgSend$setUserElection:forExtensionKey:error:
+- _objc_msgSend$startWithArguments:count:
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$supportsNSExtensionPlistKeys
+- _objc_msgSend$targetsSystemExtensionPoint
+- _objc_msgSend$teamIdentifier
+- _objc_msgSend$type
+- _objc_msgSend$uniqueIdentifier
+- _objc_msgSend$userElectionForExtensionKey:
+- _objc_msgSend$willFinishLaunching
+- _objectdestroy.33Tm
+- _objectdestroy.58Tm
+- _objectdestroy.90Tm
+- _sharedInstance.runningExtension
+- _symbolic Shy_____G 19ExtensionFoundation04_AppA5PointV
+- _symbolic Shy_____G 19ExtensionFoundation20_EXActiveClientQuery33_591406279EDD09BF7033B88E7B83DCFDLLC
+- _symbolic So19_EXRunningExtensionC
+- _symbolic _____ 19ExtensionFoundation16_QueryController33_CDD6639443F09112848BD34A3597427CLLC
+- _symbolic _____ 19ExtensionFoundation19_EXExtensionProcessC
+- _symbolic _____ 19ExtensionFoundation19_EXExtensionProcessC0D8Observer33_2DB9D1F412467A20BF3CD4E75CD25417LLC
+- _symbolic _____ 19ExtensionFoundation20_EXActiveClientQuery33_591406279EDD09BF7033B88E7B83DCFDLLC
+- _symbolic _____ 19ExtensionFoundation20_EXActiveClientQuery33_591406279EDD09BF7033B88E7B83DCFDLLC07ServiceD11ObserverSetC
+- _symbolic _____ 19ExtensionFoundation23_AvailabilityController33_CDD6639443F09112848BD34A3597427CLLC
+- _symbolic _____SgSo7NSErrorCSgIeggg_ 19ExtensionFoundation19_EXExtensionProcessC
+- _symbolic _____SgSo7NSErrorCSgIeyByy_ 19ExtensionFoundation19_EXExtensionProcessC
+- _symbolic _____Xo 19ExtensionFoundation20_EXActiveClientQuery33_591406279EDD09BF7033B88E7B83DCFDLLC
+- _symbolic _____ySo20_EXExtensionIdentityCG s20CollectionDifferenceV
+- _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation04_AppC5PointV
+- _symbolic _____y_____G s11_SetStorageC 19ExtensionFoundation20_EXActiveClientQuery33_591406279EDD09BF7033B88E7B83DCFDLLC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 19ExtensionFoundation04_AppD5PointV
+- _symbolic _____y_____So7NSErrorCGIegn_ s6ResultOsRi_zrlE 19ExtensionFoundation04_AppB7ProcessV
+- _symbolic ySaySo20_EXExtensionIdentityCG______yABGtc s20CollectionDifferenceV
+- _symbolic y______pcSg So13OS_xpc_objectP
+CStrings:
++ "$__lazy_storage_$_bsConnectionListenerDelegate"
++ "$defaultActor"
++ "%s Accessing state"
++ "%s Updating state: %s"
++ "%s init"
++ "%s update identity: %s"
++ "%{public}s Overriding sandbox profile name: `%{public}s`"
++ "-LaunchArguments"
++ ".allowsDuplicates"
++ ".excludeLockedApps"
++ ".includePostprocessing"
++ ".includeUpdatingApps"
++ "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/EXConnectionHandlerExtension.m"
++ "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Shim/EXNSExtensionContextShimImplementation.m"
++ "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Shim/EXNSExtensionShimExtension.m"
++ "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/NSExtension/NSExtensionSupport/EXExtensionContext.m"
++ "/System/Library/PrivateFrameworks/IconServices.framework/IconServices"
++ "1"
++ "<AppExtensionPoint - "
++ "<State - IDENTIIES: "
++ "@\"<NSExtensionRequestHandling>\""
++ "@\"<RBSExtensionIdentityProtocol>\"32@0:8@\"NSData\"16o^@24"
++ "@\"<_EXNSExtensionShimImplementation>\""
++ "@\"<_EXNSExtensionShimImplementation>\"16@0:8"
++ "@\"NSData\"16@0:8"
++ "@\"NSUUID\"32@0:8@\"EXExtensionRequest\"16^@24"
++ "@\"RBSLaunchdJobDescriptor\"32@0:8@\"RBSProcessIdentity\"16o^@24"
++ "@32@0:8@16o^@24"
++ "Active query observer added: %@"
++ "Active query removed: %@"
++ "AppExensionPoint.Monitor doing IN process discovery"
++ "AppExensionPoint.Monitor doing OUT-OF process discovery"
++ "Assertion not returned by launch request"
++ "B40@0:8@16@24^@32"
++ "BSServiceConnectionListenerConfiguring"
++ "Begin observer failed with error: %{public}@"
++ "CheckedAllocations"
++ "Connection handler class unspecified."
++ "Creating connection for extension: %{public}s"
++ "DefinedExtensionPoints"
++ "EXConnectionHandlerClass must conform to `_EXConnectionHandler`."
++ "EXExtensionContextClass not defined or invalid type"
++ "EXExtensionGroupIdentifier"
++ "EXForceCheckedAllocations"
++ "EXPlaceholderExtensionPoint"
++ "EXRequiresEnhancedSecurity"
++ "EXRequiresPerHostEnablement"
++ "EXRequiresUrgentCheckedAllocationsLogSubmission"
++ "EnableCheckedAllocations"
++ "Error sending update %{public}@"
++ "Extension %{public}s is disabled"
++ "Extension %{public}s is enabled"
++ "Extension %{public}s is unelected"
++ "Extension Type: '%s' : %@"
++ "Extension not found with bundle ID: "
++ "Extension point '%{public}s' requires no entitlements."
++ "Extension: %{public}s must be contained in host app. hostIsContainer: %{bool}d"
++ "ExtensionFoundation"
++ "ExtensionFoundation.ActiveClientQuery"
++ "ExtensionFoundation.ExtensionPoint"
++ "ExtensionFoundation.Implementation"
++ "ExtensionFoundation.ListenerDelegate"
++ "ExtensionFoundation.Observer"
++ "ExtensionFoundation.ObserverConfiguration"
++ "ExtensionFoundation.ObserverUpdate"
++ "ExtensionFoundation._EXExtensionProcessIdentity"
++ "ExtensionFoundation/AppExtensionIdentity.swift"
++ "ExtensionFoundation/EXExtensionIdentity.swift"
++ "ExtensionFoundation/EXNSExtensionContextShim.swift"
++ "ExtensionFoundation/EXRunningExtension.swift"
++ "ExtensionFoundation/EXRunningLibXPCServiceExtension.swift"
++ "ExtensionFoundation/LaunchConfiguration.swift"
++ "ExtensionFoundation/Monitor.swift"
++ "ExtensionFoundation/_AppExtensionIdentity.swift"
++ "ExtensionFoundation/_InnerAppExtensionIdentity.swift"
++ "ExtensionFoundation2"
++ "ExtensionFoundation3"
++ "ExtensionFoundation4"
++ "ExtensionFoundation_Private._EXAppExtensionPointEnumerator"
++ "ExtensionFoundation_Private.___EXExtensionProcess"
++ "Failed to add observer"
++ "Failed to create connection endpoint for extension: '"
++ "Failed to create extension identity for current process"
++ "Failed to create running extension of type: '"
++ "Failed to create session XPC connection"
++ "Failed to encode service domains with error: `%{public}@`"
++ "Failed to fetch initial state"
++ "Failed to find extension: "
++ "Failed to get executable URL"
++ "Failed to initialize _EXExtensionIdentity: %@"
++ "Failed to instantiate _EXExtension class: "
++ "Failed to load connection handler class `%s`."
++ "Failed to load extension context class '%s', does the appex link the extension point framework?"
++ "Failed to reconnect observer %@"
++ "Failed to start observering with error: %@"
++ "GroupIdentifiers"
++ "Host PID does not have expected process identity"
++ "Host is lacking required entitlements"
++ "Host is not entitled observe`"
++ "Host is not entitled to observe"
++ "Host must be extension's containing app"
++ "Ignoring 3rd party extension point `%s` it must be prefixed with `%s.` "
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Invalid LaunchArguments"
++ "Invalid extension class, Extension class '%{public}@' must be a subclass of '_EXExtension'"
++ "Invalid extension points"
++ "JoinExistingSession"
++ "Main endpoint not returned by launch request"
++ "Missing _EXExtension class"
++ "Missing `-LaunchArguments` argument."
++ "Missing `-LaunchArguments` data."
++ "Monitor `%{public}s` failed for host process %d"
++ "NSExtensionContextHostClass not defined or invalid type"
++ "NSExtensionVersion"
++ "No matching extensions found"
++ "OriginatorEntitlement"
++ "OriginatorProperty"
++ "Process %d) enumeration extensions for process %d)"
++ "Process handle unavailabe"
++ "Query controller remapping extensions"
++ "RBSExtensionIdentityFactoryProtocol"
++ "RBSExtensionIdentityProtocol"
++ "Received UI session %{public}@ root view controller from UIKit"
++ "ServiceExtensionLaunch"
++ "Skipping because extension is locked: %{public}s"
++ "SwiftUI: Entry point function did not create `_EXExtension` instance for extension with bundle ID '%{public}s'"
++ "SwiftUI: Initialized extension with bundle ID '%{public}s'"
++ "SwiftUI: Unable to find entry point function for extension with bundle ID '%{public}s'."
++ "T#,N,R"
++ "T@\"<NSExtensionRequestHandling>\",&,V_principalObject"
++ "T@\"<NSExtensionRequestHandling>\",N,&,VprincipalObject"
++ "T@\"<_EXNSExtensionShimImplementation>\",&,V_implementation"
++ "T@\"<_EXNSExtensionShimImplementation>\",R,D"
++ "T@\"ISIcon\",N,R"
++ "T@\"LSApplicationExtensionRecord\",N,R"
++ "T@\"LSBundleRecord\",N,R"
++ "T@\"NSArray\",C,N,V_inputItems"
++ "T@\"NSData\",N,R"
++ "T@\"NSData\",R"
++ "T@\"NSDictionary\",N,R"
++ "T@\"NSURL\",N,R"
++ "T@\"_EXExtensionIdentity\",&,N,V_identity"
++ "T@\"_EXExtensionIdentity\",R,V__identity"
++ "T@\"_EXExtensionIdentity\",R,V_identity"
++ "TB,N,VexcludeDisabled"
++ "TB,N,VincludeUpdatingApps"
++ "TB,V_includePlaceholders"
++ "TC,N,R"
++ "TI,N,R"
++ "TQ,N,R"
++ "The current process is not an extension"
++ "T{os_unfair_lock_s=I},R,V_requestBlockLock"
++ "Unable to resolve host app record for pid: %d error: %{public}@"
++ "Unexpected _EXExtension class"
++ "Unexpected nil `host` for: "
++ "Unexpected nil bundle URL"
++ "Unexpected nil principal object"
++ "Unknown"
++ "Unknown error adding observer"
++ "Unknown extension point type"
++ "XPCSession not supported"
++ "You called an internal method, dont do that!"
++ "[%ld] adding monitor `%s`"
++ "[%ld] initial state `%s`"
++ "[%ld] removing monitor `%s` for identity `%s`"
++ "[%ld] update observer state `%s`"
++ "[%ld] update state `%s`"
++ "[%s] update monitor state `%s`"
++ "[self isKindOfClass:EXConcreteExtension.class]"
++ "_$observationRegistrar"
++ "_EXAppExtensionPointEnumerator"
++ "_EXBootstrapExtensionKit"
++ "_EXExtensionProcess"
++ "_EXNSExtensionContextShim"
++ "_EXNSExtensionShim"
++ "_EXNSExtensionShimImplementation"
++ "_EXNSExtensionShimProtocol"
++ "_EXScopeRestriction"
++ "_OmitSandboxParameters"
++ "_PKServiceStartWithArguments:count:"
++ "_TtC19ExtensionFoundation13ExtensionMain"
++ "_TtC19ExtensionFoundation16ListenerDelegate"
++ "_TtC19ExtensionFoundation16_QueryController"
++ "_TtC19ExtensionFoundation19_EXRunningExtension"
++ "_TtC19ExtensionFoundation23LocalLSDatabaseObserver"
++ "_TtC19ExtensionFoundation23_AvailabilityController"
++ "_TtC19ExtensionFoundation27_EXExtensionProcessIdentity"
++ "_TtC19ExtensionFoundation32_EXRunningLibXPCServiceExtension"
++ "_TtCC19ExtensionFoundation16_EXServiceClient8Observer"
++ "_TtCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery"
++ "_TtCC19ExtensionFoundation25_EXExtensionProcessHandle15ProcessObserver"
++ "_TtCC19ExtensionFoundation7ServiceP33_BA93CBAF03EEA85977F926DB446085C48Observer"
++ "_TtCCC19ExtensionFoundation16_EXServiceClientP33_591406279EDD09BF7033B88E7B83DCFD17ActiveClientQuery24ServiceClientObserverSet"
++ "_TtCCV19ExtensionFoundation17AppExtensionPoint7Monitor18ObserverController"
++ "_TtCE19ExtensionFoundationCSo18_EXNSExtensionShim14Implementation"
++ "_TtCE19ExtensionFoundationCSo30_EXAppExtensionPointEnumerator14ExtensionPoint"
++ "_TtCV19ExtensionFoundation17AppExtensionPoint7Monitor"
++ "_TtP19ExtensionFoundation34EXDefaultImplementationXPCProtocol_"
++ "_TtPC19ExtensionFoundation7Service16ObserverProtocol_"
++ "_TtPC19ExtensionFoundation7Service22ObserverUpdateProtocol_"
++ "_UrgentLogSubmission"
++ "__identity"
++ "_acceptSession"
++ "_appExtension"
++ "_checkIn"
++ "_disabledCount"
++ "_evaluateActivationRule:withExtensionItemsRepresentation:error:"
++ "_extensionPointRecords"
++ "_getEntryPointFunction"
++ "_id"
++ "_identities"
++ "_identity"
++ "_implementation"
++ "_includePlaceholders"
++ "_initWithPKPlugin:identity:"
++ "_inner"
++ "_observerConnection"
++ "_process"
++ "_requestBlockLock"
++ "_state"
++ "activeObservers"
++ "activeObserversLock"
++ "app-extension-enhanced-security"
++ "appExtension can only be set once"
++ "beginObservingWithConfiguration:reply:"
++ "beginRequest:completion:"
++ "beginRequest:error:"
++ "blastdoor-post-launch"
++ "bootstrap"
++ "builtForNSExtension"
++ "cancellationBlock"
++ "com.apple.extensionkit.ExtensionPoint.Observer"
++ "com.apple.private.coreservices.definesExtensionPoint"
++ "com.apple.private.extension-sandbox-profile"
++ "completionBlock"
++ "continuation"
++ "couldn't remap %{public}@: %@"
++ "createRunningExtensionWithClassName:error:"
++ "current"
++ "dataRepresentation"
++ "disableExtension:host:error:"
++ "ditionaryFromPropertyList:"
++ "enableExtension:host:error:"
++ "enhancedSecurity"
++ "enumeratorIncludingPlaceHolders"
++ "evaluateActivationRule:withExtensionItemsRepresentation:error:"
++ "excludeDisabled"
++ "extensionSettingsKey(for:) is not implemented"
++ "extensionTypeRegistry"
++ "groupIdentifier"
++ "handleForPredicate:error:"
++ "host"
++ "hostIdentity"
++ "identityForExtensionIdentity:"
++ "identityFromDataRepresentation:error:"
++ "identityLock"
++ "implementation"
++ "includePlaceholders"
++ "includeUpdatingApps"
++ "initWithBundleIdentifier:sdkDictionary:entitlements:"
++ "initWithExecutableURL:bundleIdentifier:"
++ "initWithIdentity:"
++ "initWithIdentity:implementation:"
++ "initWithNSExtension:error:"
++ "initWithProcessHandle:"
++ "initWithProcessHandle:configuration:"
++ "instanceUUID"
++ "interruptionBlock"
++ "iterator"
++ "jobConfiguration"
++ "jobProperties"
++ "launchArguments"
++ "launchdJobDescriptorFor:error:"
++ "lock"
++ "lsObserver"
++ "makeDefaultImplementation"
++ "makeSceneWithConfiguration:"
++ "makeSessionXPCConnectionWithError:"
++ "making XPC connection for extension: %@"
++ "managedPersona"
++ "observer:reply:"
++ "observerTask"
++ "performRequestWithInputItems:response:"
++ "personaString"
++ "predicateMatchingIdentity:"
++ "preferedSandboxProfile"
++ "queryControllerDidUpdate:"
++ "reason"
++ "requestBlockLock"
++ "requests"
++ "requestsLock"
++ "requiredExistingProcess"
++ "response"
++ "sessionConnectionHandler"
++ "sessionListener"
++ "setAbandonCoalition:"
++ "setAdditionalSubServices:"
++ "setBackoff:"
++ "setClientRestriction:"
++ "setEnvironmentVariables:"
++ "setExcludeDisabled:"
++ "setIncludePlaceholders:"
++ "setIncludeUpdatingApps:"
++ "setInstance:"
++ "setJoinExistingSession:"
++ "setLaunchRequestEndpointIdentifiers:"
++ "setManagedByServices:"
++ "setManagedPersona:"
++ "setOmitSandboxParameters:"
++ "setOneShotUUID:"
++ "setPersonaString:"
++ "setProcessType:"
++ "setProgramArguments:"
++ "setRequiredExistingProcess:"
++ "setRoleAccount:"
++ "setRunLoopType:"
++ "setServiceType:"
++ "setUiApplicationClass:"
++ "setUiApplicationDelegateClass:"
++ "setWatchdogTimeout:"
++ "set_implementation:"
++ "targetsServiceExtensionPoint"
++ "unknown"
++ "updateQueue"
++ "updates"
++ "v24@0:8@\"<BSServiceConnectionListenerDelegate>\"16"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8@\"NSUUID\"16"
++ "v24@0:8@\"_EXQueryController\"16"
++ "v24@?0@\"ObserverUpdate\"8@\"NSError\"16"
++ "v32@0:8@\"EXExtensionRequest\"16@?<v@?@\"NSUUID\"@\"NSError\">24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v32@0:8@\"ObserverConfiguration\"16@?<v@?@\"ObserverUpdate\"@\"NSError\">24"
++ "v32@0:8@\"ObserverUpdate\"16@?<v@?>24"
++ "xpcObjectFromDictionary:"
+- "%@ XPC overlay: %@"
+- "%lu"
+- "%s - %d: `internalServiceName` is not available for BS connection IPC."
+- "%s - %s:%d: %@ cannot be decoded."
+- "%s - %s:%d: Extension class '%{public}@' must be a subclass of '%{public}@'"
+- "%s - %s:%d: Invalid bundle record for current process: %@"
+- "%s - %s:%d: Sandbox profile name required"
+- "%s - %s:%d: Unexpected nil EXExtension instance"
+- "%s - %s:%d: Unrecognized extension type: '%{public}s'"
+- "%s - %s:%d: _EXExtensionIdentity subclass must implement '%s'"
+- "%{public}@ Overriding sandbox profile name: `%{public}@`"
+- "%{public}@ Requesting sandbox profile name: `%{public}@`"
+- "-[_EXExtensionIdentity entitlementNamed:ofClass:]"
+- "-didFinishLaunching"
+- "-shouldAcceptXPCConnection:"
+- "-willFinishLaunching"
+- ".%@"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/EXExtensionIdentity.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/EXConnectionHandlerExtension.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/EXExtension+Configuration.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/EXRunningExtension.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/Shim/EXExtensionContext.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/Shim/EXNSExtensionContextShimImplementation.m"
+- "/Library/Caches/com.apple.xbs/Sources/ExtensionFoundation/ExtensionFoundation/Source/EXExtension/Extension/Internal/Shim/EXNSExtensionShimExtension.m"
+- ":"
+- "@\"LSApplicationExtensionRecord\""
+- "@\"LSBundleRecord\""
+- "@\"LSExtensionPointRecord\""
+- "@44@0:8@16B24@28@36"
+- "Apple"
+- "Application"
+- "B28@0:8C16^@20"
+- "Backoff"
+- "Begin session: %@"
+- "C"
+- "Current process does not contain an extension with bundle ID `%@`."
+- "Did finish launching extension: %{public}@"
+- "EXConnectionHandlerClass must conform to %{public}@."
+- "EXProcessType"
+- "EXSceneManifest"
+- "Extension Type: %u"
+- "Extension identity [%@]: %@ extension point: %@ platform: %u"
+- "ExtensionFoundation._EXActiveClientQuery"
+- "ExtensionFoundation._EXExtensionProcess"
+- "ExtensionFoundation/Query.swift"
+- "Failed to create LibXPC connection from endpoint"
+- "Failed to create connection for extension from endpoint %@"
+- "Failed to encode service domains with error: `%@`"
+- "Failed to load connection handler class."
+- "Failed to load extension context class '%{public}@', does the appex link the extension point framework?"
+- "Failed to make xpc connection for extension %{public}@  (extension launch failed)"
+- "Host is not entitled to run query"
+- "ISIcon"
+- "Incoming service level XPC connection: %{public}@"
+- "InternalService"
+- "Invalid extension class"
+- "JSONObjectWithData:options:error:"
+- "LSSettingsStore"
+- "MainService"
+- "Make extension XPC connection"
+- "Overlay"
+- "POST: -[%{public}@ init]"
+- "POST: swift entry point"
+- "PRE: -[%{public}@ init]"
+- "PRE: swift entry point"
+- "Runloop started"
+- "Services"
+- "Services: %@"
+- "SwiftUI: Entry point function did not create `_EXExtension` instance for extension with bundle ID '%{public}@'."
+- "SwiftUI: Initialized extension with bundle ID '%{public}@'."
+- "SwiftUI: Unable to find entry point function for extension with bundle ID '%{public}@'."
+- "T@\"<_EXExtensionConfigurationProviding>\",N,R"
+- "T@\"<_EXExtensionConfigurationProviding>\",R,D"
+- "T@\"ISIcon\",R,D"
+- "T@\"LSApplicationExtensionRecord\",R,V_record"
+- "T@\"LSBundleRecord\",R,D"
+- "T@\"LSExtensionPointRecord\",R,V_extensionPoint"
+- "T@\"NSString\",R,V_developerName"
+- "T@\"_EXExtension\",&,N,V_extension"
+- "T@\"_EXExtensionIdentity\",&,N,V_internalRep"
+- "T@\"_EXExtensionIdentity\",R,V_extensionIdentity"
+- "TB,R,GisSystemComponent,V_systemComponent"
+- "TB,R,V_requiresUIKitSceneHosting"
+- "TC,R,D"
+- "TI,R,D"
+- "TQ,R,D"
+- "Tq,R,D"
+- "T{?=[8I]},R,V_hostAuditToken"
+- "Unrecognized extension type: '%{public}s'"
+- "Will finish launching extension: %{public}@"
+- "XPC!"
+- "[extensionClass isSubclassOfClass:_EXExtension.class]"
+- "_EXExtensionConfigurationProviding"
+- "_EXExtensionPointConfigurationProviding"
+- "_EXExtensionRecordIdentity"
+- "_EXExtensionValueIdentity"
+- "_EXRunningExtension"
+- "_EXRunningUIKitSceneHostedExtension"
+- "_EXRunningUISceneExtension"
+- "_EXRunningUIViewServiceExtension"
+- "_NSApplicationMain"
+- "_ProcessType"
+- "_SandboxProfile"
+- "_TtC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery"
+- "_TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C16_QueryController"
+- "_TtC19ExtensionFoundationP33_CDD6639443F09112848BD34A3597427C23_AvailabilityController"
+- "_TtCC19ExtensionFoundation19_EXExtensionProcessP33_2DB9D1F412467A20BF3CD4E75CD2541715ProcessObserver"
+- "_TtCC19ExtensionFoundationP33_591406279EDD09BF7033B88E7B83DCFD20_EXActiveClientQuery24ServiceClientObserverSet"
+- "_bundleVersion"
+- "_containingBundleRecord"
+- "_containingURL"
+- "_defaultUserElection"
+- "_developerName"
+- "_entitlements"
+- "_executableURLWithError:"
+- "_extension || self.extensionIdentity.supportsNSExtensionPlistKeys"
+- "_extensionPoint"
+- "_internalRep"
+- "_record"
+- "_requiresUIKitSceneHosting"
+- "_sdkDictionary"
+- "_systemComponent"
+- "_userElection"
+- "addEntriesFromDictionary:"
+- "apple-extension-service"
+- "checkIn"
+- "componentsJoinedByString:"
+- "dataWithBytes:length:"
+- "disabled"
+- "enablementState"
+- "entryPointFunction"
+- "environment"
+- "exit"
+- "extensionPoint"
+- "extensionPointConfiguration"
+- "extensionSettingsKey"
+- "failed to obtain execPath"
+- "false"
+- "initWithBundleIdentifier:requireValid:platform:error:"
+- "initWithData:encoding:"
+- "initWithInternalExtensionProcess:"
+- "initWithUTF8String:"
+- "internalRep"
+- "internalServiceName"
+- "isEqualToExtension:"
+- "lauchThrottlePolicy"
+- "launch"
+- "making XPC connection for extension: %{public}@"
+- "pluginUUID"
+- "record"
+- "record && [record isKindOfClass:LSApplicationExtensionRecord.class]"
+- "setInternalRep:"
+- "setUserElection:error:"
+- "softlink:r:path:/System/Library/Frameworks/ExtensionKit.framework/ExtensionKit"
+- "softlink:r:path:/System/Library/PrivateFrameworks/IconServices.framework/IconServices"
+- "startWithArguments:count:"
+- "stringByAppendingFormat:"
+- "throttled"
+- "type"
+- "use_expkservice"
+- "viewbridge"
+- "viewservice"
+- "xpcOverlayDictionaryOverridingSandboxProfileName:multiInstance:arguments:additionalEnvironment:"
+
+```

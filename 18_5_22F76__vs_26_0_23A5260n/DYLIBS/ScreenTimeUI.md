@@ -1,0 +1,656 @@
+## ScreenTimeUI
+
+> `/System/Library/PrivateFrameworks/ScreenTimeUI.framework/ScreenTimeUI`
+
+```diff
+
+-537.5.7.0.0
+-  __TEXT.__text: 0x1c2fc
+-  __TEXT.__auth_stubs: 0x620
+-  __TEXT.__objc_methlist: 0x1460
+-  __TEXT.__const: 0xe0
+-  __TEXT.__cstring: 0xcd3
++571.0.0.0.0
++  __TEXT.__text: 0x24650
++  __TEXT.__auth_stubs: 0x1010
++  __TEXT.__objc_methlist: 0x1638
++  __TEXT.__const: 0x6c4
++  __TEXT.__cstring: 0x12cc
+   __TEXT.__gcc_except_tab: 0x46c
+-  __TEXT.__oslogstring: 0x2768
+-  __TEXT.__unwind_info: 0x770
+-  __TEXT.__objc_classname: 0x1a3
+-  __TEXT.__objc_methname: 0x559c
+-  __TEXT.__objc_methtype: 0x7e8
+-  __TEXT.__objc_stubs: 0x46c0
+-  __DATA_CONST.__got: 0x398
+-  __DATA_CONST.__const: 0xa78
+-  __DATA_CONST.__objc_classlist: 0x58
++  __TEXT.__oslogstring: 0x285d
++  __TEXT.__swift5_typeref: 0xda8
++  __TEXT.__swift5_capture: 0x60
++  __TEXT.__swift5_reflstr: 0x129
++  __TEXT.__swift5_assocty: 0x48
++  __TEXT.__constg_swiftt: 0x364
++  __TEXT.__swift5_fieldmd: 0x178
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_proto: 0x18
++  __TEXT.__swift5_types: 0x24
++  __TEXT.__unwind_info: 0x9a8
++  __TEXT.__eh_frame: 0x40
++  __TEXT.__objc_classname: 0x1e1
++  __TEXT.__objc_methname: 0x5cd3
++  __TEXT.__objc_methtype: 0x899
++  __TEXT.__objc_stubs: 0x4ae0
++  __DATA_CONST.__got: 0x518
++  __DATA_CONST.__const: 0xbc8
++  __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_catlist: 0x28
+-  __DATA_CONST.__objc_protolist: 0x28
++  __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1530
++  __DATA_CONST.__objc_selrefs: 0x1690
++  __DATA_CONST.__objc_protorefs: 0x8
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x320
+-  __AUTH_CONST.__const: 0x340
++  __AUTH_CONST.__auth_got: 0x818
++  __AUTH_CONST.__const: 0x590
+   __AUTH_CONST.__cfstring: 0xfa0
+-  __AUTH_CONST.__objc_const: 0x1d80
+-  __AUTH.__objc_data: 0x320
+-  __DATA.__objc_ivar: 0x154
+-  __DATA.__data: 0x1e0
+-  __DATA.__bss: 0x30
++  __AUTH_CONST.__objc_const: 0x2278
++  __AUTH.__objc_data: 0x738
++  __AUTH.__data: 0x150
++  __DATA.__objc_ivar: 0x164
++  __DATA.__data: 0x4a0
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0x2f8
++  __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x50
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
+
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/Categories.framework/Categories
+   - /System/Library/PrivateFrameworks/DeviceManagement.framework/DeviceManagement
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/IconFoundation.framework/IconFoundation
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC
+   - /System/Library/PrivateFrameworks/ScreenTimeCore.framework/ScreenTimeCore
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/URLFormatting.framework/URLFormatting
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: BA17EF52-CC58-33E2-ABA3-17F8B11B3C55
+-  Functions: 666
+-  Symbols:   2539
+-  CStrings:  1433
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BD4496F2-8532-30CA-BB10-73E397D672FE
++  Functions: 871
++  Symbols:   2875
++  CStrings:  1542
+ 
+Symbols:
++ +[STLockoutViewController lockoutViewControllerWithBundleIdentifier:contactsHandles:contactNameByHandle:type:]
++ +[STLockoutViewController lockoutViewControllerWithConversationContext:bundleIdentifier:contactStore:applicationName:contactNameByHandle:type:]
++ -[STBlockingViewController _updateButtonsForNaturalBlockingUIIfNeeded]
++ -[STBlockingViewController buttonStackView]
++ -[STBlockingViewController setButtonStackView:]
++ -[STLockoutViewController _embedCommunicationLimitsBlockingViewControllerWithType:]
++ -[STLockoutViewController _performUnlockedActionWithCompletionHandler:]
++ -[STLockoutViewController _performUnlockedActionWithCompletionHandler:].cold.1
++ -[STLockoutViewController _updateButtonsForNaturalBlockingUIIfNeeded]
++ -[STLockoutViewController addToContactsButtonPressed]
++ -[STLockoutViewController buttonStackView]
++ -[STLockoutViewController communicationLimitsBlockingViewModel]
++ -[STLockoutViewController communicationLimitsDelegate]
++ -[STLockoutViewController communicationLimitsPreviewMessageButtonPressed]
++ -[STLockoutViewController setButtonStackView:]
++ -[STLockoutViewController setCommunicationLimitsBlockingViewModel:]
++ -[STLockoutViewController setCommunicationLimitsDelegate:]
++ GCC_except_table109
++ GCC_except_table114
++ GCC_except_table118
++ GCC_except_table129
++ GCC_except_table131
++ GCC_except_table133
++ GCC_except_table135
++ GCC_except_table137
++ GCC_except_table20
++ GCC_except_table32
++ GCC_except_table86
++ _OBJC_CLASS_$_CNAskToController
++ _OBJC_CLASS_$_STCommunicationClient
++ _OBJC_CLASS_$__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ _OBJC_CLASS_$__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ _OBJC_CLASS_$__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_STBlockingViewController._buttonStackView
++ _OBJC_IVAR_$_STLockoutViewController._buttonStackView
++ _OBJC_IVAR_$_STLockoutViewController._communicationLimitsBlockingViewModel
++ _OBJC_IVAR_$_STLockoutViewController._communicationLimitsDelegate
++ _OBJC_METACLASS_$__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ _OBJC_METACLASS_$__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ _OBJC_METACLASS_$__TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController
++ _OBJC_METACLASS_$__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __Block_copy
++ __Block_release
++ __CLASS_METHODS__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ __CLASS_METHODS__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ __CLASS_PROPERTIES__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ __DATA__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ __DATA__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ __DATA__TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController
++ __DATA__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ __DATA__TtC12ScreenTimeUIP33_2D50CF979FE9C4D2970E23C8D49C434319ResourceBundleClass
++ __INSTANCE_METHODS__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ __INSTANCE_METHODS__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ __INSTANCE_METHODS__TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController
++ __INSTANCE_METHODS__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ __IVARS__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ __IVARS__TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController
++ __METACLASS_DATA__TtC12ScreenTimeUI24NaturalBlockingUIStyling
++ __METACLASS_DATA__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ __METACLASS_DATA__TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController
++ __METACLASS_DATA__TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory
++ __METACLASS_DATA__TtC12ScreenTimeUIP33_2D50CF979FE9C4D2970E23C8D49C434319ResourceBundleClass
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __OBJC_LABEL_PROTOCOL_$__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __OBJC_PROTOCOL_$__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __PROPERTIES__TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel
++ __PROTOCOL_INSTANCE_METHODS__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __PROTOCOL__TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_
++ __UISolariumEnabled
++ ___49-[STBlockingViewController _customButtonPressed:]_block_invoke.248
++ ___49-[STBlockingViewController _customButtonPressed:]_block_invoke_2.249
++ ___49-[STBlockingViewController _customButtonPressed:]_block_invoke_2.249.cold.1
++ ___53-[STBlockingViewController _enterScreenTimePasscode:]_block_invoke_2
++ ___53-[STBlockingViewController _enterScreenTimePasscode:]_block_invoke_2.cold.1
++ ___53-[STBlockingViewController _enterScreenTimePasscode:]_block_invoke_3
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.116
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.116.cold.1
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.124
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.125
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.125.cold.1
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.131
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.132
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.132.cold.1
++ ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.138
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.171
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.171.cold.1
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.177
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.178
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.178.cold.1
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.184
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.185
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.185.cold.1
++ ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.188
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.142
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.142.cold.1
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.148
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.149
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.149.cold.1
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.155
++ ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.159
++ ___66-[STLockoutViewController _authenticatedApproveForAdditionalTime:]_block_invoke.191
++ ___71-[STLockoutViewController _performUnlockedActionWithCompletionHandler:]_block_invoke
++ ___72-[STBlockingViewController _handleCustomButtonResponse:forAction:error:]_block_invoke.250
++ ___73-[STLockoutViewController communicationLimitsPreviewMessageButtonPressed]_block_invoke
++ ___73-[STLockoutViewController communicationLimitsPreviewMessageButtonPressed]_block_invoke.cold.1
++ ___76-[STLockoutViewController _showRestrictionsPINControllerWithMainCompletion:]_block_invoke
++ ___block_descriptor_40_e8_32bs_e20_v20?0B8"NSError"12ls32l8
++ ___block_descriptor_40_e8_32s_e44_v24?0"STAuthenticationResult"8"NSError"16ls32l8
++ ___block_literal_global.119
++ ___block_literal_global.127
++ ___block_literal_global.134
++ ___block_literal_global.140
++ ___block_literal_global.144
++ ___block_literal_global.151
++ ___block_literal_global.161
++ ___block_literal_global.173
++ ___block_literal_global.180
++ ___block_literal_global.190
++ ___block_literal_global.209
++ ___block_literal_global.228
++ ___block_literal_global.243
++ ___block_literal_global.73
++ ___chkstk_darwin
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_memcpy64_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_reflection_version
++ __swiftEmptyArrayStorage
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDarwin_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_ScreenTimeUI
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_ScreenTimeUI
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 12ScreenTimeUI18BlockingViewHeaderV05SwiftC00E0AA4BodyAdEP_AdE
++ _associated conformance 12ScreenTimeUI31CommunicationLimitsBlockingViewV05SwiftC00G0AA4BodyAdEP_AdE
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _flat unique 12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_p
++ _free
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA6SpacerV_010ScreenTimeB008BlockingG6HeaderVAiA012_ConditionalD0VyACyACyAA0G0PAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQOyApAE4boldyQrSbFQOyACyApAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQOyAA0Y0VyACyAA4TextVAA16_FlexFrameLayoutVGG_AA017BorderedProminentyW0VQo_AA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGG_Qo__AA7CapsuleVQo_A10_yAA0y6BorderT0VGGAA14_PaddingLayoutVGA25_GACyACyApAEAQ_ArSQrAU_qd__SbtAaVRd__lFQOyApAEAWyQrSbFQOyACyApAEAXyQrqd__AaYRd__lFQOyA_yACyA4_AA011_ForegroundW8ModifierVyAA5ColorVGGG_AA08BorderedyW0VQo_A13_G_Qo__A17_Qo_A21_GA24_GSgtGGAA25_AppearanceActionModifierVGAaOHPA44_AaOHPyHC_A46_AA0G8ModifierHPyHCHC.26
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAEyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA25_ForegroundStyleModifier2VyAA5ColorVAA14LinearGradientVGGAKyAA19SymbolRenderingModeVSgGGGAA13_OffsetEffectVG_ACyAA4TextVAKyAA0Y9AlignmentOGGACyA11_AA14_PaddingLayoutVGA11_tGGA13_GAA0G0HPA16_AAA18_HPyHC_A13_AA0gL0HPyHCHC.62
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_class_stubs
++ _objc_msgSend$_actionAddContact:
++ _objc_msgSend$_embedCommunicationLimitsBlockingViewControllerWithType:
++ _objc_msgSend$_performUnlockedActionWithCompletionHandler:
++ _objc_msgSend$_updateButtonsForNaturalBlockingUIIfNeeded
++ _objc_msgSend$activateConstraints:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$addSubview:
++ _objc_msgSend$allObjects
++ _objc_msgSend$applyPrimaryButtonStyle:
++ _objc_msgSend$applySecondaryButtonStyle:
++ _objc_msgSend$authenticateForCommunicationConfigurationOverrideWithCompletionHandler:
++ _objc_msgSend$authenticated
++ _objc_msgSend$bottomAnchor
++ _objc_msgSend$buttonStackView
++ _objc_msgSend$communicationLimitsBlockingViewControllerWithViewModel:
++ _objc_msgSend$communicationLimitsBlockingViewModel
++ _objc_msgSend$communicationLimitsDelegate
++ _objc_msgSend$communicationLimitsPreviewMessageButtonPressed:
++ _objc_msgSend$constraintEqualToSystemSpacingAfterAnchor:multiplier:
++ _objc_msgSend$constraintGreaterThanOrEqualToConstant:
++ _objc_msgSend$contentView
++ _objc_msgSend$createCommunicationLimitsBlockingViewModelWithBlockingViewType:contactNameByHandle:delegate:handles:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$leadingAnchor
++ _objc_msgSend$primaryButtonConfiguration
++ _objc_msgSend$secondaryButtonConfiguration
++ _objc_msgSend$setBlockingViewType:
++ _objc_msgSend$setCommunicationLimitsBlockingViewModel:
++ _objc_msgSend$setSpacing:
++ _objc_msgSend$setTranslatesAutoresizingMaskIntoConstraints:
++ _objc_msgSend$topAnchor
++ _objc_msgSend$trailingAnchor
++ _objc_msgSend$willMoveToParentViewController:
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _swift_allocBox
++ _swift_allocObject
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_dynamicCastClass
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getKeyPath
++ _swift_getObjectType
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_lookUpClassMethod
++ _swift_makeBoxUnique
++ _swift_release
++ _swift_retain
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_updateClassMetadata2
++ _symbolic $s12ScreenTimeUI27STTelephonyUtilitesProtocolP
++ _symbolic $s12ScreenTimeUI39CommunicationLimitsBlockingViewDelegateP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic $sSY
++ _symbolic SDyS2SGSg
++ _symbolic SS
++ _symbolic SaySSG
++ _symbolic Sb
++ _symbolic Si
++ _symbolic So17CNAskToControllerC
++ _symbolic So17STManagementStateC
++ _symbolic So8NSObjectC
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 12ScreenTimeUI18BlockingViewHeaderV
++ _symbolic _____ 12ScreenTimeUI19ResourceBundleClass33_2D50CF979FE9C4D2970E23C8D49C4343LLC
++ _symbolic _____ 12ScreenTimeUI19STTelephonyUtilitesV
++ _symbolic _____ 12ScreenTimeUI24NaturalBlockingUIStylingC
++ _symbolic _____ 12ScreenTimeUI31CommunicationLimitsBlockingViewV
++ _symbolic _____ 12ScreenTimeUI36CommunicationLimitsBlockingViewModelC
++ _symbolic _____ 12ScreenTimeUI43STCommunicationLimitsBlockingViewControllerC
++ _symbolic _____ 12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactoryC
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ 7SwiftUI17ButtonBorderShapeV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ So27STLockoutViewControllerTypeV
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____Sg So8UIButtonC5UIKitE13ConfigurationV
++ _symbolic ___________AA_____y_____yADy_____y_____yADy_____y_____yADy__________GG______Qo______y_____GG_Qo_______Qo_ALy_____GG_____GAWGADyADy_____y_____yADy_____yAEyADyAH_____y_____GGG______Qo_ANG_Qo__AQQo_ATGAVGSgt 7SwiftUI6SpacerV 010ScreenTimeB018BlockingViewHeaderV AA19_ConditionalContentV AA08ModifiedJ0V AA0G0PAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AlAE4boldyQrSbFQO AlAE11buttonStyleyQrqd__AA015PrimitiveButtonU0Rd__lFQO AA0W0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentwU0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0w6BorderR0V AA14_PaddingLayoutV AlAEAM_AnOQrAQ_qd__SbtAaRRd__lFQO AlAEASyQrSbFQO AlAEATyQrqd__AaURd__lFQO AA011_ForegroundU8ModifierV AA5ColorV AA08BorderedwU0V
++ _symbolic ______p 12ScreenTimeUI27STTelephonyUtilitesProtocolP
++ _symbolic ______pSg 12ScreenTimeUI39CommunicationLimitsBlockingViewDelegateP
++ _symbolic ______pSgXw 12ScreenTimeUI39CommunicationLimitsBlockingViewDelegateP
++ _symbolic _____yAAyAAy__________y_____SgGG_____y__________GGACy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____yAAy_____y_____yAAyAAy__________G_____y_____GGG______Qo______y_____GG_Qo_______Qo_AMy_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundO8ModifierV AA5ColorV AA08BorderedqO0V AA022_EnvironmentKeyWritingW0V AA11ControlSizeO AA7CapsuleV AA0q6BorderL0V AA08_PaddingU0V
++ _symbolic _____yAAy_____y_____yAAy_____y_____yAAyAAy__________G_____y_____GGG______Qo______y_____GG_Qo_______Qo_AMy_____GG_____GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundO8ModifierV AA5ColorV AA08BorderedqO0V AA022_EnvironmentKeyWritingW0V AA11ControlSizeO AA7CapsuleV AA0q6BorderL0V AA08_PaddingU0V
++ _symbolic _____yAAy_____y_____yAAy_____y_____yAAy__________GG______Qo______y_____GG_Qo_______Qo_AIy_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentqO0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0q6BorderL0V AA08_PaddingU0V
++ _symbolic _____y_____G 7SwiftUI14_UIHostingViewC 010ScreenTimeB0027CommunicationLimitsBlockingD0V
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 010ScreenTimeB031CommunicationLimitsBlockingViewV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI5ColorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y___________yACyACy__________y_____SgGG_____y__________GGAEy_____SgGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV
++ _symbolic _____y___________y___________AD_____y_____yAGy_____y_____yAGy_____y_____yAGy__________GG______Qo______y_____GG_Qo_______Qo_AOy_____GG_____GAZGAGyAGy_____y_____yAGy_____yAHyAGyAK_____y_____GGG______Qo_AQG_Qo__ATQo_AWGAYGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6SpacerV 010ScreenTimeB008BlockingD6HeaderV AA19_ConditionalContentV AA08ModifiedO0V AA0D0PAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AtAE4boldyQrSbFQO AtAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA4TextV AA010_FlexFrameG0V AA023BorderedProminentButtonZ0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA012ButtonBorderW0V AA08_PaddingG0V AtAEAU_AvWQrAY_qd__SbtAaZRd__lFQO AtAEA_yQrSbFQO AtAEA0_yQrqd__AAA1_Rd__lFQO AA011_ForegroundZ8ModifierV AA5ColorV AA014BorderedButtonZ0V
++ _symbolic _____y___________y_____y_____yADyADyADy__________y_____SgGG_____y__________GGAGy_____SgGGG_____G_ADy_____AGy_____GGADyA______GA_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV AA13_OffsetEffectV AA4TextV AA13TextAlignmentO AA08_PaddingG0V
++ _symbolic _____y_____yAAyAAyAAy__________y_____SgGG_____y__________GGADy_____SgGGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV AA13_OffsetEffectV
++ _symbolic _____y_____yAAyAAyAAy__________y_____SgGG_____y__________GGADy_____SgGGG_____G_AAy_____ADy_____GGAAyAX_____GAXt 7SwiftUI15ModifiedContentV AA6VStackV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV AA13_OffsetEffectV AA4TextV AA0W9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____y_____yABy__________G_____y_____GGG 7SwiftUI6ButtonV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____yABy_____y_____yABy_____y_____yABy__________GG______Qo______y_____GG_Qo_______Qo_AJy_____GG_____GAUG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AgAE4boldyQrSbFQO AgAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQO AA0R0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentrP0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0r6BorderM0V AA08_PaddingV0V
++ _symbolic _____y_____yABy_____y_____yABy_____y_____yABy__________GG______Qo______y_____GG_Qo_______Qo_AJy_____GG_____GAU_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AiAE4boldyQrSbFQO AiAE11buttonStyleyQrqd__AA015PrimitiveButtonQ0Rd__lFQO AA0S0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentsQ0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0s6BorderN0V AA08_PaddingW0V
++ _symbolic _____y_____y__________GG 7SwiftUI6ButtonV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y___________AC_____y_____yAFy_____y_____yAFy_____y_____yAFy__________GG______Qo______y_____GG_Qo_______Qo_ANy_____GG_____GAYGAFyAFy_____y_____yAFy_____yAGyAFyAJ_____y_____GGG______Qo_APG_Qo__ASQo_AVGAXGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA6SpacerV 010ScreenTimeB008BlockingE6HeaderV AA19_ConditionalContentV AA08ModifiedL0V AA0E0PAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO ApAE4boldyQrSbFQO ApAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQO AA0Y0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentyW0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0y6BorderT0V AA14_PaddingLayoutV ApAEAQ_ArSQrAU_qd__SbtAaVRd__lFQO ApAEAWyQrSbFQO ApAEAXyQrqd__AaYRd__lFQO AA011_ForegroundW8ModifierV AA5ColorV AA08BorderedyW0V
++ _symbolic _____y_____y_____yAAyAAy__________G_____y_____GGG______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundG8ModifierV AA5ColorV AA08BorderediG0V AA022_EnvironmentKeyWritingO0V AA11ControlSizeO
++ _symbolic _____y_____y_____yAAyAByAAyAAyAAy__________y_____SgGG_____y__________GGAEy_____SgGGG_____G_AAy_____AEy_____GGAAyAY_____GAYtGGAZG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV AA13_OffsetEffectV AA4TextV AA0Y9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAyACyACyACy__________y_____SgGG_____y__________GGAEy_____SgGGG_____G_ACy_____AEy_____GGACyAY_____GAYtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA25_ForegroundStyleModifier2V AA5ColorV AA14LinearGradientV AA19SymbolRenderingModeV AA13_OffsetEffectV AA4TextV AA0Y9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAy__________GG______Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentiG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____yAAy_____y_____yAAyAAy__________G_____y_____GGG______Qo______y_____GG_Qo_______Qo_AMy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundO8ModifierV AA5ColorV AA08BorderedqO0V AA022_EnvironmentKeyWritingW0V AA11ControlSizeO AA7CapsuleV AA0q6BorderL0V
++ _symbolic _____y_____y_____yAAy_____y_____yAAy__________GG______Qo______y_____GG_Qo_______Qo_AIy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentqO0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0q6BorderL0V
++ _symbolic _____y_____y_____yABy__________G_____y_____GGG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundE8ModifierV AA5ColorV AA08BorderedgE0V
++ _symbolic _____y_____y_____y__________GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA0G0V AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentgE0V
++ _symbolic _____y_____y_____y___________AD_____yAAyAAy_____y_____yAAy_____y_____yAAy__________GG______Qo______y_____GG_Qo_______Qo_ANy_____GG_____GAYGAAyAAy_____y_____yAAy_____yAGyAAyAJ_____y_____GGG______Qo_APG_Qo__ASQo_AVGAXGSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6SpacerV 010ScreenTimeB008BlockingG6HeaderV AA012_ConditionalD0V AA0G0PAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO ApAE4boldyQrSbFQO ApAE11buttonStyleyQrqd__AA015PrimitiveButtonW0Rd__lFQO AA0Y0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentyW0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA7CapsuleV AA0y6BorderT0V AA14_PaddingLayoutV ApAEAQ_ArSQrAU_qd__SbtAaVRd__lFQO ApAEAWyQrSbFQO ApAEAXyQrqd__AaYRd__lFQO AA011_ForegroundW8ModifierV AA5ColorV AA08BorderedyW0V AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____yAAyAAy__________G_____y_____GGG______Qo______y_____GG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA4TextV AA16_FlexFrameLayoutV AA011_ForegroundH8ModifierV AA5ColorV AA08BorderedjH0V AA022_EnvironmentKeyWritingP0V AA11ControlSizeO
++ _symbolic _____y_____y_____y_____yAAy__________GG______Qo______y_____GG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonH0Rd__lFQO AA0J0V AA4TextV AA16_FlexFrameLayoutV AA017BorderedProminentjH0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic x
++ _type_layout_string 12ScreenTimeUI18BlockingViewHeaderV
++ _type_layout_string 12ScreenTimeUI31CommunicationLimitsBlockingViewV
+- -[STLockoutViewController _actionUnlockedEnterScreenTimePasscodeActionSheet].cold.1
+- GCC_except_table104
+- GCC_except_table108
+- GCC_except_table113
+- GCC_except_table117
+- GCC_except_table119
+- GCC_except_table121
+- GCC_except_table125
+- GCC_except_table29
+- GCC_except_table30
+- GCC_except_table76
+- GCC_except_table99
+- ___49-[STBlockingViewController _customButtonPressed:]_block_invoke.223
+- ___49-[STBlockingViewController _customButtonPressed:]_block_invoke_2.224
+- ___49-[STBlockingViewController _customButtonPressed:]_block_invoke_2.224.cold.1
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.102
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.103
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.103.cold.1
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.109
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.87
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.87.cold.1
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.95
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.96
+- ___57-[STLockoutViewController _actionIgnoreLimitActionSheet:]_block_invoke.96.cold.1
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.144
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.144.cold.1
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.150
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.151
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.151.cold.1
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.157
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.158
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.158.cold.1
+- ___59-[STLockoutViewController _authenticatedApproveActionSheet]_block_invoke.161
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.113
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.113.cold.1
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.119
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.120
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.120.cold.1
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.126
+- ___65-[STLockoutViewController _actionUnlockedAskOrApproveActionSheet]_block_invoke.130
+- ___66-[STLockoutViewController _authenticatedApproveForAdditionalTime:]_block_invoke.164
+- ___72-[STBlockingViewController _handleCustomButtonResponse:forAction:error:]_block_invoke.225
+- ___block_literal_global.105
+- ___block_literal_global.111
+- ___block_literal_global.115
+- ___block_literal_global.122
+- ___block_literal_global.132
+- ___block_literal_global.146
+- ___block_literal_global.153
+- ___block_literal_global.160
+- ___block_literal_global.163
+- ___block_literal_global.203
+- ___block_literal_global.216
+- ___block_literal_global.51
+- ___block_literal_global.90
+- ___block_literal_global.98
+CStrings:
++ "@\"<STCommunicationLimitsLockoutViewControllerDelegate>\""
++ "@\"UIStackView\""
++ "@\"_TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel\""
++ "@48@0:8@16@24@32q40"
++ "@48@0:8q16@24@32@40"
++ "@64@0:8@16@24@32@40@48q56"
++ "AddToContactsButton"
++ "Ask a Parent or Guardian to Approve This Person"
++ "AskToCommunicate"
++ "B#5\x82"
++ "Failed to authenticate the passcode with error: %{public}@"
++ "Family"
++ "Fatal error"
++ "Finished call to Contacts to send Communication Limits question to AskTo. Error: %{public}s)"
++ "NaturalUI"
++ "OnBoardingKit"
++ "Restrictions PIN Controller failed to authenticate PIN with error: %{public}@"
++ "ScreenTimeUI.CommunicationLimitsBlockingViewModel"
++ "ScreenTimeUI.STCommunicationLimitsBlockingViewController"
++ "ScreenTimeUI/STCommunicationLimitsBlockingViewController.swift"
++ "T@\"<STCommunicationLimitsLockoutViewControllerDelegate>\",W,N,V_communicationLimitsDelegate"
++ "T@\"UIButtonConfiguration\",N,R"
++ "T@\"UIStackView\",&,V_buttonStackView"
++ "T@\"UIStackView\",W,V_buttonStackView"
++ "T@\"_TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel\",&,V_communicationLimitsBlockingViewModel"
++ "Tq,N"
++ "Tq,N,V_blockingViewType"
++ "You need permission to contact the person at this number:"
++ "_$observationRegistrar"
++ "_TtC12ScreenTimeUI24NaturalBlockingUIStyling"
++ "_TtC12ScreenTimeUI36CommunicationLimitsBlockingViewModel"
++ "_TtC12ScreenTimeUI43STCommunicationLimitsBlockingViewController"
++ "_TtC12ScreenTimeUI50STCommunicationLimitsBlockingViewControllerFactory"
++ "_TtC12ScreenTimeUIP33_2D50CF979FE9C4D2970E23C8D49C434319ResourceBundleClass"
++ "_TtP12ScreenTimeUI39CommunicationLimitsBlockingViewDelegate_"
++ "_blockingViewType"
++ "_buttonStackView"
++ "_communicationLimitsBlockingViewModel"
++ "_communicationLimitsDelegate"
++ "_embedCommunicationLimitsBlockingViewControllerWithType:"
++ "_performUnlockedActionWithCompletionHandler:"
++ "_shouldShowManagedAction"
++ "_updateButtonsForNaturalBlockingUIIfNeeded"
++ "aRW1"
++ "activateConstraints:"
++ "addChildViewController:"
++ "addSubview:"
++ "addToContactsButtonPressed"
++ "allObjects"
++ "applyPrimaryButtonStyle:"
++ "applySecondaryButtonStyle:"
++ "askToController"
++ "authenticateForCommunicationConfigurationOverrideWithCompletionHandler:"
++ "authenticated"
++ "blockingViewType"
++ "bottomAnchor"
++ "buttonStackView"
++ "communicationLimitsBlockingViewControllerWithViewModel:"
++ "communicationLimitsBlockingViewModel"
++ "communicationLimitsDelegate"
++ "communicationLimitsPreviewMessageButtonPressed"
++ "communicationLimitsPreviewMessageButtonPressed:"
++ "constraintEqualToSystemSpacingAfterAnchor:multiplier:"
++ "constraintGreaterThanOrEqualToConstant:"
++ "contentView"
++ "createCommunicationLimitsBlockingViewModelWithBlockingViewType:contactNameByHandle:delegate:handles:"
++ "didMoveToParentViewController:"
++ "handles"
++ "harden_shield_authentication"
++ "init()"
++ "init(coder:) has not been implemented"
++ "init(coder:rootView:)"
++ "init(rootView:)"
++ "isLocalUserManaged"
++ "leadingAnchor"
++ "lockoutViewControllerWithBundleIdentifier:contactsHandles:contactNameByHandle:type:"
++ "lockoutViewControllerWithConversationContext:bundleIdentifier:contactStore:applicationName:contactNameByHandle:type:"
++ "logger"
++ "messageBody"
++ "messageTitle"
++ "person.badge.shield.checkmark.fill"
++ "primaryButtonConfiguration"
++ "secondaryButtonConfiguration"
++ "sendCommLimitsQuestionForHandles:withReply:"
++ "setBlockingViewType:"
++ "setButtonStackView:"
++ "setCommunicationLimitsBlockingViewModel:"
++ "setCommunicationLimitsDelegate:"
++ "setSpacing:"
++ "setTranslatesAutoresizingMaskIntoConstraints:"
++ "set_blockingViewType:"
++ "systemGray6Color"
++ "telephonyUtilities"
++ "topAnchor"
++ "trailingAnchor"
++ "v24@?0@\"STAuthenticationResult\"8@\"NSError\"16"
++ "viewModel"
++ "willMoveToParentViewController:"
+- "B#$r"
+- "aQF1"
+
+```

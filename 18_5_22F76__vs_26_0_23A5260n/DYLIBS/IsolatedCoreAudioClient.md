@@ -1,0 +1,583 @@
+## IsolatedCoreAudioClient
+
+> `/System/Library/PrivateFrameworks/IsolatedCoreAudioClient.framework/IsolatedCoreAudioClient`
+
+```diff
+
+-5.605.0.0.0
+-  __TEXT.__text: 0x1b008
+-  __TEXT.__auth_stubs: 0xa50
++7.25.0.0.0
++  __TEXT.__text: 0x1b808
++  __TEXT.__auth_stubs: 0xa30
+   __TEXT.__objc_methlist: 0x884
+-  __TEXT.__const: 0x27c2
+-  __TEXT.__gcc_except_tab: 0x1dac
+-  __TEXT.__cstring: 0x950
+-  __TEXT.__oslogstring: 0x2863
+-  __TEXT.__unwind_info: 0xf48
++  __TEXT.__const: 0x27d2
++  __TEXT.__gcc_except_tab: 0x1d98
++  __TEXT.__cstring: 0x94f
++  __TEXT.__oslogstring: 0x29fa
++  __TEXT.__unwind_info: 0xf30
+   __TEXT.__objc_classname: 0x213
+   __TEXT.__objc_methname: 0x10ed
+-  __TEXT.__objc_methtype: 0xc66
++  __TEXT.__objc_methtype: 0xbf7
+   __TEXT.__objc_stubs: 0xbc0
+   __DATA_CONST.__got: 0x108
+   __DATA_CONST.__const: 0x1d0
+
+   __DATA_CONST.__objc_selrefs: 0x488
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x538
+-  __AUTH_CONST.__const: 0x2468
++  __AUTH_CONST.__auth_got: 0x528
++  __AUTH_CONST.__const: 0x2470
+   __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0xda8
+-  __AUTH.__objc_data: 0x190
+   __DATA.__objc_ivar: 0x64
+   __DATA.__data: 0x360
+-  __DATA.__bss: 0x218
+-  __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__bss: 0x10
++  __DATA.__bss: 0x208
++  __DATA_DIRTY.__objc_data: 0x2d0
++  __DATA_DIRTY.__bss: 0x20
+   - /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 08B4C840-226B-32A7-B9DB-A2B6792B8AA7
+-  Functions: 874
+-  Symbols:   2837
+-  CStrings:  530
++  UUID: 7666443C-4EE1-34AC-AE6D-1C814C6E5054
++  Functions: 872
++  Symbols:   2831
++  CStrings:  534
+ 
+Symbols:
++ GCC_except_table101
++ GCC_except_table114
++ GCC_except_table127
++ GCC_except_table130
++ GCC_except_table132
++ GCC_except_table134
++ GCC_except_table138
++ GCC_except_table147
++ GCC_except_table156
++ GCC_except_table165
++ GCC_except_table167
++ GCC_except_table17
++ GCC_except_table179
++ GCC_except_table181
++ GCC_except_table183
++ GCC_except_table186
++ GCC_except_table189
++ GCC_except_table190
++ GCC_except_table203
++ GCC_except_table206
++ GCC_except_table207
++ GCC_except_table215
++ GCC_except_table220
++ GCC_except_table231
++ GCC_except_table240
++ GCC_except_table247
++ GCC_except_table250
++ GCC_except_table251
++ GCC_except_table262
++ GCC_except_table27
++ GCC_except_table273
++ GCC_except_table277
++ GCC_except_table280
++ GCC_except_table290
++ GCC_except_table291
++ GCC_except_table292
++ GCC_except_table299
++ GCC_except_table328
++ GCC_except_table331
++ GCC_except_table341
++ GCC_except_table350
++ GCC_except_table369
++ GCC_except_table375
++ GCC_except_table378
++ GCC_except_table383
++ GCC_except_table392
++ GCC_except_table395
++ GCC_except_table403
++ GCC_except_table418
++ GCC_except_table42
++ GCC_except_table439
++ GCC_except_table442
++ GCC_except_table448
++ GCC_except_table45
++ GCC_except_table451
++ GCC_except_table452
++ GCC_except_table472
++ GCC_except_table475
++ GCC_except_table48
++ GCC_except_table519
++ GCC_except_table521
++ GCC_except_table529
++ GCC_except_table532
++ GCC_except_table535
++ GCC_except_table538
++ GCC_except_table545
++ GCC_except_table55
++ GCC_except_table550
++ GCC_except_table582
++ GCC_except_table585
++ GCC_except_table609
++ GCC_except_table649
++ GCC_except_table65
++ GCC_except_table654
++ GCC_except_table664
++ GCC_except_table671
++ GCC_except_table673
++ GCC_except_table683
++ GCC_except_table689
++ GCC_except_table699
++ GCC_except_table710
++ GCC_except_table717
++ GCC_except_table721
++ GCC_except_table724
++ GCC_except_table744
++ GCC_except_table757
++ GCC_except_table767
++ GCC_except_table79
++ GCC_except_table801
++ GCC_except_table808
++ GCC_except_table814
++ GCC_except_table818
++ GCC_except_table820
++ GCC_except_table83
++ GCC_except_table856
++ GCC_except_table857
++ GCC_except_table86
++ GCC_except_table861
++ GCC_except_table869
++ GCC_except_table874
++ GCC_except_table875
++ GCC_except_table95
++ __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.1093
++ __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.23
++ __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.660
++ __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.883
++ __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.380
++ __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.423
++ __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.715
++ __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.953
++ __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.521
++ __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.582
++ __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.925
++ __ZGVZL32sIsolatedCoreAudioMicActivityLogvE4sLog.623
++ __ZGVZL32sIsolatedCoreAudioMicActivityLogvE4sLog.780
++ __ZL27sIsolatedCoreAudioClientLogv.1090
++ __ZL27sIsolatedCoreAudioClientLogv.654
++ __ZL27sIsolatedCoreAudioClientLogv.880
++ __ZL27sIsolatedCoreAudioServerLogv.378
++ __ZL27sIsolatedCoreAudioServerLogv.418
++ __ZL27sIsolatedCoreAudioServerLogv.950
++ __ZL27sIsolatedCoreAudioSiphonLogv.518
++ __ZL27sIsolatedCoreAudioSiphonLogv.579
++ __ZL27sIsolatedCoreAudioSiphonLogv.922
++ __ZN10applesauce2CF8ArrayRefD2Ev
++ __ZN10applesauce2CF9NumberRefD2Ev
++ __ZN10applesauce2CF9ObjectRefIPK10__CFNumberED2Ev
++ __ZN10applesauce2CF9ObjectRefIPKvED2Ev
++ __ZN12IOThreadWorkD2Ev
++ __ZN18ServerSideHardware26AttachCallbacksToHALDeviceENSt3__110shared_ptrI20IsolatedAudioUseCaseEE
++ __ZN18ServerSideHardwareD2Ev
++ __ZNKOSt3__18expectedINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiE5valueB8ne200100Ev
++ __ZNKOSt3__18expectedIjiE5valueB8ne200100Ev
++ __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE7__cloneEv
++ __ZNKSt9type_infoeqB8ne200100ERKS_
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt3__110__function12__alloc_funcIZN22ServerSideUniqueClient25GetClientFacingIOCallbackEvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE7destroyB8ne200100Ev
++ __ZNSt3__110__function12__alloc_funcIZN26ServerSideAudioSwitchboard16addClientUseCaseEjE3$_0NS_9allocatorIS3_EEFvvEE7destroyB8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFNS_10shared_ptrI10HALUseCaseEEjEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFbvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFv10LapseChainEEC2B8ne200100EOS4_
++ __ZNSt3__110__function12__value_funcIFv10LapseChainEEC2B8ne200100ERKS4_
++ __ZNSt3__110__function12__value_funcIFv10LapseChainEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEEC2B8ne200100EOS4_
++ __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEEC2B8ne200100ERKS4_
++ __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvbEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFviEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFviEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvvEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFxvEE4swapB8ne200100ERS3_
++ __ZNSt3__110__function12__value_funcIFxvEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFxvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFxxEED2B8ne200100Ev
++ __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEE7destroyEv
++ __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEED0Ev
++ __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEED1Ev
++ __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEEclEOi
++ __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEE7destroyEv
++ __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEED0Ev
++ __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEED1Ev
++ __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEEclEOb
++ __ZNSt3__110shared_ptrIN5caulk4mach9semaphoreEEaSB8ne200100IS3_NS_14default_deleteIS3_EELi0EEERS4_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110unique_ptrI12IOThreadWorkNS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrI12SiphonClientNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrI17CoreAudioCallbackNS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrI23ClientIOThreadResourcesNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrI23ServerIOThreadResourcesNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrI8IOThreadNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrIN5caulk4mach9semaphoreENS_14default_deleteIS3_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS0_I12SiphonClientNS_14default_deleteIS3_EEEEEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN17ClientLocalServer25tellServerToStartIOAtTimeEyE3$_0EEENS3_IS8_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_6threadENS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrIZZN26ServerSideAudioSwitchboard16addClientUseCaseEjENK3$_0clEvEUlvE_NS_14default_deleteIS3_EEED1B8ne200100Ev
++ __ZNSt3__111make_uniqueB8ne200100I26ClientSideAudioSwitchboardJRNS_8functionIFvvEEENS_10unique_ptrI25RemoteAudioHardwareServerNS_14default_deleteIS7_EEEEELi0EEENS6_IT_NS8_ISB_EEEEDpOT0_
++ __ZNSt3__111unique_lockINS_12shared_mutexEED2B8ne200100Ev
++ __ZNSt3__112__destroy_atB8ne200100IN10applesauce2CF13DictionaryRefELi0EEEvPT_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112shared_mutexD2B8ne200100Ev
++ __ZNSt3__114__thread_proxyB8ne200100INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN17ClientLocalServer25tellServerToStartIOAtTimeEyE3$_0EEEEEPvSA_
++ __ZNSt3__115allocate_sharedB8ne200100I14MADMultiplexerNS_9allocatorIS1_EEJbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100I38IsolatedCoreAudioClientExclaveKitProxyNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100I9MADClientNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100IN5caulk4mach9semaphoreENS_9allocatorIS3_EEJRKjELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ27CreateHistoricalAudioPortalE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ30CreateMicrophoneActivityPortalE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ31CreateIsolatedAudioSiphonPortalE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ32CreateIsolatedAudioServicePortalE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ9getClientjE3$_0EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZN23AudioClientForUnitTests11GetInstanceEvE3$_0EEEEEvPv
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIjNS_10shared_ptrI10HALUseCaseEEEEPvEEEEEclB8ne200100EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIjNS_10shared_ptrI22ServerSideUniqueClientEEEEPvEEEEEclB8ne200100EPS9_
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZNSt3__127__throw_bad_optional_accessB8ne200100Ev
++ __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__19allocatorIPKvE17allocate_at_leastB8ne200100Em
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTINSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEEE
++ __ZTINSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEEE
++ __ZTIZ40-[MADClientInterface createClientReaper]E3$_0
++ __ZTIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1
++ __ZTSNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEEE
++ __ZTSNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEEE
++ __ZTSZ40-[MADClientInterface createClientReaper]E3$_0
++ __ZTSZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1
++ __ZTVNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_0NS_9allocatorIS2_EEFviEEE
++ __ZTVNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_1NS_9allocatorIS2_EEFvbEEE
++ __ZZL27sIsolatedCoreAudioClientLogvE4sLog.1094
++ __ZZL27sIsolatedCoreAudioClientLogvE4sLog.25
++ __ZZL27sIsolatedCoreAudioClientLogvE4sLog.663
++ __ZZL27sIsolatedCoreAudioClientLogvE4sLog.886
++ __ZZL27sIsolatedCoreAudioServerLogvE4sLog.381
++ __ZZL27sIsolatedCoreAudioServerLogvE4sLog.426
++ __ZZL27sIsolatedCoreAudioServerLogvE4sLog.718
++ __ZZL27sIsolatedCoreAudioServerLogvE4sLog.956
++ __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.522
++ __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.585
++ __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.928
++ __ZZL32sIsolatedCoreAudioMicActivityLogvE4sLog.626
++ __ZZL32sIsolatedCoreAudioMicActivityLogvE4sLog.781
++ ___block_descriptor_33_ea8_32c39_ZTSKZ26-[MADClientInterface init]E3$_2_e8_v12?0i8l
++ ___block_descriptor_tmp.586
++ ___block_literal_global.534
++ ___block_literal_global.789
++ ___copy_helper_block_ea8_32c39_ZTSKZ26-[MADClientInterface init]E3$_2
++ ___destroy_helper_block_ea8_32.808
++ _objc_release_x27
+- GCC_except_table102
+- GCC_except_table115
+- GCC_except_table128
+- GCC_except_table131
+- GCC_except_table133
+- GCC_except_table135
+- GCC_except_table139
+- GCC_except_table148
+- GCC_except_table161
+- GCC_except_table166
+- GCC_except_table168
+- GCC_except_table180
+- GCC_except_table182
+- GCC_except_table187
+- GCC_except_table188
+- GCC_except_table191
+- GCC_except_table194
+- GCC_except_table205
+- GCC_except_table208
+- GCC_except_table209
+- GCC_except_table217
+- GCC_except_table222
+- GCC_except_table23
+- GCC_except_table239
+- GCC_except_table24
+- GCC_except_table242
+- GCC_except_table249
+- GCC_except_table252
+- GCC_except_table253
+- GCC_except_table266
+- GCC_except_table275
+- GCC_except_table279
+- GCC_except_table282
+- GCC_except_table283
+- GCC_except_table29
+- GCC_except_table293
+- GCC_except_table304
+- GCC_except_table306
+- GCC_except_table307
+- GCC_except_table330
+- GCC_except_table335
+- GCC_except_table343
+- GCC_except_table352
+- GCC_except_table371
+- GCC_except_table377
+- GCC_except_table382
+- GCC_except_table387
+- GCC_except_table401
+- GCC_except_table402
+- GCC_except_table405
+- GCC_except_table420
+- GCC_except_table44
+- GCC_except_table441
+- GCC_except_table444
+- GCC_except_table450
+- GCC_except_table457
+- GCC_except_table473
+- GCC_except_table476
+- GCC_except_table520
+- GCC_except_table526
+- GCC_except_table53
+- GCC_except_table531
+- GCC_except_table533
+- GCC_except_table536
+- GCC_except_table539
+- GCC_except_table546
+- GCC_except_table552
+- GCC_except_table57
+- GCC_except_table583
+- GCC_except_table586
+- GCC_except_table610
+- GCC_except_table651
+- GCC_except_table655
+- GCC_except_table66
+- GCC_except_table665
+- GCC_except_table672
+- GCC_except_table674
+- GCC_except_table687
+- GCC_except_table690
+- GCC_except_table702
+- GCC_except_table711
+- GCC_except_table720
+- GCC_except_table723
+- GCC_except_table725
+- GCC_except_table746
+- GCC_except_table758
+- GCC_except_table768
+- GCC_except_table802
+- GCC_except_table809
+- GCC_except_table815
+- GCC_except_table819
+- GCC_except_table82
+- GCC_except_table821
+- GCC_except_table85
+- GCC_except_table858
+- GCC_except_table859
+- GCC_except_table863
+- GCC_except_table87
+- GCC_except_table873
+- GCC_except_table876
+- GCC_except_table877
+- GCC_except_table96
+- __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.1083
+- __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.22
+- __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.656
+- __ZGVZL27sIsolatedCoreAudioClientLogvE4sLog.878
+- __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.379
+- __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.421
+- __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.711
+- __ZGVZL27sIsolatedCoreAudioServerLogvE4sLog.949
+- __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.517
+- __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.578
+- __ZGVZL27sIsolatedCoreAudioSiphonLogvE4sLog.921
+- __ZGVZL32sIsolatedCoreAudioMicActivityLogvE4sLog.619
+- __ZGVZL32sIsolatedCoreAudioMicActivityLogvE4sLog.777
+- __ZL27sIsolatedCoreAudioClientLogv.1080
+- __ZL27sIsolatedCoreAudioClientLogv.650
+- __ZL27sIsolatedCoreAudioClientLogv.875
+- __ZL27sIsolatedCoreAudioServerLogv.377
+- __ZL27sIsolatedCoreAudioServerLogv.416
+- __ZL27sIsolatedCoreAudioServerLogv.946
+- __ZL27sIsolatedCoreAudioSiphonLogv.514
+- __ZL27sIsolatedCoreAudioSiphonLogv.575
+- __ZL27sIsolatedCoreAudioSiphonLogv.918
+- __ZL32sIsolatedCoreAudioMicActivityLogv.774
+- __ZN10applesauce2CF8ArrayRefD1Ev
+- __ZN10applesauce2CF9NumberRefD1Ev
+- __ZN10applesauce2CF9ObjectRefIPK10__CFNumberED1Ev
+- __ZN10applesauce2CF9ObjectRefIPKvED1Ev
+- __ZN12IOThreadWorkD1Ev
+- __ZNKOSt3__18expectedINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiE5valueB8ne190102Ev
+- __ZNKOSt3__18expectedIjiE5valueB8ne190102Ev
+- __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE7__cloneEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__114default_deleteI12IOThreadWorkEclB8ne190102EPS1_
+- __ZNKSt3__114default_deleteI12SiphonClientEclB8ne190102EPS1_
+- __ZNKSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt9type_infoeqB8ne190102ERKS_
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt12out_of_rangeC1B8ne190102EPKc
+- __ZNSt3__110__function12__alloc_funcIZN22ServerSideUniqueClient25GetClientFacingIOCallbackEvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE7destroyB8ne190102Ev
+- __ZNSt3__110__function12__alloc_funcIZN26ServerSideAudioSwitchboard16addClientUseCaseEjE3$_0NS_9allocatorIS3_EEFvvEE7destroyB8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFNS_10shared_ptrI10HALUseCaseEEjEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFbvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFv10LapseChainEEC2B8ne190102EOS4_
+- __ZNSt3__110__function12__value_funcIFv10LapseChainEEC2B8ne190102ERKS4_
+- __ZNSt3__110__function12__value_funcIFv10LapseChainEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEEC2B8ne190102EOS4_
+- __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEEC2B8ne190102ERKS4_
+- __ZNSt3__110__function12__value_funcIFv18CoreAudioTimestampEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvbEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFviEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFviEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvvEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFvvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFxvEE4swapB8ne190102ERS3_
+- __ZNSt3__110__function12__value_funcIFxvEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFxvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFxxEED2B8ne190102Ev
+- __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEE7destroyEv
+- __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEED0Ev
+- __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEED1Ev
+- __ZNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEEclEOi
+- __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEE7destroyEv
+- __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEED0Ev
+- __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEED1Ev
+- __ZNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEEclEOb
+- __ZNSt3__110shared_ptrIN5caulk4mach9semaphoreEEaSB8ne190102IS3_NS_14default_deleteIS3_EELi0EEERS4_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110unique_ptrI17CoreAudioCallbackNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrI23ClientIOThreadResourcesNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrI23ServerIOThreadResourcesNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrI8IOThreadNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrIN5caulk4mach9semaphoreENS_14default_deleteIS3_EEE5resetB8ne190102EPS3_
+- __ZNSt3__110unique_ptrINS_15__thread_structENS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrINS_5tupleIJNS0_INS_15__thread_structENS_14default_deleteIS2_EEEEZN17ClientLocalServer25tellServerToStartIOAtTimeEyE3$_0EEENS3_IS8_EEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_6threadENS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrIZZN26ServerSideAudioSwitchboard16addClientUseCaseEjENK3$_0clEvEUlvE_NS_14default_deleteIS3_EEED1B8ne190102Ev
+- __ZNSt3__111make_uniqueB8ne190102I26ClientSideAudioSwitchboardJRNS_8functionIFvvEEENS_10unique_ptrI25RemoteAudioHardwareServerNS_14default_deleteIS7_EEEEEEENS_11__unique_ifIT_E15__unique_singleEDpOT0_
+- __ZNSt3__111shared_lockINS_12shared_mutexEED2B8ne190102Ev
+- __ZNSt3__111unique_lockINS_12shared_mutexEED2B8ne190102Ev
+- __ZNSt3__112__destroy_atB8ne190102IN10applesauce2CF13DictionaryRefELi0EEEvPT_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIjNS_10shared_ptrI10HALUseCaseEEEENS_22__unordered_map_hasherIjS5_NS_4hashIjEENS_8equal_toIjEELb1EEENS_21__unordered_map_equalIjS5_SA_S8_Lb1EEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__112shared_mutexD1B8ne190102Ev
+- __ZNSt3__114__thread_proxyB8ne190102INS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN17ClientLocalServer25tellServerToStartIOAtTimeEyE3$_0EEEEEPvSA_
+- __ZNSt3__115allocate_sharedB8ne190102I14MADMultiplexerNS_9allocatorIS1_EEJbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102I38IsolatedCoreAudioClientExclaveKitProxyNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102I9MADClientNS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN5caulk4mach9semaphoreENS_9allocatorIS3_EEJRKjELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ27CreateHistoricalAudioPortalE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ30CreateMicrophoneActivityPortalE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ31CreateIsolatedAudioSiphonPortalE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ32CreateIsolatedAudioServicePortalE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ9getClientjE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZN23AudioClientForUnitTests11GetInstanceEvE3$_0EEEEEvPv
+- __ZNSt3__119__shared_mutex_base11lock_sharedEv
+- __ZNSt3__119__shared_mutex_base13unlock_sharedEv
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
+- __ZNSt3__122__compressed_pair_elemIZN22ServerSideUniqueClient25GetClientFacingIOCallbackEvE3$_0Li0ELb0EEC2B8ne190102IJRKS2_EJLm0EEEENS_21piecewise_construct_tENS_5tupleIJDpT_EEENS_15__tuple_indicesIJXspT0_EEEE
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIjNS_10shared_ptrI10HALUseCaseEEEEPvEEEEEclB8ne190102EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIjNS_10shared_ptrI22ServerSideUniqueClientEEEEPvEEEEEclB8ne190102EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIjNS_10unique_ptrI12SiphonClientNS_14default_deleteIS5_EEEEEEPvEEEEEclB8ne190102EPSB_
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __ZNSt3__127__throw_bad_optional_accessB8ne190102Ev
+- __ZNSt3__16vectorIN10applesauce2CF13DictionaryRefENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__19allocatorIPKvE17allocate_at_leastB8ne190102Em
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZTINSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEEE
+- __ZTINSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEEE
+- __ZTIZ40-[MADClientInterface createClientReaper]E3$_1
+- __ZTIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2
+- __ZTSNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEEE
+- __ZTSNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEEE
+- __ZTSZ40-[MADClientInterface createClientReaper]E3$_1
+- __ZTSZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2
+- __ZTVNSt3__110__function6__funcIZ40-[MADClientInterface createClientReaper]E3$_1NS_9allocatorIS2_EEFviEEE
+- __ZTVNSt3__110__function6__funcIZ56-[MADClientInterface listenForMicrophoneActivity:reply:]E3$_2NS_9allocatorIS2_EEFvbEEE
+- __ZZL27sIsolatedCoreAudioClientLogvE4sLog.1084
+- __ZZL27sIsolatedCoreAudioClientLogvE4sLog.24
+- __ZZL27sIsolatedCoreAudioClientLogvE4sLog.659
+- __ZZL27sIsolatedCoreAudioClientLogvE4sLog.881
+- __ZZL27sIsolatedCoreAudioServerLogvE4sLog.380
+- __ZZL27sIsolatedCoreAudioServerLogvE4sLog.424
+- __ZZL27sIsolatedCoreAudioServerLogvE4sLog.714
+- __ZZL27sIsolatedCoreAudioServerLogvE4sLog.952
+- __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.518
+- __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.581
+- __ZZL27sIsolatedCoreAudioSiphonLogvE4sLog.924
+- __ZZL32sIsolatedCoreAudioMicActivityLogvE4sLog.622
+- __ZZL32sIsolatedCoreAudioMicActivityLogvE4sLog.778
+- __Znwm
+- ___block_descriptor_33_ea8_32c39_ZTSKZ26-[MADClientInterface init]E3$_0_e8_v12?0i8l
+- ___block_descriptor_tmp.582
+- ___block_literal_global.530
+- ___block_literal_global.786
+- ___copy_helper_block_ea8_32c39_ZTSKZ26-[MADClientInterface init]E3$_0
+- ___destroy_helper_block_ea8_32.805
+CStrings:
++ "%25s:%-5d ClientSideAudioSwitchboardIOThread::IOMainWorkloopFunction - heading for the egress."
++ "%25s:%-5d ServerSideAudioSwitchboard::addClientUseCase client %s already exists"
++ "%25s:%-5d ServerSideAudioSwitchboard::registerForIO client %s is already registered for IO"
++ "%25s:%-5d ServerSideHardware::AttachCallbacksToHALDevice - Failed to create audio device IO proc - error: %s"
++ "%25s:%-5d ServerSideHardware::AttachCallbacksToHALDevice - IOProcID succeeded"
++ "%25s:%-5d ServerSideHardware::AttachCallbacksToHALDevice - Skipping creating IO proc installation, device hasn't changed"
++ "@48@0:8{function<void (int)>={__value_func<void (int)>=(type=[24C])^v}}16"
++ "T{function<void (int)>={__value_func<void (int)>=(type=[24C])^v}},N,V_mClientReaper"
++ "v48@0:8{function<void (int)>={__value_func<void (int)>=(type=[24C])^v}}16"
++ "{IOThreadWorkgroup={unique_ptr<caulk::mach::os_workgroup_managed, std::default_delete<caulk::mach::os_workgroup_managed>>=^{os_workgroup_managed}}}16@0:8"
++ "{function<void (int)>=\"__f_\"{__value_func<void (int)>=\"__buf_\"(type=\"__data\"[24C])\"__f_\"^v}}"
++ "{function<void (int)>={__value_func<void (int)>=(type=[24C])^v}}16@0:8"
+- "%25s:%-5d ServerSideHardware::RegisterCallback - Failed to create audio device IO proc - error: %s"
+- "%25s:%-5d ServerSideHardware::RegisterCallback - IOProcID succeeded"
+- "@48@0:8{function<void (int)>={__value_func<void (int)>={type=[24C]}^v}}16"
+- "T{function<void (int)>={__value_func<void (int)>={type=[24C]}^v}},N,V_mClientReaper"
+- "v48@0:8{function<void (int)>={__value_func<void (int)>={type=[24C]}^v}}16"
+- "{IOThreadWorkgroup={unique_ptr<caulk::mach::os_workgroup_managed, std::default_delete<caulk::mach::os_workgroup_managed>>={__compressed_pair<caulk::mach::os_workgroup_managed *, std::default_delete<caulk::mach::os_workgroup_managed>>=^{os_workgroup_managed}}}}16@0:8"
+- "{function<void (int)>=\"__f_\"{__value_func<void (int)>=\"__buf_\"{type=\"__lx\"[24C]}\"__f_\"^v}}"
+- "{function<void (int)>={__value_func<void (int)>={type=[24C]}^v}}16@0:8"
+
+```

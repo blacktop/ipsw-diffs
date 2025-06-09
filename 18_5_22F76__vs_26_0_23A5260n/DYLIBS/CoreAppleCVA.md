@@ -1,0 +1,355 @@
+## CoreAppleCVA
+
+> `/System/Library/PrivateFrameworks/CoreAppleCVA.framework/CoreAppleCVA`
+
+```diff
+
+-4.1.2.0.0
+-  __TEXT.__text: 0x8969c
+-  __TEXT.__auth_stubs: 0x1b30
+-  __TEXT.__const: 0x613
+-  __TEXT.__gcc_except_tab: 0x102c
+-  __TEXT.__cstring: 0xfe7
++4.3.0.0.0
++  __TEXT.__text: 0x60110
++  __TEXT.__auth_stubs: 0x1820
++  __TEXT.__const: 0x579
++  __TEXT.__gcc_except_tab: 0xc9c
++  __TEXT.__cstring: 0xb91
+   __TEXT.__oslogstring: 0x7ea
+-  __TEXT.__unwind_info: 0x1748
++  __TEXT.__unwind_info: 0x11e8
+   __TEXT.__objc_methname: 0x55b
+   __TEXT.__objc_stubs: 0x920
+-  __DATA_CONST.__got: 0x228
+-  __DATA_CONST.__const: 0xa8
++  __DATA_CONST.__got: 0x220
++  __DATA_CONST.__const: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x248
+-  __AUTH_CONST.__auth_got: 0xda8
+-  __AUTH_CONST.__const: 0x1358
++  __AUTH_CONST.__auth_got: 0xc20
++  __AUTH_CONST.__const: 0xc60
+   __AUTH_CONST.__cfstring: 0xe0
+-  __DATA.__data: 0x20
+-  __DATA.__bss: 0xb60
++  __DATA.__data: 0x10
++  __DATA.__bss: 0xb38
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A65BA834-9B5E-3FDA-918A-CA9C5930E614
+-  Functions: 2118
+-  Symbols:   2065
+-  CStrings:  331
++  UUID: EDD6C81C-21C8-3FCE-9553-52BCD8694FF3
++  Functions: 1724
++  Symbols:   1850
++  CStrings:  253
+ 
+Symbols:
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
+- __ZGVZN3cva9Rotation3IdE14ExpAndJacobianERKNS_9MatrixRefIKdLj3ELj1ELb0EEEPNS_6MatrixIdLj3ELj3ELb0EEEE10kThreshold
+- __ZN3cva12safeDivisionIdvEEbT_S1_RS1_
+- __ZN3cva12safeDivisionIfvEEbT_S1_RS1_
+- __ZN3cva14CoordinateType6BlocksE
+- __ZN3cva14CoordinateType8ElementsE
+- __ZN3cva14safeReciprocalIdvEEbT_RS1_
+- __ZN3cva14safeReciprocalIfvEEbT_RS1_
+- __ZN3cva19RigidBodyKinematics21integrateAndJacobiansERKNS_15Transformation3IdEERKNS_9MatrixRefIKdLj3ELj1ELb0EEES9_S9_dS9_RS2_NS5_IdLj3ELj1ELb0EEEPNS_6MatrixIdLj6ELj6ELb0EEEPNSC_IdLj6ELj3ELb0EEESG_SG_PNSC_IdLj3ELj6ELb0EEEPNSC_IdLj3ELj3ELb0EEESK_SK_
+- __ZN3cva19RigidBodyKinematics9integrateERKNS_15Transformation3IdEERKNS_9MatrixRefIKdLj3ELj1ELb0EEES9_S9_dS9_RS2_NS5_IdLj3ELj1ELb0EEE
+- __ZN3cva3adp2io10createPathERKNS_4PathE
+- __ZN3cva3adp2io10whiteSpaceEb
+- __ZN3cva3adp2io11isDirectoryERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN3cva3adp2io11readVersionERKNS1_15PListSerializerERKNS0_9PListPathERKNSt3__112basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEERNS0_7VersionE
+- __ZN3cva3adp2io12writeVersionERNS1_15PListSerializerERKNS0_9PListPathERKNSt3__112basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEERKNS0_7VersionE
+- __ZN3cva3adp2io13FileDirectory10seekToFileEd
+- __ZN3cva3adp2io13FileDirectory14parseDirectoryEv
+- __ZN3cva3adp2io13FileDirectory14seekToPositionEm
+- __ZN3cva3adp2io13FileDirectory4openERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_SB_
+- __ZN3cva3adp2io13FileDirectory5closeEv
+- __ZN3cva3adp2io13FileDirectory5rmdirERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEb
+- __ZN3cva3adp2io13FileDirectory7forwardEm
+- __ZN3cva3adp2io13FileDirectory8backwardEm
+- __ZN3cva3adp2io15PListSerializer10createPathERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN3cva3adp2io15PListSerializer10createPathERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEERNS3_10shared_ptrINS_17DictionaryHandlerEEE
+- __ZN3cva3adp2io15PListSerializer4readERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN3cva3adp2io15PListSerializer5clearEv
+- __ZN3cva3adp2io15PListSerializer6createEv
+- __ZN3cva3adp2io15PListSerializer7getPathERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZN3cva3adp2io15PListSerializer7getPathERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEERNS3_10shared_ptrINS_17DictionaryHandlerEEE
+- __ZN3cva3adp2io15PListSerializer7setItemINSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEEEbRKSA_SC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIbEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIdEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIfEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIiEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIjEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIxEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializer7setItemIyEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RKT_
+- __ZN3cva3adp2io15PListSerializerC1Ev
+- __ZN3cva3adp2io15PListSerializerC2Ev
+- __ZN3cva3adp2io15PListSerializerD1Ev
+- __ZN3cva3adp2io15PListSerializerD2Ev
+- __ZN3cva3adp2io15openInputStreamERKNS_4PathE
+- __ZN3cva3adp2io15processFullPathERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEERS8_
+- __ZN3cva3adp2io16openOutputStreamERKNS_4PathEb
+- __ZN3cva3adp2io16openOutputStreamERKNS_4PathEib
+- __ZN3cva3adp2io5Paths10trajectoryEv
+- __ZN3cva3adp2io5Paths11imagePointsEv
+- __ZN3cva3adp2io5Paths11scenePointsEv
+- __ZN3cva3adp2io5Paths15outputDirectoryERKNS_4PathERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+- __ZN3cva3adp2io5Paths15sensorDirectoryERKNS_4PathERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+- __ZN3cva3adp2io5Paths15sensorDirectoryERKNS_4PathERKNSt3__13mapIhNS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENS6_4lessIhEENSB_INS6_4pairIKhSD_EEEEEEhRKSD_
+- __ZN3cva3adp2io5Paths16outputsDirectoryERKNS_4PathE
+- __ZN3cva3adp2io5Paths16sensorsDirectoryERKNS_4PathE
+- __ZN3cva3adp2io5Paths21createOutputDirectoryERKNS_4PathERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEE
+- __ZN3cva3adp2io5Paths23createOutputDirectoriesERKNS_4PathERKNSt3__13mapIhNS6_12basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEENS6_4lessIhEENSB_INS6_4pairIKhSD_EEEEEERKSD_
+- __ZN3cva3adp2io5Paths6tracksEv
+- __ZN3cva3adp2io5Paths7encoderEv
+- __ZN3cva3adp2io6detail11keysToNamesERKNS1_15PListSerializerERKNSt3__112basic_stringIcNS6_11char_traitsIcEENS6_9allocatorIcEEEERKNS6_6vectorISC_NSA_ISC_EEEESE_RNS6_3mapIySC_NS6_4lessIyEENSA_INS6_4pairIKySC_EEEEEE
+- __ZN3cva3adp2io6detail11reverseFindERKNSt3__13mapIhhNS3_4lessIhEENS3_9allocatorINS3_4pairIKhhEEEEEENS3_20__map_const_iteratorINS3_21__tree_const_iteratorINS3_12__value_typeIhhEEPNS3_11__tree_nodeISI_PvEElEEEERS9_
+- __ZN3cva3adp2io6detail12hasDelimiterERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_RS9_
+- __ZN3cva3adp2io6detail14findChildNodesERKNSt3__13mapIhhNS3_4lessIhEENS3_9allocatorINS3_4pairIKhhEEEEEEhRNS3_6vectorIhNS7_IhEEEE
+- __ZN3cva3adp2io6detail15EnumDescriptionINS_3geo11eCameraTypeEvE5namesE
+- __ZN3cva3adp2io6detail15EnumDescriptionINS_3geo15eExtrinsicsTypeEvE5namesE
+- __ZN3cva3adp2io6detail15EnumDescriptionINS_3geo20eProjectionModelTypeEvE5namesE
+- __ZN3cva3adp2io6detail16createFromToTreeERKNSt3__13mapIyNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_4lessIyEENS8_INS3_4pairIKySA_EEEEEERKNS3_6vectorISA_NS8_ISA_EEEERKSA_RNS4_IhhNSB_IhEENS8_INSD_IKhhEEEEEE
+- __ZN3cva3adp2io6detail8endsWithERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_
+- __ZN3cva3adp2io6detail9hasSensorERKNSt3__13mapIyNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_4lessIyEENS8_INS3_4pairIKySA_EEEEEERKSA_Ry
+- __ZN3cva3adp2io6isFileERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN3cva3adp2io7endLineEb
+- __ZN3cva3adp7SessionIdE10loadDeviceERKNS_4PathERKNS0_9PListPathE
+- __ZN3cva3adp7SessionIdE11setDataPathERKNS_4PathE
+- __ZN3cva3adp7SessionIdE11setDataPathERKNS_4PathES5_
+- __ZN3cva3adp7SessionIdE23loadImagePoint3TrackSetERNS_3geo8TrackSetINS3_16ImageMeasurementIdEENS3_6Point3IdEEEE
+- __ZN3cva3adp7SessionIfE10loadDeviceERKNS_4PathERKNS0_9PListPathE
+- __ZN3cva3adp7SessionIfE11setDataPathERKNS_4PathE
+- __ZN3cva3adp7SessionIfE11setDataPathERKNS_4PathES5_
+- __ZN3cva3adp7SessionIfE23loadImagePoint3TrackSetERNS_3geo8TrackSetINS3_16ImageMeasurementIfEENS3_6Point3IfEEEE
+- __ZN3cva3adp7Version14currentVersionEv
+- __ZN3cva3adp7Version14defaultVersionEv
+- __ZN3cva3adp7Version3logERKS1_
+- __ZN3cva3adp9PListPathC1ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN3cva3adp9PListPathC1Ev
+- __ZN3cva3adp9PListPathC2ERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN3cva3adp9PListPathC2Ev
+- __ZN3cva3geo10SourceViewC1Em
+- __ZN3cva3geo10SourceViewC1Emh
+- __ZN3cva3geo10SourceViewC2Em
+- __ZN3cva3geo10SourceViewC2Emh
+- __ZN3cva3geo10SourceViewaSERKS1_
+- __ZN3cva3geo5ChartIdE12setFreeFixedEb
+- __ZN3cva3geo5ChartIdE6createEjjjbd
+- __ZN3cva3geo5ChartIdEC1Ejjdbj
+- __ZN3cva3geo5ChartIdEC2Ejjdbj
+- __ZN3cva3geo5ChartIfE12setFreeFixedEb
+- __ZN3cva3geo5ChartIfE6createEjjjbf
+- __ZN3cva3geo5ChartIfEC1Ejjfbj
+- __ZN3cva3geo5ChartIfEC2Ejjfbj
+- __ZN3cva3geoeqERKNS0_10SourceViewES3_
+- __ZN3cva3geoltERKNS0_10SourceViewES3_
+- __ZN3cva3geoneERKNS0_10SourceViewES3_
+- __ZNK3cva3adp2io13FileDirectory13numberOfFilesEv
+- __ZNK3cva3adp2io13FileDirectory15currentFileNameEv
+- __ZNK3cva3adp2io13FileDirectory15currentFilePathEv
+- __ZNK3cva3adp2io13FileDirectory15currentPositionEv
+- __ZNK3cva3adp2io13FileDirectory7isAtEndEv
+- __ZNK3cva3adp2io13FileDirectory9currentIDEv
+- __ZNK3cva3adp2io15PListSerializer13decomposePathERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_6vectorIS9_NS7_IS9_EEEE
+- __ZNK3cva3adp2io15PListSerializer5writeERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZNK3cva3adp2io15PListSerializer7getItemINSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEEEEbRKSA_SC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIbEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIdEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIfEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIiEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIjEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIxEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getItemIyEEbRKNSt3__112basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEESC_RT_
+- __ZNK3cva3adp2io15PListSerializer7getKeysERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERNS3_6vectorIS9_NS7_IS9_EEEE
+- __ZNK3cva3adp2io15PListSerializer7getPathERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZNK3cva3adp2io15PListSerializer7getPathERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEERKNS3_10shared_ptrINS_17DictionaryHandlerEEE
+- __ZNK3cva3adp2io15PListSerializer7hasPathERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
+- __ZNK3cva3adp2io15PListSerializer7hasPathERKNSt3__16vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS8_ISA_EEEERKNS3_10shared_ptrINS_17DictionaryHandlerEEE
+- __ZNK3cva3adp2io15PListSerializer7isValidEv
+- __ZNK3cva3adp7SessionIdE10serializerEv
+- __ZNK3cva3adp7SessionIdE11sensorsPathEv
+- __ZNK3cva3adp7SessionIdE17loadDiscretePosesERNS_3geo14DiscreteStatesILNS3_10eStateTypeE1EdEE
+- __ZNK3cva3adp7SessionIdE24loadImageMeasurementsSetERNSt3__113unordered_mapINS_3geo10SourceViewENS3_6vectorINS5_16ImageMeasurementIdEENS3_9allocatorIS9_EEEENS3_4hashIS6_EENS3_8equal_toIS6_EENSA_INS3_4pairIKS6_SC_EEEEEE
+- __ZNK3cva3adp7SessionIdE8dataPathEv
+- __ZNK3cva3adp7SessionIfE10serializerEv
+- __ZNK3cva3adp7SessionIfE11sensorsPathEv
+- __ZNK3cva3adp7SessionIfE17loadDiscretePosesERNS_3geo14DiscreteStatesILNS3_10eStateTypeE1EfEE
+- __ZNK3cva3adp7SessionIfE24loadImageMeasurementsSetERNSt3__113unordered_mapINS_3geo10SourceViewENS3_6vectorINS5_16ImageMeasurementIfEENS3_9allocatorIS9_EEEENS3_4hashIS6_EENS3_8equal_toIS6_EENSA_INS3_4pairIKS6_SC_EEEEEE
+- __ZNK3cva3adp7SessionIfE8dataPathEv
+- __ZNK3cva3adp7Version9isCurrentEv
+- __ZNK3cva3adp7VersioneqERKS1_
+- __ZNK3cva3adp7VersiongtERKS1_
+- __ZNK3cva3adp7VersionltERKS1_
+- __ZNK3cva3adp9PListPath13convertToPathERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK3cva3adp9PListPath6stringEv
+- __ZNK3cva3adp9PListPathplERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK3cva3adp9PListPathplERKS1_
+- __ZNK3cva3geo5ChartIdE10cornerTypeEj
+- __ZNK3cva3geo5ChartIdE10hasTrackIDEj
+- __ZNK3cva3geo5ChartIdE10squareSizeEv
+- __ZNK3cva3geo5ChartIdE11almostEqualERKS2_d
+- __ZNK3cva3geo5ChartIdE4rowsEv
+- __ZNK3cva3geo5ChartIdE5cloneEv
+- __ZNK3cva3geo5ChartIdE5endIDEv
+- __ZNK3cva3geo5ChartIdE5printERNSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZNK3cva3geo5ChartIdE7columnsEv
+- __ZNK3cva3geo5ChartIdE7hasDotsEv
+- __ZNK3cva3geo5ChartIdE7projectERKNS_3bad6AffineIdLj3ENS3_3KeyEEE
+- __ZNK3cva3geo5ChartIdE7projectERKNS_3bad6AffineIdLj3ENS3_3KeyEEERS6_
+- __ZNK3cva3geo5ChartIdE7startIDEv
+- __ZNK3cva3geo5ChartIdE9unprojectERKNS_3bad6AffineIdLj3ENS3_3KeyEEE
+- __ZNK3cva3geo5ChartIdE9unprojectERKNS_3bad6AffineIdLj3ENS3_3KeyEEERS6_
+- __ZNK3cva3geo5ChartIfE10cornerTypeEj
+- __ZNK3cva3geo5ChartIfE10hasTrackIDEj
+- __ZNK3cva3geo5ChartIfE10squareSizeEv
+- __ZNK3cva3geo5ChartIfE11almostEqualERKS2_f
+- __ZNK3cva3geo5ChartIfE4rowsEv
+- __ZNK3cva3geo5ChartIfE5cloneEv
+- __ZNK3cva3geo5ChartIfE5endIDEv
+- __ZNK3cva3geo5ChartIfE5printERNSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZNK3cva3geo5ChartIfE7columnsEv
+- __ZNK3cva3geo5ChartIfE7hasDotsEv
+- __ZNK3cva3geo5ChartIfE7projectERKNS_3bad6AffineIfLj3ENS3_3KeyEEE
+- __ZNK3cva3geo5ChartIfE7projectERKNS_3bad6AffineIfLj3ENS3_3KeyEEERS6_
+- __ZNK3cva3geo5ChartIfE7startIDEv
+- __ZNK3cva3geo5ChartIfE9unprojectERKNS_3bad6AffineIfLj3ENS3_3KeyEEE
+- __ZNK3cva3geo5ChartIfE9unprojectERKNS_3bad6AffineIfLj3ENS3_3KeyEEERS6_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE13find_first_ofEPKcmm
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17find_first_not_ofEPKcmm
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+- __ZNSt3__112__next_primeEm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSEc
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6ignoreEli
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERd
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf
+- __ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERm
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEd
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEf
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEj
+- __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEE4openERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj
+- __ZNSt3__114basic_ofstreamIcNS_11char_traitsIcEEE4openERKNS_12basic_stringIcS2_NS_9allocatorIcEEEEj
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strERKNS_12basic_stringIcS2_S4_EE
+- __ZNSt3__119__shared_weak_count4lockEv
+- __ZNSt3__14stodERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPm
+- __ZNSt3__15ctypeIcE13classic_tableEv
+- __ZNSt3__15ctypeIcEC1EPKjbm
+- __ZNSt3__16locale14__install_ctorERKS0_PNS0_5facetEl
+- __ZNSt3__16locale2id5__getEv
+- __ZNSt3__16localeaSERKS0_
+- __ZNSt3__18ios_base5imbueERKNS_6localeE
+- __ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_
+- __ZZN3cva9Rotation3IdE14ExpAndJacobianERKNS_9MatrixRefIKdLj3ELj1ELb0EEEPNS_6MatrixIdLj3ELj3ELb0EEEE10kThreshold
+- __Znwm
+- ___chkstk_darwin
+- ___exp10
+- _atan
+- _atanf
+- _cos
+- _cosf
+- _memset_pattern16
+- _objc_release_x25
+- _sin
+- _sinf
+- _tan
+- _tanf
+CStrings:
+- "   ]"
+- ", "
+- "0 "
+- "0.0"
+- "Aspect Ratio"
+- "Camera Model"
+- "Chart Aspect Ratio"
+- "Chart Scale"
+- "Chart Skew"
+- "Command "
+- "Delta Rotation"
+- "Delta Translation"
+- "Distortion Center"
+- "Encoder"
+- "Encoder Model"
+- "Endpoints Distance"
+- "Extrinsics Model"
+- "Extrinsics Rotation"
+- "Extrinsics Translation"
+- "False"
+- "Field Of View"
+- "Field of View"
+- "Focal Length"
+- "Generic Chart"
+- "Generic Device"
+- "Heikkila"
+- "Heikkila Distortion"
+- "Heikkila Distortion Coefficients"
+- "Image Bounds"
+- "Inverse Field Of View"
+- "Kannala Radial"
+- "Kannala Radial Distortion"
+- "Kannala-4 Distortion Coefficients"
+- "Linear"
+- "Linear Length"
+- "Linear Position"
+- "Maximum Rotation"
+- "Maximum Translation"
+- "Minimum Rotation"
+- "Minimum Translation"
+- "Pinhole"
+- "Pinhole LUT"
+- "Pinhole LUT Distortion"
+- "Platform"
+- "Principal Point"
+- "Projection Model"
+- "Radial And Tangential"
+- "Resolution"
+- "Sensors/Extrinsics"
+- "Sensors/Intrinsics"
+- "Standard Deviation"
+- "Static"
+- "Symmetric Radial"
+- "Translation"
+- "True"
+- "Undefined"
+- "Undistort"
+- "Width and Height"
+- "WtoP.traj"
+- "["
+- "[FIXED]"
+- "[FIXED]["
+- "[FREE]"
+- "[Has Dots]["
+- "[Name]["
+- "[Rows, Columns][Square Size]["
+- "[Start ID, End ID]["
+- "]\n"
+- "] : "
+- "]["
+- "bad_weak_ptr was thrown in -fno-exceptions mode"
+- "encoder.txt"
+- "f(theta)"
+- "f-sin(theta)"
+- "f-tan(theta)"
+- "image-points."
+- "scene-points.txt"
+- "tracks.txt"
+
+```

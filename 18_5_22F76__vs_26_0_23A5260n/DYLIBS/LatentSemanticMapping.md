@@ -1,0 +1,90 @@
+## LatentSemanticMapping
+
+> `/System/Library/PrivateFrameworks/LatentSemanticMapping.framework/LatentSemanticMapping`
+
+```diff
+
+ 3.1.0.0.0
+-  __TEXT.__text: 0x1bb98
+-  __TEXT.__auth_stubs: 0x9c0
++  __TEXT.__text: 0x1bd1c
++  __TEXT.__auth_stubs: 0x9a0
+   __TEXT.__const: 0x6c8
+-  __TEXT.__gcc_except_tab: 0x1d00
+-  __TEXT.__cstring: 0x48c
+-  __TEXT.__unwind_info: 0xc38
+-  __DATA_CONST.__got: 0x80
+-  __AUTH_CONST.__auth_got: 0x4e8
++  __TEXT.__gcc_except_tab: 0x1d3c
++  __TEXT.__cstring: 0x48b
++  __TEXT.__unwind_info: 0xc58
++  __DATA_CONST.__got: 0x88
++  __AUTH_CONST.__auth_got: 0x4d8
+   __AUTH_CONST.__const: 0x12b0
+   __AUTH_CONST.__cfstring: 0x240
+   __DATA.__common: 0x1c
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+-  UUID: C2F57414-19A0-3A36-88E3-0D6AF05BD3F7
+-  Functions: 583
+-  Symbols:   1641
++  UUID: B9512340-BB81-303D-AA86-15B977821361
++  Functions: 584
++  Symbols:   1644
+   CStrings:  100
+ 
+Symbols:
++ GCC_except_table108
++ GCC_except_table110
++ GCC_except_table115
++ GCC_except_table118
++ GCC_except_table122
++ GCC_except_table89
++ GCC_except_table97
++ __ZN19LSMSRModelGeneratorD2Ev
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100Ej
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B8ne200100Ev
++ __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B8ne200100Ev
++ __ZNSt3__14pairI9LSMVectorIjES2_EC2B8ne200100Ev
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
+- GCC_except_table109
+- GCC_except_table116
+- GCC_except_table85
+- GCC_except_table91
+- GCC_except_table98
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne190102Ev
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEET1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__14pairI9LSMVectorIjES1_IdEEC2B8ne190102Ev
+- __ZNSt3__14pairI9LSMVectorIjES1_IfEEC2B8ne190102Ev
+- __ZNSt3__14pairI9LSMVectorIjES2_EC2B8ne190102Ev
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyER16LSMTupleIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyER20LSMSparseRowIterCompPmEEvT1_S5_OT0_NS_15iterator_traitsIS5_E15difference_typeE
+- __Znwm
+
+```

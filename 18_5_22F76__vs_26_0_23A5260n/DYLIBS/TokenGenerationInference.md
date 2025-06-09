@@ -1,0 +1,7909 @@
+## TokenGenerationInference
+
+> `/System/Library/PrivateFrameworks/TokenGenerationInference.framework/TokenGenerationInference`
+
+```diff
+
+-162.762.0.0.0
+-  __TEXT.__text: 0x10f14c
+-  __TEXT.__auth_stubs: 0x3a60
+-  __TEXT.__objc_methlist: 0x65c
+-  __TEXT.__const: 0x869c
+-  __TEXT.__gcc_except_tab: 0x366c
+-  __TEXT.__cstring: 0x4aac
+-  __TEXT.__oslogstring: 0x39f3
+-  __TEXT.__swift5_typeref: 0x1e42
+-  __TEXT.__constg_swiftt: 0x1f6c
+-  __TEXT.__swift5_reflstr: 0x2104
+-  __TEXT.__swift5_fieldmd: 0x206c
+-  __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_proto: 0x414
+-  __TEXT.__swift5_types: 0x20c
+-  __TEXT.__swift_as_entry: 0x1f8
+-  __TEXT.__swift_as_ret: 0x288
+-  __TEXT.__swift5_capture: 0x304
+-  __TEXT.__swift5_assocty: 0xc8
+-  __TEXT.__swift5_protos: 0x44
+-  __TEXT.__swift5_mpenum: 0xa4
+-  __TEXT.__unwind_info: 0x3e80
+-  __TEXT.__eh_frame: 0x7620
+-  __TEXT.__objc_classname: 0x12d
+-  __TEXT.__objc_methname: 0x1864
+-  __TEXT.__objc_methtype: 0x22c3
+-  __TEXT.__objc_stubs: 0x8a0
+-  __DATA_CONST.__got: 0x7e8
+-  __DATA_CONST.__const: 0x1e8
+-  __DATA_CONST.__objc_classlist: 0x188
+-  __DATA_CONST.__objc_protolist: 0x20
++206.1.102.0.0
++  __TEXT.__text: 0x19393c
++  __TEXT.__auth_stubs: 0x4ff0
++  __TEXT.__objc_methlist: 0x8d4
++  __TEXT.__const: 0xb47c
++  __TEXT.__gcc_except_tab: 0x6c88
++  __TEXT.__cstring: 0x7749
++  __TEXT.__oslogstring: 0x59d5
++  __TEXT.__constg_swiftt: 0x2f6c
++  __TEXT.__swift5_typeref: 0x2b37
++  __TEXT.__swift5_reflstr: 0x3298
++  __TEXT.__swift5_fieldmd: 0x3164
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__swift5_protos: 0x78
++  __TEXT.__swift5_proto: 0x590
++  __TEXT.__swift5_types: 0x304
++  __TEXT.__swift_as_entry: 0x330
++  __TEXT.__swift_as_ret: 0x3f8
++  __TEXT.__swift5_capture: 0x418
++  __TEXT.__swift5_mpenum: 0xc0
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__swift5_assocty: 0x180
++  __TEXT.__unwind_info: 0x6d88
++  __TEXT.__eh_frame: 0x116a0
++  __TEXT.__objc_classname: 0x184
++  __TEXT.__objc_methname: 0x18a7
++  __TEXT.__objc_methtype: 0x186d
++  __TEXT.__objc_stubs: 0x9e0
++  __DATA_CONST.__got: 0xc00
++  __DATA_CONST.__const: 0x288
++  __DATA_CONST.__objc_classlist: 0x218
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3b0
+-  __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x1d40
+-  __AUTH_CONST.__const: 0x4358
+-  __AUTH_CONST.__cfstring: 0x420
+-  __AUTH_CONST.__objc_const: 0x3df0
+-  __AUTH.__objc_data: 0x1d8
+-  __AUTH.__data: 0xfa0
+-  __DATA.__objc_ivar: 0x84
+-  __DATA.__data: 0xfb8
+-  __DATA.__bss: 0x5f90
+-  __DATA.__common: 0x48
+-  __DATA_DIRTY.__objc_data: 0x3d8
+-  __DATA_DIRTY.__data: 0x20a8
+-  __DATA_DIRTY.__bss: 0x2a0
+-  __DATA_DIRTY.__common: 0x58
++  __DATA_CONST.__objc_selrefs: 0x558
++  __DATA_CONST.__objc_protorefs: 0x10
++  __DATA_CONST.__objc_superrefs: 0x50
++  __AUTH_CONST.__auth_got: 0x2810
++  __AUTH_CONST.__const: 0x6758
++  __AUTH_CONST.__cfstring: 0x480
++  __AUTH_CONST.__objc_const: 0x5070
++  __AUTH.__objc_data: 0x388
++  __AUTH.__data: 0x19f8
++  __DATA.__objc_ivar: 0x94
++  __DATA.__data: 0x1518
++  __DATA.__bss: 0x7c20
++  __DATA.__common: 0x78
++  __DATA_DIRTY.__objc_data: 0x4c8
++  __DATA_DIRTY.__data: 0x2e10
++  __DATA_DIRTY.__bss: 0x5c0
++  __DATA_DIRTY.__common: 0x98
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/IOSurface.framework/IOSurface
++  - /System/Library/Frameworks/ImageIO.framework/ImageIO
++  - /System/Library/Frameworks/MetalPerformanceShadersGraph.framework/MetalPerformanceShadersGraph
+   - /System/Library/PrivateFrameworks/ANEClientSignals.framework/ANEClientSignals
+-  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/Espresso.framework/Espresso
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeFunctionsInstrumentation.framework/GenerativeFunctionsInstrumentation
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
+   - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
+   - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
++  - /System/Library/PrivateFrameworks/ODIE.framework/ODIE
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
+   - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
++  - /usr/lib/swift/libswiftSystem.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: D6BCA843-4F50-3C12-BD11-5A79ABE1CA53
+-  Functions: 3912
+-  Symbols:   13555
+-  CStrings:  1052
++  UUID: 6A989C59-FE08-3187-82F8-9D42607EC72B
++  Functions: 5673
++  Symbols:   19772
++  CStrings:  1535
+ 
+Symbols:
++ +[E5RunnerImageTokenizerObjC log]
++ +[E5RunnerImageTokenizerObjC log].cold.1
++ -[E5RunnerImageDataObjC .cxx_construct]
++ -[E5RunnerImageDataObjC .cxx_destruct]
++ -[E5RunnerImageDataObjC data]
++ -[E5RunnerImageDataObjC imageData]
++ -[E5RunnerImageDataObjC initWithShape:data:]
++ -[E5RunnerImageDataObjC shape]
++ -[E5RunnerImageTokenizerObjC .cxx_construct]
++ -[E5RunnerImageTokenizerObjC .cxx_destruct]
++ -[E5RunnerImageTokenizerObjC _embeddingsPerImageCount]
++ -[E5RunnerImageTokenizerObjC _encodedImageByteCount]
++ -[E5RunnerImageTokenizerObjC _inputBytesPerPixel]
++ -[E5RunnerImageTokenizerObjC _inputImageDimension]
++ -[E5RunnerImageTokenizerObjC initWithModelPath:error:]
++ -[E5RunnerImageTokenizerObjC initWithModelPath:error:].cold.1
++ -[E5RunnerImageTokenizerObjC tokenizeImageDataWithCallback:outputBlock:]
++ -[E5RunnerImageTokenizerObjC tokenizeImageDataWithCallback:outputBlock:].cold.1
++ -[E5RunnerObjC encodedImages]
++ -[E5RunnerObjC getEmbeddingsWithTokenID:]
++ -[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]
++ -[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:].cold.1
++ -[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:].cold.2
++ -[E5RunnerObjC setEncodedImages:]
++ -[E5RunnerObjC setKVCacheEntryWithTokens:tokens:tokenMasks:startIndex:error:]
++ -[E5RunnerObjC setKVCacheEntryWithTokens:tokens:tokenMasks:startIndex:error:].cold.1
++ -[TGIE5BaseModelObjC assetIdentifier]
++ GCC_except_table100
++ GCC_except_table101
++ GCC_except_table102
++ GCC_except_table103
++ GCC_except_table104
++ GCC_except_table105
++ GCC_except_table106
++ GCC_except_table107
++ GCC_except_table108
++ GCC_except_table109
++ GCC_except_table110
++ GCC_except_table111
++ GCC_except_table112
++ GCC_except_table113
++ GCC_except_table114
++ GCC_except_table116
++ GCC_except_table119
++ GCC_except_table120
++ GCC_except_table122
++ GCC_except_table123
++ GCC_except_table124
++ GCC_except_table125
++ GCC_except_table126
++ GCC_except_table129
++ GCC_except_table130
++ GCC_except_table134
++ GCC_except_table135
++ GCC_except_table136
++ GCC_except_table138
++ GCC_except_table142
++ GCC_except_table145
++ GCC_except_table146
++ GCC_except_table147
++ GCC_except_table148
++ GCC_except_table149
++ GCC_except_table150
++ GCC_except_table151
++ GCC_except_table152
++ GCC_except_table153
++ GCC_except_table154
++ GCC_except_table155
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table158
++ GCC_except_table159
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table162
++ GCC_except_table164
++ GCC_except_table165
++ GCC_except_table166
++ GCC_except_table167
++ GCC_except_table168
++ GCC_except_table169
++ GCC_except_table170
++ GCC_except_table171
++ GCC_except_table172
++ GCC_except_table173
++ GCC_except_table175
++ GCC_except_table176
++ GCC_except_table177
++ GCC_except_table178
++ GCC_except_table179
++ GCC_except_table180
++ GCC_except_table181
++ GCC_except_table182
++ GCC_except_table183
++ GCC_except_table184
++ GCC_except_table185
++ GCC_except_table186
++ GCC_except_table188
++ GCC_except_table189
++ GCC_except_table191
++ GCC_except_table192
++ GCC_except_table193
++ GCC_except_table194
++ GCC_except_table195
++ GCC_except_table196
++ GCC_except_table198
++ GCC_except_table200
++ GCC_except_table201
++ GCC_except_table202
++ GCC_except_table204
++ GCC_except_table208
++ GCC_except_table209
++ GCC_except_table213
++ GCC_except_table214
++ GCC_except_table217
++ GCC_except_table220
++ GCC_except_table221
++ GCC_except_table222
++ GCC_except_table224
++ GCC_except_table225
++ GCC_except_table229
++ GCC_except_table230
++ GCC_except_table233
++ GCC_except_table234
++ GCC_except_table243
++ GCC_except_table244
++ GCC_except_table253
++ GCC_except_table273
++ GCC_except_table278
++ GCC_except_table286
++ GCC_except_table290
++ GCC_except_table308
++ GCC_except_table309
++ GCC_except_table31
++ GCC_except_table311
++ GCC_except_table315
++ GCC_except_table329
++ GCC_except_table331
++ GCC_except_table332
++ GCC_except_table333
++ GCC_except_table334
++ GCC_except_table335
++ GCC_except_table336
++ GCC_except_table338
++ GCC_except_table339
++ GCC_except_table340
++ GCC_except_table341
++ GCC_except_table342
++ GCC_except_table343
++ GCC_except_table350
++ GCC_except_table376
++ GCC_except_table387
++ GCC_except_table389
++ GCC_except_table402
++ GCC_except_table43
++ GCC_except_table449
++ GCC_except_table450
++ GCC_except_table453
++ GCC_except_table455
++ GCC_except_table466
++ GCC_except_table474
++ GCC_except_table475
++ GCC_except_table494
++ GCC_except_table495
++ GCC_except_table50
++ GCC_except_table507
++ GCC_except_table53
++ GCC_except_table54
++ GCC_except_table56
++ GCC_except_table57
++ GCC_except_table60
++ GCC_except_table62
++ GCC_except_table63
++ GCC_except_table64
++ GCC_except_table68
++ GCC_except_table70
++ GCC_except_table71
++ GCC_except_table72
++ GCC_except_table73
++ GCC_except_table75
++ GCC_except_table78
++ GCC_except_table79
++ GCC_except_table84
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table87
++ GCC_except_table88
++ GCC_except_table89
++ GCC_except_table90
++ GCC_except_table93
++ GCC_except_table94
++ GCC_except_table95
++ GCC_except_table96
++ GCC_except_table97
++ GCC_except_table98
++ GCC_except_table99
++ _$s10Accelerate10BNNSScalarP12bnnsDataTypeSo08BNNSDataE0avgZTj
++ _$s10Accelerate9BNNSGraphO11makeContext7options_AC0D0CAC14CompileOptionsV_SayAC16TensorDescriptor_pGAC7BuilderVzXEtKFZ
++ _$s10Accelerate9BNNSGraphO14CompileOptionsVAEycfC
++ _$s10Accelerate9BNNSGraphO14CompileOptionsVMa
++ _$s10Accelerate9BNNSGraphO16TensorDescriptorMp
++ _$s10Accelerate9BNNSGraphO7BuilderV18OperationParameterPAAE1doiyAE6TensorVy__7ElementQzGAM_xtFZ
++ _$s10Accelerate9BNNSGraphO7BuilderV18OperationParameterPAAE1moiyAE6TensorVy__7ElementQzGAM_xtFZ
++ _$s10Accelerate9BNNSGraphO7BuilderV6IntentO5inputyA2GmFWC
++ _$s10Accelerate9BNNSGraphO7BuilderV6IntentOMa
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV3pow1yAGy__xGqd___t7ElementQyd__RszAE18OperationParameterRd__lF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV3sum4axes14keepDimensionsAGy__xGSaySiG_SbtF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV4cast2toAGy__qd__Gqd__m_tAA10BNNSScalarRd__lF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV4topK_4axis11findLargestAGy__xG6values_AGy__s5Int32VG7indicestSi_SiSbtF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV6argMax4axis13keepDimensionAGy__s5Int32VGSi_SbtF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV7argSort4axis9sortOrderAGy__s5Int32VGSi_AE0fI0OtF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorV7softmax4axisAGy__xGSi_tF
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVMa
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVMn
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__SfGAGy__xGAC0D10DescriptorAAWL
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__SfGMD
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s5Int32VGAGy__xGAC0D10DescriptorAAWL
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s5Int32VGAGy__xGAC0D10DescriptorAAWlTm
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s5Int32VGMD
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s7Float16VGAGy__xGAC0D10DescriptorAAWL
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s7Float16VGAGy__xGAC0D10DescriptorAAWlTm
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s7Float16VGAGy__xGAE18OperationParameterAAWL
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__s7Float16VGMD
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__xGAC0D10DescriptorAAMc
++ _$s10Accelerate9BNNSGraphO7BuilderV6TensorVy__xGAE18OperationParameterAAMc
++ _$s10Accelerate9BNNSGraphO7BuilderV8argument4name8dataType5shape6intentAE6TensorVy__xGSSSg_xmSaySiGAE6IntentOtAA10BNNSScalarRzlF
++ _$s10Accelerate9BNNSGraphO7BuilderV8constant4name5valueAE6TensorVy__xGSSSg_xtAA10BNNSScalarRzlF
++ _$s10Accelerate9BNNSGraphO7BuilderV9SortOrderO10descendingyA2GmFWC
++ _$s10Accelerate9BNNSGraphO7BuilderV9SortOrderO9ascendingyA2GmFWC
++ _$s10Accelerate9BNNSGraphO7BuilderV9SortOrderOMa
++ _$s10Accelerate9BNNSGraphO7ContextC15executeFunction_9argumentsySSSg_SaySo10BNNSTensoraGztKF
++ _$s10Accelerate9BNNSGraphO7ContextC24TokenGenerationInferenceE13executeSimple5input6scalar11outputCountSayxGSRyq_G_q0_SgSiSgtAA10BNNSScalarRzAaOR_AaOR0_r1_lF
++ _$s10Accelerate9BNNSGraphO7ContextC24TokenGenerationInferenceE13executeSimple5input6scalar11outputCountSayxGSRyq_G_q0_SgSiSgtAA10BNNSScalarRzAaOR_AaOR0_r1_lFySryxGz_SiztXEfU_
++ _$s10Accelerate9BNNSGraphO7ContextC24TokenGenerationInferenceE13executeSimple5input6scalar11outputCountSayxGSRyq_G_q0_SgSiSgtAA10BNNSScalarRzAaOR_AaOR0_r1_lFySryxGz_SiztXEfU_TA
++ _$s10Accelerate9BNNSGraphO7ContextCMn
++ _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5063$s9CryptoKit12HashFunctionPAAE6update4datayqd___t10Foundation12B70ProtocolRd__lFy7Regions_7ElementQYd__XEfU_ySWXEfU_AA6SHA256V_AF0H0VTg50J3Kit0Z0VTf1nncn_n
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
++ _$s10Foundation13__DataStorageC22withUnsafeMutableBytes2in5applyxSnySiG_xSwKXEtKlFs16IndexingIteratorVySo6NSDataCG_Sit_Tg5
++ _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
++ _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _$s10Foundation13__DataStorageC6lengthACSi_tcfc
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s10Foundation13__DataStorageC8capacityACSi_tcfc
++ _$s10Foundation13__DataStorageC9_capacitySivM
++ _$s10Foundation13__DataStorageCMa
++ _$s10Foundation15ContiguousBytesMp
++ _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
++ _$s10Foundation15ContiguousBytes_pMD
++ _$s10Foundation15ContiguousBytes_pSgMD
++ _$s10Foundation3URLV13DirectoryHintO02isC0yA2EmFWC
++ _$s10Foundation3URLV13pathExtensionSSvg
++ _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV35fileURLWithFileSystemRepresentation11isDirectory10relativeToACSPys4Int8VG_SbACSghtcfC
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLV4path14percentEncodedSSSb_tF
++ _$s10Foundation3URLV8filePath13directoryHint10relativeToACSS_AC09DirectoryF0OACSgtcfC
++ _$s10Foundation3URLV9appending9component13directoryHintACx_AC09DirectoryF0OtSyRzlF
++ _$s10Foundation3URLVACs23CustomStringConvertibleAAWL
++ _$s10Foundation3URLVACs23CustomStringConvertibleAAWl
++ _$s10Foundation3URLVACs23CustomStringConvertibleAAWlTm
++ _$s10Foundation3URLVSgMD
++ _$s10Foundation3URLVSgWOb
++ _$s10Foundation3URLVSgWOhTm
++ _$s10Foundation3URLVs23CustomStringConvertibleAAMc
++ _$s10Foundation4DataV06InlineB0V5countAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n
++ _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
++ _$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n
++ _$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC
++ _$s10Foundation4DataV11DeallocatorO12_deallocatoryySv_Sitcvg
++ _$s10Foundation4DataV11DeallocatorO4noneyA2EmFWC
++ _$s10Foundation4DataV11DeallocatorO6customyAEySv_SitccAEmFWC
++ _$s10Foundation4DataV11DeallocatorOMa
++ _$s10Foundation4DataV11InlineSliceV21ensureUniqueReferenceyyF
++ _$s10Foundation4DataV11InlineSliceV22withUnsafeMutableBytesyxxSwKXEKlFyt_Tg5174$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFyyKXEfU_yyKXEfU_ySwKXEfU_6System0Z10DescriptorVAJTf1ncn_n
++ _$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n
++ _$s10Foundation4DataV11bytesNoCopy5count11deallocatorACSv_SiAC11DeallocatorOtcfCTf4nnnd_n
++ _$s10Foundation4DataV14RangeReferenceCMa
++ _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
++ _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFyt_Tg5063$s9CryptoKit12HashFunctionPAAE6update4datayqd___t10Foundation12B70ProtocolRd__lFy7Regions_7ElementQYd__XEfU_ySWXEfU_AA6SHA256V_AF0H0VTg50H3Kit0X0VTf1ncn_n
++ _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFyt_Tg5104$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtFySWXEfU_0hI9Inference01_kL033_EDB8B1D8F9C2943CA163A428958D5177LLVSoAIVIgy_Tf1ncn_n
++ _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFyt_Tg5104$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtFySWXEfU_0hI9Inference01_kL033_EDB8B1D8F9C2943CA163A428958D5177LLVSoAIVIgy_Tf1ncn_n07$sSo13_kL15VIyBy_ABIegy_TRALIyBy_Tf1nnnc_n
++ _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySS8UTF8ViewVG_Sit_Tg5
++ _$s10Foundation4DataV15_RepresentationO22withUnsafeMutableBytesyxxSwKXEKlFs16IndexingIteratorVySo6NSDataCG_Sit_Tg5
++ _$s10Foundation4DataV15_RepresentationO5countAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
++ _$s10Foundation4DataV15_RepresentationO8capacityAESi_tcfCTf4nd_n
++ _$s10Foundation4DataV15_RepresentationON
++ _$s10Foundation4DataV15_RepresentationOSgWOe
++ _$s10Foundation4DataV15_RepresentationO_5countAeA02__B7StorageC_SitcfCTf4nnd_n
++ _$s10Foundation4DataV15_RepresentationOyACSnySiGcig
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataV5bytes5countACSV_SitcfCTf4nnd_n
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSS8UTF8ViewV_Tt0g5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufCSo6NSDataC_Tt0g5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_SS8UTF8ViewV_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_So6NSDataC_TG5
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_So6NSDataC_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_AI_SitSryAEGXEfU_So6NSDataC_Tg5Tf4nn_g
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_SS8UTF8ViewV_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufc8IteratorQz_SitSwXEfU1_So6NSDataC_TG5TA
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSRyAEGXEfU0_
++ _$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_
++ _$s10Foundation4DateV17timeIntervalSinceySdACF
++ _$s10Foundation4DateVACycfC
++ _$s10Foundation4DateVMa
++ _$s10Foundation4UUIDVACSHAAWl
++ _$s10Foundation4UUIDVACycfC
++ _$s11SubSequenceSlTl
++ _$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF
++ _$s12FeatureFlags0aB3KeyMp
++ _$s12FeatureFlags0aB3KeyP6domains12StaticStringVvgTq
++ _$s12FeatureFlags0aB3KeyP7features12StaticStringVvgTq
++ _$s12ModelCatalog08LLMDraftA13AssetMetadataV05DraftE0V29draftUseMaximumLikelihoodTreeSbSgvg
++ _$s12ModelCatalog08LLMDraftA13AssetMetadataV22DeviceSpecialTokensMapV16endImageTokenStrSSSgvg
++ _$s12ModelCatalog08LLMDraftA13AssetMetadataV22DeviceSpecialTokensMapV18startImageTokenStrSSSgvg
++ _$s12ModelCatalog0B5AssetV7versionAA0C7VersionVvg
++ _$s12ModelCatalog21LLMModelAssetMetadataV05DraftE0V29draftUseMaximumLikelihoodTreeSbSgvg
++ _$s12ModelCatalog21LLMModelAssetMetadataV22DeviceSpecialTokensMapV16endImageTokenStrSSSgvg
++ _$s12ModelCatalog21LLMModelAssetMetadataV22DeviceSpecialTokensMapV18startImageTokenStrSSSgvg
++ _$s12ModelCatalog21LLMModelAssetMetadataV34PromptPreprocessingTemplateVersionO8rawValueSSvg
++ _$s12ModelCatalog21LLMModelAssetMetadataV34PromptPreprocessingTemplateVersionOMa
++ _$s12ModelCatalog21LLMModelAssetMetadataV34PromptPreprocessingTemplateVersionOMn
++ _$s12ModelCatalog21LLMModelAssetMetadataV34PromptPreprocessingTemplateVersionOSgMD
++ _$s12ModelCatalog21LLMModelAssetMetadataV34promptPreprocessingTemplateVersionAC06PromptghI0OSgvg
++ _$s12ModelCatalog23LLMAdapterAssetMetadataV05DraftE0V29draftUseMaximumLikelihoodTreeSbSgvg
++ _$s12ModelCatalog23LLMAdapterAssetMetadataV22DeviceSpecialTokensMapV16endImageTokenStrSSSgvg
++ _$s12ModelCatalog23LLMAdapterAssetMetadataV22DeviceSpecialTokensMapV18startImageTokenStrSSSgvg
++ _$s12ModelCatalog25AssetBackedImageTokenizerMp
++ _$s12ModelCatalog25AssetBackedImageTokenizer_pMD
++ _$s12ModelCatalog25AssetBackedImageTokenizer_pSgMD
++ _$s14CoreFoundation9_CFObjectMp
++ _$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ
++ _$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF
++ _$s14CoreFoundation9_CFObjectPAAE9hashValueSivg
++ _$s14CoreFoundation9_CFObjectPSHTb
++ _$s14CoreFoundationMXM
++ _$s15Synchronization5MutexVMn
++ _$s15Synchronization5MutexVyShySSGGMD
++ _$s15Synchronization6AtomicVMn
++ _$s15Synchronization6AtomicVySiGMD
++ _$s15TokenGeneration0aB5ErrorO16unsupportedGuideyA2C7ContextVcACmFWC
++ _$s15TokenGeneration11ConstraintsO16schemaIdentifieryACSScACmFWC
++ _$s15TokenGeneration11ConstraintsO17grammarIdentifieryACSScACmFWC
++ _$s15TokenGeneration11ConstraintsOSgWOcTm
++ _$s15TokenGeneration14RequestPayloadO18fetchModelMetadatayAcA05FetchfgC0VcACmFWC
++ _$s15TokenGeneration14RequestPayloadO22fetchTokenizerMetadatayAcA05FetchfgC0VcACmFWC
++ _$s15TokenGeneration14RequestPayloadO6revive11withXpcDatay3XPC13XPCDictionaryV_tF
++ _$s15TokenGeneration15RequestMetadataV2eeoiySbAC_ACtFZ
++ _$s15TokenGeneration15RequestMetadataVMn
++ _$s15TokenGeneration15ToolDescriptionV8toolType29GenerativeFunctionsFoundation0cF0Vvg
++ _$s15TokenGeneration15ToolDescriptionVACSQAAWL
++ _$s15TokenGeneration15ToolDescriptionVMa
++ _$s15TokenGeneration15ToolDescriptionVMn
++ _$s15TokenGeneration15ToolDescriptionVSQAAMc
++ _$s15TokenGeneration18SamplingParametersV011speculationD0AA011SpeculationD0VSgvg
++ _$s15TokenGeneration18SamplingParametersV20priorInferenceOutputSSSgvg
++ _$s15TokenGeneration18SamplingParametersV31useHighQualityImageTokenizationSbSgvg
++ _$s15TokenGeneration21CompletePromptRequestV5toolsSayAA15ToolDescriptionVGvg
++ _$s15TokenGeneration21SpeculationParametersV10draftStepsSiSgvg
++ _$s15TokenGeneration21SpeculationParametersV10treeFactorSiSgvg
++ _$s15TokenGeneration21SpeculationParametersV11earlyReturnSbSgvg
++ _$s15TokenGeneration21SpeculationParametersV18softMatchToleranceSfSgvg
++ _$s15TokenGeneration21SpeculationParametersV19secondaryTreeFactorSiSgvg
++ _$s15TokenGeneration21SpeculationParametersV24useMaximumLikelihoodTreeSbSgvg
++ _$s15TokenGeneration21SpeculationParametersV31earlyReturnProbabilityThresholdSfSgvg
++ _$s15TokenGeneration21SpeculationParametersVMa
++ _$s15TokenGeneration21SpeculationParametersVMn
++ _$s15TokenGeneration21SpeculationParametersVSgMD
++ _$s15TokenGeneration23InferenceRequestHandlerV18isVersionSupported07requestG0Sb20ModelManagerServices0G0V_tFZ
++ _$s15TokenGeneration23StreamingRequestPayloadO6revive11withXpcDatay3XPC13XPCDictionaryV_tF
++ _$s15TokenGeneration25FetchModelMetadataRequestVMa
++ _$s15TokenGeneration26FetchModelMetadataResponseV11contextSizeACSi_tcfC
++ _$s15TokenGeneration26FetchModelMetadataResponseVACSEAAWL
++ _$s15TokenGeneration26FetchModelMetadataResponseVMa
++ _$s15TokenGeneration26FetchModelMetadataResponseVSEAAMc
++ _$s15TokenGeneration29CompletePromptTemplateRequestV5toolsSayAA15ToolDescriptionVGvg
++ _$s15TokenGeneration29FetchTokenizerMetadataRequestVMa
++ _$s15TokenGeneration29FoundationModelsExtensionInfoC12draftWeightss5Int32VSgvg
++ _$s15TokenGeneration29FoundationModelsExtensionInfoC14adapterWeightss5Int32Vvg
++ _$s15TokenGeneration29FoundationModelsExtensionInfoC8draftMILs5Int32VSgvg
++ _$s15TokenGeneration29FoundationModelsExtensionInfoC8metadatas5Int32Vvg
++ _$s15TokenGeneration29FoundationModelsExtensionInfoC9xpcObjectACSg3XPC010XPCCodableH0V_tcfc
++ _$s15TokenGeneration29FoundationModelsExtensionInfoCMa
++ _$s15TokenGeneration30FetchTokenizerMetadataResponseV32imageTokenizationRecommendationsAcA05ImagehI0VSg_tcfC
++ _$s15TokenGeneration30FetchTokenizerMetadataResponseVACSEAAWL
++ _$s15TokenGeneration30FetchTokenizerMetadataResponseVMa
++ _$s15TokenGeneration30FetchTokenizerMetadataResponseVSEAAMc
++ _$s15TokenGeneration32ImageTokenizationRecommendationsV10dimensions11pixelFormatA2C21DimensionRequirementsO_s6UInt32VtcfC
++ _$s15TokenGeneration32ImageTokenizationRecommendationsV21DimensionRequirementsO20ExactSizeRequirementV10pixelWidth0K6HeightAGSu_SutcfC
++ _$s15TokenGeneration32ImageTokenizationRecommendationsV21DimensionRequirementsO9exactSizeyA2E05ExactI11RequirementVcAEmFWC
++ _$s15TokenGeneration32ImageTokenizationRecommendationsV21DimensionRequirementsOMa
++ _$s15TokenGeneration32ImageTokenizationRecommendationsVMa
++ _$s15TokenGeneration32ImageTokenizationRecommendationsVMn
++ _$s15TokenGeneration32ImageTokenizationRecommendationsVSgMD
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaV04toolH10IdentifierSSvg
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaV09argumentsI0SSvg
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaV12functionNameSSvg
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaV18responseIdentifier09candidateK004toolhK012functionName09argumentsI0ACSS_S4StcfC
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaVAA0cdE0AAWP
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaVMa
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaVMn
++ _$s15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaVSgMD
++ _$s15TokenGeneration6PromptV07SpecialA0V11endImageStrAEvgZ
++ _$s15TokenGeneration6PromptV07SpecialA0V13startImageStrAEvgZ
++ _$s15TokenGeneration6PromptV0aB4CoreE06renderC7Modules10tokenTable23localizationOverrideMap34promptPreprocessingTemplateVersion024substitutionTextForInputaQ0SayAD0C6ModuleOGSDyAC07SpecialA0VypG_SDyANSDyS2SGGAD0cmnO0OAPtKF
++ _$s15TokenGeneration6PromptV0aB4CoreE08RenderedC8FragmentO12renderedTextSSyF
++ _$s15TokenGeneration6PromptV0aB4CoreE08RenderedC8FragmentOMa
++ _$s15TokenGeneration6PromptV15ImageAttachmentV4data10Foundation4DataVvg
++ _$s15TokenGeneration6PromptV22ImageSurfaceAttachmentV7surfaceSo9IOSurfaceCvg
++ _$s15TokenGeneration6PromptV24ImageEmbeddingAttachmentV10tokenCountSivg
++ _$s15TokenGeneration6PromptV24ImageEmbeddingAttachmentV4data10Foundation4DataVvg
++ _$s15TokenGeneration6PromptV27PreprocessedImageAttachmentV4dataSays7Float16VGvg
++ _$s15TokenGeneration6PromptV27PreprocessedImageAttachmentV5shapeSaySiGvg
++ _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerV04stopA3IDsSaySiGvg
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgMD
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgML
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgMa
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgWObTm
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgWOcTm
++ _$s19TokenGenerationCore06GuidedB17VocabularyManagerVSgWOhTm
++ _$s19TokenGenerationCore0A6IDMaskV4maskAA16ContiguousBitSetVvg
++ _$s19TokenGenerationCore0B5ErrorO16unsupportedGuideyA2CmFWC
++ _$s19TokenGenerationCore0B5ErrorO18tokenizationFailedyA2CmFWC
++ _$s19TokenGenerationCore0B5ErrorOACs0D0AAWL
++ _$s19TokenGenerationCore0B5ErrorOACs0D0AAWl
++ _$s19TokenGenerationCore0B5ErrorOACs0D0AAWlTm
++ _$s19TokenGenerationCore0B5ErrorOMa
++ _$s19TokenGenerationCore0B5ErrorOs0D0AAMc
++ _$s19TokenGenerationCore11OverridableVySiGMaTm
++ _$s19TokenGenerationCore14ToolCallParserV02isdE10InProgressSbvg
++ _$s19TokenGenerationCore14ToolCallParserV13FunctionDeltaV04toolE2IDSSvg
++ _$s19TokenGenerationCore14ToolCallParserV13FunctionDeltaV4nameSSvg
++ _$s19TokenGenerationCore14ToolCallParserV13FunctionDeltaV9argumentsSSvg
++ _$s19TokenGenerationCore14ToolCallParserV13FunctionDeltaVMa
++ _$s19TokenGenerationCore14ToolCallParserV13FunctionDeltaVMn
++ _$s19TokenGenerationCore14ToolCallParserV7consume6stringSayAC13FunctionDeltaVGSS_tF
++ _$s19TokenGenerationCore14ToolCallParserV7versionAcA34PromptPreprocessingTemplateVersionO_tcfC
++ _$s19TokenGenerationCore14ToolCallParserVMa
++ _$s19TokenGenerationCore14ToolCallParserVMn
++ _$s19TokenGenerationCore15TokenizerRunnerC024substitutionTextForInputaG0SDyS2SGvg
++ _$s19TokenGenerationCore15TokenizerRunnerC8tokenize13promptModules10tokenTable010attachmentD00G28PreprocessingTemplateVersionSayAA21TokenizedPromptModuleVGSayAA0pQ0OG_SDy0aB00P0V07SpecialA0VypGAA010AttachmentD0_pSgAA0plmN0OtYaKFTjTu
++ _$s19TokenGenerationCore16ContiguousBitSetV10isDisjoint4withSbAC_tF
++ _$s19TokenGenerationCore16ContiguousBitSetV12isEquivalent2toSbSnySiG_tF
++ _$s19TokenGenerationCore16ContiguousBitSetV16formIntersectionyyACF
++ _$s19TokenGenerationCore16ContiguousBitSetV16formIntersectionyySnySiGF
++ _$s19TokenGenerationCore16ContiguousBitSetV2eeoiySbAC_ACtFZ
++ _$s19TokenGenerationCore16ContiguousBitSetV4lastSiSgvg
++ _$s19TokenGenerationCore16ContiguousBitSetV5countSivg
++ _$s19TokenGenerationCore16ContiguousBitSetV5firstSiSgvg
++ _$s19TokenGenerationCore16ContiguousBitSetV7isDenseSbvg
++ _$s19TokenGenerationCore16ContiguousBitSetV7isEmptySbvg
++ _$s19TokenGenerationCore16ContiguousBitSetV8IteratorVAEStAAWL
++ _$s19TokenGenerationCore16ContiguousBitSetV8IteratorVMa
++ _$s19TokenGenerationCore16ContiguousBitSetV8IteratorVStAAMc
++ _$s19TokenGenerationCore16ContiguousBitSetV8containsySbSiF
++ _$s19TokenGenerationCore16ContiguousBitSetV9applyMask_9maskValueySrys7Float16VG_AGtF
++ _$s19TokenGenerationCore16ContiguousBitSetV9formUnionyyACF
++ _$s19TokenGenerationCore16ContiguousBitSetV9formUnionyySnySiGF
++ _$s19TokenGenerationCore16ContiguousBitSetVACSTAAWL
++ _$s19TokenGenerationCore16ContiguousBitSetVACSTAAWlTm
++ _$s19TokenGenerationCore16ContiguousBitSetVMa
++ _$s19TokenGenerationCore16ContiguousBitSetVMn
++ _$s19TokenGenerationCore16ContiguousBitSetVSTAAMc
++ _$s19TokenGenerationCore16ContiguousBitSetVyACST_pSi7ElementSTRts_XPcfC
++ _$s19TokenGenerationCore18ModelConfigurationV024speculativeDecodingDraftA5CountSiSgvg
++ _$s19TokenGenerationCore18ModelConfigurationVSgMD
++ _$s19TokenGenerationCore18TokenizationResultO18requiresProcessingyAC0aB06PromptV17AttachmentContentOcACmFWC
++ _$s19TokenGenerationCore18TokenizationResultO8tokenIdsyACSaySiGcACmFWC
++ _$s19TokenGenerationCore18TokenizationResultOMa
++ _$s19TokenGenerationCore19AttachmentTokenizerMp
++ _$s19TokenGenerationCore19AttachmentTokenizerP8tokenize012imageSurfaceD013configurationSaySiG0aB06PromptV05ImagehD0V_AA0K25TokenizationConfigurationVSgtYaKFTq
++ _$s19TokenGenerationCore19AttachmentTokenizerP8tokenize017preprocessedImageD013configurationSaySiG0aB06PromptV012PreprocessedhD0V_AA0H25TokenizationConfigurationVSgtYaKFTq
++ _$s19TokenGenerationCore19AttachmentTokenizerP8tokenize05imageD013configurationSaySiG0aB06PromptV05ImageD0V_AA0J25TokenizationConfigurationVSgtYaKFTq
++ _$s19TokenGenerationCore19AttachmentTokenizerP8tokenize09embeddingD013configurationSaySiG0aB06PromptV014ImageEmbeddingD0V_AA0J25TokenizationConfigurationVSgtKFTq
++ _$s19TokenGenerationCore19AttachmentTokenizer_pSgMD
++ _$s19TokenGenerationCore21TokenizedPromptModuleV15promptFragmentsSay0aB00E0VAAE08RenderedE8FragmentOGvg
++ _$s19TokenGenerationCore21TokenizedPromptModuleV19tokenizationResultsSayAA18TokenizationResultOGvg
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationV14imageEndTokensSaySiGvg
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationV16imageStartTokensSaySiGvg
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationVMa
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationVMn
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationVSgMD
++ _$s19TokenGenerationCore30ImageTokenizationConfigurationVSgWOcTm
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionO2v5yA2CmFWC
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionO2v6yA2CmFWC
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionO7defaultACvgZ
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionO8rawValueACSgSS_tcfC
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOACSEAAWL
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOACSQAAWL
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOACSYAAWL
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOACSeAAWL
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOMa
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOMn
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSEAAMc
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSQAAMc
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSYAAMc
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSeAAMc
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSgMD
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSgML
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSgMa
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSgWOd
++ _$s19TokenGenerationCore34PromptPreprocessingTemplateVersionOSg_ADtMD
++ _$s19TokenGenerationCore7GrammarV5tools7versionACSay29GenerativeFunctionsFoundation4ToolV8FunctionVG_AA34PromptPreprocessingTemplateVersionOtKcfC
++ _$s19TokenGenerationCore7GrammarVyAC29GenerativeFunctionsFoundation6SchemaVKcfC
++ _$s20ModelManagerServices10AuditTokenV05auditE0So0F8_token_tavg
++ _$s20ModelManagerServices10AuditTokenV17processIdentifiers5Int32Vvg
++ _$s20ModelManagerServices10ClientDataV03xpcE03XPC16XPCCodableObjectVSgvg
++ _$s20ModelManagerServices14InferenceErrorO7ContextV21additionalDescription6domain4code8userInfo15fallbackAllowed010underlyingE0AESS_SSSiSDyS2SGSbs0E0_pSgtcfC
++ _$s20ModelManagerServices17InferenceProviderPAAE13requestStream10clientData13configurationSci_p10Foundation0I0V_AA0dE20RequestConfigurationVtF
++ _$s20ModelManagerServices18InferenceProvidingP11convertData06clientG010Foundation0G0VAA06ClientG0V_tYaKFTq
++ _$s20ModelManagerServices18InferenceProvidingP16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKFTq
++ _$s20ModelManagerServices18InferenceProvidingP18isVersionSupported07requestG0SbAA0G0V_tYaKFTq
++ _$s20ModelManagerServices18InferenceProvidingP22requestInputStreamStep15clientDataArray13configurationAA0d8ProviderH0_pSayAA06ClientK0VG_AA0dN20RequestConfigurationVtYaKFTq
++ _$s20ModelManagerServices18InferenceProvidingPAAE16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKF
++ _$s20ModelManagerServices18InferenceProvidingPAAE16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKFTu
++ _$s20ModelManagerServices18InferenceProvidingPAAE22requestInputStreamStep15clientDataArray13configurationAA0d8ProviderH0_pSayAA06ClientK0VG_AA0dN20RequestConfigurationVtYaKF
++ _$s20ModelManagerServices18InferenceProvidingPAAE22requestInputStreamStep15clientDataArray13configurationAA0d8ProviderH0_pSayAA06ClientK0VG_AA0dN20RequestConfigurationVtYaKFTu
++ _$s20ModelManagerServices24CustomAssetConfigurationV10auditTokenAA05AuditH0VSgvg
++ _$s20ModelManagerServices24CustomAssetConfigurationV10identifierSSvg
++ _$s20ModelManagerServices24CustomAssetConfigurationV9assetData3XPC16XPCCodableObjectVvg
++ _$s20ModelManagerServices24CustomAssetConfigurationVMa
++ _$s20ModelManagerServices24CustomAssetConfigurationVMn
++ _$s20ModelManagerServices24CustomAssetConfigurationVSgMD
++ _$s20ModelManagerServices32InferenceProviderAssetDescriptorV06customF13ConfigurationAA06CustomfI0VSgvg
++ _$s20ModelManagerServices32InferenceProviderAssetDescriptorV22modelCatalogIdentifierSSvg
++ _$s20ModelManagerServices35InferenceProviderPrewarmInformationV015TokenGenerationD0E06shouldF19ConstrainedDecodingSbvg
++ _$s20ModelManagerServices35InferenceProviderPrewarmInformationV15TokenGenerationE06guidediF11MetaDataKeySSvgZ
++ _$s20ModelManagerServices35InferenceProviderPrewarmInformationV8metadataSDyS2SGSgvg
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11convertData06clientI010Foundation0I0V20ModelManagerServices06ClientI0V_tYaKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11convertData06clientI010Foundation0I0V20ModelManagerServices06ClientI0V_tYaKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11convertData06clientI010Foundation0I0V20ModelManagerServices06ClientI0V_tYaKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTQ16_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTQ4_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY10_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY11_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY12_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY13_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY14_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY15_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY17_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY18_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY19_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY20_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY21_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY22_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY5_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY6_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY7_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY8_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTY9_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration0P8Metadata20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB06PromptVAJ0cG20RequestConfigurationVAP07RequestT0VtYaAJ0C5ErrorOYKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TA
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TATQ0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TATu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ10_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ19_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ25_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ29_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ32_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ34_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ36_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ39_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ42_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ45_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ7_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY11_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY12_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY13_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY14_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY15_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY16_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY17_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY18_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY20_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY21_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY22_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY23_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY24_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY26_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY27_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY28_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY30_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY31_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY33_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY35_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY37_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY38_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY40_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY41_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY43_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY44_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY46_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY4_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY5_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY6_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY8_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY9_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_Tu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFyyYbcfU0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG20ModelManagerServices06ClientK0V_AM0cG20RequestConfigurationVSbtFyyYbcfU0_TA
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14parseToolCalls33_F67B098F505663682541EE68977BD2AALL_5stateSay0aB00A0VGAJ_AA15DataStreamStateVztFTf4nnd_n
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTQ12_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTQ14_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY16_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY17_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY18_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY19_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY20_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY21_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC15transitionAsset_2toy20ModelManagerServices0cgI10DescriptorV_AF9LoadStateOtYaAF0C5ErrorOYKFTY10_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC15transitionAsset_2toy20ModelManagerServices0cgI10DescriptorV_AF9LoadStateOtYaAF0C5ErrorOYKFTY11_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V20ModelManagerServices06ClientK0V_AA06PromptmN0VSgtYaAI0C5ErrorOYKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18fetchModelMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_0I15ManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18isVersionSupported07requestI0Sb20ModelManagerServices0I0V_tYaKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18isVersionSupported07requestI0Sb20ModelManagerServices0I0V_tYaKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC18isVersionSupported07requestI0Sb20ModelManagerServices0I0V_tYaKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP11convertData06clientM010Foundation0M0VAD06ClientM0V_tYaKFTW
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP11convertData06clientM010Foundation0M0VAD06ClientM0V_tYaKFTWTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP11convertData06clientM010Foundation0M0VAD06ClientM0V_tYaKFTWTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKFTW
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKFTWTQ0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP16inputStreamEnded9requestIDy10Foundation4UUIDV_tYaKFTWTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP18isVersionSupported07requestM0SbAD0M0V_tYaKFTW
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP18isVersionSupported07requestM0SbAD0M0V_tYaKFTWTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP18isVersionSupported07requestM0SbAD0M0V_tYaKFTWTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP22requestInputStreamStep15clientDataArray13configurationAD0cgN0_pSayAD06ClientQ0VG_AD0cG20RequestConfigurationVtYaKFTW
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP22requestInputStreamStep15clientDataArray13configurationAD0cgN0_pSayAD06ClientQ0VG_AD0cG20RequestConfigurationVtYaKFTWTQ0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC20ModelManagerServices0C9ProvidingAadEP22requestInputStreamStep15clientDataArray13configurationAD0cgN0_pSayAD06ClientQ0VG_AD0cG20RequestConfigurationVtYaKFTWTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC22fetchTokenizerMetadata33_F67B098F505663682541EE68977BD2AALL_13configuration0aB005FetchiJ8ResponseVAG0riJ7RequestV_20ModelManagerServices0cgT13ConfigurationVtYaAL0C5ErrorOYKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC36toolCallDeltaEventForDataStreamState33_F67B098F505663682541EE68977BD2AALLy0aB0016PromptCompletionk13CandidateTooliJ0VSgAA0mnO0V_10Foundation4UUIDVtYaF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC36toolCallDeltaEventForDataStreamState33_F67B098F505663682541EE68977BD2AALLy0aB0016PromptCompletionk13CandidateTooliJ0VSgAA0mnO0V_10Foundation4UUIDVtYaFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC36toolCallDeltaEventForDataStreamState33_F67B098F505663682541EE68977BD2AALLy0aB0016PromptCompletionk13CandidateTooliJ0VSgAA0mnO0V_10Foundation4UUIDVtYaFTY1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC36toolCallDeltaEventForDataStreamState33_F67B098F505663682541EE68977BD2AALLy0aB0016PromptCompletionk13CandidateTooliJ0VSgAA0mnO0V_10Foundation4UUIDVtYaFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC36toolCallDeltaEventForDataStreamState33_F67B098F505663682541EE68977BD2AALLy0aB0016PromptCompletionk13CandidateTooliJ0VSgAA0mnO0V_10Foundation4UUIDVtYaFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKFTQ1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKFTY3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt7context15requestMetadataAA21SamplingDecoderPromptV_0aB00U0V9RenderingVtAM_AA0efC7ContextCAK07RequestR0VtYaKFTu
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKF
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTQ10_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTQ3_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTQ7_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY11_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY12_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY1_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY5_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY6_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY8_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTY9_
++ _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL15assetDescriptory20ModelManagerServices0cgiQ0V_tYaAG0C5ErrorOYKFTu
++ _$s24TokenGenerationInference015MetadataSpecialA0O10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwetTm
++ _$s24TokenGenerationInference015MetadataSpecialA0O10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwstTm
++ _$s24TokenGenerationInference015MetadataSpecialA0OACSEAAWL
++ _$s24TokenGenerationInference015MetadataSpecialA0OACSEAAWl
++ _$s24TokenGenerationInference015MetadataSpecialA0OACSeAAWL
++ _$s24TokenGenerationInference015MetadataSpecialA0OACSeAAWl
++ _$s24TokenGenerationInference03OneA34HealingPrefixMatchingLanguageModelCMU
++ _$s24TokenGenerationInference03OneA34HealingPrefixMatchingLanguageModelCMl
++ _$s24TokenGenerationInference03OneA34HealingPrefixMatchingLanguageModelCMr
++ _$s24TokenGenerationInference04StopA0VACSEAAWL
++ _$s24TokenGenerationInference04StopA0VACSEAAWl
++ _$s24TokenGenerationInference04StopA0VACSeAAWL
++ _$s24TokenGenerationInference04StopA0VACSeAAWl
++ _$s24TokenGenerationInference05ImageA11IDGeneratorC7tokenID33_B4944985473A7B8269318B3C3030827DLL15Synchronization6AtomicVySiGvpWvd
++ _$s24TokenGenerationInference05ImageA11IDGeneratorC7tokenIDACSi_tcfCTq
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCMF
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCMa
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCMf
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCMm
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCMn
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCN
++ _$s24TokenGenerationInference05ImageA11IDGeneratorCfD
++ _$s24TokenGenerationInference07SpecialA16MetadataProtocolP010startImageA3StrSSSgvgTq
++ _$s24TokenGenerationInference07SpecialA16MetadataProtocolP08endImageA3StrSSSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC013startToolCallA8IntValue0hijA8Override9tokenizer7versionS2iSg_0aB4Core15TokenizerRunnerCAI34PromptPreprocessingTemplateVersionOtFZTf4nnnd_n
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF024makeSpeculativeStreamingxO0L_yAA020SpeculativeStreamingxO0CAaQ_p_S2itFTf4ennn_n
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF024makeSpeculativeStreamingxO0L_yAA020SpeculativeStreamingxO0CAaQ_p_S2itFTf4ennn_nAA06MaskedxO0C_Tg5
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF25addPriorOutputSpeculationL_yAA021DeterministicLanguageO8Protocol_pAaP_pKF
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTY12_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC14supportedTools33_6E70D024FF4C54BC34814633D058F739LL4fromSay29GenerativeFunctionsFoundation4ToolV8FunctionVGSay0aB00U11DescriptionVG_t20ModelManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaF
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaFTY0_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaFTY1_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaFTY2_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaFTq
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel11fromGrammar14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB4Core0L0V_AA0decN15ObjectTokenizerVzAA0decnv2E5P0VAA0decnrT0_ptYaFTu
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKF
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTQ3_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTY4_
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTq
++ _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVzAA0decnu2E5P0VAA0decnrT0_ptYaKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTQ3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTY5_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTY6_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012handleCustomF033_65818D6FA4B5F545C6B162D7CBE031AELL13configuration8templatey20ModelManagerServices0iF13ConfigurationV_0U7Catalog0F16BackedLLMAdapter_ptYaAH0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC012supplementalF18ObjectByIdentifier33_65818D6FA4B5F545C6B162D7CBE031AELLSDySSAA0decfI0_pGvpWvd
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC042fetchPromptPreprocessingTemplateVersionForF6Bundle10identifier0aB4Core0ijkL0OSgSS_t20ModelManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC042fetchPromptPreprocessingTemplateVersionForF6Bundle10identifier0aB4Core0ijkL0OSgSS_t20ModelManagerServices0C5ErrorOYKFTq
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTQ3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTQ5_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTQ7_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTQ9_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY10_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY11_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY12_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY13_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY14_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY15_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY6_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTY8_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTq
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfJ0V_SbtYaAG0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTq
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgtYa0P15ManagerServices0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC13stopTokensFor33_65818D6FA4B5F545C6B162D7CBE031AELL21modelBundleIdentifier9tokenizerSaySiGSgSS_0aB4Core15TokenizerRunnerCtF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTQ4_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTY5_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTY6_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0VtYa0T15ManagerServices0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05asset10identifier21explicitBundleFileURLy0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0VSS10Foundation0Z0VSgtYa0J15ManagerServices0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKFTQ1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKFTY2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter10identifier5assety12ModelCatalog0f6BackedI0_p_SSAA0F0VtYa0W15ManagerServices0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTQ2_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTY1_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTY3_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTY4_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTY5_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20handleImageTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL05imageJ05assety12ModelCatalog0f6BackediJ0_p_AA0F0VtYa0V15ManagerServices0C5ErrorOYKFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20makeDraftingBehavior33_65818D6FA4B5F545C6B162D7CBE031AELL26metadataModelConfiguration17defaultParametersAA0iJ0V0aB4Core0uV0VSg_AA07DefaultX0VSgtF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC25modelConfigurationWithURL33_65818D6FA4B5F545C6B162D7CBE031AELL0H4Path0H8Resource07adapterV11InformationSo017TGIMutableE5ModelI4ObjCC_AA13ModelMetadataVSgtSS_12ModelCatalog0f6BackedV0_pAA07AdaptervX0VSgt20ModelManagerServices0C5ErrorOYKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC26metadataModelConfiguration33_65818D6FA4B5F545C6B162D7CBE031AELL5asset0aB4Core0iJ0VAA0F0V_tKF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC6update11assetObjectyAA0decfJ0_p_tYaFTq
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiers0H11InformationySaySSG_20ModelManagerServices0c15ProviderPrewarmL0VtYaF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiers0H11InformationySaySSG_20ModelManagerServices0c15ProviderPrewarmL0VtYaFTY0_
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiers0H11InformationySaySSG_20ModelManagerServices0c15ProviderPrewarmL0VtYaFTq
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiers0H11InformationySaySSG_20ModelManagerServices0c15ProviderPrewarmL0VtYaFTu
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC9dumpStateSSyF
++ _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC9dumpStateSSyFTq
++ _$s24TokenGenerationInference08OnDeviceC17OverridesProtocolP010endOfImageA2IDSiSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC17OverridesProtocolP012startOfImageA2IDSiSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC17OverridesProtocolP013startToolCallA2IDSiSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC17OverridesProtocolP24imageEmbeddingCacheBytesSiSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC17OverridesProtocolP29draftUseMaximumLikelihoodTreeSbSgvgTq
++ _$s24TokenGenerationInference08OnDeviceC18ProviderDataSourceC15createTokenizer13tokenizerPath8metadata0aB4Core0J6RunnerCSS_AA0J8MetadataVSgtKFTv_r
++ _$s24TokenGenerationInference08OnDeviceC18ProviderDataSourceC25modelMetadataFromResourceyAA05ModelJ0VSg0M7Catalog011AssetBackedL0_pKF
++ _$s24TokenGenerationInference08OnDeviceC18ProviderDataSourceCAA0decfgH8ProtocolA2aDP29tokenizerMetadataFromResourceyAA09TokenizerK0V12ModelCatalog011AssetBackedN0_pKFTW
++ _$s24TokenGenerationInference08OnDeviceC20AssetObjectTokenizerVWOcTm
++ _$s24TokenGenerationInference08OnDeviceC23AssetRepositoryProtocolP042fetchPromptPreprocessingTemplateVersionForF6Bundle10identifier0aB4Core0jklM0OSgSS_tYa20ModelManagerServices0C5ErrorOYKFTq
++ _$s24TokenGenerationInference08OnDeviceC23AssetRepositoryProtocolP04loadF015assetDescriptor20shouldDoVersionChecky20ModelManagerServices0c8ProviderfK0V_SbtYaAG0C5ErrorOYKFTq
++ _$s24TokenGenerationInference08OnDeviceC23AssetRepositoryProtocolP6update11assetObjectyAA0decfK0_p_tYaFTq
++ _$s24TokenGenerationInference08OnDeviceC23AssetRepositoryProtocolP9dumpStateSSyYaFTq
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVAA0decfG0A2aDP10identifierSSvgTW
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVAA0decfG0A2aDP5assetAA0F0VSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVAA0decfG0AAMc
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVAA0decfG0AAWP
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMF
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMa
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMf
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMl
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMn
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVMr
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVN
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVSgMD
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVWOcTm
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVWV
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVwet
++ _$s24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerVwst
++ _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP14createE5Runner18modelConfiguration9baseModelAA08LanguagepL0_pSo05TGIE5pN4ObjCC_AA04BaseP0_pSgtYaKFTq
++ _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP15createBaseModel4withAA0kL0_pSo05TGIE5L17ConfigurationObjCC_tYaKFTq
++ _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP20createImageTokenizer13tokenizerPathAA0K13EncoderRunner_pSS_tYaKFTq
++ _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP32createE5TransformerLanguageModel4with4nameAA0klmN0CAA0mN6Runner_p_SStFTq
++ _$s24TokenGenerationInference08OnDeviceC7ContextC05imageA11IDGeneratorAA05ImageaH0CvpWvd
++ _$s24TokenGenerationInference08OnDeviceC7ContextC06guidedB17VocabularyManager0aB4Core06GuidedbhI0VSgvpWvd
++ _$s24TokenGenerationInference08OnDeviceC7ContextC16draftingBehaviorAA08DraftingH0VSgvpWvd
++ _$s24TokenGenerationInference08OnDeviceC7ContextC19attachmentTokenizerAA0de10AttachmentH0CvpWvd
++ _$s24TokenGenerationInference08OnDeviceC7ContextC34promptPreprocessingTemplateVersion0aB4Core06PrompthiJ0OvpWvd
++ _$s24TokenGenerationInference08OnDeviceC7ContextC7decoder16draftingBehavior9tokenizer22tokenIDToTextConverter21inferenceAssetObjects05imageA11IDGenerator19attachmentTokenizer16specialTokensMap20localizationMetadata010classifierZ004stopA034promptPreprocessingTemplateVersion06guidedB17VocabularyManagerAcA15SamplingDecoder_p_AA08DraftingI0VSg0aB4Core0U6RunnerCAU0almN8Protocol_pSayAA0decP6Object_pGAA05ImageaS0CAA0de10AttachmentU0CSDySSAA0z7SpecialA0OGSgSDySSA5_GSgAA010ClassifierZ0VSgAA04StopA0VSgAU34PromptPreprocessingTemplateVersionOAU06GuidedB17VocabularyManagerVSgtcfCTq
++ _$s24TokenGenerationInference08OnDeviceC7ContextCMU
++ _$s24TokenGenerationInference08OnDeviceC7ContextCMl
++ _$s24TokenGenerationInference08OnDeviceC7ContextCMr
++ _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p20ModelManagerServices06ClientJ0V_AG0cF20RequestConfigurationVtF
++ _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p20ModelManagerServices06ClientJ0V_AG0cF20RequestConfigurationVtF10Foundation0J0V0aB021PromptCompletionEvent_pYaYbcfU_
++ _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p20ModelManagerServices06ClientJ0V_AG0cF20RequestConfigurationVtF10Foundation0J0V0aB021PromptCompletionEvent_pYaYbcfU_TY0_
++ _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p20ModelManagerServices06ClientJ0V_AG0cF20RequestConfigurationVtF10Foundation0J0V0aB021PromptCompletionEvent_pYaYbcfU_Tu
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP010endOfImageA2IDSiSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP012startOfImageA2IDSiSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP013startToolCallA2IDSiSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP09endPromptA0SSSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP11adapterPathSSSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP13tokenizerPathSSSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP14draftModelPathSSSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP20disablePromptCachingSbSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP22promptLookupDraftStepsSiSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP23mutableWeightSymbolNameSSSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP24imageEmbeddingCacheBytesSiSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP27allowPromptTemplateFallbackSbSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP29draftUseMaximumLikelihoodTreeSbSgvgTW
++ _$s24TokenGenerationInference08OnDeviceC9OverridesVAA0decF8ProtocolA2aDP9modelPathSSSgvgTW
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTQ2_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTQ3_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY4_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY5_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY6_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY7_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY8_
++ _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY9_
++ _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfCTQ1_
++ _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfCTY0_
++ _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfCTY2_
++ _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfCTY3_
++ _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfcAaP_pAaP_pXEfU_TA.3
++ _$s24TokenGenerationInference0A4MaskV10startIndexSivg
++ _$s24TokenGenerationInference0A4MaskV10startIndexSivpMV
++ _$s24TokenGenerationInference0A4MaskV2eeoiySbAC_ACtFZ
++ _$s24TokenGenerationInference0A4MaskV4hash4intoys6HasherVz_tF
++ _$s24TokenGenerationInference0A4MaskV5countSivg
++ _$s24TokenGenerationInference0A4MaskV5countSivgTm
++ _$s24TokenGenerationInference0A4MaskV5countSivpMV
++ _$s24TokenGenerationInference0A4MaskV5index5afterS2i_tF
++ _$s24TokenGenerationInference0A4MaskV6prefix4upToACSi_tF
++ _$s24TokenGenerationInference0A4MaskV6remove2atySi_tF
++ _$s24TokenGenerationInference0A4MaskV8endIndexSivg
++ _$s24TokenGenerationInference0A4MaskV8endIndexSivpMV
++ _$s24TokenGenerationInference0A4MaskV9hashValueSivg
++ _$s24TokenGenerationInference0A4MaskV9hashValueSivpMV
++ _$s24TokenGenerationInference0A4MaskVACSKAAWL
++ _$s24TokenGenerationInference0A4MaskVACSKAAWl
++ _$s24TokenGenerationInference0A4MaskVACSQAAWL
++ _$s24TokenGenerationInference0A4MaskVACSQAAWl
++ _$s24TokenGenerationInference0A4MaskVACSTAAWL
++ _$s24TokenGenerationInference0A4MaskVACSTAAWl
++ _$s24TokenGenerationInference0A4MaskVACSkAAWL
++ _$s24TokenGenerationInference0A4MaskVACSkAAWl
++ _$s24TokenGenerationInference0A4MaskVACSlAAWL
++ _$s24TokenGenerationInference0A4MaskVACSlAAWl
++ _$s24TokenGenerationInference0A4MaskVMF
++ _$s24TokenGenerationInference0A4MaskVMa
++ _$s24TokenGenerationInference0A4MaskVMf
++ _$s24TokenGenerationInference0A4MaskVMn
++ _$s24TokenGenerationInference0A4MaskVN
++ _$s24TokenGenerationInference0A4MaskVSHAAMc
++ _$s24TokenGenerationInference0A4MaskVSHAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference0A4MaskVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference0A4MaskVSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference0A4MaskVSHAASQWb
++ _$s24TokenGenerationInference0A4MaskVSKAA11SubSequenceSl_SKWT
++ _$s24TokenGenerationInference0A4MaskVSKAA7IndicesSl_SKWT
++ _$s24TokenGenerationInference0A4MaskVSKAAMA
++ _$s24TokenGenerationInference0A4MaskVSKAAMc
++ _$s24TokenGenerationInference0A4MaskVSKAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSKAASK5index6before5IndexQzAG_tFTW
++ _$s24TokenGenerationInference0A4MaskVSKAASK5index_8offsetBy07limitedG05IndexQzSgAH_SiAHtFTW
++ _$s24TokenGenerationInference0A4MaskVSKAASK5index_8offsetBy5IndexQzAG_SitFTW
++ _$s24TokenGenerationInference0A4MaskVSKAASK8distance4from2toSi5IndexQz_AHtFTW
++ _$s24TokenGenerationInference0A4MaskVSKAASK9formIndex6beforey0F0Qzz_tFTW
++ _$s24TokenGenerationInference0A4MaskVSKAASlWb
++ _$s24TokenGenerationInference0A4MaskVSQAAMc
++ _$s24TokenGenerationInference0A4MaskVSQAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference0A4MaskVSTAA8IteratorST_StWT
++ _$s24TokenGenerationInference0A4MaskVSTAAMA
++ _$s24TokenGenerationInference0A4MaskVSTAAMc
++ _$s24TokenGenerationInference0A4MaskVSTAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSTAAST12makeIterator0F0QzyFTW
++ _$s24TokenGenerationInference0A4MaskVSTAAST13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFTW
++ _$s24TokenGenerationInference0A4MaskVSTAAST19underestimatedCountSivgTW
++ _$s24TokenGenerationInference0A4MaskVSTAAST22_copyToContiguousArrays0gH0Vy7ElementQzGyFTW
++ _$s24TokenGenerationInference0A4MaskVSTAAST31_customContainsEquatableElementySbSg0H0QzFTW
++ _$s24TokenGenerationInference0A4MaskVSTAAST32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFTW
++ _$s24TokenGenerationInference0A4MaskVSkAA11SubSequenceSl_SkWT
++ _$s24TokenGenerationInference0A4MaskVSkAA7IndicesSl_SkWT
++ _$s24TokenGenerationInference0A4MaskVSkAAMA
++ _$s24TokenGenerationInference0A4MaskVSkAAMc
++ _$s24TokenGenerationInference0A4MaskVSkAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSkAASKWb
++ _$s24TokenGenerationInference0A4MaskVSkAASk5index_8offsetBy07limitedG05IndexQzSgAH_SiAHtFTW
++ _$s24TokenGenerationInference0A4MaskVSkAASk5index_8offsetBy5IndexQzAG_SitFTW
++ _$s24TokenGenerationInference0A4MaskVSkAASk8distance4from2toSi5IndexQz_AHtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAA11SubSequenceSl_SlWT
++ _$s24TokenGenerationInference0A4MaskVSlAA5IndexSl_SLWT
++ _$s24TokenGenerationInference0A4MaskVSlAA7IndicesSl_SlWT
++ _$s24TokenGenerationInference0A4MaskVSlAAMA
++ _$s24TokenGenerationInference0A4MaskVSlAAMc
++ _$s24TokenGenerationInference0A4MaskVSlAAMcMK
++ _$s24TokenGenerationInference0A4MaskVSlAASTWb
++ _$s24TokenGenerationInference0A4MaskVSlAASl10startIndex0F0QzvgTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyAGGtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyAGGtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AHtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl30_customIndexOfEquatableElementy0F0QzSgSg0I0QzFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl34_customLastIndexOfEquatableElementy0G0QzSgSg0J0QzFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl5countSivgTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl5countSivgTWTm
++ _$s24TokenGenerationInference0A4MaskVSlAASl5index5after5IndexQzAG_tFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl5index_8offsetBy07limitedG05IndexQzSgAH_SiAHtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl5index_8offsetBy07limitedG05IndexQzSgAH_SiAHtFTWTm
++ _$s24TokenGenerationInference0A4MaskVSlAASl5index_8offsetBy5IndexQzAG_SitFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl5index_8offsetBy5IndexQzAG_SitFTWTm
++ _$s24TokenGenerationInference0A4MaskVSlAASl7indices7IndicesQzvgTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl7isEmptySbvgTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl8distance4from2toSi5IndexQz_AHtFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl8distance4from2toSi5IndexQz_AHtFTWTm
++ _$s24TokenGenerationInference0A4MaskVSlAASl8endIndex0F0QzvgTW
++ _$s24TokenGenerationInference0A4MaskVSlAASl9formIndex5aftery0F0Qzz_tFTW
++ _$s24TokenGenerationInference0A4MaskVSlAASly11SubSequenceQzSny5IndexQzGcigTW
++ _$s24TokenGenerationInference0A4MaskVSlAASly7ElementQz5IndexQzcirTW
++ _$s24TokenGenerationInference0A4MaskVSlAASly7ElementQz5IndexQzcirTW.resume.0
++ _$s24TokenGenerationInference0A4MaskVWV
++ _$s24TokenGenerationInference0A4MaskVwet
++ _$s24TokenGenerationInference0A4MaskVwst
++ _$s24TokenGenerationInference0A4MaskVySbSicig
++ _$s24TokenGenerationInference0A4MaskVySbSicipMV
++ _$s24TokenGenerationInference0A4MaskVySbSicir
++ _$s24TokenGenerationInference0A4MaskVySbSicir.resume.0
++ _$s24TokenGenerationInference0A6RecordVMF
++ _$s24TokenGenerationInference0A6RecordVMa
++ _$s24TokenGenerationInference0A6RecordVMf
++ _$s24TokenGenerationInference0A6RecordVMn
++ _$s24TokenGenerationInference0A6RecordVN
++ _$s24TokenGenerationInference0A6RecordVWV
++ _$s24TokenGenerationInference0A6RecordVwet
++ _$s24TokenGenerationInference0A6RecordVwst
++ _$s24TokenGenerationInference0A8Sampling_pWOcTm
++ _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOc
++ _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOh
++ _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeO_AEtMD
++ _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeO_AEtWOhTm
++ _$s24TokenGenerationInference0aB13ConfigurationVWOc
++ _$s24TokenGenerationInference0aB13ConfigurationVWOh
++ _$s24TokenGenerationInference10E5FunctionV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH13_rawHashValue4seedS2i_tFTWTm
++ _$s24TokenGenerationInference10E5FunctionV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH9hashValueSivgTWTm
++ _$s24TokenGenerationInference10E5FunctionVACSEAAWL
++ _$s24TokenGenerationInference10E5FunctionVACSEAAWl
++ _$s24TokenGenerationInference10E5FunctionVACSeAAWL
++ _$s24TokenGenerationInference10E5FunctionVACSeAAWl
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLC6tokensSaySiGvpWvd
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLC9hashValueSivg
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCAFSQAAWL
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCAFSQAAWlTm
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMF
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMXX
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMa
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMf
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMm
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCMn
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCN
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAAMc
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAAMcMK
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAASQWb
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSQAAMc
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSQAAMcMK
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCfD
++ _$s24TokenGenerationInference10KVLRUCacheC10cacheEntry3for10Foundation4DataVSgSaySiG_tFTq
++ _$s24TokenGenerationInference10KVLRUCacheC5cache33_E608F54CD2D5DEB8748575A2CF878FDBLLSo7NSCacheCyAC0A12ArrayWrapperAELLCSo6NSDataCGvpWvd
++ _$s24TokenGenerationInference10KVLRUCacheC6insert12kvCacheEntry6tokensy10Foundation4DataV_SaySiGtKF
++ _$s24TokenGenerationInference10KVLRUCacheC6insert12kvCacheEntry6tokensy10Foundation4DataV_SaySiGtKFTq
++ _$s24TokenGenerationInference10sha256Hash3forS2S_tF
++ _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV19underestimatedCountSivg
++ _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV19underestimatedCountSivpMV
++ _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV4node0H6States8positionAEyx_GSi_SayxGSiSgtcfC
++ _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV8positionSiSgvg
++ _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV8positionSiSgvpMV
++ _$s24TokenGenerationInference11NodeStorageV5nodes20previousAndIncluding8positionAC08PreviousD8SequenceVyx_GSi_SiSgtF
++ _$s24TokenGenerationInference11NodeStorageV5nodes20previousAndIncluding8positionAC08PreviousD8SequenceVyx_GSi_SiSgtFAA26E5TransformerLanguageModelC0D5StateV_TB5
++ _$s24TokenGenerationInference11NodeStorageV5nodes20previousAndIncluding8positionAC08PreviousD8SequenceVyx_GSi_SiSgtFAA26GrammarGuidedLanguageModelC0D0V_TB5Tm
++ _$s24TokenGenerationInference11NodeStorageVyxSicipAA0D13StateProtocolRzlACyxGxTk
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AA17AFMGatherFunctionV_TG5TA
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AA17AFMGatherFunctionV_TG5TA.2
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AA17AFMGatherFunctionV_TG5TATm
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AA17AFMGatherFunctionV_Tg5Tf4nnnx_n
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AH08FunctionO0V_TG5
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AH08FunctionO0V_TG5TA
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AH08FunctionO0V_TG5TA.10
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AH08FunctionO0V_TG5TA.14
++ _$s24TokenGenerationInference12AFMUtilitiesV11makeTensors3for18descriptorProvider8wrappingSDySS4ODIE7NDArrayCGSaySSG_xSDySSAJ6BufferVGtAA015ArrayDescriptorI0RzlFZyAKz_SStXEfU_AH08FunctionO0V_Tg5
++ _$s24TokenGenerationInference12AFMUtilitiesV12defaultMasks10tokenCount015startingContextH0SayAA0A4MaskVGSi_SitFZTf4nnd_n
++ _$s24TokenGenerationInference12AFMUtilitiesV14fillCacheHoles11cacheBuffer15bytesPerElement07currentF4Size11holeIndices06strideK8Sequence018sequentialElementskA0012numSequenceskA0y4ODIE7NDArrayC0I0V_S2iSaySiGS3itFZTf4nnnnnnnd_n
++ _$s24TokenGenerationInference12AFMUtilitiesV14validateTokens_15vocabularyCount16featureProjectoryx_SiAA016ODIEImageFeatureJ0CtKSlRzs5Int32V7ElementRtzlFZSayAJG_Tt2g5
++ _$s24TokenGenerationInference12AFMUtilitiesV17makeCacheFillPlan07currentF4Size11holeIndicesSayAC0fG11InstructionVGSi_SaySiGtFZTf4nnd_n
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVMF
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVMa
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVMf
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVMn
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVN
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVSQAAMc
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVSQAAMcMK
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVWV
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVwet
++ _$s24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVwst
++ _$s24TokenGenerationInference12AFMUtilitiesV21fillAbsolutePositions_5masksy4ODIE7NDArrayC_xtSlRzAA0A4MaskV7ElementRtzlFZyAF25UnsafeMutableArrayPointerVys6UInt16VGXEfU_SayAJG_TG5TA
++ _$s24TokenGenerationInference12AFMUtilitiesV21fillAbsolutePositions_5masksy4ODIE7NDArrayC_xtSlRzAA0A4MaskV7ElementRtzlFZyAF25UnsafeMutableArrayPointerVys6UInt16VGXEfU_SayAJG_Tg5
++ _$s24TokenGenerationInference12AFMUtilitiesV23makeMaximumSizedBuffers3for9largestOf17excludingOperandsSDySS4ODIE7NDArrayC6BufferVGSaySSG_SayxGANtKAA23ArrayDescriptorProviderRzlFZAA17AFMDecodeFunctionV_Tt2g5
++ _$s24TokenGenerationInference12AFMUtilitiesV23makeMaximumSizedBuffers3for9largestOf17excludingOperandsSDySS4ODIE7NDArrayC6BufferVGSaySSG_SayxGANtKAA23ArrayDescriptorProviderRzlFZAA17AFMGatherFunctionV_Tt2g5
++ _$s24TokenGenerationInference12AFMUtilitiesV24fillCausalMasksANELayout_10contentsOfy4ODIE7NDArrayC_xtSlRzAA0A4MaskV7ElementRtzlFZSayAJG_Tt1g5
++ _$s24TokenGenerationInference12AFMUtilitiesV24fillCausalMasksANELayout_10contentsOfy4ODIE7NDArrayC_xtSlRzAA0A4MaskV7ElementRtzlFZyAF25UnsafeMutableArrayPointerVys7Float16VGXEfU0_SayAJG_TG5TA
++ _$s24TokenGenerationInference12AFMUtilitiesV24fillCausalMasksANELayout_10contentsOfy4ODIE7NDArrayC_xtSlRzAA0A4MaskV7ElementRtzlFZyAF25UnsafeMutableArrayPointerVys7Float16VGXEfU0_SayAJG_Tg5
++ _$s24TokenGenerationInference12AFMUtilitiesV25findOptimalDecodeFunction4from14currentContext15remainingTokens26tokensRequiringLogitsCountSi13functionIndex_Si10holesToAddtSgSayxG_S3itAA09AFMDecodeH10DescriptorRzlFZAA0wH0V_Tt3g5
++ _$s24TokenGenerationInference12AFMUtilitiesV8addHoles_2toAA0A4MaskVSaySiG_AGtFZ
++ _$s24TokenGenerationInference12AFMUtilitiesVMF
++ _$s24TokenGenerationInference12AFMUtilitiesVMa
++ _$s24TokenGenerationInference12AFMUtilitiesVMf
++ _$s24TokenGenerationInference12AFMUtilitiesVMn
++ _$s24TokenGenerationInference12AFMUtilitiesVN
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC05auditA0ADSg20ModelManagerServices05AuditA0V_tcfc
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC15extensionHandles5Int64VvpWvd
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC19systemDataDirectory10Foundation3URLVvpWvd
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC7rootURL10Foundation0M0VvpWvd
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMF
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMU
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMXX
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMa
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMf
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMl
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMm
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMn
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCMr
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCN
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCfD
++ _$s24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLCfd
++ _$s24TokenGenerationInference12BasicDecoderC13languageModel7samplerAcA021DeterministicLanguageG8Protocol_p_AA0A8Sampling_ptcfCTf4enn_n
++ _$s24TokenGenerationInference12BasicDecoderC13languageModel7samplerAcA021DeterministicLanguageG8Protocol_p_AA0A8Sampling_ptcfCTm
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKF
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFTQ1_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFTY0_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFTY2_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFTY3_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFTu
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFyyYaKXEfU_ySRys5UInt8VGXEfU0_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFyyYaKXEfU_ySRys5UInt8VGXEfU0_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFyyYaKXEfU_ySrys7Float16VG_SaySiGtKXEfU_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV015encodeProcessedD010imageIndex0P010signposterSay10Foundation4DataVGSi_AA0oD8Protocol_pAD10SignposterVtYaKFyyYaKXEfU_ySrys7Float16VG_SaySiGtKXEfU_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterV015profileTokenizeD4Data10imageIndex04tileS07closurexSi_SixyYaKXEtYaKlF6$deferL_yylFTm
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterV24profileProcessAttachment7closurexxyKXE_tKlF6$deferL_yylF
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterV24profileProcessAttachment7closurexxyKXE_tKlFSayAA09ProcessedD8Protocol_pG_Tg507$sSay24ab11Inference22sdT34_pGs5Error_pIgozo_ACsAD_pIegrzo_TRAJs0Y0_pIgozo_Tf1cn_nTf4ng_n
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMF
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMa
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMf
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMl
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMn
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVMr
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVWOb
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVWOc
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVWOh
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVWV
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVwet
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterVwst
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKF
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_TATQ0_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_TATu
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_TQ0_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFAIyYaKcfU_Tu
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTQ1_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTQ3_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTY0_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTY2_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTY4_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTY5_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTY6_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV21encodeProcessedImagesySay10Foundation4DataVGSayAA0oD8Protocol_pGyKXEYaKFTu
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode012preprocessedD0Say10Foundation4DataVG0aB06PromptV012PreprocessedD10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode012preprocessedD0Say10Foundation4DataVG0aB06PromptV012PreprocessedD10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode12imageSurfaceSay10Foundation4DataVG0aB06PromptV0dP10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode12imageSurfaceSay10Foundation4DataVG0aB06PromptV0dP10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode5imageSay10Foundation4DataVG0aB06PromptV0D10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV6encode5imageSay10Foundation4DataVG0aB06PromptV0D10AttachmentV_tYaKFSayAA09ProcessedD8Protocol_pGyKXEfU_TA
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVMF
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVMXX
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVMa
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVMf
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVMn
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVSgMD
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVSgWOhTm
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVWOc
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVWOh
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVWV
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVwet
++ _$s24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLVwst
++ _$s24TokenGenerationInference13LogitIndexSetO06singleA0yACSiFZ
++ _$s24TokenGenerationInference13LogitIndexSetO10isDisjoint4withSbAC_tF
++ _$s24TokenGenerationInference13LogitIndexSetO10maskLogits_5valueySrys7Float16VG_AGtF
++ _$s24TokenGenerationInference13LogitIndexSetO10maskLogits_5valueySrys7Float16VG_AGtF0G5RangeL_yySnySiGFTf4nnx_n
++ _$s24TokenGenerationInference13LogitIndexSetO12intersectionyA2CF
++ _$s24TokenGenerationInference13LogitIndexSetO16debugDescriptionSSvg
++ _$s24TokenGenerationInference13LogitIndexSetO16debugDescriptionSSvpMV
++ _$s24TokenGenerationInference13LogitIndexSetO16formIntersectionyyACF
++ _$s24TokenGenerationInference13LogitIndexSetO2eeoiySbAC_ACtFZ
++ _$s24TokenGenerationInference13LogitIndexSetO2eeoiySbAC_ACtFZTf4nnd_n
++ _$s24TokenGenerationInference13LogitIndexSetO3mapySayxGxSiKXEKlF
++ _$s24TokenGenerationInference13LogitIndexSetO4lastSiSgvg
++ _$s24TokenGenerationInference13LogitIndexSetO4lastSiSgvpMV
++ _$s24TokenGenerationInference13LogitIndexSetO5countSivg
++ _$s24TokenGenerationInference13LogitIndexSetO5countSivpMV
++ _$s24TokenGenerationInference13LogitIndexSetO5countyACSiFZ
++ _$s24TokenGenerationInference13LogitIndexSetO5denseyACSnySiGcACmFWC
++ _$s24TokenGenerationInference13LogitIndexSetO5emptyACvgZ
++ _$s24TokenGenerationInference13LogitIndexSetO5emptyACvpZ
++ _$s24TokenGenerationInference13LogitIndexSetO5emptyACvpZMV
++ _$s24TokenGenerationInference13LogitIndexSetO5empty_WZ
++ _$s24TokenGenerationInference13LogitIndexSetO5empty_Wz
++ _$s24TokenGenerationInference13LogitIndexSetO5firstSiSgvg
++ _$s24TokenGenerationInference13LogitIndexSetO5firstSiSgvpMV
++ _$s24TokenGenerationInference13LogitIndexSetO5unionyA2CF
++ _$s24TokenGenerationInference13LogitIndexSetO6reduceyxx_xx_SitKXEtKlF
++ _$s24TokenGenerationInference13LogitIndexSetO6reduceyxx_xx_SitKXEtKlFSf5value_Si5indext_Tg5
++ _$s24TokenGenerationInference13LogitIndexSetO6reduceyxx_xx_SitKXEtKlFSf_Tg5
++ _$s24TokenGenerationInference13LogitIndexSetO6sparseyAC0aB4Core013ContiguousBitF0VcACmFWC
++ _$s24TokenGenerationInference13LogitIndexSetO6tokensyACxSlRzSi7ElementRtzlFZ
++ _$s24TokenGenerationInference13LogitIndexSetO6tokensyACxSlRzSi7ElementRtzlFZSD4KeysVyS2i_G_Tt1g5
++ _$s24TokenGenerationInference13LogitIndexSetO6tokensyACxSlRzSi7ElementRtzlFZSaySiG_Tt1g5
++ _$s24TokenGenerationInference13LogitIndexSetO7forEachyyySiKXEKF
++ _$s24TokenGenerationInference13LogitIndexSetO7isEmptySbvg
++ _$s24TokenGenerationInference13LogitIndexSetO7isEmptySbvpMV
++ _$s24TokenGenerationInference13LogitIndexSetO8containsySbSiF
++ _$s24TokenGenerationInference13LogitIndexSetO9formUnionyyACF
++ _$s24TokenGenerationInference13LogitIndexSetOMF
++ _$s24TokenGenerationInference13LogitIndexSetOMa
++ _$s24TokenGenerationInference13LogitIndexSetOMf
++ _$s24TokenGenerationInference13LogitIndexSetOMl
++ _$s24TokenGenerationInference13LogitIndexSetOMn
++ _$s24TokenGenerationInference13LogitIndexSetOMr
++ _$s24TokenGenerationInference13LogitIndexSetON
++ _$s24TokenGenerationInference13LogitIndexSetOSQAAMc
++ _$s24TokenGenerationInference13LogitIndexSetOSQAAMcMK
++ _$s24TokenGenerationInference13LogitIndexSetOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference13LogitIndexSetOSgMD
++ _$s24TokenGenerationInference13LogitIndexSetOSgML
++ _$s24TokenGenerationInference13LogitIndexSetOSgMa
++ _$s24TokenGenerationInference13LogitIndexSetOSgWOb
++ _$s24TokenGenerationInference13LogitIndexSetOSgWOc
++ _$s24TokenGenerationInference13LogitIndexSetOSgWOh
++ _$s24TokenGenerationInference13LogitIndexSetOWOb
++ _$s24TokenGenerationInference13LogitIndexSetOWOc
++ _$s24TokenGenerationInference13LogitIndexSetOWOcTm
++ _$s24TokenGenerationInference13LogitIndexSetOWOd
++ _$s24TokenGenerationInference13LogitIndexSetOWOf
++ _$s24TokenGenerationInference13LogitIndexSetOWOh
++ _$s24TokenGenerationInference13LogitIndexSetOWOhTm
++ _$s24TokenGenerationInference13LogitIndexSetOWV
++ _$s24TokenGenerationInference13LogitIndexSetOs28CustomDebugStringConvertibleAAMc
++ _$s24TokenGenerationInference13LogitIndexSetOs28CustomDebugStringConvertibleAAMcMK
++ _$s24TokenGenerationInference13LogitIndexSetOs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
++ _$s24TokenGenerationInference13LogitIndexSetOwet
++ _$s24TokenGenerationInference13LogitIndexSetOwst
++ _$s24TokenGenerationInference13LogitIndexSetOwup
++ _$s24TokenGenerationInference13LogitIndexSetOyAC0aB4Core013ContiguousBitF0VcfC
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueSSvg
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWL
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWl
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWL
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWl
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWL
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWl
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMF
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMXX
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMa
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMf
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMn
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMc
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQWb
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMc
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOWV
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMc
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertiblePWb
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValueSSvgTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValueSiSgvgTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMc
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwet
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwst
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwug
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwui
++ _$s24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwup
++ _$s24TokenGenerationInference13ModelMetadataV4from11metadataUrlAC0D7Catalog013LLMModelAssetE0V_10Foundation3URLVtKcfC
++ _$s24TokenGenerationInference13ModelMetadataV4from11metadataUrlAC0D7Catalog08LLMDraftd5AssetE0V_10Foundation3URLVtKcfC
++ _$s24TokenGenerationInference13ModelMetadataV4fromACs7Decoder_p_tKcfC
++ _$s24TokenGenerationInference13ModelMetadataV6encode2toys7Encoder_p_tKF
++ _$s24TokenGenerationInference13ModelMetadataVMF
++ _$s24TokenGenerationInference13ModelMetadataVMa
++ _$s24TokenGenerationInference13ModelMetadataVMf
++ _$s24TokenGenerationInference13ModelMetadataVMl
++ _$s24TokenGenerationInference13ModelMetadataVMn
++ _$s24TokenGenerationInference13ModelMetadataVMr
++ _$s24TokenGenerationInference13ModelMetadataVN
++ _$s24TokenGenerationInference13ModelMetadataVSEAAMc
++ _$s24TokenGenerationInference13ModelMetadataVSEAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s24TokenGenerationInference13ModelMetadataVSeAAMc
++ _$s24TokenGenerationInference13ModelMetadataVSeAAMcMK
++ _$s24TokenGenerationInference13ModelMetadataVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s24TokenGenerationInference13ModelMetadataVSgMD
++ _$s24TokenGenerationInference13ModelMetadataVSgWOb
++ _$s24TokenGenerationInference13ModelMetadataVWOc
++ _$s24TokenGenerationInference13ModelMetadataVWOh
++ _$s24TokenGenerationInference13ModelMetadataVWV
++ _$s24TokenGenerationInference13ModelMetadataVwet
++ _$s24TokenGenerationInference13ModelMetadataVwst
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfCTq
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfc
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTQ1_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTQ3_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTQ6_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY0_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY2_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY4_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY5_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY7_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY8_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTY9_
++ _$s24TokenGenerationInference13ODIEBaseModelC10contentsOf15assetIdentifierAC10Foundation3URLV_SStYaKcfcTu
++ _$s24TokenGenerationInference13ODIEBaseModelC14embeddingTable4ODIE7NDArrayCvpWvd
++ _$s24TokenGenerationInference13ODIEBaseModelC15assetIdentifierSSvpWvd
++ _$s24TokenGenerationInference13ODIEBaseModelC17streamingDelegate28MetalPerformanceShadersGraph08MPSGraphG0CSgvpWvd
++ _$s24TokenGenerationInference13ODIEBaseModelC18moveToDynamicStateyyFTf4d_nTm
++ _$s24TokenGenerationInference13ODIEBaseModelCAA04BaseE0A2aDP15assetIdentifierSSvgTW
++ _$s24TokenGenerationInference13ODIEBaseModelCAA04BaseE0A2aDP4loadyyKFTW
++ _$s24TokenGenerationInference13ODIEBaseModelCAA04BaseE0AAMc
++ _$s24TokenGenerationInference13ODIEBaseModelCAA04BaseE0AAWP
++ _$s24TokenGenerationInference13ODIEBaseModelCAA18StatefullyLoadableA2aDP18moveToDynamicStateyyFTW
++ _$s24TokenGenerationInference13ODIEBaseModelCAA18StatefullyLoadableA2aDP22moveToFullyLoadedStateyyFTW
++ _$s24TokenGenerationInference13ODIEBaseModelCAA18StatefullyLoadableAAMc
++ _$s24TokenGenerationInference13ODIEBaseModelCAA18StatefullyLoadableAAWP
++ _$s24TokenGenerationInference13ODIEBaseModelCMF
++ _$s24TokenGenerationInference13ODIEBaseModelCMa
++ _$s24TokenGenerationInference13ODIEBaseModelCMf
++ _$s24TokenGenerationInference13ODIEBaseModelCMm
++ _$s24TokenGenerationInference13ODIEBaseModelCMn
++ _$s24TokenGenerationInference13ODIEBaseModelCN
++ _$s24TokenGenerationInference13ODIEBaseModelCfD
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVMF
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVMXX
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVMa
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVMf
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVMn
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVN
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVWOc
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVWOh
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVWV
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVwet
++ _$s24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVwst
++ _$s24TokenGenerationInference14GreedySamplingC14makePresamplerAA05LogitG0_pyFTm
++ _$s24TokenGenerationInference14GreedySamplingCAA0aE0A2aDP14makePresamplerAA05LogitG0_pyFTWTm
++ _$s24TokenGenerationInference14ImageTokenizerC05imageE13ConfigurationAA010OnDeviceE5deG0VvpWvd
++ _$s24TokenGenerationInference14ImageTokenizerC17imagePreprocessor0fE13Configuration0F13EncoderRunner0F14EmbeddingCacheAcA08OnDevicedG8Protocol_p_AA0mn2E5deH0VAA0diJ0_pAA0dkL0CtcfCTq
++ _$s24TokenGenerationInference14ImageTokenizerC17imagePreprocessorAA08OnDevicedG8Protocol_pvpWvd
++ _$s24TokenGenerationInference14ImageTokenizerC18imageEncoderRunnerAA0dgH0_pvpWvd
++ _$s24TokenGenerationInference14ImageTokenizerC19imageEmbeddingCacheAA0dgH0CvpWvd
++ _$s24TokenGenerationInference14ImageTokenizerCMF
++ _$s24TokenGenerationInference14ImageTokenizerCMa
++ _$s24TokenGenerationInference14ImageTokenizerCMf
++ _$s24TokenGenerationInference14ImageTokenizerCMm
++ _$s24TokenGenerationInference14ImageTokenizerCMn
++ _$s24TokenGenerationInference14ImageTokenizerCN
++ _$s24TokenGenerationInference14ImageTokenizerCfD
++ _$s24TokenGenerationInference14ProcessedImageV10inputShapeSaySiGvg
++ _$s24TokenGenerationInference14ProcessedImageV10inputShapeSaySiGvpMV
++ _$s24TokenGenerationInference14ProcessedImageV21numberOfBytesPerPixelSivg
++ _$s24TokenGenerationInference14ProcessedImageV21numberOfBytesPerPixelSivpMV
++ _$s24TokenGenerationInference14ProcessedImageV4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKF
++ _$s24TokenGenerationInference14ProcessedImageV5widthSivg
++ _$s24TokenGenerationInference14ProcessedImageV5widthSivpMV
++ _$s24TokenGenerationInference14ProcessedImageV6heightSivg
++ _$s24TokenGenerationInference14ProcessedImageV6heightSivpMV
++ _$s24TokenGenerationInference14ProcessedImageV8numTilesSivg
++ _$s24TokenGenerationInference14ProcessedImageV8numTilesSivpMV
++ _$s24TokenGenerationInference14ProcessedImageV9pixelDataSays5UInt8VGvg
++ _$s24TokenGenerationInference14ProcessedImageV9pixelDataSays5UInt8VGvpMV
++ _$s24TokenGenerationInference14ProcessedImageVAA0dE8ProtocolA2aDP4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKFTW
++ _$s24TokenGenerationInference14ProcessedImageVAA0dE8ProtocolA2aDP8numTilesSivgTW
++ _$s24TokenGenerationInference14ProcessedImageVAA0dE8ProtocolAAMc
++ _$s24TokenGenerationInference14ProcessedImageVAA0dE8ProtocolAAWP
++ _$s24TokenGenerationInference14ProcessedImageVMF
++ _$s24TokenGenerationInference14ProcessedImageVMa
++ _$s24TokenGenerationInference14ProcessedImageVMf
++ _$s24TokenGenerationInference14ProcessedImageVMn
++ _$s24TokenGenerationInference14ProcessedImageVN
++ _$s24TokenGenerationInference14ProcessedImageVWOc
++ _$s24TokenGenerationInference14ProcessedImageVWOh
++ _$s24TokenGenerationInference14ProcessedImageVWV
++ _$s24TokenGenerationInference14ProcessedImageVwet
++ _$s24TokenGenerationInference14ProcessedImageVwst
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueSSvg
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWL
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWl
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWL
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWl
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWL
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWl
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMF
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMXX
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMa
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMf
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMn
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMc
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQWb
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMc
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOWV
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMc
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertiblePWb
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValueSSvgTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValueSiSgvgTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMc
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwet
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwst
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwug
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwui
++ _$s24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwup
++ _$s24TokenGenerationInference15AdapterMetadataV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s24TokenGenerationInference15AdapterMetadataV6encode2toys7Encoder_p_tKF
++ _$s24TokenGenerationInference15AdapterMetadataVMF
++ _$s24TokenGenerationInference15AdapterMetadataVMa
++ _$s24TokenGenerationInference15AdapterMetadataVMf
++ _$s24TokenGenerationInference15AdapterMetadataVMn
++ _$s24TokenGenerationInference15AdapterMetadataVN
++ _$s24TokenGenerationInference15AdapterMetadataVSEAAMc
++ _$s24TokenGenerationInference15AdapterMetadataVSEAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s24TokenGenerationInference15AdapterMetadataVSeAAMc
++ _$s24TokenGenerationInference15AdapterMetadataVSeAAMcMK
++ _$s24TokenGenerationInference15AdapterMetadataVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s24TokenGenerationInference15AdapterMetadataVWOc
++ _$s24TokenGenerationInference15AdapterMetadataVWOh
++ _$s24TokenGenerationInference15AdapterMetadataVWV
++ _$s24TokenGenerationInference15AdapterMetadataVwet
++ _$s24TokenGenerationInference15AdapterMetadataVwst
++ _$s24TokenGenerationInference15AppAssetManagerC10identifier05auditA022adapterWeightsFileNameACSgSS_05ModelF8Services05AuditA0VSStcfCTf4nnnd_n
++ _$s24TokenGenerationInference15AppAssetManagerC10identifier14cacheDirectory09temporaryI09container22adapterWeightsFileNameACSS_10Foundation3URLVAkA0D9Container33_568BE640AB36247B38BDDCAC53FE0F70LLCSgSStcAMLlfcySDySSSiGzYuYTXEfU_
++ _$s24TokenGenerationInference15AppAssetManagerC10identifier33_568BE640AB36247B38BDDCAC53FE0F70LLSSvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC11draftMILURL33_568BE640AB36247B38BDDCAC53FE0F70LL10Foundation3URLVvg
++ _$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFTf4nnd_n
++ _$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFyyKXEfU_
++ _$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFyyKXEfU_TA
++ _$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFyyKXEfU_yyKXEfU_
++ _$s24TokenGenerationInference15AppAssetManagerC12copyContents33_568BE640AB36247B38BDDCAC53FE0F70LL2of2toy6System14FileDescriptorV_10Foundation3URLVtKFyyKXEfU_yyKXEfU_TA
++ _$s24TokenGenerationInference15AppAssetManagerC14cacheDirectory10Foundation3URLVvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC15draftWeightsURL33_568BE640AB36247B38BDDCAC53FE0F70LL10Foundation0I0Vvg
++ _$s24TokenGenerationInference15AppAssetManagerC15draftWeightsURL33_568BE640AB36247B38BDDCAC53FE0F70LL10Foundation0I0VvgTm
++ _$s24TokenGenerationInference15AppAssetManagerC16draftMILFileName33_568BE640AB36247B38BDDCAC53FE0F70LLSSvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC17assetBundlesInUse33_568BE640AB36247B38BDDCAC53FE0F70LL15Synchronization5MutexVySDySSSiGGvpZ
++ _$s24TokenGenerationInference15AppAssetManagerC17assetBundlesInUse33_568BE640AB36247B38BDDCAC53FE0F70LL_WZ
++ _$s24TokenGenerationInference15AppAssetManagerC17assetBundlesInUse33_568BE640AB36247B38BDDCAC53FE0F70LL_Wz
++ _$s24TokenGenerationInference15AppAssetManagerC18temporaryDirectory10Foundation3URLVvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC20draftWeightsFileName33_568BE640AB36247B38BDDCAC53FE0F70LLSSvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC22adapterWeightsFileName33_568BE640AB36247B38BDDCAC53FE0F70LLSSvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerC25compileDraftModelIfNeeded3milSSSg10Foundation3URLV_tKFTq
++ _$s24TokenGenerationInference15AppAssetManagerC28copyAndCompileAssetsIfNeeded8metadata14adapterWeights8draftMIL0pO010Foundation3URLVAF_AKSg0P5Modelt6System14FileDescriptorV_A2PSgAQtKF
++ _$s24TokenGenerationInference15AppAssetManagerC28copyAndCompileAssetsIfNeeded8metadata14adapterWeights8draftMIL0pO010Foundation3URLVAF_AKSg0P5Modelt6System14FileDescriptorV_A2PSgAQtKFTq
++ _$s24TokenGenerationInference15AppAssetManagerC28createCacheDirectoryIfNeeded33_568BE640AB36247B38BDDCAC53FE0F70LLyyKF
++ _$s24TokenGenerationInference15AppAssetManagerC32createTemporaryDirectoryIfNeeded33_568BE640AB36247B38BDDCAC53FE0F70LLyyKF
++ _$s24TokenGenerationInference15AppAssetManagerC9cloneFile33_568BE640AB36247B38BDDCAC53FE0F70LL4from2toy10Foundation3URLV_AJtKFTf4nnd_n
++ _$s24TokenGenerationInference15AppAssetManagerC9container33_568BE640AB36247B38BDDCAC53FE0F70LLAA0D9ContainerAELLCSgvpWvd
++ _$s24TokenGenerationInference15AppAssetManagerCMF
++ _$s24TokenGenerationInference15AppAssetManagerCMU
++ _$s24TokenGenerationInference15AppAssetManagerCMa
++ _$s24TokenGenerationInference15AppAssetManagerCMaTm
++ _$s24TokenGenerationInference15AppAssetManagerCMf
++ _$s24TokenGenerationInference15AppAssetManagerCMl
++ _$s24TokenGenerationInference15AppAssetManagerCMm
++ _$s24TokenGenerationInference15AppAssetManagerCMn
++ _$s24TokenGenerationInference15AppAssetManagerCMr
++ _$s24TokenGenerationInference15AppAssetManagerCN
++ _$s24TokenGenerationInference15AppAssetManagerCfD
++ _$s24TokenGenerationInference15AppAssetManagerCfd
++ _$s24TokenGenerationInference15AppAssetManagerCfdySDySSSiGzYuYTXEfU_
++ _$s24TokenGenerationInference15AppAssetManagerCmMD
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZ
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZTQ1_
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZTY0_
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZTY2_
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZTY3_
++ _$s24TokenGenerationInference15BaseModelLoaderV4load4fromAA0dE0_pSo05TGIE5E17ConfigurationObjCC_tYaKFZTu
++ _$s24TokenGenerationInference15LogitCollectionP10makeMaskedyAaB_pAA0D8IndexSetOF
++ _$s24TokenGenerationInference15LogitCollectionP10makeMaskedyAaB_pAA0D8IndexSetOFTj
++ _$s24TokenGenerationInference15LogitCollectionP10makeMaskedyAaB_pAA0D8IndexSetOFTq
++ _$s24TokenGenerationInference15LogitCollectionP10testForNaNSbyF
++ _$s24TokenGenerationInference15LogitCollectionP10testForNaNSbyFTj
++ _$s24TokenGenerationInference15LogitCollectionP10testForNaNSbyFTq
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmax11temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmax11temperatureSays7Float16VGAG_tFTj
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmax11temperatureSays7Float16VGAG_tFTq
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSays7Float16VGyF
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSays7Float16VGyFTj
++ _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSays7Float16VGyFTq
++ _$s24TokenGenerationInference15LogitCollectionP4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference15LogitCollectionP4topKySays5Int32VGSiFTj
++ _$s24TokenGenerationInference15LogitCollectionP4topKySays5Int32VGSiFTq
++ _$s24TokenGenerationInference15LogitCollectionP4topPySays5Int32VGSfF
++ _$s24TokenGenerationInference15LogitCollectionP4topPySays5Int32VGSfFTj
++ _$s24TokenGenerationInference15LogitCollectionP4topPySays5Int32VGSfFTq
++ _$s24TokenGenerationInference15LogitCollectionP8indexSetAA0d5IndexG0OvgTj
++ _$s24TokenGenerationInference15LogitCollectionP8indexSetAA0d5IndexG0OvgTq
++ _$s24TokenGenerationInference15LogitCollectionPAAE10makeMaskedyAaB_pAA0D8IndexSetOF
++ _$s24TokenGenerationInference15LogitCollectionPAAE10makeMaskedyAaB_pAA0D8IndexSetOFAA05TopK2dE0V_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE10makeMaskedyAaB_pAA0D8IndexSetOFAA06ArgmaxdE0V_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE10makeMaskedyAaB_pAA0D8IndexSetOFAA0G13LanguageModelC06SingledE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE10makeMaskedyAaB_pAA0D8IndexSetOFAA17EarlyReturnLogitsV_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyF
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA013UnconstraineddE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA013UnconstraineddE0V_TG5TA.55
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA013UnconstraineddE0V_TG5TA.56
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA06MaskeddE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA06SparsedE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA06SparsedE0V_TG5TA.61
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA06SparsedE0V_TG5TA.62
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA06SparsedE0V_TG5TATm
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA22CompositeLanguageModelC0jdE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA22CompositeLanguageModelC0jdE0V_TG5TA.68
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA22CompositeLanguageModelC0jdE0V_TG5TA.69
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA22CompositeLanguageModelC0jdE0V_TG5TATm
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA25PrefixGuidedLanguageModelV0jdE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA25PrefixGuidedLanguageModelV0jdE0V_TG5TA.47
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA25PrefixGuidedLanguageModelV0jdE0V_TG5TA.48
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA25PrefixGuidedLanguageModelV0jdE0V_TG5TATm
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA32WeightedFiniteStateLanguageModelV0kldE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA32WeightedFiniteStateLanguageModelV0kldE0V_TG5TA.74
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_AA32WeightedFiniteStateLanguageModelV0kldE0V_TG5TA.75
++ _$s24TokenGenerationInference15LogitCollectionPAAE10slowArgmaxSiyFSf5value_Si5indextSfAE_SiAFt_SitXEfU_TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE10testForNaNSbyF
++ _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmax11temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSays7Float16VGyF
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFAA011EarlyReturnH0V_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFAA19MaskedLanguageModelC06SingledE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.51
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.52
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.53
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.54
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05BasicdE0V_TG5TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05BasicdE0V_TG5TA.63
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05BasicdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.57
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.58
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.59
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.60
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.64
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.65
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.66
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.67
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.43
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.44
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.45
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.46
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TATm
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.70
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.71
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.72
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.73
++ _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE3maxSfyFS2f_SitXEfU_TA
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topKySays5Int32VGSiFAA06MaskeddE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topKySays5Int32VGSiFAA06SparsedE0V_Tg5Tm
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topKySays5Int32VGSiFAA22CompositeLanguageModelC0hdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topKySays5Int32VGSiFAA32WeightedFiniteStateLanguageModelV0ijdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfF
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA05BasicdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA05TopK2dE0V_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA06ArgmaxdE0V_TB5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA06MaskeddE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA06SparsedE0V_Tg5Tm
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA22CompositeLanguageModelC0hdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollectionPAAE4topPySays5Int32VGSfFAA32WeightedFiniteStateLanguageModelV0ijdE0V_Tg5
++ _$s24TokenGenerationInference15LogitCollection_pML
++ _$s24TokenGenerationInference15LogitCollection_pMa
++ _$s24TokenGenerationInference15LogitCollection_p_AaB_ptWOhTm
++ _$s24TokenGenerationInference15LogitPresamplerP10makeMaskedyAaB_pAA0D8IndexSetOFTj
++ _$s24TokenGenerationInference15LogitPresamplerP10makeMaskedyAaB_pAA0D8IndexSetOFTq
++ _$s24TokenGenerationInference15LogitPresamplerP14makeUnfilteredAaB_pyF
++ _$s24TokenGenerationInference15LogitPresamplerP14makeUnfilteredAaB_pyFTj
++ _$s24TokenGenerationInference15LogitPresamplerP14makeUnfilteredAaB_pyFTq
++ _$s24TokenGenerationInference15LogitPresamplerPAAE14makeUnfilteredAaB_pyF
++ _$s24TokenGenerationInference15LogitPresamplerPAAE14makeUnfilteredAaB_pyFTm
++ _$s24TokenGenerationInference15LogitPresampler_pSgWOcTm
++ _$s24TokenGenerationInference15LogitPresampler_pWOcTm
++ _$s24TokenGenerationInference15LookupNodeStateMp
++ _$s24TokenGenerationInference15LookupNodeStateP012shouldUseForD0SbvgTj
++ _$s24TokenGenerationInference15LookupNodeStateP012shouldUseForD0SbvgTq
++ _$s24TokenGenerationInference15LookupNodeStateP08previousE05token8isPromptxSiSg_AGSbtcfCTj
++ _$s24TokenGenerationInference15LookupNodeStateP08previousE05token8isPromptxSiSg_AGSbtcfCTq
++ _$s24TokenGenerationInference15LookupNodeStateP5tokenSiSgvgTj
++ _$s24TokenGenerationInference15LookupNodeStateP5tokenSiSgvgTq
++ _$s24TokenGenerationInference15LookupNodeStateP9nextNodesSDyS2iGvMTj
++ _$s24TokenGenerationInference15LookupNodeStateP9nextNodesSDyS2iGvMTq
++ _$s24TokenGenerationInference15LookupNodeStateP9nextNodesSDyS2iGvsTj
++ _$s24TokenGenerationInference15LookupNodeStateP9nextNodesSDyS2iGvsTq
++ _$s24TokenGenerationInference15LookupNodeStatePAA0eF8ProtocolTb
++ _$s24TokenGenerationInference15LookupNodeStateTL
++ _$s24TokenGenerationInference15LookupNodeState_pMF
++ _$s24TokenGenerationInference15NucleusSamplingC04pickA012targetLogits05draftH00I6TokensSiAA15LogitCollection_p_AaH_pShySiGtFTf4nndn_nTm
++ _$s24TokenGenerationInference15NucleusSamplingC04pickA012targetLogits11draftTokens19acceptanceThresholdSiAA15LogitCollection_p_ShySiGSftFSfs5Int32VXEfU1_TA
++ _$s24TokenGenerationInference15NucleusSamplingC14makePresamplerAA05LogitG0_pyF
++ _$s24TokenGenerationInference15TopK2PresamplerV10makeMaskedyAA05LogitF0_pAA0I8IndexSetOF
++ _$s24TokenGenerationInference15TopK2PresamplerVAA05LogitF0A2aDP10makeMaskedyAaD_pAA0G8IndexSetOFTW
++ _$s24TokenGenerationInference15TopK2PresamplerVAA05LogitF0A2aDP14makeUnfilteredAaD_pyFTW
++ _$s24TokenGenerationInference16ArgmaxPresamplerV10makeMaskedyAA05LogitE0_pAA0H8IndexSetOF
++ _$s24TokenGenerationInference16ArgmaxPresamplerV4maskAcA13LogitIndexSetOSg_tcfC
++ _$s24TokenGenerationInference16ArgmaxPresamplerVAA05LogitE0A2aDP10makeMaskedyAaD_pAA0F8IndexSetOFTW
++ _$s24TokenGenerationInference16ArgmaxPresamplerVAA05LogitE0A2aDP14makeUnfilteredAaD_pyFTW
++ _$s24TokenGenerationInference16ArgmaxPresamplerVMl
++ _$s24TokenGenerationInference16ArgmaxPresamplerVMr
++ _$s24TokenGenerationInference16ArgmaxPresamplerVWOh
++ _$s24TokenGenerationInference16ArgmaxPresamplerVWV
++ _$s24TokenGenerationInference16ArgmaxPresamplerVwet
++ _$s24TokenGenerationInference16ArgmaxPresamplerVwst
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfC
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA0_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA10_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA1_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA4_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA5_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA7_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA8_
++ _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK003usez10LikelihoodM0ACSi_SbS2iSgSfSgS2bAQSbS2iSbtcfcfA9_
++ _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI0010outerDraftI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiT0_p_AaL_pAaL_pSgAA0aP0_pSitF
++ _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI0010outerDraftI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiT0_p_AaL_pAaL_pSgAA0aP0_pSitFfA2_
++ _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI0010outerDraftI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiT0_p_AaL_pAaL_pSgAA0aP0_pSitFfA3_
++ _$s24TokenGenerationInference16DraftingBehaviorV24useMaximumLikelihoodTreeSbvg
++ _$s24TokenGenerationInference16DraftingBehaviorV24useMaximumLikelihoodTreeSbvpMV
++ _$s24TokenGenerationInference16DraftingBehaviorV7updated4withAC0aB021SpeculationParametersV_tF
++ _$s24TokenGenerationInference16LinearSpeculatorV15draftPresamplerAA05LogitG0_pvg
++ _$s24TokenGenerationInference16LinearSpeculatorV15draftPresamplerAA05LogitG0_pvpMV
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKF
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKFTQ1_
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKFTY0_
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKFTY2_
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKFTY3_
++ _$s24TokenGenerationInference16LinearSpeculatorV24speculateNextTargetNodes13languageModel05firstH4NodeShySiGAA05Drafth8LanguageK0_p_SitYaKFTu
++ _$s24TokenGenerationInference16LinearSpeculatorV9stepCountACSi_tcfC
++ _$s24TokenGenerationInference16LinearSpeculatorV9stepCountSivg
++ _$s24TokenGenerationInference16LinearSpeculatorV9stepCountSivpMV
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0A2aDP24speculateNextTargetNodes08languageG005firstJ4NodeShySiGAA05DraftjfG0_p_SitYaKFTW
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0A2aDP24speculateNextTargetNodes08languageG005firstJ4NodeShySiGAA05DraftjfG0_p_SitYaKFTWTQ0_
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0A2aDP24speculateNextTargetNodes08languageG005firstJ4NodeShySiGAA05DraftjfG0_p_SitYaKFTWTu
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0A2aDP9stepCountSivgTW
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0AAMc
++ _$s24TokenGenerationInference16LinearSpeculatorVAA013LanguageModelE0AAWP
++ _$s24TokenGenerationInference16LinearSpeculatorVMF
++ _$s24TokenGenerationInference16LinearSpeculatorVMa
++ _$s24TokenGenerationInference16LinearSpeculatorVMf
++ _$s24TokenGenerationInference16LinearSpeculatorVMn
++ _$s24TokenGenerationInference16LinearSpeculatorVN
++ _$s24TokenGenerationInference16LinearSpeculatorVWV
++ _$s24TokenGenerationInference16LinearSpeculatorVwet
++ _$s24TokenGenerationInference16LinearSpeculatorVwst
++ _$s24TokenGenerationInference16TGITokenMaskObjCC011getTrailingE5BytesyyySPySbGSg_SitXEF
++ _$s24TokenGenerationInference16TGITokenMaskObjCC011getTrailingE5BytesyyySPySbGSg_SitXEFTo
++ _$s24TokenGenerationInference16TGITokenMaskObjCC05tokenE0AA0aE0VvpWvd
++ _$s24TokenGenerationInference16TGITokenMaskObjCC14middleOneCountSivg
++ _$s24TokenGenerationInference16TGITokenMaskObjCC14middleOneCountSivgTo
++ _$s24TokenGenerationInference16TGITokenMaskObjCC14middleOneCountSivpMV
++ _$s24TokenGenerationInference16TGITokenMaskObjCC16leadingZeroCountSivg
++ _$s24TokenGenerationInference16TGITokenMaskObjCC16leadingZeroCountSivgTo
++ _$s24TokenGenerationInference16TGITokenMaskObjCC16leadingZeroCountSivpMV
++ _$s24TokenGenerationInference16TGITokenMaskObjCC5countSivg
++ _$s24TokenGenerationInference16TGITokenMaskObjCC5countSivgTo
++ _$s24TokenGenerationInference16TGITokenMaskObjCC5countSivpMV
++ _$s24TokenGenerationInference16TGITokenMaskObjCCACycfC
++ _$s24TokenGenerationInference16TGITokenMaskObjCCACycfc
++ _$s24TokenGenerationInference16TGITokenMaskObjCCACycfcTo
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMF
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMa
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMf
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMn
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMo
++ _$s24TokenGenerationInference16TGITokenMaskObjCCMu
++ _$s24TokenGenerationInference16TGITokenMaskObjCCN
++ _$s24TokenGenerationInference16TGITokenMaskObjCCfD
++ _$s24TokenGenerationInference16TGITokenMaskObjCCfETo
++ _$s24TokenGenerationInference16TGITokenMaskObjCCyAcA0aE0VcfCTq
++ _$s24TokenGenerationInference17AFMDecodeFunctionV11descriptionSSvg
++ _$s24TokenGenerationInference17AFMDecodeFunctionV17programDescriptor12functionName14kernelRegistry9adaptedByACSg4ODIE07ProgramG0V_SSAI06KernelK0VAKSgtKcfC
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorA2aDP11queryLengthSivgTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorA2aDP13contextLengthSivgTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorA2aDP14computesLogitsSbvgTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorAAMc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorAAMcMK
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorAAWI
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA0dE10DescriptorAAWP
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA23ArrayDescriptorProviderAAMc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVAA23ArrayDescriptorProviderAAWP
++ _$s24TokenGenerationInference17AFMDecodeFunctionVACSLAAWL
++ _$s24TokenGenerationInference17AFMDecodeFunctionVACSLAAWl
++ _$s24TokenGenerationInference17AFMDecodeFunctionVACSQAAWL
++ _$s24TokenGenerationInference17AFMDecodeFunctionVACSQAAWl
++ _$s24TokenGenerationInference17AFMDecodeFunctionVMF
++ _$s24TokenGenerationInference17AFMDecodeFunctionVMa
++ _$s24TokenGenerationInference17AFMDecodeFunctionVMf
++ _$s24TokenGenerationInference17AFMDecodeFunctionVMn
++ _$s24TokenGenerationInference17AFMDecodeFunctionVN
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAAMc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAAMcMK
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAASL1goiySbx_xtFZTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAASL1loiySbx_xtFZTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAASL2geoiySbx_xtFZTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAASL2leoiySbx_xtFZTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSLAASQWb
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSQAAMc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSQAAMcMK
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSgMD
++ _$s24TokenGenerationInference17AFMDecodeFunctionVSgWOh
++ _$s24TokenGenerationInference17AFMDecodeFunctionVWOc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVWOh
++ _$s24TokenGenerationInference17AFMDecodeFunctionVWV
++ _$s24TokenGenerationInference17AFMDecodeFunctionVs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference17AFMDecodeFunctionVs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference17AFMDecodeFunctionVs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s24TokenGenerationInference17AFMDecodeFunctionVwet
++ _$s24TokenGenerationInference17AFMDecodeFunctionVwst
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlF
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTQ1_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTQ3_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY0_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY2_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY4_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY5_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY6_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTu
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTv0_r
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFTv_r
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFs5Int32VARcfu0_33_5737c894ffe0b9666da018d607cec679ArVTf3nnnpk_n
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFyAI25UnsafeMutableArrayPointerVys5Int32VGXEfU_
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFyAI25UnsafeMutableArrayPointerVys5Int32VGXEfU_TA
++ _$s24TokenGenerationInference17AFMGatherFunctionV06callAsE06tokens15embeddingsTable7buffers16featureProjectoryx_4ODIE7NDArrayCSDySSAK6BufferVGAA016ODIEImageFeatureM0CtYaKSlRzAA0A6RecordV7ElementRtzlFyAI28UnsafeMutableRawArrayPointerVXEfU0_TA
++ _$s24TokenGenerationInference17AFMGatherFunctionV15vocabularyCountSivg
++ _$s24TokenGenerationInference17AFMGatherFunctionV17programDescriptor12functionName14kernelRegistryACSg4ODIE07ProgramG0V_SSAH06KernelK0VtKcfCTf4nnnd_n
++ _$s24TokenGenerationInference17AFMGatherFunctionVAA23ArrayDescriptorProviderAAMc
++ _$s24TokenGenerationInference17AFMGatherFunctionVAA23ArrayDescriptorProviderAAWP
++ _$s24TokenGenerationInference17AFMGatherFunctionVMF
++ _$s24TokenGenerationInference17AFMGatherFunctionVMa
++ _$s24TokenGenerationInference17AFMGatherFunctionVMf
++ _$s24TokenGenerationInference17AFMGatherFunctionVMn
++ _$s24TokenGenerationInference17AFMGatherFunctionVN
++ _$s24TokenGenerationInference17AFMGatherFunctionVWV
++ _$s24TokenGenerationInference17AFMGatherFunctionVwet
++ _$s24TokenGenerationInference17AFMGatherFunctionVwst
++ _$s24TokenGenerationInference17BeamSearchDecoderC06expandD033_A7FE2FA43B970D1C0025663E659989E9LL04nextD5Nodes6logits17languageModelNode08previousU2ID6cutoff0V5ScoreySayAC0dU0AELLVGz_AA15LogitCollection_pS2iS2ftFySiXEfU_
++ _$s24TokenGenerationInference17BeamSearchDecoderC06expandD033_A7FE2FA43B970D1C0025663E659989E9LL04nextD5Nodes6logits17languageModelNode08previousU2ID6cutoff0V5ScoreySayAC0dU0AELLVGz_AA15LogitCollection_pS2iS2ftFySiXEfU_TA
++ _$s24TokenGenerationInference17BeamSearchDecoderC06expandD033_A7FE2FA43B970D1C0025663E659989E9LL04nextD5Nodes6logits17languageModelNode08previousU2ID6cutoff0V5ScoreySayAC0dU0AELLVGz_AA15LogitCollection_pS2iS2ftFySiXEfU_TA.4
++ _$s24TokenGenerationInference17BeamSearchDecoderC06expandD033_A7FE2FA43B970D1C0025663E659989E9LL04nextD5Nodes6logits17languageModelNode08previousU2ID6cutoff0V5ScoreySayAC0dU0AELLVGz_AA15LogitCollection_pS2iS2ftFySiXEfU_TATm
++ _$s24TokenGenerationInference17DecoderModelErrorO2eeoiySbAC_ACtFZTf4nnd_n
++ _$s24TokenGenerationInference17DecoderModelErrorOACs0F0AAWL
++ _$s24TokenGenerationInference17DecoderModelErrorOACs0F0AAWl
++ _$s24TokenGenerationInference17DecoderModelErrorOMB
++ _$s24TokenGenerationInference17DecoderModelErrorOMF
++ _$s24TokenGenerationInference17DecoderModelErrorOMa
++ _$s24TokenGenerationInference17DecoderModelErrorOMf
++ _$s24TokenGenerationInference17DecoderModelErrorOMn
++ _$s24TokenGenerationInference17DecoderModelErrorON
++ _$s24TokenGenerationInference17DecoderModelErrorOSQAAMc
++ _$s24TokenGenerationInference17DecoderModelErrorOSQAAMcMK
++ _$s24TokenGenerationInference17DecoderModelErrorOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference17DecoderModelErrorOWV
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAMc
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAMcMK
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAsADP5_codeSivgTW
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAsADP7_domainSSvgTW
++ _$s24TokenGenerationInference17DecoderModelErrorOs0F0AAsADP9_userInfoyXlSgvgTW
++ _$s24TokenGenerationInference17DecoderModelErrorOwet
++ _$s24TokenGenerationInference17DecoderModelErrorOwst
++ _$s24TokenGenerationInference17DecoderModelErrorOwui
++ _$s24TokenGenerationInference17DecoderModelErrorOwup
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueSSvg
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWL
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFSQAAWl
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWL
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs0F3KeyAAWl
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWL
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs23CustomStringConvertibleAAWl
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMF
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMXX
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMa
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMf
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOMn
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMc
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQWb
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMc
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOWV
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMc
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertiblePWb
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValueSSvgTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValueSiSgvgTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMc
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwet
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwst
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwug
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwui
++ _$s24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwup
++ _$s24TokenGenerationInference17DefaultParametersV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s24TokenGenerationInference17DefaultParametersV6encode2toys7Encoder_p_tKF
++ _$s24TokenGenerationInference17DefaultParametersVACSEAAWL
++ _$s24TokenGenerationInference17DefaultParametersVACSEAAWl
++ _$s24TokenGenerationInference17DefaultParametersVACSeAAWL
++ _$s24TokenGenerationInference17DefaultParametersVACSeAAWl
++ _$s24TokenGenerationInference17DefaultParametersVMF
++ _$s24TokenGenerationInference17DefaultParametersVMa
++ _$s24TokenGenerationInference17DefaultParametersVMf
++ _$s24TokenGenerationInference17DefaultParametersVMn
++ _$s24TokenGenerationInference17DefaultParametersVN
++ _$s24TokenGenerationInference17DefaultParametersVSEAAMc
++ _$s24TokenGenerationInference17DefaultParametersVSEAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s24TokenGenerationInference17DefaultParametersVSeAAMc
++ _$s24TokenGenerationInference17DefaultParametersVSeAAMcMK
++ _$s24TokenGenerationInference17DefaultParametersVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s24TokenGenerationInference17DefaultParametersVSgMD
++ _$s24TokenGenerationInference17DefaultParametersVSgML
++ _$s24TokenGenerationInference17DefaultParametersVSgMaTm
++ _$s24TokenGenerationInference17DefaultParametersVSgWOc
++ _$s24TokenGenerationInference17DefaultParametersVWOc
++ _$s24TokenGenerationInference17DefaultParametersVWOh
++ _$s24TokenGenerationInference17DefaultParametersVWV
++ _$s24TokenGenerationInference17DefaultParametersVwet
++ _$s24TokenGenerationInference17DefaultParametersVwst
++ _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmax11temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmax11temperatureSays7Float16VGAG_tFTv_r
++ _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmaxSays7Float16VGyF
++ _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmaxSays7Float16VGyFTv_r
++ _$s24TokenGenerationInference17EarlyReturnLogitsV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference17EarlyReturnLogitsV4topPySays5Int32VGSfF
++ _$s24TokenGenerationInference17EarlyReturnLogitsV8indexSetAA010LogitIndexH0Ovg
++ _$s24TokenGenerationInference17EarlyReturnLogitsV8indexSetAA010LogitIndexH0OvpMV
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP10makeMaskedyAaD_pAA0G8IndexSetOFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTWTv_r
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmaxSays7Float16VGyFTWTv_r
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP8indexSetAA0g5IndexJ0OvgTW
++ _$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtF
++ _$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtF07$sSo13_dE15VIyBy_ABIegy_TRAJIyBy_Tf1ncn_nTf4nng_n
++ _$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtFTo
++ _$s24TokenGenerationInference17EncodedImageArrayC03getdE02at11withHandlerys5Int32V_ySo01_dE0VXEtFySWXEfU_07$sSo13_dE15VIyBy_ABIegy_TRAJIyBy_Tf1nnnc_n
++ _$s24TokenGenerationInference17EncodedImageArrayC05imageA11IDGenerator0G9Tokenizer014useHighQualityE12TokenizationAcA0eaH0C_AA0eI0CSbtcfCTq
++ _$s24TokenGenerationInference17EncodedImageArrayC05imageA11IDGenerator0G9Tokenizer014useHighQualityE12TokenizationAcA0eaH0C_AA0eI0CSbtcfcTf4ngnn_n
++ _$s24TokenGenerationInference17EncodedImageArrayC05imageA11IDGenerator33_EDB8B1D8F9C2943CA163A428958D5177LLAA0eaH0CvpWvd
++ _$s24TokenGenerationInference17EncodedImageArrayC05imageA11IDGeneratorAcA0eaH0C_tcfCTq
++ _$s24TokenGenerationInference17EncodedImageArrayC10imageCounts5Int32Vvg
++ _$s24TokenGenerationInference17EncodedImageArrayC10imageCounts5Int32VvgTo
++ _$s24TokenGenerationInference17EncodedImageArrayC10imageCounts5Int32VvpMV
++ _$s24TokenGenerationInference17EncodedImageArrayC10tokenRange2atSo8_NSRangeVs5Int32V_tF
++ _$s24TokenGenerationInference17EncodedImageArrayC10tokenRange2atSo8_NSRangeVs5Int32V_tFTo
++ _$s24TokenGenerationInference17EncodedImageArrayC13configuration33_EDB8B1D8F9C2943CA163A428958D5177LLAA010OnDeviceE5E22TokenizerConfigurationVvpWvd
++ _$s24TokenGenerationInference17EncodedImageArrayC13encodedImages33_EDB8B1D8F9C2943CA163A428958D5177LLSayAA01_dE0AELLVGvpWvd
++ _$s24TokenGenerationInference17EncodedImageArrayC15encoderModelURL014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAC10Foundation0I0V_SbSiAA0erS0CtYaKcfC
++ _$s24TokenGenerationInference17EncodedImageArrayC15encoderModelURL014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAC10Foundation0I0V_SbSiAA0erS0CtYaKcfCTQ0_
++ _$s24TokenGenerationInference17EncodedImageArrayC15encoderModelURL014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAC10Foundation0I0V_SbSiAA0erS0CtYaKcfCTY1_
++ _$s24TokenGenerationInference17EncodedImageArrayC15encoderModelURL014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAC10Foundation0I0V_SbSiAA0erS0CtYaKcfCTY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC15encoderModelURL014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAC10Foundation0I0V_SbSiAA0erS0CtYaKcfCTu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKF
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TA
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATQ0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_Tu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize012preprocessedE013configurationSaySiG0aB06PromptV012PreprocessedE10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize07encodedE013configurationSaySiG0aB06PromptV0E19EmbeddingAttachmentV_0aB4Core0E25TokenizationConfigurationVSgtKF
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKF
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TA
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATQ0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_Tu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize12imageSurface13configurationSaySiG0aB06PromptV0eK10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKF
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFAA01_dE0AELLVANXEfU_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFAA01_dE0AELLVANXEfU_TA
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFTQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFTY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFTY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFTY3_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize33_EDB8B1D8F9C2943CA163A428958D5177LL13configuration_SaySiG0aB4Core0E25TokenizationConfigurationVSg_Say10Foundation4DataVGAA0E7EncoderAELLVYaKXEtYaKFTu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKF
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TA
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATQ0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TATu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_TY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFSay10Foundation4DataVGAA0E7Encoder33_EDB8B1D8F9C2943CA163A428958D5177LLVYaKXEfU_Tu
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTQ1_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY0_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTY2_
++ _$s24TokenGenerationInference17EncodedImageArrayC17appendAndTokenize5image13configurationSaySiG0aB06PromptV0E10AttachmentV_0aB4Core0E25TokenizationConfigurationVSgtYaKFTu
++ _$s24TokenGenerationInference17EncodedImageArrayC6runner014useHighQualityE12Tokenization19textVocabularyCount19imageEmbeddingCacheAcA0E13EncoderRunner_p_SbSiAA0epQ0CtcfCTq
++ _$s24TokenGenerationInference17EncodedImageArrayC7encoder33_EDB8B1D8F9C2943CA163A428958D5177LLAA0E7EncoderAELLVSgvpWvd
++ _$s24TokenGenerationInference17EncodedImageArrayC8tokenize33_EDB8B1D8F9C2943CA163A428958D5177LL04nextD6Images13configurationSaySiGSayAA01_dE0AELLVG_0aB4Core0E25TokenizationConfigurationVSgtF
++ _$s24TokenGenerationInference17EncodedImageArrayCMF
++ _$s24TokenGenerationInference17EncodedImageArrayCMa
++ _$s24TokenGenerationInference17EncodedImageArrayCMf
++ _$s24TokenGenerationInference17EncodedImageArrayCMm
++ _$s24TokenGenerationInference17EncodedImageArrayCMn
++ _$s24TokenGenerationInference17EncodedImageArrayCMo
++ _$s24TokenGenerationInference17EncodedImageArrayCMu
++ _$s24TokenGenerationInference17EncodedImageArrayCN
++ _$s24TokenGenerationInference17EncodedImageArrayCfD
++ _$s24TokenGenerationInference17EncodedImageArrayCfd
++ _$s24TokenGenerationInference17LockedBNNSContextC4lock33_112BAFBB71CC828FAEEE48B56A4BF200LLSo010os_unfair_F2_sVvpWvd
++ _$s24TokenGenerationInference17LockedBNNSContextC7context33_112BAFBB71CC828FAEEE48B56A4BF200LL10Accelerate9BNNSGraphO7ContextCvpWvd
++ _$s24TokenGenerationInference17LockedBNNSContextCMF
++ _$s24TokenGenerationInference17LockedBNNSContextCMa
++ _$s24TokenGenerationInference17LockedBNNSContextCMf
++ _$s24TokenGenerationInference17LockedBNNSContextCMm
++ _$s24TokenGenerationInference17LockedBNNSContextCMn
++ _$s24TokenGenerationInference17LockedBNNSContextCN
++ _$s24TokenGenerationInference17LockedBNNSContextCfD
++ _$s24TokenGenerationInference17LockedBNNSContextCyAC10Accelerate9BNNSGraphO7ContextCncfCTq
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfC
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ0_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ10_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ12_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ2_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ3_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTQ7_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY11_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY13_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY14_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY15_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY16_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY1_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY4_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY5_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY6_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY8_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTY9_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfCTu
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfcSS_AC23KeyValueCacheDescriptorVtSSXEfU0_
++ _$s24TokenGenerationInference17ODIELanguageModelV10contentsOf10adapterURL04baseE08delegateAC10Foundation0I0V_AJSgAA04BaseE0_pSgSStYaKcfcSS_AC23KeyValueCacheDescriptorVtSSXEfU0_TA
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_n
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTQ1_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTQ3_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTY0_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTY2_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTY4_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTY5_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTY6_
++ _$s24TokenGenerationInference17ODIELanguageModelV18loadEmbeddingTable4from17streamingDelegate4ODIE7NDArrayCAG17ProgramDescriptorV_28MetalPerformanceShadersGraph08MPSGraphK0CSgtYaKFZTf4nnd_nTu
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVMF
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVMa
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVMf
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVMn
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVN
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVWV
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVwet
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVwst
++ _$s24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVyAE4ODIE05ArrayI0Vc33_A9991178E48F51C262EDC01165427447LlfCTf4nd_n
++ _$s24TokenGenerationInference17ODIELanguageModelVMF
++ _$s24TokenGenerationInference17ODIELanguageModelVMa
++ _$s24TokenGenerationInference17ODIELanguageModelVMf
++ _$s24TokenGenerationInference17ODIELanguageModelVMl
++ _$s24TokenGenerationInference17ODIELanguageModelVMn
++ _$s24TokenGenerationInference17ODIELanguageModelVMr
++ _$s24TokenGenerationInference17ODIELanguageModelVN
++ _$s24TokenGenerationInference17ODIELanguageModelVWOb
++ _$s24TokenGenerationInference17ODIELanguageModelVWV
++ _$s24TokenGenerationInference17ODIELanguageModelVwet
++ _$s24TokenGenerationInference17ODIELanguageModelVwst
++ _$s24TokenGenerationInference17ODIELanguageModelVwta
++ _$s24TokenGenerationInference17ODIELanguageModelVwtk
++ _$s24TokenGenerationInference17ODIELanguageModelVwxx
++ _$s24TokenGenerationInference17PreprocessedImageV4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKF
++ _$s24TokenGenerationInference17PreprocessedImageV5shapeSaySiGvg
++ _$s24TokenGenerationInference17PreprocessedImageV5shapeSaySiGvpMV
++ _$s24TokenGenerationInference17PreprocessedImageV8numTilesSivg
++ _$s24TokenGenerationInference17PreprocessedImageV8numTilesSivpMV
++ _$s24TokenGenerationInference17PreprocessedImageV9imageData5shapeACSays7Float16VG_SaySiGtcfC
++ _$s24TokenGenerationInference17PreprocessedImageV9imageDataSays7Float16VGvg
++ _$s24TokenGenerationInference17PreprocessedImageV9imageDataSays7Float16VGvpMV
++ _$s24TokenGenerationInference17PreprocessedImageVAA09ProcessedE8ProtocolA2aDP4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKFTW
++ _$s24TokenGenerationInference17PreprocessedImageVAA09ProcessedE8ProtocolA2aDP8numTilesSivgTW
++ _$s24TokenGenerationInference17PreprocessedImageVAA09ProcessedE8ProtocolAAMc
++ _$s24TokenGenerationInference17PreprocessedImageVAA09ProcessedE8ProtocolAAWP
++ _$s24TokenGenerationInference17PreprocessedImageVMF
++ _$s24TokenGenerationInference17PreprocessedImageVMa
++ _$s24TokenGenerationInference17PreprocessedImageVMf
++ _$s24TokenGenerationInference17PreprocessedImageVMn
++ _$s24TokenGenerationInference17PreprocessedImageVN
++ _$s24TokenGenerationInference17PreprocessedImageVWV
++ _$s24TokenGenerationInference17PreprocessedImageVwet
++ _$s24TokenGenerationInference17PreprocessedImageVwst
++ _$s24TokenGenerationInference18ClassifierMetadataVACSEAAWL
++ _$s24TokenGenerationInference18ClassifierMetadataVACSEAAWl
++ _$s24TokenGenerationInference18ClassifierMetadataVACSeAAWL
++ _$s24TokenGenerationInference18ClassifierMetadataVACSeAAWl
++ _$s24TokenGenerationInference18ClassifierMetadataVSgMD
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC012findCompiledD22PathOrBeginCompilation3mil10identifierSSSg10Foundation3URLV_SStKF
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC012findCompiledD22PathOrBeginCompilation3mil10identifierSSSg10Foundation3URLV_SStKF10StartStateL_OWOe
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC014pathToCompileddE03milSSSg10Foundation3URLV_tKFTf4nd_n
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05draftE13Configuration3milSo05TGIE5eN4ObjCC10Foundation3URLV_tFTf4nd_n
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_TA
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_TATQ0_
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_TATu
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_TY0_
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC05startdE11Compilation3mil10identifiery10Foundation3URLV_SStFyyYacfU_Tu
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC24draftModelsBeingCompiled15Synchronization5MutexVyShySSGGvpWvd
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC6sharedADvpZ
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC6shared_WZ
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC6shared_Wz
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMF
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMXX
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMa
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMf
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMm
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCMn
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCN
++ _$s24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLCfD
++ _$s24TokenGenerationInference18GatherOperandNamesV03allF0_WZTv_r
++ _$s24TokenGenerationInference18ImageEncoderLoaderV4load10contentsOfAA0dE6Runner_p10Foundation3URLV_tYaKFZTf4nd_n
++ _$s24TokenGenerationInference18ImageEncoderLoaderV4load10contentsOfAA0dE6Runner_p10Foundation3URLV_tYaKFZTf4nd_nTQ1_
++ _$s24TokenGenerationInference18ImageEncoderLoaderV4load10contentsOfAA0dE6Runner_p10Foundation3URLV_tYaKFZTf4nd_nTY0_
++ _$s24TokenGenerationInference18ImageEncoderLoaderV4load10contentsOfAA0dE6Runner_p10Foundation3URLV_tYaKFZTf4nd_nTY2_
++ _$s24TokenGenerationInference18ImageEncoderLoaderV4load10contentsOfAA0dE6Runner_p10Foundation3URLV_tYaKFZTf4nd_nTu
++ _$s24TokenGenerationInference18ImageEncoderRunnerMp
++ _$s24TokenGenerationInference18ImageEncoderRunnerP011withEncodedD011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerP013embeddingsPerD5CountSivgTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerP07encodedD9ByteCountSivgTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerP10imageWidthSivgTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerP11imageHeightSivgTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerP13bytesPerPixelSivgTq
++ _$s24TokenGenerationInference18ImageEncoderRunnerTL
++ _$s24TokenGenerationInference18ImageEncoderRunner_pMF
++ _$s24TokenGenerationInference18ImageEncoderRunner_pML
++ _$s24TokenGenerationInference18ImageEncoderRunner_pMaTm
++ _$s24TokenGenerationInference18StatefullyLoadableMp
++ _$s24TokenGenerationInference18StatefullyLoadableP18moveToDynamicStateyyFTj
++ _$s24TokenGenerationInference18StatefullyLoadableP18moveToDynamicStateyyFTq
++ _$s24TokenGenerationInference18StatefullyLoadableP22moveToFullyLoadedStateyyFTj
++ _$s24TokenGenerationInference18StatefullyLoadableP22moveToFullyLoadedStateyyFTq
++ _$s24TokenGenerationInference18StatefullyLoadableTL
++ _$s24TokenGenerationInference18StatefullyLoadable_pMF
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV10treeFactorSivg
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV10treeFactorSivpMV
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV15draftPresamplerAA05LogitH0_pvg
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV15draftPresamplerAA05LogitH0_pvpMV
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV19secondaryTreeFactorSivg
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV19secondaryTreeFactorSivpMV
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKF
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKFTQ1_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKFTY0_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKFTY2_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKFTY3_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV24speculateNextTargetNodes13languageModel05firstI4NodeShySiGAA05Drafti8LanguageL0_p_SitYaKFTu
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV9stepCount10treeFactor013secondaryTreeJ0ACSi_S2iSgtcfC
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV9stepCount10treeFactor013secondaryTreeJ0ACSi_S2iSgtcfcfA0_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV9stepCountSivg
++ _$s24TokenGenerationInference18TopKTreeSpeculatorV9stepCountSivpMV
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0A2aDP24speculateNextTargetNodes08languageH005firstK4NodeShySiGAA05DraftkgH0_p_SitYaKFTW
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0A2aDP24speculateNextTargetNodes08languageH005firstK4NodeShySiGAA05DraftkgH0_p_SitYaKFTWTQ0_
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0A2aDP24speculateNextTargetNodes08languageH005firstK4NodeShySiGAA05DraftkgH0_p_SitYaKFTWTu
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0A2aDP9stepCountSivgTW
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0AAMc
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVAA013LanguageModelF0AAWP
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVMF
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVMa
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVMf
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVMn
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVN
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVWV
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVwet
++ _$s24TokenGenerationInference18TopKTreeSpeculatorVwst
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV19inputImageDimensionSivg
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV19inputImageDimensionSivpMV
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV20computedPaddingValue9pixelDatas7Float16VSays5UInt8VG_tFZ
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV20computedPaddingValue9pixelDatas7Float16VSays5UInt8VG_tFZTf4nd_n
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV23normalizePixelComponent5value5indexs7Float16Vs5UInt8V_SitFZ
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV2eeoiySbAC_ACtFZ
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV4copy2to13fromPixelData23numSegmentsPerDimension9tileIndex5width6height12paddingValue05inputN0ySrys7Float16VG_Says5UInt8VGS4iANSitFZ
++ _$s24TokenGenerationInference19CLIPImagePlanarizerV4copy2to13fromPixelData23numSegmentsPerDimension9tileIndex5width6height12paddingValue05inputN0ySrys7Float16VG_Says5UInt8VGS4iANSitFZTf4nnnnnnnnd_n
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVMF
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVMa
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVMf
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVMn
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVN
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVSQAAMc
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVSQAAMcMK
++ _$s24TokenGenerationInference19CLIPImagePlanarizerVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC10cacheEntry5imageSay10Foundation4DataVGSgAA09ProcessedD0V_tKF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC10cacheEntry5imageSay10Foundation4DataVGSgAA09ProcessedD0V_tKFTq
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC16maximumByteCountACSi_tcfC
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC16maximumByteCountACSi_tcfCTj
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC16maximumByteCountACSi_tcfCTq
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC16maximumByteCountACSi_tcfc
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC2eeoiySbAF_AFtFZTf4nnd_n
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC4hash4intoys6HasherVz_tF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC5widthSivpWvd
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC6heightSivpWvd
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC9pixelDataSays5UInt8VGvpWvd
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCAFSQAAWL
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCAFSQAAWlTm
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMXX
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMa
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMf
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMm
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCMn
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCN
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAAMc
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAAMcMK
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAASQWb
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSQAAMc
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSQAAMcMK
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCfD
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC5cache33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLSo7NSCacheCyAC3KeyAELLCSo7NSArrayCGvpWvd
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFTQ1_
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFTY0_
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFTY2_
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFTq
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFTu
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6cached5image8fallbackSay10Foundation4DataVGAA09ProcessedD0V_AJyYaKXEtYaKFyyKXEfU_TA
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6insert5image10embeddingsyAA09ProcessedD0V_Say10Foundation4DataVGtKF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC6insert5image10embeddingsyAA09ProcessedD0V_Say10Foundation4DataVGtKFTq
++ _$s24TokenGenerationInference19ImageEmbeddingCacheC9byteCount33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LL10embeddingsSiSay10Foundation4DataVG_tFZTf4nd_n
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMF
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMa
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMf
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMm
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMn
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMo
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCMu
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCN
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCfD
++ _$s24TokenGenerationInference19ImageEmbeddingCacheCfd
++ _$s24TokenGenerationInference19LanguageModelLoaderV014findURLOfKnownE5Asset2in6source10Foundation3URLVSgAI_AA08OnDeviceC26ProviderDataSourceProtocol_ptFZ
++ _$s24TokenGenerationInference19LanguageModelLoaderV014findURLOfKnownE5Asset2in6source10Foundation3URLVSgAI_AA08OnDeviceC26ProviderDataSourceProtocol_ptFZTv_r
++ _$s24TokenGenerationInference19LanguageModelLoaderV26findURLOfKnownAdapterAsset2in6source10Foundation3URLVSgAI_AA08OnDeviceC26ProviderDataSourceProtocol_ptFZ
++ _$s24TokenGenerationInference19LanguageModelLoaderV26findURLOfKnownAdapterAsset2in6source10Foundation3URLVSgAI_AA08OnDeviceC26ProviderDataSourceProtocol_ptFZTv_r
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZ
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTQ0_
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_n
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_nTQ1_
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_nTY0_
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_nTY2_
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_nTY3_
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTf4nnd_nTu
++ _$s24TokenGenerationInference19LanguageModelLoaderV4load4from04baseE0AA0dE6Runner_pSo05TGIE5E17ConfigurationObjCC_AA04BaseE0_pSgtYaKFZTu
++ _$s24TokenGenerationInference19LanguageModelLoaderVMF
++ _$s24TokenGenerationInference19LanguageModelLoaderVMa
++ _$s24TokenGenerationInference19LanguageModelLoaderVMf
++ _$s24TokenGenerationInference19LanguageModelLoaderVMn
++ _$s24TokenGenerationInference19LanguageModelLoaderVN
++ _$s24TokenGenerationInference19LanguageModelRunnerMp
++ _$s24TokenGenerationInference19LanguageModelRunnerP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTjTQ0_
++ _$s24TokenGenerationInference19LanguageModelRunnerP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTjTu
++ _$s24TokenGenerationInference19LanguageModelRunnerP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP13clearAllStateyyFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP13clearAllStateyyFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvMTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvMTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvgTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvgTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvsTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP13encodedImagesSo07EncodedH0_pSgvsTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP15enableTelemetry14withIdentifierySS_tFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP15enableTelemetry14withIdentifierySS_tFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAA0A4MaskVGSgSitKFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAA0A4MaskVGSgSitKFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP15vocabularyCountSivgTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP15vocabularyCountSivgTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP16makeKVCacheEntryy10Foundation4DataVSnySiGKFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP16makeKVCacheEntryy10Foundation4DataVSnySiGKFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP16maxContextLengthSivgTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP16maxContextLengthSivgTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP18currentContextSizeSivgTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP18currentContextSizeSivgTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTjTQ0_
++ _$s24TokenGenerationInference19LanguageModelRunnerP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTjTu
++ _$s24TokenGenerationInference19LanguageModelRunnerP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP5purge5stepsySaySiG_tFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP5purge5stepsySaySiG_tFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP5reset6toStepySi_tFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP5reset6toStepySi_tFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerP5resetyyFTj
++ _$s24TokenGenerationInference19LanguageModelRunnerP5resetyyFTq
++ _$s24TokenGenerationInference19LanguageModelRunnerPAA18StatefullyLoadableTb
++ _$s24TokenGenerationInference19LanguageModelRunnerTL
++ _$s24TokenGenerationInference19LanguageModelRunner_pMD
++ _$s24TokenGenerationInference19LanguageModelRunner_pMF
++ _$s24TokenGenerationInference19LanguageModelRunner_pML
++ _$s24TokenGenerationInference19LookupLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKF
++ _$s24TokenGenerationInference19LookupLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFTY0_
++ _$s24TokenGenerationInference19LookupLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFTu
++ _$s24TokenGenerationInference19LookupLanguageModelC020nextNodeAvailableForD033_8EB83956DD3FD608D1BAE4532911F64CLL03forH0Si_SitSgSi_tF
++ _$s24TokenGenerationInference19LookupLanguageModelC020nextNodeAvailableForD033_8EB83956DD3FD608D1BAE4532911F64CLL03forH0Si_SitSgSi_tFSbSi_SitXEfU_Tf4dnn_n
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLV8indexSetAA0h5IndexQ0Ovg
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMF
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMI
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMP
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMXX
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMa
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMi
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMn
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVMr
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVySfSicig
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP10makeMaskedyAaH_pAA0H8IndexSetOFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP10testForNaNSbyFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP12applySoftmax11temperatureSays7Float16VGAM_tFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP15makeDenseLogitsSaySfGyFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP6argmaxSiyFTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHP8indexSetAA0h5IndexQ0OvgTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0A2aHPySfSicigTW
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0AAMc
++ _$s24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_GAA0hI0AAWP
++ _$s24TokenGenerationInference19LookupLanguageModelC04nextA17LogitsAreComputed4nodeSbSi_tF
++ _$s24TokenGenerationInference19LookupLanguageModelC06commonA14CountFromNodes33_8EB83956DD3FD608D1BAE4532911F64CLLyS2i_SitF
++ _$s24TokenGenerationInference19LookupLanguageModelC31minimumMatchRequiredForDrafting33_8EB83956DD3FD608D1BAE4532911F64CLLSivpWvd
++ _$s24TokenGenerationInference19LookupLanguageModelC3for31minimumMatchRequiredForDraftingACyxGxm_SitcfC
++ _$s24TokenGenerationInference19LookupLanguageModelC3for31minimumMatchRequiredForDraftingACyxGxm_SitcfcfA0_
++ _$s24TokenGenerationInference19LookupLanguageModelC4node15forPreviousNode5token8isPromptS2i_SiSbtF
++ _$s24TokenGenerationInference19LookupLanguageModelC5nodes33_8EB83956DD3FD608D1BAE4532911F64CLL20previousAndIncludingAA11NodeStorageV08PreviousQ8SequenceVyx_GSi_tF
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_SitcfC
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_SitcfCTj
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_SitcfCTq
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_Sitcfc
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_SitcfcfA0_
++ _$s24TokenGenerationInference19LookupLanguageModelC5state31minimumMatchRequiredForDraftingACyxGAA0deF5StateVyxG_SitcfcfA_
++ _$s24TokenGenerationInference19LookupLanguageModelC5state33_8EB83956DD3FD608D1BAE4532911F64CLLAA0deF5StateVyxGvpWvd
++ _$s24TokenGenerationInference19LookupLanguageModelC9startNodeSivg
++ _$s24TokenGenerationInference19LookupLanguageModelC9startNodeSivpMV
++ _$s24TokenGenerationInference19LookupLanguageModelCMF
++ _$s24TokenGenerationInference19LookupLanguageModelCMI
++ _$s24TokenGenerationInference19LookupLanguageModelCMP
++ _$s24TokenGenerationInference19LookupLanguageModelCMa
++ _$s24TokenGenerationInference19LookupLanguageModelCMi
++ _$s24TokenGenerationInference19LookupLanguageModelCMn
++ _$s24TokenGenerationInference19LookupLanguageModelCMo
++ _$s24TokenGenerationInference19LookupLanguageModelCMr
++ _$s24TokenGenerationInference19LookupLanguageModelCMu
++ _$s24TokenGenerationInference19LookupLanguageModelCfD
++ _$s24TokenGenerationInference19LookupLanguageModelCfd
++ _$s24TokenGenerationInference19LookupLanguageModelCyAA06PromptD9NodeStateVGMD
++ _$s24TokenGenerationInference19LookupLanguageModelCyAA20PriorOutputNodeStateVGMD
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP021allNextTokensPossiblyG05nodesSbSaySiG_tKFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP04nextA17LogitsAreComputed4nodeSbSi_tFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP14logitsAreDenseSbvgTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTWTQ0_
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTWTu
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP25precomputedNodeBatchDepthSivgTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP4node15forPreviousNode5token8isPromptS2i_SiSbtFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolA2aEP9startNodeSivgTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolAAMc
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA013DeterministiceF8ProtocolAAWP
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA022UnbatchedDeterministiceF8ProtocolA2aEP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTW
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA022UnbatchedDeterministiceF8ProtocolA2aEP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTWTQ0_
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA022UnbatchedDeterministiceF8ProtocolA2aEP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTWTu
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA022UnbatchedDeterministiceF8ProtocolAAMc
++ _$s24TokenGenerationInference19LookupLanguageModelCyxGAA022UnbatchedDeterministiceF8ProtocolAAWP
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TA
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TATQ0_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TATu
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TQ1_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TY0_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TY2_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_TY3_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu4_Tu
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_n
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTA
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTATQ0_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTATu
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTQ1_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTY0_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTY2_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTY3_
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu5_Tf2ninn_nTu
++ _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFTY22_
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP04makeD0yAaF_pAA0H8IndexSetOFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP10testForNaNSbyFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP12applySoftmax11temperatureSays7Float16VGAK_tFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP8indexSetAA0h5IndexK0OvgTW
++ _$s24TokenGenerationInference19MaskedLanguageModelCyAcA013DeterministiceF8Protocol_p_AaD_ptcfCTf4enn_n
++ _$s24TokenGenerationInference19MaskedLanguageModelCyAcA013DeterministiceF8Protocol_p_AaD_ptcfCTm
++ _$s24TokenGenerationInference19MaskedLanguageModelCyAcA013DeterministiceF8Protocol_p_AaD_ptcfcTf4enn_n
++ _$s24TokenGenerationInference19MaskedLanguageModelCyAcA013DeterministiceF8Protocol_p_AaD_ptcfcTf4enn_nAA08ToolCalleF0C_Tg5
++ _$s24TokenGenerationInference19NullLogitPresamplerV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference19NullLogitPresamplerVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference19NullLogitPresamplerVAA0eF0A2aDP14makeUnfilteredAaD_pyFTW
++ _$s24TokenGenerationInference19NullLogitPresamplerVAA0eF0A2aDP14makeUnfilteredAaD_pyFTWTm
++ _$s24TokenGenerationInference19loadGatherFunctions33_A9991178E48F51C262EDC01165427447LL4from5usingSayAA17AFMGatherFunctionVG4ODIE17ProgramDescriptorV_AI14KernelRegistryVtKFAGSgSSKXEfU_
++ _$s24TokenGenerationInference19loadGatherFunctions33_A9991178E48F51C262EDC01165427447LL4from5usingSayAA17AFMGatherFunctionVG4ODIE17ProgramDescriptorV_AI14KernelRegistryVtKFAGSgSSKXEfU_TA
++ _$s24TokenGenerationInference20BasicLogitCollectionV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference20BasicLogitCollectionV10testForNaNSbyF
++ _$s24TokenGenerationInference20BasicLogitCollectionV12applySoftmax11temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference20BasicLogitCollectionV12applySoftmaxSays7Float16VGyF
++ _$s24TokenGenerationInference20BasicLogitCollectionV4maskyyAA0E8IndexSetOF
++ _$s24TokenGenerationInference20BasicLogitCollectionV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference20BasicLogitCollectionV6argmaxSiyF
++ _$s24TokenGenerationInference20BasicLogitCollectionV6logitsSays7Float16VGvg
++ _$s24TokenGenerationInference20BasicLogitCollectionV6logitsSays7Float16VGvpMV
++ _$s24TokenGenerationInference20BasicLogitCollectionV8indexSet6logitsAcA0e5IndexH0OSg_Says7Float16VGtcfC
++ _$s24TokenGenerationInference20BasicLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference20BasicLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA07MutableeF0A2aDP4maskyyAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA07MutableeF0AAMc
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA07MutableeF0AAWP
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP15makeDenseLogitsSaySfGyFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP15makeDenseLogitsSaySfGyFTWTm
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP6argmaxSiyFTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0A2aDPySfSicigTW
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0AAMc
++ _$s24TokenGenerationInference20BasicLogitCollectionVAA0eF0AAWP
++ _$s24TokenGenerationInference20BasicLogitCollectionVMF
++ _$s24TokenGenerationInference20BasicLogitCollectionVMa
++ _$s24TokenGenerationInference20BasicLogitCollectionVMaTm
++ _$s24TokenGenerationInference20BasicLogitCollectionVMf
++ _$s24TokenGenerationInference20BasicLogitCollectionVMl
++ _$s24TokenGenerationInference20BasicLogitCollectionVMn
++ _$s24TokenGenerationInference20BasicLogitCollectionVMr
++ _$s24TokenGenerationInference20BasicLogitCollectionVN
++ _$s24TokenGenerationInference20BasicLogitCollectionVWV
++ _$s24TokenGenerationInference20BasicLogitCollectionVwet
++ _$s24TokenGenerationInference20BasicLogitCollectionVwst
++ _$s24TokenGenerationInference20BasicLogitCollectionVySfSicig
++ _$s24TokenGenerationInference20BasicLogitCollectionVySfSicipMV
++ _$s24TokenGenerationInference20BasicLogitPresamplerV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference20BasicLogitPresamplerV10makeMaskedyAA0eF0_pAA0E8IndexSetOFTm
++ _$s24TokenGenerationInference20BasicLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_
++ _$s24TokenGenerationInference20BasicLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TA
++ _$s24TokenGenerationInference20BasicLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TA.1
++ _$s24TokenGenerationInference20BasicLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TA.32
++ _$s24TokenGenerationInference20BasicLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TATm
++ _$s24TokenGenerationInference20BasicLogitPresamplerV4maskAcA0E8IndexSetOSg_tcfC
++ _$s24TokenGenerationInference20BasicLogitPresamplerVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference20BasicLogitPresamplerVAA0eF0A2aDP14makeUnfilteredAaD_pyFTW
++ _$s24TokenGenerationInference20BasicLogitPresamplerVMl
++ _$s24TokenGenerationInference20BasicLogitPresamplerVMr
++ _$s24TokenGenerationInference20BasicLogitPresamplerVMrTm
++ _$s24TokenGenerationInference20BasicLogitPresamplerVWV
++ _$s24TokenGenerationInference20BasicLogitPresamplerVwet
++ _$s24TokenGenerationInference20BasicLogitPresamplerVwst
++ _$s24TokenGenerationInference20EmptyLogitCollectionV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV10testForNaNSbyF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV12applySoftmax11temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV12applySoftmaxSays7Float16VGyF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV15makeDenseLogitsSaySfGyF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV4topPySays5Int32VGSfF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV6argmaxSiyF
++ _$s24TokenGenerationInference20EmptyLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference20EmptyLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP15makeDenseLogitsSaySfGyFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP6argmaxSiyFTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0A2aDPySfSicigTW
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0AAMc
++ _$s24TokenGenerationInference20EmptyLogitCollectionVAA0eF0AAWP
++ _$s24TokenGenerationInference20EmptyLogitCollectionVACycfC
++ _$s24TokenGenerationInference20EmptyLogitCollectionVMF
++ _$s24TokenGenerationInference20EmptyLogitCollectionVMa
++ _$s24TokenGenerationInference20EmptyLogitCollectionVMf
++ _$s24TokenGenerationInference20EmptyLogitCollectionVMn
++ _$s24TokenGenerationInference20EmptyLogitCollectionVN
++ _$s24TokenGenerationInference20EmptyLogitCollectionVySfSicig
++ _$s24TokenGenerationInference20EmptyLogitCollectionVySfSicipMV
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP012shouldUseForH0SbvgTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP08previousF05token8isPromptxSiSg_AISbtcfCTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP5tokenSiSgvgTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP9nextNodesSDyS2iGvMTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP9nextNodesSDyS2iGvMTW.resume.0
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0A2aDP9nextNodesSDyS2iGvsTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0AAMc
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA06LookupfG0AAWP
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA0fG8ProtocolA2aDP08previousF0SiSgvgTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA0fG8ProtocolA2aDP9nextNodesSDyS2iGvgTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA0fG8ProtocolA2aDPxycfCTW
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA0fG8ProtocolAAMc
++ _$s24TokenGenerationInference20PriorOutputNodeStateVAA0fG8ProtocolAAWP
++ _$s24TokenGenerationInference20PriorOutputNodeStateVMF
++ _$s24TokenGenerationInference20PriorOutputNodeStateVMa
++ _$s24TokenGenerationInference20PriorOutputNodeStateVMf
++ _$s24TokenGenerationInference20PriorOutputNodeStateVMn
++ _$s24TokenGenerationInference20PriorOutputNodeStateVN
++ _$s24TokenGenerationInference20PriorOutputNodeStateVWV
++ _$s24TokenGenerationInference20PriorOutputNodeStateVwet
++ _$s24TokenGenerationInference20PriorOutputNodeStateVwst
++ _$s24TokenGenerationInference20TopK2LogitCollectionV10testForNaNSbyF
++ _$s24TokenGenerationInference20TopK2LogitCollectionV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference20TopK2LogitCollectionV8indexSetAA0f5IndexI0Ovg
++ _$s24TokenGenerationInference20TopK2LogitCollectionV8indexSetAA0f5IndexI0OvpMV
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP10makeMaskedyAaD_pAA0F8IndexSetOFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP8indexSetAA0f5IndexI0OvgTW
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV012extendOutputG0_WZTv_r
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV012promptOutputG0_WZTv_r
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV03allG0SaySSGvpZ
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV03allG0_WZ
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV03allG0_Wz
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV05inputG0_WZTv_r
++ _$s24TokenGenerationInference20V5DecodeOperandNamesV09allOutputG0_WZTv_r
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV012extendOutputG0_WZTv_r
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV012promptOutputG0_WZTv_r
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV03allG0SaySSGvpZ
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV03allG0_WZ
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV03allG0_Wz
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV05inputG0_WZTv_r
++ _$s24TokenGenerationInference20V7DecodeOperandNamesV09allOutputG0_WZTv_r
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionV10testForNaNSbyF
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference21DraftMetadataProtocolP29draftUseMaximumLikelihoodTreeSbSgvgTq
++ _$s24TokenGenerationInference21MaskedLogitCollectionV04makeD0yAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference21MaskedLogitCollectionV10testForNaNSbyF
++ _$s24TokenGenerationInference21MaskedLogitCollectionV15makeDenseLogitsSaySfGyF
++ _$s24TokenGenerationInference21MaskedLogitCollectionV4maskyyAA0E8IndexSetOF
++ _$s24TokenGenerationInference21MaskedLogitCollectionV6argmaxSiyF
++ _$s24TokenGenerationInference21MaskedLogitCollectionV6logits8indexSetAcA0eF0_p_AA0e5IndexI0OtcfC
++ _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSetAA0e5IndexH0OvM
++ _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSetAA0e5IndexH0OvM.resume.0
++ _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSetAA0e5IndexH0Ovs
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA07MutableeF0A2aDP4maskyyAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA07MutableeF0AAMc
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA07MutableeF0AAWP
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP04makeD0yAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference21MaskedLogitCollectionVMaTm
++ _$s24TokenGenerationInference21MaskedLogitCollectionVMl
++ _$s24TokenGenerationInference21MaskedLogitCollectionVMr
++ _$s24TokenGenerationInference21PromptLookupNodeStateV012shouldUseForE0Sbvg
++ _$s24TokenGenerationInference21PromptLookupNodeStateV012shouldUseForE0SbvpMV
++ _$s24TokenGenerationInference21PromptLookupNodeStateV02isD0Sbvg
++ _$s24TokenGenerationInference21PromptLookupNodeStateV02isD0SbvpMV
++ _$s24TokenGenerationInference21PromptLookupNodeStateV08previousF05token02isD0ACSiSg_AGSbtcfC
++ _$s24TokenGenerationInference21PromptLookupNodeStateV08previousF0SiSgvg
++ _$s24TokenGenerationInference21PromptLookupNodeStateV08previousF0SiSgvpMV
++ _$s24TokenGenerationInference21PromptLookupNodeStateV5tokenSiSgvg
++ _$s24TokenGenerationInference21PromptLookupNodeStateV5tokenSiSgvpMV
++ _$s24TokenGenerationInference21PromptLookupNodeStateV9nextNodesSDyS2iGvM
++ _$s24TokenGenerationInference21PromptLookupNodeStateV9nextNodesSDyS2iGvM.resume.0
++ _$s24TokenGenerationInference21PromptLookupNodeStateV9nextNodesSDyS2iGvg
++ _$s24TokenGenerationInference21PromptLookupNodeStateV9nextNodesSDyS2iGvpMV
++ _$s24TokenGenerationInference21PromptLookupNodeStateV9nextNodesSDyS2iGvs
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP012shouldUseForE0SbvgTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP08previousF05token02isD0xSiSg_AISbtcfCTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP5tokenSiSgvgTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP9nextNodesSDyS2iGvMTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP9nextNodesSDyS2iGvMTW.resume.0
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0A2aDP9nextNodesSDyS2iGvsTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0AAMc
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0efG0AAWP
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0fG8ProtocolA2aDP08previousF0SiSgvgTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0fG8ProtocolA2aDP9nextNodesSDyS2iGvgTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0fG8ProtocolA2aDPxycfCTW
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0fG8ProtocolAAMc
++ _$s24TokenGenerationInference21PromptLookupNodeStateVAA0fG8ProtocolAAWP
++ _$s24TokenGenerationInference21PromptLookupNodeStateVACycfC
++ _$s24TokenGenerationInference21PromptLookupNodeStateVMF
++ _$s24TokenGenerationInference21PromptLookupNodeStateVMa
++ _$s24TokenGenerationInference21PromptLookupNodeStateVMf
++ _$s24TokenGenerationInference21PromptLookupNodeStateVMn
++ _$s24TokenGenerationInference21PromptLookupNodeStateVN
++ _$s24TokenGenerationInference21PromptLookupNodeStateVWV
++ _$s24TokenGenerationInference21PromptLookupNodeStateVwet
++ _$s24TokenGenerationInference21PromptLookupNodeStateVwst
++ _$s24TokenGenerationInference21SamplingDecoderPromptV9flattenedSaySiGvg
++ _$s24TokenGenerationInference21SamplingDecoderPromptV_0aB00F0V9RenderingVtMD
++ _$s24TokenGenerationInference21SparseLogitCollectionV07allowedA3IDsAcA0E8IndexSetO_tcfC
++ _$s24TokenGenerationInference21SparseLogitCollectionV8indexSetAA0e5IndexH0OvM
++ _$s24TokenGenerationInference21SparseLogitCollectionV8indexSetAA0e5IndexH0OvM.resume.0
++ _$s24TokenGenerationInference21SparseLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference21SparseLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference21SparseLogitCollectionV8indexSetAA0e5IndexH0Ovs
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference21SparseLogitCollectionVMl
++ _$s24TokenGenerationInference21SparseLogitCollectionVMr
++ _$s24TokenGenerationInference21SparseLogitCollectionVMrTm
++ _$s24TokenGenerationInference21SparseLogitCollectionVWV
++ _$s24TokenGenerationInference21SparseLogitCollectionVwet
++ _$s24TokenGenerationInference21SparseLogitCollectionVwst
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTQ1_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTQ3_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTY0_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTY2_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTY4_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTY5_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTY6_
++ _$s24TokenGenerationInference21ToolCallLanguageModelC010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0O10Presampler_pSgSbtYaKFTu
++ _$s24TokenGenerationInference21ToolCallLanguageModelC04nextA17LogitsAreComputed4nodeSbSi_tF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC05startdeA2ID9vocabSize14responseMaskLM04toolmN0ACSi_SiAA013DeterministicfG8Protocol_pSgAItcfCTq
++ _$s24TokenGenerationInference21ToolCallLanguageModelC05startdeA2IDSivpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelC10toolMaskLMAA013DeterministicfG8Protocol_pSgvpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelC14logitsAreDenseSbvg
++ _$s24TokenGenerationInference21ToolCallLanguageModelC14responseMaskLMAA013DeterministicfG8Protocol_pSgvpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelC34allNextTokensPossiblyDeterministic5nodesSbSaySiG_tKF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVMF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVMa
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVMf
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVMn
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVN
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVWV
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVwet
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4NodeVwst
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4node15forPreviousNode5token8isPromptS2i_SiSbtF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtF
++ _$s24TokenGenerationInference21ToolCallLanguageModelC5graph33_9F9BFD55D3149CE0E6E17D95333DFBC6LLSayAC4NodeVGvpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelC9startNodeSivpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelC9vocabSizeSivpWvd
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP021allNextTokensPossiblyH05nodesSbSaySiG_tKFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP04nextA17LogitsAreComputed4nodeSbSi_tFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP14logitsAreDenseSbvgTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTQ0_
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTu
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP25precomputedNodeBatchDepthSivgTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP4node15forPreviousNode5token8isPromptS2i_SiSbtFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolA2aDP9startNodeSivgTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolAAMc
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA013DeterministicfG8ProtocolAAWP
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0R10Presampler_pSgSbtYaKFTW
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0R10Presampler_pSgSbtYaKFTWTQ0_
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0R10Presampler_pSgSbtYaKFTWTu
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA022UnbatchedDeterministicfG8ProtocolAAMc
++ _$s24TokenGenerationInference21ToolCallLanguageModelCAA022UnbatchedDeterministicfG8ProtocolAAWP
++ _$s24TokenGenerationInference21ToolCallLanguageModelCMF
++ _$s24TokenGenerationInference21ToolCallLanguageModelCMa
++ _$s24TokenGenerationInference21ToolCallLanguageModelCMf
++ _$s24TokenGenerationInference21ToolCallLanguageModelCMm
++ _$s24TokenGenerationInference21ToolCallLanguageModelCMn
++ _$s24TokenGenerationInference21ToolCallLanguageModelCN
++ _$s24TokenGenerationInference21ToolCallLanguageModelCfD
++ _$s24TokenGenerationInference21findEmbeddingLocation33_D134D559730E159887BAA42F33C19F8DLL03forA02inAA0eF0ACLLVSgs5Int32V_So13EncodedImages_ptF
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKF
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFAHSgSSKXEfU0_
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFAHSgSSKXEfU0_TA
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFSbSSXEfU_
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFSbSSXEfU_TA
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFTY0_
++ _$s24TokenGenerationInference21loadDecodingFunctions33_A9991178E48F51C262EDC01165427447LL4from5using9adaptedBySayAA17AFMDecodeFunctionVG4ODIE17ProgramDescriptorV_AJ14KernelRegistryVALSgtYaKFTu
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP10makeMaskedyAaF_pAA0G8IndexSetOFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP10testForNaNSbyFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP12applySoftmax11temperatureSays7Float16VGAK_tFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP8indexSetAA0g5IndexJ0OvgTW
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVMl
++ _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVMr
++ _$s24TokenGenerationInference22LanguageModelReferenceO_ACtMD
++ _$s24TokenGenerationInference22MutableLogitCollectionMp
++ _$s24TokenGenerationInference22MutableLogitCollectionP4maskyyAA0E8IndexSetOFTj
++ _$s24TokenGenerationInference22MutableLogitCollectionP4maskyyAA0E8IndexSetOFTq
++ _$s24TokenGenerationInference22MutableLogitCollectionPAA0eF0Tb
++ _$s24TokenGenerationInference22MutableLogitCollectionTL
++ _$s24TokenGenerationInference22MutableLogitCollection_pMD
++ _$s24TokenGenerationInference22MutableLogitCollection_pMF
++ _$s24TokenGenerationInference22MutableLogitCollection_pSgMD
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfCTq
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfc
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTQ0_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTQ2_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTY1_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTY3_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTY4_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTY5_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10contentsOfAC10Foundation3URLV_tYaKcfcTu
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC10inputImage4ODIE7NDArrayCvpWvd
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC12mainFunction4ODIE0H0CvpWvd
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16outputEmbeddings4ODIE7NDArrayCvpWvd
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlF
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFTQ1_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFTY0_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFTY2_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFTY3_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFTu
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFx4ODIE21UnsafeRawArrayPointerVKXEfU0_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFx4ODIE21UnsafeRawArrayPointerVKXEfU0_TA
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFx4ODIE21UnsafeRawArrayPointerVKXEfU0_xALKXEfU_TA
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFy4ODIE25UnsafeMutableArrayPointerVyAGGKXEfU_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerC16withEncodedImage11imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKlFy4ODIE25UnsafeMutableArrayPointerVyAGGKXEfU_TA
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP011withEncodedG011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTW
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP011withEncodedG011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTWTQ0_
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP011withEncodedG011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTWTu
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP013embeddingsPerG5CountSivgTW
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP10imageWidthSivgTW
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP11imageHeightSivgTW
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0A2aDP13bytesPerPixelSivgTW
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0AAMc
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCAA05ImageeF0AAWP
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCMF
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCMa
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCMf
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCMm
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCMn
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCN
++ _$s24TokenGenerationInference22ODIEImageEncoderRunnerCfD
++ _$s24TokenGenerationInference22ProcessedImageProtocolMp
++ _$s24TokenGenerationInference22ProcessedImageProtocolP4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKFTj
++ _$s24TokenGenerationInference22ProcessedImageProtocolP4copy2to11bufferShape9tileIndexySrys7Float16VG_SaySiGSitKFTq
++ _$s24TokenGenerationInference22ProcessedImageProtocolP8numTilesSivgTj
++ _$s24TokenGenerationInference22ProcessedImageProtocolP8numTilesSivgTq
++ _$s24TokenGenerationInference22ProcessedImageProtocolTL
++ _$s24TokenGenerationInference22ProcessedImageProtocol_pMD
++ _$s24TokenGenerationInference22ProcessedImageProtocol_pMF
++ _$s24TokenGenerationInference22ProcessedImageProtocol_pWOb
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV05applyD011temperatureSays7Float16VGAG_tF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV05applyD0Says7Float16VGyF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV11temperatures7Float16Vvg
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV11temperatures7Float16VvpMV
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV13softmaxValuesSays7Float16VGvg
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV13softmaxValuesSays7Float16VGvpMV
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV15makeDenseLogitsSaySfGyF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV4maskyyAA0E8IndexSetOF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV4topKySays5Int32VGSiF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV4topPySays5Int32VGSfF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV6argmaxSiyF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV8indexSet13softmaxValues11temperatureAcA0e5IndexH0O_Says7Float16VGAJtcfC
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA07MutableeF0A2aDP4maskyyAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA07MutableeF0AAMc
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA07MutableeF0AAWP
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP05applyD011temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP05applyD0Says7Float16VGyFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP15makeDenseLogitsSaySfGyFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP6argmaxSiyFTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0A2aDPySfSicigTW
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0AAMc
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVAA0eF0AAWP
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMF
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMa
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMaTm
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMf
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMl
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMn
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVMr
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVN
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVWV
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVwet
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVwst
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVySfSicig
++ _$s24TokenGenerationInference22SoftmaxLogitCollectionVySfSicipMV
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV10makeMaskedyAA0eF0_pAA0E8IndexSetOF
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV11temperature4maskACs7Float16V_AA0E8IndexSetOSgtcfC
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV11temperature4maskACs7Float16V_AA0E8IndexSetOSgtcfcfA_
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV11temperatures7Float16Vvg
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV11temperatures7Float16VvpMV
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV14makeUnfilteredAA0eF0_pyF
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtF
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TA
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TA.11
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFAaJ_pSiXEfU_TATm
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVAA0eF0A2aDP14makeUnfilteredAaD_pyFTW
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVAA0eF0A2aDP15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFTW
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVAA0eF0AAMc
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVAA0eF0AAWP
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMF
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMa
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMf
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMl
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMn
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVMr
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVN
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVWV
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVwet
++ _$s24TokenGenerationInference22SoftmaxLogitPresamplerVwst
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineMp
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineP06callAsE05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherE0VGAA016ODIEImageFeatureS0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTq
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineP15allOperandNamesSaySSGvgTq
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineP17bytesPerEmbeddingSiSgvgTq
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineP17cacheOperandNamesSaySSGvgTq
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineP8function4ODIE0E0CvgTq
++ _$s24TokenGenerationInference23AFMDecodeFunctionEnginePAA0dE10DescriptorTb
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngineTL
++ _$s24TokenGenerationInference23AFMDecodeFunctionEngine_pMF
++ _$s24TokenGenerationInference23ArrayDescriptorProviderMp
++ _$s24TokenGenerationInference23ArrayDescriptorProviderP10descriptor2of4ODIE0dE0VSgSS_tFTq
++ _$s24TokenGenerationInference23ArrayDescriptorProviderTL
++ _$s24TokenGenerationInference23ArrayDescriptorProvider_pMF
++ _$s24TokenGenerationInference23LanguageModelSpeculatorMp
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP24speculateNextTargetNodes08languageE005firstI4NodeShySiGAA05DraftidE0_p_SitYaKFTj
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP24speculateNextTargetNodes08languageE005firstI4NodeShySiGAA05DraftidE0_p_SitYaKFTjTQ0_
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP24speculateNextTargetNodes08languageE005firstI4NodeShySiGAA05DraftidE0_p_SitYaKFTjTu
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP24speculateNextTargetNodes08languageE005firstI4NodeShySiGAA05DraftidE0_p_SitYaKFTq
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP9stepCountSivgTj
++ _$s24TokenGenerationInference23LanguageModelSpeculatorP9stepCountSivgTq
++ _$s24TokenGenerationInference23LanguageModelSpeculatorTL
++ _$s24TokenGenerationInference23LanguageModelSpeculator_pMF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKF6$deferL_yyF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKFTQ1_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKFTY0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKFTY2_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKFTY3_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC012singleDecodeC033_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens11tokenOffset013computeLogitsA5CountAA0hC6ResultAELLVSayAA0A6RecordVG_S2itYaKFTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfCTq
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfc
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTQ1_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTY0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTY2_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTY3_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTv0_r
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfcTv_r
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTQ1_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTY0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTY2_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC10embeddings03forA010Foundation4DataVs5Int32V_tYaKFySv_SitcfU_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC11descriptionSSvg
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC11holeIndicesSaySiGvpWvd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC13contextTokensSayAA0A6RecordVGvpWvd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC15isInDynamicMode33_47365F92FB2E7F62355B8FF04AFD91A7LLSbvpWvd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC15presampleLogits33_47365F92FB2E7F62355B8FF04AFD91A7LL4from4with07computehA5CountSayAA15LogitCollection_pGAA06DecodeC6ResultAELLV_AA0U10Presampler_pSitKFAJ4ODIE25UnsafeMutableArrayPointerVys7Float16VGKXEfU_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC15presampleLogits33_47365F92FB2E7F62355B8FF04AFD91A7LL4from4with07computehA5CountSayAA15LogitCollection_pGAA06DecodeC6ResultAELLV_AA0U10Presampler_pSitKFAJ4ODIE25UnsafeMutableArrayPointerVys7Float16VGKXEfU_TA
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAA0A4MaskVGSgSitKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC16makeKVCacheEntryy10Foundation4DataVSnySiGKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC17compactCacheHoles33_47365F92FB2E7F62355B8FF04AFD91A7LLyyF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC18moveToDynamicStateyyFTf4d_nTm
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC23enumerateCacheSequences33_47365F92FB2E7F62355B8FF04AFD91A7LL5range5blockySnySiG_ySwKXEtKF04$s24ab11Inference23deF100C15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAA0A4MaskVGSgSitKFySwKXEfU_Si10Foundation4DataVTf1ncn_nTf4nnng_n
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC23enumerateCacheSequences33_47365F92FB2E7F62355B8FF04AFD91A7LL5range5blockySnySiG_ySwKXEtKF04$s24ab11Inference23deF54C16makeKVCacheEntryy10Foundation4DataVSnySiGKFySwXEfU_10Foundation0Z0VTf1ncn_n
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC25findOptimalDecodeFunction33_47365F92FB2E7F62355B8FF04AFD91A7LL15remainingTokens013computeLogitsA5CountSi13functionIndex_Si10holesToAddtSgSi_SitF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKFTQ1_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKFTY0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKFTY2_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKFTY3_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run33_47365F92FB2E7F62355B8FF04AFD91A7LL6tokens013computeLogitsA5Count10presamplerSayAA15LogitCollection_pG6logits_Si04callS0tSayAA0A6RecordVG_SiAA0U10Presampler_pSgtYaKFTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTQ1_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTY0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTY2_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTY3_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAA0A4MaskVGSgAA0O10Presampler_pSgtYaKFTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC5modelAA0dE0VvpWvd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC5purge5stepsySaySiG_tF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC5reset6toStepySi_tF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerC7buffers33_47365F92FB2E7F62355B8FF04AFD91A7LLSDySS4ODIE7NDArrayC6BufferVGvpWvd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTWTQ0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP10embeddings03forA010Foundation4DataVs5Int32V_tYaKFTWTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP13clearAllStateyyFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP13encodedImagesSo07EncodedI0_pSgvMTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP13encodedImagesSo07EncodedI0_pSgvMTW.resume.0
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP13encodedImagesSo07EncodedI0_pSgvgTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP13encodedImagesSo07EncodedI0_pSgvsTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP15enableTelemetry14withIdentifierySS_tFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAA0A4MaskVGSgSitKFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP15vocabularyCountSivgTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP16makeKVCacheEntryy10Foundation4DataVSnySiGKFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP16maxContextLengthSivgTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP18currentContextSizeSivgTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callL0tSaySiG_SiSayAA0A4MaskVGSgAA0P10Presampler_pSgtYaKFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callL0tSaySiG_SiSayAA0A4MaskVGSgAA0P10Presampler_pSgtYaKFTWTQ0_
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callL0tSaySiG_SiSayAA0A4MaskVGSgAA0P10Presampler_pSgtYaKFTWTu
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP5purge5stepsySaySiG_tFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP5reset6toStepySi_tFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0A2aDP5resetyyFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0AAMc
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA08LanguageeF0AAWP
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA18StatefullyLoadableA2aDP18moveToDynamicStateyyFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA18StatefullyLoadableA2aDP22moveToFullyLoadedStateyyFTW
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA18StatefullyLoadableAAMc
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCAA18StatefullyLoadableAAWP
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMF
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMU
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMa
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMf
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMl
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMm
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMn
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCMr
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCN
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCfD
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCfd
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference23ODIELanguageModelRunnerCs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s24TokenGenerationInference23registerDelegateKernels33_A9991178E48F51C262EDC01165427447LL4into7program7adapter8delegatey4ODIE14KernelRegistryVz_AH17ProgramDescriptorVALSgxtYaKAH0E0RzlF28MetalPerformanceShadersGraph08MPSGraphE0C_Tg5
++ _$s24TokenGenerationInference23registerDelegateKernels33_A9991178E48F51C262EDC01165427447LL4into7program7adapter8delegatey4ODIE14KernelRegistryVz_AH17ProgramDescriptorVALSgxtYaKAH0E0RzlF28MetalPerformanceShadersGraph08MPSGraphE0C_Tg5TY0_
++ _$s24TokenGenerationInference23registerDelegateKernels33_A9991178E48F51C262EDC01165427447LL4into7program7adapter8delegatey4ODIE14KernelRegistryVz_AH17ProgramDescriptorVALSgxtYaKAH0E0RzlF28MetalPerformanceShadersGraph08MPSGraphE0C_Tg5Tu
++ _$s24TokenGenerationInference24DraftTargetLanguageModelMp
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP11draftLogits0H5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0L10Presampler_pSgtYaKFTj
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP11draftLogits0H5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0L10Presampler_pSgtYaKFTjTQ0_
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP11draftLogits0H5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0L10Presampler_pSgtYaKFTjTu
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP11draftLogits0H5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0L10Presampler_pSgtYaKFTq
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP8nodePair011forPreviousE4Node5token8isPromptSi6target_Si5drafttSi_SiSbtFTj
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP8nodePair011forPreviousE4Node5token8isPromptSi6target_Si5drafttSi_SiSbtFTq
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP8nodePair03forE4NodeSi6target_Si5drafttSi_tFTj
++ _$s24TokenGenerationInference24DraftTargetLanguageModelP8nodePair03forE4NodeSi6target_Si5drafttSi_tFTq
++ _$s24TokenGenerationInference24DraftTargetLanguageModelPAA013DeterministicfG8ProtocolTb
++ _$s24TokenGenerationInference24DraftTargetLanguageModelTL
++ _$s24TokenGenerationInference24DraftTargetLanguageModel_pMF
++ _$s24TokenGenerationInference24DraftTargetLanguageModel_pML
++ _$s24TokenGenerationInference24DraftTargetLanguageModel_pMa
++ _$s24TokenGenerationInference24DraftTargetLanguageModel_pWOcTm
++ _$s24TokenGenerationInference24LookupLanguageModelStateVA2A015PriorOutputNodeG0VRszrlE05priorI6TokensACyAEGSaySiG_tcfC
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMF
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMI
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMP
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMa
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMi
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMn
++ _$s24TokenGenerationInference24LookupLanguageModelStateVMr
++ _$s24TokenGenerationInference24LookupLanguageModelStateVWV
++ _$s24TokenGenerationInference24LookupLanguageModelStateVwet
++ _$s24TokenGenerationInference24LookupLanguageModelStateVwst
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC10speculator33_B398487A78544B2880D5A47AC6334149LLAA0eF10Speculator_pvpWvd
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC11draftLogits0G5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0K10Presampler_pSgtYaKF
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC11draftLogits0G5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0K10Presampler_pSgtYaKFTQ1_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC11draftLogits0G5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0K10Presampler_pSgtYaKFTY0_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC11draftLogits0G5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0K10Presampler_pSgtYaKFTu
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC4nameSSvg
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC4nameSSvpMV
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC4nameSSvpWvd
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft10speculator09earlyStopA2Id0J26ReturnProbabilityThreshold4nameAcA013DeterministiceF8Protocol_p_AaJ_pAA0eF10Speculator_pSiSgSfSgSStcfC
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft10speculator09earlyStopA2Id0J26ReturnProbabilityThreshold4nameAcA013DeterministiceF8Protocol_p_AaJ_pAA0eF10Speculator_pSiSgSfSgSStcfCTj
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft10speculator09earlyStopA2Id0J26ReturnProbabilityThreshold4nameAcA013DeterministiceF8Protocol_p_AaJ_pAA0eF10Speculator_pSiSgSfSgSStcfCTq
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft10speculator09earlyStopA2Id0J26ReturnProbabilityThreshold4nameAcA013DeterministiceF8Protocol_p_AaJ_pAA0eF10Speculator_pSiSgSfSgSStcfc
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft10speculator09earlyStopA2Id0J26ReturnProbabilityThreshold4nameAcA013DeterministiceF8Protocol_p_AaJ_pAA0eF10Speculator_pSiSgSfSgSStcfcfA4_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfCTf4nennnnnn_n
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC8nodePair13forTargetNodeSi6target_Si5drafttSi_tF
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC8nodePair21forPreviousTargetNode5token8isPromptSi6target_Si5drafttSi_SiSbtF
++ _$s24TokenGenerationInference24SpeculativeLanguageModelC8nodePair21forPreviousTargetNode5token8isPromptSi6target_Si5drafttSi_SiSbtFfA1_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP11draftLogits0I5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0M10Presampler_pSgtYaKFTW
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP11draftLogits0I5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0M10Presampler_pSgtYaKFTWTQ1_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP11draftLogits0I5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0M10Presampler_pSgtYaKFTWTY0_
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP11draftLogits0I5Nodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0M10Presampler_pSgtYaKFTWTu
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP8nodePair011forPreviousH4Node5token8isPromptSi6target_Si5drafttSi_SiSbtFTW
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0A2aDP8nodePair03forH4NodeSi6target_Si5drafttSi_tFTW
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0AAMc
++ _$s24TokenGenerationInference24SpeculativeLanguageModelCAA011DraftTargeteF0AAWP
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_n
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_nTQ1_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_nTY0_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_nTY2_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_nTY3_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTf4nnnnndnn_nTu
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTv_r
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFs5Int32VAZcfu0_33_5737c894ffe0b9666da018d607cec679AZA2_Tf3nnnpk_n
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFyAL25UnsafeMutableArrayPointerVys5Int32VGXEfU_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFyAL25UnsafeMutableArrayPointerVys5Int32VGXEfU_TA
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV11queryLengthSivg
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV13contextLengthSivg
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV13makeIOTensors33_541B6F1DE211C8074EFB6D1DFF0FB2E3LL8wrappingSDySS4ODIE7NDArrayCG6inputs_AJ7outputstSDySSAI6BufferVG_tF
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV15vocabularyCountSivg
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV20setRelativePositions33_541B6F1DE211C8074EFB6D1DFF0FB2E3LL_11queryLength07contextU04step10tokenCounty4ODIE7NDArrayC_S4itFZyAJ25UnsafeMutableArrayPointerVys7Float16VGXEfU_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineV20setRelativePositions33_541B6F1DE211C8074EFB6D1DFF0FB2E3LL_11queryLength07contextU04step10tokenCounty4ODIE7NDArrayC_S4itFZyAJ25UnsafeMutableArrayPointerVys7Float16VGXEfU_TA
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP11queryLengthSivgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP13contextLengthSivgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP14computesLogitsSbvgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAMc
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAMcMK
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAWI
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAWP
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTWTQ0_
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTWTu
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP15allOperandNamesSaySSGvgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17bytesPerEmbeddingSiSgvgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17cacheOperandNamesSaySSGvgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17cacheOperandNamesSaySSGvgTWTv_r
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0A2aDP8function4ODIE0F0CvgTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0AAMc
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0AAMcMK
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0AAWI
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAA09AFMDecodefG0AAWP
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVACSLAAWL
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVACSLAAWl
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVACSQAAWL
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVACSQAAWl
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAcA09AFMDecodeF10DescriptorAAWL
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAcA09AFMDecodeF10DescriptorAAWl
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAcA09AFMDecodefG0AAWL
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVAcA09AFMDecodefG0AAWl
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVMF
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVMa
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVMf
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVMn
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVN
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAAMc
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAAMcMK
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASL1goiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASL1loiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASL2geoiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASL2leoiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASQWb
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSQAAMc
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSQAAMcMK
++ _$s24TokenGenerationInference25AFMV5DecodeFunctionEngineVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlF
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFAA0A4MaskVAZXEfU0_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFAA0A4MaskVAZXEfU0_TA
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTQ1_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTQ3_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY0_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY2_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY4_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY5_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTY6_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTu
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgx_SiSaySiGANSDySSAN6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureT0CtYaKSlRzAA0A6RecordV7ElementRtzlFTv_r
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV11queryLengthSivg
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV13contextLengthSivg
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV13makeIOTensors33_D19EFAE08CE2210750E7DB7ABCCB1988LL8wrappingSDySS4ODIE7NDArrayCG6inputs_AJ7outputstSDySSAI6BufferVG_tF
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineV17bytesPerEmbeddingSiSgvg
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP11queryLengthSivgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP13contextLengthSivgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorA2aDP14computesLogitsSbvgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAMc
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAMcMK
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAWI
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodeF10DescriptorAAWP
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTWTQ0_
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP06callAsF05query4step11holeIndices15embeddingsTable7buffers15gatherFunctions16featureProjector4ODIE7NDArrayCSgqd___SiSaySiGAPSDySSAP6BufferVGSayAA09AFMGatherF0VGAA016ODIEImageFeatureU0CtYaKSlRd__AA0A6RecordV7ElementRtd__lFTWTu
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP15allOperandNamesSaySSGvgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17bytesPerEmbeddingSiSgvgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17cacheOperandNamesSaySSGvgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP17cacheOperandNamesSaySSGvgTWTv_r
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0A2aDP8function4ODIE0F0CvgTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0AAMc
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0AAMcMK
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0AAWI
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAA09AFMDecodefG0AAWP
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVACSLAAWL
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVACSLAAWl
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVACSQAAWL
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVACSQAAWl
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAcA09AFMDecodeF10DescriptorAAWL
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAcA09AFMDecodeF10DescriptorAAWl
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAcA09AFMDecodefG0AAWL
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVAcA09AFMDecodefG0AAWl
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVMF
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVMa
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVMf
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVMn
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVN
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAAMc
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAAMcMK
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASL1goiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASL1loiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASL2geoiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASL2leoiySbx_xtFZTW
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASQWb
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSQAAMc
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSQAAMcMK
++ _$s24TokenGenerationInference25AFMV7DecodeFunctionEngineVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC07featureF0AC0eF0VSgvpWvd
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V14callAsFunctionyyYaKF
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V14callAsFunctionyyYaKFTQ1_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V14callAsFunctionyyYaKFTY0_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V14callAsFunctionyyYaKFTY2_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V14callAsFunctionyyYaKFTu
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VMF
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VMa
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VMf
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VMn
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VN
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VSgWOe
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VSgWOy
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0VWV
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0Vwet
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0Vwst
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKF
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFTQ1_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFTY0_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFTY2_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFTY3_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFTu
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding03forA02toys5Int32V_SwtYaKFySo13_EncodedImageVXEfU_TA
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKF
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFTQ1_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFTY0_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFTY2_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFTY3_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFTu
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC13copyEmbedding33_D134D559730E159887BAA42F33C19F8DLL4from2at2toySo13_EncodedImageV_AA0H8LocationAELLVSwtYaKFySWXEfU_TA
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC14_encodedImages33_D134D559730E159887BAA42F33C19F8DLLSo07EncodedH0_pSgvpWvd
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC17programDescriptor17streamingDelegate24decoderBytesPerEmbeddingAC4ODIE07ProgramH0V_28MetalPerformanceShadersGraph08MPSGraphJ0CSgSitKcfCTq
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC17programDescriptor17streamingDelegate24decoderBytesPerEmbeddingAC4ODIE07ProgramH0V_28MetalPerformanceShadersGraph08MPSGraphJ0CSgSitKcfc
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFx4ODIE21UnsafeRawArrayPointerVKXEfU0_yt_TG5TA
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFy4ODIE28UnsafeMutableRawArrayPointerVXEfU_TA
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5TQ1_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5TY0_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5TY2_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5TY3_
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC18withProjectedImage33_D134D559730E159887BAA42F33C19F8DLL10imageIndex07encodedI0_xSi_So08_EncodedI0VxSWKXEtYaKlFyt_Tg5Tu
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorC24decoderBytesPerEmbeddingSivpWvd
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCMF
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCMa
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCMf
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCMm
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCMn
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCN
++ _$s24TokenGenerationInference25ODIEImageFeatureProjectorCfD
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC015makeCGImageWithF2IO33_19E7F02FFB21FE802189FDD093FE981FLL4data03newF9DimensionSo0I3Refa10Foundation4DataV_SitKFTf4nnd_n
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC07processF10Attachment012imageSurfaceI0014useHighQualityF12TokenizationSayAA09ProcessedF0VG0aB06PromptV0fkI0V_SbtKF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC07processF10Attachment05imageI0014useHighQualityF12TokenizationSayAA09ProcessedF0VG0aB06PromptV0fI0V_SbtKF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC14processCGImage33_19E7F02FFB21FE802189FDD093FE981FLL_014useHighQualityF12TokenizationSayAA09ProcessedF0VGSo0I3Refa_SbtKF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC14processCGImage33_19E7F02FFB21FE802189FDD093FE981FLL_03newF9DimensionAA09ProcessedF0VSo0I3Refa_SitKF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC22processSurfaceFastPath33_19E7F02FFB21FE802189FDD093FE981FLL7surface014useHighQualityF12TokenizationSayAA09ProcessedF0VGSgSo9IOSurfaceC_SbtKF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC27imageTokenizerConfigurationAA0de2E5fiJ0VvpWvd
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC27imageTokenizerConfigurationAcA0de2E5fiJ0V_tcfC
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC27imageTokenizerConfigurationAcA0de2E5fiJ0V_tcfCTj
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC27imageTokenizerConfigurationAcA0de2E5fiJ0V_tcfCTq
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorC27imageTokenizerConfigurationAcA0de2E5fiJ0V_tcfc
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCAA0defG8ProtocolAAMc
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCAA0defG8ProtocolAAWP
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMF
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMa
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMf
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMm
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMn
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMo
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCMu
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCN
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCfD
++ _$s24TokenGenerationInference25OnDeviceImagePreprocessorCfd
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionV07allowedA3IDsAESaySiG_tcfC
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP10makeMaskedyAaF_pAA0H8IndexSetOFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP10makeMaskedyAaF_pAA0H8IndexSetOFTWTm
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP10testForNaNSbyFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP12applySoftmax11temperatureSays7Float16VGAK_tFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP12applySoftmax11temperatureSays7Float16VGAK_tFTWTm
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP12applySoftmaxSays7Float16VGyFTWTm
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP8indexSetAA0h5IndexK0OvgTW
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVMl
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVMr
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVWV
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVwet
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVwst
++ _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVySfSicig
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC025compareNodesByPositionAndA0015_C54BEC2A6549C4P16D2CDB56F73805ABELLySbSi_SitF
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC10lruKVCache015_C54BEC2A6549C4M16D2CDB56F73805ABELLAA10KVLRUCacheCvpWvd
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC10tokenMasks10queryNodes24promptModuleContextCountSayAA0A4MaskVGSaySiG_SitF
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC10tokenMasks10queryNodes25promptModulesTokensCountsSayAA0A4MaskVGSgSaySiG_AKtF
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC14nodesAreLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SbSaySiG_tFSbSi_SitXEfU_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTQ0_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_n
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_nTQ1_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_nTY0_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_nTY2_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_nTY3_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTf4nndn_nTu
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC17leftContextTokens015_C54BEC2A6549C4N16D2CDB56F73805ABELL7forNodeSaySiGSi_tF
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC20allPromptModuleNodes015_C54BEC2A6549C4O16D2CDB56F73805ABELLSaySiGvpWvd
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC26currentQueryNodesAreLinear015_C54BEC2A6549C4P16D2CDB56F73805ABELLSbvg
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC30computePromptModuleNodesNeeded015_C54BEC2A6549C4P16D2CDB56F73805ABELLSaySiG12nodesToReset_AF0uV7ComputetyF
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC31currentPromptModulesContextSize015_C54BEC2A6549C4P16D2CDB56F73805ABELLSivg
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TA
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TATQ0_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TATu
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TQ1_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TY0_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TY2_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_TY3_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_Tu
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS0013computeLogitsA5Count10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFAKyYaKXEfU_Tv_r
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC4nameSSvpWvd
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner4nameAcA0fgI0_p_SStcfC
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner4nameAcA0fgI0_p_SStcfCTf4enn_n
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner4nameAcA0fgI0_p_SStcfcfA0_
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache4nameAcA0fgI0_p_AA10KVLRUCacheCSStcfCTq
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache4nameAcA0fgI0_p_AA10KVLRUCacheCSStcfcTf4ennn_n
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache4nameAcA0fgI0_p_AA10KVLRUCacheCSStcfcTf4ennn_nSo0dI4ObjCC_Tg5
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache4nameAcA0fgI0_p_AA10KVLRUCacheCSStcfcTf4ennn_nSo0dI4ObjCC_Tg5Tv_r
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache4nameAcA0fgI0_p_AA10KVLRUCacheCSStcfcTf4ennn_nTv_r
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5RunnerAA0fgI0_pvpWvd
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateV2eeoiySbAE_AEtFZTf4nnd_n
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVAESQAAWL
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVAESQAAWl
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAAMc
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAAMcMK
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASL1goiySbx_xtFZTW
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASL1loiySbx_xtFZTW
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASL2geoiySbx_xtFZTW
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASL2leoiySbx_xtFZTW
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASQWb
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSQAAMc
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSQAAMcMK
++ _$s24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference26E5TransformerLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTQ0_
++ _$s24TokenGenerationInference26GrammarGuidedLanguageModelC17leftContextTokens20previousAndIncludingSaySiGSi_tF
++ _$s24TokenGenerationInference26TwoStageSpeculativeDecoderC15makeDraftTokens33_997C69FF02F080FB13F8B8AFFD1FC4ECLL6logits9draftNode06targetV0SayAC0A9WithNodesAELLVGAA15LogitCollection_p_S2itF
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorMp
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorP11queryLengthSivgTq
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorP13contextLengthSivgTq
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorP14computesLogitsSbvgTq
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorPAAE7compare33_A0DB0E9E2F2F948015DE50E98AADB3DALL3lhs3rhsAA10ComparisonAELLOx_xtFZAA011AFMV5DecodeE6EngineV_Tt1g5
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorPAAE7compare33_A0DB0E9E2F2F948015DE50E98AADB3DALL3lhs3rhsAA10ComparisonAELLOx_xtFZAA011AFMV7DecodeE6EngineV_Tt1g5
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorPAAE7compare33_A0DB0E9E2F2F948015DE50E98AADB3DALL3lhs3rhsAA10ComparisonAELLOx_xtFZAA0dE0V_Tt1g5
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorPSLTb
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptorTL
++ _$s24TokenGenerationInference27AFMDecodeFunctionDescriptor_pMF
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC05imageA11IDGenerator31useHighQualityImageTokenization0hG0AcA0maI0C_SbAA0mG0CSgtcfCTf4nnnd_n
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC05imageA11IDGenerator31useHighQualityImageTokenization0hG0AcA0maI0C_SbAA0mG0CSgtcfCTq
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AAMc
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AAMcMK
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagekF0V_AD0N25TokenizationConfigurationVSgtYaKFTW
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagekF0V_AD0N25TokenizationConfigurationVSgtYaKFTWTQ1_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagekF0V_AD0N25TokenizationConfigurationVSgtYaKFTWTY0_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagekF0V_AD0N25TokenizationConfigurationVSgtYaKFTWTY2_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagekF0V_AD0N25TokenizationConfigurationVSgtYaKFTWTu
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedkF0V_AD0K25TokenizationConfigurationVSgtYaKFTW
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedkF0V_AD0K25TokenizationConfigurationVSgtYaKFTWTQ1_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedkF0V_AD0K25TokenizationConfigurationVSgtYaKFTWTY0_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedkF0V_AD0K25TokenizationConfigurationVSgtYaKFTWTY2_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedkF0V_AD0K25TokenizationConfigurationVSgtYaKFTWTu
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_AD0M25TokenizationConfigurationVSgtYaKFTW
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_AD0M25TokenizationConfigurationVSgtYaKFTWTQ1_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_AD0M25TokenizationConfigurationVSgtYaKFTWTY0_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_AD0M25TokenizationConfigurationVSgtYaKFTWTY2_
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_AD0M25TokenizationConfigurationVSgtYaKFTWTu
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC0aB4Core0fG0AadEP8tokenize09embeddingF013configurationSaySiG0aB06PromptV014ImageEmbeddingF0V_AD0M25TokenizationConfigurationVSgtKFTW
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC13encodedImagesAA17EncodedImageArrayCvpWvd
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC8tokenize012imageSurfaceF013configurationSaySiG0aB06PromptV05ImagejF0V_0aB4Core0M25TokenizationConfigurationVSgtYaKFTq
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC8tokenize017preprocessedImageF013configurationSaySiG0aB06PromptV012PreprocessedjF0V_0aB4Core0J25TokenizationConfigurationVSgtYaKFTq
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC8tokenize05imageF013configurationSaySiG0aB06PromptV05ImageF0V_0aB4Core0L25TokenizationConfigurationVSgtYaKFTq
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerC8tokenize09embeddingF013configurationSaySiG0aB06PromptV014ImageEmbeddingF0V_0aB4Core0L25TokenizationConfigurationVSgtKFTq
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCAC0aB4Core0fG0AAWL
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCMF
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCMa
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCMf
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCMm
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCMn
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCN
++ _$s24TokenGenerationInference27OnDeviceAttachmentTokenizerCfD
++ _$s24TokenGenerationInference27PrefixMatchingTextProcessorP6decode015possiblyUnknownA3IDsSSSaySiG_tKFTj
++ _$s24TokenGenerationInference27PrefixMatchingTextProcessorP6decode015possiblyUnknownA3IDsSSSaySiG_tKFTq
++ _$s24TokenGenerationInference27PrefixMatchingTextProcessorPAAE08validateA3IDs33_BBAFBDDDCF5B14E74762D9A19D1432D0LL3for11constraints05tokenI0SaySiGSS_0aB011ConstraintsOSgSaySi0S2ID_SS9remainingtGSSXEtKFTf4nnnd_n
++ _$s24TokenGenerationInference27PrefixMatchingTextProcessor_pWOcTm
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsO0fG00fG3KeyAAMc
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsO0fG00fG3KeyAAMcMK
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsO0fG00fG3KeyAadEP6domains12StaticStringVvgTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsO0fG00fG3KeyAadEP7features12StaticStringVvgTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOAC0fG00fG3KeyAAWL
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOAC0fG00fG3KeyAAWl
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOACSQAAWL
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOACSQAAWl
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOMF
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOMa
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOMf
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOMn
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsON
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAAMc
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAAMcMK
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAASQWb
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSQAAMc
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSQAAMcMK
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOWV
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOwet
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOwst
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOwug
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOwui
++ _$s24TokenGenerationInference28FoundationModelsFeatureFlagsOwup
++ _$s24TokenGenerationInference28LocalizationMetadataProtocolPAAE15mapToDictionarySDySSSDySSAA0e7SpecialA0OGGyF12ModelCatalog013LLMModelAssetE0V06DeviceD0V_Tg5Tm
++ _$s24TokenGenerationInference28ThreeStageSpeculativeDecoderC08makeTinyA4Beam33_8DEBEB1758FC01C1E29D5B2B4E73D192LL10tinyLogits0T4Node05draftV006targetV0SayAC0A9WithNodesAELLVGAA15LogitCollection_p_S3itF
++ _$s24TokenGenerationInference28ThreeStageSpeculativeDecoderC09makeDraftA4Beam33_8DEBEB1758FC01C1E29D5B2B4E73D192LL11draftLogits0T4Node06targetV0SayAC0A9WithNodesAELLVGAA15LogitCollection_p_S2itF
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSetAA0e5IndexH0OvM
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSetAA0e5IndexH0OvM.resume.0
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSetAA0e5IndexH0Ovg
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSetAA0e5IndexH0OvpMV
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSetAA0e5IndexH0Ovs
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP10makeMaskedyAaD_pAA0E8IndexSetOFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP10testForNaNSbyFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP12applySoftmax11temperatureSays7Float16VGAI_tFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP8indexSetAA0e5IndexH0OvgTW
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVMl
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVMr
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVWOcTm
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVWOh
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVWV
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVwet
++ _$s24TokenGenerationInference28UnconstrainedLogitCollectionVwst
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.102
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.104
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.106
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.109
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.112
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.119
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.123
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.83
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.96
++ _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.98
++ _$s24TokenGenerationInference29TGILanguageModelComputeLogitsyys13OpaquePointerV_SPys5Int32VGSiyAD_SPySfGSgSitXCADtFyyYaKcfU_ySiXEfU_
++ _$s24TokenGenerationInference29TGILanguageModelComputeLogitsyys13OpaquePointerV_SPys5Int32VGSiyAD_SPySfGSgSitXCADtFyyYaKcfU_ySiXEfU_TA
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOACSQAAWL
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOACSQAAWl
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOMF
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOMa
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOMf
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOMn
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionON
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAAMc
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAAMcMK
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAASH9hashValueSivgTW
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAASQWb
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSQAAMc
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSQAAMcMK
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOWV
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOs23CustomStringConvertibleAAMc
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOs23CustomStringConvertibleAAMcMK
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOs23CustomStringConvertibleAAsADP11descriptionSSvgTW
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOwet
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOwst
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOwug
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOwui
++ _$s24TokenGenerationInference31AFMDecodeIOSpecificationVersionOwup
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC06targetF9NodeCountSivg
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC06targetF9NodeCountSivpMV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC06targetF9NodeCountSivpWvd
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVMF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVMXX
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVMa
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVMf
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVMn
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVN
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVWV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVwet
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVwst
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKFTQ1_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKFTY0_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKFTY2_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKFTY3_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV11draftLogits0Q5NodesAA0I10Collection_pSgSaySiG_tYaKFTu
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMXX
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMa
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMf
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMl
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMn
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVMr
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVWOhTm
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVWV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVwet
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLVwst
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15topKBNNSContext33_47A47F8E672523A25CA47E1261474032LL10Accelerate9BNNSGraphO7ContextCvg
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15topKBNNSContext33_47A47F8E672523A25CA47E1261474032LL10Accelerate9BNNSGraphO7ContextCvgAJyXEfU_SayAH16TensorDescriptor_pGAH7BuilderVzXEfU_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15topKBNNSContext33_47A47F8E672523A25CA47E1261474032LL10Accelerate9BNNSGraphO7ContextCvgAJyXEfU_SayAH16TensorDescriptor_pGAH7BuilderVzXEfU_TA
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15topKBNNSContext33_47A47F8E672523A25CA47E1261474032LL10Accelerate9BNNSGraphO7ContextCvgAJyXEfU_SayAH16TensorDescriptor_pGAH7BuilderVzXEfU_Tv_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC19draftModelBatchSizeSivg
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC19draftModelBatchSizeSivpMV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC19draftModelBatchSizeSivpWvd
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC20tokenBranchesPerNodeSivg
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC20tokenBranchesPerNodeSivpMV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC20tokenBranchesPerNodeSivpWvd
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tFTv0_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tFTv1_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tFTv2_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tFTv3_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC23computeMostLikelyTokens33_47A47F8E672523A25CA47E1261474032LL15logitCollectionSays5Int32VG6tokens_Says7Float16VG11likelihoodstAA05LogitS0_p_tFTv_r
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFTQ1_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFTY0_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFTY2_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFTY3_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFTu
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC33$__lazy_storage_$_topKBNNSContext33_47A47F8E672523A25CA47E1261474032LL10Accelerate9BNNSGraphO7ContextCSgvpWvd
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountACSi_tcfC
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountACSi_tcfCTj
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountACSi_tcfCTq
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountACSi_tcfc
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountSivg
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountSivpMV
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC9stepCountSivpWvd
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0A2aDP24speculateNextTargetNodes08languageI005firstL4NodeShySiGAA05DraftlhI0_p_SitYaKFTW
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0A2aDP24speculateNextTargetNodes08languageI005firstL4NodeShySiGAA05DraftlhI0_p_SitYaKFTWTQ0_
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0A2aDP24speculateNextTargetNodes08languageI005firstL4NodeShySiGAA05DraftlhI0_p_SitYaKFTWTu
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0A2aDP9stepCountSivgTW
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0AAMc
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCAA013LanguageModelG0AAWP
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMF
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMa
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMf
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMm
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMn
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMo
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCMu
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCN
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCfD
++ _$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorCfd
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionV4nodeAESDyS2i4next_Sf5logittG_tcfC
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP10makeMaskedyAaF_pAA0I8IndexSetOFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP10testForNaNSbyFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP12applySoftmax11temperatureSays7Float16VGAK_tFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP12applySoftmaxSays7Float16VGyFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP4topKySays5Int32VGSiFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP4topPySays5Int32VGSfFTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP8indexSetAA0i5IndexL0OvgTW
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVMl
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVMr
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV4node15forPreviousNode5token8isPromptS2i_SiSbtF
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV5nodes9vocabSize18ignorePromptTokensACSaySDyS2i4next_Sf5logittGG_SiSgSbtcfCTf4nnnd_n
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV6tokens9vocabSize18ignorePromptTokensACSaySiG_SiSgSbtcfCTf4nnnd_n
++ _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelVAA022UnbatchedDeterministicgH8ProtocolA2aDP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0S10Presampler_pSgSbtYaKFTWTY0_
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocolMp
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocolP07processF10Attachment012imageSurfaceJ0014useHighQualityF12TokenizationSayAA09ProcessedF0VG0aB06PromptV0flJ0V_SbtKFTq
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocolP07processF10Attachment05imageJ0014useHighQualityF12TokenizationSayAA09ProcessedF0VG0aB06PromptV0fJ0V_SbtKFTq
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocolTL
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocol_pMF
++ _$s24TokenGenerationInference33OnDeviceImagePreprocessorProtocol_pWOcTm
++ _$s24TokenGenerationInference33SpeculativeStreamingLanguageModelC11streamNodes33_40F5D7247ABAA1BD33C6DEBF7881B0EBLL7forNodeSaySiGSi_tF
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE27nextTokensLogitsAreComputed5nodesSbSaySiG_tF
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE27nextTokensLogitsAreComputed5nodesSbSaySiG_tFSbSicxcfu_
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE27nextTokensLogitsAreComputed5nodesSbSaySiG_tFSbSicxcfu_SbSicfu0_TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFAA015TGICAPILanguageF0C_TB5Tm
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA013E5TransformereF0C_TG5TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA013E5TransformereF0C_TG5TA.1
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA013E5TransformereF0C_TG5TATm
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA015TGICAPILanguageF0C_TG5TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA015TGICAPILanguageF0C_TG5TATm
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA019WeightedFiniteStateeF0V_TG5TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA019WeightedFiniteStateeF0V_Tg5Tf4nnxn_n
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA020SpeculativeStreamingeF0C_TG5TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_AA09CompositeeF0C_TG5TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6tokens8isPromptS2i_SaySiGSbtFS2i_SitXEfU_TA
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocol_pSgWOc
++ _$s24TokenGenerationInference34DeterministicLanguageModelProtocol_pSgWOhTm
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV05inputG9Dimension011highQualityg12TokenizationK0ACSi_SitcfC
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV05inputG9Dimension011highQualityg12TokenizationK0ACSi_SitcfcfA0_
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV05inputG9Dimension011highQualityg12TokenizationK0ACSi_SitcfcfA_
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV2eeoiySbAC_ACtFZ
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV2eeoiySbAC_ACtFZTf4nnd_n
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVMF
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVMa
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVMf
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVMn
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVN
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVSQAAMc
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVSQAAMcMK
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVSQAASQ2eeoiySbx_xtFZTW
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVWV
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVwet
++ _$s24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationVwst
++ _$s24TokenGenerationInference3LogV12tokenization2os6LoggerVvpZ
++ _$s24TokenGenerationInference3LogV12tokenization_WZ
++ _$s24TokenGenerationInference3LogV12tokenization_Wz
++ _$s24TokenGenerationInference42TokenizerRunnerPrefixMatchingTextProcessorC6decode015possiblyUnknownA3IDsSSSaySiG_tKF
++ _$s24TokenGenerationInference42TokenizerRunnerPrefixMatchingTextProcessorCAA0fghI0A2aDP6decode015possiblyUnknownA3IDsSSSaySiG_tKFTW
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5TQ1_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5TY0_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5TY2_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5TY3_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5Tu
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5TQ1_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5TY0_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5TY2_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5TY3_
++ _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA08ToolCallfG0C_Tg5Tu
++ _$s24TokenGenerationInference45SpeculativeStreamingPerformanceLoggingDecoderC13languageModel8behavior7samplerAcA021DeterministicLanguageJ8Protocol_p_AA16DraftingBehaviorVAA0A8Sampling_ptcfCTf4ennn_n
++ _$s24TokenGenerationInference45SpeculativeStreamingPerformanceLoggingDecoderC13languageModel8behavior7samplerAcA021DeterministicLanguageJ8Protocol_p_AA16DraftingBehaviorVAA0A8Sampling_ptcfCTm
++ _$s24TokenGenerationInference45SpeculativeStreamingPerformanceLoggingDecoderC13languageModel8behavior7samplerAcA021DeterministicLanguageJ8Protocol_p_AA16DraftingBehaviorVAA0A8Sampling_ptcfcfA1_Tm
++ _$s24TokenGenerationInference9BaseModelMp
++ _$s24TokenGenerationInference9BaseModelP15assetIdentifierSSvgTj
++ _$s24TokenGenerationInference9BaseModelP15assetIdentifierSSvgTq
++ _$s24TokenGenerationInference9BaseModelP4loadyyKFTj
++ _$s24TokenGenerationInference9BaseModelP4loadyyKFTq
++ _$s24TokenGenerationInference9BaseModelPAA18StatefullyLoadableTb
++ _$s24TokenGenerationInference9BaseModelTL
++ _$s24TokenGenerationInference9BaseModel_pMD
++ _$s24TokenGenerationInference9BaseModel_pMF
++ _$s24TokenGenerationInference9BaseModel_pML
++ _$s24TokenGenerationInference9BaseModel_pSgMD
++ _$s24TokenGenerationInference9BaseModel_pSgWOc
++ _$s24TokenGenerationInference9BaseModel_pWOb
++ _$s24TokenGenerationInference9BaseModel_pWOc
++ _$s24TokenGenerationInference9ODIEUtilsV10isFunction_9adaptedBySb4ODIE0F10DescriptorV_ShySSGtFZTf4nnd_n
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZ
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZTQ1_
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZTY0_
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZTY2_
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZTY3_
++ _$s24TokenGenerationInference9ODIEUtilsV20loadOrCompileProgram10contentsOf8delegate04nameJ15CompiledPackage4ODIE0H10DescriptorV10Foundation3URLV_S2StYaKFZTu
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_n
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_nTQ1_
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_nTY0_
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_nTY2_
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_nTY3_
++ _$s24TokenGenerationInference9ODIEUtilsV21loadStreamingDelegate4from28MetalPerformanceShadersGraph08MPSGraphG0CSg4ODIE17ProgramDescriptorV_tYaKFZTf4nd_nTu
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateC15registerKernels3for4with4intoy4ODIE0F17FunctionArgumentsV_SayAH17ProgramDescriptorVGAH14KernelRegistryVztKF
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateC4ODIE0F0AAMc
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateC4nameSSvgZ
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCAC4ODIE0F0AAWL
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCAC4ODIE0F0AAWl
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCMa
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCMn
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCyAC4ODIE0F16ProgramArgumentsVYaKcfc
++ _$s28MetalPerformanceShadersGraph16MPSGraphDelegateCyAC4ODIE0F16ProgramArgumentsVYaKcfcTu
++ _$s28MetalPerformanceShadersGraph17MPSGraphSegmenterV4ODIE8CompilerC0F0AAMc
++ _$s28MetalPerformanceShadersGraph17MPSGraphSegmenterVAC4ODIE8CompilerC0F0AAWL
++ _$s28MetalPerformanceShadersGraph17MPSGraphSegmenterVACycfC
++ _$s28MetalPerformanceShadersGraph17MPSGraphSegmenterVMa
++ _$s28MetalPerformanceShadersGraph24MPSGraphDelegateCompilerV4ODIE0G0C0fG0AAMc
++ _$s28MetalPerformanceShadersGraph24MPSGraphDelegateCompilerVAC4ODIE0G0C0fG0AAWL
++ _$s28MetalPerformanceShadersGraph24MPSGraphDelegateCompilerVACycfC
++ _$s28MetalPerformanceShadersGraph24MPSGraphDelegateCompilerVMa
++ _$s29GenerativeFunctionsFoundation4ToolV8FunctionV4name11description10parametersAESS_SSAA16GenerationSchemaOtcfC
++ _$s29GenerativeFunctionsFoundation4ToolV8FunctionVMa
++ _$s29GenerativeFunctionsFoundation4ToolV8FunctionVMn
++ _$s29GenerativeFunctionsFoundation8ToolTypeV0E0O8functionyAeC8FunctionVcAEmFWC
++ _$s29GenerativeFunctionsFoundation8ToolTypeV0E0OMa
++ _$s29GenerativeFunctionsFoundation8ToolTypeV0E0OMn
++ _$s29GenerativeFunctionsFoundation8ToolTypeV4typeAC0E0Ovg
++ _$s29GenerativeFunctionsFoundation8ToolTypeV8FunctionV10parametersAA16GenerationSchemaOvg
++ _$s29GenerativeFunctionsFoundation8ToolTypeV8FunctionV11descriptionSSvg
++ _$s29GenerativeFunctionsFoundation8ToolTypeV8FunctionV4nameSSvg
++ _$s29GenerativeFunctionsFoundation8ToolTypeV8FunctionVMa
++ _$s29GenerativeFunctionsFoundation8ToolTypeVMa
++ _$s2os12OSSignpostIDV8rawValues6UInt64Vvg
++ _$s2os12OSSignpostIDV9exclusiveACvgZ
++ _$s2os12OSSignpostIDVMa
++ _$s2os12OSSignposterV6loggerAcA6LoggerV_tcfC
++ _$s2os12OSSignposterV9logHandleSo03OS_a1_C0Cvg
++ _$s2os12OSSignposterVMa
++ _$s2os12OSSignposterVMn
++ _$s2os15OSSignpostErrorO9doubleEndyA2CmFWC
++ _$s2os15OSSignpostErrorOMa
++ _$s2os18OSLogInterpolationV06appendC0_6format5align7privacy10attributesyxyXA_AA0B17IntegerFormattingVAA0B15StringAlignmentVAA0B7PrivacyVSSts010FixedWidthI0RzlFfA0_
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.103
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.105
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.107
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.110
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.113
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.120
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.124
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.84
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.97
++ _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.99
++ _$s2os22OSLogIntegerFormattingV7decimalACvgZ
++ _$s2os23OSSignpostIntervalStateC10signpostIDAA0bF0Vvg
++ _$s2os23OSSignpostIntervalStateC2id6isOpenAcA0B2IDV_Sbtcfc
++ _$s2os23OSSignpostIntervalStateCMa
++ _$s2os28checkForErrorAndConsumeState5stateAA010OSSignpostD0OAA0i8IntervalG0C_tF
++ _$s3XPC0A16_TYPE_DICTIONARYs13OpaquePointerVvg
++ _$s3XPC13XPCDictionaryVACycfC
++ _$s3XPC13XPCDictionaryVMa
++ _$s3XPC13XPCDictionaryVMn
++ _$s3XPC13XPCDictionaryVSgMD
++ _$s3XPC13XPCDictionaryVyACSo13OS_xpc_object_pcfC
++ _$s3XPC16XPCCodableObjectV23copyUnderlyingXPCObjectSo13OS_xpc_object_pyF
++ _$s3XPC16XPCCodableObjectVMa
++ _$s3XPC16XPCCodableObjectVMn
++ _$s3XPC16XPCCodableObjectVSgMD
++ _$s4ODIE10ScalarTypeO2eeoiySbAC_ACtFZ
++ _$s4ODIE10ScalarTypeO7float16yA2CmFWC
++ _$s4ODIE10ScalarTypeO9byteCountSivg
++ _$s4ODIE10ScalarTypeOMa
++ _$s4ODIE11OperandTypeO7ndArrayyAcA0E10DescriptorVcACmFWC
++ _$s4ODIE11OperandTypeOMa
++ _$s4ODIE11OperandTypeOMn
++ _$s4ODIE11OperandTypeOSgMD
++ _$s4ODIE13EmptyProfilerVAA0C0AAWP
++ _$s4ODIE13EmptyProfilerVACycfC
++ _$s4ODIE13EmptyProfilerVMa
++ _$s4ODIE14KernelRegistryVACycfC
++ _$s4ODIE14KernelRegistryVMa
++ _$s4ODIE15ArrayDescriptorV10alignmentsSaySiGvg
++ _$s4ODIE15ArrayDescriptorV10interleaveSayAA9DimensionOGvg
++ _$s4ODIE15ArrayDescriptorV10scalarTypeAA06ScalarE0Ovg
++ _$s4ODIE15ArrayDescriptorV4rankSivg
++ _$s4ODIE15ArrayDescriptorV5shapeSayAA9DimensionOGvg
++ _$s4ODIE15ArrayDescriptorV7stridesSaySiGSgvg
++ _$s4ODIE15ArrayDescriptorV9byteCountSiSgvg
++ _$s4ODIE15ArrayDescriptorVMa
++ _$s4ODIE15ArrayDescriptorVMn
++ _$s4ODIE15ArrayDescriptorVSgMD
++ _$s4ODIE15ArrayDescriptorVSgWOb
++ _$s4ODIE15ArrayDescriptorVSgWOc
++ _$s4ODIE15ArrayDescriptorVSgWOcTm
++ _$s4ODIE15ArrayDescriptorVSgWOhTm
++ _$s4ODIE16SymbolDescriptorV13outputIntentsSayAA6IntentOGvg
++ _$s4ODIE16SymbolDescriptorV15namedAttributesSDySSAA9AttributeOGvg
++ _$s4ODIE16SymbolDescriptorVMa
++ _$s4ODIE17ProgramDescriptorV08functionC03forAA08FunctionC0VSgSS_tF
++ _$s4ODIE17ProgramDescriptorV10contentsOfAC10Foundation3URLV_tKcfC
++ _$s4ODIE17ProgramDescriptorV13functionNamesSaySSGvg
++ _$s4ODIE17ProgramDescriptorV17delegateArguments3forAA08DelegatebE0VSgSS_tF
++ _$s4ODIE17ProgramDescriptorV8function5named14kernelRegistry12dependencies8profilerAA8FunctionCSgSS_AA06KernelG0VSayACGAA8Profiler_ptKF
++ _$s4ODIE17ProgramDescriptorVMa
++ _$s4ODIE17ProgramDescriptorVMn
++ _$s4ODIE17ProgramDescriptorVSgMD
++ _$s4ODIE17ProgramDescriptorVSgWOc
++ _$s4ODIE17ProgramDescriptorVSgWOh
++ _$s4ODIE18FunctionDescriptorV10inputNamesSaySSGvg
++ _$s4ODIE18FunctionDescriptorV11operandType7ofInputAA07OperandE0OSgSS_tF
++ _$s4ODIE18FunctionDescriptorV11operandType8ofOutputAA07OperandE0OSgSS_tF
++ _$s4ODIE18FunctionDescriptorV11outputNamesSaySSGvg
++ _$s4ODIE18FunctionDescriptorV17delegateArguments3forAA08DelegatebE0VSgSS_tF
++ _$s4ODIE18FunctionDescriptorV24TokenGenerationInference05ArrayC8ProviderADMc
++ _$s4ODIE18FunctionDescriptorV24TokenGenerationInference05ArrayC8ProviderADWP
++ _$s4ODIE18FunctionDescriptorV24TokenGenerationInferenceE05arrayC02ofAA05ArrayC0VSS_tF
++ _$s4ODIE18FunctionDescriptorV24TokenGenerationInferenceE09findArrayC02ofAA0hC0VSgSS_tF
++ _$s4ODIE18FunctionDescriptorV6symbolAA06SymbolC0Vvg
++ _$s4ODIE18FunctionDescriptorVMa
++ _$s4ODIE18FunctionDescriptorVMn
++ _$s4ODIE18FunctionDescriptorVSgMD
++ _$s4ODIE21UnsafeRawArrayPointerV8contentsSWvg
++ _$s4ODIE24DelegateProgramArgumentsVMa
++ _$s4ODIE24DelegateProgramArgumentsVMn
++ _$s4ODIE24DelegateProgramArgumentsVSgMD
++ _$s4ODIE24DelegateProgramArgumentsVSgWOh
++ _$s4ODIE25DelegateFunctionArgumentsV6groupsSayAC13IsolatedGroupVGvg
++ _$s4ODIE25DelegateFunctionArgumentsVMa
++ _$s4ODIE25DelegateFunctionArgumentsVMn
++ _$s4ODIE25DelegateFunctionArgumentsVSgMD
++ _$s4ODIE25DelegateFunctionArgumentsVSgWOcTm
++ _$s4ODIE25UnsafeMutableArrayPointerV8contentsSryxGvg
++ _$s4ODIE25UnsafeMutableArrayPointerVMn
++ _$s4ODIE25UnsafeMutableArrayPointerVys5Int32VGMD
++ _$s4ODIE25UnsafeMutableArrayPointerVys6UInt16VGMD
++ _$s4ODIE25UnsafeMutableArrayPointerVys7Float16VGMD
++ _$s4ODIE28UnsafeMutableRawArrayPointerV8contentsSwvg
++ _$s4ODIE6IntentO2eeoiySbAC_ACtFZ
++ _$s4ODIE6IntentO6returnyA2CmFWC
++ _$s4ODIE6IntentOMa
++ _$s4ODIE7NDArrayC10descriptor6bufferAcA15ArrayDescriptorV_AC6BufferVtcfc
++ _$s4ODIE7NDArrayC10descriptorAcA15ArrayDescriptorV_tKcfc
++ _$s4ODIE7NDArrayC10scalarTypeAA06ScalarD0Ovg
++ _$s4ODIE7NDArrayC25withUnsafeRawArrayPointeryxxAA0defG0Vq_YKXEq_YKs5ErrorR_r0_lF
++ _$s4ODIE7NDArrayC29withUnsafeMutableArrayPointer2of_q_xm_q_AA0defG0VyxGq0_YKXEtq0_YKs5ErrorR0_r1_lF
++ _$s4ODIE7NDArrayC32withUnsafeMutableRawArrayPointeryxxAA0defgH0Vq_YKXEq_YKs5ErrorR_r0_lF
++ _$s4ODIE7NDArrayC5BytesC6bufferSwvg
++ _$s4ODIE7NDArrayC5shapeSaySiGvg
++ _$s4ODIE7NDArrayC6BufferV10AllocationO05metalC0yAGSo9MTLBuffer_pcAGmFWC
++ _$s4ODIE7NDArrayC6BufferV10AllocationO5bytesyAgC5BytesCcAGmFWC
++ _$s4ODIE7NDArrayC6BufferV10AllocationO9iosurfaceyAGSo12IOSurfaceRefacAGmFWC
++ _$s4ODIE7NDArrayC6BufferV10AllocationOMa
++ _$s4ODIE7NDArrayC6BufferV10allocationAE10AllocationOvg
++ _$s4ODIE7NDArrayC6BufferVMa
++ _$s4ODIE7NDArrayC6BufferVMn
++ _$s4ODIE7NDArrayC6BufferVSgMD
++ _$s4ODIE7NDArrayC6bufferAC6BufferVvg
++ _$s4ODIE7NDArrayC7stridesSaySiGvg
++ _$s4ODIE7NDArrayC9byteCountSivg
++ _$s4ODIE7NDArrayCMa
++ _$s4ODIE7NDArrayCMn
++ _$s4ODIE7NDArrayC_4typexSaySiG_xmtcluis
++ _$s4ODIE7OperandO7ndArrayyAcA7NDArrayCcACmFWC
++ _$s4ODIE7OperandOMa
++ _$s4ODIE7OperandOMn
++ _$s4ODIE8CompilerC08DelegateB0Mp
++ _$s4ODIE8CompilerC6ModuleO4textyAESScAEmFWC
++ _$s4ODIE8CompilerC6ModuleO8bytecodeyAE10Foundation4DataVcAEmFWC
++ _$s4ODIE8CompilerC6ModuleOMa
++ _$s4ODIE8CompilerC7OptionsV10segmentersSayAC9Segmenter_pGvs
++ _$s4ODIE8CompilerC7OptionsV17delegateCompilersSayAC08DelegateB0_pGvs
++ _$s4ODIE8CompilerC7OptionsVAEycfC
++ _$s4ODIE8CompilerC7OptionsVMa
++ _$s4ODIE8CompilerC7compile6module2to5usingyAC6ModuleO_10Foundation3URLVAC7OptionsVtYaKFZ
++ _$s4ODIE8CompilerC7compile6module2to5usingyAC6ModuleO_10Foundation3URLVAC7OptionsVtYaKFZTu
++ _$s4ODIE8CompilerC9SegmenterMp
++ _$s4ODIE8CompilerCMa
++ _$s4ODIE8DelegateP15registerKernels3for4with4intoyAA0B17FunctionArgumentsV_SayAA17ProgramDescriptorVGAA14KernelRegistryVztKFTj
++ _$s4ODIE8FunctionC06callAsB06inputs7outputsySDySSAA7OperandOG_AIztKF
++ _$s4ODIE8FunctionC06callAsB06inputsSDySSAA7OperandOGAH_tKF
++ _$s4ODIE8FunctionC10descriptorAA0B10DescriptorVvg
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputs7outputsySDySSAA7NDArrayCG_AJtYaKF
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputs7outputsySDySSAA7NDArrayCG_AJtYaKFTY0_
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputs7outputsySDySSAA7NDArrayCG_AJtYaKFTu
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputsSDySSAA7NDArrayCGAI_tYaKF
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputsSDySSAA7NDArrayCGAI_tYaKFTY0_
++ _$s4ODIE8FunctionC24TokenGenerationInferenceE4_run6inputsSDySSAA7NDArrayCGAI_tYaKFTu
++ _$s4ODIE8FunctionCMn
++ _$s4ODIE9AttributeO24TokenGenerationInferenceE11stringValueSSvg
++ _$s4ODIE9AttributeO6stringyACSScACmFWC
++ _$s4ODIE9AttributeO9compositeyACSayACGcACmFWC
++ _$s4ODIE9AttributeOMa
++ _$s4ODIE9DimensionO5knownyACSicACmFWC
++ _$s4ODIE9DimensionOMa
++ _$s5IndexSlTl
++ _$s6System14FileDescriptorV10closeAfteryxxyKXEKlF
++ _$s6System14FileDescriptorV5_open__7options11permissions16retryOnInterrupts6ResultOyAcA5ErrnoVGSPys4Int8VG_AC10AccessModeVAC11OpenOptionsVAA0B11PermissionsVSgSbtFZ
++ _$s6System14FileDescriptorV5_read4into16retryOnInterrupts6ResultOySiAA5ErrnoVGSw_SbtKF
++ _$s6System14FileDescriptorV5_seek6offset4froms6ResultOys5Int64VAA5ErrnoVGAJ_AC10SeekOriginVtF
++ _$s6System14FileDescriptorV6_write_16retryOnInterrupts6ResultOySiAA5ErrnoVGSW_SbtF
++ _$s6System5ErrnoVACs5ErrorAAWL
++ _$s6System5ErrnoVACs5ErrorAAWl
++ _$s6System5ErrnoVN
++ _$s6System5ErrnoVs5ErrorAAMc
++ _$s7IndicesSlTl
++ _$s9CryptoKit12HashFunctionP6update13bufferPointerySW_tFTj
++ _$s9CryptoKit12HashFunctionP8finalize6DigestQzyFTj
++ _$s9CryptoKit12HashFunctionPxycfCTj
++ _$s9CryptoKit12SHA256DigestVACSTAAWL
++ _$s9CryptoKit12SHA256DigestVMa
++ _$s9CryptoKit12SHA256DigestVSTAAMc
++ _$s9CryptoKit6SHA256VAA12HashFunctionAAMc
++ _$s9CryptoKit6SHA256VAcA12HashFunctionAAWL
++ _$s9CryptoKit6SHA256VMa
++ _$sS2iSZsWL
++ _$sS2iSZsWl
++ _$sS2is17FixedWidthIntegersWL
++ _$sS2is17FixedWidthIntegersWl
++ _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
++ _$sSD10FoundationE26_forceBridgeFromObjectiveC_6resultySo12NSDictionaryC_SDyxq_GSgztFZ
++ _$sSD15reserveCapacityyySiF
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15TokenGeneration6PromptV07SpecialC0V_SDyS2SGTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15TokenGeneration6PromptV07SpecialC0V_ypTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_24TokenGenerationInference015MetadataSpecialC0OTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_24TokenGenerationInference10E5FunctionVTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_4ODIE7NDArrayCTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SDySS24TokenGenerationInference015MetadataSpecialC0OGTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0gq5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_Si10logitCount_Sbs13OpaquePointerV_SPySiGSgSiSpySfGSitXC8callbackAE9cbContexttTt0g5Tf4g_n
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_ypTt0g5Tf4g_n
++ _$sSD20uniqueKeysWithValuesSDyxq_Gqd__n_tcSTRd__x_q_t7ElementRtd__lufCSi_24TokenGenerationInference15LogitCollection_ps12Zip2SequenceVySaySiGSayAeF_pGGTt0g5Tf4g_n
++ _$sSD4KeysVyS2i4next_Sf5logitt_GAByxq__GSTsWL
++ _$sSD4KeysVyS2i4next_Sf5logitt_GAByxq__GSTsWl
++ _$sSD4KeysVyS2i4next_Sf5logitt_GMD
++ _$sSD4KeysVyS2i_GAByxq__GSTsWL
++ _$sSD4KeysVyS2i_GMD
++ _$sSD4KeysVySS24TokenGenerationInference08OnDeviceD11AssetObject_p_GAByxq__GSTsWL
++ _$sSD4KeysVySS24TokenGenerationInference08OnDeviceD11AssetObject_p_GMD
++ _$sSD4KeysVyxSD5IndexVyxq__GcigSi_Si4next_Sf5logittTg5
++ _$sSD4KeysVyxSD5IndexVyxq__GcigSi_SiTg5
++ _$sSD4KeysVyxSD5IndexVyxq__GcigSi_SiTg5Tm
++ _$sSD4KeysVyxq__GSTsMc
++ _$sSD5IndexV8_VariantOyS2S__GWOe
++ _$sSD8IteratorV8_VariantOySS4ODIE7NDArrayC6BufferV__GWOe
++ _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_4ODIE7NDArrayC6BufferVTg5
++ _$sSDMa
++ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSi_SiTt1g5
++ _$sSDyS2SGSDyxq_GSesSeRzSeR_rlWlTm
++ _$sSDyS2SGSgMaTm
++ _$sSDyS2i4next_Sf5logittGML
++ _$sSDyS2i4next_Sf5logittGMa
++ _$sSDySS24TokenGenerationInference015MetadataSpecialA0OGSDyxq_GSEsSERzSER_rlWL
++ _$sSDySS24TokenGenerationInference015MetadataSpecialA0OGSDyxq_GSEsSERzSER_rlWl
++ _$sSDySS24TokenGenerationInference015MetadataSpecialA0OGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDySS24TokenGenerationInference015MetadataSpecialA0OGSDyxq_GSesSeRzSeR_rlWl
++ _$sSDySS24TokenGenerationInference10E5FunctionVGMD
++ _$sSDySS24TokenGenerationInference10E5FunctionVGSDyxq_GSEsSERzSER_rlWL
++ _$sSDySS24TokenGenerationInference10E5FunctionVGSDyxq_GSEsSERzSER_rlWl
++ _$sSDySS24TokenGenerationInference10E5FunctionVGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDySS24TokenGenerationInference10E5FunctionVGSDyxq_GSesSeRzSeR_rlWl
++ _$sSDySS24TokenGenerationInference10E5FunctionVGSgML
++ _$sSDySS4ODIE7NDArrayC6BufferVGMD
++ _$sSDySSSDySS24TokenGenerationInference015MetadataSpecialA0OGGSDyxq_GSEsSERzSER_rlWL
++ _$sSDySSSDySS24TokenGenerationInference015MetadataSpecialA0OGGSDyxq_GSEsSERzSER_rlWl
++ _$sSDySSSDySS24TokenGenerationInference015MetadataSpecialA0OGGSDyxq_GSesSeRzSeR_rlWL
++ _$sSDySSSDySS24TokenGenerationInference015MetadataSpecialA0OGGSDyxq_GSesSeRzSeR_rlWl
++ _$sSDySi24TokenGenerationInference15LogitCollection_pGMD
++ _$sSDySi24TokenGenerationInference15LogitCollection_pGML
++ _$sSDySi24TokenGenerationInference15LogitCollection_pGMa
++ _$sSDyq_SgxcisSS_4ODIE7NDArrayC6BufferVTg5
++ _$sSDyx3key_q_5valuetSD5IndexVyxq__GcigSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVTg5
++ _$sSDyx3key_q_5valuetSD5IndexVyxq__GcigSi_Si4next_Sf5logittTg5
++ _$sSK11SubSequenceSl_SKTn
++ _$sSK5index6before5IndexQzAD_tFTq
++ _$sSK5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSK5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSK7IndicesSl_SKTn
++ _$sSK8distance4from2toSi5IndexQz_AEtFTq
++ _$sSK9formIndex6beforey0B0Qzz_tFTq
++ _$sSKMp
++ _$sSKSlTb
++ _$sSKsE4last7ElementQzSgvg
++ _$sSL1goiySbx_xtFZTq
++ _$sSL1loiySbx_xtFZTj
++ _$sSL1loiySbx_xtFZTq
++ _$sSL2geoiySbx_xtFZTq
++ _$sSL2leoiySbx_xtFZTq
++ _$sSLMp
++ _$sSLSQTb
++ _$sSMsE20_halfStablePartition15isSuffixElement5IndexQzSb0F0QzKXE_tKFSay24TokenGenerationInference0H6RecordVG_Tg504$s24hi101Inference23ODIELanguageModelRunnerC17compactCacheHoles33_47365F92FB2E7F62355B8FF04AFD91A7LLyyFSbAA0A6K52Vcfu_33_4e2a35fb5541fe00c39cc28a8dc58145AGSbTf3npk_nTf1cn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSry24TokenGenerationInference17AFMDecodeFunctionVG_Tg5012$sSMsSkRzSL7h33STRpzrlE4sortyyFSbAB_ABtcfu_Say24ij11Inference17lM8VG_Tt1g5Tf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg50163$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFSbz14_SitcACcfu3_SbZ9_Sitcfu4_0jK9Inference0mnoP0CTf1nncn_n
++ _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg5139$s24TokenGenerationInference26E5TransformerLanguageModelC14nodesAreLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SbSaySiG_tFSbSi_SitXEfU_0jK9Inference0mnoP0CTf1nncn_nTf4nnng_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg50163$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFSbw14_SitcACcfu3_SbW9_Sitcfu4_0gH9Inference0jklM0CTf1cn_nTf4ng_nTm
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg508$sSTsSL7c33RpzrlE6sortedSayABGyFSbAB_ABtcfu_K9SiG_Tt1G5Tf1cn_n
++ _$sSPys5UInt8VGSgs5Error_pSgIegyg_ADSo7NSErrorCSgIyByy_TR
++ _$sSPys5UInt8VGSgs5Error_pSgIgyg_AdFIegyg_TRTA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tm
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE26makeArgmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_Sf_Tg5TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_Sf_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_s7Float16V_Tg5TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_s7Float16V_Tg5Tm
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZSayAG16TensorDescriptor_pGAG7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeArgsortBNNSGraphContext9ascendingAB0H0O0I0CSb_tFZfA_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE27makeSoftmaxBNNSGraphContextAB0H0O0I0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE32makeConvertToFloat32GraphContextAB9BNNSGraphO0K0CyFZTm
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Sf_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE38makeTemperatureSoftmaxBNNSGraphContextAB0I0O0J0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZ
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_TA
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv0_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_Tv_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv0_r
++ _$sSR24TokenGenerationInference10Accelerate10BNNSScalarRzlE44makeAdjustSoftmaxTemperatureBNNSGraphContextAB0J0O0K0CyFZSayAF16TensorDescriptor_pGAF7BuilderVzXEfU_s7Float16V_Tg5Tv_r
++ _$sSR24TokenGenerationInferenceSfRszlE12applySoftmax11temperatureSays7Float16VGAE_tF
++ _$sSR24TokenGenerationInferenceSfRszlE12applySoftmaxSays7Float16VGyF
++ _$sSR24TokenGenerationInferenceSfRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferenceSfRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferenceSfRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferenceSfRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferenceSfRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferenceSfRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferenceSfRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferenceSfRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferenceSfRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferenceSfRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferenceSfRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferenceSfRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferenceSfRszlE6argmaxSiyF
++ _$sSR24TokenGenerationInferenceSfRszlE7argsortSays5Int32VGyF
++ _$sSR24TokenGenerationInferenceSfRszlE7argtopKySays5Int32VGADF
++ _$sSR24TokenGenerationInferences7Float16VRszlE12applySoftmax11temperatureSayACGAC_tF
++ _$sSR24TokenGenerationInferences7Float16VRszlE12applySoftmaxSayACGyF
++ _$sSR24TokenGenerationInferences7Float16VRszlE15makeFloat32CopySaySfGyF
++ _$sSR24TokenGenerationInferences7Float16VRszlE16topCumulativeSum_8maxCountSays5Int32VG7indices_AC010cumulativeG0tAC_SitF
++ _$sSR24TokenGenerationInferences7Float16VRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE18argmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZTm
++ _$sSR24TokenGenerationInferences7Float16VRszlE19argsortGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE19softmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE24adjustSoftmaxTemperature4from2toSayACGAC_ACtF
++ _$sSR24TokenGenerationInferences7Float16VRszlE28convertToFloat32GraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE28convertToFloat32GraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE28convertToFloat32GraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZTm
++ _$sSR24TokenGenerationInferences7Float16VRszlE28convertToFloat32GraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE30temperatureSoftmaxGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE36adjustSoftmaxTemperatureGraphContext33_7215BA6A07D3315066E5059E17F899B1LLAA17LockedBNNSContextCvpZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE36adjustSoftmaxTemperatureGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_WZ
++ _$sSR24TokenGenerationInferences7Float16VRszlE36adjustSoftmaxTemperatureGraphContext33_7215BA6A07D3315066E5059E17F899B1LL_Wz
++ _$sSR24TokenGenerationInferences7Float16VRszlE6argmax4maskSiAA13LogitIndexSetO_tF
++ _$sSR24TokenGenerationInferences7Float16VRszlE6argmaxSiyF
++ _$sSR24TokenGenerationInferences7Float16VRszlE7argsortSays5Int32VGyF
++ _$sSR24TokenGenerationInferences7Float16VRszlE7argtopKySays5Int32VGAFF
++ _$sSRys5UInt8VGMD
++ _$sSRys5UInt8VGSRyxG10Foundation15ContiguousBytesAeBRszlWL
++ _$sSRys5UInt8VGSRyxG10Foundation15ContiguousBytesAeBRszlWl
++ _$sSRyxG10Foundation15ContiguousBytesABs5UInt8VRszlMc
++ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS3key_24TokenGenerationInference08OnDeviceD11AssetObject_p5valuetSgMD
++ _$sSS3key_24TokenGenerationInference08OnDeviceD11AssetObject_p5valuetWOcTm
++ _$sSS3key_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV5valuetSgMD
++ _$sSS3key_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV5valuetSgWOhTm
++ _$sSS3key_4ODIE7NDArrayC6BufferV5valuetMD
++ _$sSS3key_4ODIE7NDArrayC6BufferV5valuetSgMD
++ _$sSS3key_4ODIE7NDArrayC6BufferV5valuetSgWObTm
++ _$sSS8UTF8ViewVN
++ _$sSSSgML
++ _$sSSWOh
++ _$sSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVtMD
++ _$sSS_4ODIE7NDArrayC6BufferVtMD
++ _$sSS_4ODIE7NDArrayC6BufferVtSgMD
++ _$sSS_4ODIE7NDArrayCtMD
++ _$sSS_4ODIE7NDArrayCtWOhTm
++ _$sSS_SStMD
++ _$sST12makeIterator0B0QzyFTj
++ _$sST19underestimatedCountSivgTj
++ _$sSTTL
++ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSaySSG_24TokenGenerationInference17AFMGatherFunctionVTg5
++ _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFs10ArraySliceVySSG_24TokenGenerationInference17AFMDecodeFunctionVTg5Tf4nx_n
++ _$sSTsE10enumerateds18EnumeratedSequenceVyxGyF
++ _$sSTsE13_copyContents12initializing8IteratorQz_SitSry7ElementQzG_tFSnySiG_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tF24TokenGenerationInference0G4MaskV_TB5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFs07FlattenB0VySaySaySiGGG_Tg5
++ _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFs8RepeatedVy24TokenGenerationInference0H6RecordVG_TB5
++ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF
++ _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs12Zip2SequenceVySaySiGSay24TokenGenerationInference0F4MaskVGG_AI0F6RecordVs5NeverOTg506$sSi24fg12Inference0A4i6VAA0A6j17VIgynr_Si_ACtAEs5k161OIegnrzr_TR04$s24ab137Inference23ODIELanguageModelRunnerC3run6tokens013computeLogitsA5Count10tokenMasks10presamplerSayAA15LogitCollection_pG6logits_Si04callK0tq4s44G_xq5AA0A4d4VGSgy27O10Presampler_pSgtYaKFAA0Q25E12VSi_AOtXEfU_Tf3nnnpf_nTf1cn_n
++ _$sSTsE6reduce4into_qd__qd__n_yqd__z_7ElementQztKXEtKlFSaySSG_SDySS4ODIE7NDArrayCGTg5
++ _$sSTsE6reduceyqd__qd___qd__qd___7ElementQztKXEtKlF
++ _$sSTsE6reduceyqd__qd___qd__qd___7ElementQztKXEtKlFSaySiG_SiTg5
++ _$sSTsE7forEachyyy7ElementQzKXEKFSD4KeysVySi24TokenGenerationInference15LogitCollection_p_G_Tg504$s24eF130Inference24SpeculativeLanguageModelC24speculateNextTargetNodes33_B398487A78544B2880D5A47AC6334149LL04fromiJ0SaySiGAG_tYaKFySiXEfU_ShySiGTf1cn_n
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.12
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.16
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.17
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.18
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.19
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.2
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.22
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.3
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.4
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.8
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TATm
++ _$sSTsSy7ElementRpzrlE6joined9separatorS2S_tF
++ _$sSW17withMemoryRebound2to_q0_xm_q0_SRyxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lF
++ _$sSY8rawValue03RawB0QzvgTj
++ _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
++ _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF24TokenGenerationInference0E6RecordV_s15EmptyCollectionVyAHGTg5Tf4ndn_n
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSi_s15CollectionOfOneVySiGTg5
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSi_s15EmptyCollectionVySiGTg5Tf4ndn_nTm
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF24TokenGenerationInference0H8TreeNodeC_Tg5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ
++ _$sSa24TokenGenerationInferenceSfRszlE12applySoftmax11temperatureSays7Float16VGAE_tF
++ _$sSa24TokenGenerationInferenceSfRszlE12applySoftmaxSays7Float16VGyF
++ _$sSa24TokenGenerationInferenceSfRszlE6argmaxSiyF
++ _$sSa24TokenGenerationInferenceSfRszlE7argsortSays5Int32VGyF
++ _$sSa24TokenGenerationInferenceSfRszlE7argtopKySays5Int32VGADF
++ _$sSa24TokenGenerationInferenceSzRzlE19sampleRandomElement13probabilities9generatorSiSaySfG_SG_pztF
++ _$sSa24TokenGenerationInferenceSzRzlE19sampleRandomElement13probabilities9generatorSiSaySfG_SG_pztFSi_Tg5
++ _$sSa24TokenGenerationInferenceSzRzlE19sampleRandomElement13probabilities9generatorSiSaySfG_SG_pztFs5Int32V_Tg5
++ _$sSa24TokenGenerationInferenceSzRzlE19sampleRandomElement6logits11temperature9generatorSiSaySfG_SfSG_pztF
++ _$sSa24TokenGenerationInferenceSzRzlE19sampleRandomElement6logits11temperature9generatorSiSaySfG_SfSG_pztFSi_Tg5Tm
++ _$sSa24TokenGenerationInferences7Float16VRszlE16topCumulativeSum_8maxCountSays5Int32VG7indices_AC010cumulativeG0tAC_SitF
++ _$sSa24TokenGenerationInferences7Float16VRszlE24adjustSoftmaxTemperature4from2toSayACGAC_ACtF
++ _$sSa24TokenGenerationInferences7Float16VRszlE6argmaxSiyF
++ _$sSa24TokenGenerationInferences7Float16VRszlE7argsortSays5Int32VGyF
++ _$sSa24TokenGenerationInferences7Float16VRszlE7argtopKySays5Int32VGAFF
++ _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfC
++ _$sSa5countSivpMV
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF10Foundation4DataV_SayAGGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF19TokenGenerationCore14ToolCallParserV13FunctionDeltaV_SayAIGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF19TokenGenerationCore14ToolCallParserV13FunctionDeltaV_SayAIGTg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference0E4MaskV_SayAGGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference0E6RecordV_s10ArraySliceVyAGGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference0E6RecordV_s8RepeatedVyAGGTB5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV_SayAHGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference15LogitCollection_p_SayAeF_pGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSb_SaySbGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSi_SnySiGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSi_s15FlattenSequenceVySaySaySiGGGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSa6remove2atxSi_tFSb_Tg5
++ _$sSa6remove2atxSi_tFSnySiG_Tgq5
++ _$sSa9repeating5countSayxGx_SitcfC24TokenGenerationInference15LogitCollection_p_Tt1g5Tf4en_nAD05EmptyfG0V_TB5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ15TokenGeneration15ToolDescriptionV_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZSb_Tt1g5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZs5UInt8V_Tt1g5
++ _$sSay15TokenGeneration15ToolDescriptionVGML
++ _$sSay15TokenGeneration15ToolDescriptionVGMaTm
++ _$sSay19TokenGenerationCore14ToolCallParserV13FunctionDeltaVGML
++ _$sSay24TokenGenerationInference15LogitCollection_pG6logits_Si9callCounttMD
++ _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.19
++ _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.19TQ0_
++ _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.19Tu
++ _$sSaySSGSayxGSKsWlTm
++ _$sSaySayxGqd__c7ElementQyd__RszSTRd__lufCSS_ShySSGTt0g5
++ _$sSaySiGSayxGSTsWL
++ _$sSaySiGSayxGSTsWl
++ _$sSaySiGSayxGSTsWlTm
++ _$sSaySiGSgML
++ _$sSays7Float16VGML
++ _$sSays7Float16VGMa
++ _$sSayxGSTsMc
++ _$sScCySay24TokenGenerationInference15LogitCollection_pG6logits_Si9callCountts5Error_pGMD
++ _$sSf10Accelerate10BNNSScalarAAWP
++ _$sSh21_nonEmptyArrayLiteralShyxGSayxG_tcfCSo29TGIE5AdapterConfigurationObjCC_Tt0g5Tf4g_n
++ _$sSh5IndexV8_VariantOySo29TGIE5AdapterConfigurationObjCC__GWOe
++ _$sSh8IteratorV8_VariantOySS__GWOe
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF10Foundation4UUIDV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8_VariantV6removeyxSgxFSS_Tg5
++ _$sSh8containsySbxFSS_Tg5
++ _$sShySSGMD
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n
++ _$sShyxSh5IndexVyx_GcigSo29TGIE5AdapterConfigurationObjCC_Tg5
++ _$sSi4next_Sf5logittMD
++ _$sSiIegd_SgWOe
++ _$sSiSLsWP
++ _$sSiSZsMc
++ _$sSiSxsWP
++ _$sSis17FixedWidthIntegersMc
++ _$sSixs5Error_pIgyrzo_SixsAA_pIegnrzr_lTRTA
++ _$sSixs5Error_pIgyrzo_SixsAA_pIegnrzr_lTRTA.2
++ _$sSixs5Error_pIgyrzo_SixsAA_pIegnrzr_lTRTATm
++ _$sSk11SubSequenceSl_SkTn
++ _$sSk5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSk5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSk7IndicesSl_SkTn
++ _$sSk8distance4from2toSi5IndexQz_AEtFTq
++ _$sSkMp
++ _$sSkSKTb
++ _$sSksE5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtF24TokenGenerationInference0F4MaskV_TB5
++ _$sSl10startIndex0B0QzvgTq
++ _$sSl11SubSequenceSl_SlTn
++ _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SNyADGtFTq
++ _$sSl20_failEarlyRangeCheck_6boundsy5IndexQz_SnyADGtFTq
++ _$sSl20_failEarlyRangeCheck_6boundsySny5IndexQzG_AEtFTq
++ _$sSl30_customIndexOfEquatableElementy0B0QzSgSg0E0QzFTq
++ _$sSl34_customLastIndexOfEquatableElementy0C0QzSgSg0F0QzFTq
++ _$sSl5IndexSl_SLTn
++ _$sSl5countSivgTq
++ _$sSl5index5after5IndexQzAD_tFTq
++ _$sSl5index_8offsetBy07limitedC05IndexQzSgAE_SiAEtFTq
++ _$sSl5index_8offsetBy5IndexQzAD_SitFTq
++ _$sSl7IndicesSl_SlTn
++ _$sSl7indices7IndicesQzvgTq
++ _$sSl7isEmptySbvgTj
++ _$sSl7isEmptySbvgTq
++ _$sSl8distance4from2toSi5IndexQz_AEtFTq
++ _$sSl8endIndex0B0QzvgTq
++ _$sSl9formIndex5aftery0B0Qzz_tFTq
++ _$sSlMp
++ _$sSlSTTb
++ _$sSlTL
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lF
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay10Foundation4DataVG_24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVs5NeverOTg5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySSG_SS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVts5NeverOTg5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSays5Int32VG_Sfs5NeverOTg5
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnySiG_24TokenGenerationInference15LogitCollection_ps5NeverOTg5
++ _$sSlsE5first7ElementQzSgvg
++ _$sSlsE5first7ElementQzSgvgSD4KeysVyS2i4next_Sf5logitt_G_Tg5
++ _$sSlsE5first7ElementQzSgvgSD4KeysVyS2i_G_Tg5
++ _$sSlsE5first7ElementQzSgvgSD4KeysVyS2i_G_Tg5Tm
++ _$sSlsE5first7ElementQzSgvgSDyS2i4next_Sf5logittG_Tg5
++ _$sSlsE5first7ElementQzSgvgSDySS24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVG_Tg5
++ _$sSlsE5first7ElementQzSgvgShySo29TGIE5AdapterConfigurationObjCCG_Tg5
++ _$sSly11SubSequenceQzSny5IndexQzGcigTq
++ _$sSly7ElementQz5IndexQzcirTq
++ _$sSmsSKRzrlE10removeLastyySiFSay24TokenGenerationInference0C6RecordVG_Tg5Tm
++ _$sSnMa
++ _$sSnySiGMD
++ _$sSnySiGML
++ _$sSnySiGMa
++ _$sSnySiGSnyxGSKsSxRzSZ6StrideRpzrlWL
++ _$sSnySiGSnyxGSTsSxRzSZ6StrideRpzrlWL
++ _$sSnySiGSnyxGSTsSxRzSZ6StrideRpzrlWlTm
++ _$sSnySiGSnyxGSksSxRzSZ6StrideRpzrlWL
++ _$sSnySiGSnyxGSlsSxRzSZ6StrideRpzrlWL
++ _$sSnySiGSnyxGSlsSxRzSZ6StrideRpzrlWlTm
++ _$sSnyxGSKsSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSTsSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSksSxRzSZ6StrideRpzrlMc
++ _$sSnyxGSlsSxRzSZ6StrideRpzrlMc
++ _$sSo10BNNSTensora10AccelerateE10deallocateyyF
++ _$sSo10BNNSTensora10AccelerateE4data5shape6stride0C4TypeABSw_SaySiGAHSo08BNNSDataF0atcfC
++ _$sSo10BNNSTensora10AccelerateE8allocate9repeating5shape6strideABx_SaySiGAHtAC10BNNSScalarRzlFZ
++ _$sSo10BNNSTensoraMB
++ _$sSo10BNNSTensoraMF
++ _$sSo10BNNSTensoraML
++ _$sSo10BNNSTensoraMa
++ _$sSo10BNNSTensoraMf
++ _$sSo10BNNSTensoraMn
++ _$sSo10BNNSTensoraSgWOg
++ _$sSo10BNNSTensoraSgWOi0_
++ _$sSo10BNNSTensoraSgWOi_
++ _$sSo10BNNSTensoraWV
++ _$sSo10BNNSTensorawet
++ _$sSo10BNNSTensorawst
++ _$sSo11CFStringRefa14CoreFoundation9_CFObjectSCMc
++ _$sSo11CFStringRefa14CoreFoundation9_CFObjectSCMcMK
++ _$sSo11CFStringRefa14CoreFoundation9_CFObjectSCSHWb
++ _$sSo11CFStringRefaAB14CoreFoundation9_CFObjectSCWL
++ _$sSo11CFStringRefaABSHSCWL
++ _$sSo11CFStringRefaABSQSCWL
++ _$sSo11CFStringRefaML
++ _$sSo11CFStringRefaMa
++ _$sSo11CFStringRefaMf
++ _$sSo11CFStringRefaMn
++ _$sSo11CFStringRefaSHSCMc
++ _$sSo11CFStringRefaSHSCMcMK
++ _$sSo11CFStringRefaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo11CFStringRefaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo11CFStringRefaSHSCSH9hashValueSivgTW
++ _$sSo11CFStringRefaSHSCSQWb
++ _$sSo11CFStringRefaSQSCMc
++ _$sSo11CFStringRefaSQSCMcMK
++ _$sSo11CFStringRefaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo11CFStringRefa_yptMD
++ _$sSo11CFStringRefa_yptWOcTm
++ _$sSo11CFStringRefa_yptWOh
++ _$sSo12BNNSDataTypeaMB
++ _$sSo12BNNSDataTypeaMF
++ _$sSo12BNNSDataTypeaML
++ _$sSo12BNNSDataTypeaMa
++ _$sSo12BNNSDataTypeaMf
++ _$sSo12BNNSDataTypeaMn
++ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP10embeddings03forD010Foundation4DataVs5Int32V_tYaKFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP10embeddings03forD010Foundation4DataVs5Int32V_tYaKFTWTY0_
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP10embeddings03forD010Foundation4DataVs5Int32V_tYaKFTWTu
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP13clearAllStateyyFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP13encodedImagesSo07EncodedJ0_pSgvMTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP13encodedImagesSo07EncodedJ0_pSgvMTW.resume.0
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP13encodedImagesSo07EncodedJ0_pSgvgTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP13encodedImagesSo07EncodedJ0_pSgvsTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP15enableTelemetry14withIdentifierySS_tFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAC0D4MaskVGSgSitKFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP15vocabularyCountSivgTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP16makeKVCacheEntryy10Foundation4DataVSnySiGKFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP16maxContextLengthSivgTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP18currentContextSizeSivgTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP18currentContextSizeSivgTWTm
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTWTQ1_
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTWTY0_
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTWTY2_
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTWTY3_
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callM0tSaySiG_SiSayAC0D4MaskVGSgAC0Q10Presampler_pSgtYaKFTWTu
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP5purge5stepsySaySiG_tFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP5reset6toStepySi_tFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP5resetyyFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0A2cDP5resetyyFTWTm
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0ACMc
++ _$sSo12E5RunnerObjCC24TokenGenerationInference013LanguageModelB0ACWP
++ _$sSo12E5RunnerObjCC24TokenGenerationInference18StatefullyLoadableA2cDP18moveToDynamicStateyyFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference18StatefullyLoadableA2cDP18moveToDynamicStateyyFTWTm
++ _$sSo12E5RunnerObjCC24TokenGenerationInference18StatefullyLoadableA2cDP22moveToFullyLoadedStateyyFTW
++ _$sSo12E5RunnerObjCC24TokenGenerationInference18StatefullyLoadableACMc
++ _$sSo12E5RunnerObjCC24TokenGenerationInference18StatefullyLoadableACWP
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE10embeddings03forD010Foundation4DataVs5Int32V_tYaKF
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE10embeddings03forD010Foundation4DataVs5Int32V_tYaKFTY0_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE10embeddings03forD010Foundation4DataVs5Int32V_tYaKFTu
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE15setKVCacheEntry_6tokens10tokenMasks5starty10Foundation4DataV_SaySiGSayAC0D4MaskVGSgSitKF
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE16makeKVCacheEntryy10Foundation4DataVSnySiGKF
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE18currentContextSizeSivg
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE18currentContextSizeSivpMV
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKF
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFTQ1_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFTY0_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFTY2_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFTY3_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFTu
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_TA
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_TA.3
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_TATm
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAT_pSgtXEfU1_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAT_pSgtXEfU1_TA
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAT_pSgtXEfU1_yyXEfU_
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens013computeLogitsD5Count10tokenMasks10presamplerSayAC15LogitCollection_pG6logits_Si04callK0tSaySiG_SiSayAC0D4MaskVGSgAC0O10Presampler_pSgtYaKFyScCyAjK_SiALts5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAT_pSgtXEfU1_yyXEfU_TA
++ _$sSo12E5RunnerObjCC24TokenGenerationInferenceE5purge5stepsySaySiG_tF
++ _$sSo13_EncodedImageVIegy_ABIyBy_TR
++ _$sSo13_EncodedImageVIgy_ABIegy_TRTA
++ _$sSo13_EncodedImageVMB
++ _$sSo13_EncodedImageVMF
++ _$sSo13_EncodedImageVML
++ _$sSo13_EncodedImageVMa
++ _$sSo13_EncodedImageVMf
++ _$sSo13_EncodedImageVMn
++ _$sSo13_EncodedImageVWV
++ _$sSo13_EncodedImageVwet
++ _$sSo13_EncodedImageVwst
++ _$sSo16os_unfair_lock_sVMaTm
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference0bC0A2cDP15assetIdentifierSSvgTW
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference0bC0A2cDP4loadyyKFTW
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference0bC0ACMc
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference0bC0ACWP
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference18StatefullyLoadableA2cDP18moveToDynamicStateyyFTW
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference18StatefullyLoadableA2cDP18moveToDynamicStateyyFTWTm
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference18StatefullyLoadableA2cDP22moveToFullyLoadedStateyyFTW
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference18StatefullyLoadableACMc
++ _$sSo18TGIE5BaseModelObjCC24TokenGenerationInference18StatefullyLoadableACWP
++ _$sSo18TGIE5BaseModelObjCC4loadyyKFTO
++ _$sSo18TGIE5BaseModelObjCCMa
++ _$sSo18TGIE5BaseModelObjCCMaTm
++ _$sSo18os_signpost_type_ta0A0E3endABvgZ
++ _$sSo18os_signpost_type_ta0A0E5beginABvgZ
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP011withEncodedC011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTW
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP011withEncodedC011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTWTQ0_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP011withEncodedC011imageSetter_qd__ySrys7Float16VG_SaySiGtKXE_qd__SRys5UInt8VGKXEtYaKlFTWTu
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP013embeddingsPerC5CountSivgTW
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP10imageWidthSivgTW
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP11imageHeightSivgTW
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP13bytesPerPixelSivgTW
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0A2cDP13bytesPerPixelSivgTWTm
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0ACMc
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInference0c7EncoderB0ACWP
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlF
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFTQ1_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFTY0_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFTY2_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFTu
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_SbSpyAGG_SiSaySo8NSNumberCGtXEfU_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_SbSpyAGG_SiSaySo8NSNumberCGtXEfU_TA
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_TA
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_ySPyAKGSg_sAN_pSgtXEfU0_
++ _$sSo26E5RunnerImageTokenizerObjCC24TokenGenerationInferenceE011withEncodedC011imageSetter_xySrys7Float16VG_SaySiGtKXE_xSRys5UInt8VGKXEtYaKs8SendableRzlFyScCyxs5Error_pGXEfU_ySPyAKGSg_sAN_pSgtXEfU0_TA
++ _$sSo26E5RunnerImageTokenizerObjCC9modelPathABSS_tKcfcTO
++ _$sSo29TGIE5AdapterConfigurationObjCCSo8NSObjectCSH10ObjectiveCWl
++ _$sSo6NSDataC10FoundationE10startIndexSivg
++ _$sSo6NSDataC10FoundationE8endIndexSivg
++ _$sSo6NSDataC10FoundationEys5UInt8VSicig
++ _$sSo6NSDataCML
++ _$sSo9OS_os_logC0B0E16signpostsEnabledSbvg
++ _$sSpys7Float16VGSiSaySo8NSNumberCGSbIegyygd_ACSiSo7NSArrayCSbIyByyyd_TR
++ _$sSpys7Float16VGSiSaySo8NSNumberCGSbIgyygd_ACSiAFSbIegyygd_TRTA
++ _$sSr13_finalizeRuns_6buffer2bySbSaySnySiGGz_SpyxGSbx_xtKXEtKFSi_Tg5139$s24TokenGenerationInference26E5TransformerLanguageModelC14nodesAreLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SbSaySiG_tFSbSi_SitXEfU_0fG9Inference0ijkL0CTf1nncn_nTf4nnng_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKF24TokenGenerationInference17AFMDecodeFunctionV_Tg5052$sSMsSkRzSL7ElementSTRpzrlE4sortyyFSbAB_ABtcfu_Say24ef11Inference17hI8VG_Tt1g5Tf1cn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg50163$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFSbv14_SitcACcfu3_SbV9_Sitcfu4_0fG9Inference0ijkL0CTf1cn_nTf4ng_nTm
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_24TokenGenerationInference17AFMDecodeFunctionV_Tg5052$sSMsSkRzSL7ElementSTRpzrlE4sortyyFSbAB_ABtcfu_Say24ef11Inference17hI8VG_Tt1g5Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_24TokenGenerationInference17BeamSearchDecoderC0H4Node33_A7FE2FA43B970D1C0025663E659989E9LLV_Tg504$s24ef11Inference17hij8C23pruneb17AppendNextStep33_lmnopqrs21LL9beamNodesySayAC0D4K22AELLVG_tFSbAH_AHtXEfU_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Si_Tg50163$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFSbv14_SitcACcfu3_SbV9_Sitcfu4_0fG9Inference0ijkL0CTf1nnncn_nTf4nnnng_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Si_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_K9SiG_Tt1G5Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Si_Tg5139$s24TokenGenerationInference26E5TransformerLanguageModelC14nodesAreLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SbSaySiG_tFSbSi_SitXEfU_0fG9Inference0ijkL0CTf1nnncn_nTf4nnnng_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_Si_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_s7Float16V10likelihood_Si6target_Si5draftt8nodePairt_Tg50157$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFSbs7E67V10likelihood_Si6target_Si5draftt8nodePairt_AjK_SiAL_SiAMtANttXEfU_Tf1nnncn_n
++ _$sSr8mutatingSryxGSRyxG_tcfC
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$sSt4next7ElementQzSgyFTj
++ _$sSuN
++ _$sSus23CustomStringConvertiblesWP
++ _$sSw10Foundation15ContiguousBytesAAWP
++ _$sSw17withMemoryRebound2to_q0_xm_q0_SryxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs5UInt8V_s5NeverOs16IndexingIteratorVySS8UTF8ViewVG_SitTt1g5
++ _$sSw17withMemoryRebound2to_q0_xm_q0_SryxGq_YKXEtq_YKs5ErrorR_Ri_zRi_0_r1_lFs5UInt8V_s5NeverOs16IndexingIteratorVySo6NSDataCG_SitTt1g5
++ _$sSwN
++ _$sSwySwSryxGclufC
++ _$sSz18truncatingIfNeededxqd___tcSzRd__lufCTj
++ _$sSz8_lowWordSuvgTj
++ _$sSz8bitWidthSivgTj
++ _$sSz8isSignedSbvgZTj
++ _$ss10ArraySliceV15reserveCapacityyySiF24TokenGenerationInference0E6RecordV_Tg5
++ _$ss10ArraySliceV6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF24TokenGenerationInference0G6RecordV_AByAIGTg5
++ _$ss10ArraySliceVMn
++ _$ss10ArraySliceVy24TokenGenerationInference0C6RecordVGAByxGSlsWL
++ _$ss10ArraySliceVy24TokenGenerationInference0C6RecordVGAByxGSlsWl
++ _$ss10ArraySliceVy24TokenGenerationInference0C6RecordVGMD
++ _$ss10ArraySliceVyxGSlsMc
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFADs13_UnsafeBitsetVXEfU_Si_SaySiGTg5
++ _$ss10_NativeSetV11subtractingyAByxGqd__7ElementQyd__RszSTRd__lFSi_SaySiGTg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSo17TGIE5FunctionObjCC_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSo29TGIE5AdapterConfigurationObjCC_Tg5
++ _$ss10_NativeSetV7_delete2atys10_HashTableV6BucketV_tFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSo17TGIE5FunctionObjCC_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSo29TGIE5AdapterConfigurationObjCC_Tg5
++ _$ss10__CocoaSetV10startIndexAB0D0Vvg
++ _$ss10__CocoaSetV5IndexV2eeoiySbAD_ADtFZ
++ _$ss10__CocoaSetV5IndexV3ages5Int32Vvg
++ _$ss10__CocoaSetV5IndexV7elementyXlvg
++ _$ss10__CocoaSetV7element2atyXlAB5IndexV_tF
++ _$ss10__CocoaSetV8endIndexAB0D0Vvg
++ _$ss11_SetStorageCySSGMD
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss12Zip2SequenceV12makeIteratorAB0D0Vyxq__GyF
++ _$ss12Zip2SequenceV12makeIteratorAB0D0Vyxq__GyFs09DropFirstB0Vy24TokenGenerationInference11NodeStorageV08PreviousjB0VyAI26E5TransformerLanguageModelC0J5StateV_GG_ASTB5
++ _$ss12Zip2SequenceV8IteratorV4next7ElementQz_AFQy_tSgyF
++ _$ss12Zip2SequenceV8IteratorVMa
++ _$ss12Zip2SequenceVMa
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF10Foundation4DataV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore14ToolCallParserV13FunctionDeltaV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference08OnDeviceQ25AssetObjectImageTokenizerV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference0O4MaskV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference0O6RecordV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference14ProcessedImageV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference17AFMDecodeFunctionV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference17AFMGatherFunctionV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference19LanguageModelRunner_p_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference20PriorOutputNodeStateV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference21ToolCallLanguageModelC4NodeV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference22CompositeLanguageModelC4NodeV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference26TwoStageSpeculativeDecoderC0O9WithNodes33_997C69FF02F080FB13F8B8AFFD1FC4ECLLV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF29GenerativeFunctionsFoundation4ToolV8FunctionV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF4ODIE0A10DescriptorV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF4ODIE0A10DescriptorV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSb_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Sft_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo10BNNSTensora_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs7Float16V10likelihood_Si6target_Si5draftt8nodePairt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs7Float16V_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF24TokenGenerationInference0G6RecordV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF24TokenGenerationInference15LogitCollection_p_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF24TokenGenerationInference17AFMDecodeFunctionV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSb_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFs7Float16V10likelihood_Si6target_Si5draftt8nodePairt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFs7Float16V_Tg5
++ _$ss12_SliceBufferV027requestUniqueMutableBackingB015minimumCapacitys016_ContiguousArrayB0VyxGSgSi_tF24TokenGenerationInference0K6RecordV_Tg5
++ _$ss12_SliceBufferV5countSivs24TokenGenerationInference0D6RecordV_Tg5
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s10_NativeSetVySiG_Tg506$ss10_gh28V6filteryAByxGSbxKXEKFADs13_aB13VKXEfU_Si_TG5AHxSbs5Error_pRi_zRi0_zlySiIsgndzo_Tf1nc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s10_NativeSetVySiG_Tg506$ss10_gh30V12intersectionyAByxGADFADs13_aB12VXEfU_Si_TG5A2HTf1nc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s17_NativeDictionaryVySi24TokenGenerationInference25PrefixGuidedLanguageModelV4NodeCG_Tg506$ss17_gh46V6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_ab12VKXEfU_Si_24ij11Inference25lmno2V4P4CTG5AMxq_Sbs5Error_pRi_zRi0_zRi__Ri0__r0_lySiALIsgnndzo_Tf1nc_n04$s24ijylmno69V010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_px40_AA0O10Presampler_pSgSbtYaKFSbSi3key_AC4P15C5valuet_tXEfU_Tf1nnc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s17_NativeDictionaryVySi24TokenGenerationInference25PrefixGuidedLanguageModelV4NodeCG_Tg506$ss17_gh46V6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_ab12VKXEfU_Si_24ij11Inference25lmno2V4P4CTG5AMxq_Sbs5Error_pRi_zRi0_zRi__Ri0__r0_lySiALIsgnndzo_Tf1nc_n04$s24ijylmno69V010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_px40_AA0O10Presampler_pSgSbtYaKFSbSi3key_AC4P16C5valuet_tXEfU0_Tf1nnc_n
++ _$ss13_UnsafeBitsetV013withTemporaryB08capacity4bodyxSi_xABKXEtKlFZxABKXEfU_s17_NativeDictionaryVySi24TokenGenerationInference25PrefixGuidedLanguageModelV4NodeCG_Tg506$ss17_gh46V6filteryAByxq_GSbx3key_q_5valuet_tKXEKFADs13_ab12VKXEfU_Si_24ij11Inference25lmno2V4P4CTG5AMxq_Sbs5Error_pRi_zRi0_zRi__Ri0__r0_lySiALIsgnndzo_Tf1nc_n04$s24ijylmno69V010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_px40_AA0O10Presampler_pSgSbtYaKFSbSi3key_AC4P16C5valuet_tXEfU1_Tf1nnc_n
++ _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKFSaySSG_Tg5
++ _$ss15ContiguousArrayV15reserveCapacityyySiF
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF24TokenGenerationInference0N4MaskV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF24TokenGenerationInference0N6RecordV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF24TokenGenerationInference22ProcessedImageProtocol_p_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF29GenerativeFunctionsFoundation8ToolTypeV0R0O_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVt_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFs7Float16V_Tg5
++ _$ss15ContiguousArrayV6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSi_s0B5SliceVySiGTg5
++ _$ss15ContiguousArrayV6appendyyxnF
++ _$ss15ContiguousArrayVAByxGycfC
++ _$ss15ContiguousArrayVMa
++ _$ss15ContinuousClockV7InstantVADs0C8ProtocolsWL
++ _$ss15ContinuousClockV7InstantVMa
++ _$ss15ContinuousClockV7InstantVs0C8ProtocolsMc
++ _$ss15ContinuousClockVABs0B0sWlTm
++ _$ss15FlattenSequenceV8IteratorV4next7Element_AFQZSgyFSaySaySiGG_Tg5
++ _$ss15InstantProtocolP8duration2to8DurationQzx_tFTj
++ _$ss15LazyMapSequenceV8IteratorV4nextq_SgyFSDySS4ODIE7NDArrayC6BufferVG_SS_AKtTg5
++ _$ss15_arrayForceCastySayq_GSayxGr0_lF24TokenGenerationInference14ProcessedImageV_AD0gH8Protocol_pTg5
++ _$ss16IndexingIteratorVMn
++ _$ss16IndexingIteratorVy24TokenGenerationInference0C4MaskVGAByxGStsWL
++ _$ss16IndexingIteratorVy24TokenGenerationInference0C4MaskVGMD
++ _$ss16IndexingIteratorVyxGStsMc
++ _$ss16IteratorSequenceVMn
++ _$ss16IteratorSequenceVys08IndexingA0Vys10ArraySliceVy24TokenGenerationInference0F6RecordVGGGMD
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_4ODIE7NDArrayC6BufferVTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_4ODIE7NDArrayCTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_SiTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSi_s5Int32VTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_4ODIE7NDArrayC6BufferVTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_4ODIE7NDArrayCTg5
++ _$ss17_NativeDictionaryV4copyyyFSS_SiTg5
++ _$ss17_NativeDictionaryV4copyyyFSi_s5Int32VTg5
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_24TokenGenerationInference015MetadataSpecialJ0Os15LazyMapSequenceVySDySSAJGSS_AJtGTg504$s24jk104Inference08OnDeviceC15AssetRepositoryC16specialTokensMap33_65818D6FA4B5F545C6B162D7CBE031AELLySDySSAA015mN49A0OGSgAA05ModelT0VSg_AA07AdapterT0VtFA2G_AGtXEfU_Tf1nncn_nTf4gnn_n
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVSaySS_ALtGTg5012$sSD20uniquegh33ValuesSDyxq_Gqd__n_tcSTRd__x_q_t7i28Rtd__lufcq_q__q_tKXEfU_SS_24jk11Inference17mn3V23opqR14VSaySS_AItGTG5Tf1nncn_n
++ _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_4ODIE7NDArrayC6BufferVs15LazyMapSequenceVySDySSALGSS_ALtGTg50147$s24TokenGenerationInference23ODIELanguageModelRunnerC10contentsOf10adapterURL04baseE08delegateAC10Foundation0J0V_AJSgAA04BaseE0_pSgSStYaKcfc4ODIE7k2C6L12VAR_ARtXEfU_Tf1nncn_nTf4gnn_n
++ _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_4ODIE7NDArrayC6BufferVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_4ODIE7NDArrayC6BufferVTg5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSi_s5Int32VTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_4ODIE7NDArrayC6BufferVTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_4ODIE7NDArrayCTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_SiTg5
++ _$ss18EnumeratedSequenceV12makeIteratorAB0D0Vyx_GyF
++ _$ss18EnumeratedSequenceV8IteratorV4nextSi6offset_7ElementQz7elementtSgyF
++ _$ss18EnumeratedSequenceV8IteratorV4nextSi6offset_7ElementQz7elementtSgyFSay19TokenGenerationCore21TokenizedPromptModuleVG_Tg5
++ _$ss18EnumeratedSequenceV8IteratorVMa
++ _$ss18EnumeratedSequenceVMa
++ _$ss18_DictionaryStorageCySS24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVGMD
++ _$ss18_DictionaryStorageCySS4ODIE7NDArrayC6BufferVGMD
++ _$ss18_DictionaryStorageCySS4ODIE7NDArrayCGMD
++ _$ss18_DictionaryStorageCySS4ODIE7OperandOGMD
++ _$ss18_DictionaryStorageCySSSiGMD
++ _$ss18_DictionaryStorageCySis5Int32VGMD
++ _$ss18_DictionaryStorageCySo11CFStringRefaypGMD
++ _$ss20_ArrayBufferProtocolPsE025_forceCreateUniqueMutableB0011countForNewB003minJ8Capacitys011_ContiguousaB0Vy7ElementQzGSi_SitFs06_SliceB0Vy24TokenGenerationInference0P6RecordVG_Tg5
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs011_ContiguousaB0Vy24TokenGenerationInference0K6RecordVG_s15EmptyCollectionVyANGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy15TokenGeneration0J0VG_s15EmptyCollectionVyANGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy19TokenGenerationCore14ToolCallParserV13FunctionDeltaVG_s15EmptyCollectionVyAPGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy24TokenGenerationInference08OnDeviceL14SuspendedFetchVG_s15EmptyCollectionVyANGTg5Tf4nndn_nTm
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy24TokenGenerationInference0J6RecordVG_s15EmptyCollectionVyANGTg5Tf4nndn_nTm
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy24TokenGenerationInference17BeamSearchDecoderC0M4Node33_A7FE2FA43B970D1C0025663E659989E9LLVG_s15EmptyCollectionVyAQGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy24TokenGenerationInference26TwoStageSpeculativeDecoderC08BufferedJ033_997C69FF02F080FB13F8B8AFFD1FC4ECLLVG_s15EmptyCollectionVyAQGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy24TokenGenerationInference28ThreeStageSpeculativeDecoderC08BufferedJ033_8DEBEB1758FC01C1E29D5B2B4E73D192LLVG_s15EmptyCollectionVyAQGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySiG_s010CollectionH3OneVySiGTg5
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySiG_s15EmptyCollectionVySiGTg5Tf4nndn_n
++ _$ss20_ArrayBufferProtocolPsE20_arrayAppendSequenceyyqd__nSTRd__7ElementQyd__ADRtzlFs06_SliceB0Vy24TokenGenerationInference0I6RecordVG_s08IteratorF0Vys08IndexingM0Vys0aH0VyAKGGGTg5
++ _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFfA2_s06_SliceB0Vy24TokenGenerationInference0L6RecordVG_Tg5
++ _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFfA2_yAI_SitcfU_s06_SliceB0Vy24TokenGenerationInference0L6RecordVG_Tg5
++ _$ss20_ArrayBufferProtocolPsE22_arrayOutOfPlaceUpdateyys011_ContiguousaB0Vy7ElementQzGz_S2iySpyAGG_SitXEtFs06_SliceB0Vy24TokenGenerationInference0L6RecordVG_Tg5
++ _$ss22KeyedDecodingContainerV15decodeIfPresent_6forKeySbSgSbm_xtKF
++ _$ss22KeyedDecodingContainerVy24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22KeyedDecodingContainerVy24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22KeyedDecodingContainerVy24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22KeyedEncodingContainerV15encodeIfPresent_6forKeyySbSg_xtKF
++ _$ss22KeyedEncodingContainerVy24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22KeyedEncodingContainerVy24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22KeyedEncodingContainerVy24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOGMD
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC24TokenGenerationInference0H6RecordV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSb_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSb_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSi_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5Int32V_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs7Float16V_Tt1g5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15TokenGeneration0P0V_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15TokenGeneration16ModelInformationV5AssetV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference08OnDeviceR19AssetObjectE5RunnerV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference0P4MaskV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference0P6RecordV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference15LogitCollection_p_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference22ProcessedImageProtocol_p_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF29GenerativeFunctionsFoundation8ToolTypeV0T0O_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF29GenerativeFunctionsFoundation8ToolTypeV0T0O_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDyS2i4next_Sf5logittG_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSDyS2i4next_Sf5logittG_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySiG_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi6target_Si5draftt_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi_Sit_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs7Float16V_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo11CFStringRefa_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo11CFStringRefa_Tg5
++ _$ss23_ContiguousArrayStorageCy10Accelerate9BNNSGraphO16TensorDescriptor_pGMD
++ _$ss23_ContiguousArrayStorageCy10Foundation4DataVGMD
++ _$ss23_ContiguousArrayStorageCy19TokenGenerationCore14ToolCallParserV13FunctionDeltaVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference08OnDeviceF25AssetObjectImageTokenizerVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference0D4MaskVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference0D6RecordVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference14ProcessedImageVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference17AFMDecodeFunctionVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference17AFMGatherFunctionVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference19LanguageModelRunner_pGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference20PriorOutputNodeStateVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference21PromptLookupNodeStateVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference21ToolCallLanguageModelC4NodeVGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference22ProcessedImageProtocol_pGMD
++ _$ss23_ContiguousArrayStorageCy24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLVGMD
++ _$ss23_ContiguousArrayStorageCy29GenerativeFunctionsFoundation4ToolV8FunctionVGMD
++ _$ss23_ContiguousArrayStorageCy29GenerativeFunctionsFoundation8ToolTypeV0H0OGMD
++ _$ss23_ContiguousArrayStorageCy4ODIE0B10DescriptorVGMD
++ _$ss23_ContiguousArrayStorageCy4ODIE17ProgramDescriptorVGMD
++ _$ss23_ContiguousArrayStorageCy4ODIE8CompilerC08DelegateE0_pGMD
++ _$ss23_ContiguousArrayStorageCy4ODIE8CompilerC9Segmenter_pGMD
++ _$ss23_ContiguousArrayStorageCySS_24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorVtGMD
++ _$ss23_ContiguousArrayStorageCySS_4ODIE7NDArrayCtGMD
++ _$ss23_ContiguousArrayStorageCySbGMD
++ _$ss23_ContiguousArrayStorageCySiSgGMD
++ _$ss23_ContiguousArrayStorageCySo10BNNSTensoraGMD
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yptGMD
++ _$ss23_ContiguousArrayStorageCys7CVarArg_pGMD
++ _$ss23_ContiguousArrayStorageCys7Float16V10likelihood_Si6target_Si5draftt8nodePairtGMD
++ _$ss23_ContiguousArrayStorageCys7Float16VGMD
++ _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
++ _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
++ _$ss27ExpressibleByIntegerLiteralTL
++ _$ss27_diagnoseUnexpectedEnumCase4types5NeverOxm_tlF
++ _$ss28__ContiguousArrayStorageBaseCMa
++ _$ss30_copySequenceToContiguousArrayys0dE0Vy7ElementQzGxSTRzlF24TokenGenerationInference11NodeStorageV08PreviousjB0VyAG26E5TransformerLanguageModelC0J5StateV_G_TB5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF24TokenGenerationInference0G4MaskV_TB5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVySbG_Tg5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVySiG_Tg5
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVys5Int32VG_Tg5
++ _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
++ _$ss3zipys12Zip2SequenceVyxq_Gx_q_tSTRzSTR_r0_lF
++ _$ss5ClockP3now7InstantQzvgTj
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_n
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTQ1_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTY0_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTY2_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTY3_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTY4_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTY5_
++ _$ss5ClockPsE7measure9isolation_8DurationQzScA_pSgYi_yyYaKXEtYaKFs010ContinuousA0V_Tg50120$s24TokenGenerationInference26E5TransformerLanguageModelC7measure015_C54BEC2A6549C4L16D2CDB56F73805ABELLyxxyYaKXEYaKlFyyX35KXEfU_SayAA15LogitCollection_pG_Tg5Say0gH9Inference15LogitCollection_pGSgxs5Error_pRi_zRi0_zlyAMIsgHrzo_Tf1ncn_nTf4nnng_nTu
++ _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
++ _$ss5Int32Vs23CustomStringConvertiblesWP
++ _$ss5Int64VMn
++ _$ss5SliceVMn
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGAByxGSKsSKRzrlWL
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGAByxGSksSkRzrlWL
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGAByxGSksSkRzrlWlTm
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGAByxGSlsWL
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGAByxGSlsWlTm
++ _$ss5SliceVy24TokenGenerationInference0B4MaskVGMD
++ _$ss5SliceVyxGSKsSKRzrlMc
++ _$ss5SliceVyxGSksSkRzrlMc
++ _$ss5SliceVyxGSlsMc
++ _$ss5UInt8VN
++ _$ss5UInt8Vs7CVarArgsWP
++ _$ss6UInt16VABs17FixedWidthIntegersWL
++ _$ss6UInt16VABs17FixedWidthIntegersWl
++ _$ss6UInt16VMn
++ _$ss6UInt16VN
++ _$ss6UInt16Vs17FixedWidthIntegersMc
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF24TokenGenerationInference17AFMDecodeFunctionV_Tg5052$sSMsSkRzSL7ElementSTRpzrlE4sortyyFSbAB_ABtcfu_Say24gh11Inference17jK8VG_Tt1g5Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg50163$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFSbx14_SitcACcfu3_SbX9_Sitcfu4_0hI9Inference0klmN0CTf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg5048$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_M9SiG_Tt1G5Tf1nnnnc_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg5139$s24TokenGenerationInference26E5TransformerLanguageModelC14nodesAreLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SbSaySiG_tFSbSi_SitXEfU_0hI9Inference0klmN0CTf1nnnnc_nTf4nnnng_n
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFs7Float16V10likelihood_Si6target_Si5draftt8nodePairt_Tg50157$s24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC24speculateNextTargetNodes13languageModel05firstJ4NodeShySiGAA05Draftj8LanguageM0_p_SitYaKFSbs7G67V10likelihood_Si6target_Si5draftt8nodePairt_AjK_SiAL_SiAMtANttXEfU_Tf1nnnnc_n
++ _$ss7CVarArgMp
++ _$ss7Float16V10Accelerate10BNNSScalarACWP
++ _$ss7Float16V10AccelerateE12bnnsDataTypeSo08BNNSDataE0avgZ
++ _$ss7Float16V10likelihood_Si6target_Si5draftt8nodePairtMD
++ _$ss7Float16V11descriptionSSvg
++ _$ss7Float16VABSBsWL
++ _$ss7Float16VABSBsWl
++ _$ss7Float16VMn
++ _$ss7Float16VSBsMc
++ _$ss8DurationV11descriptionSSvg
++ _$sxSixs5Error_pIgnyrzo_xSixsAA_pIegnnrzo_lTRTA
++ _$sxSixs5Error_pIgnyrzo_xSixsAA_pIegnnrzo_lTRTA.1
++ _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzr0_lTRSS_4ODIE7NDArrayC6BufferVTg5076$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tKXEtKFx_q_tx_q_tcfU_SS_4ODIE7d2C6E4VTG5Tf3nnpf_n
++ _CGBitmapContextCreate
++ _CGColorSpaceCreateDeviceRGB
++ _CGContextSetBlendMode
++ _CGContextSetInterpolationQuality
++ _CGDataProviderCreateWithCFData
++ _CGImageCreate
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _CGImageSourceCopyPropertiesAtIndex
++ _CGImageSourceCreateImageAtIndex
++ _CGImageSourceCreateWithData
++ _CONTAINER_PERSONA_PRIMARY
++ _IOSurfaceGetAllocSize
++ _IOSurfaceGetBaseAddress
++ _IOSurfaceLock
++ _IOSurfaceUnlock
++ _OBJC_CLASS_$_E5RunnerImageDataObjC
++ _OBJC_CLASS_$_E5RunnerImageTokenizerObjC
++ _OBJC_CLASS_$_NSCache
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSMutableData
++ _OBJC_CLASS_$__TtC24TokenGenerationInference16TGITokenMaskObjC
++ _OBJC_IVAR_$_E5RunnerImageDataObjC._data
++ _OBJC_IVAR_$_E5RunnerImageDataObjC._imageData
++ _OBJC_IVAR_$_E5RunnerImageDataObjC._shape
++ _OBJC_IVAR_$_E5RunnerImageTokenizerObjC._imageTokenizer
++ _OBJC_IVAR_$_E5RunnerObjC._encodedImages
++ _OBJC_METACLASS_$_E5RunnerImageDataObjC
++ _OBJC_METACLASS_$_E5RunnerImageTokenizerObjC
++ _OBJC_METACLASS_$__TtC24TokenGenerationInference16TGITokenMaskObjC
++ _OUTLINED_FUNCTION_4
++ _TGIComputeArgTopKFloat16
++ _TGIComputeArgTopKFloat32
++ __Block_object_dispose
++ __DATA__TtC24TokenGenerationInference13ODIEBaseModel
++ __DATA__TtC24TokenGenerationInference14ImageTokenizer
++ __DATA__TtC24TokenGenerationInference15AppAssetManager
++ __DATA__TtC24TokenGenerationInference16TGITokenMaskObjC
++ __DATA__TtC24TokenGenerationInference17EncodedImageArray
++ __DATA__TtC24TokenGenerationInference17LockedBNNSContext
++ __DATA__TtC24TokenGenerationInference19ImageEmbeddingCache
++ __DATA__TtC24TokenGenerationInference21ImageTokenIDGenerator
++ __DATA__TtC24TokenGenerationInference21ToolCallLanguageModel
++ __DATA__TtC24TokenGenerationInference22ODIEImageEncoderRunner
++ __DATA__TtC24TokenGenerationInference23ODIELanguageModelRunner
++ __DATA__TtC24TokenGenerationInference25ODIEImageFeatureProjector
++ __DATA__TtC24TokenGenerationInference25OnDeviceImagePreprocessor
++ __DATA__TtC24TokenGenerationInference27OnDeviceAttachmentTokenizer
++ __DATA__TtC24TokenGenerationInference31MaximumLikelihoodTreeSpeculator
++ __DATA__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7012AppContainer
++ __DATA__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7018DraftModelCompiler
++ __DATA__TtCC24TokenGenerationInference10KVLRUCacheP33_E608F54CD2D5DEB8748575A2CF878FDB17TokenArrayWrapper
++ __DATA__TtCC24TokenGenerationInference19ImageEmbeddingCacheP33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E73Key
++ __INSTANCE_METHODS__TtC24TokenGenerationInference16TGITokenMaskObjC
++ __INSTANCE_METHODS__TtC24TokenGenerationInference17EncodedImageArray
++ __IVARS__TtC24TokenGenerationInference13ODIEBaseModel
++ __IVARS__TtC24TokenGenerationInference14ImageTokenizer
++ __IVARS__TtC24TokenGenerationInference15AppAssetManager
++ __IVARS__TtC24TokenGenerationInference16TGITokenMaskObjC
++ __IVARS__TtC24TokenGenerationInference17EncodedImageArray
++ __IVARS__TtC24TokenGenerationInference17LockedBNNSContext
++ __IVARS__TtC24TokenGenerationInference19ImageEmbeddingCache
++ __IVARS__TtC24TokenGenerationInference19LookupLanguageModel
++ __IVARS__TtC24TokenGenerationInference21ImageTokenIDGenerator
++ __IVARS__TtC24TokenGenerationInference21ToolCallLanguageModel
++ __IVARS__TtC24TokenGenerationInference22ODIEImageEncoderRunner
++ __IVARS__TtC24TokenGenerationInference23ODIELanguageModelRunner
++ __IVARS__TtC24TokenGenerationInference25ODIEImageFeatureProjector
++ __IVARS__TtC24TokenGenerationInference25OnDeviceImagePreprocessor
++ __IVARS__TtC24TokenGenerationInference27OnDeviceAttachmentTokenizer
++ __IVARS__TtC24TokenGenerationInference31MaximumLikelihoodTreeSpeculator
++ __IVARS__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7012AppContainer
++ __IVARS__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7018DraftModelCompiler
++ __IVARS__TtCC24TokenGenerationInference10KVLRUCacheP33_E608F54CD2D5DEB8748575A2CF878FDB17TokenArrayWrapper
++ __IVARS__TtCC24TokenGenerationInference19ImageEmbeddingCacheP33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E73Key
++ __METACLASS_DATA__TtC24TokenGenerationInference13ODIEBaseModel
++ __METACLASS_DATA__TtC24TokenGenerationInference14ImageTokenizer
++ __METACLASS_DATA__TtC24TokenGenerationInference15AppAssetManager
++ __METACLASS_DATA__TtC24TokenGenerationInference16TGITokenMaskObjC
++ __METACLASS_DATA__TtC24TokenGenerationInference17EncodedImageArray
++ __METACLASS_DATA__TtC24TokenGenerationInference17LockedBNNSContext
++ __METACLASS_DATA__TtC24TokenGenerationInference19ImageEmbeddingCache
++ __METACLASS_DATA__TtC24TokenGenerationInference21ImageTokenIDGenerator
++ __METACLASS_DATA__TtC24TokenGenerationInference21ToolCallLanguageModel
++ __METACLASS_DATA__TtC24TokenGenerationInference22ODIEImageEncoderRunner
++ __METACLASS_DATA__TtC24TokenGenerationInference23ODIELanguageModelRunner
++ __METACLASS_DATA__TtC24TokenGenerationInference25ODIEImageFeatureProjector
++ __METACLASS_DATA__TtC24TokenGenerationInference25OnDeviceImagePreprocessor
++ __METACLASS_DATA__TtC24TokenGenerationInference27OnDeviceAttachmentTokenizer
++ __METACLASS_DATA__TtC24TokenGenerationInference31MaximumLikelihoodTreeSpeculator
++ __METACLASS_DATA__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7012AppContainer
++ __METACLASS_DATA__TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7018DraftModelCompiler
++ __METACLASS_DATA__TtCC24TokenGenerationInference10KVLRUCacheP33_E608F54CD2D5DEB8748575A2CF878FDB17TokenArrayWrapper
++ __METACLASS_DATA__TtCC24TokenGenerationInference19ImageEmbeddingCacheP33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E73Key
++ __OBJC_$_CLASS_METHODS_E5RunnerImageTokenizerObjC
++ __OBJC_$_INSTANCE_METHODS_E5RunnerImageDataObjC
++ __OBJC_$_INSTANCE_METHODS_E5RunnerImageTokenizerObjC
++ __OBJC_$_INSTANCE_VARIABLES_E5RunnerImageDataObjC
++ __OBJC_$_INSTANCE_VARIABLES_E5RunnerImageTokenizerObjC
++ __OBJC_$_PROP_LIST_E5RunnerImageDataObjC
++ __OBJC_$_PROP_LIST_E5RunnerImageTokenizerObjC
++ __OBJC_$_PROP_LIST_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_$_PROP_LIST_EncodedImages
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_EncodedImages
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_EncodedImages
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_REFS_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_CLASS_PROTOCOLS_$_E5RunnerImageTokenizerObjC
++ __OBJC_CLASS_RO_$_E5RunnerImageDataObjC
++ __OBJC_CLASS_RO_$_E5RunnerImageTokenizerObjC
++ __OBJC_LABEL_PROTOCOL_$_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_LABEL_PROTOCOL_$_EncodedImages
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_METACLASS_RO_$_E5RunnerImageDataObjC
++ __OBJC_METACLASS_RO_$_E5RunnerImageTokenizerObjC
++ __OBJC_PROTOCOL_$_E5RunnerImageTokenizerObjCProtocol
++ __OBJC_PROTOCOL_$_EncodedImages
++ __OBJC_PROTOCOL_$_NSObject
++ __PROPERTIES__TtC24TokenGenerationInference16TGITokenMaskObjC
++ __PROPERTIES__TtC24TokenGenerationInference17EncodedImageArray
++ __PROTOCOLS__TtC24TokenGenerationInference17EncodedImageArray
++ __PROTOCOLS__TtC24TokenGenerationInference17EncodedImageArray.13
++ __Z15_computeArgTopKIDF16_EvPKT_iiPi
++ __Z15_computeArgTopKIfEvPKT_iiPi
++ __ZL25_swift_stdlib_malloc_sizePKv
++ __ZN12_GLOBAL__N_118tokenMasksToVectorEP7NSArrayIP16TGITokenMaskObjCE
++ __ZN12_GLOBAL__N_120embeddingSizeInBytesERKN4E5RT24ExecutionStreamOperationE
++ __ZN12_GLOBAL__N_120embeddingSizeInBytesERKN4E5RT24ExecutionStreamOperationE.cold.1
++ __ZN12_GLOBAL__N_128inputEmbeddingsPerImageCountERKN4E5RT24ExecutionStreamOperationE
++ __ZN12_GLOBAL__N_129outputEmbeddingsPerImageCountERKN4E5RT24ExecutionStreamOperationE
++ __ZN13TGIE5FunctionD2Ev
++ __ZN13swift_helpers11makeF16SpanEPDF16_m
++ __ZN16os_unfair_lock_sC1Ev
++ __ZN17TGIE5KVCacheEntryD1Ev
++ __ZN23ImageEmbeddingsProvider13getEmbeddingsEi
++ __ZN23ImageEmbeddingsProvider16setEncodedImagesEPU24objcproto13EncodedImages11objc_object
++ __ZN23ImageEmbeddingsProvider19projectEncodedImageE13_EncodedImage
++ __ZN23ImageEmbeddingsProvider19projectEncodedImageE13_EncodedImage.cold.1
++ __ZN23ImageEmbeddingsProviderC1ERKNSt3__14__fs10filesystem4pathES5_
++ __ZN23ImageEmbeddingsProviderC2ERKNSt3__14__fs10filesystem4pathES5_
++ __ZN23ImageEmbeddingsProviderC2ERKNSt3__14__fs10filesystem4pathES5_.cold.1
++ __ZN23ImageEmbeddingsProviderC2ERKNSt3__14__fs10filesystem4pathES5_.cold.2
++ __ZN23TGIE5ModelConfigurationD2Ev
++ __ZN25TGIE5AdapterConfigurationD2Ev
++ __ZN3cgm26token_generation_inference18espresso_inference18E5MLModuleSettingsD2Ev
++ __ZN3cgm26token_generation_inference4ajax12_GLOBAL__N_111concatenateINS1_5utils12StreamOpPairEEENSt3__16vectorIT_NS6_9allocatorIS8_EEEERKSB_SD_
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmm
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmm.cold.1
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmm.cold.2
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmm.cold.3
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmm.cold.4
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE.cold.1
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE.cold.2
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel16gatherEmbeddingsEmm
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel22prepareGatherStreamOpsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERKNS3_6vectorINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENSC_ISE_EEEE
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel24prepareDecodingStreamOpsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERKNS3_13unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESE_NS3_4hashISE_EENS3_8equal_toISE_EENSC_INS3_4pairIKSE_SE_EEEEEERKNS3_6vectorISE_NSC_ISE_EEEESU_
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel24prepareDecodingStreamOpsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERKNS3_13unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESE_NS3_4hashISE_EENS3_8equal_toISE_EENSC_INS3_4pairIKSE_SE_EEEEEERKNS3_6vectorISE_NSC_ISE_EEEESU_.cold.1
++ __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmNS3_8functionIFvRKNS1_13AJAXE5MLModel6LogitsEEEE
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizer11encodeImageEU13block_pointerFbPDF16_mRKNSt3__16vectorImNS4_9allocatorImEEEEEU13block_pointerFvPKhE
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerC1ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerC2ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerC2ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.1
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerC2ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.2
++ __ZN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerC2ERKNSt3__14__fs10filesystem4pathERKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE.cold.3
++ __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE
++ __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
++ __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEE
++ __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEE.cold.1
++ __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmNS3_8functionIFvRKNS1_13AJAXE5MLModel6LogitsEEEE
++ __ZN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel18PromptExtendModuleD2Ev
++ __ZN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_IaNS5_IaEEEENS5_ISB_EEEEmNS3_8functionIFvRKNS1_13AJAXE5MLModel6LogitsEEEE
++ __ZN3cgm26token_generation_inference4ajax3ane14getQueryLengthERKNSt3__113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_10shared_ptrIKN4E5RT17OperandDescriptorEEENS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_SF_EEEEEE
++ __ZN3cgm26token_generation_inference4ajax3ane14getQueryLengthERKNSt3__113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_10shared_ptrIN4E5RT6IOPortEEENS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_SE_EEEEEE
++ __ZN3cgm26token_generation_inference4ajax3ane15filterFunctionsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEEPK23TGIE5ModelConfigurationNS3_8functionIFbRKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS5_15ProgramFunctionEEEE
++ __ZN3cgm26token_generation_inference4ajax3ane16getContextLengthERKNSt3__113unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEENS3_10shared_ptrIKN4E5RT17OperandDescriptorEEENS3_4hashISA_EENS3_8equal_toISA_EENS8_INS3_4pairIKSA_SF_EEEEEE
++ __ZN3cgm26token_generation_inference4ajax3ane17findInTokenIDSpanERN4E5RT24ExecutionStreamOperationERKNSt3__16vectorINS1_5utils12StreamOpPairENS6_9allocatorIS9_EEEE
++ __ZN3cgm26token_generation_inference4ajax3ane17findInTokenIDSpanERN4E5RT24ExecutionStreamOperationERKNSt3__16vectorINS1_5utils12StreamOpPairENS6_9allocatorIS9_EEEE.cold.1
++ __ZN3cgm26token_generation_inference4ajax3ane22getEmbeddingVectorSizeERKNS1_5utils12StreamOpPairE
++ __ZN3cgm26token_generation_inference4ajax3ane24findBestStreamOpForQueryINS1_5utils12StreamOpPairEEET_RKNSt3__16vectorIS6_NS7_9allocatorIS6_EEEEmmm
++ __ZN3cgm26token_generation_inference4ajax3ane26hasCausalMaskAndPositionIdERKN4E5RT24ExecutionStreamOperationE
++ __ZN3cgm26token_generation_inference4ajax3ane27findGatherOpWithQueryLengthERKNSt3__16vectorINS1_5utils12StreamOpPairENS3_9allocatorIS6_EEEEm
++ __ZN3cgm26token_generation_inference4ajax40AJAXE5MLModelWithModularAttentionSupport17checkKVCacheEntryEmmmm
++ __ZN3cgm26token_generation_inference4ajax5utils10outputSpanIhEEN4E5RT4SpanIT_Lm18446744073709551615EEERNS4_24ExecutionStreamOperationERKNSt3__112basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEE
++ __ZN3cgm26token_generation_inference4ajax5utils11AJAXKVCacheD2Ev
++ __ZN3cgm26token_generation_inference4ajax5utils14addHolesToMaskERKNSt3__16vectorIaNS3_9allocatorIaEEEERKNS4_ImNS5_ImEEEE
++ __ZN3cgm26token_generation_inference4ajax5utils20setRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmmmb
++ __ZN3cgm26token_generation_inference4ajax5utils20setRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmmmbRKNSt3__16vectorINS7_IaNS6_9allocatorIaEEEENS8_ISA_EEEE
++ __ZN3cgm26token_generation_inference4ajax5utils27setCausalMaskAndPositionIdsEN4E5RT4SpanIDF16_Lm18446744073709551615EEENS4_IiLm18446744073709551615EEERKNSt3__16vectorINS8_IaNS7_9allocatorIaEEEENS9_ISB_EEEEmm
++ __ZN3cgm26token_generation_inference4ajax5utils27setCausalMaskAndPositionIdsEN4E5RT4SpanIDF16_Lm18446744073709551615EEENS4_IiLm18446744073709551615EEERKNSt3__16vectorINS8_IaNS7_9allocatorIaEEEENS9_ISB_EEEEmm.cold.1
++ __ZN3cgm26token_generation_inference4ajax5utils9inputSpanIhEEN4E5RT4SpanIT_Lm18446744073709551615EEERNS4_24ExecutionStreamOperationERKNSt3__112basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEE
++ __ZN3cgm26token_generation_inference4ajax5utils9inputSpanItEEN4E5RT4SpanIT_Lm18446744073709551615EEERNS4_24ExecutionStreamOperationERKNSt3__112basic_stringIcNSA_11char_traitsIcEENSA_9allocatorIcEEEE
++ __ZNK23ImageEmbeddingsProvider23getEmbeddingSizeInBytesEv
++ __ZNK23ImageEmbeddingsProvider5emptyEv
++ __ZNK3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel17getMaxQueryLogitsEv
++ __ZNK3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel23enumerateCacheSequencesERKN4E5RT4SpanIhLm18446744073709551615EEERKNSt3__14pairImmEENS8_8functionIFvPhmEEE
++ __ZNK3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizer21getInputBytesPerPixelEv
++ __ZNK3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizer22getInputImageDimensionEv
++ __ZNK3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizer24getEncodedImageByteCountEv
++ __ZNK3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizer26getEmbeddingsPerImageCountEv
++ __ZNK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel17getMaxQueryLogitsEv
++ __ZNK4E5RT14TensorDataType14GetElementSizeEv
++ __ZNK4E5RT24ExecutionStreamOperation15GetInOutPortRefERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZNK4E5RT24ExecutionStreamOperation16GetOutputPortRefERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZNKSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE7__cloneEPNS0_6__baseISC_EE
++ __ZNKSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE7__cloneEPNS0_6__baseISN_EE
++ __ZNKSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE7__cloneEPNS0_6__baseISZ_EE
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE7__cloneEPNS0_6__baseISH_EE
++ __ZNKSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE7__cloneEv
++ __ZNKSt3__111__copy_implclB8ne200100IPKN3cgm26token_generation_inference4ajax5utils12StreamOpPairES8_PS6_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne200100IPNS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS6_EEEESA_NS_20back_insert_iteratorINS_6vectorINS_10shared_ptrIS6_EENS_9allocatorISE_EEEEEEEENS_4pairIT_T1_EESK_T0_SL_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne200100IPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
++ __ZNKSt3__113__format_spec8__parserIcE10__validateB8ne200100ENS0_8__fieldsB8ne200100EPKcj
++ __ZNKSt3__113__format_spec8__parserIcE11__get_widthB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
++ __ZNKSt3__113__format_spec8__parserIcE15__get_precisionB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
++ __ZNKSt3__113__format_spec8__parserIcE31__get_parsed_std_specificationsB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENS0_23__parsed_specificationsIcEERT_
++ __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne200100ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
++ __ZNKSt3__114default_deleteIN3cgm26token_generation_inference18espresso_inference17AJAXE5MLModelBaseEEclB8ne200100EPS4_
++ __ZNKSt3__116__formatter_charIcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEcRSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IiNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IjNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100InNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IoNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IxNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IyNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_pointerIcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEPKvRSA_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne200100IPN3cgm26token_generation_inference4ajax5utils12StreamOpPairES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne200100IPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne200100EPKvm
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI13TGIE5FunctionEEPS2_EclB8ne200100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI25TGIE5AdapterConfigurationEEPS2_EclB8ne200100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordEEEPS6_EclB8ne200100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_EclB8ne200100Ev
++ __ZNKSt3__14__fs10filesystem4path9extensionB8ne200100Ev
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne200100ERKS6_S9_
++ __ZNKSt3__18functionIFvPhmEEclES1_m
++ __ZNKSt3__19formatterIPKccE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorES2_RSC_
++ __ZNKSt3__19formatterIbcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEbRSA_
++ __ZNKSt9type_infoeqB8ne200100ERKS_
++ __ZNSt11range_errorC1B8ne200100EPKc
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt3__110__function12__value_funcIFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKN4E5RT15ProgramFunctionEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvPhmEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEED2B8ne200100Ev
++ __ZNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEED0Ev
++ __ZNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEED1Ev
++ __ZNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEclESB_
++ __ZNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEED0Ev
++ __ZNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEED1Ev
++ __ZNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEEclESI_SM_
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEE7destroyEv
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEED0Ev
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEED1Ev
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEEclEOSW_Om
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEE7destroyEv
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEED0Ev
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEED1Ev
++ __ZNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEEclEOSD_Om
++ __ZNSt3__110__pop_heapB8ne200100INS_17_ClassicAlgPolicyEPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SA_RT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__110__pop_heapB8ne200100INS_17_ClassicAlgPolicyEPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__110shared_ptrIN4E5RT12MemoryObjectEEC2B8ne200100INS1_12BufferObjectENS_14default_deleteIS5_EELi0EEEONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4E5RT12MemoryObjectEEaSB8ne200100INS1_12BufferObjectENS_14default_deleteIS5_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4E5RT15ExecutionStreamEEC2B8ne200100IS2_NS_14default_deleteIS2_EELi0EEEONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4E5RT15ExecutionStreamEEaSB8ne200100IS2_NS_14default_deleteIS2_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4E5RT24ExecutionStreamOperationEEC2B8ne200100IS2_NS_14default_deleteIS2_EELi0EEEONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110shared_ptrIN4E5RT24ExecutionStreamOperationEEaSB8ne200100IS2_NS_14default_deleteIS2_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
++ __ZNSt3__110unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrI23ImageEmbeddingsProviderNS_14default_deleteIS1_EEE5resetB8ne200100EPS1_
++ __ZNSt3__110unique_ptrIN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerENS_14default_deleteIS4_EEE5resetB8ne200100EPS4_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IKN4E5RT17OperandDescriptorENS_14default_deleteISB_EEEEEEPvEENS_22__hash_node_destructorINS6_ISH_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS8_NS6_IS8_EEEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEED1B8ne200100Ev
++ __ZNSt3__111__formatter13__format_boolB8ne200100IcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorEbRS9_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IciNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcjNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcnNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcoNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcxNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcyNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter14__hex_to_upperB8ne200100Ec
++ __ZNSt3__111__formatter14__write_stringB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter16__format_integerB8ne200100IjPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IjcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100ImPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100ImcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100IoPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IocNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100IyPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IycNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter19__write_transformedB8ne200100IPcccPFccENS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_ET_SB_T3_NS_13__format_spec23__parsed_specificationsIT1_EET2_
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IdcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IecNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IfcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter27__write_string_no_precisionB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter28__write_using_trailing_zerosB8ne200100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_EPKT_SA_T1_NS_13__format_spec23__parsed_specificationsIT0_EEmSA_m
++ __ZNSt3__111__formatter29__format_locale_specific_formB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEdcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
++ __ZNSt3__111__formatter29__format_locale_specific_formB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEfcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
++ __ZNSt3__111__formatter32__write_using_decimal_separatorsB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEPccEET_S8_T0_S9_S9_ONS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET1_NS_13__format_spec23__parsed_specificationsISH_EE
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_floating_point_non_finiteB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEET_S7_NS_13__format_spec23__parsed_specificationsIT0_EEbb
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter6__fillB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEET0_S7_mNS_13__format_spec12__code_pointIT_EE
++ __ZNSt3__111__formatter7__writeB8ne200100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET1_NS_13__format_spec23__parsed_specificationsIT0_EEl
++ __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_OT0_NS_15iterator_traitsISB_E15difference_typeESB_
++ __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
++ __ZNSt3__111make_uniqueB8ne200100IN3cgm26token_generation_inference4ajax23ANEAJAXE5ImageTokenizerEJPKcRA5_S5_ELi0EEENS_10unique_ptrIT_NS_14default_deleteISA_EEEEDpOT0_
++ __ZNSt3__112__destroy_atB8ne200100IN3cgm26token_generation_inference4ajax5utils12StreamOpPairELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIKN4E5RT17OperandDescriptorENS_14default_deleteISC_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEELi0EEEvPT_
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeImiEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeImiEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE25__emplace_unique_key_argsImJRKNS_21piecewise_construct_tENS_5tupleIJRKmEEENSI_IJEEEEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIS2_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeImiEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeImiEENS_22__unordered_map_hasherImS2_NS_4hashImEENS_8equal_toImEELb1EEENS_21__unordered_map_equalImS2_S7_S5_Lb1EEENS_9allocatorIS2_EEED2Ev
++ __ZNSt3__112__vformat_toB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcS5_EET_S6_NS_17basic_string_viewIT0_NS_11char_traitsIS8_EEEENS_17basic_format_argsINS_20basic_format_contextIT1_S8_EEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne200100IPKcS8_EEvT_T0_m
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne200100IPKcLi0EEERS5_T_SA_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1INS_17basic_string_viewIcS2_EELi0EEERKT_
++ __ZNSt3__112construct_atB8ne200100IN3cgm26token_generation_inference4ajax5utils12StreamOpPairEJNS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS8_EEEENS6_INS7_15ExecutionStreamENS9_ISC_EEEEEPS5_EEPT_SH_DpOT0_
++ __ZNSt3__112format_errorC1B8ne200100EPKc
++ __ZNSt3__113__format_spec14__parse_arg_idB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS_8__format21__parse_number_resultIT_EES8_S8_RT0_
++ __ZNSt3__113__format_spec21__process_parsed_boolB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec21__process_parsed_charB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec23__estimate_column_widthB8ne200100IcPKcEENS0_21__column_width_resultIT0_EENS_17basic_string_viewIT_NS_11char_traitsIS8_EEEEmNS0_23__column_width_roundingE
++ __ZNSt3__113__format_spec24__process_parsed_integerB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec33__throw_invalid_type_format_errorB8ne200100EPKc
++ __ZNSt3__113__format_spec35__throw_invalid_option_format_errorB8ne200100EPKcS2_
++ __ZNSt3__113__format_spec8__detail43__estimate_column_width_grapheme_clusteringB8ne200100IPKcEENS0_21__column_width_resultIT_EES6_S6_mNS0_23__column_width_roundingE
++ __ZNSt3__113__format_spec8__parserIcE12__parse_typeB8ne200100IPKcEEvRT_
++ __ZNSt3__113__format_spec8__parserIcE13__parse_widthB8ne200100IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
++ __ZNSt3__113__format_spec8__parserIcE17__parse_precisionB8ne200100IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
++ __ZNSt3__113__format_spec8__parserIcE18__parse_fill_alignB8ne200100IPKcEEbRT_S6_
++ __ZNSt3__113__format_spec8__parserIcE7__parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS6_NS0_8__fieldsB8ne200100E
++ __ZNSt3__114__split_bufferI13TGIE5FunctionRNS_9allocatorIS1_EEE17__destruct_at_endB8ne200100EPS1_
++ __ZNSt3__114__split_bufferI25TGIE5AdapterConfigurationRNS_9allocatorIS1_EEE17__destruct_at_endB8ne200100EPS1_
++ __ZNSt3__114__split_bufferIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordERNS_9allocatorIS5_EEE17__destruct_at_endB8ne200100EPS5_
++ __ZNSt3__114__split_bufferIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordERNS_9allocatorIS5_EEED2Ev
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERNS_9allocatorIS4_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEERNS_9allocatorIS4_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__114__split_bufferINS_6vectorIaNS_9allocatorIaEEEERNS2_IS4_EEE17__destruct_at_endB8ne200100EPS4_
++ __ZNSt3__114__split_bufferINS_6vectorIaNS_9allocatorIaEEEERNS2_IS4_EEED2Ev
++ __ZNSt3__114__split_bufferImRNS_9allocatorImEEE12emplace_backIJRKmEEEvDpOT_
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_T0_
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_T0_
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorI13TGIE5FunctionEEE7destroyB8ne200100IS2_vLi0EEEvRS3_PT_
++ __ZNSt3__116allocator_traitsINS_9allocatorI25TGIE5AdapterConfigurationEEE7destroyB8ne200100IS2_vLi0EEEvRS3_PT_
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERZ15_computeArgTopKIDF16_EvPKT_iiPiE11ArgComparerNS_11__wrap_iterIS6_EEEET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERZ15_computeArgTopKIfEvPKT_iiPiE11ArgComparerNS_11__wrap_iterIS6_EEEET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__118__formatter_stringIcE5parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
++ __ZNSt3__118__visit_format_argB8ne200100IZNS_13__format_spec19__substitute_arg_idB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_S9_EEDcOSB_NSA_IT0_EE
++ __ZNSt3__118__visit_format_argB8ne200100IZNS_8__format26__handle_replacement_fieldB8ne200100IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_SC_EEDcOSD_NS_16basic_format_argISE_EE
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI13TGIE5FunctionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI25TGIE5AdapterConfigurationEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIDF16_EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN3cgm26token_generation_inference4ajax13kvcache_utils20CacheFillInstructionEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN4E5RT17ComputeDeviceTypeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6vectorIaNS1_IaEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__formatter_pointerIcE5parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
++ __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_SA_EET1_SB_SB_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_S9_EET1_SA_SA_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__119__to_chars_integralB8ne200100IjEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__119__to_chars_integralB8ne200100IoEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__119__to_chars_integralB8ne200100IyEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne200100ERKS7_
++ __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne200100ERKS7_.cold.1
++ __ZNSt3__120__throw_format_errorB8ne200100EPKc
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__120basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcE6localeB8ne200100Ev
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8ne200100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8ne200100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8ne200100EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne200100EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN4E5RT17ComponentDataTypeENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne200100EPSD_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEmEEPvEEEEEclB8ne200100EPSB_
++ __ZNSt3__122__indic_conjunct_break14__get_propertyB8ne200100EDi
++ __ZNSt3__122__indic_conjunct_break9__entriesB8ne200100E
++ __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE13__assign_fromB8ne200100IRKNS_27__optional_copy_assign_baseIS6_Lb0EEEEEvOT_
++ __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE16__construct_fromB8ne200100IRKNS_20__optional_copy_baseIS6_Lb0EEEEEvOT_
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__124__width_estimation_table17__estimated_widthB8ne200100EDi
++ __ZNSt3__124__width_estimation_table9__entriesB8ne200100E
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IjEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IoEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IyEEiT_j
++ __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_T0_
++ __ZNSt3__126basic_format_parse_contextIcE11next_arg_idB8ne200100Ev
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEbT1_SB_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEbT1_SA_T0_
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI13TGIE5FunctionEEPS3_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI25TGIE5AdapterConfigurationEEPS3_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN3cgm26token_generation_inference4ajax5utils12StreamOpPairERPFbS6_S6_EEET0_SB_SB_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERPFbS5_S5_EEET0_SA_SA_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN3cgm26token_generation_inference4ajax5utils12StreamOpPairERPFbS6_S6_EEENS_4pairIT0_bEESC_SC_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERPFbS5_S5_EEENS_4pairIT0_bEESB_SB_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI13TGIE5FunctionEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI25TGIE5AdapterConfigurationEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorI13TGIE5FunctionEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorI25TGIE5AdapterConfigurationEEPS2_S4_S4_EET2_RT_T0_T1_S5_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__144__extended_grapheme_custer_property_boundary14__get_propertyB8ne200100EDi
++ __ZNSt3__144__extended_grapheme_custer_property_boundary9__entriesB8ne200100E
++ __ZNSt3__14__fs10filesystem4path6assignB8ne200100IPKcEENS_9enable_ifIXsr13__is_pathableIT_EE5valueERS2_E4typeERKS7_
++ __ZNSt3__14__fs10filesystem4pathC2B8ne200100IA5_cvEERKT_NS2_6formatE
++ __ZNSt3__14__fs10filesystem4pathC2B8ne200100IA8_cvEERKT_NS2_6formatE
++ __ZNSt3__14__fs10filesystem4pathC2B8ne200100IPKcvEERKT_NS2_6formatE
++ __ZNSt3__14__fs10filesystemeqB8ne200100ERKNS1_4pathES4_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEC2B8ne200100ERKSD_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEC2B8ne200100EOSC_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEC2B8ne200100ERKSC_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT15ProgramFunctionEEEEC2B8ne200100ERKSC_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEC2B8ne200100ERKSC_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEED2Ev
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIKN4E5RT17OperandDescriptorENS_14default_deleteISB_EEEEEC2B8ne200100EOSF_
++ __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne200100ERKS8_
++ __ZNSt3__16__itoa10__append10B8ne200100IyEEPcS2_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa13__base_10_u32B8ne200100EPcj
++ __ZNSt3__16__itoa14__base_10_u128B8ne200100EPco
++ __ZNSt3__16invokeB8ne200100IZNS_13__format_spec19__substitute_arg_idB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_JRxEEENS_13invoke_resultISB_JDpT0_EE4typeEOSB_DpOSG_
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE16__init_with_sizeB8ne200100IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE16__init_with_sizeB8ne200100IPS1_S6_EEvT_T0_m
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE9push_backB8ne200100EOS1_
++ __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEEC2B8ne200100EmRKDF16_
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax13kvcache_utils20CacheFillInstructionENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax13kvcache_utils20CacheFillInstructionENS_9allocatorIS5_EEE9push_backB8ne200100ERKS5_
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE5eraseENS_11__wrap_iterIPKS5_EESC_
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE6resizeEm
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE7reserveEm
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE8__appendEm
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11TokenRecordENS_9allocatorIS5_EEE9push_backB8ne200100EOS5_
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKS5_EESD_EENSA_IPS5_EESD_T_T0_l
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJNS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteISC_EEEENSA_INSB_15ExecutionStreamENSD_ISG_EEEEEEEPS5_DpOT_
++ __ZNSt3__16vectorIN4E5RT17ComputeDeviceTypeENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN4E5RT17ComputeDeviceTypeENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN4E5RT17ComputeDeviceTypeENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE22__construct_one_at_endB8ne200100IJRKS3_EEEvDpOT_
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE7reserveEm
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE9push_backB8ne200100EOS3_
++ __ZNSt3__16vectorINS0_IaNS_9allocatorIaEEEENS1_IS3_EEE9push_backB8ne200100ERKS3_
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPKS6_SB_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne200100IPS6_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKS6_EESD_EENSA_IPS6_EESD_T_T0_l
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE22__construct_one_at_endB8ne200100IJRKS6_EEEvDpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE9push_backB8ne200100ERKS6_
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE13__move_assignERS3_NS_17integral_constantIbLb1EEE
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE16__init_with_sizeB8ne200100IPKaS6_EEvT_T0_m
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE16__init_with_sizeB8ne200100IPaS5_EEvT_T0_m
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKaEES8_EENS5_IPaEES8_T_T0_l
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE7reserveEm
++ __ZNSt3__16vectorIaNS_9allocatorIaEEE9push_backB8ne200100EOa
++ __ZNSt3__16vectorIaNS_9allocatorIaEEEC2B8ne200100EmRKa
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne200100IPiS5_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPKiEES8_EENS5_IPiEES8_T_T0_l
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB8ne200100ERKi
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE16__init_with_sizeB8ne200100IPlS5_EEvT_T0_m
++ __ZNSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIlNS_9allocatorIlEEEC2B8ne200100EmRKl
++ __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB8ne200100IPKmS6_EEvT_T0_m
++ __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB8ne200100IPmS5_EEvT_T0_m
++ __ZNSt3__16vectorImNS_9allocatorImEEE18__assign_with_sizeB8ne200100IPmS5_EEvT_T0_l
++ __ZNSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_Li0EEEbT1_SB_SB_T0_
++ __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_Li0EEEbT1_SA_SA_T0_
++ __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_Li0EEEvT1_SB_SB_SB_T0_
++ __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_Li0EEEvT1_SA_SA_SA_T0_
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_Li0EEEvT1_SB_SB_SB_SB_T0_
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_Li0EEEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ne200100IRPN3cgm26token_generation_inference4ajax5utils12StreamOpPairESA_EEvOT_OT0_
++ __ZNSt3__18__any_ofB8ne200100INS_11__wrap_iterIPK13TGIE5FunctionEES5_NS_10__identityEZNK23TGIE5ModelConfiguration26mutableWeightsSymbolToPathERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEUlRS3_E_EEbT_T0_RT2_RT1_
++ __ZNSt3__18__format12__vformat_toB8ne200100INS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEENT0_8iteratorEOT_OSA_
++ __ZNSt3__18__format14__parse_arg_idB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES7_S7_RT0_
++ __ZNSt3__18__format14__parse_numberB8ne200100IPKcEENS0_21__parse_number_resultIT_EES5_S5_
++ __ZNSt3__18__format15__output_bufferIcE11__transformB8ne200100IPcPFccEcEEvT_S7_T0_
++ __ZNSt3__18__format15__output_bufferIcE6__copyB8ne200100IcEEvNS_17basic_string_viewIT_NS_11char_traitsIS5_EEEE
++ __ZNSt3__18__format15__output_bufferIcE6__fillB8ne200100Emc
++ __ZNSt3__18__format15__output_bufferIcE9push_backB8ne200100Ec
++ __ZNSt3__18__format19__allocating_bufferIcE13__grow_bufferB8ne200100Em
++ __ZNSt3__18__format19__allocating_bufferIcE15__prepare_writeB8ne200100ERNS0_15__output_bufferIcEEm
++ __ZNSt3__18__format23__create_packed_storageB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEJKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESE_EEEvRyPNS_24__basic_format_arg_valueIT_EEDpRT0_
++ __ZNSt3__18__format26__handle_replacement_fieldB8ne200100IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEET_SC_SC_RT0_RT1_
++ __ZNSt3__18__format8__detail14__parse_manualB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES8_S8_RT0_
++ __ZNSt3__18for_eachB8ne200100INS_25__hash_map_const_iteratorINS_21__hash_const_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEEPvEEEEEEZNK3cgm26token_generation_inference18espresso_inference18EspressoE5MLModule12bindAllPortsEvE3$_0EET0_T_SR_SQ_
++ __ZNSt3__18optionalI13TGIE5FunctionED2Ev
++ __ZNSt3__18optionalI13TGIE5FunctionEaSB8ne200100IRKS1_vEERS2_OT_
++ __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne200100IPKcvEERS7_OT_
++ __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne200100IRA67_KcvEERS7_OT_
++ __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne200100IRKS6_vEERS7_OT_
++ __ZNSt3__18optionalINS_6localeEEaSB8ne200100IS1_vEERS2_OT_
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERZ15_computeArgTopKIDF16_EvPKT_iiPiE11ArgComparerNS_11__wrap_iterIS6_EEEEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERZ15_computeArgTopKIfEvPKT_iiPiE11ArgComparerNS_11__wrap_iterIS6_EEEEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
++ __ZNSt3__19__unicode17__code_point_viewIcE9__consumeB8ne200100Ev
++ __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne200100Ev
++ __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne200100Ev.cold.1
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break10__evaluateB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break15__evaluate_noneB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break21__evaluate_GB11_emojiB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break36__evaluate_GB9c_indic_conjunct_breakB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_breakC2B8ne200100EDi
++ __ZNSt3__19remove_ifB8ne200100INS_11__wrap_iterIPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEZN3cgm26token_generation_inference4ajax3ane15filterFunctionsENS_10shared_ptrIN4E5RT14ProgramLibraryEEEPK23TGIE5ModelConfigurationNS_8functionIFbRKS7_RKNSF_15ProgramFunctionEEEEEUlSN_E_EET_SU_SU_T0_
++ __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_
++ __ZNSt3__1plB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_OS9_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTINSt3__110__function6__baseIFvPhmEEE
++ __ZTINSt3__110__function6__baseIFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEE
++ __ZTINSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEE
++ __ZTINSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEEE
++ __ZTINSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEEE
++ __ZTINSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEEE
++ __ZTIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0
++ __ZTIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2
++ __ZTIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEEENK3$_0clEPKcRNS4_IA_hNS6_ISQ_EEEEEUlPhmE_
++ __ZTIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEEENK3$_0clEPKcEUlPhmE_
++ __ZTSNSt3__110__function6__baseIFvPhmEEE
++ __ZTSNSt3__110__function6__baseIFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEE
++ __ZTSNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEE
++ __ZTSNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEEE
++ __ZTSNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEEE
++ __ZTSNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEEE
++ __ZTSZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0
++ __ZTSZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2
++ __ZTSZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEEENK3$_0clEPKcRNS4_IA_hNS6_ISQ_EEEEEUlPhmE_
++ __ZTSZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEEENK3$_0clEPKcEUlPhmE_
++ __ZTVNSt3__110__function6__funcIZ73-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]E3$_0NS_9allocatorIS2_EEFvRKN3cgm26token_generation_inference4ajax13AJAXE5MLModel6LogitsEEEE
++ __ZTVNSt3__110__function6__funcIZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModelC1ERK23TGIE5ModelConfigurationE3$_2NS_9allocatorIS9_EEFbRKNS_12basic_stringIcNS_11char_traitsIcEENSA_IcEEEERKN4E5RT15ProgramFunctionEEEE
++ __ZTVNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNS_10unique_ptrI17TGIE5KVCacheEntryNS_14default_deleteIS7_EEEERKNS_6vectorIiNS_9allocatorIiEEEERKNSD_INSD_IaNSE_IaEEEENSE_ISK_EEEEENK3$_0clEPKcRNS6_IA_hNS8_ISS_EEEEEUlPhmE_NSE_ISX_EEFvSW_mEEE
++ __ZTVNSt3__110__function6__funcIZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNS_4pairImmEEENK3$_0clEPKcEUlPhmE_NS_9allocatorISE_EEFvSD_mEEE
++ __ZThn48_N3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel10purgeStepsERKNSt3__16vectorIiNS3_9allocatorIiEEEE
++ __ZThn48_N3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE
++ __ZThn48_N3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
++ __ZThn48_N3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEE
++ __ZThn48_N3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
++ __ZThn48_NK3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel17getMaxQueryLogitsEv
++ __ZThn48_NK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel17getMaxQueryLogitsEv
++ __ZZ33+[E5RunnerImageTokenizerObjC log]E3log
++ __ZZ33+[E5RunnerImageTokenizerObjC log]E9onceToken
++ __ZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEERKNS3_6vectorIiNS3_9allocatorIiEEEERKNSB_INSB_IaNSC_IaEEEENSC_ISI_EEEEENK3$_0clEPKcRNS4_IA_hNS6_ISQ_EEEE
++ __ZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEEENK3$_0clEPKc
++ __ZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel22fillCacheHolesIfNeededEmbENK3$_1clERKN4E5RT17OperandDescriptorENS4_4SpanIhLm18446744073709551615EEE
++ __ZZN3cgm26token_generation_inference4ajax3ane12checkIOPortsERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKN4E5RT15ProgramFunctionEENKUlNS3_13unordered_mapIS9_NS3_10shared_ptrIKNSC_17OperandDescriptorEEENS3_4hashIS9_EENS3_8equal_toIS9_EENS7_INS3_4pairISA_SK_EEEEEEE_clESS_
++ __ZZN3cgm26token_generation_inference4ajax5utils28allocateAndBindMemoryToPortsERKN4E5RT24ExecutionStreamOperationEENK3$_0clENSt3__113unordered_mapINS8_12basic_stringIcNS8_11char_traitsIcEENS8_9allocatorIcEEEENS8_10shared_ptrINS3_6IOPortEEENS8_4hashISF_EENS8_8equal_toISF_EENSD_INS8_4pairIKSF_SI_EEEEEE.cold.1
++ ___33+[E5RunnerImageTokenizerObjC log]_block_invoke
++ ___72-[E5RunnerImageTokenizerObjC tokenizeImageDataWithCallback:outputBlock:]_block_invoke
++ ___72-[E5RunnerImageTokenizerObjC tokenizeImageDataWithCallback:outputBlock:]_block_invoke_2
++ ___Block_byref_object_copy_
++ ___Block_byref_object_dispose_
++ ____ZN12_GLOBAL__N_118tokenMasksToVectorEP7NSArrayIP16TGITokenMaskObjCE_block_invoke
++ ____ZN23ImageEmbeddingsProvider13getEmbeddingsEi_block_invoke
++ ____ZN23ImageEmbeddingsProvider13getEmbeddingsEi_block_invoke.cold.1
++ ____ZN23ImageEmbeddingsProvider13getEmbeddingsEi_block_invoke.cold.2
++ ____ZN23ImageEmbeddingsProvider13getEmbeddingsEi_block_invoke.cold.3
++ ____ZN23ImageEmbeddingsProvider13getEmbeddingsEi_block_invoke.cold.4
++ ____ZN23ImageEmbeddingsProvider19projectEncodedImageE13_EncodedImage_block_invoke
++ ___block_descriptor_40_ea8_32bs_e17_B32?0^ 8Q16r^v24ls32l8
++ ___block_descriptor_40_ea8_32bs_e9_v16?0r*8ls32l8
++ ___block_descriptor_40_ea8_32r_e13_v24?0r^B8q16lr32l8
++ ___block_descriptor_68_ea8_32r40r_e27_v40?0{_EncodedImage=QQ*B}8lr32l8r40l8
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_get_extra_inhabitant_index.105Tm
++ ___swift_get_extra_inhabitant_index.10Tm
++ ___swift_get_extra_inhabitant_indexTm
++ ___swift_memcpy114_8
++ ___swift_memcpy128_8
++ ___swift_memcpy160_8
++ ___swift_memcpy169_8
++ ___swift_memcpy208_8
++ ___swift_memcpy249_8
++ ___swift_memcpy56_8
++ ___swift_memcpy64_8
++ ___swift_memcpy65_8
++ ___swift_memcpy73_8
++ ___swift_store_extra_inhabitant_index.106Tm
++ ___swift_store_extra_inhabitant_index.11Tm
++ ___swift_store_extra_inhabitant_indexTm
++ ___unnamed_2
++ ___unnamed_8
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_TokenGenerationInference
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_TokenGenerationInference
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_TokenGenerationInference
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_TokenGenerationInference
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_TokenGenerationInference
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_TokenGenerationInference
++ __swift_exceptionPersonality
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 24TokenGenerationInference0A4MaskVSHAASQ
++ _associated conformance 24TokenGenerationInference0A4MaskVSKAA11SubSequenceSl_SK
++ _associated conformance 24TokenGenerationInference0A4MaskVSKAA7IndicesSl_SK
++ _associated conformance 24TokenGenerationInference0A4MaskVSKAASl
++ _associated conformance 24TokenGenerationInference0A4MaskVSTAA8IteratorST_St
++ _associated conformance 24TokenGenerationInference0A4MaskVSkAA11SubSequenceSl_Sk
++ _associated conformance 24TokenGenerationInference0A4MaskVSkAA7IndicesSl_Sk
++ _associated conformance 24TokenGenerationInference0A4MaskVSkAASK
++ _associated conformance 24TokenGenerationInference0A4MaskVSlAA11SubSequenceSl_Sl
++ _associated conformance 24TokenGenerationInference0A4MaskVSlAA5IndexSl_SL
++ _associated conformance 24TokenGenerationInference0A4MaskVSlAA7IndicesSl_Sl
++ _associated conformance 24TokenGenerationInference0A4MaskVSlAAST
++ _associated conformance 24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLCSHAASQ
++ _associated conformance 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQ
++ _associated conformance 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQ
++ _associated conformance 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24TokenGenerationInference17AFMDecodeFunctionVSLAASQ
++ _associated conformance 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOSHAASQ
++ _associated conformance 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLCSHAASQ
++ _associated conformance 24TokenGenerationInference25AFMV5DecodeFunctionEngineVSLAASQ
++ _associated conformance 24TokenGenerationInference25AFMV7DecodeFunctionEngineVSLAASQ
++ _associated conformance 24TokenGenerationInference26E5TransformerLanguageModelC9NodeStateVSLAASQ
++ _associated conformance 24TokenGenerationInference28FoundationModelsFeatureFlagsOSHAASQ
++ _associated conformance 24TokenGenerationInference31AFMDecodeIOSpecificationVersionOSHAASQ
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _block_copy_helper.15
++ _block_descriptor.17
++ _block_destroy_helper.16
++ _container_client_create_from_audit_token
++ _container_copy_sandbox_token
++ _container_error_copy_unlocalized_description
++ _container_free_client
++ _container_get_path
++ _container_query_create
++ _container_query_free
++ _container_query_get_last_error
++ _container_query_get_single_result
++ _container_query_operation_set_client
++ _container_query_operation_set_flags
++ _container_query_set_class
++ _container_query_set_persona_unique_string
++ _flat unique So13EncodedImages_p
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 24TokenGenerationInference04StopA0VSg
++ _get_enum_tag_for_layout_string 24TokenGenerationInference17DecoderModelErrorO
++ _get_enum_tag_for_layout_string 24TokenGenerationInference17DefaultParametersVSg
++ _get_type_metadata 15Synchronization5MutexVyShySSGG.16
++ _get_type_metadata 15Synchronization6AtomicVySiG.2
++ _get_type_metadata 24TokenGenerationInference17ODIELanguageModelV.3
++ _get_witness_table SHRzr0_lSiSHHPyHC.1
++ _kCGImagePropertyPixelHeight
++ _kCGImagePropertyPixelWidth
++ _kCGImageSourceSubsampleFactor
++ _log2f
++ _objc_alloc_init
++ _objc_msgSend$addObject:
++ _objc_msgSend$appendBytes:length:
++ _objc_msgSend$array
++ _objc_msgSend$dataWithBytes:length:
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$getEncodedImageAt:withHandler:
++ _objc_msgSend$getTrailingMaskBytes:
++ _objc_msgSend$imageCount
++ _objc_msgSend$integerValue
++ _objc_msgSend$leadingZeroCount
++ _objc_msgSend$length
++ _objc_msgSend$middleOneCount
++ _objc_msgSend$numberWithUnsignedLong:
++ _objc_msgSend$runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:
++ _objc_msgSend$tokenRangeAt:
++ _objc_retain_x9
++ _sandbox_extension_consume
++ _sandbox_extension_release
++ _swift_allocateGenericClassMetadata
++ _swift_coroFrameAlloc
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_dynamicCastClass
++ _swift_getEnumCaseMultiPayload
++ _swift_getExistentialTypeMetadata
++ _swift_initClassMetadata2
++ _swift_initStructMetadata
++ _swift_isUniquelyReferenced_nonNull
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_storeEnumTagMultiPayload
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectRetain_n
++ _symbolic $s24TokenGenerationInference15LookupNodeStateP
++ _symbolic $s24TokenGenerationInference18ImageEncoderRunnerP
++ _symbolic $s24TokenGenerationInference18StatefullyLoadableP
++ _symbolic $s24TokenGenerationInference19LanguageModelRunnerP
++ _symbolic $s24TokenGenerationInference22MutableLogitCollectionP
++ _symbolic $s24TokenGenerationInference22ProcessedImageProtocolP
++ _symbolic $s24TokenGenerationInference23AFMDecodeFunctionEngineP
++ _symbolic $s24TokenGenerationInference23ArrayDescriptorProviderP
++ _symbolic $s24TokenGenerationInference23LanguageModelSpeculatorP
++ _symbolic $s24TokenGenerationInference24DraftTargetLanguageModelP
++ _symbolic $s24TokenGenerationInference27AFMDecodeFunctionDescriptorP
++ _symbolic $s24TokenGenerationInference33OnDeviceImagePreprocessorProtocolP
++ _symbolic $s24TokenGenerationInference9BaseModelP
++ _symbolic $sSK
++ _symbolic $sSk
++ _symbolic $sSl
++ _symbolic SDySS_____G 24TokenGenerationInference10E5FunctionV
++ _symbolic SDySS_____G 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic SDySS_____G 4ODIE7NDArrayC6BufferV
++ _symbolic SDySS_____GSg 24TokenGenerationInference10E5FunctionV
++ _symbolic SPy_____G s5UInt8V
++ _symbolic SPy_____GSg s4Int8V
++ _symbolic SPy_____GSg______pSgIgyg_ s5UInt8V s5ErrorP
++ _symbolic SRy_____G s5UInt8V
++ _symbolic SRy_____Gx______pIgyrzo_ s5UInt8V s5ErrorP
++ _symbolic SS3key______5valuet 4ODIE7NDArrayC6BufferV
++ _symbolic SS3key______5valuetSg 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic SS3key______5valuetSg 4ODIE7NDArrayC6BufferV
++ _symbolic SS3key_______p5valuetSg 24TokenGenerationInference08OnDeviceC11AssetObjectP
++ _symbolic SS_SSt
++ _symbolic SS______t 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic SS______t 4ODIE7NDArrayC
++ _symbolic SS______t 4ODIE7NDArrayC6BufferV
++ _symbolic SS______tSg 4ODIE7NDArrayC6BufferV
++ _symbolic SaySbG
++ _symbolic SaySiGz_Xx
++ _symbolic Say_____G 15TokenGeneration15ToolDescriptionV
++ _symbolic Say_____G 19TokenGenerationCore14ToolCallParserV13FunctionDeltaV
++ _symbolic Say_____G 24TokenGenerationInference0A6RecordV
++ _symbolic Say_____G 24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _symbolic Say_____G 24TokenGenerationInference17AFMDecodeFunctionV
++ _symbolic Say_____G 24TokenGenerationInference17AFMGatherFunctionV
++ _symbolic Say_____G 24TokenGenerationInference21ToolCallLanguageModelC4NodeV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say_____G s7Float16V
++ _symbolic Say_____G6tokens_Say_____G11likelihoodst s5Int32V s7Float16V
++ _symbolic Say______pG6logits_Si9callCountt 24TokenGenerationInference15LogitCollectionP
++ _symbolic ScCySay______pG6logits_Si9callCountt______pG 24TokenGenerationInference15LogitCollectionP s5ErrorP
++ _symbolic ScCyx______pG s5ErrorP
++ _symbolic ShySSG
++ _symbolic Si9requested_Si9availablet
++ _symbolic Si_S7it
++ _symbolic SnySiG
++ _symbolic So26E5RunnerImageTokenizerObjCC
++ _symbolic So27TGIE5ModelConfigurationObjCC
++ _symbolic So7NSCacheCy_____So6NSDataCG 24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLC
++ _symbolic So7NSCacheCy_____So7NSArrayCG 24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC
++ _symbolic Spy_____GSiSaySo8NSNumberCGSbIgyygd_ s7Float16V
++ _symbolic Sry_____GSaySiG______pIgygzo_ s7Float16V s5ErrorP
++ _symbolic Su
++ _symbolic SvSg
++ _symbolic _____ 10Accelerate9BNNSGraphO7ContextC
++ _symbolic _____ 15TokenGeneration15RequestMetadataV
++ _symbolic _____ 19TokenGenerationCore14ToolCallParserV
++ _symbolic _____ 19TokenGenerationCore16ContiguousBitSetV
++ _symbolic _____ 19TokenGenerationCore34PromptPreprocessingTemplateVersionO
++ _symbolic _____ 24TokenGenerationInference05ImageA11IDGeneratorC
++ _symbolic _____ 24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerV
++ _symbolic _____ 24TokenGenerationInference0A4MaskV
++ _symbolic _____ 24TokenGenerationInference0A6RecordV
++ _symbolic _____ 24TokenGenerationInference10KVLRUCacheC0A12ArrayWrapper33_E608F54CD2D5DEB8748575A2CF878FDBLLC
++ _symbolic _____ 24TokenGenerationInference12AFMUtilitiesV
++ _symbolic _____ 24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionV
++ _symbolic _____ 24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC
++ _symbolic _____ 24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _symbolic _____ 24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV10SignposterV
++ _symbolic _____ 24TokenGenerationInference13LogitIndexSetO
++ _symbolic _____ 24TokenGenerationInference13ModelMetadataV
++ _symbolic _____ 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____ 24TokenGenerationInference13ODIEBaseModelC
++ _symbolic _____ 24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _symbolic _____ 24TokenGenerationInference14ImageTokenizerC
++ _symbolic _____ 24TokenGenerationInference14ProcessedImageV
++ _symbolic _____ 24TokenGenerationInference15AdapterMetadataV
++ _symbolic _____ 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____ 24TokenGenerationInference15AppAssetManagerC
++ _symbolic _____ 24TokenGenerationInference16LinearSpeculatorV
++ _symbolic _____ 24TokenGenerationInference16TGITokenMaskObjCC
++ _symbolic _____ 24TokenGenerationInference17AFMDecodeFunctionV
++ _symbolic _____ 24TokenGenerationInference17AFMGatherFunctionV
++ _symbolic _____ 24TokenGenerationInference17DecoderModelErrorO
++ _symbolic _____ 24TokenGenerationInference17DefaultParametersV
++ _symbolic _____ 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____ 24TokenGenerationInference17EncodedImageArrayC
++ _symbolic _____ 24TokenGenerationInference17LockedBNNSContextC
++ _symbolic _____ 24TokenGenerationInference17ODIELanguageModelV
++ _symbolic _____ 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic _____ 24TokenGenerationInference17PreprocessedImageV
++ _symbolic _____ 24TokenGenerationInference18DraftModelCompiler33_568BE640AB36247B38BDDCAC53FE0F70LLC
++ _symbolic _____ 24TokenGenerationInference18TopKTreeSpeculatorV
++ _symbolic _____ 24TokenGenerationInference19CLIPImagePlanarizerV
++ _symbolic _____ 24TokenGenerationInference19ImageEmbeddingCacheC
++ _symbolic _____ 24TokenGenerationInference19ImageEmbeddingCacheC3Key33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E7LLC
++ _symbolic _____ 24TokenGenerationInference19LanguageModelLoaderV
++ _symbolic _____ 24TokenGenerationInference19LookupLanguageModelC
++ _symbolic _____ 24TokenGenerationInference19LookupLanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLV
++ _symbolic _____ 24TokenGenerationInference20BasicLogitCollectionV
++ _symbolic _____ 24TokenGenerationInference20EmptyLogitCollectionV
++ _symbolic _____ 24TokenGenerationInference20PriorOutputNodeStateV
++ _symbolic _____ 24TokenGenerationInference21PromptLookupNodeStateV
++ _symbolic _____ 24TokenGenerationInference21ToolCallLanguageModelC
++ _symbolic _____ 24TokenGenerationInference21ToolCallLanguageModelC4NodeV
++ _symbolic _____ 24TokenGenerationInference22ODIEImageEncoderRunnerC
++ _symbolic _____ 24TokenGenerationInference22SoftmaxLogitCollectionV
++ _symbolic _____ 24TokenGenerationInference22SoftmaxLogitPresamplerV
++ _symbolic _____ 24TokenGenerationInference23ODIELanguageModelRunnerC
++ _symbolic _____ 24TokenGenerationInference24LookupLanguageModelStateV
++ _symbolic _____ 24TokenGenerationInference25AFMV5DecodeFunctionEngineV
++ _symbolic _____ 24TokenGenerationInference25AFMV7DecodeFunctionEngineV
++ _symbolic _____ 24TokenGenerationInference25ODIEImageFeatureProjectorC
++ _symbolic _____ 24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V
++ _symbolic _____ 24TokenGenerationInference25OnDeviceImagePreprocessorC
++ _symbolic _____ 24TokenGenerationInference27OnDeviceAttachmentTokenizerC
++ _symbolic _____ 24TokenGenerationInference28FoundationModelsFeatureFlagsO
++ _symbolic _____ 24TokenGenerationInference31AFMDecodeIOSpecificationVersionO
++ _symbolic _____ 24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC
++ _symbolic _____ 24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLV
++ _symbolic _____ 24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC15DraftLogitCache33_47A47F8E672523A25CA47E1261474032LLV
++ _symbolic _____ 24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV
++ _symbolic _____ 2os12OSSignposterV
++ _symbolic _____ 4ODIE17ProgramDescriptorV
++ _symbolic _____ 4ODIE7NDArrayC
++ _symbolic _____ 4ODIE8FunctionC
++ _symbolic _____ So10BNNSTensora
++ _symbolic _____ So12BNNSDataTypea
++ _symbolic _____ So13_EncodedImageV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s5Int64V
++ _symbolic _____ s5UInt8V
++ _symbolic _____ s7Float16V
++ _symbolic _____10likelihood_Si6target_Si5draftt8nodePairt s7Float16V
++ _symbolic _____Igy_ So13_EncodedImageV
++ _symbolic _____Sg 10Accelerate9BNNSGraphO7ContextC
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 12ModelCatalog21LLMModelAssetMetadataV34PromptPreprocessingTemplateVersionO
++ _symbolic _____Sg 15TokenGeneration21SpeculationParametersV
++ _symbolic _____Sg 15TokenGeneration32ImageTokenizationRecommendationsV
++ _symbolic _____Sg 15TokenGeneration43PromptCompletionEventCandidateToolCallDeltaV
++ _symbolic _____Sg 19TokenGenerationCore06GuidedB17VocabularyManagerV
++ _symbolic _____Sg 19TokenGenerationCore18ModelConfigurationV
++ _symbolic _____Sg 19TokenGenerationCore30ImageTokenizationConfigurationV
++ _symbolic _____Sg 19TokenGenerationCore34PromptPreprocessingTemplateVersionO
++ _symbolic _____Sg 20ModelManagerServices24CustomAssetConfigurationV
++ _symbolic _____Sg 24TokenGenerationInference08OnDeviceC25AssetObjectImageTokenizerV
++ _symbolic _____Sg 24TokenGenerationInference12AppContainer33_568BE640AB36247B38BDDCAC53FE0F70LLC
++ _symbolic _____Sg 24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _symbolic _____Sg 24TokenGenerationInference13LogitIndexSetO
++ _symbolic _____Sg 24TokenGenerationInference13ModelMetadataV
++ _symbolic _____Sg 24TokenGenerationInference17AFMDecodeFunctionV
++ _symbolic _____Sg 24TokenGenerationInference17DefaultParametersV
++ _symbolic _____Sg 24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V
++ _symbolic _____Sg 28MetalPerformanceShadersGraph16MPSGraphDelegateC
++ _symbolic _____Sg 3XPC13XPCDictionaryV
++ _symbolic _____Sg 3XPC16XPCCodableObjectV
++ _symbolic _____Sg 4ODIE11OperandTypeO
++ _symbolic _____Sg 4ODIE15ArrayDescriptorV
++ _symbolic _____Sg 4ODIE17ProgramDescriptorV
++ _symbolic _____Sg 4ODIE18FunctionDescriptorV
++ _symbolic _____Sg 4ODIE24DelegateProgramArgumentsV
++ _symbolic _____Sg 4ODIE25DelegateFunctionArgumentsV
++ _symbolic _____Sg 4ODIE7NDArrayC6BufferV
++ _symbolic _____Sg So13_EncodedImageV
++ _symbolic _____Sg_ABt 19TokenGenerationCore34PromptPreprocessingTemplateVersionO
++ _symbolic ______AAt 24TokenGenerationInference0aB13ConfigurationV11DecoderTypeO
++ _symbolic ______AAt 24TokenGenerationInference22LanguageModelReferenceO
++ _symbolic ___________t 24TokenGenerationInference21SamplingDecoderPromptV 0aB00F0V9RenderingV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 12ModelCatalog25AssetBackedImageTokenizerP
++ _symbolic ______p 24TokenGenerationInference18ImageEncoderRunnerP
++ _symbolic ______p 24TokenGenerationInference19LanguageModelRunnerP
++ _symbolic ______p 24TokenGenerationInference22MutableLogitCollectionP
++ _symbolic ______p 24TokenGenerationInference22ProcessedImageProtocolP
++ _symbolic ______p 24TokenGenerationInference23AFMDecodeFunctionEngineP
++ _symbolic ______p 24TokenGenerationInference23LanguageModelSpeculatorP
++ _symbolic ______p 24TokenGenerationInference24DraftTargetLanguageModelP
++ _symbolic ______p 24TokenGenerationInference33OnDeviceImagePreprocessorProtocolP
++ _symbolic ______p 24TokenGenerationInference9BaseModelP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSg 12ModelCatalog25AssetBackedImageTokenizerP
++ _symbolic ______pSg 19TokenGenerationCore19AttachmentTokenizerP
++ _symbolic ______pSg 24TokenGenerationInference22MutableLogitCollectionP
++ _symbolic ______pSg 24TokenGenerationInference9BaseModelP
++ _symbolic ______pSg So13EncodedImagesP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______ypt So11CFStringRefa
++ _symbolic _____m 24TokenGenerationInference15AppAssetManagerC
++ _symbolic _____yS2i_G SD4KeysV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 4ODIE7NDArrayC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 4ODIE7NDArrayC6BufferV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 4ODIE7OperandO
++ _symbolic _____ySS______p_G SD4KeysV 24TokenGenerationInference08OnDeviceD11AssetObjectP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 4ODIE7NDArrayC
++ _symbolic _____ySbG s23_ContiguousArrayStorageC
++ _symbolic _____yShySSGG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySiG 15Synchronization6AtomicV
++ _symbolic _____ySiSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_____G s18_DictionaryStorageC s5Int32V
++ _symbolic _____y__SfG 10Accelerate9BNNSGraphO7BuilderV6TensorV
++ _symbolic _____y_____10likelihood_Si6target_Si5draftt8nodePairtG s23_ContiguousArrayStorageC s7Float16V
++ _symbolic _____y_____G 24TokenGenerationInference19LookupLanguageModelC AA06PromptD9NodeStateV
++ _symbolic _____y_____G 24TokenGenerationInference19LookupLanguageModelC AA20PriorOutputNodeStateV
++ _symbolic _____y_____G 4ODIE25UnsafeMutableArrayPointerV s5Int32V
++ _symbolic _____y_____G 4ODIE25UnsafeMutableArrayPointerV s6UInt16V
++ _symbolic _____y_____G 4ODIE25UnsafeMutableArrayPointerV s7Float16V
++ _symbolic _____y_____G s10ArraySliceV 24TokenGenerationInference0C6RecordV
++ _symbolic _____y_____G s16IndexingIteratorV 24TokenGenerationInference0C4MaskV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24TokenGenerationInference13ModelMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24TokenGenerationInference15AdapterMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24TokenGenerationInference17DefaultParametersV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19TokenGenerationCore14ToolCallParserV13FunctionDeltaV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference08OnDeviceF25AssetObjectImageTokenizerV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference0D4MaskV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference0D6RecordV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference14ProcessedImageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference17AFMDecodeFunctionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference17AFMGatherFunctionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference20PriorOutputNodeStateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference21PromptLookupNodeStateV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference21ToolCallLanguageModelC4NodeV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation4ToolV8FunctionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 29GenerativeFunctionsFoundation8ToolTypeV0H0O
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 4ODIE0B10DescriptorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 4ODIE17ProgramDescriptorV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So10BNNSTensora
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s7Float16V
++ _symbolic _____y_____G s5SliceV 24TokenGenerationInference0B4MaskV
++ _symbolic _____y_______G 10Accelerate9BNNSGraphO7BuilderV6TensorV s5Int32V
++ _symbolic _____y_______G 10Accelerate9BNNSGraphO7BuilderV6TensorV s7Float16V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10Accelerate9BNNSGraphO16TensorDescriptorP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 24TokenGenerationInference19LanguageModelRunnerP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 24TokenGenerationInference22ProcessedImageProtocolP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 4ODIE8CompilerC08DelegateE0P
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 4ODIE8CompilerC9SegmenterP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y_____y_____y_____GGG s16IteratorSequenceV s08IndexingA0V s10ArraySliceV 24TokenGenerationInference0F6RecordV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____yxG 24TokenGenerationInference11NodeStorageV
++ _symbolic _____yxG 24TokenGenerationInference24LookupLanguageModelStateV
++ _type_layout_string 24TokenGenerationInference0A4MaskV
++ _type_layout_string 24TokenGenerationInference0A6RecordV
++ _type_layout_string 24TokenGenerationInference12AFMUtilitiesV20CacheFillInstructionV
++ _type_layout_string 24TokenGenerationInference12ImageEncoder33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _type_layout_string 24TokenGenerationInference13_EncodedImage33_EDB8B1D8F9C2943CA163A428958D5177LLV
++ _type_layout_string 24TokenGenerationInference14ProcessedImageV
++ _type_layout_string 24TokenGenerationInference15AdapterMetadataV
++ _type_layout_string 24TokenGenerationInference15LookupNodeStateRzlAA0D13LanguageModelC03OneA15LogitCollection33_8EB83956DD3FD608D1BAE4532911F64CLLVyx_G
++ _type_layout_string 24TokenGenerationInference15LookupNodeStateRzlAA0d13LanguageModelF0VyxG
++ _type_layout_string 24TokenGenerationInference16LinearSpeculatorV
++ _type_layout_string 24TokenGenerationInference17AFMDecodeFunctionV
++ _type_layout_string 24TokenGenerationInference17AFMGatherFunctionV
++ _type_layout_string 24TokenGenerationInference17DecoderModelErrorO
++ _type_layout_string 24TokenGenerationInference17DefaultParametersV
++ _type_layout_string 24TokenGenerationInference17ODIELanguageModelV23KeyValueCacheDescriptorV
++ _type_layout_string 24TokenGenerationInference17PreprocessedImageV
++ _type_layout_string 24TokenGenerationInference18TopKTreeSpeculatorV
++ _type_layout_string 24TokenGenerationInference19CLIPImagePlanarizerV
++ _type_layout_string 24TokenGenerationInference20PriorOutputNodeStateV
++ _type_layout_string 24TokenGenerationInference21PromptLookupNodeStateV
++ _type_layout_string 24TokenGenerationInference21ToolCallLanguageModelC4NodeV
++ _type_layout_string 24TokenGenerationInference25AFMV5DecodeFunctionEngineV
++ _type_layout_string 24TokenGenerationInference25AFMV7DecodeFunctionEngineV
++ _type_layout_string 24TokenGenerationInference25ODIEImageFeatureProjectorC0eF0V
++ _type_layout_string 24TokenGenerationInference31MaximumLikelihoodTreeSpeculatorC10MLTreeNode33_47A47F8E672523A25CA47E1261474032LLV
++ _type_layout_string 24TokenGenerationInference37OnDeviceE5ImageTokenizerConfigurationV
++ _type_layout_string So10BNNSTensora
++ _type_layout_string So13_EncodedImageV
++ _xpc_get_type
+- -[E5RunnerObjC maxTokenTreeCount]
+- -[E5RunnerObjC purgeUnusedKeyValueCache:trgIdxs:]
+- -[E5RunnerObjC runTokens:tokenTreeIndexes:tokenMask:outputBlock:]
+- -[E5RunnerObjC runTokens:tokenTreeIndexes:tokenMask:outputBlock:].cold.1
+- -[E5RunnerObjC setKVCacheEntry:startIndex:error:]
+- -[E5RunnerObjC setKVCacheEntry:startIndex:error:].cold.1
+- -[E5RunnerObjC supportsNonLinearRunning]
+- -[TGIE5KVCacheEntryObjC .cxx_construct]
+- -[TGIE5KVCacheEntryObjC .cxx_destruct]
+- -[TGIE5KVCacheEntryObjC bufferSize]
+- -[TGIE5KVCacheEntryObjC copyWithZone:]
+- -[TGIE5KVCacheEntryObjC initWithKVCacheEntry:]
+- -[TGIE5KVCacheEntryObjC kvCacheEntry]
+- -[TGIE5KVCacheEntryObjC tokenCount]
+- GCC_except_table143
+- GCC_except_table205
+- GCC_except_table219
+- GCC_except_table223
+- GCC_except_table236
+- GCC_except_table245
+- GCC_except_table246
+- GCC_except_table258
+- GCC_except_table259
+- GCC_except_table264
+- GCC_except_table265
+- GCC_except_table291
+- GCC_except_table292
+- GCC_except_table294
+- GCC_except_table295
+- GCC_except_table296
+- GCC_except_table297
+- GCC_except_table298
+- GCC_except_table299
+- GCC_except_table300
+- GCC_except_table301
+- GCC_except_table302
+- GCC_except_table303
+- GCC_except_table304
+- GCC_except_table305
+- GCC_except_table323
+- GCC_except_table325
+- GCC_except_table352
+- GCC_except_table353
+- GCC_except_table359
+- GCC_except_table363
+- GCC_except_table404
+- GCC_except_table406
+- GCC_except_table416
+- GCC_except_table417
+- GCC_except_table425
+- GCC_except_table426
+- GCC_except_table445
+- GCC_except_table446
+- GCC_except_table454
+- _$s10Accelerate4BNNSO10DataLayoutOMa
+- _$s10Accelerate4BNNSO10DataLayoutOMn
+- _$s10Accelerate4BNNSO10DataLayoutOSgMD
+- _$s10Accelerate4BNNSO14applyReduction_5input6output7weights16filterParametersyAC0D8FunctionO_So21BNNSNDArrayDescriptoraA2LSgSo010BNNSFilterI0aSgtKFZ
+- _$s10Accelerate4BNNSO15applyActivation10activation5input6output9batchSize16filterParametersyAC0D8FunctionO_So21BNNSNDArrayDescriptoraAMSiSo010BNNSFilterK0aSgtKFZ
+- _$s10Accelerate4BNNSO17ReductionFunctionO6argMaxyA2EmFWC
+- _$s10Accelerate4BNNSO17ReductionFunctionOMa
+- _$s10Accelerate4BNNSO18ActivationFunctionO7softmaxyA2EmFWC
+- _$s10Accelerate4BNNSO18ActivationFunctionOMa
+- _$s10Accelerate4BNNSO5ShapeO12arrayLiteralAESid_tcfC
+- _$s10Accelerate4BNNSO5ShapeO4sizeSi_S7itvg
+- _$s10Accelerate4BNNSO5ShapeO6layoutSo14BNNSDataLayoutavg
+- _$s10Accelerate4BNNSO5ShapeO6strideSi_S7itvg
+- _$s10Accelerate4BNNSO5ShapeOMa
+- _$s10Accelerate4BNNSO5ShapeO_10dataLayout6strideAESaySiG_AC04DataE0OSgAHSgtcfC
+- _$s10Accelerate4BNNSO9applyTopK1k5input10bestValues0F7Indices4axis9batchSize16filterParametersySi_So21BNNSNDArrayDescriptoraA2MS2iSo010BNNSFilterM0aSgtKFZ
+- _$s10Foundation4UUIDV3key_24TokenGenerationInference15DataStreamStateV5valuetWOb
+- _$s10Foundation4UUIDV3key_24TokenGenerationInference15DataStreamStateV5valuetWOhTm
+- _$s10Foundation4UUIDVSgWOcTm
+- _$s10Foundation8IndexSetV0B0VAESQAAWL
+- _$s10Foundation8IndexSetV0B0VMa
+- _$s10Foundation8IndexSetV0B0VSQAAMc
+- _$s10Foundation8IndexSetV6insertySb8inserted_Si17memberAfterInserttSiF
+- _$s10Foundation8IndexSetV7isEmptySbvg
+- _$s10Foundation8IndexSetVACSKAAWL
+- _$s10Foundation8IndexSetVACSlAAWL
+- _$s10Foundation8IndexSetVACs23CustomStringConvertibleAAWL
+- _$s10Foundation8IndexSetVACycfC
+- _$s10Foundation8IndexSetVMa
+- _$s10Foundation8IndexSetVMn
+- _$s10Foundation8IndexSetVSKAAMc
+- _$s10Foundation8IndexSetVSlAAMc
+- _$s10Foundation8IndexSetVs23CustomStringConvertibleAAMc
+- _$s12ModelCatalog019AssetBackedLLMDraftA0_pWOb
+- _$s15TokenGeneration0aB5ErrorO09inferenceC7Context20ModelManagerServices09InferenceC0O0E0Vvg
+- _$s15TokenGeneration0aB5ErrorOACs0C0AAWl
+- _$s15TokenGeneration6PromptV08RenderedC8FragmentV4textSSvg
+- _$s15TokenGeneration6PromptV08RenderedC8FragmentVMa
+- _$s15TokenGeneration6PromptV0aB4CoreE06renderC7Modules10tokenTable23localizationOverrideMapSayAD0C6ModuleOGSDyAC07SpecialA0VypG_SDyALSDyS2SGGtKF
+- _$s19CollectionsInternal6BitSetV10isDisjoint4withSbAC_tF
+- _$s19CollectionsInternal6BitSetV10startIndexAC0F0Vvg
+- _$s19CollectionsInternal6BitSetV11descriptionSSvg
+- _$s19CollectionsInternal6BitSetV12arrayLiteralACSid_tcfCTf4gn_n
+- _$s19CollectionsInternal6BitSetV12intersectionyA2CF
+- _$s19CollectionsInternal6BitSetV3maxSiSgyF
+- _$s19CollectionsInternal6BitSetV5countSivg
+- _$s19CollectionsInternal6BitSetV5index5afterAC5IndexVAG_tF
+- _$s19CollectionsInternal6BitSetV5index6beforeAC5IndexVAG_tF
+- _$s19CollectionsInternal6BitSetV5unionyA2CF
+- _$s19CollectionsInternal6BitSetV6insertySb8inserted_Si17memberAfterInserttSiF
+- _$s19CollectionsInternal6BitSetV7isEmptySbvg
+- _$s19CollectionsInternal6BitSetV8IteratorV4nextSiSgyF
+- _$s19CollectionsInternal6BitSetV8IteratorVyAeCcfC
+- _$s19CollectionsInternal6BitSetV8containsySbSiF
+- _$s19CollectionsInternal6BitSetV8endIndexAC0F0Vvg
+- _$s19CollectionsInternal6BitSetVACycfC
+- _$s19CollectionsInternal6BitSetVMn
+- _$s19CollectionsInternal6BitSetVyACxncSTRzSi7ElementRtzlufCSD4KeysVyS2i4next_Sf5logitt_G_Tt0g5
+- _$s19CollectionsInternal6BitSetVyACxncSTRzSi7ElementRtzlufCSD4KeysVyS2i_G_Tt0g5
+- _$s19CollectionsInternal6BitSetVyACxncSTRzSi7ElementRtzlufCSD4KeysVyS2i_G_Tt0g5Tm
+- _$s19CollectionsInternal6BitSetVyACxncSTRzSi7ElementRtzlufCSaySiG_Tt0g5Tf4g_n
+- _$s19TokenGenerationCore0A6IDMaskV6bitSet19CollectionsInternal03BitF0VyF
+- _$s19TokenGenerationCore11OverridableVySSGMaTm
+- _$s19TokenGenerationCore15TokenizerRunnerC8tokenize13promptModules10tokenTableSayAA21TokenizedPromptModuleVGSayAA0lM0OG_SDy0aB00L0V07SpecialA0VypGtKFTj
+- _$s19TokenGenerationCore21TokenizedPromptModuleV15promptFragmentsSay0aB00E0V08RenderedE8FragmentVGvg
+- _$s19TokenGenerationCore21TokenizedPromptModuleV8tokenIDsSaySiGvg
+- _$s19TokenGenerationCore7GrammarV6schemaAC29GenerativeFunctionsFoundation6SchemaV_tcfC
+- _$s19TokenGenerationCore7GrammarVMn
+- _$s19TokenGenerationCore7GrammarVSgMD
+- _$s19TokenGenerationCore7GrammarVSgWOb
+- _$s19TokenGenerationCore7GrammarVSgWOcTm
+- _$s19TokenGenerationCore7GrammarVSgWOhTm
+- _$s20ModelManagerServices14InferenceErrorO021unspecifiedUnderlyingE0yA2C7ContextVcACmFWC
+- _$s20ModelManagerServices17InferenceProviderPAAE13requestStream10clientData13configurationSci_pAA06ClientI0V_AA0dE20RequestConfigurationVtF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTQ1_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTQ4_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY10_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY11_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY12_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY13_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY14_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY15_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY16_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY2_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY3_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY5_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY6_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY7_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY8_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTY9_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC11countTokens33_F67B098F505663682541EE68977BD2AALL11requestUUID6prompt13configuration30shouldDetokenizeRenderedPrompt20ModelManagerServices10ClientDataV10Foundation0Q0V_0aB00W0VAJ0cG20RequestConfigurationVSbtYaAJ0C5ErrorOYKFTu
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TA
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TATQ0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TATu
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ18_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ1_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ24_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ29_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ2_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ31_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ34_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ36_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ39_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TQ7_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY10_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY11_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY12_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY13_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY14_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY15_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY16_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY17_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY19_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY20_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY21_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY22_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY23_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY25_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY26_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY27_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY28_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY30_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY32_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY33_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY35_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY37_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY38_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY3_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY40_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY4_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY5_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY6_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY8_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_TY9_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFAjK_pSgyYaYbKcfU_Tu
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFyyYbcfU0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC13requestStream10clientData13configuration9isOneShotAA0kI0Vy0aB021PromptCompletionEvent_pG10Foundation0K0V_20ModelManagerServices0cG20RequestConfigurationVSbtFyyYbcfU0_TA
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY12_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC14requestOneShot10clientData13configuration20ModelManagerServices06ClientL0VAI_AG0cG20RequestConfigurationVtYaAG0C5ErrorOYKFTY14_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKFTQ1_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKFTY0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKFTY2_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKFTY3_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC16inferenceRequest10clientData27promptTemplateConfigurationAA0cI0V10Foundation0K0V_AA06PromptmN0VSgtYa20ModelManagerServices0C5ErrorOYKFTu
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC7process33_F67B098F505663682541EE68977BD2AALL6prompt9tokenizer10tokenTable23localizationOverrideMap30shouldDetokenizeRenderedPromptAA015SamplingDecoderY0V_0aB00Y0V9RenderingVtAO_0aB4Core15TokenizerRunnerCSDyAO07SpecialA0VypGSDyAVSDyS2SGGSbtKF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY0_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY10_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY11_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY12_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY1_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY2_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY3_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY4_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY5_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY6_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY7_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY8_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTY9_
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderC9loadAsset33_F67B098F505663682541EE68977BD2AALL09inferenceI10Identifier7versionySS_SSSgtYa20ModelManagerServices0C5ErrorOYKFTu
+- _$s24TokenGenerationInference011TG_OnDeviceC8ProviderCACycfCTf4d_n
+- _$s24TokenGenerationInference015MetadataSpecialA0O10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s24TokenGenerationInference04StopA0V10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s24TokenGenerationInference04StopA0V2eeoiySbAC_ACtFZTf4nnd_n
+- _$s24TokenGenerationInference06GuidedB13ConfigurationV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_n
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_nTQ1_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_nTY0_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_nTY2_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_nTY3_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKF04$s24ab11Inference08de3C14fg38C06createcF07request13configuration9islm14AA0decF0CAA0C7n4V_20op11Services0c8r3N13s13VSbtYaKFAA021wx2O8Y13_pAaO_pXEfU5_Tf1ncnnnnnnnnnn_nTu
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTA
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTATQ0_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTATu
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTQ1_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTY0_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTY2_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTY3_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKF12buildDecoderL_yAA08SamplingU0_pAA021DeterministicLanguageO8Protocol_pAaQ_pXEYaKFTu
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFAA014MaskedLanguageO0CAA013DeterministicuO8Protocol_pXEfU4_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFAA014MaskedLanguageO0CAA013DeterministicuO8Protocol_pXEfU4_TA
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTQ12_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTY14_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTY15_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTY16_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC06createcF07request13configuration9isOneShotAA0decF0CAA0C7RequestV_20ModelManagerServices0c8ProviderN13ConfigurationVSbtYaKFTY17_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVAA0decnu2E5P0VAA0decnrT0_ptYaKF
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVAA0decnu2E5P0VAA0decnrT0_ptYaKFTY0_
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVAA0decnu2E5P0VAA0decnrT0_ptYaKFTq
+- _$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVAA0decnu2E5P0VAA0decnrT0_ptYaKFTu
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF010identifier7version20shouldDoVersionCheckySS_SSSgSbt20ModelManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC04loadF010identifier7version20shouldDoVersionCheckySS_SSSgSbt20ModelManagerServices0C5ErrorOYKFTq
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgt0P15ManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC12loadE5Runner18modelConfiguration16draftingBehaviorySo010TGIE5ModelL4ObjCC_AA08DraftingN0VSgt0P15ManagerServices0C5ErrorOYKFTq
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0Vt0T15ManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC15handleTokenizer33_65818D6FA4B5F545C6B162D7CBE031AELL17tokenizerResource5assety12ModelCatalog0f6BackedI0_p_AA0F0Vt0V15ManagerServices0C5ErrorOYKFTv_r
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleDraftModel33_65818D6FA4B5F545C6B162D7CBE031AELL05draftJ05assety0J7Catalog0f14BackedLLMDraftJ0_p_AA0F0Vt0J15ManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC16handleLLMAdapter33_65818D6FA4B5F545C6B162D7CBE031AELL10llmAdapter5assety12ModelCatalog0f6BackedI0_p_AA0F0Vt0V15ManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC20makeDraftingBehavior33_65818D6FA4B5F545C6B162D7CBE031AELL17defaultParametersAA0iJ0VAA07DefaultU0VSg_tF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC25modelConfigurationWithURL33_65818D6FA4B5F545C6B162D7CBE031AELL_0H8Resource07adapterU11InformationSo017TGIMutableE5ModelI4ObjCC_AA0Z8MetadataVSgt10Foundation0K0V_0Z7Catalog0f6BackedU0_pAA07AdapteruW0VSgt0Z15ManagerServices0C5ErrorOYKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC27promptTemplateConfiguration33_65818D6FA4B5F545C6B162D7CBE031AELL5assetAA06PromptiJ0VAA0F0V_tKF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiersySaySSG_tYaF
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiersySaySSG_tYaFTY0_
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiersySaySSG_tYaFTq
+- _$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC7prewarm06bundleF17ObjectIdentifiersySaySSG_tYaFTu
+- _$s24TokenGenerationInference08OnDeviceC18ProviderDataSourceC06createC14ContextFactory15assetRepository18inferenceOverrides04dataH0AA0decjK8Protocol_pAA0dec5AssetmQ0_p_AA0decoQ0_pAA0decfghQ0_ptF
+- _$s24TokenGenerationInference08OnDeviceC18ProviderDataSourceC25modelMetadataFromResourceyAA05ModelJ0VSg0M7Catalog011AssetBackedL0_pKFTf4nd_n
+- _$s24TokenGenerationInference08OnDeviceC20AssetObjectBaseModelVWOhTm
+- _$s24TokenGenerationInference08OnDeviceC23AssetRepositoryProtocolP04loadF010identifier7version20shouldDoVersionCheckySS_SSSgSbtYa20ModelManagerServices0C5ErrorOYKFTq
+- _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP14createE5Runner18modelConfigurationSo0kL4ObjCCSo010TGIE5ModelnO1CC_tKFTq
+- _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP15createBaseModel4withSo05TGIE5kL4ObjCCSo0nl13ConfigurationO1CC_tFTq
+- _$s24TokenGenerationInference08OnDeviceC26ProviderDataSourceProtocolP32createE5TransformerLanguageModel4with26shouldFlattenPromptModulesAA0klmN0CSo0K10RunnerObjCC_SbtFTq
+- _$s24TokenGenerationInference08OnDeviceC7ContextC7decoder9tokenizer22tokenIDToTextConverter21inferenceAssetObjects16specialTokensMap20localizationMetadata010classifierT004stopA0AcA15SamplingDecoder_p_0aB4Core15TokenizerRunnerCAM0ajkL8Protocol_pSayAA0decN6Object_pGSDySSAA0t7SpecialA0OGSgSDySSAUGSgAA010ClassifierT0VSgAA04StopA0VSgtcfCTq
+- _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p10Foundation0J0V_20ModelManagerServices0cF20RequestConfigurationVtF
+- _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p10Foundation0J0V_20ModelManagerServices0cF20RequestConfigurationVtFAI0aB021PromptCompletionEvent_pYaYbcfU_
+- _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p10Foundation0J0V_20ModelManagerServices0cF20RequestConfigurationVtFAI0aB021PromptCompletionEvent_pYaYbcfU_TY0_
+- _$s24TokenGenerationInference08OnDeviceC8ProviderC13requestStream10clientData13configurationSci_p10Foundation0J0V_20ModelManagerServices0cF20RequestConfigurationVtFAI0aB021PromptCompletionEvent_pYaYbcfU_Tu
+- _$s24TokenGenerationInference08OnDeviceC9OverridesVWOb
+- _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY2_
+- _$s24TokenGenerationInference0A14HealingDecoderC28decodeUntilPromptRegenerated33_9693E3533EE0A4959D23E8AF352C6EC0LL13leadingTokens08originalhS0AA08SamplingeH0VSaySiG_AJtYaKFTY3_
+- _$s24TokenGenerationInference0A14HealingDecoderC9processor19overflowConstraints04stopA3IDs05buildE0AcA27PrefixMatchingTextProcessor_p_0aB00H0OSgSaySiGSgAA08SamplingE0_pAA34DeterministicLanguageModelProtocol_pAaP_pXEYaKXEtYaKcfCTQ0_
+- _$s24TokenGenerationInference0A8Sampling_pWOb
+- _$s24TokenGenerationInference0A8Sampling_pWOc
+- _$s24TokenGenerationInference0C7RequestVWOcTm
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeO10CodingKeys33_C33385C38A0442D1F34E46F63BD16990LLO11stringValueSSvg
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOeTm
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOj0_
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOrTm
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeOWOyTm
+- _$s24TokenGenerationInference0aB13ConfigurationV11DecoderTypeO_AEtWOs
+- _$s24TokenGenerationInference0aB13ConfigurationVWOr
+- _$s24TokenGenerationInference0aB13ConfigurationVWOs
+- _$s24TokenGenerationInference10KVLRUCacheC07currentA5CountSivMTq
+- _$s24TokenGenerationInference10KVLRUCacheC07currentA5CountSivgTq
+- _$s24TokenGenerationInference10KVLRUCacheC07currentA5CountSivpWvd
+- _$s24TokenGenerationInference10KVLRUCacheC07currentA5CountSivsTq
+- _$s24TokenGenerationInference10KVLRUCacheC07maximumA5CountSivpWvd
+- _$s24TokenGenerationInference10KVLRUCacheC10cacheEntry3forSo012TGIE5KVCacheF4ObjCCSgSaySiG_tF
+- _$s24TokenGenerationInference10KVLRUCacheC10cacheEntry3forSo012TGIE5KVCacheF4ObjCCSgSaySiG_tFTq
+- _$s24TokenGenerationInference10KVLRUCacheC12nodeByTokensSDySaySiGAA0D4NodeCGvMTq
+- _$s24TokenGenerationInference10KVLRUCacheC12nodeByTokensSDySaySiGAA0D4NodeCGvgTq
+- _$s24TokenGenerationInference10KVLRUCacheC12nodeByTokensSDySaySiGAA0D4NodeCGvpWvd
+- _$s24TokenGenerationInference10KVLRUCacheC12nodeByTokensSDySaySiGAA0D4NodeCGvsTq
+- _$s24TokenGenerationInference10KVLRUCacheC6insert12kvCacheEntry6tokensySo012TGIE5KVCacheH4ObjCC_SaySiGtKF
+- _$s24TokenGenerationInference10KVLRUCacheC6insert12kvCacheEntry6tokensySo012TGIE5KVCacheH4ObjCC_SaySiGtKFTq
+- _$s24TokenGenerationInference10KVLRUCacheC7endNodeAA0dF0CSgvMTq
+- _$s24TokenGenerationInference10KVLRUCacheC7endNodeAA0dF0CSgvgTq
+- _$s24TokenGenerationInference10KVLRUCacheC7endNodeAA0dF0CSgvpWvd
+- _$s24TokenGenerationInference10KVLRUCacheC7endNodeAA0dF0CSgvsTq
+- _$s24TokenGenerationInference10KVLRUCacheC9startNodeAA0dF0CSgvMTq
+- _$s24TokenGenerationInference10KVLRUCacheC9startNodeAA0dF0CSgvgTq
+- _$s24TokenGenerationInference10KVLRUCacheC9startNodeAA0dF0CSgvpWvd
+- _$s24TokenGenerationInference10KVLRUCacheC9startNodeAA0dF0CSgvsTq
+- _$s24TokenGenerationInference10KVLRUCacheCfd
+- _$s24TokenGenerationInference11NodeStorageV08PreviousD8SequenceV4node0H6StatesAEyx_GSi_SayxGtcfC
+- _$s24TokenGenerationInference11NodeStorageV5nodes20previousAndIncludingAC08PreviousD8SequenceVyx_GSi_tF
+- _$s24TokenGenerationInference11NodeStorageVyxSicisTf4gnn_n
+- _$s24TokenGenerationInference12BasicDecoderC13languageModel7samplerAcA021DeterministicLanguageG8Protocol_p_AA0A8Sampling_ptcfCTf4enn_nTf4gnn_n
+- _$s24TokenGenerationInference12BasicDecoderC13languageModel7samplerAcA021DeterministicLanguageG8Protocol_p_AA0A8Sampling_ptcfcfA0_Tm
+- _$s24TokenGenerationInference13ModelMetadataV4from11metadataUrlAC0D7Catalog013LLMModelAssetE0V_10Foundation3URLVtKcfCTf4nnd_n
+- _$s24TokenGenerationInference13ModelMetadataV4from11metadataUrlAC0D7Catalog08LLMDraftd5AssetE0V_10Foundation3URLVtKcfCTf4nnd_n
+- _$s24TokenGenerationInference13ModelMetadataVSgWOe
+- _$s24TokenGenerationInference13ModelMetadataVSgWOg
+- _$s24TokenGenerationInference13ModelMetadataVSgWOi0_
+- _$s24TokenGenerationInference13ModelMetadataVSgWOi_
+- _$s24TokenGenerationInference13ModelMetadataVSgWOs
+- _$s24TokenGenerationInference13ModelMetadataVWOr
+- _$s24TokenGenerationInference13ModelMetadataVWOs
+- _$s24TokenGenerationInference14KVLRUCacheNodeC12kvCacheEntry6tokens4next8previousACSo012TGIE5KVCacheH4ObjCC_SaySiGACSgAKtcfCTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC12kvCacheEntrySo012TGIE5KVCacheH4ObjCCvpWvd
+- _$s24TokenGenerationInference14KVLRUCacheNodeC4nextACSgvMTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC4nextACSgvgTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC4nextACSgvpWvd
+- _$s24TokenGenerationInference14KVLRUCacheNodeC4nextACSgvsTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC6tokensSaySiGvpWvd
+- _$s24TokenGenerationInference14KVLRUCacheNodeC8previousACSgvMTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC8previousACSgvgTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeC8previousACSgvpWvd
+- _$s24TokenGenerationInference14KVLRUCacheNodeC8previousACSgvsTq
+- _$s24TokenGenerationInference14KVLRUCacheNodeCMF
+- _$s24TokenGenerationInference14KVLRUCacheNodeCMa
+- _$s24TokenGenerationInference14KVLRUCacheNodeCMf
+- _$s24TokenGenerationInference14KVLRUCacheNodeCMm
+- _$s24TokenGenerationInference14KVLRUCacheNodeCMn
+- _$s24TokenGenerationInference14KVLRUCacheNodeCN
+- _$s24TokenGenerationInference14KVLRUCacheNodeCfD
+- _$s24TokenGenerationInference15AdapterMetadataVWOr
+- _$s24TokenGenerationInference15AdapterMetadataVWOs
+- _$s24TokenGenerationInference15DataStreamStateVWOcTm
+- _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSaySfG_SaySiGtyF
+- _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSaySfG_SaySiGtyFTj
+- _$s24TokenGenerationInference15LogitCollectionP12applySoftmaxSaySfG_SaySiGtyFTq
+- _$s24TokenGenerationInference15LogitCollectionP4topKySaySiGSiF
+- _$s24TokenGenerationInference15LogitCollectionP4topKySaySiGSiFTj
+- _$s24TokenGenerationInference15LogitCollectionP4topKySaySiGSiFTq
+- _$s24TokenGenerationInference15LogitCollectionP4topPySaySiGSfF
+- _$s24TokenGenerationInference15LogitCollectionP4topPySaySiGSfFTj
+- _$s24TokenGenerationInference15LogitCollectionP4topPySaySiGSfFTq
+- _$s24TokenGenerationInference15LogitCollectionP8indexSet19CollectionsInternal03BitG0VvgTj
+- _$s24TokenGenerationInference15LogitCollectionP8indexSet19CollectionsInternal03BitG0VvgTq
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyF
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA05TopK2dE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA06ArgmaxdE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA06MaskeddE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA19MaskedLanguageModelC06SingledE0V_Tg5Tm
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA22CompositeLanguageModelC0hdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0R15D7F98A9442718FDLLV_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE12applySoftmaxSaySfG_SaySiGtyFAA32WeightedFiniteStateLanguageModelV0ijdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFAA011EarlyReturnH0V_TB5Tm
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA011EarlyReturnH0V_TB5Tm
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA011EarlyReturnH0V_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.35
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.36
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TA.37
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA013UnconstraineddE0V_TG5TATm
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05TopK2dE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05TopK2dE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA05TopK2dE0V_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06ArgmaxdE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06ArgmaxdE0V_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06MaskeddE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06MaskeddE0V_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06MaskeddE0V_TG5TA.32
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06MaskeddE0V_TG5TA.33
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06MaskeddE0V_TG5TA.34
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.38
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.39
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA06SparsedE0V_TG5TA.40
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA19MaskedLanguageModelC06SingledE0V_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA19MaskedLanguageModelC06SingledE0V_TG5TA.25
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA19MaskedLanguageModelC06SingledE0V_TG5TA.26
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA19MaskedLanguageModelC06SingledE0V_TG5TA.27
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA19MaskedLanguageModelC06SingledE0V_TG5TATm
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.45
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.46
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA22CompositeLanguageModelC0idE0V_TG5TA.47
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.28
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.29
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PrefixGuidedLanguageModelV0idE0V_TG5TA.30
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0S15D7F98A9442718FDLLV_TG5TA
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0S15D7F98A9442718FDLLV_TG5TATm
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.48
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.49
+- _$s24TokenGenerationInference15LogitCollectionPAAE15makeDenseLogitsSaySfGyFSfSiXEfU_AA32WeightedFiniteStateLanguageModelV0jkdE0V_TG5TA.50
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiF
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA013UnconstraineddE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA06MaskeddE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA06SparsedE0V_TB5Tm
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA19MaskedLanguageModelC06SingledE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA22CompositeLanguageModelC0gdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0Q15D7F98A9442718FDLLV_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topKySaySiGSiFAA32WeightedFiniteStateLanguageModelV0hidE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfF
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA013UnconstraineddE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA05TopK2dE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA06ArgmaxdE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA06MaskeddE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA06SparsedE0V_TB5Tm
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA19MaskedLanguageModelC06SingledE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA22CompositeLanguageModelC0gdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0Q15D7F98A9442718FDLLV_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE4topPySaySiGSfFAA32WeightedFiniteStateLanguageModelV0hidE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA06MaskeddE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA06SparsedE0V_TB5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA22CompositeLanguageModelC0gdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA25PrefixGuidedLanguageModelV0gdE0V_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA25PromptLookupLanguageModelC03OneadE0016_2A6F6D10EE3E4B0Q15D7F98A9442718FDLLV_Tg5
+- _$s24TokenGenerationInference15LogitCollectionPAAE6argmaxSiyFAA32WeightedFiniteStateLanguageModelV0hidE0V_Tg5
+- _$s24TokenGenerationInference15NucleusSamplingC04pickA012targetLogits05draftH00I6TokensSiAA15LogitCollection_p_AaH_pShySiGtFTf4nndn_n
+- _$s24TokenGenerationInference15NucleusSamplingC04pickA012targetLogits11draftTokens19acceptanceThresholdSiAA15LogitCollection_p_ShySiGSftFSfSiXEfU1_TA
+- _$s24TokenGenerationInference15NucleusSamplingC04pickA0ySiAA15LogitCollection_pFSfSiXEfU_TA
+- _$s24TokenGenerationInference15NucleusSamplingC04pickA0ySiAA15LogitCollection_pFSfSiXEfU_TA.41
+- _$s24TokenGenerationInference15NucleusSamplingC04pickA0ySiAA15LogitCollection_pFSfSiXEfU_TA.43
+- _$s24TokenGenerationInference15SamplingDecoder_pWOcTm
+- _$s24TokenGenerationInference15TopK2PresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA15LogitCollection_pGSpys7Float16VG_S3iSnySiGtFySrys5Int32VGz_SiztXEfU_
+- _$s24TokenGenerationInference16ArgmaxPresamplerV15presampleLogits6buffer03numG012tokensStride05logitK05rangeSayAA15LogitCollection_pGSpys7Float16VG_S3iSnySiGtFTv_r
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfC
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA0_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA1_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA4_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA5_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA7_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA8_
+- _$s24TokenGenerationInference16DraftingBehaviorV10draftSteps10isAdaptive10treeFactor013secondaryTreeK018softMatchTolerance19speculativeSampling11earlyReturn0sT20ProbabilityThreshold0Q14StreamingModel18streamMaximumGamma0ymK0ACSi_SbS2iSgSfSgS2bAPSbS2itcfcfA9_
+- _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiR0_p_AaK_pAA0aN0_pSitF
+- _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiR0_p_AaK_pAA0aN0_pSitFfA1_
+- _$s24TokenGenerationInference16DraftingBehaviorV11makeDecoder10draftModel06targetI07sampler04stopA2IdAA08SamplingG0_AA011SpeculativeG26PerformanceLoggingProtocolpAA021DeterministicLanguageiR0_p_AaK_pAA0aN0_pSitFfA2_
+- _$s24TokenGenerationInference17BeamSearchDecoderC016pruneUnreachableD5Nodes33_A7FE2FA43B970D1C0025663E659989E9LL8fromStepSbSi_tFAC0D4NodeAELLVSgSi_AHtXEfU0_
+- _$s24TokenGenerationInference17BeamSearchDecoderC016pruneUnreachableD5Nodes33_A7FE2FA43B970D1C0025663E659989E9LL8fromStepSbSi_tFAC0D4NodeAELLVSgSi_AHtXEfU0_TA
+- _$s24TokenGenerationInference17BeamSearchDecoderC6append6promptySaySiG_tFAC0D4Node33_A7FE2FA43B970D1C0025663E659989E9LLVSi_AItXEfU_
+- _$s24TokenGenerationInference17BeamSearchDecoderC6append6promptySaySiG_tFAC0D4Node33_A7FE2FA43B970D1C0025663E659989E9LLVSi_AItXEfU_TA
+- _$s24TokenGenerationInference17DefaultParametersVSgWOe
+- _$s24TokenGenerationInference17DefaultParametersVSgWOs
+- _$s24TokenGenerationInference17DefaultParametersVSgWOsTm
+- _$s24TokenGenerationInference17DefaultParametersVSgWOy
+- _$s24TokenGenerationInference17DefaultParametersVWOs
+- _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmaxSaySfG_SaySiGtyF
+- _$s24TokenGenerationInference17EarlyReturnLogitsV12applySoftmaxSaySfG_SaySiGtyFTv_r
+- _$s24TokenGenerationInference17EarlyReturnLogitsV4topKySaySiGSiF
+- _$s24TokenGenerationInference17EarlyReturnLogitsV4topPySaySiGSfF
+- _$s24TokenGenerationInference17EarlyReturnLogitsV8indexSet19CollectionsInternal03BitH0Vvg
+- _$s24TokenGenerationInference17EarlyReturnLogitsV8indexSet19CollectionsInternal03BitH0VvpMV
+- _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP12applySoftmaxSaySfG_SaySiGtyFTWTv_r
+- _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference17EarlyReturnLogitsVAA15LogitCollectionA2aDP8indexSet19CollectionsInternal03BitJ0VvgTW
+- _$s24TokenGenerationInference17TokenizerMetadataVSgWOy
+- _$s24TokenGenerationInference18ClassifierMetadataV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s24TokenGenerationInference18ClassifierMetadataVSgWOr
+- _$s24TokenGenerationInference18ClassifierMetadataVSgWOs
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_n
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTA
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTATQ0_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTATu
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTQ1_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTY0_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTY2_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTY3_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu1_Tf2ninn_nTu
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_n
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTA
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTATQ0_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTATu
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTQ1_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTY0_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTY2_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTY3_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAIyYaKcfu2_Tf2ninn_nTu
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAaH_pAaH_p_AaH_ptXEfU1_
+- _$s24TokenGenerationInference19MaskedLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAaH_pAaH_p_AaH_ptXEfU1_TA
+- _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference19MaskedLanguageModelC21SingleLogitCollectionVAA0hI0A2aFP8indexSet19CollectionsInternal03BitK0VvgTW
+- _$s24TokenGenerationInference19NullLogitPresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA0E10Collection_pGSpys7Float16VG_S3iSnySiGtFTf4ddddnn_n
+- _$s24TokenGenerationInference20TopK2LogitCollectionV4topKySaySiGSiF
+- _$s24TokenGenerationInference20TopK2LogitCollectionV8indexSet19CollectionsInternal03BitI0Vvg
+- _$s24TokenGenerationInference20TopK2LogitCollectionV8indexSet19CollectionsInternal03BitI0VvpMV
+- _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference20TopK2LogitCollectionVAA0fG0A2aDP8indexSet19CollectionsInternal03BitI0VvgTW
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionV4topKySaySiGSiF
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvg
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionV8indexSet19CollectionsInternal03BitH0VvpMV
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference21ArgmaxLogitCollectionVAA0eF0A2aDP8indexSet19CollectionsInternal03BitH0VvgTW
+- _$s24TokenGenerationInference21ClassifierOutputClassV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s24TokenGenerationInference21ClassifierOutputClassV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwetTm
+- _$s24TokenGenerationInference21ClassifierOutputClassV10CodingKeys33_00FC6DBF691860C008D9C69E9A6F04F6LLOwstTm
+- _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM
+- _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM.resume.0
+- _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvg
+- _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvpMV
+- _$s24TokenGenerationInference21MaskedLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvs
+- _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference21MaskedLogitCollectionVAA0eF0A2aDP8indexSet19CollectionsInternal03BitH0VvgTW
+- _$s24TokenGenerationInference21SparseLogitCollectionV07allowedA3IDsAC19CollectionsInternal6BitSetV_tcfC
+- _$s24TokenGenerationInference21SparseLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM
+- _$s24TokenGenerationInference21SparseLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM.resume.0
+- _$s24TokenGenerationInference21SparseLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvg
+- _$s24TokenGenerationInference21SparseLogitCollectionV8indexSet19CollectionsInternal03BitH0VvpMV
+- _$s24TokenGenerationInference21SparseLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvs
+- _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP15makeDenseLogitsSaySfGyFTWTm
+- _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference21SparseLogitCollectionVAA0eF0A2aDP8indexSet19CollectionsInternal03BitH0VvgTW
+- _$s24TokenGenerationInference22ClassificationSamplingC04pickA012targetLogits05draftH00I6TokensSiAA15LogitCollection_p_AaH_pShySiGtFTf4nndn_n
+- _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionVAA0gH0A2aFP8indexSet19CollectionsInternal03BitJ0VvgTW
+- _$s24TokenGenerationInference22DataStreamStateManagerC06createF04uuid9isOneShot17loggingIdentifier014onBehalfOfUserN0AA0deF0V10Foundation4UUIDV_SbSSs6UInt32VSgtF
+- _$s24TokenGenerationInference22DataStreamStateManagerC06updateF04uuid5statey10Foundation4UUIDV_AA0deF0VtFSbAI3key_AK5valuet_tXEfU_
+- _$s24TokenGenerationInference22LanguageModelReferenceO12E5CodingKeys33_C33385C38A0442D1F34E46F63BD16990LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC10treeFactorSivg
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC10treeFactorSivpMV
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC10treeFactorSivpWvd
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC15draftPresamplerAA05LogitH0_pvg
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC15draftPresamplerAA05LogitH0_pvpMV
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC15draftPresamplerAA05LogitH0_pvpWvd
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC19secondaryTreeFactorSivg
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC19secondaryTreeFactorSivpMV
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC19secondaryTreeFactorSivpWvd
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC24speculateNextTargetNodes33_B398487A78544B2880D5A47AC6334149LL04fromiJ0SaySiGAG_tYaKFSaySi6target_Si5drafttGSi_AA15LogitCollection_p_SittXEfU_
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC24speculateNextTargetNodes33_B398487A78544B2880D5A47AC6334149LL04fromiJ0SaySiGAG_tYaKFSaySi6target_Si5drafttGSi_AA15LogitCollection_p_SittXEfU_TA
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfCTf4nennnnnn_nTf4ngnnnnnn_n
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfCTj
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfCTq
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfc
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfcTf4nennnnnn_n
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC6target5draft9stepCount10treeFactor013secondaryTreeL009earlyStopA2Id0O26ReturnProbabilityThresholdAcA013DeterministiceF8Protocol_p_AaK_pS3iSgALSfSgtcfcTf4nennnnnn_nAA012PromptLookupeF0C_Tg5
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC8nodePair33_B398487A78544B2880D5A47AC6334149LL21forPreviousTargetNode5token8isPromptSi6target_Si5drafttSi_SiSbtF
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC9stepCountSivg
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC9stepCountSivpMV
+- _$s24TokenGenerationInference24SpeculativeLanguageModelC9stepCountSivpWvd
+- _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionVAA0hI0A2aFP8indexSet19CollectionsInternal03BitK0VvgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFTY0_
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFTu
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP15makeDenseLogitsSaySfGyFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP6argmaxSiyFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGP8indexSet19CollectionsInternal03BitV0VvgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0A2aGPySfSicigTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0AAMc
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVAA0iJ0AAWP
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVMF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVMXX
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVMa
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVMf
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLVMn
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04lastD4Node016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLSivpWvd
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04nextA17LogitsAreComputed4nodeSbSi_tF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04nextD4Node016_2A6F6D10EE3E4B0O15D7F98A9442718FDLL03forI0Si_SitSgSi_tFSbSi_SitXEfU_
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04nextD4Node016_2A6F6D10EE3E4B0O15D7F98A9442718FDLL03forI0Si_SitSgSi_tFSbSi_SitXEfU_TA
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04nextD4Node016_2A6F6D10EE3E4B0O15D7F98A9442718FDLL03forI0Si_SitSgSi_tFSbSi_SitXEfU_TA.1
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC04nextD4Node016_2A6F6D10EE3E4B0O15D7F98A9442718FDLL03forI0Si_SitSgSi_tFSbSi_SitXEfU_TA.2
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC06commonA14CountFromNodes016_2A6F6D10EE3E4B0Q15D7F98A9442718FDLLyS2i_SitF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC10nodeStates016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLAA11NodeStorageVyAC0T5StateAELLVGvpWvd
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC4node15forPreviousNode5token02isD0S2i_SiSbtF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVAA0hI8ProtocolA2aGP08previousH0SiSgvgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVAA0hI8ProtocolA2aGP9nextNodesSDyS2iGvgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVAA0hI8ProtocolA2aGPxycfCTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVAA0hI8ProtocolAAMc
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVAA0hI8ProtocolAAWP
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVMF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVMXX
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVMa
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVMf
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVMn
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVN
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVWV
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVwet
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLVwst
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9startNodeSivg
+- _$s24TokenGenerationInference25PromptLookupLanguageModelC9startNodeSivpMV
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP021allNextTokensPossiblyH05nodesSbSaySiG_tKFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP04nextA17LogitsAreComputed4nodeSbSi_tFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP14logitsAreDenseSbvgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler02isD0SayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler02isD0SayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTWTQ0_
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler02isD0SayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFTWTu
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP25precomputedNodeBatchDepthSivgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP4node15forPreviousNode5token02isD0S2i_SiSbtFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP4node15forPreviousNode6promptS2i_AA015SamplingDecoderD0VtFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolA2aDP9startNodeSivgTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolAAMc
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA013DeterministicfG8ProtocolAAWP
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTW
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTWTQ0_
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA022UnbatchedDeterministicfG8ProtocolA2aDP010singleNextA6Logits4node10presampler02isD0AA15LogitCollection_pSi_AA0Q10Presampler_pSgSbtYaKFTWTu
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA022UnbatchedDeterministicfG8ProtocolAAMc
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCAA022UnbatchedDeterministicfG8ProtocolAAWP
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCACycfC
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCACycfCTj
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCACycfCTq
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCACycfc
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMF
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMa
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMf
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMm
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMn
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMo
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCMu
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCN
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCfD
+- _$s24TokenGenerationInference25PromptLookupLanguageModelCfd
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTQ2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTY3_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTY4_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC04nextA6Logits015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodes05queryT010presamplerSayAA15LogitCollection_pGSaySiG_AkA0W10Presampler_pSgtYaKFTu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC05draftG0_AA16DraftingBehaviorV8behaviortWOr
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC05draftG0_AA16DraftingBehaviorV8behaviortWOs
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC10nodeTokens015_C54BEC2A6549C4M16D2CDB56F73805ABELL0H0SaySiGSi_tF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTQ3_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTY2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTY4_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTY5_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTY6_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11computeNode015_C54BEC2A6549C4M16D2CDB56F73805ABELL4node17promptModuleNodes16maxLogitsDesired10presamplerSDySiAA15LogitCollection_pGSi_SaySiGSiAA0Z10Presampler_pSgtYaKFTu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11contextSize015_C54BEC2A6549C4M16D2CDB56F73805ABELLSiyF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC11nodesTokens015_C54BEC2A6549C4M16D2CDB56F73805ABELL17promptModuleNodesSaySaySiGGAG_tF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SaySiGSgAG_tF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC14attentionMasks015_C54BEC2A6549C4M16D2CDB56F73805ABELL19promptModulesTokens05queryT0SaySaySiGGAI_AHtF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0O10Presampler_pSgSbtYaKFTY2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTQ3_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTY2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTY4_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTY5_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTY6_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFTu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC17promptModuleNodes015_C54BEC2A6549C4N16D2CDB56F73805ABELLSaySiGvpWvd
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC26shouldFlattenPromptModulesSbvpWvd
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKF
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFTY2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFTY3_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFTu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TA
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TATQ0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TATu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TY2_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_TY3_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_Tu
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_Tv_r
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC7kvCacheAA10KVLRUCacheCvpWvd
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner26shouldFlattenPromptModulesACSo0dI4ObjCC_SbtcfC
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner26shouldFlattenPromptModulesACSo0dI4ObjCC_SbtcfcfA0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache26shouldFlattenPromptModulesACSo0dI4ObjCC_AA10KVLRUCacheCSbtcfCTq
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache26shouldFlattenPromptModulesACSo0dI4ObjCC_AA10KVLRUCacheCSbtcfc
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5Runner7kvCache26shouldFlattenPromptModulesACSo0dI4ObjCC_AA10KVLRUCacheCSbtcfcTv_r
+- _$s24TokenGenerationInference26E5TransformerLanguageModelC8e5RunnerSo0dI4ObjCCvpWvd
+- _$s24TokenGenerationInference26E5TransformerLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTQ1_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTY0_
+- _$s24TokenGenerationInference26E5TransformerLanguageModelCAA013DeterministicfG8ProtocolA2aDP16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0Q10Presampler_pSgSbtYaKFTWTY2_
+- _$s24TokenGenerationInference27PrefixMatchingTextProcessorP6decode8tokenIDsSSSaySiG_tKFTj
+- _$s24TokenGenerationInference27PrefixMatchingTextProcessorP6decode8tokenIDsSSSaySiG_tKFTq
+- _$s24TokenGenerationInference27PrefixMatchingTextProcessorPAAE08validateA3IDs33_BBAFBDDDCF5B14E74762D9A19D1432D0LL3for11constraints05tokenI0SaySiGSS_0aB011ConstraintsOSgSaySi0S2ID_SS9remainingtGSSXEtF
+- _$s24TokenGenerationInference27PrefixMatchingTextProcessorPAAE08validateA3IDs33_BBAFBDDDCF5B14E74762D9A19D1432D0LL3for11constraints05tokenI0SaySiGSS_0aB011ConstraintsOSgSaySi0S2ID_SS9remainingtGSSXEtFSiSgSi_SStXEfU_
+- _$s24TokenGenerationInference27PrefixMatchingTextProcessorPAAE08validateA3IDs33_BBAFBDDDCF5B14E74762D9A19D1432D0LL3for11constraints05tokenI0SaySiGSS_0aB011ConstraintsOSgSaySi0S2ID_SS9remainingtGSSXEtFSiSgSi_SStXEfU_TA
+- _$s24TokenGenerationInference28LocalizationMetadataProtocolPAAE15mapToDictionarySDySSSDySSAA0e7SpecialA0OGGyF12ModelCatalog013LLMModelAssetE0V06DeviceD0V_Tg5
+- _$s24TokenGenerationInference28LocalizationMetadataProtocolPAAE15mapToDictionarySDySSSDySSAA0e7SpecialA0OGGyF12ModelCatalog015LLMAdapterAssetE0V06DeviceD0V_Tg5
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvM.resume.0
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvg
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSet19CollectionsInternal03BitH0VvpMV
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionV8indexSet19CollectionsInternal03BitH0Vvs
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference28UnconstrainedLogitCollectionVAA0eF0A2aDP8indexSet19CollectionsInternal03BitH0VvgTW
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.63
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.68
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.71
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.78
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.82
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.84
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.88
+- _$s24TokenGenerationInference29DataStreamCancellationHandlerC10setIsInUse02isjK0S2b_tFSbyYbXEfU_TA.97
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0P10Presampler_pSgSbtYaKF
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0P10Presampler_pSgSbtYaKFTY0_
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0P10Presampler_pSgSbtYaKFTu
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP4topKySaySiGSiFTW
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP4topPySaySiGSfFTW
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionVAA0iJ0A2aFP8indexSet19CollectionsInternal03BitL0VvgTW
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV4node15forPreviousNode5token8isPromptS2i_SiSbtFTf4nndn_n
+- _$s24TokenGenerationInference32WeightedFiniteStateLanguageModelVAA022UnbatchedDeterministicgH8ProtocolA2aDP010singleNextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0S10Presampler_pSgSbtYaKFTWTQ0_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TQ1_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TQ2_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TY0_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TY3_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TY4_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TY5_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5TY6_
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE04nextA6Logits4node10presampler8isPromptAA15LogitCollection_pSi_AA0N10Presampler_pSgSbtYaKFAA013DelayedMaskedeF0C_Tg5Tu
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFAA015TGICAPILanguageF0C_TB5
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFAA020SpeculativeStreamingeF0C_TB5
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFAA09CompositeeF0C_TB5Tm
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE5nodes15forPreviousNode6tokens8isPromptSaySiGSi_AHSbtF
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocolPAAE5nodes15forPreviousNode6tokens8isPromptSaySiGSi_AHSbtFS2iXEfU_TA
+- _$s24TokenGenerationInference34DeterministicLanguageModelProtocol_p2lm_Sf5scaletWOh
+- _$s24TokenGenerationInference42TokenizerRunnerPrefixMatchingTextProcessorC6decode8tokenIDsSSSaySiG_tKF
+- _$s24TokenGenerationInference42TokenizerRunnerPrefixMatchingTextProcessorCAA0fghI0A2aDP6decode8tokenIDsSSSaySiG_tKFTW
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA012PrefixGuidedfG0V_TB5TQ1_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA012PrefixGuidedfG0V_TB5TY2_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA012PrefixGuidedfG0V_TB5TY3_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5Tf4nndn_n
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5Tf4nndn_nTY0_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA015TGICAPILanguageG0C_Tg5Tf4nndn_nTu
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5TQ1_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5TY0_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5TY2_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5TY3_
+- _$s24TokenGenerationInference43UnbatchedDeterministicLanguageModelProtocolPAAE16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0P10Presampler_pSgSbtYaKFAA0o6LookupfG0C_Tg5Tu
+- _$s24TokenGenerationInference45SpeculativeStreamingPerformanceLoggingDecoderC13languageModel8behavior7samplerAcA021DeterministicLanguageJ8Protocol_p_AA16DraftingBehaviorVAA0A8Sampling_ptcfCTf4ennn_nTf4gnnn_n
+- _$s24TokenGenerationInference4TopKC04pickA012targetLogits05draftG00H6TokensSiAA15LogitCollection_p_AaH_pShySiGtFTf4nndn_n
+- _$s24TokenGenerationInference4TopKC04pickA0ySiAA15LogitCollection_pFSfSiXEfU_TA.42
+- _$s24TokenGenerationInference4TopKC04pickA0ySiAA15LogitCollection_pFSfSiXEfU_TA.44
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.64
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.69
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.72
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.79
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.83
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.85
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.89
+- _$s2os21OSAllocatedUnfairLockVAAytRszlE04withD0yqd__qd__yYbKXEKs8SendableRd__lFqd__ytz_tYbKXEfU_Sb_TG5TA.98
+- _$sSD10startIndexSD0B0Vyxq__GvgSS_SSTg5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15TokenGeneration6PromptV07SpecialC0V_SDyS2SGTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfC15TokenGeneration6PromptV07SpecialC0V_ypTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_24TokenGenerationInference015MetadataSpecialC0OTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_24TokenGenerationInference10E5FunctionVTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SDySS24TokenGenerationInference015MetadataSpecialC0OGTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTt0gq5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_Si10logitCount_Sbs13OpaquePointerV_SPySiGSgSiSpySfGSitXC8callbackAE9cbContexttTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTt0g5Tf4g_n
+- _$sSD8IteratorV8_VariantOyS2i__GWOe
+- _$sSD8IteratorV8_VariantOySS24TokenGenerationInference015MetadataSpecialC0O__GWOe
+- _$sSD8IteratorV8_VariantOySi24TokenGenerationInference25PrefixGuidedLanguageModelV4NodeC__GWOe
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTg5
+- _$sSDySS24TokenGenerationInference015MetadataSpecialA0OGSgMaTm
+- _$sSDyq_SgxcisSi_24TokenGenerationInference15LogitCollection_pTg5
+- _$sSK9formIndex6beforey0B0Qzz_tFTj
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg50156$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFSbz14_SitcACcfu2_SbZ9_Sitcfu3_0jK9Inference0mnoP0CTf1nncn_n
+- _$sSMsSKRzrlE14_insertionSort6within9sortedEnd2byySny5IndexSlQzG_AFSb7ElementSTQz_AItKXEtKFSrySiG_Tg5140$s24TokenGenerationInference26E5TransformerLanguageModelC13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SaySiGSgAG_tFSbSi_SitXEfU_0jK9Inference0mnoP0CTf1nncn_nTf4nnng_nTm
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg50156$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFSbw14_SitcACcfu2_SbW9_Sitcfu3_0gH9Inference0jklM0CTf1cn_nTf4ng_n
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVySiG_Tg5140$s24TokenGenerationInference26E5TransformerLanguageModelC13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SaySiGSgAG_tFSbSi_SitXEfU_0gH9Inference0jklM0CTf1cn_nTf4ng_nTm
+- _$sSR24TokenGenerationInferences7Float16VRszlE15makeFloat32CopySaySfGyFySRyACGXEfU_
+- _$sSR24TokenGenerationInferences7Float16VRszlE4topKySayACG6values_SaySiG7indicestSiF
+- _$sSS19tokenizerIdentifier_19TokenGenerationCore06GuidedD17VocabularyManagerV7managertMD
+- _$sSS19tokenizerIdentifier_19TokenGenerationCore06GuidedD17VocabularyManagerV7managertSgMD
+- _$sSS19tokenizerIdentifier_19TokenGenerationCore06GuidedD17VocabularyManagerV7managertSgML
+- _$sSS3key_yp5valuetMD
+- _$sSS5IndexVMn
+- _$sSS_yptMD
+- _$sSTsE10allSatisfyyS2b7ElementQzKXEKFs12Zip2SequenceVySaySiG24TokenGenerationInference11NodeStorageV08PreviousiE0VyAG26E5TransformerLanguageModelC0I5StateV_GG_TB5049$sS2iSbIegyyd_Si_SitSbs5Error_pIegndzo_TR0129$s24fg11Inference26lmno61C13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SayU28GSgAG_tFSbX8_Sitcfu_Tf3npf_nTf1cn_nTm
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlF24TokenGenerationInference11NodeStorageV08PreviousG8SequenceVyAF26E5TransformerLanguageModelC0G5StateV_G_SiTB504$s24de11Inference26klmN194C3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_ALSiXEfU2_SiSgSiXEfU_SDyS2iGTf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSay24TokenGenerationInference17BeamSearchDecoderC0G4Node33_A7FE2FA43B970D1C0025663E659989E9LLVG_SfTg504$s24de11Inference17ghi35C6decodeSaySiGyYaKFSfSgAC0D4Node33_klmnopqR9LLVXEfU0_SDySiAF15LogitCollection_pGTf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSaySSG_24TokenGenerationInference08OnDeviceF20AssetObjectTokenizerVTg504$s24de11Inference08gh3C15i30RepositoryC7prewarm06bundleF17j32IdentifiersySaySSG_tYaFAA0decfJ9K10VSgSSXEfU_AG0ghfiO0CTf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSaySi7tokenID_SS9remainingtG_SiTg5024$sSiSSSiSgIgygd_Si7tokenE35_SS9remainingtAAs5Error_pIegnrzo_TRSiSSSiSgIgygd_Tf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSaySiG_AFTg50134$s24TokenGenerationInference33SpeculativeStreamingLanguageModelC16computeNextBatch4node10presamplerySi_AA15LogitPresampler_pSgtYaKFSayo3GSgO5XEfU_0eF9Inference0hijK0CTf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSaySiG_SiTg5241$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSaySiG_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_SiSgSiXEfU0_0eF9Inference0hijK0CTf1cn_nTf4ng_n
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFs18EnumeratedSequenceVySay24TokenGenerationInference17BeamSearchDecoderC0I4Node33_A7FE2FA43B970D1C0025663E659989E9LLVGG_AMTg506$sSi24fg11Inference17ijk11C0D4Node33_mnopqrsT55LLVAFSgIgyyd_Si6offset_AF7elementtAGs5Error_pIegnrzo_TRSiA2MSgIgyyd_Tf1cn_nTf4ng_n
+- _$sSTsE21_copySequenceContents12initializing8IteratorQz_SitSry7ElementQzG_tFSnySiG_Tg5
+- _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18EnumeratedSequenceVySay24TokenGenerationInference17BeamSearchDecoderC0I4Node33_A7FE2FA43B970D1C0025663E659989E9LLVGG_AMs5NeverOTg506$sSi24fg11Inference17ijk11C0D4Node33_mnopqrst36LLVAFIgyyd_Si6offset_AF7elementtAFs5U11OIegnrzr_TRSiA2MIgyyd_Tf1cn_nTf4ng_n
+- _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18EnumeratedSequenceVySaySiGG_24TokenGenerationInference03OneF34HealingPrefixMatchingLanguageModelC9NodeState33_290950C585633F03B8505F4D810570AFLLVs5NeverOTg507$sS2i24fg11Inference03i3A34jklmn2C9o14State33_290950qrstu36AFLLVIgyyo_Si6offset_Si7elementtAFs5W184OIegnrzr_TR04$s24ab11Inference03d3A34efghi90C9processor6prompt19overflowConstraintsACSgAA0fG13TextProcessor_p_SaySiG0aB00M0OSgtKcfcAC9j14State33_290950lmnoP16AFLLVSi_SitXEfU_Tf3nnnpf_nTf1cn_n
+- _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18EnumeratedSequenceVySaySiGG_SDyS2i4next_Sf5logittGs5NeverOTg5058$sS2iSDyS2i4next_Sf5logittGIgyyo_Si6offset_Si7elementtACs5h112OIegnrzr_TR089$s24TokenGenerationInference32WeightedFiniteStateLanguageModelV6tokens9vocabSizeACSaySiG_R39Sgtcfckl1_M22GSi_SitXEfU_Tf3nnnpf_nTf1cn_n
+- _$sSTsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18EnumeratedSequenceVySaySiGG_Si_Sits5NeverOTg5041$sS4iIgyydd_Si6offset_Si7elementtSi_Sits5f200OIegnrzr_TR247$s24TokenGenerationInference26E5TransformerLanguageModelC3run015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes05queryS016maxLogitsDesired10presamplerSayAA15LogitCollection_pGSayl41G_ALSiAA0Y10Presampler_pSgtYaKFyyYaKXEfU_l4_SitL20_SitXEfU1_Tf3nnnpf_nTf1cn_n
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFSDyS2iG_Tg550$sS2iSbIgyyd_Si3key_Si5valuetSbs5Error_pIegndzo_TRS2iSbIgyyd_Tf1cn_nTf4ng_n
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFs12Zip2SequenceVys09DropFirstE0Vy24TokenGenerationInference11NodeStorageV08PreviouskE0VyAJ26E5TransformerLanguageModelC0K5StateV_GGATG_TB504$s24hi11Inference26nopQ54C18latestCommonParent5nodeA0K1BS2i_SitFSbSi_Sit_tXEfU_Tf1cn_n
+- _$sSTsE5first5where7ElementQzSgSbADKXE_tKFs12Zip2SequenceVys09DropFirstE0Vy24TokenGenerationInference11NodeStorageV08PreviouskE0VyAJ26E5TransformerLanguageModelC0K5StateV_GGATG_TB504$s24hi11Inference26nopQ72C18latestCommonParent13excludingNode09includingL0S2i_SitFSbSi_Sit_tXEfU_SiTf1cn_n
+- _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFs18EnumeratedSequenceVys04Zip2E0VySay24TokenGenerationInference15LogitCollection_pGSaySiGGG_SaySi6target_Si5drafttGTg506$sSi24gh11Inference15jK83_pSiSaySi6target_Si5drafttGIgynyo_Si6offset_AaB_p_Sit7elementtAEs5Error_pIegnrzo_TRSiAjK_pSiARIgynyo_Tf1cn_nTf4ng_n
+- _$sSTsE7forEachyyy7ElementQzKXEKFs18ReversedCollectionVy10Foundation8IndexSetVG_Tg5149$s24TokenGenerationInference26E5TransformerLanguageModelC5reset015_C54BEC2A6549C4L16D2CDB56F73805ABELL17promptModuleNodes6toNodeySaySiG_SitFySiXEfU0_0jK9Inference0mnoP0CTf1cn_nTf4ng_n
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSDySS24TokenGenerationInference08OnDeviceF11AssetObject_pG_Tg504$s24de11Inference08gh3C15i91RepositoryC06unloadF010identifierySS_tYa20ModelManagerServices0C5ErrorOYKFSbSS3key_AA0decF6J16_p5valuet_tXEfU_SSTf1cn_nTf4ng_n
+- _$sSTsE8contains5whereS2b7ElementQzKXE_tKFShySo17TGIE5FunctionObjCCG_Tg50194$s24TokenGenerationInference08OnDeviceC15AssetRepositoryC14handleLLMModel33_65818D6FA4B5F545C6B162D7CBE031AELL8llmModel5assety0T7Catalog0f6BackedI0_p_AA0F0Vt0T15ManagerServices0C5ErrorOYKFSbSo17deF7CCXEfU_Tf1cn_n
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSaySSG_Tg5
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF15TokenGeneration0E0V_s15EmptyCollectionVyAHGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF24TokenGenerationInference08OnDeviceG14SuspendedFetchV_s15EmptyCollectionVyAHGTg5Tf4ndn_nTm
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF24TokenGenerationInference17BeamSearchDecoderC0H4Node33_A7FE2FA43B970D1C0025663E659989E9LLV_s15EmptyCollectionVyAKGTg5Tf4ndn_n
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF24TokenGenerationInference26TwoStageSpeculativeDecoderC08BufferedE033_997C69FF02F080FB13F8B8AFFD1FC4ECLLV_s15EmptyCollectionVyAKGTg5Tf4ndn_n
+- _$sSa24TokenGenerationInferenceSfRszlE12applySoftmaxSaySfG_SaySiGtyF
+- _$sSa24TokenGenerationInferenceSfRszlE12applySoftmaxSaySfG_SaySiGtyFySrySfGzXEfU_
+- _$sSa24TokenGenerationInferenceSfRszlE15makeDenseLogitsSaySfGyF
+- _$sSa24TokenGenerationInferenceSfRszlE4topKySaySiGSiF
+- _$sSa24TokenGenerationInferenceSfRszlE4topPySaySiGSfF
+- _$sSa24TokenGenerationInferenceSfRszlE8indexSet19CollectionsInternal03BitE0Vvg
+- _$sSa24TokenGenerationInferenceSfRszlE8indexSet19CollectionsInternal03BitE0VvpMV
+- _$sSa24TokenGenerationInferenceSiRszlE19sampleRandomElement5using9generatorSiSaySfG_SG_pztF
+- _$sSa24TokenGenerationInferenceSiRszlE29sampleRandomElementFromLogits5using11temperature9generatorSiSaySfG_SfSG_pztF
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5Int32V_Tt1g50163$s24TokenGenerationInference15TopK2PresamplerV15presampleLogits6buffer03numH012tokensStride05logitL05rangeSayAA15LogitCollection_pGSpys7Float16VG_S3iSnySiGtFySrys5F13VGz_SiztXEfU_SayAFGSnySiGSpys0X0VGS2iTf1nc_n
+- _$sSa32withContiguousStorageIfAvailableyqd__Sgqd__SRyxGKXEKlF
+- _$sSaMn
+- _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.16
+- _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.16TQ0_
+- _$sSay24TokenGenerationInference15LogitCollection_pGs5Error_pIegHozo_ACsAD_pIegHTrzo_TRTA.16Tu
+- _$sSaySfGMD
+- _$sSaySo8NSNumberCGMD
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP12applySoftmaxSaySfG_SaySiGtyFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP15makeDenseLogitsSaySfGyFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP32withContiguousStorageIfAvailableyqd__Sgqd__SRySfGKXEKlFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP4topKySaySiGSiFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP4topPySaySiGSfFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP6argmaxSiyFTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCP8indexSet19CollectionsInternal03BitG0VvgTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlAbCPySfSicigTW
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlMc
+- _$sSayxG24TokenGenerationInference15LogitCollectionABSfRszlWP
+- _$sSayxSicir24TokenGenerationInference0A8TreeNodeC_Tg5
+- _$sSayxSicir24TokenGenerationInference0A8TreeNodeC_Tg5.resume.0
+- _$sScCySay24TokenGenerationInference15LogitCollection_pGs5Error_pGMD
+- _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSo29TGIE5AdapterConfigurationObjCC_Tg5Tm
+- _$sSl8endIndex0B0QzvgTj
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySSG_SaySiGsAE_pTg5272$s24TokenGenerationInference08OnDeviceC14ContextFactoryC19createLanguageModel15fromConstraints14tokenizerAsset08e5RunnerN015assetRepositoryAA013DeterministiciJ8Protocol_p0aB00L0O_AA0decN15ObjectTokenizerVAA0decnu2E5P0VAA0decnrT0_ptYaKFSaySiGSSKc0aB4Core0vP0Ccfu_ARSSKcfu0_0eF4Core09TokenizerR0CTf1cn_nTf4ng_nTm
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySaySiGG_Sis5NeverOTg5131$s24TokenGenerationInference26E5TransformerLanguageModelC4node15forPreviousNode6promptS2i_AA21SamplingDecoderPromptVtFSiSaySiGXEfU_0fG9Inference0ijkL0CTf1cn_nTf4ng_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_24TokenGenerationInference15LogitCollection_ps5NeverOTg504$s24de85Inference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15gh40_pGSaySiG_AA0N10Presampler_pSgtYaKFAaG_pW5XEfU_SayAgH_pGAFTf1cn_nTf4ngg_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_24TokenGenerationInference15LogitCollection_ps5NeverOTg504$s24de88Inference24SpeculativeLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15gh42_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAaH_pV6XEfU0_AG0lmN0CTf1cn_nTf4ng_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_24TokenGenerationInference15LogitCollection_ps5NeverOTg504$s24de88Inference24SpeculativeLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15gh42_pGSaySiG_AA0N10Presampler_pSgSbtYaKFAaH_pV6XEfU1_AG0lmN0CSDySiAgH_pGTf1cn_nTf4ngg_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_24TokenGenerationInference28ThreeStageSpeculativeDecoderC0D9WithNodes33_8DEBEB1758FC01C1E29D5B2B4E73D192LLVs5NeverOTg504$s24de11Inference28ghij21C08makeTinyA4Beam33_8mnopqrstu48LL10tinyLogits0T4Node05draftV006targetV0SayAC0A9kL42AELLVGAA15LogitCollection_p_S3itFAKSiXEfU_AIS3iTf1cn_nTf4ngnnn_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_24TokenGenerationInference28ThreeStageSpeculativeDecoderC0D9WithNodes33_8DEBEB1758FC01C1E29D5B2B4E73D192LLVs5NeverOTg504$s24de11Inference28ghij22C09makeDraftA4Beam33_8mnopqrstu40LL11draftLogits0T4Node06targetV0SayAC0A9kL42AELLVGAA15LogitCollection_p_S2itFAJSiXEfU_AIS2iTf1cn_nTf4ngnn_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_Si6target_Si5draftts5NeverOTg5215$s24TokenGenerationInference24SpeculativeLanguageModelC24speculateNextTargetNodes33_B398487A78544B2880D5A47AC6334149LL04fromiJ0SaySiGAG_tYaKFSaySi6target_Si5drafttGSi_AA15LogitCollection_p_SittXEfU_SiAH_SiAItSiXEfU_0hI9Inference0klM0CSiShySiGTf1cn_nTf4ngnn_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_Sis5NeverOTg5
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSaySiG_Sis5NeverOTg5185$s24TokenGenerationInference24SpeculativeLanguageModelC18updateCachedLogits33_B398487A78544B2880D5A47AC6334149LL15fromTargetNodes10presamplerySaySiG_AA15LogitPresampler_pSgtYaKFS2iXEfU_0fG9Inference0ijK0CTf1cn_nTf4ng_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSnySiG_24TokenGenerationInference15LogitCollection_ps5NeverOTg5021$sSo12E5RunnerObjCC24def74E3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15gh10_pGSaySiG_zw40ALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5c55_pGXEfU_ySo0abJ8Protocol_pSg_sAQ_pSgtXEfU2_yyXEfU_AcJ_pZ5XEfU_So0lmQ8Protocol_pSiTf1cn_nTf4ngn_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSs_Sis5NeverOTg5119$s24TokenGenerationInference0A14HealingDecoderC25proceedingCharacterTokens10sourceText06targetJ0SaySiGSS_SStKFSiSJXEfU_0fG9Inference0fjK0CTf1cn_nTf4ng_n
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFs18ReversedCollectionVySaySiGG_SSs5NeverOTg5011$sSiSSIgyo_h4SSs5F11OIegnrzr_TRSiSSIgyo_Tf1cn_nTf4ng_n
+- _$sSlsE5countSivgSs8UTF8ViewV_Tgq5
+- _$sSlsE5split9maxSplits25omittingEmptySubsequences14whereSeparatorSay11SubSequenceQzGSi_S2b7ElementQzKXEtKF17appendSubsequenceL_3endSb5IndexQz_tSlRzlFSS_Tg5
+- _$sSo12BNNSDataTypea10AccelerateE7float16ABvgZ
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_TA
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAQ_pSgtXEfU2_
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAQ_pSgtXEfU2_TA
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAQ_pSgtXEfU2_yyXEfU_
+- _$sSo12E5RunnerObjCC24TokenGenerationInferenceE3run6tokens16maxLogitsDesired16tokenTreeIndexes0L4Mask10presamplerSayAC15LogitCollection_pGSaySiG_SiSayALGSgAnC0Q10Presampler_pSgtYaKFyScCyAKs5Error_pGXEfU_ySo0abJ8Protocol_pSg_sAQ_pSgtXEfU2_yyXEfU_TA
+- _$sSo12E5RunnerObjCCML
+- _$sSo21BNNSNDArrayDescriptora10AccelerateE4data5shapeABSgSryxG_AC4BNNSO5ShapeOtcAC10BNNSScalarRzlufC
+- _$sSo21BNNSNDArrayDescriptora10AccelerateE8dataType5shapeABSo08BNNSDataE0a_AC4BNNSO5ShapeOtcfC
+- _$sSo21BNNSNDArrayDescriptoraSgWOg
+- _$sSo21BNNSNDArrayDescriptoraSgWOi0_
+- _$sSo22E5RunnerLogitsProtocolP24TokenGenerationInferenceE04copyC010tokenIndexSaySfGSi_tF
+- _$sSo8NSObjectCML
+- _$sSq3mapyqd_0_Sgqd_0_xqd__YKXEqd__YKs5ErrorRd__Ri_d_0_r0_lF24TokenGenerationInference34DeterministicLanguageModelProtocol_p_s5NeverOAD06MaskedgH0CTg5
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF24TokenGenerationInference17BeamSearchDecoderC0H4Node33_A7FE2FA43B970D1C0025663E659989E9LLV_Tg504$s24ef11Inference17hij8C23pruneb17AppendNextStep33_lmnopqrs21LL9beamNodesySayAC0D4K22AELLVG_tFSbAH_AHtXEfU_Tf1cn_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg50156$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFSbv14_SitcACcfu2_SbV9_Sitcfu3_0fG9Inference0ijkL0CTf1cn_nTf4ng_n
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg5140$s24TokenGenerationInference26E5TransformerLanguageModelC13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SaySiGSgAG_tFSbSi_SitXEfU_0fG9Inference0ijkL0CTf1cn_nTf4ng_nTm
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKFSi_Tg560$sSTsSL7ElementRpzrlE6sortedSayABGyFSbAB_ABtcfu_ShySiG_Tt1G5Tf1cn_n
+- _$ss10_NativeSetV4copyyyFSo17TGIE5FunctionObjCC_Tg5
+- _$ss10_NativeSetV4copyyyFSo29TGIE5AdapterConfigurationObjCC_Tg5
+- _$ss12Zip2SequenceVys09DropFirstB0Vy24TokenGenerationInference11NodeStorageV08PrevioushB0VyAE26E5TransformerLanguageModelC0H5StateV_GGAOGWOr
+- _$ss12Zip2SequenceVys09DropFirstB0Vy24TokenGenerationInference11NodeStorageV08PrevioushB0VyAE26E5TransformerLanguageModelC0H5StateV_GGAOGWOs
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference08OnDeviceQ14SuspendedFetchV_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference19MaskedLanguageModelC4NodeV_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference21ArgmaxLogitCollectionV_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF24TokenGenerationInference25PromptLookupLanguageModelC9NodeState33_2A6F6D10EE3E4B0B0D7F98A9442718FDLLV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi4node_Si5tokent_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSi4node_Si5tokent_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0U15D7F98A9442718FDLLV_Tg5
+- _$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSi4node_Si5tokent_Tg5
+- _$ss13_decodeScalar_10startingAts7UnicodeO0B0V_Si12scalarLengthtSRys5UInt8VG_SitF
+- _$ss14_ArrayProtocolPsE6filterySay7ElementQzGSbAEKXEKFSaySiG_Tg50161$s24TokenGenerationInference24SpeculativeLanguageModelC16nextTokensLogits5nodes10presampler8isPromptSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgSbtYaKFSbU5XEfU_0fG9Inference0ijK0CTf1cn_nTf4gg_n
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSaySo8NSNumberCG_Tg5
+- _$ss15ContiguousArrayV6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSi_s0B5SliceVySiGTg5Tf4gn_n
+- _$ss15LazyMapSequenceV8IteratorV4nextq_SgyFSDySS24TokenGenerationInference015MetadataSpecialF0OG_SS_AItTg5
+- _$ss15_arrayForceCastySayq_GSayxGr0_lFSaySfG_24TokenGenerationInference15LogitCollection_pTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_34GenerativeFunctionsInstrumentation27ExtendInferenceInstrumenterVTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_34GenerativeFunctionsInstrumentation28PromptProcessingInstrumenterVTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_34GenerativeFunctionsInstrumentation31FirstTokenInferenceInstrumenterVTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF10Foundation4UUIDV_34GenerativeFunctionsInstrumentation33CompletePromptRequestInstrumenterVTg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTg5
+- _$ss17_NativeDictionaryV4copyyyFSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTg5
+- _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_24TokenGenerationInference015MetadataSpecialJ0Os15LazyMapSequenceVySDySSAJGSS_AJtGTg504$s24jk104Inference08OnDeviceC15AssetRepositoryC16specialTokensMap33_65818D6FA4B5F545C6B162D7CBE031AELLySDySSAA015mN49A0OGSgAA05ModelT0VSg_AA07AdapterT0VtFA2G_AGtXEfU_Tf1nncn_n
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTg5
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSi_24TokenGenerationInference15LogitCollection_pTg5
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSi_24TokenGenerationInference15LogitCollection_pTg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSaySiG_24TokenGenerationInference14KVLRUCacheNodeCTg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSi_24TokenGenerationInference15LogitCollection_pTg5
+- _$ss17_NativeDictionaryV9mapValuesyAByxqd__Gqd__q_KXEKlFSS_12ModelCatalog08LLMDraftE13AssetMetadataV13ANEExtendInfoV24TokenGenerationInference10E5FunctionVTg504$s24lm11Inference13ei43V4from11metadataUrlAC0D7Catalog08LLMDraftd5h30E0V_10Foundation3URLVtKcfcAA10op5VAH13jK6VXEfU_Tf1cn_n
+- _$ss17_NativeDictionaryV9mapValuesyAByxqd__Gqd__q_KXEKlFSS_12ModelCatalog21LLMModelAssetMetadataV13ANEExtendInfoV24TokenGenerationInference10E5FunctionVTg504$s24lm11Inference13ei34V4from11metadataUrlAC0D7Catalog013gh30E0V_10Foundation3URLVtKcfcAA10op5VAH13jK6VXEfU_Tf1cn_n
+- _$ss17_NativeDictionaryV9mapValuesyAByxqd__Gqd__q_KXEKlFSS_SS24TokenGenerationInference015MetadataSpecialE0OTg504$s24ef23Inference28Localizationh19ProtocolPAAE15mapTob15SDySSSDySSAA0e7I16A0OGGyFAFSSXEfU_Tf1cn_nTm
+- _$ss18ReversedCollectionV8IteratorVMn
+- _$ss18ReversedCollectionV8IteratorVy10Foundation8IndexSetV_GMD
+- _$ss18ReversedCollectionVMn
+- _$ss18ReversedCollectionVy10Foundation8IndexSetVGMD
+- _$ss18ReversedCollectionVy10Foundation8IndexSetVGWOc
+- _$ss18_DictionaryStorageCySaySiG24TokenGenerationInference14KVLRUCacheNodeCGMD
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15TokenGeneration16ModelInformationV5AssetV_Tg5Tm
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySo8NSNumberCG_Tg5Tm
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSaySiG_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSaySiG_Tg5
+- _$ss23_ContiguousArrayStorageCy24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0R15D7F98A9442718FDLLVGMD
+- _$ss23_ContiguousArrayStorageCySaySo8NSNumberCGGMD
+- _$ss23_ContiguousArrayStorageCySi4node_Si5tokentGMD
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSD4KeysVySi24TokenGenerationInference25PrefixGuidedLanguageModelV4NodeC_G_Tg5
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSRys5Int32VG_Tg5
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFShySSG_Tg5
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSnySiG_Tg5
+- _$ss5ClockPsE7measurey8DurationQzyyYaKXEYaKF
+- _$ss5ClockPsE7measurey8DurationQzyyYaKXEYaKFTu
+- _$ss5Int32V10Accelerate10BNNSScalarACWP
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg50156$s24TokenGenerationInference26E5TransformerLanguageModelC16nextTokensLogits9treeNodes10presamplerSayAA15LogitCollection_pGSaySiG_AA0N10Presampler_pSgtYaKFSbx14_SitcACcfu2_SbX9_Sitcfu3_0hI9Inference0klmN0CTf1nnnnc_n
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlFSi_Tg5140$s24TokenGenerationInference26E5TransformerLanguageModelC13nodesAsLinear015_C54BEC2A6549C4N16D2CDB56F73805ABELL0H0SaySiGSgAG_tFSbSi_SitXEfU_0hI9Inference0klmN0CTf1nnnnc_nTf4nnnng_nTm
+- _$sypSgMD
+- _OBJC_CLASS_$_TGIE5KVCacheEntryObjC
+- _OBJC_IVAR_$_TGIE5KVCacheEntryObjC._kvCacheEntry
+- _OBJC_METACLASS_$_TGIE5KVCacheEntryObjC
+- __DATA__TtC24TokenGenerationInference14KVLRUCacheNode
+- __DATA__TtC24TokenGenerationInference25PromptLookupLanguageModel
+- __IVARS__TtC24TokenGenerationInference14KVLRUCacheNode
+- __IVARS__TtC24TokenGenerationInference25PromptLookupLanguageModel
+- __METACLASS_DATA__TtC24TokenGenerationInference14KVLRUCacheNode
+- __METACLASS_DATA__TtC24TokenGenerationInference25PromptLookupLanguageModel
+- __OBJC_$_INSTANCE_METHODS_TGIE5KVCacheEntryObjC
+- __OBJC_$_INSTANCE_VARIABLES_TGIE5KVCacheEntryObjC
+- __OBJC_$_PROP_LIST_TGIE5KVCacheEntryObjC
+- __OBJC_CLASS_PROTOCOLS_$_TGIE5KVCacheEntryObjC
+- __OBJC_CLASS_RO_$_TGIE5KVCacheEntryObjC
+- __OBJC_METACLASS_RO_$_TGIE5KVCacheEntryObjC
+- __ZN12_GLOBAL__N_121numberNSArrayToVectorEP7NSArrayIPS0_IP8NSNumberEE
+- __ZN12_GLOBAL__N_124tokenNSArrayToUIntVectorEP7NSArrayIP8NSNumberE
+- __ZN13TGIE5FunctionD1Ev
+- __ZN23TGIE5ModelConfigurationD1Ev
+- __ZN25TGIE5AdapterConfigurationD1Ev
+- __ZN3cgm26token_generation_inference18espresso_inference18E5MLModuleSettingsD1Ev
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11forwardTreeERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEEm
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEEm.cold.1
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEEm.cold.2
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel12singleExtendERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEEm.cold.3
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel16prepareStreamOpsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERKNS3_13unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESE_NS3_4hashISE_EENS3_8equal_toISE_EENSC_INS3_4pairIKSE_SE_EEEEEERKNS3_6vectorISE_NSC_ISE_EEEESU_
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel16prepareStreamOpsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERKNS3_13unordered_mapINS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESE_NS3_4hashISE_EENS3_8equal_toISE_EENSC_INS3_4pairIKSE_SE_EEEEEERKNS3_6vectorISE_NSC_ISE_EEEESU_.cold.1
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel24purgeUnusedKeyValueCacheERKNSt3__16vectorIjNS3_9allocatorIjEEEES9_
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel6promptERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel6promptERKNSt3__16vectorIiNS3_9allocatorIiEEEE.cold.1
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel6promptERKNSt3__16vectorIiNS3_9allocatorIiEEEE.cold.2
+- __ZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel13clearAllStateEv
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel13clearAllStateEv.cold.1
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel24purgeUnusedKeyValueCacheERKNSt3__16vectorIjNS3_9allocatorIjEEEES9_
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel5resetEm
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel7forwardEi
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel7forwardEi.cold.1
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelC1ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_RKNS3_13unordered_mapIS9_S9_NS3_4hashIS9_EENS3_8equal_toIS9_EENS7_INS3_4pairISA_S9_EEEEEE
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelC2ERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEESB_RKNS3_13unordered_mapIS9_S9_NS3_4hashIS9_EENS3_8equal_toIS9_EENS7_INS3_4pairISA_S9_EEEEEE
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelD0Ev
+- __ZN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelD1Ev
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel11forwardMaskERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel11forwardTreeERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEE
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel24purgeUnusedKeyValueCacheERKNSt3__16vectorIjNS3_9allocatorIjEEEES9_
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEESF_
+- __ZN3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEESF_.cold.1
+- __ZN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel18PromptExtendModuleD1Ev
+- __ZN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel24purgeUnusedKeyValueCacheERKNSt3__16vectorIjNS3_9allocatorIjEEEES9_
+- __ZN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel7forwardERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZN3cgm26token_generation_inference4ajax3ane10isExtendOpERKN4E5RT24ExecutionStreamOperationE
+- __ZN3cgm26token_generation_inference4ajax3ane14getQueryLengthERKN4E5RT17OperandDescriptorE
+- __ZN3cgm26token_generation_inference4ajax3ane14getQueryLengthERKN4E5RT24ExecutionStreamOperationE
+- __ZN3cgm26token_generation_inference4ajax3ane14getQueryLengthERKNS1_5utils12StreamOpPairE
+- __ZN3cgm26token_generation_inference4ajax3ane15filterFunctionsENSt3__110shared_ptrIN4E5RT14ProgramLibraryEEERK23TGIE5ModelConfigurationNS3_8functionIFbRKNS3_12basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKNS5_15ProgramFunctionEEEE
+- __ZN3cgm26token_generation_inference4ajax3ane16getContextLengthERKN4E5RT17OperandDescriptorE
+- __ZN3cgm26token_generation_inference4ajax3ane16getContextLengthERKNS1_5utils12StreamOpPairE
+- __ZN3cgm26token_generation_inference4ajax3ane16isExtendFunctionERKN4E5RT15ProgramFunctionE
+- __ZN3cgm26token_generation_inference4ajax3ane18numHolesBeforeStepEmRKNSt3__16vectorImNS3_9allocatorImEEEE
+- __ZN3cgm26token_generation_inference4ajax3ane19doesOpComputeLogitsERKNS1_5utils12StreamOpPairE
+- __ZN3cgm26token_generation_inference4ajax3ane20stepForContextLengthEmm
+- __ZN3cgm26token_generation_inference4ajax3ane24findBestStreamOpForQueryINS1_5utils12StreamOpPairEEET_RKNSt3__16vectorIS6_NS7_9allocatorIS6_EEEEmm
+- __ZN3cgm26token_generation_inference4ajax3ane25doesFunctionComputeLogitsERKN4E5RT15ProgramFunctionE
+- __ZN3cgm26token_generation_inference4ajax5utils20setRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmRKNSt3__16vectorINS7_ImNS6_9allocatorImEEEENS8_ISA_EEEEmmmRKSA_
+- __ZN3cgm26token_generation_inference4ajax5utils24setTreeRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmmRKNSt3__16vectorINS7_ImNS6_9allocatorImEEEENS8_ISA_EEEEmbRKSA_
+- __ZN3cgm26token_generation_inference4ajax5utils25tokenTreeIndexesAreLinearERKNSt3__16vectorINS4_ImNS3_9allocatorImEEEENS5_IS7_EEEE
+- __ZN3cgm26token_generation_inference4ajax5utils26makeLinearTokenTreeIndexesEm
+- __ZN3cgm26token_generation_inference4ajax5utils26setLinearRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmmmbRKNSt3__16vectorImNS6_9allocatorImEEEE
+- __ZN3cgm26token_generation_inference4ajax5utils27setCausalMaskAndPositionIdsEN4E5RT4SpanIDF16_Lm18446744073709551615EEENS4_IiLm18446744073709551615EEERKNSt3__16vectorINS8_ImNS7_9allocatorImEEEENS9_ISB_EEEESF_mm
+- __ZN3cgm26token_generation_inference4ajax5utils27setCausalMaskAndPositionIdsEN4E5RT4SpanIDF16_Lm18446744073709551615EEENS4_IiLm18446744073709551615EEERKNSt3__16vectorINS8_ImNS7_9allocatorImEEEENS9_ISB_EEEESF_mm.cold.1
+- __ZN3cgm26token_generation_inference4ajax5utils27setCausalMaskAndPositionIdsEN4E5RT4SpanIDF16_Lm18446744073709551615EEENS4_IiLm18446744073709551615EEERKNSt3__16vectorINS8_ImNS7_9allocatorImEEEENS9_ISB_EEEESF_mm.cold.2
+- __ZN3cgm26token_generation_inference4ajax5utilsL26setLinearRelativePositionsEN4E5RT4SpanIDF16_Lm18446744073709551615EEEmmRKNSt3__16vectorImNS6_9allocatorImEEEEmbSC_m
+- __ZNK3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel19getMaxTokenTreeSizeEv
+- __ZNK3cgm26token_generation_inference4ajax20AJAXExtendE5MLModule24purgeUnusedKeyValueCacheERKNSt3__16vectorIjNS3_9allocatorIjEEEES9_m
+- __ZNK3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel18getVocabularyCountEv
+- __ZNK3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel19getMaxContextLengthEv
+- __ZNK3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel20getLastForwardLogitsEv
+- __ZNK3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel21getNumTokensProcessedEv
+- __ZNK3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModel9getLogitsEv
+- __ZNK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
+- __ZNK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel19getMaxTokenTreeSizeEv
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IPKN3cgm26token_generation_inference4ajax5utils12StreamOpPairESA_PS8_EENS_4pairIT_T1_EESD_T0_SE_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS6_EEEESA_NS_20back_insert_iteratorINS_6vectorINS_10shared_ptrIS6_EENS_9allocatorISE_EEEEEEEENS_4pairIT_T1_EESK_T0_SL_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__113__format_spec8__parserIcE10__validateB8ne190102ENS0_8__fieldsB8ne190102EPKcj
+- __ZNKSt3__113__format_spec8__parserIcE11__get_widthB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
+- __ZNKSt3__113__format_spec8__parserIcE15__get_precisionB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
+- __ZNKSt3__113__format_spec8__parserIcE31__get_parsed_std_specificationsB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENS0_23__parsed_specificationsIcEERT_
+- __ZNKSt3__113__string_hashIcNS_9allocatorIcEEEclB8ne190102ERKNS_12basic_stringIcNS_11char_traitsIcEES2_EE
+- __ZNKSt3__114default_deleteI17TGIE5KVCacheEntryEclB8ne190102EPS1_
+- __ZNKSt3__114default_deleteIN3cgm26token_generation_inference18espresso_inference17AJAXE5MLModelBaseEEclB8ne190102EPS4_
+- __ZNKSt3__114default_deleteIN3cgm26token_generation_inference4ajax20AJAXExtendE5MLModuleEEclB8ne190102EPS4_
+- __ZNKSt3__114default_deleteIN3cgm26token_generation_inference4ajax20AJAXPromptE5MLModuleEEclB8ne190102EPS4_
+- __ZNKSt3__116__formatter_charIcE6formatB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEcRSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102IiNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102IjNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102InNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102IoNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102IxNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_integerIcE6formatB8ne190102IyNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
+- __ZNKSt3__119__formatter_pointerIcE6formatB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEPKvRSA_
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne190102IPN3cgm26token_generation_inference4ajax5utils12StreamOpPairES9_S9_EENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESA_SA_EENS_4pairIT_T1_EESC_T0_SD_
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8ne190102EPKvm
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_EclB8ne190102Ev
+- __ZNKSt3__14__fs10filesystem4path9extensionB8ne190102Ev
+- __ZNKSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIDF16_NS_9allocatorIDF16_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN3cgm26token_generation_inference4ajax13kvcache_utils20CacheFillInstructionENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIlNS_9allocatorIlEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorImNS_9allocatorImEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ne190102ERKS6_S9_
+- __ZNKSt3__19formatterIPKccE6formatB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorES2_RSC_
+- __ZNKSt3__19formatterIbcE6formatB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEbRSA_
+- __ZNKSt9type_infoeqB8ne190102ERKS_
+- __ZNSt11range_errorC1B8ne190102EPKc
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt12out_of_rangeC1B8ne190102EPKc
+- __ZNSt3__110__function12__value_funcIFbRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERKN4E5RT15ProgramFunctionEEED2B8ne190102Ev
+- __ZNSt3__110__pop_heapB8ne190102INS_17_ClassicAlgPolicyEPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SA_RT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__110__pop_heapB8ne190102INS_17_ClassicAlgPolicyEPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_S9_RT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__110shared_ptrIN4E5RT12MemoryObjectEEC2B8ne190102INS1_12BufferObjectENS_14default_deleteIS5_EELi0EEEONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4E5RT12MemoryObjectEEaSB8ne190102INS1_12BufferObjectENS_14default_deleteIS5_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4E5RT15ExecutionStreamEEC2B8ne190102IS2_NS_14default_deleteIS2_EELi0EEEONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4E5RT15ExecutionStreamEEaSB8ne190102IS2_NS_14default_deleteIS2_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4E5RT24ExecutionStreamOperationEEC2B8ne190102IS2_NS_14default_deleteIS2_EELi0EEEONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110shared_ptrIN4E5RT24ExecutionStreamOperationEEaSB8ne190102IS2_NS_14default_deleteIS2_EELi0EEERS3_ONS_10unique_ptrIT_T0_EE
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS0_IKN4E5RT17OperandDescriptorENS_14default_deleteISB_EEEEEEPvEENS_22__hash_node_destructorINS6_ISH_EEEEE5resetB8ne190102EPSH_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEEPvEENS_22__hash_node_destructorINS6_ISG_EEEEE5resetB8ne190102EPSG_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEE5resetB8ne190102EPSF_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEEPvEENS_22__hash_node_destructorINS6_ISF_EEEEE5resetB8ne190102EPSF_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS8_NS6_IS8_EEEEEEPvEENS_22__hash_node_destructorINS6_ISE_EEEEE5resetB8ne190102EPSE_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_EEPvEENS_22__hash_node_destructorINS6_ISB_EEEEE5resetB8ne190102EPSB_
+- __ZNSt3__111__formatter13__format_boolB8ne190102IcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorEbRS9_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IciNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IcjNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IcnNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IcoNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IcxNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter13__format_charB8ne190102IcyNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
+- __ZNSt3__111__formatter14__hex_to_upperB8ne190102Ec
+- __ZNSt3__111__formatter14__write_stringB8ne190102IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
+- __ZNSt3__111__formatter15__format_bufferB8ne190102IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
+- __ZNSt3__111__formatter15__format_bufferB8ne190102IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
+- __ZNSt3__111__formatter15__format_bufferB8ne190102IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
+- __ZNSt3__111__formatter16__format_integerB8ne190102IjPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
+- __ZNSt3__111__formatter16__format_integerB8ne190102IjcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
+- __ZNSt3__111__formatter16__format_integerB8ne190102ImPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
+- __ZNSt3__111__formatter16__format_integerB8ne190102ImcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
+- __ZNSt3__111__formatter16__format_integerB8ne190102IoPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
+- __ZNSt3__111__formatter16__format_integerB8ne190102IocNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
+- __ZNSt3__111__formatter16__format_integerB8ne190102IyPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
+- __ZNSt3__111__formatter16__format_integerB8ne190102IycNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
+- __ZNSt3__111__formatter19__write_transformedB8ne190102IPcccPFccENS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_ET_SB_T3_NS_13__format_spec23__parsed_specificationsIT1_EET2_
+- __ZNSt3__111__formatter23__format_buffer_defaultB8ne190102IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
+- __ZNSt3__111__formatter23__format_buffer_defaultB8ne190102IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
+- __ZNSt3__111__formatter23__format_buffer_defaultB8ne190102IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
+- __ZNSt3__111__formatter23__format_floating_pointB8ne190102IdcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
+- __ZNSt3__111__formatter23__format_floating_pointB8ne190102IecNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
+- __ZNSt3__111__formatter23__format_floating_pointB8ne190102IfcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
+- __ZNSt3__111__formatter27__write_string_no_precisionB8ne190102IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
+- __ZNSt3__111__formatter28__write_using_trailing_zerosB8ne190102IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_EPKT_SA_T1_NS_13__format_spec23__parsed_specificationsIT0_EEmSA_m
+- __ZNSt3__111__formatter29__format_locale_specific_formB8ne190102INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEdcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
+- __ZNSt3__111__formatter29__format_locale_specific_formB8ne190102INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEfcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
+- __ZNSt3__111__formatter32__write_using_decimal_separatorsB8ne190102INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEPccEET_S8_T0_S9_S9_ONS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET1_NS_13__format_spec23__parsed_specificationsISH_EE
+- __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne190102IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne190102IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne190102IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter34__format_floating_point_non_finiteB8ne190102INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEET_S7_NS_13__format_spec23__parsed_specificationsIT0_EEbb
+- __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne190102IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne190102IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne190102IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne190102IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne190102IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne190102IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne190102IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne190102IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne190102IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
+- __ZNSt3__111__formatter6__fillB8ne190102IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEET0_S7_mNS_13__format_spec12__code_pointIT_EE
+- __ZNSt3__111__formatter7__writeB8ne190102IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET1_NS_13__format_spec23__parsed_specificationsIT0_EEl
+- __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_OT0_NS_15iterator_traitsISB_E15difference_typeESB_
+- __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_OT0_NS_15iterator_traitsISA_E15difference_typeESA_
+- __ZNSt3__112__destroy_atB8ne190102I13TGIE5FunctionLi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102I25TGIE5AdapterConfigurationLi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102IN3cgm26token_generation_inference4ajax5utils12StreamOpPairELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIKN4E5RT17OperandDescriptorENS_14default_deleteISC_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_6vectorIS7_NS5_IS7_EEEEEELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKmN3cgm26token_generation_inference4ajax28EnumeratedShapeAJAXE5MLModel18PromptExtendModuleEEELi0EEEvPT_
+- __ZNSt3__112__vformat_toB8ne190102INS_20back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEcNS1_INS_8__format15__output_bufferIcEEEEEET_SD_NS_17basic_string_viewIT0_NS3_ISF_EEEENS_17basic_format_argsINS_20basic_format_contextIT1_SF_EEEE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE16__init_with_sizeB8ne190102IPKcS8_EEvT_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE18__insert_with_sizeIPcS7_EENS_11__wrap_iterIS7_EENS8_IPKcEET_T0_m
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__init_with_sentinelB8ne190102IPcS7_EEvT_T0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE23__insert_from_safe_copyB8ne190102INS_11__wrap_iterIPKcEESA_EENS7_IPcEEmmT_T0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE23__insert_from_safe_copyB8ne190102IPcS7_EENS_11__wrap_iterIS7_EEmmT_T0_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendB8ne190102IPKcLi0EEERS5_T_SA_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__112construct_atB8ne190102I13TGIE5FunctionJRKS1_EPS1_EEPT_S6_DpOT0_
+- __ZNSt3__112construct_atB8ne190102I13TGIE5FunctionJRS1_EPS1_EEPT_S5_DpOT0_
+- __ZNSt3__112construct_atB8ne190102I25TGIE5AdapterConfigurationJRS1_EPS1_EEPT_S5_DpOT0_
+- __ZNSt3__112format_errorC1B8ne190102EPKc
+- __ZNSt3__113__format_spec14__parse_arg_idB8ne190102IPKcNS_26basic_format_parse_contextIcEEEENS_8__format21__parse_number_resultIT_EES8_S8_RT0_
+- __ZNSt3__113__format_spec21__process_parsed_boolB8ne190102IcEEvRNS0_8__parserIT_EEPKc
+- __ZNSt3__113__format_spec21__process_parsed_charB8ne190102IcEEvRNS0_8__parserIT_EEPKc
+- __ZNSt3__113__format_spec23__estimate_column_widthB8ne190102IcPKcEENS0_21__column_width_resultIT0_EENS_17basic_string_viewIT_NS_11char_traitsIS8_EEEEmNS0_23__column_width_roundingE
+- __ZNSt3__113__format_spec24__process_parsed_integerB8ne190102IcEEvRNS0_8__parserIT_EEPKc
+- __ZNSt3__113__format_spec33__throw_invalid_type_format_errorB8ne190102EPKc
+- __ZNSt3__113__format_spec35__throw_invalid_option_format_errorB8ne190102EPKcS2_
+- __ZNSt3__113__format_spec8__detail43__estimate_column_width_grapheme_clusteringB8ne190102IPKcEENS0_21__column_width_resultIT_EES6_S6_mNS0_23__column_width_roundingE
+- __ZNSt3__113__format_spec8__parserIcE12__parse_typeB8ne190102IPKcEEvRT_
+- __ZNSt3__113__format_spec8__parserIcE13__parse_widthB8ne190102IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
+- __ZNSt3__113__format_spec8__parserIcE17__parse_precisionB8ne190102IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
+- __ZNSt3__113__format_spec8__parserIcE18__parse_fill_alignB8ne190102IPKcEEbRT_S6_
+- __ZNSt3__113__format_spec8__parserIcE7__parseB8ne190102INS_26basic_format_parse_contextIcEEEENT_8iteratorERS6_NS0_8__fieldsB8ne190102E
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERNS_9allocatorIS4_EEE5clearB8ne190102Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEERNS_9allocatorIS4_EEE5clearB8ne190102Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__114__split_bufferINS_6vectorImNS_9allocatorImEEEERNS2_IS4_EEE17__destruct_at_endB8ne190102EPS4_
+- __ZNSt3__114__split_bufferINS_6vectorImNS_9allocatorImEEEERNS2_IS4_EEED2Ev
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_T0_
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_T0_
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116make_format_argsB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEJKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEESE_EEENS_18__format_arg_storeIT_JDpT0_EEEDpRSH_
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EET1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EET1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__118__formatter_stringIcE5parseB8ne190102INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
+- __ZNSt3__118__visit_format_argB8ne190102IZNS_13__format_spec19__substitute_arg_idB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_S9_EEDcOSB_NSA_IT0_EE
+- __ZNSt3__118__visit_format_argB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_SC_EEDcOSD_NS_16basic_format_argISE_EE
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI13TGIE5FunctionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI25TGIE5AdapterConfigurationEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIDF16_EEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN3cgm26token_generation_inference4ajax13kvcache_utils20CacheFillInstructionEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorImNS1_ImEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIlEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorImEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__formatter_pointerIcE5parseB8ne190102INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
+- __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_SA_EET1_SB_SB_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_S9_EET1_SA_SA_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
+- __ZNSt3__119__to_chars_integralB8ne190102IjEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
+- __ZNSt3__119__to_chars_integralB8ne190102IoEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
+- __ZNSt3__119__to_chars_integralB8ne190102IyEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
+- __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne190102ERKS7_
+- __ZNSt3__120__optional_copy_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EEC2B8ne190102ERKS7_.cold.1
+- __ZNSt3__120__throw_format_errorB8ne190102EPKc
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
+- __ZNSt3__120back_insert_iteratorINS_6vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS5_EEEEEaSB8ne190102EOS5_
+- __ZNSt3__120back_insert_iteratorINS_6vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS5_EEEEEaSB8ne190102EOS5_
+- __ZNSt3__120back_insert_iteratorINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEEEEaSB8ne190102ERKS7_
+- __ZNSt3__120back_insert_iteratorINS_8__format15__output_bufferIcEEEaSB8ne190102ERKc
+- __ZNSt3__120basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcE6localeB8ne190102Ev
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8ne190102EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8ne190102EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8ne190102EPKcm
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8ne190102EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIN4E5RT17ComponentDataTypeENS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPvEEEEEclB8ne190102EPSD_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEmEEPvEEEEEclB8ne190102EPSB_
+- __ZNSt3__122__indic_conjunct_break14__get_propertyB8ne190102EDi
+- __ZNSt3__122__indic_conjunct_break9__entriesB8ne190102E
+- __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE13__assign_fromB8ne190102IRKNS_27__optional_copy_assign_baseIS6_Lb0EEEEEvOT_
+- __ZNSt3__123__optional_storage_baseINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEELb0EE16__construct_fromB8ne190102IRKNS_20__optional_copy_baseIS6_Lb0EEEEEvOT_
+- __ZNSt3__124__optional_destruct_baseI13TGIE5FunctionLb0EED2B8ne190102Ev
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__124__width_estimation_table17__estimated_widthB8ne190102EDi
+- __ZNSt3__124__width_estimation_table9__entriesB8ne190102E
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __ZNSt3__125__to_chars_integral_widthB8ne190102IjEEiT_j
+- __ZNSt3__125__to_chars_integral_widthB8ne190102IoEEiT_j
+- __ZNSt3__125__to_chars_integral_widthB8ne190102IyEEiT_j
+- __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_T0_
+- __ZNSt3__126basic_format_parse_contextIcE11next_arg_idB8ne190102Ev
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEbT1_SA_T0_
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne190102Ev
+- __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPN3cgm26token_generation_inference4ajax5utils12StreamOpPairERPFbS6_S6_EEET0_SB_SB_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERPFbS5_S5_EEET0_SA_SA_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPN3cgm26token_generation_inference4ajax5utils12StreamOpPairERPFbS6_S6_EEENS_4pairIT0_bEESC_SC_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEERPFbS5_S5_EEENS_4pairIT0_bEESB_SB_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI13TGIE5FunctionEES2_EEvRT_PT0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI25TGIE5AdapterConfigurationEES2_EEvRT_PT0_S7_S7_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairEEES6_EEvRT_PT0_SB_SB_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorI13TGIE5FunctionEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorI25TGIE5AdapterConfigurationEEPS2_S4_S4_EET2_RT_T0_T1_S5_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPKS6_S9_PS6_EET2_RT_T0_T1_SB_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__144__extended_grapheme_custer_property_boundary14__get_propertyB8ne190102EDi
+- __ZNSt3__144__extended_grapheme_custer_property_boundary9__entriesB8ne190102E
+- __ZNSt3__14__fs10filesystem4path6assignB8ne190102IPKcEENS_9enable_ifIXsr13__is_pathableIT_EE5valueERS2_E4typeERKS7_
+- __ZNSt3__14__fs10filesystem4pathC2B8ne190102IA5_cvEERKT_NS2_6formatE
+- __ZNSt3__14__fs10filesystem4pathC2B8ne190102IA8_cvEERKT_NS2_6formatE
+- __ZNSt3__14__fs10filesystem4pathC2B8ne190102INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEERKT_NS2_6formatE
+- __ZNSt3__14__fs10filesystem4pathC2B8ne190102IPKcvEERKT_NS2_6formatE
+- __ZNSt3__14__fs10filesystemeqB8ne190102ERKNS1_4pathES4_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIKN4E5RT17OperandDescriptorEEEEC2B8ne190102ERKSD_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEC2B8ne190102EOSC_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT12MemoryObjectEEEEC2B8ne190102ERKSC_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT15ProgramFunctionEEEEC2B8ne190102ERKSC_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEC2B8ne190102ERKSC_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEED1Ev
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10unique_ptrIKN4E5RT17OperandDescriptorENS_14default_deleteISB_EEEEEC2B8ne190102EOSF_
+- __ZNSt3__14pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EC2B8ne190102ERKS8_
+- __ZNSt3__16__findB8ne190102IPKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES8_S6_NS_10__identityEEET_SA_T0_RKT1_RT2_
+- __ZNSt3__16__findB8ne190102IPNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_S6_NS_10__identityEEET_S9_T0_RKT1_RT2_
+- __ZNSt3__16__itoa10__append10B8ne190102IjEEPcS2_T_
+- __ZNSt3__16__itoa10__append10B8ne190102IyEEPcS2_T_
+- __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne190102IjEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne190102IoEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne190102IyEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne190102IjEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne190102IoEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne190102IyEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne190102IjEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne190102IoEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne190102IyEENS_15to_chars_resultEPcS5_T_
+- __ZNSt3__16__itoa13__base_10_u32B8ne190102EPcj
+- __ZNSt3__16__itoa13__traits_baseIyvE9__convertB8ne190102EPcy
+- __ZNSt3__16__itoa14__base_10_u128B8ne190102EPco
+- __ZNSt3__16invokeB8ne190102IZNS_13__format_spec19__substitute_arg_idB8ne190102INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_JRxEEENS_13invoke_resultISB_JDpT0_EE4typeEOSB_DpOSG_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRNS_17basic_string_viewIcNS_11char_traitsIcEEEEEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSP_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRPKvEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSN_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRS4_EEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRbEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRcEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRdEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JReEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRfEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRiEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRjEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRnEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRoEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRxEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16invokeB8ne190102IZNS_8__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_JRyEEENS_13invoke_resultISD_JDpT0_EE4typeEOSD_DpOSL_
+- __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE16__init_with_sizeB8ne190102IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI13TGIE5FunctionNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEPS1_OT_
+- __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE16__init_with_sizeB8ne190102IPS1_S6_EEvT_T0_m
+- __ZNSt3__16vectorI25TGIE5AdapterConfigurationNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEPS1_OT_
+- __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIDF16_NS_9allocatorIDF16_EEEC2B8ne190102EmRKDF16_
+- __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIN3cgm26token_generation_inference4ajax5utils12StreamOpPairENS_9allocatorIS5_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKS5_EESD_EENSA_IPS5_EESD_T_T0_l
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE13__vdeallocateEv
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE22__construct_one_at_endB8ne190102IJRKS3_EEEvDpOT_
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS0_ImNS_9allocatorImEEEENS1_IS3_EEE7reserveEm
+- __ZNSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEENS_9allocatorIS4_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN4E5RT33PrecompiledComputeOpCreateOptionsEEENS_9allocatorIS4_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_10unique_ptrIN4E5RT24ExecutionStreamOperationENS_14default_deleteIS3_EEEENS_9allocatorIS6_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__init_with_sizeB8ne190102IPS6_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKS6_EESD_EENSA_IPS6_EESD_T_T0_l
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIRKS6_EEPS6_OT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE22__construct_one_at_endB8ne190102IJRKS6_EEEvDpOT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne190102IPiS5_EEvT_T0_m
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPKiEES8_EENS5_IPiEES8_T_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE7reserveEm
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIlNS_9allocatorIlEEE16__init_with_sizeB8ne190102IPlS5_EEvT_T0_m
+- __ZNSt3__16vectorImNS_9allocatorImEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorImNS_9allocatorImEEE16__init_with_sizeB8ne190102IPmS5_EEvT_T0_m
+- __ZNSt3__16vectorImNS_9allocatorImEEEC2B8ne190102Em
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEjT1_SB_SB_T0_
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEjT1_SA_SA_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_SA_SA_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_SA_SA_SA_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ne190102IRPN3cgm26token_generation_inference4ajax5utils12StreamOpPairES9_EEvOT_OT0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ne190102IRPN3cgm26token_generation_inference4ajax5utils12StreamOpPairESA_EEvOT_OT0_
+- __ZNSt3__18__format12__vformat_toB8ne190102INS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEENT0_8iteratorEOT_OSA_
+- __ZNSt3__18__format14__parse_arg_idB8ne190102IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES7_S7_RT0_
+- __ZNSt3__18__format14__parse_numberB8ne190102IPKcEENS0_21__parse_number_resultIT_EES5_S5_
+- __ZNSt3__18__format15__output_bufferIcE11__transformB8ne190102IPcPFccEcEEvT_S7_T0_
+- __ZNSt3__18__format15__output_bufferIcE6__copyB8ne190102IcEEvNS_17basic_string_viewIT_NS_11char_traitsIS5_EEEE
+- __ZNSt3__18__format15__output_bufferIcE6__fillB8ne190102Emc
+- __ZNSt3__18__format26__handle_replacement_fieldB8ne190102IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEET_SC_SC_RT0_RT1_
+- __ZNSt3__18__format8__detail14__parse_manualB8ne190102IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES8_S8_RT0_
+- __ZNSt3__18for_eachB8ne190102INS_11__wrap_iterIPK13TGIE5FunctionEEZNK23TGIE5ModelConfiguration15e5FunctionNamesEvEUlRKT_E_EET0_S7_S7_SB_
+- __ZNSt3__18for_eachB8ne190102INS_25__hash_map_const_iteratorINS_21__hash_const_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_10shared_ptrIN4E5RT6IOPortEEEEEPvEEEEEEZNK3cgm26token_generation_inference18espresso_inference18EspressoE5MLModule12bindAllPortsEvE3$_0EET0_T_SR_SQ_
+- __ZNSt3__18optionalI13TGIE5FunctionEaSB8ne190102IRKS1_vEERS2_OT_
+- __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne190102IPKcvEERS7_OT_
+- __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne190102IRA67_KcvEERS7_OT_
+- __ZNSt3__18optionalINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEaSB8ne190102IRKS6_vEERS7_OT_
+- __ZNSt3__18optionalINS_6localeEEaSB8ne190102IS1_vEERS2_OT_
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERPFbN3cgm26token_generation_inference4ajax5utils12StreamOpPairES6_EPS6_EEvT1_SB_OT0_NS_15iterator_traitsISB_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERPFbNS_10shared_ptrIN4E5RT24ExecutionStreamOperationEEES5_EPS5_EEvT1_SA_OT0_NS_15iterator_traitsISA_E15difference_typeE
+- __ZNSt3__19__unicode17__code_point_viewIcE9__consumeB8ne190102Ev
+- __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne190102Ev
+- __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne190102Ev.cold.1
+- __ZNSt3__19__unicode33__extended_grapheme_cluster_break10__evaluateB8ne190102EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
+- __ZNSt3__19__unicode33__extended_grapheme_cluster_break15__evaluate_noneB8ne190102EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
+- __ZNSt3__19__unicode33__extended_grapheme_cluster_break21__evaluate_GB11_emojiB8ne190102EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
+- __ZNSt3__19__unicode33__extended_grapheme_cluster_break36__evaluate_GB9c_indic_conjunct_breakB8ne190102EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
+- __ZNSt3__19__unicode33__extended_grapheme_cluster_breakC2B8ne190102EDi
+- __ZNSt3__1eqB8ne190102INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES6_EENS_9enable_ifIX16is_convertible_vIDTeqclsr3stdE7declvalIRKT_EEclsr3stdE7declvalIRKT0_EEEbEEbE4typeERKNS_8optionalIS8_EESD_
+- __ZNSt3__1plB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEOS9_PKS6_
+- __ZNSt3__1plB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_OS9_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZTIN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelE
+- __ZTIN3cgm26token_generation_inference4ajax32AJAXE5MLModelWithPositionSupportE
+- __ZTSN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelE
+- __ZTSN3cgm26token_generation_inference4ajax32AJAXE5MLModelWithPositionSupportE
+- __ZTVN3cgm26token_generation_inference4ajax24StaticShapeAJAXE5MLModelE
+- __ZThn40_N3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel10purgeStepsERKNSt3__16vectorIiNS3_9allocatorIiEEEE
+- __ZThn40_N3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel11forwardTreeERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZThn40_N3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel11forwardMaskERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZThn40_N3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel15setKVCacheEntryEmRKNSt3__110unique_ptrI17TGIE5KVCacheEntryNS3_14default_deleteIS5_EEEE
+- __ZThn40_NK3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel19getMaxTokenTreeSizeEv
+- __ZThn40_NK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel18createKVCacheEntryERKNSt3__14pairImmEE
+- __ZThn48_N3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel11forwardTreeERKNSt3__16vectorIiNS3_9allocatorIiEEEERKNS4_INS4_ImNS5_ImEEEENS5_ISB_EEEE
+- __ZThn48_NK3cgm26token_generation_inference4ajax26FlexibleShapeAJAXE5MLModel19getMaxTokenTreeSizeEv
+- __ZZN3cgm26token_generation_inference4ajax16ANEAJAXE5MLModel22fillCacheHolesIfNeededEmbENK3$_0clERKN4E5RT17OperandDescriptorENS4_4SpanIhLm18446744073709551615EEE
+- __ZZN3cgm26token_generation_inference4ajax3ane12checkIOPortsERKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEERKN4E5RT15ProgramFunctionEENK3$_0clENS3_13unordered_mapIS9_NS3_10shared_ptrIKNSC_17OperandDescriptorEEENS3_4hashIS9_EENS3_8equal_toIS9_EENS7_INS3_4pairISA_SL_EEEEEE
+- __ZZNSt3__18__format15__output_bufferIcEC1B8ne190102INS0_15__format_bufferINS_20back_insert_iteratorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEcEEEEPcmPT_ENUlSE_mPvE_8__invokeESE_mSH_
+- __Znwm
+- ___cxa_rethrow
+- ___swift_get_extra_inhabitant_index.67Tm
+- ___swift_memcpy168_8
+- ___swift_memcpy200_8
+- ___swift_memcpy72_8
+- ___swift_memcpy96_8
+- ___swift_store_extra_inhabitant_index.68Tm
+- ___unnamed_7
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_TokenGenerationInference
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_TokenGenerationInference
+- __swift_stdlib_malloc_size
+- _get_witness_table SHRzr0_lSiSHHPyHC.105
+- _objc_msgSend$initWithKVCacheEntry:
+- _objc_msgSend$kvCacheEntry
+- _objc_msgSend$runTokens:tokenTreeIndexes:tokenMask:outputBlock:
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedIntegerValue
+- _objc_retain_x26
+- _objc_retain_x28
+- _swift_deallocUninitializedObject
+- _symbolic SDySaySiG_____G 24TokenGenerationInference14KVLRUCacheNodeC
+- _symbolic SS19tokenizerIdentifier______7managert 19TokenGenerationCore06GuidedB17VocabularyManagerV
+- _symbolic SS19tokenizerIdentifier______7managertSg 19TokenGenerationCore06GuidedB17VocabularyManagerV
+- _symbolic SS3key_yp5valuet
+- _symbolic SS_ypt
+- _symbolic SaySfG
+- _symbolic SaySo8NSNumberCG
+- _symbolic SaySsG
+- _symbolic ScCySay______pG______pG 24TokenGenerationInference15LogitCollectionP s5ErrorP
+- _symbolic So18TGIE5BaseModelObjCC
+- _symbolic So21TGIE5KVCacheEntryObjCC
+- _symbolic _____ 19CollectionsInternal6BitSetV
+- _symbolic _____ 24TokenGenerationInference14KVLRUCacheNodeC
+- _symbolic _____ 24TokenGenerationInference25PromptLookupLanguageModelC
+- _symbolic _____ 24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLV
+- _symbolic _____ 24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLV
+- _symbolic _____ SS5IndexV
+- _symbolic _____Sg 10Accelerate4BNNSO10DataLayoutO
+- _symbolic _____Sg 19TokenGenerationCore7GrammarV
+- _symbolic _____Sg 24TokenGenerationInference14KVLRUCacheNodeC
+- _symbolic _____ySaySiG_____G s18_DictionaryStorageC 24TokenGenerationInference14KVLRUCacheNodeC
+- _symbolic _____ySaySo8NSNumberCGG s23_ContiguousArrayStorageC
+- _symbolic _____ySi4node_Si5tokentG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G 24TokenGenerationInference11NodeStorageV AA25PromptLookupLanguageModelC0D5State016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLV
+- _symbolic _____y_____G s18ReversedCollectionV 10Foundation8IndexSetV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0R15D7F98A9442718FDLLV
+- _symbolic _____y______G s18ReversedCollectionV8IteratorV 10Foundation8IndexSetV
+- _symbolic ypSg
+- _type_layout_string 24TokenGenerationInference21MaskedLogitCollectionV
+- _type_layout_string 24TokenGenerationInference21SparseLogitCollectionV
+- _type_layout_string 24TokenGenerationInference22CompositeLanguageModelC0D15LogitCollectionV
+- _type_layout_string 24TokenGenerationInference25PrefixGuidedLanguageModelV0D15LogitCollectionV
+- _type_layout_string 24TokenGenerationInference25PromptLookupLanguageModelC03OneA15LogitCollection016_2A6F6D10EE3E4B0P15D7F98A9442718FDLLV
+- _type_layout_string 24TokenGenerationInference25PromptLookupLanguageModelC9NodeState016_2A6F6D10EE3E4B0O15D7F98A9442718FDLLV
+- _type_layout_string 24TokenGenerationInference32WeightedFiniteStateLanguageModelV0eF15LogitCollectionV
+- _vDSP_vsorti
+- _vImageConvert_Planar16FtoPlanarF
+CStrings:
++ "\nDecoding functions: \n"
++ "\nDynamic state assets: "
++ "\nIn-use assets: "
++ "\nLoaded ODIELanguageModel:\n%s\n"
++ "\nVocabulary count: "
++ " as an ArrayDescriptor"
++ " does not match decoder expectation of "
++ " to be NDArray but it was "
++ " was not a string"
++ " which could not be found."
++ "!sortedSteps.empty()"
++ "#16@0:8"
++ "$__lazy_storage_$_topKBNNSContext"
++ "(imageEmbeddingsProvider->empty() || imageEmbeddingsProvider->getEmbeddingSizeInBytes() == embeddingSizeInBytes) && \"Custom embeddings must match the model's embedding dimension.\""
++ ", ComputesLogits: "
++ "-[E5RunnerObjC runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:]"
++ ". Must be between 0 and 2."
++ "/private/var/mobile/Library/AppleIntelligencePlatform/AppModelAssets"
++ "<executable_start>"
++ "@\"<EncodedImages>\""
++ "@\"NSArray\""
++ "@\"NSString\"16@0:8"
++ "@20@0:8i16"
++ "@24@0:8:16"
++ "@32@0:8:16@24"
++ "@32@0:8@16^ 24"
++ "@40@0:8:16@24@32"
++ "AFM decoder did not have image_feature_projection function"
++ "AFM_Project_Encoded_Image"
++ "Adapter metadata has already been copied. Skipping."
++ "Adapter weights have already been cloned. Skipping."
++ "Adapter weights have already been copied. Skipping."
++ "Allocating buffer for operand %s of size %ld"
++ "AppAssetManager reference count for %{public}s decremented from %{public}ld to %{public}ld"
++ "AppAssetManager reference count for %{public}s incremented from %{public}ld to %{public}ld"
++ "Asked for an image embedding for "
++ "Asked to encode image when no image encoder available."
++ "Asked to get an image embedding when there are no encoded images."
++ "Asking for value of unknown dimension"
++ "Asset was ODIE model but ODIE runner does not support running on GPU."
++ "Attachments should no longer be in the tokenization results at this point."
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B32@?0^ 8Q16r^v24"
++ "B32@?0^ 8q16@\"NSArray\"24"
++ "B56@0:8@16@24@32q40^@48"
++ "Cache entry not a [Data]"
++ "Cannot find in_relative_positions_CT or in_causal_mask on extend/prompt function."
++ "Cannot find in_token_id or transformer_input on extend/prompt function."
++ "Cannot insert KV cache entry at %ld"
++ "Cannot load projection function from non-precompiled bundle at path {}."
++ "Cannot prefix TokenMask of count "
++ "Cannot sample logits from a decoding step that did not produce them."
++ "Cannot use fast path for high quality image tokenization"
++ "Cannot use fast path for image %ldx%ld, max dimension is %ld"
++ "Cannot use fast path for image %ldx%ld, neither dimension is %ld"
++ "Cannot use fast path for pixel format %u"
++ "Cannot use fast path for unpacked surface %ld != %ld"
++ "Cannot work with image encoder where width and height don't match"
++ "Classification sampling - Logit probability for token %ld is %f"
++ "Classification sampling - Picked class token %ld over class threshold"
++ "Classification sampling - Picked default token %ld"
++ "Cloning adapter weights."
++ "Compacting cache holes so we can use %s"
++ "Compiled MLIR bytecode at %s to mllibrary at %s"
++ "Compiling draft model if needed for asset: %{public}s"
++ "Copying adapter weights."
++ "Copying draft MIL."
++ "Copying draft weights."
++ "Copying file descriptor %{public}d to %{public}s"
++ "Copying metadata."
++ "Could not find gather op with queryLength: "
++ "Could not find main function in image encoder"
++ "Could not load image encoder from unknown file type "
++ "Couldn't find odixpackage in "
++ "Couldn't get encoded image"
++ "Decode function: (ContextLength: "
++ "Decoding functions do not match?!"
++ "Deleting temporary files for asset bundle identifier: %{public}s"
++ "Did not allocate buffer for operand named %s because no functions were found to use it."
++ "Did not find MPSGraph args for function: %s"
++ "Did not use all bytes in cache entry"
++ "Draft MIL has already been copied. Skipping."
++ "Draft model already in the process of compiling. Skipping."
++ "Draft weights have already been copied. Skipping."
++ "Duplicated buffers allocated during buffer allocation"
++ "E5RunnerImageDataObjC"
++ "E5RunnerImageTokenizerObjC"
++ "E5RunnerImageTokenizerObjCProtocol"
++ "E5RunnerObjC.mm"
++ "Embeddings were not compatible with decoder."
++ "Empty Prompt Provided for Inference"
++ "Empty Prompt Provided for inference"
++ "Encoded image needs feature projection but no feature projection function present in the decoder."
++ "EncodedImageArray: Appending image end tokens: %s"
++ "EncodedImageArray: Falling back to default image end token: %ld"
++ "EncodedImageArray: Falling back to default image start token: %ld"
++ "EncodedImageArray: Prepending image start tokens: %s"
++ "EncodedImages"
++ "Encoding image resulted in zero images?"
++ "Encountered error during asset transition: %s. Asset repository state at the time: %s"
++ "Expected a single output intent for load_embeddings"
++ "Expected encoded image to be "
++ "Expected operand type of "
++ "Failed to access sandbox for app with pid: "
++ "Failed to cleanup temporary file %s: %{public}@"
++ "Failed to compile draft model! %{public}@"
++ "Failed to compute image tokens: %s."
++ "Failed to copy an adapter asset"
++ "Failed to copy an adapter asset: %@"
++ "Failed to copy sandbox token for app container"
++ "Failed to create CGContext for image to get the pixel data"
++ "Failed to create CGImage from %ld bytes using)"
++ "Failed to create CGImageSource with %ld bytes"
++ "Failed to create container client with error: %llu"
++ "Failed to create container query"
++ "Failed to fetch draft model template"
++ "Failed to find a decode function to run next inference for current context: %ld remainingTokens: %ld, tokensRequiringLogitsCount: %ld"
++ "Failed to find a decode function to run next inference for current context: %ld, remaining tokens: %ld, computeLogitsTokenCount: %ld"
++ "Failed to find adapter for "
++ "Failed to find in-memory E5Runner. Fetching stop token from ModelCatalog for model bundle identifier: %{public}s"
++ "Failed to find in_new_token_ids as an ArrayDescriptor"
++ "Failed to find transformer_input as an ArrayDescriptor"
++ "Failed to get sandbox extension for path: %{public}s)"
++ "Failed to load custom assets for app with pid: "
++ "Failed to load image tokenizer model: %s."
++ "Failed to lookup app container for pid: %{public}d(error: %{public}s)."
++ "Failed to lookup stop token for model bundle identifier %{public}s"
++ "Failed to lookup stop token for model bundle identifier %{public}s. Error: %{public}@"
++ "Failed to release sandbox handle with code: %d"
++ "Failed to set kv cache entry, invalid range: ({}, {}), tokens processed {}, max state length: {}"
++ "Failed to set kv cache entry, start index {} is past {}"
++ "Fetching prompt preprocessing template version for asset bundle %{public}s"
++ "Found e5Runner asset object for resource bundle %{public}s"
++ "Found streaming delegate usage"
++ "Found that %s was a decoding function"
++ "Found that %s was not a decoding function"
++ "FoundationModelsExtensions"
++ "Function %s had delegate args but no groups??"
++ "Gather function with "
++ "GenerativeModels"
++ "Grammar IDs are not supported on device."
++ "High quality image dimension %ld must be greater than 0 and a multiple of input image dimension %ld"
++ "Hole indices not supported on MOD path for v5/v6 models."
++ "Ignoring encoded images due to missing image embeddings provider."
++ "Image embeddings say they're pre-projected but "
++ "Image encoder input has rank "
++ "Image feature projection bytes per embedding of "
++ "ImageEmbeddingCache hit"
++ "ImageEmbeddingCache insert elapsed %s"
++ "ImageEmbeddingCache miss"
++ "ImageEmbeddingCache skipped, unsupported image class"
++ "ImageEmbeddingProvider ignoring encoded images since no projection function present."
++ "ImageEmbeddingsProvider.mm"
++ "Initializing E5RunnerImageTokenizerObjC with model url: %@"
++ "Input buffer shape %s is not the expected value %s"
++ "Input image is wrong shape"
++ "Invalid promptPreprocessingTemplateVersion: "
++ "Invalid promptPreprocessingTemplateVersion: %s"
++ "Invalid speculation options. Cannot mix promptLookup and priorInferenceOutput options"
++ "KV cache context wrong length, {} != {}"
++ "LRU cache insert failed, entry for surface embedding already exists"
++ "Legacy ANE model no longer supported"
++ "Loaded decoding functions with %s iospec"
++ "Loading ODIELanguageModel with base model already loaded"
++ "Loading ODIELanguageModel with no base model loaded yet."
++ "Loading image tokenizer with identifier %{public}s"
++ "LogitIndexSet.dense("
++ "LogitIndexSet.sparse("
++ "Looked up stop token %{public}s as %{public}ld for use with GuidedGeneration"
++ "Looked up stop token %{public}s as %{public}ld from adapterMetadata for use with GuidedGeneration"
++ "Looks like the base model has a draft model. The .fmadapter loading code needs to be updated!"
++ "Masked inference not supported"
++ "Max context length: "
++ "Max output tokens count set to: %{public}ld, clientSetMaximumTokens: %{bool,public}d"
++ "Missing Prompt Template"
++ "Missing buffer for operand name: "
++ "Missing tensor descriptor for operand name: "
++ "Model decoding loop returned no output tokens"
++ "Model did not have image projection function named {}"
++ "Model does not support modular attention."
++ "Model hit max context without a client specified maximum"
++ "Moving ODIELanguageModel to dynamic state"
++ "Moving ODIELanguageModel to fully loaded state"
++ "NSObject"
++ "No decoding functions found"
++ "No decoding functions that compute logits found"
++ "No error reported during container lookup, but path is null. This should never happen."
++ "No error was thrown but output was nil?"
++ "No gather functions found"
++ "No preferred buffer type for port. Falling back to IOSurface."
++ "No prewarmed vocabulary manager, building"
++ "Node out of bounds "
++ "Not cleaning up temporary files for %{public}s because another %s is still using them"
++ "Not sure how to load model "
++ "Not using %s since it is not adapted by the provided adapter."
++ "Numerical corruption"
++ "ODIEBaseModel does not know how to move to dynamic state yet."
++ "ODIEBaseModel moved to fully loaded state."
++ "ODIELanguageModel received loaded base model but it was not an ODIEBaseModel. This is a programming error. Found base model: "
++ "ODIELanguageModel using adapter from URL: %s"
++ "On device models do not yet support "
++ "Only used {} bytes of {} input"
++ "Overriding default speculation behavior from sampling parameters"
++ "Pixel data is not sub-pixel aligned"
++ "Preprocessed image only supports one tile"
++ "Preprocessed images do not support high quality tokenization"
++ "Prewarm: failed to build vocabulary manager for asset %{public}s. Missing stopTokenID"
++ "PriorInferenceOutput passed by client being used as draft for base model. no speculative decoding"
++ "PriorInferenceOutput passed by client being used as outer speculative language model"
++ "Produced tool call delta for request %{public}s. \toolCallID:%{public}s, functionName:%{sensitive}s, argumentsDelta:%{sensitive}s"
++ "Projection op expected {} bytes per encoded image but found {}."
++ "Projection op expected {} embeddings per image but found {}."
++ "Prompt modules to compute %s"
++ "Prompt modules to reset %s"
++ "Provided buffer too small"
++ "Ran inference expecting NDArray outputs, but found "
++ "Ran out of bytes in cache entry"
++ "Reached end of ODIELanguageModel.run loop but found no decoding result"
++ "Read start tool call token from overrides %{public}ld"
++ "Reading draft steps from metadata: %{public}ld"
++ "Received pre-projected embeddings with size {}  but expected size {}"
++ "Request Failed. Inference Provider was destroyed"
++ "Request to load custom adapter missing asset data"
++ "Request to load custom adapter missing audit token"
++ "Reset called with startIndex=%zu, end of function call mContextTokensSize=%zu and numHoles=%zu"
++ "Running next decode function %s at context: %ld and remaining token count: %ld"
++ "Schema IDs are not supported on device."
++ "Serial Mask calculation failed to produce deterministic run."
++ "Setting up ImageEmbeddingsProvider from model at %s"
++ "SingleDecodeInference"
++ "SpeculativeLanguageModel"
++ "State of Asset repository:\nLoaded assets: "
++ "Streaming delegate was present but can't run image feature projection?"
++ "Streaming delegate was used in image encoder program but not on main function?"
++ "Successfully accessed app container at %s"
++ "Successfully compiled draft model in %{public}f seconds, to %{public}s"
++ "Successfully released sandbox extension"
++ "T#,R"
++ "T@\"<EncodedImages>\",&,N,V_encodedImages"
++ "T@\"NSArray\",R,C,V_shape"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "T@\"NSString\",R,N"
++ "TQ,R"
++ "T^ ,R,V_data"
++ "The projection op was invalid due to non-matching input/output embedding count"
++ "Ti,N,R"
++ "Ti,R,N"
++ "Tile index %ld must be less than the total number of tiles %ld"
++ "Token healing failure, could not regenerate prefix"
++ "Token healing failure, reached termination of language model"
++ "TokenGenerationInference.TGITokenMaskObjC"
++ "TokenGenerationInference/AFMDecodeFunction.swift"
++ "TokenGenerationInference/AFMGatherFunction.swift"
++ "TokenGenerationInference/AFMUtilities.swift"
++ "TokenGenerationInference/AFMV5DecodeFunctionEngine.swift"
++ "TokenGenerationInference/BNNSGraphUtils.swift"
++ "TokenGenerationInference/CLIPImagePlanarizer.swift"
++ "TokenGenerationInference/EncodedImageArray.swift"
++ "TokenGenerationInference/ImageEncoderRunner.swift"
++ "TokenGenerationInference/LanguageModelLoader.swift"
++ "TokenGenerationInference/LogitPresampler.swift"
++ "TokenGenerationInference/MaximumLikelihoodTreeSpeculator.swift"
++ "TokenGenerationInference/NodeStorage.swift"
++ "TokenGenerationInference/ODIEExtensions.swift"
++ "TokenGenerationInference/ODIEImageEncoderRunner.swift"
++ "TokenGenerationInference/ODIEImageFeatureProjector.swift"
++ "TokenGenerationInference/ODIELanguageModel.swift"
++ "TokenGenerationInference/ODIELanguageModelRunner.swift"
++ "TokenGenerationInference/OnDeviceInferenceAssetRepository.swift"
++ "TokenGenerationInference/ProcessedImage.swift"
++ "TokenGenerationInference/TokenMask.swift"
++ "Took %f µsec to presample %ld token(s)"
++ "Tq,N,R"
++ "T{ImageData={vector<unsigned long, std::allocator<unsigned long>>=^Q^Q^Q}^ },R,V_imageData"
++ "T{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}Qf}},R,N"
++ "Unexpected KV cache shape dim count {}"
++ "Unexpected cache element size {}"
++ "Unexpected rank of image feature projection input "
++ "Unexpected rank of image feature projection output "
++ "Unexpectedly found unknown byteCount of operand "
++ "Unrecognized decode function."
++ "Unsupported KV cache interleave"
++ "Unsupported KV cache shape"
++ "Unsupported KV cache strides"
++ "Unsupported guide."
++ "Unsupported surface pixel format: %u"
++ "Unsupported tool: %{public}s"
++ "Using default start tool call token %{public}s"
++ "Using draft model as target model for %{public}s"
++ "Using extend_%zu_%zu computingLogits: %i for %zu context with mContextSize=%zu, %zu token(s), step=%zu, startTokenOffset=%zu"
++ "Using image tokenizer IOSurface fast path for %ldx%ld surface"
++ "Using prewarmed vocabulary manager"
++ "V5 AFM IO Spec (relative positions)"
++ "V5 IO spec does not support image inputs"
++ "V7 AFM IO Spec (mask + positions)"
++ "Vv16@0:8"
++ "Wrong number of token masks"
++ "[Error] Interval already ended"
++ "[tokens count] == tokensVector.size()"
++ "^ "
++ "^{_NSZone=}16@0:8"
++ "_TtC24TokenGenerationInference13ODIEBaseModel"
++ "_TtC24TokenGenerationInference14ImageTokenizer"
++ "_TtC24TokenGenerationInference15AppAssetManager"
++ "_TtC24TokenGenerationInference16TGITokenMaskObjC"
++ "_TtC24TokenGenerationInference17EncodedImageArray"
++ "_TtC24TokenGenerationInference17LockedBNNSContext"
++ "_TtC24TokenGenerationInference19ImageEmbeddingCache"
++ "_TtC24TokenGenerationInference21ImageTokenIDGenerator"
++ "_TtC24TokenGenerationInference21ToolCallLanguageModel"
++ "_TtC24TokenGenerationInference22ODIEImageEncoderRunner"
++ "_TtC24TokenGenerationInference23ODIELanguageModelRunner"
++ "_TtC24TokenGenerationInference25ODIEImageFeatureProjector"
++ "_TtC24TokenGenerationInference25OnDeviceImagePreprocessor"
++ "_TtC24TokenGenerationInference27OnDeviceAttachmentTokenizer"
++ "_TtC24TokenGenerationInference31MaximumLikelihoodTreeSpeculator"
++ "_TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7012AppContainer"
++ "_TtC24TokenGenerationInferenceP33_568BE640AB36247B38BDDCAC53FE0F7018DraftModelCompiler"
++ "_TtCC24TokenGenerationInference10KVLRUCacheP33_E608F54CD2D5DEB8748575A2CF878FDB17TokenArrayWrapper"
++ "_TtCC24TokenGenerationInference19ImageEmbeddingCacheP33_CFAE1BBD2BB7BB3F3F8CA2528C3DB6E73Key"
++ "_data"
++ "_embeddingsPerImageCount"
++ "_encodedImageByteCount"
++ "_encodedImages"
++ "_imageData"
++ "_imageTokenizer"
++ "_inputBytesPerPixel"
++ "_inputImageDimension"
++ "_shape"
++ "adapter.odixpackage"
++ "adapterSignature"
++ "adapterTypeToSignatureMapping"
++ "adapterTypeToSymbolMapping"
++ "adapterWeightsFileName"
++ "addObject:"
++ "alignContextForQueryLength called with queryLength=%zu and numTokens=%zu, end of function numTokensProcessed=%zu and mContextTokensSize=%zu and numHoles=%zu"
++ "alignContextForQueryLength called with queryLength=%zu and numTokens=%zu, start of function numTokensProcessed=%zu and mContextTokensSize=%zu and numHoles=%zu"
++ "allPromptModuleNodes"
++ "allowPromptFallback"
++ "ane_ajax_e5ml_model.hpp"
++ "ane_ajax_e5ml_model_utils.hpp"
++ "appendBytes:length:"
++ "array"
++ "attachmentTokenizer"
++ "autorelease"
++ "backboneSignature"
++ "baseAddress"
++ "buffers"
++ "bytesPerRow"
++ "cache"
++ "cacheDirectory"
++ "checkCompatability"
++ "class"
++ "com.apple.fm.language.instruct_3b.base.draft"
++ "configuration"
++ "conformsToProtocol:"
++ "container"
++ "contents"
++ "contentsOfDirectoryAtPath:error:"
++ "context"
++ "contextTokens"
++ "copyItemAtURL:toURL:error:"
++ "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
++ "data"
++ "dataWithBytes:length:"
++ "debugDescription"
++ "decoderBytesPerEmbedding"
++ "defaultParameters"
++ "destination offset "
++ "draftMILFileName"
++ "draftModelBatchSize"
++ "draftModelsBeingCompiled"
++ "draftUseMaximumLikelihoodTree"
++ "draftWeightsFileName"
++ "draft_weights.bin"
++ "e5FunctionNameMap"
++ "embeddingData != nullptr"
++ "embeddingSizeInBytes"
++ "embeddingTable"
++ "encodedImage.byteCount % encodedImage.embeddingsCount == 0"
++ "encodedImage.data != nullptr"
++ "encodedImages"
++ "encoder"
++ "endOfImageTokenID"
++ "enumerated_shape_ajax_e5ml_model.mm"
++ "extensionHandle"
++ "featureProjector"
++ "findInTokenIDSpan"
++ "flexible_shape_ajax_e5ml_model.mm"
++ "fullImageEmbeddingsSize % outputEmbeddingsPerImageCount(projectionOp) == 0 && \"Size of image embedding outputs was not a multiple of embedding count?\""
++ "gatherEmbeddings"
++ "gatherOps.size() > 0 && \"If model has embedding vector input, gather ops must be present\""
++ "gather_embeddings output should be rank 4"
++ "gathered_embeddings"
++ "getBytes:range:"
++ "getEmbeddings"
++ "getEmbeddingsWithTokenID:"
++ "getEncodedImageAt:withHandler:"
++ "getTrailingMaskBytes:"
++ "grammarIdentifier not supported by inference provider. Use .grammar"
++ "graph"
++ "guidedGenerationVocabularyManager"
++ "height"
++ "holeIndices"
++ "i16@0:8"
++ "identifier"
++ "image"
++ "image encoder input has unexpected channel dimension, should be 3."
++ "image encoder input has unexpected rank "
++ "image encoder input is expected to be Float16 but was "
++ "image encoder with non-packed input is not currently supported. Alignments were "
++ "imageCount"
++ "imageData"
++ "imageEmbedding != nullptr"
++ "imageEmbeddingCache"
++ "imageEmbeddingCacheBytes"
++ "imageEncoderRunner"
++ "imagePreprocessor"
++ "imageTokenIDGenerator"
++ "imageTokenizerConfiguration"
++ "image_embeddings"
++ "image_feature_projection"
++ "image_features"
++ "image_projection_"
++ "in_relative_positions_ct"
++ "indexInTokens < tokenMasks.size()"
++ "init()"
++ "initWithData:"
++ "initWithModelPath:error:"
++ "initWithShape:data:"
++ "inputImage"
++ "integerValue"
++ "isInDynamicMode"
++ "isKindOfClass:"
++ "isMemberOfClass:"
++ "isProxy"
++ "leadingZeroCount"
++ "length"
++ "load_embeddings did not output embedding table?"
++ "load_embeddings was delegated to streaming delegate"
++ "lockWithOptions:seed:"
++ "lruKVCache"
++ "mContextTokens[shiftedStep].tokenID != -1"
++ "mainFunction"
++ "meta.callees was not a composite attribute?"
++ "middleOneCount"
++ "minimumMatchRequiredForDrafting"
++ "model"
++ "model.odixpackage"
++ "no error description"
++ "numberWithUnsignedLong:"
++ "objectForKey:"
++ "outputEmbeddings"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "pixelData"
++ "pixelFormat"
++ "prewarmForConstrainedDecoding"
++ "projectEncodedImage"
++ "promptPreprocessingTemplateVersion"
++ "purgeContextTokensSteps"
++ "purgeSteps called with %ld step(s), end of function call context token count is %ld and hole count is %ld"
++ "purgeSteps called with, end of function call mContextTokensSize=%zu and numHoles=%zu"
++ "queryIdx < maskHoles.size()"
++ "release"
++ "removeItemAtURL:error:"
++ "respondsToSelector:"
++ "responseMaskLM"
++ "retain"
++ "retainCount"
++ "rootURL"
++ "run(tokens:computeLogitsTokenCount:tokenMasks:presampler:)"
++ "runTokens:tokenMasks:computeLogitsTokenCount:outputBlock:"
++ "schemaIdentifier not supported by inference provider. Use .schema"
++ "self"
++ "setEncodedImages:"
++ "setKVCacheEntry"
++ "setKVCacheEntryWithTokens:tokens:tokenMasks:startIndex:error:"
++ "setObject:forKey:cost:"
++ "setRelativePositionsNoHoles"
++ "setTotalCostLimit:"
++ "shape"
++ "shouldDoEarlyReturn: %{bool}d, Stop token probability: %s, Early return probability threshold: %f"
++ "speculativeDecodeType"
++ "speculativeStreamCount"
++ "speculativeStreamingDefaultParameters"
++ "speculator"
++ "startIndex == mContextTokens.size()"
++ "startOfImageTokenID"
++ "startToolCallTokenID"
++ "state"
++ "state_values_lhc"
++ "streamingDelegate"
++ "superclass"
++ "supplementalAssetObjectByIdentifier"
++ "systemDataDirectory"
++ "targetTreeNodeCount"
++ "temporaryDirectory"
++ "tokenBranchesPerNode"
++ "tokenMask"
++ "tokenMasks of wrong size, {} != {}"
++ "tokenMasks.empty() || (tokenMasks.size() == tokens.size())"
++ "tokenRangeAt:"
++ "tokenizeID=%{signpost.telemetry:string1,public}s"
++ "tokenizeID=%{signpost.telemetry:string1,public}s imageIndex=%{signpost.telemetry:number1,public}ld tileIndex=%{signpost.telemetry:number2,public}ld"
++ "tokenizeImageAttachment.processImageAttachment"
++ "tokenizeImageAttachment.processedImageCopy"
++ "tokenizeImageAttachment.tokenizeImageData"
++ "tokenizeImageDataWithCallback:outputBlock:"
++ "tokens.size() == tokenMasks.size()"
++ "toolMaskLM"
++ "totalCostLimit"
++ "transformer_input"
++ "unlockWithOptions:seed:"
++ "useMaximumLikelihoodTree"
++ "v16@?0r*8"
++ "v24@0:8@?16"
++ "v24@?0r*8@\"NSError\"16"
++ "v24@?0r^B8q16"
++ "v28@0:8i16@?20"
++ "v28@0:8i16@?<v@?{_EncodedImage=QQ*B}>20"
++ "v32@0:8@?16@?24"
++ "v32@0:8@?<B@?^ Q@\"NSArray\">16@?<v@?*@\"NSError\">24"
++ "v40@?0{_EncodedImage=QQ*B}8"
++ "v48@0:8@16@24q32@?40"
++ "vocabSize"
++ "width"
++ "withEncodedImage(imageSetter:_:)"
++ "zone"
++ "{ImageData=\"shape\"{vector<unsigned long, std::allocator<unsigned long>>=\"__begin_\"^Q\"__end_\"^Q\"__cap_\"^Q}\"data\"^ }"
++ "{ImageData={vector<unsigned long, std::allocator<unsigned long>>=^Q^Q^Q}^ }16@0:8"
++ "{TGIE5AdapterConfiguration={basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}{basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}{path={basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}}16@0:8"
++ "{TGIE5Function={basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}ii{optional<std::string>=(?=c{basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})})B}}16@0:8"
++ "{TGIE5ModelConfiguration=i{path={basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}{vector<TGIE5AdapterConfiguration, std::allocator<TGIE5AdapterConfiguration>>=^{TGIE5AdapterConfiguration}^{TGIE5AdapterConfiguration}^{TGIE5AdapterConfiguration}}{vector<TGIE5Function, std::allocator<TGIE5Function>>=^{TGIE5Function}^{TGIE5Function}^{TGIE5Function}}{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}Qf}}{path={basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}}B}16@0:8"
++ "{_NSRange=QQ}20@0:8i16"
++ "{unique_ptr<cgm::token_generation_inference::ajax::AJAXE5MLModel, std::default_delete<cgm::token_generation_inference::ajax::AJAXE5MLModel>>=\"__ptr_\"^{AJAXE5MLModel}}"
++ "{unique_ptr<cgm::token_generation_inference::ajax::ANEAJAXE5ImageTokenizer, std::default_delete<cgm::token_generation_inference::ajax::ANEAJAXE5ImageTokenizer>>=\"__ptr_\"^{ANEAJAXE5ImageTokenizer}}"
++ "{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}{__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}Qf}}16@0:8"
++ "{} KV cache stride has unexpected padding"
++ "{} does not have the same striding across all functions"
+- "("
+- ")"
+- ", "
+- ", tokens processed "
+- "@24@0:8^v16"
+- "Cannot have masks and tree indexes"
+- "Cannot use token mask and positions at the same time"
+- "Classification sampling - Logit probability for token %{sensitive}ld is %f"
+- "Classification sampling - Picked class token %{sensitive}ld over class threshold"
+- "Classification sampling - Picked default token %{sensitive}ld"
+- "Creating static shape model with extend function name: %s"
+- "Failed to set kv cache entry, invalid range: "
+- "IOPort does not support any known buffer type"
+- "Logits: Failed to apply softmax."
+- "Logits: failed to compute top k"
+- "Model does not support modular attention"
+- "Model does not support non-linear positions."
+- "Model does not support token masks."
+- "Model query length exceeded for tree decoding."
+- "No valid constraints provided"
+- "Number of prompt modules to compute %s"
+- "Number of prompt modules to reset %s"
+- "Purging key value cache entries is not yet implemented for flexible shape models."
+- "Resetting to %ld which contains token %ld"
+- "Selected prompt op with query length: %zu for num tokens %zu\n"
+- "StaticShape model doesn't know how to zero all state. This model is outdated, please use a newer one."
+- "TGIE5KVCacheEntryObjC"
+- "Token tree too large for model "
+- "Took %f µsec to presample %ld token(s), making %ld logit collection(s)"
+- "Tr^v,R"
+- "Tree attention not supported with holes in query; last hole is {}, past {}"
+- "Tree based decoding is not supported with prompt modules"
+- "Tried to purge key-value cache, but the number of source destinations does not match the number of target destinations."
+- "T{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>={__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>={__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}}}{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *>>>={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}}{__compressed_pair<unsigned long, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>>=Q}{__compressed_pair<float, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>>=f}}},R,N"
+- "Unsupported for now"
+- "Using extend_%zu_%zu computingLogits: %i for %zu context, %zu token(s)"
+- "_TtC24TokenGenerationInference14KVLRUCacheNode"
+- "_TtC24TokenGenerationInference25PromptLookupLanguageModel"
+- "_kvCacheEntry"
+- "bufferSize"
+- "currentTokenCount"
+- "endNode"
+- "enumerated_shape_ajax_e5ml_model.cpp"
+- "flexible_shape_ajax_e5ml_model.cpp"
+- "initWithKVCacheEntry:"
+- "kvCache"
+- "kvCacheEntry"
+- "lastPromptNode"
+- "latestCommonParent(%ld, %ld) found to be %ld"
+- "mContextTokens[shiftedStep] != -1"
+- "mExtendModule != nullptr"
+- "mNumTokensProcessed == 0"
+- "max state length: "
+- "maxTokenTreeCount"
+- "maximumTokenCount"
+- "nodeByTokens"
+- "non-linear query nodes with prompt modules is not supported"
+- "previous"
+- "prompt"
+- "promptModuleNodes"
+- "purgeUnusedKeyValueCache:trgIdxs:"
+- "r^v16@0:8"
+- "run(tokens:maxLogitsDesired:tokenTreeIndexes:tokenMask:presampler:)"
+- "runTokens:tokenTreeIndexes:tokenMask:outputBlock:"
+- "setKVCacheEntry:startIndex:error:"
+- "shouldDoEarlyReturn: %{bool}d, Stop token probability: %f, Early return probability threshold: %f"
+- "shouldFlattenPromptModules"
+- "static_shape_ajax_e5ml_model.cpp"
+- "supportsNonLinearRunning"
+- "tokenCount"
+- "tokenTreeIndexes.size() == numTokens"
+- "tree inference not supported for non-V4 model"
+- "unsignedIntValue"
+- "unsignedIntegerValue"
+- "v32@0:8@16@24"
+- "v48@0:8@16@24@32@?40"
+- "{TGIE5AdapterConfiguration={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}{path={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}}}16@0:8"
+- "{TGIE5Function={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}ii{optional<std::string>=(?=c{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}})B}}16@0:8"
+- "{TGIE5ModelConfiguration=i{path={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}}{vector<TGIE5AdapterConfiguration, std::allocator<TGIE5AdapterConfiguration>>=^{TGIE5AdapterConfiguration}^{TGIE5AdapterConfiguration}{__compressed_pair<TGIE5AdapterConfiguration *, std::allocator<TGIE5AdapterConfiguration>>=^{TGIE5AdapterConfiguration}}}{vector<TGIE5Function, std::allocator<TGIE5Function>>=^{TGIE5Function}^{TGIE5Function}{__compressed_pair<TGIE5Function *, std::allocator<TGIE5Function>>=^{TGIE5Function}}}{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>={__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>={__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}}}{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *>>>={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}}{__compressed_pair<unsigned long, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>>=Q}{__compressed_pair<float, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>>=f}}}{path={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}}B}16@0:8"
+- "{unique_ptr<TGIE5KVCacheEntry, std::default_delete<TGIE5KVCacheEntry>>=\"__ptr_\"{__compressed_pair<TGIE5KVCacheEntry *, std::default_delete<TGIE5KVCacheEntry>>=\"__value_\"^{TGIE5KVCacheEntry}}}"
+- "{unique_ptr<cgm::token_generation_inference::ajax::AJAXE5MLModel, std::default_delete<cgm::token_generation_inference::ajax::AJAXE5MLModel>>=\"__ptr_\"{__compressed_pair<cgm::token_generation_inference::ajax::AJAXE5MLModel *, std::default_delete<cgm::token_generation_inference::ajax::AJAXE5MLModel>>=\"__value_\"^{AJAXE5MLModel}}}"
+- "{unordered_map<std::string, std::shared_ptr<E5RT::MemoryObject>, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<E5RT::MemoryObject>>>>={__hash_table<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>, std::allocator<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>>>={unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>={__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>>=^^v{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>={__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *> *>>=Q}}}}{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *>>>={__hash_node_base<std::__hash_node<std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, void *> *>=^v}}{__compressed_pair<unsigned long, std::__unordered_map_hasher<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::hash<std::string>, std::equal_to<std::string>>>=Q}{__compressed_pair<float, std::__unordered_map_equal<std::string, std::__hash_value_type<std::string, std::shared_ptr<E5RT::MemoryObject>>, std::equal_to<std::string>, std::hash<std::string>>>=f}}}16@0:8"
+
+```

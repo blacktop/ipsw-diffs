@@ -1,0 +1,212 @@
+## _WorkoutKit_SwiftUI
+
+> `/System/Library/Frameworks/_WorkoutKit_SwiftUI.framework/_WorkoutKit_SwiftUI`
+
+```diff
+
+-907.15.0.0.0
+-  __TEXT.__text: 0x195c
++1061.1.1.0.0
++  __TEXT.__text: 0x1a80
+   __TEXT.__auth_stubs: 0x3a0
+   __TEXT.__const: 0x11a
+   __TEXT.__swift5_typeref: 0xc1
+
+   __TEXT.__unwind_info: 0x108
+   __TEXT.__objc_methname: 0x5
+   __DATA_CONST.__got: 0x40
+-  __DATA_CONST.__const: 0xd0
++  __DATA_CONST.__const: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8
+   __AUTH_CONST.__auth_got: 0x1d0
+-  __AUTH_CONST.__const: 0x78
++  __AUTH_CONST.__const: 0xa0
+   __AUTH.__data: 0x88
+   __DATA.__data: 0x58
+   __DATA.__bss: 0x90
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WorkoutKit.framework/WorkoutKit
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/WorkoutKitUI.framework/WorkoutKitUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 615B4FD6-FB32-3C9E-B48F-94BC22DC5AF0
+-  Functions: 48
+-  Symbols:   125
++  UUID: 6805CD08-3B5C-3707-B2F0-FC64488D8BFE
++  Functions: 49
++  Symbols:   266
+   CStrings:  3
+ 
+Symbols:
++ _$s10WorkoutKit0A4PlanVMa
++ _$s10WorkoutKit0A4PlanVMn
++ _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorC07dismissdE10Controller2onySo06UIViewI0C_tFTj
++ _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorC07presentdE10Controller2on4with17dismissCompletion10completionySo06UIViewI0C_0aB00A4PlanVyycySb_s5Error_pSgtctFTj
++ _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorCMa
++ _$s12WorkoutKitUI0A24RemoteViewServiceAdaptorCMn
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AA4BodyAeFP_AE0R0PWT
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AAMA
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AAMc
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AAMcMK
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AaeFP05_makeR08modifier6inputs4bodyAE01_R7OutputsVAE11_GraphValueVyxG_AE01_R6InputsVAmE01_X0V_ARtctFZTW
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AaeFP05_makeR4List8modifier6inputs4bodyAE01_rT7OutputsVAE11_GraphValueVyxG_AE01_rT6InputsVAmE01_Y0V_ARtctFZTW
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AaeFP14_viewListCount6inputs4bodySiSgAE01_rtU6InputsV_AkMXEtFZTW
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV0cD004ViewH0AaeFP4body7content4BodyQzAE01_rH8_ContentVyxG_tFTW
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFQOMQ
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_TA
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_TATm
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_TA
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_ySb_s5Error_pSgtcfU0_
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_ySb_s5Error_pSgtcfU0_TA
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_yycfU_
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLV4body7contentQr0cD005_ViewH8_ContentVyADG_tFyycfU_ySo16UIViewControllerCSgXEfU_yycfU_TA
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVAD0cD004ViewH0AAWL
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVAD0cD004ViewH0AAWl
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMF
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMXX
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMa
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMf
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMl
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMn
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVMr
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVWOb
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVWOc
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVWOh
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVWV
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVwet
++ _$s19_WorkoutKit_SwiftUI0A32PreviewPresentingOverlayModifier33_4C24E71AE7B7225A0D6FCA29E9998C74LLVwst
++ _$s19_WorkoutKit_SwiftUIMXM
++ _$s2os32getNullTerminatedUTF8PointerImpl_21storingStringOwnersInSVSS_SpyypGSgztF
++ _$s4Body7SwiftUI12ViewModifierPTl
++ _$s7SwiftUI11EnvironmentV12wrappedValuexvgAA34WithCurrentHostingControllerActionV_Tg5
++ _$s7SwiftUI11EnvironmentV7ContentOMn
++ _$s7SwiftUI11EnvironmentV7ContentOyAA34WithCurrentHostingControllerActionV_GMD
++ _$s7SwiftUI11EnvironmentV7ContentOyAA34WithCurrentHostingControllerActionV_GWOc
++ _$s7SwiftUI11EnvironmentVMa
++ _$s7SwiftUI11EnvironmentVMn
++ _$s7SwiftUI11EnvironmentVyAA34WithCurrentHostingControllerActionVGMD
++ _$s7SwiftUI11EnvironmentVyAA34WithCurrentHostingControllerActionVGML
++ _$s7SwiftUI11EnvironmentVyAA34WithCurrentHostingControllerActionVGMa
++ _$s7SwiftUI12ViewModifierMp
++ _$s7SwiftUI12ViewModifierP05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZTq
++ _$s7SwiftUI12ViewModifierP14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZTq
++ _$s7SwiftUI12ViewModifierP4BodyAC_AA0C0Tn
++ _$s7SwiftUI12ViewModifierP4body7content4BodyQzAA01_cD8_ContentVyxG_tFTq
++ _$s7SwiftUI12ViewModifierPAAE05_makeC08modifier6inputs4bodyAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVAiA01_J0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE05_makeC4List8modifier6inputs4bodyAA01_cF7OutputsVAA11_GraphValueVyxG_AA01_cF6InputsVAiA01_K0V_ANtctFZ
++ _$s7SwiftUI12ViewModifierPAAE14_viewListCount6inputs4bodySiSgAA01_cfG6InputsV_AgIXEtFZ
++ _$s7SwiftUI15ModifiedContentVMa
++ _$s7SwiftUI15ModifiedContentVMn
++ _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
++ _$s7SwiftUI17EnvironmentValuesV28withCurrentHostingControllerAA04WithfgH6ActionVvg
++ _$s7SwiftUI17EnvironmentValuesV28withCurrentHostingControllerAA04WithfgH6ActionVvpMV
++ _$s7SwiftUI17EnvironmentValuesVACycfC
++ _$s7SwiftUI17EnvironmentValuesVMa
++ _$s7SwiftUI17EnvironmentValuesVMn
++ _$s7SwiftUI21_ViewModifier_ContentVMn
++ _$s7SwiftUI21_ViewModifier_ContentVy012_WorkoutKit_aB00f24PreviewPresentingOverlayD033_4C24E71AE7B7225A0D6FCA29E9998C74LLVGACyxGAA0C0AAWL
++ _$s7SwiftUI21_ViewModifier_ContentVy012_WorkoutKit_aB00f24PreviewPresentingOverlayD033_4C24E71AE7B7225A0D6FCA29E9998C74LLVGACyxGAA0C0AAWl
++ _$s7SwiftUI21_ViewModifier_ContentVy012_WorkoutKit_aB00f24PreviewPresentingOverlayD033_4C24E71AE7B7225A0D6FCA29E9998C74LLVGMD
++ _$s7SwiftUI21_ViewModifier_ContentVyxGAA0C0AAMc
++ _$s7SwiftUI34WithCurrentHostingControllerActionV14callAsFunctionyyySo06UIViewF0CSgXEF
++ _$s7SwiftUI34WithCurrentHostingControllerActionVMa
++ _$s7SwiftUI34WithCurrentHostingControllerActionVMn
++ _$s7SwiftUI3LogO013runtimeIssuesC0So9OS_os_logCvgZ
++ _$s7SwiftUI4ViewMp
++ _$s7SwiftUI4ViewP012_WorkoutKit_aB0E14workoutPreview_11isPresentedQr0dE00D4PlanV_AA7BindingVySbGtF
++ _$s7SwiftUI4ViewP012_WorkoutKit_aB0E14workoutPreview_11isPresentedQr0dE00D4PlanV_AA7BindingVySbGtFMXX
++ _$s7SwiftUI4ViewP012_WorkoutKit_aB0E14workoutPreview_11isPresentedQr0dE00D4PlanV_AA7BindingVySbGtFQOMQ
++ _$s7SwiftUI4ViewP012_WorkoutKit_aB0EMXE
++ _$s7SwiftUI4ViewPAAE8modifieryAA15ModifiedContentVyxqd__Gqd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lF
++ _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOMQ
++ _$s7SwiftUI7BindingV12wrappedValuexvg
++ _$s7SwiftUI7BindingV12wrappedValuexvs
++ _$s7SwiftUI7BindingVMa
++ _$s7SwiftUI7BindingVMn
++ _$s7SwiftUI7BindingVySbGMD
++ _$s7SwiftUI7BindingVySbGML
++ _$s7SwiftUI7BindingVySbGMa
++ _$sSS8UTF8ViewV13_foreignCountSiyF
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSbN
++ _$sSbSQsWP
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$ss11_StringGutsV16_deconstructUTF87scratchyXlSg5owner_xSi6lengthSb11usesScratchSb15allocatedMemorytSwSg_ts8_PointerRzlFSV_Tgq5
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss11_StringGutsVN
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFs5UInt8V_Tgq5
++ _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
++ _$ss20__StaticArrayStorageCN
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tt1gq5
++ _$ss23_ContiguousArrayStorageCMn
++ _$ss23_ContiguousArrayStorageCys5UInt8VGMD
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFSS8UTF8ViewV_Tgq5
++ _$ss5UInt8VMn
++ _$sypWOc
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$__WorkoutKit_SwiftUI
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$__WorkoutKit_SwiftUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$__WorkoutKit_SwiftUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$__WorkoutKit_SwiftUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$__WorkoutKit_SwiftUI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$__WorkoutKit_SwiftUI
+
+```

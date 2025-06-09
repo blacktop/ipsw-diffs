@@ -1,0 +1,1383 @@
+## WidgetKit
+
+> `/System/Library/Frameworks/WidgetKit.framework/WidgetKit`
+
+```diff
+
+-537.6.13.0.0
+-  __TEXT.__text: 0x1aa228
+-  __TEXT.__auth_stubs: 0x4730
+-  __TEXT.__objc_methlist: 0xbf4
+-  __TEXT.__const: 0x166b3
+-  __TEXT.__cstring: 0x6816
+-  __TEXT.__swift5_typeref: 0x8f1c
+-  __TEXT.__swift5_reflstr: 0x4131
+-  __TEXT.__swift5_assocty: 0x13e0
+-  __TEXT.__constg_swiftt: 0x9780
+-  __TEXT.__swift5_fieldmd: 0x5928
+-  __TEXT.__swift5_builtin: 0x230
+-  __TEXT.__swift5_proto: 0xf28
+-  __TEXT.__swift5_types: 0x7ac
+-  __TEXT.__swift5_capture: 0x26ec
+-  __TEXT.__oslogstring: 0x2683
++631.0.3.0.0
++  __TEXT.__text: 0x1e66b4
++  __TEXT.__auth_stubs: 0x4d40
++  __TEXT.__objc_methlist: 0xcf0
++  __TEXT.__const: 0x1b1b0
++  __TEXT.__cstring: 0x7196
++  __TEXT.__swift5_typeref: 0xb8b2
++  __TEXT.__swift5_reflstr: 0x4ab1
++  __TEXT.__swift5_assocty: 0x1938
++  __TEXT.__constg_swiftt: 0xae8c
++  __TEXT.__swift5_fieldmd: 0x6508
++  __TEXT.__swift5_builtin: 0x258
++  __TEXT.__swift5_proto: 0x11c0
++  __TEXT.__swift5_types: 0x8dc
++  __TEXT.__swift5_capture: 0x2bfc
++  __TEXT.__oslogstring: 0x2d93
+   __TEXT.__swift5_mpenum: 0x88
+-  __TEXT.__swift_as_entry: 0x2d0
+-  __TEXT.__swift_as_ret: 0x350
+-  __TEXT.__swift5_protos: 0xd0
+-  __TEXT.__unwind_info: 0x72c8
+-  __TEXT.__eh_frame: 0xc104
+-  __TEXT.__objc_classname: 0xda
+-  __TEXT.__objc_methname: 0x1c84
+-  __TEXT.__objc_methtype: 0x238
++  __TEXT.__swift_as_entry: 0x374
++  __TEXT.__swift_as_ret: 0x400
++  __TEXT.__swift5_protos: 0xfc
++  __TEXT.__unwind_info: 0x7eb0
++  __TEXT.__eh_frame: 0xd83c
++  __TEXT.__objc_classname: 0xff
++  __TEXT.__objc_methname: 0x1f17
++  __TEXT.__objc_methtype: 0x253
+   __TEXT.__objc_stubs: 0x60
+-  __DATA_CONST.__got: 0x14f0
+-  __DATA_CONST.__const: 0x780
+-  __DATA_CONST.__objc_classlist: 0x2c8
++  __DATA_CONST.__got: 0x1700
++  __DATA_CONST.__const: 0x818
++  __DATA_CONST.__objc_classlist: 0x2f8
+   __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0xa8
++  __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x928
+-  __DATA_CONST.__objc_protorefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x23a0
+-  __AUTH_CONST.__const: 0xe970
++  __DATA_CONST.__objc_selrefs: 0xa08
++  __DATA_CONST.__objc_protorefs: 0x70
++  __AUTH_CONST.__auth_got: 0x26a8
++  __AUTH_CONST.__const: 0x11788
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x55d8
+-  __AUTH.__objc_data: 0x828
+-  __AUTH.__data: 0x4190
+-  __DATA.__data: 0x5390
+-  __DATA.__bss: 0xc1b8
+-  __DATA.__common: 0x1c8
+-  __DATA_DIRTY.__objc_data: 0xb40
+-  __DATA_DIRTY.__data: 0x5968
+-  __DATA_DIRTY.__common: 0x5c8
+-  __DATA_DIRTY.__bss: 0x11700
++  __AUTH_CONST.__objc_const: 0x5c08
++  __AUTH.__objc_data: 0x950
++  __AUTH.__data: 0x4980
++  __DATA.__data: 0x5a70
++  __DATA.__bss: 0xe898
++  __DATA.__common: 0x230
++  __DATA_DIRTY.__objc_data: 0xb38
++  __DATA_DIRTY.__data: 0x5ef0
++  __DATA_DIRTY.__common: 0x640
++  __DATA_DIRTY.__bss: 0x14300
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/RelevanceKit.framework/RelevanceKit
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/Symbols.framework/Symbols
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BoardServices.framework/BoardServices
+   - /System/Library/PrivateFrameworks/ChronoServices.framework/ChronoServices
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
++  - /System/Library/PrivateFrameworks/CoreUI.framework/CoreUI
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit
+   - /System/Library/PrivateFrameworks/ReplicatorServices.framework/ReplicatorServices
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/SFSymbols.framework/SFSymbols
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 1EC5603A-7C5F-38B8-B7F5-E6F9589B1ECD
+-  Functions: 10011
+-  Symbols:   4145
+-  CStrings:  1221
++  UUID: 1D09FD9A-E60B-3C48-A6FF-C645F84731B6
++  Functions: 11333
++  Symbols:   4697
++  CStrings:  1340
+ 
+Symbols:
++ _OBJC_CLASS_$_CHSWidgetTintParameters
++ _OBJC_CLASS_$_CUICatalog
++ _OBJC_CLASS_$_SFSCoreGlyphsBundle
++ _OBJC_CLASS_$_UISceneSession
++ _OBJC_CLASS_$__EXExtensionContext
++ _OBJC_CLASS_$__EXQuery
++ _OBJC_CLASS_$__EXQueryController
++ _OBJC_CLASS_$__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ _OBJC_METACLASS_$__EXExtensionContext
++ _OBJC_METACLASS_$__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __CLASS_METHODS__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __CLASS_PROPERTIES__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __DATA__TtC9WidgetKit17WidgetKitRenderer
++ __DATA__TtC9WidgetKit21JindoViewProviderMock
++ __DATA__TtC9WidgetKit24MemoryRequestsController
++ __DATA__TtC9WidgetKit30ElevatedMemoryRequestAssertion
++ __DATA__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __DATA__TtC9WidgetKitP33_F55D4851F034D6C6A90D16921017460613WeakAssertion
++ __INSTANCE_METHODS__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __IVARS__TtC9WidgetKit21JindoViewProviderMock
++ __IVARS__TtC9WidgetKit24MemoryRequestsController
++ __IVARS__TtC9WidgetKit30ElevatedMemoryRequestAssertion
++ __IVARS__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __IVARS__TtC9WidgetKitP33_F55D4851F034D6C6A90D16921017460613WeakAssertion
++ __METACLASS_DATA__TtC9WidgetKit17WidgetKitRenderer
++ __METACLASS_DATA__TtC9WidgetKit21JindoViewProviderMock
++ __METACLASS_DATA__TtC9WidgetKit24MemoryRequestsController
++ __METACLASS_DATA__TtC9WidgetKit30ElevatedMemoryRequestAssertion
++ __METACLASS_DATA__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __METACLASS_DATA__TtC9WidgetKitP33_F55D4851F034D6C6A90D16921017460613WeakAssertion
++ __OBJC_$_INSTANCE_METHODS__TtCC9WidgetKit24WidgetExtensionXPCServer14ExportedObject(WidgetKit|WidgetKit1|WidgetKit2)
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSServiceConnectionCommonConfiguring
++ __OBJC_$_PROTOCOL_REFS_BSServiceConnectionConfiguring
++ __OBJC_LABEL_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ __OBJC_PROTOCOL_$_BSServiceConnectionCommonConfiguring
++ __PROPERTIES__TtC9WidgetKit21DescriptorFetchResult
++ __PROTOCOLS_CHKWidgetEnvironment.162
++ __PROTOCOLS__TtC9WidgetKit18PlaceholderRequest.6
++ __PROTOCOLS__TtC9WidgetKit21ActivityWidgetRequest.8
++ __PROTOCOLS__TtC9WidgetKit22ControlTemplateRequest.24
++ __PROTOCOLS__TtC9WidgetKit25ModifyControlStateRequest.12
++ __PROTOCOLS__TtC9WidgetKit33ControlsConfigurationXPCContainer.18
++ __PROTOCOLS__TtC9WidgetKit35WidgetPushConfigurationXPCContainer
++ __PROTOCOLS__TtC9WidgetKit35WidgetPushConfigurationXPCContainer.2
++ ___CGBitmapContextCreate
++ ___swift_memcpy10_8
++ ___swift_memcpy128_8
++ ___swift_memcpy184_8
++ ___unnamed_21
++ ___unnamed_22
++ ___unnamed_24
++ ___unnamed_3
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_WidgetKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_WidgetKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_WidgetKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_WidgetKit
++ _associated conformance 9WidgetKit011ConditionalA15ContentLayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV7SwiftUI12ViewModifierAA4BodyAeFP_AE0Q0
++ _associated conformance 9WidgetKit08IsRemoteA3KeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_SE
++ _associated conformance 9WidgetKit08IsRemoteA3KeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_SL
++ _associated conformance 9WidgetKit08IsRemoteA3KeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_Se
++ _associated conformance 9WidgetKit09LiveSceneA13ConfigurationV7SwiftUI0aE0AA4BodyAdEP_AdE
++ _associated conformance 9WidgetKit0A12ContentLayerOSHAASQ
++ _associated conformance 9WidgetKit0A12ProximityKeyV07CodableaC0OSHAASQ
++ _associated conformance 9WidgetKit0A12ProximityKeyV07CodableaC0OSLAASQ
++ _associated conformance 9WidgetKit0A12ProximityKeyVAA01_a11EnvironmentD0AA11CodingValueAaDP_SE
++ _associated conformance 9WidgetKit0A12ProximityKeyVAA01_a11EnvironmentD0AA11CodingValueAaDP_SL
++ _associated conformance 9WidgetKit0A12ProximityKeyVAA01_a11EnvironmentD0AA11CodingValueAaDP_Se
++ _associated conformance 9WidgetKit0A13MountingStyleV5ValueOSHAASQ
++ _associated conformance 9WidgetKit0A13MountingStyleVSHAASQ
++ _associated conformance 9WidgetKit0A14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLOSHAASQ
++ _associated conformance 9WidgetKit0A14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit0A14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit0A14SpatialSurfaceV5ValueOSHAASQ
++ _associated conformance 9WidgetKit0A15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLOSHAASQ
++ _associated conformance 9WidgetKit0A15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit0A15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit0A15ContentLayerTagV7SwiftUI12ViewModifierAA4BodyAdEP_AD0H0
++ _associated conformance 9WidgetKit0A15ContentLayerTagV7SwiftUI23_ArchivableViewModifierAASE
++ _associated conformance 9WidgetKit0A15ContentLayerTagV7SwiftUI23_ArchivableViewModifierAASe
++ _associated conformance 9WidgetKit0A15ContentLayerTagV7SwiftUI23_ArchivableViewModifierAaD0iJ0
++ _associated conformance 9WidgetKit0A18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLOSHAASQ
++ _associated conformance 9WidgetKit0A18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit0A18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit0A18SpatialChromeStyleV5ValueOSHAASQ
++ _associated conformance 9WidgetKit0A18SpatialChromeStyleVSHAASQ
++ _associated conformance 9WidgetKit0A21LightingImageModifierV7SwiftUI04ViewE0AA4BodyAdEP_AD0H0
++ _associated conformance 9WidgetKit0A23DescriptorConfigurationV7SwiftUI0aD0AA4BodyAdEP_AdE
++ _associated conformance 9WidgetKit0A26LightingImagePreferenceKeyV7SwiftUI04HosteF0AaD0eF0
++ _associated conformance 9WidgetKit0A7TextureV5ValueOSHAASQ
++ _associated conformance 9WidgetKit0A7TextureVSHAASQ
++ _associated conformance 9WidgetKit0A9ProximityV0C0OSHAASQ
++ _associated conformance 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV7SwiftUI4ViewAA4BodyAeFP_AeF
++ _associated conformance 9WidgetKit12WaveformView33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV7SwiftUI0D0AA4BodyAeFP_AeF
++ _associated conformance 9WidgetKit13LevelOfDetailV7StorageOSHAASQ
++ _associated conformance 9WidgetKit15SymbolLookupKey04_5E2F27E36B373F5C58443E9AF6AB59AD9LLVSHAASQ
++ _associated conformance 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLOSHAASQ
++ _associated conformance 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLOs12CaseIterableAA8AllCasessAEP_Sl
++ _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLOSHAASQ
++ _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit16LevelOfDetailKeyV07CodablecdE0OSHAASQ
++ _associated conformance 9WidgetKit16LevelOfDetailKeyV07CodablecdE0OSLAASQ
++ _associated conformance 9WidgetKit16LevelOfDetailKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_SE
++ _associated conformance 9WidgetKit16LevelOfDetailKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_SL
++ _associated conformance 9WidgetKit16LevelOfDetailKeyVAA01_a11EnvironmentF0AA11CodingValueAaDP_Se
++ _associated conformance 9WidgetKit17ArchiveVersionKeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_SE
++ _associated conformance 9WidgetKit17ArchiveVersionKeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_SL
++ _associated conformance 9WidgetKit17ArchiveVersionKeyVAA01_a11EnvironmentE0AA11CodingValueAaDP_Se
++ _associated conformance 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysOSHAASQ
++ _associated conformance 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLOSHAASQ
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV7SwiftUI011_ArchivableE0AASE
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV7SwiftUI011_ArchivableE0AASe
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV7SwiftUI011_ArchivableE0AaD0E0
++ _associated conformance 9WidgetKit21AnimatingWaveformViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLOSHAASQ
++ _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9WidgetKit22RelevanceConfigurationVyxG7SwiftUI0aD0AA4BodyAeFP_AeF
++ _associated conformance 9WidgetKit22RelevanceEntryProvider33_E3052AF859365B92D4FF44F017D84A8CLLVyxq_GAA0cdE8ProtocolAA0dE0AaFP_AA0D9Providing
++ _associated conformance 9WidgetKit25RelevanceConfiguration_V2VyxG7SwiftUI0aD0AA4BodyAeFP_AeF
++ _associated conformance 9WidgetKit25RelevanceEntryProvider_V233_F7BB949D90B4FFC73D7E3E9FF4BE4A3ALLVyxq_GAA0cdE8ProtocolAA0dE0AaFP_AA0D9Providing
++ _associated conformance 9WidgetKit26InterpolatedIconLabelStyleV7SwiftUI0eF0AA4BodyAdEP_AD4View
++ _associated conformance 9WidgetKit27ControlTemplateButtonParserVAA0cdF0AA0D0AaDP_AA0cD0
++ _associated conformance 9WidgetKit27ControlTemplateButtonParserVAA0cdF0AA8ProviderAaDP_AA012ConfigurablecdG0
++ _associated conformance 9WidgetKit27ControlTemplatePickerParserVAA0cdF0AA0D0AaDP_AA0cD0
++ _associated conformance 9WidgetKit27ControlTemplatePickerParserVAA0cdF0AA8ProviderAaDP_AA012ConfigurablecdG0
++ _associated conformance 9WidgetKit27ControlTemplateToggleParserVAA0cdF0AA0D0AaDP_AA0cD0
++ _associated conformance 9WidgetKit27ControlTemplateToggleParserVAA0cdF0AA8ProviderAaDP_AA012ConfigurablecdG0
++ _associated conformance 9WidgetKit30AccessoryRectangularGaugeStyleV7SwiftUI0eF0AA4BodyAdEP_AD4View
++ _associated conformance 9WidgetKit30AccessoryRectangularLabelStyleV7SwiftUI0eF0AA4BodyAdEP_AD4View
++ _associated conformance 9WidgetKit30RelevanceTimelineEntryProviderV6ErrorsOyxq__GSHAASQ
++ _associated conformance 9WidgetKit37AccessoryRectangularProgressViewStyleV010StandaloneG0V7SwiftUI0F0AA4BodyAfGP_AfG
++ _associated conformance 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0V05LabelG0Vy_x_G7SwiftUI0F0AA4BodyAiJP_AiJ
++ _associated conformance 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0Vy_xG7SwiftUI0F0AA4BodyAgHP_AgH
++ _associated conformance 9WidgetKit37AccessoryRectangularProgressViewStyleV7SwiftUI0efG0AA4BodyAdEP_AD0F0
++ _associated conformance 9WidgetKit39AccessoryRectangularLabeledContentStyleV7SwiftUI0efG0AA4BodyAdEP_AD4View
++ _associated conformance So20NSFileProtectionTypeaSHSCSQ
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So20NSFileProtectionTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.113
++ _block_copy_helper.12
++ _block_copy_helper.129
++ _block_copy_helper.136
++ _block_copy_helper.138
++ _block_copy_helper.14
++ _block_copy_helper.142
++ _block_copy_helper.143
++ _block_copy_helper.153
++ _block_copy_helper.156
++ _block_copy_helper.158
++ _block_copy_helper.168
++ _block_copy_helper.179
++ _block_copy_helper.193
++ _block_copy_helper.197
++ _block_copy_helper.21
++ _block_copy_helper.210
++ _block_copy_helper.216
++ _block_copy_helper.219
++ _block_copy_helper.223
++ _block_copy_helper.23
++ _block_copy_helper.235
++ _block_copy_helper.254
++ _block_copy_helper.26
++ _block_copy_helper.273
++ _block_copy_helper.29
++ _block_copy_helper.292
++ _block_copy_helper.30
++ _block_copy_helper.311
++ _block_copy_helper.32
++ _block_copy_helper.329
++ _block_copy_helper.33
++ _block_copy_helper.348
++ _block_copy_helper.367
++ _block_copy_helper.40
++ _block_copy_helper.411
++ _block_copy_helper.429
++ _block_copy_helper.43
++ _block_copy_helper.452
++ _block_copy_helper.458
++ _block_copy_helper.53
++ _block_copy_helper.84
++ _block_copy_helper.96
++ _block_descriptor.115
++ _block_descriptor.131
++ _block_descriptor.138
++ _block_descriptor.14
++ _block_descriptor.140
++ _block_descriptor.144
++ _block_descriptor.145
++ _block_descriptor.155
++ _block_descriptor.158
++ _block_descriptor.16
++ _block_descriptor.160
++ _block_descriptor.170
++ _block_descriptor.181
++ _block_descriptor.195
++ _block_descriptor.199
++ _block_descriptor.212
++ _block_descriptor.218
++ _block_descriptor.221
++ _block_descriptor.225
++ _block_descriptor.23
++ _block_descriptor.237
++ _block_descriptor.25
++ _block_descriptor.256
++ _block_descriptor.275
++ _block_descriptor.28
++ _block_descriptor.294
++ _block_descriptor.31
++ _block_descriptor.313
++ _block_descriptor.32
++ _block_descriptor.331
++ _block_descriptor.34
++ _block_descriptor.35
++ _block_descriptor.350
++ _block_descriptor.369
++ _block_descriptor.413
++ _block_descriptor.42
++ _block_descriptor.431
++ _block_descriptor.45
++ _block_descriptor.454
++ _block_descriptor.460
++ _block_descriptor.55
++ _block_descriptor.86
++ _block_descriptor.98
++ _block_destroy_helper.114
++ _block_destroy_helper.13
++ _block_destroy_helper.130
++ _block_destroy_helper.137
++ _block_destroy_helper.139
++ _block_destroy_helper.143
++ _block_destroy_helper.144
++ _block_destroy_helper.15
++ _block_destroy_helper.154
++ _block_destroy_helper.157
++ _block_destroy_helper.159
++ _block_destroy_helper.169
++ _block_destroy_helper.180
++ _block_destroy_helper.194
++ _block_destroy_helper.198
++ _block_destroy_helper.211
++ _block_destroy_helper.217
++ _block_destroy_helper.22
++ _block_destroy_helper.220
++ _block_destroy_helper.224
++ _block_destroy_helper.236
++ _block_destroy_helper.24
++ _block_destroy_helper.255
++ _block_destroy_helper.27
++ _block_destroy_helper.274
++ _block_destroy_helper.293
++ _block_destroy_helper.30
++ _block_destroy_helper.31
++ _block_destroy_helper.312
++ _block_destroy_helper.33
++ _block_destroy_helper.330
++ _block_destroy_helper.34
++ _block_destroy_helper.349
++ _block_destroy_helper.368
++ _block_destroy_helper.41
++ _block_destroy_helper.412
++ _block_destroy_helper.430
++ _block_destroy_helper.44
++ _block_destroy_helper.453
++ _block_destroy_helper.459
++ _block_destroy_helper.54
++ _block_destroy_helper.85
++ _block_destroy_helper.97
++ _getWKSystemVersionSDK_Luck
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy9WidgetKit14ArchiveVersionOSg_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOySay9WidgetKit0eD5LayerOG_G
++ _get_witness_table 10AppIntents0A6IntentRzl9WidgetKit0D23DescriptorConfigurationV7SwiftUI0dG0HPyHC.12
++ _get_witness_table 10AppIntents0A6IntentRzl9WidgetKit0D23DescriptorConfigurationV7SwiftUI0dG0HPyHC.46
++ _get_witness_table 10AppIntents0A6IntentRzl9WidgetKit0D23DescriptorConfigurationV7SwiftUI0dG0HPyHC.8
++ _get_witness_table 10AppIntents25WidgetConfigurationIntentRz7SwiftUI4ViewR_r0_l0C3Kit0c10DescriptorD0VAC0cD0HPyHC.12
++ _get_witness_table 11ActivityKit0A10AttributesRzl06WidgetB00D23DescriptorConfigurationV7SwiftUI0dF0HPyHC.17
++ _get_witness_table 7SwiftUI14GeometryReaderVyAA15ModifiedContentVyAEy9WidgetKit12WaveformView33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA16_FlexFrameLayoutVGGAA0J0HPyHC.5
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy9WidgetKit0g13LightingImageF0VGAA018_PreferenceWritingF0VyAF0gijK3KeyVGGAA0E0HPAiaPHPyHC_AnA0eF0HPyHCHC.9
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA5GroupVyAA0f10ElementsOfD0VyAA07LabeledD18StyleConfigurationV0D0VACyAA6VStackVyAA9TupleViewVyAA0N0PAAE05labelJ0yQrqd__AA05LabelJ0Rd__lFQOyACyAK0P0VAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_9WidgetKit016InterpolatedIconpJ0VQo__AEyAQyACyAA7SubviewVA1_GSg_AQyAA6SpacerV_AOyACyACyAA23SubviewsCollectionSliceVA1_GAA011_ForegroundjT0VyAA017HierarchicalShapeJ0VGGGtGSgtGGtGGAYyAA5ImageV5ScaleOGGGGGAA16_FlexFrameLayoutVGAaRHPA37_AaRHPyHC_A39_AA0nT0HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyAA23LabelStyleConfigurationV4IconV_AA0G0PAAE10textSizingyQrAA4TextV0M0VFQOyACyAmAE05labelI0yQrqd__AA0hI0Rd__lFQOyAA6VStackVyAA5GroupVyAA0q10ElementsOfD0VyAI5TitleVAGyACyAA7SubviewVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGSg_ACyAA23SubviewsCollectionSliceVA8_GtGGGG_9WidgetKit012InterpolatedkhI0VQo_A4_yAA5ImageV5ScaleOGG_Qo_tGGAA16_FlexFrameLayoutVGAaLHPA30_AaLHPyHC_A32_AA0gY0HPyHCHC.1
++ _get_witness_table 7SwiftUI19WidgetConfigurationRzSyRd__r__lqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0F3KeyRd__lFQOyx_0C3Kit0c10DescriptorH0VQo_HO.49
++ _get_witness_table 7SwiftUI19WidgetConfigurationRzlqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0F3KeyRd__lFQOyx_0C3Kit0c10DescriptorH0VQo_HO.48
++ _get_witness_table 7SwiftUI19WidgetConfigurationRzlxAaBHD1_.50
++ _get_witness_table 7SwiftUI19WidgetConfigurationRzlxAaBHD1_.9
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy9WidgetKit0chD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLVGAH0hdjK0VGALGAA0F0HPAoaQHPAlaQHPyHC_AnA0fG0HPyHCHC_AlaQHPyHCHC.17
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAA014_ViewModifier_D0Vy9WidgetKit0hD8LayerTagVGAA07_HiddenG0VGAKGAA0F0HPAnaPHPAkaPHPyHC_AmA0fG0HPyHCHC_AkaPHPyHCHC.6
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAEyAEyAEyAEyAA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAA01_f9Modifier_D0Vy9WidgetKit023CommonServerEnvironmentK0VGAA01_p10KeyWritingK0VyAA14FontDefinition_pXpGGAN0l5IdiomK0VGAN017GaugeTintVibrancyK0VGASySo9CHSWidgetCSgGGASyAA11ColorSchemeOGGASySbGGA10_GA10_GA10_GASyAA0Z14SchemeContrastOGGASyAA12DisplayGamutOGGASy12CoreGraphics7CGFloatVGG_Qo_ASyAA0D12SizeCategoryOGGASyAA16LegibilityWeightOSgGGA10_GASyAN0L13RenderingModeVGGA10_GASySo0Y17DisplayPropertiesCGGASyAN0L9ProximityVGGASyAN13LevelOfDetailVGGAVGAaFHPA55_AaFHPA51_AaFHPA47_AaFHPA43_AaFHPA42_AaFHPA38_AaFHPA37_AaFHPA32_AaFHPqd__AaFHD2_A28_HO_A31_AA0fK0HPyHCHC_A36_AAA57_HPyHCHC_A10_AAA57_HPyHCHC_A41_AAA57_HPyHCHC_A10_AAA57_HPyHCHC_A46_AAA57_HPyHCHC_A50_AAA57_HPyHCHC_A54_AAA57_HPyHCHC_AvaFHPAqaFHPyHC_AuAA57_HPyHCHCHC.74
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA16SubscriptionViewVy7Combine9PublishedV9PublisherVy10Foundation4DateV_GAA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyApAEAqrS_Qrqd___SbyyctSQRd__lFQOyApAEAqrS_Qrqd___SbyyctSQRd__lFQOyApAEAqrS_Qrqd___SbyyctSQRd__lFQOyApAEAqrS_Qrqd___SbyyctSQRd__lFQOyAA08ModifiedD0VyAUyAUyAUyAUyAA6IDViewVyAA06_UnaryF7AdaptorVyAA01_f9Modifier_D0Vy9WidgetKit24_ClockHandRotationEffectVGGSdGAA08_OpacityZ0VGAA01_yZ0VGAA022_EnvironmentKeyWritingT0VyAA15LayoutDirectionOGGAA017_AppearanceActionT0VGA19_G_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo__AK0K10ComponentsVSgQo_GA35_GAaOHPA36_AaOHPyHC_qd0__AaOHD3_A35_HOHC.50
++ _get_witness_table 7SwiftUI26ControlWidgetConfigurationRzlqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0G3KeyRd__lFQOyx_0D3Kit0d10DescriptorI0VQo_HO.18
++ _get_witness_table 7SwiftUI4ViewRzl9WidgetKit0D23DescriptorConfigurationVAA0dG0HPyHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx9WidgetKit0F21LightingImageModifierVGAaBHPxAaBHD1__AgA0cJ0HPyHCHC.1
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx9WidgetKit0f21AccentedRenderingModeC8ModifierVGAaBHPxAaBHD1__AgA0cK0HPyHCHC.6
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx9WidgetKit24_ClockHandRotationEffectVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.51
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA14FontDefinition_pXpGGAaBHPxAaBHD1__AhA0cI0HPyHCHC.150
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVySay9WidgetKit0jE5LayerOGGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.5
++ _get_witness_table 7SwiftUI4ViewRzlAA24EmptyWidgetConfigurationVAA0eF0HPyHC.3
++ _get_witness_table 7SwiftUI4ViewRzlAA24EmptyWidgetConfigurationVAA0eF0HPyHC.7
++ _get_witness_table 7SwiftUI4ViewRzlAA6HStackVyAA05TupleC0Vy9WidgetKit028AccessoryRectangularProgressC5StyleV06ActionK0V05LabelK0Vy_x_G_AA6SpacerVAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVyAA17ButtonBorderShapeVGGtGGAaBHPyHC.21
++ _get_witness_table 7SwiftUI4ViewRzlAA6VStackVyAA15ModifiedContentVyAA5GroupVyAA0g10ElementsOfF0VyAA08ProgressC18StyleConfigurationV17CurrentValueLabelVSgAA012_ConditionalF0VyAFyAL0O0VSgAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA05TupleC0VyA__AFyAA18SubviewsCollectionVAZGtGGGGAVyAA5ImageV5ScaleOGGGAaBHPyHC.31
++ _get_witness_table 7SwiftUI5GroupVyAA0C17ElementsOfContentVyAA30ProgressViewStyleConfigurationV7ActionsVSgAA012_ConditionalF0Vy9WidgetKit020AccessoryRectangularghI0V06ActionI0Vy_AA7SubviewVGAO010StandaloneI0VGGGAA0H0HPAxaZHPyHC_HC.1
++ _get_witness_table 7SwiftUI6HStackVyAA7ForEachVySnySiGSiAA15ModifiedContentVyAHy9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA12_FrameLayoutVGAA12_ScaleEffectVGGGAA4ViewHPyHC.58
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA23LabelStyleConfigurationV4IconV_AA4TextVAG5TitleVtGGAA0E0HPyHC.8
++ _get_witness_table 9WidgetKit0A23DescriptorConfigurationV7SwiftUI0aD0HPyHC.1
++ _get_witness_table So8INIntentCRbz7SwiftUI4ViewR_r0_l9WidgetKit0E23DescriptorConfigurationVAC0eH0HPyHC.12
++ _get_witness_table qd0__7SwiftUI19WidgetConfigurationHD3_AaBPAAE10preference3key5valueQrqd__m_5ValueQyd__tAA13PreferenceKeyRd__lFQOyAA05EmptycD0V_0C3Kit0c10DescriptorJ0VQo_HO.3
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQOyAA0F0VyAA05TupleC0VyAA08ProgresscE13ConfigurationVAFVSg_AK012CurrentValueF0VSgAcAE08progresscE0yQrqd__AA0hcE0Rd__lFQOyAA0hC0VyAlOG_AA06LinearhcE0VQo_tGAA05EmptyC0VG_9WidgetKit020AccessoryRectangularfE0VQo_HO.23
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19labeledContentStyleyQrqd__AA07LabeledeF0Rd__lFQOyAA0gE0VyAA05GaugeF13ConfigurationV5LabelVAA05TupleC0VyAI012CurrentValueJ0VSg_AI07MaximummJ0VSgAI07MinimummJ0VSgtGG_9WidgetKit020AccessoryRectangulargeF0VQo_HO.2
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA018PlaceholderContentC0VyxG_qd__tYbcqd_1_qd__ct0G0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQOyAA7CapsuleV_9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLVAA08ModifiedL0VyAJyAPGAA12_FrameLayoutVGAA0S5TrackVyAT12CoreGraphics7CGFloatVAA0s5TrackL7BuilderV10buildArrayyQrSayqd__GALQyd__RszAA0s5TrackL0Rd__lFZQOyA3__AA06LinearS0VyA3_GQo_GQo_HO.77
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE38containerBackgroundSpecifiedPreference3key9placementQrqd__m_qd_0_mtAA0G3KeyRd__AA09Containere15PlacementCustomJ0Rd_0_Sb5ValueRtd__r0_lFQOyAcAE05applykE03for7contentQrqd__m_qd_0_AA03AnyC0VSgctAaHRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyARyAA01_c9Modifier_T0Vy9WidgetKit0veU0VGAA16_FlexFrameLayoutVGAU011ConditionalvT8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLVG_AA0keL0VAUE0vJ0VARyARyAoA024_SafeAreaRegionsIgnoringZ0VGA2_GSgQo__A5_AUE0vfJ0VA7_Qo_HO.28
++ _keypath_get.32Tm
++ _keypath_set.33Tm
++ _objc_release_x1
++ _objectdestroy.106Tm
++ _objectdestroy.111Tm
++ _objectdestroy.114Tm
++ _objectdestroy.11Tm
++ _objectdestroy.121Tm
++ _objectdestroy.13Tm
++ _objectdestroy.143Tm
++ _objectdestroy.149Tm
++ _objectdestroy.152Tm
++ _objectdestroy.15Tm
++ _objectdestroy.164Tm
++ _objectdestroy.166Tm
++ _objectdestroy.22Tm
++ _objectdestroy.33Tm
++ _objectdestroy.403Tm
++ _objectdestroy.409Tm
++ _objectdestroy.56Tm
++ _objectdestroy.60Tm
++ _objectdestroy.78Tm
++ _objectdestroy.90Tm
++ _objectdestroy.99Tm
++ _swift_coroFrameAlloc
++ _swift_stdlib_random
++ _symbolic $s7SwiftUI10GaugeStyleP
++ _symbolic $s7SwiftUI10LabelStyleP
++ _symbolic $s7SwiftUI17ProgressViewStyleP
++ _symbolic $s7SwiftUI19LabeledContentStyleP
++ _symbolic $s9WidgetKit019TimelinePreviewableA13ConfigurationP
++ _symbolic $s9WidgetKit08ModifiedA13ConfigurationP
++ _symbolic $s9WidgetKit0A11PushHandlerP
++ _symbolic $s9WidgetKit0A36ConfigurationIntentRelevanceProviderP
++ _symbolic $s9WidgetKit14RelevanceEntryP
++ _symbolic $s9WidgetKit17RelevanceEntry_V2P
++ _symbolic $s9WidgetKit18RelevanceProvidingP
++ _symbolic $s9WidgetKit22MemoryRequestAssertionP
++ _symbolic $s9WidgetKit22RelevancePreviewSourceP
++ _symbolic $s9WidgetKit24RelevanceEntriesProviderP
++ _symbolic $s9WidgetKit27RelevanceEntriesProvider_V2P
++ _symbolic $s9WidgetKit30RelevanceEntryProviderProtocolP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic 13Configuration_____Qz 9WidgetKit24RelevanceEntriesProviderP
++ _symbolic 13Configuration_____Qz 9WidgetKit27RelevanceEntriesProvider_V2P
++ _symbolic 13EntryProvider_____Qz 9WidgetKit30RelevanceEntryProviderProtocolP
++ _symbolic 5Entry_____Qyd__xIegnr_ 9WidgetKit24RelevanceEntriesProviderP
++ _symbolic 5Entry_____Qyd__xIegnr_ 9WidgetKit27RelevanceEntriesProvider_V2P
++ _symbolic 5Entry_____Qz 9WidgetKit24RelevanceEntriesProviderP
++ _symbolic 5Entry_____Qz 9WidgetKit27RelevanceEntriesProvider_V2P
++ _symbolic 5Entry_____QzSgSo18CHSIntentReferenceC______tYaScMYcc 9WidgetKit24RelevanceEntriesProviderP AA08TimelineE7ContextV
++ _symbolic 5Entry_____Qz_____ScMYcc 9WidgetKit24RelevanceEntriesProviderP AA08TimelineE7ContextV
++ _symbolic SDyShySSG_____G 10Foundation4DataV
++ _symbolic SDy_____Shy_____GG So15CHSWidgetFamilyV 9WidgetKit0C8LocationV
++ _symbolic SaySo8_EXQueryCG
++ _symbolic Say_____G 9WidgetKit0A12ContentLayerO
++ _symbolic Say_____G 9WidgetKit0A13MountingStyleV
++ _symbolic Say_____G 9WidgetKit13WeakAssertion33_F55D4851F034D6C6A90D169210174606LLC
++ _symbolic Say_____G 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic Say_____G 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic Say_____G So15CHSWidgetFamilyV
++ _symbolic Say______pG 9WidgetKit14RelevanceEntryP
++ _symbolic Say______pGyYaScMYcc 9WidgetKit14RelevanceEntryP
++ _symbolic SayxGIegHo_
++ _symbolic ScCy___________pG 9WidgetKit0A14ViewCollectionC s5ErrorP
++ _symbolic Sccy_____Sg______pG 10Foundation4DataV s5ErrorP
++ _symbolic ShySSG
++ _symbolic Shy_____G 9WidgetKit0A13MountingStyleV
++ _symbolic So14UISceneSessionCSg
++ _symbolic So19_EXExtensionContextC
++ _symbolic So20_EXExtensionIdentityC
++ _symbolic So23CHSWidgetTintParametersCSg
++ _symbolic So8NSStringC
++ _symbolic _____ 14ChronoServices16DeviceIdentifierO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE015_ArchiveVersionC3Key33_D1358E2227E79573A9979850AA572BB7LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE06_Showse12ContentLayerC3Key33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE08__Key_isE5Focal33_5E577D2F8B53A086CFB977EFF63578FFLLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE09_IsRemoteE3Key33_708747127DFF8435FA5C1B877B6FFA9ELLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE20__Key_tintParameters33_A678AB8EBD96EB0F22F9B66B950B3AADLLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE21__Key_widgetProximity33_E7C5D0DE619AC07004DC76A60EC105B2LLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9WidgetKitE26IdealizedDateComponentsKey33_E806B32267FFEF55DA2DAC5F509458F0LLV
++ _symbolic _____ 7SwiftUI24EmptyWidgetConfigurationV
++ _symbolic _____ 7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO5NamedV8LocationO
++ _symbolic _____ 7SwiftUI30ProgressViewStyleConfigurationV
++ _symbolic _____ 7SwiftUI32LabeledContentStyleConfigurationV
++ _symbolic _____ 7SwiftUI5ImageV5ScaleO
++ _symbolic _____ 9WidgetKit011ConditionalA15ContentLayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____ 9WidgetKit019SingleEntryTimelineD11Provider_V2V
++ _symbolic _____ 9WidgetKit08IsRemoteA3KeyV
++ _symbolic _____ 9WidgetKit09LiveSceneA10ViewSourceV
++ _symbolic _____ 9WidgetKit09LiveSceneA13ConfigurationV
++ _symbolic _____ 9WidgetKit0A12ContentLayerO
++ _symbolic _____ 9WidgetKit0A12ProximityKeyV
++ _symbolic _____ 9WidgetKit0A12ProximityKeyV07CodableaC0O
++ _symbolic _____ 9WidgetKit0A13MountingStyleV
++ _symbolic _____ 9WidgetKit0A13MountingStyleV5ValueO
++ _symbolic _____ 9WidgetKit0A14SpatialSurfaceV
++ _symbolic _____ 9WidgetKit0A14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLO
++ _symbolic _____ 9WidgetKit0A14SpatialSurfaceV5ValueO
++ _symbolic _____ 9WidgetKit0A15ContentLayerTagV
++ _symbolic _____ 9WidgetKit0A15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLO
++ _symbolic _____ 9WidgetKit0A18SpatialChromeStyleV
++ _symbolic _____ 9WidgetKit0A18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLO
++ _symbolic _____ 9WidgetKit0A18SpatialChromeStyleV5ValueO
++ _symbolic _____ 9WidgetKit0A21LightingImageModifierV
++ _symbolic _____ 9WidgetKit0A23DescriptorConfigurationV
++ _symbolic _____ 9WidgetKit0A26LightingImagePreferenceKeyV
++ _symbolic _____ 9WidgetKit0A29PushConfigurationXPCContainerC
++ _symbolic _____ 9WidgetKit0A7TextureV
++ _symbolic _____ 9WidgetKit0A7TextureV5ValueO
++ _symbolic _____ 9WidgetKit0A8PushInfoV
++ _symbolic _____ 9WidgetKit0A9ProximityV
++ _symbolic _____ 9WidgetKit0A9ProximityV0C0O
++ _symbolic _____ 9WidgetKit0aB8RendererC
++ _symbolic _____ 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic _____ 9WidgetKit12WaveformView33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic _____ 9WidgetKit13LevelOfDetailV
++ _symbolic _____ 9WidgetKit13LevelOfDetailV3KeyV
++ _symbolic _____ 9WidgetKit13LevelOfDetailV7StorageO
++ _symbolic _____ 9WidgetKit13WeakAssertion33_F55D4851F034D6C6A90D169210174606LLC
++ _symbolic _____ 9WidgetKit15SymbolLookupKey04_5E2F27E36B373F5C58443E9AF6AB59AD9LLV
++ _symbolic _____ 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic _____ 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLO
++ _symbolic _____ 9WidgetKit16LevelOfDetailKeyV
++ _symbolic _____ 9WidgetKit16LevelOfDetailKeyV07CodablecdE0O
++ _symbolic _____ 9WidgetKit17ArchiveVersionKeyV
++ _symbolic _____ 9WidgetKit19RelevanceViewSourceV
++ _symbolic _____ 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic _____ 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysO
++ _symbolic _____ 9WidgetKit21AnimatingWaveformViewV
++ _symbolic _____ 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic _____ 9WidgetKit21JindoViewProviderMockC
++ _symbolic _____ 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLO
++ _symbolic _____ 9WidgetKit22RelevanceConfigurationV
++ _symbolic _____ 9WidgetKit22RelevanceEntryProvider33_E3052AF859365B92D4FF44F017D84A8CLLV
++ _symbolic _____ 9WidgetKit24MemoryRequestsControllerC
++ _symbolic _____ 9WidgetKit25RelevanceConfiguration_V2V
++ _symbolic _____ 9WidgetKit25RelevanceEntryProvider_V233_F7BB949D90B4FFC73D7E3E9FF4BE4A3ALLV
++ _symbolic _____ 9WidgetKit26InterpolatedIconLabelStyleV
++ _symbolic _____ 9WidgetKit27ControlTemplateButtonParserV
++ _symbolic _____ 9WidgetKit27ControlTemplatePickerParserV
++ _symbolic _____ 9WidgetKit27ControlTemplateToggleParserV
++ _symbolic _____ 9WidgetKit27RelevanceEntryPreviewSourceV
++ _symbolic _____ 9WidgetKit28PreviewRelevanceEntryBuilderV
++ _symbolic _____ 9WidgetKit30AccessoryRectangularGaugeStyleV
++ _symbolic _____ 9WidgetKit30AccessoryRectangularLabelStyleV
++ _symbolic _____ 9WidgetKit30ElevatedMemoryRequestAssertionC
++ _symbolic _____ 9WidgetKit30RelevanceProviderPreviewSourceV
++ _symbolic _____ 9WidgetKit30RelevanceTimelineEntryProviderV
++ _symbolic _____ 9WidgetKit30RelevanceTimelineEntryProviderV6ErrorsO
++ _symbolic _____ 9WidgetKit31RelevanceEntriesProviderContextV
++ _symbolic _____ 9WidgetKit34PreviewTimelineNotImplementedError33_A9E6D01D0EE3598AFE03C09F872129F3LLV
++ _symbolic _____ 9WidgetKit37AccessoryRectangularProgressViewStyleV
++ _symbolic _____ 9WidgetKit37AccessoryRectangularProgressViewStyleV010StandaloneG0V
++ _symbolic _____ 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0V
++ _symbolic _____ 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0V05LabelG0V
++ _symbolic _____ 9WidgetKit39AccessoryRectangularLabeledContentStyleV
++ _symbolic _____ 9WidgetKit46AccessoryRectangularLabeledContentStyleMetrics33_EA33FBC987284B9F30A765C7FFA16204LLV
++ _symbolic _____ So18CHSWidgetProximityV
++ _symbolic _____ So20NSFileProtectionTypea
++ _symbolic _____3key_ShySSG5valuet 9WidgetKit15SymbolLookupKey04_5E2F27E36B373F5C58443E9AF6AB59AD9LLV
++ _symbolic _____3key_ShySSG5valuetSg 9WidgetKit15SymbolLookupKey04_5E2F27E36B373F5C58443E9AF6AB59AD9LLV
++ _symbolic _____Sg 10Foundation14DateComponentsV
++ _symbolic _____Sg 7SwiftUI17ContentTransitionV
++ _symbolic _____Sg 7SwiftUI23GaugeStyleConfigurationV17CurrentValueLabelV
++ _symbolic _____Sg 7SwiftUI23GaugeStyleConfigurationV17MaximumValueLabelV
++ _symbolic _____Sg 7SwiftUI23GaugeStyleConfigurationV17MinimumValueLabelV
++ _symbolic _____Sg 7SwiftUI30ProgressViewStyleConfigurationV17CurrentValueLabelV
++ _symbolic _____Sg 7SwiftUI30ProgressViewStyleConfigurationV5LabelV
++ _symbolic _____Sg 7SwiftUI30ProgressViewStyleConfigurationV7ActionsV
++ _symbolic _____Sg 7SwiftUI7SubviewV
++ _symbolic _____Sg 9WidgetKit13DatePublisherC
++ _symbolic _____Sg 9WidgetKit18ControlAffordancesV
++ _symbolic _____Sg So10CGImageRefa
++ _symbolic _____SgXw 9WidgetKit30ElevatedMemoryRequestAssertionC
++ _symbolic _____Sg______Sg_____Sgt 7SwiftUI23GaugeStyleConfigurationV17CurrentValueLabelV AC07MaximumgH0V AC07MinimumgH0V
++ _symbolic _____Sg______Sg_____y_____yAaCG______Qo_t 7SwiftUI30ProgressViewStyleConfigurationV5LabelV AC012CurrentValueG0V AA0D0PAAE08progressdE0yQrqd__AA0cdE0Rd__lFQO AA0cD0V AA06LinearcdE0V
++ _symbolic ______SaySay_____GGt 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO 12CoreGraphics7CGFloatV
++ _symbolic ________________t 7SwiftUI23LabelStyleConfigurationV4IconV AA4TextV AC5TitleV
++ _symbolic ___________t 7SwiftUI7AnyViewV 9WidgetKit18ControlAffordancesV
++ _symbolic ___________y_____yACy__________y_____SgGG_____y_____GGGt 7SwiftUI6SpacerV AA6VStackV AA15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleM0V AA017HierarchicalShapeP0V
++ _symbolic ___________y_____y_____y_____y_____y_____y__________yABy__________y_____SgGGSg_ABy_____ALGtGGGG______Qo_AIy_____GG_Qo_t 7SwiftUI23LabelStyleConfigurationV4IconV AA4ViewPAAE10textSizingyQrAA4TextV0I0VFQO AA15ModifiedContentV AgAE05labelD0yQrqd__AA0cD0Rd__lFQO AA6VStackV AA5GroupV AA0o10ElementsOfL0V AC5TitleV AA05TupleG0V AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit012InterpolatedfcD0V AA5ImageV5ScaleO
++ _symbolic __________yyt______pGIegno_ 9WidgetKit10BundleStubV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic __________yyt______pGIegno_ 9WidgetKit13SystemVersionV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic __________yyt______pGIegnr_ 9WidgetKit10BundleStubV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic __________yyt______pGIegnr_ 9WidgetKit13SystemVersionV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ______p 9WidgetKit08ModifiedA13ConfigurationP
++ _symbolic ______p 9WidgetKit0A36ConfigurationIntentRelevanceProviderP
++ _symbolic ______p 9WidgetKit14RelevanceEntryP
++ _symbolic ______p 9WidgetKit22MemoryRequestAssertionP
++ _symbolic ______p 9WidgetKit22RelevancePreviewSourceP
++ _symbolic ______pSg 9WidgetKit08ModifiedA13ConfigurationP
++ _symbolic ______pSg 9WidgetKit0A36ConfigurationIntentRelevanceProviderP
++ _symbolic ______pSg 9WidgetKit22RelevancePreviewSourceP
++ _symbolic ______pXmT 9WidgetKit0A11PushHandlerP
++ _symbolic ______pXpSg 9WidgetKit0A11PushHandlerP
++ _symbolic ______p_____yyyc______pGIegg_Ieggg_ 9WidgetKit27HostToExtensionXPCInterfaceP s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ______pm 9WidgetKit22RelevancePreviewSourceP
++ _symbolic ______pyc 9WidgetKit30RelevanceEntryProviderProtocolP
++ _symbolic _____y13Configuration_____QzGIegHr_ 9WidgetKit0A9RelevanceV AA0C15EntriesProviderP
++ _symbolic _____y5Entry_____Qzq_G 9WidgetKit019SingleEntryTimelineD11Provider_V2V AA016RelevanceEntriesf1_G0P
++ _symbolic _____yAAyAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGG_____G_____GAEySo9CHSWidgetCSgGGAEy_____GGAEySbGGAUGAUGAUGAEy_____GGAEy_____GGAEy_____GG_Qo_AEy_____GGAEy_____SgGGAUGAEy_____GGAUGAEySo0A17DisplayPropertiesCGGAEy_____GGAEy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_e9Modifier_D0V 9WidgetKit023CommonServerEnvironmentJ0V AA01_o10KeyWritingJ0V AA14FontDefinitionP AL0k5IdiomJ0V AL017GaugeTintVibrancyJ0V AA11ColorSchemeO AA0xY8ContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AL0K13RenderingModeV AL0K9ProximityV AL13LevelOfDetailV
++ _symbolic _____yAAyAAyAAyAAyAAyAAy_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGG_____G_____GAEySo9CHSWidgetCSgGGAEy_____GGAEySbGGAUGAUGAUGAEy_____GGAEy_____GGAEy_____GG_Qo_AEy_____GGAEy_____SgGGAUGAEy_____GGAUGAEySo0A17DisplayPropertiesCGGAEy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_e9Modifier_D0V 9WidgetKit023CommonServerEnvironmentJ0V AA01_o10KeyWritingJ0V AA14FontDefinitionP AL0k5IdiomJ0V AL017GaugeTintVibrancyJ0V AA11ColorSchemeO AA0xY8ContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AL0K13RenderingModeV AL0K9ProximityV
++ _symbolic _____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG 7SwiftUI15ModifiedContentV AA6IDViewV AA17_UnaryViewAdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityO0V AA01_nO0V AA022_EnvironmentKeyWritingI0V AA15LayoutDirectionO AA017_AppearanceActionI0V
++ _symbolic _____yAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA6IDViewV AA17_UnaryViewAdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityO0V AA01_nO0V AA022_EnvironmentKeyWritingI0V AA15LayoutDirectionO AA017_AppearanceActionI0V
++ _symbolic _____yAAyAAy__________y_____SgGGACy_____SgGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6IDViewV AA17_UnaryViewAdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityO0V AA01_nO0V AA022_EnvironmentKeyWritingI0V AA15LayoutDirectionO
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA12_FrameLayoutV AA12_ScaleEffectV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV 9WidgetKit011ConditionallD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____yAAy__________G_____GSg 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV 9WidgetKit011ConditionallD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleK0V AA017HierarchicalShapeN0V
++ _symbolic _____yAAy_____y_____G_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit0g10BackgroundF0V AA16_FlexFrameLayoutV AF011ConditionalgD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____yAAy_____y_____y_____y_____GGSdG_____G_____G 7SwiftUI15ModifiedContentV AA6IDViewV AA17_UnaryViewAdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityO0V AA01_nO0V
++ _symbolic _____ySay_____GG 7SwiftUI11EnvironmentV 9WidgetKit0D12ContentLayerO
++ _symbolic _____ySay_____GG 7SwiftUI30_EnvironmentKeyWritingModifierV 9WidgetKit0G12ContentLayerO
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic _____ySay_____G______pG s6ResultOsRi_zRi0_zrlE 9WidgetKit0B4InfoV s5ErrorP
++ _symbolic _____ySay_____G______pGIeghg_ s6ResultOsRi_zRi0_zrlE 9WidgetKit0B4InfoV s5ErrorP
++ _symbolic _____ySbG 7SwiftUI5StateV
++ _symbolic _____yShySSG_____G s18_DictionaryStorageC 10Foundation4DataV
++ _symbolic _____ySo14UISceneSessionCSgG 7SwiftUI11EnvironmentV
++ _symbolic _____ySo23CHSWidgetTintParametersCSgG 7SwiftUI11EnvironmentV
++ _symbolic _____ySo8INIntentCG 9WidgetKit0A10RelevancesV
++ _symbolic _____ySo8INIntentCG 9WidgetKit0A14RelevanceEntryV
++ _symbolic _____ySo8INIntentC_G 9WidgetKit0A14RelevanceEntryV9AttributeO
++ _symbolic _____yYac 9WidgetKit0A20RelevanceFetchResultC
++ _symbolic _____y_____G 7SwiftUI14LinearKeyframeV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9WidgetKit011ConditionalfE8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9WidgetKit0f13LightingImageD0V
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9WidgetKit0fE8LayerTagV
++ _symbolic _____y_____G 7SwiftUI22PlaceholderContentViewV AA7CapsuleV
++ _symbolic _____y_____G 7SwiftUI26_PreferenceWritingModifierV 9WidgetKit0f13LightingImageC3KeyV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 9WidgetKit0G9ProximityV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 9WidgetKit13LevelOfDetailV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV
++ _symbolic _____y_____G 7SwiftUI5StateV 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic _____y_____G s11_SetStorageC 9WidgetKit0C13MountingStyleV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit0D14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit0D15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit0D18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit0D14SpatialSurfaceV10CodingKeys33_46C03E3EECED555921FC9C777FA76F14LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit0D15ContentLayerTagV11CodableKeys33_584C9B01A7A8E32F14516ECF147467F2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit0D18SpatialChromeStyleV10CodingKeys33_2DADD40486C4A8823A666A4E26B3301ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit16DimensionRequestO10CodingKeys33_E56B48F5F78DE7E9778F46665ABF1681LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit21AnimatingWaveformViewV10CodingKeys33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_369E2633A7D10AF9059D8DBB41132707LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI27WidgetAuxiliaryViewMetadataV7GraphicO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit0D12ContentLayerO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit0D9ProximityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit13LevelOfDetailV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit21ControlTemplateButtonV6OptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9WidgetKit21ControlTemplateToggleV6OptionV
++ _symbolic _____y_____SaySay_____GGG s18_DictionaryStorageC 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO 12CoreGraphics7CGFloatV
++ _symbolic _____y_____SaySay_____GGG s18_DictionaryStorageC 9WidgetKit15WaveformVariant33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLO AC0E11BarKeyframeAELLV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 10Foundation14DateComponentsV
++ _symbolic _____y_____SgG 7SwiftUI11EnvironmentV 9WidgetKit14ArchiveVersionO
++ _symbolic _____y_____SgG 7SwiftUI5StateV 10Foundation14DateComponentsV
++ _symbolic _____y_____SgG 7SwiftUI5StateV 9WidgetKit13DatePublisherC
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC 9WidgetKit14ArchiveVersionO
++ _symbolic _____y_____Sg_G 7SwiftUI11EnvironmentV7ContentO 10Foundation14DateComponentsV
++ _symbolic _____y_____Sg______Sg_____SgtG 7SwiftUI9TupleViewV AA23GaugeStyleConfigurationV17CurrentValueLabelV AE07MaximumiJ0V AE07MinimumiJ0V
++ _symbolic _____y_____Sg______Sg_____y_____yAbDG______Qo_tG 7SwiftUI9TupleViewV AA08ProgressD18StyleConfigurationV5LabelV AE012CurrentValueH0V AA0D0PAAE08progressdF0yQrqd__AA0edF0Rd__lFQO AA0eD0V AA06LinearedF0V
++ _symbolic _____y_____Sg_____y_____SgGG 7SwiftUI15ModifiedContentV AA30ProgressViewStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____Sg_____y_____SgGG_AAy_____AGGt 7SwiftUI15ModifiedContentV AA30ProgressViewStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA18SubviewsCollectionV
++ _symbolic _____y_____Sg_____y_____y______G_____GG 7SwiftUI22GroupElementsOfContentV AA30ProgressViewStyleConfigurationV7ActionsV AA012_ConditionalF0V 9WidgetKit020AccessoryRectangularghI0V06ActionI0V AA7SubviewV AL010StandaloneI0V
++ _symbolic _____y_____ShySSGG s18_DictionaryStorageC 9WidgetKit15SymbolLookupKey04_5E2H27E36B373F5C58443E9AF6AB59AD9LLV
++ _symbolic _____y_____Shy_____GG s18_DictionaryStorageC So15CHSWidgetFamilyV 9WidgetKit0E8LocationV
++ _symbolic _____y_____So7NSErrorCG s6ResultOsRi_zRi0_zrlE 19ExtensionFoundation04_AppB7ProcessV
++ _symbolic _____y______G 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0V 7SwiftUI7SubviewV
++ _symbolic _____y______GSg 7Combine9PublishedV9PublisherV 10Foundation4DateV
++ _symbolic _____y_______G 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC AA013LevelOfDetailE0V
++ _symbolic _____y_______G 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC AA014ArchiveVersionE0V
++ _symbolic _____y_______G 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC AA08IsRemoteaE0V
++ _symbolic _____y_______G 9WidgetKit0A11EnvironmentV6AnyKeyC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC AA0a9ProximityE0V
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA9RectangleV AA8MaterialV
++ _symbolic _____y__________G 7SwiftUI12ProgressViewV AA0cD18StyleConfigurationV5LabelV AE012CurrentValueG0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA12_FrameLayoutV
++ _symbolic _____y__________G s15WritableKeyPathC 7SwiftUI17EnvironmentValuesV 9WidgetKit0H9ProximityV
++ _symbolic _____y__________G s15WritableKeyPathC 7SwiftUI17EnvironmentValuesV 9WidgetKit13LevelOfDetailV
++ _symbolic _____y__________SgG s15WritableKeyPathC 7SwiftUI17EnvironmentValuesV 9WidgetKit14ArchiveVersionO
++ _symbolic _____y________________y_____yAAG_____G_____yAB__________yAI______yAIGQo_GQo_ 7SwiftUI4ViewPAAE16keyframeAnimator12initialValue9repeating7content9keyframesQrqd___Sbqd_0_AA018PlaceholderContentC0VyxG_qd__tYbcqd_1_qd__ct0G0Qyd_1_Rsd__AaBRd_0_AA9KeyframesRd_1_r1_lFQO AA7CapsuleV 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA08ModifiedL0V AJ AA12_FrameLayoutV AA0S5TrackV 12CoreGraphics7CGFloatV AA0s5TrackL7BuilderV10buildArrayyQrSayqd__GALQyd__RszAA0s5TrackL0Rd__lFZQO AA06LinearS0V
++ _symbolic _____y_______________yAC______yACGQo_G 7SwiftUI13KeyframeTrackV 9WidgetKit011WaveformBarC033_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV 12CoreGraphics7CGFloatV AA0cD14ContentBuilderV10buildArrayyQrSayqd__G5ValueQyd__RszAA0cdT0Rd__lFZQO AA06LinearC0V
++ _symbolic _____y___________pGIegg_ s6ResultOsRi_zRi0_zrlE 9WidgetKit0B14ViewCollectionC s5ErrorP
++ _symbolic _____y___________yAAGQo_ 7SwiftUI27KeyframeTrackContentBuilderV10buildArrayyQrSayqd__G5ValueQyd__RszAA0cdE0Rd__lFZQO 12CoreGraphics7CGFloatV AA06LinearC0V
++ _symbolic _____y___________yACy__________y_____SgGG_____y_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeS0V
++ _symbolic _____y___________ySnySiGSi_____yAEy__________G_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV AA15ModifiedContentV 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA06_FrameG0V AA12_ScaleEffectV
++ _symbolic _____y___________y________________tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA23LabelStyleConfigurationV4IconV AA4TextV AK5TitleV
++ _symbolic _____y___________y___________y_____y_____y_____y_____y_____y_____ACyAEy__________y_____SgGGSg_AEy_____ANGtGGGG______Qo_AKy_____GG_Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA23LabelStyleConfigurationV4IconV AA0D0PAAE10textSizingyQrAA4TextV0N0VFQO AA15ModifiedContentV AoAE05labelJ0yQrqd__AA0iJ0Rd__lFQO AA6VStackV AA5GroupV AA0t10ElementsOfQ0V AK5TitleV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit012InterpolatedliJ0V AA5ImageV5ScaleO
++ _symbolic _____y___________y_____yADy__________y_____SgGG_____y_____GGGtG 7SwiftUI9TupleViewV AA6SpacerV AA6VStackV AA15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V
++ _symbolic _____y___________y_____yADy__________y_____SgGG_____y_____GGGtGSg 7SwiftUI9TupleViewV AA6SpacerV AA6VStackV AA15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V
++ _symbolic _____y___________y_____y__________y_____SgGGSg_ACy___________yADyADy_____AIG_____y_____GGGtGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA6SpacerV AA6VStackV AA23SubviewsCollectionSliceV AA016_ForegroundStyleO0V AA017HierarchicalShapeW0V
++ _symbolic _____y___________y_____y__________y_____y__________y_____SgGGSg_AGy_____ALGtGGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA5GroupV AA0H17ElementsOfContentV AA23LabelStyleConfigurationV5TitleV AA05TupleD0V AA08ModifiedK0V AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV
++ _symbolic _____y___________y_____y__________y_____y_____y_____yAFy__________y_____SgGG______Qo_______yAHyAFy_____AMGSg_AHy______AGyAFyAFy_____AMG_____y_____GGGtGSgtGGtGGAJy_____GGGGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA5GroupV AA0H17ElementsOfContentV AA07LabeledK18StyleConfigurationV0K0V AA08ModifiedK0V AA6VStackV AA05TupleD0V AA0D0PAAE05labelM0yQrqd__AA05LabelM0Rd__lFQO AM0S0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconsM0V AA0F0V AA7SubviewV AA6SpacerV AA23SubviewsCollectionSliceV AA011_ForegroundmW0V AA017HierarchicalShapeM0V AA5ImageV5ScaleO
++ _symbolic _____y___________y_____y_____y_____Sg_____yACy_____Sg_____y_____SgGG_____yAO_ACy_____ANGtGGGGAKy_____GGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA15ModifiedContentV AA5GroupV AA0j10ElementsOfI0V AA08ProgressD18StyleConfigurationV17CurrentValueLabelV AA012_ConditionalI0V AO0R0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleD0V AA18SubviewsCollectionV AA5ImageV5ScaleO
++ _symbolic _____y___________y_____y_____y__________y_____SgGG______Qo_______yACyADy_____AIGSg_ACy___________yADyADy_____AIG_____y_____GGGtGSgtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0D0PAAE10labelStyleyQrqd__AA05LabelJ0Rd__lFQO AA15ModifiedContentV AA07LabeledmJ13ConfigurationV0K0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconkJ0V AA6HStackV AA7SubviewV AA6SpacerV AA0F0V AA23SubviewsCollectionSliceV AA011_ForegroundjS0V AA017HierarchicalShapeJ0V
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA07LabeledD18StyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA18SubviewsCollectionV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____SgGGSg 7SwiftUI15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____SgGGSg_AAy_____AFGt 7SwiftUI15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV
++ _symbolic _____y__________y_____SgGGSg______y___________yAAyAAy_____AFG_____y_____GGGtGSgt 7SwiftUI15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA9TupleViewV AA6SpacerV AA6VStackV AA23SubviewsCollectionSliceV AA016_ForegroundStyleI0V AA017HierarchicalShapeS0V
++ _symbolic _____y__________y_____Sg______Sg_____SgtGG 7SwiftUI14LabeledContentV AA23GaugeStyleConfigurationV5LabelV AA9TupleViewV AE012CurrentValueH0V AE07MaximumlH0V AE07MinimumlH0V
++ _symbolic _____y_______y__________GADG 9WidgetKit0A11EnvironmentV16AnyKeyValueTupleC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC s08WritableE4PathC 7SwiftUI0C6ValuesV AA0A9ProximityV
++ _symbolic _____y_______y__________GADG 9WidgetKit0A11EnvironmentV16AnyKeyValueTupleC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC s08WritableE4PathC 7SwiftUI0C6ValuesV AA13LevelOfDetailV
++ _symbolic _____y_______y__________SgGAEG 9WidgetKit0A11EnvironmentV16AnyKeyValueTupleC7Storage33_78669324E9282AD527DC22F3259D9FF4LLC s08WritableE4PathC 7SwiftUI0C6ValuesV AA14ArchiveVersionO
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 9WidgetKit22MemoryRequestAssertionP
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 9WidgetKit0D11PushHandlerP
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG_So14UISceneSessionCSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryC7AdaptorV AA01_c9Modifier_I0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityS0V AA01_rS0V AA022_EnvironmentKeyWritingM0V AA15LayoutDirectionO AA017_AppearanceActionM0V
++ _symbolic _____y_____yAAy_____y_____G_____G_____G______AAyAAy__________GAGGSgQo_ 7SwiftUI4ViewPAAE24applyContainerBackground3for7contentQrqd__m_qd_0_AA03AnyC0VSgctAA0eF18PlacementCustomKeyRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA01_c9Modifier_N0V 9WidgetKit0pfO0V AA16_FlexFrameLayoutV AO011ConditionalpN8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV AA0efJ0VAOE0pL0V AH AA024_SafeAreaRegionsIgnoringT0V
++ _symbolic _____y_____yAByAByAByAByAByAByABy_____yAByAByAByAByAByAByAByAByAByAByAByABy_____y_____G_____y______pXpGG_____G_____GAFySo9CHSWidgetCSgGGAFy_____GGAFySbGGAVGAVGAVGAFy_____GGAFy_____GGAFy_____GG_Qo_AFy_____GGAFy_____SgGGAVGAFy_____GGAVGAFySo0A17DisplayPropertiesCGGAFy_____GGAFy_____GGAIG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_f9Modifier_D0V 9WidgetKit023CommonServerEnvironmentK0V AA01_p10KeyWritingK0V AA14FontDefinitionP AN0l5IdiomK0V AN017GaugeTintVibrancyK0V AA11ColorSchemeO AA0yZ8ContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AN0L13RenderingModeV AN0L9ProximityV AN13LevelOfDetailV
++ _symbolic _____y_____yAByAByAByAByAByAByABy_____yAByAByAByAByAByAByAByAByAByAByAByABy_____y_____G_____y______pXpGG_____G_____GAFySo9CHSWidgetCSgGGAFy_____GGAFySbGGAVGAVGAVGAFy_____GGAFy_____GGAFy_____GG_Qo_AFy_____GGAFy_____SgGGAVGAFy_____GGAVGAFySo0A17DisplayPropertiesCGGAFy_____GGAFy_____GGAI_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_g9Modifier_D0V 9WidgetKit023CommonServerEnvironmentL0V AA01_q10KeyWritingL0V AA14FontDefinitionP AP0m5IdiomL0V AP017GaugeTintVibrancyL0V AA11ColorSchemeO AA0Z14SchemeContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AP0M13RenderingModeV AP0M9ProximityV AP13LevelOfDetailV
++ _symbolic _____y_____yAByABy__________y_____SgGGADy_____SgGG_____G______tG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA5ColorV AA14_PaddingLayoutV AA4TextV
++ _symbolic _____y_____yABy__________y_____SgGG_____GG 7SwiftUI14GeometryReaderV AA15ModifiedContentV 9WidgetKit12WaveformView33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA16_FlexFrameLayoutV
++ _symbolic _____y_____yABy__________y_____SgGG_____y_____GGG 7SwiftUI6VStackV AA15ModifiedContentV AA23SubviewsCollectionSliceV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V
++ _symbolic _____y_____ySnySiGSi_____yADy__________G_____GGG 7SwiftUI6HStackV AA7ForEachV AA15ModifiedContentV 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV AA12_FrameLayoutV AA12_ScaleEffectV
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 7SwiftUI14LinearKeyframeV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA011PlaceholderD4ViewV AA7CapsuleV AA12_FrameLayoutV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit011ConditionalgD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV AF0gdjK0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit0gD8LayerTagV AA07_HiddenF0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9WidgetKit0g13LightingImageF0V AA018_PreferenceWritingF0V AF0gijK3KeyV
++ _symbolic _____y_____y_____Sg______Sg_____y_____yAcEG______Qo_tG_____G 7SwiftUI5LabelV AA9TupleViewV AA08ProgressE18StyleConfigurationVABV AG012CurrentValueC0V AA0E0PAAE08progresseG0yQrqd__AA0feG0Rd__lFQO AA0fE0V AA06LinearfeG0V AA05EmptyE0V
++ _symbolic _____y_____y_____Sg_____y_____SgGG_ABy_____AHGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA08ProgressD18StyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA18SubviewsCollectionV
++ _symbolic _____y_____y_____Sg_____y_____SgGG_____yAI_ABy_____AHGtGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA30ProgressViewStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleG0V AA18SubviewsCollectionV
++ _symbolic _____y_____y_____Sg_____y_____SgGG_____yAI_ABy_____AHGtG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA30ProgressViewStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleH0V AA18SubviewsCollectionV
++ _symbolic _____y_____y_____Sg_____y_____y______G_____GGG 7SwiftUI5GroupV AA0C17ElementsOfContentV AA30ProgressViewStyleConfigurationV7ActionsV AA012_ConditionalF0V 9WidgetKit020AccessoryRectangularghI0V06ActionI0V AA7SubviewV AN010StandaloneI0V
++ _symbolic _____y_____y______G_____G 7SwiftUI19_ConditionalContentV 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionK0V AA7SubviewV AF010StandaloneK0V
++ _symbolic _____y_____y______G______G 7SwiftUI19_ConditionalContentV7StorageO 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionL0V AA7SubviewV AH010StandaloneL0V
++ _symbolic _____y_____y______G_____y_____y_____y_____y_____y_____yAEyAEyAEyAEy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAUG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo_______SgQo_G 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV 10Foundation4DateV AA0D0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AmAEAnoP_Qrqd___SbyyctSQRd__lFQO AmAEAnoP_Qrqd___SbyyctSQRd__lFQO AmAEAnoP_Qrqd___SbyyctSQRd__lFQO AmAEAnoP_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryD7AdaptorV AA01_d9Modifier_O0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityY0V AA01_xY0V AA022_EnvironmentKeyWritingS0V AA15LayoutDirectionO AA017_AppearanceActionS0V AI0I10ComponentsV
++ _symbolic _____y_____y__________G______Qo_ 7SwiftUI4ViewPAAE08progressC5StyleyQrqd__AA08ProgresscE0Rd__lFQO AA0fC0V AA0fcE13ConfigurationV5LabelV AI012CurrentValueH0V AA06LinearfcE0V
++ _symbolic _____y_____y________________tGG 7SwiftUI6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AA4TextV AG5TitleV
++ _symbolic _____y_____y___________y_____y_____y_____y_____y_____y_____AByADy__________y_____SgGGSg_ADy_____AMGtGGGG______Qo_AJy_____GG_Qo_tGG 7SwiftUI6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AA0E0PAAE10textSizingyQrAA4TextV0K0VFQO AA15ModifiedContentV AkAE05labelG0yQrqd__AA0fG0Rd__lFQO AA6VStackV AA5GroupV AA0q10ElementsOfN0V AG5TitleV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit012InterpolatedifG0V AA5ImageV5ScaleO
++ _symbolic _____y_____y__________y_____SgGGSg_ABy_____AGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV
++ _symbolic _____y_____y__________y_____SgGG______Qo_ 7SwiftUI4ViewPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQO AA15ModifiedContentV AA07LabeledhE13ConfigurationV0F0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconfE0V
++ _symbolic _____y_____y__________y_____SgGG______Qo_______y_____yAAy_____AFGSg_AKy___________yAAyAAy_____AFG_____y_____GGGtGSgtGGt 7SwiftUI4ViewPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQO AA15ModifiedContentV AA07LabeledhE13ConfigurationV0F0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconfE0V AA6HStackV AA05TupleC0V AA7SubviewV AA6SpacerV AA6VStackV AA23SubviewsCollectionSliceV AA011_ForegroundeN0V AA017HierarchicalShapeE0V
++ _symbolic _____y_____y__________y_____Sg______Sg_____SgtGG______Qo_ 7SwiftUI4ViewPAAE19labeledContentStyleyQrqd__AA07LabeledeF0Rd__lFQO AA0gE0V AA05GaugeF13ConfigurationV5LabelV AA05TupleC0V AI012CurrentValueJ0V AI07MaximummJ0V AI07MinimummJ0V 9WidgetKit020AccessoryRectangulargeF0V
++ _symbolic _____y_____y_____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG_So14UISceneSessionCSgQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryC7AdaptorV AA01_c9Modifier_I0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityS0V AA01_rS0V AA022_EnvironmentKeyWritingM0V AA15LayoutDirectionO AA017_AppearanceActionM0V
++ _symbolic _____y_____y_____yAAy_____y_____G_____G_____G______AAyAAy__________GAGGSgQo_______AIQo_ 7SwiftUI4ViewPAAE38containerBackgroundSpecifiedPreference3key9placementQrqd__m_qd_0_mtAA0G3KeyRd__AA09Containere15PlacementCustomJ0Rd_0_Sb5ValueRtd__r0_lFQO AcAE05applykE03for7contentQrqd__m_qd_0_AA03AnyC0VSgctAaHRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA01_c9Modifier_T0V 9WidgetKit0veU0V AA16_FlexFrameLayoutV AU011ConditionalvT8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV AA0keL0VAUE0vJ0V AO AA024_SafeAreaRegionsIgnoringZ0V A2_AUE0vfJ0V
++ _symbolic _____y_____y_____y_____GGSdG 7SwiftUI6IDViewV AA17_UnaryViewAdaptorV AA01_E16Modifier_ContentV 9WidgetKit24_ClockHandRotationEffectV
++ _symbolic _____y_____y_____y_____G_____GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 9WidgetKit0chD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV AH0hdjK0V
++ _symbolic _____y_____y_____y_____G_____GAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 9WidgetKit0hD8LayerTagV AA07_HiddenG0V
++ _symbolic _____y_____y_____y_____G_____GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 9WidgetKit0ciD8LayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV AJ0idkL0V
++ _symbolic _____y_____y_____y_____G_____GAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 9WidgetKit0iD8LayerTagV AA07_HiddenH0V
++ _symbolic _____y_____y_____y_____Sg______Sg_____y_____yAcEG______Qo_tG_____G______Qo_ 7SwiftUI4ViewPAAE10labelStyleyQrqd__AA05LabelE0Rd__lFQO AA0F0V AA05TupleC0V AA08ProgresscE13ConfigurationVAFV AK012CurrentValueF0V AcAE08progresscE0yQrqd__AA0hcE0Rd__lFQO AA0hC0V AA06LinearhcE0V AA05EmptyC0V 9WidgetKit020AccessoryRectangularfE0V
++ _symbolic _____y_____y_____y_____Sg_____yAAy_____Sg_____y_____SgGG_____yAM_AAy_____ALGtGGGGAIy_____GG 7SwiftUI15ModifiedContentV AA5GroupV AA0e10ElementsOfD0V AA30ProgressViewStyleConfigurationV17CurrentValueLabelV AA012_ConditionalD0V AI0N0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleI0V AA18SubviewsCollectionV AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y______G_____y_____y_____y_____y_____y_____yAFyAFyAFyAFy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAVG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo_______SgQo_GA9_G 7SwiftUI19_ConditionalContentV AA16SubscriptionViewV 7Combine9PublishedV9PublisherV 10Foundation4DateV AA0F0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AoAEApqR_Qrqd___SbyyctSQRd__lFQO AoAEApqR_Qrqd___SbyyctSQRd__lFQO AoAEApqR_Qrqd___SbyyctSQRd__lFQO AoAEApqR_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V AA6IDViewV AA06_UnaryF7AdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityZ0V AA01_yZ0V AA022_EnvironmentKeyWritingT0V AA15LayoutDirectionO AA017_AppearanceActionT0V AK0K10ComponentsV
++ _symbolic _____y_____y_____y______G_____y_____y_____y_____y_____y_____yAFyAFyAFyAFy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAVG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo_______SgQo_GA9__G 7SwiftUI19_ConditionalContentV7StorageO AA16SubscriptionViewV 7Combine9PublishedV9PublisherV 10Foundation4DateV AA0G0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AqAEArsT_Qrqd___SbyyctSQRd__lFQO AA08ModifiedD0V AA6IDViewV AA06_UnaryG7AdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA14_OpacityEffectV AA01_Z6EffectV AA022_EnvironmentKeyWritingU0V AA15LayoutDirectionO AA017_AppearanceActionU0V AM0L10ComponentsV
++ _symbolic _____y_____y_____y___________yAAy_____y_____y_____y_____y_____ACyAAy__________y_____SgGGSg_AAy_____AMGtGGGG______Qo_AJy_____GG_Qo_tGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA23LabelStyleConfigurationV4IconV AA0G0PAAE10textSizingyQrAA4TextV0M0VFQO AmAE05labelI0yQrqd__AA0hI0Rd__lFQO AA6VStackV AA5GroupV AA0q10ElementsOfD0V AI5TitleV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit012InterpolatedkhI0V AA5ImageV5ScaleO AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y__________y_____SgGGSg_ABy___________yACyACy_____AHG_____y_____GGGtGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA6SpacerV AA6VStackV AA23SubviewsCollectionSliceV AA016_ForegroundStyleL0V AA017HierarchicalShapeT0V
++ _symbolic _____y_____y_____y__________y_____y__________y_____SgGGSg_AFy_____AKGtGGGG 7SwiftUI6VStackV AA5GroupV AA0D17ElementsOfContentV AA23LabelStyleConfigurationV5TitleV AA9TupleViewV AA08ModifiedG0V AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV
++ _symbolic _____y_____y_____y__________y_____y_____y_____yAEy__________y_____SgGG______Qo__AAyAGyAEy_____ALGSg_AGy______AFyAEyAEy_____ALG_____y_____GGGtGSgtGGtGGAIy_____GGGGG 7SwiftUI6HStackV AA5GroupV AA0D17ElementsOfContentV AA07LabeledG18StyleConfigurationV0G0V AA08ModifiedG0V AA6VStackV AA9TupleViewV AA0N0PAAE05labelI0yQrqd__AA05LabelI0Rd__lFQO AI0P0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconpI0V AA7SubviewV AA6SpacerV AA23SubviewsCollectionSliceV AA011_ForegroundiT0V AA017HierarchicalShapeI0V AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y_____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryC7AdaptorV AA01_c9Modifier_I0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityS0V AA01_rS0V AA022_EnvironmentKeyWritingM0V AA15LayoutDirectionO AA017_AppearanceActionM0V
++ _symbolic _____y_____y_____y_____yAAy__________y_____SgGG______Qo_______yACyAAy_____AHGSg_ACy______AByAAyAAy_____AHG_____y_____GGGtGSgtGGtGGAEy_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10labelStyleyQrqd__AA05LabelI0Rd__lFQO AA07LabeleddI13ConfigurationV0J0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconjI0V AA6HStackV AA7SubviewV AA6SpacerV AA23SubviewsCollectionSliceV AA011_ForegroundiP0V AA017HierarchicalShapeI0V AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y_____y_____AAy_____y_____y_____yAAy__________y_____SgGG______Qo__AByAGyAAy_____ALGSg_AGy______AFyAAyAAy_____ALG_____y_____GGGtGSgtGGtGGAIy_____GGGGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA5GroupV AA0f10ElementsOfD0V AA07LabeledD18StyleConfigurationV0D0V AA6VStackV AA9TupleViewV AA0N0PAAE05labelJ0yQrqd__AA05LabelJ0Rd__lFQO AK0P0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconpJ0V AA7SubviewV AA6SpacerV AA23SubviewsCollectionSliceV AA011_ForegroundjT0V AA017HierarchicalShapeJ0V AA5ImageV5ScaleO AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____GGSdG_____G 7SwiftUI15ModifiedContentV AA6IDViewV AA17_UnaryViewAdaptorV AA01_g9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityO0V
++ _symbolic _____y_____y_____y_____y_____Sg_____yABy_____Sg_____y_____SgGG_____yAN_ABy_____AMGtGGGGAJy_____GGG 7SwiftUI6VStackV AA15ModifiedContentV AA5GroupV AA0f10ElementsOfE0V AA30ProgressViewStyleConfigurationV17CurrentValueLabelV AA012_ConditionalE0V AK0O0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA05TupleJ0V AA18SubviewsCollectionV AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y_____y__________y_____SgGG______Qo_______yAByACy_____AHGSg_ABy______AAyACyACy_____AHG_____y_____GGGtGSgtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA0E0PAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQO AA15ModifiedContentV AA07LabeledjG13ConfigurationV0H0V AA30_EnvironmentKeyWritingModifierV AA4FontV 9WidgetKit016InterpolatedIconhG0V AA6HStackV AA7SubviewV AA6SpacerV AA23SubviewsCollectionSliceV AA011_ForegroundgP0V AA017HierarchicalShapeG0V
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryC7AdaptorV AA01_c9Modifier_I0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityS0V AA01_rS0V AA022_EnvironmentKeyWritingM0V AA15LayoutDirectionO AA017_AppearanceActionM0V
++ _symbolic _____y_____y_____y_____y_____y__________yAAy__________y_____SgGGSg_AAy_____AKGtGGGG______Qo_AHy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE10labelStyleyQrqd__AA05LabelG0Rd__lFQO AA6VStackV AA5GroupV AA0j10ElementsOfD0V AA0hG13ConfigurationV5TitleV AA05TupleE0V AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit016InterpolatedIconhG0V AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y_____y_____y_____yAAyAAyAAyAAy_____y_____y_____y_____GGSdG_____G_____G_____y_____GG_____GAQG_So14UISceneSessionCSgQo__SbQo__So23CHSWidgetTintParametersCSgQo__SbQo_______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA6IDViewV AA06_UnaryC7AdaptorV AA01_c9Modifier_I0V 9WidgetKit24_ClockHandRotationEffectV AA08_OpacityS0V AA01_rS0V AA022_EnvironmentKeyWritingM0V AA15LayoutDirectionO AA017_AppearanceActionM0V 10Foundation14DateComponentsV
++ _symbolic _____y_____y_____y_____y_____y_____y__________yAAy__________y_____SgGGSg_AAy_____AKGtGGGG______Qo_AHy_____GG_Qo_ 7SwiftUI4ViewPAAE10textSizingyQrAA4TextV0E0VFQO AA15ModifiedContentV AcAE10labelStyleyQrqd__AA05LabelJ0Rd__lFQO AA6VStackV AA5GroupV AA0m10ElementsOfH0V AA0kJ13ConfigurationV5TitleV AA05TupleC0V AA7SubviewV AA30_EnvironmentKeyWritingModifierV AA4FontV AA23SubviewsCollectionSliceV 9WidgetKit016InterpolatedIconkJ0V AA5ImageV5ScaleO
++ _symbolic _____y_____y_____y_x_G___________yx_____y_____GGtGG 7SwiftUI6HStackV AA9TupleViewV 9WidgetKit028AccessoryRectangularProgressE5StyleV06ActionK0V05LabelK0V AA6SpacerV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV
++ _symbolic _____y_x_G 9WidgetKit37AccessoryRectangularProgressViewStyleV06ActionG0V05LabelG0V
++ _symbolic _____yxG 9WidgetKit22RelevanceConfigurationV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 9WidgetKit0E21LightingImageModifierV
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 9WidgetKit0E33AccentedRenderingModeViewModifierV
++ _symbolic _____yx_____ySay_____GGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV 9WidgetKit0iD5LayerO
++ _symbolic _____yx_____y______pXpGG 7SwiftUI15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA14FontDefinitionP
++ _symbolic _____yxq_G 9WidgetKit019SingleEntryTimelineD11Provider_V2V
++ _symbolic _____yxq_G 9WidgetKit22RelevanceEntryProvider33_E3052AF859365B92D4FF44F017D84A8CLLV
++ _symbolic _____yxq_G 9WidgetKit25RelevanceEntryProvider_V233_F7BB949D90B4FFC73D7E3E9FF4BE4A3ALLV
++ _symbolic _____yxq_G 9WidgetKit30RelevanceTimelineEntryProviderV
++ _symbolic _____yypG 9WidgetKit0A14RelevanceEntryV
++ _symbolic _____yypG 9WidgetKit0A9RelevanceV
++ _symbolic _____yypGyYac 9WidgetKit0A9RelevanceV
++ _symbolic _____yyp_G 9WidgetKit0A14RelevanceEntryV9AttributeO
++ _symbolic _____yytG 9WidgetKit0A10RelevancesV
++ _symbolic _____yyt______pG_____c s6ResultOsRi_zRi0_zrlE s5ErrorP 9WidgetKit10BundleStubV
++ _symbolic _____yyt______pG_____c s6ResultOsRi_zRi0_zrlE s5ErrorP 9WidgetKit13SystemVersionV
++ _symbolic _____yyyc______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyyc______pGIegg_Iegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyyc______pGIegn_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic q_5Entry_____QzScMYcc 9WidgetKit24RelevanceEntriesProviderP
++ _symbolic q_5Entry_____QzYaScMYcc 9WidgetKit27RelevanceEntriesProvider_V2P
++ _symbolic q_xYaScMYcc
++ _symbolic xSgSo18CHSIntentReferenceC______tYaScMYcc 9WidgetKit23TimelineProviderContextV
++ _symbolic yt
++ _type_layout_string 7SwiftUI4ViewR_r0_l9WidgetKit019SingleEntryTimelineG11Provider_V2Vyxq_G
++ _type_layout_string 7SwiftUI4ViewRzl9WidgetKit22RelevanceConfigurationVyxG
++ _type_layout_string 7SwiftUI4ViewRzl9WidgetKit25RelevanceConfiguration_V2VyxG
++ _type_layout_string 9WidgetKit011ConditionalA15ContentLayerTag33_584C9B01A7A8E32F14516ECF147467F2LLV
++ _type_layout_string 9WidgetKit09LiveSceneA10ViewSourceV
++ _type_layout_string 9WidgetKit09LiveSceneA13ConfigurationV
++ _type_layout_string 9WidgetKit0A13MountingStyleV
++ _type_layout_string 9WidgetKit0A14SpatialSurfaceV
++ _type_layout_string 9WidgetKit0A15ContentLayerTagV
++ _type_layout_string 9WidgetKit0A18SpatialChromeStyleV
++ _type_layout_string 9WidgetKit0A26LightingImagePreferenceKeyV
++ _type_layout_string 9WidgetKit0A7TextureV
++ _type_layout_string 9WidgetKit0A8PushInfoV
++ _type_layout_string 9WidgetKit0A9ProximityV
++ _type_layout_string 9WidgetKit11WaveformBar33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _type_layout_string 9WidgetKit12WaveformView33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _type_layout_string 9WidgetKit13LevelOfDetailV
++ _type_layout_string 9WidgetKit19RelevanceViewSourceV
++ _type_layout_string 9WidgetKit19WaveformBarKeyframe33_48D798CEFB29D33BA9A4B5BE6ACDCF9ELLV
++ _type_layout_string 9WidgetKit21AnimatingWaveformViewV
++ _type_layout_string 9WidgetKit24RelevanceEntriesProviderRz7SwiftUI4ViewR_r0_lAA0c13TimelineEntryE0Vyxq_G
++ _type_layout_string 9WidgetKit27ControlTemplateButtonParserV
++ _type_layout_string 9WidgetKit27ControlTemplatePickerParserV
++ _type_layout_string 9WidgetKit27ControlTemplateToggleParserV
++ _type_layout_string 9WidgetKit27RelevanceEntryPreviewSourceV
++ _type_layout_string 9WidgetKit30RelevanceProviderPreviewSourceV
++ _type_layout_string 9WidgetKit31RelevanceEntriesProviderContextV
++ _type_layout_string 9WidgetKit34PreviewTimelineNotImplementedError33_A9E6D01D0EE3598AFE03C09F872129F3LLV
++ _type_layout_string 9WidgetKit39AccessoryRectangularLabeledContentStyleV
++ _type_layout_string So20NSFileProtectionTypea
+- _NSExtensionIdentifierName
+- _NSExtensionPointName
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSExtensionContext
+- _OBJC_METACLASS_$_NSExtensionContext
+- __OBJC_$_INSTANCE_METHODS__TtCC9WidgetKit24WidgetExtensionXPCServer14ExportedObject(WidgetKit|WidgetKit1)
+- __PROTOCOLS_CHKWidgetEnvironment.126
+- __PROTOCOLS__TtC9WidgetKit18PlaceholderRequest.2
+- __PROTOCOLS__TtC9WidgetKit21ActivityWidgetRequest.2
+- __PROTOCOLS__TtC9WidgetKit22ControlTemplateRequest.18
+- __PROTOCOLS__TtC9WidgetKit25ModifyControlStateRequest.6
+- __PROTOCOLS__TtC9WidgetKit33ControlsConfigurationXPCContainer.12
+- ___unnamed_11
+- ___unnamed_12
+- ___unnamed_14
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_WidgetKit
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_WidgetKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_WidgetKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_WidgetKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_WidgetKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_WidgetKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_WidgetKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_WidgetKit
+- _associated conformance 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0E4KeysOSHAASQ
+- _associated conformance 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0E4KeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0E4KeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOSHAASQ
+- _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0E4KeysOSHAASQ
+- _associated conformance 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0E4KeysOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0E4KeysOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOSHAASQ
+- _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.10
+- _block_copy_helper.125
+- _block_copy_helper.13
+- _block_copy_helper.130
+- _block_copy_helper.132
+- _block_copy_helper.134
+- _block_copy_helper.141
+- _block_copy_helper.148
+- _block_copy_helper.15
+- _block_copy_helper.151
+- _block_copy_helper.154
+- _block_copy_helper.166
+- _block_copy_helper.184
+- _block_copy_helper.185
+- _block_copy_helper.19
+- _block_copy_helper.202
+- _block_copy_helper.203
+- _block_copy_helper.211
+- _block_copy_helper.215
+- _block_copy_helper.222
+- _block_copy_helper.241
+- _block_copy_helper.25
+- _block_copy_helper.260
+- _block_copy_helper.27
+- _block_copy_helper.279
+- _block_copy_helper.297
+- _block_copy_helper.316
+- _block_copy_helper.335
+- _block_copy_helper.34
+- _block_copy_helper.37
+- _block_copy_helper.371
+- _block_copy_helper.389
+- _block_copy_helper.412
+- _block_copy_helper.418
+- _block_copy_helper.52
+- _block_copy_helper.7
+- _block_copy_helper.83
+- _block_descriptor.12
+- _block_descriptor.127
+- _block_descriptor.132
+- _block_descriptor.134
+- _block_descriptor.136
+- _block_descriptor.143
+- _block_descriptor.15
+- _block_descriptor.150
+- _block_descriptor.153
+- _block_descriptor.156
+- _block_descriptor.168
+- _block_descriptor.17
+- _block_descriptor.186
+- _block_descriptor.187
+- _block_descriptor.204
+- _block_descriptor.205
+- _block_descriptor.21
+- _block_descriptor.213
+- _block_descriptor.217
+- _block_descriptor.224
+- _block_descriptor.243
+- _block_descriptor.262
+- _block_descriptor.27
+- _block_descriptor.281
+- _block_descriptor.29
+- _block_descriptor.299
+- _block_descriptor.318
+- _block_descriptor.337
+- _block_descriptor.36
+- _block_descriptor.373
+- _block_descriptor.39
+- _block_descriptor.391
+- _block_descriptor.414
+- _block_descriptor.420
+- _block_descriptor.54
+- _block_descriptor.85
+- _block_descriptor.9
+- _block_destroy_helper.11
+- _block_destroy_helper.126
+- _block_destroy_helper.131
+- _block_destroy_helper.133
+- _block_destroy_helper.135
+- _block_destroy_helper.14
+- _block_destroy_helper.142
+- _block_destroy_helper.149
+- _block_destroy_helper.152
+- _block_destroy_helper.155
+- _block_destroy_helper.16
+- _block_destroy_helper.167
+- _block_destroy_helper.185
+- _block_destroy_helper.186
+- _block_destroy_helper.20
+- _block_destroy_helper.203
+- _block_destroy_helper.204
+- _block_destroy_helper.212
+- _block_destroy_helper.216
+- _block_destroy_helper.223
+- _block_destroy_helper.242
+- _block_destroy_helper.26
+- _block_destroy_helper.261
+- _block_destroy_helper.28
+- _block_destroy_helper.280
+- _block_destroy_helper.298
+- _block_destroy_helper.317
+- _block_destroy_helper.336
+- _block_destroy_helper.35
+- _block_destroy_helper.372
+- _block_destroy_helper.38
+- _block_destroy_helper.390
+- _block_destroy_helper.413
+- _block_destroy_helper.419
+- _block_destroy_helper.53
+- _block_destroy_helper.8
+- _block_destroy_helper.84
+- _get_witness_table 10AppIntents0A6IntentRzlqd0__7SwiftUI19WidgetConfigurationHD3_AcDPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptyfG0V_0F3Kit0f10DescriptorM0VQo_HO.13
+- _get_witness_table 10AppIntents0A6IntentRzlqd0__7SwiftUI19WidgetConfigurationHD3_AcDPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptyfG0V_0F3Kit0f10DescriptorM0VQo_HO.47
+- _get_witness_table 10AppIntents0A6IntentRzlqd0__7SwiftUI19WidgetConfigurationHD3_AcDPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptyfG0V_0F3Kit0f10DescriptorM0VQo_HO.9
+- _get_witness_table 10AppIntents25WidgetConfigurationIntentRz7SwiftUI4ViewR_r0_lqd0__AC0cD0HD3_AcEPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptycD0V_0C3Kit0c10DescriptorN0VQo_HO.13
+- _get_witness_table 11ActivityKit0A10AttributesRzlqd0__7SwiftUI19WidgetConfigurationHD3_AcDPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptyfG0V_0fB00f10DescriptorM0VQo_HO.18
+- _get_witness_table 7SwiftUI16SubscriptionViewVy7Combine9PublishedV9PublisherVy10Foundation4DateV_GAA15ModifiedContentVyANyANyANyANyANyAA06_UnaryD7AdaptorVyAA01_d9Modifier_K0Vy9WidgetKit24_ClockHandRotationEffectVGGAS04Hided10OnSnapshotN0VGAA01_sT0VGAA022_EnvironmentKeyWritingN0VyAA15LayoutDirectionOGGAA017_AppearanceActionN0VGA9_GAA012_ValueActionN0VySbGGGAA0D0HPyHC.39
+- _get_witness_table 7SwiftUI19WidgetConfigurationRzSyRd__r__lqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0F3KeyRd__lFQOyx_0C3Kit0c10DescriptorH0VQo_HO.42
+- _get_witness_table 7SwiftUI19WidgetConfigurationRzlqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0F3KeyRd__lFQOyx_0C3Kit0c10DescriptorH0VQo_HO.41
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAEyAEyAA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQOyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAEyAA01_f9Modifier_D0Vy9WidgetKit023CommonServerEnvironmentK0VGAA01_p10KeyWritingK0VyAA14FontDefinition_pXpGGAN0l5IdiomK0VGAN017GaugeTintVibrancyK0VGASySo9CHSWidgetCSgGGASyAA11ColorSchemeOGGASySbGGA10_GA10_GA10_GASyAA0Z14SchemeContrastOGGASyAA12DisplayGamutOGGASy12CoreGraphics7CGFloatVGG_Qo_ASyAA0D12SizeCategoryOGGASyAA16LegibilityWeightOSgGGA10_GASyAN0L13RenderingModeVGGA10_GASySo0Y17DisplayPropertiesCGGAVGAaFHPA47_AaFHPA43_AaFHPA42_AaFHPA38_AaFHPA37_AaFHPA32_AaFHPqd__AaFHD2_A28_HO_A31_AA0fK0HPyHCHC_A36_AAA49_HPyHCHC_A10_AAA49_HPyHCHC_A41_AAA49_HPyHCHC_A10_AAA49_HPyHCHC_A46_AAA49_HPyHCHC_AvaFHPAqaFHPyHC_AuAA49_HPyHCHCHC.66
+- _get_witness_table 7SwiftUI26ControlWidgetConfigurationRzlqd0__AaBHD3_AaBPAAE19transformPreferenceyQrqd__m_y5ValueQyd__zctAA0G3KeyRd__lFQOyx_0D3Kit0d10DescriptorI0VQo_HO.15
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx9WidgetKit24_ClockHandRotationEffectVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.40
+- _get_witness_table 7SwiftUI4ViewRzlqd0__AA19WidgetConfigurationHD3_AaCPAAE10preference3key5valueQrqd__m_5ValueQyd__tAA13PreferenceKeyRd__lFQOyAA05EmptydE0V_0D3Kit0d10DescriptorK0VQo_HO.2
+- _get_witness_table So8INIntentCRbz7SwiftUI4ViewR_r0_lqd0__AC19WidgetConfigurationHD3_AcEPACE10preference3key5valueQrqd__m_5ValueQyd__tAC13PreferenceKeyRd__lFQOyAC05EmptyeF0V_0E3Kit0e10DescriptorL0VQo_HO.13
+- _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE38containerBackgroundSpecifiedPreference3key9placementQrqd__m_qd_0_mtAA0G3KeyRd__AA09Containere15PlacementCustomJ0Rd_0_Sb5ValueRtd__r0_lFQOyAcAE05applykE03for7contentQrqd__m_qd_0_AA03AnyC0VSgctAaHRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAA01_c9Modifier_T0Vy9WidgetKit0veU0VGAA16_FlexFrameLayoutVG_AA0keL0VAUE0vJ0VARyAoA024_SafeAreaRegionsIgnoringZ0VGSgQo__A1_AUE0vfJ0VA3_Qo_HO.22
+- _objectdestroy.105Tm
+- _objectdestroy.107Tm
+- _objectdestroy.108Tm
+- _objectdestroy.115Tm
+- _objectdestroy.130Tm
+- _objectdestroy.139Tm
+- _objectdestroy.141Tm
+- _objectdestroy.145Tm
+- _objectdestroy.151Tm
+- _objectdestroy.27Tm
+- _objectdestroy.363Tm
+- _objectdestroy.369Tm
+- _objectdestroy.49Tm
+- _objectdestroy.61Tm
+- _objectdestroy.65Tm
+- _objectdestroy.72Tm
+- _objectdestroy.91Tm
+- _objectdestroy.93Tm
+- _symbolic $s9WidgetKit08TimelineA13ConfigurationP
+- _symbolic SDy_____Shy_____GG 9WidgetKit08InternalA6FamilyO AA0A8LocationV
+- _symbolic Say_____G 9WidgetKit08InternalA6FamilyO
+- _symbolic So11NSExtensionC
+- _symbolic So18NSExtensionContextC
+- _symbolic _____ 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV
+- _symbolic _____ 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0E4KeysO
+- _symbolic _____ 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic _____ 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV
+- _symbolic _____ 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0E4KeysO
+- _symbolic _____ 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic __________yyt______pGIegno_ 9WidgetKit10BundleStubV s6ResultOsRi_zrlE s5ErrorP
+- _symbolic __________yyt______pGIegno_ 9WidgetKit13SystemVersionV s6ResultOsRi_zrlE s5ErrorP
+- _symbolic __________yyt______pGIegnr_ 9WidgetKit10BundleStubV s6ResultOsRi_zrlE s5ErrorP
+- _symbolic __________yyt______pGIegnr_ 9WidgetKit13SystemVersionV s6ResultOsRi_zrlE s5ErrorP
+- _symbolic ______pSg 9WidgetKit13TimelineEntryP
+- _symbolic ______p_____yyyc______pGIegg_Ieggg_ 9WidgetKit27HostToExtensionXPCInterfaceP s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____GG_____G_____G_____y_____GG_____GAOG_____ySbGG 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V AA01_mN0V AA022_EnvironmentKeyWritingH0V AA15LayoutDirectionO AA017_AppearanceActionH0V AA06_ValuexH0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____y_____GG_____G_____G_____y_____GG_____GAOG 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V AA01_mN0V AA022_EnvironmentKeyWritingH0V AA15LayoutDirectionO AA017_AppearanceActionH0V
+- _symbolic _____yAAyAAyAAy_____y_____y_____GG_____G_____G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V AA01_mN0V AA022_EnvironmentKeyWritingH0V AA15LayoutDirectionO AA017_AppearanceActionH0V
+- _symbolic _____yAAyAAy_____y_____y_____GG_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V AA01_mN0V AA022_EnvironmentKeyWritingH0V AA15LayoutDirectionO
+- _symbolic _____yAAy_____y_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V AA01_mN0V
+- _symbolic _____ySay_____G______pG s6ResultOsRi_zrlE 9WidgetKit0B4InfoV s5ErrorP
+- _symbolic _____ySay_____G______pGIeghg_ s6ResultOsRi_zrlE 9WidgetKit0B4InfoV s5ErrorP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0H4KeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0H4KeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV0H4KeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit16DimensionRequestO10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV0H4KeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9WidgetKit22JindoMetricsDefinitionV10CodingKeys33_EDB40869419F05B74F91B59AB3FC3241LLO
+- _symbolic _____y_____Shy_____GG s18_DictionaryStorageC 9WidgetKit08InternalC6FamilyO AC0C8LocationV
+- _symbolic _____y_____So7NSErrorCG s6ResultOsRi_zrlE 19ExtensionFoundation04_AppB7ProcessV
+- _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV AA7AnyViewV AA30_SafeAreaRegionsIgnoringLayoutV
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 9WidgetKit0B14ViewCollectionC s5ErrorP
+- _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAyAAyAAyAAyAAy_____y_____G_____y______pXpGG_____G_____GAEySo9CHSWidgetCSgGGAEy_____GGAEySbGGAUGAUGAUGAEy_____GGAEy_____GGAEy_____GG_Qo_ 7SwiftUI4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA15ModifiedContentV AA01_c9Modifier_I0V 9WidgetKit023CommonServerEnvironmentJ0V AA01_o10KeyWritingJ0V AA14FontDefinitionP AL0k5IdiomJ0V AL017GaugeTintVibrancyJ0V AA11ColorSchemeO AA0xY8ContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV
+- _symbolic _____y_____yAByAByAByAByABy_____yAByAByAByAByAByAByAByAByAByAByAByABy_____y_____G_____y______pXpGG_____G_____GAFySo9CHSWidgetCSgGGAFy_____GGAFySbGGAVGAVGAVGAFy_____GGAFy_____GGAFy_____GG_Qo_AFy_____GGAFy_____SgGGAVGAFy_____GGAVGAFySo0A17DisplayPropertiesCGGAIG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_f9Modifier_D0V 9WidgetKit023CommonServerEnvironmentK0V AA01_p10KeyWritingK0V AA14FontDefinitionP AN0l5IdiomK0V AN017GaugeTintVibrancyK0V AA11ColorSchemeO AA0yZ8ContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AN0L13RenderingModeV
+- _symbolic _____y_____yAByAByAByAByABy_____yAByAByAByAByAByAByAByAByAByAByAByABy_____y_____G_____y______pXpGG_____G_____GAFySo9CHSWidgetCSgGGAFy_____GGAFySbGGAVGAVGAVGAFy_____GGAFy_____GGAFy_____GG_Qo_AFy_____GGAFy_____SgGGAVGAFy_____GGAVGAFySo0A17DisplayPropertiesCGGAI_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA4ViewPAAE8redacted6reasonQrAA16RedactionReasonsV_tFQO AA01_g9Modifier_D0V 9WidgetKit023CommonServerEnvironmentL0V AA01_q10KeyWritingL0V AA14FontDefinitionP AP0m5IdiomL0V AP017GaugeTintVibrancyL0V AA11ColorSchemeO AA0Z14SchemeContrastO AA12DisplayGamutO 12CoreGraphics7CGFloatV AA0D12SizeCategoryO AA16LegibilityWeightO AP0M13RenderingModeV
+- _symbolic _____y_____y_____GG 7SwiftUI17_UnaryViewAdaptorV AA01_D16Modifier_ContentV 9WidgetKit24_ClockHandRotationEffectV
+- _symbolic _____y_____y_____G______Qo_ 7SwiftUI4ViewPAAE15_containerShapeyQrqd__AA010InsettableE0Rd__lFQO AA01_C16Modifier_ContentV 9WidgetKit32CommonActivityArchivingModifiersV AA16RoundedRectangleV
+- _symbolic _____y_____y______G_____yAEyAEyAEyAEyAEy_____y_____y_____GG_____G_____G_____y_____GG_____GASG_____ySbGGG 7SwiftUI16SubscriptionViewV 7Combine9PublishedV9PublisherV 10Foundation4DateV AA15ModifiedContentV AA06_UnaryD7AdaptorV AA01_d9Modifier_K0V 9WidgetKit24_ClockHandRotationEffectV AR04Hided10OnSnapshotN0V AA01_sT0V AA022_EnvironmentKeyWritingN0V AA15LayoutDirectionO AA017_AppearanceActionN0V AA012_ValueActionN0V
+- _symbolic _____y_____y_____y_____GG_____G 7SwiftUI15ModifiedContentV AA17_UnaryViewAdaptorV AA01_f9Modifier_D0V 9WidgetKit24_ClockHandRotationEffectV AH04Hidef10OnSnapshotH0V
+- _symbolic _____y_____y_____y_____G_____G______AAy__________GSgQo_ 7SwiftUI4ViewPAAE24applyContainerBackground3for7contentQrqd__m_qd_0_AA03AnyC0VSgctAA0eF18PlacementCustomKeyRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA01_c9Modifier_N0V 9WidgetKit0pfO0V AA16_FlexFrameLayoutV AA0efJ0VAOE0pL0V AH AA024_SafeAreaRegionsIgnoringT0V
+- _symbolic _____y_____y_____y_____y_____G_____G______AAy__________GSgQo_______AGQo_ 7SwiftUI4ViewPAAE38containerBackgroundSpecifiedPreference3key9placementQrqd__m_qd_0_mtAA0G3KeyRd__AA09Containere15PlacementCustomJ0Rd_0_Sb5ValueRtd__r0_lFQO AcAE05applykE03for7contentQrqd__m_qd_0_AA03AnyC0VSgctAaHRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA01_c9Modifier_T0V 9WidgetKit0veU0V AA16_FlexFrameLayoutV AA0keL0VAUE0vJ0V AO AA024_SafeAreaRegionsIgnoringZ0V A_AUE0vfJ0V
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____yyt______pG_____c s6ResultOsRi_zrlE s5ErrorP 9WidgetKit10BundleStubV
+- _symbolic _____yyt______pG_____c s6ResultOsRi_zrlE s5ErrorP 9WidgetKit13SystemVersionV
+- _symbolic _____yyyc______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyyc______pGIegg_Iegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyyc______pGIegn_ s6ResultOsRi_zrlE s5ErrorP
+- _type_layout_string 9WidgetKit15TimelineRequestC11CodingProxy33_8DFC843A428D4644FA8E960F64EED520LLV
+- _type_layout_string 9WidgetKit18PlaceholderRequestC11CodingProxy33_12D660AEC441C0A9C22D0CA9F70A8465LLV
+CStrings:
++ "%ld Found region: %{public}s with rect: %{public}s"
++ "%s Resuming date publishing because we're visible and animations are not effectively paused."
++ "%s Stopped date publishing because view is hidden or animations are paused."
++ "%s Stopping date publishing ticking because we should pause second hands."
++ "%{public}ld BEGIN"
++ "%{public}ld END"
++ "%{public}ld View proxy does not have a selection identifier: %{public}s"
++ "%{public}s (%{public}ld) %{public}s"
++ "%{public}s Foreground boost assertion invalidated"
++ "%{public}s Session operation: `%{public}s` error result: %{public}@"
++ "%{public}s Session operation: `%{public}s` watchdog fired."
++ "%{public}s Session operation: `%{public}s` watchdog fired. Cancelling session."
++ "%{public}s Setting foreground boost assertion: %{bool}d"
++ "%{public}s WidgetExtensionAssertion invalidated"
++ "%{public}s: %{public}s (%{public}ld) %{public}s"
++ ", isLinkedOnOrAfterLuck="
++ "<ElevatedMemoryRequestAssertion: reason="
++ "Acquired high memory assertion."
++ "ActivityArchivedViewCollection.viewEntry: failed to get index for tag ["
++ "Adding elevated memory assertion: %{public}s"
++ "AppIntentConfiguration resolved entry source to have %{public}ld entries"
++ "Archive deployment version: %{public}s"
++ "Array<WidgetContentLayer>"
++ "BSServiceConnectionCommonConfiguring"
++ "BUG IN CLIENT OF WIDGETKIT. Completion handler called multiple times by %{public}s"
++ "Decoded activity attributes: %{public}s"
++ "Decoded activity state: %{public}s"
++ "Error decoding activity attributes: %{public}s: %{public}@"
++ "Error decoding activity state: %{public}s: %{public}@"
++ "Error setting state for %{public}s: %{public}s"
++ "Failed to construct bundle for %{public}s"
++ "Failed to encode %{public}s"
++ "Failed to get index for tag: %{public}s in environment: %{public}s ignoring %{public}s.  Available environments: %{public}s, diff: %s"
++ "Failed to load default CUICatalog for %{public}s"
++ "Filtered image [%{public}u: %{public}ld-%{public}ld]: enter"
++ "Filtered image [%{public}u: %{public}ld-%{public}ld]: exit (allowed)"
++ "Filtered image [%{public}u: %{public}ld-%{public}ld]: exit (no size constraints configured)"
++ "Filtered image [%{public}u: %{public}ld-%{public}ld]: exit (too large)"
++ "Filtered image [%{public}u]: new largest image: (%{public}f, %{public}f"
++ "ForceLayerSeparation"
++ "Found duplicate widgets of kind %{public}s"
++ "GlassPrototype"
++ "Got an unexpected WidgetAuxiliaryViewMetadata.Graphic.Named.Location type: "
++ "Got unexpected location type %{public}s for %{public}s"
++ "High memory requested from archived view"
++ "IntelligentWidgets"
++ "IntentConfiguration resolved entry source to have %{public}ld entries"
++ "Locale token: %{public}s"
++ "Margins input: %{public}s"
++ "Matched with fallback display properties: %{public}@"
++ "Optional<ArchiveVersion>"
++ "Optional<DateComponents>"
++ "Overriding assertion attributes in launch case: %{public}s"
++ "Preview entries request being handled by RelevanceConfiguration"
++ "PrioritizedRendering"
++ "RelevanceConfiguration failed to generate preview with error %@"
++ "RelevanceConfiguration resolved entry source to have %{public}ld entries"
++ "RelevanceViewSource(\n    configuration: "
++ "RemoteControls"
++ "Removing elevated memory assertion: %{public}s"
++ "Request ended for %{public}s - error: %{public}@"
++ "ResolvedWidgetConfiguration(\n    kind: "
++ "ReverseRemoteWidgetSource"
++ "Sending %{public}ld WidgetInfo instance(s) to %{public}ld PushHandler instances."
++ "Snapshots should never be requested for Relevance Widget Configurations."
++ "State for %{public}s updated to %{public}s"
++ "StaticConfiguration resolved entry source to have %{public}ld entries"
++ "Supports content layers? %{bool}d, archiveVersion=%ld"
++ "TB,N,VboostToForegroundPriority"
++ "Template request failed: %{public}s"
++ "Too many widget relevances. Truncating to %{public}ld."
++ "UIIntelligence"
++ "Unable to acquire high memory assertion. Error: %{public}@"
++ "Unable to create new WidgetExtensionSession: extension was not an _EXExtensionIdentity - %{public}s"
++ "Unable to fetch entries for intent %{private}s with error: %{public}@"
++ "Unable to fetch entry or intent ref from widget %{public}s"
++ "Unrecognized family: %{public}ld"
++ "Widget archival failed due to image being too large [%{public}u] - (%{public}ld, %{public}ld), totalArea: %{public}ld > max[%{public}f]."
++ "WidgetExtensionRun-QOS-UserInitiated"
++ "WidgetExtensionRun-QOS-Utility"
++ "WidgetExtensionRunQOSUtility"
++ "WidgetHost - %{public}s"
++ "WidgetKit.RelevanceConfigurationWidget"
++ "WidgetKit.WidgetPushConfigurationXPCContainer"
++ "WidgetKit2"
++ "] in environment: ["
++ "_FBSScene"
++ "_TtC9WidgetKit17WidgetKitRenderer"
++ "_TtC9WidgetKit21JindoViewProviderMock"
++ "_TtC9WidgetKit24MemoryRequestsController"
++ "_TtC9WidgetKit30ElevatedMemoryRequestAssertion"
++ "_TtC9WidgetKit35WidgetPushConfigurationXPCContainer"
++ "_TtC9WidgetKitP33_F55D4851F034D6C6A90D16921017460613WeakAssertion"
++ "_controller"
++ "_developmentMode ("
++ "_localizationToken ("
++ "_localizations ("
++ "_lock_active"
++ "_lock_assertions"
++ "_lock_invalidated"
++ "_lock_mlmAssertion"
++ "_preferredSystemWidgetBackgroundStyle ("
++ "_previewTimeline(previewSource:with:)"
++ "_widgetMetrics ("
++ "_widgetRenderScheme ("
++ "accessibilityDifferentiateWithoutColor ("
++ "accessibilityInvertColors ("
++ "accessibilityReduceMotion ("
++ "accessibilityReduceTransparency ("
++ "accessoryCircularExtraLarge"
++ "accessoryCornerSmall"
++ "activity-verbose"
++ "applyContentMargins: %{bool,public}d"
++ "archive index: %{public}ld, tag: %{public}s, cornerRadius: %{public}s, fitting size: %{public}s, metadata metrics: %{public}s, env: %{public}s"
++ "assertion"
++ "boostToForegroundPriority"
++ "boostedWidgetExtensionAssertion"
++ "colorSchemeContrast ("
++ "com.apple.developer.default-data-protection"
++ "com.apple.widgetRenderer"
++ "containsValueForKey:"
++ "controlPushTokensDidChange:completion:"
++ "cornerGaugeSegmented"
++ "cornerMetadataText"
++ "dataForVectorGlyphsWithNames:"
++ "defaultUICatalogForBundle:"
++ "displayIdentity"
++ "entitlements"
++ "executeQueries:"
++ "exemptFromLegacyScaledContentMargins: %{bool,public}d"
++ "finalEffectiveMargins: %{public}s"
++ "hostDeviceID"
++ "inWidgetRenderer"
++ "initWithExtensionPointIdentifier:"
++ "initWithName:fromBundle:error:"
++ "initWithRenderingMode:backgroundViewPolicy:"
++ "intent = %{public}s"
++ "isCarDisplay"
++ "isLuminanceReduced ("
++ "legibilityWeight ("
++ "needsLegacyBackgroundAndContentMargins: %{bool,public}d"
++ "needsLegacyScaledMargins: %{bool,public}d"
++ "public"
++ "reason"
++ "redactionReasons ("
++ "relevance provider"
++ "scene"
++ "setAssociatedKind:"
++ "setBoostToForegroundPriority:"
++ "setDisfavoredLocations:"
++ "setIncludeUpdatingApps:"
++ "setQueue:"
++ "setRelevanceBacked:"
++ "setRequestedDataProtection:"
++ "setSupportsForwardingToRemoteDevices:"
++ "setTargetLiveSceneBundleIdentifier:"
++ "setWantsLiveScene:"
++ "setWidgetMountingStyles:"
++ "settings"
++ "showsWidgetLabel ("
++ "succinctDescription"
++ "systemExtraLargeLandscape"
++ "systemExtraLargePortrait"
++ "tintColor"
++ "token"
++ "userWantsWidgetDataWhenPasscodeLocked ("
++ "v24@0:8@\"BSServiceQueue\"16"
++ "v24@0:8@?<v@?@\"NSData\"@\"NSError\">16"
++ "v32@0:8@\"_TtC9WidgetKit35WidgetPushConfigurationXPCContainer\"16@?<v@?@\"NSError\">24"
++ "variantA"
++ "variantB"
++ "variantC"
++ "vectorGlyphAssetLibraryDatas"
++ "wants legacy margins for %{public}s: %{bool,public}d - inEligibleBundle: %{bool,public}d, showsWidgetBackground: %{bool,public}d, enableContentMarginsForFirstParty: %{bool,public}d"
++ "wantsSubduedGlass"
++ "widgetPushTokenWithCompletionHandler:"
++ "widgetPushTokensDidChange:completion:"
++ "widgetURL"
++ "widgets"
+- "%ld BEGIN"
+- "%ld END"
+- "%ld Found region: %s with rect: %s"
+- "%ld View proxy does not have a selection identifier: %s"
+- "%s - remoteObjectProxy error: %@"
+- "%{public}s (%ld) %{public}s"
+- "%{public}s Session operation: `%s` watchdog fired."
+- "%{public}s Session operation: `%s` watchdog fired. Cancelling session."
+- "%{public}s Session operation: `%{public}s` error result: %@"
+- "%{public}s WidgetExtensionRun invalidated"
+- "%{public}s: %{public}s (%ld) %{public}s"
+- ", isLinkedOnOrAfterCrystalNext="
+- "ActivityArchivedViewCollection.viewEntry: failed to get index for tag "
+- "AppIntentConfiguration resolved entry source to have %ld entries"
+- "BUG IN CLIENT OF WIDGETKIT. Completion handler called multiple times by %s"
+- "Decoded activity attributes: %s"
+- "Decoded activity state: %s"
+- "Encountered an error reading the view archive for %{public}@; error: %@"
+- "Error decoding activity attributes: %s: %@"
+- "Error decoding activity state: %s: %@"
+- "Error getting AppIntent from LNAction: %@"
+- "Error setting state for %s: %s"
+- "Error: Unable to get LNAction from intent"
+- "Failed to encode %s"
+- "Filtered image [%{public}u: %ld-%ld]: enter"
+- "Filtered image [%{public}u: %ld-%ld]: exit (allowed)"
+- "Filtered image [%{public}u: %ld-%ld]: exit (no size constraints configured)"
+- "Filtered image [%{public}u: %ld-%ld]: exit (too large)"
+- "Filtered image [%{public}u]: new largest image: (%f, %f"
+- "Found duplicate widgets of kind %s"
+- "IntentConfiguration resolved entry source to have %ld entries"
+- "Locale token: %s"
+- "Margins input: %s"
+- "Matched with fallback display properties: %@"
+- "Registering custom view decoders..."
+- "Request ended for %{public}s - error: %@"
+- "State for %s updated to %s"
+- "StaticConfiguration resolved entry source to have %ld entries"
+- "Template request failed: %s"
+- "Too many widget relevances. Truncating to %ld."
+- "Unable to create new WidgetExtensionSession: extension was not an NSExtension - %{public}s"
+- "Unrecognized family: %ld"
+- "Widget archival failed due to image being too large [%{public}u] - (%ld, %ld), totalArea: %ld > max[%f]."
+- "WidgetExtensionRun"
+- "WidgetHost - %s"
+- "WidgetKit/PlaceholderRequest.swift"
+- "WidgetKit/TimelineRequest.swift"
+- "[%{public}s] Unable to create new WidgetExtensionSession due to extension identity error: %{public}@"
+- "_localizationToken"
+- "_widgetRenderScheme"
+- "applyContentMargins: %{bool}d"
+- "archive index: %ld, tag: %s, cornerRadius: %s, fitting size: %s, metadata metrics: %s, env: %s"
+- "exemptFromLegacyScaledContentMargins: %{bool}d"
+- "extensionsWithMatchingAttributes:error:"
+- "finalEffectiveMargins: %s"
+- "intent = %s"
+- "needsLegacyBackgroundAndContentMargins: %{bool}d"
+- "needsLegacyScaledMargins: %{bool}d"
+- "preferredLanguages"
+- "wants legacy margins for %s: %{bool}d - inEligibleBundle: %{bool}d, showsWidgetBackground: %{bool}d, enableContentMarginsForFirstParty: %{bool}d"
+
+```

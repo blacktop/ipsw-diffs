@@ -1,0 +1,5580 @@
+## NearField
+
+> `/System/Library/PrivateFrameworks/NearField.framework/NearField`
+
+```diff
+
+-355.4.0.0.0
+-  __TEXT.__text: 0xae2e0
+-  __TEXT.__auth_stubs: 0x850
+-  __TEXT.__objc_methlist: 0x6cf4
+-  __TEXT.__dlopen_cstrs: 0x17c
+-  __TEXT.__const: 0x257
+-  __TEXT.__cstring: 0x6ee6
+-  __TEXT.__oslogstring: 0x574b
+-  __TEXT.__unwind_info: 0x1c00
+-  __TEXT.__objc_classname: 0xfc8
+-  __TEXT.__objc_methname: 0xdb6d
+-  __TEXT.__objc_methtype: 0x399d
+-  __TEXT.__objc_stubs: 0x8080
+-  __DATA_CONST.__got: 0x500
+-  __DATA_CONST.__const: 0x26b0
+-  __DATA_CONST.__objc_classlist: 0x360
++360.33.0.0.0
++  __TEXT.__text: 0xb674c
++  __TEXT.__auth_stubs: 0x840
++  __TEXT.__delay_helper: 0x354
++  __TEXT.__objc_methlist: 0x7234
++  __TEXT.__const: 0x2a7
++  __TEXT.__cstring: 0x6ec9
++  __TEXT.__oslogstring: 0x599b
++  __TEXT.__unwind_info: 0x1cd8
++  __TEXT.__objc_classname: 0x11a3
++  __TEXT.__objc_methname: 0xe0d3
++  __TEXT.__objc_methtype: 0x3d64
++  __TEXT.__objc_stubs: 0x82a0
++  __DATA_CONST.__got: 0x558
++  __DATA_CONST.__const: 0x2970
++  __DATA_CONST.__objc_classlist: 0x3b0
+   __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x260
++  __DATA_CONST.__objc_protolist: 0x280
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x32b8
+-  __DATA_CONST.__objc_protorefs: 0x190
+-  __DATA_CONST.__objc_superrefs: 0x250
+-  __DATA_CONST.__objc_arraydata: 0x70
+-  __AUTH_CONST.__auth_got: 0x430
+-  __AUTH_CONST.__const: 0x4c0
+-  __AUTH_CONST.__cfstring: 0x42c0
+-  __AUTH_CONST.__objc_const: 0xb788
+-  __AUTH_CONST.__objc_intobj: 0x828
+-  __AUTH_CONST.__objc_dictobj: 0xc8
+-  __AUTH.__objc_data: 0xe10
+-  __DATA.__objc_ivar: 0x510
+-  __DATA.__data: 0x1c88
+-  __DATA.__bss: 0x58
+-  __DATA_DIRTY.__objc_ivar: 0x1a4
+-  __DATA_DIRTY.__objc_data: 0x13b0
+-  __DATA_DIRTY.__bss: 0x100
++  __DATA_CONST.__objc_selrefs: 0x33e8
++  __DATA_CONST.__objc_protorefs: 0x1b0
++  __DATA_CONST.__objc_superrefs: 0x270
++  __DATA_CONST.__objc_arraydata: 0x210
++  __AUTH_CONST.__auth_got: 0x428
++  __AUTH_CONST.__const: 0x400
++  __AUTH_CONST.__cfstring: 0x4120
++  __AUTH_CONST.__objc_const: 0xc2a8
++  __AUTH_CONST.__objc_intobj: 0x9d8
++  __AUTH_CONST.__objc_dictobj: 0x2a8
++  __AUTH.__objc_data: 0xff0
++  __DATA.__objc_ivar: 0x55c
++  __DATA.__data: 0x1e14
++  __DATA.__bss: 0x10
++  __DATA_DIRTY.__objc_ivar: 0x1a8
++  __DATA_DIRTY.__objc_data: 0x14f0
++  __DATA_DIRTY.__bss: 0x80
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
+   - /System/Library/PrivateFrameworks/SEService.framework/SEService
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6364A92C-459D-38D7-8F71-1F7C19513ED1
+-  Functions: 2644
+-  Symbols:   8362
+-  CStrings:  4826
++  UUID: DA0B43C6-5385-336E-9BA8-F2D5DA7E79B4
++  Functions: 2745
++  Symbols:   485
++  CStrings:  4887
+ 
+Symbols:
++ _NFAppletGetClassification
++ _NearFieldVersionNumber
++ _NearFieldVersionString
++ _OBJC_CLASS_$_CBOR
++ _OBJC_CLASS_$_NFCTKPollConfig
++ _OBJC_CLASS_$_NFCardMigrationPaymentInfo
++ _OBJC_CLASS_$_NFCardMigrationPaymentRequest
++ _OBJC_CLASS_$_NFCardMigrationPaymentResponse
++ _OBJC_CLASS_$_NFCardMigrationPaymentSession
++ _OBJC_CLASS_$_NFCardMigrationPaymentSessionInterface
++ _OBJC_CLASS_$_NFCardMigrationPaymentToken
++ _OBJC_CLASS_$_NFCardMigrationPaymentTransaction
++ _OBJC_CLASS_$_NFInternalConfigurationPrimaryRestoreOptions
++ _OBJC_CLASS_$_NFInternalConfigurationRestoreOptions
++ _OBJC_CLASS_$_NFInternalConfigurationSecondaryRestoreOptions
++ _OBJC_CLASS_$_NFInternalConfigurationSession
++ _OBJC_CLASS_$_NSUUID
++ _OBJC_METACLASS_$_NFCardMigrationPaymentInfo
++ _OBJC_METACLASS_$_NFCardMigrationPaymentRequest
++ _OBJC_METACLASS_$_NFCardMigrationPaymentResponse
++ _OBJC_METACLASS_$_NFCardMigrationPaymentSession
++ _OBJC_METACLASS_$_NFCardMigrationPaymentSessionInterface
++ _OBJC_METACLASS_$_NFCardMigrationPaymentToken
++ _OBJC_METACLASS_$_NFCardMigrationPaymentTransaction
++ _OBJC_METACLASS_$_NFInternalConfigurationPrimaryRestoreOptions
++ _OBJC_METACLASS_$_NFInternalConfigurationRestoreOptions
++ _OBJC_METACLASS_$_NFInternalConfigurationSecondaryRestoreOptions
++ _OBJC_METACLASS_$_NFInternalConfigurationSession
++ _SBUserNotificationDismissOnLock
++ _dispatch_assert_queue_not$V2
++ _dispatch_async_and_wait
++ _voucher_copy
+- +[NFApplet supportsSecureCoding]
+- +[NFApplet(Private) aidListForPrinting:]
+- +[NFAppletExtraInfo infoWithDictionary:applet:]
+- +[NFAssertion supportsSecureCoding]
+- +[NFConnectionHandoverInitiator initiatorWithDelegate:]
+- +[NFConnectionHandoverInitiator initiatorWithDelegate:callbackQueue:]
+- +[NFConnectionHandoverReceiver receiverWithDelegate:]
+- +[NFConnectionHandoverReceiver receiverWithDelegate:callbackQueue:]
+- +[NFConnectionHandoverSelect selectWithRetry:]
+- +[NFContactlessPaymentEndEvent logsTransactionDetails]
+- +[NFContactlessPaymentEndEvent supportsSecureCoding]
+- +[NFContactlessPaymentSessionCallbacks interface]
+- +[NFContactlessPaymentSessionInterface interface]
+- +[NFContactlessPaymentStartEvent supportsSecureCoding]
+- +[NFContactlessSessionCallbacks interface]
+- +[NFContactlessSessionInterface interface]
+- +[NFCredentialSessionCallbackInterface interface]
+- +[NFCredentialSessionInterface interface]
+- +[NFDigitalCarKeyEndEvent supportsSecureCoding]
+- +[NFDigitalCarKeySession getVehicleReports:]
+- +[NFDigitalCarKeySession pauseRangingForReaderIdentifier:durationInSec:]
+- +[NFDigitalCarKeySession requestAssertionForKeyID:options:outError:]
+- +[NFDigitalCarKeySession resumeRangingForReaderIdentifier:]
+- +[NFDigitalCarKeySession vehicleReports:]
+- +[NFDigitalCarKeyStartEvent supportsSecureCoding]
+- +[NFECommercePaymentRequest supportsSecureCoding]
+- +[NFECommercePaymentResponse supportsSecureCoding]
+- +[NFECommercePaymentSessionInterface interface]
+- +[NFFieldDetectSessionInterfaceCallbacks interface]
+- +[NFFieldNotification fieldNotificationFromXPCObject:]
+- +[NFFieldNotification notificationWithDictionary:]
+- +[NFFieldNotification supportsSecureCoding]
+- +[NFFieldNotificationECP1_0 supportsSecureCoding]
+- +[NFFieldNotificationECP2_0 supportsSecureCoding]
+- +[NFHardwareControllerInfo supportsSecureCoding]
+- +[NFHardwareManager _sharedHardwareManagerWaitOnHWInit:]
+- +[NFHardwareManager _sharedHardwareManagerWithNoUIWaitOnHWInit:]
+- +[NFHardwareManager sharedHardwareManager:]
+- +[NFHardwareManager sharedHardwareManagerWithNoUI:]
+- +[NFHardwareManager sharedHardwareManagerWithNoUI]
+- +[NFHardwareManager sharedHardwareManagerWithOptions:readyCompletion:]
+- +[NFHardwareManager sharedHardwareManager]
+- +[NFHardwareManagerInterface interface]
+- +[NFHardwareManagerInterface updateContactlessInterface:]
+- +[NFHardwareManagerInterface updateHandoverInterface:]
+- +[NFHardwareManagerInterface updateReaderInterface:]
+- +[NFHardwareManagerInterface updateSEMInterface:]
+- +[NFHardwareManagerInterface updateSeshatInterface:]
+- +[NFHardwareSecureElementInfo supportsSecureCoding]
+- +[NFHostEmulationSessionCallbacks interface]
+- +[NFNdefMessage supportsSecureCoding]
+- +[NFNdefRecord emptyRecord]
+- +[NFNdefRecord recordWithTelephone:]
+- +[NFNdefRecord recordWithText:lang:]
+- +[NFNdefRecord recordWithURI:]
+- +[NFNdefRecord recordsFromBytes:length:]
+- +[NFNdefRecord supportsSecureCoding]
+- +[NFNdefTagSession(Private) generateBluetoothLESecureNdefPayloadWithOOBData:]
+- +[NFPeerPaymentEnrollmentRequest supportsSecureCoding]
+- +[NFPeerPaymentEnrollmentResponse supportsSecureCoding]
+- +[NFPeerPaymentRequest supportsSecureCoding]
+- +[NFPeerPaymentResponse supportsSecureCoding]
+- +[NFPeerPaymentTransferRequest supportsSecureCoding]
+- +[NFReaderSessionCallbacks interface]
+- +[NFReaderSessionInterface _configureInterface:]
+- +[NFReaderSessionInterface interface]
+- +[NFReaderSessionInternalCallbacks interface]
+- +[NFReaderSessionInternalInterface interface]
+- +[NFReaderSessionPollConfig pollConfigWithTechnology:]
+- +[NFRemoteAdminCardIngestionRequest cardIngestionRequestWithServerIdentifier:sessionToken:readerModeMetadata:maxDetectionTimeout:]
+- +[NFRemoteAdminCardIngestionRequest supportsSecureCoding]
+- +[NFRemoteAdminManager sharedRemoteAdminManager]
+- +[NFRemoteAdminManagerCallbacks interface]
+- +[NFRemoteAdminManagerInterface interface]
+- +[NFRunScriptParameters supportsSecureCoding]
+- +[NFRunScriptParameters(Private) internalParameterWithParameter:]
+- +[NFSecureElement cachedEmbeddedSecureElementSerialNumber:]
+- +[NFSecureElement embeddedSecureElementSerialNumber]
+- +[NFSecureElement embeddedSecureElementWithError:]
+- +[NFSecureElement embeddedSecureElement]
+- +[NFSecureElement icefallSecureElement]
+- +[NFSecureElement supportedTechnologies]
+- +[NFSecureElementLoggingSessionInterface interface]
+- +[NFSecureElementManagerSessionInterface interface]
+- +[NFSecureElementReaderSessionCallbacks interface]
+- +[NFSecureElementReaderSessionInterface _configureInterface:]
+- +[NFSecureElementReaderSessionInterface interface]
+- +[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface interface]
+- +[NFSecureTransactionServicesHandoverBaseSessionInterface interface]
+- +[NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface interface]
+- +[NFSecureTransactionServicesHandoverHybridSessionInterface interface]
+- +[NFSecureTransactionServicesHandoverSessionCallbacksInterface interface]
+- +[NFSecureTransactionServicesHandoverSessionInterface interface]
+- +[NFSeshatSession isTransientError:]
+- +[NFSeshatSession largeCrumbsFromError:]
+- +[NFSeshatSession smallCrumbsFromError:]
+- +[NFSeshatSessionInterface interface]
+- +[NFSignatureInfo supportsSecureCoding]
+- +[NFTNEPService serviceWithURI:minWaitTime:maxWaitTimeExtension:maxMessageSize:]
+- +[NFTNEPService supportsSecureCoding]
+- +[NFTag supportsSecureCoding]
+- +[NFTapToRadar _getInstance]
+- +[NFTapToRadar handleCallback:]
+- +[NFTapToRadar requestTapToRadar:preferences:]
+- +[NFTechnologyEvent supportsSecureCoding]
+- +[NFTrustKey keyWithIdentifier:]
+- +[NFTrustKey supportsSecureCoding]
+- +[NFTrustKeyRequest keyRequestWithSubjectIdentifier:discretionaryData:localValidations:counterLimit:]
+- +[NFTrustKeyRequest supportsSecureCoding]
+- +[NFTrustLocalValidation localValidationWithFaceID]
+- +[NFTrustLocalValidation localValidationWithPassCode]
+- +[NFTrustLocalValidation localValidationWithTouchID]
+- +[NFTrustLocalValidation supportsSecureCoding]
+- +[NFTrustLocalValidation withPrimitiveLocalValidation:]
+- +[NFTrustObject allowedXPCClasses]
+- +[NFTrustObject supportsSecureCoding]
+- +[NFTrustPaymentSignResponse paymentSignResponseWithSignResponse:paymentResponse:]
+- +[NFTrustPaymentSignResponse supportsSecureCoding]
+- +[NFTrustSessionInterface interface]
+- +[NFTrustSignRequest signRequestWithChallenge:data:]
+- +[NFTrustSignRequest supportsSecureCoding]
+- +[NFTrustSignResponse signResponseWithRawData:counterValueData:]
+- +[NFTrustSignResponse supportsSecureCoding]
+- +[NFUnifiedAccessSession requestAssertionForKeyID:options:error:]
+- +[NFUnifiedAccessSessionCallbacksInterface interface]
+- +[NFUnifiedAccessSessionInterface interface]
+- +[NFVASRequest validateDictionary:]
+- +[NFVASResponse validateDictionary:]
+- +[NFValueAddedServiceCard supportsSecureCoding]
+- +[NFValueAddedServiceTransaction supportsSecureCoding]
+- +[NFVehicleReport supportsSecureCoding]
+- +[NSDictionary(NFTransportService) getDictionaryKeyTransportLabel]
+- -[NFApplet .cxx_destruct]
+- -[NFApplet _initManagedBySP]
+- -[NFApplet activationState]
+- -[NFApplet appletCollection]
+- -[NFApplet asDictionary]
+- -[NFApplet authTransientConfigurable]
+- -[NFApplet authTransientSupport]
+- -[NFApplet containsSubKeys]
+- -[NFApplet copyWithZone:]
+- -[NFApplet description]
+- -[NFApplet discretionaryData]
+- -[NFApplet encodeWithCoder:]
+- -[NFApplet family]
+- -[NFApplet groupActivationStyle]
+- -[NFApplet groupHeadID]
+- -[NFApplet groupHead]
+- -[NFApplet groupMemberIDs]
+- -[NFApplet groupMembers]
+- -[NFApplet identifierAsData]
+- -[NFApplet identifier]
+- -[NFApplet initWithCoder:]
+- -[NFApplet instanceACL]
+- -[NFApplet isContainer]
+- -[NFApplet isEqual:]
+- -[NFApplet isEqualToApplet:]
+- -[NFApplet isGPLocked]
+- -[NFApplet isProxy]
+- -[NFApplet isTypeF]
+- -[NFApplet lifecycleState]
+- -[NFApplet managedBySP]
+- -[NFApplet moduleIdentifierAsData]
+- -[NFApplet moduleIdentifier]
+- -[NFApplet multiSEGroupMemberIDs]
+- -[NFApplet multiSSDMembers]
+- -[NFApplet packageIdentifier]
+- -[NFApplet rawGPState]
+- -[NFApplet referencedApps]
+- -[NFApplet seIdentifier]
+- -[NFApplet seOS]
+- -[NFApplet setAppletCollection:]
+- -[NFApplet setInstanceACL:]
+- -[NFApplet supportedTypeFSystem]
+- -[NFApplet suppressTypeA]
+- -[NFApplet suppressTypeB]
+- -[NFApplet(Private) _setIsActive:]
+- -[NFApplet(Private) initWithDictionary:]
+- -[NFApplet(Private) isPPSEControllable]
+- -[NFAppletExtraInfo .cxx_destruct]
+- -[NFAppletExtraInfo applet]
+- -[NFAppletExtraInfo debugDescription]
+- -[NFAppletExtraInfo obgk]
+- -[NFAppletExtraInfo ssdAID]
+- -[NFAssertion .cxx_destruct]
+- -[NFAssertion assertionTime]
+- -[NFAssertion assertionType]
+- -[NFAssertion dealloc]
+- -[NFAssertion deassert]
+- -[NFAssertion description]
+- -[NFAssertion encodeWithCoder:]
+- -[NFAssertion hash]
+- -[NFAssertion initWithCoder:]
+- -[NFAssertion initWithDictionary:]
+- -[NFAssertion isEqual:]
+- -[NFAssertion isReleased]
+- -[NFAssertion pid]
+- -[NFAssertion sessionID]
+- -[NFAssertion setIsReleased:]
+- -[NFConnectionHandoverController .cxx_destruct]
+- -[NFConnectionHandoverController executeWithLock:]
+- -[NFConnectionHandoverController executeWithLockAndReturn:]
+- -[NFConnectionHandoverController initWithType:initiator:callbackQueue:]
+- -[NFConnectionHandoverController initiator]
+- -[NFConnectionHandoverController startWithCustomBroadcastData:]
+- -[NFConnectionHandoverController start]
+- -[NFConnectionHandoverController stop]
+- -[NFConnectionHandoverInitiator .cxx_destruct]
+- -[NFConnectionHandoverInitiator _delayRequestDidExpire]
+- -[NFConnectionHandoverInitiator _processSelectResponse:]
+- -[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]
+- -[NFConnectionHandoverInitiator _startWithCustomBroadcastData:]
+- -[NFConnectionHandoverInitiator _stopWithError:]
+- -[NFConnectionHandoverInitiator _tagConnectionDidExpire]
+- -[NFConnectionHandoverInitiator _triggerDelayRequestCompletionWithSelect:error:]
+- -[NFConnectionHandoverInitiator _triggerInvalidateCB:]
+- -[NFConnectionHandoverInitiator delegate]
+- -[NFConnectionHandoverInitiator handleSessionSuspended:token:reason:field:]
+- -[NFConnectionHandoverInitiator initWithDelegate:]
+- -[NFConnectionHandoverInitiator initWithDelegate:callbackQueue:]
+- -[NFConnectionHandoverInitiator readerSession:didDetectTags:]
+- -[NFConnectionHandoverInitiator readerSession:externalReaderFieldNotification:]
+- -[NFConnectionHandoverInitiator readerSessionDidEndUnexpectedly:]
+- -[NFConnectionHandoverInitiator readerSessionDidEndUnexpectedly:reason:]
+- -[NFConnectionHandoverInitiator send:responseHandler:]
+- -[NFConnectionHandoverInitiator sendHandoverRequest:responseHandler:]
+- -[NFConnectionHandoverInitiator setDelayRequest:]
+- -[NFConnectionHandoverInitiator setDelegate:]
+- -[NFConnectionHandoverInitiator startWithCustomBroadcastData:]
+- -[NFConnectionHandoverInitiator start]
+- -[NFConnectionHandoverInitiator stop]
+- -[NFConnectionHandoverReceiver .cxx_destruct]
+- -[NFConnectionHandoverReceiver _emuAssertTimerExpired]
+- -[NFConnectionHandoverReceiver _processConnect]
+- -[NFConnectionHandoverReceiver _processDisconnectWithPossibleDiscoveryRestart:]
+- -[NFConnectionHandoverReceiver _processRetryRequest:]
+- -[NFConnectionHandoverReceiver _processSelectCommand:response:]
+- -[NFConnectionHandoverReceiver _sendFailureAPDU]
+- -[NFConnectionHandoverReceiver _startWithAutoResume:customBroadcastData:]
+- -[NFConnectionHandoverReceiver _stopWithError:]
+- -[NFConnectionHandoverReceiver _triggerSessionInvalidatedCB:]
+- -[NFConnectionHandoverReceiver delegate]
+- -[NFConnectionHandoverReceiver forceResumeWithCompletionHandler:]
+- -[NFConnectionHandoverReceiver handleSessionResumed]
+- -[NFConnectionHandoverReceiver hceSession:didReceiveAPDU:]
+- -[NFConnectionHandoverReceiver hceSession:didReceiveField:]
+- -[NFConnectionHandoverReceiver hceSession:triggeredByField:started:]
+- -[NFConnectionHandoverReceiver hceSessionDidConnect:]
+- -[NFConnectionHandoverReceiver hceSessionDidDisconnect:]
+- -[NFConnectionHandoverReceiver hceSessionDidEndUnexpectedly:]
+- -[NFConnectionHandoverReceiver initWithDelegate:]
+- -[NFConnectionHandoverReceiver initWithDelegate:callbackQueue:]
+- -[NFConnectionHandoverReceiver roleBroadcastInBackground]
+- -[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]
+- -[NFConnectionHandoverReceiver sendHandoverSelect:error:]
+- -[NFConnectionHandoverReceiver setDelegate:]
+- -[NFConnectionHandoverReceiver setEmuAssertTimer:]
+- -[NFConnectionHandoverReceiver setPendingCHSelect:]
+- -[NFConnectionHandoverReceiver startAutoResumeOnFieldDisableWithCustomBroadcastData:]
+- -[NFConnectionHandoverReceiver startWithAutoResumeOnFieldDisable]
+- -[NFConnectionHandoverReceiver startWithCustomBroadcastData:]
+- -[NFConnectionHandoverReceiver start]
+- -[NFConnectionHandoverReceiver stop]
+- -[NFConnectionHandoverRequest .cxx_destruct]
+- -[NFConnectionHandoverRequest _encodeRequestRetry]
+- -[NFConnectionHandoverRequest _encodeRequest]
+- -[NFConnectionHandoverRequest applicationLabel]
+- -[NFConnectionHandoverRequest copyWithZone:]
+- -[NFConnectionHandoverRequest debugDescription]
+- -[NFConnectionHandoverRequest encode]
+- -[NFConnectionHandoverRequest initWithVersion:applicationLabel:serivceList:]
+- -[NFConnectionHandoverRequest initWithVersion:applicationLabel:serivceList:userInfo:]
+- -[NFConnectionHandoverRequest initWithVersion:applicationLabel:serviceList:userInfo:]
+- -[NFConnectionHandoverRequest initWithVersion:applicationLabel:serviceList:userInfo:retryRandom:]
+- -[NFConnectionHandoverRequest retryRandom]
+- -[NFConnectionHandoverRequest setApplicationLabel:]
+- -[NFConnectionHandoverRequest setRetryRandom:]
+- -[NFConnectionHandoverRequest setTransportServiceList:]
+- -[NFConnectionHandoverRequest setUserInfo:]
+- -[NFConnectionHandoverRequest setVersion:]
+- -[NFConnectionHandoverRequest transportServiceList]
+- -[NFConnectionHandoverRequest userInfo]
+- -[NFConnectionHandoverRequest version]
+- -[NFConnectionHandoverSelect .cxx_destruct]
+- -[NFConnectionHandoverSelect _encodeRetryError]
+- -[NFConnectionHandoverSelect _encodeSelect]
+- -[NFConnectionHandoverSelect applicationLabel]
+- -[NFConnectionHandoverSelect copyWithZone:]
+- -[NFConnectionHandoverSelect debugDescription]
+- -[NFConnectionHandoverSelect encode]
+- -[NFConnectionHandoverSelect initWithVersion:applicationLabel:serivceList:]
+- -[NFConnectionHandoverSelect initWithVersion:applicationLabel:serivceList:userInfo:]
+- -[NFConnectionHandoverSelect initWithVersion:applicationLabel:serviceList:userInfo:]
+- -[NFConnectionHandoverSelect initWithVersion:applicationLabel:serviceList:userInfo:retryInMS:retryRandom:]
+- -[NFConnectionHandoverSelect retryInMS]
+- -[NFConnectionHandoverSelect retryRandom]
+- -[NFConnectionHandoverSelect setApplicationLabel:]
+- -[NFConnectionHandoverSelect setRetryInMS:]
+- -[NFConnectionHandoverSelect setRetryRandom:]
+- -[NFConnectionHandoverSelect setTransportServiceList:]
+- -[NFConnectionHandoverSelect setUserInfo:]
+- -[NFConnectionHandoverSelect setVersion:]
+- -[NFConnectionHandoverSelect transportServiceList]
+- -[NFConnectionHandoverSelect userInfo]
+- -[NFConnectionHandoverSelect version]
+- -[NFContactlessPaymentEndEvent .cxx_destruct]
+- -[NFContactlessPaymentEndEvent _setApplet:]
+- -[NFContactlessPaymentEndEvent amount]
+- -[NFContactlessPaymentEndEvent appletIdentifier]
+- -[NFContactlessPaymentEndEvent applet]
+- -[NFContactlessPaymentEndEvent asDictionary]
+- -[NFContactlessPaymentEndEvent background]
+- -[NFContactlessPaymentEndEvent command]
+- -[NFContactlessPaymentEndEvent currency]
+- -[NFContactlessPaymentEndEvent description]
+- -[NFContactlessPaymentEndEvent didError]
+- -[NFContactlessPaymentEndEvent encodeWithCoder:]
+- -[NFContactlessPaymentEndEvent felicaInfo]
+- -[NFContactlessPaymentEndEvent informative]
+- -[NFContactlessPaymentEndEvent initWithCoder:]
+- -[NFContactlessPaymentEndEvent initWithDictionary:]
+- -[NFContactlessPaymentEndEvent keyIdentifier]
+- -[NFContactlessPaymentEndEvent parsedInfo]
+- -[NFContactlessPaymentEndEvent readerIdentifier]
+- -[NFContactlessPaymentEndEvent result]
+- -[NFContactlessPaymentEndEvent status]
+- -[NFContactlessPaymentEndEvent tlv]
+- -[NFContactlessPaymentEndEvent transactionIdentifier]
+- -[NFContactlessPaymentEndEvent type]
+- -[NFContactlessPaymentSession .cxx_destruct]
+- -[NFContactlessPaymentSession activeApplet]
+- -[NFContactlessPaymentSession allApplets]
+- -[NFContactlessPaymentSession appletWithIdentifier:]
+- -[NFContactlessPaymentSession defaultApplet]
+- -[NFContactlessPaymentSession delegate]
+- -[NFContactlessPaymentSession didDetectField:]
+- -[NFContactlessPaymentSession didDetectFieldNotification:]
+- -[NFContactlessPaymentSession didEndTransaction:]
+- -[NFContactlessPaymentSession didEndUnexpectedly]
+- -[NFContactlessPaymentSession didExpireTransactionForApplet:]
+- -[NFContactlessPaymentSession didExpressModeStateChange:withObject:]
+- -[NFContactlessPaymentSession didFailDeferredAuthorization]
+- -[NFContactlessPaymentSession didFelicaStateChange:]
+- -[NFContactlessPaymentSession didReceiveActivityTimeout:]
+- -[NFContactlessPaymentSession didReceivePendingServerRequest]
+- -[NFContactlessPaymentSession didSelectApplet:]
+- -[NFContactlessPaymentSession didStartSession:]
+- -[NFContactlessPaymentSession didStartTransaction:]
+- -[NFContactlessPaymentSession endSessionWithCompletion:]
+- -[NFContactlessPaymentSession endSession]
+- -[NFContactlessPaymentSession felicaAppletState:]
+- -[NFContactlessPaymentSession felicaAppletState:error:]
+- -[NFContactlessPaymentSession numberOfActiveSecureElements]
+- -[NFContactlessPaymentSession setActivePaymentApplet:authorization:]
+- -[NFContactlessPaymentSession setActivePaymentApplet:authorization:error:]
+- -[NFContactlessPaymentSession setActivePaymentApplet:makeDefault:authorization:]
+- -[NFContactlessPaymentSession setDelegate:]
+- -[NFContactlessPaymentSession startCardEmulationWithAuthorization:]
+- -[NFContactlessPaymentSession startCardEmulationWithAuthorization:error:]
+- -[NFContactlessPaymentSession startDeferredCardEmulationWithAuthorization:]
+- -[NFContactlessPaymentSession startDeferredCardEmulationWithAuthorization:error:]
+- -[NFContactlessPaymentSession stopCardEmulation:]
+- -[NFContactlessPaymentSession stopCardEmulation]
+- -[NFContactlessPaymentSession transitAppletState:error:]
+- -[NFContactlessPaymentStartEvent .cxx_destruct]
+- -[NFContactlessPaymentStartEvent _setApplet:]
+- -[NFContactlessPaymentStartEvent appletIdentifier]
+- -[NFContactlessPaymentStartEvent applet]
+- -[NFContactlessPaymentStartEvent asDictionary]
+- -[NFContactlessPaymentStartEvent background]
+- -[NFContactlessPaymentStartEvent description]
+- -[NFContactlessPaymentStartEvent encodeWithCoder:]
+- -[NFContactlessPaymentStartEvent initWithCoder:]
+- -[NFContactlessPaymentStartEvent initWithDictionary:]
+- -[NFContactlessPaymentStartEvent keyIdentifier]
+- -[NFContactlessPaymentStartEvent paymentMode]
+- -[NFContactlessPaymentStartEvent selectStatus]
+- -[NFContactlessPaymentStartEvent setKeyIdentifier:]
+- -[NFContactlessPaymentStartEvent spIdentifier]
+- -[NFContactlessSession .cxx_destruct]
+- -[NFContactlessSession activeApplet]
+- -[NFContactlessSession allApplets]
+- -[NFContactlessSession appletWithIdentifier:]
+- -[NFContactlessSession delegate]
+- -[NFContactlessSession didDetectField:]
+- -[NFContactlessSession didDetectFieldNotification:]
+- -[NFContactlessSession didEndUnexpectedly]
+- -[NFContactlessSession didFelicaStateChange:]
+- -[NFContactlessSession didSelectApplet:]
+- -[NFContactlessSession didStartSession:]
+- -[NFContactlessSession endSessionWithCompletion:]
+- -[NFContactlessSession endSession]
+- -[NFContactlessSession setActiveApplet:]
+- -[NFContactlessSession setActiveApplet:error:]
+- -[NFContactlessSession setDelegate:]
+- -[NFContactlessSession startCardEmulation:]
+- -[NFContactlessSession startCardEmulation]
+- -[NFContactlessSession stopCardEmulation:]
+- -[NFContactlessSession stopCardEmulation]
+- -[NFCredentialSession .cxx_destruct]
+- -[NFCredentialSession _startWiredModeWithApplets:selectOnStart:externalAuth:completion:]
+- -[NFCredentialSession activeTransceiver]
+- -[NFCredentialSession didExpireTransactionForApplet:]
+- -[NFCredentialSession eventDelegate]
+- -[NFCredentialSession fieldChanged:]
+- -[NFCredentialSession handleSessionSuspended:]
+- -[NFCredentialSession initWithCallbackQueue:]
+- -[NFCredentialSession lock]
+- -[NFCredentialSession notifyHCIData:appletIdentifier:]
+- -[NFCredentialSession requestSETransceiverWithCompletion:]
+- -[NFCredentialSession setActiveTransceiver:]
+- -[NFCredentialSession setEventDelegate:]
+- -[NFCredentialSession setLock:]
+- -[NFCredentialSession startCardEmulationWithApplets:externalAuth:completion:]
+- -[NFCredentialSession startCardEmulationWithApplets:externalAuth:emulationType:completion:]
+- -[NFCredentialSession startWiredModeWithApplets:externalAuth:completion:]
+- -[NFCredentialSession startWiredModeWithApplets:selectOnStart:externalAuth:completion:]
+- -[NFCredentialSession startWiredModeWithIdentifiers:externalAuth:completion:]
+- -[NFCredentialSession wiredModeTransceive:outError:]
+- -[NFCredentialTransceiver .cxx_destruct]
+- -[NFCredentialTransceiver _invalidateParentSession]
+- -[NFCredentialTransceiver _syncGetSessionWithError:]
+- -[NFCredentialTransceiver deleteApplets:queueServerConnection:outError:]
+- -[NFCredentialTransceiver hasInvalidated]
+- -[NFCredentialTransceiver init]
+- -[NFCredentialTransceiver invalidate]
+- -[NFCredentialTransceiver listAppletsAndRefreshCache:outError:]
+- -[NFCredentialTransceiver lock]
+- -[NFCredentialTransceiver parentSession]
+- -[NFCredentialTransceiver queryExtraInfoForApplets:outError:]
+- -[NFCredentialTransceiver setInvalidated:]
+- -[NFCredentialTransceiver setLock:]
+- -[NFCredentialTransceiver setParentSession:]
+- -[NFCredentialTransceiver signChallenge:outError:]
+- -[NFCredentialTransceiver transceive:outError:]
+- -[NFDCKAssertion .cxx_destruct]
+- -[NFDCKAssertion dealloc]
+- -[NFDCKAssertion initWithSESAssertion:]
+- -[NFDCKAssertion invalidate]
+- -[NFDCKAssertion keyIdentifier]
+- -[NFDCKAssertion sesAssertion]
+- -[NFDigitalCarKeyEndEvent .cxx_destruct]
+- -[NFDigitalCarKeyEndEvent _setApplet:]
+- -[NFDigitalCarKeyEndEvent appletIdentifier]
+- -[NFDigitalCarKeyEndEvent applet]
+- -[NFDigitalCarKeyEndEvent asDictionary]
+- -[NFDigitalCarKeyEndEvent brandCode]
+- -[NFDigitalCarKeyEndEvent description]
+- -[NFDigitalCarKeyEndEvent didError]
+- -[NFDigitalCarKeyEndEvent encodeWithCoder:]
+- -[NFDigitalCarKeyEndEvent initFromContactlessPaymentEndEvent:]
+- -[NFDigitalCarKeyEndEvent initWithCoder:]
+- -[NFDigitalCarKeyEndEvent keyIdentifier]
+- -[NFDigitalCarKeyEndEvent result]
+- -[NFDigitalCarKeySession .cxx_destruct]
+- -[NFDigitalCarKeySession _getAppletsFromNFCD]
+- -[NFDigitalCarKeySession activateWithToken:]
+- -[NFDigitalCarKeySession activeApplet]
+- -[NFDigitalCarKeySession activeKey]
+- -[NFDigitalCarKeySession allApplets]
+- -[NFDigitalCarKeySession appletWithIdentifier:]
+- -[NFDigitalCarKeySession appletsById]
+- -[NFDigitalCarKeySession cancelRKEFunction:]
+- -[NFDigitalCarKeySession cardEmulationStarted]
+- -[NFDigitalCarKeySession createSessionHandoffToken:]
+- -[NFDigitalCarKeySession defaultApplet]
+- -[NFDigitalCarKeySession delegate]
+- -[NFDigitalCarKeySession didDetectField:]
+- -[NFDigitalCarKeySession didDetectFieldNotification:]
+- -[NFDigitalCarKeySession didEndTransaction:]
+- -[NFDigitalCarKeySession didEndUnexpectedly]
+- -[NFDigitalCarKeySession didExpireTransactionForApplet:]
+- -[NFDigitalCarKeySession didExpressModeStateChange:withObject:]
+- -[NFDigitalCarKeySession didFailDeferredAuthorization]
+- -[NFDigitalCarKeySession didFelicaStateChange:]
+- -[NFDigitalCarKeySession didReceiveActivityTimeout:]
+- -[NFDigitalCarKeySession didReceivePendingServerRequest]
+- -[NFDigitalCarKeySession didSelectApplet:]
+- -[NFDigitalCarKeySession didStartSession:]
+- -[NFDigitalCarKeySession didStartTransaction:]
+- -[NFDigitalCarKeySession endSessionWithCompletion:]
+- -[NFDigitalCarKeySession endSession]
+- -[NFDigitalCarKeySession fieldNotificationSent]
+- -[NFDigitalCarKeySession handleSessionResumed]
+- -[NFDigitalCarKeySession handleSessionSuspended:]
+- -[NFDigitalCarKeySession passthroughDelegate]
+- -[NFDigitalCarKeySession releaseSesdSession]
+- -[NFDigitalCarKeySession sendPassthroughMessage:error:]
+- -[NFDigitalCarKeySession sendRKEFunction:action:authorization:completion:]
+- -[NFDigitalCarKeySession sendRKEFunction:rkeAction:authorization:]
+- -[NFDigitalCarKeySession sesSession:didReceivePassthroughMessage:]
+- -[NFDigitalCarKeySession sesSession:event:]
+- -[NFDigitalCarKeySession sesdSession]
+- -[NFDigitalCarKeySession setActiveApplet:key:outError:]
+- -[NFDigitalCarKeySession setAppletsById:]
+- -[NFDigitalCarKeySession setAuthorization:]
+- -[NFDigitalCarKeySession setCardEmulationStarted:]
+- -[NFDigitalCarKeySession setDelegate:]
+- -[NFDigitalCarKeySession setFieldNotificationSent:]
+- -[NFDigitalCarKeySession setPassthroughDelegate:]
+- -[NFDigitalCarKeySession setSesdSession:]
+- -[NFDigitalCarKeySession startCardEmulationAuthorization:deferred:error:]
+- -[NFDigitalCarKeySession stopCardEmulation:]
+- -[NFDigitalCarKeySession supportsSecureRanging]
+- -[NFDigitalCarKeyStartEvent .cxx_destruct]
+- -[NFDigitalCarKeyStartEvent _setApplet:]
+- -[NFDigitalCarKeyStartEvent applet]
+- -[NFDigitalCarKeyStartEvent asDictionary]
+- -[NFDigitalCarKeyStartEvent description]
+- -[NFDigitalCarKeyStartEvent encodeWithCoder:]
+- -[NFDigitalCarKeyStartEvent initFromContactlessPaymentStartEvent:]
+- -[NFDigitalCarKeyStartEvent initWithCoder:]
+- -[NFDigitalCarKeyStartEvent keyIdentifier]
+- -[NFDigitalCarKeyStartEvent spIdentifier]
+- -[NFECommercePaymentRequest .cxx_destruct]
+- -[NFECommercePaymentRequest appletIdentifier]
+- -[NFECommercePaymentRequest countryCode]
+- -[NFECommercePaymentRequest currencyCode]
+- -[NFECommercePaymentRequest encodeWithCoder:]
+- -[NFECommercePaymentRequest initWithCoder:]
+- -[NFECommercePaymentRequest initWithDictionary:]
+- -[NFECommercePaymentRequest merchantCapabilities]
+- -[NFECommercePaymentRequest merchantData]
+- -[NFECommercePaymentRequest networkMerchantIdentifier]
+- -[NFECommercePaymentRequest setAppletIdentifier:]
+- -[NFECommercePaymentRequest setCountryCode:]
+- -[NFECommercePaymentRequest setCurrencyCode:]
+- -[NFECommercePaymentRequest setMerchantCapabilities:]
+- -[NFECommercePaymentRequest setMerchantData:]
+- -[NFECommercePaymentRequest setNetworkMerchantIdentifier:]
+- -[NFECommercePaymentRequest setTransactionAmount:]
+- -[NFECommercePaymentRequest setTransactionDate:]
+- -[NFECommercePaymentRequest setUnpredictableNumber:]
+- -[NFECommercePaymentRequest transactionAmount]
+- -[NFECommercePaymentRequest transactionDate]
+- -[NFECommercePaymentRequest unpredictableNumber]
+- -[NFECommercePaymentResponse .cxx_destruct]
+- -[NFECommercePaymentResponse SEPcerts]
+- -[NFECommercePaymentResponse certs]
+- -[NFECommercePaymentResponse confirmationBlobHash]
+- -[NFECommercePaymentResponse confirmationBlobSignature]
+- -[NFECommercePaymentResponse confirmationBlobVersion]
+- -[NFECommercePaymentResponse encodeWithCoder:]
+- -[NFECommercePaymentResponse initWithCoder:]
+- -[NFECommercePaymentResponse initWithDictionary:]
+- -[NFECommercePaymentResponse setCerts:]
+- -[NFECommercePaymentResponse setConfirmationBlobHash:withSignature:version:]
+- -[NFECommercePaymentResponse setSEPCerts:]
+- -[NFECommercePaymentResponse transactionData]
+- -[NFECommercePaymentResponse transactionIdentifier]
+- -[NFECommercePaymentSession .cxx_destruct]
+- -[NFECommercePaymentSession allApplets]
+- -[NFECommercePaymentSession appletWithIdentifier:]
+- -[NFECommercePaymentSession didStartSession:]
+- -[NFECommercePaymentSession performECommercePayment:request:]
+- -[NFECommercePaymentSession performECommercePayment:request:error:]
+- -[NFECommercePaymentSession validateEcommercePaymentRequest:]
+- -[NFFieldDetectSession .cxx_destruct]
+- -[NFFieldDetectSession delegate]
+- -[NFFieldDetectSession didDetectField:]
+- -[NFFieldDetectSession didDetectFieldNotification:]
+- -[NFFieldDetectSession didEndUnexpectedly]
+- -[NFFieldDetectSession isTimeLimited]
+- -[NFFieldDetectSession setDelegate:]
+- -[NFFieldNotification .cxx_destruct]
+- -[NFFieldNotification _creationDateString]
+- -[NFFieldNotification asXPCObject]
+- -[NFFieldNotification cachedBeforeRFReset]
+- -[NFFieldNotification category]
+- -[NFFieldNotification copyWithZone:]
+- -[NFFieldNotification creationDate]
+- -[NFFieldNotification description]
+- -[NFFieldNotification encodeWithCoder:]
+- -[NFFieldNotification initWithCoder:]
+- -[NFFieldNotification initWithDictionary:]
+- -[NFFieldNotification initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:]
+- -[NFFieldNotification isEqual:]
+- -[NFFieldNotification isEqualTerminalInfo:]
+- -[NFFieldNotification isEqualWithoutRFTech:]
+- -[NFFieldNotification notificationType]
+- -[NFFieldNotification rfTechnology]
+- -[NFFieldNotification setCachedBeforeRFReset:]
+- -[NFFieldNotification setCategory:]
+- -[NFFieldNotification setCreationDate:]
+- -[NFFieldNotification setNotificationType:]
+- -[NFFieldNotification typeFSystemCode]
+- -[NFFieldNotification(ConnectionHandover) chFieldType]
+- -[NFFieldNotification(ConnectionHandover) chRandomData]
+- -[NFFieldNotification(ConnectionHandover) isCHAutoNegotiationField]
+- -[NFFieldNotification(ConnectionHandover) isCHInitiatorDetected]
+- -[NFFieldNotification(ConnectionHandover) isCHReceiverDetected]
+- -[NFFieldNotification(ConnectionHandover) isCHTerminal]
+- -[NFFieldNotificationECP1_0 _initCategoryWithType:]
+- -[NFFieldNotificationECP1_0 copyWithZone:]
+- -[NFFieldNotificationECP1_0 description]
+- -[NFFieldNotificationECP1_0 encodeWithCoder:]
+- -[NFFieldNotificationECP1_0 ignoreRFTechOnIsEqual]
+- -[NFFieldNotificationECP1_0 initWithCoder:]
+- -[NFFieldNotificationECP1_0 initWithDictionary:]
+- -[NFFieldNotificationECP1_0 initWithDictionaryForDavenport:]
+- -[NFFieldNotificationECP1_0 initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:odaRequired:terminalMode:terminalType:ignoreRFTechOnIsEqual:]
+- -[NFFieldNotificationECP1_0 isEqual:]
+- -[NFFieldNotificationECP1_0 odaRequired]
+- -[NFFieldNotificationECP1_0 setIgnoreRFTechOnIsEqual:]
+- -[NFFieldNotificationECP1_0 terminalMode]
+- -[NFFieldNotificationECP1_0 terminalType]
+- -[NFFieldNotificationECP2_0 .cxx_destruct]
+- -[NFFieldNotificationECP2_0 _initCategoryWithType:subType:]
+- -[NFFieldNotificationECP2_0 _parseCHTerminalTypeData:]
+- -[NFFieldNotificationECP2_0 copyWithZone:]
+- -[NFFieldNotificationECP2_0 description]
+- -[NFFieldNotificationECP2_0 encodeWithCoder:]
+- -[NFFieldNotificationECP2_0 homeKitSchemeDataPayload]
+- -[NFFieldNotificationECP2_0 ignoreRFTechOnIsEqual]
+- -[NFFieldNotificationECP2_0 initWithCoder:]
+- -[NFFieldNotificationECP2_0 initWithDictionary:]
+- -[NFFieldNotificationECP2_0 initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:odaRequired:terminalMode:terminalType:terminalSubType:tciArray:openLoopSchemeBitfield:homeKitSchemeDataPayload:readerIdentifier:pairingMode:terminalTypeData:ignoreRFTechOnIsEqual:userInfo:]
+- -[NFFieldNotificationECP2_0 isEqual:]
+- -[NFFieldNotificationECP2_0 odaRequired]
+- -[NFFieldNotificationECP2_0 openLoopSchemeBitfield]
+- -[NFFieldNotificationECP2_0 pairingMode]
+- -[NFFieldNotificationECP2_0 readerIdentifier]
+- -[NFFieldNotificationECP2_0 setIgnoreRFTechOnIsEqual:]
+- -[NFFieldNotificationECP2_0 setUserInfo:]
+- -[NFFieldNotificationECP2_0 tciArray]
+- -[NFFieldNotificationECP2_0 terminalMode]
+- -[NFFieldNotificationECP2_0 terminalSubType]
+- -[NFFieldNotificationECP2_0 terminalTypeData]
+- -[NFFieldNotificationECP2_0 terminalType]
+- -[NFFieldNotificationECP2_0 userInfo]
+- -[NFHCESession .cxx_destruct]
+- -[NFHCESession delegate]
+- -[NFHCESession didConnectToReader]
+- -[NFHCESession didDisconnectFromReader]
+- -[NFHCESession didEndUnexpectedly]
+- -[NFHCESession didReceiveAPDU:]
+- -[NFHCESession didReceiveField:]
+- -[NFHCESession endSession]
+- -[NFHCESession readAPDU:]
+- -[NFHCESession readAPDUWithCompletion:]
+- -[NFHCESession requestEmulationAssertion:]
+- -[NFHCESession restartDiscovery]
+- -[NFHCESession resumeSessionFromWaitingOnFieldWithCompletion:]
+- -[NFHCESession sendAPDU:]
+- -[NFHCESession sendAPDU:startReadOnCompletion:]
+- -[NFHCESession setDelegate:]
+- -[NFHCESession startEmulation]
+- -[NFHCESession stopEmulation]
+- -[NFHCESession suspensionStateUpdate:triggeredByField:]
+- -[NFHardwareControllerInfo ROMVersion]
+- -[NFHardwareControllerInfo asDictionary]
+- -[NFHardwareControllerInfo encodeWithCoder:]
+- -[NFHardwareControllerInfo firmwareRevision]
+- -[NFHardwareControllerInfo firmwareVersion]
+- -[NFHardwareControllerInfo hasAntenna]
+- -[NFHardwareControllerInfo hasCarKeySupport]
+- -[NFHardwareControllerInfo hasHLMSupport]
+- -[NFHardwareControllerInfo hasIcfResistor]
+- -[NFHardwareControllerInfo hasLPEMSupport]
+- -[NFHardwareControllerInfo hasMFW]
+- -[NFHardwareControllerInfo hasReaderModeSupport]
+- -[NFHardwareControllerInfo initWithCoder:]
+- -[NFHardwareControllerInfo initWithDictionary:]
+- -[NFHardwareControllerInfo middlewareVersion]
+- -[NFHardwareControllerInfo poweredRunDuringSleep]
+- -[NFHardwareControllerInfo siliconName]
+- -[NFHardwareControllerInfo siliconVersion]
+- -[NFHardwareManager .cxx_destruct]
+- -[NFHardwareManager _initSEDictionaryWithSEInfoList:]
+- -[NFHardwareManager _isHWReadyAndIfNotQueueClient:]
+- -[NFHardwareManager _sessionAttribute]
+- -[NFHardwareManager _startFieldDetectSession:completion:]
+- -[NFHardwareManager _startLoyaltyAndContactlessPaymentSession:force:]
+- -[NFHardwareManager _synchronousQueueSessionWithRetry:queueBlock:]
+- -[NFHardwareManager actOnUserInitiatedSystemShutDown:completion:]
+- -[NFHardwareManager areFeaturesSupported:outError:]
+- -[NFHardwareManager areSessionsAllowed]
+- -[NFHardwareManager blessedUser]
+- -[NFHardwareManager cachedEmbeddedSecureElementSerialNumber:]
+- -[NFHardwareManager checkExpressPassCompatibility:error:]
+- -[NFHardwareManager checkUserBlessing:]
+- -[NFHardwareManager checkUserBlessing:hasCards:]
+- -[NFHardwareManager configureHeadlessFactoryMode:]
+- -[NFHardwareManager configureReaderModeRFForTransitPartner:transitPartner:callback:]
+- -[NFHardwareManager connectToXPCManager:]
+- -[NFHardwareManager controllerInfoWithError:]
+- -[NFHardwareManager controllerInfo]
+- -[NFHardwareManager currentInMetroStatus:]
+- -[NFHardwareManager didChangeRadioState:]
+- -[NFHardwareManager didInterrupt:]
+- -[NFHardwareManager didInvalidate]
+- -[NFHardwareManager disableHeadless]
+- -[NFHardwareManager disableLPEMFeature:]
+- -[NFHardwareManager dumpLPMDebugLog]
+- -[NFHardwareManager enableHeadlessTestMode:]
+- -[NFHardwareManager enableLPEMFeature:]
+- -[NFHardwareManager expressModeControlState]
+- -[NFHardwareManager expressModesEnabled]
+- -[NFHardwareManager expressPassConfigsWithError:]
+- -[NFHardwareManager forceLoyaltyAndContactlessPaymentSession:]
+- -[NFHardwareManager getDieIDWithError:]
+- -[NFHardwareManager getDieID]
+- -[NFHardwareManager getFlashWriteCounters:]
+- -[NFHardwareManager getHeadlessFactoryMode:]
+- -[NFHardwareManager getHeadlessModeFlags:]
+- -[NFHardwareManager getHwSupport]
+- -[NFHardwareManager getLPEMFTALogging:]
+- -[NFHardwareManager getPowerCounters:]
+- -[NFHardwareManager getRadioEnabledSetting:]
+- -[NFHardwareManager getRadioEnabledState:]
+- -[NFHardwareManager getReaderProhibitTimerInfoSERmRunning:hostRmRunning:remainingInMs:]
+- -[NFHardwareManager getTemperature:]
+- -[NFHardwareManager getUniqueFDRKey:]
+- -[NFHardwareManager hasCard]
+- -[NFHardwareManager hostEmulationLog]
+- -[NFHardwareManager hwStateDidChange:]
+- -[NFHardwareManager initWithType:]
+- -[NFHardwareManager invalidateConnection]
+- -[NFHardwareManager isBackgroundTagReadingAvailable]
+- -[NFHardwareManager isExpressAppletTypeSupported:]
+- -[NFHardwareManager isExpressModeSupported]
+- -[NFHardwareManager isInRestrictedMode]
+- -[NFHardwareManager listenForNfcdStartup]
+- -[NFHardwareManager preWarm:]
+- -[NFHardwareManager preWarm]
+- -[NFHardwareManager pushSignedRF:]
+- -[NFHardwareManager queryHardwareSupport:]
+- -[NFHardwareManager queueAssertion:completion:]
+- -[NFHardwareManager queueAssertionWithParams:completion:]
+- -[NFHardwareManager refreshSecureElementsWithError:]
+- -[NFHardwareManager refreshSecureElements]
+- -[NFHardwareManager registerEventListener:]
+- -[NFHardwareManager registerForRemoteCallbacks]
+- -[NFHardwareManager releaseAssertion:]
+- -[NFHardwareManager releaseAssertion:completion:]
+- -[NFHardwareManager releaseSinglePollExpressModeAssertion]
+- -[NFHardwareManager remoteObjectProxyWithErrorHandler:]
+- -[NFHardwareManager requestAssertion:error:]
+- -[NFHardwareManager requestAssertionWithParams:error:]
+- -[NFHardwareManager rfSettings]
+- -[NFHardwareManager secureElementBootHistory:]
+- -[NFHardwareManager secureElementWithIdentifier:]
+- -[NFHardwareManager secureElementWithIdentifier:didChangeRestrictedMode:]
+- -[NFHardwareManager secureElementWithIdentifier:error:]
+- -[NFHardwareManager secureElementsWithError:]
+- -[NFHardwareManager secureElements]
+- -[NFHardwareManager sessionDidEnd:]
+- -[NFHardwareManager setAntiRelayRID:]
+- -[NFHardwareManager setAuthorization:]
+- -[NFHardwareManager setBlessedUser:keybagUUID:withAuthorization:]
+- -[NFHardwareManager setBlessedUser:withAuthorization:]
+- -[NFHardwareManager setChipscope:]
+- -[NFHardwareManager setFieldDetectEnabled:]
+- -[NFHardwareManager setRadioEnabledSetting:]
+- -[NFHardwareManager setSuspendBackgroundTagReading:]
+- -[NFHardwareManager startContactlessPaymentSession:]
+- -[NFHardwareManager startContactlessSession:]
+- -[NFHardwareManager startCredentialSession:]
+- -[NFHardwareManager startDigitalCarKeySession:]
+- -[NFHardwareManager startECommercePaymentSession:]
+- -[NFHardwareManager startFieldDetectSession:]
+- -[NFHardwareManager startHCESession:]
+- -[NFHardwareManager startHCESessionWithConfiguration:completion:]
+- -[NFHardwareManager startHandoverHybridSessionWithCompletion:]
+- -[NFHardwareManager startLPEMConfigSession:]
+- -[NFHardwareManager startLoyaltyAndContactlessPaymentSession:]
+- -[NFHardwareManager startNdefTagSession:]
+- -[NFHardwareManager startNdefTagSessionWithBluetoothLESecureOOBData:callback:]
+- -[NFHardwareManager startPeerPaymentSession:]
+- -[NFHardwareManager startReaderSession:]
+- -[NFHardwareManager startReaderSessionWithActionSheetUI:]
+- -[NFHardwareManager startReaderSessionWithAttributes:completion:]
+- -[NFHardwareManager startSecureElementAndHCESession:]
+- -[NFHardwareManager startSecureElementAndHCESessionWithConfiguration:completion:]
+- -[NFHardwareManager startSecureElementLoggingSession:]
+- -[NFHardwareManager startSecureElementManagerSession:]
+- -[NFHardwareManager startSecureElementManagerSessionWithAttributes:completion:]
+- -[NFHardwareManager startSecureElementManagerSessionWithPriority:]
+- -[NFHardwareManager startSecureElementManagerSessionWithPriority:callback:]
+- -[NFHardwareManager startSecureElementReaderSession:]
+- -[NFHardwareManager startSecureTransactionServicesSessionWithRole:connectionHandoverCofig:completion:]
+- -[NFHardwareManager startSesHatSession:]
+- -[NFHardwareManager startSinglePollExpressModeAssertion:]
+- -[NFHardwareManager startSingleUserSession:]
+- -[NFHardwareManager startTrustSession:]
+- -[NFHardwareManager startUnfilteredFieldDetectSession:]
+- -[NFHardwareManager startUnifiedAccessSession:]
+- -[NFHardwareManager stateInfo:]
+- -[NFHardwareManager stopListeningForNfcdRestart]
+- -[NFHardwareManager supportsCathay]
+- -[NFHardwareManager suspendBackgroundTagReading]
+- -[NFHardwareManager synchronousRemoteObjectProxyWithErrorHandler:]
+- -[NFHardwareManager temperatureChanged:]
+- -[NFHardwareManager toggleGPIO:]
+- -[NFHardwareManager triggerCrash:]
+- -[NFHardwareManager triggerDelayedWake:]
+- -[NFHardwareManager unregisterEventListener:]
+- -[NFHardwareManager unregisterForRemoteCallbacks]
+- -[NFHardwareManager updateHWSupportWithXPC:waitForInit:]
+- -[NFHardwareManager validateExpressPassCompatibilityWithConfig:outError:]
+- -[NFHardwareSecureElementInfo .cxx_destruct]
+- -[NFHardwareSecureElementInfo OSMode]
+- -[NFHardwareSecureElementInfo OSVersion]
+- -[NFHardwareSecureElementInfo _setIsInRestrictedMode:]
+- -[NFHardwareSecureElementInfo _setIsInRestrictedPerformanceMode:]
+- -[NFHardwareSecureElementInfo appletMap]
+- -[NFHardwareSecureElementInfo asDictionary]
+- -[NFHardwareSecureElementInfo atrString]
+- -[NFHardwareSecureElementInfo bootHistory]
+- -[NFHardwareSecureElementInfo compiledFWVersion]
+- -[NFHardwareSecureElementInfo deviceType]
+- -[NFHardwareSecureElementInfo ecdsaCertificate]
+- -[NFHardwareSecureElementInfo eckaCertificate]
+- -[NFHardwareSecureElementInfo encodeWithCoder:]
+- -[NFHardwareSecureElementInfo expectedSequenceCounter]
+- -[NFHardwareSecureElementInfo firmwareKeyID]
+- -[NFHardwareSecureElementInfo firmwareVersion]
+- -[NFHardwareSecureElementInfo fullOSVersion]
+- -[NFHardwareSecureElementInfo hardwareVersion]
+- -[NFHardwareSecureElementInfo identifier]
+- -[NFHardwareSecureElementInfo initWithCoder:]
+- -[NFHardwareSecureElementInfo initWithDictionary:]
+- -[NFHardwareSecureElementInfo jcopTooOld]
+- -[NFHardwareSecureElementInfo manifestQuery]
+- -[NFHardwareSecureElementInfo migrationContext]
+- -[NFHardwareSecureElementInfo migrationInstances]
+- -[NFHardwareSecureElementInfo migrationPackages]
+- -[NFHardwareSecureElementInfo migrationState]
+- -[NFHardwareSecureElementInfo nonce]
+- -[NFHardwareSecureElementInfo osKeyID]
+- -[NFHardwareSecureElementInfo osUpdateMode]
+- -[NFHardwareSecureElementInfo osid]
+- -[NFHardwareSecureElementInfo otherOSValid]
+- -[NFHardwareSecureElementInfo persistentConfigID]
+- -[NFHardwareSecureElementInfo personalisable]
+- -[NFHardwareSecureElementInfo platformIdentifier]
+- -[NFHardwareSecureElementInfo referenceCounter]
+- -[NFHardwareSecureElementInfo restrictedMode]
+- -[NFHardwareSecureElementInfo restrictedPerformanceMode]
+- -[NFHardwareSecureElementInfo rootKeyID]
+- -[NFHardwareSecureElementInfo rsaCertificate]
+- -[NFHardwareSecureElementInfo seType]
+- -[NFHardwareSecureElementInfo sequenceCounter]
+- -[NFHardwareSecureElementInfo serialNumber]
+- -[NFHardwareSecureElementInfo setBootHistory:]
+- -[NFHardwareSecureElementInfo signingKeyType]
+- -[NFHardwareSecureElementInfo supportedTechnologies]
+- -[NFHardwareSecureElementInfo systemOSSerialNumber]
+- -[NFLPEMConfigSession configureHardwareForLPEMWithError:]
+- -[NFLPEMConfigSession disableLPEMFeature:error:]
+- -[NFLPEMConfigSession enableLPEMFeature:error:]
+- -[NFLPEMConfigSession getAndClearLPEMBluetoothLogWithError:]
+- -[NFLPEMConfigSession getLPEMBluetoothLogWithError:]
+- -[NFLPEMConfigSession getLPEMFeaturesWithError:]
+- -[NFLoyaltyAndPaymentSession .cxx_destruct]
+- -[NFLoyaltyAndPaymentSession _startCardEmulationWithAuthorization:error:]
+- -[NFLoyaltyAndPaymentSession _startDeferredCardEmulationWithAuthorization:error:]
+- -[NFLoyaltyAndPaymentSession _startHostCardEmulation:]
+- -[NFLoyaltyAndPaymentSession activeApplet]
+- -[NFLoyaltyAndPaymentSession activeKeys]
+- -[NFLoyaltyAndPaymentSession allApplets]
+- -[NFLoyaltyAndPaymentSession appletWithIdentifier:]
+- -[NFLoyaltyAndPaymentSession defaultApplet]
+- -[NFLoyaltyAndPaymentSession delegate]
+- -[NFLoyaltyAndPaymentSession didDetectField:]
+- -[NFLoyaltyAndPaymentSession didDetectFieldNotification:]
+- -[NFLoyaltyAndPaymentSession didEndTransaction:]
+- -[NFLoyaltyAndPaymentSession didEndUnexpectedly]
+- -[NFLoyaltyAndPaymentSession didExpireTransactionForApplet:]
+- -[NFLoyaltyAndPaymentSession didExpressModeStateChange:withObject:]
+- -[NFLoyaltyAndPaymentSession didFailDeferredAuthorization]
+- -[NFLoyaltyAndPaymentSession didFelicaStateChange:]
+- -[NFLoyaltyAndPaymentSession didPerformValueAddedServiceTransactions:]
+- -[NFLoyaltyAndPaymentSession didReceiveActivityTimeout:]
+- -[NFLoyaltyAndPaymentSession didReceivePendingServerRequest]
+- -[NFLoyaltyAndPaymentSession didSelectApplet:]
+- -[NFLoyaltyAndPaymentSession didSelectValueAddedService:]
+- -[NFLoyaltyAndPaymentSession didStartSession:]
+- -[NFLoyaltyAndPaymentSession didStartTransaction:]
+- -[NFLoyaltyAndPaymentSession enablePlasticCardMode:]
+- -[NFLoyaltyAndPaymentSession enablePlasticCardMode:error:]
+- -[NFLoyaltyAndPaymentSession endSessionWithCompletion:]
+- -[NFLoyaltyAndPaymentSession endSession]
+- -[NFLoyaltyAndPaymentSession felicaAppletState:]
+- -[NFLoyaltyAndPaymentSession felicaAppletState:error:]
+- -[NFLoyaltyAndPaymentSession numberOfActiveSecureElements]
+- -[NFLoyaltyAndPaymentSession setActivePaymentApplet:]
+- -[NFLoyaltyAndPaymentSession setActivePaymentApplet:error:]
+- -[NFLoyaltyAndPaymentSession setActivePaymentApplet:keys:error:]
+- -[NFLoyaltyAndPaymentSession setActivePaymentApplet:makeDefault:]
+- -[NFLoyaltyAndPaymentSession setDelegate:]
+- -[NFLoyaltyAndPaymentSession setHostCards:]
+- -[NFLoyaltyAndPaymentSession startCardEmulation:authorization:]
+- -[NFLoyaltyAndPaymentSession startCardEmulation:authorization:error:]
+- -[NFLoyaltyAndPaymentSession startDeferredCardEmulation:authorization:]
+- -[NFLoyaltyAndPaymentSession startDeferredCardEmulation:authorization:error:]
+- -[NFLoyaltyAndPaymentSession startExpressMode:]
+- -[NFLoyaltyAndPaymentSession stopCardEmulation:]
+- -[NFLoyaltyAndPaymentSession stopCardEmulation]
+- -[NFLoyaltyAndPaymentSession transitAppletState:error:]
+- -[NFNdefMessage .cxx_destruct]
+- -[NFNdefMessage addRecord:]
+- -[NFNdefMessage addRecordArray:]
+- -[NFNdefMessage asData]
+- -[NFNdefMessage decode]
+- -[NFNdefMessage description]
+- -[NFNdefMessage encodeWithCoder:]
+- -[NFNdefMessage initWithBytes:length:]
+- -[NFNdefMessage initWithCoder:]
+- -[NFNdefMessage initWithData:]
+- -[NFNdefMessage initWithNDEFMessage:]
+- -[NFNdefMessage init]
+- -[NFNdefMessage records]
+- -[NFNdefRecord .cxx_destruct]
+- -[NFNdefRecord _idLengthPresent]
+- -[NFNdefRecord _setIdLengthPresent:]
+- -[NFNdefRecord asData]
+- -[NFNdefRecord chunked]
+- -[NFNdefRecord decode]
+- -[NFNdefRecord description]
+- -[NFNdefRecord encodeWithCoder:]
+- -[NFNdefRecord header]
+- -[NFNdefRecord identifier]
+- -[NFNdefRecord initWithBytes:length:]
+- -[NFNdefRecord initWithCoder:]
+- -[NFNdefRecord initWithNDEFRecord:]
+- -[NFNdefRecord init]
+- -[NFNdefRecord isURIRecord]
+- -[NFNdefRecord messageBegin]
+- -[NFNdefRecord messageEnd]
+- -[NFNdefRecord payload]
+- -[NFNdefRecord setChunked:]
+- -[NFNdefRecord setHeader:]
+- -[NFNdefRecord setIdentifier:]
+- -[NFNdefRecord setMessageBegin:]
+- -[NFNdefRecord setMessageEnd:]
+- -[NFNdefRecord setPayload:]
+- -[NFNdefRecord setShortRecord:]
+- -[NFNdefRecord setType:]
+- -[NFNdefRecord setTypeNameFormat:]
+- -[NFNdefRecord shortRecord]
+- -[NFNdefRecord typeNameFormat]
+- -[NFNdefRecord type]
+- -[NFNdefTagSession .cxx_destruct]
+- -[NFNdefTagSession delegate]
+- -[NFNdefTagSession didEndUnexpectedly]
+- -[NFNdefTagSession didTagStateChange:]
+- -[NFNdefTagSession enableWrite:]
+- -[NFNdefTagSession enableWrite:error:]
+- -[NFNdefTagSession endSession]
+- -[NFNdefTagSession getTagDataWithError:]
+- -[NFNdefTagSession getTagData]
+- -[NFNdefTagSession getTagMessageWithError:]
+- -[NFNdefTagSession getTagMessage]
+- -[NFNdefTagSession setDelegate:]
+- -[NFNdefTagSession setTagData:]
+- -[NFNdefTagSession setTagData:error:]
+- -[NFNdefTagSession setTagMessage:]
+- -[NFNdefTagSession setTagMessage:error:]
+- -[NFNdefTagSession startEmulation:]
+- -[NFNdefTagSession startEmulation:error:]
+- -[NFNdefTagSession startEmulation:withMessageType:]
+- -[NFNdefTagSession startEmulation:withMessageType:error:]
+- -[NFNdefTagSession startEmulationWithNdefMessage:]
+- -[NFNdefTagSession startEmulationWithNdefMessage:error:]
+- -[NFNdefTagSession startEmulationWithNdefMessage:withMessageType:]
+- -[NFNdefTagSession startEmulationWithNdefMessage:withMessageType:error:]
+- -[NFNdefTagSession stopEmulationWithError:]
+- -[NFNdefTagSession stopEmulation]
+- -[NFNdefTagSession(Private) startBluetoothLEPairingWithDeviceAddress:role:optionalOOBData:]
+- -[NFNdefTagSession(Private) startBluetoothLESecureConnectionWithDeviceAddress:optionalOOBData:]
+- -[NFNdefTagSession(Private) startBluetoothLESecureConnectionWithOOBData:]
+- -[NFPeerPaymentEnrollmentRequest .cxx_destruct]
+- -[NFPeerPaymentEnrollmentRequest alternateDSID]
+- -[NFPeerPaymentEnrollmentRequest encodeWithCoder:]
+- -[NFPeerPaymentEnrollmentRequest initWithCoder:]
+- -[NFPeerPaymentEnrollmentRequest initWithDictionary:]
+- -[NFPeerPaymentEnrollmentRequest setAlternateDSID:]
+- -[NFPeerPaymentEnrollmentResponse .cxx_destruct]
+- -[NFPeerPaymentEnrollmentResponse certificate]
+- -[NFPeerPaymentEnrollmentResponse encodeWithCoder:]
+- -[NFPeerPaymentEnrollmentResponse initWithCoder:]
+- -[NFPeerPaymentEnrollmentResponse initWithDictionary:]
+- -[NFPeerPaymentEnrollmentResponse prePeerPaymentCertificate]
+- -[NFPeerPaymentRequest .cxx_destruct]
+- -[NFPeerPaymentRequest encodeWithCoder:]
+- -[NFPeerPaymentRequest initWithCoder:]
+- -[NFPeerPaymentRequest initWithDictionary:]
+- -[NFPeerPaymentRequest setTopUpRequest:]
+- -[NFPeerPaymentRequest setTransferRequest:]
+- -[NFPeerPaymentRequest topUpRequest]
+- -[NFPeerPaymentRequest transferRequest]
+- -[NFPeerPaymentResponse .cxx_destruct]
+- -[NFPeerPaymentResponse certificates]
+- -[NFPeerPaymentResponse encodeWithCoder:]
+- -[NFPeerPaymentResponse initWithCoder:]
+- -[NFPeerPaymentResponse initWithDictionary:]
+- -[NFPeerPaymentResponse transactionData]
+- -[NFPeerPaymentResponse transactionIdentifier]
+- -[NFPeerPaymentSession deleteKey]
+- -[NFPeerPaymentSession performPeerPayment:request:]
+- -[NFPeerPaymentSession performPeerPayment:request:error:]
+- -[NFPeerPaymentTransferRequest .cxx_destruct]
+- -[NFPeerPaymentTransferRequest appleTransactionHash]
+- -[NFPeerPaymentTransferRequest encodeWithCoder:]
+- -[NFPeerPaymentTransferRequest initWithCoder:]
+- -[NFPeerPaymentTransferRequest initWithDictionary:]
+- -[NFPeerPaymentTransferRequest nonce]
+- -[NFPeerPaymentTransferRequest publicTransactionHash]
+- -[NFPeerPaymentTransferRequest setAppleTransactionHash:]
+- -[NFPeerPaymentTransferRequest setNonce:]
+- -[NFPeerPaymentTransferRequest setPublicTransactionHash:]
+- -[NFPeerPaymentTransferRequest setTransactionAmount:]
+- -[NFPeerPaymentTransferRequest setTransactionCountry:]
+- -[NFPeerPaymentTransferRequest setTransactionCurrency:]
+- -[NFPeerPaymentTransferRequest setTransactionDate:]
+- -[NFPeerPaymentTransferRequest transactionAmount]
+- -[NFPeerPaymentTransferRequest transactionCountry]
+- -[NFPeerPaymentTransferRequest transactionCurrency]
+- -[NFPeerPaymentTransferRequest transactionDate]
+- -[NFReaderSession .cxx_destruct]
+- -[NFReaderSession _disconnectTagWithCardRemoval:outError:]
+- -[NFReaderSession actionSheetUI]
+- -[NFReaderSession checkNdefSupportsRead:andWrite:]
+- -[NFReaderSession checkNdefSupportsRead:andWrite:error:]
+- -[NFReaderSession checkPresenceWithError:]
+- -[NFReaderSession checkPresence]
+- -[NFReaderSession connectTag:]
+- -[NFReaderSession connectTag:error:]
+- -[NFReaderSession delegate]
+- -[NFReaderSession didDetectExternalReaderWithNotification:]
+- -[NFReaderSession didDetectNDEFMessages:fromTags:connectedTagIndex:updateUICallback:]
+- -[NFReaderSession didDetectTags:connectedTagIndex:]
+- -[NFReaderSession didEndUnexpectedly]
+- -[NFReaderSession didTerminate:]
+- -[NFReaderSession didUIControllerInvalidate:]
+- -[NFReaderSession disconnectTagWithCardRemoval:]
+- -[NFReaderSession disconnectTagWithError:]
+- -[NFReaderSession disconnectTag]
+- -[NFReaderSession endSession]
+- -[NFReaderSession felicaRequestService:error:]
+- -[NFReaderSession felicaRequestService:forSystemCode:error:]
+- -[NFReaderSession felicaStateForSystemCode:withRequestService:withBlockReadList:performSearchServiceCode:]
+- -[NFReaderSession felicaStateForSystemCode:withRequestService:withBlockReadList:performSearchServiceCode:error:]
+- -[NFReaderSession felicaStateWithError:]
+- -[NFReaderSession felicaState]
+- -[NFReaderSession formatNdefWithKey:]
+- -[NFReaderSession formatNdefWithKey:error:]
+- -[NFReaderSession initWithUIType:]
+- -[NFReaderSession ndefReadWithError:]
+- -[NFReaderSession ndefRead]
+- -[NFReaderSession ndefWrite:]
+- -[NFReaderSession ndefWrite:error:]
+- -[NFReaderSession performVAS:error:]
+- -[NFReaderSession restartPollingWithError:]
+- -[NFReaderSession setDelegate:]
+- -[NFReaderSession setECPPayload:error:]
+- -[NFReaderSession setPollingProfile:error:]
+- -[NFReaderSession skipMifareClassification]
+- -[NFReaderSession startLPCDPollingWithError:]
+- -[NFReaderSession startPollingForTechnology:]
+- -[NFReaderSession startPollingForTechnology:error:]
+- -[NFReaderSession startPollingWithConfig:error:]
+- -[NFReaderSession startPollingWithError:]
+- -[NFReaderSession startPolling]
+- -[NFReaderSession stopPollingWithError:]
+- -[NFReaderSession stopPolling]
+- -[NFReaderSession transceive:]
+- -[NFReaderSession transceive:error:]
+- -[NFReaderSession updateUIAlertMessage:]
+- -[NFReaderSession(InternalTest) enableContinuousWave:withFrequencySweep:]
+- -[NFReaderSession(Private) runScript:parameters:results:]
+- -[NFReaderSessionPollConfig .cxx_destruct]
+- -[NFReaderSessionPollConfig asDictionary]
+- -[NFReaderSessionPollConfig ecp]
+- -[NFReaderSessionPollConfig fieldDetect]
+- -[NFReaderSessionPollConfig init]
+- -[NFReaderSessionPollConfig lpcd]
+- -[NFReaderSessionPollConfig pollDuration]
+- -[NFReaderSessionPollConfig setEcp:]
+- -[NFReaderSessionPollConfig setFieldDetect:]
+- -[NFReaderSessionPollConfig setLpcd:]
+- -[NFReaderSessionPollConfig setPollDuration:]
+- -[NFReaderSessionPollConfig setSkipMifareClassify:]
+- -[NFReaderSessionPollConfig setTechnology:]
+- -[NFReaderSessionPollConfig skipMifareClassify]
+- -[NFReaderSessionPollConfig technology]
+- -[NFRemoteAdminCardIngestionRequest .cxx_destruct]
+- -[NFRemoteAdminCardIngestionRequest cardServiceInfo]
+- -[NFRemoteAdminCardIngestionRequest encodeWithCoder:]
+- -[NFRemoteAdminCardIngestionRequest initWithCoder:]
+- -[NFRemoteAdminCardIngestionRequest maxDetectionTimeout]
+- -[NFRemoteAdminCardIngestionRequest serverIdentifier]
+- -[NFRemoteAdminCardIngestionRequest sessionToken]
+- -[NFRemoteAdminCardIngestionRequest setCardServiceInfo:]
+- -[NFRemoteAdminCardIngestionRequest setMaxDetectionTimeout:]
+- -[NFRemoteAdminCardIngestionRequest setServerIdentifier:]
+- -[NFRemoteAdminCardIngestionRequest setSessionToken:]
+- -[NFRemoteAdminCardIngestionRequest setUri:]
+- -[NFRemoteAdminCardIngestionRequest uri]
+- -[NFRemoteAdminManager .cxx_destruct]
+- -[NFRemoteAdminManager _connectIfNeeded]
+- -[NFRemoteAdminManager appletStateChange:]
+- -[NFRemoteAdminManager appletsDeleted:]
+- -[NFRemoteAdminManager cancelCardIngestion]
+- -[NFRemoteAdminManager connectToServer:callback:]
+- -[NFRemoteAdminManager connectToServer:initialClientRequestInfo:callback:]
+- -[NFRemoteAdminManager deleteAllAppletsAndCleanupWithTSM]
+- -[NFRemoteAdminManager deleteAllSPAppletsAndCleanupWithTSM]
+- -[NFRemoteAdminManager deleteAllWalletAppletsAndCleanupWithTSM]
+- -[NFRemoteAdminManager didInterruptXPCConnection:]
+- -[NFRemoteAdminManager didInvalidateXPCConnection:]
+- -[NFRemoteAdminManager getAPNPublicToken]
+- -[NFRemoteAdminManager getSELDInfoForBroker:]
+- -[NFRemoteAdminManager ingestCard:withCompletionHandler:]
+- -[NFRemoteAdminManager init]
+- -[NFRemoteAdminManager nextRequestForServer:]
+- -[NFRemoteAdminManager primaryRegionTopic]
+- -[NFRemoteAdminManager queueServerConnection:]
+- -[NFRemoteAdminManager queueServerConnectionForApplets:]
+- -[NFRemoteAdminManager readerModeCardIngestionStatus:]
+- -[NFRemoteAdminManager readerModeCardSessionToken:]
+- -[NFRemoteAdminManager registerEventListener:]
+- -[NFRemoteAdminManager registrationInfo]
+- -[NFRemoteAdminManager remoteObjectProxyWithErrorHandler:]
+- -[NFRemoteAdminManager setRegistrationInfo:primaryRegionTopic:]
+- -[NFRemoteAdminManager synchronousRemoteObjectProxyWithErrorHandler:]
+- -[NFRemoteAdminManager unregisterEventListener:]
+- -[NFRunScriptParameters .cxx_destruct]
+- -[NFRunScriptParameters AIDAllowList]
+- -[NFRunScriptParameters checkAIDAllowList]
+- -[NFRunScriptParameters deactivateAllApps]
+- -[NFRunScriptParameters disableCompletionNotification]
+- -[NFRunScriptParameters encodeWithCoder:]
+- -[NFRunScriptParameters includeAPDUDuration]
+- -[NFRunScriptParameters initWithCoder:]
+- -[NFRunScriptParameters initialSelectBeforeRun]
+- -[NFRunScriptParameters outFailureResponseDetected]
+- -[NFRunScriptParameters outFinalSWStatus]
+- -[NFRunScriptParameters outIncompleteExecution]
+- -[NFRunScriptParameters outTotalAPDUExecutionDuration]
+- -[NFRunScriptParameters seid]
+- -[NFRunScriptParameters setAIDAllowList:]
+- -[NFRunScriptParameters setCheckAIDAllowList:]
+- -[NFRunScriptParameters setDeactivateAllApps:]
+- -[NFRunScriptParameters setDisableCompletionNotification:]
+- -[NFRunScriptParameters setIncludeAPDUDuration:]
+- -[NFRunScriptParameters setInitialSelectBeforeRun:]
+- -[NFRunScriptParameters setOutFailureResponseDetected:]
+- -[NFRunScriptParameters setOutFinalSWStatus:]
+- -[NFRunScriptParameters setOutIncompleteExecution:]
+- -[NFRunScriptParameters setOutTotalAPDUExecutionDuration:]
+- -[NFRunScriptParameters setSeid:]
+- -[NFRunScriptParameters setToSystemOS:]
+- -[NFRunScriptParameters toSystemOS]
+- -[NFSecureElement .cxx_destruct]
+- -[NFSecureElement OSVersion]
+- -[NFSecureElement _executeOnUpdatedInstance:]
+- -[NFSecureElement _initWithInfo:]
+- -[NFSecureElement _markDirty]
+- -[NFSecureElement _setIsInRestrictedMode:]
+- -[NFSecureElement _setIsInRestrictedPerformanceMode:]
+- -[NFSecureElement _updateSecureElementInfo:]
+- -[NFSecureElement available]
+- -[NFSecureElement eccCertificate]
+- -[NFSecureElement eckaCertificate]
+- -[NFSecureElement fullOSVersion]
+- -[NFSecureElement hwType]
+- -[NFSecureElement identifier]
+- -[NFSecureElement info]
+- -[NFSecureElement isInRestrictedMode]
+- -[NFSecureElement isProductionSigned]
+- -[NFSecureElement isSeshatAvailabledInRestrictedMode]
+- -[NFSecureElement manifestQueryBlob]
+- -[NFSecureElement rsaCertificate]
+- -[NFSecureElement sequenceCounter]
+- -[NFSecureElement serialNumber]
+- -[NFSecureElement supportedTechnologies]
+- -[NFSecureElement systemOSSerialNumber]
+- -[NFSecureElementAndHostCardEmulationSession transceive:forSEID:error:]
+- -[NFSecureElementLoggingSession clearLogs:forSEID:]
+- -[NFSecureElementLoggingSession enableSMBLogging:]
+- -[NFSecureElementLoggingSession getAndClearAssertionLogs:]
+- -[NFSecureElementLoggingSession getLogs:forSEID:error:]
+- -[NFSecureElementLoggingSession getSMBLogWithError:]
+- -[NFSecureElementLoggingSession storeACLogs:]
+- -[NFSecureElementManagerSession .cxx_destruct]
+- -[NFSecureElementManagerSession _appletsById]
+- -[NFSecureElementManagerSession _setApplets:]
+- -[NFSecureElementManagerSession allApplets]
+- -[NFSecureElementManagerSession appletWithIdentifier:]
+- -[NFSecureElementManagerSession delegate]
+- -[NFSecureElementManagerSession deleteAllApplets:]
+- -[NFSecureElementManagerSession deleteAllApplets:error:]
+- -[NFSecureElementManagerSession deleteAllAppletsOfType:queueConnection:error:]
+- -[NFSecureElementManagerSession deleteApplets:queueServerConnection:]
+- -[NFSecureElementManagerSession deleteApplets:queueServerConnection:error:]
+- -[NFSecureElementManagerSession didEndUnexpectedly]
+- -[NFSecureElementManagerSession didExitRestrictedMode:]
+- -[NFSecureElementManagerSession didExitRestrictedMode:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplet:andKey:authorization:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplet:andKeys:authorization:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplet:authorization:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplet:authorization:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplets:andKey:authorization:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForApplets:authorization:error:]
+- -[NFSecureElementManagerSession disableAuthorizationForPasses:authorization:]
+- -[NFSecureElementManagerSession dumpDomain:forSEID:]
+- -[NFSecureElementManagerSession dumpDomain:forSEID:error:]
+- -[NFSecureElementManagerSession expressAppletIdentifiersWithError:]
+- -[NFSecureElementManagerSession expressAppletIdentifiers]
+- -[NFSecureElementManagerSession expressModeControlState:]
+- -[NFSecureElementManagerSession expressModeControlState]
+- -[NFSecureElementManagerSession expressModesEnabledWithError:]
+- -[NFSecureElementManagerSession expressModesEnabled]
+- -[NFSecureElementManagerSession felicaAppletState:]
+- -[NFSecureElementManagerSession felicaAppletState:error:]
+- -[NFSecureElementManagerSession getAndResetLPEMCounter:]
+- -[NFSecureElementManagerSession getAttackCounterLogForSEID:]
+- -[NFSecureElementManagerSession getAttackCounterLogForSEID:acknowledgeLogs:error:]
+- -[NFSecureElementManagerSession getAttackCounterLogForSEID:error:]
+- -[NFSecureElementManagerSession getAttackLogPresence:error:]
+- -[NFSecureElementManagerSession getCryptogram:challengeResponse:]
+- -[NFSecureElementManagerSession getCryptogram:challengeResponse:error:]
+- -[NFSecureElementManagerSession getExpressPassConfigWithError:]
+- -[NFSecureElementManagerSession getOSUpdateLog]
+- -[NFSecureElementManagerSession getServiceProviderDataForApplet:error:]
+- -[NFSecureElementManagerSession getServiceProviderDataForApplet:publicKey:scheme:error:]
+- -[NFSecureElementManagerSession getSignedPlatformDataForSeid:error:]
+- -[NFSecureElementManagerSession initWithCallbackQueue:]
+- -[NFSecureElementManagerSession performPeerPaymentEnrollment:error:]
+- -[NFSecureElementManagerSession powerCycleSEID:error:]
+- -[NFSecureElementManagerSession refreshSecureElement:]
+- -[NFSecureElementManagerSession refreshSecureElement:error:]
+- -[NFSecureElementManagerSession restoreAuthorizarionForKeys:onApplet:error:]
+- -[NFSecureElementManagerSession restoreAuthorizationForAllAppletsExcept:]
+- -[NFSecureElementManagerSession restoreAuthorizationForAllAppletsExcept:error:]
+- -[NFSecureElementManagerSession runScript:forSEID:results:lastStatus:]
+- -[NFSecureElementManagerSession runScript:parameters:outputResults:]
+- -[NFSecureElementManagerSession setDelegate:]
+- -[NFSecureElementManagerSession setExpressModesControlState:]
+- -[NFSecureElementManagerSession setExpressModesEnabled:]
+- -[NFSecureElementManagerSession setExpressModesEnabled:error:]
+- -[NFSecureElementManagerSession setExpressPassConfig:restoreAuthorization:]
+- -[NFSecureElementManagerSession signChallenge:certs:]
+- -[NFSecureElementManagerSession signChallenge:certs:error:]
+- -[NFSecureElementManagerSession signChallenge:forAID:certs:]
+- -[NFSecureElementManagerSession signChallenge:forAID:certs:error:]
+- -[NFSecureElementManagerSession signChallenge:forAID:sigInfo:error:]
+- -[NFSecureElementManagerSession signChallenge:useOSVersion:signatureInfo:]
+- -[NFSecureElementManagerSession signChallenge:useOSVersion:signatureInfo:error:]
+- -[NFSecureElementManagerSession stateInformationWithError:]
+- -[NFSecureElementManagerSession stateInformationWithRedirectInfo:error:]
+- -[NFSecureElementManagerSession stateInformationWithoutFilteringWithError:]
+- -[NFSecureElementManagerSession stateInformation]
+- -[NFSecureElementManagerSession transceive:forSEID:]
+- -[NFSecureElementManagerSession transceive:forSEID:error:]
+- -[NFSecureElementManagerSession transceive:forSEID:toOS:error:]
+- -[NFSecureElementManagerSession transceive:forSEID:toOS:secureZeroOut:error:]
+- -[NFSecureElementManagerSession transceiveMultiple:forSEID:error:]
+- -[NFSecureElementManagerSession transceiveMultiple:forSEID:toOS:error:]
+- -[NFSecureElementManagerSession transceiveMultiple:forSEID:toOS:secureZeroOut:error:]
+- -[NFSecureElementManagerSession transitAppletState:error:]
+- -[NFSecureElementManagerSession validateSEPairings:]
+- -[NFSecureElementManagerSession validateSEPairings:outSEPairingVersion:]
+- -[NFSecureElementReaderSession .cxx_destruct]
+- -[NFSecureElementReaderSession connectTag:error:]
+- -[NFSecureElementReaderSession delegate]
+- -[NFSecureElementReaderSession didDetectTags:]
+- -[NFSecureElementReaderSession didEndSecureElementReader:]
+- -[NFSecureElementReaderSession didEndUnexpectedly]
+- -[NFSecureElementReaderSession didReceiveThermalIndication:]
+- -[NFSecureElementReaderSession didStartSecureElementReader:]
+- -[NFSecureElementReaderSession disconnectTag:]
+- -[NFSecureElementReaderSession performGetVASDataWithRequestList:responseList:error:]
+- -[NFSecureElementReaderSession performSelectVAS:error:]
+- -[NFSecureElementReaderSession performVAS:error:]
+- -[NFSecureElementReaderSession receivedSecureElementReaderData:forApplet:]
+- -[NFSecureElementReaderSession selectApplets:]
+- -[NFSecureElementReaderSession selectApplets:error:]
+- -[NFSecureElementReaderSession setDelegate:]
+- -[NFSecureElementReaderSession start:]
+- -[NFSecureElementReaderSession startSecureElementReader]
+- -[NFSecureElementReaderSession startVASPolling:error:]
+- -[NFSecureElementReaderSession stop:]
+- -[NFSecureElementReaderSession stopSecureElementReader]
+- -[NFSecureElementReaderSession stopVASPolling:]
+- -[NFSecureElementReaderSession transceive:error:]
+- -[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface .cxx_destruct]
+- -[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface protocolInterface]
+- -[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface setupInterface]
+- -[NFSecureTransactionServicesHandoverBaseSessionInterface .cxx_destruct]
+- -[NFSecureTransactionServicesHandoverBaseSessionInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverBaseSessionInterface protocolInterface]
+- -[NFSecureTransactionServicesHandoverBaseSessionInterface setupInterface]
+- -[NFSecureTransactionServicesHandoverHybridSession .cxx_destruct]
+- -[NFSecureTransactionServicesHandoverHybridSession activeApplet]
+- -[NFSecureTransactionServicesHandoverHybridSession allApplets]
+- -[NFSecureTransactionServicesHandoverHybridSession appletWithIdentifier:]
+- -[NFSecureTransactionServicesHandoverHybridSession connectionHandoverProcessCompleted]
+- -[NFSecureTransactionServicesHandoverHybridSession connectionHandoverProcessFailure:]
+- -[NFSecureTransactionServicesHandoverHybridSession connectionHandoverTNEPServiceSelected:]
+- -[NFSecureTransactionServicesHandoverHybridSession defaultApplet]
+- -[NFSecureTransactionServicesHandoverHybridSession delegate]
+- -[NFSecureTransactionServicesHandoverHybridSession didDetectField:]
+- -[NFSecureTransactionServicesHandoverHybridSession didDetectFieldNotification:]
+- -[NFSecureTransactionServicesHandoverHybridSession didEndTransaction:]
+- -[NFSecureTransactionServicesHandoverHybridSession didExpireTransactionForApplet:]
+- -[NFSecureTransactionServicesHandoverHybridSession didExpressModeStateChange:withObject:]
+- -[NFSecureTransactionServicesHandoverHybridSession didFailDeferredAuthorization]
+- -[NFSecureTransactionServicesHandoverHybridSession didFelicaStateChange:]
+- -[NFSecureTransactionServicesHandoverHybridSession didPerformValueAddedServiceTransactions:]
+- -[NFSecureTransactionServicesHandoverHybridSession didReceiveActivityTimeout:]
+- -[NFSecureTransactionServicesHandoverHybridSession didReceivePendingServerRequest]
+- -[NFSecureTransactionServicesHandoverHybridSession didSelectApplet:]
+- -[NFSecureTransactionServicesHandoverHybridSession didSelectValueAddedService:]
+- -[NFSecureTransactionServicesHandoverHybridSession didStartSession:]
+- -[NFSecureTransactionServicesHandoverHybridSession didStartTransaction:]
+- -[NFSecureTransactionServicesHandoverHybridSession endSessionWithCompletion:]
+- -[NFSecureTransactionServicesHandoverHybridSession endSession]
+- -[NFSecureTransactionServicesHandoverHybridSession fieldChange:]
+- -[NFSecureTransactionServicesHandoverHybridSession fieldNotification:]
+- -[NFSecureTransactionServicesHandoverHybridSession numberOfActiveSecureElements]
+- -[NFSecureTransactionServicesHandoverHybridSession setActiveApplet:authorization:error:]
+- -[NFSecureTransactionServicesHandoverHybridSession setDelegate:]
+- -[NFSecureTransactionServicesHandoverHybridSession setTagDeviceDelegate:]
+- -[NFSecureTransactionServicesHandoverHybridSession setTagReaderDelegate:]
+- -[NFSecureTransactionServicesHandoverHybridSession startCardEmulationWithAuthorization:error:]
+- -[NFSecureTransactionServicesHandoverHybridSession startSTSNotificationListenerWithEndpoint:]
+- -[NFSecureTransactionServicesHandoverHybridSession staticReaderEngagementDiscovered:]
+- -[NFSecureTransactionServicesHandoverHybridSession stopCardEmulation:]
+- -[NFSecureTransactionServicesHandoverHybridSession stopTNEPOperation]
+- -[NFSecureTransactionServicesHandoverHybridSession tagDeviceDelegate]
+- -[NFSecureTransactionServicesHandoverHybridSession tagReaderDelegate]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepReaderServicesAborted:]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepReaderServicesDiscovered:]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceDeselected:]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceNDEFMessageReceived:]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceReaderDetected]
+- -[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceSelected:respondHandler:]
+- -[NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface setupInterface]
+- -[NFSecureTransactionServicesHandoverHybridSessionInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverHybridSessionInterface setupInterface]
+- -[NFSecureTransactionServicesHandoverSession .cxx_destruct]
+- -[NFSecureTransactionServicesHandoverSession connectionHandoverProcessCompleted]
+- -[NFSecureTransactionServicesHandoverSession connectionHandoverProcessFailure:]
+- -[NFSecureTransactionServicesHandoverSession connectionHandoverTNEPServiceSelected:]
+- -[NFSecureTransactionServicesHandoverSession delegate]
+- -[NFSecureTransactionServicesHandoverSession deselectService]
+- -[NFSecureTransactionServicesHandoverSession fieldChange:]
+- -[NFSecureTransactionServicesHandoverSession fieldNotification:]
+- -[NFSecureTransactionServicesHandoverSession handleSessionResumed]
+- -[NFSecureTransactionServicesHandoverSession handleSessionSuspended:]
+- -[NFSecureTransactionServicesHandoverSession restartPolling]
+- -[NFSecureTransactionServicesHandoverSession selectService:]
+- -[NFSecureTransactionServicesHandoverSession setDelegate:]
+- -[NFSecureTransactionServicesHandoverSession setTagDeviceDelegate:]
+- -[NFSecureTransactionServicesHandoverSession setTagReaderDelegate:]
+- -[NFSecureTransactionServicesHandoverSession singleResponseCommunicationReaderSend:completionHandler:]
+- -[NFSecureTransactionServicesHandoverSession singleResponseCommunicationTagSend:completionHandler:]
+- -[NFSecureTransactionServicesHandoverSession startSTSNotificationListenerWithEndpoint:]
+- -[NFSecureTransactionServicesHandoverSession startTNEPReaderWithDelegate:]
+- -[NFSecureTransactionServicesHandoverSession startTNEPTagDeviceWithService:optionalRecords:delegate:]
+- -[NFSecureTransactionServicesHandoverSession staticReaderEngagementDiscovered:]
+- -[NFSecureTransactionServicesHandoverSession stopTNEPOperation]
+- -[NFSecureTransactionServicesHandoverSession tagDeviceDelegate]
+- -[NFSecureTransactionServicesHandoverSession tagReaderDelegate]
+- -[NFSecureTransactionServicesHandoverSession tnepReaderServicesAborted:]
+- -[NFSecureTransactionServicesHandoverSession tnepReaderServicesDiscovered:]
+- -[NFSecureTransactionServicesHandoverSession tnepTagDeviceDeselected:]
+- -[NFSecureTransactionServicesHandoverSession tnepTagDeviceNDEFMessageReceived:]
+- -[NFSecureTransactionServicesHandoverSession tnepTagDeviceReaderDetected]
+- -[NFSecureTransactionServicesHandoverSession tnepTagDeviceSelected:respondHandler:]
+- -[NFSecureTransactionServicesHandoverSessionCallbacksInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverSessionCallbacksInterface setupInterface]
+- -[NFSecureTransactionServicesHandoverSessionInterface initWithProtocol:]
+- -[NFSecureTransactionServicesHandoverSessionInterface setupInterface]
+- -[NFSeshatSession allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:]
+- -[NFSeshatSession allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:trackingError:]
+- -[NFSeshatSession authorizeUpdate:slotIndex:userToken:outWriteCount:]
+- -[NFSeshatSession authorizeUpdate:slotIndex:userToken:outWriteCount:trackingError:]
+- -[NFSeshatSession deleteSlot:outWriteCount:]
+- -[NFSeshatSession deleteSlot:outWriteCount:trackingError:]
+- -[NFSeshatSession derive:userHash:outData:outWriteCount:]
+- -[NFSeshatSession derive:userHash:outData:outWriteCount:trackingError:]
+- -[NFSeshatSession getData:updateKUD:outWriteLimit:outWriteCount:]
+- -[NFSeshatSession getData:updateKUD:outWriteLimit:outWriteCount:trackingError:]
+- -[NFSeshatSession getHash:]
+- -[NFSeshatSession getHash:trackingError:]
+- -[NFSeshatSession obliterateWithTrackingError:]
+- -[NFSeshatSession obliterate]
+- -[NFSeshatSession resetCounter:userToken:outWriteCount:]
+- -[NFSeshatSession resetCounter:userToken:outWriteCount:trackingError:]
+- -[NFSeshatSession upgradeKey:inputData:outWriteCount:]
+- -[NFSeshatSession upgradeKey:inputData:outWriteCount:trackingError:]
+- -[NFSession .cxx_destruct]
+- -[NFSession _endProxySession]
+- -[NFSession _invokeDidEndSession]
+- -[NFSession _invokeDidStartCallback:]
+- -[NFSession activateWithToken:]
+- -[NFSession callbackQueue]
+- -[NFSession createSessionHandoffToken:]
+- -[NFSession dealloc]
+- -[NFSession didEndCallback]
+- -[NFSession didEndUnexpectedly]
+- -[NFSession didEnd]
+- -[NFSession didStartCallback]
+- -[NFSession didStartSession:]
+- -[NFSession didStartSessionWithoutQueue:]
+- -[NFSession endSessionAndStartNextSession:completion:]
+- -[NFSession endSessionWithCompletion:]
+- -[NFSession endSession]
+- -[NFSession handleSessionResumed]
+- -[NFSession handleSessionSuspended:]
+- -[NFSession initWithCallbackQueue:]
+- -[NFSession internalInit]
+- -[NFSession isActive]
+- -[NFSession isFirstInQueue]
+- -[NFSession isTimeLimited]
+- -[NFSession prioritizeSession]
+- -[NFSession proxy]
+- -[NFSession remoteObjectProxyWithErrorHandler:]
+- -[NFSession requestBugCapture:subtype:context:]
+- -[NFSession resume]
+- -[NFSession sessionDelegate]
+- -[NFSession setDidEndCallback:]
+- -[NFSession setDidStartCallback:]
+- -[NFSession setIsFirstInQueue:]
+- -[NFSession setProxy:]
+- -[NFSession setSessionDelegate:]
+- -[NFSession setSessionTimeLimit:]
+- -[NFSession state]
+- -[NFSession synchronousRemoteObjectProxyWithErrorHandler:]
+- -[NFSignatureInfo .cxx_destruct]
+- -[NFSignatureInfo certificateVersion]
+- -[NFSignatureInfo description]
+- -[NFSignatureInfo eccCert]
+- -[NFSignatureInfo eckaCert]
+- -[NFSignatureInfo encodeWithCoder:]
+- -[NFSignatureInfo initWithCoder:]
+- -[NFSignatureInfo initWithDictionary:]
+- -[NFSignatureInfo jsblCounter]
+- -[NFSignatureInfo platformId]
+- -[NFSignatureInfo rsaCert]
+- -[NFSignatureInfo seid]
+- -[NFSingleUserSession checkUserBlessing:hasCards:]
+- -[NFSingleUserSession hasCard:]
+- -[NFSingleUserSession setBlessedUser:keybagUUID:withAuthorization:]
+- -[NFSingleUserSession setBlessedUser:withAuthorization:]
+- -[NFTNEPService .cxx_destruct]
+- -[NFTNEPService copyWithZone:]
+- -[NFTNEPService description]
+- -[NFTNEPService encodeWithCoder:]
+- -[NFTNEPService initWithCoder:]
+- -[NFTNEPService maxMessageSize]
+- -[NFTNEPService maxWaitTimeExtension]
+- -[NFTNEPService minWaitTime]
+- -[NFTNEPService setMaxMessageSize:]
+- -[NFTNEPService setMaxWaitTimeExtension:]
+- -[NFTNEPService setMinWaitTime:]
+- -[NFTNEPService setUri:]
+- -[NFTNEPService uri]
+- -[NFTag .cxx_destruct]
+- -[NFTag AppData]
+- -[NFTag IDm]
+- -[NFTag PMm]
+- -[NFTag SystemCode]
+- -[NFTag UID]
+- -[NFTag allSystemCodes]
+- -[NFTag applicationDataCoding]
+- -[NFTag applicationData]
+- -[NFTag atqa]
+- -[NFTag description]
+- -[NFTag encodeWithCoder:]
+- -[NFTag historicalBytes]
+- -[NFTag initWithCoder:]
+- -[NFTag initWithNFTag:]
+- -[NFTag isEqualToNFTag:]
+- -[NFTag ndefAvailability]
+- -[NFTag ndefContainerSize]
+- -[NFTag ndefMessageSize]
+- -[NFTag pupi]
+- -[NFTag sak]
+- -[NFTag selectedAID]
+- -[NFTag sfgi]
+- -[NFTag sfgt]
+- -[NFTag tagA]
+- -[NFTag tagB]
+- -[NFTag tagF]
+- -[NFTag tagID]
+- -[NFTag technology]
+- -[NFTag type]
+- -[NFTapToRadar .cxx_destruct]
+- -[NFTapToRadar _handleCallbackSync:]
+- -[NFTapToRadar _requestTapToRadarSync:prefs:]
+- -[NFTapToRadar init]
+- -[NFTechnologyEvent description]
+- -[NFTechnologyEvent encodeWithCoder:]
+- -[NFTechnologyEvent initWithCoder:]
+- -[NFTechnologyEvent initWithDictionary:]
+- -[NFTechnologyEvent initWithFieldNotification:]
+- -[NFTechnologyEvent initWithTechnology:andValueAddedServiceMode:]
+- -[NFTechnologyEvent initWithTechnology:andValueAddedServiceMode:andSystemCode:]
+- -[NFTechnologyEvent systemCode]
+- -[NFTechnologyEvent technology]
+- -[NFTechnologyEvent terminalType]
+- -[NFTechnologyEvent touchIDRequired]
+- -[NFTechnologyEvent valueAddedServiceMode]
+- -[NFTechnologyEvent vasSupported]
+- -[NFTrustKey .cxx_destruct]
+- -[NFTrustKey counterLimit]
+- -[NFTrustKey counterValue]
+- -[NFTrustKey encodeWithCoder:]
+- -[NFTrustKey identifier]
+- -[NFTrustKey initWithCoder:]
+- -[NFTrustKey keyAttestationAuthority]
+- -[NFTrustKey keyAttestation]
+- -[NFTrustKey localValidations]
+- -[NFTrustKey publicKey]
+- -[NFTrustKey setCounterLimit:]
+- -[NFTrustKey setCounterValue:]
+- -[NFTrustKey setIdentifier:]
+- -[NFTrustKey setKeyAttestation:]
+- -[NFTrustKey setKeyAttestationAuthority:]
+- -[NFTrustKey setLocalValidations:]
+- -[NFTrustKey setPublicKey:]
+- -[NFTrustKeyRequest .cxx_destruct]
+- -[NFTrustKeyRequest counterLimit]
+- -[NFTrustKeyRequest discretionaryData]
+- -[NFTrustKeyRequest encodeWithCoder:]
+- -[NFTrustKeyRequest initWithCoder:]
+- -[NFTrustKeyRequest localValidations]
+- -[NFTrustKeyRequest setCounterLimit:]
+- -[NFTrustKeyRequest setDiscretionaryData:]
+- -[NFTrustKeyRequest setLocalValidations:]
+- -[NFTrustKeyRequest setSubjectIdentifier:]
+- -[NFTrustKeyRequest subjectIdentifier]
+- -[NFTrustLocalValidation description]
+- -[NFTrustLocalValidation encodeWithCoder:]
+- -[NFTrustLocalValidation initWithCoder:]
+- -[NFTrustLocalValidation primitiveLocalValidation]
+- -[NFTrustLocalValidation setPrimitiveLocalValidation:]
+- -[NFTrustObject allowedXPCClasses]
+- -[NFTrustObject description]
+- -[NFTrustObject dictionaryRepresentation]
+- -[NFTrustObject encodeWithCoder:]
+- -[NFTrustObject initWithCoder:]
+- -[NFTrustPaymentSignResponse .cxx_destruct]
+- -[NFTrustPaymentSignResponse encodeWithCoder:]
+- -[NFTrustPaymentSignResponse initWithCoder:]
+- -[NFTrustPaymentSignResponse paymentResponse]
+- -[NFTrustPaymentSignResponse setPaymentResponse:]
+- -[NFTrustPaymentSignResponse setSignResponse:]
+- -[NFTrustPaymentSignResponse signResponse]
+- -[NFTrustSession createKey:request:error:]
+- -[NFTrustSession deleteKey:error:]
+- -[NFTrustSession getKey:error:]
+- -[NFTrustSession listKeys:]
+- -[NFTrustSession signWithKey:request:authorization:error:]
+- -[NFTrustSession signWithKey:request:paymentRequest:authorization:error:]
+- -[NFTrustSignRequest .cxx_destruct]
+- -[NFTrustSignRequest challenge]
+- -[NFTrustSignRequest data]
+- -[NFTrustSignRequest encodeWithCoder:]
+- -[NFTrustSignRequest initWithCoder:]
+- -[NFTrustSignRequest setChallenge:]
+- -[NFTrustSignRequest setData:]
+- -[NFTrustSignResponse .cxx_destruct]
+- -[NFTrustSignResponse counterValue]
+- -[NFTrustSignResponse encodeWithCoder:]
+- -[NFTrustSignResponse initWithCoder:]
+- -[NFTrustSignResponse key]
+- -[NFTrustSignResponse rawData]
+- -[NFTrustSignResponse setCounterValue:]
+- -[NFTrustSignResponse setKey:]
+- -[NFTrustSignResponse setTrustObjectInternalRawNSData:]
+- -[NFTrustSignResponse trustObjectInternalRawNSData]
+- -[NFUnifiedAccessAssertion .cxx_destruct]
+- -[NFUnifiedAccessAssertion dealloc]
+- -[NFUnifiedAccessAssertion initWithSESAssertion:]
+- -[NFUnifiedAccessAssertion invalidate]
+- -[NFUnifiedAccessAssertion keyIdentifier]
+- -[NFUnifiedAccessAssertion sesAssertion]
+- -[NFUnifiedAccessSession .cxx_destruct]
+- -[NFUnifiedAccessSession _createSesdSession]
+- -[NFUnifiedAccessSession _startCardEmulationWithAuthorization:error:]
+- -[NFUnifiedAccessSession _startDeferredCardEmulationWithAuthorization:error:]
+- -[NFUnifiedAccessSession activeApplet]
+- -[NFUnifiedAccessSession activeKeys]
+- -[NFUnifiedAccessSession allApplets]
+- -[NFUnifiedAccessSession appletWithIdentifier:]
+- -[NFUnifiedAccessSession appletsWithIdentifiers:secondaryIdentifier:]
+- -[NFUnifiedAccessSession cardEmulationStarted]
+- -[NFUnifiedAccessSession delegate]
+- -[NFUnifiedAccessSession didDetectField:]
+- -[NFUnifiedAccessSession didDetectFieldNotification:]
+- -[NFUnifiedAccessSession didEndTransaction:]
+- -[NFUnifiedAccessSession didEndUnexpectedly]
+- -[NFUnifiedAccessSession didExpireTransactionForApplet:]
+- -[NFUnifiedAccessSession didExpressModeStateChange:withObject:]
+- -[NFUnifiedAccessSession didFailDeferredAuthorization]
+- -[NFUnifiedAccessSession didFelicaStateChange:]
+- -[NFUnifiedAccessSession didPerformValueAddedServiceTransactions:]
+- -[NFUnifiedAccessSession didReceiveActivityTimeout:]
+- -[NFUnifiedAccessSession didReceivePendingServerRequest]
+- -[NFUnifiedAccessSession didSelectApplet:]
+- -[NFUnifiedAccessSession didSelectValueAddedService:]
+- -[NFUnifiedAccessSession didStartSession:]
+- -[NFUnifiedAccessSession didStartTransaction:]
+- -[NFUnifiedAccessSession endSessionWithCompletion:]
+- -[NFUnifiedAccessSession endSession]
+- -[NFUnifiedAccessSession isACWG]
+- -[NFUnifiedAccessSession isUnifiedAccessOrAcwg:secondaryIdentifier:]
+- -[NFUnifiedAccessSession numberOfActiveSecureElements]
+- -[NFUnifiedAccessSession releaseSesdSession]
+- -[NFUnifiedAccessSession sesSession:event:]
+- -[NFUnifiedAccessSession sesdSession]
+- -[NFUnifiedAccessSession setActivePaymentApplet:keys:error:]
+- -[NFUnifiedAccessSession setActivePaymentApplets:error:]
+- -[NFUnifiedAccessSession setCardEmulationStarted:]
+- -[NFUnifiedAccessSession setDelegate:]
+- -[NFUnifiedAccessSession setSesdSession:]
+- -[NFUnifiedAccessSession startCardEmulationWithAuthorization:error:]
+- -[NFUnifiedAccessSession startDeferredCardEmulationWithAuthorization:error:]
+- -[NFUnifiedAccessSession startExpressMode:]
+- -[NFUnifiedAccessSession stopCardEmulation:]
+- -[NFUnifiedAccessSession validateAidsAndKeys:]
+- -[NFUnifiedAccessSessionCallbacksInterface setupInterface]
+- -[NFUnifiedAccessSessionInterface setupInterface]
+- -[NFVASRequest .cxx_destruct]
+- -[NFVASRequest asDictionary]
+- -[NFVASRequest description]
+- -[NFVASRequest filter]
+- -[NFVASRequest initWithDictionary:]
+- -[NFVASRequest merchantId]
+- -[NFVASRequest setFilter:]
+- -[NFVASRequest setMerchantId:]
+- -[NFVASRequest setSignupUrl:]
+- -[NFVASRequest setTerminalCap:]
+- -[NFVASRequest setTerminalProtocol:]
+- -[NFVASRequest signupUrl]
+- -[NFVASRequest terminalCap]
+- -[NFVASRequest terminalProtocol]
+- -[NFVASResponse .cxx_destruct]
+- -[NFVASResponse asDictionary]
+- -[NFVASResponse description]
+- -[NFVASResponse initWithDictionary:]
+- -[NFVASResponse mobileCapabilities]
+- -[NFVASResponse paymentSupported]
+- -[NFVASResponse request]
+- -[NFVASResponse setMobileCapabilities:]
+- -[NFVASResponse setRequest:]
+- -[NFVASResponse setStatusCode:]
+- -[NFVASResponse setToken:]
+- -[NFVASResponse setVasData:]
+- -[NFVASResponse statusCode]
+- -[NFVASResponse token]
+- -[NFVASResponse vasData]
+- -[NFValueAddedServiceCard .cxx_destruct]
+- -[NFValueAddedServiceCard asDictionary]
+- -[NFValueAddedServiceCard data]
+- -[NFValueAddedServiceCard description]
+- -[NFValueAddedServiceCard encodeWithCoder:]
+- -[NFValueAddedServiceCard identifier]
+- -[NFValueAddedServiceCard initWithCoder:]
+- -[NFValueAddedServiceCard setData:]
+- -[NFValueAddedServiceCard setIdentifier:]
+- -[NFValueAddedServiceCard setToken:]
+- -[NFValueAddedServiceCard setType:]
+- -[NFValueAddedServiceCard setUserInterventionRequired:]
+- -[NFValueAddedServiceCard token]
+- -[NFValueAddedServiceCard type]
+- -[NFValueAddedServiceCard userInterventionRequired]
+- -[NFValueAddedServiceTransaction .cxx_destruct]
+- -[NFValueAddedServiceTransaction asDictionary]
+- -[NFValueAddedServiceTransaction description]
+- -[NFValueAddedServiceTransaction didSucceed]
+- -[NFValueAddedServiceTransaction encodeWithCoder:]
+- -[NFValueAddedServiceTransaction error]
+- -[NFValueAddedServiceTransaction filterType]
+- -[NFValueAddedServiceTransaction filter]
+- -[NFValueAddedServiceTransaction initWithCoder:]
+- -[NFValueAddedServiceTransaction initWithDictionary:]
+- -[NFValueAddedServiceTransaction merchantId]
+- -[NFValueAddedServiceTransaction passData]
+- -[NFValueAddedServiceTransaction result]
+- -[NFValueAddedServiceTransaction signupUrl]
+- -[NFValueAddedServiceTransaction terminalAppVersion]
+- -[NFValueAddedServiceTransaction terminalMode]
+- -[NFValueAddedServiceTransaction token]
+- -[NFVehicleReport .cxx_destruct]
+- -[NFVehicleReport description]
+- -[NFVehicleReport encodeWithCoder:]
+- -[NFVehicleReport getRKEFunctionsInProgress]
+- -[NFVehicleReport getStatusForRKEFunction:]
+- -[NFVehicleReport getSupportedRKEFunctions]
+- -[NFVehicleReport initWithCoder:]
+- -[NFVehicleReport initWithSESVehicleReport:]
+- -[NFVehicleReport isRKEFunctionInProgress:]
+- -[NFVehicleReport isRKEFunctionSupported:]
+- -[NFVehicleReport keyIdentifier]
+- -[NFVehicleReport setVehicleReport:]
+- -[NFVehicleReport vehicleReport]
+- -[NFWalletPresentation .cxx_destruct]
+- -[NFWalletPresentation dealloc]
+- -[NFWalletPresentation didInterrupt:]
+- -[NFWalletPresentation didInvalidate]
+- -[NFWalletPresentation init]
+- -[NFWalletPresentation invalidateXPCClient]
+- -[NFWalletPresentation present]
+- -[NFXPCServiceClient .cxx_destruct]
+- -[NFXPCServiceClient addDelegate:]
+- -[NFXPCServiceClient connection]
+- -[NFXPCServiceClient initWithService:remoteObjectInterface:exportedInterface:exportedObject:]
+- -[NFXPCServiceClient initWithService:remoteObjectInterface:exportedInterface:exportedObject:xpcDispatchQueue:]
+- -[NFXPCServiceClient removeDelegate:]
+- -[NSArray(NFTransportService) encodeToCBOR]
+- -[NSData(NFTransportService) decodeCHForRequest:]
+- -[NSData(NFTransportService) decodeCHRequestRetry]
+- -[NSData(NFTransportService) decodeCHRequest]
+- -[NSData(NFTransportService) decodeCHSelect]
+- -[NSData(NFTransportService) decodeSelectErrorDictionary]
+- -[NSData(NFTransportService) encodeToCBOR]
+- -[NSDate(NFTransportService) encodeToCBOR]
+- -[NSDictionary(NFTransportService) encodeToCBOR]
+- -[NSDictionary(NFTransportService) transportLabel]
+- -[NSNumber(NFTransportService) encodeToCBOR]
+- -[NSString(NFTransportService) encodeToCBOR]
+- <redacted>
+- _AID_HYDRA_CORPORATE_SE
+- _AID_HYDRA_HOME_SE
+- _AID_LYON
+- _AID_PURPLE_TRUST_AIR_CCC
+- _AID_PURPLE_TRUST_AIR_HOME
+- _AID_PURPLE_TRUST_AIR_HYDRA
+- _BTLE_OOB
+- _BTLE_SECURE_OOB
+- _CBORLibraryLibraryCore
+- _CBORLibraryLibraryCore.frameworkLibrary
+- _CH_ECP_FRAME_HEADER_TEMPLATE
+- _CH_ECP_FRAME_PREFERRED_RX
+- _IsXPCInvalidated
+- _MID_DREAMWORKS
+- _MID_JPKI
+- _MID_MIFARE_MCM
+- _NFResultCodeString
+- _NFTTRUserNotificationCallback
+- _NF_PPSE_APPLET_IDENTIFIER
+- _OBJC_CLASS_$_NFReaderSessionCallbacks
+- _OBJC_CLASS_$_NFReaderSessionInterface
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_IVAR_$_NFApplet._activationState
+- _OBJC_IVAR_$_NFApplet._appletCollection
+- _OBJC_IVAR_$_NFApplet._appletGPState
+- _OBJC_IVAR_$_NFApplet._authTransientConfigurable
+- _OBJC_IVAR_$_NFApplet._authTransientSupport
+- _OBJC_IVAR_$_NFApplet._discretionaryData
+- _OBJC_IVAR_$_NFApplet._family
+- _OBJC_IVAR_$_NFApplet._groupActivationStyle
+- _OBJC_IVAR_$_NFApplet._groupHeadIDAsData
+- _OBJC_IVAR_$_NFApplet._groupMemberIDs
+- _OBJC_IVAR_$_NFApplet._identifierAsData
+- _OBJC_IVAR_$_NFApplet._instanceACL
+- _OBJC_IVAR_$_NFApplet._isContainer
+- _OBJC_IVAR_$_NFApplet._isProxy
+- _OBJC_IVAR_$_NFApplet._managedBySP
+- _OBJC_IVAR_$_NFApplet._moduleIdentifierAsData
+- _OBJC_IVAR_$_NFApplet._multiSEApplicationGroupMemberIDs
+- _OBJC_IVAR_$_NFApplet._packageIdentifierAsData
+- _OBJC_IVAR_$_NFApplet._referencedAppIDs
+- _OBJC_IVAR_$_NFApplet._seIdentifier
+- _OBJC_IVAR_$_NFApplet._seOS
+- _OBJC_IVAR_$_NFApplet._typeFSystemCode
+- _OBJC_IVAR_$_NFAppletExtraInfo._applet
+- _OBJC_IVAR_$_NFAppletExtraInfo._obgk
+- _OBJC_IVAR_$_NFAppletExtraInfo._ssdAID
+- _OBJC_IVAR_$_NFAssertion._assertionTime
+- _OBJC_IVAR_$_NFAssertion._assertionType
+- _OBJC_IVAR_$_NFAssertion._isReleased
+- _OBJC_IVAR_$_NFAssertion._pid
+- _OBJC_IVAR_$_NFConnectionHandoverController._callbackQueue
+- _OBJC_IVAR_$_NFConnectionHandoverController._initiator
+- _OBJC_IVAR_$_NFConnectionHandoverController._lock
+- _OBJC_IVAR_$_NFConnectionHandoverController._state
+- _OBJC_IVAR_$_NFConnectionHandoverController._type
+- _OBJC_IVAR_$_NFConnectionHandoverController._version
+- _OBJC_IVAR_$_NFConnectionHandoverRequest._applicationLabel
+- _OBJC_IVAR_$_NFConnectionHandoverRequest._retryRandom
+- _OBJC_IVAR_$_NFConnectionHandoverRequest._transportServiceList
+- _OBJC_IVAR_$_NFConnectionHandoverRequest._userInfo
+- _OBJC_IVAR_$_NFConnectionHandoverRequest._version
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._applicationLabel
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._retryInMS
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._retryRandom
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._transportServiceList
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._userInfo
+- _OBJC_IVAR_$_NFConnectionHandoverSelect._version
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._amount
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._applet
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._appletIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._background
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._command
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._currency
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._didError
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._felicaInfo
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._informative
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._keyIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._parsedInfo
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._readerIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._result
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._status
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._tlv
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._transactionIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentEndEvent._type
+- _OBJC_IVAR_$_NFContactlessPaymentSession._fieldNotificationSent
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._applet
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._appletIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._background
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._keyIdentifier
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._paymentMode
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._selectStatus
+- _OBJC_IVAR_$_NFContactlessPaymentStartEvent._spIdentifier
+- _OBJC_IVAR_$_NFCredentialSession._lock
+- _OBJC_IVAR_$_NFCredentialTransceiver._invalidated
+- _OBJC_IVAR_$_NFCredentialTransceiver._lock
+- _OBJC_IVAR_$_NFCredentialTransceiver._parentSession
+- _OBJC_IVAR_$_NFDCKAssertion._sesAssertion
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._applet
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._appletIdentifier
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._brandCode
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._didError
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._keyIdentifier
+- _OBJC_IVAR_$_NFDigitalCarKeyEndEvent._result
+- _OBJC_IVAR_$_NFDigitalCarKeySession._cardEmulationStarted
+- _OBJC_IVAR_$_NFDigitalCarKeySession._fieldNotificationSent
+- _OBJC_IVAR_$_NFDigitalCarKeyStartEvent._applet
+- _OBJC_IVAR_$_NFDigitalCarKeyStartEvent._appletIdentifier
+- _OBJC_IVAR_$_NFDigitalCarKeyStartEvent._keyIdentifier
+- _OBJC_IVAR_$_NFDigitalCarKeyStartEvent._spIdentifier
+- _OBJC_IVAR_$_NFECommercePaymentRequest._appletIdentifier
+- _OBJC_IVAR_$_NFECommercePaymentRequest._countryCode
+- _OBJC_IVAR_$_NFECommercePaymentRequest._currencyCode
+- _OBJC_IVAR_$_NFECommercePaymentRequest._merchantCapabilities
+- _OBJC_IVAR_$_NFECommercePaymentRequest._merchantData
+- _OBJC_IVAR_$_NFECommercePaymentRequest._networkMerchantIdentifier
+- _OBJC_IVAR_$_NFECommercePaymentRequest._transactionAmount
+- _OBJC_IVAR_$_NFECommercePaymentRequest._transactionDate
+- _OBJC_IVAR_$_NFECommercePaymentRequest._unpredictableNumber
+- _OBJC_IVAR_$_NFECommercePaymentResponse._SEPcerts
+- _OBJC_IVAR_$_NFECommercePaymentResponse._certs
+- _OBJC_IVAR_$_NFECommercePaymentResponse._confirmationBlobHash
+- _OBJC_IVAR_$_NFECommercePaymentResponse._confirmationBlobSignature
+- _OBJC_IVAR_$_NFECommercePaymentResponse._confirmationBlobVersion
+- _OBJC_IVAR_$_NFECommercePaymentResponse._transactionData
+- _OBJC_IVAR_$_NFECommercePaymentResponse._transactionIdentifier
+- _OBJC_IVAR_$_NFECommercePaymentSession._appletsById
+- _OBJC_IVAR_$_NFFieldNotification._cachedBeforeRFReset
+- _OBJC_IVAR_$_NFFieldNotification._category
+- _OBJC_IVAR_$_NFFieldNotification._creationDate
+- _OBJC_IVAR_$_NFFieldNotification._notificationType
+- _OBJC_IVAR_$_NFFieldNotification._rfTechnology
+- _OBJC_IVAR_$_NFFieldNotification._typeFSystemCode
+- _OBJC_IVAR_$_NFHCESession._delegate
+- _OBJC_IVAR_$_NFHardwareControllerInfo._ROMVersion
+- _OBJC_IVAR_$_NFHardwareControllerInfo._firmwareRevision
+- _OBJC_IVAR_$_NFHardwareControllerInfo._firmwareVersion
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasAntenna
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasCarKeySupport
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasHLMSupport
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasIcfResistor
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasLPEMSupport
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasMFW
+- _OBJC_IVAR_$_NFHardwareControllerInfo._hasReaderModeSupport
+- _OBJC_IVAR_$_NFHardwareControllerInfo._middlewareVersion
+- _OBJC_IVAR_$_NFHardwareControllerInfo._poweredRunDuringSleep
+- _OBJC_IVAR_$_NFHardwareControllerInfo._siliconName
+- _OBJC_IVAR_$_NFHardwareControllerInfo._siliconVersion
+- _OBJC_IVAR_$_NFHardwareManager._callbackQueue
+- _OBJC_IVAR_$_NFHardwareManager._controllerInfo
+- _OBJC_IVAR_$_NFHardwareManager._didPreWarm
+- _OBJC_IVAR_$_NFHardwareManager._eventListeners
+- _OBJC_IVAR_$_NFHardwareManager._hasEventListener
+- _OBJC_IVAR_$_NFHardwareManager._hwSupport
+- _OBJC_IVAR_$_NFHardwareManager._lastClientState
+- _OBJC_IVAR_$_NFHardwareManager._listeningForNfcdStartedNtf
+- _OBJC_IVAR_$_NFHardwareManager._listeningQueue
+- _OBJC_IVAR_$_NFHardwareManager._secureElementsById
+- _OBJC_IVAR_$_NFHardwareManager._sessions
+- _OBJC_IVAR_$_NFHardwareManager._type
+- _OBJC_IVAR_$_NFHardwareManager._waitingClients
+- _OBJC_IVAR_$_NFHardwareManager._xpc
+- _OBJC_IVAR_$_NFHardwareManager._xpcQueue
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._OSMode
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._OSVersion
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._appletMap
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._atrString
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._bootHistory
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._compiledFWVersion
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._deviceType
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._ecdsaCertificateAsData
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._eckaCertificateAsData
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._firmwareKeyID
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._firmwareVersion
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._fullOSVersion
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._hardwareVersion
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._identifier
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._jcopTooOld
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._manifestQuery
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._migrationContext
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._migrationInstances
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._migrationPackages
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._migrationState
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._nonce
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._osKeyID
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._osUpdateMode
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._osid
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._otherOSValid
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._persistentConfigID
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._personalisable
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._platformIdentifier
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._referenceCounter
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._restrictedMode
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._restrictedPerformanceMode
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._rootKeyID
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._rsaCertificateAsData
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._seType
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._sequenceCounter
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._serialNumberAsData
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._signingKeyType
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._supportedTechnologies
+- _OBJC_IVAR_$_NFHardwareSecureElementInfo._systemOSSerialNumberAsData
+- _OBJC_IVAR_$_NFLoyaltyAndPaymentSession._emulationActive
+- _OBJC_IVAR_$_NFLoyaltyAndPaymentSession._vasTransactionInProgress
+- _OBJC_IVAR_$_NFNdefMessage._records
+- _OBJC_IVAR_$_NFNdefRecord._firstOctet
+- _OBJC_IVAR_$_NFNdefRecord._identifier
+- _OBJC_IVAR_$_NFNdefRecord._payload
+- _OBJC_IVAR_$_NFNdefRecord._type
+- _OBJC_IVAR_$_NFNdefTagSession._delegate
+- _OBJC_IVAR_$_NFPeerPaymentEnrollmentRequest._alternateDSID
+- _OBJC_IVAR_$_NFPeerPaymentEnrollmentResponse._certificate
+- _OBJC_IVAR_$_NFPeerPaymentEnrollmentResponse._prePeerPaymentCertificate
+- _OBJC_IVAR_$_NFPeerPaymentRequest._topUpRequest
+- _OBJC_IVAR_$_NFPeerPaymentRequest._transferRequest
+- _OBJC_IVAR_$_NFPeerPaymentResponse._certificates
+- _OBJC_IVAR_$_NFPeerPaymentResponse._transactionData
+- _OBJC_IVAR_$_NFPeerPaymentResponse._transactionIdentifier
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._appleTransactionHash
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._nonce
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._publicTransactionHash
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._transactionAmount
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._transactionCountry
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._transactionCurrency
+- _OBJC_IVAR_$_NFPeerPaymentTransferRequest._transactionDate
+- _OBJC_IVAR_$_NFReaderSession._actionSheetUI
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._ecp
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._fieldDetect
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._lpcd
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._pollDuration
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._skipMifareClassify
+- _OBJC_IVAR_$_NFReaderSessionPollConfig._technology
+- _OBJC_IVAR_$_NFRemoteAdminCardIngestionRequest._cardServiceInfo
+- _OBJC_IVAR_$_NFRemoteAdminCardIngestionRequest._maxDetectionTimeout
+- _OBJC_IVAR_$_NFRemoteAdminCardIngestionRequest._serverIdentifier
+- _OBJC_IVAR_$_NFRemoteAdminCardIngestionRequest._sessionToken
+- _OBJC_IVAR_$_NFRemoteAdminCardIngestionRequest._uri
+- _OBJC_IVAR_$_NFRemoteAdminManager._connection
+- _OBJC_IVAR_$_NFRemoteAdminManager._eventListeners
+- _OBJC_IVAR_$_NFRemoteAdminManager._hasEventListener
+- _OBJC_IVAR_$_NFRemoteAdminManager._xpcQueue
+- _OBJC_IVAR_$_NFRunScriptParameters._AIDAllowList
+- _OBJC_IVAR_$_NFRunScriptParameters._checkAIDAllowList
+- _OBJC_IVAR_$_NFRunScriptParameters._deactivateAllApps
+- _OBJC_IVAR_$_NFRunScriptParameters._disableCompletionNotification
+- _OBJC_IVAR_$_NFRunScriptParameters._includeAPDUDuration
+- _OBJC_IVAR_$_NFRunScriptParameters._initialSelectBeforeRun
+- _OBJC_IVAR_$_NFRunScriptParameters._outFailureResponseDetected
+- _OBJC_IVAR_$_NFRunScriptParameters._outFinalSWStatus
+- _OBJC_IVAR_$_NFRunScriptParameters._outIncompleteExecution
+- _OBJC_IVAR_$_NFRunScriptParameters._outTotalAPDUExecutionDuration
+- _OBJC_IVAR_$_NFRunScriptParameters._seid
+- _OBJC_IVAR_$_NFRunScriptParameters._toSystemOS
+- _OBJC_IVAR_$_NFSecureElement._info
+- _OBJC_IVAR_$_NFSecureElement._isDirty
+- _OBJC_IVAR_$_NFSecureElementReaderSession._delegate
+- _OBJC_IVAR_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface._protocolInterface
+- _OBJC_IVAR_$_NFSecureTransactionServicesHandoverBaseSessionInterface._protocolInterface
+- _OBJC_IVAR_$_NFSession._callbackQueue
+- _OBJC_IVAR_$_NFSession._didEndCallback
+- _OBJC_IVAR_$_NFSession._didStartCallback
+- _OBJC_IVAR_$_NFSession._isCallbackQueueSuspended
+- _OBJC_IVAR_$_NFSession._isFirstInQueue
+- _OBJC_IVAR_$_NFSession._proxy
+- _OBJC_IVAR_$_NFSession._sessionDelegate
+- _OBJC_IVAR_$_NFSession._sessionKillSwitch
+- _OBJC_IVAR_$_NFSession._state
+- _OBJC_IVAR_$_NFSignatureInfo._certificateVersion
+- _OBJC_IVAR_$_NFSignatureInfo._eccCert
+- _OBJC_IVAR_$_NFSignatureInfo._eckaCert
+- _OBJC_IVAR_$_NFSignatureInfo._jsblCounter
+- _OBJC_IVAR_$_NFSignatureInfo._platformId
+- _OBJC_IVAR_$_NFSignatureInfo._rsaCert
+- _OBJC_IVAR_$_NFSignatureInfo._seid
+- _OBJC_IVAR_$_NFTNEPService._maxMessageSize
+- _OBJC_IVAR_$_NFTNEPService._maxWaitTimeExtension
+- _OBJC_IVAR_$_NFTNEPService._minWaitTime
+- _OBJC_IVAR_$_NFTNEPService._uri
+- _OBJC_IVAR_$_NFTag._allSystemCodes
+- _OBJC_IVAR_$_NFTag._appData
+- _OBJC_IVAR_$_NFTag._atqa
+- _OBJC_IVAR_$_NFTag._description
+- _OBJC_IVAR_$_NFTag._historicalBytes
+- _OBJC_IVAR_$_NFTag._ndefAvailability
+- _OBJC_IVAR_$_NFTag._ndefContainerSize
+- _OBJC_IVAR_$_NFTag._ndefMessageSize
+- _OBJC_IVAR_$_NFTag._pmm
+- _OBJC_IVAR_$_NFTag._sak
+- _OBJC_IVAR_$_NFTag._sfgi
+- _OBJC_IVAR_$_NFTag._tagID
+- _OBJC_IVAR_$_NFTag._technology
+- _OBJC_IVAR_$_NFTag._type
+- _OBJC_IVAR_$_NFTag._uid
+- _OBJC_IVAR_$_NFTapToRadar._lsApplicationWorkspace
+- _OBJC_IVAR_$_NFTapToRadar._pendingRequest
+- _OBJC_IVAR_$_NFTapToRadar._queue
+- _OBJC_IVAR_$_NFTapToRadar._runLoopSource
+- _OBJC_IVAR_$_NFTapToRadar._userDefaults
+- _OBJC_IVAR_$_NFTapToRadar._userNotification
+- _OBJC_IVAR_$_NFTechnologyEvent._systemCode
+- _OBJC_IVAR_$_NFTechnologyEvent._technology
+- _OBJC_IVAR_$_NFTechnologyEvent._terminalType
+- _OBJC_IVAR_$_NFTechnologyEvent._touchIDRequired
+- _OBJC_IVAR_$_NFTechnologyEvent._valueAddedServiceMode
+- _OBJC_IVAR_$_NFTechnologyEvent._vasSupported
+- _OBJC_IVAR_$_NFTrustLocalValidation._primitiveLocalValidation
+- _OBJC_IVAR_$_NFUnifiedAccessAssertion._sesAssertion
+- _OBJC_IVAR_$_NFUnifiedAccessSession._cardEmulationStarted
+- _OBJC_IVAR_$_NFUnifiedAccessSession._emulationActive
+- _OBJC_IVAR_$_NFVASRequest._filter
+- _OBJC_IVAR_$_NFVASRequest._merchantId
+- _OBJC_IVAR_$_NFVASRequest._signupUrl
+- _OBJC_IVAR_$_NFVASRequest._terminalCap
+- _OBJC_IVAR_$_NFVASRequest._terminalProtocol
+- _OBJC_IVAR_$_NFVASResponse._mobileCapabilities
+- _OBJC_IVAR_$_NFVASResponse._request
+- _OBJC_IVAR_$_NFVASResponse._statusCode
+- _OBJC_IVAR_$_NFVASResponse._token
+- _OBJC_IVAR_$_NFVASResponse._vasData
+- _OBJC_IVAR_$_NFValueAddedServiceCard._data
+- _OBJC_IVAR_$_NFValueAddedServiceCard._identifier
+- _OBJC_IVAR_$_NFValueAddedServiceCard._token
+- _OBJC_IVAR_$_NFValueAddedServiceCard._type
+- _OBJC_IVAR_$_NFValueAddedServiceCard._userInterventionRequired
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._didSucceed
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._error
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._filter
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._filterType
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._merchantId
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._passData
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._result
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._signupUrl
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._terminalAppVersion
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._terminalMode
+- _OBJC_IVAR_$_NFValueAddedServiceTransaction._token
+- _OBJC_IVAR_$_NFVehicleReport._vehicleReport
+- _OBJC_IVAR_$_NFWalletPresentation._xpcClient
+- _OBJC_IVAR_$_NFWalletPresentation._xpcClientLock
+- _OBJC_IVAR_$_NFXPCServiceClient._clientCount
+- _OBJC_IVAR_$_NFXPCServiceClient._delegates
+- _OBJC_IVAR_$_NFXPCServiceClient._exportedInterface
+- _OBJC_IVAR_$_NFXPCServiceClient._exportedObject
+- _OBJC_IVAR_$_NFXPCServiceClient._remoteObjectInterface
+- _OBJC_IVAR_$_NFXPCServiceClient._serviceName
+- _OBJC_IVAR_$_NFXPCServiceClient._xpcConnection
+- _OBJC_IVAR_$_NFXPCServiceClient._xpcQueue
+- _OBJC_METACLASS_$_NFReaderSessionCallbacks
+- _OBJC_METACLASS_$_NFReaderSessionInterface
+- _OBJC_METACLASS_$_NFReaderSessionPollConfig
+- _SpringBoardServicesLibraryCore
+- _SpringBoardServicesLibraryCore.frameworkLibrary
+- _SymptomDiagnosticReporterLibrary
+- _SymptomDiagnosticReporterLibraryCore.frameworkLibrary
+- __GenerateAutoNegotiationECPFrame
+- __GenerateInitiatorECPFrame
+- __GeneratePreferredReceiverECPFrame
+- __MergedGlobals
+- __MergedGlobals.1
+- __NFCHValidateTransportServiceList
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSDate_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSNumber_$_NFTransportService
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_NFTransportService
+- __OBJC_$_CATEGORY_NSArray_$_NFTransportService
+- __OBJC_$_CATEGORY_NSData_$_NFTransportService
+- __OBJC_$_CATEGORY_NSDate_$_NFTransportService
+- __OBJC_$_CATEGORY_NSDictionary_$_NFTransportService
+- __OBJC_$_CATEGORY_NSNumber_$_NFTransportService
+- __OBJC_$_CATEGORY_NSString_$_NFTransportService
+- __OBJC_$_CLASS_METHODS_NFApplet(Private)
+- __OBJC_$_CLASS_METHODS_NFAppletExtraInfo
+- __OBJC_$_CLASS_METHODS_NFAssertion
+- __OBJC_$_CLASS_METHODS_NFConnectionHandoverInitiator
+- __OBJC_$_CLASS_METHODS_NFConnectionHandoverReceiver
+- __OBJC_$_CLASS_METHODS_NFConnectionHandoverSelect
+- __OBJC_$_CLASS_METHODS_NFContactlessPaymentEndEvent
+- __OBJC_$_CLASS_METHODS_NFContactlessPaymentStartEvent
+- __OBJC_$_CLASS_METHODS_NFContactlessSessionCallbacks
+- __OBJC_$_CLASS_METHODS_NFContactlessSessionInterface
+- __OBJC_$_CLASS_METHODS_NFCredentialSessionCallbackInterface
+- __OBJC_$_CLASS_METHODS_NFCredentialSessionInterface
+- __OBJC_$_CLASS_METHODS_NFDigitalCarKeyEndEvent
+- __OBJC_$_CLASS_METHODS_NFDigitalCarKeySession
+- __OBJC_$_CLASS_METHODS_NFDigitalCarKeyStartEvent
+- __OBJC_$_CLASS_METHODS_NFECommercePaymentRequest
+- __OBJC_$_CLASS_METHODS_NFECommercePaymentResponse
+- __OBJC_$_CLASS_METHODS_NFECommercePaymentSessionInterface
+- __OBJC_$_CLASS_METHODS_NFFieldDetectSessionInterfaceCallbacks
+- __OBJC_$_CLASS_METHODS_NFFieldNotification
+- __OBJC_$_CLASS_METHODS_NFFieldNotificationECP1_0
+- __OBJC_$_CLASS_METHODS_NFFieldNotificationECP2_0
+- __OBJC_$_CLASS_METHODS_NFHardwareControllerInfo
+- __OBJC_$_CLASS_METHODS_NFHardwareManager
+- __OBJC_$_CLASS_METHODS_NFHardwareSecureElementInfo
+- __OBJC_$_CLASS_METHODS_NFHostEmulationSessionCallbacks
+- __OBJC_$_CLASS_METHODS_NFNdefMessage
+- __OBJC_$_CLASS_METHODS_NFNdefRecord
+- __OBJC_$_CLASS_METHODS_NFNdefTagSession(Private)
+- __OBJC_$_CLASS_METHODS_NFPeerPaymentEnrollmentRequest
+- __OBJC_$_CLASS_METHODS_NFPeerPaymentEnrollmentResponse
+- __OBJC_$_CLASS_METHODS_NFPeerPaymentRequest
+- __OBJC_$_CLASS_METHODS_NFPeerPaymentResponse
+- __OBJC_$_CLASS_METHODS_NFPeerPaymentTransferRequest
+- __OBJC_$_CLASS_METHODS_NFReaderSessionCallbacks
+- __OBJC_$_CLASS_METHODS_NFReaderSessionInterface
+- __OBJC_$_CLASS_METHODS_NFReaderSessionInternalCallbacks
+- __OBJC_$_CLASS_METHODS_NFReaderSessionPollConfig
+- __OBJC_$_CLASS_METHODS_NFRemoteAdminCardIngestionRequest
+- __OBJC_$_CLASS_METHODS_NFRemoteAdminManager
+- __OBJC_$_CLASS_METHODS_NFRemoteAdminManagerCallbacks
+- __OBJC_$_CLASS_METHODS_NFRemoteAdminManagerInterface
+- __OBJC_$_CLASS_METHODS_NFRunScriptParameters(Private)
+- __OBJC_$_CLASS_METHODS_NFSecureElement
+- __OBJC_$_CLASS_METHODS_NFSecureElementLoggingSessionInterface
+- __OBJC_$_CLASS_METHODS_NFSecureElementReaderSessionCallbacks
+- __OBJC_$_CLASS_METHODS_NFSecureElementReaderSessionInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_$_CLASS_METHODS_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_$_CLASS_METHODS_NFSeshatSession
+- __OBJC_$_CLASS_METHODS_NFSignatureInfo
+- __OBJC_$_CLASS_METHODS_NFTNEPService
+- __OBJC_$_CLASS_METHODS_NFTag
+- __OBJC_$_CLASS_METHODS_NFTapToRadar
+- __OBJC_$_CLASS_METHODS_NFTechnologyEvent
+- __OBJC_$_CLASS_METHODS_NFTrustKey
+- __OBJC_$_CLASS_METHODS_NFTrustKeyRequest
+- __OBJC_$_CLASS_METHODS_NFTrustLocalValidation
+- __OBJC_$_CLASS_METHODS_NFTrustObject
+- __OBJC_$_CLASS_METHODS_NFTrustPaymentSignResponse
+- __OBJC_$_CLASS_METHODS_NFTrustSessionInterface
+- __OBJC_$_CLASS_METHODS_NFTrustSignRequest
+- __OBJC_$_CLASS_METHODS_NFTrustSignResponse
+- __OBJC_$_CLASS_METHODS_NFUnifiedAccessSession
+- __OBJC_$_CLASS_METHODS_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_$_CLASS_METHODS_NFUnifiedAccessSessionInterface
+- __OBJC_$_CLASS_METHODS_NFVASRequest
+- __OBJC_$_CLASS_METHODS_NFVASResponse
+- __OBJC_$_CLASS_METHODS_NFValueAddedServiceCard
+- __OBJC_$_CLASS_METHODS_NFValueAddedServiceTransaction
+- __OBJC_$_CLASS_METHODS_NFVehicleReport
+- __OBJC_$_CLASS_PROP_LIST_NFApplet
+- __OBJC_$_CLASS_PROP_LIST_NFAssertion
+- __OBJC_$_CLASS_PROP_LIST_NFContactlessPaymentEndEvent
+- __OBJC_$_CLASS_PROP_LIST_NFContactlessPaymentStartEvent
+- __OBJC_$_CLASS_PROP_LIST_NFDigitalCarKeyEndEvent
+- __OBJC_$_CLASS_PROP_LIST_NFDigitalCarKeyStartEvent
+- __OBJC_$_CLASS_PROP_LIST_NFECommercePaymentRequest
+- __OBJC_$_CLASS_PROP_LIST_NFECommercePaymentResponse
+- __OBJC_$_CLASS_PROP_LIST_NFFieldNotification
+- __OBJC_$_CLASS_PROP_LIST_NFHardwareControllerInfo
+- __OBJC_$_CLASS_PROP_LIST_NFHardwareSecureElementInfo
+- __OBJC_$_CLASS_PROP_LIST_NFNdefMessage
+- __OBJC_$_CLASS_PROP_LIST_NFNdefRecord
+- __OBJC_$_CLASS_PROP_LIST_NFPeerPaymentEnrollmentRequest
+- __OBJC_$_CLASS_PROP_LIST_NFPeerPaymentEnrollmentResponse
+- __OBJC_$_CLASS_PROP_LIST_NFPeerPaymentRequest
+- __OBJC_$_CLASS_PROP_LIST_NFPeerPaymentResponse
+- __OBJC_$_CLASS_PROP_LIST_NFPeerPaymentTransferRequest
+- __OBJC_$_CLASS_PROP_LIST_NFRemoteAdminCardIngestionRequest
+- __OBJC_$_CLASS_PROP_LIST_NFRunScriptParameters
+- __OBJC_$_CLASS_PROP_LIST_NFSignatureInfo
+- __OBJC_$_CLASS_PROP_LIST_NFTNEPService
+- __OBJC_$_CLASS_PROP_LIST_NFTag
+- __OBJC_$_CLASS_PROP_LIST_NFTechnologyEvent
+- __OBJC_$_CLASS_PROP_LIST_NFTrustObject
+- __OBJC_$_CLASS_PROP_LIST_NFValueAddedServiceCard
+- __OBJC_$_CLASS_PROP_LIST_NFValueAddedServiceTransaction
+- __OBJC_$_CLASS_PROP_LIST_NFVehicleReport
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_NFApplet(Private)
+- __OBJC_$_INSTANCE_METHODS_NFAppletExtraInfo
+- __OBJC_$_INSTANCE_METHODS_NFAssertion
+- __OBJC_$_INSTANCE_METHODS_NFConnectionHandoverController
+- __OBJC_$_INSTANCE_METHODS_NFConnectionHandoverInitiator
+- __OBJC_$_INSTANCE_METHODS_NFConnectionHandoverReceiver
+- __OBJC_$_INSTANCE_METHODS_NFConnectionHandoverRequest
+- __OBJC_$_INSTANCE_METHODS_NFConnectionHandoverSelect
+- __OBJC_$_INSTANCE_METHODS_NFContactlessPaymentEndEvent
+- __OBJC_$_INSTANCE_METHODS_NFContactlessPaymentSession
+- __OBJC_$_INSTANCE_METHODS_NFContactlessPaymentStartEvent
+- __OBJC_$_INSTANCE_METHODS_NFContactlessSession
+- __OBJC_$_INSTANCE_METHODS_NFCredentialSession
+- __OBJC_$_INSTANCE_METHODS_NFCredentialTransceiver
+- __OBJC_$_INSTANCE_METHODS_NFDCKAssertion
+- __OBJC_$_INSTANCE_METHODS_NFDigitalCarKeyEndEvent
+- __OBJC_$_INSTANCE_METHODS_NFDigitalCarKeySession
+- __OBJC_$_INSTANCE_METHODS_NFDigitalCarKeyStartEvent
+- __OBJC_$_INSTANCE_METHODS_NFECommercePaymentRequest
+- __OBJC_$_INSTANCE_METHODS_NFECommercePaymentResponse
+- __OBJC_$_INSTANCE_METHODS_NFECommercePaymentSession
+- __OBJC_$_INSTANCE_METHODS_NFFieldDetectSession
+- __OBJC_$_INSTANCE_METHODS_NFFieldNotification(ConnectionHandover)
+- __OBJC_$_INSTANCE_METHODS_NFFieldNotificationECP1_0
+- __OBJC_$_INSTANCE_METHODS_NFFieldNotificationECP2_0
+- __OBJC_$_INSTANCE_METHODS_NFHCESession
+- __OBJC_$_INSTANCE_METHODS_NFHardwareControllerInfo
+- __OBJC_$_INSTANCE_METHODS_NFHardwareManager
+- __OBJC_$_INSTANCE_METHODS_NFHardwareSecureElementInfo
+- __OBJC_$_INSTANCE_METHODS_NFLPEMConfigSession
+- __OBJC_$_INSTANCE_METHODS_NFLoyaltyAndPaymentSession
+- __OBJC_$_INSTANCE_METHODS_NFNdefMessage
+- __OBJC_$_INSTANCE_METHODS_NFNdefRecord
+- __OBJC_$_INSTANCE_METHODS_NFNdefTagSession(Private)
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentEnrollmentRequest
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentEnrollmentResponse
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentRequest
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentResponse
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentSession
+- __OBJC_$_INSTANCE_METHODS_NFPeerPaymentTransferRequest
+- __OBJC_$_INSTANCE_METHODS_NFReaderSession(InternalTest|Private)
+- __OBJC_$_INSTANCE_METHODS_NFReaderSessionPollConfig
+- __OBJC_$_INSTANCE_METHODS_NFRemoteAdminCardIngestionRequest
+- __OBJC_$_INSTANCE_METHODS_NFRemoteAdminManager
+- __OBJC_$_INSTANCE_METHODS_NFRunScriptParameters
+- __OBJC_$_INSTANCE_METHODS_NFSecureElement
+- __OBJC_$_INSTANCE_METHODS_NFSecureElementAndHostCardEmulationSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureElementLoggingSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureElementManagerSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureElementReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverSession
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_$_INSTANCE_METHODS_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_$_INSTANCE_METHODS_NFSeshatSession
+- __OBJC_$_INSTANCE_METHODS_NFSession
+- __OBJC_$_INSTANCE_METHODS_NFSignatureInfo
+- __OBJC_$_INSTANCE_METHODS_NFSingleUserSession
+- __OBJC_$_INSTANCE_METHODS_NFTNEPService
+- __OBJC_$_INSTANCE_METHODS_NFTag
+- __OBJC_$_INSTANCE_METHODS_NFTapToRadar
+- __OBJC_$_INSTANCE_METHODS_NFTechnologyEvent
+- __OBJC_$_INSTANCE_METHODS_NFTrustKey
+- __OBJC_$_INSTANCE_METHODS_NFTrustKeyRequest
+- __OBJC_$_INSTANCE_METHODS_NFTrustLocalValidation
+- __OBJC_$_INSTANCE_METHODS_NFTrustObject
+- __OBJC_$_INSTANCE_METHODS_NFTrustPaymentSignResponse
+- __OBJC_$_INSTANCE_METHODS_NFTrustSession
+- __OBJC_$_INSTANCE_METHODS_NFTrustSignRequest
+- __OBJC_$_INSTANCE_METHODS_NFTrustSignResponse
+- __OBJC_$_INSTANCE_METHODS_NFUnifiedAccessAssertion
+- __OBJC_$_INSTANCE_METHODS_NFUnifiedAccessSession
+- __OBJC_$_INSTANCE_METHODS_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_$_INSTANCE_METHODS_NFUnifiedAccessSessionInterface
+- __OBJC_$_INSTANCE_METHODS_NFVASRequest
+- __OBJC_$_INSTANCE_METHODS_NFVASResponse
+- __OBJC_$_INSTANCE_METHODS_NFValueAddedServiceCard
+- __OBJC_$_INSTANCE_METHODS_NFValueAddedServiceTransaction
+- __OBJC_$_INSTANCE_METHODS_NFVehicleReport
+- __OBJC_$_INSTANCE_METHODS_NFWalletPresentation
+- __OBJC_$_INSTANCE_METHODS_NFXPCServiceClient
+- __OBJC_$_INSTANCE_VARIABLES_NFApplet
+- __OBJC_$_INSTANCE_VARIABLES_NFAppletExtraInfo
+- __OBJC_$_INSTANCE_VARIABLES_NFAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NFConnectionHandoverController
+- __OBJC_$_INSTANCE_VARIABLES_NFConnectionHandoverInitiator
+- __OBJC_$_INSTANCE_VARIABLES_NFConnectionHandoverReceiver
+- __OBJC_$_INSTANCE_VARIABLES_NFConnectionHandoverRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFConnectionHandoverSelect
+- __OBJC_$_INSTANCE_VARIABLES_NFContactlessPaymentEndEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFContactlessPaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NFContactlessPaymentStartEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFContactlessSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCredentialSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCredentialTransceiver
+- __OBJC_$_INSTANCE_VARIABLES_NFDCKAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NFDigitalCarKeyEndEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFDigitalCarKeySession
+- __OBJC_$_INSTANCE_VARIABLES_NFDigitalCarKeyStartEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFECommercePaymentRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFECommercePaymentResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFECommercePaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NFFieldDetectSession
+- __OBJC_$_INSTANCE_VARIABLES_NFFieldNotification
+- __OBJC_$_INSTANCE_VARIABLES_NFFieldNotificationECP1_0
+- __OBJC_$_INSTANCE_VARIABLES_NFFieldNotificationECP2_0
+- __OBJC_$_INSTANCE_VARIABLES_NFHCESession
+- __OBJC_$_INSTANCE_VARIABLES_NFHardwareControllerInfo
+- __OBJC_$_INSTANCE_VARIABLES_NFHardwareManager
+- __OBJC_$_INSTANCE_VARIABLES_NFHardwareSecureElementInfo
+- __OBJC_$_INSTANCE_VARIABLES_NFLoyaltyAndPaymentSession
+- __OBJC_$_INSTANCE_VARIABLES_NFNdefMessage
+- __OBJC_$_INSTANCE_VARIABLES_NFNdefRecord
+- __OBJC_$_INSTANCE_VARIABLES_NFNdefTagSession
+- __OBJC_$_INSTANCE_VARIABLES_NFPeerPaymentEnrollmentRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFPeerPaymentEnrollmentResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFPeerPaymentRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFPeerPaymentResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFPeerPaymentTransferRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFReaderSessionPollConfig
+- __OBJC_$_INSTANCE_VARIABLES_NFRemoteAdminCardIngestionRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFRemoteAdminManager
+- __OBJC_$_INSTANCE_VARIABLES_NFRunScriptParameters
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureElement
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureElementManagerSession
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureElementReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureTransactionServicesHandoverSession
+- __OBJC_$_INSTANCE_VARIABLES_NFSession
+- __OBJC_$_INSTANCE_VARIABLES_NFSignatureInfo
+- __OBJC_$_INSTANCE_VARIABLES_NFTNEPService
+- __OBJC_$_INSTANCE_VARIABLES_NFTag
+- __OBJC_$_INSTANCE_VARIABLES_NFTapToRadar
+- __OBJC_$_INSTANCE_VARIABLES_NFTechnologyEvent
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustKey
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustKeyRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustLocalValidation
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustPaymentSignResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustSignRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFTrustSignResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFUnifiedAccessAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NFUnifiedAccessSession
+- __OBJC_$_INSTANCE_VARIABLES_NFVASRequest
+- __OBJC_$_INSTANCE_VARIABLES_NFVASResponse
+- __OBJC_$_INSTANCE_VARIABLES_NFValueAddedServiceCard
+- __OBJC_$_INSTANCE_VARIABLES_NFValueAddedServiceTransaction
+- __OBJC_$_INSTANCE_VARIABLES_NFVehicleReport
+- __OBJC_$_INSTANCE_VARIABLES_NFWalletPresentation
+- __OBJC_$_INSTANCE_VARIABLES_NFXPCServiceClient
+- __OBJC_$_PROP_LIST_NFAppletExtraInfo
+- __OBJC_$_PROP_LIST_NFAssertion
+- __OBJC_$_PROP_LIST_NFConnectionHandoverController
+- __OBJC_$_PROP_LIST_NFConnectionHandoverInitiator
+- __OBJC_$_PROP_LIST_NFConnectionHandoverReceiver
+- __OBJC_$_PROP_LIST_NFConnectionHandoverRequest
+- __OBJC_$_PROP_LIST_NFConnectionHandoverSelect
+- __OBJC_$_PROP_LIST_NFContactlessPaymentEndEvent
+- __OBJC_$_PROP_LIST_NFContactlessPaymentSession
+- __OBJC_$_PROP_LIST_NFContactlessPaymentStartEvent
+- __OBJC_$_PROP_LIST_NFContactlessSession
+- __OBJC_$_PROP_LIST_NFCredentialSession
+- __OBJC_$_PROP_LIST_NFCredentialTransceiver
+- __OBJC_$_PROP_LIST_NFDCKAssertion
+- __OBJC_$_PROP_LIST_NFDigitalCarKeyEndEvent
+- __OBJC_$_PROP_LIST_NFDigitalCarKeySession
+- __OBJC_$_PROP_LIST_NFDigitalCarKeyStartEvent
+- __OBJC_$_PROP_LIST_NFECommercePaymentRequest
+- __OBJC_$_PROP_LIST_NFECommercePaymentResponse
+- __OBJC_$_PROP_LIST_NFECommercePaymentSession
+- __OBJC_$_PROP_LIST_NFFieldDetectSession
+- __OBJC_$_PROP_LIST_NFFieldNotification
+- __OBJC_$_PROP_LIST_NFFieldNotificationECP1_0
+- __OBJC_$_PROP_LIST_NFFieldNotificationECP2_0
+- __OBJC_$_PROP_LIST_NFHCESession
+- __OBJC_$_PROP_LIST_NFHardwareControllerInfo
+- __OBJC_$_PROP_LIST_NFHardwareManager
+- __OBJC_$_PROP_LIST_NFHardwareSecureElementInfo
+- __OBJC_$_PROP_LIST_NFLoyaltyAndPaymentSession
+- __OBJC_$_PROP_LIST_NFNdefMessage
+- __OBJC_$_PROP_LIST_NFNdefMessage.84
+- __OBJC_$_PROP_LIST_NFNdefRecord
+- __OBJC_$_PROP_LIST_NFNdefRecord.156
+- __OBJC_$_PROP_LIST_NFNdefTagSession
+- __OBJC_$_PROP_LIST_NFPeerPaymentEnrollmentRequest
+- __OBJC_$_PROP_LIST_NFPeerPaymentEnrollmentResponse
+- __OBJC_$_PROP_LIST_NFPeerPaymentRequest
+- __OBJC_$_PROP_LIST_NFPeerPaymentResponse
+- __OBJC_$_PROP_LIST_NFPeerPaymentTransferRequest
+- __OBJC_$_PROP_LIST_NFReaderSession
+- __OBJC_$_PROP_LIST_NFReaderSessionPollConfig
+- __OBJC_$_PROP_LIST_NFRemoteAdminCardIngestionRequest
+- __OBJC_$_PROP_LIST_NFRemoteAdminManager
+- __OBJC_$_PROP_LIST_NFRunScriptParameters
+- __OBJC_$_PROP_LIST_NFSecureElement
+- __OBJC_$_PROP_LIST_NFSecureElementLoggingSession
+- __OBJC_$_PROP_LIST_NFSecureElementManagerSession
+- __OBJC_$_PROP_LIST_NFSecureElementReaderSession
+- __OBJC_$_PROP_LIST_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_PROP_LIST_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_$_PROP_LIST_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_$_PROP_LIST_NFSecureTransactionServicesHandoverSession
+- __OBJC_$_PROP_LIST_NFSeshatSession
+- __OBJC_$_PROP_LIST_NFSession
+- __OBJC_$_PROP_LIST_NFSignatureInfo
+- __OBJC_$_PROP_LIST_NFTNEPService
+- __OBJC_$_PROP_LIST_NFTag
+- __OBJC_$_PROP_LIST_NFTag.195
+- __OBJC_$_PROP_LIST_NFTagA
+- __OBJC_$_PROP_LIST_NFTagB
+- __OBJC_$_PROP_LIST_NFTagF
+- __OBJC_$_PROP_LIST_NFTechnologyEvent
+- __OBJC_$_PROP_LIST_NFTrustKey
+- __OBJC_$_PROP_LIST_NFTrustKeyRequest
+- __OBJC_$_PROP_LIST_NFTrustLocalValidation
+- __OBJC_$_PROP_LIST_NFTrustPaymentSignResponse
+- __OBJC_$_PROP_LIST_NFTrustSignRequest
+- __OBJC_$_PROP_LIST_NFTrustSignResponse
+- __OBJC_$_PROP_LIST_NFUnifiedAccessAssertion
+- __OBJC_$_PROP_LIST_NFUnifiedAccessSession
+- __OBJC_$_PROP_LIST_NFVASRequest
+- __OBJC_$_PROP_LIST_NFVASResponse
+- __OBJC_$_PROP_LIST_NFValueAddedServiceCard
+- __OBJC_$_PROP_LIST_NFValueAddedServiceTransaction
+- __OBJC_$_PROP_LIST_NFVehicleReport
+- __OBJC_$_PROP_LIST_NFXPCServiceClient
+- __OBJC_$_PROP_LIST_NSArray_$_NFTransportService
+- __OBJC_$_PROP_LIST_NSData_$_NFTransportService
+- __OBJC_$_PROP_LIST_NSDate_$_NFTransportService
+- __OBJC_$_PROP_LIST_NSDictionary_$_NFTransportService
+- __OBJC_$_PROP_LIST_NSNumber_$_NFTransportService
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_NSString_$_NFTransportService
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFAppletCollection
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCBOREncodable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFContactlessPaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFContactlessPaymentSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFContactlessSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFContactlessSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCredentialSessionCallbackInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCredentialSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCredentialTransceiver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFECommercePaymentSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFHardwareManagerInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFHostEmulationSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFHostEmulationSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFLPEMConfigSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefMessage
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefRecord
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefTagSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefTagSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFPeerPaymentSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionInternalCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionInternalInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFRemoteAdminManagerCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFRemoteAdminManagerInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureElementLoggingSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureElementManagerSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureElementReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureElementReaderSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSeshatSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSessionCallbackInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTNEPCallbackProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTNEPProtocol
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagA
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagB
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagF
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTrustLocalValidation
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTrustSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFWalletPresentationInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFXPCServiceClientDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFContactlessPaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFContactlessPaymentSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFContactlessSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFFieldDetectSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFHCESessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCConnectionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SESACWGSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SESDCKSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SESDCKSessionPassthroughDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_STSNotificationListenerSupport
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFAppletCollection
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCBOREncodable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFContactlessPaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFContactlessPaymentSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFContactlessSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFContactlessSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCredentialSessionCallbackInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCredentialSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCredentialTransceiver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFECommercePaymentSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFFieldDetectSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHCESessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHardwareManagerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHostEmulationSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFHostEmulationSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFLPEMConfigSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefMessage
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefRecord
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefTagSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefTagSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFPeerPaymentSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionInternalCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionInternalInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFRemoteAdminManagerCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFRemoteAdminManagerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureElementLoggingSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureElementManagerSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureElementReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureElementReaderSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSeshatSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSessionCallbackInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTNEPCallbackProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTNEPProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagA
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagB
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagF
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTrustLocalValidation
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTrustSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFWalletPresentationInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFXPCServiceClientDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCConnectionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SESACWGSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SESDCKSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SESDCKSessionPassthroughDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_STSNotificationListenerSupport
+- __OBJC_$_PROTOCOL_REFS_NFAppletCollection
+- __OBJC_$_PROTOCOL_REFS_NFCBOREncodable
+- __OBJC_$_PROTOCOL_REFS_NFContactlessPaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFContactlessPaymentSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFContactlessSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFContactlessSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFCredentialSessionCallbackInterface
+- __OBJC_$_PROTOCOL_REFS_NFCredentialSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFCredentialTransceiver
+- __OBJC_$_PROTOCOL_REFS_NFECommercePaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFECommercePaymentSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFFieldDetectSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFFieldDetectSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFHCESessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFHardwareManagerInterface
+- __OBJC_$_PROTOCOL_REFS_NFHostEmulationSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFHostEmulationSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFLPEMConfigSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFLPEMConfigSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFNdefMessage
+- __OBJC_$_PROTOCOL_REFS_NFNdefRecord
+- __OBJC_$_PROTOCOL_REFS_NFNdefTagSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFNdefTagSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFPeerPaymentSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFPeerPaymentSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionInternalCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionInternalInterface
+- __OBJC_$_PROTOCOL_REFS_NFRemoteAdminManagerCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFRemoteAdminManagerInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementAndHostCardEmulationSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementLoggingSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementLoggingSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementManagerSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementManagerSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFSecureElementReaderSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_REFS_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSeshatSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFSeshatSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFSession
+- __OBJC_$_PROTOCOL_REFS_NFSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFTag
+- __OBJC_$_PROTOCOL_REFS_NFTrustSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFTrustSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_$_PROTOCOL_REFS_NFUnifiedAccessSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NSXPCConnectionDelegate
+- __OBJC_$_PROTOCOL_REFS_SESACWGSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_SESDCKSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_SESDCKSessionPassthroughDelegate
+- __OBJC_CATEGORY_PROTOCOLS_$_NSArray_$_NFTransportService
+- __OBJC_CATEGORY_PROTOCOLS_$_NSData_$_NFTransportService
+- __OBJC_CATEGORY_PROTOCOLS_$_NSDate_$_NFTransportService
+- __OBJC_CATEGORY_PROTOCOLS_$_NSDictionary_$_NFTransportService
+- __OBJC_CATEGORY_PROTOCOLS_$_NSNumber_$_NFTransportService
+- __OBJC_CATEGORY_PROTOCOLS_$_NSString_$_NFTransportService
+- __OBJC_CLASS_PROTOCOLS_$_NFApplet
+- __OBJC_CLASS_PROTOCOLS_$_NFAssertion
+- __OBJC_CLASS_PROTOCOLS_$_NFConnectionHandoverInitiator
+- __OBJC_CLASS_PROTOCOLS_$_NFConnectionHandoverReceiver
+- __OBJC_CLASS_PROTOCOLS_$_NFConnectionHandoverRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFConnectionHandoverSelect
+- __OBJC_CLASS_PROTOCOLS_$_NFContactlessPaymentEndEvent
+- __OBJC_CLASS_PROTOCOLS_$_NFContactlessPaymentSession
+- __OBJC_CLASS_PROTOCOLS_$_NFContactlessPaymentStartEvent
+- __OBJC_CLASS_PROTOCOLS_$_NFContactlessSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCredentialSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCredentialTransceiver
+- __OBJC_CLASS_PROTOCOLS_$_NFDigitalCarKeyEndEvent
+- __OBJC_CLASS_PROTOCOLS_$_NFDigitalCarKeySession
+- __OBJC_CLASS_PROTOCOLS_$_NFDigitalCarKeyStartEvent
+- __OBJC_CLASS_PROTOCOLS_$_NFECommercePaymentRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFECommercePaymentResponse
+- __OBJC_CLASS_PROTOCOLS_$_NFECommercePaymentSession
+- __OBJC_CLASS_PROTOCOLS_$_NFFieldDetectSession
+- __OBJC_CLASS_PROTOCOLS_$_NFFieldNotification
+- __OBJC_CLASS_PROTOCOLS_$_NFFieldNotificationECP1_0
+- __OBJC_CLASS_PROTOCOLS_$_NFFieldNotificationECP2_0
+- __OBJC_CLASS_PROTOCOLS_$_NFHCESession
+- __OBJC_CLASS_PROTOCOLS_$_NFHardwareControllerInfo
+- __OBJC_CLASS_PROTOCOLS_$_NFHardwareManager
+- __OBJC_CLASS_PROTOCOLS_$_NFHardwareSecureElementInfo
+- __OBJC_CLASS_PROTOCOLS_$_NFNdefMessage
+- __OBJC_CLASS_PROTOCOLS_$_NFNdefRecord
+- __OBJC_CLASS_PROTOCOLS_$_NFNdefTagSession
+- __OBJC_CLASS_PROTOCOLS_$_NFPeerPaymentEnrollmentRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFPeerPaymentEnrollmentResponse
+- __OBJC_CLASS_PROTOCOLS_$_NFPeerPaymentRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFPeerPaymentResponse
+- __OBJC_CLASS_PROTOCOLS_$_NFPeerPaymentTransferRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFRemoteAdminCardIngestionRequest
+- __OBJC_CLASS_PROTOCOLS_$_NFRemoteAdminManager
+- __OBJC_CLASS_PROTOCOLS_$_NFRunScriptParameters
+- __OBJC_CLASS_PROTOCOLS_$_NFSecureElementLoggingSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSecureElementManagerSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSecureTransactionServicesHandoverSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSeshatSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSession
+- __OBJC_CLASS_PROTOCOLS_$_NFSignatureInfo
+- __OBJC_CLASS_PROTOCOLS_$_NFTNEPService
+- __OBJC_CLASS_PROTOCOLS_$_NFTag
+- __OBJC_CLASS_PROTOCOLS_$_NFTechnologyEvent
+- __OBJC_CLASS_PROTOCOLS_$_NFTrustLocalValidation
+- __OBJC_CLASS_PROTOCOLS_$_NFTrustObject
+- __OBJC_CLASS_PROTOCOLS_$_NFUnifiedAccessSession
+- __OBJC_CLASS_PROTOCOLS_$_NFValueAddedServiceCard
+- __OBJC_CLASS_PROTOCOLS_$_NFValueAddedServiceTransaction
+- __OBJC_CLASS_PROTOCOLS_$_NFVehicleReport
+- __OBJC_CLASS_PROTOCOLS_$_NFWalletPresentation
+- __OBJC_CLASS_RO_$_NFApplet
+- __OBJC_CLASS_RO_$_NFAppletExtraInfo
+- __OBJC_CLASS_RO_$_NFAssertion
+- __OBJC_CLASS_RO_$_NFConnectionHandoverController
+- __OBJC_CLASS_RO_$_NFConnectionHandoverInitiator
+- __OBJC_CLASS_RO_$_NFConnectionHandoverReceiver
+- __OBJC_CLASS_RO_$_NFConnectionHandoverRequest
+- __OBJC_CLASS_RO_$_NFConnectionHandoverSelect
+- __OBJC_CLASS_RO_$_NFContactlessPaymentEndEvent
+- __OBJC_CLASS_RO_$_NFContactlessPaymentSession
+- __OBJC_CLASS_RO_$_NFContactlessPaymentSessionCallbacks
+- __OBJC_CLASS_RO_$_NFContactlessPaymentSessionInterface
+- __OBJC_CLASS_RO_$_NFContactlessPaymentStartEvent
+- __OBJC_CLASS_RO_$_NFContactlessSession
+- __OBJC_CLASS_RO_$_NFContactlessSessionCallbacks
+- __OBJC_CLASS_RO_$_NFContactlessSessionInterface
+- __OBJC_CLASS_RO_$_NFCredentialSession
+- __OBJC_CLASS_RO_$_NFCredentialSessionCallbackInterface
+- __OBJC_CLASS_RO_$_NFCredentialSessionInterface
+- __OBJC_CLASS_RO_$_NFCredentialTransceiver
+- __OBJC_CLASS_RO_$_NFDCKAssertion
+- __OBJC_CLASS_RO_$_NFDigitalCarKeyEndEvent
+- __OBJC_CLASS_RO_$_NFDigitalCarKeySession
+- __OBJC_CLASS_RO_$_NFDigitalCarKeyStartEvent
+- __OBJC_CLASS_RO_$_NFECommercePaymentRequest
+- __OBJC_CLASS_RO_$_NFECommercePaymentResponse
+- __OBJC_CLASS_RO_$_NFECommercePaymentSession
+- __OBJC_CLASS_RO_$_NFECommercePaymentSessionInterface
+- __OBJC_CLASS_RO_$_NFFieldDetectSession
+- __OBJC_CLASS_RO_$_NFFieldDetectSessionInterfaceCallbacks
+- __OBJC_CLASS_RO_$_NFFieldNotification
+- __OBJC_CLASS_RO_$_NFFieldNotificationECP1_0
+- __OBJC_CLASS_RO_$_NFFieldNotificationECP2_0
+- __OBJC_CLASS_RO_$_NFHCESession
+- __OBJC_CLASS_RO_$_NFHardwareControllerInfo
+- __OBJC_CLASS_RO_$_NFHardwareManager
+- __OBJC_CLASS_RO_$_NFHardwareManagerCallbacks
+- __OBJC_CLASS_RO_$_NFHardwareManagerInterface
+- __OBJC_CLASS_RO_$_NFHardwareSecureElementInfo
+- __OBJC_CLASS_RO_$_NFHostEmulationSessionCallbacks
+- __OBJC_CLASS_RO_$_NFLPEMConfigSession
+- __OBJC_CLASS_RO_$_NFLoyaltyAndPaymentSession
+- __OBJC_CLASS_RO_$_NFNdefMessage
+- __OBJC_CLASS_RO_$_NFNdefRecord
+- __OBJC_CLASS_RO_$_NFNdefTagSession
+- __OBJC_CLASS_RO_$_NFPeerPaymentEnrollmentRequest
+- __OBJC_CLASS_RO_$_NFPeerPaymentEnrollmentResponse
+- __OBJC_CLASS_RO_$_NFPeerPaymentRequest
+- __OBJC_CLASS_RO_$_NFPeerPaymentResponse
+- __OBJC_CLASS_RO_$_NFPeerPaymentSession
+- __OBJC_CLASS_RO_$_NFPeerPaymentTransferRequest
+- __OBJC_CLASS_RO_$_NFReaderSession
+- __OBJC_CLASS_RO_$_NFReaderSessionCallbacks
+- __OBJC_CLASS_RO_$_NFReaderSessionInterface
+- __OBJC_CLASS_RO_$_NFReaderSessionInternalCallbacks
+- __OBJC_CLASS_RO_$_NFReaderSessionInternalInterface
+- __OBJC_CLASS_RO_$_NFReaderSessionPollConfig
+- __OBJC_CLASS_RO_$_NFRemoteAdminCardIngestionRequest
+- __OBJC_CLASS_RO_$_NFRemoteAdminManager
+- __OBJC_CLASS_RO_$_NFRemoteAdminManagerCallbacks
+- __OBJC_CLASS_RO_$_NFRemoteAdminManagerInterface
+- __OBJC_CLASS_RO_$_NFRunScriptParameters
+- __OBJC_CLASS_RO_$_NFSecureElement
+- __OBJC_CLASS_RO_$_NFSecureElementAndHostCardEmulationSession
+- __OBJC_CLASS_RO_$_NFSecureElementLoggingSession
+- __OBJC_CLASS_RO_$_NFSecureElementLoggingSessionInterface
+- __OBJC_CLASS_RO_$_NFSecureElementManagerSession
+- __OBJC_CLASS_RO_$_NFSecureElementManagerSessionInterface
+- __OBJC_CLASS_RO_$_NFSecureElementReaderSession
+- __OBJC_CLASS_RO_$_NFSecureElementReaderSessionCallbacks
+- __OBJC_CLASS_RO_$_NFSecureElementReaderSessionInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverSession
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_CLASS_RO_$_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_CLASS_RO_$_NFSeshatSession
+- __OBJC_CLASS_RO_$_NFSeshatSessionInterface
+- __OBJC_CLASS_RO_$_NFSession
+- __OBJC_CLASS_RO_$_NFSignatureInfo
+- __OBJC_CLASS_RO_$_NFSingleUserSession
+- __OBJC_CLASS_RO_$_NFTNEPService
+- __OBJC_CLASS_RO_$_NFTag
+- __OBJC_CLASS_RO_$_NFTapToRadar
+- __OBJC_CLASS_RO_$_NFTechnologyEvent
+- __OBJC_CLASS_RO_$_NFTrustKey
+- __OBJC_CLASS_RO_$_NFTrustKeyRequest
+- __OBJC_CLASS_RO_$_NFTrustLocalValidation
+- __OBJC_CLASS_RO_$_NFTrustObject
+- __OBJC_CLASS_RO_$_NFTrustPaymentSignResponse
+- __OBJC_CLASS_RO_$_NFTrustSession
+- __OBJC_CLASS_RO_$_NFTrustSessionInterface
+- __OBJC_CLASS_RO_$_NFTrustSignRequest
+- __OBJC_CLASS_RO_$_NFTrustSignResponse
+- __OBJC_CLASS_RO_$_NFUnifiedAccessAssertion
+- __OBJC_CLASS_RO_$_NFUnifiedAccessSession
+- __OBJC_CLASS_RO_$_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_CLASS_RO_$_NFUnifiedAccessSessionInterface
+- __OBJC_CLASS_RO_$_NFVASRequest
+- __OBJC_CLASS_RO_$_NFVASResponse
+- __OBJC_CLASS_RO_$_NFValueAddedServiceCard
+- __OBJC_CLASS_RO_$_NFValueAddedServiceTransaction
+- __OBJC_CLASS_RO_$_NFVehicleReport
+- __OBJC_CLASS_RO_$_NFWalletPresentation
+- __OBJC_CLASS_RO_$_NFXPCServiceClient
+- __OBJC_LABEL_PROTOCOL_$_NFAppletCollection
+- __OBJC_LABEL_PROTOCOL_$_NFCBOREncodable
+- __OBJC_LABEL_PROTOCOL_$_NFContactlessPaymentSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFContactlessPaymentSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFContactlessSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFContactlessSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCredentialSessionCallbackInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCredentialSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCredentialTransceiver
+- __OBJC_LABEL_PROTOCOL_$_NFECommercePaymentSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFECommercePaymentSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFFieldDetectSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFFieldDetectSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFFieldDetectSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFHCESessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFHardwareManagerCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFHardwareManagerInterface
+- __OBJC_LABEL_PROTOCOL_$_NFHostEmulationSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFHostEmulationSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFLPEMConfigSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFLPEMConfigSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFNdefMessage
+- __OBJC_LABEL_PROTOCOL_$_NFNdefRecord
+- __OBJC_LABEL_PROTOCOL_$_NFNdefTagSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFNdefTagSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFPeerPaymentSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFPeerPaymentSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionInternalCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionInternalInterface
+- __OBJC_LABEL_PROTOCOL_$_NFRemoteAdminManagerCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFRemoteAdminManagerInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementAndHostCardEmulationSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementLoggingSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementLoggingSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementManagerSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementManagerSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementReaderSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFSecureElementReaderSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSeshatSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFSeshatSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSession
+- __OBJC_LABEL_PROTOCOL_$_NFSessionCallbackInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFTNEPCallbackProtocol
+- __OBJC_LABEL_PROTOCOL_$_NFTNEPProtocol
+- __OBJC_LABEL_PROTOCOL_$_NFTag
+- __OBJC_LABEL_PROTOCOL_$_NFTagA
+- __OBJC_LABEL_PROTOCOL_$_NFTagB
+- __OBJC_LABEL_PROTOCOL_$_NFTagF
+- __OBJC_LABEL_PROTOCOL_$_NFTrustLocalValidation
+- __OBJC_LABEL_PROTOCOL_$_NFTrustSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFTrustSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_LABEL_PROTOCOL_$_NFUnifiedAccessSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFWalletPresentationInterface
+- __OBJC_LABEL_PROTOCOL_$_NFXPCServiceClientDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NSXPCConnectionDelegate
+- __OBJC_LABEL_PROTOCOL_$_SESACWGSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_SESDCKSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_SESDCKSessionPassthroughDelegate
+- __OBJC_LABEL_PROTOCOL_$_STSNotificationListenerSupport
+- __OBJC_METACLASS_RO_$_NFApplet
+- __OBJC_METACLASS_RO_$_NFAppletExtraInfo
+- __OBJC_METACLASS_RO_$_NFAssertion
+- __OBJC_METACLASS_RO_$_NFConnectionHandoverController
+- __OBJC_METACLASS_RO_$_NFConnectionHandoverInitiator
+- __OBJC_METACLASS_RO_$_NFConnectionHandoverReceiver
+- __OBJC_METACLASS_RO_$_NFConnectionHandoverRequest
+- __OBJC_METACLASS_RO_$_NFConnectionHandoverSelect
+- __OBJC_METACLASS_RO_$_NFContactlessPaymentEndEvent
+- __OBJC_METACLASS_RO_$_NFContactlessPaymentSession
+- __OBJC_METACLASS_RO_$_NFContactlessPaymentSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFContactlessPaymentSessionInterface
+- __OBJC_METACLASS_RO_$_NFContactlessPaymentStartEvent
+- __OBJC_METACLASS_RO_$_NFContactlessSession
+- __OBJC_METACLASS_RO_$_NFContactlessSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFContactlessSessionInterface
+- __OBJC_METACLASS_RO_$_NFCredentialSession
+- __OBJC_METACLASS_RO_$_NFCredentialSessionCallbackInterface
+- __OBJC_METACLASS_RO_$_NFCredentialSessionInterface
+- __OBJC_METACLASS_RO_$_NFCredentialTransceiver
+- __OBJC_METACLASS_RO_$_NFDCKAssertion
+- __OBJC_METACLASS_RO_$_NFDigitalCarKeyEndEvent
+- __OBJC_METACLASS_RO_$_NFDigitalCarKeySession
+- __OBJC_METACLASS_RO_$_NFDigitalCarKeyStartEvent
+- __OBJC_METACLASS_RO_$_NFECommercePaymentRequest
+- __OBJC_METACLASS_RO_$_NFECommercePaymentResponse
+- __OBJC_METACLASS_RO_$_NFECommercePaymentSession
+- __OBJC_METACLASS_RO_$_NFECommercePaymentSessionInterface
+- __OBJC_METACLASS_RO_$_NFFieldDetectSession
+- __OBJC_METACLASS_RO_$_NFFieldDetectSessionInterfaceCallbacks
+- __OBJC_METACLASS_RO_$_NFFieldNotification
+- __OBJC_METACLASS_RO_$_NFFieldNotificationECP1_0
+- __OBJC_METACLASS_RO_$_NFFieldNotificationECP2_0
+- __OBJC_METACLASS_RO_$_NFHCESession
+- __OBJC_METACLASS_RO_$_NFHardwareControllerInfo
+- __OBJC_METACLASS_RO_$_NFHardwareManager
+- __OBJC_METACLASS_RO_$_NFHardwareManagerCallbacks
+- __OBJC_METACLASS_RO_$_NFHardwareManagerInterface
+- __OBJC_METACLASS_RO_$_NFHardwareSecureElementInfo
+- __OBJC_METACLASS_RO_$_NFHostEmulationSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFLPEMConfigSession
+- __OBJC_METACLASS_RO_$_NFLoyaltyAndPaymentSession
+- __OBJC_METACLASS_RO_$_NFNdefMessage
+- __OBJC_METACLASS_RO_$_NFNdefRecord
+- __OBJC_METACLASS_RO_$_NFNdefTagSession
+- __OBJC_METACLASS_RO_$_NFPeerPaymentEnrollmentRequest
+- __OBJC_METACLASS_RO_$_NFPeerPaymentEnrollmentResponse
+- __OBJC_METACLASS_RO_$_NFPeerPaymentRequest
+- __OBJC_METACLASS_RO_$_NFPeerPaymentResponse
+- __OBJC_METACLASS_RO_$_NFPeerPaymentSession
+- __OBJC_METACLASS_RO_$_NFPeerPaymentTransferRequest
+- __OBJC_METACLASS_RO_$_NFReaderSession
+- __OBJC_METACLASS_RO_$_NFReaderSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFReaderSessionInterface
+- __OBJC_METACLASS_RO_$_NFReaderSessionInternalCallbacks
+- __OBJC_METACLASS_RO_$_NFReaderSessionInternalInterface
+- __OBJC_METACLASS_RO_$_NFReaderSessionPollConfig
+- __OBJC_METACLASS_RO_$_NFRemoteAdminCardIngestionRequest
+- __OBJC_METACLASS_RO_$_NFRemoteAdminManager
+- __OBJC_METACLASS_RO_$_NFRemoteAdminManagerCallbacks
+- __OBJC_METACLASS_RO_$_NFRemoteAdminManagerInterface
+- __OBJC_METACLASS_RO_$_NFRunScriptParameters
+- __OBJC_METACLASS_RO_$_NFSecureElement
+- __OBJC_METACLASS_RO_$_NFSecureElementAndHostCardEmulationSession
+- __OBJC_METACLASS_RO_$_NFSecureElementLoggingSession
+- __OBJC_METACLASS_RO_$_NFSecureElementLoggingSessionInterface
+- __OBJC_METACLASS_RO_$_NFSecureElementManagerSession
+- __OBJC_METACLASS_RO_$_NFSecureElementManagerSessionInterface
+- __OBJC_METACLASS_RO_$_NFSecureElementReaderSession
+- __OBJC_METACLASS_RO_$_NFSecureElementReaderSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFSecureElementReaderSessionInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverHybridSession
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverSession
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_METACLASS_RO_$_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_METACLASS_RO_$_NFSeshatSession
+- __OBJC_METACLASS_RO_$_NFSeshatSessionInterface
+- __OBJC_METACLASS_RO_$_NFSession
+- __OBJC_METACLASS_RO_$_NFSignatureInfo
+- __OBJC_METACLASS_RO_$_NFSingleUserSession
+- __OBJC_METACLASS_RO_$_NFTNEPService
+- __OBJC_METACLASS_RO_$_NFTag
+- __OBJC_METACLASS_RO_$_NFTapToRadar
+- __OBJC_METACLASS_RO_$_NFTechnologyEvent
+- __OBJC_METACLASS_RO_$_NFTrustKey
+- __OBJC_METACLASS_RO_$_NFTrustKeyRequest
+- __OBJC_METACLASS_RO_$_NFTrustLocalValidation
+- __OBJC_METACLASS_RO_$_NFTrustObject
+- __OBJC_METACLASS_RO_$_NFTrustPaymentSignResponse
+- __OBJC_METACLASS_RO_$_NFTrustSession
+- __OBJC_METACLASS_RO_$_NFTrustSessionInterface
+- __OBJC_METACLASS_RO_$_NFTrustSignRequest
+- __OBJC_METACLASS_RO_$_NFTrustSignResponse
+- __OBJC_METACLASS_RO_$_NFUnifiedAccessAssertion
+- __OBJC_METACLASS_RO_$_NFUnifiedAccessSession
+- __OBJC_METACLASS_RO_$_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_METACLASS_RO_$_NFUnifiedAccessSessionInterface
+- __OBJC_METACLASS_RO_$_NFVASRequest
+- __OBJC_METACLASS_RO_$_NFVASResponse
+- __OBJC_METACLASS_RO_$_NFValueAddedServiceCard
+- __OBJC_METACLASS_RO_$_NFValueAddedServiceTransaction
+- __OBJC_METACLASS_RO_$_NFVehicleReport
+- __OBJC_METACLASS_RO_$_NFWalletPresentation
+- __OBJC_METACLASS_RO_$_NFXPCServiceClient
+- __OBJC_PROTOCOL_$_NFAppletCollection
+- __OBJC_PROTOCOL_$_NFCBOREncodable
+- __OBJC_PROTOCOL_$_NFContactlessPaymentSessionCallbacks
+- __OBJC_PROTOCOL_$_NFContactlessPaymentSessionInterface
+- __OBJC_PROTOCOL_$_NFContactlessSessionCallbacks
+- __OBJC_PROTOCOL_$_NFContactlessSessionInterface
+- __OBJC_PROTOCOL_$_NFCredentialSessionCallbackInterface
+- __OBJC_PROTOCOL_$_NFCredentialSessionInterface
+- __OBJC_PROTOCOL_$_NFCredentialTransceiver
+- __OBJC_PROTOCOL_$_NFECommercePaymentSessionCallbacks
+- __OBJC_PROTOCOL_$_NFECommercePaymentSessionInterface
+- __OBJC_PROTOCOL_$_NFFieldDetectSessionCallbacks
+- __OBJC_PROTOCOL_$_NFFieldDetectSessionDelegate
+- __OBJC_PROTOCOL_$_NFFieldDetectSessionInterface
+- __OBJC_PROTOCOL_$_NFHCESessionDelegate
+- __OBJC_PROTOCOL_$_NFHardwareManagerCallbacks
+- __OBJC_PROTOCOL_$_NFHardwareManagerInterface
+- __OBJC_PROTOCOL_$_NFHostEmulationSessionCallbacks
+- __OBJC_PROTOCOL_$_NFHostEmulationSessionInterface
+- __OBJC_PROTOCOL_$_NFLPEMConfigSessionCallbacks
+- __OBJC_PROTOCOL_$_NFLPEMConfigSessionInterface
+- __OBJC_PROTOCOL_$_NFNdefMessage
+- __OBJC_PROTOCOL_$_NFNdefRecord
+- __OBJC_PROTOCOL_$_NFNdefTagSessionCallbacks
+- __OBJC_PROTOCOL_$_NFNdefTagSessionInterface
+- __OBJC_PROTOCOL_$_NFPeerPaymentSessionCallbacks
+- __OBJC_PROTOCOL_$_NFPeerPaymentSessionInterface
+- __OBJC_PROTOCOL_$_NFReaderSessionCallbacks
+- __OBJC_PROTOCOL_$_NFReaderSessionDelegate
+- __OBJC_PROTOCOL_$_NFReaderSessionInterface
+- __OBJC_PROTOCOL_$_NFReaderSessionInternalCallbacks
+- __OBJC_PROTOCOL_$_NFReaderSessionInternalInterface
+- __OBJC_PROTOCOL_$_NFRemoteAdminManagerCallbacks
+- __OBJC_PROTOCOL_$_NFRemoteAdminManagerInterface
+- __OBJC_PROTOCOL_$_NFSecureElementAndHostCardEmulationSessionCallbacks
+- __OBJC_PROTOCOL_$_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureElementLoggingSessionCallbacks
+- __OBJC_PROTOCOL_$_NFSecureElementLoggingSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureElementManagerSessionCallbacks
+- __OBJC_PROTOCOL_$_NFSecureElementManagerSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureElementReaderSessionCallbacks
+- __OBJC_PROTOCOL_$_NFSecureElementReaderSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_PROTOCOL_$_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_PROTOCOL_$_NFSeshatSessionCallbacks
+- __OBJC_PROTOCOL_$_NFSeshatSessionInterface
+- __OBJC_PROTOCOL_$_NFSession
+- __OBJC_PROTOCOL_$_NFSessionCallbackInterface
+- __OBJC_PROTOCOL_$_NFSessionDelegate
+- __OBJC_PROTOCOL_$_NFSessionInterface
+- __OBJC_PROTOCOL_$_NFTNEPCallbackProtocol
+- __OBJC_PROTOCOL_$_NFTNEPProtocol
+- __OBJC_PROTOCOL_$_NFTag
+- __OBJC_PROTOCOL_$_NFTagA
+- __OBJC_PROTOCOL_$_NFTagB
+- __OBJC_PROTOCOL_$_NFTagF
+- __OBJC_PROTOCOL_$_NFTrustLocalValidation
+- __OBJC_PROTOCOL_$_NFTrustSessionCallbacks
+- __OBJC_PROTOCOL_$_NFTrustSessionInterface
+- __OBJC_PROTOCOL_$_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_PROTOCOL_$_NFUnifiedAccessSessionInterface
+- __OBJC_PROTOCOL_$_NFWalletPresentationInterface
+- __OBJC_PROTOCOL_$_NFXPCServiceClientDelegate
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSXPCConnectionDelegate
+- __OBJC_PROTOCOL_$_SESACWGSessionDelegate
+- __OBJC_PROTOCOL_$_SESDCKSessionDelegate
+- __OBJC_PROTOCOL_$_SESDCKSessionPassthroughDelegate
+- __OBJC_PROTOCOL_$_STSNotificationListenerSupport
+- __OBJC_PROTOCOL_REFERENCE_$_NFContactlessPaymentSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFContactlessPaymentSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFContactlessSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFContactlessSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCredentialSessionCallbackInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCredentialSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFECommercePaymentSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFECommercePaymentSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFFieldDetectSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFFieldDetectSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFHardwareManagerCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFHardwareManagerInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFHostEmulationSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFHostEmulationSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFLPEMConfigSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFLPEMConfigSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFNdefTagSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFNdefTagSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFPeerPaymentSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFPeerPaymentSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionInternalCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionInternalInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFRemoteAdminManagerCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFRemoteAdminManagerInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementAndHostCardEmulationSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementAndHostCardEmulationSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementLoggingSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementLoggingSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementManagerSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementManagerSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementReaderSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureElementReaderSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverBaseSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverHybridSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverSessionCallbacksInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSecureTransactionServicesHandoverSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFSeshatSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFSeshatSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagA
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagB
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagF
+- __OBJC_PROTOCOL_REFERENCE_$_NFTrustSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFTrustSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFUnifiedAccessSessionCallbacksInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFUnifiedAccessSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFWalletPresentationInterface
+- ___101-[NFSecureTransactionServicesHandoverSession startTNEPTagDeviceWithService:optionalRecords:delegate:]_block_invoke
+- ___101-[NFSecureTransactionServicesHandoverSession startTNEPTagDeviceWithService:optionalRecords:delegate:]_block_invoke.14
+- ___102-[NFHardwareManager startSecureTransactionServicesSessionWithRole:connectionHandoverCofig:completion:]_block_invoke
+- ___102-[NFHardwareManager startSecureTransactionServicesSessionWithRole:connectionHandoverCofig:completion:]_block_invoke_2
+- ___102-[NFSecureTransactionServicesHandoverSession singleResponseCommunicationReaderSend:completionHandler:]_block_invoke
+- ___102-[NFSecureTransactionServicesHandoverSession singleResponseCommunicationReaderSend:completionHandler:]_block_invoke.18
+- ___106-[NFSeshatSession allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:trackingError:]_block_invoke
+- ___106-[NFSeshatSession allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:trackingError:]_block_invoke.28
+- ___112-[NFReaderSession felicaStateForSystemCode:withRequestService:withBlockReadList:performSearchServiceCode:error:]_block_invoke
+- ___112-[NFReaderSession felicaStateForSystemCode:withRequestService:withBlockReadList:performSearchServiceCode:error:]_block_invoke.131
+- ___23-[NFSecureElement info]_block_invoke
+- ___25-[NFHCESession readAPDU:]_block_invoke
+- ___25-[NFHCESession readAPDU:]_block_invoke.15
+- ___25-[NFSecureElement hwType]_block_invoke
+- ___27-[NFTrustSession listKeys:]_block_invoke
+- ___27-[NFTrustSession listKeys:]_block_invoke.34
+- ___28+[NFTapToRadar _getInstance]_block_invoke
+- ___28-[NFSecureElement OSVersion]_block_invoke
+- ___28-[NFSecureElement available]_block_invoke
+- ___29-[NFHCESession stopEmulation]_block_invoke
+- ___29-[NFHCESession stopEmulation]_block_invoke.13
+- ___29-[NFHardwareManager preWarm:]_block_invoke
+- ___29-[NFHardwareManager preWarm:]_block_invoke.214
+- ___29-[NFSecureElement identifier]_block_invoke
+- ___29-[NFSession _endProxySession]_block_invoke
+- ___29-[NFSession _endProxySession]_block_invoke.31
+- ___29-[NFSession didStartSession:]_block_invoke
+- ___30-[NFHCESession startEmulation]_block_invoke
+- ___30-[NFHCESession startEmulation]_block_invoke.12
+- ___30-[NFSession prioritizeSession]_block_invoke
+- ___30-[NFSession prioritizeSession]_block_invoke.36
+- ___31+[NFTapToRadar handleCallback:]_block_invoke
+- ___31-[NFHCESession didReceiveAPDU:]_block_invoke
+- ___31-[NFHardwareManager rfSettings]_block_invoke
+- ___31-[NFHardwareManager rfSettings]_block_invoke.77
+- ___31-[NFHardwareManager stateInfo:]_block_invoke
+- ___31-[NFHardwareManager stateInfo:]_block_invoke.73
+- ___31-[NFSecureElement serialNumber]_block_invoke
+- ___31-[NFSession activateWithToken:]_block_invoke
+- ___31-[NFSession activateWithToken:]_block_invoke.41
+- ___31-[NFSession setDidEndCallback:]_block_invoke
+- ___31-[NFWalletPresentation present]_block_invoke
+- ___31-[NFWalletPresentation present]_block_invoke.15
+- ___32-[NFHCESession didReceiveField:]_block_invoke
+- ___32-[NFHCESession restartDiscovery]_block_invoke
+- ___32-[NFHardwareManager toggleGPIO:]_block_invoke
+- ___32-[NFHardwareManager toggleGPIO:]_block_invoke.131
+- ___32-[NFSecureElement fullOSVersion]_block_invoke
+- ___32-[NFXPCServiceClient connection]_block_invoke
+- ___32-[NFXPCServiceClient connection]_block_invoke_2
+- ___32-[NFXPCServiceClient connection]_block_invoke_3
+- ___32-[NFXPCServiceClient connection]_block_invoke_4
+- ___33-[NFPeerPaymentSession deleteKey]_block_invoke
+- ___33-[NFPeerPaymentSession deleteKey]_block_invoke.12
+- ___33-[NFSecureElement eccCertificate]_block_invoke
+- ___33-[NFSecureElement rsaCertificate]_block_invoke
+- ___33-[NFSession setDidStartCallback:]_block_invoke
+- ___33-[NFSession setSessionTimeLimit:]_block_invoke
+- ___33-[NFSession setSessionTimeLimit:]_block_invoke.16
+- ___33-[NFWalletPresentation xpcClient]_block_invoke
+- ___34+[NFTrustObject allowedXPCClasses]_block_invoke
+- ___34-[NFHCESession didConnectToReader]_block_invoke
+- ___34-[NFHCESession didEndUnexpectedly]_block_invoke
+- ___34-[NFHardwareManager didInterrupt:]_block_invoke
+- ___34-[NFHardwareManager pushSignedRF:]_block_invoke
+- ___34-[NFHardwareManager pushSignedRF:]_block_invoke.83
+- ___34-[NFHardwareManager setChipscope:]_block_invoke
+- ___34-[NFHardwareManager setChipscope:]_block_invoke.289
+- ___34-[NFHardwareManager triggerCrash:]_block_invoke
+- ___34-[NFHardwareManager triggerCrash:]_block_invoke.129
+- ___34-[NFSecureElement eckaCertificate]_block_invoke
+- ___34-[NFSecureElement sequenceCounter]_block_invoke
+- ___34-[NFTrustSession deleteKey:error:]_block_invoke
+- ___34-[NFTrustSession deleteKey:error:]_block_invoke.21
+- ___35-[NFReaderSession ndefWrite:error:]_block_invoke
+- ___35-[NFReaderSession ndefWrite:error:]_block_invoke.121
+- ___36-[NFConnectionHandoverReceiver stop]_block_invoke
+- ___36-[NFCredentialSession fieldChanged:]_block_invoke
+- ___36-[NFHardwareManager disableHeadless]_block_invoke
+- ___36-[NFHardwareManager disableHeadless]_block_invoke.100
+- ___36-[NFHardwareManager dumpLPMDebugLog]_block_invoke
+- ___36-[NFHardwareManager dumpLPMDebugLog]_block_invoke.106
+- ___36-[NFHardwareManager getTemperature:]_block_invoke
+- ___36-[NFHardwareManager getTemperature:]_block_invoke.69
+- ___36-[NFReaderSession connectTag:error:]_block_invoke
+- ___36-[NFReaderSession connectTag:error:]_block_invoke.112
+- ___36-[NFReaderSession performVAS:error:]_block_invoke
+- ___36-[NFReaderSession performVAS:error:]_block_invoke.138
+- ___36-[NFReaderSession transceive:error:]_block_invoke
+- ___36-[NFReaderSession transceive:error:]_block_invoke.125
+- ___36-[NFSecureElement manifestQueryBlob]_block_invoke
+- ___37-[NFConnectionHandoverInitiator stop]_block_invoke
+- ___37-[NFConnectionHandoverReceiver start]_block_invoke
+- ___37-[NFCredentialTransceiver invalidate]_block_invoke
+- ___37-[NFCredentialTransceiver invalidate]_block_invoke_2
+- ___37-[NFHardwareManager getUniqueFDRKey:]_block_invoke
+- ___37-[NFHardwareManager getUniqueFDRKey:]_block_invoke.81
+- ___37-[NFHardwareManager hostEmulationLog]_block_invoke
+- ___37-[NFHardwareManager hostEmulationLog]_block_invoke.146
+- ___37-[NFHardwareManager setAntiRelayRID:]_block_invoke
+- ___37-[NFHardwareManager setAntiRelayRID:]_block_invoke.78
+- ___37-[NFNdefTagSession setTagData:error:]_block_invoke
+- ___37-[NFNdefTagSession setTagData:error:]_block_invoke.23
+- ___37-[NFReaderSession didEndUnexpectedly]_block_invoke
+- ___37-[NFReaderSession ndefReadWithError:]_block_invoke
+- ___37-[NFReaderSession ndefReadWithError:]_block_invoke.122
+- ___37-[NFSecureElement isInRestrictedMode]_block_invoke
+- ___37-[NFSecureElement isProductionSigned]_block_invoke
+- ___37-[NFSecureElementReaderSession stop:]_block_invoke
+- ___37-[NFSecureElementReaderSession stop:]_block_invoke.29
+- ___37-[NFWalletPresentation didInvalidate]_block_invoke
+- ___38-[NFConnectionHandoverInitiator start]_block_invoke
+- ___38-[NFHardwareManager getPowerCounters:]_block_invoke
+- ___38-[NFHardwareManager getPowerCounters:]_block_invoke.101
+- ___38-[NFHardwareManager hwStateDidChange:]_block_invoke
+- ___38-[NFHardwareManager releaseAssertion:]_block_invoke
+- ___38-[NFHardwareManager releaseAssertion:]_block_invoke.126
+- ___38-[NFNdefTagSession didEndUnexpectedly]_block_invoke
+- ___38-[NFNdefTagSession didTagStateChange:]_block_invoke
+- ___38-[NFNdefTagSession enableWrite:error:]_block_invoke
+- ___38-[NFNdefTagSession enableWrite:error:]_block_invoke.26
+- ___38-[NFSecureElementReaderSession start:]_block_invoke
+- ___38-[NFSecureElementReaderSession start:]_block_invoke.28
+- ___38-[NFSession endSessionWithCompletion:]_block_invoke
+- ___39+[NFHardwareManagerCallbacks interface]_block_invoke
+- ___39+[NFHardwareManagerInterface interface]_block_invoke
+- ___39-[NFContactlessSession didDetectField:]_block_invoke
+- ___39-[NFFieldDetectSession didDetectField:]_block_invoke
+- ___39-[NFHCESession didDisconnectFromReader]_block_invoke
+- ___39-[NFHCESession readAPDUWithCompletion:]_block_invoke
+- ___39-[NFHCESession readAPDUWithCompletion:]_block_invoke.17
+- ___39-[NFHardwareManager areSessionsAllowed]_block_invoke
+- ___39-[NFHardwareManager areSessionsAllowed]_block_invoke_2
+- ___39-[NFHardwareManager enableLPEMFeature:]_block_invoke
+- ___39-[NFHardwareManager enableLPEMFeature:]_block_invoke.96
+- ___39-[NFHardwareManager getDieIDWithError:]_block_invoke
+- ___39-[NFHardwareManager getDieIDWithError:]_block_invoke.79
+- ___39-[NFHardwareManager getLPEMFTALogging:]_block_invoke
+- ___39-[NFHardwareManager getLPEMFTALogging:]_block_invoke.290
+- ___39-[NFHardwareManager startTrustSession:]_block_invoke
+- ___39-[NFHardwareManager startTrustSession:]_block_invoke_2
+- ___39-[NFReaderSession setECPPayload:error:]_block_invoke
+- ___39-[NFReaderSession setECPPayload:error:]_block_invoke.103
+- ___39-[NFSecureElement systemOSSerialNumber]_block_invoke
+- ___39-[NFSession createSessionHandoffToken:]_block_invoke
+- ___39-[NFSession createSessionHandoffToken:]_block_invoke.39
+- ___40+[NFNdefRecord recordsFromBytes:length:]_block_invoke
+- ___40-[NFContactlessSession didSelectApplet:]_block_invoke
+- ___40-[NFContactlessSession didStartSession:]_block_invoke
+- ___40-[NFContactlessSession didStartSession:]_block_invoke.19
+- ___40-[NFContactlessSession didStartSession:]_block_invoke.22
+- ___40-[NFHardwareManager disableLPEMFeature:]_block_invoke
+- ___40-[NFHardwareManager disableLPEMFeature:]_block_invoke.97
+- ___40-[NFHardwareManager expressModesEnabled]_block_invoke
+- ___40-[NFHardwareManager expressModesEnabled]_block_invoke.86
+- ___40-[NFHardwareManager startSesHatSession:]_block_invoke
+- ___40-[NFHardwareManager startSesHatSession:]_block_invoke.205
+- ___40-[NFHardwareManager startSesHatSession:]_block_invoke_2
+- ___40-[NFHardwareManager temperatureChanged:]_block_invoke
+- ___40-[NFHardwareManager triggerDelayedWake:]_block_invoke
+- ___40-[NFHardwareManager triggerDelayedWake:]_block_invoke.128
+- ___40-[NFNdefTagSession getTagDataWithError:]_block_invoke
+- ___40-[NFNdefTagSession getTagDataWithError:]_block_invoke.24
+- ___40-[NFReaderSession felicaStateWithError:]_block_invoke
+- ___40-[NFReaderSession felicaStateWithError:]_block_invoke.127
+- ___40-[NFReaderSession stopPollingWithError:]_block_invoke
+- ___40-[NFReaderSession stopPollingWithError:]_block_invoke.108
+- ___40-[NFReaderSession updateUIAlertMessage:]_block_invoke
+- ___40-[NFReaderSession updateUIAlertMessage:]_block_invoke.136
+- ___40-[NFRemoteAdminManager _connectIfNeeded]_block_invoke
+- ___40-[NFRemoteAdminManager _connectIfNeeded]_block_invoke_2
+- ___40-[NFRemoteAdminManager _connectIfNeeded]_block_invoke_3
+- ___40-[NFRemoteAdminManager registrationInfo]_block_invoke
+- ___40-[NFRemoteAdminManager registrationInfo]_block_invoke.89
+- ___41+[NFDigitalCarKeySession vehicleReports:]_block_invoke
+- ___41-[NFCredentialTransceiver hasInvalidated]_block_invoke
+- ___41-[NFDigitalCarKeySession didDetectField:]_block_invoke
+- ___41-[NFHardwareManager didChangeRadioState:]_block_invoke
+- ___41-[NFHardwareManager listenForNfcdStartup]_block_invoke
+- ___41-[NFHardwareManager startNdefTagSession:]_block_invoke
+- ___41-[NFHardwareManager startNdefTagSession:]_block_invoke_2
+- ___41-[NFReaderSession startPollingWithError:]_block_invoke
+- ___41-[NFReaderSession startPollingWithError:]_block_invoke.104
+- ___41-[NFRemoteAdminManager getAPNPublicToken]_block_invoke
+- ___41-[NFRemoteAdminManager getAPNPublicToken]_block_invoke.111
+- ___41-[NFSeshatSession getHash:trackingError:]_block_invoke
+- ___41-[NFSeshatSession getHash:trackingError:]_block_invoke.67
+- ___41-[NFUnifiedAccessSession didDetectField:]_block_invoke
+- ___42+[NFRemoteAdminManagerCallbacks interface]_block_invoke
+- ___42+[NFRemoteAdminManagerInterface interface]_block_invoke
+- ___42-[NFContactlessSession didEndUnexpectedly]_block_invoke
+- ___42-[NFContactlessSession stopCardEmulation:]_block_invoke
+- ___42-[NFContactlessSession stopCardEmulation:]_block_invoke.55
+- ___42-[NFDigitalCarKeySession didSelectApplet:]_block_invoke
+- ___42-[NFDigitalCarKeySession didStartSession:]_block_invoke
+- ___42-[NFDigitalCarKeySession didStartSession:]_block_invoke.54
+- ___42-[NFFieldDetectSession didEndUnexpectedly]_block_invoke
+- ___42-[NFHCESession requestEmulationAssertion:]_block_invoke
+- ___42-[NFHCESession requestEmulationAssertion:]_block_invoke.18
+- ___42-[NFHardwareManager currentInMetroStatus:]_block_invoke
+- ___42-[NFHardwareManager currentInMetroStatus:]_block_invoke.93
+- ___42-[NFHardwareManager getHeadlessModeFlags:]_block_invoke
+- ___42-[NFHardwareManager getHeadlessModeFlags:]_block_invoke_2
+- ___42-[NFHardwareManager getRadioEnabledState:]_block_invoke
+- ___42-[NFHardwareManager getRadioEnabledState:]_block_invoke.66
+- ___42-[NFReaderSession checkPresenceWithError:]_block_invoke
+- ___42-[NFReaderSession checkPresenceWithError:]_block_invoke.117
+- ___42-[NFRemoteAdminManager primaryRegionTopic]_block_invoke
+- ___42-[NFRemoteAdminManager primaryRegionTopic]_block_invoke.91
+- ___42-[NFTrustSession createKey:request:error:]_block_invoke
+- ___42-[NFTrustSession createKey:request:error:]_block_invoke.19
+- ___42-[NFUnifiedAccessSession didSelectApplet:]_block_invoke
+- ___42-[NFUnifiedAccessSession didStartSession:]_block_invoke
+- ___42-[NFUnifiedAccessSession didStartSession:]_block_invoke.19
+- ___42-[NFUnifiedAccessSession didStartSession:]_block_invoke.22
+- ___43-[NFContactlessSession startCardEmulation:]_block_invoke
+- ___43-[NFContactlessSession startCardEmulation:]_block_invoke.54
+- ___43-[NFDigitalCarKeySession sesSession:event:]_block_invoke
+- ___43-[NFHardwareManager getFlashWriteCounters:]_block_invoke
+- ___43-[NFHardwareManager getFlashWriteCounters:]_block_invoke.103
+- ___43-[NFHardwareManager setFieldDetectEnabled:]_block_invoke
+- ___43-[NFHardwareManager setFieldDetectEnabled:]_block_invoke.107
+- ___43-[NFLoyaltyAndPaymentSession setHostCards:]_block_invoke
+- ___43-[NFNdefTagSession stopEmulationWithError:]_block_invoke
+- ___43-[NFNdefTagSession stopEmulationWithError:]_block_invoke.22
+- ___43-[NFReaderSession formatNdefWithKey:error:]_block_invoke
+- ___43-[NFReaderSession formatNdefWithKey:error:]_block_invoke.119
+- ___43-[NFReaderSession restartPollingWithError:]_block_invoke
+- ___43-[NFReaderSession restartPollingWithError:]_block_invoke.109
+- ___43-[NFReaderSession setPollingProfile:error:]_block_invoke
+- ___43-[NFReaderSession setPollingProfile:error:]_block_invoke.141
+- ___43-[NFReaderSession skipMifareClassification]_block_invoke
+- ___43-[NFReaderSession skipMifareClassification]_block_invoke.137
+- ___43-[NFRemoteAdminManager cancelCardIngestion]_block_invoke
+- ___43-[NFRemoteAdminManager cancelCardIngestion]_block_invoke.110
+- ___43-[NFUnifiedAccessSession sesSession:event:]_block_invoke
+- ___43-[NFUnifiedAccessSession startExpressMode:]_block_invoke
+- ___43-[NFUnifiedAccessSession startExpressMode:]_block_invoke.70
+- ___43-[NFWalletPresentation invalidateXPCClient]_block_invoke
+- ___43-[NSArray(NFTransportService) encodeToCBOR]_block_invoke
+- ___44+[NFUnifiedAccessSessionInterface interface]_block_invoke
+- ___44-[NFDigitalCarKeySession didEndTransaction:]_block_invoke
+- ___44-[NFDigitalCarKeySession didEndUnexpectedly]_block_invoke
+- ___44-[NFDigitalCarKeySession stopCardEmulation:]_block_invoke
+- ___44-[NFDigitalCarKeySession stopCardEmulation:]_block_invoke.85
+- ___44-[NFHardwareManager enableHeadlessTestMode:]_block_invoke
+- ___44-[NFHardwareManager enableHeadlessTestMode:]_block_invoke.130
+- ___44-[NFHardwareManager expressModeControlState]_block_invoke
+- ___44-[NFHardwareManager expressModeControlState]_block_invoke.88
+- ___44-[NFHardwareManager requestAssertion:error:]_block_invoke
+- ___44-[NFHardwareManager requestAssertion:error:]_block_invoke.112
+- ___44-[NFHardwareManager setRadioEnabledSetting:]_block_invoke
+- ___44-[NFHardwareManager setRadioEnabledSetting:]_block_invoke.68
+- ___44-[NFHardwareManager startCredentialSession:]_block_invoke
+- ___44-[NFHardwareManager startCredentialSession:]_block_invoke_2
+- ___44-[NFHardwareManager startLPEMConfigSession:]_block_invoke
+- ___44-[NFHardwareManager startLPEMConfigSession:]_block_invoke_2
+- ___44-[NFUnifiedAccessSession _createSesdSession]_block_invoke
+- ___44-[NFUnifiedAccessSession didEndTransaction:]_block_invoke
+- ___44-[NFUnifiedAccessSession didEndUnexpectedly]_block_invoke
+- ___44-[NFUnifiedAccessSession stopCardEmulation:]_block_invoke
+- ___44-[NFUnifiedAccessSession stopCardEmulation:]_block_invoke.69
+- ___45-[NFContactlessSession didFelicaStateChange:]_block_invoke
+- ___45-[NFDigitalCarKeySession _getAppletsFromNFCD]_block_invoke
+- ___45-[NFDigitalCarKeySession _getAppletsFromNFCD]_block_invoke.48
+- ___45-[NFECommercePaymentSession didStartSession:]_block_invoke
+- ___45-[NFECommercePaymentSession didStartSession:]_block_invoke.19
+- ___45-[NFECommercePaymentSession didStartSession:]_block_invoke.22
+- ___45-[NFHardwareManager controllerInfoWithError:]_block_invoke
+- ___45-[NFHardwareManager controllerInfoWithError:]_block_invoke.75
+- ___45-[NFHardwareManager secureElementsWithError:]_block_invoke
+- ___45-[NFHardwareManager secureElementsWithError:]_block_invoke.142
+- ___45-[NFHardwareManager startContactlessSession:]_block_invoke
+- ___45-[NFHardwareManager startContactlessSession:]_block_invoke_2
+- ___45-[NFHardwareManager startPeerPaymentSession:]_block_invoke
+- ___45-[NFHardwareManager startPeerPaymentSession:]_block_invoke_2
+- ___45-[NFLoyaltyAndPaymentSession didDetectField:]_block_invoke
+- ___45-[NFReaderSession startLPCDPollingWithError:]_block_invoke
+- ___45-[NFReaderSession startLPCDPollingWithError:]_block_invoke.105
+- ___45-[NFRemoteAdminManager getSELDInfoForBroker:]_block_invoke
+- ___45-[NFRemoteAdminManager getSELDInfoForBroker:]_block_invoke.113
+- ___45-[NFRemoteAdminManager nextRequestForServer:]_block_invoke
+- ___45-[NFRemoteAdminManager nextRequestForServer:]_block_invoke.93
+- ___45-[NFSecureElementLoggingSession storeACLogs:]_block_invoke
+- ___45-[NFSecureElementLoggingSession storeACLogs:]_block_invoke.15
+- ___45-[NFSecureElementManagerSession _appletsById]_block_invoke
+- ___45-[NFSecureElementManagerSession _appletsById]_block_invoke.30
+- ___46+[NFTapToRadar requestTapToRadar:preferences:]_block_invoke
+- ___46-[NFContactlessPaymentSession didDetectField:]_block_invoke
+- ___46-[NFContactlessSession setActiveApplet:error:]_block_invoke
+- ___46-[NFContactlessSession setActiveApplet:error:]_block_invoke.52
+- ___46-[NFDigitalCarKeySession didStartTransaction:]_block_invoke
+- ___46-[NFLoyaltyAndPaymentSession didSelectApplet:]_block_invoke
+- ___46-[NFLoyaltyAndPaymentSession didStartSession:]_block_invoke
+- ___46-[NFLoyaltyAndPaymentSession didStartSession:]_block_invoke.19
+- ___46-[NFLoyaltyAndPaymentSession didStartSession:]_block_invoke.22
+- ___46-[NFReaderSession felicaRequestService:error:]_block_invoke
+- ___46-[NFReaderSession felicaRequestService:error:]_block_invoke.132
+- ___46-[NFRemoteAdminManager queueServerConnection:]_block_invoke
+- ___46-[NFRemoteAdminManager queueServerConnection:]_block_invoke.95
+- ___46-[NFRemoteAdminManager registerEventListener:]_block_invoke
+- ___46-[NFSecureElementReaderSession didDetectTags:]_block_invoke
+- ___46-[NFSecureElementReaderSession didDetectTags:]_block_invoke_2
+- ___46-[NFSecureElementReaderSession disconnectTag:]_block_invoke
+- ___46-[NFSecureElementReaderSession disconnectTag:]_block_invoke.46
+- ___46-[NFUnifiedAccessSession didStartTransaction:]_block_invoke
+- ___47-[NFConnectionHandoverReceiver _processConnect]_block_invoke
+- ___47-[NFConnectionHandoverReceiver _processConnect]_block_invoke_2
+- ___47-[NFConnectionHandoverReceiver _stopWithError:]_block_invoke
+- ___47-[NFConnectionHandoverReceiver _stopWithError:]_block_invoke_2
+- ___47-[NFContactlessPaymentSession didSelectApplet:]_block_invoke
+- ___47-[NFContactlessPaymentSession didStartSession:]_block_invoke
+- ___47-[NFContactlessPaymentSession didStartSession:]_block_invoke.19
+- ___47-[NFContactlessPaymentSession didStartSession:]_block_invoke.22
+- ___47-[NFContactlessPaymentSession didStartSession:]_block_invoke_2
+- ___47-[NFCredentialTransceiver transceive:outError:]_block_invoke
+- ___47-[NFCredentialTransceiver transceive:outError:]_block_invoke_2
+- ___47-[NFHCESession sendAPDU:startReadOnCompletion:]_block_invoke
+- ___47-[NFHCESession sendAPDU:startReadOnCompletion:]_block_invoke.14
+- ___47-[NFHardwareManager queueAssertion:completion:]_block_invoke
+- ___47-[NFHardwareManager queueAssertion:completion:]_block_invoke.123
+- ___47-[NFHardwareManager registerForRemoteCallbacks]_block_invoke
+- ___47-[NFHardwareManager startDigitalCarKeySession:]_block_invoke
+- ___47-[NFHardwareManager startDigitalCarKeySession:]_block_invoke_2
+- ___47-[NFHardwareManager startUnifiedAccessSession:]_block_invoke
+- ___47-[NFHardwareManager startUnifiedAccessSession:]_block_invoke_2
+- ___47-[NFLPEMConfigSession enableLPEMFeature:error:]_block_invoke
+- ___47-[NFLPEMConfigSession enableLPEMFeature:error:]_block_invoke.44
+- ___47-[NFLoyaltyAndPaymentSession startExpressMode:]_block_invoke
+- ___47-[NFLoyaltyAndPaymentSession startExpressMode:]_block_invoke.85
+- ___47-[NFSecureElementManagerSession getOSUpdateLog]_block_invoke
+- ___47-[NFSecureElementManagerSession getOSUpdateLog]_block_invoke.159
+- ___47-[NFSecureElementReaderSession stopVASPolling:]_block_invoke
+- ___47-[NFSecureElementReaderSession stopVASPolling:]_block_invoke.33
+- ___47-[NFSeshatSession obliterateWithTrackingError:]_block_invoke
+- ___47-[NFSeshatSession obliterateWithTrackingError:]_block_invoke.80
+- ___47-[NFSession remoteObjectProxyWithErrorHandler:]_block_invoke
+- ___47-[NFSession requestBugCapture:subtype:context:]_block_invoke
+- ___48+[NFRemoteAdminManager sharedRemoteAdminManager]_block_invoke
+- ___48-[NFConnectionHandoverInitiator _stopWithError:]_block_invoke
+- ___48-[NFConnectionHandoverInitiator _stopWithError:]_block_invoke_2
+- ___48-[NFHardwareManager suspendBackgroundTagReading]_block_invoke
+- ___48-[NFHardwareManager suspendBackgroundTagReading]_block_invoke_2
+- ___48-[NFLPEMConfigSession disableLPEMFeature:error:]_block_invoke
+- ___48-[NFLPEMConfigSession disableLPEMFeature:error:]_block_invoke.39
+- ___48-[NFLPEMConfigSession getLPEMFeaturesWithError:]_block_invoke
+- ___48-[NFLPEMConfigSession getLPEMFeaturesWithError:]_block_invoke.50
+- ___48-[NFLoyaltyAndPaymentSession didEndTransaction:]_block_invoke
+- ___48-[NFLoyaltyAndPaymentSession didEndUnexpectedly]_block_invoke
+- ___48-[NFLoyaltyAndPaymentSession stopCardEmulation:]_block_invoke
+- ___48-[NFLoyaltyAndPaymentSession stopCardEmulation:]_block_invoke.80
+- ___48-[NFReaderSession startPollingWithConfig:error:]_block_invoke
+- ___48-[NFReaderSession startPollingWithConfig:error:]_block_invoke.107
+- ___48-[NFRemoteAdminManager unregisterEventListener:]_block_invoke
+- ___48-[NSDictionary(NFTransportService) encodeToCBOR]_block_invoke
+- ___49-[NFContactlessPaymentSession didEndTransaction:]_block_invoke
+- ___49-[NFContactlessPaymentSession didEndUnexpectedly]_block_invoke
+- ___49-[NFContactlessPaymentSession stopCardEmulation:]_block_invoke
+- ___49-[NFContactlessPaymentSession stopCardEmulation:]_block_invoke.76
+- ___49-[NFHardwareManager expressPassConfigsWithError:]_block_invoke
+- ___49-[NFHardwareManager expressPassConfigsWithError:]_block_invoke.89
+- ___49-[NFHardwareManager releaseAssertion:completion:]_block_invoke
+- ___49-[NFHardwareManager releaseAssertion:completion:]_block_invoke.127
+- ___49-[NFHardwareManager unregisterForRemoteCallbacks]_block_invoke
+- ___49-[NFSecureElementReaderSession connectTag:error:]_block_invoke
+- ___49-[NFSecureElementReaderSession connectTag:error:]_block_invoke.45
+- ___49-[NFSecureElementReaderSession performVAS:error:]_block_invoke
+- ___49-[NFSecureElementReaderSession performVAS:error:]_block_invoke.34
+- ___49-[NFSecureElementReaderSession transceive:error:]_block_invoke
+- ___49-[NFSecureElementReaderSession transceive:error:]_block_invoke.30
+- ___50-[NFCredentialTransceiver signChallenge:outError:]_block_invoke
+- ___50-[NFCredentialTransceiver signChallenge:outError:]_block_invoke_2
+- ___50-[NFHardwareManager configureHeadlessFactoryMode:]_block_invoke
+- ___50-[NFHardwareManager configureHeadlessFactoryMode:]_block_invoke.95
+- ___50-[NFHardwareManager startECommercePaymentSession:]_block_invoke
+- ___50-[NFHardwareManager startECommercePaymentSession:]_block_invoke_2
+- ___50-[NFLoyaltyAndPaymentSession didStartTransaction:]_block_invoke
+- ___50-[NFSecureElementLoggingSession enableSMBLogging:]_block_invoke
+- ___50-[NFSecureElementLoggingSession enableSMBLogging:]_block_invoke.20
+- ___50-[NFSecureElementReaderSession didEndUnexpectedly]_block_invoke
+- ___51-[NFContactlessPaymentSession didStartTransaction:]_block_invoke
+- ___51-[NFContactlessSession didDetectFieldNotification:]_block_invoke
+- ___51-[NFCredentialTransceiver _invalidateParentSession]_block_invoke
+- ___51-[NFDigitalCarKeySession endSessionWithCompletion:]_block_invoke
+- ___51-[NFFieldDetectSession didDetectFieldNotification:]_block_invoke
+- ___51-[NFLoyaltyAndPaymentSession didFelicaStateChange:]_block_invoke
+- ___51-[NFReaderSession didDetectTags:connectedTagIndex:]_block_invoke
+- ___51-[NFReaderSession didDetectTags:connectedTagIndex:]_block_invoke_2
+- ___51-[NFReaderSession startPollingForTechnology:error:]_block_invoke
+- ___51-[NFReaderSession startPollingForTechnology:error:]_block_invoke.106
+- ___51-[NFSecureElementLoggingSession clearLogs:forSEID:]_block_invoke
+- ___51-[NFSecureElementLoggingSession clearLogs:forSEID:]_block_invoke.14
+- ___51-[NFSecureElementManagerSession didEndUnexpectedly]_block_invoke
+- ___52-[NFConnectionHandoverReceiver handleSessionResumed]_block_invoke
+- ___52-[NFContactlessPaymentSession didFelicaStateChange:]_block_invoke
+- ___52-[NFCredentialSession wiredModeTransceive:outError:]_block_invoke
+- ___52-[NFCredentialSession wiredModeTransceive:outError:]_block_invoke.144
+- ___52-[NFCredentialSession wiredModeTransceive:outError:]_block_invoke_2
+- ___52-[NFCredentialTransceiver _syncGetSessionWithError:]_block_invoke
+- ___52-[NFDigitalCarKeySession didReceiveActivityTimeout:]_block_invoke
+- ___52-[NFHardwareManager refreshSecureElementsWithError:]_block_invoke
+- ___52-[NFHardwareManager refreshSecureElementsWithError:]_block_invoke.145
+- ___52-[NFHardwareManager setSuspendBackgroundTagReading:]_block_invoke
+- ___52-[NFHardwareManager setSuspendBackgroundTagReading:]_block_invoke_2
+- ___52-[NFHardwareManager startContactlessPaymentSession:]_block_invoke
+- ___52-[NFHardwareManager startContactlessPaymentSession:]_block_invoke_2
+- ___52-[NFLPEMConfigSession getLPEMBluetoothLogWithError:]_block_invoke
+- ___52-[NFLPEMConfigSession getLPEMBluetoothLogWithError:]_block_invoke.56
+- ___52-[NFSecureElementLoggingSession getSMBLogWithError:]_block_invoke
+- ___52-[NFSecureElementLoggingSession getSMBLogWithError:]_block_invoke.21
+- ___52-[NFSecureElementReaderSession selectApplets:error:]_block_invoke
+- ___52-[NFSecureElementReaderSession selectApplets:error:]_block_invoke.27
+- ___53+[NFUnifiedAccessSessionCallbacksInterface interface]_block_invoke
+- ___53-[NFConnectionHandoverReceiver _processRetryRequest:]_block_invoke
+- ___53-[NFConnectionHandoverReceiver _processRetryRequest:]_block_invoke.491
+- ___53-[NFConnectionHandoverReceiver hceSessionDidConnect:]_block_invoke
+- ___53-[NFCredentialSession didExpireTransactionForApplet:]_block_invoke
+- ___53-[NFDigitalCarKeySession didDetectFieldNotification:]_block_invoke
+- ___53-[NFHardwareManager startSecureElementReaderSession:]_block_invoke
+- ___53-[NFHardwareManager startSecureElementReaderSession:]_block_invoke_2
+- ___53-[NFUnifiedAccessSession didDetectFieldNotification:]_block_invoke
+- ___54-[NFConnectionHandoverInitiator _triggerInvalidateCB:]_block_invoke
+- ___54-[NFConnectionHandoverInitiator send:responseHandler:]_block_invoke
+- ___54-[NFConnectionHandoverInitiator send:responseHandler:]_block_invoke.236
+- ___54-[NFConnectionHandoverInitiator send:responseHandler:]_block_invoke.238
+- ___54-[NFConnectionHandoverInitiator send:responseHandler:]_block_invoke_2
+- ___54-[NFConnectionHandoverInitiator send:responseHandler:]_block_invoke_2.239
+- ___54-[NFConnectionHandoverReceiver _emuAssertTimerExpired]_block_invoke
+- ___54-[NFConnectionHandoverReceiver _emuAssertTimerExpired]_block_invoke.457
+- ___54-[NFConnectionHandoverReceiver _emuAssertTimerExpired]_block_invoke_2
+- ___54-[NFCredentialSession notifyHCIData:appletIdentifier:]_block_invoke
+- ___54-[NFDigitalCarKeySession didFailDeferredAuthorization]_block_invoke
+- ___54-[NFHardwareManager requestAssertionWithParams:error:]_block_invoke
+- ___54-[NFHardwareManager requestAssertionWithParams:error:]_block_invoke.122
+- ___54-[NFHardwareManager startSecureElementLoggingSession:]_block_invoke
+- ___54-[NFHardwareManager startSecureElementLoggingSession:]_block_invoke_2
+- ___54-[NFLoyaltyAndPaymentSession _startHostCardEmulation:]_block_invoke
+- ___54-[NFLoyaltyAndPaymentSession _startHostCardEmulation:]_block_invoke.78
+- ___54-[NFLoyaltyAndPaymentSession felicaAppletState:error:]_block_invoke
+- ___54-[NFLoyaltyAndPaymentSession felicaAppletState:error:]_block_invoke.81
+- ___54-[NFSecureElementManagerSession powerCycleSEID:error:]_block_invoke
+- ___54-[NFSecureElementManagerSession powerCycleSEID:error:]_block_invoke.158
+- ___54-[NFSecureElementReaderSession startVASPolling:error:]_block_invoke
+- ___54-[NFSecureElementReaderSession startVASPolling:error:]_block_invoke.32
+- ___55-[NFContactlessPaymentSession felicaAppletState:error:]_block_invoke
+- ___55-[NFContactlessPaymentSession felicaAppletState:error:]_block_invoke.77
+- ___55-[NFDigitalCarKeySession setActiveApplet:key:outError:]_block_invoke
+- ___55-[NFDigitalCarKeySession setActiveApplet:key:outError:]_block_invoke.78
+- ___55-[NFHCESession suspensionStateUpdate:triggeredByField:]_block_invoke
+- ___55-[NFHardwareManager remoteObjectProxyWithErrorHandler:]_block_invoke
+- ___55-[NFLoyaltyAndPaymentSession transitAppletState:error:]_block_invoke
+- ___55-[NFLoyaltyAndPaymentSession transitAppletState:error:]_block_invoke.83
+- ___55-[NFSecureElementLoggingSession getLogs:forSEID:error:]_block_invoke
+- ___55-[NFSecureElementLoggingSession getLogs:forSEID:error:]_block_invoke.12
+- ___55-[NFSecureElementReaderSession performSelectVAS:error:]_block_invoke
+- ___55-[NFSecureElementReaderSession performSelectVAS:error:]_block_invoke.37
+- ___56+[NFHardwareManager _sharedHardwareManagerWaitOnHWInit:]_block_invoke
+- ___56-[NFConnectionHandoverInitiator _processSelectResponse:]_block_invoke
+- ___56-[NFConnectionHandoverReceiver _triggerSessionStartedCB]_block_invoke
+- ___56-[NFContactlessPaymentSession transitAppletState:error:]_block_invoke
+- ___56-[NFContactlessPaymentSession transitAppletState:error:]_block_invoke.79
+- ___56-[NFDigitalCarKeySession didExpireTransactionForApplet:]_block_invoke
+- ___56-[NFHardwareManager updateHWSupportWithXPC:waitForInit:]_block_invoke
+- ___56-[NFHardwareManager updateHWSupportWithXPC:waitForInit:]_block_invoke.60
+- ___56-[NFHardwareManager updateHWSupportWithXPC:waitForInit:]_block_invoke.61
+- ___56-[NFHardwareManager updateHWSupportWithXPC:waitForInit:]_block_invoke.64
+- ___56-[NFLoyaltyAndPaymentSession didReceiveActivityTimeout:]_block_invoke
+- ___56-[NFReaderSession checkNdefSupportsRead:andWrite:error:]_block_invoke
+- ___56-[NFReaderSession checkNdefSupportsRead:andWrite:error:]_block_invoke.115
+- ___56-[NFRemoteAdminManager queueServerConnectionForApplets:]_block_invoke
+- ___56-[NFRemoteAdminManager queueServerConnectionForApplets:]_block_invoke.96
+- ___56-[NFSecureElementManagerSession deleteAllApplets:error:]_block_invoke
+- ___56-[NFSecureElementManagerSession deleteAllApplets:error:]_block_invoke.64
+- ___56-[NFSecureElementManagerSession getAndResetLPEMCounter:]_block_invoke
+- ___56-[NFSecureElementManagerSession getAndResetLPEMCounter:]_block_invoke.128
+- ___56-[NFUnifiedAccessSession didExpireTransactionForApplet:]_block_invoke
+- ___56-[NFUnifiedAccessSession setActivePaymentApplets:error:]_block_invoke
+- ___56-[NFUnifiedAccessSession setActivePaymentApplets:error:]_block_invoke.66
+- ___57-[NFConnectionHandoverReceiver sendHandoverSelect:error:]_block_invoke
+- ___57-[NFContactlessPaymentSession didReceiveActivityTimeout:]_block_invoke
+- ___57-[NFHardwareManager _startFieldDetectSession:completion:]_block_invoke
+- ___57-[NFHardwareManager _startFieldDetectSession:completion:]_block_invoke.163
+- ___57-[NFHardwareManager _startFieldDetectSession:completion:]_block_invoke_2
+- ___57-[NFHardwareManager checkExpressPassCompatibility:error:]_block_invoke
+- ___57-[NFHardwareManager checkExpressPassCompatibility:error:]_block_invoke.90
+- ___57-[NFHardwareManager queueAssertionWithParams:completion:]_block_invoke
+- ___57-[NFHardwareManager queueAssertionWithParams:completion:]_block_invoke.124
+- ___57-[NFHardwareManager startSinglePollExpressModeAssertion:]_block_invoke
+- ___57-[NFHardwareManager startSinglePollExpressModeAssertion:]_block_invoke.104
+- ___57-[NFLPEMConfigSession configureHardwareForLPEMWithError:]_block_invoke
+- ___57-[NFLPEMConfigSession configureHardwareForLPEMWithError:]_block_invoke.34
+- ___57-[NFLoyaltyAndPaymentSession didDetectFieldNotification:]_block_invoke
+- ___57-[NFLoyaltyAndPaymentSession didSelectValueAddedService:]_block_invoke
+- ___57-[NFNdefTagSession startEmulation:withMessageType:error:]_block_invoke
+- ___57-[NFNdefTagSession startEmulation:withMessageType:error:]_block_invoke.21
+- ___57-[NFPeerPaymentSession performPeerPayment:request:error:]_block_invoke
+- ___57-[NFPeerPaymentSession performPeerPayment:request:error:]_block_invoke.13
+- ___57-[NFReaderSession(Private) runScript:parameters:results:]_block_invoke
+- ___57-[NFReaderSession(Private) runScript:parameters:results:]_block_invoke.272
+- ___57-[NFRemoteAdminManager deleteAllAppletsAndCleanupWithTSM]_block_invoke
+- ___57-[NFRemoteAdminManager deleteAllAppletsAndCleanupWithTSM]_block_invoke.114
+- ___57-[NFRemoteAdminManager ingestCard:withCompletionHandler:]_block_invoke
+- ___57-[NFRemoteAdminManager ingestCard:withCompletionHandler:]_block_invoke.106
+- ___57-[NFSecureElementManagerSession expressModeControlState:]_block_invoke
+- ___57-[NFSecureElementManagerSession expressModeControlState:]_block_invoke.132
+- ___57-[NFSecureElementManagerSession felicaAppletState:error:]_block_invoke
+- ___57-[NFSecureElementManagerSession felicaAppletState:error:]_block_invoke.122
+- ___58-[NFConnectionHandoverReceiver hceSession:didReceiveAPDU:]_block_invoke
+- ___58-[NFConnectionHandoverReceiver hceSession:didReceiveAPDU:]_block_invoke.505
+- ___58-[NFContactlessPaymentSession didDetectFieldNotification:]_block_invoke
+- ___58-[NFCredentialSession requestSETransceiverWithCompletion:]_block_invoke
+- ___58-[NFCredentialSession requestSETransceiverWithCompletion:]_block_invoke_2
+- ___58-[NFCredentialSession requestSETransceiverWithCompletion:]_block_invoke_3
+- ___58-[NFCredentialSession requestSETransceiverWithCompletion:]_block_invoke_4
+- ___58-[NFHardwareManager releaseSinglePollExpressModeAssertion]_block_invoke
+- ___58-[NFHardwareManager releaseSinglePollExpressModeAssertion]_block_invoke.105
+- ___58-[NFLoyaltyAndPaymentSession didFailDeferredAuthorization]_block_invoke
+- ___58-[NFLoyaltyAndPaymentSession enablePlasticCardMode:error:]_block_invoke
+- ___58-[NFLoyaltyAndPaymentSession enablePlasticCardMode:error:]_block_invoke.84
+- ___58-[NFReaderSession _disconnectTagWithCardRemoval:outError:]_block_invoke
+- ___58-[NFReaderSession _disconnectTagWithCardRemoval:outError:]_block_invoke.114
+- ___58-[NFRemoteAdminManager remoteObjectProxyWithErrorHandler:]_block_invoke
+- ___58-[NFSecureElementLoggingSession getAndClearAssertionLogs:]_block_invoke
+- ___58-[NFSecureElementLoggingSession getAndClearAssertionLogs:]_block_invoke.23
+- ___58-[NFSecureElementManagerSession dumpDomain:forSEID:error:]_block_invoke
+- ___58-[NFSecureElementManagerSession dumpDomain:forSEID:error:]_block_invoke.157
+- ___58-[NFSecureElementManagerSession transitAppletState:error:]_block_invoke
+- ___58-[NFSecureElementManagerSession transitAppletState:error:]_block_invoke.124
+- ___58-[NFSecureElementReaderSession didEndSecureElementReader:]_block_invoke
+- ___58-[NFSecureTransactionServicesHandoverSession fieldChange:]_block_invoke
+- ___58-[NFSeshatSession deleteSlot:outWriteCount:trackingError:]_block_invoke
+- ___58-[NFSeshatSession deleteSlot:outWriteCount:trackingError:]_block_invoke.54
+- ___58-[NFSession synchronousRemoteObjectProxyWithErrorHandler:]_block_invoke
+- ___58-[NFTrustSession signWithKey:request:authorization:error:]_block_invoke
+- ___58-[NFTrustSession signWithKey:request:authorization:error:]_block_invoke.25
+- ___59-[NFConnectionHandoverReceiver hceSession:didReceiveField:]_block_invoke
+- ___59-[NFContactlessPaymentSession didFailDeferredAuthorization]_block_invoke
+- ___59-[NFReaderSession didDetectExternalReaderWithNotification:]_block_invoke
+- ___59-[NFRemoteAdminManager deleteAllSPAppletsAndCleanupWithTSM]_block_invoke
+- ___59-[NFRemoteAdminManager deleteAllSPAppletsAndCleanupWithTSM]_block_invoke.116
+- ___59-[NFSecureElementManagerSession signChallenge:certs:error:]_block_invoke
+- ___59-[NFSecureElementManagerSession signChallenge:certs:error:]_block_invoke.47
+- ___60-[NFLPEMConfigSession getAndClearLPEMBluetoothLogWithError:]_block_invoke
+- ___60-[NFLPEMConfigSession getAndClearLPEMBluetoothLogWithError:]_block_invoke.62
+- ___60-[NFLoyaltyAndPaymentSession didExpireTransactionForApplet:]_block_invoke
+- ___60-[NFLoyaltyAndPaymentSession didReceivePendingServerRequest]_block_invoke
+- ___60-[NFReaderSession felicaRequestService:forSystemCode:error:]_block_invoke
+- ___60-[NFReaderSession felicaRequestService:forSystemCode:error:]_block_invoke.134
+- ___60-[NFSecureElementManagerSession getAttackLogPresence:error:]_block_invoke
+- ___60-[NFSecureElementManagerSession getAttackLogPresence:error:]_block_invoke.155
+- ___60-[NFSecureElementManagerSession refreshSecureElement:error:]_block_invoke
+- ___60-[NFSecureElementManagerSession refreshSecureElement:error:]_block_invoke.153
+- ___60-[NFSecureElementReaderSession didReceiveThermalIndication:]_block_invoke
+- ___60-[NFSecureElementReaderSession didStartSecureElementReader:]_block_invoke
+- ___60-[NFSecureTransactionServicesHandoverSession restartPolling]_block_invoke
+- ___60-[NFSecureTransactionServicesHandoverSession restartPolling]_block_invoke.23
+- ___60-[NFSecureTransactionServicesHandoverSession selectService:]_block_invoke
+- ___60-[NFSecureTransactionServicesHandoverSession selectService:]_block_invoke.21
+- ___60-[NFUnifiedAccessSession setActivePaymentApplet:keys:error:]_block_invoke
+- ___60-[NFUnifiedAccessSession setActivePaymentApplet:keys:error:]_block_invoke.60
+- ___61-[NFConnectionHandoverInitiator readerSession:didDetectTags:]_block_invoke
+- ___61-[NFConnectionHandoverInitiator readerSession:didDetectTags:]_block_invoke.267
+- ___61-[NFConnectionHandoverInitiator readerSession:didDetectTags:]_block_invoke.270
+- ___61-[NFConnectionHandoverInitiator readerSession:didDetectTags:]_block_invoke_2
+- ___61-[NFConnectionHandoverReceiver _triggerSessionInvalidatedCB:]_block_invoke
+- ___61-[NFConnectionHandoverReceiver hceSessionDidEndUnexpectedly:]_block_invoke
+- ___61-[NFConnectionHandoverReceiver startWithCustomBroadcastData:]_block_invoke
+- ___61-[NFContactlessPaymentSession didExpireTransactionForApplet:]_block_invoke
+- ___61-[NFContactlessPaymentSession didReceivePendingServerRequest]_block_invoke
+- ___61-[NFCredentialTransceiver queryExtraInfoForApplets:outError:]_block_invoke
+- ___61-[NFCredentialTransceiver queryExtraInfoForApplets:outError:]_block_invoke_2
+- ___61-[NFCredentialTransceiver queryExtraInfoForApplets:outError:]_block_invoke_3
+- ___61-[NFECommercePaymentSession validateEcommercePaymentRequest:]_block_invoke
+- ___61-[NFECommercePaymentSession validateEcommercePaymentRequest:]_block_invoke.28
+- ___61-[NFHardwareManager cachedEmbeddedSecureElementSerialNumber:]_block_invoke
+- ___61-[NFHardwareManager cachedEmbeddedSecureElementSerialNumber:]_block_invoke.144
+- ___61-[NFSecureElementManagerSession didExitRestrictedMode:error:]_block_invoke
+- ___61-[NFSecureElementManagerSession didExitRestrictedMode:error:]_block_invoke.137
+- ___61-[NFSecureElementManagerSession setExpressModesControlState:]_block_invoke
+- ___61-[NFSecureElementManagerSession setExpressModesControlState:]_block_invoke.82
+- ___61-[NFSecureTransactionServicesHandoverSession deselectService]_block_invoke
+- ___61-[NFSecureTransactionServicesHandoverSession deselectService]_block_invoke.22
+- ___62-[NFConnectionHandoverInitiator startWithCustomBroadcastData:]_block_invoke
+- ___62-[NFHCESession resumeSessionFromWaitingOnFieldWithCompletion:]_block_invoke
+- ___62-[NFHCESession resumeSessionFromWaitingOnFieldWithCompletion:]_block_invoke.19
+- ___62-[NFHardwareManager startHandoverHybridSessionWithCompletion:]_block_invoke
+- ___62-[NFHardwareManager startHandoverHybridSessionWithCompletion:]_block_invoke_2
+- ___62-[NFSecureElementManagerSession expressModesEnabledWithError:]_block_invoke
+- ___62-[NFSecureElementManagerSession expressModesEnabledWithError:]_block_invoke.130
+- ___63-[NFConnectionHandoverInitiator _startWithCustomBroadcastData:]_block_invoke
+- ___63-[NFConnectionHandoverInitiator _startWithCustomBroadcastData:]_block_invoke.206
+- ___63-[NFConnectionHandoverInitiator _startWithCustomBroadcastData:]_block_invoke_2
+- ___63-[NFConnectionHandoverInitiator _startWithCustomBroadcastData:]_block_invoke_2.207
+- ___63-[NFCredentialTransceiver listAppletsAndRefreshCache:outError:]_block_invoke
+- ___63-[NFCredentialTransceiver listAppletsAndRefreshCache:outError:]_block_invoke_2
+- ___63-[NFDigitalCarKeySession didExpressModeStateChange:withObject:]_block_invoke
+- ___63-[NFRemoteAdminManager deleteAllWalletAppletsAndCleanupWithTSM]_block_invoke
+- ___63-[NFRemoteAdminManager deleteAllWalletAppletsAndCleanupWithTSM]_block_invoke.115
+- ___63-[NFRemoteAdminManager setRegistrationInfo:primaryRegionTopic:]_block_invoke
+- ___63-[NFRemoteAdminManager setRegistrationInfo:primaryRegionTopic:]_block_invoke.88
+- ___63-[NFSecureElementManagerSession getExpressPassConfigWithError:]_block_invoke
+- ___63-[NFSecureElementManagerSession getExpressPassConfigWithError:]_block_invoke.101
+- ___63-[NFSecureTransactionServicesHandoverSession stopTNEPOperation]_block_invoke
+- ___63-[NFUnifiedAccessSession didExpressModeStateChange:withObject:]_block_invoke
+- ___64+[NFHardwareManager _sharedHardwareManagerWithNoUIWaitOnHWInit:]_block_invoke
+- ___64+[NFSecureTransactionServicesHandoverSessionInterface interface]_block_invoke
+- ___64-[NFLoyaltyAndPaymentSession setActivePaymentApplet:keys:error:]_block_invoke
+- ___64-[NFLoyaltyAndPaymentSession setActivePaymentApplet:keys:error:]_block_invoke.75
+- ___64-[NFSecureTransactionServicesHandoverHybridSession fieldChange:]_block_invoke
+- ___64-[NFSecureTransactionServicesHandoverSession fieldNotification:]_block_invoke
+- ___65-[NFConnectionHandoverInitiator readerSessionDidEndUnexpectedly:]_block_invoke
+- ___65-[NFConnectionHandoverReceiver forceResumeWithCompletionHandler:]_block_invoke
+- ___65-[NFConnectionHandoverReceiver forceResumeWithCompletionHandler:]_block_invoke_2
+- ___65-[NFConnectionHandoverReceiver startWithAutoResumeOnFieldDisable]_block_invoke
+- ___65-[NFHardwareManager actOnUserInitiatedSystemShutDown:completion:]_block_invoke
+- ___65-[NFHardwareManager actOnUserInitiatedSystemShutDown:completion:]_block_invoke.287
+- ___65-[NFHardwareManager startHCESessionWithConfiguration:completion:]_block_invoke
+- ___65-[NFHardwareManager startHCESessionWithConfiguration:completion:]_block_invoke_2
+- ___65-[NFHardwareManager startReaderSessionWithAttributes:completion:]_block_invoke
+- ___65-[NFHardwareManager startReaderSessionWithAttributes:completion:]_block_invoke_2
+- ___66-[NFDigitalCarKeySession sendRKEFunction:rkeAction:authorization:]_block_invoke
+- ___66-[NFDigitalCarKeySession sesSession:didReceivePassthroughMessage:]_block_invoke
+- ___66-[NFHardwareManager _synchronousQueueSessionWithRetry:queueBlock:]_block_invoke
+- ___66-[NFHardwareManager _synchronousQueueSessionWithRetry:queueBlock:]_block_invoke.149
+- ___66-[NFHardwareManager synchronousRemoteObjectProxyWithErrorHandler:]_block_invoke
+- ___67-[NFECommercePaymentSession performECommercePayment:request:error:]_block_invoke
+- ___67-[NFECommercePaymentSession performECommercePayment:request:error:]_block_invoke.26
+- ___67-[NFLoyaltyAndPaymentSession didExpressModeStateChange:withObject:]_block_invoke
+- ___67-[NFSecureElementManagerSession expressAppletIdentifiersWithError:]_block_invoke
+- ___67-[NFSecureElementManagerSession expressAppletIdentifiersWithError:]_block_invoke.133
+- ___67-[NFSecureTransactionServicesHandoverHybridSession didDetectField:]_block_invoke
+- ___68+[NFSecureTransactionServicesHandoverBaseSessionInterface interface]_block_invoke
+- ___68-[NFConnectionHandoverReceiver hceSession:triggeredByField:started:]_block_invoke
+- ___68-[NFContactlessPaymentSession didExpressModeStateChange:withObject:]_block_invoke
+- ___68-[NFSecureElementManagerSession getSignedPlatformDataForSeid:error:]_block_invoke
+- ___68-[NFSecureElementManagerSession getSignedPlatformDataForSeid:error:]_block_invoke.55
+- ___68-[NFSecureElementManagerSession performPeerPaymentEnrollment:error:]_block_invoke
+- ___68-[NFSecureElementManagerSession performPeerPaymentEnrollment:error:]_block_invoke.134
+- ___68-[NFSecureElementManagerSession runScript:parameters:outputResults:]_block_invoke
+- ___68-[NFSecureElementManagerSession runScript:parameters:outputResults:]_block_invoke.144
+- ___68-[NFSecureElementManagerSession signChallenge:forAID:sigInfo:error:]_block_invoke
+- ___68-[NFSecureElementManagerSession signChallenge:forAID:sigInfo:error:]_block_invoke.54
+- ___68-[NFSecureTransactionServicesHandoverHybridSession didSelectApplet:]_block_invoke
+- ___68-[NFSecureTransactionServicesHandoverHybridSession didStartSession:]_block_invoke
+- ___68-[NFSecureTransactionServicesHandoverHybridSession didStartSession:]_block_invoke.21
+- ___68-[NFSecureTransactionServicesHandoverHybridSession didStartSession:]_block_invoke.23
+- ___68-[NFSeshatSession upgradeKey:inputData:outWriteCount:trackingError:]_block_invoke
+- ___68-[NFSeshatSession upgradeKey:inputData:outWriteCount:trackingError:]_block_invoke.74
+- ___69-[NFConnectionHandoverInitiator sendHandoverRequest:responseHandler:]_block_invoke
+- ___69-[NFConnectionHandoverInitiator sendHandoverRequest:responseHandler:]_block_invoke.228
+- ___69-[NFConnectionHandoverInitiator sendHandoverRequest:responseHandler:]_block_invoke.232
+- ___69-[NFHardwareManager _startLoyaltyAndContactlessPaymentSession:force:]_block_invoke
+- ___69-[NFHardwareManager _startLoyaltyAndContactlessPaymentSession:force:]_block_invoke_2
+- ___69-[NFRemoteAdminManager synchronousRemoteObjectProxyWithErrorHandler:]_block_invoke
+- ___69-[NFSecureTransactionServicesHandoverHybridSession stopTNEPOperation]_block_invoke
+- ___69-[NFUnifiedAccessSession _startCardEmulationWithAuthorization:error:]_block_invoke
+- ___69-[NFUnifiedAccessSession _startCardEmulationWithAuthorization:error:]_block_invoke.67
+- ___70+[NFHardwareManager sharedHardwareManagerWithOptions:readyCompletion:]_block_invoke
+- ___70+[NFSecureTransactionServicesHandoverHybridSessionInterface interface]_block_invoke
+- ___70-[NFLoyaltyAndPaymentSession didPerformValueAddedServiceTransactions:]_block_invoke
+- ___70-[NFSecureTransactionServicesHandoverHybridSession didEndTransaction:]_block_invoke
+- ___70-[NFSecureTransactionServicesHandoverHybridSession fieldNotification:]_block_invoke
+- ___70-[NFSecureTransactionServicesHandoverHybridSession stopCardEmulation:]_block_invoke
+- ___70-[NFSecureTransactionServicesHandoverHybridSession stopCardEmulation:]_block_invoke.66
+- ___70-[NFSecureTransactionServicesHandoverSession tnepTagDeviceDeselected:]_block_invoke
+- ___70-[NFSeshatSession resetCounter:userToken:outWriteCount:trackingError:]_block_invoke
+- ___70-[NFSeshatSession resetCounter:userToken:outWriteCount:trackingError:]_block_invoke.41
+- ___71-[NFSecureElementAndHostCardEmulationSession transceive:forSEID:error:]_block_invoke
+- ___71-[NFSecureElementAndHostCardEmulationSession transceive:forSEID:error:]_block_invoke.12
+- ___71-[NFSecureElementManagerSession getCryptogram:challengeResponse:error:]_block_invoke
+- ___71-[NFSecureElementManagerSession getCryptogram:challengeResponse:error:]_block_invoke.67
+- ___71-[NFSecureElementManagerSession getServiceProviderDataForApplet:error:]_block_invoke
+- ___71-[NFSecureElementManagerSession getServiceProviderDataForApplet:error:]_block_invoke.125
+- ___71-[NFSeshatSession derive:userHash:outData:outWriteCount:trackingError:]_block_invoke
+- ___71-[NFSeshatSession derive:userHash:outData:outWriteCount:trackingError:]_block_invoke.35
+- ___72-[NFConnectionHandoverInitiator readerSessionDidEndUnexpectedly:reason:]_block_invoke
+- ___72-[NFCredentialTransceiver deleteApplets:queueServerConnection:outError:]_block_invoke
+- ___72-[NFCredentialTransceiver deleteApplets:queueServerConnection:outError:]_block_invoke_2
+- ___72-[NFSecureElementManagerSession stateInformationWithRedirectInfo:error:]_block_invoke
+- ___72-[NFSecureElementManagerSession stateInformationWithRedirectInfo:error:]_block_invoke.45
+- ___72-[NFSecureElementManagerSession validateSEPairings:outSEPairingVersion:]_block_invoke
+- ___72-[NFSecureElementManagerSession validateSEPairings:outSEPairingVersion:]_block_invoke.65
+- ___72-[NFSecureTransactionServicesHandoverHybridSession didStartTransaction:]_block_invoke
+- ___72-[NFSecureTransactionServicesHandoverSession tnepReaderServicesAborted:]_block_invoke
+- ___73+[NFSecureTransactionServicesHandoverSessionCallbacksInterface interface]_block_invoke
+- ___73-[NFConnectionHandoverReceiver _startWithAutoResume:customBroadcastData:]_block_invoke
+- ___73-[NFConnectionHandoverReceiver _startWithAutoResume:customBroadcastData:]_block_invoke.434
+- ___73-[NFConnectionHandoverReceiver _startWithAutoResume:customBroadcastData:]_block_invoke_2
+- ___73-[NFConnectionHandoverReceiver _startWithAutoResume:customBroadcastData:]_block_invoke_2.435
+- ___73-[NFContactlessPaymentSession startCardEmulationWithAuthorization:error:]_block_invoke
+- ___73-[NFContactlessPaymentSession startCardEmulationWithAuthorization:error:]_block_invoke.74
+- ___73-[NFDigitalCarKeySession startCardEmulationAuthorization:deferred:error:]_block_invoke
+- ___73-[NFDigitalCarKeySession startCardEmulationAuthorization:deferred:error:]_block_invoke.80
+- ___73-[NFHardwareManager secureElementWithIdentifier:didChangeRestrictedMode:]_block_invoke
+- ___73-[NFHardwareManager validateExpressPassCompatibilityWithConfig:outError:]_block_invoke
+- ___73-[NFHardwareManager validateExpressPassCompatibilityWithConfig:outError:]_block_invoke.92
+- ___73-[NFLoyaltyAndPaymentSession _startCardEmulationWithAuthorization:error:]_block_invoke
+- ___73-[NFLoyaltyAndPaymentSession _startCardEmulationWithAuthorization:error:]_block_invoke.77
+- ___73-[NFReaderSession(InternalTest) enableContinuousWave:withFrequencySweep:]_block_invoke
+- ___73-[NFReaderSession(InternalTest) enableContinuousWave:withFrequencySweep:]_block_invoke.12
+- ___73-[NFSecureTransactionServicesHandoverSession tnepTagDeviceReaderDetected]_block_invoke
+- ___73-[NFTrustSession signWithKey:request:paymentRequest:authorization:error:]_block_invoke
+- ___73-[NFTrustSession signWithKey:request:paymentRequest:authorization:error:]_block_invoke.33
+- ___74-[NFContactlessPaymentSession setActivePaymentApplet:authorization:error:]_block_invoke
+- ___74-[NFContactlessPaymentSession setActivePaymentApplet:authorization:error:]_block_invoke.72
+- ___74-[NFDigitalCarKeySession sendRKEFunction:action:authorization:completion:]_block_invoke
+- ___74-[NFDigitalCarKeySession sendRKEFunction:action:authorization:completion:]_block_invoke_2
+- ___74-[NFDigitalCarKeySession sendRKEFunction:action:authorization:completion:]_block_invoke_3
+- ___74-[NFDigitalCarKeySession sendRKEFunction:action:authorization:completion:]_block_invoke_4
+- ___74-[NFRemoteAdminManager connectToServer:initialClientRequestInfo:callback:]_block_invoke
+- ___74-[NFRemoteAdminManager connectToServer:initialClientRequestInfo:callback:]_block_invoke.94
+- ___74-[NFSecureElementReaderSession receivedSecureElementReaderData:forApplet:]_block_invoke
+- ___74-[NFSecureTransactionServicesHandoverSession startTNEPReaderWithDelegate:]_block_invoke
+- ___74-[NFSecureTransactionServicesHandoverSession startTNEPReaderWithDelegate:]_block_invoke.17
+- ___75-[NFConnectionHandoverInitiator handleSessionSuspended:token:reason:field:]_block_invoke
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke.464
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke.467
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke.469
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke_2
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke_2.470
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke_3
+- ___75-[NFConnectionHandoverReceiver sendHandoverSelect:delay:completionHandler:]_block_invoke_3.471
+- ___75-[NFSecureElementManagerSession deleteApplets:queueServerConnection:error:]_block_invoke
+- ___75-[NFSecureElementManagerSession deleteApplets:queueServerConnection:error:]_block_invoke.57
+- ___75-[NFSecureElementManagerSession setExpressPassConfig:restoreAuthorization:]_block_invoke
+- ___75-[NFSecureElementManagerSession setExpressPassConfig:restoreAuthorization:]_block_invoke.97
+- ___75-[NFSecureElementManagerSession stateInformationWithoutFilteringWithError:]_block_invoke
+- ___75-[NFSecureElementManagerSession stateInformationWithoutFilteringWithError:]_block_invoke.46
+- ___75-[NFSecureTransactionServicesHandoverSession tnepReaderServicesDiscovered:]_block_invoke
+- ___76-[NFSecureElementManagerSession restoreAuthorizarionForKeys:onApplet:error:]_block_invoke
+- ___76-[NFSecureElementManagerSession restoreAuthorizarionForKeys:onApplet:error:]_block_invoke.115
+- ___76-[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceDeselected:]_block_invoke
+- ___77+[NFSecureTransactionServicesHandoverBaseSessionCallbacksInterface interface]_block_invoke
+- ___77-[NFCredentialSession startCardEmulationWithApplets:externalAuth:completion:]_block_invoke
+- ___77-[NFCredentialSession startCardEmulationWithApplets:externalAuth:completion:]_block_invoke.141
+- ___77-[NFCredentialSession startCardEmulationWithApplets:externalAuth:completion:]_block_invoke_2
+- ___77-[NFCredentialSession startCardEmulationWithApplets:externalAuth:completion:]_block_invoke_3
+- ___77-[NFCredentialSession startWiredModeWithIdentifiers:externalAuth:completion:]_block_invoke
+- ___77-[NFCredentialSession startWiredModeWithIdentifiers:externalAuth:completion:]_block_invoke.140
+- ___77-[NFCredentialSession startWiredModeWithIdentifiers:externalAuth:completion:]_block_invoke_2
+- ___77-[NFCredentialSession startWiredModeWithIdentifiers:externalAuth:completion:]_block_invoke_3
+- ___77-[NFSecureElementManagerSession disableAuthorizationForPasses:authorization:]_block_invoke
+- ___77-[NFSecureElementManagerSession disableAuthorizationForPasses:authorization:]_block_invoke.121
+- ___77-[NFSecureElementManagerSession transceive:forSEID:toOS:secureZeroOut:error:]_block_invoke
+- ___77-[NFSecureElementManagerSession transceive:forSEID:toOS:secureZeroOut:error:]_block_invoke.140
+- ___77-[NFUnifiedAccessSession _startDeferredCardEmulationWithAuthorization:error:]_block_invoke
+- ___77-[NFUnifiedAccessSession _startDeferredCardEmulationWithAuthorization:error:]_block_invoke.68
+- ___78-[NFHardwareManager startNdefTagSessionWithBluetoothLESecureOOBData:callback:]_block_invoke
+- ___78-[NFHardwareManager startNdefTagSessionWithBluetoothLESecureOOBData:callback:]_block_invoke.222
+- ___78-[NFSecureTransactionServicesHandoverHybridSession tnepReaderServicesAborted:]_block_invoke
+- ___79+[NFSecureTransactionServicesHandoverHybridSessionCallbacksInterface interface]_block_invoke
+- ___79-[NFConnectionHandoverInitiator readerSession:externalReaderFieldNotification:]_block_invoke
+- ___79-[NFConnectionHandoverInitiator readerSession:externalReaderFieldNotification:]_block_invoke.278
+- ___79-[NFConnectionHandoverReceiver _processDisconnectWithPossibleDiscoveryRestart:]_block_invoke
+- ___79-[NFConnectionHandoverReceiver _processDisconnectWithPossibleDiscoveryRestart:]_block_invoke.495
+- ___79-[NFHardwareManager startSecureElementManagerSessionWithAttributes:completion:]_block_invoke
+- ___79-[NFHardwareManager startSecureElementManagerSessionWithAttributes:completion:]_block_invoke_2
+- ___79-[NFSecureElementManagerSession restoreAuthorizationForAllAppletsExcept:error:]_block_invoke
+- ___79-[NFSecureElementManagerSession restoreAuthorizationForAllAppletsExcept:error:]_block_invoke.108
+- ___79-[NFSecureTransactionServicesHandoverHybridSession didDetectFieldNotification:]_block_invoke
+- ___79-[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceReaderDetected]_block_invoke
+- ___79-[NFSecureTransactionServicesHandoverSession connectionHandoverProcessFailure:]_block_invoke
+- ___79-[NFSecureTransactionServicesHandoverSession tnepTagDeviceNDEFMessageReceived:]_block_invoke
+- ___79-[NFSeshatSession getData:updateKUD:outWriteLimit:outWriteCount:trackingError:]_block_invoke
+- ___79-[NFSeshatSession getData:updateKUD:outWriteLimit:outWriteCount:trackingError:]_block_invoke.60
+- ___80-[NFConnectionHandoverInitiator _triggerDelayRequestCompletionWithSelect:error:]_block_invoke
+- ___80-[NFSecureElementManagerSession signChallenge:useOSVersion:signatureInfo:error:]_block_invoke
+- ___80-[NFSecureElementManagerSession signChallenge:useOSVersion:signatureInfo:error:]_block_invoke.49
+- ___80-[NFSecureTransactionServicesHandoverSession connectionHandoverProcessCompleted]_block_invoke
+- ___81-[NFContactlessPaymentSession startDeferredCardEmulationWithAuthorization:error:]_block_invoke
+- ___81-[NFContactlessPaymentSession startDeferredCardEmulationWithAuthorization:error:]_block_invoke.75
+- ___81-[NFHardwareManager startSecureElementAndHCESessionWithConfiguration:completion:]_block_invoke
+- ___81-[NFHardwareManager startSecureElementAndHCESessionWithConfiguration:completion:]_block_invoke_2
+- ___81-[NFLoyaltyAndPaymentSession _startDeferredCardEmulationWithAuthorization:error:]_block_invoke
+- ___81-[NFLoyaltyAndPaymentSession _startDeferredCardEmulationWithAuthorization:error:]_block_invoke.79
+- ___81-[NFSecureTransactionServicesHandoverHybridSession tnepReaderServicesDiscovered:]_block_invoke
+- ___82-[NFSecureElementManagerSession getAttackCounterLogForSEID:acknowledgeLogs:error:]_block_invoke
+- ___82-[NFSecureElementManagerSession getAttackCounterLogForSEID:acknowledgeLogs:error:]_block_invoke.154
+- ___82-[NFSecureTransactionServicesHandoverHybridSession didExpireTransactionForApplet:]_block_invoke
+- ___83-[NFSecureTransactionServicesHandoverSession tnepTagDeviceSelected:respondHandler:]_block_invoke
+- ___83-[NFSecureTransactionServicesHandoverSession tnepTagDeviceSelected:respondHandler:]_block_invoke_2
+- ___83-[NFSeshatSession authorizeUpdate:slotIndex:userToken:outWriteCount:trackingError:]_block_invoke
+- ___83-[NFSeshatSession authorizeUpdate:slotIndex:userToken:outWriteCount:trackingError:]_block_invoke.48
+- ___84-[NFHardwareManager configureReaderModeRFForTransitPartner:transitPartner:callback:]_block_invoke
+- ___84-[NFSecureElementReaderSession performGetVASDataWithRequestList:responseList:error:]_block_invoke
+- ___84-[NFSecureElementReaderSession performGetVASDataWithRequestList:responseList:error:]_block_invoke.43
+- ___84-[NFSecureTransactionServicesHandoverSession connectionHandoverTNEPServiceSelected:]_block_invoke
+- ___85-[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]_block_invoke
+- ___85-[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]_block_invoke.225
+- ___85-[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]_block_invoke_2
+- ___85-[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]_block_invoke_3
+- ___85-[NFConnectionHandoverInitiator _processSelectRetry:originalRequest:responseHandler:]_block_invoke_4
+- ___85-[NFConnectionHandoverReceiver startAutoResumeOnFieldDisableWithCustomBroadcastData:]_block_invoke
+- ___85-[NFSecureElementManagerSession transceiveMultiple:forSEID:toOS:secureZeroOut:error:]_block_invoke
+- ___85-[NFSecureElementManagerSession transceiveMultiple:forSEID:toOS:secureZeroOut:error:]_block_invoke.142
+- ___85-[NFSecureTransactionServicesHandoverHybridSession connectionHandoverProcessFailure:]_block_invoke
+- ___85-[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceNDEFMessageReceived:]_block_invoke
+- ___86-[NFSecureTransactionServicesHandoverHybridSession connectionHandoverProcessCompleted]_block_invoke
+- ___87-[NFHardwareManager getReaderProhibitTimerInfoSERmRunning:hostRmRunning:remainingInMs:]_block_invoke
+- ___87-[NFHardwareManager getReaderProhibitTimerInfoSERmRunning:hostRmRunning:remainingInMs:]_block_invoke.71
+- ___87-[NFSecureTransactionServicesHandoverSession startSTSNotificationListenerWithEndpoint:]_block_invoke
+- ___88-[NFCredentialSession _startWiredModeWithApplets:selectOnStart:externalAuth:completion:]_block_invoke
+- ___88-[NFCredentialSession _startWiredModeWithApplets:selectOnStart:externalAuth:completion:]_block_invoke.139
+- ___88-[NFCredentialSession _startWiredModeWithApplets:selectOnStart:externalAuth:completion:]_block_invoke_2
+- ___88-[NFCredentialSession _startWiredModeWithApplets:selectOnStart:externalAuth:completion:]_block_invoke_3
+- ___88-[NFSecureElementManagerSession getServiceProviderDataForApplet:publicKey:scheme:error:]_block_invoke
+- ___88-[NFSecureElementManagerSession getServiceProviderDataForApplet:publicKey:scheme:error:]_block_invoke.127
+- ___88-[NFSecureTransactionServicesHandoverHybridSession setActiveApplet:authorization:error:]_block_invoke
+- ___88-[NFSecureTransactionServicesHandoverHybridSession setActiveApplet:authorization:error:]_block_invoke.63
+- ___89-[NFSecureTransactionServicesHandoverHybridSession didExpressModeStateChange:withObject:]_block_invoke
+- ___89-[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceSelected:respondHandler:]_block_invoke
+- ___89-[NFSecureTransactionServicesHandoverHybridSession tnepTagDeviceSelected:respondHandler:]_block_invoke_2
+- ___90-[NFSecureTransactionServicesHandoverHybridSession connectionHandoverTNEPServiceSelected:]_block_invoke
+- ___91-[NFCredentialSession startCardEmulationWithApplets:externalAuth:emulationType:completion:]_block_invoke
+- ___91-[NFCredentialSession startCardEmulationWithApplets:externalAuth:emulationType:completion:]_block_invoke.142
+- ___91-[NFCredentialSession startCardEmulationWithApplets:externalAuth:emulationType:completion:]_block_invoke_2
+- ___91-[NFCredentialSession startCardEmulationWithApplets:externalAuth:emulationType:completion:]_block_invoke_3
+- ___91-[NFSecureElementManagerSession disableAuthorizationForApplets:andKey:authorization:error:]_block_invoke
+- ___91-[NFSecureElementManagerSession disableAuthorizationForApplets:andKey:authorization:error:]_block_invoke.120
+- ___93-[NFSecureTransactionServicesHandoverHybridSession startSTSNotificationListenerWithEndpoint:]_block_invoke
+- ___94-[NFSecureTransactionServicesHandoverHybridSession startCardEmulationWithAuthorization:error:]_block_invoke
+- ___94-[NFSecureTransactionServicesHandoverHybridSession startCardEmulationWithAuthorization:error:]_block_invoke.65
+- ___99-[NFSecureTransactionServicesHandoverSession singleResponseCommunicationTagSend:completionHandler:]_block_invoke
+- ___99-[NFSecureTransactionServicesHandoverSession singleResponseCommunicationTagSend:completionHandler:]_block_invoke.16
+- ___Block_byref_object_copy_
+- ___Block_byref_object_copy_.452
+- ___Block_byref_object_dispose_
+- ___Block_byref_object_dispose_.453
+- ___CBORLibraryLibraryCore_block_invoke
+- ___ObliterationDeleteAllApplets_block_invoke
+- ___SpringBoardServicesLibraryCore_block_invoke
+- ___SymptomDiagnosticReporterLibraryCore_block_invoke
+- ___block_descriptor_32_e12_v24?08^B16l
+- ___block_descriptor_32_e17_v16?0"NSError"8l
+- ___block_descriptor_32_e33_"NSData"16?0"NFSecureElement"8l
+- ___block_descriptor_32_e35_"NSNumber"16?0"NFSecureElement"8l
+- ___block_descriptor_32_e35_"NSString"16?0"NFSecureElement"8l
+- ___block_descriptor_32_e54_"NFHardwareSecureElementInfo"16?0"NFSecureElement"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_8_32bs_e20_v20?0C8"NSArray"12ls32l8
+- ___block_descriptor_40_8_32bs_e43_v24?0"NFNdefMessageInternal"8"NSError"16ls32l8
+- ___block_descriptor_40_8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_8_32r_e17_v16?0"NSArray"8lr32l8
+- ___block_descriptor_40_8_32r_e17_v16?0"NSError"8lr32l8
+- ___block_descriptor_40_8_32r_e20_v20?0"NSError"8I16lr32l8
+- ___block_descriptor_40_8_32r_e20_v20?0B8"NSError"12lr32l8
+- ___block_descriptor_40_8_32r_e29_v24?0"NSArray"8"NSError"16lr32l8
+- ___block_descriptor_40_8_32r_e40_v36?0q8B16"NSDictionary"20"NSArray"28lr32l8
+- ___block_descriptor_40_8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_8_32s_e24_v32?0"<NFTag>"8Q16^B24ls32l8
+- ___block_descriptor_40_8_32s_e25_B32?0"NFApplet"8Q16^B24ls32l8
+- ___block_descriptor_40_8_32s_e37_v24?0"NFSeshatSession"8"NSError"16ls32l8
+- ___block_descriptor_40_8_32s_e37_v32?0"NFNdefRecordInternal"8Q16^B24ls32l8
+- ___block_descriptor_40_8_32s_e42_v32?0"NSArray"8"NFApplet"16"NSError"24ls32l8
+- ___block_descriptor_40_8_32s_e43_v32?0"NSString"8"SESVehicleReport"16^B24ls32l8
+- ___block_descriptor_40_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_8_32s_e8_v12?0i8ls32l8
+- ___block_descriptor_40_8_32s_e8_v16?08ls32l8
+- ___block_descriptor_40_8_32w_e5_v8?0lw32l8
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_41_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_44_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_48_8_32r40r_e20_v24?0q8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e28_v24?0"NSData"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e29_v24?0"NSArray"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e30_v24?0"NSNumber"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e30_v24?0"NSString"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e32_v24?0"NFTrustKey"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e37_v32?0q8"NSDictionary"16"NSError"24lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e39_v32?0"NSData"8"NSData"16"NSError"24lr32l8r40l8
+- ___block_descriptor_48_8_32r40r_e48_v24?0"NFTrustPaymentSignResponse"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_8_32r40w_e5_v8?0lw40l8r32l8
+- ___block_descriptor_48_8_32r_e17_v16?0"NSError"8lr32l8
+- ___block_descriptor_48_8_32r_e20_v20?0"NSError"8I16lr32l8
+- ___block_descriptor_48_8_32r_e20_v24?0d8"NSError"16lr32l8
+- ___block_descriptor_48_8_32r_e5_v8?0lr32l8
+- ___block_descriptor_48_8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_8_32s40bs_e30_v24?0"NSNumber"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_8_32s40r_e42_v32?0"NSArray"8"NFApplet"16"NSError"24lr40l8s32l8
+- ___block_descriptor_48_8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_8_32s40s_e109_v24?0"<NFHardwareManagerInterface>"8?<v?"NSObject<NFSessionInterface><NSXPCProxyCreating>"B"NSError">16ls32l8s40l8
+- ___block_descriptor_48_8_32s40s_e25_v32?0"NFApplet"8Q16^B24ls32l8s40l8
+- ___block_descriptor_48_8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_8_32s_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_48_8_32s_e22_v16?0"NSDictionary"8ls32l8
+- ___block_descriptor_48_8_32s_e29_v24?0"NSArray"8"NSError"16ls32l8
+- ___block_descriptor_48_8_32s_e34_v24?0"NFHCESession"8"NSError"16ls32l8
+- ___block_descriptor_48_8_32s_e37_v24?0"NFReaderSession"8"NSError"16ls32l8
+- ___block_descriptor_48_8_32s_e42_v32?0"NSArray"8"NFApplet"16"NSError"24ls32l8
+- ___block_descriptor_48_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_8_32s_e8_v12?0I8ls32l8
+- ___block_descriptor_48_8_32w_e35_v24?0"SESDCKSession"8"NSError"16lw32l8
+- ___block_descriptor_49_8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_49_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_52_8_32s_e20_v20?0"NSError"8I16ls32l8
+- ___block_descriptor_52_8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_8_32r40r_e20_v24?0Q8"NSError"16lr32l8r40l8
+- ___block_descriptor_56_8_32s40bs48r_e17_v16?0"NSError"8lr48l8s32l8s40l8
+- ___block_descriptor_56_8_32s40bs48r_e5_v8?0ls40l8r48l8s32l8
+- ___block_descriptor_56_8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_56_8_32s40bs_e20_v24?0"NSError"8Q16ls32l8s40l8
+- ___block_descriptor_56_8_32s40bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_56_8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_56_8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_8_32s40r48r_e40_v40?0"NSDictionary"8Q16d24"NSError"32lr40l8s32l8r48l8
+- ___block_descriptor_56_8_32s40r48r_e5_v8?0lr40l8s32l8r48l8
+- ___block_descriptor_56_8_32s40r_e17_v16?0"NSError"8lr40l8s32l8
+- ___block_descriptor_56_8_32s40r_e17_v16?0"NSError"8ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e28_v24?0"NSData"8"NSError"16ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e29_v24?0"NSArray"8"NSError"16ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e30_v24?0"NSString"8"NSError"16ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e34_v24?0"NSDictionary"8"NSError"16ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e40_v32?0"NFApplet"8"NSSet"16"NSError"24ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e42_v32?0"NSArray"8"NFApplet"16"NSError"24lr40l8s32l8
+- ___block_descriptor_56_8_32s40r_e42_v32?0"NSArray"8"NFApplet"16"NSError"24ls32l8r40l8
+- ___block_descriptor_56_8_32s40r_e61_v24?0"NSObject<NFFieldDetectSessionInterface>"8"NSError"16ls32l8r40l8
+- ___block_descriptor_56_8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
+- ___block_descriptor_56_8_32s40s48r_e5_v8?0ls32l8r48l8s40l8
+- ___block_descriptor_56_8_32s40s48s_e109_v24?0"<NFHardwareManagerInterface>"8?<v?"NSObject<NFSessionInterface><NSXPCProxyCreating>"B"NSError">16ls32l8s40l8s48l8
+- ___block_descriptor_56_8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_8_32s40s_e15_v32?0816^B24ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e15_v32?08Q16^B24ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e24_v32?0"<NFTag>"8Q16^B24ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e27_v16?0"NFHardwareManager"8ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e5_8?0ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_8_32s40s_e73_v28?0"NSObject<NFSessionInterface><NSXPCProxyCreating>"8B16"NSError"20ls32l8s40l8
+- ___block_descriptor_56_8_32s40w_e36_v24?0"SESACWGSession"8"NSError"16lw40l8s32l8
+- ___block_descriptor_56_8_32s_e5_8?0ls32l8
+- ___block_descriptor_57_8_32s40r_e17_v16?0"NSError"8lr40l8s32l8
+- ___block_descriptor_57_8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_60_8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_64_8_32r40r48r56r_e26_v28?0B8B12I16"NSError"20lr32l8r40l8r48l8r56l8
+- ___block_descriptor_64_8_32r40r48r_e31_v32?0Q8"NSData"16"NSError"24lr32l8r40l8r48l8
+- ___block_descriptor_64_8_32r40r_e23_v28?0Q8I16"NSError"20lr32l8r40l8
+- ___block_descriptor_64_8_32s40r48r_e17_v16?0"NSError"8lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e17_v16?0"NSError"8ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e20_v20?0"NSError"8B16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e20_v20?0B8"NSError"12lr40l8r48l8s32l8
+- ___block_descriptor_64_8_32s40r48r_e20_v20?0B8"NSError"12lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e20_v24?0"NSError"8Q16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e20_v24?0q8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e28_v24?0"NSData"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e28_v24?0"NSData"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e28_v24?0"NSError"8"NSData"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e29_v24?0"NSArray"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_64_8_32s40r48r_e29_v24?0"NSArray"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e29_v24?0"NSArray"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e29_v24?0"NSError"8"NSArray"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e30_v24?0"NFApplet"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e30_v24?0"NSString"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e34_v24?0"NSDictionary"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e34_v24?0"NSDictionary"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e34_v24?0"NSError"8"NSDictionary"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e37_v24?0"NSError"8"<NFNdefMessage>"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e40_v32?0"<NFTag>"8"NSData"16"NSError"24lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e40_v32?0"NFApplet"8"NSSet"16"NSError"24ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e41_v24?0"NFAssertionInternal"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e43_v24?0"NFPeerPaymentResponse"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e46_v24?0"NFHardwareControllerInfo"8"NSError"16ls32l8r40l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e48_v24?0"NFECommercePaymentResponse"8"NSError"16lr40l8s32l8r48l8
+- ___block_descriptor_64_8_32s40r48r_e53_v24?0"NFPeerPaymentEnrollmentResponse"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_64_8_32s40s48bs_e28_v24?0"NSData"8"NSError"16ls48l8s32l8s40l8
+- ___block_descriptor_64_8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_64_8_32s40s48r_e17_v16?0"NSError"8lr48l8s32l8s40l8
+- ___block_descriptor_64_8_32s40s48r_e29_v24?0"NSError"8"NSArray"16ls32l8r48l8s40l8
+- ___block_descriptor_64_8_32s40s48r_e34_v24?0"NSDictionary"8"NSError"16ls32l8r48l8s40l8
+- ___block_descriptor_64_8_32s40s48r_e34_v24?0"NSError"8"NSDictionary"16lr48l8s32l8s40l8
+- ___block_descriptor_64_8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_72_8_32r40r48r_e34_v36?0Q8"NSData"16I24"NSError"28lr32l8r40l8r48l8
+- ___block_descriptor_72_8_32s40r48r56r_e17_v16?0"NSError"8lr40l8s32l8r48l8r56l8
+- ___block_descriptor_72_8_32s40r48r56r_e33_v32?0"NSError"8"NSString"16Q24ls32l8r40l8r48l8r56l8
+- ___block_descriptor_72_8_32s40r48r56r_e45_v32?0"NSData"8"NSDictionary"16"NSError"24lr40l8s32l8r48l8r56l8
+- ___block_descriptor_72_8_32s40r48r56r_e48_v32?0"NSData"8"NFSignatureInfo"16"NSError"24lr40l8s32l8r48l8r56l8
+- ___block_descriptor_72_8_32s40s48r56r64r_e5_v8?0ls32l8s40l8r48l8r56l8r64l8
+- ___block_descriptor_72_8_32s40s48r56r_e17_v16?0"NSError"8lr48l8s32l8r56l8s40l8
+- ___block_descriptor_72_8_32s40s48r56r_e17_v16?0"NSError"8lr48l8s32l8s40l8r56l8
+- ___block_descriptor_72_8_32s40s48r56r_e29_v24?0"<NFTag>"8"NSError"16lr48l8s32l8r56l8s40l8
+- ___block_descriptor_72_8_32s40s48r56r_e29_v24?0"NSArray"8"NSError"16lr48l8r56l8s32l8s40l8
+- ___block_descriptor_72_8_32s40s48r56r_e40_v32?0"NFApplet"8"NSSet"16"NSError"24ls32l8s40l8r48l8r56l8
+- ___block_descriptor_72_8_32s40s48r56r_e40_v40?0"NSDictionary"8q16d24"NSError"32ls32l8r48l8s40l8r56l8
+- ___block_descriptor_72_8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_8_32s40s48s56r_e17_v16?0"NSError"8lr56l8s32l8s40l8s48l8
+- ___block_descriptor_72_8_32s40s48s56r_e56_v24?0"NSObject<NFSeshatSessionInterface>"8"NSError"16ls32l8s40l8r56l8s48l8
+- ___block_descriptor_72_8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_80_8_32s40r48r56r64r_e39_v32?0"NSData"8"NSData"16"NSError"24lr40l8s32l8r48l8r56l8r64l8
+- ___block_descriptor_80_8_32s40r48r_e23_v32?0q8Q16"NSError"24lr40l8s32l8r48l8
+- ___block_descriptor_80_8_32s40s48s56r64r_e17_v16?0"NSError"8lr56l8s32l8s40l8s48l8r64l8
+- ___block_descriptor_88_8_32r40r48r_e40_v44?0Q8"NSData"16C24I28I32"NSError"36lr32l8r40l8r48l8
+- ___block_descriptor_88_8_32s40s48s56r64r72r_e17_v16?0"NSError"8lr56l8r64l8s32l8r72l8s40l8s48l8
+- ___block_literal_global
+- ___block_literal_global.22
+- ___block_literal_global.27
+- ___block_literal_global.278
+- ___block_literal_global.282
+- ___block_literal_global.285
+- ___block_literal_global.29
+- ___block_literal_global.31
+- ___block_literal_global.33
+- ___block_literal_global.331
+- ___block_literal_global.35
+- ___block_literal_global.37
+- ___block_literal_global.38
+- ___block_literal_global.40
+- ___block_literal_global.41
+- ___block_literal_global.43
+- ___block_literal_global.45
+- ___block_literal_global.47
+- ___block_literal_global.49
+- ___block_literal_global.50
+- ___block_literal_global.51
+- ___block_literal_global.56
+- ___block_literal_global.58
+- ___block_literal_global.83
+- ___block_literal_global.85
+- ___getCBORClass_block_invoke
+- ___getSBUserNotificationDismissOnLockSymbolLoc_block_invoke
+- ___getSDRDiagnosticReporterClass_block_invoke
+- ___getkSymptomDiagnosticReplySuccessSymbolLoc_block_invoke
+- __sl_dlopen
+- _audit_stringCBORLibrary
+- _audit_stringSpringBoardServices
+- _audit_stringSymptomDiagnosticReporter
+- _dlerror
+- _dlsym
+- _getCBORClass
+- _getCBORClass.softClass
+- _getSBUserNotificationDismissOnLock
+- _getSBUserNotificationDismissOnLockSymbolLoc.ptr
+- _getSDRDiagnosticReporterClass.softClass
+- _getkSymptomDiagnosticReplySuccessSymbolLoc.ptr
+- _invalidate.retry
+- _objc_getClass
+- _objc_msgSend$AIDAllowList
+- _objc_msgSend$NF_arrayForKey:
+- _objc_msgSend$NF_asHexString
+- _objc_msgSend$NF_dataForKey:
+- _objc_msgSend$NF_dataWithHexString:
+- _objc_msgSend$NF_numberForKey:
+- _objc_msgSend$NF_stringForKey:
+- _objc_msgSend$OSVersion
+- _objc_msgSend$PMm
+- _objc_msgSend$SystemCode
+- _objc_msgSend$TLVWithData:
+- _objc_msgSend$TLVWithTag:children:
+- _objc_msgSend$TLVWithTag:unsignedChar:
+- _objc_msgSend$TLVsWithData:
+- _objc_msgSend$UID
+- _objc_msgSend$URL
+- _objc_msgSend$URLWithString:
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_appletsById
+- _objc_msgSend$_configureInterface:
+- _objc_msgSend$_connectIfNeeded
+- _objc_msgSend$_createSesdSession
+- _objc_msgSend$_creationDateString
+- _objc_msgSend$_delayRequestDidExpire
+- _objc_msgSend$_disconnectTagWithCardRemoval:outError:
+- _objc_msgSend$_emuAssertTimerExpired
+- _objc_msgSend$_encodeRequest
+- _objc_msgSend$_encodeRequestRetry
+- _objc_msgSend$_encodeRetryError
+- _objc_msgSend$_encodeSelect
+- _objc_msgSend$_endProxySession
+- _objc_msgSend$_executeOnUpdatedInstance:
+- _objc_msgSend$_getAppletsFromNFCD
+- _objc_msgSend$_getInstance
+- _objc_msgSend$_handleCallbackSync:
+- _objc_msgSend$_initCategoryWithType:
+- _objc_msgSend$_initCategoryWithType:subType:
+- _objc_msgSend$_initManagedBySP
+- _objc_msgSend$_initSEDictionaryWithSEInfoList:
+- _objc_msgSend$_initWithInfo:
+- _objc_msgSend$_invalidateParentSession
+- _objc_msgSend$_invokeDidEndSession
+- _objc_msgSend$_invokeDidStartCallback:
+- _objc_msgSend$_isHWReadyAndIfNotQueueClient:
+- _objc_msgSend$_markDirty
+- _objc_msgSend$_newZeroingDataWithBytes:length:
+- _objc_msgSend$_parseCHTerminalTypeData:
+- _objc_msgSend$_processConnect
+- _objc_msgSend$_processRetryRequest:
+- _objc_msgSend$_processSelectCommand:response:
+- _objc_msgSend$_processSelectResponse:
+- _objc_msgSend$_processSelectRetry:originalRequest:responseHandler:
+- _objc_msgSend$_queue
+- _objc_msgSend$_requestTapToRadarSync:prefs:
+- _objc_msgSend$_sendFailureAPDU
+- _objc_msgSend$_sessionAttribute
+- _objc_msgSend$_setApplet:
+- _objc_msgSend$_setApplets:
+- _objc_msgSend$_setIdLengthPresent:
+- _objc_msgSend$_setIsInRestrictedMode:
+- _objc_msgSend$_setQueue:
+- _objc_msgSend$_sharedHardwareManagerWaitOnHWInit:
+- _objc_msgSend$_sharedHardwareManagerWithNoUIWaitOnHWInit:
+- _objc_msgSend$_startCardEmulationWithAuthorization:error:
+- _objc_msgSend$_startDeferredCardEmulationWithAuthorization:error:
+- _objc_msgSend$_startFieldDetectSession:completion:
+- _objc_msgSend$_startHostCardEmulation:
+- _objc_msgSend$_startLoyaltyAndContactlessPaymentSession:force:
+- _objc_msgSend$_startWithAutoResume:customBroadcastData:
+- _objc_msgSend$_startWithCustomBroadcastData:
+- _objc_msgSend$_stopWithError:
+- _objc_msgSend$_syncGetSessionWithError:
+- _objc_msgSend$_synchronousQueueSessionWithRetry:queueBlock:
+- _objc_msgSend$_tagConnectionDidExpire
+- _objc_msgSend$_triggerDelayRequestCompletionWithSelect:error:
+- _objc_msgSend$_updateSecureElementInfo:
+- _objc_msgSend$actOnUserInitiatedSystemShutDown:completion:
+- _objc_msgSend$actionSheetUI
+- _objc_msgSend$activateWithToken:completion:
+- _objc_msgSend$activeApplet
+- _objc_msgSend$activeKey
+- _objc_msgSend$activeKeys
+- _objc_msgSend$activeTransceiver
+- _objc_msgSend$addDelegate:
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$addRecord:
+- _objc_msgSend$allKeys
+- _objc_msgSend$allSystemCodes
+- _objc_msgSend$allValues
+- _objc_msgSend$allocateSlot:authorizingUser:authorizingUserToken:completion:
+- _objc_msgSend$allocateSlot:authorizingUser:authorizingUserToken:outToken:outWriteCount:trackingError:
+- _objc_msgSend$allowedXPCClasses
+- _objc_msgSend$anyObject
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendExpectedLength:usingExtendedLength:toAPDU:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$appletIdentifier
+- _objc_msgSend$appletStateChange:
+- _objc_msgSend$appletWithIdentifier:
+- _objc_msgSend$appletsById
+- _objc_msgSend$appletsDeleted:
+- _objc_msgSend$applicationLabel
+- _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+- _objc_msgSend$areSessionsAllowedWithCompletion:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$asData
+- _objc_msgSend$asDictionary
+- _objc_msgSend$asJSON
+- _objc_msgSend$assertionTime
+- _objc_msgSend$assertionType
+- _objc_msgSend$asyncReadAPDUWithCompletion:
+- _objc_msgSend$atqa
+- _objc_msgSend$authorizeUpdate:slotIndex:userToken:completion:
+- _objc_msgSend$authorizeUpdate:slotIndex:userToken:outWriteCount:trackingError:
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$boolValue
+- _objc_msgSend$bootHistory
+- _objc_msgSend$buildAPDUHeaderWithClass:instruction:p1:p2:len:useExtendedLength:
+- _objc_msgSend$bytes
+- _objc_msgSend$cachedBeforeRFReset
+- _objc_msgSend$cachedEmbeddedSecureElementSerialNumber:
+- _objc_msgSend$callbackQueue
+- _objc_msgSend$cancelCardIngestionWithCompletion:
+- _objc_msgSend$cancelRKEFunction:
+- _objc_msgSend$cancelSinglePollExpressModeAssertionWithCompletion:
+- _objc_msgSend$cardEmulationStarted
+- _objc_msgSend$cardServiceInfo
+- _objc_msgSend$caseInsensitiveCompare:
+- _objc_msgSend$cborWithArray:
+- _objc_msgSend$cborWithData:
+- _objc_msgSend$cborWithDictionary:
+- _objc_msgSend$cborWithFullDate:
+- _objc_msgSend$cborWithInteger:
+- _objc_msgSend$cborWithUTF8String:
+- _objc_msgSend$cborWithUnsignedInteger:
+- _objc_msgSend$chFieldType
+- _objc_msgSend$challenge
+- _objc_msgSend$checkAIDAllowList
+- _objc_msgSend$checkExpressPassCompatibility:callback:
+- _objc_msgSend$checkExpressPassCompatibilityDeprecated:callback:
+- _objc_msgSend$checkNdefSupportWithCompletion:
+- _objc_msgSend$checkNdefSupportsRead:andWrite:error:
+- _objc_msgSend$checkPresenceWithCompletion:
+- _objc_msgSend$checkPresenceWithError:
+- _objc_msgSend$checkUserBlessing:hasCards:
+- _objc_msgSend$childWithTag:
+- _objc_msgSend$children
+- _objc_msgSend$chunked
+- _objc_msgSend$clearLogs:forSEID:completion:
+- _objc_msgSend$code
+- _objc_msgSend$coder:decodeArrayOfArrayOfClass:forKey:
+- _objc_msgSend$coder:decodeArrayOfClass:forKey:
+- _objc_msgSend$coder:decodeDictOfClass:forKey:
+- _objc_msgSend$compare:
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$configureHardwareForLPEMWithCompletion:
+- _objc_msgSend$configureHeadlessFactoryMode:completion:
+- _objc_msgSend$configurePollingProfile:completion:
+- _objc_msgSend$configureReaderModeRFForTransitPartner:transitPartner:completion:
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$connect:completion:
+- _objc_msgSend$connectTag:error:
+- _objc_msgSend$connectToServer:initialClientRequestInfo:callback:
+- _objc_msgSend$connectToServer:initialClientRequestInfo:completion:
+- _objc_msgSend$connectToXPCManager:
+- _objc_msgSend$connection
+- _objc_msgSend$connectionHandoverCompleted:
+- _objc_msgSend$contactlessPaymentSession:didDetectField:
+- _objc_msgSend$contactlessPaymentSession:didDetectTechnology:
+- _objc_msgSend$contactlessPaymentSession:didEndTransaction:
+- _objc_msgSend$contactlessPaymentSession:didEnterFieldWithNotification:
+- _objc_msgSend$contactlessPaymentSession:didExpireTransactionForApplet:
+- _objc_msgSend$contactlessPaymentSession:didExpressModeStateChange:
+- _objc_msgSend$contactlessPaymentSession:didExpressModeStateChange:withObject:
+- _objc_msgSend$contactlessPaymentSession:didFailDeferredAuthorization:
+- _objc_msgSend$contactlessPaymentSession:didFelicaStateChange:
+- _objc_msgSend$contactlessPaymentSession:didSelectApplet:
+- _objc_msgSend$contactlessPaymentSession:didStartTransaction:
+- _objc_msgSend$contactlessPaymentSessionDidEndUnexpectedly:
+- _objc_msgSend$contactlessPaymentSessionDidExitField:
+- _objc_msgSend$contactlessPaymentSessionDidReceiveActivityTimeout:
+- _objc_msgSend$contactlessPaymentSessionDidReceiveActivityTimeout:result:
+- _objc_msgSend$contactlessPaymentSessionHasPendingServerRequest:
+- _objc_msgSend$contactlessSession:didDetectField:
+- _objc_msgSend$contactlessSession:didDetectTechnology:
+- _objc_msgSend$contactlessSession:didEnterFieldWithNotification:
+- _objc_msgSend$contactlessSession:didFelicaStateChange:
+- _objc_msgSend$contactlessSession:didSelectApplet:
+- _objc_msgSend$contactlessSessionDidEndUnexpectedly:
+- _objc_msgSend$contactlessSessionDidExitField:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$controller:didInvalidate:
+- _objc_msgSend$controller:didInvalidated:
+- _objc_msgSend$controller:didReceiveField:
+- _objc_msgSend$controller:didReceiveRequest:
+- _objc_msgSend$controllerDidConnectToReceiver:
+- _objc_msgSend$controllerDidDetectPotentialInitiator:
+- _objc_msgSend$controllerDidDetectPotentialInitiator:field:
+- _objc_msgSend$controllerDidDetectUnsupportedReceiverVersion:
+- _objc_msgSend$controllerDidStart:
+- _objc_msgSend$controllerInfo
+- _objc_msgSend$controllerInfoWithCompletion:
+- _objc_msgSend$controllerInfoWithError:
+- _objc_msgSend$copy
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$counterLimit
+- _objc_msgSend$counterValue
+- _objc_msgSend$createHandoffTokenWithCompletion:
+- _objc_msgSend$createKey:cresteKeyRequest:completion:
+- _objc_msgSend$createSessionHandoffToken:
+- _objc_msgSend$creationDate
+- _objc_msgSend$currentHandler
+- _objc_msgSend$currentInMetroStatus:
+- _objc_msgSend$data
+- _objc_msgSend$dataFromNDEFMessage:
+- _objc_msgSend$dataFromRecord:
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataWithCBOR:
+- _objc_msgSend$date
+- _objc_msgSend$dateFromString:
+- _objc_msgSend$dateWithTimeIntervalSinceNow:
+- _objc_msgSend$deactivateAllApps
+- _objc_msgSend$deassert
+- _objc_msgSend$debugDescription
+- _objc_msgSend$decodeBoolForKey:
+- _objc_msgSend$decodeCHForRequest:
+- _objc_msgSend$decodeCHRequest
+- _objc_msgSend$decodeCHRequestRetry
+- _objc_msgSend$decodeCHSelect
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$decodeFromData:
+- _objc_msgSend$decodeFromNDEFMessage:
+- _objc_msgSend$decodeFromRecord:
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$decodeIntForKey:
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$decodeObjectOfClasses:forKey:
+- _objc_msgSend$decodeSelectErrorDictionary
+- _objc_msgSend$defaultWorkspace
+- _objc_msgSend$delegate
+- _objc_msgSend$deleteAllApplets:error:
+- _objc_msgSend$deleteAllAppletsAndCleanupWithTSMWithCompletion:
+- _objc_msgSend$deleteAllAppletsWithCompletion:
+- _objc_msgSend$deleteAllSPAppletsAndCleanupWithTSMithCompletion:
+- _objc_msgSend$deleteAllWalletAppletsAndCleanupWithTSMWithCompletion:
+- _objc_msgSend$deleteApplets:completion:
+- _objc_msgSend$deleteApplets:queueServerConnection:error:
+- _objc_msgSend$deleteKey:completion:
+- _objc_msgSend$deleteKeyWithCompletion:
+- _objc_msgSend$deleteSlot:completion:
+- _objc_msgSend$deleteSlot:outWriteCount:trackingError:
+- _objc_msgSend$derive:userHash:completion:
+- _objc_msgSend$derive:userHash:outData:outWriteCount:trackingError:
+- _objc_msgSend$description
+- _objc_msgSend$deviceType
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryRepresentation
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didAbort:
+- _objc_msgSend$didChangeRadioState:
+- _objc_msgSend$didConnectedToInitiator:
+- _objc_msgSend$didDeselect:
+- _objc_msgSend$didDetectReader
+- _objc_msgSend$didDisconnectedFromInitiator:
+- _objc_msgSend$didDiscoverServices:
+- _objc_msgSend$didEnd
+- _objc_msgSend$didEndUnexpectedly
+- _objc_msgSend$didError
+- _objc_msgSend$didExitRestrictedMode:completion:
+- _objc_msgSend$didExitRestrictedMode:error:
+- _objc_msgSend$didInterrupt:
+- _objc_msgSend$didInterruptXPCConnection:
+- _objc_msgSend$didInvalidate
+- _objc_msgSend$didInvalidateXPCConnection:
+- _objc_msgSend$didReceiveFatalCommunicationError
+- _objc_msgSend$didReceiveMessage:
+- _objc_msgSend$didReceivePendingServerRequest
+- _objc_msgSend$didSelect:respondHandler:
+- _objc_msgSend$didStartSession:
+- _objc_msgSend$didStartSessionWithoutQueue:
+- _objc_msgSend$didTerminate:
+- _objc_msgSend$disableAuthorizationForApplet:andKey:authorization:error:
+- _objc_msgSend$disableAuthorizationForApplets:andKey:authorization:completion:
+- _objc_msgSend$disableAuthorizationForApplets:andKey:authorization:error:
+- _objc_msgSend$disableAuthorizationForPasses:authorization:completion:
+- _objc_msgSend$disableBluetooth:
+- _objc_msgSend$disableHeadlessMiniNVWithCompletion:
+- _objc_msgSend$disableLPEMFeature:completion:
+- _objc_msgSend$disconnectTag
+- _objc_msgSend$disconnectTagWithCardRemoval:
+- _objc_msgSend$disconnectTagWithError:
+- _objc_msgSend$disconnectWithCardRemoval:completion:
+- _objc_msgSend$discretionaryData
+- _objc_msgSend$distantFuture
+- _objc_msgSend$domain
+- _objc_msgSend$dumpDomain:forSEID:completion:
+- _objc_msgSend$dumpDomain:forSEID:error:
+- _objc_msgSend$dumpLPMDebugLogWithCompletion:
+- _objc_msgSend$eccCert
+- _objc_msgSend$ecdsaCertificate
+- _objc_msgSend$eckaCert
+- _objc_msgSend$eckaCertificate
+- _objc_msgSend$ecp
+- _objc_msgSend$embeddedSecureElementWithError:
+- _objc_msgSend$emptyRecord
+- _objc_msgSend$enableContinuousWave:withFrequencySweep:completion:
+- _objc_msgSend$enableHeadlessTestMode:completion:
+- _objc_msgSend$enableLPEMFeature:completion:
+- _objc_msgSend$enablePlasticCardMode:completion:
+- _objc_msgSend$enablePlasticCardMode:error:
+- _objc_msgSend$enableRadio:completion:
+- _objc_msgSend$enableSMBLogging:completion:
+- _objc_msgSend$enableWrite:completion:
+- _objc_msgSend$enableWrite:error:
+- _objc_msgSend$encode
+- _objc_msgSend$encodeBool:forKey:
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$encodeInt:forKey:
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$encodeToCBOR
+- _objc_msgSend$endSession
+- _objc_msgSend$endSession:
+- _objc_msgSend$endSessionWithCompletion:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$execRemoteAdminScript:completion:
+- _objc_msgSend$execRemoteAdminScript:params:completion:
+- _objc_msgSend$expressAppletIdentifiersWithError:
+- _objc_msgSend$expressModeControlState:
+- _objc_msgSend$expressModesEnabledWithError:
+- _objc_msgSend$expressModesInfoWithCompletion:
+- _objc_msgSend$expressModesInfoWithOption:completion:
+- _objc_msgSend$felicaAppletState:error:
+- _objc_msgSend$felicaRequestService:completion:
+- _objc_msgSend$felicaRequestService:forSystemCode:completion:
+- _objc_msgSend$felicaStateForSystemCode:withRequestService:performSearchServiceCode:completion:
+- _objc_msgSend$felicaStateForSystemCode:withRequestService:withBlockReadList:performSearchServiceCode:error:
+- _objc_msgSend$felicaStateWithError:
+- _objc_msgSend$fieldDetect
+- _objc_msgSend$fieldDetectSession:didDetectField:
+- _objc_msgSend$fieldDetectSession:didDetectTechnology:
+- _objc_msgSend$fieldDetectSession:didEnterFieldWithNotification:
+- _objc_msgSend$fieldDetectSessionDidEndUnexpectedly:
+- _objc_msgSend$fieldDetectSessionDidExitField:
+- _objc_msgSend$fieldNotificationSent
+- _objc_msgSend$firstObject
+- _objc_msgSend$formatNdefWithKey:completion:
+- _objc_msgSend$formatNdefWithKey:error:
+- _objc_msgSend$fullOSVersion
+- _objc_msgSend$generateBluetoothLESecureNdefPayloadWithOOBData:
+- _objc_msgSend$getACLogWithCompletion:
+- _objc_msgSend$getAPNPublicTokenWithCompletion:
+- _objc_msgSend$getAndClearAssertionLogsWithCompletion:
+- _objc_msgSend$getAndResetLPEMCounterWithCompletion:
+- _objc_msgSend$getAppletsWithCompletion:
+- _objc_msgSend$getAttackCounterLogForSEID:acknowledgeLogs:completion:
+- _objc_msgSend$getAttackCounterLogForSEID:acknowledgeLogs:error:
+- _objc_msgSend$getAttackCounterLogForSEID:error:
+- _objc_msgSend$getAttackLogPresence:callback:
+- _objc_msgSend$getCryptogram:challengeResponse:error:
+- _objc_msgSend$getCryptogramWithCompletion:
+- _objc_msgSend$getData:updateKUD:outWriteLimit:outWriteCount:trackingError:
+- _objc_msgSend$getDataWithCompletion:
+- _objc_msgSend$getDieIDWithCompletion:
+- _objc_msgSend$getDieIDWithError:
+- _objc_msgSend$getExpressPassConfigWithCompletion:
+- _objc_msgSend$getFelicaAppletState:completion:
+- _objc_msgSend$getFlashWriteCountersWithCompletion:
+- _objc_msgSend$getHash:trackingError:
+- _objc_msgSend$getHashWithCompletion:
+- _objc_msgSend$getHeadlessModeFlags:
+- _objc_msgSend$getHostCardEmulationLogWithCompletion:
+- _objc_msgSend$getHwSupport
+- _objc_msgSend$getLPEMBluetoothLog:withCompletion:
+- _objc_msgSend$getLPEMFTALoggingWithCompletion:
+- _objc_msgSend$getLPEMFeaturesWithCompletion:
+- _objc_msgSend$getLogs:forSEID:completion:
+- _objc_msgSend$getOSUpdateLogWithCompletion:
+- _objc_msgSend$getPowerCountersWithCompletion:
+- _objc_msgSend$getRKEFunctionsInProgress
+- _objc_msgSend$getRadioEnabledState:
+- _objc_msgSend$getReaderProhibitTimer:
+- _objc_msgSend$getSELDInfoForBrokerWithCompletion:
+- _objc_msgSend$getSMBLogWithCompletion:
+- _objc_msgSend$getServiceProviderDataForApplet:publicKey:scheme:completion:
+- _objc_msgSend$getSignedPlatformDataForSeid:completion:
+- _objc_msgSend$getStatusForRKEFunction:
+- _objc_msgSend$getSupportedRKEFunctions
+- _objc_msgSend$getTagContentWithCompletion:
+- _objc_msgSend$getTagDataWithError:
+- _objc_msgSend$getTagMessageWithError:
+- _objc_msgSend$getTemperatureWithCompletion:
+- _objc_msgSend$getTransitAppletState:completion:
+- _objc_msgSend$getUniqueFDRKey:
+- _objc_msgSend$getUniqueFDRKeyWithCompletion:
+- _objc_msgSend$getVehicleReports:
+- _objc_msgSend$handleCallback:
+- _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
+- _objc_msgSend$handleFailureInMethod:object:file:lineNumber:description:
+- _objc_msgSend$handleSessionReachedTimeLimit
+- _objc_msgSend$handleSessionResumed:
+- _objc_msgSend$handleSessionSuspended:token:reason:field:
+- _objc_msgSend$hardwareStateDidChange
+- _objc_msgSend$hasAntenna
+- _objc_msgSend$hasCarKeySupport
+- _objc_msgSend$hasInvalidated
+- _objc_msgSend$hasLPEMSupport
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$hasReaderModeSupport
+- _objc_msgSend$hasSuffix:
+- _objc_msgSend$hash
+- _objc_msgSend$hceSession:didReceiveAPDU:
+- _objc_msgSend$hceSession:didReceiveField:
+- _objc_msgSend$hceSession:triggeredByField:started:
+- _objc_msgSend$hceSessionDidConnect:
+- _objc_msgSend$hceSessionDidDisconnect:
+- _objc_msgSend$hceSessionDidEndUnexpectedly:
+- _objc_msgSend$header
+- _objc_msgSend$headlessFactoryModeWithCompletion:
+- _objc_msgSend$historicalBytes
+- _objc_msgSend$hwStateDidChange:
+- _objc_msgSend$hwType
+- _objc_msgSend$identifier
+- _objc_msgSend$identifierAsData
+- _objc_msgSend$ignoreRFTechOnIsEqual
+- _objc_msgSend$includeAPDUDuration
+- _objc_msgSend$increaseLengthBy:
+- _objc_msgSend$indexOfObjectWithOptions:passingTest:
+- _objc_msgSend$info
+- _objc_msgSend$infoWithDictionary:applet:
+- _objc_msgSend$ingestCard:completion:
+- _objc_msgSend$initFromContactlessPaymentEndEvent:
+- _objc_msgSend$initFromContactlessPaymentStartEvent:
+- _objc_msgSend$initSleepTimerWithCallback:queue:
+- _objc_msgSend$initWithArray:
+- _objc_msgSend$initWithBytes:length:
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$initWithCallback:queue:
+- _objc_msgSend$initWithCallbackQueue:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithDelegate:callbackQueue:
+- _objc_msgSend$initWithDictionary:
+- _objc_msgSend$initWithDictionaryForDavenport:
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithDouble:
+- _objc_msgSend$initWithFieldNotification:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithInteger:
+- _objc_msgSend$initWithLocaleIdentifier:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithNDEFMessage:
+- _objc_msgSend$initWithNDEFRecord:
+- _objc_msgSend$initWithNFTag:
+- _objc_msgSend$initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:
+- _objc_msgSend$initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:odaRequired:terminalMode:terminalType:ignoreRFTechOnIsEqual:
+- _objc_msgSend$initWithNotificationType:rfTechnology:typeFSystemCode:creationDate:cachedBeforeRFReset:odaRequired:terminalMode:terminalType:terminalSubType:tciArray:openLoopSchemeBitfield:homeKitSchemeDataPayload:readerIdentifier:pairingMode:terminalTypeData:ignoreRFTechOnIsEqual:userInfo:
+- _objc_msgSend$initWithObjects:
+- _objc_msgSend$initWithObjects:forKeys:
+- _objc_msgSend$initWithObjectsAndKeys:
+- _objc_msgSend$initWithProtocol:
+- _objc_msgSend$initWithSESAssertion:
+- _objc_msgSend$initWithSESVehicleReport:
+- _objc_msgSend$initWithService:remoteObjectInterface:exportedInterface:exportedObject:
+- _objc_msgSend$initWithService:remoteObjectInterface:exportedInterface:exportedObject:xpcDispatchQueue:
+- _objc_msgSend$initWithSuiteName:
+- _objc_msgSend$initWithType:
+- _objc_msgSend$initWithUIType:
+- _objc_msgSend$initWithUnsignedChar:
+- _objc_msgSend$initWithUnsignedInteger:
+- _objc_msgSend$initWithUnsignedLongLong:
+- _objc_msgSend$initWithUnsignedShort:
+- _objc_msgSend$initWithVersion:applicationLabel:serviceList:userInfo:retryInMS:retryRandom:
+- _objc_msgSend$initWithVersion:applicationLabel:serviceList:userInfo:retryRandom:
+- _objc_msgSend$initialSelectBeforeRun
+- _objc_msgSend$insertObject:atIndex:
+- _objc_msgSend$instruction
+- _objc_msgSend$intValue
+- _objc_msgSend$integerValue
+- _objc_msgSend$interface
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$internalInit
+- _objc_msgSend$internalParameterWithParameter:
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateConnection
+- _objc_msgSend$isACWG
+- _objc_msgSend$isActive
+- _objc_msgSend$isBackgroundTagReadingAvailable
+- _objc_msgSend$isCHTerminal
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToApplet:
+- _objc_msgSend$isEqualToArray:
+- _objc_msgSend$isEqualToData:
+- _objc_msgSend$isEqualToNFTag:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isGPLocked
+- _objc_msgSend$isHWSupportedWithCompletion:
+- _objc_msgSend$isInRestrictedMode
+- _objc_msgSend$isRKEFunctionInProgress:
+- _objc_msgSend$isRKEFunctionSupported:
+- _objc_msgSend$isSelectCommand
+- _objc_msgSend$isTimeLimited
+- _objc_msgSend$isUnifiedAccessOrAcwg:secondaryIdentifier:
+- _objc_msgSend$jcopTooOld
+- _objc_msgSend$key
+- _objc_msgSend$keyAttestation
+- _objc_msgSend$keyAttestationAuthority
+- _objc_msgSend$keyIdentifier
+- _objc_msgSend$length
+- _objc_msgSend$lengthOfBytesUsingEncoding:
+- _objc_msgSend$lifecycleState
+- _objc_msgSend$listAppletsAndRefreshCache:completion:
+- _objc_msgSend$listKeys:
+- _objc_msgSend$listKeysWithCompletion:
+- _objc_msgSend$listenForNfcdStartup
+- _objc_msgSend$localValidations
+- _objc_msgSend$logsTransactionDetails
+- _objc_msgSend$loyaltyAndPaymentSession:didDetectField:
+- _objc_msgSend$loyaltyAndPaymentSession:didDetectTechnology:
+- _objc_msgSend$loyaltyAndPaymentSession:didEndTransaction:
+- _objc_msgSend$loyaltyAndPaymentSession:didEnterFieldWithNotification:
+- _objc_msgSend$loyaltyAndPaymentSession:didExpireTransactionForApplet:
+- _objc_msgSend$loyaltyAndPaymentSession:didExpressModeStateChange:
+- _objc_msgSend$loyaltyAndPaymentSession:didExpressModeStateChange:withObject:
+- _objc_msgSend$loyaltyAndPaymentSession:didFailDeferredAuthorization:
+- _objc_msgSend$loyaltyAndPaymentSession:didFelicaStateChange:
+- _objc_msgSend$loyaltyAndPaymentSession:didPerformValueAddedServiceTransactions:
+- _objc_msgSend$loyaltyAndPaymentSession:didSelectApplet:
+- _objc_msgSend$loyaltyAndPaymentSession:didSelectValueAddedService:
+- _objc_msgSend$loyaltyAndPaymentSession:didStartTransaction:
+- _objc_msgSend$loyaltyAndPaymentSessionDidEndUnexpectedly:
+- _objc_msgSend$loyaltyAndPaymentSessionDidExitField:
+- _objc_msgSend$loyaltyAndPaymentSessionDidReceiveActivityTimeout:
+- _objc_msgSend$loyaltyAndPaymentSessionDidReceiveActivityTimeout:result:
+- _objc_msgSend$loyaltyAndPaymentSessionHasPendingServerRequest:
+- _objc_msgSend$lpcd
+- _objc_msgSend$managedBySP
+- _objc_msgSend$manifestQuery
+- _objc_msgSend$maxMessageSize
+- _objc_msgSend$maxWaitTimeExtension
+- _objc_msgSend$messageBegin
+- _objc_msgSend$messageEnd
+- _objc_msgSend$minWaitTime
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$ndefAvailability
+- _objc_msgSend$ndefContainerSize
+- _objc_msgSend$ndefMessageSize
+- _objc_msgSend$ndefReadWithCompletion:
+- _objc_msgSend$ndefReadWithError:
+- _objc_msgSend$ndefTagSession:didTagStateChange:
+- _objc_msgSend$ndefTagSessionDidEndUnexpectedly:
+- _objc_msgSend$ndefWrite:completion:
+- _objc_msgSend$ndefWrite:error:
+- _objc_msgSend$nextRequestForServer:completion:
+- _objc_msgSend$notificationType
+- _objc_msgSend$now
+- _objc_msgSend$null
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$numberWithUnsignedShort:
+- _objc_msgSend$numeric
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$obliterate
+- _objc_msgSend$obliterateWithCompletion:
+- _objc_msgSend$obliterateWithTrackingError:
+- _objc_msgSend$odaRequired
+- _objc_msgSend$openLoopSchemeBitfield
+- _objc_msgSend$openSinglePollExpressModeAssertion:completion:
+- _objc_msgSend$openURL:configuration:completionHandler:
+- _objc_msgSend$osUpdateMode
+- _objc_msgSend$p1
+- _objc_msgSend$p2
+- _objc_msgSend$pairingMode
+- _objc_msgSend$parentSession
+- _objc_msgSend$parseRecordUsingScanner:header:type:identifier:payload:
+- _objc_msgSend$parsedInfo
+- _objc_msgSend$passthroughDelegate
+- _objc_msgSend$pauseRangingForReaderIdentifier:durationInSec:
+- _objc_msgSend$payload
+- _objc_msgSend$paymentResponse
+- _objc_msgSend$performECommercePayment:request:completion:
+- _objc_msgSend$performECommercePayment:request:error:
+- _objc_msgSend$performPeerPayment:request:completion:
+- _objc_msgSend$performPeerPayment:request:error:
+- _objc_msgSend$performPeerPaymentEnrollment:completion:
+- _objc_msgSend$performSelectVASWithCompletion:
+- _objc_msgSend$performVAS:completion:
+- _objc_msgSend$performVAS:select:completion:
+- _objc_msgSend$persistentConfigID
+- _objc_msgSend$personalisable
+- _objc_msgSend$pid
+- _objc_msgSend$pollConfigWithTechnology:
+- _objc_msgSend$pollDuration
+- _objc_msgSend$powerCycleSEID:completion:
+- _objc_msgSend$preWarm
+- _objc_msgSend$preWarm:
+- _objc_msgSend$preWarmWithCompletion:
+- _objc_msgSend$presentWithUserInfo:completion:
+- _objc_msgSend$primaryRegionTopicWithCompletion:
+- _objc_msgSend$primitiveLocalValidation
+- _objc_msgSend$prioritizeSession
+- _objc_msgSend$prioritizeSessionWithCompletion:
+- _objc_msgSend$protocolInterface
+- _objc_msgSend$proxy
+- _objc_msgSend$pushSignedRF:completion:
+- _objc_msgSend$queryExtraInfoForApplets:completion:
+- _objc_msgSend$queryItemWithName:value:
+- _objc_msgSend$queueContactlessPaymentSession:sessionAttribute:completion:
+- _objc_msgSend$queueContactlessSession:sessionAttribute:completion:
+- _objc_msgSend$queueCredentialSession:sessionAttribute:completion:
+- _objc_msgSend$queueECommercePaymentSession:sessionAttribute:completion:
+- _objc_msgSend$queueFieldDetectSession:sessionAttribute:completion:
+- _objc_msgSend$queueHostEmulationSession:sessionAttribute:completion:
+- _objc_msgSend$queueLPEMConfigSession:sessionAttribute:completion:
+- _objc_msgSend$queueLoyaltyAndPaymentSession:sessionAttribute:completion:
+- _objc_msgSend$queueNdefTagSession:sessionAttribute:data:completion:
+- _objc_msgSend$queuePeerPaymentSession:sessionAttribute:completion:
+- _objc_msgSend$queueReaderSessionInternal:sessionAttribute:completion:
+- _objc_msgSend$queueSecureElementAndHostEmulationSession:sessionAttribute:completion:
+- _objc_msgSend$queueSecureElementLoggingSession:sessionAttribute:completion:
+- _objc_msgSend$queueSecureElementManagerSession:sessionAttribute:completion:
+- _objc_msgSend$queueSecureElementReaderSession:sessionAttribute:completion:
+- _objc_msgSend$queueSecureTransactionServicesHybridSession:sessionAttribute:completion:
+- _objc_msgSend$queueSecureTransactionServicesSession:sessionAttribute:completion:
+- _objc_msgSend$queueServerConnection:
+- _objc_msgSend$queueServerConnection:completion:
+- _objc_msgSend$queueServerConnectionForApplets:
+- _objc_msgSend$queueServerConnectionForApplets:completion:
+- _objc_msgSend$queueSeshatSession:sessionAttribute:completion:
+- _objc_msgSend$queueTrustSession:sessionAttribute:completion:
+- _objc_msgSend$queueUnifiedAccessSession:sessionAttribute:completion:
+- _objc_msgSend$radioEnableStateWithCompletion:
+- _objc_msgSend$readAPDUWithCompletion:
+- _objc_msgSend$readerIdentifier
+- _objc_msgSend$readerModeCardIngestionStatus:
+- _objc_msgSend$readerModeCardSessionToken:
+- _objc_msgSend$readerSession:didDetectTags:
+- _objc_msgSend$readerSession:didEnd:
+- _objc_msgSend$readerSession:didReceiveThermalIndication:
+- _objc_msgSend$readerSession:didStart:
+- _objc_msgSend$readerSession:externalReaderFieldNotification:
+- _objc_msgSend$readerSession:receivedData:fromApplet:
+- _objc_msgSend$readerSessionDidEndUnexpectedly:
+- _objc_msgSend$readerSessionDidEndUnexpectedly:reason:
+- _objc_msgSend$records
+- _objc_msgSend$recordsFromBytes:length:
+- _objc_msgSend$refreshSecureElement:completion:
+- _objc_msgSend$refreshSecureElement:error:
+- _objc_msgSend$refreshSecureElementsWithError:
+- _objc_msgSend$registerForCallbacks:
+- _objc_msgSend$registerForRemoteCallbacks
+- _objc_msgSend$registrationInfoWithCompletion:
+- _objc_msgSend$releaseAssertion:completion:
+- _objc_msgSend$releaseAssertion:waitOnComplete:completion:
+- _objc_msgSend$releaseSesdSession
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeDelegate:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$requestApplets:selectOnStart:AIDAllowList:externalAuth:mode:ceType:completion:
+- _objc_msgSend$requestAssertion:waitOnComplete:completion:
+- _objc_msgSend$requestAssertionForKeyID:withAppletID:withOptions:error:
+- _objc_msgSend$requestAssertionForKeyID:withOptions:error:
+- _objc_msgSend$requestBugCapture:subtype:context:
+- _objc_msgSend$requestEmulationAssertion:
+- _objc_msgSend$requestEmulationAssertion:completion:
+- _objc_msgSend$resetCounter:userToken:completion:
+- _objc_msgSend$resetCounter:userToken:outWriteCount:trackingError:
+- _objc_msgSend$response
+- _objc_msgSend$responseWithData:
+- _objc_msgSend$restartDiscovery
+- _objc_msgSend$restartPollingWithCompletion:
+- _objc_msgSend$restartPollingWithError:
+- _objc_msgSend$restoreAuthorizarionForKeys:onApplet:completion:
+- _objc_msgSend$restoreAuthorizationForAllAppletsExcept:completion:
+- _objc_msgSend$restoreAuthorizationForAllAppletsExcept:error:
+- _objc_msgSend$restrictedMode
+- _objc_msgSend$result
+- _objc_msgSend$resume
+- _objc_msgSend$resumeRangingForReaderIdentifier:
+- _objc_msgSend$resumeSessionFromWaitingOnFieldWithCompletion:
+- _objc_msgSend$retryInMS
+- _objc_msgSend$retryRandom
+- _objc_msgSend$rfSettingsWithCompletion:
+- _objc_msgSend$rfTechnology
+- _objc_msgSend$rsaCert
+- _objc_msgSend$rsaCertificate
+- _objc_msgSend$sak
+- _objc_msgSend$seIdentifier
+- _objc_msgSend$seOS
+- _objc_msgSend$seType
+- _objc_msgSend$secureElement:didChangeRestrictedMode:
+- _objc_msgSend$secureElementManagerSessionDidEndUnexpectedly:
+- _objc_msgSend$secureElementReaderSessionDidEndUnexpectedly:
+- _objc_msgSend$secureElementWithIdentifier:error:
+- _objc_msgSend$secureElementsWithCompletion:
+- _objc_msgSend$secureElementsWithError:
+- _objc_msgSend$seid
+- _objc_msgSend$selectApplets:completion:
+- _objc_msgSend$selectApplets:error:
+- _objc_msgSend$selectWithRetry:
+- _objc_msgSend$selectedAID
+- _objc_msgSend$send:responseHandler:
+- _objc_msgSend$sendAPDU:startReadOnCompletion:
+- _objc_msgSend$sendAPDU:startReadOnCompletion:completion:
+- _objc_msgSend$sendPassthroughMessage:error:
+- _objc_msgSend$sendRKEFunction:action:authorization:completion:
+- _objc_msgSend$sequenceCounter
+- _objc_msgSend$serialNumber
+- _objc_msgSend$sesdSession
+- _objc_msgSend$session:connectionHandoverProcessFailure:
+- _objc_msgSend$session:didDetectField:
+- _objc_msgSend$session:didEndTransaction:
+- _objc_msgSend$session:didEndUnexpectedly:
+- _objc_msgSend$session:didEnterFieldWithNotification:
+- _objc_msgSend$session:didExpireAuthorizationForApplet:
+- _objc_msgSend$session:didExpireTransactionForApplet:
+- _objc_msgSend$session:didExpressModeStateChange:withObject:
+- _objc_msgSend$session:didReceiveEvent:
+- _objc_msgSend$session:didReceiveHCIData:forAppletWithIdentifier:
+- _objc_msgSend$session:didReceivePassthroughMessage:
+- _objc_msgSend$session:didSelectApplet:
+- _objc_msgSend$session:didStartTransaction:
+- _objc_msgSend$session:event:
+- _objc_msgSend$session:fieldChange:
+- _objc_msgSend$session:fieldChanged:
+- _objc_msgSend$session:fieldNotification:
+- _objc_msgSend$session:tnepService:
+- _objc_msgSend$sessionDelegate
+- _objc_msgSend$sessionDidEnd:
+- _objc_msgSend$sessionDidEndUnexpectedly:
+- _objc_msgSend$sessionDidExitField:
+- _objc_msgSend$sessionDidFailDeferredAuthorization:
+- _objc_msgSend$sessionDidReceiveActivityTimeout:result:
+- _objc_msgSend$sessionRequestAuthorization:
+- _objc_msgSend$setAIDAllowList:
+- _objc_msgSend$setActiveApplet:completion:
+- _objc_msgSend$setActiveApplet:error:
+- _objc_msgSend$setActiveApplet:key:outError:
+- _objc_msgSend$setActiveKey:
+- _objc_msgSend$setActivePaymentApplet:
+- _objc_msgSend$setActivePaymentApplet:authorization:
+- _objc_msgSend$setActivePaymentApplet:authorization:error:
+- _objc_msgSend$setActivePaymentApplet:error:
+- _objc_msgSend$setActivePaymentApplet:keys:authorization:completion:
+- _objc_msgSend$setActivePaymentApplet:keys:error:
+- _objc_msgSend$setActivePaymentApplets:authorization:completion:
+- _objc_msgSend$setActiveTransceiver:
+- _objc_msgSend$setAntiRelayRID:completion:
+- _objc_msgSend$setAppletCollection:
+- _objc_msgSend$setAppletsById:
+- _objc_msgSend$setApplicationLabel:
+- _objc_msgSend$setAuthorization:
+- _objc_msgSend$setBlessedUser:keybagUUID:withAuthorization:
+- _objc_msgSend$setByAddingObject:
+- _objc_msgSend$setCardEmulationStarted:
+- _objc_msgSend$setCardServiceInfo:
+- _objc_msgSend$setCategory:
+- _objc_msgSend$setChallenge:
+- _objc_msgSend$setCheckAIDAllowList:
+- _objc_msgSend$setChipscope:completion:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setCounterLimit:
+- _objc_msgSend$setCounterValue:
+- _objc_msgSend$setData:
+- _objc_msgSend$setDateFormat:
+- _objc_msgSend$setDeactivateAllApps:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setDidEndCallback:
+- _objc_msgSend$setDidStartCallback:
+- _objc_msgSend$setDiscretionaryData:
+- _objc_msgSend$setECPPayload:completion:
+- _objc_msgSend$setEcp:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setExpressModesControlState:
+- _objc_msgSend$setExpressModesControlState:completion:
+- _objc_msgSend$setExpressModesEnabled:error:
+- _objc_msgSend$setExpressPassConfig:restoreAuthorization:completion:
+- _objc_msgSend$setFieldDetectEnabled:completion:
+- _objc_msgSend$setFieldNotificationSent:
+- _objc_msgSend$setHost:
+- _objc_msgSend$setHostCards:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setIncludeAPDUDuration:
+- _objc_msgSend$setInitialSelectBeforeRun:
+- _objc_msgSend$setInterface:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setIsFirstInQueue:
+- _objc_msgSend$setIsReleased:
+- _objc_msgSend$setLocalValidations:
+- _objc_msgSend$setLocale:
+- _objc_msgSend$setMaxDetectionTimeout:
+- _objc_msgSend$setMaxMessageSize:
+- _objc_msgSend$setMaxWaitTimeExtension:
+- _objc_msgSend$setMessageBegin:
+- _objc_msgSend$setMessageEnd:
+- _objc_msgSend$setMinWaitTime:
+- _objc_msgSend$setNotificationType:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setOutFailureResponseDetected:
+- _objc_msgSend$setOutFinalSWStatus:
+- _objc_msgSend$setOutIncompleteExecution:
+- _objc_msgSend$setOutTotalAPDUExecutionDuration:
+- _objc_msgSend$setParentSession:
+- _objc_msgSend$setPassthroughDelegate:
+- _objc_msgSend$setPayload:
+- _objc_msgSend$setPaymentResponse:
+- _objc_msgSend$setPollDuration:
+- _objc_msgSend$setPrimitiveLocalValidation:
+- _objc_msgSend$setProxy:
+- _objc_msgSend$setPublicKey:
+- _objc_msgSend$setQueryItems:
+- _objc_msgSend$setRegistrationInfo:primaryRegionTopic:completion:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setRetryInMS:
+- _objc_msgSend$setRetryRandom:
+- _objc_msgSend$setScheme:
+- _objc_msgSend$setSecureElementToken:
+- _objc_msgSend$setSeid:
+- _objc_msgSend$setServerIdentifier:
+- _objc_msgSend$setSesdSession:
+- _objc_msgSend$setSessionDelegate:
+- _objc_msgSend$setSessionTimeLimit:
+- _objc_msgSend$setSessionToken:
+- _objc_msgSend$setShortRecord:
+- _objc_msgSend$setSignResponse:
+- _objc_msgSend$setSkipMifareClassify:
+- _objc_msgSend$setSubjectIdentifier:
+- _objc_msgSend$setTagContent:completion:
+- _objc_msgSend$setTagData:error:
+- _objc_msgSend$setTagDeviceDelegate:
+- _objc_msgSend$setTagReaderDelegate:
+- _objc_msgSend$setTechnology:
+- _objc_msgSend$setToSystemOS:
+- _objc_msgSend$setTransportServiceList:
+- _objc_msgSend$setTrustObjectInternalRawNSData:
+- _objc_msgSend$setType:
+- _objc_msgSend$setTypeNameFormat:
+- _objc_msgSend$setUri:
+- _objc_msgSend$setUserInfo:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$setVersion:
+- _objc_msgSend$setWithObjects:
+- _objc_msgSend$setupInterface
+- _objc_msgSend$sfgi
+- _objc_msgSend$sharedHardwareManager
+- _objc_msgSend$sharedHardwareManagerWithOptions:readyCompletion:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$sharedRemoteAdminManager
+- _objc_msgSend$shortRecord
+- _objc_msgSend$shortValue
+- _objc_msgSend$signChallenge:certs:error:
+- _objc_msgSend$signChallenge:completion:
+- _objc_msgSend$signChallenge:forAID:certs:error:
+- _objc_msgSend$signChallenge:forAID:completion:
+- _objc_msgSend$signChallenge:forAID:sigInfo:error:
+- _objc_msgSend$signChallenge:useOSVersion:completion:
+- _objc_msgSend$signChallenge:useOSVersion:signatureInfo:error:
+- _objc_msgSend$signResponse
+- _objc_msgSend$signWithKey:signRequest:paymentRequest:authorization:completion:
+- _objc_msgSend$signatureWithDomain:type:subType:subtypeContext:detectedProcess:triggerThresholdValues:
+- _objc_msgSend$signingKeyType
+- _objc_msgSend$siliconName
+- _objc_msgSend$skipMifareClassificationWithCompletion:
+- _objc_msgSend$skipMifareClassify
+- _objc_msgSend$snapshotWithSignature:delay:events:payload:actions:reply:
+- _objc_msgSend$spIdentifier
+- _objc_msgSend$start:
+- _objc_msgSend$startACWGSessionWithOptions:startCallback:
+- _objc_msgSend$startCardEmulation:
+- _objc_msgSend$startCardEmulation:authorization:error:
+- _objc_msgSend$startCardEmulationWithAuthorization:completion:
+- _objc_msgSend$startCardEmulationWithAuthorization:error:
+- _objc_msgSend$startCardEmulationWithCompletion:
+- _objc_msgSend$startDeferredCardEmulation:authorization:error:
+- _objc_msgSend$startDeferredCardEmulationWithAuthorization:completion:
+- _objc_msgSend$startDeferredCardEmulationWithAuthorization:error:
+- _objc_msgSend$startDigitalCarKeySessionWithOptions:startCallback:
+- _objc_msgSend$startEmulation:withMessageType:completion:
+- _objc_msgSend$startEmulation:withMessageType:error:
+- _objc_msgSend$startEmulationWithCompletion:
+- _objc_msgSend$startEmulationWithNdefMessage:withMessageType:
+- _objc_msgSend$startEmulationWithNdefMessage:withMessageType:error:
+- _objc_msgSend$startExpressModeWithCompletion:
+- _objc_msgSend$startHCESessionWithConfiguration:completion:
+- _objc_msgSend$startHostCardEmulationWithCompletion:
+- _objc_msgSend$startPollingForTags:sessionConfig:completion:
+- _objc_msgSend$startPollingForTechnology:error:
+- _objc_msgSend$startPollingWithConfig:completion:
+- _objc_msgSend$startPollingWithConfig:error:
+- _objc_msgSend$startPollingWithError:
+- _objc_msgSend$startReaderSessionWithAttributes:completion:
+- _objc_msgSend$startSTSNotificationListenerEndpoint:
+- _objc_msgSend$startSecureElementAndHCESessionWithConfiguration:completion:
+- _objc_msgSend$startSecureElementManagerSessionWithAttributes:completion:
+- _objc_msgSend$startSecureElementManagerSessionWithPriority:callback:
+- _objc_msgSend$startSecureElementReaderWithCompletion:
+- _objc_msgSend$startSesHatSession:
+- _objc_msgSend$startTNEPDeviceWithServices:optionalRecords:callback:
+- _objc_msgSend$startTNEPReaderWithCallback:
+- _objc_msgSend$startTimer:
+- _objc_msgSend$startVASPolling:completion:
+- _objc_msgSend$stateInfoWithCompletion:
+- _objc_msgSend$stateInformationWithRedirectInfo:appletFiltering:completion:
+- _objc_msgSend$stateInformationWithRedirectInfo:completion:
+- _objc_msgSend$stateInformationWithRedirectInfo:error:
+- _objc_msgSend$status
+- _objc_msgSend$stop:
+- _objc_msgSend$stopCardEmulation:
+- _objc_msgSend$stopCardEmulationWithCompletion:
+- _objc_msgSend$stopEmulationWithCompletion:
+- _objc_msgSend$stopEmulationWithError:
+- _objc_msgSend$stopListeningForNfcdRestart
+- _objc_msgSend$stopPolling
+- _objc_msgSend$stopPollingWithCompletion:
+- _objc_msgSend$stopPollingWithError:
+- _objc_msgSend$stopSecureElementReaderWithCompletion:
+- _objc_msgSend$stopTimer
+- _objc_msgSend$stopVASPolling:
+- _objc_msgSend$string
+- _objc_msgSend$stringFromDate:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$subdataWithRange:
+- _objc_msgSend$subjectIdentifier
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$supportedTechnologies
+- _objc_msgSend$supportsCathay
+- _objc_msgSend$supportsSecureRanging
+- _objc_msgSend$synchronize
+- _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
+- _objc_msgSend$systemOSSerialNumber
+- _objc_msgSend$tag
+- _objc_msgSend$tagDeviceDelegate
+- _objc_msgSend$tagID
+- _objc_msgSend$tagReaderDelegate
+- _objc_msgSend$tciArray
+- _objc_msgSend$technology
+- _objc_msgSend$temperatureChanged:
+- _objc_msgSend$terminalMode
+- _objc_msgSend$terminalSubType
+- _objc_msgSend$terminalType
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$tnepReaderDeselectWithCallback:
+- _objc_msgSend$tnepReaderRestartPollingWithCallback:
+- _objc_msgSend$tnepReaderSelectService:callback:
+- _objc_msgSend$tnepReaderSend:callback:
+- _objc_msgSend$tnepServiceInvalidate
+- _objc_msgSend$tnepTagDeviceSendNDEFMessage:callback:
+- _objc_msgSend$toSystemOS
+- _objc_msgSend$toggleGPIO:completion:
+- _objc_msgSend$transceive:completion:
+- _objc_msgSend$transceive:error:
+- _objc_msgSend$transceive:forSEID:completion:
+- _objc_msgSend$transceive:forSEID:error:
+- _objc_msgSend$transceive:forSEID:toOS:error:
+- _objc_msgSend$transceive:forSEID:toOS:redact:completion:
+- _objc_msgSend$transceive:forSEID:toOS:secureZeroOut:error:
+- _objc_msgSend$transceiveMultiple:forSEID:toOS:redact:completion:
+- _objc_msgSend$transceiveMultiple:forSEID:toOS:secureZeroOut:error:
+- _objc_msgSend$transportServiceList
+- _objc_msgSend$triggerCrash:completion:
+- _objc_msgSend$triggerDelayedWake:completion:
+- _objc_msgSend$trustObjectInternalRawNSData
+- _objc_msgSend$type
+- _objc_msgSend$typeFSystemCode
+- _objc_msgSend$typeNameFormat
+- _objc_msgSend$unarchivedArrayOfObjectsOfClasses:fromData:error:
+- _objc_msgSend$unarchivedObjectOfClasses:fromData:error:
+- _objc_msgSend$unifiedAccessSession:didDetectField:
+- _objc_msgSend$unifiedAccessSession:didEndTransaction:
+- _objc_msgSend$unifiedAccessSession:didEnterFieldWithNotification:
+- _objc_msgSend$unifiedAccessSession:didExpireTransactionForApplet:
+- _objc_msgSend$unifiedAccessSession:didExpressModeStateChange:withObject:
+- _objc_msgSend$unifiedAccessSession:didStartTransaction:
+- _objc_msgSend$unifiedAccessSessionDidEndUnexpectedly:
+- _objc_msgSend$unregisterForCallbacks:
+- _objc_msgSend$unregisterForRemoteCallbacks
+- _objc_msgSend$unsignedCharValue
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$unsignedShortValue
+- _objc_msgSend$updateBackgroundTagReading:completion:
+- _objc_msgSend$updateHWSupportWithXPC:waitForInit:
+- _objc_msgSend$updateSharingUIScanText:completion:
+- _objc_msgSend$upgradeKey:inputData:completion:
+- _objc_msgSend$upgradeKey:inputData:outWriteCount:trackingError:
+- _objc_msgSend$uri
+- _objc_msgSend$userInfo
+- _objc_msgSend$validateAidsAndKeys:
+- _objc_msgSend$validateDictionary:
+- _objc_msgSend$validateEcommercePaymentRequest:completion:
+- _objc_msgSend$validateSEPairings:outSEPairingVersion:
+- _objc_msgSend$validateSEPairingsWithCompletion:
+- _objc_msgSend$value
+- _objc_msgSend$valueAsUnsignedShort
+- _objc_msgSend$valueForKey:
+- _objc_msgSend$vehicleReport
+- _objc_msgSend$vehicleReports:
+- _objc_msgSend$version
+- _objc_msgSend$waitForHWSupportedWithCompletion:
+- _objc_msgSend$weakObjectsHashTable
+- _objc_msgSend$withPrimitiveLocalValidation:
+- _objc_msgSend$writeToFile:atomically:
+CStrings:
++ "\n"
++ "\""
++ "%c[%{public}s %{public}s]:%i Callback UUID: %{public}@"
++ "%c[%{public}s %{public}s]:%i Connection has refreshed"
++ "%c[%{public}s %{public}s]:%i Invalid XPC connection; dropping request"
++ "%c[%{public}s %{public}s]:%i Invalid connection; retry..."
++ "%c[%{public}s %{public}s]:%i Invalidate configuration"
++ "%c[%{public}s %{public}s]:%i Resume connectionID=%lu"
++ "%c[%{public}s %{public}s]:%i Unexpected connectionID; dropping request"
++ "%c[%{public}s %{public}s]:%i aid %{public}@ not found"
++ "%c[%{public}s %{public}s]:%i connectionID=%lu"
++ "%s:%i InterruptedHandler: ConnectionID=%lu"
++ "%s:%i InvalidationHandler: ConnectionID=%lu"
++ "%{public}s:%i InterruptedHandler: ConnectionID=%lu"
++ "%{public}s:%i InvalidationHandler: ConnectionID=%lu"
++ "-[NFSession didStartSession:]"
++ "-[NFXPCServiceClient getConnectionAndID:]_block_invoke"
++ "-[NFXPCServiceClient getConnectionAndID:]_block_invoke_2"
++ "/System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary"
++ "/System/Library/PrivateFrameworks/SEService.framework/SEService"
++ "/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices"
++ "@\"<NFInternalConfigurationSessionDelegate>\""
++ "@\"NSObject<OS_voucher>\""
++ "@\"NSUUID\""
++ "@24@0:8^Q16"
++ "@36@0:8C16@20@28"
++ "@40@0:8@16@24Q32"
++ "@40@0:8@16Q24^@32"
++ "CRS error caused by demo mode"
++ "Cache missed"
++ "Command Error"
++ "FactoryInstall"
++ "HammerfestOnly"
++ "NFCardMigrationPaymentInfo"
++ "NFCardMigrationPaymentRequest"
++ "NFCardMigrationPaymentResponse"
++ "NFCardMigrationPaymentSession"
++ "NFCardMigrationPaymentSessionCallbacks"
++ "NFCardMigrationPaymentSessionInterface"
++ "NFCardMigrationPaymentToken"
++ "NFCardMigrationPaymentTransaction"
++ "NFInternalConfigurationPrimaryRestoreOptions"
++ "NFInternalConfigurationRestoreOptions"
++ "NFInternalConfigurationSecondaryRestoreOptions"
++ "NFInternalConfigurationSession"
++ "NFInternalConfigurationSessionCallbacks"
++ "NFInternalConfigurationSessionInterface"
++ "NfcForceFwDl"
++ "Q24@0:8Q16"
++ "StockholmOnly"
++ "T@\"<NFInternalConfigurationSessionDelegate>\",W,V_delegate"
++ "T@\"NSArray\",&,N,V_passInfos"
++ "T@\"NSArray\",R,N,V_transactions"
++ "T@\"NSData\",&,N,V_certificate"
++ "T@\"NSData\",&,N,V_signature"
++ "T@\"NSData\",R,N,V_payload"
++ "T@\"NSData\",R,N,V_token"
++ "T@\"NSDictionary\",R,N,V_certs"
++ "T@\"NSString\",R,N,V_appletIdentifier"
++ "Tq,R,N"
++ "UUID"
++ "Unavailable - System Will Sleep"
++ "Vv24@0:8@\"NSUUID\"16"
++ "Vv24@0:8@?<v@?@\"NFCardMigrationPaymentToken\"@\"NSError\">16"
++ "Vv24@0:8@?<v@?@\"NSNumber\"@\"NSError\">16"
++ "Vv32@0:8@\"NFReaderSessionPollConfig\"16@?<v@?@\"NSError\">24"
++ "Vv36@0:8C16@\"NSData\"20@?<v@?@\"NSError\"@\"NSData\">28"
++ "Vv36@0:8I16@\"NSDictionary\"20@?<v@?@\"NSError\"I>28"
++ "Vv36@0:8I16@20@?28"
++ "Vv40@0:8@\"NSArray\"16Q24@?<v@?@\"NSError\"@\"NSData\">32"
++ "Vv40@0:8@\"NSData\"16@\"NFCardMigrationPaymentRequest\"24@?<v@?@\"NFCardMigrationPaymentResponse\"@\"NSError\">32"
++ "Vv40@0:8@\"NSObject<NFCardMigrationPaymentSessionCallbacks>\"16@\"NSDictionary\"24@?<v@?@\"NSObject<NFCardMigrationPaymentSessionInterface>\"B@\"NSError\">32"
++ "Vv40@0:8@\"NSObject<NFHardwareManagerCallbacks>\"16@\"NSUUID\"24@?<v@?I>32"
++ "Vv40@0:8@\"NSObject<NFInternalConfigurationSessionCallbacks>\"16@\"NSDictionary\"24@?<v@?@\"NSObject<NFInternalConfigurationSessionInterface>\"B@\"NSError\">32"
++ "Vv40@0:8@16Q24@?32"
++ "Vv48@0:8@\"NSArray\"16@\"NSArray\"24@\"NSData\"32@?<v@?@\"NFApplet\"@\"NSSet\"@\"NSError\">40"
++ "Vv48@0:8@\"NSArray\"16@\"NSArray\"24Q32@?<v@?@\"NSError\">40"
++ "Vv48@0:8@\"NSString\"16@\"NSDictionary\"24@\"NSData\"32@?<v@?@\"NSError\">40"
++ "Vv48@0:8@16@24Q32@?40"
++ "_appletsCache"
++ "_callbackUUID"
++ "_convertOperation:"
++ "_internalEndSession"
++ "_passInfos"
++ "_registeredHWMgrCallbacks"
++ "_signature"
++ "_transactions"
++ "_validate"
++ "_voucher"
++ "_voucher == nil"
++ "_xpcConnectionID"
++ "absoluteString"
++ "appletIdentifiers"
++ "classification"
++ "connectToServer:initialClientRequestInfo:sessionToken:callback:"
++ "connectToServer:initialClientRequestInfo:sessionToken:callback:, token available"
++ "connectToServer:initialClientRequestInfo:sessionToken:completion:"
++ "connectionID=%lu"
++ "deleteAppletsAndCleanupWithTSM:parentSessionToken:completion:"
++ "deleteAppletsAndCleanupWithTSM:sessionToken:completion:"
++ "deleteAppletsAndConnectToServer:completion:"
++ "didInterrupt:connectionID:"
++ "didInvalidate:"
++ "didReceiveMFWNotification:"
++ "enableDemoMode"
++ "enableDemoModeWithCompletion:"
++ "endSessionAndWait"
++ "endSessionAndWait:"
++ "expectedBurnoutProtectionTimer:"
++ "expectedBurnoutProtectionTimerWithCompletion:"
++ "flashFirmware:"
++ "flashFirmware:completion:"
++ "generateMigrationPaymentTokenWithError:"
++ "generateMigrationTokenWithCompletion:"
++ "getConnectionAndID:"
++ "groupHeadIDAsData"
++ "handlMFWNotification:"
++ "initWithCardMigrationRequest:"
++ "manufacturingFirmawreParameter:"
++ "ndef"
++ "passInfos"
++ "performCardMigrationPaymentRequest:request:completion:"
++ "performCardMigrationPaymentRequest:request:error:"
++ "productionFirmwareParameter:"
++ "queueCardMigrationPaymentSession:sessionAttribute:completion:"
++ "queueInternalConfigurationSession:sessionAttribute:completion:"
++ "readRegister:operationType:error:"
++ "readRegisters:operation:completion:"
++ "readRegisters:operationType:error:"
++ "registerForCallbacks:withUUID:completion:"
++ "registerForRemoteCallbacksWithConnection:"
++ "sendMFGCommand:payload:completion:"
++ "sendMFGCommand:payload:response:"
++ "setActivePaymentApplets:keyIdentifiers:authorization:completion:"
++ "setCertificate:"
++ "setPassInfos:"
++ "setSignature:"
++ "setTransactions:"
++ "signature"
++ "startCardMigrationPaymentSession:"
++ "startContinousWave"
++ "startContinousWaveWithCompletion:"
++ "startFieldDetect"
++ "startFieldDetectWithCompletion:"
++ "startInternalConfigurationSession:"
++ "startLPCD"
++ "startLPCDWithCompletion:"
++ "startReader"
++ "startReaderWithCompletion:"
++ "stopRF"
++ "stopRFActivityWithCompletion:"
++ "transactions"
++ "triggerBackgroundTagReading:"
++ "triggerCoreDump"
++ "triggerCoreDumpWithCompletion:"
++ "unregisterForRemoteCallbacksWithConnection:"
++ "updateBackgroundTagReading:params:completion:"
++ "v24@?0@\"NFCardMigrationPaymentResponse\"8@\"NSError\"16"
++ "v24@?0@\"NFCardMigrationPaymentToken\"8@\"NSError\"16"
++ "v24@?0@\"NSObject<OS_dispatch_queue>\"8@\"NSError\"16"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSXPCConnection\"16Q24"
++ "writeRegister:payload:operationType:"
++ "writeRegisters:payloads:operation:completion:"
++ "writeRegisters:payloads:operationType:"
++ "zero"
++ "\x81"
+- "\t"
+- "%c[%{public}s %{public}s]:%i ABC Request submitted successfully"
+- "%c[%{public}s %{public}s]:%i ABC Request was rejected. Reason Code: %{public}@"
+- "%c[%{public}s %{public}s]:%i Proxy cleared"
+- "%c[%{public}s %{public}s]:%i Session already ended"
+- "%c[%{public}s %{public}s]:%i Session not active yet"
+- "%c[%{public}s %{public}s]:%i Session proxy is nil"
+- "%c[%{public}s %{public}s]:%i TTR Prohibition time is in Unexpected format"
+- "%c[%{public}s %{public}s]:%i started=%@ isFirstInQueue=%d"
+- "@20@0:8I16"
+- "AID:%@  : Keys=%@ :  Error: %@"
+- "AIDS: %@   :  Error: %@"
+- "CBOR"
+- "Class getCBORClass(void)_block_invoke"
+- "Class getSDRDiagnosticReporterClass(void)_block_invoke"
+- "Commmand Error"
+- "Express config failure - restoreAuthorizationForAllAppletsExcept"
+- "Express config failure - restoreAuthorizationForKeys"
+- "Express config failure: setExpressPassconfig:restoreAuthorization:%@"
+- "N/A"
+- "NFC/SE"
+- "NFConnectionHandoverController+CBOR.h"
+- "NFReaderSessionPollConfig"
+- "NFTapToRadar.m"
+- "NSString *const getkSymptomDiagnosticReplySuccess(void)"
+- "NSString *getSBUserNotificationDismissOnLock(void)"
+- "Processing error"
+- "SBUserNotificationDismissOnLock"
+- "SDRDiagnosticReporter"
+- "T@\"NFCredentialSession\",W,N,V_parentSession"
+- "T@\"NFCredentialTransceiver\",&,N,V_activeTransceiver"
+- "T@\"NSData\",&,N,V_ecp"
+- "T@\"NSXPCConnection\",R"
+- "TB,N,GhasInvalidated,V_invalidated"
+- "TB,N,V_fieldDetect"
+- "TB,N,V_lpcd"
+- "TB,N,V_skipMifareClassify"
+- "TI,N,V_pollDuration"
+- "TI,N,V_technology"
+- "T{os_unfair_lock_s=I},N,V_lock"
+- "Unable to find class %s"
+- "Vv24@0:8@\"NSObject<NFHardwareManagerCallbacks>\"16"
+- "Vv28@0:8I16@?<v@?@\"NSError\"I>20"
+- "Vv40@0:8@\"NSDictionary\"16@\"NSData\"24@?<v@?@\"NFApplet\"@\"NSSet\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSDictionary\"24@?<v@?@\"NSError\">32"
+- "XPC error"
+- "_ecp"
+- "_fieldDetect"
+- "_lpcd"
+- "_pollDuration"
+- "_skipMifareClassify"
+- "activeTransceiver"
+- "connectToServer:initialClientRequestInfo:completion:"
+- "connection"
+- "dateFromString:"
+- "didInterrupt:"
+- "didInvalidate"
+- "ecp"
+- "en_US"
+- "fd"
+- "fieldDetect"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "hasInvalidated"
+- "initWithLocaleIdentifier:"
+- "invalidated"
+- "kSymptomDiagnosticReplySuccess"
+- "lock"
+- "lpcd"
+- "parentSession"
+- "pollDuration"
+- "processing error"
+- "reason"
+- "requestBugCapture:subtype:context:"
+- "setActivePaymentApplets:authorization:completion:"
+- "setActiveTransceiver:"
+- "setFieldDetect:"
+- "setInvalidated:"
+- "setLocale:"
+- "setLock:"
+- "setLpcd:"
+- "setParentSession:"
+- "setTechnology:"
+- "signatureWithDomain:type:subType:subtypeContext:detectedProcess:triggerThresholdValues:"
+- "skipMifareClassify"
+- "snapshotWithSignature:delay:events:payload:actions:reply:"
+- "softlink:o:path:/System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary"
+- "softlink:o:path:/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices"
+- "softlink:o:path:/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/SymptomDiagnosticReporter"
+- "tech"
+- "updateBackgroundTagReading:completion:"
+- "v16@?0@\"NSDictionary\"8"
+- "v20@0:8{os_unfair_lock_s=I}16"
+- "v24@0:8@\"NSXPCConnection\"16"
+- "v40@0:8@16@24@32"
+- "void *CBORLibraryLibrary(void)"
+- "void *SpringBoardServicesLibrary(void)"
+- "void *SymptomDiagnosticReporterLibrary(void)"
+- "yyyy-MM-dd HH:mm:ss Z"
+- "{os_unfair_lock_s=I}16@0:8"
+
+```

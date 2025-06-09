@@ -1,0 +1,1445 @@
+## SiriSharedUI
+
+> `/System/Library/PrivateFrameworks/SiriSharedUI.framework/SiriSharedUI`
+
+```diff
+
+-3405.30.3.11.5
+-  __TEXT.__text: 0xc17a0
+-  __TEXT.__auth_stubs: 0x2b50
+-  __TEXT.__objc_methlist: 0x606c
+-  __TEXT.__const: 0x3454
+-  __TEXT.__cstring: 0x7a3c
+-  __TEXT.__oslogstring: 0x12a8
+-  __TEXT.__gcc_except_tab: 0x32c
++3500.74.4.1.2
++  __TEXT.__text: 0xed608
++  __TEXT.__auth_stubs: 0x3010
++  __TEXT.__objc_methlist: 0x6540
++  __TEXT.__const: 0x3f64
++  __TEXT.__cstring: 0x99ac
++  __TEXT.__oslogstring: 0x1335
++  __TEXT.__gcc_except_tab: 0x43c
+   __TEXT.__ustring: 0x1a
+   __TEXT.__dlopen_cstrs: 0x58
+-  __TEXT.__swift5_typeref: 0x711c
+-  __TEXT.__swift5_fieldmd: 0x1218
+-  __TEXT.__constg_swiftt: 0x2598
+-  __TEXT.__swift5_reflstr: 0x1816
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_capture: 0xc94
+-  __TEXT.__swift5_assocty: 0x380
++  __TEXT.__swift5_typeref: 0x8616
++  __TEXT.__swift5_fieldmd: 0x15b8
++  __TEXT.__constg_swiftt: 0x2c2c
++  __TEXT.__swift5_reflstr: 0x1e56
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__swift5_capture: 0x11b8
++  __TEXT.__swift5_assocty: 0x3e8
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_proto: 0x138
+-  __TEXT.__swift5_types: 0x12c
+-  __TEXT.__swift_as_entry: 0x84
+-  __TEXT.__swift_as_ret: 0x74
+-  __TEXT.__unwind_info: 0x2c40
+-  __TEXT.__eh_frame: 0x1a3c
+-  __TEXT.__objc_classname: 0xdc6
+-  __TEXT.__objc_methname: 0xf9b1
+-  __TEXT.__objc_methtype: 0x2c36
+-  __TEXT.__objc_stubs: 0x85c0
+-  __DATA_CONST.__got: 0xf60
+-  __DATA_CONST.__const: 0xa68
+-  __DATA_CONST.__objc_classlist: 0x2f0
+-  __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x240
++  __TEXT.__swift5_proto: 0x158
++  __TEXT.__swift5_types: 0x14c
++  __TEXT.__swift_as_entry: 0x80
++  __TEXT.__swift_as_ret: 0x70
++  __TEXT.__unwind_info: 0x3080
++  __TEXT.__eh_frame: 0x196c
++  __TEXT.__objc_classname: 0xdbf
++  __TEXT.__objc_methname: 0x10798
++  __TEXT.__objc_methtype: 0x2b77
++  __TEXT.__objc_stubs: 0x8440
++  __DATA_CONST.__got: 0x1050
++  __DATA_CONST.__const: 0xb30
++  __DATA_CONST.__objc_classlist: 0x318
++  __DATA_CONST.__objc_catlist: 0x20
++  __DATA_CONST.__objc_protolist: 0x250
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x38b0
+-  __DATA_CONST.__objc_protorefs: 0xb0
++  __DATA_CONST.__objc_selrefs: 0x3d78
++  __DATA_CONST.__objc_protorefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x138
+   __DATA_CONST.__objc_arraydata: 0x70
+-  __AUTH_CONST.__auth_got: 0x15b8
+-  __AUTH_CONST.__const: 0x2d80
++  __AUTH_CONST.__auth_got: 0x1818
++  __AUTH_CONST.__const: 0x3e28
+   __AUTH_CONST.__cfstring: 0xce0
+-  __AUTH_CONST.__objc_const: 0xac70
++  __AUTH_CONST.__objc_const: 0xb7b0
+   __AUTH_CONST.__objc_arrayobj: 0x60
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+-  __AUTH.__objc_data: 0x10c8
+-  __AUTH.__data: 0xd58
+-  __DATA.__objc_ivar: 0x5d8
+-  __DATA.__data: 0x2a68
+-  __DATA.__bss: 0x1e90
+-  __DATA.__common: 0xc0
+-  __DATA_DIRTY.__objc_data: 0x2380
+-  __DATA_DIRTY.__data: 0x1700
+-  __DATA_DIRTY.__bss: 0x7a0
+-  __DATA_DIRTY.__common: 0x130
++  __AUTH.__objc_data: 0x14b8
++  __AUTH.__data: 0xb08
++  __DATA.__objc_ivar: 0x584
++  __DATA.__data: 0x28f0
++  __DATA.__bss: 0x1fa0
++  __DATA.__common: 0xd8
++  __DATA_DIRTY.__objc_data: 0x2538
++  __DATA_DIRTY.__data: 0x2140
++  __DATA_DIRTY.__bss: 0xb40
++  __DATA_DIRTY.__common: 0x198
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SafariServices.framework/SafariServices
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+
+   - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
++  - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 912ADE61-98AE-3171-9BF8-F23447B37B94
+-  Functions: 4335
+-  Symbols:   6804
+-  CStrings:  3764
++  UUID: 289D4D76-60C8-3E72-ABD9-05625E2A3DBF
++  Functions: 5034
++  Symbols:   6879
++  CStrings:  4113
+ 
+Symbols:
++ -[SiriSharedUICompactUserUtteranceView setTextColor:]
++ -[SiriSharedUICompactUserUtteranceView setUnderlinedRange:]
++ -[SiriSharedUIFeedbackModel diagnosticContent]
++ -[SiriSharedUIFeedbackModel setDiagnosticContent:]
++ -[SiriSharedUIFeedbackModel setSiriSuggestionText:]
++ -[SiriSharedUIFeedbackModel siriSuggestionText]
++ -[SiriSharedUISAEViewState _setSmartDialogPlugin:attribution:]
++ -[SiriSharedUISmartDialogView _enableScrolling:]
++ -[SiriSharedUISmartDialogView _resetAttributionView:]
++ -[SiriSharedUISmartDialogView _showAlternativesUI]
++ -[SiriSharedUISmartDialogView _showAlternativesUI].cold.1
++ -[SiriSharedUISmartDialogView didReceiveAttributionView:]
++ -[SiriSharedUISmartDialogView setCappedFrame:]
++ -[SiriSharedUISmartDialogView setSmartDialogPlugin:attribution:]
++ -[SiriSharedUISmartDialogView setUserInterfaceStyle:]
++ -[SiriSharedUISmartDialogView updateAttributionView]
++ -[SiriSharedUISuggestionExecutionWrapper .cxx_destruct]
++ -[SiriSharedUISuggestionExecutionWrapper displayText]
++ -[SiriSharedUISuggestionExecutionWrapper encodedToolInvocationData]
++ -[SiriSharedUISuggestionExecutionWrapper initWithInvocationText:displayText:encodedToolInvocationData:suggestionRequestType:]
++ -[SiriSharedUISuggestionExecutionWrapper invocationText]
++ -[SiriSharedUISuggestionExecutionWrapper suggestionRequestType]
++ -[SiriSharedUISuggestionsViewInterface fetchContinuerSuggestionsViewsWithRequestId:currentMode:deviceLocked:invocationSource:completion:]
++ -[SiriSharedUISuggestionsViewInterface initWithStartersPressDown:startersPressUp:continuersPressDown:continuersPressUp:]
++ -[SiriSharedUISuggestionsViewInterface initWithStartersPressDownHandler:startersPressUpHandler:continuersPressDownHandler:continuersPressUpHandler:]
++ -[SiriSharedUISuggestionsViewInterface setContextMenuHandler:]
++ GCC_except_table10
++ GCC_except_table27
++ _CGPointMake
++ _CGRectGetMaxX
++ _CGRectMake
++ _OBJC_CLASS_$_CAPortalLayer
++ _OBJC_CLASS_$_SiriSharedUIEnhancedMaterialUtilities
++ _OBJC_CLASS_$_SiriSharedUISpinningActivityIndicator
++ _OBJC_CLASS_$_SiriSharedUISuggestionExecutionWrapper
++ _OBJC_CLASS_$_UILongPressGestureRecognizer
++ _OBJC_CLASS_$_VRXTurnBasedInstrumentationEvent
++ _OBJC_CLASS_$__SFPBCardSection
++ _OBJC_CLASS_$__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ _OBJC_CLASS_$__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ _OBJC_CLASS_$__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_IVAR_$_SiriSharedUIFeedbackModel._diagnosticContent
++ _OBJC_IVAR_$_SiriSharedUIFeedbackModel._siriSuggestionText
++ _OBJC_IVAR_$_SiriSharedUISmartDialogView._attributionUpdated
++ _OBJC_IVAR_$_SiriSharedUISmartDialogView._attributionView
++ _OBJC_IVAR_$_SiriSharedUISmartDialogView._cappedFrame
++ _OBJC_IVAR_$_SiriSharedUISuggestionExecutionWrapper._displayText
++ _OBJC_IVAR_$_SiriSharedUISuggestionExecutionWrapper._encodedToolInvocationData
++ _OBJC_IVAR_$_SiriSharedUISuggestionExecutionWrapper._invocationText
++ _OBJC_IVAR_$_SiriSharedUISuggestionExecutionWrapper._suggestionRequestType
++ _OBJC_METACLASS_$_SiriSharedUIEnhancedMaterialUtilities
++ _OBJC_METACLASS_$_SiriSharedUISpinningActivityIndicator
++ _OBJC_METACLASS_$_SiriSharedUISuggestionExecutionWrapper
++ _OBJC_METACLASS_$__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ _OBJC_METACLASS_$__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ _OBJC_METACLASS_$__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ _SiriSharedUIAttributionHeight
++ _SiriSharedUISAESmoothnessSpringBounce
++ _SiriSharedUISAESnippetSuggestionsSpringDampingRatio
++ _SiriSharedUISAESnippetSuggestionsSpringResponse
++ _SiriSharedUISAESpringDuration
++ _SiriSharedUIScrollViewDecelerationRateFast
++ _SiriSharedUISmartDialogSnippetContentInsets
++ _SiriSharedUISnippetSuggestionDelay
++ _UIScrollViewDecelerationRateFast
++ __CATEGORY_INSTANCE_METHODS_UIView_$_SiriSharedUI
++ __CATEGORY_UIView_$_SiriSharedUI
++ __CLASS_METHODS_SiriSharedUIEnhancedMaterialUtilities
++ __CLASS_METHODS__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ __DATA_SiriSharedUIEnhancedMaterialUtilities
++ __DATA_SiriSharedUISpinningActivityIndicator
++ __DATA__TtC12SiriSharedUI19SiriSharedUIAligner
++ __DATA__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ __DATA__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ __DATA__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ __INSTANCE_METHODS_SiriSharedUIEnhancedMaterialUtilities
++ __INSTANCE_METHODS_SiriSharedUISpinningActivityIndicator
++ __INSTANCE_METHODS__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ __INSTANCE_METHODS__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ __INSTANCE_METHODS__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ __IVARS_SiriSharedUISpinningActivityIndicator
++ __IVARS__TtC12SiriSharedUI19SiriSharedUIAligner
++ __IVARS__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ __METACLASS_DATA_SiriSharedUIEnhancedMaterialUtilities
++ __METACLASS_DATA_SiriSharedUISpinningActivityIndicator
++ __METACLASS_DATA__TtC12SiriSharedUI19SiriSharedUIAligner
++ __METACLASS_DATA__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ __METACLASS_DATA__TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility
++ __METACLASS_DATA__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ __OBJC_$_INSTANCE_METHODS_SiriSharedUISuggestionExecutionWrapper
++ __OBJC_$_INSTANCE_VARIABLES_SiriSharedUISuggestionExecutionWrapper
++ __OBJC_$_PROP_LIST_SiriSharedUISuggestionExecutionWrapper
++ __OBJC_CLASS_RO_$_SiriSharedUISuggestionExecutionWrapper
++ __OBJC_METACLASS_RO_$_SiriSharedUISuggestionExecutionWrapper
++ __PROPERTIES_SiriSharedUIGenerativeAssistantOnboardingManager
++ __PROPERTIES_SiriSharedUISpinningActivityIndicator
++ __PROTOCOLS__TtC12SiriSharedUI19SiriSashImageLoader.8
++ __PROTOCOLS__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView
++ __PROTOCOLS__TtC12SiriSharedUI33SiriSharedUIScrollablePageantView.1
++ __PROTOCOLS__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator
++ __PROTOCOLS__TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator.2
++ __UISolariumEnabled
++ ___156-[SiriSharedUICompactConversationView prepareForUpdatesToServerUtterance:conversationSnippetViews:speechRecognitionHypothesis:latencyViewModel:updateBlock:]_block_invoke.13
++ ___62-[SiriSharedUISAEViewState _setSmartDialogPlugin:attribution:]_block_invoke
++ ___block_descriptor_56_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy120_8
++ ___swift_memcpy144_8
++ __swift_FORCE_LOAD_$_swiftARKit
++ __swift_FORCE_LOAD_$_swiftARKit_$_SiriSharedUI
++ __swift_FORCE_LOAD_$_swiftSpriteKit
++ __swift_FORCE_LOAD_$_swiftSpriteKit_$_SiriSharedUI
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_SiriSharedUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriSharedUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriSharedUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriSharedUI
++ _associated conformance 12SiriSharedUI0aB20UIAutoscrollTextViewV012IdentifiableF0VSHAASQ
++ _associated conformance 12SiriSharedUI0aB20UIAutoscrollTextViewV012IdentifiableF0Vs0G0AA2IDsAFP_SH
++ _associated conformance 12SiriSharedUI0aB20UIAutoscrollTextViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 12SiriSharedUI4MoveOSHAASQ
++ _block_copy_helper.103
++ _block_copy_helper.128
++ _block_copy_helper.134
++ _block_copy_helper.140
++ _block_copy_helper.146
++ _block_copy_helper.153
++ _block_copy_helper.159
++ _block_copy_helper.165
++ _block_copy_helper.171
++ _block_copy_helper.21
++ _block_copy_helper.22
++ _block_copy_helper.23
++ _block_copy_helper.230
++ _block_copy_helper.236
++ _block_copy_helper.24
++ _block_copy_helper.245
++ _block_copy_helper.253
++ _block_copy_helper.27
++ _block_copy_helper.270
++ _block_copy_helper.28
++ _block_copy_helper.29
++ _block_copy_helper.33
++ _block_copy_helper.34
++ _block_copy_helper.36
++ _block_copy_helper.39
++ _block_copy_helper.4
++ _block_copy_helper.40
++ _block_copy_helper.42
++ _block_copy_helper.48
++ _block_copy_helper.50
++ _block_copy_helper.56
++ _block_copy_helper.62
++ _block_copy_helper.68
++ _block_copy_helper.74
++ _block_copy_helper.81
++ _block_copy_helper.85
++ _block_copy_helper.90
++ _block_copy_helper.96
++ _block_descriptor.105
++ _block_descriptor.130
++ _block_descriptor.136
++ _block_descriptor.142
++ _block_descriptor.148
++ _block_descriptor.155
++ _block_descriptor.161
++ _block_descriptor.167
++ _block_descriptor.173
++ _block_descriptor.23
++ _block_descriptor.232
++ _block_descriptor.238
++ _block_descriptor.24
++ _block_descriptor.247
++ _block_descriptor.25
++ _block_descriptor.255
++ _block_descriptor.26
++ _block_descriptor.272
++ _block_descriptor.29
++ _block_descriptor.30
++ _block_descriptor.31
++ _block_descriptor.35
++ _block_descriptor.36
++ _block_descriptor.38
++ _block_descriptor.41
++ _block_descriptor.42
++ _block_descriptor.44
++ _block_descriptor.50
++ _block_descriptor.52
++ _block_descriptor.58
++ _block_descriptor.6
++ _block_descriptor.64
++ _block_descriptor.70
++ _block_descriptor.76
++ _block_descriptor.83
++ _block_descriptor.87
++ _block_descriptor.92
++ _block_descriptor.98
++ _block_destroy_helper.104
++ _block_destroy_helper.129
++ _block_destroy_helper.135
++ _block_destroy_helper.141
++ _block_destroy_helper.147
++ _block_destroy_helper.154
++ _block_destroy_helper.160
++ _block_destroy_helper.166
++ _block_destroy_helper.172
++ _block_destroy_helper.22
++ _block_destroy_helper.23
++ _block_destroy_helper.231
++ _block_destroy_helper.237
++ _block_destroy_helper.24
++ _block_destroy_helper.246
++ _block_destroy_helper.25
++ _block_destroy_helper.254
++ _block_destroy_helper.271
++ _block_destroy_helper.28
++ _block_destroy_helper.29
++ _block_destroy_helper.30
++ _block_destroy_helper.34
++ _block_destroy_helper.35
++ _block_destroy_helper.37
++ _block_destroy_helper.40
++ _block_destroy_helper.41
++ _block_destroy_helper.43
++ _block_destroy_helper.49
++ _block_destroy_helper.5
++ _block_destroy_helper.51
++ _block_destroy_helper.57
++ _block_destroy_helper.63
++ _block_destroy_helper.69
++ _block_destroy_helper.75
++ _block_destroy_helper.82
++ _block_destroy_helper.86
++ _block_destroy_helper.91
++ _block_destroy_helper.97
++ _get_enum_tag_for_layout_string SbIegy_Sg
++ _get_enum_tag_for_layout_string So7CGPointVIegy_Sg
++ _get_witness_table 7SwiftUI12ViewThatFitsVyAA05TupleC0VyAA03AnyC0V_AA0C0PAAE12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_AA5ImageVSbtFQOyAA15ModifiedContentVyAA06ScrollC6ReaderVyATyAiAE14scrollDisabledyQrSbFQOyAiAE0V10Indicators_4axesQrAA0T19IndicatorVisibilityV_AA4AxisO3SetVtFQOyAA0tC0VyATyATyATyAA6HStackVyAA7ForEachVySay010SiriSharedB0026SiriSharedUIAutoscrollTextC0V012IdentifiableC0VG10Foundation4UUIDVATyAgA14_PaddingLayoutVGGGAA13_OffsetEffectVGAA25_AppearanceActionModifierVGAA19_BackgroundModifierVyATyATyATyA21_AA16_FixedSizeLayoutVGAA15_HiddenModifierVGAA23_GeometryActionModifierVySo6CGSizeVA41_SQANyHCg_GGGGG_Qo__Qo_A28_GGA42_G_Qo_tGGAaHHPyHC.41
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQOyACyACyAF11SmartDialogVyAA4TextVSgAA6VStackVyAA05TupleE0VyACyAeFE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQOyAQyASyAeFEAgHQryAJc_tFQOyAA012_ConditionalD0VyAZy010SiriSharedB00wx7UISmartM18ContextMenuBuilderVyACyAF06PluginE0VAA01_D17ShapeKindModifierVyAA16RoundedRectangleVGGAZyACyACyACyA3_AA14_PaddingLayoutVGA11_GAA01_S6LayoutVGACyAeAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQOyACyA12_AA18_AspectRatioLayoutVG_Qo_AA05_FlexS6LayoutVGGGAA7ForEachVySayA_24IndentifiableCardSectionVG10Foundation4UUIDVA1_yACyAF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Z0CtFZQOy_Qo_A_0wxyM15GestureModifierVGAA05EmptyE0VGGGA1_yAeAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AJSbtFQOyAeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQOyAeFE09draggableD0yQrqd__SglFQOyAeFE010selectableD0yQrA70_lFQOyAN_SSQo__SSQo__ACyA73_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGQo__Qo_SgACyACyA83_A11_GA30_GGG_Qo__AQyAZyA3_SgA35_ySaySo0wX16UITranscriptItemCGSSSgAeFEA67__A68_QrSb_qd__xXEtAaDRd__lFQOyAA03AnyE0V_AeFE18snippetAttributionQryFQOyA95__Qo_Qo_SgSgGGSgGSgtGG_Qo_A11_G_ACyACyAeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQOyAeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQOyACyAeFE05smartM10AnimatableQryFQOyACyACyAQyA35_yA92_A93_AZyAZyA1_yAeFEA67__A68_QrSb_qd__xXEtAaDRd__lFQOyA95__ACyA95_A5_yAA9RectangleVGGQo_A57_GA1_yA55_A52_GGAZyA1_yA95_A57_GA1_yACyA_0wxymF7WrapperVA15_GA57_GGGSgSgGGA75_ySbGGAA19_BackgroundModifierVyA_0wxymfE7WrapperVSgGG_Qo_AA11_ClipEffectVyA7_GGSg_Qo__Qo_A11_GAA20_LayoutScaleModifierVGtGGGA136_GA75_ySdGG_Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A163_HO_A165_AA0E8ModifierHPyHCHC.46
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAA15ModifiedContentVyAcAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lFQOyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE11buttonStyleyQrqd__AA06ButtonS0Rd__lFQOyAA0T0VyAGyAGyAGyAA6HStackVyAA05TupleC0VyAA012_ConditionalI0VyAVyAGyAGyAGyAGyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA12_FrameLayoutVGAA14_PaddingLayoutVGAA14_OpacityEffectVGAA13_ShadowEffectVGAGyAGyAGyAGyAXA5_GA8_GA11_GA14_GGAGyAGyAGyAGyAA9RectangleVAA011_ForegroundS8ModifierVyAA017HierarchicalShapeS0VGGAA31AccessibilityAttachmentModifierVGA5_GA8_GG_AGyAA6SpacerVA5_GAVy010SiriSharedB0026SiriSharedUIAutoscrollTextC0VAGyAGyAGyAGyAGyAGyAGyAA4TextVAZySiSgGGAZySbGGA27_GAA16_BlendModeEffectVGA8_GA11_GAA13_OffsetEffectVGGtGGAZyAA4FontVSgGGA11_GAA11_BlurEffectVGG_A38_011SuggestionsT13ConfigurationVQo__18SiriSuggestionsKitAWOSgQo__A38_28SimultaneousLongPressGestureVQo_A30_G_APyARyATyA42__AXtGGGQo_HO.67
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQOyAA01_C16Modifier_ContentVy010SiriSharedB00jk13UISmartDialogeH0VG_AA06_EndedE0VyAA03TapE0VGQo_HO.2
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA24ButtonStyleConfigurationV5LabelV_SbQo_HO.71
++ _index
++ _kCAFilterSourceOver
++ _keypath_get.42Tm
++ _keypath_get.44Tm
++ _keypath_get_selector_asrAlternatives
++ _keypath_get_selector_isInVoiceLatency
++ _keypath_set.43Tm
++ _objc_msgSend$_enableScrolling:
++ _objc_msgSend$_resetAttributionView:
++ _objc_msgSend$_setSmartDialogPlugin:attribution:
++ _objc_msgSend$_showAlternativesUI
++ _objc_msgSend$asrAlternatives
++ _objc_msgSend$fetchContinuerViewsWithRequestId:currentMode:deviceLocked:invocationSource:completion:
++ _objc_msgSend$findFirstDifferenceWithOriginalText:alternativeText:
++ _objc_msgSend$initWithScrollView:edge:style:
++ _objc_msgSend$initWithSpeech:asrAlternatives:latencySummary:shouldShow:taskIdentifier:
++ _objc_msgSend$initWithStartersPressDown:startersPressUp:continuersPressDown:continuersPressUp:
++ _objc_msgSend$initWithStartersPressDownHandler:startersPressUpHandler:continuersPressDownHandler:continuersPressUpHandler:
++ _objc_msgSend$isEnhancedMaterialEnabled
++ _objc_msgSend$removeObjectAtIndex:
++ _objc_msgSend$setContextMenuHandlerWithContextMenuHandler:
++ _objc_msgSend$setSmartDialogPlugin:attribution:
++ _objc_msgSend$setUnderlinedRange:
++ _objc_msgSend$siriSharedUI_setGlassBackground
++ _objc_msgSend$siriViewControllerShouldRequestTextInputWithUtterance:alternatives:
++ _objc_msgSend$updateAttributionView
++ _objc_msgSend$updateWithAttribution:
++ _objc_msgSend$updateWithCappedFrame:
++ _objc_msgSend$updateWithMaxSnippetWidth:
++ _objc_msgSend$updateWithScrollEnabled:
++ _objc_msgSend$whiteColor
++ _objc_retain_x9
++ _objectdestroy.127Tm
++ _objectdestroy.15Tm
++ _objectdestroy.20Tm
++ _objectdestroy.212Tm
++ _objectdestroy.238Tm
++ _objectdestroy.85Tm
++ _objectdestroy.9Tm
++ _swift_allocBox
++ _swift_bridgeObjectRetain_n
++ _swift_coroFrameAlloc
++ _swift_getExistentialTypeMetadata
++ _swift_release_n
++ _swift_setDeallocating
++ _swift_unknownObjectRelease_n
++ _symbolic $s7SwiftUI32UIGestureRecognizerRepresentableP
++ _symbolic SDySiSDyS2iGG
++ _symbolic SDySo6UIViewC_____G 12CoreGraphics7CGFloatV
++ _symbolic SS_ypt
++ _symbolic SaySaySiGG
++ _symbolic SaySay_____GG 12SiriSharedUI4MoveO
++ _symbolic SaySo8NSNumberCG
++ _symbolic Say_____G 10Foundation4UUIDV
++ _symbolic Say_____G 12SiriSharedUI0aB20UIAutoscrollTextViewV012IdentifiableF0V
++ _symbolic Say_____G 12SiriSharedUI0aB22UIDropletContainerViewC
++ _symbolic Say_____G 12SiriSharedUI4MoveO
++ _symbolic Say_____GSg 12SiriSharedUI0aB25UIAssistantSuggestionViewC
++ _symbolic Sf
++ _symbolic Si_SDyS2iGt
++ _symbolic So28UILongPressGestureRecognizerC
++ _symbolic So29UIViewSpringAnimationBehaviorCSg
++ _symbolic So30SiriSharedUIStandardScrollViewC
++ _symbolic So38SiriSharedUISuggestionExecutionWrapperCSiIeggy_
++ _symbolic So38SiriSharedUISuggestionExecutionWrapperCSiIeyByy_
++ _symbolic So38SiriSharedUISuggestionExecutionWrapperCSiytIegnnr_
++ _symbolic So50SiriSharedUISystemAssistantExperienceContainerViewCSgXw
++ _symbolic So8NSStringCIegg_
++ _symbolic So8NSStringCytIegnr_
++ _symbolic Spy_____GSgSPyAAGSg______tc s4Int8V s5Int32V
++ _symbolic _____ 12SiriSharedUI0aB20UIAutoscrollTextViewV
++ _symbolic _____ 12SiriSharedUI0aB20UIAutoscrollTextViewV012IdentifiableF0V
++ _symbolic _____ 12SiriSharedUI0aB23UIScrollablePageantViewC
++ _symbolic _____ 12SiriSharedUI0aB25UIStringDifferenceUtilityC
++ _symbolic _____ 12SiriSharedUI0aB9UIAlignerC
++ _symbolic _____ 12SiriSharedUI28SimultaneousLongPressGestureV
++ _symbolic _____ 12SiriSharedUI28SimultaneousLongPressGestureV11CoordinatorC
++ _symbolic _____ 12SiriSharedUI4MoveO
++ _symbolic _____ 7SwiftUI15ScrollViewProxyV
++ _symbolic _____ 7SwiftUI7AnyViewV
++ _symbolic _____ So33SiriSharedUISuggestionRequestTypeV
++ _symbolic _____Sg 12SiriSharedUI0aB12UISuggestionC0abD4TypeO
++ _symbolic _____Sg 7ToolKit0A10InvocationV
++ _symbolic _____Sg So7CGPointV
++ _symbolic _____Sg_ABt 18SiriSuggestionsKit5ImageO
++ _symbolic ___________y_____y_____yABy_____y_____y_____yAByAByABy_____y_____ySay_____G_____AByAA_____GGG_____G_____G_____yAByAByAByAK_____G_____G_____y_____AXSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_APGGAZG_Qo_t 7SwiftUI7AnyViewV AA0D0PAAE12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_AA5ImageVSbtFQO AA15ModifiedContentV AA06ScrollD6ReaderV AeAE14scrollDisabledyQrSbFQO AeAE0S10Indicators_4axesQrAA0Q19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0qD0V AA6HStackV AA7ForEachV 010SiriSharedB0026SiriSharedUIAutoscrollTextD0V012IdentifiableD0V 10Foundation4UUIDV AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic ______p 7SwiftUI4ViewP
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________ySiSgGGACySbGG_____y_____GG_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V AA16_BlendModeEffectV AA14_PaddingLayoutV AA08_OpacityP0V AA07_OffsetP0V
++ _symbolic _____yAAyAAyAAyAAyAAy__________ySiSgGGACySbGG_____y_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V AA16_BlendModeEffectV AA14_PaddingLayoutV AA08_OpacityP0V
++ _symbolic _____yAAyAAyAAyAAy__________ySiSgGGACySbGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V AA16_BlendModeEffectV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAyAAy__________ySiSgGGACySbGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V AA16_BlendModeEffectV
++ _symbolic _____yAAyAAy__________ySiSgGGACySbGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V
++ _symbolic _____yAAyAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G_____yAAyAAyAAyAI_____G_____G_____y_____AVSQ12CoreGraphicsyHCg_GGGG 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00hI20UIAutoscrollTextViewV012IdentifiableL0V 10Foundation4UUIDV AA03AnyL0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA011_BackgroundW0V AA010_FixedSizeR0V AA07_HiddenW0V AA09_GeometryvW0V So6CGSizeV
++ _symbolic _____yAAyAAy_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGADy_____AAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFySbGGA_G_____GAMGAOG_____GGtGGAFy_____SgGGAOG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextG0V AA4TextV AA010_BlendModeS0V AA07_OffsetS0V AA4FontV AA05_BlurS0V
++ _symbolic _____yAAy__________ySiSgGGACySbGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____yAAy_____yAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAcIGAKGAMGAOGGAByAByAByABy__________y_____GG_____GAIGAKGG_ABy_____AIGAAy_____AByAByAByAByAByAByABy_____ADySiSgGGADySbGGAYG_____GAKGAMG_____GGt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingM0V AA14_OpacityEffectV AA07_ShadowP0V AA9RectangleV AA016_ForegroundStyleJ0V AA017HierarchicalShapeT0V AA023AccessibilityAttachmentJ0V AA6SpacerV 010SiriSharedB00Z26SharedUIAutoscrollTextViewV AA4TextV AA010_BlendModeP0V AA07_OffsetP0V
++ _symbolic _____yAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____y_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo__Qo_SgAAyAAyA18_ANGAVGGG_Qo__AEyAGyAISgAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA27_A28_AGyAGyAHy_____yA29__AAyA29_AJy_____GGQo_A5_GAHyA4_A2_GGAGyAHyA29_A5_GAHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAKGGSg_Qo__Qo_ANG_____GtGGGA60_GA11_ySdGG 7SwiftUI15ModifiedContentV 07SnippetB011SmartDialogV AA4TextV AA6VStackV AA9TupleViewV AA0K0PADE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AnDE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalD0V 010SiriSharedB00wx7UISmartG18ContextMenuBuilderV AD06PluginK0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_N6LayoutV AnAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexN6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Z0CtFZQO AZ0wxyG15GestureModifierV AA05EmptyK0V AnAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AWSbtFQO AnDE2if_9transformQrSb_qd__xXEtAaMRd__lFQO AnDE09draggableD0yQrqd__SglFQO AnDE010selectableD0yQrA53_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AnDEA50__A51_QrSb_qd__xXEtAaMRd__lFQO AA03AnyK0V AnDE18snippetAttributionQryFQO AnDE08overrideE15VerticalPaddingyQrAD014CustomVerticalE7PaddingOFQO AnDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AnDE05smartG10AnimatableQryFQO AnDEA50__A51_QrSb_qd__xXEtAaMRd__lFQO AA9RectangleV AZ0wxygE7WrapperV AA19_BackgroundModifierV AZ0wxygeK7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV
++ _symbolic _____yAAy_____y_____yAAy_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E08overrideF15VerticalPaddingyQrAF06CustomhfI0OFQO AeFE0g19ComponentHorizontalI0yQrAF0jlkI0OFQO AeFE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00tu7UISmartN18ContextMenuBuilderV AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0W0CtFZQO AT0tuvN15GestureModifierV AT0tuvnF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AT0tuvnfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV AA01_I6LayoutV AA20_LayoutScaleModifierV
++ _symbolic _____yAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00iJ31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaMRd__lFQO AA03AnyP0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyP0V AO22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AO0M0CtFZQO AJ0ijkl7GestureW0V AJ0ijklQ7WrapperV AA12_FrameLayoutV AA022_EnvironmentKeyWritingW0V AA011_BackgroundW0V AJ0ijklqP7WrapperV
++ _symbolic _____yAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00hI20UIAutoscrollTextViewV012IdentifiableL0V 10Foundation4UUIDV AA03AnyL0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____y___________yAC_____y_____GGQo______GAByADy_____y_Qo______GALGGAAyAByAcJGAByADy__________GAJGGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaGRd__lFQO AA03AnyL0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyL0V AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureT0V AD0efghM7WrapperV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y___________yAC_____y_____GGQo______GAByADy_____y_Qo______GALGGAAyAByAcJGAByADy__________GAJGGGSg 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaGRd__lFQO AA03AnyL0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyL0V AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureT0V AD0efghM7WrapperV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y___________yAC_____y_____GGQo______GAByADy_____y_Qo______GALGGAAyAByAcJGAByADy__________GAJGGGSgSg 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaGRd__lFQO AA03AnyL0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyL0V AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureT0V AD0efghM7WrapperV AA12_FrameLayoutV
++ _symbolic _____yAAy_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGGABy_____y_____y_____y_____y______SSQo__SSQo__ACyA6______y_____SgGGQo__Qo_SgACyACyA14_AIGAQGGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA06_FrameV0V AA0O0PAAE017containerRelativeW0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioV0V AA05_FlexwV0V AA7ForEachV AD24IndentifiableCardSectionV 10Foundation4UUIDV AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureR0V AA05EmptyO0V AuAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_So6CGSizeVSbtFQO AuIE2if_9transformQrSb_qd__xXEtAaTRd__lFQO AuIE09draggableD0yQrqd__SglFQO AuIE010selectableD0yQrA38_lFQO AA4TextV AA022_EnvironmentKeyWritingR0V AA4FontV
++ _symbolic _____yAAy_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGADy_____AAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFySbGGA_G_____GAMGAOG_____GGtGGAFy_____SgGGAOG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextG0V AA4TextV AA010_BlendModeS0V AA07_OffsetS0V AA4FontV
++ _symbolic _____yAAy_____y_____y_____y_____y______SSQo__SSQo__AAyAD_____y_____SgGGQo__Qo_Sg_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_So6CGSizeVSbtFQO AE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeNE09draggableD0yQrqd__SglFQO AeNE010selectableD0yQrARlFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA16_FlexFrameLayoutV
++ _symbolic _____yS2iG s18_DictionaryStorageC
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySaySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAF_Qo_Qo_SgSgG 7SwiftUI7ForEachV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AeFE18snippetAttributionQryFQO
++ _symbolic _____ySay_____GG 7SwiftUI5StateV 010SiriSharedB00dE20UIAutoscrollTextViewV012IdentifiableH0V
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 12SiriSharedUI4MoveO
++ _symbolic _____ySay_____GGSg 7SwiftUI11AnyLocationC 010SiriSharedB00eF20UIAutoscrollTextViewV012IdentifiableI0V
++ _symbolic _____ySbG 7SwiftUI7BindingV
++ _symbolic _____ySbGSg 7SwiftUI11AnyLocationC
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySiSDyS2iGG s18_DictionaryStorageC
++ _symbolic _____ySiSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySi_SDyS2iGtG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_SitG s23_ContiguousArrayStorageC
++ _symbolic _____ySo6UIViewC_____G s18_DictionaryStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____ABSQ12CoreGraphicsyHCg_G 7SwiftUI23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____G 7SwiftUI13_EndedGestureV AA03TapD0V
++ _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV AA16RoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI39UIGestureRecognizerRepresentableContextV 010SiriSharedB028SimultaneousLongPressGestureV
++ _symbolic _____y_____G 7SwiftUI5StateV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriSharedUI0dE20UIAutoscrollTextViewV012IdentifiableI0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12SiriSharedUI4MoveO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4AxisO3SetV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI8GradientV4StopV
++ _symbolic _____y_____GSg 7SwiftUI11AnyLocationC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____SgG 7SwiftUI5StateV So6CGSizeV
++ _symbolic _____y_____SgG 7SwiftUI5StateV So7CGPointV
++ _symbolic _____y_____SgGSg 7SwiftUI11AnyLocationC 8Dispatch0E8WorkItemC
++ _symbolic _____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAI_Qo_Qo_SgSgGG 7SwiftUI19_ConditionalContentV 07SnippetB010PluginViewV AA7ForEachV AA0G0PADE2if_9transformQrSb_qd__xXEtAaIRd__lFQO AA03AnyG0V AjDE18snippetAttributionQryFQO
++ _symbolic _____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAI_Qo_Qo_SgSgG_G 7SwiftUI19_ConditionalContentV7StorageO 07SnippetB010PluginViewV AA7ForEachV AA0H0PAFE2if_9transformQrSb_qd__xXEtAaKRd__lFQO AA03AnyH0V AlFE18snippetAttributionQryFQO
++ _symbolic _____y_____Sg_____y_____y_____y_____yADyAEy_____y_____yAGy_____yAFy__________y_____GGAGyAFyAFyAFyAI_____GANG_____GAFy_____yAFyAO_____G_Qo______GGG_____ySay_____G_____AHyAFy_____y_Qo______G_____GGGAHy_____y_____y_____y_____yAB_SSQo__SSQo__AFyA10______y_____SgGGQo__Qo_SgAFyAFyA18_ANGAVGGG_Qo__ADyAGyAISgAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_ANG_AFyAFy_____y_____yAFy_____yAFyAFyADyAZyA27_A28_AGyAGyAHy_____yA29__AFyA29_AJy_____GGQo_A5_GAHyA4_A2_GGAGyAHyA29_A5_GAHyAFy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAKGGSg_Qo__Qo_ANG_____GtGGG 9SnippetUI11SmartDialogV 05SwiftB04TextV AD6VStackV AD9TupleViewV AD15ModifiedContentV AD0I0PAAE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AnAE8readSize8onChangeQrySo6CGSizeVc_tFQO AD012_ConditionalK0V 010SiriSharedB00wx7UISmartD18ContextMenuBuilderV AA06PluginI0V AD01_K17ShapeKindModifierV AD16RoundedRectangleV AD14_PaddingLayoutV AD01_N6LayoutV AnDE017containerRelativeN0_9alignmentQrAD4AxisO3SetV_AD9AlignmentVtFQO AD18_AspectRatioLayoutV AD05_FlexN6LayoutV AD7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AA22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AA0Z0CtFZQO AZ0wxyD15GestureModifierV AD05EmptyI0V AnDE15textWrappingTop19horizontalAlignment4size9isEnabledQrAD14HorizontalEdgeO_AWSbtFQO AnAE2if_9transformQrSb_qd__xXEtAdMRd__lFQO AnAE09draggableK0yQrqd__SglFQO AnAE010selectableK0yQrA53_lFQO AD30_EnvironmentKeyWritingModifierV AD4FontV AnAEA50__A51_QrSb_qd__xXEtAdMRd__lFQO AD03AnyI0V AnAE18snippetAttributionQryFQO AnAE08overrideA15VerticalPaddingyQrAA014CustomVerticalA7PaddingOFQO AnAE34overrideComponentHorizontalPaddingyQrAA32CustomHorizontalComponentPaddingOFQO AnAE05smartD10AnimatableQryFQO AnAEA50__A51_QrSb_qd__xXEtAdMRd__lFQO AD9RectangleV AZ0wxydA7WrapperV AD19_BackgroundModifierV AZ0wxydaI7WrapperV AD11_ClipEffectV AD20_LayoutScaleModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7AnyViewV AA14_PaddingLayoutV
++ _symbolic _____y___________yAA_Qo_Qo_ 7SwiftUI4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AcDE18snippetAttributionQryFQO
++ _symbolic _____y___________yAA_Qo_Qo_Sg 7SwiftUI4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AcDE18snippetAttributionQryFQO
++ _symbolic _____y___________yAA_Qo_Qo_SgSg 7SwiftUI4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AcDE18snippetAttributionQryFQO
++ _symbolic _____y___________ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y___________yAJ_____y_____GGQo______GAIyAKy_____y_Qo______GASGGAHyAIyAjQGAIyAKy__________GAQGGGSgSgGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA19_ConditionalContentV 010SiriSharedB00lM31UISmartDialogContextMenuBuilderV AA0D0P07SnippetB0E2if_9transformQrSb_qd__xXEtAaORd__lFQO AA03AnyD0V AA08ModifiedK0V AA01_K17ShapeKindModifierV AA9RectangleV AA05EmptyD0V AQ22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AQ0P0CtFZQO AL0lmno7GestureZ0V AL0lmnoS7WrapperV AA06_FrameG0V
++ _symbolic _____y___________ySay_____G__________y__________GGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV 010SiriSharedB00jk16UIAutoscrollTextD0V012IdentifiableD0V 10Foundation4UUIDV AA15ModifiedContentV AA03AnyD0V AA08_PaddingG0V
++ _symbolic _____y___________y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAK_Qo_Qo_SgSgGGSgG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV 07SnippetB006PluginD0V AA7ForEachV AA0D0PAJE2if_9transformQrSb_qd__xXEtAaORd__lFQO AA03AnyD0V ApJE18snippetAttributionQryFQO
++ _symbolic _____y___________y___________y_____y_____yAEy_____y_____y_____yAEyAEyAEy_____y_____ySay_____G_____AEyAD_____GGG_____G_____G_____yAEyAEyAEyAN_____G_____G_____y_____A_SQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_ASGGA1_G_Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA16_SizeFittingRootV AA05TupleD0V AA03AnyD0V AA0D0PAAE12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_AA5ImageVSbtFQO AA15ModifiedContentV AA06ScrollD6ReaderV AmAE14scrollDisabledyQrSbFQO AmAE0Y10Indicators_4axesQrAA0W19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0wD0V AA6HStackV AA7ForEachV 010SiriSharedB0026SiriSharedUIAutoscrollTextD0V012IdentifiableD0V 10Foundation4UUIDV AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA06_FixedF6LayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y___________y_____yADy_____yAEyAEyAEyAEy__________y_____SgGG_____G_____G_____G_____GAEyAEyAEyAEyAfLGANGAPGARGGAEyAEyAEyAEy__________y_____GG_____GALGANGG_AEy_____ALGADy_____AEyAEyAEyAEyAEyAEyAEy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA06_FrameG0V AA08_PaddingG0V AA14_OpacityEffectV AA07_ShadowU0V AA9RectangleV AA016_ForegroundStyleP0V AA017HierarchicalShapeY0V AA023AccessibilityAttachmentP0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextD0V AA4TextV AA010_BlendModeU0V AA07_OffsetU0V
++ _symbolic _____y___________y_____y_____yADy_____y_____y__________y_____GGADyAFyAFyAFyAG_____GALG_____GAFy_____yAFyAM_____G_Qo______GGG_____ySay_____G_____AEyAFy_____y_Qo______G_____GGGAEy_____y_____y_____y_____y______SSQo__SSQo__AFyA9______y_____SgGGQo__Qo_SgAFyAFyA17_ALGATGGG_Qo_______yADyAGSgAXySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0D0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA19_ConditionalContentV 010SiriSharedB00qR31UISmartDialogContextMenuBuilderV AA08ModifiedP0V AL06PluginD0V AA01_P17ShapeKindModifierV AA16RoundedRectangleV AA08_PaddingG0V AA06_FrameG0V AkAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioG0V AA010_FlexFrameG0V AA7ForEachV AS24IndentifiableCardSectionV 10Foundation4UUIDV AL22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AL0U0CtFZQO AS0qrsT15GestureModifierV AA05EmptyD0V AkAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_APSbtFQO AkLE2if_9transformQrSb_qd__xXEtAaJRd__lFQO AkLE09draggableP0yQrqd__SglFQO AkLE010selectableP0yQrA48_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0F0V AkLEA45__A46_QrSb_qd__xXEtAaJRd__lFQO AA03AnyD0V AkLE18snippetAttributionQryFQO
++ _symbolic _____y___________y_____y_____y_____yACy_____y_____yAFy_____yADy__________y_____GGAFyADyADyADyAH_____GAMG_____GADy_____yADyAN_____G_Qo______GGG_____ySay_____G_____AGyADy_____y_Qo______G_____GGGAGy_____y_____y_____y_____y______SSQo__SSQo__ADyA10______y_____SgGGQo__Qo_SgADyADyA18_AMGAUGGG_Qo__AEyAFyAHSgAYySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_AMG_ADyADy_____y_____yADy_____yADyADyAEyAYyA27_A28_AFyAFyAGy_____yA29__ADyA29_AIy_____GGQo_A4_GAGyA3_A1_GGAFyAGyA29_A4_GAGyADy_____APGA4_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAJGGSg_Qo__Qo_AMG_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0P07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA0F0V AmNE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalJ0V 010SiriSharedB00wX31UISmartDialogContextMenuBuilderV AN06PluginD0V AA01_J17ShapeKindModifierV AA16RoundedRectangleV AA08_PaddingG0V AA01_nG0V AmAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioG0V AA05_FlexnG0V AA7ForEachV A0_24IndentifiableCardSectionV 10Foundation4UUIDV AN22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AN7ContextCtFZQO A0_0wxyZ15GestureModifierV AA05EmptyD0V AmAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AYSbtFQO AmNE2if_9transformQrSb_qd__xXEtAaLRd__lFQO AmNE09draggableJ0yQrqd__SglFQO AmNE010selectableJ0yQrA55_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AmNEA52__A53_QrSb_qd__xXEtAaLRd__lFQO AA03AnyD0V AmNE18snippetAttributionQryFQO AmNE08overrideK15VerticalPaddingyQrAN014CustomVerticalK7PaddingOFQO AmNE34overrideComponentHorizontalPaddingyQrAN32CustomHorizontalComponentPaddingOFQO AmNE05smartZ10AnimatableQryFQO AmNEA52__A53_QrSb_qd__xXEtAaLRd__lFQO AA9RectangleV A0_0wxyzK7WrapperV AA19_BackgroundModifierV A0_0wxyzkD7WrapperV AA11_ClipEffectV AA01_G13ScaleModifierV
++ _symbolic _____y__________yACyACyACyACyACyACy__________ySiSgGGAEySbGG_____y_____GG_____G_____G_____G_____GG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF20UIAutoscrollTextViewV AA08ModifiedD0V AA0H0V AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleN0V AA017HierarchicalShapeP0V AA16_BlendModeEffectV AA14_PaddingLayoutV AA08_OpacityU0V AA07_OffsetU0V
++ _symbolic _____y__________yACyACyACyACyACyACy__________ySiSgGGAEySbGG_____y_____GG_____G_____G_____G_____G_G 7SwiftUI19_ConditionalContentV7StorageO 010SiriSharedB00fG20UIAutoscrollTextViewV AA08ModifiedD0V AA0I0V AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleO0V AA017HierarchicalShapeQ0V AA16_BlendModeEffectV AA14_PaddingLayoutV AA08_OpacityV0V AA07_OffsetV0V
++ _symbolic _____y__________ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA7AnyViewV AA01_D17ShapeKindModifierV AA9RectangleV
++ _symbolic _____y_____yAAyAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____y_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo__Qo_SgAAyAAyA18_ANGAVGGG_Qo__AEyAGyAISgAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA27_A28_AGyAGyAHy_____yA29__AAyA29_AJy_____GGQo_A5_GAHyA4_A2_GGAGyAHyA29_A5_GAHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAKGGSg_Qo__Qo_ANG_____GtGGGA60_GA11_ySdGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AF11SmartDialogV AA4TextV AA6VStackV AA05TupleE0V AeFE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AeFEAgHQryAJc_tFQO AA012_ConditionalD0V 010SiriSharedB00wx7UISmartM18ContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_S6LayoutV AeAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexS6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Z0CtFZQO AZ0wxyM15GestureModifierV AA05EmptyE0V AeAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AJSbtFQO AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA53_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AeFEA50__A51_QrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AeFE18snippetAttributionQryFQO AeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQO AeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQO AeFE05smartM10AnimatableQryFQO AeFEA50__A51_QrSb_qd__xXEtAaDRd__lFQO AA9RectangleV AZ0wxymF7WrapperV AA19_BackgroundModifierV AZ0wxymfE7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV AA25_AppearanceActionModifierV
++ _symbolic _____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00no7UISmartH18ContextMenuBuilderV AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Q0CtFZQO AN0noph7GestureY0V AN0nophF7WrapperV AA12_FrameLayoutV AA022_EnvironmentKeyWritingY0V AA011_BackgroundY0V AN0nophfE7WrapperV AA11_ClipEffectV AA07RoundedZ0V
++ _symbolic _____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00no7UISmartH18ContextMenuBuilderV AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Q0CtFZQO AN0noph7GestureY0V AN0nophF7WrapperV AA12_FrameLayoutV AA022_EnvironmentKeyWritingY0V AA011_BackgroundY0V AN0nophfE7WrapperV AA11_ClipEffectV AA07RoundedZ0V
++ _symbolic _____y_____yAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____y_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo__Qo_SgAAyAAyA18_ANGAVGGG_Qo__AEyAGyAISgAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA27_A28_AGyAGyAHy_____yA29__AAyA29_AJy_____GGQo_A5_GAHyA4_A2_GGAGyAHyA29_A5_GAHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAKGGSg_Qo__Qo_ANG_____GtGGGA60_GA11_ySdGG_Qo_ 7SwiftUI4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA15ModifiedContentV AD11SmartDialogV AA4TextV AA6VStackV AA05TupleC0V AcDE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AcDEAeFQryAHc_tFQO AA012_ConditionalK0V 010SiriSharedB00wx7UISmartM18ContextMenuBuilderV AD06PluginC0V AA01_K17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_S6LayoutV AcAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexS6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Z0CtFZQO AZ0wxyM15GestureModifierV AA05EmptyC0V AcAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AHSbtFQO AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE09draggableK0yQrqd__SglFQO AcDE010selectableK0yQrA53_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AcDEA50__A51_QrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AcDE18snippetAttributionQryFQO AcDE08overrideD15VerticalPaddingyQrAD014CustomVerticalD7PaddingOFQO AcDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AcDE05smartM10AnimatableQryFQO AcDEA50__A51_QrSb_qd__xXEtAaBRd__lFQO AA9RectangleV AZ0wxymD7WrapperV AA19_BackgroundModifierV AZ0wxymdC7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV
++ _symbolic _____y_____yAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo_ 7SwiftUI4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalI0V 010SiriSharedB00no7UISmartF18ContextMenuBuilderV AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AA01_I17ShapeKindModifierV AA9RectangleV AA05EmptyC0V AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Q0CtFZQO AN0nopf7GestureY0V AN0nopfD7WrapperV AA12_FrameLayoutV AA022_EnvironmentKeyWritingY0V AA011_BackgroundY0V AN0nopfdC7WrapperV
++ _symbolic _____y_____yAAy_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGGABy_____y_____y_____y_____y______SSQo__SSQo__ACyA6______y_____SgGGQo__Qo_SgACyACyA14_AIGAQGGG_Qo_ 7SwiftUI4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA19_ConditionalContentV 010SiriSharedB00lM31UISmartDialogContextMenuBuilderV AA08ModifiedK0V AD06PluginC0V AA01_K17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA12_FrameLayoutV AcAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA7ForEachV AK24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0P0CtFZQO AK0lmno7GestureW0V AA05EmptyC0V AcAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AHSbtFQO AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE09draggableK0yQrqd__SglFQO AcDE010selectableK0yQrA40_lFQO AA4TextV AA022_EnvironmentKeyWritingW0V AA4FontV
++ _symbolic _____y_____yAAy_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGGABy_____y_____y_____y_____y______SSQo__SSQo__ACyA6______y_____SgGGQo__Qo_SgACyACyA14_AIGAQGGG_Qo_______yAAyADSgAUySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA26__Qo_Qo_SgSgGGSgGSgt 7SwiftUI4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA19_ConditionalContentV 010SiriSharedB00lM31UISmartDialogContextMenuBuilderV AA08ModifiedK0V AD06PluginC0V AA01_K17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA12_FrameLayoutV AcAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA7ForEachV AK24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0P0CtFZQO AK0lmno7GestureW0V AA05EmptyC0V AcAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AHSbtFQO AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE09draggableK0yQrqd__SglFQO AcDE010selectableK0yQrA40_lFQO AA4TextV AA022_EnvironmentKeyWritingW0V AA4FontV AA6VStackV AcDEA37__A38_QrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AcDE18snippetAttributionQryFQO
++ _symbolic _____y_____yAAy_____y_____y_____yAAyAAyAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G_____yAAyAAyAAyAK_____G_____G_____y_____AXSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_APGGAZG 7SwiftUI15ModifiedContentV AA16ScrollViewReaderV AA0F0PAAE14scrollDisabledyQrSbFQO AgAE0H10Indicators_4axesQrAA0E19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0eF0V AA6HStackV AA7ForEachV 010SiriSharedB00st16UIAutoscrollTextF0V012IdentifiableF0V 10Foundation4UUIDV AA03AnyF0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____yAByAByABy__________G_____G_____G_____y_____AKSQ12CoreGraphicsyHCg_GGG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA7AnyViewV AA14_PaddingLayoutV AA010_FixedSizeJ0V AA07_HiddenD0V AA015_GeometryActionD0V So6CGSizeV
++ _symbolic _____y_____yAByABy_____y_____ySay_____G_____ABy__________GGG_____G_____G_____yAByAByAByAJ_____G_____G_____y_____AWSQ12CoreGraphicsyHCg_GGGGG 7SwiftUI10ScrollViewV AA15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00jk16UIAutoscrollTextD0V012IdentifiableD0V 10Foundation4UUIDV AA03AnyD0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA011_BackgroundX0V AA010_FixedSizeS0V AA07_HiddenX0V AA09_GeometrywX0V So6CGSizeV
++ _symbolic _____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAEy_____AByAByAByAByAByAByABy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG 7SwiftUI6ButtonV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingQ0V AA14_OpacityEffectV AA07_ShadowT0V AA9RectangleV AA016_ForegroundStyleN0V AA017HierarchicalShapeX0V AA023AccessibilityAttachmentN0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextH0V AA4TextV AA010_BlendModeT0V AA07_OffsetT0V AA4FontV AA05_BlurT0V
++ _symbolic _____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAGy_____y_____y___________yAI_____y_____GGQo______GAHyAJy_____y_Qo______GARGGAGyAHyAiPGAHyAJy__________GAPGGGSgSgGG 7SwiftUI6VStackV AA7ForEachV AA19_ConditionalContentV 010SiriSharedB00hI31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaKRd__lFQO AA03AnyO0V AA08ModifiedG0V AA01_G17ShapeKindModifierV AA9RectangleV AA05EmptyO0V AM22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0L0CtFZQO AH0hijk7GestureW0V AH0hijkP7WrapperV AA12_FrameLayoutV
++ _symbolic _____y_____ySay_____G__________y__________GGG 7SwiftUI6HStackV AA7ForEachV 010SiriSharedB00fG20UIAutoscrollTextViewV012IdentifiableJ0V 10Foundation4UUIDV AA15ModifiedContentV AA03AnyJ0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____G______y_____GQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AA01_C16Modifier_ContentV 010SiriSharedB00jk13UISmartDialogeH0V AA06_EndedE0V AA03TapE0V
++ _symbolic _____y_____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAJ_Qo_Qo_SgSgGGSgG 7SwiftUI6VStackV AA19_ConditionalContentV 07SnippetB010PluginViewV AA7ForEachV AA0H0PAFE2if_9transformQrSb_qd__xXEtAaKRd__lFQO AA03AnyH0V AlFE18snippetAttributionQryFQO
++ _symbolic _____y_____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAJ_Qo_Qo_SgSgGGSgGSg 7SwiftUI6VStackV AA19_ConditionalContentV 07SnippetB010PluginViewV AA7ForEachV AA0H0PAFE2if_9transformQrSb_qd__xXEtAaKRd__lFQO AA03AnyH0V AlFE18snippetAttributionQryFQO
++ _symbolic _____y_____y_____Sg_____y_____yAAy_____yAEyAFy_____y_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo__Qo_SgAAyAAyA18_ANGAVGGG_Qo__AEyAGyAISgAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA29__Qo_Qo_SgSgGGSgGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA27_A28_AGyAGyAHy_____yA29__AAyA29_AJy_____GGQo_A5_GAHyA4_A2_GGAGyAHyA29_A5_GAHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______yAKGGSg_Qo__Qo_ANG_____GtGGGA60_G 7SwiftUI15ModifiedContentV 07SnippetB011SmartDialogV AA4TextV AA6VStackV AA9TupleViewV AA0K0PADE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AnDE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalD0V 010SiriSharedB00wx7UISmartG18ContextMenuBuilderV AD06PluginK0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_N6LayoutV AnAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexN6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Z0CtFZQO AZ0wxyG15GestureModifierV AA05EmptyK0V AnAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_AWSbtFQO AnDE2if_9transformQrSb_qd__xXEtAaMRd__lFQO AnDE09draggableD0yQrqd__SglFQO AnDE010selectableD0yQrA53_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AnDEA50__A51_QrSb_qd__xXEtAaMRd__lFQO AA03AnyK0V AnDE18snippetAttributionQryFQO AnDE08overrideE15VerticalPaddingyQrAD014CustomVerticalE7PaddingOFQO AnDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AnDE05smartG10AnimatableQryFQO AnDEA50__A51_QrSb_qd__xXEtAaMRd__lFQO AA9RectangleV AZ0wxygE7WrapperV AA19_BackgroundModifierV AZ0wxygeK7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV
++ _symbolic _____y_____y___________yAB_____y_____GGQo______G 12SiriSharedUI0aB31UISmartDialogContextMenuBuilderV 05SwiftC04ViewP07SnippetC0E2if_9transformQrSb_qd__xXEtAdERd__lFQO AD03AnyJ0V AD15ModifiedContentV AD01_P17ShapeKindModifierV AD9RectangleV AD05EmptyJ0V
++ _symbolic _____y_____y___________y_____y_____yADy_____y_____y_____yADyADyADy_____y_____ySay_____G_____ADyAC_____GGG_____G_____G_____yADyADyADyAM_____G_____G_____y_____AZSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_ARGGA0_G_Qo_tGG 7SwiftUI12ViewThatFitsV AA05TupleC0V AA03AnyC0V AA0C0PAAE12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_AA5ImageVSbtFQO AA15ModifiedContentV AA06ScrollC6ReaderV AiAE14scrollDisabledyQrSbFQO AiAE0V10Indicators_4axesQrAA0T19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0tC0V AA6HStackV AA7ForEachV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V012IdentifiableC0V 10Foundation4UUIDV AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y__________y_____GG_____yAByAByAByAC_____GAIG_____GABy_____yAByAJ_____G_Qo______GGG 12SiriSharedUI0aB31UISmartDialogContextMenuBuilderV 05SwiftC015ModifiedContentV 07SnippetC010PluginViewV AD01_K17ShapeKindModifierV AD16RoundedRectangleV AD012_ConditionalK0V AD14_PaddingLayoutV AD06_FrameV0V AD0N0PADE017containerRelativeW0_9alignmentQrAD4AxisO3SetV_AD9AlignmentVtFQO AD012_AspectRatioV0V AD05_FlexwV0V
++ _symbolic _____y_____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo_ 7SwiftUI4ViewP07SnippetB0E34overrideComponentHorizontalPaddingyQrAD06CustomgfH0OFQO AA15ModifiedContentV AcDE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalK0V 010SiriSharedB00st7UISmartM18ContextMenuBuilderV AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AA03AnyC0V AA01_K17ShapeKindModifierV AA9RectangleV AA05EmptyC0V AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0V0CtFZQO AQ0stuM15GestureModifierV AQ0stumD7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AQ0stumdC7WrapperV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____y_____yAAy_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E08overrideF15VerticalPaddingyQrAF06CustomhfI0OFQO AeFE0g19ComponentHorizontalI0yQrAF0jlkI0OFQO AeFE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00tu7UISmartN18ContextMenuBuilderV AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0W0CtFZQO AT0tuvN15GestureModifierV AT0tuvnF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AT0tuvnfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV AA01_I6LayoutV
++ _symbolic _____y_____y_____yAAy_____y_____y_____yAAyAAyAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G_____yAAyAAyAAyAK_____G_____G_____y_____AXSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_APGGAZG_Qo_ 7SwiftUI4ViewPAAE12variableBlur9maxRadius4mask6opaqueQr12CoreGraphics7CGFloatV_AA5ImageVSbtFQO AA15ModifiedContentV AA06ScrollC6ReaderV AcAE14scrollDisabledyQrSbFQO AcAE0R10Indicators_4axesQrAA0P19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0pC0V AA6HStackV AA7ForEachV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V012IdentifiableC0V 10Foundation4UUIDV AA03AnyC0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y_____yAByABy_____y_____ySay_____G_____ABy__________GGG_____G_____G_____yAByAByAByAJ_____G_____G_____y_____AWSQ12CoreGraphicsyHCg_GGGGG_Qo_ 7SwiftUI4ViewPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0gC0V AA15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00qr16UIAutoscrollTextC0V012IdentifiableC0V 10Foundation4UUIDV AA03AnyC0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA010_FixedSizeZ0V AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAEy_____AByAByAByAByAByAByABy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQO AA0F0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalH0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingS0V AA14_OpacityEffectV AA07_ShadowV0V AA9RectangleV AA011_ForegroundeP0V AA017HierarchicalShapeE0V AA023AccessibilityAttachmentP0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V AA4TextV AA010_BlendModeV0V AA07_OffsetV0V AA4FontV AA05_BlurV0V A12_011SuggestionsF13ConfigurationV
++ _symbolic _____y_____y_____yACy_____yADyADyADyADy__________y_____SgGG_____G_____G_____G_____GADyADyADyADyAeKGAMGAOGAQGGADyADyADyADy__________y_____GG_____GAKGAMGG_ADy_____AKGACy_____ADyADyADyADyADyADyADy_____AFySiSgGGAFySbGGA_G_____GAMGAOG_____GGtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextE0V AA4TextV AA010_BlendModeS0V AA07_OffsetS0V
++ _symbolic _____y_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y_____y______AAyAJ_____y_____GGQo______GAIyAAy_____y_Qo______GARGGAHyAIyAjPGAIyAAy__________GAPGGGSgSgGG_____ySbGG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00iJ31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaMRd__lFQO AA03AnyP0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyP0V AO22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AO0M0CtFZQO AJ0ijkl7GestureW0V AJ0ijklQ7WrapperV AA12_FrameLayoutV AA022_EnvironmentKeyWritingW0V
++ _symbolic _____y_____y_____ySay_____G_____AAy__________GGG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00hI20UIAutoscrollTextViewV012IdentifiableL0V 10Foundation4UUIDV AA03AnyL0V AA14_PaddingLayoutV AA13_OffsetEffectV
++ _symbolic _____y_____y_____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAK_Qo_Qo_SgSgGGSgG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB010PluginViewV AA7ForEachV AA0I0PAHE2if_9transformQrSb_qd__xXEtAaMRd__lFQO AA03AnyI0V AnHE18snippetAttributionQryFQO AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y___________yAC_____y_____GGQo______GAByADy_____y_Qo______GALGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaGRd__lFQO AA03AnyL0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyL0V AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureT0V
++ _symbolic _____y_____y_____y___________yAC_____y_____GGQo______GAByADy_____y_Qo______GALG_G 7SwiftUI19_ConditionalContentV7StorageO 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaIRd__lFQO AA03AnyM0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyM0V AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureU0V
++ _symbolic _____y_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA06_FrameV0V AA0O0PAAE017containerRelativeW0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioV0V AA05_FlexwV0V AA7ForEachV AD24IndentifiableCardSectionV 10Foundation4UUIDV AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureR0V AA05EmptyO0V
++ _symbolic _____y_____y_____y__________y_____GG_____yACyACyACyAD_____GAJG_____GACy_____yACyAK_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GG_G 7SwiftUI19_ConditionalContentV7StorageO 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV AC AA14_PaddingLayoutV AA06_FrameW0V AA0P0PAAE017containerRelativeX0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioW0V AA05_FlexxW0V AA7ForEachV AF24IndentifiableCardSectionV 10Foundation4UUIDV AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureS0V AA05EmptyP0V
++ _symbolic _____y_____y_____y_____yAAyAAyAAy_____y_____ySay_____G_____AAy__________GGG_____G_____G_____yAAyAAyAAyAJ_____G_____G_____y_____AWSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_AOG 7SwiftUI15ModifiedContentV AA4ViewPAAE14scrollDisabledyQrSbFQO AeAE0F10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0jE0V AA6HStackV AA7ForEachV 010SiriSharedB00rs16UIAutoscrollTextE0V012IdentifiableE0V 10Foundation4UUIDV AA03AnyE0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y_____y_____yAAyABy_____y_____yADy_____yACy__________y_____GGADyACyACyACyAF_____GAKG_____GACy_____yACyAL_____G_Qo______GGG_____ySay_____G_____AEyACy_____y_Qo______G_____GGGAEy_____y_____y_____y_____y______SSQo__SSQo__ACyA8______y_____SgGGQo__Qo_SgACyACyA16_AKGASGGG_Qo__AAyADyAFSgAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA27__Qo_Qo_SgSgGGSgGSgtGG_Qo_AKG_ACyACy_____y_____yACy_____yACyACyAAyAWyA25_A26_ADyADyAEy_____yA27__ACyA27_AGy_____GGQo_A2_GAEyA1_A_GGADyAEyA27_A2_GAEyACy_____ANGA2_GGGSgSgGGA9_ySbGG_____y_____SgGG_Qo______yAHGGSg_Qo__Qo_AKG_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0P07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AiJE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalG0V 010SiriSharedB00tU31UISmartDialogContextMenuBuilderV AJ06PluginE0V AA01_G17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_K6LayoutV AiAE017containerRelativeK0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexK6LayoutV AA7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AJ22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AJ0X0CtFZQO AV0tuvW15GestureModifierV AA05EmptyE0V AiAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_ASSbtFQO AiJE2if_9transformQrSb_qd__xXEtAaHRd__lFQO AiJE09draggableG0yQrqd__SglFQO AiJE010selectableG0yQrA49_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AiJEA46__A47_QrSb_qd__xXEtAaHRd__lFQO AA03AnyE0V AiJE18snippetAttributionQryFQO AiJE08overrideH15VerticalPaddingyQrAJ014CustomVerticalH7PaddingOFQO AiJE34overrideComponentHorizontalPaddingyQrAJ32CustomHorizontalComponentPaddingOFQO AiJE05smartW10AnimatableQryFQO AiJEA46__A47_QrSb_qd__xXEtAaHRd__lFQO AA9RectangleV AV0tuvwH7WrapperV AA19_BackgroundModifierV AV0tuvwhE7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV
++ _symbolic _____y_____y_____y_____yAByABy_____y_____ySay_____G_____ABy__________GGG_____G_____G_____yAByAByAByAJ_____G_____G_____y_____AWSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_ 7SwiftUI4ViewPAAE14scrollDisabledyQrSbFQO AcAE0D10Indicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQO AA0hC0V AA15ModifiedContentV AA6HStackV AA7ForEachV 010SiriSharedB00rs16UIAutoscrollTextC0V012IdentifiableC0V 10Foundation4UUIDV AA03AnyC0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAEy_____AByAByAByAByAByAByABy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE11buttonStyleyQrqd__AA06ButtonI0Rd__lFQO AA0J0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalL0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingW0V AA14_OpacityEffectV AA07_ShadowZ0V AA9RectangleV AA011_ForegroundiT0V AA017HierarchicalShapeI0V AA023AccessibilityAttachmentT0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V AA4TextV AA010_BlendModeZ0V AA07_OffsetZ0V AA4FontV AA05_BlurZ0V A15_011SuggestionsJ13ConfigurationV 18SiriSuggestionsKitASO
++ _symbolic _____y_____y_____y_____yACy_____y_____y__________y_____GGACyAEyAEyAEyAF_____GAKG_____GAEy_____yAEyAL_____G_Qo______GGG_____ySay_____G_____ADyAEy_____y_Qo______G_____GGGADy_____y_____y_____y_____y______SSQo__SSQo__AEyA8______y_____SgGGQo__Qo_SgAEyAEyA16_AKGASGGG_Qo__AAyACyAFSgAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA27__Qo_Qo_SgSgGGSgGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA0E0P07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA19_ConditionalContentV 010SiriSharedB00nO31UISmartDialogContextMenuBuilderV AA08ModifiedM0V AH06PluginE0V AA01_M17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA12_FrameLayoutV AgAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA16_FlexFrameLayoutV AA7ForEachV AO24IndentifiableCardSectionV 10Foundation4UUIDV AH22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AH0R0CtFZQO AO0nopq7GestureY0V AA05EmptyE0V AgAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_ALSbtFQO AgHE2if_9transformQrSb_qd__xXEtAaFRd__lFQO AgHE09draggableM0yQrqd__SglFQO AgHE010selectableM0yQrA44_lFQO AA4TextV AA022_EnvironmentKeyWritingY0V AA4FontV AgHEA41__A42_QrSb_qd__xXEtAaFRd__lFQO AA03AnyE0V AgHE18snippetAttributionQryFQO
++ _symbolic _____y_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGADy_____AAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFySbGGA_G_____GAMGAOG_____GGtGGAFy_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextG0V AA4TextV AA010_BlendModeS0V AA07_OffsetS0V AA4FontV
++ _symbolic _____y_____y_____y_____y_____Sg_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yAL_Qo_Qo_SgSgGGSgG_____GG 12SiriSharedUI26AssistantHostingControllerC 05SwiftC015ModifiedContentV AD6VStackV AD012_ConditionalI0V 07SnippetC010PluginViewV AD7ForEachV AD0N0PAKE2if_9transformQrSb_qd__xXEtAdPRd__lFQO AD03AnyN0V AqKE18snippetAttributionQryFQO AD14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y______SSQo__SSQo_______yAC_____y_____SgGGQo__Qo_ 7SwiftUI4ViewPAAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_So6CGSizeVSbtFQO AC07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcLE16draggableContentyQrqd__SglFQO AcLE010selectableS0yQrAPlFQO AA4TextV AA08ModifiedS0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y_____y_____y___________yAD_____y_____GGQo______GACyAEy_____y_Qo______GAMGGAByACyAdKGACyAEy__________GAKGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaIRd__lFQO AA03AnyM0V AA08ModifiedD0V AA01_D17ShapeKindModifierV AA9RectangleV AA05EmptyM0V AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureU0V AF0fghiN7WrapperV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____y__________y_____GGAByADyADyADyAE_____GAJG_____GADy_____yADyAK_____G_Qo______GGG_____ySay_____G_____ACyADy_____y_Qo______G_____GGGACy_____y_____y_____y_____y______SSQo__SSQo__ADyA7______y_____SgGGQo__Qo_SgADyADyA15_AJGARGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA06_FrameW0V AA0P0PAAE017containerRelativeX0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioW0V AA05_FlexxW0V AA7ForEachV AF24IndentifiableCardSectionV 10Foundation4UUIDV AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureS0V AA05EmptyP0V AwAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_So6CGSizeVSbtFQO AwKE2if_9transformQrSb_qd__xXEtAaVRd__lFQO AwKE09draggableD0yQrqd__SglFQO AwKE010selectableD0yQrA40_lFQO AA4TextV AA022_EnvironmentKeyWritingS0V AA4FontV
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAy_____y_____y_____yAEyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAfLGANGAPGARGGAAyAAyAAyAAy__________y_____GG_____GALGANGG_AAy_____ALGAEy_____AAyAAyAAyAAyAAyAAyAAy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_______Qo_A2_G 7SwiftUI15ModifiedContentV AA4ViewPAAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lFQO AeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAE11buttonStyleyQrqd__AA06ButtonO0Rd__lFQO AA0P0V AA6HStackV AA05TupleE0V AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA14_PaddingLayoutV AA14_OpacityEffectV AA13_ShadowEffectV AA9RectangleV AA011_ForegroundoX0V AA017HierarchicalShapeO0V AA023AccessibilityAttachmentX0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextE0V AA4TextV AA16_BlendModeEffectV AA13_OffsetEffectV AA4FontV AA11_BlurEffectV A17_011SuggestionsP13ConfigurationV 18SiriSuggestionsKitAUO A17_28SimultaneousLongPressGestureV
++ _symbolic _____y_____y_____y_____y_____yAByAByABy_____y_____ySay_____G_____ABy__________GGG_____G_____G_____yAByAByAByAK_____G_____G_____y_____AXSQ12CoreGraphicsyHCg_GGGGG_Qo__Qo_APGG 7SwiftUI16ScrollViewReaderV AA15ModifiedContentV AA0D0PAAE14scrollDisabledyQrSbFQO AgAE0H10Indicators_4axesQrAA0C19IndicatorVisibilityV_AA4AxisO3SetVtFQO AA0cD0V AA6HStackV AA7ForEachV 010SiriSharedB00st16UIAutoscrollTextD0V012IdentifiableD0V 10Foundation4UUIDV AA03AnyD0V AA14_PaddingLayoutV AA13_OffsetEffectV AA25_AppearanceActionModifierV AA19_BackgroundModifierV AA16_FixedSizeLayoutV AA15_HiddenModifierV AA23_GeometryActionModifierV So6CGSizeV
++ _symbolic _____y_____y_____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAEy_____AByAByAByAByAByAByABy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_______Qo_ 7SwiftUI4ViewPAAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lFQO AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE11buttonStyleyQrqd__AA06ButtonM0Rd__lFQO AA0N0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalP0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA14_PaddingLayoutV AA14_OpacityEffectV AA13_ShadowEffectV AA9RectangleV AA011_ForegroundmX0V AA017HierarchicalShapeM0V AA023AccessibilityAttachmentX0V AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V AA4TextV AA16_BlendModeEffectV AA13_OffsetEffectV AA4FontV AA11_BlurEffectV A17_011SuggestionsN13ConfigurationV 18SiriSuggestionsKitAUO A17_28SimultaneousLongPressGestureV
++ _symbolic _____y_____y_____y_____y_____y______SSQo__SSQo__AAyAD_____y_____SgGGQo__Qo_Sg_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_So6CGSizeVSbtFQO AE07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeNE09draggableD0yQrqd__SglFQO AeNE010selectableD0yQrARlFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____y______SSQo__SSQo_______yAD_____y_____SgGGQo__Qo_SgAEyAEyAM_____G_____GG 12SiriSharedUI0aB31UISmartDialogContextMenuBuilderV 05SwiftC04ViewPADE15textWrappingTop19horizontalAlignment4size9isEnabledQrAD14HorizontalEdgeO_So6CGSizeVSbtFQO AF07SnippetC0E2if_9transformQrSb_qd__xXEtAdERd__lFQO AfOE16draggableContentyQrqd__SglFQO AfOE010selectableZ0yQrASlFQO AD4TextV AD08ModifiedZ0V AD30_EnvironmentKeyWritingModifierV AD4FontV AD14_PaddingLayoutV AD16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____yAAyAAyAAy_____y_____y_____yAEyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAfLGANGAPGARGGAAyAAyAAyAAy__________y_____GG_____GALGANGG_AAy_____ALGAEy_____AAyAAyAAyAAyAAyAAyAAy_____AGySiSgGGAGySbGGA0_G_____GANGAPG_____GGtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_______Qo_A2_G_AByACyADyA10__AFtGGGQo_ 7SwiftUI4ViewPAAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQO AA15ModifiedContentV AcAE7gestureyQrqd__AA32UIGestureRecognizerRepresentableRd__lFQO AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE11buttonStyleyQrqd__AA06ButtonS0Rd__lFQO AA0T0V AA6HStackV AA05TupleC0V AA012_ConditionalI0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA14_PaddingLayoutV AA14_OpacityEffectV AA13_ShadowEffectV AA9RectangleV AA011_ForegroundS8ModifierV AA017HierarchicalShapeS0V AA31AccessibilityAttachmentModifierV AA6SpacerV 010SiriSharedB0026SiriSharedUIAutoscrollTextC0V AA4TextV AA16_BlendModeEffectV AA13_OffsetEffectV AA4FontV AA11_BlurEffectV A19_011SuggestionsT13ConfigurationV 18SiriSuggestionsKitAWO A19_28SimultaneousLongPressGestureV
++ _symbolic _____y_____y_____y_____y_____y_____yADy_____yAAy__________y_____GGADyAAyAAyAAyAF_____GAKG_____GAAy_____yAAyAL_____G_Qo______GGG_____ySay_____G_____AEyAAy_____y_Qo______G_____GGGAEy_____y_____y_____y_____y______SSQo__SSQo__AAyA8______y_____SgGGQo__Qo_SgAAyAAyA16_AKGASGGG_Qo__AByADyAFSgAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA27__Qo_Qo_SgSgGGSgGSgtGG_Qo_AKG 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA6VStackV AA05TupleE0V AeFE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalD0V 010SiriSharedB00tU31UISmartDialogContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_I6LayoutV AeAE017containerRelativeI0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexI6LayoutV AA7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0X0CtFZQO AV0tuvW15GestureModifierV AA05EmptyE0V AeAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_ASSbtFQO AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA49_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AeFEA46__A47_QrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AeFE18snippetAttributionQryFQO
++ _symbolic _____y_____y_____y_____y_____y_____yADy_____yAAy__________y_____GGADyAAyAAyAAyAF_____GAKG_____GAAy_____yAAyAL_____G_Qo______GGG_____ySay_____G_____AEyAAy_____y_Qo______G_____GGGAEy_____y_____y_____y_____y______SSQo__SSQo__AAyA8______y_____SgGGQo__Qo_SgAAyAAyA16_AKGASGGG_Qo__AByADyAFSgAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y___________yA27__Qo_Qo_SgSgGGSgGSgtGG_Qo_AKG_AAyAAy_____y_____yAAy_____yAAyAAyAByAWyA25_A26_ADyADyAEy_____yA27__AAyA27_AGy_____GGQo_A2_GAEyA1_A_GGADyAEyA27_A2_GAEyAAy_____ANGA2_GGGSgSgGGA9_ySbGG_____y_____SgGG_Qo______yAHGGSg_Qo__Qo_AKG_____Gt 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA6VStackV AA05TupleE0V AeFE8readSize8onChangeQrySo6CGSizeVc_tFQO AA012_ConditionalD0V 010SiriSharedB00tU31UISmartDialogContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_I6LayoutV AeAE017containerRelativeI0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexI6LayoutV AA7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0X0CtFZQO AV0tuvW15GestureModifierV AA05EmptyE0V AeAE15textWrappingTop19horizontalAlignment4size9isEnabledQrAA14HorizontalEdgeO_ASSbtFQO AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA49_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AeFEA46__A47_QrSb_qd__xXEtAaDRd__lFQO AA03AnyE0V AeFE18snippetAttributionQryFQO AeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQO AeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQO AeFE05smartW10AnimatableQryFQO AeFEA46__A47_QrSb_qd__xXEtAaDRd__lFQO AA9RectangleV AV0tuvwF7WrapperV AA19_BackgroundModifierV AV0tuvwfE7WrapperV AA11_ClipEffectV AA20_LayoutScaleModifierV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic ySbcSg
++ _symbolic ySo38SiriSharedUISuggestionExecutionWrapperC_SitcSg
++ _symbolic ySo8NSStringC_ABSitcSg
++ _symbolic y_____cSg So7CGPointV
++ _type_layout_string 12SiriSharedUI0aB20UIAutoscrollTextViewV
++ _type_layout_string 12SiriSharedUI0aB28UISmartDialogGestureModifierV
++ _type_layout_string 12SiriSharedUI28SimultaneousLongPressGestureV
+- -[SiriSharedUISAEViewState _setSmartDialogPlugin:]
+- -[SiriSharedUISmartDialogView setSmartDialogPlugin:]
+- -[SiriSharedUISuggestionsViewInterface fetchAutoCompletionSuggestionsViewsWithQuery:deviceLocked:completion:]
+- -[SiriSharedUISuggestionsViewInterface fetchContinuerSuggestionsViewsWithRequestId:currentMode:deviceLocked:completion:]
+- -[SiriSharedUISuggestionsViewInterface fetchConversationContinuerViewsWithRequestId:currentMode:deviceLocked:completion:]
+- -[SiriSharedUISuggestionsViewInterface fetchConversationStarterViewsWithDeviceLocked:isVoiceTrigger:invocationSource:completion:]
+- -[SiriSharedUISuggestionsViewInterface fetchConversationStarterViewsWithDeviceLocked:isVoiceTrigger:invocationSource:isFirstInvocationSinceOSInstalled:completion:]
+- -[SiriSharedUISuggestionsViewInterface initWithPressDownHandler:pressUpHandler:]
+- -[SiriSharedUISuggestionsViewInterface initWithTapHandler:]
+- -[SiriSharedUISystemAssistantExperienceView .cxx_destruct]
+- -[SiriSharedUISystemAssistantExperienceView _addContentViewsToViewStackContainer]
+- -[SiriSharedUISystemAssistantExperienceView _analytics]
+- -[SiriSharedUISystemAssistantExperienceView _animatedPresentationType]
+- -[SiriSharedUISystemAssistantExperienceView _clearAppIconView]
+- -[SiriSharedUISystemAssistantExperienceView _clearTransitionalContentViewFrameSnapshots]
+- -[SiriSharedUISystemAssistantExperienceView _handleSuggestionContentSizeUpdate]
+- -[SiriSharedUISystemAssistantExperienceView _hideContinuerSuggestionsViewIfNeeded]
+- -[SiriSharedUISystemAssistantExperienceView _hideStarterSuggestionsViewIfNeeded]
+- -[SiriSharedUISystemAssistantExperienceView _instrumentationManager]
+- -[SiriSharedUISystemAssistantExperienceView _removeContentViewsFromViewStackContainer]
+- -[SiriSharedUISystemAssistantExperienceView _setTransitionalContentViewFrames:]
+- -[SiriSharedUISystemAssistantExperienceView _setUpSuggestionsView]
+- -[SiriSharedUISystemAssistantExperienceView _smartDialogViewAttachmentType]
+- -[SiriSharedUISystemAssistantExperienceView _snapshotContentViewFramesForTransition]
+- -[SiriSharedUISystemAssistantExperienceView _textRequestViewVisibilityDidChange]
+- -[SiriSharedUISystemAssistantExperienceView _transitionalContentViewFrames]
+- -[SiriSharedUISystemAssistantExperienceView _updateBottomPaddingAnimatedWithContext:]
+- -[SiriSharedUISystemAssistantExperienceView _updateBottomPaddingAnimatedWithContext:alongsideAnimations:]
+- -[SiriSharedUISystemAssistantExperienceView _updateBottomPadding]
+- -[SiriSharedUISystemAssistantExperienceView _updateExpansionConstraints:]
+- -[SiriSharedUISystemAssistantExperienceView additionalContentSnippetViews]
+- -[SiriSharedUISystemAssistantExperienceView additionalContentViews]
+- -[SiriSharedUISystemAssistantExperienceView alwaysShowRecognizedSpeech]
+- -[SiriSharedUISystemAssistantExperienceView animateForDrillIn]
+- -[SiriSharedUISystemAssistantExperienceView bottomContentInset]
+- -[SiriSharedUISystemAssistantExperienceView cancelStarterSuggestionsViewIfNeededForUserInput]
+- -[SiriSharedUISystemAssistantExperienceView configureAmbientAppIconForBundleIdentifier:]
+- -[SiriSharedUISystemAssistantExperienceView contentDidUpdate:]
+- -[SiriSharedUISystemAssistantExperienceView contentDidUpdateForAdditionalContentView:]
+- -[SiriSharedUISystemAssistantExperienceView conversationSnippetViews]
+- -[SiriSharedUISystemAssistantExperienceView conversationView:didUpdateHeightDuringExpansionTransition:didCompleteGesture:]
+- -[SiriSharedUISystemAssistantExperienceView conversationView:viewDidAppearForAceObject:]
+- -[SiriSharedUISystemAssistantExperienceView conversationView:viewDidDisappearForAceObject:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewContentScrolled:toContentOffset:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewContentSize]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewDidBeginExpandTransition:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewDidResetExpandedState:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewDidTransitionToCollapsedState:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewDidTransitionToExpandedState:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewDidUpdatePresentedContentHeight:]
+- -[SiriSharedUISystemAssistantExperienceView conversationViewShouldAlwaysShowSpeechFeedback:]
+- -[SiriSharedUISystemAssistantExperienceView conversationView]
+- -[SiriSharedUISystemAssistantExperienceView delegate]
+- -[SiriSharedUISystemAssistantExperienceView deviceStateLocked]
+- -[SiriSharedUISystemAssistantExperienceView didMoveToWindow]
+- -[SiriSharedUISystemAssistantExperienceView effectiveBottomContentInset]
+- -[SiriSharedUISystemAssistantExperienceView enableSuggestionsView:]
+- -[SiriSharedUISystemAssistantExperienceView expectedExpandedHeightForConversationView:]
+- -[SiriSharedUISystemAssistantExperienceView filterSuggestionsWithText:]
+- -[SiriSharedUISystemAssistantExperienceView hasContentAtPoint:]
+- -[SiriSharedUISystemAssistantExperienceView hidesTextRequestView]
+- -[SiriSharedUISystemAssistantExperienceView initWithFrame:backgroundBlurView:navigationView:smartDialogView:additionalContentViews:textRequestView:viewStackContainer:]
+- -[SiriSharedUISystemAssistantExperienceView initWithFrame:backgroundBlurView:navigationView:smartDialogView:textRequestView:viewStackContainer:]
+- -[SiriSharedUISystemAssistantExperienceView isInAmbientInteractivity]
+- -[SiriSharedUISystemAssistantExperienceView isInAmbient]
+- -[SiriSharedUISystemAssistantExperienceView isKeyboardShowing]
+- -[SiriSharedUISystemAssistantExperienceView latencyViewModel]
+- -[SiriSharedUISystemAssistantExperienceView layoutSubviews]
+- -[SiriSharedUISystemAssistantExperienceView maximumHeightForConversationView:]
+- -[SiriSharedUISystemAssistantExperienceView parserSpeakableObjectProviderForConversationView:]
+- -[SiriSharedUISystemAssistantExperienceView prepareForUpdatesWithDiff:updateBlock:]
+- -[SiriSharedUISystemAssistantExperienceView scrollViewDidEndDecelerating:]
+- -[SiriSharedUISystemAssistantExperienceView scrollViewDidEndDragging:willDecelerate:]
+- -[SiriSharedUISystemAssistantExperienceView scrollViewWillBeginDragging:]
+- -[SiriSharedUISystemAssistantExperienceView serverUtterances]
+- -[SiriSharedUISystemAssistantExperienceView setAdditionalContentSnippetViews:]
+- -[SiriSharedUISystemAssistantExperienceView setAdditionalContentSnippetViews:].cold.1
+- -[SiriSharedUISystemAssistantExperienceView setBottomContentInset:]
+- -[SiriSharedUISystemAssistantExperienceView setBottomContentInset:animatedWithContext:]
+- -[SiriSharedUISystemAssistantExperienceView setConversationSnippetViews:]
+- -[SiriSharedUISystemAssistantExperienceView setDelegate:]
+- -[SiriSharedUISystemAssistantExperienceView setDeviceStateLocked:]
+- -[SiriSharedUISystemAssistantExperienceView setHidesTextRequestView:]
+- -[SiriSharedUISystemAssistantExperienceView setIsInAmbient:]
+- -[SiriSharedUISystemAssistantExperienceView setIsInAmbientInteractivity:]
+- -[SiriSharedUISystemAssistantExperienceView setIsKeyboardShowing:]
+- -[SiriSharedUISystemAssistantExperienceView setLatencyViewModel:]
+- -[SiriSharedUISystemAssistantExperienceView setServerUtterances:]
+- -[SiriSharedUISystemAssistantExperienceView setSmartDialogView:]
+- -[SiriSharedUISystemAssistantExperienceView setSpeechRecognitionHypothesis:]
+- -[SiriSharedUISystemAssistantExperienceView setUpConversationContinuerSuggestionsView:currentMode:]
+- -[SiriSharedUISystemAssistantExperienceView setUpConversationStarterSuggestionsView:]
+- -[SiriSharedUISystemAssistantExperienceView setUpConversationStarterSuggestionsView:invocationSource:]
+- -[SiriSharedUISystemAssistantExperienceView setUpConversationStarterSuggestionsView]
+- -[SiriSharedUISystemAssistantExperienceView showFullScreenEffect:]
+- -[SiriSharedUISystemAssistantExperienceView showStarterSuggestionsViewForTwoShot]
+- -[SiriSharedUISystemAssistantExperienceView sizeThatFits:]
+- -[SiriSharedUISystemAssistantExperienceView snippetLayoutDidUpdateForView:]
+- -[SiriSharedUISystemAssistantExperienceView snippetView]
+- -[SiriSharedUISystemAssistantExperienceView tapToEditRequestedFromView:]
+- -[SiriSharedUISystemAssistantExperienceView viewStackContainer]
+- GCC_except_table48
+- GCC_except_table53
+- GCC_except_table55
+- _CGSizeMake
+- _OBJC_CLASS_$_SiriSharedUISystemAssistantExperienceView
+- _OBJC_CLASS_$__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._additionalContentSnippetViews
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._additionalContentViews
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._appIconView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._bottomContentInset
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._continuersSuggestionsViewShown
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._conversationContinuerSuggestionsViewCreated
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._conversationExpansionConstraint
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._conversationSnippetViews
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._conversationStarterSuggestionsViewCreated
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._delegate
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._deviceStateLocked
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._fullScreenEffectContainerView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._hidesTextRequestView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._isInAmbient
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._isInAmbientInteractivity
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._isKeyboardShowing
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._latencyViewModel
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._reducedOrbOpacity
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._serverUtterances
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._shouldCancelConversationContinuers
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._shouldCancelConversationStarters
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._smartDialogView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._snippetView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._suggestionsView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._suggestionsViewController
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._suggestionsViewProvider
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._textRequestView
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._textRequestViewBottomConstraint
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._transitionalContentViewFrames
+- _OBJC_IVAR_$_SiriSharedUISystemAssistantExperienceView._viewStackContainer
+- _OBJC_METACLASS_$_SiriSharedUISystemAssistantExperienceView
+- _OBJC_METACLASS_$__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- __DATA__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- __INSTANCE_METHODS__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- __IVARS__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- __METACLASS_DATA__TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator
+- __OBJC_$_INSTANCE_METHODS_SiriSharedUISystemAssistantExperienceView
+- __OBJC_$_INSTANCE_VARIABLES_SiriSharedUISystemAssistantExperienceView
+- __OBJC_$_PROP_LIST_SiriSharedUISystemAssistantExperienceView
+- __OBJC_CLASS_PROTOCOLS_$_SiriSharedUISystemAssistantExperienceView
+- __OBJC_CLASS_RO_$_SiriSharedUISystemAssistantExperienceView
+- __OBJC_METACLASS_RO_$_SiriSharedUISystemAssistantExperienceView
+- __PROTOCOLS__TtC12SiriSharedUI19SiriSashImageLoader.6
+- ___102-[SiriSharedUISystemAssistantExperienceView setUpConversationStarterSuggestionsView:invocationSource:]_block_invoke
+- ___105-[SiriSharedUISystemAssistantExperienceView _updateBottomPaddingAnimatedWithContext:alongsideAnimations:]_block_invoke
+- ___105-[SiriSharedUISystemAssistantExperienceView _updateBottomPaddingAnimatedWithContext:alongsideAnimations:]_block_invoke_2
+- ___156-[SiriSharedUICompactConversationView prepareForUpdatesToServerUtterance:conversationSnippetViews:speechRecognitionHypothesis:latencyViewModel:updateBlock:]_block_invoke.11
+- ___50-[SiriSharedUISAEViewState _setSmartDialogPlugin:]_block_invoke
+- ___66-[SiriSharedUISystemAssistantExperienceView _setUpSuggestionsView]_block_invoke
+- ___78-[SiriSharedUISystemAssistantExperienceView setAdditionalContentSnippetViews:]_block_invoke
+- ___80-[SiriSharedUISystemAssistantExperienceView _textRequestViewVisibilityDidChange]_block_invoke
+- ___83-[SiriSharedUISystemAssistantExperienceView prepareForUpdatesWithDiff:updateBlock:]_block_invoke
+- ___99-[SiriSharedUISystemAssistantExperienceView setUpConversationContinuerSuggestionsView:currentMode:]_block_invoke
+- ___block_descriptor_40_e8_32w_e18_v16?0"NSString"8lw32l8
+- ___swift_destroy_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriSharedUI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriSharedUI
+- _block_copy_helper.10
+- _block_copy_helper.105
+- _block_copy_helper.113
+- _block_copy_helper.114
+- _block_copy_helper.120
+- _block_copy_helper.125
+- _block_copy_helper.137
+- _block_copy_helper.14
+- _block_copy_helper.20
+- _block_copy_helper.26
+- _block_copy_helper.32
+- _block_copy_helper.38
+- _block_copy_helper.44
+- _block_copy_helper.47
+- _block_copy_helper.51
+- _block_copy_helper.8
+- _block_copy_helper.98
+- _block_descriptor.10
+- _block_descriptor.100
+- _block_descriptor.107
+- _block_descriptor.115
+- _block_descriptor.116
+- _block_descriptor.12
+- _block_descriptor.122
+- _block_descriptor.127
+- _block_descriptor.139
+- _block_descriptor.16
+- _block_descriptor.22
+- _block_descriptor.28
+- _block_descriptor.34
+- _block_descriptor.40
+- _block_descriptor.46
+- _block_descriptor.49
+- _block_descriptor.53
+- _block_destroy_helper.106
+- _block_destroy_helper.11
+- _block_destroy_helper.114
+- _block_destroy_helper.115
+- _block_destroy_helper.121
+- _block_destroy_helper.126
+- _block_destroy_helper.138
+- _block_destroy_helper.15
+- _block_destroy_helper.21
+- _block_destroy_helper.27
+- _block_destroy_helper.33
+- _block_destroy_helper.39
+- _block_destroy_helper.45
+- _block_destroy_helper.48
+- _block_destroy_helper.52
+- _block_destroy_helper.9
+- _block_destroy_helper.99
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQOyACyACyAF11SmartDialogVyAA4TextVSgAA6VStackVyAA05TupleE0VyACyAeFE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQOyAQyASyAA012_ConditionalD0VyAZy010SiriSharedB00wx7UISmartM18ContextMenuBuilderVyACyAF06PluginE0VAA01_D17ShapeKindModifierVyAA16RoundedRectangleV6_InsetVGGAZyACyACyACyA3_AA14_PaddingLayoutVGA13_GAA01_S6LayoutVGACyAeAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQOyACyA14_AA18_AspectRatioLayoutVG_Qo_AA05_FlexS6LayoutVGGGAA7ForEachVySayA_24IndentifiableCardSectionVG10Foundation4UUIDVA1_yACyAF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Z0CtFZQOy_Qo_A_0wxyM15GestureModifierVGAA05EmptyE0VGGGA1_yAeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQOyAeFE09draggableD0yQrqd__SglFQOyAeFE010selectableD0yQrA66_lFQOyAN_SSQo__SSQo__ACyA69_AA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGQo_SgACyACyA78_A13_GA32_GGG_AQyA37_ySaySo0wX16UITranscriptItemCGSSSgAeFE18snippetAttributionQryFQOyAA03AnyE0V_Qo_SgSgGGSgtGG_Qo_A13_G_ACyACyAeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQOyAeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQOyACyAeFE05smartM10AnimatableQryFQOyACyACyAQyA37_yA85_A86_AZyAZyA1_yA89_A59_GA1_yA57_A54_GGAZyA107_A1_yACyA_0wxymF7WrapperVA17_GA59_GGGSgSgGGA71_ySbGGAA19_BackgroundModifierVyA_0wxymfE7WrapperVSgGG_Qo_AA11_ClipEffectVyA7_GGSg_Qo__Qo_A13_GAA20_LayoutScaleModifierVGtGGGA120_GA71_ySdGG_Qo_AA25_AppearanceActionModifierVGAaDHPqd__AaDHD2_A147_HO_A149_AA0E8ModifierHPyHCHC.42
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE19simultaneousGesture_9includingQrqd___AA0G4MaskVtAA0G0Rd__lFQOyAeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAeAE11buttonStyleyQrqd__AA06ButtonO0Rd__lFQOyAA0P0VyACyACyACyAA6HStackVyAA05TupleE0VyAA012_ConditionalD0VyAWyACyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA12_FrameLayoutVGAA14_PaddingLayoutVGAA14_OpacityEffectVGAA13_ShadowEffectVGACyACyACyACyAYA6_GA9_GA12_GA15_GGACyACyACyACyAA9RectangleVAA011_ForegroundoX0VyAA017HierarchicalShapeO0VGGAA023AccessibilityAttachmentX0VGA6_GA9_GG_ACyAA6SpacerVA6_GACyACyACyACyACyACyACyACyAA4TextVA_ySiSgGGA_yA40_14TruncationModeOGGA_ySbGGA28_GAA16_BlendModeEffectVGA9_GA12_GAA13_OffsetEffectVGtGGA_yAA4FontVSgGGA12_GAA11_BlurEffectVGG_010SiriSharedB0011SuggestionsP13ConfigurationVQo__18SiriSuggestionsKitAXOSgQo__AA06_EndedG0VyAA08_ChangedG0VyAA04DragG0VGGQo_A31_GAaDHPqd0__AaDHD3_A87_HO_A31_AA0eX0HPyHCHC.55
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQOyAA15ModifiedContentVyAA01_c9Modifier_I0Vy010SiriSharedB00kl13UISmartDialogeJ0VGAA01_i5ShapeJ0VyAA9RectangleVGG_AA06_EndedE0VyAA08_ChangedE0VyAA04DragE0VGGQo_HO.6
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA24ButtonStyleConfigurationV5LabelV_SbQo_HO.59
+- _keypath_get.41Tm
+- _keypath_get.47Tm
+- _keypath_set.48Tm
+- _objc_msgSend$_handleSuggestionContentSizeUpdate
+- _objc_msgSend$_hideStarterSuggestionsViewIfNeeded
+- _objc_msgSend$_setSmartDialogPlugin:
+- _objc_msgSend$_setUpSuggestionsView
+- _objc_msgSend$_smartDialogViewAttachmentType
+- _objc_msgSend$addContentView:fromViewController:
+- _objc_msgSend$animateForDrillIn
+- _objc_msgSend$fetchAutoCompletionSuggestionsViewsWithQuery:deviceLocked:turnId:completion:
+- _objc_msgSend$fetchContinuerViewsWithRequestId:currentMode:deviceLocked:completion:
+- _objc_msgSend$fetchConversationContinuerViewsWithRequestId:currentMode:deviceLocked:completion:
+- _objc_msgSend$fetchConversationStarterViewsWithDeviceLocked:isVoiceTrigger:invocationSource:isFirstInvocationSinceOSInstalled:completion:
+- _objc_msgSend$filterSuggestionsWithText:
+- _objc_msgSend$hideConversationStarterSuggestionsIfNecessary
+- _objc_msgSend$initWithFrame:backgroundBlurView:navigationView:smartDialogView:additionalContentViews:textRequestView:viewStackContainer:
+- _objc_msgSend$initWithPressDownHandler:pressUpHandler:
+- _objc_msgSend$initWithSpeech:latencySummary:shouldShow:taskIdentifier:
+- _objc_msgSend$initWithSuggestionsView:
+- _objc_msgSend$initWithTapHandler:
+- _objc_msgSend$makeConversationContinuerSuggestionsViewWithRequestId:currentMode:deviceLocked:keyboardShowing:suggestionTapHandler:
+- _objc_msgSend$makeConversationStarterSuggestionsViewWithDeviceLocked:keyboardShowing:isVoiceTrigger:invocationSource:suggestionTapHandler:
+- _objc_msgSend$makeSuggestionsViewWithSuggestionsResizeHandler:
+- _objc_msgSend$maximumHeightForSAEView:
+- _objc_msgSend$parserSpeakableObjectProviderForSAEView:
+- _objc_msgSend$saeView:didChangeEffectiveBottomContentInsetAnimatedWithContext:
+- _objc_msgSend$saeView:viewDidAppearForAceObject:
+- _objc_msgSend$saeView:viewDidChangeWindow:
+- _objc_msgSend$saeView:viewDidDisappearForAceObject:
+- _objc_msgSend$saeViewDidUpdatePresentedContentHeight:
+- _objc_msgSend$setLatencyViewModel:
+- _objc_msgSend$setShowSuggestions:
+- _objc_msgSend$setSmartDialogPlugin:
+- _objc_msgSend$setUpConversationStarterSuggestionsView:
+- _objc_msgSend$setUpConversationStarterSuggestionsView:invocationSource:
+- _objc_msgSend$showConversationStarterSuggestionsForTwoShot
+- _objc_msgSend$siriRequestCommittedFromSuggestion:
+- _objc_msgSend$siriViewControllerShouldRequestTextInputWithUtterance:
+- _objectdestroy.137Tm
+- _objectdestroy.55Tm
+- _objectdestroy.86Tm
+- _objectdestroy.98Tm
+- _swift_bridgeObjectRelease_n
+- _symbolic Say_____GSg 18SiriSuggestionsAPI0A22AutoCompleteSuggestionV
+- _symbolic Say_____GSg 18SiriSuggestionsKit0aB0O0aB3APIE10SuggestionV
+- _symbolic So12CAShapeLayerC
+- _symbolic So12UIBlurEffectC
+- _symbolic _____ 12SiriSharedUI0aB27UISpinningActivityIndicatorC
+- _symbolic _____ 7SwiftUI4TextV14TruncationModeO
+- _symbolic _____yAAyAAyAAyAAyAAyAAyAAy__________ySiSgGGACy_____GGACySbGG_____y_____GG_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA016_ForegroundStyleI0V AA017HierarchicalShapeM0V AA06_BlendK6EffectV AA14_PaddingLayoutV AA08_OpacityQ0V AA07_OffsetQ0V
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________ySiSgGGACy_____GGACySbGG_____y_____GG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA016_ForegroundStyleI0V AA017HierarchicalShapeM0V AA06_BlendK6EffectV AA14_PaddingLayoutV AA08_OpacityQ0V
+- _symbolic _____yAAyAAyAAyAAyAAy__________ySiSgGGACy_____GGACySbGG_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA016_ForegroundStyleI0V AA017HierarchicalShapeM0V AA06_BlendK6EffectV AA14_PaddingLayoutV
+- _symbolic _____yAAyAAyAAyAAy__________ySiSgGGACy_____GGACySbGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA016_ForegroundStyleI0V AA017HierarchicalShapeM0V AA06_BlendK6EffectV
+- _symbolic _____yAAyAAyAAy__________ySiSgGGACy_____GGACySbGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO AA016_ForegroundStyleI0V AA017HierarchicalShapeM0V
+- _symbolic _____yAAyAAy__________ySiSgGGACy_____GGACySbGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO
+- _symbolic _____yAAyAAy_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGAAyAAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFy_____GGAFySbGGA_G_____GAMGAOG_____GtGGAFy_____SgGGAOG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV AA4TextV A7_14TruncationModeO AA010_BlendModeS0V AA07_OffsetS0V AA4FontV AA05_BlurS0V
+- _symbolic _____yAAy__________ySiSgGGACy_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AE14TruncationModeO
+- _symbolic _____yAAy_____yAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAcIGAKGAMGAOGGAByAByAByABy__________y_____GG_____GAIGAKGG_ABy_____AIGAByAByAByAByAByAByAByABy_____ADySiSgGGADy_____GGADySbGGAYG_____GAKGAMG_____Gt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingM0V AA14_OpacityEffectV AA07_ShadowP0V AA9RectangleV AA016_ForegroundStyleJ0V AA017HierarchicalShapeT0V AA023AccessibilityAttachmentJ0V AA6SpacerV AA4TextV A3_14TruncationModeO AA010_BlendModeP0V AA07_OffsetP0V
+- _symbolic _____yAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo_SgAAyAAyA17_ANGAVGGG_AEyAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA24_A25_AGyAGyAHyA26_A5_GAHyA4_A2_GGAGyA37_AHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ANG_____GtGGGA49_GA11_ySdGG 7SwiftUI15ModifiedContentV 07SnippetB011SmartDialogV AA4TextV AA6VStackV AA9TupleViewV AA0K0PADE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA012_ConditionalD0V 010SiriSharedB00rs7UISmartG18ContextMenuBuilderV AD06PluginK0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_N6LayoutV AnAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexN6LayoutV AA7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0U0CtFZQO AV0rstG15GestureModifierV AA05EmptyK0V AnDE2if_9transformQrSb_qd__xXEtAaMRd__lFQO AnDE09draggableD0yQrqd__SglFQO AnDE010selectableD0yQrA45_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AnDE18snippetAttributionQryFQO AA03AnyK0V AnDE08overrideE15VerticalPaddingyQrAD014CustomVerticalE7PaddingOFQO AnDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AnDE05smartG10AnimatableQryFQO AV0rstgE7WrapperV AA19_BackgroundModifierV AV0rstgeK7WrapperV AA11_ClipEffectV A2_ AA20_LayoutScaleModifierV
+- _symbolic _____yAAy_____y__________GABy_____y_____y_Qo______GAGGGAAyAeByAFy__________GADGGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyM0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0I0CtFZQO AD0efgH15GestureModifierV AD0efghP7WrapperV AA12_FrameLayoutV
+- _symbolic _____yAAy_____y__________GABy_____y_____y_Qo______GAGGGAAyAeByAFy__________GADGGGSg 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyM0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0I0CtFZQO AD0efgH15GestureModifierV AD0efghP7WrapperV AA12_FrameLayoutV
+- _symbolic _____yAAy_____y__________GABy_____y_____y_Qo______GAGGGAAyAeByAFy__________GADGGGSgSg 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyM0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0I0CtFZQO AD0efgH15GestureModifierV AD0efghP7WrapperV AA12_FrameLayoutV
+- _symbolic _____yAAy_____y_____yAAy_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E08overrideF15VerticalPaddingyQrAF06CustomhfI0OFQO AeFE0g19ComponentHorizontalI0yQrAF0jlkI0OFQO AeFE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00tu7UISmartN18ContextMenuBuilderV AA03AnyE0V AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0W0CtFZQO AT0tuvN15GestureModifierV AT0tuvnF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AT0tuvnfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV AA01_I6LayoutV AA20_LayoutScaleModifierV
+- _symbolic _____yAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00iJ31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyQ0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AQ0M0CtFZQO AJ0ijkL15GestureModifierV AJ0ijklS7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AJ0ijklsQ7WrapperV
+- _symbolic _____yAAy_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGGABy_____y_____y_____y______SSQo__SSQo__ACyA6______y_____SgGGQo_SgACyACyA13_AIGAQGGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA06_FrameW0V AA0O0PAAE017containerRelativeX0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioW0V AA05_FlexxW0V AA7ForEachV AD24IndentifiableCardSectionV 10Foundation4UUIDV AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureR0V AA05EmptyO0V AwIE2if_9transformQrSb_qd__xXEtAaVRd__lFQO AwIE09draggableD0yQrqd__SglFQO AwIE010selectableD0yQrA32_lFQO AA4TextV AA022_EnvironmentKeyWritingR0V AA4FontV
+- _symbolic _____yAAy_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGGABy_____y_____y_____y______SSQo__SSQo__ACyA6______y_____SgGGQo_SgACyACyA13_AIGAQGGG______yAUySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgt 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA06_FrameW0V AA0O0PAAE017containerRelativeX0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioW0V AA05_FlexxW0V AA7ForEachV AD24IndentifiableCardSectionV 10Foundation4UUIDV AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureR0V AA05EmptyO0V AwIE2if_9transformQrSb_qd__xXEtAaVRd__lFQO AwIE09draggableD0yQrqd__SglFQO AwIE010selectableD0yQrA32_lFQO AA4TextV AA022_EnvironmentKeyWritingR0V AA4FontV AA6VStackV AwIE18snippetAttributionQryFQO AA03AnyO0V
+- _symbolic _____yAAy_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGAAyAAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFy_____GGAFySbGGA_G_____GAMGAOG_____GtGGAFy_____SgGGAOG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV AA4TextV A7_14TruncationModeO AA010_BlendModeS0V AA07_OffsetS0V AA4FontV
+- _symbolic _____yAAy_____y_____y_____y______SSQo__SSQo__AAyAD_____y_____SgGGQo_Sg_____G_____G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrAJlFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA010_FlexFrameR0V
+- _symbolic _____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAFy_____y__________GAGy_____y_____y_Qo______GALGGAFyAjGyAKy__________GAIGGGSgSgG 7SwiftUI7ForEachV AA19_ConditionalContentV 010SiriSharedB00gH31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyO0V AA08ModifiedF0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AO0K0CtFZQO AF0ghiJ15GestureModifierV AF0ghijR7WrapperV AA12_FrameLayoutV
+- _symbolic _____ySiG 7SwiftUI5StateV
+- _symbolic _____y_Qo_ 9SnippetUI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AA7ContextCtFZQO
+- _symbolic _____y_____G 7SwiftUI15_ChangedGestureV AA04DragD0V
+- _symbolic _____y_____G 7SwiftUI25_ContentShapeKindModifierV AA16RoundedRectangleV6_InsetV
+- _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA4TextV14TruncationModeO
+- _symbolic _____y_____G 7SwiftUI5StateV 10Foundation4DateV
+- _symbolic _____y_____Sg_____y_____y_____y_____yADyAEy_____yAGy_____yAFy__________y_____GGAGyAFyAFyAFyAI_____GANG_____GAFy_____yAFyAO_____G_Qo______GGG_____ySay_____G_____AHyAFy_____y_Qo______G_____GGGAHy_____y_____y_____yAB_SSQo__SSQo__AFyA10______y_____SgGGQo_SgAFyAFyA17_ANGAVGGG_ADyAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ANG_AFyAFy_____y_____yAFy_____yAFyAFyADyAZyA24_A25_AGyAGyAHyA26_A5_GAHyA4_A2_GGAGyA37_AHyAFy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ANG_____GtGGG 9SnippetUI11SmartDialogV 05SwiftB04TextV AD6VStackV AD9TupleViewV AD15ModifiedContentV AD0I0PAAE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AD012_ConditionalK0V 010SiriSharedB00rs7UISmartD18ContextMenuBuilderV AA06PluginI0V AD01_K17ShapeKindModifierV AD16RoundedRectangleV6_InsetV AD14_PaddingLayoutV AD01_N6LayoutV AnDE017containerRelativeN0_9alignmentQrAD4AxisO3SetV_AD9AlignmentVtFQO AD18_AspectRatioLayoutV AD05_FlexN6LayoutV AD7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AA22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AA0U0CtFZQO AV0rstD15GestureModifierV AD05EmptyI0V AnAE2if_9transformQrSb_qd__xXEtAdMRd__lFQO AnAE09draggableK0yQrqd__SglFQO AnAE010selectableK0yQrA45_lFQO AD30_EnvironmentKeyWritingModifierV AD4FontV AnAE18snippetAttributionQryFQO AD03AnyI0V AnAE08overrideA15VerticalPaddingyQrAA014CustomVerticalA7PaddingOFQO AnAE34overrideComponentHorizontalPaddingyQrAA32CustomHorizontalComponentPaddingOFQO AnAE05smartD10AnimatableQryFQO AV0rstdA7WrapperV AD19_BackgroundModifierV AV0rstdaI7WrapperV AD11_ClipEffectV A2_ AD20_LayoutScaleModifierV
+- _symbolic _____y______Qo_Sg 7SwiftUI4ViewP07SnippetB0E18snippetAttributionQryFQO AA03AnyC0V
+- _symbolic _____y______Qo_SgSg 7SwiftUI4ViewP07SnippetB0E18snippetAttributionQryFQO AA03AnyC0V
+- _symbolic _____y___________ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIy_____y_____y_Qo______GANGGAHyAlIyAMy__________GAKGGGSgSgGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA19_ConditionalContentV 010SiriSharedB00lM31UISmartDialogContextMenuBuilderV AA03AnyD0V AA05EmptyD0V AA08ModifiedK0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AU0P0CtFZQO AL0lmnO15GestureModifierV AL0lmnoV7WrapperV AA06_FrameG0V
+- _symbolic _____y___________ySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA7ForEachV AA0D0P07SnippetB0E18snippetAttributionQryFQO AA03AnyD0V
+- _symbolic _____y___________y_____yADy_____yAEyAEyAEyAEy__________y_____SgGG_____G_____G_____G_____GAEyAEyAEyAEyAfLGANGAPGARGGAEyAEyAEyAEy__________y_____GG_____GALGANGG_AEy_____ALGAEyAEyAEyAEyAEyAEyAEyAEy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA06_FrameG0V AA08_PaddingG0V AA14_OpacityEffectV AA07_ShadowU0V AA9RectangleV AA016_ForegroundStyleP0V AA017HierarchicalShapeY0V AA023AccessibilityAttachmentP0V AA6SpacerV AA4TextV A11_14TruncationModeO AA010_BlendModeU0V AA07_OffsetU0V
+- _symbolic _____y___________y_____yADy_____y_____y__________y_____GGADyAFyAFyAFyAG_____GALG_____GAFy_____yAFyAM_____G_Qo______GGG_____ySay_____G_____AEyAFy_____y_Qo______G_____GGGAEy_____y_____y_____y______SSQo__SSQo__AFyA9______y_____SgGGQo_SgAFyAFyA16_ALGATGGG______yAXySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA19_ConditionalContentV 010SiriSharedB00kL31UISmartDialogContextMenuBuilderV AA08ModifiedJ0V 07SnippetB006PluginD0V AA01_J17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA08_PaddingG0V AA06_FrameG0V AA0D0PAAE22containerRelativeFrame_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioG0V AA010_FlexFrameG0V AA7ForEachV AL24IndentifiableCardSectionV 10Foundation4UUIDV AQ22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AQ0O0CtFZQO AL0klmn7GestureW0V AA05EmptyD0V A3_AQE2if_9transformQrSb_qd__xXEtAAA2_Rd__lFQO A3_AQE09draggableJ0yQrqd__SglFQO A3_AQE010selectableJ0yQrA40_lFQO AA4TextV AA022_EnvironmentKeyWritingW0V AA4FontV AA0F0V A3_AQE18snippetAttributionQryFQO AA03AnyD0V
+- _symbolic _____y___________y_____y_____y_____yACy_____yAFy_____yADy__________y_____GGAFyADyADyADyAH_____GAMG_____GADy_____yADyAN_____G_Qo______GGG_____ySay_____G_____AGyADy_____y_Qo______G_____GGGAGy_____y_____y_____y______SSQo__SSQo__ADyA10______y_____SgGGQo_SgADyADyA17_AMGAUGGG_AEyAYySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_AMG_ADyADy_____y_____yADy_____yADyADyAEyAYyA24_A25_AFyAFyAGyA26_A4_GAGyA3_A1_GGAFyA37_AGyADy_____APGA4_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_AMG_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0P07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA0F0V AA012_ConditionalJ0V 010SiriSharedB00rS31UISmartDialogContextMenuBuilderV AN06PluginD0V AA01_J17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA08_PaddingG0V AA01_nG0V AmAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioG0V AA05_FlexnG0V AA7ForEachV AX24IndentifiableCardSectionV 10Foundation4UUIDV AN22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AN0V0CtFZQO AX0rstU15GestureModifierV AA05EmptyD0V AmNE2if_9transformQrSb_qd__xXEtAaLRd__lFQO AmNE09draggableJ0yQrqd__SglFQO AmNE010selectableJ0yQrA47_lFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AmNE18snippetAttributionQryFQO AA03AnyD0V AmNE08overrideK15VerticalPaddingyQrAN014CustomVerticalK7PaddingOFQO AmNE34overrideComponentHorizontalPaddingyQrAN32CustomHorizontalComponentPaddingOFQO AmNE05smartU10AnimatableQryFQO AX0rstuK7WrapperV AA19_BackgroundModifierV AX0rstukD7WrapperV AA11_ClipEffectV A4_ AA01_G13ScaleModifierV
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV
+- _symbolic _____y_____yAAyAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo_SgAAyAAyA17_ANGAVGGG_AEyAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA24_A25_AGyAGyAHyA26_A5_GAHyA4_A2_GGAGyA37_AHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ANG_____GtGGGA49_GA11_ySdGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AF11SmartDialogV AA4TextV AA6VStackV AA05TupleE0V AeFE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA012_ConditionalD0V 010SiriSharedB00wx7UISmartM18ContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_S6LayoutV AeAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexS6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Z0CtFZQO AZ0wxyM15GestureModifierV AA05EmptyE0V AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA49_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AeFE18snippetAttributionQryFQO AA03AnyE0V AeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQO AeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQO AeFE05smartM10AnimatableQryFQO AZ0wxymF7WrapperV AA19_BackgroundModifierV AZ0wxymfE7WrapperV AA11_ClipEffectV A6_ AA20_LayoutScaleModifierV AA25_AppearanceActionModifierV
+- _symbolic _____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00no7UISmartH18ContextMenuBuilderV AA03AnyE0V AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Q0CtFZQO AN0nopH15GestureModifierV AN0nophF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AN0nophfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00no7UISmartH18ContextMenuBuilderV AA03AnyE0V AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0Q0CtFZQO AN0nopH15GestureModifierV AN0nophF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AN0nophfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____yAAy_____y_____Sg_____y_____yAAy_____yAEyAFy_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo_SgAAyAAyA17_ANGAVGGG_AEyAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA24_A25_AGyAGyAHyA26_A5_GAHyA4_A2_GGAGyA37_AHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ANG_____GtGGGA49_GA11_ySdGG_Qo_ 7SwiftUI4ViewP07SnippetB0E8readSize8onChangeQrySo6CGSizeVc_tFQO AA15ModifiedContentV AD11SmartDialogV AA4TextV AA6VStackV AA05TupleC0V AcDE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA012_ConditionalK0V 010SiriSharedB00wx7UISmartM18ContextMenuBuilderV AD06PluginC0V AA01_K17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_S6LayoutV AcAE017containerRelativeS0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexS6LayoutV AA7ForEachV AZ24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Z0CtFZQO AZ0wxyM15GestureModifierV AA05EmptyC0V AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE09draggableK0yQrqd__SglFQO AcDE010selectableK0yQrA49_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AcDE18snippetAttributionQryFQO AA03AnyC0V AcDE08overrideD15VerticalPaddingyQrAD014CustomVerticalD7PaddingOFQO AcDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AcDE05smartM10AnimatableQryFQO AZ0wxymD7WrapperV AA19_BackgroundModifierV AZ0wxymdC7WrapperV AA11_ClipEffectV A6_ AA20_LayoutScaleModifierV
+- _symbolic _____y_____yAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo_ 7SwiftUI4ViewP07SnippetB0E21smartDialogAnimatableQryFQO AA15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalI0V 010SiriSharedB00no7UISmartF18ContextMenuBuilderV AA03AnyC0V AA05EmptyC0V AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0Q0CtFZQO AN0nopF15GestureModifierV AN0nopfD7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AN0nopfdC7WrapperV
+- _symbolic _____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAByAByAByAByAByAByAByABy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGGAGy_____SgGGAPG_____GG 7SwiftUI6ButtonV AA15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalE0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingQ0V AA14_OpacityEffectV AA07_ShadowT0V AA9RectangleV AA016_ForegroundStyleN0V AA017HierarchicalShapeX0V AA023AccessibilityAttachmentN0V AA6SpacerV AA4TextV A9_14TruncationModeO AA010_BlendModeT0V AA07_OffsetT0V AA4FontV AA05_BlurT0V
+- _symbolic _____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAGy_____y__________GAHy_____y_____y_Qo______GAMGGAGyAkHyALy__________GAJGGGSgSgGG 7SwiftUI6VStackV AA7ForEachV AA19_ConditionalContentV 010SiriSharedB00hI31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyP0V AA08ModifiedG0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AQ0L0CtFZQO AH0hijK15GestureModifierV AH0hijkS7WrapperV AA12_FrameLayoutV
+- _symbolic _____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGG 7SwiftUI6VStackV AA7ForEachV AA4ViewP07SnippetB0E18snippetAttributionQryFQO AA03AnyF0V
+- _symbolic _____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSg 7SwiftUI6VStackV AA7ForEachV AA4ViewP07SnippetB0E18snippetAttributionQryFQO AA03AnyF0V
+- _symbolic _____y_____y_____GG 7SwiftUI13_EndedGestureV AA08_ChangedD0V AA04DragD0V
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 010SiriSharedB00gh20UISmartDialogGestureF0V AA01_d5ShapeF0V AA9RectangleV
+- _symbolic _____y_____y_____Sg_____y_____yAAy_____yAEyAFy_____yAGy_____yAAy__________y_____GGAGyAAyAAyAAyAI_____GANG_____GAAy_____yAAyAO_____G_Qo______GGG_____ySay_____G_____AHyAAy_____y_Qo______G_____GGGAHy_____y_____y_____yAC_SSQo__SSQo__AAyA10______y_____SgGGQo_SgAAyAAyA17_ANGAVGGG_AEyAZySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ANG_AAyAAy_____y_____yAAy_____yAAyAAyAEyAZyA24_A25_AGyAGyAHyA26_A5_GAHyA4_A2_GGAGyA37_AHyAAy_____AQGA5_GGGSgSgGGA11_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ANG_____GtGGGA49_G 7SwiftUI15ModifiedContentV 07SnippetB011SmartDialogV AA4TextV AA6VStackV AA9TupleViewV AA0K0PADE25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA012_ConditionalD0V 010SiriSharedB00rs7UISmartG18ContextMenuBuilderV AD06PluginK0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_N6LayoutV AnAE017containerRelativeN0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexN6LayoutV AA7ForEachV AV24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0U0CtFZQO AV0rstG15GestureModifierV AA05EmptyK0V AnDE2if_9transformQrSb_qd__xXEtAaMRd__lFQO AnDE09draggableD0yQrqd__SglFQO AnDE010selectableD0yQrA45_lFQO AA30_EnvironmentKeyWritingModifierV AA4FontV AnDE18snippetAttributionQryFQO AA03AnyK0V AnDE08overrideE15VerticalPaddingyQrAD014CustomVerticalE7PaddingOFQO AnDE34overrideComponentHorizontalPaddingyQrAD32CustomHorizontalComponentPaddingOFQO AnDE05smartG10AnimatableQryFQO AV0rstgE7WrapperV AA19_BackgroundModifierV AV0rstgeK7WrapperV AA11_ClipEffectV A2_ AA20_LayoutScaleModifierV
+- _symbolic _____y_____y__________GABy_____y_____y_Qo______GAGGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyM0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0I0CtFZQO AD0efgH15GestureModifierV
+- _symbolic _____y_____y__________GABy_____y_____y_Qo______GAGG_G 7SwiftUI19_ConditionalContentV7StorageO 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyN0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AO0J0CtFZQO AF0fghI15GestureModifierV
+- _symbolic _____y_____y__________y_____GG_____yAByAByAByAC_____GAIG_____GABy_____yAByAJ_____G_Qo______GGG 12SiriSharedUI0aB31UISmartDialogContextMenuBuilderV 05SwiftC015ModifiedContentV 07SnippetC010PluginViewV AD01_K17ShapeKindModifierV AD16RoundedRectangleV6_InsetV AD012_ConditionalK0V AD14_PaddingLayoutV AD06_FrameW0V AD0N0PADE017containerRelativeX0_9alignmentQrAD4AxisO3SetV_AD9AlignmentVtFQO AD012_AspectRatioW0V AD05_FlexxW0V
+- _symbolic _____y_____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo_ 7SwiftUI4ViewP07SnippetB0E34overrideComponentHorizontalPaddingyQrAD06CustomgfH0OFQO AA15ModifiedContentV AcDE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalK0V 010SiriSharedB00st7UISmartM18ContextMenuBuilderV AA03AnyC0V AA05EmptyC0V AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0V0CtFZQO AQ0stuM15GestureModifierV AQ0stumD7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AQ0stumdC7WrapperV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____y_____yAAy_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E08overrideF15VerticalPaddingyQrAF06CustomhfI0OFQO AeFE0g19ComponentHorizontalI0yQrAF0jlkI0OFQO AeFE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00tu7UISmartN18ContextMenuBuilderV AA03AnyE0V AA05EmptyE0V AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0W0CtFZQO AT0tuvN15GestureModifierV AT0tuvnF7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AT0tuvnfE7WrapperV AA11_ClipEffectV AA16RoundedRectangleV AA01_I6LayoutV
+- _symbolic _____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAByAByAByAByAByAByAByABy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGGAGy_____SgGGAPG_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA06ButtonE0Rd__lFQO AA0F0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalH0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingS0V AA14_OpacityEffectV AA07_ShadowV0V AA9RectangleV AA011_ForegroundeP0V AA017HierarchicalShapeE0V AA023AccessibilityAttachmentP0V AA6SpacerV AA4TextV A13_14TruncationModeO AA010_BlendModeV0V AA07_OffsetV0V AA4FontV AA05_BlurV0V 010SiriSharedB0011SuggestionsF13ConfigurationV
+- _symbolic _____y_____y_____yACy_____yADyADyADyADy__________y_____SgGG_____G_____G_____G_____GADyADyADyADyAeKGAMGAOGAQGGADyADyADyADy__________y_____GG_____GAKGAMGG_ADy_____AKGADyADyADyADyADyADyADyADy_____AFySiSgGGAFy_____GGAFySbGGA_G_____GAMGAOG_____GtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV AA4TextV A7_14TruncationModeO AA010_BlendModeS0V AA07_OffsetS0V
+- _symbolic _____y_____y_____yACy_____y_____y__________y_____GGACyAEyAEyAEyAF_____GAKG_____GAEy_____yAEyAL_____G_Qo______GGG_____ySay_____G_____ADyAEy_____y_Qo______G_____GGGADy_____y_____y_____y______SSQo__SSQo__AEyA8______y_____SgGGQo_SgAEyAEyA15_AKGASGGG_AAyAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA19_ConditionalContentV 010SiriSharedB00hI31UISmartDialogContextMenuBuilderV AA08ModifiedG0V 07SnippetB006PluginE0V AA01_G17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA06_FrameY0V AA0E0PAAE017containerRelativeZ0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioY0V AA05_FlexzY0V AA7ForEachV AH24IndentifiableCardSectionV 10Foundation4UUIDV AM22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AM0L0CtFZQO AH0hijk7GestureT0V AA05EmptyE0V A_AME2if_9transformQrSb_qd__xXEtAaZRd__lFQO A_AME09draggableG0yQrqd__SglFQO A_AME010selectableG0yQrA36_lFQO AA4TextV AA022_EnvironmentKeyWritingT0V AA4FontV A_AME18snippetAttributionQryFQO AA03AnyE0V
+- _symbolic _____y_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG 7SwiftUI15ModifiedContentV AA6VStackV AA7ForEachV AA012_ConditionalD0V 010SiriSharedB00iJ31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyQ0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AQ0M0CtFZQO AJ0ijkL15GestureModifierV AJ0ijklS7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV
+- _symbolic _____y_____y_____y_____G_____y_____GG______y_____y_____GGQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 010SiriSharedB00kl13UISmartDialogeJ0V AA01_i5ShapeJ0V AA9RectangleV AA06_EndedE0V AA08_ChangedE0V AA04DragE0V
+- _symbolic _____y_____y_____y______SSQo__SSQo_______yAC_____y_____SgGGQo_Sg 7SwiftUI4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE16draggableContentyQrqd__SglFQO AcDE010selectableH0yQrAHlFQO AA4TextV AA08ModifiedH0V AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____y_____y__________GACy_____y_____y_Qo______GAHGGAByAfCyAGy__________GAEGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA7AnyViewV AA05EmptyN0V AA08ModifiedD0V 07SnippetB022VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AO0J0CtFZQO AF0fghI15GestureModifierV AF0fghiQ7WrapperV AA12_FrameLayoutV
+- _symbolic _____y_____y_____y__________y_____GGAAyACyACyACyAD_____GAIG_____GACy_____yACyAJ_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GGG 7SwiftUI19_ConditionalContentV 010SiriSharedB00eF31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA06_FrameW0V AA0O0PAAE017containerRelativeX0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioW0V AA05_FlexxW0V AA7ForEachV AD24IndentifiableCardSectionV 10Foundation4UUIDV AI22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AI0I0CtFZQO AD0efgh7GestureR0V AA05EmptyO0V
+- _symbolic _____y_____y_____y__________y_____GG_____yACyACyACyAD_____GAJG_____GACy_____yACyAK_____G_Qo______GGG_____ySay_____G_____AByACy_____y_Qo______G_____GG_G 7SwiftUI19_ConditionalContentV7StorageO 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AC AA14_PaddingLayoutV AA06_FrameX0V AA0P0PAAE017containerRelativeY0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioX0V AA05_FlexyX0V AA7ForEachV AF24IndentifiableCardSectionV 10Foundation4UUIDV AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureS0V AA05EmptyP0V
+- _symbolic _____y_____y_____y_____yAAyAAy_____y_____ySaySo26SiriSharedUITranscriptItemCGSSSg_____yAHy_____y__________GAIyAAy_____y_Qo______GAMGGAHyAlIyAAy__________GAKGGGSgSgGG_____ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_ 7SwiftUI4ViewP07SnippetB0E08overrideD15VerticalPaddingyQrAD06CustomfdG0OFQO AcDE0e19ComponentHorizontalG0yQrAD0hjiG0OFQO AA15ModifiedContentV AcDE21smartDialogAnimatableQryFQO AA6VStackV AA7ForEachV AA012_ConditionalL0V 010SiriSharedB00tu7UISmartN18ContextMenuBuilderV AA03AnyC0V AA05EmptyC0V AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0W0CtFZQO AT0tuvN15GestureModifierV AT0tuvnD7WrapperV AA12_FrameLayoutV AA30_EnvironmentKeyWritingModifierV AA19_BackgroundModifierV AT0tuvndC7WrapperV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____y_____y_____yAAyABy_____yADy_____yACy__________y_____GGADyACyACyACyAF_____GAKG_____GACy_____yACyAL_____G_Qo______GGG_____ySay_____G_____AEyACy_____y_Qo______G_____GGGAEy_____y_____y_____y______SSQo__SSQo__ACyA8______y_____SgGGQo_SgACyACyA15_AKGASGGG_AAyAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_AKG_ACyACy_____y_____yACy_____yACyACyAAyAWyA22_A23_ADyADyAEyA24_A2_GAEyA1_A_GGADyA35_AEyACy_____ANGA2_GGGSgSgGGA9_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_AKG_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0P07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA012_ConditionalG0V 010SiriSharedB00oP31UISmartDialogContextMenuBuilderV AJ06PluginE0V AA01_G17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_K6LayoutV AiAE017containerRelativeK0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexK6LayoutV AA7ForEachV AR24IndentifiableCardSectionV 10Foundation4UUIDV AJ22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AJ0S0CtFZQO AR0opqr7GestureY0V AA05EmptyE0V AiJE2if_9transformQrSb_qd__xXEtAaHRd__lFQO AiJE09draggableG0yQrqd__SglFQO AiJE010selectableG0yQrA41_lFQO AA4TextV AA022_EnvironmentKeyWritingY0V AA4FontV AiJE18snippetAttributionQryFQO AA03AnyE0V AiJE08overrideH15VerticalPaddingyQrAJ014CustomVerticalH7PaddingOFQO AiJE34overrideComponentHorizontalPaddingyQrAJ32CustomHorizontalComponentPaddingOFQO AiJE05smartR10AnimatableQryFQO AR0opqrH7WrapperV AA011_BackgroundY0V AR0opqrhE7WrapperV AA11_ClipEffectV AZ AA012_LayoutScaleY0V
+- _symbolic _____y_____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAByAByAByAByAByAByAByABy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE11buttonStyleyQrqd__AA06ButtonI0Rd__lFQO AA0J0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalL0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingW0V AA14_OpacityEffectV AA07_ShadowZ0V AA9RectangleV AA011_ForegroundiT0V AA017HierarchicalShapeI0V AA023AccessibilityAttachmentT0V AA6SpacerV AA4TextV A16_14TruncationModeO AA010_BlendModeZ0V AA07_OffsetZ0V AA4FontV AA05_BlurZ0V 010SiriSharedB0011SuggestionsJ13ConfigurationV 18SiriSuggestionsKitASO
+- _symbolic _____y_____y_____y_____yACy_____y_____y__________y_____GGACyAEyAEyAEyAF_____GAKG_____GAEy_____yAEyAL_____G_Qo______GGG_____ySay_____G_____ADyAEy_____y_Qo______G_____GGGADy_____y_____y_____y______SSQo__SSQo__AEyA8______y_____SgGGQo_SgAEyAEyA15_AKGASGGG_AAyAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_ 7SwiftUI4ViewP07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA6VStackV AA05TupleC0V AA19_ConditionalContentV 010SiriSharedB00nO31UISmartDialogContextMenuBuilderV AA08ModifiedM0V AD06PluginC0V AA01_M17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_G6LayoutV AcAE017containerRelativeG0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexG6LayoutV AA7ForEachV AP24IndentifiableCardSectionV 10Foundation4UUIDV AD22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AD0R0CtFZQO AP0nopq7GestureY0V AA05EmptyC0V AcDE2if_9transformQrSb_qd__xXEtAaBRd__lFQO AcDE09draggableM0yQrqd__SglFQO AcDE010selectableM0yQrA41_lFQO AA4TextV AA022_EnvironmentKeyWritingY0V AA4FontV AcDE18snippetAttributionQryFQO AA03AnyC0V
+- _symbolic _____y_____y_____y_____yADyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAeKGAMGAOGAQGGAAyAAyAAyAAy__________y_____GG_____GAKGAMGG_AAy_____AKGAAyAAyAAyAAyAAyAAyAAyAAy_____AFySiSgGGAFy_____GGAFySbGGA_G_____GAMGAOG_____GtGGAFy_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA08_PaddingP0V AA14_OpacityEffectV AA07_ShadowS0V AA9RectangleV AA016_ForegroundStyleM0V AA017HierarchicalShapeW0V AA023AccessibilityAttachmentM0V AA6SpacerV AA4TextV A7_14TruncationModeO AA010_BlendModeS0V AA07_OffsetS0V AA4FontV
+- _symbolic _____y_____y_____y_____y______SSQo__SSQo__AAyAD_____y_____SgGGQo_Sg_____G 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrAJlFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_____y______SSQo__SSQo_______yAD_____y_____SgGGQo_SgAEyAEyAL_____G_____GG 12SiriSharedUI0aB31UISmartDialogContextMenuBuilderV 05SwiftC04ViewP07SnippetC0E2if_9transformQrSb_qd__xXEtAdERd__lFQO AfGE16draggableContentyQrqd__SglFQO AfGE010selectableO0yQrAKlFQO AD4TextV AD08ModifiedO0V AD30_EnvironmentKeyWritingModifierV AD4FontV AD14_PaddingLayoutV AD010_FlexFrameY0V
+- _symbolic _____y_____y_____y_____y__________y_____GGAByADyADyADyAE_____GAJG_____GADy_____yADyAK_____G_Qo______GGG_____ySay_____G_____ACyADy_____y_Qo______G_____GGGACy_____y_____y_____y______SSQo__SSQo__ADyA7______y_____SgGGQo_SgADyADyA14_AJGARGG_G 7SwiftUI19_ConditionalContentV7StorageO AC 010SiriSharedB00fG31UISmartDialogContextMenuBuilderV AA08ModifiedD0V 07SnippetB010PluginViewV AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA06_FrameX0V AA0P0PAAE017containerRelativeY0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA012_AspectRatioX0V AA05_FlexyX0V AA7ForEachV AF24IndentifiableCardSectionV 10Foundation4UUIDV AK22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AK0J0CtFZQO AF0fghi7GestureS0V AA05EmptyP0V AyKE2if_9transformQrSb_qd__xXEtAaXRd__lFQO AyKE09draggableD0yQrqd__SglFQO AyKE010selectableD0yQrA34_lFQO AA4TextV AA022_EnvironmentKeyWritingS0V AA4FontV
+- _symbolic _____y_____y_____y_____y_____yAAyAAyAAy_____y_____y_____yAEyAAyAAyAAyAAyAAy__________y_____SgGG_____G_____G_____G_____GAAyAAyAAyAAyAfLGANGAPGARGGAAyAAyAAyAAy__________y_____GG_____GALGANGG_AAy_____ALGAAyAAyAAyAAyAAyAAyAAyAAy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_______y_____y_____GGQo_A2_G 7SwiftUI15ModifiedContentV AA4ViewPAAE19simultaneousGesture_9includingQrqd___AA0G4MaskVtAA0G0Rd__lFQO AeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAE11buttonStyleyQrqd__AA06ButtonO0Rd__lFQO AA0P0V AA6HStackV AA05TupleE0V AA012_ConditionalD0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA14_PaddingLayoutV AA14_OpacityEffectV AA13_ShadowEffectV AA9RectangleV AA011_ForegroundoX0V AA017HierarchicalShapeO0V AA023AccessibilityAttachmentX0V AA6SpacerV AA4TextV A21_14TruncationModeO AA16_BlendModeEffectV AA13_OffsetEffectV AA4FontV AA11_BlurEffectV 010SiriSharedB0011SuggestionsP13ConfigurationV 18SiriSuggestionsKitAXO AA06_EndedG0V AA08_ChangedG0V AA04DragG0V
+- _symbolic _____y_____y_____y_____y_____yAByABy_____y_____y_____yAEyAByAByAByAByABy__________y_____SgGG_____G_____G_____G_____GAByAByAByAByAfLGANGAPGARGGAByAByAByABy__________y_____GG_____GALGANGG_ABy_____ALGAByAByAByAByAByAByAByABy_____AGySiSgGGAGy_____GGAGySbGGA0_G_____GANGAPG_____GtGGAGy_____SgGGAPG_____GG______Qo_______SgQo_______y_____y_____GGQo_ 7SwiftUI4ViewPAAE19simultaneousGesture_9includingQrqd___AA0E4MaskVtAA0E0Rd__lFQO AcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAE11buttonStyleyQrqd__AA06ButtonM0Rd__lFQO AA0N0V AA15ModifiedContentV AA6HStackV AA05TupleC0V AA012_ConditionalP0V AA5ImageV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA12_FrameLayoutV AA14_PaddingLayoutV AA14_OpacityEffectV AA13_ShadowEffectV AA9RectangleV AA011_ForegroundmX0V AA017HierarchicalShapeM0V AA023AccessibilityAttachmentX0V AA6SpacerV AA4TextV A21_14TruncationModeO AA16_BlendModeEffectV AA13_OffsetEffectV AA4FontV AA11_BlurEffectV 010SiriSharedB0011SuggestionsN13ConfigurationV 18SiriSuggestionsKitAXO AA06_EndedE0V AA08_ChangedE0V AA04DragE0V
+- _symbolic _____y_____y_____y_____y_____yADy_____yAAy__________y_____GGADyAAyAAyAAyAF_____GAKG_____GAAy_____yAAyAL_____G_Qo______GGG_____ySay_____G_____AEyAAy_____y_Qo______G_____GGGAEy_____y_____y_____y______SSQo__SSQo__AAyA8______y_____SgGGQo_SgAAyAAyA15_AKGASGGG_AByAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_AKG 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA6VStackV AA05TupleE0V AA012_ConditionalD0V 010SiriSharedB00oP31UISmartDialogContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_I6LayoutV AeAE017containerRelativeI0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexI6LayoutV AA7ForEachV AR24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0S0CtFZQO AR0opqr7GestureY0V AA05EmptyE0V AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA41_lFQO AA4TextV AA022_EnvironmentKeyWritingY0V AA4FontV AeFE18snippetAttributionQryFQO AA03AnyE0V
+- _symbolic _____y_____y_____y_____y_____yADy_____yAAy__________y_____GGADyAAyAAyAAyAF_____GAKG_____GAAy_____yAAyAL_____G_Qo______GGG_____ySay_____G_____AEyAAy_____y_Qo______G_____GGGAEy_____y_____y_____y______SSQo__SSQo__AAyA8______y_____SgGGQo_SgAAyAAyA15_AKGASGGG_AByAWySaySo26SiriSharedUITranscriptItemCGSSSg_____y______Qo_SgSgGGSgtGG_Qo_AKG_AAyAAy_____y_____yAAy_____yAAyAAyAByAWyA22_A23_ADyADyAEyA24_A2_GAEyA1_A_GGADyA35_AEyAAy_____ANGA2_GGGSgSgGGA9_ySbGG_____y_____SgGG_Qo______y_____GGSg_Qo__Qo_AKG_____Gt 7SwiftUI15ModifiedContentV AA4ViewP07SnippetB0E25attributionContainerFrame5frameQrSo6CGRectVSg_tFQO AA6VStackV AA05TupleE0V AA012_ConditionalD0V 010SiriSharedB00oP31UISmartDialogContextMenuBuilderV AF06PluginE0V AA01_D17ShapeKindModifierV AA16RoundedRectangleV6_InsetV AA14_PaddingLayoutV AA01_I6LayoutV AeAE017containerRelativeI0_9alignmentQrAA4AxisO3SetV_AA9AlignmentVtFQO AA18_AspectRatioLayoutV AA05_FlexI6LayoutV AA7ForEachV AR24IndentifiableCardSectionV 10Foundation4UUIDV AF22VisualResponseProviderC4view3for7contextQrSaySo13SFCardSectionCG_AF0S0CtFZQO AR0opqr7GestureY0V AA05EmptyE0V AeFE2if_9transformQrSb_qd__xXEtAaDRd__lFQO AeFE09draggableD0yQrqd__SglFQO AeFE010selectableD0yQrA41_lFQO AA4TextV AA022_EnvironmentKeyWritingY0V AA4FontV AeFE18snippetAttributionQryFQO AA03AnyE0V AeFE08overrideF15VerticalPaddingyQrAF014CustomVerticalF7PaddingOFQO AeFE34overrideComponentHorizontalPaddingyQrAF32CustomHorizontalComponentPaddingOFQO AeFE05smartR10AnimatableQryFQO AR0opqrF7WrapperV AA011_BackgroundY0V AR0opqrfE7WrapperV AA11_ClipEffectV AZ AA012_LayoutScaleY0V
+- _symbolic ySo8NSStringC_ABSitc
+CStrings:
++ " #dismissal SnapshotManager "
++ " content at point "
++ "#SmartDialog cappedFrame"
++ "#SmartDialog scrollEnabled"
++ "#SmartDialog updateAttribution"
++ "#instrumentation New Turn "
++ "#sae Setting a parsed utterance: "
++ "#suggestions #callback Tapped callback for suggestion "
++ "#suggestions Report a concern for suggestion"
++ "#suggestions autocomplete exposure callback called for autoComplete suggestions: "
++ "#suggestions autocomplete exposure callback failed, callback function and/or data were nil"
++ "#suggestions autocomplete exposure callback failed, no suggestions data found"
++ "#suggestions exposed to user "
++ "#suggestions exposure callback failed, callback function is nil"
++ "#suggestions exposure callback failed, no suggestions data found"
++ "#suggestions exposure callback failed, suggestions data is nil"
++ "#suggestions fading out continuer suggestions"
++ "#suggestions focus: "
++ "#suggestions rendered "
++ "#suggestions rendered callback called for suggestions: "
++ "#suggestions rendered callback failed, callback function is nil"
++ "#suggestions rendered callback failed, no suggestions data found"
++ "#suggestions skipping continuer suggestions because we're suppressing suggestions"
++ "%s #sae attempted to underline but (%lu, %lu) is out of range of utterance: %@"
++ "%s #sae successfully underlined (%lu, %lu) of utterance: %@"
++ "%s #sae unable to find valid range to underline after iterating through all alternatives"
++ "%s #smartDialog: setting userUtterance text color to %@"
++ "-[SiriSharedUISmartDialogView _showAlternativesUI]"
++ "-[SiriSharedUISmartDialogView setUserInterfaceStyle:]"
++ "@48@0:8@16@24@32q40"
++ "@48@0:8@?16@?24@?32@?40"
++ "@52@0:8@16@24@32B40@44"
++ "Diagnostics File"
++ "Error encoding ToolInvocation: "
++ "Giving focus to suggestion id="
++ "Handling emitInstrumentationEvent "
++ "Instrumentation event skipped, not a VRXTurnBasedInstrumentationEvent"
++ "MaterialProvider"
++ "Removing focus from suggestion id="
++ "Siri Suggestion"
++ "SiriSharedUIDropletContainerView is not hosting a SiriSharedUIAssistantSuggestionView. Unable to set focus state for suggestion"
++ "SiriSharedUIEnhancedMaterialUtilities"
++ "SiriSharedUISpinningActivityIndicator"
++ "SiriSharedUISuggestionExecutionWrapper"
++ "SolariumMitosisEdgeBleedSetup: Failed to locate GlassGroupLayerView layer for portaling."
++ "SolariumMitosisEdgeBleedSetup: Failed to locate Material layer for portaling."
++ "SolariumMitosisEdgeBleedSetup: Failed to locate MaterialProvider layer for portaling."
++ "SolariumMitosisEdgeBleedSetup: Failed to locate glass SDF layer for portaling."
++ "SolariumMitosisEdgeBleedSetup: Successfully created glass SDF portal mask."
++ "T@\"AFConversation\",N,&,Vconversation"
++ "T@\"CALayer\",N,&,VcontentLayer"
++ "T@\"CALayer\",N,&,VdotMaskLayer"
++ "T@\"CALayer\",N,&,VgradientLayer"
++ "T@\"NSArray\",N,C"
++ "T@\"NSDictionary\",N,C"
++ "T@\"NSDictionary\",R,N,V_encodedToolInvocationData"
++ "T@\"NSString\",&,N,V_diagnosticContent"
++ "T@\"NSString\",&,N,V_siriSuggestionText"
++ "T@\"NSString\",R,N,V_displayText"
++ "T@\"NSString\",R,N,V_invocationText"
++ "T@\"SiriSharedUISAEViewModel\",N,&,VviewModel"
++ "T@\"UIView\",N,&,VpairedSmartDialogViewForBackground"
++ "T@\"UIView\",N,&,VsnippetBackgroundView"
++ "T@\"UIView\",N,&,VsnippetSuggestionPageantShadowView"
++ "T@\"UIViewController<SiriSharedUIGenerativeAssistantOnboardingManagerDelegate>\",N,W,Vdelegate"
++ "T@\"_TtC12SiriSharedUI23SiriSharedUIDropletView\",N,R,VsnippetsDropletView"
++ "T@\"_TtC12SiriSharedUI23SiriSharedUIDropletView\",N,R,VsuggestionsDropletView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VbottomFloatingButtonView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VcollapseLoadingView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VcontinuerPill"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VpreviousResultView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VresultView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VtextFieldLoadingView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VtextFieldView"
++ "T@\"_TtC12SiriSharedUI32SiriSharedUIDropletContainerView\",N,&,VvoiceLoadingView"
++ "T@\"_TtC12SiriSharedUI33SiriSharedUIScrollablePageantView\",N,&,VsnippetSuggestionPageantView"
++ "T@\"_TtC12SiriSharedUI46SiriSharedUIResultViewPanFluidDismissalManager\",N,R,VfluidDismissalManager"
++ "T@\"_TtC27GenerativeAssistantSettings49GenerativeAssistantEnablementNavigationController\",N,&,VnavigationController"
++ "T@\"_UISceneHostingController\",N,&,VhostingController"
++ "TB,N,VdismissingLatency"
++ "TB,N,VimmersiveExperienceOn"
++ "TB,N,VisInVoiceLatency"
++ "TB,N,VisResultPresented"
++ "TB,N,VloadingViewFromResult"
++ "TB,N,VpreprocessedSuggestions"
++ "TB,N,VresultViewFromLoading"
++ "TB,N,VsuggestionsExpanded"
++ "TB,N,VsuggestionsWerePressedDownToggle"
++ "TB,N,VtextFieldViewTransplanted"
++ "Td,N,R,VhorizontalContentInset"
++ "Td,N,R,VlandscapeTopPadding"
++ "Td,N,R,VloadingSpacing"
++ "Td,N,R,VminVoiceLoadingAnimationDistanceFromTextField"
++ "Td,N,R,VresultLoadingAnimationDistanceY"
++ "Td,N,R,VsuggestionSpacing"
++ "Td,N,R,VsuggestionViewInset"
++ "Td,N,R,VsuggestionsViewLeadingPadding"
++ "Td,N,R,VsuggestionsViewSpringDamping"
++ "Td,N,R,VsuggestionsViewSpringDuration"
++ "Td,N,R,VsuggestionsViewSpringMass"
++ "Td,N,R,VsuggestionsViewSpringStiffness"
++ "Td,N,R,VsuggestionsViewStaggerDelay"
++ "Td,N,R,VtextFieldBottomPaddingPad"
++ "Td,N,R,VvoiceLoadingAnimationDistanceY"
++ "Td,N,VringBorderMaskWidth"
++ "Td,N,VringDotInset"
++ "Td,N,VringDotRotationDuration"
++ "Td,N,VringDotScaleFinalValue"
++ "Tq,N,VindexOfSelectedSuggestion"
++ "Tq,R,N,V_suggestionRequestType"
++ "T{CGSize=dd},N,R,VdefaultLoadingPillSize"
++ "T{CGSize=dd},N,VpreviousResultSize"
++ "T{CGSize=dd},N,VresultSize"
++ "Unknown pop animation type: "
++ "_TtC12SiriSharedUI19SiriSharedUIAligner"
++ "_TtC12SiriSharedUI33SiriSharedUIScrollablePageantView"
++ "_TtC12SiriSharedUI35SiriSharedUIStringDifferenceUtility"
++ "_TtCV12SiriSharedUI28SimultaneousLongPressGesture11Coordinator"
++ "_attributionUpdated"
++ "_attributionView"
++ "_cappedFrame"
++ "_contextMenuHandler"
++ "_diagnosticContent"
++ "_didLogExposure"
++ "_displayText"
++ "_enableScrolling:"
++ "_encodedToolInvocationData"
++ "_exposed"
++ "_focused"
++ "_invocationText"
++ "_rendered"
++ "_resetAttributionView:"
++ "_setSmartDialogPlugin:attribution:"
++ "_showAlternativesUI"
++ "_siriSuggestionText"
++ "_suggestionRequestType"
++ "_suggestionsType"
++ "additionalSuggestionsViews"
++ "animateWithDuration:animations:completion:"
++ "applyPressTransformAnimationToSuggestionTo:from:to:duration:"
++ "asrAlternatives"
++ "attemptToApplySDFMask"
++ "attemptToApplySDFMask()"
++ "attribution"
++ "cappedFrame"
++ "com.apple.mobilecal"
++ "com.apple.mobiletimer"
++ "com.apple.weather"
++ "contentPadding"
++ "contentScrollView"
++ "contextMenuHandler"
++ "continuerAppearanceAnimationDuration"
++ "continuerPill"
++ "continuerPressDownHandler"
++ "continuerPressUpHandler"
++ "continuerSuggestionsPressDownHandler"
++ "continuerSuggestionsPressUpHandler"
++ "continuerSuggestionsRenderedCallback"
++ "continuerSuggestionsViews"
++ "continuerTouchAnimationDuration"
++ "convertRect:toCoordinateSpace:"
++ "currentRunLoop"
++ "delayAutodismiss"
++ "diagnosticContent"
++ "diagnostics_file.txt"
++ "dictionaryWithValuesForKeys:"
++ "didReceiveAttributionView:"
++ "edgeBleedDurationMultiplier"
++ "edgeLightSolariumInsideEffect"
++ "emitInstrumentationEvent(_:viewId:)"
++ "emitWithTurnIdentifier:aceViewId:"
++ "encodedToolInvocationData"
++ "encodedToolInvocationData()"
++ "fadeOutContinuerSuggestionsForDrillIn"
++ "fetchContinuerSuggestionsViewsWithRequestId:currentMode:deviceLocked:invocationSource:completion:"
++ "fetchContinuerViews(requestId:currentMode:deviceLocked:invocationSource:completion:)"
++ "fetchContinuerViewsWithRequestId:currentMode:deviceLocked:invocationSource:completion:"
++ "fetchConversationContinuerSuggestionsWithTimeout(requestId:currentMode:deviceLocked:invocationSource:)"
++ "filters.glassBackground.inputShadowOpacity"
++ "finalizePopAnimation(ofType:)"
++ "findFirstDifferenceWithOriginalText:alternativeText:"
++ "focusedContinuer"
++ "focusedItemScale"
++ "generativeassistant"
++ "glassContainerView"
++ "handleLongPress gesture.view is not a DropletContainerView"
++ "handleLongPress(_:)"
++ "handleLongPress:"
++ "handleTap gesture.view is not a DropletContainerView"
++ "handleTap scrollToView"
++ "handleTap:"
++ "initWithInvocationText:displayText:encodedToolInvocationData:suggestionRequestType:"
++ "initWithScrollView:edge:style:"
++ "initWithSpeech:asrAlternatives:latencySummary:shouldShow:taskIdentifier:"
++ "initWithStartersPressDown:startersPressUp:continuersPressDown:continuersPressUp:"
++ "initWithStartersPressDownHandler:startersPressUpHandler:continuersPressDownHandler:continuersPressUpHandler:"
++ "initWithTurnIdentifier:"
++ "initialContentOffset"
++ "initialPillSize"
++ "isCancelledDialogPhase"
++ "isCompletionDialogPhase"
++ "isConfirmedDialogPhase"
++ "isEnhancedMaterialEnabled"
++ "isInVoiceLatency"
++ "isMacTextField"
++ "isSummaryDialogPhase"
++ "itemWidths"
++ "max() returned nil or unable to initialize a Move enum"
++ "mitoseWithDuration:mitosingIntoSnippet:"
++ "mitosisIntoSnippetKeytimes"
++ "mitosisOutOfSnippetKeytimes"
++ "mitosisScaleAmount"
++ "mockIconBundleIdentifier"
++ "move(i:j:s1:s2:)"
++ "p"
++ "pillMergeContinuerWithIndex:"
++ "prepareForPillMergeContinuerWithIndex:"
++ "prepareForPopAnimation(ofType:)"
++ "preprocessedSuggestions"
++ "pressDownHandlerWithData"
++ "pressUpHandlerWithData"
++ "previousSuggestionsViews"
++ "racFeedbackLoggingContent"
++ "reduceMotionMitosisWithDuration:intoSnippet:"
++ "removeContinuerPill"
++ "removeContinuerSuggestions"
++ "removeContinuerSuggestions()"
++ "removeSuggestionsForDrillIn"
++ "reportFeedback()"
++ "requiresNewTurn"
++ "resultViewContainer"
++ "revealUserUtterance:backingAceObject:asrAlternatives:"
++ "scrollCancelThreshold"
++ "scrollViewDidScroll view is not SiriSharedUIStandardScrollView"
++ "scrollViewDidScroll(_:)"
++ "scrollViewDidScrollFlickerPreventionThreshold"
++ "setAdditionalSuggestionsViews:"
++ "setAllowableMovement:"
++ "setAsrAlternatives:"
++ "setBackgroundColorAsyncDict:"
++ "setBottomFloatingButtonView:"
++ "setCancelsTouchesInView:"
++ "setCappedFrame:"
++ "setCollapseLoadingView:"
++ "setContentLayer:"
++ "setContextMenuHandler:"
++ "setContextMenuHandlerWithContextMenuHandler:"
++ "setContinuerPill:"
++ "setContinuerSuggestions:"
++ "setContinuerSuggestionsViews:"
++ "setConversation:"
++ "setDecelerationRate:"
++ "setDiagnosticContent:"
++ "setDismissedAnimationSuggestionsViews:"
++ "setDismissingLatency:"
++ "setDotMaskLayer:"
++ "setExposureStateIfInViewWithAvailableMaxWidth:suggestionWidths:suggestionsInset:"
++ "setFocusedContinuer(container:)"
++ "setGradientLayer:"
++ "setHidesSourceLayer:"
++ "setHostingController:"
++ "setIndexOfSelectedSuggestion:"
++ "setIsInVoiceLatency:"
++ "setIsResultPresented:"
++ "setLoadingViewFromResult:"
++ "setLoadingViews:"
++ "setMatchesPosition:"
++ "setMatchesTransform:"
++ "setMinimumPressDuration:"
++ "setNavigationController:"
++ "setOriginalViewSizeDict:"
++ "setOverrides:"
++ "setPairedSmartDialogViewForBackground:"
++ "setPreprocessedSuggestions:"
++ "setPressDownHandlerWithData:"
++ "setPressUpHandlerWithData:"
++ "setPreviousResultSize:"
++ "setPreviousResultView:"
++ "setPreviousSuggestionsViews:"
++ "setRacFeedbackLoggingContent:"
++ "setResultSize:"
++ "setResultViewFromLoading:"
++ "setRingBorderMaskWidth:"
++ "setRingDotInset:"
++ "setRingDotRotationDuration:"
++ "setRingDotScaleFinalValue:"
++ "setServerUtteranceConversationIds:"
++ "setSiriSuggestionText:"
++ "setSmartDialogPlugin:attribution:"
++ "setSnippetSuggestionPageantShadowView:"
++ "setSnippetSuggestionPageantView:"
++ "setSourceLayer:"
++ "setSuggestionContentViewsToRemove:"
++ "setSuggestionFocused(_:)"
++ "setSuggestionFocused:"
++ "setSuggestionsExpanded:"
++ "setSuggestionsViews:"
++ "setSuggestionsWerePressedDownToggle:"
++ "setTextFieldLoadingView:"
++ "setTextFieldView:"
++ "setTextFieldViewTransplanted:"
++ "setTolerance:"
++ "setUnderlinedRange:"
++ "setUserInterfaceStyle:"
++ "setVoiceLoadingView:"
++ "shouldExecuteContinuerAction"
++ "shouldExecuteContinuerAction:"
++ "shouldUpdate"
++ "showSpinner"
++ "siriSharedUI_removeGlassBackground"
++ "siriSharedUI_setGlassBackground"
++ "siriSharedUI_setGlassBackgroundWithCornerRadius:"
++ "siriSuggestionText"
++ "siriViewControllerDidEndEditing"
++ "siriViewControllerShouldRequestTextInputWithUtterance:alternatives:"
++ "siriViewControllerWillBeginEditing"
++ "siri_suggestion.txt"
++ "snippetSuggestionPageantShadowView"
++ "snippetSuggestionPageantView"
++ "snippetsDropletMaskView"
++ "solariumDropletAnimationDuration"
++ "solariumLatencyInnerGlowRadius"
++ "solariumSnippetInnerGlowRadius"
++ "starterAndTypingPressDownHandler"
++ "starterAndTypingPressUpHandler"
++ "starterAndTypingSuggestionsPressDownHandler"
++ "starterAndTypingSuggestionsPressUpHandler"
++ "subMap"
++ "suggestedInvocation"
++ "suggestionContainers"
++ "suggestionContentViewsToRemove"
++ "suggestionExposed()"
++ "suggestionExposedToUser"
++ "suggestionRendered()"
++ "suggestionRenderedForContainer"
++ "suggestionRequestType"
++ "suggestionViewInset"
++ "suggestionsWerePressedDownToggle"
++ "superlayer"
++ "textFieldViewTransplanted"
++ "toolInvocationData"
++ "touchDownItemScale"
++ "unfocusedItemScale"
++ "update(attribution:)"
++ "update(cappedFrame:)"
++ "update(maxSnippetWidth:)"
++ "update(scrollEnabled:)"
++ "updateAttributionView"
++ "updateWithAttribution:"
++ "updateWithCappedFrame:"
++ "updateWithMaxSnippetWidth:"
++ "updateWithScrollEnabled:"
++ "userDidReportConcernForSuggestionsWithModel:"
++ "v"
++ "v24@?0@\"SiriSharedUISuggestionExecutionWrapper\"8q16"
++ "v32@0:8@\"NSString\"16@\"NSArray\"24"
++ "v32@0:8{_NSRange=QQ}16"
++ "v40@0:8d16@24d32"
++ "v48@0:8@16d24d32d40"
++ "v52@0:8@16@24B32q36@?44"
++ "viewHadContent(atPoint:atTime:withTimeMargin:)"
++ "viewId"
++ "{?=@@}24@0:8@16"
++ "{_NSRange=QQ}32@0:8@16@24"
++ "\xf0AqA1"
+- "#suggestions Fetching conversation continuers"
+- "#suggestions exposure callback called for autoComplete suggestions: "
+- "%s #suggestions: suggestions provider is nil, can not set up continuer suggestions"
+- "%s #suggestions: suggestions provider is nil, can not set up starter suggestions"
+- "-[SiriSharedUISystemAssistantExperienceView conversationViewDidTransitionToCollapsedState:]"
+- "-[SiriSharedUISystemAssistantExperienceView conversationViewDidTransitionToExpandedState:]"
+- "-[SiriSharedUISystemAssistantExperienceView initWithFrame:backgroundBlurView:navigationView:smartDialogView:additionalContentViews:textRequestView:viewStackContainer:]"
+- "-[SiriSharedUISystemAssistantExperienceView layoutSubviews]"
+- "-[SiriSharedUISystemAssistantExperienceView setAdditionalContentSnippetViews:]"
+- "-[SiriSharedUISystemAssistantExperienceView setUpConversationContinuerSuggestionsView:currentMode:]"
+- "-[SiriSharedUISystemAssistantExperienceView setUpConversationStarterSuggestionsView:invocationSource:]"
+- "@\"<SiriSharedUISystemAssistantExperienceViewDelegate>\""
+- "@\"SiriSharedUISuggestionsHostView\""
+- "@\"UIViewController\""
+- "@\"_TtC12SiriSharedUI35SiriSharedUISuggestionsViewProvider\""
+- "@44@0:8@16@24B32@36"
+- "@88@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56@64@72@80"
+- "SiriSharedUISystemAssistantExperienceView"
+- "T@\"<SiriSharedUISystemAssistantExperienceViewDelegate>\",W,N,V_delegate"
+- "TB,N,V_deviceStateLocked"
+- "TB,N,V_isKeyboardShowing"
+- "_TtC12SiriSharedUI37SiriSharedUISpinningActivityIndicator"
+- "_continuersSuggestionsViewShown"
+- "_conversationContinuerSuggestionsViewCreated"
+- "_conversationStarterSuggestionsViewCreated"
+- "_deviceStateLocked"
+- "_handleSuggestionContentSizeUpdate"
+- "_hideContinuerSuggestionsViewIfNeeded"
+- "_hideStarterSuggestionsViewIfNeeded"
+- "_setSmartDialogPlugin:"
+- "_setUpSuggestionsView"
+- "_shouldCancelConversationContinuers"
+- "_shouldCancelConversationStarters"
+- "_smartDialogViewAttachmentType"
+- "_suggestionsViewController"
+- "_suggestionsViewProvider"
+- "autoCompleteSuggestionsDataForExposureCallback"
+- "cancelStarterSuggestionsViewIfNeededForUserInput"
+- "deviceStateLocked"
+- "enableSuggestionsView:"
+- "fetchAutoCompletionSuggestionsViewsWithQuery:deviceLocked:completion:"
+- "fetchContinuerSuggestionsViewsWithRequestId:currentMode:deviceLocked:completion:"
+- "fetchContinuerViews(requestId:currentMode:deviceLocked:completion:)"
+- "fetchContinuerViewsWithRequestId:currentMode:deviceLocked:completion:"
+- "fetchConversationContinuerSuggestionsWithTimeout(requestId:currentMode:deviceLocked:)"
+- "fetchConversationContinuerViews(requestId:currentMode:deviceLocked:completion:)"
+- "fetchConversationContinuerViewsWithRequestId:currentMode:deviceLocked:completion:"
+- "fetchConversationStarterViewsWithDeviceLocked:isVoiceTrigger:invocationSource:completion:"
+- "initWithFrame:backgroundBlurView:navigationView:smartDialogView:additionalContentViews:textRequestView:viewStackContainer:"
+- "initWithFrame:backgroundBlurView:navigationView:smartDialogView:textRequestView:viewStackContainer:"
+- "initWithSpeech:latencySummary:shouldShow:taskIdentifier:"
+- "isClarificationDialogPhase"
+- "isConfirmationDialogPhase"
+- "isKeyboardShowing"
+- "latencyPillMaxStateMaterial"
+- "latencyPillMinStateMaterial"
+- "maximumHeightForSAEView:"
+- "mitoseWithDuration:"
+- "parserSpeakableObjectProviderForSAEView:"
+- "reduceMotionPillMergeWithDuration:"
+- "ringMaskLayer"
+- "saeView:didChangeEffectiveBottomContentInsetAnimatedWithContext:"
+- "saeView:viewDidAppearForAceObject:"
+- "saeView:viewDidChangeWindow:"
+- "saeView:viewDidDisappearForAceObject:"
+- "saeViewDidUpdatePresentedContentHeight:"
+- "setDeviceStateLocked:"
+- "setIsKeyboardShowing:"
+- "setSmartDialogPlugin:"
+- "setSmartDialogView:"
+- "setUpConversationContinuerSuggestionsView:currentMode:"
+- "setUpConversationStarterSuggestionsView"
+- "setUpConversationStarterSuggestionsView:"
+- "setUpConversationStarterSuggestionsView:invocationSource:"
+- "showStarterSuggestionsViewForTwoShot"
+- "siriRequestCommittedFromSuggestion:"
+- "siriViewControllerShouldRequestTextInputWithUtterance:"
+- "v16@?0@\"NSString\"8"
+- "v28@0:8B16q20"
+- "v36@0:8@16B24@?28"
+- "v40@0:8B16B20q24@?32"
+- "\xd1"
+- "\xe1qA1"
+
+```

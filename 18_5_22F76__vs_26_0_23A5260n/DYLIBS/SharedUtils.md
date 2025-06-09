@@ -1,0 +1,1112 @@
+## SharedUtils
+
+> `/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/SharedUtils`
+
+```diff
+
+-1656.120.6.0.0
+-  __TEXT.__text: 0x1d4a4
+-  __TEXT.__auth_stubs: 0x5a0
+-  __TEXT.__objc_methlist: 0x102c
+-  __TEXT.__const: 0x218
+-  __TEXT.__cstring: 0x2566
+-  __TEXT.__oslogstring: 0xa74
+-  __TEXT.__gcc_except_tab: 0x274
+-  __TEXT.__unwind_info: 0x7b0
+-  __TEXT.__objc_classname: 0x3fa
+-  __TEXT.__objc_methname: 0x25a5
+-  __TEXT.__objc_methtype: 0x10e2
+-  __TEXT.__objc_stubs: 0x1680
+-  __DATA_CONST.__got: 0x230
+-  __DATA_CONST.__const: 0x628
+-  __DATA_CONST.__objc_classlist: 0xc0
++2005.0.13.0.0
++  __TEXT.__text: 0x75a0
++  __TEXT.__auth_stubs: 0x440
++  __TEXT.__objc_methlist: 0xcfc
++  __TEXT.__const: 0x1c8
++  __TEXT.__cstring: 0x517
++  __TEXT.__oslogstring: 0x643
++  __TEXT.__gcc_except_tab: 0x130
++  __TEXT.__unwind_info: 0x328
++  __TEXT.__objc_classname: 0x3ce
++  __TEXT.__objc_methname: 0x1b89
++  __TEXT.__objc_methtype: 0xe9f
++  __TEXT.__objc_stubs: 0x1100
++  __DATA_CONST.__got: 0x1e8
++  __DATA_CONST.__const: 0x1e0
++  __DATA_CONST.__objc_classlist: 0xa0
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa78
++  __DATA_CONST.__objc_selrefs: 0x800
+   __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__objc_superrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x2e0
+-  __AUTH_CONST.__const: 0x340
+-  __AUTH_CONST.__cfstring: 0xca0
+-  __AUTH_CONST.__objc_const: 0x1ce8
+-  __AUTH_CONST.__objc_intobj: 0x918
++  __DATA_CONST.__objc_superrefs: 0x50
++  __AUTH_CONST.__auth_got: 0x230
++  __AUTH_CONST.__const: 0x240
++  __AUTH_CONST.__cfstring: 0x560
++  __AUTH_CONST.__objc_const: 0x1960
++  __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x8c
+-  __DATA.__data: 0xa91
+-  __DATA.__bss: 0xd8
+-  __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x6e0
++  __DATA.__objc_ivar: 0x70
++  __DATA.__data: 0xa88
++  __DATA.__bss: 0x78
++  __DATA_DIRTY.__objc_data: 0x5a0
+   __DATA_DIRTY.__data: 0x4
+-  __DATA_DIRTY.__bss: 0x88
++  __DATA_DIRTY.__bss: 0x58
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/LocalAuthenticationCore
+-  - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 165EC242-B0BF-3918-B1B7-F0E560387A24
+-  Functions: 691
+-  Symbols:   1974
+-  CStrings:  1105
++  UUID: DF7F9546-112A-3F1E-A75E-8D58AB2130BC
++  Functions: 233
++  Symbols:   1111
++  CStrings:  626
+ 
+Symbols:
++ -[LAPasscodeHelperPasscodeStateManagedSettings _managedConfiguration]
++ _OBJC_CLASS_$_LACACMHelper
++ _OBJC_CLASS_$_LACAngelHostedSceneConfiguration
++ _OBJC_CLASS_$_LACError
++ _OBJC_CLASS_$_LACManagedConfiguration
++ _OBJC_CLASS_$_LACWeakBox
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_LACLegacyNotificationPosting
++ __OBJC_$_PROTOCOL_METHOD_TYPES_LACLegacyNotificationPosting
++ __OBJC_$_PROTOCOL_REFS_LACLegacyNotificationPosting
++ __OBJC_LABEL_PROTOCOL_$_LACLegacyNotificationPosting
++ __OBJC_PROTOCOL_$_LACLegacyNotificationPosting
++ ___block_literal_global.17
++ _objc_msgSend$_managedConfiguration
+- +[LAACMHelper acmPolicyForPolicy:]
+- +[LAACMHelper acmPolicyForPolicy:].cold.1
+- +[LAACMHelper boolEnvironmentVariable:]
+- +[LAACMHelper catacombUUID:]
+- +[LAACMHelper notifyBiometricMatchOperationStartAttempted]
+- +[LAACMHelper requirement:dataProperty:]
+- +[LAACMHelper requirement:hasFlag:andType:]
+- +[LAACMHelper requirement:hasState:andType:]
+- +[LAACMHelper requirement:uint32Property:]
+- +[LAACMHelper resetRatchet:]
+- +[LAManagedACMParameters acmParameterDoNotStartDTOTimers]
+- +[LAManagedACMParameters acmParameterSecureIntentSupport]
+- +[LAManagedACMParameters acmParameterWithMaxContinuityAge:]
+- +[LAManagedACMParameters acmParameterWithTimeOffset:]
+- +[LAManagedACMParameters acmParameterWithUserId:]
+- +[LAParamChecker _checkDictionary:againstClassDictionary:entryName:customCheckBlock:]
+- +[LAParamChecker _checkEventProcessing:]
+- +[LAParamChecker _checkEventProcessingEventDictionary:]
+- +[LAParamChecker _checkEventProcessingEventDictionary:].cold.1
+- +[LAParamChecker _checkSet:forValue:entityName:]
+- +[LAParamChecker checkACL:]
+- +[LAParamChecker checkCredentialType:]
+- +[LAParamChecker checkCredentialType:].cold.1
+- +[LAParamChecker checkEvent:]
+- +[LAParamChecker checkEvent:].cold.1
+- +[LAParamChecker checkInternalOperation:options:]
+- +[LAParamChecker checkInternalOperation:options:].cold.1
+- +[LAParamChecker checkOptions:]
+- +[LAParamChecker checkOptions:].cold.1
+- +[LAParamChecker checkPolicy:]
+- +[LAParamChecker checkPolicy:].cold.1
+- +[LAUtils auditTokenToData:]
+- +[LAUtils localizedStringForKey:]
+- -[LAACMHelper _verifyRequirement:satisfiedForType:present:flags:]
+- -[LAACMHelper acmContext]
+- -[LAACMHelper acmTrackingNumber]
+- -[LAACMHelper addCredential:scope:error:]
+- -[LAACMHelper addCredential:scope:property:data:error:]
+- -[LAACMHelper addExtractablePassphrase:scope:error:]
+- -[LAACMHelper clear]
+- -[LAACMHelper credentialOfType:property:error:]
+- -[LAACMHelper dealloc]
+- -[LAACMHelper initWithACMContext:]
+- -[LAACMHelper initWithExternalizedContext:]
+- -[LAACMHelper isCredentialOfTypeSet:error:]
+- -[LAACMHelper missingACMContextError]
+- -[LAACMHelper performContextBlock:error:]
+- -[LAACMHelper performContextVerificationBlock:completion:]
+- -[LAACMHelper performCredentialBlock:credentialType:error:]
+- -[LAACMHelper preflightPolicy:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]
+- -[LAACMHelper removeCredentialsOfType:error:]
+- -[LAACMHelper replacePassphraseCredentialWithPurpose:passphrase:scope:error:]
+- -[LAACMHelper setData:type:error:]
+- -[LAACMHelper verifyAclConstraint:operation:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]
+- -[LAACMHelper verifyPolicy:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]
+- -[LAACMHelper verifyRequirementOfType:policy:error:]
+- -[LAACMHelper verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:]
+- -[LAManagedACMParameters .cxx_destruct]
+- -[LAManagedACMParameters _appendACMParameter:]
+- -[LAManagedACMParameters acmParameterByAppendingACMParameters:]
+- -[LAManagedACMParameters acmParameters]
+- -[LAManagedACMParameters copyWithZone:]
+- -[LAManagedACMParameters count]
+- -[LAManagedACMParameters data]
+- -[LAManagedACMParameters description]
+- -[LAManagedACMParameters findACMParameterWithType:]
+- -[LAManagedACMParameters initWithACMParamType:bytes:length:description:]
+- -[LAPasscodeHelper verifyPasswordUsingAKS:acmContext:userId:policy:options:bioLockoutRecovery:]
+- -[LAPasscodeHelper verifyPasswordUsingPAM:userID:pamService:pamUser:pamToken:]
+- -[LAPasscodeHelperPasscodeStateManagedSettings _mcProfileConnection]
+- -[LAWeakBox .cxx_destruct]
+- -[LAWeakBox dealloc]
+- -[LAWeakBox dealloc].cold.1
+- -[LAWeakBox forwardingTargetForSelector:]
+- -[LAWeakBox initWithReceiver:]
+- -[LAWeakBox initWithReceiver:].cold.1
+- GCC_except_table1
+- GCC_except_table26
+- GCC_except_table29
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table35
+- GCC_except_table48
+- GCC_except_table50
+- GCC_except_table52
+- GCC_except_table54
+- GCC_except_table56
+- GCC_except_table58
+- GCC_except_table64
+- GCC_except_table67
+- GCC_except_table8
+- _ACMContextAddCredential
+- _ACMContextAddCredentialWithScope
+- _ACMContextContainsCredentialType
+- _ACMContextContainsCredentialTypeEx
+- _ACMContextContainsPassphraseCredentialWithPurpose
+- _ACMContextCreate
+- _ACMContextCreateWithExternalForm
+- _ACMContextCredentialGetProperty
+- _ACMContextDelete
+- _ACMContextGetData
+- _ACMContextGetDataEx
+- _ACMContextGetDataProperty
+- _ACMContextGetExternalForm
+- _ACMContextGetExternalForm.cold.1
+- _ACMContextGetInfo
+- _ACMContextGetTrackingNumber
+- _ACMContextRemoveCredentialsByType
+- _ACMContextRemoveCredentialsByTypeAndScope
+- _ACMContextRemoveCredentialsByValue
+- _ACMContextRemoveCredentialsByValueAndScope
+- _ACMContextRemovePassphraseCredentialsByPurposeAndScope
+- _ACMContextReplacePassphraseCredentialsWithScope
+- _ACMContextSetData
+- _ACMContextSetDataEx
+- _ACMContextVerifyAclConstraint
+- _ACMContextVerifyAclConstraintForOperation
+- _ACMContextVerifyPolicy
+- _ACMContextVerifyPolicyEx
+- _ACMContextVerifyPolicyWithPreflight
+- _ACMCredentialCreate
+- _ACMCredentialDelete
+- _ACMCredentialGetProperty
+- _ACMCredentialGetPropertyData
+- _ACMCredentialGetType
+- _ACMCredentialSetProperty
+- _ACMGetAclAuthMethod
+- _ACMGetEnvironmentVariable
+- _ACMGlobalContextAddCredential
+- _ACMGlobalContextCredentialGetProperty
+- _ACMGlobalContextRemoveCredentialsByType
+- _ACMGlobalContextVerifyPolicy
+- _ACMKernelControl
+- _ACMParseAclAndCopyConstraintCharacteristics
+- _ACMPing
+- _ACMRequirementGetPriority
+- _ACMRequirementGetProperties
+- _ACMRequirementGetProperty
+- _ACMRequirementGetPropertyData
+- _ACMRequirementGetState
+- _ACMRequirementGetSubrequirements
+- _ACMRequirementGetType
+- _ACMSEPControl
+- _ACMSEPControlEx
+- _ACMSetEnvironmentVariable
+- _ACMSetEnvironmentVariableWithAccessPolicy
+- _CompareCredentials
+- _CopyCredential
+- _DeallocCredentialList
+- _DeserializeAddCredential
+- _DeserializeAddCredentialType
+- _DeserializeCredential
+- _DeserializeCredentialList
+- _DeserializeGetContextProperty
+- _DeserializeProcessAcl
+- _DeserializeRemoveCredential
+- _DeserializeReplacePassphraseCredential
+- _DeserializeRequirement
+- _DeserializeVerifyAclConstraint
+- _DeserializeVerifyPolicy
+- _GetSerializedAddCredentialSize
+- _GetSerializedCredentialSize
+- _GetSerializedGetContextPropertySize
+- _GetSerializedProcessAclSize
+- _GetSerializedRemoveCredentialSize
+- _GetSerializedReplacePassphraseCredentialSize
+- _GetSerializedRequirementSize
+- _GetSerializedVerifyAclConstraintSize
+- _GetSerializedVerifyPolicySize
+- _IOConnectCallScalarMethod
+- _IOConnectCallStructMethod
+- _IOObjectRelease
+- _IOServiceGetMatchingService
+- _IOServiceMatching
+- _IOServiceOpen
+- _LibCall_ACMContexAddCredentialWithScope
+- _LibCall_ACMContexRemoveCredentialsByTypeAndScope
+- _LibCall_ACMContextCreate
+- _LibCall_ACMContextCreateWithExternalForm
+- _LibCall_ACMContextCredentialGetProperty
+- _LibCall_ACMContextDelete
+- _LibCall_ACMContextGetData
+- _LibCall_ACMContextGetInfo
+- _LibCall_ACMContextLoadFromImage
+- _LibCall_ACMContextRemoveCredentialsByValueAndScope
+- _LibCall_ACMContextSetData
+- _LibCall_ACMContextUnloadToImage
+- _LibCall_ACMContextUnloadToImage_Block
+- _LibCall_ACMContextVerifyAclConstraint
+- _LibCall_ACMContextVerifyAclConstraintForOperation
+- _LibCall_ACMContextVerifyPolicyAndCopyRequirementEx
+- _LibCall_ACMContextVerifyPolicyEx
+- _LibCall_ACMContextVerifyPolicyEx_Block
+- _LibCall_ACMContextVerifyPolicyWithPreflight_Block
+- _LibCall_ACMContextVerifyPolicy_Block
+- _LibCall_ACMCredentialCreate
+- _LibCall_ACMCredentialDelete
+- _LibCall_ACMCredentialGetPropertyData
+- _LibCall_ACMCredentialGetType
+- _LibCall_ACMCredentialSetProperty
+- _LibCall_ACMGetAclAuthMethod_Block
+- _LibCall_ACMGetEnvironmentVariable
+- _LibCall_ACMGetEnvironmentVariable_Block
+- _LibCall_ACMGlobalContextCredentialGetProperty
+- _LibCall_ACMGlobalContextCredentialGetProperty_Block
+- _LibCall_ACMGlobalContextVerifyPolicyEx
+- _LibCall_ACMGlobalContextVerifyPolicy_Block
+- _LibCall_ACMKernDoubleClickNotify
+- _LibCall_ACMKernelControl
+- _LibCall_ACMKernelControl.cold.1
+- _LibCall_ACMKernelControl_Block
+- _LibCall_ACMPing
+- _LibCall_ACMPublishTrustedAccessories
+- _LibCall_ACMRequirementDelete
+- _LibCall_ACMRequirementGetPriority
+- _LibCall_ACMRequirementGetPropertyData
+- _LibCall_ACMRequirementGetState
+- _LibCall_ACMRequirementGetType
+- _LibCall_ACMSEPControl
+- _LibCall_ACMSEPControl_Block
+- _LibCall_ACMSecContextGetUnlockSecret
+- _LibCall_ACMSecContextProcessAcl
+- _LibCall_ACMSecContextProcessAclAndCopyAuthMethod
+- _LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement
+- _LibCall_ACMSecCredentialProviderEnrollmentStateChangedForUser
+- _LibCall_ACMSecSetBiometryAvailability
+- _LibCall_ACMSecSetBuiltinBiometry
+- _LibCall_ACMSetEnvironmentVariable
+- _LibCall_ACMTRMLoadState
+- _LibCall_ACMTRMLoadState_Block
+- _LibCall_ACMTRMSaveState
+- _LibCall_BuildCommand
+- _LibSer_ContextCredentialGetProperty_Deserialize
+- _LibSer_ContextCredentialGetProperty_GetSize
+- _LibSer_ContextCredentialGetProperty_Serialize
+- _LibSer_DeleteContext_Deserialize
+- _LibSer_DeleteContext_GetSize
+- _LibSer_DeleteContext_Serialize
+- _LibSer_GetAclAuthMethod_Deserialize
+- _LibSer_GetAclAuthMethod_GetSize
+- _LibSer_GetAclAuthMethod_Serialize
+- _LibSer_GetUnlockSecretResponse_Deserialize
+- _LibSer_GetUnlockSecretResponse_GetSize
+- _LibSer_GetUnlockSecretResponse_Serialize
+- _LibSer_GetUnlockSecret_Deserialize
+- _LibSer_GetUnlockSecret_GetSize
+- _LibSer_GetUnlockSecret_Serialize
+- _LibSer_GlobalContextCredentialGetProperty_Deserialize
+- _LibSer_GlobalContextCredentialGetProperty_GetSize
+- _LibSer_GlobalContextCredentialGetProperty_Serialize
+- _LibSer_RemoveCredentialByType_Deserialize
+- _LibSer_RemoveCredentialByType_GetSize
+- _LibSer_RemoveCredentialByType_Serialize
+- _LibSer_SEPControlResponse_Deserialize
+- _LibSer_SEPControlResponse_GetSize
+- _LibSer_SEPControlResponse_Serialize
+- _LibSer_SEPControl_Deserialize
+- _LibSer_SEPControl_GetSize
+- _LibSer_SEPControl_Serialize
+- _LibSer_StorageAnyCmd_DeserializeCommonFields
+- _LibSer_StorageGetData_Deserialize
+- _LibSer_StorageGetData_GetSize
+- _LibSer_StorageGetData_Serialize
+- _LibSer_StorageSetData_Deserialize
+- _LibSer_StorageSetData_GetSize
+- _LibSer_StorageSetData_Serialize
+- _NSDictionaryFromACMRequirement
+- _NSGetSizeAndAlignment
+- _NSStringFromACMRequirement
+- _OBJC_CLASS_$_LAACMHelper
+- _OBJC_CLASS_$_LAManagedACMParameters
+- _OBJC_CLASS_$_LAParamChecker
+- _OBJC_CLASS_$_LAWeakBox
+- _OBJC_CLASS_$_MCProfileConnection
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSValue
+- _OBJC_IVAR_$_LAACMHelper._acmContext
+- _OBJC_IVAR_$_LAACMHelper._acmTrackingNumber
+- _OBJC_IVAR_$_LAACMHelper._contextOwner
+- _OBJC_IVAR_$_LAManagedACMParameters._count
+- _OBJC_IVAR_$_LAManagedACMParameters._data
+- _OBJC_IVAR_$_LAManagedACMParameters._description
+- _OBJC_IVAR_$_LAWeakBox._receiver
+- _OBJC_METACLASS_$_LAACMHelper
+- _OBJC_METACLASS_$_LAManagedACMParameters
+- _OBJC_METACLASS_$_LAParamChecker
+- _OBJC_METACLASS_$_LAWeakBox
+- _OUTLINED_FUNCTION_10
+- _OUTLINED_FUNCTION_11
+- _OUTLINED_FUNCTION_12
+- _OUTLINED_FUNCTION_13
+- _OUTLINED_FUNCTION_14
+- _OUTLINED_FUNCTION_15
+- _OUTLINED_FUNCTION_16
+- _OUTLINED_FUNCTION_17
+- _OUTLINED_FUNCTION_18
+- _OUTLINED_FUNCTION_19
+- _OUTLINED_FUNCTION_20
+- _OUTLINED_FUNCTION_21
+- _OUTLINED_FUNCTION_22
+- _OUTLINED_FUNCTION_23
+- _OUTLINED_FUNCTION_24
+- _OUTLINED_FUNCTION_25
+- _OUTLINED_FUNCTION_26
+- _OUTLINED_FUNCTION_27
+- _OUTLINED_FUNCTION_28
+- _OUTLINED_FUNCTION_29
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_30
+- _OUTLINED_FUNCTION_31
+- _OUTLINED_FUNCTION_32
+- _OUTLINED_FUNCTION_33
+- _OUTLINED_FUNCTION_34
+- _OUTLINED_FUNCTION_35
+- _OUTLINED_FUNCTION_36
+- _OUTLINED_FUNCTION_37
+- _OUTLINED_FUNCTION_38
+- _OUTLINED_FUNCTION_39
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _OUTLINED_FUNCTION_7
+- _OUTLINED_FUNCTION_8
+- _OUTLINED_FUNCTION_9
+- _SerializeAddCredential
+- _SerializeCredential
+- _SerializeCredentialList
+- _SerializeGetContextProperty
+- _SerializeProcessAcl
+- _SerializeRemoveCredential
+- _SerializeReplacePassphraseCredential
+- _SerializeRequirement
+- _SerializeVerifyAclConstraint
+- _SerializeVerifyPolicy
+- _Util_AllocCredential
+- _Util_AllocRequirement
+- _Util_CreateRequirement
+- _Util_DeallocCredential
+- _Util_DeallocRequirement
+- _Util_GetBitCount
+- _Util_KeybagLockStateToEnvVar
+- _Util_ReadFromBuffer
+- _Util_SafeDeallocParameters
+- _Util_WriteToBuffer
+- _Util_hexDumpToStrHelper
+- _Util_hexDumpToStrHelper.cold.1
+- _Util_hexDumpToStrHelper.cold.2
+- _Util_isNonNullEqualMemory
+- _Util_isNullOrZeroMemory
+- __MergedGlobals
+- __OBJC_$_CLASS_METHODS_LAACMHelper
+- __OBJC_$_CLASS_METHODS_LAManagedACMParameters
+- __OBJC_$_CLASS_METHODS_LAParamChecker
+- __OBJC_$_INSTANCE_METHODS_LAACMHelper
+- __OBJC_$_INSTANCE_METHODS_LAManagedACMParameters
+- __OBJC_$_INSTANCE_METHODS_LAWeakBox
+- __OBJC_$_INSTANCE_VARIABLES_LAACMHelper
+- __OBJC_$_INSTANCE_VARIABLES_LAManagedACMParameters
+- __OBJC_$_INSTANCE_VARIABLES_LAWeakBox
+- __OBJC_$_PROP_LIST_LAACMHelper
+- __OBJC_$_PROP_LIST_LAManagedACMParameters
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_CLASS_PROTOCOLS_$_LAManagedACMParameters
+- __OBJC_CLASS_RO_$_LAACMHelper
+- __OBJC_CLASS_RO_$_LAManagedACMParameters
+- __OBJC_CLASS_RO_$_LAParamChecker
+- __OBJC_CLASS_RO_$_LAWeakBox
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_METACLASS_RO_$_LAACMHelper
+- __OBJC_METACLASS_RO_$_LAManagedACMParameters
+- __OBJC_METACLASS_RO_$_LAParamChecker
+- __OBJC_METACLASS_RO_$_LAWeakBox
+- __OBJC_PROTOCOL_$_NSCopying
+- ___107-[LAACMHelper verifyPolicy:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]_block_invoke
+- ___124-[LAACMHelper verifyAclConstraint:operation:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]_block_invoke
+- ___124-[LAACMHelper verifyAclConstraint:operation:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:]_block_invoke_2
+- ___28+[LAACMHelper catacombUUID:]_block_invoke
+- ___29+[LAParamChecker checkEvent:]_block_invoke
+- ___30+[LAParamChecker checkPolicy:]_block_invoke
+- ___31+[LAParamChecker checkOptions:]_block_invoke
+- ___31+[LAParamChecker checkOptions:]_block_invoke.174
+- ___34-[LAACMHelper setData:type:error:]_block_invoke
+- ___38+[LAParamChecker checkCredentialType:]_block_invoke
+- ___39+[LAACMHelper boolEnvironmentVariable:]_block_invoke
+- ___40+[LAACMHelper requirement:dataProperty:]_block_invoke
+- ___40+[LAParamChecker _checkEventProcessing:]_block_invoke
+- ___41-[LAACMHelper addCredential:scope:error:]_block_invoke
+- ___41-[LAACMHelper addCredential:scope:error:]_block_invoke_2
+- ___42+[LAACMHelper requirement:uint32Property:]_block_invoke
+- ___43+[LAACMHelper requirement:hasFlag:andType:]_block_invoke
+- ___43-[LAACMHelper isCredentialOfTypeSet:error:]_block_invoke
+- ___44+[LAACMHelper requirement:hasState:andType:]_block_invoke
+- ___45-[LAACMHelper removeCredentialsOfType:error:]_block_invoke
+- ___47-[LAACMHelper credentialOfType:property:error:]_block_invoke
+- ___47-[LAACMHelper credentialOfType:property:error:]_block_invoke_2
+- ___49+[LAParamChecker checkInternalOperation:options:]_block_invoke
+- ___52-[LAACMHelper addExtractablePassphrase:scope:error:]_block_invoke
+- ___52-[LAACMHelper addExtractablePassphrase:scope:error:]_block_invoke_2
+- ___55+[LAParamChecker _checkEventProcessingEventDictionary:]_block_invoke
+- ___55-[LAACMHelper addCredential:scope:property:data:error:]_block_invoke
+- ___55-[LAACMHelper addCredential:scope:property:data:error:]_block_invoke_2
+- ___58-[LAACMHelper performContextVerificationBlock:completion:]_block_invoke
+- ___65-[LAACMHelper _verifyRequirement:satisfiedForType:present:flags:]_block_invoke
+- ___65-[LAACMHelper _verifyRequirement:satisfiedForType:present:flags:]_block_invoke.56
+- ___65-[LAACMHelper _verifyRequirement:satisfiedForType:present:flags:]_block_invoke.cold.1
+- ___77-[LAACMHelper replacePassphraseCredentialWithPurpose:passphrase:scope:error:]_block_invoke
+- ___77-[LAACMHelper replacePassphraseCredentialWithPurpose:passphrase:scope:error:]_block_invoke_2
+- ___82-[LAACMHelper verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:]_block_invoke
+- ___82-[LAACMHelper verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:]_block_invoke_2
+- ___82-[LAACMHelper verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:]_block_invoke_2.cold.1
+- ___85+[LAParamChecker _checkDictionary:againstClassDictionary:entryName:customCheckBlock:]_block_invoke
+- ___NSDictionaryFromACMRequirement_block_invoke
+- ___NSDictionaryFromACMRequirement_block_invoke_2
+- ___NSDictionaryFromACMRequirement_block_invoke_3
+- ___NSDictionaryFromACMRequirement_block_invoke_4
+- ___NSDictionaryFromACMRequirement_block_invoke_5
+- ___NSStringFromACMRequirement_block_invoke
+- ___block_descriptor_32_e30_"NSError"24?0"NSNumber"816l
+- ___block_descriptor_36_e26_B24?0^{__ACMHandle=}8^16l
+- ___block_descriptor_40_e13_v24?0r^v8Q16l
+- ___block_descriptor_40_e15_"NSString"8?0l
+- ___block_descriptor_40_e5_i8?0l
+- ___block_descriptor_40_e8_32bs_e34_v24?0i8B12r^{__ACMRequirement=}16ls32l8
+- ___block_descriptor_40_e8_32r_e13_v24?0r^v8Q16lr32l8
+- ___block_descriptor_40_e8_32r_e15_v32?0816^B24lr32l8
+- ___block_descriptor_40_e8_32s_e28_v16?0r^{__ACMRequirement=}8ls32l8
+- ___block_descriptor_44_e31_B24?0r^{__ACMCredential=}8^16l
+- ___block_descriptor_44_e8_32s_e26_B24?0^{__ACMHandle=}8^16ls32l8
+- ___block_descriptor_48_e8_32r_e28_v16?0r^{__ACMRequirement=}8lr32l8
+- ___block_descriptor_48_e8_32s40r_e13_v24?0r^v8Q16lr40l8s32l8
+- ___block_descriptor_48_e8_32s_e27_B24?0r^{__ACMHandle=}8^16ls32l8
+- ___block_descriptor_52_e8_32r_e28_v16?0r^{__ACMRequirement=}8lr32l8
+- ___block_descriptor_52_e8_32s40s_e27_B24?0r^{__ACMHandle=}8^16ls32l8s40l8
+- ___block_descriptor_52_e8_32s_e31_B24?0r^{__ACMCredential=}8^16ls32l8
+- ___block_descriptor_56_e8_32s40r_e26_B24?0^{__ACMHandle=}8^16lr40l8s32l8
+- ___block_descriptor_56_e8_32s40s_e27_B24?0r^{__ACMHandle=}8^16ls32l8s40l8
+- ___block_descriptor_56_e8_32s_e31_B24?0r^{__ACMCredential=}8^16ls32l8
+- ___block_descriptor_57_e53_v24?0^{__ACMHandle=}8?<v?iB^{__ACMRequirement=}>16l
+- ___block_descriptor_60_e8_32s40s_e27_B24?0r^{__ACMHandle=}8^16ls32l8s40l8
+- ___block_descriptor_64_e8_32s40r48r_e16_v28?0i8r^v12Q20lr40l8r48l8s32l8
+- ___block_descriptor_64_e8_32s40s48bs56r_e15_v32?0816^B24lr56l8s32l8s40l8s48l8
+- ___block_descriptor_68_e8_32s40r48r_e34_v24?0i8B12r^{__ACMRequirement=}16lr40l8s32l8r48l8
+- ___block_descriptor_68_e8_32s40r_e28_v16?0r^{__ACMRequirement=}8lr40l8s32l8
+- ___block_descriptor_76_e8_32s40s48r_e26_B24?0^{__ACMHandle=}8^16ls32l8s40l8r48l8
+- ___block_descriptor_81_e53_v24?0^{__ACMHandle=}8?<v?iB^{__ACMRequirement=}>16l
+- ___block_descriptor_81_e8_32bs_e34_v24?0i8B12r^{__ACMRequirement=}16ls32l8
+- ___block_literal_global.177
+- ___block_literal_global.185
+- ___block_literal_global.192
+- ___block_literal_global.211
+- ___block_literal_global.224
+- ___block_literal_global.243
+- ___chkstk_darwin
+- ___memcpy_chk
+- __allocatedMem.0
+- __allocatedMem.2
+- __allocatedMem.3
+- __checkEventProcessingEventDictionary:.allProcessingOptions
+- __checkEventProcessingEventDictionary:.onceToken
+- __logLevel
+- __os_log_default
+- _aclRequiresPasscodeInternal
+- _acm_explicit_bzero
+- _acm_get_mem
+- _acm_mem_alloc
+- _acm_mem_alloc_data
+- _acm_mem_alloc_info
+- _acm_mem_free
+- _acm_mem_free_data
+- _acm_mem_free_info
+- _bzero
+- _checkCredentialType:.allCredentialTypes
+- _checkCredentialType:.onceToken
+- _checkEvent:.allEvents
+- _checkEvent:.onceToken
+- _checkInternalOperation:options:.allInternalOperations
+- _checkInternalOperation:options:.onceToken
+- _checkOptions:.allOptions
+- _checkOptions:.onceToken
+- _checkParameter
+- _checkPolicy:.allPolicies
+- _checkPolicy:.onceToken
+- _deserializeParameters
+- _free
+- _gACMLoggingLevel
+- _gAllocatedBytes
+- _getLengthOfParameters
+- _init
+- _ioKitTransport
+- _kIOMasterPortDefault
+- _mach_task_self_
+- _malloc_type_calloc
+- _malloc_type_malloc
+- _memcmp
+- _memcpy
+- _memset_s
+- _objc_autorelease
+- _objc_msgSend$_appendACMParameter:
+- _objc_msgSend$_checkDictionary:againstClassDictionary:entryName:customCheckBlock:
+- _objc_msgSend$_checkEventProcessing:
+- _objc_msgSend$_checkEventProcessingEventDictionary:
+- _objc_msgSend$_checkSet:forValue:entityName:
+- _objc_msgSend$_mcProfileConnection
+- _objc_msgSend$_verifyRequirement:satisfiedForType:present:flags:
+- _objc_msgSend$acmParameters
+- _objc_msgSend$acmTrackingNumber
+- _objc_msgSend$appendData:
+- _objc_msgSend$bundleForClass:
+- _objc_msgSend$bytes
+- _objc_msgSend$checkEvent:
+- _objc_msgSend$copy
+- _objc_msgSend$data
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$getValue:
+- _objc_msgSend$initWithACMParamType:bytes:length:description:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithLength:
+- _objc_msgSend$intValue
+- _objc_msgSend$localizedStringForKey:value:table:
+- _objc_msgSend$missingACMContextError
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$objCType
+- _objc_msgSend$performContextBlock:error:
+- _objc_msgSend$performContextVerificationBlock:completion:
+- _objc_msgSend$performCredentialBlock:credentialType:error:
+- _objc_msgSend$replaceBytesInRange:withBytes:
+- _objc_msgSend$requirement:hasFlag:andType:
+- _objc_msgSend$requirement:hasState:andType:
+- _objc_msgSend$requirement:uint32Property:
+- _objc_msgSend$sharedConnection
+- _objc_msgSend$stringByAppendingFormat:
+- _objc_msgSend$unlockScreenTypeWithOutSimplePasscodeType:
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$valueWithBytes:objCType:
+- _objc_msgSend$verifyPasscodeUsingAKS:acmContext:userId:policy:options:bioLockoutRecovery:
+- _objc_msgSend$verifyPasscodeUsingPAM:userID:pamService:pamUser:pamToken:
+- _objc_msgSend$verifyPolicy:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:
+- _objc_msgSend$verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:
+- _objc_retain_x26
+- _objc_retain_x6
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _performCommand
+- _printf
+- _processAclCommandInternal
+- _putchar
+- _serializeParameters
+- _strnlen
+- _updateLogLevelFromKext
+- _updateLogLevelFromKext.cold.1
+- _verifyAclConstraintForOperationCommandInternal
+- _verifyAclConstraintInternal
+CStrings:
++ "LACLegacyNotificationPosting"
++ "_managedConfiguration"
++ "checkHasPendingUIRequestsForRemoteUI:completion:"
++ "connectToExistingContext:callback:clientId:flags:reply:"
++ "credentialEncodingSeedWithReply:"
++ "credentialsUUIDWithReply:"
++ "setCredential:type:options:reply:"
++ "setCredentialsUUID:reply:"
++ "v24@0:8@?<v@?@\"NSUUID\"@\"NSError\">16"
++ "v32@0:8@\"<LACRemoteUI>\"16@?<v@?q>24"
++ "v32@0:8@\"NSUUID\"16@?<v@?B@\"NSError\">24"
++ "v48@0:8@\"NSData\"16q24@\"NSDictionary\"32@?<v@?B@\"NSError\">40"
++ "v48@0:8@16q24@32@?40"
++ "v56@0:8@\"NSData\"16@\"<LACContextCallbackXPC>\"24Q32q40@?<v@?@\"<LAContextXPC>\"@\"NSUUID\"@\"NSString\"@\"NSError\">48"
++ "v56@0:8@16@24Q32q40@?48"
+- ""
+- "%02x "
+- "%d"
+- "%s: %s (len=%u): acl:"
+- "%s: %s (len=%u): operation:"
+- "%s: %s: CS[%u] %s.\n"
+- "%s: %s: CS[%u] acquired.\n"
+- "%s: %s: CS[%u] created.\n"
+- "%s: %s: acl = %p, aclLength = %zu.\n"
+- "%s: %s: called.\n"
+- "%s: %s: cmd(%u) on CS[%u] -> err 0x%x (%d).\n"
+- "%s: %s: cmd(%u) on CS[%u] -> ok.\n"
+- "%s: %s: command = %u.\n"
+- "%s: %s: constraintState = %p.\n"
+- "%s: %s: context = %p.\n"
+- "%s: %s: log level set to %d.\n"
+- "%s: %s: maxGlobalCredentialAge = %u.\n"
+- "%s: %s: mem: type=%s ptr=%p size=%u (total=%u raw=%u data=%u types=%u) %s:%d (%s).\n"
+- "%s: %s: operation = %p, operationLength = %zu.\n"
+- "%s: %s: parameters = %p, parameterCount = %u.\n"
+- "%s: %s: requirePasscode = %p.\n"
+- "%s: %s: returning, -> ctx = %p.\n"
+- "%s: %s: returning, err = %ld, code=%u.\n"
+- "%s: %s: returning, err = %ld, var=%u.\n"
+- "%s: %s: returning, err = %ld.\n"
+- "%s: %s: returning.\n"
+- "*24@0:8q16"
+- ", %@"
+- "/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/ACMLib/ACMLib.c"
+- "/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/common/CommonUtil.c"
+- "/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/common/LibCall.c"
+- "/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c"
+- "/Library/Caches/com.apple.xbs/Sources/AppleCredentialManager_ClientLibs/common/LibSerialization.c"
+- "0123456789abcdef"
+- "<data>"
+- "@\"NSError\"24@?0@\"NSNumber\"8@16"
+- "@\"NSMutableData\""
+- "@20@0:8I16"
+- "@24@0:8^{_NSZone=}16"
+- "@24@0:8^{__ACMHandle=}16"
+- "@28@0:8^{__ACMRequirement=}16I24"
+- "@32@0:8I16I20^@24"
+- "@44@0:8I16^v20Q28@36"
+- "@48@0:8@16@24@32@?40"
+- "@48@0:8{?=[8I]}16"
+- "ACM"
+- "ACMContextAddCredential"
+- "ACMContextAddCredentialWithScope"
+- "ACMContextContainsCredentialType"
+- "ACMContextContainsCredentialTypeEx"
+- "ACMContextContainsPassphraseCredentialWithPurpose"
+- "ACMContextCreate"
+- "ACMContextCreateWithExternalForm"
+- "ACMContextCredentialGetProperty"
+- "ACMContextDelete"
+- "ACMContextGetData"
+- "ACMContextGetDataEx"
+- "ACMContextGetDataProperty"
+- "ACMContextGetExternalForm"
+- "ACMContextGetInfo"
+- "ACMContextRemoveCredentialsByType"
+- "ACMContextRemoveCredentialsByTypeAndScope"
+- "ACMContextRemoveCredentialsByValue"
+- "ACMContextRemoveCredentialsByValueAndScope"
+- "ACMContextRemovePassphraseCredentialsByPurposeAndScope"
+- "ACMContextReplacePassphraseCredentialsWithScope"
+- "ACMContextSetData"
+- "ACMContextSetDataEx"
+- "ACMContextVerifyPolicy"
+- "ACMContextVerifyPolicyEx"
+- "ACMContextVerifyPolicyWithPreflight"
+- "ACMCredential"
+- "ACMCredential - ACMCredentialDataAP"
+- "ACMCredential - ACMCredentialDataBiometryMatchAttempted"
+- "ACMCredential - ACMCredentialDataBiometryMatched"
+- "ACMCredential - ACMCredentialDataContinuityUnlock"
+- "ACMCredential - ACMCredentialDataKextDenyList"
+- "ACMCredential - ACMCredentialDataPasscodeValidated"
+- "ACMCredential - ACMCredentialDataPasscodeValidated2"
+- "ACMCredential - ACMCredentialDataPassphraseEntered"
+- "ACMCredential - ACMCredentialDataPassphraseExtractable"
+- "ACMCredential - ACMCredentialDataSecureIntent"
+- "ACMCredential - ACMCredentialDataSignature"
+- "ACMCredential - ACMCredentialDataUserOutputDisplayed"
+- "ACMCredentialGetProperty"
+- "ACMGetAclAuthMethod"
+- "ACMGetEnvironmentVariable"
+- "ACMGlobalContextAddCredential"
+- "ACMGlobalContextCredentialGetProperty"
+- "ACMGlobalContextRemoveCredentialsByType"
+- "ACMGlobalContextVerifyPolicy"
+- "ACMHandleWithPayload"
+- "ACMKernelControl"
+- "ACMLib"
+- "ACMParseAclAndCopyConstraintCharacteristics"
+- "ACMRequirement"
+- "ACMRequirement - ACMRequirementDataAP"
+- "ACMRequirement - ACMRequirementDataAccessGroups"
+- "ACMRequirement - ACMRequirementDataAnd"
+- "ACMRequirement - ACMRequirementDataBiometryMatchAttempted"
+- "ACMRequirement - ACMRequirementDataBiometryMatched"
+- "ACMRequirement - ACMRequirementDataBiometryMatchedWithAttributes"
+- "ACMRequirement - ACMRequirementDataKeyRef"
+- "ACMRequirement - ACMRequirementDataKofN"
+- "ACMRequirement - ACMRequirementDataKofNWithAttributes"
+- "ACMRequirement - ACMRequirementDataOr"
+- "ACMRequirement - ACMRequirementDataPasscodeValidated"
+- "ACMRequirement - ACMRequirementDataPasscodeValidatedWithAttributes"
+- "ACMRequirement - ACMRequirementDataPassphraseEntered"
+- "ACMRequirement - ACMRequirementDataPushButtonWithAttributes"
+- "ACMRequirement - ACMRequirementDataRatchet"
+- "ACMRequirement - ACMRequirementDataSecureIntent"
+- "ACMRequirement - ACMRequirementDataSecureStateWithAttributes"
+- "ACMRequirement - ACMRequirementDataUserOutputDisplayed"
+- "ACMRequirement: %@"
+- "ACMRequirementGetProperties"
+- "ACMRequirementGetProperty"
+- "ACMRequirementGetSubrequirements"
+- "ACMSetEnvironmentVariable"
+- "ACMSetEnvironmentVariableWithAccessPolicy"
+- "AUTHENTICATION_CANCELED"
+- "AUTHENTICATION_FAILURE"
+- "Adding ACM credential %d for scope %d on ACMContext %u"
+- "Adding extractable passphrase credential on ACMContext %u"
+- "Allocated: %@, receiver: %@"
+- "AppleCredentialManager"
+- "B24@?0^{__ACMHandle=}8^@16"
+- "B24@?0r^{__ACMCredential=}8^@16"
+- "B24@?0r^{__ACMHandle=}8^@16"
+- "B32@0:8@?16^@24"
+- "B32@0:8I16I20^@24"
+- "B32@0:8^{__ACMRequirement=}16I24I28"
+- "B36@0:8@16I24^@28"
+- "B36@0:8@?16I24^@28"
+- "B36@0:8I16*20^@28"
+- "B36@0:8^{__ACMRequirement=}16Q24I32"
+- "B40@0:8I16@20I28^@32"
+- "B44@0:8I16I20I24@28^@36"
+- "B44@0:8^{__ACMRequirement=}16I24^B28^I36"
+- "B56@0:8I16*20B28@32^I40^@48"
+- "BIOMETRY_LOCKED_OUT"
+- "BIOMETRY_NOT_AVAILABLE"
+- "BIOMETRY_NOT_ENROLLED"
+- "Biometric attempt notification finished with status (%d)"
+- "BiometricRatchetAuthentication"
+- "Checking ACM credential %d on ACMContext %u"
+- "CommonUtil.c"
+- "DeallocCredentialList"
+- "Deallocated: %@, receiver: %@"
+- "DeserializeCredentialList"
+- "DeserializeProcessAcl"
+- "DeserializeVerifyAclConstraint"
+- "DeserializeVerifyPolicy"
+- "DeveloperModeSigning"
+- "DeviceOwner"
+- "DeviceOwnerAuthentication"
+- "DeviceOwnerAuthenticationWithBiometrics"
+- "DeviceOwnerAuthenticationWithBiometricsOrWatch"
+- "DeviceOwnerAuthenticationWithWatch"
+- "DoNotStartDTOTimers"
+- "DoublePressBypass"
+- "Empty ACM property."
+- "Exceeded number of %@s: %d (maximum allowed: %d)."
+- "Failed to add ACM credential: %d"
+- "Failed to add ACM extractable credential: %d"
+- "Failed to create ACM credential: %d"
+- "Failed to query ACM credential: %d"
+- "Failed to query ACM property %u on credential %u on ACMContext %u: %d"
+- "Failed to remove ACM credential: %d"
+- "Failed to replace ACM passphrase credential: %d"
+- "Failed to reset ACM Ratchet: %d"
+- "Failed to set ACM credential data: %d"
+- "Failed to set ACM credential property: %d"
+- "Failed to set ACM credential's passphrase property: %d"
+- "Failed to set ACM credential's passphrase-purpose property: %d"
+- "HumanPresence"
+- "I"
+- "I16@0:8"
+- "Invalid %@: '%@'"
+- "Invalid event: '%@'"
+- "Invalid requirement flags: %p[%zu]"
+- "Invalid value '%@' specified for %@ '%@', expected %@ instead."
+- "Invalid value '%@' specified for event '%@', expected NSDictionary instead."
+- "LAACMHelper"
+- "LAErrorBiometryDeniedForApp"
+- "LAErrorCompanionNotAvailable"
+- "LAErrorDenied"
+- "LAErrorNoAuthenticationRequired"
+- "LAErrorNotFound"
+- "LAErrorNotInteractive"
+- "LAErrorOperationNotAllowed"
+- "LAErrorPasscodeNotSet"
+- "LAErrorTimeout"
+- "LAManagedACMParameters"
+- "LAParamChecker"
+- "LAWeakBox"
+- "LBDeviceOwnerAuthentication"
+- "LibCall.c"
+- "LibCall_ACMContexAddCredentialWithScope"
+- "LibCall_ACMContexRemoveCredentialsByTypeAndScope"
+- "LibCall_ACMContextCreate"
+- "LibCall_ACMContextCreateWithExternalForm"
+- "LibCall_ACMContextCredentialGetProperty"
+- "LibCall_ACMContextDelete"
+- "LibCall_ACMContextGetData"
+- "LibCall_ACMContextGetInfo"
+- "LibCall_ACMContextLoadFromImage"
+- "LibCall_ACMContextRemoveCredentialsByValueAndScope"
+- "LibCall_ACMContextSetData"
+- "LibCall_ACMContextUnloadToImage"
+- "LibCall_ACMContextUnloadToImage_Block"
+- "LibCall_ACMContextVerifyPolicyAndCopyRequirementEx"
+- "LibCall_ACMContextVerifyPolicyEx"
+- "LibCall_ACMContextVerifyPolicyEx_Block"
+- "LibCall_ACMContextVerifyPolicyWithPreflight_Block"
+- "LibCall_ACMGetAclAuthMethod_Block"
+- "LibCall_ACMGetEnvironmentVariable"
+- "LibCall_ACMGetEnvironmentVariable_Block"
+- "LibCall_ACMGlobalContextCredentialGetProperty"
+- "LibCall_ACMGlobalContextCredentialGetProperty_Block"
+- "LibCall_ACMGlobalContextVerifyPolicyEx"
+- "LibCall_ACMGlobalContextVerifyPolicy_Block"
+- "LibCall_ACMKernDoubleClickNotify"
+- "LibCall_ACMKernelControl"
+- "LibCall_ACMKernelControl_Block"
+- "LibCall_ACMPing"
+- "LibCall_ACMPublishTrustedAccessories"
+- "LibCall_ACMRequirementDelete"
+- "LibCall_ACMSEPControl"
+- "LibCall_ACMSEPControl_Block"
+- "LibCall_ACMSecContextGetUnlockSecret"
+- "LibCall_ACMSecContextVerifyAclConstraintAndCopyRequirement"
+- "LibCall_ACMSecCredentialProviderEnrollmentStateChangedForUser"
+- "LibCall_ACMSecSetBiometryAvailability"
+- "LibCall_ACMSecSetBuiltinBiometry"
+- "LibCall_ACMSetEnvironmentVariable"
+- "LibCall_ACMTRMLoadState"
+- "LibCall_ACMTRMLoadState_Block"
+- "LibCall_ACMTRMSaveState"
+- "LibCall_BuildCommand"
+- "LocationBasedTrustComputer"
+- "Marzipan"
+- "MarzipanPIN"
+- "MaxContinuityAge:%u ms"
+- "Missing ACL."
+- "Missing ACM context."
+- "NSCopying"
+- "NULL"
+- "No known ACM policy for LAPolicy %d"
+- "Not found."
+- "Options must be of class: %@"
+- "Oslo"
+- "OsloPIN"
+- "Policy verification failed: %d"
+- "Prague"
+- "PraguePIN"
+- "PraguePrerequisite"
+- "Removing ACM credential %d on ACMContext %u"
+- "Replacing ACM passphrase credential with purpose %d on ACMContext %u"
+- "Requirement %d not satisfied."
+- "Reseting ACM Ratchet"
+- "SecureIntentSupport"
+- "Setting data of type %d on ACMContext %u"
+- "Shared"
+- "Stockholm"
+- "T@\"NSMutableData\",R,N,V_data"
+- "TI,R,N,V_acmTrackingNumber"
+- "TI,R,N,V_count"
+- "T^{?=I^vI},R,N"
+- "T^{__ACMHandle=},R,N,V_acmContext"
+- "TimeOffset:%u"
+- "TouchIdEnrollment"
+- "UID:%u"
+- "Unknown %@: '%@'"
+- "Unknown internalOperation: %@"
+- "UserIdentificationWithBiometrics"
+- "Util_AllocCredential"
+- "Util_AllocRequirement"
+- "Util_CreateRequirement"
+- "Util_DeallocCredential"
+- "Util_DeallocRequirement"
+- "Util_ReadFromBuffer"
+- "Util_SafeDeallocParameters"
+- "Util_WriteToBuffer"
+- "Util_hexDumpToStrHelper"
+- "Verified using ACM policy %s that requirement %d is %s on ACMContext %u, flags: %{public}@"
+- "Verifying ACM requirement %d using policy %s %{public}@ on ACMContext %u"
+- "^{?=I^vI}16@0:8"
+- "^{__ACMHandle=}"
+- "^{__ACMHandle=}16@0:8"
+- "_acmContext"
+- "_acmTrackingNumber"
+- "_appendACMParameter:"
+- "_checkDictionary:againstClassDictionary:entryName:customCheckBlock:"
+- "_checkEventProcessing:"
+- "_checkEventProcessingEventDictionary:"
+- "_checkSet:forValue:entityName:"
+- "_contextOwner"
+- "_count"
+- "_data"
+- "_description"
+- "_mcProfileConnection"
+- "_receiver"
+- "_verifyRequirement:satisfiedForType:present:flags:"
+- "aclRequiresPasscodeInternal"
+- "acmContext"
+- "acmParameterByAppendingACMParameters:"
+- "acmParameterDoNotStartDTOTimers"
+- "acmParameterSecureIntentSupport"
+- "acmParameterWithMaxContinuityAge:"
+- "acmParameterWithTimeOffset:"
+- "acmParameterWithUserId:"
+- "acmParameters"
+- "acmPolicyForPolicy:"
+- "acmTrackingNumber"
+- "acm_mem_alloc_info"
+- "acm_mem_free_info"
+- "addCredential:scope:error:"
+- "addCredential:scope:property:data:error:"
+- "addExtractablePassphrase:scope:error:"
+- "appendData:"
+- "array of ACMCredentialRef"
+- "array of ACMParameter"
+- "auditTokenToData:"
+- "boolEnvironmentVariable:"
+- "bundleForClass:"
+- "bytes"
+- "catacombUUID:"
+- "checkACL:"
+- "checkCredentialType:"
+- "checkEvent:"
+- "checkHasPendingUIRequestsWithCompletion:"
+- "checkInternalOperation:options:"
+- "checkOptions:"
+- "checkPolicy:"
+- "clear"
+- "commandCursor == commandBuffer + sizeof(commandBuffer)"
+- "connectToExistingContext:callback:clientId:reply:"
+- "copy"
+- "copyWithZone:"
+- "credential type"
+- "credentialOfType:property:error:"
+- "data"
+- "dataWithBytes:length:"
+- "dataWithJSONObject:options:error:"
+- "deleted"
+- "deserializeParameters"
+- "destroyed"
+- "dst || !dstCapacity"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "event"
+- "findACMParameterWithType:"
+- "flags"
+- "forwardingTargetForSelector:"
+- "getLengthOfParameters"
+- "getValue:"
+- "i8@?0"
+- "initWithACMContext:"
+- "initWithACMParamType:bytes:length:description:"
+- "initWithData:encoding:"
+- "initWithExternalizedContext:"
+- "initWithLength:"
+- "intValue"
+- "ioKitTransport"
+- "isCredentialOfTypeSet:error:"
+- "kofn"
+- "localizedStringForKey:"
+- "localizedStringForKey:value:table:"
+- "missingACMContextError"
+- "mutableBytes"
+- "not present"
+- "not satisfied"
+- "numberWithInt:"
+- "numberWithUnsignedInt:"
+- "objCType"
+- "option"
+- "performCommand"
+- "performContextBlock:error:"
+- "performContextVerificationBlock:completion:"
+- "performCredentialBlock:credentialType:error:"
+- "policy"
+- "preflightPolicy:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:"
+- "processAclCommandInternal"
+- "processAclInternal"
+- "processing option"
+- "q56@0:8@16@24@32@40@48"
+- "q60@0:8@16@24@32q40@48B56"
+- "r^{?=I^vI}20@0:8I16"
+- "removeCredentialsOfType:error:"
+- "replaceBytesInRange:withBytes:"
+- "replacePassphraseCredentialWithPurpose:passphrase:scope:error:"
+- "requirement:dataProperty:"
+- "requirement:hasFlag:andType:"
+- "requirement:hasState:andType:"
+- "requirement:uint32Property:"
+- "resetRatchet:"
+- "satisfied"
+- "serializeParameters"
+- "setCredential:type:reply:"
+- "setData:type:error:"
+- "sharedConnection"
+- "src || !srcLen"
+- "state"
+- "stringByAppendingFormat:"
+- "subrequirements"
+- "unlockScreenTypeWithOutSimplePasscodeType:"
+- "unsignedIntValue"
+- "updateLogLevelFromKext"
+- "v16@?0r^{__ACMRequirement=}8"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "v24@?0^{__ACMHandle=}8@?<v@?iB^{__ACMRequirement=}>16"
+- "v24@?0i8B12r^{__ACMRequirement=}16"
+- "v24@?0r^v8Q16"
+- "v28@?0i8r^v12Q20"
+- "v32@0:8@?16@?24"
+- "v32@?0@8@16^B24"
+- "v40@0:8@\"NSData\"16q24@?<v@?B@\"NSError\">32"
+- "v48@0:8*16r^{?=I^vI}24I32I36@?40"
+- "v48@0:8@\"NSData\"16@\"<LACContextCallbackXPC>\"24Q32@?<v@?@\"<LAContextXPC>\"@\"NSUUID\"@\"NSString\"@\"NSError\">40"
+- "v52@0:8*16B24r^{?=I^vI}28I36I40@?44"
+- "v60@0:8@16@24B32r^{?=I^vI}36I44I48@?52"
+- "valueWithBytes:objCType:"
+- "verifyAclConstraint:operation:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:"
+- "verifyAclConstraintForOperationCommandInternal"
+- "verifyAclConstraintInternal"
+- "verifyPasscodeUsingAKS:acmContext:userId:policy:options:bioLockoutRecovery:"
+- "verifyPasscodeUsingPAM:userID:pamService:pamUser:pamToken:"
+- "verifyPasswordUsingAKS:acmContext:userId:policy:options:bioLockoutRecovery:"
+- "verifyPasswordUsingPAM:userID:pamService:pamUser:pamToken:"
+- "verifyPolicy:preflight:parameters:parametersCount:maxGlobalCredentialAge:processRequirement:"
+- "verifyRequirementOfType:policy:error:"
+- "verifyRequirementOfType:policy:mustBePresent:parameter:flags:error:"
+- "{?=[8I]}"
+
+```

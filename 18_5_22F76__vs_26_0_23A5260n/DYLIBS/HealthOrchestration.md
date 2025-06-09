@@ -1,0 +1,318 @@
+## HealthOrchestration
+
+> `/System/Library/PrivateFrameworks/HealthOrchestration.framework/HealthOrchestration`
+
+```diff
+
+-5200.5.1.0.0
+-  __TEXT.__text: 0x90528
+-  __TEXT.__auth_stubs: 0x15b0
++6074.1.2.4.0
++  __TEXT.__text: 0x91c08
++  __TEXT.__auth_stubs: 0x1620
+   __TEXT.__objc_methlist: 0x3d4
+-  __TEXT.__const: 0x6c60
+-  __TEXT.__cstring: 0x1906
+-  __TEXT.__swift5_typeref: 0x1ba2
+-  __TEXT.__constg_swiftt: 0x25c0
+-  __TEXT.__swift5_reflstr: 0x145d
+-  __TEXT.__swift5_fieldmd: 0x1d4c
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_assocty: 0x4c8
+-  __TEXT.__swift5_proto: 0x5f8
+-  __TEXT.__swift5_types: 0x274
+-  __TEXT.__swift5_protos: 0x88
+-  __TEXT.__swift5_capture: 0x89c
+-  __TEXT.__oslogstring: 0xa6e
++  __TEXT.__const: 0x7580
++  __TEXT.__cstring: 0x1ae6
++  __TEXT.__swift5_typeref: 0x1d9a
++  __TEXT.__constg_swiftt: 0x2864
++  __TEXT.__swift5_reflstr: 0x163d
++  __TEXT.__swift5_fieldmd: 0x206c
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_assocty: 0x548
++  __TEXT.__swift5_proto: 0x650
++  __TEXT.__swift5_types: 0x2c0
++  __TEXT.__swift5_protos: 0x8c
++  __TEXT.__swift5_capture: 0x8cc
++  __TEXT.__oslogstring: 0xb32
++  __TEXT.__swift5_mpenum: 0x18
+   __TEXT.__swift_as_entry: 0xc
+   __TEXT.__swift_as_ret: 0xc
+-  __TEXT.__unwind_info: 0x28d0
+-  __TEXT.__eh_frame: 0x3820
++  __TEXT.__unwind_info: 0x2bc8
++  __TEXT.__eh_frame: 0x3d40
+   __TEXT.__objc_classname: 0xaa
+   __TEXT.__objc_methname: 0x907
+   __TEXT.__objc_methtype: 0x333
+-  __DATA_CONST.__got: 0x458
+-  __DATA_CONST.__const: 0x2f0
+-  __DATA_CONST.__objc_classlist: 0x170
++  __DATA_CONST.__got: 0x450
++  __DATA_CONST.__const: 0x2e0
++  __DATA_CONST.__objc_classlist: 0x190
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2e8
+   __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0xad8
+-  __AUTH_CONST.__const: 0x4f60
+-  __AUTH_CONST.__objc_const: 0x2d88
++  __AUTH_CONST.__auth_got: 0xb10
++  __AUTH_CONST.__const: 0x5728
++  __AUTH_CONST.__objc_const: 0x30c8
+   __AUTH.__objc_data: 0x300
+-  __AUTH.__data: 0x1020
+-  __DATA.__data: 0x1230
+-  __DATA.__bss: 0x7400
++  __AUTH.__data: 0x13f0
++  __DATA.__data: 0x1238
++  __DATA.__bss: 0x7d80
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x25d8
+-  __DATA_DIRTY.__bss: 0x3700
++  __DATA_DIRTY.__data: 0x2570
++  __DATA_DIRTY.__bss: 0x3800
+   __DATA_DIRTY.__common: 0x40
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 2ADDDFBD-99A4-3DD9-9A92-3D7D42DA142F
+-  Functions: 3669
+-  Symbols:   1259
+-  CStrings:  386
++  UUID: 951EE03D-8922-32C7-8557-34289648B24F
++  Functions: 3957
++  Symbols:   1322
++  CStrings:  399
+ 
+Symbols:
++ __DATA__TtC19HealthOrchestration21RequestedWorkExecutor
++ __DATA__TtC19HealthOrchestration24RequestedWorkInputSignal
++ __DATA__TtC19HealthOrchestration27RemoteRequestedWorkExecutor
++ __DATA__TtC19HealthOrchestration29InputSignalObservationManager
++ __DATA__TtCC19HealthOrchestration21RequestedWorkExecutor7Planner
++ __DATA__TtCC19HealthOrchestration29InputSignalObservationManagerP33_FADABE5D017225105B26087D83A6FBDC23InputSignalObserverShim
++ __IVARS__TtC19HealthOrchestration21RequestedWorkExecutor
++ __IVARS__TtC19HealthOrchestration24RequestedWorkInputSignal
++ __IVARS__TtC19HealthOrchestration27RemoteRequestedWorkExecutor
++ __IVARS__TtC19HealthOrchestration29InputSignalObservationManager
++ __IVARS__TtCC19HealthOrchestration21RequestedWorkExecutor7Planner
++ __IVARS__TtCC19HealthOrchestration29InputSignalObservationManagerP33_FADABE5D017225105B26087D83A6FBDC23InputSignalObserverShim
++ __METACLASS_DATA__TtC19HealthOrchestration21RequestedWorkExecutor
++ __METACLASS_DATA__TtC19HealthOrchestration24RequestedWorkInputSignal
++ __METACLASS_DATA__TtC19HealthOrchestration27RemoteRequestedWorkExecutor
++ __METACLASS_DATA__TtC19HealthOrchestration29InputSignalObservationManager
++ __METACLASS_DATA__TtCC19HealthOrchestration21RequestedWorkExecutor7Planner
++ __METACLASS_DATA__TtCC19HealthOrchestration29InputSignalObservationManagerP33_FADABE5D017225105B26087D83A6FBDC23InputSignalObserverShim
++ ___swift_memcpy41_8
++ ___swift_memcpy49_8
++ ___swift_memcpy88_8
++ ___swift_memcpy89_8
++ ___unnamed_12
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_HealthOrchestration
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_HealthOrchestration
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_HealthOrchestration
++ _associated conformance 19HealthOrchestration0B8DirectorC6ErrorsOSHAASQ
++ _associated conformance 19HealthOrchestration12OrchestratorC6ErrorsOSHAASQ
++ _associated conformance 19HealthOrchestration21RequestedWorkExecutorC7PlannerCAadA0D4PlanAaDP_AaF
++ _associated conformance 19HealthOrchestration21RequestedWorkExecutorCAA0E0AA7PlannerAaDP_AaE
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV10CodingKeys33_2203BC2F719679D8ACA99CED3A4B25CCLLOSHAASQ
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV10CodingKeys33_2203BC2F719679D8ACA99CED3A4B25CCLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV10CodingKeys33_2203BC2F719679D8ACA99CED3A4B25CCLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalC6AnchorVAA0efG0AA13ConfigurationAaFP_AA0efH0
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalC6AnchorVSLAASQ
++ _associated conformance 19HealthOrchestration24RequestedWorkInputSignalCAA0eF0AA6AnchorAaDP_AA0efG0
++ _associated conformance 19HealthOrchestration27RemoteRequestedWorkExecutorCAA0F0AA7PlannerAaDP_AaE
++ _associated conformance 19HealthOrchestration29InputSignalObservationManagerC16AnyConfiguration33_FADABE5D017225105B26087D83A6FBDCLLVSHAASQ
++ _block_copy_helper.2
++ _block_copy_helper.24
++ _block_descriptor.26
++ _block_descriptor.4
++ _block_destroy_helper.25
++ _block_destroy_helper.3
++ _get_enum_tag_for_layout_string 19HealthOrchestration12WorkCriteriaC10AdjustmentO
++ _get_enum_tag_for_layout_string 19HealthOrchestration29InputSignalObservationManagerC0D9DependentO
++ _objc_retain_x1
++ _objc_retain_x9
++ _objectdestroy.13Tm
++ _objectdestroy.31Tm
++ _swift_coroFrameAlloc
++ _swift_getErrorValue
++ _symbolic $s19HealthOrchestration19RequestedWorkSourceP
++ _symbolic SDySS_____G 19HealthOrchestration21RequestedWorkExecutorC0cD0V
++ _symbolic SDy_____Say_____GG 19HealthOrchestration21InputSignalIdentifierV AA0cD18ObservationManagerC0D9DependentO
++ _symbolic SDy_____Shy_____GG 19HealthOrchestration21InputSignalIdentifierV AA0cD18ObservationManagerC16AnyConfiguration33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic Say_____G 19HealthOrchestration21RequestedWorkExecutorC0cD0V
++ _symbolic Say_____G 19HealthOrchestration9WorkQueueC12FetchRequest33_8AA49E07094AE8998E05DD817C0ECA76LLV
++ _symbolic Say_____G___________tYbc 19HealthOrchestration12WorkCriteriaC10AdjustmentO AA09ScheduledC4PlanV AG6ResultO
++ _symbolic Say______pG 19HealthOrchestration10DispatcherP
++ _symbolic Say______pG 19HealthOrchestration17InputSignalAnchorP
++ _symbolic Sb_____Ybc 19HealthOrchestration17ScheduledWorkPlanV
++ _symbolic Shy_____G 19HealthOrchestration24ScopedExecutorIdentifierV
++ _symbolic Shy_____G 19HealthOrchestration29InputSignalObservationManagerC16AnyConfiguration33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration0B8DirectorC6ErrorsO
++ _symbolic _____ 19HealthOrchestration12OrchestratorC6ErrorsO
++ _symbolic _____ 19HealthOrchestration12WorkCriteriaC10AdjustmentO
++ _symbolic _____ 19HealthOrchestration20AnchoredWorkCriteriaV
++ _symbolic _____ 19HealthOrchestration21RequestedWorkExecutorC
++ _symbolic _____ 19HealthOrchestration21RequestedWorkExecutorC0cD0V
++ _symbolic _____ 19HealthOrchestration21RequestedWorkExecutorC7PlannerC
++ _symbolic _____ 19HealthOrchestration21RequestedWorkExecutorC7PlannerC5State33_0D2877DE1782D41EF055B1223E5237ABLLV
++ _symbolic _____ 19HealthOrchestration24RequestedWorkInputSignalC
++ _symbolic _____ 19HealthOrchestration24RequestedWorkInputSignalC5State33_2203BC2F719679D8ACA99CED3A4B25CCLLV
++ _symbolic _____ 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV
++ _symbolic _____ 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV10CodingKeys33_2203BC2F719679D8ACA99CED3A4B25CCLLO
++ _symbolic _____ 19HealthOrchestration27RemoteRequestedWorkExecutorC
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0D9DependentO
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0cD11SetupRecord33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0cD12ObserverShim33_FADABE5D017225105B26087D83A6FBDCLLC
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0cD12ObserverShim33_FADABE5D017225105B26087D83A6FBDCLLC5StateV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0cD16DependencyRecordV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC0cD6Record33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC12WeakObserver33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC16AnyConfiguration33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration29InputSignalObservationManagerC5State33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____ 19HealthOrchestration9WorkQueueC12FetchRequest33_8AA49E07094AE8998E05DD817C0ECA76LLV
++ _symbolic _____SgSo7NSErrorCSgIeggg_ 19HealthOrchestration23SecurelyCodableWorkPlanC
++ _symbolic _____SgSo7NSErrorCSgIeghgg_ 19HealthOrchestration23SecurelyCodableWorkPlanC
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 19HealthOrchestration23SecurelyCodableWorkPlanC
++ _symbolic ______Say______pGt 19HealthOrchestration12WorkCriteriaC10IdentifierV AA24InputSignalConfigurationP
++ _symbolic __________Ieghnn_ 19HealthOrchestration17ScheduledWorkPlanV AC6ResultO
++ _symbolic __________Say_____GIeghnno_ 19HealthOrchestration17ScheduledWorkPlanV AC6ResultO AA0D8CriteriaC10AdjustmentO
++ _symbolic __________Say_____GIeghnnr_ 19HealthOrchestration17ScheduledWorkPlanV AC6ResultO AA0D8CriteriaC10AdjustmentO
++ _symbolic ______p 19HealthOrchestration19RequestedWorkSourceP
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration21RequestedWorkExecutorC7PlannerC5State33_0D2877DE1782D41EF055B1223E5237ABLLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration24RequestedWorkInputSignalC5State33_2203BC2F719679D8ACA99CED3A4B25CCLLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration29InputSignalObservationManagerC0gH12ObserverShim33_FADABE5D017225105B26087D83A6FBDCLLC5StateV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration29InputSignalObservationManagerC12WeakObserver33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration29InputSignalObservationManagerC5State33_FADABE5D017225105B26087D83A6FBDCLLV
++ _symbolic _____yy_____Sg_So7NSErrorCSgtcG 19HealthOrchestration17UncheckedSendableV AA23SecurelyCodableWorkPlanC
++ _symbolic y_____Ybc 19HealthOrchestration17ScheduledWorkPlanV
++ _symbolic yySo7NSErrorCSgYbcYbc
++ _type_layout_string 19HealthOrchestration12WorkCriteriaC10AdjustmentO
++ _type_layout_string 19HealthOrchestration20AnchoredWorkCriteriaV
++ _type_layout_string 19HealthOrchestration21RequestedWorkExecutorC0cD0V
++ _type_layout_string 19HealthOrchestration21RequestedWorkExecutorC7PlannerC5State33_0D2877DE1782D41EF055B1223E5237ABLLV
++ _type_layout_string 19HealthOrchestration24RequestedWorkInputSignalC6AnchorV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC0D9DependentO
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC0cD11SetupRecord33_FADABE5D017225105B26087D83A6FBDCLLV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC0cD12ObserverShim33_FADABE5D017225105B26087D83A6FBDCLLC5StateV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC0cD16DependencyRecordV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC0cD6Record33_FADABE5D017225105B26087D83A6FBDCLLV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC16AnyConfiguration33_FADABE5D017225105B26087D83A6FBDCLLV
++ _type_layout_string 19HealthOrchestration29InputSignalObservationManagerC5State33_FADABE5D017225105B26087D83A6FBDCLLV
++ _type_layout_string 19HealthOrchestration9WorkQueueC12FetchRequest33_8AA49E07094AE8998E05DD817C0ECA76LLV
+- __DATA__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE22InputSignalSetupRecord
+- __DATA__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE23InputSignalObserverShim
+- __IVARS__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE22InputSignalSetupRecord
+- __IVARS__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE23InputSignalObserverShim
+- __METACLASS_DATA__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE22InputSignalSetupRecord
+- __METACLASS_DATA__TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE23InputSignalObserverShim
+- ___swift_memcpy72_8
+- ___unnamed_8
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_HealthOrchestration
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_HealthOrchestration
+- _associated conformance 19HealthOrchestration12OrchestratorC16AnyConfiguration33_6F107C31261257E8EBA0FEBC27EFA4BELLVSHAASQ
+- _block_copy_helper.25
+- _block_copy_helper.4
+- _block_copy_helper.55
+- _block_descriptor.27
+- _block_descriptor.57
+- _block_descriptor.6
+- _block_destroy_helper.26
+- _block_destroy_helper.5
+- _block_destroy_helper.56
+- _objc_release_x28
+- _objc_retain_x28
+- _objectdestroy.62Tm
+- _symbolic SaySsG
+- _symbolic Say_____G 19HealthOrchestration12OrchestratorC17InputSignalRecord33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _symbolic Sayy_____YbcG 19HealthOrchestration17ScheduledWorkPlanV
+- _symbolic Shy_____G 19HealthOrchestration12OrchestratorC16AnyConfiguration33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _symbolic So7NSErrorCSgIegg_
+- _symbolic So7NSErrorCSgIeyBy_
+- _symbolic _____ 19HealthOrchestration12OrchestratorC16AnyConfiguration33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _symbolic _____ 19HealthOrchestration12OrchestratorC17InputSignalRecord33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _symbolic _____ 19HealthOrchestration12OrchestratorC22InputSignalSetupRecord33_6F107C31261257E8EBA0FEBC27EFA4BELLC
+- _symbolic _____ 19HealthOrchestration12OrchestratorC23InputSignalObserverShim33_6F107C31261257E8EBA0FEBC27EFA4BELLC
+- _symbolic _____ 19HealthOrchestration12OrchestratorC23InputSignalObserverShim33_6F107C31261257E8EBA0FEBC27EFA4BELLC5StateV
+- _symbolic _____ SS5IndexV
+- _symbolic _____Ieghn_ 19HealthOrchestration17ScheduledWorkPlanV
+- _symbolic __________Ieghng_ 19HealthOrchestration17ScheduledWorkPlanV AC6ResultO
+- _symbolic ______p 19HealthOrchestration10DispatcherP
+- _symbolic _____ySDy_____Say_____GGG 2os21OSAllocatedUnfairLockV 19HealthOrchestration24ScopedExecutorIdentifierV AD18WorkCriteriaRecordC
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 19HealthOrchestration12OrchestratorC23InputSignalObserverShim33_6F107C31261257E8EBA0FEBC27EFA4BELLC5StateV
+- _symbolic _____y___________p_G SD4KeysV 19HealthOrchestration24ScopedExecutorIdentifierV AC7PlannerP
+- _symbolic _____ytIeghnr_ 19HealthOrchestration17ScheduledWorkPlanV
+- _symbolic _____yySo7NSErrorCSgcG 19HealthOrchestration17UncheckedSendableV
+- _type_layout_string 19HealthOrchestration12OrchestratorC16AnyConfiguration33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _type_layout_string 19HealthOrchestration12OrchestratorC17InputSignalRecord33_6F107C31261257E8EBA0FEBC27EFA4BELLV
+- _type_layout_string 19HealthOrchestration12OrchestratorC23InputSignalObserverShim33_6F107C31261257E8EBA0FEBC27EFA4BELLC5StateV
+CStrings:
++ "[%s]: %s Removing criteria %s."
++ "[%s]: %s requested criteria update for non-existent criteria %s; ignoring."
++ "[%s]: Stopping observation of %s"
++ "[%s]: Updating observation of %s"
++ "_TtC19HealthOrchestration21RequestedWorkExecutor"
++ "_TtC19HealthOrchestration24RequestedWorkInputSignal"
++ "_TtC19HealthOrchestration27RemoteRequestedWorkExecutor"
++ "_TtC19HealthOrchestration29InputSignalObservationManager"
++ "_TtCC19HealthOrchestration21RequestedWorkExecutor7Planner"
++ "_TtCC19HealthOrchestration29InputSignalObservationManagerP33_FADABE5D017225105B26087D83A6FBDC23InputSignalObserverShim"
++ "criteriaIdentifier"
++ "dispatchers"
++ "filter"
++ "inputSignal"
++ "inputSignalObservationManager"
++ "isObserving"
++ "nextWorkItem(filter:)"
++ "source"
++ "v24@?0@\"_TtC19HealthOrchestration23SecurelyCodableWorkPlan\"8@\"NSError\"16"
++ "v48@0:8@\"_TtC19HealthOrchestration23SecurelyCodableWorkPlan\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"_TtC19HealthOrchestration23SecurelyCodableWorkPlan\"@\"NSError\">40"
++ "weakObserver"
+- "_TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE22InputSignalSetupRecord"
+- "_TtCC19HealthOrchestration12OrchestratorP33_6F107C31261257E8EBA0FEBC27EFA4BE23InputSignalObserverShim"
+- "anchor"
+- "criteria"
+- "dependencyConfigurations"
+- "dispatcher"
+- "planners"
+- "v48@0:8@\"_TtC19HealthOrchestration23SecurelyCodableWorkPlan\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSError\">40"
+
+```

@@ -1,0 +1,460 @@
+## LighthouseDataProcessor
+
+> `/System/Library/PrivateFrameworks/LighthouseDataProcessor.framework/LighthouseDataProcessor`
+
+```diff
+
+-1.5.4.0.0
+-  __TEXT.__text: 0x2d0c74
+-  __TEXT.__auth_stubs: 0x16d0
++2.0.1.0.0
++  __TEXT.__text: 0x2d4c04
++  __TEXT.__auth_stubs: 0x16c0
+   __TEXT.__objc_methlist: 0x174
+-  __TEXT.__const: 0x32fe0
+-  __TEXT.__cstring: 0xa065
+-  __TEXT.__constg_swiftt: 0x5d0c
+-  __TEXT.__swift5_typeref: 0x7144
++  __TEXT.__const: 0x34c20
++  __TEXT.__cstring: 0xa815
++  __TEXT.__constg_swiftt: 0x5f68
++  __TEXT.__swift5_typeref: 0x746e
+   __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x6098
+-  __TEXT.__swift5_fieldmd: 0x9624
+-  __TEXT.__swift5_assocty: 0xbe0
+-  __TEXT.__swift5_proto: 0x2e60
+-  __TEXT.__swift5_types: 0x97c
++  __TEXT.__swift5_reflstr: 0x65f8
++  __TEXT.__swift5_fieldmd: 0x9ad8
++  __TEXT.__swift5_assocty: 0xc70
++  __TEXT.__swift5_proto: 0x2fe0
++  __TEXT.__swift5_types: 0x9bc
+   __TEXT.__swift5_protos: 0x20
+-  __TEXT.__oslogstring: 0x14d2
+-  __TEXT.__swift5_capture: 0x17c
++  __TEXT.__oslogstring: 0x14e2
++  __TEXT.__swift5_capture: 0x194
+   __TEXT.__swift_as_entry: 0x60
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__swift5_mpenum: 0x64
+-  __TEXT.__unwind_info: 0xc8d0
+-  __TEXT.__eh_frame: 0x182f8
++  __TEXT.__unwind_info: 0xc8c8
++  __TEXT.__eh_frame: 0x18608
+   __TEXT.__objc_classname: 0x15
+-  __TEXT.__objc_methname: 0x1767
++  __TEXT.__objc_methname: 0x1781
+   __TEXT.__objc_methtype: 0xff
+-  __DATA_CONST.__got: 0x828
++  __DATA_CONST.__got: 0x810
+   __DATA_CONST.__const: 0x100
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x9f8
++  __DATA_CONST.__objc_selrefs: 0xa00
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0xb68
+-  __AUTH_CONST.__const: 0x5f30
++  __AUTH_CONST.__auth_got: 0xb60
++  __AUTH_CONST.__const: 0x61b0
+   __AUTH_CONST.__objc_const: 0x770
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x3cd0
+-  __DATA.__data: 0xaeb8
+-  __DATA.__bss: 0x5b800
++  __AUTH.__data: 0x3da0
++  __DATA.__data: 0xb268
++  __DATA.__bss: 0x5e800
+   __DATA.__common: 0x68
+-  __DATA_DIRTY.__data: 0xdf30
++  __DATA_DIRTY.__data: 0xe660
+   __DATA_DIRTY.__bss: 0x1000
+   __DATA_DIRTY.__common: 0x20
+   - /System/Library/Frameworks/Combine.framework/Combine
+
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 1BA508E2-2CD7-39D0-B620-5626A6D1595C
+-  Functions: 20117
+-  Symbols:   4149
+-  CStrings:  2067
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: AD7141CE-3B7C-3B76-98C1-4DDAC990EE18
++  Functions: 20644
++  Symbols:   4252
++  CStrings:  2136
+ 
+Symbols:
++ ___swift_get_extra_inhabitant_index.1012Tm
++ ___swift_get_extra_inhabitant_index.1207Tm
++ ___swift_get_extra_inhabitant_index.1234Tm
++ ___swift_get_extra_inhabitant_index.1279Tm
++ ___swift_get_extra_inhabitant_index.1288Tm
++ ___swift_get_extra_inhabitant_index.154Tm
++ ___swift_get_extra_inhabitant_index.170Tm
++ ___swift_get_extra_inhabitant_index.1861Tm
++ ___swift_get_extra_inhabitant_index.1924Tm
++ ___swift_get_extra_inhabitant_index.197Tm
++ ___swift_get_extra_inhabitant_index.203Tm
++ ___swift_get_extra_inhabitant_index.233Tm
++ ___swift_get_extra_inhabitant_index.2344Tm
++ ___swift_get_extra_inhabitant_index.242Tm
++ ___swift_get_extra_inhabitant_index.269Tm
++ ___swift_get_extra_inhabitant_index.296Tm
++ ___swift_get_extra_inhabitant_index.314Tm
++ ___swift_get_extra_inhabitant_index.327Tm
++ ___swift_get_extra_inhabitant_index.336Tm
++ ___swift_get_extra_inhabitant_index.368Tm
++ ___swift_get_extra_inhabitant_index.395Tm
++ ___swift_get_extra_inhabitant_index.404Tm
++ ___swift_get_extra_inhabitant_index.422Tm
++ ___swift_get_extra_inhabitant_index.454Tm
++ ___swift_get_extra_inhabitant_index.472Tm
++ ___swift_get_extra_inhabitant_index.514Tm
++ ___swift_get_extra_inhabitant_index.637Tm
++ ___swift_get_extra_inhabitant_index.805Tm
++ ___swift_get_extra_inhabitant_index.895Tm
++ ___swift_get_extra_inhabitant_index.967Tm
++ ___swift_store_extra_inhabitant_index.1013Tm
++ ___swift_store_extra_inhabitant_index.1208Tm
++ ___swift_store_extra_inhabitant_index.1235Tm
++ ___swift_store_extra_inhabitant_index.1280Tm
++ ___swift_store_extra_inhabitant_index.1289Tm
++ ___swift_store_extra_inhabitant_index.155Tm
++ ___swift_store_extra_inhabitant_index.171Tm
++ ___swift_store_extra_inhabitant_index.1862Tm
++ ___swift_store_extra_inhabitant_index.1925Tm
++ ___swift_store_extra_inhabitant_index.198Tm
++ ___swift_store_extra_inhabitant_index.204Tm
++ ___swift_store_extra_inhabitant_index.2345Tm
++ ___swift_store_extra_inhabitant_index.234Tm
++ ___swift_store_extra_inhabitant_index.243Tm
++ ___swift_store_extra_inhabitant_index.270Tm
++ ___swift_store_extra_inhabitant_index.297Tm
++ ___swift_store_extra_inhabitant_index.315Tm
++ ___swift_store_extra_inhabitant_index.328Tm
++ ___swift_store_extra_inhabitant_index.337Tm
++ ___swift_store_extra_inhabitant_index.369Tm
++ ___swift_store_extra_inhabitant_index.396Tm
++ ___swift_store_extra_inhabitant_index.405Tm
++ ___swift_store_extra_inhabitant_index.423Tm
++ ___swift_store_extra_inhabitant_index.455Tm
++ ___swift_store_extra_inhabitant_index.473Tm
++ ___swift_store_extra_inhabitant_index.515Tm
++ ___swift_store_extra_inhabitant_index.638Tm
++ ___swift_store_extra_inhabitant_index.806Tm
++ ___swift_store_extra_inhabitant_index.896Tm
++ ___swift_store_extra_inhabitant_index.968Tm
++ ___unnamed_11
++ ___unnamed_7
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_LighthouseDataProcessor
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_LighthouseDataProcessor
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemVSHAASQ
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateOSHAASQ
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeOSHAASQ
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeOSHAASQ
++ _associated conformance 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor30TranscriptProtoDateTimeContextVSHAASQ
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestVSHAASQ
++ _associated conformance 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestVSHAASQ
++ _associated conformance 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestVSHAASQ
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementVSHAASQ
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionVSHAASQ
++ _associated conformance 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0O0
++ _associated conformance 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestVSHAASQ
++ _block_copy_helper.10
++ _block_copy_helper.27
++ _block_descriptor.12
++ _block_descriptor.29
++ _block_destroy_helper.11
++ _block_destroy_helper.28
++ _swift_coroFrameAlloc
++ _swift_setDeallocating
++ _symbolic SS_So8NSObjectCt
++ _symbolic Say_____G 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateO
++ _symbolic Say_____G 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeO
++ _symbolic Say_____G 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeO
++ _symbolic Say_____G 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementV
++ _symbolic _____ 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemV
++ _symbolic _____ 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateO
++ _symbolic _____ 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeO
++ _symbolic _____ 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeO
++ _symbolic _____ 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV
++ _symbolic _____ 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestV
++ _symbolic _____ 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestV
++ _symbolic _____ 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionV
++ _symbolic _____ 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestV
++ _symbolic _____ 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionV
++ _symbolic _____ 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionV
++ _symbolic _____ 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionV
++ _symbolic _____ 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionV
++ _symbolic _____ 23LighthouseDataProcessor41TranscriptProtoSpanMatchedEntityStatementV
++ _symbolic _____ 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionV
++ _symbolic _____ 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestV
++ _symbolic _____Sg 23LighthouseDataProcessor020ContextProtoStructedD19NowPlayingMediaItemV
++ _symbolic _____Sg 23LighthouseDataProcessor020ContextProtoStructedD34NowPlayingMediaRemotePlaybackStateO
++ _symbolic _____Sg 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI4TypeO
++ _symbolic _____Sg 23LighthouseDataProcessor020ContextProtoStructedd32NowPlayingMediaRemoteContentItemI7SubTypeO
++ _symbolic _____Sg 23LighthouseDataProcessor15ParticipantInfoV
++ _symbolic _____Sg 23LighthouseDataProcessor29ContextProtoSpanMatchedEntityV
++ _symbolic _____Sg 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV
++ _symbolic _____Sg 23LighthouseDataProcessor31TranscriptProtoSpanMatchRequestV
++ _symbolic _____Sg 23LighthouseDataProcessor35TranscriptProtoToolRetrievalRequestV
++ _symbolic _____Sg 23LighthouseDataProcessor36TranscriptProtoUserConfirmExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor38TranscriptProtoContextRetrievalRequestV
++ _symbolic _____Sg 23LighthouseDataProcessor38TranscriptProtoRetrieveSpansExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor38TranscriptProtoRetrieveToolsExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor38TranscriptProtoSiriXFallbackExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor40TranscriptProtoRetrieveContextExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor41TranscriptProtoUserDisambiguateExpressionV
++ _symbolic _____Sg 23LighthouseDataProcessor49TranscriptProtoActionFailureUnableToHandleRequestV
++ _symbolic _____Sg_ABt 23LighthouseDataProcessor29ContextProtoSpanMatchedEntityV
++ _symbolic _____Sg_ABt 23LighthouseDataProcessor30TranscriptProtoDateTimeContextV
+- ___swift_get_extra_inhabitant_index.1189Tm
+- ___swift_get_extra_inhabitant_index.1216Tm
+- ___swift_get_extra_inhabitant_index.1261Tm
+- ___swift_get_extra_inhabitant_index.1270Tm
+- ___swift_get_extra_inhabitant_index.152Tm
+- ___swift_get_extra_inhabitant_index.1540Tm
+- ___swift_get_extra_inhabitant_index.168Tm
+- ___swift_get_extra_inhabitant_index.174Tm
+- ___swift_get_extra_inhabitant_index.1843Tm
+- ___swift_get_extra_inhabitant_index.186Tm
+- ___swift_get_extra_inhabitant_index.1897Tm
+- ___swift_get_extra_inhabitant_index.2263Tm
+- ___swift_get_extra_inhabitant_index.240Tm
+- ___swift_get_extra_inhabitant_index.258Tm
+- ___swift_get_extra_inhabitant_index.285Tm
+- ___swift_get_extra_inhabitant_index.289Tm
+- ___swift_get_extra_inhabitant_index.298Tm
+- ___swift_get_extra_inhabitant_index.303Tm
+- ___swift_get_extra_inhabitant_index.357Tm
+- ___swift_get_extra_inhabitant_index.384Tm
+- ___swift_get_extra_inhabitant_index.393Tm
+- ___swift_get_extra_inhabitant_index.405Tm
+- ___swift_get_extra_inhabitant_index.411Tm
+- ___swift_get_extra_inhabitant_index.461Tm
+- ___swift_get_extra_inhabitant_index.503Tm
+- ___swift_get_extra_inhabitant_index.626Tm
+- ___swift_get_extra_inhabitant_index.794Tm
+- ___swift_get_extra_inhabitant_index.949Tm
+- ___swift_get_extra_inhabitant_index.994Tm
+- ___swift_store_extra_inhabitant_index.1190Tm
+- ___swift_store_extra_inhabitant_index.1217Tm
+- ___swift_store_extra_inhabitant_index.1262Tm
+- ___swift_store_extra_inhabitant_index.1271Tm
+- ___swift_store_extra_inhabitant_index.153Tm
+- ___swift_store_extra_inhabitant_index.1541Tm
+- ___swift_store_extra_inhabitant_index.169Tm
+- ___swift_store_extra_inhabitant_index.175Tm
+- ___swift_store_extra_inhabitant_index.1844Tm
+- ___swift_store_extra_inhabitant_index.187Tm
+- ___swift_store_extra_inhabitant_index.1898Tm
+- ___swift_store_extra_inhabitant_index.2264Tm
+- ___swift_store_extra_inhabitant_index.241Tm
+- ___swift_store_extra_inhabitant_index.259Tm
+- ___swift_store_extra_inhabitant_index.286Tm
+- ___swift_store_extra_inhabitant_index.290Tm
+- ___swift_store_extra_inhabitant_index.299Tm
+- ___swift_store_extra_inhabitant_index.304Tm
+- ___swift_store_extra_inhabitant_index.358Tm
+- ___swift_store_extra_inhabitant_index.385Tm
+- ___swift_store_extra_inhabitant_index.394Tm
+- ___swift_store_extra_inhabitant_index.406Tm
+- ___swift_store_extra_inhabitant_index.412Tm
+- ___swift_store_extra_inhabitant_index.462Tm
+- ___swift_store_extra_inhabitant_index.504Tm
+- ___swift_store_extra_inhabitant_index.627Tm
+- ___swift_store_extra_inhabitant_index.795Tm
+- ___swift_store_extra_inhabitant_index.950Tm
+- ___swift_store_extra_inhabitant_index.995Tm
+- ___unnamed_10
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_LighthouseDataProcessor
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_LighthouseDataProcessor
+- _block_copy_helper.28
+- _block_descriptor.30
+- _block_destroy_helper.29
+- _objc_storeStrong
+- _swift_getObjCClassFromMetadata
+- _swift_release_n
+- _swift_retain_n
+- _symbolic _____Sg 23LighthouseDataProcessor20TranscriptProtoEventV
+- _symbolic _____Sg 23LighthouseDataProcessor41TranscriptProtoInterpretedStatementResultV
+CStrings:
++ "Context.StructedContextNowPlayingMediaItem"
++ "ContextRetrievalRequest"
++ "LIVE_CALL"
++ "MediaSubTypeAudiobook"
++ "MediaSubTypeHomeMedia"
++ "MediaSubTypeITunesU"
++ "MediaSubTypeMovie"
++ "MediaSubTypeMusic"
++ "MediaSubTypeNone"
++ "MediaSubTypePodcast"
++ "MediaSubTypeTVShow"
++ "MediaSubTypeUnsupported"
++ "MediaTypeAudio"
++ "MediaTypeNone"
++ "MediaTypeUnsupported"
++ "MediaTypeVideo"
++ "PlaybackStateInterrupted"
++ "PlaybackStatePaused"
++ "PlaybackStatePlaying"
++ "PlaybackStateSeeking"
++ "PlaybackStateStopped"
++ "PlaybackStateUnknown"
++ "PlaybackStateUnsupported"
++ "SpanMatchRequest"
++ "ToolRetrievalRequest"
++ "Transcript.ActionFailureUnableToHandleRequest"
++ "Transcript.ContextRetrievalRequest"
++ "Transcript.DateTimeContext"
++ "Transcript.RetrieveContextExpression"
++ "Transcript.RetrieveSpansExpression"
++ "Transcript.RetrieveToolsExpression"
++ "Transcript.SiriXFallbackExpression"
++ "Transcript.SpanMatchRequest"
++ "Transcript.SpanMatchedEntityStatement"
++ "Transcript.ToolRetrievalRequest"
++ "Transcript.UserConfirmExpression"
++ "Transcript.UserDisambiguateExpression"
++ "albumName"
++ "brandIdentifier"
++ "confirmOption"
++ "contentIdentifier"
++ "contextRetrievalRequest"
++ "currentlyPlayingSongAdamId"
++ "dateTime"
++ "datetimeContext"
++ "dismissOption"
++ "iTunesStoreAlbumIdentifier"
++ "iTunesStoreArtistIdentifier"
++ "iTunesStoreIdentifier"
++ "mediaSubType"
++ "mediaType"
++ "nowPlayingMediaItem"
++ "playbackState"
++ "processInstanceIdentifier"
++ "promptForUser"
++ "retrieveContext"
++ "retrieveSpans"
++ "retrieveTools"
++ "rewrittenUtterance"
++ "ruleBasedPlanGenerator"
++ "setUnableToHandleRequest:"
++ "shouldExecutePreviousActionsForUserPrompt"
++ "siriXFallback"
++ "spanMatchRequest"
++ "timeZone"
++ "toolRetrievalRequest"
++ "trackArtistName"
++ "unableToHandleRequest"
++ "userConfirm"
++ "userDisambiguate"
+- "enumSymbol"
+
+```

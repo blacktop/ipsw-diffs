@@ -1,0 +1,2952 @@
+## CoreHandwriting
+
+> `/System/Library/PrivateFrameworks/CoreHandwriting.framework/CoreHandwriting`
+
+```diff
+
+-521.7.100.0.0
+-  __TEXT.__text: 0x311514
+-  __TEXT.__auth_stubs: 0x2910
+-  __TEXT.__objc_methlist: 0xcbbc
+-  __TEXT.__const: 0xcb00
++544.0.0.0.0
++  __TEXT.__text: 0x34d5a4
++  __TEXT.__auth_stubs: 0x27c0
++  __TEXT.__init_offsets: 0x4
++  __TEXT.__objc_methlist: 0xdd84
++  __TEXT.__const: 0xd5a0
+   __TEXT.__dlopen_cstrs: 0x22c
+-  __TEXT.__cstring: 0x91a1
+-  __TEXT.__constg_swiftt: 0x214
+-  __TEXT.__swift5_typeref: 0x208
++  __TEXT.__cstring: 0x893c
++  __TEXT.__constg_swiftt: 0x21c
++  __TEXT.__swift5_typeref: 0x21c
+   __TEXT.__swift5_fieldmd: 0x110
+   __TEXT.__swift5_builtin: 0x50
+   __TEXT.__swift5_reflstr: 0xe3
+   __TEXT.__swift5_assocty: 0x60
+   __TEXT.__swift5_proto: 0x34
+   __TEXT.__swift5_types: 0x24
+-  __TEXT.__oslogstring: 0x14a47
+-  __TEXT.__gcc_except_tab: 0x4b7f4
+-  __TEXT.__ustring: 0x1fd4
+-  __TEXT.__unwind_info: 0xae08
+-  __TEXT.__eh_frame: 0x218
+-  __TEXT.__objc_classname: 0x22c3
+-  __TEXT.__objc_methname: 0x23ad5
+-  __TEXT.__objc_methtype: 0x10654
+-  __TEXT.__objc_stubs: 0x14160
+-  __DATA_CONST.__got: 0xe00
+-  __DATA_CONST.__const: 0x4de0
+-  __DATA_CONST.__objc_classlist: 0x960
++  __TEXT.__oslogstring: 0x1686d
++  __TEXT.__gcc_except_tab: 0x51be4
++  __TEXT.__ustring: 0x25c6
++  __TEXT.__unwind_info: 0xb568
++  __TEXT.__eh_frame: 0x1a8
++  __TEXT.__objc_classname: 0x257d
++  __TEXT.__objc_methname: 0x2592b
++  __TEXT.__objc_methtype: 0xc5da
++  __TEXT.__objc_stubs: 0x15080
++  __DATA_CONST.__got: 0xa00
++  __DATA_CONST.__const: 0x5050
++  __DATA_CONST.__objc_classlist: 0xa08
+   __DATA_CONST.__objc_catlist: 0x38
+-  __DATA_CONST.__objc_protolist: 0x110
++  __DATA_CONST.__objc_protolist: 0x128
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5f08
++  __DATA_CONST.__objc_selrefs: 0x6370
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x708
+-  __DATA_CONST.__objc_arraydata: 0x2258
+-  __AUTH_CONST.__auth_got: 0x14a0
+-  __AUTH_CONST.__const: 0x4500
+-  __AUTH_CONST.__cfstring: 0xdae0
+-  __AUTH_CONST.__objc_const: 0x1ae90
++  __DATA_CONST.__objc_superrefs: 0x7a0
++  __DATA_CONST.__objc_arraydata: 0x22d0
++  __AUTH_CONST.__auth_got: 0x13f8
++  __AUTH_CONST.__const: 0x4c38
++  __AUTH_CONST.__cfstring: 0xe8c0
++  __AUTH_CONST.__objc_const: 0x1c840
+   __AUTH_CONST.__objc_dictobj: 0x460
+-  __AUTH_CONST.__objc_arrayobj: 0xd08
+-  __AUTH_CONST.__objc_intobj: 0x15f0
++  __AUTH_CONST.__objc_arrayobj: 0xd68
++  __AUTH_CONST.__objc_intobj: 0x1650
+   __AUTH_CONST.__objc_floatobj: 0x40
+   __AUTH_CONST.__objc_doubleobj: 0xe0
+-  __AUTH.__objc_data: 0x5f08
++  __AUTH.__objc_data: 0x65a0
+   __AUTH.__data: 0xb0
+-  __DATA.__objc_ivar: 0x13b8
+-  __DATA.__data: 0xf00
+-  __DATA.__bss: 0x12b8
++  __DATA.__objc_ivar: 0x14a0
++  __DATA.__data: 0x1020
++  __DATA.__bss: 0x1348
+   __DATA.__common: 0x80
+   __DATA_DIRTY.__objc_data: 0xf0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 52C47BAC-C22E-3515-945F-72D4030B8702
+-  Functions: 7249
+-  Symbols:   2454
+-  CStrings:  10713
++  UUID: DAF610CC-CC3B-3C2F-8B53-9AE83EEC4D68
++  Functions: 7345
++  Symbols:   1196
++  CStrings:  11186
+ 
+Symbols:
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisManager._leftToRightBottomUpStrategy
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisManager._maxNumStrokesPerTile
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisManager._rightToLeftBottomUpStrategy
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisManager._scriptCodeMap
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisManager._tilingManager
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisResult._hash
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisResult._sparseAdjacencyMatrix
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisResult._strokeClassificationMatrix
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisTileResult._hash
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisTileResult._sparseAdjacencyMatrix
++ OBJC_IVAR_$_CHDocumentLayoutAnalysisTileResult._strokeClassificationMatrix
++ OBJC_IVAR_$_CHDocumentLayoutAnalyzer._contentNumStrokes
++ OBJC_IVAR_$_CHDocumentLayoutAnalyzer._contextNumStrokes
++ OBJC_IVAR_$_CHDocumentLayoutAnalyzer._maxNumInputStrokes
++ OBJC_IVAR_$_CHDocumentTile._origin
++ OBJC_IVAR_$_CHDocumentTile._savedHash
++ OBJC_IVAR_$_CHDocumentTile._scale
++ OBJC_IVAR_$_CHTokenizedTextResultToken._principalPoints
++ _CFCharacterSetIsLongCharacterMember
++ _CHGroupingPostProcessingManagerOptionIgnorePreviousRecognitionResults
++ _CHTextSynthesisOptionSynthesisSuggestion
++ _OBJC_CLASS_$_CHDocumentLayoutAnalysisManager
++ _OBJC_CLASS_$_CHDocumentLayoutAnalysisModel
++ _OBJC_CLASS_$_CHDocumentLayoutAnalysisResult
++ _OBJC_CLASS_$_CHDocumentLayoutAnalysisTileResult
++ _OBJC_CLASS_$_CHDocumentLayoutAnalyzer
++ _OBJC_CLASS_$_CHDocumentTile
++ _OBJC_CLASS_$_CHRemoteDocumentLayoutAnalysisRequest
++ _OBJC_CLASS_$_CHRemoteDocumentLayoutAnalyzer
++ _OBJC_CLASS_$_CHRemoteSynthesisStringChunkingRequest
++ _OBJC_CLASS_$_CHSynthesisRequestConcreteHandler
++ _OBJC_CLASS_$_CHTextSynthesizerChunkedData
++ _OBJC_CLASS_$_CHTilePosition
++ _OBJC_CLASS_$_NSMutableData
++ _OBJC_METACLASS_$_CHDocumentLayoutAnalysisManager
++ _OBJC_METACLASS_$_CHDocumentLayoutAnalysisModel
++ _OBJC_METACLASS_$_CHDocumentLayoutAnalysisResult
++ _OBJC_METACLASS_$_CHDocumentLayoutAnalysisTileResult
++ _OBJC_METACLASS_$_CHDocumentLayoutAnalyzer
++ _OBJC_METACLASS_$_CHDocumentTile
++ _OBJC_METACLASS_$_CHRemoteDocumentLayoutAnalysisRequest
++ _OBJC_METACLASS_$_CHRemoteDocumentLayoutAnalyzer
++ _OBJC_METACLASS_$_CHRemoteSynthesisStringChunkingRequest
++ _OBJC_METACLASS_$_CHSynthesisRequestConcreteHandler
++ _OBJC_METACLASS_$_CHTextSynthesizerChunkedData
++ _OBJC_METACLASS_$_CHTilePosition
++ __ZNSt3__16localeC1Ev
++ __ZTVN10__cxxabiv119__pointer_type_infoE
++ __ZTVN10__cxxabiv120__function_type_infoE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _ferror
++ _objc_retain_x11
++ _swift_dynamicCast
++ _swift_setDeallocating
++ _swift_willThrow
+- OBJC_IVAR_$_CHBracketsMatchingStep._bracketSymbols
+- OBJC_IVAR_$_CHBracketsMatchingStep.latexHelper
+- OBJC_IVAR_$_CHDecodeMathFunctionStep._decoratedFunctions
+- OBJC_IVAR_$_CHDecodeMathFunctionStep._mathFunctionNameMapping
+- OBJC_IVAR_$_CHDecodeMathFunctionStep._stemFunctionMappings
+- OBJC_IVAR_$_CHDecorateSpecialSymbolsStep._symbols
+- OBJC_IVAR_$_CHGroupOversegmentationMergingStep._unitConversionPostProcessor
+- OBJC_IVAR_$_CHGroupOversegmentationMergingStep._variableAssignmentPostProcessor
+- OBJC_IVAR_$_CHGroupingAndRecognitionResults._intermediateCachedRecognitionResults
+- OBJC_IVAR_$_CHGroupingAndRecognitionResults._refreshedCachedResultsFromPostProcessing
+- OBJC_IVAR_$_CHHorizontalUndersegmentationSplittingStep._additionalMathRecognitionBlock
+- OBJC_IVAR_$_CHMutableTokenizedMathResultToken._bounds
+- OBJC_IVAR_$_CHMutableTokenizedMathResultToken._string
+- OBJC_IVAR_$_CHMutableTokenizedMathResultToken._strokeIndexes
+- OBJC_IVAR_$_CHMutableTokenizedTextResultToken._bounds
+- OBJC_IVAR_$_CHMutableTokenizedTextResultToken._string
+- OBJC_IVAR_$_CHMutableTokenizedTextResultToken._strokeIndexes
+- OBJC_IVAR_$_CHRemoveInvalidExpressionCandidatesStep._latexSyntaxHelper
+- OBJC_IVAR_$_CHTextToMathResultTransformationStep._additionalMathRecognitionBlock
+- OBJC_IVAR_$_CHTextToMathResultTransformationStep._numericalSymbols
+- OBJC_IVAR_$_CHTextToMathResultTransformationStep._textToMathTransliterations
+- OBJC_IVAR_$_CHTransliterateExponentsStep._exponentTransliterations
+- OBJC_IVAR_$_CHTransliterateExponentsStep._tokenPropertiesHelper
+- OBJC_IVAR_$_CHTransliterateUnmatchedConfusablesStep._mathClosingConfusableMappings
+- OBJC_IVAR_$_CHTransliterateUnmatchedConfusablesStep._mathOpeningConfusableMappings
+- OBJC_IVAR_$_CHTransliterateUnmatchedConfusablesStep.latexHelper
+- _CHConvertFloat16BufferToFloat32Buffer
+- _CHConvertFloat32BufferToFloat16Buffer
+- _CHCreateIOSurface
+- _CHDebugBufferFP32Description
+- _CHDebugIOSurfaceFP16Description
+- _CHHashtagPrefix
+- _CHMathPostProcessingOptionForceLocaleNumberFormat
+- _CHMathPostProcessingOptionLocales
+- _CHMathPostProcessingOptionSkipTransliterations
+- _CHMathPostProcessingWrapTextResult
+- _CHMentionPrefix
+- _CHOSLogForCategory
+- _CHPostProcessingStepOptionAdjustColumns
+- _CHRecognitionOptionShouldConsumeAllStrokes
+- _IOSurfaceGetWidth
+- _OBJC_CLASS_$_CHActivationMatrix
+- _OBJC_CLASS_$_CHBottomUpStrokeGroupingResult
+- _OBJC_CLASS_$_CHBracketsMatchingStep
+- _OBJC_CLASS_$_CHCTCRecognitionModel
+- _OBJC_CLASS_$_CHCTLD
+- _OBJC_CLASS_$_CHCandidateRefinementStep
+- _OBJC_CLASS_$_CHClassifiableDrawing
+- _OBJC_CLASS_$_CHCleanUpSpacesStep
+- _OBJC_CLASS_$_CHClientCalculateDocumentProvider
+- _OBJC_CLASS_$_CHClientDataSource
+- _OBJC_CLASS_$_CHClientStroke
+- _OBJC_CLASS_$_CHClientStrokeProvider
+- _OBJC_CLASS_$_CHCombineAlternativesStep
+- _OBJC_CLASS_$_CHContextualCharacterTransliteration
+- _OBJC_CLASS_$_CHCornerDetector
+- _OBJC_CLASS_$_CHCyrillicAddAlternativeScriptCandidatesStep
+- _OBJC_CLASS_$_CHCyrillicRecoverConfusableWordsStep
+- _OBJC_CLASS_$_CHDecodeMathFunctionStep
+- _OBJC_CLASS_$_CHDecorateSpecialSymbolsStep
+- _OBJC_CLASS_$_CHDiffusionModelE5ML
+- _OBJC_CLASS_$_CHDiffusionModelE5MLExecutionContext
+- _OBJC_CLASS_$_CHDiffusionTextSynthesizer
+- _OBJC_CLASS_$_CHDiffusionTextSynthesizerBase
+- _OBJC_CLASS_$_CHDotTransliterationStep
+- _OBJC_CLASS_$_CHDrawingContext
+- _OBJC_CLASS_$_CHE5MLExecutionContext
+- _OBJC_CLASS_$_CHE5MLModel
+- _OBJC_CLASS_$_CHE5MLProgramLibrary
+- _OBJC_CLASS_$_CHE5MLUtilities
+- _OBJC_CLASS_$_CHEncoderDecoderNetwork
+- _OBJC_CLASS_$_CHFastPathCharacterPersonalizerInterface
+- _OBJC_CLASS_$_CHGrammar
+- _OBJC_CLASS_$_CHGroupBoundsVisualization
+- _OBJC_CLASS_$_CHGroupOversegmentationMergingStep
+- _OBJC_CLASS_$_CHGroupingAndRecognitionResults
+- _OBJC_CLASS_$_CHGroupingModel
+- _OBJC_CLASS_$_CHGroupingPostProcessingManager
+- _OBJC_CLASS_$_CHGroupingPostprocessingStep
+- _OBJC_CLASS_$_CHHorizontalUndersegmentationSplittingStep
+- _OBJC_CLASS_$_CHIdentifyLowAlignmentConfidenceColumnsStep
+- _OBJC_CLASS_$_CHInsertPrecedingSpaceForUnitsStep
+- _OBJC_CLASS_$_CHJapaneseTokenizationAndConversionStep
+- _OBJC_CLASS_$_CHLatexParseTree
+- _OBJC_CLASS_$_CHLatexParser
+- _OBJC_CLASS_$_CHLexiconCorrectionStep
+- _OBJC_CLASS_$_CHManagedConfigurations
+- _OBJC_CLASS_$_CHMarkNoWhiteSpaceColumnsChangeableStep
+- _OBJC_CLASS_$_CHMathPostProcessingManager
+- _OBJC_CLASS_$_CHMathPostprocessingStep
+- _OBJC_CLASS_$_CHMathResultWithContext
+- _OBJC_CLASS_$_CHMathUtilities
+- _OBJC_CLASS_$_CHMecabraWrapper
+- _OBJC_CLASS_$_CHMergeColumnsStep
+- _OBJC_CLASS_$_CHMultiWordOVSFilteringStep
+- _OBJC_CLASS_$_CHMutableNonTextCandidateStroke
+- _OBJC_CLASS_$_CHMutableStrokeClassificationResult
+- _OBJC_CLASS_$_CHMutableTokenizedMathResultToken
+- _OBJC_CLASS_$_CHMutableTokenizedTextResult
+- _OBJC_CLASS_$_CHMutableTokenizedTextResultToken
+- _OBJC_CLASS_$_CHNonTerminal
+- _OBJC_CLASS_$_CHNormalizedDrawingAllVisualization
+- _OBJC_CLASS_$_CHNormalizedDrawingVisualization
+- _OBJC_CLASS_$_CHNumberFieldResultReorderingStep
+- _OBJC_CLASS_$_CHOpeningClosingCharacterMatchingStep
+- _OBJC_CLASS_$_CHOrderedStrokeGroup
+- _OBJC_CLASS_$_CHParseTable
+- _OBJC_CLASS_$_CHParseTableCell
+- _OBJC_CLASS_$_CHParseTree
+- _OBJC_CLASS_$_CHParseTreeNode
+- _OBJC_CLASS_$_CHPatternNetwork
+- _OBJC_CLASS_$_CHPersonalizedSynthesisModelStatus
+- _OBJC_CLASS_$_CHPolygon
+- _OBJC_CLASS_$_CHPostProcessingManager
+- _OBJC_CLASS_$_CHPostprocessingStep
+- _OBJC_CLASS_$_CHPostprocessingStepModifyingOriginalTokens
+- _OBJC_CLASS_$_CHPreserveOriginalRecognitionStep
+- _OBJC_CLASS_$_CHPrimeTransliterationStep
+- _OBJC_CLASS_$_CHPrincipalLinesVisualization
+- _OBJC_CLASS_$_CHProductionRule
+- _OBJC_CLASS_$_CHPromoteInLexiconCandidatesStep
+- _OBJC_CLASS_$_CHPruneCandidatesComparingColumnScoresStep
+- _OBJC_CLASS_$_CHPutOriginalRecognitionResultFirstStep
+- _OBJC_CLASS_$_CHRecognitionSessionTask
+- _OBJC_CLASS_$_CHRecognitionSessionTextInputTask
+- _OBJC_CLASS_$_CHRecognitionSessionVersion
+- _OBJC_CLASS_$_CHRecurrentNeuralNetwork
+- _OBJC_CLASS_$_CHRecurrentNeuralNetworkCoreML
+- _OBJC_CLASS_$_CHRemoveIdenticalCandidatesStep
+- _OBJC_CLASS_$_CHRemoveInvalidArabicDiacriticsStep
+- _OBJC_CLASS_$_CHRemoveInvalidExpressionCandidatesStep
+- _OBJC_CLASS_$_CHRemoveInvalidSegmentationCandidatesStep
+- _OBJC_CLASS_$_CHRemoveInvalidStringCandidatesStep
+- _OBJC_CLASS_$_CHRemoveSpacesFromEnglishAndKoreanParticlesStep
+- _OBJC_CLASS_$_CHRemoveSpacesFromHashtagsAndMentionsStep
+- _OBJC_CLASS_$_CHRemoveSpacesFromSpecialFieldsStep
+- _OBJC_CLASS_$_CHRemoveSpacesFromStrongURLsAndEmailsStep
+- _OBJC_CLASS_$_CHRemoveSpacingAlternativesStep
+- _OBJC_CLASS_$_CHRemoveSubscriptFromVariableStep
+- _OBJC_CLASS_$_CHRemoveVariableCasingAlternativesStep
+- _OBJC_CLASS_$_CHReorderSCTCConfusionStep
+- _OBJC_CLASS_$_CHResultRenderingAllVisualization
+- _OBJC_CLASS_$_CHResultRenderingVisualization
+- _OBJC_CLASS_$_CHResultWithContext
+- _OBJC_CLASS_$_CHSemanticTokenizerStep
+- _OBJC_CLASS_$_CHSingletonMLModel
+- _OBJC_CLASS_$_CHSpellChecker
+- _OBJC_CLASS_$_CHSpellCheckerErrorModel
+- _OBJC_CLASS_$_CHSpellCorrectionCandidatesStep
+- _OBJC_CLASS_$_CHStringOVSChecker
+- _OBJC_CLASS_$_CHStrokeClassificationModel
+- _OBJC_CLASS_$_CHStrokeClassificationResultDifference
+- _OBJC_CLASS_$_CHStrokeFastGroupingResult
+- _OBJC_CLASS_$_CHStrokeGroupBasedVisualization
+- _OBJC_CLASS_$_CHStrokeGroupBaselineLegacyVisualization
+- _OBJC_CLASS_$_CHStrokeGroupBaselineVisualization
+- _OBJC_CLASS_$_CHStrokeGroupClassificationVisualization
+- _OBJC_CLASS_$_CHStrokeGroupingVisualization
+- _OBJC_CLASS_$_CHStrokePointsVisualization
+- _OBJC_CLASS_$_CHStrokeVisualization
+- _OBJC_CLASS_$_CHStyleEncoderModelE5ML
+- _OBJC_CLASS_$_CHStyleEncoderModelE5MLExecutionContext
+- _OBJC_CLASS_$_CHSubstroke
+- _OBJC_CLASS_$_CHSubstrokeBoundsVisualization
+- _OBJC_CLASS_$_CHSubstrokePlacement
+- _OBJC_CLASS_$_CHSynthesisStyleInventoryStatus
+- _OBJC_CLASS_$_CHTerminal
+- _OBJC_CLASS_$_CHTestUtilities
+- _OBJC_CLASS_$_CHTextCorrectionRecognizer
+- _OBJC_CLASS_$_CHTextFieldTypeSwitchStep
+- _OBJC_CLASS_$_CHTextInputGesture
+- _OBJC_CLASS_$_CHTextInputInsertionCaretGesture
+- _OBJC_CLASS_$_CHTextInputScriptSpec
+- _OBJC_CLASS_$_CHTextLineStrokeGroup
+- _OBJC_CLASS_$_CHTextToMathResultTransformationStep
+- _OBJC_CLASS_$_CHTimeWindowStrokeGroup
+- _OBJC_CLASS_$_CHTimeWindowStrokeGroupingStrategy
+- _OBJC_CLASS_$_CHTopDownStrokeSplit
+- _OBJC_CLASS_$_CHTransliterateChineseJapaneseStep
+- _OBJC_CLASS_$_CHTransliterateConfusableCharactersArabicStep
+- _OBJC_CLASS_$_CHTransliterateConfusableCharactersStep
+- _OBJC_CLASS_$_CHTransliterateExponentsStep
+- _OBJC_CLASS_$_CHTransliterateHalfWidthPunctuationStep
+- _OBJC_CLASS_$_CHTransliterateIsolatedConfusableCharactersStep
+- _OBJC_CLASS_$_CHTransliterateUnmatchedConfusablesStep
+- _OBJC_CLASS_$_CHUpdateTokenPropertyForUnitConversionStep
+- _OBJC_CLASS_$_CHUpdateTokenPropertyForVariableAssignmentStep
+- _OBJC_CLASS_$_CHVerticalMathLinkingStep
+- _OBJC_CLASS_$_CHVerticalUndersegmentationSplittingStep
+- _OBJC_CLASS_$_CHVisualToLogicalTransformStep
+- _OBJC_CLASS_$_CHVisualization
+- _OBJC_CLASS_$_NSPipe
+- _OBJC_CLASS_$_NSTask
+- _OBJC_CLASS_$_NetworkCursor
+- _OBJC_METACLASS_$_CHActivationMatrix
+- _OBJC_METACLASS_$_CHBottomUpStrokeGroupingResult
+- _OBJC_METACLASS_$_CHBracketsMatchingStep
+- _OBJC_METACLASS_$_CHCTCRecognitionModel
+- _OBJC_METACLASS_$_CHCTLD
+- _OBJC_METACLASS_$_CHCandidateRefinementStep
+- _OBJC_METACLASS_$_CHClassifiableDrawing
+- _OBJC_METACLASS_$_CHCleanUpSpacesStep
+- _OBJC_METACLASS_$_CHClientCalculateDocumentProvider
+- _OBJC_METACLASS_$_CHClientDataSource
+- _OBJC_METACLASS_$_CHClientStroke
+- _OBJC_METACLASS_$_CHClientStrokeProvider
+- _OBJC_METACLASS_$_CHCombineAlternativesStep
+- _OBJC_METACLASS_$_CHContextualCharacterTransliteration
+- _OBJC_METACLASS_$_CHCornerDetector
+- _OBJC_METACLASS_$_CHCyrillicAddAlternativeScriptCandidatesStep
+- _OBJC_METACLASS_$_CHCyrillicRecoverConfusableWordsStep
+- _OBJC_METACLASS_$_CHDecodeMathFunctionStep
+- _OBJC_METACLASS_$_CHDecorateSpecialSymbolsStep
+- _OBJC_METACLASS_$_CHDiffusionModelE5ML
+- _OBJC_METACLASS_$_CHDiffusionModelE5MLExecutionContext
+- _OBJC_METACLASS_$_CHDiffusionTextSynthesizer
+- _OBJC_METACLASS_$_CHDiffusionTextSynthesizerBase
+- _OBJC_METACLASS_$_CHDotTransliterationStep
+- _OBJC_METACLASS_$_CHDrawingContext
+- _OBJC_METACLASS_$_CHE5MLExecutionContext
+- _OBJC_METACLASS_$_CHE5MLModel
+- _OBJC_METACLASS_$_CHE5MLProgramLibrary
+- _OBJC_METACLASS_$_CHE5MLUtilities
+- _OBJC_METACLASS_$_CHEncoderDecoderNetwork
+- _OBJC_METACLASS_$_CHFastPathCharacterPersonalizerInterface
+- _OBJC_METACLASS_$_CHGrammar
+- _OBJC_METACLASS_$_CHGroupBoundsVisualization
+- _OBJC_METACLASS_$_CHGroupOversegmentationMergingStep
+- _OBJC_METACLASS_$_CHGroupingAndRecognitionResults
+- _OBJC_METACLASS_$_CHGroupingModel
+- _OBJC_METACLASS_$_CHGroupingPostProcessingManager
+- _OBJC_METACLASS_$_CHGroupingPostprocessingStep
+- _OBJC_METACLASS_$_CHHorizontalUndersegmentationSplittingStep
+- _OBJC_METACLASS_$_CHIdentifyLowAlignmentConfidenceColumnsStep
+- _OBJC_METACLASS_$_CHInsertPrecedingSpaceForUnitsStep
+- _OBJC_METACLASS_$_CHJapaneseTokenizationAndConversionStep
+- _OBJC_METACLASS_$_CHLatexParseTree
+- _OBJC_METACLASS_$_CHLatexParser
+- _OBJC_METACLASS_$_CHLexiconCorrectionStep
+- _OBJC_METACLASS_$_CHManagedConfigurations
+- _OBJC_METACLASS_$_CHMarkNoWhiteSpaceColumnsChangeableStep
+- _OBJC_METACLASS_$_CHMathPostProcessingManager
+- _OBJC_METACLASS_$_CHMathPostprocessingStep
+- _OBJC_METACLASS_$_CHMathResultWithContext
+- _OBJC_METACLASS_$_CHMathUtilities
+- _OBJC_METACLASS_$_CHMecabraWrapper
+- _OBJC_METACLASS_$_CHMergeColumnsStep
+- _OBJC_METACLASS_$_CHMultiWordOVSFilteringStep
+- _OBJC_METACLASS_$_CHMutableNonTextCandidateStroke
+- _OBJC_METACLASS_$_CHMutableStrokeClassificationResult
+- _OBJC_METACLASS_$_CHMutableTokenizedMathResultToken
+- _OBJC_METACLASS_$_CHMutableTokenizedTextResult
+- _OBJC_METACLASS_$_CHMutableTokenizedTextResultToken
+- _OBJC_METACLASS_$_CHNonTerminal
+- _OBJC_METACLASS_$_CHNormalizedDrawingAllVisualization
+- _OBJC_METACLASS_$_CHNormalizedDrawingVisualization
+- _OBJC_METACLASS_$_CHNumberFieldResultReorderingStep
+- _OBJC_METACLASS_$_CHOpeningClosingCharacterMatchingStep
+- _OBJC_METACLASS_$_CHOrderedStrokeGroup
+- _OBJC_METACLASS_$_CHParseTable
+- _OBJC_METACLASS_$_CHParseTableCell
+- _OBJC_METACLASS_$_CHParseTree
+- _OBJC_METACLASS_$_CHParseTreeNode
+- _OBJC_METACLASS_$_CHPatternNetwork
+- _OBJC_METACLASS_$_CHPersonalizedSynthesisModelStatus
+- _OBJC_METACLASS_$_CHPolygon
+- _OBJC_METACLASS_$_CHPostProcessingManager
+- _OBJC_METACLASS_$_CHPostprocessingStep
+- _OBJC_METACLASS_$_CHPostprocessingStepModifyingOriginalTokens
+- _OBJC_METACLASS_$_CHPreserveOriginalRecognitionStep
+- _OBJC_METACLASS_$_CHPrimeTransliterationStep
+- _OBJC_METACLASS_$_CHPrincipalLinesVisualization
+- _OBJC_METACLASS_$_CHProductionRule
+- _OBJC_METACLASS_$_CHPromoteInLexiconCandidatesStep
+- _OBJC_METACLASS_$_CHPruneCandidatesComparingColumnScoresStep
+- _OBJC_METACLASS_$_CHPutOriginalRecognitionResultFirstStep
+- _OBJC_METACLASS_$_CHRecognitionSessionTask
+- _OBJC_METACLASS_$_CHRecognitionSessionTextInputTask
+- _OBJC_METACLASS_$_CHRecognitionSessionVersion
+- _OBJC_METACLASS_$_CHRecurrentNeuralNetwork
+- _OBJC_METACLASS_$_CHRecurrentNeuralNetworkCoreML
+- _OBJC_METACLASS_$_CHRemoveIdenticalCandidatesStep
+- _OBJC_METACLASS_$_CHRemoveInvalidArabicDiacriticsStep
+- _OBJC_METACLASS_$_CHRemoveInvalidExpressionCandidatesStep
+- _OBJC_METACLASS_$_CHRemoveInvalidSegmentationCandidatesStep
+- _OBJC_METACLASS_$_CHRemoveInvalidStringCandidatesStep
+- _OBJC_METACLASS_$_CHRemoveSpacesFromEnglishAndKoreanParticlesStep
+- _OBJC_METACLASS_$_CHRemoveSpacesFromHashtagsAndMentionsStep
+- _OBJC_METACLASS_$_CHRemoveSpacesFromSpecialFieldsStep
+- _OBJC_METACLASS_$_CHRemoveSpacesFromStrongURLsAndEmailsStep
+- _OBJC_METACLASS_$_CHRemoveSpacingAlternativesStep
+- _OBJC_METACLASS_$_CHRemoveSubscriptFromVariableStep
+- _OBJC_METACLASS_$_CHRemoveVariableCasingAlternativesStep
+- _OBJC_METACLASS_$_CHReorderSCTCConfusionStep
+- _OBJC_METACLASS_$_CHResultRenderingAllVisualization
+- _OBJC_METACLASS_$_CHResultRenderingVisualization
+- _OBJC_METACLASS_$_CHResultWithContext
+- _OBJC_METACLASS_$_CHSemanticTokenizerStep
+- _OBJC_METACLASS_$_CHSingletonMLModel
+- _OBJC_METACLASS_$_CHSpellChecker
+- _OBJC_METACLASS_$_CHSpellCheckerErrorModel
+- _OBJC_METACLASS_$_CHSpellCorrectionCandidatesStep
+- _OBJC_METACLASS_$_CHStringOVSChecker
+- _OBJC_METACLASS_$_CHStrokeClassificationModel
+- _OBJC_METACLASS_$_CHStrokeClassificationResultDifference
+- _OBJC_METACLASS_$_CHStrokeFastGroupingResult
+- _OBJC_METACLASS_$_CHStrokeGroupBasedVisualization
+- _OBJC_METACLASS_$_CHStrokeGroupBaselineLegacyVisualization
+- _OBJC_METACLASS_$_CHStrokeGroupBaselineVisualization
+- _OBJC_METACLASS_$_CHStrokeGroupClassificationVisualization
+- _OBJC_METACLASS_$_CHStrokeGroupingVisualization
+- _OBJC_METACLASS_$_CHStrokePointsVisualization
+- _OBJC_METACLASS_$_CHStrokeVisualization
+- _OBJC_METACLASS_$_CHStyleEncoderModelE5ML
+- _OBJC_METACLASS_$_CHStyleEncoderModelE5MLExecutionContext
+- _OBJC_METACLASS_$_CHSubstroke
+- _OBJC_METACLASS_$_CHSubstrokeBoundsVisualization
+- _OBJC_METACLASS_$_CHSubstrokePlacement
+- _OBJC_METACLASS_$_CHSynthesisStyleInventoryStatus
+- _OBJC_METACLASS_$_CHTerminal
+- _OBJC_METACLASS_$_CHTestUtilities
+- _OBJC_METACLASS_$_CHTextCorrectionRecognizer
+- _OBJC_METACLASS_$_CHTextFieldTypeSwitchStep
+- _OBJC_METACLASS_$_CHTextInputGesture
+- _OBJC_METACLASS_$_CHTextInputInsertionCaretGesture
+- _OBJC_METACLASS_$_CHTextInputScriptSpec
+- _OBJC_METACLASS_$_CHTextLineStrokeGroup
+- _OBJC_METACLASS_$_CHTextToMathResultTransformationStep
+- _OBJC_METACLASS_$_CHTimeWindowStrokeGroup
+- _OBJC_METACLASS_$_CHTimeWindowStrokeGroupingStrategy
+- _OBJC_METACLASS_$_CHTopDownStrokeSplit
+- _OBJC_METACLASS_$_CHTransliterateChineseJapaneseStep
+- _OBJC_METACLASS_$_CHTransliterateConfusableCharactersArabicStep
+- _OBJC_METACLASS_$_CHTransliterateConfusableCharactersStep
+- _OBJC_METACLASS_$_CHTransliterateExponentsStep
+- _OBJC_METACLASS_$_CHTransliterateHalfWidthPunctuationStep
+- _OBJC_METACLASS_$_CHTransliterateIsolatedConfusableCharactersStep
+- _OBJC_METACLASS_$_CHTransliterateUnmatchedConfusablesStep
+- _OBJC_METACLASS_$_CHUpdateTokenPropertyForUnitConversionStep
+- _OBJC_METACLASS_$_CHUpdateTokenPropertyForVariableAssignmentStep
+- _OBJC_METACLASS_$_CHVerticalMathLinkingStep
+- _OBJC_METACLASS_$_CHVerticalUndersegmentationSplittingStep
+- _OBJC_METACLASS_$_CHVisualToLogicalTransformStep
+- _OBJC_METACLASS_$_CHVisualization
+- _OBJC_METACLASS_$_NetworkCursor
+- _PRErrorModelKey
+- __Z12editDistanceP8NSStringS0_
+- __Z12editDistancePjmS_m
+- __Z12rectToString6CGRect
+- __Z12sizeToString6CGSize
+- __Z13pointDistance7CGPointS_24CHGroupingDistanceMetric
+- __Z13pointToString7CGPoint
+- __Z13propertyIsSetmm
+- __Z13trimIndexPathP11NSIndexPath8_NSRange
+- __Z14characterCodesP8NSString
+- __Z14isStringNumberP8NSString
+- __Z14rectFromStringP8NSString
+- __Z14scoreStemEntryP13CHStrokeGroupS0_dbb
+- __Z14sizeFromStringP8NSString
+- __Z15modifyIndexPathP11NSIndexPathmm
+- __Z15pathForResourcePKcS0_Pc
+- __Z15pointFromStringP8NSString
+- __Z15sigmoidFunctiond
+- __Z16deviceANESubTypev
+- __Z16isSymbolOperatorP8NSString
+- __Z16lastWordInStringP8NSString
+- __Z16normalizeFeaturePflllddP10NSIndexSet
+- __Z16variantForLocaleP8NSLocale
+- __Z17insertToIndexPathP11NSIndexPathmm
+- __Z17isLocaleSupportedP8NSLocale
+- __Z17isMixedCaseStringP8NSString
+- __Z17unicodeToNSStringj
+- __Z18isSymbolStructuralP8NSString
+- __Z19uncompressLZFSEDataP6NSDatal
+- __Z20isCharacterFullWidthP8NSString
+- __Z20isCharacterHanScriptP8NSString
+- __Z20lowercaseFirstLetterP8NSString
+- __Z20uppercaseFirstLetterP8NSString
+- __Z21NSStringFromUInt32PtrPjm8_NSRange
+- __Z21isCharacterKanaScriptP8NSString
+- __Z21isStringPatternedTextP8NSString
+- __Z21parseFloatsFromStringP8NSString
+- __Z22compareCellsByPositionP11objc_objectS0_Pv
+- __Z22isCharacterLatinScriptP8NSString
+- __Z23affineTransformToString17CGAffineTransform
+- __Z23chunkStringForSynthesisP8NSStringm
+- __Z23commonIndexSetsFromSetsP7NSArrayIP10NSIndexSetES3_
+- __Z23compareRangesByPositionP11objc_objectS0_Pv
+- __Z23isCharacterArabicScriptP8NSString
+- __Z23isStringEntirelyFromSetP8NSStringP14NSCharacterSet
+- __Z23isStringJapaneseZipcodeP8NSString
+- __Z23isStringNumberForLocaleP8NSStringP8NSLocale
+- __Z23symbolHeightCoefficientP8NSStringl
+- __Z24convertLMTokenIDToStringjPK10_LXLexicon
+- __Z24halfWidthToFullWidthCodei
+- __Z24isStringAllZerosInDigitsP8NSString
+- __Z24isValidVerticalMathEntryP21CHTokenizedMathResultlb
+- __Z24phraseMatchingCandidatesP8NSStringPK10_LXLexicon8_NSRangeS4_llPl
+- __Z24previousOrientationIndexiii
+- __Z24rangeOfCharactersFromSetP8NSStringP14NSCharacterSetb
+- __Z25affineTransformFromStringP8NSString
+- __Z25compareCellsByProbabilityP11objc_objectS0_Pv
+- __Z25isCharacterCyrillicScriptP8NSString
+- __Z25isSymbolLeadingStructuralP8NSString
+- __Z25symbolTextTransliterationP8NSString
+- __Z26isSymbolTrailingStructuralP8NSString
+- __Z26latestStyleInventoryStatusv
+- __Z26shouldForbidSpaceInBetweenP8NSStringS0_
+- __Z27createUInt32PtrWithNSStringP8NSStringmmRmRb
+- __Z27findStemsAndEntryCandidatesP31CHGroupingAndRecognitionResultsPU27objcproto16CHStrokeProvider11objc_objectb
+- __Z27halfWidthFullWidthTransformP8NSStringP14NSCharacterSetS0_bb
+- __Z27isStringAllSymbolCharactersP8NSString
+- __Z29filterConsecutiveNotDefChunksP7NSArrayIP26CHTextSynthesizerDataChunkE
+- __Z29isStringAllCircleTextPatternsP8NSString
+- __Z29isStringRepeatedSameCharacterP8NSString
+- __Z29rangeFromRangeRemovingIndexes8_NSRangeP10NSIndexSet
+- __Z30firstMatchingResourceForLocaleP8NSLocaleP8NSStringS2_Pc
+- __Z30isCharacterLatinOrCommonScriptP8NSString
+- __Z30isUndetectableAddressCandidateP8NSString
+- __Z31candidateResultSortingCriterion17CHCandidateResultS_
+- __Z31isStylePersonalizationAvailablev
+- __Z31reformatToBetterAddressMatchingP8NSStringPU15__autoreleasingP10NSIndexSet
+- __Z32stringHasEmoticonStartingAtIndexmP8NSStringmb
+- __Z33isCharacterCJKSymbolsPunctuationsP8NSString
+- __Z35rankedCandidateIdentifiersForLocaleP8NSLocale
+- __Z36CHHasPersonalizedSynthesisModelReady26CHModelCatalogModelVariant
+- __Z36doesStringContainDataDetectorEntriesP8NSStringPU15__autoreleasingP7NSArrayIP7NSValueE
+- __Z37spatialSegmentationNetworkFromDrawingPK9CHDrawing
+- __Z38CHGetPersonalizedSynthesisSupportState26CHModelCatalogModelVariant
+- __Z39indicesWithPersonalizedSynthesisSupportP8NSString33CHTextSynthesizerCharacterSupport
+- __Z3d2sd
+- __Z3i2si
+- __Z3i2sl
+- __Z3p2sPKv
+- __Z41compatibilityJamoFromComposedHangulStringP8NSString
+- __Z41mergedOverlappingRectanglesFromRectanglesP7NSArrayIP7NSValueE
+- __Z45replaceUnsupportedCharactersByTransliterationP8NSString33CHTextSynthesizerCharacterSupport
+- __Z46ratioHorizontalOverlapOfSubjectToReferenceRect6CGRectS_
+- __Z49CHLocalizedDescriptionForRecognitionSessionStatus26CHRecognitionSessionStatus
+- __Z4i2shi
+- __Z4iv2sPKtm
+- __Z4ul2sm
+- __Z5ul2shm
+- __Z60castCHRemoteSynthesisOptionInventoryRequestTypeFromNSIntegerl
+- __Z8short2sht
+- __ZGVZNK15CoreRecognition7decoder17LexiconBeamScorerINS0_12LexiconStateEE11expandStateEPKS2_mPS2_mE16CONTEXT_LOG_PROB
+- __ZGVZNK15CoreRecognition7decoder17LexiconBeamScorerINS0_12LexiconStateEE11expandStateEPKS2_mPS2_mE17WORD_MIN_LOG_PROB
+- __ZN10CHTriangle11alignToAxisEv
+- __ZN10CHTriangle23fitXAxisAlignedTriangleEi
+- __ZN10CHTriangle23fitYAxisAlignedTriangleEi
+- __ZN10CHTriangle25areVerticalIsoscelesSidesEii
+- __ZN10CHTriangle27areHorizontalIsoscelesSidesEii
+- __ZN10CHTriangle27fitAxisAlignedRightTriangleEii
+- __ZN10CHTriangle6HalignEi
+- __ZN10CHTriangle6ValignEi
+- __ZN10VariantMap15VariantsForCodeEi
+- __ZN10VariantMap19SerializeToFilenameEPKc
+- __ZN10VariantMapC1EPKc
+- __ZN10VariantMapC2EPKc
+- __ZN10VariantMapD1Ev
+- __ZN10VariantMapD2Ev
+- __ZN10delaunator10Delaunator12add_triangleEmmmmmm
+- __ZN10delaunator10Delaunator13get_hull_areaEv
+- __ZN10delaunator10Delaunator4linkEmm
+- __ZN10delaunator10Delaunator8legalizeEm
+- __ZN11LatticePath13addWordAtNodeEmPK10_LXLexiconPS0_P16CHPatternNetworkdU13block_pointerFdPS_Ebb
+- __ZN11LatticePath14commitLastWordEbPK10_LXLexiconPS0_P16CHPatternNetwork
+- __ZN11LatticePath29expandPathStringWithCharacterEj
+- __ZN11LatticePath7addEdgeEmmPvPK10_LXLexiconPS1_P16CHPatternNetworkdU13block_pointerFdRK11NetworkEdgeEU13block_pointerFdPS_Ebbb
+- __ZN11LatticePathC1EP7NetworkPvPK10_LXLexiconS5_PK9_LXCursorS8_P13NetworkCursor24CHRecognitionContentType
+- __ZN11LatticePathC1ERKS_
+- __ZN11LatticePathC2EP7NetworkPvPK10_LXLexiconS5_PK9_LXCursorS8_P13NetworkCursor24CHRecognitionContentType
+- __ZN11LatticePathC2ERKS_
+- __ZN11LatticePathD1Ev
+- __ZN11LatticePathD2Ev
+- __ZN11LatticePathaSERKS_
+- __ZN11LatticePatheqERKS_
+- __ZN11NetworkEdge11deserializeEP7__sFILE
+- __ZN11NetworkEdge9serializeEP7__sFILE
+- __ZN11NetworkEdgeC1ER17NetworkEdgePacked
+- __ZN11NetworkEdgeC1ERKS_
+- __ZN11NetworkEdgeC1Emmmmddm
+- __ZN11NetworkEdgeC2ER17NetworkEdgePacked
+- __ZN11NetworkEdgeC2ERKS_
+- __ZN11NetworkEdgeC2Emmmmddm
+- __ZN11NetworkEdgeaSERK17NetworkEdgePacked
+- __ZN11NetworkEdgeaSERKS_
+- __ZN11NetworkNode11deserializeEP7__sFILE
+- __ZN11NetworkNode16clearInOutDegreeEv
+- __ZN11NetworkNode9serializeEP7__sFILE
+- __ZN12CHBezierLine11alignToAxisEff
+- __ZN13CHLineSegmentC1E7CGPointS0_
+- __ZN13CHLineSegmentC2E7CGPointS0_
+- __ZN13LineRegressor15provideAnAnswerEv
+- __ZN13LineRegressor22detectForwardPointTypeEv
+- __ZN13LineRegressor22detectMiddlePointIndexEii
+- __ZN13LineRegressor23detectBackwardPointTypeEv
+- __ZN13LineRegressor23detectForwardPointIndexEv
+- __ZN13LineRegressor24detectBackwardPointIndexEv
+- __ZN13LineRegressor25performArrowHeadDetectionEv
+- __ZN13LineRegressor28initialiseArrowHeadDetectionEv
+- __ZN13LineRegressor8fillBodyEv
+- __ZN13LineRegressorC1EP9CHDrawingP6HTMLog
+- __ZN13LineRegressorC2EP9CHDrawingP6HTMLog
+- __ZN13StarRegressorC1EP9CHDrawingP6HTMLog
+- __ZN13StarRegressorC2EP9CHDrawingP6HTMLog
+- __ZN14CHStraightLine11alignToAxisEff
+- __ZN14CloudRegressorC1EP9CHDrawingP6HTMLog
+- __ZN14CloudRegressorC2EP9CHDrawingP6HTMLog
+- __ZN14HeartRegressor15provideAnAnswerEP9CHDrawing
+- __ZN14HeartRegressorC1EP9CHDrawingP6HTMLog
+- __ZN14HeartRegressorC2EP9CHDrawingP6HTMLog
+- __ZN15CHCanvasHeatmap17nextHeatmapItemIDEv
+- __ZN15CHCanvasHeatmap18_isHighDensityItemEm
+- __ZN15CHCanvasHeatmap18cleanCanvasHeatmapEv
+- __ZN15CHCanvasHeatmap41itemIDsInCellsIntersectingRectangleRegionERK6CGRectb
+- __ZN15CHCanvasHeatmapC1ERKS_
+- __ZN15CHCanvasHeatmapC2ERKS_
+- __ZN15CHNeuralNetwork11feedforwardEP27MLDictionaryFeatureProvider
+- __ZN15CHNeuralNetwork14supportedCodesEv
+- __ZN15CHNeuralNetwork17ClassifyCHDrawingEP9CHDrawingP14NSCharacterSetm6CGRectb
+- __ZN15CHNeuralNetwork22feedforwardFromBatchesEP27MLDictionaryFeatureProvider
+- __ZN15CHNeuralNetwork28ClassifyCHDrawingFromBatchesEP7NSArrayIP21CHClassifiableDrawingE
+- __ZN15CHNeuralNetwork29computeClassificationFeaturesEP7NSArrayIP21CHClassifiableDrawingE
+- __ZN15CHNeuralNetworkD1Ev
+- __ZN15CHNeuralNetworkD2Ev
+- __ZN15CoreHandwriting10InkMapping21getStrokePointMappingEm
+- __ZN15CoreHandwriting10InkMapping25resizeToAtLeastNumStrokesEm
+- __ZN15CoreHandwriting11BoundingBox9translateEdd
+- __ZN15CoreHandwriting11BoundingBox9unionWithERKS0_
+- __ZN15CoreHandwriting11BoundingBoxC1Ev
+- __ZN15CoreHandwriting11BoundingBoxC2Ev
+- __ZN15CoreHandwriting11getPointSetEP7NSArrayIPU18objcproto8CHStroke11objc_objectE
+- __ZN15CoreHandwriting11getPointSetERKNS_5ImageE
+- __ZN15CoreHandwriting11merge_linesERKNS_14PrincipalLinesES2_
+- __ZN15CoreHandwriting12FeatureArray6concatERKS0_
+- __ZN15CoreHandwriting12FeatureArray7getDataEv
+- __ZN15CoreHandwriting12drawingToInkEP9CHDrawing
+- __ZN15CoreHandwriting12drawingToInkEP9CHDrawingRK7CGPoint
+- __ZN15CoreHandwriting12inkToDrawingERKNS_3InkE
+- __ZN15CoreHandwriting12lineAtHeightEdd
+- __ZN15CoreHandwriting12loadPointSetEP5NSURL
+- __ZN15CoreHandwriting14PrincipalLines3logEv
+- __ZN15CoreHandwriting17CHMathBeamDecoder20setLatexSyntaxScorerEv
+- __ZN15CoreHandwriting17CHMathBeamDecoder22setLanguageModelScorerEv
+- __ZN15CoreHandwriting17boundingBoxAsRectERKNS_11BoundingBoxE
+- __ZN15CoreHandwriting18adjust_for_scalingERKNS_14PrincipalLinesENS_11BoundingBoxE
+- __ZN15CoreHandwriting19boundingBoxFromRectERK6CGRect
+- __ZN15CoreHandwriting19getMLMultiArrayViewERNS_12FeatureArrayE
+- __ZN15CoreHandwriting20EspressoModelWrapper10bindOutputEP17espresso_buffer_tPKcb
+- __ZN15CoreHandwriting20EspressoModelWrapper7destroyEv
+- __ZN15CoreHandwriting20EspressoModelWrapper7executeEv
+- __ZN15CoreHandwriting20EspressoModelWrapperD1Ev
+- __ZN15CoreHandwriting20EspressoModelWrapperD2Ev
+- __ZN15CoreHandwriting20PreprocessingManager7addStepEPNS_25AbstractPreprocessingStepE
+- __ZN15CoreHandwriting20PreprocessingManager9pyAddStepEPNS_25AbstractPreprocessingStepE
+- __ZN15CoreHandwriting20PreprocessingManagerC1ERKS0_
+- __ZN15CoreHandwriting20PreprocessingManagerC2ERKS0_
+- __ZN15CoreHandwriting20PreprocessingManageraSERKS0_
+- __ZN15CoreHandwriting21CPDAffineRegistration11expectationEv
+- __ZN15CoreHandwriting21CPDAffineRegistration12maximizationEv
+- __ZN15CoreHandwriting21CPDAffineRegistration15update_varianceEv
+- __ZN15CoreHandwriting21CPDAffineRegistration16update_transformEv
+- __ZN15CoreHandwriting21CPDAffineRegistration17initialize_sigma2Ev
+- __ZN15CoreHandwriting21CPDAffineRegistration21transform_point_cloudEv
+- __ZN15CoreHandwriting21CPDAffineRegistration25initialize_transformationEv
+- __ZN15CoreHandwriting21CPDAffineRegistration3runEv
+- __ZN15CoreHandwriting21getUnprocessedDrawingEP7NSArrayIP25CHEncodedStrokeIdentifierEPU27objcproto16CHStrokeProvider11objc_object
+- __ZN15CoreHandwriting21getUnprocessedDrawingEP7NSArrayIPU18objcproto8CHStroke11objc_objectE
+- __ZN15CoreHandwriting21pointProjectionToLineERK15CHPrincipalLined
+- __ZN15CoreHandwriting22getPointSetFromStringsEP7NSArrayIP8NSStringE
+- __ZN15CoreHandwriting23adjust_back_for_scalingERKNS_14PrincipalLinesENS_11BoundingBoxE
+- __ZN15CoreHandwriting23getAffineTransformationERKNS_14PrincipalLinesES2_
+- __ZN15CoreHandwriting23transformPrincipalLinesERKNS_14PrincipalLinesERK17CGAffineTransform
+- __ZN15CoreHandwriting24getDesiredPrincipalLinesEP21CHTransformedTextLined
+- __ZN15CoreHandwriting25CHEncoderDecoderBeamState11copyTensorsERKS0_
+- __ZN15CoreHandwriting25CHEncoderDecoderBeamState14scorersAppliedEv
+- __ZN15CoreHandwriting25CHEncoderDecoderBeamState19updatePastAttentionERS0_
+- __ZN15CoreHandwriting25deformImagePointsAndLinesERKNS_23PointsAndPrincipalLinesEddd
+- __ZN15CoreHandwriting25principalLinesDescriptionERKNS_14PrincipalLinesE
+- __ZN15CoreHandwriting25writeObjectToFileInFolderEP11objc_objectP5NSURLP8NSString
+- __ZN15CoreHandwriting26FeatureExtractionProcessor7addStepEPNS_29AbstractFeatureExtractionStepE
+- __ZN15CoreHandwriting26FeatureExtractionProcessor9pyAddStepEPNS_29AbstractFeatureExtractionStepE
+- __ZN15CoreHandwriting26FeatureExtractionProcessorC1ERKS0_
+- __ZN15CoreHandwriting26FeatureExtractionProcessorC2ERKS0_
+- __ZN15CoreHandwriting26FeatureExtractionProcessoraSERKS0_
+- __ZN15CoreHandwriting28getRenderedTextSizeForStringEP8NSStringi
+- __ZN15CoreHandwriting30AttentionBasedMathSegmentationC1Ef
+- __ZN15CoreHandwriting30AttentionBasedMathSegmentationC2Ef
+- __ZN15CoreHandwriting32getImageAndPrincipalLinesForTextEP8NSStringi
+- __ZN15CoreHandwriting33getPointsAndPrincipalLinesForTextEP8NSStringi
+- __ZN15CoreHandwriting35InkToImageBaseFeatureExtractionStep18setPadToMultipleOfEi
+- __ZN15CoreHandwriting35InkToImageBaseFeatureExtractionStep19setEnlargeSingleDotEi
+- __ZN15CoreHandwriting35getUnprocessedDrawingForStrokeGroupEP13CHStrokeGroupPU27objcproto16CHStrokeProvider11objc_object
+- __ZN15CoreHandwriting36filter_delaunay_edges_for_alphashapeEdRN10delaunator10DelaunatorE
+- __ZN15CoreHandwriting3Ink5scaleEd
+- __ZN15CoreHandwriting3Ink5scaleEdd
+- __ZN15CoreHandwriting3Ink6appendERKS0_
+- __ZN15CoreHandwriting3Ink6rotateEd
+- __ZN15CoreHandwriting3Ink9translateEdd
+- __ZN15CoreHandwriting3logERKNS_11BoundingBoxEP8NSString
+- __ZN15CoreHandwriting5clampEddd
+- __ZN15CoreHandwriting5scaleE7CGPointNS_11BoundingBoxE6CGSize
+- __ZN15CoreHandwriting8describeERKNS_11BoundingBoxE
+- __ZN15CoreHandwriting9angle_degERK7CGPointS2_
+- __ZN15CoreHandwriting9angle_radERK7CGPointS2_
+- __ZN15CoreHandwriting9synthesis11loadCodemapEv
+- __ZN15CoreHandwriting9synthesis13DDIMScheduler12setTimestepsEii
+- __ZN15CoreHandwriting9synthesis13DDIMSchedulerC1Eii
+- __ZN15CoreHandwriting9synthesis13DDIMSchedulerC2Eii
+- __ZN15CoreHandwriting9synthesis18CHDiffusionSampler15setForwardRatioEf
+- __ZN15CoreHandwriting9synthesis18CHDiffusionSampler16setBackwardRatioEf
+- __ZN15CoreHandwriting9synthesis20getLimitedRandomSeedEv
+- __ZN15CoreHandwriting9synthesis21multiArrayWithContentEP7NSArrayIP8NSNumberES5_
+- __ZN15CoreHandwriting9synthesis21multiArrayWithContentEP7NSArrayIP8NSNumberES5_f
+- __ZN15CoreHandwriting9synthesis24CHDiffusionPipelineLatinC1Ev
+- __ZN15CoreHandwriting9synthesis24CHDiffusionPipelineLatinC2Ev
+- __ZN15CoreHandwriting9synthesis24inplaceLinearCombinationEfP12MLMultiArrayfS2_
+- __ZN15CoreHandwriting9synthesis24multiArrayWithFixedValueEfP7NSArrayIP8NSNumberE
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModel12getModelHashEv
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModel12predictStyleEPU28objcproto17MLFeatureProvider11objc_object
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModel32switchModelConfigurationForWidthEm
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModel7predictEPU28objcproto17MLFeatureProvider11objc_object
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModelC1Ev
+- __ZN15CoreHandwriting9synthesis25CHDiffusionSynthesisModelC2Ev
+- __ZN15CoreHandwriting9synthesis26CHDiffusionPipelineContext13getModelInputEv
+- __ZN15CoreHandwriting9synthesis26CHDiffusionPipelineContextC1Ev
+- __ZN15CoreHandwriting9synthesis26CHDiffusionPipelineContextC2Ev
+- __ZN15CoreHandwriting9synthesis26multiArrayInt32WithContentEP7NSArrayIP8NSNumberES5_
+- __ZN15CoreHandwriting9synthesis26multiArrayInt32WithContentEP7NSArrayIP8NSNumberES5_i
+- __ZN15CoreHandwriting9synthesis27CHDiffusionExecutionContext12executeModelEP19NSMutableDictionary
+- __ZN15CoreHandwriting9synthesis27CHDiffusionExecutionContext14load_resourcesEv
+- __ZN15CoreHandwriting9synthesis27CHDiffusionExecutionContextC1Ev
+- __ZN15CoreHandwriting9synthesis27CHDiffusionExecutionContextC2Ev
+- __ZN15CoreHandwriting9synthesis27DPMSolverMultistepScheduler12setTimestepsEii
+- __ZN15CoreHandwriting9synthesis27DPMSolverMultistepSchedulerC1Eii
+- __ZN15CoreHandwriting9synthesis27DPMSolverMultistepSchedulerC2Eii
+- __ZN15CoreHandwriting9synthesis29getCosineScheduleTrainedBetasEii
+- __ZN15CoreHandwriting9synthesis29multiArrayInt32WithFixedValueEiP7NSArrayIP8NSNumberE
+- __ZN15CoreHandwriting9synthesis30createDrawingFromDeltaFeaturesEP12MLMultiArrayS2_m
+- __ZN15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext12setX0DrawingEP9CHDrawing
+- __ZN15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext16setStyleDrawingsEP7NSArrayIP9CHDrawingE
+- __ZN15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext11setStyleInkENS_3InkEi
+- __ZN15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext8setX0InkERKNS_3InkEi
+- __ZN15CoreHandwriting9synthesis33fixedPointsPerCharacterResamplingEP7NSArrayIP9CHDrawingEPS1_IP8NSStringEl
+- __ZN15CoreHandwriting9synthesis48generateMLMultiArrayWithGaussianNoiseWithPaddingEP7NSArrayIP8NSNumberEmi
+- __ZN15CoreHandwriting9synthesis50CHDiffusionSynthesisSetOfSupportedCharacterByModelEv
+- __ZN15CoreHandwriting9synthesis52CHDiffusionSynthesisApplyAllowedUnicodeDecompositionEj33CHTextSynthesizerCharacterSupport
+- __ZN15CoreHandwriting9synthesis56CHDiffusionSynthesisTransliterationCharacterExtensionMapEv
+- __ZN15CoreHandwriting9synthesis59CHDiffusionSynthesisStringWithAllSupportedCharactersByModelEv
+- __ZN15CoreHandwriting9synthesis7loadPPCEv
+- __ZN15CoreHandwriting9synthesis9fast_path19CHFastPathCharacterC1EP9CHDrawingij
+- __ZN15CoreHandwriting9synthesis9fast_path19CHFastPathCharacterC2EP9CHDrawingij
+- __ZN15CoreHandwriting9synthesis9fast_path19renormalizedDrawingEPK9CHDrawingfffff
+- __ZN15CoreHandwriting9synthesis9fast_path28CHFastPathCharacterInventory22getSupportedCharactersEv
+- __ZN15CoreHandwriting9synthesis9fast_path28CHFastPathCharacterInventoryC1Ev
+- __ZN15CoreHandwriting9synthesis9fast_path28CHFastPathCharacterInventoryC2Ev
+- __ZN15CoreHandwriting9synthesis9fast_path28uncompressInventoryFromLZFSEEP8NSString
+- __ZN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSE14doAddCharacterERKNS1_19CHFastPathCharacterEi
+- __ZN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSE27reloadAllCharactersIfNeededEv
+- __ZN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSEC1ENS1_34CHFastPathCharacterHolderStyleTypeEi
+- __ZN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSEC2ENS1_34CHFastPathCharacterHolderStyleTypeEi
+- __ZN15CoreHandwriting9synthesis9fast_path33CHAbstractFastPathCharacterHolder12addCharacterERKNS1_19CHFastPathCharacterEi
+- __ZN15CoreHandwriting9synthesis9fast_path33CHAbstractFastPathCharacterHolder26getSupportedCharactersInfoEv
+- __ZN15CoreHandwriting9synthesis9fast_path33CHAbstractFastPathCharacterHolder27getCharacterRepresentationsEj
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyle14doAddCharacterERKNS1_19CHFastPathCharacterEi
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyle19initialiseResourcesEv
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyle27reloadAllCharactersIfNeededEv
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyle9setLocaleEP8NSLocale
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyleC1ENS1_34CHFastPathCharacterHolderStyleTypeEiNS1_36CHFastPathCharacterHolderStylePresetE
+- __ZN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyleC2ENS1_34CHFastPathCharacterHolderStyleTypeEiNS1_36CHFastPathCharacterHolderStylePresetE
+- __ZN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventory14doAddCharacterERKNS1_19CHFastPathCharacterEi
+- __ZN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventory27reloadAllCharactersIfNeededEv
+- __ZN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventoryC1ENS1_34CHFastPathCharacterHolderStyleTypeEiP25CHSynthesisStyleInventory
+- __ZN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventoryC2ENS1_34CHFastPathCharacterHolderStyleTypeEiP25CHSynthesisStyleInventory
+- __ZN15CoreHandwriting9synthesis9fast_path42createCHFastPathCharacterFromSegmentedDataEP12NSDictionaryji
+- __ZN15CoreHandwriting9synthesis9fast_path44createCHFastPathCharacterFromSynthesizedDataEP9CHDrawingffji
+- __ZN15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscriptC1Ev
+- __ZN15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscriptC2Ev
+- __ZN15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliterationC1Ev
+- __ZN15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliterationC2Ev
+- __ZN15CoreHandwriting9synthesis9fast_path58CHFastPathCharacterPersonalizerWithPrefixForStyleInventory18runPersonalizationEU13block_pointerFP17CHSynthesisResultP8NSString24CHStyleSamplingAlgorithmmU13block_pointerFvS4_P7NSErrorEU13block_pointerFP7NSArrayIP24CHRemoteSynthesisRequestEPSC_IP22CHSynthesisStyleSampleEEEb
+- __ZN15CoreHandwriting9synthesis9fast_path58CHFastPathCharacterPersonalizerWithPrefixForStyleInventory20processRequestResultERKNS1_35CHFastPathCharacterSynthesisRequestEP17CHSynthesisResult
+- __ZN15CoreHandwriting9synthesis9fast_path58CHFastPathCharacterPersonalizerWithPrefixForStyleInventory33getCharactersRequestsToSynthesizeEb
+- __ZN15CoreHandwriting9synthesis9fast_path58CHFastPathCharacterPersonalizerWithPrefixForStyleInventoryC1EP5NSSetIP8NSStringEP25CHSynthesisStyleInventory
+- __ZN15CoreHandwriting9synthesis9fast_path58CHFastPathCharacterPersonalizerWithPrefixForStyleInventoryC2EP5NSSetIP8NSStringEP25CHSynthesisStyleInventory
+- __ZN15CoreHandwriting9synthesis9loadModelEv
+- __ZN15CoreHandwriting9transformEP9CHDrawingU13block_pointerF7CGPointS2_E
+- __ZN16CHDrawingStrokes11translateByEdd
+- __ZN16CHDrawingStrokes13readCharacterEPKc
+- __ZN16CHDrawingStrokes14generateBitmapEii
+- __ZN16CHDrawingStrokes14getBoundingBoxEv
+- __ZN16CHDrawingStrokes19generateOrientationEii
+- __ZN16CHDrawingStrokes23getBoundingBoxForStrokeEl
+- __ZN16CHDrawingStrokes27computeBoundingBoxForStrokeEl
+- __ZN16CHDrawingStrokes28computeSparseBitmapBresenhamEi
+- __ZN16CHDrawingStrokes51computeSpatialFeaturesWithNoOverlapFromSparseBitmapERS_j
+- __ZN16CHDrawingStrokes6centerEv
+- __ZN16CHDrawingStrokes7cleanupERS_d
+- __ZN16CHDrawingStrokes7scaleToEd
+- __ZN16EllipseRegressor11ePolarCoordE7CGPoint
+- __ZN16EllipseRegressor11fitToCircleE7CGPointS0_S0_
+- __ZN16EllipseRegressor14pointFromAngleEf
+- __ZN16EllipseRegressor17performRegressionEv
+- __ZN16EllipseRegressor31confidenceLevelVersusBezierLineEv
+- __ZN16EllipseRegressorC1EP9CHDrawingP6HTMLog
+- __ZN16EllipseRegressorC2EP9CHDrawingP6HTMLog
+- __ZN17PentagonRegressor15provideAnAnswerEP9CHDrawing
+- __ZN17PentagonRegressor28confidenceLevelVersusEllipseEv
+- __ZN17PentagonRegressorC1EP9CHDrawingP6HTMLog
+- __ZN17PentagonRegressorC2EP9CHDrawingP6HTMLog
+- __ZN17TriangleRegressor15provideAnAnswerEP9CHDrawing
+- __ZN17TriangleRegressorC1EP9CHDrawingP6HTMLogffff
+- __ZN17TriangleRegressorC2EP9CHDrawingP6HTMLogffff
+- __ZN18RectangleRegressor13writeFeaturesEPPf
+- __ZN18RectangleRegressor15provideAnAnswerEP9CHDrawing
+- __ZN18RectangleRegressorC1EP9CHDrawingP6HTMLog
+- __ZN18RectangleRegressorC2EP9CHDrawingP6HTMLog
+- __ZN19BezierLineRegressor14timeEstimationE7CGPoint
+- __ZN19BezierLineRegressor14timeEstimationEc
+- __ZN19BezierLineRegressor22controlPointEstimationEv
+- __ZN19BezierLineRegressor2MME
+- __ZN19BezierLineRegressor3MMME
+- __ZN19BezierLineRegressor3iMME
+- __ZN19BezierLineRegressor4iMMME
+- __ZN19BezierLineRegressor4initEv
+- __ZN19BezierLineRegressor8getErrorE7CGPoint
+- __ZN19BezierLineRegressorC1ER7CHPointP9CHDrawingS1_P6HTMLog
+- __ZN19BezierLineRegressorC1Ev
+- __ZN19BezierLineRegressorC2ER7CHPointP9CHDrawingS1_P6HTMLog
+- __ZN19BezierLineRegressorC2Ev
+- __ZN19BezierLineRegressorD1Ev
+- __ZN19BezierLineRegressorD2Ev
+- __ZN19ChatBubbleRegressor15provideAnAnswerEP9CHDrawing
+- __ZN19ChatBubbleRegressor15regressLollipopEiii
+- __ZN19ChatBubbleRegressorC1EP9CHDrawingP6HTMLog
+- __ZN19ChatBubbleRegressorC2EP9CHDrawingP6HTMLog
+- __ZN21CHFastGroupingCluster12mergeClusterERKS_
+- __ZN21CHFastGroupingCluster16unionWithClusterEPS_
+- __ZN21CHFastGroupingCluster19containsStrokeIndexEm
+- __ZN21CHFastGroupingCluster24computeGlobalAnchorPointEv
+- __ZN21CHFastGroupingCluster7explodeEv
+- __ZN21CHFastGroupingCluster8findRootEv
+- __ZN21CHFastGroupingClusterC1Ev
+- __ZN21CHFastGroupingClusterC2Ev
+- __ZN21NetworkEdgeIdentifierC1Ejjjjj
+- __ZN21NetworkEdgeIdentifierC1Ev
+- __ZN21NetworkEdgeIdentifierC2Ejjjjj
+- __ZN21NetworkEdgeIdentifierC2Ev
+- __ZN21NetworkEdgeIdentifieraSERKS_
+- __ZN21StraightLineRegressor15provideAnAnswerEv
+- __ZN21StraightLineRegressorC1EP9CHDrawingR7CHPointS1_S3_P6HTMLog
+- __ZN21StraightLineRegressorC2EP9CHDrawingR7CHPointS1_S3_P6HTMLog
+- __ZN22CHFastGroupingClusters13mergeClustersEmm
+- __ZN22CHFastGroupingClusters21computeDistanceMatrixEv
+- __ZN22CHFastGroupingClusters21updateClosestClustersEv
+- __ZN22ManhattanLineRegressor15provideAnAnswerEv
+- __ZN22ManhattanLineRegressor22detectMiddlePointIndexEv
+- __ZN22ManhattanLineRegressor23manhattanLineRegressionEv
+- __ZN22ManhattanLineRegressor29confidenceScoreVersusFreeformEv
+- __ZN22ManhattanLineRegressor30manhattanLineArrowheadDetectorEb
+- __ZN22ManhattanLineRegressorC1EP9CHDrawingP6HTMLogb
+- __ZN22ManhattanLineRegressorC2EP9CHDrawingP6HTMLogb
+- __ZN22OutlinedArrowRegressor15provideAnAnswerEP9CHDrawing
+- __ZN22OutlinedArrowRegressor29confidenceLevelVersusPentagonEv
+- __ZN22OutlinedArrowRegressor31confidenceLevelVersusChatBubbleEv
+- __ZN22OutlinedArrowRegressorC1EP9CHDrawingP6HTMLog
+- __ZN22OutlinedArrowRegressorC2EP9CHDrawingP6HTMLog
+- __ZN26CHRSketchRecognitionResult17isConsideredEqualEfff
+- __ZN26CHRSketchRecognitionResult6HscoreEf
+- __ZN26CHRSketchRecognitionResult6VscoreEf
+- __ZN6HTMLog11writeHeaderEv
+- __ZN6HTMLog12openPolylineEv
+- __ZN6HTMLog14addTextAtPointE7CGPointPKcz
+- __ZN6HTMLog14pushInPolylineE7CGPoint
+- __ZN6HTMLog2pyEPKcz
+- __ZN6HTMLog4pushEPKcz
+- __ZN6HTMLog6pushH1EPKcz
+- __ZN6HTMLog6pushH2EPKcz
+- __ZN6HTMLog7py_execEv
+- __ZN6HTMLog8pushInfoEPKcz
+- __ZN6HTMLog8py_startEv
+- __ZN6HTMLogD1Ev
+- __ZN6HTMLogD2Ev
+- __ZN7Network10insertEdgeER11NetworkEdge
+- __ZN7Network10kBestPathsEmmmPK10_LXLexiconPK9_LXCursorPS0_S5_P16CHPatternNetworkP13NetworkCursor24CHRecognitionContentTypePvbU13block_pointerFdRK11NetworkEdgeEU13block_pointerFdP11LatticePathEbbbb
+- __ZN7Network10storeEntryERK11NetworkEdge
+- __ZN7Network11deserializeEPKc
+- __ZN7Network11readOneEdgeEPKcR11NetworkEdge
+- __ZN7Network11removeFinalEm
+- __ZN7Network11storeSymbolEm
+- __ZN7Network12readDataFileEv
+- __ZN7Network12unionNetworkERKS_S1_
+- __ZN7Network13applyDiscountEf
+- __ZN7Network13trimDeadEdgesERS_
+- __ZN7Network14getMutableEdgeEm
+- __ZN7Network14prepareNetworkEv
+- __ZN7Network15setPrefixByCopyEPjm
+- __ZN7Network18serializeAsFSTEdgeEm
+- __ZN7Network20removeEpsOutputEdgesERS_b
+- __ZN7Network21applyInsertionPenaltyEf
+- __ZN7Network22composeTrimAndSimplifyERKS_RS_S2_bb
+- __ZN7Network23convertAllEdgesToScoresEv
+- __ZN7Network24findFirstEdgeGivenSymbolEmm
+- __ZN7Network24makeFinalNodeTheLastNodeEv
+- __ZN7Network25pushWeightsFromEmptyEdgesEb
+- __ZN7Network32guaranteeThatEdgesAreNonNegativeEv
+- __ZN7Network35checkSingleEmptyIncomingEdgeForNodeEmRm
+- __ZN7Network38createNetworkUsingStructureFromNetworkERKS_
+- __ZN7Network39guaranteeSingleEmptyIncomingEdgePerNodeEv
+- __ZN7Network7composeERKS_RS_b
+- __ZN7Network8bestPathEmm
+- __ZN7Network8setFinalEm
+- __ZN7Network9getPrefixERPjRm
+- __ZN7Network9serializeEPKc
+- __ZN7NetworkC1EPKcb
+- __ZN7NetworkC1ERKS_S1_
+- __ZN7NetworkC1Ev
+- __ZN7NetworkC2EPKcb
+- __ZN7NetworkC2ERKS_S1_
+- __ZN7NetworkC2Ev
+- __ZN7NetworkD1Ev
+- __ZN7NetworkD2Ev
+- __ZN7Segment16mergeIntoSegmentERKS_
+- __ZN7Segment18mergeBoundingBoxesERKS_l
+- __ZN7SegmentC1EPK9CHDrawingl
+- __ZN7SegmentC1ERKS_
+- __ZN7SegmentC1ERS_
+- __ZN7SegmentC1Ev
+- __ZN7SegmentC2EPK9CHDrawingl
+- __ZN7SegmentC2ERKS_
+- __ZN7SegmentC2ERS_
+- __ZN7SegmentC2Ev
+- __ZN7SegmentaSERKS_
+- __ZN9CHCodeMap22serializeCodeMapToFileEP8NSStringS1_
+- __ZN9CHCodeMapD1Ev
+- __ZN9CHCodeMapD2Ev
+- __ZN9CHEllipse10isCoveringE7CGPoint
+- __ZN9LMHistory3popEv
+- __ZN9LMHistory4pushEj
+- __ZN9LMHistoryC1ERKS_
+- __ZN9LMHistoryC1Ej
+- __ZN9LMHistoryC2ERKS_
+- __ZN9LMHistoryC2Ej
+- __ZN9LMHistoryaSERKS_
+- __ZN9Projector11unitDotProdERKS_
+- __ZN9Projector16intersectionWithERKS_R7CGPoint
+- __ZN9Projector7dotProdERKS_
+- __ZN9SymbolMapC1Ev
+- __ZN9SymbolMapC2Ev
+- __ZN9SymbolMapaSERKS_
+- __ZNK11LatticePath11printScoresEv
+- __ZNK11LatticePath5printEv
+- __ZNK11NetworkEdge18serializeAsFSTEdgeERK9SymbolMapb
+- __ZNK11NetworkEdge18serializeAsFSTEdgeEv
+- __ZNK11NetworkEdge30serializeAsFSTEdgeUTF8RenderedERK9SymbolMapb
+- __ZNK11NetworkEdge5printERK9SymbolMapb
+- __ZNK11NetworkEdge5printEv
+- __ZNK11NetworkEdge7makeKeyEmm
+- __ZNK11NetworkEdge9serializeEPK7Network
+- __ZNK11NetworkEdge9serializeEv
+- __ZNK11NetworkEdgeeqERKS_
+- __ZNK11NetworkNode11printSimpleEm
+- __ZNK11NetworkNode5printEmm
+- __ZNK11NetworkNode9serializeEm
+- __ZNK13CHLineSegment25intersectionPointWithLineERKS_
+- __ZNK13CHLineSegment25intersectsWithLineSegmentERKS_
+- __ZNK13CHLineSegment6getEndEv
+- __ZNK13CHLineSegment8getStartEv
+- __ZNK15CHCanvasHeatmap19isHighDensityItemIDEm
+- __ZNK15CHCanvasHeatmap28computeMinMaxGridCoordinatesERlS0_S0_S0_Rm
+- __ZNK15CoreHandwriting10InkMapping11composeWithERKS0_
+- __ZNK15CoreHandwriting10InkMapping19getMappedPointIndexEmm
+- __ZNK15CoreHandwriting10InkMapping21getStrokePointMappingEm
+- __ZNK15CoreHandwriting10InkPadding14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting12FeatureArray13totalDataSizeEv
+- __ZNK15CoreHandwriting12FeatureArray7getDataEv
+- __ZNK15CoreHandwriting14AnchorClipping14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting17CHMathBeamDecoder12initialStateEPU28objcproto17MLFeatureProvider11objc_object
+- __ZNK15CoreHandwriting17CHMathBeamDecoder16applyBeamScorersERNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting17CHMathBeamDecoder19getMaxDecodingStepsEi
+- __ZNK15CoreHandwriting17CHMathBeamDecoder25prepareActiveAlphabetMaskEP23CHEncoderDecoderNetwork
+- __ZNK15CoreHandwriting17CHMathBeamDecoder6expandERNS_25CHEncoderDecoderBeamStateEiPK12NSDictionaryii
+- __ZNK15CoreHandwriting17LaTeXSyntaxHelper22checkCompatibleSymbolsEii
+- __ZNK15CoreHandwriting17SpatialResampling14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting19InputCoverageScorer5applyERNS_25CHEncoderDecoderBeamStateEPb
+- __ZNK15CoreHandwriting19LanguageModelScorer5applyERNS_25CHEncoderDecoderBeamStateEPb
+- __ZNK15CoreHandwriting19LegacyStrokePadding14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting19SimpleStrokePadding14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting20PreprocessingManager14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting20PreprocessingManager7processERKNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting21CPDAffineRegistration12getTransformEv
+- __ZNK15CoreHandwriting21CPDAffineRegistration14point_distanceERKNS_6MatrixIdEEmS4_m
+- __ZNK15CoreHandwriting21DeltaFeatureExtractor7processERKNS_3InkE
+- __ZNK15CoreHandwriting21LatexSyntaxBeamScorer5applyERNS_25CHEncoderDecoderBeamStateEPb
+- __ZNK15CoreHandwriting21PenUpFeatureExtractor7processERKNS_3InkE
+- __ZNK15CoreHandwriting23StrokeDirectionReversal14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting25CHEncoderDecoderBeamState18isGraphingFunctionEv
+- __ZNK15CoreHandwriting25CHEncoderDecoderBeamState24getNormalizedProbabilityEv
+- __ZNK15CoreHandwriting25CHEncoderDecoderBeamStategtERKS0_
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer10isCurrencyERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer10isFullUnitERKNS_25CHEncoderDecoderBeamStateEi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer12isUnitPrefixERKNS_25CHEncoderDecoderBeamStateEbi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer16isCurrencySymbolEi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer19normalizeStringCaseERNS_25CHEncoderDecoderBeamStateEmm
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer20evaluatePrefixStringERNS_25CHEncoderDecoderBeamStateEPbi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer20isCurrencyUnitPrefixERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer21isMultiwordUnitPrefixERNS_25CHEncoderDecoderBeamStateEi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer21validStateForFullUnitERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer22evaluateCompleteStringERNS_25CHEncoderDecoderBeamStateEPbi
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer23validStateForUnitPrefixERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer30evaluateConcatenationOfStringsERNS_25CHEncoderDecoderBeamStateEb
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer31getStringDecodingWithSubscriptsERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer32checkVariablePrefixWithSubscriptERKNS_25CHEncoderDecoderBeamStateE
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer36evaluateConcatenationOfLexiconStringERNS_25CHEncoderDecoderBeamStateEb
+- __ZNK15CoreHandwriting25ExpectedStringsBeamScorer5applyERNS_25CHEncoderDecoderBeamStateEPb
+- __ZNK15CoreHandwriting26FeatureExtractionProcessor7processERKNS_3InkE
+- __ZNK15CoreHandwriting27EndOfStrokeFeatureExtractor7processERKNS_3InkE
+- __ZNK15CoreHandwriting29DistanceFeatureExtractionStep7processERKNS_3InkE
+- __ZNK15CoreHandwriting29RamerDouglasPeuckerResampling14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting29TrigonometricFeatureExtractor7processERKNS_3InkE
+- __ZNK15CoreHandwriting31RescaleByAverageCharacterHeight14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting31RescaleByAverageCharacterHeight30estimateAverageCharacterHeightERKNS_3InkE
+- __ZNK15CoreHandwriting31StrokeDirectionFeatureExtractor7processERKNS_3InkE
+- __ZNK15CoreHandwriting35InkToImageBaseFeatureExtractionStep7processERKNS_3InkE
+- __ZNK15CoreHandwriting35LeftToRightByCenterStrokeReordering14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting38SpatialResamplingToFixedNumberOfPoints14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting38SpatialResamplingToFixedNumberOfPoints22calcNumPointsPerStrokeERKNS_3InkEm
+- __ZNK15CoreHandwriting39InkToImageByHeightFeatureExtractionStep13numDimensionsEv
+- __ZNK15CoreHandwriting39InkToImageByHeightFeatureExtractionStep21getDimensionsToRenderERKNS_3InkE
+- __ZNK15CoreHandwriting3Ink10numStrokesEv
+- __ZNK15CoreHandwriting3Ink25getCumulativeStrokeLengthEv
+- __ZNK15CoreHandwriting3Ink6boundsEv
+- __ZNK15CoreHandwriting3Ink9numPointsEv
+- __ZNK15CoreHandwriting3InkeqERKS0_
+- __ZNK15CoreHandwriting40RightToLeftByHorizontalOverlapReordering14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStep13numDimensionsEv
+- __ZNK15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStep21estimateInkSymbolSizeERKNS_3InkE
+- __ZNK15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStep21getDimensionsToRenderERKNS_3InkE
+- __ZNK15CoreHandwriting9Rescaling14processInplaceEPNS_3InkEPNS_10InkMappingE
+- __ZNK15CoreHandwriting9synthesis13DDIMScheduler22getForwardCoefficientsEi
+- __ZNK15CoreHandwriting9synthesis18CHDiffusionSampler6sampleEP19NSMutableDictionaryPKNS0_26AbstractDiffusionSchedulerEPNS0_25CHDiffusionSynthesisModelEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline11isSupportedEP8NSString
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline15getPreprocessorEm
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline17calculateFeaturesEP9CHDrawingP8NSStringii
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline18getSegmentedResultEP9CHDrawingP8NSString
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline19getFeatureExtractorEv
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline20createModelInputDataEP8NSStringP25CHSynthesisRequestOptionsRKNS0_28CHDiffusionPipelineRunConfigE
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline21predictStyleEmbeddingEP8NSStringP9CHDrawingU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis19CHDiffusionPipeline3runEP8NSStringP25CHSynthesisRequestOptionsU13block_pointerFbvERKNS0_28CHDiffusionPipelineRunConfigE
+- __ZNK15CoreHandwriting9synthesis23CHDiffusionPipelineStep7executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis24CHDiffusionPipelineLatin24_checkIfModelIsAvailableEv
+- __ZNK15CoreHandwriting9synthesis25CHDiffusionSynthesisModel12encodeStringEP8NSString
+- __ZNK15CoreHandwriting9synthesis25CHDiffusionSynthesisModel15canEncodeStringEP8NSString
+- __ZNK15CoreHandwriting9synthesis25CHDiffusionSynthesisModel32getComposerMaskForBeautificationEv
+- __ZNK15CoreHandwriting9synthesis25CHDiffusionSynthesisModel38getComposerConditionsForBeautificationEv
+- __ZNK15CoreHandwriting9synthesis26AbstractDiffusionScheduler12getTimestepsEv
+- __ZNK15CoreHandwriting9synthesis26AbstractDiffusionScheduler12timeStepsEndEf
+- __ZNK15CoreHandwriting9synthesis26AbstractDiffusionScheduler14timeStepsBeginEf
+- __ZNK15CoreHandwriting9synthesis26AbstractDiffusionScheduler18getClosestTimeStepEf
+- __ZNK15CoreHandwriting9synthesis26AbstractDiffusionScheduler24getNumInferenceTimestepsEv
+- __ZNK15CoreHandwriting9synthesis26CHDiffusionPipelineContext19getExecutionContextEv
+- __ZNK15CoreHandwriting9synthesis26CHDiffusionPipelineContext23getOriginalInputContextEv
+- __ZNK15CoreHandwriting9synthesis26CHDiffusionPipelineContext24getProcessedInputContextEv
+- __ZNK15CoreHandwriting9synthesis26CHDiffusionSamplerLoopStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis26CHDiffusionSamplerLoopStep9setResultERNS0_26CHDiffusionPipelineContextEP12MLMultiArrayS5_
+- __ZNK15CoreHandwriting9synthesis27CHDiffusionEncodeStringStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis27CHDiffusionExecutionContext15getInputLengthsEv
+- __ZNK15CoreHandwriting9synthesis27CHDiffusionExecutionContext25getInverseCodemapForStyleEv
+- __ZNK15CoreHandwriting9synthesis27CHDiffusionExecutionContext27getInverseCodemapForContentEv
+- __ZNK15CoreHandwriting9synthesis27DPMSolverMultistepScheduler22getForwardCoefficientsEi
+- __ZNK15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext10getContentEv
+- __ZNK15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext12getX0DrawingEv
+- __ZNK15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext15getStyleContentEv
+- __ZNK15CoreHandwriting9synthesis31CHDiffusionOriginalInputContext15getStyleDrawingEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext11getStyleInkEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext21getStyleEncodedStringEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext22getUnpaddedX0InkLengthEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext23getContentEncodedStringEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext25getUnpaddedStyleInkLengthEv
+- __ZNK15CoreHandwriting9synthesis32CHDiffusionProcessedInputContext8getX0InkEv
+- __ZNK15CoreHandwriting9synthesis33CHDiffusionInkToInputFeaturesStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBase12_isSupportedEP8NSString
+- __ZNK15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBase16_runStyleEncoderERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBase22_predictStyleEmbeddingEP7NSArrayIP8NSStringEPS2_IP9CHDrawingEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBase4_runEP8NSStringP25CHSynthesisRequestOptionsU13block_pointerFbvENS0_26CHDiffusionPipelineRunModeE
+- __ZNK15CoreHandwriting9synthesis35CHDiffusionX0InkToInputFeaturesStep19getFeatureExtractorERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis36CHDiffusionSetInputLengthFeatureStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis37CHAbstractModernizedDiffusionPipeline21predictStyleEmbeddingEP7NSArrayIP8NSStringEPS2_IP9CHDrawingEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis37CHAbstractModernizedDiffusionPipeline3runEP8NSStringP25CHSynthesisRequestOptionsU13block_pointerFbvENS0_26CHDiffusionPipelineRunModeE
+- __ZNK15CoreHandwriting9synthesis37CHDiffusionPipelineLatinPreprocessing22preprocessInputContextERNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis37CHDiffusionPipelineLatinPreprocessing25supportedCharacterIndexesEP8NSStringRNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis38CHDiffusionStyleInkToInputFeaturesStep19getFeatureExtractorERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis39CHDiffusionDrawingToPreprocessedInkStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStep23getMixingWithSeedCoeffsERNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStep9getSeedXTERNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis41CHDiffusionExecutionContextSetupStyleStep17getEncodedContentERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis41CHDiffusionExecutionContextSetupStyleStep19setExecutionContextERNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis43CHDiffusionEncodedStringToInputFeaturesStep8_executeERNS0_26CHDiffusionPipelineContextEU13block_pointerFbvE
+- __ZNK15CoreHandwriting9synthesis44CHDiffusionExecutionContextSetupDenoiserStep17getEncodedContentERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis44CHDiffusionExecutionContextSetupDenoiserStep19setExecutionContextERNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStep10getDrawingERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStep15getPreprocessorERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStep20getInkPaddingDivisorERKNS0_26CHDiffusionPipelineContextE
+- __ZNK15CoreHandwriting9synthesis9fast_path19CHFastPathCharacter20getNormalizedDrawingEfff
+- __ZNK15CoreHandwriting9synthesis9fast_path28CHFastPathCharacterInventory18lookupInAllHoldersEjNS1_34CHFastPathCharacterHolderStyleTypeE
+- __ZNK15CoreHandwriting9synthesis9fast_path28CHFastPathCharacterInventory36collectFastPathCharactersFromHoldersEjNS1_34CHFastPathCharacterHolderStyleTypeE
+- __ZNK15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscript28hasExtensionRulesToCharacterEj
+- __ZNK15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscript42getCharactersWhichCanBeExtendedToCodepointEj
+- __ZNK15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscript6extendEjjRKNS1_19CHFastPathCharacterE
+- __ZNK15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliteration28hasExtensionRulesToCharacterEj
+- __ZNK15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliteration42getCharactersWhichCanBeExtendedToCodepointEj
+- __ZNK15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliteration6extendEjjRKNS1_19CHFastPathCharacterE
+- __ZNK15CoreHandwriting9synthesis9fast_path70CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariations20proceedRequestResultERKNS1_35CHFastPathCharacterSynthesisRequestEP17CHSynthesisResult
+- __ZNK15CoreHandwriting9synthesis9fast_path70CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariations33getCharactersRequestsToSynthesizeEb
+- __ZNK15CoreHandwriting9synthesis9fast_path80CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations20proceedRequestResultERKNS1_35CHFastPathCharacterSynthesisRequestEP17CHSynthesisResult
+- __ZNK15CoreHandwriting9synthesis9fast_path80CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations33getCharactersRequestsToSynthesizeEb
+- __ZNK16CHDrawingStrokes10pathLengthEl
+- __ZNK16CHDrawingStrokes10pathLengthEv
+- __ZNK16CHDrawingStrokes13computeCenterEv
+- __ZNK16CHDrawingStrokes14totalNumPointsEv
+- __ZNK16CHDrawingStrokes27resampleStrokesEqualInSpaceERS_f
+- __ZNK16CHDrawingStrokes27resampleStrokesEqualInSpaceERS_fl
+- __ZNK16CHDrawingStrokes48resampleStrokesWithCatmullRomSplineInterpolationERS_f
+- __ZNK21CHFastGroupingCluster15getAnchorPointsEv
+- __ZNK21CHFastGroupingCluster16getStrokeIndexesEv
+- __ZNK21CHFastGroupingCluster20getDistanceToClusterERKS_24CHGroupingDistanceMetric32CHAgglomerativeClusteringLinkage
+- __ZNK21CHFastGroupingCluster20getGlobalAnchorPointEv
+- __ZNK21CHFastGroupingCluster6isRootEv
+- __ZNK21NetworkEdgeIdentifier11extractPartEj
+- __ZNK21NetworkEdgeIdentifier7isEmptyEv
+- __ZNK21NetworkEdgeIdentifier9serializeEv
+- __ZNK21NetworkEdgeIdentifiereqERKS_
+- __ZNK21NetworkEdgeIdentifierltERKS_
+- __ZNK22CHFastGroupingClusters11getClustersEv
+- __ZNK22CHFastGroupingClusters15getClusterCountEv
+- __ZNK22CHFastGroupingClusters24getClosestClusterIndexesEv
+- __ZNK22CHFastGroupingClusters25getClosestClusterDistanceEv
+- __ZNK7Network10getEdgeIdxEmm
+- __ZNK7Network10printAsFSTEm
+- __ZNK7Network11findEdgeIdxEmm
+- __ZNK7Network13pathsCoincideE11LatticePathS0_
+- __ZNK7Network14getFinalNodeIDEv
+- __ZNK7Network18getIncomingEdgeIdxEmm
+- __ZNK7Network24getTotalNumberOfSegmentsEmm
+- __ZNK7Network5printEi
+- __ZNK7Network7getEdgeEm
+- __ZNK7Network7getEdgeEmm
+- __ZNK7Network7getNodeEm
+- __ZNK7Network7isFinalEm
+- __ZNK7Network8printBFSEv
+- __ZNK7Network8printDFSEv
+- __ZNK7Network9getSymbolEm
+- __ZNK7Network9isInitialEm
+- __ZNK7Segment11sameSegmentERKS_i
+- __ZNK7Segment15verticalOverlapERKS_
+- __ZNK7Segment16findIntersectionERKS_
+- __ZNK7Segment17horizontalOverlapERKS_i
+- __ZNK7Segment17verticalSeperatedERKS_
+- __ZNK9CHCodeMapixEm
+- __ZNK9LMHistory12serializeAllERK9SymbolMap
+- __ZNK9LMHistory12serializeAllEv
+- __ZNK9LMHistory3getEi
+- __ZNK9LMHistory5frontEv
+- __ZNK9LMHistory9serializeEPKc
+- __ZNK9SymbolMap21getTotalStringLengthsEv
+- __ZNK9SymbolMap3getEm
+- __ZNK9SymbolMap4sizeEv
+- __ZNK9SymbolMap5printEv
+- __ZNK9SymbolMap9serializeEP7__sFILE
+- __ZNKSt3__114__codecvt_utf8IDiE10do_unshiftER11__mbstate_tPcS4_RS4_
+- __ZNKSt3__114__codecvt_utf8IDiE11do_encodingEv
+- __ZNKSt3__114__codecvt_utf8IDiE13do_max_lengthEv
+- __ZNKSt3__114__codecvt_utf8IDiE16do_always_noconvEv
+- __ZNKSt3__114__codecvt_utf8IDiE5do_inER11__mbstate_tPKcS5_RS5_PDiS7_RS7_
+- __ZNKSt3__114__codecvt_utf8IDiE6do_outER11__mbstate_tPKDiS5_RS5_PcS7_RS7_
+- __ZNKSt3__114__codecvt_utf8IDiE9do_lengthER11__mbstate_tPKcS5_m
+- __ZNSt11range_errorD1Ev
+- __ZNSt13runtime_errorC2EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEPKv
+- __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsEm
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__16locale5facet16__on_zero_sharedEv
+- __ZNSt3__17codecvtIDic11__mbstate_tED2Ev
+- __ZTI12CHBezierLine
+- __ZTI14CHStraightLine
+- __ZTI18RectangleRegressor
+- __ZTIN15CoreHandwriting10InkPaddingE
+- __ZTIN15CoreHandwriting14AnchorClippingE
+- __ZTIN15CoreHandwriting17SpatialResamplingE
+- __ZTIN15CoreHandwriting19InputCoverageScorerE
+- __ZTIN15CoreHandwriting19LanguageModelScorerE
+- __ZTIN15CoreHandwriting19LegacyStrokePaddingE
+- __ZTIN15CoreHandwriting19SimpleStrokePaddingE
+- __ZTIN15CoreHandwriting21DeltaFeatureExtractorE
+- __ZTIN15CoreHandwriting21LatexSyntaxBeamScorerE
+- __ZTIN15CoreHandwriting21PenUpFeatureExtractorE
+- __ZTIN15CoreHandwriting23StrokeDirectionReversalE
+- __ZTIN15CoreHandwriting25ExpectedStringsBeamScorerE
+- __ZTIN15CoreHandwriting27EndOfStrokeFeatureExtractorE
+- __ZTIN15CoreHandwriting29DistanceFeatureExtractionStepE
+- __ZTIN15CoreHandwriting29RamerDouglasPeuckerResamplingE
+- __ZTIN15CoreHandwriting29TrigonometricFeatureExtractorE
+- __ZTIN15CoreHandwriting31RescaleByAverageCharacterHeightE
+- __ZTIN15CoreHandwriting31StrokeDirectionFeatureExtractorE
+- __ZTIN15CoreHandwriting35InkToImageBaseFeatureExtractionStepE
+- __ZTIN15CoreHandwriting35LeftToRightByCenterStrokeReorderingE
+- __ZTIN15CoreHandwriting38SpatialResamplingToFixedNumberOfPointsE
+- __ZTIN15CoreHandwriting39InkToImageByHeightFeatureExtractionStepE
+- __ZTIN15CoreHandwriting40RightToLeftByHorizontalOverlapReorderingE
+- __ZTIN15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStepE
+- __ZTIN15CoreHandwriting9RescalingE
+- __ZTIN15CoreHandwriting9synthesis13DDIMSchedulerE
+- __ZTIN15CoreHandwriting9synthesis24CHDiffusionPipelineLatinE
+- __ZTIN15CoreHandwriting9synthesis26AbstractDiffusionSchedulerE
+- __ZTIN15CoreHandwriting9synthesis26CHDiffusionSamplerLoopStepE
+- __ZTIN15CoreHandwriting9synthesis27CHDiffusionEncodeStringStepE
+- __ZTIN15CoreHandwriting9synthesis27DPMSolverMultistepSchedulerE
+- __ZTIN15CoreHandwriting9synthesis33CHDiffusionInkToInputFeaturesStepE
+- __ZTIN15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBaseE
+- __ZTIN15CoreHandwriting9synthesis35CHDiffusionX0InkToInputFeaturesStepE
+- __ZTIN15CoreHandwriting9synthesis36CHDiffusionSetInputLengthFeatureStepE
+- __ZTIN15CoreHandwriting9synthesis37CHDiffusionPipelineLatinPreprocessingE
+- __ZTIN15CoreHandwriting9synthesis38CHDiffusionStyleInkToInputFeaturesStepE
+- __ZTIN15CoreHandwriting9synthesis39CHDiffusionDrawingToPreprocessedInkStepE
+- __ZTIN15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStepE
+- __ZTIN15CoreHandwriting9synthesis41CHDiffusionExecutionContextSetupStyleStepE
+- __ZTIN15CoreHandwriting9synthesis43CHDiffusionEncodedStringToInputFeaturesStepE
+- __ZTIN15CoreHandwriting9synthesis44CHDiffusionExecutionContextSetupDenoiserStepE
+- __ZTIN15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStepE
+- __ZTIN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSEE
+- __ZTIN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyleE
+- __ZTIN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventoryE
+- __ZTIN15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscriptE
+- __ZTIN15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliterationE
+- __ZTIN15CoreHandwriting9synthesis9fast_path65CHFastPathStitchingStrategyRandomCharacterRepresentationPerSampleE
+- __ZTIN15CoreHandwriting9synthesis9fast_path70CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariationsE
+- __ZTIN15CoreHandwriting9synthesis9fast_path80CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariationsE
+- __ZTINSt3__114__codecvt_utf8IDiEE
+- __ZTISt11range_error
+- __ZTS12CHBezierLine
+- __ZTS14CHStraightLine
+- __ZTS18RectangleRegressor
+- __ZTSN15CoreHandwriting10InkPaddingE
+- __ZTSN15CoreHandwriting14AnchorClippingE
+- __ZTSN15CoreHandwriting17SpatialResamplingE
+- __ZTSN15CoreHandwriting19InputCoverageScorerE
+- __ZTSN15CoreHandwriting19LanguageModelScorerE
+- __ZTSN15CoreHandwriting19LegacyStrokePaddingE
+- __ZTSN15CoreHandwriting19SimpleStrokePaddingE
+- __ZTSN15CoreHandwriting21DeltaFeatureExtractorE
+- __ZTSN15CoreHandwriting21LatexSyntaxBeamScorerE
+- __ZTSN15CoreHandwriting21PenUpFeatureExtractorE
+- __ZTSN15CoreHandwriting23StrokeDirectionReversalE
+- __ZTSN15CoreHandwriting25ExpectedStringsBeamScorerE
+- __ZTSN15CoreHandwriting27EndOfStrokeFeatureExtractorE
+- __ZTSN15CoreHandwriting29DistanceFeatureExtractionStepE
+- __ZTSN15CoreHandwriting29RamerDouglasPeuckerResamplingE
+- __ZTSN15CoreHandwriting29TrigonometricFeatureExtractorE
+- __ZTSN15CoreHandwriting31RescaleByAverageCharacterHeightE
+- __ZTSN15CoreHandwriting31StrokeDirectionFeatureExtractorE
+- __ZTSN15CoreHandwriting35InkToImageBaseFeatureExtractionStepE
+- __ZTSN15CoreHandwriting35LeftToRightByCenterStrokeReorderingE
+- __ZTSN15CoreHandwriting38SpatialResamplingToFixedNumberOfPointsE
+- __ZTSN15CoreHandwriting39InkToImageByHeightFeatureExtractionStepE
+- __ZTSN15CoreHandwriting40RightToLeftByHorizontalOverlapReorderingE
+- __ZTSN15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStepE
+- __ZTSN15CoreHandwriting9RescalingE
+- __ZTSN15CoreHandwriting9synthesis13DDIMSchedulerE
+- __ZTSN15CoreHandwriting9synthesis24CHDiffusionPipelineLatinE
+- __ZTSN15CoreHandwriting9synthesis26AbstractDiffusionSchedulerE
+- __ZTSN15CoreHandwriting9synthesis26CHDiffusionSamplerLoopStepE
+- __ZTSN15CoreHandwriting9synthesis27CHDiffusionEncodeStringStepE
+- __ZTSN15CoreHandwriting9synthesis27DPMSolverMultistepSchedulerE
+- __ZTSN15CoreHandwriting9synthesis33CHDiffusionInkToInputFeaturesStepE
+- __ZTSN15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBaseE
+- __ZTSN15CoreHandwriting9synthesis35CHDiffusionX0InkToInputFeaturesStepE
+- __ZTSN15CoreHandwriting9synthesis36CHDiffusionSetInputLengthFeatureStepE
+- __ZTSN15CoreHandwriting9synthesis37CHDiffusionPipelineLatinPreprocessingE
+- __ZTSN15CoreHandwriting9synthesis38CHDiffusionStyleInkToInputFeaturesStepE
+- __ZTSN15CoreHandwriting9synthesis39CHDiffusionDrawingToPreprocessedInkStepE
+- __ZTSN15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStepE
+- __ZTSN15CoreHandwriting9synthesis41CHDiffusionExecutionContextSetupStyleStepE
+- __ZTSN15CoreHandwriting9synthesis43CHDiffusionEncodedStringToInputFeaturesStepE
+- __ZTSN15CoreHandwriting9synthesis44CHDiffusionExecutionContextSetupDenoiserStepE
+- __ZTSN15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStepE
+- __ZTSN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSEE
+- __ZTSN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyleE
+- __ZTSN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventoryE
+- __ZTSN15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscriptE
+- __ZTSN15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliterationE
+- __ZTSN15CoreHandwriting9synthesis9fast_path65CHFastPathStitchingStrategyRandomCharacterRepresentationPerSampleE
+- __ZTSN15CoreHandwriting9synthesis9fast_path70CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariationsE
+- __ZTSN15CoreHandwriting9synthesis9fast_path80CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariationsE
+- __ZTV12CHBezierLine
+- __ZTV14CHStraightLine
+- __ZTV18RectangleRegressor
+- __ZTVN15CoreHandwriting10InkPaddingE
+- __ZTVN15CoreHandwriting14AnchorClippingE
+- __ZTVN15CoreHandwriting17SpatialResamplingE
+- __ZTVN15CoreHandwriting19InputCoverageScorerE
+- __ZTVN15CoreHandwriting19LanguageModelScorerE
+- __ZTVN15CoreHandwriting19LegacyStrokePaddingE
+- __ZTVN15CoreHandwriting19SimpleStrokePaddingE
+- __ZTVN15CoreHandwriting21DeltaFeatureExtractorE
+- __ZTVN15CoreHandwriting21LatexSyntaxBeamScorerE
+- __ZTVN15CoreHandwriting21PenUpFeatureExtractorE
+- __ZTVN15CoreHandwriting23StrokeDirectionReversalE
+- __ZTVN15CoreHandwriting25ExpectedStringsBeamScorerE
+- __ZTVN15CoreHandwriting27EndOfStrokeFeatureExtractorE
+- __ZTVN15CoreHandwriting29DistanceFeatureExtractionStepE
+- __ZTVN15CoreHandwriting29RamerDouglasPeuckerResamplingE
+- __ZTVN15CoreHandwriting29TrigonometricFeatureExtractorE
+- __ZTVN15CoreHandwriting31RescaleByAverageCharacterHeightE
+- __ZTVN15CoreHandwriting31StrokeDirectionFeatureExtractorE
+- __ZTVN15CoreHandwriting35InkToImageBaseFeatureExtractionStepE
+- __ZTVN15CoreHandwriting35LeftToRightByCenterStrokeReorderingE
+- __ZTVN15CoreHandwriting38SpatialResamplingToFixedNumberOfPointsE
+- __ZTVN15CoreHandwriting39InkToImageByHeightFeatureExtractionStepE
+- __ZTVN15CoreHandwriting40RightToLeftByHorizontalOverlapReorderingE
+- __ZTVN15CoreHandwriting43InkToImageByStrokeSizeFeatureExtractionStepE
+- __ZTVN15CoreHandwriting9RescalingE
+- __ZTVN15CoreHandwriting9synthesis13DDIMSchedulerE
+- __ZTVN15CoreHandwriting9synthesis24CHDiffusionPipelineLatinE
+- __ZTVN15CoreHandwriting9synthesis26AbstractDiffusionSchedulerE
+- __ZTVN15CoreHandwriting9synthesis26CHDiffusionSamplerLoopStepE
+- __ZTVN15CoreHandwriting9synthesis27CHDiffusionEncodeStringStepE
+- __ZTVN15CoreHandwriting9synthesis27DPMSolverMultistepSchedulerE
+- __ZTVN15CoreHandwriting9synthesis33CHDiffusionInkToInputFeaturesStepE
+- __ZTVN15CoreHandwriting9synthesis33CHModernizedDiffusionPipelineBaseE
+- __ZTVN15CoreHandwriting9synthesis35CHDiffusionX0InkToInputFeaturesStepE
+- __ZTVN15CoreHandwriting9synthesis36CHDiffusionSetInputLengthFeatureStepE
+- __ZTVN15CoreHandwriting9synthesis37CHDiffusionPipelineLatinPreprocessingE
+- __ZTVN15CoreHandwriting9synthesis38CHDiffusionStyleInkToInputFeaturesStepE
+- __ZTVN15CoreHandwriting9synthesis39CHDiffusionDrawingToPreprocessedInkStepE
+- __ZTVN15CoreHandwriting9synthesis39CHDiffusionStartNoiseInitialisationStepE
+- __ZTVN15CoreHandwriting9synthesis41CHDiffusionExecutionContextSetupStyleStepE
+- __ZTVN15CoreHandwriting9synthesis43CHDiffusionEncodedStringToInputFeaturesStepE
+- __ZTVN15CoreHandwriting9synthesis44CHDiffusionExecutionContextSetupDenoiserStepE
+- __ZTVN15CoreHandwriting9synthesis44CHDiffusionStyleDrawingToPreprocessedInkStepE
+- __ZTVN15CoreHandwriting9synthesis9fast_path30CHFastPathCharacterHolderLZFSEE
+- __ZTVN15CoreHandwriting9synthesis9fast_path35CHFastPathCharacterHolderAppleStyleE
+- __ZTVN15CoreHandwriting9synthesis9fast_path39CHFastPathCharacterHolderStyleInventoryE
+- __ZTVN15CoreHandwriting9synthesis9fast_path48CHFastPathCharacterInventoryExtensionSuperscriptE
+- __ZTVN15CoreHandwriting9synthesis9fast_path52CHFastPathCharacterInventoryExtensionTransliterationE
+- __ZTVN15CoreHandwriting9synthesis9fast_path65CHFastPathStitchingStrategyRandomCharacterRepresentationPerSampleE
+- __ZTVN15CoreHandwriting9synthesis9fast_path70CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariationsE
+- __ZTVN15CoreHandwriting9synthesis9fast_path80CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariationsE
+- __ZTVSt11range_error
+- __ZZNK15CoreRecognition7decoder17LexiconBeamScorerINS0_12LexiconStateEE11expandStateEPKS2_mPS2_mE16CONTEXT_LOG_PROB
+- __ZZNK15CoreRecognition7decoder17LexiconBeamScorerINS0_12LexiconStateEE11expandStateEPKS2_mPS2_mE17WORD_MIN_LOG_PROB
+- __Zeq11NodePairPtrS_
+- __Zeq14LatticePathPtrS_
+- __ZeqRK12TokenPathPtrS1_
+- __Zge11NodePairPtrS_
+- __Zge14LatticePathPtrS_
+- __Zgt11NodePairPtrS_
+- __Zgt14LatticePathPtrS_
+- __Zle11NodePairPtrS_
+- __Zle14LatticePathPtrS_
+- __Zlt11NodePairPtrS_
+- __Zlt14LatticePathPtrS_
+- __ZltRK12TokenPathPtrS1_
+- __Znwm
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftunistd
+- _cblas_sdot$NEWLAPACK
+- _clearStyleInventory
+- _cosf
+- _espresso_blob_is_dynamic
+- _espresso_buffer_pack_tensor_shape
+- _espresso_context_destroy
+- _espresso_create_context
+- _espresso_create_plan
+- _espresso_network_bind_buffer
+- _espresso_network_select_configuration
+- _espresso_plan_add_network
+- _espresso_plan_build
+- _espresso_plan_build_clean
+- _espresso_plan_destroy
+- _espresso_plan_execute_sync
+- _espresso_plan_get_phase
+- _fprintf
+- _fwrite
+- _kArchiveEncodedStrokeIdentifierKey
+- _kDataHashLength
+- _kDefaultInterSectionTimeInterval
+- _kDefaultInterStrokeInterval
+- _kDefaultPointSamplingRate
+- _kInfinity
+- _kMaxAcceptableTitleRejectionRate
+- _kMinAcceptableMathTitleScore
+- _kNoEdgeIndex
+- _kNoNodeID
+- _kRootNode
+- _malloc
+- _objc_retain_x12
+- _runCommand
+- _sinf
+- _system
+- _useDefaultInventory
+- _useInventoryWithRelativePath
+- _useInventoryWithRelativePathWithChecks
+- _vDSP_vadd
+- _vDSP_vsmul
+- _vDSP_vsub
+- _vfprintf
+- _vsnprintf
+CStrings:
++ "\x05\x01\a\x01\xf3"
++ "\t"
++ "\n%lu: ["
++ "\x1f\x011\x01_\x01\xe7"
++ "  principalPoints: %@\n"
++ " Row = %ld, Column = %ld, SubtileIndex = %@"
++ " Row = %ld, Column = %ld, SubtileIndex = %@, HasSubtiles = %@, Scale = %.2f, Origin = [%.2f, %.2f], Stroke count = %lu, Content stroke count = %lu, Overlap stroke count = %lu, Context stroke count = %lu"
++ " Stroke count = %lu"
++ " Tile count = %lu, Stroke count = %lu, Tile size factor = %.2f"
++ "!a\xb1"
++ "%0.2fs Clutter Filtering, %0.2fs Stroke class., %0.2fs Grouping, %0.2fs, %0.2fs Recog., %0.2fs Princ. Lines"
++ "%@ decoding failed. Drawing is required to be non-null and priority has to be valid. isValidDrawing=%@, isValidPriority=%@"
++ "%lu:%.3f"
++ "&1"
++ ", %.3f"
++ ", %lu:%.3f"
++ ", Tiles: %@"
++ "/document_%@-%@.json"
++ "0@1 0"
++ "0x%04X '%c'\n"
++ "0x%04X '%c''%c'\n"
++ "@\"<CHDiffusionBasedSynthesizingText><CHSynthesizingTextInternal><_TtP15CoreHandwriting24CHTextSynthesisChunkable_>\""
++ "@\"<CHDocumentLayoutAnalyzing>\""
++ "@\"<CHDocumentLayoutAnalyzing>\"16@0:8"
++ "@\"<CHSynthesizingText><CHSynthesizingTextInternal>\""
++ "@\"CHBottomUpStrokeGroupingStrategy\""
++ "@\"CHContextualTextResults\""
++ "@\"CHDiffusionTextSynthesizerKo\""
++ "@\"CHDiffusionTextSynthesizerZhJa\""
++ "@\"CHDocumentLayoutAnalysisModel\""
++ "@\"CHDocumentLayoutAnalysisResult\""
++ "@\"CHFastPathCharacterPersonalizerInterface\""
++ "@\"CHRemotePowerLogger\""
++ "@\"CHRemoteTextSynthesizer\""
++ "@\"CHSynthesisModelHashes\"16@0:8"
++ "@\"CHSynthesisResult\"16@?0@\"NSString\"8"
++ "@\"CHTilePosition\""
++ "@\"CHTilingManager\""
++ "@\"CHTilingResult\""
++ "@\"MLMultiArray\"40@0:8@\"NSArray\"16@\"NSArray\"24@?<B@?>32"
++ "@\"NSArray\"64@?0{CHFastPathCharacterSynthesisRequest=@@i@IiQ}8^@56"
++ "@\"NSIndexPath\""
++ "@100@0:8@16@24@32@40@48@56@64B72B76B80@84@?92"
++ "@104@0:8@16{CGSize=dd}24{CGPoint=dd}40@56^v64^v72^@80^d88^@96"
++ "@124@0:8q16@24@32@40@48@56I64q68B76q80q88@96@104@?112B120"
++ "@128@0:8@16@24@32B40@44@52q60@68B76B80B84B88B92@96@104@112q120"
++ "@136@0:8@16@24@32B40@44@52q60@68B76B80B84B88B92@96@104@112@120q128"
++ "@220@0:8@16@24@32{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}40@168@176{CGRect={CGPoint=dd}{CGSize=dd}}184B216"
++ "@224@0:8@16@24@32q40@48@56@64@72@80@88@96@104@112@120@128@136@144@152{?=ddddddd}160q216"
++ "@232@0:8@16@24@32q40{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}48@176{CGAffineTransform=dddddd}184"
++ "@248@0:8@16@24r^v32r^v40@48q56{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}64@192{CGAffineTransform=dddddd}200"
++ "@24@0:8r^v16"
++ "@256@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64q72d80{CGRect={CGPoint=dd}{CGSize=dd}}88{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}120@248"
++ "@300@0:8@16@24I32d36d44d52d60Q68@76Q84q92{CGRect={CGPoint=dd}{CGSize=dd}}100{CGRect={CGPoint=dd}{CGSize=dd}}132{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}164@292"
++ "@32@0:8@16^B24"
++ "@32@0:8Q16@24"
++ "@32@0:8^v16^v24"
++ "@36@0:8@16B24^@28"
++ "@40@0:8q16q24@32"
++ "@44@0:8@16@24@32B40"
++ "@44@0:8@16@24B32@36"
++ "@48@0:8@16q24@32@40"
++ "@52@0:8@16@24@32@40B48"
++ "@56@0:8@16@24@32B40B44@?48"
++ "@56@0:8@16@24@32^@40@?48"
++ "@56@0:8@16@24^@32^@40^@48"
++ "@56@0:8@16@24d32^v40^@48"
++ "@56@0:8@16q24{CVNLPTextDecodingPruningPolicy=qBfI}32"
++ "@56@0:8r^v16{CHDiffusionPipelinePreprocessingExecutionMetadata={vector<CoreHandwriting::synthesis::CHDiffusionPipelineReplacementData, std::allocator<CoreHandwriting::synthesis::CHDiffusionPipelineReplacementData>>=^{CHDiffusionPipelineReplacementData}^{CHDiffusionPipelineReplacementData}^{CHDiffusionPipelineReplacementData}}Q}24"
++ "@60@0:8@16@24@32@40B48^@52"
++ "@64@0:8@16@24@32@40@48q56"
++ "@64@0:8@16@24@32q40q48@56"
++ "@68@0:8@16@24@32q40B48i52@60"
++ "@72@0:8@16@24@32@40@48B56B60@?64"
++ "@72@0:8@16@24@32@40q48q56@64"
++ "@72@0:8Q16q24q32@40{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__tree_end_node<std::__tree_node_base<void *> *>=^v}Q}}48"
++ "@72@0:8{CHFastPathCharacterSynthesisRequest=@@i@IiQ}16@64"
++ "@80@0:8@16@24@32@40@48@56q64@?72"
++ "@80@0:8@16{CGPoint=dd}24B40B44^v48^q56^q64^v72"
++ "@88@0:8@16@24@32@40@48@56@64@72@?80"
++ "@88@0:8@16@24d32{CGPoint=dd}40@56@64@72@80"
++ "@96@0:8@16@24@32@40@48@56^@64^@72^@80@?88"
++ "A valid queue is required to run synthesis"
++ "Adjusting scale factor of tile [%ld, %ld, %@] with %lu strokes to %.2f from default %.2f. Median stroke diagonal = %.3f."
++ "An unexpected chunking request has been received for a %@ type of synthesizer"
++ "B24@0:8r^v16"
++ "B24@?0@\"NSString\"8q16"
++ "B48@0:8@16^v24^v32@?40"
++ "BEGIN \"CHDocumentLayoutAnalysisDecoderModelInference\""
++ "BEGIN \"CHDocumentLayoutAnalysisEncoderModelInference\""
++ "BEGIN \"CHDocumentLayoutAnalysisManagerClustering\""
++ "BEGIN \"CHDocumentLayoutAnalysisManagerInference\""
++ "BEGIN \"CHDocumentLayoutAnalysisManagerTiling\""
++ "BEGIN \"CHDocumentLayoutAnalysisModelFeatureExtraction\""
++ "BEGIN \"CHDocumentLayoutAnalysisModelPostProcessing\""
++ "BEGIN \"CHSessionTaskDocumentLayoutAnalysisManager\""
++ "BEGIN \"CHSessionTaskFastStrokeGrouping\""
++ "BEGIN \"CHSessionTaskGroupingPostProcessing\""
++ "BEGIN \"CHSessionTaskPrincipalLines\""
++ "Batch samples size (%lu) is larger than the batch size (%lu)"
++ "Building document layout analysis result from scratch merging %lu tile results."
++ "CHDiffusionBasedSynthesizingText"
++ "CHDiffusionExecutionContext failed to load codemap from model OTA asset as well as from the local framework bundle. "
++ "CHDiffusionModelKOE5ML"
++ "CHDiffusionModelZHJAE5ML"
++ "CHDiffusionTextSynthesizerKo"
++ "CHDiffusionTextSynthesizerKo::runPipeline contents: %{sensitive}@, styleContent: %{sensitive}@, numStyleDrawings: %lu"
++ "CHDiffusionTextSynthesizerLatin"
++ "CHDiffusionTextSynthesizerLatin::runPipeline contents: %{sensitive}@, styleContent: %{sensitive}@, numStyleDrawings: %lu"
++ "CHDiffusionTextSynthesizerLatinLegacy"
++ "CHDiffusionTextSynthesizerZhJa"
++ "CHDiffusionTextSynthesizerZhJa::runPipeline contents: %{sensitive}@, styleContent: %{sensitive}@, numStyleDrawings: %lu"
++ "CHDocumentLayoutAnalysisDecoderModelInference"
++ "CHDocumentLayoutAnalysisEncoderModelInference"
++ "CHDocumentLayoutAnalysisManager"
++ "CHDocumentLayoutAnalysisManagerClustering"
++ "CHDocumentLayoutAnalysisManagerInference"
++ "CHDocumentLayoutAnalysisManagerTiling"
++ "CHDocumentLayoutAnalysisModel"
++ "CHDocumentLayoutAnalysisModelFeatureExtraction"
++ "CHDocumentLayoutAnalysisModelPostProcessing"
++ "CHDocumentLayoutAnalysisResult"
++ "CHDocumentLayoutAnalysisTileResult"
++ "CHDocumentLayoutAnalyzer"
++ "CHDocumentLayoutAnalyzing"
++ "CHDocumentTile"
++ "CHFastPathCharacterHolderMMap addCharacter not supported!"
++ "CHFastPathCharacterHolderMMap character %u cannot be obtained by mmap"
++ "CHFastPathCharacterHolderMMap character %u contains not %d points"
++ "CHFastPathCharacterHolderMMap failed to load character %@ for retrieving scale of the inventory."
++ "CHFastPathCharacterHolderMMap failed to load metadata dictionary from model catalog."
++ "CHFastPathCharacterHolderMMap failed to load prototypes path component from metadata dictionary."
++ "CHFastPathCharacterHolderMMap reloadAllCharactersIfNeeded not supported!"
++ "CHFastPathCharacterHolderMMap: ModelCatalog resources path %@ "
++ "CHFastPathCharacterMMap binary resource format error:  indexOffset must not exceed mapSize"
++ "CHFastPathCharacterMMap binary resource format error: the biggest offset for the character in the header shall not surpass the mapSize"
++ "CHFastPathCharacterMMap binary resource format error: the indexOffset + indexSize shall not surpass the mapSize"
++ "CHFastPathCharacterMMap binary resource format error: the size of the characters shall not surpass the indexSize"
++ "CHFastPathCharacterMMap binary resource format error: the size of the header shall not surpass mapSize"
++ "CHFastPathCharacterMMap constructor abort operation failed at munmap operation"
++ "CHFastPathCharacterMMap error, magic number in binary does not match expected magic number"
++ "CHFastPathCharacterPersonalizer: attempt to add candidate with index %d into the nil holder"
++ "CHFastPathCharacterPersonalizer: attempt to add candidate with index %d, when total number of candidates is %d"
++ "CHGroupingPostProcessingManagerOptionIgnorePreviousRecognitionResults"
++ "CHHasPersonalizedSynthesisModelReadyForLocale (%@): %@"
++ "CHHasPersonalizedSynthesisModelReadyForLocale (%@): NO [locale not supported]"
++ "CHMutableDocumentTile"
++ "CHPersonalizedSynthesisState (variant %ld): SupportedInitializing"
++ "CHPersonalizedSynthesisState (variant %ld): SupportedInventoryNotReady"
++ "CHPersonalizedSynthesisState (variant %ld): SupportedNotReady"
++ "CHPersonalizedSynthesisState (variant %ld): SupportedReady"
++ "CHPersonalizedSynthesisState (variant %ld): Unsupported (hasPersonalizedSynthesisSupport: %@, hasHandwritingGenerationAllowed: %@)"
++ "CHPrincipalLineDetector"
++ "CHRemoteDocumentLayoutAnalysisRequest"
++ "CHRemoteDocumentLayoutAnalyzer"
++ "CHRemoteSynthesisRequestHandler: fast Path synthesis found sufficient digit coverage from the inventory to trigger the character inventory preparation : %@"
++ "CHRemoteSynthesisRequestTypeGeneration: style prediction from the textSynthesizer is nil for input style sample with content %{sensitive}@"
++ "CHRemoteSynthesisStringChunkingRequest"
++ "CHRemoteTextSynthesizer: chunking failed for input string %{sensitive}@ of length %lu with allowedSynthesizers=%@"
++ "CHSessionTaskDocumentLayoutAnalysisManager"
++ "CHSessionTaskFastStrokeGrouping"
++ "CHSessionTaskGroupingPostProcessing"
++ "CHSessionTaskPrincipalLines"
++ "CHSessionTastFastStrokeGrouping"
++ "CHStyleEncoderModelKOE5ML"
++ "CHStyleEncoderModelZHJAE5ML"
++ "CHSynthesisRequestConcreteHandler"
++ "CHSynthesisRequestConcreteHandler: addToHolderPersonalizedCharacterWithId %d"
++ "CHSynthesisTextChunkerScore: Attempt to the score for UNDEFINED synthesizer"
++ "CHSynthesizingTextInternal"
++ "CHTextCheckingQuery running - found %ld items."
++ "CHTextScriptUtilities"
++ "CHTextSynthesizer chunk synthesize:%{sensitive}@ original:%{sensitive}@ range:%@ suggestion:%d from daemon"
++ "CHTextSynthesizer: no available synthesizers for chunkStringForSynthesis"
++ "CHTextSynthesizerChunkedData"
++ "CHTilePosition"
++ "CHTilingManager"
++ "CHTilingResult"
++ "CharacterSet contents:\n"
++ "Checking out Latin-only text synthesizer"
++ "Checking out legacy latin synthesizer"
++ "Checking out modernized latin synthesizer"
++ "Checking out multi script text synthesizer"
++ "Chunk string for synthesis request did not execute reply block"
++ "Chunk synthesis for AutoRefine failed, chunk length = %ld, string = %{sensitive}@, strokes to replace = %ld. Falling back to skip logic."
++ "Computed reflowable results from %ld context results, and %d related non-text strokes: created %ld reflowable tokens"
++ "Computing style prediction for %lu samples out of %lu samples without style prediction."
++ "Debug"
++ "Default style samples for prompt: _defaultStyleFastPathBlock has not been set, returning nil"
++ "Default style samples for prompt: _shouldUseDefaultStyleForScript will be: %@"
++ "Default style samples for prompt: cannot find character with codepoint %u for ZHJA script in memory mapped character holder."
++ "Diffusion model (Ko) is not ready. The model hash could not be validated"
++ "Diffusion model (Latin) is not ready. The model hash could not be validated"
++ "Diffusion model (zhJa) is not ready. The model hash could not be validated"
++ "Diffusion model hash has changed (old: %@, new: %@). The inventory samples embedding need to be recomputed."
++ "Document layout analysis failed for tile %@, bailing out the whole analysis."
++ "Document layout analysis model decoder \"%@\" not found"
++ "Document unable to create folder at URL %@: Error %@"
++ "Document writeToFile saving tiles strokes at URL %@, error = %@"
++ "DocumentLayoutAnalysis"
++ "Drawing with too many strokes (%lu) sent into document layout analyzer. This might indicate a problem in clutter filter."
++ "E5RTFunctionDescriptorForFunction:inProgramLibrary:error:"
++ "END \"CHDocumentLayoutAnalysisDecoderModelInference\""
++ "END \"CHDocumentLayoutAnalysisEncoderModelInference\""
++ "END \"CHDocumentLayoutAnalysisManagerClustering\""
++ "END \"CHDocumentLayoutAnalysisManagerInference\""
++ "END \"CHDocumentLayoutAnalysisManagerTiling\""
++ "END \"CHDocumentLayoutAnalysisModelFeatureExtraction\""
++ "END \"CHDocumentLayoutAnalysisModelPostProcessing\""
++ "END \"CHSessionTaskDocumentLayoutAnalysisManager\""
++ "END \"CHSessionTaskGroupingPostProcessing\""
++ "END \"CHSessionTaskPrincipalLines\""
++ "END \"CHSessionTastFastStrokeGrouping\""
++ "Error during chunk string for synthesis request %@"
++ "Error during document layout analysis: %@"
++ "Error in model %@. Input length = %ld, expected output length: %lu, actual output shape for principal points array: %lu x %lu"
++ "Error mapping binary resource: %s"
++ "Error occurred when loading \"%@\" metadata: %@"
++ "Error opening binary resource: %s"
++ "Error when deserializing output shape \"%@\": %@"
++ "Evicted synthesizer"
++ "Failed to access IDSDecomposition from %@"
++ "Failed to access PPC from %@"
++ "Failed to chunk input string \"%{sensitive}@\" of length %lu"
++ "Failed to create subject grouping result because stroke %@ is not covered in the last document layout analysis result."
++ "Failed to create subject grouping result because the last session result is outdated and some stroke before the subject strokes were deleted."
++ "Failed to create transformed text line from reflowable token with string: %{sensitive}@"
++ "Failed to fetch data for file with path: %s"
++ "Failed to fetch model url for %s with variant: %s"
++ "Failed to find codemap from asset name %@ in the bundle"
++ "Failed to initialize CHDocumentLayoutAnalyzer"
++ "Failed to initialize CHRemoteDocumentLayoutAnalyzer"
++ "Failed to load codemap from asset. %@"
++ "Failed to load codemap from model OTA asset, attempting to load from bundle"
++ "Failed to load metadata file \"%@\""
++ "Failed to load ppc lookup from asset. %@"
++ "Failed to locate E5ML model hash. %@"
++ "Failed to serialize JSON from data for file with path: %s"
++ "Falling back to legacy chunking"
++ "Fast path character builder created"
++ "Features length not consistent with metadata"
++ "Found codemap from bundle, with path %@"
++ "Got nil result from synthesis of chunk with transcription=\"%{sensitive}@\""
++ "Input stroke classification result in document layout analysis can't be nil."
++ "Invalid synthesis request priority specified"
++ "Invalid synthesis request type specified"
++ "Invalid tokenized result type provided: %@"
++ "Inventory data ingestion: (embedding prediction) sample with unsupported script. This sample will be removed: %{sensitive}@"
++ "Inventory data ingestion: Script prediction for tokenized text results is non-supported script for string: %{sensitive}@"
++ "Inventory request can't have both removedStrokeIdentifiers and tokenizedResult non-nil"
++ "Is personalized synthesis model ready (variant %ld): %@"
++ "Kana"
++ "Ko "
++ "Last document layout analysis result in re-grouping subject strokes in document layout analysis can't be nil."
++ "Last grouping result in re-grouping subject strokes in document layout analysis can't be nil."
++ "Last stroke classification result in re-grouping subject strokes in document layout analysis can't be nil."
++ "Latex transcription is corrupted and can't be transliterated into text."
++ "Loaded style inventory"
++ "Loaded synthesizer"
++ "Loading PPC lookup from %@"
++ "Math result retrieved from the last recognition result for stroke group %ld"
++ "Missing specialization for context"
++ "Missing specialization for preprocessor"
++ "Model asset metadata dictionary does not include codemap key-value pair."
++ "Model asset metadata dictionary does not include modelResourceURL key-value pair."
++ "Not consistent metadata length"
++ "Not possible to create a fast path character builder, inventory is null."
++ "Number of strokes in the merged stroke classification matrix (%lu) doesn't match the number of strokes in the merged adjacency matrix (%lu)"
++ "Number of strokes in the stroke classification matrix (%lu) doesn't match the number of strokes in the adjacency matrix (%lu)"
++ "Number of strokes in the tile stroke classification matrix (%lu) doesn't match the number of strokes in the tile adjacency matrix (%lu)"
++ "Only fast path queries should end up on non-synchronized synthesis queues"
++ "PPoints decoding (class = %ld): point at output index = %ld / %ld, indexInOutput = %ld/%ld, stroke index = %ld, start point offset for stroke = %ld, point index in normalized stroke = %ld, point index in original stroke = %ld"
++ "Predicted %ld actual principal points from this handwriting sample with %ld principal point output predictions."
++ "Principal Lines added from model to token with text %{sensitive}@, valid principal lines ? %d"
++ "Principal Lines not added from model for text result with transcription %{sensitive}@"
++ "PrincipalPoints"
++ "Ran document layout analysis in duration = %3.6f seconds"
++ "Ran stroke group recognition in duration = %3.6f seconds"
++ "Ran stroke grouping in duration = %3.6f seconds"
++ "Received chunk synthesize:%{sensitive}@ original:%{sensitive}@ range:%@ suggestion:%d from deamon"
++ "RecognitionTask input result has different recognition locales. The difference requires the cached result to be discarded."
++ "RecognitionTask input result has different recognition locales. The difference requires to add/remove some recognition result per stroke group."
++ "RecognitionTask main starting with input result ? %d, strokes in strokeClassificationResult = %ld, strokeProvider %@, principalLinesRequirement = %ld, subjectStrokes: %ld"
++ "Refine operation resulted in a nil result for chunk with string %{sensitive}@, synthesizer = %@, drawing with %d strokes"
++ "Refine or AutoRefine skipped. string: \"%{sensitive}@\" no chunk for one shot refine"
++ "Remote Document Layout Analysis Request %p (option keys=%@, drawing=%p, strokeIdentifiers=%ld, contextStrokeIdentifiers=%ld, hasBeenSubmitted=%@, priority=%ld)"
++ "Remote request handled on synchronized synthesis queue=%@"
++ "Reply retrieved chunk string for synthesis request. %@"
++ "Sample [%lu] \"%{sensitive}@\" numStrokes=%lu"
++ "Sending message to save the style inventory if needed"
++ "Setting tile size factor estimated from %lu strokes to %lu. Median stroke diagonal = %.3f."
++ "Shape array is expected to be length 3, found %lu"
++ "Size mismatch! IOSurface bytes: %ld, input descriptor bytes: %ld for input %@"
++ "Skipping style inventory lookup"
++ "Sparse Adjacent Matrix:"
++ "Stroke Classification Matrix:"
++ "Stroke identifier %@ from tile %@ not found in provided %lu ordered stroke identifiers."
++ "Stroke index %lu out of bounds when getting raw script classification from document layout analysis result."
++ "Style Inventory Embedding: vector contains NaN values"
++ "Style Sampling: Concatenating style samples: Drawing must have > 0 strokes"
++ "Style Sampling: concatenating %lu samples"
++ "Style inventory has not been checked out"
++ "Style inventory is nil "
++ "Style sampling: Concatenating Style Samples: Empty array is passed!"
++ "Subject stroke identifiers in re-grouping subject strokes in document layout analysis can't be nil."
++ "Succeeded to load codemap with url. %@"
++ "Synthesizer not available"
++ "Synthesizer with synthesisSuggestion %d not available"
++ "SynthesizerWithLocalFallback: Synthesis failed. Should cancel=%@"
++ "SynthesizerWithLocalFallback: Synthesis successful. Created drawing contains %lu strokes."
++ "T@\"<CHDocumentLayoutAnalyzing>\",R,N,V_documentLayoutAnalyzer"
++ "T@\"CHContextualTextResults\",&,V_contextResults"
++ "T@\"CHDocumentLayoutAnalysisResult\",R,N,V_documentLayoutAnalysisResult"
++ "T@\"CHDrawing\",&,N"
++ "T@\"CHSynthesisStyleInventoryStatus\",R,N"
++ "T@\"CHTilePosition\",R,N,V_tilePosition"
++ "T@\"CHTilingResult\",R,N,V_tilingResult"
++ "T@\"NSArray\",C,N,V_strokeIdentifiers"
++ "T@\"NSArray\",R,C,N,V_allowedSynthesizers"
++ "T@\"NSArray\",R,C,N,V_principalPoints"
++ "T@\"NSArray\",R,N,V_subtilePositions"
++ "T@\"NSArray\",R,V_dataChunks"
++ "T@\"NSDictionary\",R,N,V_debugInfo"
++ "T@\"NSDictionary\",R,N,V_documentTiles"
++ "T@\"NSDictionary\",R,N,V_layoutAnalysisResultsPerTile"
++ "T@\"NSDictionary\",R,N,V_strokeBoundsPerStrokeIdentifier"
++ "T@\"NSIndexPath\",R,N,V_subtileIndex"
++ "T@\"NSSet\",C,N,V_contextStrokeIdentifiers"
++ "T@\"NSSet\",R,N,V_contentStrokeIdentifiers"
++ "T@\"NSSet\",R,N,V_contextStrokeIdentifiers"
++ "T@\"NSSet\",R,N,V_overlapStrokeIdentifiers"
++ "T@\"NSString\",R,N,V_ko"
++ "T@\"NSString\",R,N,V_zhJa"
++ "T@\"NSString\",R,V_originalString"
++ "T@?,R,N,V_defaultStyleFastPathBlock"
++ "TB,N,V_hasPrecedingSpace"
++ "TB,N,V_padLastPoint"
++ "TQ,R,N,V_decoderDimension"
++ "TQ,R,N,V_encoderBatchSize"
++ "TQ,R,N,V_encoderDimension"
++ "Td,R,N,V_scale"
++ "Td,R,N,V_tileSizeFactor"
++ "Text synthesizer has not been checked out"
++ "The diffusion model hash for Ko should be non-nil"
++ "The diffusion model hash for Latin should be non-nil"
++ "The diffusion model hash for zhJa should be non-nil"
++ "The preferred locales list cannot be empty."
++ "Tile [%ld, %ld] with %lu strokes was merged with %lu strokes from neighboring tiles"
++ "Tile stroke index %lu maps into %lu which is out of bounds for merged result of size %lu"
++ "Tiling result with %lu strokes doesn't cover all %lu non-clutter strokes in the stroke provider."
++ "Tq,N,V_chunkSynthesisSuggestion"
++ "Tq,R,N,V_column"
++ "Tq,R,N,V_mainOutputIndex"
++ "Tq,R,N,V_modelPrecisionDataType"
++ "Tq,R,N,V_positionalEncodingsInputIndexCTC"
++ "Tq,R,N,V_positionalEncodingsInputIndexPrincipalPoints"
++ "Tq,R,N,V_row"
++ "T{?=ddddddd},R,N,V_generationDuration"
++ "T{CGPoint=dd},R,N,V_origin"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_contentArea"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_contextArea"
++ "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_overlapArea"
++ "T{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__tree_end_node<std::__tree_node_base<void *> *>=^v}Q}},R,N,V_strokeGroup"
++ "T{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}^{CHFastGroupingCluster}},R,N,V_fastGroupingClusters"
++ "T{vector<float, std::allocator<float>>=^f^f^f},N,V_embeddingVector"
++ "Unexpected data format when deserializing stroke classification matrix."
++ "Unexpected number of subtiles (%lu)"
++ "Update stroke classification failed with empty orderedScriptClassification."
++ "Updating last document layout analysis result having %lu tiles with %lu afected tile results."
++ "Updating style prediction for %lu samples, removing %lu unsupported samples"
++ "ZhJa"
++ "Zyyy"
++ "[(%.3f, %.3f),(%.3f, %.3f)]"
++ "^{CGColor=}20@0:8i16"
++ "__documentLayoutAnalyzer"
++ "__remoteTextSynthesizer"
++ "_addStrokeIdentifier:withBounds:intoTile:strokeType:mutableDocumentTilesPerPosition:skipMainTile:"
++ "_allowedSynthesizers"
++ "_assignStrokeWithBounds:toContentTile:overlapTiles:contextTiles:"
++ "_cachedPrincipalPoints"
++ "_changePrincipalLinesToHorizontalForLine:"
++ "_changePrincipalLinesToMatchPreviousLine:previousLine:withCorrectionThreshold:"
++ "_chunkSynthesisSuggestion"
++ "_column"
++ "_contentArea"
++ "_contentNumStrokes"
++ "_contentStrokeIdentifiers"
++ "_contextArea"
++ "_contextNumStrokes"
++ "_contextStrokeIdentifiers"
++ "_dataChunks"
++ "_debugInfo"
++ "_decoderDimension"
++ "_defaultStyleFastPathBlock"
++ "_diffusionSynthesizerKo"
++ "_diffusionSynthesizerZhJa"
++ "_documentLayoutAnalysisModel"
++ "_documentLayoutAnalysisResult"
++ "_documentLayoutAnalyzer"
++ "_documentTileHeight"
++ "_documentTileWidth"
++ "_documentTiles"
++ "_documentTilingTileHorizontalContextOverlap"
++ "_documentTilingTileHorizontalOverlap"
++ "_documentTilingTileVerticalContextOverlap"
++ "_documentTilingTileVerticalOverlap"
++ "_embeddingHasNaN:"
++ "_encoderBatchSize"
++ "_encoderDimension"
++ "_estimateScaleOfTiles:mutableDocumentTilesPerPosition:strokeBoundsPerStrokeIdentifier:defaultTileSizeFactor:"
++ "_extractFeaturesFromDrawing:inputName:interpointDistance:paddingPerStroke:error:"
++ "_hash"
++ "_ko"
++ "_layoutAnalysisResultsPerTile"
++ "_leftToRightBottomUpStrategy"
++ "_mainOutputIndex"
++ "_maxNumInputStrokes"
++ "_maxNumStrokesPerTile"
++ "_modelDispatchQueue"
++ "_modelPowerLogger"
++ "_modelPrecisionDataType"
++ "_orientationAnglePerColumn"
++ "_origin"
++ "_originalString"
++ "_overlapArea"
++ "_overlapStrokeIdentifiers"
++ "_padLastPoint"
++ "_positionalEncodingsInputIndexCTC"
++ "_positionalEncodingsInputIndexPrincipalPoints"
++ "_principalPoints"
++ "_queueForRequest:outIsSynchronizedSynthesisQueue:"
++ "_rawPrincipalPoints"
++ "_recognitionIndexesToOrderedIndexes"
++ "_removeStrokeIdentifier:fromTile:mutableDocumentTilesPerPosition:"
++ "_removeSubtilesFromTile:mutableDocumentTilesPerPosition:"
++ "_resultUsingNextGenerationPipelineWithDrawing:options:outPrincipalLinePoints:"
++ "_rightToLeftBottomUpStrategy"
++ "_rotatedBoundsPerColumn"
++ "_row"
++ "_scale"
++ "_shouldUseDefaultStyleForScript:"
++ "_sparseAdjacencyMatrix"
++ "_splitTilesIntoSubtiles:mutableDocumentTilesPerPosition:maxTileSize:strokeBoundsPerStrokeIdentifier:"
++ "_strokeBoundsPerStrokeIdentifier"
++ "_strokeClassificationMatrix"
++ "_styleComputeBlock"
++ "_subtileIndex"
++ "_subtilePositions"
++ "_supportedCharactersWithOptions:"
++ "_textSynthesizer"
++ "_tileAtPosition:fromTilesPerPosition:"
++ "_tilePosition"
++ "_tileSizeFactor"
++ "_tilingManager"
++ "_tilingResult"
++ "_updateStylePredictionsSingleBatch:"
++ "_updateTileBounds:"
++ "_zhJa"
++ "_zhjaPrototypes"
++ "`$a$b$c$d$e$f$g$h$\xa7"
++ "addContentStroke:"
++ "addContextStroke:"
++ "addNonTextSegmentsAndLines:nontextGroups:outNonTextStrokes:"
++ "addOverlapStroke:"
++ "addRelatedNontextStrokes:tokenRangesForNonTextStrokes:strokeProvider:groupIndex:"
++ "addSubtilePosition:"
++ "addToHolderPersonalizedCharacterWithId:"
++ "addToPersistentStorageCandidateWithId:"
++ "allowedSynthesizers"
++ "analyzeDrawing:outStrokeClassProbabilities:outStrokeAdjacencyMatrix:cancellationBlock:"
++ "analyzeDrawing:strokeIdentifiers:contextStrokeIdentifiers:options:error:"
++ "analyzeDrawing:strokeIdentifiers:contextStrokeIdentifiers:options:shouldCancel:"
++ "appendBytes:length:"
++ "arab"
++ "assignNontextGroups:toTextLines:"
++ "a\xf0q"
++ "boundsForStroke:usingCache:"
++ "boundsRotatedAroundPoint:byAngle:"
++ "cacheActivationMatrix:strokeIndexMapping:strokeEndings:principalPoints:drawing:recognitionEngineCachingKey:"
++ "ch_latinVietCharacterSet"
++ "ch_latinVietCharacterString"
++ "characterCoverageWithString:script:"
++ "chunkForOneShotRefine"
++ "chunkForSynthesisString:allowedSynthesizers:"
++ "chunkSynthesisSuggestion"
++ "chunkedDataForString:allowedSynthesizers:"
++ "chunks"
++ "chunksForFeatures:metadata:"
++ "com.apple.CHDocumentLayoutAnalysisModel.queue"
++ "com.apple.CoreHandwriting.CHFastPathCharacterHolderMMap"
++ "com.apple.CoreHandwriting.documentLayoutAnalyzerQueue"
++ "com.apple.corehandwriting.HighPrioritySynthesisHandlerQueue"
++ "com.apple.corehandwriting.LowPrioritySynthesisHandlerQueue"
++ "com.apple.corehandwriting.synthesisProcessingWorkloop"
++ "composedCharacters"
++ "concatenateStyleSamples:"
++ "concatenatedSampleWithDrawings:transcriptions:"
++ "contentArea"
++ "contentStrokeIdentifiers"
++ "contentStrokeIndexes"
++ "context"
++ "contextArea"
++ "contextStrokeIdentifiers"
++ "contextStrokeIndexes"
++ "copyIntoMultiArray:error:"
++ "createPersonalizationCandidatesForAll:"
++ "createSynthesisRequestsForCharacter:styleSamples:"
++ "cyrl"
++ "d152@0:8{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}16@144"
++ "d24@0:8q16"
++ "d40@0:8r^{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}16r^v24@32"
++ "dataChunks"
++ "debugInfo"
++ "decoded stroke index is incorrect: %ld, drawing has %ld strokes"
++ "decoderDimension"
++ "defaultStyleFastPathBlock"
++ "defaultStyleSamplesForPrompt: default style sample for ZHJA script with length: %lu"
++ "defaultStyleSamplesForPrompt:script:"
++ "defaultUserStyleSampleForScript:"
++ "default_style_inventory_cj_punctuation.lzfse"
++ "descriptionForSparseAdjacencyMatrix:"
++ "descriptionForStrokeClassificationMatrix:"
++ "deserializeStrokeClassificationMatrix:sparseAdjacencyMatrix:withCoder:"
++ "diffusionModelHashes"
++ "diffusion_ko_denoiser.bundle"
++ "diffusion_ko_denoiser.codemap"
++ "diffusion_ko_style_encoder.bundle"
++ "diffusion_ko_style_encoder.codemap"
++ "diffusion_latn"
++ "diffusion_latn_legacy.codemap"
++ "diffusion_latn_ppc_lookup_legacy.json"
++ "diffusion_zhja.codemap"
++ "diffusion_zhja_denoiser.bundle"
++ "diffusion_zhja_ids_decomposition.json"
++ "diffusion_zhja_style_encoder.bundle"
++ "discardSubtiles"
++ "documentLayoutAnalysisResult"
++ "documentLayoutAnalyzer"
++ "documentTiles"
++ "encodeInt:forKey:"
++ "encoderBatchSize"
++ "encoderDimension"
++ "enumerateCharactersToSynthesize:withPersonalizationBlock:"
++ "enumerateOriginalTokensWithBlock:"
++ "enumeratePersonalizedCandidatesWithBlock:"
++ "estimateScaleUsingStrokeBounds:defaultTileSizeFactor:"
++ "fallbackTextScriptClassificationForNonText"
++ "featureProviderForDrawing:initialVectorAnchorPoint:normalizeFeatures:padFeatures:outStrokeEndings:outInputSequenceLength:outOutputSequenceLength:outPaddingPerStroke:"
++ "fileURLWithPathComponents:"
++ "getFastPathCharacter unable to find requested character."
++ "getMetadata:variant:"
++ "greedy-lattice-on-spat-seq"
++ "handleDocumentLayoutAnalysisRequest:withReply:"
++ "handleInventoryRequest:reply:"
++ "handleSynthesisRequest:reply:"
++ "handleSynthesisStringChunkingRequest:withReply:"
++ "handwritingSynthesis"
++ "hang"
++ "hani"
++ "hans"
++ "hant"
++ "hasMemberInPlane:"
++ "hasPersonalizationAvailable"
++ "hasStyleInventory"
++ "hasSubtiles"
++ "hasSupportForPrincipalPoints:"
++ "hasValidPrincipalPoints"
++ "hasXHeightCharacter"
++ "hira"
++ "hrkt"
++ "i24@0:8q16"
++ "ids_input_length"
++ "initWithBestPathTokens:pathProbabilities:trailingSeparator:recognizerGenerationIdentifier:changeableColumnCount:originalTokens:"
++ "initWithBestPathTokens:pathProbabilities:trailingSeparator:recognizerGenerationIdentifier:originalTokens:"
++ "initWithCodemapFile:ppcFileName:"
++ "initWithDataChunks:originalString:"
++ "initWithDictionary:"
++ "initWithDrawing:strokeIdentifiers:contextStrokeIdentifiers:options:priority:"
++ "initWithEncoderName:decoderName:"
++ "initWithLastDocumentLayoutAnalysisResult:affectedLayoutAnalysisResultsPerTile:allLayoutAnalysisResultsPerTile:updatedStrokeIdentifiers:orderedStrokeIdentifiers:strokeBoundsPerStrokeIdentifier:"
++ "initWithLatinHash:zhJaHash:koHash:"
++ "initWithLayoutAnalysisResultsPerTile:orderedStrokeIdentifiers:strokeBoundsPerStrokeIdentifier:"
++ "initWithModelName:modelPrecision:decodingPruningPolicy:"
++ "initWithRow:column:"
++ "initWithRow:column:subtileIndex:"
++ "initWithSessionMode:locales:preferredLocales:strokeProvider:calculateDocumentProvider:inputResult:recognitionQOSClass:recognitionEnvironment:isHighResponsivenessTask:strokeGroupingRequirement:principalLineRequirement:subjectStrokeIdentifiers:recognitionOptions:partialResultBlock:wantsAutoRefine:"
++ "initWithString:allowedSynthesizers:"
++ "initWithString:strokeIdentifiers:nonTextStrokeIdentifiers:principalLines:principalPoints:textSize:bounds:hasPrecedingSpace:"
++ "initWithString:strokeIndexes:wordID:modelScore:recognitionScore:combinedScore:alignmentScore:properties:recognizerSourceLocale:inputSources:substrokeCount:bounds:originalBounds:principalLines:principalPoints:"
++ "initWithStrokeClassificationMatrix:sparseAdjacencyMatrix:"
++ "initWithStrokeProvider:documentLayoutAnalyzer:locales:"
++ "initWithStrokeProvider:locales:isInlineContinuousMode:inlineContinuousModeTargets:"
++ "initWithStrokeProviderVersion:encodedStrokeProviderVersion:orderedStrokeIdentifiers:sessionMode:locales:preferredLocales:declaredVariables:clutterFilter:strokeClassificationResult:strokeGroupingResult:unprocessedStrokeGroupingResult:tilingResult:documentLayoutAnalysisResult:recognitionResults:rawRecognitionResults:inlineContinuousModeResults:autoRefineResults:lastAutoRefineResult:generationDuration:recognitionEnvironment:"
++ "initWithStrokes:tokens:locale:strokeClassification:principalLines:principalPoints:transform:"
++ "initWithStrokes:tokens:points:strokePoints:locale:strokeClassification:principalLines:principalPoints:transform:"
++ "initWithStyleComputeBlock:"
++ "initWithStyleDrawings:styleContents:stylePredictions:isFastPath:fitWidth:fitHeight:synthesizeCharacterInventoryBehavior:xZeroDrawing:fastPathAsXZero:fastPathUseDefaultStyle:styleInventoryQuery:skipStyleInventoryLookup:saveStyleSample:distanceBetweenDigits:forwardProcessRatio:backwardProcessRatio:seed:synthesisSuggestion:"
++ "initWithTilePosition:scale:"
++ "initWithTilePosition:subtilePositions:scale:origin:orderedStrokeIdentifiers:contentStrokeIdentifiers:overlapStrokeIdentifiers:contextStrokeIdentifiers:"
++ "initWithTilesPerPosition:tileSizeFactor:"
++ "initWithTokenColumns:transcriptionPaths:scores:recognizerGenerationIdentifier:isMinimalDrawingResult:baseWritingDirection:originalTokens:"
++ "initWithTokenColumns:transcriptionPaths:scores:recognizerGenerationIdentifier:originalTokens:"
++ "initWithTokenColumns:transcriptionPaths:scores:trailingSeparator:recognizerGenerationIdentifier:changeableColumnCount:originalTokens:"
++ "initWithTokenColumns:transcriptionPaths:scores:trailingSeparator:recognizerGenerationIdentifier:originalTokens:"
++ "initWithoutPersonalizedStyleInventory"
++ "input_ctc_positional_encodings"
++ "input_decomposed_labels"
++ "input_decomposed_labels_length"
++ "input_pp_positional_encodings"
++ "inventoryContainsSampleMatchingRequest:"
++ "inventoryStatus"
++ "invert"
++ "isEqualToCHDocumentTilingResult:"
++ "isEqualToRemoteDocumentLayoutAnalysisRequest:"
++ "isGroupingWithLocales:differentFromGroupingWithLocales:"
++ "isLocaleReflowable:"
++ "isMatchingScriptAndLocale:scriptCode:"
++ "isPersonalizedSynthesisAvailableForKo"
++ "isPersonalizedSynthesisAvailableForZhJa"
++ "isReadyForCharacterInventorySynthesis"
++ "isTextOrMathForStrokeType:"
++ "isZHJARadical:"
++ "jpan"
++ "kana"
++ "kata"
++ "kore"
++ "lastCharacterStyleTimestamp"
++ "lastInventoryCharacterStyleTimeStamp"
++ "latestStyleInventoryStatus: updating from %@ to %@"
++ "latinCharacterSetWithoutPunctuations"
++ "latinVariantCharacterSet"
++ "layoutAnalysisResultsPerTile"
++ "loadHashWithURL:"
++ "mainOutputIndex"
++ "majorityScriptIdForString:invalidCodes:"
++ "maxNumStrokesForDecoderName:"
++ "mergeReflowableTokens:"
++ "mergeTileStrokeClassificationMatrix:tileSparseAdjacencyMatrix:intoMergedStrokeClassificationMatrix:mergedAdjacencyMatrix:strokeIndexMapping:tileOverlapStrokeIndexes:"
++ "metadata.json"
++ "modelHashesWithLatinHash:zhJaHash:koHash:"
++ "modelPrecisionDataType"
++ "modelResourceURL"
++ "newColorForPrincipalLineType:"
++ "newDocumentLayoutAnalysisManager"
++ "non-text"
++ "normalizeAndAlignStyleSamples:"
++ "normalizeDrawing:transcription:script:"
++ "notTransliterate"
++ "orderedStrokesDrawingForToken:"
++ "origin"
++ "originalString"
++ "originalSubstring"
++ "originalTranscription"
++ "original_value"
++ "output1"
++ "outputSchema"
++ "output_after_topk"
++ "output_log_softmax"
++ "output_principal_points"
++ "overlapArea"
++ "overlapStrokeIdentifiers"
++ "overlapStrokeIndexes"
++ "padLastPoint"
++ "positionalEncodingsInputIndexCTC"
++ "positionalEncodingsInputIndexPrincipalPoints"
++ "ppc_lookup"
++ "precedingSeparatorForTopModelTranscriptionPath"
++ "preprocessor"
++ "preprocessors"
++ "principalLineInterceptsForPrincipalPoints:orientation:"
++ "principalLinesFromPrincipalLinePoints:points:"
++ "principalPoints"
++ "principal_line_model"
++ "probabilityByScriptClassificationsForStrokeIndex:scriptCodeMap:"
++ "processSynthesisRequest:isSynchronized:error:"
++ "prototypes"
++ "q20@0:8i16"
++ "q24@0:8@\"NSString\"16"
++ "q24@?0@\"<CHStrokeIdentifier>\"8@\"<CHStrokeIdentifier>\"16"
++ "qwertyuioplikjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM"
++ "rankedLatinLocalesForString:locales:"
++ "rawPrincipalPoints"
++ "rawScriptClassificationResultForStrokeIndex:scriptCodeMap:"
++ "recognitionResultsForGroupingResult:groupingManager:strokeGroupsToProcess:strokeClassificationResult:shouldUpdateRecognitionResultsPerLocale:strokeGroupReplacements:"
++ "recognizeDrawing:minimumDrawingSize:initialVectorAnchorPoint:activeCharacterSet:outStrokeIndexMapping:outStrokeEndings:outFallbackSymbol:outFallbackSymbolScore:outPrincipalLinePoints:"
++ "recognizer segmentation and principal line detection failed for synthesis result with content:%{sensitive}@"
++ "recordPrincipalPoints:"
++ "reflowableTextLinesWithProgress:contextResults:strokeGroupingResult:contextStrokes:initialStrokes:strokeProvider:relatedNonTextStrokes:shouldCancel:"
++ "reflowableTokensFromSynthesisResult:principalPoints:shouldCancel:"
++ "reflowableTokensWithContext:contextStrokes:strokeProvider:shouldExtractFromRefinablePath:SkipLineOrientationEstimate:shouldCancel:"
++ "reflowableTokensWithTextResult:principalLineResult:strokeProvider:shouldCancel:"
++ "remainingGroupStrokes:remainingStrokes:strokeProvider:"
++ "removeStroke:"
++ "removeSubtilePosition:"
++ "resultByAppendingInventoryContents"
++ "resultWithRefinedNonTextCandidateInResult:changedSupportStrokesByStrokeIdentifiers:strokeProvider:"
++ "resultWithStrokeClassesFromScriptClassesInResult:strokeProvider:outChangedSupportStrokes:"
++ "retrieveActivationMatrixForDrawing:recognitionEngineCachingKey:outStrokeIndexMapping:outStrokeEndings:outPrincipalPoints:"
++ "revertTokenOrder:textResult:initialStrokes:strokeProvider:shouldExtractFromRefinablePath:"
++ "rotatedColumnBounds:"
++ "s%ld,p%ld"
++ "saveStyleInventoryIfNeeded"
++ "saveStyleInventoryIfNeededWithMinimumDelay:"
++ "scale"
++ "scriptClassificationRawResultsForOneScriptClassification:scriptCodeMap:"
++ "script_classification"
++ "serializeStrokeClassificationMatrix:sparseAdjacencyMatrix:withCoder:"
++ "setChunkSynthesisSuggestion:"
++ "setContentArea:"
++ "setContextArea:"
++ "setContextStrokeIdentifiers:"
++ "setDebugInfo:"
++ "setDefaultStyleFastPathBlock:"
++ "setHasPrecedingSpace:"
++ "setInputDrawing:"
++ "setOverlapArea:"
++ "setPadLastPoint:"
++ "setStrokeIdentifiers:"
++ "setZhjaPrototypesFromPath:"
++ "shapeRange"
++ "shouldAllowLoggingForKey (%@): allowing logging"
++ "shouldDeformRenderedAscendersDescenders:"
++ "shouldLogPersonalizedSynthesisModelReadyForLocale: %@"
++ "shouldLogSynthesisSupportStateForVariant: %ld"
++ "shouldTryAlternativeStringRender:"
++ "simpleDrawingForStrokeGroup:originalDrawing:orderedStrokesIDs:"
++ "sparseAdjacencyMatrix"
++ "std::vector<CHSynthesisTextChunkerAccumulatorFeature> operator+: precondition failed"
++ "std::vector<CHSynthesisTextChunkerAccumulatorFeature> operator-: precondition failed"
++ "stringToSynthesize"
++ "strokeBoundsPerStrokeIdentifier"
++ "strokeClassCount"
++ "strokeClassificationMatrix"
++ "strokeGroupFromStrokes:ancestorIdentifier:strokeBoundsPerStrokeIdentifier:substrokesByStrokeIdentifier:"
++ "stroke_embedding"
++ "stroke_embeddings"
++ "stroke_embeddings_mask"
++ "stroke_grouping"
++ "stroke_processor_decoder.bundle"
++ "stroke_processor_encoder.bundle"
++ "styleScriptForSynthesizerSupportedStyle:"
++ "subjectStrokeGroupingResult:allOrderedStrokeIdentifiers:lastGroupingResult:lastDocumentLayoutAnalysisResult:lastStrokeClassificationResult:cancellationBlock:"
++ "subtileIndex"
++ "subtilePositions"
++ "suggestion"
++ "suggestionFromSynthesizerID:"
++ "synthesisModelHashKo"
++ "synthesisModelHashZhJa"
++ "synthesisOptionsWithDrawings:contents:stylePredictions:isFastPath:fitWidth:fitHeight:synthesizeCharacterInventoryBehavior:xZeroDrawing:fastPathAsXZero:fastPathUseDefaultStyle:styleInventoryQuery:skipStyleInventoryLookup:saveStyleSample:forwardProcessRatio:backwardProcessRatio:seed:synthesisSuggestion:"
++ "synthesis_suggestion"
++ "synthesis_value"
++ "synthesizerIdFromSuggestion:"
++ "text-math"
++ "textLineForDrawing:transcriptions:strokeIndexes:fullText:principalPoints:locale:strokeClassification:shouldCancel:"
++ "textLineForReflowableSynthesisResultToken:locale:"
++ "textLineForTokens:locale:strokeGroup:strokes:strokeProvider:skipLineOrientationEstimate:useCache:shouldCancel:"
++ "textLineFromTextResult:principalLineResult:strokeProvider:shouldCancel:"
++ "textLinesFromContext:strokeGroupingResult:contextStrokes:initialStrokes:strokeProvider:relatedNonTextStrokes:excludedStrokeTypes:shouldExtractFromRefinablePath:skipLineOrientationEstimate:useCache:progress:shouldCancel:"
++ "textRecognitionResultForDrawing:options:principalPoints:error:"
++ "textRecognitionResultForDrawing:options:writingStatistics:principalPoints:shouldCancel:"
++ "thai"
++ "tilePosition"
++ "tilePositionWithRow:column:"
++ "tileSizeFactor"
++ "tilesPerPosition"
++ "tilesSizeFactor"
++ "tilingResult"
++ "tokenSupportRangesForNonTextStrokes:initialStrokes:strokeProvider:shouldExtractFromRefinablePath:"
++ "tokenWithString:strokeIndexes:wordID:modelScore:recognitionScore:combinedScore:alignmentScore:properties:recognizerSourceLocale:inputSources:substrokeCount:bounds:originalBounds:principalLines:principalPoints:"
++ "tokenizedTextResultWithString:strokeIndexes:bounds:trailingSeparator:recognizerGenerationIdentifier:defaultTokenScores:originalBounds:principalLines:principalPoints:"
++ "tokensFromTranscriptionPath:"
++ "transferToMultiArray:"
++ "uk_UA"
++ "unsafeCheckInStyleInventory"
++ "unsafeCheckOutStyleInventory"
++ "unsafeCheckOutTextSynthesizer"
++ "unsafeCleanupFastPathCharacters"
++ "unsafeClearStyleInventory"
++ "unsafeEvictStyleInventory"
++ "unsafeEvictTextSynthesizer"
++ "unsafeSynthesisChunkingRequest:"
++ "updateGroupingResult:addingStrokes:removingStrokeIdentifiers:orderedStrokeIdentifiers:lastOrderedStrokeIdentifiers:strokeClassificationResult:lastStrokeClassificationResult:mathStrokeGroupingResult:cancellationBlock:"
++ "updateHashKo:"
++ "updateInventoryStylePredictionsWithCompletion:"
++ "updateScriptByAddingNonClutterStroke:withClassification:classificationRawResult:"
++ "updateSynthesisModelHashKo:"
++ "updateSynthesisModelHashZhJa:"
++ "updatedStrokeClassificationResult:subjectStrokeIdentifiers:lastStrokeClassificationResult:lastTilingResult:lastDocumentLayoutAnalysisResult:lastGroupingResult:outTilingResult:outDocumentLayoutAnalysisResult:outStrokeGroupingResult:cancellationBlock:"
++ "updatedTilingResult:addingStrokes:removingStrokeIdentifiers:allStrokes:strokeBoundsPerStrokeIdentifier:maxTileSize:"
++ "v16@?0@\"CHMutableTokenizedTextResultToken\"8"
++ "v24@?0@\"CHDocumentLayoutAnalysisTileResult\"8@\"NSError\"16"
++ "v24@?0@\"CHSynthesisStyleSample\"8^B16"
++ "v24@?0@\"CHTextSynthesizerChunkedData\"8@\"NSError\"16"
++ "v24@?0@\"CHTokenizedTextResultToken\"8q16"
++ "v28@0:8B16@?20"
++ "v28@?0@\"CHDrawing\"8B16d20"
++ "v32@0:8@\"CHRemoteDocumentLayoutAnalysisRequest\"16@?<v@?@\"CHDocumentLayoutAnalysisTileResult\"@\"NSError\">24"
++ "v32@0:8@\"CHRemoteRecognitionRequest\"16@?<v@?@\"CHTokenizedResult\"@\"NSArray\"@\"NSError\">24"
++ "v32@0:8@\"CHRemoteSynthesisStringChunkingRequest\"16@?<v@?@\"CHTextSynthesizerChunkedData\"@\"NSError\">24"
++ "v32@0:8@16d24"
++ "v32@?0@\"<CHStrokeIdentifier>\"8Q16^B24"
++ "v32@?0@\"CHTokenizedResult\"8@\"NSArray\"16@\"NSError\"24"
++ "v32@?0@\"NSArray\"8@\"NSArray\"16@\"<CHStrokeProvider>\"24"
++ "v32@?0@\"NSString\"8@\"NSSet\"16^B24"
++ "v40@0:8@16q24@32"
++ "v40@0:8^v16^v24@32"
++ "v40@0:8r^v16r^v24@32"
++ "v40@0:8{vector<float, std::allocator<float>>=^f^f^f}16"
++ "v48@0:8@16@24@32d40"
++ "v64@0:8@16@24@32@40@48@56"
++ "v64@0:8r^v16r^v24^v32^v40r^v48r^v56"
++ "v72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16^@48^@56^@64"
++ "v80@?0{?={CGPoint=dd}{CGPoint=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40^{CGColor=}72"
++ "v84@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24@56q64@72B80"
++ "without spatial boundary "
++ "writeTilesToFileInFolder:basename:strokeProvider:"
++ "writeTilesToFileInFolder:strokeProvider:"
++ "writeTilesToFileWithStrokeProvider:"
++ "writingOrientationAngleAtColumn:"
++ "zhJa"
++ "zh_CN"
++ "zhjaIDSMapping"
++ "zhja_ids_decomposition_mapping.json"
++ "{?=\"strokeClutterFilteringDuration\"d\"strokeClassificationDuration\"d\"groupingDuration\"d\"documentLayoutAnalysisDuration\"d\"recognitionDuration\"d\"principalLinesDuration\"d\"totalDuration\"d}"
++ "{?=ddddddd}16@0:8"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}168@0:8{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}16r^v144@152^B160"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}204@0:8@16r^v24r^v32{PointsAndPrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}}40B192@?196"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}24@0:8@16"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}32@0:8@16B24B28"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}48@0:8@16{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}24"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}48@0:8r^v16r^v24r^v32@?40"
++ "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}52@0:8@16@24r^v32d40B48"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@16@24"
++ "{CGRect={CGPoint=dd}{CGSize=dd}}40@0:8{CGPoint=dd}16d32"
++ "{CHDrawingStrokes=\"strokeBounds\"{vector<std::vector<double>, std::allocator<std::vector<double>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}\"strokeBoundsValidity\"{vector<bool, std::allocator<bool>>=\"__begin_\"^Q\"__size_\"Q\"__cap_\"Q}\"startTimes\"{vector<double, std::allocator<double>>=\"__begin_\"^d\"__end_\"^d\"__cap_\"^d}\"endTimes\"{vector<double, std::allocator<double>>=\"__begin_\"^d\"__end_\"^d\"__cap_\"^d}\"strokes\"{vector<std::vector<double>, std::allocator<std::vector<double>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}\"currentStrokeIndex\"q\"mSize\"I\"bitmap\"{Matrix<double>=\"_vptr$Matrix\"^^?\"_data\"^d\"_w\"I\"_h\"I}\"lineHeight\"d\"sparseBitmap\"{vector<int, std::allocator<int>>=\"__begin_\"^i\"__end_\"^i\"__cap_\"^i}}"
++ "{CHFastPathCharacterInventory=\"_holders\"{vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}\"_extensions\"{vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension>, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}}"
++ "{FeatureArray={vector<unsigned long, std::allocator<unsigned long>>=^Q^Q^Q}{vector<unsigned long, std::allocator<unsigned long>>=^Q^Q^Q}{vector<float, std::allocator<float>>=^f^f^f}}32@0:8@16^@24"
++ "{SymbolTokenPropertiesHelper=\"structuralSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"digitSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"separatorSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"operatorSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"currencySymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"exponentSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"constantSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"openeingBracketSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"closingBracketSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"functionCallSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"spaceSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"lineBreakSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}}"
++ "{map<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>, std::less<CHModelCatalogModelVariant>, std::allocator<std::pair<const CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>>>=\"__tree_\"{__tree<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::__map_value_compare<CHModelCatalogModelVariant, std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::less<CHModelCatalogModelVariant>>, std::allocator<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>, std::allocator<std::pair<const CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>>>=\"__tree_\"{__tree<std::__value_type<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>, std::__map_value_compare<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::__value_type<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>, std::less<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID>>, std::allocator<std::__value_type<CoreHandwriting::synthesis::CHSynthesisTextSynthesizerID, std::pair<std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>, std::shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<std::set<long>, std::vector<CHCandidateResult>, std::less<std::set<long>>, std::allocator<std::pair<const std::set<long>, std::vector<CHCandidateResult>>>>=\"__tree_\"{__tree<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::__map_value_compare<std::set<long>, std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::less<std::set<long>>>, std::allocator<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>, std::less<std::set<unsigned long>>, std::allocator<std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>>=\"__tree_\"{__tree<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::__map_value_compare<std::set<unsigned long>, std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::less<std::set<unsigned long>>>, std::allocator<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<std::string, std::pair<std::string, double>, std::less<std::string>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>>=\"__tree_\"{__tree<std::__value_type<std::string, std::pair<std::string, double>>, std::__map_value_compare<std::string, std::__value_type<std::string, std::pair<std::string, double>>, std::less<std::string>>, std::allocator<std::__value_type<std::string, std::pair<std::string, double>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<unsigned int, int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, int>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, int>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, int>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, int>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<unsigned int, unsigned int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned int>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned int>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, unsigned int>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned long>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned long>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, unsigned long>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{optional<CoreRecognition::decoder::CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>>=\"\"(?=\"__null_state_\"c\"__val_\"{CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>=\"_vptr$AbstractCTCDecoder\"^^?\"blankLabel_\"Q\"beamScorer_\"{AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBeamState>=\"_vptr$BaseBeamScorer\"^^?\"weight_\"d\"logProbLowerBound_\"d\"scorers_\"{vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}}\"pathBuilder_\"{SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>=\"_vptr$AbstractResultPathBuilder\"^^?\"optimizeAlignment_\"B\"spaceLabels_\"{vector<unsigned long, std::allocator<unsigned long>>=\"__begin_\"^Q\"__end_\"^Q\"__cap_\"^Q}\"splitSpaceProbability_\"B}\"config_\"{CTCBeamSearchConfig=\"blankLabel\"Q\"beamWidth\"i\"numBestPaths\"i\"labelSelectionThreshold\"d\"pruner\"{optional<CoreRecognition::decoder::ActivationPruning>=\"\"(?=\"__null_state_\"c\"__val_\"{ActivationPruning=\"threshold\"f\"numCandidates\"Q\"cumulative\"B})\"__engaged_\"B}}})\"__engaged_\"B}"
++ "{set<long, std::less<long>, std::allocator<long>>=\"__tree_\"{__tree<long, std::less<long>, std::allocator<long>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}"
++ "{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__tree_end_node<std::__tree_node_base<void *> *>=^v}Q}}16@0:8"
++ "{shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineContext>=^{CHDiffusionPipelineContext}^{__shared_weak_count}}16@0:8"
++ "{shared_ptr<CoreHandwriting::synthesis::CHDiffusionPipelinePreprocessing>=^{CHDiffusionPipelinePreprocessing}^{__shared_weak_count}}16@0:8"
++ "{unique_ptr<CoreHandwriting::FeatureExtractionProcessor, std::default_delete<CoreHandwriting::FeatureExtractionProcessor>>=\"__ptr_\"^{FeatureExtractionProcessor}}"
++ "{unique_ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>=\"__ptr_\"^{LaTeXSyntaxHelper}}"
++ "{unique_ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>=^{LaTeXSyntaxHelper}}24@0:8@16"
++ "{unique_ptr<CoreHandwriting::PreprocessingManager, std::default_delete<CoreHandwriting::PreprocessingManager>>=\"__ptr_\"^{PreprocessingManager}}"
++ "{unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipeline, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipeline>>=\"__ptr_\"^{CHDiffusionPipeline}}"
++ "{unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineKo, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipelineKo>>=\"__ptr_\"^{CHDiffusionPipelineKo}}"
++ "{unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineLatin, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipelineLatin>>=\"__ptr_\"^{CHDiffusionPipelineLatin}}"
++ "{unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipelineZhJa, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipelineZhJa>>=\"__ptr_\"^{CHDiffusionPipelineZhJa}}"
++ "{unique_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy, std::default_delete<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy>>=\"__ptr_\"^{CHAbstractFastPathStitchingStrategy}}"
++ "{unique_ptr<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap, std::default_delete<CoreHandwriting::synthesis::fast_path::CHFastPathCharacterHolderMMap>>=\"__ptr_\"^{CHFastPathCharacterHolderMMap}}"
++ "{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__cap_\"^{CGPoint}}"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}16@0:8"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}24@0:8@16"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}24@0:8^v16"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}32@0:8@16@24"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}32@0:8r^v16d24"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}32@0:8{CGSize=dd}16"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}44@0:8r^v16@24q32B40"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}48@0:8r^v16d24d32^d40"
++ "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}^{CGPoint}}64@0:8{CGSize=dd}16{CGPoint=dd}32{CGPoint=dd}48"
++ "{vector<CGRect, std::allocator<CGRect>>=^{CGRect}^{CGRect}^{CGRect}}24@0:8r^v16"
++ "{vector<CGVector, std::allocator<CGVector>>=\"__begin_\"^{CGVector}\"__end_\"^{CGVector}\"__cap_\"^{CGVector}}"
++ "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=\"__begin_\"^{CHFastGroupingCluster}\"__end_\"^{CHFastGroupingCluster}\"__cap_\"^{CHFastGroupingCluster}}"
++ "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}^{CHFastGroupingCluster}}16@0:8"
++ "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}^{CHFastGroupingCluster}}36@0:8@16B24Q28"
++ "{vector<_NSRange, std::allocator<_NSRange>>=^{_NSRange}^{_NSRange}^{_NSRange}}24@0:8r^v16"
++ "{vector<const void *, std::allocator<const void *>>=^^v^^v^^v}40@0:8@16@24Q32"
++ "{vector<const void *, std::allocator<const void *>>=^^v^^v^^v}48@0:8@16@24@32Q40"
++ "{vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>>=\"__begin_\"^\"__end_\"^\"__cap_\"^}"
++ "{vector<float, std::allocator<float>>=\"__begin_\"^f\"__end_\"^f\"__cap_\"^f}"
++ "{vector<float, std::allocator<float>>=^f^f^f}16@0:8"
++ "{vector<float, std::allocator<float>>=^f^f^f}24@0:8@16"
++ "{vector<float, std::allocator<float>>=^f^f^f}40@0:8r^v16r^{CGVector=dd}24r^{CGPoint=dd}32"
++ "{vector<long, std::allocator<long>>=^q^q^q}16@0:8"
++ "{vector<std::map<long, long>, std::allocator<std::map<long, long>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::unordered_map<unsigned long, float>, std::allocator<std::unordered_map<unsigned long, float>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>>=^v^v^v}16@0:8"
++ "{vector<std::vector<float>, std::allocator<std::vector<float>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
++ "{vector<std::vector<std::unordered_map<int, int>>, std::allocator<std::vector<std::unordered_map<int, int>>>>=^v^v^v}24@0:8r^v16"
++ "{vector<unsigned long, std::allocator<unsigned long>>=\"__begin_\"^Q\"__end_\"^Q\"__cap_\"^Q}"
++ "\xacN"
++ "\xdf"
++ "\xe1"
++ "\xe2"
++ "\xe5"
++ "\xe6"
++ "\xe9"
++ "\xf0q"
+- "            body+= templine;\n"
+- "            break;\n"
+- "            document.getElementById('br' + id).className='byellow';\n"
+- "            document.getElementById('brmts' + id).className='bgreen';\n"
+- "            document.getElementById('bt' + id).className='bred';\n"
+- "            document.getElementById('po-term'+id).innerHTML='';\n"
+- "            document.getElementById('po-term'+id).innerHTML='RMTS ' + xyfile + '\\n';\n"
+- "            document.getElementById('po-term'+id).innerHTML='Review ' + xyfile + '\\n';\n"
+- "            document.getElementById('po-term'+id).innerHTML='Trash ' + xyfile + '\\n';\n"
+- "        case 0:\n"
+- "        case 1:\n"
+- "        case 2:\n"
+- "        case 3:\n"
+- "        if (templine.length > 5){\n"
+- "        templine = document.getElementById('po-term'+i).innerHTML;\n"
+- "        }\n"
+- "    <polyline points=\""
+- "    <text x=\"%.0f\" y=\"%.0f\" font-family=\"Verdana\" font-size=\"%d\" fill=\"%s\">"
+- "    document.getElementById('br' + id).className='bi';\n"
+- "    document.getElementById('brmts' + id).className='bi';\n"
+- "    document.getElementById('bt' + id).className='bi';\n"
+- "    for (var i=0;i<=nbExamples;i++)\n"
+- "    switch(action)\n"
+- "    uri += \"&body=\";\n"
+- "    uri += encodeURIComponent(body);\n"
+- "    uri += encodeURIComponent(subject);\n"
+- "    var body = \"\";\n"
+- "    var subject= \"I reviewed %s\";\n"
+- "    var templine=\"\";\n"
+- "    var uri = \"mailto:antoine_vinel@apple.com?subject=\";\n"
+- "    window.open(uri);\n"
+- "    {\n"
+- "    }\n"
+- " %.3f %.3f"
+- " <script type=\"text/javascript\">\n"
+- " document.getElementById('po-term'+id).innerHTML += xyfile + ' ' + item + '\\n';\n"
+- " entries:"
+- " indegree= "
+- " isFinal="
+- " len:"
+- " outSym= "
+- " outdegree= "
+- " weight = "
+- "!b\x81"
+- "%0.2fs Clutter Filtering, %0.2fs Stroke class., %0.2fs Grouping, %0.2fs Recog., %0.2fs Princ. Lines"
+- "%@ decoding failed. Drawing is required to be non-null and priority has to be valid."
+- "(%.3f, %.3f),"
+- ") "
+- ") inSym="
+- "-c"
+- ".bgreen {-webkit-border-radius: 8px;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%%,#eee), color-stop(40%%,#cfc), color-stop(100%%,#afa));}\n"
+- ".bi {-webkit-border-radius: 8px;-webkit-border-width: 0px;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%%,#eee), color-stop(40%%,#eee), color-stop(100%%,#eee));}\n"
+- ".bred {-webkit-border-radius: 8px;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%%,#eee), color-stop(40%%,#fcc), color-stop(100%%,#faa));}\n"
+- ".byellow {-webkit-border-radius: 8px;background: -webkit-gradient(linear, left top, left bottom, color-stop(0%%,#eee), color-stop(40%%,#ffc), color-stop(100%%,#ffa));}\n"
+- ".plain {background-color:#fff;float:left;width:%.1fpx;margin:%.1fpx;padding:%.1fpx;border:none;}\n"
+- ".x {background-color:#fff;float:left;width:%.1fpx;margin:%.1fpx;padding:%.1fpx;border-style:groove;border-width:5px;border-color:#98bf21;}\n"
+- "/Volumes/data/tasks/017-HTMLPY/temp.py"
+- "/bin/sh"
+- "/model.espresso.net"
+- "0x%04x"
+- "1 0"
+- "<!DOCTYPE html>\n<html>\n"
+- "</body>\n</html>\n"
+- "</div>\n"
+- "</h1>"
+- "</h2>"
+- "</head>\n"
+- "</script>\n"
+- "</style>\n"
+- "</text>\n"
+- "<body>\n"
+- "<br/>"
+- "<div style=\"clear:both;margin:auto;font-size:250%%;\" >\n"
+- "<h1>"
+- "<h2>"
+- "<head>\n"
+- "<p id=\"po-term%d\" style=\"margin:0;\" \\>\n"
+- "<p style=\"clear:both;margin:auto;\">Antoine</p>\n"
+- "<p style=\"clear:both;margin:auto;\">Click on \"unacceptable\" examples, they will go in a second reviewing process where we'll decide to keep them or not. Don't worry about a small shifting (regarding to background image), and don't remove an example just because the strokes are looking as stairs, it is normal since it occurs on very small drawings (and we need them). But you can flag for instance bended arrows or lines ;)</p>\n"
+- "<p style=\"clear:both;margin:auto;\">Good luck,</p>\n"
+- "<p style=\"clear:both;margin:auto;\">This HTML file can't write anything on your disk. To save your work you must finish the whole page, and click on \"Send via email to Antoine\".</p>\n"
+- "<p style=\"clear:both;margin:auto;\">This process is non-destructive.</p>\n"
+- "<p><a href=\"#\" onclick=\"SendMail(%d);\">Send via email to Antoine !</a></p>\n"
+- "<p>For information, here are the files you flagged:</p>\n"
+- "<p>WARNING : NOTHING WAS SAVED : YOU MUST CLICK ON THE FOLLOWING LINK !</p>\n"
+- "<style>\n"
+- "@\"CHDiffusionTextSynthesizer\""
+- "@\"CHFastStrokeGroupingStrategy\""
+- "@\"CHGroupingModel\""
+- "@\"CHStrokeClassificationModel\""
+- "@\"NSArray\"16@?0@\"CHSynthesisResult\"8"
+- "@\"NSArray\"16@?0@\"NSArray\"8"
+- "@120@0:8@16@24@32B40@44@52q60@68B76B80B84B88B92@96@104@112"
+- "@132@0:8@16@24@32B40@44@52q60@68B76B80B84B88B92@96B104@108@116@124"
+- "@148@0:8q16@24@32@40@48@56I64q68B76@80@88q96q104@112@120@128@?136B144"
+- "@192@0:8@16@24@32q40{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}48{CGAffineTransform=dddddd}144"
+- "@208@0:8@16@24r^v32r^v40@48q56{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}64{CGAffineTransform=dddddd}160"
+- "@212@0:8@16@24@32{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}40@168{CGRect={CGPoint=dd}{CGSize=dd}}176B208"
+- "@216@0:8@16@24@32q40@48@56@64@72@80@88@96@104@112@120@128@136@144@152{?=dddddd}160q208"
+- "@248@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64q72d80{CGRect={CGPoint=dd}{CGSize=dd}}88{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}120"
+- "@292@0:8@16@24I32d36d44d52d60Q68@76Q84q92{CGRect={CGPoint=dd}{CGSize=dd}}100{CGRect={CGPoint=dd}{CGSize=dd}}132{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}164"
+- "@36@0:8@16B24@?28"
+- "@36@0:8B16B20B24@?28"
+- "@40@0:8@16^v24q32"
+- "@40@0:8@16r^v24^v32"
+- "@48@0:8@16@24d32^@40"
+- "@48@0:8@16Q24Q32^@40"
+- "@56@0:8@16@24@32B40@44B52"
+- "@60@0:8@16@24@32q40B48i52"
+- "@64@0:8@16@24@32@40q48q56"
+- "@64@0:8{vector<std::vector<float>, std::allocator<std::vector<float>>>=^v^v{__compressed_pair<std::vector<float> *, std::allocator<std::vector<float>>>=^v}}16q40q48@56"
+- "@72@0:8@16@24@32@40@48q56@?64"
+- "@72@0:8@16{CGPoint=dd}24B40B44^v48^q56^q64"
+- "@72@0:8Q16q24q32@40{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<long, void *>>>={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{__compressed_pair<unsigned long, std::less<long>>=Q}}}48"
+- "@96@0:8@16{CGSize=dd}24{CGPoint=dd}40@56^v64^v72^@80^d88"
+- "Adding neighbor tiles strokes as context in case of insufficient context"
+- "An error occurred binding the output of the %@ model"
+- "An error occurred executing the %@ model"
+- "An error occurred in the %@ model during prediction"
+- "An error occurred in the %@ model when creating the input mask array: %@"
+- "An error occurred in the %@ model when creating the positional encodings array: %@"
+- "An error occurred selecting the espresso configuration of the %@ model"
+- "An error occurred selecting the smallest espresso configuration of the %@ model"
+- "An error occurred setting the input to the %@ model"
+- "An error occurred when trying to allocate the input mask array for the %@ model: %@"
+- "Args stack not empty at the end of text transliteration"
+- "B24@?0@\"<CHStroke>\"8@\"CHStrokeGroup\"16"
+- "B40@0:8@16^v24@?32"
+- "B56@0:8q16q24{_NSRange=QQ}32q48"
+- "BEGIN \"CHSessionStrokeGroupingFast\""
+- "BEGIN \"CHSessionTaskStrokeClassificationModel\""
+- "BEGIN \"CHStrokeGroupingModelFeatureExtraction\""
+- "BEGIN \"CHStrokeGroupingModelInference\""
+- "CHDiffusionTextSynthesizer"
+- "CHFastPathCharacterHolderLZFSE Could not add codepoint %d to inventory"
+- "CHFastPathCharacterHolderLZFSE Failed to load inventory"
+- "CHFastPathCharacterHolderLZFSE addCharacter not supported!"
+- "CHFastPathCharacterPersonalizer: requested to synthesize %@"
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndForDigitsVariations: segment %d not suitable for proceeding."
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations START add variational character %@ to holder"
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations add initial character %@ to holder"
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations holder is empty"
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations result drawing is nill"
+- "CHFastPathCharacterPersonalizerWithSuffixForInitAndRefinementForDigitsVariations segmentContents is nill"
+- "CHGroupingModel"
+- "CHGroupingModel inference failed"
+- "CHSessionStrokeGroupingFast"
+- "CHSessionTaskStrokeClassificationModel"
+- "CHStrokeClassificationModel"
+- "CHStrokeGroupingModelFeatureExtraction"
+- "CHStrokeGroupingModelInference"
+- "CHTextInputScriptSpec"
+- "Cancelling stroke classification of chunks"
+- "Chunk synthesis for AutoRefine failed, chunk length = %ld, string = %{sensitive}@, strokes to replace = %ld"
+- "Computed reflowable results from %ld context results, and %ld related non-text strokes: created %ld reflowable tokens"
+- "Converting neighbor math group to text group classification"
+- "Converting neighbor text group to math group classification"
+- "Converting overlapping groups to the same stroke classification"
+- "Different number of predicted probabilities than subtileStrokes."
+- "END \"CHSessionStrokeGroupingFast\""
+- "END \"CHSessionTaskStrokeClassificationModel\""
+- "END \"CHStrokeGroupingModelFeatureExtraction\""
+- "END \"CHStrokeGroupingModelInference\""
+- "Edge (startNode,endNode)= ("
+- "Error loading Espresso model %@"
+- "Error loading codemap %@"
+- "Error selecting configuration %@ for Espresso model %@"
+- "EspressoModelWrapper::bindOutput Bind static buffer but output is dynamic"
+- "EspressoModelWrapper::bindOutput Error binding output buffer"
+- "EspressoModelWrapper::destroy Error destroying context"
+- "EspressoModelWrapper::destroy Error destroying plan"
+- "EspressoModelWrapper::execute Error executing model"
+- "EspressoModelWrapper::initialize Error buidling plan"
+- "EspressoModelWrapper::initialize Error creating context"
+- "EspressoModelWrapper::initialize Error creating plan"
+- "EspressoModelWrapper::initialize Error loading model"
+- "EspressoModelWrapper::selectConfiguration Error building Espresso plan"
+- "EspressoModelWrapper::selectConfiguration Error cleaning current plan"
+- "EspressoModelWrapper::selectConfiguration Error selecting configuration"
+- "EspressoModelWrapper::setInput Error binding input buffer"
+- "EspressoModelWrapper::setInput Error setting input buffer shape"
+- "EspressoModelWrapper::~EspressoModelWrapper Error destroying model"
+- "Failed to locate E5ML model hash."
+- "Got nil result from synthesis of chunk with transcription=\"%{sensitive}@\" (location=%lu length=%lu)"
+- "Hash collision encountered for subtile. %li strokes ≠ %li hashes"
+- "Input too wide (%f): adjust with scale factor %f"
+- "Invalid number of input strokes %li"
+- "Invalid stroke with identifier %@ for stroke provider: version = %@, number of strokes = %ld"
+- "Is personalized synthesis model ready: %@"
+- "Mismatched multiarray sizes: out=%ld lhs=%ld rhs=%ld"
+- "Missing specialization for modelHash"
+- "Missing specialization for supportedCharacterIndexesForString"
+- "Model: An error occurred when loading a model: %@"
+- "Model: Could not find model: diffusion_latn.bundle"
+- "More than one subtiles are required."
+- "Only MLMultiArrayDataTypeFloat32 model outputs are supported."
+- "Only MLMultiArrayDataTypeFloat32 samples are supported."
+- "Ran initial stroke grouping in duration = %3.6f seconds"
+- "Ran second stroke classification and stroke grouping pass in duration = %3.6f seconds"
+- "Ran stroke classification in duration = %3.6f seconds"
+- "RecognitionTask main starting with input result ? %d, strokes in strokeClassificationResult = %ld, rawStrokeClassificationResult = %ld, strokeProvider %@, principalLinesRequirement = %ld, subjectStrokes: %ld, classifiedSubjectStrokes: %ld"
+- "RefineResult: transitionned strokes = %ld, group replacement = %ld"
+- "Runnig model inference with config %@ for %ld strokes"
+- "Running second stroke grouping pass from current unprocessed result with %ld defined groups covering %ld strokes"
+- "Running second stroke grouping pass from previous task result with %ld defined groups covering %ld strokes"
+- "Running stroke classification over %ld strokes"
+- "Size mismatch! IOSurface bytes: %ld, input descriptor bytes: %ld"
+- "Stroke Classification after first stage of stroke classification should match the rawStrokeClassificationResult from the previous result. Diff: %@"
+- "Stroke classification will be running over %ld distinct tiles"
+- "Stroke grouping after first stage should match the rawStrokeGrou[ing from the last result: found %ld text and %ld nonText groups, expected %ld text and %ld nonText groups."
+- "Stroke too big (%f) for sparse drawing (%lu strokes): adjust with scale factor %f"
+- "Style Sampling: Stitching style samples: Drawing must have > 0 strokes"
+- "Style Sampling: stitching %lu samples"
+- "Style sampling: Stitching Style Samples: Empty array is passed!"
+- "T "
+- "T@\"CHDrawing\",R,N"
+- "T@\"CHGroupingModel\",R,N,V_strokeGroupingModel"
+- "T@\"CHStrokeClassificationResult\",R,N,V_rawStrokeClassificationResult"
+- "T@\"CHStrokeGroupingResult\",R,N,V_rawStrokeGroupingResult"
+- "T@\"NSArray\",&,V_contextResults"
+- "T@\"NSArray\",R,N,V_modelConfigurationsNumPoints"
+- "T@\"NSArray\",R,N,V_modelConfigurationsNumStrokes"
+- "T@\"NSArray\",R,N,V_supportedConfigurationsNumStrokes"
+- "T@\"NSDictionary\",R,N,V_codeScriptDictionary"
+- "T@\"NSIndexSet\",R,N,V_textLTRClassIndexes"
+- "T@\"NSIndexSet\",R,N,V_textRTLClassIndexes"
+- "T@\"NSString\",R,N,V_characterProbabilityOutputName"
+- "T@\"NSString\",R,N,V_modelSmallestConfig"
+- "TB,N,V_validateSegments"
+- "TB,R,N,V_hasPrecedingSpace"
+- "TQ,R,N,V_numBBoxFeaturesPerStroke"
+- "TQ,R,N,V_numOverlapStrokes"
+- "TQ,R,N,V_recognitionTileHeight"
+- "TQ,R,N,V_tileOverlapHeight"
+- "Td,R,N,V_interpointDistance"
+- "The preferred locales list cannot be empty unless it's math mode."
+- "Ti,R"
+- "Tq,R,N,V_contentType"
+- "Tq,R,N,V_contextMaxStrokes"
+- "Tq,R,N,V_cosAngleFeatureIndex"
+- "Tq,R,N,V_maxNumberOfInputStrokes"
+- "Tq,R,N,V_maxPointsPerStroke"
+- "Tq,R,N,V_maxStrokeHeight"
+- "Tq,R,N,V_minPointsPerStroke"
+- "Tq,R,N,V_modelDecoderSize"
+- "Tq,R,N,V_numInputFeatures"
+- "Tq,R,N,V_recognitionMaxStrokes"
+- "Tq,R,N,V_sinAngleFeatureIndex"
+- "Tq,R,N,V_weakLabelIndex"
+- "Trying to access predictedProbability[%lu] for predictedProbabilities.size() == %lu"
+- "Trying to assign outputStrokeClassProbabilities[%lu] for  outputStrokeClassProbabilities.size() == %lu"
+- "T{?=dddddd},R,N,V_generationDuration"
+- "T{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<long, void *>>>={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{__compressed_pair<unsigned long, std::less<long>>=Q}}},R,N,V_strokeGroup"
+- "T{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}{__compressed_pair<CHFastGroupingCluster *, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}}},R,N,V_fastGroupingClusters"
+- "T{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}},N,V_embeddingVector"
+- "UNK"
+- "Unexpected max number of points per stroke %lu to select the model configuration"
+- "Unexpected number of strokes %lu to select the model configuration"
+- "Unknown synthesisSuggestion=%ld"
+- "[%f, %f, %f, %f, %f, %f]"
+- "[%f, %f, %f, %f]"
+- "] "
+- "_characterProbabilityOutputName"
+- "_closestConfigurationForInputStrokes:"
+- "_codeScriptDictionary"
+- "_contextMaxStrokes"
+- "_cosAngleFeatureIndex"
+- "_diffusionSynthesizer"
+- "_extractFeaturesFromDrawing:inputName:interpointDistance:error:"
+- "_extractFeaturesFromDrawing:numStrokes:numPoints:error:"
+- "_fastGroupingStrategy"
+- "_inferenceCount"
+- "_isContentStroke:withinSubtile:withRange:ofTotal:"
+- "_maxNumberOfInputStrokes"
+- "_maxPointsPerStroke"
+- "_maxStrokeHeight"
+- "_minPointsPerStroke"
+- "_modelConfigurationsNumPoints"
+- "_modelConfigurationsNumStrokes"
+- "_modelDecoderSize"
+- "_modelSmallestConfig"
+- "_nontextGroupStrokes:remainingStrokes:strokeProvider:"
+- "_numBBoxFeaturesPerStroke"
+- "_numInputFeatures"
+- "_numOverlapStrokes"
+- "_rawStrokeClassificationResult"
+- "_rawStrokeGroupingResult"
+- "_recognitionMaxStrokes"
+- "_recognitionTileHeight"
+- "_resultUsingNextGenerationPipelineWithDrawing:options:"
+- "_sinAngleFeatureIndex"
+- "_strokeClassificationModel"
+- "_strokeGroupingModel"
+- "_subTilesForStrokeCount:"
+- "_subjectStrokeClassificationResult"
+- "_supportedConfigurationsNumStrokes"
+- "_textLTRClassIndexes"
+- "_textRTLClassIndexes"
+- "_tileIndexForYPosition:tileHeight:"
+- "_tileOverlapHeight"
+- "_validateSegments"
+- "_weakLabelIndex"
+- "addNonTextSegmentsAndLines:remainingStrokes:outNonTextStrokes:"
+- "adjacency_matrix"
+- "annotatedPrincipalLines"
+- "assignRemainingStrokes:toTextLines:"
+- "baselinePoints"
+- "cacheActivationMatrix:strokeIndexMapping:strokeEndings:drawing:recognitionEngineCachingKey:"
+- "canvas_features_bbox"
+- "characterCoverageWithString:"
+- "characterProbabilityOutputName"
+- "classifyStrokes:outStrokeClassProbabilities:cancellationBlock:"
+- "classifyStrokes:outTextStrokeProbabilities:cancellationBlock:"
+- "codeScriptDictionary"
+- "com.apple.CHGroupingModel.queue"
+- "com.apple.CHStrokeClassificationModel.queue"
+- "com.apple.CoreHandwriting.CHFPCharacterHolderLZFSEQueue"
+- "contentsAtPath:"
+- "contextMaxStrokes"
+- "convertFromCHPrincipalLines:"
+- "convertToCHPrincipalLines:"
+- "cosAngleFeatureIndex"
+- "createTilesForInputStrokes:subtileStartIndexes:strokesForSubtile:"
+- "d32@0:8r^v16@24"
+- "d40@0:8r^v16r^v24@32"
+- "decrementUsageCount"
+- "defaultStyleSampleForScript:"
+- "deleteCharactersInRange:"
+- "descenderlinePoints"
+- "diffusionModelHash"
+- "diffusion_latn.bundle"
+- "extractBBoxFeaturesForDrawing:padTo:"
+- "extractSignalFeaturesFromDrawing:padTo:"
+- "extractSignalMaskFromDrawing:padTo:"
+- "featureProviderForDrawing:initialVectorAnchorPoint:normalizeFeatures:padFeatures:outStrokeEndings:outInputSequenceLength:outOutputSequenceLength:"
+- "fig = plt.gcf()\n"
+- "fig.savefig(imgdata, format='png')\n"
+- "fileHandleForReading"
+- "function SendMail(nbExamples) {\n"
+- "function boo(id,xyfile,action)\n"
+- "function validItem(id,xyfile,item)\n"
+- "getLastCharacterStyleTimestamp"
+- "getMutableBytesWithHandler:"
+- "groupStrokes:previousAdjacencies:updatedAdjacencies:"
+- "h1{font-size:32px;background-color:#6bf;color:#fff;padding:10px;text-align:center;}\n"
+- "image:hover{opacity: 0.3;}\n"
+- "image{opacity: 1;}\n"
+- "imgdata = StringIO.StringIO()\n"
+- "imgdata.seek(0)\n"
+- "import StringIO\n"
+- "import matplotlib.mlab as mlab\n"
+- "import matplotlib.pyplot as plt\n"
+- "import numpy as np\n"
+- "import urllib, base64\n"
+- "inLabel="
+- "incrementUsageCount"
+- "initWithBestPathTokens:pathProbabilities:trailingSeparator:recognizerGenerationIdentifier:"
+- "initWithBestPathTokens:pathProbabilities:trailingSeparator:recognizerGenerationIdentifier:changeableColumnCount:"
+- "initWithData:encoding:"
+- "initWithLatinHash:"
+- "initWithModelName:model:contentType:"
+- "initWithSessionMode:locales:preferredLocales:strokeProvider:calculateDocumentProvider:inputResult:recognitionQOSClass:recognitionEnvironment:isHighResponsivenessTask:strokeClassificationModel:strokeGroupingModel:strokeGroupingRequirement:principalLineRequirement:subjectStrokeIdentifiers:subjectStrokeClassificationResult:recognitionOptions:partialResultBlock:wantsAutoRefine:"
+- "initWithString:strokeIdentifiers:nonTextStrokeIdentifiers:principalLines:textSize:bounds:hasPrecedingSpace:"
+- "initWithString:strokeIndexes:wordID:modelScore:recognitionScore:combinedScore:alignmentScore:properties:recognizerSourceLocale:inputSources:substrokeCount:bounds:originalBounds:principalLines:"
+- "initWithStrokeProvider:strokeGroupingModel:"
+- "initWithStrokeProvider:strokeGroupingModel:locales:isInlineContinuousMode:inlineContinuousModeTargets:isMathMode:"
+- "initWithStrokeProviderVersion:encodedStrokeProviderVersion:orderedStrokeIdentifiers:sessionMode:locales:preferredLocales:declaredVariables:clutterFilter:strokeClassificationResult:rawStrokeClassificationResult:strokeGroupingResult:rawStrokeGroupingResult:unprocessedStrokeGroupingResult:recognitionResults:rawRecognitionResults:inlineContinuousModeResults:autoRefineResults:lastAutoRefineResult:generationDuration:recognitionEnvironment:"
+- "initWithStrokes:tokens:locale:strokeClassification:principalLines:transform:"
+- "initWithStrokes:tokens:points:strokePoints:locale:strokeClassification:principalLines:transform:"
+- "initWithStyleDrawings:styleContents:stylePredictions:isFastPath:fitWidth:fitHeight:synthesizeCharacterInventoryBehavior:xZeroDrawing:fastPathAsXZero:fastPathUseDefaultStyle:styleInventoryQuery:skipStyleInventoryLookup:saveStyleSample:distanceBetweenDigits:validateSegments:forwardProcessRatio:backwardProcessRatio:seed:"
+- "initWithTokenColumns:transcriptionPaths:scores:recognizerGenerationIdentifier:"
+- "initWithTokenColumns:transcriptionPaths:scores:recognizerGenerationIdentifier:isMinimalDrawingResult:baseWritingDirection:"
+- "initWithTokenColumns:transcriptionPaths:scores:trailingSeparator:recognizerGenerationIdentifier:"
+- "initWithTokenColumns:transcriptionPaths:scores:trailingSeparator:recognizerGenerationIdentifier:changeableColumnCount:"
+- "input_mask"
+- "input_stroke"
+- "latestStyleInventoryStatus: requesting update"
+- "launchAndReturnError:"
+- "launchctl load /System/Library/LaunchDaemons/com.apple.handwritingd.plist"
+- "launchctl unload /System/Library/LaunchDaemons/com.apple.handwritingd.plist"
+- "localesFromModelPrediction:maxNumberOfLocales:numberOfOutputClass:scriptCodeMap:"
+- "login -f mobile /usr/libexec/handwritingd --clear-inventory"
+- "login -f mobile defaults write \"Apple Global Domain\" com.apple.corehandwriting -dict-add CHCustomStyleInventoryPath -string \"%@\""
+- "longLongValue"
+- "magic_paper_math"
+- "math_grouping.bundle"
+- "maxNumberOfInputStrokes"
+- "maxPointsPerStroke"
+- "maxStrokeHeight"
+- "midlinePoints"
+- "minPointsPerStroke"
+- "modelConfigurationsNumPoints"
+- "modelConfigurationsNumStrokes"
+- "modelDecoderSize"
+- "modelHashesWithLatinHash:"
+- "modelSmallestConfig"
+- "modelWithModelName:"
+- "modelWithModelName:contentType:"
+- "normalizeDrawing:transcription:"
+- "normalizedDrawing:"
+- "numBBoxFeaturesPerStroke"
+- "numInputFeatures"
+- "numOverlapStrokes"
+- "order:"
+- "outSym= "
+- "output_predictions"
+- "pathString [%lu w] = \"%s\", scores : CNN%.2f, LEX%.2f, NGR%.2f, STK%.2f, PAT%.2f, SEG%.2f -> TOT%.2f, inPattern? %d\n"
+- "pipe"
+- "plotfile = open(\"/Volumes/data/tasks/017-HTMLPY/temp.b64\",\"w\")\n"
+- "plotfile.close()"
+- "plotfile.write('<img src = \\\"data:image/png;base64,' + urllib.quote(base64.b64encode(imgdata.buf)) + '\\\"/>')\n"
+- "predictedScriptsForDrawing:maxNumberOfLocales:"
+- "prepareIncreasingVariabilitySynthesisRequest %@"
+- "prepareIncreasingVariabilitySynthesisRequest seed %@"
+- "principalLinesFromToken:strokes:"
+- "python /Volumes/data/tasks/017-HTMLPY/temp.py"
+- "q12@?0B8"
+- "q32@0:8d16q24"
+- "rawStrokeClassificationResult"
+- "rawStrokeGroupingResult"
+- "readDataToEndOfFile"
+- "recognitionMaxStrokes"
+- "recognitionResultsForGroupingResult:groupingManager:strokeGroupsToProcess:strokeClassificationResult:strokeGroupReplacements:"
+- "recognitionTileHeight"
+- "recognizeDrawing:minimumDrawingSize:initialVectorAnchorPoint:activeCharacterSet:outStrokeIndexMapping:outStrokeEndings:outFallbackSymbol:outFallbackSymbolScore:"
+- "refineResult:usingSortedTextStrokeGroups:cancellationBlock:"
+- "refineResult:usingStrokeClassificationModel:sortedAddedStrokes:removedStrokeIdentifiers:lastResult:cancellationBlock:"
+- "reflowableTextLinesWithProgress:mergeUnacceptableLines:shouldCancel:"
+- "reflowableTokensFromSynthesisResult:shouldCancel:"
+- "reflowableTokensSkipLineOrientationEstimate:useCache:preserveTokenOrder:shouldCancel:"
+- "retrieveActivationMatrixForDrawing:recognitionEngineCachingKey:outStrokeIndexMapping:outStrokeEndings:"
+- "revertTokenOrder:textResult:"
+- "runPersonalizationWithBlock:resynthesizeAll:"
+- "s%d_p%d"
+- "s%ld"
+- "script code %@ doesn't exist in codeScriptDictionary"
+- "script count %d should match codemap count %d"
+- "setArguments:"
+- "setExecutableURL:"
+- "setStandardError:"
+- "setStandardOutput:"
+- "setValidateSegments:"
+- "setup"
+- "shouldAdjustRenderString:"
+- "shouldDeformAscendersDescenders:"
+- "sinAngleFeatureIndex"
+- "squeezeDimensions:error:"
+- "step() inputs cannot be nil!"
+- "stitchStyleSamples:"
+- "stitchedSampleWithDrawings:transcriptions:"
+- "strokeGroupingModel"
+- "stroke_classification.bundle"
+- "strokesSortedByMidY:"
+- "supportedConfigurationsNumStrokes"
+- "supportsReflowForLocale:"
+- "synthesis result does not contain principal lines information"
+- "synthesisOptionsWithDrawings:contents:stylePredictions:isFastPath:fitWidth:fitHeight:synthesizeCharacterInventoryBehavior:xZeroDrawing:fastPathAsXZero:fastPathUseDefaultStyle:styleInventoryQuery:skipStyleInventoryLookup:saveStyleSample:forwardProcessRatio:backwardProcessRatio:seed:"
+- "textLTRClassIndexes"
+- "textLineForDrawing:transcriptions:strokeIndexes:fullText:locale:strokeClassification:shouldCancel:"
+- "textRTLClassIndexes"
+- "textRecognitionResultForDrawing:options:writingStatistics:shouldCancel:"
+- "tileOverlapHeight"
+- "tokenSupportRangesForNonTextStrokes"
+- "tokenWithString:strokeIndexes:wordID:modelScore:recognitionScore:combinedScore:alignmentScore:properties:recognizerSourceLocale:inputSources:substrokeCount:bounds:originalBounds:principalLines:"
+- "tokenizedTextResultWithString:strokeIndexes:bounds:trailingSeparator:recognizerGenerationIdentifier:defaultTokenScores:originalBounds:principalLines:"
+- "tokensAlignedWithInitialStrokesForTextResult:"
+- "toplinePoints"
+- "unknown_default.lzfse"
+- "updateGroupingResult:addingStrokes:removingStrokeIdentifiers:orderedStrokeIdentifiers:lastOrderedStrokeIdentifiers:strokeClassificationResult:lastStrokeClassificationResult:cancellationBlock:"
+- "v24@?0@\"CHSynthesisResult\"8^B16"
+- "v24@?0@\"CHTokenizedResult\"8@\"NSError\"16"
+- "v28@0:8@?16B24"
+- "v32@0:8@\"CHRemoteRecognitionRequest\"16@?<v@?@\"CHTokenizedResult\"@\"NSError\">24"
+- "v32@?0@\"CHReflowableSynthesisResultToken\"8Q16^B24"
+- "v32@?0^v8q16@\"NSArray\"24"
+- "v40@0:8{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}}16"
+- "v56@0:8@16@24@32@40@48"
+- "v80@?0{?={CGPoint=dd}{CGPoint=dd}}8{CGRect={CGPoint=dd}{CGSize=dd}}40r^d72"
+- "validateSegments"
+- "wb"
+- "weakLabelIndex"
+- "weight = "
+- "wstring_convert: to_bytes error"
+- "x_min = %.2f, y_min = %.2f, x_max = %.2f, y_max = %.2f"
+- "{\n"
+- "{?=\"strokeClutterFilteringDuration\"d\"strokeClassificationDuration\"d\"groupingDuration\"d\"recognitionDuration\"d\"principalLinesDuration\"d\"totalDuration\"d}"
+- "{?=dddddd}16@0:8"
+- "{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}24@0:8r^v16"
+- "{CHDrawingStrokes=\"strokeBounds\"{vector<std::vector<double>, std::allocator<std::vector<double>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::vector<double> *, std::allocator<std::vector<double>>>=\"__value_\"^v}}\"strokeBoundsValidity\"{vector<bool, std::allocator<bool>>=\"__begin_\"^Q\"__size_\"Q\"__cap_alloc_\"{__compressed_pair<unsigned long, std::allocator<unsigned long>>=\"__value_\"Q}}\"startTimes\"{vector<double, std::allocator<double>>=\"__begin_\"^d\"__end_\"^d\"__end_cap_\"{__compressed_pair<double *, std::allocator<double>>=\"__value_\"^d}}\"endTimes\"{vector<double, std::allocator<double>>=\"__begin_\"^d\"__end_\"^d\"__end_cap_\"{__compressed_pair<double *, std::allocator<double>>=\"__value_\"^d}}\"strokes\"{vector<std::vector<double>, std::allocator<std::vector<double>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::vector<double> *, std::allocator<std::vector<double>>>=\"__value_\"^v}}\"currentStrokeIndex\"q\"mSize\"I\"bitmap\"{Matrix<double>=\"_vptr$Matrix\"^^?\"_data\"^d\"_w\"I\"_h\"I}\"lineHeight\"d\"sparseBitmap\"{vector<int, std::allocator<int>>=\"__begin_\"^i\"__end_\"^i\"__end_cap_\"{__compressed_pair<int *, std::allocator<int>>=\"__value_\"^i}}}"
+- "{CHFastPathCharacterInventory=\"_holders\"{vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder> *, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterHolder>>>=\"__value_\"^v}}\"_extensions\"{vector<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension>, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension> *, std::allocator<std::shared_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathCharacterInventoryExtension>>>=\"__value_\"^v}}}"
+- "{FeatureArray={vector<unsigned long, std::allocator<unsigned long>>=^Q^Q{__compressed_pair<unsigned long *, std::allocator<unsigned long>>=^Q}}{vector<unsigned long, std::allocator<unsigned long>>=^Q^Q{__compressed_pair<unsigned long *, std::allocator<unsigned long>>=^Q}}{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}}}32@0:8@16^@24"
+- "{PrincipalLines=\"descender\"{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__end_cap_\"{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=\"__value_\"^{CGPoint}}}\"base\"{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__end_cap_\"{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=\"__value_\"^{CGPoint}}}\"median\"{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__end_cap_\"{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=\"__value_\"^{CGPoint}}}\"top\"{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__end_cap_\"{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=\"__value_\"^{CGPoint}}}}"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}136@0:8{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}16r^v112@120^B128"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}144@0:8{?={?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}{?={CGPoint=dd}{CGPoint=dd}}}16"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}16@0:8"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}172@0:8@16r^v24r^v32{PointsAndPrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}}40B160@?164"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}24@0:8@16"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}32@0:8@16@24"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}32@0:8@16B24B28"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}48@0:8r^v16r^v24r^v32@?40"
+- "{PrincipalLines={vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}}52@0:8@16@24r^v32d40B48"
+- "{SymbolTokenPropertiesHelper=\"structuralSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"digitSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"separatorSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"operatorSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"currencySymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"exponentSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"constantSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"openeingBracketSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"closingBracketSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"functionCallSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"spaceSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}\"lineBreakSymbols\"{unordered_set<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__table_\"{__hash_table<std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::string>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::string, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::string, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::string, void *> *>, std::allocator<std::__hash_node<std::string, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::string, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::hash<std::string>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::equal_to<std::string>>=\"__value_\"f}}}}"
+- "{map<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>, std::less<CHModelCatalogModelVariant>, std::allocator<std::pair<const CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>>>=\"__tree_\"{__tree<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::__map_value_compare<CHModelCatalogModelVariant, std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::less<CHModelCatalogModelVariant>>, std::allocator<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<CHModelCatalogModelVariant, std::__value_type<CHModelCatalogModelVariant, std::pair<CHPersonalizedSynthesisModelState, NSString *>>, std::less<CHModelCatalogModelVariant>>>=\"__value_\"Q}}}"
+- "{map<std::set<long>, std::vector<CHCandidateResult>, std::less<std::set<long>>, std::allocator<std::pair<const std::set<long>, std::vector<CHCandidateResult>>>>=\"__tree_\"{__tree<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::__map_value_compare<std::set<long>, std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::less<std::set<long>>>, std::allocator<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<std::set<long>, std::__value_type<std::set<long>, std::vector<CHCandidateResult>>, std::less<std::set<long>>>>=\"__value_\"Q}}}"
+- "{map<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>, std::less<std::set<unsigned long>>, std::allocator<std::pair<const std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>>=\"__tree_\"{__tree<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::__map_value_compare<std::set<unsigned long>, std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::less<std::set<unsigned long>>>, std::allocator<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<std::set<unsigned long>, std::__value_type<std::set<unsigned long>, std::vector<std::unordered_map<unsigned long, float>>>, std::less<std::set<unsigned long>>>>=\"__value_\"Q}}}"
+- "{map<std::string, std::pair<std::string, double>, std::less<std::string>, std::allocator<std::pair<const std::string, std::pair<std::string, double>>>>=\"__tree_\"{__tree<std::__value_type<std::string, std::pair<std::string, double>>, std::__map_value_compare<std::string, std::__value_type<std::string, std::pair<std::string, double>>, std::less<std::string>>, std::allocator<std::__value_type<std::string, std::pair<std::string, double>>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<std::string, std::pair<std::string, double>>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<std::string, std::__value_type<std::string, std::pair<std::string, double>>, std::less<std::string>>>=\"__value_\"Q}}}"
+- "{map<unsigned int, int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, int>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, int>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, int>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, int>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<unsigned int, int>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, int>, std::less<unsigned int>>>=\"__value_\"Q}}}"
+- "{map<unsigned int, unsigned int, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned int>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned int>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned int>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, unsigned int>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<unsigned int, unsigned int>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned int>, std::less<unsigned int>>>=\"__value_\"Q}}}"
+- "{map<unsigned int, unsigned long, std::less<unsigned int>, std::allocator<std::pair<const unsigned int, unsigned long>>>=\"__tree_\"{__tree<std::__value_type<unsigned int, unsigned long>, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned long>, std::less<unsigned int>>, std::allocator<std::__value_type<unsigned int, unsigned long>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<unsigned int, unsigned long>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<unsigned int, std::__value_type<unsigned int, unsigned long>, std::less<unsigned int>>>=\"__value_\"Q}}}"
+- "{optional<CoreRecognition::decoder::CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>>=\"\"(?=\"__null_state_\"c\"__val_\"{CTCBeamSearchDecoder<CoreRecognition::decoder::AdditiveCombiningBeamScorer<>, CoreRecognition::decoder::SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>>=\"_vptr$AbstractCTCDecoder\"^^?\"blankLabel_\"Q\"beamScorer_\"{AdditiveCombiningBeamScorer<CoreRecognition::decoder::CombinedBeamState>=\"_vptr$BaseBeamScorer\"^^?\"weight_\"d\"logProbLowerBound_\"d\"scorers_\"{vector<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer> *, std::allocator<std::unique_ptr<CoreRecognition::decoder::BaseBeamScorer>>>=\"__value_\"^v}}}\"pathBuilder_\"{SpaceSegmentedPathBuilder<CoreRecognition::decoder::CombinedBeamState>=\"_vptr$AbstractResultPathBuilder\"^^?\"optimizeAlignment_\"B\"spaceLabels_\"{vector<unsigned long, std::allocator<unsigned long>>=\"__begin_\"^Q\"__end_\"^Q\"__end_cap_\"{__compressed_pair<unsigned long *, std::allocator<unsigned long>>=\"__value_\"^Q}}\"splitSpaceProbability_\"B}\"config_\"{CTCBeamSearchConfig=\"blankLabel\"Q\"beamWidth\"i\"numBestPaths\"i\"labelSelectionThreshold\"d\"pruner\"{optional<CoreRecognition::decoder::ActivationPruning>=\"\"(?=\"__null_state_\"c\"__val_\"{ActivationPruning=\"threshold\"f\"numCandidates\"Q\"cumulative\"B})\"__engaged_\"B}}})\"__engaged_\"B}"
+- "{set<long, std::less<long>, std::allocator<long>>=\"__tree_\"{__tree<long, std::less<long>, std::allocator<long>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<long, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::less<long>>=\"__value_\"Q}}}"
+- "{set<long, std::less<long>, std::allocator<long>>={__tree<long, std::less<long>, std::allocator<long>>=^v{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<long, void *>>>={__tree_end_node<std::__tree_node_base<void *> *>=^v}}{__compressed_pair<unsigned long, std::less<long>>=Q}}}16@0:8"
+- "{unique_ptr<CHCodeMap, std::default_delete<CHCodeMap>>=\"__ptr_\"{__compressed_pair<CHCodeMap *, std::default_delete<CHCodeMap>>=\"__value_\"^{CHCodeMap}}}"
+- "{unique_ptr<CoreHandwriting::FeatureExtractionProcessor, std::default_delete<CoreHandwriting::FeatureExtractionProcessor>>=\"__ptr_\"{__compressed_pair<CoreHandwriting::FeatureExtractionProcessor *, std::default_delete<CoreHandwriting::FeatureExtractionProcessor>>=\"__value_\"^{FeatureExtractionProcessor}}}"
+- "{unique_ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>=\"__ptr_\"{__compressed_pair<CoreHandwriting::LaTeXSyntaxHelper *, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>=\"__value_\"^{LaTeXSyntaxHelper}}}"
+- "{unique_ptr<CoreHandwriting::LaTeXSyntaxHelper, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>={__compressed_pair<CoreHandwriting::LaTeXSyntaxHelper *, std::default_delete<CoreHandwriting::LaTeXSyntaxHelper>>=^{LaTeXSyntaxHelper}}}24@0:8@16"
+- "{unique_ptr<CoreHandwriting::PreprocessingManager, std::default_delete<CoreHandwriting::PreprocessingManager>>=\"__ptr_\"{__compressed_pair<CoreHandwriting::PreprocessingManager *, std::default_delete<CoreHandwriting::PreprocessingManager>>=\"__value_\"^{PreprocessingManager}}}"
+- "{unique_ptr<CoreHandwriting::synthesis::CHDiffusionPipeline, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipeline>>=\"__ptr_\"{__compressed_pair<CoreHandwriting::synthesis::CHDiffusionPipeline *, std::default_delete<CoreHandwriting::synthesis::CHDiffusionPipeline>>=\"__value_\"^{CHDiffusionPipeline}}}"
+- "{unique_ptr<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy, std::default_delete<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy>>=\"__ptr_\"{__compressed_pair<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy *, std::default_delete<CoreHandwriting::synthesis::fast_path::CHAbstractFastPathStitchingStrategy>>=\"__value_\"^{CHAbstractFastPathStitchingStrategy}}}"
+- "{vector<CGPoint, std::allocator<CGPoint>>=\"__begin_\"^{CGPoint}\"__end_\"^{CGPoint}\"__end_cap_\"{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=\"__value_\"^{CGPoint}}}"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}16@0:8"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}24@0:8@16"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}24@0:8^v16"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}32@0:8@16@24"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}32@0:8r^v16d24"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}32@0:8{CGSize=dd}16"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}44@0:8r^v16@24q32B40"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}48@0:8r^v16d24d32^d40"
+- "{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{__compressed_pair<CGPoint *, std::allocator<CGPoint>>=^{CGPoint}}}64@0:8{CGSize=dd}16{CGPoint=dd}32{CGPoint=dd}48"
+- "{vector<CGRect, std::allocator<CGRect>>=^{CGRect}^{CGRect}{__compressed_pair<CGRect *, std::allocator<CGRect>>=^{CGRect}}}24@0:8r^v16"
+- "{vector<CGVector, std::allocator<CGVector>>=\"__begin_\"^{CGVector}\"__end_\"^{CGVector}\"__end_cap_\"{__compressed_pair<CGVector *, std::allocator<CGVector>>=\"__value_\"^{CGVector}}}"
+- "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=\"__begin_\"^{CHFastGroupingCluster}\"__end_\"^{CHFastGroupingCluster}\"__end_cap_\"{__compressed_pair<CHFastGroupingCluster *, std::allocator<CHFastGroupingCluster>>=\"__value_\"^{CHFastGroupingCluster}}}"
+- "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}{__compressed_pair<CHFastGroupingCluster *, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}}}16@0:8"
+- "{vector<CHFastGroupingCluster, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}^{CHFastGroupingCluster}{__compressed_pair<CHFastGroupingCluster *, std::allocator<CHFastGroupingCluster>>=^{CHFastGroupingCluster}}}36@0:8@16B24Q28"
+- "{vector<_NSRange, std::allocator<_NSRange>>=^{_NSRange}^{_NSRange}{__compressed_pair<_NSRange *, std::allocator<_NSRange>>=^{_NSRange}}}24@0:8r^v16"
+- "{vector<const void *, std::allocator<const void *>>=^^v^^v{__compressed_pair<const void **, std::allocator<const void *>>=^^v}}40@0:8@16@24Q32"
+- "{vector<const void *, std::allocator<const void *>>=^^v^^v{__compressed_pair<const void **, std::allocator<const void *>>=^^v}}48@0:8@16@24@32Q40"
+- "{vector<float __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>>=\"__begin_\"^\"__end_\"^\"__end_cap_\"{__compressed_pair<float * __attribute__((ext_vector_type(4))), std::allocator<float __attribute__((ext_vector_type(4)))>>=\"__value_\"^}}"
+- "{vector<float, std::allocator<float>>=\"__begin_\"^f\"__end_\"^f\"__end_cap_\"{__compressed_pair<float *, std::allocator<float>>=\"__value_\"^f}}"
+- "{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}}16@0:8"
+- "{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}}24@0:8@16"
+- "{vector<float, std::allocator<float>>=^f^f{__compressed_pair<float *, std::allocator<float>>=^f}}40@0:8r^v16r^{CGVector=dd}24r^{CGPoint=dd}32"
+- "{vector<long, std::allocator<long>>=^q^q{__compressed_pair<long *, std::allocator<long>>=^q}}16@0:8"
+- "{vector<std::map<long, long>, std::allocator<std::map<long, long>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::map<long, long> *, std::allocator<std::map<long, long>>>=\"__value_\"^v}}"
+- "{vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::vector<CGPoint> *, std::allocator<std::vector<CGPoint>>>=\"__value_\"^v}}"
+- "{vector<std::vector<CGPoint>, std::allocator<std::vector<CGPoint>>>=^v^v{__compressed_pair<std::vector<CGPoint> *, std::allocator<std::vector<CGPoint>>>=^v}}16@0:8"
+- "{vector<std::vector<std::unordered_map<int, int>>, std::allocator<std::vector<std::unordered_map<int, int>>>>=^v^v{__compressed_pair<std::vector<std::unordered_map<int, int>> *, std::allocator<std::vector<std::unordered_map<int, int>>>>=^v}}24@0:8r^v16"
+- "{vector<unsigned long, std::allocator<unsigned long>>=\"__begin_\"^Q\"__end_\"^Q\"__end_cap_\"{__compressed_pair<unsigned long *, std::allocator<unsigned long>>=\"__value_\"^Q}}"
+- "}\n"
+- "\xf01"
+- "\xf0u"
+
+```

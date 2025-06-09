@@ -1,0 +1,197 @@
+## UIIntelligenceSupport
+
+> `/System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport`
+
+```diff
+
+-8501.0.0.0.0
+-  __TEXT.__text: 0xfe7dc
+-  __TEXT.__auth_stubs: 0x2170
++9067.0.0.0.0
++  __TEXT.__text: 0xfbce0
++  __TEXT.__auth_stubs: 0x21b0
+   __TEXT.__objc_methlist: 0x1bc
+-  __TEXT.__const: 0x138d4
+-  __TEXT.__cstring: 0x34d9
+-  __TEXT.__swift5_typeref: 0x4094
+-  __TEXT.__swift5_reflstr: 0x1f53
++  __TEXT.__const: 0x140b4
++  __TEXT.__cstring: 0x3529
++  __TEXT.__swift5_typeref: 0x4286
++  __TEXT.__swift5_reflstr: 0x2023
+   __TEXT.__swift5_assocty: 0x4e0
+-  __TEXT.__constg_swiftt: 0x303c
+-  __TEXT.__swift5_fieldmd: 0x3c50
++  __TEXT.__constg_swiftt: 0x3158
++  __TEXT.__swift5_fieldmd: 0x3de4
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_proto: 0x11f8
+-  __TEXT.__swift5_types: 0x538
+-  __TEXT.__swift5_capture: 0x1e4
++  __TEXT.__swift5_proto: 0x1278
++  __TEXT.__swift5_types: 0x558
++  __TEXT.__swift5_capture: 0x208
+   __TEXT.__swift_as_entry: 0x44
+   __TEXT.__swift_as_ret: 0x30
+   __TEXT.__oslogstring: 0xcc3
+   __TEXT.__swift5_protos: 0x28
+   __TEXT.__swift5_mpenum: 0x12c
+-  __TEXT.__unwind_info: 0x4050
++  __TEXT.__unwind_info: 0x4018
+   __TEXT.__eh_frame: 0x42e0
+   __TEXT.__objc_classname: 0x4d
+   __TEXT.__objc_methname: 0x462
+   __TEXT.__objc_methtype: 0xeb
+   __TEXT.__objc_stubs: 0x20
+-  __DATA_CONST.__got: 0x570
+-  __DATA_CONST.__const: 0x798
++  __DATA_CONST.__got: 0x578
++  __DATA_CONST.__const: 0x7e0
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1b8
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __AUTH_CONST.__auth_got: 0x10c0
+-  __AUTH_CONST.__const: 0x8ea8
++  __AUTH_CONST.__auth_got: 0x10e0
++  __AUTH_CONST.__const: 0x91f8
+   __AUTH_CONST.__objc_const: 0xd78
+   __AUTH.__objc_data: 0x48
+-  __AUTH.__data: 0x810
+-  __DATA.__data: 0x2db8
+-  __DATA.__bss: 0x1ccf0
++  __AUTH.__data: 0x8c0
++  __DATA.__data: 0x2c20
++  __DATA.__bss: 0x1cb70
+   __DATA_DIRTY.__objc_data: 0x1b0
+-  __DATA_DIRTY.__data: 0x1b40
+-  __DATA_DIRTY.__bss: 0x6c80
++  __DATA_DIRTY.__data: 0x1dd8
++  __DATA_DIRTY.__bss: 0x7e00
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: D0127B0B-93CB-3089-BA25-1F2245BE4D7B
+-  Functions: 6267
+-  Symbols:   2231
+-  CStrings:  496
++  - /usr/lib/swift/libswiftsimd.dylib
++  - /usr/lib/swift/libswiftsys_time.dylib
++  UUID: 6B66AFF9-DD43-31FC-AD5D-9B0A7F291C8F
++  Functions: 6341
++  Symbols:   2274
++  CStrings:  500
+ 
+Symbols:
++ ___swift_memcpy123_8
++ ___swift_memcpy143_8
++ ___unnamed_4
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_UIIntelligenceSupport
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_UIIntelligenceSupport
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_UIIntelligenceSupport
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_UIIntelligenceSupport
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17EnabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17EnabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17UnknownCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17UnknownCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO18DisabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO18DisabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementOSHAASQ
++ _associated conformance 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLOSHAASQ
++ _associated conformance 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21UIIntelligenceSupport28IntelligenceInteractionTokenVSHAASQ
++ _associated conformance 21UIIntelligenceSupport33IntelligenceSnapshotConfigurationV0D6TargetV7StorageO16ScreenCodingKeys33_146C40BE03E197BD74DEC91F495C1525LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21UIIntelligenceSupport33IntelligenceSnapshotConfigurationV0D6TargetV7StorageO16ScreenCodingKeys33_146C40BE03E197BD74DEC91F495C1525LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.18
++ _block_copy_helper.25
++ _block_copy_helper.44
++ _block_descriptor.20
++ _block_descriptor.27
++ _block_descriptor.46
++ _block_destroy_helper.19
++ _block_destroy_helper.26
++ _block_destroy_helper.45
++ _get_witness_table SzRzlSiSzHPyHC.1
++ _objc_retain_x9
++ _swift_coroFrameAlloc
++ _symbolic SS_So8NSNumberCt
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17EnabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17UnknownCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____ 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO18DisabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____ 21UIIntelligenceSupport28IntelligenceInteractionTokenV
++ _symbolic _____ 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLO
++ _symbolic _____ 21UIIntelligenceSupport33IntelligenceSnapshotConfigurationV0D6TargetV7StorageO16ScreenCodingKeys33_146C40BE03E197BD74DEC91F495C1525LLO
++ _symbolic _____3key______5valuet 21UIIntelligenceSupport17IntelligenceImageV14RepresentationV AA0C4FileC
++ _symbolic _____Sg 21UIIntelligenceSupport33IntelligenceCollectionCoordinatorC0D5State33_FF8861DF74D0FA4DA8FE8ED46763B145LLV
++ _symbolic _____Sg So6CGRectV
++ _symbolic _____Sg_ABt 21UIIntelligenceSupport19IntelligenceElementV
++ _symbolic _____Sg_ABt 21UIIntelligenceSupport23IntelligenceProcessInfoV
++ _symbolic ______AAt 21UIIntelligenceSupport29IntelligenceFragmentCollectorC15InternalContext33_DD0036404FE3A0865E1D5B22045EDF99LLO
++ _symbolic ___________Sgt So11CFStringRefa So06CFNullB0a
++ _symbolic ___________t 21UIIntelligenceSupport17IntelligenceImageV14RepresentationV AA0C4FileC
++ _symbolic ___________t So11CFStringRefa s5Int32V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17EnabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17UnknownCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO18DisabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21UIIntelligenceSupport33IntelligenceSnapshotConfigurationV0G6TargetV7StorageO16ScreenCodingKeys33_146C40BE03E197BD74DEC91F495C1525LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO10CodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17EnabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO17UnknownCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport19IntelligenceElementV17ControlEnablementO18DisabledCodingKeys33_EDAFEE6A556CA8896BFB7CD9A424015DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport28IntelligenceInteractionTokenV10CodingKeys33_3BF1A3F7F33D80561E82B9BDCCE8F362LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21UIIntelligenceSupport33IntelligenceSnapshotConfigurationV0G6TargetV7StorageO16ScreenCodingKeys33_146C40BE03E197BD74DEC91F495C1525LLO
++ _symbolic _____y______SgGSg 21UIIntelligenceSupport0A16ElementCollectorC16CollectionResult33_604FC214A75006EEFDF7837A27102DDBLLV AA012IntelligenceC0V
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 21UIIntelligenceSupport17IntelligenceImageV AC0dE9ProcessorV0E15ProcessingErrorO
++ _symbolic _____y__________GIegn_ s6ResultOsRi_zRi0_zrlE 21UIIntelligenceSupport17IntelligenceImageV AC0dE9ProcessorV0E15ProcessingErrorO
++ _type_layout_string 21UIIntelligenceSupport28IntelligenceInteractionTokenV
+- ___swift_memcpy122_8
+- ___swift_memcpy141_8
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_UIIntelligenceSupport
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_UIIntelligenceSupport
+- _block_copy_helper.17
+- _block_copy_helper.24
+- _block_descriptor.19
+- _block_descriptor.26
+- _block_destroy_helper.18
+- _block_destroy_helper.25
+- _get_witness_table SzRzlSiSzHPyHC.10
+- _objc_release_x28
+- _symbolic _____y__________G s6ResultOsRi_zrlE 21UIIntelligenceSupport17IntelligenceImageV AC0dE9ProcessorV0E15ProcessingErrorO
+- _symbolic _____y__________GIegn_ s6ResultOsRi_zrlE 21UIIntelligenceSupport17IntelligenceImageV AC0dE9ProcessorV0E15ProcessingErrorO
+- _type_layout_string 21UIIntelligenceSupport19IntelligenceElementV6ScreenV7Storage33_70C8405B53C444649CC8A84FD41EEB12LLV
+CStrings:
++ "IntelligenceInteractionToken("
++ "enablement"
++ "pixelBounds"
++ "scale"
+
+```

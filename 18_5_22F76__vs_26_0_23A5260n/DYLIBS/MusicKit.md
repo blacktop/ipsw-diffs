@@ -1,0 +1,1324 @@
+## MusicKit
+
+> `/System/Library/Frameworks/MusicKit.framework/MusicKit`
+
+```diff
+
+-4024.600.4.0.0
+-  __TEXT.__text: 0x4ef0d8
+-  __TEXT.__auth_stubs: 0x2e90
+-  __TEXT.__objc_methlist: 0x2024
+-  __TEXT.__const: 0x43e14
+-  __TEXT.__gcc_except_tab: 0x1e2c
+-  __TEXT.__cstring: 0x10cb7
++4025.100.63.0.0
++  __TEXT.__text: 0x4fe038
++  __TEXT.__auth_stubs: 0x2ea0
++  __TEXT.__objc_methlist: 0x206c
++  __TEXT.__const: 0x470e4
++  __TEXT.__gcc_except_tab: 0x1fc4
++  __TEXT.__cstring: 0x11837
+   __TEXT.__dlopen_cstrs: 0xa7a
+-  __TEXT.__oslogstring: 0x1489
+-  __TEXT.__swift5_typeref: 0x10234
+-  __TEXT.__swift5_reflstr: 0xa929
+-  __TEXT.__swift5_assocty: 0x2d38
+-  __TEXT.__constg_swiftt: 0xae10
++  __TEXT.__oslogstring: 0x11e3
++  __TEXT.__swift5_typeref: 0x1099a
++  __TEXT.__swift5_reflstr: 0xb1e9
++  __TEXT.__swift5_assocty: 0x2e28
++  __TEXT.__constg_swiftt: 0xb2f4
+   __TEXT.__swift5_builtin: 0x320
+-  __TEXT.__swift5_fieldmd: 0xd154
+-  __TEXT.__swift5_capture: 0x3878
+-  __TEXT.__swift5_proto: 0x3dbc
+-  __TEXT.__swift5_types: 0xe08
+-  __TEXT.__swift_as_entry: 0xac8
+-  __TEXT.__swift_as_ret: 0xe98
++  __TEXT.__swift5_fieldmd: 0xd8a4
++  __TEXT.__swift5_capture: 0x490c
++  __TEXT.__swift5_proto: 0x3fd4
++  __TEXT.__swift5_types: 0xe8c
++  __TEXT.__swift_as_entry: 0xac0
++  __TEXT.__swift_as_ret: 0xe90
+   __TEXT.__swift5_protos: 0x1dc
+   __TEXT.__swift5_mpenum: 0x1dc
+-  __TEXT.__unwind_info: 0x164e0
+-  __TEXT.__eh_frame: 0x24df0
+-  __TEXT.__objc_classname: 0xb75
+-  __TEXT.__objc_methname: 0x6998
+-  __TEXT.__objc_methtype: 0xebd
+-  __TEXT.__objc_stubs: 0x41a0
+-  __DATA_CONST.__got: 0x930
+-  __DATA_CONST.__const: 0x1558
+-  __DATA_CONST.__objc_classlist: 0x2f0
++  __TEXT.__lldbsummaries: 0x34
++  __TEXT.__unwind_info: 0x15e18
++  __TEXT.__eh_frame: 0x25800
++  __TEXT.__objc_classname: 0xba0
++  __TEXT.__objc_methname: 0x6a33
++  __TEXT.__objc_methtype: 0xec2
++  __TEXT.__objc_stubs: 0x4240
++  __DATA_CONST.__got: 0x928
++  __DATA_CONST.__const: 0x1560
++  __DATA_CONST.__objc_classlist: 0x2f8
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1950
++  __DATA_CONST.__objc_selrefs: 0x1988
+   __DATA_CONST.__objc_protorefs: 0x28
+-  __DATA_CONST.__objc_superrefs: 0x150
++  __DATA_CONST.__objc_superrefs: 0x158
+   __DATA_CONST.__objc_arraydata: 0x168
+-  __AUTH_CONST.__auth_got: 0x1758
+-  __AUTH_CONST.__const: 0x253f8
+-  __AUTH_CONST.__cfstring: 0xc40
+-  __AUTH_CONST.__objc_const: 0x6a30
++  __AUTH_CONST.__auth_got: 0x1760
++  __AUTH_CONST.__const: 0x26058
++  __AUTH_CONST.__cfstring: 0xc80
++  __AUTH_CONST.__objc_const: 0x6ad0
+   __AUTH_CONST.__objc_doubleobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x108
+   __AUTH_CONST.__objc_intobj: 0x78
+-  __AUTH.__data: 0x158
++  __AUTH.__objc_data: 0x6e8
++  __AUTH.__data: 0x39a8
+   __DATA.__objc_ivar: 0x154
+-  __DATA.__data: 0xa700
+-  __DATA.__bss: 0x5a440
+-  __DATA.__common: 0x110
+-  __DATA_DIRTY.__objc_data: 0x1380
+-  __DATA_DIRTY.__data: 0xdb78
+-  __DATA_DIRTY.__bss: 0x13468
+-  __DATA_DIRTY.__common: 0x998
++  __DATA.__data: 0x9648
++  __DATA.__bss: 0x5d470
++  __DATA.__common: 0x130
++  __DATA_DIRTY.__objc_data: 0xce8
++  __DATA_DIRTY.__data: 0xaa41
++  __DATA_DIRTY.__bss: 0x14460
++  __DATA_DIRTY.__common: 0xa20
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F7EE9FDD-48DE-35EE-AD7E-654266AB4DA6
+-  Functions: 38231
+-  Symbols:   33780
+-  CStrings:  3074
++  UUID: 782FF008-803D-3B0C-8E98-D3A2B474B3E2
++  Functions: 39089
++  Symbols:   33790
++  CStrings:  3140
+ 
+Symbols:
++ +[MusicKit_SoftLinking_MPModelKind _defaultPinKind]
++ +[MusicKit_SoftLinking_MPModelRequest _albumSupportedProperties].cold.21
++ +[MusicKit_SoftLinking_MPModelRequest _albumSupportedProperties].cold.22
++ +[MusicKit_SoftLinking_MPModelRequest _artistSupportedProperties].cold.3
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties]
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.1
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.2
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.3
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.4
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.5
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.6
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.7
++ +[MusicKit_SoftLinking_MPModelRequest _pinSupportedProperties].cold.8
++ +[MusicKit_SoftLinking_MPModelRequest _playlistSupportedProperties].cold.33
++ +[MusicKit_SoftLinking_MPModelRequest _playlistSupportedProperties].cold.34
++ +[MusicKit_SoftLinking_MPModelRequest _playlistSupportedProperties].cold.35
++ +[MusicKit_SoftLinking_MPModelRequest _playlistSupportedProperties].cold.36
++ +[MusicKit_SoftLinking_MPModelRequest _songSupportedProperties].cold.17
++ +[NSObject(StorageDictionaryProvider) _musicKit_modelObjectStorageDictionaryForPin:]
++ -[MusicKit_SoftLinking_MPMediaLibrary databasePath]
++ -[MusicKit_SoftLinking_MPModelLibraryPinKind init]
++ -[MusicKit_SoftLinking_MPModelLibraryRequest initWithLegacyModelObject:itemType:properties:relationships:mediaLibrary:]
++ GCC_except_table113
++ GCC_except_table114
++ GCC_except_table127
++ GCC_except_table134
++ GCC_except_table136
++ GCC_except_table137
++ GCC_except_table138
++ GCC_except_table139
++ GCC_except_table141
++ GCC_except_table33
++ GCC_except_table58
++ GCC_except_table68
++ GCC_except_table78
++ GCC_except_table79
++ _OBJC_CLASS_$_MusicKit_SoftLinking_MPModelLibraryPinKind
++ _OBJC_METACLASS_$_MusicKit_SoftLinking_MPModelLibraryPinKind
++ _OUTLINED_FUNCTION_1249
++ _OUTLINED_FUNCTION_1250
++ _OUTLINED_FUNCTION_1251
++ _OUTLINED_FUNCTION_1252
++ _OUTLINED_FUNCTION_1253
++ _OUTLINED_FUNCTION_1254
++ _OUTLINED_FUNCTION_1255
++ _OUTLINED_FUNCTION_1256
++ _OUTLINED_FUNCTION_1257
++ _OUTLINED_FUNCTION_1258
++ _OUTLINED_FUNCTION_1259
++ _OUTLINED_FUNCTION_1260
++ _OUTLINED_FUNCTION_1261
++ _OUTLINED_FUNCTION_1262
++ _OUTLINED_FUNCTION_1263
++ _OUTLINED_FUNCTION_1264
++ _OUTLINED_FUNCTION_1265
++ _OUTLINED_FUNCTION_1266
++ _OUTLINED_FUNCTION_1267
++ _OUTLINED_FUNCTION_1268
++ _OUTLINED_FUNCTION_1269
++ _OUTLINED_FUNCTION_1270
++ _OUTLINED_FUNCTION_1271
++ _OUTLINED_FUNCTION_1272
++ _OUTLINED_FUNCTION_1273
++ _OUTLINED_FUNCTION_1274
++ _OUTLINED_FUNCTION_1275
++ _OUTLINED_FUNCTION_1276
++ _OUTLINED_FUNCTION_1277
++ _OUTLINED_FUNCTION_1278
++ _OUTLINED_FUNCTION_1279
++ _OUTLINED_FUNCTION_1280
++ _OUTLINED_FUNCTION_1281
++ _OUTLINED_FUNCTION_1282
++ _OUTLINED_FUNCTION_1283
++ _OUTLINED_FUNCTION_1284
++ _OUTLINED_FUNCTION_1285
++ _OUTLINED_FUNCTION_1286
++ _OUTLINED_FUNCTION_1287
++ _OUTLINED_FUNCTION_1288
++ _OUTLINED_FUNCTION_1289
++ _OUTLINED_FUNCTION_1290
++ _OUTLINED_FUNCTION_1291
++ _OUTLINED_FUNCTION_1292
++ _OUTLINED_FUNCTION_1293
++ _OUTLINED_FUNCTION_1294
++ _OUTLINED_FUNCTION_1295
++ _OUTLINED_FUNCTION_1296
++ _OUTLINED_FUNCTION_1297
++ _OUTLINED_FUNCTION_1298
++ _OUTLINED_FUNCTION_1299
++ _OUTLINED_FUNCTION_1300
++ _OUTLINED_FUNCTION_1301
++ _OUTLINED_FUNCTION_1302
++ _OUTLINED_FUNCTION_1303
++ _OUTLINED_FUNCTION_1304
++ _OUTLINED_FUNCTION_1305
++ _OUTLINED_FUNCTION_1306
++ _OUTLINED_FUNCTION_1307
++ _OUTLINED_FUNCTION_1308
++ _OUTLINED_FUNCTION_1309
++ _OUTLINED_FUNCTION_1310
++ _OUTLINED_FUNCTION_1311
++ _OUTLINED_FUNCTION_1312
++ _OUTLINED_FUNCTION_1313
++ _OUTLINED_FUNCTION_1314
++ _OUTLINED_FUNCTION_1315
++ _OUTLINED_FUNCTION_1316
++ _OUTLINED_FUNCTION_1317
++ _OUTLINED_FUNCTION_1318
++ _OUTLINED_FUNCTION_1319
++ _OUTLINED_FUNCTION_1320
++ _OUTLINED_FUNCTION_1321
++ _OUTLINED_FUNCTION_1322
++ _OUTLINED_FUNCTION_1323
++ _OUTLINED_FUNCTION_1324
++ _OUTLINED_FUNCTION_1325
++ _OUTLINED_FUNCTION_1326
++ _OUTLINED_FUNCTION_1327
++ _OUTLINED_FUNCTION_1328
++ _OUTLINED_FUNCTION_1329
++ _OUTLINED_FUNCTION_1330
++ _OUTLINED_FUNCTION_1331
++ _OUTLINED_FUNCTION_1332
++ _OUTLINED_FUNCTION_1333
++ _OUTLINED_FUNCTION_1334
++ _OUTLINED_FUNCTION_1335
++ _OUTLINED_FUNCTION_1336
++ _OUTLINED_FUNCTION_1337
++ _OUTLINED_FUNCTION_1338
++ _OUTLINED_FUNCTION_1339
++ _OUTLINED_FUNCTION_1340
++ _OUTLINED_FUNCTION_1341
++ _OUTLINED_FUNCTION_1342
++ _OUTLINED_FUNCTION_1343
++ _OUTLINED_FUNCTION_1344
++ _OUTLINED_FUNCTION_1345
++ _OUTLINED_FUNCTION_1346
++ _OUTLINED_FUNCTION_1347
++ _OUTLINED_FUNCTION_1348
++ _OUTLINED_FUNCTION_1349
++ _OUTLINED_FUNCTION_1350
++ _OUTLINED_FUNCTION_1351
++ _OUTLINED_FUNCTION_1352
++ _OUTLINED_FUNCTION_1353
++ _OUTLINED_FUNCTION_1354
++ _OUTLINED_FUNCTION_1355
++ _OUTLINED_FUNCTION_1356
++ _OUTLINED_FUNCTION_1357
++ _OUTLINED_FUNCTION_1358
++ _OUTLINED_FUNCTION_1359
++ _OUTLINED_FUNCTION_1360
++ _OUTLINED_FUNCTION_1361
++ _OUTLINED_FUNCTION_1362
++ _OUTLINED_FUNCTION_1363
++ _OUTLINED_FUNCTION_1364
++ _OUTLINED_FUNCTION_1365
++ _OUTLINED_FUNCTION_1366
++ _OUTLINED_FUNCTION_1367
++ _OUTLINED_FUNCTION_1368
++ _OUTLINED_FUNCTION_1369
++ _OUTLINED_FUNCTION_1370
++ _OUTLINED_FUNCTION_1371
++ _OUTLINED_FUNCTION_1372
++ _OUTLINED_FUNCTION_1373
++ _OUTLINED_FUNCTION_1374
++ _OUTLINED_FUNCTION_1375
++ _OUTLINED_FUNCTION_1376
++ _OUTLINED_FUNCTION_1377
++ _OUTLINED_FUNCTION_1378
++ _OUTLINED_FUNCTION_1379
++ _OUTLINED_FUNCTION_1380
++ _OUTLINED_FUNCTION_1381
++ _OUTLINED_FUNCTION_1382
++ _OUTLINED_FUNCTION_1383
++ _OUTLINED_FUNCTION_1384
++ _OUTLINED_FUNCTION_1385
++ _OUTLINED_FUNCTION_1386
++ _OUTLINED_FUNCTION_1387
++ _OUTLINED_FUNCTION_1388
++ _OUTLINED_FUNCTION_1389
++ _OUTLINED_FUNCTION_1390
++ _OUTLINED_FUNCTION_1391
++ _OUTLINED_FUNCTION_1392
++ _OUTLINED_FUNCTION_1393
++ _OUTLINED_FUNCTION_1394
++ _OUTLINED_FUNCTION_1395
++ _OUTLINED_FUNCTION_1396
++ _OUTLINED_FUNCTION_1397
++ _OUTLINED_FUNCTION_1398
++ _OUTLINED_FUNCTION_1399
++ _OUTLINED_FUNCTION_1400
++ _OUTLINED_FUNCTION_1401
++ __OBJC_$_INSTANCE_METHODS_MusicKit_SoftLinking_MPModelLibraryPinKind
++ __OBJC_CLASS_RO_$_MusicKit_SoftLinking_MPModelLibraryPinKind
++ __OBJC_METACLASS_RO_$_MusicKit_SoftLinking_MPModelLibraryPinKind
++ ___getMPModelLibraryPinClass_block_invoke
++ ___getMPModelLibraryPinClass_block_invoke.cold.1
++ ___getMPModelLibraryPinKindClass_block_invoke
++ ___getMPModelLibraryPinKindClass_block_invoke.cold.1
++ ___getMPModelPropertyAlbumCleanDownloadedTrackCountSymbolLoc_block_invoke
++ ___getMPModelPropertyAlbumCleanSongCountSymbolLoc_block_invoke
++ ___getMPModelPropertyAlbumDownloadedTrackCountSymbolLoc_block_invoke
++ ___getMPModelPropertyAlbumIsPinnedSymbolLoc_block_invoke
++ ___getMPModelPropertyArtistCleanDownloadedSongCountSymbolLoc_block_invoke
++ ___getMPModelPropertyArtistCleanSongCountSymbolLoc_block_invoke
++ ___getMPModelPropertyArtistDownloadedSongCountSymbolLoc_block_invoke
++ ___getMPModelPropertyArtistIsPinnedSymbolLoc_block_invoke
++ ___getMPModelPropertyLibraryPinDefaultActionSymbolLoc_block_invoke
++ ___getMPModelPropertyLibraryPinEntityTypeSymbolLoc_block_invoke
++ ___getMPModelPropertyLibraryPinPositionSymbolLoc_block_invoke
++ ___getMPModelPropertyLibraryPinPositionUUIDSymbolLoc_block_invoke
++ ___getMPModelPropertyPlaylistDownloadedTrackCountSymbolLoc_block_invoke
++ ___getMPModelPropertyPlaylistHasAnyCleanDownloadedTracksSymbolLoc_block_invoke
++ ___getMPModelPropertyPlaylistHasAnyCleanTracksSymbolLoc_block_invoke
++ ___getMPModelPropertyPlaylistIsPinnedSymbolLoc_block_invoke
++ ___getMPModelPropertySongIsPinnedSymbolLoc_block_invoke
++ ___getMPModelRelationshipLibraryPinAlbumSymbolLoc_block_invoke
++ ___getMPModelRelationshipLibraryPinArtistSymbolLoc_block_invoke
++ ___getMPModelRelationshipLibraryPinPlaylistSymbolLoc_block_invoke
++ ___getMPModelRelationshipLibraryPinSongSymbolLoc_block_invoke
++ ___swift_coroFrameAllocStub
++ ___swift_memcpy1536_8
++ ___swift_memcpy193_8
++ ___swift_memcpy306_8
++ ___swift_memcpy792_8
++ ___swift_memcpy811_8
++ ___swift_memcpy9_1
++ ___unnamed_11
++ ___unnamed_15
++ ___unnamed_20
++ ___unnamed_21
++ ___unnamed_3
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_MusicKit
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_MusicKit
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_MusicKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_MusicKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_MusicKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_MusicKit
++ _associated conformance 8MusicKit0A12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLOSHAASQ
++ _associated conformance 8MusicKit0A12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit0A12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit11RelatedItemOyxGSHAASHRzrlSQ
++ _associated conformance 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicVSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10AttributesVSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV12AssociationsV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV12AssociationsV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV12AssociationsVSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysOSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 8MusicKit19CloudPlaylistFolderV13RelationshipsVSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderV8MetadataV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV8MetadataV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit19CloudPlaylistFolderV8MetadataVSHAASQ
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA12MetadataTypeAaDP_SE
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA12MetadataTypeAaDP_Se
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA14AttributesTypeAaDP_SE
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA14AttributesTypeAaDP_Se
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA16AssociationsTypeAaDP_SE
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA16AssociationsTypeAaDP_Se
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA17RelationshipsTypeAaDP_SE
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA17RelationshipsTypeAaDP_Se
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA25AssociationCodingKeysTypeAaDP_s0H3Key
++ _associated conformance 8MusicKit19CloudPlaylistFolderVAA0cA4ItemAA26RelationshipCodingKeysTypeAaDP_s0H3Key
++ _associated conformance 8MusicKit19CloudPlaylistFolderVSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10AttributesV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10AttributesV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10AttributesVSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO12AssociationsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO12AssociationsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO12AssociationsVSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO13RelationshipsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO13RelationshipsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO13RelationshipsVSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO8MetadataV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO8MetadataV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemO8MetadataVSHAASQ
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA12MetadataTypeAaDP_SE
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA12MetadataTypeAaDP_Se
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA14AttributesTypeAaDP_SE
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA14AttributesTypeAaDP_Se
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA16AssociationsTypeAaDP_SE
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA16AssociationsTypeAaDP_Se
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA17RelationshipsTypeAaDP_SE
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA17RelationshipsTypeAaDP_Se
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA25AssociationCodingKeysTypeAaDP_s0H3Key
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOAA0caF0AA26RelationshipCodingKeysTypeAaDP_s0H3Key
++ _associated conformance 8MusicKit23CloudPlaylistFolderItemOSHAASQ
++ _associated conformance 8MusicKit24LocalizedErrorPropertiesVSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesVSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsVSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsVSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataVSHAASQ
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA12MetadataTypeAaFP_SE
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA12MetadataTypeAaFP_Se
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA14AttributesTypeAaFP_SE
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA14AttributesTypeAaFP_Se
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA16AssociationsTypeAaFP_SE
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA16AssociationsTypeAaFP_Se
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA17RelationshipsTypeAaFP_SE
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA17RelationshipsTypeAaFP_Se
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA25AssociationCodingKeysTypeAaFP_s0I3Key
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOAA0cA4ItemAA26RelationshipCodingKeysTypeAaFP_s0I3Key
++ _associated conformance 8MusicKit27CloudPersonalRecommendationV7ContentOSHAASQ
++ _associated conformance 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLOSHAASQ
++ _associated conformance 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8MusicKit29CloudSpatialTimingInformationVSHAASQ
++ _block_copy_helper.106
++ _block_copy_helper.111
++ _block_copy_helper.1136
++ _block_copy_helper.1142
++ _block_copy_helper.1149
++ _block_copy_helper.1159
++ _block_copy_helper.1174
++ _block_copy_helper.121
++ _block_copy_helper.1210
++ _block_copy_helper.1220
++ _block_copy_helper.149
++ _block_copy_helper.159
++ _block_copy_helper.194
++ _block_copy_helper.197
++ _block_copy_helper.204
++ _block_copy_helper.207
++ _block_copy_helper.236
++ _block_copy_helper.246
++ _block_copy_helper.280
++ _block_copy_helper.288
++ _block_copy_helper.290
++ _block_copy_helper.298
++ _block_copy_helper.322
++ _block_copy_helper.332
++ _block_copy_helper.35
++ _block_copy_helper.364
++ _block_copy_helper.374
++ _block_copy_helper.38
++ _block_copy_helper.381
++ _block_copy_helper.391
++ _block_copy_helper.408
++ _block_copy_helper.418
++ _block_copy_helper.450
++ _block_copy_helper.460
++ _block_copy_helper.530
++ _block_copy_helper.532
++ _block_copy_helper.540
++ _block_copy_helper.542
++ _block_copy_helper.556
++ _block_copy_helper.566
++ _block_copy_helper.574
++ _block_copy_helper.583
++ _block_copy_helper.584
++ _block_copy_helper.593
++ _block_copy_helper.616
++ _block_copy_helper.626
++ _block_copy_helper.63
++ _block_copy_helper.650
++ _block_copy_helper.660
++ _block_copy_helper.676
++ _block_copy_helper.686
++ _block_copy_helper.694
++ _block_copy_helper.704
++ _block_copy_helper.71
++ _block_copy_helper.73
++ _block_copy_helper.77
++ _block_copy_helper.80
++ _block_copy_helper.832
++ _block_copy_helper.842
++ _block_copy_helper.85
++ _block_copy_helper.87
++ _block_copy_helper.96
++ _block_descriptor.108
++ _block_descriptor.113
++ _block_descriptor.1138
++ _block_descriptor.1144
++ _block_descriptor.1151
++ _block_descriptor.1161
++ _block_descriptor.1176
++ _block_descriptor.1212
++ _block_descriptor.1222
++ _block_descriptor.123
++ _block_descriptor.151
++ _block_descriptor.161
++ _block_descriptor.196
++ _block_descriptor.199
++ _block_descriptor.206
++ _block_descriptor.209
++ _block_descriptor.238
++ _block_descriptor.248
++ _block_descriptor.282
++ _block_descriptor.290
++ _block_descriptor.292
++ _block_descriptor.300
++ _block_descriptor.324
++ _block_descriptor.334
++ _block_descriptor.366
++ _block_descriptor.37
++ _block_descriptor.376
++ _block_descriptor.383
++ _block_descriptor.393
++ _block_descriptor.40
++ _block_descriptor.410
++ _block_descriptor.420
++ _block_descriptor.452
++ _block_descriptor.462
++ _block_descriptor.532
++ _block_descriptor.534
++ _block_descriptor.542
++ _block_descriptor.544
++ _block_descriptor.558
++ _block_descriptor.568
++ _block_descriptor.576
++ _block_descriptor.585
++ _block_descriptor.586
++ _block_descriptor.595
++ _block_descriptor.618
++ _block_descriptor.628
++ _block_descriptor.65
++ _block_descriptor.652
++ _block_descriptor.662
++ _block_descriptor.678
++ _block_descriptor.688
++ _block_descriptor.696
++ _block_descriptor.706
++ _block_descriptor.73
++ _block_descriptor.75
++ _block_descriptor.79
++ _block_descriptor.82
++ _block_descriptor.834
++ _block_descriptor.844
++ _block_descriptor.87
++ _block_descriptor.89
++ _block_descriptor.98
++ _block_destroy_helper.107
++ _block_destroy_helper.112
++ _block_destroy_helper.1137
++ _block_destroy_helper.1143
++ _block_destroy_helper.1150
++ _block_destroy_helper.1160
++ _block_destroy_helper.1175
++ _block_destroy_helper.1211
++ _block_destroy_helper.122
++ _block_destroy_helper.1221
++ _block_destroy_helper.150
++ _block_destroy_helper.160
++ _block_destroy_helper.195
++ _block_destroy_helper.198
++ _block_destroy_helper.205
++ _block_destroy_helper.208
++ _block_destroy_helper.237
++ _block_destroy_helper.247
++ _block_destroy_helper.281
++ _block_destroy_helper.289
++ _block_destroy_helper.291
++ _block_destroy_helper.299
++ _block_destroy_helper.323
++ _block_destroy_helper.333
++ _block_destroy_helper.36
++ _block_destroy_helper.365
++ _block_destroy_helper.375
++ _block_destroy_helper.382
++ _block_destroy_helper.39
++ _block_destroy_helper.392
++ _block_destroy_helper.409
++ _block_destroy_helper.419
++ _block_destroy_helper.451
++ _block_destroy_helper.461
++ _block_destroy_helper.531
++ _block_destroy_helper.533
++ _block_destroy_helper.541
++ _block_destroy_helper.543
++ _block_destroy_helper.557
++ _block_destroy_helper.567
++ _block_destroy_helper.575
++ _block_destroy_helper.584
++ _block_destroy_helper.585
++ _block_destroy_helper.594
++ _block_destroy_helper.617
++ _block_destroy_helper.627
++ _block_destroy_helper.64
++ _block_destroy_helper.651
++ _block_destroy_helper.661
++ _block_destroy_helper.677
++ _block_destroy_helper.687
++ _block_destroy_helper.695
++ _block_destroy_helper.705
++ _block_destroy_helper.72
++ _block_destroy_helper.74
++ _block_destroy_helper.78
++ _block_destroy_helper.81
++ _block_destroy_helper.833
++ _block_destroy_helper.843
++ _block_destroy_helper.86
++ _block_destroy_helper.88
++ _block_destroy_helper.97
++ _getMPModelLibraryPinClass
++ _getMPModelLibraryPinClass.softClass
++ _getMPModelLibraryPinKindClass.softClass
++ _getMPModelPropertyAlbumCleanDownloadedTrackCount
++ _getMPModelPropertyAlbumCleanDownloadedTrackCount.cold.1
++ _getMPModelPropertyAlbumCleanDownloadedTrackCountSymbolLoc.ptr
++ _getMPModelPropertyAlbumCleanSongCount
++ _getMPModelPropertyAlbumCleanSongCount.cold.1
++ _getMPModelPropertyAlbumCleanSongCountSymbolLoc.ptr
++ _getMPModelPropertyAlbumDownloadedTrackCountSymbolLoc.ptr
++ _getMPModelPropertyAlbumIsPinnedSymbolLoc.ptr
++ _getMPModelPropertyArtistCleanDownloadedSongCount
++ _getMPModelPropertyArtistCleanDownloadedSongCount.cold.1
++ _getMPModelPropertyArtistCleanDownloadedSongCountSymbolLoc.ptr
++ _getMPModelPropertyArtistCleanSongCount
++ _getMPModelPropertyArtistCleanSongCount.cold.1
++ _getMPModelPropertyArtistCleanSongCountSymbolLoc.ptr
++ _getMPModelPropertyArtistDownloadedSongCount
++ _getMPModelPropertyArtistDownloadedSongCount.cold.1
++ _getMPModelPropertyArtistDownloadedSongCountSymbolLoc.ptr
++ _getMPModelPropertyArtistIsPinnedSymbolLoc.ptr
++ _getMPModelPropertyLibraryPinDefaultActionSymbolLoc.ptr
++ _getMPModelPropertyLibraryPinEntityTypeSymbolLoc.ptr
++ _getMPModelPropertyLibraryPinPositionSymbolLoc.ptr
++ _getMPModelPropertyLibraryPinPositionUUIDSymbolLoc.ptr
++ _getMPModelPropertyPlaylistDownloadedTrackCountSymbolLoc.ptr
++ _getMPModelPropertyPlaylistHasAnyCleanDownloadedTracksSymbolLoc.ptr
++ _getMPModelPropertyPlaylistHasAnyCleanTracksSymbolLoc.ptr
++ _getMPModelPropertyPlaylistIsPinnedSymbolLoc.ptr
++ _getMPModelPropertySongIsPinnedSymbolLoc.ptr
++ _getMPModelRelationshipLibraryPinAlbumSymbolLoc.ptr
++ _getMPModelRelationshipLibraryPinArtistSymbolLoc.ptr
++ _getMPModelRelationshipLibraryPinPlaylistSymbolLoc.ptr
++ _getMPModelRelationshipLibraryPinSongSymbolLoc.ptr
++ _get_enum_tag_for_layout_string 8MusicKit18CloudAudioAnalysisV0C18CompositeAttributeVy_AC0cfG8TonalityVGSg
++ _get_enum_tag_for_layout_string 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityVSg
++ _get_enum_tag_for_layout_string 8MusicKit19CloudPlaylistFolderV13RelationshipsVSg
++ _get_enum_tag_for_layout_string 8MusicKit23CloudResourceCollectionVyAA0cD0VyAA0C18PlaylistFolderItemOGGSg
++ _get_enum_tag_for_layout_string 8MusicKit23CloudResourceCollectionVyAA0cD0VyAA0C22PersonalRecommendationV7ContentOGGSg
++ _objc_msgSend$_defaultPinKind
++ _objc_msgSend$_musicKit_modelObjectStorageDictionaryForPin:
++ _objc_msgSend$_pinSupportedProperties
++ _objc_msgSend$databasePath
++ _objc_msgSend$pinnedEntityType
++ _objectdestroy.100Tm
++ _objectdestroy.11Tm
++ _objectdestroy.127Tm
++ _objectdestroy.233Tm
++ _objectdestroy.31Tm
++ _objectdestroy.36Tm
++ _objectdestroy.3Tm
++ _objectdestroy.40Tm
++ _objectdestroy.41Tm
++ _objectdestroy.421Tm
++ _objectdestroy.449Tm
++ _objectdestroy.58Tm
++ _objectdestroy.64Tm
++ _objectdestroy.6Tm
++ _objectdestroy.85Tm
++ _objectdestroy.9Tm
++ _swift_coroFrameAlloc
++ _symbolic G0R4_
++ _symbolic SDySSSDySS_____y_____GGG 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic SDySS_____y_____GG 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic SS3key______y_____G5valuet 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic SS3key______y_____G5valuetSg 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic SS______y_____Gt 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic SaySo56MusicKit_SoftLinking_MPModelLibraryRequestPropertyFilterCG
++ _symbolic Say_____G 8MusicKit18CloudAudioAnalysisV0C9TimeRangeV
++ _symbolic Say_____G 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysO
++ _symbolic Say_____GSg 8MusicKit18CloudAudioAnalysisV0C9TimeRangeV
++ _symbolic So32MusicKit_SoftLinking_MPModelKindC
++ _symbolic _____ 8MusicKit0A12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLO
++ _symbolic _____ 8MusicKit0A27LibraryRequestConfigurationV
++ _symbolic _____ 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV10AttributesV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV12AssociationsV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV12AssociationsV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV13RelationshipsV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysO
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV8MetadataV
++ _symbolic _____ 8MusicKit19CloudPlaylistFolderV8MetadataV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO10AttributesV
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO10AttributesV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO12AssociationsV
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO12AssociationsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO13RelationshipsV
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO13RelationshipsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO8MetadataV
++ _symbolic _____ 8MusicKit23CloudPlaylistFolderItemO8MetadataV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____ 8MusicKit24LocalizedErrorPropertiesV
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesV
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsV
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsV
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataV
++ _symbolic _____ 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____ 8MusicKit29CloudSpatialTimingInformationV
++ _symbolic _____ 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLO
++ _symbolic _____Sg 8MusicKit0A11DataRequestV5ErrorV
++ _symbolic _____Sg 8MusicKit0A27LibraryRequestConfigurationV
++ _symbolic _____Sg 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV
++ _symbolic _____Sg 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicV
++ _symbolic _____Sg 8MusicKit19CloudPlaylistFolderV12AssociationsV
++ _symbolic _____Sg 8MusicKit19CloudPlaylistFolderV13RelationshipsV
++ _symbolic _____Sg 8MusicKit19CloudPlaylistFolderV8MetadataV
++ _symbolic _____Sg So36MusicKit_SoftLinking_ModelObjectTypeV
++ _symbolic _____Sg_ABt 8MusicKit07CodableA13DeviceLocalIDV
++ _symbolic _____Sg_ABt 8MusicKit0A13DeviceLocalIDV
++ _symbolic _____Sg_ABt 8MusicKit0A13IdentifierSetV
++ _symbolic _____Sg_ABt 8MusicKit0A6PlayerC15QueueDescriptorV4ItemV
++ _symbolic _____Sg_ABt 8MusicKit12CloudArtworkV12TextGradientV
++ _symbolic _____Sg_ABt 8MusicKit14EditorialNotesV
++ _symbolic _____Sg_ABt 8MusicKit14PlayParametersV
++ _symbolic _____Sg_ABt 8MusicKit19CloudPlaylistFolderV13RelationshipsV
++ _symbolic _____Sg_ABt 8MusicKit23CloudCoverArtworkRecipeV
++ _symbolic _____Sg_ABt 8MusicKit23CloudCoverArtworkRecipeV16ColorInformationV
++ _symbolic _____Sg_ABt 8MusicKit27CloudResourceCustomMetadataV
++ _symbolic _____Sg_ABt 8MusicKit7ArtworkV
++ _symbolic _____Sg_ABt 8MusicKit7ArtworkV13_TextGradientV
++ _symbolic _____Sg_ABt 8MusicKit7ArtworkV5ColorV
++ _symbolic _____Sg_ABt 8MusicKit7ArtworkV9_GradientV
++ _symbolic ______AAt 8MusicKit23CloudPlaylistFolderItemO
++ _symbolic ______AAt 8MusicKit27CloudPersonalRecommendationV7ContentO
++ _symbolic _____ySSSDySS_____y_____GGG s17_NativeDictionaryV 8MusicKit13CloudResourceV AC0E22PersonalRecommendationV7ContentO
++ _symbolic _____ySSSg______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 8MusicKit13CloudResourceV AC0F22PersonalRecommendationV7ContentO
++ _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 8MusicKit13CloudResourceV AC0E22PersonalRecommendationV7ContentO
++ _symbolic _____y_____G 8MusicKit0A14LibraryRequestV AA0A5VideoV
++ _symbolic _____y_____G 8MusicKit0A14LibraryRequestV AA5AlbumV
++ _symbolic _____y_____G 8MusicKit0A14LibraryRequestV AA5TrackO
++ _symbolic _____y_____G 8MusicKit0A14LibraryRequestV AA8PlaylistV
++ _symbolic _____y_____G 8MusicKit0A14PredicateValueO AA0A13IdentifierSetV
++ _symbolic _____y_____G 8MusicKit13CloudResourceV AA0C14PlaylistFolderV
++ _symbolic _____y_____G 8MusicKit13CloudResourceV AA0C18PlaylistFolderItemO
++ _symbolic _____y_____G 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV7ContentO
++ _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C14PlayParametersV
++ _symbolic _____y_____G 8MusicKit14CloudAttributeV AA0C24SpatialTimingInformationV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit0D12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit23CloudPlaylistFolderItemO10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit27CloudPersonalRecommendationV7ContentO10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit0D12SubscriptionV10CodingKeys33_115214631AFE02CB608B500A108B30EDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudPlaylistFolderV10AttributesV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudPlaylistFolderV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudPlaylistFolderV12AssociationsV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudPlaylistFolderV13RelationshipsV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudPlaylistFolderV8MetadataV10CodingKeys33_6628F9752B9087D8C1CE05683EE39C9ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit23CloudPlaylistFolderItemO10AttributesV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit23CloudPlaylistFolderItemO12AssociationsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit23CloudPlaylistFolderItemO13RelationshipsV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit23CloudPlaylistFolderItemO8MetadataV10CodingKeys33_49653A93AC5F692090F5D2FEAD68B733LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit27CloudPersonalRecommendationV7ContentO10AttributesV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit27CloudPersonalRecommendationV7ContentO12AssociationsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit27CloudPersonalRecommendationV7ContentO13RelationshipsV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit27CloudPersonalRecommendationV7ContentO8MetadataV10CodingKeys33_19C8EACFCF5556C5C995756E7BB06945LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit29CloudSpatialTimingInformationV10CodingKeys33_2D79F6239B4F042B1BFC7C00A5D5E5D9LLO
++ _symbolic _____y_____GSg 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV
++ _symbolic _____y_____GSg 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
++ _symbolic _____y_____GSg 8MusicKit14CloudAttributeV AA0C24SpatialTimingInformationV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C12FlexAnalysisV0C13SampledValuesV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C14EditorialNotesV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C24SpatialTimingInformationV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C7ArtworkV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV AA0C7ArtworkV8GradientV
++ _symbolic _____y_____G_ACt 8MusicKit11RelatedItemO AA0A22PersonalRecommendationV
++ _symbolic _____y_____SbG 8MusicKit0A25ExtendedAttributePropertyC AA4SongV
++ _symbolic _____y_____SbG 8MusicKit0A25ExtendedAttributePropertyC AA6ArtistV
++ _symbolic _____y_____SiG 8MusicKit0A17AttributePropertyC AA8PlaylistV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA0A5VideoV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA0A6PlayerC5QueueC5EntryV4ItemO
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA11RecordLabelV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA4SongV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA5AlbumV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA5GenreV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA5TrackO
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA6ArtistV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA7CuratorV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA7StationV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA8PlaylistV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA8PlaylistV5EntryV
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA8PlaylistV5EntryV4ItemO
++ _symbolic _____y______G 8MusicKit0A22CatalogResourceRequestV13FilterContextV AA9RadioShowV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA0A5VideoV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA0A6PlayerC5QueueC5EntryV0F0O
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA11RecordLabelV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA4SongV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA5AlbumV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA5GenreV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA5TrackO
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA6ArtistV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA7CuratorV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA7StationV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA8PlaylistV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA8PlaylistV5EntryV
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA8PlaylistV5EntryV0F0O
++ _symbolic _____y______GSg 8MusicKit0A22CatalogResourceRequestV0A21ItemCacheLookupHelperV AA9RadioShowV
++ _symbolic _____y______GSg_ADt 8MusicKit18CloudAudioAnalysisV0C18CompositeAttributeV AC0cfG8TonalityV
++ _symbolic _____y__________G 8MusicKit0A17AttributePropertyC AA8PlaylistV AA0A13DeviceLocalIDV
++ _symbolic _____y__________G 8MusicKit0A23LibrarySectionedRequestV AA8PlaylistV AA5TrackO
++ _symbolic _____y__________G 8MusicKit0A23LibrarySectionedRequestV AA8PlaylistV AE5EntryV
++ _symbolic _____y__________G 8MusicKit37LibraryRequestConfigurationParametersC So0aB32_SoftLinking_MPModelSongVariantsV So0ab1_gh1_iJ7OptionsV
++ _symbolic _____y__________G 8MusicKit37LibraryRequestConfigurationParametersC So0aB33_SoftLinking_MPModelAlbumVariantsV So0ab1_gh1_iJ7OptionsV
++ _symbolic _____y__________G 8MusicKit37LibraryRequestConfigurationParametersC So0aB33_SoftLinking_MPModelEmptyVariantsV So0ab1_gh1_iJ7OptionsV
++ _symbolic _____y__________G 8MusicKit37LibraryRequestConfigurationParametersC So0aB36_SoftLinking_MPModelPlaylistVariantsV So0ab1_gh1_iJ7OptionsV
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 8MusicKit0B12SubscriptionV AE5ErrorO
++ _symbolic _____y__________y_____GG 8MusicKit0A25ExtendedAttributePropertyC AA4SongV AA05CloudD0V AA0G24SpatialTimingInformationV
++ _symbolic _____y______pG s14PartialKeyPathC 8MusicKit07LibraryD19VideoSortPropertiesP
++ _symbolic _____y______pG s14PartialKeyPathC 8MusicKit26LibraryAlbumSortPropertiesP
++ _symbolic _____y______pG s14PartialKeyPathC 8MusicKit26LibraryTrackSortPropertiesP
++ _symbolic _____y______pG s14PartialKeyPathC 8MusicKit29LibraryPlaylistSortPropertiesP
++ _symbolic _____y______pG s14PartialKeyPathC 8MusicKit34LibraryPlaylistEntrySortPropertiesP
++ _symbolic _____y______y__________GG 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorV s6ResultOsRi_zRi0_zrlE AC AC5ErrorO
++ _symbolic _____y_____y_____GG 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C14PlaylistFolderV
++ _symbolic _____y_____y_____GG 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C18PlaylistFolderItemO
++ _symbolic _____y_____y_____GG 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C22PersonalRecommendationV7ContentO
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 8MusicKit13CloudResourceV AC0F22PersonalRecommendationV7ContentO
++ _symbolic _____y_____y_____GGSg 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C14PlaylistFolderV
++ _symbolic _____y_____y_____GGSg 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C18PlaylistFolderItemO
++ _symbolic _____y_____y_____GGSg 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C22PersonalRecommendationV7ContentO
++ _symbolic _____y_____y_____GGSg_AFt 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C14PlaylistFolderV
++ _symbolic _____y_____y_____GGSg_AFt 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C18PlaylistFolderItemO
++ _symbolic _____y_____y_____GGSg_AFt 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C22PersonalRecommendationV7ContentO
++ _symbolic _____yxSo7NSErrorCGSg s6ResultOsRi_zRi0_zrlE
++ _type_layout_string 8MusicKit0A27LibraryRequestConfigurationV
++ _type_layout_string 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicV
++ _type_layout_string 8MusicKit19CloudPlaylistFolderV
++ _type_layout_string 8MusicKit19CloudPlaylistFolderV10AttributesV
++ _type_layout_string 8MusicKit19CloudPlaylistFolderV13RelationshipsV
++ _type_layout_string 8MusicKit24LocalizedErrorPropertiesV
++ _type_layout_string 8MusicKit29CloudSpatialTimingInformationV
+- +[MusicKit_SoftLinking_MPModelLibrarySearchScope _topResultsRelationshipKeyForSpecificModelObjectType:].cold.5
+- -[MusicKit_SoftLinking_MPModelLibraryRequest initWithLegacyModelObject:itemType:properties:relationships:]
+- GCC_except_table119
+- GCC_except_table120
+- GCC_except_table133
+- GCC_except_table40
+- GCC_except_table63
+- GCC_except_table80
+- GCC_except_table84
+- GCC_except_table85
+- _CFRetain
+- ___swift_memcpy2_1
+- ___swift_memcpy304_8
+- ___swift_memcpy715_8
+- ___swift_memcpy8_1
+- ___swift_project_boxed_opaque_existential_0Tm
+- ___unnamed_10
+- ___unnamed_18
+- ___unnamed_9
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_MusicKit
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_MusicKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_MusicKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_MusicKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_MusicKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_MusicKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_MusicKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_MusicKit
+- _associated conformance 8MusicKit11RelatedItemOyxGSHAASQ
+- _associated conformance 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicOSHAASQ
+- _associated conformance 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicOs12CaseIterableAA8AllCasessAHP_Sl
+- _associated conformance 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLOSHAASQ
+- _associated conformance 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit19CloudSpatialOffsetsVSHAASQ
+- _block_copy_helper.102
+- _block_copy_helper.1022
+- _block_copy_helper.1028
+- _block_copy_helper.1035
+- _block_copy_helper.1045
+- _block_copy_helper.1060
+- _block_copy_helper.1097
+- _block_copy_helper.1107
+- _block_copy_helper.113
+- _block_copy_helper.123
+- _block_copy_helper.146
+- _block_copy_helper.156
+- _block_copy_helper.177
+- _block_copy_helper.187
+- _block_copy_helper.189
+- _block_copy_helper.199
+- _block_copy_helper.215
+- _block_copy_helper.225
+- _block_copy_helper.244
+- _block_copy_helper.254
+- _block_copy_helper.267
+- _block_copy_helper.271
+- _block_copy_helper.277
+- _block_copy_helper.281
+- _block_copy_helper.302
+- _block_copy_helper.31
+- _block_copy_helper.312
+- _block_copy_helper.335
+- _block_copy_helper.34
+- _block_copy_helper.345
+- _block_copy_helper.355
+- _block_copy_helper.365
+- _block_copy_helper.366
+- _block_copy_helper.376
+- _block_copy_helper.400
+- _block_copy_helper.410
+- _block_copy_helper.431
+- _block_copy_helper.44
+- _block_copy_helper.441
+- _block_copy_helper.46
+- _block_copy_helper.47
+- _block_copy_helper.492
+- _block_copy_helper.502
+- _block_copy_helper.510
+- _block_copy_helper.520
+- _block_copy_helper.523
+- _block_copy_helper.533
+- _block_copy_helper.537
+- _block_copy_helper.547
+- _block_copy_helper.554
+- _block_copy_helper.56
+- _block_copy_helper.564
+- _block_copy_helper.57
+- _block_copy_helper.621
+- _block_copy_helper.631
+- _block_copy_helper.67
+- _block_copy_helper.69
+- _block_copy_helper.757
+- _block_copy_helper.76
+- _block_copy_helper.767
+- _block_copy_helper.81
+- _block_copy_helper.91
+- _block_copy_helper.92
+- _block_descriptor.1024
+- _block_descriptor.1030
+- _block_descriptor.1037
+- _block_descriptor.104
+- _block_descriptor.1047
+- _block_descriptor.1062
+- _block_descriptor.1099
+- _block_descriptor.1109
+- _block_descriptor.115
+- _block_descriptor.125
+- _block_descriptor.148
+- _block_descriptor.158
+- _block_descriptor.179
+- _block_descriptor.189
+- _block_descriptor.191
+- _block_descriptor.201
+- _block_descriptor.217
+- _block_descriptor.227
+- _block_descriptor.246
+- _block_descriptor.256
+- _block_descriptor.269
+- _block_descriptor.273
+- _block_descriptor.279
+- _block_descriptor.283
+- _block_descriptor.304
+- _block_descriptor.314
+- _block_descriptor.33
+- _block_descriptor.337
+- _block_descriptor.347
+- _block_descriptor.357
+- _block_descriptor.36
+- _block_descriptor.367
+- _block_descriptor.368
+- _block_descriptor.378
+- _block_descriptor.402
+- _block_descriptor.412
+- _block_descriptor.433
+- _block_descriptor.443
+- _block_descriptor.46
+- _block_descriptor.48
+- _block_descriptor.49
+- _block_descriptor.494
+- _block_descriptor.504
+- _block_descriptor.512
+- _block_descriptor.522
+- _block_descriptor.525
+- _block_descriptor.535
+- _block_descriptor.539
+- _block_descriptor.549
+- _block_descriptor.556
+- _block_descriptor.566
+- _block_descriptor.58
+- _block_descriptor.59
+- _block_descriptor.623
+- _block_descriptor.633
+- _block_descriptor.69
+- _block_descriptor.71
+- _block_descriptor.759
+- _block_descriptor.769
+- _block_descriptor.78
+- _block_descriptor.83
+- _block_descriptor.93
+- _block_descriptor.94
+- _block_destroy_helper.1023
+- _block_destroy_helper.1029
+- _block_destroy_helper.103
+- _block_destroy_helper.1036
+- _block_destroy_helper.1046
+- _block_destroy_helper.1061
+- _block_destroy_helper.1098
+- _block_destroy_helper.1108
+- _block_destroy_helper.114
+- _block_destroy_helper.124
+- _block_destroy_helper.147
+- _block_destroy_helper.157
+- _block_destroy_helper.178
+- _block_destroy_helper.188
+- _block_destroy_helper.190
+- _block_destroy_helper.200
+- _block_destroy_helper.216
+- _block_destroy_helper.226
+- _block_destroy_helper.245
+- _block_destroy_helper.255
+- _block_destroy_helper.268
+- _block_destroy_helper.272
+- _block_destroy_helper.278
+- _block_destroy_helper.282
+- _block_destroy_helper.303
+- _block_destroy_helper.313
+- _block_destroy_helper.32
+- _block_destroy_helper.336
+- _block_destroy_helper.346
+- _block_destroy_helper.35
+- _block_destroy_helper.356
+- _block_destroy_helper.366
+- _block_destroy_helper.367
+- _block_destroy_helper.377
+- _block_destroy_helper.401
+- _block_destroy_helper.411
+- _block_destroy_helper.432
+- _block_destroy_helper.442
+- _block_destroy_helper.45
+- _block_destroy_helper.47
+- _block_destroy_helper.48
+- _block_destroy_helper.493
+- _block_destroy_helper.503
+- _block_destroy_helper.511
+- _block_destroy_helper.521
+- _block_destroy_helper.524
+- _block_destroy_helper.534
+- _block_destroy_helper.538
+- _block_destroy_helper.548
+- _block_destroy_helper.555
+- _block_destroy_helper.565
+- _block_destroy_helper.57
+- _block_destroy_helper.58
+- _block_destroy_helper.622
+- _block_destroy_helper.632
+- _block_destroy_helper.68
+- _block_destroy_helper.70
+- _block_destroy_helper.758
+- _block_destroy_helper.768
+- _block_destroy_helper.77
+- _block_destroy_helper.82
+- _block_destroy_helper.92
+- _block_destroy_helper.93
+- _dynamic_cast_existential_1_unconditional
+- _get_enum_tag_for_layout_string 8MusicKit19CloudSpatialOffsetsVSg
+- _get_enum_tag_for_layout_string 8MusicKit23CloudResourceCollectionVyAA0cD0VyAA0C22PersonalRecommendationV4ItemOGGSg
+- _objectdestroy.129Tm
+- _objectdestroy.13Tm
+- _objectdestroy.27Tm
+- _objectdestroy.29Tm
+- _objectdestroy.33Tm
+- _objectdestroy.415Tm
+- _objectdestroy.424Tm
+- _objectdestroy.60Tm
+- _objectdestroy.62Tm
+- _objectdestroy.81Tm
+- _objectdestroy.96Tm
+- _symbolic SDySSSDySS_____y_____GGG 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
+- _symbolic SDySS_____y_____GG 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
+- _symbolic SS3key______y_____G5valuet 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
+- _symbolic SS3key______y_____G5valuetSg 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
+- _symbolic SS______y_____Gt 8MusicKit13CloudResourceV AA0C22PersonalRecommendationV4ItemO
+- _symbolic SaySsG
+- _symbolic Say_____G 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicO
+- _symbolic Say_____y_____GG 8MusicKit07PartialA8PropertyC AA4SongV
+- _symbolic Si6offset_Say_____G7elementt 8MusicKit26BatchNotificationCoalescerC8ObserverC
+- _symbolic Si6offset______7elementt 8MusicKit26BatchNotificationCoalescerC8ObserverC
+- _symbolic So27ICCloudServiceStatusMonitorC
+- _symbolic _____ 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicO
+- _symbolic _____ 8MusicKit19CloudSpatialOffsetsV
+- _symbolic _____ 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLO
+- _symbolic _____ SS5IndexV
+- _symbolic _____3key_yp5valuet 8MusicKit0A6LyricsV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit11RecordLabelV011LegacyModelcD11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit12CatalogAssetV016LegacyModelStoreD11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit16HomeSharingAssetV011LegacyModelcdE11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit4SongV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit5AlbumV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit5GenreV017SimpleLegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit6ArtistV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit7CuratorV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit7StationV016LegacyModelRadioC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit8PlaylistV011LegacyModelC11PropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit8PlaylistV5EntryV011LegacyModelcD15ItemPropertyKeyO
+- _symbolic _____3key_yp5valuet 8MusicKit9FileAssetV011LegacyModelcD11PropertyKeyO
+- _symbolic _____Sg 8MusicKit18CloudAudioAnalysisV0C26CompositeAttributeTonalityV0C5TonicO
+- _symbolic _____Sg 8MusicKit19CloudSpatialOffsetsV
+- _symbolic _____ySSSDySS_____y_____GGG s17_NativeDictionaryV 8MusicKit13CloudResourceV AC0E22PersonalRecommendationV4ItemO
+- _symbolic _____ySSSg______pGSg s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____ySS______y_____GtG s23_ContiguousArrayStorageC 8MusicKit13CloudResourceV AC0F22PersonalRecommendationV4ItemO
+- _symbolic _____ySS_____y_____GG s17_NativeDictionaryV 8MusicKit13CloudResourceV AC0E22PersonalRecommendationV4ItemO
+- _symbolic _____ySi6offset_Say_____G7elementtG s23_ContiguousArrayStorageC 8MusicKit26BatchNotificationCoalescerC8ObserverC
+- _symbolic _____ySi6offset______7elementtG s23_ContiguousArrayStorageC 8MusicKit26BatchNotificationCoalescerC8ObserverC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit19CloudSpatialOffsetsV10CodingKeys33_7C83BE05CC4DAD10D8F1FEF0B40DAE35LLO
+- _symbolic _____y__________G 8MusicKit0A25ExtendedAttributePropertyC AA4SongV AA19CloudSpatialOffsetsV
+- _symbolic _____y__________G s6ResultOsRi_zrlE 8MusicKit0B12SubscriptionV AE5ErrorO
+- _symbolic _____y______y__________GG 8MusicKit0A12SubscriptionV22GenericUpdatesIteratorV s6ResultOsRi_zrlE AC AC5ErrorO
+- _symbolic _____y_____y_____GGSg_AFt 8MusicKit23CloudResourceCollectionV AA0cD0V AA0C22PersonalRecommendationV4ItemO
+- _symbolic _____y_____y_____G_G s18EnumeratedSequenceV8IteratorV 8MusicKit0D14ItemCollectionV AE5TrackO
+- _symbolic _____yxSo7NSErrorCGSg s6ResultOsRi_zrlE
+- _type_layout_string 8MusicKit19CloudSpatialOffsetsV
+CStrings:
++ "\" encountered for CloudPlaylistFolderItem."
++ "%s Album<%{public}s> has no cleanDownloadedTrackCount, deferring to container's `hasExplicitContent` value."
++ ",\n  hasBonusContent: "
++ ",\n  hasMusicEvents: "
++ "0"
++ "@105@0:8q16@24@32@40@48@56@64{_NSRange=QQ}72{?=BBBBBBBBB}88@97"
++ "@169@0:8q16q24@32@40@48@56@64@72@80@88@96@104@112@120@128{_NSRange=QQ}136{?=BBBBBBBBB}152@161"
++ "@56@0:8@16q24@32@40@48"
++ "Cloud personal recommendation content doesn't have a uniform catalog type."
++ "Cloud personal recommendation content doesn't have a uniform list of coding keys for associations."
++ "Cloud personal recommendation content doesn't have a uniform list of coding keys for relationships."
++ "Cloud playlist folder items don't have a uniform catalog type."
++ "Cloud playlist folder items don't have a uniform list of coding keys for associations."
++ "Cloud playlist folder items don't have a uniform list of coding keys for relationships."
++ "Cloud playlist folders don't have a catalog type."
++ "CloudAttribute<CloudSpatialTimingInformation>"
++ "Down-casted Array element failed to match the target type\nExpected "
++ "MPModelLibraryPin"
++ "MPModelLibraryPinKind"
++ "MPModelPropertyAlbumCleanDownloadedTrackCount"
++ "MPModelPropertyAlbumCleanSongCount"
++ "MPModelPropertyAlbumDownloadedTrackCount"
++ "MPModelPropertyAlbumIsPinned"
++ "MPModelPropertyArtistCleanDownloadedSongCount"
++ "MPModelPropertyArtistCleanSongCount"
++ "MPModelPropertyArtistDownloadedSongCount"
++ "MPModelPropertyArtistIsPinned"
++ "MPModelPropertyLibraryPinDefaultAction"
++ "MPModelPropertyLibraryPinEntityType"
++ "MPModelPropertyLibraryPinPosition"
++ "MPModelPropertyLibraryPinPositionUUID"
++ "MPModelPropertyPlaylistDownloadedTrackCount"
++ "MPModelPropertyPlaylistHasAnyCleanDownloadedTracks"
++ "MPModelPropertyPlaylistHasAnyCleanTracks"
++ "MPModelPropertyPlaylistIsPinned"
++ "MPModelPropertySongIsPinned"
++ "MPModelRelationshipLibraryPinAlbum"
++ "MPModelRelationshipLibraryPinArtist"
++ "MPModelRelationshipLibraryPinPlaylist"
++ "MPModelRelationshipLibraryPinSong"
++ "MusicItemDataSource"
++ "MusicKit/CloudPersonalRecommendationContent.swift"
++ "MusicKit/CloudPlaylistFolder.swift"
++ "MusicKit/CloudPlaylistFolderItem.swift"
++ "MusicKit_LegacyModelLibraryPinnedEntityType"
++ "MusicKit_SoftLinking_MPModelLibraryPinKind"
++ "Solarium"
++ "SwiftUI"
++ "_cleanDownloadedTrackCount"
++ "_cleanTrackCount"
++ "_defaultPinKind"
++ "_downloadedCleanTrackCount"
++ "_downloadedEntryCount"
++ "_downloadedTrackCount"
++ "_hasCleanDownloadedTracks"
++ "_isNetworkConstrained"
++ "_isNetworkExpensive"
++ "_musicKit_modelObjectStorageDictionaryForPin:"
++ "_parentDeviceLocalID"
++ "_pinSupportedProperties"
++ "alchemy"
++ "alignmentDurationLimitInMilliseconds"
++ "canBecomeSubscriber"
++ "canPlayCatalogContent"
++ "children"
++ "com.apple.AMPLibraryAgent"
++ "com.apple.MusicKit.Internal.Tool"
++ "databasePath"
++ "endOffsetInMilliSeconds"
++ "endOffsetInMilliseconds"
++ "hasCloudLibraryEnabled"
++ "hasOnlyExplicitDownloadedContent"
++ "immutableScopedContainers"
++ "initWithLegacyModelObject:itemType:properties:relationships:mediaLibrary:"
++ "isConstrained"
++ "isExpensive"
++ "isGroupRecommendation"
++ "library_pins"
++ "modern_upsell"
++ "parent"
++ "pin"
++ "pinItem"
++ "pinnedEntityType"
++ "raw-genres"
++ "spatialLeadingSilenceInMilliseconds"
++ "spatialTrailingSilenceInMilliseconds"
++ "startOffsetInMilliSeconds"
++ "startOffsetInMilliseconds"
++ "stereoLeadingSilenceInMilliseconds"
++ "stereoTrailingSilenceInMilliseconds"
++ "supportsSmartTransitions"
+- "%s Album<%{public}s> has tracks fully loaded, returning %{bool}d."
+- "%s Album<%{public}s> tracks not fully loaded and loaded tracks are all `ContentRating.explicit`, deferring to container's `hasExplicitContent` value."
+- "%s Album<%{public}s> tracks not fully loaded, but has at least one `ContentRating.clean` track."
+- "%s Playlist<%{public}s> children not fully loaded and loaded entries are all `ContentRating.explicit`, deferring to container's `hasExplicitContent` value."
+- "%s Playlist<%{public}s> children not fully loaded, but has at least one `ContentRating.clean` item."
+- "%s Playlist<%{public}s> has children fully loaded, returning %{bool}d."
+- "%s Playlist<%{public}s> has no children, deferring to container's `hasExplicitContent` value."
+- "@104@0:8q16@24@32@40@48@56@64{_NSRange=QQ}72{?=BBBBBBBB}88@96"
+- "@168@0:8q16q24@32@40@48@56@64@72@80@88@96@104@112@120@128{_NSRange=QQ}136{?=BBBBBBBB}152@160"
+- "@48@0:8@16q24@32@40"
+- "A"
+- "Ab"
+- "Bb"
+- "C"
+- "C#"
+- "CloudSpatialOffsets"
+- "D"
+- "E"
+- "Eb"
+- "F"
+- "F#"
+- "G"
+- "MPModelFileAssetProtectionType"
+- "cloudServiceStatusMonitor"
+- "initWithLegacyModelObject:itemType:properties:relationships:"
+- "yuma"
+
+```

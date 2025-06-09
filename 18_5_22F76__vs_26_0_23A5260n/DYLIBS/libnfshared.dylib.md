@@ -1,0 +1,1894 @@
+## libnfshared.dylib
+
+> `/usr/lib/libnfshared.dylib`
+
+```diff
+
+-355.4.0.0.0
+-  __TEXT.__text: 0x2776c
+-  __TEXT.__auth_stubs: 0xd00
+-  __TEXT.__objc_methlist: 0x1f94
+-  __TEXT.__const: 0x1d8
+-  __TEXT.__dlopen_cstrs: 0x58
+-  __TEXT.__cstring: 0x3f76
+-  __TEXT.__oslogstring: 0x1a4f
+-  __TEXT.__gcc_except_tab: 0x45c
+-  __TEXT.__unwind_info: 0x728
+-  __TEXT.__objc_classname: 0x380
+-  __TEXT.__objc_methname: 0x4409
+-  __TEXT.__objc_methtype: 0xa41
+-  __TEXT.__objc_stubs: 0x2720
+-  __DATA_CONST.__got: 0x1e8
+-  __DATA_CONST.__const: 0x828
+-  __DATA_CONST.__objc_classlist: 0x120
++360.33.0.0.0
++  __TEXT.__text: 0x21cb0
++  __TEXT.__auth_stubs: 0xb60
++  __TEXT.__delay_stubs: 0x2c
++  __TEXT.__delay_helper: 0xc8
++  __TEXT.__objc_methlist: 0x1dfc
++  __TEXT.__const: 0x230
++  __TEXT.__cstring: 0x395a
++  __TEXT.__oslogstring: 0x171d
++  __TEXT.__unwind_info: 0x5d8
++  __TEXT.__objc_classname: 0x326
++  __TEXT.__objc_methname: 0x3f8e
++  __TEXT.__objc_methtype: 0x96b
++  __TEXT.__objc_stubs: 0x2540
++  __DATA_CONST.__got: 0x198
++  __DATA_CONST.__const: 0x4a8
++  __DATA_CONST.__objc_classlist: 0xf0
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1288
++  __DATA_CONST.__objc_selrefs: 0x1150
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0xd0
++  __DATA_CONST.__objc_superrefs: 0xb8
+   __DATA_CONST.__objc_arraydata: 0x3e8
+-  __AUTH_CONST.__auth_got: 0x690
+-  __AUTH_CONST.__const: 0x3c0
+-  __AUTH_CONST.__cfstring: 0x3980
+-  __AUTH_CONST.__objc_const: 0x39d0
+-  __AUTH_CONST.__objc_intobj: 0x1f8
++  __AUTH_CONST.__auth_got: 0x5c0
++  __AUTH_CONST.__const: 0x240
++  __AUTH_CONST.__cfstring: 0x3a20
++  __AUTH_CONST.__objc_const: 0x3520
++  __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x4b0
+-  __DATA.__objc_ivar: 0x220
+-  __DATA.__data: 0x3d0
+-  __DATA.__bss: 0x8
++  __AUTH.__objc_data: 0x3c0
++  __DATA.__objc_ivar: 0x218
++  __DATA.__data: 0x3d8
++  __DATA.__bss: 0x10
+   __DATA.__common: 0x20
+-  __DATA_DIRTY.__objc_ivar: 0x18
+-  __DATA_DIRTY.__objc_data: 0x690
++  __DATA_DIRTY.__objc_data: 0x5a0
+   __DATA_DIRTY.__data: 0x40
+-  __DATA_DIRTY.__bss: 0x1b8
++  __DATA_DIRTY.__bss: 0x120
+   __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5A06ED47-2618-3A63-97A8-24CF77B39197
+-  Functions: 695
+-  Symbols:   2467
+-  CStrings:  2286
++  UUID: 795F576E-C646-3A67-87F1-4C73DAD452E5
++  Functions: 633
++  Symbols:   379
++  CStrings:  2154
+ 
+Symbols:
++ _AnalyticsSendEventLazy
++ _IOPMAssertionDeclareSystemActivityWithProperties
++ _NFLogGetProcessNCIOnly
++ _NFLogSetProcessNCIOnly
++ _OBJC_CLASS_$_LSApplicationRecord
++ _OBJC_CLASS_$_NFCTKPollConfig
++ _OBJC_CLASS_$_NFReaderSessionPollConfig
++ _OBJC_METACLASS_$_NFCTKPollConfig
++ _OBJC_METACLASS_$_NFReaderSessionPollConfig
++ __os_log_default
++ _dlopen
++ _gmtime
++ _time
+- +[NFAssertionCALogger postAnalyticsDefaultAppSupression:prepOnly:]
+- +[NFAssertionInternal supportsSecureCoding]
+- +[NFBackgroundActivityScheduler sharedBackgroundActivityScheduler]
+- +[NFCALogger getBatteryPercent]
+- +[NFCALogger roundToSignificantDigit:forValue:]
+- +[NFCALogger sharedCALogger]
+- +[NFCardSessionConfig configWithInitialUIText:]
+- +[NFCardSessionConfig supportsSecureCoding]
+- +[NFCommandAPDU appendExpectedLength:usingExtendedLength:toAPDU:]
+- +[NFCommandAPDU buildAPDUHeaderWithClass:instruction:p1:p2:len:useExtendedLength:]
+- +[NFCurrency decodeBCDAmount:]
+- +[NFCurrency encodeBCDAmount:]
+- +[NFCurrency getCurrencyStringCodeFromNumericCode:]
+- +[NFCurrency getFractionDigitsFromCurrencyStringCode:]
+- +[NFExceptionsCALogger postAnalyticsATLFailureEvent:aid:error:]
+- +[NFExceptionsCALogger postAnalyticsAppletProvisioningFailureEvent:responseCode:]
+- +[NFExceptionsCALogger postAnalyticsCRSAuthECommerceWithParameters:]
+- +[NFExceptionsCALogger postAnalyticsCRSAuthInitEventWithStatus:]
+- +[NFExceptionsCALogger postAnalyticsCRSAuthWithStatus:withMethod:]
+- +[NFExceptionsCALogger postAnalyticsCRSDeAuthWithStatus:]
+- +[NFExceptionsCALogger postAnalyticsContactlessErrorsEvent:status:error:]
+- +[NFExceptionsCALogger postAnalyticsExpressSetupFailureEvent:context:error:]
+- +[NFExceptionsCALogger postAnalyticsHciTransactionException:eventType:commandResult:status:]
+- +[NFExceptionsCALogger postAnalyticsMobileSoftwareUpdateExceptionEvent:]
+- +[NFExceptionsCALogger postAnalyticsOsResetEvent:osID:hardwareType:]
+- +[NFExceptionsCALogger postAnalyticsReaderModeExceptionForType:tagType:rfFrameInterface:withErrorCode:]
+- +[NFExceptionsCALogger postAnalyticsSEFailureEvent:context:error:]
+- +[NFExceptionsCALogger postAnalyticsSERemovedEvent:hasExpressTransactionStarted:hasCardEmulationStarted:hardwareType:]
+- +[NFExceptionsCALogger postAnalyticsSERestrictedModeEntered:]
+- +[NFExceptionsCALogger postAnalyticsSERestrictedModeExited:]
+- +[NFExceptionsCALogger postAnalyticsTSMConnectivityException:]
+- +[NFExceptionsCALogger postAnalyticsVASTransactionException:withSWStatus:]
+- +[NFExceptionsCALogger postCASERestrictedModeExited:]
+- +[NFExceptionsCALogger postHardwareExceptionEventWithAssertionCounter:hardwareType:wdogDump:hwFltDump:wdgTickInfo:assertionData:]
+- +[NFExceptionsCALogger postMiddlewareExceptionEvent:mwVersion:errorType:errorCode:breadcrumb:description:]
+- +[NFGeneralStatisticsCALogger _resetGeneralDeviceStatisticToDefaults]
+- +[NFGeneralStatisticsCALogger _setupInitValuesForGeneralTransactionStatistics]
+- +[NFGeneralStatisticsCALogger postAnalyticsGeneralTransactionStatistics]
+- +[NFGeneralStatisticsCALogger postAnalyticsSetupEndpoints:totalUnknowntoSE:]
+- +[NFGeneralStatisticsCALogger postGeneralDeviceStatistics]
+- +[NFGeneralStatisticsCALogger postPlasticCardEnableStatus:aid:]
+- +[NFGeneralStatisticsCALogger updateAnalyticsGeneralTransactionStatistics:]
+- +[NFGeneralStatisticsCALogger updateGeneralDeviceStatistic:]
+- +[NFJSONEncoder encoder]
+- +[NFLPCDStatisticsCALogger postAnalyticsLPCDStatistic:]
+- +[NFMSEIParser parseResponseAPDU:]
+- +[NFNSCheckedDecoder coder:decodeArrayOfArrayOfClass:forKey:]
+- +[NFNSCheckedDecoder coder:decodeArrayOfClass:forKey:]
+- +[NFNSCheckedDecoder coder:decodeDictOfClass:forKey:]
+- +[NFNdefMessageInternal dataFromNDEFMessage:]
+- +[NFNdefMessageInternal decodeFromNDEFMessage:]
+- +[NFNdefMessageInternal supportsSecureCoding]
+- +[NFNdefRecordInternal _decodeTextRecord:]
+- +[NFNdefRecordInternal _decodeTextRecordLanguage:]
+- +[NFNdefRecordInternal _decodeTextRecordText:]
+- +[NFNdefRecordInternal _decodeURIRecord:]
+- +[NFNdefRecordInternal dataFromRecord:]
+- +[NFNdefRecordInternal decodeFromRecord:]
+- +[NFNdefRecordInternal parseRecordUsingScanner:header:type:identifier:payload:]
+- +[NFNdefRecordInternal recordsFromBytes:length:]
+- +[NFNdefRecordInternal recordsWithTNF:type:identifier:payload:chunkSize:outError:]
+- +[NFNdefRecordInternal supportsSecureCoding]
+- +[NFPowerAssertion sharedPowerAssertion]
+- +[NFReaderModeCardIngestionCALogger postAnalyticsReaderModeCardIngestionSession:prepOnly:]
+- +[NFReaderSessionConfig sessionConfigWithUIMode:sessionType:initialScanText:vasPass:]
+- +[NFReaderSessionConfig sessionTypeString:]
+- +[NFReaderSessionConfig supportsSecureCoding]
+- +[NFResponseAPDU responseWithData:]
+- +[NFRunScriptParametersInternal supportsSecureCoding]
+- +[NFTLV TLVSsWithBytes:length:requireDefiniteEncoding:]
+- +[NFTLV TLVWithData:]
+- +[NFTLV TLVWithTag:children:]
+- +[NFTLV TLVWithTag:fromData:]
+- +[NFTLV TLVWithTag:unsignedChar:]
+- +[NFTLV TLVWithTag:unsignedLongValue:]
+- +[NFTLV TLVWithTag:unsignedShort:]
+- +[NFTLV TLVWithTag:value:]
+- +[NFTLV TLVsWithData:]
+- +[NFTLV TLVsWithData:requireDefiniteEncoding:]
+- +[NFTLV _intToData:]
+- +[NFTLV _parseTLVs:end:simple:definite:]
+- +[NFTLV simpleTLVsWithData:]
+- +[NFTLV simpleTLVsWithTag:fromData:]
+- +[NFTagInternal supportsSecureCoding]
+- +[NFVASPassConfig passConfigWithMode:passIdentifier:]
+- +[NFVASPassConfig supportsSecureCoding]
+- +[NSData(HexString) NF_dataWithHexString:]
+- +[SecurityInfo securityInfoArrayFromData:]
+- -[ChipAuthenticationInfo .cxx_destruct]
+- -[ChipAuthenticationInfo description]
+- -[ChipAuthenticationInfo setOptionalKeyId:]
+- -[ChipAuthenticationInfo setProtocol:]
+- -[ChipAuthenticationInfo setVersion:]
+- -[NFAccessoryTag .cxx_destruct]
+- -[NFAccessoryTag delegate]
+- -[NFAccessoryTag initWithDelegate:]
+- -[NFAccessoryTag init]
+- -[NFAccessoryTag setDelegate:]
+- -[NFAccessoryTagI2CBridge .cxx_destruct]
+- -[NFAccessoryTagI2CBridge initWithDelegate:]
+- -[NFAccessoryTagI2CBridge initWithType:delegate:]
+- -[NFAccessoryTagI2CBridge init]
+- -[NFAccessoryTagI2CBridge readFromBridge:fragmentationSupport:response:]
+- -[NFAccessoryTagI2CBridge selectTag]
+- -[NFAccessoryTagI2CBridge selected]
+- -[NFAccessoryTagI2CBridge setSelected:]
+- -[NFAccessoryTagI2CBridge setTagUUID:]
+- -[NFAccessoryTagI2CBridge setTransactionCounter:]
+- -[NFAccessoryTagI2CBridge tagUUID]
+- -[NFAccessoryTagI2CBridge transactionCounter]
+- -[NFAccessoryTagI2CBridge type]
+- -[NFAccessoryTagI2CBridge writeToBridge:fragmentationSupport:response:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _bridgeType0CreateAccessoryHeaderWithBuffer:pageLength:isLastPage:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _bridgeType0ReadMultipleSRAMPagesWithBuffer:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _bridgeType0WriteOneSRAMPage:fragmentationSupport:isLastPage:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _bridgeType0WritePollForCompletionWithTimeout:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _bridgeType0WritePollForSystemReadyWithTimeout:beforeWrite:outError:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _readFromBridgeType0:fragmentationSupport:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _selectTagType0]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0GetSystemInfo:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0ReadConfigRange:data:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0ReadConfigReg:data:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0ReadSRAM:numOfBlocks:data:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0WriteConfigReg:data:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _type0WriteSRAM:data:]
+- -[NFAccessoryTagI2CBridge(NTAG5Boost) _writeToBridgeType0:fragmentationSupport:]
+- -[NFAssertionInternal .cxx_destruct]
+- -[NFAssertionInternal assertionTime]
+- -[NFAssertionInternal assertionType]
+- -[NFAssertionInternal description]
+- -[NFAssertionInternal encodeWithCoder:]
+- -[NFAssertionInternal hash]
+- -[NFAssertionInternal initWithCoder:]
+- -[NFAssertionInternal initWithDictionary:]
+- -[NFAssertionInternal isEqual:]
+- -[NFAssertionInternal pid]
+- -[NFAssertionInternal sessionID]
+- -[NFBackgroundActivityScheduler .cxx_destruct]
+- -[NFBackgroundActivityScheduler activityMap]
+- -[NFBackgroundActivityScheduler backgroundActivityScheduler:interval:tolerance:repeats:qualityOfService:delay:callback:]
+- -[NFBackgroundActivityScheduler callbackMap]
+- -[NFBackgroundActivityScheduler getActivity:]
+- -[NFBackgroundActivityScheduler getCallbacks:]
+- -[NFBackgroundActivityScheduler initCallbackArray:]
+- -[NFBackgroundActivityScheduler init]
+- -[NFBackgroundActivityScheduler invalidated]
+- -[NFBackgroundActivityScheduler queue]
+- -[NFBackgroundActivityScheduler registerActivity:identifier:]
+- -[NFBackgroundActivityScheduler registerCallback:identifier:]
+- -[NFBackgroundActivityScheduler schedulePreRegisteredActivity:callback:]
+- -[NFBackgroundActivityScheduler setActivityMap:]
+- -[NFBackgroundActivityScheduler setCallbackMap:]
+- -[NFBackgroundActivityScheduler setInvalidated:]
+- -[NFBackgroundActivityScheduler setQueue:]
+- -[NFBackgroundActivityScheduler unregisterActivity:]
+- -[NFCALogger .cxx_destruct]
+- -[NFCALogger _incrementMiddlewareExceptionCountWithReset:]
+- -[NFCALogger generateDailyUUIDForCA]
+- -[NFCALogger generateUUID]
+- -[NFCALogger getCALoggerUserDefaults]
+- -[NFCALogger getCAUniversityCode:universityCodes:]
+- -[NFCALogger getDurationFrom:]
+- -[NFCALogger getHardwareTypeForCA:]
+- -[NFCALogger getMiddlewareExceptionCount]
+- -[NFCALogger getTimestamp]
+- -[NFCALogger init]
+- -[NFCALogger postCAEventFor:eventInput:]
+- -[NFCALogger removeRestrictedMode]
+- -[NFCALogger resetCALoadStackExceptionCount]
+- -[NFCALogger restrictedMode]
+- -[NFCALogger setRestrictedMode:]
+- -[NFCardSessionConfig .cxx_destruct]
+- -[NFCardSessionConfig copyWithZone:]
+- -[NFCardSessionConfig encodeWithCoder:]
+- -[NFCardSessionConfig initWithCoder:]
+- -[NFCardSessionConfig initialUIText]
+- -[NFCardSessionConfig setInitialUIText:]
+- -[NFCommandAPDU .cxx_destruct]
+- -[NFCommandAPDU clss]
+- -[NFCommandAPDU description]
+- -[NFCommandAPDU initWithBytes:length:]
+- -[NFCommandAPDU initWithData:]
+- -[NFCommandAPDU initWithData:uniformLengthCheck:]
+- -[NFCommandAPDU instruction]
+- -[NFCommandAPDU isGetMoreVasDataCommand]
+- -[NFCommandAPDU isGetVasDataCommand]
+- -[NFCommandAPDU isSecureMessaging]
+- -[NFCommandAPDU isSelectByDFNameCommand]
+- -[NFCommandAPDU isSelectCommand]
+- -[NFCommandAPDU isSendCertificateCommand]
+- -[NFCommandAPDU lengthExpected]
+- -[NFCommandAPDU p1]
+- -[NFCommandAPDU p2]
+- -[NFCommandAPDU payloadBytes]
+- -[NFCommandAPDU payloadLength]
+- -[NFCommandAPDU payload]
+- -[NFJSONEncoder _JSONCompatibleArray:]
+- -[NFJSONEncoder _JSONCompatibleDictionary:]
+- -[NFJSONEncoder stringFromArray:]
+- -[NFJSONEncoder stringFromDictionary:]
+- -[NFMemoryObserver .cxx_destruct]
+- -[NFMemoryObserver start]
+- -[NFMemoryObserver stop]
+- -[NFNdefMessageInternal .cxx_destruct]
+- -[NFNdefMessageInternal addRecord:]
+- -[NFNdefMessageInternal addRecordArray:]
+- -[NFNdefMessageInternal asData]
+- -[NFNdefMessageInternal decode]
+- -[NFNdefMessageInternal description]
+- -[NFNdefMessageInternal encodeWithCoder:]
+- -[NFNdefMessageInternal initWithBytes:length:]
+- -[NFNdefMessageInternal initWithCoder:]
+- -[NFNdefMessageInternal initWithData:]
+- -[NFNdefMessageInternal initWithNDEFMessage:]
+- -[NFNdefMessageInternal init]
+- -[NFNdefMessageInternal records]
+- -[NFNdefRecordInternal .cxx_destruct]
+- -[NFNdefRecordInternal _idLengthPresent]
+- -[NFNdefRecordInternal _setIdLengthPresent:]
+- -[NFNdefRecordInternal asData]
+- -[NFNdefRecordInternal chunked]
+- -[NFNdefRecordInternal decode]
+- -[NFNdefRecordInternal description]
+- -[NFNdefRecordInternal encodeWithCoder:]
+- -[NFNdefRecordInternal header]
+- -[NFNdefRecordInternal identifier]
+- -[NFNdefRecordInternal initWithCoder:]
+- -[NFNdefRecordInternal initWithHeader:type:identifier:payload:]
+- -[NFNdefRecordInternal initWithNDEFRecord:]
+- -[NFNdefRecordInternal init]
+- -[NFNdefRecordInternal isURIRecord]
+- -[NFNdefRecordInternal messageBegin]
+- -[NFNdefRecordInternal messageEnd]
+- -[NFNdefRecordInternal payload]
+- -[NFNdefRecordInternal setChunked:]
+- -[NFNdefRecordInternal setHeader:]
+- -[NFNdefRecordInternal setIdentifier:]
+- -[NFNdefRecordInternal setMessageBegin:]
+- -[NFNdefRecordInternal setMessageEnd:]
+- -[NFNdefRecordInternal setPayload:]
+- -[NFNdefRecordInternal setShortRecord:]
+- -[NFNdefRecordInternal setType:]
+- -[NFNdefRecordInternal setTypeNameFormat:]
+- -[NFNdefRecordInternal shortRecord]
+- -[NFNdefRecordInternal typeNameFormat]
+- -[NFNdefRecordInternal type]
+- -[NFPowerAssertion .cxx_destruct]
+- -[NFPowerAssertion assertionHolders]
+- -[NFPowerAssertion dumpState]
+- -[NFPowerAssertion enableDebug]
+- -[NFPowerAssertion holdPowerAssertion:]
+- -[NFPowerAssertion holdPowerAssertion:onBehalfOf:]
+- -[NFPowerAssertion init]
+- -[NFPowerAssertion releasePowerAssertion:]
+- -[NFPowerAssertion releasePowerAssertion:logFaultOnOverRelease:]
+- -[NFPowerAssertion setEnableDebug:]
+- -[NFPowerObserver .cxx_destruct]
+- -[NFPowerObserver _powerNotificationMessage:argument:]
+- -[NFPowerObserver allowSleep]
+- -[NFPowerObserver dealloc]
+- -[NFPowerObserver delegate]
+- -[NFPowerObserver initWithDelegate:]
+- -[NFPowerObserver registerForEvents]
+- -[NFPowerObserver unregisterForEvents]
+- -[NFPowerObserver willSleep]
+- -[NFPreferenceObserver .cxx_destruct]
+- -[NFPreferenceObserver callback]
+- -[NFPreferenceObserver dealloc]
+- -[NFPreferenceObserver handlePreferencesOrProfileChanged]
+- -[NFPreferenceObserver setCallback:]
+- -[NFPreferenceObserver start:]
+- -[NFPreferenceObserver stop]
+- -[NFReaderSessionConfig .cxx_destruct]
+- -[NFReaderSessionConfig copyWithZone:]
+- -[NFReaderSessionConfig encodeWithCoder:]
+- -[NFReaderSessionConfig initWithCoder:]
+- -[NFReaderSessionConfig initialScanText]
+- -[NFReaderSessionConfig sessionType]
+- -[NFReaderSessionConfig uiMode]
+- -[NFReaderSessionConfig vasPasses]
+- -[NFResponseAPDU .cxx_destruct]
+- -[NFResponseAPDU data]
+- -[NFResponseAPDU decodeUnderlyingAppletError:]
+- -[NFResponseAPDU initWithData:]
+- -[NFResponseAPDU response]
+- -[NFResponseAPDU status]
+- -[NFRunScriptParametersInternal .cxx_destruct]
+- -[NFRunScriptParametersInternal AIDAllowList]
+- -[NFRunScriptParametersInternal checkAIDAllowList]
+- -[NFRunScriptParametersInternal deactivateAllApps]
+- -[NFRunScriptParametersInternal disableCompletionNotification]
+- -[NFRunScriptParametersInternal encodeWithCoder:]
+- -[NFRunScriptParametersInternal includeAPDUDuration]
+- -[NFRunScriptParametersInternal initWithCoder:]
+- -[NFRunScriptParametersInternal initialSelectBeforeRun]
+- -[NFRunScriptParametersInternal seid]
+- -[NFRunScriptParametersInternal setAIDAllowList:]
+- -[NFRunScriptParametersInternal setCheckAIDAllowList:]
+- -[NFRunScriptParametersInternal setDeactivateAllApps:]
+- -[NFRunScriptParametersInternal setDisableCompletionNotification:]
+- -[NFRunScriptParametersInternal setIncludeAPDUDuration:]
+- -[NFRunScriptParametersInternal setInitialSelectBeforeRun:]
+- -[NFRunScriptParametersInternal setSeid:]
+- -[NFRunScriptParametersInternal setToSystemOS:]
+- -[NFRunScriptParametersInternal toSystemOS]
+- -[NFSecureXPCEventPublisher .cxx_destruct]
+- -[NFSecureXPCEventPublisher _sendDictionary:dispatch:]
+- -[NFSecureXPCEventPublisher _sendEvent:dispatch:]
+- -[NFSecureXPCEventPublisher _sendSimpleEvent:dispatch:]
+- -[NFSecureXPCEventPublisher _sendSimpleEvent:objectNumber:dispatch:]
+- -[NFSecureXPCEventPublisher _sendSimpleEvent:objectString:dispatch:]
+- -[NFSecureXPCEventPublisher _syncSetupConnection]
+- -[NFSecureXPCEventPublisher connectionLock]
+- -[NFSecureXPCEventPublisher connection]
+- -[NFSecureXPCEventPublisher dealloc]
+- -[NFSecureXPCEventPublisher eventSendQueue]
+- -[NFSecureXPCEventPublisher initWithMachPort:qosPropagation:qos:xpcConnectionQueue:eventSendQueue:]
+- -[NFSecureXPCEventPublisher initWithMachPort:queue:]
+- -[NFSecureXPCEventPublisher initWithMachPort:xpcConnectionQueue:eventSendQueue:]
+- -[NFSecureXPCEventPublisher invalidate]
+- -[NFSecureXPCEventPublisher qosPropagation]
+- -[NFSecureXPCEventPublisher qos]
+- -[NFSecureXPCEventPublisher sendDictionary:]
+- -[NFSecureXPCEventPublisher sendSimpleEvent:]
+- -[NFSecureXPCEventPublisher sendSimpleEvent:objectNumber:]
+- -[NFSecureXPCEventPublisher sendSimpleEvent:objectString:]
+- -[NFSecureXPCEventPublisher serviceName]
+- -[NFSecureXPCEventPublisher setConnection:]
+- -[NFSecureXPCEventPublisher setConnectionLock:]
+- -[NFSecureXPCEventPublisher setEventSendQueue:]
+- -[NFSecureXPCEventPublisher setServiceName:]
+- -[NFSecureXPCEventPublisher setXpcConnectionQueue:]
+- -[NFSecureXPCEventPublisher syncSendDictionary:]
+- -[NFSecureXPCEventPublisher syncSendSimpleEvent:]
+- -[NFSecureXPCEventPublisher syncSendSimpleEvent:objectNumber:]
+- -[NFSecureXPCEventPublisher syncSendSimpleEvent:objectString:]
+- -[NFSecureXPCEventPublisher xpcConnectionQueue]
+- -[NFServiceWhitelistChecker .cxx_destruct]
+- -[NFServiceWhitelistChecker _arrayValueOfEntitlement:secTask:]
+- -[NFServiceWhitelistChecker _boolValueOfEntitlement:secTask:]
+- -[NFServiceWhitelistChecker _copyValueOfEntitlement:secTask:]
+- -[NFServiceWhitelistChecker _createAccessDictionaryFromICCode:serialNumber:maximumFilterStringLength:]
+- -[NFServiceWhitelistChecker _initCardSessionEntitlementsWithSecTask:]
+- -[NFServiceWhitelistChecker _initCoreNFCEntitlements:secTask:]
+- -[NFServiceWhitelistChecker _initISO15693TagSpecifier:]
+- -[NFServiceWhitelistChecker _initISO7816PermissibleAIDListWithSecTask:infoPlist:]
+- -[NFServiceWhitelistChecker _initTagSpecifier:maximumFilterStringLength:]
+- -[NFServiceWhitelistChecker _isAIDStringValid:]
+- -[NFServiceWhitelistChecker _stringFromArray:]
+- -[NFServiceWhitelistChecker _stringFromISO15693AccessFilterList]
+- -[NFServiceWhitelistChecker _stringValueOfEntitlement:secTask:]
+- -[NFServiceWhitelistChecker allowBackgroundedSession]
+- -[NFServiceWhitelistChecker applicationIdentifier]
+- -[NFServiceWhitelistChecker bgTagReadingAssertion]
+- -[NFServiceWhitelistChecker cardModeAccess]
+- -[NFServiceWhitelistChecker chAssertion]
+- -[NFServiceWhitelistChecker clientName]
+- -[NFServiceWhitelistChecker copyWithZone:]
+- -[NFServiceWhitelistChecker description]
+- -[NFServiceWhitelistChecker dontResetAssertion]
+- -[NFServiceWhitelistChecker eCommerceAccess]
+- -[NFServiceWhitelistChecker externalReaderAccessAllow]
+- -[NFServiceWhitelistChecker getAppInfoDictionary]
+- -[NFServiceWhitelistChecker hceAccess]
+- -[NFServiceWhitelistChecker ignoreAppStateMonitor]
+- -[NFServiceWhitelistChecker initWithConnection:]
+- -[NFServiceWhitelistChecker initWithConnection:coreNFCConnection:]
+- -[NFServiceWhitelistChecker internalAccess]
+- -[NFServiceWhitelistChecker lpemConfigSessionAccess]
+- -[NFServiceWhitelistChecker lpmFactoryTest]
+- -[NFServiceWhitelistChecker miniNVWriteAccess]
+- -[NFServiceWhitelistChecker nfcCardSessionAIDPrefixList]
+- -[NFServiceWhitelistChecker nfcCardSessionAccess]
+- -[NFServiceWhitelistChecker nfcISO15693ReaderAccess]
+- -[NFServiceWhitelistChecker nfcNDEFReaderAccess]
+- -[NFServiceWhitelistChecker nfcTagReaderAccess]
+- -[NFServiceWhitelistChecker nfcTagReaderPACEPollingAllow]
+- -[NFServiceWhitelistChecker nfcVASReaderAccess]
+- -[NFServiceWhitelistChecker pollingProfileUpdate]
+- -[NFServiceWhitelistChecker purpleTrustAccess]
+- -[NFServiceWhitelistChecker radioToggle]
+- -[NFServiceWhitelistChecker readerInternalAccess]
+- -[NFServiceWhitelistChecker readerPurposeString]
+- -[NFServiceWhitelistChecker remoteAdminAccess]
+- -[NFServiceWhitelistChecker seCredentialManagerAccess]
+- -[NFServiceWhitelistChecker seLoggingSessionAccess]
+- -[NFServiceWhitelistChecker seSessionAccess]
+- -[NFServiceWhitelistChecker seshatAccess]
+- -[NFServiceWhitelistChecker sessionTimeLimit]
+- -[NFServiceWhitelistChecker setApplicationIdentifier:]
+- -[NFServiceWhitelistChecker singleUserAccess]
+- -[NFServiceWhitelistChecker surfSessionAccess]
+- -[NFServiceWhitelistChecker trustedISO7816AidList]
+- -[NFServiceWhitelistChecker useUnfilteredApplets]
+- -[NFServiceWhitelistChecker validateISO15693TagAccessWithManufacturerCode:]
+- -[NFServiceWhitelistChecker validateISO15693TagAccessWithManufacturerCode:serialNumber:]
+- -[NFServiceWhitelistChecker validateISO15693TagAcesssWithUID:]
+- -[NFTLV .cxx_destruct]
+- -[NFTLV asData]
+- -[NFTLV asMutableData]
+- -[NFTLV childWithTag:]
+- -[NFTLV childrenWithTag:]
+- -[NFTLV children]
+- -[NFTLV description]
+- -[NFTLV tag]
+- -[NFTLV valueAsHexString]
+- -[NFTLV valueAsString]
+- -[NFTLV valueAsUnsignedLongLong]
+- -[NFTLV valueAsUnsignedLong]
+- -[NFTLV valueAsUnsignedShort]
+- -[NFTLV value]
+- -[NFTagInternal .cxx_destruct]
+- -[NFTagInternal AppData]
+- -[NFTagInternal IDm]
+- -[NFTagInternal PMm]
+- -[NFTagInternal SystemCode]
+- -[NFTagInternal UID]
+- -[NFTagInternal _getSystemCodeListString]
+- -[NFTagInternal _setAppData:]
+- -[NFTagInternal _setAtqa:]
+- -[NFTagInternal _setHistoricalBytes:]
+- -[NFTagInternal _setIDm:]
+- -[NFTagInternal _setIdentifier:]
+- -[NFTagInternal _setNDEFAvailability:]
+- -[NFTagInternal _setNDEFContainerSize:]
+- -[NFTagInternal _setNDEFMessageSize:]
+- -[NFTagInternal _setPMm:]
+- -[NFTagInternal _setSFGI:]
+- -[NFTagInternal _setSak:]
+- -[NFTagInternal _setSelectedAID:]
+- -[NFTagInternal _setSilentType:]
+- -[NFTagInternal _setSystemCode:]
+- -[NFTagInternal _setSystemCodes:]
+- -[NFTagInternal _setTechnology:]
+- -[NFTagInternal _setType:]
+- -[NFTagInternal _setUID:]
+- -[NFTagInternal allSystemCodes]
+- -[NFTagInternal applicationDataCoding]
+- -[NFTagInternal applicationData]
+- -[NFTagInternal asDictionary]
+- -[NFTagInternal atqa]
+- -[NFTagInternal description]
+- -[NFTagInternal encodeWithCoder:]
+- -[NFTagInternal historicalBytes]
+- -[NFTagInternal initWithCoder:]
+- -[NFTagInternal initWithDictionary:]
+- -[NFTagInternal initWithNFTag:]
+- -[NFTagInternal initWithNFTagForUIDOnly:]
+- -[NFTagInternal isEqualToNFTag:]
+- -[NFTagInternal isSilent]
+- -[NFTagInternal ndefAvailability]
+- -[NFTagInternal ndefContainerSize]
+- -[NFTagInternal ndefMessageSize]
+- -[NFTagInternal pupi]
+- -[NFTagInternal sak]
+- -[NFTagInternal selectedAID]
+- -[NFTagInternal sfgi]
+- -[NFTagInternal sfgt]
+- -[NFTagInternal silentType]
+- -[NFTagInternal tagA]
+- -[NFTagInternal tagB]
+- -[NFTagInternal tagF]
+- -[NFTagInternal tagID]
+- -[NFTagInternal technology]
+- -[NFTagInternal type]
+- -[NFTimer .cxx_destruct]
+- -[NFTimer dealloc]
+- -[NFTimer description]
+- -[NFTimer initSleepTimerWithCallback:queue:]
+- -[NFTimer initWithCallback:queue:]
+- -[NFTimer startTimer:]
+- -[NFTimer startTimer:leeway:]
+- -[NFTimer stopTimer]
+- -[NFVASPassConfig .cxx_destruct]
+- -[NFVASPassConfig copyWithZone:]
+- -[NFVASPassConfig encodeWithCoder:]
+- -[NFVASPassConfig initWithCoder:]
+- -[NFVASPassConfig passIdentifier]
+- -[NFVASPassConfig vasMode]
+- -[NFXPCConnectionUserInfoDictionary .cxx_destruct]
+- -[NFXPCConnectionUserInfoDictionary clientName]
+- -[NFXPCConnectionUserInfoDictionary initWithServiceWhitelist:clientName:]
+- -[NFXPCConnectionUserInfoDictionary modifyObjectForKey:handler:]
+- -[NFXPCConnectionUserInfoDictionary objectForKey:]
+- -[NFXPCConnectionUserInfoDictionary objectForKeyedSubscript:]
+- -[NFXPCConnectionUserInfoDictionary objectsForKeys:notFoundMarker:]
+- -[NFXPCConnectionUserInfoDictionary removeObjectForKey:]
+- -[NFXPCConnectionUserInfoDictionary serviceWhitelist]
+- -[NFXPCConnectionUserInfoDictionary setObject:forKey:]
+- -[NFXPCConnectionUserInfoDictionary setObject:forKeyedSubscript:]
+- -[NFXPCEventPublisher .cxx_destruct]
+- -[NFXPCEventPublisher handleEventWithAction:token:descriptor:]
+- -[NFXPCEventPublisher initWithStreamName:queue:]
+- -[NFXPCEventPublisher pendingSendEvents]
+- -[NFXPCEventPublisher publisher]
+- -[NFXPCEventPublisher queue]
+- -[NFXPCEventPublisher receivedInitialBarrier]
+- -[NFXPCEventPublisher sendXpcNotificationEvent:]
+- -[NFXPCEventPublisher sendXpcNotificationEventWithDictionary:]
+- -[NFXPCEventPublisher sendXpcNotificationEventWithString:]
+- -[NFXPCEventPublisher setPendingSendEvents:]
+- -[NFXPCEventPublisher setPublisher:]
+- -[NFXPCEventPublisher setQueue:]
+- -[NFXPCEventPublisher setReceivedInitialBarrier:]
+- -[NFXPCEventPublisher setStreamName:]
+- -[NFXPCEventPublisher setTokens:]
+- -[NFXPCEventPublisher streamName]
+- -[NFXPCEventPublisher tokens]
+- -[NSData(HexString) NF_asHexString]
+- -[NSData(Numeric) NF_isZeroed]
+- -[NSData(Numeric) NF_toUint64:]
+- -[NSDictionary(NFExtension) NF_arrayForKey:]
+- -[NSDictionary(NFExtension) NF_dataForKey:]
+- -[NSDictionary(NFExtension) NF_dictionaryForKey:]
+- -[NSDictionary(NFExtension) NF_numberForKey:]
+- -[NSDictionary(NFExtension) NF_objectForKey:expectedClass:]
+- -[NSDictionary(NFExtension) NF_stringForKey:]
+- -[NSDictionary(NFExtension) NF_urlForKey:]
+- -[NSString(HexString) NF_isPrefixOfHexEncodedEqualToBytes:length:]
+- -[NSXPCConnection(NFUserInfo) NF_clearFDPresentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_clearPresentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_clientName]
+- -[NSXPCConnection(NFUserInfo) NF_fdPresentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_presentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_serviceType]
+- -[NSXPCConnection(NFUserInfo) NF_setFDPresentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_setPresentmentIntentSuppressionHolder]
+- -[NSXPCConnection(NFUserInfo) NF_userInfo]
+- -[NSXPCConnection(NFWhitelistChecker) NF_whitelistChecker]
+- -[PaceInfo .cxx_destruct]
+- -[PaceInfo description]
+- -[PaceInfo setOptionalParameter:]
+- -[PaceInfo setProtocol:]
+- -[PaceInfo setVersion:]
+- -[SecurityInfo initWithType:]
+- -[SecurityInfo setType:]
+- -[SecurityInfo type]
+- <redacted>
+- GCC_except_table0
+- GCC_except_table1
+- GCC_except_table13
+- GCC_except_table16
+- GCC_except_table19
+- GCC_except_table3
+- GCC_except_table4
+- GCC_except_table5
+- GCC_except_table6
+- GCC_except_table7
+- GCC_except_table8
+- _.str.26
+- _.str.27
+- _NFBootUUID
+- _NFIsGreenTea
+- _NFIsInternalBuild.bVal
+- _NFIsInternalBuild.onceToken
+- _NFPreferencesChangedHandler
+- _NFSharedLogInitialize
+- _NFSharedLogInitialize.onceToken
+- _OBJC_CLASS_$_ChipAuthenticationInfo
+- _OBJC_CLASS_$_NFBackgroundActivityScheduler
+- _OBJC_CLASS_$_NFCurrency
+- _OBJC_CLASS_$_NFJSONEncoder
+- _OBJC_CLASS_$_NFMemoryObserver
+- _OBJC_CLASS_$_NFSecureXPCEventPublisher
+- _OBJC_CLASS_$_NSBackgroundActivityScheduler
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSJSONSerialization
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_PaceInfo
+- _OBJC_CLASS_$_SecurityInfo
+- _OBJC_IVAR_$_NFAccessoryTag._delegate
+- _OBJC_IVAR_$_NFAccessoryTagI2CBridge._selected
+- _OBJC_IVAR_$_NFAccessoryTagI2CBridge._tagUUID
+- _OBJC_IVAR_$_NFAccessoryTagI2CBridge._transactionCounter
+- _OBJC_IVAR_$_NFAccessoryTagI2CBridge._type
+- _OBJC_IVAR_$_NFAssertionInternal._assertionTime
+- _OBJC_IVAR_$_NFAssertionInternal._assertionType
+- _OBJC_IVAR_$_NFAssertionInternal._pid
+- _OBJC_IVAR_$_NFBackgroundActivityScheduler._activityMap
+- _OBJC_IVAR_$_NFBackgroundActivityScheduler._callbackMap
+- _OBJC_IVAR_$_NFBackgroundActivityScheduler._invalidated
+- _OBJC_IVAR_$_NFBackgroundActivityScheduler._queue
+- _OBJC_IVAR_$_NFCALogger._userDefault
+- _OBJC_IVAR_$_NFCardSessionConfig._initialUIText
+- _OBJC_IVAR_$_NFCommandAPDU._class
+- _OBJC_IVAR_$_NFCommandAPDU._data
+- _OBJC_IVAR_$_NFCommandAPDU._instruction
+- _OBJC_IVAR_$_NFCommandAPDU._lengthExpected
+- _OBJC_IVAR_$_NFCommandAPDU._p1
+- _OBJC_IVAR_$_NFCommandAPDU._p2
+- _OBJC_IVAR_$_NFCommandAPDU._payloadRange
+- _OBJC_IVAR_$_NFMemoryObserver._source
+- _OBJC_IVAR_$_NFNdefMessageInternal._records
+- _OBJC_IVAR_$_NFNdefRecordInternal._firstOctet
+- _OBJC_IVAR_$_NFNdefRecordInternal._identifier
+- _OBJC_IVAR_$_NFNdefRecordInternal._payload
+- _OBJC_IVAR_$_NFNdefRecordInternal._type
+- _OBJC_IVAR_$_NFPowerAssertion._assertionHolders
+- _OBJC_IVAR_$_NFPowerAssertion._enableDebug
+- _OBJC_IVAR_$_NFPowerAssertion._powerAssertTransaction
+- _OBJC_IVAR_$_NFPowerAssertion._powerNotificationConnection
+- _OBJC_IVAR_$_NFPowerAssertion._powerNotificationNotifier
+- _OBJC_IVAR_$_NFPowerAssertion._powerNotificationPort
+- _OBJC_IVAR_$_NFPowerAssertion._queue
+- _OBJC_IVAR_$_NFPowerObserver._delegate
+- _OBJC_IVAR_$_NFPowerObserver._powerNotificationConnection
+- _OBJC_IVAR_$_NFPowerObserver._powerNotificationNotifier
+- _OBJC_IVAR_$_NFPowerObserver._powerNotificationPort
+- _OBJC_IVAR_$_NFPowerObserver._sleepMessageArgument
+- _OBJC_IVAR_$_NFPowerObserver._willSleep
+- _OBJC_IVAR_$_NFPowerObserver._workQueue
+- _OBJC_IVAR_$_NFPreferenceObserver._callback
+- _OBJC_IVAR_$_NFReaderSessionConfig._initialScanText
+- _OBJC_IVAR_$_NFReaderSessionConfig._sessionType
+- _OBJC_IVAR_$_NFReaderSessionConfig._uiMode
+- _OBJC_IVAR_$_NFReaderSessionConfig._vasPasses
+- _OBJC_IVAR_$_NFResponseAPDU._data
+- _OBJC_IVAR_$_NFResponseAPDU._status
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._AIDAllowList
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._checkAIDAllowList
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._deactivateAllApps
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._disableCompletionNotification
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._includeAPDUDuration
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._initialSelectBeforeRun
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._seid
+- _OBJC_IVAR_$_NFRunScriptParametersInternal._toSystemOS
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._connection
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._connectionLock
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._eventSendQueue
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._qos
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._qosPropagation
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._serviceName
+- _OBJC_IVAR_$_NFSecureXPCEventPublisher._xpcConnectionQueue
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._allowBackgroundedSession
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._applicationIdentifier
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._bgTagReadingAssertion
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._cardModeAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._chAssertion
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._clientName
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._clientProcessIdentifier
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._dontResetAssertion
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._eCommerceAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._hceAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._ignoreAppStateMonitor
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._internalAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._iso15693ReaderAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._iso15693TagAccessFilters
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._lpemConfigSessionAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._lpmFactoryTest
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._miniNVWriteAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._ndefReaderAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._nfcCardSessionAIDPrefixList
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._nfcCardSessionAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._nfcTagReaderPACEPollingAllow
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._pollingProfileUpdate
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._purpleTrustAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._radioToggle
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._readerInternalAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._readerPurposeString
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._remoteAdminAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._seCredentialManagerAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._seLoggingSessionAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._seSessionAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._seshatAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._singleUserAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._surfSessionAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._tagReaderAccess
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._trustedISO7816AidList
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._useUnfilteredApplets
+- _OBJC_IVAR_$_NFServiceWhitelistChecker._vasReaderAccess
+- _OBJC_IVAR_$_NFTLV._children
+- _OBJC_IVAR_$_NFTLV._tag
+- _OBJC_IVAR_$_NFTLV._value
+- _OBJC_IVAR_$_NFTLV._worseCaseSizeAsData
+- _OBJC_IVAR_$_NFTagInternal._allSystemCodes
+- _OBJC_IVAR_$_NFTagInternal._appData
+- _OBJC_IVAR_$_NFTagInternal._atqa
+- _OBJC_IVAR_$_NFTagInternal._historicalBytes
+- _OBJC_IVAR_$_NFTagInternal._idm
+- _OBJC_IVAR_$_NFTagInternal._ndefAvailability
+- _OBJC_IVAR_$_NFTagInternal._ndefContainerSize
+- _OBJC_IVAR_$_NFTagInternal._ndefMessageSize
+- _OBJC_IVAR_$_NFTagInternal._pmm
+- _OBJC_IVAR_$_NFTagInternal._sak
+- _OBJC_IVAR_$_NFTagInternal._sfgi
+- _OBJC_IVAR_$_NFTagInternal._silentType
+- _OBJC_IVAR_$_NFTagInternal._tagID
+- _OBJC_IVAR_$_NFTagInternal._technology
+- _OBJC_IVAR_$_NFTagInternal._type
+- _OBJC_IVAR_$_NFTagInternal._uid
+- _OBJC_IVAR_$_NFTimer._monotonic
+- _OBJC_IVAR_$_NFTimer._popTimeInSeconds
+- _OBJC_IVAR_$_NFTimer._src
+- _OBJC_IVAR_$_NFVASPassConfig._passIdentifier
+- _OBJC_IVAR_$_NFVASPassConfig._vasMode
+- _OBJC_IVAR_$_NFXPCConnectionUserInfoDictionary._clientName
+- _OBJC_IVAR_$_NFXPCConnectionUserInfoDictionary._data
+- _OBJC_IVAR_$_NFXPCConnectionUserInfoDictionary._dataLock
+- _OBJC_IVAR_$_NFXPCConnectionUserInfoDictionary._serviceWhitelist
+- _OBJC_IVAR_$_NFXPCEventPublisher._pendingSendEvents
+- _OBJC_IVAR_$_NFXPCEventPublisher._publisher
+- _OBJC_IVAR_$_NFXPCEventPublisher._queue
+- _OBJC_IVAR_$_NFXPCEventPublisher._receivedInitialBarrier
+- _OBJC_IVAR_$_NFXPCEventPublisher._streamName
+- _OBJC_IVAR_$_NFXPCEventPublisher._tokens
+- _OBJC_IVAR_$_SecurityInfo._type
+- _OBJC_METACLASS_$_ChipAuthenticationInfo
+- _OBJC_METACLASS_$_NFBackgroundActivityScheduler
+- _OBJC_METACLASS_$_NFCurrency
+- _OBJC_METACLASS_$_NFJSONEncoder
+- _OBJC_METACLASS_$_NFMemoryObserver
+- _OBJC_METACLASS_$_NFSecureXPCEventPublisher
+- _OBJC_METACLASS_$_PaceInfo
+- _OBJC_METACLASS_$_SecurityInfo
+- __MergedGlobals
+- __NFDataDestroy
+- __NFDataScannerDestroy
+- __NFLogCustomLoggers
+- __NFPlatformGetSupportedLPMFlags
+- __NFPowerObserverSystemPowerChanged
+- __NFRootQueueFinalizer
+- __NFSecondarySignpostLog
+- __NFSharedLogClient
+- __NFSharedSignpostLog
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSData_$_HexString
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_NFExtension
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_HexString
+- __OBJC_$_CATEGORY_NSData_$_HexString
+- __OBJC_$_CATEGORY_NSDictionary_$_NFExtension
+- __OBJC_$_CATEGORY_NSString_$_HexString
+- __OBJC_$_CATEGORY_NSXPCConnection_$_NFUserInfo
+- __OBJC_$_CLASS_METHODS_NFAssertionCALogger
+- __OBJC_$_CLASS_METHODS_NFAssertionInternal
+- __OBJC_$_CLASS_METHODS_NFBackgroundActivityScheduler
+- __OBJC_$_CLASS_METHODS_NFCALogger
+- __OBJC_$_CLASS_METHODS_NFCardSessionConfig
+- __OBJC_$_CLASS_METHODS_NFCommandAPDU
+- __OBJC_$_CLASS_METHODS_NFCurrency
+- __OBJC_$_CLASS_METHODS_NFExceptionsCALogger
+- __OBJC_$_CLASS_METHODS_NFGeneralStatisticsCALogger
+- __OBJC_$_CLASS_METHODS_NFJSONEncoder
+- __OBJC_$_CLASS_METHODS_NFLPCDStatisticsCALogger
+- __OBJC_$_CLASS_METHODS_NFMSEIParser
+- __OBJC_$_CLASS_METHODS_NFNSCheckedDecoder
+- __OBJC_$_CLASS_METHODS_NFNdefMessageInternal
+- __OBJC_$_CLASS_METHODS_NFNdefRecordInternal
+- __OBJC_$_CLASS_METHODS_NFPowerAssertion
+- __OBJC_$_CLASS_METHODS_NFReaderModeCardIngestionCALogger
+- __OBJC_$_CLASS_METHODS_NFReaderSessionConfig
+- __OBJC_$_CLASS_METHODS_NFResponseAPDU
+- __OBJC_$_CLASS_METHODS_NFRunScriptParametersInternal
+- __OBJC_$_CLASS_METHODS_NFTLV
+- __OBJC_$_CLASS_METHODS_NFTagInternal
+- __OBJC_$_CLASS_METHODS_NFVASPassConfig
+- __OBJC_$_CLASS_METHODS_SecurityInfo
+- __OBJC_$_CLASS_PROP_LIST_NFAssertionInternal
+- __OBJC_$_CLASS_PROP_LIST_NFCardSessionConfig
+- __OBJC_$_CLASS_PROP_LIST_NFNdefMessageInternal
+- __OBJC_$_CLASS_PROP_LIST_NFNdefRecordInternal
+- __OBJC_$_CLASS_PROP_LIST_NFReaderSessionConfig
+- __OBJC_$_CLASS_PROP_LIST_NFRunScriptParametersInternal
+- __OBJC_$_CLASS_PROP_LIST_NFTagInternal
+- __OBJC_$_CLASS_PROP_LIST_NFVASPassConfig
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_ChipAuthenticationInfo
+- __OBJC_$_INSTANCE_METHODS_NFAccessoryTag
+- __OBJC_$_INSTANCE_METHODS_NFAccessoryTagI2CBridge(NTAG5Boost)
+- __OBJC_$_INSTANCE_METHODS_NFAssertionInternal
+- __OBJC_$_INSTANCE_METHODS_NFBackgroundActivityScheduler
+- __OBJC_$_INSTANCE_METHODS_NFCALogger
+- __OBJC_$_INSTANCE_METHODS_NFCardSessionConfig
+- __OBJC_$_INSTANCE_METHODS_NFCommandAPDU
+- __OBJC_$_INSTANCE_METHODS_NFJSONEncoder
+- __OBJC_$_INSTANCE_METHODS_NFMemoryObserver
+- __OBJC_$_INSTANCE_METHODS_NFNdefMessageInternal
+- __OBJC_$_INSTANCE_METHODS_NFNdefRecordInternal
+- __OBJC_$_INSTANCE_METHODS_NFPowerAssertion
+- __OBJC_$_INSTANCE_METHODS_NFPowerObserver
+- __OBJC_$_INSTANCE_METHODS_NFPreferenceObserver
+- __OBJC_$_INSTANCE_METHODS_NFReaderSessionConfig
+- __OBJC_$_INSTANCE_METHODS_NFResponseAPDU
+- __OBJC_$_INSTANCE_METHODS_NFRunScriptParametersInternal
+- __OBJC_$_INSTANCE_METHODS_NFSecureXPCEventPublisher
+- __OBJC_$_INSTANCE_METHODS_NFServiceWhitelistChecker
+- __OBJC_$_INSTANCE_METHODS_NFTLV
+- __OBJC_$_INSTANCE_METHODS_NFTagInternal
+- __OBJC_$_INSTANCE_METHODS_NFTimer
+- __OBJC_$_INSTANCE_METHODS_NFVASPassConfig
+- __OBJC_$_INSTANCE_METHODS_NFXPCConnectionUserInfoDictionary
+- __OBJC_$_INSTANCE_METHODS_NFXPCEventPublisher
+- __OBJC_$_INSTANCE_METHODS_NSData(HexString|Numeric)
+- __OBJC_$_INSTANCE_METHODS_NSXPCConnection(NFUserInfo|NFWhitelistChecker)
+- __OBJC_$_INSTANCE_METHODS_PaceInfo
+- __OBJC_$_INSTANCE_METHODS_SecurityInfo
+- __OBJC_$_INSTANCE_VARIABLES_ChipAuthenticationInfo
+- __OBJC_$_INSTANCE_VARIABLES_NFAccessoryTag
+- __OBJC_$_INSTANCE_VARIABLES_NFAccessoryTagI2CBridge
+- __OBJC_$_INSTANCE_VARIABLES_NFAssertionInternal
+- __OBJC_$_INSTANCE_VARIABLES_NFBackgroundActivityScheduler
+- __OBJC_$_INSTANCE_VARIABLES_NFCALogger
+- __OBJC_$_INSTANCE_VARIABLES_NFCardSessionConfig
+- __OBJC_$_INSTANCE_VARIABLES_NFCommandAPDU
+- __OBJC_$_INSTANCE_VARIABLES_NFMemoryObserver
+- __OBJC_$_INSTANCE_VARIABLES_NFNdefMessageInternal
+- __OBJC_$_INSTANCE_VARIABLES_NFNdefRecordInternal
+- __OBJC_$_INSTANCE_VARIABLES_NFPowerAssertion
+- __OBJC_$_INSTANCE_VARIABLES_NFPowerObserver
+- __OBJC_$_INSTANCE_VARIABLES_NFPreferenceObserver
+- __OBJC_$_INSTANCE_VARIABLES_NFReaderSessionConfig
+- __OBJC_$_INSTANCE_VARIABLES_NFResponseAPDU
+- __OBJC_$_INSTANCE_VARIABLES_NFRunScriptParametersInternal
+- __OBJC_$_INSTANCE_VARIABLES_NFSecureXPCEventPublisher
+- __OBJC_$_INSTANCE_VARIABLES_NFServiceWhitelistChecker
+- __OBJC_$_INSTANCE_VARIABLES_NFTLV
+- __OBJC_$_INSTANCE_VARIABLES_NFTagInternal
+- __OBJC_$_INSTANCE_VARIABLES_NFTimer
+- __OBJC_$_INSTANCE_VARIABLES_NFVASPassConfig
+- __OBJC_$_INSTANCE_VARIABLES_NFXPCConnectionUserInfoDictionary
+- __OBJC_$_INSTANCE_VARIABLES_NFXPCEventPublisher
+- __OBJC_$_INSTANCE_VARIABLES_PaceInfo
+- __OBJC_$_INSTANCE_VARIABLES_SecurityInfo
+- __OBJC_$_PROP_LIST_ChipAuthenticationInfo
+- __OBJC_$_PROP_LIST_NFAccessoryTag
+- __OBJC_$_PROP_LIST_NFAccessoryTagI2CBridge
+- __OBJC_$_PROP_LIST_NFAssertionInternal
+- __OBJC_$_PROP_LIST_NFBackgroundActivityScheduler
+- __OBJC_$_PROP_LIST_NFCardSessionConfig
+- __OBJC_$_PROP_LIST_NFCommandAPDU
+- __OBJC_$_PROP_LIST_NFNdefMessage
+- __OBJC_$_PROP_LIST_NFNdefMessageInternal
+- __OBJC_$_PROP_LIST_NFNdefRecord
+- __OBJC_$_PROP_LIST_NFNdefRecordInternal
+- __OBJC_$_PROP_LIST_NFPowerAssertion
+- __OBJC_$_PROP_LIST_NFPowerObserver
+- __OBJC_$_PROP_LIST_NFPreferenceObserver
+- __OBJC_$_PROP_LIST_NFReaderSessionConfig
+- __OBJC_$_PROP_LIST_NFResponseAPDU
+- __OBJC_$_PROP_LIST_NFRunScriptParametersInternal
+- __OBJC_$_PROP_LIST_NFSecureXPCEventPublisher
+- __OBJC_$_PROP_LIST_NFServiceWhitelistChecker
+- __OBJC_$_PROP_LIST_NFTLV
+- __OBJC_$_PROP_LIST_NFTag
+- __OBJC_$_PROP_LIST_NFTagA
+- __OBJC_$_PROP_LIST_NFTagB
+- __OBJC_$_PROP_LIST_NFTagF
+- __OBJC_$_PROP_LIST_NFTagInternal
+- __OBJC_$_PROP_LIST_NFVASPassConfig
+- __OBJC_$_PROP_LIST_NFXPCConnectionUserInfoDictionary
+- __OBJC_$_PROP_LIST_NFXPCEventPublisher
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROP_LIST_NSXPCConnection_$_NFUserInfo
+- __OBJC_$_PROP_LIST_PaceInfo
+- __OBJC_$_PROP_LIST_SecurityInfo
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefMessage
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFNdefRecord
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagA
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagB
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFTagF
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefMessage
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFNdefRecord
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagA
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagB
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFTagF
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_REFS_NFNdefMessage
+- __OBJC_$_PROTOCOL_REFS_NFNdefRecord
+- __OBJC_$_PROTOCOL_REFS_NFTag
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_CLASS_PROTOCOLS_$_NFAssertionInternal
+- __OBJC_CLASS_PROTOCOLS_$_NFCardSessionConfig
+- __OBJC_CLASS_PROTOCOLS_$_NFNdefMessageInternal
+- __OBJC_CLASS_PROTOCOLS_$_NFNdefRecordInternal
+- __OBJC_CLASS_PROTOCOLS_$_NFReaderSessionConfig
+- __OBJC_CLASS_PROTOCOLS_$_NFRunScriptParametersInternal
+- __OBJC_CLASS_PROTOCOLS_$_NFServiceWhitelistChecker
+- __OBJC_CLASS_PROTOCOLS_$_NFTagInternal
+- __OBJC_CLASS_PROTOCOLS_$_NFVASPassConfig
+- __OBJC_CLASS_RO_$_ChipAuthenticationInfo
+- __OBJC_CLASS_RO_$_NFAccessoryTag
+- __OBJC_CLASS_RO_$_NFAccessoryTagI2CBridge
+- __OBJC_CLASS_RO_$_NFAssertionCALogger
+- __OBJC_CLASS_RO_$_NFAssertionInternal
+- __OBJC_CLASS_RO_$_NFBackgroundActivityScheduler
+- __OBJC_CLASS_RO_$_NFCALogger
+- __OBJC_CLASS_RO_$_NFCardSessionConfig
+- __OBJC_CLASS_RO_$_NFCommandAPDU
+- __OBJC_CLASS_RO_$_NFCurrency
+- __OBJC_CLASS_RO_$_NFExceptionsCALogger
+- __OBJC_CLASS_RO_$_NFGeneralStatisticsCALogger
+- __OBJC_CLASS_RO_$_NFJSONEncoder
+- __OBJC_CLASS_RO_$_NFLPCDStatisticsCALogger
+- __OBJC_CLASS_RO_$_NFMSEIParser
+- __OBJC_CLASS_RO_$_NFMemoryObserver
+- __OBJC_CLASS_RO_$_NFNSCheckedDecoder
+- __OBJC_CLASS_RO_$_NFNdefMessageInternal
+- __OBJC_CLASS_RO_$_NFNdefRecordInternal
+- __OBJC_CLASS_RO_$_NFPowerAssertion
+- __OBJC_CLASS_RO_$_NFPowerObserver
+- __OBJC_CLASS_RO_$_NFPreferenceObserver
+- __OBJC_CLASS_RO_$_NFReaderModeCardIngestionCALogger
+- __OBJC_CLASS_RO_$_NFReaderSessionConfig
+- __OBJC_CLASS_RO_$_NFResponseAPDU
+- __OBJC_CLASS_RO_$_NFRunScriptParametersInternal
+- __OBJC_CLASS_RO_$_NFSecureXPCEventPublisher
+- __OBJC_CLASS_RO_$_NFServiceWhitelistChecker
+- __OBJC_CLASS_RO_$_NFTLV
+- __OBJC_CLASS_RO_$_NFTagInternal
+- __OBJC_CLASS_RO_$_NFTimer
+- __OBJC_CLASS_RO_$_NFVASPassConfig
+- __OBJC_CLASS_RO_$_NFXPCConnectionUserInfoDictionary
+- __OBJC_CLASS_RO_$_NFXPCEventPublisher
+- __OBJC_CLASS_RO_$_PaceInfo
+- __OBJC_CLASS_RO_$_SecurityInfo
+- __OBJC_LABEL_PROTOCOL_$_NFNdefMessage
+- __OBJC_LABEL_PROTOCOL_$_NFNdefRecord
+- __OBJC_LABEL_PROTOCOL_$_NFTag
+- __OBJC_LABEL_PROTOCOL_$_NFTagA
+- __OBJC_LABEL_PROTOCOL_$_NFTagB
+- __OBJC_LABEL_PROTOCOL_$_NFTagF
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_METACLASS_RO_$_ChipAuthenticationInfo
+- __OBJC_METACLASS_RO_$_NFAccessoryTag
+- __OBJC_METACLASS_RO_$_NFAccessoryTagI2CBridge
+- __OBJC_METACLASS_RO_$_NFAssertionCALogger
+- __OBJC_METACLASS_RO_$_NFAssertionInternal
+- __OBJC_METACLASS_RO_$_NFBackgroundActivityScheduler
+- __OBJC_METACLASS_RO_$_NFCALogger
+- __OBJC_METACLASS_RO_$_NFCardSessionConfig
+- __OBJC_METACLASS_RO_$_NFCommandAPDU
+- __OBJC_METACLASS_RO_$_NFCurrency
+- __OBJC_METACLASS_RO_$_NFExceptionsCALogger
+- __OBJC_METACLASS_RO_$_NFGeneralStatisticsCALogger
+- __OBJC_METACLASS_RO_$_NFJSONEncoder
+- __OBJC_METACLASS_RO_$_NFLPCDStatisticsCALogger
+- __OBJC_METACLASS_RO_$_NFMSEIParser
+- __OBJC_METACLASS_RO_$_NFMemoryObserver
+- __OBJC_METACLASS_RO_$_NFNSCheckedDecoder
+- __OBJC_METACLASS_RO_$_NFNdefMessageInternal
+- __OBJC_METACLASS_RO_$_NFNdefRecordInternal
+- __OBJC_METACLASS_RO_$_NFPowerAssertion
+- __OBJC_METACLASS_RO_$_NFPowerObserver
+- __OBJC_METACLASS_RO_$_NFPreferenceObserver
+- __OBJC_METACLASS_RO_$_NFReaderModeCardIngestionCALogger
+- __OBJC_METACLASS_RO_$_NFReaderSessionConfig
+- __OBJC_METACLASS_RO_$_NFResponseAPDU
+- __OBJC_METACLASS_RO_$_NFRunScriptParametersInternal
+- __OBJC_METACLASS_RO_$_NFSecureXPCEventPublisher
+- __OBJC_METACLASS_RO_$_NFServiceWhitelistChecker
+- __OBJC_METACLASS_RO_$_NFTLV
+- __OBJC_METACLASS_RO_$_NFTagInternal
+- __OBJC_METACLASS_RO_$_NFTimer
+- __OBJC_METACLASS_RO_$_NFVASPassConfig
+- __OBJC_METACLASS_RO_$_NFXPCConnectionUserInfoDictionary
+- __OBJC_METACLASS_RO_$_NFXPCEventPublisher
+- __OBJC_METACLASS_RO_$_PaceInfo
+- __OBJC_METACLASS_RO_$_SecurityInfo
+- __OBJC_PROTOCOL_$_NFNdefMessage
+- __OBJC_PROTOCOL_$_NFNdefRecord
+- __OBJC_PROTOCOL_$_NFTag
+- __OBJC_PROTOCOL_$_NFTagA
+- __OBJC_PROTOCOL_$_NFTagB
+- __OBJC_PROTOCOL_$_NFTagF
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagA
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagB
+- __OBJC_PROTOCOL_REFERENCE_$_NFTagF
+- __TLVCreateWithBytes
+- __Unwind_Resume
+- ___120-[NFBackgroundActivityScheduler backgroundActivityScheduler:interval:tolerance:repeats:qualityOfService:delay:callback:]_block_invoke
+- ___120-[NFBackgroundActivityScheduler backgroundActivityScheduler:interval:tolerance:repeats:qualityOfService:delay:callback:]_block_invoke.12
+- ___25-[NFMemoryObserver start]_block_invoke
+- ___28+[NFCALogger sharedCALogger]_block_invoke
+- ___29-[NFPowerAssertion dumpState]_block_invoke
+- ___38-[NFJSONEncoder _JSONCompatibleArray:]_block_invoke
+- ___39-[NFSecureXPCEventPublisher invalidate]_block_invoke
+- ___40+[NFPowerAssertion sharedPowerAssertion]_block_invoke
+- ___40-[NFCALogger postCAEventFor:eventInput:]_block_invoke
+- ___43-[NFJSONEncoder _JSONCompatibleDictionary:]_block_invoke
+- ___48-[NFXPCEventPublisher initWithStreamName:queue:]_block_invoke
+- ___48-[NFXPCEventPublisher initWithStreamName:queue:]_block_invoke_2
+- ___48-[NFXPCEventPublisher sendXpcNotificationEvent:]_block_invoke
+- ___49-[NFSecureXPCEventPublisher _sendEvent:dispatch:]_block_invoke
+- ___49-[NFSecureXPCEventPublisher _sendEvent:dispatch:]_block_invoke_2
+- ___49-[NFSecureXPCEventPublisher _syncSetupConnection]_block_invoke
+- ___49-[NFSecureXPCEventPublisher _syncSetupConnection]_block_invoke.4
+- ___51+[NFCurrency getCurrencyStringCodeFromNumericCode:]_block_invoke
+- ___52-[NFBackgroundActivityScheduler unregisterActivity:]_block_invoke
+- ___53+[NFNSCheckedDecoder coder:decodeDictOfClass:forKey:]_block_invoke
+- ___54+[NFNSCheckedDecoder coder:decodeArrayOfClass:forKey:]_block_invoke
+- ___60+[NFGeneralStatisticsCALogger updateGeneralDeviceStatistic:]_block_invoke
+- ___61+[NFNSCheckedDecoder coder:decodeArrayOfArrayOfClass:forKey:]_block_invoke
+- ___61+[NFNSCheckedDecoder coder:decodeArrayOfArrayOfClass:forKey:]_block_invoke.4
+- ___66+[NFBackgroundActivityScheduler sharedBackgroundActivityScheduler]_block_invoke
+- ___72-[NFBackgroundActivityScheduler schedulePreRegisteredActivity:callback:]_block_invoke
+- ___72-[NFBackgroundActivityScheduler schedulePreRegisteredActivity:callback:]_block_invoke.9
+- ___75+[NFGeneralStatisticsCALogger updateAnalyticsGeneralTransactionStatistics:]_block_invoke
+- ___99-[NFSecureXPCEventPublisher initWithMachPort:qosPropagation:qos:xpcConnectionQueue:eventSendQueue:]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___CoreAnalyticsLibraryCore_block_invoke
+- ___NFBootUUID_block_invoke
+- ___NFBuildVersion_block_invoke
+- ___NFGetProductType_block_invoke
+- ___NFIsChinaSku_block_invoke
+- ___NFIsDarwinOS_block_invoke
+- ___NFIsGreenTea_block_invoke
+- ___NFIsInternalBuild_block_invoke
+- ___NFIsRestoreOS_block_invoke
+- ___NFIsSimulator_block_invoke
+- ___NFIsUIBuild_block_invoke
+- ___NFProductGetName_block_invoke
+- ___NFProductHasB0LPKey_block_invoke
+- ___NFProductHasNFCRadio_block_invoke
+- ___NFProductHasThermistor_block_invoke
+- ___NFProductIsDevBoard_block_invoke
+- ___NFProductIsVM_block_invoke
+- ___NFProductSupportsAC_block_invoke
+- ___NFProductSupportsNFCReader_block_invoke
+- ___NFSharedLogInitialize_block_invoke
+- ___NFSharedLogTransport_block_invoke
+- ___NFSharedLogTransport_block_invoke_2
+- ___NFSharedMiddlewareSignpostLog_block_invoke
+- ____GetDeviceClass_block_invoke
+- ____isInRestoreOS_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e5_v8?0l
+- ___block_descriptor_40_e8_32r_e5_v8?0lr32l8
+- ___block_descriptor_40_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e25_v32?0"NSString"816^B24ls32l8
+- ___block_descriptor_40_e8_32s_e41_v32?0"NSString"8"NSMutableArray"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e39_v28?0I8Q12"NSObject<OS_xpc_object>"20lw32l8
+- ___block_descriptor_48_e8_32s40r_e25_v32?0"NSString"816^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e15_v16?0?<v?q>8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e15_v32?0816^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e15_v32?08Q16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32w_e33_v16?0"NSObject<OS_xpc_object>"8lw32l8
+- ___block_descriptor_56_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40w_e8_v12?0i8lw40l8s32l8
+- ___block_descriptor_64_e8_32r_e15_v32?0816^B24lu40l8r32l8
+- ___block_descriptor_64_e8_32r_e15_v32?08Q16^B24lu40l8r32l8
+- ___block_descriptor_64_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32r40r_e15_v32?08Q16^B24lr32l8u64l8r40l8
+- ___block_descriptor_97_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_tmp
+- ___block_descriptor_tmp.106
+- ___block_descriptor_tmp.109
+- ___block_descriptor_tmp.119
+- ___block_descriptor_tmp.122
+- ___block_descriptor_tmp.125
+- ___block_descriptor_tmp.14
+- ___block_descriptor_tmp.19
+- ___block_descriptor_tmp.20
+- ___block_descriptor_tmp.25
+- ___block_descriptor_tmp.26
+- ___block_descriptor_tmp.29
+- ___block_descriptor_tmp.32
+- ___block_descriptor_tmp.41
+- ___block_descriptor_tmp.47
+- ___block_descriptor_tmp.5
+- ___block_descriptor_tmp.53
+- ___block_descriptor_tmp.65
+- ___block_descriptor_tmp.7
+- ___block_descriptor_tmp.71
+- ___block_descriptor_tmp.75
+- ___block_descriptor_tmp.81
+- ___block_descriptor_tmp.87
+- ___block_descriptor_tmp.96
+- ___block_literal_global
+- ___block_literal_global.108
+- ___block_literal_global.111
+- ___block_literal_global.121
+- ___block_literal_global.124
+- ___block_literal_global.127
+- ___block_literal_global.16
+- ___block_literal_global.21
+- ___block_literal_global.22
+- ___block_literal_global.28
+- ___block_literal_global.31
+- ___block_literal_global.34
+- ___block_literal_global.43
+- ___block_literal_global.49
+- ___block_literal_global.55
+- ___block_literal_global.67
+- ___block_literal_global.7
+- ___block_literal_global.73
+- ___block_literal_global.77
+- ___block_literal_global.83
+- ___block_literal_global.89
+- ___block_literal_global.9
+- ___block_literal_global.98
+- ___featureESEReader_block_invoke
+- ___featureExpress_block_invoke
+- ___func__.NFLogGetLogger
+- ___getAnalyticsSendEventLazySymbolLoc_block_invoke
+- ___memcpy_chk
+- ___objc_personality_v0
+- __dispatch_main_q
+- __dispatch_source_type_memorypressure
+- __sl_dlopen
+- __xpc_error_connection_interrupted
+- __xpc_error_connection_invalid
+- __xpc_error_key_description
+- __xpc_type_dictionary
+- __xpc_type_error
+- _abort_report_np
+- _audit_stringCoreAnalytics
+- _dispatch_block_create_with_qos_class
+- _dispatch_resume
+- _dispatch_source_get_data
+- _dlerror
+- _dlsym
+- _featureESEReader
+- _featureExpress
+- _featureFuncs
+- _featurePlatformHostWakeSupported
+- _featureUnknown
+- _gRootQueue
+- _gRootQueueMutex
+- _gUniversityCodes
+- _memcmp
+- _objc_msgSend$ISOCurrencyCodes
+- _objc_msgSend$NF_asHexString
+- _objc_msgSend$NF_dataWithHexString:
+- _objc_msgSend$NF_objectForKey:expectedClass:
+- _objc_msgSend$NF_stringForKey:
+- _objc_msgSend$NF_userInfo
+- _objc_msgSend$PMm
+- _objc_msgSend$SystemCode
+- _objc_msgSend$TLVWithData:
+- _objc_msgSend$TLVWithTag:children:
+- _objc_msgSend$TLVWithTag:value:
+- _objc_msgSend$TLVsWithData:
+- _objc_msgSend$UID
+- _objc_msgSend$URLByDeletingLastPathComponent
+- _objc_msgSend$UTF8String
+- _objc_msgSend$UUID
+- _objc_msgSend$UUIDString
+- _objc_msgSend$_JSONCompatibleArray:
+- _objc_msgSend$_JSONCompatibleDictionary:
+- _objc_msgSend$_arrayValueOfEntitlement:secTask:
+- _objc_msgSend$_boolValueOfEntitlement:secTask:
+- _objc_msgSend$_bridgeType0CreateAccessoryHeaderWithBuffer:pageLength:isLastPage:
+- _objc_msgSend$_bridgeType0ReadMultipleSRAMPagesWithBuffer:
+- _objc_msgSend$_bridgeType0WriteOneSRAMPage:fragmentationSupport:isLastPage:
+- _objc_msgSend$_bridgeType0WritePollForCompletionWithTimeout:
+- _objc_msgSend$_bridgeType0WritePollForSystemReadyWithTimeout:beforeWrite:outError:
+- _objc_msgSend$_copyValueOfEntitlement:secTask:
+- _objc_msgSend$_createAccessDictionaryFromICCode:serialNumber:maximumFilterStringLength:
+- _objc_msgSend$_decodeTextRecord:
+- _objc_msgSend$_decodeTextRecordLanguage:
+- _objc_msgSend$_decodeTextRecordText:
+- _objc_msgSend$_decodeURIRecord:
+- _objc_msgSend$_getSystemCodeListString
+- _objc_msgSend$_incrementMiddlewareExceptionCountWithReset:
+- _objc_msgSend$_initCardSessionEntitlementsWithSecTask:
+- _objc_msgSend$_initCoreNFCEntitlements:secTask:
+- _objc_msgSend$_initISO15693TagSpecifier:
+- _objc_msgSend$_initISO7816PermissibleAIDListWithSecTask:infoPlist:
+- _objc_msgSend$_initTagSpecifier:maximumFilterStringLength:
+- _objc_msgSend$_intToData:
+- _objc_msgSend$_isAIDStringValid:
+- _objc_msgSend$_parseTLVs:end:simple:definite:
+- _objc_msgSend$_powerNotificationMessage:argument:
+- _objc_msgSend$_readFromBridgeType0:fragmentationSupport:
+- _objc_msgSend$_resetGeneralDeviceStatisticToDefaults
+- _objc_msgSend$_selectTagType0
+- _objc_msgSend$_setIdLengthPresent:
+- _objc_msgSend$_setupInitValuesForGeneralTransactionStatistics
+- _objc_msgSend$_stringFromArray:
+- _objc_msgSend$_stringFromISO15693AccessFilterList
+- _objc_msgSend$_stringValueOfEntitlement:secTask:
+- _objc_msgSend$_syncSetupConnection
+- _objc_msgSend$_type0ReadConfigRange:data:
+- _objc_msgSend$_type0ReadConfigReg:data:
+- _objc_msgSend$_type0ReadSRAM:numOfBlocks:data:
+- _objc_msgSend$_type0WriteSRAM:data:
+- _objc_msgSend$_writeToBridgeType0:fragmentationSupport:
+- _objc_msgSend$activityMap
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$allSystemCodes
+- _objc_msgSend$allocWithZone:
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$array
+- _objc_msgSend$asData
+- _objc_msgSend$asDictionary
+- _objc_msgSend$asMutableData
+- _objc_msgSend$assertionTime
+- _objc_msgSend$assertionType
+- _objc_msgSend$atqa
+- _objc_msgSend$auditToken
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$boolValue
+- _objc_msgSend$bytes
+- _objc_msgSend$callbackMap
+- _objc_msgSend$caseInsensitiveCompare:
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$characterIsMember:
+- _objc_msgSend$characterSetWithCharactersInString:
+- _objc_msgSend$children
+- _objc_msgSend$chunked
+- _objc_msgSend$clientName
+- _objc_msgSend$clss
+- _objc_msgSend$code
+- _objc_msgSend$coder:decodeArrayOfClass:forKey:
+- _objc_msgSend$compare:options:range:
+- _objc_msgSend$componentsSeparatedByString:
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$connection
+- _objc_msgSend$copy
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentCalendar
+- _objc_msgSend$dataFromNDEFMessage:
+- _objc_msgSend$dataFromRecord:
+- _objc_msgSend$dataWithBytes:length:
+- _objc_msgSend$dataWithJSONObject:options:error:
+- _objc_msgSend$date
+- _objc_msgSend$decode
+- _objc_msgSend$decodeBoolForKey:
+- _objc_msgSend$decodeFromNDEFMessage:
+- _objc_msgSend$decodeFromRecord:
+- _objc_msgSend$decodeInt32ForKey:
+- _objc_msgSend$decodeIntForKey:
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$decodeObjectOfClasses:forKey:
+- _objc_msgSend$delegate
+- _objc_msgSend$description
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$dumpState
+- _objc_msgSend$encodeBool:forKey:
+- _objc_msgSend$encodeInt32:forKey:
+- _objc_msgSend$encodeInt:forKey:
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$eventSendQueue
+- _objc_msgSend$fileURLWithPath:isDirectory:
+- _objc_msgSend$generateDailyUUIDForCA
+- _objc_msgSend$getActivity:
+- _objc_msgSend$getAppInfoDictionary
+- _objc_msgSend$getBatteryPercent
+- _objc_msgSend$getBytes:range:
+- _objc_msgSend$getCALoggerUserDefaults
+- _objc_msgSend$getCallbacks:
+- _objc_msgSend$getCharacters:range:
+- _objc_msgSend$getMiddlewareExceptionCount
+- _objc_msgSend$getUUIDBytes:
+- _objc_msgSend$handleEventWithAction:token:descriptor:
+- _objc_msgSend$handlePreferencesOrProfileChanged
+- _objc_msgSend$hasPrefix:
+- _objc_msgSend$hasSuffix:
+- _objc_msgSend$hash
+- _objc_msgSend$header
+- _objc_msgSend$historicalBytes
+- _objc_msgSend$holdPowerAssertion:onBehalfOf:
+- _objc_msgSend$identifier
+- _objc_msgSend$init
+- _objc_msgSend$initCallbackArray:
+- _objc_msgSend$initWithArray:
+- _objc_msgSend$initWithBytes:length:
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithConnection:coreNFCConnection:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithData:uniformLengthCheck:
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithHeader:type:identifier:payload:
+- _objc_msgSend$initWithIdentifier:
+- _objc_msgSend$initWithLength:
+- _objc_msgSend$initWithMachPort:qosPropagation:qos:xpcConnectionQueue:eventSendQueue:
+- _objc_msgSend$initWithMachPort:xpcConnectionQueue:eventSendQueue:
+- _objc_msgSend$initWithNDEFRecord:
+- _objc_msgSend$initWithObjects:
+- _objc_msgSend$initWithObjectsAndKeys:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithSuiteName:
+- _objc_msgSend$initWithType:delegate:
+- _objc_msgSend$initWithUTF8String:
+- _objc_msgSend$initialUIText
+- _objc_msgSend$instruction
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$integerValue
+- _objc_msgSend$invalidate
+- _objc_msgSend$isDateInToday:
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToNumber:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isMemberOfClass:
+- _objc_msgSend$lastObject
+- _objc_msgSend$length
+- _objc_msgSend$member:
+- _objc_msgSend$messageBegin
+- _objc_msgSend$messageEnd
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$ndefAvailability
+- _objc_msgSend$ndefContainerSize
+- _objc_msgSend$ndefMessageSize
+- _objc_msgSend$nfcISO15693ReaderAccess
+- _objc_msgSend$nfcNDEFReaderAccess
+- _objc_msgSend$nfcTagReaderAccess
+- _objc_msgSend$nfcVASReaderAccess
+- _objc_msgSend$now
+- _objc_msgSend$numberWithBool:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$numberWithUnsignedLong:
+- _objc_msgSend$numberWithUnsignedLongLong:
+- _objc_msgSend$numberWithUnsignedShort:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$objectsForKeys:notFoundMarker:
+- _objc_msgSend$p1
+- _objc_msgSend$parseRecordUsingScanner:header:type:identifier:payload:
+- _objc_msgSend$payload
+- _objc_msgSend$pid
+- _objc_msgSend$postAnalyticsSERemovedEvent:hasExpressTransactionStarted:hasCardEmulationStarted:hardwareType:
+- _objc_msgSend$postCAEventFor:eventInput:
+- _objc_msgSend$postCASERestrictedModeExited:
+- _objc_msgSend$postHardwareExceptionEventWithAssertionCounter:hardwareType:wdogDump:hwFltDump:wdgTickInfo:assertionData:
+- _objc_msgSend$postMiddlewareExceptionEvent:mwVersion:errorType:errorCode:breadcrumb:description:
+- _objc_msgSend$powerObserverSystemHasPoweredOn:
+- _objc_msgSend$powerObserverSystemWillSleep:
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$processInfo
+- _objc_msgSend$processName
+- _objc_msgSend$qos
+- _objc_msgSend$qosPropagation
+- _objc_msgSend$records
+- _objc_msgSend$recordsFromBytes:length:
+- _objc_msgSend$registerActivity:identifier:
+- _objc_msgSend$registerCallback:identifier:
+- _objc_msgSend$releasePowerAssertion:logFaultOnOverRelease:
+- _objc_msgSend$removeAllObjects
+- _objc_msgSend$removeLastObject
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeRestrictedMode
+- _objc_msgSend$replaceBytesInRange:withBytes:length:
+- _objc_msgSend$resetCALoadStackExceptionCount
+- _objc_msgSend$restrictedMode
+- _objc_msgSend$roundToSignificantDigit:forValue:
+- _objc_msgSend$sak
+- _objc_msgSend$scanCharactersFromSet:intoString:
+- _objc_msgSend$scanHexInt:
+- _objc_msgSend$scannerWithString:
+- _objc_msgSend$scheduleWithBlock:
+- _objc_msgSend$selected
+- _objc_msgSend$selectedAID
+- _objc_msgSend$sendXpcNotificationEvent:
+- _objc_msgSend$serviceName
+- _objc_msgSend$serviceWhitelist
+- _objc_msgSend$setApplicationIdentifier:
+- _objc_msgSend$setCallback:
+- _objc_msgSend$setChunked:
+- _objc_msgSend$setConnection:
+- _objc_msgSend$setDelay:
+- _objc_msgSend$setHeader:
+- _objc_msgSend$setIdentifier:
+- _objc_msgSend$setInitialUIText:
+- _objc_msgSend$setInterval:
+- _objc_msgSend$setMessageBegin:
+- _objc_msgSend$setMessageEnd:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setPayload:
+- _objc_msgSend$setPreregistered:
+- _objc_msgSend$setQualityOfService:
+- _objc_msgSend$setRepeats:
+- _objc_msgSend$setRestrictedMode:
+- _objc_msgSend$setSelected:
+- _objc_msgSend$setShortRecord:
+- _objc_msgSend$setTolerance:
+- _objc_msgSend$setTransactionCounter:
+- _objc_msgSend$setType:
+- _objc_msgSend$setTypeNameFormat:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$sfgi
+- _objc_msgSend$sharedCALogger
+- _objc_msgSend$shortRecord
+- _objc_msgSend$simpleTLVsWithData:
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$startTimer:leeway:
+- _objc_msgSend$stop
+- _objc_msgSend$stringByTrimmingCharactersInSet:
+- _objc_msgSend$stringForKey:
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$subdataWithRange:
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$substringToIndex:
+- _objc_msgSend$substringWithRange:
+- _objc_msgSend$synchronize
+- _objc_msgSend$tag
+- _objc_msgSend$tagID
+- _objc_msgSend$tagUUID
+- _objc_msgSend$technology
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$transactionCounter
+- _objc_msgSend$transceive:response:maxTimeout:
+- _objc_msgSend$type
+- _objc_msgSend$typeNameFormat
+- _objc_msgSend$unregisterForEvents
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$unsignedLongLongValue
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$updateAnalyticsGeneralTransactionStatistics:
+- _objc_msgSend$updateGeneralDeviceStatistic:
+- _objc_msgSend$uppercaseString
+- _objc_msgSend$userInfo
+- _objc_msgSend$validateISO15693TagAccessWithManufacturerCode:serialNumber:
+- _objc_msgSend$value
+- _objc_msgSend$valueAsUnsignedLong
+- _objc_msgSend$whitespaceAndNewlineCharacterSet
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x26
+- _objc_retain_x9
+- _objc_setProperty_atomic
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _postAnalyticsDefaultAppSupression:prepOnly:.assertions
+- _sysctlbyname
+- _ucurr_getDefaultFractionDigits
+- _ucurr_getNumericCode
+- _uuid_parse
+- _xpc_connection_activate
+- _xpc_connection_cancel
+- _xpc_connection_create_mach_service
+- _xpc_connection_send_message
+- _xpc_connection_send_notification
+- _xpc_connection_set_event_handler
+- _xpc_dictionary_get_value
+- _xpc_equal
+- _xpc_get_type
+- _xpc_int64_create
+- _xpc_string_create
+- _xpc_string_get_string_ptr
+- _xpc_type_get_name
+CStrings:
++ "%c[%{public}s %{public}s]:%i Couldn't get localized name for %@ - %@"
++ "%c[%{public}s %{public}s]:%i Failed to get power assertion - system already going to sleep"
++ "%c[%{public}s %{public}s]:%i Have not received initial barrier; not sending %@"
++ "%c[%{public}s %{public}s]:%i XPC event publisher for stream %@ received initial barrier"
++ "%c[%{public}s %{public}s]:%i XPC event publisher for stream %@ with action = %d"
++ "%s:%i String is of invalid length=%ld with 0x prefix"
++ "%{public}s:%i String is of invalid length=%ld with 0x prefix"
++ "/System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics"
++ "B28@0:8@16I24"
++ "B32@0:8@16i24I28"
++ "CFBundleIdentifier"
++ "CallbackUUID"
++ "Comparison"
++ "ConfigType"
++ "Critical error : this device should have NFC !!! cache = %d, new = $%d"
++ "NFAssertionTimeString"
++ "NFCTKPollConfig"
++ "NFReaderSessionPollConfig"
++ "NF_callbackUUID"
++ "NF_clearCallbackUUID"
++ "NF_hasPrefix:"
++ "NF_setCallbackUUID:"
++ "PaymentTagReader"
++ "T@\"NSArray\",&,N,V_appletIdentifiers"
++ "T@\"NSData\",&,N,V_ecp"
++ "T@\"NSNumber\",&,N,V_typeFSystemCode"
++ "TB,N,V_fieldDetect"
++ "TB,N,V_lpcd"
++ "TB,N,V_skipMifareClassify"
++ "TB,R,N,V_cardMigrationAccess"
++ "TB,R,N,V_nfcHardwareRegistersAccess"
++ "TI,N,V_pollDuration"
++ "TI,N,V_technology"
++ "TQ,N,V_type"
++ "_appletIdentifiers"
++ "_assertionTimeString"
++ "_cardMigrationAccess"
++ "_ecp"
++ "_fieldDetect"
++ "_lpcd"
++ "_nfcHardwareRegistersAccess"
++ "_pollDuration"
++ "_skipMifareClassify"
++ "_typeFSystemCode"
++ "_validate"
++ "aids"
++ "aliroEndpointCount"
++ "alishaEndpointCount"
++ "appletIdentifiers"
++ "cardMigrationAccess"
++ "com.apple.nfcd.exceptions.hardwareFault"
++ "com.apple.nfcd.session.cardmigration"
++ "com.apple.nfcd.session.hardwareRegisters"
++ "ecp"
++ "errorStatus"
++ "faultType"
++ "fd"
++ "fieldDetect"
++ "holdPowerAssertion:behaviourWhenSleepStarted:"
++ "holdPowerAssertion:onBehalfOf:behaviourWhenSleepStarted:"
++ "initWithAppletIdentifiers:"
++ "initWithBundleIdentifier:allowPlaceholder:error:"
++ "isEqualToData:"
++ "localizedAppName"
++ "localizedName"
++ "lpcd"
++ "nfcHardwareRegistersAccess"
++ "parityErrorCount"
++ "pollConfigWithAppletIdentifiers:"
++ "pollConfigWithTechnology:"
++ "pollConfigWithTypeFSystemCode:"
++ "pollDuration"
++ "postAnalyticsHardwareFault:errorStatus:parityErrorCount:"
++ "postAnalyticsSERestrictedModeExited:exitReason:"
++ "postCASERestrictedModeExited:exitReason:"
++ "remainingTime"
++ "setAppletIdentifiers:"
++ "setEcp:"
++ "setFieldDetect:"
++ "setLpcd:"
++ "setPollDuration:"
++ "setSkipMifareClassify:"
++ "setTechnology:"
++ "setTypeFSystemCode:"
++ "skipMifareClassify"
++ "tech"
++ "timeIntervalSince1970"
++ "typeFSystemCode"
++ "uaCorporateEndpointCount"
++ "uaHomeEndpointCount"
+- "$"
+- "%c[%{public}s %{public}s]:%i "
+- "%c[%{public}s %{public}s]:%i %s"
+- "%c[%{public}s %{public}s]:%i %{public}@ found"
+- "%c[%{public}s %{public}s]:%i DomainParameterInfo found"
+- "%c[%{public}s %{public}s]:%i Incorrect type for version"
+- "%c[%{public}s %{public}s]:%i Invalid connection creation"
+- "%c[%{public}s %{public}s]:%i Invalid dictionary content: %{public}@"
+- "%c[%{public}s %{public}s]:%i Invalid event type: %s"
+- "%c[%{public}s %{public}s]:%i Invalid protocol: %{public}@"
+- "%c[%{public}s %{public}s]:%i Service interrupted: %@"
+- "%c[%{public}s %{public}s]:%i Service not available: %@"
+- "%c[%{public}s %{public}s]:%i Service unavailable: %{public}@"
+- "%c[%{public}s %{public}s]:%i Unexpected # of elements in sequence"
+- "%c[%{public}s %{public}s]:%i Unexpected ASN sequence item 0: %{public}@"
+- "%c[%{public}s %{public}s]:%i Unexpected typed: %s"
+- "%c[%{public}s %{public}s]:%i Unexpected version: %lu"
+- "%c[%{public}s %{public}s]:%i getActivity for identifier (%{public}@): %{public}@"
+- "%c[%{public}s %{public}s]:%i getActivity for identifier (%{public}@): nil, generated new activity: %{public}@"
+- "%c[%{public}s %{public}s]:%i getActivity for identifier (%{public}@): nil. New activity: %{public}@"
+- "%c[%{public}s %{public}s]:%i unregisterActivity %{public}@ for identifier: %{public}@"
+- "%s:%i Memory Pressure Critical - Jetsam?"
+- "%{public}s:%i Memory Pressure Critical - Jetsam?"
+- "+[SecurityInfo securityInfoArrayFromData:]"
+- ", keyId=%@"
+- ", parameterId=%@"
+- "-[NFMemoryObserver start]_block_invoke"
+- "@\"NSObject<OS_xpc_object>\""
+- "@\"NSUserDefaults\""
+- "@24@0:8q16"
+- "@40@0:8@16@24@32"
+- "@48@0:8@16B24I28@32@40"
+- "AnalyticsSendEventLazy"
+- "CA"
+- "CI"
+- "ChipAuthProtocolMapper"
+- "ChipAuthenticationInfo"
+- "DH_3DES_CBC_CBC"
+- "DH_AES_CBC_CMAC_128"
+- "DH_AES_CBC_CMAC_192"
+- "DH_AES_CBC_CMAC_256"
+- "DH_GM_3DES_CBC_CBC"
+- "DH_GM_AES_CBC_CMAC_128"
+- "DH_GM_AES_CBC_CMAC_192"
+- "DH_GM_AES_CBC_CMAC_256"
+- "DH_IM_3DES_CBC_CBC"
+- "DH_IM_AES_CBC_CMAC_128"
+- "DH_IM_AES_CBC_CMAC_192"
+- "DH_IM_AES_CBC_CMAC_256"
+- "ECDH_3DES_CBC_CBC"
+- "ECDH_AES_CBC_CMAC_128"
+- "ECDH_AES_CBC_CMAC_192"
+- "ECDH_AES_CBC_CMAC_256"
+- "ECDH_CAM_AES_CBC_CMAC_128"
+- "ECDH_CAM_AES_CBC_CMAC_192"
+- "ECDH_CAM_AES_CBC_CMAC_256"
+- "ECDH_GM_3DES_CBC_CBC"
+- "ECDH_GM_AES_CBC_CMAC_128"
+- "ECDH_GM_AES_CBC_CMAC_192"
+- "ECDH_GM_AES_CBC_CMAC_256"
+- "ECDH_IM_3DES_CBC_CBC"
+- "ECDH_IM_AES_CBC_CMAC_128"
+- "ECDH_IM_AES_CBC_CMAC_192"
+- "ECDH_IM_AES_CBC_CMAC_256"
+- "Failed mapping:"
+- "ISOCurrencyCodes"
+- "NFBackgroundActivityScheduler"
+- "NFCurrency"
+- "NFJSONEncoder"
+- "NFMemoryObserver"
+- "NFSecureXPCEventPublisher"
+- "NFSecureXPCEventPublisher_post"
+- "NFSecureXPCEventPublisher_post_wQOS"
+- "PACEInfo: protocol=%s, version=%ld%@"
+- "PK"
+- "PS"
+- "PT"
+- "PaceInfo"
+- "PaceProtocolMapper"
+- "PasswordType"
+- "Prevent Background Tag Reading"
+- "Q24@0:8@16"
+- "RI"
+- "SecurityInfo"
+- "T@\"NSMutableDictionary\",&,N,V_activityMap"
+- "T@\"NSMutableDictionary\",&,N,V_callbackMap"
+- "T@\"NSNumber\",&,V_optionalKeyId"
+- "T@\"NSNumber\",&,V_optionalParameter"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_eventSendQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_xpcConnectionQueue"
+- "T@\"NSObject<OS_xpc_object>\",&,N,V_connection"
+- "T@\"NSString\",&,N,V_serviceName"
+- "TA"
+- "TB,N,V_invalidated"
+- "TB,R,N,V_qosPropagation"
+- "TI,R,N,V_qos"
+- "Tq,V_protocol"
+- "Tq,V_type"
+- "Tq,V_version"
+- "T{os_unfair_lock_s=I},N,V_connectionLock"
+- "Unexpected CardAccess response"
+- "Unknown info (%@) found"
+- "_JSONCompatibleArray:"
+- "_JSONCompatibleDictionary:"
+- "_activityMap"
+- "_callbackMap"
+- "_connection"
+- "_connectionLock"
+- "_eventSendQueue"
+- "_invalidated"
+- "_optionalKeyId"
+- "_optionalParameter"
+- "_protocol"
+- "_qos"
+- "_qosPropagation"
+- "_sendDictionary:dispatch:"
+- "_sendEvent:dispatch:"
+- "_serviceName"
+- "_source"
+- "_syncSetupConnection"
+- "_userDefault"
+- "_version"
+- "_xpcConnectionQueue"
+- "activityMap"
+- "backgroundActivityScheduler:interval:tolerance:repeats:qualityOfService:delay:callback:"
+- "callbackMap"
+- "com.apple.nfcd.backgroundActivityScheduler"
+- "connection"
+- "connectionLock"
+- "currentCalendar"
+- "dataWithJSONObject:options:error:"
+- "decodeBCDAmount:"
+- "eIDApplicationInfo"
+- "eIDSecurity"
+- "encodeBCDAmount:"
+- "encoder"
+- "eventSendQueue"
+- "getActivity:"
+- "getCallbacks:"
+- "getCharacters:range:"
+- "getCurrencyStringCodeFromNumericCode:"
+- "getFractionDigitsFromCurrencyStringCode:"
+- "green-tea"
+- "holdPowerAssertion:"
+- "holdPowerAssertion:onBehalfOf:"
+- "i24@0:8@16"
+- "id-%@ found (oid=%@)"
+- "initCallbackArray:"
+- "initFromTLV:"
+- "initWithIdentifier:"
+- "initWithMachPort:qosPropagation:qos:xpcConnectionQueue:eventSendQueue:"
+- "initWithMachPort:queue:"
+- "initWithMachPort:xpcConnectionQueue:eventSendQueue:"
+- "invalidate"
+- "invalidated"
+- "isDateInToday:"
+- "kern.bootsessionuuid"
+- "optionalKeyId"
+- "optionalParameter"
+- "postAnalyticsSERestrictedModeExited:"
+- "postCASERestrictedModeExited:"
+- "protocol"
+- "qos"
+- "qosPropagation"
+- "registerActivity:identifier:"
+- "registerCallback:identifier:"
+- "replaceBytesInRange:withBytes:length:"
+- "schedulePreRegisteredActivity:callback:"
+- "scheduleWithBlock:"
+- "seCounterMeasureLevel"
+- "securityInfoArrayFromData:"
+- "sendDictionary:"
+- "sendSimpleEvent:"
+- "sendSimpleEvent:objectNumber:"
+- "sendSimpleEvent:objectString:"
+- "serviceName"
+- "setActivityMap:"
+- "setCallbackMap:"
+- "setConnection:"
+- "setConnectionLock:"
+- "setDelay:"
+- "setEventSendQueue:"
+- "setInterval:"
+- "setInvalidated:"
+- "setOptionalKeyId:"
+- "setOptionalParameter:"
+- "setPreregistered:"
+- "setProtocol:"
+- "setQualityOfService:"
+- "setRepeats:"
+- "setServiceName:"
+- "setTolerance:"
+- "setVersion:"
+- "setXpcConnectionQueue:"
+- "sharedBackgroundActivityScheduler"
+- "softlink:r:path:/System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics"
+- "start"
+- "stringFromArray:"
+- "stringFromDictionary:"
+- "syncSendDictionary:"
+- "syncSendSimpleEvent:"
+- "syncSendSimpleEvent:objectNumber:"
+- "syncSendSimpleEvent:objectString:"
+- "unregisterActivity:"
+- "v16@?0@\"NSObject<OS_xpc_object>\"8"
+- "v16@?0@?<v@?q>8"
+- "v20@0:8{os_unfair_lock_s=I}16"
+- "v24@0:8q16"
+- "v28@0:8@16i24"
+- "v32@0:8@?16@24"
+- "v68@0:8@16d24d32B40q44d52@?60"
+- "version"
+- "xpcConnectionQueue"
+- "xpcEventName"
+- "xpcEventSimpleNumber"
+- "xpcEventSimpleString"
+- "{os_unfair_lock_s=I}16@0:8"
+
+```

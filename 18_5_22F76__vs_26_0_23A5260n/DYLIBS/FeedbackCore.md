@@ -1,0 +1,641 @@
+## FeedbackCore
+
+> `/System/Library/PrivateFrameworks/FeedbackCore.framework/FeedbackCore`
+
+```diff
+
+-150.14.0.0.0
+-  __TEXT.__text: 0x141488
+-  __TEXT.__auth_stubs: 0x2b20
+-  __TEXT.__objc_methlist: 0xb388
+-  __TEXT.__const: 0x2c14
+-  __TEXT.__cstring: 0xbd5c
+-  __TEXT.__oslogstring: 0xa066
++176.0.0.0.0
++  __TEXT.__text: 0x13ff1c
++  __TEXT.__auth_stubs: 0x2c30
++  __TEXT.__objc_methlist: 0xb498
++  __TEXT.__const: 0x2c64
++  __TEXT.__cstring: 0xbfd1
++  __TEXT.__oslogstring: 0xa126
+   __TEXT.__gcc_except_tab: 0x1bec
+   __TEXT.__ustring: 0xe6
+   __TEXT.__dlopen_cstrs: 0x62
+-  __TEXT.__constg_swiftt: 0x1bd8
+-  __TEXT.__swift5_typeref: 0x3e68
++  __TEXT.__constg_swiftt: 0x1cf8
++  __TEXT.__swift5_typeref: 0x3d58
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0xab2
+-  __TEXT.__swift5_fieldmd: 0xcc4
++  __TEXT.__swift5_reflstr: 0xae2
++  __TEXT.__swift5_fieldmd: 0xce0
+   __TEXT.__swift5_assocty: 0x288
+   __TEXT.__swift5_proto: 0x144
+-  __TEXT.__swift5_types: 0x134
+-  __TEXT.__swift5_capture: 0xcd8
++  __TEXT.__swift5_types: 0x138
++  __TEXT.__swift5_capture: 0xcb8
+   __TEXT.__swift5_protos: 0x8
+-  __TEXT.__unwind_info: 0x49e8
+-  __TEXT.__eh_frame: 0x1640
++  __TEXT.__unwind_info: 0x4a48
++  __TEXT.__eh_frame: 0x1680
+   __TEXT.__objc_classname: 0x11cb
+-  __TEXT.__objc_methname: 0x1c7b8
+-  __TEXT.__objc_methtype: 0x3cdc
+-  __TEXT.__objc_stubs: 0x14800
+-  __DATA_CONST.__got: 0x1190
++  __TEXT.__objc_methname: 0x1cca2
++  __TEXT.__objc_methtype: 0x3d6b
++  __TEXT.__objc_stubs: 0x14aa0
++  __DATA_CONST.__got: 0x11d0
+   __DATA_CONST.__const: 0x3f28
+-  __DATA_CONST.__objc_classlist: 0x528
++  __DATA_CONST.__objc_classlist: 0x530
+   __DATA_CONST.__objc_catlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x238
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7370
++  __DATA_CONST.__objc_selrefs: 0x74b0
+   __DATA_CONST.__objc_protorefs: 0x98
+   __DATA_CONST.__objc_superrefs: 0x288
+   __DATA_CONST.__objc_arraydata: 0x4d0
+-  __AUTH_CONST.__auth_got: 0x15a0
+-  __AUTH_CONST.__const: 0x44a8
+-  __AUTH_CONST.__cfstring: 0x8e20
+-  __AUTH_CONST.__objc_const: 0x1d3c0
++  __AUTH_CONST.__auth_got: 0x1628
++  __AUTH_CONST.__const: 0x44a0
++  __AUTH_CONST.__cfstring: 0x8e00
++  __AUTH_CONST.__objc_const: 0x1d4c8
+   __AUTH_CONST.__objc_intobj: 0x300
+   __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH_CONST.__objc_arrayobj: 0x498
+-  __AUTH.__objc_data: 0x4d20
+-  __AUTH.__data: 0xcf0
+-  __DATA.__objc_ivar: 0x6fc
+-  __DATA.__data: 0x2bf0
++  __AUTH.__objc_data: 0x4e08
++  __AUTH.__data: 0xd50
++  __DATA.__objc_ivar: 0x700
++  __DATA.__data: 0x2c80
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x2d70
++  __DATA.__bss: 0x2d88
+   __DATA.__common: 0x158
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+
+   - /System/Library/Frameworks/QuickLook.framework/QuickLook
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers
+   - /System/Library/PrivateFrameworks/AppleAccount.framework/AppleAccount
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
+
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 98779CAD-F518-3D61-84EE-B2EE3E4BB625
+-  Functions: 7188
+-  Symbols:   15447
+-  CStrings:  9233
++  UUID: A8ADDEA7-30FA-3AFD-B7AE-2053071AF7FF
++  Functions: 7250
++  Symbols:   15511
++  CStrings:  9304
+ 
+Symbols:
++ +[UIAlertController(FBAIcon) _fbaBaseAlertControllerWithTitle:message:preferredStyle:]
++ +[UIAlertController(FBAIcon) fbaActionSheetControllerWithTitle:message:sender:]
++ +[UIAlertController(FBAIcon) fbaAlertControllerWithTitle:message:]
++ -[FBKBugFormTableViewController closeBarButtonItem]
++ -[FBKBugFormTableViewController didDisplayLegalText]
++ -[FBKBugFormTableViewController dismissKeyboard]
++ -[FBKBugFormTableViewController hasDisplayedPendingAttachments]
++ -[FBKBugFormTableViewController keyboardWasShown:].cold.1
++ -[FBKBugFormTableViewController setDidDisplayLegalText:]
++ -[FBKBugFormTableViewController setSubmitButtonEnabled:]
++ -[FBKBugFormTableViewController updateSubmitStateForFixedErrorQuestion:]
++ -[FBKData addDeviceDataToSubmissionInfo:filerForm:withCollector:]
++ -[FBKData addDeviceDataToSubmissionInfo:filerForm:withCollector:].cold.1
++ -[FBKGroupedDevice deviceDataForSubmissionWithSession:filerFormID:]
++ -[UIViewController(Spinner) addSpinnerToStatusStack:]
++ -[UIViewController(Spinner) spacing]
++ -[UIViewController(Spinner) statusFont]
++ -[UIViewController(Spinner) statusLabelWithString:]
++ -[UIViewController(Spinner) statusViewWithStatusString:subtitleButtonString:showsSpinner:isForLargeTitle:]
++ -[UIViewController(Spinner) subtitleLabelWithString:]
++ -[UIViewController(Spinner) titleAndSubtitleStackWithStatus:subtitleLabel:showsSpinner:isForLargeTitle:]
++ GCC_except_table115
++ GCC_except_table118
++ GCC_except_table133
++ GCC_except_table177
++ GCC_except_table335
++ GCC_except_table39
++ _DEDDeviceKeyColor
++ _DEDDeviceKeyDeviceClass
++ _DEDDeviceKeyEnclosureColor
++ _DEDDeviceKeyModel
++ _DEDDeviceKeyName
++ _DEDDeviceKeyProductType
++ _DEDDevicePlatform
++ _FBKIsSolariumEnabled
++ _FBKIsSolariumEnabled.cold.1
++ _FBKIsSolariumEnabled.isEnabled
++ _FBKIsSolariumEnabled.onceToken
++ _FBKStandardButtonHeight
++ _FBKSystemImageNameEditDraft
++ _FBKSystemImageNameFilter
++ _FBKSystemImageNameFilterOriginatedByMe
++ _FBKSystemImageNameFilterOrphaned
++ _FBKSystemImageNameNewFeedback
++ _FBKSystemImageNameOrphanedFeedback
++ _OBJC_CLASS_$_DEDUtils
++ _OBJC_CLASS_$__TtC12FeedbackCore25FBKTableSectionHeaderView
++ _OBJC_CLASS_$__UIScrollPocketInteraction
++ _OBJC_IVAR_$_FBKBugFormTableViewController._didDisplayLegalText
++ _OBJC_METACLASS_$__TtC12FeedbackCore25FBKTableSectionHeaderView
++ __DATA__TtC12FeedbackCore25FBKTableSectionHeaderView
++ __INSTANCE_METHODS__TtC12FeedbackCore25FBKTableSectionHeaderView
++ __METACLASS_DATA__TtC12FeedbackCore25FBKTableSectionHeaderView
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_NSBundle(FeedbackCore|FeedbackCore)
++ __PROTOCOLS__TtC12FeedbackCore21FBKExpandedChoiceCell.13
++ ___108+[FBKDEDHelper _getSessionWithIdentifier:configuration:device:getDetails:shouldGetSessionStatus:completion:]_block_invoke.103
++ ___108+[FBKDEDHelper _getSessionWithIdentifier:configuration:device:getDetails:shouldGetSessionStatus:completion:]_block_invoke.103.cold.1
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.106
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.106.cold.1
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.110
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.110.cold.1
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.110.cold.2
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.114
++ ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.114.cold.1
++ ___131+[FBKDEDHelper _startSessionByFirstPairingWithConfig:device:grouped:identifier:shouldGetDetails:shouldGetSessionStatus:completion:]_block_invoke.100
++ ___39-[FBKBugFormTableViewController submit]_block_invoke.266
++ ___39-[FBKBugFormTableViewController submit]_block_invoke.266.cold.1
++ ___39-[FBKBugFormTableViewController submit]_block_invoke.273
++ ___39-[FBKBugFormTableViewController submit]_block_invoke.275
++ ___42-[FBKBugFormTableViewController legalText]_block_invoke.308
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.218
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.222
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.226
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.233
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.237
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.238
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.238.cold.1
++ ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.238.cold.2
++ ___63-[FBKBugFormTableViewController hasDisplayedPendingAttachments]_block_invoke
++ ___65-[FBKData addDeviceDataToSubmissionInfo:filerForm:withCollector:]_block_invoke
++ ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.189
++ ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.189.cold.1
++ ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.197
++ ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.201
++ ___75-[FBKBugFormTableViewController alertControllerForDismissWithLaunchAction:]_block_invoke.325
++ ___75-[FBKBugFormTableViewController alertControllerForDismissWithLaunchAction:]_block_invoke.327
++ ___78+[FBKDEDHelper reconnectBugSessionWithIdentifier:deviceIdentifier:completion:]_block_invoke.116
++ ___80+[FBKDEDHelper _getBugSessionConfigWithSubmissionType:formId:device:completion:]_block_invoke.97
++ ___80+[FBKDEDHelper _getBugSessionConfigWithSubmissionType:formId:device:completion:]_block_invoke.97.cold.1
++ ___81+[FBKDEDHelper completeEnhancedLoggingWithFollowup:devicesController:completion:]_block_invoke.124
++ ___81+[FBKDEDHelper completeEnhancedLoggingWithFollowup:devicesController:completion:]_block_invoke.127
++ ___FBKIsSolariumEnabled_block_invoke
++ ___block_descriptor_32_e11_24?08Q16l
++ ___block_literal_global.123
++ ___block_literal_global.130
++ ___block_literal_global.304
++ ___block_literal_global.306
++ ___block_literal_global.310
++ ___block_literal_global.329
++ ___block_literal_global.371
++ ___block_literal_global.85
++ ___block_literal_global.89
++ ___isOSVersionAtLeast
++ ___isOSVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __os_feature_enabled_impl
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_FeedbackCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_FeedbackCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_FeedbackCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_FeedbackCore
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _dlsym
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.2
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.3
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA18_AspectRatioLayoutVGAA06_FrameR0VG_Qo_AA08_PaddingR0VGAA013_TraitWritingN0VyAA010TransitionU3KeyVGGSg_ACyACyACyAA6VStackVyAGyAA4TextV_ACyAA09_VariadicG0O4TreeVy_AA01_R4RootVy12FeedbackCore013EvenWidthGridR0VGAA7ForEachVySaySo17FBKQuestionChoiceCGA30_ACyAiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQOyAA6ToggleVyACyA16_AA05_FlexsR0VGG_AA012ButtonToggleM0VQo__A30_Qo_A4_GGGA4_GtGGA4_GA39_GA0_GtGGA39_GAaHHPA56_AaHHPyHC_A39_AA0gN0HPyHCHC.62
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE23scrollContentBackgroundyQrAA10VisibilityOFQOyAcAE9listStyleyQrqd__AA04ListI0Rd__lFQOyAA0J0Vys5NeverOAA7SectionVyAA4TextVAA7ForEachVySay12FeedbackCore015EnhancedLoggingC10ControllerC19DiagnosticOperationVGAwA08ModifiedE0VyAA14NavigationLinkVyAS0uV3RowVAS0uV6DetailVGAA21_TraitWritingModifierVyAA0jzF8TraitKeyVGGGAA05EmptyC0VGG_AA012InsetGroupedjI0VQo__Qo_HO.46
++ _initializeAvailabilityCheck
++ _keypath_get.7Tm
++ _legalText.onceToken.307
++ _objc_msgSend$_fbaBaseAlertControllerWithTitle:message:preferredStyle:
++ _objc_msgSend$_inlineToolbarSearchBarItem
++ _objc_msgSend$_setLargeSubtitleView:
++ _objc_msgSend$_setSubtitleView:
++ _objc_msgSend$addDeviceDataToSubmissionInfo:filerForm:withCollector:
++ _objc_msgSend$addInteraction:
++ _objc_msgSend$arrangedSubviews
++ _objc_msgSend$canDisplayChoiceAsACell
++ _objc_msgSend$closeBarButtonItem
++ _objc_msgSend$deviceDataForSubmissionWithFilerFormID:
++ _objc_msgSend$didDisplayLegalText
++ _objc_msgSend$fbaActionSheetControllerWithTitle:message:sender:
++ _objc_msgSend$fbaAlertControllerWithTitle:message:
++ _objc_msgSend$fbk_disableRemoteHoverEffect
++ _objc_msgSend$fbk_disableRemoteHoverEffectAndClearBackground
++ _objc_msgSend$fbk_feedbackCoreFramework
++ _objc_msgSend$fbk_mainStoryboard
++ _objc_msgSend$fbk_preferredAlertStyle
++ _objc_msgSend$fbk_queryItemsAsDictionary
++ _objc_msgSend$fbk_teamPickerViewController
++ _objc_msgSend$fbk_truncate:
++ _objc_msgSend$fbk_updateWithSeparatorSpacing:
++ _objc_msgSend$hasDisplayedPendingAttachments
++ _objc_msgSend$initWithScrollView:edge:style:
++ _objc_msgSend$isSubsetOfSet:
++ _objc_msgSend$layoutMargins
++ _objc_msgSend$nonDEAttachmentFilenames
++ _objc_msgSend$setCanDisplayChoiceAsACell:
++ _objc_msgSend$setCancelable:
++ _objc_msgSend$setContentHuggingPriority:forAxis:
++ _objc_msgSend$setDidDisplayLegalText:
++ _objc_msgSend$setIsUnauthenticatedSession:
++ _objc_msgSend$setLayoutMargins:
++ _objc_msgSend$setSubmitButtonEnabled:
++ _objc_msgSend$sizeThatFits:
++ _objc_msgSend$spacing
++ _objc_msgSend$statusFont
++ _objc_msgSend$statusLabelWithString:
++ _objc_msgSend$statusViewWithStatusString:subtitleButtonString:showsSpinner:isForLargeTitle:
++ _objc_msgSend$subtitleLabelWithString:
++ _objc_msgSend$titleAndSubtitleStackWithStatus:subtitleLabel:showsSpinner:isForLargeTitle:
++ _objc_msgSend$unauthenticatedDeviceSpecifierFormResponseID:device:
++ _objc_msgSend$updateSubmitStateForFixedErrorQuestion:
++ _objectdestroy.50Tm
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _symbolic SS_SaySiGt
++ _symbolic _____ 12FeedbackCore25FBKTableSectionHeaderViewC
++ _symbolic _____Sg 12FeedbackCore22FBKSliderConfigurationV
++ _symbolic ______So6UIFontCt So21NSAttributedStringKeya
++ _symbolic ___________t So24UIFontDescriptorTraitKeya So0A6Weighta
++ _symbolic ___________y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAiBy_____y_____y_____yAByAA_____GG______Qo__AIQo______GGGARGt 7SwiftUI4TextV AA15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridI0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO ArAE11toggleStyleyQrqd__AA06ToggleV0Rd__lFQO AA0W0V AA010_FlexFrameI0V AA06ButtonwV0V AA08_PaddingI0V
++ _symbolic _____yAAyAAyAAy__________G_____y_____GG_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingG0V AA022_EnvironmentKeyWritingJ0V AA4FontV
++ _symbolic _____yAAyAAy__________y_____GG_____GAGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGtGGATGANG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V AA06_FrameK0V
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA0_AAy_____y_____y_____yAAyAU_____GG______Qo__A0_Qo_ALGGGALGtGGALGA3_GAIGt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameP0V AA08_PaddingP0V AA013_TraitWritingL0V AA010TransitionS3KeyV AA6VStackV AA05TupleE0V AA4TextV AA09_VariadicE0O4TreeV AA01_P4RootV 12FeedbackCore013EvenWidthGridP0V AA7ForEachV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AeAE06toggleK0yQrqd__AA06ToggleK0Rd__lFQO AA6ToggleV AA05_FlexqP0V AA012ButtonToggleK0V
++ _symbolic _____yAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGtGGATGANG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
++ _symbolic _____y_____Sg_____GIegg_ s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5NeverO
++ _symbolic _____y_____Sg_____GIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5NeverO
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 12FeedbackCore18AttachmentIconViewV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 12FeedbackCore23AttachmentAccessoryViewV AA14_PaddingLayoutV
++ _symbolic _____y___________yAB_____ySiSgGGSgtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y___________y___________yAAy______y_____G_____ySaySo17FBKQuestionChoiceCGAkEy_____y_____y_____yAEyAD_____GG______Qo__AKQo______GGGATGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA4TextV AA15ModifiedContentV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameG0V AA06ButtonyX0V AA08_PaddingG0V
++ _symbolic _____y___________y_____yADy_____yADyADyADy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ADyADyADy_____yACy______ADyAAy______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ADy_____y_____y_____yADyAW_____GG______Qo__A1_Qo_AOGGGAOGtGGAOGA4_GALGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA012_AspectRatioG0V AA06_FrameG0V AA08_PaddingG0V AA013_TraitWritingQ0V AA010TransitionW3KeyV AA6VStackV AA4TextV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AmAE06toggleP0yQrqd__AA06ToggleP0Rd__lFQO AA6ToggleV AA05_FlexuG0V AA012ButtonToggleP0V
++ _symbolic _____y_____yAByAByABy__________G_____y_____GG_____G_____y_____SgGG_AByABy_____ALy_____GGAJGAUtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingI0V AA022_EnvironmentKeyWritingL0V AA4FontV AA4TextV AA0S9AlignmentO
++ _symbolic _____y_____y___________y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkDy_____y_____y_____yADyAC_____GG______Qo__AKQo______GGGATGtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA09_VariadicE0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0E0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
++ _symbolic _____y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAhAy_____y_____y_____yAAy__________GG______Qo__AHQo______GGGARG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridH0V AA7ForEachV AA0F0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO ApAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA4TextV AA010_FlexFrameH0V AA06ButtonvU0V AA08_PaddingH0V
++ _symbolic _____y_____y_____yAAyAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____yACy______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_AAy_____y_____y_____yAAyAV_____GG______Qo__A1_Qo_ANGGGANGtGGANGA4_GAKGtGGA4_G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
++ _symbolic _____y_____y_____yAAy__________GG______Qo______ySo17FBKQuestionChoiceCGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA16_FlexFrameLayoutV AA06ButtonhG0V AA24_TagTraitWritingModifierV
++ _symbolic _____y_____y_____yACyACyACy__________G_____y_____GG_____G_____y_____SgGG_ACyACy_____AMy_____GGAKGAVtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA24_ForegroundStyleModifierV AA5ColorV AA08_PaddingJ0V AA022_EnvironmentKeyWritingM0V AA4FontV AA4TextV AA0T9AlignmentO
++ _symbolic _____y_____y_____yACy_____yACyACyACy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ACyACyACy_____yABy______ACy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ACy_____y_____y_____yACyAV_____GG______Qo__A1_Qo_ANGGGANGtGGANGA4_GAKGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicE0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V
++ _symbolic _____y_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAy_____y_____y_____yAAyAD_____GG______Qo__AKQo______GGGATGtGGATG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AvAE11toggleStyleyQrqd__AA06ToggleX0Rd__lFQO AA0Y0V AA010_FlexFrameK0V AA06ButtonyX0V AA08_PaddingK0V
++ _symbolic _____y_____y_____y__________y__________ySay_____GAF_____y_____y__________G_____y_____GGG_____GG______Qo__Qo_ 7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQO AcAE9listStyleyQrqd__AA04ListI0Rd__lFQO AA0J0V s5NeverO AA7SectionV AA4TextV AA7ForEachV 12FeedbackCore015EnhancedLoggingC10ControllerC19DiagnosticOperationV AA08ModifiedE0V AA14NavigationLinkV AS0uV3RowV AS0uV6DetailV AA21_TraitWritingModifierV AA0jzF8TraitKeyV AA05EmptyC0V AA012InsetGroupedjI0V
++ _symbolic _____y_____y_____y_____yAAy__________GG______Qo__So17FBKQuestionChoiceCQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AeAE11toggleStyleyQrqd__AA06ToggleJ0Rd__lFQO AA0K0V AA4TextV AA16_FlexFrameLayoutV AA06ButtonkJ0V AA08_PaddingO0V
++ _symbolic qd0__
++ _symbolic qd__
+- +[UIAlertController(FBAIcon) fbaAlertControllerWithTitle:message:preferredStyle:]
+- -[FBKBugFormTableViewController cancelBarButtonItemText]
+- -[FBKBugFormTableViewController cancelBarButtonItemWithSymbol]
+- -[FBKBugFormTableViewController formNameBarButtonItem]
+- -[FBKBugFormTableViewController updateSubmitButtonStateWithState:]
+- -[FBKData addDeviceDataToSubmissionInfo:withCollector:]
+- -[FBKData addDeviceDataToSubmissionInfo:withCollector:].cold.1
+- -[FBKGroupedDevice deviceDataForSubmissionWithSession:]
+- GCC_except_table116
+- GCC_except_table132
+- GCC_except_table331
+- GCC_except_table38
+- GCC_except_table98
+- _DEDDeviceKeyAddress
+- _DEDDeviceKeyStatus
+- _DEDDeviceKeyTransport
+- _FBKImageNameEditDraft
+- _FBKImageNameFilterOriginatedByMe
+- _FBKImageNameFilterOrphaned
+- _FBKImageNameNewFeedback
+- _FBKImageNameOrphanedFeedback
+- _FBKSystemImageNameSwipeToDelete
+- __OBJC_$_CLASS_METHODS_NSBundle(FeedbackCore|FeedbackCore|FeedbackCore1)
+- __PROTOCOLS__TtC12FeedbackCore21FBKExpandedChoiceCell.24
+- ___108+[FBKDEDHelper _getSessionWithIdentifier:configuration:device:getDetails:shouldGetSessionStatus:completion:]_block_invoke.102
+- ___108+[FBKDEDHelper _getSessionWithIdentifier:configuration:device:getDetails:shouldGetSessionStatus:completion:]_block_invoke.102.cold.1
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.105
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.105.cold.1
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.109
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.109.cold.1
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.109.cold.2
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.113
+- ___111+[FBKDEDHelper _getSessionWithIdentifier:configuration:dedDevice:getDetails:shouldGetSessionStatus:completion:]_block_invoke.113.cold.1
+- ___122-[UIViewController(Spinner) showToolbarWithSpinner:withStatusString:subtitleButtonString:userInteractionEnabled:animated:]_block_invoke_2
+- ___131+[FBKDEDHelper _startSessionByFirstPairingWithConfig:device:grouped:identifier:shouldGetDetails:shouldGetSessionStatus:completion:]_block_invoke.99
+- ___39-[FBKBugFormTableViewController submit]_block_invoke.265
+- ___39-[FBKBugFormTableViewController submit]_block_invoke.265.cold.1
+- ___39-[FBKBugFormTableViewController submit]_block_invoke.272
+- ___39-[FBKBugFormTableViewController submit]_block_invoke.274
+- ___42-[FBKBugFormTableViewController legalText]_block_invoke.307
+- ___55-[FBKData addDeviceDataToSubmissionInfo:withCollector:]_block_invoke
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.217
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.221
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.225
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.232
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke.236
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.237
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.237.cold.1
+- ___57-[FBKBugFormTableViewController beginPresubmissionCheck:]_block_invoke_2.237.cold.2
+- ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.187
+- ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.187.cold.1
+- ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.196
+- ___75-[FBKBugFormTableViewController _reallyChangeToBugFormStub:withTeam:force:]_block_invoke.200
+- ___75-[FBKBugFormTableViewController alertControllerForDismissWithLaunchAction:]_block_invoke.324
+- ___75-[FBKBugFormTableViewController alertControllerForDismissWithLaunchAction:]_block_invoke.326
+- ___78+[FBKDEDHelper reconnectBugSessionWithIdentifier:deviceIdentifier:completion:]_block_invoke.115
+- ___80+[FBKDEDHelper _getBugSessionConfigWithSubmissionType:formId:device:completion:]_block_invoke.96
+- ___80+[FBKDEDHelper _getBugSessionConfigWithSubmissionType:formId:device:completion:]_block_invoke.96.cold.1
+- ___81+[FBKDEDHelper completeEnhancedLoggingWithFollowup:devicesController:completion:]_block_invoke.123
+- ___81+[FBKDEDHelper completeEnhancedLoggingWithFollowup:devicesController:completion:]_block_invoke.126
+- ___block_literal_global.122
+- ___block_literal_global.129
+- ___block_literal_global.28
+- ___block_literal_global.305
+- ___block_literal_global.309
+- ___block_literal_global.328
+- ___block_literal_global.370
+- ___block_literal_global.67
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_FeedbackCore
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_FeedbackCore
+- _block_copy_helper.42
+- _block_descriptor.44
+- _block_destroy_helper.43
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6HStackVyAA9TupleViewVyACyACyAA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyACyACyAA5ImageVAA24_ForegroundStyleModifierVyAA5ColorVGGAA18_AspectRatioLayoutVGAA06_FrameR0VG_Qo_AA08_PaddingR0VGAA013_TraitWritingN0VyAA010TransitionU3KeyVGGSg_ACyACyACyAA6VStackVyAGyAA4TextV_ACyAA09_VariadicG0O4TreeVy_AA01_R4RootVy12FeedbackCore013EvenWidthGridR0VGAA7ForEachVySaySo17FBKQuestionChoiceCGA30_ACyACyACyAiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQOyAA6ToggleVyACyA16_AA05_FlexsR0VGG_AA012ButtonToggleM0VQo_A7_yAA08TagValueuX0VyA30_GGGA7_yA44_yA30_SgGGGA4_GGGA4_GtGGA4_GA37_GA0_GtGGA37_GAaHHPA62_AaHHPyHC_A37_AA0gN0HPyHCHC.66
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE14listBackgroundyQrAA5ColorVSgFQOyAcAE0D5StyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA7SectionVyAA4TextVAA7ForEachVySay12FeedbackCore015EnhancedLoggingC10ControllerC19DiagnosticOperationVGAxA15ModifiedContentVyAA14NavigationLinkVyAT0sT3RowVAT0sT6DetailVGAA21_TraitWritingModifierVyAA0hyE8TraitKeyVGGGAA05EmptyC0VGG_AA012InsetGroupedhG0VQo__Qo_HO.46
+- _keypath_get.18Tm
+- _legalText.onceToken.306
+- _objc_msgSend$addDeviceDataToSubmissionInfo:withCollector:
+- _objc_msgSend$canDisplayChoicesInline
+- _objc_msgSend$cancelBarButtonItemText
+- _objc_msgSend$cancelBarButtonItemWithSymbol
+- _objc_msgSend$deviceDataForSubmission
+- _objc_msgSend$disableRemoteHoverEffect
+- _objc_msgSend$disableRemoteHoverEffectAndClearBackground
+- _objc_msgSend$fbaAlertControllerWithTitle:message:preferredStyle:
+- _objc_msgSend$feedbackCoreFramework
+- _objc_msgSend$formNameBarButtonItem
+- _objc_msgSend$imageNamed:
+- _objc_msgSend$initWithArrangedSubviews:
+- _objc_msgSend$mainStoryboard
+- _objc_msgSend$preferredAlertStyle
+- _objc_msgSend$queryItemsAsDictionary
+- _objc_msgSend$redColor
+- _objc_msgSend$setCanDisplayChoicesInline:
+- _objc_msgSend$systemFontOfSize:
+- _objc_msgSend$teamPickerViewController
+- _objc_msgSend$truncate:
+- _objc_msgSend$updateSubmitButtonStateWithState:
+- _objc_msgSend$updateWithSeparatorSpacing:
+- _objectdestroy.55Tm
+- _showToolbarWithSpinner:withStatusString:subtitleButtonString:userInteractionEnabled:animated:.leftSpacing
+- _showToolbarWithSpinner:withStatusString:subtitleButtonString:userInteractionEnabled:animated:.onceToken
+- _showToolbarWithSpinner:withStatusString:subtitleButtonString:userInteractionEnabled:animated:.rightSpacing
+- _swift_release_n
+- _symbolic SaySsG
+- _symbolic _____ SS5IndexV
+- _symbolic ___________y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAiByAByABy_____y_____yAByAA_____GG______Qo______y_____yAIGGGAQyARyAISgGGG_____GGGAZGt 7SwiftUI4TextV AA15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridI0V AA7ForEachV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleS0Rd__lFQO AA0T0V AA010_FlexFrameI0V AA06ButtontS0V AA21_TraitWritingModifierV AA08TagValueX3KeyV AA08_PaddingI0V
+- _symbolic _____yAAyAAy_____y_____yAAy__________GG______Qo______y_____ySo17FBKQuestionChoiceCGGGAIyAJyALSgGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA16_FlexFrameLayoutV AA06ButtonhG0V AA21_TraitWritingModifierV AA08TagValueN3KeyV AA08_PaddingL0V
+- _symbolic _____yAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAyAAyAAy_____y_____yAAyAD_____GG______Qo______y_____yAKGGGASyATyAKSgGGG_____GGGA0_GtGGA0_GANG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA010_FlexFrameK0V AA06ButtonvU0V AA21_TraitWritingModifierV AA08TagValueZ3KeyV AA08_PaddingK0V AA01_xK0V
+- _symbolic _____yAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA0_AAyAAyAAy_____y_____yAAyAU_____GG______Qo_ANy_____yA0_GGGANyA8_yA0_SgGGGALGGGALGtGGALGA3_GAIGt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameP0V AA08_PaddingP0V AA013_TraitWritingL0V AA010TransitionS3KeyV AA6VStackV AA05TupleE0V AA4TextV AA09_VariadicE0O4TreeV AA01_P4RootV 12FeedbackCore013EvenWidthGridP0V AA7ForEachV AeAE06toggleK0yQrqd__AA06ToggleK0Rd__lFQO AA6ToggleV AA05_FlexqP0V AA012ButtonToggleK0V AA08TagValuesV0V
+- _symbolic _____yAAy_____y_____yAAy__________GG______Qo______y_____ySo17FBKQuestionChoiceCGGGAIyAJyALSgGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA16_FlexFrameLayoutV AA06ButtonhG0V AA21_TraitWritingModifierV AA08TagValueN3KeyV
+- _symbolic _____yAAy_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAyAAyAAy_____y_____yAAyAD_____GG______Qo______y_____yAKGGGASyATyAKSgGGG_____GGGA0_GtGGA0_GANG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA010_FlexFrameK0V AA06ButtonvU0V AA21_TraitWritingModifierV AA08TagValueZ3KeyV AA08_PaddingK0V
+- _symbolic _____y_____Sg_____GIegg_ s6ResultOsRi_zrlE 10Foundation4DataV s5NeverO
+- _symbolic _____y_____Sg_____GIegn_ s6ResultOsRi_zrlE 10Foundation4DataV s5NeverO
+- _symbolic _____y___________y___________yAAy______y_____G_____ySaySo17FBKQuestionChoiceCGAkEyAEyAEy_____y_____yAEyAD_____GG______Qo______y_____yAKGGGASyATyAKSgGGG_____GGGA0_GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA4TextV AA15ModifiedContentV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AA0D0PAAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA010_FlexFrameG0V AA06ButtonvU0V AA21_TraitWritingModifierV AA08TagValueZ3KeyV AA08_PaddingG0V
+- _symbolic _____y___________y_____yADy_____yADyADyADy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ADyADyADy_____yACy______ADyAAy______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ADyADyADy_____y_____yADyAW_____GG______Qo_AQy_____yA1_GGGAQyA9_yA1_SgGGGAOGGGAOGtGGAOGA4_GALGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA012_AspectRatioG0V AA06_FrameG0V AA08_PaddingG0V AA013_TraitWritingQ0V AA010TransitionW3KeyV AA6VStackV AA4TextV AA01_G4RootV 12FeedbackCore013EvenWidthGridG0V AA7ForEachV AmAE06toggleP0yQrqd__AA06ToggleP0Rd__lFQO AA6ToggleV AA05_FlexuG0V AA012ButtonToggleP0V AA08TagValuewZ0V
+- _symbolic _____y______pSgG s23_ContiguousArrayStorageC s5ErrorP
+- _symbolic _____y______y_____G_____ySaySo17FBKQuestionChoiceCGAG_____yAIyAIy_____y_____yAIy__________GG______Qo______y_____yAGGGGAQyARyAGSgGGG_____GGG 7SwiftUI13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridF0V AA7ForEachV AA15ModifiedContentV AA0D0PAAE11toggleStyleyQrqd__AA06ToggleR0Rd__lFQO AA0S0V AA4TextV AA010_FlexFrameF0V AA06ButtonsR0V AA21_TraitWritingModifierV AA08TagValueX3KeyV AA08_PaddingF0V
+- _symbolic _____y_____yAAyAAy__________y_____GG_____G_____G_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameP0V
+- _symbolic _____y_____ySo17FBKQuestionChoiceCGG 7SwiftUI21_TraitWritingModifierV AA08TagValueC3KeyV
+- _symbolic _____y_____ySo17FBKQuestionChoiceCSgGG 7SwiftUI21_TraitWritingModifierV AA08TagValueC3KeyV
+- _symbolic _____y_____y___________y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkDyADyADy_____y_____yADyAC_____GG______Qo______y_____yAKGGGASyATyAKSgGGG_____GGGA0_GtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA09_VariadicE0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0E0PAAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA010_FlexFrameK0V AA06ButtonvU0V AA21_TraitWritingModifierV AA08TagValueZ3KeyV AA08_PaddingK0V
+- _symbolic _____y_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAhAyAAyAAy_____y_____yAAy__________GG______Qo______y_____yAHGGGAQyARyAHSgGGG_____GGGAZG 7SwiftUI15ModifiedContentV AA13_VariadicViewO4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridH0V AA7ForEachV AA0F0PAAE11toggleStyleyQrqd__AA06ToggleR0Rd__lFQO AA0S0V AA4TextV AA010_FlexFrameH0V AA06ButtonsR0V AA21_TraitWritingModifierV AA08TagValueX3KeyV AA08_PaddingH0V
+- _symbolic _____y_____y_____yAAyAAy_____yAAyAAyAAy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_AAyAAyAAy_____yACy______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_AAyAAyAAy_____y_____yAAyAV_____GG______Qo_APy_____yA1_GGGAPyA9_yA1_SgGGGANGGGANGtGGANGA4_GAKGtGGA4_G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicG0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V AA08TagValueuX0V
+- _symbolic _____y_____y_____yAAy__________GG______Qo______y_____ySo17FBKQuestionChoiceCGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11toggleStyleyQrqd__AA06ToggleG0Rd__lFQO AA0H0V AA4TextV AA16_FlexFrameLayoutV AA06ButtonhG0V AA21_TraitWritingModifierV AA08TagValueN3KeyV
+- _symbolic _____y_____y_____yACy_____yACyACyACy__________y_____GG_____G_____G_Qo______G_____y_____GGSg_ACyACyACy_____yABy______ACy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGA1_ACyACyACy_____y_____yACyAV_____GG______Qo_APy_____yA1_GGGAPyA9_yA1_SgGGGANGGGANGtGGANGA4_GAKGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA24_ForegroundStyleModifierV AA5ColorV AA18_AspectRatioLayoutV AA06_FrameR0V AA08_PaddingR0V AA013_TraitWritingN0V AA010TransitionU3KeyV AA6VStackV AA4TextV AA09_VariadicE0O4TreeV AA01_R4RootV 12FeedbackCore013EvenWidthGridR0V AA7ForEachV AiAE06toggleM0yQrqd__AA06ToggleM0Rd__lFQO AA6ToggleV AA05_FlexsR0V AA012ButtonToggleM0V AA08TagValueuX0V
+- _symbolic _____y_____y_____y_____ADG______yAFyAD_____ySiSgGGAGy_____GGSgANtGG 7SwiftUI6VStackV AA9TupleViewV AA19_ConditionalContentV AA4TextV AA08ModifiedG0V AA30_EnvironmentKeyWritingModifierV AI14TruncationModeO
+- _symbolic _____y_____y_____y______AAy_____y______y_____G_____ySaySo17FBKQuestionChoiceCGAkAyAAyAAy_____y_____yAAyAD_____GG______Qo______y_____yAKGGGASyATyAKSgGGG_____GGGA0_GtGGA0_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA09_VariadicG0O4TreeV AA11_LayoutRootV 12FeedbackCore013EvenWidthGridK0V AA7ForEachV AA0G0PAAE11toggleStyleyQrqd__AA06ToggleU0Rd__lFQO AA0V0V AA010_FlexFrameK0V AA06ButtonvU0V AA21_TraitWritingModifierV AA08TagValueZ3KeyV AA08_PaddingK0V
+- _symbolic _____y_____y_____y__________y__________ySay_____GAF_____y_____y__________G_____y_____GGG_____GG______Qo__Qo_ 7SwiftUI4ViewPAAE14listBackgroundyQrAA5ColorVSgFQO AcAE0D5StyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA7SectionV AA4TextV AA7ForEachV 12FeedbackCore015EnhancedLoggingC10ControllerC19DiagnosticOperationV AA15ModifiedContentV AA14NavigationLinkV AT0sT3RowV AT0sT6DetailV AA21_TraitWritingModifierV AA0hyE8TraitKeyV AA05EmptyC0V AA012InsetGroupedhG0V
+CStrings:
++ "%d.%d.%d"
++ "-[FBKBugFormTableViewController dismissKeyboard]"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@\"NSArray\"24@0:8q16"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@24@?0@8Q16"
++ "@40@0:8@16@24B32B36"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "FeedbackCore.FBKTableSectionHeaderView"
++ "FeedbackCore/FBKTableSectionHeaderView.swift"
++ "Obfuscating device identifier with [%{public}@]"
++ "ProductVersion"
++ "Showing toolbar activity indicator with status [%{public}@] subtitle [%{public}@] enabled [%i] animated [%i]"
++ "Solarium"
++ "SwiftUI"
++ "T@\"NSLayoutConstraint\",N,W,VdatePickerHeightConstraint"
++ "TB,N,V_didDisplayLegalText"
++ "Toolbar Items [%{public}@]"
++ "Tq,N,V_maxInlineChoices"
++ "Unauthenticated Device Name"
++ "_TtC12FeedbackCore25FBKTableSectionHeaderView"
++ "_didDisplayLegalText"
++ "_fbaBaseAlertControllerWithTitle:message:preferredStyle:"
++ "_inlineToolbarSearchBarItem"
++ "_setLargeSubtitleView:"
++ "_setSubtitleView:"
++ "addDeviceDataToSubmissionInfo:filerForm:withCollector:"
++ "addInteraction:"
++ "addSpinnerToStatusStack:"
++ "arrangedSubviews"
++ "arrow.up"
++ "canDisplayChoiceAsACell"
++ "closeBarButtonItem"
++ "datePickerHeightConstraint"
++ "deviceDataForSubmissionWithFilerFormID:"
++ "deviceDataForSubmissionWithSession:filerFormID:"
++ "didChangeTextSize"
++ "didChangeTextSize()"
++ "didDisplayLegalText"
++ "dismissKeyboard"
++ "fbaActionSheetControllerWithTitle:message:sender:"
++ "fbaAlertControllerWithTitle:message:"
++ "fbk_disableRemoteHoverEffect"
++ "fbk_disableRemoteHoverEffectAndClearBackground"
++ "fbk_embed:inView:"
++ "fbk_feedbackCoreAssetsBundle"
++ "fbk_feedbackCoreFramework"
++ "fbk_feedbackDraftViewController"
++ "fbk_mainStoryboard"
++ "fbk_preferredAlertStyle"
++ "fbk_queryItemsAsDictionary"
++ "fbk_removeFromSuperview"
++ "fbk_teamPickerViewController"
++ "fbk_teamsStoryboard"
++ "fbk_truncate:"
++ "fbk_updateWithSeparatorSpacing:"
++ "hasDisplayedPendingAttachments"
++ "init(coder:) has not been implemented"
++ "initWithScrollView:edge:style:"
++ "inset.filled.square.dashed"
++ "isSubsetOfSet:"
++ "kCFAllocatorNull"
++ "layoutMargins"
++ "line.3.horizontal.decrease"
++ "nonDEAttachmentFilenames"
++ "r"
++ "setCanDisplayChoiceAsACell:"
++ "setCancelable:"
++ "setContentEdgeInsets:"
++ "setContentHorizontalAlignment:"
++ "setContentHuggingPriority:forAxis:"
++ "setDatePickerHeightConstraint:"
++ "setDidDisplayLegalText:"
++ "setImage:forState:"
++ "setImageEdgeInsets:"
++ "setIsUnauthenticatedSession:"
++ "setLayoutMargins:"
++ "setShowsMenuAsPrimaryAction:"
++ "setSubmitButtonEnabled:"
++ "setTextContainerInset:"
++ "setTitle:forState:"
++ "setTitleColor:forState:"
++ "setTitleEdgeInsets:"
++ "sizeThatFits:"
++ "spacing"
++ "statusFont"
++ "statusLabelWithString:"
++ "statusViewWithStatusString:subtitleButtonString:showsSpinner:isForLargeTitle:"
++ "subtitleLabelWithString:"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "titleAndSubtitleStackWithStatus:subtitleLabel:showsSpinner:isForLargeTitle:"
++ "titleLabel"
++ "tony@example.com"
++ "unauthenticatedDeviceSpecifierFormResponseID:device:"
++ "updateSubmitStateForFixedErrorQuestion:"
++ "widthAnchor"
+- "-[FBKBugFormTableViewController keyboardDidHide:]"
+- "Cancel"
+- "Contradictory frame constraints specified."
+- "Submit"
+- "TQ,N,V_maxInlineChoices"
+- "addDeviceDataToSubmissionInfo:withCollector:"
+- "arrow.up.circle.fill"
+- "bubble.pencil-thin"
+- "canDisplayChoicesInline"
+- "cancelBarButtonItemText"
+- "cancelBarButtonItemWithSymbol"
+- "deviceDataForSubmission"
+- "deviceDataForSubmissionWithSession:"
+- "disableRemoteHoverEffect"
+- "disableRemoteHoverEffectAndClearBackground"
+- "embed:inView:"
+- "fbaAlertControllerWithTitle:message:preferredStyle:"
+- "feedbackCoreAssetsBundle"
+- "feedbackCoreFramework"
+- "feedbackDraftViewController"
+- "formNameBarButtonItem"
+- "imageNamed:"
+- "initWithArrangedSubviews:"
+- "mainStoryboard"
+- "preferredAlertStyle"
+- "queryItemsAsDictionary"
+- "redColor"
+- "setCanDisplayChoicesInline:"
+- "square.dashed.inset.fill"
+- "systemFontOfSize:"
+- "teamPickerViewController"
+- "teamsStoryboard"
+- "tony@starkenterprises.com"
+- "truncate:"
+- "updateSubmitButtonStateWithState:"
+- "updateWithSeparatorSpacing:"
+
+```

@@ -1,0 +1,120 @@
+## libswiftAppleArchive.dylib
+
+> `/usr/lib/swift/libswiftAppleArchive.dylib`
+
+```diff
+
+-423.100.6.0.0
+-  __TEXT.__text: 0x16ff4
+-  __TEXT.__auth_stubs: 0xbf0
++443.0.0.0.0
++  __TEXT.__text: 0x16af8
++  __TEXT.__auth_stubs: 0xc10
+   __TEXT.__cstring: 0x6b3
+   __TEXT.__swift5_typeref: 0x78c
+   __TEXT.__const: 0x2318
+
+   __TEXT.__swift5_types: 0xa4
+   __TEXT.__swift5_mpenum: 0x1c
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__unwind_info: 0xc20
+-  __TEXT.__eh_frame: 0xd78
+-  __DATA_CONST.__got: 0x178
+-  __DATA_CONST.__const: 0x230
++  __TEXT.__unwind_info: 0xbb0
++  __TEXT.__eh_frame: 0xce8
++  __DATA_CONST.__got: 0x180
++  __DATA_CONST.__const: 0x210
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x5f8
++  __AUTH_CONST.__auth_got: 0x608
+   __AUTH_CONST.__const: 0x998
+   __AUTH_CONST.__objc_const: 0x798
+   __DATA.__data: 0x3c8
+
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 67B11F10-C45E-3D8B-90FA-01103A59AEF3
+-  Functions: 1175
+-  Symbols:   3643
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  UUID: 4F44EBF7-E5D8-3A0D-85B3-7CB4AA793586
++  Functions: 1167
++  Symbols:   3617
+   CStrings:  41
+ 
+Symbols:
++ _$s12AppleArchive0B10ByteStreamC06CustomcD6Bridge33_DB3D9388F2DA7AF4C55DCA57DFCC6AC7LLCyAFSgAA0bcD8Protocol_pcfCTf4en_n
++ _$s12AppleArchive0B17EncryptionContextC8_setBlob5field6stringySo16AEAContextFieldsV_SSSgtKF
++ _$s12AppleArchive0B17EncryptionContextC8passwordSSSgvpACTk
++ _$s12AppleArchive0B6HeaderC12EntryXATBlobC4_set2at9attributeySi_AE17ExtendedAttributeVtF
++ _$s12AppleArchive0B6HeaderC6keySet9directory4path5flagsACSgAC08FieldKeyE0C_6System8FilePathVAmA0B5FlagsVtcfcs13OpaquePointerVSgSPys4Int8VGXEfU_TA.1
++ _$s12AppleArchive0B6HeaderC6keySet9directory4path5flagsACSgAC08FieldKeyE0C_6System8FilePathVAmA0B5FlagsVtcfcs13OpaquePointerVSgSPys4Int8VGXEfU_TATm
++ _$s12AppleArchive0B6StreamC06CustombC6Bridge33_4438800270C24D4D260353A75D774C72LLCyAFSgAA0bC8Protocol_pcfCTf4en_n
++ _$s12AppleArchive0B6StreamC06encodeC09writingTo11selectUsing5flags11threadCountACSgAA0b4ByteC0C_AA0B6HeaderC18EntryMessageStatusVAM0nO0V_6System8FilePathVAM0N10FilterDataOSgtcSgAA0B5FlagsVSitFZTm
++ _$sSs8UTF8ViewV8distance4from2toSiSS5IndexV_AGtF
++ _$ss15ContiguousArrayVsSHRzlE4hash4intoys6HasherVz_tFs5UInt8V_Tg5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC12AppleArchive0I6HeaderC12EntryXATBlobC17ExtendedAttributeV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC12AppleArchive0I6HeaderC5FieldO_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC12AppleArchive0I6HeaderC8FieldKeyV_Tt1g5Tm
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlF12AppleArchive0H6HeaderC_Tg5Tm
++ ___unnamed_2
++ ___unnamed_6
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AppleArchive
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AppleArchive
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AppleArchive
++ _swift_coroFrameAlloc
++ _swift_unknownObjectRetain
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFyt_Tg5099$s12AppleArchive0B17EncryptionContextC8_setBlob5field3keyySo16AEAContextFieldsV_AA01_aB19ContiguousF18X963_ptKFySWKXEfU_0J7Archive07ArchivemN0CSo0sT0VTf1nncn_nTm
+- _$s12AppleArchive0B10ByteStreamC025randomAccessDecompressionD011readingFrom15allocationLimit5flags11threadCountACSgAC_SiAA0B5FlagsVSitFZTf4nnnnd_n
+- _$s12AppleArchive0B10ByteStreamC06CustomcD6Bridge33_DB3D9388F2DA7AF4C55DCA57DFCC6AC7LLCyAFSgAA0bcD8Protocol_pcfCTf4en_nTf4gn_n
+- _$s12AppleArchive0B6HeaderC12EntryXATBlobCSMAASMy7ElementQz5IndexQzciMTW.resume.0Tm
+- _$s12AppleArchive0B6HeaderC12EntryXATBlobCyAE17ExtendedAttributeVSicipAETk
+- _$s12AppleArchive0B6HeaderC6_field2atAC5FieldOSi_tFySrys5UInt8VGz_SiztXEfU_
+- _$s12AppleArchive0B6HeaderCSMAASMy7ElementQz5IndexQzciMTW.resume.0Tm
+- _$s12AppleArchive0B6StreamC06CustombC6Bridge33_4438800270C24D4D260353A75D774C72LLCyAFSgAA0bC8Protocol_pcfCTf4en_nTf4gn_n
+- _$s12AppleArchive0B6StreamC06decodeC011readingFrom11selectUsing5flags11threadCountACSgAA0b4ByteC0C_AA0B6HeaderC18EntryMessageStatusVAM0nO0V_6System8FilePathVAM0N10FilterDataOSgtcSgAA0B5FlagsVSitFZTf4nnnnd_n
+- _$s12AppleArchive0B6StreamC06encodeC09writingTo11selectUsing5flags11threadCountACSgAA0b4ByteC0C_AA0B6HeaderC18EntryMessageStatusVAM0nO0V_6System8FilePathVAM0N10FilterDataOSgtcSgAA0B5FlagsVSitFZTf4nnnnd_n
+- _$s12AppleArchive0B6StreamC06encodeC09writingTo11selectUsing5flags11threadCountACSgAA0b4ByteC0C_AA0B6HeaderC18EntryMessageStatusVAM0nO0V_6System8FilePathVAM0N10FilterDataOSgtcSgAA0B5FlagsVSitFZTf4nnnnd_nTm
+- _$s12AppleArchive0B6StreamC07convertC09writingTo12insertKeySet06removehI011selectUsing5flags11threadCountACSgAC_AA0B6HeaderC05FieldhI0CAoM18EntryMessageStatusVAM0rS0V_6System8FilePathVAM0R10FilterDataOSgtcSgAA0B5FlagsVSitFZTf4nnnnnnd_n
+- _$s12AppleArchive0B6StreamC07extractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0pQ0V_AlN0P10FilterDataOSgtcSgAA0B5FlagsVSitFZTf4nnnnd_n
+- _$sSS8UTF8ViewV16_foreignDistance4from2toSiSS5IndexV_AGtF
+- _$sSS8withUTF8yxxSRys5UInt8VGKXEKlFyt_Tg5096$s12AppleArchive0B17EncryptionContextC8_setBlob5field6stringySo16AEAContextFieldsV_SSSgtKFySRys5C8VGKXEfU_0E7Archive0thI0CSo0nO0VTf1ncn_n
+- _$sSa28_unsafeUninitializedCapacity16initializingWithSayxGSi_ySryxGz_SiztKXEtKcfCs5UInt8V_Tt1g5091$s12AppleArchive0B17EncryptionContextC8_getBlob5field14representations15ContiguousArrayVys5F73VGSgSo16AEAContextFieldsV_So0L20FieldRepresentationsVtFySryAJGz_SiztXEfU_0H7Archive07ArchivekL0CSo0uV0VSo0uyZ0VSiTf1nc_nTf4ngnnn_n
+- _$sSlsE5countSivgSs8UTF8ViewV_Tgq5
+- _$ss10SetAlgebraPsE10isDisjoint4withSbx_tF12AppleArchive0G6HeaderC08FieldKeyA0C_Tg5
+- _$ss10SetAlgebraPsE10isSuperset2ofSbx_tF12AppleArchive0G6HeaderC08FieldKeyA0C_Tg5
+- _$ss10SetAlgebraPsE11subtractingyxxF12AppleArchive0E6HeaderC08FieldKeyA0C_Tg5
+- _$ss10SetAlgebraPsE8isSubset2ofSbx_tF12AppleArchive0G6HeaderC08FieldKeyA0C_Tg5
+- ___unnamed_1
+- ___unnamed_4
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AppleArchive
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AppleArchive
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AppleArchive
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AppleArchive
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AppleArchive
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AppleArchive
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AppleArchive
+
+```

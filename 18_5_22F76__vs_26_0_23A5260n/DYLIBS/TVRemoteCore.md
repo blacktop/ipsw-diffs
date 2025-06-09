@@ -1,0 +1,2831 @@
+## TVRemoteCore
+
+> `/System/Library/PrivateFrameworks/TVRemoteCore.framework/TVRemoteCore`
+
+```diff
+
+-496.50.7.0.0
+-  __TEXT.__text: 0xbaef4
+-  __TEXT.__auth_stubs: 0xce0
+-  __TEXT.__objc_methlist: 0xa160
+-  __TEXT.__const: 0x23c40
+-  __TEXT.__gcc_except_tab: 0xf68
+-  __TEXT.__cstring: 0x5901
+-  __TEXT.__oslogstring: 0x8845
+-  __TEXT.__unwind_info: 0x1d88
+-  __TEXT.__eh_frame: 0x7f8
+-  __TEXT.__objc_classname: 0x1105
+-  __TEXT.__objc_methname: 0x12b13
+-  __TEXT.__objc_methtype: 0x3e4f
+-  __TEXT.__objc_stubs: 0xc040
+-  __DATA_CONST.__got: 0x7d0
+-  __DATA_CONST.__const: 0x1bb0
+-  __DATA_CONST.__objc_classlist: 0x440
+-  __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x170
++548.0.1.0.0
++  __TEXT.__text: 0x5f608
++  __TEXT.__auth_stubs: 0xb30
++  __TEXT.__objc_methlist: 0x82cc
++  __TEXT.__const: 0x200
++  __TEXT.__gcc_except_tab: 0xc4c
++  __TEXT.__cstring: 0x4e87
++  __TEXT.__oslogstring: 0x6ae0
++  __TEXT.__unwind_info: 0x1600
++  __TEXT.__objc_classname: 0xcef
++  __TEXT.__objc_methname: 0xf58d
++  __TEXT.__objc_methtype: 0x2954
++  __TEXT.__objc_stubs: 0x98a0
++  __DATA_CONST.__got: 0x558
++  __DATA_CONST.__const: 0x1610
++  __DATA_CONST.__objc_classlist: 0x370
++  __DATA_CONST.__objc_catlist: 0x18
++  __DATA_CONST.__objc_protolist: 0xe8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4568
++  __DATA_CONST.__objc_selrefs: 0x3ae0
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x370
+-  __DATA_CONST.__objc_arraydata: 0xe0
+-  __AUTH_CONST.__auth_got: 0x680
+-  __AUTH_CONST.__const: 0x3c18
+-  __AUTH_CONST.__cfstring: 0x7a00
+-  __AUTH_CONST.__objc_const: 0xfa38
+-  __AUTH_CONST.__objc_intobj: 0x1c8
+-  __AUTH_CONST.__objc_dictobj: 0xa0
++  __DATA_CONST.__objc_superrefs: 0x2d0
++  __DATA_CONST.__objc_arraydata: 0xd0
++  __AUTH_CONST.__auth_got: 0x5a8
++  __AUTH_CONST.__const: 0x4f8
++  __AUTH_CONST.__cfstring: 0x6b80
++  __AUTH_CONST.__objc_const: 0xcae0
++  __AUTH_CONST.__objc_intobj: 0x1b0
++  __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__objc_doubleobj: 0x30
+-  __AUTH.__objc_data: 0x2940
+-  __DATA.__objc_ivar: 0xa90
+-  __DATA.__data: 0x1220
+-  __DATA.__bss: 0x150
+-  __DATA.__common: 0x9f8
++  __AUTH_CONST.__objc_doubleobj: 0x20
++  __AUTH.__objc_data: 0x2120
++  __DATA.__objc_ivar: 0x878
++  __DATA.__data: 0xaf0
++  __DATA.__bss: 0x120
+   __DATA_DIRTY.__objc_data: 0x140
+-  __DATA_DIRTY.__bss: 0x88
++  __DATA_DIRTY.__bss: 0x78
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+   - /System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/HomeKit.framework/HomeKit
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /System/Library/Frameworks/Security.framework/Security
+-  - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/HomeSharing.framework/HomeSharing
+-  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+-  - /System/Library/PrivateFrameworks/IDSFoundation.framework/IDSFoundation
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MediaRemote.framework/MediaRemote
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 7A515A07-2CDE-3A4B-B856-095173FEB9F8
+-  Functions: 3363
+-  Symbols:   10869
+-  CStrings:  6632
++  UUID: C9DADF4C-8CA8-3483-952C-2C6A02972E10
++  Functions: 2719
++  Symbols:   8837
++  CStrings:  5571
+ 
+Symbols:
++ +[TVRCFeatures isSolariumEnabled]
++ +[TVRCPreferredDevice supportsSecureCoding]
++ -[RPCompanionLinkDevice(TVRemoteCore) relevantIdentifiers]
++ -[TVRCDevice allIdentifiers]
++ -[TVRCMatchPointDeviceImpl allIdentifiers]
++ -[TVRCMatchPointDeviceImpl linkType]
++ -[TVRCMediaInfo channelImageURLTemplate]
++ -[TVRCMediaInfo primaryTitle]
++ -[TVRCMediaInfo setChannelImageURLTemplate:]
++ -[TVRCPreferredDevice .cxx_destruct]
++ -[TVRCPreferredDevice allIdentifiers]
++ -[TVRCPreferredDevice description]
++ -[TVRCPreferredDevice encodeWithCoder:]
++ -[TVRCPreferredDevice identifier]
++ -[TVRCPreferredDevice initFromTVRCDevice:]
++ -[TVRCPreferredDevice initWithCoder:]
++ -[TVRCPreferredDevice setAllIdentifiers:]
++ -[TVRCPreferredDevice setIdentifier:]
++ -[TVRCPreferredDeviceManager .cxx_destruct]
++ -[TVRCPreferredDeviceManager device]
++ -[TVRCPreferredDeviceManager preferredDevice]
++ -[TVRCPreferredDeviceManager preferredDevice].cold.1
++ -[TVRCPreferredDeviceManager setDevice:]
++ -[TVRCPreferredDeviceManager setPreferredDevice:].cold.1
++ -[TVRCRPCompanionLinkClientWrapper sourceVersion].cold.3
++ -[TVRCRapportDeviceImpl allIdentifiers]
++ -[TVRCRapportDeviceImpl didUpdateDevice:]
++ -[TVRCRapportDeviceImpl rapportIdentifier]
++ -[TVRCRapportDeviceQuery deviceQueryQueue]
++ -[TVRCRapportDeviceQuery setDeviceQueryQueue:]
++ -[TVRXDevice _setIdentifier:name:supportedButtons:]
++ -[TVRXDevice _updateDeviceProperties]
++ -[TVRXDevice didUpdateDevice:]
++ -[TVRXDevice rapportIdentifier]
++ -[TVRXDeviceQuery _findDeviceForDeviceImpl:createIfNeeded:]
++ -[TVRXDeviceQuery _findDeviceForDeviceImpl:createIfNeeded:].cold.1
++ GCC_except_table42
++ GCC_except_table65
++ _OBJC_CLASS_$_RTIInputSystemDataPayload
++ _OBJC_CLASS_$_TVRCPreferredDevice
++ _OBJC_IVAR_$_TVRCMediaInfo._channelImageURLTemplate
++ _OBJC_IVAR_$_TVRCPreferredDevice._allIdentifiers
++ _OBJC_IVAR_$_TVRCPreferredDevice._identifier
++ _OBJC_IVAR_$_TVRCPreferredDeviceManager._device
++ _OBJC_IVAR_$_TVRCRapportDeviceQuery._deviceQueryQueue
++ _OBJC_IVAR_$_TVRXDevice._rapportIdentifier
++ _OBJC_METACLASS_$_TVRCPreferredDevice
++ _OUTLINED_FUNCTION_7
++ _OUTLINED_FUNCTION_8
++ _TVRCHomeKitIDKey
++ _TVRCIDSIDKey
++ _TVRCPublishPresenceEvent
++ __OBJC_$_CLASS_METHODS_TVRCPreferredDevice
++ __OBJC_$_CLASS_PROP_LIST_TVRCPreferredDevice
++ __OBJC_$_INSTANCE_METHODS_TVRCPreferredDevice
++ __OBJC_$_INSTANCE_VARIABLES_TVRCPreferredDevice
++ __OBJC_$_INSTANCE_VARIABLES_TVRCPreferredDeviceManager
++ __OBJC_$_PROP_LIST_TVRCPreferredDevice
++ __OBJC_$_PROP_LIST_TVRCPreferredDeviceManager
++ __OBJC_CLASS_PROTOCOLS_$_TVRCPreferredDevice
++ __OBJC_CLASS_RO_$_TVRCPreferredDevice
++ __OBJC_METACLASS_RO_$_TVRCPreferredDevice
++ __TVRCRapportQueryLog
++ __TVRCRapportQueryLog.cold.1
++ __TVRCRapportQueryLog.log
++ __TVRCRapportQueryLog.onceToken
++ __UISolariumEnabled
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.65
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.66
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.66.cold.1
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.71
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.72
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke.72.cold.1
++ ___31-[TVRCRapportDeviceQuery start]_block_invoke_2
++ ___38-[TVRCRapportDeviceQuery _deviceLost:]_block_invoke.84
++ ___39-[TVRCRapportDeviceQuery _deviceFound:]_block_invoke.81
++ ___43-[TVRCRapportDeviceQuery _removeAllDevices]_block_invoke
++ ___53-[TVRCRapportDeviceQuery _disconnectAndRemoveDevice:]_block_invoke
++ ___62-[_TVRCExpiringStore addIdentifier:withExpiration:completion:]_block_invoke
++ ____TVRCRapportQueryLog_block_invoke
++ ___block_descriptor_56_e8_32s40s48w_e5_v8?0ls32l8s40l8w48l8
++ ___block_literal_global.34
++ ___block_literal_global.75
++ _objc_msgSend$_findDeviceForDeviceImpl:createIfNeeded:
++ _objc_msgSend$_removeIdentifierAndPerformCompletion:
++ _objc_msgSend$_setError
++ _objc_msgSend$_updateDeviceProperties
++ _objc_msgSend$channelImageURLTemplate
++ _objc_msgSend$didUpdateDevice:
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$hasError
++ _objc_msgSend$homeKitIdentifier
++ _objc_msgSend$initFromTVRCDevice:
++ _objc_msgSend$intersectsSet:
++ _objc_msgSend$position
++ _objc_msgSend$preferredDevice
++ _objc_msgSend$rapportIdentifier
++ _objc_msgSend$relevantIdentifiers
++ _objc_msgSend$setChannelImageURLTemplate:
++ _objc_msgSend$setPlaceholder:
++ _objc_msgSend$setPosition:
+- +[TVRMSDAAPControlSession localControlSession]
+- +[TVRMSDAAPControlSession proxyControlSession]
+- +[TVRMSDiscoverySession localDiscoverySession]
+- +[TVRMSDiscoverySession proxyDiscoverySession]
+- +[TVRMSIDSClient sharedClient]
+- +[TVRMSIDSClient sharedClient].cold.1
+- +[TVRMSIDSServer server]
+- +[TVRMSIDSServer server].cold.1
+- +[TVRMSPairingRecordStore sharedRecordStore]
+- +[TVRMSPairingRecordStore sharedRecordStore].cold.1
+- +[TVRMSPairingSession localPairingSession]
+- +[TVRMSPairingSession proxyPairingSession]
+- +[TVRMSReachability reachabilityForInternetConnection]
+- +[TVRMSReachability reachabilityForLocalWiFi]
+- +[TVRMSReachability reachabilityWithAddress:]
+- +[TVRMSReachability reachabilityWithHostName:]
+- +[_TVRCRMSDeviceImpl implWithDevice:]
+- +[_TVRCRMSDeviceManager sharedInstance]
+- +[_TVRCRMSDeviceWrapper wrapperWithDevice:]
+- +[_TVRCRMSNowPlayingState nowPlayingStateFromInfo:]
+- -[TVRMSAppleTVServiceProvider searchType]
+- -[TVRMSAppleTVServiceProvider serviceLegacyFlagsFromTXTDictionary:]
+- -[TVRMSAppleTVServiceProvider serviceTypeFromTXTDictionary:]
+- -[TVRMSDAAPControlSession .cxx_destruct]
+- -[TVRMSDAAPControlSession _initializeManagersWithControlInterface:completionHandler:]
+- -[TVRMSDAAPControlSession _stringFromRMSPlaybackCommand:]
+- -[TVRMSDAAPControlSession addToWishlist:databaseID:completionHandler:]
+- -[TVRMSDAAPControlSession beginObservingNowPlaying]
+- -[TVRMSDAAPControlSession clearKeyboardText]
+- -[TVRMSDAAPControlSession connectToService:pairingGUID:completionHandler:]
+- -[TVRMSDAAPControlSession dealloc]
+- -[TVRMSDAAPControlSession delegate]
+- -[TVRMSDAAPControlSession endObservingNowPlaying]
+- -[TVRMSDAAPControlSession init]
+- -[TVRMSDAAPControlSession logout]
+- -[TVRMSDAAPControlSession nowPlayingManager:artworkDataDidBecomeAvailable:identifier:]
+- -[TVRMSDAAPControlSession nowPlayingManager:didUpdateAudioRoutes:]
+- -[TVRMSDAAPControlSession nowPlayingManager:didUpdateNowPlayingInfo:]
+- -[TVRMSDAAPControlSession nowPlayingManager:didUpdateVolume:]
+- -[TVRMSDAAPControlSession pickAudioRoute:completionHandler:]
+- -[TVRMSDAAPControlSession requestManagerFailedWithUnauthorizedError:]
+- -[TVRMSDAAPControlSession requestManagerFailedWithUnknownError:]
+- -[TVRMSDAAPControlSession seekToPlaybackTime:completionHandler:]
+- -[TVRMSDAAPControlSession sendKeyboardReturnCommand]
+- -[TVRMSDAAPControlSession sendNavigationCommand:]
+- -[TVRMSDAAPControlSession sendPlaybackCommand:completionHandler:]
+- -[TVRMSDAAPControlSession sendTouchEndWithDirection:repeatCount:]
+- -[TVRMSDAAPControlSession sendTouchMoveWithDirection:repeatCount:]
+- -[TVRMSDAAPControlSession service]
+- -[TVRMSDAAPControlSession setDelegate:]
+- -[TVRMSDAAPControlSession setKeyboardText:]
+- -[TVRMSDAAPControlSession setLikedState:itemID:databaseID:completionHandler:]
+- -[TVRMSDAAPControlSession setVolume:completionHandler:]
+- -[TVRMSDAAPControlSession touchRemoteManagerDidDisconnect:]
+- -[TVRMSDAAPControlSession touchRemoteManagerKeyboardEditingSessionDidBegin:]
+- -[TVRMSDAAPControlSession touchRemoteManagerKeyboardEditingSessionDidEnd:]
+- -[TVRMSDAAPControlSession touchRemoteManagerKeyboardEditingSessionDidUpdate:]
+- -[TVRMSDAAPControlSessionProxy .cxx_destruct]
+- -[TVRMSDAAPControlSessionProxy _handleAudioRoutesDidUpdateNotification:]
+- -[TVRMSDAAPControlSessionProxy _handleNowPlayingArtworkDidBecomeAvailableNotification:]
+- -[TVRMSDAAPControlSessionProxy _handleNowPlayingInfoDidUpdateNotification:]
+- -[TVRMSDAAPControlSessionProxy _handleSessionDidEndNotification:]
+- -[TVRMSDAAPControlSessionProxy _handleVolumeDidUpdateNotification:]
+- -[TVRMSDAAPControlSessionProxy _notifyDelegateForArtworkChange]
+- -[TVRMSDAAPControlSessionProxy addToWishlist:databaseID:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy beginObservingNowPlaying]
+- -[TVRMSDAAPControlSessionProxy clearKeyboardText]
+- -[TVRMSDAAPControlSessionProxy connectToService:pairingGUID:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy dealloc]
+- -[TVRMSDAAPControlSessionProxy delegate]
+- -[TVRMSDAAPControlSessionProxy endObservingNowPlaying]
+- -[TVRMSDAAPControlSessionProxy heartbeatDidFail]
+- -[TVRMSDAAPControlSessionProxy init]
+- -[TVRMSDAAPControlSessionProxy logout]
+- -[TVRMSDAAPControlSessionProxy pickAudioRoute:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy seekToPlaybackTime:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy sendKeyboardReturnCommand]
+- -[TVRMSDAAPControlSessionProxy sendNavigationCommand:]
+- -[TVRMSDAAPControlSessionProxy sendPlaybackCommand:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy sendTouchEndWithDirection:repeatCount:]
+- -[TVRMSDAAPControlSessionProxy sendTouchMoveWithDirection:repeatCount:]
+- -[TVRMSDAAPControlSessionProxy service]
+- -[TVRMSDAAPControlSessionProxy setDelegate:]
+- -[TVRMSDAAPControlSessionProxy setKeyboardText:]
+- -[TVRMSDAAPControlSessionProxy setLikedState:itemID:databaseID:completionHandler:]
+- -[TVRMSDAAPControlSessionProxy setVolume:completionHandler:]
+- -[TVRMSDAAPLoginManager .cxx_destruct]
+- -[TVRMSDAAPLoginManager _continueFairPlayHandshakeWithData:completionHandler:]
+- -[TVRMSDAAPLoginManager _isFairplayRequiredForServerInfo:]
+- -[TVRMSDAAPLoginManager _requestControlInterfaceWithCompletionHandler:]
+- -[TVRMSDAAPLoginManager _requestFairPlayHandshake:]
+- -[TVRMSDAAPLoginManager _requestLoginWithCompletionHandler:]
+- -[TVRMSDAAPLoginManager _requestServerInfoWithCompletionHandler:]
+- -[TVRMSDAAPLoginManager initWithRequestManager:]
+- -[TVRMSDAAPLoginManager loginWithCompletionHandler:]
+- -[TVRMSDAAPNowPlayingManager .cxx_destruct]
+- -[TVRMSDAAPNowPlayingManager _audioRoutes:equalAudioRoutes:]
+- -[TVRMSDAAPNowPlayingManager _cancelArtworkRetryTimer]
+- -[TVRMSDAAPNowPlayingManager _refreshNowPlayingInfoRequest]
+- -[TVRMSDAAPNowPlayingManager _requestArtworkDataIfNecessaryForNowPlayingInfo:]
+- -[TVRMSDAAPNowPlayingManager _requestAudioRoutes]
+- -[TVRMSDAAPNowPlayingManager _requestNowPlayingInfoWithCompletionHandler:]
+- -[TVRMSDAAPNowPlayingManager _requestVolume]
+- -[TVRMSDAAPNowPlayingManager _scheduleArtworkRetryForNowPlayingInfo:delay:]
+- -[TVRMSDAAPNowPlayingManager beginObservingNowPlaying]
+- -[TVRMSDAAPNowPlayingManager controlInterface]
+- -[TVRMSDAAPNowPlayingManager delegate]
+- -[TVRMSDAAPNowPlayingManager endObservingNowPlaying]
+- -[TVRMSDAAPNowPlayingManager initWithRequestManager:]
+- -[TVRMSDAAPNowPlayingManager isObserving]
+- -[TVRMSDAAPNowPlayingManager setControlInterface:]
+- -[TVRMSDAAPNowPlayingManager setDelegate:]
+- -[TVRMSDAAPRequestManager .cxx_destruct]
+- -[TVRMSDAAPRequestManager delegate]
+- -[TVRMSDAAPRequestManager fairPlaySession]
+- -[TVRMSDAAPRequestManager homeSharingGroupKey]
+- -[TVRMSDAAPRequestManager hostName]
+- -[TVRMSDAAPRequestManager init]
+- -[TVRMSDAAPRequestManager pairingGUID]
+- -[TVRMSDAAPRequestManager port]
+- -[TVRMSDAAPRequestManager requestControlCommand:text:data:controlValue:promptRevision:completionHandler:]
+- -[TVRMSDAAPRequestManager requestControlCommand:text:promptRevision:completionHandler:]
+- -[TVRMSDAAPRequestManager requestWithPath:method:postData:queryArgs:completionHandler:]
+- -[TVRMSDAAPRequestManager sessionIdentifier]
+- -[TVRMSDAAPRequestManager setDelegate:]
+- -[TVRMSDAAPRequestManager setFairPlaySession:]
+- -[TVRMSDAAPRequestManager setHomeSharingGroupKey:]
+- -[TVRMSDAAPRequestManager setHostName:]
+- -[TVRMSDAAPRequestManager setPairingGUID:]
+- -[TVRMSDAAPRequestManager setPort:]
+- -[TVRMSDAAPRequestManager setSessionIdentifier:]
+- -[TVRMSDAAPTouchRemoteManager .cxx_destruct]
+- -[TVRMSDAAPTouchRemoteManager _createSocket]
+- -[TVRMSDAAPTouchRemoteManager _encryptString:]
+- -[TVRMSDAAPTouchRemoteManager _locationForDirection:repeatCount:]
+- -[TVRMSDAAPTouchRemoteManager _parsePortInfoItems:]
+- -[TVRMSDAAPTouchRemoteManager _processAuthenticationUpdateForItems:]
+- -[TVRMSDAAPTouchRemoteManager _processKeyboardMessageItems:]
+- -[TVRMSDAAPTouchRemoteManager _requestKeyboardStatus]
+- -[TVRMSDAAPTouchRemoteManager _requestPortInfo]
+- -[TVRMSDAAPTouchRemoteManager _requestPromptUpdate:]
+- -[TVRMSDAAPTouchRemoteManager _timeForDirection:repeatCount:]
+- -[TVRMSDAAPTouchRemoteManager clearKeyboardText]
+- -[TVRMSDAAPTouchRemoteManager delegate]
+- -[TVRMSDAAPTouchRemoteManager initWithRequestManager:]
+- -[TVRMSDAAPTouchRemoteManager initiateControlWithCompletionHandler:]
+- -[TVRMSDAAPTouchRemoteManager keyboardEditingSessionActive]
+- -[TVRMSDAAPTouchRemoteManager keyboardInfo]
+- -[TVRMSDAAPTouchRemoteManager sendKeyboardReturnCommand]
+- -[TVRMSDAAPTouchRemoteManager sendNavigationCommand:]
+- -[TVRMSDAAPTouchRemoteManager sendTouchEndWithDirection:repeatCount:]
+- -[TVRMSDAAPTouchRemoteManager sendTouchMoveWithDirection:repeatCount:]
+- -[TVRMSDAAPTouchRemoteManager setDelegate:]
+- -[TVRMSDAAPTouchRemoteManager setKeyboardText:]
+- -[TVRMSDAAPTouchRemoteManager touchRemoteSocketDidConnect:]
+- -[TVRMSDAAPTouchRemoteManager touchRemoteSocketDidDisconnect:]
+- -[TVRMSDiscoverySession .cxx_destruct]
+- -[TVRMSDiscoverySession _enableProviders]
+- -[TVRMSDiscoverySession _handleHSGroupIDDidChangeNotification:]
+- -[TVRMSDiscoverySession _handleReachabilityChangedNotification:]
+- -[TVRMSDiscoverySession _providerForDiscoveryType:]
+- -[TVRMSDiscoverySession _updateWifiAvailability]
+- -[TVRMSDiscoverySession availableServices]
+- -[TVRMSDiscoverySession beginDiscovery]
+- -[TVRMSDiscoverySession dealloc]
+- -[TVRMSDiscoverySession delegate]
+- -[TVRMSDiscoverySession discoveryTypes]
+- -[TVRMSDiscoverySession endDiscovery]
+- -[TVRMSDiscoverySession init]
+- -[TVRMSDiscoverySession isNetworkAvailable]
+- -[TVRMSDiscoverySession pairedNetworkNames]
+- -[TVRMSDiscoverySession serviceProvider:serviceDidBecomeAvailable:]
+- -[TVRMSDiscoverySession serviceProvider:serviceDidBecomeUnavailable:]
+- -[TVRMSDiscoverySession setDelegate:]
+- -[TVRMSDiscoverySession setDiscoveryTypes:]
+- -[TVRMSDiscoverySession setPairedNetworkNames:]
+- -[TVRMSDiscoverySessionProxy .cxx_destruct]
+- -[TVRMSDiscoverySessionProxy _availableServicesDidUpdateNotification:]
+- -[TVRMSDiscoverySessionProxy _companionAvailabilityDidChange:]
+- -[TVRMSDiscoverySessionProxy _handleSessionDidEndNotification:]
+- -[TVRMSDiscoverySessionProxy _updateNetworkAvailability]
+- -[TVRMSDiscoverySessionProxy _wifiAvailabilityDidChange:]
+- -[TVRMSDiscoverySessionProxy availableServices]
+- -[TVRMSDiscoverySessionProxy beginDiscovery]
+- -[TVRMSDiscoverySessionProxy dealloc]
+- -[TVRMSDiscoverySessionProxy delegate]
+- -[TVRMSDiscoverySessionProxy discoveryTypes]
+- -[TVRMSDiscoverySessionProxy endDiscovery]
+- -[TVRMSDiscoverySessionProxy heartbeatDidFail]
+- -[TVRMSDiscoverySessionProxy init]
+- -[TVRMSDiscoverySessionProxy isNetworkAvailable]
+- -[TVRMSDiscoverySessionProxy pairedNetworkNames]
+- -[TVRMSDiscoverySessionProxy setDelegate:]
+- -[TVRMSDiscoverySessionProxy setDiscoveryTypes:]
+- -[TVRMSDiscoverySessionProxy setPairedNetworkNames:]
+- -[TVRMSFairPlaySession _getHardwareInfo:]
+- -[TVRMSFairPlaySession _hexStringForData:]
+- -[TVRMSFairPlaySession dealloc]
+- -[TVRMSFairPlaySession handshakeData]
+- -[TVRMSFairPlaySession handshakeIterationWithData:]
+- -[TVRMSFairPlaySession headerForURL:]
+- -[TVRMSFairPlaySession invalidate]
+- -[TVRMSFairPlaySession isHandshakeComplete]
+- -[TVRMSHomeSharingServiceProvider searchScope]
+- -[TVRMSHomeSharingServiceProvider searchType]
+- -[TVRMSHomeSharingServiceProvider serviceDiscoverySource]
+- -[TVRMSIDSClient .cxx_destruct]
+- -[TVRMSIDSClient _handleAddToWishlistResponse:]
+- -[TVRMSIDSClient _handleAudioRoutesDidUpdate:]
+- -[TVRMSIDSClient _handleAvailableServicesDidUpdate:]
+- -[TVRMSIDSClient _handleBeginDiscoverySessionResponse:]
+- -[TVRMSIDSClient _handleBeginObservingNowPlayingResponse:]
+- -[TVRMSIDSClient _handleBeginPairingSessionResponse:]
+- -[TVRMSIDSClient _handleConnectToServiceResponse:]
+- -[TVRMSIDSClient _handleHeartbeatResponse:]
+- -[TVRMSIDSClient _handleNowPlayingArtworkAvailable:]
+- -[TVRMSIDSClient _handleNowPlayingArtworkDataResponse:]
+- -[TVRMSIDSClient _handleNowPlayingInfoDidUpdate:]
+- -[TVRMSIDSClient _handlePairingDidFail:]
+- -[TVRMSIDSClient _handlePairingDidSucceed:]
+- -[TVRMSIDSClient _handlePickAudioRouteResponse:]
+- -[TVRMSIDSClient _handleResponseCodeMessage:]
+- -[TVRMSIDSClient _handleSessionDidEnd:]
+- -[TVRMSIDSClient _handleSetLikedStateResponse:]
+- -[TVRMSIDSClient _handleTimeoutForMessageWithIdentifier:]
+- -[TVRMSIDSClient _handleVolumeDidUpdate:]
+- -[TVRMSIDSClient _handleWifiAvailabilityDidChange:]
+- -[TVRMSIDSClient _invokeArtworkDataResponseBlock:artworkData:]
+- -[TVRMSIDSClient _invokeBeginDiscoveryResponseBlock:success:session:]
+- -[TVRMSIDSClient _invokeBeginPairingResponseBlock:responseCode:session:]
+- -[TVRMSIDSClient _invokeConnectToServiceResponseBlock:responseCode:controlInterface:session:]
+- -[TVRMSIDSClient _invokeResponseCodeResponseBlock:responseCode:]
+- -[TVRMSIDSClient _isCompanionAvailable]
+- -[TVRMSIDSClient _sendMessage:type:timeout:queueOneID:priority:responseBlock:]
+- -[TVRMSIDSClient _updateCompanionAvailability]
+- -[TVRMSIDSClient addToWishlist:databaseID:sessionIdentifier:completionHandler:]
+- -[TVRMSIDSClient beginDiscoverySessionWithDiscoveryTypes:pairedNetworkNames:completionHandler:]
+- -[TVRMSIDSClient beginObservingNowPlayingWithSessionIdentifier:completionHandler:]
+- -[TVRMSIDSClient beginPairingSessionWithPasscode:appName:deviceName:deviceModel:completionHandler:]
+- -[TVRMSIDSClient connectToService:pairingGUID:completionHandler:]
+- -[TVRMSIDSClient endDiscoverySession:]
+- -[TVRMSIDSClient endObservingNowPlayingWithSessionIdentifier:]
+- -[TVRMSIDSClient endPairingSession:]
+- -[TVRMSIDSClient init]
+- -[TVRMSIDSClient isCompanionAvailable]
+- -[TVRMSIDSClient logoutWithSessionIdentifier:]
+- -[TVRMSIDSClient pickAudioRouteWithMacAddress:sessionIdentifier:completionHandler:]
+- -[TVRMSIDSClient requestArtworkDataForNowPlayingInfo:width:height:compressionQuality:completionHandler:]
+- -[TVRMSIDSClient seekToPlaybackTime:sessionIdentifier:]
+- -[TVRMSIDSClient sendHeartbeatWithSessionIdentifier:completionHandler:]
+- -[TVRMSIDSClient sendNavigationCommand:sessionIdentifier:]
+- -[TVRMSIDSClient sendPlaybackCommand:sessionIdentifier:]
+- -[TVRMSIDSClient sendTouchEndWithDirection:repeatCount:sessionIdentifier:]
+- -[TVRMSIDSClient sendTouchMoveWithDirection:repeatCount:sessionIdentifier:]
+- -[TVRMSIDSClient service:account:identifier:didSendWithSuccess:error:]
+- -[TVRMSIDSClient service:account:incomingUnhandledProtobuf:fromID:context:]
+- -[TVRMSIDSClient service:devicesChanged:]
+- -[TVRMSIDSClient setCompanionAvailable:]
+- -[TVRMSIDSClient setLikedState:itemID:databaseID:sessionIdentifier:completionHandler:]
+- -[TVRMSIDSClient setVolume:sessionIdentifier:]
+- -[TVRMSIDSClient updatePairedNetworkNames:sessionIdentifier:]
+- -[TVRMSIDSServer .cxx_destruct]
+- -[TVRMSIDSServer _cleanupStaleSessions:]
+- -[TVRMSIDSServer _handleAddToWishlist:]
+- -[TVRMSIDSServer _handleBeginDiscovery:]
+- -[TVRMSIDSServer _handleBeginObservingNowPlaying:]
+- -[TVRMSIDSServer _handleBeginPairing:]
+- -[TVRMSIDSServer _handleConnectToService:]
+- -[TVRMSIDSServer _handleEndDiscovery:]
+- -[TVRMSIDSServer _handleEndObservingNowPlaying:]
+- -[TVRMSIDSServer _handleEndPairing:]
+- -[TVRMSIDSServer _handleLogout:]
+- -[TVRMSIDSServer _handleNavigationCommand:]
+- -[TVRMSIDSServer _handleNowPlayingArtworkRequest:]
+- -[TVRMSIDSServer _handlePickAudioRoute:]
+- -[TVRMSIDSServer _handlePlaybackCommand:]
+- -[TVRMSIDSServer _handleSeekToPlaybackTime:]
+- -[TVRMSIDSServer _handleSessionHeartbeat:]
+- -[TVRMSIDSServer _handleSetLikeState:]
+- -[TVRMSIDSServer _handleSetVolume:]
+- -[TVRMSIDSServer _handleTouchEnd:]
+- -[TVRMSIDSServer _handleTouchMove:]
+- -[TVRMSIDSServer _handleUpdatePairedNetworkNames:]
+- -[TVRMSIDSServer _sendData:type:priority:timeout:queueOneID:inResponseTo:]
+- -[TVRMSIDSServer _sendData:type:timeout:queueOneID:inResponseTo:]
+- -[TVRMSIDSServer controlSession:artworkDataDidBecomeAvailable:identifier:]
+- -[TVRMSIDSServer controlSession:didUpdateAudioRoutes:]
+- -[TVRMSIDSServer controlSession:didUpdateKeyboardEditingInfo:]
+- -[TVRMSIDSServer controlSession:didUpdateNowPlayingInfo:]
+- -[TVRMSIDSServer controlSession:didUpdateVolume:]
+- -[TVRMSIDSServer controlSession:keyboardEditingDidBegin:]
+- -[TVRMSIDSServer controlSession:keyboardEditingDidEnd:]
+- -[TVRMSIDSServer controlSessionDidEnd:]
+- -[TVRMSIDSServer discoverySessionDidUpdateAvailableServices:]
+- -[TVRMSIDSServer discoverySessionNetworkAvailabilityDidChange:]
+- -[TVRMSIDSServer init]
+- -[TVRMSIDSServer pairingSession:didPairWithServiceNetworkName:pairingGUID:]
+- -[TVRMSIDSServer pairingSessionDidFail:]
+- -[TVRMSIDSServer service:account:incomingUnhandledProtobuf:fromID:context:]
+- -[TVRMSIDSServer sessionManager:sessionDidTimeout:]
+- -[TVRMSPairingRecordStore .cxx_destruct]
+- -[TVRMSPairingRecordStore _synchronizePreferences]
+- -[TVRMSPairingRecordStore allPairingRecords]
+- -[TVRMSPairingRecordStore init]
+- -[TVRMSPairingRecordStore pairedServiceNetworkNames]
+- -[TVRMSPairingRecordStore pairingRecordForServiceWithNetworkName:]
+- -[TVRMSPairingRecordStore removePairingRecordForServiceWithNetworkName:]
+- -[TVRMSPairingRecordStore savePairingRecord:forServiceWithNetworkName:]
+- -[TVRMSPairingServiceProvider .cxx_destruct]
+- -[TVRMSPairingServiceProvider dealloc]
+- -[TVRMSPairingServiceProvider init]
+- -[TVRMSPairingServiceProvider netServiceBrowser:didFindService:moreComing:]
+- -[TVRMSPairingServiceProvider pairedNetworkNames]
+- -[TVRMSPairingServiceProvider searchType]
+- -[TVRMSPairingServiceProvider serviceDiscoverySource]
+- -[TVRMSPairingServiceProvider serviceLegacyFlagsFromTXTDictionary:]
+- -[TVRMSPairingServiceProvider setPairedNetworkNames:]
+- -[TVRMSPairingSession .cxx_destruct]
+- -[TVRMSPairingSession _expectedPasscodeHashForPasscode:publicKey:]
+- -[TVRMSPairingSession _generatePublicKey]
+- -[TVRMSPairingSession _pairingNetServiceName]
+- -[TVRMSPairingSession _startBonjourAdvertisingWithPublicKey:httpServerPort:]
+- -[TVRMSPairingSession advertisedAppName]
+- -[TVRMSPairingSession advertisedDeviceModel]
+- -[TVRMSPairingSession advertisedDeviceName]
+- -[TVRMSPairingSession beginPairing]
+- -[TVRMSPairingSession dealloc]
+- -[TVRMSPairingSession delegate]
+- -[TVRMSPairingSession endPairing]
+- -[TVRMSPairingSession init]
+- -[TVRMSPairingSession netService:didNotPublish:]
+- -[TVRMSPairingSession netServiceDidPublish:]
+- -[TVRMSPairingSession netServiceDidStop:]
+- -[TVRMSPairingSession pairingServer:didPairWithService:pairingGUID:]
+- -[TVRMSPairingSession pairingServerDidFail:]
+- -[TVRMSPairingSession passcode]
+- -[TVRMSPairingSession setAdvertisedAppName:]
+- -[TVRMSPairingSession setAdvertisedDeviceModel:]
+- -[TVRMSPairingSession setAdvertisedDeviceName:]
+- -[TVRMSPairingSession setDelegate:]
+- -[TVRMSPairingSession setPasscode:]
+- -[TVRMSPairingSessionProxy .cxx_destruct]
+- -[TVRMSPairingSessionProxy _handleDidPairWithServiceNotification:]
+- -[TVRMSPairingSessionProxy _handlePairingDidFailNotification:]
+- -[TVRMSPairingSessionProxy _handleSessionDidEndNotification:]
+- -[TVRMSPairingSessionProxy _notifyDelegatePairingFailed]
+- -[TVRMSPairingSessionProxy advertisedAppName]
+- -[TVRMSPairingSessionProxy advertisedDeviceModel]
+- -[TVRMSPairingSessionProxy advertisedDeviceName]
+- -[TVRMSPairingSessionProxy beginPairing]
+- -[TVRMSPairingSessionProxy dealloc]
+- -[TVRMSPairingSessionProxy delegate]
+- -[TVRMSPairingSessionProxy endPairing]
+- -[TVRMSPairingSessionProxy heartbeatDidFail]
+- -[TVRMSPairingSessionProxy init]
+- -[TVRMSPairingSessionProxy passcode]
+- -[TVRMSPairingSessionProxy setAdvertisedAppName:]
+- -[TVRMSPairingSessionProxy setAdvertisedDeviceModel:]
+- -[TVRMSPairingSessionProxy setAdvertisedDeviceName:]
+- -[TVRMSPairingSessionProxy setDelegate:]
+- -[TVRMSPairingSessionProxy setPasscode:]
+- -[TVRMSReachability connectionRequired]
+- -[TVRMSReachability currentReachabilityStatus]
+- -[TVRMSReachability dealloc]
+- -[TVRMSReachability localWiFiStatusForFlags:]
+- -[TVRMSReachability networkStatusForFlags:]
+- -[TVRMSReachability startNotifier]
+- -[TVRMSReachability stopNotifier]
+- -[TVRMSSessionProxy .cxx_destruct]
+- -[TVRMSSessionProxy _applicationDidBecomeActive:]
+- -[TVRMSSessionProxy _applicationWillResignActiveNotification:]
+- -[TVRMSSessionProxy _sendHeartbeat:]
+- -[TVRMSSessionProxy beginHeartbeat]
+- -[TVRMSSessionProxy dealloc]
+- -[TVRMSSessionProxy endHeartbeat]
+- -[TVRMSSessionProxy heartbeatDidFail]
+- -[TVRMSSessionProxy heartbeatTime]
+- -[TVRMSSessionProxy initWithTimeout:]
+- -[TVRMSSessionProxy init]
+- -[TVRMSSessionProxy sessionIdentifier]
+- -[TVRMSSessionProxy sessionMatchesNotification:]
+- -[TVRMSSessionProxy setSessionIdentifier:]
+- -[TVRMSTouchRemoteSocket .cxx_destruct]
+- -[TVRMSTouchRemoteSocket _encryptData:]
+- -[TVRMSTouchRemoteSocket connect]
+- -[TVRMSTouchRemoteSocket dealloc]
+- -[TVRMSTouchRemoteSocket delegate]
+- -[TVRMSTouchRemoteSocket disconnect]
+- -[TVRMSTouchRemoteSocket initWithHost:port:encryptionKey:]
+- -[TVRMSTouchRemoteSocket sendTouchCode:timeInMilliseconds:location:]
+- -[TVRMSTouchRemoteSocket setDelegate:]
+- -[TVRMSTouchRemoteSocket stream:handleEvent:]
+- -[TVRXDevice _setIdentifier:alternateIdentifiers:name:model:supportedButtons:]
+- -[TVRXDevice setAlternateIdentifiers:]
+- -[TVRXDevice setModel:]
+- -[TVRXDeviceQuery _findDeviceForIdentifier:createIfNeeded:]
+- -[TVRXDeviceQuery _findDeviceForIdentifier:createIfNeeded:].cold.1
+- -[TVRXDeviceQuery rmsDeviceQuery]
+- -[TVRXDeviceQuery setRmsDeviceQuery:]
+- -[UIImage(TVRMSAdditions) rms_jpegDataScaledToSize:compressionQuality:]
+- -[_RMSMessageRecord .cxx_destruct]
+- -[_RMSMessageRecord messageType]
+- -[_RMSMessageRecord responseBlock]
+- -[_RMSMessageRecord setMessageType:]
+- -[_RMSMessageRecord setResponseBlock:]
+- -[_TVRCRMSDeviceImpl .cxx_destruct]
+- -[_TVRCRMSDeviceImpl alternateIdentifiers]
+- -[_TVRCRMSDeviceImpl connect]
+- -[_TVRCRMSDeviceImpl connectedToDevice:]
+- -[_TVRCRMSDeviceImpl connectionType]
+- -[_TVRCRMSDeviceImpl delegate]
+- -[_TVRCRMSDeviceImpl deviceEncounteredAuthenticationChallenge:]
+- -[_TVRCRMSDeviceImpl deviceUpdatedSupportedButtons:]
+- -[_TVRCRMSDeviceImpl deviceWrapper]
+- -[_TVRCRMSDeviceImpl disconnect]
+- -[_TVRCRMSDeviceImpl disconnectedFromDevice:error:]
+- -[_TVRCRMSDeviceImpl identifier]
+- -[_TVRCRMSDeviceImpl initWithDevice:]
+- -[_TVRCRMSDeviceImpl isPaired]
+- -[_TVRCRMSDeviceImpl keyboardController]
+- -[_TVRCRMSDeviceImpl model]
+- -[_TVRCRMSDeviceImpl name]
+- -[_TVRCRMSDeviceImpl pairingCapability]
+- -[_TVRCRMSDeviceImpl priority]
+- -[_TVRCRMSDeviceImpl sendButtonEvent:]
+- -[_TVRCRMSDeviceImpl sendGameControllerEvent:]
+- -[_TVRCRMSDeviceImpl sendTouchEvent:]
+- -[_TVRCRMSDeviceImpl setAuthenticationSupported:]
+- -[_TVRCRMSDeviceImpl setDelegate:]
+- -[_TVRCRMSDeviceImpl setDeviceWrapper:]
+- -[_TVRCRMSDeviceImpl supportedButtons]
+- -[_TVRCRMSDeviceImpl supportsDirectCaptionQueries]
+- -[_TVRCRMSDeviceImpl supportsFindMyRemote]
+- -[_TVRCRMSDeviceImpl supportsTouchEvents]
+- -[_TVRCRMSDeviceKeyboardImpl .cxx_destruct]
+- -[_TVRCRMSDeviceKeyboardImpl _attributesForKeyboardInfo:]
+- -[_TVRCRMSDeviceKeyboardImpl _keyboardTypeForInfo:]
+- -[_TVRCRMSDeviceKeyboardImpl attributes]
+- -[_TVRCRMSDeviceKeyboardImpl delegate]
+- -[_TVRCRMSDeviceKeyboardImpl editing]
+- -[_TVRCRMSDeviceKeyboardImpl isEditing]
+- -[_TVRCRMSDeviceKeyboardImpl keyboardController]
+- -[_TVRCRMSDeviceKeyboardImpl keyboardInfo]
+- -[_TVRCRMSDeviceKeyboardImpl keyboardSessionBegan:]
+- -[_TVRCRMSDeviceKeyboardImpl keyboardSessionEnded:]
+- -[_TVRCRMSDeviceKeyboardImpl keyboardSessionUpdatedEditingInfo:]
+- -[_TVRCRMSDeviceKeyboardImpl sendReturnKey]
+- -[_TVRCRMSDeviceKeyboardImpl setDelegate:]
+- -[_TVRCRMSDeviceKeyboardImpl setEditing:]
+- -[_TVRCRMSDeviceKeyboardImpl setKeyboardController:]
+- -[_TVRCRMSDeviceKeyboardImpl setKeyboardInfo:]
+- -[_TVRCRMSDeviceKeyboardImpl setText:]
+- -[_TVRCRMSDeviceKeyboardImpl text]
+- -[_TVRCRMSDeviceManager _addOrUpdateRecordInUserDefaults:]
+- -[_TVRCRMSDeviceManager _allRecords]
+- -[_TVRCRMSDeviceManager _performWithMutableRecords:]
+- -[_TVRCRMSDeviceManager _removeRecordWithNetworkNameFromUserDefaults:]
+- -[_TVRCRMSDeviceManager addStoredInfoForNetworkName:displayName:pairingGUID:]
+- -[_TVRCRMSDeviceManager pairingGUIDForNetworkName:]
+- -[_TVRCRMSDeviceManager removeStoredInfoForNetworkName:]
+- -[_TVRCRMSDeviceQuery .cxx_destruct]
+- -[_TVRCRMSDeviceQuery _shouldReportDevice:]
+- -[_TVRCRMSDeviceQuery delegate]
+- -[_TVRCRMSDeviceQuery discoverySessionDidUpdateAvailableServices:]
+- -[_TVRCRMSDeviceQuery legacyDiscoverySession]
+- -[_TVRCRMSDeviceQuery service]
+- -[_TVRCRMSDeviceQuery setDelegate:]
+- -[_TVRCRMSDeviceQuery setLegacyDiscoverySession:]
+- -[_TVRCRMSDeviceQuery setService:]
+- -[_TVRCRMSDeviceQuery start]
+- -[_TVRCRMSDeviceQuery stop]
+- -[_TVRCRMSDeviceWrapper .cxx_destruct]
+- -[_TVRCRMSDeviceWrapper _cancelPairing]
+- -[_TVRCRMSDeviceWrapper _connectWithPairingGUID:]
+- -[_TVRCRMSDeviceWrapper _disconnectWithError:]
+- -[_TVRCRMSDeviceWrapper _initiatePairing]
+- -[_TVRCRMSDeviceWrapper _navigationCommandForButtonEvent:]
+- -[_TVRCRMSDeviceWrapper _seekToTime:]
+- -[_TVRCRMSDeviceWrapper _setupKeyboardController]
+- -[_TVRCRMSDeviceWrapper _skipSeconds:]
+- -[_TVRCRMSDeviceWrapper _touchDirectionForButtonEvent:]
+- -[_TVRCRMSDeviceWrapper alternateIdentifiers]
+- -[_TVRCRMSDeviceWrapper authenticationAllowed]
+- -[_TVRCRMSDeviceWrapper connect]
+- -[_TVRCRMSDeviceWrapper connected]
+- -[_TVRCRMSDeviceWrapper connectionType]
+- -[_TVRCRMSDeviceWrapper controlSession:artworkDataDidBecomeAvailable:identifier:]
+- -[_TVRCRMSDeviceWrapper controlSession:didUpdateAudioRoutes:]
+- -[_TVRCRMSDeviceWrapper controlSession:didUpdateKeyboardEditingInfo:]
+- -[_TVRCRMSDeviceWrapper controlSession:didUpdateNowPlayingInfo:]
+- -[_TVRCRMSDeviceWrapper controlSession:didUpdateVolume:]
+- -[_TVRCRMSDeviceWrapper controlSession:keyboardEditingDidBegin:]
+- -[_TVRCRMSDeviceWrapper controlSession:keyboardEditingDidEnd:]
+- -[_TVRCRMSDeviceWrapper controlSessionDidEnd:]
+- -[_TVRCRMSDeviceWrapper controlSession]
+- -[_TVRCRMSDeviceWrapper dealloc]
+- -[_TVRCRMSDeviceWrapper delegate]
+- -[_TVRCRMSDeviceWrapper device]
+- -[_TVRCRMSDeviceWrapper disconnectWithError:]
+- -[_TVRCRMSDeviceWrapper disconnect]
+- -[_TVRCRMSDeviceWrapper identifier]
+- -[_TVRCRMSDeviceWrapper initWithDevice:]
+- -[_TVRCRMSDeviceWrapper isPaired]
+- -[_TVRCRMSDeviceWrapper keyboardController]
+- -[_TVRCRMSDeviceWrapper keyboardImpl:updatedText:]
+- -[_TVRCRMSDeviceWrapper keyboardImplRequestsSendingReturnKey:]
+- -[_TVRCRMSDeviceWrapper keyboardImpl]
+- -[_TVRCRMSDeviceWrapper mediaButtons]
+- -[_TVRCRMSDeviceWrapper model]
+- -[_TVRCRMSDeviceWrapper name]
+- -[_TVRCRMSDeviceWrapper nowPlayingState]
+- -[_TVRCRMSDeviceWrapper pairingSession:didBeginPairingWithPasscode:]
+- -[_TVRCRMSDeviceWrapper pairingSession:didPairWithServiceNetworkName:pairingGUID:]
+- -[_TVRCRMSDeviceWrapper pairingSessionDidFail:]
+- -[_TVRCRMSDeviceWrapper pairingSession]
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:]
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:].cold.1
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:].cold.2
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:].cold.3
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:].cold.4
+- -[_TVRCRMSDeviceWrapper sendButtonEvent:].cold.5
+- -[_TVRCRMSDeviceWrapper sendTouchEvent:]
+- -[_TVRCRMSDeviceWrapper setAuthenticationAllowed:]
+- -[_TVRCRMSDeviceWrapper setConnected:]
+- -[_TVRCRMSDeviceWrapper setControlSession:]
+- -[_TVRCRMSDeviceWrapper setDelegate:]
+- -[_TVRCRMSDeviceWrapper setDevice:]
+- -[_TVRCRMSDeviceWrapper setKeyboardController:]
+- -[_TVRCRMSDeviceWrapper setKeyboardImpl:]
+- -[_TVRCRMSDeviceWrapper setMediaButtons:]
+- -[_TVRCRMSDeviceWrapper setNowPlayingState:]
+- -[_TVRCRMSDeviceWrapper setPairingSession:]
+- -[_TVRCRMSDeviceWrapper supportedButtons]
+- -[_TVRCRMSDeviceWrapper supportsTouchEvents]
+- -[_TVRCRMSNowPlayingState .cxx_destruct]
+- -[_TVRCRMSNowPlayingState duration]
+- -[_TVRCRMSNowPlayingState lastReportedPlaybackPosition]
+- -[_TVRCRMSNowPlayingState lastReportedTimestamp]
+- -[_TVRCRMSNowPlayingState playbackRate]
+- -[_TVRCRMSNowPlayingState setDuration:]
+- -[_TVRCRMSNowPlayingState setLastReportedPlaybackPosition:]
+- -[_TVRCRMSNowPlayingState setLastReportedTimestamp:]
+- -[_TVRCRMSNowPlayingState setPlaybackRate:]
+- -[_TVRCRapportDeviceManager deviceImplForLinkDevice:].cold.1
+- GCC_except_table15
+- GCC_except_table18
+- GCC_except_table4
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- _CC_MD5
+- _CC_MD5_Final
+- _CC_MD5_Init
+- _CC_MD5_Update
+- _CFDataGetLength
+- _CFGetTypeID
+- _CFRunLoopGetCurrent
+- _CFStreamCreatePairWithSocketToHost
+- _CGContextDrawImage
+- _CGContextFillRect
+- _CGContextScaleCTM
+- _CGContextSetFillColorWithColor
+- _CGContextTranslateCTM
+- _HSGroupIDDidChangeNotification
+- _IDSDefaultPairedDevice
+- _IDSMaxMessageTimeout
+- _IDSSendMessageOptionBypassDuetKey
+- _IDSSendMessageOptionEnforceRemoteTimeoutsKey
+- _IDSSendMessageOptionExpectsPeerResponseKey
+- _IDSSendMessageOptionFireAndForgetKey
+- _IDSSendMessageOptionLocalDeliveryKey
+- _IDSSendMessageOptionPeerResponseIdentifierKey
+- _IDSSendMessageOptionQueueOneIdentifierKey
+- _IDSSendMessageOptionTimeoutKey
+- _IPaI1oem5iL
+- _MGCopyAnswer
+- _Mib5yocT
+- _NSDefaultRunLoopMode
+- _OBJC_CLASS_$_HSAccountStore
+- _OBJC_CLASS_$_IDSProtobuf
+- _OBJC_CLASS_$_IDSService
+- _OBJC_CLASS_$_NSMutableURLRequest
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSURLSession
+- _OBJC_CLASS_$_NSURLSessionConfiguration
+- _OBJC_CLASS_$_TVRMSAppleTVServiceProvider
+- _OBJC_CLASS_$_TVRMSDAAPControlSession
+- _OBJC_CLASS_$_TVRMSDAAPControlSessionProxy
+- _OBJC_CLASS_$_TVRMSDAAPLoginManager
+- _OBJC_CLASS_$_TVRMSDAAPNowPlayingManager
+- _OBJC_CLASS_$_TVRMSDAAPRequestManager
+- _OBJC_CLASS_$_TVRMSDAAPTouchRemoteManager
+- _OBJC_CLASS_$_TVRMSDiscoverySession
+- _OBJC_CLASS_$_TVRMSDiscoverySessionProxy
+- _OBJC_CLASS_$_TVRMSFairPlaySession
+- _OBJC_CLASS_$_TVRMSHomeSharingServiceProvider
+- _OBJC_CLASS_$_TVRMSIDSClient
+- _OBJC_CLASS_$_TVRMSIDSServer
+- _OBJC_CLASS_$_TVRMSPairingRecordStore
+- _OBJC_CLASS_$_TVRMSPairingServiceProvider
+- _OBJC_CLASS_$_TVRMSPairingSession
+- _OBJC_CLASS_$_TVRMSPairingSessionProxy
+- _OBJC_CLASS_$_TVRMSReachability
+- _OBJC_CLASS_$_TVRMSSessionProxy
+- _OBJC_CLASS_$_TVRMSTouchRemoteSocket
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$__RMSMessageRecord
+- _OBJC_CLASS_$__TVRCRMSDeviceImpl
+- _OBJC_CLASS_$__TVRCRMSDeviceKeyboardImpl
+- _OBJC_CLASS_$__TVRCRMSDeviceManager
+- _OBJC_CLASS_$__TVRCRMSDeviceQuery
+- _OBJC_CLASS_$__TVRCRMSDeviceWrapper
+- _OBJC_CLASS_$__TVRCRMSNowPlayingState
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._delegate
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._loginManager
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._nowPlayingInfo
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._nowPlayingManager
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._requestManager
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._service
+- _OBJC_IVAR_$_TVRMSDAAPControlSession._touchRemoteManager
+- _OBJC_IVAR_$_TVRMSDAAPControlSessionProxy._delegate
+- _OBJC_IVAR_$_TVRMSDAAPControlSessionProxy._idsClient
+- _OBJC_IVAR_$_TVRMSDAAPControlSessionProxy._nowPlayingInfo
+- _OBJC_IVAR_$_TVRMSDAAPControlSessionProxy._service
+- _OBJC_IVAR_$_TVRMSDAAPLoginManager._fairPlaySession
+- _OBJC_IVAR_$_TVRMSDAAPLoginManager._isFairPlayRequired
+- _OBJC_IVAR_$_TVRMSDAAPLoginManager._requestManager
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._artworkRequest
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._artworkRequestBackoffInterval
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._artworkRetryTimer
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._audioRoutesRequest
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._controlInterface
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._currentArtworkIdentifier
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._currentAudioRoutes
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._currentNowPlayingInfo
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._delegate
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._isObserving
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._lastVolume
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._nowPlayingInfoRequest
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._observing
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._requestBackoffInterval
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._requestManager
+- _OBJC_IVAR_$_TVRMSDAAPNowPlayingManager._volumeRequest
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._delegate
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._fairPlaySession
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._homeSharingGroupKey
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._hostName
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._pairingGUID
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._port
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._sessionIdentifier
+- _OBJC_IVAR_$_TVRMSDAAPRequestManager._urlSession
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._controlPromptRevision
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._delegate
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._encryptionKey
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._keyboardEditingSessionActive
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._keyboardEditingSessionID
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._keyboardEncryption
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._keyboardInfo
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._port
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._portSecret
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._requestManager
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._socket
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._touchDistanceMax
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._touchDistanceMin
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._touchTimeMax
+- _OBJC_IVAR_$_TVRMSDAAPTouchRemoteManager._touchTimeMin
+- _OBJC_IVAR_$_TVRMSDiscoverySession._availableServices
+- _OBJC_IVAR_$_TVRMSDiscoverySession._delegate
+- _OBJC_IVAR_$_TVRMSDiscoverySession._discoveryTypes
+- _OBJC_IVAR_$_TVRMSDiscoverySession._networkAvailable
+- _OBJC_IVAR_$_TVRMSDiscoverySession._pairedNetworkNames
+- _OBJC_IVAR_$_TVRMSDiscoverySession._providers
+- _OBJC_IVAR_$_TVRMSDiscoverySession._reachability
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._availableServices
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._delegate
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._discovering
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._discoveryTypes
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._idsClient
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._networkAvailable
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._pairedNetworkNames
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._retryRate
+- _OBJC_IVAR_$_TVRMSDiscoverySessionProxy._wifiAvailable
+- _OBJC_IVAR_$_TVRMSFairPlaySession._handshakeComplete
+- _OBJC_IVAR_$_TVRMSFairPlaySession._hardwareInfo
+- _OBJC_IVAR_$_TVRMSFairPlaySession._sessionToken
+- _OBJC_IVAR_$_TVRMSIDSClient._companionAvailable
+- _OBJC_IVAR_$_TVRMSIDSClient._idsDispatchQueue
+- _OBJC_IVAR_$_TVRMSIDSClient._idsOutgoingQueue
+- _OBJC_IVAR_$_TVRMSIDSClient._idsService
+- _OBJC_IVAR_$_TVRMSIDSClient._messageRecords
+- _OBJC_IVAR_$_TVRMSIDSServer._idsService
+- _OBJC_IVAR_$_TVRMSIDSServer._nowPlayingSessions
+- _OBJC_IVAR_$_TVRMSIDSServer._pairingSessions
+- _OBJC_IVAR_$_TVRMSIDSServer._sessionManager
+- _OBJC_IVAR_$_TVRMSIDSServer._touchRemoteSessions
+- _OBJC_IVAR_$_TVRMSPairingRecordStore._pairingRecords
+- _OBJC_IVAR_$_TVRMSPairingServiceProvider._monitoredServices
+- _OBJC_IVAR_$_TVRMSPairingServiceProvider._pairedNetworkNames
+- _OBJC_IVAR_$_TVRMSPairingServiceProvider._unmonitoredServices
+- _OBJC_IVAR_$_TVRMSPairingSession._advertisedAppName
+- _OBJC_IVAR_$_TVRMSPairingSession._advertisedDeviceModel
+- _OBJC_IVAR_$_TVRMSPairingSession._advertisedDeviceName
+- _OBJC_IVAR_$_TVRMSPairingSession._delegate
+- _OBJC_IVAR_$_TVRMSPairingSession._pairingServer
+- _OBJC_IVAR_$_TVRMSPairingSession._passcode
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._advertisedAppName
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._advertisedDeviceModel
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._advertisedDeviceName
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._delegate
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._idsClient
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._pairing
+- _OBJC_IVAR_$_TVRMSPairingSessionProxy._passcode
+- _OBJC_IVAR_$_TVRMSReachability._alwaysReturnLocalWiFiStatus
+- _OBJC_IVAR_$_TVRMSReachability._reachabilityRef
+- _OBJC_IVAR_$_TVRMSSessionProxy._heartbeatTimer
+- _OBJC_IVAR_$_TVRMSSessionProxy._isPaused
+- _OBJC_IVAR_$_TVRMSSessionProxy._lastHeartbeatTime
+- _OBJC_IVAR_$_TVRMSSessionProxy._sessionIdentifier
+- _OBJC_IVAR_$_TVRMSSessionProxy._sessionTimeout
+- _OBJC_IVAR_$_TVRMSTouchRemoteSocket._delegate
+- _OBJC_IVAR_$_TVRMSTouchRemoteSocket._encryptionKey
+- _OBJC_IVAR_$_TVRMSTouchRemoteSocket._host
+- _OBJC_IVAR_$_TVRMSTouchRemoteSocket._outputStream
+- _OBJC_IVAR_$_TVRMSTouchRemoteSocket._port
+- _OBJC_IVAR_$_TVRXDevice._alternateIdentifiers
+- _OBJC_IVAR_$_TVRXDevice._model
+- _OBJC_IVAR_$_TVRXDeviceQuery._rmsDeviceQuery
+- _OBJC_IVAR_$__RMSMessageRecord._messageType
+- _OBJC_IVAR_$__RMSMessageRecord._responseBlock
+- _OBJC_IVAR_$__TVRCRMSDeviceImpl._delegate
+- _OBJC_IVAR_$__TVRCRMSDeviceImpl._deviceWrapper
+- _OBJC_IVAR_$__TVRCRMSDeviceImpl._priority
+- _OBJC_IVAR_$__TVRCRMSDeviceKeyboardImpl._delegate
+- _OBJC_IVAR_$__TVRCRMSDeviceKeyboardImpl._editing
+- _OBJC_IVAR_$__TVRCRMSDeviceKeyboardImpl._keyboardController
+- _OBJC_IVAR_$__TVRCRMSDeviceKeyboardImpl._keyboardInfo
+- _OBJC_IVAR_$__TVRCRMSDeviceQuery._delegate
+- _OBJC_IVAR_$__TVRCRMSDeviceQuery._legacyDiscoverySession
+- _OBJC_IVAR_$__TVRCRMSDeviceQuery._service
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._authenticationAllowed
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._connected
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._controlSession
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._delegate
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._device
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._keyboardController
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._keyboardImpl
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._mediaButtons
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._nowPlayingState
+- _OBJC_IVAR_$__TVRCRMSDeviceWrapper._pairingSession
+- _OBJC_IVAR_$__TVRCRMSNowPlayingState._duration
+- _OBJC_IVAR_$__TVRCRMSNowPlayingState._lastReportedPlaybackPosition
+- _OBJC_IVAR_$__TVRCRMSNowPlayingState._lastReportedTimestamp
+- _OBJC_IVAR_$__TVRCRMSNowPlayingState._playbackRate
+- _OBJC_METACLASS_$_TVRMSAppleTVServiceProvider
+- _OBJC_METACLASS_$_TVRMSDAAPControlSession
+- _OBJC_METACLASS_$_TVRMSDAAPControlSessionProxy
+- _OBJC_METACLASS_$_TVRMSDAAPLoginManager
+- _OBJC_METACLASS_$_TVRMSDAAPNowPlayingManager
+- _OBJC_METACLASS_$_TVRMSDAAPRequestManager
+- _OBJC_METACLASS_$_TVRMSDAAPTouchRemoteManager
+- _OBJC_METACLASS_$_TVRMSDiscoverySession
+- _OBJC_METACLASS_$_TVRMSDiscoverySessionProxy
+- _OBJC_METACLASS_$_TVRMSFairPlaySession
+- _OBJC_METACLASS_$_TVRMSHomeSharingServiceProvider
+- _OBJC_METACLASS_$_TVRMSIDSClient
+- _OBJC_METACLASS_$_TVRMSIDSServer
+- _OBJC_METACLASS_$_TVRMSPairingRecordStore
+- _OBJC_METACLASS_$_TVRMSPairingServiceProvider
+- _OBJC_METACLASS_$_TVRMSPairingSession
+- _OBJC_METACLASS_$_TVRMSPairingSessionProxy
+- _OBJC_METACLASS_$_TVRMSReachability
+- _OBJC_METACLASS_$_TVRMSSessionProxy
+- _OBJC_METACLASS_$_TVRMSTouchRemoteSocket
+- _OBJC_METACLASS_$__RMSMessageRecord
+- _OBJC_METACLASS_$__TVRCRMSDeviceImpl
+- _OBJC_METACLASS_$__TVRCRMSDeviceKeyboardImpl
+- _OBJC_METACLASS_$__TVRCRMSDeviceManager
+- _OBJC_METACLASS_$__TVRCRMSDeviceQuery
+- _OBJC_METACLASS_$__TVRCRMSDeviceWrapper
+- _OBJC_METACLASS_$__TVRCRMSNowPlayingState
+- _OowSGu
+- _ReachabilityCallback
+- _SCNetworkReachabilityCreateWithAddress
+- _SCNetworkReachabilityCreateWithName
+- _SCNetworkReachabilityGetFlags
+- _SCNetworkReachabilityScheduleWithRunLoop
+- _SCNetworkReachabilitySetCallback
+- _SCNetworkReachabilityUnscheduleFromRunLoop
+- _TVRMSDAAPControlSessionTimeout
+- _TVRMSDiscoverySessionTimeout
+- _TVRMSIDSClientAvailableServicesDidUpdateNotification
+- _TVRMSIDSClientAvailableServicesNotificationKey
+- _TVRMSIDSClientCompanionAvailabilityDidChangeNotification
+- _TVRMSIDSClientControlInterfaceNotificationKey
+- _TVRMSIDSClientDidPairWithServiceNotification
+- _TVRMSIDSClientLoginTokenNotificationKey
+- _TVRMSIDSClientNowPlayingArtworkDidBecomeAvailableNotification
+- _TVRMSIDSClientNowPlayingArtworkIdentifierKey
+- _TVRMSIDSClientNowPlayingAudioRoutesDidUpdateNotification
+- _TVRMSIDSClientNowPlayingAudioRoutesNotificationKey
+- _TVRMSIDSClientNowPlayingInfoDidUpdateNotification
+- _TVRMSIDSClientNowPlayingInfoNotificationKey
+- _TVRMSIDSClientNowPlayingVolumeDidUpdateNotification
+- _TVRMSIDSClientNowPlayingVolumeNotificationKey
+- _TVRMSIDSClientPairingDidFailNotification
+- _TVRMSIDSClientPairingGUIDNotificationKey
+- _TVRMSIDSClientResponseCodeNotificationKey
+- _TVRMSIDSClientServiceNetworkNameNotificationKey
+- _TVRMSIDSClientServiceNotificationKey
+- _TVRMSIDSClientSessionDidEndNotification
+- _TVRMSIDSClientSessionIdentifierNotificationKey
+- _TVRMSIDSClientWifiAvailabilityDidChangeNotification
+- _TVRMSIDSClientWifiAvailabilityNotificationKey
+- _TVRMSPairingSessionTimeout
+- _U4HBs
+- _UIApplicationDidBecomeActiveNotification
+- _UIApplicationWillResignActiveNotification
+- _UIGraphicsBeginImageContextWithOptions
+- _UIGraphicsEndImageContext
+- _UIGraphicsGetCurrentContext
+- _UIGraphicsGetImageFromCurrentImageContext
+- _UIImageJPEGRepresentation
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_TVRMSAdditions
+- __OBJC_$_CATEGORY_UIImage_$_TVRMSAdditions
+- __OBJC_$_CLASS_METHODS_TVRMSDAAPControlSession
+- __OBJC_$_CLASS_METHODS_TVRMSDiscoverySession
+- __OBJC_$_CLASS_METHODS_TVRMSIDSClient
+- __OBJC_$_CLASS_METHODS_TVRMSIDSServer
+- __OBJC_$_CLASS_METHODS_TVRMSPairingRecordStore
+- __OBJC_$_CLASS_METHODS_TVRMSPairingSession
+- __OBJC_$_CLASS_METHODS_TVRMSReachability
+- __OBJC_$_CLASS_METHODS__TVRCRMSDeviceImpl
+- __OBJC_$_CLASS_METHODS__TVRCRMSDeviceManager
+- __OBJC_$_CLASS_METHODS__TVRCRMSDeviceWrapper
+- __OBJC_$_CLASS_METHODS__TVRCRMSNowPlayingState
+- __OBJC_$_INSTANCE_METHODS_TVRMSAppleTVServiceProvider
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPControlSession
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPControlSessionProxy
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPLoginManager
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPNowPlayingManager
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPRequestManager
+- __OBJC_$_INSTANCE_METHODS_TVRMSDAAPTouchRemoteManager
+- __OBJC_$_INSTANCE_METHODS_TVRMSDiscoverySession
+- __OBJC_$_INSTANCE_METHODS_TVRMSDiscoverySessionProxy
+- __OBJC_$_INSTANCE_METHODS_TVRMSFairPlaySession
+- __OBJC_$_INSTANCE_METHODS_TVRMSHomeSharingServiceProvider
+- __OBJC_$_INSTANCE_METHODS_TVRMSIDSClient
+- __OBJC_$_INSTANCE_METHODS_TVRMSIDSServer
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingRecordStore
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingServiceProvider
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingSession
+- __OBJC_$_INSTANCE_METHODS_TVRMSPairingSessionProxy
+- __OBJC_$_INSTANCE_METHODS_TVRMSReachability
+- __OBJC_$_INSTANCE_METHODS_TVRMSSessionProxy
+- __OBJC_$_INSTANCE_METHODS_TVRMSTouchRemoteSocket
+- __OBJC_$_INSTANCE_METHODS__RMSMessageRecord
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSDeviceImpl
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSDeviceKeyboardImpl
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSDeviceManager
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSDeviceQuery
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSDeviceWrapper
+- __OBJC_$_INSTANCE_METHODS__TVRCRMSNowPlayingState
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPControlSession
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPControlSessionProxy
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPLoginManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPNowPlayingManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPRequestManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDAAPTouchRemoteManager
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDiscoverySession
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSDiscoverySessionProxy
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSFairPlaySession
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSIDSClient
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSIDSServer
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingRecordStore
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingServiceProvider
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingSession
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSPairingSessionProxy
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSReachability
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSSessionProxy
+- __OBJC_$_INSTANCE_VARIABLES_TVRMSTouchRemoteSocket
+- __OBJC_$_INSTANCE_VARIABLES__RMSMessageRecord
+- __OBJC_$_INSTANCE_VARIABLES__TVRCRMSDeviceImpl
+- __OBJC_$_INSTANCE_VARIABLES__TVRCRMSDeviceKeyboardImpl
+- __OBJC_$_INSTANCE_VARIABLES__TVRCRMSDeviceQuery
+- __OBJC_$_INSTANCE_VARIABLES__TVRCRMSDeviceWrapper
+- __OBJC_$_INSTANCE_VARIABLES__TVRCRMSNowPlayingState
+- __OBJC_$_PROP_LIST_TVRMSDAAPControlSession
+- __OBJC_$_PROP_LIST_TVRMSDAAPControlSession.227
+- __OBJC_$_PROP_LIST_TVRMSDAAPControlSessionProxy
+- __OBJC_$_PROP_LIST_TVRMSDAAPNowPlayingManager
+- __OBJC_$_PROP_LIST_TVRMSDAAPRequestManager
+- __OBJC_$_PROP_LIST_TVRMSDAAPTouchRemoteManager
+- __OBJC_$_PROP_LIST_TVRMSDiscoverySession
+- __OBJC_$_PROP_LIST_TVRMSDiscoverySession.118
+- __OBJC_$_PROP_LIST_TVRMSDiscoverySessionProxy
+- __OBJC_$_PROP_LIST_TVRMSFairPlaySession
+- __OBJC_$_PROP_LIST_TVRMSIDSClient
+- __OBJC_$_PROP_LIST_TVRMSIDSServer
+- __OBJC_$_PROP_LIST_TVRMSPairingServiceProvider
+- __OBJC_$_PROP_LIST_TVRMSPairingSession
+- __OBJC_$_PROP_LIST_TVRMSPairingSession.173
+- __OBJC_$_PROP_LIST_TVRMSPairingSessionProxy
+- __OBJC_$_PROP_LIST_TVRMSSessionProxy
+- __OBJC_$_PROP_LIST_TVRMSTouchRemoteSocket
+- __OBJC_$_PROP_LIST__RMSMessageRecord
+- __OBJC_$_PROP_LIST__TVRCRMSDeviceImpl
+- __OBJC_$_PROP_LIST__TVRCRMSDeviceKeyboardImpl
+- __OBJC_$_PROP_LIST__TVRCRMSDeviceQuery
+- __OBJC_$_PROP_LIST__TVRCRMSDeviceWrapper
+- __OBJC_$_PROP_LIST__TVRCRMSNowPlayingState
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSStreamDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TVRMSDiscoverySessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TVRMSPairingServerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TVRMSPairingSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDAAPControlSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDAAPControlSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDAAPNowPlayingManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDAAPRequestManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDAAPTouchRemoteManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDiscoverySession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSDiscoverySessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSPairingServerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSPairingSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSPairingSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSServiceProviderDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSSessionManagerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_TVRMSTouchRemoteSocketDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__TVRCRMSDeviceKeyboardImplDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__TVRCRMSDeviceWrapperDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSStreamDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDAAPControlSession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDAAPControlSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDAAPNowPlayingManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDAAPRequestManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDAAPTouchRemoteManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDiscoverySession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSDiscoverySessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSPairingServerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSPairingSession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSPairingSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSServiceProviderDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSSessionManagerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_TVRMSTouchRemoteSocketDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__TVRCRMSDeviceKeyboardImplDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__TVRCRMSDeviceWrapperDelegate
+- __OBJC_$_PROTOCOL_REFS_IDSServiceDelegate
+- __OBJC_$_PROTOCOL_REFS_NSStreamDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSDAAPControlSession
+- __OBJC_$_PROTOCOL_REFS_TVRMSDAAPControlSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSDAAPNowPlayingManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSDAAPRequestManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSDAAPTouchRemoteManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSDiscoverySession
+- __OBJC_$_PROTOCOL_REFS_TVRMSDiscoverySessionDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSPairingServerDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSPairingSession
+- __OBJC_$_PROTOCOL_REFS_TVRMSPairingSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSServiceProviderDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSSessionManagerDelegate
+- __OBJC_$_PROTOCOL_REFS_TVRMSTouchRemoteSocketDelegate
+- __OBJC_$_PROTOCOL_REFS__TVRCRMSDeviceKeyboardImplDelegate
+- __OBJC_$_PROTOCOL_REFS__TVRCRMSDeviceWrapperDelegate
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSDAAPControlSession
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSDAAPControlSessionProxy
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSDAAPTouchRemoteManager
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSDiscoverySession
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSDiscoverySessionProxy
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSIDSClient
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSIDSServer
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSPairingSession
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSPairingSessionProxy
+- __OBJC_CLASS_PROTOCOLS_$_TVRMSTouchRemoteSocket
+- __OBJC_CLASS_PROTOCOLS_$__TVRCRMSDeviceImpl
+- __OBJC_CLASS_PROTOCOLS_$__TVRCRMSDeviceKeyboardImpl
+- __OBJC_CLASS_PROTOCOLS_$__TVRCRMSDeviceQuery
+- __OBJC_CLASS_PROTOCOLS_$__TVRCRMSDeviceWrapper
+- __OBJC_CLASS_RO_$_TVRMSAppleTVServiceProvider
+- __OBJC_CLASS_RO_$_TVRMSDAAPControlSession
+- __OBJC_CLASS_RO_$_TVRMSDAAPControlSessionProxy
+- __OBJC_CLASS_RO_$_TVRMSDAAPLoginManager
+- __OBJC_CLASS_RO_$_TVRMSDAAPNowPlayingManager
+- __OBJC_CLASS_RO_$_TVRMSDAAPRequestManager
+- __OBJC_CLASS_RO_$_TVRMSDAAPTouchRemoteManager
+- __OBJC_CLASS_RO_$_TVRMSDiscoverySession
+- __OBJC_CLASS_RO_$_TVRMSDiscoverySessionProxy
+- __OBJC_CLASS_RO_$_TVRMSFairPlaySession
+- __OBJC_CLASS_RO_$_TVRMSHomeSharingServiceProvider
+- __OBJC_CLASS_RO_$_TVRMSIDSClient
+- __OBJC_CLASS_RO_$_TVRMSIDSServer
+- __OBJC_CLASS_RO_$_TVRMSPairingRecordStore
+- __OBJC_CLASS_RO_$_TVRMSPairingServiceProvider
+- __OBJC_CLASS_RO_$_TVRMSPairingSession
+- __OBJC_CLASS_RO_$_TVRMSPairingSessionProxy
+- __OBJC_CLASS_RO_$_TVRMSReachability
+- __OBJC_CLASS_RO_$_TVRMSSessionProxy
+- __OBJC_CLASS_RO_$_TVRMSTouchRemoteSocket
+- __OBJC_CLASS_RO_$__RMSMessageRecord
+- __OBJC_CLASS_RO_$__TVRCRMSDeviceImpl
+- __OBJC_CLASS_RO_$__TVRCRMSDeviceKeyboardImpl
+- __OBJC_CLASS_RO_$__TVRCRMSDeviceManager
+- __OBJC_CLASS_RO_$__TVRCRMSDeviceQuery
+- __OBJC_CLASS_RO_$__TVRCRMSDeviceWrapper
+- __OBJC_CLASS_RO_$__TVRCRMSNowPlayingState
+- __OBJC_LABEL_PROTOCOL_$_IDSServiceDelegate
+- __OBJC_LABEL_PROTOCOL_$_NSStreamDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDAAPControlSession
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDAAPControlSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDAAPNowPlayingManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDAAPRequestManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDAAPTouchRemoteManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDiscoverySession
+- __OBJC_LABEL_PROTOCOL_$_TVRMSDiscoverySessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSPairingServerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSPairingSession
+- __OBJC_LABEL_PROTOCOL_$_TVRMSPairingSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSServiceProviderDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSSessionManagerDelegate
+- __OBJC_LABEL_PROTOCOL_$_TVRMSTouchRemoteSocketDelegate
+- __OBJC_LABEL_PROTOCOL_$__TVRCRMSDeviceKeyboardImplDelegate
+- __OBJC_LABEL_PROTOCOL_$__TVRCRMSDeviceWrapperDelegate
+- __OBJC_METACLASS_RO_$_TVRMSAppleTVServiceProvider
+- __OBJC_METACLASS_RO_$_TVRMSDAAPControlSession
+- __OBJC_METACLASS_RO_$_TVRMSDAAPControlSessionProxy
+- __OBJC_METACLASS_RO_$_TVRMSDAAPLoginManager
+- __OBJC_METACLASS_RO_$_TVRMSDAAPNowPlayingManager
+- __OBJC_METACLASS_RO_$_TVRMSDAAPRequestManager
+- __OBJC_METACLASS_RO_$_TVRMSDAAPTouchRemoteManager
+- __OBJC_METACLASS_RO_$_TVRMSDiscoverySession
+- __OBJC_METACLASS_RO_$_TVRMSDiscoverySessionProxy
+- __OBJC_METACLASS_RO_$_TVRMSFairPlaySession
+- __OBJC_METACLASS_RO_$_TVRMSHomeSharingServiceProvider
+- __OBJC_METACLASS_RO_$_TVRMSIDSClient
+- __OBJC_METACLASS_RO_$_TVRMSIDSServer
+- __OBJC_METACLASS_RO_$_TVRMSPairingRecordStore
+- __OBJC_METACLASS_RO_$_TVRMSPairingServiceProvider
+- __OBJC_METACLASS_RO_$_TVRMSPairingSession
+- __OBJC_METACLASS_RO_$_TVRMSPairingSessionProxy
+- __OBJC_METACLASS_RO_$_TVRMSReachability
+- __OBJC_METACLASS_RO_$_TVRMSSessionProxy
+- __OBJC_METACLASS_RO_$_TVRMSTouchRemoteSocket
+- __OBJC_METACLASS_RO_$__RMSMessageRecord
+- __OBJC_METACLASS_RO_$__TVRCRMSDeviceImpl
+- __OBJC_METACLASS_RO_$__TVRCRMSDeviceKeyboardImpl
+- __OBJC_METACLASS_RO_$__TVRCRMSDeviceManager
+- __OBJC_METACLASS_RO_$__TVRCRMSDeviceQuery
+- __OBJC_METACLASS_RO_$__TVRCRMSDeviceWrapper
+- __OBJC_METACLASS_RO_$__TVRCRMSNowPlayingState
+- __OBJC_PROTOCOL_$_IDSServiceDelegate
+- __OBJC_PROTOCOL_$_NSStreamDelegate
+- __OBJC_PROTOCOL_$_TVRMSDAAPControlSession
+- __OBJC_PROTOCOL_$_TVRMSDAAPControlSessionDelegate
+- __OBJC_PROTOCOL_$_TVRMSDAAPNowPlayingManagerDelegate
+- __OBJC_PROTOCOL_$_TVRMSDAAPRequestManagerDelegate
+- __OBJC_PROTOCOL_$_TVRMSDAAPTouchRemoteManagerDelegate
+- __OBJC_PROTOCOL_$_TVRMSDiscoverySession
+- __OBJC_PROTOCOL_$_TVRMSDiscoverySessionDelegate
+- __OBJC_PROTOCOL_$_TVRMSPairingServerDelegate
+- __OBJC_PROTOCOL_$_TVRMSPairingSession
+- __OBJC_PROTOCOL_$_TVRMSPairingSessionDelegate
+- __OBJC_PROTOCOL_$_TVRMSServiceProviderDelegate
+- __OBJC_PROTOCOL_$_TVRMSSessionManagerDelegate
+- __OBJC_PROTOCOL_$_TVRMSTouchRemoteSocketDelegate
+- __OBJC_PROTOCOL_$__TVRCRMSDeviceKeyboardImplDelegate
+- __OBJC_PROTOCOL_$__TVRCRMSDeviceWrapperDelegate
+- ___105-[TVRMSDAAPRequestManager requestControlCommand:text:data:controlValue:promptRevision:completionHandler:]_block_invoke
+- ___24+[TVRMSIDSServer server]_block_invoke
+- ___30+[TVRMSIDSClient sharedClient]_block_invoke
+- ___31-[TVRCRapportDeviceQuery start]_block_invoke.61
+- ___31-[TVRCRapportDeviceQuery start]_block_invoke.68
+- ___31-[TVRCRapportDeviceQuery start]_block_invoke.70
+- ___31-[TVRCRapportDeviceQuery start]_block_invoke.70.cold.1
+- ___32-[TVRMSIDSServer _handleLogout:]_block_invoke
+- ___35-[TVRMSSessionProxy beginHeartbeat]_block_invoke
+- ___36-[TVRMSIDSServer _handleEndPairing:]_block_invoke
+- ___36-[TVRMSSessionProxy _sendHeartbeat:]_block_invoke
+- ___37-[_TVRCRMSDeviceWrapper _seekToTime:]_block_invoke
+- ___38-[TVRMSIDSServer _handleBeginPairing:]_block_invoke
+- ___38-[TVRMSIDSServer _handleEndDiscovery:]_block_invoke
+- ___38-[TVRMSIDSServer _handleSetLikeState:]_block_invoke
+- ___39+[_TVRCRMSDeviceManager sharedInstance]_block_invoke
+- ___39-[TVRMSIDSServer _handleAddToWishlist:]_block_invoke
+- ___40-[TVRMSIDSServer _handleBeginDiscovery:]_block_invoke
+- ___40-[TVRMSIDSServer _handleBeginDiscovery:]_block_invoke_2
+- ___40-[TVRMSIDSServer _handlePickAudioRoute:]_block_invoke
+- ___40-[TVRMSPairingSessionProxy beginPairing]_block_invoke
+- ___42-[TVRMSIDSServer _handleConnectToService:]_block_invoke
+- ___42-[TVRMSIDSServer _handleConnectToService:]_block_invoke_2
+- ___44+[TVRMSPairingRecordStore sharedRecordStore]_block_invoke
+- ___44-[TVRMSDAAPNowPlayingManager _requestVolume]_block_invoke
+- ___44-[TVRMSDiscoverySessionProxy beginDiscovery]_block_invoke
+- ___44-[TVRMSDiscoverySessionProxy beginDiscovery]_block_invoke.12
+- ___46-[TVRMSIDSClient _updateCompanionAvailability]_block_invoke
+- ___49-[TVRMSDAAPNowPlayingManager _requestAudioRoutes]_block_invoke
+- ___49-[_TVRCRMSDeviceWrapper _connectWithPairingGUID:]_block_invoke
+- ___52-[TVRMSDAAPLoginManager loginWithCompletionHandler:]_block_invoke
+- ___52-[TVRMSDAAPLoginManager loginWithCompletionHandler:]_block_invoke.1
+- ___52-[TVRMSDAAPLoginManager loginWithCompletionHandler:]_block_invoke.2
+- ___52-[TVRMSDAAPLoginManager loginWithCompletionHandler:]_block_invoke.3
+- ___52-[TVRMSDAAPLoginManager loginWithCompletionHandler:]_block_invoke_2
+- ___52-[TVRMSDAAPTouchRemoteManager _requestPromptUpdate:]_block_invoke
+- ___54-[TVRMSDAAPNowPlayingManager beginObservingNowPlaying]_block_invoke
+- ___54-[TVRMSDAAPNowPlayingManager beginObservingNowPlaying]_block_invoke.1
+- ___55-[TVRMSDAAPControlSession setVolume:completionHandler:]_block_invoke
+- ___56-[TVRMSDAAPControlSessionProxy beginObservingNowPlaying]_block_invoke
+- ___58-[_TVRCRMSDeviceManager _addOrUpdateRecordInUserDefaults:]_block_invoke
+- ___60-[TVRMSDAAPControlSession pickAudioRoute:completionHandler:]_block_invoke
+- ___60-[TVRMSDAAPLoginManager _requestLoginWithCompletionHandler:]_block_invoke
+- ___61-[TVRMSPairingSessionProxy _handleSessionDidEndNotification:]_block_invoke
+- ___63-[TVRMSDiscoverySessionProxy _handleSessionDidEndNotification:]_block_invoke
+- ___64-[TVRMSDAAPControlSession seekToPlaybackTime:completionHandler:]_block_invoke
+- ___65-[TVRMSDAAPControlSession sendPlaybackCommand:completionHandler:]_block_invoke
+- ___65-[TVRMSDAAPControlSessionProxy _handleSessionDidEndNotification:]_block_invoke
+- ___65-[TVRMSDAAPLoginManager _requestServerInfoWithCompletionHandler:]_block_invoke
+- ___68-[TVRMSDAAPTouchRemoteManager initiateControlWithCompletionHandler:]_block_invoke
+- ___70-[TVRMSDAAPControlSession addToWishlist:databaseID:completionHandler:]_block_invoke
+- ___70-[_TVRCRMSDeviceManager _removeRecordWithNetworkNameFromUserDefaults:]_block_invoke
+- ___71-[TVRMSDAAPLoginManager _requestControlInterfaceWithCompletionHandler:]_block_invoke
+- ___74-[TVRMSDAAPControlSession connectToService:pairingGUID:completionHandler:]_block_invoke
+- ___74-[TVRMSDAAPControlSession connectToService:pairingGUID:completionHandler:]_block_invoke_2
+- ___74-[TVRMSDAAPNowPlayingManager _requestNowPlayingInfoWithCompletionHandler:]_block_invoke
+- ___75-[TVRMSDAAPNowPlayingManager _scheduleArtworkRetryForNowPlayingInfo:delay:]_block_invoke
+- ___76-[TVRMSPairingSession _startBonjourAdvertisingWithPublicKey:httpServerPort:]_block_invoke
+- ___77-[TVRMSDAAPControlSession setLikedState:itemID:databaseID:completionHandler:]_block_invoke
+- ___78-[TVRMSDAAPLoginManager _continueFairPlayHandshakeWithData:completionHandler:]_block_invoke
+- ___78-[TVRMSDAAPNowPlayingManager _requestArtworkDataIfNecessaryForNowPlayingInfo:]_block_invoke
+- ___78-[TVRMSIDSClient _sendMessage:type:timeout:queueOneID:priority:responseBlock:]_block_invoke
+- ___78-[TVRMSIDSClient _sendMessage:type:timeout:queueOneID:priority:responseBlock:]_block_invoke.180
+- ___79-[TVRMSDAAPControlSessionProxy connectToService:pairingGUID:completionHandler:]_block_invoke
+- ___87-[TVRMSDAAPControlSessionProxy _handleNowPlayingArtworkDidBecomeAvailableNotification:]_block_invoke
+- ___87-[TVRMSDAAPRequestManager requestWithPath:method:postData:queryArgs:completionHandler:]_block_invoke
+- ___87-[TVRMSDAAPRequestManager requestWithPath:method:postData:queryArgs:completionHandler:]_block_invoke.51
+- ___block_descriptor_32_e33_v16?0"TVRMSDAAPControlSession"8l
+- ___block_descriptor_32_e8_v16?08l
+- ___block_descriptor_32_e8_v16?0q8l
+- ___block_descriptor_40_e8_32bs_e19_v24?0q8"NSData"16ls32l8
+- ___block_descriptor_40_e8_32r_e35_v32?0"NSString"8"NSString"16^B24lr32l8
+- ___block_descriptor_40_e8_32s_e29_v16?0"NSMutableDictionary"8ls32l8
+- ___block_descriptor_40_e8_32w_e11_v20?0q8i16lw32l8
+- ___block_descriptor_40_e8_32w_e19_v24?0q8"NSData"16lw32l8
+- ___block_descriptor_40_e8_32w_e32_v24?0q8"TVRMSNowPlayingInfo"16lw32l8
+- ___block_descriptor_40_e8_32w_e34_v24?0q8"TVRMSControlInterface"16lw32l8
+- ___block_descriptor_48_e8_32bs40w_e11_v20?0q8i16ls32l8w40l8
+- ___block_descriptor_48_e8_32bs40w_e34_v24?0q8"TVRMSControlInterface"16lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e37_v28?0q8"TVRMSControlInterface"16i24lw40l8s32l8
+- ___block_descriptor_48_e8_32bs40w_e8_v16?0q8ls32l8w40l8
+- ___block_descriptor_48_e8_32bs40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_48_e8_32bs_e31_v16?0"TVRMSControlInterface"8ls32l8
+- ___block_descriptor_48_e8_32s40bs_e19_v24?0q8"NSData"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e8_v16?0q8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e11_v16?0B8i12lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e16_v16?0"NSData"8ls32l8w40l8
+- ___block_descriptor_48_e8_32s40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_50_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_52_e8_32s40s_e34_v24?0q8"TVRMSControlInterface"16ls32l8s40l8
+- ___block_descriptor_52_e8_32s40w_e8_v16?0q8lw40l8s32l8
+- ___block_descriptor_56_e8_32s40s48bs_e19_v24?0q8"NSData"16ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e8_v12?0i8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48w_e19_v24?0q8"NSData"16lw48l8s32l8s40l8
+- ___block_descriptor_60_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56s_e8_v12?0i8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_78_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global.32
+- ___block_literal_global.56
+- ___block_literal_global.64
+- ___block_literal_global.73
+- ___block_literal_global.85
+- ___netService
+- __controlPromptKeyValueForItems
+- __controlPromptMessageTypeForItems
+- _cp2g1b9ro
+- _dispatch_resume
+- _generateRandomPasscode
+- _gettimeofday
+- _jEHf8Xzsv8K
+- _kCFRunLoopDefaultMode
+- _kReachabilityChangedNotification
+- _malloc
+- _objc_msgSend$CGColor
+- _objc_msgSend$CGImage
+- _objc_msgSend$URL
+- _objc_msgSend$_addOrUpdateRecordInUserDefaults:
+- _objc_msgSend$_allRecords
+- _objc_msgSend$_attributesForKeyboardInfo:
+- _objc_msgSend$_audioRoutes:equalAudioRoutes:
+- _objc_msgSend$_cancelArtworkRetryTimer
+- _objc_msgSend$_challengeWithCodeToEnterOnDevice:cancellationHandler:
+- _objc_msgSend$_cleanupStaleSessions:
+- _objc_msgSend$_connectWithPairingGUID:
+- _objc_msgSend$_continueFairPlayHandshakeWithData:completionHandler:
+- _objc_msgSend$_createSocket
+- _objc_msgSend$_editingSessionUpdatedText:
+- _objc_msgSend$_enableProviders
+- _objc_msgSend$_encryptData:
+- _objc_msgSend$_encryptString:
+- _objc_msgSend$_expectedPasscodeHashForPasscode:publicKey:
+- _objc_msgSend$_findDeviceForIdentifier:createIfNeeded:
+- _objc_msgSend$_generatePublicKey
+- _objc_msgSend$_getHardwareInfo:
+- _objc_msgSend$_handleResponseCodeMessage:
+- _objc_msgSend$_handleTimeoutForMessageWithIdentifier:
+- _objc_msgSend$_hexStringForData:
+- _objc_msgSend$_initializeManagersWithControlInterface:completionHandler:
+- _objc_msgSend$_initiatePairing
+- _objc_msgSend$_invokeArtworkDataResponseBlock:artworkData:
+- _objc_msgSend$_invokeBeginDiscoveryResponseBlock:success:session:
+- _objc_msgSend$_invokeBeginPairingResponseBlock:responseCode:session:
+- _objc_msgSend$_invokeConnectToServiceResponseBlock:responseCode:controlInterface:session:
+- _objc_msgSend$_invokeResponseCodeResponseBlock:responseCode:
+- _objc_msgSend$_isCompanionAvailable
+- _objc_msgSend$_isFairplayRequiredForServerInfo:
+- _objc_msgSend$_keyboardTypeForInfo:
+- _objc_msgSend$_locationForDirection:repeatCount:
+- _objc_msgSend$_navigationCommandForButtonEvent:
+- _objc_msgSend$_notifyDelegateForArtworkChange
+- _objc_msgSend$_notifyDelegatePairingFailed
+- _objc_msgSend$_pairingNetServiceName
+- _objc_msgSend$_parsePortInfoItems:
+- _objc_msgSend$_performWithMutableRecords:
+- _objc_msgSend$_processAuthenticationUpdateForItems:
+- _objc_msgSend$_processKeyboardMessageItems:
+- _objc_msgSend$_providerForDiscoveryType:
+- _objc_msgSend$_refreshNowPlayingInfoRequest
+- _objc_msgSend$_removeRecordWithNetworkNameFromUserDefaults:
+- _objc_msgSend$_requestArtworkDataIfNecessaryForNowPlayingInfo:
+- _objc_msgSend$_requestAudioRoutes
+- _objc_msgSend$_requestControlInterfaceWithCompletionHandler:
+- _objc_msgSend$_requestFairPlayHandshake:
+- _objc_msgSend$_requestKeyboardStatus
+- _objc_msgSend$_requestLoginWithCompletionHandler:
+- _objc_msgSend$_requestNowPlayingInfoWithCompletionHandler:
+- _objc_msgSend$_requestPortInfo
+- _objc_msgSend$_requestPromptUpdate:
+- _objc_msgSend$_requestServerInfoWithCompletionHandler:
+- _objc_msgSend$_requestVolume
+- _objc_msgSend$_scheduleArtworkRetryForNowPlayingInfo:delay:
+- _objc_msgSend$_seekToTime:
+- _objc_msgSend$_sendData:type:priority:timeout:queueOneID:inResponseTo:
+- _objc_msgSend$_sendData:type:timeout:queueOneID:inResponseTo:
+- _objc_msgSend$_sendMessage:type:timeout:queueOneID:priority:responseBlock:
+- _objc_msgSend$_setAutocapitalizationType:
+- _objc_msgSend$_setKeyboardType:
+- _objc_msgSend$_setLikelyPINEntry:
+- _objc_msgSend$_setSecure:
+- _objc_msgSend$_skipSeconds:
+- _objc_msgSend$_startBonjourAdvertisingWithPublicKey:httpServerPort:
+- _objc_msgSend$_stringFromRMSPlaybackCommand:
+- _objc_msgSend$_synchronizePreferences
+- _objc_msgSend$_timeForDirection:repeatCount:
+- _objc_msgSend$_touchDirectionForButtonEvent:
+- _objc_msgSend$_updateCompanionAvailability
+- _objc_msgSend$_updateNetworkAvailability
+- _objc_msgSend$_updateWifiAvailability
+- _objc_msgSend$addDelegate:queue:
+- _objc_msgSend$addStoredInfoForNetworkName:displayName:pairingGUID:
+- _objc_msgSend$addToWishlist:databaseID:completionHandler:
+- _objc_msgSend$addToWishlist:databaseID:sessionIdentifier:completionHandler:
+- _objc_msgSend$addValue:forHTTPHeaderField:
+- _objc_msgSend$appName
+- _objc_msgSend$artworkDataForNowPlayingInfo:
+- _objc_msgSend$audioRoutes
+- _objc_msgSend$audioRoutesFromProtobufs:
+- _objc_msgSend$availableServices
+- _objc_msgSend$beginDiscovery
+- _objc_msgSend$beginDiscoverySessionWithDiscoveryTypes:pairedNetworkNames:completionHandler:
+- _objc_msgSend$beginHeartbeat
+- _objc_msgSend$beginObservingNowPlaying
+- _objc_msgSend$beginObservingNowPlayingWithSessionIdentifier:completionHandler:
+- _objc_msgSend$beginPairing
+- _objc_msgSend$beginPairingSessionWithPasscode:appName:deviceName:deviceModel:completionHandler:
+- _objc_msgSend$beginSession:timeout:shouldTakePowerAssertion:completionHandler:
+- _objc_msgSend$blackColor
+- _objc_msgSend$bounds
+- _objc_msgSend$cStringUsingEncoding:
+- _objc_msgSend$clearKeyboardText
+- _objc_msgSend$close
+- _objc_msgSend$compressionQuality
+- _objc_msgSend$connectToService:pairingGUID:completionHandler:
+- _objc_msgSend$context
+- _objc_msgSend$controlInterface
+- _objc_msgSend$controlSession
+- _objc_msgSend$controlSession:artworkDataDidBecomeAvailable:identifier:
+- _objc_msgSend$controlSession:didUpdateAudioRoutes:
+- _objc_msgSend$controlSession:didUpdateKeyboardEditingInfo:
+- _objc_msgSend$controlSession:didUpdateNowPlayingInfo:
+- _objc_msgSend$controlSession:didUpdateVolume:
+- _objc_msgSend$controlSession:keyboardEditingDidBegin:
+- _objc_msgSend$controlSession:keyboardEditingDidEnd:
+- _objc_msgSend$controlSessionDidEnd:
+- _objc_msgSend$currentReachabilityStatus
+- _objc_msgSend$currentRunLoop
+- _objc_msgSend$dataFromTXTRecordDictionary:
+- _objc_msgSend$dataTaskWithRequest:completionHandler:
+- _objc_msgSend$dateWithTimeIntervalSinceReferenceDate:
+- _objc_msgSend$defaultStore
+- _objc_msgSend$deviceModel
+- _objc_msgSend$deviceName
+- _objc_msgSend$direction
+- _objc_msgSend$discoverySessionDidUpdateAvailableServices:
+- _objc_msgSend$discoverySessionNetworkAvailabilityDidChange:
+- _objc_msgSend$discoveryTypes
+- _objc_msgSend$encryptString:
+- _objc_msgSend$endDiscovery
+- _objc_msgSend$endDiscoverySession:
+- _objc_msgSend$endHeartbeat
+- _objc_msgSend$endObservingNowPlaying
+- _objc_msgSend$endObservingNowPlayingWithSessionIdentifier:
+- _objc_msgSend$endPairing
+- _objc_msgSend$endPairingSession:
+- _objc_msgSend$endSessionWithIdentifier:completionHandler:
+- _objc_msgSend$ephemeralSessionConfiguration
+- _objc_msgSend$fire
+- _objc_msgSend$getBytes:length:
+- _objc_msgSend$groupID
+- _objc_msgSend$handshakeData
+- _objc_msgSend$handshakeIterationWithData:
+- _objc_msgSend$hasPairedNetworkNames
+- _objc_msgSend$headerForURL:
+- _objc_msgSend$heartbeatDidFail
+- _objc_msgSend$heartbeatTime
+- _objc_msgSend$height
+- _objc_msgSend$identifierForSession:
+- _objc_msgSend$imageWithData:
+- _objc_msgSend$incomingResponseIdentifier
+- _objc_msgSend$initWithDomain:type:name:port:
+- _objc_msgSend$initWithHost:port:encryptionKey:
+- _objc_msgSend$initWithItemsArray:
+- _objc_msgSend$initWithProtobufData:type:isResponse:
+- _objc_msgSend$initWithRequestManager:
+- _objc_msgSend$initWithTimeout:
+- _objc_msgSend$initiateControlWithCompletionHandler:
+- _objc_msgSend$isCompanionAvailable
+- _objc_msgSend$isDefaultPairedDevice
+- _objc_msgSend$isEqualToAudioRoute:
+- _objc_msgSend$isHandshakeComplete
+- _objc_msgSend$isLegacy
+- _objc_msgSend$isNetworkAvailable
+- _objc_msgSend$isObserving
+- _objc_msgSend$isTrusted
+- _objc_msgSend$keyboardImpl:updatedText:
+- _objc_msgSend$keyboardImplRequestsSendingReturnKey:
+- _objc_msgSend$keyboardInfo
+- _objc_msgSend$keyboardInputType
+- _objc_msgSend$keyboardSessionBegan:
+- _objc_msgSend$keyboardSessionEnded:
+- _objc_msgSend$keyboardSessionUpdatedEditingInfo:
+- _objc_msgSend$keyboardType
+- _objc_msgSend$lastReportedPlaybackPosition
+- _objc_msgSend$lastReportedTimestamp
+- _objc_msgSend$legacyDevicesDisabled
+- _objc_msgSend$legacyDiscoverySession
+- _objc_msgSend$likeState
+- _objc_msgSend$localControlSession
+- _objc_msgSend$localDiscoverySession
+- _objc_msgSend$localPairingSession
+- _objc_msgSend$localWiFiStatusForFlags:
+- _objc_msgSend$loginWithCompletionHandler:
+- _objc_msgSend$logout
+- _objc_msgSend$logoutWithSessionIdentifier:
+- _objc_msgSend$mainBundle
+- _objc_msgSend$mainQueue
+- _objc_msgSend$mainScreen
+- _objc_msgSend$messageType
+- _objc_msgSend$navigationCommand
+- _objc_msgSend$netServiceBrowser
+- _objc_msgSend$netServiceBrowser:didFindService:moreComing:
+- _objc_msgSend$netServiceBrowser:didRemoveService:moreComing:
+- _objc_msgSend$networkStatusForFlags:
+- _objc_msgSend$nowPlayingManager:artworkDataDidBecomeAvailable:identifier:
+- _objc_msgSend$nowPlayingManager:didUpdateAudioRoutes:
+- _objc_msgSend$nowPlayingManager:didUpdateNowPlayingInfo:
+- _objc_msgSend$nowPlayingManager:didUpdateVolume:
+- _objc_msgSend$nowPlayingStateFromInfo:
+- _objc_msgSend$objectForInfoDictionaryKey:
+- _objc_msgSend$objectWithData:
+- _objc_msgSend$open
+- _objc_msgSend$outgoingResponseIdentifier
+- _objc_msgSend$pairedNetworkNames
+- _objc_msgSend$pairingGUID
+- _objc_msgSend$pairingGUIDForNetworkName:
+- _objc_msgSend$pairingSession
+- _objc_msgSend$pairingSession:didBeginPairingWithPasscode:
+- _objc_msgSend$pairingSession:didPairWithServiceNetworkName:pairingGUID:
+- _objc_msgSend$pairingSessionDidFail:
+- _objc_msgSend$passcode
+- _objc_msgSend$performSelector:withObject:afterDelay:
+- _objc_msgSend$persistedSessionIdentifiers
+- _objc_msgSend$pickAudioRoute:completionHandler:
+- _objc_msgSend$pickAudioRouteWithMacAddress:sessionIdentifier:completionHandler:
+- _objc_msgSend$playbackCommand
+- _objc_msgSend$playbackTime
+- _objc_msgSend$preferredDeviceIdentifier
+- _objc_msgSend$protobufsFromAudioRoutes:
+- _objc_msgSend$protobufsFromServices:
+- _objc_msgSend$publish
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$reachabilityForLocalWiFi
+- _objc_msgSend$reachabilityWithAddress:
+- _objc_msgSend$refreshSessionWithIdentifier:
+- _objc_msgSend$removeFromRunLoop:forMode:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeStoredInfoForNetworkName:
+- _objc_msgSend$repeatCount
+- _objc_msgSend$requestArtworkDataForNowPlayingInfo:width:height:compressionQuality:completionHandler:
+- _objc_msgSend$requestControlCommand:text:data:controlValue:promptRevision:completionHandler:
+- _objc_msgSend$requestControlCommand:text:promptRevision:completionHandler:
+- _objc_msgSend$requestManagerFailedWithUnauthorizedError:
+- _objc_msgSend$requestManagerFailedWithUnknownError:
+- _objc_msgSend$requestWithPath:method:postData:queryArgs:completionHandler:
+- _objc_msgSend$requestWithURL:
+- _objc_msgSend$responseBlock
+- _objc_msgSend$responseCode
+- _objc_msgSend$rms_componentsByAddingQueryParameters:
+- _objc_msgSend$rms_jpegDataScaledToSize:compressionQuality:
+- _objc_msgSend$savePairingRecord:forServiceWithNetworkName:
+- _objc_msgSend$scheduleInRunLoop:forMode:
+- _objc_msgSend$secureText
+- _objc_msgSend$seekToPlaybackTime:completionHandler:
+- _objc_msgSend$seekToPlaybackTime:sessionIdentifier:
+- _objc_msgSend$sendHeartbeatWithSessionIdentifier:completionHandler:
+- _objc_msgSend$sendKeyboardReturnCommand
+- _objc_msgSend$sendNavigationCommand:
+- _objc_msgSend$sendNavigationCommand:sessionIdentifier:
+- _objc_msgSend$sendPlaybackCommand:completionHandler:
+- _objc_msgSend$sendPlaybackCommand:sessionIdentifier:
+- _objc_msgSend$sendProtobuf:toDestinations:priority:options:identifier:error:
+- _objc_msgSend$sendTouchCode:timeInMilliseconds:location:
+- _objc_msgSend$sendTouchEndWithDirection:repeatCount:
+- _objc_msgSend$sendTouchEndWithDirection:repeatCount:sessionIdentifier:
+- _objc_msgSend$sendTouchMoveWithDirection:repeatCount:
+- _objc_msgSend$sendTouchMoveWithDirection:repeatCount:sessionIdentifier:
+- _objc_msgSend$serviceNetworkName
+- _objc_msgSend$servicesFromProtobufs:
+- _objc_msgSend$sessionIdentifier
+- _objc_msgSend$sessionMatchesNotification:
+- _objc_msgSend$sessionWithConfiguration:delegate:delegateQueue:
+- _objc_msgSend$sessionWithIdentifier:
+- _objc_msgSend$setAdvertisedAppName:
+- _objc_msgSend$setAdvertisedDeviceModel:
+- _objc_msgSend$setAdvertisedDeviceName:
+- _objc_msgSend$setAlternateIdentifiers:
+- _objc_msgSend$setArtworkData:forNowPlayingInfo:
+- _objc_msgSend$setAudioRoutes:
+- _objc_msgSend$setAuthenticationAllowed:
+- _objc_msgSend$setChallengeString:
+- _objc_msgSend$setCompressionQuality:
+- _objc_msgSend$setDirection:
+- _objc_msgSend$setDiscoveryTypes:
+- _objc_msgSend$setFairPlaySession:
+- _objc_msgSend$setHTTPAdditionalHeaders:
+- _objc_msgSend$setHTTPBody:
+- _objc_msgSend$setHTTPMethod:
+- _objc_msgSend$setHasPairedNetworkNames:
+- _objc_msgSend$setHeight:
+- _objc_msgSend$setHost:
+- _objc_msgSend$setKeyboardText:
+- _objc_msgSend$setLastReportedPlaybackPosition:
+- _objc_msgSend$setLastReportedTimestamp:
+- _objc_msgSend$setLeafString:
+- _objc_msgSend$setLegacyDiscoverySession:
+- _objc_msgSend$setLikeState:
+- _objc_msgSend$setLikedState:itemID:databaseID:completionHandler:
+- _objc_msgSend$setLikedState:itemID:databaseID:sessionIdentifier:completionHandler:
+- _objc_msgSend$setMessageType:
+- _objc_msgSend$setModel:
+- _objc_msgSend$setNavigationCommand:
+- _objc_msgSend$setPairedNetworkNames:
+- _objc_msgSend$setPairingSession:
+- _objc_msgSend$setPath:
+- _objc_msgSend$setPlaybackCommand:
+- _objc_msgSend$setPlaybackTime:
+- _objc_msgSend$setProtobufAction:forIncomingRequestsOfType:
+- _objc_msgSend$setProtobufAction:forIncomingResponsesOfType:
+- _objc_msgSend$setRepeatCount:
+- _objc_msgSend$setResponseBlock:
+- _objc_msgSend$setResponseCode:
+- _objc_msgSend$setScheme:
+- _objc_msgSend$setServices:
+- _objc_msgSend$setSessionIdentifier:
+- _objc_msgSend$setTXTRecordData:
+- _objc_msgSend$setVolume:
+- _objc_msgSend$setVolume:completionHandler:
+- _objc_msgSend$setVolume:sessionIdentifier:
+- _objc_msgSend$setWidth:
+- _objc_msgSend$setWifiAvailable:
+- _objc_msgSend$sharedArtworkCache
+- _objc_msgSend$sharedClient
+- _objc_msgSend$sharedRecordStore
+- _objc_msgSend$size
+- _objc_msgSend$startNotifier
+- _objc_msgSend$startServerWithExpectedPasscodeHash:advertisedDeviceName:advertisedDeviceModel:
+- _objc_msgSend$statusCode
+- _objc_msgSend$stopNotifier
+- _objc_msgSend$streamError
+- _objc_msgSend$streamStatus
+- _objc_msgSend$stringByPaddingToLength:withString:startingAtIndex:
+- _objc_msgSend$stringForKey:
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$synchronize
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$touchRemoteManagerDidDisconnect:
+- _objc_msgSend$touchRemoteManagerKeyboardEditingSessionDidBegin:
+- _objc_msgSend$touchRemoteManagerKeyboardEditingSessionDidEnd:
+- _objc_msgSend$touchRemoteManagerKeyboardEditingSessionDidUpdate:
+- _objc_msgSend$touchRemoteSocketDidConnect:
+- _objc_msgSend$touchRemoteSocketDidDisconnect:
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedLongLongValue
+- _objc_msgSend$updatePairedNetworkNames:sessionIdentifier:
+- _objc_msgSend$volume
+- _objc_msgSend$width
+- _objc_msgSend$wifiAvailable
+- _objc_msgSend$write:maxLength:
+- _objc_retain_x6
+- _pthread_once
+- _pthread_rwlock_destroy
+- _pthread_rwlock_init
+- _server.onceToken
+- _server.server
+- _sharedClient.onceToken
+- _sharedClient.sharedConnectionManager
+- _sharedRecordStore.onceToken
+- _sharedRecordStore.sharedRecordStore
+- _tbttItCTp3MZ
+CStrings:
++ "%s - device: %{public}@, %{public}@"
++ "%s - state: %{public}@ "
++ "%s impl: %@ for device: %@"
++ "%s linkDevice=%{public}@, allIdentifiers:%{public}@"
++ "%s sortedImpls: %{public}@"
++ "<TVRXDevice %p> has a new name: %{public}@ old name: %{public}@"
++ "<TVRXDeviceQuery %p> Attempting to add new device %{public}@."
++ "@\"TVRCPreferredDevice\""
++ "Attempting to remove device impl: %{public}@"
++ "Could not find a preferred device"
++ "Device changed: %{public}@ attributesChanged :%s nameChanged: %s"
++ "Device name changed: old: %{public}@, new: %{public}@"
++ "Device was connected. Attempting to reconnect to new device: %{public}@"
++ "Devices are the same"
++ "Found an existing device: %{public}@ for impl: %{public}@"
++ "Found existing device = [%{public}@] for device = [%{public}@]"
++ "Found matching alternate identifiers - old: %@ new: %@"
++ "Found the same device over a different link. Creating a new dveice impl"
++ "HomeKitID"
++ "IDS identifiers match old: %@ new: %@"
++ "Identifiers do NOT match - old: %@ new: %@"
++ "Ignoring unauth device removal that is lost because we are now using authenticated device"
++ "Informing delegate device was added: %{public}@"
++ "Informing delegate device was lost: %{public}@"
++ "PublishPresenceEvent"
++ "RapportQuery"
++ "Removing %{public}@ from dictionary: %@"
++ "Removing old preferred device identifier user defaults"
++ "Setting textfield prompt to '%@'"
++ "T@\"NSObject<OS_dispatch_queue>\",&,N,V_deviceQueryQueue"
++ "T@\"NSSet\",&,N,V_allIdentifiers"
++ "T@\"NSSet\",R,N"
++ "T@\"NSString\",&,N,V_channelImageURLTemplate"
++ "T@\"NSString\",R,N,V_rapportIdentifier"
++ "T@\"TVRCPreferredDevice\",&,N,V_device"
++ "T@\"TVRCPreferredDevice\",R,N"
++ "TVRCIDSID"
++ "TVRCPreferredDevice"
++ "TVRCPreferredDevicerKey"
++ "Unarchiving error - %{public}@"
++ "Updating UnAuth rapport device: %{public}@"
++ "_allIdentifiers"
++ "_channelImageURLTemplate"
++ "_deviceQueryQueue"
++ "_findDeviceForDeviceImpl:createIfNeeded:"
++ "_rapportIdentifier"
++ "_setError"
++ "_setIdentifier:name:supportedButtons:"
++ "_updateDeviceProperties"
++ "accessory:didUpdateHH1EOLEnabled:"
++ "accessoryDidSetHasOnboardedForAdaptiveTemperatureAutomations:"
++ "accessoryDidSetHasOnboardedForCleanEnergyAutomation:"
++ "channelImageURLTemplate"
++ "com.apple.TVRemoteCore.deviceQuery"
++ "deviceQueryQueue"
++ "didUpdateDevice:"
++ "getBytes:range:"
++ "hasError"
++ "homeKitIdentifier"
++ "initFromTVRCDevice:"
++ "intersectsSet:"
++ "isSolariumEnabled"
++ "position"
++ "preferredDevice"
++ "primaryTitle"
++ "rapportIdentifier"
++ "relevantIdentifiers"
++ "setAllIdentifiers:"
++ "setChannelImageURLTemplate:"
++ "setDeviceQueryQueue:"
++ "setPlaceholder:"
++ "setPosition:"
+- "   --> Service Discovery Source: %ld"
+- "   --> Service Type: %ld"
+- "   --> Should Report: %d"
+- "#LegacyDevice %{public}@ updated now playing info - %{public}@"
+- "#LegacyDevice Attempting connection with service <%{public}@, %{public}@> "
+- "#LegacyDevice Informing delegate we failed to connect"
+- "#LegacyDevice Informing delegate we successfully connected"
+- "#LegacyDevice NO existing pairing record for service '%{public}@ found. Attempting to pair..."
+- "#LegacyDevice Pairing failed for service '%{public}@'"
+- "#LegacyDevice SkipNext supported"
+- "#LegacyDevice SkipPrevious supported"
+- "#LegacyDevice adding stored info for network name %s, display name \"%s\""
+- "#LegacyDevice attempting disconnect for %@"
+- "#LegacyDevice connection got RMS response code %@"
+- "#LegacyDevice control session ended %{public}@"
+- "#LegacyDevice failed to seek to playback time with error code %d"
+- "#LegacyDevice found existing pairing record for service, %{public}@"
+- "#LegacyDevice got AuthenticationError. Removing pairing record and attempting to re-pair..."
+- "#LegacyDevice keyboard attributes changed"
+- "#LegacyDevice keyboard editing began for '%{public}@' with info %{public}@"
+- "#LegacyDevice keyboard editing ended for '%{public}@' with info %{public}@"
+- "#LegacyDevice keyboard editing updated for '%{public}@' with info %{public}@"
+- "#LegacyDevice keyboard text changed from %{public}@ to %{public}@"
+- "#LegacyDevice no keyboard impl found"
+- "#LegacyDevice removing stored info for network name %s"
+- "#LegacyDevice returning current keyboard text as %@"
+- "#LegacyDevice sending SkipStart (via skipSeconds)"
+- "#LegacyDevice sending command of type %ld"
+- "#LegacyDevice sending keyboard return key to %{public}@"
+- "#LegacyDevice sending seek time for skip backward"
+- "#LegacyDevice sending seek time for skip forward"
+- "#LegacyDevice sending text '%{public}@' to %{public}@"
+- "#LegacyDevice sending touch direction of type %ld"
+- "#LegacyDevice successfully paired with service '%{public}@' with network name %{public}@"
+- "$"
+- "%.16llX"
+- "%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X%.2X"
+- "%.4hu"
+- "%@/ %@"
+- "%d,%@"
+- "%d.%d"
+- "%ld"
+- "%ld.%ld"
+- "%s - device: %{public}@, %@"
+- "%s linkDevice=%@"
+- "%s sortedImpls:%@ %@"
+- "%s/1/%@"
+- "%s/1/%s"
+- "'dmap.itemid:0x%llX'"
+- "*"
+- "-discoverySessionDidUpdateAvailableServices: %{public}@"
+- "/%@"
+- "0x%qx"
+- "1"
+- "10000"
+- "<TVRXDeviceQuery %p> Found new device %{public}@."
+- "<TVRXDeviceQuery %p> has Legacy devices enabled."
+- "@\"<TVRMSDAAPControlSession>\""
+- "@\"<TVRMSDAAPControlSessionDelegate>\""
+- "@\"<TVRMSDAAPControlSessionDelegate>\"16@0:8"
+- "@\"<TVRMSDAAPNowPlayingManagerDelegate>\""
+- "@\"<TVRMSDAAPRequestManagerDelegate>\""
+- "@\"<TVRMSDAAPTouchRemoteManagerDelegate>\""
+- "@\"<TVRMSDiscoverySession>\""
+- "@\"<TVRMSDiscoverySessionDelegate>\""
+- "@\"<TVRMSDiscoverySessionDelegate>\"16@0:8"
+- "@\"<TVRMSPairingSessionDelegate>\""
+- "@\"<TVRMSPairingSessionDelegate>\"16@0:8"
+- "@\"<TVRMSTouchRemoteSocketDelegate>\""
+- "@\"<_TVRCRMSDeviceKeyboardImplDelegate>\""
+- "@\"<_TVRCRMSDeviceWrapperDelegate>\""
+- "@\"IDSService\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSOutputStream\""
+- "@\"NSURLSession\""
+- "@\"NSURLSessionDataTask\""
+- "@\"TVRMSControlInterface\""
+- "@\"TVRMSDAAPLoginManager\""
+- "@\"TVRMSDAAPNowPlayingManager\""
+- "@\"TVRMSDAAPRequestManager\""
+- "@\"TVRMSDAAPTouchRemoteManager\""
+- "@\"TVRMSFairPlayKeyboardEncryption\""
+- "@\"TVRMSFairPlaySession\""
+- "@\"TVRMSIDSClient\""
+- "@\"TVRMSKeyboardInfo\""
+- "@\"TVRMSNowPlayingInfo\""
+- "@\"TVRMSPairingServer\""
+- "@\"TVRMSPairingSession\""
+- "@\"TVRMSReachability\""
+- "@\"TVRMSService\"16@0:8"
+- "@\"TVRMSSessionManager\""
+- "@\"TVRMSTouchRemoteSocket\""
+- "@\"_TVRCRMSDeviceKeyboardImpl\""
+- "@\"_TVRCRMSDeviceQuery\""
+- "@\"_TVRCRMSDeviceWrapper\""
+- "@\"_TVRCRMSNowPlayingState\""
+- "@24@0:8d16"
+- "@24@0:8r^{sockaddr_in=CCS{in_addr=I}[8c]}16"
+- "@32@0:8@16i24i28"
+- "@36@0:8{CGSize=dd}16f32"
+- "@48@0:8@16@24q32@?40"
+- "@56@0:8@16@24@32@40@?48"
+- "@64@0:8@16@24@32q40q48@?56"
+- "Accept-Encoding"
+- "AllowAnyHomeSharingID"
+- "Apple TV Remote"
+- "Artwork data not found"
+- "Artwork unavailable, retrying in %td seconds"
+- "Artwork was cached for identifier: %@"
+- "ArtworkData"
+- "Attempting to reconnect to new device."
+- "AudioRoutes"
+- "AvailableServices"
+- "B24@0:8^{FairPlayHWInfo_=I[20C]}16"
+- "B32@0:8@16@24"
+- "B44@0:8q16I24{CGPoint=dd}28"
+- "Backgrounded for too long, session is over"
+- "Begin discovery success, session established"
+- "CFBundleName"
+- "CGColor"
+- "CGImage"
+- "Checking if we should report this RMS device: %{public}@"
+- "Client supplied a list of paired network names, use this for filtering discovery"
+- "Client-DAAP-Validation"
+- "Client-DAAP-Version"
+- "Client-iTunes-Sharing-Version"
+- "Closing socket"
+- "Companion availability changed: %@"
+- "Control prompt items: %@"
+- "Control session ended"
+- "Control session proxy received successful connection response, sessionIdentifier=%d"
+- "Control session was notified of available artwork for [%@], but current now playing is [%@]"
+- "Control session was notified of avialable artwork for [%@], but data is already in cache"
+- "Could not find a preferred device. Returning a nil identifier."
+- "DRPortInfoRequest"
+- "Devices ids are the same. Skip reconnecting."
+- "Discovered a paired service with network name [%@] that doesn't have a matching pairing record, disregarding"
+- "Discovery controller attempted to enable unknown provider type: %td"
+- "Discovery proxy handling available services update: %@"
+- "DvNm"
+- "Enabling appleTV discovery provider"
+- "Enabling home-sharing discovery provider"
+- "Enabling pairing discovery provider"
+- "Error getting server info"
+- "Error logging in"
+- "Error performing FairPlay handshake"
+- "Error sending message of type %@: %@"
+- "Found Duplicate record: %{public}@ for device: %{public}@"
+- "Found different device models with same IDS identifiers"
+- "HTTP response code [%td] for [%@]"
+- "Handling timeout for message type: %@"
+- "Hearbeat success response for session: %@"
+- "Heartbeat failure response for session: %@"
+- "Home sharing ID changed, restarting discovery"
+- "I28@0:8q16i24"
+- "IDS message %@ failed with error: %@"
+- "IDSServiceDelegate"
+- "Ignoring unauth device that is lost because we are now using authenticated device"
+- "Informing delegate device %{public}@ was added"
+- "Informing delegate device %{public}@ was lost"
+- "LegacyAppleTV"
+- "Login error, additional info from response body: %@"
+- "NSStreamDelegate"
+- "NetworkAvailability"
+- "No known timeout handler for message type %@"
+- "Not removing device because isAlternateLink:%d isBLELink:%d"
+- "Now playing info unavailable, retrying in %td seconds"
+- "Now playing is empty, don't fetch artwork"
+- "NowPlayingManager asked to begin observing, but observing was already in progress"
+- "OSsi"
+- "POST"
+- "Pair"
+- "Pairing bonjour service published"
+- "Pairing bonjour service stopped"
+- "Pairing server successfully paired, serviceName=[%@] pairingGUID=[%@]"
+- "PairingNetServiceName"
+- "PairingRecordStore"
+- "PromptDone"
+- "PromptResendReq"
+- "PromptUpdate"
+- "RMSIDSClientAvailableServicesDidUpdateNotification"
+- "RMSIDSClientAvailableServicesNotificationKey"
+- "RMSIDSClientCompanionAvailabilityDidChangeNotification"
+- "RMSIDSClientControlInterfaceNotificationKey"
+- "RMSIDSClientDidPairWithServiceNotification"
+- "RMSIDSClientLoginTokenNotificationKey"
+- "RMSIDSClientNowPlayingArtworkDidBecomeAvailableNotification"
+- "RMSIDSClientNowPlayingArtworkIdentifierKey"
+- "RMSIDSClientNowPlayingAudioRoutesDidUpdateNotification"
+- "RMSIDSClientNowPlayingAudioRoutesNotificationKey"
+- "RMSIDSClientNowPlayingInfoDidUpdateNotification"
+- "RMSIDSClientNowPlayingInfoNotificationKey"
+- "RMSIDSClientNowPlayingVolumeDidUpdateNotification"
+- "RMSIDSClientNowPlayingVolumeNotificationKey"
+- "RMSIDSClientPairingDidFailNotification"
+- "RMSIDSClientPairingGUIDNotificationKey"
+- "RMSIDSClientResponseCodeNotificationKey"
+- "RMSIDSClientServiceNetworkNameNotificationKey"
+- "RMSIDSClientServiceNotificationKey"
+- "RMSIDSClientSessionDidEndNotification"
+- "RMSIDSClientSessionIdentifierNotificationKey"
+- "RMSIDSClientWifiAvailabilityDidChangeNotification"
+- "RMSIDSClientWifiAvailabilityNotificationKey"
+- "Rapport discovery device %@ changed handler attributesChanged :%s nameChanged: %s"
+- "Received add to wishlist response"
+- "Received artwork data, length=%td"
+- "Received artwork request for identifier: %@"
+- "Received now-playing info: %@"
+- "Received pick audio route response"
+- "Received request to begin discovery session"
+- "Received request to begin pairing session"
+- "Received request to connect to service"
+- "Received request to update paired network names"
+- "Received set like state response"
+- "RemN"
+- "RemV"
+- "RemoteServices: FairPlaySAPEncrypt failed with error: %d."
+- "RemoteServices: FairPlaySAPExchange complete."
+- "RemoteServices: FairPlaySAPExchange failed with error: %d."
+- "RemoteServices: FairPlaySAPExchange failed."
+- "RemoteServices: FairPlaySAPExchange requires further negotiation."
+- "RemoteServices: FairPlaySAPInit failed with error: %d."
+- "Removing %@ from dictionary: %@"
+- "Request timed out: %@"
+- "Request was cancelled: %@"
+- "RequestArtworkData"
+- "Resuming session"
+- "SeekToPlaybackTime"
+- "Sending add to wishlist response: %@"
+- "Sending artwork, size=%td"
+- "Sending begin pairing message with passcode [%@]"
+- "Sending heartbeat for session: %@"
+- "Sending immediate heartbeat"
+- "Sending set like state response: %@"
+- "Sent message of type: %@, IDS identifier: %@"
+- "Session timeout: %f"
+- "Starting query for RMS devices"
+- "Stopping query for RMS devices"
+- "Stream error: %@"
+- "T@\"<TVRMSDAAPControlSession>\",&,N,V_controlSession"
+- "T@\"<TVRMSDAAPControlSessionDelegate>\",W,N"
+- "T@\"<TVRMSDAAPControlSessionDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSDAAPNowPlayingManagerDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSDAAPRequestManagerDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSDAAPTouchRemoteManagerDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSDiscoverySession>\",&,N,V_legacyDiscoverySession"
+- "T@\"<TVRMSDiscoverySessionDelegate>\",W,N"
+- "T@\"<TVRMSDiscoverySessionDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSPairingSessionDelegate>\",W,N"
+- "T@\"<TVRMSPairingSessionDelegate>\",W,N,V_delegate"
+- "T@\"<TVRMSTouchRemoteSocketDelegate>\",W,N,V_delegate"
+- "T@\"<_TVRCRMSDeviceKeyboardImplDelegate>\",W,N,V_delegate"
+- "T@\"<_TVRCRMSDeviceWrapperDelegate>\",W,N,V_delegate"
+- "T@\"NSArray\",&,N"
+- "T@\"NSArray\",&,N,V_pairedNetworkNames"
+- "T@\"NSArray\",R,N,V_availableServices"
+- "T@\"NSDate\",&,N,V_lastReportedTimestamp"
+- "T@\"NSMutableSet\",&,N,V_mediaButtons"
+- "T@\"NSString\",&,N"
+- "T@\"NSString\",&,N,V_advertisedAppName"
+- "T@\"NSString\",&,N,V_advertisedDeviceModel"
+- "T@\"NSString\",&,N,V_advertisedDeviceName"
+- "T@\"NSString\",C,N,V_homeSharingGroupKey"
+- "T@\"NSString\",C,N,V_hostName"
+- "T@\"NSString\",C,N,V_pairingGUID"
+- "T@\"TVRMSControlInterface\",&,N,V_controlInterface"
+- "T@\"TVRMSFairPlaySession\",&,N,V_fairPlaySession"
+- "T@\"TVRMSKeyboardInfo\",&,N,V_keyboardInfo"
+- "T@\"TVRMSPairingSession\",&,N,V_pairingSession"
+- "T@\"TVRMSService\",&,N,V_device"
+- "T@\"TVRMSService\",R,N"
+- "T@\"TVRMSService\",R,N,V_service"
+- "T@\"_TVRCRMSDeviceKeyboardImpl\",&,N,V_keyboardImpl"
+- "T@\"_TVRCRMSDeviceQuery\",&,N,V_rmsDeviceQuery"
+- "T@\"_TVRCRMSDeviceWrapper\",&,N,V_deviceWrapper"
+- "T@\"_TVRCRMSNowPlayingState\",&,N,V_nowPlayingState"
+- "T@,&,N,V_responseBlock"
+- "TB,N,GisCompanionAvailable,V_companionAvailable"
+- "TB,N,V_authenticationAllowed"
+- "TB,R,N,GisHandshakeComplete,V_handshakeComplete"
+- "TB,R,N,GisNetworkAvailable"
+- "TB,R,N,GisNetworkAvailable,V_networkAvailable"
+- "TB,R,N,GisObserving,V_observing"
+- "TS,N,V_messageType"
+- "TVRCStoredLegacyDevices"
+- "TVRMSAppleTVServiceProvider"
+- "TVRMSDAAPControlSession"
+- "TVRMSDAAPControlSessionDelegate"
+- "TVRMSDAAPControlSessionProxy"
+- "TVRMSDAAPLoginManager"
+- "TVRMSDAAPNowPlayingManager"
+- "TVRMSDAAPNowPlayingManagerDelegate"
+- "TVRMSDAAPRequestManager"
+- "TVRMSDAAPRequestManagerDelegate"
+- "TVRMSDAAPTouchRemoteManager"
+- "TVRMSDAAPTouchRemoteManagerDelegate"
+- "TVRMSDiscoverySession"
+- "TVRMSDiscoverySessionDelegate"
+- "TVRMSDiscoverySessionProxy"
+- "TVRMSFairPlaySession"
+- "TVRMSHomeSharingServiceProvider"
+- "TVRMSIDSClient"
+- "TVRMSIDSServer"
+- "TVRMSPairingRecordStore"
+- "TVRMSPairingServerDelegate"
+- "TVRMSPairingServiceProvider"
+- "TVRMSPairingSession"
+- "TVRMSPairingSessionDelegate"
+- "TVRMSPairingSessionProxy"
+- "TVRMSReachability"
+- "TVRMSServiceProviderDelegate"
+- "TVRMSSessionManagerDelegate"
+- "TVRMSSessionProxy"
+- "TVRMSTouchRemoteSocket"
+- "TVRMSTouchRemoteSocketDelegate"
+- "Td,N,V_duration"
+- "Td,N,V_lastReportedPlaybackPosition"
+- "Td,N,V_playbackRate"
+- "Touch remote port secret is [%d]"
+- "Touch remote socket attempted to write too much data: %d"
+- "Touch remote socket closed"
+- "Touch remote socket opened"
+- "Tq,N"
+- "Tq,N,V_discoveryTypes"
+- "Tq,N,V_port"
+- "Tq,N,V_sessionIdentifier"
+- "URL"
+- "Unexpected error [%@]: %@"
+- "Unhandled message type: %d"
+- "UniqueDeviceIDData"
+- "UpdatePairedNetworkNames"
+- "UserAssignedDeviceName"
+- "Viewer-Only-Client"
+- "Volume"
+- "[%@] Application foregrounded, time since last heartbeat: %f"
+- "[%@] Application suspended, pausing heartbeat"
+- "[Session %d] Network not available, immediately notify client"
+- "[Session %d] Received begin discovery response"
+- "[Session %d] Received begin pairing response"
+- "[Session %d] Received connection response"
+- "[Session %d] Received discovery available services update"
+- "[Session %d] Received failure pairing"
+- "[Session %d] Received heartbeat"
+- "[Session %d] Received heartbeat, but session was no longer active - respond with timeout error"
+- "[Session %d] Received message to seek to playbacktime"
+- "[Session %d] Received now playing artwork update"
+- "[Session %d] Received now playing audio routes update"
+- "[Session %d] Received now playing info update"
+- "[Session %d] Received now playing volume update"
+- "[Session %d] Received request for logout"
+- "[Session %d] Received request for navigation command"
+- "[Session %d] Received request for playback command"
+- "[Session %d] Received request for touch end"
+- "[Session %d] Received request for touch move"
+- "[Session %d] Received request to add to wishlist"
+- "[Session %d] Received request to begin observing now playing"
+- "[Session %d] Received request to end discovery session"
+- "[Session %d] Received request to end observing now playing session"
+- "[Session %d] Received request to end pairing session"
+- "[Session %d] Received request to pick audio route"
+- "[Session %d] Received request to set like state"
+- "[Session %d] Received request to set volume"
+- "[Session %d] Received session did end"
+- "[Session %d] Received successful pairing"
+- "[Session %d] Received wifi availability message: %@"
+- "[Session %d] Sending add to wishlist message"
+- "[Session %d] Sending artwork updated notification"
+- "[Session %d] Sending audio routes update"
+- "[Session %d] Sending available services: %@"
+- "[Session %d] Sending begin discovery response"
+- "[Session %d] Sending begin observing now playing message"
+- "[Session %d] Sending begin pairing response"
+- "[Session %d] Sending connection result: %@"
+- "[Session %d] Sending control session ended"
+- "[Session %d] Sending end discovery message"
+- "[Session %d] Sending end observing now playing message"
+- "[Session %d] Sending end pairing message"
+- "[Session %d] Sending heartbeat message"
+- "[Session %d] Sending logout message"
+- "[Session %d] Sending navigation command message"
+- "[Session %d] Sending now playing info update"
+- "[Session %d] Sending pairing session failed message"
+- "[Session %d] Sending pairing success with service network name: %@"
+- "[Session %d] Sending pick audio route message"
+- "[Session %d] Sending pick route response: %@"
+- "[Session %d] Sending playback command"
+- "[Session %d] Sending seek to playback time message"
+- "[Session %d] Sending session ended due to timeout"
+- "[Session %d] Sending set like state message"
+- "[Session %d] Sending set volume message"
+- "[Session %d] Sending touch end"
+- "[Session %d] Sending touch move"
+- "[Session %d] Sending volume update"
+- "[Session %d] Sending wifi availability message: %@"
+- "[Session %d] Session is stale, notifying client"
+- "^{FPSAPContextOpaque_=}"
+- "^{__SCNetworkReachability=}"
+- "_"
+- "_RMSMessageRecord"
+- "_TVRCRMSDeviceImpl"
+- "_TVRCRMSDeviceKeyboardImpl"
+- "_TVRCRMSDeviceKeyboardImplDelegate"
+- "_TVRCRMSDeviceManager"
+- "_TVRCRMSDeviceQuery"
+- "_TVRCRMSDeviceWrapper"
+- "_TVRCRMSDeviceWrapperDelegate"
+- "_TVRCRMSNowPlayingState"
+- "_addOrUpdateRecordInUserDefaults:"
+- "_advertisedAppName"
+- "_allRecords"
+- "_alwaysReturnLocalWiFiStatus"
+- "_appletv-v2._tcp."
+- "_applicationDidBecomeActive:"
+- "_applicationWillResignActiveNotification:"
+- "_artworkRequest"
+- "_artworkRequestBackoffInterval"
+- "_artworkRetryTimer"
+- "_attributesForKeyboardInfo:"
+- "_audioRoutes:equalAudioRoutes:"
+- "_audioRoutesRequest"
+- "_authenticationAllowed"
+- "_availableServices"
+- "_availableServicesDidUpdateNotification:"
+- "_cancelArtworkRetryTimer"
+- "_cancelPairing"
+- "_cleanupStaleSessions:"
+- "_companionAvailabilityDidChange:"
+- "_companionAvailable"
+- "_connectWithPairingGUID:"
+- "_continueFairPlayHandshakeWithData:completionHandler:"
+- "_controlPromptRevision"
+- "_controlSession"
+- "_createSocket"
+- "_currentArtworkIdentifier"
+- "_currentAudioRoutes"
+- "_currentNowPlayingInfo"
+- "_discovering"
+- "_enableProviders"
+- "_encryptData:"
+- "_encryptString:"
+- "_encryptionKey"
+- "_expectedPasscodeHashForPasscode:publicKey:"
+- "_fairPlaySession"
+- "_findDeviceForIdentifier:createIfNeeded:"
+- "_generatePublicKey"
+- "_getHardwareInfo:"
+- "_handleAddToWishlist:"
+- "_handleAddToWishlistResponse:"
+- "_handleAudioRoutesDidUpdate:"
+- "_handleAudioRoutesDidUpdateNotification:"
+- "_handleAvailableServicesDidUpdate:"
+- "_handleBeginDiscovery:"
+- "_handleBeginDiscoverySessionResponse:"
+- "_handleBeginObservingNowPlaying:"
+- "_handleBeginObservingNowPlayingResponse:"
+- "_handleBeginPairing:"
+- "_handleBeginPairingSessionResponse:"
+- "_handleConnectToService:"
+- "_handleConnectToServiceResponse:"
+- "_handleDidPairWithServiceNotification:"
+- "_handleEndDiscovery:"
+- "_handleEndObservingNowPlaying:"
+- "_handleEndPairing:"
+- "_handleHSGroupIDDidChangeNotification:"
+- "_handleHeartbeatResponse:"
+- "_handleLogout:"
+- "_handleNavigationCommand:"
+- "_handleNowPlayingArtworkAvailable:"
+- "_handleNowPlayingArtworkDataResponse:"
+- "_handleNowPlayingArtworkDidBecomeAvailableNotification:"
+- "_handleNowPlayingArtworkRequest:"
+- "_handleNowPlayingInfoDidUpdate:"
+- "_handleNowPlayingInfoDidUpdateNotification:"
+- "_handlePairingDidFail:"
+- "_handlePairingDidFailNotification:"
+- "_handlePairingDidSucceed:"
+- "_handlePickAudioRoute:"
+- "_handlePickAudioRouteResponse:"
+- "_handlePlaybackCommand:"
+- "_handleReachabilityChangedNotification:"
+- "_handleResponseCodeMessage:"
+- "_handleSeekToPlaybackTime:"
+- "_handleSessionDidEnd:"
+- "_handleSessionDidEndNotification:"
+- "_handleSessionHeartbeat:"
+- "_handleSetLikeState:"
+- "_handleSetLikedStateResponse:"
+- "_handleSetVolume:"
+- "_handleTimeoutForMessageWithIdentifier:"
+- "_handleTouchEnd:"
+- "_handleTouchMove:"
+- "_handleUpdatePairedNetworkNames:"
+- "_handleVolumeDidUpdate:"
+- "_handleVolumeDidUpdateNotification:"
+- "_handleWifiAvailabilityDidChange:"
+- "_handshakeComplete"
+- "_hardwareInfo"
+- "_hexStringForData:"
+- "_home-sharing._tcp."
+- "_host"
+- "_idsClient"
+- "_idsDispatchQueue"
+- "_idsOutgoingQueue"
+- "_idsService"
+- "_initializeManagersWithControlInterface:completionHandler:"
+- "_initiatePairing"
+- "_invokeArtworkDataResponseBlock:artworkData:"
+- "_invokeBeginDiscoveryResponseBlock:success:session:"
+- "_invokeBeginPairingResponseBlock:responseCode:session:"
+- "_invokeConnectToServiceResponseBlock:responseCode:controlInterface:session:"
+- "_invokeResponseCodeResponseBlock:responseCode:"
+- "_isCompanionAvailable"
+- "_isFairPlayRequired"
+- "_isFairplayRequiredForServerInfo:"
+- "_isObserving"
+- "_isPaused"
+- "_keyboardEditingSessionActive"
+- "_keyboardEditingSessionID"
+- "_keyboardEncryption"
+- "_keyboardInfo"
+- "_keyboardTypeForInfo:"
+- "_lastHeartbeatTime"
+- "_lastReportedPlaybackPosition"
+- "_lastReportedTimestamp"
+- "_lastVolume"
+- "_legacyDiscoverySession"
+- "_locationForDirection:repeatCount:"
+- "_loginManager"
+- "_mediaButtons"
+- "_messageRecords"
+- "_messageType"
+- "_monitoredServices"
+- "_navigationCommandForButtonEvent:"
+- "_networkAvailable"
+- "_notifyDelegateForArtworkChange"
+- "_notifyDelegatePairingFailed"
+- "_nowPlayingInfoRequest"
+- "_nowPlayingManager"
+- "_nowPlayingSessions"
+- "_nowPlayingState"
+- "_observing"
+- "_outputStream"
+- "_pairing"
+- "_pairingNetServiceName"
+- "_pairingRecords"
+- "_pairingServer"
+- "_pairingSession"
+- "_pairingSessions"
+- "_parsePortInfoItems:"
+- "_performWithMutableRecords:"
+- "_portSecret"
+- "_processAuthenticationUpdateForItems:"
+- "_processKeyboardMessageItems:"
+- "_providerForDiscoveryType:"
+- "_providers"
+- "_reachability"
+- "_reachabilityRef"
+- "_refreshNowPlayingInfoRequest"
+- "_removeRecordWithNetworkNameFromUserDefaults:"
+- "_requestArtworkDataIfNecessaryForNowPlayingInfo:"
+- "_requestAudioRoutes"
+- "_requestBackoffInterval"
+- "_requestControlInterfaceWithCompletionHandler:"
+- "_requestFairPlayHandshake:"
+- "_requestKeyboardStatus"
+- "_requestLoginWithCompletionHandler:"
+- "_requestManager"
+- "_requestNowPlayingInfoWithCompletionHandler:"
+- "_requestPortInfo"
+- "_requestPromptUpdate:"
+- "_requestServerInfoWithCompletionHandler:"
+- "_requestVolume"
+- "_responseBlock"
+- "_retryRate"
+- "_rmsDeviceQuery"
+- "_scheduleArtworkRetryForNowPlayingInfo:delay:"
+- "_seekToTime:"
+- "_sendData:type:priority:timeout:queueOneID:inResponseTo:"
+- "_sendData:type:timeout:queueOneID:inResponseTo:"
+- "_sendHeartbeat:"
+- "_sendMessage:type:timeout:queueOneID:priority:responseBlock:"
+- "_sessionManager"
+- "_sessionTimeout"
+- "_sessionToken"
+- "_setIdentifier:alternateIdentifiers:name:model:supportedButtons:"
+- "_skipSeconds:"
+- "_socket"
+- "_startBonjourAdvertisingWithPublicKey:httpServerPort:"
+- "_stringFromRMSPlaybackCommand:"
+- "_synchronizePreferences"
+- "_timeForDirection:repeatCount:"
+- "_touch-able._tcp."
+- "_touch-remote._tcp."
+- "_touchDirectionForButtonEvent:"
+- "_touchDistanceMax"
+- "_touchDistanceMin"
+- "_touchRemoteManager"
+- "_touchRemoteSessions"
+- "_touchTimeMax"
+- "_touchTimeMin"
+- "_unmonitoredServices"
+- "_updateCompanionAvailability"
+- "_updateNetworkAvailability"
+- "_updateWifiAvailability"
+- "_urlSession"
+- "_volumeRequest"
+- "_wifiAvailabilityDidChange:"
+- "addDelegate:queue:"
+- "addStoredInfoForNetworkName:displayName:pairingGUID:"
+- "addToWishlist:databaseID:completionHandler:"
+- "addToWishlist:databaseID:sessionIdentifier:completionHandler:"
+- "addValue:forHTTPHeaderField:"
+- "advertisedAppName"
+- "advertisedDeviceModel"
+- "advertisedDeviceName"
+- "allPairingRecords"
+- "authenticationAllowed"
+- "availableServices"
+- "avalable"
+- "beginDiscoverySessionWithDiscoveryTypes:pairedNetworkNames:completionHandler:"
+- "beginHeartbeat"
+- "beginObservingNowPlaying"
+- "beginObservingNowPlayingWithSessionIdentifier:completionHandler:"
+- "beginPairing"
+- "beginPairingSessionWithPasscode:appName:deviceName:deviceModel:completionHandler:"
+- "blackColor"
+- "bounds"
+- "cStringUsingEncoding:"
+- "certificate"
+- "challenge"
+- "clearKeyboardText"
+- "com.apple.itunes.wishlist"
+- "com.apple.private.alloy.remotemediaservices"
+- "com.apple.remotemediaservices.ids"
+- "companionAvailable"
+- "connectToService:pairingGUID:completionHandler:"
+- "connectionRequired"
+- "contextmenu"
+- "controlSession"
+- "controlSession:artworkDataDidBecomeAvailable:identifier:"
+- "controlSession:didUpdateAudioRoutes:"
+- "controlSession:didUpdateKeyboardEditingInfo:"
+- "controlSession:didUpdateNowPlayingInfo:"
+- "controlSession:didUpdateVolume:"
+- "controlSession:keyboardEditingDidBegin:"
+- "controlSession:keyboardEditingDidEnd:"
+- "controlSessionDidEnd:"
+- "controlpromptentry"
+- "controlpromptupdate"
+- "ctrl-int"
+- "currentReachabilityStatus"
+- "currentRunLoop"
+- "dacp.playingtime"
+- "dataFromTXTRecordDictionary:"
+- "dataTaskWithRequest:completionHandler:"
+- "database-spec"
+- "dateWithTimeIntervalSinceReferenceDate:"
+- "defaultStore"
+- "discoverySessionDidUpdateAvailableServices:"
+- "discoverySessionNetworkAvailabilityDidChange:"
+- "dmcp.volume"
+- "end discovery invoked"
+- "endDiscoverySession:"
+- "endHeartbeat"
+- "endObservingNowPlaying"
+- "endObservingNowPlayingWithSessionIdentifier:"
+- "endPairing"
+- "endPairingSession:"
+- "ephemeralSessionConfiguration"
+- "fairPlaySession"
+- "fire"
+- "fp-setup"
+- "getBytes:length:"
+- "getproperty"
+- "getspeakers"
+- "groupID"
+- "gzip"
+- "handshakeComplete"
+- "handshakeData"
+- "handshakeIterationWithData:"
+- "hasFP"
+- "headerForURL:"
+- "heartbeatDidFail"
+- "heartbeatTime"
+- "hsgid"
+- "http"
+- "imageWithData:"
+- "incomingResponseIdentifier"
+- "initWithDomain:type:name:port:"
+- "initWithHost:port:encryptionKey:"
+- "initWithProtobufData:type:isResponse:"
+- "initWithRequestManager:"
+- "initWithTimeout:"
+- "initiateControlWithCompletionHandler:"
+- "isCompanionAvailable"
+- "isDefaultPairedDevice"
+- "isHandshakeComplete"
+- "isNetworkAvailable"
+- "isObserving"
+- "item-spec"
+- "kKeybMsgKey_MessageType"
+- "kKeybMsgKey_SessionID"
+- "kNetworkReachabilityChangedNotification"
+- "keyboardEditingSessionActive"
+- "keyboardImpl:updatedText:"
+- "keyboardImplRequestsSendingReturnKey:"
+- "keyboardInfo"
+- "keyboardSessionBegan:"
+- "keyboardSessionEnded:"
+- "keyboardSessionUpdatedEditingInfo:"
+- "lastReportedPlaybackPosition"
+- "lastReportedTimestamp"
+- "legacyDiscoverySession"
+- "localControlSession"
+- "localDiscoverySession"
+- "localPairingSession"
+- "localWiFiStatusForFlags:"
+- "login"
+- "loginWithCompletionHandler:"
+- "logout"
+- "logoutWithSessionIdentifier:"
+- "mainBundle"
+- "mainQueue"
+- "mainScreen"
+- "mediaButtons"
+- "menu"
+- "messageType"
+- "mutetoggle"
+- "networkAvailable"
+- "networkStatusForFlags:"
+- "nextchapter"
+- "nextitem"
+- "nowPlayingManager:artworkDataDidBecomeAvailable:identifier:"
+- "nowPlayingManager:didUpdateAudioRoutes:"
+- "nowPlayingManager:didUpdateNowPlayingInfo:"
+- "nowPlayingManager:didUpdateVolume:"
+- "nowPlayingState"
+- "nowPlayingStateFromInfo:"
+- "nowplayingartwork"
+- "objectForInfoDictionaryKey:"
+- "observing"
+- "open"
+- "outgoingResponseIdentifier"
+- "pairedServiceNetworkNames"
+- "pairing-guid"
+- "pairingGUIDForNetworkName:"
+- "pairingRecordForServiceWithNetworkName:"
+- "pairingSession"
+- "pairingSession:didBeginPairingWithPasscode:"
+- "pairingSession:didPairWithServiceNetworkName:pairingGUID:"
+- "pairingSessionDidFail:"
+- "pause"
+- "performSelector:withObject:afterDelay:"
+- "pickAudioRoute:completionHandler:"
+- "pickAudioRouteWithMacAddress:sessionIdentifier:completionHandler:"
+- "play"
+- "playpause"
+- "playqueue-contents"
+- "playstatusupdate"
+- "prevchapter"
+- "previtem"
+- "prompt-id"
+- "proxyControlSession"
+- "proxyDiscoverySession"
+- "proxyPairingSession"
+- "publish"
+- "q20@0:8I16"
+- "rangeOfString:"
+- "reachabilityForInternetConnection"
+- "reachabilityForLocalWiFi"
+- "reachabilityWithAddress:"
+- "reachabilityWithHostName:"
+- "removeFromRunLoop:forMode:"
+- "removeObserver:"
+- "removePairingRecordForServiceWithNetworkName:"
+- "removeStoredInfoForNetworkName:"
+- "requestArtworkDataForNowPlayingInfo:width:height:compressionQuality:completionHandler:"
+- "requestControlCommand:text:data:controlValue:promptRevision:completionHandler:"
+- "requestControlCommand:text:promptRevision:completionHandler:"
+- "requestManagerFailedWithUnauthorizedError:"
+- "requestManagerFailedWithUnknownError:"
+- "requestWithPath:method:postData:queryArgs:completionHandler:"
+- "requestWithURL:"
+- "responseBlock"
+- "revision-number"
+- "rmsDeviceQuery"
+- "rms_jpegDataScaledToSize:compressionQuality:"
+- "savePairingRecord:forServiceWithNetworkName:"
+- "scheduleInRunLoop:forMode:"
+- "seekToPlaybackTime:completionHandler:"
+- "seekToPlaybackTime:sessionIdentifier:"
+- "select"
+- "sendHeartbeatWithSessionIdentifier:completionHandler:"
+- "sendKeyboardReturnCommand"
+- "sendNavigationCommand:"
+- "sendNavigationCommand:sessionIdentifier:"
+- "sendPlaybackCommand:completionHandler:"
+- "sendPlaybackCommand:sessionIdentifier:"
+- "sendProtobuf:toDestinations:priority:options:identifier:error:"
+- "sendTouchCode:timeInMilliseconds:location:"
+- "sendTouchEndWithDirection:repeatCount:"
+- "sendTouchEndWithDirection:repeatCount:sessionIdentifier:"
+- "sendTouchMoveWithDirection:repeatCount:"
+- "sendTouchMoveWithDirection:repeatCount:sessionIdentifier:"
+- "server"
+- "server-info"
+- "service:account:identifier:didSendWithSuccess:error:"
+- "service:account:identifier:didSendWithSuccess:error:context:"
+- "service:account:identifier:fromID:hasBeenDeliveredWithContext:"
+- "service:account:identifier:hasBeenDeliveredWithContext:"
+- "service:account:identifier:sentBytes:totalBytes:"
+- "service:account:incomingData:fromID:context:"
+- "service:account:incomingMessage:fromID:context:"
+- "service:account:incomingOpportunisticData:withIdentifier:fromID:context:"
+- "service:account:incomingPendingMessageOfType:fromID:context:"
+- "service:account:incomingResourceAtURL:fromID:context:"
+- "service:account:incomingResourceAtURL:metadata:fromID:context:"
+- "service:account:incomingUnhandledProtobuf:fromID:context:"
+- "service:account:inviteReceivedForSession:fromID:"
+- "service:account:inviteReceivedForSession:fromID:withContext:"
+- "service:account:inviteReceivedForSession:fromID:withOptions:"
+- "service:account:pendingResourceWithMetadata:fromID:acknowledgementBlock:context:"
+- "service:account:receivedGroupSessionParticipantDataUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:"
+- "service:account:receivedGroupSessionParticipantUpdate:context:"
+- "service:activeAccountsChanged:"
+- "service:connectedDevicesChanged:"
+- "service:devicesChanged:"
+- "service:didCancelMessageWithSuccess:error:identifier:"
+- "service:didSendOpportunisticDataWithIdentifier:toIDs:"
+- "service:didSwitchActivePairedDevice:acknowledgementBlock:"
+- "service:linkedDevicesChanged:"
+- "service:nearbyDevicesChanged:"
+- "serviceAllowedTrafficClassifiersDidReset:"
+- "serviceSpaceDidBecomeAvailable:"
+- "session-id"
+- "sessionMatchesNotification:"
+- "sessionWithConfiguration:delegate:delegateQueue:"
+- "setAdvertisedAppName:"
+- "setAdvertisedDeviceModel:"
+- "setAdvertisedDeviceName:"
+- "setAuthenticationAllowed:"
+- "setCompanionAvailable:"
+- "setControlSession:"
+- "setFairPlaySession:"
+- "setHTTPAdditionalHeaders:"
+- "setHTTPBody:"
+- "setHTTPMethod:"
+- "setHost:"
+- "setKeyboardInfo:"
+- "setKeyboardText:"
+- "setLastReportedPlaybackPosition:"
+- "setLastReportedTimestamp:"
+- "setLegacyDiscoverySession:"
+- "setLikedState:itemID:databaseID:completionHandler:"
+- "setLikedState:itemID:databaseID:sessionIdentifier:completionHandler:"
+- "setMediaButtons:"
+- "setMessageType:"
+- "setNowPlayingState:"
+- "setPairingSession:"
+- "setPath:"
+- "setProtobufAction:forIncomingRequestsOfType:"
+- "setProtobufAction:forIncomingResponsesOfType:"
+- "setResponseBlock:"
+- "setRmsDeviceQuery:"
+- "setScheme:"
+- "setTXTRecordData:"
+- "setVolume:completionHandler:"
+- "setVolume:sessionIdentifier:"
+- "setproperty"
+- "setspeakers"
+- "sharedClient"
+- "sharedRecordStore"
+- "size"
+- "speaker-id"
+- "startNotifier"
+- "stopNotifier"
+- "stream:handleEvent:"
+- "streamError"
+- "streamStatus"
+- "stringByPaddingToLength:withString:startingAtIndex:"
+- "stringForKey:"
+- "substringFromIndex:"
+- "synchronize"
+- "timeIntervalSinceReferenceDate"
+- "topmenu"
+- "touchRemoteManagerDidDisconnect:"
+- "touchRemoteManagerKeyboardEditingSessionDidBegin:"
+- "touchRemoteManagerKeyboardEditingSessionDidEnd:"
+- "touchRemoteManagerKeyboardEditingSessionDidUpdate:"
+- "touchRemoteSocketDidConnect:"
+- "touchRemoteSocketDidDisconnect:"
+- "txtvers"
+- "unavailable"
+- "unsignedIntValue"
+- "unsignedLongLongValue"
+- "updatePairedNetworkNames:sessionIdentifier:"
+- "v12@?0i8"
+- "v16@?0@\"NSData\"8"
+- "v16@?0@\"NSMutableDictionary\"8"
+- "v16@?0@\"TVRMSControlInterface\"8"
+- "v16@?0@\"TVRMSDAAPControlSession\"8"
+- "v16@?0@8"
+- "v16@?0B8i12"
+- "v20@0:8S16"
+- "v20@?0q8i16"
+- "v24@0:8@\"<TVRMSDAAPControlSession>\"16"
+- "v24@0:8@\"<TVRMSDAAPControlSessionDelegate>\"16"
+- "v24@0:8@\"<TVRMSDiscoverySession>\"16"
+- "v24@0:8@\"<TVRMSDiscoverySessionDelegate>\"16"
+- "v24@0:8@\"<TVRMSPairingSession>\"16"
+- "v24@0:8@\"<TVRMSPairingSessionDelegate>\"16"
+- "v24@0:8@\"IDSService\"16"
+- "v24@0:8@\"TVRMSDAAPRequestManager\"16"
+- "v24@0:8@\"TVRMSDAAPTouchRemoteManager\"16"
+- "v24@0:8@\"TVRMSPairingServer\"16"
+- "v24@0:8@\"TVRMSTouchRemoteSocket\"16"
+- "v24@0:8@\"_TVRCRMSDeviceKeyboardImpl\"16"
+- "v24@0:8@\"_TVRCRMSDeviceWrapper\"16"
+- "v24@0:8f16i20"
+- "v24@?0q8@\"TVRMSControlInterface\"16"
+- "v24@?0q8@\"TVRMSNowPlayingInfo\"16"
+- "v28@0:8@\"<TVRMSDAAPControlSession>\"16f24"
+- "v28@0:8@\"TVRMSDAAPNowPlayingManager\"16f24"
+- "v28@0:8@\"TVRMSSessionManager\"16i24"
+- "v28@0:8@16S24"
+- "v28@0:8@16f24"
+- "v28@0:8@16i24"
+- "v28@0:8f16@?20"
+- "v28@0:8f16@?<v@?q>20"
+- "v28@0:8i16@?<v@?q>20"
+- "v28@0:8q16i24"
+- "v28@?0q8@\"TVRMSControlInterface\"16i24"
+- "v32@0:8@\"<TVRMSDAAPControlSession>\"16@\"NSArray\"24"
+- "v32@0:8@\"<TVRMSDAAPControlSession>\"16@\"TVRMSKeyboardInfo\"24"
+- "v32@0:8@\"<TVRMSDAAPControlSession>\"16@\"TVRMSNowPlayingInfo\"24"
+- "v32@0:8@\"<TVRMSPairingSession>\"16@\"NSString\"24"
+- "v32@0:8@\"<TVRMSServiceProvider>\"16@\"TVRMSService\"24"
+- "v32@0:8@\"IDSService\"16@\"NSArray\"24"
+- "v32@0:8@\"IDSService\"16@\"NSSet\"24"
+- "v32@0:8@\"NSStream\"16Q24"
+- "v32@0:8@\"TVRMSAudioRoute\"16@?<v@?q>24"
+- "v32@0:8@\"TVRMSDAAPNowPlayingManager\"16@\"NSArray\"24"
+- "v32@0:8@\"TVRMSDAAPNowPlayingManager\"16@\"TVRMSNowPlayingInfo\"24"
+- "v32@0:8@\"TVRMSPairingServer\"16@\"NSString\"24"
+- "v32@0:8@\"_TVRCRMSDeviceKeyboardImpl\"16@\"NSString\"24"
+- "v32@0:8@\"_TVRCRMSDeviceWrapper\"16@\"NSError\"24"
+- "v32@0:8@16B24i28"
+- "v32@0:8@16d24"
+- "v32@0:8q16@?24"
+- "v32@0:8q16@?<v@?q>24"
+- "v32@0:8q16I24i28"
+- "v32@?0@\"NSData\"8@\"NSURLResponse\"16@\"NSError\"24"
+- "v32@?0@\"NSString\"8@\"NSString\"16^B24"
+- "v36@0:8@16q24i32"
+- "v36@0:8Q16i24@?28"
+- "v36@0:8i16@20@?28"
+- "v40@0:8@\"<TVRMSDAAPControlSession>\"16@\"NSData\"24@\"NSString\"32"
+- "v40@0:8@\"<TVRMSPairingSession>\"16@\"NSString\"24@\"NSString\"32"
+- "v40@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32"
+- "v40@0:8@\"IDSService\"16@\"IDSDevice\"24@?<v@?>32"
+- "v40@0:8@\"IDSService\"16@\"NSString\"24@\"NSArray\"32"
+- "v40@0:8@\"TVRMSDAAPNowPlayingManager\"16@\"NSData\"24@\"NSString\"32"
+- "v40@0:8@\"TVRMSPairingServer\"16@\"NSString\"24@\"NSString\"32"
+- "v40@0:8@\"TVRMSService\"16@\"NSString\"24@?<v@?q@\"TVRMSControlInterface\">32"
+- "v40@0:8Q16Q24@?32"
+- "v40@0:8Q16Q24@?<v@?q>32"
+- "v44@0:8@\"IDSService\"16B24@\"NSError\"28@\"NSString\"36"
+- "v44@0:8@16B24@28@36"
+- "v44@0:8@16I24I28f32@?36"
+- "v44@0:8@16q24@32i40"
+- "v44@0:8Q16Q24i32@?36"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSGroupSessionParticipantUpdate\"32@\"IDSMessageContext\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40"
+- "v48@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@40"
+- "v48@0:8@16S24i28@32@40"
+- "v48@0:8q16Q24Q32@?40"
+- "v48@0:8q16Q24Q32@?<v@?q>40"
+- "v52@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44"
+- "v52@0:8@16@24@32B40@44"
+- "v52@0:8q16Q24Q32i40@?44"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSProtobuf\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSData\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"IDSSession\"32@\"NSString\"40@\"NSDictionary\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32@\"NSString\"40@48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32q40q48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@\"IDSService\"16@\"IDSAccount\"24q32@\"NSString\"40@\"IDSMessageContext\"48"
+- "v56@0:8@16@24@32@40@48"
+- "v56@0:8@16@24@32@40@?48"
+- "v56@0:8@16@24@32q40q48"
+- "v56@0:8@16@24q32@40@48"
+- "v56@0:8@16S24i28@32q40@48"
+- "v56@0:8@16S24q28i36@40@48"
+- "v60@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSString\"32B40@\"NSError\"44@\"IDSMessageContext\"52"
+- "v60@0:8@16@24@32B40@44@52"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSData\"32@\"NSString\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSDictionary\"32@\"NSString\"40@?<v@?B>48@\"IDSMessageContext\"56"
+- "v64@0:8@\"IDSService\"16@\"IDSAccount\"24@\"NSURL\"32@\"NSDictionary\"40@\"NSString\"48@\"IDSMessageContext\"56"
+- "v64@0:8@16@24@32@40@48@56"
+- "v64@0:8@16@24@32@40@?48@56"
+- "volumedown"
+- "volumeup"
+- "write:maxLength:"
+- "{CGPoint=dd}28@0:8q16i24"
+- "{FairPlayHWInfo_=\"IDLength\"I\"ID\"[20C]}"
+- "\xa1"
+- "\xe1"
+
+```

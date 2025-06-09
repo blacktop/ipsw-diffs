@@ -1,0 +1,128 @@
+## libmav_ipc_router_dynamic.dylib
+
+> `/usr/lib/libmav_ipc_router_dynamic.dylib`
+
+```diff
+
+-1249.1.0.0.0
+-  __TEXT.__text: 0xb228
+-  __TEXT.__auth_stubs: 0x4f0
++1371.0.1.0.0
++  __TEXT.__text: 0xb608
++  __TEXT.__auth_stubs: 0x4e0
+   __TEXT.__const: 0x77b
+-  __TEXT.__gcc_except_tab: 0x464
+-  __TEXT.__cstring: 0x7c6
++  __TEXT.__gcc_except_tab: 0x470
++  __TEXT.__cstring: 0x7c2
+   __TEXT.__oslogstring: 0x2c7
+-  __TEXT.__unwind_info: 0x3e0
+-  __DATA_CONST.__got: 0x80
+-  __DATA_CONST.__const: 0x140
+-  __AUTH_CONST.__auth_got: 0x280
+-  __AUTH_CONST.__const: 0x8d8
++  __TEXT.__unwind_info: 0x3e8
++  __DATA_CONST.__got: 0x88
++  __DATA_CONST.__const: 0x160
++  __AUTH_CONST.__auth_got: 0x278
++  __AUTH_CONST.__const: 0x8f8
+   __DATA_DIRTY.__data: 0x18
+   __DATA_DIRTY.__common: 0x44
+   __DATA_DIRTY.__bss: 0x40
+
+   - /usr/lib/libTelephonyCapabilities.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: E1948BBE-2750-31DA-8D59-7755A7C3CDC4
+-  Functions: 212
+-  Symbols:   589
+-  CStrings:  78
++  UUID: DB738DEB-5DA3-3219-9E20-6CA83FC96BA4
++  Functions: 215
++  Symbols:   601
++  CStrings:  77
+ 
+Symbols:
++ GCC_except_table11
++ GCC_except_table16
++ GCC_except_table20
++ GCC_except_table22
++ GCC_except_table24
++ GCC_except_table30
++ GCC_except_table32
++ GCC_except_table33
++ GCC_except_table36
++ GCC_except_table42
++ GCC_except_table43
++ GCC_except_table5
++ GCC_except_table7
++ __ZN12capabilities3pci16supportsRxIOPoolEv
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__110__list_impINS_10shared_ptrIN10mav_router6device4shimEEENS_9allocatorIS5_EEE5clearEv
++ __ZNSt3__110shared_ptrI12mav_router_tED1B8ne200100Ev
++ __ZNSt3__110shared_ptrI12mav_router_tED2B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router6device10controllerEED2B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router6device4shimEED1B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router6device8pci_shimEED1B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router6device8pci_shimEED2B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router6device9null_shimEED2B8ne200100Ev
++ __ZNSt3__110shared_ptrIN10mav_router7service22transport_shim_privateEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrI12mav_router_tNS_14default_deleteIS1_EEED2B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20mav_router_channel_tEEPvEENS_22__tree_node_destructorINS6_ISC_EEEEED2B8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
++ __ZNSt3__114__split_bufferIPPvNS_9allocatorIS2_EEE12emplace_backIJRS2_EEEvDpOT_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__13mapIj21PCITransportInterfaceNS_4lessIjEENS_9allocatorINS_4pairIKjS1_EEEEEC2B8ne200100ESt16initializer_listIS7_ERKS3_
++ __ZNSt3__16localeC1Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ ____ZN10mav_router6device8pci_shim10handleReadEPKvj_block_invoke
++ ___block_descriptor_tmp.10
++ ___block_literal_global.12
+- GCC_except_table19
+- GCC_except_table21
+- GCC_except_table23
+- GCC_except_table25
+- GCC_except_table31
+- GCC_except_table34
+- GCC_except_table35
+- GCC_except_table40
+- GCC_except_table41
+- GCC_except_table6
+- GCC_except_table8
+- __ZN12capabilities3ipc25controlDataPrintSizeBytesEv
+- __ZN12capabilities5radio9mavLegacyEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__110__list_impINS_10shared_ptrIN10mav_router6device4shimEEENS_9allocatorIS5_EEED2Ev
+- __ZNSt3__110shared_ptrI12mav_router_tED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN10mav_router6device10controllerEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN10mav_router6device4shimEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN10mav_router6device8pci_shimEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN10mav_router6device9null_shimEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN10mav_router7service22transport_shim_privateEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrI12mav_router_tNS_14default_deleteIS1_EEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE20mav_router_channel_tEEPvEENS_22__tree_node_destructorINS6_ISC_EEEEED1B8ne190102Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__120__throw_bad_weak_ptrB8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__13mapIj21PCITransportInterfaceNS_4lessIjEENS_9allocatorINS_4pairIKjS1_EEEEEC2B8ne190102ESt16initializer_listIS7_ERKS3_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+CStrings:
+- ":  "
+
+```

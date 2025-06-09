@@ -1,0 +1,73 @@
+## libMTLCompilerHelper.dylib
+
+> `/System/Library/PrivateFrameworks/MTLCompiler.framework/libMTLCompilerHelper.dylib`
+
+```diff
+
+-368.12.0.0.0
+-  __TEXT.__text: 0x1574
+-  __TEXT.__auth_stubs: 0x1d0
+-  __TEXT.__gcc_except_tab: 0xe0
++370.50.4.0.0
++  __TEXT.__text: 0x14f8
++  __TEXT.__auth_stubs: 0x1c0
++  __TEXT.__gcc_except_tab: 0xdc
+   __TEXT.__cstring: 0x28
+   __TEXT.__const: 0x73
+-  __TEXT.__unwind_info: 0x128
++  __TEXT.__unwind_info: 0x118
+   __DATA_CONST.__got: 0x30
+-  __AUTH_CONST.__auth_got: 0xf0
++  __AUTH_CONST.__auth_got: 0xe8
+   __AUTH_CONST.__const: 0xa8
+   __DATA.__data: 0x10
+   - /usr/lib/libLLVM.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 6EE51F3D-5F65-39AB-8BF5-E4B172080B3D
+-  Functions: 39
+-  Symbols:   137
++  UUID: 7B491CE7-1F6B-33D4-B7A3-C26D9DABA453
++  Functions: 38
++  Symbols:   134
+   CStrings:  3
+ 
+Symbols:
++ GCC_except_table14
++ GCC_except_table15
++ GCC_except_table23
++ __ZNK4llvm9StringRef3strEv
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__110__function12__value_funcIFvRN4llvm6ModuleERKNS2_9StringSetINS2_15MallocAllocatorEEEEED2B8ne200100Ev
++ __ZNSt3__110unique_ptrIN4llvm6ModuleENS_14default_deleteIS2_EEED1B8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN4llvm6ModuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- GCC_except_table12
+- GCC_except_table13
+- GCC_except_table22
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN4llvm6ModuleENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__110__function12__value_funcIFvRN4llvm6ModuleERKNS2_9StringSetINS2_15MallocAllocatorEEEEED2B8ne190102Ev
+- __ZNSt3__110unique_ptrIN4llvm6ModuleENS_14default_deleteIS2_EEE5resetB8ne190102EPS2_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102EPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN4llvm6ModuleEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8ne190102Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+
+```

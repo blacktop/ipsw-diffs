@@ -1,0 +1,392 @@
+## CMCaptureCore
+
+> `/System/Library/PrivateFrameworks/CMCaptureCore.framework/CMCaptureCore`
+
+```diff
+
+-587.122.6.0.2
+-  __TEXT.__text: 0x1dc4
+-  __TEXT.__auth_stubs: 0xc0
+-  __TEXT.__cstring: 0xbf4b
++650.0.0.122.4
++  __TEXT.__text: 0x1d5c
++  __TEXT.__auth_stubs: 0xb0
++  __TEXT.__cstring: 0xcabd
+   __TEXT.__const: 0x1f
+   __TEXT.__oslogstring: 0xa6
+   __TEXT.__unwind_info: 0x78
+   __TEXT.__objc_methname: 0x3c
+   __TEXT.__objc_stubs: 0x40
+-  __DATA_CONST.__got: 0x2f0
+-  __DATA_CONST.__const: 0x4ad0
++  __DATA_CONST.__got: 0x2e0
++  __DATA_CONST.__const: 0x4f90
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x68
+-  __AUTH_CONST.__cfstring: 0x115a0
++  __AUTH_CONST.__auth_got: 0x60
++  __AUTH_CONST.__cfstring: 0x126c0
+   __DATA.__data: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: C0FD52C3-FF0D-3EE8-8AE2-D57A8A2A3A86
++  UUID: 841B116B-52C8-3B61-A191-AB4A2B57FCD0
+   Functions: 8
+-  Symbols:   2517
+-  CStrings:  4450
++  Symbols:   2666
++  CStrings:  4724
+ 
+Symbols:
++ _FigCaptureStreamStreamingFaceConfigurationKey_AssistMode
++ _FigCaptureStreamStreamingFaceConfigurationKey_EdgeDetectionEnabled
++ _FigCaptureStreamStreamingFaceConfigurationKey_FaceRequired
++ _kFigAppleMakerNote_LensSmudgeDetection
++ _kFigAppleMakerNote_PurpleHazeDetection
++ _kFigAppleMakerNote_PurpleHazeDetectionKey_PurpleHazeDetected
++ _kFigAppleMakerNote_PurpleHazeDetectionKey_PurpleHazePixelCount
++ _kFigAppleMakerNote_PurpleHazeDetectionKey_PurpleHazePurpleness
++ _kFigAppleMakerNote_PurpleHazeDetectionKey_PurpleHazeStrength
++ _kFigAppleMakerNote_StreamingTime
++ _kFigCaptureCameraInfoKey_HybridOCLRedBlueCrosstalkGrid
++ _kFigCaptureCameraInfoKey_IsQuadraSensor
++ _kFigCaptureCameraInfoKey_WhiteBalanceCalibrations
++ _kFigCaptureDeviceProperty_SupportedISPProcessingSessionTypes
++ _kFigCaptureSampleBufferAttachmentKey_CinematicFramingStereographicFisheyeFactor
++ _kFigCaptureSampleBufferAttachmentKey_OfflineLTMThumbnail
++ _kFigCaptureSampleBufferAttachmentKey_OfflineLTMThumbnailData
++ _kFigCaptureSampleBufferAttachmentKey_OfflineWeightSegmentMap
++ _kFigCaptureSampleBufferAttachmentKey_OfflineWeightSegmentMapData
++ _kFigCaptureSampleBufferAttachmentKey_PrimaryCaptureRectIsLandscape
++ _kFigCaptureSampleBufferMetadata_AverageLTM_HLGWithoutFaceBoost
++ _kFigCaptureSampleBufferMetadata_DetectedFacesArrayFilteredForCamGaze
++ _kFigCaptureSampleBufferMetadata_FlexRangeImageProperties
++ _kFigCaptureSampleBufferMetadata_GlobalLTMLookUpTable_HLGWithoutFaceBoost
++ _kFigCaptureSampleBufferMetadata_GlobalToneCurveLookUpTable_HLGWithoutFaceBoost
++ _kFigCaptureSampleBufferMetadata_LTMLookUpTables_HLGWithoutFaceBoost
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfo
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfoKey_ANSTConfidence
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfoKey_ANSTProbability
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfoKey_Confidence
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfoKey_Probability
++ _kFigCaptureSampleBufferMetadata_LensSmudgeDetectionInfoKey_Status
++ _kFigCaptureSampleBufferMetadata_PurpleHazeDetection
++ _kFigCaptureSampleBufferMetadata_PurpleHazeDetectionKey_PurpleHazeDetected
++ _kFigCaptureSampleBufferMetadata_PurpleHazeDetectionKey_PurpleHazePixelCount
++ _kFigCaptureSampleBufferMetadata_PurpleHazeDetectionKey_PurpleHazePurpleness
++ _kFigCaptureSampleBufferMetadata_PurpleHazeDetectionKey_PurpleHazeStrength
++ _kFigCaptureSampleBufferMetadata_SmartStyleRenderingBypassedOverride
++ _kFigCaptureSampleBufferMetadata_SmartStyleRenderingRequiredForSRL
++ _kFigCaptureSampleBufferMetadata_ZoomTransform
++ _kFigCaptureSampleBufferProcessorOption_SensorHeight
++ _kFigCaptureSampleBufferProcessorOption_SensorWidth
++ _kFigCaptureStreamDetectedObjectKey_MetadataReceived
++ _kFigCaptureStreamDetectedObjectsInfoKey_MDObjects
++ _kFigCaptureStreamLTMThumbnailConfigurationKey_PostLTMThumbnailEnabled
++ _kFigCaptureStreamLTMThumbnailConfigurationKey_PreLTMThumbnailEnabled
++ _kFigCaptureStreamLTMThumbnailKey_Format
++ _kFigCaptureStreamLTMThumbnailKey_PostLTMThumbnailSupported
++ _kFigCaptureStreamLandmarksKey_FaceContour
++ _kFigCaptureStreamLandmarksKey_FaceMedianLine
++ _kFigCaptureStreamLandmarksKey_InnerLips
++ _kFigCaptureStreamLandmarksKey_LeftEye
++ _kFigCaptureStreamLandmarksKey_LeftEyebrow
++ _kFigCaptureStreamLandmarksKey_LeftPupil
++ _kFigCaptureStreamLandmarksKey_Nose
++ _kFigCaptureStreamLandmarksKey_NoseCrest
++ _kFigCaptureStreamLandmarksKey_OuterLips
++ _kFigCaptureStreamLandmarksKey_RightEye
++ _kFigCaptureStreamLandmarksKey_RightEyebrow
++ _kFigCaptureStreamLandmarksKey_RightPupil
++ _kFigCaptureStreamMetadataOutputConfigurationKey_FaceConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_FaceEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_LTMThumbnailConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_LTMThumbnailEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_LuxLevelConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_LuxLevelEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_MetadataEnabled
++ _kFigCaptureStreamMetadataOutputConfigurationKey_WeightSegmentMapConfiguration
++ _kFigCaptureStreamMetadataOutputConfigurationKey_WeightSegmentMapEnabled
++ _kFigCaptureStreamMetadataOutputKey_FaceIndex
++ _kFigCaptureStreamMetadataOutputKey_LTMThumbnail
++ _kFigCaptureStreamMetadataOutputKey_LuxLevelEstimate
++ _kFigCaptureStreamMetadataOutputKey_SecureFrameMetadata
++ _kFigCaptureStreamMetadataOutputKey_WeightSegmentMap
++ _kFigCaptureStreamMetadata_AutoFocusConvergenceRequiresHigherFPSForPortType
++ _kFigCaptureStreamMetadata_BytesPerRow
++ _kFigCaptureStreamMetadata_ChromaticAbberrationReductionApplied
++ _kFigCaptureStreamMetadata_ColorCorrectionMatrixDesaturationStrength
++ _kFigCaptureStreamMetadata_ContentAwareAWBApplied
++ _kFigCaptureStreamMetadata_ContentAwareEnhancementApplied
++ _kFigCaptureStreamMetadata_Landmarks
++ _kFigCaptureStreamMetadata_NominalColorCorrectionMatrix
++ _kFigCaptureStreamMetadata_PostDemosaicGain
++ _kFigCaptureStreamMetadata_PreDemosaicGain
++ _kFigCaptureStreamMetadata_PurpleHazeFlareIntensity
++ _kFigCaptureStreamMetadata_PurpleHazeMitigationEnabled
++ _kFigCaptureStreamMetadata_SmudgeDetectionConfidence
++ _kFigCaptureStreamMetadata_SynchronizedStreamsAWBStatisticsPrimaryPortType
++ _kFigCaptureStreamMetadata_SynchronizedStreamsCameraControlsStatisticsPrimaryPortType
++ _kFigCaptureStreamMetadata_TemporalHomographyMatrix
++ _kFigCaptureStreamObjectDetectionConfigurationKey_HumanFaceLandmarksEnabled
++ _kFigCaptureStreamObjectDetectionConfigurationKey_MDEnabled
++ _kFigCaptureStreamPhotometerInfoKey_OcclusionConfidence
++ _kFigCaptureStreamPropertyValue_MeteringFusionFaceDetection
++ _kFigCaptureStreamProperty_CaptureConfiguration
++ _kFigCaptureStreamProperty_ExternalSyncFrameRateRational
++ _kFigCaptureStreamProperty_FrameRateRangeRational
++ _kFigCaptureStreamProperty_HostIndex
++ _kFigCaptureStreamProperty_HybridOCLRedBlueCrosstalkGrid
++ _kFigCaptureStreamProperty_MaximumFrameRateRational
++ _kFigCaptureStreamProperty_MinimumFrameRateRational
++ _kFigCaptureStreamProperty_ReceiverIndex
++ _kFigCaptureStreamProperty_SensorType
++ _kFigCaptureStreamProperty_SmudgeDetectionEnabled
++ _kFigCaptureStreamProperty_StyleEngineCoefficientsBufferPoolRequirements
++ _kFigCaptureStreamProperty_StyleEngineConfigurations
++ _kFigCaptureStreamSphereControllerHealthKey_MaxStroke
++ _kFigCaptureStreamSphereMode_Pano
++ _kFigCaptureStreamStreamingFaceCaptureKey_CaptureIndex
++ _kFigCaptureStreamStreamingFaceCaptureKey_InputValue
++ _kFigCaptureStreamStreamingFaceCaptureKey_Nonce
++ _kFigCaptureStreamStreamingFaceCaptureKey_UniqueID
++ _kFigCaptureStreamStreamingFaceConfigurationKey_ColorCapture
++ _kFigCaptureStreamStreamingFaceConfigurationKey_DoubleOrder
++ _kFigCaptureStreamStreamingFaceConfigurationKey_InfraredCapture
++ _kFigCaptureStreamStreamingFaceConfigurationKey_LogEnabled
++ _kFigCaptureStreamStreamingFaceConfigurationKey_Mode
++ _kFigCaptureStreamStreamingFaceConfigurationKey_NumberOfDoubles
++ _kFigCaptureStreamStreamingFaceConfigurationKey_ProbePatternIndex
++ _kFigCaptureStreamStreamingFaceConfigurationKey_ProbePatternType
++ _kFigCaptureStreamStreamingFaceKey_ContextIndex
++ _kFigCaptureStreamStreamingFaceKey_FaceRotation
++ _kFigCaptureStreamStreamingFaceKey_Found
++ _kFigCaptureStreamStreamingFaceKey_FrameIdentifier
++ _kFigCaptureStreamStreamingFaceKey_FrameType
++ _kFigCaptureStreamStreamingFaceKey_MetadataIdentifier
++ _kFigCaptureStreamStreamingFaceKey_Mode
++ _kFigCaptureStreamStreamingFaceKey_ReferenceFrameIdentifier
++ _kFigCaptureStreamStreamingFaceKey_Status
++ _kFigCaptureStreamStreamingLightEstimationConfigurationKey_AmbientLuminance
++ _kFigCaptureStreamStyleEngineConfigurationKey_Coefficients
++ _kFigCaptureStreamStyleEngineConfigurationKey_Parameters
++ _kFigCaptureStreamTimeMachineSuspendNowKey_AutoResume
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_DropEventCount
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_DropMaxAccel
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_DropMinAccel
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_DropStatus
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_PowerOnEventCount
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_TrainingFDRDelta
++ _kFigCaptureStreamTimeOfFlightAssistedAutoFocusEstimatorResultsKey_TrainingPersistentDelta
++ _kFigCaptureStreamVideoOutputID_SecureSurfaces
++ _kFigCaptureStreamVideoOutputKey_MaxOutputDimensions
++ _kFigCaptureStreamVideoScalerOutputConfigurationKey_StyleEngineEnabled
++ _kFigCaptureStreamVideoScalerOutputKey_StyleEngineSupported
++ _kFigCaptureStreamWeightSegmentMapConfigurationKey_NumberOfSegments
++ _kFigCaptureStreamWeightSegmentMapConfigurationKey_SmoothingSigma
++ _kFigCaptureStreamWeightSegmentMapKey_Format
++ _kFigCaptureSynchronizedStreamsGroupProperty_StyleEngineCoefficientsBufferPoolRequirements
++ _kFigCaptureSynchronizedStreamsGroupProperty_StyleEngineConfigurations
++ _kFigCaptureVideoStabilizationMetadata_CameraMotionData
++ _kFigCaptureVideoStabilizationSmartStyleConfigurationDictKey_ForwardApplyStyleUseCase
++ _kFigCaptureVideoStabilizationSmartStyleConfigurationDictKey_ReversibilityStyleUseCase
++ _kFigDepthPrivateMetadataAttachmentKey_StereoRectificationInverseHomography
++ _kFigMetadataIdentifier_QuickTimeMetadataSpatialAudioMix
++ _kFigQuicktimeMetadataKey_CinematicVideoIntent
++ _kFigQuicktimeMetadataKey_GreenGhostDetected
++ _kFigVideoStabilizationSampleBufferProcessorMetadata_GreenGhostFlagFrameStatus
++ _kFigVideoStabilizationSampleBufferProcessorMetadata_GreenGhostFlagMovieDetected
++ _kFigVideoStabilizationSampleBufferProcessorMetadata_StabilizedOpticalCenter
++ _kFigVideoStabilizationSampleBufferProcessorOption_SmartStyleConfigurationDict
++ _kLensShadingCorrectionGainMapParametersKey_CropOriginX
++ _kLensShadingCorrectionGainMapParametersKey_CropOriginY
++ _kLensShadingCorrectionGainMapParametersKey_GridIntervalReciprocalX
++ _kLensShadingCorrectionGainMapParametersKey_GridIntervalReciprocalY
++ _kLensShadingCorrectionGainMapParametersKey_SensorDimensionHeight
++ _kLensShadingCorrectionGainMapParametersKey_SensorDimensionWidth
+- ___stack_chk_fail
+- ___stack_chk_guard
+- _kCGImagePropertyDNGVersion
+- _kFigAppleMakerNote_QRMOutputType
+- _kFigCaptureAggdKey_QRMOutputType
+- _kFigCaptureSampleBufferAttachmentKey_MetalTextures
+- _kFigCaptureSampleBufferAttachmentKey_RegistrationHomography
+- _kFigCaptureSampleBufferAttachmentKey_VisualIntelligence
+- _kFigCaptureSampleBufferAttachmentKey_VisualIntelligenceObjectDetectionCachedResult
+- _kFigCaptureSampleBufferAttachmentKey_VisualIntelligenceObjectDetectionUprightExifOrientation
+- _kFigCaptureStreamDetectedObjectKey_SentToPerceptionThumbnailChannel
+- _kFigMetadataIdentifier_QuickTimeMetadataVisualIntelligence
+- _kFigQuadraRemosaicSampleBufferAttachmentKey_QRMOutputType
+- _kFigQuadraRemosaicSampleBufferProcessorProperty_OutputType
+- _kFigQuadraRemosaicSampleBufferProcessorProperty_PaddingBottom
+- _kFigQuadraRemosaicSampleBufferProcessorProperty_PaddingTop
+- _kFigQuadraRemosaicSampleBufferProcessorProperty_QHDRSensorDefectivePixelInfo
+Functions:
+~ _FigCaptureCopySerializableKeys : 6528 -> 6468
+~ _FigStartCaptureServers : 516 -> 472
+CStrings:
++ "94"
++ "95"
++ "96"
++ "ANSTLensSmudgeConfidence"
++ "ANSTLensSmudgeProbability"
++ "AmbientLuminance"
++ "AutoFocusConvergenceRequiresHigherFPSForPortType"
++ "AutoResume"
++ "AverageLTM_HLGWithoutFaceBoost"
++ "CameraMotionData"
++ "ChromaticAbberrationReductionApplied"
++ "CinematicFramingStereographicFisheyeFactor"
++ "Coefficients"
++ "ColorCameraAssistMode"
++ "ColorCapture"
++ "ColorCorrectionMatrixDesaturationStrength"
++ "ContentAwareAWBApplied"
++ "ContentAwareEnhancementApplied"
++ "ContextIndex"
++ "CropOriginX"
++ "CropOriginY"
++ "DetectedFacesArrayFilteredForCamGaze"
++ "DoubleOrder"
++ "DropEventCount"
++ "DropMaxAccel"
++ "DropMinAccel"
++ "DropStatus"
++ "EdgeDetectionEnabled"
++ "ExternalSyncFrameRateRational"
++ "FaceCapture"
++ "FaceConfiguration"
++ "FaceContour"
++ "FaceMediaLine"
++ "FaceMetadataEnabled"
++ "FaceRequired"
++ "FlexRangeImageProperties"
++ "ForwardApplyStyleUseCase"
++ "FrameLogEnabled"
++ "FrameMetadataEnabled"
++ "FrameRateRangeRational"
++ "FrameType"
++ "GlobalLTMLookUpTable_HLGWithoutFaceBoost"
++ "GlobalToneCurveLookUpTable_HLGWithoutFaceBoost"
++ "GreenGhostFlagFrameStatus"
++ "GreenGhostFlagMovieDetected"
++ "GridIntervalReciprocalX"
++ "GridIntervalReciprocalY"
++ "HostIndex"
++ "HumanFaceLandmarksEnabled"
++ "HybridOCLRedBlueCrosstalkGrid"
++ "InfraredCapture"
++ "InnerLips"
++ "InputValue"
++ "IsQuadraSensor"
++ "KeyIndex"
++ "LTMLookUpTables_HLGWithoutFaceBoost"
++ "LTMThumbnailConfiguration"
++ "LTMThumbnailEnabled"
++ "LTMThumbnailFormat"
++ "Landmarks"
++ "LeftEye"
++ "LeftEyebrow"
++ "LeftPupil"
++ "LensSmudgeConfidence"
++ "LensSmudgeDetectionInfo"
++ "LensSmudgeDetectionStatus"
++ "LensSmudgeProbability"
++ "LuxLevelConfiguration"
++ "LuxLevelEnabled"
++ "LuxLevelEstimate"
++ "MDEnabled"
++ "MDObjects"
++ "MaxOutputDimensions"
++ "MaxStroke"
++ "MaximumFrameRateRational"
++ "MetadataReceived"
++ "MeteringFusionFaceDetection"
++ "MinimumFrameRateRational"
++ "NominalColorCorrectionMatrix"
++ "Nonce"
++ "Nose"
++ "NoseCrest"
++ "NumberOfDoubles"
++ "OcclusionConfidence"
++ "OfflineLTMThumbnail"
++ "OfflineLTMThumbnailData"
++ "OfflineWeightSegmentMap"
++ "OfflineWeightSegmentMapData"
++ "OuterLips"
++ "Pano"
++ "Parameters"
++ "PostDemosaicGain"
++ "PostLTMThumbnailEnabled"
++ "PostLTMThumbnailSupported"
++ "PowerOnEventCount"
++ "PreDemosaicGain"
++ "PrimaryCaptureRectIsLandscape"
++ "ProbePatternIndex"
++ "ProbePatternType"
++ "PurpleHazeDetected"
++ "PurpleHazeDetection"
++ "PurpleHazeFlareIntensity"
++ "PurpleHazeMitigationEnabled"
++ "PurpleHazePixelCount"
++ "PurpleHazePurpleness"
++ "PurpleHazeStrength"
++ "RawFrameIdentifier"
++ "RawMetadataIdentifier"
++ "ReceiverIndex"
++ "ReferenceFrameIdentifier"
++ "ReversibilityStyleUseCase"
++ "RightEye"
++ "RightEyebrow"
++ "RightPupil"
++ "SecureFrameMetadata"
++ "SecureSurfaces"
++ "SensorDimensionHeight"
++ "SensorDimensionWidth"
++ "SensorType"
++ "SmartStyleConfigurationDict"
++ "SmartStyleRenderingBypassedOverride"
++ "SmartStyleRenderingRequiredForSRL"
++ "SmudgeDetectionConfidence"
++ "SmudgeDetectionEnabled"
++ "StabilizedOpticalCenter"
++ "StereoRectificationInverseHomography"
++ "StyleEngineCoefficientsBufferPoolRequirements"
++ "StyleEngineConfigurations"
++ "StyleEngineSupported"
++ "SupportedISPProcessionSessionTypes"
++ "SynchronizedStreamsAWBStatisticsPrimaryPortType"
++ "SynchronizedStreamsCameraControlsStatisticsPrimaryPortType"
++ "TemporalHomographyMatrix"
++ "TrainingFDRDelta"
++ "TrainingPersistentDelta"
++ "UniqueID"
++ "VideoScaler_StyleEngineEnabled"
++ "WeightSegmentMap"
++ "WeightSegmentMapConfiguration"
++ "WeightSegmentMapEnabled"
++ "WeightSegmentMapFormat"
++ "WeightSegmentMapNumberOfSegments"
++ "WeightSegmentMapSmoothingSigma"
++ "ZoomTransform"
++ "com.apple.quicktime.cinematic-video-intent"
++ "com.apple.quicktime.metadata.1"
++ "description=CameraCapture_CMCore-650.0.0.122.4"
++ "mdta/com.apple.quicktime.cinematic-audio"
+- "18"
+- "MetalTextures"
+- "ObjectDetectionCachedResult"
+- "ObjectDetectionUprightExifOrientation"
+- "PaddingBottom"
+- "PaddingTop"
+- "QRMOutputType"
+- "SentToPerceptionThumbnailChannel"
+- "VisualIntelligence"
+- "description=CameraCapture_CMCore-587.122.6.0.2"
+- "mdta/com.apple.quicktime.visual-intelligence"
+
+```

@@ -1,0 +1,1668 @@
+## NewsUI2
+
+> `/System/Library/PrivateFrameworks/NewsUI2.framework/NewsUI2`
+
+```diff
+
+-5681.0.0.0.0
+-  __TEXT.__text: 0x13e28d4
+-  __TEXT.__auth_stubs: 0x1d070
+-  __TEXT.__objc_methlist: 0xd4a4
+-  __TEXT.__const: 0xccdd4
+-  __TEXT.__cstring: 0x79236
+-  __TEXT.__constg_swiftt: 0x40914
+-  __TEXT.__swift5_typeref: 0x2db00
+-  __TEXT.__swift5_builtin: 0xe88
+-  __TEXT.__swift5_reflstr: 0x3f004
+-  __TEXT.__swift5_fieldmd: 0x40e00
+-  __TEXT.__swift5_assocty: 0x7288
+-  __TEXT.__swift5_proto: 0xa660
+-  __TEXT.__swift5_types: 0x4520
+-  __TEXT.__oslogstring: 0x137a2
+-  __TEXT.__swift5_capture: 0x15854
+-  __TEXT.__swift5_mpenum: 0x758
+-  __TEXT.__swift5_protos: 0xf1c
+-  __TEXT.__swift_as_entry: 0x940
+-  __TEXT.__swift_as_ret: 0x9f4
+-  __TEXT.__unwind_info: 0x3b2d0
+-  __TEXT.__eh_frame: 0x52a80
+-  __TEXT.__objc_classname: 0xf83
+-  __TEXT.__objc_methname: 0x1c0cc
+-  __TEXT.__objc_methtype: 0x6943
++5718.1.0.0.0
++  __TEXT.__text: 0x14ede14
++  __TEXT.__auth_stubs: 0x1db90
++  __TEXT.__objc_methlist: 0xd6dc
++  __TEXT.__const: 0xcf404
++  __TEXT.__cstring: 0x798a6
++  __TEXT.__constg_swiftt: 0x407ec
++  __TEXT.__swift5_typeref: 0x2d89e
++  __TEXT.__swift5_builtin: 0xec4
++  __TEXT.__swift5_reflstr: 0x40274
++  __TEXT.__swift5_fieldmd: 0x419b0
++  __TEXT.__swift5_assocty: 0x6fe8
++  __TEXT.__swift5_proto: 0xa64c
++  __TEXT.__swift5_types: 0x4540
++  __TEXT.__oslogstring: 0x1360b
++  __TEXT.__swift5_capture: 0x18f30
++  __TEXT.__swift5_mpenum: 0x794
++  __TEXT.__swift5_protos: 0xf10
++  __TEXT.__swift_as_entry: 0xa40
++  __TEXT.__swift_as_ret: 0xad8
++  __TEXT.__unwind_info: 0x390a0
++  __TEXT.__eh_frame: 0x51390
++  __TEXT.__objc_classname: 0xfaf
++  __TEXT.__objc_methname: 0x1c554
++  __TEXT.__objc_methtype: 0x6b5f
+   __TEXT.__objc_stubs: 0x240
+-  __DATA_CONST.__got: 0xaa88
+-  __DATA_CONST.__const: 0x1548
+-  __DATA_CONST.__objc_classlist: 0x3320
++  __DATA_CONST.__got: 0xaee8
++  __DATA_CONST.__const: 0x1738
++  __DATA_CONST.__objc_classlist: 0x3340
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_catlist2: 0x38
+-  __DATA_CONST.__objc_protolist: 0xb80
++  __DATA_CONST.__objc_protolist: 0xb98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7b18
+-  __DATA_CONST.__objc_protorefs: 0x660
+-  __AUTH_CONST.__auth_got: 0xe840
+-  __AUTH_CONST.__const: 0x7c018
++  __DATA_CONST.__objc_selrefs: 0x7c48
++  __DATA_CONST.__objc_protorefs: 0x668
++  __AUTH_CONST.__auth_got: 0xedd0
++  __AUTH_CONST.__const: 0x81b10
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0x72cc8
+-  __AUTH.__objc_data: 0x98d0
+-  __AUTH.__data: 0x1d8b8
+-  __DATA.__data: 0x1f8f8
+-  __DATA.__objc_stublist: 0x80
+-  __DATA.__bss: 0xb8940
+-  __DATA.__common: 0xf60
+-  __DATA_DIRTY.__objc_data: 0xb420
+-  __DATA_DIRTY.__data: 0x5e868
+-  __DATA_DIRTY.__bss: 0x71980
+-  __DATA_DIRTY.__common: 0x10f0
++  __AUTH_CONST.__objc_const: 0x73cb0
++  __AUTH.__objc_data: 0x99b0
++  __AUTH.__data: 0x1ccc8
++  __DATA.__data: 0x1d3a0
++  __DATA.__objc_stublist: 0x78
++  __DATA.__bss: 0xb4150
++  __DATA.__common: 0xdd8
++  __DATA_DIRTY.__objc_data: 0xb4f0
++  __DATA_DIRTY.__data: 0x60108
++  __DATA_DIRTY.__bss: 0x76100
++  __DATA_DIRTY.__common: 0x1200
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+-  - /System/Library/Frameworks/CoreText.framework/CoreText
+-  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+   - /System/Library/Frameworks/MultipeerConnectivity.framework/MultipeerConnectivity
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+
+   - /System/Library/Frameworks/StoreKit.framework/StoreKit
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/TipKit.framework/TipKit
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WeatherKit.framework/WeatherKit
+   - /System/Library/Frameworks/WebKit.framework/WebKit
+   - /System/Library/Frameworks/WidgetKit.framework/WidgetKit
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+
+   - /System/Library/PrivateFrameworks/CookingKit.framework/CookingKit
+   - /System/Library/PrivateFrameworks/CookingSupport.framework/CookingSupport
+   - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
++  - /System/Library/PrivateFrameworks/CoreSuggestionsUI.framework/CoreSuggestionsUI
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/LimitAdTracking.framework/LimitAdTracking
+   - /System/Library/PrivateFrameworks/NewsAds.framework/NewsAds
+
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+   - /System/Library/PrivateFrameworks/UIAccessibility.framework/UIAccessibility
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+-  - /System/Library/PrivateFrameworks/WatchListKit.framework/WatchListKit
+   - /System/Library/PrivateFrameworks/WeatherCore.framework/WeatherCore
+   - /System/Library/PrivateFrameworks/WeatherUI.framework/WeatherUI
+   - /System/Library/PrivateFrameworks/XavierNews.framework/XavierNews
+
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCarPlay.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 56F8E4DE-4252-34D2-A0CD-82F21040436D
+-  Functions: 78084
+-  Symbols:   28467
+-  CStrings:  15863
++  UUID: 068662C7-2AC4-3B0C-B25B-3FEE5D24BB3B
++  Functions: 78540
++  Symbols:   28641
++  CStrings:  15921
+ 
+Symbols:
++ _FCDiagnosticsLog
++ _OBJC_CLASS_$_FCPuzzleLeaderboard
++ _OBJC_CLASS_$_FCPuzzleTypeLeaderboard
++ _OBJC_CLASS_$_FCPuzzlesGameCenterActivity
++ _OBJC_CLASS_$_FCRecipeItem
++ _OBJC_CLASS_$_LPLinkMetadata
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_SGBannerView
++ _OBJC_CLASS_$_SGSuggestionAction
++ _OBJC_CLASS_$_SWLayoutGuide
++ _OBJC_CLASS_$_UIDeferredMenuElement
++ _OBJC_CLASS_$_UIDragItem
++ _OBJC_CLASS_$__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ _OBJC_CLASS_$__TtC7NewsUI231WebEmbedShareActivityItemSource
++ _OBJC_CLASS_$__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ _OBJC_METACLASS_$__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ _OBJC_METACLASS_$__TtC7NewsUI231WebEmbedShareActivityItemSource
++ _OBJC_METACLASS_$__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ _UIContentSizeCategoryExtraSmall
++ _UIContentSizeCategoryMedium
++ _UIContentSizeCategorySmall
++ _UIContentSizeCategoryUnspecified
++ _UIKeyInputLeftArrow
++ _UIKeyInputRightArrow
++ __DATA__TtC7NewsUI222WebEmbedFailureTracker
++ __DATA__TtC7NewsUI223RecipeViewerCoordinator
++ __DATA__TtC7NewsUI225TagFeedViewerModernStyler
++ __DATA__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ __DATA__TtC7NewsUI229MastheadAdSponsorshipProvider
++ __DATA__TtC7NewsUI230OfflineStatusBannerCoordinator
++ __DATA__TtC7NewsUI231LegacyOfflineStatusBannerStyler
++ __DATA__TtC7NewsUI231RecipeBoxFeedOfflineFeedBuilder
++ __DATA__TtC7NewsUI231WebEmbedShareActivityItemSource
++ __DATA__TtC7NewsUI233PuzzleGameCenterActivitiesHandler
++ __DATA__TtC7NewsUI235MagazineTodayFeedGroupEmitterCursor
++ __DATA__TtC7NewsUI237TopicRecipesTagFeedGroupEmitterCursor
++ __DATA__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ __DATA__TtC7NewsUI241ModernMastheadViewLayoutAttributesFactory
++ __DATA__TtC7NewsUI2P33_7BBD82387C41A8B9A4DECD16296F2C3317FoodRecipeFetcher
++ __INSTANCE_METHODS__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ __INSTANCE_METHODS__TtC7NewsUI230OfflineStatusBannerCoordinator
++ __INSTANCE_METHODS__TtC7NewsUI231WebEmbedShareActivityItemSource
++ __INSTANCE_METHODS__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ __IVARS__TtC7NewsUI222DiagnosticFileProvider
++ __IVARS__TtC7NewsUI222WebEmbedFailureTracker
++ __IVARS__TtC7NewsUI223RecipeViewerCoordinator
++ __IVARS__TtC7NewsUI225TagFeedViewerModernStyler
++ __IVARS__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ __IVARS__TtC7NewsUI229MastheadAdSponsorshipProvider
++ __IVARS__TtC7NewsUI230OfflineStatusBannerCoordinator
++ __IVARS__TtC7NewsUI231LegacyOfflineStatusBannerStyler
++ __IVARS__TtC7NewsUI231RecipeBoxFeedOfflineFeedBuilder
++ __IVARS__TtC7NewsUI231WebEmbedShareActivityItemSource
++ __IVARS__TtC7NewsUI233PuzzleGameCenterActivitiesHandler
++ __IVARS__TtC7NewsUI235MagazineTodayFeedGroupEmitterCursor
++ __IVARS__TtC7NewsUI237TopicRecipesTagFeedGroupEmitterCursor
++ __IVARS__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ __IVARS__TtC7NewsUI241ModernMastheadViewLayoutAttributesFactory
++ __IVARS__TtC7NewsUI2P33_7BBD82387C41A8B9A4DECD16296F2C3317FoodRecipeFetcher
++ __METACLASS_DATA__TtC7NewsUI222WebEmbedFailureTracker
++ __METACLASS_DATA__TtC7NewsUI223RecipeViewerCoordinator
++ __METACLASS_DATA__TtC7NewsUI225TagFeedViewerModernStyler
++ __METACLASS_DATA__TtC7NewsUI229FeedPuzzleScoreCommandHandler
++ __METACLASS_DATA__TtC7NewsUI229MastheadAdSponsorshipProvider
++ __METACLASS_DATA__TtC7NewsUI230OfflineStatusBannerCoordinator
++ __METACLASS_DATA__TtC7NewsUI231LegacyOfflineStatusBannerStyler
++ __METACLASS_DATA__TtC7NewsUI231RecipeBoxFeedOfflineFeedBuilder
++ __METACLASS_DATA__TtC7NewsUI231WebEmbedShareActivityItemSource
++ __METACLASS_DATA__TtC7NewsUI233PuzzleGameCenterActivitiesHandler
++ __METACLASS_DATA__TtC7NewsUI235MagazineTodayFeedGroupEmitterCursor
++ __METACLASS_DATA__TtC7NewsUI237TopicRecipesTagFeedGroupEmitterCursor
++ __METACLASS_DATA__TtC7NewsUI239LegacyOfflineStatusBannerViewController
++ __METACLASS_DATA__TtC7NewsUI241ModernMastheadViewLayoutAttributesFactory
++ __METACLASS_DATA__TtC7NewsUI2P33_7BBD82387C41A8B9A4DECD16296F2C3317FoodRecipeFetcher
++ __OBJC_$_PROP_LIST_FCRecipeScorable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCRecipeAutofavoritesProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCRecipeScorable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFeedConfigurationFactory
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FCRecipeAutofavoritesProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FCRecipeScorable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SWFeedConfigurationFactory
++ __OBJC_$_PROTOCOL_REFS_FCRecipeAutofavoritesProviding
++ __OBJC_$_PROTOCOL_REFS_FCRecipeScorable
++ __OBJC_$_PROTOCOL_REFS_SWFeedConfigurationFactory
++ __OBJC_LABEL_PROTOCOL_$_FCRecipeAutofavoritesProviding
++ __OBJC_LABEL_PROTOCOL_$_FCRecipeScorable
++ __OBJC_LABEL_PROTOCOL_$_SWFeedConfigurationFactory
++ __OBJC_PROTOCOL_$_FCRecipeAutofavoritesProviding
++ __OBJC_PROTOCOL_$_FCRecipeScorable
++ __OBJC_PROTOCOL_$_SWFeedConfigurationFactory
++ __PROTOCOLS__TtC7NewsUI231WebEmbedShareActivityItemSource
++ __PROTOCOLS__TtC7NewsUI231WebEmbedShareActivityItemSource.2
++ ___swift_memcpy416_8
++ ___swift_memcpy91_8
++ ___unnamed_2
++ ___unnamed_26
++ ___unnamed_3
++ ___unnamed_35
++ ___unnamed_4
++ ___unnamed_5
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_NewsUI2
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_NewsUI2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_NewsUI2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_NewsUI2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_NewsUI2
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V10CodingKeys33_0D15814B15DA9E0EFE089273F4E97097LLOSHAASQ
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V10CodingKeys33_0D15814B15DA9E0EFE089273F4E97097LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V10CodingKeys33_0D15814B15DA9E0EFE089273F4E97097LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V5TeaDB0E10EntityTypeAaD04BaseJ0
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V5TeaDB8BaseTypeAASE
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V5TeaDB8BaseTypeAASe
++ _associated conformance 7NewsUI222RecipeBoxSearchEntity2V5TeaDB8BaseTypeAaD09ConstructJ0
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV0aF00F9GroupableAA13TeaFoundation12Identifiable
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV0aF00F9GroupableAASQ
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV0aF00F9GroupableAaD0fG10Debuggable
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV10CodingKeys33_ACB42A7172106F1FAD32B9727EF5C3C4LLOSHAASQ
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV10CodingKeys33_ACB42A7172106F1FAD32B9727EF5C3C4LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI224TopicRecipesTagFeedGroupV10CodingKeys33_ACB42A7172106F1FAD32B9727EF5C3C4LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7NewsUI225MastheadViewLayoutVariantOSHAASQ
++ _associated conformance 7NewsUI227AudioPlaybackCommandHandlerC5TeaUI05StateeF4TypeAA0e7ContextI0AdEP_AD0eiJ0
++ _associated conformance 7NewsUI228RecipeFilterItemCommandStateOSHAASQ
++ _associated conformance 7NewsUI229FeedPuzzleScoreCommandHandlerC5TeaUI05StatefG4TypeAA0f7ContextJ0AdEP_AD0fjK0
++ _associated conformance 7NewsUI229TopicRecipesTagFeedGroupKnobsV10CodingKeys33_C1B2DEC821F64706AA21883CAE3BAD5FLLOSHAASQ
++ _associated conformance 7NewsUI229TopicRecipesTagFeedGroupKnobsV10CodingKeys33_C1B2DEC821F64706AA21883CAE3BAD5FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI229TopicRecipesTagFeedGroupKnobsV10CodingKeys33_C1B2DEC821F64706AA21883CAE3BAD5FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7NewsUI230OpenRecipeFilterCommandHandlerC5TeaUI05StatefG4TypeAA0f7ContextJ0AdEP_AD0fjK0
++ _associated conformance 7NewsUI231TopicRecipesTagFeedGroupEmitterV0aF004BasefgH4TypeAA0F13ServiceConfigAdEP_AD0fklJ0
++ _associated conformance 7NewsUI231TopicRecipesTagFeedGroupEmitterV0aF004BasefgH4TypeAA13TeaFoundation12Identifiable
++ _associated conformance 7NewsUI231TopicRecipesTagFeedGroupEmitterV0aF004BasefgH4TypeAA13TeaFoundation16ShortDescribable
++ _associated conformance 7NewsUI231TopicRecipesTagFeedGroupEmitterV0aF006ModernfgH4TypeAaD04BasefghJ0
++ _associated conformance 7NewsUI231TopicRecipesTagFeedGroupEmitterV13TeaFoundation16ShortDescribableAAs23CustomStringConvertible
++ _associated conformance 7NewsUI234FoodTodayFeedGroupTopicRecipeKnobsV10CodingKeys33_B25937A5AC1DE16889ADFF79A82A444ELLOSHAASQ
++ _associated conformance 7NewsUI234FoodTodayFeedGroupTopicRecipeKnobsV10CodingKeys33_B25937A5AC1DE16889ADFF79A82A444ELLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI234FoodTodayFeedGroupTopicRecipeKnobsV10CodingKeys33_B25937A5AC1DE16889ADFF79A82A444ELLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7NewsUI234SponsoredBannerTagFeedGroupEmitterC0aF006ModernfgH4TypeAaD04BasefghJ0
++ _associated conformance 7NewsUI234TopicRecipesTagFeedGroupConfigDataV10CodingKeys33_3DFFB6DFF48932DB1F8CE6618363DEF5LLOSHAASQ
++ _associated conformance 7NewsUI234TopicRecipesTagFeedGroupConfigDataV10CodingKeys33_3DFFB6DFF48932DB1F8CE6618363DEF5LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI234TopicRecipesTagFeedGroupConfigDataV10CodingKeys33_3DFFB6DFF48932DB1F8CE6618363DEF5LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 7NewsUI236FoodTodayFeedGroupChannelRecipeKnobsV10CodingKeys33_7C76DB2A79174B8EB17EC9FC4F893316LLOSHAASQ
++ _associated conformance 7NewsUI236FoodTodayFeedGroupChannelRecipeKnobsV10CodingKeys33_7C76DB2A79174B8EB17EC9FC4F893316LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 7NewsUI236FoodTodayFeedGroupChannelRecipeKnobsV10CodingKeys33_7C76DB2A79174B8EB17EC9FC4F893316LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.101
++ _block_copy_helper.105
++ _block_copy_helper.110
++ _block_copy_helper.119
++ _block_copy_helper.120
++ _block_copy_helper.123
++ _block_copy_helper.126
++ _block_copy_helper.133
++ _block_copy_helper.142
++ _block_copy_helper.153
++ _block_copy_helper.155
++ _block_copy_helper.56
++ _block_copy_helper.67
++ _block_copy_helper.83
++ _block_copy_helper.87
++ _block_copy_helper.94
++ _block_copy_helper.97
++ _block_descriptor.103
++ _block_descriptor.107
++ _block_descriptor.112
++ _block_descriptor.121
++ _block_descriptor.122
++ _block_descriptor.125
++ _block_descriptor.128
++ _block_descriptor.135
++ _block_descriptor.144
++ _block_descriptor.155
++ _block_descriptor.157
++ _block_descriptor.58
++ _block_descriptor.69
++ _block_descriptor.85
++ _block_descriptor.89
++ _block_descriptor.96
++ _block_descriptor.99
++ _block_destroy_helper.102
++ _block_destroy_helper.106
++ _block_destroy_helper.111
++ _block_destroy_helper.120
++ _block_destroy_helper.121
++ _block_destroy_helper.124
++ _block_destroy_helper.127
++ _block_destroy_helper.134
++ _block_destroy_helper.143
++ _block_destroy_helper.154
++ _block_destroy_helper.156
++ _block_destroy_helper.57
++ _block_destroy_helper.68
++ _block_destroy_helper.84
++ _block_destroy_helper.88
++ _block_destroy_helper.95
++ _block_destroy_helper.98
++ _flat unique So26SWFeedConfigurationFactory_p
++ _flat unique So30FCRecipeAutofavoritesProviding_p
++ _get_enum_tag_for_layout_string 7NewsUI217FeedSearchRequestVSg
++ _get_enum_tag_for_layout_string 7NewsUI227ForYouTodayFeedGroupEmitterC18FilteredPoolResult33_597B215FA3272013A2DD0A46A760E717LLV0K0O
++ _get_enum_tag_for_layout_string 7NewsUI229SearchLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI230TagFeedLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI232AudioFeedLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI232RecipeBoxLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI232SavedFeedLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI233SearchMoreLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI234HistoryFeedLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI234MissedStoriesTodayFeedGroupEmitterC18FilteredPoolResult33_7E761B8BC15BE6402CA2C44428086963LLV0K0O
++ _get_enum_tag_for_layout_string 7NewsUI235MagazineFeedLayoutSectionDescriptorO
++ _get_enum_tag_for_layout_string 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO
++ _get_type_metadata 15Synchronization5MutexVySay7NewsUI228ShortcutServiceObserverProxyCGG.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQOyAeAE0fH0yQrAA4TextVFQOyAeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQOyAeAE17toolbarVisibility_3forQrAA0U0O_AA16ToolbarPlacementVdtFQOyAA06ScrollE0VyAA6VStackVyAA05TupleE0VyACyAA6SpacerVAA12_FrameLayoutVG_AA04LazyZ0VyAA7ForEachVySay7NewsUI2012RecipeFilterE5ModelC7SectionOGSSAA012_ConditionalD0VyA18_yA11_028RecipeFilterDurationsSectionE0VA11_030RecipeFilterTagCapsulesSectionE0VGA18_yA22_A22_GGGGtGGG_Qo__AA8SolariumVAeAE0T07contentQrqd__yXE_tAA0wD0Rd__lFQOyA31__AA05TuplewD0VyAA0wL0VyytAA6ButtonVyAMGG_AAA36_PAAE13containerTintyQrAA5ColorVSgFQOyA44__Qo_AA0wD7BuilderV10buildBlockyQrxAAA36_RzlFZQOy_A40_yytACyA42_yA_yA1_yAM_AMtGGGAA14_PaddingLayoutVGGQo_SgtGQo_AeAEA34_A35_Qrqd__yXE_tAAA36_Rd__lFQOyA31__A38_yA44__A44_AA0wL5GroupVyAA6ZStackVyA1_yAA6HStackVyA1_yACyA43_AA32_EnvironmentKeyTransformModifierVySbGG_A3_tGG_AMSgtGGGtGQo_Qo__Qo__Qo_AA24_BackgroundStyleModifierVyA48_GGAaDHPqd__AaDHD2_A85_HO_A88_AA0E8ModifierHPyHCHC.69
++ _keypath_get_selector_clusterID
++ _objc_retain_x11
++ _objc_retain_x12
++ _objectdestroy.104Tm
++ _objectdestroy.110Tm
++ _objectdestroy.116Tm
++ _objectdestroy.117Tm
++ _objectdestroy.120Tm
++ _objectdestroy.133Tm
++ _objectdestroy.165Tm
++ _objectdestroy.257Tm
++ _objectdestroy.272Tm
++ _objectdestroy.305Tm
++ _objectdestroy.34Tm
++ _objectdestroy.43Tm
++ _objectdestroy.46Tm
++ _objectdestroy.49Tm
++ _objectdestroy.50Tm
++ _objectdestroy.55Tm
++ _objectdestroy.62Tm
++ _objectdestroy.64Tm
++ _objectdestroy.65Tm
++ _objectdestroy.66Tm
++ _objectdestroy.75Tm
++ _objectdestroy.77Tm
++ _objectdestroy.81Tm
++ _objectdestroy.84Tm
++ _objectdestroy.87Tm
++ _objectdestroy.90Tm
++ _objectdestroy.93Tm
++ _objectdestroy.96Tm
++ _swift_coroFrameAlloc
++ _symbolic $s7NewsUI225RecipeBoxSearchEntityTypeP
++ _symbolic $s7NewsUI233MastheadAdSponsorshipProviderTypeP
++ _symbolic $s7NewsUI235LegacyOfflineStatusBannerStylerTypeP
++ _symbolic $s7NewsUI237PuzzleGameCenterActivitiesHandlerTypeP
++ _symbolic SDySS_____G 8NewsFeed0B17ClusteringOptionsV
++ _symbolic SDySS_____G 8NewsFeed0B19CursorExportContextV
++ _symbolic Say_____G 7NewsUI218RecipeBoxFeedGroupO
++ _symbolic Say_____G 8NewsFeed0B19TopicRecipesClusterV
++ _symbolic Say______pG 8NewsFeed0B28IntentItemSectionFactoryTypeP
++ _symbolic Say______pG______t So19FCHeadlineProvidingP 7NewsUI227ForYouTodayFeedGroupEmitterC13LocalHeadline33_597B215FA3272013A2DD0A46A760E717LLV
++ _symbolic Say______pG______t So19FCHeadlineProvidingP 7NewsUI234MissedStoriesTodayFeedGroupEmitterC13LocalHeadline33_7E761B8BC15BE6402CA2C44428086963LLV
++ _symbolic Say_____ySo12FCRecipeItemCGG 8NewsFeed0B12ScoredRecipeV
++ _symbolic ScCySay_____G_____G 8NewsFeed13ArticleEntityV s5NeverO
++ _symbolic ScCy_____y_____G_____G 10AppIntents20IntentItemCollectionV 8NewsFeed0G6EntityV s5NeverO
++ _symbolic ScTy___________pGSg 7NewsUI222FoodRecipesFetchResultV s5ErrorP
++ _symbolic So12SGBannerViewC
++ _symbolic So13AMSEngagementC
++ _symbolic So15AMSBadgeRequestC
++ _symbolic So16FCFeedDescriptorC______Sg13adSponsorshipt 7NewsAds17SponsorshipAdInfoO
++ _symbolic _____ 12NewsArticles17EndOfRecipeConfigC
++ _symbolic _____ 12NewsArticles25RecipeBlueprintRouteModelC
++ _symbolic _____ 12NewsArticles26RecipeCoordinatorContainerC
++ _symbolic _____ 5TeaUI23StatusBannerCoordinatorC
++ _symbolic _____ 7NewsAds17AdSponsorshipViewC
++ _symbolic _____ 7NewsAds17SponsorshipAdTypeO
++ _symbolic _____ 7NewsAds19MastheadSponsorshipO
++ _symbolic _____ 7NewsUI2020RecipeBoxFeedOfflineE7BuilderC
++ _symbolic _____ 7NewsUI217FoodRecipeFetcher33_7BBD82387C41A8B9A4DECD16296F2C33LLC
++ _symbolic _____ 7NewsUI222RecipeBoxSearchEntity2V
++ _symbolic _____ 7NewsUI222RecipeBoxSearchEntity2V10CodingKeys33_0D15814B15DA9E0EFE089273F4E97097LLO
++ _symbolic _____ 7NewsUI222WebEmbedFailureTrackerC
++ _symbolic _____ 7NewsUI223OpenFeedIntentNavigatorV
++ _symbolic _____ 7NewsUI223RecipeViewerCoordinatorC
++ _symbolic _____ 7NewsUI224OpenSavedIntentNavigatorV
++ _symbolic _____ 7NewsUI224TopicRecipesTagFeedGroupV
++ _symbolic _____ 7NewsUI224TopicRecipesTagFeedGroupV10CodingKeys33_ACB42A7172106F1FAD32B9727EF5C3C4LLO
++ _symbolic _____ 7NewsUI225MastheadViewLayoutVariantO
++ _symbolic _____ 7NewsUI225OpenRecipeIntentNavigatorV
++ _symbolic _____ 7NewsUI225TagFeedViewerModernStylerC
++ _symbolic _____ 7NewsUI226OpenArticleIntentNavigatorV
++ _symbolic _____ 7NewsUI226OpenHistoryIntentNavigatorV
++ _symbolic _____ 7NewsUI226WelcomeViewAnimatorOptionsV
++ _symbolic _____ 7NewsUI227FoodRecipesClusteringResultV
++ _symbolic _____ 7NewsUI227ForYouTodayFeedGroupEmitterC13LocalHeadline33_597B215FA3272013A2DD0A46A760E717LLV
++ _symbolic _____ 7NewsUI227ForYouTodayFeedGroupEmitterC18FilteredPoolResult33_597B215FA3272013A2DD0A46A760E717LLV
++ _symbolic _____ 7NewsUI227ForYouTodayFeedGroupEmitterC18FilteredPoolResult33_597B215FA3272013A2DD0A46A760E717LLV0K0O
++ _symbolic _____ 7NewsUI227SportsSectionBuilderRequestV
++ _symbolic _____ 7NewsUI228MastheadViewLayoutAttributesV
++ _symbolic _____ 7NewsUI228RecipeFilterItemCommandStateO
++ _symbolic _____ 7NewsUI228SportsFavoritesSyncViewModelV
++ _symbolic _____ 7NewsUI228TodayLayoutSectionDescriptorO0D4DataV
++ _symbolic _____ 7NewsUI229FeedPuzzleScoreCommandHandlerC
++ _symbolic _____ 7NewsUI229MastheadAdSponsorshipProviderC
++ _symbolic _____ 7NewsUI229SearchLayoutSectionDescriptorO0D4DataV
++ _symbolic _____ 7NewsUI229TopicRecipesTagFeedGroupKnobsV
++ _symbolic _____ 7NewsUI229TopicRecipesTagFeedGroupKnobsV10CodingKeys33_C1B2DEC821F64706AA21883CAE3BAD5FLLO
++ _symbolic _____ 7NewsUI230MastheadModelSupplementaryInfoV
++ _symbolic _____ 7NewsUI230OfflineStatusBannerCoordinatorC
++ _symbolic _____ 7NewsUI230TagFeedLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI231FeedViewControllerCreateOptionsV
++ _symbolic _____ 7NewsUI231LegacyOfflineStatusBannerStylerC
++ _symbolic _____ 7NewsUI231OpenSavedRecipesIntentNavigatorV
++ _symbolic _____ 7NewsUI231TopicRecipesTagFeedGroupEmitterV
++ _symbolic _____ 7NewsUI231WebEmbedShareActivityItemSourceC
++ _symbolic _____ 7NewsUI232AudioFeedLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI232MyRecipesLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI232RecipeBoxLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI232SavedFeedLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI233FoodTopicRecipesClusteringRequestV
++ _symbolic _____ 7NewsUI233PuzzleGameCenterActivitiesHandlerC
++ _symbolic _____ 7NewsUI233SearchMoreLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI234FoodTodayFeedGroupTopicRecipeKnobsV
++ _symbolic _____ 7NewsUI234FoodTodayFeedGroupTopicRecipeKnobsV10CodingKeys33_B25937A5AC1DE16889ADFF79A82A444ELLO
++ _symbolic _____ 7NewsUI234HistoryFeedLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI234MissedStoriesTodayFeedGroupEmitterC13LocalHeadline33_7E761B8BC15BE6402CA2C44428086963LLV
++ _symbolic _____ 7NewsUI234MissedStoriesTodayFeedGroupEmitterC18FilteredPoolResult33_7E761B8BC15BE6402CA2C44428086963LLV
++ _symbolic _____ 7NewsUI234MissedStoriesTodayFeedGroupEmitterC18FilteredPoolResult33_7E761B8BC15BE6402CA2C44428086963LLV0K0O
++ _symbolic _____ 7NewsUI234TopicRecipesTagFeedGroupConfigDataV
++ _symbolic _____ 7NewsUI234TopicRecipesTagFeedGroupConfigDataV10CodingKeys33_3DFFB6DFF48932DB1F8CE6618363DEF5LLO
++ _symbolic _____ 7NewsUI235MagazineFeedLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI235MagazineTodayFeedGroupEmitterCursorC
++ _symbolic _____ 7NewsUI236FoodTodayFeedGroupChannelRecipeKnobsV
++ _symbolic _____ 7NewsUI236FoodTodayFeedGroupChannelRecipeKnobsV10CodingKeys33_7C76DB2A79174B8EB17EC9FC4F893316LLO
++ _symbolic _____ 7NewsUI237TopicRecipesTagFeedGroupEmitterCursorC
++ _symbolic _____ 7NewsUI238SportsFavoritesLayoutSectionDescriptorO0E4DataV
++ _symbolic _____ 7NewsUI239AudioHistoryFeedLayoutSectionDescriptorO0F4DataV
++ _symbolic _____ 7NewsUI239LegacyOfflineStatusBannerViewControllerC
++ _symbolic _____ 7NewsUI240AudioPlaylistFeedLayoutSectionDescriptorO0F4DataV
++ _symbolic _____ 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO0G4DataV
++ _symbolic _____ 7NewsUI241ModernMastheadViewLayoutAttributesFactoryC
++ _symbolic _____ 7NewsUI244PuzzleContinuePlayingLayoutSectionDescriptorO0F4DataV
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____ 8NewsFeed0B11PuzzleScoreO
++ _symbolic _____ 8NewsFeed0B16DatabaseExporterC
++ _symbolic _____ 8NewsFeed0B19CursorExportContextV
++ _symbolic _____ 8NewsFeed0B20GroupDebugCandidatesC
++ _symbolic _____ 8NewsFeed16TagMastheadModelV
++ _symbolic _____ 8NewsFeed22WebEmbedFailureContextV
++ _symbolic _____ 8NewsFeed25PuzzleGameCenterChallengeV
++ _symbolic _____ 8NewsFeed31PuzzleGameCenterActivityRequestV
++ _symbolic _____ 8NewsFeed31PuzzleGameCenterActivityRequestV11LeaderboardV
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____Sg 12NewsArticles26BlueprintRecipeViewerTokenC
++ _symbolic _____Sg 13NewsAnalytics13DismissalDataV
++ _symbolic _____Sg 5TeaUI33BlueprintHorizontalScrollShimViewC
++ _symbolic _____Sg 5TeaUI35FloatingTabBarAcccessoryCoordinatorC
++ _symbolic _____Sg 7NewsAds17SponsorshipAdInfoO
++ _symbolic _____Sg 8NewsFeed0B14ConfigMetadataV
++ _symbolic _____Sg 8NewsFeed0B17ClusteringOptionsV
++ _symbolic _____SgIeAgHr_ 8NewsFeed08ExportedB8DatabaseV
++ _symbolic _____SgXw 7NewsUI2020RecipeBoxFeedOfflineE7BuilderC
++ _symbolic _____SgXw 7NewsUI2039ChannelIssuesBlueprintViewSupplementaryF8ProviderC
++ _symbolic _____SgXw 7NewsUI230OfflineStatusBannerCoordinatorC
++ _symbolic _____SgXw 7NewsUI231WebEmbedContainerViewControllerC
++ _symbolic _____SgXw 7NewsUI235MagazineTodayFeedGroupEmitterCursorC
++ _symbolic _____SgXw 7NewsUI239LegacyOfflineStatusBannerViewControllerC
++ _symbolic _____SgXwz_Xx 7NewsUI2039ChannelIssuesBlueprintViewSupplementaryF8ProviderC
++ _symbolic _____SgXwz_Xx 7NewsUI219MagazineFeedTrackerC
++ _symbolic _____SgXwz_Xx 7NewsUI220MainTabBarControllerC
++ _symbolic _____SgXwz_Xx 7NewsUI235MagazineTodayFeedGroupEmitterCursorC
++ _symbolic ___________7context_____17supplementaryInfot 7NewsUI217FeedMastheadModelC AA0dE7ContextV AA0dE17SupplementaryInfoV
++ _symbolic ___________Sg13adSponsorshipt 7NewsUI217FeedMastheadModelC 0A3Ads17SponsorshipAdInfoO
++ _symbolic ______p 19NewsPersonalization33ComputeServiceStartupTaskExecutorP
++ _symbolic ______p 7NewsUI233MastheadAdSponsorshipProviderTypeP
++ _symbolic ______p 7NewsUI235LegacyOfflineStatusBannerStylerTypeP
++ _symbolic ______p 7NewsUI237PuzzleGameCenterActivitiesHandlerTypeP
++ _symbolic ______p 7NewsUI243SidebarListContentConfigurationRendererTypeP
++ _symbolic ______p 8NewsCore22RecipeListProviderTypeP
++ _symbolic ______p 8NewsCore23RecipeItemInventoryTypeP
++ _symbolic ______p 8NewsFeed0B21DismissingManagerTypeP
++ _symbolic ______p So26SWFeedConfigurationFactoryP
++ _symbolic ______p So30FCRecipeAutofavoritesProvidingP
++ _symbolic ______pSg 12NewsArticles24RecipeViewerObserverTypeP
++ _symbolic ______pSg 8NewsFeed25ExternalRecipeFactoryTypeP
++ _symbolic ______pSgXw 12NewsArticles31RecipeViewerCoordinatorDelegateP
++ _symbolic _____y_____G 13TeaFoundation4LazyC 7NewsUI230OfflineStatusBannerCoordinatorC
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI12ScaledMetricV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 8NewsFeed0B11GroupConfigV 0A3UI2015TopicRecipesTagbcD4DataV
++ _symbolic _____y_____GSg 5TeaDB11SearchTableV 7NewsUI209RecipeBoxC7Entity2V
++ _symbolic _____y__________G 5TeaUI19BlueprintImpressionV 12NewsArticles28EndOfRecipeSectionDescriptorO AD0ghI5ModelO
++ _symbolic _____y__________G 5TeaUI26BlueprintImpressionSectionV 12NewsArticles011EndOfRecipeE10DescriptorO AD0hiJ5ModelO
++ _symbolic _____y__________G 5TeaUI26BlueprintImpressionSectionV 8NewsFeed06FormatE10DescriptorO AD0H5ModelO
++ _symbolic _____y__________GSg 5TeaUI16BlueprintSectionV 7NewsUI209AudioFeedD10DescriptorO AD0gH5ModelO
++ _symbolic _____y__________GSg 5TeaUI16BlueprintSectionV 8NewsFeed06FormatD10DescriptorO AD0G5ModelO
++ _symbolic _____y__________GSg 5TeaUI25StateCommandBarButtonItemC 7NewsUI222RecipeFilterRouteModelV AD0jkgdC0O
++ _symbolic _____y__________GSgz_Xx 5TeaUI16BlueprintSectionV 7NewsUI207TagFeedD10DescriptorO AD0gH5ModelO
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC 0A3UI20D20BoxSectionDescriptorO AD0dI5ModelO AD0di6LayoutjK0O AD0dimL0O
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC 0A3UI222TodaySectionDescriptorO AD0I5ModelO AD0i6LayoutjK0O AD0imL0O
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC 0A3UI224TagFeedSectionDescriptorO AD0iJ5ModelO AD0ij6LayoutkL0O AD0ijnM0O
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC 0A3UI226MyRecipesSectionDescriptorO AD0iJ5ModelO AD0ij6LayoutkL0O AD0ijnM0O
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC 0A3UI229MagazineFeedSectionDescriptorO AD0iJ5ModelO AD0ij6LayoutkL0O AD0ijnM0O
++ _symbolic _____y_______________y_____y__________y_____GGGG 7NewsUI222OfflineFeedBuilderLiteC AA09RecipeBoxD21ServiceContextFactoryC AA0ghdI13ConfigFetcherC 0aD00dI0C AH0d6CursorK0C AA0ghd12GroupEmitterK0C AH0D11PoolManagerC AA0ghdqI0C
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI2010SearchMoreJ17SectionDescriptorO AG0mnjE0O
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI2012MagazineFeedJ17SectionDescriptorO AG0mnjE0O
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI205TodayJ17SectionDescriptorO AG0mjE0O
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI207TagFeedJ17SectionDescriptorO AG0mnjE0O
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI209MyRecipesJ17SectionDescriptorO AG0mnjE0O
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC 0A3UI20c3BoxJ17SectionDescriptorO AG0cmjE0O
++ _symbolic _____y_____y_____y_____y_____y_____y_____y_____yAAy__________G______y_____ySay_____GSS_____yALy__________GALyA2NGGGGtGGG_Qo____________yAW______y_____yyt_____y_____GG______yA2__Qo______y_AZyytAAyA_yACyADyA0__A0_tGGG_____GGQo_SgtGQo______yAW_AYyA2__A2______y_____yADy_____yADyAAyA1______ySbGG_AEtGG_A0_SgtGGGtGQo_Qo__Qo__Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQO AeAE0fH0yQrAA4TextVFQO AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE17toolbarVisibility_3forQrAA0U0O_AA16ToolbarPlacementVdtFQO AA06ScrollE0V AA6VStackV AA05TupleE0V AA6SpacerV AA12_FrameLayoutV AA04LazyZ0V AA7ForEachV 7NewsUI2012RecipeFilterE5ModelC7SectionO AA012_ConditionalD0V A10_028RecipeFilterDurationsSectionE0V A10_030RecipeFilterTagCapsulesSectionE0V AA8SolariumV AeAE0T07contentQrqd__yXE_tAA0wD0Rd__lFQO AA05TuplewD0V AA0wL0V AA6ButtonV AM AAA25_PAAE13containerTintyQrAA5ColorVSgFQO AA0wD7BuilderV10buildBlockyQrxAAA25_RzlFZQO AA14_PaddingLayoutV AeAEA23_A24_Qrqd__yXE_tAAA25_Rd__lFQO AA0wL5GroupV AA6ZStackV AA6HStackV AA32_EnvironmentKeyTransformModifierV AA24_BackgroundStyleModifierV A35_
++ _symbolic _____y_____yytG_____GSg 5TeaUI25StateCommandBarButtonItemC 8NewsFeed05AudioD7ContextV AD0ij8PlaybackC0O
++ _symbolic _____yxSSSgGSg s7KeyPathC
++ _type_layout_string 7NewsUI219SearchExpandContextV
++ _type_layout_string 7NewsUI222RecipeBoxSearchEntity2V
++ _type_layout_string 7NewsUI223OpenFeedIntentNavigatorV
++ _type_layout_string 7NewsUI224OpenSavedIntentNavigatorV
++ _type_layout_string 7NewsUI225OpenRecipeIntentNavigatorV
++ _type_layout_string 7NewsUI226OpenArticleIntentNavigatorV
++ _type_layout_string 7NewsUI226OpenHistoryIntentNavigatorV
++ _type_layout_string 7NewsUI226SportsSectionBuilderResultV
++ _type_layout_string 7NewsUI226WelcomeViewAnimatorOptionsV
++ _type_layout_string 7NewsUI227FoodRecipesClusteringResultV
++ _type_layout_string 7NewsUI227ForYouTodayFeedGroupEmitterC13LocalHeadline33_597B215FA3272013A2DD0A46A760E717LLV
++ _type_layout_string 7NewsUI227ForYouTodayFeedGroupEmitterC18FilteredPoolResult33_597B215FA3272013A2DD0A46A760E717LLV
++ _type_layout_string 7NewsUI227ForYouTodayFeedGroupEmitterC18FilteredPoolResult33_597B215FA3272013A2DD0A46A760E717LLV0K0O
++ _type_layout_string 7NewsUI227SportsSectionBuilderRequestV
++ _type_layout_string 7NewsUI228MastheadViewLayoutAttributesV
++ _type_layout_string 7NewsUI228SportsFavoritesSyncViewModelV
++ _type_layout_string 7NewsUI229SearchLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI229SearchLayoutSectionDescriptorO0D4DataV
++ _type_layout_string 7NewsUI230TagFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI230TagFeedLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI231FeedViewControllerCreateOptionsV
++ _type_layout_string 7NewsUI231OpenSavedRecipesIntentNavigatorV
++ _type_layout_string 7NewsUI232AudioFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI232AudioFeedLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI232MyRecipesLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI232MyRecipesLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI232RecipeBoxLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI232RecipeBoxLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI232SavedFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI232SavedFeedLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI233SearchMoreLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI233SearchMoreLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI234HistoryFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI234HistoryFeedLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI234MissedStoriesTodayFeedGroupEmitterC13LocalHeadline33_7E761B8BC15BE6402CA2C44428086963LLV
++ _type_layout_string 7NewsUI234MissedStoriesTodayFeedGroupEmitterC18FilteredPoolResult33_7E761B8BC15BE6402CA2C44428086963LLV
++ _type_layout_string 7NewsUI234MissedStoriesTodayFeedGroupEmitterC18FilteredPoolResult33_7E761B8BC15BE6402CA2C44428086963LLV0K0O
++ _type_layout_string 7NewsUI235MagazineFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI235MagazineFeedLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI238SportsFavoritesLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI238SportsFavoritesLayoutSectionDescriptorO0E4DataV
++ _type_layout_string 7NewsUI239AudioHistoryFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI239AudioHistoryFeedLayoutSectionDescriptorO0F4DataV
++ _type_layout_string 7NewsUI240AudioPlaylistFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI240AudioPlaylistFeedLayoutSectionDescriptorO0F4DataV
++ _type_layout_string 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO0G4DataV
++ _type_layout_string 7NewsUI244PuzzleContinuePlayingLayoutSectionDescriptorO
++ _type_layout_string 7NewsUI244PuzzleContinuePlayingLayoutSectionDescriptorO0F4DataV
+- _NSTrackingAttributeName
+- _OBJC_CLASS_$_SWFeedConfiguration
+- _OBJC_CLASS_$_WLKSportsFavoriteManager
+- _OBJC_CLASS_$__TtC7NewsUI224CenteredLogoMastheadView
+- _OBJC_CLASS_$__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- _OBJC_CLASS_$__TtC7NewsUI233OfflineStatusBannerViewController
+- _OBJC_METACLASS_$__TtC7NewsUI224CenteredLogoMastheadView
+- _OBJC_METACLASS_$__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- _OBJC_METACLASS_$__TtC7NewsUI233OfflineStatusBannerViewController
+- _UIFontWidthTrait
+- _UIMenuPreferences
+- _WLKSportsFavoriteSyncCompletionNotification
+- _WLKSportsFavoriteSyncSettingChangedNotification
+- __DATA__TtC7NewsUI219SportsSyncV2Service
+- __DATA__TtC7NewsUI222SportsSyncServiceProxy
+- __DATA__TtC7NewsUI224CenteredLogoMastheadView
+- __DATA__TtC7NewsUI225OfflineStatusBannerStyler
+- __DATA__TtC7NewsUI225OpenRecipeIntentNavigator
+- __DATA__TtC7NewsUI226OpenArticleIntentNavigator
+- __DATA__TtC7NewsUI230CenteredLogoMastheadViewStyler
+- __DATA__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- __DATA__TtC7NewsUI232CenteredLogoMastheadViewRenderer
+- __DATA__TtC7NewsUI233OfflineStatusBannerViewController
+- __DATA__TtC7NewsUI247CenteredLogoMastheadViewLayoutAttributesFactory
+- __INSTANCE_METHODS__TtC7NewsUI224CenteredLogoMastheadView
+- __INSTANCE_METHODS__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- __INSTANCE_METHODS__TtC7NewsUI233OfflineStatusBannerViewController
+- __IVARS__TtC7NewsUI222SportsSyncServiceProxy
+- __IVARS__TtC7NewsUI224CenteredLogoMastheadView
+- __IVARS__TtC7NewsUI225OfflineStatusBannerStyler
+- __IVARS__TtC7NewsUI225OpenRecipeIntentNavigator
+- __IVARS__TtC7NewsUI226OpenArticleIntentNavigator
+- __IVARS__TtC7NewsUI230CenteredLogoMastheadViewStyler
+- __IVARS__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- __IVARS__TtC7NewsUI232CenteredLogoMastheadViewRenderer
+- __IVARS__TtC7NewsUI233OfflineStatusBannerViewController
+- __IVARS__TtC7NewsUI247CenteredLogoMastheadViewLayoutAttributesFactory
+- __METACLASS_DATA__TtC7NewsUI219SportsSyncV2Service
+- __METACLASS_DATA__TtC7NewsUI222SportsSyncServiceProxy
+- __METACLASS_DATA__TtC7NewsUI224CenteredLogoMastheadView
+- __METACLASS_DATA__TtC7NewsUI225OfflineStatusBannerStyler
+- __METACLASS_DATA__TtC7NewsUI225OpenRecipeIntentNavigator
+- __METACLASS_DATA__TtC7NewsUI226OpenArticleIntentNavigator
+- __METACLASS_DATA__TtC7NewsUI230CenteredLogoMastheadViewStyler
+- __METACLASS_DATA__TtC7NewsUI232CenteredLogoMastheadViewProvider
+- __METACLASS_DATA__TtC7NewsUI232CenteredLogoMastheadViewRenderer
+- __METACLASS_DATA__TtC7NewsUI233OfflineStatusBannerViewController
+- __METACLASS_DATA__TtC7NewsUI247CenteredLogoMastheadViewLayoutAttributesFactory
+- __OBJC_$_PROP_LIST_WLKSportsFavoriteRepresentable
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_WLKSportsFavoriteRepresentable
+- __OBJC_$_PROTOCOL_METHOD_TYPES_WLKSportsFavoriteRepresentable
+- __OBJC_$_PROTOCOL_REFS_WLKSportsFavoriteRepresentable
+- __OBJC_LABEL_PROTOCOL_$_WLKSportsFavoriteRepresentable
+- __OBJC_PROTOCOL_$_WLKSportsFavoriteRepresentable
+- __PROTOCOLS__TtC7NewsUI222DiagnosticFileProvider
+- __PROTOCOLS__TtC7NewsUI222DiagnosticFileProvider.2
+- __PROTOCOL_INSTANCE_METHODS_TFDiagnosticFileProvider
+- __PROTOCOL_METHOD_TYPES_TFDiagnosticFileProvider
+- __PROTOCOL_TFDiagnosticFileProvider
+- ___unnamed_31
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_NewsUI2
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_NewsUI2
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_NewsUI2
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_NewsUI2
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_NewsUI2
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_NewsUI2
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_NewsUI2
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_NewsUI2
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_NewsUI2
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents016EnumerableEntityI0AaF0mI0
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AA0L0AfGP_AF0jL0
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AaF22DynamicOptionsProvider
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AaF24PersistentlyIdentifiable
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentP0
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAaF09_SupportsJ12Dependencies
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F5ValueAaD07_IntentH0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F6EntityAA12DefaultQueryAdEP_AD0hJ0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F6EntityAA2IDs12IdentifiableP_AD0H21IdentifierConvertible
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F6EntityAAs12Identifiable
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F6EntityAaD0F5Value
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents0F6EntityAaD20DisplayRepresentable
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents12_IntentValueAA0I4TypeAdEP_AdE
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverJ0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents18AttributableEntityAaD0fI0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents20DisplayRepresentableAaD04TypehI0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents20DisplayRepresentableAaD08InstancehI0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents22URLRepresentableEntityAaD0fI0
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents22URLRepresentableEntityAaD43CustomURLRepresentationParameterConvertible
+- _associated conformance 7NewsUI20A11TabDeepLinkV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 7NewsUI20A11TabDeepLinkVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 7NewsUI20A22TabDeepLinkDestinationOSHAASQ
+- _associated conformance 7NewsUI20A22TabDeepLinkDestinationOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0E5ValueAaD07_IntentG0
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0E5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0E5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0eD0AA12DefaultQueryAdEP_AD0dH0
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0eD0AA2IDs12IdentifiableP_AD0D21IdentifierConvertible
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0eD0AAs12Identifiable
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0eD0AaD0E5Value
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents0eD0AaD20DisplayRepresentable
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents12_IntentValueAA0H4TypeAdEP_AdE
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents20DisplayRepresentableAaD04TypegH0
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents20DisplayRepresentableAaD08InstancegH0
+- _associated conformance 7NewsUI210FeedEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 7NewsUI210FeedEntityV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
+- _associated conformance 7NewsUI210FeedEntityVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 7NewsUI211BlockIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
+- _associated conformance 7NewsUI211BlockIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
+- _associated conformance 7NewsUI211BlockIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
+- _associated conformance 7NewsUI211BlockIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI211BlockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_dL0
+- _associated conformance 7NewsUI211BlockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 7NewsUI211BlockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 7NewsUI211BlockIntentV5ErrorOSHAASQ
+- _associated conformance 7NewsUI212FollowIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
+- _associated conformance 7NewsUI212FollowIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
+- _associated conformance 7NewsUI212FollowIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
+- _associated conformance 7NewsUI212FollowIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI212FollowIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_dL0
+- _associated conformance 7NewsUI212FollowIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 7NewsUI212FollowIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 7NewsUI212FollowIntentV5ErrorOSHAASQ
+- _associated conformance 7NewsUI213UnblockIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
+- _associated conformance 7NewsUI213UnblockIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
+- _associated conformance 7NewsUI213UnblockIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
+- _associated conformance 7NewsUI213UnblockIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI213UnblockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_dL0
+- _associated conformance 7NewsUI213UnblockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 7NewsUI213UnblockIntentV19FeedOptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 7NewsUI213UnblockIntentV5ErrorOSHAASQ
+- _associated conformance 7NewsUI214OpenFeedIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 7NewsUI214OpenFeedIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 7NewsUI214OpenFeedIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents06SystemE0AaD0fE0
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0cE0AA5ValueAdEP_AD0fH0
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0cE0AaD06SystemE0
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 7NewsUI214OpenFeedIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0C6IntentAA5ValueAdEP_AD0fI0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0C6IntentAaD06SystemH0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0F14IntentInternalAaD0fH0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0F6IntentAA13PerformResultAdEP_AD0hJ0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0F6IntentAA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0F6IntentAaD09_SupportsF12Dependencies
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents0F6IntentAaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents12SystemIntentAaD0fI0
+- _associated conformance 7NewsUI214OpenStaticFeedV10AppIntents22URLRepresentableIntentAaD0fI0
+- _associated conformance 7NewsUI215NavigationErrorOSHAASQ
+- _associated conformance 7NewsUI215OpenSavedIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 7NewsUI215OpenSavedIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 7NewsUI215OpenSavedIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 7NewsUI215OpenSavedIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI217OpenHistoryIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 7NewsUI217OpenHistoryIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 7NewsUI217OpenHistoryIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 7NewsUI217OpenHistoryIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI217SportsSyncServiceC6Errors33_75DF295BA1C85859A4CDC38DB1BE68C6LLOSHAASQ
+- _associated conformance 7NewsUI222DecreaseTextSizeIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 7NewsUI222DecreaseTextSizeIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 7NewsUI222DecreaseTextSizeIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 7NewsUI222DecreaseTextSizeIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI222DecreaseTextSizeIntentV5ErrorOSHAASQ
+- _associated conformance 7NewsUI222IncreaseTextSizeIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
+- _associated conformance 7NewsUI222IncreaseTextSizeIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
+- _associated conformance 7NewsUI222IncreaseTextSizeIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
+- _associated conformance 7NewsUI222IncreaseTextSizeIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI222IncreaseTextSizeIntentV5ErrorOSHAASQ
+- _associated conformance 7NewsUI224SportsSyncServiceVersionOSHAASQ
+- _associated conformance 7NewsUI227FloatingTabBarSidebarActionOSHAASQ
+- _associated conformance 7NewsUI229MagazineFeedGroupTitleVersionOSHAASQ
+- _associated conformance 7NewsUI234SponsoredBannerTagFeedGroupEmitterC0aF006LegacyfgH4TypeAaD04BasefghJ0
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents06EntityD0AA0G0AdEP_AD0eG0
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents06EntityD0AaD22DynamicOptionsProvider
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents06EntityD0AaD24PersistentlyIdentifiable
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
+- _associated conformance 7NewsUI29FeedQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsE12Dependencies
+- _block_copy_helper.107
+- _block_copy_helper.111
+- _block_copy_helper.118
+- _block_copy_helper.131
+- _block_copy_helper.135
+- _block_copy_helper.141
+- _block_copy_helper.145
+- _block_copy_helper.150
+- _block_copy_helper.152
+- _block_copy_helper.52
+- _block_copy_helper.55
+- _block_copy_helper.75
+- _block_copy_helper.77
+- _block_copy_helper.80
+- _block_copy_helper.86
+- _block_copy_helper.95
+- _block_descriptor.109
+- _block_descriptor.113
+- _block_descriptor.120
+- _block_descriptor.133
+- _block_descriptor.137
+- _block_descriptor.143
+- _block_descriptor.147
+- _block_descriptor.152
+- _block_descriptor.154
+- _block_descriptor.54
+- _block_descriptor.57
+- _block_descriptor.77
+- _block_descriptor.79
+- _block_descriptor.82
+- _block_descriptor.88
+- _block_descriptor.97
+- _block_destroy_helper.108
+- _block_destroy_helper.112
+- _block_destroy_helper.119
+- _block_destroy_helper.132
+- _block_destroy_helper.136
+- _block_destroy_helper.142
+- _block_destroy_helper.146
+- _block_destroy_helper.151
+- _block_destroy_helper.153
+- _block_destroy_helper.53
+- _block_destroy_helper.56
+- _block_destroy_helper.76
+- _block_destroy_helper.78
+- _block_destroy_helper.81
+- _block_destroy_helper.87
+- _block_destroy_helper.96
+- _flat unique So20FCReadingHistoryItem_p
+- _get_enum_tag_for_layout_string 7NewsUI2024CenteredLogoMastheadViewD0O
+- _get_enum_tag_for_layout_string 7NewsUI216FeedAvailabilityO
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.2
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy7NewsUI205BlockC0VGAA0dE0HPyHC.1
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy7NewsUI206FollowC0VGAA0dE0HPyHC.1
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy7NewsUI207UnblockC0VGAA0dE0HPyHC.1
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy7NewsUI208OpenFeedC0VGAA0dE0HPyHC.1
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy7NewsUI214OpenStaticFeedVGAA0dE0HPyHC.11
+- _get_witness_table 16CoreTransferable19ProxyRepresentationVy7NewsUI210FeedEntityV10Foundation3URLVGAA08TransferD0HPyHC.2
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQOyAeAE0fH0yQrAA4TextVFQOyAeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAeAE0N10Visibility_3forQrAA0Q0O_AA0P9PlacementVdtFQOyAA06ScrollE0VyAA6VStackVyAA05TupleE0VyACyAA6SpacerVAA12_FrameLayoutVG_AA04LazyU0VyAA7ForEachVySay7NewsUI2012RecipeFilterE5ModelC7SectionOGSSAA012_ConditionalD0VyA17_yA10_028RecipeFilterDurationsSectionE0VA10_030RecipeFilterTagCapsulesSectionE0VGA17_yA21_A21_GGGGtGGG_Qo__AA0vpD0VyAA0pL0VyytAA6ButtonVyAMGG_A38_AA0pL5GroupVyAA6ZStackVyA0_yAA6HStackVyA0_yACyA37_AA32_EnvironmentKeyTransformModifierVySbGG_A2_tGG_AMSgtGGGtGQo__Qo__Qo_AA24_BackgroundStyleModifierVyAA5ColorVGGAaDHPqd__AaDHD2_A58_HO_A63_AA0E8ModifierHPyHCHC.32
+- _kCTFontWidthUltraCompressed
+- _objc_retain_x14
+- _objc_retain_x5
+- _objectdestroy.106Tm
+- _objectdestroy.114Tm
+- _objectdestroy.130Tm
+- _objectdestroy.139Tm
+- _objectdestroy.255Tm
+- _objectdestroy.25Tm
+- _objectdestroy.270Tm
+- _objectdestroy.303Tm
+- _objectdestroy.35Tm
+- _objectdestroy.45Tm
+- _objectdestroy.48Tm
+- _objectdestroy.52Tm
+- _objectdestroy.56Tm
+- _objectdestroy.63Tm
+- _objectdestroy.71Tm
+- _objectdestroy.78Tm
+- _objectdestroy.79Tm
+- _objectdestroy.80Tm
+- _objectdestroy.83Tm
+- _objectdestroy.89Tm
+- _objectdestroy.92Tm
+- _objectdestroy.98Tm
+- _symbolic $s10AppIntents0A6EntityP
+- _symbolic $s10AppIntents0A6IntentP
+- _symbolic $s10AppIntents10OpenIntentP
+- _symbolic $s10AppIntents11EntityQueryP
+- _symbolic $s10AppIntents12_IntentValueP
+- _symbolic $s10AppIntents22DynamicOptionsProviderP
+- _symbolic $s16CoreTransferable0B0P
+- _symbolic $s7NewsUI223FeedOptionsProviderTypeP
+- _symbolic $s7NewsUI226SportsSyncServiceProxyTypeP
+- _symbolic $s7NewsUI229OfflineStatusBannerStylerTypeP
+- _symbolic $s7NewsUI232FeedIntentItemSectionFactoryTypeP
+- _symbolic $s7NewsUI234CenteredLogoMastheadViewStylerTypeP
+- _symbolic $s7NewsUI236CenteredLogoMastheadViewRendererTypeP
+- _symbolic $s7NewsUI251CenteredLogoMastheadViewLayoutAttributesFactoryTypeP
+- _symbolic IeAgH_
+- _symbolic IeghH_
+- _symbolic SDySSSaySo8FCRecipeCGG
+- _symbolic SDySS______pG So20FCReadingHistoryItemP
+- _symbolic Say_____G 7NewsUI20A11TabDeepLinkV
+- _symbolic Say_____G 7NewsUI20A22TabDeepLinkDestinationO
+- _symbolic Say_____G 7NewsUI210FeedEntityV
+- _symbolic Say_____G 7NewsUI223UserSegmentationDetailsV13SegmentTargetV
+- _symbolic Say_____G 7NewsUI228ShortcutServiceObserverProxyC
+- _symbolic Say______pG 7NewsUI232FeedIntentItemSectionFactoryTypeP
+- _symbolic ScCySay_____G_____G 12NewsArticles13ArticleEntityV s5NeverO
+- _symbolic ScCy_____y_____G_____G 10AppIntents20IntentItemCollectionV 7NewsUI210FeedEntityV s5NeverO
+- _symbolic So24WLKSportsFavoriteManagerCSg
+- _symbolic _____ 12NewsArticles16RecipeRouteModelO
+- _symbolic _____ 5TeaUI17ShineImageFactoryC
+- _symbolic _____ 7NewsUI2024CenteredLogoMastheadViewD0O
+- _symbolic _____ 7NewsUI20A11TabDeepLinkV
+- _symbolic _____ 7NewsUI20A11TabDeepLinkV09AvailableD21LinksDestinationQueryV
+- _symbolic _____ 7NewsUI20A22TabDeepLinkDestinationO
+- _symbolic _____ 7NewsUI210FeedEntityV
+- _symbolic _____ 7NewsUI211BlockIntentV
+- _symbolic _____ 7NewsUI211BlockIntentV19FeedOptionsProviderV
+- _symbolic _____ 7NewsUI211BlockIntentV5ErrorO
+- _symbolic _____ 7NewsUI212FollowIntentV
+- _symbolic _____ 7NewsUI212FollowIntentV19FeedOptionsProviderV
+- _symbolic _____ 7NewsUI212FollowIntentV5ErrorO
+- _symbolic _____ 7NewsUI213UnblockIntentV
+- _symbolic _____ 7NewsUI213UnblockIntentV19FeedOptionsProviderV
+- _symbolic _____ 7NewsUI213UnblockIntentV5ErrorO
+- _symbolic _____ 7NewsUI214OpenFeedIntentV
+- _symbolic _____ 7NewsUI214OpenFeedIntentV0D15OptionsProviderV
+- _symbolic _____ 7NewsUI214OpenStaticFeedV
+- _symbolic _____ 7NewsUI215NavigationErrorO
+- _symbolic _____ 7NewsUI215OpenSavedIntentV
+- _symbolic _____ 7NewsUI217OpenHistoryIntentV
+- _symbolic _____ 7NewsUI217SportsSyncServiceC6Errors33_75DF295BA1C85859A4CDC38DB1BE68C6LLO
+- _symbolic _____ 7NewsUI219RecipeBoxRouteModelO
+- _symbolic _____ 7NewsUI219SportsSyncV2ServiceC
+- _symbolic _____ 7NewsUI222DecreaseTextSizeIntentV
+- _symbolic _____ 7NewsUI222DecreaseTextSizeIntentV5ErrorO
+- _symbolic _____ 7NewsUI222IncreaseTextSizeIntentV
+- _symbolic _____ 7NewsUI222IncreaseTextSizeIntentV5ErrorO
+- _symbolic _____ 7NewsUI222SportsSyncServiceProxyC
+- _symbolic _____ 7NewsUI224CenteredLogoMastheadViewC
+- _symbolic _____ 7NewsUI224SportsSyncServiceVersionO
+- _symbolic _____ 7NewsUI225CenteredLogoMastheadModelV
+- _symbolic _____ 7NewsUI225OfflineStatusBannerStylerC
+- _symbolic _____ 7NewsUI225OpenRecipeIntentNavigatorC
+- _symbolic _____ 7NewsUI226OpenArticleIntentNavigatorC
+- _symbolic _____ 7NewsUI227FloatingTabBarSidebarActionO
+- _symbolic _____ 7NewsUI228TodayLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI229MagazineFeedGroupTitleVersionO
+- _symbolic _____ 7NewsUI229SearchLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI230CenteredLogoMastheadViewStylerC
+- _symbolic _____ 7NewsUI230TagFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI232AudioFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI232CenteredLogoMastheadViewProviderC
+- _symbolic _____ 7NewsUI232CenteredLogoMastheadViewRendererC
+- _symbolic _____ 7NewsUI232MyRecipesLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI232RecipeBoxLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI232SavedFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI233OfflineStatusBannerViewControllerC
+- _symbolic _____ 7NewsUI233SearchMoreLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI234HistoryFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI235MagazineFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI235MagazineTodayFeedGroupEmitterCursorV
+- _symbolic _____ 7NewsUI238SportsFavoritesLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI239AudioHistoryFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI240AudioPlaylistFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI240CenteredLogoMastheadViewLayoutAttributesV
+- _symbolic _____ 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI244PuzzleContinuePlayingLayoutSectionDescriptorO4DataV
+- _symbolic _____ 7NewsUI247CenteredLogoMastheadViewLayoutAttributesFactoryC
+- _symbolic _____ 7NewsUI29FeedQueryV
+- _symbolic _____ 8NewsFeed0B17ClusteringOptionsV
+- _symbolic _____ s5NeverO
+- _symbolic _____5model______16layoutAttributest 7NewsUI232ChannelIssuesGroupTitleViewModelV AA0cdefG16LayoutAttributesV
+- _symbolic _____Iegn_ 7NewsUI217SportsSyncSettingV
+- _symbolic _____Iegn_ 7NewsUI230SportsSyncFavoritesFetchResultV
+- _symbolic _____SgXw 7NewsUI213SearchTrackerC
+- _symbolic _____SgXw 7NewsUI217SearchMoreTrackerC
+- _symbolic _____SgXw 7NewsUI224CenteredLogoMastheadViewC
+- _symbolic _____SgXwz_Xx 5TeaUI9ImageViewC
+- _symbolic _____SgXwz_Xx 7NewsUI213SearchTrackerC
+- _symbolic _____SgXwz_Xx 7NewsUI217SearchMoreTrackerC
+- _symbolic _____SgXwz_Xx 7NewsUI224CenteredLogoMastheadViewC
+- _symbolic ______So18NSAttributedStringC13fallbackTitlet 8NewsFeed29PublisherLogoProcessorRequestC
+- _symbolic __________Iegyd_Sg So6CGSizeV So6CGRectV
+- _symbolic ___________7context_____Sg12callToActionSb06isCallcD7VisibleSb0efcD7Enabledt 7NewsUI217FeedMastheadModelC AA0dE7ContextV AA0D12CallToActionV
+- _symbolic ______p 12NewsArticles0A27PlusLabelConfigProviderTypeP
+- _symbolic ______p 12NewsArticles27RecipeRouteModelFactoryTypeP
+- _symbolic ______p 19NewsPersonalization0A23TabiStartupTaskExecutorP
+- _symbolic ______p 7NewsUI226SportsSyncServiceProxyTypeP
+- _symbolic ______p 7NewsUI229OfflineStatusBannerModuleTypeP
+- _symbolic ______p 7NewsUI229OfflineStatusBannerStylerTypeP
+- _symbolic ______p 7NewsUI234CenteredLogoMastheadViewStylerTypeP
+- _symbolic ______p 7NewsUI236CenteredLogoMastheadViewRendererTypeP
+- _symbolic ______p 7NewsUI251CenteredLogoMastheadViewLayoutAttributesFactoryTypeP
+- _symbolic _____ySSG 10AppIntents14EntityPropertyC
+- _symbolic _____ySSSgG 10AppIntents14EntityPropertyC
+- _symbolic _____y_____A3BG 10AppIntents21IntentResultContainerV s5NeverO
+- _symbolic _____y_____G 10AppIntents0A10DependencyC 0A9Analytics7TrackerC
+- _symbolic _____y_____G 10AppIntents15IntentParameterC 7NewsUI20E11TabDeepLinkV
+- _symbolic _____y_____G 10AppIntents15IntentParameterC 7NewsUI210FeedEntityV
+- _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 7NewsUI210FeedEntityV
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 7NewsUI205BlockC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 7NewsUI206FollowC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 7NewsUI207UnblockC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 7NewsUI208OpenFeedC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 7NewsUI214OpenStaticFeedV
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 7NewsUI20F11TabDeepLinkV
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 7NewsUI210FeedEntityV
+- _symbolic _____y_____GSg 13TeaFoundation7PromiseC 7NewsUI224SportsSyncServiceVersionO
+- _symbolic _____y______G 7NewsUI228TodayLayoutSectionDescriptorO4DataV 0A4Feed06FormatH5GroupV
+- _symbolic _____y______G 7NewsUI229SearchLayoutSectionDescriptorO4DataV 0A4Feed06FormatH5GroupV
+- _symbolic _____y______G 7NewsUI230TagFeedLayoutSectionDescriptorO4DataV 0aD006FormatD5GroupV
+- _symbolic _____y______G 7NewsUI232AudioFeedLayoutSectionDescriptorO4DataV 0aD006FormatD5GroupV
+- _symbolic _____y______G 7NewsUI232RecipeBoxLayoutSectionDescriptorO4DataV 0A4Feed06FormatI5GroupV
+- _symbolic _____y______G 7NewsUI232SavedFeedLayoutSectionDescriptorO4DataV 0aD006FormatD5GroupV
+- _symbolic _____y______G 7NewsUI233SearchMoreLayoutSectionDescriptorO4DataV 0A4Feed06FormatI5GroupV
+- _symbolic _____y______G 7NewsUI234HistoryFeedLayoutSectionDescriptorO4DataV 0aD006FormatD5GroupV
+- _symbolic _____y______G 7NewsUI235MagazineFeedLayoutSectionDescriptorO4DataV 0aD006FormatD5GroupV
+- _symbolic _____y______G 7NewsUI239AudioHistoryFeedLayoutSectionDescriptorO4DataV 0aE006FormatE5GroupV
+- _symbolic _____y______G 7NewsUI240AudioPlaylistFeedLayoutSectionDescriptorO4DataV 0aE006FormatE5GroupV
+- _symbolic _____y______G 7NewsUI240SharedWithYouFeedLayoutSectionDescriptorO4DataV 0aF006FormatF5GroupV
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 7NewsUI2011OpenHistoryC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 7NewsUI2016DecreaseTextSizeC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 7NewsUI2016IncreaseTextSizeC0V
+- _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 7NewsUI209OpenSavedC0V
+- _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 7NewsUI210FeedEntityV 10Foundation3URLV
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 5TeaUI17CommandCenterTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 7NewsUI214TagServiceTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 7NewsUI223FeedOptionsProviderTypeP
+- _symbolic _____y______pG 13TeaFoundation7PromiseC 7NewsUI221SportsSyncServiceTypeP
+- _symbolic _____y_____y_____GG 10AppIntents0A10DependencyC 5TeaUI14StackNavigatorC 7NewsUI20H9Activity2O
+- _symbolic _____y_____y_____y_____y_____y_____y_____y_____yAAy__________G______y_____ySay_____GSS_____yALy__________GALyA2NGGGGtGGG_Qo_______y_____yyt_____y_____GG_A1______y_____yADy_____yADyAAyA0______ySbGG_AEtGG_A_SgtGGGtGQo__Qo__Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationG4ItemV0hiJ0OFQO AeAE0fH0yQrAA4TextVFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE0N10Visibility_3forQrAA0Q0O_AA0P9PlacementVdtFQO AA06ScrollE0V AA6VStackV AA05TupleE0V AA6SpacerV AA12_FrameLayoutV AA04LazyU0V AA7ForEachV 7NewsUI2012RecipeFilterE5ModelC7SectionO AA012_ConditionalD0V A9_028RecipeFilterDurationsSectionE0V A9_030RecipeFilterTagCapsulesSectionE0V AA0vpD0V AA0pL0V AA6ButtonV AM AA0pL5GroupV AA6ZStackV AA6HStackV AA32_EnvironmentKeyTransformModifierV AA24_BackgroundStyleModifierV AA5ColorV
+- _symbolic _____y_ytG 7NewsUI230TagFeedLayoutSectionDescriptorO4DataV
+- _symbolic _____yxG 7NewsUI223ChannelIssuesInteractorC
+- _symbolic _____z_Xx 12NewsArticles16RecipeRouteModelO
+- _type_layout_string 7NewsUI2024CenteredLogoMastheadViewD0O
+- _type_layout_string 7NewsUI20A11TabDeepLinkV
+- _type_layout_string 7NewsUI211BlockIntentV
+- _type_layout_string 7NewsUI211BlockIntentV19FeedOptionsProviderV
+- _type_layout_string 7NewsUI212FollowIntentV
+- _type_layout_string 7NewsUI212FollowIntentV19FeedOptionsProviderV
+- _type_layout_string 7NewsUI213UnblockIntentV
+- _type_layout_string 7NewsUI213UnblockIntentV19FeedOptionsProviderV
+- _type_layout_string 7NewsUI214OpenFeedIntentV
+- _type_layout_string 7NewsUI214OpenFeedIntentV0D15OptionsProviderV
+- _type_layout_string 7NewsUI214OpenStaticFeedV
+- _type_layout_string 7NewsUI215OpenSavedIntentV
+- _type_layout_string 7NewsUI216FeedAvailabilityO
+- _type_layout_string 7NewsUI216RecipeFilterViewV
+- _type_layout_string 7NewsUI217OpenHistoryIntentV
+- _type_layout_string 7NewsUI221NameLogoMastheadModelV
+- _type_layout_string 7NewsUI221RecipeBoxSearchEntityV
+- _type_layout_string 7NewsUI222DecreaseTextSizeIntentV
+- _type_layout_string 7NewsUI222IncreaseTextSizeIntentV
+- _type_layout_string 7NewsUI225CenteredLogoMastheadModelV
+- _type_layout_string 7NewsUI29FeedQueryV
+CStrings:
++ " adSponsorship "
++ " context supplementaryInfo "
++ " openInBrowser "
++ " reason "
++ "$__lazy_storage_$_adSponsorshipsEnabled"
++ "$__lazy_storage_$_audioControlBarButtonItem"
++ "$__lazy_storage_$_configurableOffersEnabled"
++ "$__lazy_storage_$_exportToGroceryListEnabled"
++ "$__lazy_storage_$_stateFilterBarButtonItem"
++ "/Library/Caches/com.apple.xbs/Sources/Feldspar/Modules/news-reader/NewsUI/Commands/Handlers/OpenRecipeCommandHandler.swift"
++ "/Library/Caches/com.apple.xbs/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/TagFeed/TagFeedInteractor.swift"
++ "/Library/Caches/com.apple.xbs/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/WebEmbedFailureTracker.swift"
++ "@\"<FCRecipeItemFactoryType>\"16@0:8"
++ "@\"SWFeedConfiguration\"24@0:8@\"UIViewController\"16"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "Accessibility button label for the My Sports section section picker"
++ "Accessibility button label for the sections picker in channel feeds"
++ "Attemping to drag tab with identifier (%{public}s). Unknown item. drag is prevented."
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "Badge push disablement request received. Setting badge count to 0"
++ "Badge push enablement request received. Setting badge count to 1"
++ "Button label for the My Sports section section picker"
++ "Button label for the sections picker in channel feeds"
++ "Call-to-action string in the footer of a recipe topic group, where the placeholder `%@` is the name of the topic, e.g. 'More Pasta Recipes'"
++ "Canceling recipe view session=%s..."
++ "Did show viewer recipe, recipe=%s"
++ "Duplicate values for key: '"
++ "Error decoding badgeActionMetricsEvent data to dictionary: %@. Falling back to routing to default landing page"
++ "Expected `context` to be set inside recipe coordinator prior to ending view session"
++ "FCRecipeAutofavoritesProviding"
++ "FCRecipeScorable"
++ "Failed to cancel recipe view session=%s, reason='context is nil'"
++ "Failed to encode data, error: %{public}s"
++ "Failed to navigate to puzzle: %s"
++ "Failed to obtain current view session id when pushing data, for recipe=%s"
++ "Failed to start recipe view session=%s, reason='context is nil'"
++ "Feed loaded view session id=%{public}s"
++ "Food emitter fetched %ld forYou recipes"
++ "Food emitter fetching channel recipes.."
++ "Food emitter fetching forYou recipes.."
++ "Food emitter fetching topic recipes.."
++ "FoodClusteringService created ForYou recipes cluster=%{public}@"
++ "FoodClusteringService failure to fetch for you headlines resulted in min item requirement not being met; fallback to fetched (%ld) headlines as candidate pool, reclustering..."
++ "FoodClusteringService resolved (%ld) recipes for the Recipes cluster (For You and topic groups)"
++ "FoodClusteringService resolving recipes cluster..."
++ "FoodService did build fetch result, all=%lu, recent=%lu, trending=%lu, time=%llums, id=%{public}@"
++ "FoodService did fetch recipes from inventory, count=%lu, time=%llums, id=%{public}@"
++ "FoodService did lookup recipe lists, time=%llums, id=%{public}@"
++ "FoodService did score %lu recipes from inventory, time=%llums, id=%{public}@"
++ "FoodService will fetch recipes from inventory, id=%{public}@"
++ "FoodService will lookup recipe lists, id=%{public}@"
++ "FoodService will score %lu recipes from inventory, id=%{public}@"
++ "ForYou emitter pre-filter will consider %ld filtered items, derived from %ld evergreen items and %ld available headlines"
++ "ForYouRecipeCluster, count("
++ "ForYouRecipes emitter fetched recipes for you cluster=%s"
++ "ForYouRecipes emitter fetching clusters..."
++ "Label for the number of recipes found after applying filters in the recipe catalog filter UI."
++ "LegacyOfflineStatusBannerViewController did press Set Up Offline Mode button."
++ "LegacyOfflineStatusBannerViewController did press force reload button. Will execute command: %s"
++ "MastheadAdSponsorshipProviderType did fetch masthead sponsorship for type: %s, isFulfilled: %{bool}d"
++ "MastheadAdSponsorshipProviderType failed to fetch masthead sponsorship for type: %s, with error: %@"
++ "NewsUI2.DiagnosticFileProvider"
++ "NewsUI2.DiagnosticsFileProvider failed to export Today feed database"
++ "NewsUI2.DiagnosticsFileProvider failed to export feed database; name=%{public}s"
++ "NewsUI2.FeedPuzzleScoreCommandHandler"
++ "NewsUI2.LegacyOfflineStatusBannerViewController"
++ "NewsUI2.OfflineStatusBannerCoordinator"
++ "NewsUI2.WebEmbedShareActivityItemSource"
++ "NewsUI2/EndOfRecipeCoordinator.swift"
++ "NewsUI2/LegacyOfflineStatusBannerViewController.swift"
++ "No Recent Searches"
++ "Promoted headline service dropped ignored cluster ID headline for request %{public}@, identifier=%{public}@"
++ "Pushing view data for recipe=%s..."
++ "PuzzleGameCenterActivitiesHandler: Could not find puzzle type for activity %s"
++ "PuzzleGameCenterActivitiesHandler: Failed to generate URL for puzzleType ID = %s"
++ "PuzzleGameCenterActivitiesHandler: Failed to load puzzle type %s. Navigating to puzzle feed."
++ "PuzzleGameCenterActivitiesHandler: Navigating to puzzle %s."
++ "PuzzleGameCenterActivitiesHandler: No associated leaderboard found for activity %s. Navigating to puzzle feed."
++ "PuzzleGameCenterActivitiesHandler: No leaderboard configured for puzzle type %s. Navigating to puzzle feed."
++ "PuzzleGameCenterActivitiesHandler: No valid latest published puzzles for puzzle type %s. Navigating to puzzle feed."
++ "PuzzleGameCenterActivitiesHandler: failed to navigate to latest published puzzle for puzzleTypeID %@... Navigating to puzzle feed."
++ "PuzzlePrewarmer: Error in creating small thumbnails documents directory error=%@"
++ "PuzzlePrewarmer: Error in downloading small thumbnails when prewarming error=%@"
++ "PuzzlePrewarmer: Error in downloading small thumbnails when prewarming response=%@"
++ "PuzzlePrewarmer: Error in downloading small thumbnails when prewarming: No data"
++ "PuzzlePrewarmer: Error in prewarming puzzles error=%@"
++ "PuzzlePrewarmer: Error in prewarming stats error=%@"
++ "PuzzlePrewarmer: Error prewarming puzzle types error=%@"
++ "PuzzlePrewarmer: Error syncing puzzle history list error=%@"
++ "PuzzlePrewarmer: Finished downloading thumbnails"
++ "PuzzlePrewarmer: Finished prewarming puzzle types"
++ "PuzzlePrewarmer: Finished prewarming puzzles"
++ "PuzzlePrewarmer: Finished syncing puzzle history"
++ "PuzzlePrewarmer: No puzzles found in puzzle history. Nothing to prewarm for puzzles."
++ "PuzzlePrewarmer: Not a bundle subscriber. Not eligible for prewarming puzzles."
++ "PuzzlePrewarmer: Prewarming list of puzzleIDs=%s"
++ "PuzzlePrewarmer: Prewarming list of puzzlesType=%s with cachePolicy=%s"
++ "PuzzlePrewarmer: Prewarming puzzles is ignored since user has no puzzles in their history."
++ "PuzzlePrewarmer: Skipping puzzle prewarming as last prewarm time has not crossed the prewarmInterval, will just update stats"
++ "PuzzlePrewarmer: Skipping puzzle prewarming as network is not reachable"
++ "PuzzlePrewarmer: Starting downloading thumbnails"
++ "PuzzlePrewarmer: Starting puzzles prewarming"
++ "PuzzlePrewarmer: lastPrewarmTime=%f puzzlesPrewarmTimeInterval=%f timeDiff=%f"
++ "PuzzlePrewarmer: lastRefreshEngineTime=%f puzzlesEngineRefreshTimeInterval=%f timeDiff=%f"
++ "PuzzleViewController: Failed to reload puzzle %s"
++ "PuzzleViewController: Skipping tear down for teaser content."
++ "Q56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDropSession>\"32@\"UITabGroup\"40q48"
++ "Q56@0:8@16@24@32@40q48"
++ "QueryNewsAppEngagementDonorProperty"
++ "QueryNewsPlusEngagementDonorProperty"
++ "RecipeBoxDataManager failed to notify delegate with error=%{public}@"
++ "RecipeBoxFeedOfflineFeedBuilder failed to fetch recipe filter config with error:%{public}@"
++ "SWFeedConfigurationFactory"
++ "SportsOnboardingManager determining whether to refresh: isUserSignedIntoiCloud=%{public}@, isPrivateDataSyncingEnabled=%{public}@, onboardingState=%{public}@, syncStatus=%{public}@"
++ "SportsOnboardingManager does not need to refresh for subscription change event, reason='syncing is enabled and user is onboarded'"
++ "Starting view session=%s..."
++ "Storefront %{public}@ allows sports from any publisher"
++ "Storefront %{public}@ allows sports from publishers %{public}@"
++ "Storefront %{public}@ doesn't allow sports"
++ "Subtitle to show empty state for recent searches"
++ "Swift/Dictionary.swift"
++ "Swift/NativeDictionary.swift"
++ "T@\"<FCRecipeItemFactoryType>\",R,N"
++ "TB,N,VadSponsorshipsEnabled"
++ "TB,N,VconfigurableOffersEnabled"
++ "Tag feed curation service dedupping recipe %{public}@ from curation"
++ "There are pending Game Center activities"
++ "Title for New Window menu item"
++ "Title for Next Recipe menu item"
++ "Title for Previous Recipe menu item"
++ "Title for Suggest Less menu item"
++ "Title for Suggest More menu item"
++ "Title for audio feed play button in initial/completed state"
++ "Title for audio feed play button in initial/completed/paused state"
++ "Title for audio feed play button in paused state"
++ "Title for audio feed play button in playing state"
++ "Title of the button to clear all filters in the recipe catalog filter UI."
++ "Title to use for the search window"
++ "Title to use for the today window"
++ "TopicRecipes emitter create content for next group topic=%s, recipes=%ld"
++ "TopicRecipes emitter failed to resolve recipe catalog search url for footer link"
++ "Unable to route to `recipeCatalogSearch` when offline"
++ "Updating view session id=%{public}s"
++ "User navigation detected - abandoning Continue Reading prompt presentation, activity=%{public}@"
++ "User navigation detected, but does not invalidate Continue Reading prompt presentation, activity=%{public}@"
++ "Using cached recipeIDs, failed to fetch recipeIDs due to error=%{public}@"
++ "Your recent searches will appear here."
++ "_TtC7NewsUI222WebEmbedFailureTracker"
++ "_TtC7NewsUI223RecipeViewerCoordinator"
++ "_TtC7NewsUI225TagFeedViewerModernStyler"
++ "_TtC7NewsUI229FeedPuzzleScoreCommandHandler"
++ "_TtC7NewsUI229MastheadAdSponsorshipProvider"
++ "_TtC7NewsUI230OfflineStatusBannerCoordinator"
++ "_TtC7NewsUI231LegacyOfflineStatusBannerStyler"
++ "_TtC7NewsUI231RecipeBoxFeedOfflineFeedBuilder"
++ "_TtC7NewsUI231WebEmbedShareActivityItemSource"
++ "_TtC7NewsUI233PuzzleGameCenterActivitiesHandler"
++ "_TtC7NewsUI235MagazineTodayFeedGroupEmitterCursor"
++ "_TtC7NewsUI237TopicRecipesTagFeedGroupEmitterCursor"
++ "_TtC7NewsUI239LegacyOfflineStatusBannerViewController"
++ "_TtC7NewsUI241ModernMastheadViewLayoutAttributesFactory"
++ "_TtC7NewsUI2P33_7BBD82387C41A8B9A4DECD16296F2C3317FoodRecipeFetcher"
++ "_setHiddenPocketEdges:"
++ "_setShouldCollapseTabBarOnScroll:"
++ "_tabBarController:sidebar:insertItemsFromDropSession:intoTabGroup:atDisplayIndex:"
++ "_tabBarController:sidebar:operationForInsertingItemsFromDropSession:intoTabGroup:atDisplayIndex:"
++ "accessoryViewCoordinator"
++ "actionMetricsEvent"
++ "actionWithTitle:handler:"
++ "adSponsorship"
++ "adSponsorshipService"
++ "adSponsorshipView"
++ "adSponsorshipsEnabled"
++ "additionalAdSponsorshipHeight"
++ "arrow.turn.down.right"
++ "arrow.turn.up.left"
++ "autofavoriteTagIDs"
++ "baseMastheadBottomPadding"
++ "baseMastheadHeight"
++ "blueprintHorizontalShimView"
++ "builder"
++ "chevron.backward"
++ "com.apple.news.endOfRecipe"
++ "com.apple.onboarding.gamecenter"
++ "configurableOffersEnabled"
++ "configurableOffersMappingResourceId"
++ "contextualNames"
++ "createFeedConfigurationForViewController:"
++ "defaultTTLForArticleRecords"
++ "defaultTTLForIssueRecords"
++ "defaultTTLForPurchaseLookupRecords"
++ "defaultTTLForPuzzleRecords"
++ "defaultTTLForPuzzleTypeRecords"
++ "defaultTTLForRecipeListRecords"
++ "defaultTTLForRecipeRecords"
++ "defaultTTLForSportsEventRecords"
++ "defaultTTLForTagRecords"
++ "dismissingIdentifier"
++ "elementWithUncachedProvider:"
++ "enableIconBadgeIfNeeded: Setting badge count to 1"
++ "enableReloadAction"
++ "engagementBannerContentSpacing"
++ "engagementImpressionsReportingFrequency"
++ "exportToGroceryListEnabled"
++ "externalRecipeFactory"
++ "failed to get index path of tab item"
++ "feedConfigurationFactory"
++ "feedCursorExportContexts"
++ "feedDatabaseExporter"
++ "feedDismissingManager"
++ "forceReloadButtonTapped"
++ "freeRecentRecipeListIDs"
++ "freeTagRecipeListIDPrefix"
++ "hasRecipeList"
++ "identifier score "
++ "ignoreTagScoreForEligibility"
++ "init(banner:visibility:)"
++ "initWithIdentifier:type:title:publicationDate:coverDate:lastModifiedDate:metadataJSONAssetHandle:coverImageAssetHandle:coverImageAspectRatio:coverImagePrimaryColor:coverImageBackgroundColor:coverImageTextColor:coverImageAccentColor:layeredCoverJSON:layeredCoverAspectRatio:layeredCoverPrimaryColor:isCurrent:isDraft:isPaid:minimumNewsVersion:allArticleIDs:coverArticleID:allowedStorefrontIDs:blockedStorefrontIDs:topicTagIDs:sourceChannel:notificationDescription:issueDescription:sortDate:"
++ "initWithTabBarSystemItem:tag:"
++ "isTodaySponsorshipEligible"
++ "key_window"
++ "leaderboardID"
++ "leaderboards"
++ "line.3.horizontal.decrease"
++ "line.horizontal.3.decrease"
++ "location"
++ "lockedObservers"
++ "lower upper "
++ "mastheadActionButton"
++ "mastheadActionButtonOnTap"
++ "mastheadAdSponsorshipProvider"
++ "maxNumberOfCuratedItems"
++ "metrics"
++ "metrics enqueued with data: %s"
++ "mySportsTopic - "
++ "news.features.adSponsorshipsEnabled"
++ "offlineBannerCoordinator"
++ "openInBrowser"
++ "paidRecentRecipeListIDs"
++ "paidTagRecipeListIDPrefix"
++ "paywallBarButtonItem"
++ "preferredWindowingControlStyleForScene:"
++ "presenterForPrivacyUnifiedAboutWithIdentifiers:"
++ "puzzleGameCenterActivities"
++ "puzzleTypeLeaderboards"
++ "quaternaryLabelColor"
++ "rapidUpdatePersonalizationData"
++ "recentRecipeListProvider"
++ "recipeAutoFavoritesServiceConfigurationJSONData"
++ "recipeAutofavoritesProvider"
++ "recipeBoxFilterButton"
++ "recipeCoordinatorContainer"
++ "recipeFetchTask"
++ "recipeItemFactory"
++ "recipeItemInventory"
++ "recipePersonalizationAllowlistResourceId"
++ "recipePersonalizationBundleIdMappingResourceId"
++ "recipePersonalizationUrlMappingResourceId"
++ "recipeViewingSession"
++ "recipeViewingToken"
++ "recipe_box_search_2"
++ "reload"
++ "safeAreaContainerView"
++ "sceneDidBecomeActive: Direct launch of News, Setting badge count to 0"
++ "sceneDidBecomeActive: Indirect launch of News, no change to app icon badge"
++ "scoreType"
++ "searchMoreRefreshRecentSearch"
++ "searchRequestData"
++ "secondaryLoadedTable"
++ "sessionBadgeActionMetricsEvent"
++ "sessionBadgeMetrics"
++ "setActionButtonType:"
++ "setActionTitle:"
++ "setAdSponsorshipsEnabled:"
++ "setAttributedTitle:"
++ "setConfigurableOffersEnabled:"
++ "setEngagementImpressionsReportingFrequency:"
++ "setEngagementPushTopic:"
++ "setImages:"
++ "setLeftItemsSupplementBackButton:"
++ "setOriginalURL:"
++ "setPrimaryAction:"
++ "setRightBarButtonItem:animated:"
++ "setSourceItem:"
++ "setTitleTextAttributes:forState:"
++ "shareText2BackgroundColor"
++ "shareText2ForegroundColor"
++ "shareText2UseLargeFontNoCapsule"
++ "shareText3BackgroundColor"
++ "shareText3ForegroundColor"
++ "shareURL"
++ "showShareSheet:"
++ "skipModalPresentation"
++ "sponsorshipAdService"
++ "surfacedBy"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "textformat.size.larger"
++ "textformat.size.smaller"
++ "title subtitle body articleID "
++ "todayWidgetForYouMaxAIGArticles"
++ "topicRecipes"
++ "topicRecipesKnobs"
++ "trendingRecipeListProvider"
++ "updateDismissingIdentifier:"
++ "v16@?0@\"SGSuggestionAction\"8"
++ "v16@?0@?<v@?@\"NSArray\">8"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v56@0:8@\"UITabBarController\"16@\"UITabBarControllerSidebar\"24@\"<UIDropSession>\"32@\"UITabGroup\"40q48"
++ "v56@0:8@16@24@32@40q48"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "windowTitle"
+- " context callToAction isCallToActionVisible isCallToActionEnabled "
+- "$__lazy_storage_$_articleViewerImprovementsEnabled"
+- "$__lazy_storage_$_favoritesManager"
+- "$__lazy_storage_$_overrideSponsoredBannerBundleEligibility"
+- "$__lazy_storage_$_overrideSponsoredSuperfeedEligibility"
+- "$__lazy_storage_$_paidBundleViaOfferAllowIconBadge"
+- "$__lazy_storage_$_serviceVersionPromise"
+- "Adds a channel or topic to your Following list"
+- "Already following"
+- "Already unblocked"
+- "ArticleQuery return nil"
+- "Attempting to present paid bundle via offer upsell..."
+- "Attempting to route to default landing page..."
+- "Badging is being handled via app config. Skipping."
+- "Block Channel or Topic"
+- "Button that dismisses presented search results"
+- "Cannot block item of this type"
+- "Cannot decrease text size"
+- "Cannot increase text size"
+- "Cannot show Upsell Sheet despite badge since a sheet was shown < 1 min ago."
+- "Channel or Topic"
+- "Checking Tip eligibility for News+ Label tooltip presentation..."
+- "Decrease Text Size"
+- "Decrease Text Size through intent"
+- "Error encountered while trying to navigate to Recently Played: %@"
+- "Error encountered while trying to navigate to Recipe Box: %@"
+- "Error encountered while trying to navigate to Up Next: %@"
+- "Error encountered while trying to present the Continue Reading prompt with content ID (%{public}@) : %{public}@"
+- "Error in creating small thumbnails documents directory error=%@"
+- "Error in downloading small thumbnails when prewarming error=%@"
+- "Error in prewarming puzzles error=%@"
+- "Error in prewarming stats error=%@"
+- "Error refreshing offer: %s"
+- "Error syncing puzzle history list error=%@"
+- "Error while trying to handle an unsupported record URL: %@"
+- "Error while trying to navigate to EmailSignup: %@"
+- "Error while trying to navigate to Following: %@"
+- "Error while trying to navigate to History: %@"
+- "Error while trying to navigate to Interstitial preview: %@"
+- "Error while trying to navigate to Manage Subscriptions: %@"
+- "Error while trying to navigate to News Settings: %@"
+- "Error while trying to navigate to NewsletterSubscription [id=%s]: %@"
+- "Error while trying to navigate to NewsletterSubscription: %@"
+- "Error while trying to navigate to Notifications: %@"
+- "Error while trying to navigate to Puzzle Type Feed: %@"
+- "Error while trying to navigate to PuzzleHub: %@"
+- "Error while trying to navigate to Saved: %@"
+- "Error while trying to navigate to Shared with You: %@"
+- "Error while trying to navigate to SubscriptionOffers: %@"
+- "Error while trying to navigate to System Notifications: %@"
+- "Error while trying to navigate to alert: %{public}@"
+- "Error while trying to navigate to article preview: %@"
+- "Error while trying to navigate to browse channels plus: %@"
+- "Error while trying to navigate to browse channels: %@"
+- "Error while trying to navigate to for you feed: %@"
+- "Error while trying to navigate to manage notifications. %@"
+- "Error while trying to navigate to open in news alert: %@"
+- "Error while trying to navigate to recipe: %@"
+- "Error while trying to navigate to sports vanity URL: %@"
+- "Error while trying to navigate to tag: %@"
+- "Error while trying to navigate to web embed: %@"
+- "Expected `recipe` to be set inside coordinator prior to ending view session"
+- "Failed to convert resolved shortcut to data for string conversion"
+- "Failed to navigate to puzzle type feed. Error = %@"
+- "Finished prewarming puzzle types"
+- "Finished prewarming puzzles"
+- "Finished syncing puzzle history"
+- "Follow Channel or Topic"
+- "Following feed through intent, id=%s"
+- "FollowingPrewarmModifier()"
+- "FollowingSubscriptionModifier(subscribe="
+- "FoodService fetching recipes for recipe list ids=%{public}@"
+- "FoodService pulling from free global recipe list ids..."
+- "FoodService pulling from paid global recipe list ids..."
+- "ForYou emitter pre-filter will consider %ld normal items and %ld evergreen items.  %ld candidate items"
+- "ForYouRecipes is not supported in this version of News"
+- "Hint in badgeID: %s"
+- "ID"
+- "Icon badge feature is disabled. Exiting."
+- "Increase Text Size"
+- "Increase Text Size through intent"
+- "Launched with a badge with an unknown badgeID, skipping."
+- "Launched with a badge with badgeID: %s"
+- "Launched with a badge with no badgeID, attempting to route to default landing page..."
+- "LocationSharingURLHandler: Failed to navigate to system location sharing, error: %@"
+- "MagazineFeedSubscriptionModifier(action="
+- "MastheadPremiumSauce-Compact"
+- "MastheadPremiumSauce-Regular"
+- "MastheadSauce-Audio-Compact"
+- "MastheadSauce-MySports-Compact"
+- "MastheadSauce-MySports-Regular"
+- "MastheadSauce-NewsPlus-Compact"
+- "MastheadSauce-NewsPlus-Regular"
+- "MastheadSauce-Puzzle-Compact"
+- "MastheadSauce-Puzzle-Regular"
+- "News Tab Deep Links"
+- "News.TodayFeed.LayoutBuilder"
+- "NewsPersonalization"
+- "NewsUI2.CenteredLogoMastheadViewProvider"
+- "NewsUI2.OfflineStatusBannerViewController"
+- "NewsUI2/AudioSessionManager.swift"
+- "NewsUI2/CenteredLogoMastheadView.swift"
+- "NewsUI2/OfflineStatusBannerViewController.swift"
+- "NewsUI2/TagFeedViewerViewController.swift"
+- "No puzzles found in puzzle history. Nothing to prewarm for puzzles."
+- "Not a bundle subscriber. Not eligible for prewarming puzzles."
+- "Number of tip presentations [%ld] reached limit [%d]. Not eligible for News+ Label Tooltip presentation."
+- "Open Channel or Topic"
+- "Open History Feed"
+- "Open a feed in the News app"
+- "Opening History Feed through intent"
+- "Opening Saved Feed through intent"
+- "Opening feed through intent, id=%s"
+- "Prewarming list of puzzleIDs=%s"
+- "Prewarming list of puzzlesType=%s with cachePolicy=%s"
+- "Prewarming puzzles is ignored since user has no puzzles in their history."
+- "PuzzleViewController is visible. Skip popping the viewcontroller."
+- "Puzzles lastPrewarmTime=%f puzzlesPrewarmTimeInterval=%f timeDiff=%f"
+- "Puzzles lastRefreshEngineTime=%f puzzlesEngineRefreshTimeInterval=%f timeDiff=%f"
+- "Quiescence interval has not elapsed. Not eligible for News+ Label Tooltip presentation."
+- "Service sync added favorites resulted in error=%{public}s, visible duration=%{public}f"
+- "Service sync added favorites updated successfully, visible duration=%{public}f"
+- "Service sync removed favorites resulted in error=%{public}s, visible duration=%{public}f"
+- "Service sync removed favorites successfully, visible duration=%{public}f"
+- "Service syncing added favorites, ids=%{public}s"
+- "Service syncing favorites"
+- "Service syncing favorites failed resulted in unexpected error, visible duration=%{public}f"
+- "Service syncing favorites failed, error=%{public}s, visible duration=%{public}f"
+- "Service syncing favorites successful, visible duration=%{public}f, umcIDs=%{public}s"
+- "Service syncing removed favorites, ids=%{public}s"
+- "Skipping puzzle prewarming as last prewarm time has not crossed the prewarmInterval, will just update stats"
+- "Skipping puzzle prewarming as network is not reachable"
+- "Sports sync manager determining service version..."
+- "Sports sync manager determining service version...done, (time elapsed=%f)"
+- "SportsOnboardingManager observing subscription change, isUserSignedIntoiCloud=%{public}@, isPrivateDataSyncingEnabled=%{public}@"
+- "SportsSyncServiceProxy failed to fetch configuration for determining service version, using cached app configuration, error=%s"
+- "Starting puzzles prewarming"
+- "Sync service set optin state to '%{public}s"
+- "TB,N,VoverrideSponsoredBannerBundleEligibility"
+- "TB,N,VoverrideSponsoredSuperfeedEligibility"
+- "TFDiagnosticFileProvider"
+- "The channel or topic feed that will open"
+- "The description of the 'target' paramater on the `BlockIntent` intent"
+- "The description of the 'target' paramater on the `FollowIntent` intent"
+- "The description of the 'target' paramater on the `OpenFeedIntent` intent"
+- "The description of the 'target' paramater on the `UnblockIntent` intent"
+- "The description of the 'target' parameter on the `OpenStaticFeed` intent"
+- "The destination to open"
+- "The name of the channel or topic feed that will open"
+- "The name of the channel or topic that will be blocked"
+- "The name of the channel or topic that will be followed"
+- "The name of the channel or topic that will be unblocked"
+- "The name of the feed entity type used in intents."
+- "The name of the feed. Can be a channel or topic, or the name of a tab in the News app."
+- "The of the 'Subtitle' property of the Feed Entity used in intents."
+- "The title of the 'Block' intent"
+- "The title of the 'Decrease Text Size' intent"
+- "The title of the 'Increase Text Size' intent"
+- "The title of the 'Open Feed' intent"
+- "The title of the 'Open History Feed' Intent"
+- "The title of the 'Open Saved Feed' Intent"
+- "The title of the 'Unblock' intent"
+- "The title of the Block intent"
+- "The title of the Unblock intent"
+- "The title of the follow intent's paramater of the channel or topic that will be followed"
+- "The user has previously explicitly closed a News+ Label tooltip. Not eligible for News+ Label Tooltip presentation."
+- "Unable to follow"
+- "Unable to navigation to article %{public}s from recipe %{public}s - %{public}@"
+- "Unable to route to `recipeCatalogSearch` when offline; routing to `recipeCatalog` instead."
+- "Unable to unblock"
+- "Unblock Channel or Topic"
+- "User navigation detected - abandoning Continue Reading prompt presentation"
+- "Using cached recipeIDs, failed to fetch recipeIDs due to error=%@"
+- "WLKSportsFavoriteRepresentable"
+- "_TtC7NewsUI219SportsSyncV2Service"
+- "_TtC7NewsUI222SportsSyncServiceProxy"
+- "_TtC7NewsUI224CenteredLogoMastheadView"
+- "_TtC7NewsUI225OfflineStatusBannerStyler"
+- "_TtC7NewsUI225OpenRecipeIntentNavigator"
+- "_TtC7NewsUI226OpenArticleIntentNavigator"
+- "_TtC7NewsUI230CenteredLogoMastheadViewStyler"
+- "_TtC7NewsUI232CenteredLogoMastheadViewProvider"
+- "_TtC7NewsUI232CenteredLogoMastheadViewRenderer"
+- "_TtC7NewsUI233OfflineStatusBannerViewController"
+- "_TtC7NewsUI247CenteredLogoMastheadViewLayoutAttributesFactory"
+- "_shouldUpdateRecipeCount"
+- "addFavorites:completion:"
+- "appIconBadgeIdentifierBase"
+- "applenewss://apple.news/"
+- "articleViewerImprovementsEnabled"
+- "com.apple.News.NewsHardware1"
+- "confirmation button text for channel picker search bar"
+- "confirmation button text for sports management search bar"
+- "diagnosticDataWithCompletionHandler:"
+- "diagnosticFilesWithCompletionHandler:"
+- "endPoint"
+- "favoritesWithCompletion:"
+- "foryou"
+- "iconBadgeEnabled"
+- "iconFeedLike"
+- "iconFeedLikeSelected"
+- "iconFeedLikeSelectedWhite"
+- "iconFeedLikeWhite"
+- "iconFollowingDislikeSelected"
+- "iconMoreActionsSelected"
+- "iconMoreActionsSelectedWhite"
+- "iconSubscriptionButtonLike"
+- "iconSubscriptionButtonLikeSelected"
+- "initWithDouble:"
+- "initWithIdentifier:type:title:publicationDate:coverDate:metadataJSONAssetHandle:coverImageAssetHandle:coverImageAspectRatio:coverImagePrimaryColor:coverImageBackgroundColor:coverImageTextColor:coverImageAccentColor:layeredCoverJSON:layeredCoverAspectRatio:layeredCoverPrimaryColor:isCurrent:isDraft:isPaid:minimumNewsVersion:allArticleIDs:coverArticleID:allowedStorefrontIDs:blockedStorefrontIDs:topicTagIDs:sourceChannel:notificationDescription:issueDescription:sortDate:"
+- "isOnboarded:"
+- "keyCommandToggleSidebar"
+- "largeItemSize"
+- "layoutAttributes pluginIdentifier "
+- "leftContentView"
+- "locations"
+- "newsPlusLabelConfigProvider"
+- "offlineStatusBannerModule"
+- "overrideSponsoredBannerBundleEligibility"
+- "overrideSponsoredSuperfeedEligibility"
+- "prefersLargeTitles"
+- "recipeCatalogSearchConfigurationProfiles"
+- "recipeTagRecipeListIDPrefix"
+- "removeFavorites:completion:"
+- "respectRecipeChannelGroupingEligibility"
+- "rightContentView"
+- "sauceView"
+- "setCancelButtonText:"
+- "setMinimumScaleFactor:"
+- "setOptInStatus:completion:"
+- "setOverrideSponsoredBannerBundleEligibility:"
+- "setOverrideSponsoredSuperfeedEligibility:"
+- "shineImageFactory"
+- "sportsSearchConfigurationProfiles"
+- "sportsSyncService"
+- "sportsSyncV2Service"
+- "sportsSyncingConfigurationV2ResourceId"
+- "startPoint"
+- "toolTipDisplayMaxCount"
+- "triggerForceReloadFeeds"
+- "ts_checkmarkCircleTertiaryFillOnPink"
+- "ts_ellipsisCircleTertiaryFillOnPink"
+- "ts_fontSystemFontGradeTraitKey"
+- "ts_plusCirclePinkOnTertiaryFill"
+- "useTransparentNavigationBar"
+- "v28@?0B8@\"NSDate\"12@\"NSError\"20"
+- "v32@?0@\"NSArray\"8@\"NSDate\"16@\"NSError\"24"
+
+```

@@ -1,0 +1,761 @@
+## NCLaunchStats
+
+> `/System/Library/PrivateFrameworks/NCLaunchStats.framework/NCLaunchStats`
+
+```diff
+
+-1856.120.12.0.0
+-  __TEXT.__text: 0x4d78
+-  __TEXT.__auth_stubs: 0x400
+-  __TEXT.__objc_methlist: 0x3a4
+-  __TEXT.__const: 0x90
+-  __TEXT.__gcc_except_tab: 0x68
+-  __TEXT.__cstring: 0x40f
+-  __TEXT.__oslogstring: 0x2a7
+-  __TEXT.__unwind_info: 0x1a8
+-  __TEXT.__objc_classname: 0x12
+-  __TEXT.__objc_methname: 0x146f
+-  __TEXT.__objc_methtype: 0x213
+-  __TEXT.__objc_stubs: 0xec0
+-  __DATA_CONST.__got: 0x100
+-  __DATA_CONST.__const: 0x2f0
++2109.0.44.502.1
++  __TEXT.__text: 0x78
++  __TEXT.__auth_stubs: 0x20
++  __TEXT.__objc_methlist: 0x8c
++  __TEXT.__unwind_info: 0x60
++  __TEXT.__objc_classname: 0xe
++  __TEXT.__objc_methname: 0x144
++  __TEXT.__objc_methtype: 0x49
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4e8
++  __DATA_CONST.__objc_selrefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x210
+-  __AUTH_CONST.__const: 0x60
+-  __AUTH_CONST.__cfstring: 0x340
+-  __AUTH_CONST.__objc_const: 0x5b0
+-  __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH_CONST.__objc_intobj: 0x30
+-  __DATA.__objc_ivar: 0x7c
++  __AUTH_CONST.__auth_got: 0x10
++  __AUTH_CONST.__objc_const: 0x90
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__bss: 0x10
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4722AF81-DEA3-36D4-BB5B-0DC1ABAC7086
+-  Functions: 135
+-  Symbols:   561
+-  CStrings:  333
++  UUID: FAA12B15-718B-3352-BB16-3B8502A89C6C
++  Functions: 11
++  Symbols:   32
++  CStrings:  18
+ 
+Symbols:
+- +[NCLaunchStats minTimeBetweenRefreshes]
+- +[NCLaunchStats minTimeBootstrappingRandomizationSeed]
+- +[NCLaunchStats minTimeBootstrappingRandomizationSeed].cold.1
+- +[NCLaunchStats scheduleDeletionActivity:store:stream:]
+- -[NCLaunchStats .cxx_destruct]
+- -[NCLaunchStats appUpdateTimes]
+- -[NCLaunchStats appsRequestingRefresh]
+- -[NCLaunchStats asyncRecommendHandler]
+- -[NCLaunchStats bootstrapStartAfterDate:]
+- -[NCLaunchStats bootstrapWidgetIds]
+- -[NCLaunchStats bootstrapWidgetPrewarmActivity]
+- -[NCLaunchStats bootstrapWidgetTimeline]
+- -[NCLaunchStats canUpdateWidgetsUnsafe]
+- -[NCLaunchStats canUpdateWidgetsUnsafe].cold.1
+- -[NCLaunchStats canUpdateWidgetsUnsafe].cold.2
+- -[NCLaunchStats defaultRequiresNetwork]
+- -[NCLaunchStats defaultSchedulingPriority]
+- -[NCLaunchStats earliestRequestedRefresh:atDate:]
+- -[NCLaunchStats historyDeletionActivity]
+- -[NCLaunchStats immediateUpdatesAllowedForWidgetUnsafe:]
+- -[NCLaunchStats incrementOccurrencesForKey:byCount:]
+- -[NCLaunchStats initAfterClassCUnlocked]
+- -[NCLaunchStats initWithKnowledgeStore:]
+- -[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]
+- -[NCLaunchStats ncLog]
+- -[NCLaunchStats nextPredictedRefreshDate:afterDate:]
+- -[NCLaunchStats predictedWidgetUsage]
+- -[NCLaunchStats predictedWidgetUsage].cold.1
+- -[NCLaunchStats predictedWidgetsForDate:withTimeline:]
+- -[NCLaunchStats predictionTimeline]
+- -[NCLaunchStats predictionUpdateActivity]
+- -[NCLaunchStats predictor]
+- -[NCLaunchStats recordOccurrenceForKey:]
+- -[NCLaunchStats recordPrewarmStatisticsRaw:]
+- -[NCLaunchStats recordPrewarmStatisticsRaw:].cold.1
+- -[NCLaunchStats recordPrewarmStatisticsRaw:].cold.2
+- -[NCLaunchStats recordPrewarmStatisticsRaw:].cold.3
+- -[NCLaunchStats scheduleBootstrapWidgetRefresh]
+- -[NCLaunchStats schedulePredictionUpdateBeforeDate:]
+- -[NCLaunchStats scheduleWidgetRefresh:withRequestedRefreshes:]
+- -[NCLaunchStats scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:]
+- -[NCLaunchStats scheduler]
+- -[NCLaunchStats setAppUpdateTimes:]
+- -[NCLaunchStats setAppsRequestingRefresh:]
+- -[NCLaunchStats setAsyncRecommendHandler:]
+- -[NCLaunchStats setBootstrapWidgetIds:]
+- -[NCLaunchStats setBootstrapWidgetPrewarmActivity:]
+- -[NCLaunchStats setBootstrapWidgetTimeline:]
+- -[NCLaunchStats setDefaultRequiresNetwork:]
+- -[NCLaunchStats setDefaultSchedulingPriority:]
+- -[NCLaunchStats setHistoryDeletionActivity:]
+- -[NCLaunchStats setNcLog:]
+- -[NCLaunchStats setPredictionTimeline:]
+- -[NCLaunchStats setPredictionUpdateActivity:]
+- -[NCLaunchStats setPredictor:]
+- -[NCLaunchStats setScheduler:]
+- -[NCLaunchStats setStore:]
+- -[NCLaunchStats setSyncQueue:]
+- -[NCLaunchStats setWidgetPrewarmActivity:]
+- -[NCLaunchStats setWidgetStream:]
+- -[NCLaunchStats setWidgetViewTime:]
+- -[NCLaunchStats store]
+- -[NCLaunchStats syncQueue]
+- -[NCLaunchStats unprotectedRemoveAllRequestsBeforeDate:]
+- -[NCLaunchStats unprotectedRemoveRequestsForWidget:beforeDate:]
+- -[NCLaunchStats updateBARSwitch]
+- -[NCLaunchStats updateBootstrapWidgetsAtDate:withCompletion:]
+- -[NCLaunchStats updateBootstrapWidgetsAtDate:withCompletion:].cold.1
+- -[NCLaunchStats updateWidgetsAtDate:withTimeline:withCompletion:]
+- -[NCLaunchStats updateWidgetsAtDate:withTimeline:withCompletion:].cold.1
+- -[NCLaunchStats widgetPrewarmActivity]
+- -[NCLaunchStats widgetStream]
+- -[NCLaunchStats widgetViewTime]
+- -[NCLaunchStats widgetsToRefreshAtDate:withTimeline:]
+- GCC_except_table26
+- GCC_except_table29
+- GCC_except_table34
+- GCC_except_table39
+- _AnalyticsSendEventLazy
+- _CFNotificationCenterAddObserver
+- _CFNotificationCenterGetDarwinNotifyCenter
+- _CFNotificationCenterRemoveEveryObserver
+- _CFRelease
+- _KeepAppsUpToDateEnabledChangedNotification
+- _MGCopyAnswer
+- _MKBDeviceUnlockedSinceBoot
+- _NSLog
+- _OBJC_CLASS_$_MCProfileConnection
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSCalendar
+- _OBJC_CLASS_$_NSCompoundPredicate
+- _OBJC_CLASS_$_NSConstantArray
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSDate
+- _OBJC_CLASS_$_NSDictionary
+- _OBJC_CLASS_$_NSDistributedNotificationCenter
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$__DASActivity
+- _OBJC_CLASS_$__DASScheduler
+- _OBJC_CLASS_$__DKEvent
+- _OBJC_CLASS_$__DKEventQuery
+- _OBJC_CLASS_$__DKEventStream
+- _OBJC_CLASS_$__DKKnowledgeStore
+- _OBJC_CLASS_$__DKPredictionQuery
+- _OBJC_CLASS_$__DKPredictionTimeline
+- _OBJC_CLASS_$__DKQuery
+- _OBJC_IVAR_$_NCLaunchStats._appUpdateTimes
+- _OBJC_IVAR_$_NCLaunchStats._appsRequestingRefresh
+- _OBJC_IVAR_$_NCLaunchStats._asyncRecommendHandler
+- _OBJC_IVAR_$_NCLaunchStats._bootstrapWidgetIds
+- _OBJC_IVAR_$_NCLaunchStats._bootstrapWidgetPrewarmActivity
+- _OBJC_IVAR_$_NCLaunchStats._bootstrapWidgetTimeline
+- _OBJC_IVAR_$_NCLaunchStats._defaultRequiresNetwork
+- _OBJC_IVAR_$_NCLaunchStats._defaultSchedulingPriority
+- _OBJC_IVAR_$_NCLaunchStats._historyDeletionActivity
+- _OBJC_IVAR_$_NCLaunchStats._ncLog
+- _OBJC_IVAR_$_NCLaunchStats._predictionTimeline
+- _OBJC_IVAR_$_NCLaunchStats._predictionUpdateActivity
+- _OBJC_IVAR_$_NCLaunchStats._predictor
+- _OBJC_IVAR_$_NCLaunchStats._scheduler
+- _OBJC_IVAR_$_NCLaunchStats._store
+- _OBJC_IVAR_$_NCLaunchStats._syncQueue
+- _OBJC_IVAR_$_NCLaunchStats._widgetPrewarmActivity
+- _OBJC_IVAR_$_NCLaunchStats._widgetStream
+- _OBJC_IVAR_$_NCLaunchStats._widgetViewTime
+- _OBJC_IVAR_$_NCLaunchStats.appSpecificTriggerToken
+- _OBJC_IVAR_$_NCLaunchStats.backgroundAppRefreshSwitchedOn
+- _OBJC_IVAR_$_NCLaunchStats.classCLockedToken
+- _OBJC_IVAR_$_NCLaunchStats.generatePredictionToken
+- _OBJC_IVAR_$_NCLaunchStats.isClassCLocked
+- _OBJC_IVAR_$_NCLaunchStats.kTimeGuardBand
+- _OBJC_IVAR_$_NCLaunchStats.launchTracker
+- _OBJC_IVAR_$_NCLaunchStats.numPrewarmedLaunches
+- _OBJC_IVAR_$_NCLaunchStats.numRepeatedPrewarms
+- _OBJC_IVAR_$_NCLaunchStats.predictedWidgetsToken
+- _OBJC_IVAR_$_NCLaunchStats.prewarmDurationTracker
+- _OBJC_IVAR_$_NCLaunchStats.prewarmTimeTracker
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- __Block_object_dispose
+- __DASActivityDurationShort
+- __DASActivityDurationVeryShort
+- __DASSchedulingPriorityBackground
+- __DASSchedulingPriorityDefault
+- __DASSchedulingPriorityMaintenance
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __OBJC_$_CLASS_METHODS_NCLaunchStats
+- __OBJC_$_INSTANCE_VARIABLES_NCLaunchStats
+- __OBJC_$_PROP_LIST_NCLaunchStats
+- __Unwind_Resume
+- ___26-[NCLaunchStats endEvent:]_block_invoke
+- ___28-[NCLaunchStats startEvent:]_block_invoke
+- ___32-[NCLaunchStats updateBARSwitch]_block_invoke
+- ___39-[NCLaunchStats setBootstrapWidgetIDs:]_block_invoke
+- ___40-[NCLaunchStats initAfterClassCUnlocked]_block_invoke
+- ___40-[NCLaunchStats recordOccurrenceForKey:]_block_invoke
+- ___40-[NCLaunchStats recordOccurrenceForKey:]_block_invoke_2
+- ___47-[NCLaunchStats scheduleBootstrapWidgetRefresh]_block_invoke
+- ___47-[NCLaunchStats scheduleBootstrapWidgetRefresh]_block_invoke_2
+- ___47-[NCLaunchStats scheduleBootstrapWidgetRefresh]_block_invoke_3
+- ___49-[NCLaunchStats cancelRequestedRefreshForWidget:]_block_invoke
+- ___49-[NCLaunchStats earliestRequestedRefresh:atDate:]_block_invoke
+- ___51-[NCLaunchStats requestRefreshForWidget:afterDate:]_block_invoke
+- ___51-[NCLaunchStats requestRefreshForWidget:afterDate:]_block_invoke.127
+- ___51-[NCLaunchStats requestRefreshForWidget:afterDate:]_block_invoke_2
+- ___52-[NCLaunchStats incrementOccurrencesForKey:byCount:]_block_invoke
+- ___52-[NCLaunchStats incrementOccurrencesForKey:byCount:]_block_invoke_2
+- ___52-[NCLaunchStats schedulePredictionUpdateBeforeDate:]_block_invoke
+- ___53-[NCLaunchStats widgetsToRefreshAtDate:withTimeline:]_block_invoke
+- ___54+[NCLaunchStats minTimeBootstrappingRandomizationSeed]_block_invoke
+- ___55+[NCLaunchStats scheduleDeletionActivity:store:stream:]_block_invoke
+- ___56-[NCLaunchStats unprotectedRemoveAllRequestsBeforeDate:]_block_invoke
+- ___61-[NCLaunchStats updateBootstrapWidgetsAtDate:withCompletion:]_block_invoke
+- ___64-[NCLaunchStats setNCLaunchRecommendationHandlerWithCompletion:]_block_invoke
+- ___64-[NCLaunchStats setNCLaunchRecommendationHandlerWithCompletion:]_block_invoke.cold.1
+- ___65-[NCLaunchStats updateWidgetsAtDate:withTimeline:withCompletion:]_block_invoke
+- ___73-[NCLaunchStats preWarmHasEnded:withResult:withTriggerType:withSequence:]_block_invoke
+- ___73-[NCLaunchStats preWarmHasEnded:withResult:withTriggerType:withSequence:]_block_invoke.cold.1
+- ___75-[NCLaunchStats preWarmHasStarted:withResult:withTriggerType:withSequence:]_block_invoke
+- ___77-[NCLaunchStats scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:]_block_invoke
+- ___77-[NCLaunchStats scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:]_block_invoke_2
+- ___77-[NCLaunchStats scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:]_block_invoke_3
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke.72
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke.75
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke.88
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_2
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_2.77
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_2.77.cold.1
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_2.77.cold.2
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_3
+- ___89-[NCLaunchStats initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:]_block_invoke_3.cold.1
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___CFConstantStringClassReference
+- ___NSArray0__struct
+- ___NSDictionary0__struct
+- ___block_descriptor_32_e17_v16?0"NSArray"8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e33_B32?0"NSString"8"NSDate"16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e8_v12?0i8ls32l8
+- ___block_descriptor_40_e8_32w_e22_v16?0"_DASActivity"8lw32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e33_v32?0"NSString"8"NSDate"16^B24ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSArray"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e33_v32?0"NSString"8"NSDate"16^B24ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e22_v16?0"_DASActivity"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e19_"NSDictionary"8?0ls32l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSArray"8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e17_v16?0"NSArray"8ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s_e22_v16?0"_DASActivity"8ls32l8s40l8s48l8
+- ___block_literal_global
+- ___block_literal_global.129
+- ___block_literal_global.91
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __os_log_debug_impl
+- __os_log_impl
+- _appLaunchStatsSBSettingsRefresh
+- _arc4random_uniform
+- _dispatch_async
+- _dispatch_once
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_queue_create
+- _dispatch_sync
+- _kCFBooleanTrue
+- _kMGQueryhas
+- _minTimeBootstrappingRandomizationSeed.hourRandomizationSeed
+- _minTimeBootstrappingRandomizationSeed.onceToken
+- _notify_cancel
+- _notify_get_state
+- _notify_register_dispatch
+- _objc_alloc
+- _objc_autoreleaseReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend
+- _objc_msgSend$activityCanceled:
+- _objc_msgSend$activityCompleted:
+- _objc_msgSend$activityWithName:priority:duration:startingAfter:startingBefore:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$allKeys
+- _objc_msgSend$allObjects
+- _objc_msgSend$andPredicateWithSubpredicates:
+- _objc_msgSend$appsRequestingRefresh
+- _objc_msgSend$array
+- _objc_msgSend$arrayForKey:
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$bootstrapStartAfterDate:
+- _objc_msgSend$bootstrapWidgetIds
+- _objc_msgSend$canUpdateWidgetsUnsafe
+- _objc_msgSend$components:fromDate:
+- _objc_msgSend$containsString:
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentCalendar
+- _objc_msgSend$currentLocale
+- _objc_msgSend$date
+- _objc_msgSend$dateByAddingTimeInterval:
+- _objc_msgSend$dateFromComponents:
+- _objc_msgSend$dateWithTimeIntervalSinceNow:
+- _objc_msgSend$defaultCenter
+- _objc_msgSend$defaultManager
+- _objc_msgSend$defaultRequiresNetwork
+- _objc_msgSend$defaultSchedulingPriority
+- _objc_msgSend$deleteObjects:error:
+- _objc_msgSend$descriptionWithLocale:
+- _objc_msgSend$dictionary
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$distantFuture
+- _objc_msgSend$distantPast
+- _objc_msgSend$doubleValue
+- _objc_msgSend$earliestRequestedRefresh:atDate:
+- _objc_msgSend$endDate
+- _objc_msgSend$enumerateKeysAndObjectsUsingBlock:
+- _objc_msgSend$eventQueryWithPredicate:eventStreams:offset:limit:sortDescriptors:
+- _objc_msgSend$eventStreamWithName:
+- _objc_msgSend$eventWithStream:startDate:endDate:identifierStringValue:metadata:
+- _objc_msgSend$executeQuery:error:
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$immediateUpdatesAllowedForWidgetUnsafe:
+- _objc_msgSend$incrementOccurrencesForKey:byCount:
+- _objc_msgSend$initAfterClassCUnlocked
+- _objc_msgSend$initWithKnowledgeStore:
+- _objc_msgSend$initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:
+- _objc_msgSend$initWithSuiteName:
+- _objc_msgSend$intersectSet:
+- _objc_msgSend$isAutomaticAppUpdatesAllowed
+- _objc_msgSend$isEqual:
+- _objc_msgSend$keysOfEntriesPassingTest:
+- _objc_msgSend$knowledgeStore
+- _objc_msgSend$lastObject
+- _objc_msgSend$laterDate:
+- _objc_msgSend$minTimeBetweenRefreshes
+- _objc_msgSend$minTimeBootstrappingRandomizationSeed
+- _objc_msgSend$minusSet:
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$nextPredictedRefreshDate:afterDate:
+- _objc_msgSend$numberWithLongLong:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$predicateForEventsOfMinimumDuration:
+- _objc_msgSend$predicateForEventsWithStartInDateRangeFrom:to:
+- _objc_msgSend$predictedWidgetUsage
+- _objc_msgSend$predictedWidgetsForDate:withTimeline:
+- _objc_msgSend$predictionTimeline
+- _objc_msgSend$recordOccurrenceForKey:
+- _objc_msgSend$recordPrewarmStatisticsRaw:
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeObjectAtIndex:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObjectsForKeys:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$requiresNetwork
+- _objc_msgSend$saveObjects:error:
+- _objc_msgSend$scheduleBootstrapWidgetRefresh
+- _objc_msgSend$scheduleDeletionActivity:store:stream:
+- _objc_msgSend$schedulePredictionUpdateBeforeDate:
+- _objc_msgSend$scheduleWidgetRefresh:withRequestedRefreshes:
+- _objc_msgSend$scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:
+- _objc_msgSend$scheduler
+- _objc_msgSend$set
+- _objc_msgSend$setBootstrapWidgetPrewarmActivity:
+- _objc_msgSend$setHandlerQueue:
+- _objc_msgSend$setMinute:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setPredictionTimeline:
+- _objc_msgSend$setPredictionUpdateActivity:
+- _objc_msgSend$setRequiresDeviceInactivity:
+- _objc_msgSend$setRequiresNetwork:
+- _objc_msgSend$setRequiresPlugin:
+- _objc_msgSend$setRequiresUnconstrainedNetworking:
+- _objc_msgSend$setSlotDuration:
+- _objc_msgSend$setStartHandler:
+- _objc_msgSend$setWidgetPrewarmActivity:
+- _objc_msgSend$sharedConnection
+- _objc_msgSend$sharedScheduler
+- _objc_msgSend$startAfter
+- _objc_msgSend$submitActivity:
+- _objc_msgSend$syncQueue
+- _objc_msgSend$timeIntervalSinceDate:
+- _objc_msgSend$timelineWithValues:forDurations:startingAt:
+- _objc_msgSend$topNPredictionQueryForStream:withPredicate:withTopN:withMinLikelihood:
+- _objc_msgSend$unprotectedRemoveAllRequestsBeforeDate:
+- _objc_msgSend$unprotectedRemoveRequestsForWidget:beforeDate:
+- _objc_msgSend$updateBARSwitch
+- _objc_msgSend$updateBootstrapWidgetsAtDate:withCompletion:
+- _objc_msgSend$updateWidgetsAtDate:withTimeline:withCompletion:
+- _objc_msgSend$valueAtDate:
+- _objc_msgSend$widgetsToRefreshAtDate:withTimeline:
+- _objc_opt_class
+- _objc_opt_new
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainBlock
+- _objc_retain_x1
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x3
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_setProperty_nonatomic_copy
+- _objc_storeStrong
+- _os_log_create
+- _os_log_type_enabled
+CStrings:
+- "%@"
+- "%@ requested update at date %@"
+- "%@ viewed for %lf seconds"
+- "%@ widgets forecasted and requested, %@ widgets only requested, %@ widgets only forecasted"
+- "'%@' requesting update at %@"
+- "-setNCLaunchRecommendationHandler: is deprecated. Please use -setNCLaunchRecommendationHandlerWithCompletion: instead"
+- ".cxx_destruct"
+- "/var/mobile/Library/CoreDuet/Widgets/"
+- "/widgets/viewed"
+- "@\"<_DASActivityScheduler>\""
+- "@\"<_DKKnowledgeSaving><_DKKnowledgeDeleting><_DKKnowledgeQuerying>\""
+- "@\"NSDictionary\"8@?0"
+- "@\"NSMutableDictionary\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSObject<OS_os_log>\""
+- "@\"NSSet\""
+- "@\"_DASActivity\""
+- "@\"_DKEventStream\""
+- "@\"_DKPredictionTimeline\""
+- "@\"_DKPredictor\""
+- "@24@0:8@16"
+- "@32@0:8@16@24"
+- "@36@0:8@16Q24B32"
+- "@?"
+- "@?16@0:8"
+- "B"
+- "B16@0:8"
+- "B24@0:8@16"
+- "B32@?0@\"NSString\"8@\"NSDate\"16^B24"
+- "BAR disabled."
+- "Couldn't delete file at '%@', %@"
+- "Immediate request denied."
+- "Invalidated recommendedHandler"
+- "Launch Prediction %@"
+- "NCLS No Response from MG"
+- "No apps suggested...Defaulting to %@"
+- "PasswordConfigured"
+- "Prewarm has ended: %@"
+- "Prewarm has started: %@"
+- "ProductType"
+- "Q"
+- "Q16@0:8"
+- "Recommending widgets: %@"
+- "Requesting refresh of %@"
+- "T@\"<_DASActivityScheduler>\",&,N,V_scheduler"
+- "T@\"<_DKKnowledgeSaving><_DKKnowledgeDeleting><_DKKnowledgeQuerying>\",&,N,V_store"
+- "T@\"NSMutableDictionary\",&,N,V_appUpdateTimes"
+- "T@\"NSMutableDictionary\",&,N,V_appsRequestingRefresh"
+- "T@\"NSMutableDictionary\",&,N,V_widgetViewTime"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,V_syncQueue"
+- "T@\"NSObject<OS_os_log>\",&,N,V_ncLog"
+- "T@\"NSSet\",&,N,V_bootstrapWidgetIds"
+- "T@\"_DASActivity\",&,N,V_bootstrapWidgetPrewarmActivity"
+- "T@\"_DASActivity\",&,N,V_historyDeletionActivity"
+- "T@\"_DASActivity\",&,N,V_predictionUpdateActivity"
+- "T@\"_DASActivity\",&,N,V_widgetPrewarmActivity"
+- "T@\"_DKEventStream\",&,N,V_widgetStream"
+- "T@\"_DKPredictionTimeline\",&,N,V_bootstrapWidgetTimeline"
+- "T@\"_DKPredictionTimeline\",&,N,V_predictionTimeline"
+- "T@\"_DKPredictor\",&,N,V_predictor"
+- "T@?,C,N,V_asyncRecommendHandler"
+- "TB,N,V_defaultRequiresNetwork"
+- "TQ,N,V_defaultSchedulingPriority"
+- "Widget '%@' viewed cold"
+- "Widget '%@' viewed hot"
+- "Widget '%@' viewed warm"
+- "_appUpdateTimes"
+- "_appsRequestingRefresh"
+- "_asyncRecommendHandler"
+- "_bootstrapWidgetIds"
+- "_bootstrapWidgetPrewarmActivity"
+- "_bootstrapWidgetTimeline"
+- "_defaultRequiresNetwork"
+- "_defaultSchedulingPriority"
+- "_historyDeletionActivity"
+- "_ncLog"
+- "_predictionTimeline"
+- "_predictionUpdateActivity"
+- "_predictor"
+- "_scheduler"
+- "_store"
+- "_syncQueue"
+- "_widgetPrewarmActivity"
+- "_widgetStream"
+- "_widgetViewTime"
+- "activityCanceled:"
+- "activityCompleted:"
+- "activityWithName:priority:duration:startingAfter:startingBefore:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "allKeys"
+- "allObjects"
+- "andPredicateWithSubpredicates:"
+- "appSpecificTriggerToken"
+- "appUpdateTimes"
+- "appsRequestingRefresh"
+- "appsToRefresh"
+- "array"
+- "arrayForKey:"
+- "arrayWithArray:"
+- "arrayWithObjects:count:"
+- "asyncRecommendHandler"
+- "backgroundAppRefreshSwitchedOn"
+- "bootstrapStartAfterDate:"
+- "bootstrapWidgetIds"
+- "bootstrapWidgetPrewarmActivity"
+- "bootstrapWidgetTimeline"
+- "canUpdateWidgetsUnsafe"
+- "classCLockedToken"
+- "com.apple.DuetNCLaunchStats"
+- "com.apple.NCLS"
+- "com.apple.NCLaunchStats.BGRefreshes"
+- "com.apple.NCLaunchStats.BGRefreshes.bootstrap"
+- "com.apple.NCLaunchStats.BGWidgetRefreshes"
+- "com.apple.NCLaunchStats.BGWidgetRefreshes.bootstrap"
+- "com.apple.NCLaunchStats.Cold"
+- "com.apple.NCLaunchStats.Hot"
+- "com.apple.NCLaunchStats.Warm"
+- "com.apple.dasd.NCLSmetrics"
+- "com.apple.mobile.keybagd.first_unlock"
+- "com.apple.ncls.custom"
+- "com.apple.ncls.generateprediction"
+- "com.apple.ncls.predictedwidgets"
+- "com.apple.ncls.refreshApps"
+- "com.apple.ncwidgetrefresh"
+- "com.apple.news.widget"
+- "com.apple.widgetRefresh.bootstrap.refresh"
+- "com.apple.widgetRefresh.historyDeletion"
+- "com.apple.widgetRefresh.predictionUpdate"
+- "com.apple.widgetRefresh.refresh"
+- "components:fromDate:"
+- "containsString:"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "currentCalendar"
+- "currentLocale"
+- "d"
+- "d16@0:8"
+- "date"
+- "dateByAddingTimeInterval:"
+- "dateFromComponents:"
+- "dateWithTimeIntervalSinceNow:"
+- "defaultCenter"
+- "defaultManager"
+- "defaultRequiresNetwork"
+- "defaultSchedulingPriority"
+- "deleteObjects:error:"
+- "descriptionWithLocale:"
+- "dictionary"
+- "dictionaryWithObjects:forKeys:count:"
+- "distantFuture"
+- "distantPast"
+- "doubleValue"
+- "earliestRequestedRefresh:atDate:"
+- "endDate"
+- "enumerateKeysAndObjectsUsingBlock:"
+- "eventQueryWithPredicate:eventStreams:offset:limit:sortDescriptors:"
+- "eventStreamWithName:"
+- "eventWithStream:startDate:endDate:identifierStringValue:metadata:"
+- "executeQuery:error:"
+- "fileExistsAtPath:"
+- "generatePredictionToken"
+- "historyDeletionActivity"
+- "i"
+- "iPad"
+- "immediateUpdatesAllowedForWidgetUnsafe:"
+- "incrementOccurrencesForKey:byCount:"
+- "initAfterClassCUnlocked"
+- "initWithKnowledgeStore:"
+- "initWithKnowledgeStore:defaultSchedulingPriority:defaultRequiresNetwork:"
+- "initWithSuiteName:"
+- "intersectSet:"
+- "isAutomaticAppUpdatesAllowed"
+- "isClassCLocked"
+- "isEqual:"
+- "kKeepAppsUpToDateEnabledChangedNotification"
+- "kTimeGuardBand"
+- "key"
+- "keysOfEntriesPassingTest:"
+- "knowledgeStore"
+- "lastObject"
+- "laterDate:"
+- "launchTracker"
+- "minTimeBetweenRefreshes"
+- "minTimeBootstrappingRandomizationSeed"
+- "minusSet:"
+- "mutableCopy"
+- "ncLog"
+- "nextPredictedRefreshDate:afterDate:"
+- "numPrewarmedLaunches"
+- "numRepeatedPrewarms"
+- "numberWithLongLong:"
+- "numberWithUnsignedInteger:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "objectForKeyedSubscript:"
+- "predicateForEventsOfMinimumDuration:"
+- "predicateForEventsWithStartInDateRangeFrom:to:"
+- "predictedWidgetUsage"
+- "predictedWidgetsForDate:withTimeline:"
+- "predictedWidgetsToken"
+- "predictionTimeline"
+- "predictionUpdateActivity"
+- "predictor"
+- "prewarm"
+- "prewarmDurationTracker"
+- "prewarmTimeTracker"
+- "q"
+- "recommendHandler not set!"
+- "recommendHandler not set."
+- "recordOccurrenceForKey:"
+- "recordPrewarmStatisticsRaw:"
+- "removeItemAtPath:error:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "removeObjectsForKeys:"
+- "removeObserver:"
+- "requiresNetwork"
+- "saveObjects:error:"
+- "scheduleBootstrapWidgetRefresh"
+- "scheduleDeletionActivity:store:stream:"
+- "schedulePredictionUpdateBeforeDate:"
+- "scheduleWidgetRefresh:withRequestedRefreshes:"
+- "scheduleWidgetRefresh:withRequestedRefreshes:cancelExisting:"
+- "scheduler"
+- "set"
+- "setAppUpdateTimes:"
+- "setAppsRequestingRefresh:"
+- "setAsyncRecommendHandler:"
+- "setBootstrapWidgetIds:"
+- "setBootstrapWidgetPrewarmActivity:"
+- "setBootstrapWidgetTimeline:"
+- "setDefaultRequiresNetwork:"
+- "setDefaultSchedulingPriority:"
+- "setHandlerQueue:"
+- "setHistoryDeletionActivity:"
+- "setMinute:"
+- "setNcLog:"
+- "setObject:forKeyedSubscript:"
+- "setPredictionTimeline:"
+- "setPredictionUpdateActivity:"
+- "setPredictor:"
+- "setRequiresDeviceInactivity:"
+- "setRequiresNetwork:"
+- "setRequiresPlugin:"
+- "setRequiresUnconstrainedNetworking:"
+- "setScheduler:"
+- "setSlotDuration:"
+- "setStartHandler:"
+- "setStore:"
+- "setSyncQueue:"
+- "setWidgetPrewarmActivity:"
+- "setWidgetStream:"
+- "setWidgetViewTime:"
+- "sharedConnection"
+- "sharedScheduler"
+- "startAfter"
+- "store"
+- "submitActivity:"
+- "syncQueue"
+- "timeGuardBand"
+- "timeIntervalSinceDate:"
+- "timelineWithValues:forDurations:startingAt:"
+- "topNPredictionQueryForStream:withPredicate:withTopN:withMinLikelihood:"
+- "unprotectedRemoveAllRequestsBeforeDate:"
+- "unprotectedRemoveRequestsForWidget:beforeDate:"
+- "updateBARSwitch"
+- "updateBootstrapWidgetsAtDate:withCompletion:"
+- "updateWidgetsAtDate:withTimeline:withCompletion:"
+- "v12@?0i8"
+- "v16@?0@\"NSArray\"8"
+- "v16@?0@\"_DASActivity\"8"
+- "v20@0:8B16"
+- "v24@0:8Q16"
+- "v32@0:8@16@?24"
+- "v32@0:8@16q24"
+- "v32@?0@\"NSString\"8@\"NSDate\"16^B24"
+- "v36@0:8@16@24B32"
+- "v40@0:8@16@24@32"
+- "v40@0:8@16@24@?32"
+- "v8@?0"
+- "value"
+- "valueAtDate:"
+- "widgetPrewarmActivity"
+- "widgetStream"
+- "widgetViewTime"
+- "widgetsToRefreshAtDate:withTimeline:"
+
+```

@@ -1,0 +1,104 @@
+## TextInput_vi
+
+> `/System/Library/TextInput/TextInput_vi.bundle/TextInput_vi`
+
+```diff
+
+-3479.503.100.0.0
+-  __TEXT.__text: 0x3cd0
+-  __TEXT.__auth_stubs: 0x620
++3504.100.0.0.0
++  __TEXT.__text: 0x3e74
++  __TEXT.__auth_stubs: 0x610
+   __TEXT.__init_offsets: 0xc
+   __TEXT.__objc_methlist: 0x23c
+   __TEXT.__cstring: 0x172
+   __TEXT.__const: 0x10
+-  __TEXT.__unwind_info: 0x70
++  __TEXT.__unwind_info: 0x78
+   __TEXT.__objc_classname: 0x90
+-  __TEXT.__objc_methname: 0x77c
+-  __TEXT.__objc_methtype: 0xe5
++  __TEXT.__objc_methname: 0x779
++  __TEXT.__objc_methtype: 0xed
+   __TEXT.__objc_stubs: 0x760
+   __DATA_CONST.__got: 0x70
+   __DATA_CONST.__const: 0x48
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x270
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x318
++  __AUTH_CONST.__auth_got: 0x310
+   __AUTH_CONST.__const: 0x310
+   __AUTH_CONST.__cfstring: 0x1a0
+   __AUTH_CONST.__objc_const: 0x348
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 9E07387D-C1E4-3C00-975F-F1D3D146A5BF
+-  Functions: 144
+-  Symbols:   532
+-  CStrings:  140
++  UUID: 8FA58552-46FA-3AEB-BC36-BDE36355C0CB
++  Functions: 148
++  Symbols:   547
++  CStrings:  141
+ 
+Symbols:
++ -[TIKeyboardInputManager_vi supportedReasonsForInputMethodChoiceFreeze]
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B8nn200100ERKS7_
++ __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB8nn200100Ev
++ __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorIN2KB6StringEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8nn200100INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8nn200100Ev
++ __ZNSt3__14pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEED1Ev
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEEC2B8nn200100ERKS5_
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__init_with_sizeB8nn200100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B8nn200100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE5clearB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE5clearB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE9push_backB8nn200100ERKS4_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE5clearB8nn200100Ev
++ __ZNSt3__19remove_ifB8nn200100INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
++ __ZSt28__throw_bad_array_new_lengthB8nn200100v
+- -[TIKeyboardInputManager_vi shouldFreezeInputMethodChoiceForPopupVariants]
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EEC2B8nn190102ERKS7_
+- __ZNSt3__110__function12__value_funcIFN2KB6StringERKS3_EED2B8nn190102Ev
+- __ZNSt3__112__destroy_atB8nn190102INS_4pairIKN2KB10ByteStringEN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEEEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN2KB15CandidateFilterEEERNS_9allocatorIS4_EEE5clearB8nn190102Ev
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN2KB10FilterFlagEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_10shared_ptrIN2KB15CandidateFilterEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8nn190102Ev
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIN2KB10FilterFlagENS_9allocatorIS2_EEEC2ERKS5_
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIN2KB6StringENS_9allocatorIS2_EEED1B8nn190102Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIN3WTF6RefPtrIN2TI8Favonius9LayoutKeyEEENS_9allocatorIS6_EEE7__clearB8nn190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN2KB15CandidateFilterEEENS_9allocatorIS4_EEE7__clearB8nn190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE7__clearB8nn190102Ev
+- __ZNSt3__19remove_ifB8nn190102INS_11__wrap_iterIPN2KB9CandidateEEEU13block_pointerFbRKS3_EEET_SA_SA_T0_
+- __ZSt28__throw_bad_array_new_lengthB8nn190102v
+- __Znwm
+CStrings:
++ "q16@0:8"
++ "supportedReasonsForInputMethodChoiceFreeze"
+- "shouldFreezeInputMethodChoiceForPopupVariants"
+
+```

@@ -1,0 +1,2106 @@
+## CoreNFC
+
+> `/System/Library/Frameworks/CoreNFC.framework/CoreNFC`
+
+```diff
+
+-355.4.0.0.0
+-  __TEXT.__text: 0x44ca4
+-  __TEXT.__auth_stubs: 0xdf0
+-  __TEXT.__objc_methlist: 0x1ff4
+-  __TEXT.__const: 0x12a8
+-  __TEXT.__gcc_except_tab: 0xbc8
+-  __TEXT.__cstring: 0x302d
+-  __TEXT.__oslogstring: 0x28a6
+-  __TEXT.__swift5_typeref: 0x6e3
++360.33.0.0.0
++  __TEXT.__text: 0x430d4
++  __TEXT.__auth_stubs: 0xe00
++  __TEXT.__objc_methlist: 0x2034
++  __TEXT.__const: 0x1370
++  __TEXT.__swift5_typeref: 0x6fc
+   __TEXT.__swift5_fieldmd: 0x6f4
+   __TEXT.__constg_swiftt: 0x81c
++  __TEXT.__cstring: 0x3253
+   __TEXT.__swift5_reflstr: 0x744
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift5_types: 0x7c
+-  __TEXT.__swift5_capture: 0x3a8
++  __TEXT.__swift5_capture: 0x3a0
++  __TEXT.__oslogstring: 0x28a3
+   __TEXT.__swift5_assocty: 0x48
+   __TEXT.__swift5_mpenum: 0x28
+   __TEXT.__swift5_proto: 0x54
+-  __TEXT.__swift_as_entry: 0x80
+-  __TEXT.__swift_as_ret: 0x80
+-  __TEXT.__unwind_info: 0x1220
+-  __TEXT.__eh_frame: 0xf58
+-  __TEXT.__objc_classname: 0x431
+-  __TEXT.__objc_methname: 0x39b0
+-  __TEXT.__objc_methtype: 0x162a
+-  __TEXT.__objc_stubs: 0x25a0
++  __TEXT.__swift_as_entry: 0x78
++  __TEXT.__swift_as_ret: 0x7c
++  __TEXT.__unwind_info: 0x1010
++  __TEXT.__eh_frame: 0xe00
++  __TEXT.__objc_classname: 0x42f
++  __TEXT.__objc_methname: 0x3a0d
++  __TEXT.__objc_methtype: 0x1644
++  __TEXT.__objc_stubs: 0x2560
+   __DATA_CONST.__got: 0x230
+-  __DATA_CONST.__const: 0xad0
+-  __DATA_CONST.__objc_classlist: 0x148
++  __DATA_CONST.__const: 0xab0
++  __DATA_CONST.__objc_classlist: 0x150
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x188
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe98
++  __DATA_CONST.__objc_selrefs: 0xea8
+   __DATA_CONST.__objc_protorefs: 0x108
+   __DATA_CONST.__objc_superrefs: 0xb0
+   __AUTH_CONST.__auth_got: 0x708
+-  __AUTH_CONST.__const: 0x1910
+-  __AUTH_CONST.__cfstring: 0xec0
+-  __AUTH_CONST.__objc_const: 0xb040
++  __AUTH_CONST.__const: 0x1938
++  __AUTH_CONST.__cfstring: 0xea0
++  __AUTH_CONST.__objc_const: 0x3a78
+   __AUTH_CONST.__objc_intobj: 0x48
+-  __AUTH.__objc_data: 0xe38
+-  __AUTH.__data: 0x788
+-  __DATA.__objc_ivar: 0x13c
+-  __DATA.__data: 0xfc8
+-  __DATA.__crash_info: 0x40
++  __AUTH.__objc_data: 0xea8
++  __AUTH.__data: 0x7d0
++  __DATA.__objc_ivar: 0x140
++  __DATA.__data: 0xe98
++  __DATA.__crash_info: 0x148
++  __DATA.__common: 0x2dd
+   __DATA.__bss: 0xab0
+-  __DATA.__common: 0x2e0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 3F599762-A3BF-3711-A945-7317DA1CDF29
+-  Functions: 1509
+-  Symbols:   3416
+-  CStrings:  1491
++  UUID: F4301988-94AD-3C82-BAB5-5682E3B58783
++  Functions: 1494
++  Symbols:   274
++  CStrings:  1508
+ 
+Symbols:
++ _OBJC_CLASS_$_NFCPaymentTagReaderSession
++ _OBJC_METACLASS_$_NFCPaymentTagReaderSession
++ ___assert_rtn
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ _swift_coroFrameAlloc
++ _swift_deletedAsyncMethodErrorTu
++ _swift_task_isCurrentExecutor
++ _swift_task_reportUnexpectedExecutor
++ _swift_unknownObjectRelease_n
++ _swift_willThrowTypedImpl
+- +[NFCCardSessionCallbackInterface interface]
+- +[NFCCardSessionInterface interface]
+- +[NFCError errorWithCode:]
+- +[NFCError errorWithCode:userInfo:]
+- +[NFCError errorWithNFCDError:defaultNFCErrorCode:]
+- +[NFCFieldDetectSessionCallbacksInterface interface]
+- +[NFCHardwareManager sharedHardwareManager]
+- +[NFCHardwareManager sharedHardwareManager].cold.1
+- +[NFCHardwareManagerCallbacks interface]
+- +[NFCHardwareManagerCallbacks interface].cold.1
+- +[NFCHardwareManagerInterface interface]
+- +[NFCHardwareManagerInterface interface].cold.1
+- +[NFCISO15693ReaderSession readingAvailable]
+- +[NFCISO15693ReaderSessionTag decodeIdentifier:manufacturerCode:serialNumber:]
+- +[NFCISO15693ReaderSessionTag decodeIdentifier:manufacturerCode:serialNumber:].cold.1
+- +[NFCISO15693ReaderSessionTag reverseByteOrder:]
+- +[NFCNDEFMessage _getPayloadsFromNDEFRecords:]
+- +[NFCNDEFMessage _validateRecords:fromOriginal:]
+- +[NFCNDEFMessage ndefMessageWithData:]
+- +[NFCNDEFMessage supportsSecureCoding]
+- +[NFCNDEFPayload supportsSecureCoding]
+- +[NFCNDEFPayload(ConvenienceHelpers) wellKnowTypeTextPayloadWithString:locale:]
+- +[NFCNDEFPayload(ConvenienceHelpers) wellKnownTypeTextPayloadWithString:locale:]
+- +[NFCNDEFPayload(ConvenienceHelpers) wellKnownTypeURIPayloadWithString:]
+- +[NFCNDEFPayload(ConvenienceHelpers) wellKnownTypeURIPayloadWithURL:]
+- +[NFCNDEFReaderSession readingAvailable]
+- +[NFCNDEFTag supportsSecureCoding]
+- +[NFCPresentmentSuppression assertionWithAssertion:delegate:]
+- +[NFCReaderSession featureAvailable:]
+- +[NFCReaderSession readingAvailable]
+- +[NFCTag _MaxRetryInterval]
+- +[NFCTag _MaxRetry]
+- +[NFCTag supportsSecureCoding]
+- +[NFCTagReaderSession readingAvailable]
+- +[NFCVASReaderSession readingAvailable]
+- +[NFReaderSessionCallbacks interface]
+- +[NFReaderSessionInterface _configureInterface:]
+- +[NFReaderSessionInterface interface]
+- -[NFCError initWithCode:userInfo:]
+- -[NFCFeliCaTag copyWithZone:]
+- -[NFCFeliCaTag currentIDm]
+- -[NFCFeliCaTag currentSystemCode]
+- -[NFCFeliCaTag pollingWithSystemCode:requestCode:timeSlot:completionHandler:]
+- -[NFCFeliCaTag readWithoutEncryptionWithServiceCodeList:blockList:completionHandler:]
+- -[NFCFeliCaTag requestResponseWithCompletionHandler:]
+- -[NFCFeliCaTag requestServiceV2WithNodeCodeList:completionHandler:]
+- -[NFCFeliCaTag requestServiceWithNodeCodeList:completionHandler:]
+- -[NFCFeliCaTag requestSpecificationVersionWithCompletionHandler:]
+- -[NFCFeliCaTag requestSystemCodeWithCompletionHandler:]
+- -[NFCFeliCaTag resetModeWithCompletionHandler:]
+- -[NFCFeliCaTag sendFeliCaCommandPacket:completionHandler:]
+- -[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]
+- -[NFCHardwareManager .cxx_destruct]
+- -[NFCHardwareManager _cleanupPresentmentAssertion]
+- -[NFCHardwareManager _queueSession:]
+- -[NFCHardwareManager addNFCHardwareManagerCallbacksListener:]
+- -[NFCHardwareManager areFeaturesSupported:expiry:completion:]
+- -[NFCHardwareManager areFeaturesSupported:outError:]
+- -[NFCHardwareManager dequeueSession:]
+- -[NFCHardwareManager didExpire]
+- -[NFCHardwareManager didFinishCooldown]
+- -[NFCHardwareManager didInvalidate]
+- -[NFCHardwareManager getDelegates]
+- -[NFCHardwareManager getReaderSessionWithKey:]
+- -[NFCHardwareManager hwStateDidChange:]
+- -[NFCHardwareManager init]
+- -[NFCHardwareManager isCardSessionEligibleWithCompletionHandler:]
+- -[NFCHardwareManager queueCardFieldDetectSession:completionHandler:]
+- -[NFCHardwareManager queueCardSession:sessionConfig:completionHandler:]
+- -[NFCHardwareManager queueReaderSession:sessionConfig:completionHandler:]
+- -[NFCHardwareManager releasePresentmentSuppression:completion:]
+- -[NFCHardwareManager requestPresentmentSuppressionWithDelegate:completion:]
+- -[NFCISO15693CustomCommandConfiguration .cxx_destruct]
+- -[NFCISO15693CustomCommandConfiguration asNSDataWithError:]
+- -[NFCISO15693CustomCommandConfiguration copyWithZone:]
+- -[NFCISO15693CustomCommandConfiguration customCommandCode]
+- -[NFCISO15693CustomCommandConfiguration flags]
+- -[NFCISO15693CustomCommandConfiguration initWithManufacturerCode:customCommandCode:requestParameters:]
+- -[NFCISO15693CustomCommandConfiguration initWithManufacturerCode:customCommandCode:requestParameters:maximumRetries:retryInterval:]
+- -[NFCISO15693CustomCommandConfiguration manufacturerCode]
+- -[NFCISO15693CustomCommandConfiguration requestParameters]
+- -[NFCISO15693CustomCommandConfiguration setCustomCommandCode:]
+- -[NFCISO15693CustomCommandConfiguration setFlags:]
+- -[NFCISO15693CustomCommandConfiguration setManufacturerCode:]
+- -[NFCISO15693CustomCommandConfiguration setRequestParameters:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration asNSDataArrayWithUID:error:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration chunkSize]
+- -[NFCISO15693ReadMultipleBlocksConfiguration copyWithZone:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration flags]
+- -[NFCISO15693ReadMultipleBlocksConfiguration initWithRange:chunkSize:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration initWithRange:chunkSize:maximumRetries:retryInterval:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration range]
+- -[NFCISO15693ReadMultipleBlocksConfiguration setChunkSize:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration setFlags:]
+- -[NFCISO15693ReadMultipleBlocksConfiguration setRange:]
+- -[NFCISO15693ReaderSession didDetectTags:connectedTagIndex:]
+- -[NFCISO15693ReaderSession initWithDelegate:queue:]
+- -[NFCISO15693ReaderSession initWithDelegate:queue:pollMethod:]
+- -[NFCISO15693ReaderSession initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:]
+- -[NFCISO15693ReaderSession restartPolling]
+- -[NFCISO15693ReaderSessionTag _parseResponseData:outError:]
+- -[NFCISO15693ReaderSessionTag _parseResponseErrorWithData:]
+- -[NFCISO15693ReaderSessionTag _transceiveWithData:receivedData:commandConfig:error:]
+- -[NFCISO15693ReaderSessionTag authenticateWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]
+- -[NFCISO15693ReaderSessionTag challengeWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]
+- -[NFCISO15693ReaderSessionTag copyWithZone:]
+- -[NFCISO15693ReaderSessionTag customCommandWithRequestFlag:customCommandCode:customRequestParameters:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedGetMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedLockBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedReadMultipleBlocksWithRequestFlags:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedReadSingleBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]
+- -[NFCISO15693ReaderSessionTag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]
+- -[NFCISO15693ReaderSessionTag fastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag getMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag getSystemInfoAndUIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693ReaderSessionTag getSystemInfoWithRequestFlag:completionHandler:]
+- -[NFCISO15693ReaderSessionTag icManufacturerCode]
+- -[NFCISO15693ReaderSessionTag icSerialNumber]
+- -[NFCISO15693ReaderSessionTag identifier]
+- -[NFCISO15693ReaderSessionTag keyUpdateWithRequestFlags:keyIdentifier:message:completionHandler:]
+- -[NFCISO15693ReaderSessionTag lockAFIWithRequestFlag:completionHandler:]
+- -[NFCISO15693ReaderSessionTag lockBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693ReaderSessionTag lockDFSIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693ReaderSessionTag lockDSFIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693ReaderSessionTag readBufferWithRequestFlags:completionHandler:]
+- -[NFCISO15693ReaderSessionTag readMultipleBlocksWithConfiguration:completionHandler:]
+- -[NFCISO15693ReaderSessionTag readMultipleBlocksWithRequestFlags:blockRange:completionHandler:]
+- -[NFCISO15693ReaderSessionTag readSingleBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693ReaderSessionTag resetToReadyWithRequestFlags:completionHandler:]
+- -[NFCISO15693ReaderSessionTag selectWithRequestFlags:completionHandler:]
+- -[NFCISO15693ReaderSessionTag sendCustomCommandWithConfiguration:completionHandler:]
+- -[NFCISO15693ReaderSessionTag sendRequestWithFlag:commandCode:data:completionHandler:]
+- -[NFCISO15693ReaderSessionTag stayQuietWithCompletionHandler:]
+- -[NFCISO15693ReaderSessionTag writeAFIWithRequestFlag:afi:completionHandler:]
+- -[NFCISO15693ReaderSessionTag writeDSFIDWithRequestFlag:dsfid:completionHandler:]
+- -[NFCISO15693ReaderSessionTag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]
+- -[NFCISO15693ReaderSessionTag writeSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]
+- -[NFCISO15693Tag _generateRequestHeader:flags:]
+- -[NFCISO15693Tag _parseResponseErrorWithData:]
+- -[NFCISO15693Tag _wtxRetryWithCommnand:maxRetry:completionHandler:]
+- -[NFCISO15693Tag authenticateWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]
+- -[NFCISO15693Tag challengeWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]
+- -[NFCISO15693Tag copyWithZone:]
+- -[NFCISO15693Tag customCommandWithRequestFlag:customCommandCode:customRequestParameters:completionHandler:]
+- -[NFCISO15693Tag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693Tag extendedGetMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693Tag extendedLockBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693Tag extendedReadMultipleBlocksWithRequestFlags:blockRange:completionHandler:]
+- -[NFCISO15693Tag extendedReadSingleBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]
+- -[NFCISO15693Tag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]
+- -[NFCISO15693Tag fastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693Tag getMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]
+- -[NFCISO15693Tag getSystemInfoAndUIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693Tag getSystemInfoWithRequestFlag:completionHandler:]
+- -[NFCISO15693Tag icManufacturerCode]
+- -[NFCISO15693Tag icSerialNumber]
+- -[NFCISO15693Tag identifier]
+- -[NFCISO15693Tag keyUpdateWithRequestFlags:keyIdentifier:message:completionHandler:]
+- -[NFCISO15693Tag lockAFIWithRequestFlag:completionHandler:]
+- -[NFCISO15693Tag lockBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693Tag lockDFSIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693Tag lockDSFIDWithRequestFlag:completionHandler:]
+- -[NFCISO15693Tag readBufferWithRequestFlags:completionHandler:]
+- -[NFCISO15693Tag readMultipleBlocksWithConfiguration:completionHandler:]
+- -[NFCISO15693Tag readMultipleBlocksWithRequestFlags:blockRange:completionHandler:]
+- -[NFCISO15693Tag readSingleBlockWithRequestFlags:blockNumber:completionHandler:]
+- -[NFCISO15693Tag resetToReadyWithRequestFlags:completionHandler:]
+- -[NFCISO15693Tag selectWithRequestFlags:completionHandler:]
+- -[NFCISO15693Tag sendCustomCommandWithConfiguration:completionHandler:]
+- -[NFCISO15693Tag sendRequestWithFlag:commandCode:data:completionHandler:]
+- -[NFCISO15693Tag stayQuietWithCompletionHandler:]
+- -[NFCISO15693Tag writeAFIWithRequestFlag:afi:completionHandler:]
+- -[NFCISO15693Tag writeDSFIDWithRequestFlag:dsfid:completionHandler:]
+- -[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]
+- -[NFCISO15693Tag writeSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]
+- -[NFCISO7816APDU .cxx_destruct]
+- -[NFCISO7816APDU asData]
+- -[NFCISO7816APDU copyWithZone:]
+- -[NFCISO7816APDU data]
+- -[NFCISO7816APDU description]
+- -[NFCISO7816APDU expectedResponseLength]
+- -[NFCISO7816APDU initWithData:]
+- -[NFCISO7816APDU initWithInstructionClass:instructionCode:p1Parameter:p2Parameter:data:expectedResponseLength:]
+- -[NFCISO7816APDU instructionClass]
+- -[NFCISO7816APDU instructionCode]
+- -[NFCISO7816APDU p1Parameter]
+- -[NFCISO7816APDU p2Parameter]
+- -[NFCISO7816Tag copyWithZone:]
+- -[NFCISO7816Tag initialSelectedAID]
+- -[NFCISO7816Tag sendCommandAPDU:completionHandler:]
+- -[NFCMiFareTag copyWithZone:]
+- -[NFCMiFareTag initWithSession:tag:startupConfig:]
+- -[NFCMiFareTag mifareFamily]
+- -[NFCMiFareTag sendMiFareCommand:completionHandler:]
+- -[NFCMiFareTag sendMiFareISO7816Command:completionHandler:]
+- -[NFCMiFareTag setMifareFamily:]
+- -[NFCNDEFMessage .cxx_destruct]
+- -[NFCNDEFMessage _getURLsFromNDEFMessage:]
+- -[NFCNDEFMessage _initWithRecords:]
+- -[NFCNDEFMessage asData]
+- -[NFCNDEFMessage description]
+- -[NFCNDEFMessage encodeWithCoder:]
+- -[NFCNDEFMessage initWithCoder:]
+- -[NFCNDEFMessage initWithEmptyNdefMessage]
+- -[NFCNDEFMessage initWithNDEFRecords:]
+- -[NFCNDEFMessage initWithNFNdefMessage:]
+- -[NFCNDEFMessage length]
+- -[NFCNDEFMessage records]
+- -[NFCNDEFMessage setRecords:]
+- -[NFCNDEFPayload .cxx_destruct]
+- -[NFCNDEFPayload asData]
+- -[NFCNDEFPayload chunkSize]
+- -[NFCNDEFPayload description]
+- -[NFCNDEFPayload encodeWithCoder:]
+- -[NFCNDEFPayload identifier]
+- -[NFCNDEFPayload initWithCoder:]
+- -[NFCNDEFPayload initWithFormat:type:identifier:payload:]
+- -[NFCNDEFPayload initWithFormat:type:identifier:payload:chunkSize:]
+- -[NFCNDEFPayload initWithFormatType:type:identifier:payload:chunkSize:]
+- -[NFCNDEFPayload payload]
+- -[NFCNDEFPayload setChunkSize:]
+- -[NFCNDEFPayload setIdentifier:]
+- -[NFCNDEFPayload setPayload:]
+- -[NFCNDEFPayload setType:]
+- -[NFCNDEFPayload setTypeNameFormat:]
+- -[NFCNDEFPayload typeNameFormat]
+- -[NFCNDEFPayload type]
+- -[NFCNDEFPayload(ConvenienceHelpers) resolveURIString:]
+- -[NFCNDEFPayload(ConvenienceHelpers) wellKnownTypeTextPayloadWithLocale:]
+- -[NFCNDEFPayload(ConvenienceHelpers) wellKnownTypeURIPayload]
+- -[NFCNDEFReaderSession _callbackDidBecomeActive]
+- -[NFCNDEFReaderSession connectToTag:completionHandler:]
+- -[NFCNDEFReaderSession didDetectNDEFMessages:fromTags:connectedTagIndex:updateUICallback:]
+- -[NFCNDEFReaderSession didTerminate:]
+- -[NFCNDEFReaderSession initWithDelegate:queue:invalidateAfterFirstRead:]
+- -[NFCNDEFReaderSession initWithDelegate:queue:pollMethod:]
+- -[NFCNDEFReaderSession initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:]
+- -[NFCNDEFReaderSession restartPolling]
+- -[NFCNDEFTag .cxx_destruct]
+- -[NFCNDEFTag _connectWithCompletionHandler:]
+- -[NFCNDEFTag _connectWithError:]
+- -[NFCNDEFTag _disconnectWithError:]
+- -[NFCNDEFTag _getInternalReaderSession]
+- -[NFCNDEFTag _setDelegateQueue:]
+- -[NFCNDEFTag _setSession:]
+- -[NFCNDEFTag _setTag:]
+- -[NFCNDEFTag _updateNdefStatusWithSession:]
+- -[NFCNDEFTag copyWithZone:]
+- -[NFCNDEFTag copyWithZone:].cold.1
+- -[NFCNDEFTag copyWithZone:].cold.2
+- -[NFCNDEFTag dispatchBlockOnDelegateQueueAsync:]
+- -[NFCNDEFTag encodeWithCoder:]
+- -[NFCNDEFTag hardwareManager]
+- -[NFCNDEFTag initWithCoder:]
+- -[NFCNDEFTag initWithCoder:].cold.1
+- -[NFCNDEFTag initWithSession:tag:startupConfig:]
+- -[NFCNDEFTag initWithSession:tag:startupConfig:].cold.1
+- -[NFCNDEFTag initWithSession:tag:startupConfig:].cold.2
+- -[NFCNDEFTag initWithSession:tag:startupConfig:].cold.3
+- -[NFCNDEFTag isAvailable]
+- -[NFCNDEFTag isMatchingSession:outError:]
+- -[NFCNDEFTag queryNDEFStatusWithCompletionHandler:]
+- -[NFCNDEFTag readNDEFWithCompletionHandler:]
+- -[NFCNDEFTag writeLockWithCompletionHandler:]
+- -[NFCNDEFTag writeNDEF:completionHandler:]
+- -[NFCPresentmentSuppression .cxx_destruct]
+- -[NFCPresentmentSuppression assertion]
+- -[NFCPresentmentSuppression delegate]
+- -[NFCPresentmentSuppression externalHandle]
+- -[NFCPresentmentSuppression initWithAssertion:delegate:]
+- -[NFCPresentmentSuppression invalidate]
+- -[NFCPresentmentSuppression setDelegate:]
+- -[NFCPresentmentSuppression startAssertion:]
+- -[NFCPresentmentSuppression startCooldown:]
+- -[NFCReaderSession .cxx_destruct]
+- -[NFCReaderSession _callbackDidBecomeActive]
+- -[NFCReaderSession _callbackDidInvalidateWithError:]
+- -[NFCReaderSession _connectTag:error:]
+- -[NFCReaderSession _convertMessageToInternal:]
+- -[NFCReaderSession _invalidateSessionAndActivateCallbackWithCode:]
+- -[NFCReaderSession _invalidateSessionWithCode:]
+- -[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]
+- -[NFCReaderSession _restartPollingWithCompletionHandler:]
+- -[NFCReaderSession _resumeDelegateQueue]
+- -[NFCReaderSession _startPollingWithMethod:sessionConfig:completionHandler:]
+- -[NFCReaderSession _stopPollingWithCompletionHandler:]
+- -[NFCReaderSession alertMessage]
+- -[NFCReaderSession beginSessionWithConfig:]
+- -[NFCReaderSession beginSession]
+- -[NFCReaderSession checkPresenceWithError:]
+- -[NFCReaderSession cleanupNFCHardwareManagerRegistration]
+- -[NFCReaderSession connectTag:completionHandler:]
+- -[NFCReaderSession connectTag:error:]
+- -[NFCReaderSession currentTag]
+- -[NFCReaderSession dealloc]
+- -[NFCReaderSession delegateType]
+- -[NFCReaderSession delegate]
+- -[NFCReaderSession didDetectExternalReader]
+- -[NFCReaderSession didDetectNDEFMessages:fromTags:connectedTagIndex:updateUICallback:]
+- -[NFCReaderSession didDetectTags:connectedTagIndex:]
+- -[NFCReaderSession didInvalidate]
+- -[NFCReaderSession didStartSession:]
+- -[NFCReaderSession didTerminate:]
+- -[NFCReaderSession didUIControllerInvalidate:]
+- -[NFCReaderSession disconnectTagWithError:]
+- -[NFCReaderSession handleSessionResumed]
+- -[NFCReaderSession handleSessionSuspended:]
+- -[NFCReaderSession hardwareManager]
+- -[NFCReaderSession hwStateDidChange:]
+- -[NFCReaderSession initWithDelegate:queue:pollMethod:]
+- -[NFCReaderSession initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:]
+- -[NFCReaderSession invalidateSessionWithErrorMessage:]
+- -[NFCReaderSession invalidateSessionWithReason:]
+- -[NFCReaderSession invalidateSession]
+- -[NFCReaderSession isInvalidated]
+- -[NFCReaderSession isReady]
+- -[NFCReaderSession ndefStatus:maxMessageLength:]
+- -[NFCReaderSession pollMethod]
+- -[NFCReaderSession readNdefMessageWithError:]
+- -[NFCReaderSession readerProxy]
+- -[NFCReaderSession restartPolling]
+- -[NFCReaderSession sessionConfig]
+- -[NFCReaderSession sessionId]
+- -[NFCReaderSession sessionQueue]
+- -[NFCReaderSession setAlertMessage:]
+- -[NFCReaderSession setPollMethod:]
+- -[NFCReaderSession setSessionConfig:]
+- -[NFCReaderSession submitBlockOnDelegateQueue:]
+- -[NFCReaderSession submitBlockOnSessionQueue:]
+- -[NFCReaderSession submitBlockOnSessionQueueWithDelay:block:]
+- -[NFCReaderSession transceive:tagUpdate:error:]
+- -[NFCReaderSession validateDelegate:expectedType:]
+- -[NFCReaderSession writeLockNdef]
+- -[NFCReaderSession writeNdefMessage:error:]
+- -[NFCSession .cxx_destruct]
+- -[NFCSession _connectIfNeeded]
+- -[NFCSession _connectionLock]
+- -[NFCSession _connection]
+- -[NFCSession _exportedObjectClassName]
+- -[NFCSession _invalidate]
+- -[NFCSession _setConnection:]
+- -[NFCSession dealloc]
+- -[NFCSession initWithMachServiceName:remoteObjectInterface:exportedObjectInterface:exportedObject:delegate:]
+- -[NFCSession remoteObjectProxyWithErrorHandler:]
+- -[NFCSession synchronousRemoteObjectProxyWithErrorHandler:]
+- -[NFCTag .cxx_destruct]
+- -[NFCTag _connectWithCompletionHandler:]
+- -[NFCTag _connectWithSession:outError:]
+- -[NFCTag _disconnectWithError:]
+- -[NFCTag _getInternalReaderSession]
+- -[NFCTag _sendAPDU:completionHandler:]
+- -[NFCTag _setDelegateQueue:]
+- -[NFCTag _setSession:]
+- -[NFCTag _setTag:]
+- -[NFCTag _transceiveWithData:completionHandler:]
+- -[NFCTag _transceiveWithSession:sendData:receivedData:error:]
+- -[NFCTag applicationData]
+- -[NFCTag asNFCFeliCaTag]
+- -[NFCTag asNFCISO15693Tag]
+- -[NFCTag asNFCISO7816Tag]
+- -[NFCTag asNFCMiFareTag]
+- -[NFCTag capacity]
+- -[NFCTag configuration]
+- -[NFCTag copyWithZone:]
+- -[NFCTag copyWithZone:].cold.1
+- -[NFCTag disconnect]
+- -[NFCTag dispatchOnDelegateQueueAsync:]
+- -[NFCTag encodeWithCoder:]
+- -[NFCTag hardwareManager]
+- -[NFCTag historicalBytes]
+- -[NFCTag identifier]
+- -[NFCTag initWithCoder:]
+- -[NFCTag initWithCoder:].cold.1
+- -[NFCTag initWithSession:tag:startupConfig:]
+- -[NFCTag initWithSession:tag:startupConfig:].cold.1
+- -[NFCTag initWithSession:tag:startupConfig:].cold.2
+- -[NFCTag initWithSession:tag:startupConfig:].cold.3
+- -[NFCTag isAvailable]
+- -[NFCTag isEqualToNFTag:]
+- -[NFCTag isMatchingSession:outError:]
+- -[NFCTag isNDEFFormatted]
+- -[NFCTag isReadOnly]
+- -[NFCTag proprietaryApplicationDataCoding]
+- -[NFCTag queryNDEFStatusWithCompletionHandler:]
+- -[NFCTag readNDEFWithCompletionHandler:]
+- -[NFCTag selectedAID]
+- -[NFCTag session]
+- -[NFCTag systemCode]
+- -[NFCTag type]
+- -[NFCTag writeLockWithCompletionHandler:]
+- -[NFCTag writeNDEF:completionHandler:]
+- -[NFCTagCommandConfiguration copyWithZone:]
+- -[NFCTagCommandConfiguration maximumRetries]
+- -[NFCTagCommandConfiguration retryInterval]
+- -[NFCTagCommandConfiguration setMaximumRetries:]
+- -[NFCTagCommandConfiguration setRetryInterval:]
+- -[NFCTagReaderSession .cxx_destruct]
+- -[NFCTagReaderSession _callbackDidBecomeActive]
+- -[NFCTagReaderSession connectToTag:completionHandler:]
+- -[NFCTagReaderSession connectedTag]
+- -[NFCTagReaderSession didDetectTags:connectedTagIndex:]
+- -[NFCTagReaderSession initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:]
+- -[NFCTagReaderSession initWithPollingOption:delegate:delegateType:queue:]
+- -[NFCTagReaderSession initWithPollingOption:delegate:queue:]
+- -[NFCTagReaderSession initWithPollingOption:swiftDelegate:queue:]
+- -[NFCTagReaderSession restartPolling]
+- -[NFCVASCommandConfiguration .cxx_destruct]
+- -[NFCVASCommandConfiguration copyWithZone:]
+- -[NFCVASCommandConfiguration description]
+- -[NFCVASCommandConfiguration initWithVASMode:passTypeIdentifier:url:]
+- -[NFCVASCommandConfiguration init]
+- -[NFCVASCommandConfiguration mode]
+- -[NFCVASCommandConfiguration passTypeIdentifier]
+- -[NFCVASCommandConfiguration setMode:]
+- -[NFCVASCommandConfiguration setPassTypeIdentifier:]
+- -[NFCVASCommandConfiguration setUrl:]
+- -[NFCVASCommandConfiguration url]
+- -[NFCVASReaderSession .cxx_destruct]
+- -[NFCVASReaderSession _callbackDidBecomeActive]
+- -[NFCVASReaderSession _convertVASConfigToInternalRequest:]
+- -[NFCVASReaderSession _convertVASResponseToExternal:]
+- -[NFCVASReaderSession _sendVASRequests:error:]
+- -[NFCVASReaderSession beginSession]
+- -[NFCVASReaderSession dealloc]
+- -[NFCVASReaderSession didDetectTags:connectedTagIndex:]
+- -[NFCVASReaderSession didTerminate:]
+- -[NFCVASReaderSession initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:]
+- -[NFCVASReaderSession initWithVASCommandConfigurations:delegate:queue:]
+- -[NFCVASResponse .cxx_destruct]
+- -[NFCVASResponse copyWithZone:]
+- -[NFCVASResponse initWithStatus:data:mobileToken:]
+- -[NFCVASResponse init]
+- -[NFCVASResponse mobileToken]
+- -[NFCVASResponse status]
+- -[NFCVASResponse vasData]
+- -[NSUserActivity(CoreNFC) ndefMessagePayload]
+- -[NSUserActivity(CoreNFCPrivate) setNdefMessagePayload:]
+- <redacted>
+- GCC_except_table11
+- GCC_except_table12
+- GCC_except_table15
+- GCC_except_table18
+- GCC_except_table19
+- GCC_except_table2
+- GCC_except_table20
+- GCC_except_table23
+- GCC_except_table24
+- GCC_except_table27
+- GCC_except_table30
+- GCC_except_table32
+- GCC_except_table33
+- GCC_except_table34
+- GCC_except_table37
+- GCC_except_table38
+- GCC_except_table4
+- GCC_except_table40
+- GCC_except_table41
+- GCC_except_table42
+- GCC_except_table46
+- GCC_except_table48
+- GCC_except_table49
+- GCC_except_table5
+- GCC_except_table52
+- GCC_except_table54
+- GCC_except_table57
+- GCC_except_table60
+- GCC_except_table62
+- GCC_except_table73
+- GCC_except_table8
+- GCC_except_table82
+- GCC_except_table85
+- GCC_except_table89
+- GCC_except_table92
+- _CoreNFCVersionNumber
+- _CoreNFCVersionString
+- _NSInvalidArgumentException
+- _OBJC_CLASS_$_NFCCardSessionCallbackInterface
+- _OBJC_CLASS_$_NFCCardSessionInterface
+- _OBJC_CLASS_$_NFCError
+- _OBJC_CLASS_$_NFCFeliCaTag
+- _OBJC_CLASS_$_NFCFieldDetectSessionCallbacksInterface
+- _OBJC_CLASS_$_NFCHardwareManager
+- _OBJC_CLASS_$_NFCHardwareManagerCallbacks
+- _OBJC_CLASS_$_NFCHardwareManagerInterface
+- _OBJC_CLASS_$_NFCISO15693ReaderSessionTag
+- _OBJC_CLASS_$_NFCISO15693Tag
+- _OBJC_CLASS_$_NFCISO7816Tag
+- _OBJC_CLASS_$_NFCMiFareTag
+- _OBJC_CLASS_$_NFCNDEFTag
+- _OBJC_CLASS_$_NFCPresentmentSuppression
+- _OBJC_CLASS_$_NFCSession
+- _OBJC_CLASS_$_NFCTag
+- _OBJC_CLASS_$_NFReaderSessionCallbacks
+- _OBJC_CLASS_$_NFReaderSessionInterface
+- _OBJC_CLASS_$_NSException
+- _OBJC_CLASS_$__TtC7CoreNFC21AssertionNotification
+- _OBJC_CLASS_$__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- _OBJC_EHTYPE_$_NSException
+- _OBJC_IVAR_$_NFCHardwareManager._delegates
+- _OBJC_IVAR_$_NFCHardwareManager._hwSupportStateUpdate
+- _OBJC_IVAR_$_NFCHardwareManager._presentmentSuppression
+- _OBJC_IVAR_$_NFCHardwareManager._presentmentSuppressionDelegate
+- _OBJC_IVAR_$_NFCHardwareManager._presentmentSuppressionLock
+- _OBJC_IVAR_$_NFCHardwareManager._queuedCoreNFCSessions
+- _OBJC_IVAR_$_NFCHardwareManager._readerSessionLock
+- _OBJC_IVAR_$_NFCHardwareManager._xpcSession
+- _OBJC_IVAR_$_NFCISO15693CustomCommandConfiguration._customCommandCode
+- _OBJC_IVAR_$_NFCISO15693CustomCommandConfiguration._flags
+- _OBJC_IVAR_$_NFCISO15693CustomCommandConfiguration._manufacturerCode
+- _OBJC_IVAR_$_NFCISO15693CustomCommandConfiguration._requestParameters
+- _OBJC_IVAR_$_NFCISO15693ReadMultipleBlocksConfiguration._chunkSize
+- _OBJC_IVAR_$_NFCISO15693ReadMultipleBlocksConfiguration._flags
+- _OBJC_IVAR_$_NFCISO15693ReadMultipleBlocksConfiguration._range
+- _OBJC_IVAR_$_NFCISO7816APDU._fullPacket
+- _OBJC_IVAR_$_NFCISO7816APDU._le
+- _OBJC_IVAR_$_NFCISO7816APDU._payloadOffset
+- _OBJC_IVAR_$_NFCMiFareTag._mifareFamily
+- _OBJC_IVAR_$_NFCNDEFMessage._records
+- _OBJC_IVAR_$_NFCNDEFPayload._chunkSize
+- _OBJC_IVAR_$_NFCNDEFPayload._identifier
+- _OBJC_IVAR_$_NFCNDEFPayload._payload
+- _OBJC_IVAR_$_NFCNDEFPayload._type
+- _OBJC_IVAR_$_NFCNDEFPayload._typeNameFormat
+- _OBJC_IVAR_$_NFCNDEFReaderSession._invalidateAfterFirstRead
+- _OBJC_IVAR_$_NFCNDEFReaderSession._tagsRead
+- _OBJC_IVAR_$_NFCNDEFTag._delegateQueue
+- _OBJC_IVAR_$_NFCNDEFTag._hardwareManager
+- _OBJC_IVAR_$_NFCNDEFTag._sessionKey
+- _OBJC_IVAR_$_NFCNDEFTag._tag
+- _OBJC_IVAR_$_NFCNDEFTag._writeLocked
+- _OBJC_IVAR_$_NFCPresentmentSuppression._assertion
+- _OBJC_IVAR_$_NFCPresentmentSuppression._assertionTimer
+- _OBJC_IVAR_$_NFCPresentmentSuppression._cooldownTimer
+- _OBJC_IVAR_$_NFCPresentmentSuppression._delegate
+- _OBJC_IVAR_$_NFCPresentmentSuppression._externalHandle
+- _OBJC_IVAR_$_NFCPresentmentSuppression._timerQueue
+- _OBJC_IVAR_$_NFCReaderSession._alertMessage
+- _OBJC_IVAR_$_NFCReaderSession._currentTag
+- _OBJC_IVAR_$_NFCReaderSession._delegate
+- _OBJC_IVAR_$_NFCReaderSession._delegateQueue
+- _OBJC_IVAR_$_NFCReaderSession._delegateQueueStarted
+- _OBJC_IVAR_$_NFCReaderSession._delegateType
+- _OBJC_IVAR_$_NFCReaderSession._hardwareManager
+- _OBJC_IVAR_$_NFCReaderSession._invalidationCode
+- _OBJC_IVAR_$_NFCReaderSession._pollMethod
+- _OBJC_IVAR_$_NFCReaderSession._proxy
+- _OBJC_IVAR_$_NFCReaderSession._sessionConfig
+- _OBJC_IVAR_$_NFCReaderSession._sessionId
+- _OBJC_IVAR_$_NFCReaderSession._sessionQueue
+- _OBJC_IVAR_$_NFCReaderSession._sessionStartInProgress
+- _OBJC_IVAR_$_NFCReaderSession._sessionState
+- _OBJC_IVAR_$_NFCSession._connection
+- _OBJC_IVAR_$_NFCSession._connectionLock
+- _OBJC_IVAR_$_NFCSession._delegate
+- _OBJC_IVAR_$_NFCSession._exportedObject
+- _OBJC_IVAR_$_NFCSession._exportedObjectInterface
+- _OBJC_IVAR_$_NFCSession._machServiceName
+- _OBJC_IVAR_$_NFCSession._remoteObjectInterface
+- _OBJC_IVAR_$_NFCSession._xpcQueue
+- _OBJC_IVAR_$_NFCTag._configuration
+- _OBJC_IVAR_$_NFCTag._delegateQueue
+- _OBJC_IVAR_$_NFCTag._hardwareManager
+- _OBJC_IVAR_$_NFCTag._lock
+- _OBJC_IVAR_$_NFCTag._sessionKey
+- _OBJC_IVAR_$_NFCTag._tag
+- _OBJC_IVAR_$_NFCTagCommandConfiguration._maximumRetries
+- _OBJC_IVAR_$_NFCTagCommandConfiguration._retryInterval
+- _OBJC_IVAR_$_NFCTagReaderSession._connectedTag
+- _OBJC_IVAR_$_NFCTagReaderSession._swiftDelegateWrapper
+- _OBJC_IVAR_$_NFCVASCommandConfiguration._mode
+- _OBJC_IVAR_$_NFCVASCommandConfiguration._passTypeIdentifier
+- _OBJC_IVAR_$_NFCVASCommandConfiguration._url
+- _OBJC_IVAR_$_NFCVASReaderSession._presenceCheckTimer
+- _OBJC_IVAR_$_NFCVASReaderSession._vasConfig
+- _OBJC_IVAR_$_NFCVASResponse._mobileToken
+- _OBJC_IVAR_$_NFCVASResponse._status
+- _OBJC_IVAR_$_NFCVASResponse._vasData
+- _OBJC_METACLASS_$_NFCCardSessionCallbackInterface
+- _OBJC_METACLASS_$_NFCCardSessionInterface
+- _OBJC_METACLASS_$_NFCError
+- _OBJC_METACLASS_$_NFCFeliCaTag
+- _OBJC_METACLASS_$_NFCFieldDetectSessionCallbacksInterface
+- _OBJC_METACLASS_$_NFCHardwareManager
+- _OBJC_METACLASS_$_NFCHardwareManagerCallbacks
+- _OBJC_METACLASS_$_NFCHardwareManagerInterface
+- _OBJC_METACLASS_$_NFCISO15693ReaderSessionTag
+- _OBJC_METACLASS_$_NFCISO15693Tag
+- _OBJC_METACLASS_$_NFCISO7816Tag
+- _OBJC_METACLASS_$_NFCMiFareTag
+- _OBJC_METACLASS_$_NFCNDEFTag
+- _OBJC_METACLASS_$_NFCPresentmentSuppression
+- _OBJC_METACLASS_$_NFCSession
+- _OBJC_METACLASS_$_NFCTag
+- _OBJC_METACLASS_$_NFReaderSessionCallbacks
+- _OBJC_METACLASS_$_NFReaderSessionInterface
+- _OBJC_METACLASS_$__TtC7CoreNFC21AssertionNotification
+- _OBJC_METACLASS_$__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- _OBJC_METACLASS_$__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _UrlPrefixMapping
+- _UrlPrefixMappingSize
+- __DATA__TtC7CoreNFC11CardSession
+- __DATA__TtC7CoreNFC14NFCCardSession
+- __DATA__TtC7CoreNFC21AssertionNotification
+- __DATA__TtC7CoreNFC29NFCPresentmentIntentAssertion
+- __DATA__TtC7CoreNFC35NFCPresentmentSuppressionController
+- __DATA__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- __DATA__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- __DATA__TtCC7CoreNFC11CardSession11EventStream
+- __DATA__TtCC7CoreNFC11CardSession4APDU
+- __DATA__TtCCC7CoreNFC11CardSession11EventStream8Iterator
+- __INSTANCE_METHODS__TtC7CoreNFC21AssertionNotification
+- __INSTANCE_METHODS__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- __INSTANCE_METHODS__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- __IVARS__TtC7CoreNFC11CardSession
+- __IVARS__TtC7CoreNFC14NFCCardSession
+- __IVARS__TtC7CoreNFC21AssertionNotification
+- __IVARS__TtC7CoreNFC29NFCPresentmentIntentAssertion
+- __IVARS__TtC7CoreNFC35NFCPresentmentSuppressionController
+- __IVARS__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- __IVARS__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- __IVARS__TtCC7CoreNFC11CardSession11EventStream
+- __IVARS__TtCC7CoreNFC11CardSession4APDU
+- __IVARS__TtCCC7CoreNFC11CardSession11EventStream8Iterator
+- __METACLASS_DATA__TtC7CoreNFC11CardSession
+- __METACLASS_DATA__TtC7CoreNFC14NFCCardSession
+- __METACLASS_DATA__TtC7CoreNFC21AssertionNotification
+- __METACLASS_DATA__TtC7CoreNFC29NFCPresentmentIntentAssertion
+- __METACLASS_DATA__TtC7CoreNFC35NFCPresentmentSuppressionController
+- __METACLASS_DATA__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- __METACLASS_DATA__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- __METACLASS_DATA__TtCC7CoreNFC11CardSession11EventStream
+- __METACLASS_DATA__TtCC7CoreNFC11CardSession4APDU
+- __METACLASS_DATA__TtCCC7CoreNFC11CardSession11EventStream8Iterator
+- __OBJC_$_CATEGORY_NSUserActivity_$_CoreNFC
+- __OBJC_$_CLASS_METHODS_NFCError
+- __OBJC_$_CLASS_METHODS_NFCFieldDetectSessionCallbacksInterface
+- __OBJC_$_CLASS_METHODS_NFCHardwareManager
+- __OBJC_$_CLASS_METHODS_NFCHardwareManagerCallbacks
+- __OBJC_$_CLASS_METHODS_NFCHardwareManagerInterface
+- __OBJC_$_CLASS_METHODS_NFCISO15693ReaderSession
+- __OBJC_$_CLASS_METHODS_NFCISO15693ReaderSessionTag
+- __OBJC_$_CLASS_METHODS_NFCNDEFMessage
+- __OBJC_$_CLASS_METHODS_NFCNDEFPayload(ConvenienceHelpers)
+- __OBJC_$_CLASS_METHODS_NFCNDEFReaderSession
+- __OBJC_$_CLASS_METHODS_NFCNDEFTag
+- __OBJC_$_CLASS_METHODS_NFCPresentmentSuppression
+- __OBJC_$_CLASS_METHODS_NFCReaderSession
+- __OBJC_$_CLASS_METHODS_NFCTag
+- __OBJC_$_CLASS_METHODS_NFCTagReaderSession
+- __OBJC_$_CLASS_METHODS_NFCVASReaderSession
+- __OBJC_$_CLASS_METHODS_NFReaderSessionCallbacks
+- __OBJC_$_CLASS_METHODS_NFReaderSessionInterface
+- __OBJC_$_CLASS_PROP_LIST_NFCFeliCaTag
+- __OBJC_$_CLASS_PROP_LIST_NFCISO15693ReaderSessionTag
+- __OBJC_$_CLASS_PROP_LIST_NFCISO15693Tag
+- __OBJC_$_CLASS_PROP_LIST_NFCISO7816Tag
+- __OBJC_$_CLASS_PROP_LIST_NFCMiFareTag
+- __OBJC_$_CLASS_PROP_LIST_NFCNDEFMessage
+- __OBJC_$_CLASS_PROP_LIST_NFCNDEFPayload
+- __OBJC_$_CLASS_PROP_LIST_NFCNDEFTag
+- __OBJC_$_CLASS_PROP_LIST_NFCReaderSession
+- __OBJC_$_CLASS_PROP_LIST_NFCTag
+- __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+- __OBJC_$_INSTANCE_METHODS_NFCError
+- __OBJC_$_INSTANCE_METHODS_NFCFeliCaTag
+- __OBJC_$_INSTANCE_METHODS_NFCHardwareManager
+- __OBJC_$_INSTANCE_METHODS_NFCISO15693CustomCommandConfiguration
+- __OBJC_$_INSTANCE_METHODS_NFCISO15693ReadMultipleBlocksConfiguration
+- __OBJC_$_INSTANCE_METHODS_NFCISO15693ReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFCISO15693ReaderSessionTag
+- __OBJC_$_INSTANCE_METHODS_NFCISO15693Tag
+- __OBJC_$_INSTANCE_METHODS_NFCISO7816APDU
+- __OBJC_$_INSTANCE_METHODS_NFCISO7816Tag
+- __OBJC_$_INSTANCE_METHODS_NFCMiFareTag
+- __OBJC_$_INSTANCE_METHODS_NFCNDEFMessage
+- __OBJC_$_INSTANCE_METHODS_NFCNDEFPayload(ConvenienceHelpers)
+- __OBJC_$_INSTANCE_METHODS_NFCNDEFReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFCNDEFTag
+- __OBJC_$_INSTANCE_METHODS_NFCPresentmentSuppression
+- __OBJC_$_INSTANCE_METHODS_NFCReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFCSession
+- __OBJC_$_INSTANCE_METHODS_NFCTag
+- __OBJC_$_INSTANCE_METHODS_NFCTagCommandConfiguration
+- __OBJC_$_INSTANCE_METHODS_NFCTagReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFCVASCommandConfiguration
+- __OBJC_$_INSTANCE_METHODS_NFCVASReaderSession
+- __OBJC_$_INSTANCE_METHODS_NFCVASResponse
+- __OBJC_$_INSTANCE_METHODS_NSUserActivity(CoreNFC|CoreNFCPrivate)
+- __OBJC_$_INSTANCE_VARIABLES_NFCHardwareManager
+- __OBJC_$_INSTANCE_VARIABLES_NFCISO15693CustomCommandConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_NFCISO15693ReadMultipleBlocksConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_NFCISO7816APDU
+- __OBJC_$_INSTANCE_VARIABLES_NFCMiFareTag
+- __OBJC_$_INSTANCE_VARIABLES_NFCNDEFMessage
+- __OBJC_$_INSTANCE_VARIABLES_NFCNDEFPayload
+- __OBJC_$_INSTANCE_VARIABLES_NFCNDEFReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCNDEFTag
+- __OBJC_$_INSTANCE_VARIABLES_NFCPresentmentSuppression
+- __OBJC_$_INSTANCE_VARIABLES_NFCReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCTag
+- __OBJC_$_INSTANCE_VARIABLES_NFCTagCommandConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_NFCTagReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCVASCommandConfiguration
+- __OBJC_$_INSTANCE_VARIABLES_NFCVASReaderSession
+- __OBJC_$_INSTANCE_VARIABLES_NFCVASResponse
+- __OBJC_$_PROP_LIST_NFCFeliCaTag
+- __OBJC_$_PROP_LIST_NFCFeliCaTag.155
+- __OBJC_$_PROP_LIST_NFCHardwareManager
+- __OBJC_$_PROP_LIST_NFCISO15693CustomCommandConfiguration
+- __OBJC_$_PROP_LIST_NFCISO15693ReadMultipleBlocksConfiguration
+- __OBJC_$_PROP_LIST_NFCISO15693ReaderSession
+- __OBJC_$_PROP_LIST_NFCISO15693ReaderSessionTag
+- __OBJC_$_PROP_LIST_NFCISO15693Tag
+- __OBJC_$_PROP_LIST_NFCISO15693Tag.203
+- __OBJC_$_PROP_LIST_NFCISO7816APDU
+- __OBJC_$_PROP_LIST_NFCISO7816Tag
+- __OBJC_$_PROP_LIST_NFCISO7816Tag.167
+- __OBJC_$_PROP_LIST_NFCMiFareTag
+- __OBJC_$_PROP_LIST_NFCMiFareTag.117
+- __OBJC_$_PROP_LIST_NFCNDEFMessage
+- __OBJC_$_PROP_LIST_NFCNDEFPayload
+- __OBJC_$_PROP_LIST_NFCNDEFReaderSession
+- __OBJC_$_PROP_LIST_NFCNDEFTag
+- __OBJC_$_PROP_LIST_NFCNDEFTag.142
+- __OBJC_$_PROP_LIST_NFCPresentmentSuppression
+- __OBJC_$_PROP_LIST_NFCReaderSession
+- __OBJC_$_PROP_LIST_NFCReaderSession.316
+- __OBJC_$_PROP_LIST_NFCTag
+- __OBJC_$_PROP_LIST_NFCTag.207
+- __OBJC_$_PROP_LIST_NFCTagCommandConfiguration
+- __OBJC_$_PROP_LIST_NFCTagReaderSession
+- __OBJC_$_PROP_LIST_NFCVASCommandConfiguration
+- __OBJC_$_PROP_LIST_NFCVASReaderSession
+- __OBJC_$_PROP_LIST_NFCVASResponse
+- __OBJC_$_PROP_LIST_NSObject
+- __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCCardSessionCallbackInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCCardSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCFeliCaTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCHardwareManagerInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCISO15693Tag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCISO7816Tag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCMiFareTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCNDEFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCNDEFTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCPresentmentSuppressionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCReaderSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCTag
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCTagReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFCVASReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSessionCallbackInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NFSessionInterface
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSXPCProxyCreating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFCNDEFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFCReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFCTagReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFCVASReaderSessionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCProxyCreating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCCardSessionCallbackInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCCardSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCFeliCaTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCHardwareManagerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCISO15693Tag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCISO7816Tag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCMiFareTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCNDEFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCNDEFTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCPresentmentSuppressionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCReaderSession
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCReaderSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCTag
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCTagReaderSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFCVASReaderSessionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSessionCallbackInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NFSessionInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCProxyCreating
+- __OBJC_$_PROTOCOL_REFS_NFCCardSessionCallbackInterface
+- __OBJC_$_PROTOCOL_REFS_NFCCardSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFCFeliCaTag
+- __OBJC_$_PROTOCOL_REFS_NFCFieldDetectSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFCFieldDetectSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NFCHardwareManagerCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFCHardwareManagerInterface
+- __OBJC_$_PROTOCOL_REFS_NFCISO15693Tag
+- __OBJC_$_PROTOCOL_REFS_NFCISO7816Tag
+- __OBJC_$_PROTOCOL_REFS_NFCMiFareTag
+- __OBJC_$_PROTOCOL_REFS_NFCNDEFReaderSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFCNDEFTag
+- __OBJC_$_PROTOCOL_REFS_NFCReaderSession
+- __OBJC_$_PROTOCOL_REFS_NFCReaderSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFCSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFCTag
+- __OBJC_$_PROTOCOL_REFS_NFCTagReaderSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFCVASReaderSessionDelegate
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionCallbacks
+- __OBJC_$_PROTOCOL_REFS_NFReaderSessionInterface
+- __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+- __OBJC_CLASS_PROTOCOLS_$_NFCFeliCaTag
+- __OBJC_CLASS_PROTOCOLS_$_NFCHardwareManager
+- __OBJC_CLASS_PROTOCOLS_$_NFCISO15693ReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCISO15693ReaderSessionTag
+- __OBJC_CLASS_PROTOCOLS_$_NFCISO15693Tag
+- __OBJC_CLASS_PROTOCOLS_$_NFCISO7816APDU
+- __OBJC_CLASS_PROTOCOLS_$_NFCISO7816Tag
+- __OBJC_CLASS_PROTOCOLS_$_NFCMiFareTag
+- __OBJC_CLASS_PROTOCOLS_$_NFCNDEFMessage
+- __OBJC_CLASS_PROTOCOLS_$_NFCNDEFPayload
+- __OBJC_CLASS_PROTOCOLS_$_NFCNDEFReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCNDEFTag
+- __OBJC_CLASS_PROTOCOLS_$_NFCReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCTag
+- __OBJC_CLASS_PROTOCOLS_$_NFCTagCommandConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_NFCTagReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCVASCommandConfiguration
+- __OBJC_CLASS_PROTOCOLS_$_NFCVASReaderSession
+- __OBJC_CLASS_PROTOCOLS_$_NFCVASResponse
+- __OBJC_CLASS_RO_$_NFCCardSessionCallbackInterface
+- __OBJC_CLASS_RO_$_NFCCardSessionInterface
+- __OBJC_CLASS_RO_$_NFCError
+- __OBJC_CLASS_RO_$_NFCFeliCaTag
+- __OBJC_CLASS_RO_$_NFCFieldDetectSessionCallbacksInterface
+- __OBJC_CLASS_RO_$_NFCHardwareManager
+- __OBJC_CLASS_RO_$_NFCHardwareManagerCallbacks
+- __OBJC_CLASS_RO_$_NFCHardwareManagerInterface
+- __OBJC_CLASS_RO_$_NFCISO15693CustomCommandConfiguration
+- __OBJC_CLASS_RO_$_NFCISO15693ReadMultipleBlocksConfiguration
+- __OBJC_CLASS_RO_$_NFCISO15693ReaderSession
+- __OBJC_CLASS_RO_$_NFCISO15693ReaderSessionTag
+- __OBJC_CLASS_RO_$_NFCISO15693Tag
+- __OBJC_CLASS_RO_$_NFCISO7816APDU
+- __OBJC_CLASS_RO_$_NFCISO7816Tag
+- __OBJC_CLASS_RO_$_NFCMiFareTag
+- __OBJC_CLASS_RO_$_NFCNDEFMessage
+- __OBJC_CLASS_RO_$_NFCNDEFPayload
+- __OBJC_CLASS_RO_$_NFCNDEFReaderSession
+- __OBJC_CLASS_RO_$_NFCNDEFTag
+- __OBJC_CLASS_RO_$_NFCPresentmentSuppression
+- __OBJC_CLASS_RO_$_NFCReaderSession
+- __OBJC_CLASS_RO_$_NFCSession
+- __OBJC_CLASS_RO_$_NFCTag
+- __OBJC_CLASS_RO_$_NFCTagCommandConfiguration
+- __OBJC_CLASS_RO_$_NFCTagReaderSession
+- __OBJC_CLASS_RO_$_NFCVASCommandConfiguration
+- __OBJC_CLASS_RO_$_NFCVASReaderSession
+- __OBJC_CLASS_RO_$_NFCVASResponse
+- __OBJC_CLASS_RO_$_NFReaderSessionCallbacks
+- __OBJC_CLASS_RO_$_NFReaderSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCCardSessionCallbackInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCCardSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCFeliCaTag
+- __OBJC_LABEL_PROTOCOL_$_NFCFieldDetectSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFCFieldDetectSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCHardwareManagerCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFCHardwareManagerInterface
+- __OBJC_LABEL_PROTOCOL_$_NFCISO15693Tag
+- __OBJC_LABEL_PROTOCOL_$_NFCISO7816Tag
+- __OBJC_LABEL_PROTOCOL_$_NFCMiFareTag
+- __OBJC_LABEL_PROTOCOL_$_NFCNDEFReaderSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFCNDEFTag
+- __OBJC_LABEL_PROTOCOL_$_NFCPresentmentSuppressionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFCReaderSession
+- __OBJC_LABEL_PROTOCOL_$_NFCReaderSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFCSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFCTag
+- __OBJC_LABEL_PROTOCOL_$_NFCTagReaderSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFCVASReaderSessionDelegate
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionCallbacks
+- __OBJC_LABEL_PROTOCOL_$_NFReaderSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSessionCallbackInterface
+- __OBJC_LABEL_PROTOCOL_$_NFSessionInterface
+- __OBJC_LABEL_PROTOCOL_$_NSCoding
+- __OBJC_LABEL_PROTOCOL_$_NSCopying
+- __OBJC_LABEL_PROTOCOL_$_NSObject
+- __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+- __OBJC_LABEL_PROTOCOL_$_NSXPCProxyCreating
+- __OBJC_METACLASS_RO_$_NFCCardSessionCallbackInterface
+- __OBJC_METACLASS_RO_$_NFCCardSessionInterface
+- __OBJC_METACLASS_RO_$_NFCError
+- __OBJC_METACLASS_RO_$_NFCFeliCaTag
+- __OBJC_METACLASS_RO_$_NFCFieldDetectSessionCallbacksInterface
+- __OBJC_METACLASS_RO_$_NFCHardwareManager
+- __OBJC_METACLASS_RO_$_NFCHardwareManagerCallbacks
+- __OBJC_METACLASS_RO_$_NFCHardwareManagerInterface
+- __OBJC_METACLASS_RO_$_NFCISO15693CustomCommandConfiguration
+- __OBJC_METACLASS_RO_$_NFCISO15693ReadMultipleBlocksConfiguration
+- __OBJC_METACLASS_RO_$_NFCISO15693ReaderSession
+- __OBJC_METACLASS_RO_$_NFCISO15693ReaderSessionTag
+- __OBJC_METACLASS_RO_$_NFCISO15693Tag
+- __OBJC_METACLASS_RO_$_NFCISO7816APDU
+- __OBJC_METACLASS_RO_$_NFCISO7816Tag
+- __OBJC_METACLASS_RO_$_NFCMiFareTag
+- __OBJC_METACLASS_RO_$_NFCNDEFMessage
+- __OBJC_METACLASS_RO_$_NFCNDEFPayload
+- __OBJC_METACLASS_RO_$_NFCNDEFReaderSession
+- __OBJC_METACLASS_RO_$_NFCNDEFTag
+- __OBJC_METACLASS_RO_$_NFCPresentmentSuppression
+- __OBJC_METACLASS_RO_$_NFCReaderSession
+- __OBJC_METACLASS_RO_$_NFCSession
+- __OBJC_METACLASS_RO_$_NFCTag
+- __OBJC_METACLASS_RO_$_NFCTagCommandConfiguration
+- __OBJC_METACLASS_RO_$_NFCTagReaderSession
+- __OBJC_METACLASS_RO_$_NFCVASCommandConfiguration
+- __OBJC_METACLASS_RO_$_NFCVASReaderSession
+- __OBJC_METACLASS_RO_$_NFCVASResponse
+- __OBJC_METACLASS_RO_$_NFReaderSessionCallbacks
+- __OBJC_METACLASS_RO_$_NFReaderSessionInterface
+- __OBJC_PROTOCOL_$_NFCCardSessionCallbackInterface
+- __OBJC_PROTOCOL_$_NFCCardSessionInterface
+- __OBJC_PROTOCOL_$_NFCFeliCaTag
+- __OBJC_PROTOCOL_$_NFCFieldDetectSessionCallbacks
+- __OBJC_PROTOCOL_$_NFCFieldDetectSessionInterface
+- __OBJC_PROTOCOL_$_NFCHardwareManagerCallbacks
+- __OBJC_PROTOCOL_$_NFCHardwareManagerInterface
+- __OBJC_PROTOCOL_$_NFCISO15693Tag
+- __OBJC_PROTOCOL_$_NFCISO7816Tag
+- __OBJC_PROTOCOL_$_NFCMiFareTag
+- __OBJC_PROTOCOL_$_NFCNDEFReaderSessionDelegate
+- __OBJC_PROTOCOL_$_NFCNDEFTag
+- __OBJC_PROTOCOL_$_NFCPresentmentSuppressionDelegate
+- __OBJC_PROTOCOL_$_NFCReaderSession
+- __OBJC_PROTOCOL_$_NFCReaderSessionDelegate
+- __OBJC_PROTOCOL_$_NFCSessionCallbacks
+- __OBJC_PROTOCOL_$_NFCTag
+- __OBJC_PROTOCOL_$_NFCTagReaderSessionDelegate
+- __OBJC_PROTOCOL_$_NFCVASReaderSessionDelegate
+- __OBJC_PROTOCOL_$_NFReaderSessionCallbacks
+- __OBJC_PROTOCOL_$_NFReaderSessionInterface
+- __OBJC_PROTOCOL_$_NFSessionCallbackInterface
+- __OBJC_PROTOCOL_$_NFSessionInterface
+- __OBJC_PROTOCOL_$_NSCoding
+- __OBJC_PROTOCOL_$_NSCopying
+- __OBJC_PROTOCOL_$_NSObject
+- __OBJC_PROTOCOL_$_NSSecureCoding
+- __OBJC_PROTOCOL_$_NSXPCProxyCreating
+- __OBJC_PROTOCOL_REFERENCE_$_NFCCardSessionCallbackInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCCardSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCFieldDetectSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFCFieldDetectSessionInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCHardwareManagerCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFCHardwareManagerInterface
+- __OBJC_PROTOCOL_REFERENCE_$_NFCNDEFReaderSessionDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NFCReaderSessionDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NFCTagReaderSessionDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NFCVASReaderSessionDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionCallbacks
+- __OBJC_PROTOCOL_REFERENCE_$_NFReaderSessionInterface
+- __PROTOCOLS__TtC7CoreNFC21AssertionNotification
+- __PROTOCOLS__TtC7CoreNFC21AssertionNotification.2
+- __PROTOCOLS__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper
+- __PROTOCOLS__TtC7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapper.2
+- __PROTOCOLS__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate
+- __PROTOCOLS__TtC7CoreNFCP33_EFB2E886CAEE49EE896FB2304411A55622NFCCardSessionDelegate.2
+- __Unwind_Resume
+- ___101-[NFCISO15693ReaderSessionTag extendedReadSingleBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___101-[NFCISO15693Tag extendedGetMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___101-[NFCISO15693Tag extendedGetMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke.46
+- ___102-[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke
+- ___102-[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.42
+- ___102-[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.43
+- ___102-[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.44
+- ___102-[NFCISO15693Tag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.45
+- ___103-[NFCISO15693ReaderSessionTag extendedReadMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke
+- ___104-[NFCISO15693ReaderSessionTag writeSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke
+- ___105-[NFCISO15693ReaderSessionTag challengeWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]_block_invoke
+- ___106-[NFCISO15693ReaderSessionTag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___106-[NFCISO15693ReaderSessionTag getMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___107-[NFCISO15693ReaderSessionTag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke
+- ___107-[NFCISO15693Tag customCommandWithRequestFlag:customCommandCode:customRequestParameters:completionHandler:]_block_invoke
+- ___107-[NFCISO15693Tag customCommandWithRequestFlag:customCommandCode:customRequestParameters:completionHandler:]_block_invoke.36
+- ___108-[NFCISO15693ReaderSessionTag authenticateWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]_block_invoke
+- ___112-[NFCISO15693ReaderSessionTag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke
+- ___114-[NFCISO15693ReaderSessionTag extendedGetMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___115-[NFCISO15693ReaderSessionTag extendedWriteMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke
+- ___120-[NFCISO15693ReaderSessionTag customCommandWithRequestFlag:customCommandCode:customRequestParameters:completionHandler:]_block_invoke
+- ___14-[NFCTag type]_block_invoke
+- ___18-[NFCTag _setTag:]_block_invoke
+- ___18-[NFCTag capacity]_block_invoke
+- ___20-[NFCTag identifier]_block_invoke
+- ___20-[NFCTag isReadOnly]_block_invoke
+- ___20-[NFCTag systemCode]_block_invoke
+- ___21-[NFCTag isAvailable]_block_invoke
+- ___21-[NFCTag selectedAID]_block_invoke
+- ___25-[NFCTag applicationData]_block_invoke
+- ___25-[NFCTag historicalBytes]_block_invoke
+- ___25-[NFCTag isEqualToNFTag:]_block_invoke
+- ___25-[NFCTag isNDEFFormatted]_block_invoke
+- ___30-[NFCSession _connectIfNeeded]_block_invoke
+- ___30-[NFCSession _connectIfNeeded]_block_invoke_2
+- ___30-[NFCSession _connectIfNeeded]_block_invoke_3
+- ___31-[NFCHardwareManager didExpire]_block_invoke
+- ___31-[NFCHardwareManager didExpire]_block_invoke.75
+- ___31-[NFCHardwareManager didExpire]_block_invoke_2
+- ___33-[NFCReaderSession writeLockNdef]_block_invoke
+- ___33-[NFCReaderSession writeLockNdef]_block_invoke_2
+- ___34-[NFCReaderSession restartPolling]_block_invoke
+- ___34-[NFCReaderSession restartPolling]_block_invoke_2
+- ___35-[NFCHardwareManager didInvalidate]_block_invoke
+- ___36-[NFCHardwareManager _queueSession:]_block_invoke
+- ___36-[NFCReaderSession didStartSession:]_block_invoke
+- ___36-[NFCReaderSession didStartSession:]_block_invoke_2
+- ___36-[NFCReaderSession didStartSession:]_block_invoke_3
+- ___36-[NFCReaderSession setAlertMessage:]_block_invoke
+- ___36-[NFCReaderSession setAlertMessage:]_block_invoke.12
+- ___37-[NFCHardwareManager dequeueSession:]_block_invoke
+- ___38-[NFCReaderSession _connectTag:error:]_block_invoke
+- ___38-[NFCReaderSession _connectTag:error:]_block_invoke_2
+- ___38-[NFCTag _sendAPDU:completionHandler:]_block_invoke
+- ___38-[NFCTag writeNDEF:completionHandler:]_block_invoke
+- ___38-[NFCTag writeNDEF:completionHandler:]_block_invoke_2
+- ___38-[NFCTag writeNDEF:completionHandler:]_block_invoke_3
+- ___39-[NFCHardwareManager didFinishCooldown]_block_invoke
+- ___39-[NFCHardwareManager hwStateDidChange:]_block_invoke
+- ___40+[NFCHardwareManagerCallbacks interface]_block_invoke
+- ___40+[NFCHardwareManagerInterface interface]_block_invoke
+- ___40-[NFCTag _connectWithCompletionHandler:]_block_invoke
+- ___40-[NFCTag _connectWithCompletionHandler:]_block_invoke_2
+- ___40-[NFCTag _connectWithCompletionHandler:]_block_invoke_3
+- ___40-[NFCTag _connectWithCompletionHandler:]_block_invoke_4
+- ___40-[NFCTag readNDEFWithCompletionHandler:]_block_invoke
+- ___40-[NFCTag readNDEFWithCompletionHandler:]_block_invoke_2
+- ___40-[NFCTag readNDEFWithCompletionHandler:]_block_invoke_3
+- ___41-[NFCTag writeLockWithCompletionHandler:]_block_invoke
+- ___41-[NFCTag writeLockWithCompletionHandler:]_block_invoke_2
+- ___41-[NFCTag writeLockWithCompletionHandler:]_block_invoke_3
+- ___42-[NFCNDEFTag writeNDEF:completionHandler:]_block_invoke
+- ___42-[NFCNDEFTag writeNDEF:completionHandler:]_block_invoke_2
+- ___42-[NFCNDEFTag writeNDEF:completionHandler:]_block_invoke_3
+- ___42-[NFCTag proprietaryApplicationDataCoding]_block_invoke
+- ___43+[NFCHardwareManager sharedHardwareManager]_block_invoke
+- ___43-[NFCPresentmentSuppression startCooldown:]_block_invoke
+- ___43-[NFCReaderSession beginSessionWithConfig:]_block_invoke
+- ___43-[NFCReaderSession beginSessionWithConfig:]_block_invoke.55
+- ___43-[NFCReaderSession beginSessionWithConfig:]_block_invoke_2
+- ___43-[NFCReaderSession checkPresenceWithError:]_block_invoke
+- ___43-[NFCReaderSession checkPresenceWithError:]_block_invoke_2
+- ___43-[NFCReaderSession disconnectTagWithError:]_block_invoke
+- ___43-[NFCReaderSession disconnectTagWithError:]_block_invoke_2
+- ___43-[NFCReaderSession writeNdefMessage:error:]_block_invoke
+- ___43-[NFCReaderSession writeNdefMessage:error:]_block_invoke_2
+- ___44-[NFCNDEFTag _connectWithCompletionHandler:]_block_invoke
+- ___44-[NFCNDEFTag _connectWithCompletionHandler:]_block_invoke_2
+- ___44-[NFCNDEFTag readNDEFWithCompletionHandler:]_block_invoke
+- ___44-[NFCNDEFTag readNDEFWithCompletionHandler:]_block_invoke_2
+- ___44-[NFCNDEFTag readNDEFWithCompletionHandler:]_block_invoke_3
+- ___44-[NFCPresentmentSuppression startAssertion:]_block_invoke
+- ___44-[NFCReaderSession _callbackDidBecomeActive]_block_invoke
+- ___45-[NFCNDEFTag writeLockWithCompletionHandler:]_block_invoke
+- ___45-[NFCNDEFTag writeLockWithCompletionHandler:]_block_invoke_2
+- ___45-[NFCNDEFTag writeLockWithCompletionHandler:]_block_invoke_3
+- ___45-[NFCReaderSession readNdefMessageWithError:]_block_invoke
+- ___45-[NFCReaderSession readNdefMessageWithError:]_block_invoke_2
+- ___46-[NFCHardwareManager getReaderSessionWithKey:]_block_invoke
+- ___46-[NFCVASReaderSession _sendVASRequests:error:]_block_invoke
+- ___46-[NFCVASReaderSession _sendVASRequests:error:]_block_invoke_2
+- ___47-[NFCFeliCaTag resetModeWithCompletionHandler:]_block_invoke
+- ___47-[NFCReaderSession transceive:tagUpdate:error:]_block_invoke
+- ___47-[NFCReaderSession transceive:tagUpdate:error:]_block_invoke_2
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke.55
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke.56
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke_2
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke_2.57
+- ___47-[NFCTag queryNDEFStatusWithCompletionHandler:]_block_invoke_3
+- ___47-[NFCTagReaderSession _callbackDidBecomeActive]_block_invoke
+- ___47-[NFCVASReaderSession _callbackDidBecomeActive]_block_invoke
+- ___48-[NFCNDEFReaderSession _callbackDidBecomeActive]_block_invoke
+- ___48-[NFCReaderSession ndefStatus:maxMessageLength:]_block_invoke
+- ___48-[NFCReaderSession ndefStatus:maxMessageLength:]_block_invoke_2
+- ___48-[NFCTag _transceiveWithData:completionHandler:]_block_invoke
+- ___48-[NFCTag _transceiveWithData:completionHandler:]_block_invoke_2
+- ___48-[NFCTag _transceiveWithData:completionHandler:]_block_invoke_3
+- ___49-[NFCISO15693Tag stayQuietWithCompletionHandler:]_block_invoke
+- ___49-[NFCReaderSession connectTag:completionHandler:]_block_invoke
+- ___49-[NFCReaderSession connectTag:completionHandler:]_block_invoke_2
+- ___49-[NFCReaderSession connectTag:completionHandler:]_block_invoke_3
+- ___50-[NFCHardwareManager _cleanupPresentmentAssertion]_block_invoke
+- ___50-[NFCHardwareManager _cleanupPresentmentAssertion]_block_invoke_2
+- ___50-[NFCHardwareManager _cleanupPresentmentAssertion]_block_invoke_3
+- ___51-[NFCNDEFTag queryNDEFStatusWithCompletionHandler:]_block_invoke
+- ___52-[NFCHardwareManager areFeaturesSupported:outError:]_block_invoke
+- ___52-[NFCHardwareManager areFeaturesSupported:outError:]_block_invoke_2
+- ___52-[NFCMiFareTag sendMiFareCommand:completionHandler:]_block_invoke
+- ___52-[NFCReaderSession _callbackDidInvalidateWithError:]_block_invoke
+- ___52-[NFCReaderSession _callbackDidInvalidateWithError:]_block_invoke_2
+- ___52-[NFCReaderSession _callbackDidInvalidateWithError:]_block_invoke_3
+- ___52-[NFCReaderSession _callbackDidInvalidateWithError:]_block_invoke_4
+- ___53-[NFCFeliCaTag requestResponseWithCompletionHandler:]_block_invoke
+- ___54-[NFCTagReaderSession connectToTag:completionHandler:]_block_invoke
+- ___54-[NFCTagReaderSession connectToTag:completionHandler:]_block_invoke.24
+- ___54-[NFCTagReaderSession connectToTag:completionHandler:]_block_invoke.26
+- ___55-[NFCFeliCaTag requestSystemCodeWithCompletionHandler:]_block_invoke
+- ___55-[NFCNDEFReaderSession connectToTag:completionHandler:]_block_invoke
+- ___55-[NFCNDEFReaderSession connectToTag:completionHandler:]_block_invoke.84
+- ___55-[NFCTagReaderSession didDetectTags:connectedTagIndex:]_block_invoke
+- ___55-[NFCVASReaderSession didDetectTags:connectedTagIndex:]_block_invoke
+- ___55-[NFCVASReaderSession didDetectTags:connectedTagIndex:]_block_invoke_2
+- ___58-[NFCFeliCaTag sendFeliCaCommandPacket:completionHandler:]_block_invoke
+- ___58-[NFCFeliCaTag sendFeliCaCommandPacket:completionHandler:]_block_invoke.41
+- ___58-[NFCFeliCaTag sendFeliCaCommandPacket:completionHandler:]_block_invoke_2
+- ___59-[NFCISO15693Tag lockAFIWithRequestFlag:completionHandler:]_block_invoke
+- ___59-[NFCISO15693Tag selectWithRequestFlags:completionHandler:]_block_invoke
+- ___59-[NFCMiFareTag sendMiFareISO7816Command:completionHandler:]_block_invoke
+- ___60-[NFCISO15693ReaderSession didDetectTags:connectedTagIndex:]_block_invoke
+- ___61-[NFCISO15693Tag lockDSFIDWithRequestFlag:completionHandler:]_block_invoke
+- ___61-[NFCTag _transceiveWithSession:sendData:receivedData:error:]_block_invoke
+- ___61-[NFCTag _transceiveWithSession:sendData:receivedData:error:]_block_invoke_2
+- ___62-[NFCISO15693ReaderSessionTag stayQuietWithCompletionHandler:]_block_invoke
+- ___63-[NFCHardwareManager releasePresentmentSuppression:completion:]_block_invoke
+- ___63-[NFCHardwareManager releasePresentmentSuppression:completion:]_block_invoke.61
+- ___63-[NFCHardwareManager releasePresentmentSuppression:completion:]_block_invoke.62
+- ___63-[NFCHardwareManager releasePresentmentSuppression:completion:]_block_invoke_2
+- ___63-[NFCISO15693Tag readBufferWithRequestFlags:completionHandler:]_block_invoke
+- ___64-[NFCISO15693Tag writeAFIWithRequestFlag:afi:completionHandler:]_block_invoke
+- ___65-[NFCFeliCaTag requestServiceWithNodeCodeList:completionHandler:]_block_invoke
+- ___65-[NFCFeliCaTag requestServiceWithNodeCodeList:completionHandler:]_block_invoke.21
+- ___65-[NFCFeliCaTag requestServiceWithNodeCodeList:completionHandler:]_block_invoke.22
+- ___65-[NFCFeliCaTag requestSpecificationVersionWithCompletionHandler:]_block_invoke
+- ___65-[NFCHardwareManager isCardSessionEligibleWithCompletionHandler:]_block_invoke
+- ___65-[NFCHardwareManager isCardSessionEligibleWithCompletionHandler:]_block_invoke_2
+- ___65-[NFCISO15693Tag getSystemInfoWithRequestFlag:completionHandler:]_block_invoke
+- ___65-[NFCISO15693Tag resetToReadyWithRequestFlags:completionHandler:]_block_invoke
+- ___67-[NFCFeliCaTag requestServiceV2WithNodeCodeList:completionHandler:]_block_invoke
+- ___67-[NFCFeliCaTag requestServiceV2WithNodeCodeList:completionHandler:]_block_invoke.38
+- ___67-[NFCFeliCaTag requestServiceV2WithNodeCodeList:completionHandler:]_block_invoke.39
+- ___67-[NFCISO15693Tag _wtxRetryWithCommnand:maxRetry:completionHandler:]_block_invoke
+- ___67-[NFCISO15693Tag _wtxRetryWithCommnand:maxRetry:completionHandler:]_block_invoke.48
+- ___68-[NFCHardwareManager queueCardFieldDetectSession:completionHandler:]_block_invoke
+- ___68-[NFCHardwareManager queueCardFieldDetectSession:completionHandler:]_block_invoke_2
+- ___68-[NFCISO15693Tag writeDSFIDWithRequestFlag:dsfid:completionHandler:]_block_invoke
+- ___71-[NFCHardwareManager queueCardSession:sessionConfig:completionHandler:]_block_invoke
+- ___71-[NFCHardwareManager queueCardSession:sessionConfig:completionHandler:]_block_invoke_2
+- ___71-[NFCISO15693Tag getSystemInfoAndUIDWithRequestFlag:completionHandler:]_block_invoke
+- ___71-[NFCISO15693Tag sendCustomCommandWithConfiguration:completionHandler:]_block_invoke
+- ___71-[NFCVASReaderSession initWithVASCommandConfigurations:delegate:queue:]_block_invoke
+- ___71-[NFCVASReaderSession initWithVASCommandConfigurations:delegate:queue:]_block_invoke_2
+- ___72-[NFCISO15693ReaderSessionTag lockAFIWithRequestFlag:completionHandler:]_block_invoke
+- ___72-[NFCISO15693ReaderSessionTag selectWithRequestFlags:completionHandler:]_block_invoke
+- ___72-[NFCISO15693Tag readMultipleBlocksWithConfiguration:completionHandler:]_block_invoke
+- ___73-[NFCHardwareManager queueReaderSession:sessionConfig:completionHandler:]_block_invoke
+- ___73-[NFCHardwareManager queueReaderSession:sessionConfig:completionHandler:]_block_invoke_2
+- ___73-[NFCISO15693Tag sendRequestWithFlag:commandCode:data:completionHandler:]_block_invoke
+- ___74-[NFCISO15693ReaderSessionTag lockDFSIDWithRequestFlag:completionHandler:]_block_invoke
+- ___74-[NFCISO15693ReaderSessionTag lockDSFIDWithRequestFlag:completionHandler:]_block_invoke
+- ___74-[NFCISO15693Tag lockBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___75-[NFCHardwareManager requestPresentmentSuppressionWithDelegate:completion:]_block_invoke
+- ___75-[NFCHardwareManager requestPresentmentSuppressionWithDelegate:completion:]_block_invoke.50
+- ___75-[NFCHardwareManager requestPresentmentSuppressionWithDelegate:completion:]_block_invoke.52
+- ___75-[NFCHardwareManager requestPresentmentSuppressionWithDelegate:completion:]_block_invoke_2
+- ___76-[NFCISO15693ReaderSessionTag readBufferWithRequestFlags:completionHandler:]_block_invoke
+- ___77-[NFCFeliCaTag pollingWithSystemCode:requestCode:timeSlot:completionHandler:]_block_invoke
+- ___77-[NFCFeliCaTag pollingWithSystemCode:requestCode:timeSlot:completionHandler:]_block_invoke.13
+- ___77-[NFCFeliCaTag pollingWithSystemCode:requestCode:timeSlot:completionHandler:]_block_invoke.15
+- ___77-[NFCISO15693ReaderSessionTag writeAFIWithRequestFlag:afi:completionHandler:]_block_invoke
+- ___78-[NFCISO15693ReaderSessionTag getSystemInfoWithRequestFlag:completionHandler:]_block_invoke
+- ___78-[NFCISO15693ReaderSessionTag resetToReadyWithRequestFlags:completionHandler:]_block_invoke
+- ___80-[NFCISO15693Tag readSingleBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___81-[NFCISO15693ReaderSessionTag writeDSFIDWithRequestFlag:dsfid:completionHandler:]_block_invoke
+- ___82-[NFCISO15693Tag extendedLockBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___82-[NFCISO15693Tag extendedLockBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke.40
+- ___82-[NFCISO15693Tag readMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke
+- ___82-[NFCISO15693Tag readMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke.23
+- ___84-[NFCISO15693ReaderSessionTag getSystemInfoAndUIDWithRequestFlag:completionHandler:]_block_invoke
+- ___84-[NFCISO15693ReaderSessionTag sendCustomCommandWithConfiguration:completionHandler:]_block_invoke
+- ___84-[NFCISO15693Tag keyUpdateWithRequestFlags:keyIdentifier:message:completionHandler:]_block_invoke
+- ___85-[NFCFeliCaTag readWithoutEncryptionWithServiceCodeList:blockList:completionHandler:]_block_invoke
+- ___85-[NFCFeliCaTag readWithoutEncryptionWithServiceCodeList:blockList:completionHandler:]_block_invoke.25
+- ___85-[NFCFeliCaTag readWithoutEncryptionWithServiceCodeList:blockList:completionHandler:]_block_invoke.26
+- ___85-[NFCFeliCaTag readWithoutEncryptionWithServiceCodeList:blockList:completionHandler:]_block_invoke.28
+- ___85-[NFCISO15693ReaderSessionTag readMultipleBlocksWithConfiguration:completionHandler:]_block_invoke
+- ___85-[NFCISO15693Tag fastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___85-[NFCISO15693Tag fastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke.34
+- ___85-[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]_block_invoke
+- ___85-[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]_block_invoke.157
+- ___85-[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]_block_invoke.158
+- ___85-[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]_block_invoke.159
+- ___85-[NFCReaderSession _invalidateSessionWithCode:message:finalUIState:activateCallback:]_block_invoke.161
+- ___86-[NFCISO15693ReaderSessionTag sendRequestWithFlag:commandCode:data:completionHandler:]_block_invoke
+- ___87-[NFCISO15693ReaderSessionTag lockBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___88-[NFCISO15693Tag extendedReadSingleBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___88-[NFCISO15693Tag extendedReadSingleBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke.37
+- ___90-[NFCISO15693Tag extendedReadMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke
+- ___90-[NFCISO15693Tag extendedReadMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke.41
+- ___90-[NFCNDEFReaderSession didDetectNDEFMessages:fromTags:connectedTagIndex:updateUICallback:]_block_invoke
+- ___90-[NFCNDEFReaderSession didDetectNDEFMessages:fromTags:connectedTagIndex:updateUICallback:]_block_invoke.24
+- ___91-[NFCISO15693Tag writeSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke
+- ___91-[NFCISO15693Tag writeSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke.20
+- ___92-[NFCISO15693Tag challengeWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]_block_invoke
+- ___93-[NFCISO15693ReaderSessionTag readSingleBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___93-[NFCISO15693Tag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___93-[NFCISO15693Tag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke.49
+- ___93-[NFCISO15693Tag extendedFastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke_2
+- ___93-[NFCISO15693Tag getMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___93-[NFCISO15693Tag getMultipleBlockSecurityStatusWithRequestFlag:blockRange:completionHandler:]_block_invoke.33
+- ___94-[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke
+- ___94-[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.26
+- ___94-[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.28
+- ___94-[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.29
+- ___94-[NFCISO15693Tag writeMultipleBlocksWithRequestFlags:blockRange:dataBlocks:completionHandler:]_block_invoke.31
+- ___95-[NFCISO15693ReaderSessionTag extendedLockBlockWithRequestFlags:blockNumber:completionHandler:]_block_invoke
+- ___95-[NFCISO15693ReaderSessionTag readMultipleBlocksWithRequestFlags:blockRange:completionHandler:]_block_invoke
+- ___95-[NFCISO15693Tag authenticateWithRequestFlags:cryptoSuiteIdentifier:message:completionHandler:]_block_invoke
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.29
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.31
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.33
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.34
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.35
+- ___96-[NFCFeliCaTag writeWithoutEncryptionWithServiceCodeList:blockList:blockData:completionHandler:]_block_invoke.37
+- ___97-[NFCISO15693ReaderSessionTag keyUpdateWithRequestFlags:keyIdentifier:message:completionHandler:]_block_invoke
+- ___98-[NFCISO15693ReaderSessionTag fastReadMultipleBlocksWithRequestFlag:blockRange:completionHandler:]_block_invoke
+- ___99-[NFCISO15693Tag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke
+- ___99-[NFCISO15693Tag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke.38
+- ___99-[NFCISO15693Tag extendedWriteSingleBlockWithRequestFlags:blockNumber:dataBlock:completionHandler:]_block_invoke.39
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___CRASHING_DUE_TO_PRIVACY_VIOLATION__
+- ___block_descriptor_32_e25_B24?08"NSDictionary"16l
+- ___block_descriptor_32_e38_v32?0"<NFCSessionCallbacks>"8Q16^B24l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_36_e46_v32?0"<NFCHardwareManagerCallbacks>"8Q16^B24l
+- ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32bs_e20_v24?0Q8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e28_v24?0"NSData"8"NSError"16ls32l8
+- ___block_descriptor_40_e8_32bs_e43_v64?0"NSData"8q16q24q32q40q48"NSError"56ls32l8
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32r_e17_v16?0"NSError"8lr32l8
+- ___block_descriptor_40_e8_32s_e13_"NSData"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e14_"<NFTag>"8?0ls32l8
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32w_e5_v8?0lw32l8
+- ___block_descriptor_48_e8_32r40r_e20_v20?0"NSError"8B16lr32l8r40l8
+- ___block_descriptor_48_e8_32r40r_e20_v20?0B8"NSError"12lr32l8r40l8
+- ___block_descriptor_48_e8_32r40r_e29_v24?0"<NFTag>"8"NSError"16lr32l8r40l8
+- ___block_descriptor_48_e8_32r40r_e29_v24?0"NSError"8"NSArray"16lr32l8r40l8
+- ___block_descriptor_48_e8_32r40r_e37_v24?0"NSError"8"<NFNdefMessage>"16lr32l8r40l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e17_v16?0"NSError"8ls32l8
+- ___block_descriptor_48_e8_32s_e92_v36?0"NSObject<NFReaderSessionInterface><NSXPCProxyCreating>"8B16"NSNumber"20"NSError"28ls32l8
+- ___block_descriptor_56_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32r40r48r_e40_v32?0"<NFTag>"8"NSData"16"NSError"24lr32l8r40l8r48l8
+- ___block_descriptor_56_e8_32r40r_e23_v32?0q8Q16"NSError"24lr32l8r40l8
+- ___block_descriptor_56_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_56_e8_32s40bs_e5_v8?0ls40l8s32l8
+- ___block_descriptor_56_e8_32s40r48r_e5_v8?0lr40l8s32l8r48l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48r_e5_v8?0lr48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s_e20_v20?0B8"NSError"12ls32l8s40l8
+- ___block_descriptor_56_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_e8_32s40w_e5_v8?0ls32l8w40l8
+- ___block_descriptor_57_e8_32s40s48bs_e17_v16?0"NSError"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs_e41_v24?0"NFAssertionInternal"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e59_v28?0"NSObject<NFReaderSessionInterface>"8B16"NSError"20ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e78_v28?0"NSObject<NFCCardSessionInterface><NSXPCProxyCreating>"8B16"NSError"20ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48bs_e82_v24?0"NSObject<NFCFieldDetectSessionInterface><NSXPCProxyCreating>"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48r_e5_8?0ls32l8s40l8r48l8
+- ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_72_e8_32s40s48bs_e28_v24?0"NSData"8"NSError"16ls32l8s48l8s40l8
+- ___block_descriptor_73_e8_32s40bs_e28_v24?0"NSData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_80_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_literal_global
+- ___block_literal_global.73
+- ___block_literal_global.93
+- ___objc_personality_v0
+- ___swift_allocate_value_buffer
+- ___swift_async_entry_functlets
+- ___swift_async_ret_functlets
+- ___swift_destroy_boxed_opaque_existential_0
+- ___swift_instantiateConcreteTypeFromMangledName
+- ___swift_instantiateGenericMetadata
+- ___swift_memcpy16_8
+- ___swift_memcpy17_8
+- ___swift_memcpy1_1
+- ___swift_memcpy24_8
+- ___swift_memcpy32_8
+- ___swift_memcpy40_8
+- ___swift_memcpy48_8
+- ___swift_memcpy56_8
+- ___swift_memcpy8_8
+- ___swift_memcpy9_8
+- ___swift_noop_void_return
+- ___swift_project_value_buffer
+- ___swift_reflection_version
+- ___unnamed_1
+- __swift_FORCE_LOAD_$_swiftCoreFoundation_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftDarwin_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftDispatch_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftFoundation_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftObjectiveC_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftXPC_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_Builtin_float_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_CoreNFC
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftos_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_CoreNFC
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_CoreNFC
+- __swift_stdlib_malloc_size
+- _associated conformance 7CoreNFC11CardSessionC0D5State33_09C943A82AE39AB663F14E45E7701CB1LLOSHAASQ
+- _associated conformance 7CoreNFC11CardSessionC11EventStreamC8IteratorCScIAA7FailureScI_s5Error
+- _associated conformance 7CoreNFC11CardSessionC11EventStreamCSciAA13AsyncIteratorSci_ScI
+- _associated conformance 7CoreNFC11CardSessionC17EmulationUIStatusOSHAASQ
+- _associated conformance 7CoreNFC11CardSessionC5ErrorOSHAASQ
+- _associated conformance 7CoreNFC14NFCCardSessionC5ErrorOSHAASQ
+- _associated conformance 7CoreNFC29NFCPresentmentIntentAssertionC5ErrorOSHAASQ
+- _associated conformance 7CoreNFC35NFCPresentmentSuppressionControllerC5EventOSHAASQ
+- _block_copy_helper
+- _block_copy_helper.111
+- _block_copy_helper.117
+- _block_copy_helper.126
+- _block_copy_helper.132
+- _block_copy_helper.139
+- _block_copy_helper.14
+- _block_copy_helper.146
+- _block_copy_helper.15
+- _block_copy_helper.152
+- _block_copy_helper.16
+- _block_copy_helper.20
+- _block_copy_helper.21
+- _block_copy_helper.26
+- _block_copy_helper.27
+- _block_copy_helper.32
+- _block_copy_helper.33
+- _block_copy_helper.38
+- _block_copy_helper.39
+- _block_copy_helper.4
+- _block_copy_helper.44
+- _block_copy_helper.45
+- _block_copy_helper.47
+- _block_copy_helper.50
+- _block_copy_helper.51
+- _block_copy_helper.53
+- _block_copy_helper.57
+- _block_copy_helper.59
+- _block_copy_helper.60
+- _block_copy_helper.65
+- _block_copy_helper.66
+- _block_copy_helper.71
+- _block_copy_helper.72
+- _block_copy_helper.77
+- _block_copy_helper.79
+- _block_copy_helper.8
+- _block_copy_helper.82
+- _block_copy_helper.9
+- _block_descriptor
+- _block_descriptor.10
+- _block_descriptor.11
+- _block_descriptor.113
+- _block_descriptor.119
+- _block_descriptor.128
+- _block_descriptor.134
+- _block_descriptor.141
+- _block_descriptor.148
+- _block_descriptor.154
+- _block_descriptor.16
+- _block_descriptor.17
+- _block_descriptor.18
+- _block_descriptor.22
+- _block_descriptor.23
+- _block_descriptor.28
+- _block_descriptor.29
+- _block_descriptor.34
+- _block_descriptor.35
+- _block_descriptor.40
+- _block_descriptor.41
+- _block_descriptor.46
+- _block_descriptor.47
+- _block_descriptor.49
+- _block_descriptor.52
+- _block_descriptor.53
+- _block_descriptor.55
+- _block_descriptor.59
+- _block_descriptor.6
+- _block_descriptor.61
+- _block_descriptor.62
+- _block_descriptor.67
+- _block_descriptor.68
+- _block_descriptor.73
+- _block_descriptor.74
+- _block_descriptor.79
+- _block_descriptor.81
+- _block_descriptor.84
+- _block_destroy_helper
+- _block_destroy_helper.10
+- _block_destroy_helper.112
+- _block_destroy_helper.118
+- _block_destroy_helper.127
+- _block_destroy_helper.133
+- _block_destroy_helper.140
+- _block_destroy_helper.147
+- _block_destroy_helper.15
+- _block_destroy_helper.153
+- _block_destroy_helper.16
+- _block_destroy_helper.17
+- _block_destroy_helper.21
+- _block_destroy_helper.22
+- _block_destroy_helper.27
+- _block_destroy_helper.28
+- _block_destroy_helper.33
+- _block_destroy_helper.34
+- _block_destroy_helper.39
+- _block_destroy_helper.40
+- _block_destroy_helper.45
+- _block_destroy_helper.46
+- _block_destroy_helper.48
+- _block_destroy_helper.5
+- _block_destroy_helper.51
+- _block_destroy_helper.52
+- _block_destroy_helper.54
+- _block_destroy_helper.58
+- _block_destroy_helper.60
+- _block_destroy_helper.61
+- _block_destroy_helper.66
+- _block_destroy_helper.67
+- _block_destroy_helper.72
+- _block_destroy_helper.73
+- _block_destroy_helper.78
+- _block_destroy_helper.80
+- _block_destroy_helper.83
+- _block_destroy_helper.9
+- _flat unique So12NFCFeliCaTag_p
+- _flat unique So12NFCMiFareTag_p
+- _flat unique So13NFCISO7816Tag_p
+- _flat unique So14NFCISO15693Tag_p
+- _flat unique So18NSXPCProxyCreating_p
+- _flat unique So23NFCCardSessionInterface_p
+- _flat unique So30NFCFieldDetectSessionInterface_p
+- _flat unique So6NFCTag_p
+- _gCRAnnotations
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 10Foundation4DataVSg
+- _get_enum_tag_for_layout_string 7CoreNFC11CardSessionC5EventO
+- _get_enum_tag_for_layout_string 7CoreNFC14NFCCardSessionC5EventO
+- _get_enum_tag_for_layout_string 7CoreNFC6NFCTagO
+- _interface.interface
+- _interface.interface.90
+- _interface.onceToken
+- _interface.onceToken.91
+- _objc_begin_catch
+- _objc_end_catch
+- _objc_exception_rethrow
+- _objc_exception_throw
+- _objc_msgSend$NF_asHexString
+- _objc_msgSend$SystemCode
+- _objc_msgSend$URL
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_MaxRetry
+- _objc_msgSend$_MaxRetryInterval
+- _objc_msgSend$_callbackDidBecomeActive
+- _objc_msgSend$_callbackDidInvalidateWithError:
+- _objc_msgSend$_cleanupPresentmentAssertion
+- _objc_msgSend$_configureInterface:
+- _objc_msgSend$_connectIfNeeded
+- _objc_msgSend$_connectTag:error:
+- _objc_msgSend$_connectWithCompletionHandler:
+- _objc_msgSend$_connectWithSession:outError:
+- _objc_msgSend$_connection
+- _objc_msgSend$_connectionLock
+- _objc_msgSend$_convertMessageToInternal:
+- _objc_msgSend$_convertVASConfigToInternalRequest:
+- _objc_msgSend$_convertVASResponseToExternal:
+- _objc_msgSend$_disconnectWithError:
+- _objc_msgSend$_generateRequestHeader:flags:
+- _objc_msgSend$_getInternalReaderSession
+- _objc_msgSend$_getPayloadsFromNDEFRecords:
+- _objc_msgSend$_initWithRecords:
+- _objc_msgSend$_invalidate
+- _objc_msgSend$_invalidateSessionAndActivateCallbackWithCode:
+- _objc_msgSend$_invalidateSessionWithCode:
+- _objc_msgSend$_invalidateSessionWithCode:message:finalUIState:activateCallback:
+- _objc_msgSend$_parseResponseData:outError:
+- _objc_msgSend$_parseResponseErrorWithData:
+- _objc_msgSend$_payloadForIdentifier:
+- _objc_msgSend$_queueSession:
+- _objc_msgSend$_restartPollingWithCompletionHandler:
+- _objc_msgSend$_resumeDelegateQueue
+- _objc_msgSend$_sendAPDU:completionHandler:
+- _objc_msgSend$_sendVASRequests:error:
+- _objc_msgSend$_setConnection:
+- _objc_msgSend$_setDelegateQueue:
+- _objc_msgSend$_setNDEFAvailability:
+- _objc_msgSend$_setNDEFContainerSize:
+- _objc_msgSend$_setPayload:object:identifier:dirty:
+- _objc_msgSend$_setQueue:
+- _objc_msgSend$_setSession:
+- _objc_msgSend$_setTag:
+- _objc_msgSend$_startPollingWithMethod:sessionConfig:completionHandler:
+- _objc_msgSend$_transceiveWithData:completionHandler:
+- _objc_msgSend$_transceiveWithData:receivedData:commandConfig:error:
+- _objc_msgSend$_transceiveWithSession:sendData:receivedData:error:
+- _objc_msgSend$_updateNdefStatusWithSession:
+- _objc_msgSend$_validateRecords:fromOriginal:
+- _objc_msgSend$_wtxRetryWithCommnand:maxRetry:completionHandler:
+- _objc_msgSend$absoluteString
+- _objc_msgSend$addEntriesFromDictionary:
+- _objc_msgSend$addNFCHardwareManagerCallbacksListener:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addRecordArray:
+- _objc_msgSend$alertMessage
+- _objc_msgSend$allKeysForObject:
+- _objc_msgSend$allObjects
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendData:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$appendString:
+- _objc_msgSend$applicationData
+- _objc_msgSend$applicationDataCoding
+- _objc_msgSend$archivedDataWithRootObject:requiringSecureCoding:error:
+- _objc_msgSend$areFeaturesSupported:completion:
+- _objc_msgSend$areFeaturesSupported:expiry:completion:
+- _objc_msgSend$areFeaturesSupported:outError:
+- _objc_msgSend$asData
+- _objc_msgSend$asNSDataArrayWithUID:error:
+- _objc_msgSend$asNSDataWithError:
+- _objc_msgSend$assertion
+- _objc_msgSend$assertionWithAssertion:delegate:
+- _objc_msgSend$beginSessionWithConfig:
+- _objc_msgSend$bytes
+- _objc_msgSend$checkNdefSupportWithCompletion:
+- _objc_msgSend$checkPresenceWithCompletion:
+- _objc_msgSend$checkPresenceWithError:
+- _objc_msgSend$chunkSize
+- _objc_msgSend$chunked
+- _objc_msgSend$cleanupNFCHardwareManagerRegistration
+- _objc_msgSend$code
+- _objc_msgSend$coder:decodeArrayOfClass:forKey:
+- _objc_msgSend$compare:options:range:
+- _objc_msgSend$componentsWithString:
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$connect:completion:
+- _objc_msgSend$connectTag:completionHandler:
+- _objc_msgSend$connectTag:error:
+- _objc_msgSend$copy
+- _objc_msgSend$copyWithZone:
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentHandler
+- _objc_msgSend$currentTag
+- _objc_msgSend$dataUsingEncoding:
+- _objc_msgSend$dataUsingEncoding:allowLossyConversion:
+- _objc_msgSend$decodeIdentifier:manufacturerCode:serialNumber:
+- _objc_msgSend$decodeIntegerForKey:
+- _objc_msgSend$decodeObjectOfClass:forKey:
+- _objc_msgSend$delegate
+- _objc_msgSend$delegateType
+- _objc_msgSend$dequeueSession:
+- _objc_msgSend$description
+- _objc_msgSend$dictionaryWithObjects:forKeys:count:
+- _objc_msgSend$didDetectTags:connectedTagIndex:
+- _objc_msgSend$didExpire
+- _objc_msgSend$didFinishCooldown
+- _objc_msgSend$didInvalidate
+- _objc_msgSend$disconnectTagWithError:
+- _objc_msgSend$disconnectWithCardRemoval:completion:
+- _objc_msgSend$dispatchBlockOnDelegateQueueAsync:
+- _objc_msgSend$dispatchOnDelegateQueueAsync:
+- _objc_msgSend$domain
+- _objc_msgSend$encodeInteger:forKey:
+- _objc_msgSend$encodeObject:forKey:
+- _objc_msgSend$endSession:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$errorWithCode:
+- _objc_msgSend$errorWithCode:userInfo:
+- _objc_msgSend$errorWithNFCDError:defaultNFCErrorCode:
+- _objc_msgSend$exceptionWithName:reason:userInfo:
+- _objc_msgSend$externalHandle
+- _objc_msgSend$featureAvailable:
+- _objc_msgSend$filteredArrayUsingPredicate:
+- _objc_msgSend$firstObject
+- _objc_msgSend$getBytes:length:
+- _objc_msgSend$getReaderSessionWithKey:
+- _objc_msgSend$getSystemInfoAndUIDWithRequestFlag:completionHandler:
+- _objc_msgSend$handleFailureInMethod:object:file:lineNumber:description:
+- _objc_msgSend$hardwareManager
+- _objc_msgSend$historicalBytes
+- _objc_msgSend$hwStateDidChange:
+- _objc_msgSend$icManufacturerCode
+- _objc_msgSend$identifier
+- _objc_msgSend$initWithArray:
+- _objc_msgSend$initWithAssertion:delegate:
+- _objc_msgSend$initWithBytes:length:
+- _objc_msgSend$initWithCallback:queue:
+- _objc_msgSend$initWithCapacity:
+- _objc_msgSend$initWithCode:userInfo:
+- _objc_msgSend$initWithData:
+- _objc_msgSend$initWithData:encoding:
+- _objc_msgSend$initWithDelegate:queue:
+- _objc_msgSend$initWithDelegate:queue:invalidateAfterFirstRead:
+- _objc_msgSend$initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:
+- _objc_msgSend$initWithDomain:code:userInfo:
+- _objc_msgSend$initWithEmptyNdefMessage
+- _objc_msgSend$initWithFormat:
+- _objc_msgSend$initWithFormat:type:identifier:payload:
+- _objc_msgSend$initWithFormat:type:identifier:payload:chunkSize:
+- _objc_msgSend$initWithFormatType:type:identifier:payload:chunkSize:
+- _objc_msgSend$initWithMachServiceName:options:
+- _objc_msgSend$initWithMachServiceName:remoteObjectInterface:exportedObjectInterface:exportedObject:delegate:
+- _objc_msgSend$initWithManufacturerCode:customCommandCode:requestParameters:maximumRetries:retryInterval:
+- _objc_msgSend$initWithNDEFRecords:
+- _objc_msgSend$initWithNFNdefMessage:
+- _objc_msgSend$initWithObjects:
+- _objc_msgSend$initWithObjectsAndKeys:
+- _objc_msgSend$initWithPollingOption:delegate:delegateType:queue:
+- _objc_msgSend$initWithRange:chunkSize:maximumRetries:retryInterval:
+- _objc_msgSend$initWithSession:tag:startupConfig:
+- _objc_msgSend$initWithStatus:data:mobileToken:
+- _objc_msgSend$initWithString:
+- _objc_msgSend$initWithString:encodingInvalidCharacters:
+- _objc_msgSend$initWithVASMode:passTypeIdentifier:url:
+- _objc_msgSend$interface
+- _objc_msgSend$interfaceWithProtocol:
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateSessionWithReason:
+- _objc_msgSend$isCardSessionEligibleWithCompletion:
+- _objc_msgSend$isEqualToData:
+- _objc_msgSend$isEqualToNFTag:
+- _objc_msgSend$isEqualToNumber:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isInvalidated
+- _objc_msgSend$isMatchingSession:outError:
+- _objc_msgSend$languageCode
+- _objc_msgSend$length
+- _objc_msgSend$localeWithLocaleIdentifier:
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$lock
+- _objc_msgSend$lockDSFIDWithRequestFlag:completionHandler:
+- _objc_msgSend$maximumRetries
+- _objc_msgSend$messageBegin
+- _objc_msgSend$messageEnd
+- _objc_msgSend$mode
+- _objc_msgSend$ndefAvailability
+- _objc_msgSend$ndefContainerSize
+- _objc_msgSend$ndefReadWithCompletion:
+- _objc_msgSend$ndefStatus:maxMessageLength:
+- _objc_msgSend$ndefWrite:completion:
+- _objc_msgSend$numberWithChar:
+- _objc_msgSend$numberWithInt:
+- _objc_msgSend$numberWithInteger:
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$objectForKeyedSubscript:
+- _objc_msgSend$passConfigWithMode:passIdentifier:
+- _objc_msgSend$passTypeIdentifier
+- _objc_msgSend$payload
+- _objc_msgSend$performVAS:completion:
+- _objc_msgSend$predicateWithBlock:
+- _objc_msgSend$pupi
+- _objc_msgSend$queueCardFieldDetectSession:completion:
+- _objc_msgSend$queueCardSession:sessionConfig:completion:
+- _objc_msgSend$queueReaderSession:sessionConfig:completion:
+- _objc_msgSend$queueReaderSession:sessionConfig:completionHandler:
+- _objc_msgSend$readNdefMessageWithError:
+- _objc_msgSend$readerProxy
+- _objc_msgSend$readerSession:didDetectNDEFs:
+- _objc_msgSend$readerSession:didDetectTags:
+- _objc_msgSend$readerSession:didInvalidateWithError:
+- _objc_msgSend$readerSession:didReceiveVASResponses:
+- _objc_msgSend$readerSessionDidBecomeActive:
+- _objc_msgSend$records
+- _objc_msgSend$recordsFromBytes:length:
+- _objc_msgSend$recordsWithTNF:type:identifier:payload:chunkSize:outError:
+- _objc_msgSend$releasePresentmentSuppression:completion:
+- _objc_msgSend$releaseSuppressPresentmentAssertion:completion:
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeObjectsForKeys:
+- _objc_msgSend$requestSuppressPresentmentWithCompletion:
+- _objc_msgSend$resolveURIString:
+- _objc_msgSend$restartPolling
+- _objc_msgSend$restartPollingWithCompletion:
+- _objc_msgSend$resume
+- _objc_msgSend$retryInterval
+- _objc_msgSend$reverseByteOrder:
+- _objc_msgSend$selectedAID
+- _objc_msgSend$sendFeliCaCommandPacket:completionHandler:
+- _objc_msgSend$sessionConfigWithUIMode:sessionType:initialScanText:vasPass:
+- _objc_msgSend$sessionId
+- _objc_msgSend$sessionQueue
+- _objc_msgSend$setChunkSize:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setCustomCommandCode:
+- _objc_msgSend$setExportedInterface:
+- _objc_msgSend$setExportedObject:
+- _objc_msgSend$setFlags:
+- _objc_msgSend$setInterface:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setInterruptionHandler:
+- _objc_msgSend$setInvalidationHandler:
+- _objc_msgSend$setManufacturerCode:
+- _objc_msgSend$setMaximumRetries:
+- _objc_msgSend$setMode:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setObject:forKeyedSubscript:
+- _objc_msgSend$setPassTypeIdentifier:
+- _objc_msgSend$setRange:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setRequestParameters:
+- _objc_msgSend$setRetryInterval:
+- _objc_msgSend$setUrl:
+- _objc_msgSend$sharedHardwareManager
+- _objc_msgSend$startAssertion:
+- _objc_msgSend$startCooldown:
+- _objc_msgSend$startPollingForNDEFMessagesWithSessionConfig:completion:
+- _objc_msgSend$startPollingForTags:sessionConfig:completion:
+- _objc_msgSend$startTimer:
+- _objc_msgSend$stopPollingWithCompletion:
+- _objc_msgSend$stopTimer
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$subdataWithRange:
+- _objc_msgSend$submitBlockOnDelegateQueue:
+- _objc_msgSend$submitBlockOnSessionQueue:
+- _objc_msgSend$submitBlockOnSessionQueueWithDelay:block:
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$synchronousRemoteObjectProxyWithErrorHandler:
+- _objc_msgSend$systemCode
+- _objc_msgSend$tagA
+- _objc_msgSend$tagB
+- _objc_msgSend$tagF
+- _objc_msgSend$tagID
+- _objc_msgSend$tagReaderSession:didDetectTags:
+- _objc_msgSend$tagReaderSession:didInvalidateWithError:
+- _objc_msgSend$tagReaderSessionDidBecomeActive:
+- _objc_msgSend$technology
+- _objc_msgSend$transceive:completion:
+- _objc_msgSend$transceive:tagUpdate:error:
+- _objc_msgSend$type
+- _objc_msgSend$typeNameFormat
+- _objc_msgSend$unarchivedObjectOfClass:fromData:error:
+- _objc_msgSend$unlock
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$unsignedShortValue
+- _objc_msgSend$updateSharingUIScanText:completion:
+- _objc_msgSend$updateSharingUIStateOnInvalidation:completion:
+- _objc_msgSend$url
+- _objc_msgSend$validateDelegate:expectedType:
+- _objc_msgSend$weakObjectsHashTable
+- _objc_msgSend$wellKnownTypeURIPayload
+- _objc_msgSend$wellKnownTypeURIPayloadWithString:
+- _objc_msgSend$writeLockNdef
+- _objc_msgSend$writeNdefMessage:error:
+- _objc_msgSend$writeProtectNDEFTagWithCompletion:
+- _objc_retain_x10
+- _objc_terminate
+- _objectdestroy.16Tm
+- _objectdestroyTm
+- _sharedHardwareManager._singleton
+- _sharedHardwareManager.onceToken
+- _symbolic $s7CoreNFC27NFCTagReaderSessionDelegateP
+- _symbolic $sScI
+- _symbolic $sSci
+- _symbolic BD
+- _symbolic SaySiG
+- _symbolic Say_____GSg 10Foundation4DataV
+- _symbolic Sb
+- _symbolic Sb5state_t
+- _symbolic ScA_pSg
+- _symbolic ScPSg
+- _symbolic ScSy_____G 7CoreNFC11CardSessionC5EventO
+- _symbolic ScSy_____G 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic ScSy_____G 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic SccySb_____G s5NeverO
+- _symbolic SccySo8NSNumberC______pG s5ErrorP
+- _symbolic Sccyyt______pG s5ErrorP
+- _symbolic Sccyyt______pGSg s5ErrorP
+- _symbolic Sd
+- _symbolic Si
+- _symbolic So7NFTimerCSg
+- _symbolic So8NSNumberCSg
+- _symbolic So8NSObjectC
+- _symbolic So8NSObjectCSg
+- _symbolic Su
+- _symbolic _____ 10Foundation4DataV
+- _symbolic _____ 7CoreNFC10XPCSessionV
+- _symbolic _____ 7CoreNFC11CardSessionC
+- _symbolic _____ 7CoreNFC11CardSessionC0D5State33_09C943A82AE39AB663F14E45E7701CB1LLO
+- _symbolic _____ 7CoreNFC11CardSessionC11EventStreamC
+- _symbolic _____ 7CoreNFC11CardSessionC11EventStreamC8IteratorC
+- _symbolic _____ 7CoreNFC11CardSessionC17EmulationUIStatusO
+- _symbolic _____ 7CoreNFC11CardSessionC4APDUC
+- _symbolic _____ 7CoreNFC11CardSessionC5ErrorO
+- _symbolic _____ 7CoreNFC11CardSessionC5EventO
+- _symbolic _____ 7CoreNFC14NFCCardSessionC
+- _symbolic _____ 7CoreNFC14NFCCardSessionC5ErrorO
+- _symbolic _____ 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic _____ 7CoreNFC16NFCAtomicWrapperV
+- _symbolic _____ 7CoreNFC19NFCFeliCaStatusFlagV
+- _symbolic _____ 7CoreNFC21AssertionNotificationC
+- _symbolic _____ 7CoreNFC21NFCISO15693SystemInfoV
+- _symbolic _____ 7CoreNFC22NFCCardSessionDelegate33_EFB2E886CAEE49EE896FB2304411A556LLC
+- _symbolic _____ 7CoreNFC22NFCISO7816ResponseAPDUV
+- _symbolic _____ 7CoreNFC24NFCFeliCaPollingResponseV
+- _symbolic _____ 7CoreNFC29NFCPresentmentIntentAssertionC
+- _symbolic _____ 7CoreNFC29NFCPresentmentIntentAssertionC5ErrorO
+- _symbolic _____ 7CoreNFC33NFCFeliCaRequsetServiceV2ResponseV
+- _symbolic _____ 7CoreNFC35NFCPresentmentSuppressionControllerC
+- _symbolic _____ 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic _____ 7CoreNFC38NFCISO15693MultipleBlockSecurityStatusV
+- _symbolic _____ 7CoreNFC39NFCTagReaderSessionDelegateSwiftWrapperC
+- _symbolic _____ 7CoreNFC44NFCFeliCaRequestSpecificationVersionResponseV
+- _symbolic _____ 7CoreNFC6NFCTagO
+- _symbolic _____ So16os_unfair_lock_sV
+- _symbolic _____ So21NFCFeliCaEncryptionIdV
+- _symbolic _____ So23NFCISO15693ResponseFlagV
+- _symbolic _____ s5UInt8V
+- _symbolic _____ s6UInt32V
+- _symbolic _____5error_t 7CoreNFC14NFCCardSessionC5ErrorO
+- _symbolic _____6reason_t 7CoreNFC11CardSessionC5ErrorO
+- _symbolic _____Sg 10Foundation4DataV
+- _symbolic _____Sg 10Foundation6LocaleV
+- _symbolic _____Sg 7CoreNFC11CardSessionC4APDUC
+- _symbolic _____Sg 7CoreNFC14NFCCardSessionC5ErrorO
+- _symbolic _____Sg 7CoreNFC22NFCCardSessionDelegate33_EFB2E886CAEE49EE896FB2304411A556LLC
+- _symbolic _____Sg5error_t 7CoreNFC14NFCCardSessionC5ErrorO
+- _symbolic _____SgXw 7CoreNFC14NFCCardSessionC
+- _symbolic _____SgXw 7CoreNFC29NFCPresentmentIntentAssertionC
+- _symbolic _____SgXw 7CoreNFC35NFCPresentmentSuppressionControllerC
+- _symbolic _____SgXwz_Xx 7CoreNFC14NFCCardSessionC
+- _symbolic _____SgXwz_Xx 7CoreNFC29NFCPresentmentIntentAssertionC
+- _symbolic _____SgXwz_Xx 7CoreNFC35NFCPresentmentSuppressionControllerC
+- _symbolic ______p So12NFCFeliCaTagP
+- _symbolic ______p So12NFCMiFareTagP
+- _symbolic ______p So13NFCISO7816TagP
+- _symbolic ______p So14NFCISO15693TagP
+- _symbolic ______p So18NSXPCProxyCreatingP
+- _symbolic ______p So23NFCCardSessionInterfaceP
+- _symbolic ______p So30NFCFieldDetectSessionInterfaceP
+- _symbolic ______p So6NFCTagP
+- _symbolic ______p s5ErrorP
+- _symbolic ______pSg s5ErrorP
+- _symbolic ______pSgIegg_ s5ErrorP
+- _symbolic ______pSgXw 7CoreNFC27NFCTagReaderSessionDelegateP
+- _symbolic _____ySSG 7CoreNFC16NFCAtomicWrapperV
+- _symbolic _____ySS_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySay_____G______pGIegg_ s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
+- _symbolic _____ySb_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
+- _symbolic _____ySiG s23_ContiguousArrayStorageC
+- _symbolic _____ySi______pGIegg_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____y_____G 7CoreNFC16NFCAtomicWrapperV AA11CardSessionC0F5State33_09C943A82AE39AB663F14E45E7701CB1LLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7CoreNFC6NFCTagO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+- _symbolic _____y______G ScS12ContinuationV 7CoreNFC11CardSessionC5EventO
+- _symbolic _____y______G ScS12ContinuationV 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic _____y______G ScS12ContinuationV 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic _____y______G ScS8IteratorV 7CoreNFC11CardSessionC5EventO
+- _symbolic _____y______G ScS8IteratorV 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic _____y______G ScS8IteratorV 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic _____y______Say_____Gt______pGIegn_ s6ResultOsRi_zrlE 7CoreNFC19NFCFeliCaStatusFlagV 10Foundation4DataV s5ErrorP
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 7CoreNFC11CardSessionC5EventO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic _____y_______G ScS12ContinuationV11YieldResultO 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 7CoreNFC11CardSessionC5EventO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 7CoreNFC14NFCCardSessionC5EventO
+- _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 7CoreNFC35NFCPresentmentSuppressionControllerC5EventO
+- _symbolic _____y__________G s13ManagedBufferCsRi__rlE 7CoreNFC11CardSessionC0F5State33_09C943A82AE39AB663F14E45E7701CB1LLO So16os_unfair_lock_sV
+- _symbolic _____y___________Sgt______pGIegg_ s6ResultOsRi_zrlE So23NFCISO15693ResponseFlagV 10Foundation4DataV s5ErrorP
+- _symbolic _____y___________pGIegg_ s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC19NFCFeliCaStatusFlagV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC21NFCISO15693SystemInfoV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC22NFCISO7816ResponseAPDUV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC24NFCFeliCaPollingResponseV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC33NFCFeliCaRequsetServiceV2ResponseV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC38NFCISO15693MultipleBlockSecurityStatusV s5ErrorP
+- _symbolic _____y___________pGIegn_ s6ResultOsRi_zrlE 7CoreNFC44NFCFeliCaRequestSpecificationVersionResponseV s5ErrorP
+- _symbolic _____y___________t______pGIegg_ s6ResultOsRi_zrlE So23NFCISO15693ResponseFlagV 10Foundation4DataV s5ErrorP
+- _symbolic _____y______pGSg 7CoreNFC10XPCSessionV So23NFCCardSessionInterfaceP
+- _symbolic _____y______pGSg 7CoreNFC10XPCSessionV So30NFCFieldDetectSessionInterfaceP
+- _symbolic _____yxG 2os21OSAllocatedUnfairLockV
+- _symbolic x
+- _symbolic ySuYbc
+- _symbolic y___________tYaYbKc 10Foundation4DataV 7CoreNFC11CardSessionC4APDUC
+- _symbolic ytIeAgHr_
+- _type_layout_string 7CoreNFC11CardSessionC5EventO
+- _type_layout_string 7CoreNFC14NFCCardSessionC5EventO
+- _type_layout_string 7CoreNFC19NFCFeliCaStatusFlagV
+- _type_layout_string 7CoreNFC21NFCISO15693SystemInfoV
+- _type_layout_string 7CoreNFC22NFCISO7816ResponseAPDUV
+- _type_layout_string 7CoreNFC24NFCFeliCaPollingResponseV
+- _type_layout_string 7CoreNFC33NFCFeliCaRequsetServiceV2ResponseV
+- _type_layout_string 7CoreNFC38NFCISO15693MultipleBlockSecurityStatusV
+- _type_layout_string 7CoreNFC44NFCFeliCaRequestSpecificationVersionResponseV
+- _type_layout_string 7CoreNFC6NFCTagO
+- _type_layout_string So16os_unfair_lock_sV
+- _type_layout_string So23NFCISO15693ResponseFlagV
+- _type_layout_string So8NSObjectRzl7CoreNFC10XPCSessionVyxG
+- _type_layout_string s8SendableRzl7CoreNFC16NFCAtomicWrapperVyxG
+CStrings:
++ "(self.sessionType == CoreNFCSessionTypeTagReader) || (self.sessionType == CoreNFCSessionTypePaymentReader)"
++ "-[NFCReaderSession beginSession]"
++ "@48@0:8q16@24Q32@40"
++ "@56@0:8q16@24q32Q40@48"
++ "@64@0:8@16q24@32Q40Q48Q56"
++ "CoreNFC.NFCPaymentTagReaderSession"
++ "NFCPaymentTagReaderSession"
++ "System is ineligible for this operation"
++ "TB,N,R"
++ "TQ,N,V_pollOption"
++ "TQ,R,N,V_sessionType"
++ "_pollOption"
++ "_sessionType"
++ "asyncProxyExecute(isolation:_:)"
++ "init(delegate:sessionDelegateType:queue:pollMethod:sessionType:sessionConfig:)"
++ "initWithDelegate:sessionDelegateType:queue:pollMethod:sessionType:sessionConfig:"
++ "initWithPollingOption:delegate:delegateType:sessionType:queue:"
++ "initWithPollingOption:swiftDelegate:sessionType:queue:"
++ "initWithSwiftDelegate:queue:"
++ "isPaymentSession"
++ "pollOption"
++ "self.sessionType == CoreNFCSessionTypeISO15693Reader"
++ "self.sessionType == CoreNFCSessionTypeNDEFReader"
++ "self.sessionType == CoreNFCSessionTypeVASReader"
++ "sessionType"
++ "setPollOption:"
+- ": Resource error"
+- "@48@0:8q16@24q32@40"
+- "@56@0:8@16q24@32Q40Q48"
+- "Not available"
+- "TQ,N,V_pollMethod"
+- "Unavailable initializer"
+- "_pollMethod"
+- "asyncProxyExecute(_:)"
+- "exceptionWithName:reason:userInfo:"
+- "initWithDelegate:sessionDelegateType:queue:pollMethod:sessionConfig:"
+- "initWithPollingOption:delegate:delegateType:queue:"
+- "initWithPollingOption:swiftDelegate:queue:"
+- "pollMethod"
+- "setPollMethod:"
+- "startEmulation(initialUIText:):"
+
+```

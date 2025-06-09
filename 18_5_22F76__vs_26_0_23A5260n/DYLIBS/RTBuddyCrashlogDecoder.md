@@ -1,0 +1,113 @@
+## RTBuddyCrashlogDecoder
+
+> `/System/Library/PrivateFrameworks/RTBuddyCrashlogDecoder.framework/RTBuddyCrashlogDecoder`
+
+```diff
+
+-618.100.37.0.0
+-  __TEXT.__text: 0x25d8
++693.0.0.0.0
++  __TEXT.__text: 0x264c
+   __TEXT.__auth_stubs: 0x190
+   __TEXT.__const: 0x11
+-  __TEXT.__cstring: 0x184f
+-  __TEXT.__unwind_info: 0xf0
++  __TEXT.__cstring: 0x1893
++  __TEXT.__unwind_info: 0xf8
+   __DATA_CONST.__got: 0x38
+-  __DATA_CONST.__const: 0x618
++  __DATA_CONST.__const: 0x628
+   __AUTH_CONST.__auth_got: 0xc8
+   __AUTH_CONST.__const: 0x260
+   __AUTH_CONST.__cfstring: 0x5e0
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 652C1C0E-73E9-3DF4-BDA0-35F619909999
++  UUID: 8CB63496-BA55-35AB-ACDE-27D9E720037F
+   Functions: 48
+   Symbols:   146
+-  CStrings:  294
++  CStrings:  297
+ 
+Symbols:
++ __ZL12hexDataPrintP26RTK_scrlg_section_writer_sPKvm
++ __ZL14ipsr_to_stringj
++ __ZL18mbi_endpoint_names
++ __ZL20exception_name_table
++ __ZL21_rtk_callstack_decodeP26RTK_scrlg_section_writer_sPyj
++ __ZL23_rtk_hex_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL23format_exception_stringP10__CFStringjjjjjj
++ __ZL24_rtk_heap_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL24_rtk_time_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL24v8_Exception_class_table
++ __ZL25_rtk_tasks_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL25fsr_long_descriptor_table
++ __ZL26_rtk_string_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL26fsr_short_descriptor_table
++ __ZL27_rtk_autobkp_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL27_rtk_mailbox_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL27_rtk_unknown_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL27_rtk_version_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL28fsr_long_descriptor_table_ll
++ __ZL29_rtk_callstack_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL29_rtk_spi_flash_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL30_rtk_statistics_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL30_rtk_unknown_section_supportedPK27RTK_scrlg_section_decoder_sjj
++ __ZL31_rtk_spi_flash_operation_decodeP26RTK_scrlg_section_writer_sPK10__CFStringPK20CrashlogSpiFlashOp_t
++ __ZL35_rtk_armv8_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL35_rtk_product_version_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL36_rtk_armv7a_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL36_rtk_armvxm_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL44_rtk_asc_async_info_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm
++ __ZL9ipsr_dict
++ __ZZL24_rtk_tasks_decode_statusjE10status_map
++ __ZZL35_rtk_armv8_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvmE11arch_string
++ __ZZL36_rtk_armv7a_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvmE11arch_string
++ _strlcpy
+- ___strlcpy_chk
+- __rtk_armv7a_registers_section_decode
+- __rtk_armv7a_registers_section_decode.arch_string
+- __rtk_armv8_registers_section_decode
+- __rtk_armv8_registers_section_decode.arch_string
+- __rtk_armvxm_registers_section_decode
+- __rtk_asc_async_info_registers_section_decode
+- __rtk_autobkp_section_decode
+- __rtk_callstack_decode
+- __rtk_callstack_section_decode
+- __rtk_heap_section_decode
+- __rtk_hex_section_decode
+- __rtk_mailbox_section_decode
+- __rtk_product_version_section_decode
+- __rtk_spi_flash_operation_decode
+- __rtk_spi_flash_section_decode
+- __rtk_statistics_section_decode
+- __rtk_string_section_decode
+- __rtk_tasks_decode_status.status_map
+- __rtk_tasks_section_decode
+- __rtk_time_section_decode
+- __rtk_unknown_section_decode
+- __rtk_unknown_section_supported
+- __rtk_version_section_decode
+- _exception_name_table
+- _format_exception_string
+- _fsr_long_descriptor_table
+- _fsr_long_descriptor_table_ll
+- _fsr_short_descriptor_table
+- _hexDataPrint
+- _ipsr_dict
+- _ipsr_to_string
+- _mbi_endpoint_names
+- _v8_Exception_class_table
+Functions:
+~ _RTK_scrlg_decode : 920 -> 968
+~ __rtk_mailbox_section_decode -> __ZL27_rtk_mailbox_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm : 860 -> 856
+~ __rtk_armv8_registers_section_decode -> __ZL35_rtk_armv8_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm : 636 -> 660
+~ __rtk_armv7a_registers_section_decode -> __ZL36_rtk_armv7a_registers_section_decodePK27RTK_scrlg_section_decoder_sP26RTK_scrlg_section_writer_sPKvm : 576 -> 624
+CStrings:
++ " nested unknown 0x%x @ 0x%08llx"
++ "crash of unknown type 0x%0x"
++ "entropy"
+
+```

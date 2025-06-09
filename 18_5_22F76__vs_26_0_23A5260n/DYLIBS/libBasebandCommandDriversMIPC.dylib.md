@@ -1,0 +1,488 @@
+## libBasebandCommandDriversMIPC.dylib
+
+> `/usr/lib/libBasebandCommandDriversMIPC.dylib`
+
+```diff
+
+-1249.1.0.0.0
+-  __TEXT.__text: 0x1d964
+-  __TEXT.__auth_stubs: 0x950
+-  __TEXT.__init_offsets: 0x8
+-  __TEXT.__const: 0x578
+-  __TEXT.__gcc_except_tab: 0x10c8
+-  __TEXT.__cstring: 0x522
+-  __TEXT.__oslogstring: 0x32a
+-  __TEXT.__unwind_info: 0x6f8
+-  __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__const: 0x60
++1371.0.1.0.0
++  __TEXT.__text: 0x1d6dc
++  __TEXT.__auth_stubs: 0x820
++  __TEXT.__init_offsets: 0xc
++  __TEXT.__const: 0x570
++  __TEXT.__gcc_except_tab: 0xf50
++  __TEXT.__cstring: 0x8b8
++  __TEXT.__oslogstring: 0x381
++  __TEXT.__unwind_info: 0x6f0
++  __DATA_CONST.__got: 0xc0
++  __DATA_CONST.__const: 0x328
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __AUTH_CONST.__auth_got: 0x4b0
+-  __AUTH_CONST.__const: 0x7a0
+-  __DATA.__data: 0x1d0
+-  __DATA.__bss: 0x8
+-  __DATA_DIRTY.__bss: 0xb8
++  __AUTH_CONST.__auth_got: 0x418
++  __AUTH_CONST.__const: 0x7b0
++  __DATA.__data: 0x228
++  __DATA_DIRTY.__bss: 0xa8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libTelephonyDebugDynamic.dylib
+   - /usr/lib/libTelephonyUtilDynamic.dylib
+   - /usr/lib/libc++.1.dylib
+-  - /usr/lib/libobjc.A.dylib
+-  UUID: D21DA371-CD93-37EB-8510-AF769D74F126
+-  Functions: 293
+-  Symbols:   1035
+-  CStrings:  105
++  UUID: 4CF7C87C-BE61-39AD-87C0-3759A04E5A45
++  Functions: 297
++  Symbols:   1095
++  CStrings:  183
+ 
+Symbols:
++ GCC_except_table120
++ GCC_except_table123
++ GCC_except_table128
++ GCC_except_table136
++ GCC_except_table138
++ GCC_except_table186
++ GCC_except_table189
++ GCC_except_table193
++ GCC_except_table22
++ GCC_except_table24
++ GCC_except_table90
++ GCC_except_table95
++ GCC_except_table98
++ _.str.20
++ _CFBooleanGetTypeID
++ _CFGetTypeID
++ _TelephonyBasebandWatchdogStartWithStackshot
++ _TelephonyBasebandWatchdogStop
++ __ZGVN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
++ __ZL16sGetOsLogContextv
++ __ZN12capabilities3abs27kKeySupportsCMHandDetectionE
++ __ZN3abm15kKeyWorkoutTypeE
++ __ZN3abm16kKeySwimLocationE
++ __ZN3abm16kKeyWorkoutStateE
++ __ZN3abm18kBasebandVendorIceE
++ __ZN3abm18kBasebandVendorIntE
++ __ZN3abm18kKeyBasebandVendorE
++ __ZN3abm19kKeyWorkoutLocationE
++ __ZN3abm20kKeyBasebandWakeDataE
++ __ZN3abm20kKeyBasebandWakeTypeE
++ __ZN3abm20kKeySystemWakeReasonE
++ __ZN3abm21kBasebandVendorEurekaE
++ __ZN3abm21kBasebandWakeTypeDATAE
++ __ZN3abm22kBasebandWakeSubTypeIPE
++ __ZN3abm22kBasebandWakeTypeOTHERE
++ __ZN3abm22kBasebandWakeTypeTRACEE
++ __ZN3abm22kCommandGetWorkoutInfoE
++ __ZN3abm22kCommandSetWorkoutInfoE
++ __ZN3abm23kBasebandWakeSubTypeACPE
++ __ZN3abm23kBasebandWakeSubTypeARIE
++ __ZN3abm23kBasebandWakeSubTypePCIE
++ __ZN3abm23kBasebandWakeSubTypeQMIE
++ __ZN3abm23kBasebandWakeSubTypeSTTE
++ __ZN3abm23kBasebandWakeTypeFORCEDE
++ __ZN3abm23kKeyBasebandWakeChannelE
++ __ZN3abm23kKeyBasebandWakeSubTypeE
++ __ZN3abm23kKeyWorkoutInfoOverrideE
++ __ZN3abm24kBasebandWakeSubTypeADAME
++ __ZN3abm24kBasebandWakeSubTypeADPLE
++ __ZN3abm24kBasebandWakeSubTypeDIAGE
++ __ZN3abm24kBasebandWakeSubTypeHSICE
++ __ZN3abm24kBasebandWakeSubTypeQDSSE
++ __ZN3abm24kBasebandWakeSubTypeQMAPE
++ __ZN3abm24kBasebandWakeSubTypeUARTE
++ __ZN3abm24kBasebandWakeSubTypeUSERE
++ __ZN3abm24kBasebandWakeTypeCONTROLE
++ __ZN3abm24kBasebandWakeTypeUNKNOWNE
++ __ZN3abm24kKeyBasebandWakeARIMsgIDE
++ __ZN3abm24kKeyBasebandWakeFromCMASE
++ __ZN3abm24kKeyBasebandWakeQMIMsgIDE
++ __ZN3abm25kKeyBasebandWakeARILengthE
++ __ZN3abm25kKeyBasebandWakeIPVersionE
++ __ZN3abm25kKeyBasebandWakeQMILengthE
++ __ZN3abm26kBasebandWakeSubTypePAGINGE
++ __ZN3abm26kBasebandWakeSubTypeSERIALE
++ __ZN3abm26kKeyBasebandWakeARIGroupIDE
++ __ZN3abm26kKeyBasebandWakeARIMsgNameE
++ __ZN3abm26kKeyBasebandWakeDataParsedE
++ __ZN3abm26kKeyBasebandWakeIPProtocolE
++ __ZN3abm26kKeyBasebandWakeQMIMsgTypeE
++ __ZN3abm27kBasebandWakeIPProtocol_TCPE
++ __ZN3abm27kBasebandWakeIPProtocol_UDPE
++ __ZN3abm27kBasebandWakeIPVersion_IPv4E
++ __ZN3abm27kBasebandWakeIPVersion_IPv6E
++ __ZN3abm27kKeyBasebandWakeQMIClientIDE
++ __ZN3abm28kBasebandWakeIPProtocol_ICMPE
++ __ZN3abm28kKeyBasebandWakeARISeqNumberE
++ __ZN3abm28kKeyBasebandWakeIPSourcePortE
++ __ZN3abm29kBasebandWakeSubTypeUNDEFINEDE
++ __ZN3abm30kKeyBasebandWakeQMIServiceTypeE
++ __ZN3abm30kKeySystemWakeReasonIsBasebandE
++ __ZN3abm31kKeyBasebandWakeIPSourceAddressE
++ __ZN3abm33kBasebandWakeIPProtocol_ICMP_IPv6E
++ __ZN3abm33kKeyBasebandWakeDataParsingFailedE
++ __ZN3abm33kKeyBasebandWakeIPDestinationPortE
++ __ZN3abm36kKeyBasebandWakeIPDestinationAddressE
++ __ZN3abm5debug19registerLogHandlersEv
++ __ZN3abm5trace28kBootSnapshotDirectorySuffixE
++ __ZN3abm8asStringENS_11WorkoutTypeE
++ __ZN3abm8asStringENS_12SwimLocationE
++ __ZN3abm8asStringENS_12WorkoutStateE
++ __ZN3abm8asStringENS_15WorkoutLocationE
++ __ZN3ctu11OsLogLoggerC1ERKNS_12OsLogContextE
++ __ZN3ctu11OsLogLoggerC1ERKS0_
++ __ZN3ctu11OsLogLoggerD1Ev
++ __ZN3ctu23PthreadMutexGuardPolicyI21CapabilitiesOverridesED1Ev
++ __ZN3ctu2cf11CFSharedRefI14__CFDictionaryED2Ev
++ __ZN3ctu2cf11CFSharedRefI14__CFReadStreamED2Ev
++ __ZN3ctu2cf11CFSharedRefIK10__CFStringED2Ev
++ __ZN3ctu2cf11CFSharedRefIK7__CFURLED2Ev
++ __ZN3ctu2cf6assignERbPK11__CFBoolean
++ __ZN3ctu9SingletonI21CapabilitiesOverridesS1_NS_23PthreadMutexGuardPolicyIS1_EEE9sInstanceE
++ __ZN4util14strip_trailingERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_
++ __ZN7support2fs10fileExistsERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt3__110shared_ptrIN3ctu10LogMessageEED2B8ne200100Ev
++ __ZNSt3__110shared_ptrINS_13__empty_stateIcEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_22__hash_node_destructorINS5_IS9_EEEEED1B8ne200100Ev
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC1B8ne200100Ev
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne200100EPKcNS_15regex_constants18syntax_option_typeE
++ __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne200100INS_11char_traitsIcEENS_9allocatorIcEEEERKNS_12basic_stringIcT_T0_EENS_15regex_constants18syntax_option_typeE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEmc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ILi0EEEPKc
++ __ZNSt3__113match_resultsINS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEE8__assignB8ne200100IS3_NS5_INS6_IS3_EEEEEEvS4_S4_RKNS0_IT_T0_EEb
++ __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEED2B8ne200100Ev
++ __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev
++ __ZNSt3__114__split_bufferINS_7__stateIcEERNS_9allocatorIS2_EEED2Ev
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
++ __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED2Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8ne200100Ev
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE11EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE12EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE14EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE15EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE16EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE17EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE1EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE2EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE3EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE4EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE5EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE6EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE7EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE8EEEvv
++ __ZNSt3__119__throw_regex_errorB8ne200100ILNS_15regex_constants10error_typeE9EEEvv
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB8ne200100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB8ne200100ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB8ne200100Ecc
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB8ne200100Ec
++ __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B8ne200100ERKS2_PNS_6__nodeIcEEbbb
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEbT1_SC_T0_
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED2B8ne200100Ev
++ __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE24__emplace_back_slow_pathIJRKS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE9push_backB8ne200100EOS8_
++ __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEED2B8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE24__emplace_back_slow_pathIJS2_EEEPS2_DpOT_
++ __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEED1B8ne200100Ev
++ __ZNSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne200100IPS4_S9_EEvT_T0_l
++ __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__17__sort3B8ne200100INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Li0EEEbT1_SC_SC_T0_
++ __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Li0EEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_Li0EEEvT1_SC_SC_SC_SC_T0_
++ __ZNSt3__17getlineB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __ZZN3abm5debug19registerLogHandlersEvE22sTelephonyUtilDelegate
++ ____ZL16sGetOsLogContextv_block_invoke
++ ____ZN7support2fsL16sGetOsLogContextEv_block_invoke
++ ___cxx_global_var_init.13
+- GCC_except_table100
+- GCC_except_table121
+- GCC_except_table125
+- GCC_except_table133
+- GCC_except_table137
+- GCC_except_table143
+- GCC_except_table188
+- GCC_except_table191
+- GCC_except_table194
+- GCC_except_table25
+- GCC_except_table5
+- GCC_except_table92
+- GCC_except_table97
+- _CFRetain
+- __Z15GetGlobalLoggerNSt3__110shared_ptrIN3ctu9LogServerEEE
+- __ZN3abm5debug17registerLogServerENSt3__110shared_ptrIN3ctu9LogServerEEE
+- __ZN3ctu12OsLogContextC1ERKS0_
+- __ZN3ctu12StaticLoggerC1ENS_12OsLogContextERKNSt3__110shared_ptrINS_9LogServerEEE
+- __ZN3ctu12StaticLoggerC1Ev
+- __ZN3ctu12StaticLoggerD1Ev
+- __ZN3ctu16LoggerCommonBaseaSERKS0_
+- __ZN3ctu2cf11CFSharedRefI14__CFDictionaryED1Ev
+- __ZN3ctu2cf11CFSharedRefI14__CFReadStreamED1Ev
+- __ZN3ctu2cf11CFSharedRefIK10__CFStringED1Ev
+- __ZN3ctu2cf11CFSharedRefIK7__CFURLED1Ev
+- __ZN3ctu9LogServer10setEnabledEb
+- __ZN3ctu9LogServer12updateConfigEN3xpc4dictE
+- __ZN3ctu9LogServer3logENSt3__110shared_ptrINS_10LogMessageEEE
+- __ZN3ctu9LogServer5startEv
+- __ZN3ctu9LogServer6createERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN3ctulsERNS_16LogMessageBufferERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZN3ctulsERNS_16LogMessageBufferEj
+- __ZN4util8to_lowerERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZNK3ctu9LogServer9getConfigEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_out_of_rangeB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIccEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_9sub_matchINS_11__wrap_iterIPKcEEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt12out_of_rangeC1B8ne190102EPKc
+- __ZNSt3__110shared_ptrIN3ctu10LogMessageEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrIN3ctu9LogServerEED1B8ne190102Ev
+- __ZNSt3__110shared_ptrINS_13__empty_stateIcEEED1B8ne190102Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEPvEENS_22__hash_node_destructorINS5_IS9_EEEEED1B8ne190102Ev
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE19__parse_atom_escapeIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEE33__parse_one_char_or_coll_elem_EREIPKcEET_S7_S7_
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC1B8ne190102Ev
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne190102EPKcNS_15regex_constants18syntax_option_typeE
+- __ZNSt3__111basic_regexIcNS_12regex_traitsIcEEEC2B8ne190102INS_11char_traitsIcEENS_9allocatorIcEEEERKNS_12basic_stringIcT_T0_EENS_15regex_constants18syntax_option_typeE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne190102ILi0EEEPKc
+- __ZNSt3__113match_resultsINS_11__wrap_iterIPKcEENS_9allocatorINS_9sub_matchIS4_EEEEE8__assignB8ne190102IS3_NS5_INS6_IS3_EEEEEEvS4_S4_RKNS0_IT_T0_EEb
+- __ZNSt3__113unordered_setINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4hashIS6_EENS_8equal_toIS6_EENS4_IS6_EEED1B8ne190102Ev
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED1Ev
+- __ZNSt3__114__split_bufferINS_7__stateIcEERNS_9allocatorIS2_EEED1Ev
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE10push_frontEOS3_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE10push_frontERKS3_
+- __ZNSt3__114__split_bufferIPNS_7__stateIcEENS_9allocatorIS3_EEE9push_backEOS3_
+- __ZNSt3__114basic_ifstreamIcNS_11char_traitsIcEEED1Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__119__shared_weak_count4lockEv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE11EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE12EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE14EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE15EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE16EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE17EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE1EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE2EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE3EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE4EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE5EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE6EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE7EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE8EEEvv
+- __ZNSt3__119__throw_regex_errorB8ne190102ILNS_15regex_constants10error_typeE9EEEvv
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE10__add_charB8ne190102Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE11__add_rangeB8ne190102ENS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES9_
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE13__add_digraphB8ne190102Ecc
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEE14__add_neg_charB8ne190102Ec
+- __ZNSt3__120__bracket_expressionIcNS_12regex_traitsIcEEEC2B8ne190102ERKS2_PNS_6__nodeIcEEbbb
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEbT1_SC_T0_
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_12basic_stringIcNS_11char_traitsIcEENS2_IcEEEEEEPS7_EEED1B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_6vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS5_IS7_EEE16__destroy_vectorEED1B8ne190102Ev
+- __ZNSt3__13mapIN9Timestamp10TimeDomainE7timevalNS_4lessIS2_EENS_9allocatorINS_4pairIKS2_S3_EEEEE6insertB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIS2_S3_EEPNS_11__tree_nodeISG_PvEElEEEEEEvT_SN_
+- __ZNSt3__15dequeINS_7__stateIcEENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE21__push_back_slow_pathIRKS6_EEPS6_OT_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS_4pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_EENS5_IS8_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS_4pairImPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne190102IPS4_S9_EEvT_T0_l
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEE21__push_back_slow_pathIS2_EEPS2_OT_
+- __ZNSt3__16vectorINS_7__stateIcEENS_9allocatorIS2_EEED1B8ne190102Ev
+- __ZNSt3__16vectorINS_9sub_matchIPKcEENS_9allocatorIS4_EEE18__assign_with_sizeB8ne190102IPS4_S9_EEvT_T0_l
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEjT1_SC_SC_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEvT1_SC_SC_SC_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERNS_7greaterINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEPS8_EEvT1_SC_SC_SC_SC_T0_
+- __ZNSt3__17getlineB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEERNS_13basic_istreamIT_T0_EES9_RNS_12basic_stringIS6_S7_T1_EES6_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZZN3abm5debugL14sLogServerInitERNSt3__110shared_ptrIN3ctu9LogServerEEEE5sOnce
+- __ZZN3abm5debugL17sRegisterHandlersEvE22sTelephonyUtilDelegate
+- ____Z15GetGlobalLoggerNSt3__110shared_ptrIN3ctu9LogServerEEE_block_invoke
+- ____ZN3abm5debugL14sLogServerInitERNSt3__110shared_ptrIN3ctu9LogServerEEE_block_invoke
+- ___block_descriptor_tmp.3
+- ___copy_helper_block_e8_32c42_ZTSNSt3__110shared_ptrIN3ctu9LogServerEEE
+- ___cxx_global_var_init.10
+- ___destroy_helper_block_e8_32c42_ZTSNSt3__110shared_ptrIN3ctu9LogServerEEE
+- ___tolower
+- __xpc_type_dictionary
+- _objc_msgSend
+- _xpc_dictionary_create
+- _xpc_dictionary_get_value
+- _xpc_dictionary_set_value
+- _xpc_get_type
+- _xpc_int64_create
+- _xpc_null_create
+- _xpc_release
+- _xpc_retain
+CStrings:
++ "%s is not a directory, so not moving it at depth %d"
++ "-boot-log"
++ "ACP"
++ "ADAM"
++ "ADPL"
++ "ARI"
++ "AppleBasebandManager-AppleBasebandServices_Manager-1371.0.1"
++ "CONTROL"
++ "Cycle"
++ "DATA"
++ "Did not find any matching content in source directory %s"
++ "Elliptical"
++ "Eureka"
++ "FORCED"
++ "Failed to mark %s as purgeable: %s (%d, 0x%x) (flags 0x%llx)"
++ "Failed to open %s : %s (%d, 0x%x)"
++ "Failed to open base directory %s (%s)"
++ "Failed to open info baseband log info file %s"
++ "Failed to read %s : %s (%d, 0x%x)"
++ "HIIT"
++ "HSIC"
++ "ICMP"
++ "ICMP_IPv6"
++ "IP"
++ "IPv4"
++ "IPv6"
++ "Ice"
++ "Ignoring dump with timestamp %s for sysdiagnose"
++ "Indoor"
++ "Int"
++ "MAX"
++ "No baseband info file found for timestamp %s"
++ "None"
++ "OTHER"
++ "OpenWater"
++ "Outdoor"
++ "PAGING"
++ "PCI"
++ "Paused"
++ "Pool"
++ "QDSS"
++ "QMAP"
++ "QMI"
++ "Rower"
++ "Run"
++ "SERIAL"
++ "STT"
++ "StairStepper"
++ "Started"
++ "Stopped"
++ "Swim"
++ "TCP"
++ "TRACE"
++ "UART"
++ "UDP"
++ "UNDEFINED"
++ "UNKNOWN"
++ "USER"
++ "Unknown"
++ "Walk"
++ "Watchdog timed out"
++ "dataIn buffer is NULL"
++ "kCommandGetWorkoutInfo"
++ "kCommandSetWorkoutInfo"
++ "kKeyARIGroupID"
++ "kKeyARILength"
++ "kKeyARIMsgID"
++ "kKeyARIMsgName"
++ "kKeyARISeqNumber"
++ "kKeyBasebandVendor"
++ "kKeyBasebandWakeChannel"
++ "kKeyBasebandWakeData"
++ "kKeyBasebandWakeDataParsed"
++ "kKeyBasebandWakeDataParsingFailed"
++ "kKeyBasebandWakeSubType"
++ "kKeyBasebandWakeType"
++ "kKeyCMAS"
++ "kKeyIPDestinationAddress"
++ "kKeyIPDestinationPort"
++ "kKeyIPProtocol"
++ "kKeyIPSourceAddress"
++ "kKeyIPSourcePort"
++ "kKeyIPVersion"
++ "kKeyQMIClientID"
++ "kKeyQMILength"
++ "kKeyQMIMsgID"
++ "kKeyQMIMsgType"
++ "kKeyQMIServiceType"
++ "kKeySwimLocation"
++ "kKeySystemWakeReason"
++ "kKeySystemWakeReasonIsBaseband"
++ "kKeyWorkoutInfoOverride"
++ "kKeyWorkoutLocation"
++ "kKeyWorkoutState"
++ "kKeyWorkoutType"
++ "supports.fs"
++ "util"
+- "\n"
+- " ("
+- "%s is not a directory. So, skip to move it with the depth (%d)"
+- ") "
+- ".*"
+- "/"
+- "AppleBasebandManager-AppleBasebandServices_Manager-1249.1"
+- "Error %s (%s)\n"
+- "Failed to find a content in %s"
+- "Failed to mark %s as purgeable %d (%s) (flags 0x%llx)"
+- "Failed to open info file: %s"
+- "Failed to open: %s : %s (%d, 0x%x)"
+- "Failed to read: %s : %s (%d,0x%x)"
+- "Ignore dump for sysdiagnose: %s"
+- "No baseband info file found for %s"
+- "dataIn Buffer is NULL"
+- "kDomainLogLevels"
+- "trace.diag.cfg"
+- "trace.diag.svc"
+
+```

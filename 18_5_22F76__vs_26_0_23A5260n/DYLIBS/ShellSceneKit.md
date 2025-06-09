@@ -1,0 +1,3142 @@
+## ShellSceneKit
+
+> `/System/Library/PrivateFrameworks/ShellSceneKit.framework/ShellSceneKit`
+
+```diff
+
+-1.5.1.0.0
+-  __TEXT.__text: 0x33dc8
++13.0.0.0.0
++  __TEXT.__text: 0x2e640
+   __TEXT.__auth_stubs: 0x1180
+-  __TEXT.__objc_methlist: 0x19bc
+-  __TEXT.__const: 0x1924
+-  __TEXT.__cstring: 0x29ee
+-  __TEXT.__oslogstring: 0x135d
+-  __TEXT.__gcc_except_tab: 0xec
+-  __TEXT.__swift5_typeref: 0xf5e
+-  __TEXT.__swift5_fieldmd: 0x7d0
+-  __TEXT.__constg_swiftt: 0xe14
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_reflstr: 0x768
+-  __TEXT.__swift5_assocty: 0x270
+-  __TEXT.__swift5_protos: 0x30
+-  __TEXT.__swift5_proto: 0x10c
+-  __TEXT.__swift5_types: 0x98
+-  __TEXT.__swift5_capture: 0x31c
+-  __TEXT.__swift_as_entry: 0xa0
+-  __TEXT.__swift_as_ret: 0xa8
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0xf98
+-  __TEXT.__eh_frame: 0x1940
+-  __TEXT.__objc_classname: 0x684
+-  __TEXT.__objc_methname: 0x31fb
+-  __TEXT.__objc_methtype: 0x155e
+-  __TEXT.__objc_stubs: 0x1ec0
+-  __DATA_CONST.__got: 0x338
+-  __DATA_CONST.__const: 0x4f0
+-  __DATA_CONST.__objc_classlist: 0x140
++  __TEXT.__objc_methlist: 0xdc8
++  __TEXT.__const: 0x25d2
++  __TEXT.__cstring: 0x1d58
++  __TEXT.__constg_swiftt: 0xf88
++  __TEXT.__swift5_typeref: 0x15d2
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_reflstr: 0xa70
++  __TEXT.__swift5_fieldmd: 0xc8c
++  __TEXT.__swift5_assocty: 0x1c8
++  __TEXT.__swift5_proto: 0x15c
++  __TEXT.__swift5_types: 0xfc
++  __TEXT.__swift5_capture: 0x4c8
++  __TEXT.__swift5_protos: 0x3c
++  __TEXT.__oslogstring: 0x3f3
++  __TEXT.__swift5_types2: 0x8
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__swift_as_entry: 0x28
++  __TEXT.__swift_as_ret: 0x20
++  __TEXT.__unwind_info: 0xcf0
++  __TEXT.__eh_frame: 0xd70
++  __TEXT.__objc_classname: 0x1a9
++  __TEXT.__objc_methname: 0x16f5
++  __TEXT.__objc_methtype: 0x983
++  __TEXT.__objc_stubs: 0x2c0
++  __DATA_CONST.__got: 0x300
++  __DATA_CONST.__const: 0x1a0
++  __DATA_CONST.__objc_classlist: 0xf8
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0x170
++  __DATA_CONST.__objc_protolist: 0x158
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc88
+-  __DATA_CONST.__objc_protorefs: 0x80
+-  __DATA_CONST.__objc_superrefs: 0xa8
+-  __AUTH_CONST.__auth_got: 0x8d0
+-  __AUTH_CONST.__const: 0x1738
+-  __AUTH_CONST.__cfstring: 0x13e0
+-  __AUTH_CONST.__objc_const: 0x9980
+-  __AUTH.__objc_data: 0xb08
+-  __AUTH.__data: 0x6f8
+-  __DATA.__objc_ivar: 0x180
+-  __DATA.__data: 0x1838
+-  __DATA.__bss: 0x18c0
+-  __DATA.__common: 0x78
+-  __DATA_DIRTY.__objc_data: 0x5e8
+-  __DATA_DIRTY.__data: 0xd0
+-  __DATA_DIRTY.__bss: 0x120
++  __DATA_CONST.__objc_selrefs: 0x8a8
++  __DATA_CONST.__objc_protorefs: 0xb8
++  __DATA_CONST.__objc_superrefs: 0x8
++  __AUTH_CONST.__auth_got: 0x8c8
++  __AUTH_CONST.__const: 0x2100
++  __AUTH_CONST.__cfstring: 0x120
++  __AUTH_CONST.__objc_const: 0x71b0
++  __AUTH.__objc_data: 0x10d8
++  __AUTH.__data: 0x838
++  __DATA.__objc_ivar: 0xc
++  __DATA.__data: 0x11d8
++  __DATA.__bss: 0x2500
++  __DATA_DIRTY.__objc_data: 0x178
++  __DATA_DIRTY.__data: 0x120
++  __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+-  - /System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
++  - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: DADED62A-8439-3ECC-88D2-93E8D6BB2A43
+-  Functions: 1324
+-  Symbols:   2668
+-  CStrings:  1307
++  UUID: D3E993D4-B879-3B99-AB62-AFA45D9865A8
++  Functions: 1365
++  Symbols:   1376
++  CStrings:  640
+ 
+Symbols:
++ _OBJC_CLASS_$_CAContext
++ _OBJC_CLASS_$_CADisplayPreferences
++ _OBJC_CLASS_$_FBSSceneClientSettingsDiffInspector
++ _OBJC_CLASS_$_FBSSettingsExtension
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_UIApplication
++ _OBJC_CLASS_$_UIMutableApplicationSceneSettings
++ _OBJC_CLASS_$_UIScene
++ _OBJC_CLASS_$__TtC13ShellSceneKit14DisplayBlanker
++ _OBJC_CLASS_$__TtC13ShellSceneKit14SceneWorkspace
++ _OBJC_CLASS_$__TtC13ShellSceneKit17FBSHardwareSource
++ _OBJC_CLASS_$__TtC13ShellSceneKit17ProfileActivation
++ _OBJC_CLASS_$__TtC13ShellSceneKit19SceneLevelExtension
++ _OBJC_CLASS_$__TtC13ShellSceneKit23TransformSceneExtension
++ _OBJC_CLASS_$__TtC13ShellSceneKit27RootScenePresentationBinder
++ _OBJC_CLASS_$__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ _OBJC_CLASS_$__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ _OBJC_CLASS_$__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ _OBJC_CLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ _OBJC_CLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent
++ _OBJC_CLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ _OBJC_METACLASS_$_FBSSettingsExtension
++ _OBJC_METACLASS_$_SSKRootBlankingWindow
++ _OBJC_METACLASS_$__TtC13ShellSceneKit14DisplayBlanker
++ _OBJC_METACLASS_$__TtC13ShellSceneKit14SceneWorkspace
++ _OBJC_METACLASS_$__TtC13ShellSceneKit17FBSHardwareSource
++ _OBJC_METACLASS_$__TtC13ShellSceneKit17ProfileActivation
++ _OBJC_METACLASS_$__TtC13ShellSceneKit19SceneLevelExtension
++ _OBJC_METACLASS_$__TtC13ShellSceneKit23TransformSceneExtension
++ _OBJC_METACLASS_$__TtC13ShellSceneKit27RootScenePresentationBinder
++ _OBJC_METACLASS_$__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ _OBJC_METACLASS_$__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ _OBJC_METACLASS_$__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent
++ _OBJC_METACLASS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ __CATEGORY_FBScene_$_ShellSceneKit
++ __CATEGORY_INSTANCE_METHODS_FBScene_$_ShellSceneKit
++ __CATEGORY_INSTANCE_METHODS_UIScene_$_ShellSceneKit
++ __CATEGORY_PROPERTIES_FBScene_$_ShellSceneKit
++ __CATEGORY_PROPERTIES_UIScene_$_ShellSceneKit
++ __CATEGORY_UIScene_$_ShellSceneKit
++ __CLASS_METHODS_SSKDisplayProfile
++ __CLASS_METHODS__TtC13ShellSceneKit17ProfileActivation
++ __CLASS_METHODS__TtC13ShellSceneKit19SceneLevelExtension
++ __CLASS_METHODS__TtC13ShellSceneKit23TransformSceneExtension
++ __CLASS_METHODS__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ __CLASS_METHODS__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ __CLASS_METHODS__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ __CLASS_METHODS__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ __CLASS_METHODS__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ __DATA_SSKDisplayProfile
++ __DATA_SSKDisplayProfileRegistry
++ __DATA_SSKRootBlankingWindow
++ __DATA__TtC13ShellSceneKit14DisplayBlanker
++ __DATA__TtC13ShellSceneKit14SceneWorkspace
++ __DATA__TtC13ShellSceneKit15_HostingContext
++ __DATA__TtC13ShellSceneKit17CADisplayHardware
++ __DATA__TtC13ShellSceneKit17FBSHardwareSource
++ __DATA__TtC13ShellSceneKit17ProfileActivation
++ __DATA__TtC13ShellSceneKit19SceneLevelExtension
++ __DATA__TtC13ShellSceneKit23TransformSceneExtension
++ __DATA__TtC13ShellSceneKit27RootScenePresentationBinder
++ __DATA__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ __DATA__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ __DATA__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ __DATA__TtC13ShellSceneKitP33_A64F83CB8E40CF87579B11470B35EA7113RegistryState
++ __DATA__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ __DATA__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ __DATA__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ __DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent
++ __DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent
++ __DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ __DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ __DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent
++ __DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ __DATA__TtCV13ShellSceneKit14ManagedProfile5State
++ __INSTANCE_METHODS_SSKDisplayProfile
++ __INSTANCE_METHODS_SSKDisplayProfileRegistry
++ __INSTANCE_METHODS_SSKRootBlankingWindow
++ __INSTANCE_METHODS__TtC13ShellSceneKit14DisplayBlanker
++ __INSTANCE_METHODS__TtC13ShellSceneKit19SceneLevelExtension
++ __INSTANCE_METHODS__TtC13ShellSceneKit23TransformSceneExtension
++ __INSTANCE_METHODS__TtC13ShellSceneKit27RootScenePresentationBinder
++ __INSTANCE_METHODS__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ __INSTANCE_METHODS__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ __INSTANCE_METHODS__TtC13ShellSceneKit3Box
++ __INSTANCE_METHODS__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ __INSTANCE_METHODS__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ __INSTANCE_METHODS__TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent
++ __INSTANCE_METHODS__TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent
++ __INSTANCE_METHODS__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ __INSTANCE_METHODS__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ __INSTANCE_METHODS__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ __IVARS_SSKDisplayProfile
++ __IVARS_SSKDisplayProfileRegistry
++ __IVARS__TtC13ShellSceneKit14DisplayBlanker
++ __IVARS__TtC13ShellSceneKit14SceneWorkspace
++ __IVARS__TtC13ShellSceneKit15_HostingContext
++ __IVARS__TtC13ShellSceneKit17CADisplayHardware
++ __IVARS__TtC13ShellSceneKit17FBSHardwareSource
++ __IVARS__TtC13ShellSceneKit17ProfileActivation
++ __IVARS__TtC13ShellSceneKit22RegistrationController
++ __IVARS__TtC13ShellSceneKit27RootScenePresentationBinder
++ __IVARS__TtC13ShellSceneKit3Box
++ __IVARS__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ __IVARS__TtC13ShellSceneKitP33_A64F83CB8E40CF87579B11470B35EA7113RegistryState
++ __IVARS__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ __IVARS__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ __IVARS__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ __IVARS__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent
++ __IVARS__TtCV13ShellSceneKit14ManagedProfile5State
++ __IVARS__TtCV13ShellSceneKit8KVOValueP33_1A2A013094A53B8A4ABDCDBF48E313524Seed
++ __METACLASS_DATA_SSKDisplayProfile
++ __METACLASS_DATA_SSKDisplayProfileRegistry
++ __METACLASS_DATA_SSKRootBlankingWindow
++ __METACLASS_DATA__TtC13ShellSceneKit14DisplayBlanker
++ __METACLASS_DATA__TtC13ShellSceneKit14SceneWorkspace
++ __METACLASS_DATA__TtC13ShellSceneKit15_HostingContext
++ __METACLASS_DATA__TtC13ShellSceneKit17CADisplayHardware
++ __METACLASS_DATA__TtC13ShellSceneKit17FBSHardwareSource
++ __METACLASS_DATA__TtC13ShellSceneKit17ProfileActivation
++ __METACLASS_DATA__TtC13ShellSceneKit19SceneLevelExtension
++ __METACLASS_DATA__TtC13ShellSceneKit23TransformSceneExtension
++ __METACLASS_DATA__TtC13ShellSceneKit27RootScenePresentationBinder
++ __METACLASS_DATA__TtC13ShellSceneKit30BacklightSupportSceneExtension
++ __METACLASS_DATA__TtC13ShellSceneKit31ProfileActivationSceneExtension
++ __METACLASS_DATA__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ __METACLASS_DATA__TtC13ShellSceneKitP33_A64F83CB8E40CF87579B11470B35EA7113RegistryState
++ __METACLASS_DATA__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension
++ __METACLASS_DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension
++ __METACLASS_DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent
++ __METACLASS_DATA__TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension
++ __METACLASS_DATA__TtCV13ShellSceneKit14ManagedProfile5State
++ __OBJC_$_INSTANCE_METHODS_FBSScene(ShellSceneKit|ShellSceneKit|ShellSceneKit1)
++ __OBJC_$_INSTANCE_METHODS__TtC13ShellSceneKit14SceneWorkspace(ShellSceneKit)
++ __OBJC_$_INSTANCE_METHODS__TtC13ShellSceneKit17FBSHardwareSource(ShellSceneKit)
++ __OBJC_$_INSTANCE_METHODS__TtC13ShellSceneKit17ProfileActivation(ShellSceneKit|ShellSceneKit1)
++ __OBJC_$_INSTANCE_METHODS__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent(ShellSceneKit)
++ __OBJC_$_INSTANCE_METHODS__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent(ShellSceneKit)
++ __OBJC_$_INSTANCE_METHODS__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent(ShellSceneKit)
++ __OBJC_$_PROTOCOL_CLASS_METHODS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FBSSceneClientIdentifying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSSceneObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSSceneClientIdentifying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSSceneObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UISceneDelegate
++ __OBJC_$_PROTOCOL_REFS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_REFS_FBSSceneClientIdentifying
++ __OBJC_$_PROTOCOL_REFS_FBSSceneObserver
++ __OBJC_$_PROTOCOL_REFS_UISceneDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC13ShellSceneKit14SceneWorkspace(ShellSceneKit)
++ __OBJC_CLASS_PROTOCOLS_$__TtC13ShellSceneKit17FBSHardwareSource(ShellSceneKit)
++ __OBJC_CLASS_PROTOCOLS_$__TtC13ShellSceneKit17ProfileActivation(ShellSceneKit|ShellSceneKit1)
++ __OBJC_CLASS_PROTOCOLS_$__TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent(ShellSceneKit)
++ __OBJC_LABEL_PROTOCOL_$_BSXPCSecureCoding
++ __OBJC_LABEL_PROTOCOL_$_FBSSceneClientIdentifying
++ __OBJC_LABEL_PROTOCOL_$_FBSSceneObserver
++ __OBJC_LABEL_PROTOCOL_$_UISceneDelegate
++ __OBJC_PROTOCOL_$_BSXPCSecureCoding
++ __OBJC_PROTOCOL_$_FBSSceneClientIdentifying
++ __OBJC_PROTOCOL_$_FBSSceneObserver
++ __OBJC_PROTOCOL_$_UISceneDelegate
++ __PROPERTIES_SSKDisplayProfile
++ __PROTOCOLS_SSKDisplayProfile
++ __PROTOCOLS_SSKDisplayProfile.11
++ __PROTOCOLS_SSKDisplayProfileRegistry
++ __PROTOCOLS_SSKDisplayProfileRegistry.14
++ __PROTOCOLS__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator
++ __PROTOCOLS__TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator.15
++ __PROTOCOLS__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent
++ __PROTOCOLS__TtCC13ShellSceneKit19SceneLevelExtension13HostComponent.4
++ __PROTOCOLS__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent
++ __PROTOCOLS__TtCC13ShellSceneKit23TransformSceneExtension13HostComponent.4
++ __PROTOCOLS__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent
++ __PROTOCOLS__TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent.4
++ __PROTOCOL_INSTANCE_METHODS__TtP13ShellSceneKit25ProfileActivationObserver_
++ __PROTOCOL_INSTANCE_METHODS__TtP13ShellSceneKit27UIProfileActivationDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtPCC13ShellSceneKit23TransformSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_INSTANCE_METHODS__TtPCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_INSTANCE_METHODS__TtPCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_METHOD_TYPES__TtP13ShellSceneKit25ProfileActivationObserver_
++ __PROTOCOL_METHOD_TYPES__TtP13ShellSceneKit27UIProfileActivationDelegate_
++ __PROTOCOL_METHOD_TYPES__TtPCC13ShellSceneKit23TransformSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_METHOD_TYPES__TtPCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_METHOD_TYPES__TtPCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_PROPERTIES__TtPCC13ShellSceneKit23TransformSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_PROPERTIES__TtPCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_PROPERTIES__TtPCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL_PROTOCOLS__TtP13ShellSceneKit27UIProfileActivationDelegate_
++ __PROTOCOL__TtP13ShellSceneKit25ProfileActivationObserver_
++ __PROTOCOL__TtP13ShellSceneKit27UIProfileActivationDelegate_
++ __PROTOCOL__TtPCC13ShellSceneKit23TransformSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL__TtPCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension8Settings_
++ __PROTOCOL__TtPCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension8Settings_
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_cannot_copy_noncopyable_type
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy106_8
++ ___swift_memcpy120_8
++ ___swift_memcpy136_8
++ ___swift_memcpy144_8
++ ___swift_memcpy18_8
++ ___swift_memcpy32_8
++ ___swift_memcpy53_8
++ ___swift_memcpy6_4
++ ___swift_memcpy74_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___unnamed_4
++ ___unnamed_6
++ ___unnamed_7
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_ShellSceneKit
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_ShellSceneKit
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_ShellSceneKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ShellSceneKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ShellSceneKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ShellSceneKit
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGSHAASQ
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGSLAASQ
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs26ExpressibleByStringLiteralAA0hI4TypesAEP_s01_fg7BuiltinhI0
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs32ExpressibleByStringInterpolationAA0hI0sAEP_s0hI8Protocol
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs32ExpressibleByStringInterpolationAAs0fgH7Literal
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesAEP_s01_fg7BuiltinhiJ0
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesAEP_s01_fg7BuiltinhijK0
++ _associated conformance 13ShellSceneKit15TypedIdentifierVyxGs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0
++ _associated conformance 13ShellSceneKit15_HostingContextCSHAASQ
++ _associated conformance 13ShellSceneKit17CADisplayHardwareCAA8PlatformO0E0AA0E7BlankerAeFP_AE0G0
++ _associated conformance 13ShellSceneKit17CADisplayHardwareCAA8PlatformO0E0AA8IdentityAeFP_SH
++ _associated conformance 13ShellSceneKit17CADisplayHardwareCAA8PlatformO0E0AA8IdentityAeFP_s23CustomStringConvertible
++ _associated conformance 13ShellSceneKit17FBSHardwareSourceCAA8PlatformO08HardwareE0AA0G0AeFP_AeG
++ _associated conformance 13ShellSceneKit17FBSHardwareSourceCAA8PlatformO08HardwareE0AA17ConnectedSequenceAeFP_ST
++ _associated conformance 13ShellSceneKit7DisplayV10ConnectionOSHAASQ
++ _associated conformance 13ShellSceneKit7DisplayV19RefreshRateCriteriaVs25ExpressibleByFloatLiteralAA0jK4TypesAFP_s01_hi7BuiltinjK0
++ _associated conformance 13ShellSceneKit7DisplayV20OverscanCompensationV4KindOSHAASQ
++ _associated conformance 13ShellSceneKit7DisplayV7HDRModeV4KindOSHAASQ
++ _associated conformance 13ShellSceneKit7DisplayV9TransportOSHAASQ
++ _associated conformance 13ShellSceneKit7ProfileV15DisplayIdentityV4KindOSHAASQ
++ _associated conformance 13ShellSceneKit7ProfileV15DisplayIdentityVSHAASQ
++ _block_copy_helper.11
++ _block_copy_helper.14
++ _block_copy_helper.17
++ _block_copy_helper.27
++ _block_copy_helper.32
++ _block_copy_helper.7
++ _block_descriptor.13
++ _block_descriptor.16
++ _block_descriptor.19
++ _block_descriptor.29
++ _block_descriptor.34
++ _block_descriptor.9
++ _block_destroy_helper.12
++ _block_destroy_helper.15
++ _block_destroy_helper.18
++ _block_destroy_helper.28
++ _block_destroy_helper.33
++ _block_destroy_helper.8
++ _flat unique 13ShellSceneKit25ProfileActivationObserver_p
++ _flat unique So16FBSceneComponent_p
++ _flat unique So17FBSSceneComponent_p
++ _flat unique So25FBSSceneClientIdentifying_p
++ _flat unique So28SSKDisplayProfileConfiguring_p
++ _free
++ _generic environment So8NSObjectCRbzr0_l
++ _get_enum_tag_for_layout_string 13ShellSceneKit21ProfileStateProviding_pSg
++ _get_enum_tag_for_layout_string 13ShellSceneKit7ProfileV15DisplayIdentityV4KindO
++ _get_enum_tag_for_layout_string 13ShellSceneKit7ProfileV15DisplayIdentityVSg
++ _get_type_metadata 13ShellSceneKit13_RegistrationVyAA17FBSHardwareSourceCG.3
++ _get_type_metadata 13ShellSceneKit8PlatformO14HardwareSourceRzl15Synchronization5MutexVySbG.8
++ _get_witness_table SD6ValuesVys6UInt32V13ShellSceneKit17CADisplayHardwareC_So23FBSDisplayConfigurationCt_GSTHPyHC.16
++ _kCADisplayInsetBounds
++ _kCADisplayModeDolby
++ _kCADisplayModeHDR10
++ _kCADisplayModeHLG
++ _kCADisplayModeSDR
++ _kCADisplayNone
++ _kCADisplayScaleContent
++ _kCADisplayTransportTypeDP
++ _kCADisplayTransportTypeDVI
++ _kCADisplayTransportTypeHDMI
++ _kCADisplayTransportTypeMIPI
++ _kCADisplayTransportTypeOther
++ _kCADisplayTransportTypeVGA
++ _keypath_get_selector_delegate
++ _keypath_get_selector_priorityLevel
++ _malloc
++ _objc_retain_x10
++ _objectdestroy.17Tm
++ _objectdestroy.41Tm
++ _objectdestroy.64Tm
++ _objectdestroyTm
++ _swift_allocBox
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_coroFrameAlloc
++ _swift_deallocPartialClassInstance
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastUnknownClassUnconditional
++ _swift_getAtKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_isUniquelyReferenced_native
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_setDeallocating
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_unknownObjectRetain_n
++ _swift_unknownObjectWeakAssign
++ _swift_updateClassMetadata2
++ _symbolic $s13ShellSceneKit016BacklightSupportB9ExtensionC08SettingsF0C0G0P
++ _symbolic $s13ShellSceneKit017ProfileActivationB9ExtensionC08SettingsF0C0G0P
++ _symbolic $s13ShellSceneKit06SimpleB9ExtensionP
++ _symbolic $s13ShellSceneKit09TransformB9ExtensionC08SettingsE0C0F0P
++ _symbolic $s13ShellSceneKit12ProfileStateP
++ _symbolic $s13ShellSceneKit14HostingContextP
++ _symbolic $s13ShellSceneKit15ProfileProtocolP
++ _symbolic $s13ShellSceneKit15ProfileProviderP
++ _symbolic $s13ShellSceneKit15RequestHandlingP
++ _symbolic $s13ShellSceneKit16_ProfileProtocolP
++ _symbolic $s13ShellSceneKit17ConnectionContextP
++ _symbolic $s13ShellSceneKit17TransformObserverP
++ _symbolic $s13ShellSceneKit18ConnectionHandlingP
++ _symbolic $s13ShellSceneKit21ProfileStateProvidingP
++ _symbolic $s13ShellSceneKit24RawRepresentableIdentityP
++ _symbolic $s13ShellSceneKit25ProfileActivationObserverP
++ _symbolic $s13ShellSceneKit27UIProfileActivationDelegateP
++ _symbolic $s13ShellSceneKit8PlatformO14HardwareSourceP
++ _symbolic $s13ShellSceneKit8PlatformO7BlankerP
++ _symbolic $s13ShellSceneKit8PlatformO8HardwareP
++ _symbolic $ss25ExpressibleByFloatLiteralP
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss32ExpressibleByStringInterpolationP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic 13HostComponent_____Qz 13ShellSceneKit06SimpleB9ExtensionP
++ _symbolic 15ClientComponent_____Qz 13ShellSceneKit06SimpleB9ExtensionP
++ _symbolic 15HardwareBlanker_____Qz 13ShellSceneKit8PlatformO8HardwareP
++ _symbolic 17ConnectedSequence_____Qz 13ShellSceneKit8PlatformO14HardwareSourceP
++ _symbolic 17ConnectedSequence______7ElementSTQZ 13ShellSceneKit8PlatformO14HardwareSourceP
++ _symbolic 7ElementSTQz
++ _symbolic 8Hardware_____Qz 13ShellSceneKit8PlatformO14HardwareSourceP
++ _symbolic 8Hardware_____Qz_So23FBSDisplayConfigurationCt 13ShellSceneKit8PlatformO14HardwareSourceP
++ _symbolic 8Identity_____Qz 13ShellSceneKit8PlatformO8HardwareP
++ _symbolic IeghH_
++ _symbolic Ig_
++ _symbolic SDy8Hardware______8Identity_____QZScTyyt_____GG 13ShellSceneKit8PlatformO14HardwareSourceP AC0E0P s5NeverO
++ _symbolic SDy8Hardware______8Identity_____QZ_____G 13ShellSceneKit8PlatformO14HardwareSourceP AC0E0P AA04RootB18PresentationBinderC
++ _symbolic SDy8Hardware______8Identity_____QZ_____G 13ShellSceneKit8PlatformO14HardwareSourceP AC0E0P AA20DisplayProfilesStateV
++ _symbolic SDySo18FBSDisplayIdentityC_____G s6UInt32V
++ _symbolic SDy__________G 13ShellSceneKit7ProfileV15DisplayIdentityV AA15_HostingContextC
++ _symbolic SDy___________So23FBSDisplayConfigurationCtG s6UInt32V 13ShellSceneKit17CADisplayHardwareC
++ _symbolic SDy___________pG 13ShellSceneKit7ProfileV15DisplayIdentityV AA0D5StateP
++ _symbolic SS10identifier_Sb10isMainLikeSb23supportsSecureRenderingt
++ _symbolic SS10identifier_t
++ _symbolic SaySo17SSKDisplayProfileCG
++ _symbolic SaySo7FBSceneCG
++ _symbolic Say_____G 13ShellSceneKit7ProfileV
++ _symbolic SbSg
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic ScTyyt_____G______pIgrzo_ s5NeverO s5ErrorP
++ _symbolic Sccyyt_____G s5NeverO
++ _symbolic Sd
++ _symbolic Shy_____G s11AnyHashableV
++ _symbolic SiSg
++ _symbolic So11NSHashTableCy______pG 13ShellSceneKit25ProfileActivationObserverP
++ _symbolic So17FBSDisplayMonitorC
++ _symbolic So17FBSSceneComponentC
++ _symbolic So17FBSSceneExtensionC
++ _symbolic So17SSKDisplayProfileC
++ _symbolic So17UIRootSceneWindowC
++ _symbolic So19BSDescriptionStreamC
++ _symbolic So19CADisplayPropertiesC
++ _symbolic So20FBSSettingsExtensionC
++ _symbolic So23FBSDisplayConfigurationCSg
++ _symbolic So23FBSMutableSceneSettingsCIghg_
++ _symbolic So25SSKDisplayProfileRegistryC
++ _symbolic So35FBSSceneClientSettingsDiffInspectorCSg
++ _symbolic So7FBSceneCSg
++ _symbolic So7FBSceneCSo25FBSSceneTransitionContextCSg______pIeghggg_ So20FBSceneClientProcessP
++ _symbolic So7FBSceneCSo25FBSSceneTransitionContextCSg______pytIeghnnnr_ So20FBSceneClientProcessP
++ _symbolic _____ 10Foundation21NSKeyValueObservationC
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 13ShellSceneKit016BacklightSupportB9ExtensionC
++ _symbolic _____ 13ShellSceneKit016BacklightSupportB9ExtensionC08SettingsF0C
++ _symbolic _____ 13ShellSceneKit016BacklightSupportB9ExtensionC13HostComponentC
++ _symbolic _____ 13ShellSceneKit016BacklightSupportB9ExtensionC15ClientComponentC
++ _symbolic _____ 13ShellSceneKit017ProfileActivationB9ExtensionC
++ _symbolic _____ 13ShellSceneKit017ProfileActivationB9ExtensionC08SettingsF0C
++ _symbolic _____ 13ShellSceneKit017ProfileActivationB9ExtensionC13HostComponentC
++ _symbolic _____ 13ShellSceneKit017ProfileActivationB9ExtensionC15ClientComponentC
++ _symbolic _____ 13ShellSceneKit04RootB18PresentationBinderC
++ _symbolic _____ 13ShellSceneKit09TransformB9ExtensionC
++ _symbolic _____ 13ShellSceneKit09TransformB9ExtensionC08SettingsE0C
++ _symbolic _____ 13ShellSceneKit09TransformB9ExtensionC13HostComponentC
++ _symbolic _____ 13ShellSceneKit0B14LevelExtensionC
++ _symbolic _____ 13ShellSceneKit0B14LevelExtensionC13HostComponentC
++ _symbolic _____ 13ShellSceneKit0B9WorkspaceC
++ _symbolic _____ 13ShellSceneKit12RegistrationV
++ _symbolic _____ 13ShellSceneKit13RegistryState33_A64F83CB8E40CF87579B11470B35EA71LLC
++ _symbolic _____ 13ShellSceneKit13_RegistrationV
++ _symbolic _____ 13ShellSceneKit14DisplayBlankerC
++ _symbolic _____ 13ShellSceneKit14IdentifierTypeO
++ _symbolic _____ 13ShellSceneKit14IdentifierTypeO12LogSubsystemO
++ _symbolic _____ 13ShellSceneKit14ManagedProfileV
++ _symbolic _____ 13ShellSceneKit14ManagedProfileV11PreferencesV
++ _symbolic _____ 13ShellSceneKit14ManagedProfileV5StateC
++ _symbolic _____ 13ShellSceneKit15TypedIdentifierV
++ _symbolic _____ 13ShellSceneKit15_HostingContextC
++ _symbolic _____ 13ShellSceneKit17CADisplayHardwareC
++ _symbolic _____ 13ShellSceneKit17FBSHardwareSourceC
++ _symbolic _____ 13ShellSceneKit17ProfileActivationC
++ _symbolic _____ 13ShellSceneKit18ProfileListBuilderV
++ _symbolic _____ 13ShellSceneKit18RootBlankingWindow030_C9D60EBD3E83046965F6E0F663983K1BLLC
++ _symbolic _____ 13ShellSceneKit20DisplayProfilesStateV
++ _symbolic _____ 13ShellSceneKit20DisplayProfilesStateV4DiffV
++ _symbolic _____ 13ShellSceneKit22RegistrationControllerC
++ _symbolic _____ 13ShellSceneKit26DisplayProfileConfigurator33_A1DCD04D86D5AECADE6EA65E0805B71CLLC
++ _symbolic _____ 13ShellSceneKit3BoxC
++ _symbolic _____ 13ShellSceneKit7DisplayV
++ _symbolic _____ 13ShellSceneKit7DisplayV10ConnectionO
++ _symbolic _____ 13ShellSceneKit7DisplayV11PreferencesV
++ _symbolic _____ 13ShellSceneKit7DisplayV19RefreshRateCriteriaV
++ _symbolic _____ 13ShellSceneKit7DisplayV20OverscanCompensationV
++ _symbolic _____ 13ShellSceneKit7DisplayV20OverscanCompensationV4KindO
++ _symbolic _____ 13ShellSceneKit7DisplayV4KindO
++ _symbolic _____ 13ShellSceneKit7DisplayV7HDRModeV
++ _symbolic _____ 13ShellSceneKit7DisplayV7HDRModeV4KindO
++ _symbolic _____ 13ShellSceneKit7DisplayV9TransportO
++ _symbolic _____ 13ShellSceneKit7ProfileV
++ _symbolic _____ 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _symbolic _____ 13ShellSceneKit7ProfileV15DisplayIdentityV4KindO
++ _symbolic _____ 13ShellSceneKit8KVOValueV
++ _symbolic _____ 13ShellSceneKit8KVOValueV4Seed33_1A2A013094A53B8A4ABDCDBF48E31352LLC
++ _symbolic _____ 13ShellSceneKit8PlatformO
++ _symbolic _____ So17CGAffineTransformV
++ _symbolic _____ So6CGSizeV
++ _symbolic _____ s26DefaultStringInterpolationV
++ _symbolic _____Sg 13ShellSceneKit016BacklightSupportB9ExtensionC13HostComponentC
++ _symbolic _____Sg 13ShellSceneKit016BacklightSupportB9ExtensionC15ClientComponentC
++ _symbolic _____Sg 13ShellSceneKit017ProfileActivationB9ExtensionC13HostComponentC
++ _symbolic _____Sg 13ShellSceneKit017ProfileActivationB9ExtensionC15ClientComponentC
++ _symbolic _____Sg 13ShellSceneKit04RootB18PresentationBinderC
++ _symbolic _____Sg 13ShellSceneKit09TransformB9ExtensionC13HostComponentC
++ _symbolic _____Sg 13ShellSceneKit18RootBlankingWindow030_C9D60EBD3E83046965F6E0F663983K1BLLC
++ _symbolic _____Sg 13ShellSceneKit20DisplayProfilesStateV
++ _symbolic _____Sg 13ShellSceneKit7DisplayV19RefreshRateCriteriaV
++ _symbolic _____Sg 13ShellSceneKit7DisplayV20OverscanCompensationV
++ _symbolic _____Sg 13ShellSceneKit7DisplayV7HDRModeV
++ _symbolic _____Sg 13ShellSceneKit7ProfileV
++ _symbolic _____Sg 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _symbolic _____Sg 19CollectionsInternal10_HashTableV7StorageC
++ _symbolic _____Sg So6CGSizeV
++ _symbolic _____Sg s5Int32V
++ _symbolic _____Sg s6UInt32V
++ _symbolic _____SgXw 13ShellSceneKit14ManagedProfileV5StateC
++ _symbolic _____SgXwz_Xx 13ShellSceneKit14ManagedProfileV5StateC
++ _symbolic _____So18FBSDisplayIdentityCIeghng_ 13ShellSceneKit17CADisplayHardwareC
++ _symbolic _____So23FBSDisplayConfigurationCIeghng_ 13ShellSceneKit17CADisplayHardwareC
++ _symbolic ______Say_____Gt 13ShellSceneKit12HostingGroupV AA0B7RequestV
++ _symbolic ______So23FBSDisplayConfigurationCt 13ShellSceneKit17CADisplayHardwareC
++ _symbolic ___________t 13ShellSceneKit7ProfileV15DisplayIdentityV AC
++ _symbolic ___________t s6UInt32V 13ShellSceneKit20DisplayProfilesStateV
++ _symbolic ______p 13ShellSceneKit12ProfileStateP
++ _symbolic ______p 13ShellSceneKit15ProfileProtocolP
++ _symbolic ______p 13ShellSceneKit15ProfileProviderP
++ _symbolic ______p 13ShellSceneKit16_ProfileProtocolP
++ _symbolic ______p 13ShellSceneKit17TransformObserverP
++ _symbolic ______p 13ShellSceneKit25ProfileActivationObserverP
++ _symbolic ______p So16FBSceneComponentP
++ _symbolic ______p So17FBSSceneComponentP
++ _symbolic ______p So25FBSSceneClientIdentifyingP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pIgg_ So28SSKDisplayProfileConfiguringP
++ _symbolic ______pSg 13ShellSceneKit14HostingContextP
++ _symbolic ______pSg 13ShellSceneKit16_ProfileProtocolP
++ _symbolic ______pSg 13ShellSceneKit17TransformObserverP
++ _symbolic ______pSg 13ShellSceneKit21ProfileStateProvidingP
++ _symbolic ______p______pIegHnzo_ 13ShellSceneKit17ConnectionContextP s5ErrorP
++ _symbolic ______p______pIeghHnzo_ 13ShellSceneKit17ConnectionContextP s5ErrorP
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSo7FBSceneCG 19CollectionsInternal17OrderedDictionaryV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 13ShellSceneKit7ProfileV
++ _symbolic _____ySbG 15Synchronization5MutexVAARi_zrlE
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo18FBSDisplayIdentityC_____G s18_DictionaryStorageC s6UInt32V
++ _symbolic _____ySo9CADisplayCSo0A11PreferencesCG 13ShellSceneKit8KVOValueV
++ _symbolic _____ySo9CADisplayCSo0A11PreferencesC_G 13ShellSceneKit8KVOValueV4Seed33_1A2A013094A53B8A4ABDCDBF48E31352LLC
++ _symbolic _____y_____G 13ShellSceneKit13_RegistrationV AA17FBSHardwareSourceC
++ _symbolic _____y_____G 13ShellSceneKit15TypedIdentifierV AA0E4TypeO12LogSubsystemO
++ _symbolic _____y_____G 13ShellSceneKit22RegistrationControllerC AA17FBSHardwareSourceC
++ _symbolic _____y_____G 19CollectionsInternal10OrderedSetV 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _symbolic _____y_____G s15ContiguousArrayV 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13ShellSceneKit7ProfileV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _symbolic _____y_____GSgXw 13ShellSceneKit22RegistrationControllerC AA17FBSHardwareSourceC
++ _symbolic _____y_____ScTyyt_____GG s18_DictionaryStorageC s6UInt32V s5NeverO
++ _symbolic _____y__________G 19CollectionsInternal17OrderedDictionaryV 13ShellSceneKit7ProfileV15DisplayIdentityV AF
++ _symbolic _____y__________G s18_DictionaryStorageC 13ShellSceneKit7ProfileV15DisplayIdentityV AC15_HostingContextC
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V 13ShellSceneKit04RootE18PresentationBinderC
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V 13ShellSceneKit20DisplayProfilesStateV
++ _symbolic _____y___________So23FBSDisplayConfigurationCtG s18_DictionaryStorageC s6UInt32V 13ShellSceneKit17CADisplayHardwareC
++ _symbolic _____y___________So23FBSDisplayConfigurationCt_G SD6ValuesV s6UInt32V 13ShellSceneKit17CADisplayHardwareC
++ _symbolic _____y___________pG s18_DictionaryStorageC 13ShellSceneKit7ProfileV15DisplayIdentityV AC0F5StateP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____yxGSg 13ShellSceneKit22RegistrationControllerC
++ _symbolic _____yxGSgXwz____________RzlXX 13ShellSceneKit22RegistrationControllerC AA17FBSHardwareSourceC AA8PlatformO08HardwareG0P
++ _symbolic _____yxq_G s7KeyPathC
++ _symbolic _____yxq__G 13ShellSceneKit8KVOValueV4Seed33_1A2A013094A53B8A4ABDCDBF48E31352LLC
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yyXlXpG s23_ContiguousArrayStorageC
++ _symbolic ySo7FBSceneC_So25FBSSceneTransitionContextCSg______ptYbScMYcc So20FBSceneClientProcessP
++ _symbolic yXlXp
++ _symbolic y______So18FBSDisplayIdentityCtYbScMYcc 13ShellSceneKit17CADisplayHardwareC
++ _symbolic y______So23FBSDisplayConfigurationCtYbScMYcc 13ShellSceneKit17CADisplayHardwareC
++ _symbolic y______pYaKc 13ShellSceneKit17ConnectionContextP
++ _symbolic yt
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _symbolic yyYbc
++ _type_layout_string 13ShellSceneKit14ManagedProfileV
++ _type_layout_string 13ShellSceneKit14ManagedProfileV11PreferencesV
++ _type_layout_string 13ShellSceneKit20DisplayProfilesStateV
++ _type_layout_string 13ShellSceneKit20DisplayProfilesStateV4DiffV
++ _type_layout_string 13ShellSceneKit7DisplayV
++ _type_layout_string 13ShellSceneKit7DisplayV11PreferencesV
++ _type_layout_string 13ShellSceneKit7DisplayV19RefreshRateCriteriaV
++ _type_layout_string 13ShellSceneKit7DisplayV20OverscanCompensationV
++ _type_layout_string 13ShellSceneKit7DisplayV7HDRModeV
++ _type_layout_string 13ShellSceneKit7ProfileV
++ _type_layout_string 13ShellSceneKit7ProfileV15DisplayIdentityV
++ _type_layout_string 13ShellSceneKit7ProfileV15DisplayIdentityV4KindO
++ _type_layout_string So17CGAffineTransformV
++ _type_layout_string So6CGSizeV
++ _type_layout_string So8NSObjectCRbzr0_l13ShellSceneKit8KVOValueVyxq_G
++ _type_layout_string l13ShellSceneKit15TypedIdentifierVyxG
+- +[SSKDisplayEndpointClientComponent settingsProtocol]
+- +[SSKDisplayEndpointHostComponent settingsProtocol]
+- +[SSKDisplayMonitor new]
+- +[SSKDisplayProfile mirroringMainDisplayProfileWithDelegate:]
+- +[SSKDisplayProfile sceneHostingProfileWithDelegate:builder:]
+- +[SSKShellSceneKitExtension clientComponents]
+- +[SSKShellSceneKitExtension clientSettingsExtensions]
+- +[SSKShellSceneKitExtension hostComponents]
+- +[SSKShellSceneKitExtension settingsExtensions]
+- +[SSKShellSceneKitExtension transitionContextExtensions]
+- -[FBSDisplayConfiguration(SSKDisplayMonitorCallbackLogging) _flbLoggingDescription]
+- -[SSKDisplayAssertion .cxx_destruct]
+- -[SSKDisplayAssertion _didGainControlOfDisplay]
+- -[SSKDisplayAssertion _didInvalidateForDisplayDisconnect]
+- -[SSKDisplayAssertion _didLoseControlOfDisplay]
+- -[SSKDisplayAssertion _initWithPhysicalDisplay:level:assertionStack:delegate:]
+- -[SSKDisplayAssertion _initWithPhysicalDisplay:level:assertionStack:delegate:].cold.1
+- -[SSKDisplayAssertion _initWithPhysicalDisplay:level:assertionStack:delegate:].cold.2
+- -[SSKDisplayAssertion _initWithPhysicalDisplay:level:assertionStack:delegate:].cold.3
+- -[SSKDisplayAssertion _initWithPhysicalDisplay:level:assertionStack:delegate:].cold.4
+- -[SSKDisplayAssertion deactivationReasonsWhenActive]
+- -[SSKDisplayAssertion dealloc]
+- -[SSKDisplayAssertion dealloc].cold.1
+- -[SSKDisplayAssertion description]
+- -[SSKDisplayAssertion hasControlOfDisplay]
+- -[SSKDisplayAssertion invalidate]
+- -[SSKDisplayAssertion invalidate].cold.1
+- -[SSKDisplayAssertion isEqual:]
+- -[SSKDisplayAssertion level]
+- -[SSKDisplayAssertion rootDisplayIdentity]
+- -[SSKDisplayAssertion updateWithPreferences:]
+- -[SSKDisplayAssertionCoordinator .cxx_destruct]
+- -[SSKDisplayAssertionCoordinator _createDisplayAssertionStackForRootDisplay:]
+- -[SSKDisplayAssertionCoordinator _createDisplayAssertionStackForRootDisplay:].cold.1
+- -[SSKDisplayAssertionCoordinator _createDisplayAssertionStackForRootDisplay:].cold.2
+- -[SSKDisplayAssertionCoordinator acquireAssertionForDisplay:level:delegate:]
+- -[SSKDisplayAssertionCoordinator acquireAssertionForDisplay:level:delegate:].cold.1
+- -[SSKDisplayAssertionCoordinator acquireAssertionForDisplay:level:delegate:].cold.2
+- -[SSKDisplayAssertionCoordinator acquireAssertionForDisplay:level:delegate:].cold.3
+- -[SSKDisplayAssertionCoordinator activateAssertionsForDisplay:]
+- -[SSKDisplayAssertionCoordinator activateAssertionsForDisplay:].cold.1
+- -[SSKDisplayAssertionCoordinator assertionStack:updatedAssertionPreferences:oldPreferences:]
+- -[SSKDisplayAssertionCoordinator dealloc]
+- -[SSKDisplayAssertionCoordinator delegate]
+- -[SSKDisplayAssertionCoordinator init]
+- -[SSKDisplayAssertionCoordinator invalidateAssertion:]
+- -[SSKDisplayAssertionCoordinator invalidateAssertion:].cold.1
+- -[SSKDisplayAssertionCoordinator rootDisplayDidConnect:]
+- -[SSKDisplayAssertionCoordinator rootDisplayDidConnect:].cold.1
+- -[SSKDisplayAssertionCoordinator rootDisplayDidConnect:].cold.2
+- -[SSKDisplayAssertionCoordinator rootDisplayDidDisconnect:]
+- -[SSKDisplayAssertionCoordinator rootDisplayDidDisconnect:].cold.1
+- -[SSKDisplayAssertionCoordinator rootDisplayDidDisconnect:].cold.2
+- -[SSKDisplayAssertionCoordinator setDelegate:]
+- -[SSKDisplayAssertionCoordinatorPolicy .cxx_destruct]
+- -[SSKDisplayAssertionCoordinatorPolicy _setCloneMirroringMode:forDisplay:]
+- -[SSKDisplayAssertionCoordinatorPolicy _setCloneMirroringMode:forDisplay:].cold.1
+- -[SSKDisplayAssertionCoordinatorPolicy _setDisplayArrangementItem:forDisplay:]
+- -[SSKDisplayAssertionCoordinatorPolicy assertionCoordinator:updatedAssertionPreferences:oldPreferences:forDisplay:]
+- -[SSKDisplayAssertionCoordinatorPolicy initWithDisplayMonitor:]
+- -[SSKDisplayAssertionCoordinatorPolicy init]
+- -[SSKDisplayAssertionPreferences .cxx_destruct]
+- -[SSKDisplayAssertionPreferences cloneMirroringMode]
+- -[SSKDisplayAssertionPreferences copyWithZone:]
+- -[SSKDisplayAssertionPreferences description]
+- -[SSKDisplayAssertionPreferences displayArrangement]
+- -[SSKDisplayAssertionPreferences hash]
+- -[SSKDisplayAssertionPreferences init]
+- -[SSKDisplayAssertionPreferences isEqual:]
+- -[SSKDisplayAssertionPreferences setCloneMirroringMode:]
+- -[SSKDisplayAssertionPreferences setDisplayArrangement:]
+- -[SSKDisplayAssertionPreferences setWantsControlOfDisplay:]
+- -[SSKDisplayAssertionPreferences wantsControlOfDisplay]
+- -[SSKDisplayDriverRecord .cxx_destruct]
+- -[SSKDisplayDriverRecord appendDescriptionToFormatter:]
+- -[SSKDisplayDriverRecord assertion]
+- -[SSKDisplayDriverRecord associateController:assertion:]
+- -[SSKDisplayDriverRecord associateController:assertion:].cold.1
+- -[SSKDisplayDriverRecord associateController:assertion:].cold.2
+- -[SSKDisplayDriverRecord associateController:assertion:].cold.3
+- -[SSKDisplayDriverRecord associateController:assertion:].cold.4
+- -[SSKDisplayDriverRecord associateDisplay:]
+- -[SSKDisplayDriverRecord associateDisplay:].cold.1
+- -[SSKDisplayDriverRecord associateDisplay:].cold.2
+- -[SSKDisplayDriverRecord associateDisplay:].cold.3
+- -[SSKDisplayDriverRecord controller]
+- -[SSKDisplayDriverRecord description]
+- -[SSKDisplayDriverRecord displayIdentity]
+- -[SSKDisplayDriverRecord dissociateFromController]
+- -[SSKDisplayDriverRecord dissociateFromController].cold.1
+- -[SSKDisplayDriverRecord dissociateFromController].cold.2
+- -[SSKDisplayDriverRecord hash]
+- -[SSKDisplayDriverRecord initWithProfile:]
+- -[SSKDisplayDriverRecord initWithProfile:].cold.1
+- -[SSKDisplayDriverRecord initWithProfile:rootDisplay:]
+- -[SSKDisplayDriverRecord initWithProfile:rootDisplay:].cold.1
+- -[SSKDisplayDriverRecord isEqual:]
+- -[SSKDisplayDriverRecord isValid]
+- -[SSKDisplayDriverRecord profile]
+- -[SSKDisplayDriverRecord state]
+- -[SSKDisplayEndpointClientComponent .cxx_destruct]
+- -[SSKDisplayEndpointClientComponent currentDeactivationReasons]
+- -[SSKDisplayEndpointClientComponent delegate]
+- -[SSKDisplayEndpointClientComponent displayArrangementItem]
+- -[SSKDisplayEndpointClientComponent displayConfigurationRequest]
+- -[SSKDisplayEndpointClientComponent hasControlOfDisplay]
+- -[SSKDisplayEndpointClientComponent priorityLevel]
+- -[SSKDisplayEndpointClientComponent rootWindow]
+- -[SSKDisplayEndpointClientComponent scene:didUpdateSettings:]
+- -[SSKDisplayEndpointClientComponent setDelegate:]
+- -[SSKDisplayEndpointClientComponent setDisplayArrangementItem:]
+- -[SSKDisplayEndpointClientComponent setDisplayConfigurationRequest:]
+- -[SSKDisplayEndpointClientComponent setWantsControlOfDisplay:]
+- -[SSKDisplayEndpointClientComponent wantsControlOfDisplay]
+- -[SSKDisplayEndpointHostComponent .cxx_destruct]
+- -[SSKDisplayEndpointHostComponent configureForDisplayConfiguration:priorityLevel:deactivationReasons:]
+- -[SSKDisplayEndpointHostComponent delegate]
+- -[SSKDisplayEndpointHostComponent displayArrangementItem]
+- -[SSKDisplayEndpointHostComponent displayAssertionDidGainControlOfDisplay:]
+- -[SSKDisplayEndpointHostComponent displayAssertionDidLoseControlOfDisplay:]
+- -[SSKDisplayEndpointHostComponent displayConfigurationRequest]
+- -[SSKDisplayEndpointHostComponent scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:]
+- -[SSKDisplayEndpointHostComponent setDelegate:]
+- -[SSKDisplayEndpointHostComponent updateDisplayConfiguration:completion:]
+- -[SSKDisplayEndpointHostComponent updateRootWindow:completion:]
+- -[SSKDisplayEndpointHostComponent wantsControlOfDisplay]
+- -[SSKDisplayMonitor .cxx_destruct]
+- -[SSKDisplayMonitor _connectToIdentity:withConfiguration:forDisplayManagerInit:]
+- -[SSKDisplayMonitor addObserver:]
+- -[SSKDisplayMonitor addObserver:].cold.1
+- -[SSKDisplayMonitor beginMonitoringForExternalDisplays]
+- -[SSKDisplayMonitor dealloc]
+- -[SSKDisplayMonitor delegate]
+- -[SSKDisplayMonitor displaySource:didConnectIdentity:withConfiguration:]
+- -[SSKDisplayMonitor displaySource:didUpdateIdentity:withConfiguration:]
+- -[SSKDisplayMonitor displaySource:willDisconnectIdentity:]
+- -[SSKDisplayMonitor initWithDisplaySource:]
+- -[SSKDisplayMonitor init]
+- -[SSKDisplayMonitor setDelegate:]
+- -[SSKDisplayMonitor(FBDisplayManager) configurationForIdentity:]
+- -[SSKDisplayMonitor(FBDisplayManager) connectedIdentities]
+- -[SSKDisplayMonitor(FBDisplayManager) mainIdentity]
+- -[SSKDisplayMonitor(FBDisplayManager) updateTransformsWithCompletion:]
+- -[SSKDisplayProfile .cxx_destruct]
+- -[SSKDisplayProfile appendDescriptionToFormatter:]
+- -[SSKDisplayProfile deactivationReasonsWhenActive]
+- -[SSKDisplayProfile delegate]
+- -[SSKDisplayProfile description]
+- -[SSKDisplayProfile displayControllerForDisplay:configuration:]
+- -[SSKDisplayProfile evaluatePhysicalDisplay:]
+- -[SSKDisplayProfile evaluatePhysicalDisplay:].cold.1
+- -[SSKDisplayProfile initWithPriority:displayTransformer:provider:delegate:]
+- -[SSKDisplayProfile initWithPriority:displayTransformer:provider:delegate:].cold.1
+- -[SSKDisplayProfile initWithSwiftConfiguration:delegate:]
+- -[SSKDisplayProfile initWithSwiftConfiguration:delegate:].cold.1
+- -[SSKDisplayProfile priorityLevel]
+- -[SSKDisplayProfile provider:modifyInitialSceneParameters:]
+- -[SSKDisplayProfile provider:rootSceneWindowForDisplayConfiguration:]
+- -[SSKDisplayProfile setDelegate:]
+- -[SSKDisplayProfile shouldTransformConnectingDisplays]
+- -[SSKDisplayProfile transformPhysicalDisplayWithBuilder:]
+- -[SSKDisplayProfile usesRootDisplay]
+- -[SSKDisplayProfileRegistry .cxx_destruct]
+- -[SSKDisplayProfileRegistry _evaluateForPhysicalDisplay:driver:profile:]
+- -[SSKDisplayProfileRegistry _evaluateForPhysicalDisplay:driver:profile:].cold.1
+- -[SSKDisplayProfileRegistry _evaluateForPhysicalDisplay:driver:profile:].cold.2
+- -[SSKDisplayProfileRegistry _evaluateForPhysicalDisplay:driver:profile:].cold.3
+- -[SSKDisplayProfileRegistry activate]
+- -[SSKDisplayProfileRegistry appendDescriptionToFormatter:]
+- -[SSKDisplayProfileRegistry description]
+- -[SSKDisplayProfileRegistry displayMonitor:didConnectIdentity:withConfiguration:]
+- -[SSKDisplayProfileRegistry displayMonitor:didDisconnectIdentity:]
+- -[SSKDisplayProfileRegistry displayMonitor:didUpdateIdentity:withConfiguration:]
+- -[SSKDisplayProfileRegistry displayProfileForIdentity:]
+- -[SSKDisplayProfileRegistry displayProfileForIdentity:].cold.1
+- -[SSKDisplayProfileRegistry displayProfileForIdentity:].cold.2
+- -[SSKDisplayProfileRegistry evaluateProfilesForConnectedDisplays]
+- -[SSKDisplayProfileRegistry evaluateProfilesForConnectedDisplays].cold.1
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:]
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:]
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:].cold.1
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:].cold.2
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:].cold.3
+- -[SSKDisplayProfileRegistry initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:].cold.4
+- -[SSKDisplayProfileRegistry registerDisplayProfile:]
+- -[SSKDisplayProfileRegistry registerDisplayProfile:].cold.1
+- -[SSKDisplayProfileRegistry registerDisplayProfile:].cold.2
+- -[SSKDisplayProfileRegistry registerDisplayProfile:].cold.3
+- -[SSKDisplayProfileRegistry transformDisplayConfiguration:]
+- -[SSKDisplayProfileRegistry transformDisplayConfiguration:].cold.1
+- -[SSKDisplaySource .cxx_destruct]
+- -[SSKDisplaySource addObserver:]
+- -[SSKDisplaySource configurationForIdentity:]
+- -[SSKDisplaySource connectedIdentities]
+- -[SSKDisplaySource displayMonitor:didConnectIdentity:withConfiguration:]
+- -[SSKDisplaySource displayMonitor:didUpdateIdentity:withConfiguration:]
+- -[SSKDisplaySource displayMonitor:willDisconnectIdentity:]
+- -[SSKDisplaySource initWithDisplayManager:]
+- -[SSKDisplaySource initWithDisplayManager:].cold.1
+- -[SSKDisplaySource init]
+- -[SSKDisplaySource mainConfiguration]
+- -[SSKDisplaySource mainIdentity]
+- -[SSKDisplaySource removeObserver:]
+- -[SSKDisplaySource updateTransformsWithCompletion:]
+- -[SSKMirroredDisplayController .cxx_destruct]
+- -[SSKMirroredDisplayController _ensureCADisplayModeForMirroring]
+- -[SSKMirroredDisplayController _ensureCADisplayModeForMirroring].cold.1
+- -[SSKMirroredDisplayController _updateDisplayAssertion]
+- -[SSKMirroredDisplayController connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:]
+- -[SSKMirroredDisplayController displayAssertionDidGainControlOfDisplay:]
+- -[SSKMirroredDisplayController displayAssertionDidGainControlOfDisplay:].cold.1
+- -[SSKMirroredDisplayController displayAssertionDidLoseControlOfDisplay:]
+- -[SSKMirroredDisplayController displayAssertionDidLoseControlOfDisplay:].cold.1
+- -[SSKMirroredDisplayController displayIdentityDidDisconnect:]
+- -[SSKMirroredDisplayController displayIdentityDidUpdate:configuration:]
+- -[SSKMirroredDisplayController observeValueForKeyPath:ofObject:change:context:]
+- -[SSKMirroredDisplayControllerProvider displayControllerForDisplay:configuration:]
+- -[SSKMirroredDisplayControllerProvider displayControllerForDisplay:configuration:].cold.1
+- -[SSKNullDisplayController .cxx_destruct]
+- -[SSKNullDisplayController connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:]
+- -[SSKNullDisplayController displayAssertionDidGainControlOfDisplay:]
+- -[SSKNullDisplayController displayAssertionDidLoseControlOfDisplay:]
+- -[SSKNullDisplayController displayConfigurationForIdentity:]
+- -[SSKNullDisplayController displayIdentityDidDisconnect:]
+- -[SSKNullDisplayController displayIdentityDidUpdate:configuration:]
+- -[SSKNullDisplayController init]
+- -[SSKNullDisplayController isConnectedToDisplay:]
+- -[SSKNullDisplayControllerProvider .cxx_destruct]
+- -[SSKNullDisplayControllerProvider controllerForDisplay:]
+- -[SSKNullDisplayControllerProvider didCreateControllers]
+- -[SSKNullDisplayControllerProvider displayControllerForDisplay:configuration:]
+- -[SSKNullDisplayControllerProvider init]
+- -[SSKNullDisplaySource .cxx_destruct]
+- -[SSKNullDisplaySource addObserver:]
+- -[SSKNullDisplaySource configurationForIdentity:]
+- -[SSKNullDisplaySource connectDisplay:]
+- -[SSKNullDisplaySource connectedIdentities]
+- -[SSKNullDisplaySource disconnectDisplay:]
+- -[SSKNullDisplaySource displayTransformer]
+- -[SSKNullDisplaySource initWithMainDisplay:]
+- -[SSKNullDisplaySource mainConfiguration]
+- -[SSKNullDisplaySource mainIdentity]
+- -[SSKNullDisplaySource removeObserver:]
+- -[SSKNullDisplaySource setDisplayTransformer:]
+- -[SSKNullDisplaySource setTransformScheduler:]
+- -[SSKNullDisplaySource transformScheduler]
+- -[SSKNullDisplaySource updateDisplay:]
+- -[SSKNullDisplaySource updateTransformsWithCompletion:]
+- -[SSKNullTransformerRegistry .cxx_destruct]
+- -[SSKNullTransformerRegistry addTransformer:withIdentifier:]
+- -[SSKNullTransformerRegistry init]
+- -[SSKNullTransformerRegistry transformDisplayConfiguration:]
+- -[SSKRootDisplayDriver .cxx_destruct]
+- -[SSKRootDisplayDriver _derivedDisplayConnected:]
+- -[SSKRootDisplayDriver _performWithRecordForDisplay:block:]
+- -[SSKRootDisplayDriver _performWithRecordForDisplay:block:].cold.1
+- -[SSKRootDisplayDriver _rootDisplayConnected:]
+- -[SSKRootDisplayDriver _rootDisplayConnected:].cold.1
+- -[SSKRootDisplayDriver _rootDisplayConnected:].cold.2
+- -[SSKRootDisplayDriver _rootDisplayConnected:].cold.3
+- -[SSKRootDisplayDriver addProfile:]
+- -[SSKRootDisplayDriver addProfile:].cold.1
+- -[SSKRootDisplayDriver addProfile:].cold.2
+- -[SSKRootDisplayDriver addProfile:].cold.3
+- -[SSKRootDisplayDriver appendDescriptionToFormatter:]
+- -[SSKRootDisplayDriver controllerForDisplay:]
+- -[SSKRootDisplayDriver description]
+- -[SSKRootDisplayDriver displayConnected:]
+- -[SSKRootDisplayDriver displayConnected:].cold.1
+- -[SSKRootDisplayDriver displayConnected:].cold.2
+- -[SSKRootDisplayDriver displayDisconnected:]
+- -[SSKRootDisplayDriver displayDisconnected:].cold.1
+- -[SSKRootDisplayDriver displayDisconnected:].cold.2
+- -[SSKRootDisplayDriver displayUpdated:]
+- -[SSKRootDisplayDriver displayUpdated:].cold.1
+- -[SSKRootDisplayDriver displayUpdated:].cold.2
+- -[SSKRootDisplayDriver initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:]
+- -[SSKRootDisplayDriver initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:].cold.1
+- -[SSKRootDisplayDriver initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:].cold.2
+- -[SSKRootDisplayDriver initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:].cold.3
+- -[SSKRootDisplayDriver initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:].cold.4
+- -[SSKRootDisplayDriver isTrackingDisplays]
+- -[SSKRootDisplayDriver isTrackingProfile:]
+- -[SSKRootDisplayDriver isTrackingProfileForDisplay:]
+- -[SSKRootDisplayDriver isTrackingProfileForDisplay:].cold.1
+- -[SSKRootDisplayDriver profileForDisplay:]
+- -[SSKRootDisplayDriver removeProfile:]
+- -[SSKRootDisplayDriver removeProfile:].cold.1
+- -[SSKRootDisplayDriver transformDisplayConfiguration:]
+- -[SSKRootDisplayDriver transformDisplayConfiguration:].cold.1
+- -[SSKRootWindowScenePresentationBinder .cxx_destruct]
+- -[SSKRootWindowScenePresentationBinder displayConfiguration]
+- -[SSKRootWindowScenePresentationBinder initWithIdentifier:priority:appearanceStyle:rootWindow:]
+- -[SSKRootWindowScenePresentationBinder rootWindow]
+- -[SSKSceneHostingDisplayController .cxx_destruct]
+- -[SSKSceneHostingDisplayController connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:]
+- -[SSKSceneHostingDisplayController connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:].cold.1
+- -[SSKSceneHostingDisplayController delegate]
+- -[SSKSceneHostingDisplayController displayAssertionDidGainControlOfDisplay:]
+- -[SSKSceneHostingDisplayController displayAssertionDidGainControlOfDisplay:].cold.1
+- -[SSKSceneHostingDisplayController displayAssertionDidLoseControlOfDisplay:]
+- -[SSKSceneHostingDisplayController displayAssertionDidLoseControlOfDisplay:].cold.1
+- -[SSKSceneHostingDisplayController displayIdentityDidDisconnect:]
+- -[SSKSceneHostingDisplayController displayIdentityDidDisconnect:].cold.1
+- -[SSKSceneHostingDisplayController displayIdentityDidUpdate:configuration:]
+- -[SSKSceneHostingDisplayController displayIdentityDidUpdate:configuration:].cold.1
+- -[SSKSceneHostingDisplayController displayIdentityDidUpdate:configuration:].cold.2
+- -[SSKSceneHostingDisplayController initWithProfileConfiguration:displayIdentity:]
+- -[SSKSceneHostingDisplayController initWithProfileConfiguration:displayIdentity:].cold.1
+- -[SSKSceneHostingDisplayController setDelegate:]
+- -[SSKSceneHostingDisplayControllerProvider .cxx_destruct]
+- -[SSKSceneHostingDisplayControllerProvider appendDescriptionToFormatter:]
+- -[SSKSceneHostingDisplayControllerProvider controller:modifyInitialSceneParameters:]
+- -[SSKSceneHostingDisplayControllerProvider controller:rootSceneWindowForDisplayConfiguration:]
+- -[SSKSceneHostingDisplayControllerProvider delegate]
+- -[SSKSceneHostingDisplayControllerProvider description]
+- -[SSKSceneHostingDisplayControllerProvider displayControllerForDisplay:configuration:]
+- -[SSKSceneHostingDisplayControllerProvider hash]
+- -[SSKSceneHostingDisplayControllerProvider initWithProfileConfiguration:]
+- -[SSKSceneHostingDisplayControllerProvider initWithProfileConfiguration:].cold.1
+- -[SSKSceneHostingDisplayControllerProvider isEqual:]
+- -[SSKSceneHostingDisplayControllerProvider setDelegate:]
+- -[SSKSeededDisplayConfigurationBuilder .cxx_destruct]
+- -[SSKSeededDisplayConfigurationBuilder buildConfigurationWithError:]
+- -[SSKSeededDisplayConfigurationBuilder initWithSeed:builder:]
+- -[SSKSeededDisplayConfigurationBuilder initWithSeed:builder:].cold.1
+- -[SSKSeededDisplayConfigurationBuilder setCloningSupported:]
+- -[SSKSeededDisplayConfigurationBuilder setCurrentMode:preferredMode:otherModes:]
+- -[SSKSeededDisplayConfigurationBuilder setExpectsSecureRendering]
+- -[SSKSeededDisplayConfigurationBuilder setOverscanned:compensation:safeRatio:]
+- -[SSKSeededDisplayConfigurationBuilder setPixelSize:nativeBounds:bounds:]
+- -[SSKSeededDisplayConfigurationBuilder setUIKitMainLike]
+- -[SSKSeededDisplayConfigurationBuilder setUniqueIdentifier:]
+- -[_SSKDisplayAssertionStack .cxx_destruct]
+- -[_SSKDisplayAssertionStack _assertion:updatedPreferences:]
+- -[_SSKDisplayAssertionStack _assertionDidInvalidate:]
+- -[_SSKDisplayAssertionStack _evalAndApplyOldPreferences:newPreferences:]
+- -[_SSKDisplayAssertionStack _evalAndApplyOldPreferences:newPreferences:].cold.1
+- -[_SSKDisplayAssertionStack _evalAndApplyOldPreferences:newPreferences:].cold.2
+- -[_SSKDisplayAssertionStack _evalAndApplyOldPreferences:newPreferences:].cold.3
+- -[_SSKDisplayAssertionStack _evalAndApplyOldPreferences:newPreferences:].cold.4
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:]
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:].cold.1
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:].cold.2
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:].cold.3
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:].cold.4
+- -[_SSKDisplayAssertionStack acquireAssertionForDisplay:level:delegate:].cold.5
+- -[_SSKDisplayAssertionStack activateAssertionsForDisplay:]
+- -[_SSKDisplayAssertionStack activateAssertionsForDisplay:].cold.1
+- -[_SSKDisplayAssertionStack activateAssertionsForDisplay:].cold.2
+- -[_SSKDisplayAssertionStack activateAssertionsForDisplay:].cold.3
+- -[_SSKDisplayAssertionStack dealloc]
+- -[_SSKDisplayAssertionStack dealloc].cold.1
+- -[_SSKDisplayAssertionStack description]
+- -[_SSKDisplayAssertionStack displayIdentity]
+- -[_SSKDisplayAssertionStack initWithRootDisplay:delegate:]
+- -[_SSKDisplayAssertionStack initWithRootDisplay:delegate:].cold.1
+- -[_SSKDisplayAssertionStack initWithRootDisplay:delegate:].cold.2
+- -[_SSKDisplayAssertionStack invalidateAssertion:]
+- -[_SSKDisplayAssertionStack invalidateForDisplayDisconnect]
+- -[_SSKDisplayAssertionStack invalidateForDisplayDisconnect].cold.1
+- -[_SSKDisplayMonitorIdentityRecord .cxx_destruct]
+- -[_SSKDisplayMonitorIdentityRecord description]
+- -[_SSKDisplayMonitorIdentityRecord didConnectAtInit]
+- -[_SSKDisplayMonitorIdentityRecord displayIdentity]
+- -[_SSKDisplayMonitorIdentityRecord initWithIdentity:connectedAtInit:]
+- GCC_except_table1
+- GCC_except_table14
+- GCC_except_table15
+- GCC_except_table19
+- GCC_except_table5
+- _BKSDisplayServicesSetArrangement
+- _BKSDisplayServicesSetMainDisplayCloneMirroringModeForDestinationDisplay
+- _BSEqualObjects
+- _BSEqualStrings
+- _BSFloatApproximatelyEqualToFloat
+- _BSSizeEqualToSize
+- _CGSizeZero
+- _FBSDisplayHDRModeToCADisplayHDRMode
+- _FBSDisplayOverscanCompensationToCADisplayOverscanAdjustment
+- _NSAllMapTableKeys
+- _NSClassFromString
+- _NSStringFromBKSDisplayServicesCloneMirroringMode
+- _NSStringFromClass
+- _OBJC_CLASS_$_BKSDisplayArrangementItem
+- _OBJC_CLASS_$_BSDescriptionBuilder
+- _OBJC_CLASS_$_CATransaction
+- _OBJC_CLASS_$_FBSDisplayConfigurationRequest
+- _OBJC_CLASS_$_FBSMutableDisplayConfigurationRequest
+- _OBJC_CLASS_$_FBSSceneClientSettingsDiff
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSAssertionHandler
+- _OBJC_CLASS_$_NSMapTable
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableDictionary
+- _OBJC_CLASS_$_NSMutableSet
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSSet
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_SSKDisplayAssertion
+- _OBJC_CLASS_$_SSKDisplayAssertionCoordinator
+- _OBJC_CLASS_$_SSKDisplayAssertionCoordinatorPolicy
+- _OBJC_CLASS_$_SSKDisplayAssertionPreferences
+- _OBJC_CLASS_$_SSKDisplayDriverRecord
+- _OBJC_CLASS_$_SSKDisplayEndpointClientComponent
+- _OBJC_CLASS_$_SSKDisplayEndpointHostComponent
+- _OBJC_CLASS_$_SSKDisplayMonitor
+- _OBJC_CLASS_$_SSKDisplayProfileConfiguration
+- _OBJC_CLASS_$_SSKDisplaySource
+- _OBJC_CLASS_$_SSKLegacyDisplayProfileBuilder
+- _OBJC_CLASS_$_SSKMirroredDisplayController
+- _OBJC_CLASS_$_SSKMirroredDisplayControllerProvider
+- _OBJC_CLASS_$_SSKMirroredDisplayTransformer
+- _OBJC_CLASS_$_SSKNullDisplayController
+- _OBJC_CLASS_$_SSKNullDisplayControllerProvider
+- _OBJC_CLASS_$_SSKNullDisplaySource
+- _OBJC_CLASS_$_SSKNullTransformerRegistry
+- _OBJC_CLASS_$_SSKRootDisplayDriver
+- _OBJC_CLASS_$_SSKRootWindowScenePresentationBinder
+- _OBJC_CLASS_$_SSKSceneHostingDisplayController
+- _OBJC_CLASS_$_SSKSceneHostingDisplayControllerAdapter
+- _OBJC_CLASS_$_SSKSceneHostingDisplayControllerProvider
+- _OBJC_CLASS_$_SSKSeededDisplayConfigurationBuilder
+- _OBJC_CLASS_$_SSKShellSceneKitExtension
+- _OBJC_CLASS_$_SSKUpdateDisplayTransformsAdapter
+- _OBJC_CLASS_$_UIApplicationSceneClientSettings
+- _OBJC_CLASS_$__SSKDisplayAssertionStack
+- _OBJC_CLASS_$__SSKDisplayMonitorIdentityRecord
+- _OBJC_CLASS_$__TtC13ShellSceneKit26FBScenePresentableObserver
+- _OBJC_EHTYPE_$_NSException
+- _OBJC_IVAR_$_SSKDisplayAssertion._assertionStack
+- _OBJC_IVAR_$_SSKDisplayAssertion._deactivationReasonsWhenActive
+- _OBJC_IVAR_$_SSKDisplayAssertion._delegate
+- _OBJC_IVAR_$_SSKDisplayAssertion._hasControlOfDisplay
+- _OBJC_IVAR_$_SSKDisplayAssertion._invalidated
+- _OBJC_IVAR_$_SSKDisplayAssertion._invalidatedByClient
+- _OBJC_IVAR_$_SSKDisplayAssertion._level
+- _OBJC_IVAR_$_SSKDisplayAssertion._rootDisplayIdentity
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinator._assertionPreferencesMap
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinator._assertionStackMap
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinator._delegate
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinatorPolicy._displayMonitor
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinatorPolicy._rootIdentityToCloneMirroringMode
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinatorPolicy._rootIdentityToCloneMirroringModeTokens
+- _OBJC_IVAR_$_SSKDisplayAssertionCoordinatorPolicy._rootIdentityToDisplayArrangementItems
+- _OBJC_IVAR_$_SSKDisplayAssertionPreferences._cloneMirroringMode
+- _OBJC_IVAR_$_SSKDisplayAssertionPreferences._displayArrangement
+- _OBJC_IVAR_$_SSKDisplayAssertionPreferences._wantsControlOfDisplay
+- _OBJC_IVAR_$_SSKDisplayDriverRecord._assertion
+- _OBJC_IVAR_$_SSKDisplayDriverRecord._controller
+- _OBJC_IVAR_$_SSKDisplayDriverRecord._displayIdentity
+- _OBJC_IVAR_$_SSKDisplayDriverRecord._dissociated
+- _OBJC_IVAR_$_SSKDisplayDriverRecord._profile
+- _OBJC_IVAR_$_SSKDisplayEndpointClientComponent._delegate
+- _OBJC_IVAR_$_SSKDisplayEndpointHostComponent._configured
+- _OBJC_IVAR_$_SSKDisplayEndpointHostComponent._delegate
+- _OBJC_IVAR_$_SSKDisplayMonitor._connectedIdentityToRecordMap
+- _OBJC_IVAR_$_SSKDisplayMonitor._delegate
+- _OBJC_IVAR_$_SSKDisplayMonitor._displayManager
+- _OBJC_IVAR_$_SSKDisplayMonitor._lock
+- _OBJC_IVAR_$_SSKDisplayMonitor._lock_observers
+- _OBJC_IVAR_$_SSKDisplayProfile._delegate
+- _OBJC_IVAR_$_SSKDisplayProfile._displayTransformer
+- _OBJC_IVAR_$_SSKDisplayProfile._priorityLevel
+- _OBJC_IVAR_$_SSKDisplayProfile._provider
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._ConfigBuilderClass
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._assertionCoordinator
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._assertionCoordinatorPolicy
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._displayMonitor
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._lock
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._lock_rootDisplayDrivers
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._registeredProfiles
+- _OBJC_IVAR_$_SSKDisplayProfileRegistry._transformerRegistryToken
+- _OBJC_IVAR_$_SSKDisplaySource._displayManager
+- _OBJC_IVAR_$_SSKDisplaySource._lock
+- _OBJC_IVAR_$_SSKDisplaySource._lock_observers
+- _OBJC_IVAR_$_SSKMirroredDisplayController._caDisplay
+- _OBJC_IVAR_$_SSKMirroredDisplayController._currentConfiguration
+- _OBJC_IVAR_$_SSKMirroredDisplayController._displayAssertion
+- _OBJC_IVAR_$_SSKMirroredDisplayController._displayIdentity
+- _OBJC_IVAR_$_SSKMirroredDisplayController._displayMutationQueue
+- _OBJC_IVAR_$_SSKMirroredDisplayController._lostControlOfDisplaySignal
+- _OBJC_IVAR_$_SSKMirroredDisplayController._requestedLogicalScale
+- _OBJC_IVAR_$_SSKMirroredDisplayController._requestedMode
+- _OBJC_IVAR_$_SSKMirroredDisplayController._requestedOverscanAdjustment
+- _OBJC_IVAR_$_SSKNullDisplayController._connectedDisplays
+- _OBJC_IVAR_$_SSKNullDisplayControllerProvider._createdControllers
+- _OBJC_IVAR_$_SSKNullDisplaySource._connectedIdentityToConfiguration
+- _OBJC_IVAR_$_SSKNullDisplaySource._displayObservers
+- _OBJC_IVAR_$_SSKNullDisplaySource._displayTransformer
+- _OBJC_IVAR_$_SSKNullDisplaySource._mainConfiguration
+- _OBJC_IVAR_$_SSKNullDisplaySource._mainIdentity
+- _OBJC_IVAR_$_SSKNullDisplaySource._transformScheduler
+- _OBJC_IVAR_$_SSKNullTransformerRegistry._lock
+- _OBJC_IVAR_$_SSKNullTransformerRegistry._lock_identifierToTransformers
+- _OBJC_IVAR_$_SSKRootDisplayDriver._ConfigBuilderClass
+- _OBJC_IVAR_$_SSKRootDisplayDriver._assertionCoordinator
+- _OBJC_IVAR_$_SSKRootDisplayDriver._didConnectRootIdentity
+- _OBJC_IVAR_$_SSKRootDisplayDriver._lock
+- _OBJC_IVAR_$_SSKRootDisplayDriver._lock_index_recordsByDisplay
+- _OBJC_IVAR_$_SSKRootDisplayDriver._lock_recordsByProfile
+- _OBJC_IVAR_$_SSKRootDisplayDriver._lock_seedsByProfile
+- _OBJC_IVAR_$_SSKRootDisplayDriver._rootConfiguration
+- _OBJC_IVAR_$_SSKRootDisplayDriver._rootIdentity
+- _OBJC_IVAR_$_SSKRootDisplayDriver._trackedDisplays
+- _OBJC_IVAR_$_SSKRootDisplayDriver._transformUpdater
+- _OBJC_IVAR_$_SSKRootWindowScenePresentationBinder._displayConfiguration
+- _OBJC_IVAR_$_SSKRootWindowScenePresentationBinder._rootWindow
+- _OBJC_IVAR_$_SSKSceneHostingDisplayController._adapter
+- _OBJC_IVAR_$_SSKSceneHostingDisplayController._delegate
+- _OBJC_IVAR_$_SSKSceneHostingDisplayController._profileConfiguration
+- _OBJC_IVAR_$_SSKSceneHostingDisplayController._updateTransformsAdapter
+- _OBJC_IVAR_$_SSKSceneHostingDisplayControllerProvider._delegate
+- _OBJC_IVAR_$_SSKSceneHostingDisplayControllerProvider._profileConfigurationBox
+- _OBJC_IVAR_$_SSKSeededDisplayConfigurationBuilder._builder
+- _OBJC_IVAR_$_SSKSeededDisplayConfigurationBuilder._seed
+- _OBJC_IVAR_$__SSKDisplayAssertionStack._activated
+- _OBJC_IVAR_$__SSKDisplayAssertionStack._assertionControlPreferences
+- _OBJC_IVAR_$__SSKDisplayAssertionStack._delegate
+- _OBJC_IVAR_$__SSKDisplayAssertionStack._invalidated
+- _OBJC_IVAR_$__SSKDisplayAssertionStack._rootIdentity
+- _OBJC_IVAR_$__SSKDisplayMonitorIdentityRecord._connectedAtInit
+- _OBJC_IVAR_$__SSKDisplayMonitorIdentityRecord._displayIdentity
+- _OBJC_METACLASS_$_SSKDisplayAssertion
+- _OBJC_METACLASS_$_SSKDisplayAssertionCoordinator
+- _OBJC_METACLASS_$_SSKDisplayAssertionCoordinatorPolicy
+- _OBJC_METACLASS_$_SSKDisplayAssertionPreferences
+- _OBJC_METACLASS_$_SSKDisplayDriverRecord
+- _OBJC_METACLASS_$_SSKDisplayEndpointClientComponent
+- _OBJC_METACLASS_$_SSKDisplayEndpointHostComponent
+- _OBJC_METACLASS_$_SSKDisplayMonitor
+- _OBJC_METACLASS_$_SSKDisplayProfileConfiguration
+- _OBJC_METACLASS_$_SSKDisplaySource
+- _OBJC_METACLASS_$_SSKLegacyDisplayProfileBuilder
+- _OBJC_METACLASS_$_SSKMirroredDisplayController
+- _OBJC_METACLASS_$_SSKMirroredDisplayControllerProvider
+- _OBJC_METACLASS_$_SSKMirroredDisplayTransformer
+- _OBJC_METACLASS_$_SSKNullDisplayController
+- _OBJC_METACLASS_$_SSKNullDisplayControllerProvider
+- _OBJC_METACLASS_$_SSKNullDisplaySource
+- _OBJC_METACLASS_$_SSKNullTransformerRegistry
+- _OBJC_METACLASS_$_SSKRootDisplayDriver
+- _OBJC_METACLASS_$_SSKRootWindowScenePresentationBinder
+- _OBJC_METACLASS_$_SSKSceneHostingDisplayController
+- _OBJC_METACLASS_$_SSKSceneHostingDisplayControllerAdapter
+- _OBJC_METACLASS_$_SSKSceneHostingDisplayControllerProvider
+- _OBJC_METACLASS_$_SSKSeededDisplayConfigurationBuilder
+- _OBJC_METACLASS_$_SSKShellSceneKitExtension
+- _OBJC_METACLASS_$_SSKUpdateDisplayTransformsAdapter
+- _OBJC_METACLASS_$__SSKDisplayAssertionStack
+- _OBJC_METACLASS_$__SSKDisplayMonitorIdentityRecord
+- _OBJC_METACLASS_$__TtC13ShellSceneKit26FBScenePresentableObserver
+- _OBJC_METACLASS_$__TtCC13ShellSceneKit24RootWindowDisplayBlankerP33_0643C91F8C325C0A70278AB1F0B65E8F21SSKRootBlankingWindow
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _OUTLINED_FUNCTION_3
+- _OUTLINED_FUNCTION_4
+- _OUTLINED_FUNCTION_5
+- _OUTLINED_FUNCTION_6
+- _SSKCADifferenceMaskCalculate
+- _SSKCADifferenceMaskCalculate.cold.1
+- _SSKCADisplayDifferenceMaskDescription
+- _SSKCADisplayDifferenceMaskHasDifference
+- _SSKDisplayCloneMirroringModeDescription
+- _SSKDisplayDriverDisplayAwaitingDisconnect
+- _SSKDisplayDriverDisplayConnected
+- _SSKDisplayDriverDisplayTransformed
+- _SSKDisplayDriverProfileAdded
+- _SSKDisplayPriorityInternalMirroring
+- _SSKDisplaysShareRoot
+- _SSKExtractFromBuilder
+- _SSKExtractFromBuilder.cold.1
+- _SSKExtractFromBuilder.cold.2
+- _SSKLogDisplayAssertions
+- _SSKLogDisplayAssertions.__logObj
+- _SSKLogDisplayAssertions.cold.1
+- _SSKLogDisplayAssertions.onceToken
+- _SSKLogDisplayControlling
+- _SSKLogDisplayControlling.__logObj
+- _SSKLogDisplayControlling.cold.1
+- _SSKLogDisplayControlling.onceToken
+- _SSKLogDisplayMonitor
+- _SSKLogDisplayMonitor.__logObj
+- _SSKLogDisplayMonitor.cold.1
+- _SSKLogDisplayMonitor.onceToken
+- _SSKLogDisplayTransforming
+- _SSKLogDisplayTransforming.__logObj
+- _SSKLogDisplayTransforming.cold.1
+- _SSKLogDisplayTransforming.onceToken
+- _SSKLogRootDisplayDriver
+- _SSKLogRootDisplayDriver.__logObj
+- _SSKLogRootDisplayDriver.cold.1
+- _SSKLogRootDisplayDriver.onceToken
+- __Block_object_dispose
+- __DATA_SSKDisplayProfileConfiguration
+- __DATA_SSKLegacyDisplayProfileBuilder
+- __DATA_SSKMirroredDisplayTransformer
+- __DATA_SSKSceneHostingDisplayControllerAdapter
+- __DATA_SSKUpdateDisplayTransformsAdapter
+- __DATA__TtC13ShellSceneKit18FBScenePresentable
+- __DATA__TtC13ShellSceneKit24RootWindowDisplayBlanker
+- __DATA__TtC13ShellSceneKit26FBScenePresentableObserver
+- __DATA__TtC13ShellSceneKit26FBScenePresentableProvider
+- __DATA__TtCC13ShellSceneKit24RootWindowDisplayBlankerP33_0643C91F8C325C0A70278AB1F0B65E8F21SSKRootBlankingWindow
+- __INSTANCE_METHODS_SSKLegacyDisplayProfileBuilder
+- __INSTANCE_METHODS_SSKMirroredDisplayTransformer
+- __INSTANCE_METHODS__TtCC13ShellSceneKit24RootWindowDisplayBlankerP33_0643C91F8C325C0A70278AB1F0B65E8F21SSKRootBlankingWindow
+- __IVARS_SSKDisplayProfileConfiguration
+- __IVARS_SSKLegacyDisplayProfileBuilder
+- __IVARS_SSKSceneHostingDisplayControllerAdapter
+- __IVARS_SSKUpdateDisplayTransformsAdapter
+- __IVARS__TtC13ShellSceneKit14DisplayUpdater
+- __IVARS__TtC13ShellSceneKit17DemuxingPresenter
+- __IVARS__TtC13ShellSceneKit18FBScenePresentable
+- __IVARS__TtC13ShellSceneKit22HostingGroupController
+- __IVARS__TtC13ShellSceneKit22UISceneBinderPresenter
+- __IVARS__TtC13ShellSceneKit23HostingGroupCoordinator
+- __IVARS__TtC13ShellSceneKit23RecursiveDisplayBlanker
+- __IVARS__TtC13ShellSceneKit24RootWindowDisplayBlanker
+- __IVARS__TtC13ShellSceneKit26FBScenePresentableObserver
+- __IVARS__TtC13ShellSceneKit26FBScenePresentableProvider
+- __METACLASS_DATA_SSKDisplayProfileConfiguration
+- __METACLASS_DATA_SSKLegacyDisplayProfileBuilder
+- __METACLASS_DATA_SSKMirroredDisplayTransformer
+- __METACLASS_DATA_SSKSceneHostingDisplayControllerAdapter
+- __METACLASS_DATA_SSKUpdateDisplayTransformsAdapter
+- __METACLASS_DATA__TtC13ShellSceneKit18FBScenePresentable
+- __METACLASS_DATA__TtC13ShellSceneKit24RootWindowDisplayBlanker
+- __METACLASS_DATA__TtC13ShellSceneKit26FBScenePresentableObserver
+- __METACLASS_DATA__TtC13ShellSceneKit26FBScenePresentableProvider
+- __METACLASS_DATA__TtCC13ShellSceneKit24RootWindowDisplayBlankerP33_0643C91F8C325C0A70278AB1F0B65E8F21SSKRootBlankingWindow
+- __NSConcreteGlobalBlock
+- __NSFullMethodName
+- __OBJC_$_CATEGORY_FBSDisplayConfigurationBuilder_$_ShellSceneKit
+- __OBJC_$_CATEGORY_FBSDisplayConfiguration_$_SSKDisplayMonitorCallbackLogging
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_FBSDisplayConfiguration_$_SSKDisplayMonitorCallbackLogging
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_FBSScene_$_ShellSceneKit
+- __OBJC_$_CLASS_METHODS_SSKDisplayEndpointClientComponent
+- __OBJC_$_CLASS_METHODS_SSKDisplayEndpointHostComponent
+- __OBJC_$_CLASS_METHODS_SSKDisplayMonitor
+- __OBJC_$_CLASS_METHODS_SSKDisplayProfile
+- __OBJC_$_CLASS_METHODS_SSKShellSceneKitExtension
+- __OBJC_$_CLASS_PROP_LIST_SSKDisplayEndpointClientComponent
+- __OBJC_$_CLASS_PROP_LIST_SSKDisplayEndpointHostComponent
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayAssertion
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayAssertionCoordinator
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayAssertionPreferences
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayDriverRecord
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayEndpointClientComponent
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayEndpointHostComponent
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayMonitor(FBDisplayManager)
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayProfile
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayProfileConfiguration(ShellSceneKit)
+- __OBJC_$_INSTANCE_METHODS_SSKDisplayProfileRegistry
+- __OBJC_$_INSTANCE_METHODS_SSKDisplaySource
+- __OBJC_$_INSTANCE_METHODS_SSKMirroredDisplayController
+- __OBJC_$_INSTANCE_METHODS_SSKMirroredDisplayControllerProvider
+- __OBJC_$_INSTANCE_METHODS_SSKNullDisplayController
+- __OBJC_$_INSTANCE_METHODS_SSKNullDisplayControllerProvider
+- __OBJC_$_INSTANCE_METHODS_SSKNullDisplaySource
+- __OBJC_$_INSTANCE_METHODS_SSKNullTransformerRegistry
+- __OBJC_$_INSTANCE_METHODS_SSKRootDisplayDriver
+- __OBJC_$_INSTANCE_METHODS_SSKRootWindowScenePresentationBinder
+- __OBJC_$_INSTANCE_METHODS_SSKSceneHostingDisplayController
+- __OBJC_$_INSTANCE_METHODS_SSKSceneHostingDisplayControllerAdapter(ShellSceneKit|ShellSceneKit1)
+- __OBJC_$_INSTANCE_METHODS_SSKSceneHostingDisplayControllerProvider
+- __OBJC_$_INSTANCE_METHODS_SSKSeededDisplayConfigurationBuilder
+- __OBJC_$_INSTANCE_METHODS_SSKUpdateDisplayTransformsAdapter(ShellSceneKit)
+- __OBJC_$_INSTANCE_METHODS__SSKDisplayAssertionStack
+- __OBJC_$_INSTANCE_METHODS__SSKDisplayMonitorIdentityRecord
+- __OBJC_$_INSTANCE_METHODS__TtC13ShellSceneKit26FBScenePresentableObserver(ShellSceneKit)
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayAssertion
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayAssertionCoordinator
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayAssertionPreferences
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayDriverRecord
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayEndpointClientComponent
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayEndpointHostComponent
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayMonitor
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayProfile
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplayProfileRegistry
+- __OBJC_$_INSTANCE_VARIABLES_SSKDisplaySource
+- __OBJC_$_INSTANCE_VARIABLES_SSKMirroredDisplayController
+- __OBJC_$_INSTANCE_VARIABLES_SSKNullDisplayController
+- __OBJC_$_INSTANCE_VARIABLES_SSKNullDisplayControllerProvider
+- __OBJC_$_INSTANCE_VARIABLES_SSKNullDisplaySource
+- __OBJC_$_INSTANCE_VARIABLES_SSKNullTransformerRegistry
+- __OBJC_$_INSTANCE_VARIABLES_SSKRootDisplayDriver
+- __OBJC_$_INSTANCE_VARIABLES_SSKRootWindowScenePresentationBinder
+- __OBJC_$_INSTANCE_VARIABLES_SSKSceneHostingDisplayController
+- __OBJC_$_INSTANCE_VARIABLES_SSKSceneHostingDisplayControllerProvider
+- __OBJC_$_INSTANCE_VARIABLES_SSKSeededDisplayConfigurationBuilder
+- __OBJC_$_INSTANCE_VARIABLES__SSKDisplayAssertionStack
+- __OBJC_$_INSTANCE_VARIABLES__SSKDisplayMonitorIdentityRecord
+- __OBJC_$_PROP_LIST_SSKDisplayAssertion
+- __OBJC_$_PROP_LIST_SSKDisplayAssertionCoordinator
+- __OBJC_$_PROP_LIST_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_$_PROP_LIST_SSKDisplayAssertionPreferences
+- __OBJC_$_PROP_LIST_SSKDisplayDriverRecord
+- __OBJC_$_PROP_LIST_SSKDisplayEndpointClientComponent
+- __OBJC_$_PROP_LIST_SSKDisplayEndpointClientSettings
+- __OBJC_$_PROP_LIST_SSKDisplayEndpointHostComponent
+- __OBJC_$_PROP_LIST_SSKDisplayEndpointProviding
+- __OBJC_$_PROP_LIST_SSKDisplayEndpointSettings
+- __OBJC_$_PROP_LIST_SSKDisplayProfile
+- __OBJC_$_PROP_LIST_SSKDisplayProfileRegistry
+- __OBJC_$_PROP_LIST_SSKDisplaySource
+- __OBJC_$_PROP_LIST_SSKDisplaySourcing
+- __OBJC_$_PROP_LIST_SSKMirroredDisplayController
+- __OBJC_$_PROP_LIST_SSKMirroredDisplayControllerProvider
+- __OBJC_$_PROP_LIST_SSKNullDisplayController
+- __OBJC_$_PROP_LIST_SSKNullDisplayControllerProvider
+- __OBJC_$_PROP_LIST_SSKNullDisplaySource
+- __OBJC_$_PROP_LIST_SSKNullTransformerRegistry
+- __OBJC_$_PROP_LIST_SSKRootDisplayDriver
+- __OBJC_$_PROP_LIST_SSKRootWindowScenePresentationBinder
+- __OBJC_$_PROP_LIST_SSKSceneHostingDisplayController
+- __OBJC_$_PROP_LIST_SSKSceneHostingDisplayControllerProvider
+- __OBJC_$_PROP_LIST__SSKDisplayAssertionStack
+- __OBJC_$_PROP_LIST__SSKDisplayMonitorIdentityRecord
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplayAssertionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplayControlling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplayEndpointSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplayMonitorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplayMonitorObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SSKDisplaySourceObserving
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayAssertionCoordinatorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayAssertionDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayAssertionProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayConfigurationBuilding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayControllerProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayControlling
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayEndpointClientSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayEndpointProviding
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayEndpointSettings
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplaySourcing
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKDisplayTransformUpdating
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKSceneHostingDisplayControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_SSKSceneHostingDisplayControllerProviderDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__SSKDisplayAssertionStackDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayAssertionCoordinatorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayAssertionDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayAssertionProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayConfigurationBuilding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayControllerProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayControlling
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayEndpointClientSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayEndpointProviding
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayEndpointSettings
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayMonitorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayMonitorObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplaySourceObserving
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplaySourcing
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKDisplayTransformUpdating
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKSceneHostingDisplayControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_SSKSceneHostingDisplayControllerProviderDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES__SSKDisplayAssertionStackDelegate
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayAssertionCoordinatorDelegate
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayAssertionDelegate
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayAssertionProviding
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayControllerProviding
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayControlling
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayEndpointClientSettings
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayEndpointProviding
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayEndpointSettings
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayMonitorDelegate
+- __OBJC_$_PROTOCOL_REFS_SSKDisplayMonitorObserver
+- __OBJC_$_PROTOCOL_REFS_SSKDisplaySourceObserving
+- __OBJC_$_PROTOCOL_REFS_SSKDisplaySourcing
+- __OBJC_$_PROTOCOL_REFS_SSKSceneHostingDisplayControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_SSKSceneHostingDisplayControllerProviderDelegate
+- __OBJC_$_PROTOCOL_REFS__SSKDisplayAssertionStackDelegate
+- __OBJC_CATEGORY_PROTOCOLS_$_FBSDisplayConfigurationBuilder_$_ShellSceneKit
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayAssertionCoordinator
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayAssertionPreferences
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayDriverRecord
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayEndpointClientComponent
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayEndpointHostComponent
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayMonitor(FBDisplayManager)
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayProfile
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayProfileConfiguration(ShellSceneKit)
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplayProfileRegistry
+- __OBJC_CLASS_PROTOCOLS_$_SSKDisplaySource
+- __OBJC_CLASS_PROTOCOLS_$_SSKMirroredDisplayController
+- __OBJC_CLASS_PROTOCOLS_$_SSKMirroredDisplayControllerProvider
+- __OBJC_CLASS_PROTOCOLS_$_SSKNullDisplayController
+- __OBJC_CLASS_PROTOCOLS_$_SSKNullDisplayControllerProvider
+- __OBJC_CLASS_PROTOCOLS_$_SSKNullDisplaySource
+- __OBJC_CLASS_PROTOCOLS_$_SSKNullTransformerRegistry
+- __OBJC_CLASS_PROTOCOLS_$_SSKRootDisplayDriver
+- __OBJC_CLASS_PROTOCOLS_$_SSKSceneHostingDisplayController
+- __OBJC_CLASS_PROTOCOLS_$_SSKSceneHostingDisplayControllerAdapter(ShellSceneKit|ShellSceneKit1)
+- __OBJC_CLASS_PROTOCOLS_$_SSKSceneHostingDisplayControllerProvider
+- __OBJC_CLASS_PROTOCOLS_$_SSKSeededDisplayConfigurationBuilder
+- __OBJC_CLASS_PROTOCOLS_$__SSKDisplayAssertionStack
+- __OBJC_CLASS_PROTOCOLS_$__TtC13ShellSceneKit26FBScenePresentableObserver(ShellSceneKit)
+- __OBJC_CLASS_RO_$_SSKDisplayAssertion
+- __OBJC_CLASS_RO_$_SSKDisplayAssertionCoordinator
+- __OBJC_CLASS_RO_$_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_CLASS_RO_$_SSKDisplayAssertionPreferences
+- __OBJC_CLASS_RO_$_SSKDisplayDriverRecord
+- __OBJC_CLASS_RO_$_SSKDisplayEndpointClientComponent
+- __OBJC_CLASS_RO_$_SSKDisplayEndpointHostComponent
+- __OBJC_CLASS_RO_$_SSKDisplayMonitor
+- __OBJC_CLASS_RO_$_SSKDisplayProfile
+- __OBJC_CLASS_RO_$_SSKDisplayProfileRegistry
+- __OBJC_CLASS_RO_$_SSKDisplaySource
+- __OBJC_CLASS_RO_$_SSKMirroredDisplayController
+- __OBJC_CLASS_RO_$_SSKMirroredDisplayControllerProvider
+- __OBJC_CLASS_RO_$_SSKNullDisplayController
+- __OBJC_CLASS_RO_$_SSKNullDisplayControllerProvider
+- __OBJC_CLASS_RO_$_SSKNullDisplaySource
+- __OBJC_CLASS_RO_$_SSKNullTransformerRegistry
+- __OBJC_CLASS_RO_$_SSKRootDisplayDriver
+- __OBJC_CLASS_RO_$_SSKRootWindowScenePresentationBinder
+- __OBJC_CLASS_RO_$_SSKSceneHostingDisplayController
+- __OBJC_CLASS_RO_$_SSKSceneHostingDisplayControllerProvider
+- __OBJC_CLASS_RO_$_SSKSeededDisplayConfigurationBuilder
+- __OBJC_CLASS_RO_$_SSKShellSceneKitExtension
+- __OBJC_CLASS_RO_$__SSKDisplayAssertionStack
+- __OBJC_CLASS_RO_$__SSKDisplayMonitorIdentityRecord
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayAssertionCoordinatorDelegate
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayAssertionDelegate
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayAssertionProviding
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayConfigurationBuilding
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayControllerProviding
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayControlling
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayEndpointClientSettings
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayEndpointProviding
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayEndpointSettings
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayMonitorDelegate
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayMonitorObserver
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplaySourceObserving
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplaySourcing
+- __OBJC_LABEL_PROTOCOL_$_SSKDisplayTransformUpdating
+- __OBJC_LABEL_PROTOCOL_$_SSKSceneHostingDisplayControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_SSKSceneHostingDisplayControllerProviderDelegate
+- __OBJC_LABEL_PROTOCOL_$__SSKDisplayAssertionStackDelegate
+- __OBJC_METACLASS_RO_$_SSKDisplayAssertion
+- __OBJC_METACLASS_RO_$_SSKDisplayAssertionCoordinator
+- __OBJC_METACLASS_RO_$_SSKDisplayAssertionCoordinatorPolicy
+- __OBJC_METACLASS_RO_$_SSKDisplayAssertionPreferences
+- __OBJC_METACLASS_RO_$_SSKDisplayDriverRecord
+- __OBJC_METACLASS_RO_$_SSKDisplayEndpointClientComponent
+- __OBJC_METACLASS_RO_$_SSKDisplayEndpointHostComponent
+- __OBJC_METACLASS_RO_$_SSKDisplayMonitor
+- __OBJC_METACLASS_RO_$_SSKDisplayProfile
+- __OBJC_METACLASS_RO_$_SSKDisplayProfileRegistry
+- __OBJC_METACLASS_RO_$_SSKDisplaySource
+- __OBJC_METACLASS_RO_$_SSKMirroredDisplayController
+- __OBJC_METACLASS_RO_$_SSKMirroredDisplayControllerProvider
+- __OBJC_METACLASS_RO_$_SSKNullDisplayController
+- __OBJC_METACLASS_RO_$_SSKNullDisplayControllerProvider
+- __OBJC_METACLASS_RO_$_SSKNullDisplaySource
+- __OBJC_METACLASS_RO_$_SSKNullTransformerRegistry
+- __OBJC_METACLASS_RO_$_SSKRootDisplayDriver
+- __OBJC_METACLASS_RO_$_SSKRootWindowScenePresentationBinder
+- __OBJC_METACLASS_RO_$_SSKSceneHostingDisplayController
+- __OBJC_METACLASS_RO_$_SSKSceneHostingDisplayControllerProvider
+- __OBJC_METACLASS_RO_$_SSKSeededDisplayConfigurationBuilder
+- __OBJC_METACLASS_RO_$_SSKShellSceneKitExtension
+- __OBJC_METACLASS_RO_$__SSKDisplayAssertionStack
+- __OBJC_METACLASS_RO_$__SSKDisplayMonitorIdentityRecord
+- __OBJC_PROTOCOL_$_SSKDisplayAssertionCoordinatorDelegate
+- __OBJC_PROTOCOL_$_SSKDisplayAssertionDelegate
+- __OBJC_PROTOCOL_$_SSKDisplayAssertionProviding
+- __OBJC_PROTOCOL_$_SSKDisplayConfigurationBuilding
+- __OBJC_PROTOCOL_$_SSKDisplayControllerProviding
+- __OBJC_PROTOCOL_$_SSKDisplayControlling
+- __OBJC_PROTOCOL_$_SSKDisplayEndpointClientSettings
+- __OBJC_PROTOCOL_$_SSKDisplayEndpointProviding
+- __OBJC_PROTOCOL_$_SSKDisplayEndpointSettings
+- __OBJC_PROTOCOL_$_SSKDisplayMonitorDelegate
+- __OBJC_PROTOCOL_$_SSKDisplayMonitorObserver
+- __OBJC_PROTOCOL_$_SSKDisplaySourceObserving
+- __OBJC_PROTOCOL_$_SSKDisplaySourcing
+- __OBJC_PROTOCOL_$_SSKDisplayTransformUpdating
+- __OBJC_PROTOCOL_$_SSKSceneHostingDisplayControllerDelegate
+- __OBJC_PROTOCOL_$_SSKSceneHostingDisplayControllerProviderDelegate
+- __OBJC_PROTOCOL_$__SSKDisplayAssertionStackDelegate
+- __OBJC_PROTOCOL_REFERENCE_$_SSKDisplayConfigurationBuilding
+- __OBJC_PROTOCOL_REFERENCE_$_SSKDisplayEndpointClientSettings
+- __OBJC_PROTOCOL_REFERENCE_$_SSKDisplayEndpointSettings
+- __PROPERTIES_SSKMirroredDisplayTransformer
+- __PROPERTIES_SSKSceneHostingDisplayControllerAdapter
+- __PROTOCOLS_SSKLegacyDisplayProfileBuilder
+- __PROTOCOLS_SSKLegacyDisplayProfileBuilder.10
+- __PROTOCOLS_SSKMirroredDisplayTransformer
+- __PROTOCOLS_SSKMirroredDisplayTransformer.2
+- __PROTOCOL_INSTANCE_METHODS_SSKDisplayConfigurationBuilding
+- __PROTOCOL_INSTANCE_METHODS_SSKDisplayControllerTransforming
+- __PROTOCOL_INSTANCE_METHODS_SSKDisplayTransformUpdating
+- __PROTOCOL_METHOD_TYPES_SSKDisplayConfigurationBuilding
+- __PROTOCOL_METHOD_TYPES_SSKDisplayControllerTransforming
+- __PROTOCOL_METHOD_TYPES_SSKDisplayTransformUpdating
+- __PROTOCOL_PROPERTIES_SSKDisplayControllerTransforming
+- __PROTOCOL_SSKDisplayConfigurationBuilding
+- __PROTOCOL_SSKDisplayControllerTransforming
+- __PROTOCOL_SSKDisplayTransformUpdating
+- __SSKActiveAssertion
+- __SSKDisplayControllerLoggingProem
+- __SSKLoggingMethodProem
+- __Unwind_Resume
+- ___33-[SSKDisplayMonitor addObserver:]_block_invoke
+- ___34-[SSKDisplayDriverRecord isEqual:]_block_invoke
+- ___35-[SSKRootDisplayDriver addProfile:]_block_invoke
+- ___35-[SSKRootDisplayDriver addProfile:]_block_invoke.cold.1
+- ___42-[SSKRootDisplayDriver profileForDisplay:]_block_invoke
+- ___42-[SSKRootDisplayDriver profileForDisplay:]_block_invoke.cold.1
+- ___44-[SSKNullDisplaySource initWithMainDisplay:]_block_invoke
+- ___45-[SSKRootDisplayDriver controllerForDisplay:]_block_invoke
+- ___46-[SSKRootDisplayDriver _rootDisplayConnected:]_block_invoke
+- ___50-[SSKDisplayProfile appendDescriptionToFormatter:]_block_invoke
+- ___50-[SSKDisplayProfile appendDescriptionToFormatter:]_block_invoke_2
+- ___50-[SSKDisplayProfile appendDescriptionToFormatter:]_block_invoke_3
+- ___52-[SSKSceneHostingDisplayControllerProvider isEqual:]_block_invoke
+- ___53-[SSKRootDisplayDriver appendDescriptionToFormatter:]_block_invoke
+- ___53-[SSKRootDisplayDriver appendDescriptionToFormatter:]_block_invoke_2
+- ___53-[SSKRootDisplayDriver appendDescriptionToFormatter:]_block_invoke_3
+- ___53-[SSKRootDisplayDriver appendDescriptionToFormatter:]_block_invoke_4
+- ___55-[SSKDisplayDriverRecord appendDescriptionToFormatter:]_block_invoke
+- ___55-[SSKDisplayDriverRecord appendDescriptionToFormatter:]_block_invoke_2
+- ___55-[SSKNullDisplaySource updateTransformsWithCompletion:]_block_invoke
+- ___55-[SSKNullDisplaySource updateTransformsWithCompletion:]_block_invoke_2
+- ___55-[SSKNullDisplaySource updateTransformsWithCompletion:]_block_invoke_3
+- ___58-[SSKDisplayMonitor displaySource:willDisconnectIdentity:]_block_invoke
+- ___58-[SSKDisplayMonitor displaySource:willDisconnectIdentity:]_block_invoke_2
+- ___58-[SSKDisplayProfileRegistry appendDescriptionToFormatter:]_block_invoke
+- ___58-[SSKDisplayProfileRegistry appendDescriptionToFormatter:]_block_invoke_2
+- ___60-[SSKNullTransformerRegistry addTransformer:withIdentifier:]_block_invoke
+- ___64-[SSKMirroredDisplayController _ensureCADisplayModeForMirroring]_block_invoke
+- ___64-[SSKMirroredDisplayController _ensureCADisplayModeForMirroring]_block_invoke_2
+- ___64-[SSKMirroredDisplayController _ensureCADisplayModeForMirroring]_block_invoke_2.cold.1
+- ___79-[SSKMirroredDisplayController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+- ___80-[SSKDisplayMonitor _connectToIdentity:withConfiguration:forDisplayManagerInit:]_block_invoke
+- ___83-[FBSDisplayConfiguration(SSKDisplayMonitorCallbackLogging) _flbLoggingDescription]_block_invoke
+- ___Block_byref_object_copy_
+- ___Block_byref_object_dispose_
+- ___NSArray0__struct
+- ___SSKCADisplayDifferenceMaskDescription_block_invoke
+- ___SSKLogDisplayAssertions_block_invoke
+- ___SSKLogDisplayControlling_block_invoke
+- ___SSKLogDisplayMonitor_block_invoke
+- ___SSKLogDisplayTransforming_block_invoke
+- ___SSKLogRootDisplayDriver_block_invoke
+- ___block_descriptor_32_e14_v16?0?<v?>8l
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_40_e8_32bs_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32r_e32_v16?0"SSKDisplayDriverRecord"8lr32l8
+- ___block_descriptor_40_e8_32s_e53_v24?0"FBSDisplayIdentity"8"SSKRootDisplayDriver"16ls32l8
+- ___block_descriptor_40_e8_32s_e8_v16?08ls32l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e15_v16?0"NSSet"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e15_v28?0Q8i16^B20ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e27_v16?0"BSSimpleAssertion"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e27_v16?0"SSKDisplayProfile"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40w_e27_v16?0"BSSimpleAssertion"8lw40l8s32l8
+- ___block_descriptor_48_e8_32s40w_e5_v8?0lw40l8s32l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32s40r_e32_v16?0"SSKDisplayDriverRecord"8lr40l8s32l8
+- ___block_descriptor_56_e8_32s40s48s_e15_v16?0"NSSet"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
+- ___block_descriptor_65_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_96_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_literal_global
+- ___block_literal_global.10
+- ___block_literal_global.13
+- ___block_literal_global.16
+- ___block_literal_global.7
+- ___objc_personality_v0
+- ___swift_destroy_boxed_opaque_existential_0Tm
+- ___swift_memcpy0_1
+- ___swift_memcpy8_8
+- ___unnamed_3
+- __bs_set_crash_log_message
+- __dispatch_main_q
+- __os_log_debug_impl
+- __os_log_default
+- __os_log_error_impl
+- __os_log_fault_impl
+- __os_signpost_emit_with_name_impl
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_ShellSceneKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_ShellSceneKit
+- __swift_isClassOrObjCExistentialType
+- _associated conformance 13ShellSceneKit0B31HostingDisplayControllerAdapterC22WorkspaceDelegateError33_F70718E11C443F219815B64AA8D49B5CLLOSHAASQ
+- _associated conformance 13ShellSceneKit22DisplayActivationStateOSHAASQ
+- _associated conformance 13ShellSceneKit22HostingGroupControllerCyxq_GAA0dE11ControllingAA9PresentedAaEP_AA11Presentable
+- _associated conformance 13ShellSceneKit24RootWindowDisplayBlankerC5State33_0643C91F8C325C0A70278AB1F0B65E8FLLOSHAASQ
+- _associated conformance 13ShellSceneKit26FBScenePresentableProviderCAA0E9ProvidingAA9PresentedAaDP_AA0E0
+- _associated conformance 13ShellSceneKit30HostingGroupControllerProviderVyxq_GAA0eF9ProvidingAA0F0AaEP_AA0dE11Controlling
+- _associated conformance So23FBSDisplayConfigurationC13ShellSceneKit19HostingIdentifiableAC2IDAcDP_SH
+- _associated conformance So9CADisplayC13ShellSceneKit16UpdatableDisplayAC13UpdateRequestAcDP_SQ
+- _block_copy_helper.10
+- _block_copy_helper.35
+- _block_copy_helper.64
+- _block_copy_helper.89
+- _block_copy_helper.95
+- _block_descriptor.12
+- _block_descriptor.37
+- _block_descriptor.66
+- _block_descriptor.91
+- _block_descriptor.97
+- _block_destroy_helper.11
+- _block_destroy_helper.36
+- _block_destroy_helper.65
+- _block_destroy_helper.90
+- _block_destroy_helper.96
+- _dispatch_after
+- _dispatch_async
+- _dispatch_once
+- _dispatch_time
+- _flat unique 13ShellSceneKit10Presenting_pq_7ContentAaBPRts_x13DisplayConfigAA0F14UpdateTrackingPRtsXP
+- _flat unique So27SSKDisplayTransformUpdating_p
+- _keypath_get_selector_caDisplay
+- _objc_alloc
+- _objc_alloc_init
+- _objc_begin_catch
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_end_catch
+- _objc_enumerationMutation
+- _objc_exception_rethrow
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSend$CADisplay
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_assertion:updatedPreferences:
+- _objc_msgSend$_assertionDidInvalidate:
+- _objc_msgSend$_connectToIdentity:withConfiguration:forDisplayManagerInit:
+- _objc_msgSend$_createDisplayAssertionStackForRootDisplay:
+- _objc_msgSend$_derivedDisplayConnected:
+- _objc_msgSend$_didGainControlOfDisplay
+- _objc_msgSend$_didInvalidateForDisplayDisconnect
+- _objc_msgSend$_didLoseControlOfDisplay
+- _objc_msgSend$_ensureCADisplayModeForMirroring
+- _objc_msgSend$_evalAndApplyOldPreferences:newPreferences:
+- _objc_msgSend$_evaluateForPhysicalDisplay:driver:profile:
+- _objc_msgSend$_flbLoggingDescription
+- _objc_msgSend$_initWithPhysicalDisplay:level:assertionStack:delegate:
+- _objc_msgSend$_performWithRecordForDisplay:block:
+- _objc_msgSend$_rootDisplayConnected:
+- _objc_msgSend$_setCloneMirroringMode:forDisplay:
+- _objc_msgSend$_setDisplayArrangementItem:forDisplay:
+- _objc_msgSend$_updateDisplayAssertion
+- _objc_msgSend$acquireAssertionForDisplay:level:delegate:
+- _objc_msgSend$activateAssertionsForDisplay:
+- _objc_msgSend$addObject:
+- _objc_msgSend$addObserver:
+- _objc_msgSend$addObserver:forKeyPath:options:context:
+- _objc_msgSend$addProfile:
+- _objc_msgSend$addTransformer:withIdentifier:
+- _objc_msgSend$allKeys
+- _objc_msgSend$allValues
+- _objc_msgSend$appendBodySectionWithName:block:
+- _objc_msgSend$appendBodySectionWithName:multilinePrefix:block:
+- _objc_msgSend$appendBool:
+- _objc_msgSend$appendBool:withName:
+- _objc_msgSend$appendBool:withName:ifEqualTo:
+- _objc_msgSend$appendCollection:withName:itemBlock:
+- _objc_msgSend$appendDictionary:withName:itemBlock:
+- _objc_msgSend$appendPointer:withName:
+- _objc_msgSend$appendRect:withName:
+- _objc_msgSend$appendSize:withName:
+- _objc_msgSend$appendString:
+- _objc_msgSend$appendUnsignedInteger:
+- _objc_msgSend$appendUnsignedInteger:withName:
+- _objc_msgSend$array
+- _objc_msgSend$arrayWithCapacity:
+- _objc_msgSend$arrayWithObjects:count:
+- _objc_msgSend$assertion
+- _objc_msgSend$assertionCoordinator:updatedAssertionPreferences:oldPreferences:forDisplay:
+- _objc_msgSend$assertionStack:updatedAssertionPreferences:oldPreferences:
+- _objc_msgSend$associateController:assertion:
+- _objc_msgSend$associateDisplay:
+- _objc_msgSend$beginMonitoringForExternalDisplays
+- _objc_msgSend$bounds
+- _objc_msgSend$build
+- _objc_msgSend$buildConfigurationWithError:
+- _objc_msgSend$builderWithObject:
+- _objc_msgSend$cloneMirroringMode
+- _objc_msgSend$componentForExtension:ofClass:
+- _objc_msgSend$configurationForIdentity:
+- _objc_msgSend$conformsToProtocol:
+- _objc_msgSend$connectDisplay:
+- _objc_msgSend$connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:
+- _objc_msgSend$connectedIdentities
+- _objc_msgSend$connectionSeed
+- _objc_msgSend$containsObject:
+- _objc_msgSend$controller
+- _objc_msgSend$copy
+- _objc_msgSend$count
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$createDisplayProfileConfiguration
+- _objc_msgSend$currentHandler
+- _objc_msgSend$currentMode
+- _objc_msgSend$derivesDisplays
+- _objc_msgSend$description
+- _objc_msgSend$deviceName
+- _objc_msgSend$dictionary
+- _objc_msgSend$didConnectAtInit
+- _objc_msgSend$disconnectDisplay:
+- _objc_msgSend$displayArrangement
+- _objc_msgSend$displayAssertionDidGainControlOfDisplay:
+- _objc_msgSend$displayAssertionDidInvalidate:
+- _objc_msgSend$displayAssertionDidLoseControlOfDisplay:
+- _objc_msgSend$displayConfiguration
+- _objc_msgSend$displayConnected:
+- _objc_msgSend$displayControllerForDisplay:configuration:
+- _objc_msgSend$displayDisconnected:
+- _objc_msgSend$displayIdentity
+- _objc_msgSend$displayIdentityDidDisconnect:
+- _objc_msgSend$displayIdentityDidUpdate:configuration:
+- _objc_msgSend$displayMonitor:didConnectIdentity:withConfiguration:
+- _objc_msgSend$displayMonitor:didDisconnectIdentity:
+- _objc_msgSend$displayMonitor:didUpdateIdentity:withConfiguration:
+- _objc_msgSend$displayMonitor:willDisconnectIdentity:
+- _objc_msgSend$displayProfile:modifyInitialSceneParameters:
+- _objc_msgSend$displayProfile:rootSceneWindowForDisplayConfiguration:
+- _objc_msgSend$displayProfile:shouldConnectToDisplay:
+- _objc_msgSend$displaySource:didConnectIdentity:withConfiguration:
+- _objc_msgSend$displaySource:didUpdateIdentity:withConfiguration:
+- _objc_msgSend$displaySource:willDisconnectIdentity:
+- _objc_msgSend$displayUpdated:
+- _objc_msgSend$dissociateFromController
+- _objc_msgSend$edge
+- _objc_msgSend$evaluatePhysicalDisplay:
+- _objc_msgSend$gainedControl
+- _objc_msgSend$generateSeed
+- _objc_msgSend$handleFailureInFunction:file:lineNumber:description:
+- _objc_msgSend$handleFailureInMethod:object:file:lineNumber:description:
+- _objc_msgSend$hardwareIdentifier
+- _objc_msgSend$hasBeenSignalled
+- _objc_msgSend$hasControlOfDisplay
+- _objc_msgSend$identity
+- _objc_msgSend$immutableCADisplay
+- _objc_msgSend$initWithConfiguration:
+- _objc_msgSend$initWithConfiguration:displayIdentity:displayConfiguration:updateTransformsAdapter:
+- _objc_msgSend$initWithDisplayConfiguration:displayTransformUpdater:
+- _objc_msgSend$initWithDisplayManager:
+- _objc_msgSend$initWithDisplayMonitor:
+- _objc_msgSend$initWithDisplaySource:
+- _objc_msgSend$initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:
+- _objc_msgSend$initWithDisplayUUID:relativeToDisplayUUID:alongEdge:atOffset:
+- _objc_msgSend$initWithIdentifier:forReason:invalidationBlock:
+- _objc_msgSend$initWithIdentifier:forReason:queue:invalidationBlock:
+- _objc_msgSend$initWithIdentity:connectedAtInit:
+- _objc_msgSend$initWithKeyOptions:valueOptions:capacity:
+- _objc_msgSend$initWithPriority:displayTransformer:provider:delegate:
+- _objc_msgSend$initWithProfile:
+- _objc_msgSend$initWithProfile:rootDisplay:
+- _objc_msgSend$initWithProfileConfiguration:
+- _objc_msgSend$initWithProfileConfiguration:displayIdentity:
+- _objc_msgSend$initWithRootDisplay:delegate:
+- _objc_msgSend$initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:
+- _objc_msgSend$initWithSeed:builder:
+- _objc_msgSend$initWithSwiftConfiguration:delegate:
+- _objc_msgSend$intersectSet:
+- _objc_msgSend$invalidate
+- _objc_msgSend$invalidateAssertion:
+- _objc_msgSend$invalidateForDisplayDisconnect
+- _objc_msgSend$isEqual:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isMainDisplay
+- _objc_msgSend$isMainThread
+- _objc_msgSend$isRootIdentity
+- _objc_msgSend$isTrackingDisplays
+- _objc_msgSend$isTrackingProfile:
+- _objc_msgSend$isTrackingProfileForDisplay:
+- _objc_msgSend$isValid
+- _objc_msgSend$level
+- _objc_msgSend$logicalScale
+- _objc_msgSend$lostControl
+- _objc_msgSend$mainConfiguration
+- _objc_msgSend$mainIdentity
+- _objc_msgSend$mapTableWithKeyOptions:valueOptions:
+- _objc_msgSend$minusSet:
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$name
+- _objc_msgSend$numberWithUnsignedInteger:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$offset
+- _objc_msgSend$overscanAdjustment
+- _objc_msgSend$pixelSize
+- _objc_msgSend$pointScale
+- _objc_msgSend$preferredModeWithCriteria:
+- _objc_msgSend$priority
+- _objc_msgSend$priorityLevel
+- _objc_msgSend$profile
+- _objc_msgSend$profileForDisplay:
+- _objc_msgSend$provider:modifyInitialSceneParameters:
+- _objc_msgSend$provider:rootSceneWindowForDisplayConfiguration:
+- _objc_msgSend$queue
+- _objc_msgSend$rangeOfString:
+- _objc_msgSend$relativeDisplayIdentity
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$removeObserver:
+- _objc_msgSend$removeObserver:forKeyPath:context:
+- _objc_msgSend$removeProfile:
+- _objc_msgSend$rootDisplayDidConnect:
+- _objc_msgSend$rootDisplayDidDisconnect:
+- _objc_msgSend$rootDisplayIdentity
+- _objc_msgSend$rootIdentity
+- _objc_msgSend$sameLine:
+- _objc_msgSend$set
+- _objc_msgSend$setCloneMirroringMode:
+- _objc_msgSend$setCloningSupported:
+- _objc_msgSend$setConnectionSeed:
+- _objc_msgSend$setCurrentMode:
+- _objc_msgSend$setCurrentMode:preferredMode:otherModes:
+- _objc_msgSend$setDelegate:
+- _objc_msgSend$setDisplayArrangement:
+- _objc_msgSend$setDisplayProperties:
+- _objc_msgSend$setExpectsSecureRendering
+- _objc_msgSend$setLogicalScale:
+- _objc_msgSend$setObject:forKey:
+- _objc_msgSend$setOverscanAdjustment:
+- _objc_msgSend$setOverscanned:compensation:safeRatio:
+- _objc_msgSend$setPixelSize:nativeBounds:bounds:
+- _objc_msgSend$setPointScale:
+- _objc_msgSend$setUIKitMainLike
+- _objc_msgSend$setUniqueIdentifier:
+- _objc_msgSend$setWantsControlOfDisplay:
+- _objc_msgSend$setWithArray:
+- _objc_msgSend$setWithObject:
+- _objc_msgSend$setWithSet:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$shouldTransformConnectingDisplays
+- _objc_msgSend$signal
+- _objc_msgSend$state
+- _objc_msgSend$stringWithFormat:
+- _objc_msgSend$stringWithString:
+- _objc_msgSend$stringWithUTF8String:
+- _objc_msgSend$strongToStrongObjectsMapTable
+- _objc_msgSend$substringFromIndex:
+- _objc_msgSend$substringToIndex:
+- _objc_msgSend$supportsCloning
+- _objc_msgSend$transformDisplayConfiguration:
+- _objc_msgSend$transformPhysicalDisplayWith:
+- _objc_msgSend$transformPhysicalDisplayWithBuilder:
+- _objc_msgSend$unionSet:
+- _objc_msgSend$unsignedIntegerValue
+- _objc_msgSend$updateDisplay:
+- _objc_msgSend$updateTransformsWithCompletion:
+- _objc_msgSend$updateWithPreferences:
+- _objc_msgSend$usesRootDisplay
+- _objc_msgSend$wantsControlOfDisplay
+- _objc_msgSend$weakObjectsHashTable
+- _objc_opt_isKindOfClass
+- _objc_opt_respondsToSelector
+- _objc_retainAutorelease
+- _objc_retainBlock
+- _objc_retain_x4
+- _objc_retain_x5
+- _objc_retain_x6
+- _objc_setProperty_nonatomic_copy
+- _objc_storeWeak
+- _objc_terminate
+- _os_log_create
+- _os_signpost_enabled
+- _os_unfair_lock_assert_not_owner
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_bridgeObjectRelease_n
+- _swift_cvw_initStructMetadataWithLayoutString
+- _swift_cvw_initWithTake
+- _swift_getAssociatedConformanceWitness
+- _swift_getAssociatedTypeWitness
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getTupleTypeMetadata2
+- _swift_storeEnumTagSinglePayloadGeneric
+- _symbolic $s13ShellSceneKit10PresentingP
+- _symbolic $s13ShellSceneKit11PresentableP
+- _symbolic $s13ShellSceneKit15DisplayBlankingP
+- _symbolic $s13ShellSceneKit16UpdatableDisplayP
+- _symbolic $s13ShellSceneKit19ContentTransformingP
+- _symbolic $s13ShellSceneKit19HostingIdentifiableP
+- _symbolic $s13ShellSceneKit20PresentableProvidingP
+- _symbolic $s13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic $s13ShellSceneKit23HostingGroupControllingP
+- _symbolic $s13ShellSceneKit24DisplayTransformUpdatingP
+- _symbolic $s13ShellSceneKit24GroupControllerProvidingP
+- _symbolic $s13ShellSceneKit25DisplayActivationTrackingP
+- _symbolic $s13ShellSceneKit28DisplayConfigurationBuildingP
+- _symbolic $s13ShellSceneKit29DisplayControllerTransformingP
+- _symbolic $s13ShellSceneKit32DisplayConfigurationTransformingP
+- _symbolic 10Controller_____Qz 13ShellSceneKit24GroupControllerProvidingP
+- _symbolic 10Controller______13DisplayConfig_____QZ 13ShellSceneKit24GroupControllerProvidingP AA21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qy0_ 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qy1_ 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qy_ 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qy_ 13ShellSceneKit32DisplayConfigurationTransformingP
+- _symbolic 13DisplayConfig_____Qyd__ 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qz 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic 13DisplayConfig_____Qz 13ShellSceneKit24GroupControllerProvidingP
+- _symbolic 13UpdateRequest_____Qz 13ShellSceneKit16UpdatableDisplayP
+- _symbolic 2ID_____Qz 13ShellSceneKit19HostingIdentifiableP
+- _symbolic 7Content_____Qy_ 13ShellSceneKit11PresentableP
+- _symbolic 7Content_____Qyd__ 13ShellSceneKit10PresentingP
+- _symbolic 7Content_____Qz 13ShellSceneKit10PresentingP
+- _symbolic 9Presented_____Qz 13ShellSceneKit20PresentableProvidingP
+- _symbolic 9Presented_____Qz 13ShellSceneKit23HostingGroupControllingP
+- _symbolic B0
+- _symbolic B1
+- _symbolic G0R1_
+- _symbolic G0R3_
+- _symbolic G1R1_
+- _symbolic G1R3_
+- _symbolic IegH_
+- _symbolic SDy_____10Controller_____QzG 13ShellSceneKit12HostingGroupV AA0E19ControllerProvidingP
+- _symbolic SayScCySb_____GG s5NeverO
+- _symbolic Say_____yxq__GG 13ShellSceneKit17DemuxingPresenterC0E5Entry030_B52A8DACEB6341E65ED0ED590F0C3M1ELLV
+- _symbolic Sayq_G
+- _symbolic ScCySb_____G s5NeverO
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic ScCyyt______pG s5ErrorP
+- _symbolic ScGyytG
+- _symbolic ScSyytG
+- _symbolic Shyq_G
+- _symbolic Si6offset_ScCySb_____G7elementt s5NeverO
+- _symbolic Si6offset_ScCySb_____G7elementtSg s5NeverO
+- _symbolic So18FBSDisplayIdentityC
+- _symbolic So23FBSMutableSceneSettingsCIgg_
+- _symbolic So23FBSMutableSceneSettingsCSo25FBSSceneTransitionContextCIggg_
+- _symbolic So25FBSSceneTransitionContextCIgg_
+- _symbolic So25UIScenePresentationBinderC
+- _symbolic So30FBSDisplayConfigurationRequestC
+- _symbolic So30FBSDisplayConfigurationRequestCSg
+- _symbolic _____ 13ShellSceneKit0B31HostingDisplayControllerAdapterC
+- _symbolic _____ 13ShellSceneKit0B31HostingDisplayControllerAdapterC22WorkspaceDelegateError33_F70718E11C443F219815B64AA8D49B5CLLO
+- _symbolic _____ 13ShellSceneKit14DisplayUpdaterC
+- _symbolic _____ 13ShellSceneKit14DisplayUpdaterC13UpdateContext33_749CC06E6D0A1CF259EF8921562FB091LLV
+- _symbolic _____ 13ShellSceneKit15BatchingContext33_9336BDCFC908CC7F80540F5121D1C0A2LLV
+- _symbolic _____ 13ShellSceneKit16LoggingPresenterV
+- _symbolic _____ 13ShellSceneKit17DemuxingPresenterC
+- _symbolic _____ 13ShellSceneKit17DemuxingPresenterC0E5Entry030_B52A8DACEB6341E65ED0ED590F0C3M1ELLV
+- _symbolic _____ 13ShellSceneKit18FBScenePresentableC
+- _symbolic _____ 13ShellSceneKit22DisplayActivationStateO
+- _symbolic _____ 13ShellSceneKit22HostingGroupControllerC
+- _symbolic _____ 13ShellSceneKit22UISceneBinderPresenterC
+- _symbolic _____ 13ShellSceneKit22UISceneBinderPresenterC5State33_5C300B1EB8CA709FA09CC8397CAA1B59LLO
+- _symbolic _____ 13ShellSceneKit23HostingGroupCoordinatorC
+- _symbolic _____ 13ShellSceneKit23RecursiveDisplayBlankerC
+- _symbolic _____ 13ShellSceneKit24RootWindowDisplayBlankerC
+- _symbolic _____ 13ShellSceneKit24RootWindowDisplayBlankerC015SSKRootBlankingE033_0643C91F8C325C0A70278AB1F0B65E8FLLC
+- _symbolic _____ 13ShellSceneKit24RootWindowDisplayBlankerC5State33_0643C91F8C325C0A70278AB1F0B65E8FLLO
+- _symbolic _____ 13ShellSceneKit26FBScenePresentableObserverC
+- _symbolic _____ 13ShellSceneKit26FBScenePresentableProviderC
+- _symbolic _____ 13ShellSceneKit26MirroredDisplayTransformerC
+- _symbolic _____ 13ShellSceneKit27LegacyDisplayProfileBuilderC
+- _symbolic _____ 13ShellSceneKit30HostingGroupControllerProviderV
+- _symbolic _____ 13ShellSceneKit30UpdateDisplayTransformsAdapterC
+- _symbolic _____ 13ShellSceneKit31DisplayProfileConfiguration_BoxC
+- _symbolic _____ So7FBSceneC13ShellSceneKitE0C11UpdateError33_BEE596212CB927AFBD9789EB29DB5C01LLO
+- _symbolic _____Sg 10Foundation21NSKeyValueObservationC
+- _symbolic _____SgXw 13ShellSceneKit0B31HostingDisplayControllerAdapterC
+- _symbolic _____SgXw 13ShellSceneKit18FBScenePresentableC
+- _symbolic _____So23FBSDisplayConfigurationCSo7FBSceneCXj r0_l13ShellSceneKit10Presenting_pq_7ContentRts_x13DisplayConfigRtsXPXG
+- _symbolic ______p 13ShellSceneKit24DisplayTransformUpdatingP
+- _symbolic ______p So20FBSceneClientProcessP
+- _symbolic _____xq_Xj r0_l13ShellSceneKit10Presenting_pq_7ContentRts_x13DisplayConfigRtsXPXG
+- _symbolic _____yScCySb_____GG s23_ContiguousArrayStorageC s5NeverO
+- _symbolic _____ySo23FBSDisplayConfigurationCSo7FBSceneCG 13ShellSceneKit16LoggingPresenterV
+- _symbolic _____ySo23FBSDisplayConfigurationCSo7FBSceneCG 13ShellSceneKit17DemuxingPresenterC
+- _symbolic _____ySo23FBSDisplayConfigurationCSo7FBSceneC_G 13ShellSceneKit17DemuxingPresenterC0E5Entry030_B52A8DACEB6341E65ED0ED590F0C3M1ELLV
+- _symbolic _____ySo35UIRootWindowScenePresentationBinderCG 13ShellSceneKit22UISceneBinderPresenterC
+- _symbolic _____ySo9CADisplayC__________y_____G_____y_____y_____ySo23FBSDisplayConfigurationCSo7FBSceneCG_____GGG 13ShellSceneKit14DisplayUpdaterC AA06UpdateD17TransformsAdapterC AA09RecursiveD7BlankerC AA010RootWindowdJ0C AA23HostingGroupCoordinatorC AA0mN18ControllerProviderV AA17DemuxingPresenterC AA18FBScenePresentableC
+- _symbolic _____y_____G 13ShellSceneKit23RecursiveDisplayBlankerC AA010RootWindoweF0C
+- _symbolic _____y_____So23FBSDisplayConfigurationCSo7FBSceneCXjG s23_ContiguousArrayStorageC r0_l13ShellSceneKit10Presenting_pq_7ContentRts_x13DisplayConfigRtsXPXG
+- _symbolic _____y__________y_____ySo23FBSDisplayConfigurationCSo7FBSceneCG_____GG s18_DictionaryStorageC 13ShellSceneKit12HostingGroupV AC0fG10ControllerC AC17DemuxingPresenterC AC18FBScenePresentableC
+- _symbolic _____y_____ySo23FBSDisplayConfigurationCSo7FBSceneCG_____G 13ShellSceneKit22HostingGroupControllerC AA17DemuxingPresenterC AA18FBScenePresentableC
+- _symbolic _____y_____ySo23FBSDisplayConfigurationCSo7FBSceneC_GG s23_ContiguousArrayStorageC 13ShellSceneKit17DemuxingPresenterC0H5Entry030_B52A8DACEB6341E65ED0ED590F0C3P1ELLV
+- _symbolic _____y_____y_____ySo23FBSDisplayConfigurationCSo7FBSceneCG_____GG 13ShellSceneKit23HostingGroupCoordinatorC AA0dE18ControllerProviderV AA17DemuxingPresenterC AA18FBScenePresentableC
+- _symbolic _____yx_G 13ShellSceneKit22UISceneBinderPresenterC5State33_5C300B1EB8CA709FA09CC8397CAA1B59LLO
+- _symbolic _____yxq_G 13ShellSceneKit22HostingGroupControllerC
+- _symbolic _____yxq_q0_q1__G 13ShellSceneKit14DisplayUpdaterC13UpdateContext33_749CC06E6D0A1CF259EF8921562FB091LLV
+- _symbolic _____yxq_q0_q1__GSg 13ShellSceneKit14DisplayUpdaterC13UpdateContext33_749CC06E6D0A1CF259EF8921562FB091LLV
+- _symbolic _____yyt_G ScS12ContinuationV
+- _symbolic _____yyt_G ScS8IteratorV
+- _symbolic _____yyt_GSg ScS12ContinuationV
+- _symbolic _____yyt__G ScS12ContinuationV11YieldResultO
+- _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
+- _symbolic q0_
+- _symbolic q1_
+- _symbolic q_
+- _symbolic qd__
+- _symbolic x13DisplayConfig_____Qzc 13ShellSceneKit21DisplayUpdateTrackingP
+- _symbolic xSo23FBSDisplayConfigurationCc
+- _symbolic ySo30FBSDisplayConfigurationRequestCcSg
+- _symbolic ySo7FBSceneCc
+- _symbolic y_____cSg 12CoreGraphics7CGFloatV
+- _type_layout_string 13ShellSceneKit10PresentingRzAA11PresentableR_7ContentQy_ADRtz13DisplayConfigQy_AGRtzr0_lAA30HostingGroupControllerProviderVyxq_G
+- _type_layout_string So25UIScenePresentationBinderCRbzl13ShellSceneKit0aC9PresenterC5State33_5C300B1EB8CA709FA09CC8397CAA1B59LLOyx_G
+- _type_layout_string So7FBSceneC13ShellSceneKitE0C11UpdateError33_BEE596212CB927AFBD9789EB29DB5C01LLO
+- _type_layout_string s8SendableRzSHR_r0_l13ShellSceneKit17DemuxingPresenterC0F5Entry030_B52A8DACEB6341E65ED0ED590F0C3N1ELLVyxq__G
+CStrings:
++ "\nallowFrameDoubling: "
++ "\nrefreshRateCriteria: "
++ " doesn't match Profile in control "
++ "$__lazy_storage_$_diffInspector"
++ "; connectedHardware: "
++ "; hardwareIdentity: "
++ "@\"FBSSceneClientIdentity\"16@0:8"
++ "@\"NSNumber\"16@0:8"
++ "@\"NSSet\"32@0:8@\"FBSScene\"16@\"NSSet\"24"
++ "@\"NSUserActivity\"24@0:8@\"UIScene\"16"
++ "@\"NSValue\"16@0:8"
++ "@\"_TtC13ShellSceneKit17ProfileActivation\"16@0:8"
++ "@24@0:8@\"<BSXPCDecoding>\"16"
++ "@24@0:8^v16"
++ "@32@0:8q16@24"
++ "@48@0:8@16q24@32Q40"
++ "BSXPCSecureCoding"
++ "FBSSceneClientIdentifying"
++ "FBSSceneObserver"
++ "Failed to cast back to transform: "
++ "Failed to find inControl profile for identity: "
++ "Failed to get hostingContext for profile "
++ "Failed to look up state for profile "
++ "Failed to resolve connecting profile: "
++ "Failed to retrieve settings for extension: "
++ "HDR10"
++ "HLG"
++ "Ignoring connected display. isUsable: %{bool}d; isRootIdentity: %{bool}d; %@"
++ "Ignoring connecting display. isUsable: %{bool}d; isRootIdentity: %{bool}d; %@"
++ "Ignoring disconnecting display. isUsable: %{bool}d; isRootIdentity: %{bool}d; %@"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Invalidation but we're not registered."
++ "Multiple profiles with same identity detected: "
++ "No caDisplay or configuration found for identifier "
++ "No configuration found for identifier "
++ "No hostScene available."
++ "No profile currently driving hardware %s"
++ "No settings for update: "
++ "Not tracking hardware for display identity: "
++ "Profile that gained control "
++ "Removing binder from lookup: %@"
++ "SDR"
++ "SSKRootBlankingWindow"
++ "ShellSceneKit.Box"
++ "ShellSceneKit.DisplayBlanker"
++ "ShellSceneKit.DisplayProfile"
++ "ShellSceneKit.DisplayProfileRegistry"
++ "ShellSceneKit.FBSHardwareSource"
++ "ShellSceneKit.RootBlankingWindow"
++ "ShellSceneKit.SceneWorkspace"
++ "ShellSceneKit/BacklightSupportSceneExtension.swift"
++ "ShellSceneKit/DisplayProfileRegistry.swift"
++ "ShellSceneKit/DisplayProfilesState.swift"
++ "ShellSceneKit/FBSDisplayConfiguration.swift"
++ "ShellSceneKit/HostingContext.swift"
++ "ShellSceneKit/ManagedProfileState.swift"
++ "ShellSceneKit/Platform+DisplayBlanker.swift"
++ "ShellSceneKit/Platform+FBSDisplayMonitor.swift"
++ "ShellSceneKit/Profile.swift"
++ "ShellSceneKit/ProfileActivation.swift"
++ "ShellSceneKit/ProfileActivationSceneExtension.swift"
++ "ShellSceneKit/ProfileListBuilder.swift"
++ "ShellSceneKit/Registration.swift"
++ "ShellSceneKit/RegistrationController.swift"
++ "ShellSceneKit/RootScenePresentationBinder.swift"
++ "ShellSceneKit/SceneLevelExtension.swift"
++ "ShellSceneKit/ShellSceneKit.swift"
++ "ShellSceneKit/Task+Utils.swift"
++ "ShellSceneKit/TransformSceneExtension.swift"
++ "Stopped tracking disconnecting display. hardwareIdentity: %u; identity: %@"
++ "T@\"<SSKDisplayProfileDelegate>\",N,W,Vdelegate"
++ "T@\"CAContext\",N,R"
++ "T@\"NSNumber\",N,&"
++ "T@\"NSValue\",N,&"
++ "T@\"_TtC13ShellSceneKit17ProfileActivation\",N,&"
++ "T@\"_TtC13ShellSceneKit17ProfileActivation\",N,R"
++ "TB,N,R,VinControl"
++ "TQ,N,R,VdeactivationReasonsWhenActive"
++ "Task cancelled since display update. Ending early."
++ "Task cancelled since updateConfigurations. Ending early."
++ "Tracking connected display. hardwareIdentity: %u;   configuration: %@"
++ "Tracking connecting display. hardwareIdentity: %u;   configuration: %@"
++ "UISceneDelegate"
++ "Unexpected observer"
++ "Unsupported Profile: "
++ "Updating configurations to match display"
++ "Updating display to match active preferences"
++ "Use before fully initialized."
++ "We shouldn't be observing scenes that aren't in the binder."
++ "You must invalidate `Registration`s before discarding them."
++ "_$observationRegistrar"
++ "_FBSScene"
++ "_TtC13ShellSceneKit14DisplayBlanker"
++ "_TtC13ShellSceneKit14SceneWorkspace"
++ "_TtC13ShellSceneKit15_HostingContext"
++ "_TtC13ShellSceneKit17CADisplayHardware"
++ "_TtC13ShellSceneKit17FBSHardwareSource"
++ "_TtC13ShellSceneKit17ProfileActivation"
++ "_TtC13ShellSceneKit19SceneLevelExtension"
++ "_TtC13ShellSceneKit23TransformSceneExtension"
++ "_TtC13ShellSceneKit27RootScenePresentationBinder"
++ "_TtC13ShellSceneKit30BacklightSupportSceneExtension"
++ "_TtC13ShellSceneKit31ProfileActivationSceneExtension"
++ "_TtC13ShellSceneKitP33_A1DCD04D86D5AECADE6EA65E0805B71C26DisplayProfileConfigurator"
++ "_TtC13ShellSceneKitP33_A64F83CB8E40CF87579B11470B35EA7113RegistryState"
++ "_TtCC13ShellSceneKit19SceneLevelExtension13HostComponent"
++ "_TtCC13ShellSceneKit23TransformSceneExtension13HostComponent"
++ "_TtCC13ShellSceneKit23TransformSceneExtension17SettingsExtension"
++ "_TtCC13ShellSceneKit30BacklightSupportSceneExtension13HostComponent"
++ "_TtCC13ShellSceneKit30BacklightSupportSceneExtension15ClientComponent"
++ "_TtCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension"
++ "_TtCC13ShellSceneKit31ProfileActivationSceneExtension13HostComponent"
++ "_TtCC13ShellSceneKit31ProfileActivationSceneExtension15ClientComponent"
++ "_TtCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension"
++ "_TtCV13ShellSceneKit14ManagedProfile5State"
++ "_TtP13ShellSceneKit25ProfileActivationObserver_"
++ "_TtP13ShellSceneKit27UIProfileActivationDelegate_"
++ "_TtPCC13ShellSceneKit23TransformSceneExtension17SettingsExtension8Settings_"
++ "_TtPCC13ShellSceneKit30BacklightSupportSceneExtension17SettingsExtension8Settings_"
++ "_TtPCC13ShellSceneKit31ProfileActivationSceneExtension17SettingsExtension8Settings_"
++ "_requestedScenes"
++ "_sceneRequestHandler"
++ "activateWithTransitionContext:"
++ "activationObservers"
++ "addProfileActivationObserver:"
++ "allScenes"
++ "appendObject:withName:skipIfNil:"
++ "binder"
++ "clientIdentity"
++ "clientScene"
++ "com.apple.ShellSceneKit.RegistrationController."
++ "configIdentityToHardwareIdentity"
++ "configureSetting:"
++ "connectedHardware"
++ "connectedScenes"
++ "connectionType"
++ "containsProperty:"
++ "context"
++ "contextId"
++ "contextIdValue"
++ "contextWithId:"
++ "currentProcess"
++ "decodeBoolForKey:"
++ "decodeStringForKey:"
++ "definition"
++ "displayId"
++ "displayStates"
++ "dolby"
++ "encodeBool:forKey:"
++ "encodeWithBSXPCCoder:"
++ "evaluateWithInspector:context:"
++ "failed to derive configuration for profile "
++ "failed to retrieve CADisplay from "
++ "failed to retrieve scene"
++ "failed to retrieve settings"
++ "fbWorkspace"
++ "fbs_sceneClientIdentity"
++ "hardwareSource"
++ "hardwareTasks"
++ "height"
++ "hostScene"
++ "hostingContext"
++ "inControl"
++ "init(frame:)"
++ "init(screen:)"
++ "init(windowScene:)"
++ "initWithAnyConfiguration:"
++ "initWithBSXPCCoder:"
++ "initWithDelegate:builder:"
++ "initWithIdentifier:inControl:"
++ "initWithIdentifier:priority:rootView:appearanceStyle:"
++ "initWithPriority:displayConfiguration:"
++ "initWithUnsignedInt:"
++ "insetBounds"
++ "isApplication"
++ "isLocal"
++ "isMusicOnlyDisplay"
++ "isiPodOnlyDisplay"
++ "kvoPreferences"
++ "layer"
++ "matchesProperty:"
++ "nativeSize"
++ "none"
++ "observePreferredLevelWithBlock:"
++ "onConnect"
++ "onConnect task unhandled error: %@"
++ "onDisconnect"
++ "onUpdate"
++ "physicalSize"
++ "pid"
++ "presentationBinders"
++ "previousSettings"
++ "productName"
++ "profileActivation"
++ "profileHostingContexts"
++ "profileProvider"
++ "profileStates"
++ "propagateToSceneWithDefinition:"
++ "protocol"
++ "registration"
++ "removeExtension:"
++ "removeProfileActivationObserver:"
++ "removeScene:"
++ "scaleContent"
++ "scene"
++ "scene:continueUserActivity:"
++ "scene:didFailToContinueUserActivityWithType:error:"
++ "scene:didUpdateHostHandle:"
++ "scene:didUpdateUserActivity:"
++ "scene:openURLContexts:"
++ "scene:restoreInteractionStateWithUserActivity:"
++ "scene:updatedProfileActivation:"
++ "scene:willConnectToSession:options:"
++ "scene:willContinueUserActivityWithType:"
++ "sceneDidBecomeActive:"
++ "sceneDidDisconnect:"
++ "sceneDidEnterBackground:"
++ "sceneWillEnterForeground:"
++ "sceneWillInvalidate:"
++ "sceneWillResignActive:"
++ "sceneWithIdentifier:"
++ "seed"
++ "setContextIdValue:"
++ "setDisableFrameDoubling:"
++ "setInterfaceOrientationMode:"
++ "setProfileActivation:"
++ "setPropagating:"
++ "setTransform:forScene:"
++ "setTransformValue:"
++ "settingsDiff"
++ "sharedApplication"
++ "stateRestorationActivityForScene:"
++ "supportsBSXPCSecureCoding"
++ "task"
++ "transformObservers"
++ "transformValue"
++ "transportType"
++ "type"
++ "unexpected scene type: "
++ "uniqueId"
++ "unsignedIntValue"
++ "updated scene <%s %s> level to: %f"
++ "v16@?0@\"<SSKDisplayProfileConfiguring>\"8"
++ "v16@?0^v8"
++ "v24@0:8@\"<BSXPCEncoding>\"16"
++ "v24@0:8@\"FBSScene\"16"
++ "v24@0:8@\"NSNumber\"16"
++ "v24@0:8@\"NSValue\"16"
++ "v24@0:8@\"UIScene\"16"
++ "v24@0:8@\"_TtC13ShellSceneKit17ProfileActivation\"16"
++ "v32@0:8@\"FBSScene\"16@\"FBSSceneHostHandle\"24"
++ "v32@0:8@\"FBSScene\"16@\"FBSSceneUpdate\"24"
++ "v32@0:8@\"FBSScene\"16@\"_TtC13ShellSceneKit17ProfileActivation\"24"
++ "v32@0:8@\"UIScene\"16@\"NSSet\"24"
++ "v32@0:8@\"UIScene\"16@\"NSString\"24"
++ "v32@0:8@\"UIScene\"16@\"NSUserActivity\"24"
++ "v32@0:8@\"UIScene\"16@\"_TtC13ShellSceneKit17ProfileActivation\"24"
++ "v40@0:8@\"UIScene\"16@\"NSString\"24@\"NSError\"32"
++ "v40@0:8@\"UIScene\"16@\"UISceneSession\"24@\"UISceneConnectionOptions\"32"
++ "width"
++ "wrapped"
+- ""
+- "\t"
+- " "
+- "!"
+- "!_activated"
+- "!_invalidated"
+- "\""
+- "#"
+- "%@ (%p) %@"
+- "%@:[%@] %{public}@ record: %{public}@"
+- "%@:[%@] --> associating %{public}@ with assertion %{public}@"
+- "%@:[%@] identity: [%@]"
+- "%@:[%@] ignoring untracked connecting derived display: [%@]"
+- "%@:[%@] ignoring untracked disconnecting derived display [%@]"
+- "%@:[%@] ignoring untracked disconnecting display: [%@]"
+- "%@:[%@] ignoring untracked updating derived display [%@]"
+- "%@:[%@] profile: %{public}@"
+- "%@_%lu"
+- "%lu"
+- "%{public}@\n\tconfiguration: %{public}@;\n\tidentity: %{public}@"
+- "%{public}@ %{public}@ display arrangement item changed: %{public}@\nupdating backboard with global arrangement: %{public}@"
+- "%{public}@ %{public}@ display arrangement now `nil`\nupdating backboard with global arrangement: %{public}@"
+- "%{public}@ activating assertions for display %{public}@"
+- "%{public}@ assertion preferences changed. done reevaluating"
+- "%{public}@ assertion preferences changed. reevaluating"
+- "%{public}@ detected change from SSKDisplayCloneMirroringMode `%{public}@` to `%{public}@`\nchanging calling BKS to switch to `%{public}@`"
+- "%{public}@ detected change from SSKDisplayCloneMirroringMode `%{public}@` to `%{public}@` BUT it's for the main display. ignoring request."
+- "%{public}@ did detect CADisplay prefs change"
+- "%{public}@ display change failed: is the connection seed out of date?"
+- "%{public}@ display change successful : mode=%{public}@ overscan=%{public}@"
+- "%{public}@ got nil displayUUIDs, which shouldn't be happening for newly active assertions. rootDisplayConfig: %{public}@; rootDisplayUUID: %{public}@; relativeDisplayConfig: %{public}@; relativeDisplayUUID: %{public}@"
+- "%{public}@ switching to `%{public}@` mirroringMode, so just invalidating our token and not setting anything new with backboard"
+- "%{public}@ told about a %{public}@ display with nil hardwareIdentifier. identity: %{public}@; configuration: %{public}@"
+- "%{public}@ told root display connected %{public}@"
+- "%{public}@ told root display disconnected %{public}@"
+- "%{public}@ we're in control of the display but our CADisplay needs updating: %{public}@"
+- "%{public}@ we're in control of the display but we can't tell if our CADisplay is up to date. is one of these nil? preferredMode:%{public}@; preferredOverscan:%{public}@"
+- "%{public}s activation changed from %s to %s"
+- "%{public}s early return post-UpdateTransforms: updateContext changed from %{public}s to %{public}s"
+- "%{public}s early return post-display: updateContext changed from %{public}s to %{public}s"
+- "%{public}s failed updating blanker and coordinator: %@"
+- "%{public}s present %{public}s"
+- "%{public}s somebody requested an update after us. short-circuiting."
+- "%{public}s transitioning from %{public}s to %{public}s. short-circuiting update and telling coordinator directly"
+- "%{public}s update %{public}s"
+- "%{public}s: error updating presentable: %{public}@"
+- "%{public}s: error updating presenter: %{public}@"
+- "%{public}s: inactive. update settings later"
+- "-[SSKDisplayProfileRegistry displayProfileForIdentity:]"
+- "-[SSKDisplayProfileRegistry evaluateProfilesForConnectedDisplays]"
+- "-[SSKDisplayProfileRegistry registerDisplayProfile:]"
+- "-[SSKMirroredDisplayController _ensureCADisplayModeForMirroring]"
+- "-[SSKMirroredDisplayController displayAssertionDidGainControlOfDisplay:]"
+- "-[SSKMirroredDisplayController displayAssertionDidLoseControlOfDisplay:]"
+- "-[SSKRootDisplayDriver addProfile:]"
+- "-[SSKRootDisplayDriver displayConnected:]"
+- "-[SSKRootDisplayDriver displayDisconnected:]"
+- "-[SSKRootDisplayDriver displayUpdated:]"
+- "-[SSKSceneHostingDisplayController connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:]"
+- "-[SSKSceneHostingDisplayController displayAssertionDidGainControlOfDisplay:]"
+- "-[SSKSceneHostingDisplayController displayAssertionDidLoseControlOfDisplay:]"
+- "-[SSKSceneHostingDisplayController displayIdentityDidDisconnect:]"
+- "-[SSKSceneHostingDisplayController displayIdentityDidUpdate:configuration:]"
+- ".AwaitingDisconnect"
+- ".Default"
+- ".Disabled"
+- ".DisplayConnected"
+- ".DisplayTransformed"
+- ".LogicalScale"
+- ".Mode"
+- ".Overscan"
+- ".PointScale"
+- ".ProfileAdded"
+- "1"
+- "<%@:%p> [%@] %@"
+- "<.Invalid>"
+- "<invalid>"
+- "<none>"
+- "@\"<BSInvalidatable>\""
+- "@\"<FBSDisplayTransformer>\""
+- "@\"<SSKDisplayAssertionCoordinatorDelegate>\""
+- "@\"<SSKDisplayAssertionDelegate>\""
+- "@\"<SSKDisplayAssertionDelegate>\"24@0:8@\"SSKDisplayAssertion\"16"
+- "@\"<SSKDisplayConfigurationBuilding>\""
+- "@\"<SSKDisplayControllerProviding>\""
+- "@\"<SSKDisplayControllerTransforming>\""
+- "@\"<SSKDisplayControlling>\""
+- "@\"<SSKDisplayControlling>\"32@0:8@\"FBSDisplayIdentity\"16@\"FBSDisplayConfiguration\"24"
+- "@\"<SSKDisplayEndpointDelegate>\""
+- "@\"<SSKDisplayEndpointDelegate>\"16@0:8"
+- "@\"<SSKDisplayEndpointHostComponentDelegate>\""
+- "@\"<SSKDisplayMonitorDelegate>\""
+- "@\"<SSKDisplayProfileDelegate>\""
+- "@\"<SSKDisplaySourcing>\""
+- "@\"<SSKDisplayTransformUpdating>\""
+- "@\"<SSKSceneHostingDisplayControllerDelegate>\""
+- "@\"<SSKSceneHostingDisplayControllerProviderDelegate>\""
+- "@\"<_SSKDisplayAssertionStackDelegate>\""
+- "@\"BSAtomicSignal\""
+- "@\"CADisplay\""
+- "@\"CADisplayMode\""
+- "@\"FBDisplayManager\""
+- "@\"FBSDisplayConfiguration\""
+- "@\"FBSDisplayConfiguration\"16@0:8"
+- "@\"FBSDisplayConfiguration\"24@0:8@\"FBSDisplayIdentity\"16"
+- "@\"FBSDisplayConfiguration\"24@0:8^@16"
+- "@\"FBSDisplayConfigurationRequest\"16@0:8"
+- "@\"FBSDisplayIdentity\"16@0:8"
+- "@\"NSHashTable\""
+- "@\"NSMapTable\""
+- "@\"NSMutableDictionary\""
+- "@\"NSMutableSet\""
+- "@\"NSObject<OS_dispatch_queue>\""
+- "@\"NSSet\"16@0:8"
+- "@\"NSString\""
+- "@\"SSKDisplayArrangementItem\""
+- "@\"SSKDisplayArrangementItem\"16@0:8"
+- "@\"SSKDisplayAssertion\""
+- "@\"SSKDisplayAssertion\"40@0:8@\"FBSDisplayIdentity\"16Q24@\"<SSKDisplayAssertionDelegate>\"32"
+- "@\"SSKDisplayAssertionCoordinator\""
+- "@\"SSKDisplayAssertionCoordinatorPolicy\""
+- "@\"SSKDisplayMonitor\""
+- "@\"SSKDisplayProfile\""
+- "@\"SSKDisplayProfileConfiguration\""
+- "@\"SSKSceneHostingDisplayControllerAdapter\""
+- "@\"SSKUpdateDisplayTransformsAdapter\""
+- "@\"UIRootSceneWindow\""
+- "@\"UIRootSceneWindow\"16@0:8"
+- "@\"UIRootSceneWindow\"32@0:8@\"SSKSceneHostingDisplayController\"16@\"FBSDisplayConfiguration\"24"
+- "@\"UIRootSceneWindow\"32@0:8@\"SSKSceneHostingDisplayControllerProvider\"16@\"FBSDisplayConfiguration\"24"
+- "@\"_SSKDisplayAssertionStack\""
+- "@24@0:8^@16"
+- "@32@0:8Q16@24"
+- "@40@0:8@16Q24@32"
+- "@48@0:8@16@24@32#40"
+- "@48@0:8@16@24@32@40"
+- "@48@0:8@16Q24@32@40"
+- "@48@0:8Q16@24@32@40"
+- "@?"
+- "@?16@0:8"
+- "A"
+- "Asked to transform %{public}@ and we're using the driver: %{public}@ and we got back %lu identities: %{public}@"
+- "B"
+- "CADisplayMode"
+- "Display Drivers"
+- "DisplayAssertions"
+- "DisplayControlling"
+- "DisplayMonitor"
+- "DisplayTransforming"
+- "FBDisplayManager"
+- "FBSDisplayConfiguration *SSKExtractFromBuilder(__strong id<SSKDisplayConfigurationBuilding>)"
+- "Invalid condition not satisfying: %@"
+- "Invalid parameter not satisfying: %@"
+- "Q"
+- "Registered Profiles"
+- "RootDisplayDriver"
+- "SSKCADisplayDifferenceMask SSKCADifferenceMaskCalculate(CADisplay *__strong _Nonnull, CADisplayMode *__strong _Nonnull, NSString *__strong _Nonnull, CGSize, NSUInteger)"
+- "SSKDisplayAssertion"
+- "SSKDisplayAssertion.m"
+- "SSKDisplayAssertionCoordinator"
+- "SSKDisplayAssertionCoordinator.m"
+- "SSKDisplayAssertionCoordinatorDelegate"
+- "SSKDisplayAssertionCoordinatorPolicy"
+- "SSKDisplayAssertionCoordinatorPolicy.m"
+- "SSKDisplayAssertionDelegate"
+- "SSKDisplayAssertionPreferences"
+- "SSKDisplayAssertionProviding"
+- "SSKDisplayConfigurationBuilding"
+- "SSKDisplayControllerProviding"
+- "SSKDisplayControllerTransforming"
+- "SSKDisplayControllerUtilties.m"
+- "SSKDisplayControlling"
+- "SSKDisplayDriverRecord"
+- "SSKDisplayDriverRecord.m"
+- "SSKDisplayEndpointClientComponent"
+- "SSKDisplayEndpointClientSettings"
+- "SSKDisplayEndpointHostComponent"
+- "SSKDisplayEndpointProviding"
+- "SSKDisplayEndpointSettings"
+- "SSKDisplayMonitor"
+- "SSKDisplayMonitor.m"
+- "SSKDisplayMonitorCallbackLogging"
+- "SSKDisplayMonitorDelegate"
+- "SSKDisplayMonitorObserver"
+- "SSKDisplayPriorityIsValid(assertionLevel)"
+- "SSKDisplayPriorityIsValid(level)"
+- "SSKDisplayProfile.m"
+- "SSKDisplayProfileConfiguration"
+- "SSKDisplayProfileRegistry"
+- "SSKDisplayProfileRegistry.m"
+- "SSKDisplaySource"
+- "SSKDisplaySource.m"
+- "SSKDisplaySourceObserving"
+- "SSKDisplaySourcing"
+- "SSKDisplayTransformUpdating"
+- "SSKLegacyDisplayProfileBuilder"
+- "SSKMirroredDisplayController"
+- "SSKMirroredDisplayController.m"
+- "SSKMirroredDisplayControllerProvider"
+- "SSKMirroredDisplayTransformer"
+- "SSKNullDisplayController"
+- "SSKNullDisplayControllerProvider"
+- "SSKNullDisplaySource"
+- "SSKNullTransformerRegistry"
+- "SSKRootDisplayDriver"
+- "SSKRootDisplayDriver.m"
+- "SSKRootWindowScenePresentationBinder"
+- "SSKSceneHostingDisplayController"
+- "SSKSceneHostingDisplayController.m"
+- "SSKSceneHostingDisplayControllerAdapter"
+- "SSKSceneHostingDisplayControllerDelegate"
+- "SSKSceneHostingDisplayControllerProvider"
+- "SSKSceneHostingDisplayControllerProvider.m"
+- "SSKSceneHostingDisplayControllerProviderDelegate"
+- "SSKSeededDisplayConfigurationBuilder"
+- "SSKSeededDisplayConfigurationBuilder.m"
+- "SSKShellSceneKitExtension"
+- "SSKUpdateDisplayTransformsAdapter"
+- "SSK_DISPLAY_ASSERTION_GAIN_CONTROL"
+- "SSK_DISPLAY_ASSERTION_LOST_CONTROL"
+- "ShellSceneKit.DisplayProfileConfiguration_Box"
+- "ShellSceneKit/FBScenePresentable+FBScene.swift"
+- "ShellSceneKit/FBScenePresentable.swift"
+- "ShellSceneKit/RecursiveDisplayBlanker.swift"
+- "ShellSceneKit/RootWindowDisplayBlanker.swift"
+- "ShellSceneKit/SceneHostingDisplayControllerAdapter.swift"
+- "ShellSceneKit/UpdateDisplayTransformsAdapter.swift"
+- "T@\"<FBSDisplayTransformer>\",&,N,V_displayTransformer"
+- "T@\"<SSKDisplayAssertionCoordinatorDelegate>\",W,N,V_delegate"
+- "T@\"<SSKDisplayControlling>\",R,N,V_controller"
+- "T@\"<SSKDisplayEndpointDelegate>\",W,N"
+- "T@\"<SSKDisplayEndpointDelegate>\",W,N,V_delegate"
+- "T@\"<SSKDisplayEndpointHostComponentDelegate>\",W,N,V_delegate"
+- "T@\"<SSKDisplayMonitorDelegate>\",W,N,V_delegate"
+- "T@\"<SSKDisplayProfileDelegate>\",W,N,V_delegate"
+- "T@\"<SSKSceneHostingDisplayControllerDelegate>\",W,N,V_delegate"
+- "T@\"<SSKSceneHostingDisplayControllerProviderDelegate>\",W,N,V_delegate"
+- "T@\"CADisplay\",N,R,VcaDisplay"
+- "T@\"FBSDisplayConfiguration\",R,C,N"
+- "T@\"FBSDisplayConfiguration\",R,C,N,V_mainConfiguration"
+- "T@\"FBSDisplayConfiguration\",R,N,V_displayConfiguration"
+- "T@\"FBSDisplayConfigurationRequest\",&,N"
+- "T@\"FBSDisplayConfigurationRequest\",C,N"
+- "T@\"FBSDisplayConfigurationRequest\",R,C,N"
+- "T@\"FBSDisplayIdentity\",R,C,N"
+- "T@\"FBSDisplayIdentity\",R,C,N,V_mainIdentity"
+- "T@\"FBSDisplayIdentity\",R,N"
+- "T@\"FBSDisplayIdentity\",R,N,V_displayIdentity"
+- "T@\"FBSDisplayIdentity\",R,N,V_rootDisplayIdentity"
+- "T@\"NSArray\",R,C,N"
+- "T@\"NSSet\",R,C,N"
+- "T@\"NSString\",R,C,N"
+- "T@\"Protocol\",R,N"
+- "T@\"SSKDisplayArrangementItem\",&,N,V_displayArrangement"
+- "T@\"SSKDisplayArrangementItem\",C,N"
+- "T@\"SSKDisplayArrangementItem\",N"
+- "T@\"SSKDisplayArrangementItem\",R,C,N"
+- "T@\"SSKDisplayAssertion\",R,N,V_assertion"
+- "T@\"SSKDisplayProfile\",R,N,V_profile"
+- "T@\"UIRootSceneWindow\",?,&,N"
+- "T@\"UIRootSceneWindow\",R,N"
+- "T@\"UIRootSceneWindow\",R,N,V_rootWindow"
+- "T@?,C,N,V_transformScheduler"
+- "TB,N"
+- "TB,N,R"
+- "TB,N,V_wantsControlOfDisplay"
+- "TB,R,N"
+- "TB,R,N,GdidConnectAtInit,V_connectedAtInit"
+- "TQ,N"
+- "TQ,N,V_cloneMirroringMode"
+- "TQ,R,N"
+- "TQ,R,N,V_deactivationReasonsWhenActive"
+- "TQ,R,N,V_level"
+- "UTF8String"
+- "["
+- "[%@] asked to transform display configuration that's not our root: [%@]"
+- "[%@] being asked for record of unrelated display [%@]"
+- "[%@] being asked if tracking unrelated display [%@]"
+- "[%@] expected record [%@] to be in state %@ but found in state %@"
+- "[%@] expected record [%@] to be in state %@ or %@ but found in state %@"
+- "[%@] ignoring request for mirrored display controller on main display [%@]"
+- "[%@] multiple profiles using root display\nfirst: [%@]\nsecond: [%@]"
+- "[%@] profile usesRootDisplay=YES but got nil controller: %@"
+- "[%@] transformed display IS NOT root but profile's `usesRootDisplay` is `YES`. profile displayIdentity: [%@]; root displayIdentity: [%@] profile: [%@]"
+- "[%@] transformed display IS root but profile's `usesRootDisplay` is `NO`. profile displayIdentity: [%@]; root displayIdentity: [%@] profile: [%@]"
+- "[%@] trying to add a profile we're already tracking. profile: %@\n preexisting: %@"
+- "[%@] trying to remove a profile we're not tracking: %@"
+- "[DisplayBlanking::<"
+- "[DisplayUpdater "
+- "[LogPresenter :: "
+- "[[rootConfig identity] isRootIdentity]"
+- "[[rootDisplayConfiguration identity] isRootIdentity]"
+- "[_ConfigBuilderClass conformsToProtocol:@protocol(SSKDisplayConfigurationBuilding)]"
+- "[_assertionStackMap objectForKey:rootIdentity] == nil"
+- "[_bs_assert_object isKindOfClass:CADisplayModeClass]"
+- "[_rootIdentity isEqual:rootIdentity]"
+- "[profileConfigurationBox isKindOfClass:[SSKDisplayProfileConfiguration class]]"
+- "[rootDisplay isRootIdentity]"
+- "[rootDisplayIdentity isRootIdentity]"
+- "[rootIdentity isRootIdentity]"
+- "[swiftProfileConfiguration isKindOfClass:[SSKDisplayProfileConfiguration class]]"
+- "]"
+- "_ConfigBuilderClass"
+- "_SSKDisplayAssertionStack"
+- "_SSKDisplayAssertionStack.m"
+- "_SSKDisplayAssertionStackDelegate"
+- "_SSKDisplayMonitorIdentityRecord"
+- "_TtC13ShellSceneKit18FBScenePresentable"
+- "_TtC13ShellSceneKit24RootWindowDisplayBlanker"
+- "_TtC13ShellSceneKit26FBScenePresentableObserver"
+- "_TtC13ShellSceneKit26FBScenePresentableProvider"
+- "_TtCC13ShellSceneKit24RootWindowDisplayBlankerP33_0643C91F8C325C0A70278AB1F0B65E8F21SSKRootBlankingWindow"
+- "_activated"
+- "_adapter"
+- "_assertion"
+- "_assertion:updatedPreferences:"
+- "_assertionControlPreferences"
+- "_assertionCoordinator"
+- "_assertionCoordinatorPolicy"
+- "_assertionDidInvalidate:"
+- "_assertionPreferencesMap"
+- "_assertionStack"
+- "_assertionStackMap"
+- "_builder"
+- "_caDisplay"
+- "_cloneMirroringMode"
+- "_configured"
+- "_connectToIdentity:withConfiguration:forDisplayManagerInit:"
+- "_connectedAtInit"
+- "_connectedDisplays"
+- "_connectedIdentityToConfiguration"
+- "_connectedIdentityToRecordMap"
+- "_controller"
+- "_createDisplayAssertionStackForRootDisplay:"
+- "_createdControllers"
+- "_currentConfiguration"
+- "_deactivationReasonsWhenActive"
+- "_delegate"
+- "_derivedDisplayConnected:"
+- "_didConnectRootIdentity"
+- "_didGainControlOfDisplay"
+- "_didInvalidateForDisplayDisconnect"
+- "_didLoseControlOfDisplay"
+- "_displayArrangement"
+- "_displayAssertion"
+- "_displayConfiguration"
+- "_displayIdentity"
+- "_displayManager"
+- "_displayMonitor"
+- "_displayMutationQueue"
+- "_displayObservers"
+- "_displayTransformer"
+- "_dissociated"
+- "_ensureCADisplayModeForMirroring"
+- "_evalAndApplyOldPreferences:newPreferences:"
+- "_evaluateForPhysicalDisplay:driver:profile:"
+- "_flbLoggingDescription"
+- "_hasControlOfDisplay"
+- "_initWithPhysicalDisplay:level:assertionStack:delegate:"
+- "_invalidated"
+- "_invalidatedByClient"
+- "_level"
+- "_lock"
+- "_lock_identifierToTransformers"
+- "_lock_index_recordsByDisplay"
+- "_lock_observers"
+- "_lock_recordsByProfile"
+- "_lock_rootDisplayDrivers"
+- "_lock_seedsByProfile"
+- "_lostControlOfDisplaySignal"
+- "_mainConfiguration"
+- "_mainIdentity"
+- "_performWithRecordForDisplay:block:"
+- "_priorityLevel"
+- "_profile"
+- "_profileConfiguration"
+- "_profileConfigurationBox"
+- "_provider"
+- "_requestedLogicalScale"
+- "_requestedMode"
+- "_requestedOverscanAdjustment"
+- "_rootConfiguration"
+- "_rootDisplayConnected:"
+- "_rootDisplayIdentity"
+- "_rootIdentity"
+- "_rootIdentityToCloneMirroringMode"
+- "_rootIdentityToCloneMirroringModeTokens"
+- "_rootIdentityToDisplayArrangementItems"
+- "_rootWindow"
+- "_setCloneMirroringMode:forDisplay:"
+- "_setDisplayArrangementItem:forDisplay:"
+- "_trackedDisplays"
+- "_transformScheduler"
+- "_transformUpdater"
+- "_transformerRegistryToken"
+- "_updateDisplayAssertion"
+- "_updateTransformsAdapter"
+- "_wantsControlOfDisplay"
+- "`dealloc` called before `invalidate`"
+- "`dealloc` called before we were invalidated"
+- "`invalidate` called by client multiple times"
+- "`invalidate` called when we're already invalidated"
+- "acquireAssertionForDisplay:level:delegate:"
+- "activateAssertionsForDisplay:"
+- "activationHandler"
+- "activationState"
+- "addObserver:forKeyPath:options:context:"
+- "addProfile:"
+- "allKeys"
+- "allValues"
+- "already connected to display at `init` time. skipping: %{public}@"
+- "appendBodySectionWithName:block:"
+- "appendBodySectionWithName:multilinePrefix:block:"
+- "appendBool:"
+- "appendBool:withName:"
+- "appendBool:withName:ifEqualTo:"
+- "appendCollection:withName:itemBlock:"
+- "appendDictionary:withName:itemBlock:"
+- "appendPointer:withName:"
+- "appendRect:withName:"
+- "appendSize:withName:"
+- "appendString:"
+- "appendUnsignedInteger:"
+- "appendUnsignedInteger:withName:"
+- "arrangement"
+- "array"
+- "arrayWithCapacity:"
+- "arrayWithObjects:count:"
+- "asked to connect a root display that isn't a root [%@]"
+- "asked to transform a non-root identity [%@]"
+- "assertion"
+- "assertionCoordinator"
+- "assertionCoordinator:updatedAssertionPreferences:oldPreferences:forDisplay:"
+- "assertionDelegate"
+- "assertionStack"
+- "assertionStack:updatedAssertionPreferences:oldPreferences:"
+- "associateController:assertion:"
+- "associateDisplay:"
+- "associating controller before display. %@"
+- "associating display after controller. %@"
+- "asyncUpdate(updater:)"
+- "attemping to add a profile before a root display is connected. how did you evaluate the profile in the first place?: %@"
+- "attempting to register same profile twice: %@"
+- "beginMonitoringForExternalDisplays"
+- "behavesAsMainDisplay"
+- "build"
+- "builder returned `nil` configuration: %@"
+- "builderWithObject:"
+- "caDisplayObservation"
+- "can't call twice."
+- "can't call twice.\nfirst: %@\nsecond: %@"
+- "can't call twice. first: %@; second: %@"
+- "clientSettingsExtensions"
+- "cloneMirroringMode"
+- "com.apple.internal.ShellSceneKit"
+- "com.apple.internal.ShellSceneKit."
+- "configureForDisplayConfiguration:priorityLevel:deactivationReasons:"
+- "connectDisplay:"
+- "connectToDisplayIdentity:configuration:displayTransformUpdater:caDisplayQueue:assertion:"
+- "connectedAtInit"
+- "connecting"
+- "connecting a root identity when we had one connect before. it probably disconnected, and we shouldn't be getting reused: [%@]"
+- "connecting display [%@] with different root from already connected display [%@]"
+- "containsSettingNamed:"
+- "content"
+- "controller"
+- "controller:modifyInitialSceneParameters:"
+- "controller:rootSceneWindowForDisplayConfiguration:"
+- "controllerForDisplay:"
+- "controllerProvider"
+- "controllersByGroup"
+- "copy"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createBinder"
+- "createDisplayProfileConfiguration"
+- "currentDeactivationReasons"
+- "currentHandler"
+- "currentUpdateContext"
+- "delegateForDisplayAssertion:"
+- "derivedIdentifier"
+- "derivesDisplays"
+- "deviceName"
+- "dictionary"
+- "didConnectAtInit"
+- "didCreateControllers"
+- "diffFromSettings:toSettings:"
+- "disconnectDisplay:"
+- "disconnected"
+- "disconnecting"
+- "display"
+- "displayArrangement"
+- "displayArrangementItem"
+- "displayAssertionDidGainControlOfDisplay:"
+- "displayAssertionDidInvalidate:"
+- "displayAssertionDidLoseControlOfDisplay:"
+- "displayConfigRequestHandler"
+- "displayConfigurationForIdentity:"
+- "displayConfigurationRequest"
+- "displayConnected:"
+- "displayControllerForDisplay:configuration:"
+- "displayCoordinator"
+- "displayDisconnected:"
+- "displayIdentity"
+- "displayIdentityDidDisconnect:"
+- "displayIdentityDidUpdate:configuration:"
+- "displayManager"
+- "displayMonitor:didDisconnectIdentity:"
+- "displayProfile"
+- "displayProfile:modifyInitialSceneParameters:"
+- "displayProfile:rootSceneWindowForDisplayConfiguration:"
+- "displaySource:didConnectIdentity:withConfiguration:"
+- "displaySource:didUpdateIdentity:withConfiguration:"
+- "displaySource:willDisconnectIdentity:"
+- "displayState"
+- "displayTransformUpdater"
+- "displayTransformer"
+- "displayType"
+- "displayUpdated:"
+- "displayUpdater"
+- "dissociateFromController"
+- "dissociated"
+- "driver"
+- "error building display: %@"
+- "evaluatePhysicalDisplay:"
+- "failed to create window!"
+- "failed to extract FBSSceneClientSettings from update: "
+- "failed to host client-created scene [%s]: %@"
+- "failed to retrieve CADisplay from FBSDisplayConfiguration: "
+- "failed to retrieve FBSDisplayConfigurationRequest from diff when we expected one"
+- "failure in %{public}@ (%{public}@:%i) : %{public}@"
+- "gainedControl"
+- "generateSeed"
+- "got a connect for an external display that is missing its hardwareIdentifier. ignoring: %{public}@"
+- "got a disconnect for an identity that we aren't tracking. ignoring disconnect: %{public}@"
+- "got an update for an identity that we aren't tracking. ignoring update: %{public}@"
+- "group"
+- "handleFailureInFunction:file:lineNumber:description:"
+- "handleFailureInMethod:object:file:lineNumber:description:"
+- "hardwareIdentifier"
+- "hasBeenSignalled"
+- "hasControlOfDisplay"
+- "hostingGroupCoordinator"
+- "i"
+- "i don't think so tim"
+- "immutableCADisplay"
+- "initWithConfiguration:displayIdentity:displayConfiguration:updateTransformsAdapter:"
+- "initWithDisplayConfiguration:displayTransformUpdater:"
+- "initWithDisplayManager:"
+- "initWithDisplayMonitor:"
+- "initWithDisplaySource:"
+- "initWithDisplayTransformerRegistry:displayMonitor:assertionCoordinator:builderClass:"
+- "initWithDisplayUUID:relativeToDisplayUUID:alongEdge:atOffset:"
+- "initWithIdentifier:forReason:queue:invalidationBlock:"
+- "initWithIdentity:connectedAtInit:"
+- "initWithKeyOptions:valueOptions:capacity:"
+- "initWithMainDisplay:"
+- "initWithPriority:displayTransformer:provider:delegate:"
+- "initWithProfile:"
+- "initWithProfile:rootDisplay:"
+- "initWithProfileConfiguration:"
+- "initWithProfileConfiguration:displayIdentity:"
+- "initWithRootDisplay:delegate:"
+- "initWithRootIdentity:transformUpdater:assertionCoordinator:builderClass:"
+- "initWithSeed:builder:"
+- "initWithSwiftConfiguration:delegate:"
+- "inner"
+- "intersectSet:"
+- "invalidateAssertion:"
+- "invalidateForDisplayDisconnect"
+- "isConnectedToDisplay:"
+- "isEqualToString:"
+- "isMainDisplay"
+- "isMainLike"
+- "isTrackingDisplays"
+- "isTrackingProfile:"
+- "isTrackingProfileForDisplay:"
+- "key value "
+- "lastDisplayConfigurationRequest"
+- "level"
+- "logPrefix"
+- "lostControl"
+- "lvl"
+- "mainConfiguration"
+- "mainIdentity"
+- "mapTableWithKeyOptions:valueOptions:"
+- "minusSet:"
+- "mutableCopy"
+- "name"
+- "nativePixelSize"
+- "new"
+- "newAssertionPrefs"
+- "no controller for display"
+- "no controller to dissociate from"
+- "no profile for display"
+- "not tracking display %@"
+- "numBlanks"
+- "numberWithUnsignedInteger:"
+- "objectForKey:"
+- "observeValueForKeyPath:ofObject:change:context:"
+- "observer"
+- "observer already registered: %@"
+- "oldAssertionPrefs"
+- "overscanCompensation"
+- "performUpdate:withCompletion:"
+- "pixelSize"
+- "preferredSceneLevelHandler"
+- "presentableProvider"
+- "presentables"
+- "presenter"
+- "presenterEntries"
+- "presenting on a disconnected display"
+- "priority"
+- "profile"
+- "profileConfiguration"
+- "profileForDisplay:"
+- "provider"
+- "provider:modifyInitialSceneParameters:"
+- "provider:rootSceneWindowForDisplayConfiguration:"
+- "rangeOfString:"
+- "registry"
+- "removeObjectForKey:"
+- "removeObserver:"
+- "removeObserver:forKeyPath:context:"
+- "removeProfile:"
+- "reportedUpdateContext"
+- "requestsByGroup"
+- "rootDisplayDidConnect:"
+- "rootDisplayDidDisconnect:"
+- "rootDisplayIdentity"
+- "sameLine:"
+- "seenActivation"
+- "set"
+- "setClientProcessHandle:"
+- "setCloneMirroringMode:"
+- "setCurrentDeactivationReasons:"
+- "setCurrentMode:preferredMode:otherModes:"
+- "setDisplayArrangement:"
+- "setDisplayArrangementItem:"
+- "setDisplayConfigurationRequest:"
+- "setDisplayTransformer:"
+- "setObject:forKey:"
+- "setOverscanned:compensation:safeRatio:"
+- "setPixelSize:nativeBounds:bounds:"
+- "setPriorityLevel:"
+- "setRootWindow:"
+- "setTransformScheduler:"
+- "setWantsControlOfDisplay:"
+- "setWithArray:"
+- "setWithObject:"
+- "setWithSet:"
+- "settingsProtocol"
+- "shouldTransformConnectingDisplays"
+- "signal"
+- "stack"
+- "stack[%{public}@] acquiring new assertion: %{public}@"
+- "stack[%{public}@] activating assertions for display"
+- "stack[%{public}@] assertion data changed. calling back to delegates"
+- "stack[%{public}@] assertion preferences changed. assertion: %{public}@; preferences: %{public}@"
+- "stack[%{public}@] ignoring assertion invalidation because we're invalid."
+- "stack[%{public}@] ignoring assertion invalidation because we're not active. assertion: %{public}@"
+- "stack[%{public}@] ignoring assertion wantsControlOfDisplay because we're not active. assertion: %{public}@; preferences: %{public}@"
+- "stack[%{public}@] ignoring assertion wantsControlOfDisplay since no change. assertion: %{public}@; preferences: %{public}@"
+- "stack[%{public}@] ignoring wantsControlOfDisplay update because we're invalid."
+- "stack[%{public}@] informing assertion it gained control of display. assertion: %{public}@"
+- "stack[%{public}@] informing assertion it lost control of display. assertion: %{public}@"
+- "stack[%{public}@] informing assertion it's invalidated. assertion: %{public}@"
+- "stack[%{public}@] informing assertion it's lost control of the display. assertion: %{public}@"
+- "stack[%{public}@] removing invalidated assertion and processing active assertions."
+- "stack[%{public}@] told to invalidate."
+- "stringWithFormat:"
+- "stringWithString:"
+- "stringWithUTF8String:"
+- "strongToStrongObjectsMapTable"
+- "substringFromIndex:"
+- "substringToIndex:"
+- "supportsCloning"
+- "testing"
+- "this call must be made on the main thread"
+- "told a display [%@] -> root: [%@] is disconnecting but we don't have a driver for it, currently have drivers for %@"
+- "told a display [%@] -> root: [%@] is updating but we don't have a driver for it, currently have drivers for %@"
+- "told about a disconnecting display that we don't know about. were we told it disconnected twice?: %@"
+- "told an identity is connecting when we're already tracking it. is frontboard telling us things out of order?: %@"
+- "told multiple times about a connecting display: %@"
+- "transformPhysicalDisplayWith:"
+- "transformPhysicalDisplayWithBuilder:"
+- "transformScheduler"
+- "transformUpdater"
+- "transformer"
+- "transitionContextExtensions"
+- "trying to connect a root identity [%@] when we already have one: [%@]"
+- "unblank() called more times than blank()"
+- "unexpected mirroring mode: %lu"
+- "unionSet:"
+- "unsignedIntegerValue"
+- "updatable"
+- "update failed for unknown reason"
+- "updateDisplay:"
+- "updateDisplayConfiguration:completion:"
+- "updateRootWindow:completion:"
+- "updateTransforms()"
+- "updateTransformsAdapter"
+- "updateWithPreferences:"
+- "updating"
+- "updating display [%@] with different root from ours [%@]"
+- "usesRootDisplay"
+- "v16@?0@\"FBSSceneTransitionContext\"8"
+- "v16@?0@\"NSSet\"8"
+- "v16@?0@\"SSKDisplayDriverRecord\"8"
+- "v16@?0@\"SSKDisplayProfile\"8"
+- "v16@?0@8"
+- "v16@?0@?<v@?>8"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"<SSKDisplayConfigurationBuilding>\"16"
+- "v24@0:8@\"<SSKDisplayEndpointDelegate>\"16"
+- "v24@0:8@\"<SSKDisplaySourceObserving>\"16"
+- "v24@0:8@\"FBSDisplayConfigurationRequest\"16"
+- "v24@0:8@\"FBSDisplayIdentity\"16"
+- "v24@0:8@\"SSKDisplayArrangementItem\"16"
+- "v24@0:8@\"SSKDisplayAssertion\"16"
+- "v24@0:8@\"UIRootSceneWindow\"16"
+- "v24@0:8@?<v@?>16"
+- "v24@?0@\"FBSDisplayIdentity\"8@\"SSKRootDisplayDriver\"16"
+- "v24@?0@\"FBSMutableSceneSettings\"8@\"FBSSceneTransitionContext\"16"
+- "v28@?0Q8i16^B20"
+- "v32@0:8@\"<SSKDisplaySourcing>\"16@\"FBSDisplayIdentity\"24"
+- "v32@0:8@\"FBSDisplayIdentity\"16@\"FBSDisplayConfiguration\"24"
+- "v32@0:8@\"SSKDisplayMonitor\"16@\"FBSDisplayIdentity\"24"
+- "v32@0:8@\"SSKSceneHostingDisplayController\"16@\"FBSMutableSceneParameters\"24"
+- "v32@0:8@\"SSKSceneHostingDisplayControllerProvider\"16@\"FBSMutableSceneParameters\"24"
+- "v32@0:8@16@?24"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"<SSKDisplaySourcing>\"16@\"FBSDisplayIdentity\"24@\"FBSDisplayConfiguration\"32"
+- "v40@0:8@\"FBSDisplayMode\"16@\"FBSDisplayMode\"24@\"NSSet\"32"
+- "v40@0:8@\"SSKDisplayMonitor\"16@\"FBSDisplayIdentity\"24@\"FBSDisplayConfiguration\"32"
+- "v40@0:8@\"_SSKDisplayAssertionStack\"16@\"SSKDisplayAssertionPreferences\"24@\"SSKDisplayAssertionPreferences\"32"
+- "v40@0:8@16Q24Q32"
+- "v44@0:8B16q20{CGSize=dd}28"
+- "v48@0:8@\"SSKDisplayAssertionCoordinator\"16@\"SSKDisplayAssertionPreferences\"24@\"SSKDisplayAssertionPreferences\"32@\"FBSDisplayIdentity\"40"
+- "v48@0:8@16@24@32^v40"
+- "v56@0:8@\"FBSDisplayIdentity\"16@\"FBSDisplayConfiguration\"24@\"<SSKDisplayTransformUpdating>\"32@\"NSObject<OS_dispatch_queue>\"40@\"SSKDisplayAssertion\"48"
+- "v56@0:8@16@24@32@40@48"
+- "v96@0:8{CGSize=dd}16{CGRect={CGPoint=dd}{CGSize=dd}}32{CGRect={CGPoint=dd}{CGSize=dd}}64"
+- "waitForRunloop()"
+- "wantsControl"
+- "wantsControlOfDisplay"
+- "we are already tracking an assertion for level %lu: %@"
+- "{CGSize=\"width\"d\"height\"d}"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "|"
+
+```

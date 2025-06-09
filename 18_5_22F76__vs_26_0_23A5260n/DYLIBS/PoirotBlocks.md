@@ -1,0 +1,457 @@
+## PoirotBlocks
+
+> `/System/Library/PrivateFrameworks/PoirotBlocks.framework/PoirotBlocks`
+
+```diff
+
+-3404.60.1.0.0
+-  __TEXT.__text: 0x73b98
+-  __TEXT.__auth_stubs: 0x1e60
+-  __TEXT.__objc_methlist: 0x21c
+-  __TEXT.__cstring: 0x1d12
+-  __TEXT.__const: 0x6c86
+-  __TEXT.__constg_swiftt: 0x2964
+-  __TEXT.__swift5_typeref: 0x1aa6
+-  __TEXT.__swift5_builtin: 0x12c
+-  __TEXT.__swift5_reflstr: 0x15f2
+-  __TEXT.__swift5_fieldmd: 0x1f84
+-  __TEXT.__swift5_assocty: 0x268
+-  __TEXT.__swift5_proto: 0x610
+-  __TEXT.__swift5_types: 0x244
+-  __TEXT.__swift5_capture: 0x1bc
+-  __TEXT.__swift5_protos: 0x84
+-  __TEXT.__swift5_mpenum: 0x6c
+-  __TEXT.__oslogstring: 0x28
+-  __TEXT.__unwind_info: 0x2068
+-  __TEXT.__eh_frame: 0x4850
++3500.66.1.0.0
++  __TEXT.__text: 0x8ea28
++  __TEXT.__auth_stubs: 0x21c0
++  __TEXT.__objc_methlist: 0x224
++  __TEXT.__cstring: 0x22cd
++  __TEXT.__swift5_typeref: 0x231c
++  __TEXT.__const: 0x905c
++  __TEXT.__constg_swiftt: 0x2ecc
++  __TEXT.__swift5_reflstr: 0x1b89
++  __TEXT.__swift5_fieldmd: 0x25cc
++  __TEXT.__swift5_builtin: 0x168
++  __TEXT.__swift5_assocty: 0x460
++  __TEXT.__swift5_proto: 0x7f4
++  __TEXT.__swift5_types: 0x2cc
++  __TEXT.__swift5_protos: 0x8c
++  __TEXT.__swift5_mpenum: 0x84
++  __TEXT.__swift5_capture: 0x1d8
++  __TEXT.__oslogstring: 0x10a
++  __TEXT.__unwind_info: 0x2700
++  __TEXT.__eh_frame: 0x555c
+   __TEXT.__objc_classname: 0x22
+-  __TEXT.__objc_methname: 0x48b
+-  __TEXT.__objc_methtype: 0x126
+-  __DATA_CONST.__got: 0x5d0
+-  __DATA_CONST.__const: 0x150
+-  __DATA_CONST.__objc_classlist: 0x108
++  __TEXT.__objc_methname: 0x521
++  __TEXT.__objc_methtype: 0x13f
++  __DATA_CONST.__got: 0x650
++  __DATA_CONST.__const: 0x188
++  __DATA_CONST.__objc_classlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1d0
++  __DATA_CONST.__objc_selrefs: 0x210
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xf30
+-  __AUTH_CONST.__const: 0x4358
+-  __AUTH_CONST.__objc_const: 0x2318
+-  __AUTH.__objc_data: 0x340
+-  __AUTH.__data: 0x2aa0
+-  __DATA.__data: 0x1608
+-  __DATA.__bss: 0xa980
+-  __DATA.__common: 0xe8
++  __AUTH_CONST.__auth_got: 0x10e0
++  __AUTH_CONST.__const: 0x5238
++  __AUTH_CONST.__objc_const: 0x2720
++  __AUTH.__objc_data: 0x3e0
++  __AUTH.__data: 0x2ed0
++  __DATA.__data: 0x1aa0
++  __DATA.__bss: 0xdf80
++  __DATA.__common: 0x128
++  __DATA_DIRTY.__data: 0x1b8
++  __DATA_DIRTY.__common: 0x8
++  __DATA_DIRTY.__bss: 0x300
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /System/Library/PrivateFrameworks/PoirotUDFs.framework/PoirotUDFs
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 4A299B93-CD66-35B2-B5AE-3E39D1309212
+-  Functions: 2643
+-  Symbols:   1099
+-  CStrings:  348
++  UUID: 6DC34ACB-882C-3378-9443-CF4EEB905777
++  Functions: 3225
++  Symbols:   1312
++  CStrings:  401
+ 
+Symbols:
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSUserDefaults
++ __DATA__TtC12PoirotBlocks13PoirotTesting
++ __DATA__TtC12PoirotBlocks16StructLogHandler
++ __DATA__TtC12PoirotBlocks20NamedQueryParameters
++ __DATA__TtC12PoirotBlocks22DefaultHostEnvironment
++ __DATA__TtC12PoirotBlocks24UserDefaultsTimeBookmark
++ __IVARS__TtC12PoirotBlocks16StructLogHandler
++ __IVARS__TtC12PoirotBlocks20NamedQueryParameters
++ __IVARS__TtC12PoirotBlocks22DefaultHostEnvironment
++ __IVARS__TtC12PoirotBlocks24UserDefaultsTimeBookmark
++ __METACLASS_DATA__TtC12PoirotBlocks13PoirotTesting
++ __METACLASS_DATA__TtC12PoirotBlocks16StructLogHandler
++ __METACLASS_DATA__TtC12PoirotBlocks20NamedQueryParameters
++ __METACLASS_DATA__TtC12PoirotBlocks22DefaultHostEnvironment
++ __METACLASS_DATA__TtC12PoirotBlocks24UserDefaultsTimeBookmark
++ ___swift_memcpy41_8
++ ___swift_memcpy64_8
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___unnamed_3
++ ___unnamed_4
++ __os_log_impl
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftAppleArchive_$_PoirotBlocks
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_PoirotBlocks
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_PoirotBlocks
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_PoirotBlocks
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_PoirotBlocks
++ _associated conformance 12PoirotBlocks0A4TaskCyxGAA08CoersingC10ParametersAA0C6ParamsAaEP_AA0C11Configuring
++ _associated conformance 12PoirotBlocks10AnyCodableOs25ExpressibleByFloatLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 12PoirotBlocks10AnyCodableOs26ExpressibleByStringLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 12PoirotBlocks10AnyCodableOs26ExpressibleByStringLiteralAAs0ef23ExtendedGraphemeClusterH0
++ _associated conformance 12PoirotBlocks10AnyCodableOs27ExpressibleByBooleanLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 12PoirotBlocks10AnyCodableOs27ExpressibleByIntegerLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 12PoirotBlocks10AnyCodableOs32ExpressibleByStringInterpolationAA0gH0sADP_s0gH8Protocol
++ _associated conformance 12PoirotBlocks10AnyCodableOs32ExpressibleByStringInterpolationAAs0efG7Literal
++ _associated conformance 12PoirotBlocks10AnyCodableOs33ExpressibleByUnicodeScalarLiteralAA0ghI4TypesADP_s01_ef7BuiltinghI0
++ _associated conformance 12PoirotBlocks10AnyCodableOs43ExpressibleByExtendedGraphemeClusterLiteralAA0ghiJ4TypesADP_s01_ef7BuiltinghiJ0
++ _associated conformance 12PoirotBlocks10AnyCodableOs43ExpressibleByExtendedGraphemeClusterLiteralAAs0ef13UnicodeScalarJ0
++ _associated conformance 12PoirotBlocks11SyntaxErrorV9QueryTypeOSHAASQ
++ _associated conformance 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLOSHAASQ
++ _associated conformance 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs25ExpressibleByFloatLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs26ExpressibleByStringLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs27ExpressibleByBooleanLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs27ExpressibleByIntegerLiteralAA0hI4TypesADP_s01_fg7BuiltinhI0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesADP_s01_fg7BuiltinhiJ0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesADP_s01_fg7BuiltinhijK0
++ _associated conformance 12PoirotBlocks15AnyDatasetValueVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0
++ _associated conformance 12PoirotBlocks15DataSourceModelVSHAASQ
++ _associated conformance 12PoirotBlocks15DataSourceModelVSLAASQ
++ _associated conformance 12PoirotBlocks15DataSourceModelVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV0E7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO10Foundation09LocalizedF0AAsAD
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOSHAASQ
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLOSHAASQ
++ _associated conformance 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLOSHAASQ
++ _associated conformance 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLOSHAASQ
++ _associated conformance 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 12PoirotBlocks8HostInfoVSHAASQ
++ _associated conformance 12PoirotBlocks8HostInfoVSLAASQ
++ _associated conformance 12PoirotBlocks8HostInfoVs12IdentifiableAA2IDsADP_SH
++ _block_copy_helper.10
++ _block_copy_helper.4
++ _block_descriptor.12
++ _block_descriptor.6
++ _block_destroy_helper.11
++ _block_destroy_helper.5
++ _get_enum_tag_for_layout_string 12PoirotBlocks14RecipeMetadataVSg
++ _get_enum_tag_for_layout_string 12PoirotBlocks16DefaultHostErrorO
++ _get_enum_tag_for_layout_string 12PoirotBlocks17BlockExecutionLogV0E7ContentO
++ _get_enum_tag_for_layout_string 12PoirotBlocks17BlockExecutionLogV0E7ContentOSg
++ _get_enum_tag_for_layout_string 12PoirotBlocks18RecipeExecutionLogVSg
++ _get_enum_tag_for_layout_string 12PoirotBlocks20ParametersBlockErrorO
++ _get_enum_tag_for_layout_string 12PoirotBlocks8ArchiverV5ErrorO
++ _os_log_type_enabled
++ _swift_coroFrameAlloc
++ _symbolic $s12PoirotBlocks18SupportingHostInfoP
++ _symbolic $s12PoirotBlocks22CoersingTaskParametersP
++ _symbolic $s12PoirotBlocks23QueryBlockInfoProvidingP
++ _symbolic $s12PoirotBlocks23SyntaxCheckingProcessorP
++ _symbolic $ss12IdentifiableP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss25ExpressibleByFloatLiteralP
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss27ExpressibleByBooleanLiteralP
++ _symbolic $ss27ExpressibleByIntegerLiteralP
++ _symbolic $ss30ExpressibleByDictionaryLiteralP
++ _symbolic $ss32ExpressibleByStringInterpolationP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic 10TaskParams_____Qz 12PoirotBlocks22CoersingTaskParametersP
++ _symbolic SDySS_____G 12PoirotBlocks17BlockExecutionLogV0E7ContentO
++ _symbolic SDySSypG
++ _symbolic SS3key______5valuet 12PoirotBlocks17DatasetColumnTypeV
++ _symbolic SS4name_SaySDySS______pGG7contentt 12PoirotSQLite0B4TypeP
++ _symbolic SS7message_t
++ _symbolic SS_SSt
++ _symbolic SS_Say_____Gt 10PoirotUDFs6ColumnV
++ _symbolic SS_So8NSObjectCt
++ _symbolic SS______t 12PoirotBlocks15AnyDatasetValueV
++ _symbolic SaySo11BMSQLColumnCG
++ _symbolic Say_____G 12AppleArchive0B5FlagsV
++ _symbolic Say_____G 12PoirotBlocks17BlockExecutionLogV
++ _symbolic Say_____G 12PoirotBlocks19DatasetColumnLayoutV
++ _symbolic Say_____G 12PoirotBlocks22AttachedDatabaseConfigV
++ _symbolic Say_____G 12PoirotBlocks23CustomStreamTableConfigV
++ _symbolic Say_____G 12PoirotBlocks8LogEntryV
++ _symbolic Say_____GSg 12PoirotBlocks19DatasetColumnLayoutV
++ _symbolic So14NSUserDefaultsC
++ _symbolic So18BMPublisherOptionsCSgSo12BPSPublisherCyyXlGIeggo_
++ _symbolic _____ 12PoirotBlocks0A7TestingC
++ _symbolic _____ 12PoirotBlocks10LogSupportV
++ _symbolic _____ 12PoirotBlocks11SyntaxErrorV
++ _symbolic _____ 12PoirotBlocks11SyntaxErrorV9QueryTypeO
++ _symbolic _____ 12PoirotBlocks12ExecutionLogV
++ _symbolic _____ 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLO
++ _symbolic _____ 12PoirotBlocks14QueryInfoErrorO
++ _symbolic _____ 12PoirotBlocks16DefaultHostErrorO
++ _symbolic _____ 12PoirotBlocks16StructLogHandlerC
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV0E7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV5ErrorO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____ 12PoirotBlocks18RecipeExecutionLogV
++ _symbolic _____ 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLO
++ _symbolic _____ 12PoirotBlocks20NamedQueryParametersC
++ _symbolic _____ 12PoirotBlocks20ParametersBlockErrorO
++ _symbolic _____ 12PoirotBlocks21ExecutionInputPayloadV
++ _symbolic _____ 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLO
++ _symbolic _____ 12PoirotBlocks22DefaultHostEnvironmentC
++ _symbolic _____ 12PoirotBlocks22ExecutionOutputPayloadV
++ _symbolic _____ 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLO
++ _symbolic _____ 12PoirotBlocks24UserDefaultsTimeBookmarkC
++ _symbolic _____ 12PoirotBlocks8ArchiverV
++ _symbolic _____ 12PoirotBlocks8ArchiverV5ErrorO
++ _symbolic _____ 12PoirotBlocks8BlockLogV
++ _symbolic _____ 12PoirotBlocks9RecipeLogV
++ _symbolic _____ s26DefaultStringInterpolationV
++ _symbolic _____4data______12columnLayoutt 10Foundation4DataV 12PoirotBlocks19DatasetColumnLayoutV
++ _symbolic _____4data_t 10Foundation4DataV
++ _symbolic _____Sg 12PoirotBlocks0A18ToolTaskParametersV
++ _symbolic _____Sg 12PoirotBlocks10AnyCodableO
++ _symbolic _____Sg 12PoirotBlocks10DataSourceV
++ _symbolic _____Sg 12PoirotBlocks12ExecutionLogV
++ _symbolic _____Sg 12PoirotBlocks17BlockExecutionLogV0E7ContentO
++ _symbolic _____Sg 12PoirotBlocks18RecipeExecutionLogV
++ _symbolic _____Sg 12PoirotSQLite0B11SyntaxErrorV4InfoV
++ _symbolic _____Sg 6System8FilePathV
++ _symbolic ______p 12PoirotBlocks23QueryBlockInfoProvidingP
++ _symbolic ______pSg 12PoirotBlocks17BlockImplementingP
++ _symbolic ______pSg 12PoirotBlocks21TimeWindowConfiguringP
++ _symbolic ______pSg 12PoirotBlocks23QueryBlockInfoProvidingP
++ _symbolic ______pSg 12PoirotBlocks26QueryParametersConfiguringP
++ _symbolic _____ySSG 11TabularData6ColumnV
++ _symbolic _____ySSSDySS_____GG s18_DictionaryStorageC 12PoirotBlocks17DatasetColumnTypeV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 10PoirotUDFs6ColumnV
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 10PoirotUDFs6ColumnV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12PoirotBlocks17BlockExecutionLogV0G7ContentO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12PoirotBlocks17DatasetColumnTypeV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 12PoirotBlocks18AnyQueryParametersV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks16BlockLogMetadataV10CodingKeys33_1BCCCEBB22987E16343BFCA86C6FC421LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks12ExecutionLogV10CodingKeys33_1E9D86BB2B44207129843B2FC1BE91C3LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO13CsvCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO14JsonCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO15ErrorCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO16BinaryCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV0H7ContentO17MessageCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV5ErrorO10CodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks17BlockExecutionLogV5ErrorO21InitFailureCodingKeys33_CBA1EBA1B78EBE6E832A01FEE42D6B61LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks18RecipeExecutionLogV10CodingKeys33_46F443B1F266F96722E53C94298651A9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks21ExecutionInputPayloadV10CodingKeys33_8B1252F5669CA141EE73D9AC2E4186B2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 12PoirotBlocks22ExecutionOutputPayloadV10CodingKeys33_E4CEE0BFC99A8812556B9DE3FC2F406DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12PoirotBlocks19DatasetColumnLayoutV
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _type_layout_string 12PoirotBlocks11SyntaxErrorV
++ _type_layout_string 12PoirotBlocks12ExecutionLogV
++ _type_layout_string 12PoirotBlocks14QueryInfoErrorO
++ _type_layout_string 12PoirotBlocks16DefaultHostErrorO
++ _type_layout_string 12PoirotBlocks17BlockExecutionLogV
++ _type_layout_string 12PoirotBlocks17BlockExecutionLogV0E7ContentO
++ _type_layout_string 12PoirotBlocks17BlockExecutionLogV5ErrorO
++ _type_layout_string 12PoirotBlocks18RecipeExecutionLogV
++ _type_layout_string 12PoirotBlocks20ParametersBlockErrorO
++ _type_layout_string 12PoirotBlocks8ArchiverV5ErrorO
++ _type_layout_string 12PoirotBlocks8BlockLogV
++ _type_layout_string 12PoirotBlocks9RecipeLogV
++ _type_layout_string So18BMStreamIdentifiera
+- ___unnamed_2
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_PoirotBlocks
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_PoirotBlocks
+- _block_copy_helper.1
+- _block_copy_helper.7
+- _block_descriptor.3
+- _block_descriptor.9
+- _block_destroy_helper.2
+- _block_destroy_helper.8
+- _get_enum_tag_for_layout_string 12PoirotBlocks20DatasetSnapshotErrorO
+- _objc_release_x9
+- _objc_retain_x27
+- _symbolic $s12PoirotBlocks16AnyCodableScalarP
+- _symbolic $s12PoirotBlocks19ValidatingProcessorP
+- _symbolic _____ 12PoirotBlocks20DatasetSnapshotErrorO
+- _symbolic _____Sg 17PoirotSchematizer15MessageManifestV
+- _symbolic _____yKc 12PoirotBlocks19BaseHostEnvironmentC
+- _symbolic _____y_____G 12PoirotBlocks0A4TaskC AA21DefaultHostControllerC
+- _type_layout_string 12PoirotBlocks20DatasetSnapshotErrorO
+- _type_layout_string So19BMUseCaseIdentifiera
+CStrings:
++ " parameters, but "
++ " parameters, but nothing is provided as an input"
++ ", requires input parameters with name "
++ "@\"BMStoreBookmark\"16@0:8"
++ "Binary data is missing"
++ "Compression stream error"
++ "Configuration error"
++ "Decode stream error"
++ "Decompression stream error"
++ "Encode stream error"
++ "Error message data is missing"
++ "Error: no bytes decompressed"
++ "Extract stream error"
++ "Failed construct keys"
++ "Failed to construct CSV Info"
++ "Failed to contruct error message"
++ "Failed to decode columns layout"
++ "File stream error"
++ "JSON data is missing"
++ "Logic error: no entries"
++ "Missing CSV Log Entries"
++ "PoirotBlocks.DefaultHostEnvironment"
++ "PoirotBlocks/PoirotTesting.swift"
++ "QueryParametersBlock requires query parameter with \"%s\" name and environment does not provide one"
++ "QueryParametersBlock requires query parameter with \"%s\" name to be of the %s, but environment provides %s"
++ "TYP,PAT,LNK,DEV,DAT,UID,GID,MOD,FLG,MTM,BTM,CTM"
++ "URLForResource:withExtension:"
++ "Unsupported number of log entries: "
++ "_TtC12PoirotBlocks13PoirotTesting"
++ "_TtC12PoirotBlocks16StructLogHandler"
++ "_TtC12PoirotBlocks20NamedQueryParameters"
++ "_TtC12PoirotBlocks22DefaultHostEnvironment"
++ "_TtC12PoirotBlocks24UserDefaultsTimeBookmark"
++ "_supportedQueryParameters"
++ "_supportsTimeWindow"
++ "bookmark"
++ "bookmarkKey"
++ "bundleForClass:"
++ "com.apple.PoirotBlocks"
++ "directoryURL"
++ "doubleForKey:"
++ "executionParameters"
++ "hostTaskIdentifier"
++ "init(recipeURL:loggingType:)"
++ "mlExtensionDictionary"
++ "name content "
++ "no bytes decompressed"
++ "queryParametersConfig"
++ "removeItemAtURL:error:"
++ "setObject:forKey:"
++ "standardUserDefaults"
++ "temporaryDirectory"
++ "timeWindowConfig"
++ "userDefaults"
+- "_environmentFactory"
+
+```

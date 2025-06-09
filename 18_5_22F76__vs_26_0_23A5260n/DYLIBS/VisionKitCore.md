@@ -1,0 +1,1162 @@
+## VisionKitCore
+
+> `/System/Library/PrivateFrameworks/VisionKitCore.framework/VisionKitCore`
+
+```diff
+
+-281.402.1.0.0
+-  __TEXT.__text: 0xc6ba8
+-  __TEXT.__auth_stubs: 0x14c0
+-  __TEXT.__objc_methlist: 0xef8c
+-  __TEXT.__const: 0x874
+-  __TEXT.__gcc_except_tab: 0x2930
+-  __TEXT.__cstring: 0x799d
+-  __TEXT.__oslogstring: 0x34c2
+-  __TEXT.__dlopen_cstrs: 0x475
++307.0.0.0.0
++  __TEXT.__text: 0xca594
++  __TEXT.__auth_stubs: 0x1590
++  __TEXT.__objc_methlist: 0xf414
++  __TEXT.__const: 0x886
++  __TEXT.__gcc_except_tab: 0x2948
++  __TEXT.__cstring: 0x7cd9
++  __TEXT.__oslogstring: 0x3bd1
++  __TEXT.__dlopen_cstrs: 0x78d
+   __TEXT.__ustring: 0x9a
+-  __TEXT.__unwind_info: 0x3cb8
+-  __TEXT.__objc_classname: 0x17e9
+-  __TEXT.__objc_methname: 0x26aff
+-  __TEXT.__objc_methtype: 0x6107
+-  __TEXT.__objc_stubs: 0x1a600
+-  __DATA_CONST.__got: 0xd18
+-  __DATA_CONST.__const: 0x3aa0
+-  __DATA_CONST.__objc_classlist: 0x568
++  __TEXT.__unwind_info: 0x3da8
++  __TEXT.__objc_classname: 0x1877
++  __TEXT.__objc_methname: 0x278c8
++  __TEXT.__objc_methtype: 0x62e0
++  __TEXT.__objc_stubs: 0x1ac80
++  __DATA_CONST.__got: 0xd40
++  __DATA_CONST.__const: 0x3c28
++  __DATA_CONST.__objc_classlist: 0x588
+   __DATA_CONST.__objc_catlist: 0x100
+-  __DATA_CONST.__objc_protolist: 0x1d8
++  __DATA_CONST.__objc_protolist: 0x1e0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x8a90
++  __DATA_CONST.__objc_selrefs: 0x8d58
+   __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0x388
+-  __DATA_CONST.__objc_arraydata: 0x288
+-  __AUTH_CONST.__auth_got: 0xa78
+-  __AUTH_CONST.__const: 0xe10
+-  __AUTH_CONST.__cfstring: 0x6740
+-  __AUTH_CONST.__objc_const: 0x1d7f0
++  __DATA_CONST.__objc_superrefs: 0x398
++  __DATA_CONST.__objc_arraydata: 0x290
++  __AUTH_CONST.__auth_got: 0xae0
++  __AUTH_CONST.__const: 0xe50
++  __AUTH_CONST.__cfstring: 0x6a00
++  __AUTH_CONST.__objc_const: 0x1dfe8
+   __AUTH_CONST.__objc_intobj: 0x3f0
+   __AUTH_CONST.__objc_doubleobj: 0xe0
+   __AUTH_CONST.__objc_arrayobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x2120
+-  __DATA.__objc_ivar: 0x10dc
+-  __DATA.__data: 0x16c8
+-  __DATA.__bss: 0x418
++  __AUTH.__objc_data: 0x2260
++  __DATA.__objc_ivar: 0x1130
++  __DATA.__data: 0x1728
++  __DATA.__bss: 0x4b0
+   __DATA_DIRTY.__objc_data: 0x14f0
+-  __DATA_DIRTY.__bss: 0x118
++  __DATA_DIRTY.__bss: 0x120
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/PrivateFrameworks/CoreRecognition.framework/CoreRecognition
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/DataDetectorsCore.framework/DataDetectorsCore
++  - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
+   - /System/Library/PrivateFrameworks/MediaAnalysisServices.framework/MediaAnalysisServices
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
+   - /System/Library/PrivateFrameworks/TextRecognition.framework/TextRecognition
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /System/Library/PrivateFrameworks/VisionKitInternal.framework/VisionKitInternal
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 0D6A33BC-D868-3F05-8D0A-175E51F2541B
+-  Functions: 5965
+-  Symbols:   20218
+-  CStrings:  9508
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: BA43FF4E-4E12-3FE4-80C6-597A0E8AFFF3
++  Functions: 6078
++  Symbols:   20585
++  CStrings:  9744
+ 
+Symbols:
++ +[VKCGMAvailability sharedListener]
++ +[VKCGMAvailability sharedListener].cold.1
++ +[VKCGMAvailability supportsVI]
++ +[VKCImageAnalyzer prewarmSoftLinkingIfNecessary]
++ +[VKCImageAnalyzer prewarmSoftLinkingIfNecessary].cold.1
++ +[VKCImageAnalyzer processMRCInfo:completionHandler:]
++ +[VKCImageAnalyzer supportedAnalysisTypes].cold.2
++ +[VKCInternalSettings bypassVIV2MinSizeWorkaroundSettingsValue]
++ +[VKCInternalSettings bypassVIV2MinSizeWorkaround]
++ +[VKCInternalSettings disableVisualIntelligenceSettingsValue]
++ +[VKCInternalSettings disableVisualIntelligence]
++ +[VKCInternalSettings inhibitVisualBIDISettingsValue]
++ +[VKCInternalSettings inhibitVisualBIDI]
++ +[VKCInternalSettings localeFreeQRSupportSettingsValue]
++ +[VKCInternalSettings localeFreeQRSupport]
++ +[VKCInternalSettings logNormalizedVisibleRectProgressSettingsValue]
++ +[VKCInternalSettings logNormalizedVisibleRectProgress]
++ +[VKCVisualSearchResultInfo visualIntelligenceResultItem]
++ -[UIImage(Utilities) vk_ioSurface]
++ -[VKCActionInfoContainer .cxx_destruct]
++ -[VKCActionInfoContainer actionInfoView]
++ -[VKCActionInfoContainer currentType]
++ -[VKCActionInfoContainer omniBarWrapperIfExists]
++ -[VKCActionInfoContainer omniBarWrapper]
++ -[VKCActionInfoContainer setActionInfoView:]
++ -[VKCActionInfoContainer setCurrentType:]
++ -[VKCActionInfoContainer setOmniBarWrapper:]
++ -[VKCActionInfoContainer setViCoordinator:]
++ -[VKCActionInfoContainer viCoordinator]
++ -[VKCGMAvailability dealloc]
++ -[VKCGMAvailability init]
++ -[VKCGMAvailability setSupportsVI:]
++ -[VKCGMAvailability supportsVI]
++ -[VKCImageAnalysisBaseView actionInfoAlphaBeforeLiveResize]
++ -[VKCImageAnalysisBaseView addAsyncMRCElement:]
++ -[VKCImageAnalysisBaseView didEndLiveResize:]
++ -[VKCImageAnalysisBaseView isVIHosted]
++ -[VKCImageAnalysisBaseView isVisualIntelligenceSheetPresented]
++ -[VKCImageAnalysisBaseView isVisualIntelligenceType]
++ -[VKCImageAnalysisBaseView omnibar]
++ -[VKCImageAnalysisBaseView setActionInfoAlphaBeforeLiveResize:]
++ -[VKCImageAnalysisBaseView setIsVIHosted:]
++ -[VKCImageAnalysisBaseView setOmnibar:]
++ -[VKCImageAnalysisBaseView setViCoordinator:]
++ -[VKCImageAnalysisBaseView setVisualIntelligenceView:]
++ -[VKCImageAnalysisBaseView viCoordinatorIfExists]
++ -[VKCImageAnalysisBaseView viCoordinator]
++ -[VKCImageAnalysisBaseView visualIntelligenceView:didRequestVluEnabled:]
++ -[VKCImageAnalysisBaseView visualIntelligenceView:isSheetPresentedDidChangeToValue:]
++ -[VKCImageAnalysisBaseView visualIntelligenceViewIfExists]
++ -[VKCImageAnalysisBaseView visualIntelligenceView]
++ -[VKCImageAnalysisBaseView willEnterLiveResize:]
++ -[VKCImageAnalysisInteraction _addAsyncMRCElement:]
++ -[VKCImageAnalysisInteraction _isVIHosted]
++ -[VKCImageAnalysisInteraction _setActiveInteractionTypes:updateAutomaticState:].cold.1
++ -[VKCImageAnalysisInteraction _viHostDelegate]
++ -[VKCImageAnalysisInteraction actionInfoContainer]
++ -[VKCImageAnalysisInteraction dismissVisualIntelligenceSheetIfNecessary]
++ -[VKCImageAnalysisInteraction interactionDelegateForBaseView:]
++ -[VKCImageAnalysisInteraction isVI]
++ -[VKCImageAnalysisInteraction isVisualIntelligenceSheetVisible]
++ -[VKCImageAnalysisInteraction omnibarContainerView]
++ -[VKCImageAnalysisInteraction presentVisualIntelligenceSheet]
++ -[VKCImageAnalysisInteraction resetCustomLayoutActionInfoView]
++ -[VKCImageAnalysisInteraction setActionInfoContainer:]
++ -[VKCImageAnalysisInteraction set_isVIHosted:]
++ -[VKCImageAnalysisInteraction set_viHostDelegate:]
++ -[VKCImageAnalysisInteraction textGesturesForFailureRequirements]
++ -[VKCImageAnalysisInteraction visualIntelligenceDidRequestVluEnabled:forBaseOverlayView:]
++ -[VKCImageAnalysisInteraction visualIntelligenceResultItem]
++ -[VKCImageAnalysisInteraction visualIntelligenceSheetPresentedDidChangeForBaseOverlayView:]
++ -[VKCImageAnalysisResult setVisualIntelligenceResult:]
++ -[VKCImageAnalysisResult setVisualIntelligenceSaliencyStream:]
++ -[VKCImageAnalysisResult visualIntelligenceResult]
++ -[VKCImageAnalysisResult visualIntelligenceSaliencyStream]
++ -[VKCImageAnalyzerRequest blockingGenerateImage]
++ -[VKCImageAnalyzerRequest setViConfiguration:]
++ -[VKCImageAnalyzerRequest tempPixelBufferRef].cold.2
++ -[VKCImageAnalyzerRequest viConfiguration]
++ -[VKCImageAnalyzerRequest viPixelBufferRef]
++ -[VKCImageAnalyzerRequest viRequest]
++ -[VKCImageAnalyzerRequest viRequest].cold.1
++ -[VKCImageAnalyzerRequestVIConfiguration .cxx_destruct]
++ -[VKCImageAnalyzerRequestVIConfiguration isScreenshotsVLUAuthorized]
++ -[VKCImageAnalyzerRequestVIConfiguration setIsScreenshotsVLUAuthorized:]
++ -[VKCImageBaseOverlayView isVIHosted]
++ -[VKCImageBaseOverlayView visibleRect]
++ -[VKCImageDataDetectorView _allElements]
++ -[VKCImageDataDetectorView _appendMRCAsyncElement:]
++ -[VKCImageDataDetectorView _displayedElements]
++ -[VKCImageDataDetectorView _unfilteredElements]
++ -[VKCImageDataDetectorView appendMRCAsyncElement:]
++ -[VKCImageDataDetectorView set_allElements:]
++ -[VKCImageDataDetectorView set_displayedElements:]
++ -[VKCImageDataDetectorView set_unfilteredElements:]
++ -[VKCImageTextSelectionView_iOS _wantsVisualBIDISelections]
++ -[VKCImageTextSelectionView_iOS gesturesForFailureRequirements]
++ -[VKCMRCDataDetectorInfo .cxx_destruct]
++ -[VKCMRCDataDetectorInfo initWithBarcodeObservation:]
++ -[VKCMRCDataDetectorInfo observation]
++ -[VKCMRCDataDetectorInfo setObservation:]
++ -[VKCVisualSearchResultInfo isVisualIntelligenceItem]
++ -[VKImageAnalysisButton inhibitGlassMaterial]
++ -[VKImageAnalysisButton setInhibitGlassMaterial:]
++ -[VKImageAnalyzerMadInterface _didFinishRequest:withAnalysis:analyticsEvent:error:]
++ -[VKImageAnalyzerMadInterface processMRCInfo:completionHandler:]
++ -[VKImageAnalyzerMadInterface setViInterface:]
++ -[VKImageAnalyzerMadInterface viInterface]
++ -[VKKeyboardCameraGuidanceView setBounds:]
++ -[VKKeyboardCameraInsertButton enabled]
++ -[VKKeyboardCameraInsertButton setEnabled:]
++ GCC_except_table108
++ GCC_except_table121
++ GCC_except_table125
++ GCC_except_table136
++ GCC_except_table147
++ GCC_except_table151
++ GCC_except_table160
++ GCC_except_table161
++ GCC_except_table172
++ GCC_except_table173
++ GCC_except_table175
++ GCC_except_table192
++ GCC_except_table197
++ GCC_except_table200
++ GCC_except_table201
++ GCC_except_table202
++ GCC_except_table229
++ GCC_except_table249
++ GCC_except_table255
++ GCC_except_table256
++ GCC_except_table62
++ GCC_except_table95
++ _CFNotificationCenterAddObserver
++ _CFNotificationCenterGetDarwinNotifyCenter
++ _CFNotificationCenterRemoveObserver
++ _CGImageCreateFromIOSurface
++ _OBJC_CLASS_$_GMAvailabilityWrapper
++ _OBJC_CLASS_$_VKCActionInfoContainer
++ _OBJC_CLASS_$_VKCGMAvailability
++ _OBJC_CLASS_$_VKCImageAnalyzerRequestVIConfiguration
++ _OBJC_CLASS_$_VKCMRCDataDetectorInfo
++ _OBJC_IVAR_$_VKCActionInfoContainer._actionInfoView
++ _OBJC_IVAR_$_VKCActionInfoContainer._currentType
++ _OBJC_IVAR_$_VKCActionInfoContainer._omniBarWrapper
++ _OBJC_IVAR_$_VKCActionInfoContainer._viCoordinator
++ _OBJC_IVAR_$_VKCGMAvailability._supportsVI
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._actionInfoAlphaBeforeLiveResize
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._isVIHosted
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._isVisualIntelligenceSheetPresented
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._omnibar
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._viCoordinator
++ _OBJC_IVAR_$_VKCImageAnalysisBaseView._visualIntelligenceView
++ _OBJC_IVAR_$_VKCImageAnalysisInteraction.__viHostDelegate
++ _OBJC_IVAR_$_VKCImageAnalysisInteraction._actionInfoContainer
++ _OBJC_IVAR_$_VKCImageAnalysisResult._visualIntelligenceResult
++ _OBJC_IVAR_$_VKCImageAnalysisResult._visualIntelligenceSaliencyStream
++ _OBJC_IVAR_$_VKCImageAnalyzerRequest._viConfiguration
++ _OBJC_IVAR_$_VKCImageAnalyzerRequestVIConfiguration._isScreenshotsVLUAuthorized
++ _OBJC_IVAR_$_VKCImageDataDetectorView.__allElements
++ _OBJC_IVAR_$_VKCImageDataDetectorView.__displayedElements
++ _OBJC_IVAR_$_VKCImageDataDetectorView.__unfilteredElements
++ _OBJC_IVAR_$_VKCMRCDataDetectorInfo._observation
++ _OBJC_IVAR_$_VKImageAnalysisButton._inhibitGlassMaterial
++ _OBJC_IVAR_$_VKImageAnalyzerMadInterface._viInterface
++ _OBJC_IVAR_$_VKKeyboardCameraInsertButton._enabled
++ _OBJC_METACLASS_$_VKCActionInfoContainer
++ _OBJC_METACLASS_$_VKCGMAvailability
++ _OBJC_METACLASS_$_VKCImageAnalyzerRequestVIConfiguration
++ _OBJC_METACLASS_$_VKCMRCDataDetectorInfo
++ _VKCGenerativeModelsAvailabilityDidChange
++ _VKMUIStringForVKVSDomain
++ _VisualIntelligenceCoreLibraryCore
++ _VisualIntelligenceCoreLibraryCore.frameworkLibrary
++ _VisualIntelligenceUILibraryCore.frameworkLibrary
++ __OBJC_$_CLASS_METHODS_VKCGMAvailability
++ __OBJC_$_CLASS_METHODS_VKCVisualSearchResultInfo
++ __OBJC_$_CLASS_PROP_LIST_VKCGMAvailability
++ __OBJC_$_INSTANCE_METHODS_UIView(Utilities|VisionKitCore)
++ __OBJC_$_INSTANCE_METHODS_VKCActionInfoContainer
++ __OBJC_$_INSTANCE_METHODS_VKCGMAvailability
++ __OBJC_$_INSTANCE_METHODS_VKCImageAnalyzerRequestVIConfiguration
++ __OBJC_$_INSTANCE_METHODS_VKCMRCDataDetectorInfo
++ __OBJC_$_INSTANCE_VARIABLES_VKCActionInfoContainer
++ __OBJC_$_INSTANCE_VARIABLES_VKCGMAvailability
++ __OBJC_$_INSTANCE_VARIABLES_VKCImageAnalyzerRequestVIConfiguration
++ __OBJC_$_INSTANCE_VARIABLES_VKCMRCDataDetectorInfo
++ __OBJC_$_PROP_LIST_VKCActionInfoContainer
++ __OBJC_$_PROP_LIST_VKCGMAvailability
++ __OBJC_$_PROP_LIST_VKCImageAnalyzerRequestVIConfiguration
++ __OBJC_$_PROP_LIST_VKCMRCDataDetectorInfo
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VIUVisualIntelligenceViewDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VIUVisualIntelligenceViewDelegate
++ __OBJC_$_PROTOCOL_REFS_VIUVisualIntelligenceViewDelegate
++ __OBJC_CLASS_RO_$_VKCActionInfoContainer
++ __OBJC_CLASS_RO_$_VKCGMAvailability
++ __OBJC_CLASS_RO_$_VKCImageAnalyzerRequestVIConfiguration
++ __OBJC_CLASS_RO_$_VKCMRCDataDetectorInfo
++ __OBJC_LABEL_PROTOCOL_$_VIUVisualIntelligenceViewDelegate
++ __OBJC_METACLASS_RO_$_VKCActionInfoContainer
++ __OBJC_METACLASS_RO_$_VKCGMAvailability
++ __OBJC_METACLASS_RO_$_VKCImageAnalyzerRequestVIConfiguration
++ __OBJC_METACLASS_RO_$_VKCMRCDataDetectorInfo
++ __OBJC_PROTOCOL_$_VIUVisualIntelligenceViewDelegate
++ __UISolariumEnabled
++ __UIWindowSceneDidBeginLiveResizeNotification
++ __UIWindowSceneDidEndLiveResizeNotification
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI25CGPathRandomAccessSubpathEEPS2_EclB8ne200100Ev
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEPS6_EclB8ne200100Ev
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
++ __ZNSt3__111__sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__114__split_bufferI25CGPathRandomAccessSubpathRNS_9allocatorIS1_EEE5clearB8ne200100Ev
++ __ZNSt3__114__split_bufferINS_6vectorIN10ClipperLib8IntPointENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_T0_
++ __ZNSt3__116__insertion_sortB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_T0_
++ __ZNSt3__116__pad_and_outputB8ne200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__117__floyd_sift_downB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI25CGPathRandomAccessElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI25CGPathRandomAccessSubpathEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI7CGPointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN10ClipperLib11DoublePointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN10ClipperLib12LocalMinimumEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIN10ClipperLib8IntPointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIllEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN10ClipperLib13IntersectNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN10ClipperLib4JoinEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN10ClipperLib5TEdgeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN10ClipperLib6OutRecEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN10ClipperLib8PolyNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumES6_EET1_S7_S7_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_S8_EET1_S9_S9_T2_OT0_
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__124__put_character_sequenceB8ne200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEbT1_S9_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI25CGPathRandomAccessSubpathEEPS3_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS2_IS5_EEEEEEPS7_EEED2B8ne200100Ev
++ __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPN10ClipperLib12LocalMinimumERNS2_12LocMinSorterEEET0_S7_S7_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8ne200100INS_17_ClassicAlgPolicyEPPN10ClipperLib13IntersectNodeERPFbS4_S4_EEET0_S9_S9_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPN10ClipperLib12LocalMinimumERNS2_12LocMinSorterEEENS_4pairIT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8ne200100INS_17_ClassicAlgPolicyEPPN10ClipperLib13IntersectNodeERPFbS4_S4_EEENS_4pairIT0_bEESA_SA_T1_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI25CGPathRandomAccessSubpathEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
++ __ZNSt3__16vectorI25CGPathRandomAccessElementNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI25CGPathRandomAccessSubpathNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorI25CGPathRandomAccessSubpathNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEE18__insert_with_sizeB8ne200100IPS1_S6_EENS_11__wrap_iterIS6_EENS7_IPKS1_EET_T0_l
++ __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPS2_S7_EEvT_T0_m
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE9push_backB8ne200100EOS2_
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
++ __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEEC2B8ne200100Em
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE16__init_with_sizeB8ne200100IPS5_S9_EEvT_T0_m
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE22__construct_one_at_endB8ne200100IJRKS5_EEEvDpOT_
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE24__emplace_back_slow_pathIJRKS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE5clearB8ne200100Ev
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE9push_backB8ne200100ERKS5_
++ __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEEC2B8ne200100Em
++ __ZNSt3__16vectorINS_4pairIllEENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN10ClipperLib13IntersectNodeENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN10ClipperLib4JoinENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN10ClipperLib4JoinENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
++ __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
++ __ZNSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB8ne200100IPxS5_EEvT_T0_m
++ __ZNSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__17__sort4B8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_Li0EEEvT1_S9_S9_S9_T0_
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumELi0EEEvT1_S7_S7_S7_S7_T0_
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERNS_4lessIxEENS_11__wrap_iterIPxEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB8ne200100INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
++ __ZNSt3__19allocatorI25CGPathRandomAccessSubpathE7destroyB8ne200100EPS1_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke.179
++ ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke.193
++ ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_2.182
++ ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_2.195
++ ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_3.196
++ ___35+[VKCGMAvailability sharedListener]_block_invoke
++ ___45-[VKCImageAnalysisBaseView didEndLiveResize:]_block_invoke
++ ___48-[VKCImageAnalysisBaseView willEnterLiveResize:]_block_invoke
++ ___49+[VKCImageAnalyzer prewarmSoftLinkingIfNecessary]_block_invoke
++ ___49+[VKCImageAnalyzer prewarmSoftLinkingIfNecessary]_block_invoke_2
++ ___51-[VKCImageAnalysisInteraction _addAsyncMRCElement:]_block_invoke
++ ___51-[VKCImageAnalysisInteraction _addAsyncMRCElement:]_block_invoke_2
++ ___55-[VKCImageAnalysisBaseView loadQuickActionsIfNecessary]_block_invoke.208
++ ___61-[VKImageAnalyzerMadInterface _processRequest:callbackQueue:]_block_invoke.190
++ ___61-[VKImageAnalyzerMadInterface _processRequest:callbackQueue:]_block_invoke.cold.1
++ ___64-[VKImageAnalyzerMadInterface processMRCInfo:completionHandler:]_block_invoke
++ ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.219
++ ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.219.cold.1
++ ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.221
++ ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.199
++ ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.199.cold.1
++ ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.204
++ ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.204.cold.1
++ ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.214
++ ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.214.cold.1
++ ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.216
++ ___70-[VKCImageAnalyzer _processRequest:progressHandler:completionHandler:]_block_invoke.212
++ ___70-[VKCImageAnalyzer _processRequest:progressHandler:completionHandler:]_block_invoke_2.213
++ ___83-[VKImageAnalyzerMadInterface _didFinishRequest:withAnalysis:analyticsEvent:error:]_block_invoke
++ ___VisualIntelligenceCoreLibraryCore_block_invoke
++ ___VisualIntelligenceUILibraryCore_block_invoke
++ ___block_descriptor_48_e8_32s40w_e35_v16?0"VKCMRCDataDetectorElement"8lw40l8s32l8
++ ___block_descriptor_66_e8_32s40s48s56w_e17_v16?0"NSArray"8ls32l8w56l8s40l8s48l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e57_v24?0"VICVisualIntelligenceAnalysisResult"8"NSError"16ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80bs88w_e5_v8?0ls32l8s40l8w88l8s48l8s80l8s56l8s64l8s72l8
++ ___block_literal_global.168
++ ___block_literal_global.171
++ ___block_literal_global.184
++ ___block_literal_global.189
++ ___block_literal_global.209
++ ___block_literal_global.260
++ ___block_literal_global.28
++ ___block_literal_global.313
++ ___block_literal_global.33
++ ___block_literal_global.39
++ ___block_literal_global.42
++ ___getBCSDetectedCodeClass_block_invoke
++ ___getBCSDetectedCodeClass_block_invoke.cold.1
++ ___getVICVisualIntelligenceAnalysisRequestClass_block_invoke
++ ___getVICVisualIntelligenceAnalysisRequestConfigClass_block_invoke
++ ___getVICVisualIntelligenceAnalyzerClass_block_invoke
++ ___getVIUIVisualIntelligenceViewCoordinatorClass_block_invoke
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_reflection_version
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDarwin_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_VisionKitCore
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_VisionKitCore
++ _audit_stringVisualIntelligenceCore
++ _audit_stringVisualIntelligenceUI
++ _getBCSDetectedCodeClass.softClass
++ _getVICVisualIntelligenceAnalysisRequestClass.softClass
++ _getVICVisualIntelligenceAnalysisRequestConfigClass.softClass
++ _getVICVisualIntelligenceAnalyzerClass
++ _getVICVisualIntelligenceAnalyzerClass.softClass
++ _getVIUIVisualIntelligenceViewCoordinatorClass.softClass
++ _objc_msgSend$_allElements
++ _objc_msgSend$_appendMRCAsyncElement:
++ _objc_msgSend$_didFinishRequest:withAnalysis:analyticsEvent:error:
++ _objc_msgSend$_displayedElements
++ _objc_msgSend$_glassButtonConfiguration
++ _objc_msgSend$_remoteViewControllerProxy
++ _objc_msgSend$_tintedGlassButtonConfiguration
++ _objc_msgSend$_unfilteredElements
++ _objc_msgSend$actionInfoAlphaBeforeLiveResize
++ _objc_msgSend$actionInfoContainer
++ _objc_msgSend$addAsyncMRCElement:
++ _objc_msgSend$appendMRCAsyncElement:
++ _objc_msgSend$bypassVIV2MinSizeWorkaround
++ _objc_msgSend$currentWithUseCaseIdentifiers:language:
++ _objc_msgSend$detectedCodeWithBarcodeObservation:
++ _objc_msgSend$disableVisualIntelligence
++ _objc_msgSend$gesturesForFailureRequirements
++ _objc_msgSend$imageAnalysisInteraction:visualIntelligenceVluEnabledDidChange:
++ _objc_msgSend$inhibitGlassMaterial
++ _objc_msgSend$inhibitVisualBIDI
++ _objc_msgSend$initWithCVPixelBuffer:
++ _objc_msgSend$interactionDelegateForBaseView:
++ _objc_msgSend$isScreenshotsVLUAuthorized
++ _objc_msgSend$isSheetPresented
++ _objc_msgSend$isVI
++ _objc_msgSend$isVIHosted
++ _objc_msgSend$isVisualIntelligenceItem
++ _objc_msgSend$isVisualIntelligenceSheetPresentedDidChangeForImageAnalysisInteraction:
++ _objc_msgSend$isVisualIntelligenceType
++ _objc_msgSend$localeFreeQRSupport
++ _objc_msgSend$logNormalizedVisibleRectProgress
++ _objc_msgSend$omniBar
++ _objc_msgSend$omniBarWrapper
++ _objc_msgSend$omnibarContainerView
++ _objc_msgSend$overlayView
++ _objc_msgSend$performSelector:withObject:
++ _objc_msgSend$preheat
++ _objc_msgSend$prewarmSoftLinkingIfNecessary
++ _objc_msgSend$processMRCInfo:completionHandler:
++ _objc_msgSend$processRequest:completionHandler:
++ _objc_msgSend$requestedAnalysisTypes
++ _objc_msgSend$setActionInfoAlphaBeforeLiveResize:
++ _objc_msgSend$setActionInfoContainer:
++ _objc_msgSend$setAllowableMovement:
++ _objc_msgSend$setConfig:
++ _objc_msgSend$setCurrentType:
++ _objc_msgSend$setDomain:
++ _objc_msgSend$setHostDelegate:
++ _objc_msgSend$setIsSheetPresented:
++ _objc_msgSend$setIsVIHosted:
++ _objc_msgSend$setSupportsVI:
++ _objc_msgSend$setViCoordinator:
++ _objc_msgSend$setVisualIntelligenceResult:
++ _objc_msgSend$setVluAuthorized:
++ _objc_msgSend$set_allElements:
++ _objc_msgSend$set_displayedElements:
++ _objc_msgSend$set_unfilteredElements:
++ _objc_msgSend$sharedListener
++ _objc_msgSend$subviews
++ _objc_msgSend$supportedAnalysisTypes
++ _objc_msgSend$supportsVI
++ _objc_msgSend$viConfiguration
++ _objc_msgSend$viCoordinator
++ _objc_msgSend$viCoordinatorIfExists
++ _objc_msgSend$viInterface
++ _objc_msgSend$viRequest
++ _objc_msgSend$visualIntelligenceDidRequestVluEnabled:forBaseOverlayView:
++ _objc_msgSend$visualIntelligenceResult
++ _objc_msgSend$visualIntelligenceResultItem
++ _objc_msgSend$visualIntelligenceSheetPresentedDidChangeForBaseOverlayView:
++ _objc_msgSend$visualIntelligenceView
++ _objc_msgSend$visualIntelligenceViewIfExists
++ _objc_msgSend$vk_imageWithCIImage:
++ _objc_msgSend$vk_ioSurface
++ _objc_msgSend$vk_removeGlassBackground
++ _objc_msgSend$vk_setGlassBackgroundWithType:tintColor:flexible:
++ _prewarmSoftLinkingIfNecessary.onceToken
++ _sharedListener.onceToken
++ _sharedListener.result
++ _supportedAnalysisTypes.staticTypes
++ _swift_allocBox
++ _vk_deviceSupportsVisualIntelligence
++ _vk_solariumEnabled
+- +[VKCInternalSettings addRandomArtificalAnalysisDelaySettingsValue]
+- +[VKCInternalSettings addRandomArtificalAnalysisDelay]
+- +[VKCInternalSettings blurBlurRadiusSettingsValue]
+- +[VKCInternalSettings blurBlurRadius]
+- +[VKCInternalSettings blurMaxThicknessSettingsValue]
+- +[VKCInternalSettings blurMaxThickness]
+- +[VKCInternalSettings blurMinOpacitySettingsValue]
+- +[VKCInternalSettings blurMinOpacity]
+- +[VKCInternalSettings randomDelayEndValueSettingsValue]
+- +[VKCInternalSettings randomDelayEndValue]
+- +[VKCInternalSettings randomDelayStartValueSettingsValue]
+- +[VKCInternalSettings randomDelayStartValue]
+- +[VKCInternalSettings scaleMultiplierSettingsValue]
+- +[VKCInternalSettings scaleMultiplier]
+- +[VKCInternalSettings sharpBlurRadiusSettingsValue]
+- +[VKCInternalSettings sharpBlurRadius]
+- +[VKCInternalSettings sharpMaxThicknessSettingsValue]
+- +[VKCInternalSettings sharpMaxThickness]
+- +[VKCInternalSettings sharpMinOpacitySettingsValue]
+- +[VKCInternalSettings sharpMinOpacity]
+- +[VKCTextElementProcessor dataDetectorElementFromVNBarcodeObservation:loggingIndex:].cold.4
+- -[VKCImageAnalyzer processRequest:updateHandler:completionHandler:]
+- -[VKCImageDataDetectorView allElements]
+- -[VKCImageDataDetectorView setAllElements:]
+- -[VKCImageDataDetectorView setDisplayedElements:]
+- -[VKCImageDataDetectorView setUnfilteredElements:]
+- -[VKImageAnalyzerMadInterface _performMultiStageMADRequest:forRequest:pixelBuffer:cgImage:useCGForMad:withCompletion:]
+- -[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]
+- -[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:].cold.1
+- GCC_except_table100
+- GCC_except_table103
+- GCC_except_table115
+- GCC_except_table142
+- GCC_except_table145
+- GCC_except_table152
+- GCC_except_table153
+- GCC_except_table164
+- GCC_except_table165
+- GCC_except_table167
+- GCC_except_table168
+- GCC_except_table178
+- GCC_except_table180
+- GCC_except_table185
+- GCC_except_table193
+- GCC_except_table195
+- GCC_except_table203
+- GCC_except_table247
+- GCC_except_table253
+- GCC_except_table254
+- GCC_except_table57
+- GCC_except_table73
+- GCC_except_table74
+- _OBJC_IVAR_$_VKCImageDataDetectorView._allElements
+- _OBJC_IVAR_$_VKCImageDataDetectorView._displayedElements
+- _OBJC_IVAR_$_VKCImageDataDetectorView._unfilteredElements
+- _VKCMaxPixelDimension_block_invoke_2.onceToken
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_Utilities
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI25CGPathRandomAccessSubpathEEPS2_EclB8ne190102Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEPS6_EclB8ne190102Ev
+- __ZNKSt3__16vectorI25CGPathRandomAccessElementNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI25CGPathRandomAccessSubpathNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI7CGPointNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIllEENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN10ClipperLib13IntersectNodeENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN10ClipperLib4JoinENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIxNS_9allocatorIxEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_OT0_NS_15iterator_traitsIS7_E15difference_typeES7_
+- __ZNSt3__111__sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__114__split_bufferI25CGPathRandomAccessSubpathRNS_9allocatorIS1_EEE5clearB8ne190102Ev
+- __ZNSt3__114__split_bufferINS_6vectorIN10ClipperLib8IntPointENS_9allocatorIS3_EEEERNS4_IS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_T0_
+- __ZNSt3__116__insertion_sortB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_T0_
+- __ZNSt3__116__pad_and_outputB8ne190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__117__floyd_sift_downB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EET1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI25CGPathRandomAccessElementEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI25CGPathRandomAccessSubpathEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI7CGPointEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN10ClipperLib11DoublePointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN10ClipperLib12LocalMinimumEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIN10ClipperLib8IntPointEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIllEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN10ClipperLib13IntersectNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN10ClipperLib4JoinEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN10ClipperLib5TEdgeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN10ClipperLib6OutRecEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN10ClipperLib8PolyNodeEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIxEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumES6_EET1_S7_S7_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_S8_EET1_S9_S9_T2_OT0_
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__124__put_character_sequenceB8ne190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__126__insertion_sort_unguardedB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEbT1_S7_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEbT1_S9_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI25CGPathRandomAccessSubpathEEPS3_EEED2B8ne190102Ev
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS2_IS5_EEEEEEPS7_EEED2B8ne190102Ev
+- __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPN10ClipperLib12LocalMinimumERNS2_12LocMinSorterEEET0_S7_S7_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8ne190102INS_17_ClassicAlgPolicyEPPN10ClipperLib13IntersectNodeERPFbS4_S4_EEET0_S9_S9_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPN10ClipperLib12LocalMinimumERNS2_12LocMinSorterEEENS_4pairIT0_bEES8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8ne190102INS_17_ClassicAlgPolicyEPPN10ClipperLib13IntersectNodeERPFbS4_S4_EEENS_4pairIT0_bEESA_SA_T1_
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI25CGPathRandomAccessSubpathEES2_EEvRT_PT0_S7_S7_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_6vectorIN10ClipperLib8IntPointENS1_IS4_EEEEEEPS6_S8_S8_EET2_RT_T0_T1_S9_
+- __ZNSt3__16vectorI25CGPathRandomAccessSubpathNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorI7CGPointNS_9allocatorIS1_EEE18__insert_with_sizeB8ne190102IPS1_S6_EENS_11__wrap_iterIS6_EENS7_IPKS1_EET_T0_l
+- __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIN10ClipperLib11DoublePointENS_9allocatorIS2_EEE16__init_with_sizeB8ne190102IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIN10ClipperLib12LocalMinimumENS_9allocatorIS2_EEE16__init_with_sizeB8ne190102IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE16__init_with_sizeB8ne190102IPS2_S7_EEvT_T0_m
+- __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
+- __ZNSt3__16vectorIN10ClipperLib8IntPointENS_9allocatorIS2_EEEC2B8ne190102Em
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE16__init_with_sizeB8ne190102IPS5_S9_EEvT_T0_m
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE21__push_back_slow_pathIRKS5_EEPS5_OT_
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE22__construct_one_at_endB8ne190102IJRKS5_EEEvDpOT_
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEE7__clearB8ne190102Ev
+- __ZNSt3__16vectorINS0_IN10ClipperLib8IntPointENS_9allocatorIS2_EEEENS3_IS5_EEEC2B8ne190102Em
+- __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIPN10ClipperLib5TEdgeENS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIPN10ClipperLib6OutRecENS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIPN10ClipperLib8PolyNodeENS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIxNS_9allocatorIxEEE16__init_with_sizeB8ne190102IPxS5_EEvT_T0_m
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEjT1_S7_S7_T0_
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEjT1_S9_S9_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_S7_S7_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_S7_S7_S7_T0_
+- __ZNSt3__17__sort5B8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_S9_S9_S9_T0_
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERN10ClipperLib12LocMinSorterEPNS2_12LocalMinimumEEEvT1_S7_OT0_NS_15iterator_traitsIS7_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERNS_4lessIxEENS_11__wrap_iterIPxEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__19__sift_upB8ne190102INS_17_ClassicAlgPolicyERPFbPN10ClipperLib13IntersectNodeES4_EPS4_EEvT1_S9_OT0_NS_15iterator_traitsIS9_E15difference_typeE
+- __ZNSt3__19allocatorI25CGPathRandomAccessSubpathE7destroyB8ne190102EPS1_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+- ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke.191
+- ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_2.193
+- ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_3.194
+- ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_5
+- ___105+[VKCQuickActionsProcessor quickActionsFromElements:unfilteredElements:analysis:queue:completionHandler:]_block_invoke_6
+- ___55-[VKCImageAnalysisBaseView loadQuickActionsIfNecessary]_block_invoke.204
+- ___61-[VKImageAnalyzerMadInterface _processRequest:callbackQueue:]_block_invoke.191
+- ___61-[VKImageAnalyzerMadInterface _processRequest:callbackQueue:]_block_invoke_2.193
+- ___61-[VKImageAnalyzerMadInterface _processRequest:callbackQueue:]_block_invoke_2.193.cold.1
+- ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.220
+- ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.220.cold.1
+- ___66-[VKCImageSubjectBaseView loadImageSubjectWithIndexes:completion:]_block_invoke.222
+- ___67-[VKCImageAnalyzer processRequest:updateHandler:completionHandler:]_block_invoke
+- ___67-[VKCImageAnalyzer processRequest:updateHandler:completionHandler:]_block_invoke.cold.1
+- ___67-[VKCImageAnalyzer processRequest:updateHandler:completionHandler:]_block_invoke_2
+- ___67-[VKCImageAnalyzer processRequest:updateHandler:completionHandler:]_block_invoke_2.cold.1
+- ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.173
+- ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.173.cold.1
+- ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.178
+- ___69-[VKCImageAnalyzer processRequest:progressHandler:completionHandler:]_block_invoke.178.cold.1
+- ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.215
+- ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.215.cold.1
+- ___69-[VKCImageSubjectBaseView _loadSubjectMaskIfNecessaryWithCompletion:]_block_invoke.217
+- ___70-[VKCImageAnalyzer _processRequest:progressHandler:completionHandler:]_block_invoke.191
+- ___70-[VKCImageAnalyzer _processRequest:progressHandler:completionHandler:]_block_invoke.193
+- ___70-[VKCImageAnalyzer _processRequest:progressHandler:completionHandler:]_block_invoke_2.194
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_10
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_2
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_3
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_4
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_5
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_6
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_7
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_8
+- ___99-[VKImageAnalyzerMadInterface handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:]_block_invoke_9
+- ___block_descriptor_104_e8_32s40s48s56s64bs_e5_v8?0ls32l8s40l8s64l8s48l8s56l8
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80s88r96w_e5_v8?0lw96l8s32l8s40l8s48l8s56l8s64l8r88l8s72l8s80l8
+- ___block_descriptor_112_e8_32s40s48s56s64s72s80s88s96bs104w_e5_v8?0ls32l8s40l8w104l8s48l8s56l8s64l8s96l8s72l8s80l8s88l8
+- ___block_descriptor_112_e8_32s40s48s56s64s72s80s88s96s104r_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8r104l8s80l8s88l8s96l8
+- ___block_descriptor_58_e8_32s40s48w_e17_v16?0"NSArray"8lw48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
+- ___block_descriptor_64_e8_32s40s48s56w_e20_v20?0i8"NSError"12lw56l8s32l8s40l8s48l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72s80s88w_e5_v8?0lw88l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_literal_global.180
+- ___block_literal_global.185
+- ___block_literal_global.187
+- ___block_literal_global.24
+- ___block_literal_global.247
+- ___block_literal_global.29
+- ___block_literal_global.31
+- ___block_literal_global.38
+- _objc_msgSend$addRandomArtificalAnalysisDelay
+- _objc_msgSend$allElements
+- _objc_msgSend$blurBlurRadius
+- _objc_msgSend$blurMaxThickness
+- _objc_msgSend$blurMinOpacity
+- _objc_msgSend$detectedBarcodeSupportCode
+- _objc_msgSend$handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:
+- _objc_msgSend$inProcessAnalysis
+- _objc_msgSend$isMultiPartAnalysis
+- _objc_msgSend$randomDelayEndValue
+- _objc_msgSend$randomDelayStartValue
+- _objc_msgSend$scaleMultiplier
+- _objc_msgSend$setAllElements:
+- _objc_msgSend$setDisplayedElements:
+- _objc_msgSend$setInProcessAnalysis:
+- _objc_msgSend$setIsMultiPartAnalysis:
+- _objc_msgSend$setUnfilteredElements:
+- _objc_msgSend$setUpdateHandler:
+- _objc_msgSend$sharpBlurRadius
+- _objc_msgSend$sharpMaxThickness
+- _objc_msgSend$sharpMinOpacity
+- _objc_msgSend$updateHandler
+- _objc_msgSend$updateMRCDataDetectors:
+- _objc_msgSend$updateVNDocumentObservation:
+- _supportedAnalysisTypes.types
+CStrings:
++ "!\x81qQ"
++ "%@ at Attempting CIImage for VKImage to CGImage: %@"
++ "%@ using IOSurface for VKImage to CGImage: %@"
++ "-[VKCImageDataDetectorView appendMRCAsyncElement:]"
++ "1Q1\xf01\""
++ "@\"<VKCImageAnalysisInteractionDelegate>\"24@0:8@\"VKCImageAnalysisBaseView\"16"
++ "@\"VICVisualIntelligenceAnalysisResult\""
++ "@\"VICVisualIntelligenceAnalyzer\""
++ "@\"VICVisualIntelligenceSaliencyStream\""
++ "@\"VIUIVisualIntelligenceViewCoordinator\""
++ "@\"VIUVisualIntelligenceOmnibar\""
++ "@\"VIUVisualIntelligenceView\""
++ "@\"VKCActionInfoContainer\""
++ "@\"VKCImageAnalyzerRequestVIConfiguration\""
++ "@\"VKPlatformView\""
++ "Added asyncMRCInfo with observation: %@"
++ "Adding Copy All to QuickActions"
++ "Adding Translate to QuickActions"
++ "Attempting CIImage for VKImage to CGImage: %@"
++ "Attempting IOSurface for VKImage to CGImage: %@"
++ "Attempting to perform VisualIntelligence analysis when AI is not available, skipping"
++ "Attempting to set Visual Intelligence as an active type, but AI is not available, removing VI"
++ "BCSDetectedCode"
++ "Beginning normalizedVisibleRect window:%@  windowContentsRect: %@"
++ "Creating a CGImage from an VKImage, but CGImage is nil: %@"
++ "Creating tempPixelBufferRef from IOSurface for request: %@"
++ "Filtered quickActions using filterResultsForQuickActions from %d elements to %d elements"
++ "Inhibiting unhiding action info view due to no locale VK support"
++ "Prewarming softlinking"
++ "Prewarming softlinking complete with duration: %f"
++ "QuickAction processing complete: %d displayed DD elements resulted in %d DD QuickActions"
++ "Signpost Begin: \"VKCImageAnalysis Visual Intelligence Coordinator\""
++ "Signpost Begin: \"VKCImageAnalyzerRequest Visual Intelligence Request\""
++ "Signpost Begin: \"VKImageAnalyzerMadInterface Visual Intelligence Analyzer\""
++ "Signpost End: \"VKCImageAnalysis Visual Intelligence Coordinator\""
++ "Signpost End: \"VKCImageAnalyzerRequest Visual Intelligence Request\""
++ "Signpost End: \"VKImageAnalyzerMadInterface Visual Intelligence Analyzer\""
++ "Success"
++ "T@\"<VKCImageAnalysisInteractionDelegate>\",W,N,V__viHostDelegate"
++ "T@\"NSMutableArray\",&,N,V__allElements"
++ "T@\"NSMutableArray\",&,N,V__displayedElements"
++ "T@\"NSMutableArray\",&,N,V__unfilteredElements"
++ "T@\"NSNumber\",&,N,V_isScreenshotsVLUAuthorized"
++ "T@\"VICVisualIntelligenceAnalysisResult\",&,N,V_visualIntelligenceResult"
++ "T@\"VICVisualIntelligenceAnalyzer\",&,N,V_viInterface"
++ "T@\"VICVisualIntelligenceSaliencyStream\",&,N,V_visualIntelligenceSaliencyStream"
++ "T@\"VIUIVisualIntelligenceViewCoordinator\",&,N,V_viCoordinator"
++ "T@\"VIUIVisualIntelligenceViewCoordinator\",R,N"
++ "T@\"VIUVisualIntelligenceOmnibar\",&,N,V_omniBarWrapper"
++ "T@\"VIUVisualIntelligenceOmnibar\",&,N,V_omnibar"
++ "T@\"VIUVisualIntelligenceOmnibar\",R,N"
++ "T@\"VIUVisualIntelligenceView\",&,N,V_visualIntelligenceView"
++ "T@\"VIUVisualIntelligenceView\",R,N"
++ "T@\"VKCActionInfoContainer\",&,N,V_actionInfoContainer"
++ "T@\"VKCImageAnalyzerRequestVIConfiguration\",&,N,V_viConfiguration"
++ "T@\"VKCVisualSearchResultInfo\",R,N"
++ "T@\"VKPlatformView\",&,N,V_containerView"
++ "T@\"VNBarcodeObservation\",&,N,V_observation"
++ "TB,N,V_enabled"
++ "TB,N,V_inhibitGlassMaterial"
++ "TB,N,V_isVIHosted"
++ "TB,R,N,V_isVisualIntelligenceSheetPresented"
++ "TB,V_supportsVI"
++ "TQ,N,V_currentType"
++ "Td,N,V_actionInfoAlphaBeforeLiveResize"
++ "Unable to create CVPixelBuffer from CGImage for request: %@"
++ "Unable to create tempPixelBufferRef from IOSurface, falling back to CGImage for request: %@"
++ "Unsuccessful"
++ "Updated normalizedVisibleRect: %@"
++ "VI,"
++ "VICVisualIntelligenceAnalysisRequest"
++ "VICVisualIntelligenceAnalysisRequestConfig"
++ "VICVisualIntelligenceAnalyzer"
++ "VIUCoordinator instantiation time is %f"
++ "VIUIVisualIntelligenceViewCoordinator"
++ "VIUVisualIntelligenceViewDelegate"
++ "VKCActionInfoContainer"
++ "VKCGMAvailability"
++ "VKCGenerativeModelsAvailabilityDidChange Supports: %@"
++ "VKCImageAnalysis Visual Intelligence Coordinator"
++ "VKCImageAnalyzerRequest Visual Intelligence Request"
++ "VKCImageAnalyzerRequestVIConfiguration"
++ "VKCMRCDataDetectorInfo"
++ "VKImageAnalyzerMadInterface Visual Intelligence Analyzer"
++ "VKImageAnalyzerPrewarm"
++ "VKVSDomainAlbum"
++ "VKVSDomainArt"
++ "VKVSDomainAutoSymbol"
++ "VKVSDomainBirds"
++ "VKVSDomainBook"
++ "VKVSDomainBrandLogoSymbol"
++ "VKVSDomainCats"
++ "VKVSDomainDogs"
++ "VKVSDomainFood"
++ "VKVSDomainInsects"
++ "VKVSDomainLandmark"
++ "VKVSDomainLaundryCareSymbol"
++ "VKVSDomainMammals"
++ "VKVSDomainNaturalLandmark"
++ "VKVSDomainNature"
++ "VKVSDomainReptiles"
++ "VKVSDomainSculpture"
++ "VKVSDomainSkyline"
++ "VKVSDomainStorefront"
++ "VKVSDomainUndefined"
++ "VisionKitCore"
++ "VisualIntelligence is supported, but disabled via internal settings."
++ "VisualIntelligence,"
++ "^{__IOSurface=}16@0:8"
++ "__allElements"
++ "__displayedElements"
++ "__unfilteredElements"
++ "__viHostDelegate"
++ "_actionInfoAlphaBeforeLiveResize"
++ "_actionInfoContainer"
++ "_addAsyncMRCElement:"
++ "_appendMRCAsyncElement:"
++ "_currentType"
++ "_didFinishRequest:withAnalysis:analyticsEvent:error:"
++ "_enabled"
++ "_glassButtonConfiguration"
++ "_inhibitGlassMaterial"
++ "_isScreenshotsVLUAuthorized"
++ "_isVIHosted"
++ "_isVisualIntelligenceSheetPresented"
++ "_omniBarWrapper"
++ "_omnibar"
++ "_remoteViewControllerProxy"
++ "_supportsVI"
++ "_tintedGlassButtonConfiguration"
++ "_viConfiguration"
++ "_viCoordinator"
++ "_viHostDelegate"
++ "_viInterface"
++ "_visualIntelligenceResult"
++ "_visualIntelligenceSaliencyStream"
++ "_visualIntelligenceView"
++ "_wantsVisualBIDISelections"
++ "actionInfoAlphaBeforeLiveResize"
++ "actionInfoContainer"
++ "addAsyncMRCElement:"
++ "appendMRCAsyncElement:"
++ "apple.visual.intelligence"
++ "blockingGenerateImage"
++ "bypassVIV2MinSizeWorkaround"
++ "bypassVIV2MinSizeWorkaroundSettingsValue"
++ "com.apple.Settings.AppleIntelligence"
++ "com.apple.gms.availability.notification"
++ "config"
++ "currentType"
++ "currentWithUseCaseIdentifiers:language:"
++ "detectedCodeWithBarcodeObservation:"
++ "didEndLiveResize:"
++ "disableVisualIntelligence"
++ "disableVisualIntelligenceSettingsValue"
++ "dismissVisualIntelligenceSheetIfNecessary"
++ "enabled"
++ "final currentViewRect: %@, normalizedVisibleRect: %@"
++ "gesturesForFailureRequirements"
++ "getVIUCoordinator class return time is %f"
++ "imageAnalysisInteraction:visualIntelligenceVluEnabledDidChange:"
++ "inhibitGlassMaterial"
++ "inhibitVisualBIDI"
++ "inhibitVisualBIDISettingsValue"
++ "initWithBarcodeObservation:"
++ "initWithCVPixelBuffer:"
++ "interactionDelegateForBaseView:"
++ "isScreenshotsVLUAuthorized"
++ "isSheetPresented"
++ "isVI"
++ "isVIHosted"
++ "isVisualIntelligenceItem"
++ "isVisualIntelligenceSheetPresented"
++ "isVisualIntelligenceSheetPresentedDidChangeForImageAnalysisInteraction:"
++ "isVisualIntelligenceSheetVisible"
++ "isVisualIntelligenceType"
++ "keyboardSuggestionOptions"
++ "localeFreeQRSupport"
++ "localeFreeQRSupportSettingsValue"
++ "logNormalizedVisibleRectProgress"
++ "logNormalizedVisibleRectProgressSettingsValue"
++ "omniBar"
++ "omniBarWrapper"
++ "omniBarWrapperIfExists"
++ "omnibar"
++ "omnibarContainerView"
++ "overlayView"
++ "preferredInputViewHeight"
++ "preheat"
++ "presentVisualIntelligenceSheet"
++ "prewarmSoftLinkingIfNecessary"
++ "processMRCInfo:completionHandler:"
++ "processRequest:completionHandler:"
++ "repeatBehavior"
++ "resetCustomLayoutActionInfoView"
++ "setActionInfoAlphaBeforeLiveResize:"
++ "setActionInfoContainer:"
++ "setAllowableMovement:"
++ "setConfig:"
++ "setCurrentType:"
++ "setHostDelegate:"
++ "setInhibitGlassMaterial:"
++ "setIsScreenshotsVLUAuthorized:"
++ "setIsSheetPresented:"
++ "setIsVIHosted:"
++ "setKeyboardSuggestionOptions:"
++ "setOmniBarWrapper:"
++ "setOmnibar:"
++ "setPreferredInputViewHeight:"
++ "setReachabilityDisabled:"
++ "setRepeatBehavior:"
++ "setSupportsVI:"
++ "setViConfiguration:"
++ "setViCoordinator:"
++ "setViInterface:"
++ "setVisualIntelligenceResult:"
++ "setVisualIntelligenceSaliencyStream:"
++ "setVisualIntelligenceView:"
++ "setVluAuthorized:"
++ "set_allElements:"
++ "set_displayedElements:"
++ "set_isVIHosted:"
++ "set_unfilteredElements:"
++ "set_viHostDelegate:"
++ "sharedListener"
++ "softlink:o:path:/System/Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore"
++ "softlink:o:path:/System/Library/PrivateFrameworks/VisualIntelligenceUI.framework/VisualIntelligenceUI"
++ "subviews"
++ "supportsVI"
++ "textGesturesForFailureRequirements"
++ "unable to create madRequests or viRequests for request %@"
++ "upDatedWindowContentsRect fromView: %@, windowContentsRect: %@"
++ "updatedWindowContentsRect fromNavigationBar: %@, windowContentsRect: %@"
++ "updatedWindowContentsRect fromToolbar: %@, windowContentsRect: %@"
++ "updatedWindowContentsRect fromView: %@, windowContentsRect: %@"
++ "v16@?0@\"VKCMRCDataDetectorElement\"8"
++ "v24@?0@\"VICVisualIntelligenceAnalysisResult\"8@\"NSError\"16"
++ "v28@0:8@\"VIUVisualIntelligenceView\"16B24"
++ "v28@0:8B16@\"VKCImageAnalysisBaseView\"20"
++ "v28@0:8B16@20"
++ "v36@0:8q16@24B32"
++ "viConfiguration"
++ "viCoordinator"
++ "viCoordinatorIfExists"
++ "viInterface"
++ "viPixelBufferRef"
++ "viPixelBufferRef provided by generating pixel buffer"
++ "viPixelBufferRef provided by request pixel buffer"
++ "viRequest"
++ "visibleRect"
++ "visualIntelligenceDidRequestVluEnabled:forBaseOverlayView:"
++ "visualIntelligenceResult"
++ "visualIntelligenceResultItem"
++ "visualIntelligenceSaliencyStream"
++ "visualIntelligenceSheetPresentedDidChangeForBaseOverlayView:"
++ "visualIntelligenceView"
++ "visualIntelligenceView:didRequestVluEnabled:"
++ "visualIntelligenceView:isSheetPresentedDidChangeToValue:"
++ "visualIntelligenceViewIfExists"
++ "vk_ioSurface"
++ "vk_removeGlassBackground"
++ "vk_setGlassBackgroundWithType:tintColor:flexible:"
++ "willEnterLiveResize:"
+- "!\x81a"
+- "\"1\"*"
+- "@40@0:8@16@?24@?32"
+- "Adding random delay of %f for request: %@"
+- "Device does not support image analysis, but does support Visual Search, limiting to just Visual Search."
+- "Error getting mrc data detector results: %@"
+- "Internal setting is set, and now beginning random delay logic for request: %@"
+- "Per internal settings toggle, added random delay of %f, with min of %f, and max of %f for request completion callback for request: %@. \nUndelayed Analysis duration: %f.\nTotal duration: %f"
+- "Random delay minValue (%f) > endValue (%f), swapping"
+- "T@\"NSArray\",&,N,V_allElements"
+- "T@\"NSArray\",&,N,V_displayedElements"
+- "T@\"NSArray\",&,N,V_unfilteredElements"
+- "T@\"UIView\",&,N,V_containerView"
+- "TextRecognition"
+- "Unable to create CVPixelBuffer for request: %@"
+- "_performMultiStageMADRequest:forRequest:pixelBuffer:cgImage:useCGForMad:withCompletion:"
+- "addRandomArtificalAnalysisDelay"
+- "addRandomArtificalAnalysisDelaySettingsValue"
+- "allElements"
+- "blurBlurRadius"
+- "blurBlurRadiusSettingsValue"
+- "blurMaxThickness"
+- "blurMaxThicknessSettingsValue"
+- "blurMinOpacity"
+- "blurMinOpacitySettingsValue"
+- "detectedBarcodeSupportCode"
+- "extended_latin"
+- "handleCompletionForMultiPartRequest:madRequests:callbackQueue:error:"
+- "processRequest:updateHandler:completionHandler:"
+- "randomDelayEndValue"
+- "randomDelayEndValueSettingsValue"
+- "randomDelayStartValue"
+- "randomDelayStartValueSettingsValue"
+- "scaleMultiplier"
+- "scaleMultiplierSettingsValue"
+- "setAllElements:"
+- "setDisplayedElements:"
+- "setUnfilteredElements:"
+- "sharpBlurRadius"
+- "sharpBlurRadiusSettingsValue"
+- "sharpMaxThickness"
+- "sharpMaxThicknessSettingsValue"
+- "sharpMinOpacity"
+- "sharpMinOpacitySettingsValue"
+- "unable to create madRequests for request %@"
+
+```

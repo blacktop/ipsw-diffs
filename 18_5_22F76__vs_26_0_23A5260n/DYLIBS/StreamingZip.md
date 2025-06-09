@@ -1,0 +1,1554 @@
+## StreamingZip
+
+> `/System/Library/PrivateFrameworks/StreamingZip.framework/StreamingZip`
+
+```diff
+
+-226.120.1.0.0
+-  __TEXT.__text: 0x21be4
+-  __TEXT.__auth_stubs: 0xe50
+-  __TEXT.__objc_methlist: 0xe64
+-  __TEXT.__const: 0x1d0
+-  __TEXT.__gcc_except_tab: 0x2cc
+-  __TEXT.__cstring: 0x3acf
+-  __TEXT.__oslogstring: 0x5af4
+-  __TEXT.__unwind_info: 0x3e0
+-  __TEXT.__objc_classname: 0x1b1
+-  __TEXT.__objc_methname: 0x2f76
+-  __TEXT.__objc_methtype: 0xd46
+-  __TEXT.__objc_stubs: 0x2320
+-  __DATA_CONST.__got: 0x170
+-  __DATA_CONST.__const: 0xc28
+-  __DATA_CONST.__objc_classlist: 0x40
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x50
++237.0.0.0.1
++  __TEXT.__text: 0x11d68
++  __TEXT.__auth_stubs: 0xc30
++  __TEXT.__objc_methlist: 0x5d4
++  __TEXT.__const: 0x16a
++  __TEXT.__gcc_except_tab: 0x26c
++  __TEXT.__cstring: 0x1cc0
++  __TEXT.__oslogstring: 0x3574
++  __TEXT.__unwind_info: 0x248
++  __TEXT.__objc_classname: 0xca
++  __TEXT.__objc_methname: 0xea9
++  __TEXT.__objc_methtype: 0x441
++  __TEXT.__objc_stubs: 0xb40
++  __DATA_CONST.__got: 0xf8
++  __DATA_CONST.__const: 0xa58
++  __DATA_CONST.__objc_classlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa78
++  __DATA_CONST.__objc_selrefs: 0x418
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x738
+-  __AUTH_CONST.__const: 0x80
+-  __AUTH_CONST.__cfstring: 0x1da0
+-  __AUTH_CONST.__objc_const: 0x19d0
+-  __DATA.__objc_ivar: 0x164
+-  __DATA.__data: 0x3c0
+-  __DATA.__bss: 0x58
+-  __DATA_DIRTY.__objc_data: 0x280
++  __DATA_CONST.__objc_superrefs: 0x8
++  __AUTH_CONST.__auth_got: 0x628
++  __AUTH_CONST.__const: 0x60
++  __AUTH_CONST.__cfstring: 0xfa0
++  __AUTH_CONST.__objc_const: 0x6a0
++  __DATA.__objc_ivar: 0x2c
++  __DATA.__data: 0x300
++  __DATA.__bss: 0x40
++  __DATA_DIRTY.__objc_data: 0xa0
+   __DATA_DIRTY.__data: 0x88
+   __DATA_DIRTY.__bss: 0x40
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /usr/lib/libAppleArchive.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 893A0ED1-E031-3556-B0D7-C7005B036ECC
+-  Functions: 358
+-  Symbols:   1637
+-  CStrings:  1748
++  UUID: DB86AED4-C25D-3A70-9EC0-4F4FA6886153
++  Functions: 150
++  Symbols:   829
++  CStrings:  862
+ 
+Symbols:
++ +[SZExtractor(PrivateInterfaces) enableDebugLogging]
++ -[SZExtractor(PrivateInterfaces) initForLocalExtractionWithPath:options:resumptionOffset:]
++ -[SZExtractor(PrivateInterfaces) initForRemoteExtractionWithPath:options:resumptionOffset:]
++ -[SZExtractor(PrivateInterfaces) setActiveExtractorDelegateMethods:]
++ GCC_except_table36
++ GCC_except_table42
++ GCC_except_table56
++ GCC_except_table62
++ GCC_except_table85
++ _CFDictionaryGetCount
++ _CFStringFindWithOptions
++ _SZExtractorOptionsApplyAppleDoubleFiles
++ _SZExtractorOptionsUseFilesystemCompression
++ __CopyAppBundleNameInPath
++ __OBJC_$_CLASS_METHODS_SZExtractor(Testing|PrivateInterfaces|KnownImplementations)
++ __OBJC_$_INSTANCE_METHODS_SZExtractor(Testing|PrivateInterfaces|KnownImplementations)
++ __OBJC_$_PROP_LIST_SZExtractor.408
++ __StringHasPrefix
++ __WriteLocalFileData
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.154
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.161
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.166
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.167
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.169
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.194
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.195
++ ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.199
++ ___68-[SZExtractor(PrivateInterfaces) setActiveExtractorDelegateMethods:]_block_invoke
++ ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.101
++ ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.106
++ ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.77
++ ___block_descriptor_32_e5_v8?0l
++ ___block_literal_global.106
++ ___strlcat_chk
++ ___strlcpy_chk
++ _copyfile
++ _getenv
++ _kSZArchiverOptionIncludeAppleDoubleContent
++ _kSZArchiverOptionTempDirPath
++ _kSZArchiverStatsCountXAttrOrACLFiles
++ _mkstemp
++ _objc_msgSend$initForRemoteExtractionWithPath:options:resumptionOffset:
+- +[SZExtractor enableDebugLogging]
+- +[StreamingFileWriter fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:]
+- +[StreamingFileWriter synchronousFileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:error:]
+- +[StreamingFileWriterQueue sharedInstance]
+- +[StreamingUnzipState unzipStateWithPath:options:error:]
+- -[AsyncStreamingFileWriter .cxx_destruct]
+- -[AsyncStreamingFileWriter _executeWithError:]
+- -[AsyncStreamingFileWriter _initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:reservation:error:]
+- -[AsyncStreamingFileWriter _openCurrentOutputFDForPath:withOpenFlags:mode:performCachedWrites:quarantineInfo:error:]
+- -[AsyncStreamingFileWriter accessTime]
+- -[AsyncStreamingFileWriter closeCurrentOutputFD]
+- -[AsyncStreamingFileWriter configureFileAndSetOwnership:toUID:GID:]
+- -[AsyncStreamingFileWriter currentOffsetWithError:]
+- -[AsyncStreamingFileWriter dealloc]
+- -[AsyncStreamingFileWriter errorDelegate]
+- -[AsyncStreamingFileWriter executeAsyncOperation]
+- -[AsyncStreamingFileWriter executeFileOperationFlags]
+- -[AsyncStreamingFileWriter fileData]
+- -[AsyncStreamingFileWriter finalizeFileWithAccessTime:modTime:mode:error:]
+- -[AsyncStreamingFileWriter gid]
+- -[AsyncStreamingFileWriter modTime]
+- -[AsyncStreamingFileWriter mode]
+- -[AsyncStreamingFileWriter oflag]
+- -[AsyncStreamingFileWriter omode]
+- -[AsyncStreamingFileWriter performCachedWrites]
+- -[AsyncStreamingFileWriter readIntoBuffer:length:error:]
+- -[AsyncStreamingFileWriter reservation]
+- -[AsyncStreamingFileWriter setAccessTime:]
+- -[AsyncStreamingFileWriter setCurrentOffset:error:]
+- -[AsyncStreamingFileWriter setErrorDelegate:]
+- -[AsyncStreamingFileWriter setExecuteFileOperationFlags:]
+- -[AsyncStreamingFileWriter setFileData:]
+- -[AsyncStreamingFileWriter setGid:]
+- -[AsyncStreamingFileWriter setIncompleteExtractionAttribute]
+- -[AsyncStreamingFileWriter setModTime:]
+- -[AsyncStreamingFileWriter setMode:]
+- -[AsyncStreamingFileWriter setOwnership]
+- -[AsyncStreamingFileWriter setSetOwnership:]
+- -[AsyncStreamingFileWriter setUid:]
+- -[AsyncStreamingFileWriter suspendWithError:]
+- -[AsyncStreamingFileWriter trackingGroup]
+- -[AsyncStreamingFileWriter uid]
+- -[AsyncStreamingFileWriter writeBuffer:length:error:]
+- -[NSString(SZAdditions) SZ_stringByDeletingTrailingSlashes]
+- -[SZExtractor _prepareForLocalExtraction:]
+- -[SZExtractor inProcessUnzipper]
+- -[SZExtractor initForLocalExtractionWithPath:options:resumptionOffset:]
+- -[SZExtractor initForRemoteExtractionWithPath:options:resumptionOffset:]
+- -[SZExtractor isLocalExtractor]
+- -[SZExtractor setActiveExtractorDelegateMethods:]
+- -[StreamingFileWriter .cxx_destruct]
+- -[StreamingFileWriter _initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:error:]
+- -[StreamingFileWriter _openCurrentOutputFDForPath:withOpenFlags:mode:performCachedWrites:quarantineInfo:error:]
+- -[StreamingFileWriter closeCurrentOutputFD]
+- -[StreamingFileWriter configureFileAndSetOwnership:toUID:GID:]
+- -[StreamingFileWriter currentOffsetWithError:]
+- -[StreamingFileWriter currentOutputFD]
+- -[StreamingFileWriter dealloc]
+- -[StreamingFileWriter description]
+- -[StreamingFileWriter fileSize]
+- -[StreamingFileWriter finalizeFileWithAccessTime:modTime:mode:error:]
+- -[StreamingFileWriter path]
+- -[StreamingFileWriter readIntoBuffer:length:error:]
+- -[StreamingFileWriter setCurrentOffset:error:]
+- -[StreamingFileWriter setCurrentOutputFD:]
+- -[StreamingFileWriter setIncompleteExtractionAttribute]
+- -[StreamingFileWriter suspendWithError:]
+- -[StreamingFileWriter writeBuffer:length:error:]
+- -[StreamingFileWriterQueue .cxx_destruct]
+- -[StreamingFileWriterQueue _runOperation:]
+- -[StreamingFileWriterQueue fileWriterQueue]
+- -[StreamingFileWriterQueue init]
+- -[StreamingFileWriterQueue insertAsyncFileOperation:error:]
+- -[StreamingFileWriterQueue maxConcurrency]
+- -[StreamingFileWriterQueue maxPendingItemSize]
+- -[StreamingFileWriterQueue maxPendingOperationSize]
+- -[StreamingFileWriterQueue pendingOperationPathsByGroupPointer]
+- -[StreamingFileWriterQueue pendingOperationSize]
+- -[StreamingFileWriterQueue pendingOperations]
+- -[StreamingFileWriterQueue pendingStateLock]
+- -[StreamingFileWriterQueue reserveAsyncOperationForFileSize:path:group:operationPendingForPath:]
+- -[StreamingFileWriterQueue runningOperationCount]
+- -[StreamingFileWriterQueue setPendingOperationSize:]
+- -[StreamingFileWriterQueue setPendingStateLock:]
+- -[StreamingFileWriterQueue setRunningOperationCount:]
+- -[StreamingFileWriterQueueReservation initWithReservationSize:]
+- -[StreamingFileWriterQueueReservation isValid]
+- -[StreamingFileWriterQueueReservation reservedSize]
+- -[StreamingFileWriterQueueReservation setValid:]
+- -[StreamingUnzipState .cxx_destruct]
+- -[StreamingUnzipState _checkHashForOffset:]
+- -[StreamingUnzipState _internalSetStreamState:]
+- -[StreamingUnzipState bytesHashedInChunk]
+- -[StreamingUnzipState cachedGIDs]
+- -[StreamingUnzipState checkLastChunkPartialHash]
+- -[StreamingUnzipState clearSavedState]
+- -[StreamingUnzipState cmpState]
+- -[StreamingUnzipState currentCRC32]
+- -[StreamingUnzipState currentLFMode]
+- -[StreamingUnzipState currentLFRecordAllocationSize]
+- -[StreamingUnzipState currentLFRecord]
+- -[StreamingUnzipState currentLFRequiresDataDescriptor]
+- -[StreamingUnzipState currentOffset]
+- -[StreamingUnzipState dataDescriptor]
+- -[StreamingUnzipState dealloc]
+- -[StreamingUnzipState denyInvalidSymlinks]
+- -[StreamingUnzipState fileWriter]
+- -[StreamingUnzipState finishStream]
+- -[StreamingUnzipState hashContext]
+- -[StreamingUnzipState hashedChunkSize]
+- -[StreamingUnzipState inMemoryFileData]
+- -[StreamingUnzipState initWithPath:options:error:]
+- -[StreamingUnzipState init]
+- -[StreamingUnzipState lastChunkPartialHash]
+- -[StreamingUnzipState markResumptionPoint]
+- -[StreamingUnzipState overrideGID]
+- -[StreamingUnzipState overrideUID]
+- -[StreamingUnzipState performCachedWrites]
+- -[StreamingUnzipState performingExtraction]
+- -[StreamingUnzipState recordsProcessed]
+- -[StreamingUnzipState resolveOwnershipWithExtraField:outUID:outGID:]
+- -[StreamingUnzipState serializeState]
+- -[StreamingUnzipState setCurrentCRC32:]
+- -[StreamingUnzipState setCurrentLFMode:]
+- -[StreamingUnzipState setCurrentLFRecord:]
+- -[StreamingUnzipState setCurrentLFRecordAllocationSize:]
+- -[StreamingUnzipState setCurrentLFRequiresDataDescriptor:]
+- -[StreamingUnzipState setCurrentOffset:]
+- -[StreamingUnzipState setDataDescriptor:]
+- -[StreamingUnzipState setDenyInvalidSymlinks:]
+- -[StreamingUnzipState setFileWriter:]
+- -[StreamingUnzipState setInMemoryFileData:]
+- -[StreamingUnzipState setLastChunkPartialHash:]
+- -[StreamingUnzipState setPerformCachedWrites:]
+- -[StreamingUnzipState setPerformingExtraction:]
+- -[StreamingUnzipState setRecordsProcessed:]
+- -[StreamingUnzipState setStoreCurrentFileInMemory:]
+- -[StreamingUnzipState setStreamInfoDict:]
+- -[StreamingUnzipState setStreamState:]
+- -[StreamingUnzipState setThisStageBytesComplete:]
+- -[StreamingUnzipState setTotalFileSizeWritten:]
+- -[StreamingUnzipState setTotalRecordCount:]
+- -[StreamingUnzipState setTotalUncompressedBytes:]
+- -[StreamingUnzipState setUncompressedBytesOutput:]
+- -[StreamingUnzipState setUnsureData:]
+- -[StreamingUnzipState storeCurrentFileInMemory]
+- -[StreamingUnzipState streamInfoDict]
+- -[StreamingUnzipState streamState]
+- -[StreamingUnzipState thisStageBytesComplete]
+- -[StreamingUnzipState totalFileSizeWritten]
+- -[StreamingUnzipState totalRecordCount]
+- -[StreamingUnzipState totalUncompressedBytes]
+- -[StreamingUnzipState uncompressedBytesOutput]
+- -[StreamingUnzipState unsureData]
+- -[StreamingUnzipState unzipPath]
+- -[StreamingUnzipState updateHashFromOffset:withBytes:length:]
+- -[StreamingUnzipState updateHashFromOffset:withBytes:length:onlyFinishCurrentChunk:]
+- -[StreamingUnzipper .cxx_destruct]
+- -[StreamingUnzipper _beginNonStreamablePassthroughWithRemainingBytes:length:]
+- -[StreamingUnzipper _sendExtractionProgress:]
+- -[StreamingUnzipper _setErrorState]
+- -[StreamingUnzipper _supplyBytes:length:withReply:]
+- -[StreamingUnzipper _waitForAsyncFileWriterCompletionAndGetAsyncError]
+- -[StreamingUnzipper dealloc]
+- -[StreamingUnzipper finishStreamWithReply:]
+- -[StreamingUnzipper getPidForTestingWithReply:]
+- -[StreamingUnzipper inProcessDelegateQueue]
+- -[StreamingUnzipper inProcessExtractorDelegate]
+- -[StreamingUnzipper initForClient:connection:]
+- -[StreamingUnzipper setActiveDelegateMethods:]
+- -[StreamingUnzipper setInProcessDelegateQueue:]
+- -[StreamingUnzipper setInProcessExtractorDelegate:]
+- -[StreamingUnzipper setXpcConnection:]
+- -[StreamingUnzipper setupUnzipperWithOutputPath:sandboxExtensionToken:options:withReply:]
+- -[StreamingUnzipper streamingFileWriter:didEncounterError:]
+- -[StreamingUnzipper supplyBytes:withReply:]
+- -[StreamingUnzipper suspendStreamWithReply:]
+- -[StreamingUnzipper terminateStreamWithReply:]
+- -[StreamingUnzipper xpcConnection]
+- GCC_except_table105
+- GCC_except_table112
+- GCC_except_table147
+- GCC_except_table245
+- GCC_except_table326
+- GCC_except_table332
+- GCC_except_table355
+- _CFStringConvertEncodingToNSStringEncoding
+- _FetchGroupIDs
+- _GenericHashFinal
+- _GenericHashInit
+- _GenericHashUpdate
+- _GetFileNameStringFromLocalFileRecord
+- _GetInfoZipExtraFieldFromLF
+- _GetLFUncompressedSize
+- _GetZip64ExtraFieldDataFromLF
+- _LocalFileRecordHasZip64ExtraField
+- _NSFilePathErrorKey
+- _OBJC_CLASS_$_AsyncStreamingFileWriter
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSInputStream
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSMutableData
+- _OBJC_CLASS_$_NSMutableString
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSUserDefaults
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_StreamingFileWriter
+- _OBJC_CLASS_$_StreamingFileWriterQueue
+- _OBJC_CLASS_$_StreamingFileWriterQueueReservation
+- _OBJC_CLASS_$_StreamingUnzipState
+- _OBJC_CLASS_$_StreamingUnzipper
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._accessTime
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._errorDelegate
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._executeFileOperationFlags
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._fileData
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._gid
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._modTime
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._mode
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._oflag
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._omode
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._performCachedWrites
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._reservation
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._setOwnership
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._trackingGroup
+- _OBJC_IVAR_$_AsyncStreamingFileWriter._uid
+- _OBJC_IVAR_$_SZExtractor._inProcessUnzipper
+- _OBJC_IVAR_$_SZExtractor._isLocalExtractor
+- _OBJC_IVAR_$_StreamingFileWriter._currentOutputFD
+- _OBJC_IVAR_$_StreamingFileWriter._fileSize
+- _OBJC_IVAR_$_StreamingFileWriter._path
+- _OBJC_IVAR_$_StreamingFileWriterQueue._fileWriterQueue
+- _OBJC_IVAR_$_StreamingFileWriterQueue._maxConcurrency
+- _OBJC_IVAR_$_StreamingFileWriterQueue._maxPendingItemSize
+- _OBJC_IVAR_$_StreamingFileWriterQueue._maxPendingOperationSize
+- _OBJC_IVAR_$_StreamingFileWriterQueue._pendingOperationPathsByGroupPointer
+- _OBJC_IVAR_$_StreamingFileWriterQueue._pendingOperationSize
+- _OBJC_IVAR_$_StreamingFileWriterQueue._pendingOperations
+- _OBJC_IVAR_$_StreamingFileWriterQueue._pendingStateLock
+- _OBJC_IVAR_$_StreamingFileWriterQueue._runningOperationCount
+- _OBJC_IVAR_$_StreamingFileWriterQueueReservation._reservedSize
+- _OBJC_IVAR_$_StreamingFileWriterQueueReservation._valid
+- _OBJC_IVAR_$_StreamingUnzipState._bytesHashedInChunk
+- _OBJC_IVAR_$_StreamingUnzipState._cachedGIDs
+- _OBJC_IVAR_$_StreamingUnzipState._cmpState
+- _OBJC_IVAR_$_StreamingUnzipState._currentCRC32
+- _OBJC_IVAR_$_StreamingUnzipState._currentLFMode
+- _OBJC_IVAR_$_StreamingUnzipState._currentLFRecord
+- _OBJC_IVAR_$_StreamingUnzipState._currentLFRecordAllocationSize
+- _OBJC_IVAR_$_StreamingUnzipState._currentLFRequiresDataDescriptor
+- _OBJC_IVAR_$_StreamingUnzipState._currentOffset
+- _OBJC_IVAR_$_StreamingUnzipState._dataDescriptor
+- _OBJC_IVAR_$_StreamingUnzipState._denyInvalidSymlinks
+- _OBJC_IVAR_$_StreamingUnzipState._fileWriter
+- _OBJC_IVAR_$_StreamingUnzipState._hashContext
+- _OBJC_IVAR_$_StreamingUnzipState._hashedChunkSize
+- _OBJC_IVAR_$_StreamingUnzipState._hashes
+- _OBJC_IVAR_$_StreamingUnzipState._inMemoryFileData
+- _OBJC_IVAR_$_StreamingUnzipState._lastChunkPartialHash
+- _OBJC_IVAR_$_StreamingUnzipState._lastResumptionSavedOffset
+- _OBJC_IVAR_$_StreamingUnzipState._overrideGID
+- _OBJC_IVAR_$_StreamingUnzipState._overrideUID
+- _OBJC_IVAR_$_StreamingUnzipState._performCachedWrites
+- _OBJC_IVAR_$_StreamingUnzipState._performingExtraction
+- _OBJC_IVAR_$_StreamingUnzipState._recordsProcessed
+- _OBJC_IVAR_$_StreamingUnzipState._storeCurrentFileInMemory
+- _OBJC_IVAR_$_StreamingUnzipState._streamInfoDict
+- _OBJC_IVAR_$_StreamingUnzipState._streamState
+- _OBJC_IVAR_$_StreamingUnzipState._thisStageBytesComplete
+- _OBJC_IVAR_$_StreamingUnzipState._totalFileSizeWritten
+- _OBJC_IVAR_$_StreamingUnzipState._totalRecordCount
+- _OBJC_IVAR_$_StreamingUnzipState._totalUncompressedBytes
+- _OBJC_IVAR_$_StreamingUnzipState._uncompressedBytesOutput
+- _OBJC_IVAR_$_StreamingUnzipState._unsureData
+- _OBJC_IVAR_$_StreamingUnzipState._unzipPath
+- _OBJC_IVAR_$_StreamingUnzipper._activeDelegateMethods
+- _OBJC_IVAR_$_StreamingUnzipper._asyncError
+- _OBJC_IVAR_$_StreamingUnzipper._asyncErrorLock
+- _OBJC_IVAR_$_StreamingUnzipper._asyncWorkTrackingGroup
+- _OBJC_IVAR_$_StreamingUnzipper._auditToken
+- _OBJC_IVAR_$_StreamingUnzipper._currentState
+- _OBJC_IVAR_$_StreamingUnzipper._decompressionOutputBuffer
+- _OBJC_IVAR_$_StreamingUnzipper._hasConnection
+- _OBJC_IVAR_$_StreamingUnzipper._lastExtractionProgressSent
+- _OBJC_IVAR_$_StreamingUnzipper._passthroughEnabled
+- _OBJC_IVAR_$_StreamingUnzipper._sandboxToken
+- _OBJC_IVAR_$_StreamingUnzipper._sessionTransaction
+- _OBJC_IVAR_$_StreamingUnzipper._xpcConnection
+- _OBJC_IVAR_$_StreamingUnzipper.inProcessDelegateQueue
+- _OBJC_IVAR_$_StreamingUnzipper.inProcessExtractorDelegate
+- _OBJC_METACLASS_$_AsyncStreamingFileWriter
+- _OBJC_METACLASS_$_StreamingFileWriter
+- _OBJC_METACLASS_$_StreamingFileWriterQueue
+- _OBJC_METACLASS_$_StreamingFileWriterQueueReservation
+- _OBJC_METACLASS_$_StreamingUnzipState
+- _OBJC_METACLASS_$_StreamingUnzipper
+- _SANDBOX_CHECK_CANONICAL
+- _SANDBOX_CHECK_NOFOLLOW
+- _StringFromDigest
+- __CheckRealpathHasBasePrefix
+- __CopyStreamBytesToRecord
+- __GetAndValidatePathDepth
+- __GetCRC32
+- __GetCompressedSize
+- __GetUncompressedSize
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_NSString_$_SZAdditions
+- __OBJC_$_CATEGORY_NSString_$_SZAdditions
+- __OBJC_$_CLASS_METHODS_SZExtractor(KnownImplementations|Testing)
+- __OBJC_$_CLASS_METHODS_StreamingFileWriter
+- __OBJC_$_CLASS_METHODS_StreamingFileWriterQueue
+- __OBJC_$_CLASS_METHODS_StreamingUnzipState
+- __OBJC_$_INSTANCE_METHODS_AsyncStreamingFileWriter
+- __OBJC_$_INSTANCE_METHODS_SZExtractor
+- __OBJC_$_INSTANCE_METHODS_StreamingFileWriter
+- __OBJC_$_INSTANCE_METHODS_StreamingFileWriterQueue
+- __OBJC_$_INSTANCE_METHODS_StreamingFileWriterQueueReservation
+- __OBJC_$_INSTANCE_METHODS_StreamingUnzipState
+- __OBJC_$_INSTANCE_METHODS_StreamingUnzipper
+- __OBJC_$_INSTANCE_VARIABLES_AsyncStreamingFileWriter
+- __OBJC_$_INSTANCE_VARIABLES_StreamingFileWriter
+- __OBJC_$_INSTANCE_VARIABLES_StreamingFileWriterQueue
+- __OBJC_$_INSTANCE_VARIABLES_StreamingFileWriterQueueReservation
+- __OBJC_$_INSTANCE_VARIABLES_StreamingUnzipState
+- __OBJC_$_INSTANCE_VARIABLES_StreamingUnzipper
+- __OBJC_$_PROP_LIST_AsyncStreamingFileWriter
+- __OBJC_$_PROP_LIST_NSString_$_SZAdditions
+- __OBJC_$_PROP_LIST_SZExtractor.460
+- __OBJC_$_PROP_LIST_StreamingFileWriter
+- __OBJC_$_PROP_LIST_StreamingFileWriterQueue
+- __OBJC_$_PROP_LIST_StreamingFileWriterQueueAsyncOperation
+- __OBJC_$_PROP_LIST_StreamingFileWriterQueueReservation
+- __OBJC_$_PROP_LIST_StreamingUnzipState
+- __OBJC_$_PROP_LIST_StreamingUnzipper
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_StreamingFileWriterErrorDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_StreamingFileWriterQueueAsyncOperation
+- __OBJC_$_PROTOCOL_METHOD_TYPES_StreamingFileWriterErrorDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_StreamingFileWriterQueueAsyncOperation
+- __OBJC_$_PROTOCOL_REFS_StreamingFileWriterErrorDelegate
+- __OBJC_$_PROTOCOL_REFS_StreamingFileWriterQueueAsyncOperation
+- __OBJC_CLASS_PROTOCOLS_$_AsyncStreamingFileWriter
+- __OBJC_CLASS_PROTOCOLS_$_StreamingUnzipper
+- __OBJC_CLASS_RO_$_AsyncStreamingFileWriter
+- __OBJC_CLASS_RO_$_StreamingFileWriter
+- __OBJC_CLASS_RO_$_StreamingFileWriterQueue
+- __OBJC_CLASS_RO_$_StreamingFileWriterQueueReservation
+- __OBJC_CLASS_RO_$_StreamingUnzipState
+- __OBJC_CLASS_RO_$_StreamingUnzipper
+- __OBJC_LABEL_PROTOCOL_$_StreamingFileWriterErrorDelegate
+- __OBJC_LABEL_PROTOCOL_$_StreamingFileWriterQueueAsyncOperation
+- __OBJC_METACLASS_RO_$_AsyncStreamingFileWriter
+- __OBJC_METACLASS_RO_$_StreamingFileWriter
+- __OBJC_METACLASS_RO_$_StreamingFileWriterQueue
+- __OBJC_METACLASS_RO_$_StreamingFileWriterQueueReservation
+- __OBJC_METACLASS_RO_$_StreamingUnzipState
+- __OBJC_METACLASS_RO_$_StreamingUnzipper
+- __OBJC_PROTOCOL_$_StreamingFileWriterErrorDelegate
+- __OBJC_PROTOCOL_$_StreamingFileWriterQueueAsyncOperation
+- __RemoveAndRecreateDirectoryAtPath
+- __ValidateDictionaryKeyValueType
+- ___147+[StreamingFileWriter fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:]_block_invoke
+- ___42-[SZExtractor _prepareForLocalExtraction:]_block_invoke
+- ___42-[SZExtractor _prepareForLocalExtraction:]_block_invoke_2
+- ___42-[StreamingFileWriterQueue _runOperation:]_block_invoke
+- ___43-[StreamingUnzipper supplyBytes:withReply:]_block_invoke
+- ___43-[StreamingUnzipper supplyBytes:withReply:]_block_invoke_2
+- ___45-[StreamingUnzipper _sendExtractionProgress:]_block_invoke
+- ___47-[SZExtractor finishStreamWithCompletionBlock:]_block_invoke_3
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.184
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.191
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.197
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.198
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.200
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.225
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.226
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke.230
+- ___47-[SZExtractor supplyBytes:withCompletionBlock:]_block_invoke_2.193
+- ___49-[SZExtractor setActiveExtractorDelegateMethods:]_block_invoke
+- ___49-[SZExtractor setActiveExtractorDelegateMethods:]_block_invoke_2
+- ___54-[StreamingUnzipper _extractionEnteredPassThroughMode]_block_invoke
+- ___56-[SZExtractor terminateStreamWithError:completionBlock:]_block_invoke_3
+- ___58-[StreamingUnzipper _sendExtractionCompleteAtArchivePath:]_block_invoke
+- ___59-[StreamingFileWriterQueue insertAsyncFileOperation:error:]_block_invoke
+- ___73-[SZExtractor _suspendStreamWithCompletionBlockSynchronously:completion:]_block_invoke_3
+- ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.122
+- ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.137
+- ___76-[SZExtractor _prepareForRemoteExtractionSynchronously:withCompletionBlock:]_block_invoke_2.142
+- ___Block_byref_object_copy_.461
+- ___Block_byref_object_dispose_.462
+- ____ValidateAllSymlinksUnderPath_block_invoke
+- ___block_descriptor_32_e5_v8?0l.956
+- ___block_descriptor_40_e8_32s_e20_v24?0"NSError"8Q16ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_40_e8_32s_e79_B24?0^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]}8^16ls32l8
+- ___block_descriptor_44_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_48_e8_32r40r_e20_v20?0"NSError"8B16lr32l8r40l8
+- ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_48_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40r48r_e29_v40?0r^v8{_NSRange=QQ}16^B32ls32l8r40l8r48l8
+- ___block_literal_global.3
+- ___block_literal_global.937
+- ___memcpy_chk
+- __dispatch_queue_attr_concurrent
+- __os_log_fault_impl
+- _chmod
+- _compression_stream_get_state_size
+- _compression_stream_is_state_valid
+- _compression_stream_reinit
+- _dispatch_group_async
+- _dispatch_group_wait
+- _fchmod
+- _fchown
+- _fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:.onceToken
+- _fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:.performAllWritesSynchronously
+- _fsetxattr
+- _futimes
+- _gHashContextSizes
+- _gHashStringNames
+- _getgroups
+- _getpid
+- _getuid
+- _getxattr
+- _lchmod
+- _lchown
+- _lseek
+- _lutimes
+- _memcmp
+- _mkdir
+- _mkpath_np
+- _objc_enumerationMutation
+- _objc_msgSend$SZ_stringByDeletingTrailingSlashes
+- _objc_msgSend$UTF8String
+- _objc_msgSend$_executeWithError:
+- _objc_msgSend$_initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:reservation:error:
+- _objc_msgSend$_initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:error:
+- _objc_msgSend$_openCurrentOutputFDForPath:withOpenFlags:mode:performCachedWrites:quarantineInfo:error:
+- _objc_msgSend$_prepareForLocalExtraction:
+- _objc_msgSend$_runOperation:
+- _objc_msgSend$accessTime
+- _objc_msgSend$appendBytes:length:
+- _objc_msgSend$appendFormat:
+- _objc_msgSend$auditToken
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$bytes
+- _objc_msgSend$bytesHashedInChunk
+- _objc_msgSend$cachedGIDs
+- _objc_msgSend$caseInsensitiveCompare:
+- _objc_msgSend$checkLastChunkPartialHash
+- _objc_msgSend$clearSavedState
+- _objc_msgSend$closeCurrentOutputFD
+- _objc_msgSend$cmpState
+- _objc_msgSend$code
+- _objc_msgSend$componentsJoinedByString:
+- _objc_msgSend$componentsSeparatedByString:
+- _objc_msgSend$configureFileAndSetOwnership:toUID:GID:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$contentsOfDirectoryAtPath:error:
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$currentCRC32
+- _objc_msgSend$currentLFMode
+- _objc_msgSend$currentLFRecord
+- _objc_msgSend$currentLFRecordAllocationSize
+- _objc_msgSend$currentLFRequiresDataDescriptor
+- _objc_msgSend$currentOffset
+- _objc_msgSend$currentOffsetWithError:
+- _objc_msgSend$currentOutputFD
+- _objc_msgSend$dataDescriptor
+- _objc_msgSend$dataWithBytesNoCopy:length:freeWhenDone:
+- _objc_msgSend$dataWithCapacity:
+- _objc_msgSend$dataWithContentsOfFile:options:error:
+- _objc_msgSend$decodeBytesForKey:returnedLength:
+- _objc_msgSend$decodeIntForKey:
+- _objc_msgSend$defaultCStringEncoding
+- _objc_msgSend$denyInvalidSymlinks
+- _objc_msgSend$domain
+- _objc_msgSend$encodeBytes:length:forKey:
+- _objc_msgSend$encodeInt:forKey:
+- _objc_msgSend$encodedData
+- _objc_msgSend$errorDelegate
+- _objc_msgSend$executeAsyncOperation
+- _objc_msgSend$executeFileOperationFlags
+- _objc_msgSend$fileData
+- _objc_msgSend$fileSize
+- _objc_msgSend$fileSystemRepresentation
+- _objc_msgSend$fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:
+- _objc_msgSend$fileURLWithPath:isDirectory:
+- _objc_msgSend$fileWriter
+- _objc_msgSend$fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:
+- _objc_msgSend$fileWriterQueue
+- _objc_msgSend$finalizeFileWithAccessTime:modTime:mode:error:
+- _objc_msgSend$finishDecoding
+- _objc_msgSend$finishStream
+- _objc_msgSend$getBytes:length:
+- _objc_msgSend$gid
+- _objc_msgSend$hashContext
+- _objc_msgSend$hashedChunkSize
+- _objc_msgSend$inMemoryFileData
+- _objc_msgSend$inProcessDelegateQueue
+- _objc_msgSend$inProcessExtractorDelegate
+- _objc_msgSend$inProcessUnzipper
+- _objc_msgSend$initForClient:connection:
+- _objc_msgSend$initForReadingFromData:error:
+- _objc_msgSend$initRequiringSecureCoding:
+- _objc_msgSend$initWithBytes:length:encoding:
+- _objc_msgSend$initWithReservationSize:
+- _objc_msgSend$initWithUnsignedInt:
+- _objc_msgSend$inputStreamWithFileAtPath:
+- _objc_msgSend$insertAsyncFileOperation:error:
+- _objc_msgSend$intValue
+- _objc_msgSend$integerForKey:
+- _objc_msgSend$isEqualToString:
+- _objc_msgSend$isLocalExtractor
+- _objc_msgSend$isValid
+- _objc_msgSend$lastChunkPartialHash
+- _objc_msgSend$markResumptionPoint
+- _objc_msgSend$maxConcurrency
+- _objc_msgSend$maxPendingItemSize
+- _objc_msgSend$maxPendingOperationSize
+- _objc_msgSend$modTime
+- _objc_msgSend$mode
+- _objc_msgSend$mutableBytes
+- _objc_msgSend$mutableCopy
+- _objc_msgSend$numberWithUnsignedChar:
+- _objc_msgSend$numberWithUnsignedInt:
+- _objc_msgSend$numberWithUnsignedLong:
+- _objc_msgSend$objectAtIndex:
+- _objc_msgSend$objectAtIndexedSubscript:
+- _objc_msgSend$objectForKey:
+- _objc_msgSend$oflag
+- _objc_msgSend$omode
+- _objc_msgSend$overrideGID
+- _objc_msgSend$overrideUID
+- _objc_msgSend$path
+- _objc_msgSend$pathComponents
+- _objc_msgSend$pendingOperationPathsByGroupPointer
+- _objc_msgSend$pendingOperationSize
+- _objc_msgSend$pendingOperations
+- _objc_msgSend$performCachedWrites
+- _objc_msgSend$performingExtraction
+- _objc_msgSend$propertyListWithData:options:format:error:
+- _objc_msgSend$propertyListWithStream:options:format:error:
+- _objc_msgSend$recordsProcessed
+- _objc_msgSend$remoteObjectProxy
+- _objc_msgSend$removeItemAtPath:error:
+- _objc_msgSend$removeObject:
+- _objc_msgSend$removeObjectAtIndex:
+- _objc_msgSend$removeObjectForKey:
+- _objc_msgSend$reservation
+- _objc_msgSend$reserveAsyncOperationForFileSize:path:group:operationPendingForPath:
+- _objc_msgSend$reservedSize
+- _objc_msgSend$resolveOwnershipWithExtraField:outUID:outGID:
+- _objc_msgSend$runningOperationCount
+- _objc_msgSend$serializeState
+- _objc_msgSend$setAccessTime:
+- _objc_msgSend$setCurrentCRC32:
+- _objc_msgSend$setCurrentLFMode:
+- _objc_msgSend$setCurrentLFRecord:
+- _objc_msgSend$setCurrentLFRecordAllocationSize:
+- _objc_msgSend$setCurrentLFRequiresDataDescriptor:
+- _objc_msgSend$setCurrentOffset:
+- _objc_msgSend$setCurrentOffset:error:
+- _objc_msgSend$setCurrentOutputFD:
+- _objc_msgSend$setDataDescriptor:
+- _objc_msgSend$setDecodingFailurePolicy:
+- _objc_msgSend$setExecuteFileOperationFlags:
+- _objc_msgSend$setFileWriter:
+- _objc_msgSend$setGid:
+- _objc_msgSend$setInProcessDelegateQueue:
+- _objc_msgSend$setInProcessExtractorDelegate:
+- _objc_msgSend$setIncompleteExtractionAttribute
+- _objc_msgSend$setLastChunkPartialHash:
+- _objc_msgSend$setLength:
+- _objc_msgSend$setModTime:
+- _objc_msgSend$setMode:
+- _objc_msgSend$setOutputFormat:
+- _objc_msgSend$setOwnership
+- _objc_msgSend$setPendingOperationSize:
+- _objc_msgSend$setPerformingExtraction:
+- _objc_msgSend$setRunningOperationCount:
+- _objc_msgSend$setSetOwnership:
+- _objc_msgSend$setStoreCurrentFileInMemory:
+- _objc_msgSend$setStreamInfoDict:
+- _objc_msgSend$setStreamState:
+- _objc_msgSend$setThisStageBytesComplete:
+- _objc_msgSend$setTotalFileSizeWritten:
+- _objc_msgSend$setTotalRecordCount:
+- _objc_msgSend$setTotalUncompressedBytes:
+- _objc_msgSend$setUid:
+- _objc_msgSend$setUncompressedBytesOutput:
+- _objc_msgSend$setUnsureData:
+- _objc_msgSend$setValid:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$standardUserDefaults
+- _objc_msgSend$storeCurrentFileInMemory
+- _objc_msgSend$streamInfoDict
+- _objc_msgSend$streamState
+- _objc_msgSend$streamingFileWriter:didEncounterError:
+- _objc_msgSend$stringByAppendingPathComponent:
+- _objc_msgSend$stringWithCapacity:
+- _objc_msgSend$suspendWithError:
+- _objc_msgSend$synchronousFileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:error:
+- _objc_msgSend$thisStageBytesComplete
+- _objc_msgSend$totalFileSizeWritten
+- _objc_msgSend$totalRecordCount
+- _objc_msgSend$totalUncompressedBytes
+- _objc_msgSend$trackingGroup
+- _objc_msgSend$uid
+- _objc_msgSend$uncompressedBytesOutput
+- _objc_msgSend$unsignedCharValue
+- _objc_msgSend$unsignedIntValue
+- _objc_msgSend$unsignedLongLongValue
+- _objc_msgSend$unsignedLongValue
+- _objc_msgSend$unsignedShortValue
+- _objc_msgSend$unsureData
+- _objc_msgSend$unzipPath
+- _objc_msgSend$unzipStateWithPath:options:error:
+- _objc_msgSend$updateHashFromOffset:withBytes:length:
+- _objc_msgSend$updateHashFromOffset:withBytes:length:onlyFinishCurrentChunk:
+- _objc_msgSend$valueWithNonretainedObject:
+- _objc_msgSend$writeBuffer:length:error:
+- _objc_msgSend$writeToFile:options:error:
+- _objc_msgSend$xpcConnection
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x28
+- _objc_sync_enter
+- _objc_sync_exit
+- _objc_unsafeClaimAutoreleasedReturnValue
+- _os_transaction_create
+- _qos_class_self
+- _removexattr
+- _sandbox_check_by_audit_token
+- _sandbox_extension_consume
+- _sandbox_extension_release
+- _setxattr
+- _sharedInstance.sharedInstance
+- _strndup
+- _strsep
+- _symlink
+- _write
+CStrings:
++ "%@/MacOS/%@"
++ "%s called before -[SZExtractor prepareForExtraction:] on %@ : %@"
++ "%s called on an invalidated object: %@ : %@"
++ "%s/._%s"
++ "._%s"
++ "/temp.XXXXXX"
++ "/tmp"
++ "CFBundleExecutable value in %s contained a slash ('/'), which is not allowed: %@"
++ "CFBundleExecutable value was not a CFString for plist %s"
++ "CFString failed to get filesystem representation for %@"
++ "Calling %s after any calls to other non-init methods on this instance is an error. : %@"
++ "Connection interrupted to streaming unzip service. : %@"
++ "Contents"
++ "Contents/"
++ "Contents/Info.plist"
++ "Contents/_CodeSignature/"
++ "Count of files with either an extended attribute/resource fork or an ACL for which we needed to create an AppleDouble file."
++ "Failed to construct path to macOS bundle executable"
++ "Failed to create NSXPCConnection : %@"
++ "Failed to create extraction directory at path %@: %@ : %@"
++ "Failed to issue sandbox extension for \"%s\" : %s : %@"
++ "Failed to make temp file at %s : %s (%d)"
++ "Failed to map AppleDouble file of size %lu: %s (%d)"
++ "Failed to map file \"%s\" of size %llu: %s (%d)"
++ "Failed to open file: \"%s\" : %s (%d)"
++ "Failed to pack AppleDouble for %s to %s : %s (%d)"
++ "Failed to read symlink destination for file \"%s\": %s (%d)"
++ "Failed to realpath \"%@\" at \"%s\": %s : %@"
++ "Failed to stat temp file FD %d : %s (%d)"
++ "Failed to unlink temp path %s : %s (%d)"
++ "File with size %lld is too big to map: %s"
++ "IncludeAppleDoubleContent"
++ "IncludesAppleDouble"
++ "Plist %s did not contain a value for kCFBundleExecutableKey and we could not locate the .app bundle in %s"
++ "PrivateInterfaces"
++ "SZExtractorOptionsApplyAppleDoubleFiles"
++ "SZExtractorOptionsUseFilesystemCompression"
++ "TMPDIR"
++ "Temp AppleDouble file with size %lld is too big to map"
++ "Temp dir path %s was too long"
++ "Temp dir path was too long"
++ "TempDirPath"
++ "Thought we had content to pack for %s but the packed file had zero length."
++ "XAttrOrACLFileCount"
++ "com.apple.installmetadata."
++ "com.apple.parallelpatcharchive."
++ "com.apple.parallelpatchinfo."
++ "copyfile check for %s returned error %s (%d)"
++ "extractionPath was nil. Did you mean to call -prepareForExtractionToPath:completionBlock: instead? : %@"
+- ""
+- "!"
+- "!_currentState.fileWriter"
+- "%02x"
+- "-[AsyncStreamingFileWriter currentOffsetWithError:]"
+- "-[AsyncStreamingFileWriter readIntoBuffer:length:error:]"
+- "-[AsyncStreamingFileWriter setCurrentOffset:error:]"
+- "-[SZExtractor _prepareForLocalExtraction:]_block_invoke"
+- "-[StreamingFileWriter _openCurrentOutputFDForPath:withOpenFlags:mode:performCachedWrites:quarantineInfo:error:]"
+- "-[StreamingFileWriter currentOffsetWithError:]"
+- "-[StreamingFileWriter readIntoBuffer:length:error:]"
+- "-[StreamingFileWriter setCurrentOffset:error:]"
+- "-[StreamingFileWriter writeBuffer:length:error:]"
+- "-[StreamingFileWriterQueue insertAsyncFileOperation:error:]"
+- "-[StreamingUnzipState _checkHashForOffset:]"
+- "-[StreamingUnzipState checkLastChunkPartialHash]"
+- "-[StreamingUnzipState finishStream]"
+- "-[StreamingUnzipState initWithPath:options:error:]"
+- "-[StreamingUnzipState init]"
+- "-[StreamingUnzipState serializeState]"
+- "-[StreamingUnzipState setStreamState:]"
+- "-[StreamingUnzipState updateHashFromOffset:withBytes:length:onlyFinishCurrentChunk:]"
+- "-[StreamingUnzipper _beginNonStreamablePassthroughWithRemainingBytes:length:]"
+- "-[StreamingUnzipper _supplyBytes:length:withReply:]"
+- "-[StreamingUnzipper finishStreamWithReply:]"
+- "-[StreamingUnzipper setupUnzipperWithOutputPath:sandboxExtensionToken:options:withReply:]"
+- "-[StreamingUnzipper suspendStreamWithReply:]"
+- "-[StreamingUnzipper terminateStreamWithReply:]"
+- "."
+- ".."
+- "0 == length"
+- "3"
+- "<%@: path=%@>"
+- "@\"<StreamingFileWriterErrorDelegate>\""
+- "@\"<StreamingUnzipDelegateProtocol>\""
+- "@\"NSArray\""
+- "@\"NSMutableArray\""
+- "@\"NSMutableData\""
+- "@\"NSMutableDictionary\""
+- "@\"NSNumber\""
+- "@\"NSObject<OS_dispatch_group>\""
+- "@\"NSObject<OS_dispatch_group>\"16@0:8"
+- "@\"NSObject<OS_os_transaction>\""
+- "@\"NSSet\""
+- "@\"StreamingFileWriter\""
+- "@\"StreamingFileWriterQueueReservation\""
+- "@\"StreamingFileWriterQueueReservation\"16@0:8"
+- "@\"StreamingUnzipState\""
+- "@\"StreamingUnzipper\""
+- "@24@0:8q16"
+- "@40@0:8Q16r^v24Q32"
+- "@44@0:8Q16r^v24Q32B40"
+- "@48@0:8q16@24@32^B40"
+- "@52@0:8@16i24S28^v32B40^@44"
+- "@60@0:8@16i24S28^v32B40q44^@52"
+- "@76@0:8@16i24S28^v32B40q44@52@60^@68"
+- "@84@0:8@16i24S28^v32B40q44@52@60@68^@76"
+- "ASYNC_ENQUEUE"
+- "ASYNC_FILE_QUEUE_FULL"
+- "ASYNC_FILE_RESERVED"
+- "ASYNC_OP_EXISTS"
+- "ASYNC_WRITE"
+- "Added async operation for size %lld; queue count: %lu"
+- "Advisory preallocation of %lld bytes for %@ failed: %s"
+- "After hitting Central Directory, we had enough data already to finish the chunk"
+- "After hitting Central Directory, we need more data to finish the chunk"
+- "Ambiguous chunk size (hashes > 1 but chunkSize == 0)"
+- "Ambiguous or missing hash chunk size: chunk size is %llu but have %lu hashes"
+- "Async op exists for %@"
+- "Async op reserved for %@ size %lld (cur total: %lld)"
+- "Async operation for %@ failed: %@"
+- "AsyncStreamingFileWriter"
+- "B24@0:8^@16"
+- "B24@?0^{_ftsent=^{_ftsent}^{_ftsent}^{_ftsent}q^v**iiSSQiSsSSS^{stat}[1c]}8^@16"
+- "B32@0:8@16^@24"
+- "B32@0:8q16^@24"
+- "B40@0:8^{?=[2C]{?=S}{?=I}{?=I}{?=S}{?=S}}16^I24^I32"
+- "B40@0:8r^v16Q24^@32"
+- "B52@0:8@16i24S28B32^v36^@44"
+- "B60@0:8{timeval=qi}16{timeval=qi}32S48^@52"
+- "Begin processing %lu bytes in StreamingUnzipper"
+- "Beginning passthrough of non-streamable zip file to %@"
+- "Byte stream does not represent a valid streamable archive"
+- "C"
+- "C16@0:8"
+- "CONCURRENCY_LIMIT"
+- "CRC mismatch; got: 0x%lx expected: 0x%x for file %@"
+- "Call to realpath failed for suspicious path %s: %s"
+- "Can't determine if parent path exists %@: %s"
+- "Cannot validate hash; this chunk is index %llu, but we only have %lu hashes."
+- "Cannot write to path %@ : %s (%d)"
+- "Complete"
+- "CompleteLFData"
+- "Compression save state was not valid."
+- "Computed index of current hash chunk (%llu) is not within supplied hashes array of %lu elements; resuming from offset 0"
+- "Could not allocate memory for local file record"
+- "Could not mark %s static: %d (%s)"
+- "Couldn't get filename for current file \"%s\""
+- "Couldn't get filename for stream metadata file; entering passthrough mode"
+- "CurrentCRC32"
+- "CurrentOffset"
+- "CurrentOutputFileOffset"
+- "Data descriptor did not match expected signature (found 0x%02hhx%02hhx%02hhx%02hhx)."
+- "Data descriptor did not match expected signature (found 0x%02hhx%02hhx%02hhx%02hhx); entering passthrough mode"
+- "DataDescriptorUnion"
+- "Deallocating state for extraction to %@"
+- "Decompression failed to produce all expected output data for file %@; produced %llu bytes, expected %llu"
+- "Directory %s has a non-zero compressed size; directories aren't supposed to have data."
+- "EXTRACTION"
+- "Encountered inconsistency in stream data: file at offset %llu has a 0-length compressed size but a non-zero uncompressed size"
+- "Encountered inconsistency in stream data: file at offset %llu is stored without compression but the uncompressed and compressed sizes are not equal (%llu != %llu)"
+- "Encountered unexpectedly non-stream-compliant data in stream!"
+- "Encountered unsupported compression method %hu in stream at offset %llu"
+- "Encountered zero-length filename for local file record at offset %llu"
+- "End async operation for %@ size %lld"
+- "End processing %lu bytes in StreamingUnzipper"
+- "Enqueueing async operation for %@ size %lld"
+- "Error"
+- "Error for path %s: %s"
+- "Expected to read %ld bytes but got %ld for EA %s on %@; resuming from offset 0"
+- "Extraction completed successfully for file %@"
+- "Extraction entered passthrough mode"
+- "Extraction failed"
+- "Extraction path at %@ should be a file or directory, but was not (had mode 0x%ho)"
+- "FILE_TOO_BIG"
+- "Failed to consume sandbox extension token for %@ : %s (%d)"
+- "Failed to convert path to string: %s"
+- "Failed to create archive for passthrough EA on path %@"
+- "Failed to create archive for resumption data to path %@"
+- "Failed to create directory at path %@: %s"
+- "Failed to create parent directory %@: %s"
+- "Failed to create symlink at %s to %s: %s"
+- "Failed to decode stream metadata; entering passthrough mode"
+- "Failed to deserialize resumption data (%@); resuming from offset 0"
+- "Failed to fchown %@ to (%d:%d) : %d (%s)"
+- "Failed to fetch current group access list, falling back to always calling chown: %@"
+- "Failed to get current group access list: %s"
+- "Failed to get filename for file at offset %llu."
+- "Failed to get filename for file; entering passthrough mode"
+- "Failed to get name from local file record."
+- "Failed to get path from current local file record."
+- "Failed to get protection class on %s : %s"
+- "Failed to get serialized compression state from save data"
+- "Failed to get size of xattr %s from path %@: %s"
+- "Failed to init"
+- "Failed to lchown %s to (%d:%d) : %d (%s)"
+- "Failed to map file \"%s\" of size %llu: %s"
+- "Failed to open %s : %d (%s)"
+- "Failed to open %s : %s"
+- "Failed to open file: \"%s\" : %s"
+- "Failed to open output file at path %@"
+- "Failed to open passthrough output file at %@"
+- "Failed to read bytes from %@ : %d (%s)"
+- "Failed to read fixed stream metadata from %@: %@"
+- "Failed to read resumption data from path %@: %@; starting from offset 0"
+- "Failed to read stream metadata from %@; entering passthrough mode"
+- "Failed to read symlink destination for file \"%s\": %s"
+- "Failed to read symlink path from %@"
+- "Failed to remove %@: %@"
+- "Failed to remove EA %s from %s: %s"
+- "Failed to remove bad extraction path at %@: %@"
+- "Failed to remove unzip path at %@ : %@"
+- "Failed to remove xattr named %s on %@ : %s"
+- "Failed to save resumption data to path %@: %@"
+- "Failed to seek to current offset in output file at path %@ : %s"
+- "Failed to seek to offset %llu in output file at path %@ : %s"
+- "Failed to set incomplete extraction xattr on %@ : %s"
+- "Failed to set mode of %@ to 0%o: %s"
+- "Failed to set passthrough EA %s on path %@: %s"
+- "Failed to set proper mode on directory %@: %s"
+- "Failed to set protection class on %s to %d: %s"
+- "Failed to set times on %@ : %s"
+- "Failed to stat path %@: %s"
+- "Failed to write data to output file at %@: %s"
+- "Failed to write initial data to passthrough output file"
+- "Failed to write remaining initial data to passthrough output file"
+- "FetchGroupIDs"
+- "File %s is a symlink (mode = 0%o), so keeping in memory"
+- "File %s is fixed metadata file, so keeping in memory"
+- "File %s is larger than 5 MB (%llu) so not keeping in memory"
+- "File %s is metadata file, so keeping in memory"
+- "File has 0-length compressed size but non-zero uncompressed size; entering passthrough mode"
+- "File with size %lld is to big to map: %s"
+- "FinishHashing"
+- "Finished central directory signature at offset %llu and we are also at a chunk boundary."
+- "Finished central directory signature; updating hash with remainder of stream data"
+- "Finishing an incomplete stream! This stream will not be resumable."
+- "Finishing extraction for %@"
+- "Found NUL in path %s length %zu at %zu"
+- "Found last chunk partial hash data but the hash was not computed."
+- "Found resumption data version %d, but expected %d at %@; resuming from offset 0"
+- "Getting current output offset not available on async file operation for %@"
+- "Got a fixed metadata file that did not match expected content (length %lu). Ignoring."
+- "Got block of length %lu at offset %lu"
+- "Got data descriptor with CRC 0x%x, uncompressed size %llu, compressed size %llu"
+- "Got data descriptor with CRC 0x%x, uncompressed size %u, compressed size %u"
+- "Got directory %s with non-zero compressed data size; entering passthrough mode"
+- "Got last chunk partial hash %@"
+- "Got stream metadata: %@"
+- "Got unexpected compression method: %hu; entering passthrough mode"
+- "Got unexpected local file signature %c%c%c%c ; entering passthrough mode"
+- "Got zero-length filename; entering passthrough mode"
+- "Hash chunk size given as > 0, but no hashes"
+- "Hash mismatch for chunk containing offset %llu: expected %@, got %@"
+- "Hash mismatch for last partial chunk: expected %@, got %@"
+- "HashContext"
+- "Hit compression stream end at %llu bytes output for file %@, but expected uncompressed file size of %llu bytes"
+- "Hit compression stream end with %llu compressed bytes remaining for file %@"
+- "I"
+- "I16@0:8"
+- "In-process unzipper"
+- "InMemoryFileData"
+- "IncompleteDataDescriptor"
+- "IncompleteLFData"
+- "IncompleteLFRecord"
+- "Initialized with path %@ ; hashed chunk size %llu ; hashes %@"
+- "Insufficient buffer avilable for %@ size %lld"
+- "Invalid state in resumption data at path %@"
+- "Invalid symlink: %s -> %s"
+- "Invalid symlink: %s -> %s (absolute symlinks are forbidden)"
+- "Invalid unzip state encountered: %hhu"
+- "Item %lld (%s) in archive was not 'mimetype' or %s; entering passthrough mode"
+- "Last chunk's partial hash did not validate (store hashed chunk size mismatch?); consuming more data to check full chunk."
+- "LastChunkPartialHash"
+- "LocalFileMode"
+- "LocalFileRecord"
+- "Max"
+- "Max async item size limit is %lld"
+- "Max async operation size limit is %lld"
+- "Max concurrency is %lu"
+- "MaxAsyncItemSize"
+- "MaxAsyncOperationSize"
+- "MaxConcurrency"
+- "Mismatch between uncompressed bytes output (%llu) and output file offset (%lld)"
+- "NULL != currentState.dataDescriptor"
+- "No last chunk partial hash; will need full chunk to validate."
+- "No pending operation paths found for group %@ when trying to remove path %@"
+- "Not doing anything with data for file %@"
+- "OpenCurrentOutputFile"
+- "Options dictionary supplied has one or more options with an incorrect type: %@"
+- "Overriding max async item size limit to %lld"
+- "Overriding max async operation size limit to %lld"
+- "Overriding max concurrency to %lu"
+- "PASSTHROUGH_MODE"
+- "Parent path %@ did not exist"
+- "PerformAllWritesSynchronously"
+- "Performing cached writes to extraction under %@"
+- "Processed %zu bytes"
+- "Processing file %@ (csize: %llu; usize: %llu; cmethod: %hu)"
+- "Processing file %@ (csize: ??; usize: ??; cmethod: %hu)"
+- "Read not available on async file operation for %@"
+- "ReadNextRecordSignature"
+- "RecordsProcessed"
+- "Rejecting \"%s\" because its resolved path \"%@\" points outside or to the unzip dir %@"
+- "Rejecting insert of file operation because the reservation for size %llu was not valid"
+- "Removed1"
+- "Removed2"
+- "Resuming %@ at offset %lld"
+- "Returning async file error %@"
+- "S"
+- "S16@0:8"
+- "SUPPLY_BYTES_UNZIP_SERVICE"
+- "SZAdditions"
+- "SZ_stringByDeletingTrailingSlashes"
+- "SerializationVersion"
+- "Serialized %s context (%lu bytes) did not match size of struct (%lu bytes); resuming from offset 0"
+- "SerializedCompressionState"
+- "Serializing %lu bytes of resumption data for offset %llu"
+- "Set active delegate methods to 0x%x"
+- "Setting current output offset not available on async file operation for %@"
+- "Setting incomplete extraction attribute not available on this async file operation for %@"
+- "Setting initial mode on %@ failed: %s"
+- "StageBytesComplete"
+- "Start async operation for %@ size %lld"
+- "StoreCurrentFileInMemory"
+- "Stored file has compressed size != uncompressed size; entering passthrough mode"
+- "Stream metadata was incompatible version or not present; entering passthrough mode"
+- "StreamInfoDict"
+- "StreamState"
+- "Streaming Unzipper running with unexpected QOS: expected=0x%x actual=0x%x"
+- "StreamingFileWriter"
+- "StreamingFileWriter %@ encountered error %@"
+- "StreamingFileWriterErrorDelegate"
+- "StreamingFileWriterQueue"
+- "StreamingFileWriterQueueAsyncOperation"
+- "StreamingFileWriterQueueReservation"
+- "StreamingUnzipState"
+- "StreamingUnzipState.m"
+- "StreamingUnzipper"
+- "StreamingUnzipper.m"
+- "Suspending extraction at offset %llu for %@"
+- "T@\"<StreamingFileWriterErrorDelegate>\",W,N,V_errorDelegate"
+- "T@\"<StreamingUnzipDelegateProtocol>\",W,N,VinProcessExtractorDelegate"
+- "T@\"NSDictionary\",&,N,V_streamInfoDict"
+- "T@\"NSMutableArray\",R,N,V_pendingOperations"
+- "T@\"NSMutableData\",&,N,V_fileData"
+- "T@\"NSMutableData\",&,N,V_inMemoryFileData"
+- "T@\"NSMutableData\",&,N,V_unsureData"
+- "T@\"NSMutableDictionary\",R,N,V_pendingOperationPathsByGroupPointer"
+- "T@\"NSNumber\",R,N,V_overrideGID"
+- "T@\"NSNumber\",R,N,V_overrideUID"
+- "T@\"NSObject<OS_dispatch_group>\",R,N"
+- "T@\"NSObject<OS_dispatch_group>\",R,N,V_trackingGroup"
+- "T@\"NSObject<OS_dispatch_queue>\",&,N,VinProcessDelegateQueue"
+- "T@\"NSObject<OS_dispatch_queue>\",R,N,V_fileWriterQueue"
+- "T@\"NSSet\",R,N,V_cachedGIDs"
+- "T@\"NSString\",&,N,V_lastChunkPartialHash"
+- "T@\"NSString\",R,C,N"
+- "T@\"NSString\",R,C,N,V_path"
+- "T@\"NSString\",R,N,V_unzipPath"
+- "T@\"NSXPCConnection\",W,N,V_xpcConnection"
+- "T@\"StreamingFileWriter\",&,N,V_fileWriter"
+- "T@\"StreamingFileWriterQueueReservation\",R,N"
+- "T@\"StreamingFileWriterQueueReservation\",R,N,V_reservation"
+- "T@\"StreamingUnzipper\",R,N,V_inProcessUnzipper"
+- "TB,N,GisValid,V_valid"
+- "TB,N,V_currentLFRequiresDataDescriptor"
+- "TB,N,V_denyInvalidSymlinks"
+- "TB,N,V_performCachedWrites"
+- "TB,N,V_performingExtraction"
+- "TB,N,V_setOwnership"
+- "TB,N,V_storeCurrentFileInMemory"
+- "TB,R,N,V_isLocalExtractor"
+- "TB,R,N,V_performCachedWrites"
+- "TC,N,V_streamState"
+- "TI,N,V_gid"
+- "TI,N,V_uid"
+- "TQ,N,V_currentCRC32"
+- "TQ,N,V_currentLFRecordAllocationSize"
+- "TQ,N,V_currentOffset"
+- "TQ,N,V_executeFileOperationFlags"
+- "TQ,N,V_recordsProcessed"
+- "TQ,N,V_runningOperationCount"
+- "TQ,N,V_thisStageBytesComplete"
+- "TQ,N,V_totalFileSizeWritten"
+- "TQ,N,V_totalRecordCount"
+- "TQ,N,V_totalUncompressedBytes"
+- "TQ,N,V_uncompressedBytesOutput"
+- "TQ,R,N,V_bytesHashedInChunk"
+- "TQ,R,N,V_hashedChunkSize"
+- "TQ,R,N,V_maxConcurrency"
+- "TS,N,V_currentLFMode"
+- "TS,N,V_mode"
+- "TS,R,N,V_omode"
+- "T^{?=*Q*Q^v},R,N"
+- "T^{?=[4C](?={?={?=I}{?=Q}{?=Q}}{?={?=I}{?=I}{?=I}})},N,V_dataDescriptor"
+- "T^{?=[4C]{?=S}{?=S}{?=S}(?={?={?=S}{?=S}}{?=I}){?=I}{?=I}{?=I}{?=S}{?=S}[0C]},N,V_currentLFRecord"
+- "Terminating extraction for %@"
+- "Ti,N,V_currentOutputFD"
+- "Ti,R,N,V_oflag"
+- "Too large for async: %@ size %lld"
+- "TotalFileSizeWritten"
+- "Tq,N,V_pendingOperationSize"
+- "Tq,R,N,V_fileSize"
+- "Tq,R,N,V_maxPendingItemSize"
+- "Tq,R,N,V_maxPendingOperationSize"
+- "Tq,R,N,V_reservedSize"
+- "T{?=i(?={CC_MD5state_st=IIIIII[16I]i}{CC_SHA1state_st=IIIIIII[16I]i}{CC_SHA256state_st=[2I][8I][16I]}{CC_SHA256state_st=[2I][8I][16I]}{CC_SHA512state_st=[2Q][8Q][16Q]}{CC_SHA512state_st=[2Q][8Q][16Q]})},R,N,V_hashContext"
+- "T{os_unfair_lock_s=I},N,V_pendingStateLock"
+- "T{timeval=qi},N,V_accessTime"
+- "T{timeval=qi},N,V_modTime"
+- "UTF8String"
+- "Unable to deserialize resumption data (%@); resuming from offset 0"
+- "Unable to get current output offset from current output file"
+- "Unable to set F_NOCACHE accessing file %s : %d (%s)"
+- "Unable to set F_SINGLE_WRITER on %s : %d (%s)"
+- "Unknown compression method %hu for file %@"
+- "Unsupported hash type: %@. Defaulting to MD5"
+- "UnsureData"
+- "Unzip session on behalf of %@"
+- "Unzipper did not have any state! Client should suspend stream and resume from the given offset."
+- "Unzipper did not have any state, but the client was terminating the stream anyway."
+- "Updating stream state from %@ to %@"
+- "Use of SZExtractorOptionsOwnerUserID requires the caller to be running as root, but it was running as uid %d; ignoring."
+- "Value of key %@ in options dictionary was not an object of type %@. Was %@"
+- "Verified that hashed data offset %llu matches index %llu: %@"
+- "Verified that last chunk partial hash matches: %@"
+- "WriteThrough"
+- "Writing %@ asynchronously"
+- "XX_REMOVEME_XX"
+- "^v"
+- "^{?=*Q*Q^v}16@0:8"
+- "^{?=[4C](?={?={?=I}{?=Q}{?=Q}}{?={?=I}{?=I}{?=I}})}"
+- "^{?=[4C](?={?={?=I}{?=Q}{?=Q}}{?={?=I}{?=I}{?=I}})}16@0:8"
+- "^{?=[4C]{?=S}{?=S}{?=S}(?={?={?=S}{?=S}}{?=I}){?=I}{?=I}{?=I}{?=S}{?=S}[0C]}"
+- "^{?=[4C]{?=S}{?=S}{?=S}(?={?={?=S}{?=S}}{?=I}){?=I}{?=I}{?=I}{?=S}{?=S}[0C]}16@0:8"
+- "_CheckRealpathHasBasePrefix"
+- "_GetCRC32"
+- "_GetCompressedSize"
+- "_GetDataProtectionClassForPath"
+- "_GetUncompressedSize"
+- "_SetDataProtectionClassOnPath"
+- "_TraverseDirectory"
+- "_ValidateAllSymlinksUnderPath"
+- "_accessTime"
+- "_activeDelegateMethods"
+- "_asyncError"
+- "_asyncErrorLock"
+- "_asyncWorkTrackingGroup"
+- "_auditToken"
+- "_bytesHashedInChunk"
+- "_bytesHashedInChunk <= _hashedChunkSize"
+- "_cachedGIDs"
+- "_cmpState"
+- "_currentCRC32"
+- "_currentLFMode"
+- "_currentLFRecord"
+- "_currentLFRecordAllocationSize"
+- "_currentLFRequiresDataDescriptor"
+- "_currentOffset"
+- "_currentOutputFD"
+- "_currentState"
+- "_currentState.currentLFRecord"
+- "_currentState.fileWriter"
+- "_currentState.inMemoryFileData"
+- "_currentState.recordsProcessed <= 2"
+- "_currentState.thisStageBytesComplete <= peekSignatureSize"
+- "_currentState.thisStageBytesComplete == expected_size"
+- "_currentState.thisStageBytesComplete == fullLFRSize"
+- "_currentState.thisStageBytesComplete >= sizeof(LocalFileRecord)"
+- "_dataDescriptor"
+- "_decompressionOutputBuffer"
+- "_denyInvalidSymlinks"
+- "_errorDelegate"
+- "_executeFileOperationFlags"
+- "_executeWithError:"
+- "_fileData"
+- "_fileSize"
+- "_fileWriter"
+- "_fileWriterQueue"
+- "_gid"
+- "_hasConnection"
+- "_hashContext"
+- "_hashedChunkSize"
+- "_hashes"
+- "_inMemoryFileData"
+- "_inProcessUnzipper"
+- "_initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:reservation:error:"
+- "_initForWritingToPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:error:"
+- "_internalSetStreamState:"
+- "_isLocalExtractor"
+- "_lastChunkPartialHash"
+- "_lastExtractionProgressSent"
+- "_lastResumptionSavedOffset"
+- "_maxConcurrency"
+- "_maxPendingItemSize"
+- "_maxPendingOperationSize"
+- "_modTime"
+- "_mode"
+- "_oflag"
+- "_omode"
+- "_openCurrentOutputFDForPath:withOpenFlags:mode:performCachedWrites:quarantineInfo:error:"
+- "_overrideGID"
+- "_overrideUID"
+- "_passthroughEnabled"
+- "_path"
+- "_pendingOperationPathsByGroupPointer"
+- "_pendingOperationSize"
+- "_pendingOperations"
+- "_pendingStateLock"
+- "_performCachedWrites"
+- "_performingExtraction"
+- "_prepareForLocalExtraction:"
+- "_recordsProcessed"
+- "_reservation"
+- "_reservedSize"
+- "_runOperation:"
+- "_runningOperationCount"
+- "_sandboxToken"
+- "_sessionTransaction"
+- "_setOwnership"
+- "_storeCurrentFileInMemory"
+- "_streamInfoDict"
+- "_streamState"
+- "_thisStageBytesComplete"
+- "_totalFileSizeWritten"
+- "_totalRecordCount"
+- "_totalUncompressedBytes"
+- "_trackingGroup"
+- "_uid"
+- "_uncompressedBytesOutput"
+- "_unsureData"
+- "_unzipPath"
+- "_valid"
+- "_xpcConnection"
+- "accessTime"
+- "appendBytes:length:"
+- "appendFormat:"
+- "auditToken"
+- "base directory URL cannot be nil (created from path: \"%@\")"
+- "base directory path cannot be nil"
+- "boolForKey:"
+- "bytes"
+- "bytesHashedInChunk"
+- "cachedGIDs"
+- "caseInsensitiveCompare:"
+- "checkLastChunkPartialHash"
+- "clearSavedState"
+- "closeCurrentOutputFD"
+- "cmpState"
+- "code"
+- "com.apple.StreamingPassthroughResumptionData"
+- "com.apple.StreamingUnzipResumptionData"
+- "com.apple.StreamingZip.SZExtractor_in_proces_delegate"
+- "com.apple.StreamingZip.SZExtractor_in_process"
+- "com.apple.StreamingZip.StreamingFileWriterQueue"
+- "com.apple.streamingzip.incomplete_extraction"
+- "componentsJoinedByString:"
+- "componentsSeparatedByString:"
+- "compression_stream_process consumed %zu bytes"
+- "compression_stream_process did not consume data for output file %@; input buffer size: %zu, output buffer size: %zu"
+- "compression_stream_process returned unexpected result %d"
+- "configureFileAndSetOwnership:toUID:GID:"
+- "containsObject:"
+- "contentsOfDirectoryAtPath:error:"
+- "countByEnumeratingWithState:objects:count:"
+- "currentCRC32"
+- "currentLFMode"
+- "currentLFRecord"
+- "currentLFRecordAllocationSize"
+- "currentLFRequiresDataDescriptor"
+- "currentOffset"
+- "currentOffsetWithError:"
+- "currentOutputFD"
+- "currentState.streamState > kStreamStateIncompleteDataDescriptor"
+- "d"
+- "dataDescriptor"
+- "dataWithBytesNoCopy:length:freeWhenDone:"
+- "dataWithCapacity:"
+- "dataWithContentsOfFile:options:error:"
+- "dealloc"
+- "decodeBytesForKey:returnedLength:"
+- "decodeIntForKey:"
+- "defaultCStringEncoding"
+- "denyInvalidSymlinks"
+- "directory url fileSystemRepresentation cannot be NULL"
+- "domain"
+- "encodeBytes:length:forKey:"
+- "encodeInt:forKey:"
+- "encodedData"
+- "error || _currentState"
+- "errorDelegate"
+- "executeAsyncOperation"
+- "executeFileOperationFlags"
+- "false"
+- "file-write-create"
+- "fileData"
+- "fileSize"
+- "fileSystemRepresentation"
+- "fileURLWithFileSystemRepresentation:isDirectory:relativeToURL:"
+- "fileURLWithPath:isDirectory:"
+- "fileWriter"
+- "fileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:expectedSize:asyncTrackingGroup:errorDelegate:error:"
+- "fileWriterQueue"
+- "finalizeFileWithAccessTime:modTime:mode:error:"
+- "finishDecoding"
+- "finishStream"
+- "fts_close on FTS for %s returned %s"
+- "fts_open failed for %s with error %s"
+- "getBytes:length:"
+- "gid"
+- "hashContext"
+- "hashedChunkSize"
+- "i"
+- "i16@0:8"
+- "inMemoryFileData"
+- "inProcessDelegateQueue"
+- "inProcessExtractorDelegate"
+- "inProcessUnzipper"
+- "initForClient:connection:"
+- "initForReadingFromData:error:"
+- "initRequiringSecureCoding:"
+- "initWithBytes:length:encoding:"
+- "initWithReservationSize:"
+- "initWithUnsignedInt:"
+- "inputStreamWithFileAtPath:"
+- "insertAsyncFileOperation:error:"
+- "intValue"
+- "integerForKey:"
+- "isEqualToString:"
+- "isLocalExtractor"
+- "isValid"
+- "kStreamStateCompleteLFData == _streamState || kStreamStateIncompleteLFRecord == _streamState"
+- "kStreamStateIncompleteDataDescriptor == _streamState|| kStreamStateIncompleteLFData == _streamState || kStreamStateIncompleteLFRecord == _streamState"
+- "kStreamStateIncompleteLFData == _streamState"
+- "kStreamStateIncompleteLFRecord == _streamState"
+- "kStreamStateReadNextRecordSignature == _streamState"
+- "lastChunkPartialHash"
+- "lengthToRead == length"
+- "markResumptionPoint"
+- "maxConcurrency"
+- "maxPendingItemSize"
+- "maxPendingOperationSize"
+- "modTime"
+- "mode"
+- "mutableBytes"
+- "mutableCopy"
+- "numberWithUnsignedChar:"
+- "numberWithUnsignedInt:"
+- "numberWithUnsignedLong:"
+- "objectAtIndex:"
+- "objectAtIndexedSubscript:"
+- "objectForKey:"
+- "oflag"
+- "omode"
+- "outputSize >= cmpState->dst_size"
+- "overrideGID"
+- "overrideUID"
+- "path"
+- "pathComponents"
+- "pendingOperationPathsByGroupPointer"
+- "pendingOperationSize"
+- "pendingOperations"
+- "pendingStateLock"
+- "performCachedWrites"
+- "performingExtraction"
+- "propertyListWithData:options:format:error:"
+- "propertyListWithStream:options:format:error:"
+- "q"
+- "q16@0:8"
+- "q24@0:8^@16"
+- "q40@0:8^v16Q24^@32"
+- "r\"1"
+- "readIntoBuffer:length:error:"
+- "recordsProcessed"
+- "remoteObjectProxy"
+- "removeItemAtPath:error:"
+- "removeObject:"
+- "removeObjectAtIndex:"
+- "removeObjectForKey:"
+- "reservation"
+- "reserveAsyncOperationForFileSize:path:group:operationPendingForPath:"
+- "reservedSize"
+- "resolveOwnershipWithExtraField:outUID:outGID:"
+- "runningOperationCount"
+- "serializeState"
+- "setAccessTime:"
+- "setCurrentCRC32:"
+- "setCurrentLFMode:"
+- "setCurrentLFRecord:"
+- "setCurrentLFRecordAllocationSize:"
+- "setCurrentLFRequiresDataDescriptor:"
+- "setCurrentOffset:"
+- "setCurrentOffset:error:"
+- "setCurrentOutputFD:"
+- "setDataDescriptor:"
+- "setDecodingFailurePolicy:"
+- "setDenyInvalidSymlinks:"
+- "setErrorDelegate:"
+- "setExecuteFileOperationFlags:"
+- "setFileData:"
+- "setFileWriter:"
+- "setGid:"
+- "setInMemoryFileData:"
+- "setInProcessDelegateQueue:"
+- "setInProcessExtractorDelegate:"
+- "setIncompleteExtractionAttribute"
+- "setLastChunkPartialHash:"
+- "setLength:"
+- "setModTime:"
+- "setMode:"
+- "setOutputFormat:"
+- "setOwnership"
+- "setPendingOperationSize:"
+- "setPendingStateLock:"
+- "setPerformCachedWrites:"
+- "setPerformingExtraction:"
+- "setRecordsProcessed:"
+- "setRunningOperationCount:"
+- "setSetOwnership:"
+- "setStoreCurrentFileInMemory:"
+- "setStreamInfoDict:"
+- "setStreamState:"
+- "setThisStageBytesComplete:"
+- "setTotalFileSizeWritten:"
+- "setTotalRecordCount:"
+- "setTotalUncompressedBytes:"
+- "setUid:"
+- "setUncompressedBytesOutput:"
+- "setUnsureData:"
+- "setValid:"
+- "setXpcConnection:"
+- "sharedInstance"
+- "standardUserDefaults"
+- "storeCurrentFileInMemory"
+- "streamInfoDict"
+- "streamState"
+- "streamingFileWriter:didEncounterError:"
+- "stringByAppendingPathComponent:"
+- "stringWithCapacity:"
+- "suspendWithError:"
+- "synchronousFileWriterForPath:withOpenFlags:mode:quarantineInfo:performCachedWrites:error:"
+- "thisStageBytesComplete"
+- "totalFileSizeWritten"
+- "totalRecordCount"
+- "totalUncompressedBytes"
+- "trackingGroup"
+- "uid"
+- "uncompressedBytesOutput"
+- "unsignedCharValue"
+- "unsignedIntValue"
+- "unsignedLongLongValue"
+- "unsignedLongValue"
+- "unsignedShortValue"
+- "unsureData"
+- "unzipPath"
+- "unzipStateWithPath:options:error:"
+- "updateHashFromOffset:withBytes:length:"
+- "updateHashFromOffset:withBytes:length:onlyFinishCurrentChunk:"
+- "v20@0:8C16"
+- "v20@0:8I16"
+- "v20@0:8S16"
+- "v20@0:8{os_unfair_lock_s=I}16"
+- "v24@0:8^{?=[4C](?={?={?=I}{?=Q}{?=Q}}{?={?=I}{?=I}{?=I}})}16"
+- "v24@0:8^{?=[4C]{?=S}{?=S}{?=S}(?={?={?=S}{?=S}}{?=I}){?=I}{?=I}{?=I}{?=S}{?=S}[0C]}16"
+- "v24@0:8q16"
+- "v28@0:8B16I20I24"
+- "v32@0:8@\"StreamingFileWriter\"16@\"NSError\"24"
+- "v32@0:8@16@24"
+- "v32@0:8{timeval=qi}16"
+- "valid"
+- "valueWithNonretainedObject:"
+- "writeBuffer:length:error:"
+- "writeToFile:options:error:"
+- "xpcConnection"
+- "y"
+- "{?=\"dst_ptr\"*\"dst_size\"Q\"src_ptr\"*\"src_size\"Q\"state\"^v}"
+- "{?=\"hashType\"i\"context\"(?=\"md5\"{CC_MD5state_st=\"A\"I\"B\"I\"C\"I\"D\"I\"Nl\"I\"Nh\"I\"data\"[16I]\"num\"i}\"sha1\"{CC_SHA1state_st=\"h0\"I\"h1\"I\"h2\"I\"h3\"I\"h4\"I\"Nl\"I\"Nh\"I\"data\"[16I]\"num\"i}\"sha224\"{CC_SHA256state_st=\"count\"[2I]\"hash\"[8I]\"wbuf\"[16I]}\"sha256\"{CC_SHA256state_st=\"count\"[2I]\"hash\"[8I]\"wbuf\"[16I]}\"sha384\"{CC_SHA512state_st=\"count\"[2Q]\"hash\"[8Q]\"wbuf\"[16Q]}\"sha512\"{CC_SHA512state_st=\"count\"[2Q]\"hash\"[8Q]\"wbuf\"[16Q]})}"
+- "{?=\"val\"[8I]}"
+- "{?=i(?={CC_MD5state_st=IIIIII[16I]i}{CC_SHA1state_st=IIIIIII[16I]i}{CC_SHA256state_st=[2I][8I][16I]}{CC_SHA256state_st=[2I][8I][16I]}{CC_SHA512state_st=[2Q][8Q][16Q]}{CC_SHA512state_st=[2Q][8Q][16Q]})}16@0:8"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+- "{os_unfair_lock_s=I}16@0:8"
+- "{timeval=\"tv_sec\"q\"tv_usec\"i}"
+- "{timeval=qi}16@0:8"
+- "\xa4\xf0\xd4!q"
+- "\xe2"
+
+```

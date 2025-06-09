@@ -1,0 +1,458 @@
+## AssistantSettingsSupport
+
+> `/System/Library/PrivateFrameworks/AssistantSettingsSupport.framework/AssistantSettingsSupport`
+
+```diff
+
+-3405.30.3.11.5
+-  __TEXT.__text: 0x52124
+-  __TEXT.__auth_stubs: 0x1bb0
+-  __TEXT.__objc_methlist: 0x2ac4
+-  __TEXT.__const: 0xf64
+-  __TEXT.__gcc_except_tab: 0x7e4
+-  __TEXT.__cstring: 0x6f38
+-  __TEXT.__oslogstring: 0x18f1
++3500.74.4.1.2
++  __TEXT.__text: 0x5545c
++  __TEXT.__auth_stubs: 0x1ee0
++  __TEXT.__objc_methlist: 0x2afc
++  __TEXT.__const: 0x1244
++  __TEXT.__gcc_except_tab: 0x7f0
++  __TEXT.__cstring: 0x71fd
++  __TEXT.__oslogstring: 0x19e1
+   __TEXT.__ustring: 0x4
+   __TEXT.__dlopen_cstrs: 0x3dc
+-  __TEXT.__constg_swiftt: 0x914
+-  __TEXT.__swift5_typeref: 0xaf0
+-  __TEXT.__swift5_reflstr: 0x2d6
+-  __TEXT.__swift5_fieldmd: 0x370
++  __TEXT.__constg_swiftt: 0xa7c
++  __TEXT.__swift5_typeref: 0x1660
++  __TEXT.__swift5_reflstr: 0x3d6
++  __TEXT.__swift5_fieldmd: 0x40c
+   __TEXT.__swift5_builtin: 0x64
+-  __TEXT.__swift5_assocty: 0x150
+-  __TEXT.__swift5_proto: 0x98
+-  __TEXT.__swift5_types: 0x64
+-  __TEXT.__swift5_capture: 0x2dc
++  __TEXT.__swift5_assocty: 0x168
++  __TEXT.__swift5_proto: 0x9c
++  __TEXT.__swift5_types: 0x74
++  __TEXT.__swift5_capture: 0x2fc
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x90
+   __TEXT.__swift_as_ret: 0x9c
+-  __TEXT.__unwind_info: 0x1540
+-  __TEXT.__eh_frame: 0x1150
+-  __TEXT.__objc_classname: 0x675
+-  __TEXT.__objc_methname: 0x888b
+-  __TEXT.__objc_methtype: 0xc2d
+-  __TEXT.__objc_stubs: 0x6960
+-  __DATA_CONST.__got: 0xa00
+-  __DATA_CONST.__const: 0xd30
+-  __DATA_CONST.__objc_classlist: 0x1c0
++  __TEXT.__unwind_info: 0x1600
++  __TEXT.__eh_frame: 0x117c
++  __TEXT.__objc_classname: 0x68d
++  __TEXT.__objc_methname: 0x8841
++  __TEXT.__objc_methtype: 0xc67
++  __TEXT.__objc_stubs: 0x6900
++  __DATA_CONST.__got: 0xa88
++  __DATA_CONST.__const: 0xcf8
++  __DATA_CONST.__objc_classlist: 0x1d0
+   __DATA_CONST.__objc_protolist: 0xa0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2260
++  __DATA_CONST.__objc_selrefs: 0x2258
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0xe0
+   __DATA_CONST.__objc_arraydata: 0x90
+-  __AUTH_CONST.__auth_got: 0xde8
+-  __AUTH_CONST.__const: 0x10d0
+-  __AUTH_CONST.__cfstring: 0x3f00
+-  __AUTH_CONST.__objc_const: 0x44d8
++  __AUTH_CONST.__auth_got: 0xf80
++  __AUTH_CONST.__const: 0x1288
++  __AUTH_CONST.__cfstring: 0x3ec0
++  __AUTH_CONST.__objc_const: 0x45b0
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH_CONST.__objc_intobj: 0x90
++  __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x13b0
+-  __AUTH.__data: 0x2a0
+-  __DATA.__objc_ivar: 0x2cc
+-  __DATA.__data: 0xe98
+-  __DATA.__bss: 0x11d0
++  __AUTH.__objc_data: 0x1578
++  __AUTH.__data: 0x2f0
++  __DATA.__objc_ivar: 0x2d0
++  __DATA.__data: 0xd80
++  __DATA.__bss: 0x1258
+   __DATA.__common: 0x88
+-  __DATA_DIRTY.__objc_data: 0x6a8
++  __DATA_DIRTY.__objc_data: 0x658
+   __DATA_DIRTY.__data: 0x188
+   __DATA_DIRTY.__common: 0x28
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/TipKit.framework/TipKit
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift
+   - /System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary
+   - /System/Library/PrivateFrameworks/AppPredictionClient.framework/AppPredictionClient
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+
+   - /System/Library/PrivateFrameworks/FindMyLocate.framework/FindMyLocate
+   - /System/Library/PrivateFrameworks/GenerativeAssistantSettings.framework/GenerativeAssistantSettings
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
++  - /System/Library/PrivateFrameworks/GenerativePartnerServiceUI.framework/GenerativePartnerServiceUI
+   - /System/Library/PrivateFrameworks/HelpKit.framework/HelpKit
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+   - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/UnifiedAssetFramework
+   - /System/Library/PrivateFrameworks/VoiceServices.framework/VoiceServices
+   - /System/Library/PrivateFrameworks/VoiceTrigger.framework/VoiceTrigger
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+-  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 2486AA72-9595-3117-BFAA-98EF1BC12F04
+-  Functions: 1734
+-  Symbols:   4254
+-  CStrings:  2986
++  UUID: 13D3836D-5E3D-3635-A6F1-414EF44DE8EE
++  Functions: 1800
++  Symbols:   4309
++  CStrings:  3013
+ 
+Symbols:
++ +[AssistantSubtitleTableViewCell cellStyle]
++ -[AssistantAudioFeedbackController _refreshFooterForUpdateDeviceSpeaker]
++ -[AssistantController tableView:cellForRowAtIndexPath:]
++ -[AssistantTextWithDetailTableViewCell canReload]
++ -[AssistantTextWithDetailTableViewCell refreshCellContentsWithSpecifier:]
++ -[AssistantVoiceDownloadingCell initWithStyle:reuseIdentifier:]
++ GCC_except_table103
++ GCC_except_table105
++ GCC_except_table141
++ GCC_except_table159
++ GCC_except_table162
++ GCC_except_table169
++ GCC_except_table173
++ GCC_except_table184
++ GCC_except_table186
++ GCC_except_table197
++ GCC_except_table76
++ GCC_except_table81
++ GCC_except_table86
++ GCC_except_table89
++ GCC_except_table93
++ _AFSystemAssistantExperienceAvailabilityDidChangeNotificationName
++ _OBJC_CLASS_$_AssistantTextWithDetailTableViewCell
++ _OBJC_CLASS_$_PSSubtitleButtonCell
++ _OBJC_CLASS_$_PSSubtitleDisclosureTableCell
++ _OBJC_CLASS_$_PSViewController
++ _OBJC_CLASS_$__TtC24AssistantSettingsSupport23SiriResponsesController
++ _OBJC_CLASS_$__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ _OBJC_IVAR_$_AssistantController._externalAISettingsManager
++ _OBJC_METACLASS_$_AssistantTextWithDetailTableViewCell
++ _OBJC_METACLASS_$_PSViewController
++ _OBJC_METACLASS_$__TtC24AssistantSettingsSupport23SiriResponsesController
++ _OBJC_METACLASS_$__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ __DATA__TtC24AssistantSettingsSupport23SiriResponsesController
++ __DATA__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ __INSTANCE_METHODS__TtC24AssistantSettingsSupport23SiriResponsesController
++ __INSTANCE_METHODS__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ __IVARS__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ __METACLASS_DATA__TtC24AssistantSettingsSupport23SiriResponsesController
++ __METACLASS_DATA__TtC24AssistantSettingsSupport25ExternalAISettingsManager
++ __MergedGlobals
++ __OBJC_$_CLASS_METHODS_AssistantSubtitleTableViewCell
++ __OBJC_$_INSTANCE_METHODS_AssistantTextWithDetailTableViewCell
++ __OBJC_CLASS_RO_$_AssistantTextWithDetailTableViewCell
++ __OBJC_METACLASS_RO_$_AssistantTextWithDetailTableViewCell
++ ___45-[AssistantController _fetchGMWaitListStatus]_block_invoke.255
++ ___45-[AssistantController _fetchGMWaitListStatus]_block_invoke.255.cold.1
++ ___91-[AssistantController _createVoiceSelectionCompletionForSpecifier:recognitionLanguageCode:]_block_invoke.626
++ ___91-[AssistantController _createVoiceSelectionCompletionForSpecifier:recognitionLanguageCode:]_block_invoke.628
++ ___block_literal_global.285
++ ___block_literal_global.597
++ ___isPlatformVersionAtLeast
++ ___isPlatformVersionAtLeast.cold.1
++ ___isPlatformVersionAtLeast.cold.2
++ ___swift_memcpy1_1
++ ___swift_memcpy96_8
++ ___swift_noop_void_return
++ __availability_version_check
++ __initializeAvailabilityCheck
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AssistantSettingsSupport
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AssistantSettingsSupport
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AssistantSettingsSupport
++ _associated conformance 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLOSHAASQ
++ _associated conformance 24AssistantSettingsSupport13SiriResponsesV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance So24AFUseDeviceSpeakerForTTSVSHSCSQ
++ _compatibilityInitializeAvailabilityCheck
++ _dispatch_once_f
++ _fclose
++ _fopen
++ _fread
++ _fseek
++ _ftell
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOQr.27
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOqd0__AaBHC.28
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4TextVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingG0VGAA13_OffsetEffectVGAA4ViewHPAwAA_HPAtAA_HPAoAA_HPAhAA_HPAeAA_HPyHC_AgA0qK0HPyHCHC_AnAA0_HPyHCHC_AsAA0_HPyHCHC_AvAA0_HPyHCHC_AyAA0_HPyHCHC.5
++ _get_witness_table 7SwiftUI16SubscriptionViewVySo20NSNotificationCenterC10FoundationE9PublisherVAA15ModifiedContentVyAA0D0P8SettingsE22settingsListAppearanceQryFQOyAlAE15navigationTitleyQrAA4TextVFQOyAA0M0Vys5NeverOAA05TupleD0VyAA7SectionVyAqlAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAE12labelsHiddenQryFQOyAlAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQOyAA6PickerVyAQSo24AFUseDeviceSpeakerForTTSVAWyAlAE3tag_15includeOptionalQrqd___SbtSHRd__lFQOyAQ_A7_Qo__A10_A10_tGG_AA17InlinePickerStyleVQo__Qo__A7_Qo_AQG_AYyAA05EmptyD0VAlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA6ToggleVyAQG_SbQo_AQGSgA25_AYyAqlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQOyAlAEA1_QryFQOyAlAEA2_yQrqd__AAA3_Rd__lFQOyA5_yAQ09AssistantK7Support13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLOAWyAlAEA8__A9_Qrqd___SbtSHRd__lFQOyAQ_A32_Qo__A33_SgA33_tGG_A14_Qo__Qo__A32_Qo_AA6VStackVyAWyAQ_AWyAA6SpacerV_AQtGSgtGGGSgtGG_Qo__Qo_AA01_N14ActionModifierVGGAaKHPyHC.13
++ _initializeAvailabilityCheck
++ _objc_msgSend$_refreshFooterForUpdateDeviceSpeaker
++ _objc_msgSend$handleURL:
++ _objc_msgSend$hasPrefix:
++ _objc_msgSend$requestState
++ _objc_msgSend$showController:animate:
++ _rewind
++ _sscanf
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initWithCopy
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _symbolic SS_So8NSObjectCt
++ _symbolic So16PSViewControllerC
++ _symbolic _____ 24AssistantSettingsSupport13SiriResponsesV
++ _symbolic _____ 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____ 24AssistantSettingsSupport23SiriResponsesControllerC
++ _symbolic _____ 24AssistantSettingsSupport25ExternalAISettingsManagerC
++ _symbolic _____ So24AFUseDeviceSpeakerForTTSV
++ _symbolic _____Sg 26GenerativePartnerServiceUI0abC17PSSettingsManagerC
++ _symbolic _____ySbG 7SwiftUI5StateV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 24AssistantSettingsSupport13SiriResponsesV
++ _symbolic _____y_____G 7SwiftUI5StateV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____y_____G 7SwiftUI5StateV So24AFUseDeviceSpeakerForTTSV
++ _symbolic _____y_____G 7SwiftUI6ToggleV AA4TextV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation23LocalizedStringResourceV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
++ _symbolic _____y______AAy______ABtGSgtG 7SwiftUI9TupleViewV AA4TextV AA6SpacerV
++ _symbolic _____y______Qo_ 7SwiftUI4ViewP8SettingsE48emitNavigationEventOnAppearForApplicationSetting010associatedK16BundleIdentifier5title09localizedF10Components8deepLinkQrSS_10Foundation23LocalizedStringResourceVSayALGAJ3URLVtFQO 09AssistantD7Support13SiriResponsesV
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____y___________Qo_ 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV So24AFUseDeviceSpeakerForTTSV
++ _symbolic _____y___________Qo_Sg 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____y___________Qo__A2Ct 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV So24AFUseDeviceSpeakerForTTSV
++ _symbolic _____y___________Qo__ACSgACt 7SwiftUI4ViewPAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____y_______________y_____yAB_ACQo__A2EtGG 7SwiftUI6PickerV AA4TextV So24AFUseDeviceSpeakerForTTSV AA9TupleViewV AA0K0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y_______________y_____yAB_ACQo__AESgAEtGG 7SwiftUI6PickerV AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA9TupleViewV AA0S0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO
++ _symbolic _____y__________y_____y_____G_SbQo_ADG 7SwiftUI7SectionV AA9EmptyViewV AA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AA4TextV
++ _symbolic _____y__________y_____y_____G_SbQo_ADGSg 7SwiftUI7SectionV AA9EmptyViewV AA0E0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AA4TextV
++ _symbolic _____y__________y_____y__________y_____y_____y_____yAE_____ACy_____yAE_AGQo__A2HtGG______Qo__Qo__AGQo_AEG_ADy__________y_____yAEG_SbQo_AEGSgAtDyAE_____y_____y_____yAFyAE_____ACy_____yAE_AVQo__AWSgAWtGG_AKQo__Qo__AVQo______yACyAE_ACy______AEtGSgtGGGSgtGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA7SectionV AA4TextV AA0F0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAE12labelsHiddenQryFQO AmAE11pickerStyleyQrqd__AA06PickerP0Rd__lFQO AA0Q0V So24AFUseDeviceSpeakerForTTSV AmAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlineqP0V AA05EmptyF0V AmAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AmAEAnoP_Qrqd___Sbyqd___qd__tctSQRd__lFQO AmAEAQQryFQO AmAEARyQrqd__AaSRd__lFQO 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AmAEAX_AYQrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV
++ _symbolic _____y__________y_____y_____y_____yAB__________y_____yAB_ADQo__A2FtGG______Qo__Qo__ADQo_ABG 7SwiftUI7SectionV AA4TextV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE12labelsHiddenQryFQO AgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQO AA0N0V So24AFUseDeviceSpeakerForTTSV AA05TupleE0V AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinenM0V
++ _symbolic _____y__________y_____y_____y_____yAB__________y_____yAB_ADQo__A2FtGG______Qo__Qo__ADQo_ABG_AAy__________y_____yABG_SbQo_ABGSgArAyAB_____y_____y_____yACyAB_____AEy_____yAB_ATQo__AUSgAUtGG_AIQo__Qo__ATQo______yAEyAB_AEy______ABtGSgtGGGSgt 7SwiftUI7SectionV AA4TextV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE12labelsHiddenQryFQO AgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQO AA0N0V So24AFUseDeviceSpeakerForTTSV AA05TupleE0V AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinenM0V AA05EmptyE0V AgAEAhiJ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AgAEAhiJ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAEAKQryFQO AgAEALyQrqd__AaMRd__lFQO 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AgAEAT_AUQrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV
++ _symbolic _____y__________y_____y_____y_____yAB__________y_____yAB_ADQo__AFSgAFtGG______Qo__Qo__ADQo______yAEyAB_AEy______ABtGSgtGGG 7SwiftUI7SectionV AA4TextV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE12labelsHiddenQryFQO AgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQO AA0N0V 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA05TupleE0V AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinenM0V AA6VStackV AA6SpacerV
++ _symbolic _____y__________y_____y_____y_____yAB__________y_____yAB_ADQo__AFSgAFtGG______Qo__Qo__ADQo______yAEyAB_AEy______ABtGSgtGGGSg 7SwiftUI7SectionV AA4TextV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AgAE12labelsHiddenQryFQO AgAE11pickerStyleyQrqd__AA06PickerM0Rd__lFQO AA0N0V 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA05TupleE0V AgAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinenM0V AA6VStackV AA6SpacerV
++ _symbolic _____y__________y_____y_____y_____y__________y_____y__________y_____y_____y_____yAH_____AFy_____yAH_AJQo__A2KtGG______Qo__Qo__AJQo_AHG_AGy__________y_____yAHG_SbQo_AHGSgAwGyAH_____y_____y_____yAIyAH_____AFy_____yAH_AYQo__AZSgAZtGG_ANQo__Qo__AYQo______yAFyAH_AFy______AHtGSgtGGGSgtGG_Qo__Qo______GG 7SwiftUI16SubscriptionViewV So20NSNotificationCenterC10FoundationE9PublisherV AA15ModifiedContentV AA0D0P8SettingsE22settingsListAppearanceQryFQO AlAE15navigationTitleyQrAA4TextVFQO AA0M0V s5NeverO AA05TupleD0V AA7SectionV AQ AlAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AlAE12labelsHiddenQryFQO AlAE11pickerStyleyQrqd__AA11PickerStyleRd__lFQO AA6PickerV So24AFUseDeviceSpeakerForTTSV AlAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA17InlinePickerStyleV AA05EmptyD0V AlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AlAEAZA_A0__Qrqd___Sbyqd___qd__tctSQRd__lFQO AlAEA1_QryFQO AlAEA2_yQrqd__AAA3_Rd__lFQO 09AssistantK7Support13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AlAEA8__A9_Qrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV AA01_N14ActionModifierV
++ _symbolic _____y_____y_____G_SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AA4TextV
++ _symbolic _____y_____y______ABy______ACtGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA6SpacerV
++ _symbolic _____y_____y___________Qo__A2DtG 7SwiftUI9TupleViewV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV So24AFUseDeviceSpeakerForTTSV
++ _symbolic _____y_____y___________Qo__ADSgADtG 7SwiftUI9TupleViewV AA0D0PAAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO
++ _symbolic _____y_____y_______________y_____yAB_ACQo__A2EtGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV So24AFUseDeviceSpeakerForTTSV AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinefE0V
++ _symbolic _____y_____y_______________y_____yAB_ACQo__AESgAEtGG______Qo_ 7SwiftUI4ViewPAAE11pickerStyleyQrqd__AA06PickerE0Rd__lFQO AA0F0V AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinefE0V
++ _symbolic _____y_____y__________y_____y__________y_____y_____y_____yAE_____ACy_____yAE_AGQo__A2HtGG______Qo__Qo__AGQo_AEG_ADy__________y_____yAEG_SbQo_AEGSgAtDyAE_____y_____y_____yAFyAE_____ACy_____yAE_AVQo__AWSgAWtGG_AKQo__Qo__AVQo______yACyAE_ACy______AEtGSgtGGGSgtGG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQO AA4ListV s5NeverO AA05TupleC0V AA7SectionV AF AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE12labelsHiddenQryFQO AcAE11pickerStyleyQrqd__AA06PickerR0Rd__lFQO AA0S0V So24AFUseDeviceSpeakerForTTSV AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinesR0V AA05EmptyC0V AcAEAopQ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AcAEAopQ_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEARQryFQO AcAEASyQrqd__AaTRd__lFQO 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AcAEAY_AZQrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV
++ _symbolic _____y_____y__________y_____y_____y_____yAC_____AAy_____yAC_AEQo__A2FtGG______Qo__Qo__AEQo_ACG_ABy__________y_____yACG_SbQo_ACGSgArByAC_____y_____y_____yADyAC_____AAy_____yAC_ATQo__AUSgAUtGG_AIQo__Qo__ATQo______yAAyAC_AAy______ACtGSgtGGGSgtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV AA0D0PAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAE12labelsHiddenQryFQO AiAE11pickerStyleyQrqd__AA06PickerN0Rd__lFQO AA0O0V So24AFUseDeviceSpeakerForTTSV AiAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlineoN0V AA05EmptyD0V AiAEAjkL_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AiAEAjkL_Qrqd___Sbyqd___qd__tctSQRd__lFQO AiAEAMQryFQO AiAEANyQrqd__AaORd__lFQO 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AiAEAT_AUQrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV
++ _symbolic _____y_____y_____y_______________y_____yAB_ACQo__A2EtGG______Qo__Qo_ 7SwiftUI4ViewPAAE12labelsHiddenQryFQO AcAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV So24AFUseDeviceSpeakerForTTSV AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinehG0V
++ _symbolic _____y_____y_____y_______________y_____yAB_ACQo__AESgAEtGG______Qo__Qo_ 7SwiftUI4ViewPAAE12labelsHiddenQryFQO AcAE11pickerStyleyQrqd__AA06PickerG0Rd__lFQO AA0H0V AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinehG0V
++ _symbolic _____y_____y_____y_____y_______________y_____yAB_ACQo__A2EtGG______Qo__Qo__ACQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE12labelsHiddenQryFQO AcAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA4TextV So24AFUseDeviceSpeakerForTTSV AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinelK0V
++ _symbolic _____y_____y_____y_____y_______________y_____yAB_ACQo__AESgAEtGG______Qo__Qo__ACQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE12labelsHiddenQryFQO AcAE11pickerStyleyQrqd__AA06PickerK0Rd__lFQO AA0L0V AA4TextV 24AssistantSettingsSupport13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AA05TupleC0V AcAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinelK0V
++ _symbolic _____y_____y_____y_____y__________y_____y__________y_____y_____y_____yAF_____ADy_____yAF_AHQo__A2ItGG______Qo__Qo__AHQo_AFG_AEy__________y_____yAFG_SbQo_AFGSgAuEyAF_____y_____y_____yAGyAF_____ADy_____yAF_AWQo__AXSgAXtGG_ALQo__Qo__AWQo______yADyAF_ADy______AFtGSgtGGGSgtGG_Qo__Qo______G 7SwiftUI15ModifiedContentV AA4ViewP8SettingsE22settingsListAppearanceQryFQO AeAE15navigationTitleyQrAA4TextVFQO AA0H0V s5NeverO AA05TupleE0V AA7SectionV AJ AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE12labelsHiddenQryFQO AeAE11pickerStyleyQrqd__AA06PickerW0Rd__lFQO AA0X0V So24AFUseDeviceSpeakerForTTSV AeAE3tag_15includeOptionalQrqd___SbtSHRd__lFQO AA06InlinexW0V AA05EmptyE0V AeAEAstU_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA6ToggleV AeAEAstU_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAVQryFQO AeAEAWyQrqd__AaXRd__lFQO 09AssistantF7Support13SiriResponsesV13CarAudioRoute33_2BAAB5989ACB17DB76390A92413F198CLLO AeAEA1__A2_Qrqd___SbtSHRd__lFQO AA6VStackV AA6SpacerV AA01_I14ActionModifierV
++ _symbolic qd0__
++ _symbolic qd__
++ _type_layout_string 24AssistantSettingsSupport13SiriResponsesV
+- +[AssistantCell bundle]
+- +[AssistantCell cellStyle]
+- -[AssistantAudioFeedbackController _refreshFooterForUpdateDeviceSpeakerForTTSSpecifiers:]
+- -[AssistantAudioFeedbackController footerVariant]
+- -[AssistantCell canReload]
+- -[AssistantController configureAppleIntelligencePrivacyFooterSpecifiersFor:]
+- -[AssistantSubtitleTableViewCell canReload]
+- -[AssistantSubtitleTableViewCell refreshCellContentsWithSpecifier:]
+- -[AssistantVoiceDownloadingCell initWithStyle:reuseIdentifier:specifier:]
+- GCC_except_table104
+- GCC_except_table106
+- GCC_except_table142
+- GCC_except_table160
+- GCC_except_table163
+- GCC_except_table170
+- GCC_except_table174
+- GCC_except_table185
+- GCC_except_table187
+- GCC_except_table198
+- GCC_except_table80
+- GCC_except_table82
+- GCC_except_table87
+- GCC_except_table90
+- GCC_except_table94
+- _CGRectGetMidY
+- _OBJC_CLASS_$_AssistantCell
+- _OBJC_CLASS_$_TTSAssetSource
+- _OBJC_METACLASS_$_AssistantCell
+- __OBJC_$_CLASS_METHODS_AssistantCell
+- __OBJC_$_INSTANCE_METHODS_AssistantCell
+- __OBJC_$_INSTANCE_METHODS_AssistantSubtitleTableViewCell
+- __OBJC_CLASS_RO_$_AssistantCell
+- __OBJC_METACLASS_RO_$_AssistantCell
+- ___45-[AssistantController _fetchGMWaitListStatus]_block_invoke.237
+- ___45-[AssistantController _fetchGMWaitListStatus]_block_invoke.237.cold.1
+- ___91-[AssistantController _createVoiceSelectionCompletionForSpecifier:recognitionLanguageCode:]_block_invoke.609
+- ___91-[AssistantController _createVoiceSelectionCompletionForSpecifier:recognitionLanguageCode:]_block_invoke.611
+- ___block_literal_global.291
+- ___block_literal_global.580
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage
+- __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AssistantSettingsSupport
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AssistantSettingsSupport
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyaSHSCSQ
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCSY
+- _associated conformance So38UIApplicationOpenExternalURLOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO7SwiftUIE0G12UIAttributesV013EncapsulationE0OAaBHPyHC.8
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA4TextVAA12_FrameLayoutVGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAJyAA5ColorVSgGGAA08_PaddingG0VGAA13_OffsetEffectVGAA4ViewHPAwAA_HPAtAA_HPAoAA_HPAhAA_HPAeAA_HPyHC_AgA0qK0HPyHCHC_AnAA0_HPyHCHC_AsAA0_HPyHCHC_AvAA0_HPyHCHC_AyAA0_HPyHCHC.11
+- _objc_msgSend$_refreshFooterForUpdateDeviceSpeakerForTTSSpecifiers:
+- _objc_msgSend$bounds
+- _objc_msgSend$configureAppleIntelligencePrivacyFooterSpecifiersFor:
+- _objc_msgSend$emptyGroupSpecifier
+- _objc_msgSend$isSAEEnabled
+- _objc_msgSend$setSourceRect:
+- _objc_msgSend$turiTrial
+- _objc_msgSend$vocalizerVoice
+- _symbolic Sccy___________pG 25CloudSubscriptionFeatures12TicketStatusC s5ErrorP
+- _symbolic Sccy___________pG 25CloudSubscriptionFeatures6TicketC s5ErrorP
+- _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV
+- _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV013EncapsulationB0O
+- _symbolic _____ 10Foundation22AttributeDynamicLookupO
+- _symbolic _____ So38UIApplicationOpenExternalURLOptionsKeya
+- _symbolic ______ypt So38UIApplicationOpenExternalURLOptionsKeya
+- _symbolic _____y__________G s7KeyPathC 10Foundation15AttributeScopesO7SwiftUIE0F12UIAttributesV AH013EncapsulationD0O
+- _symbolic _____y_____ypG s18_DictionaryStorageC So38UIApplicationOpenExternalURLOptionsKeya
+CStrings:
++ "%d.%d.%d"
++ "%s ExternalAIModelSettings not available. Will not configure ExternalAIModelSettingsSpecifiers."
++ "%s GM is not active and enabled. Will not configure ExternalAIModelSettingsSpecifiers. eligibility: %ld, status: %ld"
++ "-[AssistantController configureExternalAIModelSettingsSpecifiersFor:]"
++ "/System/Library/CoreServices/SystemVersion.plist"
++ "@\"_TtC24AssistantSettingsSupport25ExternalAISettingsManager\""
++ "ALWAYS_PRINT_RESPONSE_FOOTER_TEXT"
++ "ALWAYS_SHOW_RECOGNIZED_SPEECH_FOOTER_TEXT"
++ "ASSISTANT_LANGUAGE_MULTIUSER_DISABLE_WARNING"
++ "ASSISTANT_MULTIPLE_DISABLE_WARNING_WATCH"
++ "ASSISTANT_MULTIPLE_DISABLE_WARNING_WATCH_ADDITIVE"
++ "AssistantSettingsSupport.ExternalAISettingsManager"
++ "AssistantTextWithDetailTableViewCell"
++ "CFDataCreateWithBytesNoCopy"
++ "CFDictionaryGetValue"
++ "CFGetTypeID"
++ "CFPropertyListCreateFromXMLData"
++ "CFPropertyListCreateWithData"
++ "CFRelease"
++ "CFStringCreateWithCStringNoCopy"
++ "CFStringGetCString"
++ "CFStringGetTypeID"
++ "PREFERRED_AUDIO_ROUTE_CAR_RADIO"
++ "PREFERRED_AUDIO_ROUTE_FOOTER_TEXT_INTERNAL"
++ "PREFERRED_AUDIO_ROUTE_PHONE_SPEAKER"
++ "PREFFERED_AUDIO_ROUTE_BLUETOOTH_AUDIO"
++ "ProductVersion"
++ "SwiftUI"
++ "Unable to display HelpKit view"
++ "VOICE_FEEDBACK_FOOTER"
++ "VOICE_FEEDBACK_GROUP_TITLE"
++ "VOICE_FEEDBACK_TITLE_AUTOMATIC"
++ "VOICE_FEEDBACK_TITLE_PREFER_SILENT_RESPONSES"
++ "VOICE_FEEDBACK_TITLE_PREFER_SPOKEN_RESPONSES"
++ "_TtC24AssistantSettingsSupport23SiriResponsesController"
++ "_TtC24AssistantSettingsSupport25ExternalAISettingsManager"
++ "_externalAISettingsManager"
++ "_refreshFooterForUpdateDeviceSpeaker"
++ "addChildViewController:"
++ "didMoveToParentViewController:"
++ "handleURL:"
++ "hasPrefix:"
++ "initWithParentController:settings:"
++ "kCFAllocatorNull"
++ "manager"
++ "r"
++ "setAutoresizingMask:"
++ "showController:animate:"
++ "view"
+- "ASSISTANT_MULTIPLE_DISABLE_WARNING"
+- "AssistantCell"
+- "Placeholder..."
+- "SIRI_LANGUAGE_WARNING_UNSUPPORTED_COMPONENT_MULTIUSER"
+- "VOICE_FEEDBACK_FOOTER_AUTOMATIC_"
+- "VOICE_FEEDBACK_FOOTER_PREFER_SILENT_RESPONSES_"
+- "VOICE_FEEDBACK_FOOTER_PREFER_SPOKEN_RESPONSES_"
+- "_refreshFooterForUpdateDeviceSpeakerForTTSSpecifiers:"
+- "com.apple.Settings.AppleIntelligence"
+- "configureAppleIntelligencePrivacyFooterSpecifiersFor:"
+- "emptyGroupSpecifier"
+- "getTicketForFeature:completionHandler:"
+- "getTicketStatusForFeature:completionHandler:"
+- "https://support.apple.com/guide/ipad/change-siri-settings-ipade5045bb1/ipados"
+- "https://support.apple.com/guide/iphone/change-siri-settings-iphc28624b81/ios"
+- "isSAEEnabled"
+- "openURL:options:completionHandler:"
+- "setSourceRect:"
+- "turiTrial"
+- "v24@?0@\"_TtC25CloudSubscriptionFeatures12TicketStatus\"8@\"NSError\"16"
+- "v24@?0@\"_TtC25CloudSubscriptionFeatures6Ticket\"8@\"NSError\"16"
+- "vocalizerVoice"
+
+```

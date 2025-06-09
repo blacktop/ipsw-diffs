@@ -1,0 +1,986 @@
+## libAudioToolboxUtility.dylib
+
+> `/usr/lib/libAudioToolboxUtility.dylib`
+
+```diff
+
+-1456.607.0.0.0
+-  __TEXT.__text: 0x2f374
+-  __TEXT.__auth_stubs: 0x16e0
+-  __TEXT.__const: 0xb75
+-  __TEXT.__gcc_except_tab: 0x1bf0
+-  __TEXT.__cstring: 0x13c0
+-  __TEXT.__oslogstring: 0x10b1
+-  __TEXT.__unwind_info: 0x12f8
+-  __TEXT.__eh_frame: 0x100
+-  __TEXT.__objc_methname: 0xe0
+-  __TEXT.__objc_stubs: 0x100
+-  __DATA_CONST.__got: 0x198
+-  __DATA_CONST.__const: 0x220
++1534.2.30.1.0
++  __TEXT.__text: 0x2017c
++  __TEXT.__auth_stubs: 0x12f0
++  __TEXT.__const: 0x7d5
++  __TEXT.__gcc_except_tab: 0x165c
++  __TEXT.__cstring: 0xde5
++  __TEXT.__oslogstring: 0x91d
++  __TEXT.__unwind_info: 0xf20
++  __DATA_CONST.__got: 0x160
++  __DATA_CONST.__const: 0x1d0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0xb80
+-  __AUTH_CONST.__const: 0xb28
+-  __AUTH_CONST.__cfstring: 0x7a0
+-  __DATA.__data: 0x68
+-  __DATA.__bss: 0x180
+-  __DATA.__common: 0x41
+-  __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0xc0
++  __AUTH_CONST.__auth_got: 0x980
++  __AUTH_CONST.__const: 0x9f8
++  __AUTH_CONST.__cfstring: 0x3c0
++  __DATA.__data: 0x48
++  __DATA.__bss: 0x98
++  __DATA.__common: 0x39
++  __DATA_DIRTY.__data: 0x48
++  __DATA_DIRTY.__bss: 0xa8
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F29DC7C1-7BCE-336F-8BAF-48B1A1BDE1E0
+-  Functions: 1001
+-  Symbols:   2080
+-  CStrings:  420
++  UUID: 23625ECF-F824-3F8F-B2AA-8A9A7B221D51
++  Functions: 787
++  Symbols:   1650
++  CStrings:  268
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table102
++ GCC_except_table106
++ GCC_except_table119
++ GCC_except_table123
++ GCC_except_table138
++ GCC_except_table140
++ GCC_except_table142
++ GCC_except_table143
++ GCC_except_table155
++ GCC_except_table156
++ GCC_except_table17
++ GCC_except_table175
++ GCC_except_table188
++ GCC_except_table196
++ GCC_except_table198
++ GCC_except_table199
++ GCC_except_table201
++ GCC_except_table205
++ GCC_except_table227
++ GCC_except_table231
++ GCC_except_table235
++ GCC_except_table236
++ GCC_except_table238
++ GCC_except_table240
++ GCC_except_table241
++ GCC_except_table279
++ GCC_except_table28
++ GCC_except_table280
++ GCC_except_table281
++ GCC_except_table284
++ GCC_except_table285
++ GCC_except_table287
++ GCC_except_table288
++ GCC_except_table293
++ GCC_except_table297
++ GCC_except_table298
++ GCC_except_table299
++ GCC_except_table300
++ GCC_except_table301
++ GCC_except_table302
++ GCC_except_table304
++ GCC_except_table305
++ GCC_except_table306
++ GCC_except_table31
++ GCC_except_table315
++ GCC_except_table323
++ GCC_except_table338
++ GCC_except_table340
++ GCC_except_table341
++ GCC_except_table342
++ GCC_except_table343
++ GCC_except_table344
++ GCC_except_table345
++ GCC_except_table346
++ GCC_except_table349
++ GCC_except_table350
++ GCC_except_table352
++ GCC_except_table41
++ GCC_except_table434
++ GCC_except_table437
++ GCC_except_table438
++ GCC_except_table439
++ GCC_except_table440
++ GCC_except_table441
++ GCC_except_table443
++ GCC_except_table451
++ GCC_except_table452
++ GCC_except_table458
++ GCC_except_table460
++ GCC_except_table462
++ GCC_except_table463
++ GCC_except_table466
++ GCC_except_table469
++ GCC_except_table470
++ GCC_except_table472
++ GCC_except_table474
++ GCC_except_table479
++ GCC_except_table481
++ GCC_except_table482
++ GCC_except_table483
++ GCC_except_table484
++ GCC_except_table489
++ GCC_except_table49
++ GCC_except_table492
++ GCC_except_table494
++ GCC_except_table50
++ GCC_except_table502
++ GCC_except_table513
++ GCC_except_table52
++ GCC_except_table521
++ GCC_except_table528
++ GCC_except_table54
++ GCC_except_table560
++ GCC_except_table59
++ GCC_except_table621
++ GCC_except_table623
++ GCC_except_table624
++ GCC_except_table625
++ GCC_except_table627
++ GCC_except_table63
++ GCC_except_table635
++ GCC_except_table637
++ GCC_except_table638
++ GCC_except_table645
++ GCC_except_table647
++ GCC_except_table648
++ GCC_except_table650
++ GCC_except_table661
++ GCC_except_table67
++ GCC_except_table69
++ GCC_except_table70
++ GCC_except_table711
++ GCC_except_table712
++ GCC_except_table713
++ GCC_except_table715
++ GCC_except_table716
++ GCC_except_table717
++ GCC_except_table718
++ GCC_except_table720
++ GCC_except_table723
++ GCC_except_table736
++ GCC_except_table737
++ GCC_except_table746
++ GCC_except_table748
++ GCC_except_table754
++ GCC_except_table761
++ GCC_except_table763
++ GCC_except_table766
++ GCC_except_table773
++ GCC_except_table777
++ GCC_except_table779
++ GCC_except_table788
++ GCC_except_table789
++ GCC_except_table82
++ GCC_except_table85
++ GCC_except_table86
++ GCC_except_table95
++ GCC_except_table99
++ _CAAssertRtn
++ _CAVerboseAbort
++ __ZN12CADeprecated17RealtimeMessengerD0Ev
++ __ZN2CA17StreamDescription12IsEquivalentERK27AudioStreamBasicDescriptionS3_NS0_17IsEquivalentFlagsE
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE10table_impl14findSlotForKeyEj
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE10table_implD2Ev
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE13_addOrReplaceEjS3_b
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE6lookupILS4_0EvEENSt3__18optionalIS3_EEj
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE6rehashEj
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE6removeEj
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE9element_t7releaseEv
++ __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashED2Ev
++ __ZN5caulk5build6detail8get_kindEv
++ __ZN5caulk7product24full_hardware_model_nameEv
++ __ZN5caulk7product25short_hardware_model_nameEv
++ __ZN5caulk8platform12process_nameEi
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt14overflow_errorC1B8ne200100EPKc
++ __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne200100ERKS5_
++ __ZNSt3__110__function12__value_funcIFbPKvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvRN4swix12ipc_endpointERKN10applesauce3xpc6objectEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFviEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFviEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvvEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B8ne200100Ev
++ __ZNSt3__110unique_ptrI9DFTSetupsNS_14default_deleteIS1_EEED1B8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112construct_atB8ne200100IN18CASmartPreferences4PrefEJRPK10__CFStringS6_RNS_8functionIFbPKvEEEEPS2_EEPT_SF_DpOT0_
++ __ZNSt3__115allocate_sharedB8ne200100IN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS4_EEEENS1_23shared_instance_managerIS4_E8observerEEENS_9allocatorISB_EEJS7_SA_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS4_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE10table_implENS_14default_deleteISB_EEEEEEE7destroyB8ne200100ISE_vLi0EEEvRSF_PT_
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZ23OpaqueObjectMgrInstancevE3$_0EEEEEvPv
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI12KaiserWindowEEPS3_EEED2B8ne200100Ev
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16vectorI12KaiserWindowNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN12CADeprecated17XRemoteMachServer11IncarnationENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS3_33guarded_lookup_hash_table_optionsE0E24OpaqueObjectIdentityHashE10table_implENS_14default_deleteISA_EEEENS_9allocatorISD_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS5_EEEENS2_23shared_instance_managerIS5_E8observerEEEEENS_9allocatorISD_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIP10SincKernelNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN12CADeprecated11XMachServer6ClientENS_9allocatorIS4_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__19allocatorINS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS5_EEEENS2_23shared_instance_managerIS5_E8observerEEEEEE17allocate_at_leastB8ne200100Em
++ __ZNSt3__19remove_ifB8ne200100INS_11__wrap_iterIPNS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS6_EEEENS3_23shared_instance_managerIS6_E8observerEEEEEEEZNSB_14remove_expiredEvEUlRKT_E_EESH_SH_SH_T0_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTVN12CADeprecated17RealtimeMessengerE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ ___block_descriptor_tmp.10.104
++ ___block_descriptor_tmp.121
++ ___block_descriptor_tmp.177
++ ___block_descriptor_tmp.191
++ ___block_descriptor_tmp.24
++ ___block_descriptor_tmp.245
++ ___block_descriptor_tmp.7.129
++ ___block_descriptor_tmp.8.130
++ ___block_literal_global.122
++ ___block_literal_global.170
+- GCC_except_table1006
+- GCC_except_table1007
+- GCC_except_table101
+- GCC_except_table109
+- GCC_except_table118
+- GCC_except_table122
+- GCC_except_table127
+- GCC_except_table13
+- GCC_except_table131
+- GCC_except_table135
+- GCC_except_table136
+- GCC_except_table146
+- GCC_except_table147
+- GCC_except_table149
+- GCC_except_table152
+- GCC_except_table159
+- GCC_except_table16
+- GCC_except_table160
+- GCC_except_table163
+- GCC_except_table164
+- GCC_except_table170
+- GCC_except_table172
+- GCC_except_table18
+- GCC_except_table183
+- GCC_except_table186
+- GCC_except_table192
+- GCC_except_table206
+- GCC_except_table207
+- GCC_except_table209
+- GCC_except_table21
+- GCC_except_table211
+- GCC_except_table212
+- GCC_except_table213
+- GCC_except_table224
+- GCC_except_table244
+- GCC_except_table264
+- GCC_except_table27
+- GCC_except_table276
+- GCC_except_table277
+- GCC_except_table290
+- GCC_except_table312
+- GCC_except_table316
+- GCC_except_table318
+- GCC_except_table322
+- GCC_except_table326
+- GCC_except_table327
+- GCC_except_table332
+- GCC_except_table34
+- GCC_except_table36
+- GCC_except_table369
+- GCC_except_table370
+- GCC_except_table371
+- GCC_except_table376
+- GCC_except_table377
+- GCC_except_table378
+- GCC_except_table379
+- GCC_except_table384
+- GCC_except_table385
+- GCC_except_table386
+- GCC_except_table389
+- GCC_except_table390
+- GCC_except_table391
+- GCC_except_table392
+- GCC_except_table393
+- GCC_except_table394
+- GCC_except_table396
+- GCC_except_table397
+- GCC_except_table398
+- GCC_except_table401
+- GCC_except_table402
+- GCC_except_table403
+- GCC_except_table404
+- GCC_except_table405
+- GCC_except_table406
+- GCC_except_table407
+- GCC_except_table409
+- GCC_except_table410
+- GCC_except_table411
+- GCC_except_table419
+- GCC_except_table433
+- GCC_except_table444
+- GCC_except_table445
+- GCC_except_table446
+- GCC_except_table447
+- GCC_except_table448
+- GCC_except_table449
+- GCC_except_table45
+- GCC_except_table453
+- GCC_except_table454
+- GCC_except_table48
+- GCC_except_table531
+- GCC_except_table538
+- GCC_except_table540
+- GCC_except_table541
+- GCC_except_table542
+- GCC_except_table543
+- GCC_except_table544
+- GCC_except_table545
+- GCC_except_table546
+- GCC_except_table553
+- GCC_except_table555
+- GCC_except_table557
+- GCC_except_table563
+- GCC_except_table569
+- GCC_except_table570
+- GCC_except_table572
+- GCC_except_table584
+- GCC_except_table585
+- GCC_except_table592
+- GCC_except_table597
+- GCC_except_table603
+- GCC_except_table604
+- GCC_except_table612
+- GCC_except_table616
+- GCC_except_table617
+- GCC_except_table630
+- GCC_except_table632
+- GCC_except_table642
+- GCC_except_table644
+- GCC_except_table653
+- GCC_except_table654
+- GCC_except_table662
+- GCC_except_table664
+- GCC_except_table683
+- GCC_except_table708
+- GCC_except_table753
+- GCC_except_table76
+- GCC_except_table815
+- GCC_except_table817
+- GCC_except_table818
+- GCC_except_table819
+- GCC_except_table820
+- GCC_except_table821
+- GCC_except_table822
+- GCC_except_table827
+- GCC_except_table829
+- GCC_except_table830
+- GCC_except_table831
+- GCC_except_table832
+- GCC_except_table833
+- GCC_except_table834
+- GCC_except_table839
+- GCC_except_table841
+- GCC_except_table842
+- GCC_except_table843
+- GCC_except_table844
+- GCC_except_table845
+- GCC_except_table846
+- GCC_except_table853
+- GCC_except_table855
+- GCC_except_table867
+- GCC_except_table87
+- GCC_except_table904
+- GCC_except_table906
+- GCC_except_table907
+- GCC_except_table908
+- GCC_except_table909
+- GCC_except_table910
+- GCC_except_table911
+- GCC_except_table912
+- GCC_except_table913
+- GCC_except_table915
+- GCC_except_table916
+- GCC_except_table918
+- GCC_except_table92
+- GCC_except_table931
+- GCC_except_table932
+- GCC_except_table954
+- GCC_except_table956
+- GCC_except_table957
+- GCC_except_table970
+- GCC_except_table978
+- GCC_except_table98
+- GCC_except_table981
+- GCC_except_table984
+- GCC_except_table995
+- GCC_except_table997
+- _CFAbsoluteTimeGetCurrent
+- _CFAbsoluteTimeGetGregorianDate
+- _CFArrayRemoveValueAtIndex
+- _CFDictionaryAddValue
+- _CFDictionaryApplyFunction
+- _CFDictionaryCreateMutable
+- _CFDictionaryCreateMutableCopy
+- _CFDictionaryRemoveValue
+- _CFDictionaryReplaceValue
+- _CFGetRetainCount
+- _CFNotificationCenterAddObserver
+- _CFNotificationCenterGetDarwinNotifyCenter
+- _CFNotificationCenterPostNotificationWithOptions
+- _CFNotificationCenterRemoveObserver
+- _CFPreferencesCopyMultiple
+- _CFPreferencesCopyValue
+- _CFPreferencesSetValue
+- _CFPropertyListCreateWithStream
+- _CFPropertyListWrite
+- _CFReadStreamClose
+- _CFReadStreamCreateWithFile
+- _CFReadStreamOpen
+- _CFStringAppend
+- _CFStringAppendCString
+- _CFStringCompare
+- _CFStringCreateMutable
+- _CFStringCreateMutableCopy
+- _CFStringCreateWithBytes
+- _CFStringCreateWithBytesNoCopy
+- _CFStringCreateWithCStringNoCopy
+- _CFStringGetCStringPtr
+- _CFStringHasPrefix
+- _CFTimeZoneCopySystem
+- _CFURLCreateWithFileSystemPath
+- _CFWriteStreamClose
+- _CFWriteStreamCreateWithFile
+- _CFWriteStreamOpen
+- _OBJC_CLASS_$_NSFileManager
+- __Z20CAIsDebuggerAttachedv
+- __Z20ramstadBackEndCoeffsIdEvidRK25RamstadIntermediateCoeffsPT_S4_
+- __Z20ramstadBackEndCoeffsIfEvidRK25RamstadIntermediateCoeffsPT_S4_
+- __Z25ramstadPrecalculateCoeffsIdEvidPA2_KdS2_R25RamstadIntermediateCoeffsPT_S6_
+- __Z25ramstadPrecalculateCoeffsIfEvidPA2_KdS2_R25RamstadIntermediateCoeffsPT_S6_
+- __ZGVZL16GetKernelFactoryvE8sFactory
+- __ZGVZL17GetKernelFactoryDvE8sFactory
+- __ZGVZN15CATimeUtilities29GregorianDateFromAbsoluteTimeEdE2tz
+- __ZL10gIsCarrier
+- __ZL11gIsInternal
+- __ZL11sInitLocker
+- __ZL12logSubsystemv
+- __ZL19kRamstadASRCPoles16
+- __ZL19kRamstadASRCPoles22
+- __ZL20kLegacyStripNameKeys
+- __ZL22kRamstadASRCResidues16
+- __ZL22kRamstadASRCResidues22
+- __ZL5gIsUI
+- __ZN10RamstadSRC10initFilterEdj
+- __ZN10RamstadSRC11initQualityEj
+- __ZN10RamstadSRC11processMonoEPKfPfiiii
+- __ZN10RamstadSRC12processMultiEPKPKfPKPfiiii
+- __ZN10RamstadSRC13processStereoEPKfS1_PfS2_iiii
+- __ZN10RamstadSRC14processMonoIntEPKfPfiiii
+- __ZN10RamstadSRC15processMonoFracEPKfPfiiii
+- __ZN10RamstadSRC15processMonoIntDEPKfPfiiii
+- __ZN10RamstadSRC15processMultiIntEPKPKfPKPfiiii
+- __ZN10RamstadSRC16processMonoFracDEPKfPfiiii
+- __ZN10RamstadSRC16processMultiFracEPKPKfPKPfiiii
+- __ZN10RamstadSRC16processMultiIntDEPKPKfPKPfiiii
+- __ZN10RamstadSRC16processStereoIntEPKfS1_PfS2_iiii
+- __ZN10RamstadSRC17initPassbandWidthEj
+- __ZN10RamstadSRC17processMultiFracDEPKPKfPKPfiiii
+- __ZN10RamstadSRC17processStereoFracEPKfS1_PfS2_iiii
+- __ZN10RamstadSRC17processStereoIntDEPKfS1_PfS2_iiii
+- __ZN10RamstadSRC18processStereoFracDEPKfS1_PfS2_iiii
+- __ZN10RamstadSRC22useInterpolationMethodEd
+- __ZN10RamstadSRC32crashIfClientProvidedBogusBufferEPKfi
+- __ZN10RamstadSRC5resetEv
+- __ZN10RamstadSRC7setRateEd
+- __ZN10RamstadSRCC1Eddjj
+- __ZN10RamstadSRCC1Eddjjd
+- __ZN10RamstadSRCC2Eddjj
+- __ZN10RamstadSRCC2Eddjjd
+- __ZN10RamstadSRCD1Ev
+- __ZN10RamstadSRCD2Ev
+- __ZN10applesauce2CF9ObjectRefIP14__CFDictionaryED1Ev
+- __ZN10applesauce2CF9ObjectRefIPK10__CFStringED1Ev
+- __ZN10applesauce2CF9StringRefD1Ev
+- __ZN11PListLogger12logDictEntryEPKvS1_Pv
+- __ZN11PListLogger12logItemEntryEPKvPKcPv
+- __ZN11PListLogger13logArrayEntryEPKvlPv
+- __ZN11PListLogger14logItemUnknownEPKcm
+- __ZN11PListLogger7logItemEPK10__CFNumberPKc
+- __ZN11PListLogger7logItemEPK10__CFStringPKc
+- __ZN11PListLogger7logItemEPK14__CFDictionaryPKc
+- __ZN11PListLogger7logItemEPK8__CFDataPKc
+- __ZN11PListLogger7logItemEPK9__CFArrayPKc
+- __ZN11PListLoggerC1Ev
+- __ZN11PListLoggerC2Ev
+- __ZN11PListLoggerD1Ev
+- __ZN11PListLoggerD2Ev
+- __ZN12CADeprecated12CABufferList28VerifyNotTrashingOwnedBufferEv
+- __ZN13CAVolumeCurve10ResetRangeEv
+- __ZN13CAVolumeCurve19SetTransferFunctionEj
+- __ZN13CAVolumeCurve8AddRangeEiiff
+- __ZN13CAVolumeCurveC1Ev
+- __ZN13CAVolumeCurveC2Ev
+- __ZN13RamstadKernelC1Eiidb
+- __ZN13RamstadKernelC2Eiidb
+- __ZN14RamstadKernelDC1Eiidb
+- __ZN14RamstadKernelDC2Eiidb
+- __ZN14TuningPListMgr11cfGetArray_EPKvPPK9__CFArray
+- __ZN14TuningPListMgr11flushTuningEPKcS1_
+- __ZN14TuningPListMgr11loadTuningsEv
+- __ZN14TuningPListMgr12cfGetString_EPKvPPK10__CFString
+- __ZN14TuningPListMgr12cfGetUInt32_EPKvPj
+- __ZN14TuningPListMgr13enableLoggingEb
+- __ZN14TuningPListMgr14installTuning_EPK10__CFStringPKvNS_15kTuningFileTypeE
+- __ZN14TuningPListMgr15changeStripNameEPKcS1_
+- __ZN14TuningPListMgr16_replaceAUPresetEP14__CFDictionaryPKS0_
+- __ZN14TuningPListMgr16cfGetDictionary_EPKvPPK14__CFDictionary
+- __ZN14TuningPListMgr19addAUPresetByNumberEPKclPK14__CFDictionary
+- __ZN14TuningPListMgr20loadTuningInSubdirs_EPPK10CACFStringjNS_15kTuningFileTypeE
+- __ZN14TuningPListMgr20removeAUPresetByNameEPKcPK10__CFString
+- __ZN14TuningPListMgr21replaceAUPresetByNameEPKcS1_PK14__CFDictionary
+- __ZN14TuningPListMgr22replaceAUPresetByTupleEPKcjjjjPK14__CFDictionary
+- __ZN14TuningPListMgr23addLegacyStripNameKeys_ERPKvPK10__CFString
+- __ZN14TuningPListMgr23replaceAUPresetByNumberEPKclPK14__CFDictionary
+- __ZN14TuningPListMgr24kTuningFileTypeSuffixMapE
+- __ZN14TuningPListMgrC1Ev
+- __ZN14TuningPListMgrC2Ev
+- __ZN14TuningPListMgrD1Ev
+- __ZN14TuningPListMgrD2Ev
+- __ZN15CACFPreferences11DeleteValueEPK10__CFStringbbb
+- __ZN15CACFPreferences11SynchronizeEbbb
+- __ZN15CACFPreferences14CopyArrayValueEPK10__CFStringbb
+- __ZN15CACFPreferences14MarkPrefsCleanEbb
+- __ZN15CACFPreferences15CopyNumberValueEPK10__CFStringbb
+- __ZN15CACFPreferences15CopyStringValueEPK10__CFStringbb
+- __ZN15CACFPreferences16SendNotificationEPK10__CFString
+- __ZN15CACFPreferences17ArePrefsOutOfDateEbb
+- __ZN15CACFPreferences18CopyMultipleValuesEPK9__CFArraybb
+- __ZN15CACFPreferences18MarkPrefsOutOfDateEbb
+- __ZN15CACFPreferences19CopyDictionaryValueEPK10__CFStringbb
+- __ZN15CACFPreferences29sAnyUserAnyHostPrefsOutOfDateE
+- __ZN15CACFPreferences33sAnyUserCurrentHostPrefsOutOfDateE
+- __ZN15CACFPreferences33sCurrentUserAnyHostPrefsOutOfDateE
+- __ZN15CACFPreferences37sCurrentUserCurrentHostPrefsOutOfDateE
+- __ZN15CACFPreferences8SetValueEPK10__CFStringPKvbbb
+- __ZN15CACFPreferences9CopyValueEPK10__CFStringbb
+- __ZN15CATimeUtilities23GetCurrentGregorianDateEv
+- __ZN15CATimeUtilities29GregorianDateFromAbsoluteTimeEd
+- __ZN17CACFMutableStringD2Ev
+- __ZN19ResamplerInitLockerC1Ev
+- __ZN19ResamplerInitLockerC2Ev
+- __ZN19ResamplerInitLockerD1Ev
+- __ZN19ResamplerInitLockerD2Ev
+- __ZN21CAFileSystemUtilities16FileExistsAtPathERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPb
+- __ZN21CAFileSystemUtilities21CreateDirectoryAtPathERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEbPK14__CFDictionaryPP9__CFError
+- __ZN21CAFileSystemUtilities24GetTemporarySubDirectoryERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZN21CAFileSystemUtilities25ContentsOfDirectoryAtPathERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPP9__CFError
+- __ZN21CAFileSystemUtilities31GetTemporaryDirectoryPathStringEv
+- __ZN21CAFileSystemUtilities34GetTemporaryDirectorySubpathStringERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+- __ZN21PlatformUtilities_iOS13ProductHasAOPEv
+- __ZN21PlatformUtilities_iOS13ProductIsiPadEv
+- __ZN21PlatformUtilities_iOS13ProductIsiPodEv
+- __ZN21PlatformUtilities_iOS14IsCarrierBuildEv
+- __ZN21PlatformUtilities_iOS15IsInternalBuildEv
+- __ZN21PlatformUtilities_iOS15ProductIsAPhoneEv
+- __ZN21PlatformUtilities_iOS16ProductIsAppleTVEv
+- __ZN21PlatformUtilities_iOS16ProductIsHomePodEv
+- __ZN21PlatformUtilities_iOS18ProductHasBasebandEv
+- __ZN21PlatformUtilities_iOS19ProductIsAppleWatchEv
+- __ZN21PlatformUtilities_iOS22ProductSupportsCarPlayEv
+- __ZN21PlatformUtilities_iOS22ProductSupportsHapticsEv
+- __ZN21PlatformUtilities_iOS23ProductSupportsVibratorEv
+- __ZN21PlatformUtilities_iOS24ProductSupportsAssistantEv
+- __ZN21PlatformUtilities_iOS24ProductSupportsLivePhotoEv
+- __ZN21PlatformUtilities_iOS26ProductSupportsSiriBargeInEv
+- __ZN21PlatformUtilities_iOS31ProductSupportsPictureInPictureEv
+- __ZN21PlatformUtilities_iOS31ProductSupportsWirelessChargingEv
+- __ZN21PlatformUtilities_iOS32ProductSupportsClosedLoopHapticsEv
+- __ZN21PlatformUtilities_iOS8_eaJyFmOEv
+- __ZN21PlatformUtilities_iOS9IsUIBuildEv
+- __ZN27CACFDistributedNotification11AddObserverEPKvPFvP22__CFNotificationCenterPvPK10__CFStringS1_PK14__CFDictionaryES7_32CFNotificationSuspensionBehavior
+- __ZN27CACFDistributedNotification14RemoveObserverEPKvPK10__CFString
+- __ZN27CACFDistributedNotification16PostNotificationEPK10__CFStringPK14__CFDictionaryb
+- __ZN2CA14Implementation21EquivalentFormatFlagsERK27AudioStreamBasicDescriptionS3_bb
+- __ZN5boost9container12out_of_rangeD0Ev
+- __ZN5boost9container12out_of_rangeD1Ev
+- __ZN5boost9container18throw_length_errorEPKc
+- __ZN5boost9container3dtl4pairINSt3__15tupleIJiidbEEENS3_8weak_ptrI13RamstadKernelEEEaSEOS9_
+- __ZN5boost9container3dtl4pairINSt3__15tupleIJiidbEEENS3_8weak_ptrI14RamstadKernelDEEEaSEOS9_
+- __ZN5boost9container3dtl9flat_treeINS1_4pairINSt3__15tupleIJiidbEEENS4_8weak_ptrI13RamstadKernelEEEENS1_9select1stIS6_EENS4_4lessIS6_EENS0_13new_allocatorISA_EEE26priv_insert_unique_prepareENS0_12vec_iteratorIPSA_Lb1EEESK_RKS6_RNSH_18insert_commit_dataE
+- __ZN5boost9container3dtl9flat_treeINS1_4pairINSt3__15tupleIJiidbEEENS4_8weak_ptrI14RamstadKernelDEEEENS1_9select1stIS6_EENS4_4lessIS6_EENS0_13new_allocatorISA_EEE26priv_insert_unique_prepareENS0_12vec_iteratorIPSA_Lb1EEESK_RKS6_RNSH_18insert_commit_dataE
+- __ZN5boost9container6vectorINS0_3dtl4pairINSt3__15tupleIJiidbEEENS4_8weak_ptrI13RamstadKernelEEEENS0_13new_allocatorISA_EEvE37priv_insert_forward_range_no_capacityINS2_20insert_emplace_proxyISC_PSA_JSA_EEEEENS0_12vec_iteratorISG_Lb0EEESG_mT_NS_11move_detail17integral_constantIjLj1EEE
+- __ZN5boost9container6vectorINS0_3dtl4pairINSt3__15tupleIJiidbEEENS4_8weak_ptrI14RamstadKernelDEEEENS0_13new_allocatorISA_EEvE37priv_insert_forward_range_no_capacityINS2_20insert_emplace_proxyISC_PSA_JSA_EEEEENS0_12vec_iteratorISG_Lb0EEESG_mT_NS_11move_detail17integral_constantIjLj1EEE
+- __ZN5boost9container8flat_mapINSt3__15tupleIJiidbEEENS2_8weak_ptrI13RamstadKernelEENS2_4lessIS4_EEvE14priv_subscriptERKS4_
+- __ZN5boost9container8flat_mapINSt3__15tupleIJiidbEEENS2_8weak_ptrI14RamstadKernelDEENS2_4lessIS4_EEvE14priv_subscriptERKS4_
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE10table_impl14findSlotForKeyEj
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE10table_implD2Ev
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE13_addOrReplaceEjS3_b
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE16emptyReleasePoolEv
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE6lookupILS4_0EvEENS5_8optionalIS3_EEj
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE6rehashEj
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE6removeEj
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEE9element_t7releaseEv
+- __ZN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS0_33guarded_lookup_hash_table_optionsE0ENSt3__18functionIFjjEEEED2Ev
+- __ZN9DFTSetupsD2Ev
+- __ZNK10RamstadSRC14checkPreflightEii
+- __ZNK10RamstadSRC14latencySamplesEv
+- __ZNK10RamstadSRC14latencySecondsEv
+- __ZNK10RamstadSRC28inputSamplesForOutputSamplesEi
+- __ZNK10RamstadSRC28outputSamplesForInputSamplesEiRi
+- __ZNK11PListLogger3logEPKcz
+- __ZNK11PListLogger4vlogEPKcPc
+- __ZNK13CAVolumeCurve12GetMaximumDBEv
+- __ZNK13CAVolumeCurve12GetMinimumDBEv
+- __ZNK13CAVolumeCurve13GetMaximumRawEv
+- __ZNK13CAVolumeCurve13GetMinimumRawEv
+- __ZNK13CAVolumeCurve14ConvertDBToRawEf
+- __ZNK13CAVolumeCurve14ConvertRawToDBEi
+- __ZNK13CAVolumeCurve17ConvertDBToScalarEf
+- __ZNK13CAVolumeCurve17ConvertScalarToDBEf
+- __ZNK13CAVolumeCurve18CheckForContinuityEv
+- __ZNK13CAVolumeCurve18ConvertRawToScalarEi
+- __ZNK13CAVolumeCurve18ConvertScalarToRawEf
+- __ZNK13CAVolumeCurve29GetIsApplyingTransferFunctionEv
+- __ZNK14TuningPListMgr11getNumUnitsEPK9__CFArray
+- __ZNK14TuningPListMgr12lookupPlist_EPKcNS_15kTuningFileTypeE
+- __ZNK14TuningPListMgr13getNumEffectsEPK14__CFDictionary
+- __ZNK14TuningPListMgr13getUnitByNameEPK9__CFArrayPKc
+- __ZNK14TuningPListMgr14getUnitByTupleEPK9__CFArrayjjjj
+- __ZNK14TuningPListMgr14loadPListFile_EPK10__CFStringPPKv
+- __ZNK14TuningPListMgr14savePlistFile_EPK10__CFStringPK14__CFDictionaryPS0_
+- __ZNK14TuningPListMgr15getUnitByNumberEPK9__CFArrayl
+- __ZNK14TuningPListMgr16getAUPListByNameEPKc
+- __ZNK14TuningPListMgr17getAUPresetByNameEPKc
+- __ZNK14TuningPListMgr17getAUPresetByNameEPKclS1_
+- __ZNK14TuningPListMgr18getAUPresetByTupleEPKcljjjj
+- __ZNK14TuningPListMgr18getUnitIndexByNameEPK9__CFArrayPK10__CFString
+- __ZNK14TuningPListMgr19getAUPresetByNumberEPKcll
+- __ZNK14TuningPListMgr19getAUPresetFromUnitEPK14__CFDictionary
+- __ZNK14TuningPListMgr20createPlistFromFile_EPK10__CFStringPPK14__CFDictionaryPS0_
+- __ZNK14TuningPListMgr22getPropertyStripByNameEPKc
+- __ZNK14TuningPListMgr24getAUBypassStateFromUnitEPK14__CFDictionary
+- __ZNK14TuningPListMgr31getAUPresetAndBypassStateByNameEPKclS1_Rj
+- __ZNK14TuningPListMgr32getAUPresetAndBypassStateByTupleEPKcljjjjRj
+- __ZNK14TuningPListMgr9getEffectEPK14__CFDictionaryl
+- __ZNK5boost9container9exception4whatEv
+- __ZNKSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEE7__cloneEPNS0_6__baseIS6_EE
+- __ZNKSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEE7__cloneEv
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__14__fs10filesystem4path10__filenameEv
+- __ZNKSt3__14__fs10filesystem4path16__root_directoryEv
+- __ZNKSt3__16vectorI12KaiserWindowNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIDv8_dNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIDv8_fNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN12CADeprecated17XRemoteMachServer11IncarnationENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIN18CASmartPreferences4PrefENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_10unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS3_33guarded_lookup_hash_table_optionsE0ENS_8functionIFjjEEEE10table_implENS_14default_deleteISC_EEEENS_9allocatorISF_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS5_EEEENS2_23shared_instance_managerIS5_E8observerEEEEENS_9allocatorISD_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIP10SincKernelNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN12CADeprecated11XMachServer6ClientENS_9allocatorIS4_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIfNS_9allocatorIfEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt13runtime_errorC1EPKc
+- __ZNSt13runtime_errorD1Ev
+- __ZNSt14overflow_errorC1B8ne190102EPKc
+- __ZNSt3__110__function12__value_funcIFbPKvEEC2B8ne190102ERKS5_
+- __ZNSt3__110__function12__value_funcIFbPKvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFjjEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvRN4swix12ipc_endpointERKN10applesauce3xpc6objectEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFviEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFviEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvvEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFvvEED2B8ne190102Ev
+- __ZNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEE7destroyEv
+- __ZNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEED0Ev
+- __ZNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEED1Ev
+- __ZNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEEclEOj
+- __ZNSt3__110unique_ptrI9DFTSetupsNS_14default_deleteIS1_EEE5resetB8ne190102EPS1_
+- __ZNSt3__110unique_ptrIN5caulk10concurrent25guarded_lookup_hash_tableIjP16BaseOpaqueObjectLNS2_33guarded_lookup_hash_table_optionsE0ENS_8functionIFjjEEEE10table_implENS_14default_deleteISB_EEE5resetB8ne190102EPSB_
+- __ZNSt3__111this_thread9sleep_forB8ne190102IxNS_5ratioILl1ELl1000000EEEEEvRKNS_6chrono8durationIT_T0_EE
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9__grow_byEmmmmmm
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_
+- __ZNSt3__112construct_atB8ne190102IN18CASmartPreferences4PrefEJRPK10__CFStringS6_RNS_8functionIFbPKvEEEEPS2_EEPT_SF_DpOT0_
+- __ZNSt3__114__split_bufferINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEERNS4_IS6_EEED2Ev
+- __ZNSt3__115allocate_sharedB8ne190102IN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS4_EEEENS1_23shared_instance_managerIS4_E8observerEEENS_9allocatorISB_EEJS7_SA_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZ23OpaqueObjectMgrInstancevE3$_0EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZL12logSubsystemvE3$_0EEEEEvPv
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS6_EEEENS3_23shared_instance_managerIS6_E8observerEEEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSI_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
+- __ZNSt3__120__shared_ptr_emplaceI13RamstadKernelNS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceI13RamstadKernelNS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceI13RamstadKernelNS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceI13RamstadKernelNS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceI14RamstadKernelDNS_9allocatorIS1_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceI14RamstadKernelDNS_9allocatorIS1_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceI14RamstadKernelDNS_9allocatorIS1_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceI14RamstadKernelDNS_9allocatorIS1_EEED1Ev
+- __ZNSt3__120__throw_bad_weak_ptrB8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __ZNSt3__125__tuple_compare_three_wayB8ne190102IJiidbEJiidbEJLm0ELm1ELm2ELm3EEEEDaRKNS_5tupleIJDpT_EEERKNS2_IJDpT0_EEENS_16integer_sequenceImJXspT1_EEEE
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI12KaiserWindowEEPS3_EEED2B8ne190102Ev
+- __ZNSt3__14__fs10filesystem4pathC2B8ne190102INS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEvEERKT_NS2_6formatE
+- __ZNSt3__16__treeINS_12__value_typeI10CARawPoint9CADBPointEENS_19__map_value_compareIS2_S4_NS_4lessIS2_EELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE
+- __ZNSt3__16vectorIDv8_dNS_9allocatorIS1_EEE6insertENS_11__wrap_iterIPKS1_EEmRS6_
+- __ZNSt3__16vectorIDv8_fNS_9allocatorIS1_EEE6insertENS_11__wrap_iterIPKS1_EEmRS6_
+- __ZNSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIfNS_9allocatorIfEEE6assignEmRKf
+- __ZNSt3__19__advanceB8ne190102INS_20__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeI10CARawPoint9CADBPointEEPNS_11__tree_nodeIS6_PvEElEEEEEEvRT_NS_15iterator_traitsISD_E15difference_typeENS_26bidirectional_iterator_tagE
+- __ZNSt3__19remove_ifB8ne190102INS_11__wrap_iterIPNS_8weak_ptrIN5caulk17lifetime_observedINS_10unique_ptrI9DFTSetupsNS_14default_deleteIS6_EEEENS3_23shared_instance_managerIS6_E8observerEEEEEEEZNSB_14remove_expiredEvEUlRKT_E_EESH_SH_SH_T0_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZTIN5boost9container12out_of_rangeE
+- __ZTIN5boost9container9exceptionE
+- __ZTSN5boost9container12out_of_rangeE
+- __ZTSN5boost9container9exceptionE
+- __ZTVN5boost9container12out_of_rangeE
+- __ZTVNSt3__110__function6__funcIZN15OpaqueObjectMgrC1EvE3$_0NS_9allocatorIS3_EEFjjEEE
+- __ZTVNSt3__120__shared_ptr_emplaceI13RamstadKernelNS_9allocatorIS1_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceI14RamstadKernelDNS_9allocatorIS1_EEEE
+- __ZZL12logSubsystemvE5scope
+- __ZZL12logSubsystemvE8onceflag
+- __ZZL14queryBuildTypevE4once
+- __ZZL16GetKernelFactoryvE8sFactory
+- __ZZL17GetKernelFactoryDvE8sFactory
+- __ZZN15CATimeUtilities29GregorianDateFromAbsoluteTimeEdE2tz
+- __ZZN21PlatformUtilities_iOS8_eaJyFmOEvE23isMonarchLowEndHardware
+- __ZZN21PlatformUtilities_iOS8_eaJyFmOEvE4once
+- ____ZL14queryBuildTypev_block_invoke
+- ____ZN21PlatformUtilities_iOS8_eaJyFmOEv_block_invoke
+- ___block_descriptor_tmp.10.187
+- ___block_descriptor_tmp.123
+- ___block_descriptor_tmp.204
+- ___block_descriptor_tmp.294
+- ___block_descriptor_tmp.308
+- ___block_descriptor_tmp.377
+- ___block_descriptor_tmp.44
+- ___block_descriptor_tmp.7.219
+- ___block_descriptor_tmp.8.220
+- ___block_descriptor_tmp.97
+- ___block_literal_global.121
+- ___block_literal_global.205
+- ___block_literal_global.287
+- ___block_literal_global.99
+- _atan2
+- _hypot
+- _kCFAllocatorNull
+- _kCFPreferencesAnyApplication
+- _kCFPreferencesAnyHost
+- _kCFPreferencesAnyUser
+- _kCFTypeDictionaryKeyCallBacks
+- _kCFTypeDictionaryValueCallBacks
+- _lstat
+- _objc_claimAutoreleasedReturnValue
+- _objc_enumerationMutation
+- _objc_msgSend
+- _objc_msgSend$UTF8String
+- _objc_msgSend$contentsOfDirectoryAtPath:error:
+- _objc_msgSend$countByEnumeratingWithState:objects:count:
+- _objc_msgSend$createDirectoryAtPath:withIntermediateDirectories:attributes:error:
+- _objc_msgSend$defaultManager
+- _objc_msgSend$fileExistsAtPath:isDirectory:
+- _objc_msgSend$path
+- _objc_msgSend$temporaryDirectory
+- _objc_release_x19
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x24
+- _objc_release_x8
+- _objc_retainAutorelease
+- _objc_retain_x19
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x8
+- _open
+- _opendir
+- _perror
+- _powf
+- _readdir
+- _strcmp
+- _strerror
+- _sysctl
+- _sysctlbyname
+- _vdprintf
+CStrings:
++ "CAPThread::SetPriority: failed to set the fixed-priority policy, Error: 0x%X"
++ "CAPThread::SetPriority: failed to set the precedence policy, Error: 0x%X"
++ "CAPThread::SetTimeConstraints: thread_policy_set failed, Error: %d (%s)"
++ "CAPThread::Start: can't start because the thread is already running"
++ "IsOpen()"
++ "Major problem: Unlocker attempted to unlock a mutex not owned by the current thread!"
++ "Unhandled case in switch"
++ "failed assertion: goodToCopy"
++ "mBufferMemory == __null"
++ "nBytes <= buf->mDataByteSize"
+- "\n"
+- "\n***\n*** New Sesssion\n***\n"
+- "!!m_ptr"
+- "%25s:%-5d  CACFDistributedNotification::PostNotification: distributed notifications do not support a payload"
+- "%25s:%-5d  CACFDistributedNotification::PostNotification: distributed notifications do not support per-session delivery"
+- "%25s:%-5d  CACFPreferences::CopyArrayValue: not a CFArray"
+- "%25s:%-5d  CACFPreferences::CopyDictionaryValue: not a CFDictionary"
+- "%25s:%-5d  CACFPreferences::CopyNumberValue: not a CFNumber"
+- "%25s:%-5d  CACFPreferences::CopyStringValue: not a CFString"
+- "%25s:%-5d  CAPThread::SetPriority: failed to set the fixed-priority policy, Error: 0x%X"
+- "%25s:%-5d  CAPThread::SetPriority: failed to set the precedence policy, Error: 0x%X"
+- "%25s:%-5d  CAPThread::SetTimeConstraints: thread_policy_set failed, Error: %d (%s)"
+- "%25s:%-5d  CAPThread::Start: can't start because the thread is already running"
+- "%25s:%-5d  CAVolumeCurve::AddRange: new point overlaps"
+- "%25s:%-5d  Major problem: Unlocker attempted to unlock a mutex not owned by the current thread!"
+- "%25s:%-5d  Unhandled case in switch"
+- "%25s:%-5d  failed assertion: goodToCopy"
+- "%25s:%-5d \"%s\" exists but is not a regular file\n"
+- "%25s:%-5d ASSERTION FAILURE [(IsOpen()) != 0 is false]: "
+- "%25s:%-5d ASSERTION FAILURE [(mBufferMemory == __null) != 0 is false]: "
+- "%25s:%-5d ASSERTION FAILURE [(nBytes <= buf->mDataByteSize) != 0 is false]: "
+- "%25s:%-5d Cannot get the effects array"
+- "%25s:%-5d Did not match strip name field to file name!"
+- "%25s:%-5d au tuple mismatch: tuple in strip: %s - %s - %s, tuple in preset: %s - %s - %s"
+- "%25s:%-5d cannot add preset at the index: %d"
+- "%25s:%-5d cannot find preset in au"
+- "%25s:%-5d cannot get au by index: %d"
+- "%25s:%-5d cannot get au by name: %s"
+- "%25s:%-5d cannot get au by tuple: %s-%s-%s"
+- "%25s:%-5d cannot get strip data"
+- "%25s:%-5d error writing xml data to file"
+- "%25s:%-5d failed to lstat() \"%s\", errno: %s(%d)\n"
+- "%25s:%-5d failed to open dir \"%s\", errno: %s(%d)\n"
+- "%25s:%-5d invalid nickname passed"
+- "%25s:%-5d invalid parameter"
+- "%25s:%-5d return dictionary is null"
+- "'%s' | %sData{%d} | %d bytes\n"
+- "'%s' | <unknown type id: %d)>\n"
+- "'%s' | Array{%d} | %d ordered objects\n"
+- "'%s' | Dictionary{%d} | %d key/value pairs\n"
+- "'%s' | Number(SInt16){%d} | 0x%04x\n"
+- "'%s' | Number(SInt32){%d} | %-6d 0x%08x %c%c%c%c\n"
+- "'%s' | Number(SInt8){%d} | 0x%02x\n"
+- "'%s' | Number(float){%d} | %f\n"
+- "'%s' | String{%d} | \"%s\"\n"
+- "*** done.\n"
+- ".aupreset"
+- ".austrip"
+- ".plist"
+- ".propstrip"
+- "/9luHerXthRoPoNt/PVkTg"
+- "0"
+- "@@ Strips Apr 19 2025 02:05:12"
+- "AUPreset"
+- "CACFDistributedNotification.cpp"
+- "CACFPreferences.cpp"
+- "CAVolumeCurve.cpp"
+- "Carrier"
+- "Could not construct"
+- "DeviceClassNumber"
+- "DeviceSupportsAOP"
+- "DeviceSupportsSiriBargeIn"
+- "Error loading plist file "
+- "Error saving plist file "
+- "HasBaseband"
+- "InternalBuild"
+- "IsUIBuild"
+- "MemoryStream.cpp"
+- "PlatformUtilities_iOS.cpp"
+- "PpmzzBVLpZVubmP0tCIymg"
+- "RamstadSRC process called for different number of output samples than preflight."
+- "RamstadSRC process called for number of input samples than outside range of preflight."
+- "RamstadSRC process called without preflight and arguments don't match preflight."
+- "RamstadSRC::processMono, wrong channel count"
+- "RamstadSRC::processStereo, wrong channel count"
+- "RamstadSRC::processStereoFrac preflight prediction failed."
+- "ReleaseType"
+- "StarkCapability"
+- "TPLM"
+- "TuningPListMgr.cpp"
+- "UTF8String"
+- "[%u]"
+- "additional_objects > size_type(this->m_capacity - this->m_size)"
+- "assistant"
+- "aupreset"
+- "bypass"
+- "cBy4BcYs5YWtFHbBpt4C6A"
+- "com.apple.coreaudio.utility"
+- "contentsOfDirectoryAtPath:error:"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "defaultManager"
+- "displayname"
+- "effects"
+- "emplace"
+- "erase"
+- "errorString: %s\n"
+- "fileExistsAtPath:isDirectory:"
+- "flat_tree.hpp"
+- "get_next_capacity, allocator's max size reached"
+- "gqDnklGQnpv5ilgh5uHckw"
+- "hw.model"
+- "insert_unique"
+- "m_ptr || !off"
+- "manufacturer"
+- "nVh/gwNpy7Jv1NOk00CMrw"
+- "name"
+- "next_capacity"
+- "operator*"
+- "operator+"
+- "operator+="
+- "operator--"
+- "pLzf7OiX5nWAPUMj7BfI4Q"
+- "path"
+- "plist-logger.log"
+- "priv_insert_forward_range"
+- "s+gaKNe68Gs3PfqKrZhi1w"
+- "strips"
+- "subtype"
+- "sysctl"
+- "temporaryDirectory"
+- "this->m_holder.capacity() >= this->m_holder.m_size"
+- "this->priv_in_range(position)"
+- "this->priv_in_range_or_end(hint)"
+- "this->priv_in_range_or_end(position)"
+- "type"
+- "unit"
+- "unknown boost::container exception"
+- "vector.hpp"
+- "x.m_ptr || !off"
+
+```

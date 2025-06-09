@@ -1,0 +1,959 @@
+## TestFlightCore
+
+> `/System/Library/PrivateFrameworks/TestFlightCore.framework/TestFlightCore`
+
+```diff
+
+-4.4.14.0.0
+-  __TEXT.__text: 0x1c878
+-  __TEXT.__auth_stubs: 0x570
+-  __TEXT.__objc_methlist: 0x28e0
+-  __TEXT.__const: 0x108
+-  __TEXT.__cstring: 0x17af
+-  __TEXT.__oslogstring: 0x1a62
++4.5.5.0.0
++  __TEXT.__text: 0x399c0
++  __TEXT.__auth_stubs: 0x1650
++  __TEXT.__objc_methlist: 0x2d0c
++  __TEXT.__const: 0xe64
++  __TEXT.__cstring: 0x213a
++  __TEXT.__oslogstring: 0x1b45
+   __TEXT.__gcc_except_tab: 0x164
+-  __TEXT.__unwind_info: 0x7d8
+-  __TEXT.__objc_classname: 0x77a
+-  __TEXT.__objc_methname: 0x8902
+-  __TEXT.__objc_methtype: 0x1d0d
+-  __TEXT.__objc_stubs: 0x5f60
+-  __DATA_CONST.__got: 0x428
+-  __DATA_CONST.__const: 0x6c8
+-  __DATA_CONST.__objc_classlist: 0x190
++  __TEXT.__swift5_typeref: 0x2e26
++  __TEXT.__constg_swiftt: 0x790
++  __TEXT.__swift5_reflstr: 0x2e5
++  __TEXT.__swift5_fieldmd: 0x30c
++  __TEXT.__swift5_types: 0x3c
++  __TEXT.__swift5_capture: 0xcc
++  __TEXT.__swift5_assocty: 0xd8
++  __TEXT.__swift5_proto: 0x34
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__unwind_info: 0xeb8
++  __TEXT.__eh_frame: 0x2e0
++  __TEXT.__objc_classname: 0x7fc
++  __TEXT.__objc_methname: 0x925c
++  __TEXT.__objc_methtype: 0x1e87
++  __TEXT.__objc_stubs: 0x61e0
++  __DATA_CONST.__got: 0x6f8
++  __DATA_CONST.__const: 0x728
++  __DATA_CONST.__objc_classlist: 0x1b8
+   __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_protolist: 0xa0
++  __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1ea0
++  __DATA_CONST.__objc_selrefs: 0x2090
++  __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x130
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x2c8
+-  __AUTH_CONST.__const: 0x240
+-  __AUTH_CONST.__cfstring: 0x16c0
+-  __AUTH_CONST.__objc_const: 0x71d8
++  __AUTH_CONST.__auth_got: 0xb38
++  __AUTH_CONST.__const: 0x928
++  __AUTH_CONST.__cfstring: 0x1860
++  __AUTH_CONST.__objc_const: 0x7c18
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0xfa0
+-  __DATA.__objc_ivar: 0x270
+-  __DATA.__data: 0x788
+-  __DATA.__bss: 0x80
++  __AUTH.__objc_data: 0x1150
++  __AUTH.__data: 0x310
++  __DATA.__objc_ivar: 0x2a4
++  __DATA.__data: 0x1090
++  __DATA.__bss: 0x938
++  __DATA.__common: 0xb8
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
++  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
++  - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Network.framework/Network
++  - /System/Library/Frameworks/PhotosUI.framework/PhotosUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI
+   - /System/Library/PrivateFrameworks/AppStoreDaemon.framework/AppStoreDaemon
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AssertionServices.framework/AssertionServices
+
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
+   - /System/Library/PrivateFrameworks/NanoRegistry.framework/NanoRegistry
+   - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 6F75C8A2-CC11-37C7-AA62-71232CD522A8
+-  Functions: 710
+-  Symbols:   3225
+-  CStrings:  2063
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 1EA48F63-FA8C-3F43-BF79-0A64DE3D17FD
++  Functions: 1371
++  Symbols:   3778
++  CStrings:  2250
+ 
+Symbols:
++ +[TFBetaApplicationInfo supportsSecureCoding]
++ +[TFLaunchScreenBuilder _lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:iconNeedsMask:]
++ +[TFLaunchScreenBuilder buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:iconNeedsMask:]
++ -[TFAppLockup iconNeedsMask]
++ -[TFAppLockup initWithTitle:subtitles:iconArtwork:iconNeedsMask:]
++ -[TFAppLockup setIconNeedsMask:]
++ -[TFBetaAppLaunchScreenViewController childUIViewController]
++ -[TFBetaAppLaunchScreenViewController interface]
++ -[TFBetaAppLaunchScreenViewController setChildUIViewController:]
++ -[TFBetaAppLaunchScreenViewController setInterface:]
++ -[TFBetaAppLaunchScreenViewController tapOnButtonWith:]
++ -[TFBetaAppLaunchScreenViewController viewIsReadyWithInterface:]
++ -[TFBetaApplicationInfo .cxx_destruct]
++ -[TFBetaApplicationInfo bundleVersion]
++ -[TFBetaApplicationInfo copyWithZone:]
++ -[TFBetaApplicationInfo description]
++ -[TFBetaApplicationInfo developerName]
++ -[TFBetaApplicationInfo encodeWithCoder:]
++ -[TFBetaApplicationInfo expirationDate]
++ -[TFBetaApplicationInfo hash]
++ -[TFBetaApplicationInfo iconNeedsMask]
++ -[TFBetaApplicationInfo iconUrlTemplate]
++ -[TFBetaApplicationInfo initWithCoder:]
++ -[TFBetaApplicationInfo isEqual:]
++ -[TFBetaApplicationInfo localizedDisplayNames]
++ -[TFBetaApplicationInfo localizedTestNotes]
++ -[TFBetaApplicationInfo primaryLocaleKey]
++ -[TFBetaApplicationInfo setBundleVersion:]
++ -[TFBetaApplicationInfo setDeveloperName:]
++ -[TFBetaApplicationInfo setExpirationDate:]
++ -[TFBetaApplicationInfo setIconNeedsMask:]
++ -[TFBetaApplicationInfo setIconUrlTemplate:]
++ -[TFBetaApplicationInfo setLocalizedDisplayNames:]
++ -[TFBetaApplicationInfo setLocalizedTestNotes:]
++ -[TFBetaApplicationInfo setPrimaryLocaleKey:]
++ -[TFBetaApplicationInfo setShortVersionString:]
++ -[TFBetaApplicationInfo setTesterEmail:]
++ -[TFBetaApplicationInfo shortVersionString]
++ -[TFBetaApplicationInfo testerEmail]
++ -[TFBetaApplicationProxy deviceWillInstallBetaAppInfo:]
++ -[TFFeedbackSession _dataForImage:]
++ -[TFFeedbackSession feedbackAppName]
++ -[TFFeedbackSession feedbackDeveloperName]
++ -[TFFeedbackSession feedbackInitialScreenshotURLs]
++ -[TFFeedbackSession feedbackTesterEmailAddress]
++ -[TFFeedbackSession feedbackWillCancelSubmission]
++ -[TFFeedbackSession feedbackWillSendFeedbackSubmissionWithFeedbackText:emailAddress:screenshotURLs:]
++ -[TFFeedbackSession launchInfoForFeedbackPopulation]
++ _NSTemporaryDirectory
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_TFBetaApplicationInfo
++ _OBJC_CLASS_$__TtC14TestFlightCore16TestFlightCoreUI
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_TFAppLockup._iconNeedsMask
++ _OBJC_IVAR_$_TFBetaAppLaunchScreenViewController._childUIViewController
++ _OBJC_IVAR_$_TFBetaAppLaunchScreenViewController._interface
++ _OBJC_IVAR_$_TFBetaApplicationInfo._bundleVersion
++ _OBJC_IVAR_$_TFBetaApplicationInfo._developerName
++ _OBJC_IVAR_$_TFBetaApplicationInfo._expirationDate
++ _OBJC_IVAR_$_TFBetaApplicationInfo._iconNeedsMask
++ _OBJC_IVAR_$_TFBetaApplicationInfo._iconUrlTemplate
++ _OBJC_IVAR_$_TFBetaApplicationInfo._localizedDisplayNames
++ _OBJC_IVAR_$_TFBetaApplicationInfo._localizedTestNotes
++ _OBJC_IVAR_$_TFBetaApplicationInfo._primaryLocaleKey
++ _OBJC_IVAR_$_TFBetaApplicationInfo._shortVersionString
++ _OBJC_IVAR_$_TFBetaApplicationInfo._testerEmail
++ _OBJC_METACLASS_$_TFBetaApplicationInfo
++ _OBJC_METACLASS_$__TtC14TestFlightCore16TestFlightCoreUI
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _UIImagePNGRepresentation
++ __Block_copy
++ __Block_release
++ __CLASS_METHODS__TtC14TestFlightCore16TestFlightCoreUI
++ __DATA__TtC14TestFlightCore16TestFlightCoreUI
++ __DATA__TtC14TestFlightCore17FeedbackViewModel
++ __DATA__TtC14TestFlightCore19WhatToTestViewModel
++ __DATA__TtC14TestFlightCoreP33_03E77F6268543B50533FB3ECF57D6FD019ResourceBundleClass
++ __INSTANCE_METHODS__TtC14TestFlightCore16TestFlightCoreUI
++ __INSTANCE_METHODS__TtC14TestFlightCore19TFHostingController
++ __INSTANCE_METHODS__TtC14TestFlightCore19WhatToTestViewModel
++ __IVARS__TtC14TestFlightCore17FeedbackViewModel
++ __IVARS__TtC14TestFlightCore19TFHostingController
++ __IVARS__TtC14TestFlightCore19WhatToTestViewModel
++ __METACLASS_DATA__TtC14TestFlightCore16TestFlightCoreUI
++ __METACLASS_DATA__TtC14TestFlightCore17FeedbackViewModel
++ __METACLASS_DATA__TtC14TestFlightCore19WhatToTestViewModel
++ __METACLASS_DATA__TtC14TestFlightCoreP33_03E77F6268543B50533FB3ECF57D6FD019ResourceBundleClass
++ __OBJC_$_CLASS_METHODS_TFBetaApplicationInfo
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_CLASS_PROP_LIST_TFBetaApplicationInfo
++ __OBJC_$_INSTANCE_METHODS_TFBetaApplicationInfo
++ __OBJC_$_INSTANCE_VARIABLES_TFBetaApplicationInfo
++ __OBJC_$_PROP_LIST_TFBetaApplicationInfo
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP14TestFlightCore16FeedbackDelegate_
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP14TestFlightCore18WhatToTestDelegate_
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP14TestFlightCore16FeedbackDelegate_
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP14TestFlightCore18WhatToTestDelegate_
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_CLASS_PROTOCOLS_$_TFBetaApplicationInfo
++ __OBJC_CLASS_RO_$_TFBetaApplicationInfo
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_LABEL_PROTOCOL_$__TtP14TestFlightCore16FeedbackDelegate_
++ __OBJC_LABEL_PROTOCOL_$__TtP14TestFlightCore18WhatToTestDelegate_
++ __OBJC_METACLASS_RO_$_TFBetaApplicationInfo
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __OBJC_PROTOCOL_$__TtP14TestFlightCore16FeedbackDelegate_
++ __OBJC_PROTOCOL_$__TtP14TestFlightCore18WhatToTestDelegate_
++ __PROTOCOLS__TtC14TestFlightCore19WhatToTestViewModel
++ __PROTOCOLS__TtC14TestFlightCore19WhatToTestViewModel.16
++ __PROTOCOL_INSTANCE_METHODS__TtP14TestFlightCore16FeedbackDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP14TestFlightCore18WhatToTestDelegate_
++ __PROTOCOL_INSTANCE_METHODS__TtP14TestFlightCore19WhatToTestInterface_
++ __PROTOCOL_METHOD_TYPES__TtP14TestFlightCore16FeedbackDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP14TestFlightCore18WhatToTestDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP14TestFlightCore19WhatToTestInterface_
++ __PROTOCOL__TtP14TestFlightCore16FeedbackDelegate_
++ __PROTOCOL__TtP14TestFlightCore18WhatToTestDelegate_
++ __PROTOCOL__TtP14TestFlightCore19WhatToTestInterface_
++ ___100-[TFFeedbackSession feedbackWillSendFeedbackSubmissionWithFeedbackText:emailAddress:screenshotURLs:]_block_invoke
++ ___55-[TFBetaApplicationProxy deviceWillInstallBetaAppInfo:]_block_invoke
++ ___block_descriptor_56_e8_32s40s48s_e34_v16?0"<TFFeedbackDataWritable>"8ls32l8s40l8s48l8
++ ___chkstk_darwin
++ ___swift_allocate_value_buffer
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy16_8
++ ___swift_memcpy40_8
++ ___swift_memcpy64_8
++ ___swift_memcpy72_8
++ ___swift_memcpy9_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_project_value_buffer
++ ___swift_reflection_version
++ ___unnamed_1
++ __swiftEmptyArrayStorage
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDarwin_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_TestFlightCore
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_TestFlightCore
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 14TestFlightCore06WhatToA16ViewAllPlatformsV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 14TestFlightCore06WhatToA4ViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 14TestFlightCore11ButtonEventOSHAASQ
++ _associated conformance 14TestFlightCore12FeedbackViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 14TestFlightCore16CornerRadiusViewVyxG7SwiftUI0F0AA4BodyAeFP_AeF
++ _associated conformance 14TestFlightCore17FeedbackViewModelC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
++ _associated conformance 14TestFlightCore22ScreenshotCarouselItemV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 14TestFlightCore7OpacityV7SwiftUI12ViewModifierAA4BodyAdEP_AD0G0
++ _associated conformance 14TestFlightCore9HowToViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _block_copy_helper
++ _block_descriptor
++ _block_destroy_helper
++ _bzero
++ _flat unique 14TestFlightCore06WhatToA8Delegate_p
++ _flat unique 14TestFlightCore16FeedbackDelegate_p
++ _free
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy14TestFlightCore06WhatToE9ViewModelC_G
++ _get_witness_table 015_PhotosUI_SwiftB00A6PickerVy0cB06ZStackVyAD9TupleViewVyAD15ModifiedContentVyAD06_ShapeG0VyAD16RoundedRectangleVAD5ColorVGAD12_FrameLayoutVG_AJyAD4TextVAD08_PaddingO0VGtGGGAD0G0HPyHC.5
++ _get_witness_table 14TestFlightCore16CornerRadiusViewVy7SwiftUI15ModifiedContentVyAD0F0PADE14textFieldStyleyQrqd__AD04TextlM0Rd__lFQOyAhDE9lineLimit_13reservesSpaceQrSi_SbtFQOyAFyAD0nL0VyAD0N0VGAD30_EnvironmentKeyWritingModifierVyAD0N9AlignmentOGG_Qo__AD05PlainnlM0VQo_AD14_PaddingLayoutVGGAdGHPyHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy14TestFlightCore7OpacityVGAA01_J6EffectVGAA0E0HPAiaMHPyHC_AkA0eF0HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA4TextV_ACyACyAiA30_EnvironmentKeyWritingModifierVyAA0H9AlignmentOGGAA016_ForegroundStyleL0VyAA017HierarchicalShapeO0VGGtGGAA16_FlexFrameLayoutVGAA0G0HPAwAA_HPyHC_AyA0gL0HPyHCHC.3
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA016_ForegroundStyleI0VyAA017HierarchicalShapeK0VGGAGyAA4FontVSgGGAA4ViewHPApaVHPAjaVHPAeaVHPyHC_AiA0oI0HPyHCHC_AoaWHPyHCHC_AtaWHPyHCHC.20
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6VStackVyAA9TupleViewVyAEyAGyAA4TextV_AItGG_ACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGAA6ButtonVyACyACyACyACyACyAiA08_PaddingL0VGAA05_FlexmL0VGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA016_BackgroundStyleT0VyA3_GGAA11_ClipEffectVyAA16RoundedRectangleVGGGA17_tGGAZGAWGAWGAA0G0HPA21_AAA23_HPA20_AAA23_HPA19_AAA23_HPyHC_AzA0gT0HPyHCHC_AwAA24_HPyHCHC_AwAA24_HPyHCHC.1
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameH0VGAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyACyAA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQOyAA0T0VyACyAA6ZStackVyAA05TupleP0VyACyACyAA6CircleVAA011_ForegroundrO0VyAA5ColorVGGAJG_ACyACyAeA01_xR9Modifier2VyA7_A7_GGAA022_EnvironmentKeyWritingO0VyAA4FontVSgGGtGGAJGG_AA010BorderlesstR0VQo_AA07_OffsetK0VGGGAA08_PaddingH0VGAaTHPA33_AaTHPAqaTHPAkaTHPAhaTHPAeaTHPyHC_AgA0pO0HPyHCHC_AjAA37_HPyHCHC_ApAA37_HPyHCHC_A32_AAA37_HPyHCHC_A35_AAA37_HPyHCHC.21
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA15ModifiedContentVyAA10ScrollViewVyAA6VStackVyAA05TupleI0VyAGyAGyAKyAMyAA4TextV_AGyAGyAoA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGGAA016_ForegroundStyleP0VyAA017HierarchicalShapeS0VGGtGGAA16_FlexFrameLayoutVGAA08_PaddingX0VG_AGyAKyAMy14TestFlightCore012CornerRadiusI0VyAGyAA0I0PAAE09textFieldS0yQrqd__AA0l5FieldS0Rd__lFQOyA12_AAE9lineLimit_13reservesSpaceQrSi_SbtFQOyAGyAA0L5FieldVyAOGATG_Qo__AA05Plainl5FieldS0VQo_A6_GG_07_Photosb1_aB012PhotosPickerVyAA6ZStackVyAMyAGyAA01_uI0VyAA16RoundedRectangleVAA5ColorVGAA01_wX0VG_AGyAOA6_GtGGGtGGA6_GAGyAA5GroupVyAA012_ConditionalG0VyAIyAA6HStackVyAA7ForEachVySnySiGSiA8_22ScreenshotCarouselItemVGGGAA05EmptyI0VGGA6_GAGyAKyAMyAKyAMyAO_AGyA10_yA12_AAEA13_yQrqd__AAA14_Rd__lFQOyA19__A23_Qo_GA6_GtGG_AGyAGyAGyAoQySiSgGGAZGAQyAA4FontVSgGGtGGA6_GA64_tGGGAA011_BackgroundsP0VyA37_GGGAAA11_HPyHC.17
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA15ModifiedContentVyAGyAA6VStackVyAA9TupleViewVyAGyAGyAGyAA4TextVAA14_PaddingLayoutVGAOGAA010_FlexFrameM0VG_AGyAGyAA6HStackVyAKyAGyAGyAA0J0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaWRd__lFQOyAA10AsyncImageVyAGyAA0V0VAA012_AspectRatioM0VGSgG_AGyA8_AA11_MaskEffectVyA6_GGQo_AA01_oM0VGAOGSg_AIyAKyAM_AMtGGtGGAOGASGAGyApSGAGyAGyAxAE20scrollBounceBehavior_4axesQrAA20ScrollBounceBehaviorV_AA4AxisO3SetVtFQOyAA06ScrollJ0VyAIyAMGG_Qo_ASGAOGAA6SpacerVAGyAA0C4LinkVyAGyAGyAGyAGyAxAE10fontWeightyQrAA4FontV6WeightVSgFQOyAP_Qo_ASGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGAA24_BackgroundStyleModifierVyA56_GGAA05_ClipZ0VyAA16RoundedRectangleVGGAGyAY05HowToJ0VAA25_AppearanceActionModifierVGGAOGtGGASGAOGGAaWHPyHC.1
++ _get_witness_table 7SwiftUI4ViewRzAaBRd__r__lAA19_ConditionalContentVyqd__xGAaBHPqd__AaBHD2__xAaBHD1_HC.3
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx14TestFlightCore7OpacityVGAaBHPxAaBHD1__AgA0C8ModifierHPyHCHC.2
++ _get_witness_table 7SwiftUI4ViewRzlAA6ZStackVyAA05TupleC0VyAA15ModifiedContentVyAA06_ShapeC0VyAA9RectangleVAA5ColorVGAA11_ClipEffectVyAA07RoundedI0VGG_AHyxAA14_PaddingLayoutVGtGGAaBHPyHC.22
++ _get_witness_table 7SwiftUI4ViewRzlxAaBHD1_.7
++ _get_witness_table 7SwiftUI5GroupVyAA19_ConditionalContentVyAA10ScrollViewVyAA6HStackVyAA7ForEachVySnySiGSi14TestFlightCore22ScreenshotCarouselItemVGGGAA05EmptyG0VGGAA0G0HPAuaWHPAraWHPyHC_AtaWHPyHCHC_HC.18
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA4TextV_AA15ModifiedContentVy14TestFlightCore012CornerRadiusE0VyAA0E0PAAE14textFieldStyleyQrqd__AA0foP0Rd__lFQOyAA0fO0VyAGG_AA05PlainfoP0VQo_GAA14_PaddingLayoutVGtGGAaMHPyHC.19
++ _get_witness_table 7SwiftUI9EmptyViewVAA0D0HPyHC.6
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAA15ModifiedContentVyAA6VStackVy14TestFlightCore06WhatTojC12AllPlatformsVGAA30_SafeAreaRegionsIgnoringLayoutVG_AL0mnjC5ModelCQo_HO.2
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$URLByAppendingPathComponent:
++ _objc_msgSend$URLByAppendingPathExtension:
++ _objc_msgSend$_dataForImage:
++ _objc_msgSend$_didPressExitLaunchScreenButton
++ _objc_msgSend$_didPressOpenHowToSupportLinkButton
++ _objc_msgSend$_didPressShowHowToButton
++ _objc_msgSend$_lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:iconNeedsMask:
++ _objc_msgSend$addChildViewController:
++ _objc_msgSend$allocWithZone:
++ _objc_msgSend$array
++ _objc_msgSend$buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:iconNeedsMask:
++ _objc_msgSend$bundleAppPlatform
++ _objc_msgSend$childUIViewController
++ _objc_msgSend$copyWithZone:
++ _objc_msgSend$dataWithContentsOfURL:
++ _objc_msgSend$decodeBoolForKey:
++ _objc_msgSend$decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:
++ _objc_msgSend$decodeObjectOfClass:forKey:
++ _objc_msgSend$developerName
++ _objc_msgSend$deviceWillInstallBetaAppInfo:
++ _objc_msgSend$didMoveToParentViewController:
++ _objc_msgSend$encodeBool:forKey:
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$generateFeedbackViewWithDelegate:
++ _objc_msgSend$generateWhatToTestViewWithDelegate:
++ _objc_msgSend$hash
++ _objc_msgSend$iconNeedsMask
++ _objc_msgSend$iconUrlTemplate
++ _objc_msgSend$init
++ _objc_msgSend$initWithTitle:subtitles:iconArtwork:iconNeedsMask:
++ _objc_msgSend$isEqual:
++ _objc_msgSend$launchInfoForFeedbackPopulation
++ _objc_msgSend$localizedDisplayNames
++ _objc_msgSend$numberWithBool:
++ _objc_msgSend$primaryLocaleKey
++ _objc_msgSend$setBundleVersion:
++ _objc_msgSend$setIconNeedsMask:
++ _objc_msgSend$setIconUrlTemplate:
++ _objc_msgSend$setLocalizedDisplayNames:
++ _objc_msgSend$setNavigationBarHidden:
++ _objc_msgSend$setPrimaryLocaleKey:
++ _objc_msgSend$setShortVersionString:
++ _objc_msgSend$shortVersionString
++ _objc_msgSend$showAppLockup:subtitles:imageTemplateURL:iconNeedsMask:
++ _objc_msgSend$showHowToScreenWithTitle:subtitle:deviceImage:primaryButtonTitle:secondaryButtonTitle:
++ _objc_msgSend$showTestNotesWithTitle:testNotesTitle:testNotesText:primaryButtonTitle:
++ _objc_msgSend$standardUserDefaults
++ _objc_msgSend$temporaryDirectory
++ _objc_msgSend$writeToURL:atomically:
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _objectdestroy.29Tm
++ _objectdestroy.32Tm
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_checkMetadataState
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deletedMethodError
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTupleTypeMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_isaMask
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_release
++ _swift_retain
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectRetain_n
++ _swift_updateClassMetadata2
++ _swift_willThrow
++ _symbolic $s14TestFlightCore06WhatToA8DelegateP
++ _symbolic $s14TestFlightCore06WhatToA9InterfaceP
++ _symbolic $s14TestFlightCore16FeedbackDelegateP
++ _symbolic $s14TestFlightCore25NavigationActionViewModelP
++ _symbolic $s7Combine16ObservableObjectP
++ _symbolic $s7SwiftUI12ViewModifierP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic $sSY
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic SaySSG
++ _symbolic SaySSGSg
++ _symbolic Say_____G 015_PhotosUI_SwiftB00A10PickerItemV
++ _symbolic Say_____G 7SwiftUI5ImageV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____GSg 10Foundation3URLV
++ _symbolic Say______So10NSProgressCtG 10Foundation4UUIDV
++ _symbolic Sb
++ _symbolic Si
++ _symbolic SiSg
++ _symbolic SnySiG
++ _symbolic Sny_____G 10Foundation16AttributedStringV5IndexV
++ _symbolic Sny_____GSg 10Foundation16AttributedStringV5IndexV
++ _symbolic So15UIBarButtonItemCSg
++ _symbolic So7UIImageCSg
++ _symbolic So8NSObjectC
++ _symbolic _____ 015_PhotosUI_SwiftB00A10PickerItemV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 14TestFlightCore06WhatToA16ViewAllPlatformsV
++ _symbolic _____ 14TestFlightCore06WhatToA4ViewV
++ _symbolic _____ 14TestFlightCore06WhatToA9DataModelV
++ _symbolic _____ 14TestFlightCore06WhatToA9ViewModelC
++ _symbolic _____ 14TestFlightCore0abC2UIC
++ _symbolic _____ 14TestFlightCore11ButtonEventO
++ _symbolic _____ 14TestFlightCore12FeedbackViewV
++ _symbolic _____ 14TestFlightCore14HowToDataModelV
++ _symbolic _____ 14TestFlightCore16CornerRadiusViewV
++ _symbolic _____ 14TestFlightCore17FeedbackViewModelC
++ _symbolic _____ 14TestFlightCore19ResourceBundleClass33_03E77F6268543B50533FB3ECF57D6FD0LLC
++ _symbolic _____ 14TestFlightCore19TFHostingControllerC
++ _symbolic _____ 14TestFlightCore22ScreenshotCarouselItemV
++ _symbolic _____ 14TestFlightCore7OpacityV
++ _symbolic _____ 14TestFlightCore9HowToViewV
++ _symbolic _____ 7Combine25ObservableObjectPublisherC
++ _symbolic _____ 7SwiftUI11ColorSchemeO
++ _symbolic _____ 7SwiftUI13TextAlignmentO
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ 7SwiftUI5ImageV
++ _symbolic _____ 7SwiftUI9EmptyViewV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 7SwiftUI4FontV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____Sg 7SwiftUI5ColorV
++ _symbolic _____Sg 8PhotosUI14PHPickerFilterV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic ______So10NSProgressCt 10Foundation4UUIDV
++ _symbolic ___________y_____y_____y_____yAAG______Qo_G_____Gt 7SwiftUI4TextV AA15ModifiedContentV 14TestFlightCore16CornerRadiusViewV AA0K0PAAE14textFieldStyleyQrqd__AA0cmN0Rd__lFQO AA0cM0V AA05PlaincmN0V AA14_PaddingLayoutV
++ _symbolic ______p 14TestFlightCore06WhatToA8DelegateP
++ _symbolic ______pSg 14TestFlightCore16FeedbackDelegateP
++ _symbolic ______pSg 14TestFlightCore25NavigationActionViewModelP
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____yAAy_____y_____yAAy_____y_____yAAyAAy__________y_____GGAEG_AAyAAyAB_____yA2QGG_____y_____SgGGtGGAEGG______Qo______GGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQO AA0T0V AA6ZStackV AA05TupleP0V AA6CircleV AA011_ForegroundrO0V AA5ColorV AA01_xR9Modifier2V AA022_EnvironmentKeyWritingO0V AA4FontV AA010BorderlesstR0V AA07_OffsetK0V AA08_PaddingH0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____yAHGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleM0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____yAAy_____y_____yAAy_____y_____yAAyAAy__________y_____GGAEG_AAyAAyAB_____yA2QGG_____y_____SgGGtGGAEGG______Qo______GGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQO AA0T0V AA6ZStackV AA05TupleP0V AA6CircleV AA011_ForegroundrO0V AA5ColorV AA01_xR9Modifier2V AA022_EnvironmentKeyWritingO0V AA4FontV AA010BorderlesstR0V AA07_OffsetK0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____SgGG_____yAHGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleM0V
++ _symbolic _____yAAyAAyAAy_____yAAy__________G_Qo______G_____y_____SgGG_____yAIGG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAyAAy__________GACG_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V
++ _symbolic _____yAAyAAy__________GACG_____G_AAyAAy_____y_____yAAyAAy_____y_____yAAy__________GSgG_AAyAO_____yAMGGQo______GACGSg______yAIyAB_ABtGGtGGACGAFGAAyAdFGAAyAAy_____y_____yAXyABGG_Qo_AFGACG_____AAy_____yAAyAAyAAyAAy_____yAD_Qo_AFG_____y_____SgGG_____yA15_GG_____y_____GGAAy__________GGACGt 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA6HStackV AA9TupleViewV AA0L0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaNRd__lFQO AA10AsyncImageV AA0R0V AA012_AspectRatioG0V AA11_MaskEffectV AA01_iG0V AA6VStackV AoAE20scrollBounceBehavior_4axesQrAA06ScrollyZ0V_AA4AxisO3SetVtFQO AA06ScrollL0V AA6SpacerV AA14NavigationLinkV AoAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipV0V AA16RoundedRectangleV AP05HowToL0V AA25_AppearanceActionModifierV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAyAAy__________G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAyAAy__________ySiSgGG_____y_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V AA4FontV
++ _symbolic _____yAAyAAy_____yAAy__________G_Qo______G_____y_____SgGG_____yAIGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleQ0V
++ _symbolic _____yAAyAAy_____y_____yAByACy______ADtGG_AAyAAy__________G_____G_____yAAyAAyAAyAAyAAyAD_____G_____G_____y_____SgGG_____yARGG_____y_____GGGA1_tGGAOGAMGAMG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6ButtonV AA08_PaddingL0V AA05_FlexmL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameG0V
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____yAAy__________ySiSgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA016_ForegroundStyleI0V AA017HierarchicalShapeK0V
++ _symbolic _____yAAy_____yAAy__________G_Qo______G_____y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAy_____y_____yAAyAAyAAy__________GAEG_____G_AAyAAy_____yACyAAyAAy_____y_____yAAy__________GSgG_AAyAP_____yANGGQo______GAEGSg_AByACyAD_ADtGGtGGAEGAHGAAyAfHGAAyAAy_____y_____yAByADGG_Qo_AHGAEG_____AAy_____yAAyAAyAAyAAy_____yAF_Qo_AHG_____y_____SgGG_____yA15_GG_____y_____GGAAy__________GGAEGtGGAHGAEG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA6HStackV AA0G0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaPRd__lFQO AA10AsyncImageV AA0S0V AA012_AspectRatioJ0V AA11_MaskEffectV AA01_lJ0V AqAE20scrollBounceBehavior_4axesQrAA06ScrollyZ0V_AA4AxisO3SetVtFQO AA06ScrollG0V AA6SpacerV AA14NavigationLinkV AqAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipW0V AA16RoundedRectangleV AR05HowToG0V AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____yAAyAAy_____y_____yAAy__________GSgG_AAyAI_____yAGGGQo______G_____GSg______yACy______ATtGGtGGAPG_____G 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaHRd__lFQO AA10AsyncImageV AA0M0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameP0V AA08_PaddingP0V AA6VStackV AA4TextV AA05_FlexsP0V
++ _symbolic _____yAAy_____y_____yAAy__________GSgG_AAyAG_____yAEGGQo______G_____G 7SwiftUI15ModifiedContentV AA4ViewP14TestFlightCoreE11conditionalyQrqd__SgxXEAaDRd__lFQO AA10AsyncImageV AA0K0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameN0V AA08_PaddingN0V
++ _symbolic _____yAAy_____y_____yAAy__________GSgG_AAyAG_____yAEGGQo______G_____GSg 7SwiftUI15ModifiedContentV AA4ViewP14TestFlightCoreE11conditionalyQrqd__SgxXEAaDRd__lFQO AA10AsyncImageV AA0K0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameN0V AA08_PaddingN0V
++ _symbolic _____yAAy_____y_____yAAy__________GSgG_AAyAG_____yAEGGQo______G_____GSg______y_____y______AStGGt 7SwiftUI15ModifiedContentV AA4ViewP14TestFlightCoreE11conditionalyQrqd__SgxXEAaDRd__lFQO AA10AsyncImageV AA0K0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameN0V AA08_PaddingN0V AA6VStackV AA05TupleE0V AA4TextV
++ _symbolic _____yAAy_____y_____yAByACy______ADtGG_AAyAAy__________G_____G_____yAAyAAyAAyAAyAAyAD_____G_____G_____y_____SgGG_____yARGG_____y_____GGGA1_tGGAOGAMG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6ButtonV AA08_PaddingL0V AA05_FlexmL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy_____y_____y______AAyAAyAD_____y_____GG_____y_____GGtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA16_FlexFrameLayoutV AA08_PaddingT0V
++ _symbolic _____yAAy_____y_____y______AAyAAyAD_____y_____GG_____y_____GGtGG_____G_____G_AAyAByACy_____yAAy_____y_____yAAy_____yADGAGG_Qo_______Qo_AQGG______y_____yACyAAy_____y__________G_____G_AAyAdQGtGGGtGGAQGAAy_____y_____y_____y_____y_____ySnySiGSi_____GGG_____GGAQGAAyAByACyAByACyAD_AAyASy_____yAU_AXQo_GAQGtGG_AAyAAyAAyAdEySiSgGGAKGAEy_____SgGGtGGAQGA25_t 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA16_FlexFrameLayoutV AA08_PaddingT0V 14TestFlightCore012CornerRadiusG0V AA0G0PAAE09textFieldO0yQrqd__AA0h5FieldO0Rd__lFQO AzAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0H5FieldV AA05Plainh5FieldO0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_qG0V AA16RoundedRectangleV AA5ColorV AA01_sT0V AA5GroupV AA012_ConditionalD0V AA06ScrollG0V AA6HStackV AA7ForEachV AV22ScreenshotCarouselItemV AA05EmptyG0V AzAEA_yQrqd__AAA0_Rd__lFQO AA4FontV
++ _symbolic _____yAAy_____y_____y_____y_____GG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrollgH0V_AA4AxisO3SetVtFQO AA0jE0V AA6VStackV AA4TextV AA16_FlexFrameLayoutV AA08_PaddingQ0V
++ _symbolic _____ySSG 7Combine9PublishedV
++ _symbolic _____ySS_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySay_____GG 7Combine9PublishedV 015_PhotosUI_SwiftD00C10PickerItemV
++ _symbolic _____ySay_____GG 7Combine9PublishedV 7SwiftUI5ImageV
++ _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 015_PhotosUI_SwiftE00D10PickerItemV
++ _symbolic _____ySay_____G_G 7Combine9PublishedV9PublisherV 7SwiftUI5ImageV
++ _symbolic _____ySay______So10NSProgressCtGG 7Combine9PublishedV 10Foundation4UUIDV
++ _symbolic _____ySay______So10NSProgressCtG_G 7Combine9PublishedV9PublisherV 10Foundation4UUIDV
++ _symbolic _____ySbG 7Combine9PublishedV
++ _symbolic _____ySb_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySiSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____y_____G 14TestFlightCore19TFHostingControllerC AA12FeedbackViewV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 14TestFlightCore06WhatToD9ViewModelC
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA11ColorSchemeO
++ _symbolic _____y_____G 7SwiftUI11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 14TestFlightCore17FeedbackViewModelC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 14TestFlightCore06WhatToE4ViewV
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 14TestFlightCore7OpacityV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA017HierarchicalShapeD0V
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____y_____G 7SwiftUI5StateV 14TestFlightCore06WhatToD9ViewModelC
++ _symbolic _____y_____G 7SwiftUI6VStackV 14TestFlightCore06WhatToD16ViewAllPlatformsV
++ _symbolic _____y_____G 7SwiftUI6VStackV AA4TextV
++ _symbolic _____y_____G 7SwiftUI9TextFieldV AA0C0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 015_PhotosUI_SwiftE00D10PickerItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI4EdgeO3SetV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____SgG 7SwiftUI5StateV 10Foundation3URLV
++ _symbolic _____y_____Sg______pG s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA11ColorSchemeO
++ _symbolic _____y______So10NSProgressCtG s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA9RectangleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 14TestFlightCore9HowToViewV AA25_AppearanceActionModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y___________yACyAB_____y_____GG_____y_____GGtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA016_ForegroundStyleK0V AA017HierarchicalShapeN0V
++ _symbolic _____y___________ySnySiGSi_____GG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV
++ _symbolic _____y___________y___________y_____y_____y_____yADG______Qo_G_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA4TextV AA15ModifiedContentV 14TestFlightCore012CornerRadiusD0V AA0D0PAAE14textFieldStyleyQrqd__AA0irS0Rd__lFQO AA0iR0V AA05PlainirS0V AA08_PaddingG0V
++ _symbolic _____y___________y_____yACy______AEtGG______yAHy__________G_____G_____yAHyAHyAHyAHyAHyAE_____G_____G_____y_____SgGG_____yATGG_____y_____GGGA3_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0F0V AA4TextV AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA6ButtonV AA08_PaddingG0V AA05_FlexoG0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleV0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y___________y_____yACy___________y_____y_____y_____yAEG______Qo_G_____GtGG_AFyAFyAFyAE_____ySiSgGG_____y_____GGAQy_____SgGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0F0V AA4TextV AA15ModifiedContentV 14TestFlightCore012CornerRadiusD0V AA0D0PAAE14textFieldStyleyQrqd__AA0irS0Rd__lFQO AA0iR0V AA05PlainirS0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA011_ForegroundsY0V AA017HierarchicalShapeS0V AA4FontV
++ _symbolic _____y___________y_____yADyADy__________GAFG_____G_ADyADy_____yACyADyADy_____y_____yADy__________GSgG_ADyAQ_____yAOGGQo______GAFGSg______yACyAE_AEtGGtGGAFGAIGADyAgIGADyADy_____y_____yAZyAEGG_Qo_AIGAFG_____ADy_____yADyADyADyADy_____yAG_Qo_AIG_____y_____SgGG_____yA17_GG_____y_____GGADy__________GGAFGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA08_PaddingG0V AA010_FlexFrameG0V AA6HStackV AA0D0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaTRd__lFQO AA10AsyncImageV AA0U0V AA012_AspectRatioG0V AA11_MaskEffectV AA01_nG0V AA0F0V AuAE20scrollBounceBehavior_4axesQrAA20ScrollBounceBehaviorV_AA4AxisO3SetVtFQO AA06ScrollD0V AA6SpacerV AA14NavigationLinkV AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipY0V AA16RoundedRectangleV AV05HowToD0V AA25_AppearanceActionModifierV
++ _symbolic _____y___________y_____yADy_____yACy______ADyADyAF_____y_____GG_____y_____GGtGG_____G_____G_ADyAEyACy_____yADy_____y_____yADy_____yAFGAIG_Qo_______Qo_ASGG______y_____yACyADy_____y__________G_____G_ADyAfSGtGGGtGGASGADy_____y_____y_____y_____y_____ySnySiGSi_____GGG_____GGASGADyAEyACyAEyACyAF_ADyAUy_____yAW_AZQo_GASGtGG_ADyADyADyAfGySiSgGGAMGAGy_____SgGGtGGASGA27_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0F0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA016_ForegroundStyleO0V AA017HierarchicalShapeR0V AA010_FlexFrameG0V AA08_PaddingG0V 14TestFlightCore012CornerRadiusD0V AA0D0PAAE09textFieldR0yQrqd__AA0k5FieldR0Rd__lFQO A4_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0K5FieldV AA05Plaink5FieldR0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_tD0V AA16RoundedRectangleV AA5ColorV AA01_vG0V AA5GroupV AA012_ConditionalJ0V AA06ScrollD0V AA6HStackV AA7ForEachV A0_22ScreenshotCarouselItemV AA05EmptyD0V A4_AAEA5_yQrqd__AAA6_Rd__lFQO AA4FontV
++ _symbolic _____y___________y_____yADy_____y_____yADy__________GSgG_ADyAJ_____yAHGGQo______G_____GSg______yACy______AUtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaLRd__lFQO AA10AsyncImageV AA0P0V AA012_AspectRatioG0V AA11_MaskEffectV AA06_FrameG0V AA08_PaddingG0V AA6VStackV AA4TextV
++ _symbolic _____y___________y_____y_____y__________G_____G_ADy__________GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA06_ShapeD0V AA16RoundedRectangleV AA5ColorV AA06_FrameG0V AA4TextV AA08_PaddingG0V
++ _symbolic _____y___________y_____y_____y_____y_____yAEy_____y_____G_____y_____GG_Qo_______Qo______GG______y_____yACyAEy_____y__________G_____G_AEyAgPGtGGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 14TestFlightCore012CornerRadiusD0V AA15ModifiedContentV AA0D0PAAE14textFieldStyleyQrqd__AA04TextqR0Rd__lFQO ApAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0sQ0V AA0S0V AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA05PlainsqR0V AA08_PaddingG0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA06_ShapeD0V AA16RoundedRectangleV AA5ColorV AA06_FrameG0V
++ _symbolic _____y__________yACy_____y_____yACyACyACy__________GAGG_____G_ACyACy_____yAEyACyACy_____y_____yACy__________GSgG_ACyAR_____yAPGGQo______GAGGSg_ADyAEyAF_AFtGGtGGAGGAJGACyAhJGACyACy_____y_____yADyAFGG_Qo_AJGAGG_____ACy_____yACyACyACyACy_____yAH_Qo_AJG_____y_____SgGG_____yA17_GG_____y_____GGACy__________GGAGGtGGAJGAGGG 7SwiftUI15NavigationStackV AA0C4PathV AA15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameM0V AA6HStackV AA0J0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaTRd__lFQO AA10AsyncImageV AA0V0V AA012_AspectRatioM0V AA11_MaskEffectV AA01_oM0V AuAE20scrollBounceBehavior_4axesQrAA20ScrollBounceBehaviorV_AA4AxisO3SetVtFQO AA06ScrollJ0V AA6SpacerV AA0C4LinkV AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipZ0V AA16RoundedRectangleV AV05HowToJ0V AA25_AppearanceActionModifierV
++ _symbolic _____y__________ySiSgGG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV
++ _symbolic _____y__________y_____y_____y_____yACyACyAEyAFy______ACyACyAG_____y_____GG_____y_____GGtGG_____G_____G_ACyAEyAFy_____yACy_____y_____yACy_____yAGGAJG_Qo_______Qo_ATGG______y_____yAFyACy_____y__________G_____G_ACyAgTGtGGGtGGATGACy_____y_____yADy_____y_____ySnySiGSi_____GGG_____GGATGACyAEyAFyAEyAFyAG_ACyAVy_____yAX_A_Qo_GATGtGG_ACyACyACyAgHySiSgGGANGAHy_____SgGGtGGATGA27_tGGG_____yA7_GGG 7SwiftUI15NavigationStackV AA0C4PathV AA15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleI0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA016_ForegroundStyleP0V AA017HierarchicalShapeS0V AA16_FlexFrameLayoutV AA08_PaddingX0V 14TestFlightCore012CornerRadiusI0V AA0I0PAAE09textFieldS0yQrqd__AA0l5FieldS0Rd__lFQO A4_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0L5FieldV AA05Plainl5FieldS0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_uI0V AA16RoundedRectangleV AA5ColorV AA01_wX0V AA5GroupV AA012_ConditionalG0V AA6HStackV AA7ForEachV A0_22ScreenshotCarouselItemV AA05EmptyI0V A4_AAEA5_yQrqd__AAA6_Rd__lFQO AA4FontV AA011_BackgroundsP0V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y_____yAAyAAyAAyAAy_____yAAy__________G_Qo______G_____y_____SgGG_____yAJGG_____y_____GGAAy__________GGADG 7SwiftUI15ModifiedContentV AA14NavigationLinkV AA4ViewPAAE10fontWeightyQrAA4FontV0I0VSgFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameM0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleS0V AA11_ClipEffectV AA16RoundedRectangleV 14TestFlightCore05HowToG0V AA017_AppearanceActionS0V
++ _symbolic _____y_____yAAyABy______ACtGG______yAFy__________G_____G_____yAFyAFyAFyAFyAFyAC_____G_____G_____y_____SgGG_____yARGG_____y_____GGGA1_tGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6ButtonV AA08_PaddingL0V AA05_FlexmL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yAAy__________GSgG_____yAEGG 7SwiftUI15ModifiedContentV AA10AsyncImageV AA0F0V AA18_AspectRatioLayoutV AA11_MaskEffectV
++ _symbolic _____y_____yAAy__________G_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA4TextV AA14_PaddingLayoutV AA010_FlexFrameK0V
++ _symbolic _____y_____yAByAByAByABy__________G_____G_____y_____SgGG_____yAIGG_____y_____GGG 7SwiftUI6ButtonV AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleN0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____yABy__________y_____GG_____G_AByABy__________yA2EGG_____y_____SgGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA6CircleV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_hI9Modifier2V AA022_EnvironmentKeyWritingJ0V AA4FontV
++ _symbolic _____y_____ySnySiGSi_____GG 7SwiftUI6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV
++ _symbolic _____y_____y_____GG 7SwiftUI10ScrollViewV AA6VStackV AA4TextV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 14TestFlightCore7OpacityV AA01_J6EffectV
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV 14TestFlightCore06WhatToF16ViewAllPlatformsV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA9TextFieldV AA0E0V AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____y_____y______ACtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV
++ _symbolic _____y_____y______ACtGG______yAFy__________G_____G_____yAFyAFyAFyAFyAFyAC_____G_____G_____y_____SgGG_____yARGG_____y_____GGGA1_t 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6ButtonV AA08_PaddingL0V AA05_FlexmL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____y__________GG 7SwiftUI11_MaskEffectV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV
++ _symbolic _____y_____y__________GSgG 7SwiftUI10AsyncImageV AA15ModifiedContentV AA0D0V AA18_AspectRatioLayoutV
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y__________G_____G_AAy__________Gt 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA4TextV AA08_PaddingK0V
++ _symbolic _____y_____y__________G_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA9RectangleV AA5ColorV AA11_ClipEffectV AA07RoundedG0V
++ _symbolic _____y_____y___________yADyAC_____y_____GG_____y_____GGtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V
++ _symbolic _____y_____y___________y_____y_____y_____yACG______Qo_G_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV 14TestFlightCore012CornerRadiusE0V AA0E0PAAE14textFieldStyleyQrqd__AA0foP0Rd__lFQO AA0fO0V AA05PlainfoP0V AA14_PaddingLayoutV
++ _symbolic _____y_____y___________y_____y_____y_____yACG______Qo_G_____GtGG_ADyADyADyAC_____ySiSgGG_____y_____GGAOy_____SgGGt 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV 14TestFlightCore012CornerRadiusE0V AA0E0PAAE14textFieldStyleyQrqd__AA0foP0Rd__lFQO AA0fO0V AA05PlainfoP0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA011_ForegroundpW0V AA017HierarchicalShapeP0V AA4FontV
++ _symbolic _____y_____y_____yAAyAAyAAy__________GAEG_____G_AAyAAy_____yACyAAyAAy_____y_____yAAy__________GSgG_AAyAP_____yANGGQo______GAEGSg_AByACyAD_ADtGGtGGAEGAHGAAyAfHGAAyAAy_____y_____yAByADGG_Qo_AHGAEG_____AAy_____yAAyAAyAAyAAy_____yAF_Qo_AHG_____y_____SgGG_____yA15_GG_____y_____GGAAy__________GGAEGtGGAHG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA6HStackV AA0G0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaPRd__lFQO AA10AsyncImageV AA0S0V AA012_AspectRatioJ0V AA11_MaskEffectV AA01_lJ0V AqAE20scrollBounceBehavior_4axesQrAA06ScrollyZ0V_AA4AxisO3SetVtFQO AA06ScrollG0V AA6SpacerV AA14NavigationLinkV AqAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipW0V AA16RoundedRectangleV AR05HowToG0V AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____G_AAyAAy__________yA2FGG_____y_____SgGGtGGAIG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA6CircleV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_iJ9Modifier2V AA022_EnvironmentKeyWritingK0V AA4FontV
++ _symbolic _____y_____y_____yAAyAAy_____y_____yAAy__________GSgG_AAyAI_____yAGGGQo______G_____GSg______yACy______ATtGGtGGAPG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA0G0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaHRd__lFQO AA10AsyncImageV AA0M0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameP0V AA08_PaddingP0V AA6VStackV AA4TextV
++ _symbolic _____y_____y_____yAAy__________GSgG_AAyAG_____yAEGGQo______G 7SwiftUI15ModifiedContentV AA4ViewP14TestFlightCoreE11conditionalyQrqd__SgxXEAaDRd__lFQO AA10AsyncImageV AA0K0V AA18_AspectRatioLayoutV AA11_MaskEffectV AA06_FrameN0V
++ _symbolic _____y_____y_____yAAy_____y_____G_____y_____GG_Qo_______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE14textFieldStyleyQrqd__AA04TextgH0Rd__lFQO AeAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0iG0V AA0I0V AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA05PlainigH0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____yAAy_____y_____yAAyAAy__________y_____GG_____G_AAyAAy__________yA2GGG_____y_____SgGGtGGAJGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA6ZStackV AA05TupleE0V AA6CircleV AA011_ForegroundG8ModifierV AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_mG9Modifier2V AA022_EnvironmentKeyWritingN0V AA4FontV AA010BorderlessiG0V AA13_OffsetEffectV
++ _symbolic _____y_____y_____yAByACy______AAy_____y_____y_____yADG______Qo_G_____GtGG_AAyAAyAAyAD_____ySiSgGG_____y_____GGAOy_____SgGGtGGAKG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV 14TestFlightCore012CornerRadiusG0V AA0G0PAAE14textFieldStyleyQrqd__AA0hoP0Rd__lFQO AA0hO0V AA05PlainhoP0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA011_ForegroundpW0V AA017HierarchicalShapeP0V AA4FontV
++ _symbolic _____y_____y_____yAByACy______ADtGG_AAyAAy__________G_____G_____yAAyAAyAAyAAyAAyAD_____G_____G_____y_____SgGG_____yARGG_____y_____GGGA1_tGGAOG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6ButtonV AA08_PaddingL0V AA05_FlexmL0V AA30_EnvironmentKeyWritingModifierV AA5ColorV AA016_BackgroundStyleT0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____y_____yACyAAyABy______ACyACyAD_____y_____GG_____y_____GGtGG_____G_____G_ACyAAyABy_____yACy_____y_____yACy_____yADGAGG_Qo_______Qo_AQGG______y_____yAByACy_____y__________G_____G_ACyAdQGtGGGtGGAQGACy_____y_____y_____y_____y_____ySnySiGSi_____GGG_____GGAQGACyAAyAByAAyAByAD_ACyASy_____yAU_AXQo_GAQGtGG_ACyACyACyAdEySiSgGGAKGAEy_____SgGGtGGAQGA25_tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA16_FlexFrameLayoutV AA08_PaddingT0V 14TestFlightCore012CornerRadiusE0V AA0E0PAAE09textFieldO0yQrqd__AA0h5FieldO0Rd__lFQO AzAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0H5FieldV AA05Plainh5FieldO0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_qE0V AA16RoundedRectangleV AA5ColorV AA01_sT0V AA5GroupV AA012_ConditionalG0V AA06ScrollE0V AA6HStackV AA7ForEachV AV22ScreenshotCarouselItemV AA05EmptyE0V AzAEA_yQrqd__AAA0_Rd__lFQO AA4FontV
++ _symbolic _____y_____y_____yACyACy__________GAEG_____G_ACyACy_____yAByACyACy_____y_____yACy__________GSgG_ACyAP_____yANGGQo______GAEGSg_AAyAByAD_ADtGGtGGAEGAHGACyAfHGACyACy_____y_____yAAyADGG_Qo_AHGAEG_____ACy_____yACyACyACyACy_____yAF_Qo_AHG_____y_____SgGG_____yA15_GG_____y_____GGACy__________GGAEGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV AA010_FlexFrameJ0V AA6HStackV AA0E0P14TestFlightCoreE11conditionalyQrqd__SgxXEAaPRd__lFQO AA10AsyncImageV AA0S0V AA012_AspectRatioJ0V AA11_MaskEffectV AA01_lJ0V AqAE20scrollBounceBehavior_4axesQrAA06ScrollyZ0V_AA4AxisO3SetVtFQO AA06ScrollE0V AA6SpacerV AA14NavigationLinkV AqAE10fontWeightyQrAA4FontV6WeightVSgFQO AA30_EnvironmentKeyWritingModifierV AA5ColorV AA24_BackgroundStyleModifierV AA05_ClipW0V AA16RoundedRectangleV AR05HowToE0V AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yACy__________y_____GG_____G_ACyACy__________yA2FGG_____y_____SgGGtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA6CircleV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_iJ9Modifier2V AA022_EnvironmentKeyWritingK0V AA4FontV
++ _symbolic _____y_____y_____ySnySiGSi_____GGG 7SwiftUI10ScrollViewV AA6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV
++ _symbolic _____y_____y_____y_____GG_Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AA0hC0V AA6VStackV AA4TextV
++ _symbolic _____y_____y_____y_____G_____G______Qo_ 7SwiftUI4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AA15ModifiedContentV AA6VStackV 14TestFlightCore06WhatTojC12AllPlatformsV AA30_SafeAreaRegionsIgnoringLayoutV AL0mnjC5ModelC
++ _symbolic _____y_____y_____y_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA15ModifiedContentV AA9TextFieldV AA0J0V AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO
++ _symbolic _____y_____y_____y______AAyAAyAD_____y_____GG_____y_____GGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA017HierarchicalShapeO0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____yAAyAAyACyADy______AAyAAyAE_____y_____GG_____y_____GGtGG_____G_____G_AAyACyADy_____yAAy_____y_____yAAy_____yAEGAHG_Qo_______Qo_ARGG______y_____yADyAAy_____y__________G_____G_AAyAeRGtGGGtGGARGAAy_____y_____yABy_____y_____ySnySiGSi_____GGG_____GGARGAAyACyADyACyADyAE_AAyATy_____yAV_AYQo_GARGtGG_AAyAAyAAyAeFySiSgGGALGAFy_____SgGGtGGARGA25_tGGG_____yA5_GG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA016_ForegroundStyleM0V AA017HierarchicalShapeP0V AA16_FlexFrameLayoutV AA08_PaddingU0V 14TestFlightCore012CornerRadiusF0V AA0F0PAAE09textFieldP0yQrqd__AA0i5FieldP0Rd__lFQO A0_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0I5FieldV AA05Plaini5FieldP0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_rF0V AA16RoundedRectangleV AA5ColorV AA01_tU0V AA5GroupV AA012_ConditionalD0V AA6HStackV AA7ForEachV AX22ScreenshotCarouselItemV AA05EmptyF0V A0_AAEA1_yQrqd__AAA2_Rd__lFQO AA4FontV AA011_BackgroundpM0V
++ _symbolic _____y_____y_____y_____yAAy_____y_____yAAy_____y_____G_____y_____GG_Qo_______Qo______GG______y_____yACyAAy_____y__________G_____G_AAyAfOGtGGGtGGAOG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 14TestFlightCore012CornerRadiusG0V AA0G0PAAE14textFieldStyleyQrqd__AA04TextnO0Rd__lFQO AlAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0pN0V AA0P0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA05PlainpnO0V AA14_PaddingLayoutV 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA06_ShapeG0V AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____yAByABy__________y_____GG_____G_AByABy__________yA2GGG_____y_____SgGGtGGAJGG 7SwiftUI6ButtonV AA15ModifiedContentV AA6ZStackV AA9TupleViewV AA6CircleV AA24_ForegroundStyleModifierV AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_jK9Modifier2V AA022_EnvironmentKeyWritingL0V AA4FontV
++ _symbolic _____y_____y_____y_____yABy_____y_____G_____y_____GG_Qo_______Qo______GG 14TestFlightCore16CornerRadiusViewV 7SwiftUI15ModifiedContentV AD0F0PADE14textFieldStyleyQrqd__AD04TextlM0Rd__lFQO AhDE9lineLimit_13reservesSpaceQrSi_SbtFQO AD0nL0V AD0N0V AD30_EnvironmentKeyWritingModifierV AD0N9AlignmentO AD05PlainnlM0V AD14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____yABy_____y_____G_____y_____GG_Qo_______Qo______GG______y_____y_____yABy_____y__________G_____G_AByAdMGtGGGt 14TestFlightCore16CornerRadiusViewV 7SwiftUI15ModifiedContentV AD0F0PADE14textFieldStyleyQrqd__AD04TextlM0Rd__lFQO AhDE9lineLimit_13reservesSpaceQrSi_SbtFQO AD0nL0V AD0N0V AD30_EnvironmentKeyWritingModifierV AD0N9AlignmentO AD05PlainnlM0V AD14_PaddingLayoutV 07_Photosh1_gH012PhotosPickerV AD6ZStackV AD05TupleF0V AD06_ShapeF0V AD16RoundedRectangleV AD5ColorV AD06_FrameZ0V
++ _symbolic _____y_____y_____y_____yABy_____y_____yAByABy__________y_____GG_____G_AByABy__________yA2HGG_____y_____SgGGtGGAKGG______Qo______GG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA0K0V AA6ZStackV AA05TupleG0V AA6CircleV AA011_ForegroundiD0V AA5ColorV AA12_FrameLayoutV AA5ImageV AA01_oI9Modifier2V AA022_EnvironmentKeyWritingD0V AA4FontV AA010BorderlesskI0V AA13_OffsetEffectV
++ _symbolic _____y_____y_____y_____yADyAByACy______ADyADyAE_____y_____GG_____y_____GGtGG_____G_____G_ADyAByACy_____yADy_____y_____yADy_____yAEGAHG_Qo_______Qo_ARGG______y_____yACyADy_____y__________G_____G_ADyAeRGtGGGtGGARGADy_____y_____yAAy_____y_____ySnySiGSi_____GGG_____GGARGADyAByACyAByACyAE_ADyATy_____yAV_AYQo_GARGtGG_ADyADyADyAeFySiSgGGALGAFy_____SgGGtGGARGA25_tGGG 7SwiftUI10ScrollViewV AA6VStackV AA05TupleD0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA016_ForegroundStyleM0V AA017HierarchicalShapeP0V AA16_FlexFrameLayoutV AA08_PaddingU0V 14TestFlightCore012CornerRadiusD0V AA0D0PAAE09textFieldP0yQrqd__AA0i5FieldP0Rd__lFQO A0_AAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0I5FieldV AA05Plaini5FieldP0V 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA01_rD0V AA16RoundedRectangleV AA5ColorV AA01_tU0V AA5GroupV AA012_ConditionalH0V AA6HStackV AA7ForEachV AX22ScreenshotCarouselItemV AA05EmptyD0V A0_AAEA1_yQrqd__AAA2_Rd__lFQO AA4FontV
++ _symbolic _____y_____y_____y_____ySnySiGSi_____GGG_____G 7SwiftUI19_ConditionalContentV AA10ScrollViewV AA6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV AA05EmptyF0V
++ _symbolic _____y_____y_____y_____ySnySiGSi_____GGG______G 7SwiftUI19_ConditionalContentV7StorageO AA10ScrollViewV AA6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV AA05EmptyG0V
++ _symbolic _____y_____y_____y_____y_____GG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrollgH0V_AA4AxisO3SetVtFQO AA0jE0V AA6VStackV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y_____G______Qo_G_____G 7SwiftUI15ModifiedContentV 14TestFlightCore16CornerRadiusViewV AA0J0PAAE14textFieldStyleyQrqd__AA04TextlM0Rd__lFQO AA0nL0V AA0N0V AA05PlainnlM0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y__________G_____G_ACy__________GtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV AA4TextV AA08_PaddingM0V
++ _symbolic _____y_____y_____y_____y__________G_____y_____GG_ACyx_____GtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA06_ShapeE0V AA9RectangleV AA5ColorV AA11_ClipEffectV AA07RoundedI0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____ySnySiGSi_____GGG_____GG 7SwiftUI5GroupV AA19_ConditionalContentV AA10ScrollViewV AA6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV AA05EmptyG0V
++ _symbolic _____y_____y_____y_____y_____y__________G_____G_ADy__________GtGGG 015_PhotosUI_SwiftB00A6PickerV 0cB06ZStackV AD9TupleViewV AD15ModifiedContentV AD06_ShapeG0V AD16RoundedRectangleV AD5ColorV AD12_FrameLayoutV AD4TextV AD08_PaddingO0V
++ _symbolic _____y_____y_____y_____y_____y_____yADy_____y_____G_____y_____GG_Qo_______Qo______GG______y_____yAByADy_____y__________G_____G_ADyAfOGtGGGtGG 7SwiftUI6VStackV AA9TupleViewV 14TestFlightCore012CornerRadiusE0V AA15ModifiedContentV AA0E0PAAE14textFieldStyleyQrqd__AA04TextnO0Rd__lFQO AlAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA0pN0V AA0P0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA05PlainpnO0V AA14_PaddingLayoutV 07_Photosb1_aB012PhotosPickerV AA6ZStackV AA06_ShapeE0V AA16RoundedRectangleV AA5ColorV AA12_FrameLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____ySnySiGSi_____GGG_____GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA10ScrollViewV AA6HStackV AA7ForEachV 14TestFlightCore22ScreenshotCarouselItemV AA05EmptyH0V AA14_PaddingLayoutV
++ _symbolic _____yqd__xG 7SwiftUI19_ConditionalContentV
++ _symbolic _____yxG 7SwiftUI19UIHostingControllerC
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 14TestFlightCore7OpacityV
++ _symbolic qd0__
++ _symbolic qd__
++ _symbolic x
++ _symbolic yyc
++ _type_layout_string 14TestFlightCore06WhatToA16ViewAllPlatformsV
++ _type_layout_string 14TestFlightCore06WhatToA4ViewV
++ _type_layout_string 14TestFlightCore06WhatToA9DataModelV
++ _type_layout_string 14TestFlightCore14HowToDataModelV
++ _type_layout_string 14TestFlightCore22ScreenshotCarouselItemV
++ _type_layout_string 14TestFlightCore9HowToViewV
+- +[TFLaunchScreenBuilder _lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:]
+- +[TFLaunchScreenBuilder buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:]
+- -[TFAppLockup initWithTitle:subtitles:iconArtwork:]
+- -[TFBetaAppLaunchScreenViewController _animateLaunchScreenViewWithUpdateBlock:transition:]
+- -[TFBetaAppLaunchScreenViewController loadView]
+- -[TFBetaAppLaunchScreenViewController showLoadingAnimated:]
+- -[TFBetaAppLaunchScreenViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- _OBJC_CLASS_$_CATransaction
+- _PPMScaledFloatValue
+- _PPMScaledSizeValue
+- _PPMScaledUIEdgeInsetsValue
+- _PPMScalingEnabled
+- _PPMScalingStatus
+- _PPMVerifiedFloatValue
+- _PPMVerifiedSizeValue
+- _PPMVerifiedUIEdgeInsetsValue
+- ___168-[TFBetaAppLaunchScreenViewController showTestNotesWithTitle:lockup:testNotesTitle:testNotesText:primaryButtonTitle:primaryButtonEvent:animated:fetchingOnImageFetcher:]_block_invoke
+- ___176-[TFBetaAppLaunchScreenViewController showHowToWithTitle:subtitle:screenshotImageDict:primaryButtonTitle:primaryButtonEvent:secondaryButtonTitle:secondaryButtonEvent:animated:]_block_invoke
+- ___176-[TFBetaApplicationProxy deviceWillInstallVersion:build:withLocalizedDisplayNames:localizedTestNotes:primaryLocaleKey:developerName:expirationDate:iconUrlTemplate:testerEmail:]_block_invoke
+- ___59-[TFBetaAppLaunchScreenViewController showLoadingAnimated:]_block_invoke
+- ___90-[TFBetaAppLaunchScreenViewController _animateLaunchScreenViewWithUpdateBlock:transition:]_block_invoke
+- ___90-[TFBetaAppLaunchScreenViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___90-[TFBetaAppLaunchScreenViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___90-[TFBetaAppLaunchScreenViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_3
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- ___block_descriptor_40_e8_32s_e56_v16?0"<UIViewControllerTransitionCoordinatorContext>"8ls32l8
+- ___block_descriptor_40_e8_32s_e5_v8?0ls32l8
+- ___block_descriptor_96_e8_32s40s48s56s64s72s80s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8
+- _objc_msgSend$_animateLaunchScreenViewWithUpdateBlock:transition:
+- _objc_msgSend$_currentInterfaceOrientation
+- _objc_msgSend$_fadeTransition
+- _objc_msgSend$_lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:
+- _objc_msgSend$_pushTransition
+- _objc_msgSend$_selectorForPresentorViewEvent:
+- _objc_msgSend$animateAlongsideTransition:completion:
+- _objc_msgSend$animateWithDuration:animations:
+- _objc_msgSend$begin
+- _objc_msgSend$buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:
+- _objc_msgSend$cleanupSnapshot
+- _objc_msgSend$commit
+- _objc_msgSend$displayedIconSize
+- _objc_msgSend$fetchIconArtwork:ofSize:intoView:animated:
+- _objc_msgSend$initWithTitle:subtitles:iconArtwork:
+- _objc_msgSend$launchScreenView
+- _objc_msgSend$prepareForState:
+- _objc_msgSend$setBodyTitle:bodyText:
+- _objc_msgSend$setCompletionBlock:
+- _objc_msgSend$setDeviceImage:withOrientation:
+- _objc_msgSend$setDeviceImageOrientation:
+- _objc_msgSend$setDeviceImageVisibility:
+- _objc_msgSend$setLaunchScreenView:
+- _objc_msgSend$setLockup:
+- _objc_msgSend$setPrimaryButtonTitle:target:action:
+- _objc_msgSend$setSecondaryButtonTitle:target:action:
+- _objc_msgSend$setSubtitle:
+- _objc_msgSend$setUserInteractionEnabled:
+- _objc_msgSend$snapshotCurrentView
+CStrings:
++ "%{public}@: [%{public}@:%@] InstallBetaAppInfo               betaApplicationInfo = %@"
++ "/System/Library/PrivateFrameworks/TestFlightCore.framework"
++ "@\"<_TtP14TestFlightCore19WhatToTestInterface_>\""
++ "@\"NSArray\"16@0:8"
++ "@\"NSDate\""
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIMenu\"40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIViewController\""
++ "@24@0:8@\"NSCoder\"16"
++ "@44@0:8@16@24@32B40"
++ "@60@0:8@16@24@32@40@48B56"
++ "@68@0:8@16@24@32@40@48@56B64"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@\"UITextView\"16@\"NSArray\"24@\"NSString\"32"
++ "Continue"
++ "FEEDBACK_ACTION_BUTTON_CANCEL_TITLE"
++ "FEEDBACK_ACTION_BUTTON_SUBMIT_TITLE"
++ "FEEDBACK_FORM_ENTRY_SCREENSHOT_SIMPLE_NAME"
++ "FEEDBACK_PLACEHOLDER"
++ "FEEDBACK_SCREENSHOTS_BUTTON_TITLE"
++ "FEEDBACK_SUBTITLE"
++ "LAUNCH_BUTTON_CONTINUE"
++ "NSCoding"
++ "NSSecureCoding"
++ "SCREEN_SHOT_FILE_NAME"
++ "Share Your Email"
++ "T@\"<_TtP14TestFlightCore19WhatToTestInterface_>\",&,N,V_interface"
++ "T@\"NSDate\",&,N,V_expirationDate"
++ "T@\"NSDictionary\",&,N,V_localizedDisplayNames"
++ "T@\"NSDictionary\",&,N,V_localizedTestNotes"
++ "T@\"NSString\",&,N,V_bundleVersion"
++ "T@\"NSString\",&,N,V_developerName"
++ "T@\"NSString\",&,N,V_iconUrlTemplate"
++ "T@\"NSString\",&,N,V_primaryLocaleKey"
++ "T@\"NSString\",&,N,V_shortVersionString"
++ "T@\"NSString\",&,N,V_testerEmail"
++ "T@\"UIViewController\",&,N,V_childUIViewController"
++ "T@\"UIViewController\",W,N,V_activeFormViewController"
++ "TB,N,V_iconNeedsMask"
++ "TB,R"
++ "TFBetaApplicationInfo"
++ "Temporary screen shot file name during QuickLook"
++ "TestFlightCore.TFHostingController"
++ "URLByAppendingPathComponent:"
++ "URLByAppendingPathExtension:"
++ "WhatToTestViewModel"
++ "](https://testflight.apple.com/feedback-learn-more)"
++ "_$observationRegistrar"
++ "_TtC14TestFlightCore16TestFlightCoreUI"
++ "_TtC14TestFlightCore17FeedbackViewModel"
++ "_TtC14TestFlightCore19WhatToTestViewModel"
++ "_TtC14TestFlightCoreP33_03E77F6268543B50533FB3ECF57D6FD019ResourceBundleClass"
++ "_TtP14TestFlightCore16FeedbackDelegate_"
++ "_TtP14TestFlightCore18WhatToTestDelegate_"
++ "_TtP14TestFlightCore19WhatToTestInterface_"
++ "_bundleVersion"
++ "_childUIViewController"
++ "_dataForImage:"
++ "_dataModel"
++ "_expirationDate"
++ "_howToDataModel"
++ "_iconNeedsMask"
++ "_iconUrlTemplate"
++ "_imageURL"
++ "_interface"
++ "_isSubmitButtonDisabled"
++ "_loadedPhotos"
++ "_loadingPhotos"
++ "_localizedDisplayNames"
++ "_localizedTestNotes"
++ "_lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:iconNeedsMask:"
++ "_primaryLocaleKey"
++ "_selectedPhotos"
++ "_shortVersionString"
++ "_testerEmail"
++ "_testerFeedbackText"
++ "addChildViewController:"
++ "allocWithZone:"
++ "appName"
++ "app_developer_name"
++ "app_expiration_date"
++ "app_icon_needs_mask"
++ "app_icon_url"
++ "app_localized_display_names"
++ "app_localized_test_notes"
++ "app_primary_locale"
++ "app_short_version"
++ "app_tester_email"
++ "app_version"
++ "array"
++ "buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:iconNeedsMask:"
++ "bundleVersion = %@ ShortVersion = %@ localizedDisplayNames = %@ localizedTestNotes = %@ primaryLocaleKey = %@ testerEmail = %@ developerName = %@ expirationDate = %@ iconURL = %@ needsMask = %@"
++ "cancelButtonItem"
++ "childUIViewController"
++ "com.apple.TestFlightCore.UpdateSubmitActionEnablementStateNotification"
++ "copyItemAtPath:toPath:error:"
++ "currentlyPresentedPhotoURL"
++ "dataWithContentsOfURL:"
++ "dealloc"
++ "decodeBoolForKey:"
++ "decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:"
++ "decodeObjectOfClass:forKey:"
++ "developerName"
++ "deviceWillInstallBetaAppInfo:"
++ "didMoveToParentViewController:"
++ "encodeBool:forKey:"
++ "encodeObject:forKey:"
++ "encodeWithCoder:"
++ "feedbackAppName"
++ "feedbackDeveloperName"
++ "feedbackInitialScreenshotURLs"
++ "feedbackTesterEmailAddress"
++ "feedbackWillCancelSubmission"
++ "feedbackWillSendFeedbackSubmissionWithFeedbackText:emailAddress:screenshotURLs:"
++ "fileExistsAtPath:"
++ "generateFeedbackViewWithDelegate:"
++ "generateWhatToTestViewWithDelegate:"
++ "iconNeedsMask"
++ "iconUrlTemplate"
++ "init(coder:rootView:)"
++ "initWithCoder:"
++ "initWithContentsOfFile:"
++ "initWithImage:style:target:action:"
++ "initWithPath:"
++ "initWithTitle:subtitles:iconArtwork:iconNeedsMask:"
++ "interface"
++ "launchInfoForFeedbackPopulation"
++ "loadedPhotoURLs"
++ "localizedDisplayNames"
++ "numberWithBool:"
++ "performCancelActionWithSender:"
++ "performSubmitActionWithSender:"
++ "png"
++ "postNotificationName:object:userInfo:"
++ "preferredFontForTextStyle:"
++ "primaryLocaleKey"
++ "removeItemAtPath:error:"
++ "setBundleVersion:"
++ "setChildUIViewController:"
++ "setDeveloperName:"
++ "setIconNeedsMask:"
++ "setIconUrlTemplate:"
++ "setInterface:"
++ "setLocalizedDisplayNames:"
++ "setNavigationBarHidden:"
++ "setPrimaryLocaleKey:"
++ "setShortVersionString:"
++ "shortVersionString"
++ "showAppLockup:subtitles:imageTemplateURL:iconNeedsMask:"
++ "showHowToScreenWithTitle:subtitle:deviceImage:primaryButtonTitle:secondaryButtonTitle:"
++ "showTestNotesWithTitle:testNotesTitle:testNotesText:primaryButtonTitle:"
++ "standardUserDefaults"
++ "supportsSecureCoding"
++ "systemImageNamed:"
++ "tapOnButtonWith:"
++ "temporaryDirectory"
++ "testerEmailAddress"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textView:editMenuForTextInRanges:suggestedActions:"
++ "textView:shouldChangeTextInRanges:replacementText:"
++ "updateSubmitActionEnablementStateWithSender:"
++ "v24@0:8@\"<WhatToTestInterface>\"16"
++ "v24@0:8@\"<_TtP14TestFlightCore19WhatToTestInterface_>\"16"
++ "v24@0:8@\"NSCoder\"16"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32"
++ "v44@0:8@\"NSString\"16@\"NSArray\"24@\"NSString\"32B40"
++ "v44@0:8@16@24@32B40"
++ "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSString\"40"
++ "v56@0:8@\"NSString\"16@\"NSString\"24@\"UIImage\"32@\"NSString\"40@\"NSString\"48"
++ "v56@0:8@16@24@32@40@48"
++ "viewIsReadyWithInterface:"
++ "viewModel"
++ "writeToURL:atomically:"
++ "xmark.circle.fill"
+- "@\"TFFeedbackFormViewController\""
+- "@56@0:8@16@24@32@40@48"
+- "@64@0:8@16@24@32@40@48@56"
+- "LAUNCH_BUTTON_NEXT"
+- "Next"
+- "T@\"TFFeedbackFormViewController\",W,N,V_activeFormViewController"
+- "_animateLaunchScreenViewWithUpdateBlock:transition:"
+- "_lockupWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:"
+- "animateAlongsideTransition:completion:"
+- "animateWithDuration:animations:"
+- "begin"
+- "buildLaunchScreenWithAppName:shortVersionString:bundleVersionString:expirationDate:iconUrlTemplate:testerNotes:"
+- "commit"
+- "initWithTitle:subtitles:iconArtwork:"
+- "setCompletionBlock:"
+- "setUserInteractionEnabled:"
+- "transition"
+- "v16@?0@\"<UIViewControllerTransitionCoordinatorContext>\"8"
+- "v32@0:8@?16@24"
+- "v40@0:8{CGSize=dd}16@32"
+- "viewWillTransitionToSize:withTransitionCoordinator:"
+
+```

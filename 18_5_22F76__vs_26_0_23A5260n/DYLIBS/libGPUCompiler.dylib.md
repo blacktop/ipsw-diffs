@@ -1,0 +1,143 @@
+## libGPUCompiler.dylib
+
+> `/System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompiler.dylib`
+
+```diff
+
+-32023.621.0.0.0
+-  __TEXT.__text: 0x12cdc
+-  __TEXT.__auth_stubs: 0x930
++32023.821.0.0.0
++  __TEXT.__text: 0x1d300
++  __TEXT.__auth_stubs: 0xac0
+   __TEXT.__init_offsets: 0x4
++  __TEXT.__cstring: 0x1a75
+   __TEXT.__const: 0x48
+-  __TEXT.__cstring: 0x17ee
+-  __TEXT.__unwind_info: 0x350
++  __TEXT.__unwind_info: 0x480
+   __DATA_CONST.__got: 0x30
+-  __AUTH_CONST.__auth_got: 0x498
+-  __AUTH_CONST.__const: 0x290
++  __AUTH_CONST.__auth_got: 0x560
++  __AUTH_CONST.__const: 0x6b8
+   __DATA_DIRTY.__bss: 0x128
+   - /System/Library/PrivateFrameworks/GPUCompiler.framework/Libraries/libGPUCompilerImpl.dylib
+   - /usr/lib/libLLVM.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: 3D9B8C37-6F59-3A79-A9D6-2A466AAE1FBA
+-  Functions: 349
+-  Symbols:   329
+-  CStrings:  210
++  UUID: FA52BC93-6A2D-3DFB-9DED-6681A5708238
++  Functions: 476
++  Symbols:   370
++  CStrings:  249
+ 
+Symbols:
++ _LLVMExtraGetSymbolImplDecompressedSize
++ _LLVMExtraGetSymbolImplFlags
++ _LLVMExtraGetSymbolReflectionAddress
++ _LLVMExtraGetSymbolReflectionDecompressedSize
++ _LLVMExtraGetSymbolReflectionFlags
++ _LLVMExtraGetSymbolReflectionSize
++ _MTLGPUArchiverCompressAll
++ _MTLGPUArchiverCompressDescriptors
++ _MTLGPUArchiverCompressModules
++ _MTLGPUArchiverCompressNone
++ _MTLGPUArchiverCompressReflections
++ _MTLGPUArchiverCompressSources
++ _MTLGPUCompilerSetNativeArch
++ _MTLGPUCompilerSetRequiredThreadsPerThreadgroup
++ _MTLMetalLibCreateCoreImageWithTripleAndInstallName
++ _MTLMetalLibCreateExecutableWithTripleAndInstallName
++ __ZN4llvm11LLVMContextD1Ev
++ __ZN4llvm11raw_ostreamlsEl
++ __ZN4llvm20CrashRecoveryContext9RunSafelyENS_12function_refIFvvEEE
++ __ZN4llvm20CrashRecoveryContextC1Ev
++ __ZN4llvm20CrashRecoveryContextD1Ev
++ __ZN4llvm3air11MetalModuleC1ENSt3__110shared_ptrINS_6ModuleEEENS1_19MaterializationKindERNS_5ErrorE
++ __ZN4llvm3sys4path8filenameENS_9StringRefENS1_5StyleE
++ __ZN4llvm5MachOlsERNS_11raw_ostreamENS0_12ArchitectureE
++ __ZN4llvmlsERNS_11raw_ostreamERKNS_3air15UniversalBinaryE
++ __ZN4llvmlsERNS_11raw_ostreamERKNS_3air7ArchiveE
++ __ZN4llvmlsERNS_11raw_ostreamERKNS_3air8MetalLibE
++ __ZN7metalfe11GPUArchiver11addPipelineEjN4llvm8ArrayRefINS_16GPUArchiverIndexEEENS1_9StringRefERNS1_11raw_ostreamE
++ __ZN7metalfe11GPUArchiver11compressAllERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUArchiver12compressNoneERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUArchiver15compressModulesERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUArchiver15compressSourcesERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUArchiver19compressDescriptorsERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUArchiver19compressReflectionsERN4llvm11raw_ostreamE
++ __ZN7metalfe11GPUCompiler12stitchToFileERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_9StringRefENS1_8ArrayRefINSD_IhEEEERNS1_11raw_ostreamERNS1_17raw_pwrite_streamE
++ __ZN7metalfe11GPUCompiler13setNativeArchEN4llvm5MachO12ArchitectureE
++ __ZN7metalfe11GPUCompiler14stitchToBufferERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_9StringRefENS1_8ArrayRefINSD_IhEEEERNS1_11raw_ostreamE
++ __ZN7metalfe11GPUCompiler18specializeFunctionERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefESE_NSA_IhEEbRNS1_11raw_ostreamE
++ __ZN7metalfe11GPUCompiler24specializeFunctionToFileERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefESE_NSA_IhEERNS1_11raw_ostreamERNS1_17raw_pwrite_streamE
++ __ZN7metalfe11GPUCompiler26specializeFunctionToBufferERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefESE_NSA_IhEERNS1_11raw_ostreamE
++ __ZN7metalfe11GPUCompiler6stitchERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_9StringRefENS1_8ArrayRefINSD_IhEEEEbRNS1_11raw_ostreamE
++ __ZNK4llvm5Value5printERNS_11raw_ostreamEb
++ __ZNK4llvm6Module5printERNS_11raw_ostreamEPNS_24AssemblyAnnotationWriterEbb
++ __ZNK4llvm6object18MetalLibObjectFile18getSymbolImplFlagsENS0_11DataRefImplE
++ __ZNK4llvm6object18MetalLibObjectFile23getSymbolReflectionSizeENS0_11DataRefImplE
++ __ZNK4llvm6object18MetalLibObjectFile24getSymbolReflectionFlagsENS0_11DataRefImplE
++ __ZNK4llvm6object18MetalLibObjectFile26getSymbolReflectionAddressENS0_11DataRefImplE
++ __ZNK4llvm6object18MetalLibObjectFile29getSymbolImplDecompressedSizeENS0_11DataRefImplE
++ __ZNK4llvm6object18MetalLibObjectFile35getSymbolReflectionDecompressedSizeENS0_11DataRefImplE
++ __ZNK4llvm6object6Binary11getFileNameEv
++ __ZNK4llvm6object6Binary7getDataEv
+- __ZN4llvm3air11MetalModule11materializeENSt3__110shared_ptrINS_6ModuleEEENS1_19MaterializationKindE
+- __ZN4llvm3air11MetalModule9serializeENSt3__110shared_ptrINS_6ModuleEEE
+- __ZN7metalfe11GPUArchiver11addPipelineEjN4llvm8ArrayRefINS_16GPUArchiverIndexEEERNS1_11raw_ostreamE
+- __ZN7metalfe11GPUCompiler12stitchToFileERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_8ArrayRefINSC_IhEEEERNS1_11raw_ostreamERNS1_17raw_pwrite_streamE
+- __ZN7metalfe11GPUCompiler14stitchToBufferERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_8ArrayRefINSC_IhEEEERNS1_11raw_ostreamE
+- __ZN7metalfe11GPUCompiler18specializeFunctionERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefENSA_IhEEbRNS1_11raw_ostreamE
+- __ZN7metalfe11GPUCompiler24specializeFunctionToFileERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefENSA_IhEERNS1_11raw_ostreamERNS1_17raw_pwrite_streamE
+- __ZN7metalfe11GPUCompiler26specializeFunctionToBufferERN4llvm11LLVMContextENSt3__110unique_ptrINS1_6ModuleENS4_14default_deleteIS6_EEEENS1_8ArrayRefINS1_3air4BindEEENS1_9StringRefENSA_IhEERNS1_11raw_ostreamE
+- __ZN7metalfe11GPUCompiler6stitchERN4llvm11LLVMContextENS1_15MutableArrayRefINSt3__110unique_ptrINS1_6ModuleENS5_14default_deleteIS7_EEEEEENS1_8ArrayRefINSC_IhEEEEbRNS1_11raw_ostreamE
+- __Znwm
+CStrings:
++ ".ll"
++ "0123456789ABCDEF"
++ ":"
++ "<"
++ ">"
++ "Arch"
++ "BuildLog"
++ "CompileLog"
++ "Ctx"
++ "DebugMode"
++ "FCValues"
++ "FD"
++ "GPUCC"
++ "HintedModuleSignature"
++ "LinkLog"
++ "MTLGPUArchiverCompressAll"
++ "MTLGPUArchiverCompressDescriptors"
++ "MTLGPUArchiverCompressModules"
++ "MTLGPUArchiverCompressNone"
++ "MTLGPUArchiverCompressReflections"
++ "MTLGPUArchiverCompressSources"
++ "MTLGPUCompilerSetNativeArch"
++ "MTLGPUCompilerSetRequiredThreadsPerThreadgroup"
++ "MTLMetalLibCreateCoreImageWithTripleAndInstallName"
++ "MTLMetalLibCreateExecutableWithTripleAndInstallName"
++ "Module"
++ "NumObjects"
++ "Objects"
++ "OutMemBuf"
++ "OutMetalLib"
++ "OutModule"
++ "OutObject"
++ "PLEASE submit a bug report to https://developer.apple.com/bug-reporting/ and include the crash backtrace and all files referenced by `APITracker`.\n"
++ "ShouldClose"
++ "SpecializeLog"
++ "SpecializedFunctionName"
++ "SpecializedLibraryInstallName"
++ "Triple"
++ "Unbuffered"
++ "true"
+- "PLEASE submit a bug report to http://developer.apple.com/bugreporter/ and include the crash backtrace and all files referenced by `APITracker`.\n"
+
+```

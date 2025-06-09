@@ -1,0 +1,2044 @@
+## AppIntents
+
+> `/System/Library/Frameworks/AppIntents.framework/AppIntents`
+
+```diff
+
+-227.19.0.0.0
+-  __TEXT.__text: 0x3bc068
+-  __TEXT.__auth_stubs: 0x3440
+-  __TEXT.__objc_methlist: 0x134c
++248.4.0.0.0
++  __TEXT.__text: 0x406c44
++  __TEXT.__auth_stubs: 0x38e0
++  __TEXT.__objc_methlist: 0x13e0
+   __TEXT.__dlopen_cstrs: 0x9a
+-  __TEXT.__cstring: 0x72f1
+-  __TEXT.__swift5_typeref: 0xfa62
+-  __TEXT.__const: 0x26818
+-  __TEXT.__constg_swiftt: 0x10450
+-  __TEXT.__swift5_builtin: 0x44c
+-  __TEXT.__swift5_reflstr: 0x740b
+-  __TEXT.__swift5_fieldmd: 0x9ad8
+-  __TEXT.__swift5_assocty: 0x3c68
+-  __TEXT.__swift5_proto: 0x1f00
+-  __TEXT.__swift5_types: 0xb64
+-  __TEXT.__swift5_protos: 0x400
+-  __TEXT.__swift_as_entry: 0x1070
+-  __TEXT.__oslogstring: 0x3fe5
+-  __TEXT.__swift5_capture: 0x3bac
+-  __TEXT.__swift_as_ret: 0x11dc
+-  __TEXT.__swift5_mpenum: 0x12c
++  __TEXT.__cstring: 0x7a8e
++  __TEXT.__swift5_typeref: 0x11246
++  __TEXT.__const: 0x28408
++  __TEXT.__constg_swiftt: 0x111dc
++  __TEXT.__swift5_builtin: 0x488
++  __TEXT.__swift5_reflstr: 0x78ab
++  __TEXT.__swift5_fieldmd: 0x9f74
++  __TEXT.__swift5_assocty: 0x4128
++  __TEXT.__swift5_proto: 0x205c
++  __TEXT.__swift5_types: 0xbd4
++  __TEXT.__swift5_protos: 0x450
++  __TEXT.__swift_as_entry: 0x1120
++  __TEXT.__oslogstring: 0x4324
++  __TEXT.__swift5_capture: 0x3bd0
++  __TEXT.__swift_as_ret: 0x12ac
++  __TEXT.__swift5_mpenum: 0x16c
+   __TEXT.__gcc_except_tab: 0x1d4
+-  __TEXT.__unwind_info: 0x10bf8
+-  __TEXT.__eh_frame: 0x21ca8
++  __TEXT.__unwind_info: 0x10f80
++  __TEXT.__eh_frame: 0x23354
+   __TEXT.__objc_classname: 0x2bc
+-  __TEXT.__objc_methname: 0x8017
+-  __TEXT.__objc_methtype: 0x161b
+-  __TEXT.__objc_stubs: 0x1160
+-  __DATA_CONST.__got: 0x17f8
+-  __DATA_CONST.__const: 0x1a50
+-  __DATA_CONST.__objc_classlist: 0x1f0
++  __TEXT.__objc_methname: 0x6c3b
++  __TEXT.__objc_methtype: 0x1713
++  __TEXT.__objc_stubs: 0x11c0
++  __DATA_CONST.__got: 0x1388
++  __DATA_CONST.__const: 0x1b28
++  __DATA_CONST.__objc_classlist: 0x200
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xf8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2a50
++  __DATA_CONST.__objc_selrefs: 0x1f68
+   __DATA_CONST.__objc_protorefs: 0x60
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x1a30
+-  __AUTH_CONST.__const: 0x18a98
++  __AUTH_CONST.__auth_got: 0x1c80
++  __AUTH_CONST.__const: 0x19620
+   __AUTH_CONST.__cfstring: 0x1e0
+-  __AUTH_CONST.__objc_const: 0x4a08
+-  __AUTH.__objc_data: 0x8f0
+-  __AUTH.__data: 0x6c98
+-  __DATA.__objc_ivar: 0x60
+-  __DATA.__data: 0xe278
+-  __DATA.__bss: 0x2e950
+-  __DATA.__common: 0x1d8
+-  __DATA_DIRTY.__objc_data: 0x3d0
+-  __DATA_DIRTY.__data: 0x4ab0
+-  __DATA_DIRTY.__bss: 0x68e0
+-  __DATA_DIRTY.__common: 0x100
++  __AUTH_CONST.__objc_const: 0x4ce8
++  __AUTH.__objc_data: 0x800
++  __AUTH.__data: 0x7358
++  __DATA.__objc_ivar: 0x68
++  __DATA.__data: 0xc690
++  __DATA.__bss: 0x2f8f0
++  __DATA.__common: 0x180
++  __DATA_DIRTY.__objc_data: 0x478
++  __DATA_DIRTY.__data: 0x4bf8
++  __DATA_DIRTY.__bss: 0x7950
++  __DATA_DIRTY.__common: 0x198
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/RelevanceKit.framework/RelevanceKit
+   - /System/Library/PrivateFrameworks/AudioSession.framework/AudioSession
+   - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
+
+   - /System/Library/PrivateFrameworks/UIIntelligenceSupport.framework/UIIntelligenceSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 463805B0-A40E-3D4B-A266-B8AA9AA787FF
+-  Functions: 26490
+-  Symbols:   24013
+-  CStrings:  2727
++  UUID: 9FFF07EC-52BB-3D06-A3CC-ADBEE67DFCB5
++  Functions: 28294
++  Symbols:   24785
++  CStrings:  2441
+ 
+Symbols:
++ -[LNClientConnection clientConnectionQueue]
++ -[LNClientConnection linkAppUndoManager:completionHandler:]
++ -[LNConnectionListener clientConnectionQueue]
++ -[LNConnectionListener initWithListener:clientConnectionQueue:]
++ -[LNExtensionConnectionHandler connectionListener]
++ -[LNPerformActionOperation requestChoice:completionHandler:]
++ GCC_except_table204
++ GCC_except_table208
++ GCC_except_table217
++ GCC_except_table220
++ GCC_except_table222
++ GCC_except_table49
++ _OBJC_CLASS_$_CSCustomAttributeKey
++ _OBJC_CLASS_$_LNActionConstraint
++ _OBJC_CLASS_$_LNChoiceOption
++ _OBJC_CLASS_$_LNChoiceRequest
++ _OBJC_CLASS_$_LNChoiceResponse
++ _OBJC_CLASS_$_LNCodableValueType
++ _OBJC_CLASS_$_LNNullValueType
++ _OBJC_CLASS_$_LNSystemEntityValueType
++ _OBJC_CLASS_$_NSDateIntervalFormatter
++ _OBJC_CLASS_$_NSMutableAttributedString
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_IVAR_$_LNConnectionListener._clientConnectionQueue
++ _OBJC_IVAR_$_LNExtensionConnectionHandler._connectionListener
++ __DATA__TtC10AppIntents14PreparedIntent
++ __DATA__TtC10AppIntents16UndoManagerCache
++ __DATA__TtCV10AppIntents18IntentChoiceOptionP33_F4265390D005A2206C35690A66FB38532__
++ __DATA__TtCV10AppIntents19_IntentChoiceOptionP33_C43F6F80038C86216AF3ED0BD21F33412__
++ __IVARS__TtC10AppIntents11AsyncSignal
++ __IVARS__TtC10AppIntents14PreparedIntent
++ __IVARS__TtC10AppIntents16UndoManagerCache
++ __IVARS__TtCC10AppIntents11AsyncSignal6Waiter
++ __METACLASS_DATA__TtC10AppIntents14PreparedIntent
++ __METACLASS_DATA__TtC10AppIntents16UndoManagerCache
++ __METACLASS_DATA__TtCV10AppIntents18IntentChoiceOptionP33_F4265390D005A2206C35690A66FB38532__
++ __METACLASS_DATA__TtCV10AppIntents19_IntentChoiceOptionP33_C43F6F80038C86216AF3ED0BD21F33412__
++ __OBJC_$_INSTANCE_METHODS_LNAppContext(AppIntents|AppIntents1|AppIntents2|AppIntents3|AppIntents4|AppIntents5|AppIntents6|AppIntents7|AppIntents8|AppIntents9|AppIntents10|AppIntents11|AppIntents12|AppIntents13|AppIntents14|AppIntents15|AppIntents16|AppIntents17|AppIntents18|AppIntents19|AppIntents20|AppIntents21|AppIntents22|AppIntents23|AppIntents24)
++ __PROTOCOLS_LNPerformActionExecutorDelegateProxy.21
++ ___58-[LNExtensionConnectionHandler shouldAcceptXPCConnection:]_block_invoke.13
++ ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke
++ ___59-[LNClientConnection linkAppUndoManager:completionHandler:]_block_invoke_2
++ ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e20_v24?08"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e27_v24?0"NSURL"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e29_v24?0"LNValue"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e30_v24?0"LNAction"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSString"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e35_v24?0"LNQueryOutput"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e37_v24?0"LNSuccessResult"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e44_v24?0"LNDynamicOptionsResult"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e45_v24?0"LNAppShortcutActionData"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e46_v24?0"LNAsyncIteratorReference"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40bs_e52_v24?0"LNXPCListenerEndpointContainer"8"NSError"16ls40l8s32l8
++ ___swift_allocate_boxed_opaque_existential_3
++ ___swift_coroFrameAllocStub
++ ___swift_deallocate_boxed_opaque_existential_1Tm
++ ___swift_destroy_boxed_opaque_existential_3
++ ___swift_get_extra_inhabitant_index.17Tm
++ ___swift_get_extra_inhabitant_index.64Tm
++ ___swift_project_boxed_opaque_existential_3
++ ___swift_store_extra_inhabitant_index.18Tm
++ ___swift_store_extra_inhabitant_index.65Tm
++ ___unnamed_13
++ ___unnamed_14
++ ___unnamed_15
++ ___unnamed_16
++ ___unnamed_17
++ ___unnamed_21
++ ___unnamed_22
++ ___unnamed_23
++ ___unnamed_25
++ ___unnamed_31
++ ___unnamed_39
++ ___unnamed_42
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_AppIntents
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_AppIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AppIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AppIntents
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AppIntents
++ _associated conformance 10AppIntents016CodableFromBoxedC19IntentValueResolverVyxGAA0H0AA5InputAaEP_AA01_fG0
++ _associated conformance 10AppIntents016CodableFromBoxedC19IntentValueResolverVyxGAA0H0AA6OutputAaEP_AA01_fG0
++ _associated conformance 10AppIntents016CodableFromBoxedC19IntentValueResolverVyxGSHAASQ
++ _associated conformance 10AppIntents01_A16IntentConstraintVyxGAA01_D11ConvertibleAA0C0AaEP_AA0aC0
++ _associated conformance 10AppIntents020StringFromAttributedC8ResolverVAA0F0AA5InputAaDP_AA12_IntentValue
++ _associated conformance 10AppIntents020StringFromAttributedC8ResolverVAA0F0AA6OutputAaDP_AA12_IntentValue
++ _associated conformance 10AppIntents020StringFromAttributedC8ResolverVSHAASQ
++ _associated conformance 10AppIntents09TransientA30EntityConvertibleArrayResolverVyxGAA0G0AA5InputAaEP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA30EntityConvertibleArrayResolverVyxGAA0G0AA6OutputAaEP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA30EntityConvertibleArrayResolverVyxGSHAASQ
++ _associated conformance 10AppIntents09TransientA35EntityConvertibleSingleItemResolverVyxGAA0H0AA5InputAaEP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA35EntityConvertibleSingleItemResolverVyxGAA0H0AA6OutputAaEP_AA12_IntentValue
++ _associated conformance 10AppIntents09TransientA35EntityConvertibleSingleItemResolverVyxGSHAASQ
++ _associated conformance 10AppIntents0A22EntityQueryReferenceV1V10ContainingOyx_GSHAASQ
++ _associated conformance 10AppIntents0A22EntityQueryReferenceV1VyxGAA12_IntentValueAA0H4TypeAaEP_AaE
++ _associated conformance 10AppIntents0A22EntityQueryReferenceV1VyxGAA12_IntentValueAA13SpecificationAaEP_AA08ResolverI0
++ _associated conformance 10AppIntents0A22EntityQueryReferenceV1VyxGAA12_IntentValueAA13UnwrappedTypeAaEP_AaE
++ _associated conformance 10AppIntents0A23IntentConstraintBuilderO12DiscoverableVyx_GAA01_D11ConvertibleAA0C0AaGP_AA0aC0
++ _associated conformance 10AppIntents0A23IntentConstraintBuilderO7EnabledVyx_GAA01_D11ConvertibleAA0C0AaGP_AA0aC0
++ _associated conformance 10AppIntents11IntentModesV14ForegroundModeV7Storage33_31215836371C3F79E31DE6F69913C259LLOSHAASQ
++ _associated conformance 10AppIntents11IntentModesV14ForegroundModeVSHAASQ
++ _associated conformance 10AppIntents11IntentModesV7CurrentV7Storage33_31215836371C3F79E31DE6F69913C259LLOSHAASQ
++ _associated conformance 10AppIntents11IntentModesV7CurrentVSHAASQ
++ _associated conformance 10AppIntents11IntentModesVSHAASQ
++ _associated conformance 10AppIntents11IntentModesVs10SetAlgebraAASQ
++ _associated conformance 10AppIntents11IntentModesVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 10AppIntents11IntentModesVs9OptionSetAASY
++ _associated conformance 10AppIntents11IntentModesVs9OptionSetAAs0F7Algebra
++ _associated conformance 10AppIntents12IntentOriginOAA01_C5ValueAA0E4TypeAaDP_AaD
++ _associated conformance 10AppIntents12IntentOriginOAA01_C5ValueAA13SpecificationAaDP_AA08ResolverF0
++ _associated conformance 10AppIntents12IntentOriginOAA01_C5ValueAA13UnwrappedTypeAaDP_AaD
++ _associated conformance 10AppIntents12IntentOriginOSHAASQ
++ _associated conformance 10AppIntents12IntentPersonV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
++ _associated conformance 10AppIntents14PreparedIntentCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 10AppIntents15DecodingContextV0cD5Error33_48A42CB49BDB303BAB119033E5EA89CDLLOSHAASQ
++ _associated conformance 10AppIntents18EmptySnippetIntentV0cD6Result33_46D07F4F76A172B7AED76DC5E640ABEBLLVAA0eF0AA05OpensaE0AaGP_AA0aE0
++ _associated conformance 10AppIntents18EmptySnippetIntentV0cD6Result33_46D07F4F76A172B7AED76DC5E640ABEBLLVAA0eF0AA5ValueAaGP_AA01_eP0
++ _associated conformance 10AppIntents18EmptySnippetIntentVAA0aE0AA13PerformResultAaDP_AA0eG0
++ _associated conformance 10AppIntents18EmptySnippetIntentVAA0aE0AA14SummaryContentAaDP_AA09ParameterF0
++ _associated conformance 10AppIntents18EmptySnippetIntentVAA0dE0AA13PerformResultAA0aE0P_AA05ShowsD4View
++ _associated conformance 10AppIntents18IntentChoiceOptionV5StyleV01_F033_F4265390D005A2206C35690A66FB3853LLOSHAASQ
++ _associated conformance 10AppIntents18IntentChoiceOptionV5StyleVSHAASQ
++ _associated conformance 10AppIntents18SnippetIntentErrorOSHAASQ
++ _associated conformance 10AppIntents19IntentSystemContextV23ActionExecutionPriorityOSHAASQ
++ _associated conformance 10AppIntents19IntentSystemContextV23ActionExecutionPriorityOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10AppIntents19IntentSystemContextV4KindOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10AppIntents19IntentSystemContextV6SourceOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 10AppIntents19_IntentChoiceOptionV5StyleV01_F033_C43F6F80038C86216AF3ED0BD21F3341LLOSHAASQ
++ _associated conformance 10AppIntents19_IntentChoiceOptionV5StyleVSHAASQ
++ _associated conformance 10AppIntents20LinkUndoManagerError33_E1F9FBF3CB53AF35B4773DD4F199077CLLO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 10AppIntents20LinkUndoManagerError33_E1F9FBF3CB53AF35B4773DD4F199077CLLOSHAASQ
++ _associated conformance 10AppIntents22BoxedSystemIntentValueVAA01_eF0AA0F4TypeAaDP_AaD
++ _associated conformance 10AppIntents22BoxedSystemIntentValueVAA01_eF0AA13SpecificationAaDP_AA08ResolverG0
++ _associated conformance 10AppIntents22BoxedSystemIntentValueVAA01_eF0AA13UnwrappedTypeAaDP_AaD
++ _associated conformance 10AppIntents23BoxedCodableIntentValueVAA01_eF0AA0F4TypeAaDP_AaD
++ _associated conformance 10AppIntents23BoxedCodableIntentValueVAA01_eF0AA13SpecificationAaDP_AA08ResolverG0
++ _associated conformance 10AppIntents23BoxedCodableIntentValueVAA01_eF0AA13UnwrappedTypeAaDP_AaD
++ _associated conformance 10AppIntents23EntityPropertyModifiersVs10SetAlgebraAASQ
++ _associated conformance 10AppIntents23EntityPropertyModifiersVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 10AppIntents23EntityPropertyModifiersVs9OptionSetAASY
++ _associated conformance 10AppIntents23EntityPropertyModifiersVs9OptionSetAAs0G7Algebra
++ _associated conformance 10AppIntents26_IntentPhotoItemCollectionV12PickerFilterOSHAASQ
++ _associated conformance 10AppIntents28IntentStandardRepresentationVyxq_G16CoreTransferable08TransferE0AA4BodyAeFP_AeF
++ _associated conformance 10AppIntents28IntentStandardRepresentationVyxq_G16CoreTransferable08TransferE0AA4ItemAeFP_AE0G0
++ _associated conformance 10AppIntents30EntityFromIntentPersonResolverVyxGAA0G0AA5InputAaEP_AA01_E5Value
++ _associated conformance 10AppIntents30EntityFromIntentPersonResolverVyxGAA0G0AA6OutputAaEP_AA01_E5Value
++ _associated conformance 10AppIntents30EntityFromIntentPersonResolverVyxGSHAASQ
++ _associated conformance 10AppIntents31ParameterSummarySwitchConditionV6OriginOyxq_q0__GSHAASQ
++ _associated conformance 10AppIntents37EntitiesFromIntentPersonArrayResolverVyxGAA0H0AA5InputAaEP_AA01_E5Value
++ _associated conformance 10AppIntents37EntitiesFromIntentPersonArrayResolverVyxGAA0H0AA6OutputAaEP_AA01_E5Value
++ _associated conformance 10AppIntents37EntitiesFromIntentPersonArrayResolverVyxGSHAASQ
++ _associated conformance 10AppIntents40EntityFromBoxedSystemIntentValueResolverVyxGAA0I0AA5InputAaEP_AA01_gH0
++ _associated conformance 10AppIntents40EntityFromBoxedSystemIntentValueResolverVyxGAA0I0AA6OutputAaEP_AA01_gH0
++ _associated conformance 10AppIntents40EntityFromBoxedSystemIntentValueResolverVyxGSHAASQ
++ _associated conformance 10AppIntents41EntityFromBoxedCodableIntentValueResolverVyxGAA0I0AA5InputAaEP_AA01_gH0
++ _associated conformance 10AppIntents41EntityFromBoxedCodableIntentValueResolverVyxGAA0I0AA6OutputAaEP_AA01_gH0
++ _associated conformance 10AppIntents41EntityFromBoxedCodableIntentValueResolverVyxGSHAASQ
++ _associated conformance 10AppIntents44CodablesFromBoxedCodableIntentValuesResolverVyxGAA0I0AA5InputAaEP_AA01_G5Value
++ _associated conformance 10AppIntents44CodablesFromBoxedCodableIntentValuesResolverVyxGAA0I0AA6OutputAaEP_AA01_G5Value
++ _associated conformance 10AppIntents44CodablesFromBoxedCodableIntentValuesResolverVyxGSHAASQ
++ _associated conformance 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverVyxGAA0J0AA5InputAaEP_AA01_gH0
++ _associated conformance 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverVyxGAA0J0AA6OutputAaEP_AA01_gH0
++ _associated conformance 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverVyxGSHAASQ
++ _associated conformance 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverVyxGAA0J0AA5InputAaEP_AA01_gH0
++ _associated conformance 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverVyxGAA0J0AA6OutputAaEP_AA01_gH0
++ _associated conformance 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverVyxGSHAASQ
++ _associated conformance 10Foundation12DateIntervalV10AppIntents12_IntentValueAD0G4TypeAdEP_AdE
++ _associated conformance 10Foundation12DateIntervalV10AppIntents12_IntentValueAD13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 10Foundation12DateIntervalV10AppIntents12_IntentValueAD13UnwrappedTypeAdEP_AdE
++ _associated conformance 10Foundation12DateIntervalV10AppIntentsE0bC18FromStringResolverVAD0H0AD5InputAdGP_AD12_IntentValue
++ _associated conformance 10Foundation12DateIntervalV10AppIntentsE0bC18FromStringResolverVAD0H0AD6OutputAdGP_AD12_IntentValue
++ _associated conformance 10Foundation12DateIntervalV10AppIntentsE0bC18FromStringResolverVSHADSQ
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntents12_IntentValueAD0H4TypeAdEP_AdE
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntents12_IntentValueAD13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntents12_IntentValueAD13UnwrappedTypeAdEP_AdE
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntentsE0bcD18FromStringResolverVAD0I0AD5InputAdGP_AD12_IntentValue
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntentsE0bcD18FromStringResolverVAD0I0AD6OutputAdGP_AD12_IntentValue
++ _associated conformance 10Foundation20PersonNameComponentsV10AppIntentsE0bcD18FromStringResolverVSHADSQ
++ _associated conformance s8DurationV10AppIntents12_IntentValueAC0E4TypeAcDP_AcD
++ _associated conformance s8DurationV10AppIntents12_IntentValueAC13SpecificationAcDP_AC08ResolverF0
++ _associated conformance s8DurationV10AppIntents12_IntentValueAC13UnwrappedTypeAcDP_AcD
++ _associated conformance s8DurationV10AppIntentsE0A18FromStringResolverVAC0F0AC5InputAcFP_AC12_IntentValue
++ _associated conformance s8DurationV10AppIntentsE0A18FromStringResolverVAC0F0AC6OutputAcFP_AC12_IntentValue
++ _associated conformance s8DurationV10AppIntentsE0A18FromStringResolverVSHACSQ
++ _block_copy_helper.111
++ _block_copy_helper.126
++ _block_copy_helper.132
++ _block_copy_helper.147
++ _block_copy_helper.162
++ _block_copy_helper.177
++ _block_copy_helper.192
++ _block_copy_helper.22
++ _block_copy_helper.42
++ _block_copy_helper.96
++ _block_descriptor.113
++ _block_descriptor.128
++ _block_descriptor.134
++ _block_descriptor.149
++ _block_descriptor.164
++ _block_descriptor.179
++ _block_descriptor.194
++ _block_descriptor.24
++ _block_descriptor.44
++ _block_descriptor.98
++ _block_destroy_helper.112
++ _block_destroy_helper.127
++ _block_destroy_helper.133
++ _block_destroy_helper.148
++ _block_destroy_helper.163
++ _block_destroy_helper.178
++ _block_destroy_helper.193
++ _block_destroy_helper.23
++ _block_destroy_helper.43
++ _block_destroy_helper.97
++ _default assoc type 11ResultValue______0B4Type_____QZ 10AppIntents16IntentValueQueryP AA01_cD0P
++ _default assoc type Say11ResultValue_____QzG 10AppIntents16IntentValueQueryP
++ _default associated conformance6Result10AppIntents16IntentValueQueryP_AB17ResultsCollection
++ _dispatch_queue_attr_make_with_qos_class
++ _dispatch_queue_create
++ _generic environment 10AppIntents0A6IntentRzAA012_ConstrainedC0Rd__r__l
++ _generic environment SeRzSERzl
++ _get_enum_tag_for_layout_string 10AppIntents0A22EntityQueryReferenceV1V7Storage33_6218A5C089F403ACDE63173EE426AD88LLOyx_G
++ _get_enum_tag_for_layout_string 10AppIntents14EntityPropertyC13GetterStorageOyx_G
++ _get_enum_tag_for_layout_string 10AppIntents34RequestDisambiguationCallbackValueO
++ _get_enum_tag_for_layout_string xq_s5Error_pRi_zRi0_zRi__Ri0__r0_lyq_xIseghHnrzo_Sg
++ _get_type_metadata 15Synchronization5MutexVy10AppIntents12IntentResult_pAD0cE0_pYaYbKcSgG.3
++ _get_type_metadata 15Synchronization5MutexVySDySOypGG.16
++ _get_type_metadata 15Synchronization5MutexVySay10AppIntents19UndoManagerProvider_pGG.14
++ _get_type_metadata s8SendableRzs5ErrorR_r0_l15Synchronization5MutexVy10AppIntents11AsyncSignalC5StateOyxq__GG.4
++ _get_witness_table 10AppIntents0A6EntityRzlAA26EmptyResolverSpecificationVyxGAA0eF0HPyHC.16
++ _get_witness_table 10AppIntents0A6IntentRzlAA0C16ParameterSummaryVyxGAA0dE0HPyHC.40
++ _get_witness_table 10AppIntents18EmptySnippetIntentV0cD6Result33_46D07F4F76A172B7AED76DC5E640ABEBLLVAA05ShowsD4ViewHPyHC.12
++ _get_witness_table 10AppIntents26EmptyResolverSpecificationVyAA22BoxedSystemIntentValueVGAA0dE0HPyHC.15
++ _get_witness_table 10AppIntents26EmptyResolverSpecificationVyAA23BoxedCodableIntentValueVGAA0dE0HPyHC.7
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy10Foundation12DateIntervalV_A2hAE0gh10FromStringC0V_QPGAA0cD0HPyHC.8
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vy10Foundation20PersonNameComponentsV_A2hAE0ghi10FromStringC0V_QPGAA0cD0HPyHC.6
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0VySS_SSAA013StringFromIntC0VySiSSG_AGySaySiGSSGAA0fg6DoubleC0VAA0fg10AttributedfC0VQPGAA0cD0HPyHC.26
++ _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0Vys8DurationV_A2gAE0f10FromStringC0V_QPGAA0cD0HPyHC.7
++ _get_witness_table 10AppIntents28TargetContentProvidingIntentRzlAA0F15ResultContainerVys5NeverOA3FGAA0fG0HPyHC.1
++ _get_witness_table 16CoreTransferable0B0Rzs8SendableRz10AppIntents12_IntentValueR_sACR_r0_lAA27TupleTransferRepresentationVyxAA04DataJ0VyxG_AJtGAA0iJ0HPyHC.9
++ _get_witness_table 16CoreTransferable21CodableRepresentationVy10AppIntents12IntentPersonV10Foundation11JSONEncoderCAG11JSONDecoderCGAA08TransferD0HPyHC.41
++ _objc_msgSend$clientConnectionQueue
++ _objc_msgSend$initWithListener:clientConnectionQueue:
++ _objc_msgSend$linkUndoManager:completionHandler:
++ _objc_msgSend$requestChoice:completionHandler:
++ _objectdestroy.18Tm
++ _objectdestroy.34Tm
++ _objectdestroy.46Tm
++ _objectdestroy.554Tm
++ _objectdestroy.557Tm
++ _objectdestroy.560Tm
++ _objectdestroy.803Tm
++ _swift_coroFrameAlloc
++ _swift_setAtWritableKeyPath
++ _swift_task_localValuePop
++ _swift_task_localValuePush
++ _symbolic $s10AppIntents09TransientA28EntityConvertibleIntentValueP
++ _symbolic $s10AppIntents09TransientA41EntityConvertibleCollectionValueEncodableP
++ _symbolic $s10AppIntents0A18ViewBridgeInternalP
++ _symbolic $s10AppIntents0A30ViewBridgeProvidingUndoManagerP
++ _symbolic $s10AppIntents13SnippetIntentP
++ _symbolic $s10AppIntents14AnyMeasurementP
++ _symbolic $s10AppIntents14UndoableIntentP
++ _symbolic $s10AppIntents15_PreparedIntent33_66767C99642F0349F62CD84DF6880010LLP
++ _symbolic $s10AppIntents16AssistantSchemasO12MessagesEnumP
++ _symbolic $s10AppIntents16AssistantSchemasO14MessagesEntityP
++ _symbolic $s10AppIntents16AssistantSchemasO14MessagesIntentP
++ _symbolic $s10AppIntents16IntentValueQueryP
++ _symbolic $s10AppIntents18ShowsSnippetIntentP
++ _symbolic $s10AppIntents18_ConstrainedIntentP
++ _symbolic $s10AppIntents18_SystemIntentValueP
++ _symbolic $s10AppIntents19UndoManagerProviderP
++ _symbolic $s10AppIntents19_CodableIntentValueP
++ _symbolic $s10AppIntents20EntityUpdatingIntentP
++ _symbolic $s10AppIntents22_ConstraintConvertibleP
++ _symbolic $s10AppIntents23_ContextStageableEntityP
++ _symbolic $s10AppIntents28TargetContentProvidingIntentP
++ _symbolic $s10AppIntents31CodableCollectionValueEncodable33_DB871653A0BE3610934D06A2899C60FALLP
++ _symbolic $s10AppIntents34SystemIntentValueConvertibleEntityP
++ _symbolic $s16CoreTransferable0B0P
++ _symbolic $s16CoreTransferable22TransferRepresentationP
++ _symbolic 11ResultValue_____Qz 10AppIntents16IntentValueQueryP
++ _symbolic 5Input_____Qz 10AppIntents16IntentValueQueryP
++ _symbolic 6Entity_____Qz 10AppIntents09TransientA28EntityConvertibleIntentValueP
++ _symbolic 6Intent_____Qz 10AppIntents22_ConstraintConvertibleP
++ _symbolic 6Result_____Qz 10AppIntents16IntentValueQueryP
++ _symbolic 6Result_____Qz 10AppIntents34SystemIntentValueConvertibleEntityP
++ _symbolic 6Result______AA_____QZ 10AppIntents16IntentValueQueryP AA17ResultsCollectionP
++ _symbolic 6Stager_____Qz 10AppIntents23_ContextStageableEntityP
++ _symbolic 6Stager______6Entity_____QZ 10AppIntents23_ContextStageableEntityP AA01_C6StagerP
++ _symbolic 6Target_____Qz 10AppIntents20EntityUpdatingIntentP
++ _symbolic 6Target______9ValueType_____QZ 10AppIntents20EntityUpdatingIntentP AA01_E5ValueP
++ _symbolic G0R2_
++ _symbolic S2SSgSaySSGSo14LNEnumMetadataCSg______pSgIeggg_Ieggggg_ s5ErrorP
++ _symbolic S2SSgSaySSGSo15LNQueryMetadataCSg______pSgIeggg_Ieggggg_ s5ErrorP
++ _symbolic S2SSgSaySSGSo16LNActionMetadataCSg______pSgIeggg_Ieggggg_ s5ErrorP
++ _symbolic S2SSgSaySSGSo16LNEntityMetadataCSg______pSgIeggg_Ieggggg_ s5ErrorP
++ _symbolic SDySS_____G So15LNQueryMetadataC10AppIntentsE5QueryO
++ _symbolic SDy__________G 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC6RecordV
++ _symbolic SS______t 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic SS_ypt
++ _symbolic Say_____G 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic Say_____G 10AppIntents19IntentSystemContextV23ActionExecutionPriorityO
++ _symbolic Say_____G 10AppIntents19IntentSystemContextV4KindO
++ _symbolic Say_____G 10AppIntents19IntentSystemContextV6SourceO
++ _symbolic Say_____G 10AppIntents22BoxedSystemIntentValueV
++ _symbolic Say_____G 10AppIntents23BoxedCodableIntentValueV
++ _symbolic Say______pG 10AppIntents19UndoManagerProviderP
++ _symbolic Say_____y_____GG s14PartialKeyPathC 10AppIntents13OpenURLIntentV
++ _symbolic Say_____y_____GG s14PartialKeyPathC 10AppIntents14_OpenURLIntentV
++ _symbolic Say_____yyt______p_GG 10AppIntents11AsyncSignalC6WaiterC s5ErrorP
++ _symbolic SayypSgypcG
++ _symbolic SbxYac
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScTyyt_____G s5NeverO
++ _symbolic Sl_p
++ _symbolic So11NSPredicateC
++ _symbolic So15LNChoiceRequestCSo0A8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So16LNOpenURLRequestCSo0A11URLResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So18LNActionConstraintC
++ _symbolic So18LNCodableValueTypeC
++ _symbolic So19LNNeedsValueRequestCSo0aB8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So21LNConfirmationRequestCSo0A8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So22LNContinueInAppRequestCSo0abC8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So23LNDisambiguationRequestCSo0A8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So25NSMutableAttributedStringC
++ _symbolic So27LNActionConfirmationRequestCSo0aB8ResponseCSg______pSgIeghgg_Ieggg_ s5ErrorP
++ _symbolic So32_NSAuxiliaryUndoManagerReferenceC
++ _symbolic So8BSActionC
++ _symbolic _____ 10AppIntents016CodableFromBoxedC19IntentValueResolverV
++ _symbolic _____ 10AppIntents01_A16IntentConstraintV
++ _symbolic _____ 10AppIntents01_A16IntentConstraintV0A5StateV
++ _symbolic _____ 10AppIntents01_A16IntentConstraintV8BehaviorO
++ _symbolic _____ 10AppIntents020StringFromAttributedC8ResolverV
++ _symbolic _____ 10AppIntents09TransientA30EntityConvertibleArrayResolverV
++ _symbolic _____ 10AppIntents09TransientA35EntityConvertibleSingleItemResolverV
++ _symbolic _____ 10AppIntents0A22EntityQueryReferenceV1V
++ _symbolic _____ 10AppIntents0A22EntityQueryReferenceV1V10ContainingO
++ _symbolic _____ 10AppIntents0A22EntityQueryReferenceV1V7Storage33_6218A5C089F403ACDE63173EE426AD88LLO
++ _symbolic _____ 10AppIntents0A23IntentConstraintBuilderO
++ _symbolic _____ 10AppIntents0A23IntentConstraintBuilderO12DiscoverableV
++ _symbolic _____ 10AppIntents0A23IntentConstraintBuilderO7EnabledV
++ _symbolic _____ 10AppIntents11AsyncSignalC
++ _symbolic _____ 10AppIntents11AsyncSignalC5StateO
++ _symbolic _____ 10AppIntents11AsyncSignalC6WaiterC
++ _symbolic _____ 10AppIntents11IntentModesV
++ _symbolic _____ 10AppIntents11IntentModesV14ForegroundModeV
++ _symbolic _____ 10AppIntents11IntentModesV14ForegroundModeV7Storage33_31215836371C3F79E31DE6F69913C259LLO
++ _symbolic _____ 10AppIntents11IntentModesV7CurrentV
++ _symbolic _____ 10AppIntents11IntentModesV7CurrentV3KeyO
++ _symbolic _____ 10AppIntents11IntentModesV7CurrentV7Storage33_31215836371C3F79E31DE6F69913C259LLO
++ _symbolic _____ 10AppIntents12IntentOriginO
++ _symbolic _____ 10AppIntents14EntityPropertyC13GetterStorageO
++ _symbolic _____ 10AppIntents14PreparedIntentC
++ _symbolic _____ 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic _____ 10AppIntents15BSActionWrapperV
++ _symbolic _____ 10AppIntents15DecodingContextV
++ _symbolic _____ 10AppIntents15DecodingContextV0cD5Error33_48A42CB49BDB303BAB119033E5EA89CDLLO
++ _symbolic _____ 10AppIntents16UndoManagerCacheC
++ _symbolic _____ 10AppIntents16UndoManagerCacheC6RecordV
++ _symbolic _____ 10AppIntents18EmptySnippetIntentV
++ _symbolic _____ 10AppIntents18EmptySnippetIntentV0cD6Result33_46D07F4F76A172B7AED76DC5E640ABEBLLV
++ _symbolic _____ 10AppIntents18IntentChoiceOptionV
++ _symbolic _____ 10AppIntents18IntentChoiceOptionV2__33_F4265390D005A2206C35690A66FB3853LLC
++ _symbolic _____ 10AppIntents18IntentChoiceOptionV5StyleV
++ _symbolic _____ 10AppIntents18IntentChoiceOptionV5StyleV01_F033_F4265390D005A2206C35690A66FB3853LLO
++ _symbolic _____ 10AppIntents18SnippetIntentErrorO
++ _symbolic _____ 10AppIntents19IntentSystemContextV23ActionExecutionPriorityO
++ _symbolic _____ 10AppIntents19_IntentChoiceOptionV
++ _symbolic _____ 10AppIntents19_IntentChoiceOptionV2__33_C43F6F80038C86216AF3ED0BD21F3341LLC
++ _symbolic _____ 10AppIntents19_IntentChoiceOptionV5StyleV
++ _symbolic _____ 10AppIntents19_IntentChoiceOptionV5StyleV01_F033_C43F6F80038C86216AF3ED0BD21F3341LLO
++ _symbolic _____ 10AppIntents20LinkUndoManagerError33_E1F9FBF3CB53AF35B4773DD4F199077CLLO
++ _symbolic _____ 10AppIntents20SceneActionsProviderV
++ _symbolic _____ 10AppIntents22BoxedSystemIntentValueV
++ _symbolic _____ 10AppIntents23BoxedCodableIntentValueV
++ _symbolic _____ 10AppIntents23EntityPropertyModifiersV
++ _symbolic _____ 10AppIntents23_SnippetIntentContainerV
++ _symbolic _____ 10AppIntents26_IntentPhotoItemCollectionV12PickerFilterO
++ _symbolic _____ 10AppIntents28IntentStandardRepresentationV
++ _symbolic _____ 10AppIntents28IntentStandardRepresentationV6Errors33_5ED6F01CEDA5590B0BBCC8E7C345EC41LLO
++ _symbolic _____ 10AppIntents30EntityFromIntentPersonResolverV
++ _symbolic _____ 10AppIntents31ParameterSummarySwitchConditionV6OriginO
++ _symbolic _____ 10AppIntents37EntitiesFromIntentPersonArrayResolverV
++ _symbolic _____ 10AppIntents40EntityFromBoxedSystemIntentValueResolverV
++ _symbolic _____ 10AppIntents41EntityFromBoxedCodableIntentValueResolverV
++ _symbolic _____ 10AppIntents44CodablesFromBoxedCodableIntentValuesResolverV
++ _symbolic _____ 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverV
++ _symbolic _____ 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverV
++ _symbolic _____ 10Foundation12DateIntervalV
++ _symbolic _____ 10Foundation12DateIntervalV10AppIntentsE0bC18FromStringResolverV
++ _symbolic _____ 10Foundation20PersonNameComponentsV10AppIntentsE0bcD18FromStringResolverV
++ _symbolic _____ So15LNQueryMetadataC10AppIntentsE5QueryO
++ _symbolic _____ So8_NSRangeV
++ _symbolic _____ s8DurationV
++ _symbolic _____ s8DurationV10AppIntentsE0A18FromStringResolverV
++ _symbolic _____3key______5valuet 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC6RecordV
++ _symbolic _____3key______5valuetSg 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC6RecordV
++ _symbolic _____7message_t 10Foundation23LocalizedStringResourceV
++ _symbolic _____SayAAG______SgSo13LNViewSnippetCSgtYaYbKc 10AppIntents18IntentChoiceOptionV AA0C6DialogV
++ _symbolic _____Sg 10AppIntents14PreparedIntentC
++ _symbolic _____Sg 10AppIntents15DecodingContextV
++ _symbolic _____Sg 10AppIntents19IntentSystemContextV23ActionExecutionPriorityO
++ _symbolic _____Sg 10AppIntents22BoxedSystemIntentValueV
++ _symbolic _____Sg 10AppIntents23BoxedCodableIntentValueV
++ _symbolic _____Sg 10AppIntents23_SnippetIntentContainerV
++ _symbolic _____Sg_ABt 10AppIntents20MailMessagePrototypeV
++ _symbolic _____SgxYbc 10AppIntents16EntityIdentifierV
++ _symbolic _____XDXMT 10AppIntents16UndoManagerCacheC
++ _symbolic ______SeSEp 10AppIntents12_IntentValueP
++ _symbolic ___________SitYbc 10AppIntents33AsyncIntentValueSequenceContainerC8IteratorC AA01_cd4ItemH7OptionsV
++ _symbolic ___________pXp 10AppIntents11EntityQueryP AA011IntentValueD0P
++ _symbolic ______p 10AppIntents09TransientA28EntityConvertibleIntentValueP
++ _symbolic ______p 10AppIntents09TransientA41EntityConvertibleCollectionValueEncodableP
++ _symbolic ______p 10AppIntents13SnippetIntentP
++ _symbolic ______p 10AppIntents14AnyMeasurementP
++ _symbolic ______p 10AppIntents14UndoableIntentP
++ _symbolic ______p 10AppIntents16IntentValueQueryP
++ _symbolic ______p 10AppIntents19UndoManagerProviderP
++ _symbolic ______p 10AppIntents28TargetContentProvidingIntentP
++ _symbolic ______p 10AppIntents31CodableCollectionValueEncodable33_DB871653A0BE3610934D06A2899C60FALLP
++ _symbolic ______p 10AppIntents34SystemIntentValueConvertibleEntityP
++ _symbolic ______pSg 10AppIntents09TransientA28EntityConvertibleIntentValueP
++ _symbolic ______pSg 10AppIntents14AnyMeasurementP
++ _symbolic ______pSg 10AppIntents14UndoableIntentP
++ _symbolic ______pSg 10AppIntents16IntentValueQueryP
++ _symbolic ______pSg 10AppIntents19UndoManagerProviderP
++ _symbolic ______pSg 10AppIntents28TargetContentProvidingIntentP
++ _symbolic ______pSg 10AppIntents34SystemIntentValueConvertibleEntityP
++ _symbolic ______pSg 16CoreTransferable0B0P
++ _symbolic ______pSg s23CustomStringConvertibleP
++ _symbolic ______pXp 10AppIntents16IntentValueQueryP
++ _symbolic ______pXp 10AppIntents19_CodableIntentValueP
++ _symbolic _____m 10AppIntents025ShowStringSearchResultsInA15IntentPrototypeV
++ _symbolic _____m 10AppIntents06ShowInA34StringSearchResultsIntentPrototypeV
++ _symbolic _____m 10AppIntents10_CutIntentV
++ _symbolic _____m 10AppIntents11_CopyIntentV
++ _symbolic _____m 10AppIntents11_UndoIntentV
++ _symbolic _____m 10AppIntents12_PasteIntentV
++ _symbolic _____m 10AppIntents13OpenURLIntentV
++ _symbolic _____m 10AppIntents14_OpenURLIntentV
++ _symbolic _____m 10AppIntents17_ExitMarkupIntentV
++ _symbolic _____m 10AppIntents18EmptySnippetIntentV
++ _symbolic _____m 10AppIntents23SendMailIntentPrototypeV
++ _symbolic _____m 10AppIntents24PlayVideoIntentPrototypeV
++ _symbolic _____m 10AppIntents26SendMessageIntentPrototypeV
++ _symbolic _____m 10AppIntents35SetMailMessageIsReadIntentPrototypeV
++ _symbolic _____m s5NeverO
++ _symbolic _____xq_Xj_____c r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 10AppIntents31_AsyncIntentItemIteratorOptionsV
++ _symbolic _____y2ID_____Qz______pG s6ResultOsRi_zRi0_zrlE s12IdentifiableP s5ErrorP
++ _symbolic _____y6Entity_____Qyd_0__AD_____yADG______yADG_____yADG_____yADG_____yADG_____yADG_____yADG_____yADGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA11EntityQueryP AA0f8FromFileC0V AA0fH11URLResolverV AA0fh10IdentifierC0V AA0fhfC0V AA012OptionsBasedfh6StringC0V AA0fh23BoxedCodableIntentValueC0V AA0fho6SystemqrC0V AA0fhq6PersonC0V
++ _symbolic _____ySS_SS_____ySiSSG_ABySaySiGSSG__________QPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA013StringFromIntC0V AA0fg6DoubleC0V AA0fg10AttributedfC0V
++ _symbolic _____ySS_____G s17_NativeDictionaryV 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic _____ySS_____G s17_NativeDictionaryV So15LNQueryMetadataC10AppIntentsE5QueryO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic _____ySay6Entity_____Qyd_0_G_AE_____yADG______yADG_____yADG_____yADG_____yADG_____yADG_____yADG_____yADGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA11EntityQueryP AA017EntitiesFromFilesC0V AA0hi4URLsC0V AA0hi11IdentifiersC0V AA0hihC0V AA012OptionsBasedhi6StringC0V AA0hi28BoxedCodableIntentValueArrayC0V AA0hip6SystemrstC0V AA0hir6PersontC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V AA0ijs6PersonuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V AA0ijs6PersonuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V AA0ijs6PersonuC0V
++ _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij28BoxedCodableIntentValueArrayC0V AA0ijq6SystemstuC0V AA0ijs6PersonuC0V
++ _symbolic _____ySay______pGG 15Synchronization5MutexVAARi_zrlE 10AppIntents19UndoManagerProviderP
++ _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA0fg11IdentifiersC0V AA0fg15QueryParametersC0V AA0fg28BoxedCodableIntentValueArrayC0V AA0fgm6SystemopqC0V AA0fgo6PersonqC0V
++ _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA0fg11IdentifiersC0V AA0fg6StringC0V AA0fg28BoxedCodableIntentValueArrayC0V AA0fgl6SystemnopC0V AA0fgn6PersonpC0V
++ _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA0fg11IdentifiersC0V AA0fg6StringC0V AA0fg15QueryParametersC0V AA0fg28BoxedCodableIntentValueArrayC0V AA0fgn6SystempqrC0V AA0fgp6PersonrC0V
++ _symbolic _____y_So15LNQueryMetadataCG So18LNMetadataProviderC12LinkServicesE9QueryTypeV
++ _symbolic _____y_So16LNActionMetadataCG So18LNMetadataProviderC12LinkServicesE9QueryTypeV
++ _symbolic _____y_So16LNEntityMetadataCG So18LNMetadataProviderC12LinkServicesE9QueryTypeV
++ _symbolic _____y_____AB_____ABG 10AppIntents21IntentResultContainerV s5NeverO AA08_SnippetcE0V
++ _symbolic _____y_____AB__________G 10AppIntents21IntentResultContainerV s5NeverO AA08_SnippetcE0V AA0C6DialogV
++ _symbolic _____y_____G 10AppIntents14ValueConverterV AA018BoxedCodableIntentC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV AA012EmptySnippetC0V
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA12IntentOriginO
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA22BoxedSystemIntentValueV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV AA23BoxedCodableIntentValueV
++ _symbolic _____y_____G 10AppIntents36OptionsBasedEntityFromStringResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents36OptionsBasedEntityFromStringResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents36OptionsBasedEntityFromStringResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents38OptionsBasedEntitiesFromStringResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents38OptionsBasedEntitiesFromStringResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents38OptionsBasedEntitiesFromStringResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents38OptionsBasedEntitiesFromStringResolverV AA22MailAddresseePrototypeV
++ _symbolic _____y_____G 10AppIntents40EntityFromBoxedSystemIntentValueResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents40EntityFromBoxedSystemIntentValueResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents40EntityFromBoxedSystemIntentValueResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents41EntityFromBoxedCodableIntentValueResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents41EntityFromBoxedCodableIntentValueResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents41EntityFromBoxedCodableIntentValueResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents47EntitiesFromBoxedSystemIntentValueArrayResolverV AA22MailAddresseePrototypeV
++ _symbolic _____y_____G 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverV AA20MailAccountPrototypeV
++ _symbolic _____y_____G 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverV AA20MailMessagePrototypeV
++ _symbolic _____y_____G 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverV AA21MessageGroupPrototypeV
++ _symbolic _____y_____G 10AppIntents48EntitiesFromBoxedCodableIntentValueArrayResolverV AA22MailAddresseePrototypeV
++ _symbolic _____y_____G s14PartialKeyPathC 10AppIntents13OpenURLIntentV
++ _symbolic _____y_____G s14PartialKeyPathC 10AppIntents14_OpenURLIntentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents15BSActionWrapperV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents18IntentChoiceOptionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents22BoxedSystemIntentValueV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents23BoxedCodableIntentValueV
++ _symbolic _____y_____G______yABG_____yABGt 10AppIntents25EntitiesFromFilesResolverV AA20MailAccountPrototypeV AA0cd4URLsF0V AA0cd11IdentifiersF0V
++ _symbolic _____y_____G______yABG_____yABGt 10AppIntents25EntitiesFromFilesResolverV AA20MailMessagePrototypeV AA0cd4URLsF0V AA0cd11IdentifiersF0V
++ _symbolic _____y_____G______yABG_____yABGt 10AppIntents25EntitiesFromFilesResolverV AA21MessageGroupPrototypeV AA0cd4URLsF0V AA0cd11IdentifiersF0V
++ _symbolic _____y_____G______yABG_____yABGt 10AppIntents25EntitiesFromFilesResolverV AA22MailAddresseePrototypeV AA0cd4URLsF0V AA0cd11IdentifiersF0V
++ _symbolic _____y_____G______yABGt 10AppIntents22EntityFromFileResolverV AA20MailAccountPrototypeV AA0cD11URLResolverV
++ _symbolic _____y_____G______yABGt 10AppIntents22EntityFromFileResolverV AA20MailMessagePrototypeV AA0cD11URLResolverV
++ _symbolic _____y_____G______yABGt 10AppIntents22EntityFromFileResolverV AA21MessageGroupPrototypeV AA0cD11URLResolverV
++ _symbolic _____y_____SgG s9TaskLocalC 10AppIntents15DecodingContextV
++ _symbolic _____y______AB______QPG 10AppIntents28ResolverSpecificationBuilderO0D0V 10Foundation12DateIntervalV AhAE0gh10FromStringC0V
++ _symbolic _____y______AB______QPG 10AppIntents28ResolverSpecificationBuilderO0D0V 10Foundation20PersonNameComponentsV AhAE0ghi10FromStringC0V
++ _symbolic _____y______AB______QPG 10AppIntents28ResolverSpecificationBuilderO0D0V s8DurationV AgAE0f10FromStringC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V AA0ijs6PersonC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V AA0ijs6PersonC0V
++ _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V AA0ij23BoxedCodableIntentValueC0V AA0ijq6SystemstC0V AA0ijs6PersonC0V
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 10AppIntents13IntentContextV
++ _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 10AppIntents16UndoManagerCacheC6RecordV
++ _symbolic _____y_______________G 16CoreTransferable21CodableRepresentationV 10AppIntents12IntentPersonV 10Foundation11JSONEncoderC AG11JSONDecoderC
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 10AppIntents19UndoManagerProviderP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______p______pYaYbKcSgG 15Synchronization5MutexVAARi_zrlE 10AppIntents12IntentResultP AD0cE0P
++ _symbolic _____y_____yyt______p_GG 15Synchronization5MutexVAARi_zrlE 10AppIntents11AsyncSignalC5StateO s5ErrorP
++ _symbolic _____yqd__G 10AppIntents01_A16IntentConstraintV
++ _symbolic _____yqd__xG s15WritableKeyPathC
++ _symbolic _____yqd__xG s7KeyPathC
++ _symbolic _____yxG 10AppIntents01_A16IntentConstraintV
++ _symbolic _____yxG 10AppIntents0A22EntityQueryReferenceV1V
++ _symbolic _____yx_G 10AppIntents01_A16IntentConstraintV8BehaviorO
++ _symbolic _____yx_G 10AppIntents0A22EntityQueryReferenceV1V7Storage33_6218A5C089F403ACDE63173EE426AD88LLO
++ _symbolic _____yx_G 10AppIntents14EntityPropertyC13GetterStorageO
++ _symbolic _____yx_____yxG_ACtG 16CoreTransferable27TupleTransferRepresentationV AA04DataE0V
++ _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA0fg10IdentifierC0V AA0fg15QueryParametersC0V AA0fg23BoxedCodableIntentValueC0V AA0fgm6SystemopC0V AA0fgo6PersonC0V
++ _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA0fg10IdentifierC0V AA0fg6StringC0V AA0fg23BoxedCodableIntentValueC0V AA0fgl6SystemnoC0V AA0fgn6PersonC0V
++ _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA0fg10IdentifierC0V AA0fg6StringC0V AA0fg15QueryParametersC0V AA0fg23BoxedCodableIntentValueC0V AA0fgn6SystempqC0V AA0fgp6PersonC0V
++ _symbolic _____yxq_G 10AppIntents11AsyncSignalC
++ _symbolic _____yxq_G 10AppIntents28IntentStandardRepresentationV
++ _symbolic _____yxq_G s6ResultOsRi_zRi0_zrlE
++ _symbolic _____yyt______p_G 10AppIntents11AsyncSignalC5StateO s5ErrorP
++ _symbolic _____yyt______p_GSg 10AppIntents11AsyncSignalC6WaiterC s5ErrorP
++ _symbolic q_xYaYbKc
++ _symbolic qd__x______pIeghHnrzo_ s5ErrorP
++ _symbolic xSg______pYaYbKc 10AppIntents0A6EntityP
++ _symbolic xSg______pc 10AppIntents0A6EntityP
++ _symbolic xSg______pc3get_yAB_p_xtc3sett 10AppIntents0A6EntityP
++ _symbolic xq_YaYbKcSg
++ _symbolic yXlXmT
++ _symbolic y______S2b__________SSSgSay_____GtYaYbKc 10AppIntents12IntentDialogV So012LNContinueInA11RequestTypeV AA20SceneActionsProviderV AA08ContinuefA12LaunchOptionV
++ _symbolic ypSg_____Spy_____GIgnyy_ So8_NSRangeV 10ObjectiveC8ObjCBoolV
++ _type_layout_string 10AppIntents0A6EntityRzlAA0aC16QueryReferenceV1V7Storage33_6218A5C089F403ACDE63173EE426AD88LLOyx_G
++ _type_layout_string 10AppIntents0A6EntityRzlAA0aC16QueryReferenceV1VyxG
++ _type_layout_string 10AppIntents11IntentModesV
++ _type_layout_string 10AppIntents11IntentModesV14ForegroundModeV
++ _type_layout_string 10AppIntents11IntentModesV7CurrentV
++ _type_layout_string 10AppIntents12_IntentValueRzs8SendableRzlAA14EntityPropertyC13GetterStorageOyx_G
++ _type_layout_string 10AppIntents14PreparedIntentC17ParameterMetadataV
++ _type_layout_string 10AppIntents15BSActionWrapperV
++ _type_layout_string 10AppIntents15DecodingContextV
++ _type_layout_string 10AppIntents16UndoManagerCacheC6RecordV
++ _type_layout_string 10AppIntents18EmptySnippetIntentV0cD6Result33_46D07F4F76A172B7AED76DC5E640ABEBLLV
++ _type_layout_string 10AppIntents18IntentChoiceOptionV5StyleV
++ _type_layout_string 10AppIntents19_IntentChoiceOptionV5StyleV
++ _type_layout_string 10AppIntents20SceneActionsProviderV
++ _type_layout_string 10AppIntents21DynamicOptionsContextV
++ _type_layout_string 10AppIntents21ResolveParametersTaskV
++ _type_layout_string 10AppIntents22BoxedSystemIntentValueV
++ _type_layout_string 10AppIntents23BoxedCodableIntentValueV
++ _type_layout_string 10AppIntents23EntityPropertyModifiersV
++ _type_layout_string 10AppIntents23_SnippetIntentContainerV
++ _type_layout_string 10AppIntents34RequestDisambiguationCallbackValueO
++ _type_layout_string 16CoreTransferable0B0Rzs8SendableRz10AppIntents12_IntentValueR_sACR_r0_lAD0F22StandardRepresentationVyxq_G
++ _type_layout_string So8_NSRangeV
++ _type_layout_string s8SendableRzl10AppIntents20AsyncIteratorAdapterVyxG
+- -[LNConnectionListener initWithListener:]
+- GCC_except_table192
+- GCC_except_table196
+- GCC_except_table210
+- GCC_except_table213
+- GCC_except_table215
+- GCC_except_table48
+- _MDItemAccountHandles
+- _MDItemAccountIdentifier
+- _MDItemAcquisitionMake
+- _MDItemAcquisitionModel
+- _MDItemActionIdentifiers
+- _MDItemAdditionalRecipients
+- _MDItemAlbum
+- _MDItemAlternateNames
+- _MDItemAltitude
+- _MDItemAperture
+- _MDItemArtist
+- _MDItemAttributeChangeDate
+- _MDItemAudiences
+- _MDItemAudioBitRate
+- _MDItemAudioChannelCount
+- _MDItemAudioEncodingApplication
+- _MDItemAudioSampleRate
+- _MDItemAudioTrackNumber
+- _MDItemAuthorAddresses
+- _MDItemAuthorEmailAddresses
+- _MDItemAuthorPersons
+- _MDItemAuthors
+- _MDItemBitsPerSample
+- _MDItemCameraOwner
+- _MDItemCity
+- _MDItemCodecs
+- _MDItemColorSpace
+- _MDItemComment
+- _MDItemCompletionDate
+- _MDItemComposer
+- _MDItemContactKeywords
+- _MDItemContainerDisplayName
+- _MDItemContainerIdentifier
+- _MDItemContainerOrder
+- _MDItemContainerTitle
+- _MDItemContentCreationDate
+- _MDItemContentModificationDate
+- _MDItemContentRating
+- _MDItemContentType
+- _MDItemContentTypeTree
+- _MDItemContentURL
+- _MDItemContributors
+- _MDItemCopyright
+- _MDItemCountry
+- _MDItemCoverage
+- _MDItemCreator
+- _MDItemDarkThumbnailURL
+- _MDItemDateAdded
+- _MDItemDeliveryType
+- _MDItemDescription
+- _MDItemDirector
+- _MDItemDisplayName
+- _MDItemDomainIdentifier
+- _MDItemDownloadedDate
+- _MDItemDueDate
+- _MDItemDurationSeconds
+- _MDItemEXIFGPSVersion
+- _MDItemEXIFVersion
+- _MDItemEditors
+- _MDItemEmailAddresses
+- _MDItemEmailHeadersDictionary
+- _MDItemEncodingApplications
+- _MDItemEndDate
+- _MDItemExposureMode
+- _MDItemExposureProgram
+- _MDItemExposureTimeSeconds
+- _MDItemExposureTimeString
+- _MDItemFNumber
+- _MDItemFileSize
+- _MDItemFlashOnOff
+- _MDItemFocalLength
+- _MDItemFocalLength35mm
+- _MDItemFonts
+- _MDItemFullyFormattedAddress
+- _MDItemGPSAreaInformation
+- _MDItemGPSDOP
+- _MDItemGPSDateStamp
+- _MDItemGPSDestBearing
+- _MDItemGPSDestDistance
+- _MDItemGPSDestLatitude
+- _MDItemGPSDestLongitude
+- _MDItemGPSDifferental
+- _MDItemGPSMapDatum
+- _MDItemGPSMeasureMode
+- _MDItemGPSProcessingMethod
+- _MDItemGPSStatus
+- _MDItemGPSTrack
+- _MDItemGenre
+- _MDItemHTMLContentData
+- _MDItemHasAlphaChannel
+- _MDItemHeadline
+- _MDItemHiddenAdditionalRecipientPersons
+- _MDItemISOSpeed
+- _MDItemIdentifier
+- _MDItemImageDirection
+- _MDItemImportantDates
+- _MDItemInformation
+- _MDItemInstantMessageAddresses
+- _MDItemInstructions
+- _MDItemIsAllDay
+- _MDItemIsGeneralMIDISequence
+- _MDItemIsLikelyJunk
+- _MDItemIsLocal
+- _MDItemKeySignature
+- _MDItemKeywords
+- _MDItemKind
+- _MDItemLanguages
+- _MDItemLastUsedDate
+- _MDItemLatitude
+- _MDItemLayerNames
+- _MDItemLensModel
+- _MDItemLongitude
+- _MDItemLyricist
+- _MDItemMailboxes
+- _MDItemMaxAperture
+- _MDItemMediaTypes
+- _MDItemMeteringMode
+- _MDItemMusicalGenre
+- _MDItemMusicalInstrumentCategory
+- _MDItemMusicalInstrumentName
+- _MDItemNamedLocation
+- _MDItemNumberOfPages
+- _MDItemOrganizations
+- _MDItemOrientation
+- _MDItemOriginalFormat
+- _MDItemOriginalSource
+- _MDItemPageHeight
+- _MDItemPageWidth
+- _MDItemParticipants
+- _MDItemPath
+- _MDItemPerformers
+- _MDItemPhoneNumbers
+- _MDItemPixelCount
+- _MDItemPixelHeight
+- _MDItemPixelWidth
+- _MDItemPlayCount
+- _MDItemPostalCode
+- _MDItemPrimaryRecipientPersons
+- _MDItemProducer
+- _MDItemProfileName
+- _MDItemProjects
+- _MDItemProviderDataTypes
+- _MDItemProviderFileTypes
+- _MDItemProviderInPlaceFileTypes
+- _MDItemPublishers
+- _MDItemRankingHint
+- _MDItemRatingDescription
+- _MDItemRecipientAddresses
+- _MDItemRecipientEmailAddresses
+- _MDItemRecipients
+- _MDItemRecordingDate
+- _MDItemRedEyeOnOff
+- _MDItemRelatedUniqueIdentifier
+- _MDItemResolutionHeightDPI
+- _MDItemResolutionWidthDPI
+- _MDItemRights
+- _MDItemRole
+- _MDItemSecurityMethod
+- _MDItemSharedItemContentType
+- _MDItemSpeed
+- _MDItemStarRating
+- _MDItemStartDate
+- _MDItemStateOrProvince
+- _MDItemStreamable
+- _MDItemSubThoroughfare
+- _MDItemSubject
+- _MDItemSupportsNavigation
+- _MDItemSupportsPhoneCall
+- _MDItemTempo
+- _MDItemTextContent
+- _MDItemTheme
+- _MDItemThoroughfare
+- _MDItemThumbnailData
+- _MDItemThumbnailURL
+- _MDItemTimeSignature
+- _MDItemTimestamp
+- _MDItemTitle
+- _MDItemTotalBitRate
+- _MDItemURL
+- _MDItemUserCreated
+- _MDItemUserCurated
+- _MDItemUserOwned
+- _MDItemVersion
+- _MDItemVideoBitRate
+- _MDItemWeakRelatedUniqueIdentifier
+- _MDItemWhereFroms
+- _MDItemWhiteBalance
+- _OBJC_CLASS_$_LNDailyRoutineRelevantContext
+- _OBJC_CLASS_$_LNDateRelevantContext
+- _OBJC_CLASS_$_LNFallbackRelevantContext
+- _OBJC_CLASS_$_LNLocationRelevantContext
+- _OBJC_CLASS_$_LNMutualExclusionGroupRelevantContext
+- _OBJC_CLASS_$_LNNLGDialog
+- _OBJC_CLASS_$_LNNLGRepresentation
+- _OBJC_CLASS_$_LNNearbyAudioDeviceRelevantContext
+- _OBJC_CLASS_$_LNRegulatoryDomainRelevantContext
+- _OBJC_CLASS_$_LNUndoContext
+- _OUTLINED_FUNCTION_452
+- _OUTLINED_FUNCTION_453
+- _OUTLINED_FUNCTION_454
+- _OUTLINED_FUNCTION_455
+- _OUTLINED_FUNCTION_456
+- _OUTLINED_FUNCTION_457
+- _OUTLINED_FUNCTION_458
+- _OUTLINED_FUNCTION_459
+- _OUTLINED_FUNCTION_460
+- _OUTLINED_FUNCTION_461
+- _OUTLINED_FUNCTION_462
+- _OUTLINED_FUNCTION_463
+- _OUTLINED_FUNCTION_464
+- _OUTLINED_FUNCTION_465
+- _OUTLINED_FUNCTION_466
+- _OUTLINED_FUNCTION_467
+- _OUTLINED_FUNCTION_468
+- _OUTLINED_FUNCTION_469
+- _OUTLINED_FUNCTION_470
+- _OUTLINED_FUNCTION_471
+- _OUTLINED_FUNCTION_472
+- _OUTLINED_FUNCTION_473
+- _OUTLINED_FUNCTION_474
+- _OUTLINED_FUNCTION_475
+- _OUTLINED_FUNCTION_476
+- _OUTLINED_FUNCTION_477
+- _OUTLINED_FUNCTION_478
+- _OUTLINED_FUNCTION_479
+- __DATA__TtC10AppIntents21AppIntentSceneManager
+- __DATA__TtCC10AppIntents21AppIntentSceneManagerP33_1B2B12180E31723EBD1D99BB3771758B9Container
+- __IVARS__TtC10AppIntents21AppIntentSceneManager
+- __IVARS__TtCC10AppIntents21AppIntentSceneManagerP33_1B2B12180E31723EBD1D99BB3771758B9Container
+- __METACLASS_DATA__TtC10AppIntents21AppIntentSceneManager
+- __METACLASS_DATA__TtCC10AppIntents21AppIntentSceneManagerP33_1B2B12180E31723EBD1D99BB3771758B9Container
+- __OBJC_$_INSTANCE_METHODS_LNAppContext(AppIntents|AppIntents1|AppIntents2|AppIntents3|AppIntents4|AppIntents5|AppIntents6|AppIntents7|AppIntents8|AppIntents9|AppIntents10|AppIntents11|AppIntents12|AppIntents13|AppIntents14|AppIntents15|AppIntents16|AppIntents17|AppIntents18|AppIntents19|AppIntents20|AppIntents21|AppIntents22|AppIntents23)
+- __PROTOCOLS_LNPerformActionExecutorDelegateProxy.19
+- ___58-[LNExtensionConnectionHandler shouldAcceptXPCConnection:]_block_invoke.11
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e20_v24?08"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e27_v24?0"NSURL"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e29_v24?0"LNValue"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e29_v24?0"NSArray"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"LNAction"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e30_v24?0"NSString"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e34_v24?0"NSDictionary"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e35_v24?0"LNQueryOutput"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e37_v24?0"LNSuccessResult"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e44_v24?0"LNDynamicOptionsResult"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e45_v24?0"LNAppShortcutActionData"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e46_v24?0"LNAsyncIteratorReference"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e52_v24?0"LNXPCListenerEndpointContainer"8"NSError"16ls32l8s40l8
+- ___swift_get_extra_inhabitant_index.73Tm
+- ___swift_store_extra_inhabitant_index.74Tm
+- ___unnamed_24
+- ___unnamed_27
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AppIntents
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AppIntents
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AppIntents
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AppIntents
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AppIntents
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AppIntents
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AppIntents
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverVyxGAA8ResolverAA5InputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverVyxGAA8ResolverAA6OutputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverVyxGSHAASQ
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverVyxGAA0I0AA5InputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverVyxGAA0I0AA6OutputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverVyxGSHAASQ
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverVyxGAA0I0AA5InputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverVyxGAA0I0AA6OutputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverVyxGSHAASQ
+- _associated conformance 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverVyxGAA0H0AA5InputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverVyxGAA0H0AA6OutputAaEP_AA12_IntentValue
+- _associated conformance 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverVyxGSHAASQ
+- _associated conformance 10AppIntents14PreparedIntentVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 10AppIntents15RelevantContextV13HomeConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV14SleepConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV14SolarConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV16FitnessConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV16InferredLocationV10_Condition33_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV19HeadphonesConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV21AmbientAudioDetectionV10_Condition33_1E57AEC55D1BB4EC6C230F10DD58FF46LLOSHAASQ
+- _associated conformance 10AppIntents15RelevantContextV8PriorityOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysOs0P3KeyAAs23CustomStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysOs0P3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysOs0Q3KeyAAs23CustomStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysOs0Q3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysOs9CodingKeyAAs23CustomStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysOs9CodingKeyAAs28CustomDebugStringConvertible
+- _associated conformance 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLOSHAASQ
+- _associated conformance 10AppIntents25_PersistentFileIdentifierVSHAASQ
+- _block_copy_helper.103
+- _block_copy_helper.109
+- _block_copy_helper.124
+- _block_copy_helper.139
+- _block_copy_helper.154
+- _block_copy_helper.169
+- _block_copy_helper.21
+- _block_copy_helper.30
+- _block_copy_helper.33
+- _block_copy_helper.39
+- _block_descriptor.105
+- _block_descriptor.111
+- _block_descriptor.126
+- _block_descriptor.141
+- _block_descriptor.156
+- _block_descriptor.171
+- _block_descriptor.23
+- _block_descriptor.32
+- _block_descriptor.35
+- _block_descriptor.41
+- _block_destroy_helper.104
+- _block_destroy_helper.110
+- _block_destroy_helper.125
+- _block_destroy_helper.140
+- _block_destroy_helper.155
+- _block_destroy_helper.170
+- _block_destroy_helper.22
+- _block_destroy_helper.31
+- _block_destroy_helper.34
+- _block_destroy_helper.40
+- _get_enum_tag_for_layout_string 10AppIntents020RequestValueCallbackD0O
+- _get_enum_tag_for_layout_string 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _get_type_metadata 15Synchronization5MutexVySDySOypGG.15
+- _get_witness_table 10AppIntents0A6IntentRzlAA0C16ParameterSummaryVyxGAA0dE0HPyHC.38
+- _get_witness_table 10AppIntents28ResolverSpecificationBuilderO0D0VySS_SSAA013StringFromIntC0VySiSSG_AGySaySiGSSGAA0fg6DoubleC0VQPGAA0cD0HPyHC.25
+- _keypath_get_selector_EXIFGPSVersion
+- _keypath_get_selector_EXIFVersion
+- _keypath_get_selector_GPSAreaInformation
+- _keypath_get_selector_GPSDOP
+- _keypath_get_selector_GPSDateStamp
+- _keypath_get_selector_GPSDestBearing
+- _keypath_get_selector_GPSDestDistance
+- _keypath_get_selector_GPSDestLatitude
+- _keypath_get_selector_GPSDestLongitude
+- _keypath_get_selector_GPSDifferental
+- _keypath_get_selector_GPSMapDatum
+- _keypath_get_selector_GPSMeasureMode
+- _keypath_get_selector_GPSProcessingMethod
+- _keypath_get_selector_GPSStatus
+- _keypath_get_selector_GPSTrack
+- _keypath_get_selector_HTMLContentData
+- _keypath_get_selector_ISOSpeed
+- _keypath_get_selector_URL
+- _keypath_get_selector_accountHandles
+- _keypath_get_selector_accountIdentifier
+- _keypath_get_selector_acquisitionMake
+- _keypath_get_selector_acquisitionModel
+- _keypath_get_selector_actionIdentifiers
+- _keypath_get_selector_addedDate
+- _keypath_get_selector_additionalRecipients
+- _keypath_get_selector_album
+- _keypath_get_selector_allDay
+- _keypath_get_selector_alternateNames
+- _keypath_get_selector_altitude
+- _keypath_get_selector_aperture
+- _keypath_get_selector_artist
+- _keypath_get_selector_audiences
+- _keypath_get_selector_audioBitRate
+- _keypath_get_selector_audioChannelCount
+- _keypath_get_selector_audioEncodingApplication
+- _keypath_get_selector_audioSampleRate
+- _keypath_get_selector_audioTrackNumber
+- _keypath_get_selector_authorAddresses
+- _keypath_get_selector_authorEmailAddresses
+- _keypath_get_selector_authorNames
+- _keypath_get_selector_authors
+- _keypath_get_selector_bitsPerSample
+- _keypath_get_selector_cameraOwner
+- _keypath_get_selector_city
+- _keypath_get_selector_codecs
+- _keypath_get_selector_colorSpace
+- _keypath_get_selector_comment
+- _keypath_get_selector_completionDate
+- _keypath_get_selector_composer
+- _keypath_get_selector_contactKeywords
+- _keypath_get_selector_containerDisplayName
+- _keypath_get_selector_containerIdentifier
+- _keypath_get_selector_containerOrder
+- _keypath_get_selector_containerTitle
+- _keypath_get_selector_contentCreationDate
+- _keypath_get_selector_contentDescription
+- _keypath_get_selector_contentModificationDate
+- _keypath_get_selector_contentRating
+- _keypath_get_selector_contentSources
+- _keypath_get_selector_contentType
+- _keypath_get_selector_contentTypeTree
+- _keypath_get_selector_contentURL
+- _keypath_get_selector_contributors
+- _keypath_get_selector_copyright
+- _keypath_get_selector_country
+- _keypath_get_selector_coverage
+- _keypath_get_selector_creator
+- _keypath_get_selector_darkThumbnailURL
+- _keypath_get_selector_deliveryType
+- _keypath_get_selector_director
+- _keypath_get_selector_displayName
+- _keypath_get_selector_domainIdentifier
+- _keypath_get_selector_downloadedDate
+- _keypath_get_selector_dueDate
+- _keypath_get_selector_duration
+- _keypath_get_selector_editors
+- _keypath_get_selector_emailAddresses
+- _keypath_get_selector_emailHeaders
+- _keypath_get_selector_encodingApplications
+- _keypath_get_selector_endDate
+- _keypath_get_selector_exposureMode
+- _keypath_get_selector_exposureProgram
+- _keypath_get_selector_exposureTime
+- _keypath_get_selector_exposureTimeString
+- _keypath_get_selector_fNumber
+- _keypath_get_selector_fileSize
+- _keypath_get_selector_focalLength
+- _keypath_get_selector_fontNames
+- _keypath_get_selector_fullyFormattedAddress
+- _keypath_get_selector_genre
+- _keypath_get_selector_hasAlphaChannel
+- _keypath_get_selector_headline
+- _keypath_get_selector_hiddenAdditionalRecipients
+- _keypath_get_selector_identifier
+- _keypath_get_selector_imageDirection
+- _keypath_get_selector_importantDates
+- _keypath_get_selector_information
+- _keypath_get_selector_instantMessageAddresses
+- _keypath_get_selector_instructions
+- _keypath_get_selector_isFlashOn
+- _keypath_get_selector_isFocalLength35mm
+- _keypath_get_selector_isGeneralMIDISequence
+- _keypath_get_selector_isLikelyJunk
+- _keypath_get_selector_isLocal
+- _keypath_get_selector_isRedEyeOn
+- _keypath_get_selector_isStreamable
+- _keypath_get_selector_isUserCreated
+- _keypath_get_selector_isUserCurated
+- _keypath_get_selector_isUserOwned
+- _keypath_get_selector_keySignature
+- _keypath_get_selector_keywords
+- _keypath_get_selector_kind
+- _keypath_get_selector_languages
+- _keypath_get_selector_lastUsedDate
+- _keypath_get_selector_latitude
+- _keypath_get_selector_layerNames
+- _keypath_get_selector_lensModel
+- _keypath_get_selector_longitude
+- _keypath_get_selector_lyricist
+- _keypath_get_selector_mailboxIdentifiers
+- _keypath_get_selector_maxAperture
+- _keypath_get_selector_mediaTypes
+- _keypath_get_selector_metadataModificationDate
+- _keypath_get_selector_meteringMode
+- _keypath_get_selector_musicalGenre
+- _keypath_get_selector_musicalInstrumentCategory
+- _keypath_get_selector_musicalInstrumentName
+- _keypath_get_selector_namedLocation
+- _keypath_get_selector_organizations
+- _keypath_get_selector_orientation
+- _keypath_get_selector_originalFormat
+- _keypath_get_selector_originalSource
+- _keypath_get_selector_pageCount
+- _keypath_get_selector_pageHeight
+- _keypath_get_selector_pageWidth
+- _keypath_get_selector_participants
+- _keypath_get_selector_path
+- _keypath_get_selector_performers
+- _keypath_get_selector_phoneNumbers
+- _keypath_get_selector_pixelCount
+- _keypath_get_selector_pixelHeight
+- _keypath_get_selector_pixelWidth
+- _keypath_get_selector_playCount
+- _keypath_get_selector_postalCode
+- _keypath_get_selector_primaryRecipients
+- _keypath_get_selector_producer
+- _keypath_get_selector_profileName
+- _keypath_get_selector_projects
+- _keypath_get_selector_providerDataTypeIdentifiers
+- _keypath_get_selector_providerFileTypeIdentifiers
+- _keypath_get_selector_providerInPlaceFileTypeIdentifiers
+- _keypath_get_selector_publishers
+- _keypath_get_selector_rankingHint
+- _keypath_get_selector_rating
+- _keypath_get_selector_ratingDescription
+- _keypath_get_selector_recipientAddresses
+- _keypath_get_selector_recipientEmailAddresses
+- _keypath_get_selector_recipientNames
+- _keypath_get_selector_recordingDate
+- _keypath_get_selector_relatedUniqueIdentifier
+- _keypath_get_selector_resolutionHeightDPI
+- _keypath_get_selector_resolutionWidthDPI
+- _keypath_get_selector_rights
+- _keypath_get_selector_role
+- _keypath_get_selector_securityMethod
+- _keypath_get_selector_sharedItemContentType
+- _keypath_get_selector_speed
+- _keypath_get_selector_startDate
+- _keypath_get_selector_stateOrProvince
+- _keypath_get_selector_subThoroughfare
+- _keypath_get_selector_subject
+- _keypath_get_selector_supportsNavigation
+- _keypath_get_selector_supportsPhoneCall
+- _keypath_get_selector_tempo
+- _keypath_get_selector_textContent
+- _keypath_get_selector_theme
+- _keypath_get_selector_thoroughfare
+- _keypath_get_selector_thumbnailData
+- _keypath_get_selector_thumbnailURL
+- _keypath_get_selector_timeSignature
+- _keypath_get_selector_timestamp
+- _keypath_get_selector_title
+- _keypath_get_selector_totalBitRate
+- _keypath_get_selector_version
+- _keypath_get_selector_videoBitRate
+- _keypath_get_selector_weakRelatedUniqueIdentifier
+- _keypath_get_selector_whiteBalance
+- _objc_msgSend$initWithListener:
+- _objectdestroy.13Tm
+- _objectdestroy.31Tm
+- _objectdestroy.43Tm
+- _objectdestroy.566Tm
+- _objectdestroy.569Tm
+- _objectdestroy.572Tm
+- _objectdestroy.887Tm
+- _symbolic $s10AppIntents027_PersistentFileIdentifiableA6EntityP
+- _symbolic $s10AppIntents22_ContextStagableEntityP
+- _symbolic $s10AppIntents27_FileEntityBoxRepresentable33_AB8409DC46BDA906F2159B76713E389FLLP
+- _symbolic 6Stager_____Qz 10AppIntents22_ContextStagableEntityP
+- _symbolic 6Stager______6Entity_____QZ 10AppIntents22_ContextStagableEntityP AA01_C6StagerP
+- _symbolic SDySSSayypGGSg
+- _symbolic SDySS______pXpG 10AppIntents11EntityQueryP
+- _symbolic SSSaySSGSo14LNEnumMetadataCSg______pSgIeggg_Iegggg_ s5ErrorP
+- _symbolic SSSaySSGSo15LNQueryMetadataCSg______pSgIeggg_Iegggg_ s5ErrorP
+- _symbolic SSSaySSGSo16LNActionMetadataCSg______pSgIeggg_Iegggg_ s5ErrorP
+- _symbolic SSSaySSGSo16LNEntityMetadataCSg______pSgIeggg_Iegggg_ s5ErrorP
+- _symbolic SS______t 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic SaySo8CSPersonCGSg
+- _symbolic SaySsG
+- _symbolic Say_____G 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic Say_____G 10AppIntents16UndoManagerCacheV6RecordV
+- _symbolic Say_____GSg 10Foundation4DateV
+- _symbolic Sbxc
+- _symbolic ScCyyt_____G s5NeverO
+- _symbolic ScCyyt_____GSg s5NeverO
+- _symbolic ScTyyt_____GSg s5NeverO
+- _symbolic So16LNOpenURLRequestCSo0A11URLResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So17LNRelevantContextC
+- _symbolic So19LNNeedsValueRequestCSo0aB8ResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So21LNConfirmationRequestCSo0A8ResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So22LNContinueInAppRequestCSo0abC8ResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So23LNDisambiguationRequestCSo0A8ResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So27LNActionConfirmationRequestCSo0aB8ResponseCSg______pSgIeggg_Ieggg_ s5ErrorP
+- _symbolic So28CSSearchableItemAttributeSetC
+- _symbolic So8NSNumberC
+- _symbolic _____ 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverV
+- _symbolic _____ 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverV
+- _symbolic _____ 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverV
+- _symbolic _____ 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverV
+- _symbolic _____ 10AppIntents0A18IntentSceneManagerC
+- _symbolic _____ 10AppIntents0A18IntentSceneManagerC9Container33_1B2B12180E31723EBD1D99BB3771758BLLC
+- _symbolic _____ 10AppIntents14PreparedIntentV
+- _symbolic _____ 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____ 10AppIntents14_FileEntityBox33_AB8409DC46BDA906F2159B76713E389FLLV
+- _symbolic _____ 10AppIntents15RelevantContextV13HomeConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV13HomeConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV14SleepConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV14SleepConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV14SolarConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV14SolarConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV16FitnessConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV16FitnessConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV16InferredLocationV
+- _symbolic _____ 10AppIntents15RelevantContextV16InferredLocationV10_Condition33_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV19HeadphonesConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV19HeadphonesConditionV01_F033_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV21AmbientAudioDetectionV
+- _symbolic _____ 10AppIntents15RelevantContextV21AmbientAudioDetectionV10_Condition33_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV26NearbyAudioDeviceConditionV
+- _symbolic _____ 10AppIntents15RelevantContextV5GroupV
+- _symbolic _____ 10AppIntents15RelevantContextV5GroupV01_E10Identifier33_1E57AEC55D1BB4EC6C230F10DD58FF46LLO
+- _symbolic _____ 10AppIntents15RelevantContextV8PriorityO
+- _symbolic _____ 10AppIntents16UndoManagerCacheV
+- _symbolic _____ 10AppIntents16UndoManagerCacheV6RecordV
+- _symbolic _____ 10AppIntents19SceneActivationInfoV
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysO
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysO
+- _symbolic _____ 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysO
+- _symbolic _____ SS5IndexV
+- _symbolic _____Sg 10AppIntents14PreparedIntentV
+- _symbolic _____Sg 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____Sg 10AppIntents16UndoManagerCacheV6RecordV
+- _symbolic _____Sg 10AppIntents16_AssistantIntentV5ValueV
+- _symbolic _____Sg 10AppIntents19SceneActivationInfoV
+- _symbolic _____Sg 10AppIntents25_PersistentFileIdentifierV
+- _symbolic _____Sgxc 10AppIntents16EntityIdentifierV
+- _symbolic ___________Sitc 10AppIntents33AsyncIntentValueSequenceContainerC8IteratorC AA01_cd4ItemH7OptionsV
+- _symbolic ______p 10AppIntents027_PersistentFileIdentifiableA6EntityP
+- _symbolic ______pSg 10AppIntents027_PersistentFileIdentifiableA6EntityP
+- _symbolic _____xq_Xj_____Ybc r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 10AppIntents31_AsyncIntentItemIteratorOptionsV
+- _symbolic _____y2ID_____Qz______pG s6ResultOsRi_zrlE s12IdentifiableP s5ErrorP
+- _symbolic _____y6Entity_____Qyd_0__AD_____yADG______yADG_____yADG_____yADG_____yADG_____yADG_____yADGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA11EntityQueryP AA0f8FromFileC0V AA0fH11URLResolverV AA011_Persistenti12IdentifiableafhiC0V AA01_kilafhJ0V AA0fh10IdentifierC0V AA0fhfC0V AA012OptionsBasedfh6StringC0V
+- _symbolic _____ySDy__________GG 2os21OSAllocatedUnfairLockV 10Foundation4UUIDV 10AppIntents0G18IntentSceneManagerC9Container33_1B2B12180E31723EBD1D99BB3771758BLLC
+- _symbolic _____ySDy__________G_____G s13ManagedBufferCsRi__rlE 10Foundation4UUIDV 10AppIntents0E18IntentSceneManagerC9Container33_1B2B12180E31723EBD1D99BB3771758BLLC So16os_unfair_lock_sV
+- _symbolic _____ySS_SS_____ySiSSG_ABySaySiGSSG_____QPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA013StringFromIntC0V AA0fg6DoubleC0V
+- _symbolic _____ySS_____G s17_NativeDictionaryV 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____ySS______pXpG s17_NativeDictionaryV 10AppIntents11EntityQueryP
+- _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____ySay6Entity_____Qyd_0_G_AE_____yADG______yADG_____yADG_____yADG_____yADG_____yADG_____yADGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA11EntityQueryP AA017EntitiesFromFilesC0V AA0hi4URLsC0V AA027_PersistentFileIdentifiableahijC0V AA01_lmnahikC0V AA0hi11IdentifiersC0V AA0hihC0V AA012OptionsBasedhi6StringC0V
+- _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA027_PersistentFileIdentifiableaijkC0V AA01_mnoaijlC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA027_PersistentFileIdentifiableaijkC0V AA01_mnoaijlC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA027_PersistentFileIdentifiableaijkC0V AA01_mnoaijlC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____ySay_____G_AC_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA22MailAddresseePrototypeV AA017EntitiesFromFilesC0V AA0ij4URLsC0V AA027_PersistentFileIdentifiableaijkC0V AA01_mnoaijlC0V AA0ij11IdentifiersC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA027_PersistentFileIdentifiableafghC0V AA01_jklafgiC0V AA0fg11IdentifiersC0V AA0fg15QueryParametersC0V
+- _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA027_PersistentFileIdentifiableafghC0V AA01_jklafgiC0V AA0fg11IdentifiersC0V AA0fg6StringC0V
+- _symbolic _____ySayxG_AB_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA017EntitiesFromFilesC0V AA0fg4URLsC0V AA027_PersistentFileIdentifiableafghC0V AA01_jklafgiC0V AA0fg11IdentifiersC0V AA0fg6StringC0V AA0fg15QueryParametersC0V
+- _symbolic _____ySo28CSSearchableItemAttributeSetCG s14PartialKeyPathC
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverV AA20MailAccountPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverV AA20MailMessagePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA21EntityFromURLResolverV AA21MessageGroupPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverV AA20MailAccountPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverV AA20MailMessagePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverV AA21MessageGroupPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA24EntitiesFromURLsResolverV AA22MailAddresseePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverV AA20MailAccountPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverV AA20MailMessagePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverV AA21MessageGroupPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiableA25EntitiesFromFilesResolverV AA22MailAddresseePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverV AA20MailAccountPrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverV AA20MailMessagePrototypeV
+- _symbolic _____y_____G 10AppIntents027_PersistentFileIdentifiablea10EntityFromD8ResolverV AA21MessageGroupPrototypeV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents25_PersistentFileIdentifierV10CodingKeys33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18BookmarkCodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO18FpItemIDCodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10AppIntents16UndoManagerCacheV6RecordV
+- _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailAccountPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA011_Persistentk12IdentifiableaijkC0V AA01_mknaijL0V AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA20MailMessagePrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA011_Persistentk12IdentifiableaijkC0V AA01_mknaijL0V AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____y______AB_____yABG______yABG_____yABG_____yABG_____yABG_____yABG_____yABGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA21MessageGroupPrototypeV AA014EntityFromFileC0V AA0iJ11URLResolverV AA011_Persistentk12IdentifiableaijkC0V AA01_mknaijL0V AA0ij10IdentifierC0V AA0ijiC0V AA012OptionsBasedij6StringC0V
+- _symbolic _____y__________G s17_NativeDictionaryV 10Foundation4UUIDV 10AppIntents0E18IntentSceneManagerC9Container33_1B2B12180E31723EBD1D99BB3771758BLLC
+- _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA011_Persistenth12IdentifiableafghC0V AA01_jhkafgI0V AA0fg10IdentifierC0V AA0fg15QueryParametersC0V
+- _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA011_Persistenth12IdentifiableafghC0V AA01_jhkafgI0V AA0fg10IdentifierC0V AA0fg6StringC0V
+- _symbolic _____yx_x_____yxG______yxG_____yxG_____yxG_____yxG_____yxG_____yxGQPG 10AppIntents28ResolverSpecificationBuilderO0D0V AA014EntityFromFileC0V AA0fG11URLResolverV AA011_Persistenth12IdentifiableafghC0V AA01_jhkafgI0V AA0fg10IdentifierC0V AA0fg6StringC0V AA0fg15QueryParametersC0V
+- _symbolic y______S2b__________SgSSSgSay_____GtYaYbKc 10AppIntents12IntentDialogV So012LNContinueInA11RequestTypeV AA19SceneActivationInfoV AA08ContinuefA12LaunchOptionV
+- _type_layout_string 10AppIntents020RequestValueCallbackD0O
+- _type_layout_string 10AppIntents0A6EntityRzlAA027_PersistentFileIdentifiableA24EntitiesFromURLsResolverVyxG
+- _type_layout_string 10AppIntents0A6EntityRzlAA027_PersistentFileIdentifiableA25EntitiesFromFilesResolverVyxG
+- _type_layout_string 10AppIntents0A6EntityRzlAA027_PersistentFileIdentifiableaC15FromURLResolverVyxG
+- _type_layout_string 10AppIntents0A6EntityRzlAA027_PersistentFileIdentifiableac4FromE8ResolverVyxG
+- _type_layout_string 10AppIntents14PreparedIntentV17ParameterMetadataV
+- _type_layout_string 10AppIntents15RelevantContextV
+- _type_layout_string 10AppIntents15RelevantContextV13HomeConditionV
+- _type_layout_string 10AppIntents15RelevantContextV14SleepConditionV
+- _type_layout_string 10AppIntents15RelevantContextV14SolarConditionV
+- _type_layout_string 10AppIntents15RelevantContextV16FitnessConditionV
+- _type_layout_string 10AppIntents15RelevantContextV16InferredLocationV
+- _type_layout_string 10AppIntents15RelevantContextV19HeadphonesConditionV
+- _type_layout_string 10AppIntents15RelevantContextV26NearbyAudioDeviceConditionV
+- _type_layout_string 10AppIntents15RelevantContextV5GroupV
+- _type_layout_string 10AppIntents16UndoManagerCacheV
+- _type_layout_string 10AppIntents19SceneActivationInfoV
+- _type_layout_string 10AppIntents25_PersistentFileIdentifierV
+- _type_layout_string 10AppIntents25_PersistentFileIdentifierV7Storage33_B70F40B75F146D9B1DD2392AF0CE918FLLO
+- _type_layout_string SSSg
+- _type_layout_string l10AppIntents20AsyncIteratorAdapterVyxG
+CStrings:
++ " for IntentValueQuery"
++ " to ContextStageableEntity.Type"
++ "%s: Coerced empty %s to empty %s"
++ "' was provided as an import result from an entity"
++ "'s entity does not implement Transferable"
++ "AIInvalidateSnippetsCommand"
++ "An illegal currency type '"
++ "An undo manager could not be found in the main app"
++ "AppIntents/AsyncSignal.swift"
++ "AppIntents/CodableIntentValue.swift"
++ "AppIntents/IntentPerson.swift"
++ "AppIntents/SnippetIntent.swift"
++ "AppIntents24"
++ "AsyncSignal %{public}s already completed, returning result"
++ "AsyncSignal %{public}s completed"
++ "AsyncSignal %{public}s created"
++ "AsyncSignal %{public}s not completed, storing continuation"
++ "AsyncSignal %{public}s resuming"
++ "AsyncSignal already completed"
++ "Cannot read wrapped value for non-property wrapper based EntityProperty"
++ "Cannot write wrapped value for non-property wrapper based EntityProperty"
++ "Completing provider with %ld actions(s) and %ld completion(s)"
++ "ContinueInApp"
++ "Empty Snippet should not be ran"
++ "EmptySnippetIntent"
++ "FetchDisplayRepresentation"
++ "FetchStructuredData"
++ "FetchViewEntities"
++ "Foundation.DateInterval"
++ "Foundation.Duration"
++ "Foundation.PersonNameComponents"
++ "InitializeAction"
++ "IntentMode.background"
++ "IntentMode.foreground"
++ "LNLinkUndoManagerErrorDomain"
++ "LocateActionPerformer"
++ "Main app received undo manager reference from intent execution"
++ "Missing content type for "
++ "NSTextAttachment"
++ "NeedsActionConfirmation"
++ "NeedsConfirmation"
++ "NeedsDisambiguation"
++ "NeedsValue"
++ "OpenURL"
++ "PerformAction"
++ "PersonNameComponents"
++ "ProcessPresentation"
++ "Registering UndoManager with UUID %{public}s in the execution undo manager cache"
++ "Removing UndoManager with UUID %{public}s from the execution undo manager cache"
++ "ResolveParameters"
++ "T@\"LNConnectionListener\",R,N,V_connectionListener"
++ "T@\"NSObject<OS_dispatch_queue>\",R,N,V_clientConnectionQueue"
++ "The value type must be registered in PrebuiltTypeSupport"
++ "This transfer representation does not support imports"
++ "Type does not support EntityQuery"
++ "Type does not support IntentValueQuery"
++ "Unable to convert the result value type to LNValue for IntentValueQuery"
++ "Unable to perform selection"
++ "UndoManager cache contained an undo manager for this intent execution, but no actions were registered. This manager will be removed from the cache."
++ "Unknown persistent identifier"
++ "Unsupported query target"
++ "Unsupported query type"
++ "Unsupported system intent value type"
++ "Unsupported value "
++ "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@?<v@?@\"LNActionMetadata\"@\"NSError\">40"
++ "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@?<v@?@\"LNEntityMetadata\"@\"NSError\">40"
++ "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@?<v@?@\"LNEnumMetadata\"@\"NSError\">40"
++ "Vv48@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@?<v@?@\"LNQueryMetadata\"@\"NSError\">40"
++ "Vv48@0:8@16@24@32@?40"
++ "[%{public}s %{public}s] %{public}s"
++ "[%{public}s %{public}s] %{public}s.perform() finished"
++ "[%{public}s %{public}s] AudioRecordingIntent was performed with an active audio session but without a Live Activity"
++ "[%{public}s %{public}s] Conversation received unexpected action: %{public}s"
++ "[%{public}s %{public}s] Could not find an intent with identifier %{public}s, mangledTypeName: %{public}s"
++ "[%{public}s %{public}s] Found %{public}s matching %{public}s registered with AppManager"
++ "[%{public}s %{public}s] Intent type %s is neither a system nor an active view intent. Running default perform."
++ "[%{public}s %{public}s] Invoking %{public}s.perform()"
++ "[%{public}s %{public}s] Invoking `prepare` because the intent conforms to `PreparableIntent` and system context allows it"
++ "[%{public}s %{public}s] LNAction did not include metadata, this may be a bug in a client of AppIntents"
++ "[%{public}s %{public}s] NOT invoking `prepare` because the intent conforms to `PreparableIntent`, but system context does NOT allow it"
++ "[%{public}s %{public}s] Using view intent in place of perform()"
++ "[%{public}s %{public}s] Verifying that Audio Recording Intent started a Live Activity"
++ "[%{public}s %{public}s] Verifying that the returned type matches the expected types from metadata"
++ "[%{public}s %{public}s] View intent provider for intent type %s and view intent identifier %s not found."
++ "[%{public}s %{public}s] `PreparableIntent` does not allow throwing AppIntentErrors"
++ "[Context Setup] Creating context: %s for connection: %ld"
++ "[Context Setup] Missing or malformed LNConnectionContext"
++ "[Context Setup] No ConnectionContext found for %ld"
++ "[Context Setup] Removing context for connection: %ld"
++ "[Context Setup] Updating context: %s for connection: %ld"
++ "_CodableIntentValue"
++ "_TtC10AppIntents14PreparedIntent"
++ "_TtC10AppIntents16UndoManagerCache"
++ "_TtCV10AppIntents18IntentChoiceOptionP33_F4265390D005A2206C35690A66FB38532__"
++ "_TtCV10AppIntents19_IntentChoiceOptionP33_C43F6F80038C86216AF3ED0BD21F33412__"
++ "_auxiliaryReference"
++ "_clientConnectionQueue"
++ "_customIndexingKey"
++ "_indexingKey"
++ "_linkWithAuxiliaryManager:"
++ "_viewIntent"
++ "actionWithIdentifier:bundleIdentifier:frameworkBundles:completionHandler:"
++ "clientConnectionQueue"
++ "com.apple.appintents.client-connection-queue"
++ "draftContext"
++ "entityType(for:)"
++ "entityWithIdentifier:bundleIdentifier:frameworkBundles:completionHandler:"
++ "enumWithIdentifier:bundleIdentifier:frameworkBundles:completionHandler:"
++ "enumerateAttribute:inRange:options:usingBlock:"
++ "executor:needsChoiceWithRequest:"
++ "extractStartDate:startTimezone:endDate:endTimezone:allDayRef:referenceDate:referenceTimezone:"
++ "foregroundContinuableProtocol"
++ "getterStorage"
++ "initWithAction:output:actionAppContext:predictions:undoReference:"
++ "initWithBundleIdentifier:action:widgetKind:rkContext:"
++ "initWithIdentifier:dialog:viewSnippet:snippetAction:attribution:value:showOutputAction:showOutputActionHint:showOutputActionOptions:deferred:nextAction:suggestedFollowUpActions:activityIdentifier:confirmationActionName:showPrompt:confirmationConditions:undoContext:"
++ "initWithIdentifier:options:dialog:viewSnippet:"
++ "initWithIdentifier:title:style:"
++ "initWithKeyName:"
++ "initWithListener:clientConnectionQueue:"
++ "initWithRequirement:condition:behavior:message:"
++ "keyName"
++ "length"
++ "linkAppUndoManager:completionHandler:"
++ "linkUndoManager:completionHandler:"
++ "none"
++ "panorama"
++ "parameterMetadata"
++ "parseDateInterval(from:referenceDate:referenceTimeZone:)"
++ "postNotificationName:object:"
++ "priority"
++ "queryWithIdentifier:bundleIdentifier:frameworkBundles:completionHandler:"
++ "records"
++ "replaceCharactersInRange:withString:"
++ "requestChoice:completionHandler:"
++ "resultValueType"
++ "selectedOption"
++ "setDateStyle:"
++ "setGroupsByEvent:"
++ "setTimeStyle:"
++ "signal"
++ "silenceWarnings"
++ "snippetAction"
++ "snippetProtocol"
++ "spatialPhoto"
++ "stringFromDateInterval:"
++ "timeIntervalSinceReferenceDate"
++ "undoManagerProviders"
++ "v24@?0@\"LNChoiceResponse\"8@\"NSError\"16"
++ "v32@0:8@\"LNActionExecutor\"16@\"LNChoiceRequest\"24"
++ "v32@0:8@\"LNChoiceRequest\"16@?<v@?@\"LNChoiceResponse\"@\"NSError\">24"
++ "v32@0:8@\"_NSAuxiliaryUndoManagerReference\"16@?<v@?@\"NSError\">24"
++ "v40@?0@8{_NSRange=QQ}16^B32"
+- " to ContextStagableEntity.Type"
+- "%{public}s"
+- "AppIntentsAppContext_fetchDisplayRepresentation"
+- "AppIntentsAppContext_fetchStructuredData"
+- "AppIntentsAppContext_fetchViewEntities"
+- "Awaiting navigationTask completion for %s"
+- "Awaiting scene navigation for %s"
+- "BSAction Completion Called"
+- "Beginning `requestContinueInAppCallback` with scene activation"
+- "Client attached navigation to scene task %s"
+- "Conversation received unexpected action: %{public}s"
+- "Could not find an intent with identifier %{public}s, mangledTypeName: %{public}s"
+- "Creating context: %s for connection: %ld"
+- "EXIFGPSVersion"
+- "EXIFVersion"
+- "End `requestContinueInAppCallback`, checking for continuation"
+- "Finishing scene task %s"
+- "GPSAreaInformation"
+- "GPSDOP"
+- "GPSDateStamp"
+- "GPSDestBearing"
+- "GPSDestDistance"
+- "GPSDestLatitude"
+- "GPSDestLongitude"
+- "GPSDifferental"
+- "GPSMapDatum"
+- "GPSMeasureMode"
+- "GPSProcessingMethod"
+- "GPSStatus"
+- "GPSTrack"
+- "HTMLContentData"
+- "ISOSpeed"
+- "Intent type %s is neither a system nor an active view intent.\nRunning default perform."
+- "Invoking `prepare` because the intent conforms to `PreparableIntent` and system context allows it"
+- "LNAction did not include metadata, this may be a bug in a client of AppIntents"
+- "Missing or malformed LNConnectionContext"
+- "NO SCENE ACTIVATION INFO"
+- "NOT invoking `prepare` because the intent conforms to `PreparableIntent`, but system context does NOT allow it"
+- "No ConnectionContext found for %ld"
+- "Registering scene task %s"
+- "Removing context for connection: %ld"
+- "Removing scene task %s"
+- "Scene navigation completed for %s"
+- "Scene task %s already registered"
+- "URL"
+- "Unable to create a delegate"
+- "Undoable intent %s reports unable to undo"
+- "Updating context: %s for connection: %ld"
+- "Using view intent in place of perform()"
+- "Verifying that Audio Recording Intent started a Live Activity"
+- "Verifying that the returned type matches the expected types from metadata"
+- "View intent provider for intent type %s and view intent identifier\n%s not found."
+- "Vv40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"LNActionMetadata\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"LNEntityMetadata\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"LNEnumMetadata\"@\"NSError\">32"
+- "Vv40@0:8@\"NSString\"16@\"NSArray\"24@?<v@?@\"LNQueryMetadata\"@\"NSError\">32"
+- "Vv40@0:8@16@24@?32"
+- "_TtC10AppIntents21AppIntentSceneManager"
+- "_TtCC10AppIntents21AppIntentSceneManagerP33_1B2B12180E31723EBD1D99BB3771758B9Container"
+- "`PreparableIntent` does not allow throwing AppIntentErrors"
+- "accountHandles"
+- "accountIdentifier"
+- "acquisitionMake"
+- "acquisitionModel"
+- "actionIdentifiers"
+- "actionWithIdentifier:frameworkBundles:completionHandler:"
+- "actionsForBundleIdentifier:error:"
+- "addedDate"
+- "additionalRecipients"
+- "album"
+- "allDay"
+- "alternateNames"
+- "altitude"
+- "aperture"
+- "appIntent"
+- "artist"
+- "audiences"
+- "audioBitRate"
+- "audioChannelCount"
+- "audioEncodingApplication"
+- "audioSampleRate"
+- "audioTrackNumber"
+- "authorAddresses"
+- "authorEmailAddresses"
+- "authorNames"
+- "authors"
+- "bitsPerSample"
+- "cameraOwner"
+- "city"
+- "codecs"
+- "colorSpace"
+- "comment"
+- "completionDate"
+- "composer"
+- "contactKeywords"
+- "containerDisplayName"
+- "containerIdentifier"
+- "containerOrder"
+- "containerTitle"
+- "containers"
+- "contentCreationDate"
+- "contentDescription"
+- "contentModificationDate"
+- "contentRating"
+- "contentSources"
+- "contentTypeTree"
+- "contentURL"
+- "continueInApp"
+- "contributors"
+- "copyright"
+- "coverage"
+- "creator"
+- "darkThumbnailURL"
+- "deliveryType"
+- "director"
+- "domainIdentifier"
+- "downloadedDate"
+- "dueDate"
+- "duration"
+- "editors"
+- "emailAddresses"
+- "emailHeaders"
+- "encodingApplications"
+- "endDate"
+- "entitiesForBundleIdentifier:error:"
+- "entityType"
+- "entityWithIdentifier:frameworkBundles:completionHandler:"
+- "enumWithIdentifier:frameworkBundles:completionHandler:"
+- "exposureMode"
+- "exposureProgram"
+- "exposureTime"
+- "exposureTimeString"
+- "fNumber"
+- "fileSize"
+- "focalLength"
+- "fontNames"
+- "fullyFormattedAddress"
+- "genre"
+- "hasAlphaChannel"
+- "headline"
+- "hiddenAdditionalRecipients"
+- "imageDirection"
+- "importantDates"
+- "information"
+- "initWithBundleIdentifier:action:widgetKind:context:"
+- "initWithCountryCodes:"
+- "initWithDeviceIdentifier:isPlaying:"
+- "initWithGroupIdentifier:"
+- "initWithIdentifier:dialog:viewSnippet:attribution:value:showOutputAction:showOutputActionHint:showOutputActionOptions:deferred:nextAction:suggestedFollowUpActions:activityIdentifier:confirmationActionName:showPrompt:confirmationConditions:undoContext:"
+- "initWithListener:"
+- "initWithNLGParams:options:fallbackDialog:localeIdentifier:"
+- "initWithRegion:"
+- "initWithSituation:"
+- "initWithStartDate:endDate:"
+- "initWithStartDate:endDate:priority:"
+- "initWithType:title:value:format:"
+- "initWithUndoToken:actionString:"
+- "initializeAction"
+- "instantMessageAddresses"
+- "instructions"
+- "isFlashOn"
+- "isFocalLength35mm"
+- "isGeneralMIDISequence"
+- "isLikelyJunk"
+- "isLocal"
+- "isRedEyeOn"
+- "isStreamable"
+- "isUserCreated"
+- "isUserCurated"
+- "isUserOwned"
+- "keySignature"
+- "keywords"
+- "languages"
+- "lastUsedDate"
+- "latitude"
+- "layerNames"
+- "lensModel"
+- "locateActionPerformer"
+- "longitude"
+- "lyricist"
+- "mailboxIdentifiers"
+- "maxAperture"
+- "mediaTypes"
+- "metadataModificationDate"
+- "meteringMode"
+- "musicalGenre"
+- "musicalInstrumentCategory"
+- "musicalInstrumentName"
+- "namedLocation"
+- "navigationTask"
+- "needsActionConfirmation"
+- "needsConfirmation"
+- "needsDisambiguation"
+- "needsValue"
+- "openAppWhenRun"
+- "openURL"
+- "organizations"
+- "orientation"
+- "originalFormat"
+- "originalSource"
+- "pageCount"
+- "pageHeight"
+- "pageWidth"
+- "participants"
+- "path"
+- "performAction"
+- "performers"
+- "phoneNumbers"
+- "pixelCount"
+- "pixelHeight"
+- "pixelWidth"
+- "playCount"
+- "primaryRecipients"
+- "processPresentation"
+- "producer"
+- "profileName"
+- "projects"
+- "providerDataTypeIdentifiers"
+- "providerFileTypeIdentifiers"
+- "providerInPlaceFileTypeIdentifiers"
+- "publishers"
+- "queriesForBundleIdentifier:ofType:error:"
+- "queryWithIdentifier:frameworkBundles:completionHandler:"
+- "rankingHint"
+- "rating"
+- "ratingDescription"
+- "recipientAddresses"
+- "recipientEmailAddresses"
+- "recipientNames"
+- "recordingDate"
+- "relatedUniqueIdentifier"
+- "resolutionHeightDPI"
+- "resolutionWidthDPI"
+- "resolveParameters"
+- "rights"
+- "role"
+- "securityMethod"
+- "setAccountHandles:"
+- "setAccountIdentifier:"
+- "setAcquisitionMake:"
+- "setAcquisitionModel:"
+- "setActionIdentifiers:"
+- "setActionUserInfoValue:forKey:"
+- "setAddedDate:"
+- "setAdditionalRecipients:"
+- "setAlbum:"
+- "setAllDay:"
+- "setAlternateNames:"
+- "setAltitude:"
+- "setAperture:"
+- "setArtist:"
+- "setAudiences:"
+- "setAudioBitRate:"
+- "setAudioChannelCount:"
+- "setAudioEncodingApplication:"
+- "setAudioSampleRate:"
+- "setAudioTrackNumber:"
+- "setAuthorAddresses:"
+- "setAuthorEmailAddresses:"
+- "setAuthorNames:"
+- "setAuthors:"
+- "setBitsPerSample:"
+- "setCameraOwner:"
+- "setCity:"
+- "setCodecs:"
+- "setColorSpace:"
+- "setComment:"
+- "setCompletionDate:"
+- "setComposer:"
+- "setContactKeywords:"
+- "setContainerDisplayName:"
+- "setContainerIdentifier:"
+- "setContainerOrder:"
+- "setContainerTitle:"
+- "setContentCreationDate:"
+- "setContentDescription:"
+- "setContentModificationDate:"
+- "setContentRating:"
+- "setContentSources:"
+- "setContentTypeTree:"
+- "setContentURL:"
+- "setContributors:"
+- "setCopyright:"
+- "setCountry:"
+- "setCoverage:"
+- "setCreator:"
+- "setDarkThumbnailURL:"
+- "setDeliveryType:"
+- "setDirector:"
+- "setDisplayName:"
+- "setDomainIdentifier:"
+- "setDownloadedDate:"
+- "setDueDate:"
+- "setDuration:"
+- "setEXIFGPSVersion:"
+- "setEXIFVersion:"
+- "setEditors:"
+- "setEmailAddresses:"
+- "setEmailHeaders:"
+- "setEncodingApplications:"
+- "setEndDate:"
+- "setExposureMode:"
+- "setExposureProgram:"
+- "setExposureTime:"
+- "setExposureTimeString:"
+- "setFNumber:"
+- "setFileSize:"
+- "setFlashOn:"
+- "setFocalLength35mm:"
+- "setFocalLength:"
+- "setFontNames:"
+- "setFullyFormattedAddress:"
+- "setGPSAreaInformation:"
+- "setGPSDOP:"
+- "setGPSDateStamp:"
+- "setGPSDestBearing:"
+- "setGPSDestDistance:"
+- "setGPSDestLatitude:"
+- "setGPSDestLongitude:"
+- "setGPSDifferental:"
+- "setGPSMapDatum:"
+- "setGPSMeasureMode:"
+- "setGPSProcessingMethod:"
+- "setGPSStatus:"
+- "setGPSTrack:"
+- "setGeneralMIDISequence:"
+- "setGenre:"
+- "setHTMLContentData:"
+- "setHasAlphaChannel:"
+- "setHeadline:"
+- "setHiddenAdditionalRecipients:"
+- "setISOSpeed:"
+- "setIdentifier:"
+- "setImageDirection:"
+- "setImportantDates:"
+- "setInformation:"
+- "setInstantMessageAddresses:"
+- "setInstructions:"
+- "setKeySignature:"
+- "setKeywords:"
+- "setKind:"
+- "setLanguages:"
+- "setLastUsedDate:"
+- "setLatitude:"
+- "setLayerNames:"
+- "setLensModel:"
+- "setLikelyJunk:"
+- "setLocal:"
+- "setLongitude:"
+- "setLyricist:"
+- "setMailboxIdentifiers:"
+- "setMaxAperture:"
+- "setMediaTypes:"
+- "setMetadataModificationDate:"
+- "setMeteringMode:"
+- "setMusicalGenre:"
+- "setMusicalInstrumentCategory:"
+- "setMusicalInstrumentName:"
+- "setNamedLocation:"
+- "setOrganizations:"
+- "setOrientation:"
+- "setOriginalFormat:"
+- "setOriginalSource:"
+- "setPageCount:"
+- "setPageHeight:"
+- "setPageWidth:"
+- "setParticipants:"
+- "setPath:"
+- "setPerformers:"
+- "setPhoneNumbers:"
+- "setPixelCount:"
+- "setPixelHeight:"
+- "setPixelWidth:"
+- "setPlayCount:"
+- "setPostalCode:"
+- "setPrimaryRecipients:"
+- "setProducer:"
+- "setProfileName:"
+- "setProjects:"
+- "setProviderDataTypeIdentifiers:"
+- "setProviderFileTypeIdentifiers:"
+- "setProviderInPlaceFileTypeIdentifiers:"
+- "setPublishers:"
+- "setRankingHint:"
+- "setRating:"
+- "setRatingDescription:"
+- "setRecipientAddresses:"
+- "setRecipientEmailAddresses:"
+- "setRecipientNames:"
+- "setRecordingDate:"
+- "setRedEyeOn:"
+- "setRelatedUniqueIdentifier:"
+- "setResolutionHeightDPI:"
+- "setResolutionWidthDPI:"
+- "setRights:"
+- "setRole:"
+- "setSecurityMethod:"
+- "setSharedItemContentType:"
+- "setSpeed:"
+- "setStartDate:"
+- "setStateOrProvince:"
+- "setStreamable:"
+- "setSubThoroughfare:"
+- "setSubject:"
+- "setSupportsNavigation:"
+- "setSupportsPhoneCall:"
+- "setTempo:"
+- "setTextContent:"
+- "setTheme:"
+- "setThoroughfare:"
+- "setTimeSignature:"
+- "setTimestamp:"
+- "setTotalBitRate:"
+- "setURL:"
+- "setUserCreated:"
+- "setUserCurated:"
+- "setUserOwned:"
+- "setVersion:"
+- "setVideoBitRate:"
+- "setWeakRelatedUniqueIdentifier:"
+- "setWhiteBalance:"
+- "sharedItemContentType"
+- "speed"
+- "startDate"
+- "stateOrProvince"
+- "subject"
+- "supportsNavigation"
+- "supportsPhoneCall"
+- "tempo"
+- "textContent"
+- "theme"
+- "thumbnailData"
+- "thumbnailURL"
+- "timeSignature"
+- "timestamp"
+- "totalBitRate"
+- "undoActionName"
+- "version"
+- "videoBitRate"
+- "weakRelatedUniqueIdentifier"
+- "whiteBalance"
+
+```

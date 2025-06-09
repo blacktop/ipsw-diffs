@@ -1,0 +1,306 @@
+## SiriInformationTypes
+
+> `/System/Library/PrivateFrameworks/SiriInformationTypes.framework/SiriInformationTypes`
+
+```diff
+
+-3405.26.1.11.2
+-  __TEXT.__text: 0x41c70
+-  __TEXT.__auth_stubs: 0x13b0
++3500.46.2.0.0
++  __TEXT.__text: 0x44958
++  __TEXT.__auth_stubs: 0x1440
+   __TEXT.__objc_methlist: 0x888
+-  __TEXT.__const: 0x421f0
+-  __TEXT.__cstring: 0x1a09
+-  __TEXT.__oslogstring: 0xc80
+-  __TEXT.__swift5_typeref: 0x8d8
+-  __TEXT.__swift5_reflstr: 0xb92
++  __TEXT.__const: 0x42dd0
++  __TEXT.__cstring: 0x1a59
++  __TEXT.__oslogstring: 0xd80
++  __TEXT.__swift5_typeref: 0x92e
++  __TEXT.__swift5_reflstr: 0xbc2
+   __TEXT.__swift5_assocty: 0xc0
+   __TEXT.__constg_swiftt: 0x120c
+-  __TEXT.__swift5_fieldmd: 0xd0c
++  __TEXT.__swift5_fieldmd: 0xd3c
+   __TEXT.__swift5_proto: 0x138
+   __TEXT.__swift5_types: 0xdc
+   __TEXT.__swift5_builtin: 0x3c
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_capture: 0x30
+-  __TEXT.__unwind_info: 0x1008
+-  __TEXT.__eh_frame: 0x488
++  __TEXT.__unwind_info: 0xfe0
++  __TEXT.__eh_frame: 0x400
+   __TEXT.__objc_classname: 0x21
+   __TEXT.__objc_methname: 0x792
+   __TEXT.__objc_methtype: 0xeb
+-  __DATA_CONST.__got: 0x498
+-  __DATA_CONST.__const: 0x528
++  __DATA_CONST.__got: 0x4c8
++  __DATA_CONST.__const: 0x510
+   __DATA_CONST.__objc_classlist: 0xc0
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x2b0
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x9d8
+-  __AUTH_CONST.__const: 0xfd0
+-  __AUTH_CONST.__objc_const: 0x1928
+-  __AUTH.__objc_data: 0x1508
+-  __AUTH.__data: 0x360
+-  __DATA.__data: 0x750
+-  __DATA.__common: 0xe0
++  __AUTH_CONST.__auth_got: 0xa20
++  __AUTH_CONST.__const: 0xff8
++  __AUTH_CONST.__objc_const: 0x1968
++  __AUTH.__objc_data: 0x11a8
++  __AUTH.__data: 0x298
++  __DATA.__data: 0x710
++  __DATA.__common: 0xd8
+   __DATA.__bss: 0x19d0
+-  __DATA_DIRTY.__objc_data: 0xc28
+-  __DATA_DIRTY.__data: 0x878
++  __DATA_DIRTY.__objc_data: 0xf98
++  __DATA_DIRTY.__data: 0x9c0
+   __DATA_DIRTY.__bss: 0xd80
+-  __DATA_DIRTY.__common: 0x70
++  __DATA_DIRTY.__common: 0x80
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
+
+   - /System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes
+   - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
+   - /System/Library/PrivateFrameworks/SiriOntologyProtobuf.framework/SiriOntologyProtobuf
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 0352C059-436E-3641-A8A3-3FDF35E465AA
+-  Functions: 1666
+-  Symbols:   4985
+-  CStrings:  392
++  UUID: 62B93892-FDDD-32C2-B1A4-328F57CA77C5
++  Functions: 1679
++  Symbols:   5034
++  CStrings:  397
+ 
+Symbols:
++ _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO18sportsGetTeamScoreyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO20sportsGetLeagueScoreyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO21sportsGetTeamScheduleyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO23sportsGetLeagueScheduleyA2CmFWC
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseOACSHAAWL
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseOMn
++ _$s10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseOSHAAMc
++ _$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_ServerSuggestionVSgWOhTm
++ _$s10PegasusAPI42Apple_Parsec_Siri_V2alpha_SuggestionIntentOACycfC
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06createhI9Parameter10identifier5valueAD013INInformationhiN0CSS_SStFZ
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06createhI9Parameter10identifier5valueAD013INInformationhiN0CSS_SStFZTf4nnd_n
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06sportsH5CasesShyAA0c1_d1_e1_f1_ghI0OGvgZ
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06sportsH5CasesShyAA0c1_d1_e1_f1_ghI0OGvpZ
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06sportsH5Cases_WZ
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE06sportsH5Cases_Wz
++ _$s10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataV0E16InformationTypesE28parseSportsTeamParameterInfoySayAD013INInformationhiP0CGAA0c1_d1_e1_f1_ghiP0VF
++ _$s20SiriInformationTypes10ExperienceC13renderOptionsAA012PommesRenderF0CvpACTk
++ _$s20SiriInformationTypes10ExperienceC16pluginIdentifierSSvpACTk
++ _$s20SiriInformationTypes11FeatureFlagOWOc
++ _$s20SiriInformationTypes14PommesResponseC11experiencesSayAA10ExperienceCGvpACTk
++ _$s20SiriInformationTypes15AudioExperienceC06serverD7ResultsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D4ItemVGvpACTk
++ _$s20SiriInformationTypes17GenericExperienceC04sageE010PegasusAPI013Apple_Parsec_a13_V2alpha_SageE0VSgvpACTk
++ _$s20SiriInformationTypes17GenericExperienceC17serverSuggestions10PegasusAPI013Apple_Parsec_A25_V2alpha_ServerSuggestionVSgvpACTk
++ _$s20SiriInformationTypes17PommesCandidateIdOSgWOhTm
++ _$s20SiriInformationTypes19SuggestionConstantsO18clockServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvgZ
++ _$s20SiriInformationTypes19SuggestionConstantsO18clockServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvpZ
++ _$s20SiriInformationTypes19SuggestionConstantsO18clockServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvpZMV
++ _$s20SiriInformationTypes19SuggestionConstantsO18clockServerIntents_WZ
++ _$s20SiriInformationTypes19SuggestionConstantsO18clockServerIntents_Wz
++ _$s20SiriInformationTypes19SuggestionConstantsO20weatherServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvgZ
++ _$s20SiriInformationTypes19SuggestionConstantsO20weatherServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvpZ
++ _$s20SiriInformationTypes19SuggestionConstantsO20weatherServerIntentsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D6IntentOGvpZMV
++ _$s20SiriInformationTypes19SuggestionConstantsO20weatherServerIntents_WZ
++ _$s20SiriInformationTypes19SuggestionConstantsO20weatherServerIntents_Wz
++ _$s21InternalSwiftProtobuf07Google_C6_ValueV06structE0AA0d1_C7_StructVvg
++ _$s21InternalSwiftProtobuf07Google_C7_StructV6fieldsSDySSAA0d1_C6_ValueVGvg
++ _$s21InternalSwiftProtobuf07Google_C7_StructVMa
++ _$s21SiriInformationSearch13PommesContextVSgWOcTm
++ _$s21SiriInformationSearch14PommesResponseC15requestLocationSo10CLLocationCSgvg
++ _$s21SiriInformationSearch14PommesResponseC15requestLocationSo10CLLocationCSgvpMV
++ _$s21SiriInformationSearch14PommesResponseC15requestLocationSo10CLLocationCSgvpWvd
++ _$s21SiriInformationSearch14PommesResponseC21isQueryDirectQuestionSbvg
++ _$s21SiriInformationSearch14PommesResponseC21isQueryDirectQuestionSbvpMV
++ _$s21SiriInformationSearch14PommesResponseC21isQueryDirectQuestionSbvpWvd
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV15requestLocationSo10CLLocationCSgvM
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV15requestLocationSo10CLLocationCSgvM.resume.0
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV15requestLocationSo10CLLocationCSgvg
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV15requestLocationSo10CLLocationCSgvpMV
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV15requestLocationSo10CLLocationCSgvs
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV21isQueryDirectQuestionSbvM
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV21isQueryDirectQuestionSbvM.resume.0
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV21isQueryDirectQuestionSbvg
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV21isQueryDirectQuestionSbvpMV
++ _$s21SiriInformationSearch14PommesResponseC7BuilderV21isQueryDirectQuestionSbvs
++ _$s21SiriInformationSearch14PommesResponseCMaTm
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SbTt0g5Tf4g_n
++ _$sSH13_rawHashValue4seedS2i_tFTj
++ _$sSTsE8contains5whereS2b7ElementQzKXE_tKFSaySSG_Tg5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.1
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TATm
++ _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF20SiriInformationTypes29INInformationUseCaseParameterC_Tg5Tm
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF20SiriInformationTypes29INInformationUseCaseParameterC_Tg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF20SiriInformationTypes29INInformationUseCaseParameterC_SayAGGTg5
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF20SiriInformationTypes29INInformationUseCaseParameterC_SayAGGTg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSay20SiriInformationTypes26INInformationUseCaseIntentCGSayxGSlsWlTm
++ _$sSay20SiriInformationTypes29INInformationUseCaseParameterCGMD
++ _$sSay20SiriInformationTypes29INInformationUseCaseParameterCGSayxGSlsWL
++ _$sSaySo8NSStringCGMD
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW20SiriInformationTypes29INInformationUseCaseParameterC_Tg5
++ _$sSayxGSlsSly7ElementQz5IndexQzcirTW20SiriInformationTypes29INInformationUseCaseParameterC_Tg5.resume.0
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$sSh8containsySbxF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufC10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_SayAFGTt0g5Tf4g_n
++ _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyFs10ArraySliceVy21SiriInformationSearch13PommesContextV6SourceO10CodingKeys33_362761E44F4A82E600A827D16A10D6B3LLOG_Tg5
++ _$sSo10CLLocationCML
++ _$sSo10CLLocationCSgML
++ _$sSo14SASRecognitionCSgMaTm
++ _$sSy10FoundationE8containsySbqd__SyRd__lF
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$ss10_NativeSetV4copyyyF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCy10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseOGMD
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss23_ContiguousArrayStorageCy10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseOGMD
++ _$ss23_ContiguousArrayStorageCyyXlGMD
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _OBJC_CLASS_$_CLLocation
++ __PROTOCOLS__TtC21SiriInformationSearch12PommesResult.44
++ __PROTOCOLS__TtC21SiriInformationSearch14PommesResponse.50
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriInformationTypes
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriInformationTypes
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriInformationTypes
++ _bzero
++ _objc_retain_x21
++ _swift_deallocClassInstance
++ _swift_release_n
++ _swift_setDeallocating
++ _symbolic SaySo8NSStringCG
++ _symbolic Say_____G 20SiriInformationTypes29INInformationUseCaseParameterC
++ _symbolic So10CLLocationCSg
++ _symbolic _____y_____G s11_SetStorageC 10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10PegasusAPI39Apple_Parsec_Siri_V2alpha_DomainUseCaseO
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
+- _$s10Foundation4DataV15_RepresentationO15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
+- _$s20SiriInformationTypes11FeatureFlagOWOr
+- _$s20SiriInformationTypes11FeatureFlagOWOy
+- _$s20SiriInformationTypes17PommesCandidateIdO15MedocCodingKeys33_2512DB220CBC340491304B4B60B61C76LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s20SiriInformationTypes17PommesCandidateIdOSgWOsTm
+- _$s21SiriInformationSearch10ExperienceC13renderOptionsAA012PommesRenderF0CvpACTk
+- _$s21SiriInformationSearch10ExperienceC16pluginIdentifierSSvpACTk
+- _$s21SiriInformationSearch10ExperienceC5coderACSgSo7NSCoderC_tcfc10PegasusAPI013Apple_Parsec_A21_Context_ResultEntityVSgSo6NSDataCXEfU_
+- _$s21SiriInformationSearch13PommesContextV10CodingKeys33_362761E44F4A82E600A827D16A10D6B3LLO11stringValueSSvg
+- _$s21SiriInformationSearch13PommesContextV6SourceO25PegasusResponseCodingKeys33_362761E44F4A82E600A827D16A10D6B3LLO11stringValueAHSgSS_tcfCTf4nd_n
+- _$s21SiriInformationSearch13PommesContextVSgWOc
+- _$s21SiriInformationSearch13PommesContextVSgWOhTm
+- _$s21SiriInformationSearch14PommesResponseC11experiences13clientResults19conversationContext18metadataDomainName13renderedTexts07pegasusL11FlowStepLog0pl18UserSensitiveTier1S019listenAfterSpeaking9requestId17pommesCandidateId20isHandledByPreflight32preflightClientHandlerIdentifier04taskR4Logs04useruV4Logs18componentsWarmedUp12searchReason14domainUseCasesACSayAA10ExperienceCG_SayAA0D6ResultCG10Foundation4DataVSgSSSaySSGA2_A2_SbSSSg0aB5Types0D11CandidateIdOSgSbA4_SayA2_GA9_SayA5_15WarmupComponentOGA5_0dC6ReasonOSay10PegasusAPI013Apple_Parsec_a9_V2alpha_L15UseCaseMetadataVGtcfcTf4nngnnggnnnnnnnnnnn_n
+- _$s21SiriInformationSearch14PommesResponseC11experiencesSayAA10ExperienceCGvpACTk
+- _$s21SiriInformationSearch14PommesResponseC7BuilderVMaTm
+- _$s21SiriInformationSearch15AudioExperienceC06serverD7ResultsSay10PegasusAPI013Apple_Parsec_a9_V2alpha_D4ItemVGvpACTk
+- _$s21SiriInformationSearch17GenericExperienceC04sageE010PegasusAPI013Apple_Parsec_a13_V2alpha_SageE0VSgvpACTk
+- _$s21SiriInformationSearch17GenericExperienceC17serverSuggestions10PegasusAPI013Apple_Parsec_A25_V2alpha_ServerSuggestionVSgvpACTk
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SbTt0g5
+- _$sSTsE10compactMapySayqd__Gqd__Sg7ElementQzKXEKlFSay21SiriInformationSearch10ExperienceCG_0dE5Types26INInformationUseCaseIntentCTg504$s21de27Search14PommesResponseC0aB5h6E24getij22Cases6localeSayAD0hI10kl15CGSS_tFAHSgAA10G7CXEfU1_SSAJ0ijK9UtteranceCSSTf1cn_nTf4nggg_n
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSaySSG_Tg5
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg20SiriInformationTypes18PommesSearchReasonO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg20SiriInformationTypes20UserPromptExperienceC0H4TypeO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg21SiriInformationSearch19PommesRenderOptionsC10PromptTypeO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF20SiriInformationTypes18PommesSearchReasonO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF20SiriInformationTypes20UserPromptExperienceC0J4TypeO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF21SiriInformationSearch19PommesRenderOptionsC10PromptTypeO_TB5
+- _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF20SiriInformationTypes18PommesSearchReasonO_TB5
+- _$sSa10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo7NSArrayC_SayxGSgztFZ
+- _$sSa13_copyContents12initializings16IndexingIteratorVySayxGG_SitSryxG_tF20SiriInformationTypes26INInformationUseCaseIntentC_Tg5
+- _$sSay20SiriInformationTypes26INInformationUseCaseIntentCGSayxGSlsWl
+- _$sSayxSicir20SiriInformationTypes26INInformationUseCaseIntentC_Tg5
+- _$sSayxSicir20SiriInformationTypes26INInformationUseCaseIntentC_Tg5.resume.0
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay10PegasusAPI47Apple_Parsec_Siri_V2alpha_DomainUseCaseMetadataVG_0H16InformationTypes013INInformationkL6IntentCs5NeverOTg504$s21hn27Search14PommesResponseC0aB5o6E24getpk22Cases6localeSayAD0hI10lq11CGSS_tFAH10d6API013f1_g5_a15_i10_DomainiL8M7VXEfU0_SSAJ0pkL9UtteranceCSSTf1cn_nTf4nggg_n
+- _$sSo14SASRecognitionCSgMa
+- _$sSo7NSCoderC10FoundationE20decodeArrayOfObjects7ofClass6forKeySayxGSgxm_SStSo8NSObjectCRbzSo14NSSecureCodingRzlF
+- _$sSo8NSObjectCSgWOhTm
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF20SiriInformationTypes20UserPromptExperienceC0H4TypeO_TB5
+- _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF21SiriInformationSearch19PommesRenderOptionsC10PromptTypeO_TB5
+- __PROTOCOLS__TtC21SiriInformationSearch12PommesResult.43
+- __PROTOCOLS__TtC21SiriInformationSearch14PommesResponse.49
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriInformationTypes
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriInformationTypes
+- _free
+- _malloc
+- _objc_release_x9
+- _objc_retain_x22
+- _objc_retain_x27
+- _swift_bridgeObjectRelease_n
+CStrings:
++ "RelatedQuestions supported domain without server suggestions, create INInformationUseCaseIntent for current utterance for engagement tracking"
++ "Returning INInformationUseCaseIntent with domainUseCaseIntents: %s and serverSuggestionIntents: %s"
++ "_voc_teamLocation"
++ "isQueryDirectQuestion"
++ "requestLocation"
+
+```

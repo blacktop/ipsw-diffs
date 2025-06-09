@@ -1,0 +1,71 @@
+## libIOACIPC.dylib
+
+> `/usr/lib/libIOACIPC.dylib`
+
+```diff
+
+-133.0.0.0.0
+-  __TEXT.__text: 0x747c
++208.0.0.0.0
++  __TEXT.__text: 0x74b0
+   __TEXT.__auth_stubs: 0x4f0
+   __TEXT.__gcc_except_tab: 0x134
+-  __TEXT.__cstring: 0xdde
++  __TEXT.__cstring: 0xdfb
+   __TEXT.__const: 0x127
+   __TEXT.__oslogstring: 0x6b5
+   __TEXT.__unwind_info: 0x240
+   __DATA_CONST.__got: 0x68
+-  __DATA_CONST.__const: 0x3e8
++  __DATA_CONST.__const: 0x3f0
+   __AUTH_CONST.__auth_got: 0x280
+   __AUTH_CONST.__const: 0x250
+   __AUTH_CONST.__cfstring: 0x100
+
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: BFE6AC60-D7FC-327E-AE0A-153CCC6C540B
++  UUID: 1A87997F-366F-3558-B03C-D1CE52D4B36F
+   Functions: 160
+   Symbols:   346
+-  CStrings:  203
++  CStrings:  204
+ 
+Symbols:
++ GCC_except_table39
++ __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI26IOACIPCTraceCodeAttachmentEEPS2_EclB8ne200100Ev
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__114__split_bufferI26IOACIPCTraceCodeAttachmentRNS_9allocatorIS1_EEE17__destruct_at_endB8ne200100EPS1_
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI26IOACIPCTraceCodeAttachmentEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI26IOACIPCTraceCodeAttachmentEEPS3_EEED2B8ne200100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI26IOACIPCTraceCodeAttachmentEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE5clearB8ne200100Ev
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZnwmSt19__type_descriptor_t
+- GCC_except_table38
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__129_AllocatorDestroyRangeReverseINS_9allocatorI26IOACIPCTraceCodeAttachmentEEPS2_EclB8ne190102Ev
+- __ZNKSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__114__split_bufferI26IOACIPCTraceCodeAttachmentRNS_9allocatorIS1_EEE17__destruct_at_endB8ne190102EPS1_
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI26IOACIPCTraceCodeAttachmentEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorI26IOACIPCTraceCodeAttachmentEEPS3_EEED2B8ne190102Ev
+- __ZNSt3__134__uninitialized_allocator_relocateB8ne190102INS_9allocatorI26IOACIPCTraceCodeAttachmentEES2_EEvRT_PT0_S7_S7_
+- __ZNSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE21__push_back_slow_pathIS1_EEPS1_OT_
+- __ZNSt3__16vectorI26IOACIPCTraceCodeAttachmentNS_9allocatorIS1_EEE7__clearB8ne190102Ev
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+CStrings:
++ "kACIPCChannelStopFailedFatal"
+
+```

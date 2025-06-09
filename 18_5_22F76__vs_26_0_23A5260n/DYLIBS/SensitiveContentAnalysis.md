@@ -1,0 +1,2191 @@
+## SensitiveContentAnalysis
+
+> `/System/Library/Frameworks/SensitiveContentAnalysis.framework/SensitiveContentAnalysis`
+
+```diff
+
+-93.5.5.0.0
+-  __TEXT.__text: 0x12f08
+-  __TEXT.__auth_stubs: 0xe80
+-  __TEXT.__objc_methlist: 0x598
+-  __TEXT.__const: 0x1240
+-  __TEXT.__cstring: 0x8ce
+-  __TEXT.__oslogstring: 0x4df
+-  __TEXT.__gcc_except_tab: 0x268
+-  __TEXT.__dlopen_cstrs: 0xc2
+-  __TEXT.__swift5_typeref: 0x6f6
+-  __TEXT.__constg_swiftt: 0x368
+-  __TEXT.__swift5_reflstr: 0x1d1
+-  __TEXT.__swift5_fieldmd: 0x228
+-  __TEXT.__swift5_types: 0x64
+-  __TEXT.__swift_as_entry: 0x4c
+-  __TEXT.__swift_as_ret: 0x3c
+-  __TEXT.__swift5_capture: 0x158
+-  __TEXT.__swift5_assocty: 0x168
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_proto: 0x138
+-  __TEXT.__unwind_info: 0x7f8
+-  __TEXT.__eh_frame: 0x9dc
+-  __TEXT.__objc_classname: 0xaf
+-  __TEXT.__objc_methname: 0x1199
+-  __TEXT.__objc_methtype: 0x28d
+-  __TEXT.__objc_stubs: 0xba0
+-  __DATA_CONST.__got: 0x218
+-  __DATA_CONST.__const: 0x338
+-  __DATA_CONST.__objc_classlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x20
++114.1.1.0.0
++  __TEXT.__text: 0x89964
++  __TEXT.__auth_stubs: 0x2400
++  __TEXT.__objc_methlist: 0xe8c
++  __TEXT.__const: 0x6960
++  __TEXT.__cstring: 0x2eab
++  __TEXT.__oslogstring: 0x1614
++  __TEXT.__gcc_except_tab: 0x310
++  __TEXT.__dlopen_cstrs: 0x1ee
++  __TEXT.__constg_swiftt: 0x1de0
++  __TEXT.__swift5_typeref: 0x29ed
++  __TEXT.__swift5_reflstr: 0x1210
++  __TEXT.__swift5_fieldmd: 0x17a0
++  __TEXT.__swift5_types: 0x2a0
++  __TEXT.__swift5_assocty: 0x508
++  __TEXT.__swift5_proto: 0x6a0
++  __TEXT.__swift5_capture: 0xd28
++  __TEXT.__swift5_builtin: 0x168
++  __TEXT.__swift_as_entry: 0x1e0
++  __TEXT.__swift_as_ret: 0x1c4
++  __TEXT.__swift5_mpenum: 0x48
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__unwind_info: 0x2d98
++  __TEXT.__eh_frame: 0x5f30
++  __TEXT.__objc_classname: 0x18c
++  __TEXT.__objc_methname: 0x24b3
++  __TEXT.__objc_methtype: 0x566
++  __TEXT.__objc_stubs: 0x1040
++  __DATA_CONST.__got: 0x608
++  __DATA_CONST.__const: 0x530
++  __DATA_CONST.__objc_classlist: 0x148
++  __DATA_CONST.__objc_catlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x88
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x490
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x750
+-  __AUTH_CONST.__const: 0x890
+-  __AUTH_CONST.__cfstring: 0x160
+-  __AUTH_CONST.__objc_const: 0xb48
+-  __AUTH.__objc_data: 0xb8
+-  __AUTH.__data: 0x1a0
+-  __DATA.__objc_ivar: 0x20
+-  __DATA.__data: 0x4e8
+-  __DATA.__bss: 0x1f50
+-  __DATA.__common: 0x28
+-  __DATA_DIRTY.__objc_data: 0x2a8
+-  __DATA_DIRTY.__data: 0xe0
+-  __DATA_DIRTY.__bss: 0x10
++  __DATA_CONST.__objc_selrefs: 0x990
++  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_superrefs: 0x48
++  __AUTH_CONST.__auth_got: 0x1210
++  __AUTH_CONST.__const: 0x4be0
++  __AUTH_CONST.__cfstring: 0x200
++  __AUTH_CONST.__objc_const: 0x2b00
++  __AUTH.__objc_data: 0x990
++  __AUTH.__data: 0x880
++  __DATA.__objc_ivar: 0x64
++  __DATA.__data: 0xf70
++  __DATA.__bss: 0x9420
++  __DATA.__common: 0x120
++  __DATA_DIRTY.__objc_data: 0x6f0
++  __DATA_DIRTY.__data: 0xc60
++  __DATA_DIRTY.__bss: 0x14e0
++  __DATA_DIRTY.__common: 0x70
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/Frameworks/SwiftData.framework/SwiftData
+   - /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
++  - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation
+   - /System/Library/PrivateFrameworks/ManagedSettingsObjC.framework/ManagedSettingsObjC
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/SensitiveContentAnalysisML
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /usr/lib/libSystem.B.dylib
++  - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 88583BF7-CF01-39E3-B9F9-898DB665B79A
+-  Functions: 683
+-  Symbols:   944
+-  CStrings:  340
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 5B0EC230-3096-32AF-8303-0DFA076606E2
++  Functions: 3524
++  Symbols:   2343
++  CStrings:  953
+ 
+Symbols:
++ +[SCAParticipant(SecureCoding) supportsSecureCoding]
++ +[SCMADPolicyService checkAvailability:]
++ +[SCMADVideoSession(TTR) ttrFrameCollectionEnabled]
++ -[SCAParticipant .cxx_destruct]
++ -[SCAParticipant displayName]
++ -[SCAParticipant firstName]
++ -[SCAParticipant handles]
++ -[SCAParticipant hash]
++ -[SCAParticipant initWithDisplayName:firstName:lastName:handles:]
++ -[SCAParticipant initWithDisplayName:handles:]
++ -[SCAParticipant isEqual:]
++ -[SCAParticipant lastName]
++ -[SCAParticipant(SecureCoding) copyWithZone:]
++ -[SCAParticipant(SecureCoding) encodeWithCoder:]
++ -[SCAParticipant(SecureCoding) initWithCoder:]
++ -[SCFrameBuffer .cxx_destruct]
++ -[SCFrameBuffer bufferFrame:timestamp:orientation:]
++ -[SCFrameBuffer dealloc]
++ -[SCFrameBuffer dumpFramesWithCompletionHandler:]
++ -[SCFrameBuffer initWithInterval:maxFrames:]
++ -[SCMADPolicyService .cxx_destruct]
++ -[SCMADPolicyService initWithUpdateHandler:error:]
++ -[SCMADPolicyService service]
++ -[SCMADUserSafetyPolicy setType:]
++ -[SCMADUserSafetyPolicy type]
++ -[SCMADVideoSession .cxx_destruct]
++ -[SCMADVideoSession initWithError:]
++ -[SCMADVideoSession processPixelBuffer:timestamp:orientation:resultHandler:]
++ -[SCMADVideoSession session]
++ -[SCMADVideoSession(TTR) requestTTRNotificationWithVideoFrames:streamID:startDate:completionHandler:]
++ -[SCMADVideoSessionTTRFrame .cxx_destruct]
++ -[SCMADVideoSessionTTRFrame frame]
++ -[SCMADVideoSessionTTRFrame initWithPixelBuffer:timestamp:orientation:]
++ -[SCMADVideoSessionTTRFrame pixelBuffer]
++ -[SCMADVideoSessionTTRFrame timestamp]
++ -[SCSensitivityAnalyzer analyzeCGImage:orientation:options:completionHandler:]
++ -[SCSensitivityAnalyzer analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:options:completionHandler:]
++ -[SCSensitivityAnalyzer analyzeVideoFile:options:progressHandler:completionHandler:]
++ -[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:]
++ GCC_except_table1
++ GCC_except_table10
++ GCC_except_table12
++ GCC_except_table14
++ GCC_except_table17
++ GCC_except_table19
++ GCC_except_table2
++ GCC_except_table25
++ GCC_except_table4
++ GCC_except_table8
++ _CFCopyHomeDirectoryURLForUser
++ _CFRetain
++ _CMTimeGetSeconds
++ _CMTimeSubtract
++ _CVPixelBufferGetHeight
++ _CVPixelBufferGetPixelFormatType
++ _CVPixelBufferGetWidth
++ _IMNormalizeFormattedString
++ _IMStringIsEmail
++ _IMStringIsPhoneNumber
++ _MOUserSafetyInterventionTypeChild
++ _MOUserSafetyScannableServicesContacts
++ _MOUserSafetyScannableServicesMessages
++ _MOUserSafetyScannableServicesPhotos
++ _MOUserSafetyScannableServicesVideoVoiceMail
++ _MediaAnalysisServicesLibraryCore
++ _NSSelectorFromString
++ _OBJC_CLASS_$_FAFamilyMember
++ _OBJC_CLASS_$_FAFetchFamilyCircleRequest
++ _OBJC_CLASS_$_MOUserSafetyScanningPolicy
++ _OBJC_CLASS_$_NSData
++ _OBJC_CLASS_$_NSDate
++ _OBJC_CLASS_$_NSFileManager
++ _OBJC_CLASS_$_NSMutableArray
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_CLASS_$_NSURL
++ _OBJC_CLASS_$_NSXPCCoder
++ _OBJC_CLASS_$_NSXPCConnection
++ _OBJC_CLASS_$_NSXPCInterface
++ _OBJC_CLASS_$_NSXPCListener
++ _OBJC_CLASS_$_NSXPCListenerEndpoint
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_RBSProcessHandle
++ _OBJC_CLASS_$_RBSProcessIdentifier
++ _OBJC_CLASS_$_SCAParticipant
++ _OBJC_CLASS_$_SCAnalysisHistory
++ _OBJC_CLASS_$_SCFrameBuffer
++ _OBJC_CLASS_$_SCMADPolicyService
++ _OBJC_CLASS_$_SCMADUserSafetyPolicy
++ _OBJC_CLASS_$_SCMADVideoSession
++ _OBJC_CLASS_$_SCMADVideoSessionTTRFrame
++ _OBJC_CLASS_$_SCServicePolicyChecker
++ _OBJC_CLASS_$_SwiftNativeNSObject
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis11SampleTimer
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ _OBJC_CLASS_$__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher
++ _OBJC_CLASS_$__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ _OBJC_IVAR_$_SCAParticipant._displayName
++ _OBJC_IVAR_$_SCAParticipant._firstName
++ _OBJC_IVAR_$_SCAParticipant._handles
++ _OBJC_IVAR_$_SCAParticipant._lastName
++ _OBJC_IVAR_$_SCFrameBuffer._bufferInterval
++ _OBJC_IVAR_$_SCFrameBuffer._frameCachingQueue
++ _OBJC_IVAR_$_SCFrameBuffer._frames
++ _OBJC_IVAR_$_SCFrameBuffer._maxFrames
++ _OBJC_IVAR_$_SCFrameBuffer._pixelBufferPool
++ _OBJC_IVAR_$_SCFrameBuffer._transferSession
++ _OBJC_IVAR_$_SCMADPolicyService._service
++ _OBJC_IVAR_$_SCMADUserSafetyPolicy._type
++ _OBJC_IVAR_$_SCMADVideoSession._session
++ _OBJC_IVAR_$_SCMADVideoSessionTTRFrame._frame
++ _OBJC_IVAR_$_SCMADVideoSessionTTRFrame._pixelBuffer
++ _OBJC_IVAR_$_SCMADVideoSessionTTRFrame._timestamp
++ _OBJC_IVAR_$_SCMediaAnalysisService._usedService
++ _OBJC_METACLASS_$_SCAParticipant
++ _OBJC_METACLASS_$_SCAnalysisHistory
++ _OBJC_METACLASS_$_SCFrameBuffer
++ _OBJC_METACLASS_$_SCMADPolicyService
++ _OBJC_METACLASS_$_SCMADUserSafetyPolicy
++ _OBJC_METACLASS_$_SCMADVideoSession
++ _OBJC_METACLASS_$_SCMADVideoSessionTTRFrame
++ _OBJC_METACLASS_$_SCServicePolicyChecker
++ _OBJC_METACLASS_$_SwiftNativeNSObject
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis11SampleTimer
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ _OBJC_METACLASS_$__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher
++ _OBJC_METACLASS_$__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ _OBJC_METACLASS_$__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ _OBJC_METACLASS_$__TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer
++ _SCAError
++ _SCAErrorCausedBy
++ _SCAErrorDomain
++ _SCVCPDecompressionSessionSetContentAnalyzer
++ _SCVCPDecompressionSessionSetContentAnalyzer.cold.1
++ _SecTaskCreateWithAuditToken
++ _VTDecompressionSessionSetContentAnalyzer
++ _VideoProcessingLibraryCore.frameworkLibrary
++ __CATEGORY_INSTANCE_METHODS_NSURL_$_SensitiveContentAnalysis
++ __CATEGORY_NSURL_$_SensitiveContentAnalysis
++ __CATEGORY_PROPERTIES_NSURL_$_SensitiveContentAnalysis
++ __CLASS_METHODS_SCAnalysisHistory
++ __CLASS_METHODS_SCServicePolicyChecker
++ __CLASS_METHODS_SCVideoStreamAnalyzer
++ __CLASS_METHODS__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __CLASS_PROPERTIES_SCVideoStreamAnalyzer
++ __CLASS_PROPERTIES__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __DATA_SCAnalysisHistory
++ __DATA_SCServicePolicyChecker
++ __DATA__TtC24SensitiveContentAnalysis10CacheCheck
++ __DATA__TtC24SensitiveContentAnalysis11ActiveCalls
++ __DATA__TtC24SensitiveContentAnalysis11PolicyActor
++ __DATA__TtC24SensitiveContentAnalysis11SampleTimer
++ __DATA__TtC24SensitiveContentAnalysis15AnalysisHistory
++ __DATA__TtC24SensitiveContentAnalysis15SensitiveHandle
++ __DATA__TtC24SensitiveContentAnalysis18CountedFrameBuffer
++ __DATA__TtC24SensitiveContentAnalysis19SamplingPrioritizer
++ __DATA__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ __DATA__TtC24SensitiveContentAnalysis20AnalysisHistoryCache
++ __DATA__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ __DATA__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ __DATA__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __DATA__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher
++ __DATA__TtC24SensitiveContentAnalysis4Call
++ __DATA__TtC24SensitiveContentAnalysisP33_4D89A8A00028CF3643711B7990FDFFDA13PolicyFetcher
++ __DATA__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ __DATA__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ __DATA__TtCC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost14SessionHandler
++ __DATA__TtCC24SensitiveContentAnalysis4Call13AnalyzerEntry
++ __DATA__TtCV24SensitiveContentAnalysis12Entitlements6Checks
++ __DATA__TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer
++ __INSTANCE_METHODS_SCAnalysisHistory
++ __INSTANCE_METHODS_SCServicePolicyChecker
++ __INSTANCE_METHODS__TtC24SensitiveContentAnalysis15ResumedListener
++ __INSTANCE_METHODS__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ __INSTANCE_METHODS__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ __INSTANCE_METHODS__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ __INSTANCE_METHODS__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __INSTANCE_METHODS__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ __INSTANCE_METHODS__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ __INSTANCE_METHODS__TtCE24SensitiveContentAnalysisVs4TaskP33_8C36D3A215B2EA28C207976663F7859D11Cancellable
++ __INSTANCE_METHODS__TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer
++ __IVARS__TtC24SensitiveContentAnalysis10CacheCheck
++ __IVARS__TtC24SensitiveContentAnalysis11ActiveCalls
++ __IVARS__TtC24SensitiveContentAnalysis11PolicyActor
++ __IVARS__TtC24SensitiveContentAnalysis11SampleTimer
++ __IVARS__TtC24SensitiveContentAnalysis15AnalysisHistory
++ __IVARS__TtC24SensitiveContentAnalysis15ResumedListener
++ __IVARS__TtC24SensitiveContentAnalysis15SensitiveHandle
++ __IVARS__TtC24SensitiveContentAnalysis18BlockForFirstValue
++ __IVARS__TtC24SensitiveContentAnalysis18CountedFrameBuffer
++ __IVARS__TtC24SensitiveContentAnalysis19SamplingPrioritizer
++ __IVARS__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ __IVARS__TtC24SensitiveContentAnalysis20AnalysisHistoryCache
++ __IVARS__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ __IVARS__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ __IVARS__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __IVARS__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher
++ __IVARS__TtC24SensitiveContentAnalysis4Call
++ __IVARS__TtC24SensitiveContentAnalysis6Waiter
++ __IVARS__TtC24SensitiveContentAnalysis7RunOnce
++ __IVARS__TtC24SensitiveContentAnalysisP33_4D89A8A00028CF3643711B7990FDFFDA13PolicyFetcher
++ __IVARS__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ __IVARS__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ __IVARS__TtCC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost14SessionHandler
++ __IVARS__TtCC24SensitiveContentAnalysis4Call13AnalyzerEntry
++ __IVARS__TtCE24SensitiveContentAnalysisVs4TaskP33_8C36D3A215B2EA28C207976663F7859D11Cancellable
++ __IVARS__TtCV24SensitiveContentAnalysis12Entitlements6Checks
++ __IVARS__TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer
++ __METACLASS_DATA_SCAnalysisHistory
++ __METACLASS_DATA_SCServicePolicyChecker
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis10CacheCheck
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis11ActiveCalls
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis11PolicyActor
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis11SampleTimer
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis15AnalysisHistory
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis15SensitiveHandle
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis18CountedFrameBuffer
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis19SamplingPrioritizer
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis19VideoStreamAnalyzer
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis20AnalysisHistoryCache
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher
++ __METACLASS_DATA__TtC24SensitiveContentAnalysis4Call
++ __METACLASS_DATA__TtC24SensitiveContentAnalysisP33_4D89A8A00028CF3643711B7990FDFFDA13PolicyFetcher
++ __METACLASS_DATA__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ __METACLASS_DATA__TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler
++ __METACLASS_DATA__TtCC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost14SessionHandler
++ __METACLASS_DATA__TtCC24SensitiveContentAnalysis4Call13AnalyzerEntry
++ __METACLASS_DATA__TtCV24SensitiveContentAnalysis12Entitlements6Checks
++ __METACLASS_DATA__TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer
++ __OBJC_$_CLASS_METHODS_SCAParticipant(SecureCoding)
++ __OBJC_$_CLASS_METHODS_SCMADPolicyService
++ __OBJC_$_CLASS_METHODS_SCMADVideoSession(TTR)
++ __OBJC_$_CLASS_METHODS_SCSensitivityAnalyzer(PolicyChecking)
++ __OBJC_$_CLASS_METHODS__TtC24SensitiveContentAnalysis11SampleTimer(SensitiveContentAnalysis)
++ __OBJC_$_INSTANCE_METHODS_SCAParticipant(SecureCoding)
++ __OBJC_$_INSTANCE_METHODS_SCFrameBuffer
++ __OBJC_$_INSTANCE_METHODS_SCMADPolicyService
++ __OBJC_$_INSTANCE_METHODS_SCMADUserSafetyPolicy
++ __OBJC_$_INSTANCE_METHODS_SCMADVideoSession(TTR)
++ __OBJC_$_INSTANCE_METHODS_SCMADVideoSessionTTRFrame
++ __OBJC_$_INSTANCE_METHODS_SCSensitivityAnalyzer(PolicyChecking)
++ __OBJC_$_INSTANCE_METHODS_SCVideoStreamAnalyzer(SessionManagement|XPC|Private)
++ __OBJC_$_INSTANCE_METHODS__TtC24SensitiveContentAnalysis11SampleTimer(SensitiveContentAnalysis)
++ __OBJC_$_INSTANCE_METHODS__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher(SensitiveContentAnalysis)
++ __OBJC_$_INSTANCE_VARIABLES_SCAParticipant
++ __OBJC_$_INSTANCE_VARIABLES_SCFrameBuffer
++ __OBJC_$_INSTANCE_VARIABLES_SCMADPolicyService
++ __OBJC_$_INSTANCE_VARIABLES_SCMADUserSafetyPolicy
++ __OBJC_$_INSTANCE_VARIABLES_SCMADVideoSession
++ __OBJC_$_INSTANCE_VARIABLES_SCMADVideoSessionTTRFrame
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROP_LIST_SCAParticipant
++ __OBJC_$_PROP_LIST_SCMADPolicyService
++ __OBJC_$_PROP_LIST_SCMADUserSafetyPolicy
++ __OBJC_$_PROP_LIST_SCMADVideoSession
++ __OBJC_$_PROP_LIST_SCMADVideoSessionTTRFrame
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_MOCancellable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SCCancellable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MOCancellable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SCCancellable
++ __OBJC_$_PROTOCOL_REFS_MOCancellable
++ __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_REFS_OS_xpc_object
++ __OBJC_CLASS_PROTOCOLS_$_SCAParticipant(SecureCoding)
++ __OBJC_CLASS_PROTOCOLS_$_SCSensitivityAnalysis(VideoStreamAnalysis|Private|Photos|Messages|MediaAnalysis)
++ __OBJC_CLASS_PROTOCOLS_$__TtC24SensitiveContentAnalysis11SampleTimer(SensitiveContentAnalysis)
++ __OBJC_CLASS_PROTOCOLS_$__TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher(SensitiveContentAnalysis)
++ __OBJC_CLASS_RO_$_SCAParticipant
++ __OBJC_CLASS_RO_$_SCFrameBuffer
++ __OBJC_CLASS_RO_$_SCMADPolicyService
++ __OBJC_CLASS_RO_$_SCMADUserSafetyPolicy
++ __OBJC_CLASS_RO_$_SCMADVideoSession
++ __OBJC_CLASS_RO_$_SCMADVideoSessionTTRFrame
++ __OBJC_LABEL_PROTOCOL_$_MOCancellable
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
++ __OBJC_LABEL_PROTOCOL_$_OS_xpc_object
++ __OBJC_LABEL_PROTOCOL_$_SCCancellable
++ __OBJC_METACLASS_RO_$_SCAParticipant
++ __OBJC_METACLASS_RO_$_SCFrameBuffer
++ __OBJC_METACLASS_RO_$_SCMADPolicyService
++ __OBJC_METACLASS_RO_$_SCMADUserSafetyPolicy
++ __OBJC_METACLASS_RO_$_SCMADVideoSession
++ __OBJC_METACLASS_RO_$_SCMADVideoSessionTTRFrame
++ __OBJC_PROTOCOL_$_MOCancellable
++ __OBJC_PROTOCOL_$_NSCopying
++ __OBJC_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_NSXPCListenerDelegate
++ __OBJC_PROTOCOL_$_OS_xpc_object
++ __OBJC_PROTOCOL_$_SCCancellable
++ __PROTOCOLS_SCVideoStreamAnalyzer
++ __PROTOCOLS_SCVideoStreamAnalyzer.2
++ __PROTOCOLS__TtC24SensitiveContentAnalysis15ResumedListener
++ __PROTOCOLS__TtC24SensitiveContentAnalysis15ResumedListener.14
++ __PROTOCOLS__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig
++ __PROTOCOLS__TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig.27
++ __PROTOCOLS__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener
++ __PROTOCOLS__TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener.14
++ __PROTOCOLS__TtCE24SensitiveContentAnalysisVs4TaskP33_8C36D3A215B2EA28C207976663F7859D11Cancellable
++ __PROTOCOLS__TtCE24SensitiveContentAnalysisVs4TaskP33_8C36D3A215B2EA28C207976663F7859D11Cancellable.20
++ __PROTOCOL_INSTANCE_METHODS__TtP24SensitiveContentAnalysis26AnalysisStorageXPCProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP24SensitiveContentAnalysis26AnalysisStorageXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_
++ __PROTOCOL_PROTOCOLS__TtP24SensitiveContentAnalysis26AnalysisStorageXPCProtocol_
++ __PROTOCOL_PROTOCOLS__TtP24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_
++ __PROTOCOL__TtP24SensitiveContentAnalysis26AnalysisStorageXPCProtocol_
++ __PROTOCOL__TtP24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_
++ ___101-[SCMADVideoSession(TTR) requestTTRNotificationWithVideoFrames:streamID:startDate:completionHandler:]_block_invoke
++ ___107-[SCSensitivityAnalyzer analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:options:completionHandler:]_block_invoke
++ ___107-[SCSensitivityAnalyzer analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:options:completionHandler:]_block_invoke_2
++ ___123-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:]_block_invoke
++ ___123-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:]_block_invoke_2
++ ___123-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:]_block_invoke_3
++ ___123-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:]_block_invoke_4
++ ___49-[SCFrameBuffer dumpFramesWithCompletionHandler:]_block_invoke
++ ___50-[SCMADPolicyService initWithUpdateHandler:error:]_block_invoke
++ ___51-[SCFrameBuffer bufferFrame:timestamp:orientation:]_block_invoke
++ ___76-[SCMADVideoSession processPixelBuffer:timestamp:orientation:resultHandler:]_block_invoke
++ ___78-[SCSensitivityAnalyzer analyzeCGImage:orientation:options:completionHandler:]_block_invoke
++ ___78-[SCSensitivityAnalyzer analyzeCGImage:orientation:options:completionHandler:]_block_invoke_2
++ ___84-[SCSensitivityAnalyzer analyzeVideoFile:options:progressHandler:completionHandler:]_block_invoke
++ ___84-[SCSensitivityAnalyzer analyzeVideoFile:options:progressHandler:completionHandler:]_block_invoke_2
++ ___84-[SCSensitivityAnalyzer analyzeVideoFile:options:progressHandler:completionHandler:]_block_invoke_3
++ ___84-[SCSensitivityAnalyzer analyzeVideoFile:options:progressHandler:completionHandler:]_block_invoke_4
++ ___NSDictionary0__struct
++ ___VideoProcessingLibraryCore_block_invoke
++ ___block_descriptor_40_e8_32bs_e20_v20?0B8"NSError"12ls32l8
++ ___block_descriptor_40_e8_32bs_e30_v24?0"NSObject"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32bs_e39_v48?0"NSArray"8{?=qiIq}16"NSError"40ls32l8
++ ___block_descriptor_48_e8_32s40bs_e5_v8?0ls32l8s40l8
++ ___block_descriptor_76_e8_32s_e5_v8?0ls32l8
++ ___getMADUserSafetyPolicyClass_block_invoke
++ ___getMADUserSafetyPolicyClass_block_invoke.cold.1
++ ___getMADVideoSessionClass_block_invoke
++ ___getMADVideoSessionClass_block_invoke.cold.1
++ ___getMADVideoSessionSafetyRequestClass_block_invoke
++ ___getMADVideoSessionSafetyRequestClass_block_invoke.cold.1
++ ___getMADVideoSessionSafetyResultClass_block_invoke
++ ___getMADVideoSessionSafetyResultClass_block_invoke.cold.1
++ ___getMADVideoSessionTTRFrameClass_block_invoke
++ ___getMADVideoSessionTTROptionsClass_block_invoke
++ ___getVCPDecompressionSessionSetContentAnalyzerSymbolLoc_block_invoke
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy17_8
++ ___swift_memcpy24_8
++ ___swift_memcpy25_8
++ ___swift_memcpy32_4
++ ___swift_memcpy33_8
++ ___swift_memcpy40_8
++ ___swift_memcpy41_8
++ ___swift_memcpy49_8
++ ___swift_memcpy56_8
++ ___swift_memcpy5_2
++ ___swift_memcpy60_8
++ ___swift_memcpy8_8
++ ___swift_memcpy9_8
++ ___unnamed_1
++ ___unnamed_10
++ ___unnamed_2
++ ___unnamed_3
++ ___unnamed_30
++ ___unnamed_4
++ ___unnamed_6
++ ___unnamed_9
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SensitiveContentAnalysis
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_SensitiveContentAnalysis
++ _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis011SensitivityC0VSHAASQ
++ _associated conformance 24SensitiveContentAnalysis011SensitivityC0Vs12IdentifiableAA2IDsADP_SH
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsVAA12SCXPCMessageAA5ReplyAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsVAA12SCXPCMessageAA5ReplyAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsVAA12SCXPCMessageAA7FailureAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsVAA12SCXPCMessageAA7FailureAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis05FetchA12ParticipantsVAA12SCXPCMessageAA7FailureAaDP_s5Error
++ _associated conformance 24SensitiveContentAnalysis05StoreC0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis05StoreC0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis05StoreC0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis05StoreC0VAA12SCXPCMessageAA5ReplyAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis05StoreC0VAA12SCXPCMessageAA5ReplyAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis05StoreC0VAA12SCXPCMessageAA7FailureAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis05StoreC0VAA12SCXPCMessageAA7FailureAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis05StoreC0VAA12SCXPCMessageAA7FailureAaDP_s5Error
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheVAA12SCXPCMessageAA5ReplyAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheVAA12SCXPCMessageAA5ReplyAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheVAA12SCXPCMessageAA7FailureAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheVAA12SCXPCMessageAA7FailureAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis06UpdateA16ParticipantCacheVAA12SCXPCMessageAA7FailureAaDP_s5Error
++ _associated conformance 24SensitiveContentAnalysis0A11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis0A11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis0A11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis0A11ParticipantVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 24SensitiveContentAnalysis0A6HandleC9SwiftData15PersistentModelAA11Observation10Observable
++ _associated conformance 24SensitiveContentAnalysis0A6HandleC9SwiftData15PersistentModelAA4RootAdEP_AdE
++ _associated conformance 24SensitiveContentAnalysis0A6HandleC9SwiftData15PersistentModelAASH
++ _associated conformance 24SensitiveContentAnalysis0A6HandleC9SwiftData15PersistentModelAAs12Identifiable
++ _associated conformance 24SensitiveContentAnalysis0A6HandleCSHAASQ
++ _associated conformance 24SensitiveContentAnalysis0A6HandleCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 24SensitiveContentAnalysis0aB6PolicyV7ChangesV13AsyncIteratorVScIAA7FailureScI_s5Error
++ _associated conformance 24SensitiveContentAnalysis0aB6PolicyV7ChangesVSciAA13AsyncIteratorSci_ScI
++ _associated conformance 24SensitiveContentAnalysis10SCFeaturesOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis11ParticipantVSHAASQ
++ _associated conformance 24SensitiveContentAnalysis11PolicyActorCs06GlobalE0AA0E4TypesADP_ScA
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC10CodingKeysOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0fE0AAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0fE0AAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0gE0AAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0gE0AAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0gE0AAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0gE0AAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOs26ExpressibleByStringLiteralAA0hI4TypesAFP_s01_fg7BuiltinhI0
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOs26ExpressibleByStringLiteralAAs0fg23ExtendedGraphemeClusterI0
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOs33ExpressibleByUnicodeScalarLiteralAA0hiJ4TypesAFP_s01_fg7BuiltinhiJ0
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOs43ExpressibleByExtendedGraphemeClusterLiteralAA0hijK4TypesAFP_s01_fg7BuiltinhijK0
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV3KeyOs43ExpressibleByExtendedGraphemeClusterLiteralAAs0fg13UnicodeScalarK0
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO0D17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO0D17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO0D17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO18BypassedCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO18BypassedCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO37FailedToCreateTaskFromTokenCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO37FailedToCreateTaskFromTokenCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO39ExpectedValuesNotPropertyListCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO39ExpectedValuesNotPropertyListCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO51FailedToCreateEntitlementVerificationTaskCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV5ErrorO51FailedToCreateEntitlementVerificationTaskCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12EntitlementsV6SourceOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis12SCEmptyReplyV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis12SCEmptyReplyV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__GSHAASQ
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17FailureCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__GSHAASQ
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17FailureCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17FailureCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17SuccessCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__GSHAASQ
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17SuccessCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis13CodableResultO17SuccessCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOyxq__Gs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesVAA12SCXPCMessageAA5ReplyAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesVAA12SCXPCMessageAA5ReplyAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesVAA12SCXPCMessageAA7FailureAaDP_SE
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesVAA12SCXPCMessageAA7FailureAaDP_Se
++ _associated conformance 24SensitiveContentAnalysis14RemoveAnalysesVAA12SCXPCMessageAA7FailureAaDP_s5Error
++ _associated conformance 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24SensitiveContentAnalysis16ConcurrencyErrorOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis16ParticipantJoinsV5EventOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis19SamplingPrioritizerC10StreamKindOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis19SamplingPrioritizerC5Entry33_D84D1D7BE99E0E8C15C8B3F40A8E9BD2LLVSLAASQ
++ _associated conformance 24SensitiveContentAnalysis19SamplingPrioritizerC8PriorityVSLAASQ
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC10CodingKeysOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsVs10SetAlgebraAASQ
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsVs9OptionSetAASY
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsVs9OptionSetAAs0J7Algebra
++ _associated conformance 24SensitiveContentAnalysis19VideoStreamAnalyzerC8XPCErrorOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis4CallC13AnalyzerEntryC5StateOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis8CallTypeOSHAASQ
++ _associated conformance 24SensitiveContentAnalysis8XPCErrorOSHAASQ
++ _associated conformance SC12SCAErrorCodeLeV10Foundation13CustomNSErrorSCs5Error
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_AC06_ErrorB8Protocol
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_SY
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC26_ObjectiveCBridgeableError
++ _associated conformance SC12SCAErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC12SCAErrorCodeLeV10Foundation26_ObjectiveCBridgeableErrorSCs0F0
++ _associated conformance SC12SCAErrorCodeLeVSHSCSQ
++ _associated conformance So12SCAErrorCodeV10Foundation06_ErrorB8ProtocolSC01_D4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So12SCAErrorCodeV10Foundation06_ErrorB8ProtocolSCSQ
++ _associated conformance So19NSKeyValueChangeKeyaSHSCSQ
++ _associated conformance So19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So19NSKeyValueChangeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So21SCSensitivityAnalysisC016SensitiveContentB0E10CodingKeysOSHACSQ
++ _associated conformance So21SCSensitivityAnalysisC016SensitiveContentB0E10CodingKeysOs0E3KeyACs23CustomStringConvertible
++ _associated conformance So21SCSensitivityAnalysisC016SensitiveContentB0E10CodingKeysOs0E3KeyACs28CustomDebugStringConvertible
++ _associated conformance So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesV13AsyncIteratorVScIAC7FailureScI_s5Error
++ _associated conformance So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesVSciAC13AsyncIteratorSci_ScI
++ _associated conformance So29MOUserSafetyScannableServicesaSHSCSQ
++ _associated conformance So29MOUserSafetyScannableServicesas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So29MOUserSafetyScannableServicesas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance s6ResultO24SensitiveContentAnalysisSo013SCSensitivityD0CRszs5Error_pRs_rlE10PrecedenceOyxq__GSHACSQ
++ _audit_stringVideoProcessing
++ _audit_token_to_pid
++ _block_copy_helper.26
++ _block_copy_helper.66
++ _block_copy_helper.73
++ _block_copy_helper.76
++ _block_copy_helper.8
++ _block_copy_helper.90
++ _block_descriptor.10
++ _block_descriptor.28
++ _block_descriptor.68
++ _block_descriptor.75
++ _block_descriptor.78
++ _block_descriptor.92
++ _block_destroy_helper.27
++ _block_destroy_helper.67
++ _block_destroy_helper.74
++ _block_destroy_helper.77
++ _block_destroy_helper.9
++ _block_destroy_helper.91
++ _bzero
++ _default assoc type _____ 24SensitiveContentAnalysis12SCEmptyReplyV
++ _default assoc type _____ s5NeverO
++ _default associated conformance5Reply24SensitiveContentAnalysis12SCXPCMessageP_SE
++ _default associated conformance5Reply24SensitiveContentAnalysis12SCXPCMessageP_Se
++ _default associated conformance7Failure24SensitiveContentAnalysis12SCXPCMessageP_SE
++ _default associated conformance7Failure24SensitiveContentAnalysis12SCXPCMessageP_Se
++ _default associated conformance7Failure24SensitiveContentAnalysis12SCXPCMessageP_s5Error
++ _dispatch_group_create
++ _dispatch_group_enter
++ _dispatch_group_leave
++ _dispatch_queue_create
++ _dlerror
++ _dlsym
++ _flat unique 24SensitiveContentAnalysis0C18StorageXPCProtocol_p
++ _flat unique 24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_p
++ _flat unique 9SwiftData07BackingB0_px5ModelAaBPRts_XP
++ _flat unique ScI_px7ElementScIRts_q_7FailureScIRtsXP
++ _flat unique So13MOCancellable_p
++ _flat unique So13OS_xpc_object_p
++ _getMADServiceClass
++ _getMADUserSafetyPolicyClass.softClass
++ _getMADVideoSessionClass
++ _getMADVideoSessionClass.softClass
++ _getMADVideoSessionSafetyRequestClass.softClass
++ _getMADVideoSessionSafetyResultClass.softClass
++ _getMADVideoSessionTTRFrameClass
++ _getMADVideoSessionTTRFrameClass.softClass
++ _getMADVideoSessionTTROptionsClass
++ _getMADVideoSessionTTROptionsClass.softClass
++ _getVCPDecompressionSessionSetContentAnalyzerSymbolLoc.ptr
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis10CacheCheckC11FetchStatus33_042D099C3048B292C2C607B19D7DC16ALLO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis10CacheCheckC6StatusO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis12EntitlementsV5ErrorO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis12EntitlementsV6SourceO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis15MessageHandlersV8Response33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis17XPCConnectionKindO
++ _get_enum_tag_for_layout_string 24SensitiveContentAnalysis19VideoStreamAnalyzerC4ModeO
++ _get_enum_tag_for_layout_string s6ResultOySo21SCSensitivityAnalysisCs5Error_pGIegg_SbIeggd_Sg
++ _get_type_metadata 15Synchronization6AtomicVySiG.19
++ _get_witness_table So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesVSciHPyHC.14
++ _get_witness_table s31AsyncThrowingCompactMapSequenceVyScsy24SensitiveContentAnalysis16ParticipantJoinsV5EventO_Sdts5Error_pGAGGSciHPyHC.11
++ _malloc
++ _memmove
++ _objc_copyStruct
++ _objc_getProperty
++ _objc_msgSend$addRequest:error:
++ _objc_msgSend$allObjects
++ _objc_msgSend$analysisResult
++ _objc_msgSend$analyzeCGImage:orientation:options:completionHandler:
++ _objc_msgSend$analyzeImageFile:completionHandler:
++ _objc_msgSend$analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:options:completionHandler:
++ _objc_msgSend$analyzeVideoFile:options:progressHandler:completionHandler:
++ _objc_msgSend$analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:
++ _objc_msgSend$array
++ _objc_msgSend$checkAvailability:
++ _objc_msgSend$date
++ _objc_msgSend$decodeArrayOfObjectsOfClass:forKey:
++ _objc_msgSend$decodeObjectOfClass:forKey:
++ _objc_msgSend$displayName
++ _objc_msgSend$encodeObject:forKey:
++ _objc_msgSend$frame
++ _objc_msgSend$handles
++ _objc_msgSend$hash
++ _objc_msgSend$initSummaryAnalysisForOptions:
++ _objc_msgSend$initWithDisplayName:firstName:lastName:handles:
++ _objc_msgSend$initWithDisplayName:handles:
++ _objc_msgSend$initWithPixelBuffer:timestamp:orientation:
++ _objc_msgSend$isEqual:
++ _objc_msgSend$numberWithUnsignedInt:
++ _objc_msgSend$numberWithUnsignedLong:
++ _objc_msgSend$performSelector:
++ _objc_msgSend$processPixelBuffer:timestamp:orientation:resultHandler:
++ _objc_msgSend$registerUserSafetyPolicyUpdateHandler:error:
++ _objc_msgSend$removeObjectAtIndex:
++ _objc_msgSend$requestTTRNotificationWithVideoFrames:options:completionHandler:
++ _objc_msgSend$sca_isMovieFile
++ _objc_msgSend$session
++ _objc_msgSend$setEventDate:
++ _objc_msgSend$setStartDate:
++ _objc_msgSend$setStreamID:
++ _objc_msgSend$setType:
++ _objc_msgSend$setWithArray:
++ _objc_msgSend$timestamp
++ _objc_opt_respondsToSelector
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x9
++ _objc_retain_x5
++ _objc_retain_x9
++ _objectdestroy.14Tm
++ _objectdestroy.15Tm
++ _objectdestroy.21Tm
++ _objectdestroy.25Tm
++ _objectdestroy.47Tm
++ _objectdestroy.59Tm
++ _objectdestroy.64Tm
++ _objectdestroy.73Tm
++ _objectdestroy.76Tm
++ _objectdestroy.79Tm
++ _objectdestroy.7Tm
++ _objectdestroy.85Tm
++ _os_unfair_lock_assert_owner
++ _os_variant_has_internal_content
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain_n
++ _swift_checkMetadataState
++ _swift_continuation_resume
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deletedAsyncMethodErrorTu
++ _swift_dynamicCastObjCClass
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getErrorValue
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getOpaqueTypeConformance2
++ _swift_getTupleTypeMetadata2
++ _swift_initClassMetadata2
++ _swift_isClassType
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_isaMask
++ _swift_projectBox
++ _swift_release_n
++ _swift_runtimeSupportsNoncopyableTypes
++ _swift_setDeallocating
++ _swift_stdlib_isStackAllocationSafe
++ _swift_stdlib_random
++ _swift_storeEnumTagMultiPayload
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_unknownObjectRetain_n
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_weakAssign
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic $s24SensitiveContentAnalysis0C14HistoryStorageP
++ _symbolic $s24SensitiveContentAnalysis0C18StorageXPCProtocolP
++ _symbolic $s24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic $s24SensitiveContentAnalysis15CancellableTaskP
++ _symbolic $s24SensitiveContentAnalysis16ConnectionConfigP
++ _symbolic $s24SensitiveContentAnalysis16SerialQueueActorP
++ _symbolic $s24SensitiveContentAnalysis23ServiceConnectionConfigP
++ _symbolic $s24SensitiveContentAnalysis27MachServiceConnectionConfigP
++ _symbolic $s24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocolP
++ _symbolic $s3XPC14XPCPeerHandlerP
++ _symbolic $s9SwiftData15PersistentModelP
++ _symbolic $sScI
++ _symbolic $sSci
++ _symbolic $ss11GlobalActorP
++ _symbolic $ss12IdentifiableP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic 13ProxyProtocol_____QzIegr_ 24SensitiveContentAnalysis16ConnectionConfigP
++ _symbolic 13ProxyProtocol_____QzSo13NSXPCListenerC_So15NSXPCConnectionCtKc 24SensitiveContentAnalysis16ConnectionConfigP
++ _symbolic 5Model_____Qyd__ 9SwiftData07BackingB0P
++ _symbolic 5Reply_____Qz 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic 7ElementScIQyd__
++ _symbolic 7ElementSciQz
++ _symbolic 7FailureScIQyd__
++ _symbolic 7FailureSciQz
++ _symbolic 7Failure_____Qz 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic B0
++ _symbolic B1
++ _symbolic G0R0_
++ _symbolic SDySSSdG
++ _symbolic SDySSSo21SCSensitivityAnalysisCG
++ _symbolic SDySS_____G 24SensitiveContentAnalysis011SensitivityC0V
++ _symbolic SDySS_____G 24SensitiveContentAnalysis0C12HistoryCacheC5EntryO
++ _symbolic SDySS_____G 24SensitiveContentAnalysis4CallC
++ _symbolic SDySS_____G 24SensitiveContentAnalysis4CallC13AnalyzerEntryC
++ _symbolic SDySS_____GSaySSGIeggg_ 24SensitiveContentAnalysis011SensitivityC0V
++ _symbolic SDySS_____GSaySSGytIegnnr_ 24SensitiveContentAnalysis011SensitivityC0V
++ _symbolic SDySSypG
++ _symbolic SDy__________G 24SensitiveContentAnalysis12EntitlementsV6SourceO AC6ChecksC
++ _symbolic SDy_____ypG 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic SE_p
++ _symbolic SE_pSg
++ _symbolic SS
++ _symbolic SS3key_yp5valuet
++ _symbolic SS5named_t
++ _symbolic SaySSG
++ _symbolic SayScCyx______pGG s5ErrorP
++ _symbolic SaySo21NSXPCListenerEndpointCG
++ _symbolic SaySo8NSObjectCmG
++ _symbolic Say_____G 24SensitiveContentAnalysis011SensitivityC0V5FlagsV
++ _symbolic Say_____G 24SensitiveContentAnalysis011SensitivityC0V5HarmsV
++ _symbolic Say_____G 24SensitiveContentAnalysis01_C14HistoryXPCHostC14SessionHandlerC
++ _symbolic Say_____G 24SensitiveContentAnalysis0A11ParticipantV
++ _symbolic Say_____G 24SensitiveContentAnalysis11ParticipantV
++ _symbolic Say_____G 24SensitiveContentAnalysis19SamplingPrioritizerC5Entry33_D84D1D7BE99E0E8C15C8B3F40A8E9BD2LLV
++ _symbolic Say_____G 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsV
++ _symbolic Say_____G 24SensitiveContentAnalysis6FamilyV6ParentV
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say__________cG 24SensitiveContentAnalysis15MessageHandlersV8Response33_DF118A8FE327A4DC5D744F45527CC1FCLLO 3XPC011XPCReceivedD0V
++ _symbolic Say_____y_____GG 24SensitiveContentAnalysis17ResumedConnectionV AA019VideoStreamAnalyzerE6ConfigV
++ _symbolic Sb
++ _symbolic SbIeyBy_Sg
++ _symbolic Sb______pIegHrzo_ s5ErrorP
++ _symbolic Sby_____ySo21SCSensitivityAnalysisC______pGccSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic ScCy5Reply_____Qz______pG 24SensitiveContentAnalysis12SCXPCMessageP s5ErrorP
++ _symbolic ScTy___________pG 24SensitiveContentAnalysis6FamilyV s5ErrorP
++ _symbolic ScTy___________pGSg 24SensitiveContentAnalysis13PolicyFetcher33_4D89A8A00028CF3643711B7990FDFFDALLC s5ErrorP
++ _symbolic ScTyxq_G
++ _symbolic SccySaySo25SCMADVideoSessionTTRFrameCG_____G s5NeverO
++ _symbolic SccySb______pG s5ErrorP
++ _symbolic SccySo14FAFamilyCircleC______pG s5ErrorP
++ _symbolic ScsySo21SCMADUserSafetyPolicyC______pG s5ErrorP
++ _symbolic ScsySo21SCSensitivityAnalysisC______pG s5ErrorP
++ _symbolic ScsySo26MOUserSafetyScanningPolicyC______pG s5ErrorP
++ _symbolic Scsy______Sdt______pG 24SensitiveContentAnalysis16ParticipantJoinsV5EventO s5ErrorP
++ _symbolic Scsy___________pG So27SCSensitivityAnalysisPolicyV s5ErrorP
++ _symbolic Sd
++ _symbolic SdSg
++ _symbolic SdSgSg
++ _symbolic ShySSG
++ _symbolic ShySo21NSXPCListenerEndpointCG
++ _symbolic SiSg
++ _symbolic So12NSDictionaryCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So13NSXPCListenerC
++ _symbolic So13SCFrameBufferC
++ _symbolic So14CNLabeledValueC
++ _symbolic So15NSXPCConnectionC
++ _symbolic So15NSXPCConnectionC_Sbt
++ _symbolic So16RBSProcessHandleCSg
++ _symbolic So17OS_dispatch_groupC
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So17SCAnalysisHistoryCXMo
++ _symbolic So17SCMADVideoSessionC
++ _symbolic So17SCMADVideoSessionCSgXw
++ _symbolic So17SCMADVideoSessionCSgXwz_Xx
++ _symbolic So18SCMADPolicyServiceC
++ _symbolic So19SwiftNativeNSObjectC
++ _symbolic So20AVCaptureDeviceInputCSgXw
++ _symbolic So21NSXPCListenerEndpointC
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So21SCSensitivityAnalysisCSg______pSgIeggg_ s5ErrorP
++ _symbolic So21SCSensitivityAnalysisCSg______pSgytIegnnr_ s5ErrorP
++ _symbolic So21SCVideoStreamAnalyzerCSgXw
++ _symbolic So7NSArrayC
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCm
++ _symbolic So8NSStringC
++ _symbolic Su10photoCount_Su05videoB0t
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 10ObjectiveC8SelectorV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLO
++ _symbolic _____ 24SensitiveContentAnalysis011VideoStreamC10DispatcherC
++ _symbolic _____ 24SensitiveContentAnalysis011VideoStreamC7ContextV
++ _symbolic _____ 24SensitiveContentAnalysis01_C14HistoryXPCHostC
++ _symbolic _____ 24SensitiveContentAnalysis01_C14HistoryXPCHostC14SessionHandlerC
++ _symbolic _____ 24SensitiveContentAnalysis05FetchA12ParticipantsV
++ _symbolic _____ 24SensitiveContentAnalysis05FetchA12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____ 24SensitiveContentAnalysis05StoreC0V
++ _symbolic _____ 24SensitiveContentAnalysis05StoreC0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____ 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV
++ _symbolic _____ 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____ 24SensitiveContentAnalysis0A11ParticipantV
++ _symbolic _____ 24SensitiveContentAnalysis0A11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLO
++ _symbolic _____ 24SensitiveContentAnalysis0A6HandleC
++ _symbolic _____ 24SensitiveContentAnalysis0A6HandleC16_SwiftDataNoTypeV
++ _symbolic _____ 24SensitiveContentAnalysis0B11DescriptionV
++ _symbolic _____ 24SensitiveContentAnalysis0B11DescriptionV0D033_001135EF3949A2D87A65BA3EE9611243LLO
++ _symbolic _____ 24SensitiveContentAnalysis0C12HistoryCacheC
++ _symbolic _____ 24SensitiveContentAnalysis0C12HistoryCacheC5EntryO
++ _symbolic _____ 24SensitiveContentAnalysis0C14HistoryXPCHostC
++ _symbolic _____ 24SensitiveContentAnalysis0C14HistoryXPCHostC9ConstantsV
++ _symbolic _____ 24SensitiveContentAnalysis0C23HistoryConnectionConfigV
++ _symbolic _____ 24SensitiveContentAnalysis0C7HistoryC
++ _symbolic _____ 24SensitiveContentAnalysis0C7HistoryC8Listener33_5B72C479793E9A28B06909F4B47E0979LLC
++ _symbolic _____ 24SensitiveContentAnalysis0aB0V
++ _symbolic _____ 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _symbolic _____ 24SensitiveContentAnalysis0aB6PolicyV7ChangesV
++ _symbolic _____ 24SensitiveContentAnalysis0aB6PolicyV7ChangesV13AsyncIteratorV
++ _symbolic _____ 24SensitiveContentAnalysis10CacheCheckC
++ _symbolic _____ 24SensitiveContentAnalysis10CacheCheckC11FetchStatus33_042D099C3048B292C2C607B19D7DC16ALLO
++ _symbolic _____ 24SensitiveContentAnalysis10CacheCheckC6StatusO
++ _symbolic _____ 24SensitiveContentAnalysis10SCFeaturesO
++ _symbolic _____ 24SensitiveContentAnalysis10SCFeaturesO3KeyV
++ _symbolic _____ 24SensitiveContentAnalysis11ActiveCallsC
++ _symbolic _____ 24SensitiveContentAnalysis11ParticipantV
++ _symbolic _____ 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLO
++ _symbolic _____ 24SensitiveContentAnalysis11PolicyActorC
++ _symbolic _____ 24SensitiveContentAnalysis11SampleTimerC
++ _symbolic _____ 24SensitiveContentAnalysis11SampleTimerC10CodingKeysO
++ _symbolic _____ 24SensitiveContentAnalysis11SampleTimerC5StatsV
++ _symbolic _____ 24SensitiveContentAnalysis11SampleTimerC6ConfigV
++ _symbolic _____ 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO0D17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO18BypassedCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO37FailedToCreateTaskFromTokenCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO39ExpectedValuesNotPropertyListCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV5ErrorO51FailedToCreateEntitlementVerificationTaskCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV6ChecksC
++ _symbolic _____ 24SensitiveContentAnalysis12EntitlementsV6SourceO
++ _symbolic _____ 24SensitiveContentAnalysis12SCEmptyReplyV
++ _symbolic _____ 24SensitiveContentAnalysis12SCEmptyReplyV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis13BlockForFirstV
++ _symbolic _____ 24SensitiveContentAnalysis13CodableResultO
++ _symbolic _____ 24SensitiveContentAnalysis13CodableResultO10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis13CodableResultO17FailureCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis13CodableResultO17SuccessCodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis13PolicyFetcher33_4D89A8A00028CF3643711B7990FDFFDALLC
++ _symbolic _____ 24SensitiveContentAnalysis14RemoveAnalysesV
++ _symbolic _____ 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____ 24SensitiveContentAnalysis15CodableSCAErrorV
++ _symbolic _____ 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis15MessageHandlersV
++ _symbolic _____ 24SensitiveContentAnalysis15MessageHandlersV8Response33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____ 24SensitiveContentAnalysis15ResumedListenerC
++ _symbolic _____ 24SensitiveContentAnalysis16ConcurrencyErrorO
++ _symbolic _____ 24SensitiveContentAnalysis16ParticipantJoinsV
++ _symbolic _____ 24SensitiveContentAnalysis16ParticipantJoinsV5EventO
++ _symbolic _____ 24SensitiveContentAnalysis16ParticipantJoinsV8Observer33_A1B455ED37557BDC9F886674143C9114LLC
++ _symbolic _____ 24SensitiveContentAnalysis17ResumedConnectionV
++ _symbolic _____ 24SensitiveContentAnalysis17XPCConnectionKindO
++ _symbolic _____ 24SensitiveContentAnalysis18BlockForFirstValueC
++ _symbolic _____ 24SensitiveContentAnalysis18CountedFrameBufferC
++ _symbolic _____ 24SensitiveContentAnalysis19ArgumentExpectationV
++ _symbolic _____ 24SensitiveContentAnalysis19SamplingPrioritizerC
++ _symbolic _____ 24SensitiveContentAnalysis19SamplingPrioritizerC10StreamKindO
++ _symbolic _____ 24SensitiveContentAnalysis19SamplingPrioritizerC5Entry33_D84D1D7BE99E0E8C15C8B3F40A8E9BD2LLV
++ _symbolic _____ 24SensitiveContentAnalysis19SamplingPrioritizerC8PriorityV
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC10CodingKeysO
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsV
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC4ModeO
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC5StateV
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC7SamplerC
++ _symbolic _____ 24SensitiveContentAnalysis19VideoStreamAnalyzerC8XPCErrorO
++ _symbolic _____ 24SensitiveContentAnalysis21BaseIntervalAlgorithmO
++ _symbolic _____ 24SensitiveContentAnalysis29SampleTimerSecureCodingConfigC
++ _symbolic _____ 24SensitiveContentAnalysis35VideoStreamAnalyzerConnectionConfigV
++ _symbolic _____ 24SensitiveContentAnalysis4CallC
++ _symbolic _____ 24SensitiveContentAnalysis4CallC13AnalyzerEntryC
++ _symbolic _____ 24SensitiveContentAnalysis4CallC13AnalyzerEntryC5StateO
++ _symbolic _____ 24SensitiveContentAnalysis6AtomicV
++ _symbolic _____ 24SensitiveContentAnalysis6FamilyV
++ _symbolic _____ 24SensitiveContentAnalysis6FamilyV6ParentV
++ _symbolic _____ 24SensitiveContentAnalysis6WaiterC
++ _symbolic _____ 24SensitiveContentAnalysis7RunOnceC
++ _symbolic _____ 24SensitiveContentAnalysis8CallTypeO
++ _symbolic _____ 24SensitiveContentAnalysis8XPCErrorO
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 3XPC10XPCSessionC
++ _symbolic _____ 3XPC18XPCReceivedMessageV
++ _symbolic _____ 9SwiftData20PersistentIdentifierV
++ _symbolic _____ 9SwiftData6SchemaC
++ _symbolic _____ 9SwiftData6SchemaC7VersionV
++ _symbolic _____ SC12SCAErrorCodeLeV
++ _symbolic _____ ScT24SensitiveContentAnalysisE11Cancellable33_8C36D3A215B2EA28C207976663F7859DLLC
++ _symbolic _____ So021SCVideoStreamAnalyzerB9DirectionV
++ _symbolic _____ So11SCACallTypeV
++ _symbolic _____ So12SCAErrorCodeV
++ _symbolic _____ So13audit_token_ta
++ _symbolic _____ So19NSKeyValueChangeKeya
++ _symbolic _____ So21SCSensitivityAnalysisC016SensitiveContentB0E10CodingKeysO
++ _symbolic _____ So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesV
++ _symbolic _____ So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesV13AsyncIteratorV
++ _symbolic _____ So26CGImagePropertyOrientationV
++ _symbolic _____ So27SCSensitivityAnalysisPolicyV
++ _symbolic _____ So28SCVideoStreamAnalysisOptionsV
++ _symbolic _____ So29MOUserSafetyScannableServicesa
++ _symbolic _____ s5NeverO
++ _symbolic _____ s6ResultO24SensitiveContentAnalysisSo013SCSensitivityD0CRszs5Error_pRs_rlE10PrecedenceO
++ _symbolic _____ s6UInt64V
++ _symbolic _____ s8DurationV
++ _symbolic _____Sg 10Foundation12NotificationV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 22UniformTypeIdentifiers6UTTypeV
++ _symbolic _____Sg 24SensitiveContentAnalysis01_C14HistoryXPCHostC
++ _symbolic _____Sg 24SensitiveContentAnalysis0B11DescriptionV
++ _symbolic _____Sg 24SensitiveContentAnalysis0C12HistoryCacheC
++ _symbolic _____Sg 24SensitiveContentAnalysis0aB6PolicyV
++ _symbolic _____Sg 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _symbolic _____Sg 24SensitiveContentAnalysis12EntitlementsV6SourceO
++ _symbolic _____Sg 24SensitiveContentAnalysis19SamplingPrioritizerC
++ _symbolic _____Sg 24SensitiveContentAnalysis19VideoStreamAnalyzerC
++ _symbolic _____Sg 24SensitiveContentAnalysis4CallC13AnalyzerEntryC
++ _symbolic _____Sg 24SensitiveContentAnalysis4CallC13AnalyzerEntryC5StateO
++ _symbolic _____Sg 3XPC10XPCSessionC
++ _symbolic _____Sg 3XPC11XPCListenerC
++ _symbolic _____Sg 3XPC11XPCListenerC8EndpointV
++ _symbolic _____Sg 3XPC13XPCDictionaryV
++ _symbolic _____Sg So26CGImagePropertyOrientationV
++ _symbolic _____Sg So27SCSensitivityAnalysisPolicyV
++ _symbolic _____Sg s5Int32V
++ _symbolic _____Sg s6UInt64V
++ _symbolic _____SgIeAgHr_ 24SensitiveContentAnalysis0aB6PolicyV
++ _symbolic _____SgIeAgHr_ 3XPC11XPCListenerC8EndpointV
++ _symbolic _____SgSg 24SensitiveContentAnalysis18CountedFrameBufferC
++ _symbolic _____SgXw 24SensitiveContentAnalysis011VideoStreamC10DispatcherC
++ _symbolic _____SgXw 24SensitiveContentAnalysis01_C14HistoryXPCHostC
++ _symbolic _____SgXw 24SensitiveContentAnalysis0C12HistoryCacheC
++ _symbolic _____SgXw 24SensitiveContentAnalysis0C7HistoryC
++ _symbolic _____SgXw 24SensitiveContentAnalysis11PolicyCacheC
++ _symbolic _____SgXw 24SensitiveContentAnalysis19VideoStreamAnalyzerC
++ _symbolic _____SgXw 24SensitiveContentAnalysis19VideoStreamAnalyzerC7SamplerC
++ _symbolic _____SgXw 24SensitiveContentAnalysis4CallC
++ _symbolic _____SgXwz_Xx 24SensitiveContentAnalysis011VideoStreamC10DispatcherC
++ _symbolic _____SgXwz_Xx 24SensitiveContentAnalysis01_C14HistoryXPCHostC
++ _symbolic _____SgXwz_Xx 24SensitiveContentAnalysis19VideoStreamAnalyzerC
++ _symbolic _____SgXwz_Xx 24SensitiveContentAnalysis19VideoStreamAnalyzerC7SamplerC
++ _symbolic _____SgXwz_Xx 24SensitiveContentAnalysis4CallC
++ _symbolic _____Sg_ABt 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _symbolic _____So21SCSensitivityAnalysisC______pXj r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq s5ErrorP
++ _symbolic _____So21SCSensitivityAnalysisC______pXj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq s5ErrorP
++ _symbolic _____XDXMT 24SensitiveContentAnalysis11PolicyCacheC
++ _symbolic ______A7At s6UInt32V
++ _symbolic ______AAt 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _symbolic ______Sdt 24SensitiveContentAnalysis16ParticipantJoinsV5EventO
++ _symbolic __________Xj l9SwiftData07BackingB0_px5ModelRts_XPXGMq 24SensitiveContentAnalysis0E6HandleC
++ _symbolic ________________pXj r0_lScI_px7ElementRts_q_7FailureRtsXPXGMq 24SensitiveContentAnalysis0cD6PolicyV s5ErrorP
++ _symbolic ________________pXj_Sit r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 24SensitiveContentAnalysis0cD6PolicyV s5ErrorP
++ _symbolic ___________pIeghHrzo_ 24SensitiveContentAnalysis6FamilyV s5ErrorP
++ _symbolic ______p 24SensitiveContentAnalysis0C14HistoryStorageP
++ _symbolic ______p 24SensitiveContentAnalysis0C18StorageXPCProtocolP
++ _symbolic ______p 24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocolP
++ _symbolic ______p So13MOCancellableP
++ _symbolic ______p So13OS_xpc_objectP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic ______ypSSKct So13audit_token_ta
++ _symbolic ______ypt 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic _____y5Reply_____Qz______pGIegn_ s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis12SCXPCMessageP s5ErrorP
++ _symbolic _____yKc 9SwiftData14ModelContainerC
++ _symbolic _____ySDySSSdGG 24SensitiveContentAnalysis6AtomicV
++ _symbolic _____ySDySS_____GG 24SensitiveContentAnalysis6AtomicV AA4CallC
++ _symbolic _____ySDy_____SbGG s9TaskLocalC 24SensitiveContentAnalysis10SCFeaturesO
++ _symbolic _____ySDy__________GG 24SensitiveContentAnalysis6AtomicV AA12EntitlementsV6SourceO AE6ChecksC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s20CollectionDifferenceV
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSdG s18_DictionaryStorageC
++ _symbolic _____ySSSo8NSNumberCG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 24SensitiveContentAnalysis011SensitivityE0V
++ _symbolic _____ySS_____G s18_DictionaryStorageC 24SensitiveContentAnalysis0E12HistoryCacheC5EntryO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 24SensitiveContentAnalysis4CallC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 24SensitiveContentAnalysis4CallC13AnalyzerEntryC
++ _symbolic _____ySay_____GG 24SensitiveContentAnalysis6AtomicV AA01_C14HistoryXPCHostC14SessionHandlerC
++ _symbolic _____ySay_____y_____GGG 24SensitiveContentAnalysis6AtomicV AA17ResumedConnectionV AA019VideoStreamAnalyzerF6ConfigV
++ _symbolic _____ySay_____y_____GGG s23_ContiguousArrayStorageC s14PartialKeyPathC 24SensitiveContentAnalysis0G6HandleC
++ _symbolic _____ySb______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySby_____ySo21SCSensitivityAnalysisC______pGccSgG s9TaskLocalC s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yScTy___________pGG s9TaskLocalC 24SensitiveContentAnalysis6FamilyV s5ErrorP
++ _symbolic _____yScsySo21SCMADUserSafetyPolicyC______pG_____G s16AsyncMapSequenceV s5ErrorP 24SensitiveContentAnalysis0eF6PolicyV
++ _symbolic _____yScsySo26MOUserSafetyScanningPolicyC______pG_____G s16AsyncMapSequenceV s5ErrorP 24SensitiveContentAnalysis0eF6PolicyV
++ _symbolic _____yScsy______Sdt______pGABG s31AsyncThrowingCompactMapSequenceV 24SensitiveContentAnalysis16ParticipantJoinsV5EventO s5ErrorP
++ _symbolic _____yScsy___________pG_____G s16AsyncMapSequenceV So27SCSensitivityAnalysisPolicyV s5ErrorP 016SensitiveContentE00hiF0V
++ _symbolic _____ySdSgG 24SensitiveContentAnalysis6AtomicV
++ _symbolic _____ySdSgGz_Xx 24SensitiveContentAnalysis6AtomicV
++ _symbolic _____ySiG 15Synchronization6AtomicV
++ _symbolic _____ySiG 24SensitiveContentAnalysis6AtomicV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo14SCAParticipantCSo21SCSensitivityAnalysisCG s18_DictionaryStorageC
++ _symbolic _____ySo21SCMADUserSafetyPolicyC______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____ySo21SCMADUserSafetyPolicyC______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____ySo21SCMADUserSafetyPolicyC______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pGIegg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pGIegg_SbIeggd_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pGytIegnr_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______pGytIegnr_SbIegnr_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____ySo21SCSensitivityAnalysisC______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic _____ySo26MOUserSafetyScanningPolicyC______p_G Scs12ContinuationV s5ErrorP
++ _symbolic _____ySo26MOUserSafetyScanningPolicyC______p__G Scs12ContinuationV11YieldResultO s5ErrorP
++ _symbolic _____ySo26MOUserSafetyScanningPolicyC______p__G Scs12ContinuationV15BufferingPolicyO s5ErrorP
++ _symbolic _____ySo8NSObjectCmG s23_ContiguousArrayStorageC
++ _symbolic _____y_Qo_ 24SensitiveContentAnalysis16ParticipantJoinsV7changes5afterQr10Foundation4DateV_tFZQO
++ _symbolic _____y_Qo_13AsyncIteratorSciQx 24SensitiveContentAnalysis16ParticipantJoinsV7changes5afterQr10Foundation4DateV_tFZQO
++ _symbolic _____y_SaySSGG 10Foundation20PredicateExpressionsO5ValueV
++ _symbolic _____y_____G 24SensitiveContentAnalysis15ResumedListenerC AA35VideoStreamAnalyzerConnectionConfigV
++ _symbolic _____y_____G 24SensitiveContentAnalysis17ResumedConnectionV AA019VideoStreamAnalyzerE6ConfigV
++ _symbolic _____y_____G 24SensitiveContentAnalysis6AtomicV AA19VideoStreamAnalyzerC4ModeO
++ _symbolic _____y_____G 24SensitiveContentAnalysis7RunOnceC 9SwiftData14ModelContainerC
++ _symbolic _____y_____G 9SwiftData15FetchDescriptorV 24SensitiveContentAnalysis0E6HandleC
++ _symbolic _____y_____G s22AsyncDropFirstSequenceV 24SensitiveContentAnalysis0eF6PolicyV7ChangesV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis011SensitivityF0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis05FetchD12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis05StoreF0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis06UpdateD16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis0D11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis11SampleTimerC10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO0G17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO18BypassedCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO37FailedToCreateTaskFromTokenCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO39ExpectedValuesNotPropertyListCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO51FailedToCreateEntitlementVerificationTaskCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So21SCSensitivityAnalysisC016SensitiveContentE0E10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis011SensitivityF0V10CodingKeys33_8C36D3A215B2EA28C207976663F7859DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis05FetchD12ParticipantsV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis05StoreF0V10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis06UpdateD16ParticipantCacheV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis0D11ParticipantV10CodingKeys33_D256895FEE339A1814EBABFAD272EC20LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis11ParticipantV10CodingKeys33_7A629B7EC2C0087F1A21F919BE28A8B4LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis11SampleTimerC10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis11SampleTimerC6ConfigV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO12OrCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV3KeyO15ExactCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO0G17MissingCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO10CodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO18BypassedCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO33EntitlementHasWrongTypeCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO34EntitlementHasWrongValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO37FailedToCreateTaskFromTokenCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO39ExpectedValuesNotPropertyListCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO42FailedToRetrieveEntitlementValueCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12EntitlementsV5ErrorO51FailedToCreateEntitlementVerificationTaskCodingKeys33_83D823AFB0E7EB36997F75F0B19863DDLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis12SCEmptyReplyV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis14RemoveAnalysesV10CodingKeys33_96121BE7001E3F537566A5895235AB81LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis15CodableSCAErrorV10CodingKeys33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So21SCSensitivityAnalysisC016SensitiveContentE0E10CodingKeysO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis011SensitivityF0V5FlagsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis011SensitivityF0V5HarmsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis0D11ParticipantV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis0dE6PolicyV6SourceO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis11ParticipantV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis19ArgumentExpectationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis19SamplingPrioritizerC5Entry33_D84D1D7BE99E0E8C15C8B3F40A8E9BD2LLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 24SensitiveContentAnalysis6FamilyV6ParentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9SwiftData6SchemaC16PropertyMetadataV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____G s9TaskLocalC 24SensitiveContentAnalysis011VideoStreamE10DispatcherC
++ _symbolic _____y_____G s9TaskLocalC 24SensitiveContentAnalysis0E12HistoryCacheC
++ _symbolic _____y_____G s9TaskLocalC 24SensitiveContentAnalysis11PolicyCacheC
++ _symbolic _____y_____G s9UnmanagedV So10CFErrorRefa
++ _symbolic _____y_____GSg 24SensitiveContentAnalysis15ResumedListenerC AA35VideoStreamAnalyzerConnectionConfigV
++ _symbolic _____y_____SgG 24SensitiveContentAnalysis6AtomicV So26CGImagePropertyOrientationV
++ _symbolic _____y_____SgG s9TaskLocalC 24SensitiveContentAnalysis0cD6PolicyV
++ _symbolic _____y_____SgG s9TaskLocalC 24SensitiveContentAnalysis11SampleTimerC6ConfigV
++ _symbolic _____y_____SgG s9TaskLocalC 24SensitiveContentAnalysis12EntitlementsV6SourceO
++ _symbolic _____y_____So8NSObjectCG s18_DictionaryStorageC 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic _____y______AAQo_ 9SwiftData15PersistentModelPAAE013createBackingB0QryAaBRd__lFZQO 24SensitiveContentAnalysis0G6HandleC
++ _symbolic _____y______G 10Foundation20PredicateExpressionsO8VariableV 24SensitiveContentAnalysis0E6HandleC
++ _symbolic _____y______G 9SwiftData6SchemaC6UniqueC 24SensitiveContentAnalysis0E6HandleC
++ _symbolic _____y______G s22AsyncDropFirstSequenceV8IteratorV 24SensitiveContentAnalysis0fG6PolicyV7ChangesV
++ _symbolic _____y______QPG 10Foundation9PredicateV 24SensitiveContentAnalysis0C6HandleC
++ _symbolic _____y______QPGSg 10Foundation9PredicateV 24SensitiveContentAnalysis0C6HandleC
++ _symbolic _____y______Sdt______p_G Scs12ContinuationV 24SensitiveContentAnalysis16ParticipantJoinsV5EventO s5ErrorP
++ _symbolic _____y______Sdt______p__G Scs12ContinuationV11YieldResultO 24SensitiveContentAnalysis16ParticipantJoinsV5EventO s5ErrorP
++ _symbolic _____y______Sdt______p__G Scs12ContinuationV15BufferingPolicyO 24SensitiveContentAnalysis16ParticipantJoinsV5EventO s5ErrorP
++ _symbolic _____y__________G s18_DictionaryStorageC 24SensitiveContentAnalysis12EntitlementsV6SourceO AE6ChecksC
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE So10SecTaskRefa s5ErrorP
++ _symbolic _____y___________pG5first______y_____G7theRestt s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP s22AsyncDropFirstSequenceV AE7ChangesV
++ _symbolic _____y___________pG5first______y_____G7theResttSg s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP s22AsyncDropFirstSequenceV AE7ChangesV
++ _symbolic _____y___________pGSg s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP
++ _symbolic _____y___________pG______y_____Gt s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP s22AsyncDropFirstSequenceV AE7ChangesV
++ _symbolic _____y__________cG s23_ContiguousArrayStorageC 24SensitiveContentAnalysis15MessageHandlersV8Response33_DF118A8FE327A4DC5D744F45527CC1FCLLO 3XPC011XPCReceivedG0V
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 9SwiftData0E18StoreConfigurationP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______pG s9TaskLocalC 24SensitiveContentAnalysis0E14HistoryStorageP
++ _symbolic _____y______pXpG s23_ContiguousArrayStorageC 9SwiftData15PersistentModelP
++ _symbolic _____y______y_SaySSGG_____y______y______GSSGG 10Foundation20PredicateExpressionsO16SequenceContainsV AC5ValueV AC7KeyPathV AC8VariableV 24SensitiveContentAnalysis0J6HandleC
++ _symbolic _____y______y______GSSG 10Foundation20PredicateExpressionsO7KeyPathV AC8VariableV 24SensitiveContentAnalysis0G6HandleC
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic _____y_____ySSGG s16IndexingIteratorV s20CollectionDifferenceV
++ _symbolic _____y_____ySb______pGSgG 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____ySo21SCSensitivityAnalysisC______pGSgG 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 24SensitiveContentAnalysis17ResumedConnectionV AC019VideoStreamAnalyzerH6ConfigV
++ _symbolic _____y_____y___________pGG 24SensitiveContentAnalysis13BlockForFirstV s6ResultOsRi_zRi0_zrlE AA0aB6PolicyV s5ErrorP
++ _symbolic _____y_____ypG s18_DictionaryStorageC 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _symbolic _____y_____ytG s16AsyncMapSequenceV 24SensitiveContentAnalysis0dE6PolicyV7ChangesV
++ _symbolic _____y_____yt_G s16AsyncMapSequenceV8IteratorV 24SensitiveContentAnalysis0eF6PolicyV7ChangesV
++ _symbolic _____y_____yx______pGSgG 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yx______pGSgGz_Sb_lXX 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yx______pGSgGz_yt_lXX 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____y_____yyt______pGSgG 24SensitiveContentAnalysis6AtomicV s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yqd________pGSgz_x_qd_______Rzr__lXX s6ResultOsRi_zRi0_zrlE s5ErrorP 24SensitiveContentAnalysis16ConnectionConfigP
++ _symbolic _____yxG 24SensitiveContentAnalysis18BlockForFirstValueC
++ _symbolic _____yxG 2os21OSAllocatedUnfairLockV
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yytG 2os21OSAllocatedUnfairLockV
++ _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____yyt_____GSg s6ResultOsRi_zRi0_zrlE SC12SCAErrorCodeLeV
++ _symbolic _____yyt______G ScT24SensitiveContentAnalysisE11Cancellable33_8C36D3A215B2EA28C207976663F7859DLLC s5NeverO
++ _symbolic _____yyt______pGSg s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic sB0
++ _symbolic x5Reply_____Qz7FailureABQzIegHnrzr_ 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic x5Reply_____Qz7FailureABQzIegnrzr_ 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic x5Reply_____QzIgnr_xQp_t 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic x5Reply_____Qz_____IegHnrzo_ 24SensitiveContentAnalysis12SCXPCMessageP SC12SCAErrorCodeLeV
++ _symbolic x5Reply_____Qz_____Iegnrzo_ 24SensitiveContentAnalysis12SCXPCMessageP SC12SCAErrorCodeLeV
++ _symbolic x7Failure_____QzIegnzr_ 24SensitiveContentAnalysis12SCXPCMessageP
++ _symbolic xSg
++ _symbolic x_____Iegnzo_ SC12SCAErrorCodeLeV
++ _symbolic x______pIegHrzo_ s5ErrorP
++ _symbolic x______pIgrzo_ s5ErrorP
++ _symbolic xxQp_QP
++ _symbolic xyKc
++ _symbolic ySDySS_____G_SaySSGtcSg 24SensitiveContentAnalysis011SensitivityC0V
++ _symbolic ySDy_____ypGSgc So19NSKeyValueChangeKeya
++ _symbolic ySS_SdSgtcSg
++ _symbolic ySo21SCSensitivityAnalysisCSg_______pSgtcSg s5ErrorP
++ _symbolic y_____ySo21SCSensitivityAnalysisC______pGc s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic y_____y___________pGc s6ResultOsRi_zRi0_zrlE 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP
++ _symbolic ypSSKc
++ _symbolic yp_ypt
++ _symbolic ytSg______pSgIegng_ s5ErrorP
++ _symbolic ytSg______pSgIegyg_ s5ErrorP
++ _symbolic yt______pIegHrzo_ s5ErrorP
++ _symbolic yyc
++ _type_layout_string 24SensitiveContentAnalysis011VideoStreamC7ContextV
++ _type_layout_string 24SensitiveContentAnalysis05FetchA12ParticipantsV
++ _type_layout_string 24SensitiveContentAnalysis05StoreC0V
++ _type_layout_string 24SensitiveContentAnalysis06UpdateA16ParticipantCacheV
++ _type_layout_string 24SensitiveContentAnalysis0A11ParticipantV
++ _type_layout_string 24SensitiveContentAnalysis0B11DescriptionV
++ _type_layout_string 24SensitiveContentAnalysis0aB0V
++ _type_layout_string 24SensitiveContentAnalysis0aB6PolicyV6SourceO
++ _type_layout_string 24SensitiveContentAnalysis0aB6PolicyV7ChangesV
++ _type_layout_string 24SensitiveContentAnalysis0aB6PolicyV7ChangesV13AsyncIteratorV
++ _type_layout_string 24SensitiveContentAnalysis10CacheCheckC11FetchStatus33_042D099C3048B292C2C607B19D7DC16ALLO
++ _type_layout_string 24SensitiveContentAnalysis10CacheCheckC6StatusO
++ _type_layout_string 24SensitiveContentAnalysis10SCFeaturesO3KeyV
++ _type_layout_string 24SensitiveContentAnalysis11ParticipantV
++ _type_layout_string 24SensitiveContentAnalysis11SampleTimerC5StatsV
++ _type_layout_string 24SensitiveContentAnalysis11SampleTimerC6ConfigV
++ _type_layout_string 24SensitiveContentAnalysis12EntitlementsV
++ _type_layout_string 24SensitiveContentAnalysis12EntitlementsV3KeyO
++ _type_layout_string 24SensitiveContentAnalysis12EntitlementsV5ErrorO
++ _type_layout_string 24SensitiveContentAnalysis12EntitlementsV6SourceO
++ _type_layout_string 24SensitiveContentAnalysis14RemoveAnalysesV
++ _type_layout_string 24SensitiveContentAnalysis15CodableSCAErrorV
++ _type_layout_string 24SensitiveContentAnalysis15MessageHandlersV
++ _type_layout_string 24SensitiveContentAnalysis15MessageHandlersV8Response33_DF118A8FE327A4DC5D744F45527CC1FCLLO
++ _type_layout_string 24SensitiveContentAnalysis16ConnectionConfigRzlAA07ResumedD0VyxG
++ _type_layout_string 24SensitiveContentAnalysis17XPCConnectionKindO
++ _type_layout_string 24SensitiveContentAnalysis19ArgumentExpectationV
++ _type_layout_string 24SensitiveContentAnalysis19SamplingPrioritizerC5Entry33_D84D1D7BE99E0E8C15C8B3F40A8E9BD2LLV
++ _type_layout_string 24SensitiveContentAnalysis19SamplingPrioritizerC8PriorityV
++ _type_layout_string 24SensitiveContentAnalysis19VideoStreamAnalyzerC13ReportTargetsV
++ _type_layout_string 24SensitiveContentAnalysis19VideoStreamAnalyzerC4ModeO
++ _type_layout_string 24SensitiveContentAnalysis19VideoStreamAnalyzerC5StateV
++ _type_layout_string 24SensitiveContentAnalysis6FamilyV
++ _type_layout_string 24SensitiveContentAnalysis6FamilyV6ParentV
++ _type_layout_string SC12SCAErrorCodeLeV
++ _type_layout_string So13audit_token_ta
++ _type_layout_string So19NSKeyValueChangeKeya
++ _type_layout_string So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesV
++ _type_layout_string So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE0F7ChangesV13AsyncIteratorV
++ _type_layout_string So28SCVideoStreamAnalysisOptionsV
++ _type_layout_string So29MOUserSafetyScannableServicesa
++ _type_layout_string l24SensitiveContentAnalysis13BlockForFirstVyxG
++ _type_layout_string l24SensitiveContentAnalysis6AtomicVyxG
++ _xpc_array_append_value
++ _xpc_array_create_empty
+- -[SCSensitivityAnalyzer shouldAnalyzeMedia:]
+- -[SCSensitivityAnalyzer shouldAnalyzeMediaWithType:error:]
+- GCC_except_table11
+- GCC_except_table13
+- GCC_except_table16
+- GCC_except_table18
+- GCC_except_table9
+- _CFAbsoluteTimeGetCurrent
+- _CVBufferPropagateAttachments
+- _CVPixelBufferPoolFlush
+- _NSPOSIXErrorDomain
+- _SCError
+- _SCErrorCausedBy
+- _SCErrorDomain
+- _VTPixelTransferSessionInvalidate
+- __DATA__TtCE24SensitiveContentAnalysisCSo21SCVideoStreamAnalyzerP33_E52FA56DEBAFC8D53EB6FBB0D64E15B215PixelBufferPool
+- __INSTANCE_METHODS_SCVideoStreamAnalyzer
+- __IVARS__TtCE24SensitiveContentAnalysisCSo21SCVideoStreamAnalyzerP33_E52FA56DEBAFC8D53EB6FBB0D64E15B215PixelBufferPool
+- __METACLASS_DATA__TtCE24SensitiveContentAnalysisCSo21SCVideoStreamAnalyzerP33_E52FA56DEBAFC8D53EB6FBB0D64E15B215PixelBufferPool
+- __OBJC_$_CLASS_METHODS_SCSensitivityAnalyzer
+- __OBJC_$_INSTANCE_METHODS_SCSensitivityAnalyzer
+- __PROTOCOLS_SCSensitivityAnalysis
+- __PROTOCOLS_SCSensitivityAnalysis.4
+- ___115-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke
+- ___115-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_2
+- ___115-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_3
+- ___115-[SCSensitivityAnalyzer analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:progressHandler:completionHandler:]_block_invoke_4
+- ___70-[SCSensitivityAnalyzer analyzeCGImage:orientation:completionHandler:]_block_invoke
+- ___70-[SCSensitivityAnalyzer analyzeCGImage:orientation:completionHandler:]_block_invoke_2
+- ___89-[SCSensitivityAnalyzer analyzeVideoFile:useBlastdoor:progressHandler:completionHandler:]_block_invoke
+- ___89-[SCSensitivityAnalyzer analyzeVideoFile:useBlastdoor:progressHandler:completionHandler:]_block_invoke_2
+- ___89-[SCSensitivityAnalyzer analyzeVideoFile:useBlastdoor:progressHandler:completionHandler:]_block_invoke_3
+- ___89-[SCSensitivityAnalyzer analyzeVideoFile:useBlastdoor:progressHandler:completionHandler:]_block_invoke_4
+- ___99-[SCSensitivityAnalyzer analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:completionHandler:]_block_invoke
+- ___99-[SCSensitivityAnalyzer analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:completionHandler:]_block_invoke_2
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SensitiveContentAnalysis
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SensitiveContentAnalysis
+- _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLOSHAASQ
+- _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance SC11SCErrorCodeLeV10Foundation13CustomNSErrorSCs5Error
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_8RawValueSYs17FixedWidthInteger
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_AC06_ErrorB8Protocol
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSC0B0AcDP_SY
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCAC26_ObjectiveCBridgeableError
+- _associated conformance SC11SCErrorCodeLeV10Foundation21_BridgedStoredNSErrorSCSH
+- _associated conformance SC11SCErrorCodeLeV10Foundation26_ObjectiveCBridgeableErrorSCs0F0
+- _associated conformance SC11SCErrorCodeLeVSHSCSQ
+- _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
+- _associated conformance So11CFStringRefaSHSCSQ
+- _associated conformance So11SCErrorCodeV10Foundation06_ErrorB8ProtocolSC01_D4TypeAcDP_AC21_BridgedStoredNSError
+- _associated conformance So11SCErrorCodeV10Foundation06_ErrorB8ProtocolSCSQ
+- _block_copy_helper.11
+- _block_descriptor.13
+- _block_destroy_helper.12
+- _kCVPixelBufferPoolAllocationThresholdKey
+- _kCVPixelBufferPoolMaximumBufferAgeKey
+- _kCVPixelBufferPoolMinimumBufferCountKey
+- _objc_msgSend$errorWithDomain:code:userInfo:
+- _objc_retain_x28
+- _objectdestroy.18Tm
+- _symbolic SDy_____ypG s11AnyHashableV
+- _symbolic SSSg________________pXjIeggr_ r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 24SensitiveContentAnalysis0cD6PolicyV s5ErrorP
+- _symbolic SSSg________________pXjIegnr_ r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 24SensitiveContentAnalysis0cD6PolicyV s5ErrorP
+- _symbolic Say_____y___________p_GG Scs12ContinuationV 24SensitiveContentAnalysis0bC6PolicyV s5ErrorP
+- _symbolic Scsy___________pG So27SCAnalysisFeatureEnablementV s5ErrorP
+- _symbolic So41SCSensitivityAnalysisAvailabilityObserverC
+- _symbolic _____ 24SensitiveContentAnalysis011SensitivityC0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLO
+- _symbolic _____ SC11SCErrorCodeLeV
+- _symbolic _____ So11CVBufferRefa
+- _symbolic _____ So11SCErrorCodeV
+- _symbolic _____ So20CVPixelBufferPoolRefa
+- _symbolic _____ So21SCVideoStreamAnalyzerC24SensitiveContentAnalysisE15PixelBufferPool33_E52FA56DEBAFC8D53EB6FBB0D64E15B2LLC
+- _symbolic _____ So27SCAnalysisFeatureEnablementV
+- _symbolic ________________pXjSSSgc r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq 24SensitiveContentAnalysis0cD6PolicyV s5ErrorP
+- _symbolic ______ypt So11CFStringRefa
+- _symbolic ______ypt s11AnyHashableV
+- _symbolic _____yScsy___________pG_____G s16AsyncMapSequenceV So27SCAnalysisFeatureEnablementV s5ErrorP 24SensitiveContentAnalysis0hI6PolicyV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24SensitiveContentAnalysis011SensitivityF0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24SensitiveContentAnalysis011SensitivityF0V10CodingKeys33_EB9230DE2B8897D466C78BAF73B0432BLLO
+- _symbolic _____y_____SgG 2os21OSAllocatedUnfairLockV 24SensitiveContentAnalysis0eF6PolicyV
+- _symbolic _____y_____Sg_____G s13ManagedBufferCsRi__rlE 24SensitiveContentAnalysis0cD6PolicyV So16os_unfair_lock_sV
+- _symbolic _____y___________p_G Scs12ContinuationV So27SCAnalysisFeatureEnablementV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO So27SCAnalysisFeatureEnablementV s5ErrorP
+- _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO So27SCAnalysisFeatureEnablementV s5ErrorP
+- _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
+- _symbolic _____y_____ySo21SCSensitivityAnalysisC______pGSg_____G s13ManagedBufferCsRi__rlE s6ResultOsRi_zrlE s5ErrorP So16os_unfair_lock_sV
+- _symbolic _____y_____y___________p_GG s23_ContiguousArrayStorageC Scs12ContinuationV 24SensitiveContentAnalysis0eF6PolicyV s5ErrorP
+- _symbolic _____y_____ypG s18_DictionaryStorageC So11CFStringRefa
+- _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
+- _type_layout_string SC11SCErrorCodeLeV
+CStrings:
++ "\"%s\" decreased sample rate%s: %{private}f -> %{private}f"
++ "\"%s\" increased sample rate%s: %{private}f -> %{private}f"
++ "\"%s\" removed sample rate%s"
++ "\"%s\" set initial sample rate%s: %{private}f"
++ "$__lazy_storage_$__supportsAnalysis"
++ "$__lazy_storage_$__supportsAnalysisHistoryRead"
++ "$__lazy_storage_$__supportsAnalysisHistoryReadWrite"
++ "$__lazy_storage_$__supportsDirectPolicyRetrieval"
++ "$__lazy_storage_$_analysisInterval"
++ "$__lazy_storage_$_ttrFrameBuffer"
++ "%s is continuing siblings' streams: %s"
++ "%{private}s"
++ "/Library/com.apple.ManagedSettings/EffectiveSettings.plist"
++ "0C3A4AF9-2C1D-4583-A1A8-DDA2FCBC0754"
++ "0F496CB5-8743-4083-8247-210A81CC6863"
++ "164DF3CE-4AAA-4749-991C-537C2C1FA46D"
++ "@\"<MADVideoSessionTTRFrameForward>\""
++ "@\"MADVideoSession\""
++ "@\"NSMutableArray\""
++ "@\"NSSet\""
++ "@\"NSString\"16@0:8"
++ "@24@0:8:16"
++ "@24@0:8Q16"
++ "@24@0:8^@16"
++ "@24@0:8^{_NSZone=}16"
++ "@32@0:8:16@24"
++ "@32@0:8@?16^@24"
++ "@32@0:8d16Q24"
++ "@40@0:8:16@24@32"
++ "@40@0:8@16@24@32"
++ "@40@0:8@16Q24^@32"
++ "@40@0:8@16q24^@32"
++ "@48@0:8@16@24@32@40"
++ "@48@0:8@16@24Q32^@40"
++ "@52@0:8^{__CVBuffer=}16{?=qiIq}24I48"
++ "@72@0:8@16{?=[8I]}24Q56^@64"
++ "@80@0:8@16@24{?=[8I]}32Q64^@72"
++ "AB"
++ "Adopting existing analysis result for new analyzer."
++ "AnalysisHistoryXPCHost-ClientUpdates-"
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
++ "B32@0:8@16Q24"
++ "B32@0:8@16^@24"
++ "B32@0:8^v16^@24"
++ "B32@0:8^{OpaqueVTDecompressionSession=}16^@24"
++ "B40@0:8@16Q24^@32"
++ "B60@0:8^{__CVBuffer=}16{?=qiIq}24I48@?52"
++ "Call ended %s"
++ "Call started %s"
++ "Called continueStream"
++ "Cannot XPC an analyzer that has already started sampling."
++ "Cannot encode an analyzer that has already started."
++ "Coder not supported"
++ "Couldn't find handler for received message!"
++ "Couldn't find preferred source!"
++ "Decoded analyzer from NSXPCCoder: \"%s\""
++ "Decoded analyzer from xpc_object_t: \"%s\""
++ "Deinitialized cache"
++ "Deinitialized client"
++ "Delaying detection on \"%s\" for %{private}f seconds."
++ "Denied connection with error: %@"
++ "Dispatcher (%@) ended"
++ "Down connection interrupted"
++ "Down connection invalidated"
++ "Dumping %ld frames for TTR..."
++ "End analyzer: %s (%s)"
++ "Failed fetch for %{private}s. Error: %@"
++ "Failed to check analysis history for incoming call: %@"
++ "Failed to check analysis history for incoming handles: %@"
++ "Failed to check analysis history for outgoing call: %@"
++ "Failed to clear analyses for %ld %@"
++ "Failed to decode stream analyzer with error: %@"
++ "Failed to decode stream analyzer xpc object with error: %@"
++ "Failed to fetch first policy: %@"
++ "Failed to fetch participants: %@"
++ "Failed to find MADService policy method"
++ "Failed to find MADUserSafetyPolicy"
++ "Failed to pop TTR notification! %@"
++ "Failed to receive first policy from source: %s, defaulting to disabled..."
++ "Failed to retrieve SensitiveContentPolicy due to connectivity issues. Forcing obscuration."
++ "Failed to retrieve SensitiveContentPolicy: %@, Defaulting to disabled..."
++ "Failed to retrieve entitlement %s, error: %@"
++ "Failed to start AnalysisHistoryXPCHost: %@"
++ "Failed to store most recent analysis: %@"
++ "Failed to update client %s cache: %@"
++ "Fetched first policy: %s"
++ "Fetching policy from new source: %s"
++ "Finished dumping %ld frames for TTR..."
++ "Finished loading family info."
++ "Finished. Initial: %{private}ld, Follow-up: %{private}ld, continues: %{private}ld"
++ "Fired change handler: %{private}hu, %{private}hu"
++ "Importing fetch requested:%ld,fetched:%ld"
++ "Importing update: %ld added, %ld removed"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Initialized cache"
++ "Initialized client"
++ "Issuing advisory analyses with %ld analyzers..."
++ "Issuing continues with %ld analyzers..."
++ "Library/Application Support/"
++ "Listening for join changes..."
++ "Loading family info..."
++ "MAD Policy Service"
++ "MADUserSafetyPolicy"
++ "MADVideoSession"
++ "MADVideoSessionSafetyRequest"
++ "MADVideoSessionSafetyResult"
++ "MADVideoSessionTTRFrame"
++ "MADVideoSessionTTROptions"
++ "MOCancellable"
++ "Managed Settings"
++ "NSCopying"
++ "NSObject"
++ "NSXPCListenerDelegate"
++ "Neither policy nor error were set!"
++ "New session. Total: %ld"
++ "No analyzers to handle continue."
++ "No analyzers to handle join."
++ "No host to handle fetch participants message"
++ "No host to handle remove message"
++ "No host to handle store message"
++ "No result checking analysis history for incoming call."
++ "Not entitled to distinguish CommSafety types"
++ "Not waiting for suspended client %d"
++ "OS_xpc_object"
++ "Operation unexpectedly threw an error of the wrong type! expected: "
++ "Participant continued"
++ "Participant joined"
++ "PolicyChecking"
++ "Pruned %ld entries, total: %ld"
++ "Q"
++ "Q16@0:8"
++ "Recreated session"
++ "Removed analyzer: %s"
++ "Removed session: %s %s."
++ "Removed session: %s %s. Error: %@"
++ "Reply not called for %s"
++ "SCAParticipant"
++ "SCAnalysisHistory"
++ "SCAnalysisHistoryCacheUpdated"
++ "SCCancellable"
++ "SCFrameBuffer"
++ "SCFrameBuffer.FrameCachingQueue"
++ "SCMADPolicyService"
++ "SCMADUserSafetyPolicy"
++ "SCMADVideoSession"
++ "SCMADVideoSessionTTRFrame"
++ "SCServicePolicyChecker"
++ "SCVideoStreamAnalyzerContinueStreamTimeout"
++ "SCVideoStreamAnalyzerTTRBufferingEnabled"
++ "SCVideoStreamAnalyzerTTRBufferingInterval"
++ "SCVideoStreamAnalyzerTTRMaxFrames"
++ "SecureCoding"
++ "SensitiveContentAnalysis.AnalysisHistoryXPCHost"
++ "SensitiveContentAnalysis.Cancellable"
++ "SensitiveContentAnalysis.Observer"
++ "SensitiveContentAnalysis.ResumedListener"
++ "SensitiveContentAnalysis.SCVideoStreamAnalyzer"
++ "SensitiveContentAnalysis.SampleTimer"
++ "SensitiveContentAnalysis.SampleTimerSecureCodingConfig"
++ "SensitiveContentAnalysis.Sampler"
++ "SensitiveContentAnalysis.VideoStreamAnalyzer"
++ "SensitiveContentAnalysis._AnalysisHistoryXPCHost"
++ "SensitiveContentAnalysis.sqlitedb"
++ "SensitiveContentAnalysis/AnalysisHistory.swift"
++ "SensitiveContentAnalysis/AnalysisHistoryCache.swift"
++ "SensitiveContentAnalysis/AnalysisHistoryXPCHost.swift"
++ "SensitiveContentAnalysis/Concurrency.swift"
++ "SensitiveContentAnalysis/Result+Helpers.swift"
++ "SensitiveContentAnalysis/SCFeatureFlags.swift"
++ "SensitiveContentAnalysis/SampleTimer.swift"
++ "SensitiveContentAnalysis/SwiftXPC.swift"
++ "SensitiveContentAnalysis/VideoStreamAnalyzer+XPC.swift"
++ "SensitiveContentAnalysis/VideoStreamAnalyzerState.swift"
++ "SensitiveContentAnalysis/XPC.swift"
++ "SensitiveContentAnalysisUI"
++ "SensitiveContentPolicyResultNotification"
++ "SensitiveContentPolicyResultNotification had wrong type!"
++ "Session cancelled: %@"
++ "SessionHandler cancelled with error: %@"
++ "SessionManagement"
++ "Start analyzer: %s (%s) total: %ld"
++ "Starting analysis history XPC host"
++ "Stored analysis"
++ "Stream \"%s\" is buffering frames for TTR. (%ld)"
++ "Stream \"%s\" stopped buffering frames for TTR"
++ "Stream \"%s\" will not buffer frames for TTR"
++ "SwiftData.Schema.Unique"
++ "T#,R"
++ "T@\"<MADVideoSessionTTRFrameForward>\",R,N,V_frame"
++ "T@\"MADService\",R,V_service"
++ "T@\"MADVideoSession\",R,N,V_session"
++ "T@\"NSSet\",R,C,V_handles"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "T@\"NSString\",R,C,V_displayName"
++ "T@\"NSString\",R,C,V_firstName"
++ "T@\"NSString\",R,C,V_lastName"
++ "TQ,R"
++ "TQ,V_type"
++ "TTR"
++ "T^{__CVBuffer=},R,V_pixelBuffer"
++ "Timed out clearing analyses for "
++ "Timed out storing analyses for "
++ "Timed out waiting for %ld other clients to update."
++ "Timed out waiting for initial SensitiveContentPolicy. Returning .disabled..."
++ "Timed-out checking analysis history for incoming call."
++ "Timed-out fetching "
++ "Timed-out waiting for family info."
++ "Tq,N,R"
++ "Tried to create a result with nil success & failure"
++ "T{?=qiIq},R,V_timestamp"
++ "Unexpected MOUserSafetyScanningPolicy value"
++ "Unexpected SCMADUserSafetyPolicy value %lu. Assuming .disabled..."
++ "Unexpected SCSensitivityAnalysisPolicy value"
++ "Unexpected _analysesFromMostRecentCommunications(with:completion:) call"
++ "Unexpected _clearMostRecentAnalyses(forParticipants:completion:) call"
++ "Unexpected _storeMostRecentAnalysis(_:forHandles:completion:) call"
++ "Unexpected _waitForClientsToUpdate(_:) call"
++ "Unexpected proxy type!"
++ "Up connection interrupted"
++ "Up connection invalidated"
++ "Updated client cache at %s"
++ "Updating %ld client caches for %ld additions and %ld removals."
++ "Updating SensitiveContentPolicy to %s"
++ "Using %s for content policy..."
++ "Using TTR Buffering Enabled from defaults: %{bool}d"
++ "Using TTR Buffering interval from defaults: %f"
++ "Using TTR Max Frames from defaults: %ld"
++ "Using continueStream timeout from defaults: %f"
++ "VCPDecompressionSessionSetContentAnalyzer"
++ "Vv16@0:8"
++ "XPC"
++ "^{OpaqueVTPixelTransferSession=}"
++ "^{_NSZone=}16@0:8"
++ "^{__CVBuffer=}"
++ "^{__CVBuffer=}16@0:8"
++ "^{__CVPixelBufferPool=}"
++ "_$backingData"
++ "_$observationRegistrar"
++ "_TtC24SensitiveContentAnalysis10CacheCheck"
++ "_TtC24SensitiveContentAnalysis11ActiveCalls"
++ "_TtC24SensitiveContentAnalysis11PolicyActor"
++ "_TtC24SensitiveContentAnalysis11SampleTimer"
++ "_TtC24SensitiveContentAnalysis15AnalysisHistory"
++ "_TtC24SensitiveContentAnalysis15SensitiveHandle"
++ "_TtC24SensitiveContentAnalysis18CountedFrameBuffer"
++ "_TtC24SensitiveContentAnalysis19SamplingPrioritizer"
++ "_TtC24SensitiveContentAnalysis19VideoStreamAnalyzer"
++ "_TtC24SensitiveContentAnalysis20AnalysisHistoryCache"
++ "_TtC24SensitiveContentAnalysis22AnalysisHistoryXPCHost"
++ "_TtC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost"
++ "_TtC24SensitiveContentAnalysis29SampleTimerSecureCodingConfig"
++ "_TtC24SensitiveContentAnalysis29VideoStreamAnalysisDispatcher"
++ "_TtC24SensitiveContentAnalysis4Call"
++ "_TtC24SensitiveContentAnalysisP33_4D89A8A00028CF3643711B7990FDFFDA13PolicyFetcher"
++ "_TtCC24SensitiveContentAnalysis15AnalysisHistoryP33_5B72C479793E9A28B06909F4B47E09798Listener"
++ "_TtCC24SensitiveContentAnalysis19VideoStreamAnalyzer7Sampler"
++ "_TtCC24SensitiveContentAnalysis23_AnalysisHistoryXPCHost14SessionHandler"
++ "_TtCC24SensitiveContentAnalysis4Call13AnalyzerEntry"
++ "_TtCV24SensitiveContentAnalysis12Entitlements6Checks"
++ "_TtCV24SensitiveContentAnalysis16ParticipantJoinsP33_A1B455ED37557BDC9F886674143C91148Observer"
++ "_TtP24SensitiveContentAnalysis26AnalysisStorageXPCProtocol_"
++ "_TtP24SensitiveContentAnalysis30VideoStreamAnalyzerXPCProtocol_"
++ "__policyResult"
++ "__policySource"
++ "__value"
++ "_analysesFromMostRecentCommunicationsWith:completion:"
++ "_analysisFromLastCommunication"
++ "_analysisResult"
++ "_analysisResultForJoiningAnalyzers"
++ "_bufferInterval"
++ "_cache"
++ "_calls"
++ "_clearMostRecentAnalysesForParticipants:completion:"
++ "_displayName"
++ "_downConnections"
++ "_endpoint"
++ "_entries"
++ "_fetchStatus"
++ "_firstName"
++ "_frame"
++ "_frameCachingQueue"
++ "_frames"
++ "_handle"
++ "_handles"
++ "_hasFetched"
++ "_lastName"
++ "_maxFrames"
++ "_mode"
++ "_participantsToCheck"
++ "_participantsUpdated:participantsRemoved:completion:"
++ "_pixelBuffer"
++ "_pixelBufferPool"
++ "_policyFetcherTask"
++ "_prioritized"
++ "_session"
++ "_sessionHandlers"
++ "_setEndpoint:"
++ "_storeMostRecentAnalysis:forHandles:completion:"
++ "_streamOrientation"
++ "_timestamp"
++ "_transferSession"
++ "_type"
++ "_upConnections"
++ "_updateCount"
++ "_usedService"
++ "_value"
++ "_waitForClientsToUpdate:"
++ "activationCount"
++ "addObserver:forKeyPath:options:context:"
++ "addRequest:error:"
++ "adultOrientedCopy"
++ "all"
++ "allApplications"
++ "allObjects"
++ "allServices"
++ "analysesForInterventionOnOutgoingCallToParticipants:callType:completion:"
++ "analysis-history-read"
++ "analysis-history-write"
++ "analysisChangedHandler"
++ "analysisFromLastCommunication"
++ "analysisResult"
++ "analysisResultHandler"
++ "analyzeCGImage:orientation:options:completionHandler:"
++ "analyzeImageWithLocalIdentifier:fromPhotoLibraryWithURL:options:completionHandler:"
++ "analyzePixelBuffer:orientation:"
++ "analyzeVideoFile:options:progressHandler:completionHandler:"
++ "analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:options:progressHandler:completionHandler:"
++ "analyzerUUID"
++ "anonymousListener"
++ "appleID"
++ "appleIDAliases"
++ "array"
++ "autorelease"
++ "baseInterval"
++ "baseIntervalAlgorithm"
++ "baseIntervalChanged"
++ "beginAnalysisOfCaptureDeviceInput:error:"
++ "beginAnalysisOfDecompressionSession:error:"
++ "beginAnalysisOfVideoProcessingDecompressionSession:error:"
++ "beginAnalysisWithCaptureDeviceInput:error:"
++ "beginAnalysisWithDecompressionSession:error:"
++ "beginAnalysisWithVideoProcessingDecompressionSession:error:"
++ "block"
++ "blockingPolicy"
++ "bufferFrame:timestamp:orientation:"
++ "checkAvailability:"
++ "childAnalysisChangedWithAnalysis:error:analyzerUUID:"
++ "childFrameAreaChangedWithAnalyzerUUID:newFrameArea:"
++ "childOrientedCopy"
++ "class"
++ "clientUpdateQueue"
++ "code"
++ "com.apple.Bridge"
++ "com.apple.FaceTime"
++ "com.apple.InCallService"
++ "com.apple.ManagedSettingsAgent"
++ "com.apple.ManagedSettingsAgent.publisher"
++ "com.apple.Messages"
++ "com.apple.MobileAddressBook"
++ "com.apple.MobileSMS"
++ "com.apple.NanoPhotos"
++ "com.apple.Photos"
++ "com.apple.Photos.PhotosUIService"
++ "com.apple.SensitiveContentAnalysis.analysishistory"
++ "com.apple.avconferenced"
++ "com.apple.callservicesd"
++ "com.apple.camera"
++ "com.apple.communicationtrustd"
++ "com.apple.developer.sensitivecontentanalysis.client"
++ "com.apple.developer.usersafety.client"
++ "com.apple.facetime"
++ "com.apple.mobilephone"
++ "com.apple.mobileslideshow"
++ "com.apple.mobileslideshow.PhotosMessagesApp"
++ "com.apple.mobileslideshow.photo-picker"
++ "com.apple.mobileslideshow.photospicker"
++ "com.apple.private.managed-settings.effective-read"
++ "com.apple.private.sensitivecontentanalysis.client"
++ "com.apple.security.exception.files.home-relative-path.read-only"
++ "com.apple.security.exception.mach-lookup.global-name"
++ "com.apple.security.temporary-exception.mach-lookup.global-name"
++ "compactAnalysis"
++ "conferencing_detection"
++ "config"
++ "conformsToProtocol:"
++ "connected"
++ "contact"
++ "context"
++ "continueStream"
++ "continueStreamTimeout"
++ "continueStreamWithAnalyzerUUID:"
++ "copyWithZone:"
++ "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
++ "currentCaptureDeviceInput"
++ "currentState"
++ "d"
++ "date"
++ "debugDescription"
++ "decodeArrayOfObjectsOfClass:forKey:"
++ "decodeIntegerForKey:"
++ "decodeObjectOfClass:forKey:"
++ "defaultCenter"
++ "defaultManager"
++ "description"
++ "displayName"
++ "domain"
++ "doubleValue"
++ "dumpFramesWithCompletionHandler:"
++ "emailAddresses"
++ "encodeForConnection:"
++ "endAnalysis"
++ "endpoint"
++ "endpoints"
++ "entitlementHasWrongType"
++ "entitlementHasWrongValue"
++ "entitlements"
++ "entitlementsMissing"
++ "expectedValuesNotPropertyList"
++ "failedToCreateEntitlementVerificationTask"
++ "failedToCreateTaskFromToken"
++ "failedToRetrieveEntitlementValue"
++ "familyTask"
++ "fetchExclusionPredicateWithCompactAnalysisKeyPath:"
++ "fetchSensitiveParticipant"
++ "first theRest "
++ "firstName"
++ "followUpFrameInterval"
++ "frame"
++ "frameBuffer"
++ "fullyInitialized"
++ "function"
++ "gv_detection"
++ "handleForIdentifier:error:"
++ "handlers"
++ "handles"
++ "hash"
++ "history"
++ "historyUpdated"
++ "host"
++ "id"
++ "identifierWithPid:"
++ "improved_reporting"
++ "initFromCompactAnalysis:error:"
++ "initSummaryAnalysisForOptions:"
++ "initWithAnalysisOfPreviousCall:participantUUID:auditToken:options:error:"
++ "initWithAnalysisOfPreviousCall:participantUUID:options:error:"
++ "initWithArray:"
++ "initWithBool:"
++ "initWithDisplayName:firstName:lastName:handles:"
++ "initWithDisplayName:handles:"
++ "initWithDouble:"
++ "initWithError:"
++ "initWithInteger:"
++ "initWithInterval:maxFrames:"
++ "initWithListenerEndpoint:"
++ "initWithMachServiceName:"
++ "initWithMachServiceName:options:"
++ "initWithParticipantUUID:auditToken:options:error:"
++ "initWithParticipantUUID:options:error:"
++ "initWithParticipantUUID:streamDirection:error:"
++ "initWithPixelBuffer:timestamp:orientation:"
++ "initWithQueue:error:"
++ "initWithServiceName:"
++ "initWithUpdateHandler:error:"
++ "initWithXPCObject:error:"
++ "initialSource"
++ "interfaceWithProtocol:"
++ "invalidate"
++ "isGuardian"
++ "isKindOfClass:"
++ "isMemberOfClass:"
++ "isParent"
++ "isProxy"
++ "isSensitiveContentWarningEnabledForBundleID:allServices:allApplications:"
++ "isUnscannedExempted"
++ "joinListener"
++ "lastFrameNeedingFollowUpTime"
++ "lastFrameNeedsFollowUp"
++ "lastName"
++ "latestResult"
++ "lazyContainer"
++ "listener"
++ "listener:shouldAcceptNewConnection:"
++ "lock"
++ "madSession"
++ "mayNeedOnDemandAnalysis"
++ "members"
++ "nil change handler"
++ "numberWithUnsignedInt:"
++ "numberWithUnsignedLong:"
++ "objectExportClosure"
++ "objectForKey:"
++ "obscureSensitiveMedia"
++ "observeValueForKeyPath:ofObject:change:context:"
++ "parentAnalysisChangedWithAnalysis:error:analyzerUUID:"
++ "participantUUID"
++ "pathExtension"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "pid"
++ "pixelBuffer"
++ "policyType"
++ "postNotificationName:object:"
++ "presentInterventions"
++ "previous_call_tip"
++ "prioritizer"
++ "processHandle"
++ "processPixelBuffer:timestamp:orientation:resultHandler:"
++ "proxyBlockCounter"
++ "queue"
++ "registerUserSafetyPolicyUpdateHandler:error:"
++ "release"
++ "remoteObjectProxy"
++ "removeObjectAtIndex:"
++ "removeObserver:forKeyPath:"
++ "report_to_apple"
++ "requestTTRNotificationWithVideoFrames:options:completionHandler:"
++ "requestTTRNotificationWithVideoFrames:streamID:startDate:completionHandler:"
++ "requireScreenTimePasscodeToViewMedia"
++ "respondsToSelector:"
++ "resume"
++ "retain"
++ "retainCount"
++ "sampleTimer"
++ "sca_isMovieFile"
++ "self"
++ "semaphore"
++ "serviceListener"
++ "session"
++ "setAnalysisChangedHandler:"
++ "setClasses:forSelector:argumentIndex:ofReply:"
++ "setDelegate:"
++ "setDouble:forKey:"
++ "setEventDate:"
++ "setExportedInterface:"
++ "setExportedObject:"
++ "setInterruptionHandler:"
++ "setInvalidationHandler:"
++ "setRemoteObjectInterface:"
++ "setSensitiveContentAnalyzerXPCObject:"
++ "setStartDate:"
++ "setStreamID:"
++ "setType:"
++ "setWithArray:"
++ "shouldBlockIncomingCallFromHandles:callType:completion:"
++ "shouldDeclineIncomingCallFromParticipants:callType:"
++ "shouldHonorFetchExclusionPredicate:"
++ "shouldIndicateSensitivity"
++ "shouldInterruptVideo"
++ "shouldMuteAudio"
++ "shouldShowStickerAttributions"
++ "softlink:r:path:/System/Library/PrivateFrameworks/VideoProcessing.framework/VideoProcessing"
++ "spa_detection"
++ "startRequestWithCompletionHandler:"
++ "state"
++ "stats"
++ "streamBecameVisible"
++ "streamID"
++ "streamStartTime"
++ "stringByAppendingPathComponent:"
++ "subscribeToSensitiveContentPolicyChangeNotifications:"
++ "superclass"
++ "synchronousRemoteObjectProxyWithErrorHandler:"
++ "taskState"
++ "teenOrientedCopy"
++ "timerConfig"
++ "timestamp"
++ "ttrFrameCollectionEnabled"
++ "type"
++ "u13_intervention"
++ "updateBaseSamplingIntervalWithAnalyzerUUID:to:"
++ "updateBlock"
++ "updateSensitiveParticipants"
++ "uuid"
++ "v16@?0@\"NSArray\"8"
++ "v16@?0@\"NSError\"8"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8Q16"
++ "v24@?0@\"FAFamilyCircle\"8@\"NSError\"16"
++ "v24@?0@\"NSObject\"8@\"NSError\"16"
++ "v24@?0@\"SCMADUserSafetyPolicy\"8@\"NSError\"16"
++ "v24@?0^{__CVBuffer=}8^{?=CC}16"
++ "v28@0:8^{__CVBuffer=}16I24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
++ "v32@0:8@\"NSArray\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSString\"16@\"NSNumber\"24"
++ "v32@0:8@16@24"
++ "v40@0:8@\"NSArray\"16Q24@?<v@?@\"NSDictionary\"@\"NSError\">32"
++ "v40@0:8@\"NSArray\"16Q24@?<v@?B>32"
++ "v40@0:8@\"NSDictionary\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"SCSensitivityAnalysis\"16@\"NSArray\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"SCSensitivityAnalysis\"16@\"NSError\"24@\"NSString\"32"
++ "v40@0:8@16@24@32"
++ "v44@0:8^{CGImage=}16I24Q28@?36"
++ "v48@0:8@16@24@32@?40"
++ "v48@0:8@16@24@32^v40"
++ "v48@0:8@16@24Q32@?40"
++ "v48@?0@\"NSArray\"8{?=qiIq}16@\"NSError\"40"
++ "v52@0:8^{__CVBuffer=}16{?=qiIq}24I48"
++ "v56@0:8@16@24Q32@?40@?48"
++ "value"
++ "willNeedInterventionForOutgoingCallToParticipants:callType:error:"
++ "zone"
++ "{?=\"value\"q\"timescale\"i\"flags\"I\"epoch\"q}"
++ "{?=qiIq}16@0:8"
+- "Communication Safety (Over 13)"
+- "Communication Safety (Under 13)"
+- "SCSensitivityAnalysis"
+- "Sensitive Content Warning"
+- "SensitiveContentAnalysis_Private.SCVideoStreamAnalyzer"
+- "Unexpected SCAnalysisFeatureEnablement value"
+- "_TtCE24SensitiveContentAnalysisCSo21SCVideoStreamAnalyzerP33_E52FA56DEBAFC8D53EB6FBB0D64E15B215PixelBufferPool"
+- "_currentPolicy"
+- "analysisChanged"
+- "bufferPool"
+- "changesSource"
+- "currentPersonaUniqueID"
+- "decodeObjectForKey:"
+- "errorWithDomain:code:userInfo:"
+- "initWithOptions:error:"
+- "pool"
+- "setAnalysisChanged:"
+- "shouldObscureVideo"
+- "transferSession"
+- "v16@?0q8"
+
+```

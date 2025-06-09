@@ -1,0 +1,1073 @@
+## UIKit
+
+> `/System/Library/AccessibilityBundles/UIKit.axbundle/UIKit`
+
+```diff
+
+-2963.10.30.1.0
+-  __TEXT.__text: 0x18a230
+-  __TEXT.__auth_stubs: 0x1490
+-  __TEXT.__objc_methlist: 0xf48c
++2994.2.0.0.0
++  __TEXT.__text: 0x191698
++  __TEXT.__auth_stubs: 0x14d0
++  __TEXT.__objc_methlist: 0xf6bc
+   __TEXT.__const: 0xa0
+-  __TEXT.__cstring: 0x18335
+-  __TEXT.__oslogstring: 0x2240
+-  __TEXT.__gcc_except_tab: 0x31b4
++  __TEXT.__cstring: 0x18951
++  __TEXT.__oslogstring: 0x2296
++  __TEXT.__gcc_except_tab: 0x34f0
+   __TEXT.__dlopen_cstrs: 0xb8
+   __TEXT.__ustring: 0x78
+-  __TEXT.__unwind_info: 0x2bc0
+-  __TEXT.__objc_classname: 0x8d80
+-  __TEXT.__objc_methname: 0x15afa
+-  __TEXT.__objc_methtype: 0x232a
+-  __TEXT.__objc_stubs: 0x10040
+-  __DATA_CONST.__got: 0xf60
+-  __DATA_CONST.__const: 0x1e00
+-  __DATA_CONST.__objc_classlist: 0x1ab8
++  __TEXT.__unwind_info: 0x2c88
++  __TEXT.__objc_classname: 0x8f9b
++  __TEXT.__objc_methname: 0x15c29
++  __TEXT.__objc_methtype: 0x2159
++  __TEXT.__objc_stubs: 0x103c0
++  __DATA_CONST.__got: 0xf80
++  __DATA_CONST.__const: 0x1e08
++  __DATA_CONST.__objc_classlist: 0x1b18
+   __DATA_CONST.__objc_catlist: 0x30
+-  __DATA_CONST.__objc_protolist: 0x78
++  __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5aa8
+-  __DATA_CONST.__objc_protorefs: 0x48
+-  __DATA_CONST.__objc_superrefs: 0xa38
++  __DATA_CONST.__objc_selrefs: 0x5ab8
++  __DATA_CONST.__objc_protorefs: 0x40
++  __DATA_CONST.__objc_superrefs: 0xa60
+   __DATA_CONST.__objc_arraydata: 0x190
+-  __AUTH_CONST.__auth_got: 0xa58
+-  __AUTH_CONST.__const: 0x1680
+-  __AUTH_CONST.__cfstring: 0x1d1e0
+-  __AUTH_CONST.__objc_const: 0x1fcc8
++  __AUTH_CONST.__auth_got: 0xa78
++  __AUTH_CONST.__const: 0x1740
++  __AUTH_CONST.__cfstring: 0x1d860
++  __AUTH_CONST.__objc_const: 0x200c0
+   __AUTH_CONST.__objc_intobj: 0x1f8
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x1450
++  __AUTH.__objc_data: 0x1a90
+   __DATA.__objc_ivar: 0x114
+-  __DATA.__data: 0x5f0
+-  __DATA.__bss: 0x3e6
+-  __DATA_DIRTY.__objc_data: 0xf6e0
++  __DATA.__data: 0x590
++  __DATA.__bss: 0x3ee
++  __DATA_DIRTY.__objc_data: 0xf460
+   __DATA_DIRTY.__common: 0x8
+   __DATA_DIRTY.__bss: 0x1e8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 5BCB8FCD-7A8D-36EE-ADE7-36BE0469FEA4
+-  Functions: 5733
+-  Symbols:   19586
+-  CStrings:  12011
++  UUID: 22EC891B-A918-3A23-9A31-A22E90782223
++  Functions: 5831
++  Symbols:   19882
++  CStrings:  12103
+ 
+Symbols:
++ +[IntelligenceUIPromptEntryViewAccessibility _accessibilityPerformValidations:]
++ +[IntelligenceUIPromptEntryViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[IntelligenceUIPromptEntryViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[UISwipeActionDynamicPullViewAccessibility _accessibilityPerformValidations:]
++ +[UISwipeActionDynamicPullViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[UISwipeActionDynamicPullViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UIKeyboardShortcutViewAccessibility _accessibilityPerformValidations:]
++ +[_UIKeyboardShortcutViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UIKeyboardShortcutViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UIMagicMorphTransformViewAccessibility _accessibilityPerformValidations:]
++ +[_UIMagicMorphTransformViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UIMagicMorphTransformViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityPerformValidations:]
++ +[_UIRemoteViewControllerLegacyImplAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UIRemoteViewControllerLegacyImplAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UISplitViewControllerAdaptiveColumnViewAccessibility _accessibilityPerformValidations:]
++ +[_UISplitViewControllerAdaptiveColumnViewAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UISplitViewControllerAdaptiveColumnViewAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UISplitViewControllerAdaptiveImplAccessibility _accessibilityPerformValidations:]
++ +[_UISplitViewControllerAdaptiveImplAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UISplitViewControllerAdaptiveImplAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UITabBarContentLayoutManagerAccessibility _accessibilityPerformValidations:]
++ +[_UITabBarContentLayoutManagerAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UITabBarContentLayoutManagerAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UITabBarVisualProvider_FloatingAccessibility _accessibilityPerformValidations:]
++ +[_UITabBarVisualProvider_FloatingAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UITabBarVisualProvider_FloatingAccessibility(SafeCategory) safeCategoryTargetClassName]
++ +[_UITabButtonAccessibility _accessibilityPerformValidations:]
++ +[_UITabButtonAccessibility(SafeCategory) safeCategoryBaseClass]
++ +[_UITabButtonAccessibility(SafeCategory) safeCategoryTargetClassName]
++ -[IntelligenceUIPromptEntryViewAccessibility _accessibilityLoadAccessibilityInformation]
++ -[UIAccessibilityBackButtonElement accessibilityIdentifier]
++ -[UIAccessibilityElementKBKey _accessibilityKeyboardKeyCanStartContinuousPath]
++ -[UIAccessibilityElementKBKey _axLayoutSupportsContinuousPath]
++ -[UIApplicationAccessibility _accessibilitySetTextInsertionGlowModeEnabled:]
++ -[UIApplicationAccessibility _accessibilitySetUIAppDisplayIDForContinuityDisplay:]
++ -[UIApplicationAccessibility _accessibilityUIAppDisplayIDForContinuityDisplay]
++ -[UICollectionViewAccessibility _fulfillPromisedFocusRegionForLayoutAttributes:]
++ -[UICollectionViewListCellAccessibility _updateSystemTypeAccessoryView:withCellAccessory:orConfiguration:usingState:isUserInitiated:]
++ -[UIFocusRingManagerAccessibility _accessibilityFKAShouldFocusItem:]
++ -[UIInterfaceActionRepresentationViewAccessibility accessibilityPath]
++ -[UIKeyboardImplAccessibility automaticMinimizationEnabled]
++ -[UIKeyboardImplAccessibility presentContinuousPathIntroductionView]
++ -[UIKeyboardLayoutStarAccessibility _axDidRegisterForAXSettingsNotification]
++ -[UIKeyboardLayoutStarAccessibility _axRegisterForAccessibilityContinuousPathSettingsNotifications]
++ -[UIKeyboardLayoutStarAccessibility _axUnregisterForAccessibilityContinuousPathSettingsNotifications]
++ -[UIKeyboardLayoutStarAccessibility _setAxDidRegisterForAXSettingsNotification:]
++ -[UIKeyboardLayoutStarAccessibility _transitionToContinuousPathState:forTouchInfo:]
++ -[UIKeyboardLayoutStarAccessibility initWithFrame:]
++ -[UINavigationControllerAccessibility _accessibilityLoadAccessibilityInformation]
++ -[UINavigationControllerAccessibility _setupFloatingToolbarAccessibility]
++ -[UIPickerColumnViewAccessibility _containerViewForLegacyFocusRing]
++ -[UIRemoteKeyboardWindowAccessibility _accessibilityWindowVisible]
++ -[UIResponderAccessibility _keyboardShortcutMenuLeaves]
++ -[UISliderAccessibility _containerViewForLegacyFocusRing]
++ -[UIStepperAccessibility _accessibilityFrameForDecrement]
++ -[UIStepperAccessibility _accessibilityFrameForIncrement]
++ -[UIStepperAccessibility _accessibilityNeedsMockStepper]
++ -[UIStepperAccessibility _axMockDecrementElement]
++ -[UIStepperAccessibility _axMockIncrementElement]
++ -[UIStepperAccessibility _axSetMockDecrementElement:]
++ -[UIStepperAccessibility _axSetMockIncrementElement:]
++ -[UISwipeActionDynamicPullViewAccessibility _accessibilityLoadAccessibilityInformation]
++ -[UISwipeActionDynamicPullViewAccessibility _accessibilityOverridesInvalidFrames]
++ -[UISwipeActionDynamicPullViewAccessibility _rebuildButtons]
++ -[UISwitchAccessibility _containerViewForLegacyFocusRing]
++ -[UITabBarAccessibility setItems:animated:]
++ -[UITableViewHeaderFooterViewAccessibility accessibilityFrame]
++ -[UITextEffectsWindowAccessibility _accessibilityAdditionalRemoteSubstituteChildren]
++ -[UITextFieldAccessibility shouldGroupAccessibilityChildren]
++ -[UIWindowAccessibility _accessibilityAdditionalRemoteSubstituteChildren]
++ -[UIWindowSceneAccessibility _accessibilityEnableFocusSystem]
++ -[_AXUITextViewParagraphElement isAccessibilityElement]
++ -[_UIFloatingContentViewAccessibility accessibilityPath]
++ -[_UIFloatingTabBarAccessibility _accessibilityDrawsFocusRingWhenChildrenFocused]
++ -[_UIFloatingTabBarAccessibility _accessibilityLoadAccessibilityInformation]
++ -[_UIFloatingTabBarAccessibility accessibilityPath]
++ -[_UIFloatingTabBarItemViewAccessibility accessibilityPath]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility _accessibilityUserTestingIsCancelButton]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility _accessibilityUserTestingIsDefaultButton]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility _accessibilityUserTestingIsDestructiveButton]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility _accessibilityUserTestingIsPreferredButton]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityIdentifier]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityLabel]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityLanguage]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityLocalizedStringTableName]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityTraits]
++ -[_UIInterfaceActionCustomViewRepresentationViewAccessibility isAccessibilityElement]
++ -[_UIKeyboardShortcutViewAccessibility _accessibilityLoadAccessibilityInformation]
++ -[_UIMagicMorphTransformViewAccessibility _axCachedPlatterElements]
++ -[_UIMagicMorphTransformViewAccessibility _axSetCachedPlatterElements:]
++ -[_UIMagicMorphTransformViewAccessibility _axSourcePreviewShouldHostSourceView]
++ -[_UIMagicMorphTransformViewAccessibility accessibilityElements]
++ -[_UINavigationBarLargeTitleViewAccessibility accessibilityElementsHidden]
++ -[_UIRemoteViewControllerLegacyImplAccessibility __handleFocusMovementAction:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility __setViewServiceIsDisplayingPopover:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityRemoteView:pid:machPort:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityResponderElement]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _awakeWithConnectionInfo:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axGetWasFocusEnabled]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axMachPortRetrievalTimer]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axRemoteViewLoadRequest:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axSetMachPortRetrievalTimer:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axSetWasFocusEnabled:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axShouldTakeBackFocus]
++ -[_UIRemoteViewControllerLegacyImplAccessibility _axTakeBakeFocusWithHeading:]
++ -[_UIRemoteViewControllerLegacyImplAccessibility disconnect]
++ -[_UISplitViewControllerAdaptiveColumnViewAccessibility _accessibilitySortPriority]
++ -[_UISplitViewControllerAdaptiveColumnViewAccessibility accessibilityContainerType]
++ -[_UISplitViewControllerAdaptiveColumnViewAccessibility shouldGroupAccessibilityChildren]
++ -[_UISplitViewControllerAdaptiveImplAccessibility _accessibilitySpeakThisViewController]
++ -[_UITabBarContentLayoutManagerAccessibility updateLayout]
++ -[_UITabBarVisualProvider_FloatingAccessibility _accessibilityLoadAccessibilityInformation]
++ -[_UITabBarVisualProvider_FloatingAccessibility layoutSubviews]
++ -[_UITabBarVisualProvider_FloatingAccessibility morphAnimationsForHostedElementsDidEnd]
++ -[_UITabButtonAccessibility _accessibilityAutomationType]
++ -[_UITabButtonAccessibility _accessibilityElementHasImage]
++ -[_UITabButtonAccessibility _accessibilityRetainsFocusOnScreenChange]
++ -[_UITabButtonAccessibility accessibilityHint]
++ -[_UITabButtonAccessibility accessibilityLabel]
++ -[_UITabButtonAccessibility accessibilityPath]
++ -[_UITabButtonAccessibility accessibilityRowRange]
++ -[_UITabButtonAccessibility accessibilityShouldUseSelectedColorWhileFocused]
++ -[_UITabButtonAccessibility accessibilityTraits]
++ -[_UITabButtonAccessibility accessibilityValue]
++ -[_UITabButtonAccessibility isAccessibilityElement]
++ -[_UIWindowSystemOverlayWindowAccessibility accessibilityElementsHidden]
++ GCC_except_table119
++ GCC_except_table149
++ GCC_except_table154
++ GCC_except_table169
++ GCC_except_table19
++ GCC_except_table217
++ GCC_except_table33
++ GCC_except_table46
++ GCC_except_table50
++ GCC_except_table65
++ GCC_except_table72
++ _AXCustomActionForMenuElements
++ _CACornerRadiiEqualToRadii
++ _CACornerRadiiZero
++ _OBJC_CLASS_$_IntelligenceUIPromptEntryViewAccessibility
++ _OBJC_CLASS_$_UISwipeActionDynamicPullViewAccessibility
++ _OBJC_CLASS_$__UIHostedWindow
++ _OBJC_CLASS_$__UIKeyboardShortcutViewAccessibility
++ _OBJC_CLASS_$__UIMagicMorphTransformViewAccessibility
++ _OBJC_CLASS_$__UIRemoteViewControllerLegacyImplAccessibility
++ _OBJC_CLASS_$__UISplitViewControllerAdaptiveColumnViewAccessibility
++ _OBJC_CLASS_$__UISplitViewControllerAdaptiveImplAccessibility
++ _OBJC_CLASS_$__UITabBarContentLayoutManagerAccessibility
++ _OBJC_CLASS_$__UITabBarVisualProvider_FloatingAccessibility
++ _OBJC_CLASS_$__UITabButtonAccessibility
++ _OBJC_CLASS_$__UIViewServiceSessionManager
++ _OBJC_CLASS_$___IntelligenceUIPromptEntryViewAccessibility_super
++ _OBJC_CLASS_$___UISwipeActionDynamicPullViewAccessibility_super
++ _OBJC_CLASS_$____UIKeyboardShortcutViewAccessibility_super
++ _OBJC_CLASS_$____UIMagicMorphTransformViewAccessibility_super
++ _OBJC_CLASS_$____UIRemoteViewControllerLegacyImplAccessibility_super
++ _OBJC_CLASS_$____UISplitViewControllerAdaptiveColumnViewAccessibility_super
++ _OBJC_CLASS_$____UISplitViewControllerAdaptiveImplAccessibility_super
++ _OBJC_CLASS_$____UITabBarContentLayoutManagerAccessibility_super
++ _OBJC_CLASS_$____UITabBarVisualProvider_FloatingAccessibility_super
++ _OBJC_CLASS_$____UITabButtonAccessibility_super
++ _OBJC_METACLASS_$_IntelligenceUIPromptEntryViewAccessibility
++ _OBJC_METACLASS_$_UISwipeActionDynamicPullViewAccessibility
++ _OBJC_METACLASS_$__UIKeyboardShortcutViewAccessibility
++ _OBJC_METACLASS_$__UIMagicMorphTransformViewAccessibility
++ _OBJC_METACLASS_$__UIRemoteViewControllerLegacyImplAccessibility
++ _OBJC_METACLASS_$__UISplitViewControllerAdaptiveColumnViewAccessibility
++ _OBJC_METACLASS_$__UISplitViewControllerAdaptiveImplAccessibility
++ _OBJC_METACLASS_$__UITabBarContentLayoutManagerAccessibility
++ _OBJC_METACLASS_$__UITabBarVisualProvider_FloatingAccessibility
++ _OBJC_METACLASS_$__UITabButtonAccessibility
++ _OBJC_METACLASS_$___IntelligenceUIPromptEntryViewAccessibility_super
++ _OBJC_METACLASS_$___UISwipeActionDynamicPullViewAccessibility_super
++ _OBJC_METACLASS_$____UIKeyboardShortcutViewAccessibility_super
++ _OBJC_METACLASS_$____UIMagicMorphTransformViewAccessibility_super
++ _OBJC_METACLASS_$____UIRemoteViewControllerLegacyImplAccessibility_super
++ _OBJC_METACLASS_$____UISplitViewControllerAdaptiveColumnViewAccessibility_super
++ _OBJC_METACLASS_$____UISplitViewControllerAdaptiveImplAccessibility_super
++ _OBJC_METACLASS_$____UITabBarContentLayoutManagerAccessibility_super
++ _OBJC_METACLASS_$____UITabBarVisualProvider_FloatingAccessibility_super
++ _OBJC_METACLASS_$____UITabButtonAccessibility_super
++ _UIKeyboardAutomaticIsOnScreen
++ __AXSAccessibilityKeyboardContinuousPathEnabled
++ __OBJC_$_CLASS_METHODS_IntelligenceUIPromptEntryViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS_UISwipeActionDynamicPullViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UIKeyboardShortcutViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UIMagicMorphTransformViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UIRemoteViewControllerLegacyImplAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UISplitViewControllerAdaptiveColumnViewAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UISplitViewControllerAdaptiveImplAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UITabBarContentLayoutManagerAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UITabBarVisualProvider_FloatingAccessibility(SafeCategory)
++ __OBJC_$_CLASS_METHODS__UITabButtonAccessibility(SafeCategory)
++ __OBJC_$_INSTANCE_METHODS_IntelligenceUIPromptEntryViewAccessibility
++ __OBJC_$_INSTANCE_METHODS_UISwipeActionDynamicPullViewAccessibility
++ __OBJC_$_INSTANCE_METHODS__UIKeyboardShortcutViewAccessibility
++ __OBJC_$_INSTANCE_METHODS__UIMagicMorphTransformViewAccessibility
++ __OBJC_$_INSTANCE_METHODS__UIRemoteViewControllerLegacyImplAccessibility
++ __OBJC_$_INSTANCE_METHODS__UISplitViewControllerAdaptiveColumnViewAccessibility
++ __OBJC_$_INSTANCE_METHODS__UISplitViewControllerAdaptiveImplAccessibility
++ __OBJC_$_INSTANCE_METHODS__UITabBarContentLayoutManagerAccessibility
++ __OBJC_$_INSTANCE_METHODS__UITabBarVisualProvider_FloatingAccessibility
++ __OBJC_$_INSTANCE_METHODS__UITabButtonAccessibility
++ __OBJC_CLASS_RO_$_IntelligenceUIPromptEntryViewAccessibility
++ __OBJC_CLASS_RO_$_UISwipeActionDynamicPullViewAccessibility
++ __OBJC_CLASS_RO_$__UIKeyboardShortcutViewAccessibility
++ __OBJC_CLASS_RO_$__UIMagicMorphTransformViewAccessibility
++ __OBJC_CLASS_RO_$__UIRemoteViewControllerLegacyImplAccessibility
++ __OBJC_CLASS_RO_$__UISplitViewControllerAdaptiveColumnViewAccessibility
++ __OBJC_CLASS_RO_$__UISplitViewControllerAdaptiveImplAccessibility
++ __OBJC_CLASS_RO_$__UITabBarContentLayoutManagerAccessibility
++ __OBJC_CLASS_RO_$__UITabBarVisualProvider_FloatingAccessibility
++ __OBJC_CLASS_RO_$__UITabButtonAccessibility
++ __OBJC_CLASS_RO_$___IntelligenceUIPromptEntryViewAccessibility_super
++ __OBJC_CLASS_RO_$___UISwipeActionDynamicPullViewAccessibility_super
++ __OBJC_CLASS_RO_$____UIKeyboardShortcutViewAccessibility_super
++ __OBJC_CLASS_RO_$____UIMagicMorphTransformViewAccessibility_super
++ __OBJC_CLASS_RO_$____UIRemoteViewControllerLegacyImplAccessibility_super
++ __OBJC_CLASS_RO_$____UISplitViewControllerAdaptiveColumnViewAccessibility_super
++ __OBJC_CLASS_RO_$____UISplitViewControllerAdaptiveImplAccessibility_super
++ __OBJC_CLASS_RO_$____UITabBarContentLayoutManagerAccessibility_super
++ __OBJC_CLASS_RO_$____UITabBarVisualProvider_FloatingAccessibility_super
++ __OBJC_CLASS_RO_$____UITabButtonAccessibility_super
++ __OBJC_METACLASS_RO_$_IntelligenceUIPromptEntryViewAccessibility
++ __OBJC_METACLASS_RO_$_UISwipeActionDynamicPullViewAccessibility
++ __OBJC_METACLASS_RO_$__UIKeyboardShortcutViewAccessibility
++ __OBJC_METACLASS_RO_$__UIMagicMorphTransformViewAccessibility
++ __OBJC_METACLASS_RO_$__UIRemoteViewControllerLegacyImplAccessibility
++ __OBJC_METACLASS_RO_$__UISplitViewControllerAdaptiveColumnViewAccessibility
++ __OBJC_METACLASS_RO_$__UISplitViewControllerAdaptiveImplAccessibility
++ __OBJC_METACLASS_RO_$__UITabBarContentLayoutManagerAccessibility
++ __OBJC_METACLASS_RO_$__UITabBarVisualProvider_FloatingAccessibility
++ __OBJC_METACLASS_RO_$__UITabButtonAccessibility
++ __OBJC_METACLASS_RO_$___IntelligenceUIPromptEntryViewAccessibility_super
++ __OBJC_METACLASS_RO_$___UISwipeActionDynamicPullViewAccessibility_super
++ __OBJC_METACLASS_RO_$____UIKeyboardShortcutViewAccessibility_super
++ __OBJC_METACLASS_RO_$____UIMagicMorphTransformViewAccessibility_super
++ __OBJC_METACLASS_RO_$____UIRemoteViewControllerLegacyImplAccessibility_super
++ __OBJC_METACLASS_RO_$____UISplitViewControllerAdaptiveColumnViewAccessibility_super
++ __OBJC_METACLASS_RO_$____UISplitViewControllerAdaptiveImplAccessibility_super
++ __OBJC_METACLASS_RO_$____UITabBarContentLayoutManagerAccessibility_super
++ __OBJC_METACLASS_RO_$____UITabBarVisualProvider_FloatingAccessibility_super
++ __OBJC_METACLASS_RO_$____UITabButtonAccessibility_super
++ __UIAccessibilityClientServedInternalControls
++ __UISolariumEnabled
++ __UIWindowSceneSessionRoleCarPlay
++ ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.860
++ ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.861
++ ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.862
++ ___103-[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke
++ ___103-[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke.413
++ ___103-[_UIRemoteViewControllerLegacyImplAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke_2
++ ___44-[UIStepperAccessibility _axAnnotateButtons]_block_invoke_13
++ ___44-[UIStepperAccessibility _axAnnotateButtons]_block_invoke_14
++ ___44-[UIStepperAccessibility _axAnnotateButtons]_block_invoke_15
++ ___44-[UIStepperAccessibility _axAnnotateButtons]_block_invoke_16
++ ___45-[UITextViewAccessibility automationElements]_block_invoke.614
++ ___46-[_UITabButtonAccessibility accessibilityPath]_block_invoke
++ ___48-[_UITabButtonAccessibility accessibilityTraits]_block_invoke
++ ___50-[_UITabButtonAccessibility accessibilityRowRange]_block_invoke
++ ___50-[_UITabButtonAccessibility accessibilityRowRange]_block_invoke_2
++ ___52-[_UIButtonBarButtonAccessibility accessibilityPath]_block_invoke
++ ___55-[UIResponderAccessibility _keyboardShortcutMenuLeaves]_block_invoke
++ ___59-[_UIFloatingTabBarItemViewAccessibility accessibilityPath]_block_invoke
++ ___60-[UITableViewAccessibility _accessibilityHitTest:withEvent:]_block_invoke.694
++ ___60-[UITableViewAccessibility _accessibilityHitTest:withEvent:]_block_invoke_2.699
++ ___60-[_UIRemoteViewControllerLegacyImplAccessibility disconnect]_block_invoke
++ ___61-[UIWindowSceneAccessibility _accessibilityEnableFocusSystem]_block_invoke
++ ___62-[_UITabOutlineViewAccessibility _accessibilitySetupTabButton]_block_invoke_2
++ ___64-[UITableViewCellAccessibility _accessibilityHitTest:withEvent:]_block_invoke.698
++ ___64-[_UIFocusSystemKeyboardSceneComponentAccessibility focusSystem]_block_invoke
++ ___64-[_UIMagicMorphTransformViewAccessibility accessibilityElements]_block_invoke
++ ___66-[UIApplicationAccessibility _accessibilityPreferredFocusedWindow]_block_invoke
++ ___68-[UIAccessibilityPickerComponent _accessibilityDateTimePickerValues]_block_invoke.330
++ ___68-[UIAccessibilityPickerComponent _accessibilityDateTimePickerValues]_block_invoke.343
++ ___69-[UIApplicationAccessibility _iosAccessibilitySetValue:forAttribute:]_block_invoke.969
++ ___69-[UIViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.569
++ ___69-[UIViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.570
++ ___72-[UIScrollViewAccessibility _accessibilityLastOpaqueElementWithOptions:]_block_invoke.442
++ ___72-[UIScrollViewAccessibility _accessibilityLastOpaqueElementWithOptions:]_block_invoke_2.443
++ ___73-[UIScrollViewAccessibility _accessibilityFirstOpaqueElementWithOptions:]_block_invoke.430
++ ___73-[UIScrollViewAccessibility _accessibilityFirstOpaqueElementWithOptions:]_block_invoke_2.431
++ ___74-[UITableViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.718
++ ___74-[UITableViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.719
++ ___75-[UICollectionViewListCellAccessibility _accessibilityHandleReorderMoveUp:]_block_invoke.512
++ ___76-[UIApplicationAccessibility _accessibilitySetTextInsertionGlowModeEnabled:]_block_invoke
++ ___76-[UICollectionViewAccessibility accessibilityCreatePrepareCellForIndexPath:]_block_invoke.528
++ ___78-[_UIRemoteViewControllerLegacyImplAccessibility __handleFocusMovementAction:]_block_invoke
++ ___78-[_UIRemoteViewControllerLegacyImplAccessibility _axTakeBakeFocusWithHeading:]_block_invoke
++ ___78-[_UIRemoteViewControllerLegacyImplAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_2
++ ___78-[_UIRemoteViewControllerLegacyImplAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_3
++ ___78-[_UIRemoteViewControllerLegacyImplAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_4
++ ___79-[UICollectionViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.599
++ ___79-[UICollectionViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.600
++ ___80-[UITextInputUIResponderAccessibility _accessibilityInsertTextWithAlternatives:]_block_invoke.677
++ ___82-[_UIRemoteDictionaryViewControllerAccessibility tableView:cellForRowAtIndexPath:]_block_invoke.357
++ ___86-[_UIRemoteViewControllerLegacyImplAccessibility __setViewServiceIsDisplayingPopover:]_block_invoke
++ ___87-[UISwipeActionDynamicPullViewAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke
++ ___88-[UIKeyboardEmojiCollectionViewAccessibility _accessibilityLocalizedVisibleSectionNames]_block_invoke.369
++ ___89-[UITableViewAccessibility _axFirstLastOpaqueHeaderElementFromSection:options:direction:]_block_invoke.572
++ ___91-[_UITabBarVisualProvider_FloatingAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke
++ ___91-[_UITabBarVisualProvider_FloatingAccessibility _accessibilityLoadAccessibilityInformation]_block_invoke_2
++ ___92-[UITableViewAccessibility _axOffScreenOpaqueHeaderElementInDirection:options:childElement:]_block_invoke.582
++ ___98-[UIKeyboardEmojiAndStickerCollectionViewAccessibility _accessibilityLocalizedVisibleSectionNames]_block_invoke.366
++ ___AXCustomActionForMenuElements_block_invoke
++ ___AXCustomActionForMenuElements_block_invoke_2
++ ___UIApplicationAccessibility___accessibilityUIAppDisplayIDForContinuityDisplay
++ ___UIKeyboardLayoutStarAccessibility___axDidRegisterForAXSettingsNotification
++ ___UIStepperAccessibility___axMockDecrementElement
++ ___UIStepperAccessibility___axMockIncrementElement
++ ____UIMagicMorphTransformViewAccessibility___axCachedPlatterElements
++ ____UIRemoteViewControllerLegacyImplAccessibility___axGetWasFocusEnabled
++ ____UIRemoteViewControllerLegacyImplAccessibility___axMachPortRetrievalTimer
++ ____reloadAccessibilitySettings_block_invoke
++ ___block_descriptor_32_e15_"NSString"8?0l
++ ___block_descriptor_32_e42_v32?0"UIMenuElement<UIMenuLeaf>"8Q16^B24l
++ ___block_descriptor_40_e8_32s_e20_B24?0"UIView"8^B16ls32l8
++ ___block_literal_global.1008
++ ___block_literal_global.1014
++ ___block_literal_global.1029
++ ___block_literal_global.1032
++ ___block_literal_global.1034
++ ___block_literal_global.1049
++ ___block_literal_global.1054
++ ___block_literal_global.1076
++ ___block_literal_global.1085
++ ___block_literal_global.1121
++ ___block_literal_global.1874
++ ___block_literal_global.1880
++ ___block_literal_global.2518
++ ___block_literal_global.285
++ ___block_literal_global.289
++ ___block_literal_global.294
++ ___block_literal_global.295
++ ___block_literal_global.299
++ ___block_literal_global.3096
++ ___block_literal_global.3098
++ ___block_literal_global.3103
++ ___block_literal_global.3115
++ ___block_literal_global.3117
++ ___block_literal_global.313
++ ___block_literal_global.3141
++ ___block_literal_global.3149
++ ___block_literal_global.315
++ ___block_literal_global.337
++ ___block_literal_global.343
++ ___block_literal_global.347
++ ___block_literal_global.367
++ ___block_literal_global.369
++ ___block_literal_global.374
++ ___block_literal_global.386
++ ___block_literal_global.392
++ ___block_literal_global.408
++ ___block_literal_global.428
++ ___block_literal_global.429
++ ___block_literal_global.431
++ ___block_literal_global.437
++ ___block_literal_global.439
++ ___block_literal_global.445
++ ___block_literal_global.460
++ ___block_literal_global.462
++ ___block_literal_global.475
++ ___block_literal_global.479
++ ___block_literal_global.511
++ ___block_literal_global.519
++ ___block_literal_global.524
++ ___block_literal_global.533
++ ___block_literal_global.542
++ ___block_literal_global.546
++ ___block_literal_global.564
++ ___block_literal_global.568
++ ___block_literal_global.572
++ ___block_literal_global.582
++ ___block_literal_global.593
++ ___block_literal_global.594
++ ___block_literal_global.598
++ ___block_literal_global.602
++ ___block_literal_global.606
++ ___block_literal_global.612
++ ___block_literal_global.616
++ ___block_literal_global.622
++ ___block_literal_global.624
++ ___block_literal_global.634
++ ___block_literal_global.646
++ ___block_literal_global.650
++ ___block_literal_global.653
++ ___block_literal_global.661
++ ___block_literal_global.667
++ ___block_literal_global.681
++ ___block_literal_global.684
++ ___block_literal_global.688
++ ___block_literal_global.692
++ ___block_literal_global.704
++ ___block_literal_global.710
++ ___block_literal_global.712
++ ___block_literal_global.717
++ ___block_literal_global.721
++ ___block_literal_global.745
++ ___block_literal_global.755
++ ___block_literal_global.787
++ ___block_literal_global.817
++ ___block_literal_global.849
++ ___block_literal_global.863
++ ___block_literal_global.869
++ ___block_literal_global.963
++ ___block_literal_global.966
++ ___block_literal_global.968
++ ___block_literal_global.971
++ ___block_literal_global.977
++ __reloadAccessibilitySettings
++ _kAXLocalAuthenticationScenIdentifier
++ _kAXSAccessibilityKeyboardContinuousPathEnabledNotification
++ _objc_msgSend$_accessibilityAdditionalRemoteSubstituteChildren
++ _objc_msgSend$_accessibilityEnableFocusSystem
++ _objc_msgSend$_accessibilityFKAShouldFocusItem:
++ _objc_msgSend$_accessibilitySetUIAppDisplayIDForContinuityDisplay:
++ _objc_msgSend$_accessibilityUIAppDisplayIDForContinuityDisplay
++ _objc_msgSend$_accessibilityUIAppFocusedOnContinuityDisplay
++ _objc_msgSend$_axDidRegisterForAXSettingsNotification
++ _objc_msgSend$_axLayoutSupportsContinuousPath
++ _objc_msgSend$_axRegisterForAccessibilityContinuousPathSettingsNotifications
++ _objc_msgSend$_axUnregisterForAccessibilityContinuousPathSettingsNotifications
++ _objc_msgSend$_isEnabled
++ _objc_msgSend$_largeSubtitleView
++ _objc_msgSend$_menu
++ _objc_msgSend$_performCancelAction
++ _objc_msgSend$_setAccessibilityAutomationType:
++ _objc_msgSend$_setAxDidRegisterForAXSettingsNotification:
++ _objc_msgSend$_setGlowViewMode:
++ _objc_msgSend$_setupFloatingToolbarAccessibility
++ _objc_msgSend$accessibilityUserDefinedActivationPoint
++ _objc_msgSend$allowsStartingContinuousPath
++ _objc_msgSend$children
++ _objc_msgSend$cornerRadii
++ _objc_msgSend$hasActiveSessions
++ _objc_msgSend$indexPathsWithActiveSwipes
++ _objc_msgSend$inputDelegateManager
++ _objc_msgSend$isAlphabeticPlane
++ _objc_msgSend$keyboardSceneDelegate
++ _objc_msgSend$performWithSender:target:
++ _objc_msgSend$reloadCurrentInputMode
++ _objc_msgSend$role
++ _objc_msgSend$roundedRectBezierPath:withRoundedCorners:withCornerRadii:
++ _objc_msgSend$safeSwiftValueForKey:
++ _objc_msgSend$session
++ _objc_msgSend$setAccessibilityHintBlock:
++ _objc_msgSend$setAccessibilityLabelBlock:
++ _objc_msgSend$syncInputManagerToKeyboardState
++ _objc_msgSend$usesContinuousPath
++ _objc_msgSend$validateClass:hasSwiftField:withSwiftType:
++ _objc_msgSend$valueWithCGSize:
++ _objc_msgSend$viewControllerForColumn:
+- +[_UIKeyShortcutHUDShortcutInputViewAccessibility _accessibilityPerformValidations:]
+- +[_UIKeyShortcutHUDShortcutInputViewAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[_UIKeyShortcutHUDShortcutInputViewAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[_UIRemoteViewControllerAccessibility _accessibilityPerformValidations:]
+- +[_UIRemoteViewControllerAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[_UIRemoteViewControllerAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[_UIViewServiceInterfaceAccessibility _accessibilityPerformValidations:]
+- +[_UIViewServiceInterfaceAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[_UIViewServiceInterfaceAccessibility(SafeCategory) safeCategoryTargetClassName]
+- +[_UIViewServiceInterfaceConnectionRequestAccessibility _accessibilityPerformValidations:]
+- +[_UIViewServiceInterfaceConnectionRequestAccessibility(SafeCategory) safeCategoryBaseClass]
+- +[_UIViewServiceInterfaceConnectionRequestAccessibility(SafeCategory) safeCategoryTargetClassName]
+- -[UIApplicationAccessibility _accessibilityFocusedScreen]
+- -[UICollectionViewAccessibility _fulfillPromisedFocusRegionForCell:]
+- -[UICollectionViewListCellAccessibility _updateSystemTypeAccessoryView:withCellAccessory:orConfiguration:usingState:]
+- -[UIPickerColumnViewAccessibility _viewToAddFocusLayer]
+- -[UIResponderAccessibility _keyCommands]
+- -[UISearchBarAccessibility _searchFieldBeginEditing]
+- -[UISearchBarAccessibility _searchFieldEndEditing]
+- -[UISearchBarTextFieldAccessibility _accessibilityEditingModeChanged]
+- -[UISearchBarTextFieldAccessibility _accessibilityLoadAccessibilityInformation]
+- -[UISliderAccessibility _viewToAddFocusLayer]
+- -[UIStepperAccessibility _axMacIdiomDecrementElement]
+- -[UIStepperAccessibility _axMacIdiomIncrementElement]
+- -[UIStepperAccessibility _axSetMacIdiomDecrementElement:]
+- -[UIStepperAccessibility _axSetMacIdiomIncrementElement:]
+- -[UISwitchAccessibility _viewToAddFocusLayer]
+- -[UIWindowAccessibility _accessibilityShouldIncludeKeyboardInRemoteSubstituteChildren]
+- -[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityPath]
+- -[_UIKeyShortcutHUDShortcutInputViewAccessibility _accessibilityLoadAccessibilityInformation]
+- -[_UIRemoteViewControllerAccessibility __handleFocusMovementAction:]
+- -[_UIRemoteViewControllerAccessibility __setViewServiceIsDisplayingPopover:]
+- -[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation:]
+- -[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]
+- -[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation]
+- -[_UIRemoteViewControllerAccessibility _accessibilityRemoteView:pid:machPort:]
+- -[_UIRemoteViewControllerAccessibility _accessibilityResponderElement]
+- -[_UIRemoteViewControllerAccessibility _awakeWithConnectionInfo:]
+- -[_UIRemoteViewControllerAccessibility _axGetWasFocusEnabled]
+- -[_UIRemoteViewControllerAccessibility _axMachPortRetrievalTimer]
+- -[_UIRemoteViewControllerAccessibility _axRemoteViewLoadRequest:]
+- -[_UIRemoteViewControllerAccessibility _axSetMachPortRetrievalTimer:]
+- -[_UIRemoteViewControllerAccessibility _axSetWasFocusEnabled:]
+- -[_UIRemoteViewControllerAccessibility _axShouldTakeBackFocus]
+- -[_UIRemoteViewControllerAccessibility _axTakeBakeFocusWithHeading:]
+- -[_UIRemoteViewControllerAccessibility disconnect]
+- -[_UIScenePresentationViewAccessibility _viewToAddFocusLayer]
+- -[_UISizeTrackingViewAccessibility _viewToAddFocusLayer]
+- -[_UIViewServiceInterfaceAccessibility _terminateUnconditionallyThen:]
+- -[_UIViewServiceInterfaceConnectionRequestAccessibility _cancelUnconditionallyThen:]
+- -[_UIViewServiceInterfaceConnectionRequestAccessibility _didConnectToService]
+- -[_UIWindowSystemOverlayWindowAccessibility _accessibilityCanBeConsideredAsMainWindow]
+- GCC_except_table117
+- GCC_except_table144
+- GCC_except_table147
+- GCC_except_table152
+- GCC_except_table21
+- GCC_except_table214
+- GCC_except_table32
+- GCC_except_table37
+- _OBJC_CLASS_$_BKSProcessAssertion
+- _OBJC_CLASS_$__UIKeyShortcutHUDShortcutInputViewAccessibility
+- _OBJC_CLASS_$__UIRemoteViewControllerAccessibility
+- _OBJC_CLASS_$__UIViewServiceInterfaceAccessibility
+- _OBJC_CLASS_$__UIViewServiceInterfaceConnectionRequestAccessibility
+- _OBJC_CLASS_$____UIKeyShortcutHUDShortcutInputViewAccessibility_super
+- _OBJC_CLASS_$____UIRemoteViewControllerAccessibility_super
+- _OBJC_CLASS_$____UIViewServiceInterfaceAccessibility_super
+- _OBJC_CLASS_$____UIViewServiceInterfaceConnectionRequestAccessibility_super
+- _OBJC_METACLASS_$__UIKeyShortcutHUDShortcutInputViewAccessibility
+- _OBJC_METACLASS_$__UIRemoteViewControllerAccessibility
+- _OBJC_METACLASS_$__UIViewServiceInterfaceAccessibility
+- _OBJC_METACLASS_$__UIViewServiceInterfaceConnectionRequestAccessibility
+- _OBJC_METACLASS_$____UIKeyShortcutHUDShortcutInputViewAccessibility_super
+- _OBJC_METACLASS_$____UIRemoteViewControllerAccessibility_super
+- _OBJC_METACLASS_$____UIViewServiceInterfaceAccessibility_super
+- _OBJC_METACLASS_$____UIViewServiceInterfaceConnectionRequestAccessibility_super
+- __OBJC_$_CLASS_METHODS__UIKeyShortcutHUDShortcutInputViewAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS__UIRemoteViewControllerAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS__UIViewServiceInterfaceAccessibility(SafeCategory)
+- __OBJC_$_CLASS_METHODS__UIViewServiceInterfaceConnectionRequestAccessibility(SafeCategory)
+- __OBJC_$_INSTANCE_METHODS__UIKeyShortcutHUDShortcutInputViewAccessibility
+- __OBJC_$_INSTANCE_METHODS__UIRemoteViewControllerAccessibility
+- __OBJC_$_INSTANCE_METHODS__UIViewServiceInterfaceAccessibility
+- __OBJC_$_INSTANCE_METHODS__UIViewServiceInterfaceConnectionRequestAccessibility
+- __OBJC_$_PROP_LIST_PKPlugIn
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_PKPlugIn
+- __OBJC_$_PROTOCOL_METHOD_TYPES_PKPlugIn
+- __OBJC_$_PROTOCOL_REFS_PKPlugIn
+- __OBJC_CLASS_RO_$__UIKeyShortcutHUDShortcutInputViewAccessibility
+- __OBJC_CLASS_RO_$__UIRemoteViewControllerAccessibility
+- __OBJC_CLASS_RO_$__UIViewServiceInterfaceAccessibility
+- __OBJC_CLASS_RO_$__UIViewServiceInterfaceConnectionRequestAccessibility
+- __OBJC_CLASS_RO_$____UIKeyShortcutHUDShortcutInputViewAccessibility_super
+- __OBJC_CLASS_RO_$____UIRemoteViewControllerAccessibility_super
+- __OBJC_CLASS_RO_$____UIViewServiceInterfaceAccessibility_super
+- __OBJC_CLASS_RO_$____UIViewServiceInterfaceConnectionRequestAccessibility_super
+- __OBJC_LABEL_PROTOCOL_$_PKPlugIn
+- __OBJC_METACLASS_RO_$__UIKeyShortcutHUDShortcutInputViewAccessibility
+- __OBJC_METACLASS_RO_$__UIRemoteViewControllerAccessibility
+- __OBJC_METACLASS_RO_$__UIViewServiceInterfaceAccessibility
+- __OBJC_METACLASS_RO_$__UIViewServiceInterfaceConnectionRequestAccessibility
+- __OBJC_METACLASS_RO_$____UIKeyShortcutHUDShortcutInputViewAccessibility_super
+- __OBJC_METACLASS_RO_$____UIRemoteViewControllerAccessibility_super
+- __OBJC_METACLASS_RO_$____UIViewServiceInterfaceAccessibility_super
+- __OBJC_METACLASS_RO_$____UIViewServiceInterfaceConnectionRequestAccessibility_super
+- __OBJC_PROTOCOL_$_PKPlugIn
+- __OBJC_PROTOCOL_REFERENCE_$_PKPlugIn
+- ___102-[UIWindowSceneAccessibility _accessibilityFocusContainerMoveFocusWithHeading:toElementMatchingQuery:]_block_invoke
+- ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.848
+- ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.849
+- ___103-[UIApplicationAccessibility _accessibilityElementFirst:last:forFocus:allowScrolling:traversalOptions:]_block_invoke.850
+- ___40-[UIResponderAccessibility _keyCommands]_block_invoke
+- ___45-[UITextViewAccessibility automationElements]_block_invoke.611
+- ___50-[UISearchBarAccessibility _searchFieldEndEditing]_block_invoke
+- ___50-[_UIRemoteViewControllerAccessibility disconnect]_block_invoke
+- ___52-[UISearchBarAccessibility _searchFieldBeginEditing]_block_invoke
+- ___57-[UIApplicationAccessibility _accessibilityFocusedScreen]_block_invoke
+- ___57-[UIApplicationAccessibility _accessibilityFocusedScreen]_block_invoke_2
+- ___60-[UITableViewAccessibility _accessibilityHitTest:withEvent:]_block_invoke.691
+- ___60-[UITableViewAccessibility _accessibilityHitTest:withEvent:]_block_invoke_2.696
+- ___64-[UITableViewCellAccessibility _accessibilityHitTest:withEvent:]_block_invoke.695
+- ___65-[UIWindowSceneAccessibility _accessibilityDidFocusOnApplication]_block_invoke
+- ___68-[UIAccessibilityPickerComponent _accessibilityDateTimePickerValues]_block_invoke.327
+- ___68-[UIAccessibilityPickerComponent _accessibilityDateTimePickerValues]_block_invoke.340
+- ___68-[_UIRemoteViewControllerAccessibility __handleFocusMovementAction:]_block_invoke
+- ___68-[_UIRemoteViewControllerAccessibility _axTakeBakeFocusWithHeading:]_block_invoke
+- ___68-[_UIRemoteViewControllerAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_2
+- ___68-[_UIRemoteViewControllerAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_3
+- ___68-[_UIRemoteViewControllerAccessibility _axTakeBakeFocusWithHeading:]_block_invoke_4
+- ___69-[UIApplicationAccessibility _iosAccessibilitySetValue:forAttribute:]_block_invoke.958
+- ___69-[UIViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.572
+- ___69-[UIViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.573
+- ___72-[UIScrollViewAccessibility _accessibilityLastOpaqueElementWithOptions:]_block_invoke.439
+- ___72-[UIScrollViewAccessibility _accessibilityLastOpaqueElementWithOptions:]_block_invoke_2.440
+- ___73-[UIScrollViewAccessibility _accessibilityFirstOpaqueElementWithOptions:]_block_invoke.427
+- ___73-[UIScrollViewAccessibility _accessibilityFirstOpaqueElementWithOptions:]_block_invoke_2.428
+- ___74-[UITableViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.715
+- ___74-[UITableViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.716
+- ___75-[UICollectionViewListCellAccessibility _accessibilityHandleReorderMoveUp:]_block_invoke.506
+- ___76-[UICollectionViewAccessibility accessibilityCreatePrepareCellForIndexPath:]_block_invoke.525
+- ___76-[_UIRemoteViewControllerAccessibility __setViewServiceIsDisplayingPopover:]_block_invoke
+- ___79-[UICollectionViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke.596
+- ___79-[UICollectionViewAccessibility _accessibilitySortedElementsWithinWithOptions:]_block_invoke_2.597
+- ___80-[UITextInputUIResponderAccessibility _accessibilityInsertTextWithAlternatives:]_block_invoke.674
+- ___80-[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityPath]_block_invoke
+- ___80-[_UIInterfaceActionCustomViewRepresentationViewAccessibility accessibilityPath]_block_invoke_2
+- ___82-[_UIRemoteDictionaryViewControllerAccessibility tableView:cellForRowAtIndexPath:]_block_invoke.354
+- ___87-[UIWindowSceneAccessibility _accessibilityFocusContainerMoveFocusWithHeading:byGroup:]_block_invoke
+- ___88-[UIKeyboardEmojiCollectionViewAccessibility _accessibilityLocalizedVisibleSectionNames]_block_invoke.366
+- ___88-[UIWindowSceneAccessibility _accessibilityMoveFocusWithHeading:toElementMatchingQuery:]_block_invoke
+- ___89-[UITableViewAccessibility _axFirstLastOpaqueHeaderElementFromSection:options:direction:]_block_invoke.569
+- ___92-[UITableViewAccessibility _axOffScreenOpaqueHeaderElementInDirection:options:childElement:]_block_invoke.579
+- ___93-[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke
+- ___93-[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke.393
+- ___93-[_UIRemoteViewControllerAccessibility _accessibilityLoadAccessibilityInformation:retryTime:]_block_invoke_2
+- ___98-[UIKeyboardEmojiAndStickerCollectionViewAccessibility _accessibilityLocalizedVisibleSectionNames]_block_invoke.363
+- ___UIStepperAccessibility___axMacIdiomDecrementElement
+- ___UIStepperAccessibility___axMacIdiomIncrementElement
+- ____UIRemoteViewControllerAccessibility___axGetWasFocusEnabled
+- ____UIRemoteViewControllerAccessibility___axMachPortRetrievalTimer
+- ___block_descriptor_32_e29_v32?0"UIKeyCommand"8Q16^B24l
+- ___block_descriptor_40_e8_32r_e22_v24?0"UIScreen"8^B16lr32l8
+- ___block_descriptor_64_e39_Q40?0{CGRect={CGPoint=dd}{CGSize=dd}}8l
+- ___block_literal_global.1003
+- ___block_literal_global.1018
+- ___block_literal_global.1021
+- ___block_literal_global.1023
+- ___block_literal_global.1038
+- ___block_literal_global.1043
+- ___block_literal_global.1065
+- ___block_literal_global.1074
+- ___block_literal_global.1111
+- ___block_literal_global.1902
+- ___block_literal_global.1908
+- ___block_literal_global.2522
+- ___block_literal_global.282
+- ___block_literal_global.286
+- ___block_literal_global.291
+- ___block_literal_global.292
+- ___block_literal_global.296
+- ___block_literal_global.310
+- ___block_literal_global.3106
+- ___block_literal_global.3108
+- ___block_literal_global.3113
+- ___block_literal_global.312
+- ___block_literal_global.3125
+- ___block_literal_global.3127
+- ___block_literal_global.3151
+- ___block_literal_global.3159
+- ___block_literal_global.316
+- ___block_literal_global.330
+- ___block_literal_global.334
+- ___block_literal_global.363
+- ___block_literal_global.364
+- ___block_literal_global.405
+- ___block_literal_global.411
+- ___block_literal_global.422
+- ___block_literal_global.425
+- ___block_literal_global.426
+- ___block_literal_global.430
+- ___block_literal_global.434
+- ___block_literal_global.436
+- ___block_literal_global.442
+- ___block_literal_global.444
+- ___block_literal_global.447
+- ___block_literal_global.450
+- ___block_literal_global.456
+- ___block_literal_global.463
+- ___block_literal_global.472
+- ___block_literal_global.482
+- ___block_literal_global.508
+- ___block_literal_global.515
+- ___block_literal_global.516
+- ___block_literal_global.532
+- ___block_literal_global.536
+- ___block_literal_global.539
+- ___block_literal_global.543
+- ___block_literal_global.559
+- ___block_literal_global.567
+- ___block_literal_global.571
+- ___block_literal_global.575
+- ___block_literal_global.585
+- ___block_literal_global.590
+- ___block_literal_global.595
+- ___block_literal_global.599
+- ___block_literal_global.609
+- ___block_literal_global.613
+- ___block_literal_global.619
+- ___block_literal_global.621
+- ___block_literal_global.630
+- ___block_literal_global.631
+- ___block_literal_global.643
+- ___block_literal_global.647
+- ___block_literal_global.662
+- ___block_literal_global.664
+- ___block_literal_global.675
+- ___block_literal_global.685
+- ___block_literal_global.687
+- ___block_literal_global.689
+- ___block_literal_global.701
+- ___block_literal_global.707
+- ___block_literal_global.709
+- ___block_literal_global.714
+- ___block_literal_global.718
+- ___block_literal_global.742
+- ___block_literal_global.749
+- ___block_literal_global.804
+- ___block_literal_global.836
+- ___block_literal_global.860
+- ___block_literal_global.866
+- ___block_literal_global.955
+- ___block_literal_global.957
+- ___block_literal_global.960
+- ___block_literal_global.974
+- ___block_literal_global.997
+- _objc_msgSend$_accessibilityEditingModeChanged
+- _objc_msgSend$_accessibilityFocusedScreen
+- _objc_msgSend$_accessibilityShouldIncludeKeyboardInRemoteSubstituteChildren
+- _objc_msgSend$_allWindows
+- _objc_msgSend$_cancelButtonPressed
+- _objc_msgSend$_enumerateScreensWithBlock:
+- _objc_msgSend$active
+- _objc_msgSend$longValue
+- _objc_msgSend$setNeedsFocusUpdate
+- _objc_msgSend$suspendPid:forAssertionPointer:
+- _objc_msgSend$unsuspendPid:forAssertionPointer:
+- _objc_msgSend$validateProtocol:hasOptionalInstanceMethod:
+CStrings:
++ "%p-sourcePreviewElements"
++ "<_UISplitViewControllerImplementing>"
++ "Accessing focus elment from a window instead of UIScreen"
++ "Dictionary<UITabBarItem, _UITabButton>"
++ "IntelligenceUIPromptEntryViewAccessibility"
++ "Optional<UITabBarItem>"
++ "Optional<UITargetedPreview>"
++ "Optional<_UIBarBadgeView>"
++ "Optional<_UITabButton>"
++ "ResetSideBar"
++ "Setting kAXApplicationDisplayIDForContinuityDisplay: %@"
++ "Setting kAXApplicationIsFocusedOnContinuityDisplay: %@"
++ "ToggleSideBar"
++ "UIControl<_UITabBarButton>"
++ "UIInterfaceAction"
++ "UIKBTouchState"
++ "UIKeyboardTouchInfo"
++ "UIKit._UIMagicMorphTransformView"
++ "UIKit._UITabBarVisualProvider_Floating"
++ "UIStepperDesignLibraryVisualElement"
++ "UISwipeActionDynamicPullView"
++ "UISwipeActionDynamicPullViewAccessibility"
++ "UITargetedPreview"
++ "UITextSelectionDisplayInteraction"
++ "UIView<UISwipeActionPullViewCommonProtocol>"
++ "UIView<_UIFloatingBarContainer>"
++ "_TtCO5UIKit14IntelligenceUI15PromptEntryView"
++ "_UIAlertControllerActionViewInterfaceAction"
++ "_UICollectionViewLayoutSwipeActionsModule"
++ "_UIInterfaceActionSeparatableSequenceView"
++ "_UIKeyboardShortcutView"
++ "_UIKeyboardShortcutViewAccessibility"
++ "_UIMagicMorphTransformViewAccessibility"
++ "_UIRemoteViewControllerImpl"
++ "_UIRemoteViewControllerLegacyImpl"
++ "_UIRemoteViewControllerLegacyImplAccessibility"
++ "_UISplitViewControllerAdaptiveColumnView"
++ "_UISplitViewControllerAdaptiveColumnViewAccessibility"
++ "_UISplitViewControllerAdaptiveImpl"
++ "_UISplitViewControllerAdaptiveImplAccessibility"
++ "_UISwipeActionDynamicButtonView"
++ "_UITabBarContentLayoutManager"
++ "_UITabBarContentLayoutManagerAccessibility"
++ "_UITabBarVisualProvider"
++ "_UITabBarVisualProvider_FloatingAccessibility"
++ "_UITabButton"
++ "_UITabButtonAccessibility"
++ "_UITabMorphing"
++ "_UITableViewCellBadge"
++ "_UIVisualEffectContentView"
++ "__IntelligenceUIPromptEntryViewAccessibility_super"
++ "__UISwipeActionDynamicPullViewAccessibility_super"
++ "___UIKeyboardShortcutViewAccessibility_super"
++ "___UIMagicMorphTransformViewAccessibility_super"
++ "___UIRemoteViewControllerLegacyImplAccessibility_super"
++ "___UISplitViewControllerAdaptiveColumnViewAccessibility_super"
++ "___UISplitViewControllerAdaptiveImplAccessibility_super"
++ "___UITabBarContentLayoutManagerAccessibility_super"
++ "___UITabBarVisualProvider_FloatingAccessibility_super"
++ "___UITabButtonAccessibility_super"
++ "_accessibilityAdditionalRemoteSubstituteChildren"
++ "_accessibilityEnableFocusSystem"
++ "_accessibilityFKAShouldFocusItem:"
++ "_accessibilityKeyboardKeyCanStartContinuousPath"
++ "_accessibilitySetTextInsertionGlowModeEnabled:"
++ "_accessibilitySetUIAppDisplayIDForContinuityDisplay:"
++ "_accessibilityUIAppDisplayIDForContinuityDisplay"
++ "_actionContentView"
++ "_axDidRegisterForAXSettingsNotification"
++ "_axLayoutSupportsContinuousPath"
++ "_axRegisterForAccessibilityContinuousPathSettingsNotifications"
++ "_axUnregisterForAccessibilityContinuousPathSettingsNotifications"
++ "_containerViewForLegacyFocusRing"
++ "_floatingBarContainerView"
++ "_fulfillPromisedFocusRegionForLayoutAttributes:"
++ "_keyboardShortcutMenuLeaves"
++ "_largeSubtitleView"
++ "_menu"
++ "_owningRemoteViewController"
++ "_performCancelAction"
++ "_rebuildButtons"
++ "_rvcImpl"
++ "_selectedItem"
++ "_senderID"
++ "_setAccessibilityAutomationType:"
++ "_setAxDidRegisterForAXSettingsNotification:"
++ "_setGlowViewMode:"
++ "_setupFloatingToolbarAccessibility"
++ "_shouldHostSourceView"
++ "_swipeActionsModule"
++ "_transitionToContinuousPathState:forTouchInfo:"
++ "_updateSystemTypeAccessoryView:withCellAccessory:orConfiguration:usingState:isUserInitiated:"
++ "accessibilityShouldUseSelectedColorWhileFocused"
++ "accessibilityUserDefinedActivationPoint"
++ "allowsStartingContinuousPath"
++ "arrangedContentViews"
++ "automaticMinimizationEnabled"
++ "backgroundHighlightView"
++ "badgeView"
++ "collapseButton"
++ "com.apple.LocalAuthenticationUIService"
++ "cornerRadii"
++ "currentMorphTarget"
++ "customContentView"
++ "floating.collapsed.button.hint"
++ "highlightView"
++ "hitTestsAsOpaque"
++ "indexPathsWithActiveSwipes"
++ "isAlphabeticPlane"
++ "itemForCollapseButton"
++ "keyboardSceneDelegate"
++ "leadingButton"
++ "morphAnimationsForHostedElementsDidEnd"
++ "performWithSender:target:"
++ "placeholderLabel"
++ "presentContinuousPathIntroductionView"
++ "reloadCurrentInputMode"
++ "role"
++ "roundedRectBezierPath:withRoundedCorners:withCornerRadii:"
++ "safeSwiftValueForKey:"
++ "selectionDisplayInteraction"
++ "session"
++ "setAccessibilityHintBlock:"
++ "setAccessibilityLabelBlock:"
++ "setItems:animated:"
++ "sidebarBarButtonItem"
++ "sourcePreview"
++ "splitViewControllerColumn"
++ "supportsContinuousPath"
++ "syncInputManagerToKeyboardState"
++ "tabBarButtonsForItem"
++ "textView"
++ "touch"
++ "trailingButton"
++ "uiTouch"
++ "updateLayout"
++ "usesContinuousPath"
++ "v32@?0@\"UIMenuElement<UIMenuLeaf>\"8Q16^B24"
++ "v52@0:8@16@24@32@40B48"
++ "validateClass:hasSwiftField:withSwiftType:"
++ "valueWithCGSize:"
++ "viewControllerForColumn:"
+- "<UISplitViewControllerImpl>"
+- "@\"<PKPlugIn>\"16@0:8"
+- "@\"<PKPlugIn>\"24@0:8@\"NSUUID\"16"
+- "@\"NSBundle\"16@0:8"
+- "@\"NSURL\"16@0:8"
+- "@\"NSUUID\"16@0:8"
+- "@\"NSUserDefaults\"16@0:8"
+- "@?<v@?@\"<PKPlugIn>\"Q>16@0:8"
+- "B24@0:8^@16"
+- "B32@0:8@\"NSDictionary\"16^@24"
+- "B32@0:8@\"NSString\"16^@24"
+- "B32@0:8@16^@24"
+- "BKSProcessAssertion"
+- "PKPlugIn"
+- "Q40@?0{CGRect={CGPoint=dd}{CGSize=dd}}8"
+- "RBSProcessIdentifier"
+- "RBSTarget"
+- "T@\"<PKPlugIn>\",R"
+- "T@\"NSBundle\",R"
+- "T@\"NSDictionary\",R"
+- "T@\"NSString\",R"
+- "T@\"NSURL\",R"
+- "T@\"NSUUID\",R"
+- "T@,R"
+- "T@?,C"
+- "TB,?,R,N,G_isFocusDirectionFlippedHorizontally"
+- "TB,R"
+- "Tq"
+- "UIPrinterBrowserViewController"
+- "UIPrinterSearchingView"
+- "_UIConcreteRemoteViewService"
+- "_UIFocusItemInternal"
+- "_UIKeyShortcutHUDShortcutInputView"
+- "_UIKeyShortcutHUDShortcutInputViewAccessibility"
+- "_UIRemoteViewControllerAccessibility"
+- "_UIRemoteViewService"
+- "_UIViewServiceInterface"
+- "_UIViewServiceInterfaceAccessibility"
+- "_UIViewServiceInterfaceConnectionRequest"
+- "_UIViewServiceInterfaceConnectionRequestAccessibility"
+- "___UIKeyShortcutHUDShortcutInputViewAccessibility_super"
+- "___UIRemoteViewControllerAccessibility_super"
+- "___UIViewServiceInterfaceAccessibility_super"
+- "___UIViewServiceInterfaceConnectionRequestAccessibility_super"
+- "_accessibilityEditingModeChanged"
+- "_accessibilityFocusedScreen"
+- "_accessibilityShouldIncludeKeyboardInRemoteSubstituteChildren"
+- "_allWindows"
+- "_cancelButtonPressed"
+- "_cancelUnconditionallyThen:"
+- "_didConnectToService"
+- "_drawsFocusRingWhenChildrenFocused"
+- "_fulfillPromisedFocusRegionForCell:"
+- "_isFocusDirectionFlippedHorizontally"
+- "_isFocusSystemLoaded"
+- "_isTransparentFocusRegion"
+- "_keyCommandForEvent:"
+- "_preferredFocusedWindow"
+- "_preferredFocusedWindowScene"
+- "_processIdentifier"
+- "_searchingView"
+- "_service"
+- "_service.plugin"
+- "_serviceProcessAssertion"
+- "_serviceViewControllerRemoteView"
+- "_terminateUnconditionallyThen:"
+- "_updateSystemTypeAccessoryView:withCellAccessory:orConfiguration:usingState:"
+- "_viewToAddFocusLayer"
+- "active"
+- "beginUsing:"
+- "beginUsingWithError:"
+- "beginUsingWithSubsystemOptions:completion:"
+- "beginUsingWithSubsystemOptions:error:"
+- "bundleInfoDictionary"
+- "containingUrl"
+- "createInstanceWithUUID:"
+- "defaults"
+- "embeddedBundle"
+- "embeddedPrincipal"
+- "endUsing:"
+- "endUsingWithError:"
+- "entitlements"
+- "focusDirectionFlippedHorizontally"
+- "focused item is a first responder: %{sensitive}@. Preferred item is %{sensitive}@"
+- "localizedContainingName"
+- "localizedFileProviderActionNames"
+- "localizedInfoDictionaryForKeys:completion:"
+- "localizedName"
+- "localizedShortName"
+- "longValue"
+- "multipleInstanceUUID"
+- "notificationBlock"
+- "onSystemVolume"
+- "plugInDictionary"
+- "plugInPrincipal"
+- "plugin"
+- "setHostPrincipal:withProtocol:"
+- "setNotificationBlock:"
+- "setReplyQueue:"
+- "setUserElection:"
+- "spent"
+- "supersededBy"
+- "useBundle:error:"
+- "userElection"
+- "v24@0:8@\"NSObject<OS_dispatch_queue>\"16"
+- "v24@0:8@?<v@?@\"<PKPlugIn>\"Q>16"
+- "v24@0:8@?<v@?@\"NSError\">16"
+- "v24@?0@\"UIScreen\"8^B16"
+- "v32@0:8@\"NSArray\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@16@\"Protocol\"24"
+- "v32@0:8@16@?24"
+- "v32@?0@\"UIKeyCommand\"8Q16^B24"
+- "v48@0:8@16@24@32@40"
+- "validateProtocol:hasOptionalInstanceMethod:"
+- "version"
+
+```

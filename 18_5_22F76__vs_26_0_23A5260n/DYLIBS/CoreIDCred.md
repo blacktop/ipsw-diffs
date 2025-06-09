@@ -1,0 +1,1246 @@
+## CoreIDCred
+
+> `/System/Library/PrivateFrameworks/CoreIDCred.framework/CoreIDCred`
+
+```diff
+
+-7.502.0.0.0
+-  __TEXT.__text: 0x1c934
+-  __TEXT.__auth_stubs: 0x340
+-  __TEXT.__objc_methlist: 0x1fa4
+-  __TEXT.__const: 0x8a
+-  __TEXT.__cstring: 0x1972
+-  __TEXT.__oslogstring: 0x3b81
+-  __TEXT.__constg_swiftt: 0x50
+-  __TEXT.__swift5_typeref: 0x6
+-  __TEXT.__swift5_fieldmd: 0x10
+-  __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0x820
+-  __TEXT.__objc_classname: 0x336
+-  __TEXT.__objc_methname: 0x3ca4
+-  __TEXT.__objc_methtype: 0xfca
+-  __TEXT.__objc_stubs: 0x1a00
+-  __DATA_CONST.__got: 0xf8
+-  __DATA_CONST.__const: 0x9f0
+-  __DATA_CONST.__objc_classlist: 0xe0
+-  __DATA_CONST.__objc_protolist: 0x40
++8.33.2.0.0
++  __TEXT.__text: 0x43fd4
++  __TEXT.__auth_stubs: 0xd70
++  __TEXT.__objc_methlist: 0x1fe4
++  __TEXT.__const: 0x2f08
++  __TEXT.__cstring: 0x1fc6
++  __TEXT.__oslogstring: 0x37fc
++  __TEXT.__constg_swiftt: 0x7e4
++  __TEXT.__swift5_typeref: 0xc9e
++  __TEXT.__swift5_builtin: 0x1b8
++  __TEXT.__swift5_reflstr: 0x516
++  __TEXT.__swift5_fieldmd: 0x668
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__swift5_proto: 0x248
++  __TEXT.__swift5_types: 0xd4
++  __TEXT.__swift5_capture: 0x570
++  __TEXT.__swift_as_entry: 0xd8
++  __TEXT.__swift_as_ret: 0xf0
++  __TEXT.__swift5_protos: 0x4
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__unwind_info: 0x1730
++  __TEXT.__eh_frame: 0x2240
++  __TEXT.__objc_classname: 0x2dc
++  __TEXT.__objc_methname: 0x412d
++  __TEXT.__objc_methtype: 0xe81
++  __TEXT.__objc_stubs: 0x19e0
++  __DATA_CONST.__got: 0x288
++  __DATA_CONST.__const: 0x9e8
++  __DATA_CONST.__objc_classlist: 0xe8
++  __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb40
+-  __DATA_CONST.__objc_protorefs: 0x18
+-  __DATA_CONST.__objc_superrefs: 0xd8
+-  __AUTH_CONST.__auth_got: 0x1a8
+-  __AUTH_CONST.__const: 0xc0
+-  __AUTH_CONST.__cfstring: 0x1a00
+-  __AUTH_CONST.__objc_const: 0x37d0
+-  __AUTH.__objc_data: 0x50
+-  __DATA.__objc_ivar: 0x27c
+-  __DATA.__data: 0x300
+-  __DATA.__bss: 0x10
+-  __DATA_DIRTY.__objc_data: 0x820
+-  __DATA_DIRTY.__data: 0x98
+-  __DATA_DIRTY.__bss: 0x50
++  __DATA_CONST.__objc_selrefs: 0xc28
++  __DATA_CONST.__objc_protorefs: 0x30
++  __DATA_CONST.__objc_superrefs: 0xc0
++  __AUTH_CONST.__auth_got: 0x6c0
++  __AUTH_CONST.__const: 0x2038
++  __AUTH_CONST.__cfstring: 0x1700
++  __AUTH_CONST.__objc_const: 0x3768
++  __AUTH.__objc_data: 0x260
++  __AUTH.__data: 0x1b8
++  __DATA.__objc_ivar: 0x24c
++  __DATA.__data: 0xb58
++  __DATA.__bss: 0x4960
++  __DATA_DIRTY.__objc_data: 0x730
++  __DATA_DIRTY.__data: 0x58
++  __DATA_DIRTY.__bss: 0x30
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /usr/lib/libSystem.B.dylib
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 43227FD3-3961-39E4-B5F1-3098234A3C33
+-  Functions: 1028
+-  Symbols:   2998
+-  CStrings:  1423
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  UUID: 820E35EA-C526-305C-8F7C-9EC10238088C
++  Functions: 2232
++  Symbols:   3268
++  CStrings:  1440
+ 
+Symbols:
++ -[DCCredentialPayload authorityKeyIdentifiers]
++ -[DCCredentialPayload init]
++ -[DCCredentialPayload issuingAuthority]
++ -[DCCredentialPayload setAuthorityKeyIdentifiers:]
++ -[DCCredentialPayload setIssuingAuthority:]
++ -[DCCredentialProperties authorityKeyIdentifiers]
++ -[DCCredentialProperties issuingAuthority]
++ -[DCCredentialProperties lock]
++ -[DCCredentialProperties setAuthorityKeyIdentifiers:]
++ -[DCCredentialProperties setIssuingAuthority:]
++ -[DCCredentialProperties setLock:]
++ -[DCCredentialStore activeRegionsInPartitions:docTypes:completion:]
++ -[DCCredentialStore credentialIdentifiersForPublicKeyIdentifier:completion:]
++ -[DCCredentialStore deleteDataFromSyncableKeyStoreForIdentifier:completion:]
++ -[DCCredentialStore retrieveDataFromSyncableKeyStoreForIdentifier:completion:]
++ -[DCCredentialStore storeDataInSyncableKeyStoreForIdentifier:data:completion:]
++ -[DCCredentialStore updateDataInSyncableKeyStoreForIdentifier:data:completion:]
++ -[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:]
++ -[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:].cold.1
++ -[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:]
++ -[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:].cold.1
++ -[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:]
++ -[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:].cold.1
++ -[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:]
++ -[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:].cold.1
++ -[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:]
++ -[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:].cold.1
++ -[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:]
++ -[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:].cold.1
++ -[DCPresentmentRequestedElement initWithElementIdentifier:intentToRetain:retentionPeriod:]
++ -[DCPresentmentRequestedElement retentionPeriod]
++ -[DCPresentmentSelection responseEncryptionParameters]
++ -[DCPresentmentSelection setResponseEncryptionParameters:]
++ _NSDebugDescriptionErrorKey
++ _NSUnderlyingErrorKey
++ _OBJC_CLASS_$_DCPresentmentResponseEncryptionParameters
++ _OBJC_CLASS_$_NSKeyedArchiver
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ _OBJC_IVAR_$_DCCredentialPayload._authorityKeyIdentifiers
++ _OBJC_IVAR_$_DCCredentialPayload._issuingAuthority
++ _OBJC_IVAR_$_DCCredentialProperties._authorityKeyIdentifiers
++ _OBJC_IVAR_$_DCCredentialProperties._issuingAuthority
++ _OBJC_IVAR_$_DCPresentmentRequestedElement._retentionPeriod
++ _OBJC_IVAR_$_DCPresentmentSelection._responseEncryptionParameters
++ _OBJC_METACLASS_$_DCPresentmentResponseEncryptionParameters
++ _OBJC_METACLASS_$__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __Block_copy
++ __Block_release
++ __CLASS_METHODS_DCPresentmentRequest
++ __CLASS_METHODS_DCPresentmentResponseEncryptionParameters
++ __CLASS_METHODS__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __CLASS_PROPERTIES_DCPresentmentRequest
++ __CLASS_PROPERTIES_DCPresentmentResponseEncryptionParameters
++ __CLASS_PROPERTIES__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __DATA_DCPresentmentRequest
++ __DATA_DCPresentmentResponseEncryptionParameters
++ __DATA_DCPresentmentSession
++ __DATA__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __INSTANCE_METHODS_DCPresentmentRequest
++ __INSTANCE_METHODS_DCPresentmentResponseEncryptionParameters
++ __INSTANCE_METHODS_DCPresentmentSession
++ __INSTANCE_METHODS__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __IVARS_DCPresentmentRequest
++ __IVARS_DCPresentmentResponseEncryptionParameters
++ __IVARS_DCPresentmentSession
++ __IVARS__TtC10CoreIDCred21SendableXPCConnection
++ __IVARS__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __METACLASS_DATA_DCPresentmentRequest
++ __METACLASS_DATA_DCPresentmentResponseEncryptionParameters
++ __METACLASS_DATA_DCPresentmentSession
++ __METACLASS_DATA__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __PROPERTIES_DCPresentmentRequest
++ __PROTOCOLS_DCPresentmentRequest
++ __PROTOCOLS_DCPresentmentRequest.31
++ __PROTOCOLS_DCPresentmentResponseEncryptionParameters
++ __PROTOCOLS_DCPresentmentResponseEncryptionParameters.2
++ __PROTOCOLS__TtC10CoreIDCred31XPCCredentialPresentmentRequest
++ __PROTOCOLS__TtC10CoreIDCred31XPCCredentialPresentmentRequest.3
++ __PROTOCOL_INSTANCE_METHODS__TtP10CoreIDCred24DCPresentmentXPCProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP10CoreIDCred24DCPresentmentXPCProtocol_
++ __PROTOCOL__TtP10CoreIDCred24DCPresentmentXPCProtocol_
++ ___56-[DCCredentialStore setStateOfCredential:to:completion:]_block_invoke.19
++ ___64-[DCCredentialStore(DebugAPIs) eraseLegacySEKeySlot:completion:]_block_invoke.263
++ ___64-[DCCredentialStore(DebugAPIs) keyInfoForCredential:completion:]_block_invoke.265
++ ___64-[DCCredentialStore(DebugAPIs) payloadsOfCredential:completion:]_block_invoke.260
++ ___66-[DCCredentialStore credentialIdentifiersInPartitions:completion:]_block_invoke.20
++ ___67-[DCCredentialStore activeRegionsInPartitions:docTypes:completion:]_block_invoke
++ ___67-[DCCredentialStore activeRegionsInPartitions:docTypes:completion:]_block_invoke.22
++ ___67-[DCCredentialStore activeRegionsInPartitions:docTypes:completion:]_block_invoke.cold.1
++ ___71-[DCCredentialStore(DebugAPIs) occupiedLegacySEKeySlotsWithCompletion:]_block_invoke.262
++ ___73-[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:]_block_invoke
++ ___73-[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:]_block_invoke_2
++ ___73-[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:]_block_invoke_2.cold.1
++ ___73-[DCCredentialStoreClient activeRegionsInPartitions:docTypes:completion:]_block_invoke_2.cold.2
++ ___74-[DCCredentialStore credentialIdentifiersInPartitions:docType:completion:]_block_invoke.21
++ ___76-[DCCredentialStore credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke
++ ___76-[DCCredentialStore credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke.17
++ ___76-[DCCredentialStore credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke.cold.1
++ ___76-[DCCredentialStore deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke
++ ___76-[DCCredentialStore deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke.30
++ ___76-[DCCredentialStore deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke.cold.1
++ ___76-[DCCredentialStore(DebugAPIs) allElementsOfCredential:authData:completion:]_block_invoke.261
++ ___78-[DCCredentialStore replacePayloadOfCredential:withPayload:format:completion:]_block_invoke.18
++ ___78-[DCCredentialStore retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke
++ ___78-[DCCredentialStore retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke.29
++ ___78-[DCCredentialStore retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke.cold.1
++ ___78-[DCCredentialStore storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke
++ ___78-[DCCredentialStore storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke.28
++ ___78-[DCCredentialStore storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke.cold.1
++ ___79-[DCCredentialStore updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke
++ ___79-[DCCredentialStore updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke.31
++ ___79-[DCCredentialStore updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke.cold.1
++ ___81-[DCCredentialStore(DebugAPIs) clearPresentmentKeyUsageForCredential:completion:]_block_invoke.264
++ ___82-[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke
++ ___82-[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke_2
++ ___82-[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke_2.cold.1
++ ___82-[DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier:completion:]_block_invoke_2.cold.2
++ ___82-[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke
++ ___82-[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2
++ ___82-[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2.cold.1
++ ___82-[DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2.cold.2
++ ___84-[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke
++ ___84-[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2
++ ___84-[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2.cold.1
++ ___84-[DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier:completion:]_block_invoke_2.cold.2
++ ___84-[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke
++ ___84-[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2
++ ___84-[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2.cold.1
++ ___84-[DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2.cold.2
++ ___85-[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke
++ ___85-[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2
++ ___85-[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2.cold.1
++ ___85-[DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier:data:completion:]_block_invoke_2.cold.2
++ ___NSArray0__struct
++ ___NSDictionary0__struct
++ ___block_descriptor_40_e8_32bs_e29_v24?0"NSArray"8"NSError"16ls32l8
++ ___chkstk_darwin
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy1_1
++ ___swift_memcpy25_8
++ ___swift_memcpy32_8
++ ___swift_memcpy48_8
++ ___swift_memcpy80_8
++ ___swift_memcpy8_8
++ ___swift_memcpy9_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ ___unnamed_2
++ __os_log_impl
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_CoreIDCred
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_CoreIDCred
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_CoreIDCred
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_CoreIDCred
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred11SessionTypeOSHAASQ
++ _associated conformance 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred15DocumentRequestV11DataElementVSHAASQ
++ _associated conformance 10CoreIDCred15DocumentRequestVSHAASQ
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOSHAASQ
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestV7UseCaseVSHAASQ
++ _associated conformance 10CoreIDCred28CredentialPresentmentRequestVSHAASQ
++ _associated conformance 10CoreIDCred31XPCCredentialPresentmentRequestCAA17XPCValueContainerAA5ValueAaDP_SE
++ _associated conformance 10CoreIDCred31XPCCredentialPresentmentRequestCAA17XPCValueContainerAA5ValueAaDP_Se
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOSHAASQ
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOSHAASQ
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO07WillNotJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO07WillNotJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOSHAASQ
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO21DisplayOnlyCodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO21DisplayOnlyCodingKeys33_91F958ADFC48002ECF9D2A6559770267LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreOSHAASQ
++ _associated conformance 10CoreIDCred39CredentialPresentmentElementRequestInfoVSHAASQ
++ _associated conformance 10CoreIDCred8DIPErrorV10Foundation13CustomNSErrorAAs5Error
++ _associated conformance 10CoreIDCred8DIPErrorV4CodeOSHAASQ
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation13CustomNSErrorSCs0B0
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_bG8Protocol
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0
++ _associated conformance SC18DCPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC18DCPresentmentErrorLeVSHSCSQ
++ _associated conformance So18DCPresentmentErrorV10Foundation01_B12CodeProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So18DCPresentmentErrorV10Foundation01_B12CodeProtocolSCSQ
++ _associated conformance So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysOSHACSQ
++ _associated conformance So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysOs0N3KeyACs23CustomStringConvertible
++ _associated conformance So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysOs0N3KeyACs28CustomDebugStringConvertible
++ _associated conformance So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLVSHACSQ
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO07SessionC10CodingKeys33_52555510CFFFF7628D407E51099E889ALLOs0I3KeyACs23CustomStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO07SessionC10CodingKeys33_52555510CFFFF7628D407E51099E889ALLOs0I3KeyACs28CustomDebugStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLOSHACSQ
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLOs0H3KeyACs23CustomStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLOs0H3KeyACs28CustomDebugStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOSHACSQ
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOs9CodingKeyACs23CustomStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOs9CodingKeyACs28CustomDebugStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOSHACSQ
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOs9CodingKeyACs23CustomStringConvertible
++ _associated conformance So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLOs9CodingKeyACs28CustomDebugStringConvertible
++ _block_copy_helper
++ _block_copy_helper.103
++ _block_copy_helper.109
++ _block_copy_helper.132
++ _block_copy_helper.155
++ _block_copy_helper.217
++ _block_copy_helper.223
++ _block_copy_helper.246
++ _block_copy_helper.269
++ _block_copy_helper.292
++ _block_copy_helper.296
++ _block_copy_helper.302
++ _block_copy_helper.344
++ _block_copy_helper.350
++ _block_copy_helper.57
++ _block_copy_helper.60
++ _block_copy_helper.63
++ _block_copy_helper.77
++ _block_copy_helper.79
++ _block_descriptor
++ _block_descriptor.105
++ _block_descriptor.111
++ _block_descriptor.134
++ _block_descriptor.157
++ _block_descriptor.219
++ _block_descriptor.225
++ _block_descriptor.248
++ _block_descriptor.271
++ _block_descriptor.294
++ _block_descriptor.298
++ _block_descriptor.304
++ _block_descriptor.346
++ _block_descriptor.352
++ _block_descriptor.59
++ _block_descriptor.62
++ _block_descriptor.65
++ _block_descriptor.79
++ _block_descriptor.81
++ _block_destroy_helper
++ _block_destroy_helper.104
++ _block_destroy_helper.110
++ _block_destroy_helper.133
++ _block_destroy_helper.156
++ _block_destroy_helper.218
++ _block_destroy_helper.224
++ _block_destroy_helper.247
++ _block_destroy_helper.270
++ _block_destroy_helper.293
++ _block_destroy_helper.297
++ _block_destroy_helper.303
++ _block_destroy_helper.345
++ _block_destroy_helper.351
++ _block_destroy_helper.58
++ _block_destroy_helper.61
++ _block_destroy_helper.64
++ _block_destroy_helper.78
++ _block_destroy_helper.80
++ _bzero
++ _flat unique 10CoreIDCred24DCPresentmentXPCProtocol_p
++ _free
++ _get_enum_tag_for_layout_string 10CoreIDCred11SessionTypeO
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 10Foundation4DataVSg
++ _get_enum_tag_for_layout_string So20DCPresentmentSessionC10CoreIDCredE29ConnectionConfigurationStatus33_D095C425DEBB3644DD2C447614D1B7EDLLO
++ _get_enum_tag_for_layout_string So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO
++ _kResponseEncryptionParameters
++ _keypath_get_selector_requiredPublicKeyIdentifier
++ _keypath_get_selector_sessionEncryptionIntermediateKeyMaterial
++ _keypath_get_selector_sessionEstablishment
++ _keypath_get_selector_sessionTranscript
++ _malloc
++ _malloc_size
++ _memcmp
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend$activeRegionsInPartitions:docTypes:completion:
++ _objc_msgSend$authorityKeyIdentifiers
++ _objc_msgSend$credentialIdentifiersForPublicKeyIdentifier:completion:
++ _objc_msgSend$deleteDataFromSyncableKeyStoreForIdentifier:completion:
++ _objc_msgSend$firstObject
++ _objc_msgSend$initWithArray:copyItems:
++ _objc_msgSend$initWithDictionary:copyItems:
++ _objc_msgSend$initWithElementIdentifier:intentToRetain:retentionPeriod:
++ _objc_msgSend$intentToRetain
++ _objc_msgSend$issuingAuthority
++ _objc_msgSend$retentionPeriod
++ _objc_msgSend$retrieveDataFromSyncableKeyStoreForIdentifier:completion:
++ _objc_msgSend$sessionEncryption
++ _objc_msgSend$setAuthorityKeyIdentifiers:
++ _objc_msgSend$setCredentialRevocationInfo:
++ _objc_msgSend$setIssuingAuthority:
++ _objc_msgSend$setIssuingJurisdiction:
++ _objc_msgSend$setRegion:
++ _objc_msgSend$setResponseEncryptionParameters:
++ _objc_msgSend$storeDataInSyncableKeyStoreForIdentifier:data:completion:
++ _objc_msgSend$updateDataInSyncableKeyStoreForIdentifier:data:completion:
++ _objectdestroy.10Tm
++ _objectdestroy.137Tm
++ _objectdestroy.25Tm
++ _objectdestroy.38Tm
++ _objectdestroy.50Tm
++ _objectdestroy.66Tm
++ _objectdestroy.6Tm
++ _objectdestroy.70Tm
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRetain
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_dynamicCast
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAtKeyPath
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrow
++ _symbolic $s10CoreIDCred17XPCValueContainerP
++ _symbolic $s10CoreIDCred24DCPresentmentXPCProtocolP
++ _symbolic $s10Foundation18_ErrorCodeProtocolP
++ _symbolic $s10Foundation21_BridgedStoredNSErrorP
++ _symbolic $sSY
++ _symbolic 5Value_____Qz 10CoreIDCred17XPCValueContainerP
++ _symbolic B0
++ _symbolic B1
++ _symbolic G0R1_
++ _symbolic IeAgH_
++ _symbolic Ieg_
++ _symbolic IeghH_
++ _symbolic IeyB_
++ _symbolic SDySSSDySSSay_____GGG 10CoreIDCred15DocumentRequestV11DataElementV
++ _symbolic SDySSSDySS_____GG 10CoreIDCred39CredentialPresentmentElementRequestInfoV
++ _symbolic SDySSSay_____GG 10CoreIDCred15DocumentRequestV11DataElementV
++ _symbolic SDySS_____G 10CoreIDCred39CredentialPresentmentElementRequestInfoV
++ _symbolic SS
++ _symbolic SS18merchantIdentifier_t
++ _symbolic SS22relyingPartyIdentifier_SaySay_____GG31authenticationCertificateChainst 10Foundation4DataV
++ _symbolic SSSg
++ _symbolic SS_ypt
++ _symbolic SaySSG
++ _symbolic SaySay_____GG 10CoreIDCred15DocumentRequestV
++ _symbolic SaySay_____GG 10Foundation4DataV
++ _symbolic SaySo21DCPresentmentProposalCG
++ _symbolic Say_____G 10CoreIDCred15DocumentRequestV
++ _symbolic Say_____G 10CoreIDCred15DocumentRequestV11DataElementV
++ _symbolic Say_____G 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV
++ _symbolic Say_____G 10Foundation4DataV
++ _symbolic Sb
++ _symbolic ScA_pSg
++ _symbolic ScCySaySo21DCPresentmentProposalCG______pG s5ErrorP
++ _symbolic ScCySo20DCCredentialResponseC______pG s5ErrorP
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic ScCyq_______pG s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScPSg
++ _symbolic ScTyyt______pG s5ErrorP
++ _symbolic ShySSG
++ _symbolic Shy_____G 10Foundation4DataV
++ _symbolic Si
++ _symbolic Si4days_t
++ _symbolic So20DCCredentialResponseCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So20DCPresentmentRequestC
++ _symbolic So20DCPresentmentSessionC
++ _symbolic So20DCPresentmentSessionCSgXw
++ _symbolic So21DCPresentmentProposalCm
++ _symbolic So22DCPresentmentSelectionC
++ _symbolic So27DCPresentmentSessionOptionsCSg
++ _symbolic So41DCPresentmentResponseEncryptionParametersC
++ _symbolic So6NSDataC
++ _symbolic So6NSDataCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So7NSArrayCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So7NSArrayCm
++ _symbolic So7NSErrorC
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCSg
++ _symbolic Su
++ _symbolic _____ 10CoreIDCred11SessionTypeO
++ _symbolic _____ 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred15DocumentRequestV
++ _symbolic _____ 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred15DocumentRequestV11DataElementV
++ _symbolic _____ 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred21SendableXPCConnectionC
++ _symbolic _____ 10CoreIDCred28CredentialPresentmentRequestV
++ _symbolic _____ 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV
++ _symbolic _____ 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____ 10CoreIDCred31XPCCredentialPresentmentRequestC
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO07WillNotJ10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____ 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO21DisplayOnlyCodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____ 10CoreIDCred8DIPErrorV
++ _symbolic _____ 10CoreIDCred8DIPErrorV4CodeO
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ SC18DCPresentmentErrorLeV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So17DCCredentialStateV
++ _symbolic _____ So17DCPresentmentTypeV
++ _symbolic _____ So18DCPresentmentErrorV
++ _symbolic _____ So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV
++ _symbolic _____ So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysO
++ _symbolic _____ So20DCPresentmentSessionC10CoreIDCredE29ConnectionConfigurationStatus33_D095C425DEBB3644DD2C447614D1B7EDLLO
++ _symbolic _____ So23DCCredentialAuthACLTypeV
++ _symbolic _____ So25DCCredentialCryptoKeyTypeV
++ _symbolic _____ So25DCCredentialPayloadFormatV
++ _symbolic _____ So26DCCredentialCryptoKeyUsageV
++ _symbolic _____ So27DCPresentmentResponseStatusV
++ _symbolic _____ So32DCPresentmentElementFallbackModeV
++ _symbolic _____ So33DCCredentialPayloadProtectionTypeV
++ _symbolic _____ So33DCCredentialPresentmentAuthPolicyV
++ _symbolic _____ So34DCCredentialElementNumericTypeHintV
++ _symbolic _____ So34DCPresentmentMessageEncodingFormatV
++ _symbolic _____ So34DCPresentmentSessionEncryptionModeV
++ _symbolic _____ So35DCCredentialDeviceEncryptionKeyTypeV
++ _symbolic _____ So35DCCredentialPayloadProtectionPolicyV
++ _symbolic _____ So35DCPresentmentElementRetentionIntentV
++ _symbolic _____ So38DCCredentialReaderAuthenticationPolicyV
++ _symbolic _____ So38DCPresentmentTransportKeySpecificationV
++ _symbolic _____ So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO
++ _symbolic _____ So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO07SessionC10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____ So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____ So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____ So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____ s6UInt32V
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV6RegionV
++ _symbolic ______AAt 10Foundation4DataV
++ _symbolic ______SayAAGt 10Foundation4DataV
++ _symbolic ______p 10CoreIDCred24DCPresentmentXPCProtocolP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pAA_pSgYbc s5ErrorP
++ _symbolic ______pSaySo21DCPresentmentProposalCG______pIeghHgrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic ______pSaySo21DCPresentmentProposalCG______pIeghHnrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSo20DCCredentialResponseC______pIeghHgrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic ______pSo20DCCredentialResponseC______pIeghHnrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic ______p___________pIeghHgrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP 10Foundation4DataV s5ErrorP
++ _symbolic ______p___________pIeghHnrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP 10Foundation4DataV s5ErrorP
++ _symbolic ______p______pIeghHnzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic ______pyt______pIeghHnrzo_ 10CoreIDCred24DCPresentmentXPCProtocolP s5ErrorP
++ _symbolic _____m So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySo15NSXPCConnectionCG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySo15NSXPCConnectionC_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayM10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO07WillNotM10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO21DisplayOnlyCodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO07SessionF10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred11SessionTypeO10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred11SessionTypeO13WebCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred11SessionTypeO17DigitalCodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred15DocumentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred15DocumentRequestV11DataElementV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred28CredentialPresentmentRequestV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV10CodingKeys33_186ADC0B779936A1FEE122BB7EFEDE19LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO03MayM10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO07WillNotM10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO10CodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10CoreIDCred39CredentialPresentmentElementRequestInfoV13IntentToStoreO21DisplayOnlyCodingKeys33_91F958ADFC48002ECF9D2A6559770267LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO07SessionF10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO10CodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO19AppleHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO25WebProposalHPKECodingKeys33_52555510CFFFF7628D407E51099E889ALLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV So16os_unfair_lock_sV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE So20DCPresentmentSessionC10CoreIDCredE29ConnectionConfigurationStatus33_D095C425DEBB3644DD2C447614D1B7EDLLO So16os_unfair_lock_sV
++ _symbolic _____y______pG 10CoreIDCred21SendableXPCConnectionC AA24DCPresentmentXPCProtocolP
++ _symbolic _____yxG 10CoreIDCred21SendableXPCConnectionC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic q_
++ _symbolic qd__
++ _symbolic x
++ _symbolic x______pIeghHnzo_ s5ErrorP
++ _symbolic xq_______pIeghHnrzo_ s5ErrorP
++ _symbolic ypSg
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIeAgHr_
++ _symbolic ytIegr_
++ _type_layout_string 10CoreIDCred11SessionTypeO
++ _type_layout_string 10CoreIDCred15DocumentRequestV11DataElementV
++ _type_layout_string 10CoreIDCred28CredentialPresentmentRequestV
++ _type_layout_string 10CoreIDCred28CredentialPresentmentRequestV7UseCaseV
++ _type_layout_string 10CoreIDCred39CredentialPresentmentElementRequestInfoV
++ _type_layout_string 10CoreIDCred8DIPErrorV
++ _type_layout_string SC18DCPresentmentErrorLeV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So20DCPresentmentRequestC10CoreIDCredE5State33_0396AD20F711BEF6FA18A16F58CCF1FFLLV
++ _type_layout_string So20DCPresentmentSessionC10CoreIDCredE29ConnectionConfigurationStatus33_D095C425DEBB3644DD2C447614D1B7EDLLO
++ _type_layout_string So38DCPresentmentTransportKeySpecificationV
++ _type_layout_string So41DCPresentmentResponseEncryptionParametersC10CoreIDCredE7StorageO
+- +[DCPresentmentRequest supportsSecureCoding]
+- -[DCCredentialStore activeRegionsInPartitions:docType:completion:]
+- -[DCCredentialStore credentialIdentifiersInPartitions:docType:region:completion:]
+- -[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:]
+- -[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:].cold.1
+- -[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:]
+- -[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:].cold.1
+- -[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:]
+- -[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:].cold.1
+- -[DCPresentmentClient .cxx_destruct]
+- -[DCPresentmentClient buildCredentialResponseForSelection:completion:]
+- -[DCPresentmentClient buildCredentialResponseForSelection:completion:].cold.1
+- -[DCPresentmentClient buildErrorResponseWithStatus:completion:]
+- -[DCPresentmentClient buildErrorResponseWithStatus:completion:].cold.1
+- -[DCPresentmentClient buildGenericDataResponse:completion:]
+- -[DCPresentmentClient buildGenericDataResponse:completion:].cold.1
+- -[DCPresentmentClient buildResponseForSelection:completion:]
+- -[DCPresentmentClient buildResponseForSelection:completion:].cold.1
+- -[DCPresentmentClient configureWithPartitions:presentmentType:options:completion:]
+- -[DCPresentmentClient configureWithPartitions:presentmentType:options:completion:].cold.1
+- -[DCPresentmentClient createDaemonDisconnectedError]
+- -[DCPresentmentClient dealloc]
+- -[DCPresentmentClient dealloc].cold.1
+- -[DCPresentmentClient generateTransportKeyForSpecification:completion:]
+- -[DCPresentmentClient generateTransportKeyForSpecification:completion:].cold.1
+- -[DCPresentmentClient init]
+- -[DCPresentmentClient init].cold.1
+- -[DCPresentmentClient init].cold.2
+- -[DCPresentmentClient interpretGenericDataRequest:completion:]
+- -[DCPresentmentClient interpretGenericDataRequest:completion:].cold.1
+- -[DCPresentmentClient interpretRequest:completion:]
+- -[DCPresentmentClient interpretRequest:completion:].cold.1
+- -[DCPresentmentClient invalidate]
+- -[DCPresentmentClient invalidate].cold.1
+- -[DCPresentmentClient remoteObjectProxyWithErrorHandler:]
+- -[DCPresentmentClient serverConnection]
+- -[DCPresentmentClient setServerConnection:]
+- -[DCPresentmentProposal readerIdentifier]
+- -[DCPresentmentProposal readerOrganization]
+- -[DCPresentmentProposal readerOrganizationalUnit]
+- -[DCPresentmentRequest .cxx_destruct]
+- -[DCPresentmentRequest encodeWithCoder:]
+- -[DCPresentmentRequest initWithCoder:]
+- -[DCPresentmentRequest initWithSessionEstablishment:sessionTranscript:]
+- -[DCPresentmentRequest initWithSessionEstablishment:sessionTranscript:seAccessEndpoint:]
+- -[DCPresentmentRequest init]
+- -[DCPresentmentRequest regionCode]
+- -[DCPresentmentRequest relyingPartyIdentifier]
+- -[DCPresentmentRequest requiredPublicKeyIdentifier]
+- -[DCPresentmentRequest seAccessEndpoint]
+- -[DCPresentmentRequest sessionEncryptionIntermediateKeyMaterial]
+- -[DCPresentmentRequest sessionEstablishment]
+- -[DCPresentmentRequest sessionTranscript]
+- -[DCPresentmentRequest setRegionCode:]
+- -[DCPresentmentRequest setRelyingPartyIdentifier:]
+- -[DCPresentmentRequest setRequiredPublicKeyIdentifier:]
+- -[DCPresentmentRequest setSeAccessEndpoint:]
+- -[DCPresentmentRequest setSessionEncryptionIntermediateKeyMaterial:]
+- -[DCPresentmentRequest setSessionEstablishment:]
+- -[DCPresentmentRequest setSessionTranscript:]
+- -[DCPresentmentRequestedElement initWithElementIdentifier:intentToRetain:]
+- -[DCPresentmentSelection responseEncryptionCertificateChain]
+- -[DCPresentmentSelection sessionTranscript]
+- -[DCPresentmentSelection setResponseEncryptionCertificateChain:]
+- -[DCPresentmentSelection setSessionTranscript:]
+- -[DCPresentmentSession .cxx_destruct]
+- -[DCPresentmentSession buildCredentialResponseForSelection:completion:]
+- -[DCPresentmentSession buildCredentialResponseForSelection:completion:].cold.1
+- -[DCPresentmentSession buildErrorResponseWithStatus:completion:]
+- -[DCPresentmentSession buildErrorResponseWithStatus:completion:].cold.1
+- -[DCPresentmentSession buildGenericDataResponse:completion:]
+- -[DCPresentmentSession buildResponseForSelection:completion:]
+- -[DCPresentmentSession buildResponseForSelection:completion:].cold.1
+- -[DCPresentmentSession client]
+- -[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:]
+- -[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:].cold.1
+- -[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:].cold.2
+- -[DCPresentmentSession finishConfiguration]
+- -[DCPresentmentSession generateTransportKeyForSpecification:completion:]
+- -[DCPresentmentSession generateTransportKeyForSpecification:completion:].cold.1
+- -[DCPresentmentSession hasBeenConfigured]
+- -[DCPresentmentSession initWithPartitions:presentmentType:]
+- -[DCPresentmentSession initWithPartitions:presentmentType:options:]
+- -[DCPresentmentSession initWithPartitions:presentmentType:options:].cold.1
+- -[DCPresentmentSession interpretGenericDataRequest:completion:]
+- -[DCPresentmentSession interpretGenericDataRequest:completion:].cold.1
+- -[DCPresentmentSession interpretRequest:completion:]
+- -[DCPresentmentSession interpretRequest:completion:].cold.1
+- -[DCPresentmentSession options]
+- -[DCPresentmentSession partitions]
+- -[DCPresentmentSession presentmentType]
+- -[DCPresentmentSession setHasBeenConfigured:]
+- -[DCPresentmentSessionOptions responseEncryptionMode]
+- -[DCPresentmentSessionOptions setResponseEncryptionMode:]
+- _DCPresentmentSessionResponseEncryptionModeToString
+- _OBJC_CLASS_$_DCPresentmentClient
+- _OBJC_IVAR_$_DCPresentmentClient._serverConnection
+- _OBJC_IVAR_$_DCPresentmentRequest._lock
+- _OBJC_IVAR_$_DCPresentmentRequest._regionCode
+- _OBJC_IVAR_$_DCPresentmentRequest._relyingPartyIdentifier
+- _OBJC_IVAR_$_DCPresentmentRequest._requiredPublicKeyIdentifier
+- _OBJC_IVAR_$_DCPresentmentRequest._seAccessEndpoint
+- _OBJC_IVAR_$_DCPresentmentRequest._sessionEncryptionIntermediateKeyMaterial
+- _OBJC_IVAR_$_DCPresentmentRequest._sessionEstablishment
+- _OBJC_IVAR_$_DCPresentmentRequest._sessionTranscript
+- _OBJC_IVAR_$_DCPresentmentSelection._responseEncryptionCertificateChain
+- _OBJC_IVAR_$_DCPresentmentSelection._sessionTranscript
+- _OBJC_IVAR_$_DCPresentmentSession._client
+- _OBJC_IVAR_$_DCPresentmentSession._hasBeenConfigured
+- _OBJC_IVAR_$_DCPresentmentSession._lock
+- _OBJC_IVAR_$_DCPresentmentSession._options
+- _OBJC_IVAR_$_DCPresentmentSession._partitions
+- _OBJC_IVAR_$_DCPresentmentSession._presentmentType
+- _OBJC_IVAR_$_DCPresentmentSessionOptions._responseEncryptionMode
+- _OBJC_METACLASS_$_DCPresentmentClient
+- __OBJC_$_CLASS_METHODS_DCPresentmentRequest
+- __OBJC_$_CLASS_PROP_LIST_DCPresentmentRequest
+- __OBJC_$_INSTANCE_METHODS_DCPresentmentClient
+- __OBJC_$_INSTANCE_METHODS_DCPresentmentRequest
+- __OBJC_$_INSTANCE_METHODS_DCPresentmentSession
+- __OBJC_$_INSTANCE_VARIABLES_DCPresentmentClient
+- __OBJC_$_INSTANCE_VARIABLES_DCPresentmentRequest
+- __OBJC_$_INSTANCE_VARIABLES_DCPresentmentSession
+- __OBJC_$_PROP_LIST_DCPresentmentClient
+- __OBJC_$_PROP_LIST_DCPresentmentRequest
+- __OBJC_$_PROP_LIST_DCPresentmentSession
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_DCPresentmentXPCProtocol
+- __OBJC_$_PROTOCOL_METHOD_TYPES_DCPresentmentXPCProtocol
+- __OBJC_$_PROTOCOL_REFS_DCPresentmentXPCProtocol
+- __OBJC_CLASS_PROTOCOLS_$_DCPresentmentClient
+- __OBJC_CLASS_PROTOCOLS_$_DCPresentmentRequest
+- __OBJC_CLASS_RO_$_DCPresentmentClient
+- __OBJC_CLASS_RO_$_DCPresentmentRequest
+- __OBJC_CLASS_RO_$_DCPresentmentSession
+- __OBJC_LABEL_PROTOCOL_$_DCPresentmentXPCProtocol
+- __OBJC_METACLASS_RO_$_DCPresentmentClient
+- __OBJC_METACLASS_RO_$_DCPresentmentRequest
+- __OBJC_METACLASS_RO_$_DCPresentmentSession
+- __OBJC_PROTOCOL_$_DCPresentmentXPCProtocol
+- __OBJC_PROTOCOL_REFERENCE_$_DCPresentmentXPCProtocol
+- ___51-[DCPresentmentClient interpretRequest:completion:]_block_invoke
+- ___51-[DCPresentmentClient interpretRequest:completion:]_block_invoke_2
+- ___51-[DCPresentmentClient interpretRequest:completion:]_block_invoke_2.cold.1
+- ___51-[DCPresentmentClient interpretRequest:completion:]_block_invoke_2.cold.2
+- ___52-[DCPresentmentSession interpretRequest:completion:]_block_invoke
+- ___52-[DCPresentmentSession interpretRequest:completion:]_block_invoke.4
+- ___52-[DCPresentmentSession interpretRequest:completion:]_block_invoke.cold.1
+- ___56-[DCCredentialStore setStateOfCredential:to:completion:]_block_invoke.18
+- ___57-[DCPresentmentClient remoteObjectProxyWithErrorHandler:]_block_invoke
+- ___57-[DCPresentmentClient remoteObjectProxyWithErrorHandler:]_block_invoke.cold.1
+- ___59-[DCPresentmentClient buildGenericDataResponse:completion:]_block_invoke
+- ___59-[DCPresentmentClient buildGenericDataResponse:completion:]_block_invoke_2
+- ___59-[DCPresentmentClient buildGenericDataResponse:completion:]_block_invoke_2.cold.1
+- ___59-[DCPresentmentClient buildGenericDataResponse:completion:]_block_invoke_2.cold.2
+- ___60-[DCPresentmentClient buildResponseForSelection:completion:]_block_invoke
+- ___60-[DCPresentmentClient buildResponseForSelection:completion:]_block_invoke_2
+- ___60-[DCPresentmentClient buildResponseForSelection:completion:]_block_invoke_2.cold.1
+- ___60-[DCPresentmentClient buildResponseForSelection:completion:]_block_invoke_2.cold.2
+- ___60-[DCPresentmentSession buildGenericDataResponse:completion:]_block_invoke
+- ___60-[DCPresentmentSession buildGenericDataResponse:completion:]_block_invoke.9
+- ___60-[DCPresentmentSession buildGenericDataResponse:completion:]_block_invoke.cold.1
+- ___61-[DCPresentmentSession buildResponseForSelection:completion:]_block_invoke
+- ___61-[DCPresentmentSession buildResponseForSelection:completion:]_block_invoke.5
+- ___61-[DCPresentmentSession buildResponseForSelection:completion:]_block_invoke.cold.1
+- ___62-[DCPresentmentClient interpretGenericDataRequest:completion:]_block_invoke
+- ___62-[DCPresentmentClient interpretGenericDataRequest:completion:]_block_invoke_2
+- ___62-[DCPresentmentClient interpretGenericDataRequest:completion:]_block_invoke_2.cold.1
+- ___62-[DCPresentmentClient interpretGenericDataRequest:completion:]_block_invoke_2.cold.2
+- ___63-[DCPresentmentClient buildErrorResponseWithStatus:completion:]_block_invoke
+- ___63-[DCPresentmentClient buildErrorResponseWithStatus:completion:]_block_invoke_2
+- ___63-[DCPresentmentClient buildErrorResponseWithStatus:completion:]_block_invoke_2.cold.1
+- ___63-[DCPresentmentClient buildErrorResponseWithStatus:completion:]_block_invoke_2.cold.2
+- ___63-[DCPresentmentSession interpretGenericDataRequest:completion:]_block_invoke
+- ___63-[DCPresentmentSession interpretGenericDataRequest:completion:]_block_invoke.8
+- ___63-[DCPresentmentSession interpretGenericDataRequest:completion:]_block_invoke.cold.1
+- ___64-[DCCredentialStore(DebugAPIs) eraseLegacySEKeySlot:completion:]_block_invoke.229
+- ___64-[DCCredentialStore(DebugAPIs) keyInfoForCredential:completion:]_block_invoke.231
+- ___64-[DCCredentialStore(DebugAPIs) payloadsOfCredential:completion:]_block_invoke.226
+- ___64-[DCPresentmentSession buildErrorResponseWithStatus:completion:]_block_invoke
+- ___64-[DCPresentmentSession buildErrorResponseWithStatus:completion:]_block_invoke.7
+- ___64-[DCPresentmentSession buildErrorResponseWithStatus:completion:]_block_invoke.cold.1
+- ___66-[DCCredentialStore activeRegionsInPartitions:docType:completion:]_block_invoke
+- ___66-[DCCredentialStore activeRegionsInPartitions:docType:completion:]_block_invoke.22
+- ___66-[DCCredentialStore activeRegionsInPartitions:docType:completion:]_block_invoke.cold.1
+- ___66-[DCCredentialStore credentialIdentifiersInPartitions:completion:]_block_invoke.19
+- ___70-[DCPresentmentClient buildCredentialResponseForSelection:completion:]_block_invoke
+- ___70-[DCPresentmentClient buildCredentialResponseForSelection:completion:]_block_invoke_2
+- ___70-[DCPresentmentClient buildCredentialResponseForSelection:completion:]_block_invoke_2.cold.1
+- ___70-[DCPresentmentClient buildCredentialResponseForSelection:completion:]_block_invoke_2.cold.2
+- ___71-[DCCredentialStore(DebugAPIs) occupiedLegacySEKeySlotsWithCompletion:]_block_invoke.228
+- ___71-[DCPresentmentClient generateTransportKeyForSpecification:completion:]_block_invoke
+- ___71-[DCPresentmentClient generateTransportKeyForSpecification:completion:]_block_invoke_2
+- ___71-[DCPresentmentClient generateTransportKeyForSpecification:completion:]_block_invoke_2.cold.1
+- ___71-[DCPresentmentClient generateTransportKeyForSpecification:completion:]_block_invoke_2.cold.2
+- ___71-[DCPresentmentSession buildCredentialResponseForSelection:completion:]_block_invoke
+- ___71-[DCPresentmentSession buildCredentialResponseForSelection:completion:]_block_invoke.6
+- ___71-[DCPresentmentSession buildCredentialResponseForSelection:completion:]_block_invoke.cold.1
+- ___71-[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:]_block_invoke
+- ___71-[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:]_block_invoke.cold.1
+- ___71-[DCPresentmentSession configureIfNeededWithContinuation:errorHandler:]_block_invoke.cold.2
+- ___72-[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:]_block_invoke
+- ___72-[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:]_block_invoke_2
+- ___72-[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:]_block_invoke_2.cold.1
+- ___72-[DCCredentialStoreClient activeRegionsInPartitions:docType:completion:]_block_invoke_2.cold.2
+- ___72-[DCPresentmentSession generateTransportKeyForSpecification:completion:]_block_invoke
+- ___72-[DCPresentmentSession generateTransportKeyForSpecification:completion:]_block_invoke.3
+- ___72-[DCPresentmentSession generateTransportKeyForSpecification:completion:]_block_invoke.cold.1
+- ___74-[DCCredentialStore credentialIdentifiersInPartitions:docType:completion:]_block_invoke.20
+- ___75-[DCCredentialStore credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke.16
+- ___75-[DCCredentialStore credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke.cold.1
+- ___76-[DCCredentialStore(DebugAPIs) allElementsOfCredential:authData:completion:]_block_invoke.227
+- ___78-[DCCredentialStore replacePayloadOfCredential:withPayload:format:completion:]_block_invoke.17
+- ___81-[DCCredentialStore credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke
+- ___81-[DCCredentialStore credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke.21
+- ___81-[DCCredentialStore credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke.cold.1
+- ___81-[DCCredentialStore(DebugAPIs) clearPresentmentKeyUsageForCredential:completion:]_block_invoke.230
+- ___81-[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke
+- ___81-[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke_2
+- ___81-[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke_2.cold.1
+- ___81-[DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier:completion:]_block_invoke_2.cold.2
+- ___82-[DCPresentmentClient configureWithPartitions:presentmentType:options:completion:]_block_invoke
+- ___82-[DCPresentmentClient configureWithPartitions:presentmentType:options:completion:]_block_invoke.cold.1
+- ___82-[DCPresentmentClient configureWithPartitions:presentmentType:options:completion:]_block_invoke.cold.2
+- ___87-[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke
+- ___87-[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke_2
+- ___87-[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke_2.cold.1
+- ___87-[DCCredentialStoreClient credentialIdentifiersInPartitions:docType:region:completion:]_block_invoke_2.cold.2
+- ___block_descriptor_48_e8_32s40bs_e27_v24?0"NSSet"8"NSError"16ls40l8s32l8
+- ___block_descriptor_48_e8_32s40bs_e42_v24?0"DCCredentialResponse"8"NSError"16ls40l8s32l8
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_CoreIDCred
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_CoreIDCred
+- _kCredentialState
+- _kDeviceEncryptionKeys
+- _kElementIdentifiersByNamespace
+- _kFormat
+- _kHasUsablePresentmentAuthPolicy
+- _kIntentToRetain
+- _kKeySigningKeys
+- _kNeedsPresentmentKeyRefresh
+- _kOptions
+- _kPayloadData
+- _kPayloadIngestionHash
+- _kPayloadProtectionKeys
+- _kPresentmentKeys
+- _kProtectionType
+- _kRegionCode
+- _kRelyingPartyIdentifier
+- _kRequiredPublicKeyIdentifier
+- _kResponseEncryptionCertificateChain
+- _kResponseEncryptionMode
+- _kSessionEncryptionIntermediateKeyMaterial
+- _kSessionEstablishment
+- _kSessionTranscript
+- _kSignedAt
+- _kValidFrom
+- _kValidUntil
+- _objc_msgSend$activeRegionsInPartitions:docType:completion:
+- _objc_msgSend$buildCredentialResponseForSelection:completion:
+- _objc_msgSend$buildErrorResponseWithStatus:completion:
+- _objc_msgSend$buildGenericDataResponse:completion:
+- _objc_msgSend$buildResponseForSelection:completion:
+- _objc_msgSend$configureWithPartitions:presentmentType:options:completion:
+- _objc_msgSend$credentialIdentifierForPublicKeyIdentifier:completion:
+- _objc_msgSend$credentialIdentifiersInPartitions:docType:region:completion:
+- _objc_msgSend$generateTransportKeyForSpecification:completion:
+- _objc_msgSend$initWithIdentifier:organization:organizationalUnit:iconData:iconURL:iconMediaType:privacyPolicyURL:merchantCategoryCode:
+- _objc_msgSend$initWithPartitions:presentmentType:options:
+- _objc_msgSend$initWithSessionEstablishment:sessionTranscript:seAccessEndpoint:
+- _objc_msgSend$initWithTrusted:untrustedIdentifier:untrustedOrganization:untrustedIssuerIdentifier:untrustedIssuerOrganization:
+- _objc_msgSend$interpretGenericDataRequest:completion:
+- _objc_msgSend$interpretRequest:completion:
+- _objc_msgSend$options
+- _objc_msgSend$organization
+- _objc_msgSend$organizationalUnit
+- _objc_msgSend$presentmentType
+- _objc_msgSend$setResponseEncryptionCertificateChain:
+- _objc_msgSend$setResponseEncryptionMode:
+- _objc_msgSend$setSessionTranscript:
+CStrings:
++ " cannot be cast to "
++ "-"
++ "<nil>"
++ "@\"DCPresentmentResponseEncryptionParameters\""
++ "@24@0:8^v16"
++ "@40@0:8@16Q24q32"
++ "CoreIDCred.DCPresentmentRequest"
++ "CoreIDCred.DCPresentmentSession"
++ "CoreIDCred.XPCCredentialPresentmentRequest"
++ "DCCredentialStore credentialIdentifiersForPublicKeyIdentifier"
++ "DCCredentialStore deleteDataFromSyncableKeyStoreForIdentifier"
++ "DCCredentialStore retrieveDataFromSyncableKeyStoreForIdentifier"
++ "DCCredentialStore storeDataInSyncableKeyStoreForIdentifier"
++ "DCCredentialStore updateDataInSyncableKeyStoreForIdentifier"
++ "DCCredentialStoreClient activeRegionsInPartitions requesting docTypes %@"
++ "DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier"
++ "DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier returned successfully"
++ "DCCredentialStoreClient credentialIdentifiersForPublicKeyIdentifier returned with error %{public}@"
++ "DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier"
++ "DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier returned successfully"
++ "DCCredentialStoreClient deleteDataFromSyncableKeyStoreForIdentifier returned with error %{public}@"
++ "DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier"
++ "DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier returned successfully"
++ "DCCredentialStoreClient retrieveDataFromSyncableKeyStoreForIdentifier returned with error %{public}@"
++ "DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier"
++ "DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier returned successfully"
++ "DCCredentialStoreClient storeDataInSyncableKeyStoreForIdentifier returned with error %{public}@"
++ "DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier"
++ "DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier returned successfully"
++ "DCCredentialStoreClient updateDataInSyncableKeyStoreForIdentifier returned with error %{public}@"
++ "DCPresentmentErrorDomain"
++ "DCPresentmentRequestedElement elementIdentifier = %@, intentToRetain = %@, retentionPeriod = %@"
++ "DCPresentmentResponseEncryptionParameters"
++ "DCPresentmentSession connection interrupted"
++ "DCPresentmentSession connection invalidated"
++ "Invalid number of keys found, expected one."
++ "Remote proxy object "
++ "SendableXPCConnection error occurred when cancelling the task: %@"
++ "SendableXPCConnection executing cancellation handler"
++ "SendableXPCConnection onCancel is nil"
++ "Session encryption mode = %@, Reader authentication policy = %@, Element fallback mode = %@, Message encoding format = %@"
++ "T@\"DCCredentialOptions\",&,N,V_options"
++ "T@\"DCPresentmentResponseEncryptionParameters\",C,N"
++ "T@\"DCPresentmentResponseEncryptionParameters\",N,R"
++ "T@\"NSArray\",&,N,V_authorityKeyIdentifiers"
++ "T@\"NSArray\",&,N,V_payloadProtectionKeys"
++ "T@\"NSData\",&,N,V_payloadIngestionHash"
++ "T@\"NSData\",N,C"
++ "T@\"NSDate\",&,N,V_payloadSignedAt"
++ "T@\"NSDate\",&,N,V_payloadValidFrom"
++ "T@\"NSDate\",&,N,V_payloadValidUntil"
++ "T@\"NSDictionary\",&,N,V_deviceEncryptionKeys"
++ "T@\"NSDictionary\",&,N,V_keySigningKeys"
++ "T@\"NSDictionary\",&,N,V_presentmentKeys"
++ "T@\"NSString\",&,N,V_issuingAuthority"
++ "TB,N,R"
++ "TB,N,V_hasUsablePresentmentAuthPolicy"
++ "TB,N,V_needsPresentmentKeyRefresh"
++ "TQ,N,V_credentialState"
++ "Tq,N,R"
++ "Tq,R,N,V_retentionPeriod"
++ "T{os_unfair_lock_s=I},N,V_lock"
++ "WebRequestForwarding"
++ "XPC connection error"
++ "XPC connection error: %s"
++ "_TtC10CoreIDCred31XPCCredentialPresentmentRequest"
++ "_TtP10CoreIDCred24DCPresentmentXPCProtocol_"
++ "_authorityKeyIdentifiers"
++ "_connection"
++ "_createCheckedThrowingContinuation(_:)"
++ "_issuingAuthority"
++ "_responseEncryptionParameters"
++ "_retentionPeriod"
++ "activeRegionsInPartitions:docTypes:completion:"
++ "allDocumentTypes"
++ "alternativeElements"
++ "appleHPKEWithSessionTranscript:certificateChain:"
++ "authenticationCertificateChains"
++ "authorityKeyIdentifiers"
++ "buildCredentialResponseFor:completionHandler:"
++ "buildErrorResponseWith:completionHandler:"
++ "buildGenericDataResponse:completionHandler:"
++ "buildResponseFor:completionHandler:"
++ "configureWithPartitions:presentmentType:options:completionHandler:"
++ "connection"
++ "connectionConfigurationStatus"
++ "connectionErrorMapper"
++ "credentialIdentifiersForPublicKeyIdentifier:completion:"
++ "deleteDataFromSyncableKeyStoreForIdentifier:completion:"
++ "documentRequests"
++ "encodedData"
++ "exportedObject"
++ "failWithError:"
++ "finishDecoding"
++ "finishEncoding"
++ "firstObject"
++ "generateTransportKeyFor:completionHandler:"
++ "init()"
++ "initForReadingFromData:error:"
++ "initRequiringSecureCoding:"
++ "initWithArray:"
++ "initWithArray:copyItems:"
++ "initWithDictionary:copyItems:"
++ "initWithElementIdentifier:intentToRetain:retentionPeriod:"
++ "initWithListenerEndpoint:"
++ "interpretCredentialRequest:completionHandler:"
++ "interpretGenericDataRequest:completionHandler:"
++ "interpretRequest:completionHandler:"
++ "interruptionHandler"
++ "invalidationHandler"
++ "issuerIdentifiers"
++ "issuingAuthority"
++ "lock"
++ "merchantIdentifier"
++ "performWithRemoteObjectProxy(of:_:)"
++ "responseEncryptionParameters"
++ "retentionPeriod"
++ "retrieveDataFromSyncableKeyStoreForIdentifier:completion:"
++ "sessionEncryption"
++ "setAuthorityKeyIdentifiers:"
++ "setExportedInterface:"
++ "setExportedObject:"
++ "setInterruptionHandler:"
++ "setInvalidationHandler:"
++ "setIssuingAuthority:"
++ "setLock:"
++ "setResponseEncryptionParameters:"
++ "state"
++ "storage"
++ "storeDataInSyncableKeyStoreForIdentifier:data:completion:"
++ "updateDataInSyncableKeyStoreForIdentifier:data:completion:"
++ "v20@0:8{os_unfair_lock_s=I}16"
++ "v32@0:8@\"NSData\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSString\"@\"NSError\">24"
++ "v32@0:8@\"_TtC10CoreIDCred31XPCCredentialPresentmentRequest\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v40@0:8@\"NSArray\"16@\"NSSet\"24@?<v@?@\"NSDictionary\"@\"NSError\">32"
++ "value"
++ "webProposalHPKEWithSessionTranscript:rawEncryptionKey:"
++ "{os_unfair_lock_s=I}16@0:8"
+- "+"
+- "@\"DCPresentmentClient\""
+- "@\"DCPresentmentSessionOptions\""
+- "Apple HPKE"
+- "DCCredentialStore credentialIdentifierForPublicKeyIdentifier"
+- "DCCredentialStore credentialIdentifiersInPartitionsDocTypeRegion"
+- "DCCredentialStoreClient activeRegionsInPartitions docType %@"
+- "DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier"
+- "DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier returned successfully"
+- "DCCredentialStoreClient credentialIdentifierForPublicKeyIdentifier returned with error %{public}@"
+- "DCCredentialStoreClient credentialIdentifiersInPartitionsDocTypeRegion docType %@ region %@"
+- "DCCredentialStoreClient credentialIdentifiersInPartitionsDocTypeRegion returned successfully"
+- "DCCredentialStoreClient credentialIdentifiersInPartitionsDocTypeRegion returned with error %{public}@"
+- "DCPresentmentClient"
+- "DCPresentmentClient buildCredentialResponseForSelection"
+- "DCPresentmentClient buildCredentialResponseForSelection returned successfully"
+- "DCPresentmentClient buildCredentialResponseForSelection returned with error %{public}@"
+- "DCPresentmentClient buildErrorResponseWithStatus"
+- "DCPresentmentClient buildErrorResponseWithStatus returned successfully"
+- "DCPresentmentClient buildErrorResponseWithStatus returned with error %{public}@"
+- "DCPresentmentClient buildGenericDataResponse"
+- "DCPresentmentClient buildGenericDataResponse returned successfully"
+- "DCPresentmentClient buildGenericDataResponse returned with error %{public}@"
+- "DCPresentmentClient buildResponseForSelection"
+- "DCPresentmentClient buildResponseForSelection returned successfully"
+- "DCPresentmentClient buildResponseForSelection returned with error %{public}@"
+- "DCPresentmentClient configure"
+- "DCPresentmentClient configureWithPartitions returned successfully"
+- "DCPresentmentClient configureWithPartitions returned with error %{public}@"
+- "DCPresentmentClient dealloc called"
+- "DCPresentmentClient generateTransportKey"
+- "DCPresentmentClient generateTransportKey returned successfully"
+- "DCPresentmentClient generateTransportKey returned with error %{public}@"
+- "DCPresentmentClient init called"
+- "DCPresentmentClient interpretGenericDataRequest"
+- "DCPresentmentClient interpretGenericDataRequest returned successfully"
+- "DCPresentmentClient interpretGenericDataRequest returned with error %{public}@"
+- "DCPresentmentClient interpretRequest"
+- "DCPresentmentClient interpretRequest returned successfully"
+- "DCPresentmentClient interpretRequest returned with error %{public}@"
+- "DCPresentmentClient remote object proxy error: %{public}@"
+- "DCPresentmentRequestedElement elementIdentifier = %@, intentToRetain = %@"
+- "DCPresentmentSession buildCredentialResponse"
+- "DCPresentmentSession buildErrorResponse"
+- "DCPresentmentSession buildGenericDataResponse"
+- "DCPresentmentSession buildResponse"
+- "DCPresentmentSession configure completed successfully"
+- "DCPresentmentSession configure needed"
+- "DCPresentmentSession configure return error %{error}@"
+- "DCPresentmentSession configureIfNeeded no client set"
+- "DCPresentmentSession generateTransportKey"
+- "DCPresentmentSession init called"
+- "DCPresentmentSession interpretGenericDataRequest"
+- "DCPresentmentSession interpretRequest"
+- "Session encryption mode = %@, Response encryption mode = %@, Reader authentication policy = %@, Element fallback mode = %@, Message encoding format = %@"
+- "T@\"DCCredentialOptions\",&,N"
+- "T@\"DCCredentialRevocationInfo\",&,N"
+- "T@\"DCPresentmentClient\",R,N,V_client"
+- "T@\"DCPresentmentSessionOptions\",R,N,V_options"
+- "T@\"NSDate\",&,N"
+- "T@\"NSString\",&"
+- "T@\"NSString\",C,N"
+- "T@\"NSString\",R,N"
+- "TB,N"
+- "TQ,R,N,V_presentmentType"
+- "_presentmentType"
+- "_regionCode"
+- "_relyingPartyIdentifier"
+- "_requiredPublicKeyIdentifier"
+- "_responseEncryptionCertificateChain"
+- "_responseEncryptionMode"
+- "_sessionEncryptionIntermediateKeyMaterial"
+- "_sessionEstablishment"
+- "_sessionTranscript"
+- "activeRegionsInPartitions:docType:completion:"
+- "boundToBiometricOrPasscode"
+- "configureWithPartitions:presentmentType:options:completion:"
+- "credentialIdentifiersInPartitions:docType:region:completion:"
+- "initWithElementIdentifier:intentToRetain:"
+- "initWithSessionEstablishment:sessionTranscript:seAccessEndpoint:"
+- "readerIdentifier"
+- "readerOrganization"
+- "readerOrganizationalUnit"
+- "regionCode"
+- "responseEncryptionCertificate"
+- "responseEncryptionCertificateChain"
+- "responseEncryptionMode"
+- "setRegionCode:"
+- "setRelyingPartyIdentifier:"
+- "setResponseEncryptionCertificateChain:"
+- "setResponseEncryptionMode:"
+- "v24@?0@\"NSSet\"8@\"NSError\"16"
+- "v32@0:8@\"NSData\"16@?<v@?@\"NSString\"@\"NSError\">24"
+- "v40@0:8@\"NSArray\"16@\"NSString\"24@?<v@?@\"NSSet\"@\"NSError\">32"
+- "v48@0:8@\"NSArray\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSDictionary\"@\"NSError\">40"
+
+```

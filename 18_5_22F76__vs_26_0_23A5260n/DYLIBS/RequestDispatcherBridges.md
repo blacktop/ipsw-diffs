@@ -1,0 +1,398 @@
+## RequestDispatcherBridges
+
+> `/System/Library/PrivateFrameworks/RequestDispatcherBridges.framework/RequestDispatcherBridges`
+
+```diff
+
+-3405.27.1.0.0
+-  __TEXT.__text: 0x116f18
+-  __TEXT.__auth_stubs: 0x4ef0
++3500.60.2.0.0
++  __TEXT.__text: 0xf9738
++  __TEXT.__auth_stubs: 0x4dc0
+   __TEXT.__objc_methlist: 0x618
+-  __TEXT.__const: 0x5908
+-  __TEXT.__cstring: 0x4324
+-  __TEXT.__swift5_typeref: 0x2a76
+-  __TEXT.__swift5_fieldmd: 0x20e4
+-  __TEXT.__constg_swiftt: 0x37f4
++  __TEXT.__const: 0x6ef8
++  __TEXT.__cstring: 0x4554
++  __TEXT.__swift5_typeref: 0x2c42
++  __TEXT.__swift5_fieldmd: 0x2230
++  __TEXT.__constg_swiftt: 0x3840
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_reflstr: 0x24b3
++  __TEXT.__swift5_reflstr: 0x2603
+   __TEXT.__swift5_assocty: 0x218
+-  __TEXT.__oslogstring: 0xc027
++  __TEXT.__oslogstring: 0xc1c7
+   __TEXT.__swift5_protos: 0x64
+-  __TEXT.__swift5_proto: 0x3e4
+-  __TEXT.__swift5_types: 0x234
+-  __TEXT.__swift_as_entry: 0x360
+-  __TEXT.__swift_as_ret: 0x2bc
++  __TEXT.__swift5_proto: 0x490
++  __TEXT.__swift5_types: 0x248
++  __TEXT.__swift_as_entry: 0x3a0
++  __TEXT.__swift_as_ret: 0x2dc
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__swift5_capture: 0x894
+-  __TEXT.__unwind_info: 0x2d18
+-  __TEXT.__eh_frame: 0x7b50
++  __TEXT.__swift5_capture: 0x888
++  __TEXT.__unwind_info: 0x2ee0
++  __TEXT.__eh_frame: 0x7708
+   __TEXT.__objc_classname: 0xf0
+-  __TEXT.__objc_methname: 0x152c
++  __TEXT.__objc_methname: 0x1510
+   __TEXT.__objc_methtype: 0x838
+-  __DATA_CONST.__got: 0xba8
+-  __DATA_CONST.__const: 0x2f0
++  __DATA_CONST.__got: 0xaf0
++  __DATA_CONST.__const: 0x2c8
+   __DATA_CONST.__objc_classlist: 0x140
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x7a8
+   __DATA_CONST.__objc_protorefs: 0x78
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x2778
+-  __AUTH_CONST.__const: 0x3828
+-  __AUTH_CONST.__objc_const: 0x7870
+-  __AUTH.__objc_data: 0x728
+-  __AUTH.__data: 0x2878
+-  __DATA.__data: 0x1f50
+-  __DATA.__bss: 0x60d0
+-  __DATA.__common: 0x340
+-  __DATA_DIRTY.__objc_data: 0x358
+-  __DATA_DIRTY.__data: 0x28d8
+-  __DATA_DIRTY.__common: 0x318
+-  __DATA_DIRTY.__bss: 0xf00
++  __AUTH_CONST.__auth_got: 0x26e0
++  __AUTH_CONST.__const: 0x3c50
++  __AUTH_CONST.__objc_const: 0x7d20
++  __AUTH.__objc_data: 0x5c8
++  __AUTH.__data: 0x2468
++  __DATA.__data: 0x1558
++  __DATA.__bss: 0x7360
++  __DATA.__common: 0x290
++  __DATA_DIRTY.__objc_data: 0x4c8
++  __DATA_DIRTY.__data: 0x2e40
++  __DATA_DIRTY.__common: 0x3d0
++  __DATA_DIRTY.__bss: 0x1100
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/CDMFoundation.framework/CDMFoundation
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/FeatureStore.framework/FeatureStore
+   - /System/Library/PrivateFrameworks/IntelligenceFlow.framework/IntelligenceFlow
+   - /System/Library/PrivateFrameworks/IntelligenceFlowContext.framework/IntelligenceFlowContext
+-  - /System/Library/PrivateFrameworks/IntelligenceFlowShared.framework/IntelligenceFlowShared
+   - /System/Library/PrivateFrameworks/IntelligencePlatform.framework/IntelligencePlatform
+   - /System/Library/PrivateFrameworks/LocalSpeechRecognitionBridge.framework/LocalSpeechRecognitionBridge
+   - /System/Library/PrivateFrameworks/ProactiveDaemonSupport.framework/ProactiveDaemonSupport
+
+   - /System/Library/PrivateFrameworks/SiriXShimTools.framework/SiriXShimTools
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 06F9F57A-09B2-3612-85BC-6517326D079C
+-  Functions: 3403
+-  Symbols:   1823
+-  CStrings:  1415
++  UUID: 8C91A8E6-C21C-3757-933E-F2382B4BEB86
++  Functions: 3513
++  Symbols:   1842
++  CStrings:  1442
+ 
+Symbols:
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_RequestDispatcherBridges
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_RequestDispatcherBridges
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_RequestDispatcherBridges
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageH23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageH23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageH23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheD27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheD27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheD27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO10Foundation13CustomNSErrorAAs0F0
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO24InvalidMessageCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO24InvalidMessageCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO30FailedToStartGatewayCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO30FailedToStartGatewayCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOSHAASQ
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 24RequestDispatcherBridges22IFSessionServiceClientC10RelayErrorO30ProtocolIncompatibleCodingKeys33_3AD1187507412AC84CB8B2410F9BA490LLOSHAASQ
++ _block_copy_helper.1
++ _block_copy_helper.138
++ _block_copy_helper.3
++ _block_copy_helper.47
++ _block_copy_helper.53
++ _block_copy_helper.59
++ _block_copy_helper.6
++ _block_copy_helper.66
++ _block_descriptor.140
++ _block_descriptor.3
++ _block_descriptor.49
++ _block_descriptor.5
++ _block_descriptor.55
++ _block_descriptor.61
++ _block_descriptor.68
++ _block_descriptor.8
++ _block_destroy_helper.139
++ _block_destroy_helper.2
++ _block_destroy_helper.4
++ _block_destroy_helper.48
++ _block_destroy_helper.54
++ _block_destroy_helper.60
++ _block_destroy_helper.67
++ _block_destroy_helper.7
++ _keypath_getTm
++ _objc_retain_x2
++ _objectdestroy.94Tm
++ _swift_coroFrameAlloc
++ _swift_isClassType
++ _symbolic $s24RequestDispatcherBridges23ConversationSessionInfoP
++ _symbolic SS______t So11SMTTCUStateV
++ _symbolic SS______t s5Int32V
++ _symbolic Sb20companionNeedsUpdate_t
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageH23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheD27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO24InvalidMessageCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO30FailedToStartGatewayCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____ 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____15callerSessionID_Sb20companionNeedsUpdatet 10Foundation4UUIDV
++ _symbolic _____15callerSessionID_t 10Foundation4UUIDV
++ _symbolic _____Sg 16SiriMessageTypes20SessionConfigurationV
++ _symbolic ______AAt 24RequestDispatcherBridges21RemoteIFDispatchErrorO
++ _symbolic __________Xj l24RequestDispatcherBridges41IntelligenceFlowSessionControllerProtocol_px5ErrorRts_XPXGMq AA0deF6BridgeCACO
++ _symbolic ______p 11SiriNetwork21MessageCenterProtocolP
++ _symbolic ______pSg 24RequestDispatcherBridges23ConversationSessionInfoP
++ _symbolic _____m 11SiriNetwork013MessageCenterC0C
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageK23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheG27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO24InvalidMessageCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO30FailedToStartGatewayCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO019FailedToSendMessageK23SessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO05CacheG27DeviceStateFailedCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO10CodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO24InvalidMessageCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO25SessionNotFoundCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO26CompanionAIIsOffCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO28FailedToEndSessionCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO30FailedToStartGatewayCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO31ProtocolIncompatibileCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges21RemoteIFDispatchErrorO37FailedToCreateSessionClientCodingKeys33_C76FFAF55892D930ED32A8A223D92346LLO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 24RequestDispatcherBridges16SessionClientBoxC AC016IntelligenceFlowE6BridgeC5ErrorO
++ _symbolic _____y_____mG s23_ContiguousArrayStorageC 11SiriNetwork013MessageCenterF0C
+- _OBJC_CLASS_$_NSKeyedArchiver
+- _OBJC_CLASS_$_NSKeyedUnarchiver
+- __DATA__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
+- __DATA__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
+- __IVARS__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
+- __IVARS__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
+- __METACLASS_DATA__TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage
+- __METACLASS_DATA__TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_RequestDispatcherBridges
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_RequestDispatcherBridges
+- _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOs0J3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLOs0J3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 24RequestDispatcherBridges22IFSessionServiceClientC10RelayErrorOSHAASQ
+- _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOSHAASQ
+- _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.137
+- _block_copy_helper.2
+- _block_copy_helper.43
+- _block_copy_helper.44
+- _block_copy_helper.50
+- _block_copy_helper.56
+- _block_copy_helper.63
+- _block_descriptor.139
+- _block_descriptor.4
+- _block_descriptor.45
+- _block_descriptor.46
+- _block_descriptor.52
+- _block_descriptor.58
+- _block_descriptor.65
+- _block_destroy_helper.138
+- _block_destroy_helper.3
+- _block_destroy_helper.44
+- _block_destroy_helper.45
+- _block_destroy_helper.51
+- _block_destroy_helper.57
+- _block_destroy_helper.64
+- _objectdestroy.96Tm
+- _symbolic $s24RequestDispatcherBridges29MessageCenterProtocolExtendedP
+- _symbolic So13SMTTCUPackageC_______ptSg 16SiriMessageTypes33ImmutableConversationSessionStateP
+- _symbolic _____ 16SiriMessageTypes11InputOriginO
+- _symbolic _____ 16SiriMessageTypes18RequestContextDataC
+- _symbolic _____ 22IntelligenceFlowShared30VersionedQueryDecorationOutputC
+- _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC
+- _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
+- _symbolic _____ 24RequestDispatcherBridges023StartRemoteIntelligenceA20SessionClientMessageC7BuilderV
+- _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC
+- _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
+- _symbolic _____ 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC7BuilderV
+- _symbolic _____Sg 10Foundation12DateIntervalV
+- _symbolic _____Sg 12SiriNLUTypes0A27_Nlu_External_AsrHypothesisV
+- _symbolic _____Sg 12SiriNLUTypes0A33_Nlu_External_MultilingualVariantV
+- _symbolic _____Sg 16SiriMessageTypes014SessionStartedB0C
+- _symbolic _____Sg 21SiriTurnTakingManager8TTResultV
+- _symbolic _____Sg 22IntelligenceFlowShared30VersionedQueryDecorationOutputC
+- _symbolic _____Sg 22IntelligenceFlowShared36QueryDecorationToolRetrievalResponseV
+- _symbolic __________Xj l24RequestDispatcherBridges41IntelligenceFlowSessionControllerProtocol_px5ErrorRts_XPXG AA0deF6BridgeCACO
+- _symbolic ______p 16IntelligenceFlow23QueryDecorationProtocolP
+- _symbolic ______p 24RequestDispatcherBridges29MessageCenterProtocolExtendedP
+- _symbolic ______pSg 11SiriNetwork27MessageCenterDeviceProtocolP
+- _symbolic ______pSg 24RequestDispatcherBridges17TTManagerProxyingP
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges023StartRemoteIntelligenceD20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges023StartRemoteIntelligenceD20SessionClientMessageC10CodingKeys33_69E36D63C5FADB7FD01A12DFD1140DBFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessageC10CodingKeys33_D44F78FDA706ABFD7E6EE1DFA057888CLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 22IntelligenceFlowShared26QueryDecorationCoreServiceO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 24RequestDispatcherBridges16SessionClientBoxC AC016IntelligenceFlowE6BridgeC5ErrorO
+- _type_layout_string 24RequestDispatcherBridges28LocalIFSessionClientProtocolRzlAA0d16IntelligenceFlowF8ProviderVyxG
+CStrings:
++ " companion needs update: "
++ "%s: BUG: We did not select a TRP at this point"
++ "%s: BUG: We did not start an eager child request at this point"
++ "%s: IFessionService Cleanup session"
++ "%s: IFessionService Cleanup session failed"
++ "%s: RemoteIFClient Cleanup session"
++ "%s: RemoteIFClient Cleanup session failed"
++ "%s: RemoteIFClientTransport Cleanup session"
++ "%s: RemoteIFClientTransport Cleanup session failed"
++ "%s: Wrapped Error %@"
++ "%{public}s: IntelligenceFlow returning error %s"
++ ", optedInToDataSharing: "
++ "Cache versioned query decoration output failed. SessionID = "
++ "Companion has Apple Intelligence turned off. SessionID = "
++ "Error generating TTRequest from TTProxyInput"
++ "Failed to create IF session: "
++ "Failed to create RemoteIntelligenceSessionClientMessage"
++ "Failed to end IF session: "
++ "Failed to find existing session: "
++ "Failed to send message to IF session: "
++ "Failed to start gateway"
++ "Invalid message received"
++ "MUX: Caching MultiUserRootTRP and skipping processing because we have not received scores yet for requestId %s"
++ "MUX: Caching StoppedListeningForSpeechContinuationForPlannerMessage and skipping processing because we have not received scores with sufficient audio processed"
++ "No active IF session"
++ "RemoteCompanionIFHandlerError"
++ "RemoteIFDispatchErrorCallerSessionIDKey"
++ "RemoteInteligence protocol incompatibile. SessionID = "
++ "Session already ended, dropping incoming error"
++ "Utterance: %s"
++ "cacheRemoteDeviceStateFailed"
++ "callerSessionID companionNeedsUpdate "
++ "cleanupSession()"
++ "companionNeedsUpdate"
++ "failedToCreateSessionClient"
++ "failedToEndSession"
++ "failedToSendMessageToSessionClient"
++ "failedToStartGateway"
++ "handleFallbackToSiriXRequestedMessage(_:)"
++ "hasSufficientAudioProcessed"
++ "isLLMFallbackWithRewrite"
++ "optedInToDataSharing"
++ "protocolIncompatibile"
++ "serviceStore"
+- "Could not deserialize RequestContextData"
+- "Failed to create StartRemoteIntelligenceRequestSessionClientMessage"
+- "Failed to fetch QueryDecoration for message %s"
+- "MUX: Caching MultiUserRootTRP and skipping processing because we have not received perception scores yet for requestId %s"
+- "MUX: Caching StoppedListeningForSpeechContinuationForPlannerMessage and skipping processing because we have not received perception scores yet"
+- "RemoteIF send message failed. Failed to find active devices"
+- "RequestDispatcherBridges.EndedRemoteIntelligenceSessionMessage"
+- "RequestDispatcherBridges.StartRemoteIntelligenceRequestSessionClientMessage"
+- "Utterance: %s, VersionedQueryDecorationOutput: %s"
+- "_TtC24RequestDispatcherBridges37EndedRemoteIntelligenceSessionMessage"
+- "_TtC24RequestDispatcherBridges50StartRemoteIntelligenceRequestSessionClientMessage"
+- "archivedDataWithRootObject:requiringSecureCoding:error:"
+- "audioDestination"
+- "inputOrigin"
+- "queryDecoration"
+- "requestContextData"
+- "versionedQueryDecorationOutput"
+
+```

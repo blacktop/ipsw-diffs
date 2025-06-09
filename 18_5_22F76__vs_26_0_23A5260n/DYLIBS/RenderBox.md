@@ -1,0 +1,3315 @@
+## RenderBox
+
+> `/System/Library/PrivateFrameworks/RenderBox.framework/RenderBox`
+
+```diff
+
+-6.5.1.0.0
+-  __TEXT.__text: 0x11ae84
+-  __TEXT.__auth_stubs: 0x25f0
+-  __TEXT.__objc_methlist: 0x2680
+-  __TEXT.__const: 0x4e28
+-  __TEXT.__gcc_except_tab: 0x6428
+-  __TEXT.__cstring: 0x513f
+-  __TEXT.__oslogstring: 0x3bf
+-  __TEXT.__unwind_info: 0x55f0
+-  __TEXT.__objc_classname: 0x3f1
+-  __TEXT.__objc_methname: 0x5ab6
+-  __TEXT.__objc_methtype: 0x316e
+-  __TEXT.__objc_stubs: 0x4260
+-  __DATA_CONST.__got: 0x460
+-  __DATA_CONST.__const: 0x1938
+-  __DATA_CONST.__objc_classlist: 0x110
++7.0.67.1.101
++  __TEXT.__text: 0x146e18
++  __TEXT.__auth_stubs: 0x2860
++  __TEXT.__objc_methlist: 0x2a68
++  __TEXT.__const: 0x5ad8
++  __TEXT.__gcc_except_tab: 0x7198
++  __TEXT.__cstring: 0x5b57
++  __TEXT.__oslogstring: 0x8a6
++  __TEXT.__unwind_info: 0x5cf0
++  __TEXT.__objc_classname: 0x430
++  __TEXT.__objc_methname: 0x631d
++  __TEXT.__objc_methtype: 0x341d
++  __TEXT.__objc_stubs: 0x4760
++  __DATA_CONST.__got: 0x518
++  __DATA_CONST.__const: 0x1d08
++  __DATA_CONST.__objc_classlist: 0x128
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1b38
+-  __DATA_CONST.__objc_superrefs: 0xd0
+-  __AUTH_CONST.__auth_got: 0x1308
+-  __AUTH_CONST.__const: 0x8170
+-  __AUTH_CONST.__cfstring: 0x27e0
+-  __AUTH_CONST.__objc_const: 0x3e80
++  __DATA_CONST.__objc_selrefs: 0x1de8
++  __DATA_CONST.__objc_superrefs: 0xd8
++  __AUTH_CONST.__auth_got: 0x1440
++  __AUTH_CONST.__const: 0x8770
++  __AUTH_CONST.__cfstring: 0x2b00
++  __AUTH_CONST.__objc_const: 0x4588
+   __AUTH_CONST.__objc_floatobj: 0x10
+-  __AUTH.__thread_vars: 0x18
+-  __AUTH.__thread_bss: 0x8
+-  __DATA.__objc_ivar: 0x260
+-  __DATA.__data: 0x9f0
+-  __DATA.__crash_info: 0x40
+-  __DATA.__bss: 0x1c8
+-  __DATA.__common: 0x34
++  __AUTH_CONST.__objc_intobj: 0x18
++  __AUTH.__objc_data: 0xf0
++  __AUTH.__thread_vars: 0x30
++  __AUTH.__thread_bss: 0x10
++  __DATA.__objc_ivar: 0x2bc
++  __DATA.__data: 0xa44
++  __DATA.__crash_info: 0x148
++  __DATA.__bss: 0x170
++  __DATA.__common: 0x2c
+   __DATA_DIRTY.__objc_data: 0xaa0
+   __DATA_DIRTY.__data: 0x4
+-  __DATA_DIRTY.__common: 0x3c
+-  __DATA_DIRTY.__bss: 0x510
++  __DATA_DIRTY.__common: 0x48
++  __DATA_DIRTY.__bss: 0x660
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
++  - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOSurface.framework/IOSurface
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 50BC5C6F-EA44-3928-AC73-38D9BF6CE1CC
+-  Functions: 6189
+-  Symbols:   16357
+-  CStrings:  3129
++  UUID: 015C6DB6-D3CF-3FC5-9AB3-B17696F7855E
++  Functions: 6713
++  Symbols:   17691
++  CStrings:  3483
+ 
+Symbols:
++ +[RBDevice appleGPUFamily]
++ +[RBDevice currentDevice]
++ +[RBDevice setCurrentDevice:]
++ +[RBDevice sharedLowPowerDevice]
++ +[RBShaderLibrary systemLibrary]
++ -[CALayer displayHeadroom]
++ -[CALayer kitScreen]
++ -[CALayer observeDisplayHeadroomChanges:]
++ -[CALayer observeDisplayHeadroomChanges:].cold.1
++ -[CALayer(RBLayerScreen) displayHeadroomMayHaveChanged]
++ -[RBAnimationSequencer .cxx_construct]
++ -[RBAnimationSequencer added]
++ -[RBAnimationSequencer distanceMode]
++ -[RBAnimationSequencer endPoint]
++ -[RBAnimationSequencer mixed]
++ -[RBAnimationSequencer rb_sequencer]
++ -[RBAnimationSequencer removed]
++ -[RBAnimationSequencer sequencesGlyphs]
++ -[RBAnimationSequencer setAdded:]
++ -[RBAnimationSequencer setDistanceMode:]
++ -[RBAnimationSequencer setEndPoint:]
++ -[RBAnimationSequencer setMixed:]
++ -[RBAnimationSequencer setRBSequencer:]
++ -[RBAnimationSequencer setRemoved:]
++ -[RBAnimationSequencer setSequencesGlyphs:]
++ -[RBAnimationSequencer setStartPoint:]
++ -[RBAnimationSequencer startPoint]
++ -[RBAnimationSequencerEffects .cxx_construct]
++ -[RBAnimationSequencerEffects delayOffset]
++ -[RBAnimationSequencerEffects delayScale]
++ -[RBAnimationSequencerEffects setDelayOffset:]
++ -[RBAnimationSequencerEffects setDelayScale:]
++ -[RBCommitObserverArray .cxx_construct]
++ -[RBCommitObserverArray .cxx_destruct]
++ -[RBCommitObserverArray .cxx_destruct].cold.1
++ -[RBCommitObserverArray get:]
++ -[RBDevice pixelFormatForColorMode:displayList:flags:]
++ -[RBDisplayList addContentHeadroom:]
++ -[RBDisplayList addDistanceFilterWithZeroDistance:oneDistance:scale:flags:]
++ -[RBDisplayList addStyle:data:]
++ -[RBDisplayList contentHeadroom]
++ -[RBDisplayList drawDebugSeed:]
++ -[RBDisplayList drawDebugSeed:].cold.1
++ -[RBDisplayList drawLayerByReference:alpha:blendMode:flags:]
++ -[RBDisplayList layerAnimationSequencer]
++ -[RBDisplayList setLayerAnimationSequencer:]
++ -[RBDisplayList setLayerAnimationSequencer:].cold.1
++ -[RBDisplayList setTargetHeadroom:]
++ -[RBDisplayList targetHeadroom]
++ -[RBDrawable GPUPriority]
++ -[RBDrawable backgroundGPUPriority]
++ -[RBDrawable completedHandler]
++ -[RBDrawable renderWithFlags:items:count:displayList:].cold.7
++ -[RBDrawable scheduledHandler]
++ -[RBDrawable setBackgroundGPUPriority:]
++ -[RBDrawable setCompletedHandler:]
++ -[RBDrawable setGPUPriority:]
++ -[RBDrawable setScheduledHandler:]
++ -[RBDrawable setTargetColorSpace:]
++ -[RBDrawable setTargetHeadroom:]
++ -[RBDrawable setWorkingColorSpace:]
++ -[RBDrawable targetColorSpace]
++ -[RBDrawable targetHeadroom]
++ -[RBDrawable workingColorSpace]
++ -[RBDrawableItem init]
++ -[RBDrawableItem setTargetHeadroom:]
++ -[RBDrawableItem targetHeadroom]
++ -[RBEmptyDisplayListContents contentHeadroom]
++ -[RBFill hasGeometry]
++ -[RBFill headroom]
++ -[RBFill setAxialGradientStyle:startPoint:endPoint:]
++ -[RBFill setCGColor:]
++ -[RBFill setCGColor:].cold.1
++ -[RBFill setHeadroom:]
++ -[RBInterpolatedDisplayListContents contentHeadroom]
++ -[RBLayer HDRMode]
++ -[RBLayer asynchronousGroup]
++ -[RBLayer displayHeadroomLimit]
++ -[RBLayer displayHeadroomMayHaveChanged]
++ -[RBLayer effectiveDisplayHeadroom]
++ -[RBLayer setAsynchronousGroup:]
++ -[RBLayer setDisplayHeadroomLimit:]
++ -[RBLayer setHDRMode:]
++ -[RBLayer setSubsurface:rotated:bounds:contentsScale:contentHeadroom:displayHeadroom:locked:]
++ -[RBLayer updateDisplayHeadroom:contentHeadroom:contentsLayer:locked:]
++ -[RBLayerGroup .cxx_construct]
++ -[RBLayerGroup .cxx_destruct]
++ -[RBLayerGroup addHandler:forInstance:]
++ -[RBLayerGroup beginInstance]
++ -[RBLayerGroup endInstance:]
++ -[RBLayerGroup init]
++ -[RBMovedDisplayListContents contentHeadroom]
++ -[RBShader CIFilterProvider]
++ -[RBShader initWithSystemShader:]
++ -[RBShader setCIFilterProvider:]
++ -[RBShader setRBClosure:]
++ -[RBShaderLibrary ABIVersion]
++ -[RBShaderLibrary binaryArchiveURL]
++ -[RBShaderLibrary setABIVersion:]
++ -[RBShaderLibrary setBinaryArchiveURL:]
++ -[RBShape _setRect:].cold.1
++ -[RBShape _setRect:].cold.2
++ -[RBShape _setRoundedRect:cornerSize:cornerStyle:].cold.1
++ -[RBSymbolAnimator fillProviderForStyle:]
++ -[RBSymbolAnimator renderingOptions]
++ -[RBSymbolAnimator setFillProvider:forStyle:]
++ -[RBSymbolAnimator setRenderingOptions:]
++ -[RBSymbolLayer fillResolver]
++ -[RBSymbolLayer resolveFill:alignmentRect:style:colorName:]
++ -[RBSymbolLayer setFillResolver:]
++ GCC_except_table102
++ GCC_except_table1023
++ GCC_except_table103
++ GCC_except_table1053
++ GCC_except_table1055
++ GCC_except_table1072
++ GCC_except_table1114
++ GCC_except_table114
++ GCC_except_table1151
++ GCC_except_table1160
++ GCC_except_table117
++ GCC_except_table1190
++ GCC_except_table1227
++ GCC_except_table125
++ GCC_except_table126
++ GCC_except_table1264
++ GCC_except_table130
++ GCC_except_table1329
++ GCC_except_table1359
++ GCC_except_table1362
++ GCC_except_table1392
++ GCC_except_table1422
++ GCC_except_table147
++ GCC_except_table148
++ GCC_except_table157
++ GCC_except_table160
++ GCC_except_table1707
++ GCC_except_table1740
++ GCC_except_table187
++ GCC_except_table191
++ GCC_except_table219
++ GCC_except_table223
++ GCC_except_table237
++ GCC_except_table238
++ GCC_except_table252
++ GCC_except_table253
++ GCC_except_table257
++ GCC_except_table262
++ GCC_except_table266
++ GCC_except_table267
++ GCC_except_table268
++ GCC_except_table273
++ GCC_except_table304
++ GCC_except_table315
++ GCC_except_table319
++ GCC_except_table327
++ GCC_except_table328
++ GCC_except_table330
++ GCC_except_table411
++ GCC_except_table421
++ GCC_except_table424
++ GCC_except_table436
++ GCC_except_table487
++ GCC_except_table533
++ GCC_except_table534
++ GCC_except_table539
++ GCC_except_table54
++ GCC_except_table545
++ GCC_except_table557
++ GCC_except_table717
++ GCC_except_table77
++ GCC_except_table78
++ GCC_except_table80
++ GCC_except_table81
++ GCC_except_table821
++ GCC_except_table851
++ GCC_except_table853
++ GCC_except_table86
++ GCC_except_table870
++ GCC_except_table91
++ GCC_except_table92
++ GCC_except_table923
++ GCC_except_table94
++ GCC_except_table953
++ GCC_except_table955
++ GCC_except_table972
++ _CAToneMapModeAutomatic
++ _CAToneMapModeIfSupported
++ _CAToneMapModeNever
++ _CFArrayAppendValue
++ _CFArrayCreateCopy
++ _CFArrayCreateMutable
++ _CFNumberCreate
++ _CGColorCreateWithContentHeadroom
++ _CGColorGetContentHeadroom
++ _CGColorSpaceCopyFromIOSurface
++ _CGColorSpaceCreateWithID
++ _CGColorSpaceGetID
++ _CGColorSpaceUsesITUR_2100TF
++ _CGContextGetBlendMode
++ _CGContextGetEDRTargetHeadroom
++ _CGContextSetEDRTargetHeadroom
++ _CGContextSetStrokeColorWithColor
++ _CGFontCreateWithFontName
++ _CGFontGetGlyphsForUnichars
++ _CGGStateGetEDRTargetHeadroom
++ _CGImageGetContentHeadroom
++ _CGImageSetHeadroom
++ _CGRectContainsRect
++ _CGRectIntersection
++ _CGRectIsEmpty
++ _IOSurfaceDecrementUseCount
++ _IOSurfaceIncrementUseCount
++ _OBJC_CLASS_$_CIContext
++ _OBJC_CLASS_$_CIImage
++ _OBJC_CLASS_$_NSConstantIntegerNumber
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$_RBAnimationSequencer
++ _OBJC_CLASS_$_RBAnimationSequencerEffects
++ _OBJC_CLASS_$_RBCommitObserverArray
++ _OBJC_CLASS_$_RBLayerGroup
++ _OBJC_IVAR_$_RBAnimationSequencer._seq
++ _OBJC_IVAR_$_RBAnimationSequencerEffects._effects
++ _OBJC_IVAR_$_RBCommitObserverArray._observers
++ _OBJC_IVAR_$_RBDrawable._bg_gpu_priority
++ _OBJC_IVAR_$_RBDrawable._completed_handler
++ _OBJC_IVAR_$_RBDrawable._gpu_priority
++ _OBJC_IVAR_$_RBDrawable._scheduled_handler
++ _OBJC_IVAR_$_RBDrawable._targetColorSpace
++ _OBJC_IVAR_$_RBDrawable._targetHeadroom
++ _OBJC_IVAR_$_RBDrawable._workingColorSpace
++ _OBJC_IVAR_$_RBDrawableItem._targetHeadroom
++ _OBJC_IVAR_$_RBFill._headroom
++ _OBJC_IVAR_$_RBLayer._HDRMode
++ _OBJC_IVAR_$_RBLayer._async_group
++ _OBJC_IVAR_$_RBLayer._content_headroom
++ _OBJC_IVAR_$_RBLayer._displayHeadroomLimit
++ _OBJC_IVAR_$_RBLayer._dpy_headroom
++ _OBJC_IVAR_$_RBLayer._pending_subsurface
++ _OBJC_IVAR_$_RBLayer._tracking_dpy_headroom
++ _OBJC_IVAR_$_RBLayerGroup._id_key
++ _OBJC_IVAR_$_RBLayerGroup._instances
++ _OBJC_IVAR_$_RBLayerGroup._last_id
++ _OBJC_IVAR_$_RBLayerGroup._lock
++ _OBJC_IVAR_$_RBSymbolLayer._fillResolver
++ _OBJC_METACLASS_$_RBAnimationSequencer
++ _OBJC_METACLASS_$_RBAnimationSequencerEffects
++ _OBJC_METACLASS_$_RBCommitObserverArray
++ _OBJC_METACLASS_$_RBLayerGroup
++ _OUTLINED_FUNCTION_14
++ _OUTLINED_FUNCTION_15
++ _OUTLINED_FUNCTION_16
++ _OUTLINED_FUNCTION_17
++ _OUTLINED_FUNCTION_18
++ _RBColorConvert
++ _RBColorConvertArray
++ _RBColorMakeGradient
++ _RBColorModeMake
++ _RBDisplayListInterpolatorAnimationSequencer
++ _RBDrawingStateAddContentHeadroom
++ _RBDrawingStateAddDistanceFilter2
++ _RBDrawingStateAddStyle
++ _RBDrawingStateDrawLayerByReference
++ _RBDrawingStateGetTargetHeadroom
++ _RBDrawingStateSetTargetHeadroom
++ _RBImageGetSupportedIOSurfacePixelFormats
++ _RBImageMakeIOSurface2
++ _RBImageMakeMTLTexture2
++ _RBImageRendererBackgroundGPUPriority
++ _RBImageRendererColorSpace
++ _RBImageRendererDisableIgnoreAlphaBlendModes
++ _RBImageRendererGPUPriority
++ _RBImageRendererTargetHeadroom
++ _RBLayerCopyImageDisableIgnoreAlphaBlendModes
++ _RBPathCachedCGPathCallbacks
++ _RBSymbolAnimationDrawOnOffOptions
++ _RBSymbolUpdateDrawWithFillResolver
++ _RBSymbolUpdateDrawWithFillResolver2
++ _RBSymbolUpdateDrawWithStyleResolver2
++ _RBSymbolUpdateLayerFillRect
++ _RBSymbolUpdateLayerFillTransform
++ _RBSymbolUpdateLayerGetFillType
++ _RBSymbolUpdateLayerGetGradientAxis
++ _RBSymbolUpdateLayerModelFill
++ _RBSystemShaderDisplacementMap
++ _RBSystemShaderDistanceGradient
++ __OBJC_$_CATEGORY_CALayer_$_RBLayerScreen
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_RBLayerScreen
++ __OBJC_$_INSTANCE_METHODS_RBAnimationSequencer
++ __OBJC_$_INSTANCE_METHODS_RBAnimationSequencerEffects
++ __OBJC_$_INSTANCE_METHODS_RBCommitObserverArray
++ __OBJC_$_INSTANCE_METHODS_RBLayerGroup
++ __OBJC_$_INSTANCE_VARIABLES_RBAnimationSequencer
++ __OBJC_$_INSTANCE_VARIABLES_RBAnimationSequencerEffects
++ __OBJC_$_INSTANCE_VARIABLES_RBCommitObserverArray
++ __OBJC_$_INSTANCE_VARIABLES_RBLayerGroup
++ __OBJC_$_PROP_LIST_RBAnimationSequencer
++ __OBJC_$_PROP_LIST_RBAnimationSequencerEffects
++ __OBJC_$_PROP_LIST_RBFill
++ __OBJC_CLASS_RO_$_RBAnimationSequencer
++ __OBJC_CLASS_RO_$_RBAnimationSequencerEffects
++ __OBJC_CLASS_RO_$_RBCommitObserverArray
++ __OBJC_CLASS_RO_$_RBLayerGroup
++ __OBJC_METACLASS_RO_$_RBAnimationSequencer
++ __OBJC_METACLASS_RO_$_RBAnimationSequencerEffects
++ __OBJC_METACLASS_RO_$_RBCommitObserverArray
++ __OBJC_METACLASS_RO_$_RBLayerGroup
++ __Z14rb_shader_typeNSt3__18optionalIN2RB12CustomShader4TypeEEE
++ __Z18rb_color_component16RBColorComponent
++ __Z19RBDeviceSwapCurrentP8RBDevice
++ __Z21RBGetCachedMTLTextureRKN2RB12RenderParamsEPU21objcproto10MTLTexture11objc_objectNSt3__18optionalINS_10ColorSpaceEEERKNS_4Fill9ImageDataEPKNS_15AffineTransformEj
++ __Z22RBMakeCachedMTLTextureRKN2RB12RenderParamsEPU21objcproto10MTLTexture11objc_objectNSt3__18optionalINS_10ColorSpaceEEERKNS_4Fill9ImageDataEPKNS_15AffineTransformEj
++ __Z26RBTransactionPhaseLessThan18CATransactionPhaseS_
++ __ZGVZ32+[RBShaderLibrary systemLibrary]E14system_library
++ __ZGVZ38-[RBLayer displayWithBounds:callback:]E19disable_subsurfaces
++ __ZGVZN2RB10RenderTask13schedule_manyENSt3__14spanIPS0_Lm18446744073709551615EEEDv2_iPvE11print_tasks
++ __ZGVZN2RB11DisplayList11RenderStateD1EvE10print_tree
++ __ZGVZN2RB12CommitMarker8Observer13record_commitEvE12commit_delay
++ __ZGVZN2RB12_GLOBAL__N_116surface_pool_logEvE3log
++ __ZGVZN2RB12_GLOBAL__N_119ColorSpaceDataCache6sharedEvE5cache
++ __ZGVZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE18disable_relocation
++ __ZGVZN2RB18shared_surface_logEvE3log
++ __ZGVZN2RB23iosurface_pixel_formatsEvE7formats
++ __ZGVZN2RB6Filter16NarrowBlurKernel13max_kernel_15EvE6kernel
++ __ZGVZN2RB6Filter16NarrowBlurKernel13max_kernel_23EvE6kernel
++ __ZGVZN2RB6Filter16NarrowBlurKernel13max_kernel_31EvE6kernel
++ __ZGVZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsERKS4_PS5_jfPKNS0_4ItemEPKDv4_fE12allow_inline
++ __ZL14current_device
++ __ZL14current_device$tlv$init
++ __ZL24add_alpha_multiply_styleP15_RBDrawingStatePK26RBDisplayListColorMultiply
++ __ZL24add_color_multiply_styleP15_RBDrawingStatePK26RBDisplayListColorMultiply
++ __ZL35layer_path_subtracting_eraser_pathsRN2RB6Symbol12PresentationERKNS1_6SymbolEjP17CGAffineTransform
++ __ZL35layer_path_subtracting_eraser_pathsRN2RB6Symbol12PresentationERKNS1_6SymbolEjP17CGAffineTransform.cold.1
++ __ZL35layer_path_subtracting_eraser_pathsRN2RB6Symbol12PresentationERKNS1_6SymbolEjP17CGAffineTransform.cold.2
++ __ZL9add_styleP15_RBDrawingStatePK19RBDisplayListShadow
++ __ZL9add_styleP15_RBDrawingStatePK24RBDisplayListGradientMap
++ __ZL9add_styleP15_RBDrawingStatePK27RBDisplayListColorThreshold
++ __ZL9add_styleP15_RBDrawingStatePK27RBDisplayListLuminanceCurve
++ __ZL9add_styleP15_RBDrawingStatePK28RBDisplayListColorMonochrome
++ __ZN10RBFillData5applyIN2RB10DestroyAnyEEEvRKT_.cold.2
++ __ZN12_GLOBAL__N_111layer_layerE19RBSymbolUpdateLayer
++ __ZN12_GLOBAL__N_111phase_orderE18CATransactionPhase
++ __ZN12_GLOBAL__N_116CachedCGPathInfoD0Ev
++ __ZN12_GLOBAL__N_116CachedCGPathInfoD1Ev
++ __ZN12_GLOBAL__N_119rblayer_async_queueEv
++ __ZN12_GLOBAL__N_119rblayer_async_queueEv.cold.1
++ __ZN12_GLOBAL__N_121cgpath_apply_elementsEPK6CGPathPvPFbS3_13RBPathElementPKdPKvE
++ __ZN2RB10ColorSpace10ConversionC1ES0_fS0_f
++ __ZN2RB10ColorSpace10ConversionC2ES0_fS0_f
++ __ZN2RB10ColorSpace6MatrixC1ENS0_9PrimariesES2_
++ __ZN2RB10ColorSpace6MatrixC2ENS0_9PrimariesES2_
++ __ZN2RB10ColorSpace7ToneMapC2Eff
++ __ZN2RB10RenderTask13move_childrenEPS0_
++ __ZN2RB10RenderTask13schedule_manyENSt3__14spanIPS0_Lm18446744073709551615EEEDv2_iPv
++ __ZN2RB10RenderTask13schedule_manyENSt3__14spanIPS0_Lm18446744073709551615EEEDv2_iPv.cold.1
++ __ZN2RB10RenderTask9add_childEPNS0_9ChildNodeEb
++ __ZN2RB10RenderTask9last_markE
++ __ZN2RB10TransitionC1ERKS0_
++ __ZN2RB10apply_r709IfLi3EEEDvT0__T_S2_
++ __ZN2RB10unapply_pqIfLi3EEEDvT0__T_S2_
++ __ZN2RB11DisplayList11EditAdaptor12mix_elementsERNS0_12Interpolator5LayerEjRKNS1_7ElementES7_jj
++ __ZN2RB11DisplayList11EditAdaptor14finalize_groupERNS0_12Interpolator5LayerENS_10Transition6MethodEjjPNS1_7ElementEjS8_jjj
++ __ZN2RB11DisplayList11EditAdaptorD2Ev
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter10RGBACurvesEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter11ColorMatrixEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter12GaussianBlurEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter6CustomEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11FilterStyleINS_6Filter8DistanceEE15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList11RenderState10copy_layerEPKNS0_5LayerEPKNS_15AffineTransformE
++ __ZN2RB11DisplayList11RenderState11RootTexture12make_textureEv
++ __ZN2RB11DisplayList11RenderState11RootTexture6renderEPvj
++ __ZN2RB11DisplayList11RenderState11RootTexture6renderEPvj.cold.1
++ __ZN2RB11DisplayList11RenderState11RootTexture6renderEPvj.cold.2
++ __ZN2RB11DisplayList11RenderState11RootTexture8finalizeEv
++ __ZN2RB11DisplayList11RenderState11RootTextureC2ERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_10RenderPass12InitialStateE
++ __ZN2RB11DisplayList11RenderState11RootTextureD0Ev
++ __ZN2RB11DisplayList11RenderState11RootTextureD1Ev
++ __ZN2RB11DisplayList11RenderState11add_textureERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENSt3__14spanIKNS0_10RenderableELm18446744073709551615EEE
++ __ZN2RB11DisplayList11RenderState11add_textureERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENSt3__14spanIKNS0_10RenderableELm18446744073709551615EEE.cold.1
++ __ZN2RB11DisplayList11RenderState11add_textureERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENSt3__14spanIKNS0_10RenderableELm18446744073709551615EEE.cold.2
++ __ZN2RB11DisplayList11RenderState11add_textureERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENSt3__14spanIKNS0_10RenderableELm18446744073709551615EEE.cold.3
++ __ZN2RB11DisplayList11RenderState12DetachedInfo3addEPKNS0_17DetachedLayerItemENS_6BoundsES6_PNS0_9LayerTaskE
++ __ZN2RB11DisplayList11RenderState13PackedTexture6renderEPvj
++ __ZN2RB11DisplayList11RenderState13PackedTexture8finalizeEv
++ __ZN2RB11DisplayList11RenderState13PackedTextureD0Ev
++ __ZN2RB11DisplayList11RenderState13PackedTextureD1Ev
++ __ZN2RB11DisplayList11RenderState19make_detached_tasksEi
++ __ZN2RB11DisplayList11RenderState19make_detached_tasksEi.cold.1
++ __ZN2RB11DisplayList11RenderState19make_detached_tasksEi.cold.2
++ __ZN2RB11DisplayList11RenderStateD1Ev
++ __ZN2RB11DisplayList11RenderStateD2Ev
++ __ZN2RB11DisplayList11render_manyERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENSt3__14spanIKNS0_10RenderableELm18446744073709551615EEE
++ __ZN2RB11DisplayList12Interpolator5LayerD2Ev
++ __ZN2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEED0Ev
++ __ZN2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEED1Ev
++ __ZN2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEED0Ev
++ __ZN2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEED1Ev
++ __ZN2RB11DisplayList14PredicateStyleC2ERKNS0_9PredicateEb
++ __ZN2RB11DisplayList15CachedTransformD2Ev
++ __ZN2RB11DisplayList17DetachedLayerItem15apply_transformERKNS0_15CachedTransformEb
++ __ZN2RB11DisplayList17DetachedLayerItem15apply_transformERKNS0_9TransformERNS0_8ContentsE
++ __ZN2RB11DisplayList17DetachedLayerItem6decodeERNS_7DecoderE
++ __ZN2RB11DisplayList17DetachedLayerItemC1EfNS_9BlendModeEPKNS0_5LayerEPKNS0_8ContentsEPKNS_15AffineTransformEj
++ __ZN2RB11DisplayList17DetachedLayerItemC2EfNS_9BlendModeEPKNS0_5LayerEPKNS0_8ContentsEPKNS_15AffineTransformEj
++ __ZN2RB11DisplayList17DetachedLayerItemD0Ev
++ __ZN2RB11DisplayList17DetachedLayerItemD0Ev.cold.1
++ __ZN2RB11DisplayList17DetachedLayerItemD1Ev
++ __ZN2RB11DisplayList17DetachedLayerItemD1Ev.cold.1
++ __ZN2RB11DisplayList19GlassHighlightStyleD0Ev
++ __ZN2RB11DisplayList19GlassHighlightStyleD1Ev
++ __ZN2RB11DisplayList19affine_style_boundsEPKNS_8ListNodeIKNS0_5StyleEEEPS3_PKNS0_4ItemEjRKNS_15AffineTransformE
++ __ZN2RB11DisplayList22GlassDisplacementStyleD0Ev
++ __ZN2RB11DisplayList22GlassDisplacementStyleD1Ev
++ __ZN2RB11DisplayList23projection_style_boundsEPKNS_8ListNodeIKNS0_5StyleEEEPS3_PKNS0_4ItemEjRKNS_16ProjectionMatrixE
++ __ZN2RB11DisplayList4Item6decodeERNS_7DecoderE.cold.1
++ __ZN2RB11DisplayList5Layer13discard_colorENS1_6EffectE
++ __ZN2RB11DisplayList5Layer6Effect15apply_transformERKNS0_15CachedTransformE
++ __ZN2RB11DisplayList5Layer6Effect6decodeERNS_7DecoderE
++ __ZN2RB11DisplayList5Layer6decodeERNS_7DecoderEPNS1_6EffectE
++ __ZN2RB11DisplayList5LayerD0Ev
++ __ZN2RB11DisplayList5State15add_color_styleINS_10ColorStyle13AlphaMultiplyEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State15add_color_styleINS_10ColorStyle13ColorMultiplyEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State15add_color_styleINS_10ColorStyle15ColorMonochromeEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State15add_color_styleINS_10ColorStyle16LuminanceToAlphaEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State16add_filter_styleINS_6Filter10RGBACurvesEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State16add_filter_styleINS_6Filter14LuminanceCurveEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State16add_filter_styleINS_6Filter6CustomEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State16add_filter_styleINS_6Filter8DistanceEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State16add_gradient_mapERNS0_7BuilderEhDv2_fmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEfPKdj
++ __ZN2RB11DisplayList5State18add_geometry_styleINS_13GeometryStyle11TranslationEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State18add_geometry_styleINS_13GeometryStyle5ScaleEEEvRNS0_7BuilderEOT_
++ __ZN2RB11DisplayList5State19add_color_thresholdERNS0_7BuilderEhDv2_fNS_4Fill5ColorE
++ __ZN2RB11DisplayList5State19add_glass_highlightERNS0_7BuilderEhNS_16DistanceGradientERKNS_4Fill5ColorEDv2_fffffff
++ __ZN2RB11DisplayList5State22add_glass_displacementERNS0_7BuilderEhNS_16DistanceGradientEDv2_ffffff
++ __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsEfNS_10RenderPass12InitialStateEDv4_fPv
++ __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsEfNS_10RenderPass12InitialStateEDv4_fPv.cold.1
++ __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsEfNS_10RenderPass12InitialStateEDv4_fPv.cold.2
++ __ZN2RB11DisplayList7Builder12ensure_layerEPNS0_4ItemEjf
++ __ZN2RB11DisplayList7Builder13current_layerERKNS0_5StateE
++ __ZN2RB11DisplayList7Builder13current_layerERKNS0_5StateE.cold.1
++ __ZN2RB11DisplayList7Builder14push_item_clipEPNS0_4ItemES3_fNS_8ClipModeE
++ __ZN2RB11DisplayList7Builder14reset_contentsEb
++ __ZN2RB11DisplayList7Builder14reset_contentsEb.cold.1
++ __ZN2RB11DisplayList7Builder15make_layer_itemEPNS0_5LayerEfNS_9BlendModeERKNS_15AffineTransformE
++ __ZN2RB11DisplayList7Builder16merge_layer_itemERNS0_5LayerENS2_6EffectEj
++ __ZN2RB11DisplayList7Builder17draw_by_referenceERKNS0_8ContentsERNS0_5StateEfNS_9BlendModeEj
++ __ZN2RB11DisplayList7Builder19simplify_clip_layerEPNS0_5LayerENS2_6EffectENS_8ClipModeE
++ __ZN2RB11DisplayList7Builder20add_content_headroomERNS0_5StateEf
++ __ZN2RB11DisplayList7Builder20add_content_headroomERNS0_5StateEf.cold.1
++ __ZN2RB11DisplayList9LayerClipC1EPNS0_5LayerENS2_6EffectEfNS_8ClipModeE
++ __ZN2RB11DisplayList9LayerClipC2EPNS0_5LayerENS2_6EffectEfNS_8ClipModeE
++ __ZN2RB11DisplayList9LayerTask11append_taskERNS0_11RenderStateEPS1_RPPNS_8ListNodeIKNS0_4ItemEEERi
++ __ZN2RB11DisplayList9LayerTask8add_taskERNS0_11RenderStateEmmONS_14refcounted_ptrIS1_EE
++ __ZN2RB11DisplayList9Predicate4TermC1ERKS2_
++ __ZN2RB11RenderFrame12copy_textureEPNS_7TextureENSt3__18optionalINS_10ColorSpaceEEEjS2_
++ __ZN2RB11RenderFrame12copy_textureEPNS_7TextureENSt3__18optionalINS_10ColorSpaceEEEjS2_.cold.1
++ __ZN2RB11RenderFrame21add_completed_handlerEU13block_pointerFvvE
++ __ZN2RB11RenderFrame21add_scheduled_handlerEU13block_pointerFvvE
++ __ZN2RB11RenderFrameD2Ev.cold.10
++ __ZN2RB11RenderFrameD2Ev.cold.11
++ __ZN2RB11RenderFrameD2Ev.cold.12
++ __ZN2RB11RenderFrameD2Ev.cold.9
++ __ZN2RB11RenderState26disable_ignore_alpha_blendEv
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue.cold.1
++ __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEfjS3_P13_CAImageQueue.cold.2
++ __ZN2RB11XMLRecorder12export_flagsE
++ __ZN2RB11cubic_indexIfEET_Dv2_S1_S2_S2_S2_S1_S1_
++ __ZN2RB11debug_flagsEPKcNSt3__14spanIKNS_10ConfigFlagELm18446744073709551615EEE
++ __ZN2RB11unapply_hlgIfEEDv3_T_S2_
++ __ZN2RB12CommitMarker8Observer13record_commitEv
++ __ZN2RB12CommitMarker8Observer13set_displayedEv
++ __ZN2RB12CommitMarker8Observer14test_displayedEb
++ __ZN2RB12CommitMarker8Observer3getEP9CAContext
++ __ZN2RB12CommitMarker8Observer9commit_idEv
++ __ZN2RB12CommitMarker8Observer9displayedEv
++ __ZN2RB12CommitMarker8ObserverC2EP9CAContext
++ __ZN2RB12CommitMarker8ObserverC2EP9CAContext.cold.1
++ __ZN2RB12CommitMarker8ObserverC2EP9CAContext.cold.2
++ __ZN2RB12CommitMarker8ObserverC2EP9CAContext.cold.3
++ __ZN2RB12CommitMarker8ObserverD0Ev
++ __ZN2RB12CommitMarker8ObserverD1Ev
++ __ZN2RB12CustomShader7ClosureC1ERKS1_
++ __ZN2RB12CustomShader7ClosureC1ERKS1_.cold.1
++ __ZN2RB12CustomShader7ClosureD2Ev
++ __ZN2RB12CustomShader7ClosureD2Ev.cold.1
++ __ZN2RB12CustomShader7Library15set_abi_versionEi
++ __ZN2RB12CustomShader7Library22set_binary_archive_urlEP5NSURL
++ __ZN2RB12CustomShader8FunctionC2ERNS0_7LibraryEP8NSStringj
++ __ZN2RB12JSONPipelineD2Ev
++ __ZN2RB12RenderParamsC1ERNS_11RenderFrameE14MTLPixelFormatDv2_iNS_10ColorSpaceES5_NS_14ColorComponentEb
++ __ZN2RB12RenderParamsC1ERNS_11RenderFrameERKNS_7SurfaceE
++ __ZN2RB12TextureCache14take_availableE14MTLPixelFormatDv2_ijNSt3__18optionalINS_10ColorSpaceEEENS_7Texture5UsageENS_12PixelSwizzleEb
++ __ZN2RB12TextureCache19invalidate_contentsEv
++ __ZN2RB12UntypedTable9remove_ifEPFbPKvS2_S2_ES2_
++ __ZN2RB12UntypedTableC2EPFmPKvEPFbS2_S2_EPFvPvES9_
++ __ZN2RB12_GLOBAL__N_111parse_flagsEPKcNSt3__14spanIKNS_10ConfigFlagELm18446744073709551615EEE
++ __ZN2RB12_GLOBAL__N_114narrow_blur_15E
++ __ZN2RB12_GLOBAL__N_116surface_pool_logEv
++ __ZN2RB12unapply_r709IfLi3EEEDvT0__T_S2_
++ __ZN2RB12vImageBuffer12apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_5EEvRKT_
++ __ZN2RB12vImageBuffer12apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_6EEvRKT_
++ __ZN2RB12vImageBufferC1EP9CGContext
++ __ZN2RB12vImageBufferC1ERKS0_
++ __ZN2RB12vImageBufferC1Emmj
++ __ZN2RB12vImageBufferC2EP9CGContext
++ __ZN2RB12vImageBufferC2ERKS0_
++ __ZN2RB12vImageBufferC2Emmj
++ __ZN2RB12vImageBufferD1Ev
++ __ZN2RB12vImageBufferD2Ev
++ __ZN2RB12vImageBufferaSEOS0_
++ __ZN2RB12vImageBufferaSERKS0_
++ __ZN2RB12verbose_modeEj
++ __ZN2RB12verbose_modeEj.cold.1
++ __ZN2RB13ImageProvider13render_deviceEv.cold.4
++ __ZN2RB13ImageProvider13render_deviceEv.cold.5
++ __ZN2RB13ImageProviderC1EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_j
++ __ZN2RB13ImageProviderC2EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectfDv2_i14MTLPixelFormatNS_10ColorSpaceEfS7_NS_10RenderPass12InitialStateE7RBColorNSt3__18optionalIhEESD_j
++ __ZN2RB13SharedSurface11AsyncUpdateD2Ev
++ __ZN2RB13SharedSurface11AsyncUpdateD2Ev.cold.1
++ __ZN2RB13SharedSurface6RemoveD1Ev.cold.2
++ __ZN2RB13SharedSurfaceD2Ev.cold.5
++ __ZN2RB13running_in_vmEv
++ __ZN2RB13running_in_vmEv.cold.1
++ __ZN2RB14refcounted_ptrINS_8ResourceEEaSEPS1_
++ __ZN2RB15ContextDelegate11draw_image_EP17CGContextDelegateP16CGRenderingStateP8CGGState6CGRectP7CGImagePKS7_b
++ __ZN2RB15ContextDelegate32draw_image_applying_tone_mappingEP17CGContextDelegateP16CGRenderingStateP8CGGState6CGRectP7CGImage13CGToneMappingPK14__CFDictionary
++ __ZN2RB16JSONPipelineDataD2Ev
++ __ZN2RB16SharedSubsurface11mark_commitEv
++ __ZN2RB16SharedSubsurface11mark_commitEv.cold.1
++ __ZN2RB16SharedSubsurface6attachEP9CAContext
++ __ZN2RB16SharedSubsurfaceD2Ev.cold.1
++ __ZN2RB16SharedSubsurfaceD2Ev.cold.2
++ __ZN2RB17RenderTaskTexture12render_tasksERNS_10RenderPassEPvj
++ __ZN2RB17RenderTaskTexture19render_dependenciesEPvj
++ __ZN2RB17RenderTaskTextureD2Ev
++ __ZN2RB17may_discard_shapeENS_9BlendModeENS_13RenderingModeE
++ __ZN2RB18AnimationSequencer6decodeERNS_7DecoderE
++ __ZN2RB18AnimationSequencer7Effects6decodeERNS_7DecoderE
++ __ZN2RB18SharedSurfaceGroup13SurfaceUpdateD2Ev
++ __ZN2RB18SharedSurfaceGroup13SurfaceUpdateD2Ev.cold.1
++ __ZN2RB18SharedSurfaceGroup13SurfaceUpdateD2Ev.cold.2
++ __ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEfjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE
++ __ZN2RB18SharedSurfaceGroup14commit_removedERNS_6vectorINSt3__14pairIPNS_13SharedSurfaceENS1_INS4_6RemoveELm0EjEEEELm0EjEE.cold.2
++ __ZN2RB18SharedSurfaceGroup16allocate_updatesEv
++ __ZN2RB18SharedSurfaceGroup16allocate_updatesEv.cold.1
++ __ZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbj
++ __ZN2RB18SharedSurfaceGroup19prune_caches_lockedEj.cold.1
++ __ZN2RB18SharedSurfaceGroup20wait_for_allocationsERNS_19SharedSurfaceClientE.cold.2
++ __ZN2RB18SharedSurfaceGroup20wait_for_allocationsERNS_19SharedSurfaceClientE.cold.3
++ __ZN2RB18SharedSurfaceGroup20wait_for_allocationsERNS_19SharedSurfaceClientE.cold.4
++ __ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE
++ __ZN2RB18SharedSurfaceGroup22collect_removed_lockedEv.cold.2
++ __ZN2RB18SharedSurfaceGroup5flushEv
++ __ZN2RB18SharedSurfaceGroupD2Ev
++ __ZN2RB18SharedSurfaceGroupD2Ev.cold.1
++ __ZN2RB18SharedSurfaceGroupD2Ev.cold.2
++ __ZN2RB18SharedSurfaceGroupD2Ev.cold.3
++ __ZN2RB18ignore_alpha_blendENS_9BlendModeE
++ __ZN2RB18prefix_suffix_diffINS_11DisplayList11EditAdaptor7ElementEZNS2_14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPS3_jS9_jjjE3$_0ZNS2_14finalize_groupES6_S8_jjS9_jS9_jjjE3$_2EEvmPT_mSD_RKT0_RKT1_bb
++ __ZN2RB18shared_surface_logEv
++ __ZN2RB20GlassHighlightEffect15apply_transformERNS_11DisplayList8ContentsERKNS1_9TransformE
++ __ZN2RB20GlassHighlightEffect3mixERKS0_f
++ __ZN2RB20GlassHighlightEffect6decodeERNS_7DecoderE
++ __ZN2RB20headroom_color_depthEf
++ __ZN2RB22color_space_from_cg_idEi
++ __ZN2RB22linear_gray_colorspaceEv
++ __ZN2RB22linear_gray_colorspaceEv.cold.1
++ __ZN2RB23GlassDisplacementEffect3mixERKS0_f
++ __ZN2RB23GlassDisplacementEffect6decodeERNS_7DecoderE
++ __ZN2RB23iosurface_pixel_formatsEv
++ __ZN2RB24extended_gray_colorspaceEv
++ __ZN2RB24extended_gray_colorspaceEv.cold.1
++ __ZN2RB26depth_stencil_pixel_formatENS_18DepthStencilFormatE
++ __ZN2RB30depth_stencil_format_has_depthENS_18DepthStencilFormatE
++ __ZN2RB31extended_linear_gray_colorspaceEv
++ __ZN2RB31extended_linear_gray_colorspaceEv.cold.1
++ __ZN2RB31pixel_format_required_componentE14MTLPixelFormat
++ __ZN2RB32depth_stencil_format_has_stencilENS_18DepthStencilFormatE
++ __ZN2RB3XML11DisplayList12_GLOBAL__N_119set_component_rangeERNS0_7ElementE16RBPixelComponentff
++ __ZN2RB3XML11DisplayList16add_gradient_mapERNS0_8DocumentEP15_RBDrawingStateRK24RBDisplayListGradientMap
++ __ZN2RB3XML11DisplayList16add_shadow_styleERNS0_8DocumentEP15_RBDrawingStateRK19RBDisplayListShadow
++ __ZN2RB3XML11DisplayList17draw_by_referenceERNS0_8DocumentEP15_RBDrawingStateRKS2_f11RBBlendModej
++ __ZN2RB3XML11DisplayList19add_color_thresholdERNS0_8DocumentEP15_RBDrawingStateRK27RBDisplayListColorThreshold
++ __ZN2RB3XML11DisplayList19add_distance_filterERNS0_8DocumentEP15_RBDrawingStatedddj
++ __ZN2RB3XML11DisplayList19add_glass_highlightERNS0_8DocumentEP15_RBDrawingStateRK27RBDisplayListGlassHighlight
++ __ZN2RB3XML11DisplayList19set_target_headroomERNS0_8DocumentEP15_RBDrawingStatef
++ __ZN2RB3XML11DisplayList20add_content_headroomERNS0_8DocumentEP15_RBDrawingStatef
++ __ZN2RB3XML11DisplayList22add_glass_displacementERNS0_8DocumentEP15_RBDrawingStateRK30RBDisplayListGlassDisplacement
++ __ZN2RB3XML11DisplayList25add_alpha_multiply_filterERNS0_8DocumentEP15_RBDrawingStateRK26RBDisplayListColorMultiply
++ __ZN2RB3XML11DisplayList25add_color_multiply_filterERNS0_8DocumentEP15_RBDrawingStateRK26RBDisplayListColorMultiply
++ __ZN2RB3XML11DisplayList26add_luminance_curve_filterERNS0_8DocumentEP15_RBDrawingStateRK27RBDisplayListLuminanceCurve
++ __ZN2RB3XML11DisplayList27add_color_monochrome_filterERNS0_8DocumentEP15_RBDrawingStateRK28RBDisplayListColorMonochrome
++ __ZN2RB3XML5Value10GlyphArrayD2Ev
++ __ZN2RB3XML5Value13DisplayListIDD0Ev
++ __ZN2RB3XML5Value13DisplayListIDD1Ev
++ __ZN2RB3XML7Element3setINS0_5Value13DisplayListIDEEEvPKcOT_
++ __ZN2RB3XML8Document14next_unique_idE
++ __ZN2RB3XML8Document6importERKS1_
++ __ZN2RB3XML8DocumentD2Ev
++ __ZN2RB3mixENS_4RectES0_f
++ __ZN2RB4Fill12MeshGradient15ColorConversionC2EfbNS_10ColorSpaceEfS3_fj
++ __ZN2RB4Fill17set_image_globalsERNS_10RenderPassEPKvmmRKNS_11RenderStateE
++ __ZN2RB4Fill5Color18apply_color_matrixERKNS_11ColorMatrixEb
++ __ZN2RB4Fill5Color7convertENS_10ColorSpaceEf
++ __ZN2RB4Fill8GradientC1ERNS_4HeapENS1_4TypeEmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEfPKdDv2_fSE_ffj
++ __ZN2RB4Fill8GradientC2ERNS_4HeapENS1_4TypeEmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEfPKdDv2_fSE_ffj
++ __ZN2RB4Heap7emplaceINS_10RenderTask9ChildNodeEJNS_14refcounted_ptrINS_11DisplayList9LayerTaskEEEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_10RenderTask9ChildNodeEJRNS_14refcounted_ptrINS_11DisplayList9LayerTaskEEEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList11RenderState13PackedTextureEJRK14MTLPixelFormatRKNS_10ColorSpaceERDv2_iEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_20GlassHighlightEffectEEEJRKS5_RNS2_8ContentsEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_23GlassDisplacementEffectEEEJRKS5_RNS2_8ContentsEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList17DetachedLayerItemEJRDF16_RKNS_9BlendModeERPKNS2_5LayerERPKNS2_8ContentsERPKNS_15AffineTransformERKjEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList17DetachedLayerItemEJRKDF16_RKNS_9BlendModeERKPKNS2_5LayerEPKNS2_8ContentsERKPKNS_15AffineTransformERKjEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList17DetachedLayerItemEJiNS_9BlendModeEDnDnPKNS_15AffineTransformEiEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJDnNS2_5Layer6EffectEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList9LayerTaskEJRKNS2_5LayerER14MTLPixelFormatRNS_10ColorSpaceERfRNS_6BoundsERKSC_jEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList9SpillItemEJbRjRKDF16_RKNS_9BlendModeERNS_6BoundsERPNS2_11LayerFilterEEEEPT_DpOT0_
++ __ZN2RB4Heap7emplaceINS_11DisplayList9SpillItemEJbRjiNS_9BlendModeERNS_6BoundsEDnEEEPT_DpOT0_
++ __ZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEERKNS0_7SubpathERNS_6vectorINS1_14SingleKeyframeELm0EmEERNS2_17KeyframesMetadataE
++ __ZN2RB4Path10ClipStroke15LengthEstimator7subpathERNS0_7SubpathENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke15LengthEstimatorC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke15LengthEstimatorD2Ev
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer6cubetoEDv2_dS3_S3_
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer6linetoEDv2_d
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer6movetoEDv2_d
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer6quadtoEDv2_dS3_
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer7endpathEv
++ __ZN2RB4Path10ClipStroke16KeyframeConsumer9closepathEv
++ __ZN2RB4Path10ClipStroke18AttachmentResolver7subpathERNS0_7SubpathENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke18AttachmentResolverC1ENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEmfN2CG5PointE
++ __ZN2RB4Path10ClipStroke9Transform14make_keyframesENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEERKNS0_7SubpathERNS_6vectorINS1_14SingleKeyframeELm0EmEERDv2_fRd
++ __ZN2RB4Path10ClipStroke9Transform6cubetoEDv2_dS3_S3_
++ __ZN2RB4Path10ClipStroke9Transform6linetoEDv2_d
++ __ZN2RB4Path10ClipStroke9Transform6movetoEDv2_d
++ __ZN2RB4Path10ClipStroke9Transform6quadtoEDv2_dS3_
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12clip_segmentIN2CG11LineSegmentEEEvT_df
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12clip_segmentIN2CG5CubicEEEvT_df
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12clip_segmentIN2CG9QuadraticEEEvT_df
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12emit_segmentIN2CG11LineSegmentEEEvRKT_
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12emit_segmentIN2CG5CubicEEEvRKT_
++ __ZN2RB4Path10ClipStroke9Transform7Clipper12emit_segmentIN2CG9QuadraticEEEvRKT_
++ __ZN2RB4Path10ClipStroke9Transform7Clipper13split_segmentIN2CG11LineSegmentEEEvT_d
++ __ZN2RB4Path10ClipStroke9Transform7Clipper13split_segmentIN2CG5CubicEEEvT_d
++ __ZN2RB4Path10ClipStroke9Transform7Clipper13split_segmentIN2CG9QuadraticEEEvT_d
++ __ZN2RB4Path10ClipStroke9Transform7Clipper17advance_keyframesEd
++ __ZN2RB4Path10ClipStroke9Transform7Clipper3runEv
++ __ZN2RB4Path10ClipStroke9Transform7Clipper8emit_capERKN2CG5PointERKNS4_6VectorEdb
++ __ZN2RB4Path10ClipStroke9Transform7ClipperC2ERKS2_RKNS0_7SubpathEPS7_S9_NSt3__14spanINS1_14SingleKeyframeELm18446744073709551615EEEDv2_fd
++ __ZN2RB4Path10ClipStroke9Transform7subpathERNS0_7SubpathENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10ClipStroke9Transform9closepathEv
++ __ZN2RB4Path10ClipStroke9TransformC1ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
++ __ZN2RB4Path10ClipStroke9TransformC2ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEENS7_IKNS1_16SubpathTransformELm18446744073709551615EEEPNS_6vectorINS1_11RecordedCapELm0EmEE
++ __ZN2RB4Path10JoinStroke6cubetoEDv2_dS2_S2_
++ __ZN2RB4Path10JoinStroke6linetoEDv2_d
++ __ZN2RB4Path10JoinStroke6movetoEDv2_d
++ __ZN2RB4Path10JoinStroke6quadtoEDv2_dS2_
++ __ZN2RB4Path10JoinStroke7endpathEv
++ __ZN2RB4Path10JoinStroke9closepathEv
++ __ZN2RB4Path10JoinStrokeC1EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10JoinStrokeC2EPNS0_8ConsumerEjNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path10JoinStrokeD2Ev
++ __ZN2RB4Path11AccumulatorD2Ev
++ __ZN2RB4Path12NullConsumer6cubetoEDv2_dS2_S2_
++ __ZN2RB4Path12NullConsumer6linetoEDv2_d
++ __ZN2RB4Path12NullConsumer6movetoEDv2_d
++ __ZN2RB4Path12NullConsumer6quadtoEDv2_dS2_
++ __ZN2RB4Path12NullConsumer7endpathEv
++ __ZN2RB4Path12NullConsumer9closepathEv
++ __ZN2RB4Path17JoinAndClipStroke6cubetoEDv2_dS2_S2_
++ __ZN2RB4Path17JoinAndClipStroke6linetoEDv2_d
++ __ZN2RB4Path17JoinAndClipStroke6movetoEDv2_d
++ __ZN2RB4Path17JoinAndClipStroke6quadtoEDv2_dS2_
++ __ZN2RB4Path17JoinAndClipStroke7endpathEv
++ __ZN2RB4Path17JoinAndClipStroke9closepathEv
++ __ZN2RB4Path17JoinAndClipStrokeC1ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path17JoinAndClipStrokeC2ERNS0_8ConsumerEjffNS_7LineCapENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEE
++ __ZN2RB4Path6Mapper16push_clip_strokeEddPK25RBPathClipStrokeTransform
++ __ZN2RB4Path6Mapper9StackItemD2Ev.cold.1
++ __ZN2RB4Path7Subpath10add_cubetoEDv2_dS2_S2_d
++ __ZN2RB4Path7Subpath10add_linetoEDv2_dd
++ __ZN2RB4Path7Subpath10add_quadtoEDv2_dS2_d
++ __ZN2RB4Path7Subpath11DistanceMap13ensure_sortedEv
++ __ZN2RB4Path7Subpath11DistanceMap5frontEv
++ __ZN2RB4Path7Subpath11DistanceMap6appendEddd
++ __ZN2RB4Path7Subpath11DistanceMapclEd
++ __ZN2RB4Path7Subpath12append_rangeERKS1_ddPNS1_11DistanceMapE
++ __ZN2RB4Path7Subpath20append_logical_rangeERKS1_ddPNS1_11DistanceMapE
++ __ZN2RB4Path7Subpath3addERKN2CG11LineSegmentEd
++ __ZN2RB4Path7Subpath3addERKN2CG5CubicEd
++ __ZN2RB4Path7Subpath3addERKN2CG9QuadraticEd
++ __ZN2RB4Path7Subpath3addIN2CG11LineSegmentEEEvRKT_ddddPNS1_11DistanceMapE
++ __ZN2RB4Path7Subpath3addIN2CG5CubicEEEvRKT_ddddPNS1_11DistanceMapE
++ __ZN2RB4Path7Subpath3addIN2CG9QuadraticEEEvRKT_ddddPNS1_11DistanceMapE
++ __ZN2RB4Path7Subpath5closeEv
++ __ZN2RB4Path7Subpath5resetEN2CG5PointE
++ __ZN2RB4Path7Subpath9add_captoEDv2_dS2_
++ __ZN2RB4Rect20representable_cgrectERK6CGRect
++ __ZN2RB6Config11flags_valueEPKvNSt3__14spanIKNS_10ConfigFlagELm18446744073709551615EEE
++ __ZN2RB6Device17add_texture_cacheEPNS_12TextureCacheE
++ __ZN2RB6Device19RenderPipelineEntry6Loader14load_custom_fnEv
++ __ZN2RB6Device19RenderPipelineEntry6Loader9custom_fnEPU22objcproto11MTLFunction11objc_objectP7NSError
++ __ZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageEb
++ __ZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageEb.cold.1
++ __ZN2RB6Device22add_frame_continuationEjNS0_16ContinuationTypeEU13block_pointerFvvE
++ __ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError
++ __ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError.cold.1
++ __ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError.cold.2
++ __ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError.cold.3
++ __ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError.cold.4
++ __ZN2RB6Device25invalidate_texture_cachesERKNS_15TextureCacheKeyE
++ __ZN2RB6Device26will_submit_command_bufferEPU27objcproto16MTLCommandBuffer11objc_objectNSt3__18optionalIhEES5_
++ __ZN2RB6Device27dispatch_frame_continuationEjPU27objcproto16MTLCommandBuffer11objc_objectNS0_16ContinuationTypeE
++ __ZN2RB6Filter11RenderGroup22add_multipass_rendererERNS_11DisplayList11RenderStateERNS_10RenderPassEPNS0_17MultipassRendererEDv2_iS9_14MTLPixelFormatNS_10ColorSpaceEh
++ __ZN2RB6Filter11RenderGroup22resolve_unary_subgroupERNS_10RenderPassEPNS1_13MultipassInfoEPv
++ __ZN2RB6Filter11RenderGroup23resolve_binary_subgroupERNS_10RenderPassEPNS1_13MultipassInfoEPv
++ __ZN2RB6Filter11RenderGroup7resolveERNS_10RenderPassEPv
++ __ZN2RB6Filter11RenderGroupD2Ev
++ __ZN2RB6Filter12GaussianBlur21apply_style_transformERKNS_11DisplayList15CachedTransformE
++ __ZN2RB6Filter12_GLOBAL__N_112BlurRenderer6renderERNS_11DisplayList11RenderStateERNS_10RenderPassEiDv2_iPNS_7TextureES8_
++ __ZN2RB6Filter12_GLOBAL__N_116DistanceRenderer6renderERNS_11DisplayList11RenderStateERNS_10RenderPassEiDv2_iPNS_7TextureES8_
++ __ZN2RB6Filter16NarrowBlurKernel13max_kernel_15Ev
++ __ZN2RB6Filter16NarrowBlurKernel13max_kernel_23Ev
++ __ZN2RB6Filter16NarrowBlurKernel13max_kernel_31Ev
++ __ZN2RB6Filter16NarrowBlurKernel3getEf
++ __ZN2RB6Filter16NarrowBlurKernel9constructEf
++ __ZN2RB6Filter6CustomD2Ev
++ __ZN2RB6Filter6CustomD2Ev.cold.1
++ __ZN2RB6Shader6TablesC2Ev
++ __ZN2RB6Stroke10LineBounds9add_pointEDv2_fS2_
++ __ZN2RB6Symbol10tags_mergeERNS_6vectorINS0_3TagELm4EjEENSt3__14spanIKS2_Lm18446744073709551615EEEj
++ __ZN2RB6Symbol12Presentation16record_keyframesERKNS0_9AnimationEjPKNS0_9KeyframesERNS0_15KeyframeStorageE
++ __ZN2RB6Symbol12Presentation5Layer19add_stroke_velocityEfRKNS1_6SymbolE
++ __ZN2RB6Symbol12Presentation6SymbolD1Ev
++ __ZN2RB6Symbol12Presentation6SymbolD1Ev.cold.1
++ __ZN2RB6Symbol12_GLOBAL__N_116mix_shape_strokeERNS0_5Glyph5ShapeES4_S4_fRKNS_15AffineTransformES7_S7_
++ __ZN2RB6Symbol15KeyframeStorageD2Ev
++ __ZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArray
++ __ZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArray.cold.1
++ __ZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArray.cold.2
++ __ZN2RB6Symbol5Glyph5Layer10mix_layersERKS2_S4_fRKNS2_10DrawParamsES7_RKNS_15AffineTransformESA_RKNS0_12PresentationEbRNS_8objc_ptrIP13RBDisplayListEERb
++ __ZN2RB6Symbol5Glyph5Layer14last_unique_idE
++ __ZN2RB6Symbol5Glyph5Layer20set_stroke_keyframesENSt3__14spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEEP19CUINamedVectorGlyph
++ __ZN2RB6Symbol5Glyph5LayerD2Ev.cold.1
++ __ZN2RB6Symbol5Glyph5Shape13stroke_lengthEv
++ __ZN2RB6Symbol5Glyph5ShapeD0Ev
++ __ZN2RB6Symbol5Glyph5ShapeD0Ev.cold.1
++ __ZN2RB6Symbol5Glyph5ShapeD1Ev
++ __ZN2RB6Symbol5Glyph5ShapeD1Ev.cold.1
++ __ZN2RB6Symbol5Model21set_rendering_optionsEjf
++ __ZN2RB6Symbol8Animator21set_rendering_optionsEj
++ __ZN2RB6Symbol8Animator8set_fillE13RBSymbolStyleU13block_pointerFvP6RBFill6CGRectE
++ __ZN2RB6Symbol9Animation12eval_replaceEfbjRKNS_14AnimationLayerE
++ __ZN2RB6Symbol9Animation13draw_durationERKNS0_5ModelEbjfjj
++ __ZN2RB6Symbol9Animation18draw_timing_groupsEPNS1_11TimingGroupERKNS0_5GlyphEbjfjj
++ __ZN2RB6Symbol9Animation25make_replace_to_keyframesEfjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEjj
++ __ZN2RB6Symbol9Animation26make_draw_on_off_keyframesEbfjRKNS0_5ModelERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEjj
++ __ZN2RB6Symbol9Animation27make_draw_on_off_keyframes_EbfjRKNS0_5ModelERKNS1_13KeyframesArgsEjPKNS1_11TimingGroupERNS0_15KeyframeStorageEjj
++ __ZN2RB6Symbol9Animation27make_replace_from_keyframesEjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEjj
++ __ZN2RB6Symbol9Animation31make_appear_disappear_keyframesEbjRKNS1_13KeyframesArgsEPKNS1_11TimingGroupERNS0_15KeyframeStorageEjj
++ __ZN2RB6vectorINS_11DisplayList11RenderState12DetachedInfo7ElementELm4EjE12reserve_slowEj
++ __ZN2RB6vectorINS_11DisplayList11RenderState12DetachedInfoELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_11DisplayList11RenderState12DetachedInfoELm0EjED2Ev
++ __ZN2RB6vectorINS_11DisplayList9Predicate4TermELm1EjED2Ev
++ __ZN2RB6vectorINS_11DisplayList9Transform4TermELm1EjED2Ev
++ __ZN2RB6vectorINS_13SharedSurface6RemoveELm0EjED1Ev.cold.2
++ __ZN2RB6vectorINS_14refcounted_ptrIKNS_6Symbol5ModelEEELm0EjED2Ev
++ __ZN2RB6vectorINS_14refcounted_ptrIKNS_6Symbol5ModelEEELm0EjED2Ev.cold.1
++ __ZN2RB6vectorINS_14refcounted_ptrINS_10RenderTaskEEELm32EjE12reserve_slowEj
++ __ZN2RB6vectorINS_14refcounted_ptrINS_10RenderTaskEEELm32EjED1Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList11RenderState11RootTextureEEELm8EjE12reserve_slowEj
++ __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList11RenderState11RootTextureEEELm8EjED1Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList8ContentsEEELm8EjED2Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList8ContentsEEELm8EjED2Ev.cold.1
++ __ZN2RB6vectorINS_14refcounted_ptrINS_12CommitMarker8ObserverEEELm4EmE12reserve_slowEm
++ __ZN2RB6vectorINS_14refcounted_ptrINS_13ImageProviderEEELm0EmED2Ev
++ __ZN2RB6vectorINS_14refcounted_ptrINS_13ImageProviderEEELm0EmED2Ev.cold.1
++ __ZN2RB6vectorINS_14refcounted_ptrINS_13SharedSurfaceEEELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_16SharedSubsurfaceELm4EjED2Ev
++ __ZN2RB6vectorINS_18SharedSurfaceGroup13SurfaceUpdateELm4EjE12reserve_slowEj
++ __ZN2RB6vectorINS_18SharedSurfaceGroup6UpdateELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_4Path10ClipStroke11RecordedCapELm0EmE12reserve_slowEm
++ __ZN2RB6vectorINS_4Path10ClipStroke16SubpathTransformELm4EjE12reserve_slowEj
++ __ZN2RB6vectorINS_4Path7Subpath11DistanceMap7ElementELm4EmE12reserve_slowEm
++ __ZN2RB6vectorINS_6Symbol12Presentation5LayerELm3EjED2Ev
++ __ZN2RB6vectorINS_6Symbol12Presentation6SymbolELm2EjED2Ev
++ __ZN2RB6vectorINS_6Symbol12_GLOBAL__N_115AddedAttachmentELm0EmE12reserve_slowEm
++ __ZN2RB6vectorINS_6Symbol5Glyph11StrokeRangeELm4EjE12reserve_slowEj
++ __ZN2RB6vectorINS_6Symbol5Glyph5Shape10AttachmentELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_6cf_ptrIP11__IOSurfaceEELm8EmE12reserve_slowEm
++ __ZN2RB6vectorINS_6cf_ptrIP13_CAImageQueueEELm8EmED2Ev
++ __ZN2RB6vectorINS_8objc_ptrIP7RBLayerEELm0EmED2Ev
++ __ZN2RB6vectorINS_8objc_ptrIPU29objcproto18RBAnimationHandler11objc_objectEELm8EmED2Ev
++ __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvP6RBFill6CGRectEEELm0EjE12reserve_slowEj
++ __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvP6RBFill6CGRectEEELm0EjED2Ev
++ __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvvEEELm2EmE12reserve_slowEm
++ __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvvEEELm2EmED2Ev
++ __ZN2RB6vectorINS_8objc_ptrIU13block_pointerFvvEEELm4EmE12reserve_slowEm
++ __ZN2RB6vectorINS_8path_ptrELm0EjED2Ev
++ __ZN2RB6vectorINSt3__110unique_ptrINS_6Symbol5Glyph5LayerENS_7DestroyIS5_EEEELm0EjED2Ev
++ __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev
++ __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev.cold.1
++ __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED2Ev.cold.2
++ __ZN2RB6vectorINSt3__14pairIjNS_6cf_ptrIPKvEEEELm0EmE12reserve_slowEm
++ __ZN2RB6vectorINSt3__14pairImPNS_9BinPacker4itemEEELm8EmE12reserve_slowEm
++ __ZN2RB6vectorINSt3__14pairImmEELm0EmE12reserve_slowEm
++ __ZN2RB6vectorINSt3__15tupleIJmN2CG5PointES4_EEELm4EmE12reserve_slowEm
++ __ZN2RB6vectorIPNS_6Filter11RenderGroup13MultipassInfoELm8EmE12reserve_slowEm
++ __ZN2RB6vectorIZNKS_11DisplayList5Layer9make_taskERNS1_11RenderStateENS_6BoundsERKS5_PS6_jfPKNS1_4ItemEPKDv4_fE13LayerClipInfoLm8EmE12reserve_slowEm
++ __ZN2RB6vectorIZNKS_12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEEE10PendingArgLm0EmE12reserve_slowEm
++ __ZN2RB6vectorIZNS_11DisplayList11EditAdaptor14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPNS2_7ElementEjS9_jjjE15SequenceElementLm8EjE12reserve_slowEj
++ __ZN2RB6vectorIZNS_11DisplayList11EditAdaptor14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPNS2_7ElementEjS9_jjjE5MixedLm128EjE12reserve_slowEj
++ __ZN2RB6vectorIZNS_18SharedSurfaceGroup16allocate_updatesEvE11SurfaceTypeLm4EjE12reserve_slowEj
++ __ZN2RB6vectorIZNS_18SharedSurfaceGroup16allocate_updatesEvE5AddedLm4EmE12reserve_slowEm
++ __ZN2RB6vectorIjLm4EmE11swap_inlineERS1_
++ __ZN2RB6vectorIjLm4EmE12reserve_slowEm
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter10RGBACurvesEEEJRS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter11ColorMatrixEEEJRS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter12GaussianBlurEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEEEJRS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter6CustomEEEJRS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11FilterStyleINS_6Filter8DistanceEEEJRS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList11ShadowStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericEffectINS_12CustomEffectEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericEffectINS_19AlphaGradientEffectEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericEffectINS_20AlphaThresholdEffectEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericFilterINS_6Filter10RGBACurvesEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericFilterINS_6Filter11ColorMatrixEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericFilterINS_6Filter12GaussianBlurEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList13GenericFilterINS_6Filter8DistanceEEEJS5_EEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList14PredicateStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList15ProjectionStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle15ColorMonochromeEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle16LuminanceToAlphaEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList17CustomEffectStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList18AlphaGradientStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList19AlphaThresholdStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEEEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList19GlassHighlightStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList22GlassDisplacementStyleEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_11DisplayList8ClipNodeEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_16ProjectionMatrixEJEEEPT_DpOT0_
++ __ZN2RB7Decoder7emplaceINS_6Filter11ColorMatrixEJEEEPT_DpOT0_
++ __ZN2RB7DecoderD2Ev
++ __ZN2RB7Encoder16prepare_shared_fIZNS0_14prepare_sharedINS_11DisplayList5LayerEEEvNS0_10SharedTypeERKT_EUlRS6_E_ZNS2_IS4_EEvS5_S8_EUlS9_E0_EEvS5_mS8_RKT0_
++ __ZN2RB7Encoder16prepare_shared_fIZNS0_14prepare_sharedINS_11DisplayList8ClipNodeEEEvNS0_10SharedTypeERKT_EUlRS6_E_ZNS2_IS4_EEvS5_S8_EUlS9_E0_EEvS5_mS8_RKT0_
++ __ZN2RB7EncoderD2Ev
++ __ZN2RB7EncoderD2Ev.cold.1
++ __ZN2RB7Surface12set_headroomEf
++ __ZN2RB7Surface7textureENSt3__18optionalINS_10ColorSpaceEEE
++ __ZN2RB7Texture5allocEPNS_6DeviceE14MTLPixelFormatDv2_ijNSt3__18optionalINS_10ColorSpaceEEENS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7Texture5allocEPNS_6DeviceEPNS_6BufferE14MTLPixelFormatDv2_imNSt3__18optionalINS_10ColorSpaceEEENS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7TextureC1EPU21objcproto10MTLTexture11objc_objectNSt3__18optionalINS_10ColorSpaceEEENS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7TextureC2EPU21objcproto10MTLTexture11objc_objectNSt3__18optionalINS_10ColorSpaceEEENS0_5UsageENS_12PixelSwizzleE
++ __ZN2RB7details14realloc_vectorIjLm112EEEPvS2_RT_S3_
++ __ZN2RB7details14realloc_vectorIjLm128EEEPvS2_RT_S3_
++ __ZN2RB7details14realloc_vectorIjLm128EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorIjLm144EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorIjLm336EEEPvS2_RT_S3_
++ __ZN2RB7details14realloc_vectorIjLm48EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorIjLm496EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorIjLm72EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorImLm56EEEPvS2_S2_T_RS3_S3_
++ __ZN2RB7details14realloc_vectorImLm80EEEPvS2_RT_S3_
++ __ZN2RB8Coverage12_GLOBAL__N_110visit_rectERNS0_7VisitorERK6CGRectPKNS_15AffineTransformEffNS_13RenderingModeEf
++ __ZN2RB8Coverage12_GLOBAL__N_113visit_ellipseERNS0_7VisitorERK6CGRectPKNS_15AffineTransformEffNS_13RenderingModeEf
++ __ZN2RB8Coverage12_GLOBAL__N_118visit_rounded_rectERNS0_7VisitorERK6CGRect13RBCornerRadii20RBRoundedCornerStylePKNS_15AffineTransformEffNS_13RenderingModeEf
++ __ZN2RB8Coverage12_GLOBAL__N_118visit_rounded_rectERNS0_7VisitorERK6CGRect6CGSize20RBRoundedCornerStylePKNS_15AffineTransformEffNS_13RenderingModeEf
++ __ZN2RB8Function4Info11make_paramsERKNSt3__14spanIKNS_12CustomShader5ValueELm18446744073709551615EEEPP7NSError
++ __ZN2RB8Function4InfoC2ERKNS_12CustomShader8FunctionENS2_4TypeE
++ __ZN2RB8Function4InfoD1Ev
++ __ZN2RB8FunctionC2EjP8NSStringONS0_4InfoE
++ __ZN2RB8RefcountIN12_GLOBAL__N_116CachedCGPathInfoENSt3__16atomicIjEEE8finalizeEv
++ __ZN2RB8RefcountINS_12CommitMarker8ObserverENSt3__16atomicIjEEE8finalizeEv
++ __ZN2RB8RefcountINS_6Symbol5Glyph5ShapeENSt3__16atomicIjEEE8finalizeEv
++ __ZN2RB8apply_pqIfLi3EEEDvT0__T_S2_
++ __ZN2RB8lcs_diffINS_11DisplayList11EditAdaptor7ElementEZNS2_14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPS3_jS9_jjjE3$_0ZNS2_14finalize_groupES6_S8_jjS9_jS9_jjjE3$_1EEblPT_lSD_lRKT0_RKT1_
++ __ZN2RB8path_ptraSERKS0_
++ __ZN2RB9BinPacker10append_binEm
++ __ZN2RB9CGContext10load_stateEv
++ __ZN2RB9CGContext12begin_bitmapERNS_4RectENSt3__18optionalINS0_12BitmapFormatEEENS4_INS_10ColorSpaceEEE
++ __ZN2RB9CGContext12color_formatEv
++ __ZN2RB9CGContext13bitmap_formatEP9CGContextNSt3__18optionalI13CGContextTypeEE
++ __ZN2RB9CGContext13bitmap_formatEv
++ __ZN2RB9CGContext13create_bitmapEDv2_iNS0_12BitmapFormatENSt3__18optionalINS_10ColorSpaceEEE
++ __ZN2RB9CGContext14apply_cifilterEP8CIFilterRKNS_15AffineTransformEb
++ __ZN2RB9CGContext16set_stroke_colorERKNS_4Fill5ColorE
++ __ZN2RB9CGContext19apply_component_lutEhPKj
++ __ZN2RB9CGContext21apply_distance_filterEDv2_fj
++ __ZN2RB9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectE
++ __ZN2RB9CGContext23apply_projection_matrixERKNS_4RectERKNS_16ProjectionMatrixE
++ __ZN2RB9CGContext24apply_distance_renderingENS_13RenderingModeEf
++ __ZN2RB9CGContext25apply_component_thresholdEhDv2_fRKNS_4Fill5ColorE
++ __ZN2RB9CGContext5resetEP9CGContextNS_10ColorSpaceEDv2_f
++ __ZN2RB9ColorInfopLES0_
++ __ZN2RB9ColorMode11merge_depthENS_10ColorDepthE
++ __ZN2RB9apply_hlgIfEEDv3_T_S2_
++ __ZN3$_78__invokeEPKv
++ __ZN3$_78__invokeEPKv.cold.1
++ __ZN3$_88__invokeEPKvPvPFbS2_13RBPathElementPKdS1_E
++ __ZN3$_98__invokeEPKvS1_
++ __ZN4$_108__invokeEPKv
++ __ZN4$_118__invokeEPKv
++ __ZN4$_128__invokeEPKv
++ __ZN4$_138__invokeEPKv
++ __ZNK2CG9Quadratic8evaluateEd
++ __ZNK2RB10ColorSpace10ConversionclEDv3_DF16_
++ __ZNK2RB10ColorSpace10ConversionclEDv3_f
++ __ZNK2RB10ColorSpace10wide_gamutEv
++ __ZNK2RB10ColorSpace13ToneMapParamsIfEclEDv3_f
++ __ZNK2RB10ColorSpace14cg_color_spaceEb
++ __ZNK2RB10ColorSpace14cg_color_spaceEb.cold.1
++ __ZNK2RB10ColorSpace14cg_color_spaceEb.cold.2
++ __ZNK2RB10ColorSpace4nameEv
++ __ZNK2RB10RenderTask11print_itemsERNS_10SexpStringE
++ __ZNK2RB10RenderTask6print_ERNS_10SexpStringEbj
++ __ZNK2RB11DisplayList10CustomItem10color_infoEv
++ __ZNK2RB11DisplayList10CustomItem5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter10RGBACurvesEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter10RGBACurvesEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter11ColorMatrixEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter11ColorMatrixEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter12GaussianBlurEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter12GaussianBlurEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter6CustomEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter8DistanceEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11FilterStyleINS_6Filter8DistanceEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage4PathEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage4PathEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6GlyphsEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6GlyphsEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeI11RBStrokeRefEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeI11RBStrokeRefEEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeINS2_14StrokeablePathEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeINS2_14StrokeablePathEEEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage9PrimitiveEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11GenericClipINS_8Coverage9PrimitiveEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList11ShadowStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList11ShadowStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill12MeshGradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill12MeshGradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ColorEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ColorEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ImageINS_12ImageTextureEEEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill6CustomEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill8GradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill8GradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill12MeshGradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill12MeshGradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ColorEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ColorEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ImageINS_12ImageTextureEEEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill6CustomEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill8GradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill8GradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill12MeshGradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill12MeshGradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ColorEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ColorEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ImageINS_12ImageTextureEEEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill6CustomEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill8GradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill8GradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill12MeshGradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill12MeshGradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ColorEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ColorEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ImageINS_12ImageTextureEEEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill6CustomEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill8GradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill8GradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill12MeshGradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill12MeshGradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ColorEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ColorEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ImageINS_12ImageTextureEEEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill6CustomEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill8GradientEE10color_infoEv
++ __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill8GradientEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_12CustomEffectEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericEffectINS_12CustomEffectEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_19AlphaGradientEffectEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericEffectINS_19AlphaGradientEffectEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_20AlphaThresholdEffectEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericEffectINS_20AlphaThresholdEffectEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE13splits_parentERKNS_6BoundsEPKNS_17BoundsAccumulatorE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE14prepare_encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE15apply_transformERKNS0_15CachedTransformE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE15apply_transformERNS0_8ContentsERKNS0_9TransformE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE16needs_zero_alphaEv
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE17can_discard_colorEv
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE19append_color_matrixERKNS_11ColorMatrixEbNSt3__18optionalINS_10ColorSpaceEEERNS0_7BuilderE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE23can_append_color_matrixERKNS_11ColorMatrixEbNSt3__18optionalINS_10ColorSpaceEEE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE3dodERNS_4RectE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE3roiERNS_4RectE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE4copyERNS0_7BuilderE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE5fieldEv
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE6renderERNS0_11RenderStateERNS_10RenderPassERKNS_4RectEDv2_iPNS_7TextureENS_17InterpolationModeERKNS_15AffineTransformESA_bfNS_9BlendModeE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE6renderERNS_9CGContextE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE7matchesERKNS0_9PredicateE
++ __ZNK2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE13splits_parentERKNS_6BoundsEPKNS_17BoundsAccumulatorE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE14prepare_encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE15apply_transformERKNS0_15CachedTransformE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE15apply_transformERNS0_8ContentsERKNS0_9TransformE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE16needs_zero_alphaEv
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE17can_discard_colorEv
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE19append_color_matrixERKNS_11ColorMatrixEbNSt3__18optionalINS_10ColorSpaceEEERNS0_7BuilderE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE23can_append_color_matrixERKNS_11ColorMatrixEbNSt3__18optionalINS_10ColorSpaceEEE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE3dodERNS_4RectE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE3roiERNS_4RectE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE4copyERNS0_7BuilderE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE5fieldEv
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE6renderERNS0_11RenderStateERNS_10RenderPassERKNS_4RectEDv2_iPNS_7TextureENS_17InterpolationModeERKNS_15AffineTransformESA_bfNS_9BlendModeE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE6renderERNS_9CGContextE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE7matchesERKNS0_9PredicateE
++ __ZNK2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEE7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter10RGBACurvesEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter10RGBACurvesEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter11ColorMatrixEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter11ColorMatrixEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter12GaussianBlurEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter12GaussianBlurEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter6CustomEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter6CustomEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter8DistanceEE10color_infoERNS_9ColorInfoE
++ __ZNK2RB11DisplayList13GenericFilterINS_6Filter8DistanceEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList14AnimationStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList14CrossFadeStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList14PredicateStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList14TransformStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList15CachedTransform9mix_layerERKNS0_12Interpolator5StateEPKNS0_5LayerES8_
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle10BrightnessEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle10SaturationEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle11ColorInvertEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle11HueRotationEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle13AlphaMultiplyEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle13ColorMultiplyEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle15ColorMonochromeEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle16LuminanceToAlphaEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle8ContrastEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList17CustomEffectStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList17CustomEffectStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList17DetachedLayerItem10color_infoEv
++ __ZNK2RB11DisplayList17DetachedLayerItem10mix_boundsERKNS0_12Interpolator5StateERNS_4RectERKS6_RKNS0_4ItemE
++ __ZNK2RB11DisplayList17DetachedLayerItem10raster_ctmEv
++ __ZNK2RB11DisplayList17DetachedLayerItem11prepare_mixERNS0_12Interpolator8ContentsERNS2_2OpERKNS0_4ItemE
++ __ZNK2RB11DisplayList17DetachedLayerItem13atom_positionEj
++ __ZNK2RB11DisplayList17DetachedLayerItem14prepare_encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList17DetachedLayerItem14raster_matchesERKNS_15AffineTransformEjb
++ __ZNK2RB11DisplayList17DetachedLayerItem3mixERKNS0_12Interpolator5StateERKNS0_4ItemERKNS0_15CachedTransformE
++ __ZNK2RB11DisplayList17DetachedLayerItem4copyERNS0_7BuilderEj
++ __ZNK2RB11DisplayList17DetachedLayerItem5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList17DetachedLayerItem6boundsEj
++ __ZNK2RB11DisplayList17DetachedLayerItem6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList17DetachedLayerItem6renderERNS0_11RenderStateERNS_10RenderPassEDv2_ibNS_9BlendModeE
++ __ZNK2RB11DisplayList17DetachedLayerItem6renderERNS_9CGContextE
++ __ZNK2RB11DisplayList17DetachedLayerItem7matchesERKNS0_9PredicateE
++ __ZNK2RB11DisplayList17DetachedLayerItem7prepareERNS0_11RenderStateE
++ __ZNK2RB11DisplayList17DetachedLayerItem7type_idEv
++ __ZNK2RB11DisplayList17DetachedLayerItem9min_scaleEv
++ __ZNK2RB11DisplayList18AlphaGradientStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList18AlphaGradientStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19AlphaThresholdStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19AlphaThresholdStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10ProjectionEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10ProjectionEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEE5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEE6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GlassHighlightStyle3mixERKNS0_12Interpolator5StateEPKNS0_5StyleERKNS0_15CachedTransformE
++ __ZNK2RB11DisplayList19GlassHighlightStyle4copyERNS0_7BuilderE
++ __ZNK2RB11DisplayList19GlassHighlightStyle4drawERNS0_7BuilderERNS0_5LayerEPNS0_4ItemEj
++ __ZNK2RB11DisplayList19GlassHighlightStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19GlassHighlightStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList19GlassHighlightStyle6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList19GlassHighlightStyle7can_mixERNS0_12Interpolator8ContentsEPKNS0_5StyleE
++ __ZNK2RB11DisplayList19GlassHighlightStyle7type_idEv
++ __ZNK2RB11DisplayList19PathProjectionStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList19PathProjectionStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList22GlassDisplacementStyle3mixERKNS0_12Interpolator5StateEPKNS0_5StyleERKNS0_15CachedTransformE
++ __ZNK2RB11DisplayList22GlassDisplacementStyle4copyERNS0_7BuilderE
++ __ZNK2RB11DisplayList22GlassDisplacementStyle4drawERNS0_7BuilderERNS0_5LayerEPNS0_4ItemEj
++ __ZNK2RB11DisplayList22GlassDisplacementStyle5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList22GlassDisplacementStyle6boundsEPKNS_8ListNodeIKNS0_5StyleEEEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList22GlassDisplacementStyle6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList22GlassDisplacementStyle7can_mixERNS0_12Interpolator8ContentsEPKNS0_5StyleE
++ __ZNK2RB11DisplayList22GlassDisplacementStyle7type_idEv
++ __ZNK2RB11DisplayList23BackdropColorMatrixItem5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList4Clip5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList4Item10color_infoEv
++ __ZNK2RB11DisplayList4Item12prepare_taskERNS0_11RenderStateE
++ __ZNK2RB11DisplayList4Item12prepare_taskERNS0_11RenderStateE.cold.1
++ __ZNK2RB11DisplayList4Item5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList5Layer10color_infoEv
++ __ZNK2RB11DisplayList5Layer10mix_boundsERKNS0_12Interpolator5StateERNS_4RectERKS6_RKS1_
++ __ZNK2RB11DisplayList5Layer11compute_roiENS1_6EffectERNS_6BoundsES4_RjPKS3_
++ __ZNK2RB11DisplayList5Layer12make_cgimageERNS_9CGContextERNS_4RectENS1_6EffectEbPv
++ __ZNK2RB11DisplayList5Layer13atom_positionEj
++ __ZNK2RB11DisplayList5Layer14prepare_encodeERNS_7EncoderENS1_6EffectE
++ __ZNK2RB11DisplayList5Layer18max_required_depthEv
++ __ZNK2RB11DisplayList5Layer4blitERNS0_11RenderStateERNS_10RenderPassEPNS_7TextureEfNS_4RectES8_Dv2_iNS1_6EffectENS_17InterpolationModeEbfNS_9BlendModeEbh
++ __ZNK2RB11DisplayList5Layer5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList5Layer6Effect15apply_to_boundsERNS_4RectE
++ __ZNK2RB11DisplayList5Layer6Effect16needs_zero_alphaEv
++ __ZNK2RB11DisplayList5Layer6Effect4copyERNS0_7BuilderE
++ __ZNK2RB11DisplayList5Layer6Effect5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList5Layer6Effect6encodeERNS_7EncoderE
++ __ZNK2RB11DisplayList5Layer6EffecteqES2_
++ __ZNK2RB11DisplayList5Layer6encodeERNS_7EncoderENS1_6EffectE
++ __ZNK2RB11DisplayList5Layer6renderERNS_9CGContextENS1_6EffectEb
++ __ZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsERKS4_PS5_jfPKNS0_4ItemEPKDv4_f
++ __ZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsERKS4_PS5_jfPKNS0_4ItemEPKDv4_f.cold.1
++ __ZNK2RB11DisplayList5Style11next_boundsEPKNS_8ListNodeIKS1_EEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList5Style5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList5Style6boundsEPKNS_8ListNodeIKS1_EEPKNS0_4ItemEj
++ __ZNK2RB11DisplayList8ItemClip5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList9LayerClip5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList9LayerItem10color_infoEv
++ __ZNK2RB11DisplayList9LayerItem5printERNS_10SexpStringEj
++ __ZNK2RB11DisplayList9LayerTask11print_itemsERNS_10SexpStringE
++ __ZNK2RB11DisplayList9LayerTask6renderERNS0_11RenderStateERNS_10RenderPassEDv2_iNS_6BoundsENS0_5Layer6EffectEbfNS_9BlendModeE
++ __ZNK2RB11DisplayList9SpillItem5printERNS_10SexpStringEj
++ __ZNK2RB11RenderState15dest_write_maskEv
++ __ZNK2RB11RenderState21other_dest_write_maskEv
++ __ZNK2RB12CustomEffect5printERNS_10SexpStringEj
++ __ZNK2RB12CustomEffect7prepareERNS_11DisplayList11RenderStateE.cold.1
++ __ZNK2RB12CustomShader5Value7convertENS1_10ConversionEmPvNS_10ColorSpaceEf
++ __ZNK2RB12CustomShader5Value7convertENS_8Function5Param4TypeEPvNS_10ColorSpaceEf
++ __ZNK2RB12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERNSt3__15arrayIPNS_7TextureELm3EEE
++ __ZNK2RB12CustomShader7Closure13make_cifilterERKNS_4RectENS0_4TypeE
++ __ZNK2RB12UntypedTable8for_eachEPFvPKvS2_S2_ES2_
++ __ZNK2RB13ImageProvider11bitmap_infoEv
++ __ZNK2RB15TextureCacheKey4hashEv
++ __ZNK2RB15TextureCacheKeyeqERKS0_
++ __ZNK2RB16BaseRenderParams10srgb_alphaEv
++ __ZNK2RB16BaseRenderParamseqERKS0_
++ __ZNK2RB18AnimationSequencer10eval_delayEDv2_fNS0_5PhaseE
++ __ZNK2RB18AnimationSequencer6encodeERNS_7EncoderE
++ __ZNK2RB18AnimationSequencer7Effects6encodeERNS_7EncoderE
++ __ZNK2RB19AlphaGradientEffect5printERNS_10SexpStringEj
++ __ZNK2RB20AlphaThresholdEffect5printERNS_10SexpStringEj
++ __ZNK2RB20FormattedRenderState2ID9formattedEv.cold.1
++ __ZNK2RB20GlassHighlightEffect17can_discard_colorEv
++ __ZNK2RB20GlassHighlightEffect5printERNS_10SexpStringEj
++ __ZNK2RB20GlassHighlightEffect6encodeERNS_7EncoderE
++ __ZNK2RB20GlassHighlightEffect6renderERNS_11DisplayList11RenderStateERNS_10RenderPassERKNS_4RectEDv2_iPNS_7TextureENS_17InterpolationModeERKNS_15AffineTransformES8_bfNS_9BlendModeE
++ __ZNK2RB20GlassHighlightEffect6renderERNS_9CGContextE
++ __ZNK2RB20GlassHighlightEffect7can_mixERKS0_
++ __ZNK2RB20GlassHighlightEffect7matchesERKNS_11DisplayList9PredicateE
++ __ZNK2RB23GlassDisplacementEffect17can_discard_colorEv
++ __ZNK2RB23GlassDisplacementEffect5printERNS_10SexpStringEj
++ __ZNK2RB23GlassDisplacementEffect6encodeERNS_7EncoderE
++ __ZNK2RB23GlassDisplacementEffect6renderERNS_11DisplayList11RenderStateERNS_10RenderPassERKNS_4RectEDv2_iPNS_7TextureENS_17InterpolationModeERKNS_15AffineTransformES8_bfNS_9BlendModeE
++ __ZNK2RB23GlassDisplacementEffect6renderERNS_9CGContextE
++ __ZNK2RB23GlassDisplacementEffect7can_mixERKS0_
++ __ZNK2RB23GlassDisplacementEffect7matchesERKNS_11DisplayList9PredicateE
++ __ZNK2RB3XML5Value13DisplayListID9to_stringERNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEEj
++ __ZNK2RB4Fill12MeshGradient15ColorConversion16convert_out_slowERNS0_5ColorE
++ __ZNK2RB4Fill5Color10color_infoEv
++ __ZNK2RB4Fill5Color14create_cgcolorENS_10ColorSpaceE
++ __ZNK2RB4Fill5Color16cielab_luminanceEv
++ __ZNK2RB4Fill5Color7prepareENS_10ColorSpaceEf
++ __ZNK2RB4Fill8Gradient13map_componentERNS_9CGContextEhDv2_f
++ __ZNK2RB4Path10ClipStroke9Transform10record_capEDv2_dS3_RNS_6vectorIjLm4EmEE
++ __ZNK2RB4Path7Subpath6replayERNS0_8ConsumerEbPK17CGAffineTransform
++ __ZNK2RB4Path7Subpath8point_atEf
++ __ZNK2RB6Device21ensure_native_textureER14MTLPixelFormatRDv2_iRm
++ __ZNK2RB6Device25effective_bg_gpu_priorityEv
++ __ZNK2RB6Filter10RGBACurves5printERNS_10SexpStringEj
++ __ZNK2RB6Filter11ColorMatrix5printERNS_10SexpStringEj
++ __ZNK2RB6Filter12GaussianBlur10color_infoERNS_9ColorInfoE
++ __ZNK2RB6Filter12GaussianBlur5printERNS_10SexpStringEj
++ __ZNK2RB6Filter14LuminanceCurve5printERNS_10SexpStringEj
++ __ZNK2RB6Filter6Custom5printERNS_10SexpStringEj
++ __ZNK2RB6Filter6Custom6renderERNS_10RenderPassERKNS_12RenderParamsEDv2_iNS_11RenderStateE
++ __ZNK2RB6Filter8Distance17can_discard_colorERb
++ __ZNK2RB6Filter8Distance18ensure_layer_flagsEv
++ __ZNK2RB6Filter8Distance5printERNS_10SexpStringEj
++ __ZNK2RB6Symbol12Presentation4drawEP15_RBDrawingStatefU13block_pointerF7RBColor13RBSymbolStyleP8NSStringEU13block_pointerFbP6RBFill6CGRectS5_S7_E
++ __ZNK2RB6Symbol12Presentation5Layer9fill_rectERKNS1_6SymbolE
++ __ZNK2RB6Symbol12Presentation5Layer9transformEPKS1_b
++ __ZNK2RB6Symbol12Presentation6Symbol17append_layer_pathERKNS1_5LayerERNS_4Path7StorageERKS1_
++ __ZNK2RB6Symbol5Glyph11layer_flagsEjj
++ __ZNK2RB6Symbol5Glyph19layer_draw_durationERKNS1_5LayerE
++ __ZNK2RB6Symbol5Glyph21intersect_layer_flagsEjj
++ __ZNK2RB6Symbol5Glyph5Layer11append_pathERNS_4Path7StorageERKNS2_10PathParamsE
++ __ZNK2RB6Symbol5Glyph5Layer13gradient_axisEv
++ __ZNK2RB6Symbol5Glyph5Layer14content_boundsERKNS2_10PathParamsE
++ __ZNK2RB6Symbol5Glyph5Layer23resolve_draw_transformsERKNS2_10PathParamsERNS_6vectorINS_4Path10ClipStroke16SubpathTransformELm4EjEE
++ __ZNK2RB6Symbol5Glyph5Layer25can_animate_stroke_lengthEv
++ __ZNK2RB6Symbol5Glyph5Layer4clipEP15_RBDrawingState10RBClipModeRKNS2_10DrawParamsERKNS_15AffineTransformERKNS0_12PresentationE
++ __ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingState11RBBlendModeRKNS2_10DrawParamsERKNS_15AffineTransformERKNS0_12PresentationEU13block_pointerFvP6RBFillE
++ __ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingState7RBColor11RBBlendModeRKNS2_10DrawParamsERKNS_15AffineTransformERKNS0_12PresentationE
++ __ZNK2RB6Symbol5Glyph5Layer9copy_pathERKNS2_10PathParamsEPb
++ __ZNK2RB6Symbol5Glyph5Layer9copy_pathERKNS2_10PathParamsEPb.cold.1
++ __ZNK2RB6Symbol5Glyph5Layer9copy_pathERKNS2_10PathParamsEPb.cold.2
++ __ZNK2RB6Symbol5Glyph5Layer9set_shapeEP7RBShapeRKNS_15AffineTransformERKNS2_10PathParamsE
++ __ZNK2RB6Symbol5Model20should_variable_drawERKNS0_5GlyphE
++ __ZNK2RB6Symbol5Model20variable_draw_paramsEfRKNS0_5Glyph5LayerE
++ __ZNK2RB6Symbol8Animator17rendering_optionsEv
++ __ZNK2RB6Symbol8Animator4fillE13RBSymbolStyle
++ __ZNK2RB6Symbol9Animation11frame_delayERKNS0_5ModelE
++ __ZNK2RB6Symbol9Animation21draw_on_off_keyframesEbRKNS1_13KeyframesArgsERNS0_15KeyframeStorageERNS1_4TimeERKNS0_5ModelE
++ __ZNK2RB6Symbol9Animation22replace_draw_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageERKNS0_5ModelE
++ __ZNK2RB6Symbol9Animation9keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageERNS1_4TimeERKNS0_5ModelE
++ __ZNK2RB6Symbol9Keyframes5printERNS_10SexpStringEjPKNS0_15KeyframeStorageE
++ __ZNK2RB8Coverage4Path15make_image_maskERNS_9CGContextE
++ __ZNK2RB8Coverage6Glyphs15make_image_maskERNS_9CGContextE
++ __ZNK2RB8Function13load_functionERNS_6DeviceE
++ __ZNK2RB8Function15binary_functionEv
++ __ZNK2RB8Function20load_binary_functionERNS_6DeviceE
++ __ZNK2RB8Function4Info13texture_countEv
++ __ZNK2RB8Function4Info13texture_indexEj
++ __ZNK2RB8Function4Info21make_stitched_libraryEPU19objcproto9MTLDevice11objc_objectPU21objcproto10MTLLibrary11objc_objectS5_PP7NSError
++ __ZNK2RB8Function8functionEv
++ __ZNK2RB8RefcountIN12_GLOBAL__N_116CachedCGPathInfoENSt3__16atomicIjEEE7releaseEv
++ __ZNK2RB8RefcountIN12_GLOBAL__N_116CachedCGPathInfoENSt3__16atomicIjEEE7releaseEv.cold.1
++ __ZNK2RB8RefcountINS_12CommitMarker8ObserverENSt3__16atomicIjEEE7releaseEv
++ __ZNK2RB8RefcountINS_12CommitMarker8ObserverENSt3__16atomicIjEEE7releaseEv.cold.1
++ __ZNK2RB8RefcountINS_6Symbol5Glyph5ShapeENSt3__16atomicIjEEE7releaseEv
++ __ZNK2RB8RefcountINS_6Symbol5Glyph5ShapeENSt3__16atomicIjEEE7releaseEv.cold.1
++ __ZNK2RB9ColorMode12layer_formatEPNS_6DeviceE
++ __ZNK2RB9ColorMode12pixel_formatEPKNS_6DeviceEjPj
++ __ZNK2RB9ColorMode12pixel_formatEPKNS_6DeviceEjPj.cold.1
++ __ZNKRSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB8nn200100Ev
++ __ZNKSt3__114default_deleteIN2RB6Symbol5Glyph9SublayersEEclB8nn200100EPS4_
++ __ZNKSt3__114default_deleteIN2RB6Symbol9Animation6TimingEEclB8nn200100EPS4_
++ __ZNKSt3__114default_deleteIN2RB6vectorINS1_6Symbol5Glyph11StrokeRangeELm4EjEEEclB8nn200100EPS6_
++ __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8nn200100Ev
++ __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_6BufferEEENS_9allocatorIS4_EEE13__delete_nodeB8nn200100EPNS_11__list_nodeIS4_PvEE
++ __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_7TextureEEENS_9allocatorIS4_EEE13__delete_nodeB8nn200100EPNS_11__list_nodeIS4_PvEE
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10ColorArrayELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10ColorArrayELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10ColorSpaceELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10ColorSpaceELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10FloatArrayELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10FloatArrayELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10GlyphArrayELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10GlyphArrayELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10StrokeTypeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_10StrokeTypeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_11ColorMatrixELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_11ColorMatrixELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_12AffineMatrixELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_12AffineMatrixELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_13DisplayListIDELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_13DisplayListIDELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_14AlphaBlendModeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_14AlphaBlendModeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_14ConstantStringELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_14ConstantStringELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_16TransitionMethodELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_16TransitionMethodELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_17InterpolationModeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_17InterpolationModeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_20TransitionEffectTypeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_20TransitionEffectTypeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_3IntELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_3IntELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4BoolELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4BoolELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4FontELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4FontELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4PathELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4PathELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4UUIDELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4UUIDELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec2ELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec2ELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec3ELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec3ELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec4ELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_4Vec4ELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5AngleELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5AngleELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5ColorELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5ColorELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5FloatELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5FloatELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5ImageELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_5ImageELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_6ShaderELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_6ShaderELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_6StrokeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_6StrokeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_7LineCapELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_7LineCapELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_7StateIDELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_7StateIDELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8ClipModeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8ClipModeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8GradientELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8GradientELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8LineJoinELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_8LineJoinELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_9BlendModeELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_9BlendModeELi0EEEPT_.cold.1
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_9TransformELi0EEEPT_
++ __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn200100INS3_9TransformELi0EEEPT_.cold.1
++ __ZNSt3__110unique_ptrIKN2RB6Symbol5GlyphENS2_10GlyphCache5UnrefEE5resetB8nn200100EPS4_
++ __ZNSt3__110unique_ptrIN2RB11DisplayList7BuilderENS_14default_deleteIS3_EEE5resetB8nn200100EPS3_
++ __ZNSt3__110unique_ptrIN2RB14GlyphPathCacheENS_14default_deleteIS2_EEE5resetB8nn200100EPS2_
++ __ZNSt3__110unique_ptrIN2RB18SharedSurfaceGroupENS_14default_deleteIS2_EEE5resetB8nn200100EPS2_
++ __ZNSt3__110unique_ptrIN2RB3XML8DocumentENS_14default_deleteIS3_EEE5resetB8nn200100EPS3_
++ __ZNSt3__110unique_ptrIN2RB6Device19RenderPipelineEntry9FunctionsENS_14default_deleteIS4_EEE5resetB8nn200100EPS4_
++ __ZNSt3__110unique_ptrIN2RB6Symbol15KeyframeStorageENS_14default_deleteIS3_EEE5resetB8nn200100EPS3_
++ __ZNSt3__110unique_ptrIN2RB6vectorINS1_6Symbol12Presentation12KeyframeInfoELm0EmEENS_14default_deleteIS6_EEE5resetB8nn200100EPS6_
++ __ZNSt3__110unique_ptrIN2RB6vectorINS1_6cf_ptrIP11__IOSurfaceEELm8EmEENS_14default_deleteIS7_EEE5resetB8nn200100EPS7_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN2RB7Encoder7FontSet4FontEEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEED1B8nn200100Ev
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEELb0EEEvT1_S8_T0_NS_15iterator_traitsIS8_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jjjE15SequenceElementLb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateLb0EEEvT1_SD_T0_NS_15iterator_traitsISD_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup16allocate_updatesEvE3$_0PjLb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.1
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.2
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.3
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.4
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.5
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.6
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.7
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb.cold.8
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERNS5_17KeyframesMetadataEE3$_0PSE_Lb0EEEvT1_SM_T0_NS_15iterator_traitsISM_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB4Path7Subpath11DistanceMap13ensure_sortedEvE3$_0PNS5_7ElementELb0EEEvT1_SA_T0_NS_15iterator_traitsISA_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.1
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.2
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.3
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.4
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.5
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.6
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.7
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.8
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELb0EEEvT1_SC_T0_NS_15iterator_traitsISC_E15difference_typeEb.cold.9
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsERKS7_PS8_jfPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISD_jEELb0EEEvT1_SM_T0_NS_15iterator_traitsISM_E15difference_typeEb
++ __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
++ __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_OT0_NS_15iterator_traitsISD_E15difference_typeESD_
++ __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
++ __ZNSt3__111stable_sortB8nn200100IPN2RB11DisplayList11EditAdaptor7ElementEZNS3_C1ERKNS2_12Interpolator5LayerEPKNS2_4ItemESC_E3$_2EEvT_SE_T0_
++ __ZNSt3__111unique_lockIN2RB9spin_lockEE4lockB8nn200100Ev
++ __ZNSt3__111unique_lockIN2RB9spin_lockEE6unlockB8nn200100Ev
++ __ZNSt3__112__hash_tableIN2RB20FormattedRenderStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE28__node_insert_unique_performB8nn200100EPNS_11__hash_nodeIS2_PvEE
++ __ZNSt3__112__hash_tableIN2RB20FormattedRenderStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE28__node_insert_unique_prepareB8nn200100EmRS2_
++ __ZNSt3__112__rotate_gcdB8nn200100INS_17_ClassicAlgPolicyEPN2RB11DisplayList11EditAdaptor7ElementEEET0_S7_S7_S7_
++ __ZNSt3__112__rotate_gcdB8nn200100INS_17_ClassicAlgPolicyEPN2RB11DisplayList12Interpolator2OpEEET0_S7_S7_S7_
++ __ZNSt3__112__rotate_gcdB8nn200100INS_17_ClassicAlgPolicyEPN2RB20FormattedRenderStateEEET0_S5_S5_S5_
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8nn200100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn200100Ej
++ __ZNSt3__116__insertion_sortB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_T0_
++ __ZNSt3__116__insertion_sortB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_T0_
++ __ZNSt3__116__insertion_sortB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEEvT1_S8_T0_
++ __ZNSt3__116__pad_and_outputB8nn200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116__rotate_forwardB8nn200100INS_17_ClassicAlgPolicyEPN2RB6Symbol9AnimationEEET0_S6_S6_S6_
++ __ZNSt3__117__floyd_sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEET1_SD_OT0_NS_15iterator_traitsISD_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__117__floyd_sift_downB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__119__partial_sort_implB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagES8_EET1_S9_S9_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEESC_EET1_SD_SD_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__partial_sort_implB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEES7_EET1_S8_S8_T2_OT0_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8nn200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100Ev
++ __ZNSt3__120__shared_ptr_pointerIPN2RB3XML5Value13DisplayListIDENS_10shared_ptrINS3_4BaseEE27__shared_ptr_default_deleteIS7_S4_EENS_9allocatorIS4_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN2RB3XML5Value13DisplayListIDENS_10shared_ptrINS3_4BaseEE27__shared_ptr_default_deleteIS7_S4_EENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN2RB3XML5Value13DisplayListIDENS_10shared_ptrINS3_4BaseEE27__shared_ptr_default_deleteIS7_S4_EENS_9allocatorIS4_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN2RB3XML5Value13DisplayListIDENS_10shared_ptrINS3_4BaseEE27__shared_ptr_default_deleteIS7_S4_EENS_9allocatorIS4_EEED1Ev
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_4pairIjjEENS_10unique_ptrIN2RB11DisplayList12Interpolator5LayerENS_14default_deleteISA_EEEEEEPvEEEEEclB8nn200100EPSG_
++ __ZNSt3__124__put_character_sequenceB8nn200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__126__insertion_sort_unguardedB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_T0_
++ __ZNSt3__126__insertion_sort_unguardedB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEEvT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEbT1_S9_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEEbT1_S8_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jjjE15SequenceElementEEbT1_SH_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateEEbT1_SD_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup16allocate_updatesEvE3$_0PjEEbT1_S7_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.1
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEEEEbT1_SA_T0_.cold.2
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERNS5_17KeyframesMetadataEE3$_0PSE_EEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB4Path7Subpath11DistanceMap13ensure_sortedEvE3$_0PNS5_7ElementEEEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentEEEbT1_SC_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentEEEbT1_SC_T0_.cold.1
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZN2RB7Decoder18saved_shared_fieldENS2_7Encoder10SharedTypeEmE3$_0PNS3_11SharedFieldEEEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsERKS7_PS8_jfPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISD_jEEEEbT1_SM_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZZN2RB19pixel_format_traitsE14MTLPixelFormatENK3$_0clEPvEUlRKT_RKT0_E_PNS2_17PixelFormatTraitsEEEbT1_SG_S9_
++ __ZNSt3__127__memberwise_forward_assignB8nn200100INS_5tupleIJRN2RB12packed_half4ES4_S4_S4_EEENS1_IJDv4_fS6_S6_S6_EEEJS6_S6_S6_S6_EJLm0ELm1ELm2ELm3EEEEvRT_OT0_NS_13__tuple_typesIJDpT1_EEENS_15__tuple_indicesIJXspT2_EEEE
++ __ZNSt3__131__partition_with_equals_on_leftB8nn200100INS_17_ClassicAlgPolicyEPN2RB6Symbol3TagERNS_6__lessIvvEEEET0_S9_S9_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairINS2_ImmEEPN2RB11DisplayList9LayerTaskEEERNS_6__lessIvvEEEET0_SD_SD_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairIfjEERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__131__partition_with_equals_on_leftB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairImmEERNS_6__lessIvvEEEET0_S8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn200100INS_17_ClassicAlgPolicyEPN2RB6Symbol3TagERNS_6__lessIvvEEEENS_4pairIT0_bEESA_SA_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairINS2_ImmEEPN2RB11DisplayList9LayerTaskEEERNS_6__lessIvvEEEENS2_IT0_bEESD_SD_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairIfjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__132__partition_with_equals_on_rightB8nn200100INS_17_ClassicAlgPolicyEPNS_4pairImmEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
++ __ZNSt3__14pairIKNS0_IjjEENS_10unique_ptrIN2RB11DisplayList12Interpolator5LayerENS_14default_deleteIS7_EEEEED1Ev
++ __ZNSt3__14pairIN2RB8objc_ptrIP16RBSymbolAnimatorEENS2_IPU35objcproto24RBSymbolAnimatorObserver11objc_objectEEEC2B8nn200100ERKS9_
++ __ZNSt3__14swapB8nn200100IN2RB4Path7SubpathEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
++ __ZNSt3__14swapB8nn200100IN2RB6Symbol9AnimationEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
++ __ZNSt3__14swapB8nn200100IN2RB6Symbol9AnimationEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_.cold.1
++ __ZNSt3__16__sortIRNS_6__lessIjjEEPjEEvT0_S5_T_
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__17__sort3B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEELi0EEEbT1_SD_SD_T0_
++ __ZNSt3__17__sort3B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEELi0EEEbT1_S8_S8_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEELi0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEELi0EEEvT1_S8_S8_S8_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB13SharedSurface14update_removesERNS5_6vectorINS6_6RemoveELm0EjEEE12IndexedStateLi0EEEvT1_SD_SD_SD_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup16allocate_updatesEvE3$_0PjLi0EEEvT1_S7_S7_S7_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE3$_0PNS2_14refcounted_ptrINS2_13SharedSurfaceEEELi0EEEvT1_SA_SA_SA_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZN2RB6Symbol5Glyph24resolve_draw_attachmentsEP7NSArrayE3$_0PNS4_5Shape10AttachmentELi0EEEvT1_SC_SC_SC_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEELi0EEEvT1_SD_SD_SD_SD_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEELi0EEEvT1_S8_S8_S8_S8_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jjjE15SequenceElementLi0EEEvT1_SH_SH_SH_SH_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke12_GLOBAL__N_121make_single_keyframesENS_4spanIK24RBPathClipStrokeKeyframeLm18446744073709551615EEERKNS3_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERNS5_17KeyframesMetadataEE3$_0PSE_Li0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZN2RB4Path7Subpath11DistanceMap13ensure_sortedEvE3$_0PNS5_7ElementELi0EEEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZN2RB7Decoder18saved_shared_fieldENS2_7Encoder10SharedTypeEmE3$_0PNS3_11SharedFieldELi0EEEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsERKS7_PS8_jfPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISD_jEELi0EEEvT1_SM_SM_SM_SM_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZZN2RB19pixel_format_traitsE14MTLPixelFormatENK3$_0clEPvEUlRKT_RKT0_E_PNS2_17PixelFormatTraitsELi0EEEvT1_SG_SG_SG_SG_S9_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn200100IRPN2RB6Symbol5Glyph5Shape10AttachmentESA_EEvOT_OT0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn200100IRPN2RB6Symbol5Glyph5Shape10AttachmentESA_EEvOT_OT0_.cold.1
++ __ZNSt3__18__rotateB8nn200100INS_17_ClassicAlgPolicyEPN2RB11DisplayList11EditAdaptor7ElementES6_EENS_4pairIT0_S8_EES8_S8_T1_
++ __ZNSt3__18__rotateB8nn200100INS_17_ClassicAlgPolicyEPN2RB11DisplayList12Interpolator2OpES6_EENS_4pairIT0_S8_EES8_S8_T1_
++ __ZNSt3__18__rotateB8nn200100INS_17_ClassicAlgPolicyEPN2RB20FormattedRenderStateES4_EENS_4pairIT0_S6_EES6_S6_T1_
++ __ZNSt3__19__sift_upB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_OT0_NS_15iterator_traitsISD_E15difference_typeE
++ __ZNSt3__19__sift_upB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__19__sift_upB8nn200100INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairImmEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
++ __ZNSt3__1ssB8nn200100INS_4pairImmEEPN2RB11DisplayList9LayerTaskES2_S6_EENS_26common_comparison_categoryIJDTclL_ZNS_17__synth_three_wayB8nn200100EEclsr3stdE7declvalIRT_EEclsr3stdE7declvalIRT1_EEEEDTclL_ZNS_17__synth_three_wayB8nn200100EEclsr3stdE7declvalIRT0_EEclsr3stdE7declvalIRT2_EEEEEE4typeERKNS1_IS8_SD_EERKNS1_ISA_SF_EE
++ __ZSt28__throw_bad_array_new_lengthB8nn200100v
++ __ZTVN12_GLOBAL__N_116CachedCGPathInfoE
++ __ZTVN2RB11DisplayList11RenderState11RootTextureE
++ __ZTVN2RB11DisplayList11RenderState13PackedTextureE
++ __ZTVN2RB11DisplayList13GenericEffectINS_20GlassHighlightEffectEEE
++ __ZTVN2RB11DisplayList13GenericEffectINS_23GlassDisplacementEffectEEE
++ __ZTVN2RB11DisplayList17DetachedLayerItemE
++ __ZTVN2RB11DisplayList19GlassHighlightStyleE
++ __ZTVN2RB11DisplayList22GlassDisplacementStyleE
++ __ZTVN2RB11DisplayList5LayerE
++ __ZTVN2RB12CommitMarker8ObserverE
++ __ZTVN2RB3XML5Value13DisplayListIDE
++ __ZTVN2RB4Path10ClipStroke15LengthEstimatorE
++ __ZTVN2RB4Path10ClipStroke16KeyframeConsumerE
++ __ZTVN2RB4Path10ClipStroke18AttachmentResolverE
++ __ZTVN2RB4Path10ClipStroke9TransformE
++ __ZTVN2RB4Path10JoinStrokeE
++ __ZTVN2RB4Path12NullConsumerE
++ __ZTVN2RB4Path17JoinAndClipStrokeE
++ __ZTVN2RB6Symbol5Glyph5ShapeE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN2RB3XML5Value13DisplayListIDENS_10shared_ptrINS3_4BaseEE27__shared_ptr_default_deleteIS7_S4_EENS_9allocatorIS4_EEEE
++ __ZZ28-[RBDevice collectResources]EN3$_48__invokeEPv
++ __ZZ31+[RBDevice didEnterBackground:]EN3$_58__invokeEPv
++ __ZZ31-[RBDisplayList drawDebugSeed:]E4font
++ __ZZ31-[RBDisplayList drawDebugSeed:]E4once
++ __ZZ31-[RBDisplayList drawDebugSeed:]E9glyph_ids
++ __ZZ32+[RBShaderLibrary systemLibrary]E14system_library
++ __ZZ32+[RBShaderLibrary systemLibrary]ENK3$_1clEv
++ __ZZ32+[RBShaderLibrary systemLibrary]ENK3$_1clEv.cold.1
++ __ZZ32+[RBShaderLibrary systemLibrary]ENK3$_1clEv.cold.2
++ __ZZ38-[RBLayer displayWithBounds:callback:]E19disable_subsurfaces
++ __ZZ56-[CALayer(RBLayerScreen) observeDisplayHeadroomChanges:]EN16HeadroomObserver8callbackEPv
++ __ZZL29init_background_notificationsPU19objcproto9MTLDevice11objc_objectE15background_once
++ __ZZN2RB10RenderTask13schedule_manyENSt3__14spanIPS0_Lm18446744073709551615EEEDv2_iPvE11print_tasks
++ __ZZN2RB11DisplayList11RenderStateD1EvE10print_tree
++ __ZZN2RB11RenderFrame10flush_passERNS_10RenderPassEbEN3$_18__invokeEPv
++ __ZZN2RB12CommitMarker8Observer13record_commitEvE12commit_delay
++ __ZZN2RB12_GLOBAL__N_116surface_pool_logEvE3log
++ __ZZN2RB12_GLOBAL__N_116surface_pool_logEvENK3$_0clEv
++ __ZZN2RB12_GLOBAL__N_119ColorSpaceDataCache6sharedEvE5cache
++ __ZZN2RB13running_in_vmEvENK3$_0clEv
++ __ZZN2RB18SharedSurfaceGroup12finish_asyncEvEN3$_08__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup14render_updatesEvEN3$_18__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup14render_updatesEvEN7ContextD1Ev
++ __ZZN2RB18SharedSurfaceGroup16allocate_updatesEvENK3$_2clERNS_13SharedSurfaceE
++ __ZZN2RB18SharedSurfaceGroup16allocate_updatesEvENK3$_2clERNS_13SharedSurfaceE.cold.1
++ __ZZN2RB18SharedSurfaceGroup16allocate_updatesEvENK3$_2clERNS_13SharedSurfaceE.cold.2
++ __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbjEN3$_18__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbjENK3$_0clES2_Dv2_i
++ __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbjENK3$_0clES2_Dv2_i.cold.1
++ __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbjENK3$_0clES2_Dv2_i.cold.2
++ __ZZN2RB18SharedSurfaceGroup16schedule_updatesEvEN3$_08__invokeEPv
++ __ZZN2RB18SharedSurfaceGroup19prune_caches_lockedEjE18disable_relocation
++ __ZZN2RB18SharedSurfaceGroup22collect_removed_lockedEvEN3$_08__invokeEPv.cold.2
++ __ZZN2RB18SharedSurfaceGroup5flushEvEN3$_08__invokeEPv
++ __ZZN2RB18shared_surface_logEvE3log
++ __ZZN2RB18shared_surface_logEvENK3$_0clEv
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE17apply_quad_valuesIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_3EEvRKT_EUlmmmmE_EEvmmSC_ENUlPvmE_8__invokeESE_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE17apply_quad_valuesIZNS_9CGContext25apply_component_thresholdEhDv2_fRKNS_4Fill5ColorEE3$_3EEvRKT_EUlmmmmE_EEvmmSE_ENUlPvmE_8__invokeESG_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE18apply_pixel_valuesIZNS_9CGContext18apply_color_matrixERKNS_11ColorMatrixEbE3$_1EEvRKT_EUlmmmmE_EEvmmSC_ENUlPvmE_8__invokeESE_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE18apply_pixel_valuesIZNS_9CGContext19apply_component_lutEhPKjE3$_0EEvRKT_EUlmmmmE_EEvmmSB_ENUlPvmE_8__invokeESD_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferINS_12packed_half4EE18apply_pixel_valuesIZNS_9CGContext21apply_luminance_curveEDv4_fRKNS_4Fill5ColorEE3$_1EEvRKT_EUlmmmmE_EEvmmSE_ENUlPvmE_8__invokeESG_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIhE17apply_quad_valuesIZNS_9CGContext25apply_component_thresholdEhDv2_fRKNS_4Fill5ColorEE3$_1EEvRKT_EUlmmmmE_EEvmmSD_ENUlPvmE_8__invokeESF_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIjE17apply_quad_valuesIZNS_9CGContext25apply_component_thresholdEhDv2_fRKNS_4Fill5ColorEE3$_2EEvRKT_EUlmmmmE_EEvmmSD_ENUlPvmE_8__invokeESF_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_18Typed_vImageBufferIjE18apply_pixel_valuesIZNS_9CGContext21apply_luminance_curveEDv4_fRKNS_4Fill5ColorEE3$_0EEvRKT_EUlmmmmE_EEvmmSD_ENUlPvmE_8__invokeESF_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_0EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_3EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_4EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_5EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_6EEvmmRKT_EUlmmmmE_EEvmmS7_ENUlPvmE_8__invokeES9_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_0EEvmmRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_1EEvmmRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_2EEvmmRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_4EEvmmRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_21dispatch_apply_pixelsIZNS_9CGContext21apply_glass_highlightERKNS_20GlassHighlightEffectEE3$_5EEvmmRKT_EUlmmmmE_EEvmmS9_ENUlPvmE_8__invokeESB_m
++ __ZZN2RB20dispatch_apply_tilesIZNS_9CGContext21apply_distance_filterEDv2_fjE3$_2EEvmmRKT_ENUlPvmE_8__invokeES7_m
++ __ZZN2RB23iosurface_pixel_formatsEvE7formats
++ __ZZN2RB23iosurface_pixel_formatsEvENK3$_0clEv
++ __ZZN2RB5TableIPKNS_15TextureCacheKeyEPNS_12TextureCacheEE9remove_ifIZNS_6Device12prune_cachesEvE3$_0EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
++ __ZZN2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE9remove_ifIZZNS4_12prune_cachesEvENK3$_1clEvEUlT_PT0_E_EEvRKSA_ENUlPKvSH_SH_E_8__invokeESH_SH_SH_
++ __ZZN2RB5TableIPKNS_21GlyphPathCacheDetails8GlyphKeyEPNS_14GlyphPathCache4PathEE9remove_ifIZNS5_5pruneEjE3$_0EEvRKT_ENUlPKvSF_SF_E_8__invokeESF_SF_SF_
++ __ZZN2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE9remove_ifIZNS_6Device12prune_cachesEvE3$_3EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
++ __ZZN2RB5TableImPNS_8FunctionEE9remove_ifIZNS_15FunctionLibrary12prune_cachesEjE3$_0EEvRKT_ENUlPKvSB_SB_E_8__invokeESB_SB_SB_
++ __ZZN2RB6Device29install_render_pipeline_stateENS_20FormattedRenderStateEPvEN3$_08__invokeES2_
++ __ZZN2RB6Device29install_render_pipeline_stateENS_20FormattedRenderStateEPvEN3$_08__invokeES2_.cold.1
++ __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_38__invokeIPKNS_15TextureCacheKeyEEEDaT_
++ __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_48__invokeIPKNS_15TextureCacheKeyES9_EEDaT_T0_
++ __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_58__invokeIPNS_12TextureCacheEEEDaT_
++ __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_68__invokeEPNS_15FunctionLibraryE
++ __ZZN2RB6Filter11RenderGroup22resolve_unary_subgroupERNS_10RenderPassEPNS1_13MultipassInfoEPvE15aux_attachments
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_15EvE6kernel
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_15EvENK3$_0clEv
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_23EvE6kernel
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_23EvENK3$_0clEv
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_31EvE6kernel
++ __ZZN2RB6Filter16NarrowBlurKernel13max_kernel_31EvENK3$_0clEv
++ __ZZN2RB6Symbol9Animation25make_replace_to_keyframesEfjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEjjE12alpha_values
++ __ZZN2RB6Symbol9Animation27make_replace_from_keyframesEjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEjjE12alpha_values
++ __ZZN2RB9CGContext19apply_component_lutEhPKjE7permute
++ __ZZNK2RB10ColorSpace14cg_color_spaceEbE4lock
++ __ZZNK2RB10ColorSpace14cg_color_spaceEbE5cache
++ __ZZNK2RB11DisplayList15CachedTransform9mix_styleERKNS0_12Interpolator5StateEPKNS0_5StyleES8_bENK3$_0clEPS6_S8_b
++ __ZZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsERKS4_PS5_jfPKNS0_4ItemEPKDv4_fE12allow_inline
++ __ZZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsERKS4_PS5_jfPKNS0_4ItemEPKDv4_fENK3$_1clESA_
++ __ZZNK2RB5TableIP15_RBDrawingStatemE8for_eachIZNS_3XML8Document9add_stateES2_E3$_0EEvRKT_ENUlPKvSC_SC_E_8__invokeESC_SC_SC_
++ __ZZNK2RB5TableIP8NSStringjE8for_eachIZNS_6Symbol10GlyphCache3tagENS5_3TagEE3$_0EEvRKT_ENUlPKvSD_SD_E_8__invokeESD_SD_SD_
++ __ZZNK2RB5TableIPKNS_15TextureCacheKeyEPNS_12TextureCacheEE8for_eachIZNS_6Device25invalidate_texture_cachesERS2_E3$_0EEvRKT_ENUlPKvSF_SF_E_8__invokeESF_SF_SF_
++ __ZZNK2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE8for_eachIZZNS4_23remove_function_libraryERNS_12CustomShader7LibraryEEUb_E4$_13EEvRKT_ENUlPKvSH_SH_E_8__invokeESH_SH_SH_
++ __ZZNK2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE8for_eachIZNS_6DeviceD1EvE3$_0EEvRKT_ENUlPKvSE_SE_E_8__invokeESE_SE_SE_
++ __ZZNK2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE8for_eachIZZNS_6Device22function_library_errorERKS4_P7NSErrorEUb0_E4$_14EEvRKT_ENUlPKvSI_SI_E_8__invokeESI_SI_SI_
++ __ZZNK2RB5TableIPU19objcproto9MTLDevice11objc_objectP8RBDeviceE8for_eachIZ22+[RBDevice allDevices]E3$_2EEvRKT_ENUlPKvSC_SC_E_8__invokeESC_SC_SC_
++ __ZZNK2RB6Symbol12Presentation4drawEP15_RBDrawingStatefU13block_pointerF7RBColor13RBSymbolStyleP8NSStringEU13block_pointerFbP6RBFill6CGRectS5_S7_EEN13ResolvedColorD1Ev
++ __ZZNK2RB6Symbol9Animation23replace_slash_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE14add_stroke_end
++ __ZZNK2RB6Symbol9Animation23replace_slash_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE17remove_stroke_end
++ __ZZNK2RB6Symbol9Animation24variable_value_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE12alpha_values
++ __ZZNK2RB6Symbol9Animation24variable_value_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE9keyframes
++ __ZZNK2RB6Symbol9Keyframes5printERNS_10SexpStringEjPKNS0_15KeyframeStorageEE14property_names
++ __ZZNK2RB6Symbol9Keyframes5printERNS_10SexpStringEjPKNS0_15KeyframeStorageEE9flag_bits
++ __ZZNK2RB8Coverage9Primitive4fillERNS_9CGContextERKNS_4Fill5ColorEENK3$_1clIZNKS1_4fillES3_S7_E3$_3EEDaT_
++ __ZZNK2RB8Coverage9Primitive4fillERNS_9CGContextERKNS_4Fill5ColorEENK3$_1clIZNKS1_4fillES3_S7_E3$_4EEDaT_
++ __ZZNK2RB8Function4Info21make_stitched_libraryEPU19objcproto9MTLDevice11objc_objectPU21objcproto10MTLLibrary11objc_objectS5_PP7NSErrorEN3$_0D1Ev
++ __ZZNK2RB9ColorMode12pixel_formatEPKNS_6DeviceEjPjE7formats
++ __ZZZN2RB12verbose_modeEjENK3$_0clEvE5flags
++ __ZZZN2RB18SharedSurfaceGroup16schedule_updatesEvEUb_EN3$_58__invokeEPv
++ __ZZZN2RB23iosurface_pixel_formatsEvENK3$_0clEvE10xr10_types
++ __ZZZN2RB23iosurface_pixel_formatsEvENK3$_0clEvE11other_types
++ __ZZZN2RB23iosurface_pixel_formatsEvENK3$_0clEvE11yuv12_types
++ __ZZZN2RB23iosurface_pixel_formatsEvENK3$_0clEvE22other_compressed_types
++ __ZZZN2RB23iosurface_pixel_formatsEvENK3$_0clEvE9yuv_types
++ ___28-[RBLayerGroup endInstance:]_block_invoke
++ ___29-[RBLayerGroup beginInstance]_block_invoke
++ ___31-[RBDisplayList drawDebugSeed:]_block_invoke
++ ___38-[RBLayer displayWithBounds:callback:]_block_invoke.30
++ ___38-[RBLayer displayWithBounds:callback:]_block_invoke.33
++ ___38-[RBLayer displayWithBounds:callback:]_block_invoke_2.36
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.48
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.55
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.52
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.56
++ ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.53
++ ___Block_byref_object_copy_.57
++ ___Block_byref_object_copy_.60
++ ___Block_byref_object_dispose_.58
++ ___Block_byref_object_dispose_.61
++ ____ZL29init_background_notificationsPU19objcproto9MTLDevice11objc_object_block_invoke
++ ____ZL29init_background_notificationsPU19objcproto9MTLDevice11objc_object_block_invoke.cold.1
++ ____ZN12_GLOBAL__N_121cgpath_apply_elementsEPK6CGPathPvPFbS3_13RBPathElementPKdPKvE_block_invoke
++ ____ZN2RB11RenderFrameD2Ev_block_invoke.1
++ ____ZN2RB11RenderFrameD2Ev_block_invoke.1.cold.1
++ ____ZN2RB11RenderFrameD2Ev_block_invoke_2
++ ____ZN2RB12CommitMarker8ObserverC2EP9CAContext_block_invoke
++ ____ZN2RB13ImageProvider13render_deviceEv_block_invoke.4
++ ____ZN2RB15FunctionLibrary14compile_shaderERNS_6DeviceERKNS_12CustomShader7ClosureENS3_4TypeEPP7NSError_block_invoke.62
++ ____ZN2RB18SharedSurfaceGroup21render_updates_deviceERNS_6vectorINS0_13SurfaceUpdateELm4EjEE_block_invoke
++ ____ZN2RB19ObjcEncoderDelegate16encode_message_fIZ41-[RBShader encodedDataForDelegate:error:]E3$_3Z41-[RBShader encodedDataForDelegate:error:]E3$_4EEP6NSDataRKT_RKT0__block_invoke
++ ____ZN2RB6Device19RenderPipelineEntry6Loader14load_custom_fnEv_block_invoke
++ ____ZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSError_block_invoke
++ ____ZN2RB6Symbol5Glyph18make_legacy_layersEf_block_invoke.23
++ ____ZNK2RB6Symbol12Presentation4drawEP15_RBDrawingStatefU13block_pointerF7RBColor13RBSymbolStyleP8NSStringEU13block_pointerFbP6RBFill6CGRectS5_S7_E_block_invoke
++ ____ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingState7RBColor11RBBlendModeRKNS2_10DrawParamsERKNS_15AffineTransformERKNS0_12PresentationE_block_invoke
++ ____ZNK2RB8Function4Info21make_stitched_libraryEPU19objcproto9MTLDevice11objc_objectPU21objcproto10MTLLibrary11objc_objectS5_PP7NSError_block_invoke
++ ____ZZZN2RB6Device22function_library_errorERKNS_15FunctionLibraryEP7NSErrorEUb0_ENK4$_14clIPNS_12CustomShader7LibraryEPS1_EEDaT_T0__block_invoke
++ ___block_descriptor_123_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE96c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
++ ___block_descriptor_151_e8_32o40o48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE_e5_v8?0l
++ ___block_descriptor_152_e16_48b64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
++ ___block_descriptor_40_e35_v24?0"<MTLFunction>"8"NSError"16l
++ ___block_descriptor_40_e66_B60?0"RBFill"8{CGRect={CGPoint=dd}{CGSize=dd}}16I48"NSString"52l
++ ___block_descriptor_40_e8_32c54_ZTSN2RB14refcounted_ptrINS_12CommitMarker8ObserverEEE_e5_v8?0l
++ ___block_descriptor_40_e8_32o_e66_B60?0"RBFill"8{CGRect={CGPoint=dd}{CGSize=dd}}16I48"NSString"52ls32l8
++ ___block_descriptor_44_e8_32c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE_e5_v8?0l
++ ___block_descriptor_44_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE_e28_v16?0"<MTLCommandBuffer>"8l
++ ___block_descriptor_48_e5_v8?0ls40l8
++ ___block_descriptor_49_e8_32b_e5_v8?0ls32l8
++ ___block_descriptor_52_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE_e5_v8?0l
++ ___block_descriptor_52_e8_32o_e5_v8?0ls32l8
++ ___block_descriptor_68_e8_32c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE40c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE48c59_ZTSN2RB8objc_ptrIPU22objcproto11RBEncodable11objc_objectEE_e28_v16?0"<MTLCommandBuffer>"8l
++ ___block_descriptor_69_e8_32c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e9_v16?0^v8l
++ ___block_descriptor_72_e19_"<MTLTexture>"8?0l
++ ___block_descriptor_72_e8_32rc_e19_"<MTLTexture>"8?0lr32l8
++ ___block_descriptor_76_e8_32rc40rc48r_e5_v8?0lr32l8r40l8r48l8
++ ___block_descriptor_80_e8_32b40b48rc_e16_v16?0"RBFill"8ls32l8r48l8s40l8
++ ___block_descriptor_85_e8_32rc64c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE72c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE_e5_v8?0l
++ ___block_descriptor_93_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e9_v16?0^v8l
++ ___block_descriptor_96_e8_32r40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE_e19_"<MTLTexture>"8?0l
++ ___copy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE96c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___copy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE96c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___copy_helper_block_e8_32c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE
++ ___copy_helper_block_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE
++ ___copy_helper_block_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE.cold.1
++ ___copy_helper_block_e8_32c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ ___copy_helper_block_e8_32c54_ZTSN2RB14refcounted_ptrINS_12CommitMarker8ObserverEEE
++ ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
++ ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
++ ___destroy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE96c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___destroy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE96c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
++ ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE104c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
++ ___destroy_helper_block_e8_32c35_ZTSN2RB8objc_ptrIP12RBLayerGroupEE
++ ___destroy_helper_block_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE
++ ___destroy_helper_block_e8_32c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE40c29_ZTSN2RB8objc_ptrIP7NSErrorEE.cold.1
++ ___destroy_helper_block_e8_32c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c29_ZTSN2RB8objc_ptrIP7RBLayerEE
++ ___destroy_helper_block_e8_32c54_ZTSN2RB14refcounted_ptrINS_12CommitMarker8ObserverEEE
++ ___destroy_helper_block_e8_32c54_ZTSN2RB14refcounted_ptrINS_12CommitMarker8ObserverEEE.cold.1
++ ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
++ ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE120c40_ZTSN2RB8objc_ptrIU13block_pointerFvvEEE128c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
++ __os_log_disabled
++ __simd_exp_f4
++ __simd_log_f4
++ _cosf
++ _dispatch_apply_f
++ _kCFTypeArrayCallBacks
++ _kCGColorSpaceITUR_2100_HLG
++ _kCGImageProviderContentHeadroom
++ _kCIContextAllowLowPower
++ _kCIContextCacheIntermediates
++ _kCIContextName
++ _kCIContextUseSoftwareRenderer
++ _kCIContextWorkingColorSpace
++ _kCIContextWorkingFormat
++ _kCIFormatBGRA8
++ _kCIFormatRGBAh
++ _kCIInputImageKey
++ _kCIOutputImageKey
++ _kIOSurfaceContentHeadroom
++ _malloc_type_calloc
++ _objc_msgSend$HDRMode
++ _objc_msgSend$addScheduledHandler:
++ _objc_msgSend$attachments
++ _objc_msgSend$contentHeadroom
++ _objc_msgSend$contextWithCGContext:options:
++ _objc_msgSend$currentEDRHeadroom
++ _objc_msgSend$displayHeadroomLimit
++ _objc_msgSend$displayHeadroomMayHaveChanged
++ _objc_msgSend$drawAttachments
++ _objc_msgSend$drawDisplayList:
++ _objc_msgSend$drawImage:inRect:fromRect:
++ _objc_msgSend$extent
++ _objc_msgSend$fillStyle
++ _objc_msgSend$from
++ _objc_msgSend$gradientAlignsToLayer
++ _objc_msgSend$gradientType
++ _objc_msgSend$imageByApplyingTransform:
++ _objc_msgSend$imageWithCGImage:
++ _objc_msgSend$initWithFormat:
++ _objc_msgSend$initWithLibrary:function:
++ _objc_msgSend$iosurface
++ _objc_msgSend$library
++ _objc_msgSend$null
++ _objc_msgSend$participatesInVariableDraw
++ _objc_msgSend$resolveFill:alignmentRect:style:colorName:
++ _objc_msgSend$restore
++ _objc_msgSend$save
++ _objc_msgSend$setCGColor:
++ _objc_msgSend$setContentsMaximumDesiredEDR:
++ _objc_msgSend$setGlyphs:positions:count:font:renderingStyle:
++ _objc_msgSend$setHeadroom:
++ _objc_msgSend$setPipelineOptions:
++ _objc_msgSend$setToneMapMode:
++ _objc_msgSend$setType:
++ _objc_msgSend$setValue:forKey:
++ _objc_msgSend$setWantsExtendedDynamicRangeContent:
++ _objc_msgSend$sharedDevice
++ _objc_msgSend$supportsBackgroundAppRole
++ _objc_msgSend$systemLibrary
++ _objc_msgSend$targetHeadroom
++ _objc_msgSend$to
++ _objc_msgSend$valueForKey:
++ _objc_msgSend$variableDrawLength
++ _objc_msgSend$variableDrawOffset
++ _objc_msgSend$wantsExtendedDynamicRangeContent
++ _objc_release_x1
++ _objc_retain_x25
++ _strncasecmp_l
++ _strtoul
++ _sysctlbyname
++ _vImageAffineWarp_ARGB16F
++ _vImageBuffer_Init
++ _vImageCopyBuffer
++ _vImageExtractChannel_ARGB16U
++ _vImageExtractChannel_ARGB8888
++ _vImageOverwriteChannelsWithPixel_ARGB16U
++ _vImageOverwriteChannelsWithScalar_Planar8
++ _vImageOverwriteChannels_ARGB16U
++ _vImagePerspectiveWarp_ARGB16F
++ _vImagePerspectiveWarp_ARGB8888
++ _vImagePerspectiveWarp_Planar8
++ _vImagePremultiplyData_RGBA16F
++ _vImageSepConvolve_ARGB8888
++ _vImageSepConvolve_Planar16F
++ _vImageSepConvolve_Planar8
++ _vImageSepConvolve_PlanarF
++ _vImageUnpremultiplyData_RGBA16F
+- -[CALayer(RBAnimationTimer) screen]
+- -[CALayer(RBAnimationTimer) screen].cold.1
+- -[RBLayer setSubsurface:rotated:bounds:contentsScale:locked:]
+- -[RBShape setStrokedRect:lineWidth:].cold.1
+- -[RBSymbolShapeLayer .cxx_construct]
+- -[RBSymbolShapeLayer .cxx_destruct]
+- -[RBSymbolShapeLayer initWithLayer:]
+- -[RBSymbolShapeLayer renderInContext:]
+- -[RBSymbolShapeLayer setRBPath:]
+- GCC_except_table1020
+- GCC_except_table1057
+- GCC_except_table1096
+- GCC_except_table111
+- GCC_except_table1133
+- GCC_except_table1167
+- GCC_except_table1170
+- GCC_except_table120
+- GCC_except_table1235
+- GCC_except_table1265
+- GCC_except_table1268
+- GCC_except_table1298
+- GCC_except_table132
+- GCC_except_table1328
+- GCC_except_table136
+- GCC_except_table138
+- GCC_except_table143
+- GCC_except_table1699
+- GCC_except_table1714
+- GCC_except_table1732
+- GCC_except_table177
+- GCC_except_table190
+- GCC_except_table201
+- GCC_except_table210
+- GCC_except_table218
+- GCC_except_table220
+- GCC_except_table222
+- GCC_except_table240
+- GCC_except_table246
+- GCC_except_table255
+- GCC_except_table264
+- GCC_except_table271
+- GCC_except_table274
+- GCC_except_table276
+- GCC_except_table286
+- GCC_except_table291
+- GCC_except_table297
+- GCC_except_table298
+- GCC_except_table299
+- GCC_except_table301
+- GCC_except_table308
+- GCC_except_table332
+- GCC_except_table348
+- GCC_except_table351
+- GCC_except_table379
+- GCC_except_table384
+- GCC_except_table432
+- GCC_except_table433
+- GCC_except_table453
+- GCC_except_table455
+- GCC_except_table457
+- GCC_except_table467
+- GCC_except_table679
+- GCC_except_table68
+- GCC_except_table72
+- GCC_except_table725
+- GCC_except_table73
+- GCC_except_table74
+- GCC_except_table755
+- GCC_except_table757
+- GCC_except_table774
+- GCC_except_table828
+- GCC_except_table858
+- GCC_except_table860
+- GCC_except_table877
+- GCC_except_table89
+- GCC_except_table929
+- GCC_except_table959
+- GCC_except_table961
+- GCC_except_table978
+- GCC_except_table99
+- _CGColorSpaceCreateWithPropertyList
+- _CGColorSpaceGetName
+- _CGPathGetNumberOfElements
+- _CGPathGetNumberOfPoints
+- _IOSurfaceCopyValue
+- _OBJC_CLASS_$_CAShapeLayer
+- _OBJC_CLASS_$_RBSymbolShapeLayer
+- _OBJC_IVAR_$_RBSymbolShapeLayer._rbPath
+- _OBJC_METACLASS_$_CAShapeLayer
+- _OBJC_METACLASS_$_RBSymbolShapeLayer
+- _RBColorFromComponents2.cold.1
+- _RBSymbolUpdateLayerPath.cold.3
+- _RBSymbolUpdateLayerPath.cold.4
+- __OBJC_$_CATEGORY_CALayer_$_RBAnimationTimer
+- __OBJC_$_CATEGORY_INSTANCE_METHODS_CALayer_$_RBAnimationTimer
+- __OBJC_$_INSTANCE_METHODS_RBSymbolShapeLayer
+- __OBJC_$_INSTANCE_VARIABLES_RBSymbolShapeLayer
+- __OBJC_CLASS_RO_$_RBSymbolShapeLayer
+- __OBJC_METACLASS_RO_$_RBSymbolShapeLayer
+- __Z21RBGetCachedMTLTextureRKN2RB12RenderParamsEPU21objcproto10MTLTexture11objc_objectRKNS_4Fill9ImageDataEPKNS_15AffineTransformEj
+- __Z22RBMakeCachedMTLTextureRKN2RB12RenderParamsEPU21objcproto10MTLTexture11objc_objectRKNS_4Fill9ImageDataEPKNS_15AffineTransformEj
+- __Z23RBInvalidateCachedImagePN2RB6DeviceEP7CGImage
+- __ZGVZN12_GLOBAL__N_17Updater19update_shape_layersEbE11shape_color
+- __ZGVZN2RB10RenderPass19resolve_framebufferEPNS_7TextureES2_PKNS_10RenderTaskEE15reference_white
+- __ZGVZN2RB10RenderTask13schedule_manyEmPKPS0_Dv2_iPvE11print_tasks
+- __ZGVZN2RB11DisplayList11render_manyERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvEmPKNS0_10RenderableEE10print_tree
+- __ZGVZN2RB12_GLOBAL__N_116extended_p3_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_118extended_srgb_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_123extended_linear_p3_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_125extended_linear_srgb_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_17p3_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_17pq_dataEvE1r
+- __ZGVZN2RB12_GLOBAL__N_19srgb_dataEvE1r
+- __ZGVZN2RB6Symbol12Presentation6sharedEvE6shared
+- __ZGVZN2RB9ColorModeC1E11RBColorModeE9overrides
+- __ZGVZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsEPKS4_jPKNS0_4ItemEPKDv4_fE12allow_inline
+- __ZL10uiview_cls
+- __ZL11screen_once
+- __ZL15background_once
+- __ZL17collect_resourcesPv
+- __ZL29init_background_notificationsPv
+- __ZL29init_background_notificationsPv.cold.1
+- __ZN2RB10RenderTask10set_parentEPS0_
+- __ZN2RB10RenderTask13schedule_manyEmPKPS0_Dv2_iPv
+- __ZN2RB10RenderTask13schedule_manyEmPKPS0_Dv2_iPv.cold.1
+- __ZN2RB10TransitionC2ERKS0_
+- __ZN2RB11DisplayList11EditAdaptor12mix_elementsERNS0_12Interpolator5LayerEjRKNS1_7ElementES7_
+- __ZN2RB11DisplayList11EditAdaptor14finalize_groupERNS0_12Interpolator5LayerENS_10Transition6MethodEjjPNS1_7ElementEjS8_j
+- __ZN2RB11DisplayList11EditAdaptorD1Ev
+- __ZN2RB11DisplayList11FilterStyleINS_6Filter6CustomEEC2IJRS3_EEEDpOT_
+- __ZN2RB11DisplayList11FilterStyleINS_6Filter6CustomEEC2IJRS3_EEEDpOT_.cold.1
+- __ZN2RB11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill12MeshGradientEE11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill5ColorEE11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill5ImageINS_12ImageTextureEEEE11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill6CustomEE11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill8GradientEE11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList11RootTexture12make_textureERNS0_11RenderStateE
+- __ZN2RB11DisplayList11RootTexture6renderEPv
+- __ZN2RB11DisplayList11RootTexture6renderEPv.cold.1
+- __ZN2RB11DisplayList11RootTexture6renderEPv.cold.2
+- __ZN2RB11DisplayList11RootTexture8finalizeEv
+- __ZN2RB11DisplayList11RootTextureD0Ev
+- __ZN2RB11DisplayList11RootTextureD1Ev
+- __ZN2RB11DisplayList11render_manyERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvEmPKNS0_10RenderableE
+- __ZN2RB11DisplayList11render_manyERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvEmPKNS0_10RenderableE.cold.1
+- __ZN2RB11DisplayList12Interpolator5LayerD1Ev
+- __ZN2RB11DisplayList13GenericEffectINS_12CustomEffectEEC2IJRKNS_12CustomShader7ClosureERPNS0_5LayerERDv2_fSD_RKNS_4RectERKNS_15AffineTransformERKjEEEDpOT_
+- __ZN2RB11DisplayList13GenericEffectINS_12CustomEffectEEC2IJRKNS_12CustomShader7ClosureERPNS0_5LayerERDv2_fSD_RKNS_4RectERKNS_15AffineTransformERKjEEEDpOT_.cold.1
+- __ZN2RB11DisplayList13PackedTexture6renderEPv
+- __ZN2RB11DisplayList13PackedTexture8finalizeEv
+- __ZN2RB11DisplayList13PackedTextureD0Ev
+- __ZN2RB11DisplayList13PackedTextureD1Ev
+- __ZN2RB11DisplayList19InvertiblePredicateC2ERKNS0_9PredicateEb
+- __ZN2RB11DisplayList19affine_style_boundsEPKNS0_5StyleEPKNS0_4ItemEjRKNS_15AffineTransformE
+- __ZN2RB11DisplayList23projection_style_boundsEPKNS0_5StyleEPKNS0_4ItemEjRKNS_16ProjectionMatrixE
+- __ZN2RB11DisplayList4Item11append_blurEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList5Layer13discard_colorEv
+- __ZN2RB11DisplayList5Layer15apply_transformERKNS0_9TransformERNS0_8ContentsE
+- __ZN2RB11DisplayList5Layer4blitERNS0_11RenderStateERNS_10RenderPassEPNS_7TextureENS_4RectES8_Dv2_iNS1_6EffectEPKNS1_10EffectDataENS_17InterpolationModeEbfNS_9BlendModeEbh
+- __ZN2RB11DisplayList5Layer6decodeERNS_7DecoderE
+- __ZN2RB11DisplayList5State18add_alpha_gradientERNS0_7BuilderEmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEPKdj
+- __ZN2RB11DisplayList5State19add_alpha_thresholdERNS0_7BuilderEDv2_fNS_4Fill5ColorE
+- __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsENS_10RenderPass12InitialStateEDv4_fPv
+- __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsENS_10RenderPass12InitialStateEDv4_fPv.cold.1
+- __ZN2RB11DisplayList6renderERKNS0_8ContentsERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvENS_6BoundsENS_10RenderPass12InitialStateEDv4_fPv.cold.2
+- __ZN2RB11DisplayList7Builder12ensure_layerEPNS0_4ItemEfj
+- __ZN2RB11DisplayList7Builder14reset_contentsEv
+- __ZN2RB11DisplayList7Builder14reset_contentsEv.cold.1
+- __ZN2RB11DisplayList7Builder15make_layer_itemEPNS0_5LayerEfNS_9BlendModeEfRKNS_15AffineTransformE
+- __ZN2RB11DisplayList7Builder16merge_layer_itemERNS0_5LayerEj
+- __ZN2RB11DisplayList7Builder19simplify_clip_layerEPNS0_5LayerENS_8ClipModeE
+- __ZN2RB11DisplayList8Metadata6TraitsILNS1_4TypeE1EE6retainEPKNS_10TransitionERNS0_8ContentsE
+- __ZN2RB11DisplayList8Metadata6TraitsILNS1_4TypeE3EE6retainERPKNS_12TextIdentityERNS0_8ContentsE
+- __ZN2RB11DisplayList9LayerClipC1EPNS0_5LayerEfNS_8ClipModeE
+- __ZN2RB11DisplayList9LayerClipC2EPNS0_5LayerEfNS_8ClipModeE
+- __ZN2RB11DisplayList9LayerTask11append_taskEPS1_RPPNS_8ListNodeIKNS0_4ItemEEERi
+- __ZN2RB11DisplayList9LayerTask11append_taskEPS1_RPPNS_8ListNodeIKNS0_4ItemEEERi.cold.1
+- __ZN2RB11DisplayList9LayerTask11append_taskEPS1_RPPNS_8ListNodeIKNS0_4ItemEEERi.cold.2
+- __ZN2RB11DisplayList9LayerTask8add_taskEmmONS_14refcounted_ptrIS1_EE
+- __ZN2RB11DisplayList9LayerTaskD2Ev
+- __ZN2RB11RenderFrame12copy_textureEPNS_7TextureENS_10ColorSpaceEjRKNS_12RenderParamsES2_
+- __ZN2RB11RenderFrame12copy_textureEPNS_7TextureENS_10ColorSpaceEjRKNS_12RenderParamsES2_.cold.1
+- __ZN2RB11RenderFrame16add_continuationEPU28objcproto17OS_dispatch_queue8NSObjectU13block_pointerFvvE
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEjS3_P13_CAImageQueue
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEjS3_P13_CAImageQueue.cold.1
+- __ZN2RB11SurfacePool5allocEPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEjS3_P13_CAImageQueue.cold.2
+- __ZN2RB11SurfacePool7deallocEPNS_7SurfaceEP13_CAImageQueue.cold.3
+- __ZN2RB12JSONPipelineD1Ev
+- __ZN2RB12RenderParamsC1ERNS_11RenderFrameE14MTLPixelFormatDv2_ifNS_10ColorSpaceES5_NS_10ColorDepthEb
+- __ZN2RB12RenderParamsC1ERNS_11RenderFrameERKNS_7SurfaceEf
+- __ZN2RB12TextureCache14take_availableE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageENS_12PixelSwizzleEb
+- __ZN2RB12UntypedTable14create_bucketsEv
+- __ZN2RB12UntypedTable9remove_ifEPFbPKvS2_PvES3_
+- __ZN2RB12UntypedTableC2EPFmPKvEPFbS2_S2_EPFvPvES9_PNS_4HeapE
+- __ZN2RB12_GLOBAL__N_113vimage_bufferEP9CGContext
+- __ZN2RB12_GLOBAL__N_116extended_p3_dataEv
+- __ZN2RB12_GLOBAL__N_118extended_srgb_dataEv
+- __ZN2RB12_GLOBAL__N_121make_stitched_libraryERKNS_12CustomShader8FunctionENS1_4TypeERKNSt3__14spanIKNS1_5ValueELm18446744073709551615EEEPU19objcproto9MTLDevice11objc_objectPU21objcproto10MTLLibrary11objc_objectSG_RNS0_12FunctionInfoEPP7NSError
+- __ZN2RB12verbose_modeEv
+- __ZN2RB12verbose_modeEv.cold.1
+- __ZN2RB13ImageProviderC1EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectDv2_if14MTLPixelFormatNS_10ColorSpaceES7_NS_10RenderPass12InitialStateE7RBColorb
+- __ZN2RB13ImageProviderC2EP8RBDevicePU33objcproto22_RBDisplayListContents11objc_objectDv2_if14MTLPixelFormatNS_10ColorSpaceES7_NS_10RenderPass12InitialStateE7RBColorb
+- __ZN2RB13SharedSurface11AsyncUpdateD1Ev
+- __ZN2RB13SharedSurface11AsyncUpdateD1Ev.cold.1
+- __ZN2RB13cubic_index_fIfEET_Dv2_S1_S2_S2_S2_S1_S1_
+- __ZN2RB13pq_colorspaceEv
+- __ZN2RB13pq_colorspaceEv.cold.1
+- __ZN2RB14cg_color_spaceENS_10ColorSpaceEb
+- __ZN2RB14cubic_length_fIdEET_Dv2_S1_S2_S2_S2_S1_
+- __ZN2RB15ContextDelegate11draw_image_EP17CGContextDelegateP16CGRenderingStateP8CGGState6CGRectP7CGImagePKS7_
+- __ZN2RB15ProtobufEncoderD1Ev
+- __ZN2RB16JSONPipelineDataD1Ev
+- __ZN2RB16color_space_nameENS_10ColorSpaceE
+- __ZN2RB17RenderTaskTexture16render_all_tasksERNS_10RenderPassEPv
+- __ZN2RB17RenderTaskTexture19render_dependenciesEPv
+- __ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE
+- __ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE.cold.1
+- __ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE.cold.2
+- __ZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEb
+- __ZN2RB18SharedSurfaceGroup21render_updates_deviceEv
+- __ZN2RB18prefix_suffix_diffINS_11DisplayList11EditAdaptor7ElementEZNS2_14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPS3_jS9_jE3$_0ZNS2_14finalize_groupES6_S8_jjS9_jS9_jE3$_2EEvmPT_mSD_RKT0_RKT1_bb
+- __ZN2RB19color_space_to_srgbENS_10ColorSpaceE
+- __ZN2RB22SharedSurfaceTimestamp4testEv
+- __ZN2RB22SharedSurfaceTimestamp6attachEP9CAContext
+- __ZN2RB24color_depth_layer_formatENS_10ColorDepthEbPNS_6DeviceE
+- __ZN2RB24color_space_from_cg_nameEPK10__CFString
+- __ZN2RB3XML11DisplayList16add_shadow_styleERNS0_8DocumentEP15_RBDrawingStatedfRK6CGSizeRK7RBColor12RBColorSpace11RBBlendModej
+- __ZN2RB3XML11DisplayList19add_distance_filterERNS0_8DocumentEP15_RBDrawingStateddj
+- __ZN2RB3XML11DisplayList20add_grayscale_filterERNS0_8DocumentEP15_RBDrawingStatefj
+- __ZN2RB3XML11DisplayList25add_alpha_gradient_filterERNS0_8DocumentEP15_RBDrawingStatelPK7RBColor12RBColorSpacePKdj
+- __ZN2RB3XML11DisplayList25add_alpha_multiply_filterERNS0_8DocumentEP15_RBDrawingState7RBColor12RBColorSpacej
+- __ZN2RB3XML11DisplayList25add_color_multiply_filterERNS0_8DocumentEP15_RBDrawingState7RBColor12RBColorSpacej
+- __ZN2RB3XML11DisplayList26add_alpha_threshold_filterERNS0_8DocumentEP15_RBDrawingStateff7RBColor12RBColorSpace
+- __ZN2RB3XML11DisplayList26add_luminance_curve_filterERNS0_8DocumentEP15_RBDrawingStatePKf7RBColor12RBColorSpacej
+- __ZN2RB3XML11DisplayList27add_color_monochrome_filterERNS0_8DocumentEP15_RBDrawingStatef7RBColor12RBColorSpacefj
+- __ZN2RB4Fill17set_image_stretchERNS_6Shader19ImageStretchGlobalsERKNS1_12ImageGlobalsE
+- __ZN2RB4Fill5Color13convert_colorENS_10ColorSpaceEDv3_DF16_S2_
+- __ZN2RB4Fill5Color7convertENS_10ColorSpaceE
+- __ZN2RB4Fill6CustomC2ERKNS_12CustomShader7ClosureERKNS_4RectEj
+- __ZN2RB4Fill6CustomC2ERKNS_12CustomShader7ClosureERKNS_4RectEj.cold.1
+- __ZN2RB4Fill6CustomC2ERKS1_NSt3__18optionalINS_10ColorSpaceEEERNS_4HeapE
+- __ZN2RB4Fill6CustomC2ERKS1_NSt3__18optionalINS_10ColorSpaceEEERNS_4HeapE.cold.1
+- __ZN2RB4Fill8Gradient5Flags16interp_midpointsE
+- __ZN2RB4Fill8GradientC1ERNS_4HeapENS1_4TypeEmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEPKdDv2_fSE_ffj
+- __ZN2RB4Fill8GradientC2ERNS_4HeapENS1_4TypeEmPK7RBColorNSt3__18optionalINS_10ColorSpaceEEEPKdDv2_fSE_ffj
+- __ZN2RB4Heap7emplaceINS_11DisplayList10CustomItemEJRU13block_pointerFvP18RBMetalRenderStateERjPKNS_15AffineTransformERKNS_4RectERfRNS_9BlendModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter10RGBACurvesEEEJRS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter10RGBACurvesEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter11ColorMatrixEEEJRS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter11ColorMatrixEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter12GaussianBlurEEEJRfEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter12GaussianBlurEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEEEJRS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter6CustomEEEJRS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter6CustomEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter8DistanceEEEJRS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11FilterStyleINS_6Filter8DistanceEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage4PathEEEJRS0_RKS5_RKfRNS_8ClipModeERPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage4PathEEEJRS0_RKS5_fRKNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage6GlyphsEEEJRS0_RKS5_RKfRNS_8ClipModeERPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage6GlyphsEEEJRS0_RKS5_fRKNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage6StrokeI11RBStrokeRefEEEEJRS0_RKS7_RKfRNS_8ClipModeERPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage6StrokeI11RBStrokeRefEEEEJRS0_RKS7_fRKNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage6StrokeINS4_14StrokeablePathEEEEEJRS0_RKS7_fRKNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage9PrimitiveEEEJRS0_RKS5_RfRNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage9PrimitiveEEEJRS0_RKS5_fRKNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericClipINS_8Coverage9PrimitiveEEEJRS0_RS5_iRNS_8ClipModeEPKNS_15AffineTransformEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill5ColorEEEJRS0_RKS5_S7_RPKNS_15AffineTransformERfRNS_9BlendModeENSt3__18optionalINS_10ColorSpaceEEEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11GenericItemINS_8Coverage9PrimitiveENS_4Fill8GradientEEEJRS0_RKS5_RS7_RPKNS_15AffineTransformERfRNS_9BlendModeENSt3__18optionalINS_10ColorSpaceEEEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11RootTextureEJRU13block_pointerFPU21objcproto10MTLTexture11objc_objectvERNS_10RenderPass12InitialStateEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList11ShadowStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_12CustomEffectEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_12CustomEffectEEEJRKNS_12CustomShader7ClosureERPNS2_5LayerERDv2_fSE_RKNS_4RectERKNS_15AffineTransformERKjEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_19AlphaGradientEffectEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_19AlphaGradientEffectEEEJRKS4_RNS2_8ContentsEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_19AlphaGradientEffectEEEJRS0_RmRPK7RBColorNSt3__18optionalINS_10ColorSpaceEEERPKdRjEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_19AlphaGradientEffectEEEJRS0_iRA2_7RBColorRKNSt3__18optionalINS_10ColorSpaceEEERA3_dRKjEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_20AlphaThresholdEffectEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_20AlphaThresholdEffectEEEJRDv2_fRNS_4Fill5ColorEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericEffectINS_20AlphaThresholdEffectEEEJRKS4_RNS2_8ContentsEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter10RGBACurvesEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter11ColorMatrixEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter12GaussianBlurEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter6CustomEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13GenericFilterINS_6Filter8DistanceEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE0EEEJRPKS4_PNS_4UUIDEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE1EEEJRPKS4_PKNS_10TransitionEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE1EEEJRPKS4_RPKNS_10TransitionEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE1EEEJRPKS4_RPNS_10TransitionEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE2EEEJRPKS4_RKfEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE2EEEJRPKS4_fEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE3EEEJRPKS4_RKPKNS_12TextIdentityEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE3EEEJRPKS4_RPKNS_12TextIdentityEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE4EEEJRPKS4_RKNS_14AnimationLayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13MetadataValueILNS2_8Metadata4TypeE4EEEJRPKS4_RNS_14AnimationLayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList13PackedTextureEJRK14MTLPixelFormatRKNS_10ColorSpaceERDv2_iEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14AnimationStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14AnimationStyleEJPKNS_9AnimationERKNS_4UUIDERKjEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14AnimationStyleEJRPKNS_9AnimationERKNS_4UUIDERjEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14CrossFadeStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14PredicateStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14PredicateStyleEJRKNS2_9PredicateERKbEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14PredicateStyleEJRKNS2_9PredicateERbEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList14TransformStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList15ProjectionStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList15ProjectionStyleEJRKNS_16ProjectionMatrixEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle10BrightnessEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle10BrightnessEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle10SaturationEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle10SaturationEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle11ColorInvertEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle11ColorInvertEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle11HueRotationEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle11HueRotationEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle13AlphaMultiplyEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle13AlphaMultiplyEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle13ColorMultiplyEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle13ColorMultiplyEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle15ColorMonochromeEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle15ColorMonochromeEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle16LuminanceToAlphaEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle16LuminanceToAlphaEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle8ContrastEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList16ColorFilterStyleINS_10ColorStyle8ContrastEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList17CustomEffectStyleEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList18AlphaGradientStyleEJRPNS2_13GenericEffectINS_19AlphaGradientEffectEEEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19AlphaThresholdStyleEJRPNS2_13GenericEffectINS_20AlphaThresholdEffectEEEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEEEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEEEJS5_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList19PathProjectionStyleEJRKS3_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList5LayerEJRjS4_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList8ClipNodeEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList8ClipNodeEJPKNS2_4ClipERPKS3_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList8ClipNodeEJRPKNS2_4ClipERPKS3_EEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList8ItemClipEJPNS2_4ItemERfRNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList8ItemClipEJRPNS2_4ItemEiNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJDnEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJPNS2_5LayerEfRNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJRPNS2_5LayerERKfRNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJRPNS2_5LayerERfRKNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerClipEJRPNS2_5LayerERfRNS_8ClipModeEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerItemEJRDF16_RKNS_9BlendModeERPNS2_5LayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerItemEJRDF16_RNS_9BlendModeERPNS2_5LayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerItemEJiNS_9BlendModeERPNS2_5LayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerItemEJiRNS_9BlendModeERPNS2_5LayerEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9LayerTaskEJRKNS2_5LayerER14MTLPixelFormatRNS_10ColorSpaceERNS_6BoundsESC_RbEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9SpillItemEJNS_6Shader9SpillModeERjRKDF16_RKNS_9BlendModeERNS_6BoundsERPNS2_11LayerFilterEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11DisplayList9SpillItemEJNS_6Shader9SpillModeERjiNS_9BlendModeERNS_6BoundsEDnEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11ObjectTableEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_11RenderFrame11RegionEntryEJNS2_9RegionKeyERKNS_12BufferRegionEEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_16ProjectionMatrixEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_6Filter11ColorMatrixEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_6Symbol5Glyph5LayerEJEEEPT_DpOT0_
+- __ZN2RB4Heap7emplaceINS_9BinPacker3binEJRiS4_RmEEEPT_DpOT0_
+- __ZN2RB4Path10ClipStroke11DistanceMap6appendEddd
+- __ZN2RB4Path10ClipStroke14make_keyframesENSt3__14spanIKNS1_8KeyframeELm18446744073709551615EEERKNS1_7SubpathERNS_6vectorINS1_14SingleKeyframeELm0EmEERd
+- __ZN2RB4Path10ClipStroke6cubetoEDv2_dS2_S2_
+- __ZN2RB4Path10ClipStroke6linetoEDv2_d
+- __ZN2RB4Path10ClipStroke6movetoEDv2_d
+- __ZN2RB4Path10ClipStroke6quadtoEDv2_dS2_
+- __ZN2RB4Path10ClipStroke7Clipper12clip_segmentIN2CG11LineSegmentEEEvRKT_df
+- __ZN2RB4Path10ClipStroke7Clipper12clip_segmentIN2CG5CubicEEEvRKT_df
+- __ZN2RB4Path10ClipStroke7Clipper12clip_segmentIN2CG9QuadraticEEEvRKT_df
+- __ZN2RB4Path10ClipStroke7Clipper12emit_segmentIN2CG11LineSegmentEEEvRKT_
+- __ZN2RB4Path10ClipStroke7Clipper12emit_segmentIN2CG5CubicEEEvRKT_
+- __ZN2RB4Path10ClipStroke7Clipper12emit_segmentIN2CG9QuadraticEEEvRKT_
+- __ZN2RB4Path10ClipStroke7Clipper13split_segmentIN2CG11LineSegmentEEEvT_d
+- __ZN2RB4Path10ClipStroke7Clipper13split_segmentIN2CG5CubicEEEvT_d
+- __ZN2RB4Path10ClipStroke7Clipper13split_segmentIN2CG9QuadraticEEEvT_d
+- __ZN2RB4Path10ClipStroke7Clipper15emit_undershootEv
+- __ZN2RB4Path10ClipStroke7Clipper17advance_keyframesEd
+- __ZN2RB4Path10ClipStroke7Clipper3runEv
+- __ZN2RB4Path10ClipStroke7Clipper8emit_capERKN2CG5PointERKNS3_6VectorEd
+- __ZN2RB4Path10ClipStroke7Subpath10add_cubetoEDv2_dS3_S3_d
+- __ZN2RB4Path10ClipStroke7Subpath10add_linetoEDv2_dd
+- __ZN2RB4Path10ClipStroke7Subpath10add_quadtoEDv2_dS3_d
+- __ZN2RB4Path10ClipStroke7Subpath12append_rangeERKS2_ddPNS1_11DistanceMapE
+- __ZN2RB4Path10ClipStroke7Subpath20append_logical_rangeERKS2_ddPNS1_11DistanceMapE
+- __ZN2RB4Path10ClipStroke7Subpath3addERKN2CG11LineSegmentEd
+- __ZN2RB4Path10ClipStroke7Subpath3addERKN2CG5CubicEd
+- __ZN2RB4Path10ClipStroke7Subpath3addERKN2CG9QuadraticEd
+- __ZN2RB4Path10ClipStroke7Subpath3addIN2CG11LineSegmentEEEvRKT_ddddPNS1_11DistanceMapE
+- __ZN2RB4Path10ClipStroke7Subpath3addIN2CG5CubicEEEvRKT_ddddPNS1_11DistanceMapE
+- __ZN2RB4Path10ClipStroke7Subpath3addIN2CG9QuadraticEEEvRKT_ddddPNS1_11DistanceMapE
+- __ZN2RB4Path10ClipStroke7Subpath5closeEv
+- __ZN2RB4Path10ClipStroke7endpathEv
+- __ZN2RB4Path10ClipStroke9closepathEv
+- __ZN2RB4Path10ClipStrokeC1ERNS0_8ConsumerEjfNS_7LineCapENSt3__14spanIKNS1_8KeyframeELm18446744073709551615EEE
+- __ZN2RB4Path10ClipStrokeC2ERNS0_8ConsumerEjfNS_7LineCapENSt3__14spanIKNS1_8KeyframeELm18446744073709551615EEE
+- __ZN2RB4Path11AccumulatorD1Ev
+- __ZN2RB4Path6Mapper10elt_cubetoEDv2_dS2_S2_PK17CGAffineTransform.cold.1
+- __ZN2RB4Path6Mapper10elt_linetoEDv2_dPK17CGAffineTransform.cold.1
+- __ZN2RB4Path6Mapper10elt_movetoEDv2_dPK17CGAffineTransform.cold.1
+- __ZN2RB4Path6Mapper10elt_quadtoEDv2_dS2_PK17CGAffineTransform.cold.1
+- __ZN2RB4Path6Mapper13elt_closepathEv.cold.1
+- __ZN2RB4Path6Mapper16push_clip_strokeEdPK25RBPathClipStrokeTransform
+- __ZN2RB4Path6MapperD2Ev
+- __ZN2RB4Path7BuilderC1Ev
+- __ZN2RB4Path7BuilderC2Ev
+- __ZN2RB4Path7BuilderC2Ev.cold.1
+- __ZN2RB6Device13texture_cacheENS_17CachedTextureTypeEj
+- __ZN2RB6Device15retire_frame_idEj
+- __ZN2RB6Device17set_texture_cacheENS_17CachedTextureTypeEjPNS_12TextureCacheE
+- __ZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageE
+- __ZN2RB6Device20alloc_shared_textureE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS_7Texture5UsageE.cold.1
+- __ZN2RB6Device22add_frame_continuationEjPU28objcproto17OS_dispatch_queue8NSObjectU13block_pointerFvvE
+- __ZN2RB6DeviceD2Ev.cold.1
+- __ZN2RB6Filter11RenderGroup22add_multipass_rendererERNS_10RenderPassEPNS0_17MultipassRendererEDv2_iS6_NS_10ColorSpaceEh
+- __ZN2RB6Filter11RenderGroup7resolveERNS_10RenderPassE
+- __ZN2RB6Filter11RenderGroupD1Ev
+- __ZN2RB6Filter12_GLOBAL__N_112BlurRenderer6renderERNS_10RenderPassEiDv2_iPNS_7TextureES5_
+- __ZN2RB6Filter12_GLOBAL__N_116DistanceRenderer6renderERNS_10RenderPassEiDv2_iPNS_7TextureES5_
+- __ZN2RB6Filter6CustomC1ERKS1_RNS_11DisplayList7BuilderE
+- __ZN2RB6Filter6CustomC1ERKS1_RNS_11DisplayList7BuilderE.cold.1
+- __ZN2RB6Filter6CustomC2ERKNS_12CustomShader7ClosureERKNS_4RectEj
+- __ZN2RB6Filter6CustomC2ERKNS_12CustomShader7ClosureERKNS_4RectEj.cold.1
+- __ZN2RB6Filter6CustomD1Ev
+- __ZN2RB6Filter6CustomD1Ev.cold.1
+- __ZN2RB6Stroke10LineBounds9add_pointEDv2_ff
+- __ZN2RB6Symbol10tags_mergeERNS_6vectorINS0_3TagELm4EjEENSt3__14spanIKS2_Lm18446744073709551615EEES2_
+- __ZN2RB6Symbol12Presentation16record_keyframesERKNS0_9AnimationENS0_9Keyframes6SymbolEPKS5_RNS0_15KeyframeStorageE
+- __ZN2RB6Symbol12Presentation20apply_interpolationsEv.cold.2
+- __ZN2RB6Symbol12Presentation6sharedEv
+- __ZN2RB6Symbol12PresentationD2Ev.cold.4
+- __ZN2RB6Symbol12_GLOBAL__N_118mix_path_keyframesERNS0_5Glyph5ShapeERKS3_S6_f
+- __ZN2RB6Symbol13ResolvedColor12begin_updateE13RBSymbolStyleP8NSStringPKv
+- __ZN2RB6Symbol13ResolvedColor13commit_updateE7RBColor
+- __ZN2RB6Symbol13ResolvedColor6updateE7RBColor
+- __ZN2RB6Symbol13ResolvedColorcvP7CGColorEv
+- __ZN2RB6Symbol5Glyph5Layer10mix_layersERKS2_S4_fRKNS_15AffineTransformES7_RKNS0_12PresentationEbRNS_8objc_ptrIP13RBDisplayListEERb
+- __ZN2RB6Symbol5Glyph5ShapeC1ERKS2_
+- __ZN2RB6Symbol9Animation12eval_replaceEfNS0_9Keyframes6SymbolEjRKNS_14AnimationLayerE
+- __ZN2RB6Symbol9Animation31make_appear_disappear_keyframesEbjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageE
+- __ZN2RB6vectorINS_11DisplayList9Predicate4TermELm1EjED1Ev
+- __ZN2RB6vectorINS_11DisplayList9Transform4TermELm1EjED1Ev
+- __ZN2RB6vectorINS_14refcounted_ptrIKNS_6Symbol5ModelEEELm0EjED1Ev
+- __ZN2RB6vectorINS_14refcounted_ptrIKNS_6Symbol5ModelEEELm0EjED1Ev.cold.1
+- __ZN2RB6vectorINS_14refcounted_ptrINS_10RenderTaskEEELm8EmE12reserve_slowEm
+- __ZN2RB6vectorINS_14refcounted_ptrINS_10RenderTaskEEELm8EmED1Ev
+- __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList8ContentsEEELm8EjED1Ev
+- __ZN2RB6vectorINS_14refcounted_ptrINS_11DisplayList8ContentsEEELm8EjED1Ev.cold.1
+- __ZN2RB6vectorINS_14refcounted_ptrINS_13ImageProviderEEELm0EmED1Ev
+- __ZN2RB6vectorINS_14refcounted_ptrINS_13ImageProviderEEELm0EmED1Ev.cold.1
+- __ZN2RB6vectorINS_16SharedSubsurfaceELm4EjED1Ev
+- __ZN2RB6vectorINS_4Path10ClipStroke11DistanceMap7ElementELm4EmE12reserve_slowEm
+- __ZN2RB6vectorINS_4Path10ClipStroke8KeyframeELm0EmE12reserve_slowEm
+- __ZN2RB6vectorINS_6Symbol12Presentation6SymbolELm2EjED1Ev
+- __ZN2RB6vectorINS_6Symbol12Presentation6SymbolELm2EjED1Ev.cold.1
+- __ZN2RB6vectorINS_6Symbol12Presentation6SymbolELm2EjED1Ev.cold.2
+- __ZN2RB6vectorINS_6cf_ptrIP13_CAImageQueueEELm8EmED1Ev
+- __ZN2RB6vectorINS_8objc_ptrIP7RBLayerEELm0EmED1Ev
+- __ZN2RB6vectorINS_8objc_ptrIPU29objcproto18RBAnimationHandler11objc_objectEELm8EmED1Ev
+- __ZN2RB6vectorINS_8path_ptrELm0EjED1Ev
+- __ZN2RB6vectorINSt3__110unique_ptrINS_6Symbol5Glyph5LayerENS_7DestroyIS5_EEEELm0EjED1Ev
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED1Ev
+- __ZN2RB6vectorINSt3__14pairIPNS_13SharedSurfaceENS0_INS3_6RemoveELm0EjEEEELm0EjED1Ev.cold.1
+- __ZN2RB6vectorIPNS_13SharedSurfaceELm4EmE12reserve_slowEm
+- __ZN2RB6vectorIZN12_GLOBAL__N_17Updater19update_shape_layersEbE5GroupLm2EmE12reserve_slowEm
+- __ZN2RB6vectorIZN12_GLOBAL__N_17Updater19update_shape_layersEbE5GroupLm2EmED1Ev
+- __ZN2RB6vectorIZN12_GLOBAL__N_17Updater19update_shape_layersEbE9LayerPathLm4EmE12reserve_slowEm
+- __ZN2RB6vectorIZNKS_12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERPNS_7TextureEE10PendingArgLm0EmE12reserve_slowEm
+- __ZN2RB6vectorIZNS_11DisplayList11EditAdaptor14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPNS2_7ElementEjS9_jE15SequenceElementLm8EjE12reserve_slowEj
+- __ZN2RB6vectorIZNS_11DisplayList11EditAdaptor14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPNS2_7ElementEjS9_jE5MixedLm128EjE12reserve_slowEj
+- __ZN2RB6vectorIZNS_18SharedSurfaceGroup21render_updates_deviceEvE11SurfaceDataLm0EjE12reserve_slowEj
+- __ZN2RB6vectorIZNS_18SharedSurfaceGroup21render_updates_deviceEvE11SurfaceDataLm0EjED1Ev
+- __ZN2RB6vectorIZNS_18SharedSurfaceGroup21render_updates_deviceEvE11SurfaceDataLm0EjED1Ev.cold.1
+- __ZN2RB6vectorIZNS_18SharedSurfaceGroup21render_updates_deviceEvE11SurfaceDataLm0EjED1Ev.cold.2
+- __ZN2RB7DecoderD1Ev
+- __ZN2RB7Encoder16prepare_shared_fIZNS0_14prepare_sharedINS_11DisplayList8ClipNodeEEEvNS0_10SharedTypeERKT_EUlRS6_E_EEvS5_mS8_
+- __ZN2RB7EncoderD1Ev
+- __ZN2RB7EncoderD1Ev.cold.1
+- __ZN2RB7Surface7textureEv
+- __ZN2RB7SurfaceC2EPNS_6DeviceEDv2_i14MTLPixelFormatNS_10ColorSpaceEj.cold.1
+- __ZN2RB7Texture5allocEPNS_6DeviceE14MTLPixelFormatDv2_ijNS_10ColorSpaceENS0_5UsageENS_12PixelSwizzleE
+- __ZN2RB7Texture5allocEPNS_6DeviceEPNS_6BufferE14MTLPixelFormatDv2_imNS_10ColorSpaceENS0_5UsageENS_12PixelSwizzleE
+- __ZN2RB7TextureC1EPU21objcproto10MTLTexture11objc_objectNS_10ColorSpaceENS0_5UsageENS_12PixelSwizzleE
+- __ZN2RB7TextureC2EPU21objcproto10MTLTexture11objc_objectNS_10ColorSpaceENS0_5UsageENS_12PixelSwizzleE
+- __ZN2RB7details14realloc_vectorIjLm120EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorIjLm144EEEPvS2_RT_S3_
+- __ZN2RB7details14realloc_vectorIjLm416EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorIjLm56EEEPvS2_RT_S3_
+- __ZN2RB7details14realloc_vectorIjLm56EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorIjLm88EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorImLm416EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorImLm56EEEPvS2_RT_S3_
+- __ZN2RB7details14realloc_vectorImLm64EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB7details14realloc_vectorImLm80EEEPvS2_S2_T_RS3_S3_
+- __ZN2RB8Coverage12_GLOBAL__N_110exact_blurEv
+- __ZN2RB8Coverage12_GLOBAL__N_110visit_rectERNS0_7VisitorERK6CGRectPKNS_15AffineTransformEfNS_13RenderingModeEf
+- __ZN2RB8Coverage12_GLOBAL__N_113visit_ellipseERNS0_7VisitorERK6CGRectPKNS_15AffineTransformEfNS_13RenderingModeEf
+- __ZN2RB8Coverage12_GLOBAL__N_118visit_rounded_rectERNS0_7VisitorERK6CGRect13RBCornerRadii20RBRoundedCornerStylePKNS_15AffineTransformEfNS_13RenderingModeEf
+- __ZN2RB8Coverage12_GLOBAL__N_118visit_rounded_rectERNS0_7VisitorERK6CGRect6CGSize20RBRoundedCornerStylePKNS_15AffineTransformEfNS_13RenderingModeEf
+- __ZN2RB8Coverage9Primitive11append_blurEfRKNS_15AffineTransformES4_
+- __ZN2RB8Resource10set_sourceEPS0_
+- __ZN2RB8lcs_diffINS_11DisplayList11EditAdaptor7ElementEZNS2_14finalize_groupERNS1_12Interpolator5LayerENS_10Transition6MethodEjjPS3_jS9_jE3$_0ZNS2_14finalize_groupES6_S8_jjS9_jS9_jE3$_1EEblPT_lSD_lRKT0_RKT1_
+- __ZN2RB9CGContext12begin_bitmapERNS_4RectEjNSt3__18optionalINS_10ColorSpaceEEENS4_IDv2_fEE
+- __ZN2RB9CGContext15apply_alpha_lutEPKj
+- __ZNK2RB10ColorStyle13AlphaMultiplyeqERKS1_
+- __ZNK2RB10ColorStyle13ColorMultiplyeqERKS1_
+- __ZNK2RB10DestroyAnyclINS_4Fill6CustomEEEvRT_
+- __ZNK2RB10DestroyAnyclINS_4Fill6CustomEEEvRT_.cold.1
+- __ZNK2RB10RenderTask5printERNS_10SexpStringE
+- __ZNK2RB10Transition6Effect4hashEv
+- __ZNK2RB11DisplayList10CustomItem5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter10RGBACurvesEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter10RGBACurvesEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter11ColorMatrixEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter11ColorMatrixEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter12GaussianBlurEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter12GaussianBlurEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter14LuminanceCurveEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter6CustomEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter8DistanceEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11FilterStyleINS_6Filter8DistanceEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList11GenericClipINS_8Coverage4PathEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11GenericClipINS_8Coverage6GlyphsEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeI11RBStrokeRefEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11GenericClipINS_8Coverage6StrokeINS2_14StrokeablePathEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11GenericClipINS_8Coverage9PrimitiveEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11ShadowStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList11ShadowStyle6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill12MeshGradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill12MeshGradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ColorEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ColorEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ImageINS_12ImageTextureEEEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill6CustomEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill8GradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage4PathENS_4Fill8GradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill12MeshGradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill12MeshGradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ColorEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ColorEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ImageINS_12ImageTextureEEEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill6CustomEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill8GradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6GlyphsENS_4Fill8GradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill12MeshGradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill12MeshGradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ColorEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ColorEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ImageINS_12ImageTextureEEEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill6CustomEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill8GradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeI11RBStrokeRefEENS_4Fill8GradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill12MeshGradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill12MeshGradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ColorEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ColorEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ImageINS_12ImageTextureEEEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill6CustomEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill8GradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage6StrokeINS2_14StrokeablePathEEENS_4Fill8GradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill12MeshGradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill12MeshGradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ColorEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ColorEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ImageINS_12ImageTextureEEEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill5ImageINS_12ImageTextureEEEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill6CustomEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill8GradientEE14required_depthEv
+- __ZNK2RB11DisplayList12GenericItem1INS_8Coverage9PrimitiveENS_4Fill8GradientEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericEffectINS_12CustomEffectEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericEffectINS_12CustomEffectEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericEffectINS_12CustomEffectEE9add_tasksERNS0_11RenderStateENS_6BoundsEPKS6_
+- __ZNK2RB11DisplayList13GenericEffectINS_19AlphaGradientEffectEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericEffectINS_19AlphaGradientEffectEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericEffectINS_19AlphaGradientEffectEE9add_tasksERNS0_11RenderStateENS_6BoundsEPKS6_
+- __ZNK2RB11DisplayList13GenericEffectINS_20AlphaThresholdEffectEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericEffectINS_20AlphaThresholdEffectEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericEffectINS_20AlphaThresholdEffectEE9add_tasksERNS0_11RenderStateENS_6BoundsEPKS6_
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter10RGBACurvesEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter10RGBACurvesEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter11ColorMatrixEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter11ColorMatrixEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter12GaussianBlurEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter12GaussianBlurEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter14LuminanceCurveEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter6CustomEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter6CustomEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter8DistanceEE14required_depthENS_10ColorDepthE
+- __ZNK2RB11DisplayList13GenericFilterINS_6Filter8DistanceEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList14AnimationStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList14CrossFadeStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList14PredicateStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList14TransformStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle10BrightnessEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle10SaturationEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle11ColorInvertEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle11HueRotationEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle13AlphaMultiplyEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle13ColorMultiplyEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle15ColorMonochromeEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle16LuminanceToAlphaEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList16ColorFilterStyleINS_10ColorStyle8ContrastEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList17CustomEffectStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList17CustomEffectStyle6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList18AlphaGradientStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList18AlphaGradientStyle6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19AlphaThresholdStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19AlphaThresholdStyle6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10ProjectionEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10ProjectionEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle10Rotation3DEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle11TranslationEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle5ScaleEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle6AffineEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEE5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19GeometryMatrixStyleINS_13GeometryStyle8RotationEE6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList19PathProjectionStyle5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList19PathProjectionStyle6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList23BackdropColorMatrixItem5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList4Clip5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList4Clip7prepareERNS0_11RenderStateE
+- __ZNK2RB11DisplayList4Item14required_depthEv
+- __ZNK2RB11DisplayList4Item5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList5Layer11compute_roiERNS_6BoundsES3_RbPKS2_
+- __ZNK2RB11DisplayList5Layer12make_cgimageERNS_9CGContextERNS_4RectEPv
+- __ZNK2RB11DisplayList5Layer12output_depthEv
+- __ZNK2RB11DisplayList5Layer14prepare_encodeERNS_7EncoderE
+- __ZNK2RB11DisplayList5Layer23effect_needs_zero_alphaEv
+- __ZNK2RB11DisplayList5Layer5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList5Layer6encodeERNS_7EncoderE
+- __ZNK2RB11DisplayList5Layer7prepareERNS0_11RenderStateE
+- __ZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsEPKS4_jPKNS0_4ItemEPKDv4_f
+- __ZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsEPKS4_jPKNS0_4ItemEPKDv4_f.cold.1
+- __ZNK2RB11DisplayList5Layer9max_depthEv
+- __ZNK2RB11DisplayList5Style11next_boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList5Style5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList5Style6boundsEPKNS0_4ItemEj
+- __ZNK2RB11DisplayList8ItemClip5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList9LayerClip5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList9LayerItem14required_depthEv
+- __ZNK2RB11DisplayList9LayerItem5printERNS_10SexpStringE
+- __ZNK2RB11DisplayList9LayerTask6renderERNS0_11RenderStateERNS_10RenderPassEDv2_ibfNS_9BlendModeE
+- __ZNK2RB11DisplayList9SpillItem5printERNS_10SexpStringE
+- __ZNK2RB12CustomEffect5printERNS_10SexpStringE
+- __ZNK2RB12CustomEffect9add_tasksERNS_11DisplayList11RenderStateENS_6BoundsEPKS4_
+- __ZNK2RB12CustomEffect9add_tasksERNS_11DisplayList11RenderStateENS_6BoundsEPKS4_.cold.1
+- __ZNK2RB12CustomShader5Value7convertENS1_10ConversionEmPvNS_10ColorSpaceE
+- __ZNK2RB12CustomShader5Value7convertENS_8Function5Param4TypeEPvNS_10ColorSpaceE
+- __ZNK2RB12CustomShader7Closure12marshal_argsERNS_10RenderPassERNS_8FunctionEPKNS_4RectEPhRNS_12BufferRegionERPNS_7TextureE
+- __ZNK2RB12RenderParams10srgb_alphaEv
+- __ZNK2RB12UntypedTable8for_eachEPFvPKvS2_PvES3_
+- __ZNK2RB15AffineTransform10is_uniformEv
+- __ZNK2RB19AlphaGradientEffect5printERNS_10SexpStringE
+- __ZNK2RB20AlphaThresholdEffect5printERNS_10SexpStringE
+- __ZNK2RB3XML8Document8snapshotEv
+- __ZNK2RB4Fill12MeshGradient15ColorConversion16convert_out_slowERNS0_5ColorENS_10ColorSpaceE
+- __ZNK2RB4Fill5Color14required_depthEv
+- __ZNK2RB4Fill5Color7prepareENS_10ColorSpaceE
+- __ZNK2RB4Fill5Color7prepareENS_10ColorSpaceE.cold.1
+- __ZNK2RB4Fill5Color7prepareENS_10ColorSpaceEb
+- __ZNK2RB4Fill5Color9convertedENS_10ColorSpaceE
+- __ZNK2RB4Fill8Gradient9map_alphaERNS_9CGContextE
+- __ZNK2RB4Path10ClipStroke11DistanceMapclEd
+- __ZNK2RB4Path10ClipStroke13value_clippedEf
+- __ZNK2RB4Path10ClipStroke7Subpath6replayERNS0_8ConsumerEbPK17CGAffineTransform
+- __ZNK2RB4Path7Buildercv6RBPathEv
+- __ZNK2RB6Filter10RGBACurves5printERNS_10SexpStringE
+- __ZNK2RB6Filter11ColorMatrix5printERNS_10SexpStringE
+- __ZNK2RB6Filter12GaussianBlur14required_depthENS_10ColorDepthE
+- __ZNK2RB6Filter12GaussianBlur5printERNS_10SexpStringE
+- __ZNK2RB6Filter14LuminanceCurve5printERNS_10SexpStringE
+- __ZNK2RB6Filter6Custom5printERNS_10SexpStringE
+- __ZNK2RB6Filter6Custom6renderERNS_10RenderPassERKNS_12RenderParamsEDv2_iNS_11RenderStateEf
+- __ZNK2RB6Filter8Distance5printERNS_10SexpStringE
+- __ZNK2RB6Symbol12Presentation4drawEP15_RBDrawingStateU13block_pointerF7RBColor13RBSymbolStyleP8NSStringE
+- __ZNK2RB6Symbol12Presentation5Layer11append_pathERNS_4Path7StorageERKS1_
+- __ZNK2RB6Symbol12Presentation5Layer9transformEPKS1_
+- __ZNK2RB6Symbol5Glyph5Layer11append_pathERNS_4Path7StorageEDv2_f
+- __ZNK2RB6Symbol5Glyph5Layer14content_boundsEv
+- __ZNK2RB6Symbol5Glyph5Layer4clipEP15_RBDrawingStatef10RBClipModeRKNS_15AffineTransformEDv2_fRKNS0_12PresentationE
+- __ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingState7RBColorf11RBBlendModeRKNS_15AffineTransformEDv2_fRKNS0_12PresentationE
+- __ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingStatef11RBBlendModeRKNS_15AffineTransformEDv2_fRKNS0_12PresentationEU13block_pointerFvP6RBFillE
+- __ZNK2RB6Symbol5Glyph5Layer9copy_pathEDv2_fPb
+- __ZNK2RB6Symbol5Glyph5Layer9copy_pathEDv2_fPb.cold.1
+- __ZNK2RB6Symbol5Glyph5Layer9copy_pathEDv2_fPb.cold.2
+- __ZNK2RB6Symbol5Glyph5Layer9set_shapeEP7RBShapeRKNS_15AffineTransformEDv2_f
+- __ZNK2RB6Symbol9Animation13layer_flaggedERKNS0_5Glyph5LayerENS0_9Keyframes8PropertyE
+- __ZNK2RB6Symbol9Animation9keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageENS1_4Time5PhaseERKNS0_5ModelE
+- __ZNK2RB6Symbol9Keyframes5printERNS_10SexpStringENS1_6SymbolEPKNS0_15KeyframeStorageE
+- __ZNK2RB9ColorMode12output_spaceEv
+- __ZNK2RB9ColorMode12pixel_formatEPKNS_6DeviceEjPNS_10ColorSpaceES5_Pj
+- __ZNKSt3__114default_deleteIN2RB11DisplayList12Interpolator5LayerEEclB8nn190102EPS4_
+- __ZNKSt3__114default_deleteIN2RB18SharedSurfaceGroupEEclB8nn190102EPS2_
+- __ZNKSt3__114default_deleteIN2RB18SharedSurfaceGroupEEclB8nn190102EPS2_.cold.1
+- __ZNKSt3__114default_deleteIN2RB3XML8DocumentEEclB8nn190102EPS3_
+- __ZNKSt3__114default_deleteIN2RB6Device19RenderPipelineEntry9FunctionsEEclB8nn190102EPS4_
+- __ZNKSt3__114default_deleteIN2RB6Symbol15KeyframeStorageEEclB8nn190102EPS3_
+- __ZNKSt3__114default_deleteIN2RB6Symbol5Glyph5ShapeEEclB8nn190102EPS4_
+- __ZNKSt3__114default_deleteIN2RB6Symbol9Animation6TimingEEclB8nn190102EPS4_
+- __ZNKSt3__114default_deleteIN2RB6vectorINS1_6Symbol12Presentation12KeyframeInfoELm0EmEEEclB8nn190102EPS6_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strB8nn190102IS4_EENS_12basic_stringIcS2_T_EERKS8_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE4viewB8nn190102Ev
+- __ZNKSt3__16__lessIvvEclB8nn190102INS_4pairIfjEES4_EEbRKT_RKT0_
+- __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_13SharedSurfaceEEENS_9allocatorIS4_EEE13__delete_nodeB8nn190102EPNS_11__list_nodeIS4_PvEE
+- __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_13SharedSurfaceEEENS_9allocatorIS4_EEE13__delete_nodeB8nn190102EPNS_11__list_nodeIS4_PvEE.cold.1
+- __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_13SharedSurfaceEEENS_9allocatorIS4_EEE5clearEv
+- __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_6BufferEEENS_9allocatorIS4_EEE13__delete_nodeB8nn190102EPNS_11__list_nodeIS4_PvEE
+- __ZNSt3__110__list_impIN2RB14refcounted_ptrINS1_7TextureEEENS_9allocatorIS4_EEE13__delete_nodeB8nn190102EPNS_11__list_nodeIS4_PvEE
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10ColorArrayELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10ColorArrayELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10ColorSpaceELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10ColorSpaceELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10FloatArrayELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10FloatArrayELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10GlyphArrayELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10GlyphArrayELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10StrokeTypeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_10StrokeTypeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_11ColorMatrixELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_11ColorMatrixELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_12AffineMatrixELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_12AffineMatrixELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_14AlphaBlendModeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_14AlphaBlendModeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_14ConstantStringELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_14ConstantStringELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_16TransitionMethodELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_16TransitionMethodELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_17InterpolationModeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_17InterpolationModeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_20TransitionEffectTypeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_20TransitionEffectTypeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_3IntELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_3IntELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4BoolELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4BoolELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4FontELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4FontELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4PathELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4PathELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4UUIDELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4UUIDELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec2ELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec2ELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec3ELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec3ELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec4ELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_4Vec4ELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5AngleELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5AngleELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5ColorELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5ColorELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5FloatELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5FloatELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5ImageELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_5ImageELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_6ShaderELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_6ShaderELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_6StrokeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_6StrokeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_7LineCapELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_7LineCapELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_7StateIDELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_7StateIDELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8ClipModeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8ClipModeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8GradientELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8GradientELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8LineJoinELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_8LineJoinELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_9BlendModeELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_9BlendModeELi0EEEPT_.cold.1
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_9TransformELi0EEEPT_
+- __ZNSt3__110shared_ptrIN2RB3XML5Value4BaseEEC2B8nn190102INS3_9TransformELi0EEEPT_.cold.1
+- __ZNSt3__110unique_ptrIKN2RB6Symbol5GlyphENS2_10GlyphCache5UnrefEE5resetB8nn190102EPS4_
+- __ZNSt3__110unique_ptrIN2RB14GlyphPathCacheENS_14default_deleteIS2_EEE5resetB8nn190102EPS2_
+- __ZNSt3__110unique_ptrIN2RB6Symbol5Glyph9SublayersENS_14default_deleteIS4_EEE5resetB8nn190102EPS4_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjN2RB7Encoder7FontSet4FontEEEPvEENS_22__hash_node_destructorINS_9allocatorIS9_EEEEE5resetB8nn190102EPS9_
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jE15SequenceElementLb0EEEvT1_SH_T0_NS_15iterator_traitsISH_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.1
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.2
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.3
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.4
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.5
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.6
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Lb0EEEvT1_SB_T0_NS_15iterator_traitsISB_E15difference_typeEb.cold.7
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke14make_keyframesENS_4spanIKNS4_8KeyframeELm18446744073709551615EEERKNS4_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERdE3$_0PSD_Lb0EEEvT1_SK_T0_NS_15iterator_traitsISK_E15difference_typeEb
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsEPKS7_jPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISC_jEELb0EEEvT1_SL_T0_NS_15iterator_traitsISL_E15difference_typeEb
+- __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEvT1_OT0_NS_15iterator_traitsIS9_E15difference_typeES9_
+- __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_OT0_NS_15iterator_traitsISD_E15difference_typeESD_
+- __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_OT0_NS_15iterator_traitsIS8_E15difference_typeES8_
+- __ZNSt3__111unique_lockIN2RB9spin_lockEE4lockEv
+- __ZNSt3__111unique_lockIN2RB9spin_lockEE6unlockEv
+- __ZNSt3__112__hash_tableIN2RB20FormattedRenderStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE28__node_insert_unique_performB8nn190102EPNS_11__hash_nodeIS2_PvEE
+- __ZNSt3__112__hash_tableIN2RB20FormattedRenderStateENS_4hashIS2_EENS_8equal_toIS2_EENS_9allocatorIS2_EEE28__node_insert_unique_prepareB8nn190102EmRS2_
+- __ZNSt3__112__rotate_gcdB8nn190102INS_17_ClassicAlgPolicyEPN2RB11DisplayList11EditAdaptor7ElementEEET0_S7_S7_S7_
+- __ZNSt3__112__rotate_gcdB8nn190102INS_17_ClassicAlgPolicyEPN2RB11DisplayList12Interpolator2OpEEET0_S7_S7_S7_
+- __ZNSt3__112__rotate_gcdB8nn190102INS_17_ClassicAlgPolicyEPN2RB20FormattedRenderStateEEET0_S5_S5_S5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_T0_
+- __ZNSt3__116__insertion_sortB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_T0_
+- __ZNSt3__116__pad_and_outputB8nn190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116__rotate_forwardB8nn190102INS_17_ClassicAlgPolicyEPN2RB6Symbol9AnimationEEET0_S6_S6_S6_
+- __ZNSt3__117__floyd_sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEET1_SD_OT0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__117__floyd_sift_downB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEET1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagES8_EET1_S9_S9_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEESC_EET1_SD_SD_T2_OT0_
+- __ZNSt3__119__partial_sort_implB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEES7_EET1_S8_S8_T2_OT0_
+- __ZNSt3__119__shared_weak_count16__release_sharedB8nn190102Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn190102Ev
+- __ZNSt3__120get_temporary_bufferB8nn190102IN2RB11DisplayList11EditAdaptor7ElementEEENS_4pairIPT_lEEl
+- __ZNSt3__120get_temporary_bufferB8nn190102IN2RB11DisplayList12Interpolator2OpEEENS_4pairIPT_lEEl
+- __ZNSt3__120get_temporary_bufferB8nn190102IN2RB20FormattedRenderStateEEENS_4pairIPT_lEEl
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeINS_4pairIjjEENS_10unique_ptrIN2RB11DisplayList12Interpolator5LayerENS_14default_deleteISA_EEEEEEPvEEEEEclB8nn190102EPSG_
+- __ZNSt3__124__put_character_sequenceB8nn190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__124__sort5_maybe_branchlessB8nn190102INS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_Li0EEEvT1_SB_SB_SB_SB_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_T0_
+- __ZNSt3__126__insertion_sort_unguardedB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEbT1_S9_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEbT1_SD_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEbT1_S8_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jE15SequenceElementEEbT1_SH_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_EEbT1_SB_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_EEbT1_SB_T0_.cold.1
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke14make_keyframesENS_4spanIKNS4_8KeyframeELm18446744073709551615EEERKNS4_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERdE3$_0PSD_EEbT1_SK_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZN2RB7Decoder18saved_shared_fieldENS2_7Encoder10SharedTypeEmE3$_0PNS3_11SharedFieldEEEbT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsEPKS7_jPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISC_jEEEEbT1_SL_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZZN2RB19pixel_format_traitsE14MTLPixelFormatENK3$_0clEPvEUlRKT_RKT0_E_PNS2_17PixelFormatTraitsEEEbT1_SG_S9_
+- __ZNSt3__127__memberwise_forward_assignB8nn190102INS_5tupleIJRN2RB12packed_half4ES4_S4_S4_EEENS1_IJDv4_fS6_S6_S6_EEEJS6_S6_S6_S6_EJLm0ELm1ELm2ELm3EEEEvRT_OT0_NS_13__tuple_typesIJDpT1_EEENS_15__tuple_indicesIJXspT2_EEEE
+- __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPN2RB6Symbol3TagERNS_6__lessIvvEEEET0_S9_S9_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPNS_4pairINS2_ImmEEPN2RB11DisplayList9LayerTaskEEERNS_6__lessIvvEEEET0_SD_SD_T1_
+- __ZNSt3__131__partition_with_equals_on_leftB8nn190102INS_17_ClassicAlgPolicyEPNS_4pairIfjEERNS_6__lessIvvEEEET0_S8_S8_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPN2RB6Symbol3TagERNS_6__lessIvvEEEENS_4pairIT0_bEESA_SA_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPNS_4pairINS2_ImmEEPN2RB11DisplayList9LayerTaskEEERNS_6__lessIvvEEEENS2_IT0_bEESD_SD_T1_
+- __ZNSt3__132__partition_with_equals_on_rightB8nn190102INS_17_ClassicAlgPolicyEPNS_4pairIfjEERNS_6__lessIvvEEEENS2_IT0_bEES8_S8_T1_
+- __ZNSt3__14pairIKjN2RB7Encoder7FontSet4FontEEC2B8nn190102IJOjEJEJLm0EEJEEENS_21piecewise_construct_tERNS_5tupleIJDpT_EEERNSA_IJDpT0_EEENS_15__tuple_indicesIJXspT1_EEEENSJ_IJXspT2_EEEE
+- __ZNSt3__14pairIN2RB8objc_ptrIP16RBSymbolAnimatorEENS2_IPU35objcproto24RBSymbolAnimatorObserver11objc_objectEEEC2B8nn190102ERKS9_
+- __ZNSt3__14swapB8nn190102IN2RB4Path10ClipStroke7SubpathEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS6_EE5valueEvE4typeERS6_S9_
+- __ZNSt3__14swapB8nn190102IN2RB6Symbol9AnimationEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
+- __ZNSt3__14swapB8nn190102IN2RB6Symbol9AnimationEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_.cold.1
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEjT1_S9_S9_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEjT1_SD_SD_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEjT1_S8_S8_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jE15SequenceElementEEjT1_SH_SH_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_EEjT1_SB_SB_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke14make_keyframesENS_4spanIKNS4_8KeyframeELm18446744073709551615EEERKNS4_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERdE3$_0PSD_EEjT1_SK_SK_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZN2RB7Decoder18saved_shared_fieldENS2_7Encoder10SharedTypeEmE3$_0PNS3_11SharedFieldEEEjT1_SA_SA_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsEPKS7_jPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISC_jEEEEjT1_SL_SL_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZZN2RB19pixel_format_traitsE14MTLPixelFormatENK3$_0clEPvEUlRKT_RKT0_E_PNS2_17PixelFormatTraitsEEEjT1_SG_SG_S9_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEvT1_S9_S9_S9_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_SD_SD_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_S8_S8_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPZN2RB11DisplayList11EditAdaptor14finalize_groupERNS6_12Interpolator5LayerENS5_10Transition6MethodEjjPNS7_7ElementEjSE_jE15SequenceElementEEvT1_SH_SH_SH_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN2RB13SharedSurface14update_removesERNS2_6vectorINS3_6RemoveELm0EjEEE3$_0PS5_EEvT1_SB_SB_SB_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN2RB4Path10ClipStroke14make_keyframesENS_4spanIKNS4_8KeyframeELm18446744073709551615EEERKNS4_7SubpathERNS2_6vectorINS4_14SingleKeyframeELm0EmEERdE3$_0PSD_EEvT1_SK_SK_SK_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZN2RB7Decoder18saved_shared_fieldENS2_7Encoder10SharedTypeEmE3$_0PNS3_11SharedFieldEEEvT1_SA_SA_SA_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZNK2RB11DisplayList5Layer9make_taskERNS3_11RenderStateENS2_6BoundsEPKS7_jPKNS3_4ItemEPKDv4_fE3$_0PNS_4pairISC_jEEEEvT1_SL_SL_SL_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZZN2RB19pixel_format_traitsE14MTLPixelFormatENK3$_0clEPvEUlRKT_RKT0_E_PNS2_17PixelFormatTraitsEEEvT1_SG_SG_SG_S9_
+- __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPN2RB6Symbol3TagEEEvT1_S9_S9_S9_S9_T0_
+- __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_SD_SD_SD_T0_
+- __ZNSt3__17__sort5B8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_S8_S8_S8_T0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn190102IRPN2RB13SharedSurface6RemoveES7_EEvOT_OT0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn190102IRPN2RB13SharedSurface6RemoveES7_EEvOT_OT0_.cold.1
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn190102IRPN2RB13SharedSurface6RemoveES8_EEvOT_OT0_
+- __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8nn190102IRPN2RB13SharedSurface6RemoveES8_EEvOT_OT0_.cold.1
+- __ZNSt3__18__rotateB8nn190102INS_17_ClassicAlgPolicyEPN2RB11DisplayList11EditAdaptor7ElementES6_EENS_4pairIT0_S8_EES8_S8_T1_
+- __ZNSt3__18__rotateB8nn190102INS_17_ClassicAlgPolicyEPN2RB11DisplayList12Interpolator2OpES6_EENS_4pairIT0_S8_EES8_S8_T1_
+- __ZNSt3__18__rotateB8nn190102INS_17_ClassicAlgPolicyEPN2RB20FormattedRenderStateES4_EENS_4pairIT0_S6_EES6_S6_T1_
+- __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairINS5_ImmEEPN2RB11DisplayList9LayerTaskEEEEEvT1_SD_OT0_NS_15iterator_traitsISD_E15difference_typeE
+- __ZNSt3__19__sift_upB8nn190102INS_17_ClassicAlgPolicyERNS_6__lessIvvEEPNS_4pairIfjEEEEvT1_S8_OT0_NS_15iterator_traitsIS8_E15difference_typeE
+- __ZNSt3__1ssB8nn190102INS_4pairImmEEPN2RB11DisplayList9LayerTaskES2_S6_EENS_26common_comparison_categoryIJDTclL_ZNS_17__synth_three_wayB8nn190102EEclsr3stdE7declvalIRT_EEclsr3stdE7declvalIRT1_EEEEDTclL_ZNS_17__synth_three_wayB8nn190102EEclsr3stdE7declvalIRT0_EEclsr3stdE7declvalIRT2_EEEEEE4typeERKNS1_IS8_SD_EERKNS1_ISA_SF_EE
+- __ZSt28__throw_bad_array_new_lengthB8nn190102v
+- __ZTVN2RB11DisplayList11RootTextureE
+- __ZTVN2RB11DisplayList13PackedTextureE
+- __ZTVN2RB4Path10ClipStrokeE
+- __ZZ31+[RBDevice didEnterBackground:]EN3$_48__invokeEPv
+- __ZZN12_GLOBAL__N_119cgpath_bezier_orderEPK6CGPathEN3$_08__invokeEPvPK13CGPathElement
+- __ZZN12_GLOBAL__N_17Updater19update_shape_layersEbE11shape_color
+- __ZZN2RB10RenderPass19resolve_framebufferEPNS_7TextureES2_PKNS_10RenderTaskEE15reference_white
+- __ZZN2RB10RenderTask13schedule_manyEmPKPS0_Dv2_iPvE11print_tasks
+- __ZZN2RB11DisplayList11render_manyERKNS_12RenderParamsEU13block_pointerFPU21objcproto10MTLTexture11objc_objectvEmPKNS0_10RenderableEE10print_tree
+- __ZZN2RB11DisplayList7Builder16merge_layer_itemERNS0_5LayerEjENK3$_0clERKS2_S6_
+- __ZZN2RB12_GLOBAL__N_116extended_p3_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_118extended_srgb_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_123extended_linear_p3_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_125extended_linear_srgb_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_17p3_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_17pq_dataEvE1r
+- __ZZN2RB12_GLOBAL__N_19srgb_dataEvE1r
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbEN3$_18__invokeEPv
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbEN3$_18__invokeEPv.cold.1
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbEN3$_18__invokeEPv.cold.2
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbENK3$_0clES2_Dv2_i
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbENK3$_0clES2_Dv2_i.cold.1
+- __ZZN2RB18SharedSurfaceGroup16relocate_surfaceEPNS_13SharedSurfaceEbENK3$_0clES2_Dv2_i.cold.2
+- __ZZN2RB18SharedSurfaceGroup21render_updates_deviceEvEN3$_18__invokeEPv
+- __ZZN2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE9remove_ifIZZNS4_12prune_cachesEvENK3$_1clEvEUlT_PT0_E_EEvSA_ENUlPKvSF_PvE_8__invokeESF_SF_SG_
+- __ZZN2RB5TableIPKNS_21GlyphPathCacheDetails8GlyphKeyEPNS_14GlyphPathCache4PathEE9remove_ifIZNS5_5pruneEjE3$_0EEvT_ENUlPKvSD_PvE_8__invokeESD_SD_SE_
+- __ZZN2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE9remove_ifIZNS_6Device12prune_cachesEvE3$_3EEvT_ENUlPKvSC_PvE_8__invokeESC_SC_SD_
+- __ZZN2RB5TableImPNS_12TextureCacheEE9remove_ifIZNS_6Device12prune_cachesEvE3$_0EEvT_ENUlPKvS9_PvE_8__invokeES9_S9_SA_
+- __ZZN2RB5TableImPNS_8FunctionEE9remove_ifIZNS_15FunctionLibrary12prune_cachesEjE3$_0EEvT_ENUlPKvS9_PvE_8__invokeES9_S9_SA_
+- __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_38__invokeIPNS_12TextureCacheEEEDaT_
+- __ZZN2RB6DeviceC1EP8RBDevicePU19objcproto9MTLDevice11objc_objectEN3$_48__invokeEPNS_15FunctionLibraryE
+- __ZZN2RB6Filter11RenderGroup7resolveERNS_10RenderPassEE15aux_attachments
+- __ZZN2RB6Symbol12Presentation6sharedEvE6shared
+- __ZZN2RB6Symbol9Animation22make_replace_keyframesEjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE12alpha_values
+- __ZZN2RB6Symbol9Animation22make_replace_keyframesEjRKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE12alpha_values_0
+- __ZZN2RB9CGContext15apply_alpha_lutEPKjE7permute
+- __ZZN2RB9ColorModeC1E11RBColorModeE9overrides
+- __ZZN2RB9ColorModeC1E11RBColorModeENK3$_0clEv
+- __ZZNK2RB11DisplayList15CachedTransform9mix_styleERKNS0_12Interpolator5StateEPKNS0_5StyleES8_bENK3$_1clES8_
+- __ZZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsEPKS4_jPKNS0_4ItemEPKDv4_fE12allow_inline
+- __ZZNK2RB11DisplayList5Layer9make_taskERNS0_11RenderStateENS_6BoundsEPKS4_jPKNS0_4ItemEPKDv4_fENK3$_2clES9_
+- __ZZNK2RB20FormattedRenderState2ID9formattedEvE5table
+- __ZZNK2RB5TableIP15_RBDrawingStatemE8for_eachIZNS_3XML8Document9add_stateES2_E3$_0EEvT_ENUlPKvSA_PvE_8__invokeESA_SA_SB_
+- __ZZNK2RB5TableIP8NSStringjE8for_eachIZNS_6Symbol10GlyphCache3tagENS5_3TagEE3$_0EEvT_ENUlPKvSB_PvE_8__invokeESB_SB_SC_
+- __ZZNK2RB5TableIPKNS_11DisplayList5LayerEPNS_6BoundsEE8for_eachIZNKS2_9make_taskERNS1_11RenderStateES5_PKS5_jPKNS1_4ItemEPKDv4_fE3$_4EEvT_ENUlPKvSM_PvE_8__invokeESM_SM_SN_
+- __ZZNK2RB5TableIPKNS_11DisplayList5LayerEPNS_6BoundsEE8for_eachIZNKS2_9make_taskERNS1_11RenderStateES5_PKS5_jPKNS1_4ItemEPKDv4_fE3$_4EEvT_ENUlPKvSM_PvE_8__invokeESM_SM_SN_.cold.1
+- __ZZNK2RB5TableIPKNS_20FormattedRenderStateEPNS_6Device19RenderPipelineEntryEE8for_eachIZZNS4_23remove_function_libraryERNS_12CustomShader7LibraryEEUb_E4$_10EEvT_ENUlPKvSF_PvE_8__invokeESF_SF_SG_
+- __ZZNK2RB5TableIPNS_12CustomShader7LibraryEPNS_15FunctionLibraryEE8for_eachIZNS_6DeviceD1EvE3$_0EEvT_ENUlPKvSC_PvE_8__invokeESC_SC_SD_
+- __ZZNK2RB5TableIPU19objcproto9MTLDevice11objc_objectP8RBDeviceE8for_eachIZ22+[RBDevice allDevices]E3$_2EEvT_ENUlPKvSA_PvE_8__invokeESA_SA_SB_
+- __ZZNK2RB5TableImPNS_9BinPacker4itemEE8for_eachIZNS1_4packEvE3$_0EEvT_ENUlPKvS9_PvE_8__invokeES9_S9_SA_
+- __ZZNK2RB6Symbol9Animation23replace_slash_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE17add_stroke_length
+- __ZZNK2RB6Symbol9Animation23replace_slash_keyframesERKNS1_13KeyframesArgsERNS0_15KeyframeStorageEE20remove_stroke_length
+- __ZZNK2RB6Symbol9Animation24variable_value_keyframesEvE12alpha_values
+- __ZZNK2RB6Symbol9Animation24variable_value_keyframesEvE9keyframes
+- __ZZNK2RB6Symbol9Keyframes5printERNS_10SexpStringENS1_6SymbolEPKNS0_15KeyframeStorageEE14property_names
+- __ZZNK2RB9ColorMode12pixel_formatEPKNS_6DeviceEjPNS_10ColorSpaceES5_PjE7formats
+- __Znwm
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.43
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke.45
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_2.47
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_3.48
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_4.cold.1
+- ___59-[RBLayer copyImageInRect:options:completionQueue:handler:]_block_invoke_4.cold.2
+- ___Block_byref_object_copy_.18
+- ___Block_byref_object_copy_.21
+- ___Block_byref_object_dispose_.19
+- ___Block_byref_object_dispose_.22
+- ____ZN2RB12_GLOBAL__N_121make_stitched_libraryERKNS_12CustomShader8FunctionENS1_4TypeERKNSt3__14spanIKNS1_5ValueELm18446744073709551615EEEPU19objcproto9MTLDevice11objc_objectPU21objcproto10MTLLibrary11objc_objectSG_RNS0_12FunctionInfoEPP7NSError_block_invoke
+- ____ZN2RB15FunctionLibrary14compile_shaderERNS_6DeviceERKNS_12CustomShader7ClosureENS3_4TypeEPP7NSError_block_invoke.25
+- ____ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE_block_invoke
+- ____ZN2RB18SharedSurfaceGroup14add_subsurfaceERNS_19SharedSurfaceClientE14MTLPixelFormatNS_10ColorSpaceEjDv2_ifPU33objcproto22_RBDisplayListContents11objc_objectjDv4_fU13block_pointerFvRNS_16SharedSubsurfaceEE_block_invoke_2
+- ____ZN2RB18SharedSurfaceGroup21render_updates_deviceEv_block_invoke
+- ____ZN2RB19ObjcEncoderDelegate16encode_message_fIZ41-[RBShader encodedDataForDelegate:error:]E3$_2Z41-[RBShader encodedDataForDelegate:error:]E3$_3EEP6NSDataRKT_RKT0__block_invoke
+- ____ZN2RB6Symbol5Glyph18make_legacy_layersEf_block_invoke.12
+- ____ZNK2RB6Symbol12Presentation4drawEP15_RBDrawingStateU13block_pointerF7RBColor13RBSymbolStyleP8NSStringE_block_invoke
+- ____ZNK2RB6Symbol5Glyph5Layer4drawEP15_RBDrawingState7RBColorf11RBBlendModeRKNS_15AffineTransformEDv2_fRKNS0_12PresentationE_block_invoke
+- ____ZNK3$_0clEPKvPvPFbS2_13RBPathElementPKdS1_E_block_invoke
+- ___block_descriptor_133_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE104c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
+- ___block_descriptor_143_e8_32o40o48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE120c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE_e5_v8?0l
+- ___block_descriptor_157_e16_48o64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE_e5_v8?0l
+- ___block_descriptor_40_e28_{?=ffff}20?0I8"NSString"12l
+- ___block_descriptor_40_e8_32o_e28_{?=ffff}20?0I8"NSString"12ls32l8
+- ___block_descriptor_60_e8_32c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE40c38_ZTSN2RB14refcounted_ptrINS_6DeviceEEE48c59_ZTSN2RB8objc_ptrIPU22objcproto11RBEncodable11objc_objectEE_e28_v16?0"<MTLCommandBuffer>"8l
+- ___block_descriptor_64_e8_32b40rc_e16_v16?0"RBFill"8lr40l8s32l8
+- ___block_descriptor_65_e8_32rc_e19_"<MTLTexture>"8?0lr32l8
+- ___block_descriptor_80_e8_32rc40rc48r_e5_v8?0lr32l8r40l8r48l8
+- ___block_descriptor_85_e8_32c29_ZTSN2RB8objc_ptrIP7RBLayerEE_e9_v16?0^v8l
+- ___block_descriptor_85_e8_32r40c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE_e19_"<MTLTexture>"8?0l
+- ___block_descriptor_90_e8_32rc64c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE72c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE_e5_v8?0l
+- ___copy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE104c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___copy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE104c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___copy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE120c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
+- ___copy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE120c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
+- ___destroy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE104c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___destroy_helper_block_e16_48c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c61_ZTSN2RB8objc_ptrIPU28objcproto17OS_dispatch_queue8NSObjectEE80c48_ZTSN2RB8objc_ptrIU13block_pointerFvP7CGImageEEE88c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE104c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE
+- ___destroy_helper_block_e16_64c40_ZTSN2RB8objc_ptrIP17RBImageQueueLayerEE72c30_ZTSN2RB8objc_ptrIP8RBDeviceEE88c29_ZTSN2RB8objc_ptrIP7RBLayerEE96c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE112c36_ZTSN2RB8objc_ptrIP13RBDisplayListEE.cold.1
+- ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE120c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE
+- ___destroy_helper_block_e8_48c58_ZTSN2RB8objc_ptrIPU21objcproto10MTLTexture11objc_objectEE56c66_ZTSN2RB8objc_ptrIPU29objcproto18RBDrawableDelegate11objc_objectEE64c30_ZTSN2RB8objc_ptrIP8RBDeviceEE72c40_ZTSN2RB14refcounted_ptrINS_8DrawableEEE120c55_ZTSN2RB8objc_ptrIPU18objcproto8MTLEvent11objc_objectEE.cold.1
+- _atoi
+- _kCAFilterDestOut
+- _objc_msgSend$initWithBase64EncodedString:options:
+- _objc_msgSend$layer
+- _objc_msgSend$setCompositingFilter:
+- _objc_msgSend$setFillColor:
+- _objc_msgSend$styleResolver
+- _objc_release_x21
+- _objc_retain_x26
+- _vImageBoxConvolve_ARGB8888
+- _vImageBoxConvolve_Planar8
+- _vImageTentConvolve_ARGB8888
+- _vImageTentConvolve_Planar8
+CStrings:
++ " \t\n,;"
++ " %a"
++ " %s%s%s%g:%g,%g"
++ " cubic-bezier(%a, %a, %a, %a)"
++ " midpoint(%a)"
++ " no-end-caps"
++ " no-extend"
++ " no-remove"
++ " remove-other-subpaths"
++ " unused"
++ "!0 1 1 0"
++ "!0!1 0"
++ "#:component %d"
++ "%@_v%d"
++ "%a"
++ "%a %a"
++ "%a %a %a"
++ "%a %a %a %a"
++ "%a %a %a %a %a %a"
++ "%a %a %a %a %a %a t"
++ "%a %a %a %a %a; %a %a %a %a %a; %a %a %a %a %a; %a %a %a %a %a"
++ "%a deg"
++ "%a: "
++ "%f: alloc %p: [%d %d] -> %p\n"
++ "%f: collect destroy %p (%f)\n"
++ "%f: collect erasing %p\n"
++ "%f: collect volatile %p (%f)\n"
++ "%f: dealloc %p: %p%s\n"
++ "%f: erase_queue %p\n"
++ "%f: ignore dealloc %p: %p [%p, %f]\n"
++ "%f: next collection %f\n"
++ "%f: remove_watched_queue: %p, %p%s\n"
++ "%f: wait_image_queue slow: %p\n"
++ "%f: wait_image_queue: %p, consumed\n"
++ "%f: wait_image_queue: %p, ping\n"
++ "%f: wait_image_queue: %p, stale\n"
++ "%f: wait_image_queue: %p, timeout\n"
++ "%f: watch_queue: %p, %p\n"
++ "%g %g %g %g %g; %g %g %g %g %g; %g %g %g %g %g; %g %g %g %g %g"
++ "%p: %s for %u -> %s (%f vs %f)\n"
++ "%p: add_subsurface %08x [%d, %d; %d, %d], client %p (%d, %d)\n"
++ "%p: blit (%08x, %08x) [%d, %d], from %p [%d, %d]\n"
++ "%p: client has %d+%d buffers in use, recycling\n"
++ "%p: copy (%08x, %08x) [%d, %d], from %p [%d, %d]\n"
++ "%p: create %p (%08x)\n"
++ "%p: delete (%08x)\n"
++ "%p: failed to move subsurface [%d, %d; %d, %d]\n"
++ "%p: marked %u (%f)\n"
++ "%p: moved subsurface [%d, %d; %d, %d]\n"
++ "%p: remove %08x [%d, %d; %d, %d]\n"
++ "%p: remove_subsurface %08x [%d, %d; %d, %d]%s\n"
++ "%p: render %08x [%d, %d; %d, %d]\n"
++ "%p: schedule_copy [%d, %d], from %p [%d, %d; %d, %d]\n"
++ "%s%s%s%s%g:%g,%g"
++ "%s:%@"
++ "(bg-alpha %.2g)"
++ "(border %g %g)"
++ "(content-headroom %g)"
++ "(distance %g %g)"
++ "(draw-fill)"
++ "(format %d)"
++ "(layer-border %g %g)"
++ "(layer-index %u)"
++ "(not %s)"
++ "(radius %g %g)"
++ "(size %d %d)"
++ "(stroke-attachment-scale %.2f)"
++ "(stroke-range %g %g)"
++ "(symbol from)"
++ "(symbol to)"
++ "(target-headroom %g)"
++ "(task %p)"
++ "(timing-group-index %u)"
++ "(value-index %g)"
++ ", display"
++ "0 0"
++ "10bpc"
++ "4$2"
++ "7.0.67.1.101"
++ "<unknown>"
++ "@%ld"
++ "@?20@0:8I16"
++ "ABIVersion"
++ "B60@?0@\"RBFill\"8{CGRect={CGPoint=dd}{CGSize=dd}}16I48@\"NSString\"52"
++ "B68@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24I56@60"
++ "CGContext creation failed: %d x %d, %d bpp, %lu, 0x%u"
++ "CGContext creation failed: %d x %d, %lu"
++ "CIFilterProvider"
++ "Custom"
++ "DisplayP3 Linear"
++ "HDRMode"
++ "Helvetica"
++ "Q32@0:8i16@20I28"
++ "RB: Packed filters"
++ "RBAnimationSequencer"
++ "RBAnimationSequencerEffects"
++ "RBCommitObserverArray"
++ "RBDevice: set GPU priority %d"
++ "RBDevice: set bg GPU priority %d"
++ "RBDevice: waiting for previous command buffer to submit"
++ "RBLayerGroup"
++ "RBLayerGroup:%p"
++ "RBLayerScreen"
++ "RB_COMMIT_DEADLINE"
++ "RB_DISABLE_SUBSURFACE"
++ "RB_DISABLE_SUBSURFACE_COPY"
++ "RB_LOG_SURFACES"
++ "RB_XML_FLAGS"
++ "RB_XML_RESOURCE_PATH"
++ "RGBA16Unorm_Float"
++ "Rec. 2020"
++ "Rec. 2100 HLG"
++ "Rec. 2100 PQ"
++ "Rec. 709"
++ "RenderFrame mismatch"
++ "T@\"NSURL\",C,N"
++ "T@\"RBAnimationSequencer\",C,N"
++ "T@\"RBAnimationSequencerEffects\",C,N"
++ "T@\"RBDevice\",N"
++ "T@\"RBLayerGroup\",&,N"
++ "Tf,N,V_displayHeadroomLimit"
++ "Tf,N,V_headroom"
++ "Tf,N,V_targetHeadroom"
++ "Ti,N,V_HDRMode"
++ "Ti,N,V_targetColorSpace"
++ "Ti,N,V_workingColorSpace"
++ "Too many texture arguments: %@"
++ "[2(EffectOrArg=\"effect\"{Effect=\"type\"b6\"has_animation\"b1\"flags\"b3\"events\"b6\"begin_or_insert_animation\"b8\"dur_or_remove_animation\"b8}\"arg\"f\"int_arg\"I)]"
++ "_HDRMode"
++ "_async_group"
++ "_bg_gpu_priority"
++ "_completed_handler"
++ "_content_headroom"
++ "_displayHeadroomLimit"
++ "_dpy_headroom"
++ "_effects"
++ "_enclosure.fill"
++ "_enclosure.stroke"
++ "_fillResolver"
++ "_gpu_priority"
++ "_headroom"
++ "_id_key"
++ "_instances"
++ "_last_id"
++ "_pending_subsurface"
++ "_scheduled_handler"
++ "_seq"
++ "_targetColorSpace"
++ "_targetHeadroom"
++ "_tracking_dpy_headroom"
++ "_workingColorSpace"
++ "addContentHeadroom:"
++ "addDistanceFilterWithZeroDistance:oneDistance:scale:flags:"
++ "addScheduledHandler:"
++ "addStyle:data:"
++ "added"
++ "animationSequencer"
++ "asynchronousGroup"
++ "attachments"
++ "b1"
++ "binary archive URL has already been set"
++ "binaryArchiveURL"
++ "blue"
++ "breathe"
++ "by-reference"
++ "color-threshold"
++ "com.apple.RenderBox.RBCommitMarkers"
++ "completedHandler"
++ "component"
++ "content-headroom"
++ "contentHeadroom"
++ "contextWithCGContext:options:"
++ "currentDevice"
++ "currentEDRHeadroom"
++ "curvature"
++ "darken-source"
++ "deadline-passed"
++ "delayOffset"
++ "delayScale"
++ "disableIgnoreAlphaBlendModes"
++ "displacementMap"
++ "displayHeadroomLimit"
++ "displayHeadroomMayHaveChanged"
++ "distanceGradient"
++ "distanceMode"
++ "done"
++ "draw-layer/detached"
++ "draw-off"
++ "draw-on"
++ "draw-per-encoder"
++ "draw-reverses-motion-groups"
++ "drawAttachments"
++ "drawImage:inRect:fromRect:"
++ "drawLayerByReference:alpha:blendMode:flags:"
++ "drawOnOffOptions"
++ "ema_draw_calls"
++ "endPoint"
++ "exact-floats"
++ "export-archive"
++ "extent"
++ "extra-signposts"
++ "failed to load binary function %s: %s\n"
++ "failed to load function %s: %s\n"
++ "fillProviderForStyle:"
++ "fillResolver"
++ "fillStyle"
++ "format"
++ "functions"
++ "glass-displacement"
++ "glass-highlight"
++ "glyph-paths-xml"
++ "gradient-effect"
++ "gradient-float"
++ "gradient-float-inverse"
++ "gradient-inverse"
++ "gradient-map"
++ "gradientAlignsToLayer"
++ "gradientType"
++ "green"
++ "group-bounds"
++ "headroom"
++ "hide-uuids"
++ "image-data"
++ "imageByApplyingTransform:"
++ "imageWithCGImage:"
++ "in-flight"
++ "initWithFormat:"
++ "initWithSystemShader:"
++ "interpolated"
++ "intersects-secondary-dod"
++ "invalid depth stencil format: %u\n"
++ "iosurface"
++ "items"
++ "kern.hv_vmm_present"
++ "knockout"
++ "layerAnimationSequencer"
++ "lighten-source"
++ "loaded binary function %s (%.2f ms)\n"
++ "loaded function %s (%.2f ms)\n"
++ "mask-offset"
++ "matrix(%a, %a; %a, %a; %a, %a)"
++ "max_draw_calls"
++ "min_draw_calls"
++ "minimum-inverse"
++ "mixed"
++ "null"
++ "participatesInVariableDraw"
++ "pixelFormatForColorMode:displayList:flags:"
++ "plus-darker-ignore-alpha"
++ "plus-lighter-ignore-alpha"
++ "plus_darker_ignore_alpha"
++ "plus_lighter_ignore_alpha"
++ "quantized"
++ "range"
++ "rec2020"
++ "rec2020-linear"
++ "rec2020-srgb-gamma"
++ "rec2100-hlg"
++ "rec2100-pq"
++ "removed"
++ "renderer"
++ "renderingOptions"
++ "resolveFill:alignmentRect:style:colorName:"
++ "rgb(%a, %a, %a)"
++ "rgba(%a, %a, %a, %a)"
++ "root layer may not have an animation sequencer"
++ "root-texture"
++ "rotate(%a)"
++ "rounded"
++ "sRGB Linear"
++ "sampled"
++ "scale(%a)"
++ "scale(%a, %a)"
++ "scheduledHandler"
++ "sdf-maximum"
++ "sdf-minimum"
++ "sdf-minimum-inverse"
++ "sdf_maximum"
++ "sdf_minimum"
++ "sdf_minimum_inverse"
++ "sequencesGlyphs"
++ "setABIVersion:"
++ "setAdded:"
++ "setAsynchronousGroup:"
++ "setBinaryArchiveURL:"
++ "setCGColor:"
++ "setCIFilterProvider:"
++ "setCompletedHandler:"
++ "setContentsMaximumDesiredEDR:"
++ "setCurrentDevice:"
++ "setDelayOffset:"
++ "setDelayScale:"
++ "setDisplayHeadroomLimit:"
++ "setDistanceMode:"
++ "setEndPoint:"
++ "setFillProvider:forStyle:"
++ "setFillResolver:"
++ "setHDRMode:"
++ "setHeadroom:"
++ "setLayerAnimationSequencer:"
++ "setMixed:"
++ "setPipelineOptions:"
++ "setRemoved:"
++ "setRenderingOptions:"
++ "setScheduledHandler:"
++ "setSequencesGlyphs:"
++ "setStartPoint:"
++ "setTargetColorSpace:"
++ "setTargetHeadroom:"
++ "setToneMapMode:"
++ "setValue:forKey:"
++ "setWantsExtendedDynamicRangeContent:"
++ "setWorkingColorSpace:"
++ "shader library ABI version has already been set"
++ "shader-library"
++ "shaders"
++ "shared-surface"
++ "sharedLowPowerDevice"
++ "signed-distance"
++ "smoothing"
++ "spread"
++ "startPoint"
++ "stored"
++ "stored-float"
++ "stored-float-inverse"
++ "stored-inverse"
++ "stroke-attachment-scale"
++ "stroke-end"
++ "stroke-start"
++ "subsurface-xml"
++ "subsurfaces"
++ "subtract-source-ignore-alpha"
++ "subtract_s_ignore_alpha"
++ "supportsBackgroundAppRole"
++ "supportsFamily(apple6)"
++ "surface-pool"
++ "surfaces"
++ "system"
++ "systemLibrary"
++ "target-headroom"
++ "targetColorSpace"
++ "targetHeadroom"
++ "tested"
++ "threshold-effect"
++ "tone-map-layer"
++ "tone-map-whole-layer"
++ "total_draw_calls"
++ "translate(%a, %a)"
++ "unable to create shared surface: %d x %d"
++ "unable to load binary archive for shader library: %s, %s"
++ "unknown config flag `%s`\n"
++ "v24@0:8^{CGColor=}16"
++ "v28@0:8@?16I24"
++ "v28@0:8i16r^v20"
++ "v36@0:8@16f24i28I32"
++ "v44@0:8d16d24d32I40"
++ "valueForKey:"
++ "variableDrawLength"
++ "variableDrawOffset"
++ "visible_functions"
++ "vm-swizzle"
++ "waited"
++ "wantsExtendedDynamicRangeContent"
++ "wipe-down"
++ "wipe-left"
++ "wipe-right"
++ "wipe-up"
++ "working color space must use either sRGB or Linear gamma"
++ "workingColorSpace"
++ "xr"
++ "{AnimationSequencer=\"_distance_mode\"i\"_flags\"I\"_p0\"\"_p1\"\"_added\"{Effects=\"_delay_offset\"f\"_delay_scale\"f}\"_mixed\"{Effects=\"_delay_offset\"f\"_delay_scale\"f}\"_removed\"{Effects=\"_delay_offset\"f\"_delay_scale\"f}}"
++ "{Builder=\"_crop_seed\"I\"_layer_id\"I\"_contents\"{refcounted_ptr<RB::DisplayList::Contents>=\"_p\"^{Contents}}\"_free_states\"^{State}\"_free_layer_states\"^{LayerState}\"_active_layer\"^{LayerState}\"_root_state\"{State=\"_next\"^{State}\"_context\"^v\"_ctm\"{AffineTransform=\"ab\"\"cd\"\"txy\"}\"_identity\"{Identity=\"identifier\"I\"ns\"{UUID=\"bytes\"[16C]}}\"_transition\"{refcounted_ptr<const RB::Transition>=\"_p\"^{Transition}}\"_clip\"^{ClipNode}\"_style\"^{Style}\"_copied_ctm\"^{AffineTransform}\"_copied_metadata\"^{Metadata}\"_crop\"{Rect=\"origin\"\"size\"}\"_layer_id\"I\"_crop_seed\"I\"_numeric_value\"{optional_float=\"_value_or_nan\"f}\"_default_color_space\"{optional<RB::ColorSpace>=\"\"(?=\"__null_state_\"c\"__val_\"{ColorSpace=\"primaries\"b3\"transfer_fn\"b3\"grayscale\"b1})\"__engaged_\"B}\"_text_identity\"^{TextIdentity}\"_animation_layer\"{AnimationLayer=\"layer_index\"I\"layer_count\"I}\"_target_headroom\" }\"_root_layer_state\"{LayerState=\"_layer\"^{Layer}\"_next_layer\"^{LayerState}\"_crop\"{Rect=\"origin\"\"size\"}\"_crop_seed\"I}\"_state\"^{State}\"_optimized\"B}"
++ "{Closure=\"function\"{refcounted_ptr<const RB::CustomShader::Function>=\"_p\"^{Function}}\"args\"{vector<RB::CustomShader::Value, 4UL, unsigned long>=\"_p\"[96C]\"_p\"^{Value}\"_size\"Q\"_capacity\"Q}\"cifilter_provider\"{objc_ptr<id>=\"_p\"@}}"
++ "{Effect=\"type\"b6\"has_animation\"b1\"flags\"b3\"events\"b6\"begin_or_insert_animation\"b8\"dur_or_remove_animation\"b8}"
++ "{Effects=\"_delay_offset\"f\"_delay_scale\"f}"
++ "{RBFillData=\"type\"i\"data\"[224C]}"
++ "{SharedSubsurface=\"_surface\"^{SharedSurface}\"_origin\"\"_size\"\"_context\"{objc_ptr<CAContext *>=\"_p\"@\"CAContext\"}\"_commit_marker\"{CommitMarker=\"_observer\"{refcounted_ptr<RB::CommitMarker::Observer>=\"_p\"^{Observer}}}\"_serial\"I\"_has_border\"B}"
++ "{Transform=\"_terms\"{vector<RB::DisplayList::Transform::Term, 1UL, unsigned int>=\"_p\"[40C]\"_p\"^{Term}\"_size\"I\"_capacity\"I}}"
++ "{objc_ptr<NSString *>=\"_p\"@\"NSString\"}"
++ "{objc_ptr<RBLayerGroup *>=\"_p\"@\"RBLayerGroup\"}"
++ "{objc_ptr<bool (^)(RBFill *, CGRect, RBSymbolStyle, NSString *)>=\"_p\"@?}"
++ "{objc_ptr<void (^)()>=\"_p\"@?}"
++ "{optional<unsigned char>=\"\"(?=\"__null_state_\"c\"__val_\"C)\"__engaged_\"B}"
++ "{unique_ptr<RB::XML::Document, std::default_delete<RB::XML::Document>>=\"__ptr_\"^{Document}}"
++ "{vector<RB::refcounted_ptr<RB::CommitMarker::Observer>, 4UL, unsigned long>=\"_p\"[32C]\"_p\"^v\"_size\"Q\"_capacity\"Q}"
+- " %s%s%g:%g,%g"
+- "!0 1 0!0"
+- "!0!1!0"
+- "\"`"
+- "%g %g %g %g; %g %g %g %g; %g %g %g %g; %g %g %g %g; %g %g %g %g"
+- "%s%s%s%g:%g,%g"
+- "(max-distance %g)"
+- "(stroke-length %g)"
+- "(value-index %d)"
+- "-,; "
+- "4%0"
+- "420"
+- "422"
+- "5bpc"
+- "6.5.1"
+- "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+- "BGRA8Unorm_DisplayP3"
+- "CGContext creation failure"
+- "ITU R2100 PQ"
+- "Linear ITU R2100 PQ"
+- "LinearDisplayP3"
+- "Only one texture argument is allowed: %@"
+- "RBAnimationTimer"
+- "RBSymbolShapeLayer"
+- "RB_COLOR_MODE"
+- "RB_PQ_WHITE"
+- "RB_XML_SAVE_IMAGES"
+- "RGBA8Unorm_DisplayP3"
+- "RGBA8Unorm_DisplayP3_sRGB"
+- "Unknown RB_COLOR_MODE option: %s\n"
+- "[2(EffectOrArg=\"effect\"{Effect=\"type\"b7\"has_animation\"b1\"events\"b6\"flags\"b2\"begin_or_insert_animation\"C\"dur_or_remove_animation\"C}\"arg\"f\"int_arg\"I)]"
+- "_rbPath"
+- "alpha-threshold"
+- "deep"
+- "fixed"
+- "grayscale"
+- "half-float"
+- "initWithBase64EncodedString:options:"
+- "max-distance"
+- "nonlinear"
+- "pq"
+- "render"
+- "sRGBLinear"
+- "setCompositingFilter:"
+- "setFillColor:"
+- "spill-clear"
+- "spill-copy"
+- "stroke-length"
+- "unexpected framebuffer colorspace: %s, %s"
+- "unhandled resolved format: %d"
+- "wide"
+- "{?=ffff}20@?0I8@\"NSString\"12"
+- "{Builder=\"_crop_seed\"I\"_layer_id\"I\"_contents\"{refcounted_ptr<RB::DisplayList::Contents>=\"_p\"^{Contents}}\"_state_pool\"{Pool<RB::DisplayList::State, const RB::Malloc>=\"_freelist\"^{Item}}\"_layer_state_pool\"{Pool<RB::DisplayList::Builder::LayerState, RB::Heap>=\"_freelist\"^{Item}}\"_active_layer\"^{LayerState}\"_root_state\"{State=\"_next\"^{State}\"_context\"^v\"_ctm\"{AffineTransform=\"ab\"\"cd\"\"txy\"}\"_identity\"{Identity=\"identifier\"I\"ns\"{UUID=\"bytes\"[16C]}}\"_transition\"{refcounted_ptr<const RB::Transition>=\"_p\"^{Transition}}\"_clip\"^{ClipNode}\"_style\"^{Style}\"_copied_ctm\"^{AffineTransform}\"_copied_metadata\"^{Metadata}\"_crop\"{Rect=\"origin\"\"size\"}\"_layer_id\"I\"_crop_seed\"I\"_numeric_value\"{optional_float=\"_value_or_nan\"f}\"_default_color_space\"{optional<RB::ColorSpace>=\"\"(?=\"__null_state_\"c\"__val_\"C)\"__engaged_\"B}\"_text_identity\"^{TextIdentity}\"_animation_layer\"{AnimationLayer=\"layer_index\"I\"layer_count\"I}}\"_root_layer_state\"{LayerState=\"_layer\"^{Layer}\"_next_layer\"^{LayerState}\"_crop\"{Rect=\"origin\"\"size\"}\"_crop_seed\"I}\"_state\"^{State}\"_optimized\"B}"
+- "{Closure=\"function\"{refcounted_ptr<const RB::CustomShader::Function>=\"_p\"^{Function}}\"args\"{vector<RB::CustomShader::Value, 4UL, unsigned long>=\"_p\"[96C]\"_p\"^{Value}\"_size\"Q\"_capacity\"Q}}"
+- "{Effect=\"type\"b7\"has_animation\"b1\"events\"b6\"flags\"b2\"begin_or_insert_animation\"C\"dur_or_remove_animation\"C}"
+- "{RBFillData=\"type\"i\"data\"[208C]}"
+- "{SharedSubsurface=\"_surface\"^{SharedSurface}\"_origin\"\"_size\"\"_timestamp\"{SharedSurfaceTimestamp=\"_context\"{objc_ptr<CAContext *>=\"_p\"@\"CAContext\"}\"_deadline\"d\"_seed\"I}\"_serial\"I\"_has_border\"B}"
+- "{Transform=\"_terms\"{vector<RB::DisplayList::Transform::Term, 1UL, unsigned int>=\"_p\"[32C]\"_p\"^{Term}\"_size\"I\"_capacity\"I}}"
+- "{path_ptr=\"_p\"{RBPath=\"info\"^v\"callbacks\"^{RBPathCallbacks}}}"
+- "{unique_ptr<RB::XML::Document, std::default_delete<RB::XML::Document>>=\"__ptr_\"{__compressed_pair<RB::XML::Document *, std::default_delete<RB::XML::Document>>=\"__value_\"^{Document}}}"
+
+```

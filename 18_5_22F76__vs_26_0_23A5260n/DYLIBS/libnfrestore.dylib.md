@@ -1,0 +1,568 @@
+## libnfrestore.dylib
+
+> `/usr/lib/libnfrestore.dylib`
+
+```diff
+
+-355.4.0.0.0
+-  __TEXT.__text: 0x180e0
+-  __TEXT.__auth_stubs: 0xcd0
+-  __TEXT.__const: 0x70
+-  __TEXT.__cstring: 0x3822
+-  __TEXT.__oslogstring: 0x28e2
+-  __TEXT.__unwind_info: 0x218
+-  __DATA_CONST.__got: 0xb0
+-  __DATA_CONST.__const: 0x218
+-  __AUTH_CONST.__auth_got: 0x668
+-  __AUTH_CONST.__const: 0x120
+-  __AUTH_CONST.__cfstring: 0x940
++360.33.0.0.0
++  __TEXT.__text: 0xd6a0
++  __TEXT.__auth_stubs: 0x990
++  __TEXT.__const: 0x88
++  __TEXT.__cstring: 0x21ee
++  __TEXT.__oslogstring: 0x194e
++  __TEXT.__unwind_info: 0x118
++  __DATA_CONST.__got: 0x80
++  __DATA_CONST.__const: 0x30
++  __AUTH_CONST.__auth_got: 0x4c8
++  __AUTH_CONST.__cfstring: 0x6e0
+   __DATA.__bss: 0x18
+-  __DATA.__common: 0x28
++  __DATA.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libPN548_API.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libnfshared.dylib
+-  UUID: 2E3E825E-A133-340E-8603-FB5982C6D623
+-  Functions: 151
+-  Symbols:   452
+-  CStrings:  851
++  UUID: CF874224-6869-36CF-940C-55BC89485F03
++  Functions: 52
++  Symbols:   189
++  CStrings:  556
+ 
+Symbols:
++ _NfRestoreOpenSEWithOptions
+- <redacted>
+- _CFDataCreate
+- _CFDictionaryContainsKey
+- _CFPreferencesAppSynchronize
+- _CFPreferencesGetAppIntegerValue
+- _CFStringCreateFromExternalRepresentation
+- _CFStringCreateWithBytes
+- _CFStringFindWithOptions
+- _CFStringGetLength
+- _GetElapsedTimeInMillisecondsFromMachTime
+- _IOConnectCallScalarMethod
+- _IOConnectRelease
+- _IORegistryEntryCreateCFProperties
+- _IOServiceOpen
+- _MGCopyAnswer
+- _MGGetProductType
+- _NFHardwareAllowsVBATOff
+- _NFHardwareCopyAntennaName
+- _NFHardwareDebug
+- _NFHardwareGPIOClose
+- _NFHardwareGPIOConfigureHammerfestSPMI
+- _NFHardwareGPIOIsHostWakeCapable
+- _NFHardwareGPIOOpen
+- _NFHardwareGPIOSPMIFollowerReset
+- _NFHardwareGPIOSetDeviceWake
+- _NFHardwareGPIOSetDownloadRequest
+- _NFHardwareGPIOSetPMUStandbyPowerEnabled
+- _NFHardwareGPIOSetPower
+- _NFHardwareGPIOSetVBAT
+- _NFHardwareGPIOValidateSPMIConfig
+- _NFHardwareGPIOWasItSPMINack
+- _NFHardwareGetModelID
+- _NFHardwareGetRFConfigTLVs
+- _NFHardwareGetUARTLogEnabled
+- _NFHardwareHasFollowerReset
+- _NFHardwareHasVirtualGPIO
+- _NFHardwareInterfaceClose
+- _NFHardwareInterfaceEnableLog
+- _NFHardwareInterfaceFlush
+- _NFHardwareInterfaceFollowerReset
+- _NFHardwareInterfaceGetFlowControl
+- _NFHardwareInterfaceGetType
+- _NFHardwareInterfaceHasExternalSPMIIRQ
+- _NFHardwareInterfaceIsHammerfestAlive
+- _NFHardwareInterfaceIsHostWakeCapable
+- _NFHardwareInterfaceIsSupported
+- _NFHardwareInterfaceOpen
+- _NFHardwareInterfaceQuerySPMIError
+- _NFHardwareInterfaceRead
+- _NFHardwareInterfaceReadAbort
+- _NFHardwareInterfaceReadBlock
+- _NFHardwareInterfaceReadBlockAbort
+- _NFHardwareInterfaceResetSerial
+- _NFHardwareInterfaceSetBaudRate
+- _NFHardwareInterfaceSetCRCEnabled
+- _NFHardwareInterfaceSetDeviceWake
+- _NFHardwareInterfaceSetDownloadRequest
+- _NFHardwareInterfaceSetLogFunction
+- _NFHardwareInterfaceSetOnDemandClientMode
+- _NFHardwareInterfaceSetPMUStandbyEnabled
+- _NFHardwareInterfaceSetPMUStandbyPowerEnabled
+- _NFHardwareInterfaceSetPower
+- _NFHardwareInterfaceSetSPMIConfig
+- _NFHardwareInterfaceSetVBAT
+- _NFHardwareInterfaceValidateSPMIConfig
+- _NFHardwareInterfaceWasItNACK
+- _NFHardwareInterfaceWrite
+- _NFHardwareInterfaceWriteBlock
+- _NFHardwareInterfaceWriteBlockAbort
+- _NFHardwareIsEos
+- _NFHardwareLoad
+- _NFHardwareSerialClose
+- _NFHardwareSerialDebugDump
+- _NFHardwareSerialDebugDump_wCB
+- _NFHardwareSerialDebugLastMessage
+- _NFHardwareSerialDebugLog
+- _NFHardwareSerialDebugLogEnable
+- _NFHardwareSerialDebugMaxEntriesPrinted
+- _NFHardwareSerialDebugMsgTypeString
+- _NFHardwareSerialDebugger
+- _NFHardwareSerialDump
+- _NFHardwareSerialEnableLog
+- _NFHardwareSerialFlush
+- _NFHardwareSerialGetCTS
+- _NFHardwareSerialGetDefaultInterfaceType
+- _NFHardwareSerialHasCTS
+- _NFHardwareSerialIsHammerfestAlive
+- _NFHardwareSerialIsInRestoreOS.inRestoreOS
+- _NFHardwareSerialIsInRestoreOS.onceToken
+- _NFHardwareSerialIsSupported
+- _NFHardwareSerialOpen
+- _NFHardwareSerialPower
+- _NFHardwareSerialQuerySPMIError
+- _NFHardwareSerialReadBlock
+- _NFHardwareSerialReadBlockAbort
+- _NFHardwareSerialReset
+- _NFHardwareSerialSetBaudRate
+- _NFHardwareSerialSetCRCEnabled
+- _NFHardwareSerialSetLogFunction
+- _NFHardwareSerialSetOnDemandClientMode
+- _NFHardwareSerialWriteBlock
+- _NFHardwareSerialWriteBlockAbort
+- _NFHardwareSkipSpmiReconfig
+- _NFHardwareSupportedSecureTimersInOff
+- _NFHardwareUnload
+- _NFPreferencesGetBool
+- _NFRestoreDictionaryCopyDataForKey
+- _NFRestoreGetDriverFlags
+- _NFRestoreLog
+- _NFRestoreNfcFirmwareNameForController
+- _NFRestoreNfcForController
+- _NFRestoreRFSettingsForController
+- _NFSharedDumpTransport
+- _NfContextFree
+- _NfContextInit
+- _NfRestoreBundleScan
+- _NfRestoreRunIntegrityCheck
+- _NfRestoreSEDumpControllerInfo.controllerInfoPrinted
+- _NfRestoreSEOpen_Internal
+- _NfSecureElementClose
+- _NfSecureElementOpen
+- _NfSecureElementScriptRun
+- _NfSecureElementScriptRunLine
+- _NfSecureElementSetPower
+- __AddEntriesIntoDictionary
+- __NFHardwareDumpIOKit
+- __NFHardwareFindMatchingService
+- __NFHardwareGPIOSetBoolean
+- __NFHardwareGetRFConfigTLV
+- __NFHardwareGetStringValue
+- __NFHardwareLookInTree
+- __NFHardwarePrintNode
+- __NFHardwareSerialSetNonBlock
+- __NFHardwareWalkTree
+- __NFRestore
+- __NFRestoreDebugNFCCError
+- __NFRestoreGenericHardwareError
+- __NFRestoreNfcFirmwareStep
+- __NFRestorePushError
+- __NFRestoreShutdownNFCC
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __NfRestoreBundleValidateTargetPath
+- __NfRestoreHasRadio
+- __NfRestoreRunAntennaSelfCheck
+- ___NFHardwareSerialFlush_block_invoke
+- ___NFHardwareSerialFlush_block_invoke.37
+- ___NFHardwareSerialFlush_block_invoke.42
+- ___NFHardwareSerialIsInRestoreOS_block_invoke
+- ___NFHardwareSerialReadBlock_block_invoke
+- ___NFHardwareSerialWriteBlock_block_invoke
+- ____NFHardwareSerialCreateSources_block_invoke
+- ____NFHardwareSerialCreateSources_block_invoke.135
+- ____NFHardwareSerialCreateSources_block_invoke.143
+- ____NFHardwareSerialCreateSources_block_invoke_2
+- ____NFHardwareSerialDeleteSources_block_invoke
+- ____NFHardwareSerialDeleteSources_block_invoke.148
+- ___block_descriptor_tmp
+- ___block_descriptor_tmp.132
+- ___block_descriptor_tmp.136
+- ___block_descriptor_tmp.139
+- ___block_descriptor_tmp.144
+- ___block_descriptor_tmp.145
+- ___block_descriptor_tmp.149
+- ___block_descriptor_tmp.34
+- ___block_descriptor_tmp.35
+- ___block_descriptor_tmp.38
+- ___block_descriptor_tmp.43
+- ___block_literal_global
+- ___block_literal_global.134
+- ___block_literal_global.138
+- ___block_literal_global.141
+- ___block_literal_global.147
+- ___block_literal_global.151
+- ___block_literal_global.40
+- ___block_literal_global.45
+- __dispatch_source_type_read
+- __dispatch_source_type_write
+- __gDriver
+- __gError
+- __os_log_default
+- __os_log_fault_impl
+- _abort
+- _cfmakeraw
+- _cfsetispeed
+- _cfsetospeed
+- _cfsetspeed
+- _close
+- _connect
+- _dispatch_activate
+- _dispatch_get_global_queue
+- _dispatch_once
+- _dispatch_release
+- _dispatch_resume
+- _dispatch_retain
+- _dispatch_set_qos_class_fallback
+- _dispatch_source_cancel
+- _dispatch_source_create
+- _dispatch_source_get_data
+- _dispatch_source_set_cancel_handler
+- _dispatch_source_set_event_handler
+- _dispatch_suspend
+- _fcntl
+- _gDebuggers.0
+- _gDebuggers.1
+- _gNfContext
+- _getsockopt
+- _gettimeofday
+- _ioctl
+- _kCFPreferencesCurrentApplication
+- _mach_continuous_time
+- _mach_task_self_
+- _memset
+- _open
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+- _read
+- _setsockopt
+- _socket
+- _tcgetattr
+- _tcsetattr
+- _write
+CStrings:
++ "%s:%i Failed to find matching file for %02x_%02x_%02x (%@)"
++ "%{public}s:%i Failed to find matching file for %02x_%02x_%02x (%@)"
++ "SE310S_FW_A0_01_01_33_rev165162.bin"
++ "SE310S_FW_A0_01_01_D3_rev165460.bin"
++ "SN100V_FW_A3_01_01_B6_rev157827.bin"
++ "SN200V_FURY_FW_B1_02_01_A6_rev156022.bin"
++ "SN200V_FW_B1_02_01_B7_rev165089.bin"
++ "SN300V_FW_B0_02_01_71_rev166029.bin"
++ "SN300V_FW_B0_02_01_FA_rev166298.bin"
+- "%02x"
+- "%ld.%.6d %s %s"
+- "%s:%i \"%s\" errno=%d "
+- "%s:%i \"%s\" errno=%d Failed to get flags"
+- "%s:%i \"%s\" errno=%d Failed to set flags"
+- "%s:%i \"%s\" errno=%d Failed to set non-blocking."
+- "%s:%i \"%s\" errno=%d IO_STOCKHOLM_CRC"
+- "%s:%i \"%s\" errno=%d IO_STOCKHOLM_ON_DEMAND_CLIENT"
+- "%s:%i \"%s\" errno=%d TIOCMSET"
+- "%s:%i \"%s\" errno=%d baudRate=%d"
+- "%s:%i \"%s\" errno=%d baudRate=%lu"
+- "%s:%i \"%s\" errno=%d connect"
+- "%s:%i \"%s\" errno=%d fcntl: F_SETFL"
+- "%s:%i \"%s\" errno=%d getsockopt: SYSPROTO_CONTROL"
+- "%s:%i \"%s\" errno=%d getsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_SPMIERRORS"
+- "%s:%i \"%s\" errno=%d ioctl: CTLIOCGINFO"
+- "%s:%i \"%s\" errno=%d ioctl: TIOCEXCL"
+- "%s:%i \"%s\" errno=%d open"
+- "%s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL"
+- "%s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_ON_DEMAND_CLIENT"
+- "%s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_SPMIERRORS"
+- "%s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:TIOCFLUSH - attempt %d - "
+- "%s:%i \"%s\" errno=%d socket"
+- "%s:%i \"%s\" errno=%d tcgetattr"
+- "%s:%i %s doesn't exist"
+- "%s:%i %s is of Type %lx, expecting %lx"
+- "%s:%i Buffers not allocated"
+- "%s:%i Could not find service, trying slow path: %s"
+- "%s:%i Could not find service: %s"
+- "%s:%i Could not get valid dictionary from from IO service object, err: 0x%x."
+- "%s:%i Could not open service (%#x)"
+- "%s:%i Error"
+- "%s:%i Error ! Unexpected invocation of read handler"
+- "%s:%i Error ! Unexpected invocation of write handler"
+- "%s:%i Error : read in progress since %llu"
+- "%s:%i FAILED: %s"
+- "%s:%i Fail to release connection"
+- "%s:%i Fail to release service"
+- "%s:%i Failed to allocate interface %s"
+- "%s:%i Failed to create context for interface %s"
+- "%s:%i Failed to fetch property: %s"
+- "%s:%i Failed to find matching file for %02x_%02x_%02x"
+- "%s:%i Failed to write, buffer already pending TX. Bytes left = %zu, bytes written = %d, suspend state = %d"
+- "%s:%i Failed with %#x"
+- "%s:%i Flow is %s"
+- "%s:%i Flow is %s (line=%x)"
+- "%s:%i HW Debugging - FLOW CHECK - EXPECTED OFF"
+- "%s:%i HW Debugging - FLOW CHECK - EXPECTED ON"
+- "%s:%i HW Debugging - ON"
+- "%s:%i HW Debugging - POWERING OFF"
+- "%s:%i HW Debugging - SLEEP + wait 1.5s"
+- "%s:%i HW Debugging - WAKE"
+- "%s:%i HW Debugging - current FLOW CHECK"
+- "%s:%i HW Debugging starting - OFF"
+- "%s:%i HW debugging result : 0x%04X"
+- "%s:%i HW error : unit is not powering cycling."
+- "%s:%i HW error : unit is not powering on."
+- "%s:%i Ignoring for SPMI"
+- "%s:%i Invalid parameter"
+- "%s:%i No interface defined for reading"
+- "%s:%i No interface defined for writing"
+- "%s:%i Not connected"
+- "%s:%i Not implemented."
+- "%s:%i Only %lu bytes available, requested %zu !"
+- "%s:%i Only got %zu bytes, requested %zu, available %lu."
+- "%s:%i Printing last %ld messages"
+- "%s:%i Read aborted while in progress since %llu."
+- "%s:%i Serial device not opened!"
+- "%s:%i Socket is blocking !!"
+- "%s:%i Socket is non-blocking"
+- "%s:%i Unexpected CFType, exp = %lu, actual = %lu"
+- "%s:%i Unexpected result"
+- "%s:%i Unknown interface %s"
+- "%s:%i Unsupported type: %lu"
+- "%s:%i Using blocking socket for relay"
+- "%s:%i VBAT enable=%d"
+- "%s:%i Write aborted while in progress."
+- "%s:%i antenna name is missing - no RF?"
+- "%s:%i baudRate=%lu"
+- "%s:%i enable=%d"
+- "%s:%i failed to allocate last msg buffer"
+- "%s:%i failed to msg"
+- "%s:%i failed to open device %s"
+- "%s:%i failed to open socket %s"
+- "%s:%i mandatory RF settings %s not present in EDT for this config"
+- "%s:%i selector=%d enable=%llu : Failed with %#x"
+- "%s:%i selector=%d enable=%llu : Not connected"
+- "%s:%i stockholm doesn't exist"
+- "%s:%i wrong GPIO driver type: %d"
+- "%{public}s:%i \"%s\" errno=%d "
+- "%{public}s:%i \"%s\" errno=%d Failed to get flags"
+- "%{public}s:%i \"%s\" errno=%d Failed to set flags"
+- "%{public}s:%i \"%s\" errno=%d Failed to set non-blocking."
+- "%{public}s:%i \"%s\" errno=%d IO_STOCKHOLM_CRC"
+- "%{public}s:%i \"%s\" errno=%d IO_STOCKHOLM_ON_DEMAND_CLIENT"
+- "%{public}s:%i \"%s\" errno=%d TIOCMSET"
+- "%{public}s:%i \"%s\" errno=%d baudRate=%d"
+- "%{public}s:%i \"%s\" errno=%d baudRate=%lu"
+- "%{public}s:%i \"%s\" errno=%d connect"
+- "%{public}s:%i \"%s\" errno=%d fcntl: F_SETFL"
+- "%{public}s:%i \"%s\" errno=%d getsockopt: SYSPROTO_CONTROL"
+- "%{public}s:%i \"%s\" errno=%d getsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_SPMIERRORS"
+- "%{public}s:%i \"%s\" errno=%d ioctl: CTLIOCGINFO"
+- "%{public}s:%i \"%s\" errno=%d ioctl: TIOCEXCL"
+- "%{public}s:%i \"%s\" errno=%d open"
+- "%{public}s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL"
+- "%{public}s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_ON_DEMAND_CLIENT"
+- "%{public}s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:IO_STOCKHOLM_SPMIERRORS"
+- "%{public}s:%i \"%s\" errno=%d setsockopt: SYSPROTO_CONTROL:TIOCFLUSH - attempt %d - "
+- "%{public}s:%i \"%s\" errno=%d socket"
+- "%{public}s:%i \"%s\" errno=%d tcgetattr"
+- "%{public}s:%i %s doesn't exist"
+- "%{public}s:%i %s is of Type %lx, expecting %lx"
+- "%{public}s:%i Buffers not allocated"
+- "%{public}s:%i Could not find service, trying slow path: %s"
+- "%{public}s:%i Could not find service: %s"
+- "%{public}s:%i Could not get valid dictionary from from IO service object, err: 0x%x."
+- "%{public}s:%i Could not open service (%#x)"
+- "%{public}s:%i Error"
+- "%{public}s:%i Error ! Unexpected invocation of read handler"
+- "%{public}s:%i Error ! Unexpected invocation of write handler"
+- "%{public}s:%i Error : read in progress since %llu"
+- "%{public}s:%i FAILED: %s"
+- "%{public}s:%i Fail to release connection"
+- "%{public}s:%i Fail to release service"
+- "%{public}s:%i Failed to allocate interface %s"
+- "%{public}s:%i Failed to create context for interface %s"
+- "%{public}s:%i Failed to fetch property: %s"
+- "%{public}s:%i Failed to find matching file for %02x_%02x_%02x"
+- "%{public}s:%i Failed to write, buffer already pending TX. Bytes left = %zu, bytes written = %d, suspend state = %d"
+- "%{public}s:%i Failed with %#x"
+- "%{public}s:%i Flow is %s"
+- "%{public}s:%i Flow is %s (line=%x)"
+- "%{public}s:%i HW Debugging - FLOW CHECK - EXPECTED OFF"
+- "%{public}s:%i HW Debugging - FLOW CHECK - EXPECTED ON"
+- "%{public}s:%i HW Debugging - ON"
+- "%{public}s:%i HW Debugging - POWERING OFF"
+- "%{public}s:%i HW Debugging - SLEEP + wait 1.5s"
+- "%{public}s:%i HW Debugging - WAKE"
+- "%{public}s:%i HW Debugging - current FLOW CHECK"
+- "%{public}s:%i HW Debugging starting - OFF"
+- "%{public}s:%i HW debugging result : 0x%04X"
+- "%{public}s:%i HW error : unit is not powering cycling."
+- "%{public}s:%i HW error : unit is not powering on."
+- "%{public}s:%i Ignoring for SPMI"
+- "%{public}s:%i Invalid parameter"
+- "%{public}s:%i No interface defined for reading"
+- "%{public}s:%i No interface defined for writing"
+- "%{public}s:%i Not connected"
+- "%{public}s:%i Not implemented."
+- "%{public}s:%i Only %lu bytes available, requested %zu !"
+- "%{public}s:%i Only got %zu bytes, requested %zu, available %lu."
+- "%{public}s:%i Printing last %ld messages"
+- "%{public}s:%i Read aborted while in progress since %llu."
+- "%{public}s:%i Serial device not opened!"
+- "%{public}s:%i Socket is blocking !!"
+- "%{public}s:%i Socket is non-blocking"
+- "%{public}s:%i Unexpected CFType, exp = %lu, actual = %lu"
+- "%{public}s:%i Unexpected result"
+- "%{public}s:%i Unknown interface %s"
+- "%{public}s:%i Unsupported type: %lu"
+- "%{public}s:%i Using blocking socket for relay"
+- "%{public}s:%i VBAT enable=%d"
+- "%{public}s:%i Write aborted while in progress."
+- "%{public}s:%i antenna name is missing - no RF?"
+- "%{public}s:%i baudRate=%lu"
+- "%{public}s:%i enable=%d"
+- "%{public}s:%i failed to allocate last msg buffer"
+- "%{public}s:%i failed to msg"
+- "%{public}s:%i failed to open device %s"
+- "%{public}s:%i failed to open socket %s"
+- "%{public}s:%i mandatory RF settings %s not present in EDT for this config"
+- "%{public}s:%i selector=%d enable=%llu : Failed with %#x"
+- "%{public}s:%i selector=%d enable=%llu : Not connected"
+- "%{public}s:%i stockholm doesn't exist"
+- "%{public}s:%i wrong GPIO driver type: %d"
+- "((NFHardwareSerialInternal*)(serial->internal))->currentWriteBuffer == ((void*)0)"
+- "((NFHardwareSerialInternal*)(serial->internal))->currentWriteBufferSize == 0"
+- "((NFHardwareSerialInternal*)(serial->internal))->suspendWriteCount == 1"
+- "*length>0"
+- "/dev/tty.stockholm"
+- "Close"
+- "Error : read already in progress."
+- "Flush"
+- "Follower-RST"
+- "HIGH"
+- "LOW"
+- "NFHardwareCopyAntennaName"
+- "NFHardwareDebug"
+- "NFHardwareGPIOClose"
+- "NFHardwareGPIOConfigureHammerfestSPMI"
+- "NFHardwareGPIOIsHostWakeCapable"
+- "NFHardwareGPIOOpen"
+- "NFHardwareGPIOSetDownloadRequest"
+- "NFHardwareGPIOSetPMUStandbyPowerEnabled"
+- "NFHardwareGPIOSetPower"
+- "NFHardwareGPIOSetVBAT"
+- "NFHardwareGPIOValidateSPMIConfig"
+- "NFHardwareGetModelID"
+- "NFHardwareGetRFConfigTLVs"
+- "NFHardwareGetUARTLogEnabled"
+- "NFHardwareHasFollowerReset"
+- "NFHardwareHasVirtualGPIO"
+- "NFHardwareInterfaceOpen"
+- "NFHardwareInterfaceRead"
+- "NFHardwareInterfaceReadBlock"
+- "NFHardwareInterfaceResetSerial"
+- "NFHardwareInterfaceWriteBlock"
+- "NFHardwareLoad"
+- "NFHardwareSerialClose"
+- "NFHardwareSerialDebugDump_wCB"
+- "NFHardwareSerialDebugLog"
+- "NFHardwareSerialFlush"
+- "NFHardwareSerialFlush_block_invoke"
+- "NFHardwareSerialGetCTS"
+- "NFHardwareSerialGetDefaultInterfaceType"
+- "NFHardwareSerialIsHammerfestAlive"
+- "NFHardwareSerialOpen"
+- "NFHardwareSerialQuerySPMIError"
+- "NFHardwareSerialReadBlock"
+- "NFHardwareSerialReadBlockAbort"
+- "NFHardwareSerialReadBlock_block_invoke"
+- "NFHardwareSerialReset"
+- "NFHardwareSerialSetBaudRate"
+- "NFHardwareSerialSetCRCEnabled"
+- "NFHardwareSerialSetOnDemandClientMode"
+- "NFHardwareSerialWriteBlock"
+- "NFHardwareSerialWriteBlockAbort"
+- "NFHardwareSerialWriteBlock_block_invoke"
+- "NFHardwareSupportedSecureTimersInOff"
+- "NFHardwareUnload"
+- "Open"
+- "RestoreOSBuild"
+- "Rx"
+- "Rx-Abort"
+- "SE310S_FW_A0_01_01_2B_rev156564.bin"
+- "SE310S_FW_A0_01_01_CB_rev156588.bin"
+- "SN100V_FW_A3_01_01_AE_rev157440.bin"
+- "SN200V_FURY_FW_B1_02_01_A7_rev157243.bin"
+- "SN200V_FW_B1_02_01_AF_rev157437.bin"
+- "SN300V_FW_B0_02_01_64_rev157348.bin"
+- "SN300V_FW_B0_02_01_F2_rev156582.bin"
+- "Sleep"
+- "TRUNCATED"
+- "Tx"
+- "Tx-Abort"
+- "UARTDumpMaxEntries"
+- "Wake"
+- "[RX<]"
+- "[TX>]"
+- "[TX>] Failed : Busy"
+- "_NFHardwareGPIOSetBoolean"
+- "_NFHardwareGetRFConfigTLV"
+- "_NFHardwareSerialCreateSources_block_invoke"
+- "_NFHardwareSerialCreateSources_block_invoke_2"
+- "_NFHardwareSerialDebugSaveLastMessage"
+- "_NFHardwareSerialDeleteSources_block_invoke"
+- "_NFHardwareSerialOpenDeviceNode"
+- "_NFHardwareSerialOpenSocket"
+- "_NFHardwareSerialRead"
+- "_NFHardwareSerialSetNonBlock"
+- "buffer!=((void*)0)"
+- "devicePath != ((void*)0)"
+- "hammerfest-data-available-event"
+- "length!=0"
+- "nfc,primary,spmi"
+- "nfc,secondary,spmi"
+- "nfccModel"
+- "required-functions"
+- "required-gpios"
+- "rf-antenna-name"
+- "rf-clock-tlv"
+- "rf-config-tlvs"
+- "rf-config-tlvs-10"
+- "rf-config-tlvs-12"
+- "se-lpem-enabled"
+- "spmi"
+- "spmiFollowerReset"
+- "stockholm-spmi-data-socket"
+- "support_host_wake_spmi"
+- "support_virtual_gpio"
+- "support_wake_stockholm"
+- "support_wake_stockholm_soc"
+- "uart.log"
+- "v8@?0"
+
+```

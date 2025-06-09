@@ -1,0 +1,540 @@
+## SiriSuggestionsAPI
+
+> `/System/Library/PrivateFrameworks/SiriSuggestionsAPI.framework/SiriSuggestionsAPI`
+
+```diff
+
+-3405.21.1.0.0
+-  __TEXT.__text: 0xbede4
+-  __TEXT.__auth_stubs: 0x2680
++3500.39.1.0.0
++  __TEXT.__text: 0xb1360
++  __TEXT.__auth_stubs: 0x2560
+   __TEXT.__objc_methlist: 0x124
+-  __TEXT.__const: 0x7d4a
+-  __TEXT.__cstring: 0x28c5
+-  __TEXT.__swift5_typeref: 0x23ce
+-  __TEXT.__swift5_capture: 0x944
+-  __TEXT.__oslogstring: 0x3b15
+-  __TEXT.__swift5_reflstr: 0x1c32
+-  __TEXT.__swift5_assocty: 0x180
+-  __TEXT.__swift5_fieldmd: 0x26f8
+-  __TEXT.__constg_swiftt: 0x2374
++  __TEXT.__const: 0x6fe8
++  __TEXT.__cstring: 0x2205
++  __TEXT.__swift5_typeref: 0x1e78
++  __TEXT.__swift5_capture: 0x94c
++  __TEXT.__oslogstring: 0x3c8a
++  __TEXT.__swift5_reflstr: 0x15b2
++  __TEXT.__swift5_assocty: 0x168
++  __TEXT.__swift5_fieldmd: 0x1e10
++  __TEXT.__constg_swiftt: 0x1d4c
+   __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_protos: 0x98
+-  __TEXT.__swift5_proto: 0x718
+-  __TEXT.__swift5_types: 0x28c
+-  __TEXT.__swift_as_entry: 0x6b4
+-  __TEXT.__swift_as_ret: 0x65c
++  __TEXT.__swift5_protos: 0x88
++  __TEXT.__swift5_proto: 0x540
++  __TEXT.__swift5_types: 0x200
++  __TEXT.__swift_as_entry: 0x6b8
++  __TEXT.__swift_as_ret: 0x668
+   __TEXT.__swift5_mpenum: 0x28
+-  __TEXT.__unwind_info: 0x41f8
+-  __TEXT.__eh_frame: 0xaa50
++  __TEXT.__unwind_info: 0x3ae0
++  __TEXT.__eh_frame: 0xa120
+   __TEXT.__objc_methname: 0xa33
+-  __DATA_CONST.__got: 0xbb8
+-  __DATA_CONST.__const: 0x218
+-  __DATA_CONST.__objc_classlist: 0x168
++  __DATA_CONST.__got: 0xb80
++  __DATA_CONST.__const: 0x1c0
++  __DATA_CONST.__objc_classlist: 0x148
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x3b0
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1340
+-  __AUTH_CONST.__const: 0x5d18
+-  __AUTH_CONST.__objc_const: 0x2578
++  __AUTH_CONST.__auth_got: 0x12b0
++  __AUTH_CONST.__const: 0x4b28
++  __AUTH_CONST.__objc_const: 0x22c8
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x6f8
+-  __DATA.__data: 0x1d98
+-  __DATA.__bss: 0x7080
+-  __DATA_DIRTY.__objc_data: 0x250
+-  __DATA_DIRTY.__data: 0x2df8
+-  __DATA_DIRTY.__bss: 0x4400
+-  __DATA_DIRTY.__common: 0x88
++  __AUTH.__data: 0x528
++  __DATA.__data: 0x8d0
++  __DATA.__bss: 0x4900
++  __DATA_DIRTY.__objc_data: 0x200
++  __DATA_DIRTY.__data: 0x2cf0
++  __DATA_DIRTY.__bss: 0x3180
++  __DATA_DIRTY.__common: 0x50
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/CoreSpeech.framework/CoreSpeech
+   - /System/Library/PrivateFrameworks/CoreSpeechFoundation.framework/CoreSpeechFoundation
+
+   - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+   - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 60554EB0-ACA0-38FA-B82F-385AB14914D9
+-  Functions: 5525
+-  Symbols:   4544
+-  CStrings:  661
++  UUID: 8383084F-9E18-328C-A0B1-B78BF55E9128
++  Functions: 4876
++  Symbols:   3990
++  CStrings:  606
+ 
+Symbols:
++ __PROTOCOLS__TtC18SiriSuggestionsAPI26ContinuationBasedXPCBridge.42
++ ___swift_destroy_boxed_opaque_existential_2
++ ___swift_get_extra_inhabitant_index.92Tm
++ ___swift_mutable_project_boxed_opaque_existential_1Tm
++ ___swift_mutable_project_boxed_opaque_existential_2
++ ___swift_store_extra_inhabitant_index.93Tm
++ ___unnamed_10
++ ___unnamed_2
++ ___unnamed_5
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriSuggestionsAPI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriSuggestionsAPI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriSuggestionsAPI
++ _block_copy_helper.113
++ _block_copy_helper.143
++ _block_copy_helper.154
++ _block_copy_helper.169
++ _block_copy_helper.180
++ _block_copy_helper.195
++ _block_copy_helper.207
++ _block_copy_helper.210
++ _block_copy_helper.213
++ _block_copy_helper.64
++ _block_copy_helper.80
++ _block_copy_helper.89
++ _block_copy_helper.95
++ _block_descriptor.115
++ _block_descriptor.145
++ _block_descriptor.156
++ _block_descriptor.171
++ _block_descriptor.182
++ _block_descriptor.197
++ _block_descriptor.209
++ _block_descriptor.212
++ _block_descriptor.215
++ _block_descriptor.66
++ _block_descriptor.82
++ _block_descriptor.91
++ _block_descriptor.97
++ _block_destroy_helper.114
++ _block_destroy_helper.144
++ _block_destroy_helper.155
++ _block_destroy_helper.170
++ _block_destroy_helper.181
++ _block_destroy_helper.196
++ _block_destroy_helper.208
++ _block_destroy_helper.211
++ _block_destroy_helper.214
++ _block_destroy_helper.65
++ _block_destroy_helper.81
++ _block_destroy_helper.90
++ _block_destroy_helper.96
++ _objc_retain_x26
++ _objc_retain_x9
++ _objectdestroy.101Tm
++ _objectdestroy.105Tm
++ _objectdestroy.12Tm
++ _objectdestroy.62Tm
++ _objectdestroy.68Tm
++ _objectdestroy.73Tm
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _symbolic Say_____G9questions_t 18SiriSuggestionsAPI24SuggestionPhraseWithIconV
++ _symbolic _____ 18SiriSuggestionsAPI24SuggestionPhraseWithIconV
++ _symbolic _____ 18SiriSuggestionsKit0aB0O21SuggestionRequestTypeO
++ _symbolic _____Sg 18SiriSuggestionsAPI0B12RFDataModelsO
++ _symbolic _____Sg 18SiriSuggestionsAPI28AnnouncementDialogPropertiesV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 18SiriSuggestionsKit0dE0O11IntentQueryV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 32SiriReferenceResolutionDataModel8RRResultO s5ErrorP
++ _symbolic _____yxGSgXw 18SiriSuggestionsAPI11SinkCaptureC
++ _symbolic _____yxGSgXwz_x_lXX 18SiriSuggestionsAPI11SinkCaptureC
++ _symbolic _____yyt______pGAB_pIeghgzo_ s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _symbolic _____yyt______pGIeghg_ s6ResultOsRi_zRi0_zrlE s5ErrorP
+- _OUTLINED_FUNCTION_232
+- _OUTLINED_FUNCTION_233
+- _OUTLINED_FUNCTION_234
+- _OUTLINED_FUNCTION_235
+- _OUTLINED_FUNCTION_236
+- _OUTLINED_FUNCTION_237
+- _OUTLINED_FUNCTION_238
+- _OUTLINED_FUNCTION_239
+- _OUTLINED_FUNCTION_240
+- _OUTLINED_FUNCTION_241
+- _OUTLINED_FUNCTION_242
+- _OUTLINED_FUNCTION_243
+- __DATA__TtC18SiriSuggestionsAPI14JsonSerializer
+- __DATA__TtC18SiriSuggestionsAPI16BinarySerializer
+- __DATA__TtC18SiriSuggestionsAPI26InMemoryConfigBackingStore
+- __DATA__TtC18SiriSuggestionsAPI27FileBasedConfigBackingStore
+- __IVARS__TtC18SiriSuggestionsAPI12ConfigLoader
+- __IVARS__TtC18SiriSuggestionsAPI26InMemoryConfigBackingStore
+- __IVARS__TtC18SiriSuggestionsAPI27FileBasedConfigBackingStore
+- __METACLASS_DATA__TtC18SiriSuggestionsAPI14JsonSerializer
+- __METACLASS_DATA__TtC18SiriSuggestionsAPI16BinarySerializer
+- __METACLASS_DATA__TtC18SiriSuggestionsAPI26InMemoryConfigBackingStore
+- __METACLASS_DATA__TtC18SiriSuggestionsAPI27FileBasedConfigBackingStore
+- __PROTOCOLS__TtC18SiriSuggestionsAPI26ContinuationBasedXPCBridge.44
+- ___swift_allocate_boxed_opaque_existential_2Tm
+- ___swift_get_extra_inhabitant_index.104Tm
+- ___swift_memcpy32_8
+- ___swift_memcpy456_8
+- ___swift_memcpy72_8
+- ___swift_memcpy96_8
+- ___swift_store_extra_inhabitant_index.105Tm
+- ___unnamed_4
+- ___unnamed_8
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriSuggestionsAPI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriSuggestionsAPI
+- _associated conformance 18SiriSuggestionsAPI07DefaultA16HintsViewServiceC0efG6ErrorsOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI09AssistantB12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI09AssistantB12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI09AssistantB12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0A17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0A17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0A17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0F3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0F3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 18SiriSuggestionsAPI22PreGenerationStoreTypeOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOSHAASQ
+- _associated conformance 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLOs0I3KeyAAs28CustomDebugStringConvertible
+- _block_copy_helper.115
+- _block_copy_helper.145
+- _block_copy_helper.156
+- _block_copy_helper.171
+- _block_copy_helper.182
+- _block_copy_helper.197
+- _block_copy_helper.209
+- _block_copy_helper.212
+- _block_copy_helper.215
+- _block_copy_helper.66
+- _block_copy_helper.82
+- _block_copy_helper.91
+- _block_copy_helper.97
+- _block_descriptor.117
+- _block_descriptor.147
+- _block_descriptor.158
+- _block_descriptor.173
+- _block_descriptor.184
+- _block_descriptor.199
+- _block_descriptor.211
+- _block_descriptor.214
+- _block_descriptor.217
+- _block_descriptor.68
+- _block_descriptor.84
+- _block_descriptor.93
+- _block_descriptor.99
+- _block_destroy_helper.116
+- _block_destroy_helper.146
+- _block_destroy_helper.157
+- _block_destroy_helper.172
+- _block_destroy_helper.183
+- _block_destroy_helper.198
+- _block_destroy_helper.210
+- _block_destroy_helper.213
+- _block_destroy_helper.216
+- _block_destroy_helper.67
+- _block_destroy_helper.83
+- _block_destroy_helper.92
+- _block_destroy_helper.98
+- _objc_release_x1
+- _objc_retain_x24
+- _objc_retain_x27
+- _objectdestroy.103Tm
+- _objectdestroy.107Tm
+- _objectdestroy.14Tm
+- _objectdestroy.64Tm
+- _objectdestroy.70Tm
+- _objectdestroy.75Tm
+- _swift_bridgeObjectRelease_n
+- _swift_cvw_instantiateLayoutString
+- _swift_getTupleTypeMetadata2
+- _swift_unexpectedError
+- _symbolic $s18SiriSuggestionsAPI018AssistantInitiatedB6ConfigP
+- _symbolic $s18SiriSuggestionsAPI0A11HintsConfigP
+- _symbolic $s18SiriSuggestionsAPI10SerializerP
+- _symbolic $s18SiriSuggestionsAPI18ConfigBackingStoreP
+- _symbolic 8RawValueSYQz
+- _symbolic SDySS_____G 18SiriSuggestionsAPI18WindowParamsConfigV
+- _symbolic SDyxq_G
+- _symbolic SS8question_t
+- _symbolic SaySsG
+- _symbolic Say_____G 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV
+- _symbolic So6NSLockC
+- _symbolic Su
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 18SiriSuggestionsAPI07DefaultA16HintsViewServiceC0efG6ErrorsO
+- _symbolic _____ 18SiriSuggestionsAPI09AssistantB12PolicyConfigV
+- _symbolic _____ 18SiriSuggestionsAPI09AssistantB12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0A17HintsPolicyConfigV
+- _symbolic _____ 18SiriSuggestionsAPI0A17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV
+- _symbolic _____ 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ 18SiriSuggestionsAPI12ConfigLoaderC
+- _symbolic _____ 18SiriSuggestionsAPI14JsonSerializerC
+- _symbolic _____ 18SiriSuggestionsAPI16BinarySerializerC
+- _symbolic _____ 18SiriSuggestionsAPI16ConstCodableDictV
+- _symbolic _____ 18SiriSuggestionsAPI18WindowParamsConfigV
+- _symbolic _____ 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLO
+- _symbolic _____ 18SiriSuggestionsAPI22PreGenerationStoreTypeO
+- _symbolic _____ 18SiriSuggestionsAPI26InMemoryConfigBackingStoreC
+- _symbolic _____ 18SiriSuggestionsAPI27FileBasedConfigBackingStoreC
+- _symbolic _____ 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV
+- _symbolic _____ 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____ SS5IndexV
+- _symbolic _____3key_Sd5valuet 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic _____Sg 12SiriOntology13UsoIdentifierV
+- _symbolic _____Sg 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic ______Sdt 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic ______SdtSg 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic ______Sit 18SiriSuggestionsKit14InvocationTypeO
+- _symbolic ______p 18SiriSuggestionsAPI0A11HintsConfigP
+- _symbolic ______p 18SiriSuggestionsAPI10SerializerP
+- _symbolic ______p 18SiriSuggestionsAPI18ConfigBackingStoreP
+- _symbolic _____y_____G 18SiriSuggestionsAPI12ConfigLoaderC AA0ab7RuntimeD0V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI09AssistantE12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0D17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV012IntelligenceH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV013BeforeTheFoldH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV017FeatureExtractionH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0d13HelpSelectionH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de10EngagementH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de15DiscoverabilityH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de5EventH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de6WindowH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI09AssistantE12PolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0D17HintsPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV012IntelligenceH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV013BeforeTheFoldH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV017FeatureExtractionH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0d13HelpSelectionH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de10EngagementH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de15DiscoverabilityH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de5EventH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV0de6WindowH0V10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI0dE13RuntimeConfigV11CoefficientV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI18WindowParamsConfigV10CodingKeys33_5110CDB8C4CD710BE6DD51B4CA9AD987LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV10CodingKeys33_EBF2DEF8B4AF6281329E35C20213B07FLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 18SiriSuggestionsAPI0dE13RuntimeConfigV11CoefficientV
+- _symbolic _____y_____SdG s17_NativeDictionaryV 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic _____y_____SdG s18_DictionaryStorageC 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic _____y_____SiG 18SiriSuggestionsAPI16ConstCodableDictV 0aB3Kit15DeliveryVehicleO
+- _symbolic _____y_____SiG s17_NativeDictionaryV 18SiriSuggestionsKit14InvocationTypeO
+- _symbolic _____y_____SiG s18_DictionaryStorageC 18SiriSuggestionsKit14InvocationTypeO
+- _symbolic _____y______SdtG s23_ContiguousArrayStorageC 18SiriSuggestionsKit18ObservedActionTypeO
+- _symbolic _____y______SitG s23_ContiguousArrayStorageC 18SiriSuggestionsKit14InvocationTypeO
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 32SiriReferenceResolutionDataModel8RRResultO s5ErrorP
+- _symbolic _____yyt______pGAB_pIeghgzo_ s6ResultOsRi_zrlE s5ErrorP
+- _symbolic _____yyt______pGIeghg_ s6ResultOsRi_zrlE s5ErrorP
+- _type_layout_string 18SiriSuggestionsAPI09AssistantB12PolicyConfigV
+- _type_layout_string 18SiriSuggestionsAPI0A17HintsPolicyConfigV
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV012IntelligenceE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV013BeforeTheFoldE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV017FeatureExtractionE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV0a13HelpSelectionE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab10EngagementE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab15DiscoverabilityE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab5EventE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV0ab6WindowE0V
+- _type_layout_string 18SiriSuggestionsAPI0aB13RuntimeConfigV11CoefficientV
+- _type_layout_string 18SiriSuggestionsAPI18WindowParamsConfigV
+- _type_layout_string 18SiriSuggestionsAPI40AssistantInitiatedSuggestionPolicyConfigV
+- _type_layout_string SHRzSYRzs8SendableRzSeR_SER_sAAR_Se8RawValueSYRpzSEACRQSHACRQr0_l18SiriSuggestionsAPI16ConstCodableDictVyxq_G
+CStrings:
++ "Donation to locale SiriRemembers DB failed. This donation call is only used in unit tests and needs to be removed from runtime. It does not affect our runtime logging. error: %s"
++ "In Process donation to SiriRemembers biome stream failed. error: %s"
++ "SinkCapture is already deallocated."
++ "Submitting conversation continuer for %s intentQueries: %s"
++ "Suggestion: %s added to view container"
++ "Unsupported assistantTurnState: %s, return empty suggestion list"
++ "intentsToSuggest"
++ "queryUUIDParams_"
++ "relatedQuestions"
++ "rendered"
++ "suggestionPhrase"
+- "Duplicate values for key: '"
+- "Fatal error"
+- "In Process donation to SiriRemembers donation failed. error: %s"
+- "InMemory backingStore"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "Unknown action type %s"
+- "_TtC18SiriSuggestionsAPI14JsonSerializer"
+- "_TtC18SiriSuggestionsAPI16BinarySerializer"
+- "_TtC18SiriSuggestionsAPI26InMemoryConfigBackingStore"
+- "_TtC18SiriSuggestionsAPI27FileBasedConfigBackingStore"
+- "actionTypeCoefficients"
+- "appLastSeenPeriod"
+- "assistantInitiatedSuggestions"
+- "assistantSuggestions"
+- "backingStore"
+- "betaHalflifeInDays"
+- "canInvokeSuggestions"
+- "com.apple.siri.settings"
+- "config"
+- "coolOffHoursAfterEngagement"
+- "data"
+- "dataFileLocation"
+- "deviceExpertQuestion"
+- "discoverabilityScorer"
+- "distinctOwnership"
+- "distinctSuggestionGroups"
+- "distinctSuggestionIdOwners"
+- "engagementBetaHalfLifeHours"
+- "engagementEstimatorScoreWeight"
+- "engagementScorer"
+- "engagementScorerModelName"
+- "engagementWeight"
+- "featureExtraction"
+- "fileBacked"
+- "generationStoreLocation"
+- "generationStoreType"
+- "generatorTimeout"
+- "impressionBetaHalfLifeHours"
+- "impressionWeight"
+- "inMemory"
+- "includeCategoryFallbacks"
+- "interactionHistoryScoreWeight"
+- "interactionPropertiesWaitTime"
+- "loading runtime config from path: %s"
+- "maxGroupPriorToFilter"
+- "maxNumOfAppIdFeatures"
+- "maxNumberOfExposures"
+- "maxNumberOfSuggestionsPerSignal"
+- "maxShownSuggestions"
+- "minimumAppSaliencyScore"
+- "minimumEngagementEstimatorScore"
+- "none"
+- "nowPlayingLookbackBufferSeconds"
+- "observationPeriodInDays"
+- "platformRootLocation"
+- "relevanceScoreWeight"
+- "relevanceTimeWindowSecs"
+- "serializer"
+- "showDescriptions"
+- "smartSuppressionThreshold"
+- "smartSupressionModelName"
+- "suppressionWindowHours"
+- "suppressionWindowHoursSinceLastDeliveryVehicle"
+- "windowPeriodMins"
+
+```

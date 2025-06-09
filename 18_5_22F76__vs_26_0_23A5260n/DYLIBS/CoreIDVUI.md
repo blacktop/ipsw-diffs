@@ -1,0 +1,3964 @@
+## CoreIDVUI
+
+> `/System/Library/PrivateFrameworks/CoreIDVUI.framework/CoreIDVUI`
+
+```diff
+
+-7.502.0.0.0
+-  __TEXT.__text: 0xdbd1c
+-  __TEXT.__auth_stubs: 0x3ec0
+-  __TEXT.__objc_methlist: 0x1c90
+-  __TEXT.__const: 0x33f4
+-  __TEXT.__gcc_except_tab: 0x3c
+-  __TEXT.__cstring: 0x7d63
+-  __TEXT.__oslogstring: 0x6539
+-  __TEXT.__dlopen_cstrs: 0xa0
+-  __TEXT.__constg_swiftt: 0x4e58
+-  __TEXT.__swift5_typeref: 0x36e6
+-  __TEXT.__swift5_builtin: 0xf0
+-  __TEXT.__swift5_reflstr: 0x3355
+-  __TEXT.__swift5_fieldmd: 0x22c0
+-  __TEXT.__swift5_assocty: 0x270
+-  __TEXT.__swift5_proto: 0x12c
+-  __TEXT.__swift5_types: 0x1d4
+-  __TEXT.__swift5_capture: 0x119c
+-  __TEXT.__swift_as_entry: 0x170
+-  __TEXT.__swift_as_ret: 0x198
+-  __TEXT.__swift5_protos: 0x24
+-  __TEXT.__unwind_info: 0x2678
+-  __TEXT.__eh_frame: 0x399c
+-  __TEXT.__objc_classname: 0x23a
+-  __TEXT.__objc_methname: 0x5157
+-  __TEXT.__objc_methtype: 0x16a1
+-  __TEXT.__objc_stubs: 0x920
+-  __DATA_CONST.__got: 0xd60
+-  __DATA_CONST.__const: 0x258
+-  __DATA_CONST.__objc_classlist: 0x268
+-  __DATA_CONST.__objc_protolist: 0xd8
++8.33.2.0.0
++  __TEXT.__text: 0x176e50
++  __TEXT.__auth_stubs: 0x61c0
++  __TEXT.__objc_methlist: 0x2684
++  __TEXT.__const: 0x8b54
++  __TEXT.__cstring: 0xc052
++  __TEXT.__gcc_except_tab: 0x24
++  __TEXT.__dlopen_cstrs: 0x50
++  __TEXT.__constg_swiftt: 0x6250
++  __TEXT.__swift5_typeref: 0xbbfa
++  __TEXT.__swift5_fieldmd: 0x4058
++  __TEXT.__swift5_builtin: 0x17c
++  __TEXT.__swift5_reflstr: 0x54e3
++  __TEXT.__swift5_assocty: 0x688
++  __TEXT.__swift5_proto: 0x3bc
++  __TEXT.__swift5_types: 0x3ac
++  __TEXT.__swift5_capture: 0x2390
++  __TEXT.__swift_as_entry: 0x3c0
++  __TEXT.__swift_as_ret: 0x3c4
++  __TEXT.__oslogstring: 0x8e6d
++  __TEXT.__swift5_protos: 0x2c
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0x4ff0
++  __TEXT.__eh_frame: 0xabf0
++  __TEXT.__objc_classname: 0x33f
++  __TEXT.__objc_methname: 0x7602
++  __TEXT.__objc_methtype: 0x1ddc
++  __TEXT.__objc_stubs: 0x860
++  __DATA_CONST.__got: 0x1770
++  __DATA_CONST.__const: 0x208
++  __DATA_CONST.__objc_classlist: 0x388
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x1b0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1508
+-  __DATA_CONST.__objc_protorefs: 0x78
+-  __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x1f70
+-  __AUTH_CONST.__const: 0x4f60
+-  __AUTH_CONST.__cfstring: 0x220
+-  __AUTH_CONST.__objc_const: 0x6c18
+-  __AUTH.__objc_data: 0x5988
+-  __AUTH.__data: 0x32b8
++  __DATA_CONST.__objc_selrefs: 0x20a8
++  __DATA_CONST.__objc_protorefs: 0x100
++  __DATA_CONST.__objc_superrefs: 0x40
++  __AUTH_CONST.__auth_got: 0x30f0
++  __AUTH_CONST.__const: 0xa680
++  __AUTH_CONST.__cfstring: 0x240
++  __AUTH_CONST.__objc_const: 0x9890
++  __AUTH.__objc_data: 0x8280
++  __AUTH.__data: 0x4f08
+   __DATA.__objc_ivar: 0x6c
+-  __DATA.__data: 0x2520
+-  __DATA.__bss: 0x1e50
+-  __DATA.__common: 0x1a8
+-  __DATA_DIRTY.__objc_data: 0xbe8
+-  __DATA_DIRTY.__data: 0x198
++  __DATA.__data: 0x3d18
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0x6ad0
++  __DATA.__common: 0x250
++  __DATA_DIRTY.__objc_data: 0x14d8
++  __DATA_DIRTY.__data: 0x260
+   __DATA_DIRTY.__bss: 0x80
++  __DATA_DIRTY.__common: 0x8
++  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/CoreImage
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CoreVideo.framework/CoreVideo
++  - /System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit
+   - /System/Library/Frameworks/DeveloperToolsSupport.framework/DeveloperToolsSupport
++  - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
++  - /System/Library/Frameworks/ExtensionKit.framework/ExtensionKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/Network.framework/Network
++  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
++  - /System/Library/Frameworks/SceneKit.framework/SceneKit
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/Symbols.framework/Symbols
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/PrivateFrameworks/AccessibilityUIUtilities.framework/AccessibilityUIUtilities
+   - /System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
++  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/BiometricKit.framework/BiometricKit
+   - /System/Library/PrivateFrameworks/CoreCDPUI.framework/CoreCDPUI
+   - /System/Library/PrivateFrameworks/CoreIDCred.framework/CoreIDCred
+
+   - /System/Library/PrivateFrameworks/CoreRecognition.framework/CoreRecognition
+   - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/LocalAuthenticationPrivateUI.framework/LocalAuthenticationPrivateUI
++  - /System/Library/PrivateFrameworks/NearField.framework/NearField
+   - /System/Library/PrivateFrameworks/OnBoardingKit.framework/OnBoardingKit
+   - /System/Library/PrivateFrameworks/PassKitCore.framework/PassKitCore
+-  - /System/Library/PrivateFrameworks/PaymentUIBase.framework/PaymentUIBase
+   - /System/Library/PrivateFrameworks/RemoteUI.framework/RemoteUI
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
++  - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftRegexBuilder.dylib
++  - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 368E75CC-C873-33D5-A774-BDD1062535E3
+-  Functions: 3342
+-  Symbols:   2691
+-  CStrings:  2138
++  UUID: 6F9749CB-16B2-3FDA-9D53-7656DA64AB32
++  Functions: 6238
++  Symbols:   4127
++  CStrings:  3158
+ 
+Symbols:
++ +[RBSProcessIdentity(DIDeprecated) di_identityForEmbeddedApplicationIdentifier:]
++ -[CIDVUIBiometricBindingEnrollmentProvider biometricEnrollmentACLType]
++ -[CIDVUIIdentityProofingDataSharingFlowManager checkUserConsent:completion:]
++ -[CIDVUIIdentityProofingDataSharingFlowManager didChangeUserConsent:userConsent:completion:]
++ -[CIDVUIIdentityProofingDataSharingFlowManager fetchUserConsent:completion:]
++ -[CIDVUIProofingConfiguration initWithState:country:target:status:credentialIdentifier:productIdentifier:accountKeyIdentifier:idType:extendedReviewURL:learnMoreURL:supplementalProvisioningData:isPairedWatchUnsupported:proofingErrorMessage:piiTokenIdentifier:]
++ -[CIDVUIProofingConfiguration piiTokenIdentifier]
++ -[CIDVUIProofingConfiguration setPiiTokenIdentifier:]
++ -[UIButton(DIDeprecated) di_setTitleEdgeInsets:]
++ -[UIButton(DIDeprecated) di_titleEdgeInsets]
++ _AVCaptureDeviceTypeBuiltInUltraWideCamera
++ _AVCaptureDeviceTypeBuiltInWideAngleCamera
++ _AVCaptureSessionPresetHigh
++ _AVLayerVideoGravityResizeAspectFill
++ _AVMediaTypeVideo
++ _AudioServicesPlaySystemSound
++ _CATransform3DIdentity
++ _CATransform3DMakeAffineTransform
++ _CATransform3DMakeScale
++ _CATransform3DRotate
++ _CATransform3DScale
++ _CGAffineTransformMakeRotation
++ _CGAffineTransformMakeScale
++ _CGAffineTransformTranslate
++ _CGColorSpaceCreateDeviceRGB
++ _CGContextDrawRadialGradient
++ _CGContextScaleCTM
++ _CGGradientCreateWithColors
++ _CGImageGetHeight
++ _CGImageGetWidth
++ _CGPathGetBoundingBox
++ _CGRectGetMidY
++ _CGRectIntersection
++ _CGRectIsNull
++ _CMSampleBufferGetImageBuffer
++ _CTFontCreateWithFontDescriptor
++ _CTFontDescriptorCreateWithAttributes
++ _DIIdentityCredentialWebPresentmentErrorDomain
++ _NSDebugDescriptionErrorKey
++ _NSDefaultRunLoopMode
++ _NSKernAttributeName
++ _OBJC_CLASS_$_AVCaptureDevice
++ _OBJC_CLASS_$_AVCaptureDeviceInput
++ _OBJC_CLASS_$_AVCaptureSession
++ _OBJC_CLASS_$_AVCaptureVideoDataOutput
++ _OBJC_CLASS_$_AVCaptureVideoPreviewLayer
++ _OBJC_CLASS_$_BSMutableSettings
++ _OBJC_CLASS_$_CABasicAnimation
++ _OBJC_CLASS_$_CADisplayLink
++ _OBJC_CLASS_$_CAEmitterCell
++ _OBJC_CLASS_$_CAEmitterLayer
++ _OBJC_CLASS_$_CAFilter
++ _OBJC_CLASS_$_CAGradientLayer
++ _OBJC_CLASS_$_CALayer
++ _OBJC_CLASS_$_CAMediaTimingFunction
++ _OBJC_CLASS_$_CAShapeLayer
++ _OBJC_CLASS_$_CATextLayer
++ _OBJC_CLASS_$_CATransaction
++ _OBJC_CLASS_$_CIContext
++ _OBJC_CLASS_$_CIDVUIProofingDisplayMessageAction
++ _OBJC_CLASS_$_CIFilter
++ _OBJC_CLASS_$_CIVector
++ _OBJC_CLASS_$_DIIdentityCredentialWebPresentmentController
++ _OBJC_CLASS_$_DIIdentityCredentialWebPresentmentResponse
++ _OBJC_CLASS_$_EXHostViewController
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_NFHardwareManager
++ _OBJC_CLASS_$_NFReaderSession
++ _OBJC_CLASS_$_NFTag
++ _OBJC_CLASS_$_NSArray
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSNull
++ _OBJC_CLASS_$_NSPropertyListSerialization
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSUserActivity
++ _OBJC_CLASS_$_NSXPCInterface
++ _OBJC_CLASS_$_NSXPCListenerEndpoint
++ _OBJC_CLASS_$_OBPrivacyPresenter
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$_SBSUIRemoteAlertScene
++ _OBJC_CLASS_$_SCNAction
++ _OBJC_CLASS_$_SCNCamera
++ _OBJC_CLASS_$_SCNGeometry
++ _OBJC_CLASS_$_SCNGeometryElement
++ _OBJC_CLASS_$_SCNGeometrySource
++ _OBJC_CLASS_$_SCNMaterial
++ _OBJC_CLASS_$_SCNNode
++ _OBJC_CLASS_$_SCNPlane
++ _OBJC_CLASS_$_SCNScene
++ _OBJC_CLASS_$_SCNTransaction
++ _OBJC_CLASS_$_SCNView
++ _OBJC_CLASS_$_TKBERTLVRecord
++ _OBJC_CLASS_$_TKTLVRecord
++ _OBJC_CLASS_$_UIBezierPath
++ _OBJC_CLASS_$_UIOpenURLContext
++ _OBJC_CLASS_$_UIResponder
++ _OBJC_CLASS_$_UISheetPresentationController
++ _OBJC_CLASS_$_UISheetPresentationControllerDetent
++ _OBJC_CLASS_$_UIWindow
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_CLASS_$__TtC9CoreIDVUI17AuthCodeTextField
++ _OBJC_CLASS_$__TtC9CoreIDVUI17PassportSceneView
++ _OBJC_CLASS_$__TtC9CoreIDVUI20DefaultSceneDelegate
++ _OBJC_CLASS_$__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ _OBJC_CLASS_$__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ _OBJC_CLASS_$__TtC9CoreIDVUI25PassportCameraOverlayView
++ _OBJC_CLASS_$__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ _OBJC_CLASS_$__TtC9CoreIDVUI28PassportMRZCameraPreviewView
++ _OBJC_CLASS_$__TtC9CoreIDVUI31PassportMRZReaderViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification
++ _OBJC_CLASS_$__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ _OBJC_CLASS_$__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ _OBJC_CLASS_$__TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction
++ _OBJC_CLASS_$__TtC9CoreIDVUI8MRZLayer
++ _OBJC_CLASS_$__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ _OBJC_CLASS_$__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ _OBJC_CLASS_$__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ _OBJC_CLASS_$__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ _OBJC_CLASS_$__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ _OBJC_CLASS_$__UIHostedWindowScene
++ _OBJC_CLASS_$__UISceneHostingActionClientToHost
++ _OBJC_CLASS_$__UISceneHostingController
++ _OBJC_CLASS_$__UISceneHostingReconnectingActivationController
++ _OBJC_CLASS_$__UISceneHostingSceneSpecification
++ _OBJC_IVAR_$_CIDVUIProofingConfiguration._piiTokenIdentifier
++ _OBJC_METACLASS_$_CALayer
++ _OBJC_METACLASS_$_CIDVUIProofingDisplayMessageAction
++ _OBJC_METACLASS_$_DIIdentityCredentialWebPresentmentController
++ _OBJC_METACLASS_$_SCNNode
++ _OBJC_METACLASS_$_UIResponder
++ _OBJC_METACLASS_$__TtC9CoreIDVUI17AuthCodeTextField
++ _OBJC_METACLASS_$__TtC9CoreIDVUI17PassportSceneView
++ _OBJC_METACLASS_$__TtC9CoreIDVUI20DefaultSceneDelegate
++ _OBJC_METACLASS_$__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ _OBJC_METACLASS_$__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ _OBJC_METACLASS_$__TtC9CoreIDVUI25PassportCameraOverlayView
++ _OBJC_METACLASS_$__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ _OBJC_METACLASS_$__TtC9CoreIDVUI28PassportMRZCameraPreviewView
++ _OBJC_METACLASS_$__TtC9CoreIDVUI31PassportMRZReaderViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification
++ _OBJC_METACLASS_$__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ _OBJC_METACLASS_$__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ _OBJC_METACLASS_$__TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction
++ _OBJC_METACLASS_$__TtC9CoreIDVUI8MRZLayer
++ _OBJC_METACLASS_$__TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer
++ _OBJC_METACLASS_$__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate
++ _OBJC_METACLASS_$__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ _OBJC_METACLASS_$__TtCC9CoreIDVUI17PassportSceneViewP33_18A116326E02D2242132B5B2E61598D210StampLayer
++ _OBJC_METACLASS_$__UISceneHostingActionClientToHost
++ _OBJC_METACLASS_$__UISceneHostingSceneSpecification
++ _SCNGeometrySourceSemanticTexcoord
++ _SCNLightingModelConstant
++ _SCNVector3Zero
++ _UIContentSizeCategoryAccessibilityMedium
++ _UIFontTextStyleCaption1
++ _UIFontTextStyleTitle2
++ _UIFontWeightMedium
++ _UIKeyboardWillHideNotification
++ _UIKeyboardWillShowNotification
++ _UISheetPresentationControllerDetentInactive
++ _UIViewNoIntrinsicMetric
++ __CLASS_METHODS_CIDVUIProofingDisplayMessageAction
++ __CLASS_METHODS__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __CLASS_PROPERTIES_CIDVUIProofingDisplayMessageAction
++ __DATA_CIDVUIProofingDisplayMessageAction
++ __DATA_DIIdentityCredentialWebPresentmentController
++ __DATA__TtC9CoreIDVUI10DataGroup1
++ __DATA__TtC9CoreIDVUI10DataGroup2
++ __DATA__TtC9CoreIDVUI17AuthCodeTextField
++ __DATA__TtC9CoreIDVUI17PassportNFCReader
++ __DATA__TtC9CoreIDVUI17PassportSceneView
++ __DATA__TtC9CoreIDVUI18PassportScanResult
++ __DATA__TtC9CoreIDVUI20DefaultSceneDelegate
++ __DATA__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __DATA__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __DATA__TtC9CoreIDVUI25PassportCameraOverlayView
++ __DATA__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __DATA__TtC9CoreIDVUI28PassportMRZCameraPreviewView
++ __DATA__TtC9CoreIDVUI30RGBCaptureConsentConfiguration
++ __DATA__TtC9CoreIDVUI31PassportMRZReaderViewController
++ __DATA__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ __DATA__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ __DATA__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController
++ __DATA__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection
++ __DATA__TtC9CoreIDVUI40IdentityProofingPendingViewConfiguration
++ __DATA__TtC9CoreIDVUI41IdentityCredentialScanWithDeviceViewModel
++ __DATA__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ __DATA__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __DATA__TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification
++ __DATA__TtC9CoreIDVUI44IdentityCredentialProviderSelectionViewModel
++ __DATA__TtC9CoreIDVUI47IdentityProofingExtendedReviewViewConfiguration
++ __DATA__TtC9CoreIDVUI47IdentityProofingWaitingForWifiViewConfiguration
++ __DATA__TtC9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModel
++ __DATA__TtC9CoreIDVUI50IdentityProofingRetryProvisioningViewConfiguration
++ __DATA__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ __DATA__TtC9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModel
++ __DATA__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ __DATA__TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction
++ __DATA__TtC9CoreIDVUI8MRZLayer
++ __DATA__TtC9CoreIDVUIP33_3F0861F1A7E2543D1FF06A2AC37E100819ResourceBundleClass
++ __DATA__TtC9CoreIDVUIP33_4F9BED0E448B35CFCE5184237BB8C82024PreviewNFCPassportReader
++ __DATA__TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer
++ __DATA__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate
++ __DATA__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __DATA__TtC9CoreIDVUIP33_D656DA4086A4964DFAA720FE5EE5FF4F19ResourceBundleClass
++ __DATA__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ __DATA__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ __DATA__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ __DATA__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ __DATA__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ __DATA__TtCC9CoreIDVUI17PassportSceneViewP33_18A116326E02D2242132B5B2E61598D210StampLayer
++ __DATA__TtCO9CoreIDVUI16IdentityProofing17NFCScanViewConfig
++ __DATA__TtCV9CoreIDVUI20PassportNFCGuideView10ViewConfig
++ __DATA__TtCV9CoreIDVUIP33_9BEBA1C02F10E101344CED9A3D36656D23PlaygroundUIViewWrapper11Coordinator
++ __INSTANCE_METHODS_CIDVUIProofingDisplayMessageAction
++ __INSTANCE_METHODS_DIIdentityCredentialWebPresentmentController
++ __INSTANCE_METHODS__TtC9CoreIDVUI17AuthCodeTextField
++ __INSTANCE_METHODS__TtC9CoreIDVUI17PassportSceneView
++ __INSTANCE_METHODS__TtC9CoreIDVUI20DefaultSceneDelegate
++ __INSTANCE_METHODS__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __INSTANCE_METHODS__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __INSTANCE_METHODS__TtC9CoreIDVUI25PassportCameraOverlayView
++ __INSTANCE_METHODS__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __INSTANCE_METHODS__TtC9CoreIDVUI31PassportMRZReaderViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection
++ __INSTANCE_METHODS__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification
++ __INSTANCE_METHODS__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ __INSTANCE_METHODS__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ __INSTANCE_METHODS__TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction
++ __INSTANCE_METHODS__TtC9CoreIDVUI8MRZLayer
++ __INSTANCE_METHODS__TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer
++ __INSTANCE_METHODS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA49RemoteIdentityCredentialProviderHostingController
++ __INSTANCE_METHODS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ __INSTANCE_METHODS__TtCC9CoreIDVUI17PassportSceneViewP33_18A116326E02D2242132B5B2E61598D210StampLayer
++ __INSTANCE_METHODS__TtCO9CoreIDVUI16IdentityProofing17NFCScanViewConfig
++ __IVARS_CIDVUIProofingDisplayMessageAction
++ __IVARS_DIIdentityCredentialWebPresentmentController
++ __IVARS__TtC9CoreIDVUI10DataGroup1
++ __IVARS__TtC9CoreIDVUI10DataGroup2
++ __IVARS__TtC9CoreIDVUI17AuthCodeTextField
++ __IVARS__TtC9CoreIDVUI17PassportNFCReader
++ __IVARS__TtC9CoreIDVUI17PassportSceneView
++ __IVARS__TtC9CoreIDVUI18PassportScanResult
++ __IVARS__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __IVARS__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __IVARS__TtC9CoreIDVUI25PassportCameraOverlayView
++ __IVARS__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __IVARS__TtC9CoreIDVUI28PassportMRZCameraPreviewView
++ __IVARS__TtC9CoreIDVUI30RGBCaptureConsentConfiguration
++ __IVARS__TtC9CoreIDVUI31PassportMRZReaderViewController
++ __IVARS__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ __IVARS__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ __IVARS__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController
++ __IVARS__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection
++ __IVARS__TtC9CoreIDVUI40IdentityProofingPendingViewConfiguration
++ __IVARS__TtC9CoreIDVUI41IdentityCredentialScanWithDeviceViewModel
++ __IVARS__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ __IVARS__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __IVARS__TtC9CoreIDVUI44IdentityCredentialProviderSelectionViewModel
++ __IVARS__TtC9CoreIDVUI47IdentityProofingExtendedReviewViewConfiguration
++ __IVARS__TtC9CoreIDVUI47IdentityProofingWaitingForWifiViewConfiguration
++ __IVARS__TtC9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModel
++ __IVARS__TtC9CoreIDVUI50IdentityProofingRetryProvisioningViewConfiguration
++ __IVARS__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ __IVARS__TtC9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModel
++ __IVARS__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ __IVARS__TtC9CoreIDVUI8MRZLayer
++ __IVARS__TtC9CoreIDVUIP33_4F9BED0E448B35CFCE5184237BB8C82024PreviewNFCPassportReader
++ __IVARS__TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer
++ __IVARS__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate
++ __IVARS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA49RemoteIdentityCredentialProviderHostingController
++ __IVARS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __IVARS__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ __IVARS__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ __IVARS__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ __IVARS__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ __IVARS__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ __IVARS__TtCO9CoreIDVUI16IdentityProofing17NFCScanViewConfig
++ __IVARS__TtCV9CoreIDVUI20PassportNFCGuideView10ViewConfig
++ __IVARS__TtCV9CoreIDVUIP33_9BEBA1C02F10E101344CED9A3D36656D23PlaygroundUIViewWrapper11Coordinator
++ __METACLASS_DATA_CIDVUIProofingDisplayMessageAction
++ __METACLASS_DATA_DIIdentityCredentialWebPresentmentController
++ __METACLASS_DATA__TtC9CoreIDVUI10DataGroup1
++ __METACLASS_DATA__TtC9CoreIDVUI10DataGroup2
++ __METACLASS_DATA__TtC9CoreIDVUI17AuthCodeTextField
++ __METACLASS_DATA__TtC9CoreIDVUI17PassportNFCReader
++ __METACLASS_DATA__TtC9CoreIDVUI17PassportSceneView
++ __METACLASS_DATA__TtC9CoreIDVUI18PassportScanResult
++ __METACLASS_DATA__TtC9CoreIDVUI20DefaultSceneDelegate
++ __METACLASS_DATA__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __METACLASS_DATA__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __METACLASS_DATA__TtC9CoreIDVUI25PassportCameraOverlayView
++ __METACLASS_DATA__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __METACLASS_DATA__TtC9CoreIDVUI28PassportMRZCameraPreviewView
++ __METACLASS_DATA__TtC9CoreIDVUI30RGBCaptureConsentConfiguration
++ __METACLASS_DATA__TtC9CoreIDVUI31PassportMRZReaderViewController
++ __METACLASS_DATA__TtC9CoreIDVUI31RGBCaptureConsentViewController
++ __METACLASS_DATA__TtC9CoreIDVUI37IdentityProofingPendingViewController
++ __METACLASS_DATA__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController
++ __METACLASS_DATA__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection
++ __METACLASS_DATA__TtC9CoreIDVUI40IdentityProofingPendingViewConfiguration
++ __METACLASS_DATA__TtC9CoreIDVUI41IdentityCredentialScanWithDeviceViewModel
++ __METACLASS_DATA__TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController
++ __METACLASS_DATA__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __METACLASS_DATA__TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification
++ __METACLASS_DATA__TtC9CoreIDVUI44IdentityCredentialProviderSelectionViewModel
++ __METACLASS_DATA__TtC9CoreIDVUI47IdentityProofingExtendedReviewViewConfiguration
++ __METACLASS_DATA__TtC9CoreIDVUI47IdentityProofingWaitingForWifiViewConfiguration
++ __METACLASS_DATA__TtC9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModel
++ __METACLASS_DATA__TtC9CoreIDVUI50IdentityProofingRetryProvisioningViewConfiguration
++ __METACLASS_DATA__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ __METACLASS_DATA__TtC9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModel
++ __METACLASS_DATA__TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController
++ __METACLASS_DATA__TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction
++ __METACLASS_DATA__TtC9CoreIDVUI8MRZLayer
++ __METACLASS_DATA__TtC9CoreIDVUIP33_3F0861F1A7E2543D1FF06A2AC37E100819ResourceBundleClass
++ __METACLASS_DATA__TtC9CoreIDVUIP33_4F9BED0E448B35CFCE5184237BB8C82024PreviewNFCPassportReader
++ __METACLASS_DATA__TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer
++ __METACLASS_DATA__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate
++ __METACLASS_DATA__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __METACLASS_DATA__TtC9CoreIDVUIP33_D656DA4086A4964DFAA720FE5EE5FF4F19ResourceBundleClass
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneView10CameraNode
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneView12PassportNode
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneView9PhoneNode
++ __METACLASS_DATA__TtCC9CoreIDVUI17PassportSceneViewP33_18A116326E02D2242132B5B2E61598D210StampLayer
++ __METACLASS_DATA__TtCO9CoreIDVUI16IdentityProofing17NFCScanViewConfig
++ __METACLASS_DATA__TtCV9CoreIDVUI20PassportNFCGuideView10ViewConfig
++ __METACLASS_DATA__TtCV9CoreIDVUIP33_9BEBA1C02F10E101344CED9A3D36656D23PlaygroundUIViewWrapper11Coordinator
++ __OBJC_$_CATEGORY_CLASS_METHODS_RBSProcessIdentity_$_DIDeprecated
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_UIButton_$_DIDeprecated
++ __OBJC_$_CATEGORY_RBSProcessIdentity_$_DIDeprecated
++ __OBJC_$_CATEGORY_UIButton_$_DIDeprecated
++ __OBJC_$_INSTANCE_METHODS__TtC9CoreIDVUI28PassportMRZCameraPreviewView(CoreIDVUI)
++ __OBJC_$_INSTANCE_METHODS__TtC9CoreIDVUI32IdentityProofingTCViewController(CoreIDVUI)
++ __OBJC_$_INSTANCE_METHODS__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController(CoreIDVUI)
++ __OBJC_$_INSTANCE_METHODS__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate(CoreIDVUI)
++ __OBJC_$_PROP_LIST_UIButton_$_DIDeprecated
++ __OBJC_$_PROP_LIST_UIWindowSceneDelegate
++ __OBJC_$_PROTOCOL_CLASS_METHODS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAAction
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCaptureVideoDataOutputSampleBufferDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_EXHostViewControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NFReaderSessionDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBSUIRemoteAlertSceneDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UISceneDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIViewControllerTransitioningDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIWindowSceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCaptureVideoDataOutputSampleBufferDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAAction
++ __OBJC_$_PROTOCOL_METHOD_TYPES_EXHostViewControllerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NFReaderSessionDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBSUIRemoteAlertSceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UISceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIViewControllerTransitioningDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_UIWindowSceneDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCaptureVideoDataOutputSampleBufferDelegate
++ __OBJC_$_PROTOCOL_REFS_BSXPCSecureCoding
++ __OBJC_$_PROTOCOL_REFS_EXHostViewControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_NFReaderSessionDelegate
++ __OBJC_$_PROTOCOL_REFS_SBSUIRemoteAlertSceneDelegate
++ __OBJC_$_PROTOCOL_REFS_UISceneDelegate
++ __OBJC_$_PROTOCOL_REFS_UIViewControllerTransitioningDelegate
++ __OBJC_$_PROTOCOL_REFS_UIWindowSceneDelegate
++ __OBJC_$_PROTOCOL_REFS__UIHostedWindowSceneDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC9CoreIDVUI28PassportMRZCameraPreviewView(CoreIDVUI)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9CoreIDVUI32IdentityProofingTCViewController(CoreIDVUI)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9CoreIDVUI38IdentityProofingAuthCodeViewController(CoreIDVUI)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate(CoreIDVUI)
++ __OBJC_LABEL_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
++ __OBJC_LABEL_PROTOCOL_$_BSXPCSecureCoding
++ __OBJC_LABEL_PROTOCOL_$_CAAction
++ __OBJC_LABEL_PROTOCOL_$_EXHostViewControllerDelegate
++ __OBJC_LABEL_PROTOCOL_$_NFReaderSessionDelegate
++ __OBJC_LABEL_PROTOCOL_$_SBSUIRemoteAlertSceneDelegate
++ __OBJC_LABEL_PROTOCOL_$_UISceneDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIViewControllerTransitioningDelegate
++ __OBJC_LABEL_PROTOCOL_$_UIWindowSceneDelegate
++ __OBJC_LABEL_PROTOCOL_$__UIHostedWindowSceneDelegate
++ __OBJC_PROTOCOL_$_AVCaptureVideoDataOutputSampleBufferDelegate
++ __OBJC_PROTOCOL_$_BSXPCSecureCoding
++ __OBJC_PROTOCOL_$_CAAction
++ __OBJC_PROTOCOL_$_EXHostViewControllerDelegate
++ __OBJC_PROTOCOL_$_NFReaderSessionDelegate
++ __OBJC_PROTOCOL_$_SBSUIRemoteAlertSceneDelegate
++ __OBJC_PROTOCOL_$_UISceneDelegate
++ __OBJC_PROTOCOL_$_UIViewControllerTransitioningDelegate
++ __OBJC_PROTOCOL_$_UIWindowSceneDelegate
++ __OBJC_PROTOCOL_$__UIHostedWindowSceneDelegate
++ __PROPERTIES_CIDVUIProofingDisplayMessageAction
++ __PROPERTIES_DIIdentityCredentialWebPresentmentController
++ __PROPERTIES__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __PROPERTIES__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __PROPERTIES__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __PROPERTIES__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA49RemoteIdentityCredentialProviderHostingController
++ __PROPERTIES__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __PROTOCOLS_CIDVUIProofingDisplayMessage.6
++ __PROTOCOLS_CIDVUIProofingDisplayMessageAction
++ __PROTOCOLS_CIDVUIProofingDisplayMessageAction.2
++ __PROTOCOLS__TtC9CoreIDVUI20DefaultSceneDelegate
++ __PROTOCOLS__TtC9CoreIDVUI20DefaultSceneDelegate.2
++ __PROTOCOLS__TtC9CoreIDVUI24RemoteAlertSceneDelegate
++ __PROTOCOLS__TtC9CoreIDVUI24RemoteAlertSceneDelegate.1
++ __PROTOCOLS__TtC9CoreIDVUI25HostedWindowSceneDelegate
++ __PROTOCOLS__TtC9CoreIDVUI25HostedWindowSceneDelegate.1
++ __PROTOCOLS__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint
++ __PROTOCOLS__TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint.2
++ __PROTOCOLS__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection
++ __PROTOCOLS__TtC9CoreIDVUI40IdentityCredentialProviderViewConnection.2
++ __PROTOCOLS__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController
++ __PROTOCOLS__TtC9CoreIDVUI44IdentityCredentialProviderHostViewController.6
++ __PROTOCOLS__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator
++ __PROTOCOLS__TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator.2
++ __PROTOCOLS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController
++ __PROTOCOLS__TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController.2
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared22BiometricQueryProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared42MobileDocumentProviderViewServiceInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared44IdentityDocumentProviderExtensionUIInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared50MobileDocumentProviderViewServiceDelegateInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP13CoreIDVShared52IdentityDocumentProviderExtensionUIDelegateInterface_
++ __PROTOCOL_INSTANCE_METHODS__TtP9CoreIDVUI33IdentityCredentialProviderService_
++ __PROTOCOL_INSTANCE_METHODS__TtP9CoreIDVUI41IdentityCredentialProviderServiceDelegate_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared22BiometricQueryProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared42MobileDocumentProviderViewServiceInterface_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared44IdentityDocumentProviderExtensionUIInterface_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared50MobileDocumentProviderViewServiceDelegateInterface_
++ __PROTOCOL_METHOD_TYPES__TtP13CoreIDVShared52IdentityDocumentProviderExtensionUIDelegateInterface_
++ __PROTOCOL_METHOD_TYPES__TtP9CoreIDVUI33IdentityCredentialProviderService_
++ __PROTOCOL_METHOD_TYPES__TtP9CoreIDVUI41IdentityCredentialProviderServiceDelegate_
++ __PROTOCOL__TtP13CoreIDVShared22BiometricQueryProtocol_
++ __PROTOCOL__TtP13CoreIDVShared42MobileDocumentProviderViewServiceInterface_
++ __PROTOCOL__TtP13CoreIDVShared44IdentityDocumentProviderExtensionUIInterface_
++ __PROTOCOL__TtP13CoreIDVShared50MobileDocumentProviderViewServiceDelegateInterface_
++ __PROTOCOL__TtP13CoreIDVShared52IdentityDocumentProviderExtensionUIDelegateInterface_
++ __PROTOCOL__TtP9CoreIDVUI33IdentityCredentialProviderService_
++ __PROTOCOL__TtP9CoreIDVUI41IdentityCredentialProviderServiceDelegate_
++ __UISolariumEnabled
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy0_1
++ ___swift_memcpy105_8
++ ___swift_memcpy128_8
++ ___swift_memcpy144_8
++ ___swift_memcpy16_4
++ ___swift_memcpy17_8
++ ___swift_memcpy224_8
++ ___swift_memcpy248_8
++ ___swift_memcpy2_1
++ ___swift_memcpy33_8
++ ___swift_memcpy3_1
++ ___swift_memcpy41_8
++ ___swift_memcpy65_8
++ ___swift_memcpy72_8
++ ___swift_memcpy76_8
++ ___swift_memcpy81_8
++ ___swift_memcpy84_8
++ ___swift_memcpy92_8
++ ___swift_memcpy96_8
++ ___unnamed_3
++ __swift_FORCE_LOAD_$_swiftGLKit
++ __swift_FORCE_LOAD_$_swiftGLKit_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swiftSceneKit
++ __swift_FORCE_LOAD_$_swiftSceneKit_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_CoreIDVUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_CoreIDVUI
++ _associated conformance 9CoreIDVUI16IdentityProofingO0D7ContextOSHAASQ
++ _associated conformance 9CoreIDVUI16IdentityProofingO11ButtonStateOSHAASQ
++ _associated conformance 9CoreIDVUI16IdentityProofingO11NFCScanViewV7SwiftUI0F0AA4BodyAfGP_AfG
++ _associated conformance 9CoreIDVUI16IdentityProofingO13TitleTextView33_EC13F04AB5230E794280A221D3FD26B6LLV7SwiftUI0G0AA4BodyAgHP_AgH
++ _associated conformance 9CoreIDVUI16IdentityProofingO14BottomTrayView33_EC13F04AB5230E794280A221D3FD26B6LLV7SwiftUI0G0AA4BodyAgHP_AgH
++ _associated conformance 9CoreIDVUI16IdentityProofingO17ToolBarButtonTypeOSHAASQ
++ _associated conformance 9CoreIDVUI16IdentityProofingO8BaseViewVy_xq_G7SwiftUI0F0AA4BodyAgHP_AgH
++ _associated conformance 9CoreIDVUI17PassportReadStateOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportReadStateOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C4NodeC15PageDestinationOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C4NodeC4PoseOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C4NodeC4PoseOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C7VariantOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C7VariantOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 9CoreIDVUI17PassportSceneViewC0C7VariantOs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 9CoreIDVUI17PassportSceneViewC10CameraNodeC4PoseOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC9PhoneNodeC4PoseOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC9PhoneNodeC4PoseOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 9CoreIDVUI17PassportSceneViewC9PhoneNodeC5ModelOSHAASQ
++ _associated conformance 9CoreIDVUI17PassportSceneViewC9PhoneNodeC5ModelOs12CaseIterableAA8AllCasessAHP_Sl
++ _associated conformance 9CoreIDVUI17PassportSceneViewC9PhoneNodeC5ModelOs12IdentifiableAA2IDsAHP_SH
++ _associated conformance 9CoreIDVUI19DataGroupIdentifierOSHAASQ
++ _associated conformance 9CoreIDVUI19DataGroupIdentifierOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9CoreIDVUI20PassportNFCGuideViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI21PassportAnimationViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI21PassportAnimationViewV7SwiftUI19UIViewRepresentableAaD0E0
++ _associated conformance 9CoreIDVUI23PassportNFCGuideContentVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 9CoreIDVUI29IdentityProofingBarButtonItemOSHAASQ
++ _associated conformance 9CoreIDVUI30PassportAnimationReadingStatusOSHAASQ
++ _associated conformance 9CoreIDVUI30PassportAnimationReadingStatusOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 9CoreIDVUI30PassportAnimationReadingStatusOs12IdentifiableAA2IDsADP_SH
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOSHAASQ
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO22ConsentSheetCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO22ConsentSheetCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO35TransactionElementDetailsCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO35TransactionElementDetailsCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleOSHAASQ
++ _associated conformance 9CoreIDVUI32IdentityProofingImageDisplayModeOSHAASQ
++ _associated conformance 9CoreIDVUI33IdentityProofingTrailingAccessoryOSHAASQ
++ _associated conformance 9CoreIDVUI36IdentityCredentialScanWithDeviceViewV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV0G4TypeOSHAASQ
++ _associated conformance 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI39IdentityCredentialProviderSelectionViewV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI39MobileDocumentProviderExtensionHostViewV7SwiftUI0H0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI39MobileDocumentProviderExtensionHostViewV7SwiftUI29UIViewControllerRepresentableAaD0H0
++ _associated conformance 9CoreIDVUI40MobileDocumentProviderPresentmentContextVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 9CoreIDVUI41IdentityProofingProgressViewConfigurationV0cE4TypeOSHAASQ
++ _associated conformance 9CoreIDVUI43IdentityCredentialProviderAuthorizationViewV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOSHAASQ
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO15LargeCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO15LargeCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16CustomCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs0J17StringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16CustomCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs0J22DebugStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16MediumCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16MediumCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentOSHAASQ
++ _associated conformance 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI45IdentityCredentialProviderSelectionViewPickerV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI47IdentityProofingWaitingForWifiViewConfigurationC0efG4Type33_2EAFF40ACD0B520C12B83415DF895780LLOSHAASQ
++ _associated conformance 9CoreIDVUI49IdentityCredentialProviderSelectionViewPickerCellV7SwiftUI0G0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI51IdentityCredentialProviderRemoteDeviceSelectionViewV7SwiftUI0I0AA4BodyAdEP_AdE
++ _associated conformance 9CoreIDVUI7DG1DataV10CodingKeysOSHAASQ
++ _associated conformance 9CoreIDVUI7DG1DataV10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI7DG1DataV10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI7DG1DataV10CodingKeysOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLOSHAASQ
++ _associated conformance 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 9CoreIDVUI9GuideView33_A51AF77A90403018988BE891C0093A93LLV7SwiftUI0D0AA4BodyAeFP_AeF
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation021_ObjectiveCBridgeableE0SCs0E0
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation13CustomNSErrorSCs0E0
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_eJ8Protocol
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableE0
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomI0
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC39DIIdentityCredentialWebPresentmentErrorLeVSHSCSQ
++ _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
++ _associated conformance So11CFStringRefaSHSCSQ
++ _associated conformance So12UIFontWeightaSHSCSQ
++ _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So12UIFontWeightas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So39DIIdentityCredentialWebPresentmentErrorV10Foundation01_E12CodeProtocolSC01_E4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So39DIIdentityCredentialWebPresentmentErrorV10Foundation01_E12CodeProtocolSCSQ
++ _block_copy_helper.100
++ _block_copy_helper.11
++ _block_copy_helper.117
++ _block_copy_helper.119
++ _block_copy_helper.124
++ _block_copy_helper.125
++ _block_copy_helper.130
++ _block_copy_helper.131
++ _block_copy_helper.133
++ _block_copy_helper.136
++ _block_copy_helper.138
++ _block_copy_helper.14
++ _block_copy_helper.142
++ _block_copy_helper.143
++ _block_copy_helper.148
++ _block_copy_helper.151
++ _block_copy_helper.156
++ _block_copy_helper.160
++ _block_copy_helper.166
++ _block_copy_helper.171
++ _block_copy_helper.176
++ _block_copy_helper.177
++ _block_copy_helper.178
++ _block_copy_helper.18
++ _block_copy_helper.182
++ _block_copy_helper.184
++ _block_copy_helper.192
++ _block_copy_helper.193
++ _block_copy_helper.196
++ _block_copy_helper.199
++ _block_copy_helper.22
++ _block_copy_helper.238
++ _block_copy_helper.24
++ _block_copy_helper.245
++ _block_copy_helper.252
++ _block_copy_helper.259
++ _block_copy_helper.27
++ _block_copy_helper.271
++ _block_copy_helper.280
++ _block_copy_helper.290
++ _block_copy_helper.298
++ _block_copy_helper.30
++ _block_copy_helper.301
++ _block_copy_helper.305
++ _block_copy_helper.308
++ _block_copy_helper.312
++ _block_copy_helper.315
++ _block_copy_helper.321
++ _block_copy_helper.330
++ _block_copy_helper.336
++ _block_copy_helper.342
++ _block_copy_helper.362
++ _block_copy_helper.366
++ _block_copy_helper.371
++ _block_copy_helper.378
++ _block_copy_helper.38
++ _block_copy_helper.386
++ _block_copy_helper.392
++ _block_copy_helper.398
++ _block_copy_helper.401
++ _block_copy_helper.405
++ _block_copy_helper.410
++ _block_copy_helper.413
++ _block_copy_helper.43
++ _block_copy_helper.45
++ _block_copy_helper.5
++ _block_copy_helper.53
++ _block_copy_helper.59
++ _block_copy_helper.6
++ _block_copy_helper.60
++ _block_copy_helper.66
++ _block_copy_helper.68
++ _block_copy_helper.74
++ _block_copy_helper.76
++ _block_copy_helper.8
++ _block_copy_helper.83
++ _block_copy_helper.86
++ _block_copy_helper.9
++ _block_copy_helper.93
++ _block_copy_helper.97
++ _block_copy_helper.99
++ _block_descriptor.10
++ _block_descriptor.101
++ _block_descriptor.102
++ _block_descriptor.11
++ _block_descriptor.119
++ _block_descriptor.121
++ _block_descriptor.126
++ _block_descriptor.127
++ _block_descriptor.13
++ _block_descriptor.132
++ _block_descriptor.133
++ _block_descriptor.135
++ _block_descriptor.138
++ _block_descriptor.140
++ _block_descriptor.144
++ _block_descriptor.145
++ _block_descriptor.150
++ _block_descriptor.153
++ _block_descriptor.158
++ _block_descriptor.16
++ _block_descriptor.162
++ _block_descriptor.168
++ _block_descriptor.173
++ _block_descriptor.178
++ _block_descriptor.179
++ _block_descriptor.180
++ _block_descriptor.184
++ _block_descriptor.186
++ _block_descriptor.194
++ _block_descriptor.195
++ _block_descriptor.198
++ _block_descriptor.20
++ _block_descriptor.201
++ _block_descriptor.24
++ _block_descriptor.240
++ _block_descriptor.247
++ _block_descriptor.254
++ _block_descriptor.26
++ _block_descriptor.261
++ _block_descriptor.273
++ _block_descriptor.282
++ _block_descriptor.29
++ _block_descriptor.292
++ _block_descriptor.300
++ _block_descriptor.303
++ _block_descriptor.307
++ _block_descriptor.310
++ _block_descriptor.314
++ _block_descriptor.317
++ _block_descriptor.32
++ _block_descriptor.323
++ _block_descriptor.332
++ _block_descriptor.338
++ _block_descriptor.344
++ _block_descriptor.364
++ _block_descriptor.368
++ _block_descriptor.373
++ _block_descriptor.380
++ _block_descriptor.388
++ _block_descriptor.394
++ _block_descriptor.40
++ _block_descriptor.400
++ _block_descriptor.403
++ _block_descriptor.407
++ _block_descriptor.412
++ _block_descriptor.415
++ _block_descriptor.45
++ _block_descriptor.47
++ _block_descriptor.55
++ _block_descriptor.61
++ _block_descriptor.62
++ _block_descriptor.68
++ _block_descriptor.7
++ _block_descriptor.70
++ _block_descriptor.76
++ _block_descriptor.78
++ _block_descriptor.8
++ _block_descriptor.85
++ _block_descriptor.88
++ _block_descriptor.95
++ _block_descriptor.99
++ _block_destroy_helper.10
++ _block_destroy_helper.100
++ _block_destroy_helper.101
++ _block_destroy_helper.118
++ _block_destroy_helper.12
++ _block_destroy_helper.120
++ _block_destroy_helper.125
++ _block_destroy_helper.126
++ _block_destroy_helper.131
++ _block_destroy_helper.132
++ _block_destroy_helper.134
++ _block_destroy_helper.137
++ _block_destroy_helper.139
++ _block_destroy_helper.143
++ _block_destroy_helper.144
++ _block_destroy_helper.149
++ _block_destroy_helper.15
++ _block_destroy_helper.152
++ _block_destroy_helper.157
++ _block_destroy_helper.161
++ _block_destroy_helper.167
++ _block_destroy_helper.172
++ _block_destroy_helper.177
++ _block_destroy_helper.178
++ _block_destroy_helper.179
++ _block_destroy_helper.183
++ _block_destroy_helper.185
++ _block_destroy_helper.19
++ _block_destroy_helper.193
++ _block_destroy_helper.194
++ _block_destroy_helper.197
++ _block_destroy_helper.200
++ _block_destroy_helper.23
++ _block_destroy_helper.239
++ _block_destroy_helper.246
++ _block_destroy_helper.25
++ _block_destroy_helper.253
++ _block_destroy_helper.260
++ _block_destroy_helper.272
++ _block_destroy_helper.28
++ _block_destroy_helper.281
++ _block_destroy_helper.291
++ _block_destroy_helper.299
++ _block_destroy_helper.302
++ _block_destroy_helper.306
++ _block_destroy_helper.309
++ _block_destroy_helper.31
++ _block_destroy_helper.313
++ _block_destroy_helper.316
++ _block_destroy_helper.322
++ _block_destroy_helper.331
++ _block_destroy_helper.337
++ _block_destroy_helper.343
++ _block_destroy_helper.363
++ _block_destroy_helper.367
++ _block_destroy_helper.372
++ _block_destroy_helper.379
++ _block_destroy_helper.387
++ _block_destroy_helper.39
++ _block_destroy_helper.393
++ _block_destroy_helper.399
++ _block_destroy_helper.402
++ _block_destroy_helper.406
++ _block_destroy_helper.411
++ _block_destroy_helper.414
++ _block_destroy_helper.44
++ _block_destroy_helper.46
++ _block_destroy_helper.54
++ _block_destroy_helper.6
++ _block_destroy_helper.60
++ _block_destroy_helper.61
++ _block_destroy_helper.67
++ _block_destroy_helper.69
++ _block_destroy_helper.7
++ _block_destroy_helper.75
++ _block_destroy_helper.77
++ _block_destroy_helper.84
++ _block_destroy_helper.87
++ _block_destroy_helper.9
++ _block_destroy_helper.94
++ _block_destroy_helper.98
++ _flat unique 13CoreIDVShared22BiometricQueryProtocol_p
++ _flat unique 13CoreIDVShared42MobileDocumentProviderViewServiceInterface_p
++ _flat unique 13CoreIDVShared44IdentityDocumentProviderExtensionUIInterface_p
++ _flat unique So8CAAction_p
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOy12CoreGraphics7CGFloatV_G
++ _get_enum_tag_for_layout_string 7SwiftUI11EnvironmentV7ContentOySo14UISceneSessionCSg_G
++ _get_enum_tag_for_layout_string 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0O
++ _get_enum_tag_for_layout_string 9CoreIDVUI7DG1DataVSg
++ _get_enum_tag_for_layout_string 9CoreIDVUI7DG2DataVSg
++ _get_enum_tag_for_layout_string Ieg_Sg
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA5GroupVyAA012_ConditionalD0VyACyACyACyAA6VStackVyAA9TupleViewVyAIyAKyAA6HStackVyAKyAA4TextV_AA6SpacerVAA6ButtonVyAA07DefaultM5LabelVGtGG_AA7DividerVtGG_AGyAGyAIyAKy9CoreIDVUI034IdentityCredentialContinueOnDeviceI0V_ASyAOGtGGACyA1_0st8ScanWithwI0VAA14_PaddingLayoutVGGAGyACyAA08ProgressI0VyAoA05EmptyI0VGA10_GACyA3_A10_GGGtGGA10_GA10_GAA16_FlexFrameLayoutVGAA15NavigationStackVyAA14NavigationPathVAA0I0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyA34_AAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQOyA34_AAE15navigationTitleyQrAOFQOyACyA21_A10_G_Qo__Qo__AA07ToolbarD7BuilderV10buildBlockyQrxAAA37_RzlFZQOy_AA11ToolbarItemVyytAVGQo_Qo_GGGAA25_AppearanceActionModifierVGAAA33_HPA57_AAA33_HPA56_AAA33_HPA28_AAA33_HPA25_AAA33_HPA24_AAA33_HPA23_AAA33_HPyHC_A10_AA0I8ModifierHPyHCHC_A10_AAA61_HPyHCHC_A27_AAA61_HPyHCHC_A55_AAA33_HPyHCHC_HC_A59_AAA61_HPyHCHC.24
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA4TextV_AA012_ConditionalD0VyACyACyACyAA5ImageVAA16_FixedSizeLayoutVGAA08_PaddingM0VGAA19_BackgroundModifierVyAA011StrokeShapeG0VyAA16RoundedRectangleVAA5ColorVAA01_rG0VyAYA_GGGGAA08ProgressG0VyAA05EmptyG0VA9_GGtGGAA010_TaskValueP0Vy10Foundation3URLVGGAA0G0HPA13_AAA21_HPyHC_A19_AA0gP0HPyHCHC.4
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyAA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameN0VGAA24_ForegroundStyleModifierVyAA5ColorVGG_Qo_AA022_EnvironmentKeyWritingR0VyAA19SymbolRenderingModeVSgGG_AA4TextVA11_tGGA4_yAA0Z9AlignmentOGGAaHHPA13_AaHHPyHC_A16_AA0gR0HPyHCHC.15
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA24_BackgroundStyleModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGSg_ACyAEyAGyACyAA4TextVAA022_EnvironmentKeyWritingN0VyAA0T9AlignmentOGG_ACyA5_AA011_ForegroundmN0VyAPGGtGGAA010_FlexFrameK0VGtGGAA08_PaddingK0VGAA0G0HPA16_AAA20_HPyHC_A18_AA0gN0HPyHCHC.23
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyAA15NavigationStackVyAA0E4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQOyAiAE0I10Background_3forQrAA10VisibilityO_AA0K9PlacementVdtFQOyAiAE29navigationBarTitleDisplayModeyQrAA0eQ4ItemV0rsT0OFQOyAA5GroupVyAA012_ConditionalD0VyAiAE0pR0yQrqd__SyRd__lFQOyACy9CoreIDVUI035MobileDocumentProviderExtensionHostH0VAA30_SafeAreaRegionsIgnoringLayoutVG_SSQo_AA08ProgressH0VyAA05EmptyH0VA11_GGG_Qo__Qo__AA0kD7BuilderV10buildBlockyQrxAaLRzlFZQOy_AA0kuV0VyAA6ButtonVyAA18DefaultButtonLabelVGGQo_Qo_GAA13_TaskModifierVGAA25_AppearanceActionModifierVGAaHHPA33_AaHHPA30_AaHHPyHC_A32_AA0H8ModifierHPyHCHC_A35_AAA37_HPyHCHC.15
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6VStackVyAA9TupleViewVyACyACyAA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQOyACyAA6HStackVyAGyAQyAA012_ConditionalD0VyAGyAA4TextV_ACyACyACyAA5ImageVAA21_SymbolEffectModifierVGAA022_EnvironmentKeyWritingQ0VyAW5ScaleOGGAA07_OffsetP0VGtGAUGG_ACyACyAwA016_ForegroundStyleQ0VyAA5ColorVGGAA06_TraittQ0VyAA010TransitionzS0VGGSgtGGA0_yALSgGG_Qo_A0_yA14_SgGGA0_yAA0M9AlignmentOGG_ACyAUA35_GtGGAA16_FlexFrameLayoutVGAA14_PaddingLayoutVGA44_GA21_GAaHHPA46_AaHHPA45_AaHHPA42_AaHHPA39_AaHHPyHC_A41_AA0gQ0HPyHCHC_A44_AAA48_HPyHCHC_A44_AAA48_HPyHCHC_A21_AAA48_HPyHCHC.88
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6VStackVyAA9TupleViewVyACyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAKyAI5ScaleOGGAKyAA19SymbolRenderingModeVSgGGAA016_ForegroundStyleL0VyAA5ColorVGG_AA6SpacerVACyACyAA4TextVAA16_FixedSizeLayoutVGAA010_FlexFrameY0VGtGGA_yAA017HierarchicalShapeS0VGGAKyA7_4CaseOSgGGAKyAA0V9AlignmentOGGAA08_PaddingY0VGAA0G0HPA28_AAA32_HPA24_AAA32_HPA19_AAA32_HPA15_AAA32_HPyHC_A18_AA0gL0HPyHCHC_A23_AAA33_HPyHCHC_A27_AAA33_HPyHCHC_A30_AAA33_HPyHCHC.17
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAgAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQOyAA06ScrollF0VyAA08ModifiedJ0VyARyAA6VStackVyAA05TupleF0VyARyARyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0U9AlignmentOGGAA14_PaddingLayoutVG_AA7ForEachVySay9CoreIDVUI016PassportNFCGuideJ0VGSSA8_05GuideF033_A51AF77A90403018988BE891C0093A93LLVGtGGA4_GA4_GG_AA8SolariumVA20_AgAE0G10Background_3forQrAA10VisibilityO_AA0I9PlacementVdtFQOyARyA20_AA016_BackgroundStyleY0VyAA5ColorVGG_Qo_Qo__AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQOy_AA0I4ItemVyytAA6ButtonVyAA012_ConditionalJ0VyAA5ImageVARyA47_AA25_ForegroundStyleModifier2VyA32_A32_GGGGGQo_Qo_GAaFHPyHC.22
++ _get_witness_table 7SwiftUI4ViewRzAaBR_r0_lqd0__AaBHD3_AaBPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAcAE29navigationBarBackButtonHiddenyQrSbFQOyAcAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyAA6VStackVyAA05TupleC0Vyx_AcAEAH_AIQrqd___qd_0_xXEtAaJRd__AaBRd_0_r0_lFQOyAcAE20scrollBounceBehavior_4axesQrAA06ScrolluV0V_AA4AxisO3SetVtFQOyAA0xC0Vy9CoreIDVUI16IdentityProofingO09TitleTextC033_EC13F04AB5230E794280A221D3FD26B6LLVG_Qo__AA8SolariumVAcAE08safeAreaI04edge9alignment7spacingAEQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyA4__AcAE0T12PocketTag_v15styleQrAA0I16MagicPocketStyleV_tFQOyAA08ModifiedG0VyAA21_GlassEffectContainerVyALyANyq__A_010BottomTrayC0A1_LLVtGGGAA01_G13ShapeModifierVyAA9RectangleVGG_Qo_Qo_Qo_ANyAA6SpacerV_q_A24_yA28_AA21_TraitWritingModifierVyAA22LayoutPriorityTraitKeyVGGtGSgtGG_A6_A24_yA52_AA30_SafeAreaRegionsIgnoringLayoutVGQo__Qo__AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQOy_A59_A60_yQrxAaFRzlFZQOy_AA0F4ItemVyytAA0K0VyAA012_ConditionalG0VyAA5ImageVAA4TextVGGGQo_SgQo_Qo_HO.37
++ _get_witness_table 7SwiftUI6ButtonVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameL0VGSg_AIyAA6VStackVyAGyAIyAIyAIyAA4TextVAA05_FlexmL0VGAA24_ForegroundStyleModifierVyAA017HierarchicalShapeR0VGGAA022_EnvironmentKeyWritingS0VyAA0O9AlignmentOGG_AIyAYA8_GtGGA5_yAA5ColorVSgGGAA012_ConditionalH0VyAIyAIyAKA5_yAA4FontVSgGGA_yA14_GGAIyA24_A_yAA04FilluR0VGGGtGGGAA0F0HPyHC.33
++ _get_witness_table 9CoreIDVUI39DigitalPresentmentRequestedElementsViewV7SwiftUI0G0HPyHC.2
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyAMyAMy9CoreIDVUI16IdentityProofingO04BaseC0Vy_AMyAMyAN017PassportAnimationC0VAA12_FrameLayoutVGAA16_OverlayModifierVyAMyAMyAMyAcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQOyAA6ButtonVyAMyAMyAcAE10fontWeightyQrAA4FontV6WeightVSgFQOyAMyAA5LabelVyAA4TextVAA5ImageVGAA022_EnvironmentKeyWritingW0VyA6_SgGG_Qo_AVGAA08_PaddingU0VGG_AA8SolariumVAMyA27_AA026_InsettableBackgroundShapeW0VyAA8MaterialVAA7CapsuleVGGA37_Qo_AA14_OpacityEffectVGAA01_sW0VySdGGA25_GGGAMyAMyAMyAA6VStackVyAA05TupleC0VyAA08ProgressC0VyAA05EmptyC0VA56_G_AMyAMyAMyAcAE15monospacedDigitQryFQOyAMyA13_A18_yAA13TextAlignmentOGG_Qo_A20_GAA016_ForegroundStyleW0VyAA22HierarchicalShapeStyleVGGA43_ySSGGtGGAA05_FlextU0VGA25_GA25_GSgGA43_yAN0R9ReadStateOGGAA017_AppearanceActionW0VGA87_G_AMyAN0r8NFCGuideC0VA87_GQo_HO.223
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAcAE0F20ScrollGeometryChange3for2of6actionQrqd__m_qd__AA0mN0Vcyqd___qd__tctSQRd__lFQOyAcAE0fO0AR7initial_Qrqd___SbyyctSQRd__lFQOyAA15NavigationStackVyAA0T4PathVAcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQOyAcAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaBRd_0_AaBRd_1_r1_lFQOyAcAE29navigationBarTitleDisplayModeyQrAA0T7BarItemV16TitleDisplayModeOFQOy9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV_Qo__AA8SolariumVAcAE11toolbarRoleyQrAA11ToolbarRoleVFQOyAcAE21navigationItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQOyA14__A11_09ProminentT12TitleAdaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLVQo__Qo_AcAEA4_AGQrqd__yXE_tAAA5_Rd__lFQOyA14__AA07ToolbarL7BuilderV10buildBlockyQrxAAA5_RzlFZQOy_AA16ToolbarItemGroupVyAOyAOyAA4TextVAA16_FixedSizeLayoutVGAA16_FlexFrameLayoutVGGQo_Qo_Qo__A28_A29_yQrxAAA5_RzlFZQOy_A31_yAA6ButtonVyAA18DefaultButtonLabelVGGQo_Qo__A16_AOyAcAE11safeAreaBar4edge9alignment7spacingAGQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQOyAcAE06scrollL10BackgroundyQrAA10VisibilityOFQOyAcAE19containerBackground_AQQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQOyA51__AA5ColorVQo__Qo__AcAE18scrollPocketTag_v15styleQrAA19BarMagicPocketStyleV_tFQOyAOyAOyAOyAOyAcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyAOyA45_yAcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQOyAOyAOyA33_AA14_PaddingLayoutVGA87_G_s19PartialRangeThroughVyA83_GQo_GAA30_EnvironmentKeyWritingModifierVyAA17ButtonBorderShapeVGG_AA28BorderedProminentButtonStyleVQo_A96_yAA11ControlSizeOGGAA32_EnvironmentKeyTransformModifierVySbGGA87_GA38_GSg_Qo_Qo_AA23_SafeAreaIgnoringLayoutVGAOyAOyAcAEApqrSQrqd__m_qd__AUcyqd___qd__tctSQRd__lFQOyA51__A62_Qo_AA06_InsetC8ModifierVyAOyAA6VStackVyAA05TupleC0VyAOyAA7DividerVAA14_OpacityEffectVG_A114_tGGAA19_BackgroundModifierVyAOyAOyA72_AA24_BackgroundStyleModifierVyAA8MaterialVGGA130_GGGGGA118_GQo_G_SdQo__A62_Qo_AA25_AppearanceActionModifierVG_A11_40MobileDocumentProviderPresentmentContextVAYyA_AcAE15navigationTitleyQrqd__SyRd__lFQOyAcAE17toolbarBackground_AQQrA66__AA16ToolbarPlacementVdtFQOyAcAEA6_yQrA10_FQOyAcAEA4_AGQrqd__yXE_tAAA5_Rd__lFQOyAOyA11_035MobileDocumentProviderExtensionHostC0VAA30_SafeAreaRegionsIgnoringLayoutVG_A50_Qo__Qo__Qo__SSQo_GQo_HO.58
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAHyAHyAHyAA6VStackVyAA05TupleC0VyAA012_ConditionalJ0VyAHyAHyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0N9AlignmentOGGAA16_FlexFrameLayoutVGAA05EmptyC0VGSg_AJyALyAHyAHyAcAEAD_AE4elseQrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQOyAHyAcAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQOyAA6ButtonVyANyAHyAHyAA08ProgressC0VyA_A_GARyAA11ControlSizeOGGARyAA08AnyShapeZ0VSgGGAcAEAD_AEA2_Qrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQOyAHyApXG_AA8SolariumVA19_AcAE4boldyQrSbFQOyA19__Qo_Qo_GG_AA023BorderedProminentButtonZ0VQo_A12_G_A21_AcAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQOyAHyA30_ARyAA17ButtonBorderShapeVGG_AA7CapsuleVQo_AHyAHyA30_AA11_ClipEffectVyAA16RoundedRectangleVGGAA08_PaddingV0VGQo_A17_GAA01_op9TransformR0VySbGGSg_AHyAcAEAD_AEA2_Qrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQOyAHyA6_yAcAEAD_AEA2_Qrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQOyAP_A21_AcAE10fontWeightyQrAA4FontV6WeightVSgFQOyA19__Qo_A19_Qo_GA12_G_A21_AHyAcAEA31__A32_A33_QrA35__qd__SbtAAA36_Rd__lFQOyAHyAcAEA3_yQrqd__AAA4_Rd__lFQOyA69__AA014BorderedButtonZ0VQo_A39_G_A42_Qo_ARyAA5ColorVSgGGAcAEA3_yQrqd__AAA4_Rd__lFQOyA69__AA016BorderlessButtonZ0VQo_Qo_A17_GSgtGGSgtGGAA010_AnimationR0Vy9CoreIDVUI16IdentityProofingO11ButtonStateOGGA98_GA51_GA51_G_A21_AHyAcAEA60_yQrA65_FQOyA102__Qo_AA06_TraitqR0VyAA015TransitionTraitP0VGGQo_HO.89
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA6VStackVyAA05TupleC0VyAA15ModifiedContentVy9CoreIDVUI026DigitalPresentmentIdentitye3SetC0VAA0G18AttachmentModifierVGSg_AMyAcAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyAA7DividerV_AaWPAAE1nopyQrxFZQOyAA8SolariumV_Qo_AMyAyA14_PaddingLayoutVGQo_A4_GSgATA8_ATtGG_Qo_HO.4
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQOyAcAE9listStyleyQrqd__AA04ListL0Rd__lFQOyAcAE14contentMargins__3forQrAA4EdgeOAJV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtFQOyAA0M0Vys5NeverOAA012_ConditionalU0VyAA7SectionVy0R5IDVUI035IdentityCredentialProviderSelectionC6HeaderVAA7ForEachVySay0R9IDVShared28MobileDocumentProviderOptionVGSSA5_035IdentityCredentialProviderSelectionC10PickerCellVGAA05EmptyC0VGA4_yA18_A18_AA08ModifiedU0VyAA08ProgressC0VyAA4TextVA18_GAA16_FlexFrameLayoutVGGGG_Qo__AA012InsetGroupedmL0VQo__Qo_HO.17
++ _hypot
++ _kCAAlignmentCenter
++ _kCACornerCurveContinuous
++ _kCAEmitterLayerAdditive
++ _kCAEmitterLayerSphere
++ _kCAFillModeForwards
++ _kCAFillRuleEvenOdd
++ _kCAFilterGaussianBlur
++ _kCAFilterMultiplyBlendMode
++ _kCAFilterPlusL
++ _kCAGravityResizeAspect
++ _kCAGravityResizeAspectFill
++ _kCAMediaTimingFunctionEaseOut
++ _kCATruncationNone
++ _kCIInputBrightnessKey
++ _kCIInputContrastKey
++ _kCIInputImageKey
++ _kCIInputSaturationKey
++ _kCTFontTraitsAttribute
++ _kCTFontUIFontDesignCompactRounded
++ _kCTFontUIFontDesignTrait
++ _kCVPixelBufferPixelFormatTypeKey
++ _objc_class_stubs
++ _objc_msgSend$checkUserConsentWithConsentType:completionHandler:
++ _objc_msgSend$didChangeUserConsentWithConsentType:consent:completionHandler:
++ _objc_msgSend$fetchBiometricEnrollmentACLType
++ _objc_msgSend$fetchUserConsentWithConsentType:completionHandler:
++ _objc_msgSend$identityForEmbeddedApplicationIdentifier:
++ _objc_msgSend$piiTokenIdentifier
++ _objc_msgSend$setTitleEdgeInsets:
++ _objc_msgSend$titleEdgeInsets
++ _objc_release_x11
++ _objectdestroy.101Tm
++ _objectdestroy.103Tm
++ _objectdestroy.13Tm
++ _objectdestroy.145Tm
++ _objectdestroy.14Tm
++ _objectdestroy.158Tm
++ _objectdestroy.15Tm
++ _objectdestroy.162Tm
++ _objectdestroy.170Tm
++ _objectdestroy.186Tm
++ _objectdestroy.190Tm
++ _objectdestroy.215Tm
++ _objectdestroy.256Tm
++ _objectdestroy.2Tm
++ _objectdestroy.30Tm
++ _objectdestroy.384Tm
++ _objectdestroy.38Tm
++ _objectdestroy.40Tm
++ _objectdestroy.44Tm
++ _objectdestroy.4Tm
++ _objectdestroy.54Tm
++ _objectdestroy.56Tm
++ _objectdestroy.66Tm
++ _objectdestroy.6Tm
++ _objectdestroy.72Tm
++ _objectdestroy.77Tm
++ _objectdestroy.81Tm
++ _pow
++ _powf
++ _swift_allocateGenericClassMetadata
++ _swift_checkMetadataState
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataSinglePayloadWithLayoutString
++ _swift_cvw_singlePayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_singlePayloadEnumGeneric_getEnumTag
++ _swift_getFunctionTypeMetadata0
++ _swift_getGenericMetadata
++ _swift_getOpaqueTypeMetadata2
++ _swift_getTupleTypeMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getTupleTypeMetadata3
++ _swift_initClassMetadata2
++ _swift_stdlib_random
++ _swift_task_getMainExecutor
++ _swift_task_isCancelled
++ _swift_task_isCurrentExecutor
++ _swift_unknownObjectRelease_n
++ _swift_unknownObjectWeakCopyInit
++ _swift_willThrowTypedImpl
++ _symbolic $s5UIKit10UITypedKeyP
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic $s7SwiftUI19UIViewRepresentableP
++ _symbolic $s7SwiftUI29UIViewControllerRepresentableP
++ _symbolic $s9CoreIDVUI16IdentityProofingO10ViewConfigP
++ _symbolic $s9CoreIDVUI18PassportNFCReadingP
++ _symbolic $s9CoreIDVUI29PassportReaderManagerDelegateP
++ _symbolic $s9CoreIDVUI33IdentityCredentialProviderServiceP
++ _symbolic $s9CoreIDVUI41IdentityCredentialProviderServiceDelegateP
++ _symbolic $s9CoreIDVUI9DataGroupP
++ _symbolic $ss12CaseIterableP
++ _symbolic B0
++ _symbolic B1
++ _symbolic IeyB_
++ _symbolic Ig_
++ _symbolic SDySS_____G 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0O
++ _symbolic SDy_____SfG 9CoreIDVUI17PassportReadStateO
++ _symbolic SDy_____SgABG So11CFStringRefa
++ _symbolic SS9docNumber_SS17dobWithCheckDigitSS010expiryDatedeF0SS18issuingCountryCodetSg
++ _symbolic SS_SSt
++ _symbolic SS_SStSg
++ _symbolic SS_______pt So8CAActionP
++ _symbolic SS______t 10Foundation4DataV
++ _symbolic SS_ypt
++ _symbolic SaySo11CATextLayerCG
++ _symbolic SaySo17SCNGeometrySourceCG
++ _symbolic SaySo34CIDVUIProofingDisplayMessageActionCG
++ _symbolic SaySo35UISheetPresentationControllerDetentCG
++ _symbolic SaySo7SCNNodeCG
++ _symbolic Say_____G 12CoreGraphics7CGFloatV
++ _symbolic Say_____G 13CoreIDVShared12MetricsFlagsV
++ _symbolic Say_____G 13CoreIDVShared16RegionMinimumAgeC
++ _symbolic Say_____G 13CoreIDVShared28MobileDocumentProviderOptionV
++ _symbolic Say_____G 9CoreIDVUI17PassportReadStateO
++ _symbolic Say_____G 9CoreIDVUI17PassportSceneViewC0C4NodeC4PoseO
++ _symbolic Say_____G 9CoreIDVUI17PassportSceneViewC0C7VariantO
++ _symbolic Say_____G 9CoreIDVUI17PassportSceneViewC17TransitionContextV
++ _symbolic Say_____G 9CoreIDVUI17PassportSceneViewC9PhoneNodeC4PoseO
++ _symbolic Say_____G 9CoreIDVUI17PassportSceneViewC9PhoneNodeC5ModelO
++ _symbolic Say_____G 9CoreIDVUI19DataGroupIdentifierO
++ _symbolic Say_____G 9CoreIDVUI23PassportNFCGuideContentV
++ _symbolic Say_____G 9CoreIDVUI30PassportAnimationReadingStatusO
++ _symbolic Say_____G 9CoreIDVUI7DG1DataV10CodingKeysO
++ _symbolic Say_____G So6CGRectV
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say_____y______Sft_GG ScS12ContinuationV 9CoreIDVUI17PassportReadStateO
++ _symbolic Sb8inserted______17memberAfterInsertt 13CoreIDVShared12MetricsFlagsV
++ _symbolic SbIeAgHr_
++ _symbolic Sbz_Xx
++ _symbolic ScCySo15NFReaderSessionC______pG s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScSy______SftG 9CoreIDVUI17PassportReadStateO
++ _symbolic ScTySb_____GSg s5NeverO
++ _symbolic ScTy___________pGSg 13CoreIDVShared18NFCPendingCommandsC s5ErrorP
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SccySS______pG s5ErrorP
++ _symbolic SccySaySo9LSAppLinkCG______pG s5ErrorP
++ _symbolic SccySay_____G5uuids_Si21boundCredentialsCountt______pG 10Foundation4UUIDV s5ErrorP
++ _symbolic SccySo19DCCredentialAuthACLCSg______pG s5ErrorP
++ _symbolic Sccy_____Sg______pG 13CoreIDVShared24IdentityProofingUIConfigC s5ErrorP
++ _symbolic Sccy___________pG 13CoreIDVShared18NFCPendingCommandsC s5ErrorP
++ _symbolic Sccy___________pG 13CoreIDVShared20IdentityImageQualityC s5ErrorP
++ _symbolic Sccy___________pG 13CoreIDVShared24XPCWebPresentmentRequestC s5ErrorP
++ _symbolic Sccy___________pG 13CoreIDVShared44XPCMobileDocumentProviderPresentmentResponseC s5ErrorP
++ _symbolic Sccy___________pG 13CoreIDVShared46XPCMobileDocumentProviderViewServiceIdentifierC s5ErrorP
++ _symbolic Sccyyt_____G s5NeverO
++ _symbolic Shy_____G 9CoreIDVUI16IdentityProofingO17ToolBarButtonTypeO
++ _symbolic So11UIResponderC
++ _symbolic So12CAShapeLayerC
++ _symbolic So13CADisplayLinkCSg
++ _symbolic So14CAEmitterLayerC
++ _symbolic So14UISceneSessionCSg
++ _symbolic So15AVCaptureDeviceCSg
++ _symbolic So15CAGradientLayerC
++ _symbolic So15NFReaderSessionC
++ _symbolic So15NFReaderSessionCSg
++ _symbolic So15NSDateFormatterC
++ _symbolic So16AVCaptureSessionC
++ _symbolic So16UIViewControllerCSgXw
++ _symbolic So17UIAlertControllerC
++ _symbolic So18NSAttributedStringCSg
++ _symbolic So20EXHostViewControllerC
++ _symbolic So20_UIHostedWindowSceneC
++ _symbolic So20_UIHostedWindowSceneCSgXw
++ _symbolic So21NSXPCListenerEndpointC
++ _symbolic So21NSXPCListenerEndpointCm
++ _symbolic So21SBSUIRemoteAlertSceneC
++ _symbolic So22UINavigationControllerCSgIego_
++ _symbolic So22UINavigationControllerCSgIegr_
++ _symbolic So22UINavigationControllerCSgycSg
++ _symbolic So24AVCaptureVideoDataOutputC
++ _symbolic So25_UISceneHostingControllerC
++ _symbolic So26AVCaptureVideoPreviewLayerC
++ _symbolic So29UISheetPresentationControllerC
++ _symbolic So33_UISceneHostingActionClientToHostC
++ _symbolic So33_UISceneHostingSceneSpecificationC
++ _symbolic So41DIIdentityCredentialWebPresentmentRequestC
++ _symbolic So42DIIdentityCredentialWebPresentmentResponseCSgSo7NSErrorCSgIeyByy_Sg
++ _symbolic So44DIIdentityCredentialWebPresentmentControllerC
++ _symbolic So5NFTagC
++ _symbolic So5NSURLC
++ _symbolic So7CALayerC
++ _symbolic So7SCNNodeC
++ _symbolic So7SCNNodeCSfIeggy_
++ _symbolic So7SCNViewC
++ _symbolic So7UIColorC
++ _symbolic So8NSNumberC
++ _symbolic So8SCNSceneCSg
++ _symbolic So8SCNSceneCSgIeAgHr_
++ _symbolic So8UIWindowC
++ _symbolic So8UIWindowCSg
++ _symbolic _____ 10Foundation23LocalizedStringResourceV
++ _symbolic _____ 13CoreIDVShared12MetricsFlagsV
++ _symbolic _____ 13CoreIDVShared13TagOperationsC
++ _symbolic _____ 13CoreIDVShared17PassportMRZParserC
++ _symbolic _____ 13CoreIDVShared25IdentityProofingDocumentsC
++ _symbolic _____ 13CoreIDVShared28MobileDocumentProviderOptionV
++ _symbolic _____ 13CoreIDVShared35MobileDocumentProviderUserSelectionV
++ _symbolic _____ 13CoreIDVShared40MobileDocumentProviderPresentmentRequestV
++ _symbolic _____ 13CoreIDVShared41MobileDocumentProviderPresentmentResponseV
++ _symbolic _____ 13CoreIDVShared43XPCMobileDocumentProviderPresentmentRequestC
++ _symbolic _____ 13CoreIDVShared51XPCMobileDocumentProviderLocalOptionUIConfigurationC
++ _symbolic _____ 13CoreIDVShared9MRZFormatO
++ _symbolic _____ 19ExtensionFoundation03AppA8IdentityV
++ _symbolic _____ 7CoreIDV33IdentityDocumentPresentmentSourceO
++ _symbolic _____ 7CoreIDV37IdentityDocumentElementCategoryGroupsV15RetentionIntentO
++ _symbolic _____ 7SwiftUI11ControlSizeO
++ _symbolic _____ 7SwiftUI14InterfaceIdiomV
++ _symbolic _____ 7SwiftUI17ButtonBorderShapeV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9CoreIDVUIE21__Key_proofingContext33_56EA22645C859CAA895CFF328D6C20DCLLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9CoreIDVUIE24__Key_proofingViewConfig33_56EA22645C859CAA895CFF328D6C20DCLLV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV9CoreIDVUIE29__Key_proofingViewStyleFormat33_56EA22645C859CAA895CFF328D6C20DCLLV
++ _symbolic _____ 7SwiftUI19HorizontalAlignmentV
++ _symbolic _____ 7SwiftUI20ToolbarItemPlacementV
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI5ColorV
++ _symbolic _____ 7SwiftUI9AlignmentV
++ _symbolic _____ 9CoreIDVUI10DataGroup1C
++ _symbolic _____ 9CoreIDVUI10DataGroup2C
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO0D7ContextO
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO11NFCScanViewV
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO13TitleTextView33_EC13F04AB5230E794280A221D3FD26B6LLV
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO14BaseViewConfigV
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO14BottomTrayView33_EC13F04AB5230E794280A221D3FD26B6LLV
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO15ViewStyleFormatV
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO17NFCScanViewConfigC
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO17ToolBarButtonTypeO
++ _symbolic _____ 9CoreIDVUI16IdentityProofingO8BaseViewV
++ _symbolic _____ 9CoreIDVUI17AuthCodeTextFieldC
++ _symbolic _____ 9CoreIDVUI17PassportNFCReaderC
++ _symbolic _____ 9CoreIDVUI17PassportReadStateO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C11InformationV
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C21ChipPulsingEffectNodeC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C4NodeC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C4NodeC15PageDestinationO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C4NodeC4PoseO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC0C7VariantO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC10CameraNodeC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC10CameraNodeC4PoseO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC10StampLayer33_18A116326E02D2242132B5B2E61598D2LLC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC17TransitionContextV
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC17TransitionContextV0C0V
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC17TransitionContextV21PageFlipConfigurationV
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC17TransitionContextV5PhoneV
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC17TransitionContextV6CameraV
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC21StampPageOverlayLayerC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC21StampPageOverlayLayerC0F0V
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC9PhoneNodeC
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC9PhoneNodeC4PoseO
++ _symbolic _____ 9CoreIDVUI17PassportSceneViewC9PhoneNodeC5ModelO
++ _symbolic _____ 9CoreIDVUI18PassportScanResultC
++ _symbolic _____ 9CoreIDVUI19DataGroupIdentifierO
++ _symbolic _____ 9CoreIDVUI19PassportInformationV
++ _symbolic _____ 9CoreIDVUI19ResourceBundleClass33_3F0861F1A7E2543D1FF06A2AC37E1008LLC
++ _symbolic _____ 9CoreIDVUI19ResourceBundleClass33_D656DA4086A4964DFAA720FE5EE5FF4FLLC
++ _symbolic _____ 9CoreIDVUI20DefaultSceneDelegateC
++ _symbolic _____ 9CoreIDVUI20PassportNFCGuideViewV
++ _symbolic _____ 9CoreIDVUI20PassportNFCGuideViewV0E6ConfigC
++ _symbolic _____ 9CoreIDVUI20PassportSceneHelpersV
++ _symbolic _____ 9CoreIDVUI20PassportSceneHelpersV11CubicBezierV
++ _symbolic _____ 9CoreIDVUI20PassportSceneHelpersV15SeededGeneratorV
++ _symbolic _____ 9CoreIDVUI21PassportAnimationViewV
++ _symbolic _____ 9CoreIDVUI21PassportReaderManagerV
++ _symbolic _____ 9CoreIDVUI22MRZPassportInformationV
++ _symbolic _____ 9CoreIDVUI23PassportNFCGuideContentV
++ _symbolic _____ 9CoreIDVUI23PlaygroundUIViewWrapper33_9BEBA1C02F10E101344CED9A3D36656DLLV
++ _symbolic _____ 9CoreIDVUI23PlaygroundUIViewWrapper33_9BEBA1C02F10E101344CED9A3D36656DLLV11CoordinatorC
++ _symbolic _____ 9CoreIDVUI24PreviewNFCPassportReader33_4F9BED0E448B35CFCE5184237BB8C820LLC
++ _symbolic _____ 9CoreIDVUI24RemoteAlertSceneDelegateC
++ _symbolic _____ 9CoreIDVUI25HostedWindowSceneDelegateC
++ _symbolic _____ 9CoreIDVUI25IDVTrailingAccessoryLabelC04ViewD0V
++ _symbolic _____ 9CoreIDVUI25IDVTrailingAccessoryLabelC05ImageD0V
++ _symbolic _____ 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0O
++ _symbolic _____ 9CoreIDVUI25PassportCameraOverlayViewC
++ _symbolic _____ 9CoreIDVUI28BaseBoardXPCListenerEndpointC
++ _symbolic _____ 9CoreIDVUI28BaseBoardXPCListenerEndpointC10StorageKeyO
++ _symbolic _____ 9CoreIDVUI28PassportMRZCameraPreviewViewC
++ _symbolic _____ 9CoreIDVUI28UsingYourIDViewConfigurationV
++ _symbolic _____ 9CoreIDVUI29IdentityProofingBarButtonItemO
++ _symbolic _____ 9CoreIDVUI30PassportAnimationReadingStatusO
++ _symbolic _____ 9CoreIDVUI30PassportChipPulsingEffectLayer33_6424C8BFAA067665DB7631AA91D6A45BLLC
++ _symbolic _____ 9CoreIDVUI30RGBCaptureConsentConfigurationC
++ _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelV
++ _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO
++ _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO22ConsentSheetCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO35TransactionElementDetailsCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____ 9CoreIDVUI31PassportMRZReaderViewControllerC
++ _symbolic _____ 9CoreIDVUI31PassportNFCReadingAnalyticsDataV
++ _symbolic _____ 9CoreIDVUI31ProminentNavigationTitleAdaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV
++ _symbolic _____ 9CoreIDVUI31RGBCaptureConsentViewControllerC
++ _symbolic _____ 9CoreIDVUI32IdentityProofingImageDisplayModeO
++ _symbolic _____ 9CoreIDVUI32PassportNFCReaderSessionDelegate33_6EA3681501B6C21AA10C1FB9062BCFC8LLC
++ _symbolic _____ 9CoreIDVUI33IdentityProofingTrailingAccessoryO
++ _symbolic _____ 9CoreIDVUI36IdentityCredentialScanWithDeviceViewV
++ _symbolic _____ 9CoreIDVUI37IdentityProofingPendingViewControllerC
++ _symbolic _____ 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV
++ _symbolic _____ 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV0G4TypeO
++ _symbolic _____ 9CoreIDVUI38IdentityProofingAuthCodeViewControllerC
++ _symbolic _____ 9CoreIDVUI38IdentityProofingErrorViewConfigurationV
++ _symbolic _____ 9CoreIDVUI39IdentityCredentialProviderSelectionViewV
++ _symbolic _____ 9CoreIDVUI39MobileDocumentProviderExtensionHostViewV
++ _symbolic _____ 9CoreIDVUI40IdentityCredentialProviderViewConnectionC
++ _symbolic _____ 9CoreIDVUI40IdentityProofingPendingViewConfigurationC
++ _symbolic _____ 9CoreIDVUI40MobileDocumentProviderPresentmentContextV
++ _symbolic _____ 9CoreIDVUI41IdentityCredentialScanWithDeviceViewModelC
++ _symbolic _____ 9CoreIDVUI41IdentityProofingAuthCodeViewConfigurationV
++ _symbolic _____ 9CoreIDVUI41IdentityProofingProgressViewConfigurationV
++ _symbolic _____ 9CoreIDVUI41IdentityProofingProgressViewConfigurationV0cE4TypeO
++ _symbolic _____ 9CoreIDVUI43IdentityCredentialProviderAuthorizationViewV
++ _symbolic _____ 9CoreIDVUI43IdentityProofingAuthCodeRetryViewControllerC
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO15LargeCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16CustomCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16MediumCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderSceneSpecificationC
++ _symbolic _____ 9CoreIDVUI44IdentityCredentialProviderSelectionViewModelC
++ _symbolic _____ 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV
++ _symbolic _____ 9CoreIDVUI45IdentityCredentialProviderSelectionViewPickerV
++ _symbolic _____ 9CoreIDVUI46IdentityProofingAddedToWalletViewConfigurationV
++ _symbolic _____ 9CoreIDVUI46IdentityProofingAuthCodeRetryViewConfigurationV
++ _symbolic _____ 9CoreIDVUI47IdentityProofingExtendedReviewViewConfigurationC
++ _symbolic _____ 9CoreIDVUI47IdentityProofingWaitingForWifiViewConfigurationC
++ _symbolic _____ 9CoreIDVUI47IdentityProofingWaitingForWifiViewConfigurationC0efG4Type33_2EAFF40ACD0B520C12B83415DF895780LLO
++ _symbolic _____ 9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModelC
++ _symbolic _____ 9CoreIDVUI49IdentityCredentialProviderSelectionViewPickerCellV
++ _symbolic _____ 9CoreIDVUI49RemoteIdentityCredentialProviderHostingController33_9BADFAD63A69AF3C454A8E48F7FCB9AALLC
++ _symbolic _____ 9CoreIDVUI50IdentityProofingRetryProvisioningViewConfigurationC
++ _symbolic _____ 9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinatorC
++ _symbolic _____ 9CoreIDVUI51IdentityCredentialProviderRemoteDeviceSelectionViewV
++ _symbolic _____ 9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModelC
++ _symbolic _____ 9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModelC0I5StateO
++ _symbolic _____ 9CoreIDVUI56IdentityCredentialProviderSelectionViewHostingController33_9BADFAD63A69AF3C454A8E48F7FCB9AALLC
++ _symbolic _____ 9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewControllerC
++ _symbolic _____ 9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerActionC
++ _symbolic _____ 9CoreIDVUI7DG1DataV
++ _symbolic _____ 9CoreIDVUI7DG1DataV10CodingKeysO
++ _symbolic _____ 9CoreIDVUI7DG2DataV
++ _symbolic _____ 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLO
++ _symbolic _____ 9CoreIDVUI8MRZLayerC
++ _symbolic _____ 9CoreIDVUI9GuideView33_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____ SC39DIIdentityCredentialWebPresentmentErrorLeV
++ _symbolic _____ So10CGImageRefa
++ _symbolic _____ So12UIFontWeighta
++ _symbolic _____ So13CATransform3DV
++ _symbolic _____ So13CGGradientRefa
++ _symbolic _____ So20UIUserInterfaceStyleV
++ _symbolic _____ So38CIDVUIProofingDisplayMessageActionTypeV
++ _symbolic _____ So39DIIdentityCredentialWebPresentmentErrorV
++ _symbolic _____ So48CIDVUIIdentityProofingDataSharingUserConsentTypeV
++ _symbolic _____ s5NeverO
++ _symbolic _____ s6UInt64V
++ _symbolic _____Sg 10Foundation16AttributedStringV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 12CoreGraphics7CGFloatV
++ _symbolic _____Sg 13CoreIDVShared12MetricsFlagsV
++ _symbolic _____Sg 13CoreIDVShared17IQTextObservationV
++ _symbolic _____Sg 13CoreIDVShared18NFCPendingCommandsC
++ _symbolic _____Sg 13CoreIDVShared28MobileDocumentProviderOptionV
++ _symbolic _____Sg 13CoreIDVShared35IDVUIServiceConfigurationIdentifierO
++ _symbolic _____Sg 13CoreIDVShared48MobileDocumentProviderLocalOptionUIConfigurationV
++ _symbolic _____Sg 13CoreIDVShared8IDVNFTagV
++ _symbolic _____Sg 13CoreIDVShared9MRZFormatO
++ _symbolic _____Sg 21DeveloperToolsSupport13ImageResourceV
++ _symbolic _____Sg 7SwiftUI12SymbolEffectV
++ _symbolic _____Sg 7SwiftUI13AnyShapeStyleV
++ _symbolic _____Sg 7SwiftUI19SymbolRenderingModeV
++ _symbolic _____Sg 7SwiftUI4FontV6DesignO
++ _symbolic _____Sg 7SwiftUI4TextV4CaseO
++ _symbolic _____Sg 7SwiftUI5ColorV
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC0C4NodeC15PageDestinationO
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC0C4NodeC4PoseO
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC10CameraNodeC4PoseO
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC17TransitionContextV0C0V
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC17TransitionContextV21PageFlipConfigurationV
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC17TransitionContextV5PhoneV
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC17TransitionContextV6CameraV
++ _symbolic _____Sg 9CoreIDVUI17PassportSceneViewC9PhoneNodeC4PoseO
++ _symbolic _____Sg 9CoreIDVUI19PassportInformationV
++ _symbolic _____Sg 9CoreIDVUI20PassportSceneHelpersV15SeededGeneratorV
++ _symbolic _____Sg 9CoreIDVUI22MRZPassportInformationV
++ _symbolic _____Sg 9CoreIDVUI23PassportNFCGuideContentV
++ _symbolic _____Sg 9CoreIDVUI25IDVTrailingAccessoryLabelC
++ _symbolic _____Sg 9CoreIDVUI25PassportCameraOverlayViewC
++ _symbolic _____Sg 9CoreIDVUI28BaseBoardXPCListenerEndpointC
++ _symbolic _____Sg 9CoreIDVUI28PassportMRZCameraPreviewViewC
++ _symbolic _____Sg 9CoreIDVUI33IdentityProofingTrailingAccessoryO
++ _symbolic _____Sg 9CoreIDVUI40MobileDocumentProviderPresentmentContextV
++ _symbolic _____Sg 9CoreIDVUI7DG1DataV
++ _symbolic _____Sg 9CoreIDVUI7DG2DataV
++ _symbolic _____Sg So20EXHostViewControllerC12ExtensionKitE13ConfigurationV
++ _symbolic _____SgSbSg______pSgIeggyg_ 10Foundation4DataV s5ErrorP
++ _symbolic _____SgSo7NSErrorCSgIeyByy_ 13CoreIDVShared24XPCWebPresentmentRequestC
++ _symbolic _____SgXw 9CoreIDVUI17PassportNFCReaderC
++ _symbolic _____SgXw 9CoreIDVUI17PassportSceneViewC
++ _symbolic _____SgXw 9CoreIDVUI17PassportSceneViewC0C21ChipPulsingEffectNodeC
++ _symbolic _____SgXw 9CoreIDVUI17PassportSceneViewC9PhoneNodeC
++ _symbolic _____SgXw 9CoreIDVUI30IdentityProofingViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI31PassportMRZReaderViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI31RGBCaptureConsentViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI32IDScanConfirmationViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI37IdentityProofingPendingViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI38IdentityProofingAuthCodeViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI40IdentityCredentialProviderViewConnectionC
++ _symbolic _____SgXw 9CoreIDVUI43IdentityProofingAddedToWalletViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI43IdentityProofingAuthCodeRetryViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI44IdentityCredentialProviderSelectionViewModelC
++ _symbolic _____SgXw 9CoreIDVUI44IdentityProofingExtendedReviewViewControllerC
++ _symbolic _____SgXw 9CoreIDVUI47IdentityProofingWaitingForWifiViewConfigurationC
++ _symbolic _____SgXw 9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModelC
++ _symbolic _____SgXw 9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModelC
++ _symbolic _____SgXw 9CoreIDVUI56IdentityCredentialProviderSelectionViewHostingController33_9BADFAD63A69AF3C454A8E48F7FCB9AALLC
++ _symbolic _____SgXwz_Xx 9CoreIDVUI17PassportSceneViewC
++ _symbolic _____SgXwz_Xx 9CoreIDVUI17PassportSceneViewC0C21ChipPulsingEffectNodeC
++ _symbolic _____SgXwz_Xx 9CoreIDVUI17PassportSceneViewC9PhoneNodeC
++ _symbolic _____SgXwz_Xx 9CoreIDVUI40IdentityCredentialProviderViewConnectionC
++ _symbolic _____SgXwz_Xx 9CoreIDVUI43IdentityProofingAddedToWalletViewControllerC
++ _symbolic _____Sg_ABt 13CoreIDVShared28MobileDocumentProviderOptionV
++ _symbolic _____Sg_ABt So11CFStringRefa
++ _symbolic ______Sft 9CoreIDVUI17PassportReadStateO
++ _symbolic ________________y_____Gt 7SwiftUI4TextV AA6SpacerV AA6ButtonV AA07DefaultE5LabelV
++ _symbolic ____________pt 13CoreIDVShared8DIPErrorV11PropertyKeyO s23CustomStringConvertibleP
++ _symbolic ___________pIgrzo_ 9CoreIDVUI30IdentityProofingViewControllerC s5ErrorP
++ _symbolic ___________yAByABy__________G_____y_____GG_____Gt 7SwiftUI4TextV AA15ModifiedContentV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingI0V AG5ScaleO AA07_OffsetH0V
++ _symbolic ___________y_____Gt 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV 7SwiftUI6ButtonV AD4TextV
++ _symbolic ___________y_____yACyACy__________G_____G_____y_____y_______________yAkLGGGG_____y_____ASGGt 7SwiftUI4TextV AA19_ConditionalContentV AA08ModifiedE0V AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingJ0V AA19_BackgroundModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA01_oP0V AA08ProgressP0V AA05EmptyP0V
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p 13CoreIDVShared22BiometricQueryProtocolP
++ _symbolic ______p 9CoreIDVUI16IdentityProofingO10ViewConfigP
++ _symbolic ______p 9CoreIDVUI18PassportNFCReadingP
++ _symbolic ______p So8CAActionP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSgXw 9CoreIDVUI29PassportReaderManagerDelegateP
++ _symbolic ______ypt So11CFStringRefa
++ _symbolic _____yAAyAAyAAy__________y_____SgGGACy_____GGACy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAyAAyAAy__________y_____SgGGACy_____GGACy_____SgGG_____y_____GG______AAyAAy__________G_____Gt 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleI0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameV0V
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG_____ySbGGADG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AL AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA017BorderedProminentiG0V AA07ControlL0O AA01_uv9TransformX0V AA010_FlexFrameQ0V
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG_____ySbGGADG_____GSg 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AL AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA017BorderedProminentiG0V AA07ControlL0O AA01_uv9TransformX0V AA010_FlexFrameQ0V
++ _symbolic _____yAAyAAyAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____GGAEy_____SgGG_____y_____GG______AAyAAy__________G_____GtGGAQy_____GGAEy_____SgGGAEy_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameY0V AA017HierarchicalShapeS0V AY4CaseO AA0V9AlignmentO AA08_PaddingY0V
++ _symbolic _____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____yACyADy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAFGG_AAyAAyAG_____y_____GG_____y_____GGSgtGGAJy_____SgGG_Qo_AJyATSgGGAJy_____GG_AAyAFA11_GtGG_____G_____GA18_GAYG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA6HStackV AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingQ0V AW5ScaleO AA07_OffsetP0V AA016_ForegroundStyleQ0V AA5ColorV AA06_TraittQ0V AA010TransitionzS0V AL AA0M9AlignmentO AA16_FlexFrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAyAAy_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GGA47_GA15_GA15_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA16_FlexFrameLayoutV AA05EmptyG0V AA0G0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressG0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingQ0V AA01_jk9TransformM0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V AA010_AnimationM0V 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____yAAyAAy__________G_____G_____y_____y_______________yAiJGGGG 7SwiftUI15ModifiedContentV AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingH0V AA19_BackgroundModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA01_mN0V
++ _symbolic _____yAAyAAy__________G_____y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingH0V AE5ScaleO AA07_OffsetG0V
++ _symbolic _____yAAyAAy__________G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeJ0V AA022_EnvironmentKeyWritingK0V AA0E9AlignmentO
++ _symbolic _____yAAyAAy__________G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____y_____GGSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAyAAy__________G_____y_____GG_____y_____GGSg_AAy_____y_____yAAy__________y_____GG_AAyAT_____yAFGGtGG_____Gt 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA6VStackV AA9TupleViewV AA4TextV AA022_EnvironmentKeyWritingK0V AA0T9AlignmentO AA011_ForegroundjK0V AA010_FlexFrameH0V
++ _symbolic _____yAAyAAy__________y_____SgGGACy_____GGACy_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO AA19SymbolRenderingModeV
++ _symbolic _____yAAyAAy_____yAAy__________y_____GG_Qo_ACy_____SgGG_____y_____GG_____ySSGG 7SwiftUI15ModifiedContentV AA4ViewPAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeP0V AA010_AnimationL0V
++ _symbolic _____yAAyAAy_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG_____ySbGGADG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AL AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA017BorderedProminentiG0V AA07ControlL0O AA01_uv9TransformX0V
++ _symbolic _____yAAyAAy_____y_AAyAAy__________G_____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo_ADG_____GG______AAyAU_____y__________GGA_Qo______G_____ySdGGASGGGAAyAAyAAy_____y_____y_____y_____A12_G_AAyAAyAAy_____yAAyAiLy_____GG_Qo_AOG_____y_____GGA3_ySSGGtGG_____GASGASGSgGA3_y_____GG_____GA36_G 7SwiftUI15ModifiedContentV 9CoreIDVUI16IdentityProofingO8BaseViewV AD017PassportAnimationJ0V AA12_FrameLayoutV AA16_OverlayModifierV AA0J0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0J14InputPredicateRd__AaORd_0_AaORd_1_r1_lFQO AA6ButtonV ApAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingP0V AY AA08_PaddingN0V AA8SolariumV AA026_InsettableBackgroundShapeP0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA01_lP0V AA6VStackV AA05TupleJ0V AA08ProgressJ0V AA05EmptyJ0V ApAE15monospacedDigitQryFQO AA13TextAlignmentO AA016_ForegroundStyleP0V AA22HierarchicalShapeStyleV AA05_FlexmN0V AD0K9ReadStateO AA017_AppearanceActionP0V
++ _symbolic _____yAAyAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____GGAEy_____SgGG_____y_____GG______AAyAAy__________G_____GtGGAQy_____GGAEy_____SgGGAEy_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameY0V AA017HierarchicalShapeS0V AY4CaseO AA0V9AlignmentO
++ _symbolic _____yAAyAAy_____y_____yAAyAAy_____yAAy_____yACyADy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAFGG_AAyAAyAG_____y_____GG_____y_____GGSgtGGAJy_____SgGG_Qo_AJyATSgGGAJy_____GG_AAyAFA11_GtGG_____G_____GA18_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA6HStackV AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingQ0V AW5ScaleO AA07_OffsetP0V AA016_ForegroundStyleQ0V AA5ColorV AA06_TraittQ0V AA010TransitionzS0V AL AA0M9AlignmentO AA16_FlexFrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo______G_____GG______AAyAQ_____y__________GGAWQo______G_____ySdGGAOG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA6ButtonV AeAE10fontWeightyQrAA4FontV0N0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AN AA12_FrameLayoutV AA08_PaddingX0V AA8SolariumV AA026_InsettableBackgroundShapeV0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA010_AnimationV0V
++ _symbolic _____yAAyAAy_____y_____yAByACy_____yACy________________y_____GtGG______tGG______yAOyAByACy______AGyAEGtGGAAy__________GGAOyAAy_____yAE_____GAUGAAyApUGGGtGGAUGAUG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultK5LabelV AA7DividerV AA012_ConditionalD0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V AV0rs8ScanWithvG0V AA14_PaddingLayoutV AA08ProgressG0V AA05EmptyG0V AA010_FlexFrameZ0V
++ _symbolic _____yAAyAAy_____y_____y_____Sg_AEtGG_____G_____G_____y_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV 9CoreIDVUI039DigitalPresentmentIdentityElementColumnG0V AA16_FlexFrameLayoutV AA08_PaddingQ0V AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____yAAyAAy_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GGA47_GA15_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA16_FlexFrameLayoutV AA05EmptyG0V AA0G0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressG0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingQ0V AA01_jk9TransformM0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V AA010_AnimationM0V 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____yAAyAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeG0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentiG0V AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV
++ _symbolic _____yAAyAAy_____y_____y_____y_____AEG_AAyAAyAAy_____yAAy__________y_____GG_Qo_AHy_____SgGG_____y_____GG_____ySSGGtGG_____G_____GA0_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA08ProgressG0V AA05EmptyG0V AA0G0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeT0V AA010_AnimationP0V AA16_FlexFrameLayoutV AA08_PaddingZ0V
++ _symbolic _____yAAyAAy_____y_____y_____y_____AEG_AAyAAyAAy_____yAAy__________y_____GG_Qo_AHy_____SgGG_____y_____GG_____ySSGGtGG_____G_____GA0_GSg 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA08ProgressG0V AA05EmptyG0V AA0G0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeT0V AA010_AnimationP0V AA16_FlexFrameLayoutV AA08_PaddingZ0V
++ _symbolic _____yAAy__________GACG 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingH0V
++ _symbolic _____yAAy__________G_____GSg 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V
++ _symbolic _____yAAy__________G_____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo_ACG_____GG______AAyAT_____y__________GGAZQo______G_____ySdGGARGGG 7SwiftUI15ModifiedContentV 9CoreIDVUI21PassportAnimationViewV AA12_FrameLayoutV AA16_OverlayModifierV AA0I0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0I14InputPredicateRd__AaKRd_0_AaKRd_1_r1_lFQO AA6ButtonV AlAE10fontWeightyQrAA4FontV0V0VSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingM0V AU AA08_PaddingK0V AA8SolariumV AA026_InsettableBackgroundShapeM0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA01_hM0V
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingH0V AE5ScaleO
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA16_FlexFrameLayoutV
++ _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA14_OpacityEffectV
++ _symbolic _____yAAy__________y_____GG_____G______ySay_____GSS_____Gt 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideD0V AN9GuideView33_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____yAAy__________y_____SgGGACy_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AE5ScaleO
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA09FillShapeL0V
++ _symbolic _____yAAy__________y_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AA016_ForegroundStyleI0V AA5ColorV
++ _symbolic _____yAAy_____yAAy__________y_____GG_Qo_ACy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA4FontV AA016_ForegroundStyleL0V AA017HierarchicalShapeP0V
++ _symbolic _____yAAy_____yAAy_____y__________G_____y_____SgGG_Qo______G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AH AA12_FrameLayoutV AA08_PaddingQ0V
++ _symbolic _____yAAy_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AL AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA017BorderedProminentiG0V AA07ControlL0O AA01_uv9TransformX0V
++ _symbolic _____yAAy_____yAAy_____y_____yABy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAEGG_AAyAAyAF_____y_____GG_____y_____GGSgtGGAIy_____SgGG_Qo_AIyASSgGGAIy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA6HStackV AA05TupleE0V AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingP0V AU5ScaleO AA07_OffsetO0V AA016_ForegroundStyleP0V AA5ColorV AA06_TraitsP0V AA010TransitionyR0V AH AA0L9AlignmentO
++ _symbolic _____yAAy_____yAAy_____y_____yABy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAEGG_AAyAAyAF_____y_____GG_____y_____GGSgtGGAIy_____SgGG_Qo_AIyASSgGGAIy_____GG_AAyAEA10_Gt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA6HStackV AA05TupleE0V AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingP0V AU5ScaleO AA07_OffsetO0V AA016_ForegroundStyleP0V AA5ColorV AA06_TraitsP0V AA010TransitionyR0V AH AA0L9AlignmentO
++ _symbolic _____yAAy_____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_AR_____yAAyAyGy_____GG______Qo_AAyAAyAY_____y_____GG_____GQo_AMG_____ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeM0V AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentoM0V AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA0Z0Rd__lFQO AA0o6BorderZ0V AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_st9TransformV0V
++ _symbolic _____yAAy_____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_AR_____yAAyAyGy_____GG______Qo_AAyAAyAY_____y_____GG_____GQo_AMG_____ySbGGSg 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeM0V AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentoM0V AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA0Z0Rd__lFQO AA0o6BorderZ0V AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_st9TransformV0V
++ _symbolic _____yAAy_____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_AR_____yAAyAyGy_____GG______Qo_AAyAAyAY_____y_____GG_____GQo_AMG_____ySbGGSg_AAy_____yAAyABy_____yAO_AR_____yAQ_Qo_AQQo_GAIG_ArAy_____yAAy_____yA18_______Qo_A_G_A1_Qo_AGy_____SgGG_____yA18_______Qo_Qo_AMGSgt 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeM0V AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentoM0V AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA0Z0Rd__lFQO AA0o6BorderZ0V AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_st9TransformV0V AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE10fontWeightyQrAA4FontV6WeightVSgFQO AeAEA7__A8_A9_QrA11__qd__SbtAAA12_Rd__lFQO AeAEAJyQrqd__AaKRd__lFQO AA08BorderedoM0V AA5ColorV AeAEAJyQrqd__AaKRd__lFQO AA010BorderlessoM0V
++ _symbolic _____yAAy_____y_AAyAAy__________G_____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo_ADG_____GG______AAyAU_____y__________GGA_Qo______G_____ySdGGASGGGAAyAAyAAy_____y_____y_____y_____A12_G_AAyAAyAAy_____yAAyAiLy_____GG_Qo_AOG_____y_____GGA3_ySSGGtGG_____GASGASGSgGA3_y_____GG_____G 7SwiftUI15ModifiedContentV 9CoreIDVUI16IdentityProofingO8BaseViewV AD017PassportAnimationJ0V AA12_FrameLayoutV AA16_OverlayModifierV AA0J0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0J14InputPredicateRd__AaORd_0_AaORd_1_r1_lFQO AA6ButtonV ApAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingP0V AY AA08_PaddingN0V AA8SolariumV AA026_InsettableBackgroundShapeP0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA01_lP0V AA6VStackV AA05TupleJ0V AA08ProgressJ0V AA05EmptyJ0V ApAE15monospacedDigitQryFQO AA13TextAlignmentO AA016_ForegroundStyleP0V AA22HierarchicalShapeStyleV AA05_FlexmN0V AD0K9ReadStateO AA017_AppearanceActionP0V
++ _symbolic _____yAAy_____y_____ACG_____y_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA13AnyShapeStyleV
++ _symbolic _____yAAy_____y___________Qo______y______pGGAEy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9CoreIDVUI16IdentityProofingO07NFCScanE0V AL0mE6ConfigC AA30_EnvironmentKeyWritingModifierV AL0eN0P AL0L7ContextO
++ _symbolic _____yAAy_____y__________y_____y_____y_____y_____y_____yAAy__________G_SSQo______y_____AKGGG_Qo__Qo_______y______y_____y_____GGQo_Qo_G_____G_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE0I10Background_3forQrAA10VisibilityO_AA0K9PlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eQ4ItemV0rsT0OFQO AA5GroupV AA012_ConditionalD0V AiAE0pR0yQrqd__SyRd__lFQO 9CoreIDVUI035MobileDocumentProviderExtensionHostH0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressH0V AA05EmptyH0V AA0kD7BuilderV10buildBlockyQrxAaLRzlFZQO AA0kuV0V AA6ButtonV AA18DefaultButtonLabelV AA13_TaskModifierV AA25_AppearanceActionModifierV
++ _symbolic _____yAAy_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____GGAEy_____SgGG_____y_____GG______AAyAAy__________G_____GtGGAQy_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameY0V AA017HierarchicalShapeS0V AY4CaseO
++ _symbolic _____yAAy_____y_____yAAyAAy__________y_____GG_____G______ySay_____GSS_____GtGGAIGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideD0V AR05GuideG033_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____yAAy_____y_____yAAyAAy_____yAAy_____yACyADy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAFGG_AAyAAyAG_____y_____GG_____y_____GGSgtGGAJy_____SgGG_Qo_AJyATSgGGAJy_____GG_AAyAFA11_GtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA6HStackV AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingQ0V AW5ScaleO AA07_OffsetP0V AA016_ForegroundStyleQ0V AA5ColorV AA06_TraittQ0V AA010TransitionzS0V AL AA0M9AlignmentO AA16_FlexFrameLayoutV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo______G_____GG______AAyAQ_____y__________GGAWQo______G_____ySdGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA6ButtonV AeAE10fontWeightyQrAA4FontV0N0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AN AA12_FrameLayoutV AA08_PaddingX0V AA8SolariumV AA026_InsettableBackgroundShapeV0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA010_AnimationV0V
++ _symbolic _____yAAy_____y_____yAByACy_____yACy________________y_____GtGG______tGG______yAOyAByACy______AGyAEGtGGAAy__________GGAOyAAy_____yAE_____GAUGAAyApUGGGtGGAUGAUG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultK5LabelV AA7DividerV AA012_ConditionalD0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V AV0rs8ScanWithvG0V AA14_PaddingLayoutV AA08ProgressG0V AA05EmptyG0V
++ _symbolic _____yAAy_____y_____y___________y_____GtGG_____y__________GGAAyAJy_____yAF_____GALGAJyAdLGGG 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V AA6ButtonV AA4TextV AA08ModifiedD0V AH0jk8ScanWithnG0V AA14_PaddingLayoutV AA08ProgressG0V AA05EmptyG0V
++ _symbolic _____yAAy_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GGA47_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA16_FlexFrameLayoutV AA05EmptyG0V AA0G0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressG0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingQ0V AA01_jk9TransformM0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V AA010_AnimationM0V 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIGAGy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeG0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentiG0V AA0i6BorderT0V
++ _symbolic _____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeG0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentiG0V AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____yAAy_____y_____y_____y_____AEG_AAyAAyAAy_____yAAy__________y_____GG_Qo_AHy_____SgGG_____y_____GG_____ySSGGtGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA08ProgressG0V AA05EmptyG0V AA0G0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeT0V AA010_AnimationP0V AA16_FlexFrameLayoutV AA08_PaddingZ0V
++ _symbolic _____yAAy_____y_____y_____y_____y______Qo____________y_____yAC______Qo__Qo______yAC______y______yAAyAAy__________G_____GGQo_Qo_Qo_______y_AHy_____y_____GGQo_Qo_______Qo______yAAy_____y_____yAAy__________G_AAyAAyAAyAAy_____yAAyARy_____yAAyAAyAI_____GA4_G______y_____GQo_G_____y_____GG______Qo_A12_y_____GG_____ySbGGA4_GALGSgtGG_____yAAyAAy__________y_____GGA2_GGGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationW4ItemV0xyZ0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionE6PickerV AA8SolariumV AeAE0M4RoleyQrAA0O4RoleVFQO AeAE0V11ItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO AX019ProminentNavigationX7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AeAEAlMQrqd__yXE_tAaNRd__lFQO AA0oD7BuilderV10buildBlockyQrxAaNRzlFZQO AA0O9ItemGroupV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A10_A11_yQrxAaNRzlFZQO AA6ButtonV AA18DefaultButtonLabelV 12CoreGraphics7CGFloatV AA06_InsetE8ModifierV AA6VStackV AA05TupleE0V AA7DividerV AA14_OpacityEffectV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A41_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA19_BackgroundModifierV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV AA23_SafeAreaIgnoringLayoutV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSSo11SCNMaterialCG s18_DictionaryStorageC
++ _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 9CoreIDVUI25IDVTrailingAccessoryLabelC0F0O
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC So8CAActionP
++ _symbolic _____ySS______pG s18_DictionaryStorageC So8CAActionP
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySay_____GSS_____G 7SwiftUI7ForEachV 13CoreIDVShared28MobileDocumentProviderOptionV 0E5IDVUI018IdentityCredentialI23SelectionViewPickerCellV
++ _symbolic _____ySay_____GSS_____G 7SwiftUI7ForEachV 9CoreIDVUI23PassportNFCGuideContentV AD9GuideView33_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____ySbG 7SwiftUI7BindingV
++ _symbolic _____yScTySo42DIIdentityCredentialWebPresentmentResponseC______pGSg_____G s13ManagedBufferCsRi__rlE s5ErrorP So16os_unfair_lock_sV
++ _symbolic _____ySdG 7SwiftUI5StateV
++ _symbolic _____ySi_SitG s23_ContiguousArrayStorageC
++ _symbolic _____ySi_____G s18_DictionaryStorageC So7CGPointV
++ _symbolic _____ySo14UISceneSessionCSgG 7SwiftUI11EnvironmentV
++ _symbolic _____yYaKc 13CoreIDVShared21WebPresentmentRequestV
++ _symbolic _____y_Qo_ So25_UISceneHostingControllerC5UIKitE11hostStorageQrSgvpQO
++ _symbolic _____y_Qo_ So25_UISceneHostingControllerC5UIKitE13clientStorageQrSgvpQO
++ _symbolic _____y_Qo_ So7UISceneC5UIKitE11hostStorageQrSgvpQO
++ _symbolic _____y_Qo_ So7UISceneC5UIKitE13clientStorageQrSgvpQO
++ _symbolic _____y_Qo_Sg So25_UISceneHostingControllerC5UIKitE11hostStorageQrSgvpQO
++ _symbolic _____y_Qo_Sg So25_UISceneHostingControllerC5UIKitE13clientStorageQrSgvpQO
++ _symbolic _____y_Qo_Sg So7UISceneC5UIKitE11hostStorageQrSgvpQO
++ _symbolic _____y_Qo_Sg So7UISceneC5UIKitE13clientStorageQrSgvpQO
++ _symbolic _____y_____ABG 7SwiftUI12ProgressViewV AA05EmptyD0V
++ _symbolic _____y_____ABG 7SwiftUI25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y_____ABG______yADyADy_____yADy__________y_____GG_Qo_AFy_____SgGG_____y_____GG_____ySSGGt 7SwiftUI12ProgressViewV AA05EmptyD0V AA15ModifiedContentV AA0D0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO AA4FontV AA016_ForegroundStyleN0V AA017HierarchicalShapeR0V AA010_AnimationN0V
++ _symbolic _____y_____AB_____y_____y_____ABG_____GG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA08ProgressE0V AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____G 7SwiftUI10ScrollViewV 9CoreIDVUI16IdentityProofingO09TitleTextD033_EC13F04AB5230E794280A221D3FD26B6LLV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 9CoreIDVUI16IdentityProofingO0G7ContextO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 9CoreIDVUI16IdentityProofingO15ViewStyleFormatV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 9CoreIDVUI16IdentityProofingO17NFCScanViewConfigC
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA14InterfaceIdiomV
++ _symbolic _____y_____G 7SwiftUI18_AnimationModifierV 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____y_____G 7SwiftUI18_AnimationModifierV 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y_____G 7SwiftUI18_TaskValueModifierV 10Foundation3URLV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 9CoreIDVUI39IdentityCredentialProviderSelectionViewV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 9CoreIDVUI43IdentityCredentialProviderAuthorizationViewV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 9CoreIDVUI51IdentityCredentialProviderRemoteDeviceSelectionViewV
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA9RectangleV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA010TransitionC3KeyV
++ _symbolic _____y_____G 7SwiftUI21_TraitWritingModifierV AA014LayoutPriorityC3KeyV
++ _symbolic _____y_____G 7SwiftUI24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA09FillShapeD0V
++ _symbolic _____y_____G 7SwiftUI24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV
++ _symbolic _____y_____G 7SwiftUI36UIViewControllerRepresentableContextV 9CoreIDVUI39MobileDocumentProviderExtensionHostViewV
++ _symbolic _____y_____G 7SwiftUI5StateV 9CoreIDVUI41IdentityCredentialScanWithDeviceViewModelC
++ _symbolic _____y_____G 7SwiftUI5StateV 9CoreIDVUI44IdentityCredentialProviderSelectionViewModelC
++ _symbolic _____y_____G 7SwiftUI5StateV 9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModelC
++ _symbolic _____y_____G 7SwiftUI5StateV 9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModelC
++ _symbolic _____y_____G 7SwiftUI6ButtonV AA07DefaultC5LabelV
++ _symbolic _____y_____G 7SwiftUI6ButtonV AA4TextV
++ _symbolic _____y_____G 7SwiftUI7BindingV 9CoreIDVUI44IdentityCredentialProviderSelectionViewModelC
++ _symbolic _____y_____G 9CoreIDVUI49RemoteIdentityCredentialProviderHostingController33_9BADFAD63A69AF3C454A8E48F7FCB9AALLC AA0deF17AuthorizationViewV
++ _symbolic _____y_____G s10ArraySliceV s5UInt8V
++ _symbolic _____y_____G s11_SetStorageC 9CoreIDVUI16IdentityProofingO17ToolBarButtonTypeO
++ _symbolic _____y_____G s19PartialRangeThroughV 7SwiftUI15DynamicTypeSizeO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO22ConsentSheetCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO35TransactionElementDetailsCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO15LargeCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16CustomCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16MediumCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI7DG1DataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO10CodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO22ConsentSheetCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI31DigitalPresentmentRootViewModelV17PresentationStyleO35TransactionElementDetailsCodingKeys33_0BD97A3F88D1F2D79A5393CB62D932FALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO10CodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO15LargeCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16CustomCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI44IdentityCredentialProviderHostViewControllerC6DetentO16MediumCodingKeys33_AF42D0A734FEF250E1ADB265F96F7859LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI7DG1DataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 9CoreIDVUI7DG2DataV10CodingKeys33_54A76DD4884317037128D1CA5B4A9006LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CoreIDVShared12MetricsFlagsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13CoreIDVShared17IQTextObservationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI16ToolbarPlacementV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI17PassportSceneViewC17TransitionContextV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI17PassportSceneViewC21StampPageOverlayLayerC0I0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI19DataGroupIdentifierO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI23PassportNFCGuideContentV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI25IDVTrailingAccessoryLabelC04ViewG0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9CoreIDVUI25IDVTrailingAccessoryLabelC05ImageG0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So6CGRectV
++ _symbolic _____y_____SfG s18_DictionaryStorageC 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y_____SgACG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA13AnyShapeStyleV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA19SymbolRenderingModeV
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA4TextV4CaseO
++ _symbolic _____y_____SgG 7SwiftUI30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 13CoreIDVShared28MobileDocumentProviderOptionV
++ _symbolic _____y_____SgG 7SwiftUI7BindingV 9CoreIDVUI40MobileDocumentProviderPresentmentContextV
++ _symbolic _____y_____Sg_ACtG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO 9CoreIDVUI16IdentityProofingO15ViewStyleFormatV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA14InterfaceIdiomV
++ _symbolic _____y______Qo_ 7SwiftUI18ViewInputPredicatePAAE1nopyQrxFZQO AA8SolariumV
++ _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV
++ _symbolic _____y______Sft_G ScS12ContinuationV 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y______Sft_G ScS8IteratorV 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y______Sft__G ScS12ContinuationV11YieldResultO 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y______Sft__G ScS12ContinuationV15BufferingPolicyO 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y__________G 7SwiftUI10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y__________G 7SwiftUI12ProgressViewV AA4TextV AA05EmptyD0V
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI20PassportNFCGuideViewV AA25_AppearanceActionModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI36IdentityCredentialScanWithDeviceViewV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI39MobileDocumentProviderExtensionHostViewV AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA16_FixedSizeLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA5ImageV AA21_SymbolEffectModifierV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA7DividerV AA14_OpacityEffectV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA8MaterialV AA7CapsuleV
++ _symbolic _____y__________G 7SwiftUI5LabelV AA4TextV AA5ImageV
++ _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________GSg_AAy_____y___________y______Qo_AAyAF_____GQo_AIGSgAemEt 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA31AccessibilityAttachmentModifierV AA0L0PAAE8staticIf_4thenQrqd___qd_0_xXEtAA0L14InputPredicateRd__AaIRd_0_r0_lFQO AA7DividerV AaMPAAE1nopyQrxFZQO AA8SolariumV AA14_PaddingLayoutV
++ _symbolic _____y__________G_AAyAAyAAyAAy_____yAAy_____y_____yAAyAAy__________GAGG______y_____GQo_G_____y_____GG______Qo_AOy_____GG_____ySbGGAGG_____GSgt 7SwiftUI15ModifiedContentV AA7DividerV AA14_OpacityEffectV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA0L0V AiAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicnO0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AP AA30_EnvironmentKeyWritingModifierV AA0L11BorderShapeV AA017BorderedProminentlJ0V AA07ControlO0O AA01_xY17TransformModifierV AA010_FlexFrameT0V
++ _symbolic _____y________________y_____yAA_____G_Qo_AEQo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA4TextV AA8SolariumV AcAE10fontWeightyQrAA4FontV0M0VSgFQO AA15ModifiedContentV AA16_FlexFrameLayoutV
++ _symbolic _____y___________pG s18_DictionaryStorageC 13CoreIDVShared8DIPErrorV11PropertyKeyO s23CustomStringConvertibleP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 18CoreIDVRGBLiveness011RGBLivenessA0V s5ErrorP
++ _symbolic _____y___________yACyACy__________G_____y_____GG_____GtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingK0V AI5ScaleO AA07_OffsetJ0V
++ _symbolic _____y___________y________________y_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA4TextV AA6SpacerV AA6ButtonV AA07DefaultK5LabelV
++ _symbolic _____y___________y___________y_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceD0V AA6ButtonV AA4TextV
++ _symbolic _____y___________y___________y_____yAFyAFy__________G_____G_____y_____y_______________yAnOGGGG_____y_____AVGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA4TextV AA19_ConditionalContentV AA08ModifiedK0V AA5ImageV AA010_FixedSizeG0V AA08_PaddingG0V AA19_BackgroundModifierV AA011StrokeShapeD0V AA16RoundedRectangleV AA5ColorV AA01_tD0V AA08ProgressD0V AA05EmptyD0V
++ _symbolic _____y___________y_____yACy________________y_____GtGG______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultL5LabelV AA7DividerV
++ _symbolic _____y___________y_____yACy_____yACy________________y_____GtGG______tGG______yAPyADyACy______AHyAFGtGG_____y__________GGAPyAUy_____yAF_____GAWGAUyAqWGGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0F0V AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultL5LabelV AA7DividerV AA19_ConditionalContentV 9CoreIDVUI034IdentityCredentialContinueOnDeviceD0V AA08ModifiedQ0V AZ0tu8ScanWithxD0V AA08_PaddingG0V AA08ProgressD0V AA05EmptyD0V
++ _symbolic _____y___________y_____yADyADyADy__________y_____SgGGAFy_____GGAFy_____SgGG_____y_____GG______ADyADy__________G_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AM5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleO0V AA5ColorV AA6SpacerV AA4TextV AA010_FixedSizeG0V AA010_FlexFrameG0V
++ _symbolic _____y___________y_____yADyADy__________G_____y_____GG_____y_____GGSg_ADy_____yACyADy__________y_____GG_ADyAV_____yAIGGtGG_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA0F0V AA4TextV AA022_EnvironmentKeyWritingP0V AA0V9AlignmentO AA011_ForegroundoP0V AA010_FlexFrameG0V
++ _symbolic _____y___________y_____yADy__________y_____GG_____G______ySay_____GSS_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO AA08_PaddingG0V AA7ForEachV 9CoreIDVUI016PassportNFCGuideJ0V AV05GuideD033_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____y___________y_____yADy_____yADy_____yACyAEy_____yACy______ADyADyADy__________G_____y_____GG_____GtGAGGG_ADyADyAH_____y_____GG_____y_____GGSgtGGAKy_____SgGG_Qo_AKyAUSgGGAKy_____GG_ADyAGA12_GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA6HStackV AA012_ConditionalJ0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingT0V A_5ScaleO AA07_OffsetS0V AA016_ForegroundStyleT0V AA5ColorV AA06_TraitwT0V AA015TransitionTraitV0V AP AA0P9AlignmentO
++ _symbolic _____y___________y_____yADy_____yADy_____y_____y_____yADyADy_____y_____AHG_____y_____GGAJy_____SgGG_____yADy__________G______AT_____yAT_Qo_Qo_GG______Qo_ALG_AU_____yADyA0_AJy_____GG______Qo_ADyADyA0______y_____GG_____GQo_APG_____ySbGGSg_ADy_____yADyAEy_____yAR_AU_____yAT_Qo_ATQo_GALG_AuDy_____yADy_____yA21_______Qo_A2_G_A4_Qo_AJy_____SgGG_____yA21_______Qo_Qo_APGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0D14InputPredicateRd__AaLRd_0_AaLRd_1_r1_lFQO AmAE11buttonStyleyQrqd__AA015PrimitiveButtonR0Rd__lFQO AA0T0V AA012_ConditionalJ0V AA08ProgressD0V AA05EmptyD0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeR0V AmAEAN_AoPQrqd___qd_0_xXEqd_1_xXEtAaQRd__AaLRd_0_AaLRd_1_r1_lFQO AA4TextV AA010_FlexFrameG0V AA8SolariumV AmAE4boldyQrSbFQO AA017BorderedProminenttR0V AmAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA0T11BorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA01_xY17TransformModifierV AmAEAN_AoPQrqd___qd_0_xXEqd_1_xXEtAaQRd__AaLRd_0_AaLRd_1_r1_lFQO AmAEAN_AoPQrqd___qd_0_xXEqd_1_xXEtAaQRd__AaLRd_0_AaLRd_1_r1_lFQO AmAE10fontWeightyQrAA4FontV6WeightVSgFQO AmAEA15__A16_A17_QrA19__qd__SbtAAA20_Rd__lFQO AmAEARyQrqd__AaSRd__lFQO AA08BorderedtR0V AA5ColorV AmAEARyQrqd__AaSRd__lFQO AA010BorderlesstR0V
++ _symbolic _____y___________y_____y_____AEG______yAGyAGy_____yAGy__________y_____GG_Qo_AIy_____SgGG_____y_____GG_____ySSGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA08ProgressD0V AA05EmptyD0V AA15ModifiedContentV AA0D0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA4FontV AA016_ForegroundStyleS0V AA017HierarchicalShapeW0V AA010_AnimationS0V
++ _symbolic _____y___________y_____y__________GSg_ADy_____y___________y______Qo_ADyAI_____GQo_ALGSgAhpHtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV 9CoreIDVUI036DigitalPresentmentIdentityElementSetD0V AA31AccessibilityAttachmentModifierV AA0D0PAAE8staticIf_4thenQrqd___qd_0_xXEtAA0D14InputPredicateRd__AaQRd_0_r0_lFQO AA7DividerV AaUPAAE1nopyQrxFZQO AA8SolariumV AA08_PaddingG0V
++ _symbolic _____y___________y_____y__________G_ADyADyADyADy_____yADy_____y_____yADyADy__________GAJG______y_____GQo_G_____y_____GG______Qo_ARy_____GG_____ySbGGAJG_____GSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA7DividerV AA14_OpacityEffectV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AqAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicsT0O5BoundRtd__lFQO AA4TextV AA08_PaddingG0V s19PartialRangeThroughV AX AA30_EnvironmentKeyWritingModifierV AA0Q11BorderShapeV AA017BorderedProminentqO0V AA07ControlT0O AA32_EnvironmentKeyTransformModifierV AA010_FlexFrameG0V
++ _symbolic _____y___________y_____y___________yAFyAFy__________G_____y_____GG_____GtGAEGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA19_ConditionalContentV AA05TupleD0V AA4TextV AA08ModifiedI0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingP0V AQ5ScaleO AA07_OffsetO0V
++ _symbolic _____y___________y_____y_____yACy___________yAGyAGy__________G_____y_____GG_____GtGAFGG_AGyAGyAH_____y_____GG_____y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA0F0V AA19_ConditionalContentV AA4TextV AA08ModifiedJ0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingP0V AS5ScaleO AA07_OffsetO0V AA016_ForegroundStyleP0V AA5ColorV AA06_TraitsP0V AA010TransitionyR0V
++ _symbolic _____y___________y_____y_____yADyADyADy__________G_____G_____y_____GG_Qo______y_____SgGG______ATtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingT0V AA19SymbolRenderingModeV AA4TextV
++ _symbolic _____y___________y_____y_____yAEy__________y_____GG_____G_____GSg______yACyAEyAEy_____yAEy_____y_____yADyAEyAEy_____yA2MGAGy_____GGAGy_____SgGG_____yAEyAfKG______A______yA__Qo_Qo_GG______Qo_AUG_A0______yAEyA7_AGy_____GG______Qo_AEyAEyA7______y_____GG_____GQo_AYG_____ySbGGSg_AEy_____yAEyAQy_____yAF_A0______yA__Qo_A_Qo_GAUG_A0_AEy_____yAEy_____yA28_______Qo_A9_G_A11_Qo_AGy_____SgGG_____yA28_______Qo_Qo_AYGSgtGGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA19_ConditionalContentV AA08ModifiedJ0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA010_FlexFrameG0V AA05EmptyD0V AA0F0V AA0D0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0D14InputPredicateRd__AaZRd_0_AaZRd_1_r1_lFQO A_AAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA08ProgressD0V AA11ControlSizeO AA13AnyShapeStyleV A_AAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaZRd_0_AaZRd_1_r1_lFQO AA8SolariumV A_AAE4boldyQrSbFQO AA28BorderedProminentButtonStyleV A_AAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingG0V AA01_mn9TransformP0V A_AAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaZRd_0_AaZRd_1_r1_lFQO A_AAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaZRd_0_AaZRd_1_r1_lFQO A_AAE10fontWeightyQrAA4FontV6WeightVSgFQO A_AAEA19__A20_A21_QrA23__qd__SbtAAA24_Rd__lFQO A_AAEA4_yQrqd__AAA5_Rd__lFQO AA19BorderedButtonStyleV AA5ColorV A_AAEA4_yQrqd__AAA5_Rd__lFQO AA21BorderlessButtonStyleV
++ _symbolic _____y__________yAB_____y_____AEGGG 7SwiftUI19_ConditionalContentV AA5ImageV AA08ModifiedD0V AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y__________ySay_____GSS_____G_____G 7SwiftUI7SectionV 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV AA7ForEachV 0D9IDVShared014MobileDocumentH6OptionV AD0fghiJ10PickerCellV AA05EmptyJ0V
++ _symbolic _____y__________y_____ADGG 7SwiftUI15ModifiedContentV AA5ImageV AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 9CoreIDVUI16IdentityProofingO14BottomTrayView33_EC13F04AB5230E794280A221D3FD26B6LLV AA21_TraitWritingModifierV AA014LayoutPriorityT3KeyV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y__________y_____y__________ySay_____GSS_____G_____GADyA2K_____y_____y_____AKG_____GGGG 7SwiftUI4ListV s5NeverO AA19_ConditionalContentV AA7SectionV 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV AA7ForEachV 0H9IDVShared014MobileDocumentL6OptionV AJ0jklmN10PickerCellV AA05EmptyN0V AA08ModifiedF0V AA08ProgressN0V AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y__________y_____y_____y_____yADy_____y_____yADyADy__________y_____GG_____G______ySay_____GSS_____GtGGALGALGG______AW_____yADyAW_____y_____GG_Qo_Qo_______y______yyt_____y_____y_____ADyA6______yA2ZGGGGGQo_Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AA06ScrollF0V AA08ModifiedJ0V AA6VStackV AA05TupleF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0U9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideJ0V A5_05GuideF033_A51AF77A90403018988BE891C0093A93LLV AA8SolariumV AgAE0G10Background_3forQrAA10VisibilityO_AA0I9PlacementVdtFQO AA016_BackgroundStyleY0V AA5ColorV AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQO AA0I4ItemV AA6ButtonV AA012_ConditionalJ0V AA5ImageV AA25_ForegroundStyleModifier2V
++ _symbolic _____y__________y_____y_____y_____y______Qo____________y_____yAD______Qo__Qo______yAD______y______y_____yAJy__________G_____GGQo_Qo_Qo_______y_AIy_____y_____GGQo_Qo__AeJy_____y_____y_____yAY______Qo__Qo_______yAJyAJyAJyAJy_____yAJyATy_____yAJyAJyAK_____GA1_G______y_____GQo_G_____y_____GG______Qo_A9_y_____GG_____ySbGGA1_GANGSg_Qo_Qo______GAJyAJy_____yAY______Qo______yAJy_____y_____yAJy__________G_A23_tGG_____yAJyAJyAZ_____y_____GGA34_GGGGGA26_GQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AgAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAEAH_AiJQrqd___qd_0_xXEqd_1_xXEtAaKRd__AaFRd_0_AaFRd_1_r1_lFQO AgAE29navigationBarTitleDisplayModeyQrAA0cR4ItemV0stU0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionF6PickerV AA8SolariumV AgAE0M4RoleyQrAA0O4RoleVFQO AgAE0qV7AdaptoryQrqd__AA012UINavigationV7AdaptorRd__lFQO AT09ProminentcS7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AgAEAlMQrqd__yXE_tAaNRd__lFQO AA0oP7BuilderV10buildBlockyQrxAaNRzlFZQO AA0oV5GroupV AA08ModifiedP0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A6_A7_yQrxAaNRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AgAE08safeAreaR04edge9alignment7spacingAMQrAA12VerticalEdgeO_AA19HorizontalAlignmentV0W8Graphics7CGFloatVSgqd__yXEtAaFRd__lFQO AgAE06scrollP10BackgroundyQrAA10VisibilityOFQO AgAE19containerBackground_3forQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQO AA5ColorV AgAE18scrollPocketTag_v15styleQrAA0R16MagicPocketStyleV_tFQO AgAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AgAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A52_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA23_SafeAreaIgnoringLayoutV AgAE22onScrollGeometryChangeA38_2of6actionQrqd__m_qd__AA14ScrollGeometryVcyqd___qd__tctSQRd__lFQO A32_ AA06_InsetF8ModifierV AA6VStackV AA05TupleF0V AA7DividerV AA14_OpacityEffectV AA19_BackgroundModifierV AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y__________y_____y_____y_____y_____yADy_____y_____y___________y_____GtGGACy__________GGADyACy_____yAI_____GANGACyAgNGGGANG_Qo__Qo_______y______yytAHy_____GGQo_Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE29navigationBarTitleDisplayModeyQrAA0cL4ItemV0mnO0OFQO AgAE0kM0yQrAA4TextVFQO AA08ModifiedJ0V AA012_ConditionalJ0V AA6VStackV AA05TupleF0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceF0V AA6ButtonV AR A_0xy14ScanWithDeviceF0V AA14_PaddingLayoutV AA08ProgressF0V AA05EmptyF0V AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQO AA0iP0V AA18DefaultButtonLabelV
++ _symbolic _____y__________y_____y_____y_____y_____y__________G______y______y_____y_____GGQo_Qo__Qo__Qo__SSQo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AgAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AgAE0g3BarH11DisplayModeyQrAA0cO4ItemV0hpQ0OFQO AgAE0I07contentQrqd__yXE_tAA0M7ContentRd__lFQO AA08ModifiedT0V 9CoreIDVUI035MobileDocumentProviderExtensionHostF0V AA30_SafeAreaRegionsIgnoringLayoutV AA0mT7BuilderV10buildBlockyQrxAaVRzlFZQO AA0mR5GroupV AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y__________y_____y_____y_____y_____y_____y_____y__________G_SSQo______y_____AKGGG_Qo__Qo_______y______y_____y_____GGQo_Qo_G 7SwiftUI15NavigationStackV AA0C4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AgAE0G10Background_3forQrAA10VisibilityO_AA0I9PlacementVdtFQO AgAE29navigationBarTitleDisplayModeyQrAA0cP4ItemV0qrS0OFQO AA5GroupV AA012_ConditionalJ0V AgAE0oQ0yQrqd__SyRd__lFQO AA08ModifiedJ0V 9CoreIDVUI035MobileDocumentProviderExtensionHostF0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressF0V AA05EmptyF0V AA0iJ7BuilderV10buildBlockyQrxAaJRzlFZQO AA0itU0V AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y______pG 13CoreIDVShared21SendableXPCConnectionC AA42MobileDocumentProviderViewServiceInterfaceP
++ _symbolic _____y______pG 13CoreIDVShared32MobileDocumentProviderConnectionC AA08IdentitydE20ExtensionUIInterfaceP
++ _symbolic _____y______pG 7SwiftUI11EnvironmentV 9CoreIDVUI16IdentityProofingO10ViewConfigP
++ _symbolic _____y______p_G 7SwiftUI11EnvironmentV7ContentO 9CoreIDVUI16IdentityProofingO10ViewConfigP
++ _symbolic _____y______yABy__________G_____yAByAByABy_____y_____yAByABy_____yABy_____y__________G_____y_____SgGG_Qo_ADG_____GG______AByAU_____y__________GGA_Qo______G_____ySdGGASGGGAByAByABy_____y_____y_____y_____A12_G_AByAByABy_____yAByAiLy_____GG_Qo_AOG_____y_____GGA3_ySSGGtGG_____GASGASGSgG 9CoreIDVUI16IdentityProofingO8BaseViewV 7SwiftUI15ModifiedContentV AA017PassportAnimationF0V AF12_FrameLayoutV AF16_OverlayModifierV AF0F0PAFE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAF0F14InputPredicateRd__AfORd_0_AfORd_1_r1_lFQO AF6ButtonV ApFE10fontWeightyQrAF4FontV0Y0VSgFQO AF5LabelV AF4TextV AF5ImageV AF022_EnvironmentKeyWritingP0V AY AF08_PaddingN0V AF8SolariumV AF026_InsettableBackgroundShapeP0V AF8MaterialV AF7CapsuleV AF14_OpacityEffectV AF01_lP0V AF6VStackV AF05TupleF0V AF08ProgressF0V AF05EmptyF0V ApFE15monospacedDigitQryFQO AF13TextAlignmentO AF016_ForegroundStyleP0V AF22HierarchicalShapeStyleV AF05_FlexmN0V
++ _symbolic _____y______y______yyt_____y_____y__________GGGQo_SgQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AcDyQrxAaERzlFZQO AA0C4ItemV AA6ButtonV AA012_ConditionalD0V AA5ImageV AA4TextV
++ _symbolic _____y______y_____yABy__________G_____GGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C9ItemGroupV AA08ModifiedD0V AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameN0V
++ _symbolic _____y______y_____y_____GGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C9ItemGroupV AA6ButtonV AA07DefaultJ5LabelV
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y______yyt_____y_____GGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA07DefaultI5LabelV
++ _symbolic _____y______yyt_____y_____y__________GGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA012_ConditionalD0V AA5ImageV AA4TextV
++ _symbolic _____y______yyt_____y_____y__________GGGQo_Sg 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA012_ConditionalD0V AA5ImageV AA4TextV
++ _symbolic _____y______yyt_____y_____y__________yAD_____y_____AGGGGGGQo_ 7SwiftUI21ToolbarContentBuilderV10buildBlockyQrxAA0cD0RzlFZQO AA0C4ItemV AA6ButtonV AA012_ConditionalD0V AA5ImageV AA08ModifiedD0V AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y_____yAAyAAyAAyAAy_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GGA47_GA15_GA15_G_Qo______y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA6VStackV AA05TupleE0V AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA16_FlexFrameLayoutV AA05EmptyE0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA08ProgressE0V AA11ControlSizeO AA13AnyShapeStyleV AeAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaDRd_0_AaDRd_1_r1_lFQO AA8SolariumV AeAE4boldyQrSbFQO AA28BorderedProminentButtonStyleV AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingT0V AA01_mn9TransformP0V AeAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaDRd_0_AaDRd_1_r1_lFQO AeAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaDRd_0_AaDRd_1_r1_lFQO AeAEAFyQrAKFQO AeAEA19__A20_A21_QrA23__qd__SbtAAA24_Rd__lFQO AeAEA4_yQrqd__AAA5_Rd__lFQO AA19BorderedButtonStyleV AA5ColorV AeAEA4_yQrqd__AAA5_Rd__lFQO AA21BorderlessButtonStyleV AA010_AnimationP0V 9CoreIDVUI16IdentityProofingO11ButtonStateO AA06_TraitoP0V AA015TransitionTraitN0V
++ _symbolic _____y_____yAAyAAyAAy__________G_____G_____y_____GG_Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingP0V AA19SymbolRenderingModeV
++ _symbolic _____y_____yAAyAAyAAy__________G_____G_____y_____GG_Qo______y_____SgGG______AQt 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingP0V AA19SymbolRenderingModeV AA4TextV
++ _symbolic _____y_____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG_____ySbGGADG_____GSg_Qo_ 7SwiftUI4ViewPAAE18scrollPocketTag_v15styleQrAA08BarMagicE5StyleV_tFQO AA15ModifiedContentV AcAE06buttonK0yQrqd__AA015PrimitiveButtonK0Rd__lFQO AA0P0V AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicrS0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AP AA30_EnvironmentKeyWritingModifierV AA0P11BorderShapeV AA017BorderedProminentpK0V AA07ControlS0O AA32_EnvironmentKeyTransformModifierV AA010_FlexFrameX0V
++ _symbolic _____y_____yAAyAAyAAy_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GGA47_GA15_GA15_G_AzAy_____yA51__Qo______y_____GGQo_ 7SwiftUI4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA012_ConditionalJ0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0N9AlignmentO AA16_FlexFrameLayoutV AA05EmptyC0V AcAEAD_AE4elseQrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressC0V AA11ControlSizeO AA08AnyShapeZ0V AcAEAD_AeYQrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQO AA8SolariumV AcAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AcAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingV0V AA01_op9TransformR0V AcAEAD_AeYQrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQO AcAEAD_AeYQrqd___qd_0_xXEqd_1_xXEtAaFRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AcAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AcAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AcAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V AA010_AnimationR0V 9CoreIDVUI16IdentityProofingO11ButtonStateO AcAEA31_yQrA36_FQO AA06_TraitqR0V AA015TransitionTraitP0V
++ _symbolic _____y_____yAAyAAy__________G_____G_____y_____GG_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo______G_____GG_____y__________GG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE10fontWeightyQrAA4FontV0H0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ AA12_FrameLayoutV AA08_PaddingR0V AA026_InsettableBackgroundShapeP0V AA8MaterialV AA7CapsuleV
++ _symbolic _____y_____yAAyAAy_____y_AAyAAy__________G_____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo_ADG_____GG______AAyAU_____y__________GGA_Qo______G_____ySdGGASGGGAAyAAyAAy_____y_____y_____y_____A12_G_AAyAAyAAy_____yAAyAiLy_____GG_Qo_AOG_____y_____GGA3_ySSGGtGG_____GASGASGSgGA3_y_____GG_____GA36_G_AAy_____A36_GQo_ 7SwiftUI4ViewPAAE5sheet11isPresented9onDismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQO AA15ModifiedContentV 9CoreIDVUI16IdentityProofingO04BaseC0V AN017PassportAnimationC0V AA12_FrameLayoutV AA16_OverlayModifierV AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA6ButtonV AcAE10fontWeightyQrAA4FontV6WeightVSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingW0V A5_ AA08_PaddingU0V AA8SolariumV AA026_InsettableBackgroundShapeW0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA01_sW0V AA6VStackV AA05TupleC0V AA08ProgressC0V AA05EmptyC0V AcAE15monospacedDigitQryFQO AA13TextAlignmentO AA016_ForegroundStyleW0V AA22HierarchicalShapeStyleV AA05_FlextU0V AN0R9ReadStateO AA017_AppearanceActionW0V AN0r8NFCGuideC0V
++ _symbolic _____y_____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G______ySay_____GSS_____GtGGAJGAJGG_____y_____GG 7SwiftUI15ModifiedContentV AA10ScrollViewV AA6VStackV AA05TupleF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideD0V AT05GuideF033_A51AF77A90403018988BE891C0093A93LLV AA016_BackgroundStyleM0V AA5ColorV
++ _symbolic _____y_____yAAyABy_____yABy________________y_____GtGG______tGG______yANyAAyABy______AFyADGtGG_____y__________GGANyASy_____yAD_____GAUGASyAoUGGGtGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultI5LabelV AA7DividerV AA19_ConditionalContentV 9CoreIDVUI034IdentityCredentialContinueOnDeviceE0V AA08ModifiedN0V AT0qr8ScanWithuE0V AA14_PaddingLayoutV AA08ProgressE0V AA05EmptyE0V
++ _symbolic _____y_____yAAy__________GACG______y_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AF
++ _symbolic _____y_____yAAy__________y_____GG_Qo_ACy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA4FontV
++ _symbolic _____y_____yAAy_____yAAy_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG______Qo_AJy_____GG______Qo_AJy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA8SolariumV AeAE10fontWeightyQrAA4FontV0Z0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08BorderedpN0V AA0p6BorderL0V AA7CapsuleV AA5ColorV
++ _symbolic _____y_____yAAy_____yABy___________yAEyAEy__________G_____y_____GG_____GtGADGG_AEyAEyAF_____y_____GG_____y_____GGSgtGG 7SwiftUI6HStackV AA9TupleViewV AA19_ConditionalContentV AA4TextV AA08ModifiedG0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingM0V AM5ScaleO AA07_OffsetL0V AA016_ForegroundStyleM0V AA5ColorV AA06_TraitpM0V AA010TransitionvO0V
++ _symbolic _____y_____yAAy_____y__________G_____y_____SgGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AH AA12_FrameLayoutV
++ _symbolic _____y_____yAAy_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG______Qo_ALy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AL AA30_EnvironmentKeyWritingModifierV AA0I11BorderShapeV AA017BorderedProminentiG0V AA07ControlL0O
++ _symbolic _____y_____yAAy_____y_____yABy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAEGG_AAyAAyAF_____y_____GG_____y_____GGSgtGGAIy_____SgGG_Qo_AIyASSgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0G0VSgFQO AA6HStackV AA05TupleE0V AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingP0V AU5ScaleO AA07_OffsetO0V AA016_ForegroundStyleP0V AA5ColorV AA06_TraitsP0V AA010TransitionyR0V AH
++ _symbolic _____y_____yAAy_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG_AdAy_____yAAy_____yAM______Qo_AJy_____GG______Qo_AJy_____SgGG_____yAM______Qo_Qo_AJy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA6ButtonV AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA8SolariumV AeAE10fontWeightyQrAA4FontV0P0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE11buttonStyleyQrqd__AA09PrimitiveL5StyleRd__lFQO AA08BorderedL5StyleV AA0L11BorderShapeV AA7CapsuleV AA5ColorV AeAEA6_yQrqd__AAA7_Rd__lFQO AA010BorderlessL5StyleV AA13AnyShapeStyleV
++ _symbolic _____y_____yAAy_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG_AdAy_____yAAy_____yAM______Qo_AJy_____GG______Qo_AJy_____SgGG_____yAM______Qo_Qo_AJy_____SgGGSg 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA6ButtonV AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA8SolariumV AeAE10fontWeightyQrAA4FontV0P0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AeAE11buttonStyleyQrqd__AA09PrimitiveL5StyleRd__lFQO AA08BorderedL5StyleV AA0L11BorderShapeV AA7CapsuleV AA5ColorV AeAEA6_yQrqd__AAA7_Rd__lFQO AA010BorderlessL5StyleV AA13AnyShapeStyleV
++ _symbolic _____y_____yAAy_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG______Qo_AJy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA8SolariumV AeAE10fontWeightyQrAA4FontV0S0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08BorderediG0V AA0I11BorderShapeV
++ _symbolic _____y_____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIGAGy_____GG______Qo_ 7SwiftUI4ViewPAAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AA012_ConditionalL0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA03AnyjN0V AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AcAE4boldyQrSbFQO AA017BorderedProminentpN0V AA0p6BorderJ0V AA7CapsuleV
++ _symbolic _____y_____yAAy_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_AR_____yAAyAyGy_____GG______Qo_AAyAAyAY_____y_____GG_____GQo_AMG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeM0V AeAEAF_AgHQrqd___qd_0_xXEqd_1_xXEtAaIRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentoM0V AeAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA0Z0Rd__lFQO AA0o6BorderZ0V AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV
++ _symbolic _____y_____yAByABy__________G_____G_____y_____y_______________yAjKGGGG_____y_____ARGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingI0V AA19_BackgroundModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA01_nO0V AA08ProgressO0V AA05EmptyO0V
++ _symbolic _____y_____yAByABy__________G_____G_____y_____y_______________yAjKGGGG_____y_____ARG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingJ0V AA19_BackgroundModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA01_oP0V AA08ProgressP0V AA05EmptyP0V
++ _symbolic _____y_____yAByABy__________G_____y_____GG_____y_____GG_AByAeLGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeL0V AA022_EnvironmentKeyWritingM0V AA0G9AlignmentO
++ _symbolic _____y_____yAByABy_____y_____yAByABy_____yABy_____y__________G_____y_____SgGG_Qo______G_____GG______AByAR_____y__________GGAXQo______G_____ySdGGAPGG 7SwiftUI16_OverlayModifierV AA15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AA6ButtonV AgAE10fontWeightyQrAA4FontV0P0VSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingD0V AP AA12_FrameLayoutV AA08_PaddingY0V AA8SolariumV AA026_InsettableBackgroundShapeD0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA010_AnimationD0V
++ _symbolic _____y_____yAByABy_____y_____yACyADy_____yADy________________y_____GtGG______tGG_AAyAAyACyADy______AHyAFGtGGABy__________GGAAyABy_____yAF_____GAUGAByApUGGGtGGAUGAUG_____G_____y__________y_____y_____yAByA2_AUG_Qo__Qo_______y______yytAJGQo_Qo_GG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultL5LabelV AA7DividerV 9CoreIDVUI034IdentityCredentialContinueOnDeviceH0V AV0rs8ScanWithvH0V AA14_PaddingLayoutV AA08ProgressH0V AA05EmptyH0V AA010_FlexFrameZ0V AA15NavigationStackV AA14NavigationPathV AA0H0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO A12_AAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQO A12_AAE15navigationTitleyQrAMFQO AA07ToolbarD7BuilderV10buildBlockyQrxAAA15_RzlFZQO AA11ToolbarItemV
++ _symbolic _____y_____yAByABy_____y_____yACyADy_____yADy________________y_____GtGG______tGG______yAPyACyADy______AHyAFGtGGABy__________GGAPyABy_____yAF_____GAVGAByAqVGGGtGGAVGAVG_____G_____y__________y_____y_____yAByA3_AVG_Qo__Qo_______y______yytAJGQo_Qo_G_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultM5LabelV AA7DividerV AC 9CoreIDVUI034IdentityCredentialContinueOnDeviceI0V AX0st8ScanWithwI0V AA14_PaddingLayoutV AA08ProgressI0V AA05EmptyI0V AA16_FlexFrameLayoutV AA15NavigationStackV AA14NavigationPathV AA0I0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO A14_AAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQO A14_AAE15navigationTitleyQrAOFQO AA07ToolbarD7BuilderV10buildBlockyQrxAAA17_RzlFZQO AA11ToolbarItemV
++ _symbolic _____y_____yABy__________G_____GG 7SwiftUI16ToolbarItemGroupV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameK0V
++ _symbolic _____y_____yABy__________G_____GSg_ABy_____yAAyAByAByABy__________G_____y_____GG_____y_____GG_AByAlSGtGGAQy_____SgGG_____yAByAByAcQy_____SgGGAMyAXGGAByA4_AMy_____GGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA6VStackV AA4TextV AA05_FlexkJ0V AA24_ForegroundStyleModifierV AA017HierarchicalShapeP0V AA022_EnvironmentKeyWritingQ0V AA0M9AlignmentO AA5ColorV AA012_ConditionalF0V AA4FontV AA04FillsP0V
++ _symbolic _____y_____yABy__________y_____GG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA5ColorV AA01_c5StyleD0V AA8MaterialV AA14_OpacityEffectV
++ _symbolic _____y_____yABy__________y_____GG_____G_____GSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA16_FlexFrameLayoutV AA9EmptyViewV
++ _symbolic _____y_____yABy__________y_____GG_____G_____GSg______y_____yAByABy_____yABy_____y_____yAAyAByABy_____yA2JGADy_____GGADy_____SgGG_____yAByAcHG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAByA5_ADy_____GG______Qo_AByAByA5______y_____GG_____GQo_AWG_____ySbGGSg_ABy_____yAByAOy_____yAC_AZ_____yAY_Qo_AYQo_GASG_AzBy_____yABy_____yA26_______Qo_A7_G_A9_Qo_ADy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgt 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA16_FlexFrameLayoutV AA9EmptyViewV AA6VStackV AA05TupleP0V AA0P0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0P14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressP0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingN0V AA01_gh9TransformJ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V
++ _symbolic _____y_____yABy_____yABy_____y__________G_____y_____SgGG_Qo______G_____GG 7SwiftUI6ButtonV AA15ModifiedContentV AA4ViewPAAE10fontWeightyQrAA4FontV0H0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ AA12_FrameLayoutV AA08_PaddingR0V
++ _symbolic _____y_____yABy_____y_____ADG_____y_____GGAFy_____SgGG_____yABy__________G______AP_____yAP_Qo_Qo_G 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA12ProgressViewV AA05EmptyG0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA13AnyShapeStyleV AA0G0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaPRd_0_AaPRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AqAE4boldyQrSbFQO
++ _symbolic _____y_____yABy_____y_____ADG_____y_____GGAFy_____SgGG_____yABy__________G______AP_____yAP_Qo_Qo__G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA12ProgressViewV AA05EmptyH0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA13AnyShapeStyleV AA0H0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0H14InputPredicateRd__AaRRd_0_AaRRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AsAE4boldyQrSbFQO
++ _symbolic _____y_____yABy_____y___________Qo______y______pGGAFy_____GGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9CoreIDVUI16IdentityProofingO07NFCScanG0V AN0oG6ConfigC AA30_EnvironmentKeyWritingModifierV AN0gP0P AN0N7ContextO
++ _symbolic _____y_____yABy_____y___________Qo______y______pGGAFy_____GGGSgXw 7SwiftUI19UIHostingControllerC AA15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9CoreIDVUI16IdentityProofingO07NFCScanG0V AN0oG6ConfigC AA30_EnvironmentKeyWritingModifierV AN0gP0P AN0N7ContextO
++ _symbolic _____y_____yABy_____y_____yAByABy__________y_____GG_____G______ySay_____GSS_____GtGGAJGAJGG 7SwiftUI10ScrollViewV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideF0V AT05GuideD033_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____y_____yABy_____y_____y___________y_____GtGGAAy__________GGAByAAy_____yAG_____GALGAAyAeLGGGALG 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceH0V AA6ButtonV AA4TextV AJ0kl8ScanWithoH0V AA14_PaddingLayoutV AA08ProgressH0V AA05EmptyH0V
++ _symbolic _____y_____y_AAyAAy__________G_____yAAyAAyAAy_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo_ADG_____GG______AAyAU_____y__________GGA_Qo______G_____ySdGGASGGGAAyAAyAAy_____y_____y_____y_____A12_G_AAyAAyAAy_____yAAyAiLy_____GG_Qo_AOG_____y_____GGA3_ySSGGtGG_____GASGASGSgGA3_y_____GG 7SwiftUI15ModifiedContentV 9CoreIDVUI16IdentityProofingO8BaseViewV AD017PassportAnimationJ0V AA12_FrameLayoutV AA16_OverlayModifierV AA0J0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0J14InputPredicateRd__AaORd_0_AaORd_1_r1_lFQO AA6ButtonV ApAE10fontWeightyQrAA4FontV0Y0VSgFQO AA5LabelV AA4TextV AA5ImageV AA022_EnvironmentKeyWritingP0V AY AA08_PaddingN0V AA8SolariumV AA026_InsettableBackgroundShapeP0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV AA01_lP0V AA6VStackV AA05TupleJ0V AA08ProgressJ0V AA05EmptyJ0V ApAE15monospacedDigitQryFQO AA13TextAlignmentO AA016_ForegroundStyleP0V AA22HierarchicalShapeStyleV AA05_FlexmN0V AD0K9ReadStateO
++ _symbolic _____y_____y_____ACG_____y_____GG 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____GG 7SwiftUI16ToolbarItemGroupV AA6ButtonV AA07DefaultF5LabelV
++ _symbolic _____y_____y_____G_Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AA0hC0V 9CoreIDVUI16IdentityProofingO09TitleTextC033_EC13F04AB5230E794280A221D3FD26B6LLV
++ _symbolic _____y_____y______Qo_______Qo_ 7SwiftUI4ViewPAAE21navigationItemAdaptoryQrqd__AA012UINavigationeF0Rd__lFQO AcAE0D19BarTitleDisplayModeyQrAA010NavigationhE0V0ijK0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AK09ProminentliF033_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV
++ _symbolic _____y_____y______Qo____________y_____yAB______Qo__Qo______yAB______y______y_____yAHy__________G_____GGQo_Qo_Qo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE11toolbarRoleyQrAA07ToolbarZ0VFQO AcAE0jP7AdaptoryQrqd__AA012UINavigationP7AdaptorRd__lFQO AM09ProminentoL7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAE0Y07contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA21ToolbarContentBuilderV10buildBlockyQrxAAA0_RzlFZQO AA07ToolbarP5GroupV AA15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y______Qo_______y______y_____yADy__________G_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0fN5GroupV AA08ModifiedG0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y______Sft_GG s23_ContiguousArrayStorageC ScS12ContinuationV 9CoreIDVUI17PassportReadStateO
++ _symbolic _____y_____y__________GG 7SwiftUI19_BackgroundModifierV AA10_ShapeViewV AA16RoundedRectangleV AA5ColorV
++ _symbolic _____y_____y__________GG 7SwiftUI6ButtonV AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________G_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________G_SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA15ModifiedContentV 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA4TextV AA05EmptyF0V AA14_PaddingLayoutV
++ _symbolic _____y_____y__________G_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA4TextV AA05EmptyF0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________G______AD_____yAD_Qo_Qo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AcAE4boldyQrSbFQO
++ _symbolic _____y_____y__________G______y______y_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedG0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F9ItemGroupV AA6ButtonV AA07DefaultZ5LabelV
++ _symbolic _____y_____y__________G_____y_____SgGG 7SwiftUI15ModifiedContentV AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
++ _symbolic _____y_____y___________Qo______y______pGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO 9CoreIDVUI16IdentityProofingO07NFCScanE0V AL0mE6ConfigC AA30_EnvironmentKeyWritingModifierV AL0eN0P
++ _symbolic _____y_____y________________y_____GtGG 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultH5LabelV
++ _symbolic _____y_____y________________y_____GtGG______t 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultH5LabelV AA7DividerV
++ _symbolic _____y_____y________________y_____yAB_____G_Qo_AFQo_G 7SwiftUI6ButtonV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0D14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA8SolariumV AeAE10fontWeightyQrAA4FontV0N0VSgFQO AA15ModifiedContentV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_______________yAcDGGG 7SwiftUI19_BackgroundModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA01_fG0V
++ _symbolic _____y_____y___________yADyADy__________G_____y_____GG_____GtGAC_G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AA4TextV AA08ModifiedD0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingM0V AM5ScaleO AA07_OffsetL0V
++ _symbolic _____y_____y___________y_____GtGG 7SwiftUI6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceE0V AA6ButtonV AA4TextV
++ _symbolic _____y_____y___________y______Qo_AAyAB_____GQo_AEG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0E14InputPredicateRd__AaDRd_0_r0_lFQO AA7DividerV AaHPAAE1nopyQrxFZQO AA8SolariumV AA14_PaddingLayoutV
++ _symbolic _____y_____y___________y______Qo_AAyAB_____GQo_AEGSg 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0E14InputPredicateRd__AaDRd_0_r0_lFQO AA7DividerV AaHPAAE1nopyQrxFZQO AA8SolariumV AA14_PaddingLayoutV
++ _symbolic _____y_____y___________y_____yAEyAEy__________G_____G_____y_____y_______________yAmNGGGG_____y_____AUGGtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA19_ConditionalContentV AA08ModifiedH0V AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingM0V AA19_BackgroundModifierV AA011StrokeShapeE0V AA16RoundedRectangleV AA5ColorV AA01_rE0V AA08ProgressE0V AA05EmptyE0V
++ _symbolic _____y_____y__________yAC_____y_____AFGGGG 7SwiftUI6ButtonV AA19_ConditionalContentV AA5ImageV AA08ModifiedE0V AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic _____y_____y__________ySay_____GSS_____G_____GAByA2I_____y_____y_____AIG_____GGG 7SwiftUI19_ConditionalContentV AA7SectionV 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV AA7ForEachV 0F9IDVShared014MobileDocumentJ6OptionV AF0hijkL10PickerCellV AA05EmptyL0V AA08ModifiedD0V AA08ProgressL0V AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________ySay_____GSS_____G_____GAByA2I_____y_____y_____AIG_____GG_G 7SwiftUI19_ConditionalContentV7StorageO AA7SectionV 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV AA7ForEachV 0G9IDVShared014MobileDocumentK6OptionV AH0ijklM10PickerCellV AA05EmptyM0V AA08ModifiedD0V AA08ProgressM0V AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________y_____GG_AByAG_____y_____GGtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO AA016_ForegroundStyleK0V AA5ColorV
++ _symbolic _____y_____y__________y_____y__________ySay_____GSS_____G_____GADyA2K_____y_____y_____AKG_____GGGG_Qo_ 7SwiftUI4ViewPAAE14contentMargins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtFQO AA4ListV s5NeverO AA012_ConditionalL0V AA7SectionV 0I5IDVUI035IdentityCredentialProviderSelectionC6HeaderV AA7ForEachV 0I9IDVShared014MobileDocumentV6OptionV AX0tuvwC10PickerCellV AA05EmptyC0V AA08ModifiedL0V AA08ProgressC0V AA4TextV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y__________y_____y_____y_____y______Qo____________y_____yAD______Qo__Qo______yAD______y______y_____yAJy__________G_____GGQo_Qo_Qo_______y_AIy_____y_____GGQo_Qo__AeJy_____y_____y_____yAY______Qo__Qo_______yAJyAJyAJyAJy_____yAJyATy_____yAJyAJyAK_____GA1_G______y_____GQo_G_____y_____GG______Qo_A9_y_____GG_____ySbGGA1_GANGSg_Qo_Qo______GAJyAJy_____yAY______Qo______yAJy_____y_____yAJy__________G_A23_tGG_____yAJyAJyAZ_____y_____GGA34_GGGGGA26_GQo_G_SdQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15NavigationStackV AA0H4PathV AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAEAK_AlMQrqd___qd_0_xXEqd_1_xXEtAaNRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA0hV4ItemV0wxY0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE0Q4RoleyQrAA0S4RoleVFQO AcAE0uZ7AdaptoryQrqd__AA012UINavigationZ7AdaptorRd__lFQO AW09ProminenthW7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEAoPQrqd__yXE_tAaQRd__lFQO AA0sT7BuilderV10buildBlockyQrxAaQRzlFZQO AA0sZ5GroupV AA08ModifiedT0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A9_A10_yQrxAaQRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AcAE08safeAreaV04edge9alignment7spacingAPQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE06scrollT10BackgroundyQrAA10VisibilityOFQO AcAE19containerBackground_3forQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQO AA5ColorV AcAE18scrollPocketTag_v15styleQrAA0V16MagicPocketStyleV_tFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A55_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA23_SafeAreaIgnoringLayoutV AcAE0d14ScrollGeometryE0A41_AE6actionQrqd__m_qd__AA14ScrollGeometryVcyqd___qd__tctSQRd__lFQO A35_ AA06_InsetC8ModifierV AA6VStackV AA05TupleC0V AA7DividerV AA14_OpacityEffectV AA19_BackgroundModifierV AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y__________y_____y_____y_____y_____y_____yAAy__________G_SSQo______y_____AKGGG_Qo__Qo_______y______y_____y_____GGQo_Qo_G_____G 7SwiftUI15ModifiedContentV AA15NavigationStackV AA0E4PathV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AiAE0I10Background_3forQrAA10VisibilityO_AA0K9PlacementVdtFQO AiAE29navigationBarTitleDisplayModeyQrAA0eQ4ItemV0rsT0OFQO AA5GroupV AA012_ConditionalD0V AiAE0pR0yQrqd__SyRd__lFQO 9CoreIDVUI035MobileDocumentProviderExtensionHostH0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressH0V AA05EmptyH0V AA0kD7BuilderV10buildBlockyQrxAaLRzlFZQO AA0kuV0V AA6ButtonV AA18DefaultButtonLabelV AA13_TaskModifierV
++ _symbolic _____y_____y_____yAAyAAyAAyAAy__________y_____SgGGAEy_____GGAEy_____SgGG_____y_____GG______AAyAAy__________G_____GtGGAQy_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameY0V AA017HierarchicalShapeS0V
++ _symbolic _____y_____y_____yAAyAAyAAy__________G_____y_____GG_____y_____GGSg_AAyAByACyAAy__________y_____GG_AAyAT_____yAHGGtGG_____GtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA4TextV AA022_EnvironmentKeyWritingN0V AA0T9AlignmentO AA011_ForegroundmN0V AA010_FlexFrameK0V AA08_PaddingK0V
++ _symbolic _____y_____y_____yAAyAAyAAy__________G_____y_____GG_____y_____GG_AAyAfMGtGGAKy_____SgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA16_FlexFrameLayoutV AA24_ForegroundStyleModifierV AA017HierarchicalShapeM0V AA022_EnvironmentKeyWritingN0V AA0H9AlignmentO AA5ColorV
++ _symbolic _____y_____y_____yAAyAAyAAy_____y_____yADyAEy_____yAEy________________y_____GtGG______tGG_ACyACyADyAEy______AIyAGGtGGAAy__________GGACyAAy_____yAG_____GAVGAAyAqVGGGtGGAVGAVG_____G_____y__________y_____y_____yAAyA3_AVG_Qo__Qo_______y______yytAKGQo_Qo_GGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultM5LabelV AA7DividerV 9CoreIDVUI034IdentityCredentialContinueOnDeviceI0V AX0st8ScanWithwI0V AA14_PaddingLayoutV AA08ProgressI0V AA05EmptyI0V AA16_FlexFrameLayoutV AA15NavigationStackV AA14NavigationPathV AA0I0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO A14_AAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQO A14_AAE15navigationTitleyQrAOFQO AA07ToolbarD7BuilderV10buildBlockyQrxAAA17_RzlFZQO AA11ToolbarItemV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yAAyAAy__________GADG______y_____GQo_G_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamichI0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AJ AA30_EnvironmentKeyWritingModifierV AA0E11BorderShapeV
++ _symbolic _____y_____y_____yAAyAAy__________y_____GG_____G______ySay_____GSS_____GtGGAIG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideD0V AR05GuideG033_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____y_____y_____yAAyAAy_____yAAy_____yACyADy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAFGG_AAyAAyAG_____y_____GG_____y_____GGSgtGGAJy_____SgGG_Qo_AJyATSgGGAJy_____GG_AAyAFA11_GtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA6HStackV AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingQ0V AW5ScaleO AA07_OffsetP0V AA016_ForegroundStyleQ0V AA5ColorV AA06_TraittQ0V AA010TransitionzS0V AL AA0M9AlignmentO AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yAAyAAy_____yAAy_____y__________G_____y_____SgGG_Qo______G_____GG______AAyAQ_____y__________GGAWQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA6ButtonV AeAE10fontWeightyQrAA4FontV0N0VSgFQO AA5LabelV AA4TextV AA5ImageV AA30_EnvironmentKeyWritingModifierV AN AA12_FrameLayoutV AA08_PaddingX0V AA8SolariumV AA026_InsettableBackgroundShapeV0V AA8MaterialV AA7CapsuleV AA14_OpacityEffectV
++ _symbolic _____y_____y_____yAAyAAy_____y_____yAAyAAy__________y_____GG_____G______ySay_____GSS_____GtGGAJGAJGG_____y_____GG_Qo_ 7SwiftUI4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AA15ModifiedContentV AA06ScrollC0V AA6VStackV AA05TupleC0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideK0V A0_05GuideC033_A51AF77A90403018988BE891C0093A93LLV AA01_e5StyleS0V AA5ColorV
++ _symbolic _____y_____y_____yAAy__________G_AAyAAyAAyAAy_____yAAy_____y_____yAAyAAy__________GAIG______y_____GQo_G_____y_____GG______Qo_AQy_____GG_____ySbGGAIG_____GSgtGG_____yAAyAAy__________y_____GGAEGGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA14_OpacityEffectV AA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonL0Rd__lFQO AA0N0V AmAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicpQ0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AT AA30_EnvironmentKeyWritingModifierV AA0N11BorderShapeV AA017BorderedProminentnL0V AA07ControlQ0O AA01_Z20KeyTransformModifierV AA010_FlexFrameV0V AA19_BackgroundModifierV AA5ColorV AA011_BackgroundL8ModifierV AA8MaterialV
++ _symbolic _____y_____y_____yAAy__________y_____GG_AAyAH_____y_____GGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA016_ForegroundStyleL0V AA5ColorV AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____yAAy_____yAAyAAyAAy__________G_____G_____y_____GG_Qo______y_____SgGG______AStGGANy_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA0G0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameN0V AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingR0V AA19SymbolRenderingModeV AA4TextV AA0Z9AlignmentO
++ _symbolic _____y_____y_____yAByACy_____yACy________________y_____GtGG______tGG______yAOyAByACy______AGyAEGtGGAAy__________GGAOyAAy_____yAE_____GAUGAAyApUGGGtGGAUG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultK5LabelV AA7DividerV AA012_ConditionalD0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V AV0rs8ScanWithvG0V AA14_PaddingLayoutV AA08ProgressG0V AA05EmptyG0V
++ _symbolic _____y_____y_____yABy__________GADG______y_____GQo_G 7SwiftUI6ButtonV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicfG0O5BoundRtd__lFQO AA15ModifiedContentV AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AH
++ _symbolic _____y_____y_____yABy________________y_____GtGG______tGG 7SwiftUI6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultI5LabelV AA7DividerV
++ _symbolic _____y_____y_____yABy________________y_____GtGG______tGG______yANyAAyABy______AFyADGtGG_____y__________GGANyASy_____yAD_____GAUGASyAoUGGGt 7SwiftUI6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultI5LabelV AA7DividerV AA19_ConditionalContentV 9CoreIDVUI034IdentityCredentialContinueOnDeviceE0V AA08ModifiedN0V AT0qr8ScanWithuE0V AA14_PaddingLayoutV AA08ProgressE0V AA05EmptyE0V
++ _symbolic _____y_____y_____yABy_____yACy______AAyAAyAAy__________G_____y_____GG_____GtGAEGG_AAyAAyAF_____y_____GG_____y_____GGSgtGGAIy_____SgGG 7SwiftUI15ModifiedContentV AA6HStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingM0V AM5ScaleO AA07_OffsetL0V AA016_ForegroundStyleM0V AA5ColorV AA06_TraitpM0V AA010TransitionvO0V AA4FontV
++ _symbolic _____y_____y_____yABy_____y_____yAByABy__________y_____GG_____G______ySay_____GSS_____GtGGAJGAJGG______AU_____yAByAU_____y_____GG_Qo_Qo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA06ScrollC0V AA15ModifiedContentV AA6VStackV AA05TupleC0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideL0V AZ05GuideC033_A51AF77A90403018988BE891C0093A93LLV AA8SolariumV AcAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AA016_BackgroundStyleS0V AA5ColorV
++ _symbolic _____y_____y_____yABy_____y_____y___________y_____GtGGAAy__________GGAByAAy_____yAG_____GALGAAyAeLGGGALG_Qo_ 7SwiftUI4ViewPAAE15navigationTitleyQrAA4TextVFQO AA15ModifiedContentV AA012_ConditionalH0V AA6VStackV AA05TupleC0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceC0V AA6ButtonV AF AO0no8ScanWithrC0V AA14_PaddingLayoutV AA08ProgressC0V AA05EmptyC0V
++ _symbolic _____y_____y_____yACyACyACy__________y_____SgGGAEy_____GGAEy_____SgGG_____y_____GG______ACyACy__________G_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV AI5ScaleO AA19SymbolRenderingModeV AA016_ForegroundStyleL0V AA5ColorV AA6SpacerV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameY0V
++ _symbolic _____y_____y_____yACyACy__________G_____y_____GG_____y_____GGSg_ACyAAyAByACy__________y_____GG_ACyAT_____yAHGGtGG_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA24_BackgroundStyleModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AA4TextV AA022_EnvironmentKeyWritingN0V AA0T9AlignmentO AA011_ForegroundmN0V AA010_FlexFrameK0V
++ _symbolic _____y_____y_____yACyACy_____y_____yADyAEy_____yAEy________________y_____GtGG______tGG_AByAByADyAEy______AIyAGGtGGACy__________GGAByACy_____yAG_____GAVGACyAqVGGGtGGAVGAVG_____G_____y__________y_____y_____yACyA3_AVG_Qo__Qo_______y______yytAKGQo_Qo_GGG 7SwiftUI5GroupV AA19_ConditionalContentV AA08ModifiedE0V AA6VStackV AA9TupleViewV AA6HStackV AA4TextV AA6SpacerV AA6ButtonV AA07DefaultM5LabelV AA7DividerV 9CoreIDVUI034IdentityCredentialContinueOnDeviceI0V AX0st8ScanWithwI0V AA14_PaddingLayoutV AA08ProgressI0V AA05EmptyI0V AA16_FlexFrameLayoutV AA15NavigationStackV AA14NavigationPathV AA0I0PAAE7toolbar7contentQrqd__yXE_tAA07ToolbarE0Rd__lFQO A14_AAE29navigationBarTitleDisplayModeyQrAA17NavigationBarItemV16TitleDisplayModeOFQO A14_AAE15navigationTitleyQrAOFQO AA07ToolbarE7BuilderV10buildBlockyQrxAAA17_RzlFZQO AA11ToolbarItemV
++ _symbolic _____y_____y_____yACy__________G_____GSg_ACy_____yAByACyACyACy__________G_____y_____GG_____y_____GG_ACyAmTGtGGARy_____SgGG_____yACyACyAdRy_____SgGGANyAYGGACyA5_ANy_____GGGtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA6VStackV AA4TextV AA05_FlexlK0V AA24_ForegroundStyleModifierV AA017HierarchicalShapeQ0V AA022_EnvironmentKeyWritingR0V AA0N9AlignmentO AA5ColorV AA012_ConditionalG0V AA4FontV AA04FilltQ0V
++ _symbolic _____y_____y_____yACy__________y_____GG_____G______ySay_____GSS_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideG0V AR05GuideE033_A51AF77A90403018988BE891C0093A93LLV
++ _symbolic _____y_____y_____yACy_____yACy_____yAByADy_____yABy______ACyACyACy__________G_____y_____GG_____GtGAFGG_ACyACyAG_____y_____GG_____y_____GGSgtGGAJy_____SgGG_Qo_AJyATSgGGAJy_____GG_ACyAFA11_GtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA6HStackV AA012_ConditionalG0V AA4TextV AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingQ0V AW5ScaleO AA07_OffsetP0V AA016_ForegroundStyleQ0V AA5ColorV AA06_TraittQ0V AA010TransitionzS0V AL AA0M9AlignmentO
++ _symbolic _____y_____y_____yACy_____yACy_____y_____y_____yACyACy_____y_____AGG_____y_____GGAIy_____SgGG_____yACy__________G______AS_____yAS_Qo_Qo_GG______Qo_AKG_AT_____yACyA_AIy_____GG______Qo_ACyACyA______y_____GG_____GQo_AOG_____ySbGGSg_ACy_____yACyADy_____yAQ_AT_____yAS_Qo_ASQo_GAKG_AtCy_____yACy_____yA20_______Qo_A1_G_A3_Qo_AIy_____SgGG_____yA20_______Qo_Qo_AOGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaHRd_0_AaHRd_1_r1_lFQO AiAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA012_ConditionalG0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeO0V AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AiAE4boldyQrSbFQO AA017BorderedProminentqO0V AiAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA0Q11BorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_uv9TransformX0V AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AiAEA11__A12_A13_QrA15__qd__SbtAAA16_Rd__lFQO AiAEANyQrqd__AaORd__lFQO AA08BorderedqO0V AA5ColorV AiAEANyQrqd__AaORd__lFQO AA010BorderlessqO0V
++ _symbolic _____y_____y_____yACy_____yACy_____y_____y_____yACyACy_____y_____AGG_____y_____GGAIy_____SgGG_____yACy__________G______AS_____yAS_Qo_Qo_GG______Qo_AKG_AT_____yACyA_AIy_____GG______Qo_ACyACyA______y_____GG_____GQo_AOG_____ySbGGSg_ACy_____yACyADy_____yAQ_AT_____yAS_Qo_ASQo_GAKG_AtCy_____yACy_____yA20_______Qo_A1_G_A3_Qo_AIy_____SgGG_____yA20_______Qo_Qo_AOGSgtGGSg 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaHRd_0_AaHRd_1_r1_lFQO AiAE11buttonStyleyQrqd__AA015PrimitiveButtonO0Rd__lFQO AA0Q0V AA012_ConditionalG0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeO0V AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AiAE4boldyQrSbFQO AA017BorderedProminentqO0V AiAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA0Q11BorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV AA01_uv9TransformX0V AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AiAEAJ_AkLQrqd___qd_0_xXEqd_1_xXEtAaMRd__AaHRd_0_AaHRd_1_r1_lFQO AiAE10fontWeightyQrAA4FontV6WeightVSgFQO AiAEA11__A12_A13_QrA15__qd__SbtAAA16_Rd__lFQO AiAEANyQrqd__AaORd__lFQO AA08BorderedqO0V AA5ColorV AiAEANyQrqd__AaORd__lFQO AA010BorderlessqO0V
++ _symbolic _____y_____y_____yACy_____y_____AEG_____y_____GGAGy_____SgGG_____yACy__________G______AQ_____yAQ_Qo_Qo_GG 7SwiftUI6ButtonV AA19_ConditionalContentV AA08ModifiedE0V AA12ProgressViewV AA05EmptyH0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA13AnyShapeStyleV AA0H0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0H14InputPredicateRd__AaRRd_0_AaRRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AsAE4boldyQrSbFQO
++ _symbolic _____y_____y_____y_____ADG______yAFyAFy_____yAFy__________y_____GG_Qo_AHy_____SgGG_____y_____GG_____ySSGGtGG 7SwiftUI6VStackV AA9TupleViewV AA08ProgressE0V AA05EmptyE0V AA15ModifiedContentV AA0E0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeT0V AA010_AnimationP0V
++ _symbolic _____y_____y_____y_____G_____G_____yAByAdFGGG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA16RoundedRectangleV AA5ColorV AA19_BackgroundModifierV
++ _symbolic _____y_____y_____y______Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE11toolbarRoleyQrAA07ToolbarE0VFQO AcAE21navigationItemAdaptoryQrqd__AA012UINavigationhI0Rd__lFQO AcAE0G19BarTitleDisplayModeyQrAA010NavigationkH0V0lmN0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AN09ProminentolI033_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV
++ _symbolic _____y_____y_____y______Qo____________y_____yAB______Qo__Qo______yAB______y______y_____yAHy__________G_____GGQo_Qo_Qo_______y_AGy_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE0D4RoleyQrAA0F4RoleVFQO AcAE0nT7AdaptoryQrqd__AA012UINavigationT7AdaptorRd__lFQO AP09ProminentsP7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEAdEQrqd__yXE_tAaFRd__lFQO AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0fT5GroupV AA08ModifiedG0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A2_A3_yQrxAaFRzlFZQO AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y__________GSg_ACy_____y___________y______Qo_ACyAH_____GQo_AKGSgAgoGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 9CoreIDVUI036DigitalPresentmentIdentityElementSetE0V AA31AccessibilityAttachmentModifierV AA0E0PAAE8staticIf_4thenQrqd___qd_0_xXEtAA0E14InputPredicateRd__AaMRd_0_r0_lFQO AA7DividerV AaQPAAE1nopyQrxFZQO AA8SolariumV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________G_SSQo______y_____AHGG 7SwiftUI19_ConditionalContentV AA4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedD0V 9CoreIDVUI035MobileDocumentProviderExtensionHostE0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressE0V AA05EmptyE0V
++ _symbolic _____y_____y_____y__________G_SSQo______y_____AHG_G 7SwiftUI19_ConditionalContentV7StorageO AA4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedD0V 9CoreIDVUI035MobileDocumentProviderExtensionHostF0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressF0V AA05EmptyF0V
++ _symbolic _____y_____y_____y__________G_____GABy_____AGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA12ProgressViewV AA4TextV AA05EmptyG0V AA14_PaddingLayoutV 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V
++ _symbolic _____y_____y_____y__________G_____GABy_____AGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA12ProgressViewV AA4TextV AA05EmptyH0V AA14_PaddingLayoutV 9CoreIDVUI034IdentityCredentialContinueOnDeviceH0V
++ _symbolic _____y_____y_____y__________G______y______y_____y_____GGQo_Qo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AA08ModifiedN0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA0mN7BuilderV10buildBlockyQrxAaKRzlFZQO AA0mJ5GroupV AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0F14InputPredicateRd__AaFRd_0_AaFRd_1_r1_lFQO AA4TextV AA8SolariumV AgAE10fontWeightyQrAA4FontV0P0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y_____y___________yAAyAAyAAy__________G_____G_____y_____y_______________yAmNGGGG_____y_____AUGGtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA4TextV AA012_ConditionalD0V AA5ImageV AA16_FixedSizeLayoutV AA08_PaddingM0V AA19_BackgroundModifierV AA011StrokeShapeG0V AA16RoundedRectangleV AA5ColorV AA01_rG0V AA08ProgressG0V AA05EmptyG0V AA010_TaskValueP0V 10Foundation3URLV
++ _symbolic _____y_____y_____y___________yAEyAEy__________G_____y_____GG_____GtGADGG 7SwiftUI6HStackV AA19_ConditionalContentV AA9TupleViewV AA4TextV AA08ModifiedE0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingM0V AM5ScaleO AA07_OffsetL0V
++ _symbolic _____y_____y_____y___________yAEyAEy__________G_____y_____GG_____GtGADGG_AEyAEyAF_____y_____GG_____y_____GGSgt 7SwiftUI6HStackV AA19_ConditionalContentV AA9TupleViewV AA4TextV AA08ModifiedE0V AA5ImageV AA21_SymbolEffectModifierV AA022_EnvironmentKeyWritingM0V AM5ScaleO AA07_OffsetL0V AA016_ForegroundStyleM0V AA5ColorV AA06_TraitpM0V AA010TransitionvO0V
++ _symbolic _____y_____y_____y___________y_____GtGG_____y__________GG 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceG0V AA6ButtonV AA4TextV AA08ModifiedD0V AH0jk8ScanWithnG0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y___________y_____GtGG_____y__________G_G 7SwiftUI19_ConditionalContentV7StorageO AA6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceH0V AA6ButtonV AA4TextV AA08ModifiedD0V AJ0kl8ScanWithoH0V AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y__________y_____y__________ySay_____GSS_____G_____GADyA2K_____y_____y_____AKG_____GGGG_Qo_______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AcAE14contentMargins__3forQrAA4EdgeO3SetV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtFQO AA0F0V s5NeverO AA012_ConditionalO0V AA7SectionV 0L5IDVUI035IdentityCredentialProviderSelectionC6HeaderV AA7ForEachV 0L9IDVShared014MobileDocumentX6OptionV AZ0vwxyC10PickerCellV AA05EmptyC0V AA08ModifiedO0V AA08ProgressC0V AA4TextV AA16_FlexFrameLayoutV AA012InsetGroupedfE0V
++ _symbolic _____y_____y_____y_____yAAyAAy__________y_____GG_____G_____GSg_AByACyAAyAAy_____yAAy_____y_____yADyAAyAAy_____yA2LGAFy_____GGAFy_____SgGG_____yAAyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yAAyA5_AFy_____GG______Qo_AAyAAyA5______y_____GG_____GQo_AWG_____ySbGGSg_AAy_____yAAyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzAy_____yAAy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA16_FlexFrameLayoutV AA05EmptyG0V AA0G0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0G14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressG0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingQ0V AA01_jk9TransformM0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V AA010_AnimationM0V 9CoreIDVUI16IdentityProofingO11ButtonStateO
++ _symbolic _____y_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG 7SwiftUI15ModifiedContentV AA4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA0I0V AA012_ConditionalD0V AA08ProgressE0V AA05EmptyE0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeG0V AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AeAE4boldyQrSbFQO AA017BorderedProminentiG0V
++ _symbolic _____y_____y_____y_____yABy__________G_AByAByAByABy_____yABy_____y_____yAByABy__________GAJG______y_____GQo_G_____y_____GG______Qo_ARy_____GG_____ySbGGAJG_____GSgtGG_____yAByABy__________y_____GGAFGGGG 7SwiftUI18_InsetViewModifierV AA15ModifiedContentV AA6VStackV AA05TupleD0V AA7DividerV AA14_OpacityEffectV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonN0Rd__lFQO AA0P0V AoAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicrS0O5BoundRtd__lFQO AA4TextV AA14_PaddingLayoutV s19PartialRangeThroughV AV AA022_EnvironmentKeyWritingE0V AA0P11BorderShapeV AA017BorderedProminentpN0V AA07ControlS0O AA024_EnvironmentKeyTransformE0V AA010_FlexFrameX0V AA011_BackgroundE0V AA5ColorV AA011_BackgroundnE0V AA8MaterialV
++ _symbolic _____y_____y_____y_____yABy_____y_____yAByABy__________y_____GG_____G______ySay_____GSS_____GtGGAJGAJGG______AU_____yAByAU_____y_____GG_Qo_Qo_______y______yyt_____y_____y_____AByA4______yA2XGGGGGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA06ScrollC0V AA08ModifiedG0V AA6VStackV AA05TupleC0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0R9AlignmentO AA14_PaddingLayoutV AA7ForEachV 9CoreIDVUI016PassportNFCGuideG0V A1_05GuideC033_A51AF77A90403018988BE891C0093A93LLV AA8SolariumV AcAE0D10Background_3forQrAA10VisibilityO_AA0F9PlacementVdtFQO AA016_BackgroundStyleV0V AA5ColorV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0F4ItemV AA6ButtonV AA012_ConditionalG0V AA5ImageV AA25_ForegroundStyleModifier2V
++ _symbolic _____y_____y_____y_____yABy_____y_____y___________y_____GtGGAAy__________GGAByAAy_____yAG_____GALGAAyAeLGGGALG_Qo__Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AcAE0dF0yQrAA4TextVFQO AA15ModifiedContentV AA012_ConditionalM0V AA6VStackV AA05TupleC0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceC0V AA6ButtonV AK AT0st8ScanWithwC0V AA14_PaddingLayoutV AA08ProgressC0V AA05EmptyC0V
++ _symbolic _____y_____y_____y_____yACyACyACy__________G_____G_____y_____GG_Qo______y_____SgGG______AStGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE10fontWeightyQrAA4FontV0I0VSgFQO AA5ImageV AA18_AspectRatioLayoutV AA06_FrameN0V AA24_ForegroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingR0V AA19SymbolRenderingModeV AA4TextV
++ _symbolic _____y_____y_____y_____yADy__________G_____GSg_ADy_____yACyADyADyADy__________G_____y_____GG_____y_____GG_ADyAnUGtGGASy_____SgGG_____yADyADyAeSy_____SgGGAOyAZGGADyA6_AOy_____GGGtGGG 7SwiftUI6ButtonV AA6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA6VStackV AA4TextV AA05_FlexmL0V AA24_ForegroundStyleModifierV AA017HierarchicalShapeR0V AA022_EnvironmentKeyWritingS0V AA0O9AlignmentO AA5ColorV AA012_ConditionalH0V AA4FontV AA04FilluR0V
++ _symbolic _____y_____y_____y_____yADy__________y_____GG_____G_____GSg_AAyAByADyADy_____yADy_____y_____yACyADyADy_____yA2LGAFy_____GGAFy_____SgGG_____yADyAeJG______AY_____yAY_Qo_Qo_GG______Qo_ASG_AZ_____yADyA5_AFy_____GG______Qo_ADyADyA5______y_____GG_____GQo_AWG_____ySbGGSg_ADy_____yADyAOy_____yAE_AZ_____yAY_Qo_AYQo_GASG_AzDy_____yADy_____yA26_______Qo_A7_G_A9_Qo_AFy_____SgGG_____yA26_______Qo_Qo_AWGSgtGGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA19_ConditionalContentV AA08ModifiedG0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA0I9AlignmentO AA16_FlexFrameLayoutV AA05EmptyE0V AA0E0PAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE11buttonStyleyQrqd__AA015PrimitiveButtonZ0Rd__lFQO AA6ButtonV AA08ProgressE0V AA11ControlSizeO AA08AnyShapeZ0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AA8SolariumV AuAE4boldyQrSbFQO AA023BorderedProminentButtonZ0V AuAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AA17ButtonBorderShapeV AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA08_PaddingQ0V AA01_jk9TransformM0V AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAEAV_AwXQrqd___qd_0_xXEqd_1_xXEtAaYRd__AaTRd_0_AaTRd_1_r1_lFQO AuAE10fontWeightyQrAA4FontV6WeightVSgFQO AuAEA13__A14_A15_QrA17__qd__SbtAAA18_Rd__lFQO AuAEAZyQrqd__AAA_Rd__lFQO AA014BorderedButtonZ0V AA5ColorV AuAEAZyQrqd__AAA_Rd__lFQO AA016BorderlessButtonZ0V
++ _symbolic _____y_____y_____y_____y_____AEG_AAyAAyAAy_____yAAy__________y_____GG_Qo_AHy_____SgGG_____y_____GG_____ySSGGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA08ProgressG0V AA05EmptyG0V AA0G0PAAE15monospacedDigitQryFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA4FontV AA016_ForegroundStyleP0V AA017HierarchicalShapeT0V AA010_AnimationP0V AA16_FlexFrameLayoutV
++ _symbolic _____y_____y_____y_____y______Qo____________y_____yAB______Qo__Qo______yAB______y______y_____yAHy__________G_____GGQo_Qo_Qo_______y_AGy_____y_____GGQo_Qo__AcHy_____y_____y_____yAW______Qo__Qo_______yAHyAHyAHyAHy_____yAHyARy_____yAHyAHyAI_____GA_G______y_____GQo_G_____y_____GG______Qo_A7_y_____GG_____ySbGGA_GALGSg_Qo_Qo______GAHyAHy_____yAW______Qo______yAHy_____y_____yAHy__________G_A21_tGG_____yAHyAHyAX_____y_____GGA32_GGGGGA24_GQo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAEAD_AeFQrqd___qd_0_xXEqd_1_xXEtAaGRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationO4ItemV0pqR0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE0J4RoleyQrAA0L4RoleVFQO AcAE0nT7AdaptoryQrqd__AA012UINavigationT7AdaptorRd__lFQO AP09ProminentsP7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEAhIQrqd__yXE_tAaJRd__lFQO AA0lM7BuilderV10buildBlockyQrxAaJRzlFZQO AA0lT5GroupV AA08ModifiedM0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A2_A3_yQrxAaJRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AcAE08safeAreaO04edge9alignment7spacingAIQrAA12VerticalEdgeO_AA19HorizontalAlignmentV0U8Graphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE06scrollM10BackgroundyQrAA10VisibilityOFQO AcAE19containerBackground_3forQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQO AA5ColorV AcAE18scrollPocketTag_v15styleQrAA0O16MagicPocketStyleV_tFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A48_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA23_SafeAreaIgnoringLayoutV AcAE22onScrollGeometryChangeA34_2of6actionQrqd__m_qd__AA14ScrollGeometryVcyqd___qd__tctSQRd__lFQO A28_ AA06_InsetC8ModifierV AA6VStackV AA05TupleC0V AA7DividerV AA14_OpacityEffectV AA19_BackgroundModifierV AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y_____y_____y______Qo____________y_____yAB______Qo__Qo______yAB______y______y_____yAHy__________G_____GGQo_Qo_Qo_______y_AGy_____y_____GGQo_Qo_______Qo_ 7SwiftUI4ViewPAAE19containerBackground_3forQrqd___AA09ContainerE9PlacementVtAA10ShapeStyleRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationV4ItemV0wxY0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE0K4RoleyQrAA0M4RoleVFQO AcAE0U11ItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO AU09ProminentzW7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEAiJQrqd__yXE_tAaKRd__lFQO AA0mN7BuilderV10buildBlockyQrxAaKRzlFZQO AA0M9ItemGroupV AA08ModifiedN0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A7_A8_yQrxAaKRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AA5ColorV
++ _symbolic _____y_____y_____y_____y__________GSg_ACy_____y___________y______Qo_ACyAH_____GQo_AKGSgAgoGtGG_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleC0V AA15ModifiedContentV 9CoreIDVUI026DigitalPresentmentIdentitye3SetC0V AA0G18AttachmentModifierV AcAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AA7DividerV AaUPAAE1nopyQrxFZQO AA8SolariumV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y__________G_SSQo______y_____AIGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AA08ModifiedE0V 9CoreIDVUI035MobileDocumentProviderExtensionHostF0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressF0V AA05EmptyF0V
++ _symbolic _____y_____y_____y_____y__________G______y______y_____y_____GGQo_Qo__Qo__Qo_ 7SwiftUI4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO AcAE0D07contentQrqd__yXE_tAA0H7ContentRd__lFQO AA08ModifiedR0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA0hR7BuilderV10buildBlockyQrxAaQRzlFZQO AA0hP5GroupV AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG_AdAy_____yAAy_____yAM______Qo_AJy_____GG______Qo_AJy_____SgGG_____yAM______Qo_Qo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AA6ButtonV AcAEAD_AeFQrqd___qd_0_xXEqd_1_xXEtAaGRd__AaBRd_0_AaBRd_1_r1_lFQO AA4TextV AA8SolariumV AcAE10fontWeightyQrAA4FontV0P0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AcAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA5ShapeRd__lFQO AcAE11buttonStyleyQrqd__AA09PrimitiveL5StyleRd__lFQO AA08BorderedL5StyleV AA0L11BorderShapeV AA7CapsuleV AA5ColorV AcAEA6_yQrqd__AAA7_Rd__lFQO AA010BorderlessL5StyleV
++ _symbolic _____y_____y_____y_____y________________yAAyAC_____G_Qo_AFQo_G_____y_____GG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA4TextV AA8SolariumV AcAE10fontWeightyQrAA4FontV0S0VSgFQO AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA010BorderlessgE0V
++ _symbolic _____y_____y_____y_____y___________y_____GtGG_____y__________GGAByAKy_____yAG_____GAMGAKyAeMGG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA6VStackV AA9TupleViewV 9CoreIDVUI034IdentityCredentialContinueOnDeviceH0V AA6ButtonV AA4TextV AA08ModifiedD0V AJ0kl8ScanWithoH0V AA14_PaddingLayoutV AA08ProgressH0V AA05EmptyH0V
++ _symbolic _____y_____y_____y_____y__________y_____y__________ySay_____GSS_____G_____GADyA2K_____y_____y_____AKG_____GGGG_Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE20scrollBounceBehavior_4axesQrAA06ScrolleF0V_AA4AxisO3SetVtFQO AcAE9listStyleyQrqd__AA04ListL0Rd__lFQO AcAE14contentMargins__3forQrAA4EdgeOAJV_12CoreGraphics7CGFloatVSgAA22ContentMarginPlacementVtFQO AA0M0V s5NeverO AA012_ConditionalU0V AA7SectionV 0R5IDVUI035IdentityCredentialProviderSelectionC6HeaderV AA7ForEachV 0R9IDVShared28MobileDocumentProviderOptionV A5_035IdentityCredentialProviderSelectionC10PickerCellV AA05EmptyC0V AA08ModifiedU0V AA08ProgressC0V AA4TextV AA16_FlexFrameLayoutV AA012InsetGroupedmL0V
++ _symbolic _____y_____y_____y_____y__________y_____y_____y_____y______Qo____________y_____yAE______Qo__Qo______yAE______y______yAAyAAy__________G_____GGQo_Qo_Qo_______y_AJy_____y_____GGQo_Qo__AfAy_____y_____y_____yAY______Qo__Qo_______yAAyAAyAAyAAy_____yAAyATy_____yAAyAAyAK_____GA1_G______y_____GQo_G_____y_____GG______Qo_A9_y_____GG_____ySbGGA1_GANGSg_Qo_Qo______GAAyAAy_____yAY______Qo______yAAy_____y_____yAAy__________G_A23_tGG_____yAAyAAyAZ_____y_____GGA34_GGGGGA26_GQo_G_SdQo__A28_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE0fI0AH7initial_Qrqd___SbyyctSQRd__lFQO AA15NavigationStackV AA0N4PathV AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAEAR_AsTQrqd___qd_0_xXEqd_1_xXEtAaURd__AaDRd_0_AaDRd_1_r1_lFQO AeAE29navigationBarTitleDisplayModeyQrAA0N7BarItemV16TitleDisplayModeOFQO 9CoreIDVUI035IdentityCredentialProviderSelectionE6PickerV AA8SolariumV AeAE0W4RoleyQrAA0Y4RoleVFQO AeAE0Z11ItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO A2_09ProminentN12TitleAdaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AeAEAvWQrqd__yXE_tAaXRd__lFQO AA0yD7BuilderV10buildBlockyQrxAaXRzlFZQO AA0Y9ItemGroupV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A16_A17_yQrxAaXRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AeAE11safeAreaBar4edge9alignment7spacingAWQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQO AeAE06scrollD10BackgroundyQrAA10VisibilityOFQO AeAE19containerBackground_AGQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQO AA5ColorV AeAE18scrollPocketTag_v15styleQrAA19BarMagicPocketStyleV_tFQO AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A59_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA23_SafeAreaIgnoringLayoutV AeAEAfghIQrqd__m_qd__AKcyqd___qd__tctSQRd__lFQO A40_ AA06_InsetE8ModifierV AA6VStackV AA05TupleE0V AA7DividerV AA14_OpacityEffectV AA19_BackgroundModifierV AA24_BackgroundStyleModifierV AA8MaterialV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____y_____yAAyAAy_____y_____AEG_____y_____GGAGy_____SgGG_____yAAy__________G______AQ_____yAQ_Qo_Qo_GG______Qo_AIG_AR_____yAAyAyGy_____GG______Qo_AAyAAyAY_____y_____GG_____GQo_ 7SwiftUI4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AA15ModifiedContentV AcAE11buttonStyleyQrqd__AA015PrimitiveButtonM0Rd__lFQO AA0O0V AA012_ConditionalK0V AA08ProgressC0V AA05EmptyC0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA08AnyShapeM0V AcAEAD_AeFQrqd___qd_0_xXEqd_1_xXEtAaGRd__AaBRd_0_AaBRd_1_r1_lFQO AA4TextV AA16_FlexFrameLayoutV AA8SolariumV AcAE4boldyQrSbFQO AA017BorderedProminentoM0V AcAE12_glassEffect_2in9isEnabledQrAA6_GlassV_qd__SbtAA0Z0Rd__lFQO AA0o6BorderZ0V AA7CapsuleV AA11_ClipEffectV AA16RoundedRectangleV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____yABy_____y_____y___________y_____GtGGAAy__________GGAByAAy_____yAG_____GALGAAyAeLGGGALG_Qo__Qo_______y______yytAFy_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationI4ItemV0jkL0OFQO AcAE0hJ0yQrAA4TextVFQO AA08ModifiedG0V AA012_ConditionalG0V AA6VStackV AA05TupleC0V 9CoreIDVUI034IdentityCredentialContinueOnDeviceC0V AA6ButtonV AN AW0vw8ScanWithzC0V AA14_PaddingLayoutV AA08ProgressC0V AA05EmptyC0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0fN0V AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y_____y_____y______Qo____________y_____yAB______Qo__Qo______yAB______y______y_____yAHy__________G_____GGQo_Qo_Qo_______y_AGy_____y_____GGQo_Qo_______Qo__Qo_ 7SwiftUI4ViewPAAE23scrollContentBackgroundyQrAA10VisibilityOFQO AcAE09containerF0_3forQrqd___AA09ContainerF9PlacementVtAA10ShapeStyleRd__lFQO AcAE7toolbar7contentQrqd__yXE_tAA07ToolbarE0Rd__lFQO AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationX4ItemV0yZ4ModeOFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE0N4RoleyQrAA0P4RoleVFQO AcAE0W11ItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO AX019ProminentNavigationY7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEAlMQrqd__yXE_tAaNRd__lFQO AA0pE7BuilderV10buildBlockyQrxAaNRzlFZQO AA0P9ItemGroupV AA08ModifiedE0V AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A10_A11_yQrxAaNRzlFZQO AA6ButtonV AA18DefaultButtonLabelV AA5ColorV
++ _symbolic _____y_____y_____y_____y_____y______Qo____________y_____yAC______Qo__Qo______yAC______y______yAAyAAy__________G_____GGQo_Qo_Qo_______y_AHy_____y_____GGQo_Qo_______Qo______yAAy_____y_____yAAy__________G_AAyAAyAAyAAy_____yAAyARy_____yAAyAAyAI_____GA4_G______y_____GQo_G_____y_____GG______Qo_A12_y_____GG_____ySbGGA4_GALGSgtGG_____yAAyAAy__________y_____GGA2_GGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE22onScrollGeometryChange3for2of6actionQrqd__m_qd__AA0gH0Vcyqd___qd__tctSQRd__lFQO AeAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE29navigationBarTitleDisplayModeyQrAA010NavigationW4ItemV0xyZ0OFQO 9CoreIDVUI035IdentityCredentialProviderSelectionE6PickerV AA8SolariumV AeAE0M4RoleyQrAA0O4RoleVFQO AeAE0V11ItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO AX019ProminentNavigationX7Adaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AeAEAlMQrqd__yXE_tAaNRd__lFQO AA0oD7BuilderV10buildBlockyQrxAaNRzlFZQO AA0O9ItemGroupV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A10_A11_yQrxAaNRzlFZQO AA6ButtonV AA18DefaultButtonLabelV 12CoreGraphics7CGFloatV AA06_InsetE8ModifierV AA6VStackV AA05TupleE0V AA7DividerV AA14_OpacityEffectV AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A41_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA19_BackgroundModifierV AA5ColorV AA24_BackgroundStyleModifierV AA8MaterialV
++ _symbolic _____y_____y_____y_____y_____y__________G_SSQo______y_____AIGGG_Qo_ 7SwiftUI4ViewPAAE29navigationBarTitleDisplayModeyQrAA010NavigationE4ItemV0fgH0OFQO AA5GroupV AA19_ConditionalContentV AcAE0dF0yQrqd__SyRd__lFQO AA08ModifiedM0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressC0V AA05EmptyC0V
++ _symbolic _____y_____y_____y_____y_____y__________G______y______y_____y_____GGQo_Qo__Qo__Qo__SSQo_ 7SwiftUI4ViewPAAE15navigationTitleyQrqd__SyRd__lFQO AcAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE0d3BarE11DisplayModeyQrAA010NavigationL4ItemV0emN0OFQO AcAE0F07contentQrqd__yXE_tAA0J7ContentRd__lFQO AA08ModifiedR0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA0jR7BuilderV10buildBlockyQrxAaRRzlFZQO AA0jP5GroupV AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y_____y_____y__________y_____y_____y_____y______Qo____________y_____yAE______Qo__Qo______yAE______y______yAAyAAy__________G_____GGQo_Qo_Qo_______y_AJy_____y_____GGQo_Qo__AfAy_____y_____y_____yAY______Qo__Qo_______yAAyAAyAAyAAy_____yAAyATy_____yAAyAAyAK_____GA1_G______y_____GQo_G_____y_____GG______Qo_A9_y_____GG_____ySbGGA1_GANGSg_Qo_Qo______GAAyAAy_____yAY______Qo______yAAy_____y_____yAAy__________G_A23_tGG_____yAAyAAyAZ_____y_____GGA34_GGGGGA26_GQo_G_SdQo__A28_Qo______G______AByAC_____y_____y_____y_____yAAy__________G_AXQo__Qo__Qo__SSQo_GQo_ 7SwiftUI4ViewPAAE5sheet4item9onDismiss7contentQrAA7BindingVyqd__SgG_yycSgqd_0_qd__cts12IdentifiableRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AcAE0F20ScrollGeometryChange3for2of6actionQrqd__m_qd__AA0mN0Vcyqd___qd__tctSQRd__lFQO AcAE0fO0AR7initial_Qrqd___SbyyctSQRd__lFQO AA15NavigationStackV AA0T4PathV AcAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0C14InputPredicateRd__AaBRd_0_AaBRd_1_r1_lFQO AcAE7toolbarAGQrqd__yXE_tAA07ToolbarL0Rd__lFQO AcAEA0__A1_A2_Qrqd___qd_0_xXEqd_1_xXEtAAA3_Rd__AaBRd_0_AaBRd_1_r1_lFQO AcAE29navigationBarTitleDisplayModeyQrAA0T7BarItemV16TitleDisplayModeOFQO 9CoreIDVUI035IdentityCredentialProviderSelectionC6PickerV AA8SolariumV AcAE11toolbarRoleyQrAA11ToolbarRoleVFQO AcAE21navigationItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO A11_09ProminentT12TitleAdaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AcAEA4_AGQrqd__yXE_tAAA5_Rd__lFQO AA07ToolbarL7BuilderV10buildBlockyQrxAAA5_RzlFZQO AA16ToolbarItemGroupV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A25_A26_yQrxAAA5_RzlFZQO AA6ButtonV AA18DefaultButtonLabelV AcAE11safeAreaBar4edge9alignment7spacingAGQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE06scrollL10BackgroundyQrAA10VisibilityOFQO AcAE19containerBackground_AQQrqd___AA28ContainerBackgroundPlacementVtAA10ShapeStyleRd__lFQO AA5ColorV AcAE18scrollPocketTag_v15styleQrAA19BarMagicPocketStyleV_tFQO AcAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AcAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A68_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA23_SafeAreaIgnoringLayoutV AcAEApqrSQrqd__m_qd__AUcyqd___qd__tctSQRd__lFQO A49_ AA06_InsetC8ModifierV AA6VStackV AA05TupleC0V AA7DividerV AA14_OpacityEffectV AA19_BackgroundModifierV AA24_BackgroundStyleModifierV AA8MaterialV AA25_AppearanceActionModifierV A11_40MobileDocumentProviderPresentmentContextV AcAE15navigationTitleyQrqd__SyRd__lFQO AcAE17toolbarBackground_AQQrA53__AA16ToolbarPlacementVdtFQO AcAEA6_yQrA10_FQO AcAEA4_AGQrqd__yXE_tAAA5_Rd__lFQO A11_035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y__________G_SSQo______y_____AIGGG_Qo__Qo_ 7SwiftUI4ViewPAAE17toolbarBackground_3forQrAA10VisibilityO_AA16ToolbarPlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationK4ItemV0lmN0OFQO AA5GroupV AA19_ConditionalContentV AcAE0jL0yQrqd__SyRd__lFQO AA08ModifiedS0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressC0V AA05EmptyC0V
++ _symbolic _____y_____y_____y_____y_____y_____y_____y______Qo____________y_____yAC______Qo__Qo______yAC______y______yAAyAAy__________G_____GGQo_Qo_Qo_______y_AHy_____y_____GGQo_Qo_______Qo__Qo_______yAAyAAyAAyAAy_____yAAyARy_____yAAyAAyAI_____GA_G______y_____GQo_G_____y_____GG______Qo_A7_y_____GG_____ySbGGA_GALGSg_Qo_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11safeAreaBar4edge9alignment7spacing7contentQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaDRd__lFQO AeAE06scrollD10BackgroundyQrAA10VisibilityOFQO AeAE09containerU0_3forQrqd___AA09ContainerU9PlacementVtAA10ShapeStyleRd__lFQO AeAE7toolbarAJQrqd__yXE_tAA07ToolbarD0Rd__lFQO AeAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AeAE010navigationH16TitleDisplayModeyQrAA010NavigationH4ItemV16TitleDisplayModeOFQO 0Q5IDVUI035IdentityCredentialProviderSelectionE6PickerV AA8SolariumV AeAE11toolbarRoleyQrAA11ToolbarRoleVFQO AeAE21navigationItemAdaptoryQrqd__AA23UINavigationItemAdaptorRd__lFQO A10_31ProminentNavigationTitleAdaptor33_EFBAA0B00AEBF55C3A9897BCF524B5DCLLV AeAEA_AJQrqd__yXE_tAAA0_Rd__lFQO AA07ToolbarD7BuilderV10buildBlockyQrxAAA0_RzlFZQO AA16ToolbarItemGroupV AA4TextV AA16_FixedSizeLayoutV AA16_FlexFrameLayoutV A24_A25_yQrxAAA0_RzlFZQO AA6ButtonV AA18DefaultButtonLabelV AA5ColorV AeAE0T12PocketTag_v15styleQrAA0H16MagicPocketStyleV_tFQO AeAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AeAE15dynamicTypeSizeyQrqd__SXRd__AA15DynamicTypeSizeO5BoundRtd__lFQO AA14_PaddingLayoutV s19PartialRangeThroughV A48_ AA30_EnvironmentKeyWritingModifierV AA17ButtonBorderShapeV AA28BorderedProminentButtonStyleV AA11ControlSizeO AA32_EnvironmentKeyTransformModifierV AA05_SafeG14IgnoringLayoutV
++ _symbolic _____y_____y_____y_____y_____y_____y_____y__________G_SSQo______y_____AIGGG_Qo__Qo_______y______y_____y_____GGQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE0D10Background_3forQrAA10VisibilityO_AA0F9PlacementVdtFQO AcAE29navigationBarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQO AA5GroupV AA012_ConditionalG0V AcAE0lN0yQrqd__SyRd__lFQO AA08ModifiedG0V 9CoreIDVUI035MobileDocumentProviderExtensionHostC0V AA30_SafeAreaRegionsIgnoringLayoutV AA08ProgressC0V AA05EmptyC0V AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO AA0frS0V AA6ButtonV AA18DefaultButtonLabelV
++ _symbolic _____y_____y_____y_____y_____yx______y_____y_____y_____G_Qo____________yAF______y_____y_____yAAyAByq_______tGGG_____y_____GG_Qo_Qo_Qo_ABy______q_AHyAJ_____y_____GGtGSgtGG_AgHyA1______GQo__Qo_______y______y______yyt_____y_____y__________GGGQo_SgQo_Qo_ 7SwiftUI4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AcAE29navigationBarBackButtonHiddenyQrSbFQO AcAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AA6VStackV AA05TupleC0V AcAEAH_AIQrqd___qd_0_xXEtAaJRd__AaBRd_0_r0_lFQO AcAE20scrollBounceBehavior_4axesQrAA06ScrolluV0V_AA4AxisO3SetVtFQO AA0xC0V 9CoreIDVUI16IdentityProofingO09TitleTextC033_EC13F04AB5230E794280A221D3FD26B6LLV AA8SolariumV AcAE08safeAreaI04edge9alignment7spacingAEQrAA12VerticalEdgeO_AA19HorizontalAlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAaBRd__lFQO AcAE0T12PocketTag_v15styleQrAA0I16MagicPocketStyleV_tFQO AA08ModifiedG0V AA21_GlassEffectContainerV A_010BottomTrayC0A1_LLV AA01_G13ShapeModifierV AA9RectangleV AA6SpacerV AA21_TraitWritingModifierV AA22LayoutPriorityTraitKeyV AA30_SafeAreaRegionsIgnoringLayoutV AA0fG7BuilderV10buildBlockyQrxAaFRzlFZQO A40_A41_yQrxAaFRzlFZQO AA0F4ItemV AA0K0V AA012_ConditionalG0V AA5ImageV AA4TextV
++ _symbolic _____y_____ypG s18_DictionaryStorageC So11CFStringRefa
++ _symbolic _____y_xq_G 9CoreIDVUI16IdentityProofingO8BaseViewV
++ _symbolic _____yxG 7SwiftUI19UIHostingControllerC
++ _symbolic _____yyXlXpG s23_ContiguousArrayStorageC
++ _symbolic _____yyt_____y_____GG 7SwiftUI11ToolbarItemV AA6ButtonV AA07DefaultE5LabelV
++ _symbolic _____yyt_____y_____y__________GGG 7SwiftUI11ToolbarItemV AA6ButtonV AA19_ConditionalContentV AA5ImageV AA4TextV
++ _symbolic _____yyt_____y_____y__________yAD_____y_____AGGGGGG 7SwiftUI11ToolbarItemV AA6ButtonV AA19_ConditionalContentV AA5ImageV AA08ModifiedG0V AA25_ForegroundStyleModifier2V AA5ColorV
++ _symbolic q_
++ _symbolic qd__
++ _symbolic ySSSgcSg
++ _symbolic ySbcSg
++ _symbolic ySo7UIImageC______ABSgtcSg 13CoreIDVShared11DocScanDataV
++ _symbolic y_____ScMYcc 12CoreGraphics7CGFloatV
++ _symbolic y_____YaKScMYcc 10Foundation3URLV
++ _symbolic y_____YaKScMYcc 13CoreIDVShared40MobileDocumentProviderPresentmentRequestV
++ _symbolic y_____YaKScMYcc 13CoreIDVShared48MobileDocumentProviderLocalOptionUIConfigurationV
++ _symbolic y_____c 13CoreIDVShared41MobileDocumentProviderPresentmentResponseV
++ _symbolic y_____c 13CoreIDVShared44MobileDocumentProviderRemoteUIViewIdentifierO
++ _symbolic y_____cSg 9CoreIDVUI22MRZPassportInformationV
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic yt
++ _symbolic ytIegr_
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _symbolic yyScMYcc
++ _symbolic yyScMYccSg
++ _symbolic yyYaKScMYcc
++ _symbolic yyc
++ _type_layout_string 9CoreIDVUI16IdentityProofingO14BaseViewConfigV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC0C11InformationV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC17TransitionContextV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC17TransitionContextV0C0V
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC17TransitionContextV21PageFlipConfigurationV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC17TransitionContextV5PhoneV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC17TransitionContextV6CameraV
++ _type_layout_string 9CoreIDVUI17PassportSceneViewC21StampPageOverlayLayerC0F0V
++ _type_layout_string 9CoreIDVUI19PassportInformationV
++ _type_layout_string 9CoreIDVUI20PassportNFCGuideViewV
++ _type_layout_string 9CoreIDVUI20PassportSceneHelpersV11CubicBezierV
++ _type_layout_string 9CoreIDVUI20PassportSceneHelpersV15SeededGeneratorV
++ _type_layout_string 9CoreIDVUI21PassportAnimationViewV
++ _type_layout_string 9CoreIDVUI21PassportReaderManagerV
++ _type_layout_string 9CoreIDVUI22MRZPassportInformationV
++ _type_layout_string 9CoreIDVUI25IDVTrailingAccessoryLabelC04ViewD0V
++ _type_layout_string 9CoreIDVUI25IDVTrailingAccessoryLabelC05ImageD0V
++ _type_layout_string 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0O
++ _type_layout_string 9CoreIDVUI28UsingYourIDViewConfigurationV
++ _type_layout_string 9CoreIDVUI31PassportNFCReadingAnalyticsDataV
++ _type_layout_string 9CoreIDVUI38IdentityCredentialContinueOnDeviceViewV
++ _type_layout_string 9CoreIDVUI38IdentityProofingErrorViewConfigurationV
++ _type_layout_string 9CoreIDVUI39IdentityCredentialProviderSelectionViewV
++ _type_layout_string 9CoreIDVUI41IdentityProofingAuthCodeViewConfigurationV
++ _type_layout_string 9CoreIDVUI43IdentityCredentialProviderAuthorizationViewV
++ _type_layout_string 9CoreIDVUI45IdentityCredentialProviderSelectionViewHeaderV
++ _type_layout_string 9CoreIDVUI46IdentityProofingAddedToWalletViewConfigurationV
++ _type_layout_string 9CoreIDVUI46IdentityProofingAuthCodeRetryViewConfigurationV
++ _type_layout_string 9CoreIDVUI7DG1DataV
++ _type_layout_string 9CoreIDVUI7DG2DataV
++ _type_layout_string SC39DIIdentityCredentialWebPresentmentErrorLeV
++ _type_layout_string So12UIFontWeighta
++ _type_layout_string So13CATransform3DV
+- -[PassWrapper .cxx_destruct]
+- -[PassWrapper croppedImageToAlignmentRectInsets:]
+- -[PassWrapper getPassImageWithSize:]
+- -[PassWrapper getPassImageWithSize:].cold.1
+- -[PassWrapper getPassImageWithSize:].cold.2
+- -[PassWrapper getPassImageWithSize:].cold.3
+- -[PassWrapper getPassImageWithSize:].cold.4
+- -[PassWrapper getPassName]
+- -[PassWrapper getPassName].cold.1
+- -[PassWrapper getPassName].cold.2
+- -[PassWrapper getPassName].cold.3
+- -[PassWrapper initWithUniquePassID:]
+- -[PassWrapper pass]
+- -[PassWrapper setPass:]
+- GCC_except_table3
+- _DVUI_LOG_CLIENT
+- _DVUI_LOG_CLIENT.cold.1
+- _DVUI_LOG_CLIENT.log
+- _DVUI_LOG_CLIENT.once
+- _OBJC_CLASS_$_PassWrapper
+- _OBJC_CLASS_$__TtC9CoreIDVUI27IdentityErrorViewController
+- _OBJC_CLASS_$__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- _OBJC_CLASS_$__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController
+- _OBJC_CLASS_$__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- _OBJC_CLASS_$__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- _OBJC_IVAR_$_PassWrapper._pass
+- _OBJC_METACLASS_$_PassWrapper
+- _OBJC_METACLASS_$__TtC9CoreIDVUI27IdentityErrorViewController
+- _OBJC_METACLASS_$__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- _OBJC_METACLASS_$__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController
+- _OBJC_METACLASS_$__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- _OBJC_METACLASS_$__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- _OUTLINED_FUNCTION_0
+- _OUTLINED_FUNCTION_1
+- _OUTLINED_FUNCTION_2
+- _UIKeyboardDidHideNotification
+- _UIKeyboardDidShowNotification
+- __DATA__TtC9CoreIDVUI21UsingYourIDInteractor
+- __DATA__TtC9CoreIDVUI24IdentityProofingUIColors
+- __DATA__TtC9CoreIDVUI27IdentityErrorViewController
+- __DATA__TtC9CoreIDVUI31DigitalPresentmentRootViewModel
+- __DATA__TtC9CoreIDVUI34IdentityProofingVerifyingViewModel
+- __DATA__TtC9CoreIDVUI39DigitalPresentmentIdentityViewsProvider
+- __DATA__TtC9CoreIDVUI39IdentityProofingExtendedReviewViewModel
+- __DATA__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- __DATA__TtC9CoreIDVUI42IdentityProofingNavigationControllerHelper
+- __DATA__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController
+- __DATA__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- __DATA__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- __INSTANCE_METHODS__TtC9CoreIDVUI27IdentityErrorViewController
+- __INSTANCE_METHODS__TtC9CoreIDVUI32IdentityProofingTCViewController
+- __INSTANCE_METHODS__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- __INSTANCE_METHODS__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- __INSTANCE_METHODS__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- __IVARS__TtC9CoreIDVUI21UsingYourIDInteractor
+- __IVARS__TtC9CoreIDVUI27IdentityErrorViewController
+- __IVARS__TtC9CoreIDVUI31DigitalPresentmentRootViewModel
+- __IVARS__TtC9CoreIDVUI34IdentityProofingVerifyingViewModel
+- __IVARS__TtC9CoreIDVUI39DigitalPresentmentIdentityViewsProvider
+- __IVARS__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- __IVARS__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController
+- __IVARS__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- __IVARS__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- __METACLASS_DATA__TtC9CoreIDVUI21UsingYourIDInteractor
+- __METACLASS_DATA__TtC9CoreIDVUI24IdentityProofingUIColors
+- __METACLASS_DATA__TtC9CoreIDVUI27IdentityErrorViewController
+- __METACLASS_DATA__TtC9CoreIDVUI31DigitalPresentmentRootViewModel
+- __METACLASS_DATA__TtC9CoreIDVUI34IdentityProofingVerifyingViewModel
+- __METACLASS_DATA__TtC9CoreIDVUI39DigitalPresentmentIdentityViewsProvider
+- __METACLASS_DATA__TtC9CoreIDVUI39IdentityProofingExtendedReviewViewModel
+- __METACLASS_DATA__TtC9CoreIDVUI39IdentityProofingVerifyingViewController
+- __METACLASS_DATA__TtC9CoreIDVUI42IdentityProofingNavigationControllerHelper
+- __METACLASS_DATA__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController
+- __METACLASS_DATA__TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController
+- __METACLASS_DATA__TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController
+- __NSConcreteGlobalBlock
+- __OBJC_$_INSTANCE_METHODS_PassWrapper
+- __OBJC_$_INSTANCE_METHODS__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController(CoreIDVUI)
+- __OBJC_$_INSTANCE_VARIABLES_PassWrapper
+- __OBJC_$_PROP_LIST_PassWrapper
+- __OBJC_CLASS_PROTOCOLS_$__TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController(CoreIDVUI)
+- __OBJC_CLASS_RO_$_PassWrapper
+- __OBJC_METACLASS_RO_$_PassWrapper
+- __PROTOCOLS_CIDVUIProofingDisplayMessage.2
+- __PROTOCOLS__TtC9CoreIDVUI32IdentityProofingTCViewController
+- __PROTOCOLS__TtC9CoreIDVUI32IdentityProofingTCViewController.1
+- ___49-[PassWrapper croppedImageToAlignmentRectInsets:]_block_invoke
+- ___DVUI_LOG_CLIENT_block_invoke
+- ___block_descriptor_32_e5_v8?0l
+- ___block_descriptor_72_e8_32s_e40_v16?0"UIGraphicsImageRendererContext"8ls32l8
+- ___block_literal_global
+- ___getPKPassViewClass_block_invoke
+- ___getPKPassViewClass_block_invoke.cold.1
+- ___swift_memcpy64_8
+- __os_log_debug_impl
+- __os_log_error_impl
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_CoreIDVUI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_CoreIDVUI
+- _associated conformance 9CoreIDVUI25DigitalPresentmentPlatterV7SwiftUI12ViewModifierAA4BodyAdEP_AD0H0
+- _associated conformance 9CoreIDVUI26DigitalPresentmentPassViewV0E5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV7SwiftUI0F0AA4BodyAgHP_AgH
+- _associated conformance 9CoreIDVUI26DigitalPresentmentPassViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _associated conformance 9CoreIDVUI26DigitalPresentmentRootViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _associated conformance 9CoreIDVUI28DigitalPresentmentClientViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _associated conformance 9CoreIDVUI33DigitalPresentmentSheetHeaderViewV7SwiftUI0G0AA4BodyAdEP_AdE
+- _associated conformance 9CoreIDVUI38IdentityProofingProgressViewControllerC0cE4TypeOSHAASQ
+- _associated conformance 9CoreIDVUI39DigitalPresentmentIdentityViewsProviderC019DPRootViewContainerI0V7SwiftUI0I0AA4BodyAfGP_AfG
+- _block_copy_helper.101
+- _block_copy_helper.104
+- _block_copy_helper.105
+- _block_copy_helper.108
+- _block_copy_helper.116
+- _block_copy_helper.122
+- _block_copy_helper.123
+- _block_copy_helper.128
+- _block_copy_helper.129
+- _block_copy_helper.13
+- _block_copy_helper.132
+- _block_copy_helper.134
+- _block_copy_helper.140
+- _block_copy_helper.149
+- _block_copy_helper.152
+- _block_copy_helper.155
+- _block_copy_helper.158
+- _block_copy_helper.164
+- _block_copy_helper.165
+- _block_copy_helper.169
+- _block_copy_helper.185
+- _block_copy_helper.191
+- _block_copy_helper.201
+- _block_copy_helper.208
+- _block_copy_helper.21
+- _block_copy_helper.214
+- _block_copy_helper.221
+- _block_copy_helper.228
+- _block_copy_helper.235
+- _block_copy_helper.246
+- _block_copy_helper.253
+- _block_copy_helper.257
+- _block_copy_helper.261
+- _block_copy_helper.264
+- _block_copy_helper.277
+- _block_copy_helper.281
+- _block_copy_helper.288
+- _block_copy_helper.29
+- _block_copy_helper.291
+- _block_copy_helper.3
+- _block_copy_helper.311
+- _block_copy_helper.325
+- _block_copy_helper.331
+- _block_copy_helper.337
+- _block_copy_helper.340
+- _block_copy_helper.35
+- _block_copy_helper.353
+- _block_copy_helper.360
+- _block_copy_helper.363
+- _block_copy_helper.367
+- _block_copy_helper.377
+- _block_copy_helper.42
+- _block_copy_helper.44
+- _block_copy_helper.49
+- _block_copy_helper.52
+- _block_copy_helper.54
+- _block_copy_helper.55
+- _block_copy_helper.57
+- _block_copy_helper.58
+- _block_copy_helper.61
+- _block_copy_helper.63
+- _block_copy_helper.67
+- _block_copy_helper.7
+- _block_copy_helper.72
+- _block_copy_helper.73
+- _block_copy_helper.78
+- _block_copy_helper.87
+- _block_copy_helper.88
+- _block_copy_helper.92
+- _block_copy_helper.95
+- _block_copy_helper.98
+- _block_descriptor.100
+- _block_descriptor.103
+- _block_descriptor.106
+- _block_descriptor.107
+- _block_descriptor.110
+- _block_descriptor.118
+- _block_descriptor.124
+- _block_descriptor.125
+- _block_descriptor.130
+- _block_descriptor.131
+- _block_descriptor.134
+- _block_descriptor.136
+- _block_descriptor.142
+- _block_descriptor.15
+- _block_descriptor.151
+- _block_descriptor.154
+- _block_descriptor.157
+- _block_descriptor.160
+- _block_descriptor.166
+- _block_descriptor.167
+- _block_descriptor.171
+- _block_descriptor.187
+- _block_descriptor.193
+- _block_descriptor.203
+- _block_descriptor.210
+- _block_descriptor.216
+- _block_descriptor.223
+- _block_descriptor.23
+- _block_descriptor.230
+- _block_descriptor.237
+- _block_descriptor.248
+- _block_descriptor.255
+- _block_descriptor.259
+- _block_descriptor.263
+- _block_descriptor.266
+- _block_descriptor.279
+- _block_descriptor.283
+- _block_descriptor.290
+- _block_descriptor.293
+- _block_descriptor.31
+- _block_descriptor.313
+- _block_descriptor.327
+- _block_descriptor.333
+- _block_descriptor.339
+- _block_descriptor.342
+- _block_descriptor.355
+- _block_descriptor.362
+- _block_descriptor.365
+- _block_descriptor.369
+- _block_descriptor.37
+- _block_descriptor.379
+- _block_descriptor.44
+- _block_descriptor.46
+- _block_descriptor.5
+- _block_descriptor.51
+- _block_descriptor.54
+- _block_descriptor.56
+- _block_descriptor.57
+- _block_descriptor.59
+- _block_descriptor.60
+- _block_descriptor.63
+- _block_descriptor.65
+- _block_descriptor.69
+- _block_descriptor.74
+- _block_descriptor.75
+- _block_descriptor.80
+- _block_descriptor.89
+- _block_descriptor.9
+- _block_descriptor.90
+- _block_descriptor.94
+- _block_descriptor.97
+- _block_destroy_helper.102
+- _block_destroy_helper.105
+- _block_destroy_helper.106
+- _block_destroy_helper.109
+- _block_destroy_helper.117
+- _block_destroy_helper.123
+- _block_destroy_helper.124
+- _block_destroy_helper.129
+- _block_destroy_helper.130
+- _block_destroy_helper.133
+- _block_destroy_helper.135
+- _block_destroy_helper.14
+- _block_destroy_helper.141
+- _block_destroy_helper.150
+- _block_destroy_helper.153
+- _block_destroy_helper.156
+- _block_destroy_helper.159
+- _block_destroy_helper.165
+- _block_destroy_helper.166
+- _block_destroy_helper.170
+- _block_destroy_helper.186
+- _block_destroy_helper.192
+- _block_destroy_helper.202
+- _block_destroy_helper.209
+- _block_destroy_helper.215
+- _block_destroy_helper.22
+- _block_destroy_helper.222
+- _block_destroy_helper.229
+- _block_destroy_helper.236
+- _block_destroy_helper.247
+- _block_destroy_helper.254
+- _block_destroy_helper.258
+- _block_destroy_helper.262
+- _block_destroy_helper.265
+- _block_destroy_helper.278
+- _block_destroy_helper.282
+- _block_destroy_helper.289
+- _block_destroy_helper.292
+- _block_destroy_helper.30
+- _block_destroy_helper.312
+- _block_destroy_helper.326
+- _block_destroy_helper.332
+- _block_destroy_helper.338
+- _block_destroy_helper.341
+- _block_destroy_helper.354
+- _block_destroy_helper.36
+- _block_destroy_helper.361
+- _block_destroy_helper.364
+- _block_destroy_helper.368
+- _block_destroy_helper.378
+- _block_destroy_helper.4
+- _block_destroy_helper.43
+- _block_destroy_helper.45
+- _block_destroy_helper.50
+- _block_destroy_helper.53
+- _block_destroy_helper.55
+- _block_destroy_helper.56
+- _block_destroy_helper.58
+- _block_destroy_helper.59
+- _block_destroy_helper.62
+- _block_destroy_helper.64
+- _block_destroy_helper.68
+- _block_destroy_helper.73
+- _block_destroy_helper.74
+- _block_destroy_helper.79
+- _block_destroy_helper.8
+- _block_destroy_helper.88
+- _block_destroy_helper.89
+- _block_destroy_helper.93
+- _block_destroy_helper.96
+- _block_destroy_helper.99
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_once
+- _getPKPassViewClass.softClass
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyAA6VStackVyAA05TupleE0VyACyAA012_ConditionalD0VyACyACyACyACyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameR0VGAA11_MaskEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeE0VyA_AA5ColorVAA05EmptyE0VGGGAWGAA0i10AttachmentY0VG_ACyACyACyAA4TextVAA010_FixedSizeR0VGAA05_FlexsR0VGAA022_EnvironmentKeyWritingY0VyAA4FontVSgGGtGGA26_yAA13TextAlignmentOGGAA08_PaddingR0VG_Qo_A15_GAaDHPqd__AaDHD2_A41_HO_A15_AA0eY0HPyHCHC.6
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyACyACyACyAA5GroupVyAA012_ConditionalD0VyAA6HStackVyAA05TupleE0VyAA6VStackVyAQyACyAeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicrS0O5BoundRtd__lFQOy9CoreIDVUI022DigitalPresentmentPassE0V0Z5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV_SNyAVGQo_AA0I18AttachmentModifierVG_ACyAA4TextVA6_GSgA10_tGG_AA6SpacerVtGGAOyAQyA7__ASyAQyA11__A10_tGGA15_tGGGGAA14_PaddingLayoutVGA25_GAY0xY7PlatterVG_Qo_A6_GAaDHPqd__AaDHD2_A31_HO_A6_AA0E8ModifierHPyHCHC.13
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA014_ViewModifier_D0Vy9CoreIDVUI25DigitalPresentmentPlatterVGAA016_BackgroundStyleF0VyAA5ColorVGGAA11_MaskEffectVyAA16RoundedRectangleVGGAA0E0HPAoaVHPAiaVHPyHC_AnA0eF0HPyHCHC_AtaWHPyHCHC.1
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA6VStackVyAA9TupleViewVy9CoreIDVUI024DigitalPresentmentClientG0VSg_AEyAGyAH0jk4PassG0VSg_AH0jk17RequestedElementsG0VtGGtGGAA24_BackgroundStyleModifierVyAA5ColorVGGAA022_EnvironmentKeyWritingR0VySiSgGGAA0G0HPAzAA4_HPAtAA4_HPyHC_AyA0gR0HPyHCHC_A2_AAA5_HPyHCHC.9
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA5ImageVAA11_ClipEffectVyAA16RoundedRectangleVGGAA18_AspectRatioLayoutVGAA06_FrameL0VGAA4ViewHPAnaRHPAkaRHPAeaRHPyHC_AjA0N8ModifierHPyHCHC_AmaSHPyHCHC_ApaSHPyHCHC.14
+- _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAGyAGyAGyAA5ImageVAA18_AspectRatioLayoutVGAA06_FrameK0VGAA11_MaskEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeE0VyAsA5ColorVAA05EmptyE0VGGGAA023AccessibilityAttachmentR0VG_AA0E0PAAE15dynamicTypeSizeyQrAA07DynamicZ4SizeOFQOyAA4TextV_Qo_tGGAAA8_HPyHC.1
+- _get_witness_table 9CoreIDVUI26DigitalPresentmentRootViewV7SwiftUI0F0HPyHC.2
+- _get_witness_table 9CoreIDVUI26DigitalPresentmentRootViewV7SwiftUI0F0HPyHC.5
+- _get_witness_table 9CoreIDVUI39DigitalPresentmentRequestedElementsViewV7SwiftUI0G0HPyHC.1
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyAIyAIy9CoreIDVUI026DigitalPresentmentIdentitye3SetC0VAA14_PaddingLayoutVGAA0G18AttachmentModifierVGSg_AIyAA7DividerVARGSgAWA_AwMyAZ_AIyAIyAIyAIyAIyAIyAA4TextVAA010_FixedSizeU0VGAA010_FlexFrameU0VGAA022_EnvironmentKeyWritingW0VyAA4FontVSgGGARGARGAUGtGSgtGGAN0pQ7PlatterVG_Qo_HO.10
+- _malloc
+- _objc_msgSend$alignmentRectInsets
+- _objc_msgSend$checkUserConsentWithCompletionHandler:
+- _objc_msgSend$croppedImageToAlignmentRectInsets:
+- _objc_msgSend$didChangeUserConsent:completion:
+- _objc_msgSend$drawAtPoint:
+- _objc_msgSend$fetchUserConsentWithCompletionHandler:
+- _objc_msgSend$imageWithActions:
+- _objc_msgSend$initWithPass:content:
+- _objc_msgSend$initWithSize:
+- _objc_msgSend$localizedDescription
+- _objc_msgSend$passWithUniqueID:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$size
+- _objc_msgSend$snapshotOfFrontFaceWithRequestedSize:
+- _objectdestroy.112Tm
+- _objectdestroy.141Tm
+- _objectdestroy.159Tm
+- _objectdestroy.17Tm
+- _objectdestroy.183Tm
+- _objectdestroy.19Tm
+- _objectdestroy.21Tm
+- _objectdestroy.225Tm
+- _objectdestroy.323Tm
+- _objectdestroy.55Tm
+- _objectdestroy.5Tm
+- _objectdestroy.70Tm
+- _os_log_create
+- _symbolic $s7SwiftUI12ViewModifierP
+- _symbolic $s9CoreIDVUI17XPCValueContainerP
+- _symbolic $s9CoreIDVUI20RemoteUICoordinatingP
+- _symbolic 5Value_____Qz 9CoreIDVUI17XPCValueContainerP
+- _symbolic SDySS_____G 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0V
+- _symbolic SNy_____G 7SwiftUI15DynamicTypeSizeO
+- _symbolic SSSgIegg_
+- _symbolic Say_____G 13CoreIDVShared12MetricsFlagsC
+- _symbolic ScCy___________pG 18CoreIDVRGBLiveness17RGBLivenessConfigV s5ErrorP
+- _symbolic So12UIScrollViewC
+- _symbolic So15UIBarButtonItemC
+- _symbolic So17OS_dispatch_groupC
+- _symbolic _____ 13CoreIDVShared11DocScanDataV
+- _symbolic _____ 13CoreIDVShared12MetricsFlagsC
+- _symbolic _____ 13CoreIDVShared38IdentityProofingDataSharingUserConsentO
+- _symbolic _____ 13CoreIDVShared8DIPErrorV
+- _symbolic _____ 7CoreIDV38DigitalPresentmentDisplayConfigurationV
+- _symbolic _____ 7CoreIDV38DigitalPresentmentDisplayConfigurationV17PresentationStyleO
+- _symbolic _____ 7SwiftUI5ImageV
+- _symbolic _____ 9CoreIDVUI21UsingYourIDInteractorC
+- _symbolic _____ 9CoreIDVUI24IdentityProofingUIColorsC
+- _symbolic _____ 9CoreIDVUI24UsingYourIDConfigurationV
+- _symbolic _____ 9CoreIDVUI25DigitalPresentmentPlatterV
+- _symbolic _____ 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0V
+- _symbolic _____ 9CoreIDVUI26DigitalPresentmentPassViewV
+- _symbolic _____ 9CoreIDVUI26DigitalPresentmentPassViewV0E5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV
+- _symbolic _____ 9CoreIDVUI26DigitalPresentmentRootViewV
+- _symbolic _____ 9CoreIDVUI27IdentityErrorViewControllerC
+- _symbolic _____ 9CoreIDVUI28DigitalPresentmentClientViewV
+- _symbolic _____ 9CoreIDVUI31DigitalPresentmentRootViewModelC
+- _symbolic _____ 9CoreIDVUI33DigitalPresentmentSheetHeaderViewV
+- _symbolic _____ 9CoreIDVUI34IdentityProofingVerifyingViewModelC
+- _symbolic _____ 9CoreIDVUI38IdentityProofingProgressViewControllerC0cE4TypeO
+- _symbolic _____ 9CoreIDVUI39DigitalPresentmentIdentityViewsProviderC
+- _symbolic _____ 9CoreIDVUI39DigitalPresentmentIdentityViewsProviderC019DPRootViewContainerI0V
+- _symbolic _____ 9CoreIDVUI39IdentityProofingExtendedReviewViewModelC
+- _symbolic _____ 9CoreIDVUI39IdentityProofingVerifyingViewControllerC
+- _symbolic _____ 9CoreIDVUI42IdentityProofingNavigationControllerHelperC
+- _symbolic _____ 9CoreIDVUI43IdentityProofingPasscodeEntryViewControllerC
+- _symbolic _____ 9CoreIDVUI43IdentityProofingRetryProvisioningViewConfigV
+- _symbolic _____ 9CoreIDVUI44IdentityProofingRetryPasscodeEntryViewConfigV
+- _symbolic _____ 9CoreIDVUI47IdentityProofingVerifyingPasscodeViewControllerC
+- _symbolic _____ 9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewControllerC
+- _symbolic _____5lower_AA5uppert 7SwiftUI15DynamicTypeSizeO
+- _symbolic _____Sg 13CoreIDVShared27IdentityProofingDisplayInfoC
+- _symbolic _____Sg 18CoreIDVRGBLiveness25RGBLivenessProofingTargetO
+- _symbolic _____Sg 18CoreIDVRGBLiveness28RGBLivenessCaptureControllerC
+- _symbolic _____Sg 7CoreIDV28IdentityDocumentRelyingPartyV
+- _symbolic _____Sg 7CoreIDV38DigitalPresentmentDisplayConfigurationV
+- _symbolic _____Sg 7CoreIDV38DigitalPresentmentDisplayConfigurationV06ClientE4InfoO
+- _symbolic _____Sg 7CoreIDV38DigitalPresentmentDisplayConfigurationV32PersistedElementsStorageLifetimeO
+- _symbolic _____Sg 9CoreIDVUI26DigitalPresentmentPassViewV
+- _symbolic _____Sg 9CoreIDVUI31DigitalPresentmentRootViewModelC
+- _symbolic _____Sg 9CoreIDVUI42IdentityProofingNavigationControllerHelperC
+- _symbolic _____SgXw 9CoreIDVUI38IdentityProofingProgressViewControllerC
+- _symbolic _____SgXw 9CoreIDVUI39IdentityProofingVerifyingViewControllerC
+- _symbolic _____Sg_ABt 18CoreIDVRGBLiveness25RGBLivenessProofingTargetO
+- _symbolic _____Sg______pSgIeggg_ 10Foundation4DataV s5ErrorP
+- _symbolic _____Sg______t 9CoreIDVUI26DigitalPresentmentPassViewV AA0cd17RequestedElementsF0V
+- _symbolic _____Sg______y_____y_____Sg______tGGt 9CoreIDVUI28DigitalPresentmentClientViewV 7SwiftUI6VStackV AD05TupleF0V AA0cd4PassF0V AA0cd17RequestedElementsF0V
+- _symbolic ______pSg 18CoreIDVRGBLiveness30RGBLivenessImageQualityMonitorP
+- _symbolic ______ypt 13CoreIDVShared8DIPErrorV11PropertyKeyO
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GALG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA08_PaddingH0V AA023AccessibilityAttachmentN0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAH__________GGG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyR0V AA023AccessibilityAttachmentO0V
+- _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAH__________GGG_____G______y______Qo_t 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyR0V AA023AccessibilityAttachmentO0V AA0R0PAAE15dynamicTypeSizeyQrAA07DynamicxY0OFQO AA4TextV
+- _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____SgGG_____GALG 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA08_PaddingH0V
+- _symbolic _____yAAyAAyAAy__________G_____G_____y_____GG_____y_____yAH__________GGG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyR0V
+- _symbolic _____yAAyAAyAAy__________G_____G_____y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4TextV AA16_FixedSizeLayoutV AA010_FlexFrameH0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA08_PaddingH0V
+- _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameH0V AA11_MaskEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAy__________y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA5ImageV AA11_ClipEffectV AA16RoundedRectangleV AA18_AspectRatioLayoutV AA06_FrameL0V
+- _symbolic _____yAAyAAy_____y_____y_____y_____y_____yAEyAAy_____y______SNy_____GQo______G_AAy_____AKGSgANtGG______tGGADyAEyAL_AFyAEyAO_ANtGGARtGGGG_____GA_G_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6HStackV AA9TupleViewV AA6VStackV AA0I0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassI0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV AA14_PaddingLayoutV AU0rS7PlatterV
+- _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV
+- _symbolic _____yAAy__________G_____GSg 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV
+- _symbolic _____yAAy__________G_____GSg_AAy_____ACGSgAgjG_____yAI_AAyAAyAAyAAyAAyAAy__________G_____G_____y_____SgGGACGACGAEGtGSgt 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA7DividerV AA05TupleL0V AA4TextV AA010_FixedSizeN0V AA010_FlexFrameN0V AA022_EnvironmentKeyWritingQ0V AA4FontV
+- _symbolic _____yAAy__________y_____GG_____G 7SwiftUI15ModifiedContentV AA5ImageV AA11_ClipEffectV AA16RoundedRectangleV AA18_AspectRatioLayoutV
+- _symbolic _____yAAy_____y_____G_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9CoreIDVUI25DigitalPresentmentPlatterV AA016_BackgroundStyleF0V AA5ColorV AA11_MaskEffectV AA16RoundedRectangleV
+- _symbolic _____yAAy_____y_____yAAy_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAK__________GGGAIG_____G_AAyAAyAAy__________G_____G_____y_____SgGGtGGA1_y_____GG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeG0V AA5ColorV AA05EmptyG0V AA023AccessibilityAttachmentS0V AA4TextV AA010_FixedSizeL0V AA05_FlexmL0V AA022_EnvironmentKeyWritingS0V AA4FontV AA0Z9AlignmentO AA08_PaddingL0V
+- _symbolic _____yAAy_____y_____y_____Sg_AByACy_____Sg______tGGtGG_____y_____GG_____ySiSgGG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 9CoreIDVUI024DigitalPresentmentClientG0V AH0jk4PassG0V AH0jk17RequestedElementsG0V AA24_BackgroundStyleModifierV AA5ColorV AA022_EnvironmentKeyWritingR0V
+- _symbolic _____yAAy_____y_____y_____y_____y_____yAEyAAy_____y______SNy_____GQo______G_AAy_____AKGSgANtGG______tGGADyAEyAL_AFyAEyAO_ANtGGARtGGGG_____GA_G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6HStackV AA9TupleViewV AA6VStackV AA0I0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassI0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV AA14_PaddingLayoutV
+- _symbolic _____ySS_____G s18_DictionaryStorageC 9CoreIDVUI25IDVTrailingAccessoryLabelC0F0V
+- _symbolic _____ySdG 7SwiftUI12ScaledMetricV
+- _symbolic _____ySiSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
+- _symbolic _____y_____G 7SwiftUI11_MaskEffectV AA16RoundedRectangleV
+- _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9CoreIDVUI25DigitalPresentmentPlatterV
+- _symbolic _____y_____G 7SwiftUI5StateV 9CoreIDVUI31DigitalPresentmentRootViewModelC
+- _symbolic _____y______Qo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA4TextV
+- _symbolic _____y______SNy_____GQo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiceF0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassC0V0M5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AF
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV 9CoreIDVUI40DigitalPresentmentIdentityElementSetViewV AA14_PaddingLayoutV
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y__________GSg 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV
+- _symbolic _____y__________GSg_ADt 7SwiftUI15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y__________G_AAyAAyAAyAAyAAyAAy__________G_____G_____y_____SgGGACGACG_____Gt 7SwiftUI15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA4TextV AA010_FixedSizeG0V AA010_FlexFrameG0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentP0V
+- _symbolic _____y_______________G 7SwiftUI15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyE0V
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 13CoreIDVShared22IdentityLivenessConfigC s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 18CoreIDVRGBLiveness011RGBLivenessA0V s5ErrorP
+- _symbolic _____y___________y_____Sg______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 9CoreIDVUI022DigitalPresentmentPassD0V AJ0kl17RequestedElementsD0V
+- _symbolic _____y___________y_____Sg______yACy_____Sg______tGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V 9CoreIDVUI024DigitalPresentmentClientD0V AA0F0V AJ0kl4PassD0V AJ0kl17RequestedElementsD0V
+- _symbolic _____y___________y_____yACy_____y_____y______SNy_____GQo______G_AEy_____AJGSgAMtGG______tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA6VStackV AA15ModifiedContentV AA0D0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicmN0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassD0V0U5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y___________y_____yADyADyADyADy__________G_____G_____y_____GG_____y_____yAK__________GGG_____G______y______Qo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeD0V AA5ColorV AA05EmptyD0V AA023AccessibilityAttachmentT0V AA0D0PAAE15dynamicTypeSizeyQrAA15DynamicTypeSizeOFQO AA4TextV
+- _symbolic _____y___________y_____yADy__________G_____GSg_ADy_____AFGSgAjmjCyAL_ADyADyADyADyADyADy__________G_____G_____y_____SgGGAFGAFGAHGtGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV 9CoreIDVUI036DigitalPresentmentIdentityElementSetD0V AA08_PaddingG0V AA31AccessibilityAttachmentModifierV AA7DividerV AA4TextV AA010_FixedSizeG0V AA010_FlexFrameG0V AA022_EnvironmentKeyWritingU0V AA4FontV
+- _symbolic _____y___________y_____y__________GSg_AGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y___________y_____y_____yADyADyADyADy__________G_____G_____y_____GG_____y_____yAL__________GGGAJG_____G_ADyADyADy__________G_____G_____y_____SgGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA012_ConditionalJ0V AA5ImageV AA012_AspectRatioG0V AA06_FrameG0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeD0V AA5ColorV AA05EmptyD0V AA023AccessibilityAttachmentU0V AA4TextV AA010_FixedSizeG0V AA05_FlexoG0V AA022_EnvironmentKeyWritingU0V AA4FontV
+- _symbolic _____y___________y_____y_____y______SNy_____GQo______G_ADy_____AIGSgALtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassD0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AP AA31AccessibilityAttachmentModifierV AA4TextV
+- _symbolic _____y___________y_____y_____y______SNy_____GQo______G______yACyADy_____AIGSg_AMtGG_____tGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA0D0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassD0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AP AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA6SpacerV
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA5ImageV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAI__________GGGAGG_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyS0V AA023AccessibilityAttachmentP0V
+- _symbolic _____y_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAI__________GGGAGG_____G_AAyAAyAAy__________G_____G_____y_____SgGGt 7SwiftUI15ModifiedContentV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyS0V AA023AccessibilityAttachmentP0V AA4TextV AA010_FixedSizeI0V AA05_FlexjI0V AA022_EnvironmentKeyWritingP0V AA4FontV
+- _symbolic _____y_____yAAyAAyAAy_____y_____y_____y_____y_____yAEyAAy_____y______SNy_____GQo______G_AAy_____AKGSgANtGG______tGGADyAEyAL_AFyAEyAO_ANtGGARtGGGG_____GA_G_____G_Qo_AKG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA5GroupV AA012_ConditionalD0V AA6HStackV AA05TupleE0V AA6VStackV AeAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicrS0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0Z5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AV AA0I18AttachmentModifierV AA4TextV AA6SpacerV AA14_PaddingLayoutV AY0xY7PlatterV
+- _symbolic _____y_____yAAyAAy_____y_____yAAy_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAK__________GGGAIG_____G_AAyAAyAAy__________G_____G_____y_____SgGGtGGA1_y_____GG_____G_Qo_AVG 7SwiftUI15ModifiedContentV AA4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6VStackV AA05TupleE0V AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeE0V AA5ColorV AA05EmptyE0V AA0i10AttachmentY0V AA4TextV AA010_FixedSizeR0V AA05_FlexsR0V AA022_EnvironmentKeyWritingY0V AA4FontV AA13TextAlignmentO AA08_PaddingR0V
+- _symbolic _____y_____yAAyAAy_____y_____y_____y_____y_____yAEyAAy_____y______SNy_____GQo______G_AAy_____AKGSgANtGG______tGGADyAEyAL_AFyAEyAO_ANtGGARtGGGG_____GA_G_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalK0V AA6HStackV AA05TupleC0V AA6VStackV AcAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicrS0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassC0V0Z5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AV AA0G18AttachmentModifierV AA4TextV AA6SpacerV AA14_PaddingLayoutV AY0xY7PlatterV
+- _symbolic _____y_____yAAy_____y_____yAAy_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAK__________GGGAIG_____G_AAyAAyAAy__________G_____G_____y_____SgGGtGGA1_y_____GG_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V AA012_ConditionalK0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameR0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeC0V AA5ColorV AA05EmptyC0V AA0g10AttachmentY0V AA4TextV AA010_FixedSizeR0V AA05_FlexsR0V AA022_EnvironmentKeyWritingY0V AA4FontV AA13TextAlignmentO AA08_PaddingR0V
+- _symbolic _____y_____yAByAByABy__________G_____G_____y_____GG_____y_____yAI__________GGGAGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameI0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyS0V
+- _symbolic _____y_____yAByAByABy__________G_____G_____y_____GG_____y_____yAI__________GGGAG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameJ0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA15StrokeShapeViewV AA5ColorV AA05EmptyT0V
+- _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9CoreIDVUI25DigitalPresentmentPlatterV AA016_BackgroundStyleF0V AA5ColorV
+- _symbolic _____y_____y_____Sg_AAyABy_____Sg______tGGtGG 7SwiftUI6VStackV AA9TupleViewV 9CoreIDVUI024DigitalPresentmentClientE0V AF0hi4PassE0V AF0hi17RequestedElementsE0V
+- _symbolic _____y_____y_____Sg______tGG 7SwiftUI6VStackV AA9TupleViewV 9CoreIDVUI022DigitalPresentmentPassE0V AF0hi17RequestedElementsE0V
+- _symbolic _____y_____y______SNy_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0O5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AH AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y______SNy_____GQo______G_AAy_____AFGSgAIt 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0O5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AH AA31AccessibilityAttachmentModifierV AA4TextV
+- _symbolic _____y_____y______SNy_____GQo______G______y_____yAAy_____AFGSg_AKtGG_____t 7SwiftUI15ModifiedContentV AA4ViewPAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicgH0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0O5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AH AA31AccessibilityAttachmentModifierV AA6VStackV AA05TupleE0V AA4TextV AA6SpacerV
+- _symbolic _____y_____y__________G_AByAByAByAByAByABy__________G_____G_____y_____SgGGADGADG_____GtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA4TextV AA010_FixedSizeI0V AA010_FlexFrameI0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentR0V
+- _symbolic _____y_____y__________G_AByAByAByAByAByABy__________G_____G_____y_____SgGGADGADG_____GtGSg 7SwiftUI9TupleViewV AA15ModifiedContentV AA7DividerV AA14_PaddingLayoutV AA4TextV AA010_FixedSizeI0V AA010_FlexFrameI0V AA30_EnvironmentKeyWritingModifierV AA4FontV AA023AccessibilityAttachmentR0V
+- _symbolic _____y_____y_______________GG 7SwiftUI16_OverlayModifierV AA15StrokeShapeViewV AA16RoundedRectangleV AA5ColorV AA05EmptyG0V
+- _symbolic _____y_____y_____yAAyAAy__________G_____GSg_AAy_____AEGSgAiliCyAK_AAyAAyAAyAAyAAyAAy__________G_____G_____y_____SgGGAEGAEGAGGtGSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 9CoreIDVUI036DigitalPresentmentIdentityElementSetG0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA7DividerV AA4TextV AA010_FixedSizeP0V AA010_FlexFrameP0V AA022_EnvironmentKeyWritingS0V AA4FontV AH0jK7PlatterV
+- _symbolic _____y_____y_____yAAy_____yAAyAAyAAyAAy__________G_____G_____y_____GG_____y_____yAK__________GGGAIG_____G_AAyAAyAAy__________G_____G_____y_____SgGGtGGA1_y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeG0V AA5ColorV AA05EmptyG0V AA023AccessibilityAttachmentS0V AA4TextV AA010_FixedSizeL0V AA05_FlexmL0V AA022_EnvironmentKeyWritingS0V AA4FontV AA0Z9AlignmentO
+- _symbolic _____y_____y_____yABy_____y_____y______SNy_____GQo______G_ADy_____AIGSgALtGG______tGG 7SwiftUI6HStackV AA9TupleViewV AA6VStackV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamicjK0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0R5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AN AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____yACyACyACyACy__________G_____G_____y_____GG_____y_____yAJ__________GGG_____G______y______Qo_tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA18_AspectRatioLayoutV AA06_FrameK0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeE0V AA5ColorV AA05EmptyE0V AA023AccessibilityAttachmentR0V AA0E0PAAE15dynamicTypeSizeyQrAA07DynamicZ4SizeOFQO AA4TextV
+- _symbolic _____y_____y_____yACy__________G_____GSg_ACy_____AEGSgAiliByAK_ACyACyACyACyACyACy__________G_____G_____y_____SgGGAEGAEGAGGtGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 9CoreIDVUI036DigitalPresentmentIdentityElementSetE0V AA14_PaddingLayoutV AA31AccessibilityAttachmentModifierV AA7DividerV AA4TextV AA010_FixedSizeP0V AA010_FlexFrameP0V AA022_EnvironmentKeyWritingS0V AA4FontV
+- _symbolic _____y_____y_____y_____G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA10_ShapeViewV AA08_StrokedE0V AA16RoundedRectangleV AA5ColorV AA19_BackgroundModifierV AA05EmptyF0V
+- _symbolic _____y_____y_____y_____Sg_AByACy_____Sg______tGGtGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 9CoreIDVUI024DigitalPresentmentClientG0V AH0jk4PassG0V AH0jk17RequestedElementsG0V AA24_BackgroundStyleModifierV AA5ColorV
+- _symbolic _____y_____y_____y__________GSg_AFtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA4TextV AA31AccessibilityAttachmentModifierV
+- _symbolic _____y_____y_____y_____yAAyAAy__________G_____GSg_AAy_____AEGSgAiliCyAK_AAyAAyAAyAAyAAyAAy__________G_____G_____y_____SgGGAEGAEGAGGtGSgtGG_____G_Qo_ 7SwiftUI4ViewPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA15ModifiedContentV AA6VStackV AA05TupleC0V 9CoreIDVUI026DigitalPresentmentIdentitye3SetC0V AA14_PaddingLayoutV AA0G18AttachmentModifierV AA7DividerV AA4TextV AA010_FixedSizeU0V AA010_FlexFrameU0V AA022_EnvironmentKeyWritingW0V AA4FontV AN0pQ7PlatterV
+- _symbolic _____y_____y_____y_____yACyACyACyACy__________G_____G_____y_____GG_____y_____yAK__________GGGAIG_____G_ACyACyACy__________G_____G_____y_____SgGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA012_ConditionalG0V AA5ImageV AA18_AspectRatioLayoutV AA06_FrameL0V AA11_MaskEffectV AA16RoundedRectangleV AA16_OverlayModifierV AA011StrokeShapeE0V AA5ColorV AA05EmptyE0V AA023AccessibilityAttachmentS0V AA4TextV AA010_FixedSizeL0V AA05_FlexmL0V AA022_EnvironmentKeyWritingS0V AA4FontV
+- _symbolic _____y_____y_____y_____yACy_____y_____y______SNy_____GQo______G_AEy_____AJGSgAMtGG______tGGAByACyAK_ADyACyAN_AMtGGAQtGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA6VStackV AA08ModifiedD0V AA0G0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamickL0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassG0V0S5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AP AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y_____yACy_____y_____y______SNy_____GQo______G_AEy_____AJGSgAMtGG______tGGAByACyAK_ADyACyAN_AMtGGAQtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV AA6VStackV AA08ModifiedD0V AA0H0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassH0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y_____y______SNy_____GQo______G_ACy_____AHGSgAKtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiciJ0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0Q5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AL AA31AccessibilityAttachmentModifierV AA4TextV
+- _symbolic _____y_____y_____y_____y______SNy_____GQo______G_ACy_____AHGSgAKtGG______t 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiciJ0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0Q5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AL AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y_____y______SNy_____GQo______G______yAByACy_____AHGSg_ALtGG_____tGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA0E0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiciJ0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassE0V0Q5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AL AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y_____y_____yADy_____y_____y______SNy_____GQo______G_AFy_____AKGSgANtGG______tGGACyADyAL_AEyADyAO_ANtGGARtGGGG 7SwiftUI5GroupV AA19_ConditionalContentV AA6HStackV AA9TupleViewV AA6VStackV AA08ModifiedE0V AA0H0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassH0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV
+- _symbolic _____y_____y_____y_____y_____y_____yAEyAAy_____y______SNy_____GQo______G_AAy_____AKGSgANtGG______tGGADyAEyAL_AFyAEyAO_ANtGGARtGGGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA6HStackV AA9TupleViewV AA6VStackV AA0I0PAAE15dynamicTypeSizeyQrqd__SXRd__AA07DynamiclM0O5BoundRtd__lFQO 9CoreIDVUI022DigitalPresentmentPassI0V0T5Image33_A09CE5DECB0A46B33B62A0B856FB58B3LLV AR AA31AccessibilityAttachmentModifierV AA4TextV AA6SpacerV AA14_PaddingLayoutV
+- _symbolic _____y_____ypG s18_DictionaryStorageC 13CoreIDVShared8DIPErrorV11PropertyKeyO
+- _symbolic ySo7UIImageC______tcSg 13CoreIDVShared11DocScanDataV
+- _type_layout_string 9CoreIDVUI24UsingYourIDConfigurationV
+- _type_layout_string 9CoreIDVUI25IDVTrailingAccessoryLabelC0D0V
+- _type_layout_string 9CoreIDVUI26DigitalPresentmentRootViewV
+- _type_layout_string 9CoreIDVUI28DigitalPresentmentClientViewV
+- _type_layout_string 9CoreIDVUI39DigitalPresentmentIdentityViewsProviderC019DPRootViewContainerI0V
+- _type_layout_string 9CoreIDVUI39DigitalPresentmentRequestedElementsViewV
+- _type_layout_string 9CoreIDVUI44IdentityProofingRetryPasscodeEntryViewConfigV
+- _type_layout_string 9CoreIDVUI45IdentityDocumentTransactionElementDetailsViewV
+- _type_layout_string SC7LAErrorLeV
+CStrings:
++ " cannot store this information."
++ " scene resource URL"
++ " will not store this information."
++ " will store this information."
++ "$__lazy_storage_$_addButton"
++ "$__lazy_storage_$_backgroundContainerView"
++ "$__lazy_storage_$_backgroundView"
++ "$__lazy_storage_$_linkButton"
++ "$__lazy_storage_$_previewView"
++ "$__lazy_storage_$_privacyLinkButton"
++ "$__lazy_storage_$_privacyLinkButtonSpacer"
++ "$__lazy_storage_$_stackView"
++ "$__lazy_storage_$_subtitleLabel"
++ "%s - begin"
++ "%s - end"
++ "%s mDL, retrieving documents"
++ "%s passport, inserting documents"
++ "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/ExtendedReview/IdentityProofingAuthCodeViewController.swift"
++ "@\"<UIViewControllerAnimatedTransitioning>\"24@0:8@\"UIViewController\"16"
++ "@\"<UIViewControllerAnimatedTransitioning>\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
++ "@\"<UIViewControllerInteractiveTransitioning>\"24@0:8@\"<UIViewControllerAnimatedTransitioning>\"16"
++ "@\"NSUserActivity\"24@0:8@\"UIScene\"16"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"UIPresentationController\"40@0:8@\"UIViewController\"16@\"UIViewController\"24@\"UIViewController\"32"
++ "@\"UISceneWindowingControlStyle\"24@0:8@\"UIWindowScene\"16"
++ "@\"UIWindow\"16@0:8"
++ "@124@0:8@16@24q32q40@48@56@64q72@80@88@96B104@108@116"
++ "@24@0:8@\"<BSXPCDecoding>\"16"
++ "@40@0:8@16q24@32"
++ "@48@0:8@16d24@32@?40"
++ "A request is already in progress."
++ "AVCaptureVideoDataOutputSampleBufferDelegate"
++ "AppLinkResolver LSAppLink failed to fetch app links: %@"
++ "AppLinkResolver LSAppLink returned no app links"
++ "AppLinkResolver failed to construct url with provided string: '%s'"
++ "B12@?0B8"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "BSXPCSecureCoding"
++ "CAAction"
++ "CALayer internal setting is enabled to allow screen capture on redacted layer"
++ "CGContext"
++ "CGImage"
++ "CGPath"
++ "CIContext failed to create CGImage from outputImage"
++ "CIDVUIProofingDisplayMessageAction"
++ "CIFilter.qrCodeGenerator() had nil outputImage"
++ "Can show liveness consent sheet"
++ "Cannot change user consent because the consent type is invalid"
++ "Cannot fetch user consent because the consent type is invalid"
++ "Checking if caBLE URL: %s"
++ "Connecting to verifier view is not supported"
++ "CoreIDVUI.AuthCodeTextField"
++ "CoreIDVUI.BaseBoardXPCListenerEndpoint"
++ "CoreIDVUI.CIDVUIProofingDisplayMessageAction"
++ "CoreIDVUI.IdentityCredentialProviderHostViewController"
++ "CoreIDVUI.IdentityCredentialProviderSelectionViewHostingController"
++ "CoreIDVUI.IdentityCredentialWebPresentmentClientViewControllerAction"
++ "CoreIDVUI.MRZLayer"
++ "CoreIDVUI.MobileDocumentProviderExtensionHostViewCoordinator"
++ "CoreIDVUI.PassportCameraOverlayView"
++ "CoreIDVUI.PassportChipPulsingEffectLayer"
++ "CoreIDVUI.PassportChipPulsingEffectNode"
++ "CoreIDVUI.PassportMRZCameraPreviewView"
++ "CoreIDVUI.PassportNFCReaderSessionDelegate"
++ "CoreIDVUI.PassportSceneView"
++ "CoreIDVUI.PhoneNode"
++ "CoreIDVUI.RemoteIdentityCredentialProviderHostingController"
++ "CoreIDVUI.RemoteIdentityCredentialProviderPresentingViewController"
++ "CoreIDVUI.StampLayer"
++ "CoreIDVUI.StampPageOverlayLayer"
++ "CoreIDVUI/AuthCodeTextField.swift"
++ "CoreIDVUI/BiometricBindingController.swift"
++ "CoreIDVUI/BiometricBindingEnrollmentProvider.swift"
++ "CoreIDVUI/CIDVUIInternalBiometricFlowManager.swift"
++ "CoreIDVUI/CIDVUIInternalBiometricReplacementFlowManager.swift"
++ "CoreIDVUI/CIDVUIInternalIdentityProofingDataSharingFlowManager.swift"
++ "CoreIDVUI/CIDVUIProofingConfiguration.swift"
++ "CoreIDVUI/DG1.swift"
++ "CoreIDVUI/DG2.swift"
++ "CoreIDVUI/DocumentsRepository.swift"
++ "CoreIDVUI/IdentityCredentialProviderAuthorizationViewModel.swift"
++ "CoreIDVUI/IdentityCredentialProviderHostViewController.swift"
++ "CoreIDVUI/IdentityCredentialProviderSelectionViewModel.swift"
++ "CoreIDVUI/IdentityCredentialProviderViewConnection.swift"
++ "CoreIDVUI/IdentityCredentialWebPresentmentClientViewControllerAction.swift"
++ "CoreIDVUI/IdentityHeroViewControllerProvider.swift"
++ "CoreIDVUI/IdentityProofingAuthCodeRetryViewController.swift"
++ "CoreIDVUI/IdentityProofingAuthCodeViewController.swift"
++ "CoreIDVUI/IdentityProofingExtendedReviewViewConfiguration.swift"
++ "CoreIDVUI/IdentityProofingPendingViewController.swift"
++ "CoreIDVUI/IdentityProofingViewProvider.swift"
++ "CoreIDVUI/ImageQualityManager.swift"
++ "CoreIDVUI/MRZLayer.swift"
++ "CoreIDVUI/MobileDocumentProviderPresentmentContext.swift"
++ "CoreIDVUI/PassProvisioningManager.swift"
++ "CoreIDVUI/PassportCameraOverlayView.swift"
++ "CoreIDVUI/PassportMRZCameraPreviewView.swift"
++ "CoreIDVUI/PassportMRZReaderViewController.swift"
++ "CoreIDVUI/PassportNFCReader.swift"
++ "CoreIDVUI/PassportReaderManager.swift"
++ "CoreIDVUI/PassportSceneHelpers.swift"
++ "CoreIDVUI/PassportSceneView+CameraNode.swift"
++ "CoreIDVUI/PassportSceneView+PassportChipPulsingEffectNode.swift"
++ "CoreIDVUI/PassportSceneView+PassportNode.swift"
++ "CoreIDVUI/PassportSceneView+PhoneNode.swift"
++ "CoreIDVUI/PassportSceneView+Textures.swift"
++ "CoreIDVUI/PassportSceneView.swift"
++ "CoreIDVUI/RGBCaptureConsentViewController.swift"
++ "CoreIDVUI/RGBCaptureSessionManager.swift"
++ "CoreIDVUI/RemoteIdentityCredentialProviderPresentingViewController.swift"
++ "Could not deserialize action value"
++ "Country of the document doesn't exist. Cannot invoke provision identity"
++ "CredentialProviderSelectionViewContinue"
++ "CredentialProviderSelectionViewContinueOnOtherDeviceBody"
++ "CredentialProviderSelectionViewContinueOnOtherDeviceTitle"
++ "CredentialProviderSelectionViewContinueOnPhoneBody"
++ "CredentialProviderSelectionViewContinueOnPhoneTitle"
++ "CredentialProviderSelectionViewHeaderScannableCodeSubtitle"
++ "CredentialProviderSelectionViewHeaderSubtitleWithMerchant %@"
++ "CredentialProviderSelectionViewHeaderTitle"
++ "CredentialProviderSelectionViewPickerCellMultipleDocumentsAvailable"
++ "CredentialProviderSelectionViewPickerCellNumberDocumentsAvailable"
++ "DG1 data is not complete"
++ "DIDeprecated"
++ "DIIdentityCredentialWebPresentmentController"
++ "DynamicContentFillColor"
++ "EXHostViewControllerDelegate"
++ "Error get biometric binding acl type"
++ "Error! Proofing not complete %{public}s"
++ "Expecting bio binding unbound acl"
++ "Expecting passcode binding unbound acl"
++ "Extended Review Display Info is invalid"
++ "Failed to activate view service: %@"
++ "Failed to authorize %@"
++ "Failed to create "
++ "Failed to create NF reader session"
++ "Failed to handle caBLE url with %s: %s"
++ "Failed to load extension context: %@"
++ "Failed to load texture resource: "
++ "Failed to select option %@"
++ "Failed to start NFC reader session"
++ "Failed to tell daemon to show the scannable code view: %@"
++ "Fetching GlobalAuthACL"
++ "Host XPC listener endpoint unexpectedly nil"
++ "Host view controller unexpectedly nil"
++ "ID Country Unavailable"
++ "ID type Unavailable"
++ "IDScanViewController: Initializing with %s image"
++ "IDScanViewController: ciImage does not exist"
++ "IDVRemoteAlertSceneDelegate %{public}s"
++ "IDVRemoteAlertSceneDelegate built ViewController for configuration identifier %{public}s"
++ "IDVRemoteAlertSceneDelegate did not receive a known configuration identifier. Skipping ViewController setup"
++ "IDVRemoteAlertSceneDelegate did not receive configuration identifier. Skipping ViewController setup"
++ "IDVRemoteAlertSceneDelegate receive configuration identifier is not valid. Skipping ViewController setup"
++ "IDVRemoteAlertSceneDelegate received configurationIdentifier %{public}s"
++ "IDVRemoteAlertSceneDelegate received mobile document provider config ID, but a nil connection"
++ "IDVRemoteAlertSceneDelegate received scene is not a SBSUIRemoteAlertScene. Skipping ViewController setup"
++ "IdentityCredentialProviderSelectionViewModel onDismissed handler called"
++ "IdentityCredentialProviderSelectionViewModel onInterruption handler called"
++ "IdentityCredentialProviderSelectionViewPickerCell has a placeholder %{bool}d, preparing the image"
++ "IdentityCredentialProviderSelectionViewPickerCell image icon for the descriptor doesn't exist"
++ "IdentityCredentialProviderSelectionViewPickerCell using a cached image icon"
++ "IdentityCredentialProviderViewConnection %{public}s"
++ "IdentityCredentialProviderViewConnection %{public}s with payload %s"
++ "IdentityCredentialProviderViewConnection %{public}s with request %s"
++ "IdentityCredentialProviderViewConnection connection invalidationHandler called"
++ "IdentityCredentialWebPresentmentController %s"
++ "IdentityCredentialWebPresentmentController %s - presentation anchor: %@"
++ "IdentityCredentialWebPresentmentController clearing performTask"
++ "IdentityProofingAuthCodeEntryViewController Back button clicked on xmas watch authcode entry page. Will go back to the previous page"
++ "IdentityProofingAuthCodeEntryViewController nextButton clicked, but aborting because pass code is invalide; code: '%s'"
++ "IdentityProofingAuthCodeEntryViewController the passcode has been set to '%s'"
++ "IdentityProofingAuthCodeViewController Error occured during auth code proofing, %{public}s"
++ "IdentityProofingAuthCodeViewController Error occurs for UI timeout: %s"
++ "IdentityProofingAuthCodeViewController UI timed out- moving to next screen"
++ "IdentityProofingAuthCodeViewController not starting authcode submission flow, code hasn't been submitted"
++ "IdentityProofingAuthCodeViewController proofIdentity - %{public}s"
++ "IdentityProofingExtendedReviewViewConfiguration Launch issuer URL already in progress"
++ "IdentityProofingExtendedReviewViewConfiguration Valid Extended Review URL: %s, opening the app or an external browser"
++ "IdentityProofingExtendedReviewViewConfiguration failed to refresh extended review link: %@"
++ "IdentityProofingExtendedReviewViewConfiguration fetching new extended review link"
++ "IdentityProofingExtendedReviewViewConfiguration notify content updates"
++ "IdentityProofingFlowManager attempting to provision precursor pass"
++ "IdentityProofingFlowManager configuration is not eligible for precursor provisioning"
++ "IdentityProofingFlowManager displaying workflow blocked alert"
++ "IdentityProofingFlowManager failed to present, workflow controller is nil; saving message"
++ "IdentityProofingFlowManager got message key: %s. Notifying UI to display workflow error"
++ "IdentityProofingFlowManager presenting on %@"
++ "IdentityProofingFlowManager should not provision a precursor pass due to error view"
++ "IdentityProofingFlowManager unable to show '%s'; invalid action: %s"
++ "IdentityProofingFlowManager unable to show '%s'; invalid message: %s"
++ "IdentityProofingFlowManager unable to show '%s'; invalid title: %s"
++ "IdentityProofingFlowManager unable to show '%s'; key is not in the config."
++ "IdentityProofingManager unorderedUI does not contain the strings for errorPageRetry. This should never happen"
++ "IdentityProofingManager unorderedUI does not contain the strings for generic error. This should never happen"
++ "IdentityProofingPendingViewConfiguration updating view for inlineProofing: %{bool}d"
++ "IdentityProofingProgressViewConfiguration %s exists in the cardArtData map. Will assign it to the imageView"
++ "IdentityProofingProgressViewConfiguration Failed to sleep for %f seconds: %@"
++ "IdentityProofingProgressViewConfiguration Image assets doesn't exist for the UI; using default"
++ "IdentityProofingProgressViewConfiguration Unordered UI doesn't exist, cannot update progress UI"
++ "IdentityProofingProgressViewConfiguration assetID for the header image is %s"
++ "IdentityProofingProgressViewConfiguration called proofIdentity"
++ "IdentityProofingProgressViewConfiguration finished proofIdentity"
++ "IdentityProofingProgressViewConfiguration: Error occured during inline proofing, %s"
++ "IdentityProofingViewController configuration notified to update contents"
++ "IdentityProofingViewController updating contents"
++ "IdentityProofingViewController view is already configured in proofing view; aborting"
++ "IdentityProofingWaitingForWifiViewConfiguration Inline proofing through XMAS watch scenario"
++ "IdentityProofingWaitingForWifiViewConfiguration Inline proofing through phone only or combo proofing"
++ "IdentityProofingWaitingForWifiViewConfiguration starting file uploads"
++ "Incorrect DG1 format"
++ "Incorrect DG2 format"
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Invalid APDU data for: "
++ "Invalid binding acl"
++ "Invalid image data header"
++ "Invalid number of keys found, expected one."
++ "Invalid scene: %@"
++ "LAAuthentication failure"
++ "Liveness Session already running. Unable to start new liveness session."
++ "MRZ Candidates:\n"
++ "MRZReaderViewController exit transition has not completed; not yet navigating to next screen."
++ "MRZReaderViewController proofing request has not completed; not yet navigating to next screen."
++ "MobileDocumentProviderExtensionHostViewCoordinator %s encountered error %@"
++ "MobileDocumentProviderExtensionHostViewCoordinator encountered error while attempting to request document %@"
++ "MobileDocumentProviderPresentmentContext did not receive an initial update from app extension query."
++ "NFCScanViewConfig"
++ "NFCScanViewConfig Continue button selected"
++ "NFCScanViewConfig Received an error during prepareForProofingIdentity. Ignoring the error as it is non fatal. %s"
++ "NFCScanViewConfig Starting NFC Session"
++ "NFCScanViewConfig Timeout UI fired"
++ "NFCScanViewConfig cancel button pressed; displaying confirmation alert"
++ "NFCScanViewConfig failed to localized string id: %s"
++ "NFCScanViewConfig navigation controller not available; failed to navigate to next view"
++ "NFCScanViewConfig navigation controller not available; failed to present cancallation alert"
++ "NFCScanViewConfig received event: %s, progress: %f"
++ "NFCScanViewConfig setting state to timeout"
++ "NFCScanViewConfig successfully executed prepareForProofingIdentity"
++ "NFReaderSessionDelegate"
++ "No EF.COM record"
++ "No presentation anchor provided."
++ "No tag list found"
++ "Non-nil localConfiguration, trying to present configuration from non-connecting view"
++ "Opened caBLE url with %s"
++ "Opportunistic file uploads complete"
++ "OrganDonorStatusElementText"
++ "Passport metrics:\n"
++ "PassportMRZCameraPreview Error while checking MRZ eligibility: %@"
++ "PassportMRZCameraPreview Found MRZ Candidates: "
++ "PassportMRZCameraPreview Hit MRZ eligibility check: expired"
++ "PassportMRZCameraPreview Hit MRZ eligibility check: underage"
++ "PassportMRZCameraPreview Hit MRZ eligibility check: unsuppported country"
++ "PassportMRZCameraPreview MRZ eligibility check passed."
++ "PassportMRZCameraPreview MRZ ineligible; returning"
++ "PassportMRZCameraPreview Passport MRZ was found."
++ "PassportMRZCameraPreview Using Ultra Wide Camera"
++ "PassportMRZCameraPreview Using Wide Angle Camera"
++ "PassportMRZCameraPreview could not add device input"
++ "PassportMRZCameraPreview could not create device input"
++ "PassportMRZCameraPreview could not get capture device"
++ "PassportMRZCameraPreview running capture session."
++ "PassportMRZCameraPreviewView displaying final mrz lines: "
++ "PassportMRZCameraPreviewView not enough MRZ lines to display; aborting updating"
++ "PassportMRZReaderViewController cancelling"
++ "PassportMRZReaderViewController failed initiatePartialProofing: %@"
++ "PassportMRZReaderViewController sending MRZ as initial proofing data"
++ "PassportMRZReaderViewController updating IMQ feedback: %s"
++ "PassportNFCReader Error reading passport chip: %@"
++ "PassportNFCReader Finished current NFC session."
++ "PassportNFCReader No compatible tags detected"
++ "PassportNFCReader Session detected %ld tags"
++ "PassportNFCReader Session ended unexpectedly, restarting NFReaderSession: %@"
++ "PassportNFCReader connected to chip, starting reading passport information"
++ "PassportNFCReader could not connect to detected tag"
++ "PassportNFCReader could not create NF reader session"
++ "PassportNFCReader ending current reading session"
++ "PassportNFCReader finished device read, starting pendingCommands"
++ "PassportNFCReader finished full NFC read"
++ "PassportNFCReader starting new reading session"
++ "PassportSceneView PassportNode: Failed to load 'PassportScene.scn'. Scene setup aborted."
++ "PassportSceneView PassportNode: Invalid indices for page update: left %ld, right %ld"
++ "PassportSceneView PassportNode: Invalid page index: %ld. Animation aborted."
++ "PassportSceneView PassportNode: No passport page nodes found. Skipping reset."
++ "PassportSceneView PassportNode: passport_shadow node not found"
++ "PassportSceneView PhoneNode: Failed to load nodes from '%s.scn' for model: %s"
++ "PassportSceneView Setup: Scene preparation failed."
++ "PassportSceneView Stamp Layer: Could not place image %s without too much overlap after %ld attempts."
++ "PassportSceneView Stamp Layer: Failed to load image with name: %s"
++ "PassportSceneView Textures: Could not load asset named %s from bundle"
++ "PassportSceneView Textures: PassportNode has not been loaded yet; aborting texture update"
++ "PassportSceneView Textures: PhoneNode has not been loaded yet; aborting texture update"
++ "PassportSceneView Transition: Animation is already playing! Ignoring duplicate call."
++ "PassportSceneView: Color scheme changed to %s"
++ "PassportSceneView: Failed to load scene named '%s'; Could not create resource URL"
++ "PassportSceneView: Failed to load scene named '%s'; Could not create source from resource: %@"
++ "Passport_Stamp_Aztlan"
++ "Passport_Stamp_Cheonguguk"
++ "Passport_Stamp_Iram"
++ "Passport_Stamp_Jinnistan"
++ "Passport_Stamp_Kahyangan"
++ "Passport_Stamp_Patala"
++ "Passport_Stamp_Penglai"
++ "Passport_Stamp_Prester_John"
++ "Passport_Stamp_Pulotu"
++ "Passport_Stamp_Takamagahara"
++ "Passport_Stamp_Thule"
++ "Passport_Stamp_Traiphum"
++ "Passport_USA2020_Set01_template_Diffuse"
++ "Passport_USA2020_Set02_template_Diffuse"
++ "Passport_USAClassic_Set01_template_Diffuse"
++ "Passport_USAClassic_Set02_template_Diffuse"
++ "PhoneMetalAntenna"
++ "Proofing UI unavailable"
++ "Proofing configuration unavailable"
++ "QRCodeGenerator"
++ "READ-INITIALIZED"
++ "RGBCaptureViewController cancelling"
++ "Received an error from opportunistic file upload %s"
++ "Received an error while attempting to fetch the LivenessConsentOptinUI -> %s"
++ "Received new proofing views"
++ "Received unknown view service identifier"
++ "Remote device selection view is not supported"
++ "RemoteIdentityCredentialProviderPresentingViewController remoteSceneDidBecomeActive encountered error %@"
++ "Requesting to fetch LivenessConsentOptin"
++ "Root view controller unexpectedly nil"
++ "SBSUIRemoteAlertSceneDelegate"
++ "Saved IQ Settings:\nExploration: %{bool}d\nFrameBufferSize: %s\nResize: %s\nStableWindow: %s\nIDScanFrameRate: %s\nVideoFrameRate: %s\nMaxRectTravel: %s\nPassportFrameRate: %s\nPassportTimeout: %s\nLivenessBlockingCodes: %s\n------------ Front Scan ------------\n%s\n------------ Back Scan -------------\n%s\n------------- Front ID -------------\n%s\n------------- Back ID --------------\n%s\n-------------- Selfie --------------\n%s\n------------- Liveness -------------\n%s\n------------- Passive --------------\n%s\n------------- Passport -------------\n%s"
++ "ScannableCodeInstructions"
++ "Scene will connect to session"
++ "Select an app to verify your identity for “"
++ "Self is unexpectedly nil during release request"
++ "Self unexpectedly nil"
++ "Self unexpectedly nil in XPC interruption handler"
++ "Successfully received LivenessConsentOptinUI config from the server"
++ "Successfully retrieved %s ACL. Performing biometric binding."
++ "Successfully saved the user's consent to share the proofing data."
++ "T@\"<DIIdentityCredentialWebPresentmentControllerPresentationContextProviding>\",N,W,VpresentationContextProvider"
++ "T@\"NSArray\",N,R"
++ "T@\"NSString\",&,N,V_piiTokenIdentifier"
++ "T@\"NSURL\",N,R"
++ "T@\"UIColor\",N,R"
++ "T@\"UIView\",N,&"
++ "T@\"UIWindow\",?,&,N"
++ "T@\"UIWindow\",N,&,Vwindow"
++ "T@\"_TtC9CoreIDVUI25IDVTrailingAccessoryLabel\",N,&"
++ "T@,N,R"
++ "TQ,R,N"
++ "Templates tag not found"
++ "Tq,N,R,VactionType"
++ "Trying to present configuration from non-connecting view:\ncurrent localConfiguration: %s\nnew configuration: %s"
++ "T{UIEdgeInsets=dddd},N,Sdi_setTitleEdgeInsets:"
++ "UISceneDelegate"
++ "UIViewControllerTransitioningDelegate"
++ "UIWindowSceneDelegate"
++ "URL"
++ "URLContexts"
++ "URLForResource:withExtension:subdirectory:"
++ "US Passport - 2020 Generation"
++ "US Passport - Classic"
++ "Unable to cancel proofing session as configuration is nil"
++ "Unable to change the user's consent"
++ "Unable to fetch user's consent to share Identity Proofing data"
++ "Unable to retrieve MRZ information. Will show the error view"
++ "Unable to retrieve image for type: %s"
++ "Unable to save image for type: %s"
++ "Unable to send graceful shutdown message %@"
++ "Unexpected document type. Cannot invoke provision identity"
++ "Unexpected id type or missing configuration"
++ "Unknown MRZ output type returned: "
++ "Unknown action type"
++ "Unrecognized user activity type, unable to configure view service"
++ "Using overriden MRZ values skipping MRZ scan"
++ "View service did not start within timeout interval"
++ "_TtC9CoreIDVUI10DataGroup1"
++ "_TtC9CoreIDVUI10DataGroup2"
++ "_TtC9CoreIDVUI17AuthCodeTextField"
++ "_TtC9CoreIDVUI17PassportNFCReader"
++ "_TtC9CoreIDVUI17PassportSceneView"
++ "_TtC9CoreIDVUI18PassportScanResult"
++ "_TtC9CoreIDVUI20DefaultSceneDelegate"
++ "_TtC9CoreIDVUI24RemoteAlertSceneDelegate"
++ "_TtC9CoreIDVUI25HostedWindowSceneDelegate"
++ "_TtC9CoreIDVUI25PassportCameraOverlayView"
++ "_TtC9CoreIDVUI28BaseBoardXPCListenerEndpoint"
++ "_TtC9CoreIDVUI28PassportMRZCameraPreviewView"
++ "_TtC9CoreIDVUI30RGBCaptureConsentConfiguration"
++ "_TtC9CoreIDVUI31PassportMRZReaderViewController"
++ "_TtC9CoreIDVUI31RGBCaptureConsentViewController"
++ "_TtC9CoreIDVUI37IdentityProofingPendingViewController"
++ "_TtC9CoreIDVUI38IdentityProofingAuthCodeViewController"
++ "_TtC9CoreIDVUI40IdentityCredentialProviderViewConnection"
++ "_TtC9CoreIDVUI40IdentityProofingPendingViewConfiguration"
++ "_TtC9CoreIDVUI41IdentityCredentialScanWithDeviceViewModel"
++ "_TtC9CoreIDVUI43IdentityProofingAuthCodeRetryViewController"
++ "_TtC9CoreIDVUI44IdentityCredentialProviderHostViewController"
++ "_TtC9CoreIDVUI44IdentityCredentialProviderSceneSpecification"
++ "_TtC9CoreIDVUI44IdentityCredentialProviderSelectionViewModel"
++ "_TtC9CoreIDVUI47IdentityProofingExtendedReviewViewConfiguration"
++ "_TtC9CoreIDVUI47IdentityProofingWaitingForWifiViewConfiguration"
++ "_TtC9CoreIDVUI48IdentityCredentialProviderAuthorizationViewModel"
++ "_TtC9CoreIDVUI50IdentityProofingRetryProvisioningViewConfiguration"
++ "_TtC9CoreIDVUI50MobileDocumentProviderExtensionHostViewCoordinator"
++ "_TtC9CoreIDVUI56IdentityCredentialProviderRemoteDeviceSelectionViewModel"
++ "_TtC9CoreIDVUI56RemoteIdentityCredentialProviderPresentingViewController"
++ "_TtC9CoreIDVUI58IdentityCredentialWebPresentmentClientViewControllerAction"
++ "_TtC9CoreIDVUI8MRZLayer"
++ "_TtC9CoreIDVUIP33_3F0861F1A7E2543D1FF06A2AC37E100819ResourceBundleClass"
++ "_TtC9CoreIDVUIP33_4F9BED0E448B35CFCE5184237BB8C82024PreviewNFCPassportReader"
++ "_TtC9CoreIDVUIP33_6424C8BFAA067665DB7631AA91D6A45B30PassportChipPulsingEffectLayer"
++ "_TtC9CoreIDVUIP33_6EA3681501B6C21AA10C1FB9062BCFC832PassportNFCReaderSessionDelegate"
++ "_TtC9CoreIDVUIP33_9BADFAD63A69AF3C454A8E48F7FCB9AA56IdentityCredentialProviderSelectionViewHostingController"
++ "_TtC9CoreIDVUIP33_D656DA4086A4964DFAA720FE5EE5FF4F19ResourceBundleClass"
++ "_TtCC9CoreIDVUI17PassportSceneView10CameraNode"
++ "_TtCC9CoreIDVUI17PassportSceneView12PassportNode"
++ "_TtCC9CoreIDVUI17PassportSceneView21StampPageOverlayLayer"
++ "_TtCC9CoreIDVUI17PassportSceneView29PassportChipPulsingEffectNode"
++ "_TtCC9CoreIDVUI17PassportSceneView9PhoneNode"
++ "_TtCC9CoreIDVUI17PassportSceneViewP33_18A116326E02D2242132B5B2E61598D210StampLayer"
++ "_TtCO9CoreIDVUI16IdentityProofing17NFCScanViewConfig"
++ "_TtCV9CoreIDVUI20PassportNFCGuideView10ViewConfig"
++ "_TtCV9CoreIDVUIP33_9BEBA1C02F10E101344CED9A3D36656D23PlaygroundUIViewWrapper11Coordinator"
++ "_TtP13CoreIDVShared22BiometricQueryProtocol_"
++ "_TtP13CoreIDVShared42MobileDocumentProviderViewServiceInterface_"
++ "_TtP13CoreIDVShared44IdentityDocumentProviderExtensionUIInterface_"
++ "_TtP13CoreIDVShared50MobileDocumentProviderViewServiceDelegateInterface_"
++ "_TtP13CoreIDVShared52IdentityDocumentProviderExtensionUIDelegateInterface_"
++ "_TtP9CoreIDVUI33IdentityCredentialProviderService_"
++ "_TtP9CoreIDVUI41IdentityCredentialProviderServiceDelegate_"
++ "_UIHostedWindowSceneDelegate"
++ "__isAnimationPlaying"
++ "__isPresentingNFCGuideView"
++ "_actionURL"
++ "_backgroundColorForModalFormSheet"
++ "_beginDelayingPresentation:cancellationHandler:"
++ "_endDelayingPresentation"
++ "_image"
++ "_localConfiguration"
++ "_makeCustomErrorViewController(config:)"
++ "_minimumContentMargins"
++ "_navigationControllerProvider"
++ "_nfcReaderEventSubscription"
++ "_nfcReadingProgression"
++ "_numberOfTimeouts"
++ "_onDisappeared"
++ "_onDismissed"
++ "_onShowScannableCode"
++ "_optionSelection"
++ "_passportAnimationStatus"
++ "_passportFrameRate"
++ "_passportNFCReader"
++ "_passportSettings"
++ "_passportTimeout"
++ "_performTask"
++ "_piiTokenIdentifier"
++ "_presentmentContext"
++ "_rootSheetPresentationController"
++ "_setEndpoint:"
++ "_setMinimumContentMargins:"
++ "_setPreferredContentSize:"
++ "_setShouldScaleDownBehindDescendantSheets:"
++ "_timeOutTimer"
++ "_viewControllerForFullScreenPresentationFromView:"
++ "_viewState"
++ "aclData"
++ "aclType"
++ "actionType"
++ "actionURL"
++ "actions"
++ "activate"
++ "activityIndicatorView"
++ "activityType"
++ "addAnimation:forKey:"
++ "addChildNode:"
++ "addInput:"
++ "addLineToPoint:"
++ "addOutput:"
++ "addSublayer:"
++ "addToRunLoop:forMode:"
++ "ambientOcclusion"
++ "analyticsData"
++ "animateChanges:"
++ "animationControllerForDismissedController:"
++ "animationControllerForPresentedController:presentingController:sourceController:"
++ "animationWithKeyPath:"
++ "appendPath:"
++ "authCodeTextField"
++ "background"
++ "backgroundContainerView"
++ "barButtonItem"
++ "begin"
++ "beginConfiguration"
++ "bezierPathWithCGPath:"
++ "bezierPathWithRect:"
++ "biometric record not found"
++ "biometricEnrollmentACLType"
++ "blackoutLayer"
++ "bottomGradientLayer"
++ "bufferSize"
++ "cameraContainerNode"
++ "cameraNode"
++ "canAddInput:"
++ "canAddOutput:"
++ "canShowFedStats: %{bool}d"
++ "canShowFedStats: false ---> canShowLivenessConsentSheet: true"
++ "canShowFedStats: true ---> isWatchModeOnly: false ---> isPerformingLivenessStepUp: false"
++ "canShowLivenessConsentSheet: Will not show liveness consent sheet. Active config doesn't exist"
++ "canShowLivenessConsentSheet: Will not show liveness consent sheet. Passive config exists"
++ "canShowLivenessConsentSheet: Will not show liveness consent sheet. isLivenessConsentOptinEnabled is false"
++ "canShowLivenessConsentSheet: Will not show liveness consent sheet. livenessConfig is nil"
++ "cancelProofing(presentingViewController:)"
++ "cancelRequest"
++ "canvasSize"
++ "caption"
++ "captureDevice"
++ "captureOutput(_:didOutput:from:)"
++ "captureOutput:didDropSampleBuffer:fromConnection:"
++ "captureOutput:didOutputSampleBuffer:fromConnection:"
++ "captureSession"
++ "captureSessionQueue"
++ "cardContainerView"
++ "checkUserConsent:completion:"
++ "checkUserConsentWithConsentType:completionHandler:"
++ "childNodeWithName:recursively:"
++ "childNodes"
++ "chipData"
++ "chipLayer"
++ "chipPlaneNode"
++ "chipPlaneSize"
++ "chipPulsingEffectNode"
++ "chipReadingProgress"
++ "chipReadingSuccess"
++ "clearDataAfterTerminalProofingStateWithConfiguration:proofingOptions:completionHandler:"
++ "clone"
++ "colorNamed:inBundle:compatibleWithTraitCollection:"
++ "com.apple.coreIDV.CaptureSessionQueue"
++ "com.apple.coreIDV.VideoDataOutputQueue"
++ "com.apple.coreidv.CoreIDVUIService"
++ "com.apple.coreidv.web-presentment-authorization-activity-type"
++ "commit"
++ "commitConfiguration"
++ "compositeCheck"
++ "configurationContext"
++ "configurationIdentifier"
++ "configureCellColorScheme"
++ "configureTableViewScheme"
++ "configureTextFieldViewScheme"
++ "connectTag:"
++ "connectToViewServiceWith:completionHandler:"
++ "connectionWithMediaType:"
++ "createCGImage:fromRect:"
++ "createPassportTextureLayer(resourceName:)"
++ "currentInputProgress"
++ "currentTraitCollection"
++ "customActionWithDuration:actionBlock:"
++ "cutoutOverlayLayer"
++ "dashedLineLayer"
++ "data"
++ "dataOffset"
++ "dataStride"
++ "dataWithPropertyList:format:options:error:"
++ "dateFromString:"
++ "dateOfBirth"
++ "dateOfExpiry"
++ "defaultDeviceWithDeviceType:mediaType:position:"
++ "defaultFormat"
++ "detents"
++ "dg1Data"
++ "dg2Data"
++ "di_identityForEmbeddedApplicationIdentifier:"
++ "di_setTitleEdgeInsets:"
++ "di_titleEdgeInsets"
++ "didAuthorizeRequestWithResponse:completionHandler:"
++ "didChangeUserConsent(consentType:consent:)"
++ "didChangeUserConsent:userConsent:completion:"
++ "didChangeUserConsentWithConsentType:consent:completionHandler:"
++ "didChangeUserConsentWithConsentType:status:completionHandler:"
++ "didGetProofingDisplayErrorMessage:"
++ "diffuse"
++ "digitalid.passport.nfc.chip.button.continue"
++ "digitalid.passport.nfc.chip.button.need.more.help"
++ "digitalid.passport.nfc.chip.button.replay"
++ "digitalid.passport.nfc.chip.button.try.again"
++ "digitalid.passport.nfc.chip.description.almost.done"
++ "digitalid.passport.nfc.chip.description.reading"
++ "digitalid.passport.nfc.chip.description.still.reading"
++ "digitalid.passport.nfc.chip.guidance.option.case.subtitle"
++ "digitalid.passport.nfc.chip.guidance.option.case.title"
++ "digitalid.passport.nfc.chip.guidance.option.location.subtitle"
++ "digitalid.passport.nfc.chip.guidance.option.location.title"
++ "digitalid.passport.nfc.chip.guidance.option.orientation.subtitle"
++ "digitalid.passport.nfc.chip.guidance.option.orientation.title"
++ "digitalid.passport.nfc.chip.guidance.option.placement.subtitle"
++ "digitalid.passport.nfc.chip.guidance.option.placement.title"
++ "digitalid.passport.nfc.chip.guidance.title"
++ "digitalid.passport.nfc.chip.subtitle.chip.lost"
++ "digitalid.passport.nfc.chip.subtitle.chip.read"
++ "digitalid.passport.nfc.chip.subtitle.placement"
++ "digitalid.passport.nfc.chip.subtitle.reading.chip"
++ "digitalid.passport.nfc.chip.subtitle.unable.to.read.chip"
++ "digitalid.passport.nfc.chip.title.chip.lost"
++ "digitalid.passport.nfc.chip.title.chip.read"
++ "digitalid.passport.nfc.chip.title.placement"
++ "digitalid.passport.nfc.chip.title.reading.chip"
++ "digitalid.passport.nfc.chip.title.unable.to.read.chip"
++ "dismiss"
++ "dismissWithCompletionHandler:"
++ "displayLink"
++ "displayLinkWithTarget:selector:"
++ "displayingViewController"
++ "dobCheck"
++ "docNumber"
++ "docNumberCheck"
++ "documentCode"
++ "doublePageLandscapeInward"
++ "doublePageLandscapeOutward"
++ "doublePagePortrait"
++ "emission"
++ "emitterCells"
++ "encodeWithBSXPCCoder:"
++ "endSession"
++ "endSessionWithCompletion:"
++ "endpoint"
++ "enroll: existing bound ACL is being used, stripping bound ACL =  %s"
++ "enroll: fetching unbound ACL"
++ "enroll: setting new bound ACL"
++ "enumerateChildNodesUsingBlock:"
++ "error getting biometric template"
++ "error getting number of feature points"
++ "eulerAngles"
++ "expiryCheck"
++ "extensionIdentity(for:)"
++ "facialDataImageInfoSize"
++ "facialDataInfoSize"
++ "facialHeaderSize"
++ "failed to get biometric information template"
++ "failed to get image data"
++ "failure"
++ "fallbackTimeout"
++ "featuresSize"
++ "fetchBiomeFedStatsUIWithCompletionHandler:"
++ "fetchBiometricEnrollmentACLType"
++ "fetchExtendedReviewDisplayInfoWithConfiguration:proofingOptions:completionHandler:"
++ "fetchImageQualitySettingsWithCompletionHandler:"
++ "fetchLivenessConsentOptinUIWithCompletionHandler:"
++ "fetchNewExtendedReviewLink()"
++ "fetchTermsAndConditionsWithCompletionHandler:"
++ "fetchUserConsent(consentType:)"
++ "fetchUserConsent:completion:"
++ "fetchUserConsentWithConsentType:completionHandler:"
++ "fileID"
++ "fileName"
++ "filterWithName:"
++ "filters.setValue"
++ "finalFrameLayer"
++ "findTagLists(comData:)"
++ "firstMaterial"
++ "fixedSize"
++ "flush"
++ "fontWeight"
++ "functionWithName:"
++ "gender"
++ "geometry"
++ "geometryElements"
++ "geometrySourceWithData:semantic:vectorCount:floatComponents:componentsPerVector:bytesPerComponent:dataOffset:dataStride:"
++ "geometrySources"
++ "geometrySourcesForSemantic:"
++ "geometryWithSources:elements:"
++ "getBytes:range:"
++ "getElements(from:)"
++ "getPendingCommands(responseAPDUs:)"
++ "getPendingCommandsWithResponseAPDUs:completionHandler:"
++ "globalAuthACLWithCompletion:"
++ "gradientEndY"
++ "gradientStartY"
++ "group:"
++ "guidanceRepeatCount"
++ "guideContent"
++ "guideTitle"
++ "handleBoundACL: saveBinding = %{bool}d"
++ "hasCompletedExitTransition"
++ "hasCompletedProofingRequest"
++ "headerViewImage"
++ "headerViewImageDisplayMode"
++ "height"
++ "hideHeaderViewImageDuringScreenCapture"
++ "holder"
++ "horizontalPadding"
++ "hostViewControllerDidActivate(_:)"
++ "hostViewControllerDidActivate:"
++ "hostViewControllerWillDeactivate:error:"
++ "hostingController(from:)"
++ "iPhone16Pro_shadow"
++ "identityForEmbeddedApplicationIdentifier:"
++ "ignoresAccessibilityBold"
++ "imageByApplyingTransform:"
++ "imageForDescriptor:"
++ "imageNamed:inBundle:compatibleWithTraitCollection:"
++ "imageQualityFrameCount"
++ "imageQualityFrameRate"
++ "inProgress"
++ "incorrect image data size"
++ "info"
++ "info.circle.fill"
++ "init(coder:rootView:)"
++ "init(connection:configuration:onDismissed:)"
++ "init(endpoint:invalidateSceneHandler:)"
++ "init(frame:)"
++ "init(info:responder:)"
++ "init(info:timeout:forResponseOn:withHandler:)"
++ "init(rootView:)"
++ "initWithActivityType:"
++ "initWithBSXPCCoder:"
++ "initWithBundleIdentifier:"
++ "initWithDevice:error:"
++ "initWithFloat:"
++ "initWithInfo:responder:"
++ "initWithInfo:timeout:forResponseOnQueue:withHandler:"
++ "initWithLayer:"
++ "initWithPresentedViewController:presentingViewController:"
++ "initWithProcessIdentity:sceneSpecification:"
++ "initWithResponseData:"
++ "initWithState:country:target:status:credentialIdentifier:productIdentifier:accountKeyIdentifier:idType:extendedReviewURL:learnMoreURL:supplementalProvisioningData:isPairedWatchUnsupported:proofingErrorMessage:piiTokenIdentifier:"
++ "initWithTitle:actionType:actionURL:"
++ "initWithTitle:message:actions:"
++ "initWithType:"
++ "initWithWindowScene:"
++ "initWithX:Y:"
++ "initWithXPCDictionary:"
++ "initiatePartialProofing(documents:proofingSessionID:)"
++ "initiatePartialProofingWithConfiguration:documents:proofingSessionID:completionHandler:"
++ "interactionControllerForDismissal:"
++ "interactionControllerForPresentation:"
++ "interfaceStyle"
++ "interfaceWithProtocol:"
++ "invalidateDetents"
++ "isAnimationPlaying"
++ "isAutoFocusRangeRestrictionSupported"
++ "isChipReading"
++ "isFaded"
++ "isInlineProofing"
++ "isInlineProofing: %{bool}d"
++ "isLivenessConsentOptinEnabled: %{bool}d"
++ "isOpaque"
++ "isPerformingLivenessStepUp: %{bool}d"
++ "isPerformingLivenessStepUp: true ---> isInlineProofing: false ---> isLivenessConsentOptinEnabled: true"
++ "isPreparingScene"
++ "isRetryProvisioningFlow"
++ "isShowingIneligibleMRZ"
++ "isWatchModeOnly: %{bool}d"
++ "isWatchPairedWithConfiguration:completionHandler:"
++ "issuer"
++ "issuerURL"
++ "keyWindow"
++ "keyboardWillHideWithNotification:"
++ "keyboardWillShowWithNotification:"
++ "largeDetent"
++ "lastPageLandscape"
++ "lastPagePortrait"
++ "launchURLTask"
++ "layoutIfNeeded"
++ "leftAnchor"
++ "lifting"
++ "linkButtonClicked"
++ "linkButtonTargetAction"
++ "linkButtonTitleText"
++ "livenessConfigFetchTask"
++ "livenessConsentOptin"
++ "livenessConsentUIConfig"
++ "livenessConsentUIConfig doesn't have the isUIEnabled flag. Check if it exists in the static worflow"
++ "livenessConsentUIConfig has the isUIEnabled flag set to %{bool}d"
++ "livenessConsentUIConfig is nil"
++ "loadScene(named:fromBundle:)"
++ "loadTask"
++ "lockForConfiguration:"
++ "lookAt:"
++ "mainRunLoop"
++ "makeKeyAndVisible"
++ "makeXPCConnectionWithError:"
++ "materials"
++ "mediumDetent"
++ "metalness"
++ "monospacedSystemFontOfSize:weight:"
++ "morpher"
++ "moveToPoint:"
++ "mrzData"
++ "mrzFormat"
++ "mrzInformation"
++ "mrzLayer"
++ "mrzLineLayers"
++ "mrzParser"
++ "mrzSeenCount"
++ "mrzWrapperLayer"
++ "multiply"
++ "name"
++ "nationality"
++ "nfcData"
++ "nfcGuideDontMove"
++ "nfcGuideOrientation"
++ "nfcGuidePlacement"
++ "nfcGuideRemoveCase"
++ "no biometric data"
++ "noCandidatesCount"
++ "normal"
++ "objectForSetting:"
++ "onAnimationCompleted"
++ "onAnimationPlayStateUpdated"
++ "onCompleteTransitionOut"
++ "onDismissed"
++ "onImageQualityFeedback"
++ "onMRZFound"
++ "onNextButtonClicked"
++ "onPreparedSceneCompletion"
++ "onPresentAuthorizationViewFromConnectingView"
++ "onPresentAuthorizationViewFromSelectionView"
++ "onPresentConnectingToAuthenticatorView"
++ "onPresentScannableCodeView"
++ "onPresentSelectionViewFromConnectingView"
++ "onPresentWaitingForResponseView"
++ "onTimeOut"
++ "optionalCheck"
++ "optionalData"
++ "originatingURL"
++ "outlineGradientMaskEndY"
++ "outlineGradientMaskLayer"
++ "outlineGradientMaskStartY"
++ "outlineLayer"
++ "outputImage"
++ "overlayContainerLayer"
++ "pageNodes"
++ "parentViewController"
++ "particleEmitterLayer"
++ "passProvisioningManager"
++ "passportAnchor"
++ "passportCornerRadius"
++ "passportFallbackSettings"
++ "passportInformation"
++ "passportMetrics"
++ "passportNode"
++ "passportOverlayView"
++ "passportPulseLayer"
++ "passportReader"
++ "passportScanResult"
++ "passportSize"
++ "pendingCommandsTask"
++ "performActionForSceneController:"
++ "performBinding(usingContext:unboundACL:title:localizedReason:saveBinding:completion:)"
++ "performBinding: Bound ACL exist = %s"
++ "performBinding: Error getting bound ACL"
++ "performBinding: Fetching new ACL to bind"
++ "performBinding: Unable to retrieve unbound ACL. Showing error UI."
++ "performBinding: Updated ACL = %s"
++ "performRequest:completionHandler:"
++ "person.text.rectangle.fill"
++ "phoneBlurMaskLayer"
++ "phoneBodyNode"
++ "phoneBorderLayer"
++ "phoneCornerRadius"
++ "phoneModel"
++ "phoneNode"
++ "phoneSize"
++ "photoPageLandscape"
++ "piiTokenIdentifier"
++ "piiTokenIdentifier -> %s"
++ "placedFrames"
++ "placeholder"
++ "planeWithWidth:height:"
++ "playPulsingAnimation"
++ "position"
++ "preferredContentSize"
++ "preferredContentSizeDidChangeForChildContentContainer:"
++ "preferredWindowingControlStyleForScene:"
++ "prepareForProofingDisplay(_:)"
++ "prepareForProofingDisplayWithConfiguration:proofingOptions:completionHandler:"
++ "prepareForProofingIdentityWithDocuments:completionHandler:"
++ "prepareImageForDescriptor:"
++ "prepareObjects:withCompletionHandler:"
++ "present"
++ "present(with:endpoint:)"
++ "presentAuthorizationView(request:)"
++ "presentAuthorizationViewFromConnectingViewWithRequest:completionHandler:"
++ "presentAuthorizationViewFromSelectionView(request:)"
++ "presentAuthorizationViewFromSelectionViewWithRequest:completionHandler:"
++ "presentConnectingToAuthenticatorView()"
++ "presentConnectingToAuthenticatorViewWithCompletionHandler:"
++ "presentScannableCodeView(payload:)"
++ "presentScannableCodeViewWithPayload:completionHandler:"
++ "presentSelectionView(configuration:)"
++ "presentSelectionViewFromConnectingView(configuration:)"
++ "presentSelectionViewFromConnectingViewWithConfiguration:completionHandler:"
++ "presentWaitingForResponseView()"
++ "presentWaitingForResponseViewWithCompletionHandler:"
++ "presentationAnchorForWebPresentmentController:"
++ "presentationContextProvider"
++ "presentationControllerForPresentedViewController:presentingViewController:sourceViewController:"
++ "presenterForPrivacySplashWithIdentifier:"
++ "presentmentContext"
++ "presentmentProtocol"
++ "presentmentRequest"
++ "previewLayer"
++ "previousMRZLines"
++ "primaryButtonTitleText"
++ "privacyButtonTitle"
++ "privacyLinkBundleIdentifier"
++ "privacyLinkButtonClicked"
++ "privacyLinkButtonTargetAction"
++ "progressBuffer"
++ "proofIdentity(authCode:)"
++ "proofIdentity: Identity Proofing Configuration unavailable"
++ "proofIdentityTask"
++ "proofIdentityUsing:proofingOptions:completionHandler:"
++ "proofIdentityWithConfiguration:documents:proofingOptions:shouldScheduleUploads:totalUploadAssetsFileSizeInBytes:completionHandler:"
++ "proofingConfig"
++ "proofingDataTask"
++ "proofingMessageKeyToNotify"
++ "provisionIdentityWithConfiguration:sessionLookupIdentifier:proofingOptions:completionHandler:"
++ "provisionPrecursorPassIfNeeded(for:)"
++ "pupi"
++ "readerSession:didDetectTags:"
++ "readerSession:externalReaderFieldNotification:"
++ "readerSessionDidEndUnexpectedly:"
++ "readerSessionDidEndUnexpectedly:reason:"
++ "readingChipBottomPage"
++ "readingChipTopPage"
++ "ready"
++ "recordFromData:"
++ "regionMinimumAge"
++ "releaseRequestWithCompletionHandler:"
++ "remoteAlertScene:didTransitionToAttachedToWindowedAccessory:windowedAccessoryCutoutFrameInScreen:"
++ "remoteAlertScene:handleButtonActions:"
++ "remoteAlertSceneDidInvalidateForRemoteAlertServiceInvalidation:"
++ "remoteAlertSceneDidUpdateActivationContext:"
++ "remoteDeviceSelectionViewDidSelectScannableCodeWithCompletionHandler:"
++ "removeActionForKey:"
++ "removeAllActions"
++ "removeAllAnimations"
++ "removeFromParentNode"
++ "removeFromSuperlayer"
++ "renderInContext:"
++ "replayButtonTitle"
++ "requestData"
++ "requestDocumentWithRequest:completionHandler:"
++ "resetMRZCount"
++ "resolvedColorWithTraitCollection:"
++ "rightAnchor"
++ "rng"
++ "rootNode"
++ "rootViewController"
++ "roughness"
++ "runAction:"
++ "runAction:completionHandler:"
++ "runAction:forKey:"
++ "runAction:forKey:completionHandler:"
++ "runActionForKey:object:arguments:"
++ "runBlock:"
++ "saveIdentityProofingDataSharingUserConsent called with consent: %{bool}d for consentType: %s"
++ "saveIdentityProofingDataSharingUserConsentWithConsent:consentType:proofingOptions:completionHandler:"
++ "scene"
++ "scene(_:willConnectTo:options:)"
++ "scene:continueUserActivity:"
++ "scene:didFailToContinueUserActivityWithType:error:"
++ "scene:didUpdateUserActivity:"
++ "scene:openURLContexts:"
++ "scene:restoreInteractionStateWithUserActivity:"
++ "scene:willConnectToSession:options:"
++ "scene:willContinueUserActivityWithType:"
++ "sceneDidBecomeActive(_:)"
++ "sceneDidBecomeActive:"
++ "sceneDidDisconnect(_:)"
++ "sceneDidDisconnect:"
++ "sceneDidEnterBackground(_:)"
++ "sceneDidEnterBackground:"
++ "sceneHostingController"
++ "sceneView"
++ "sceneViewController"
++ "sceneWillEnterForeground(_:)"
++ "sceneWillEnterForeground:"
++ "sceneWillResignActive(_:)"
++ "sceneWillResignActive:"
++ "sceneWithURL:options:error:"
++ "scenes.scnassets"
++ "scheduledTimerWithTimeInterval:target:selector:userInfo:repeats:"
++ "secondaryButtonTitleText"
++ "secondarySystemBackgroundColor"
++ "selectionViewDidSelect:completionHandler:"
++ "selfIllumination"
++ "semantic"
++ "sendAction:"
++ "separatorColor"
++ "sequence:"
++ "sequenceOfRecordsFromData:"
++ "setActions:"
++ "setActivationController:"
++ "setAffineTransform:"
++ "setAlignmentMode:"
++ "setAllowsCameraControl:"
++ "setAllowsGroupBlending:"
++ "setAlphaRange:"
++ "setAlphaSpeed:"
++ "setAnimationDuration:"
++ "setAntialiasingMode:"
++ "setAudioListener:"
++ "setAutoFocusRangeRestriction:"
++ "setAutoresizingMask:"
++ "setBackgroundContainerView:"
++ "setBirthRate:"
++ "setBlendMode:"
++ "setBlueRange:"
++ "setBounds:"
++ "setCalculationMode:"
++ "setCamera:"
++ "setCenter:"
++ "setColors:"
++ "setCompletionBlock:"
++ "setCompositingFilter:"
++ "setContentHorizontalAlignment:"
++ "setContents:"
++ "setContentsGravity:"
++ "setContentsScale:"
++ "setCornerCurve:"
++ "setDateFormat:"
++ "setDetents:"
++ "setDuration:"
++ "setEmissionRange:"
++ "setEmitterCells:"
++ "setEmitterDepth:"
++ "setEmitterPosition:"
++ "setEmitterShape:"
++ "setEmitterSize:"
++ "setEndPoint:"
++ "setEulerAngles:"
++ "setExportedInterface:"
++ "setExportedObject:"
++ "setFieldOfView:"
++ "setFillColor:"
++ "setFillMode:"
++ "setFillRule:"
++ "setFilters:"
++ "setFirstMaterial:"
++ "setForegroundColor:"
++ "setFromValue:"
++ "setGeometry:"
++ "setGreenRange:"
++ "setImage:forState:"
++ "setIntensity:"
++ "setLayoutMargins:"
++ "setLayoutMarginsRelativeArrangement:"
++ "setLifetime:"
++ "setLifetimeRange:"
++ "setLightingModelName:"
++ "setLineDashPattern:"
++ "setLineDashPhase:"
++ "setLineFragmentPadding:"
++ "setLineWidth:"
++ "setMask:"
++ "setMaterials:"
++ "setMaximumLineHeight:"
++ "setMessage:"
++ "setMinimumLineHeight:"
++ "setModalPresentationStyle:"
++ "setName:"
++ "setNeedsDisplay"
++ "setObject:forSetting:"
++ "setOpacity:"
++ "setOpaque:"
++ "setPath:"
++ "setPiiTokenIdentifier:"
++ "setPlaying:"
++ "setPointOfView:"
++ "setPosition:"
++ "setPreferredVideoStabilizationMode:"
++ "setPresentationContextProvider:"
++ "setProjectionDirection:"
++ "setRedRange:"
++ "setRemoteObjectInterface:"
++ "setRemovedOnCompletion:"
++ "setRenderMode:"
++ "setRootViewController:"
++ "setSampleBufferDelegate:queue:"
++ "setScaleRange:"
++ "setScene:"
++ "setSession:"
++ "setSessionPreset:"
++ "setShadowColor:"
++ "setShadowOffset:"
++ "setShadowOpacity:"
++ "setShadowPath:"
++ "setShadowRadius:"
++ "setShowsStatistics:"
++ "setStartPoint:"
++ "setString:"
++ "setStrokeColor:"
++ "setTimingFunction:"
++ "setTitleEdgeInsets:"
++ "setToValue:"
++ "setTransform:"
++ "setTransitioningDelegate:"
++ "setTruncationMode:"
++ "setUsesEvenOddFillRule:"
++ "setValue:forKey:"
++ "setVelocity:"
++ "setVelocityRange:"
++ "setVerticalScrollIndicatorInsets:"
++ "setVideoGravity:"
++ "setVideoSettings:"
++ "setWeight:forTargetAtIndex:"
++ "setWindow:"
++ "setWrapped:"
++ "setYAcceleration:"
++ "setZFar:"
++ "setZNear:"
++ "shadowContentNode"
++ "shadowNode"
++ "sharedHardwareManagerWithNoUI"
++ "sheetPresentationController"
++ "shouldPlayPulsingAnimation"
++ "showCaption"
++ "showLinkButton"
++ "showPrimaryButton"
++ "showSecondaryButton"
++ "showTertiaryButton"
++ "smoothedProgress"
++ "startPollingWithError:"
++ "startReaderSession:"
++ "startRunning"
++ "stateRestorationActivityForScene:"
++ "stop:"
++ "stopRunning"
++ "streamContinuations"
++ "stringFromDate:"
++ "submissionThresholdTimer"
++ "subviews"
++ "success"
++ "supportsBSXPCSecureCoding"
++ "systemBlackColor"
++ "systemCyanColor"
++ "systemFillColor"
++ "systemGray6Color"
++ "tag"
++ "tagB"
++ "task"
++ "tertiaryButtonTitle"
++ "textAlignment"
++ "textColor"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textFieldLabel"
++ "the proofing configuration is empty, unable to call proofing completion"
++ "titleEdgeInsets"
++ "toolBarButtons"
++ "topGradientLayer"
++ "transactionElementDetails"
++ "transceiveAPDUs(requestAPDUs:tagOperations:)"
++ "transparent"
++ "triggerAssetsUploadWithProofingOptions:canUploadOnExpensiveNetwork:completionHandler:"
++ "type"
++ "uiView"
++ "unlockForConfiguration"
++ "updateContent"
++ "updateFrame"
++ "userActivities"
++ "userActivity"
++ "v16@?0@\"SCNNode\"8"
++ "v24@0:8@\"<BSXPCEncoding>\"16"
++ "v24@0:8@\"EXHostViewController\"16"
++ "v24@0:8@\"NFReaderSession\"16"
++ "v24@0:8@\"NSString\"16"
++ "v24@0:8@\"SBSUIRemoteAlertScene\"16"
++ "v24@0:8@\"UIScene\"16"
++ "v24@0:8@\"UIWindow\"16"
++ "v24@0:8@?<v@?>16"
++ "v24@0:8@?<v@?@\"NSArray\"q@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared24XPCWebPresentmentRequest\"@\"NSError\">16"
++ "v24@0:8@?<v@?@\"_TtC13CoreIDVShared46XPCMobileDocumentProviderViewServiceIdentifier\"@\"NSError\">16"
++ "v24@?0@\"DCCredentialAuthACL\"8@\"NSError\"16"
++ "v24@?0@\"NFReaderSession\"8@\"NSError\"16"
++ "v24@?0@\"SCNNode\"8^B16"
++ "v24@?0@\"SCNNode\"8d16"
++ "v24@?0@\"_TtC13CoreIDVShared18NFCPendingCommands\"8@\"NSError\"16"
++ "v24@?0@\"_TtC13CoreIDVShared24XPCWebPresentmentRequest\"8@\"NSError\"16"
++ "v24@?0@\"_TtC13CoreIDVShared44XPCMobileDocumentProviderPresentmentResponse\"8@\"NSError\"16"
++ "v24@?0@\"_TtC13CoreIDVShared46XPCMobileDocumentProviderViewServiceIdentifier\"8@\"NSError\"16"
++ "v32@0:8@\"DIIdentityCredentialWebPresentmentRequest\"16@?<v@?@\"DIIdentityCredentialWebPresentmentResponse\"@\"NSError\">24"
++ "v32@0:8@\"EXHostViewController\"16@\"NSError\"24"
++ "v32@0:8@\"NFReaderSession\"16@\"NFFieldNotification\"24"
++ "v32@0:8@\"NFReaderSession\"16@\"NSArray\"24"
++ "v32@0:8@\"NFReaderSession\"16@\"NSError\"24"
++ "v32@0:8@\"NSURL\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"NSXPCListenerEndpoint\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"SBSUIRemoteAlertScene\"16@\"NSSet\"24"
++ "v32@0:8@\"UIScene\"16@\"NSSet\"24"
++ "v32@0:8@\"UIScene\"16@\"NSString\"24"
++ "v32@0:8@\"UIScene\"16@\"NSUserActivity\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"CKShareMetadata\"24"
++ "v32@0:8@\"UIWindowScene\"16@\"UIWindowSceneGeometry\"24"
++ "v32@0:8@\"_TtC13CoreIDVShared18NFCPendingCommands\"16@?<v@?@\"_TtC13CoreIDVShared18NFCPendingCommands\"@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@?<v@?B>24"
++ "v32@0:8@\"_TtC13CoreIDVShared38XPCMobileDocumentProviderUserSelection\"16@?<v@?>24"
++ "v32@0:8@\"_TtC13CoreIDVShared43XPCMobileDocumentProviderPresentmentRequest\"16@?<v@?@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared43XPCMobileDocumentProviderPresentmentRequest\"16@?<v@?@\"_TtC13CoreIDVShared44XPCMobileDocumentProviderPresentmentResponse\"@\"NSError\">24"
++ "v32@0:8@\"_TtC13CoreIDVShared44XPCMobileDocumentProviderPresentmentResponse\"16@?<v@?>24"
++ "v32@0:8@\"_TtC13CoreIDVShared51XPCMobileDocumentProviderLocalOptionUIConfiguration\"16@?<v@?@\"NSError\">24"
++ "v32@0:8Q16@?<v@?B@\"NSError\">24"
++ "v32@0:8Q16@?<v@?Q@\"NSError\">24"
++ "v32@0:8q16@?<v@?B@\"NSError\">24"
++ "v32@0:8q16@?<v@?q@\"NSError\">24"
++ "v32@?0@\"NSArray\"8q16@\"NSError\"24"
++ "v40@0:8@\"AVCaptureOutput\"16^{opaqueCMSampleBuffer=}24@\"AVCaptureConnection\"32"
++ "v40@0:8@\"NSString\"16@24@\"NSDictionary\"32"
++ "v40@0:8@\"UIScene\"16@\"NSString\"24@\"NSError\"32"
++ "v40@0:8@\"UIScene\"16@\"UISceneSession\"24@\"UISceneConnectionOptions\"32"
++ "v40@0:8@\"UIWindowScene\"16@\"UIApplicationShortcutItem\"24@?<v@?B>32"
++ "v40@0:8@16^{opaqueCMSampleBuffer=}24@32"
++ "v40@0:8Q16Q24@?32"
++ "v40@0:8Q16Q24@?<v@?@\"NSError\">32"
++ "v40@0:8q16q24@?32"
++ "v40@0:8q16q24@?<v@?@\"NSError\">32"
++ "v44@0:8B16q20Q28@?36"
++ "v44@0:8B16q20Q28@?<v@?@\"NSError\">36"
++ "v48@0:8@\"UIWindowScene\"16@\"<UICoordinateSpace>\"24q32@\"UITraitCollection\"40"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"NSString\"24Q32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"24@\"NSString\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@16@24Q32@?40"
++ "v48@0:8@16@24q32@40"
++ "v48@0:8{UIEdgeInsets=dddd}16"
++ "v60@0:8@\"SBSUIRemoteAlertScene\"16B24{CGRect={CGPoint=dd}{CGSize=dd}}28"
++ "v60@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"24Q32B40q44@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">52"
++ "v60@0:8@16@24Q32B40q44@?52"
++ "v60@0:8@16B24{CGRect={CGPoint=dd}{CGSize=dd}}28"
++ "value"
++ "vectorCount"
++ "verticalScrollIndicatorInsets"
++ "videoDataOutput"
++ "videoDataOutputQueue"
++ "viewServiceDidBecomeActiveWithCompletionHandler:"
++ "viewServiceWillTerminateWithCompletionHandler:"
++ "viewWillAppear()"
++ "waitForDuration:"
++ "waitingForWifiType"
++ "windowScene:didUpdateCoordinateSpace:interfaceOrientation:traitCollection:"
++ "windowScene:didUpdateEffectiveGeometry:"
++ "windowScene:performActionForShortcutItem:completionHandler:"
++ "windowScene:userDidAcceptCloudKitShareWithMetadata:"
++ "xmark.circle.fill"
++ "xpcEndpoint"
++ "{UIEdgeInsets=dddd}16@0:8"
+- "$__lazy_storage_$_footerCaptionSpacer"
+- "$__lazy_storage_$_learnMoreButton"
+- "$__lazy_storage_$_subTitleLabel"
+- "$__lazy_storage_$_tertiaryLabel"
+- "$__lazy_storage_$_textFieldView"
+- "%s exists in the cardArtData map. Will assign it to the imageView"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Helpers/DocumentsRepository.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Helpers/ImageQualityManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Helpers/PassProvisioningManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/BioBinding/BiometricBindingController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/BioBinding/BiometricBindingEnrollmentProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/BioBinding/BiometricBindingReplacementViewController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/ExtendedReview/IdentityProofingVerifyingPasscodeViewController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/HeroView/IdentityHeroViewControllerProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/RGBCapture/RGBCaptureSessionManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/RGBCapture/RGBCaptureViewController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/Root/IdentityProofingFlowManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/Root/IdentityProofingProgressViewController.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Internal/Modules/Root/IdentityProofingViewProvider.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Public/CIDVUIInternalBiometricFlowManager.swift"
+- "/Library/Caches/com.apple.xbs/Sources/CoreIDV/CoreIDVUI/IdentityUI/Public/CIDVUIInternalBiometricReplacementFlowManager.swift"
+- "@\"PKPass\""
+- "@32@0:8{CGSize=dd}16"
+- "@44@0:8@16@24@32B40"
+- "App links returned from the getAppLinks SPI are nil"
+- "Attempted to launch the url %s"
+- "Back button clicked on xmas watch authcode entry page. Will go back to the previous page"
+- "Contradictory frame constraints specified."
+- "CoreIDVUI"
+- "CoreIDVUI.IdentityErrorViewController"
+- "CoreIDVUI.IdentityProofingAddedToWalletViewController"
+- "CoreIDVUI.IdentityProofingExtendedReviewViewController"
+- "CoreIDVUI.IdentityProofingPasscodeEntryViewController"
+- "CoreIDVUI.IdentityProofingProgressViewController"
+- "CoreIDVUI.IdentityProofingVerifyingPasscodeViewController"
+- "CoreIDVUI.IdentityProofingVerifyingViewController"
+- "CoreIDVUI.IdentityProofingWaitingForWifiViewController"
+- "CoreIDVUI/CIDVUIProofingFlowManager.swift"
+- "CoreIDVUI/IdentityErrorViewController.swift"
+- "CoreIDVUI/IdentityProofingPasscodeEntryViewController.swift"
+- "CoreIDVUI/IdentityProofingRetryPasscodeEntryViewController.swift"
+- "CoreIDVUI/IdentityProofingRetryProvisioningViewConfig.swift"
+- "CoreIDVUI/IdentityProofingVerifyingPasscodeViewController.swift"
+- "CoreIDVUI/IdentityProofingVerifyingViewController.swift"
+- "DPAppleIncClientIcon"
+- "DPDefaultClientIcon"
+- "DPDefaultPassIcon"
+- "DPPlatterBackground"
+- "DPSheetHeaderImage"
+- "DigitalPresentmentIdentityViewsProvider.content: Invoked"
+- "DigitalPresentmentIdentityViewsProvider.content: displayConfig is nil, returning EmptyView"
+- "DigitalPresentmentIdentityViewsProvider.content: displayConfig not nil, returning DPRootViewContainerView"
+- "DigitalPresentmentIdentityViewsProvider.footer: Invoked."
+- "DigitalPresentmentIdentityViewsProvider.header: Invoked"
+- "DigitalPresentmentIdentityViewsProvider.init: Couldn't retrieve displayConfig."
+- "DigitalPresentmentIdentityViewsProvider: init invoked."
+- "DigitalPresentmentPassView.PassSubtitleText"
+- "DigitalPresentmentPassView.PassTitleText"
+- "DigitalPresentmentRequestedElementsView.UsageDescription"
+- "Error in creating PKPassView."
+- "Error occured during auth code proofing, %{public}s"
+- "Error occurred when working with getAppLinks SPI %s"
+- "Error while retrieving getPKPassViewClass, returning nil."
+- "Fetched the URL from the issuer -> %s. Will attempt to launch"
+- "First time launching the URL from the issuer -> %s"
+- "IdentityProofingFlowManager received new proofing views"
+- "Image assets doesn't exist for the UI"
+- "Image quality model returned nil"
+- "Inline proofing through XMAS watch scenario"
+- "Inline proofing through phone only or combo proofing"
+- "Internal setting to skip disable screen captures"
+- "Invalid URL sent from the server. Cannot open URL"
+- "JapanNIDSubtitleText"
+- "LearnMoreURLString exists in the configuration -> %s"
+- "Liveness Capture Controller already running. Unable to start new liveness session."
+- "No previous screen exists in the navigation controller -> remove cancel button, hide primary button, show secondary button"
+- "PKPass is nil, returning nil name."
+- "PKPassView"
+- "PassImage was created successfully."
+- "PassName was created successfully."
+- "PassSubtitleText"
+- "PassWrapper"
+- "Pontus Sheet displayed"
+- "Proofing status saved"
+- "ProofingFlowManager Proofing failed to complete %{public}s"
+- "Saved IQ Settings:\nExploration: %{bool}d\nFrameBufferSize: %s\nResize: %s\nStableWindow: %s\nIDScanFrameRate: %s\nVideoFrameRate: %s\nMaxRectTravel: %s\nLivenessBlockingCodes: %s\n------------ Front Scan ------------\n%s\n------------ Back Scan -------------\n%s\n------------- Front ID -------------\n%s\n------------- Back ID --------------\n%s\n-------------- Selfie --------------\n%s\n------------- Liveness -------------\n%s\n------------- Passive --------------\n%s"
+- "Starting get pass image with size."
+- "Starting get pass name."
+- "Successfully retrieved the App Name: %s"
+- "Successfully retrieved unbound ACL. Performing biometric binding."
+- "Successfully saved the user's consent to share the proofing biome data."
+- "T@\"PKPass\",&,N,V_pass"
+- "T@\"UILabel\",N,&"
+- "TB,N,R,V_isRetryableError"
+- "TestJapanNIDPassTitleText"
+- "TestMDLPassTitleText"
+- "The assetID for the image in IdentityProofingProgressViewController is %s"
+- "The biome fed stats UI Config was not a part of the dynamic workflow"
+- "The navigation controller on extended review screen exists"
+- "The navigation controller on passcode screen exists"
+- "The number of viewcontrollers on the navigation stack on verifying identity screen is %ld"
+- "The passcode has been set to %s"
+- "The previous screen is of type IdentityProofingProgressViewController -> hide the back button, show primary button, hide secondary button"
+- "The primary button title is %s"
+- "Threshold timer up. Moving to Pending state view"
+- "Unable to fetch the URL from the issuer -> %s. Will attempt to launch with old URL. Error -> %s"
+- "Unable to retrieve unbound ACL. Showing error UI."
+- "Unordered UI doesn't exist, cannot show the progress UI"
+- "User has already launched the URL -> %s. Will attempt to fetch the new URL if there is any"
+- "Valid Extended Review URL: %s, opening the app or an external browser"
+- "Will start file uploads"
+- "Will start provisioning identity"
+- "_TtC9CoreIDVUI21UsingYourIDInteractor"
+- "_TtC9CoreIDVUI24IdentityProofingUIColors"
+- "_TtC9CoreIDVUI27IdentityErrorViewController"
+- "_TtC9CoreIDVUI31DigitalPresentmentRootViewModel"
+- "_TtC9CoreIDVUI34IdentityProofingVerifyingViewModel"
+- "_TtC9CoreIDVUI39DigitalPresentmentIdentityViewsProvider"
+- "_TtC9CoreIDVUI39IdentityProofingExtendedReviewViewModel"
+- "_TtC9CoreIDVUI39IdentityProofingVerifyingViewController"
+- "_TtC9CoreIDVUI42IdentityProofingNavigationControllerHelper"
+- "_TtC9CoreIDVUI43IdentityProofingPasscodeEntryViewController"
+- "_TtC9CoreIDVUI47IdentityProofingVerifyingPasscodeViewController"
+- "_TtC9CoreIDVUI48IdentityProofingRetryPasscodeEntryViewController"
+- "_displayConfiguration"
+- "_isRetryableError"
+- "_pass"
+- "_passImageStored"
+- "_passNameStored"
+- "addButton"
+- "addButtonClicked"
+- "alignmentRectInsets"
+- "animateWithDuration:animations:"
+- "app record doesn't exist"
+- "captureController"
+- "checkUserConsentWithCompletionHandler:"
+- "clearDataAfterTerminalProofingStateWithState:proofingOptions:completionHandler:"
+- "com.apple.CoreIDV"
+- "configureTextFieldViewColors"
+- "contentStackView"
+- "continuousCornerRadius"
+- "croppedImageToAlignmentRectInsets:"
+- "didClickOnPrimaryButton"
+- "disableUpdateMask"
+- "displayName"
+- "displayOnlyElementList"
+- "documentType"
+- "drawAtPoint:"
+- "ephemeralElementList"
+- "extendedReviewURLString exists in the configuration -> %s"
+- "fetchBiomeFedStatsUIWithCompletion:"
+- "fetchExtendedReviewDisplayInfo:proofingOptions:completionHandler:"
+- "fetchImageQualitySettings()"
+- "fetchImageQualitySettingsWithCompletion:"
+- "fetchTermsAndConditionsWithCompletion:"
+- "fetchUserConsentWithCompletionHandler:"
+- "forceDoneButton"
+- "getPassImageWithSize:"
+- "getPassName"
+- "identityProofingNavigationControllerHelper"
+- "imageResolutionHelper"
+- "imageViewContainer"
+- "initWithPass:content:"
+- "initWithSize:"
+- "initWithTitle:message:primaryButtonTitle:retryableError:"
+- "initWithTitle:style:target:action:"
+- "initWithUniquePassID:"
+- "isCancelling"
+- "isMovingToParentViewController"
+- "isWatchPairedWithIdType:completionHandler:"
+- "issuerUrlString"
+- "keyboardDidHideWithNotification:"
+- "keyboardDidShowWithNotification:"
+- "livenenessConfigFetchGroup"
+- "localizedDescription"
+- "makeCustomErrorViewController(config:)"
+- "maxLength"
+- "minLength"
+- "mockPassID"
+- "navigationController.viewControllers.count is %{public}ld"
+- "navigationControllerHelper"
+- "opportunitistic file uploads complete"
+- "pass"
+- "passSize"
+- "passWithUniqueID:"
+- "performBinding(usingContext:unboundACL:title:localizedReason:completion:)"
+- "placeHolder"
+- "prepareForProofingDisplay(_:idType:)"
+- "prepareForProofingDisplay:proofingOptions:idType:completionHandler:"
+- "prepareForProofingIdentity:completionHandler:"
+- "primaryLabel"
+- "primaryLabelText"
+- "progressType"
+- "proofIdentity(authCode:idType:completion:)"
+- "proofIdentity:::totalUploadAssetsFileSizeInBytes:completion:"
+- "proofIdentityUsing:proofingOptions:completion:"
+- "provisionIdentityWithState:proofingOptions:completionHandler:"
+- "received an error from opportunistic file upload %s"
+- "reloadData"
+- "removeObserver:"
+- "retainedElementList"
+- "retryConfig"
+- "saveIdentityProofingBiomeDataSharingUserConsent:state:proofingOptions:completionHandler:"
+- "scheduledTimerWithTimeInterval:repeats:block:"
+- "scrollView"
+- "secondaryLabelText"
+- "secondaryStackView"
+- "setLeftBarButtonItems:"
+- "setLeftBarButtonItems:animated:"
+- "setPass:"
+- "setScrollIndicatorInsets:"
+- "setTag:"
+- "snapshotOfFrontFaceWithRequestedSize:"
+- "supplementalProvisioningData exists in the configuration"
+- "tertiaryLabelText"
+- "the state is empty, unable to call proofing completion"
+- "thresholdTimer"
+- "titleLabelText"
+- "triggerAssetsUploadWithProofingOptions:canUploadOnExpensiveNetwork:completion:"
+- "unboundACL"
+- "unorderedUI does not contain the strings for errorPageRetry. This should never happen"
+- "unorderedUI does not contain the strings for generic error. This should never happen"
+- "updateUI"
+- "updateUI:previousTraitCollection:"
+- "updateViews"
+- "v16@?0@\"NSTimer\"8"
+- "v24@0:8@?<v@?B@\"NSError\">16"
+- "v24@0:8@?<v@?Q@\"NSError\">16"
+- "v24@0:8@?<v@?q@\"NSError\">16"
+- "v32@0:8q16@?<v@?@\"NSError\">24"
+- "v32@0:8q16@?<v@?B>24"
+- "v40@0:8@\"NSString\"16Q24@?<v@?@\"NSError\">32"
+- "v44@0:8B16@\"NSString\"20Q28@?<v@?@\"NSError\">36"
+- "v44@0:8B16@20Q28@?36"
+- "v48@0:8@\"_TtC13CoreIDVShared29IdentityProofingConfiguration\"16Q24q32@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">40"
+- "v48@0:8@16Q24q32@?40"
+- "v52@0:8@\"_TtC13CoreIDVShared25IdentityProofingDocuments\"16Q24B32q36@?<v@?@\"_TtC13CoreIDVShared27IdentityProofingDisplayInfo\"@\"NSError\">44"
+- "v52@0:8@16Q24B32q36@?44"
+- "view is already configured in proofing view; aborting"
+- "viewModel"
+- "viewWithTag:"
+
+```

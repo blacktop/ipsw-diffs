@@ -1,0 +1,99 @@
+## libLinearAlgebra.dylib
+
+> `/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLinearAlgebra.dylib`
+
+```diff
+
+-1545.0.0.0.0
+-  __TEXT.__text: 0x11910
+-  __TEXT.__auth_stubs: 0x530
++1545.0.6.0.0
++  __TEXT.__text: 0x11380
++  __TEXT.__auth_stubs: 0x510
+   __TEXT.__objc_methlist: 0x13c
+-  __TEXT.__gcc_except_tab: 0x194
++  __TEXT.__gcc_except_tab: 0x170
+   __TEXT.__cstring: 0x16e2
+   __TEXT.__const: 0xbc
+-  __TEXT.__unwind_info: 0x290
++  __TEXT.__unwind_info: 0x298
+   __TEXT.__objc_classname: 0x16
+   __TEXT.__objc_methname: 0x174
+   __TEXT.__objc_methtype: 0xb5
+
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xc0
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x2a8
++  __AUTH_CONST.__auth_got: 0x298
+   __AUTH_CONST.__const: 0x1f8
+   __AUTH_CONST.__objc_const: 0x1f0
+   __DATA.__data: 0xc0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: D665A0E4-ED31-3759-AEA9-CF6C0403D5B7
++  UUID: 004D0976-D17E-3722-8057-2EF342A2EB9F
+   Functions: 164
+-  Symbols:   429
++  Symbols:   425
+   CStrings:  181
+ 
+Symbols:
++ GCC_except_table11
++ GCC_except_table30
++ GCC_except_table7
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__114__split_bufferINS_4pairIi6edge_tEERNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIi6edge_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP4edgeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP4nodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP8subgraphEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE16__init_with_sizeB8ne200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne200100INS_11__wrap_iterIPS3_EESA_EESA_NS8_IPKS3_EET_T0_l
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE9push_backB8ne200100EOS3_
++ __ZNSt3__16vectorIP4edgeNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIP4nodeNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIP8subgraphNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIP8subgraphNS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne200100IPiS5_EEvT_T0_m
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE9push_backB8ne200100EOi
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
+- GCC_except_table12
+- GCC_except_table29
+- GCC_except_table31
+- GCC_except_table6
+- __ZN8subgraph10addOutEdgeER4edge
+- __ZN8subgraph7addEdgeER4edge
+- __ZN8subgraph7addNodeER4node
+- __ZN8subgraph9addInEdgeER4edge
+- __ZNKSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIP4edgeNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIP4nodeNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIP8subgraphNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__114__split_bufferINS_4pairIi6edge_tEERNS_9allocatorIS3_EEE9push_backEOS3_
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIi6edge_tEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP4edgeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP4nodeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP8subgraphEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE16__init_with_sizeB8ne190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairIi6edge_tEENS_9allocatorIS3_EEE18__insert_with_sizeB8ne190102INS_11__wrap_iterIPS3_EESA_EESA_NS8_IPKS3_EET_T0_l
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE16__init_with_sizeB8ne190102IPiS5_EEvT_T0_m
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+- _wmemchr
+
+```

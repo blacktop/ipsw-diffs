@@ -1,0 +1,1490 @@
+## AuthenticationServices
+
+> `/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices`
+
+```diff
+
+-621.2.5.10.10
+-  __TEXT.__text: 0x89a1c
+-  __TEXT.__auth_stubs: 0x1b20
+-  __TEXT.__objc_methlist: 0x6dc0
+-  __TEXT.__const: 0x5094
+-  __TEXT.__gcc_except_tab: 0x1138
+-  __TEXT.__cstring: 0x6156
+-  __TEXT.__oslogstring: 0x2438
++622.1.14.10.4
++  __TEXT.__text: 0xd22e0
++  __TEXT.__auth_stubs: 0x2160
++  __TEXT.__objc_methlist: 0x7534
++  __TEXT.__const: 0xd874
++  __TEXT.__gcc_except_tab: 0x13b0
++  __TEXT.__cstring: 0x79f6
++  __TEXT.__oslogstring: 0x2e97
+   __TEXT.__dlopen_cstrs: 0x2a8
+-  __TEXT.__ustring: 0x751e
+-  __TEXT.__constg_swiftt: 0x978
+-  __TEXT.__swift5_typeref: 0xdf8
+-  __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_reflstr: 0xb9b
+-  __TEXT.__swift5_assocty: 0x420
+-  __TEXT.__swift5_fieldmd: 0x1098
+-  __TEXT.__swift5_proto: 0x310
+-  __TEXT.__swift5_types: 0x114
+-  __TEXT.__swift5_capture: 0x5c
+-  __TEXT.__swift_as_entry: 0x30
+-  __TEXT.__swift_as_ret: 0x30
+-  __TEXT.__swift5_mpenum: 0x48
+-  __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x2b40
+-  __TEXT.__eh_frame: 0x1200
+-  __TEXT.__objc_classname: 0x1e3f
+-  __TEXT.__objc_methname: 0x1478f
+-  __TEXT.__objc_methtype: 0x3cda
+-  __TEXT.__objc_stubs: 0xcf60
+-  __DATA_CONST.__got: 0xcb0
+-  __DATA_CONST.__const: 0x1a28
+-  __DATA_CONST.__objc_classlist: 0x458
++  __TEXT.__ustring: 0x6e1a
++  __TEXT.__constg_swiftt: 0x11e4
++  __TEXT.__swift5_typeref: 0x1916
++  __TEXT.__swift5_reflstr: 0x11d3
++  __TEXT.__swift5_fieldmd: 0x1e78
++  __TEXT.__swift5_builtin: 0x118
++  __TEXT.__swift5_assocty: 0x588
++  __TEXT.__swift5_proto: 0x5e4
++  __TEXT.__swift5_types: 0x1d8
++  __TEXT.__swift5_capture: 0x580
++  __TEXT.__swift_as_entry: 0xd8
++  __TEXT.__swift_as_ret: 0xf8
++  __TEXT.__swift5_mpenum: 0x60
++  __TEXT.__swift5_protos: 0x14
++  __TEXT.__unwind_info: 0x3cc8
++  __TEXT.__eh_frame: 0x2ee0
++  __TEXT.__objc_classname: 0x1f5b
++  __TEXT.__objc_methname: 0x15e3a
++  __TEXT.__objc_methtype: 0x3f9e
++  __TEXT.__objc_stubs: 0xd700
++  __DATA_CONST.__got: 0xe18
++  __DATA_CONST.__const: 0x1aa8
++  __DATA_CONST.__objc_classlist: 0x4b8
+   __DATA_CONST.__objc_catlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x210
++  __DATA_CONST.__objc_protolist: 0x278
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x4548
+-  __DATA_CONST.__objc_protorefs: 0x70
+-  __DATA_CONST.__objc_superrefs: 0x330
++  __DATA_CONST.__objc_selrefs: 0x48d0
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__objc_superrefs: 0x340
+   __DATA_CONST.__objc_arraydata: 0x140
+-  __AUTH_CONST.__auth_got: 0xda8
+-  __AUTH_CONST.__const: 0x2f10
+-  __AUTH_CONST.__cfstring: 0x4280
+-  __AUTH_CONST.__objc_const: 0xd5c0
++  __AUTH_CONST.__auth_got: 0x10c8
++  __AUTH_CONST.__const: 0x57d0
++  __AUTH_CONST.__cfstring: 0x4380
++  __AUTH_CONST.__objc_const: 0xe458
+   __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH_CONST.__objc_intobj: 0xc0
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x2a10
+-  __AUTH.__data: 0x8a8
+-  __DATA.__objc_ivar: 0x6d4
+-  __DATA.__data: 0x1fe8
+-  __DATA.__bss: 0x5410
+-  __DATA.__common: 0x68
+-  __DATA_DIRTY.__objc_data: 0x190
++  __AUTH.__objc_data: 0x32b8
++  __AUTH.__data: 0xb70
++  __DATA.__objc_ivar: 0x70c
++  __DATA.__data: 0x2820
++  __DATA.__bss: 0xad40
++  __DATA.__common: 0x58
++  __DATA_DIRTY.__objc_data: 0xa0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CallKit.framework/CallKit
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+   - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
++  - /System/Library/Frameworks/LocalAuthenticationEmbeddedUI.framework/LocalAuthenticationEmbeddedUI
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: D91E4D0B-738F-31AD-B58D-133DABF5FABB
+-  Functions: 3868
+-  Symbols:   9645
+-  CStrings:  4751
++  UUID: EB96596F-F533-326F-B73A-5221F63D8C60
++  Functions: 5520
++  Symbols:   10507
++  CStrings:  5131
+ 
+Symbols:
++ +[ASCredentialRequestConfirmButtonSubPane _mainStackViewAlignment]
++ +[_ASPasswordManagerDeleteAlertConfiguration _buttonTitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _configurationForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _credentialDeletionStringForAlertToDeleteNumberOfFileVaultRecoveryKeys:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _credentialDeletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _deletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _subtitleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _subtitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _titleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:]
++ +[_ASPasswordManagerDeleteAlertConfiguration _titleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:]
++ +[_ASPasswordManagerDeleteAlertConfiguration formattedRecentlyDeletedExpirationDays]
++ +[_ASWebsiteNameProvider fetchWebsiteNameForDomain:completionHandler:].cold.2
++ -[ASAuthorizationWebBrowserPublicKeyCredentialManager agentProxy]
++ -[ASCredentialProviderExtensionContext reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:]
++ -[ASCredentialProviderExtensionContext reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:]
++ -[ASCredentialProviderExtensionContext reportUnknownPublicKeyCredentialForRelyingParty:credentialID:]
++ -[ASCredentialProviderExtensionContext reportUnusedPasswordCredentialForDomain:username:]
++ -[ASCredentialProviderViewController reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:]
++ -[ASCredentialProviderViewController reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:]
++ -[ASCredentialProviderViewController reportUnknownPublicKeyCredentialForRelyingParty:credentialID:]
++ -[ASCredentialProviderViewController reportUnusedPasswordCredentialForDomain:userName:]
++ -[ASCredentialRequestPaneViewController _footerStackViewSpacing]
++ -[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:]
++ -[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:].cold.1
++ -[_ASAgentCredentialExchangeListener _setUpExporterConnection:forOperation:]
++ -[_ASAgentCredentialExchangeListener _setUpImporterConnection:forOperation:]
++ -[_ASAgentCredentialExchangeListener cancelCurrentOperation]
++ -[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:].cold.2
++ -[_ASAgentCredentialExchangeListener getExportedCredentialData:].cold.1
++ -[_ASAgentCredentialExchangeListener getExportedCredentialData:].cold.2
++ -[_ASAgentCredentialExchangeListener importCredentialsWithToken:completionHandler:].cold.4
++ -[_ASAgentCredentialExchangeListener listener:shouldAcceptNewConnection:].cold.2
++ -[_ASAgentCredentialExchangeListener listener:shouldAcceptNewConnection:].cold.3
++ -[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]
++ -[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:].cold.1
++ -[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:].cold.2
++ -[_ASAgentCredentialExchangeListener setTokenForImport:].cold.1
++ -[_ASAgentCredentialExchangeListener setTokenForImport:].cold.2
++ -[_ASAgentCredentialExchangeListenerProxy cancelCurrentOperation]
++ -[_ASAgentCredentialExchangeListenerProxy initForMode:]
++ -[_ASAgentCredentialExchangeListenerProxy initForMode:endpoint:]
++ -[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]
++ -[_ASAgentCredentialExchangeOperation .cxx_destruct]
++ -[_ASAgentCredentialExchangeOperation exportDataFetchCompletionHandler]
++ -[_ASAgentCredentialExchangeOperation exportedCredentialData]
++ -[_ASAgentCredentialExchangeOperation exporterBundleIdentifier]
++ -[_ASAgentCredentialExchangeOperation exporterConnection]
++ -[_ASAgentCredentialExchangeOperation importerConnection]
++ -[_ASAgentCredentialExchangeOperation importerToken]
++ -[_ASAgentCredentialExchangeOperation selectedImporterBundleIdentifier]
++ -[_ASAgentCredentialExchangeOperation setExportDataFetchCompletionHandler:]
++ -[_ASAgentCredentialExchangeOperation setExportedCredentialData:]
++ -[_ASAgentCredentialExchangeOperation setExporterBundleIdentifier:]
++ -[_ASAgentCredentialExchangeOperation setExporterConnection:]
++ -[_ASAgentCredentialExchangeOperation setImporterConnection:]
++ -[_ASAgentCredentialExchangeOperation setImporterToken:]
++ -[_ASAgentCredentialExchangeOperation setSelectedImporterBundleIdentifier:]
++ -[_ASAgentCredentialExchangeOperation setTransaction:]
++ -[_ASAgentCredentialExchangeOperation setViewServiceConnection:]
++ -[_ASAgentCredentialExchangeOperation transaction]
++ -[_ASAgentCredentialExchangeOperation viewServiceConnection]
++ -[_ASAgentCredentialUpdateListenerProxy .cxx_destruct]
++ -[_ASAgentCredentialUpdateListenerProxy _reconnectIfNecessary]
++ -[_ASAgentCredentialUpdateListenerProxy _remoteObjectProxyWithErrorHandler:]
++ -[_ASAgentCredentialUpdateListenerProxy _remoteObjectProxyWithErrorHandler:].cold.1
++ -[_ASAgentCredentialUpdateListenerProxy _setUpConnection:]
++ -[_ASAgentCredentialUpdateListenerProxy init]
++ -[_ASAgentCredentialUpdateListenerProxy reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:]
++ -[_ASAgentCredentialUpdateListenerProxy reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:]
++ -[_ASAgentCredentialUpdateListenerProxy reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:]
++ -[_ASAgentCredentialUpdateListenerProxy reportUnusedPasswordCredentialForDomain:username:completionHandler:]
++ -[_ASCABLEQRCodeView _edgeLength]
++ -[_ASCredentialAuthenticationViewController initWithExtension:acceptedPasskeysRequestForRelyingParty:userHandle:acceptedCredentialIDs:]
++ -[_ASCredentialAuthenticationViewController initWithExtension:unknownPasskeyRequestForRelyingParty:credentialID:]
++ -[_ASCredentialAuthenticationViewController initWithExtension:unusedPasswordRequestForDomain:username:]
++ -[_ASCredentialAuthenticationViewController initWithExtension:updatePasskeyRequestForRelyingParty:userHandle:newName:]
++ -[_ASPasswordManagerAccountsSelectionInfo hasAccountsWithVerificationCodes]
++ -[_ASPasswordManagerAccountsSelectionInfo hasOnlyFileVaultRecoveryKeysAndSignInWithAppleAccounts]
++ -[_ASPasswordManagerAccountsSelectionInfo hasOnlyFileVaultRecoveryKeys]
++ -[_ASPasswordManagerAccountsSelectionInfo hasOnlySharedAccounts]
++ -[_ASPasswordManagerAccountsSelectionInfo hasOnlySignInWithAppleAccounts]
++ -[_ASPasswordManagerAccountsSelectionInfo hasSharedAccounts]
++ -[_ASPasswordManagerAccountsSelectionInfo initWithSavedAccounts:]
++ -[_ASPasswordManagerAccountsSelectionInfo isSelectedAccountSingleFileVaultRecoveryKey]
++ -[_ASPasswordManagerAccountsSelectionInfo isSelectedAccountSingleSignInWithApple]
++ -[_ASPasswordManagerAccountsSelectionInfo numberOfFileVaultRecoveryKeys]
++ -[_ASPasswordManagerAccountsSelectionInfo numberOfPasskeys]
++ -[_ASPasswordManagerAccountsSelectionInfo numberOfPasswords]
++ -[_ASPasswordManagerAccountsSelectionInfo numberOfSignInWithAppleAccounts]
++ -[_ASPasswordManagerAccountsSelectionInfo selectedCredentialTypes]
++ -[_ASPasswordManagerIconController appIconForAppID:]
++ GCC_except_table29
++ GCC_except_table30
++ GCC_except_table31
++ GCC_except_table48
++ GCC_except_table50
++ GCC_except_table58
++ GCC_except_table59
++ _ASAgentCredentialExchangeExporterInterface
++ _ASAgentCredentialExchangeExporterInterface.cold.1
++ _ASAgentCredentialExchangeExporterInterface.interface
++ _ASAgentCredentialExchangeExporterInterface.onceToken
++ _ASAgentCredentialExchangeImporterInterface
++ _ASAgentCredentialExchangeImporterInterface.cold.1
++ _ASAgentCredentialExchangeImporterInterface.interface
++ _ASAgentCredentialExchangeImporterInterface.onceToken
++ _ASAuthenticationRequestInternalWebBrowserEntitlement
++ _ASAuthenticationRequestPublicWebBrowserEntitlement
++ _ASCAuthorizationPresenterClientEntitlementName
++ _OBJC_CLASS_$_ASCAgent
++ _OBJC_CLASS_$_NSNumberFormatter
++ _OBJC_CLASS_$_SwiftNativeNSObject
++ _OBJC_CLASS_$_WBSFileVaultRecoveryKey
++ _OBJC_CLASS_$_WBSPasswordsNotificationManager
++ _OBJC_CLASS_$_WBSSavedAccount
++ _OBJC_CLASS_$_WBSSavedAccountMatch
++ _OBJC_CLASS_$_WBSSavedAccountMatchCriteria
++ _OBJC_CLASS_$_WBSStringQuery
++ _OBJC_CLASS_$__ASAgentCredentialExchangeOperation
++ _OBJC_CLASS_$__ASAgentCredentialUpdateListener
++ _OBJC_CLASS_$__ASAgentCredentialUpdateListenerProxy
++ _OBJC_CLASS_$__ASAgentFileVaultRecoveryKeyListener
++ _OBJC_CLASS_$__ASPasswordManagerAccountsSelectionInfo
++ _OBJC_CLASS_$__TtC22AuthenticationServices29_ASCredentialUpdateController
++ _OBJC_CLASS_$__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ _OBJC_CLASS_$__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ _OBJC_CLASS_$__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager
++ _OBJC_CLASS_$__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ _OBJC_CLASS_$__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ _OBJC_IVAR_$_ASCredentialRequestConfirmButtonSubPane._biometricsContainerView
++ _OBJC_IVAR_$__ASAgentCredentialExchangeListener._currentOperation
++ _OBJC_IVAR_$__ASAgentCredentialExchangeListenerProxy._mode
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._exportDataFetchCompletionHandler
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._exportedCredentialData
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._exporterBundleIdentifier
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._exporterConnection
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._importerConnection
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._importerToken
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._selectedImporterBundleIdentifier
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._transaction
++ _OBJC_IVAR_$__ASAgentCredentialExchangeOperation._viewServiceConnection
++ _OBJC_IVAR_$__ASAgentCredentialUpdateListenerProxy._connection
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._hasAccountsWithVerificationCodes
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._hasOnlySharedAccounts
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._hasSharedAccounts
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._numberOfFileVaultRecoveryKeys
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._numberOfPasskeys
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._numberOfPasswords
++ _OBJC_IVAR_$__ASPasswordManagerAccountsSelectionInfo._numberOfSignInWithAppleAccounts
++ _OBJC_METACLASS_$_SwiftNativeNSObject
++ _OBJC_METACLASS_$__ASAgentCredentialExchangeOperation
++ _OBJC_METACLASS_$__ASAgentCredentialUpdateListener
++ _OBJC_METACLASS_$__ASAgentCredentialUpdateListenerProxy
++ _OBJC_METACLASS_$__ASAgentFileVaultRecoveryKeyListener
++ _OBJC_METACLASS_$__ASPasswordManagerAccountsSelectionInfo
++ _OBJC_METACLASS_$__TtC22AuthenticationServices29_ASCredentialUpdateController
++ _OBJC_METACLASS_$__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ _OBJC_METACLASS_$__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ _OBJC_METACLASS_$__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager
++ _OBJC_METACLASS_$__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ _OBJC_METACLASS_$__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ _SFCredentialProviderCapabilitiesSupportedCredentialExchangeFormatVersions
++ _WBS_LOG_CHANNEL_PREFIXCredentialExchange
++ _WBS_LOG_CHANNEL_PREFIXCredentialExchange.cold.1
++ _WBS_LOG_CHANNEL_PREFIXCredentialExchange.log
++ _WBS_LOG_CHANNEL_PREFIXCredentialExchange.onceToken
++ __ASAgentCredentialUpdateListenerInterface
++ __ASAgentCredentialUpdateListenerInterface.cold.1
++ __ASAgentCredentialUpdateListenerInterface.interface
++ __ASAgentCredentialUpdateListenerInterface.onceToken
++ __ASAgentCredentialUpdateServiceName
++ __CLASS_METHODS__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __CLASS_PROPERTIES__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __DATA__ASAgentCredentialUpdateListener
++ __DATA__ASAgentFileVaultRecoveryKeyListener
++ __DATA__TtC22AuthenticationServices19ASCredentialUpdater
++ __DATA__TtC22AuthenticationServices29_ASCredentialUpdateController
++ __DATA__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ __DATA__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ __DATA__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager
++ __DATA__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __DATA__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ __INSTANCE_METHODS__ASAgentCredentialUpdateListener
++ __INSTANCE_METHODS__ASAgentFileVaultRecoveryKeyListener
++ __INSTANCE_METHODS__TtC22AuthenticationServices29_ASCredentialUpdateController
++ __INSTANCE_METHODS__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ __INSTANCE_METHODS__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ __INSTANCE_METHODS__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __INSTANCE_METHODS__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ __IVARS__ASAgentCredentialUpdateListener
++ __IVARS__ASAgentFileVaultRecoveryKeyListener
++ __IVARS__TtC22AuthenticationServices19ASCredentialUpdater
++ __IVARS__TtC22AuthenticationServices29_ASCredentialUpdateController
++ __IVARS__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ __IVARS__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager
++ __IVARS__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __IVARS__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ __METACLASS_DATA__ASAgentCredentialUpdateListener
++ __METACLASS_DATA__ASAgentFileVaultRecoveryKeyListener
++ __METACLASS_DATA__TtC22AuthenticationServices19ASCredentialUpdater
++ __METACLASS_DATA__TtC22AuthenticationServices29_ASCredentialUpdateController
++ __METACLASS_DATA__TtC22AuthenticationServices35_ASNavigationControllerBackdropView
++ __METACLASS_DATA__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ __METACLASS_DATA__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager
++ __METACLASS_DATA__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __METACLASS_DATA__TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest
++ __OBJC_$_CLASS_METHODS_ASAuthorization(SwiftImplementation)
++ __OBJC_$_INSTANCE_METHODS_ASAuthorizationWebBrowserPublicKeyCredentialManager(AuthenticationServices)
++ __OBJC_$_INSTANCE_METHODS__ASAgentCredentialExchangeOperation
++ __OBJC_$_INSTANCE_METHODS__ASAgentCredentialUpdateListenerProxy
++ __OBJC_$_INSTANCE_METHODS__ASAgentPeriodicMaintenanceActivity(SwiftImplementation)
++ __OBJC_$_INSTANCE_METHODS__ASPasswordManagerAccountsSelectionInfo
++ __OBJC_$_INSTANCE_METHODS__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager(AuthenticationServices)
++ __OBJC_$_INSTANCE_VARIABLES__ASAgentCredentialExchangeOperation
++ __OBJC_$_INSTANCE_VARIABLES__ASAgentCredentialUpdateListenerProxy
++ __OBJC_$_INSTANCE_VARIABLES__ASPasswordManagerAccountsSelectionInfo
++ __OBJC_$_PROP_LIST__ASAgentCredentialExchangeOperation
++ __OBJC_$_PROP_LIST__ASPasswordManagerAccountsSelectionInfo
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASAgentCredentialExchangeExporterInterface
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASAgentCredentialExchangeImporterInterface
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__ASCredentialProviderExtensionContextProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SFCredentialProviderExtensionManagerObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__ASCredentialUpdateListenerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASAgentCredentialExchangeExporterInterface
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ASAgentCredentialExchangeImporterInterface
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SFCredentialProviderExtensionManagerObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES__ASCredentialUpdateListenerProtocol
++ __OBJC_$_PROTOCOL_REFS_SFCredentialProviderExtensionManagerObserver
++ __OBJC_CLASS_PROTOCOLS_$__ASAgentCredentialUpdateListenerProxy
++ __OBJC_CLASS_PROTOCOLS_$__TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager(AuthenticationServices)
++ __OBJC_CLASS_RO_$__ASAgentCredentialExchangeOperation
++ __OBJC_CLASS_RO_$__ASAgentCredentialUpdateListenerProxy
++ __OBJC_CLASS_RO_$__ASPasswordManagerAccountsSelectionInfo
++ __OBJC_LABEL_PROTOCOL_$_ASAgentCredentialExchangeExporterInterface
++ __OBJC_LABEL_PROTOCOL_$_ASAgentCredentialExchangeImporterInterface
++ __OBJC_LABEL_PROTOCOL_$_SFCredentialProviderExtensionManagerObserver
++ __OBJC_LABEL_PROTOCOL_$_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_LABEL_PROTOCOL_$__ASCredentialUpdateListenerProtocol
++ __OBJC_METACLASS_RO_$__ASAgentCredentialExchangeOperation
++ __OBJC_METACLASS_RO_$__ASAgentCredentialUpdateListenerProxy
++ __OBJC_METACLASS_RO_$__ASPasswordManagerAccountsSelectionInfo
++ __OBJC_PROTOCOL_$_ASAgentCredentialExchangeExporterInterface
++ __OBJC_PROTOCOL_$_ASAgentCredentialExchangeImporterInterface
++ __OBJC_PROTOCOL_$_SFCredentialProviderExtensionManagerObserver
++ __OBJC_PROTOCOL_$_WBSFileVaultRecoveryKeyListenerProtocol
++ __OBJC_PROTOCOL_$__ASCredentialUpdateListenerProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_ASAgentCredentialExchangeExporterInterface
++ __OBJC_PROTOCOL_REFERENCE_$_ASAgentCredentialExchangeImporterInterface
++ __OBJC_PROTOCOL_REFERENCE_$__ASCredentialUpdateListenerProtocol
++ __PROTOCOLS__ASAgentCredentialUpdateListener
++ __PROTOCOLS__ASAgentCredentialUpdateListener.2
++ __PROTOCOLS__ASAgentFileVaultRecoveryKeyListener
++ __PROTOCOLS__ASAgentFileVaultRecoveryKeyListener.2
++ __PROTOCOLS__TtC22AuthenticationServices29_ASCredentialUpdateController
++ __PROTOCOLS__TtC22AuthenticationServices29_ASCredentialUpdateController.32
++ __PROTOCOLS__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider
++ __PROTOCOLS__TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider.2
++ __PROTOCOLS__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential
++ __PROTOCOLS__TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential.4
++ __PROTOCOL_INSTANCE_METHODS__TtP10SafariCore39WBSPasswordsNotificationManagerProtocol_
++ __PROTOCOL_INSTANCE_METHODS__TtP22AuthenticationServices21_ASCredentialUpdating_
++ __PROTOCOL_INSTANCE_METHODS__TtP22AuthenticationServices38_ASCredentialProviderExtensionManaging_
++ __PROTOCOL_METHOD_TYPES__TtP10SafariCore39WBSPasswordsNotificationManagerProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP22AuthenticationServices21_ASCredentialUpdating_
++ __PROTOCOL_METHOD_TYPES__TtP22AuthenticationServices38_ASCredentialProviderExtensionManaging_
++ __PROTOCOL__TtP10SafariCore39WBSPasswordsNotificationManagerProtocol_
++ __PROTOCOL__TtP22AuthenticationServices21_ASCredentialUpdating_
++ __PROTOCOL__TtP22AuthenticationServices38_ASCredentialProviderExtensionManaging_
++ __UISolariumEnabled
++ ___101-[ASCredentialProviderExtensionContext reportUnknownPublicKeyCredentialForRelyingParty:credentialID:]_block_invoke
++ ___103-[_ASCredentialAuthenticationViewController initWithExtension:unusedPasswordRequestForDomain:username:]_block_invoke
++ ___106-[ASCredentialProviderExtensionContext reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:]_block_invoke
++ ___108-[_ASAgentCredentialUpdateListenerProxy reportUnusedPasswordCredentialForDomain:username:completionHandler:]_block_invoke
++ ___108-[_ASAgentCredentialUpdateListenerProxy reportUnusedPasswordCredentialForDomain:username:completionHandler:]_block_invoke_2
++ ___108-[_ASAgentCredentialUpdateListenerProxy reportUnusedPasswordCredentialForDomain:username:completionHandler:]_block_invoke_2.cold.1
++ ___113-[_ASCredentialAuthenticationViewController initWithExtension:unknownPasskeyRequestForRelyingParty:credentialID:]_block_invoke
++ ___118-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]_block_invoke
++ ___118-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]_block_invoke_2
++ ___118-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]_block_invoke_2.cold.1
++ ___118-[_ASCredentialAuthenticationViewController initWithExtension:updatePasskeyRequestForRelyingParty:userHandle:newName:]_block_invoke
++ ___120-[_ASAgentCredentialUpdateListenerProxy reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:]_block_invoke
++ ___120-[_ASAgentCredentialUpdateListenerProxy reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:]_block_invoke_2
++ ___120-[_ASAgentCredentialUpdateListenerProxy reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:]_block_invoke_2.cold.1
++ ___125-[_ASAgentCredentialUpdateListenerProxy reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:]_block_invoke
++ ___125-[_ASAgentCredentialUpdateListenerProxy reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:]_block_invoke_2
++ ___125-[_ASAgentCredentialUpdateListenerProxy reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:]_block_invoke_2.cold.1
++ ___126-[ASCredentialProviderExtensionContext reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:]_block_invoke
++ ___135-[_ASCredentialAuthenticationViewController initWithExtension:acceptedPasskeysRequestForRelyingParty:userHandle:acceptedCredentialIDs:]_block_invoke
++ ___145-[_ASAgentCredentialUpdateListenerProxy reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:]_block_invoke
++ ___145-[_ASAgentCredentialUpdateListenerProxy reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:]_block_invoke_2
++ ___145-[_ASAgentCredentialUpdateListenerProxy reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:]_block_invoke_2.cold.1
++ ___44-[ASAuthorizationController _failWithError:]_block_invoke.133
++ ___48-[ASCredentialRequestButtonContinue _commonInit]_block_invoke
++ ___52-[ASCredentialRequestPaneViewController viewDidLoad]_block_invoke
++ ___56-[ASAuthorizationController _completeWithAuthorization:]_block_invoke.126
++ ___58-[_ASAgentCredentialUpdateListenerProxy _setUpConnection:]_block_invoke
++ ___58-[_ASAgentCredentialUpdateListenerProxy _setUpConnection:]_block_invoke.cold.1
++ ___58-[_ASPasswordManagerIconController performMaintenanceWork]_block_invoke
++ ___65-[_ASAgentCredentialExchangeListenerProxy cancelCurrentOperation]_block_invoke
++ ___65-[_ASAgentCredentialExchangeListenerProxy cancelCurrentOperation]_block_invoke_2
++ ___65-[_ASAgentCredentialExchangeListenerProxy cancelCurrentOperation]_block_invoke_2.cold.1
++ ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke
++ ___68-[_ASPasswordManagerIconController prepareForApplicationTermination]_block_invoke.28
++ ___73-[_ASAgentPeriodicMaintenanceActivity _runActivityWithCompletionHandler:]_block_invoke_2.7
++ ___75-[ASCredentialRequestCABLEClientViewController _useSecurityKeyButtonTapped]_block_invoke.50
++ ___75-[ASCredentialRequestCABLEClientViewController _useSecurityKeyButtonTapped]_block_invoke.57
++ ___76-[_ASAgentCredentialExchangeListener _setUpExporterConnection:forOperation:]_block_invoke
++ ___76-[_ASAgentCredentialExchangeListener _setUpExporterConnection:forOperation:]_block_invoke.cold.1
++ ___76-[_ASAgentCredentialExchangeListener _setUpImporterConnection:forOperation:]_block_invoke
++ ___76-[_ASAgentCredentialUpdateListenerProxy _remoteObjectProxyWithErrorHandler:]_block_invoke
++ ___76-[_ASAgentCredentialUpdateListenerProxy _remoteObjectProxyWithErrorHandler:]_block_invoke.cold.1
++ ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke.89
++ ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke.92
++ ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke_2
++ ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke_2.cold.1
++ ___86-[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:]_block_invoke.cold.1
++ ___89+[_ASAccountManagerTipManager _checkEligibilityForFamilySharingTipWithCompletionHandler:]_block_invoke_2.cold.2
++ ___89-[ASCredentialProviderExtensionContext reportUnusedPasswordCredentialForDomain:username:]_block_invoke
++ ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke.33
++ ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke.34
++ ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.35
++ ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.35.cold.1
++ ___ASAgentCredentialExchangeExporterInterface_block_invoke
++ ___ASAgentCredentialExchangeImporterInterface_block_invoke
++ ___WBS_LOG_CHANNEL_PREFIXCredentialExchange_block_invoke
++ ____ASAgentCredentialUpdateListenerInterface_block_invoke
++ ___block_descriptor_40_e8_32s_e24_v16?0"NSMutableArray"8ls32l8
++ ___block_descriptor_48_e8_32s40s_e17_v16?0"NSTimer"8ls32l8s40l8
++ ___block_descriptor_56_e8_32s40s48s_e57_v16?0"<_ASCredentialProviderExtensionContextProtocol>"8ls32l8s40l8s48l8
++ ___block_literal_global.122
++ ___block_literal_global.144
++ ___block_literal_global.146
++ ___block_literal_global.25
++ ___block_literal_global.276
++ ___block_literal_global.54
++ ___block_literal_global.55
++ ___block_literal_global.60
++ ___block_literal_global.76
++ ___block_literal_global.91
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_get_extra_inhabitant_index.87Tm
++ ___swift_memcpy112_8
++ ___swift_memcpy11_8
++ ___swift_memcpy216_8
++ ___swift_memcpy224_8
++ ___swift_memcpy336_8
++ ___swift_memcpy504_8
++ ___swift_memcpy616_8
++ ___swift_memcpy672_8
++ ___swift_memcpy673_8
++ ___swift_memcpy9_8
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_store_extra_inhabitant_index.88Tm
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AuthenticationServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AuthenticationServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AuthenticationServices
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AuthenticationServices
++ __swift_stdlib_bridgeErrorToNSError
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO10PersonNameVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO14DriversLicenseVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO4WiFiVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6APIKeyVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO6SSHKeyVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO7AddressVSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices22ASImportableCredentialO8PassportVSHAASQ
++ _associated conformance 22AuthenticationServices24ASAuthorizationUIContextV5TitleOSHAASQ
++ _associated conformance 22AuthenticationServices24ASAuthorizationUIContextV6HeaderV5TitleOSHAASQ
++ _associated conformance 22AuthenticationServices24ASAuthorizationUIContextV8IconTypeO10BiometricsOSHAASQ
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionOSHAASQ
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionOSLAASQ
++ _associated conformance 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 22AuthenticationServices24_ASCredentialUpdateErrorO10Foundation09LocalizedE0AAs0E0
++ _associated conformance 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLOSHAASQ
++ _associated conformance 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsVSHAASQ
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOSHAASQ
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO15EmailCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO15EmailCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO21PhoneNumberCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestO21PhoneNumberCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices26ASContactIdentifierRequestOSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDVSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintVSHAASQ
++ _associated conformance 22AuthenticationServices27ASImportableCredentialScopeVSHAASQ
++ _associated conformance 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLOSHAASQ
++ _associated conformance 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLOs0kH0AAs23CustomStringConvertible
++ _associated conformance 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLOs0kH0AAs28CustomDebugStringConvertible
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation021_ObjectiveCBridgeableB0SCs0B0
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation13CustomNSErrorSCs0B0
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_8RawValueSYs17FixedWidthInteger
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_AC01_bG8Protocol
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSC4CodeAcDP_SY
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSCAC021_ObjectiveCBridgeableB0
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSCAC06CustomF0
++ _associated conformance SC20ASAuthorizationErrorLeV10Foundation21_BridgedStoredNSErrorSCSH
++ _associated conformance SC20ASAuthorizationErrorLeVSHSCSQ
++ _associated conformance So20ASAuthorizationErrorV10Foundation01_B12CodeProtocolSC01_B4TypeAcDP_AC21_BridgedStoredNSError
++ _associated conformance So20ASAuthorizationErrorV10Foundation01_B12CodeProtocolSCSQ
++ _block_copy_helper.1
++ _block_copy_helper.10
++ _block_copy_helper.101
++ _block_copy_helper.104
++ _block_copy_helper.107
++ _block_copy_helper.13
++ _block_copy_helper.14
++ _block_copy_helper.19
++ _block_copy_helper.2
++ _block_copy_helper.22
++ _block_copy_helper.25
++ _block_copy_helper.28
++ _block_copy_helper.35
++ _block_copy_helper.39
++ _block_copy_helper.42
++ _block_copy_helper.6
++ _block_copy_helper.7
++ _block_descriptor.103
++ _block_descriptor.106
++ _block_descriptor.109
++ _block_descriptor.12
++ _block_descriptor.15
++ _block_descriptor.16
++ _block_descriptor.21
++ _block_descriptor.24
++ _block_descriptor.27
++ _block_descriptor.3
++ _block_descriptor.30
++ _block_descriptor.37
++ _block_descriptor.4
++ _block_descriptor.41
++ _block_descriptor.44
++ _block_descriptor.8
++ _block_descriptor.9
++ _block_destroy_helper.102
++ _block_destroy_helper.105
++ _block_destroy_helper.108
++ _block_destroy_helper.11
++ _block_destroy_helper.14
++ _block_destroy_helper.15
++ _block_destroy_helper.2
++ _block_destroy_helper.20
++ _block_destroy_helper.23
++ _block_destroy_helper.26
++ _block_destroy_helper.29
++ _block_destroy_helper.3
++ _block_destroy_helper.36
++ _block_destroy_helper.40
++ _block_destroy_helper.43
++ _block_destroy_helper.7
++ _block_destroy_helper.8
++ _dispatch_group_wait
++ _flat unique 10SafariCore39WBSPasswordsNotificationManagerProtocol_p
++ _flat unique 22AuthenticationServices38_ASCredentialProviderExtensionManaging_p
++ _get_enum_tag_for_layout_string 22AuthenticationServices19ASContactIdentifierO
++ _get_enum_tag_for_layout_string 22AuthenticationServices24ASAuthorizationUIContextV8IconTypeO03AppE0O
++ _get_enum_tag_for_layout_string 22AuthenticationServices24_ASCredentialUpdateErrorO
++ _get_enum_tag_for_layout_string 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintVSg
++ _objc_msgSend$_buttonTitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:
++ _objc_msgSend$_configurationForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_credentialDeletionStringForAlertToDeleteNumberOfFileVaultRecoveryKeys:
++ _objc_msgSend$_credentialDeletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:
++ _objc_msgSend$_deletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:
++ _objc_msgSend$_edgeLength
++ _objc_msgSend$_footerStackViewSpacing
++ _objc_msgSend$_mainStackViewAlignment
++ _objc_msgSend$_requestExportWithConnection:credentialProviderBundleIdentifier:windowSceneIdentifier:completionHandler:
++ _objc_msgSend$_setUpExporterConnection:forOperation:
++ _objc_msgSend$_setUpImporterConnection:forOperation:
++ _objc_msgSend$_subtitleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_subtitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:
++ _objc_msgSend$_titleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:
++ _objc_msgSend$_titleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:
++ _objc_msgSend$authorizationCredentialForAccountRegistration:
++ _objc_msgSend$authorizationCredentialIsAccountRegistration:
++ _objc_msgSend$authorizationProviderForAccountRegistration:
++ _objc_msgSend$cancelCurrentOperation
++ _objc_msgSend$constraintEqualToSystemSpacingBelowAnchor:multiplier:
++ _objc_msgSend$constraintGreaterThanOrEqualToAnchor:constant:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:
++ _objc_msgSend$constraintLessThanOrEqualToAnchor:constant:
++ _objc_msgSend$exportDataFetchCompletionHandler
++ _objc_msgSend$exportedCredentialData
++ _objc_msgSend$exporterConnection
++ _objc_msgSend$formattedRecentlyDeletedExpirationDays
++ _objc_msgSend$hasAccountsWithVerificationCodes
++ _objc_msgSend$hasOnlyFileVaultRecoveryKeys
++ _objc_msgSend$hasOnlyFileVaultRecoveryKeysAndSignInWithAppleAccounts
++ _objc_msgSend$hasOnlySharedAccounts
++ _objc_msgSend$hasOnlySignInWithAppleAccounts
++ _objc_msgSend$importerConnection
++ _objc_msgSend$importerToken
++ _objc_msgSend$initForMode:endpoint:
++ _objc_msgSend$initWithListenerEndpoint:
++ _objc_msgSend$initWithSavedAccounts:
++ _objc_msgSend$isSelectedAccountSingleFileVaultRecoveryKey
++ _objc_msgSend$isSelectedAccountSingleSignInWithApple
++ _objc_msgSend$isSolariumEnabled
++ _objc_msgSend$localizedStringFromNumber:numberStyle:
++ _objc_msgSend$numberOfFileVaultRecoveryKeys
++ _objc_msgSend$numberOfPasskeys
++ _objc_msgSend$numberOfPasswords
++ _objc_msgSend$numberOfSignInWithAppleAccounts
++ _objc_msgSend$performExpiringActivityWithReason:usingBlock:
++ _objc_msgSend$performPasskeyAvailabilityCheckForDomainsInSavedAccounts:completionHandler:
++ _objc_msgSend$processInfo
++ _objc_msgSend$publicKeyAccountRegistrationOptionsForRequest:
++ _objc_msgSend$recentlyDeletedExpirationTimeInDays
++ _objc_msgSend$relyingPartyIdentifierForRequest:
++ _objc_msgSend$reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:
++ _objc_msgSend$reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:
++ _objc_msgSend$reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:
++ _objc_msgSend$reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:
++ _objc_msgSend$reportUnknownPublicKeyCredentialForRelyingParty:credentialID:
++ _objc_msgSend$reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:
++ _objc_msgSend$reportUnusedPasswordCredentialForDomain:userName:
++ _objc_msgSend$reportUnusedPasswordCredentialForDomain:username:
++ _objc_msgSend$reportUnusedPasswordCredentialForDomain:username:completionHandler:
++ _objc_msgSend$requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:
++ _objc_msgSend$savePendingProviderChangesWithCompletion:
++ _objc_msgSend$selectedCredentialTypes
++ _objc_msgSend$selectedImporterBundleIdentifier
++ _objc_msgSend$setContentInset:
++ _objc_msgSend$setExportDataFetchCompletionHandler:
++ _objc_msgSend$setExportedCredentialData:
++ _objc_msgSend$setExporterConnection:
++ _objc_msgSend$setImporterConnection:
++ _objc_msgSend$setImporterToken:
++ _objc_msgSend$setPlatformAccountRegistrationOptions:
++ _objc_msgSend$setSelectedImporterBundleIdentifier:
++ _objc_msgSend$setSourceApplicationSecondaryIdentifierForRequiringPrivacyProxyFailingClosed:
++ _objc_msgSend$setTransaction:
++ _objc_msgSend$stringByAppendingFormat:
++ _objc_msgSend$viewServiceConnection
++ _objectdestroy.36Tm
++ _objectdestroy.40Tm
++ _objectdestroy.48Tm
++ _objectdestroy.49Tm
++ _objectdestroy.57Tm
++ _objectdestroy.6Tm
++ _objectdestroyTm
++ _os_activity_scope_enter
++ _os_activity_scope_leave
++ _swift_coroFrameAlloc
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_dynamicCastClass
++ _swift_endAccess
++ _swift_isaMask
++ _swift_setDeallocating
++ _swift_stdlib_isStackAllocationSafe
++ _swift_unexpectedError
++ _swift_updateClassMetadata2
++ _symbolic $s22AuthenticationServices21_ASCredentialUpdatingP
++ _symbolic $s22AuthenticationServices30ASCExternalLoginChoiceProtocol33_8DA86F4EB6D9B5E4871C2671F96ACCEFLLP
++ _symbolic $s22AuthenticationServices38_ASCredentialProviderExtensionManagingP
++ _symbolic $ss12CaseIterableP
++ _symbolic BD
++ _symbolic IeyB_
++ _symbolic IeyB_Sg
++ _symbolic Say_____G 10Foundation3URLV
++ _symbolic Say_____G 10Foundation4DataV
++ _symbolic Say_____G 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO
++ _symbolic Say_____G 22AuthenticationServices26ASContactIdentifierRequestO
++ _symbolic Say_____G 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV
++ _symbolic SccySo15WBSSavedAccountC_____G s5NeverO
++ _symbolic SccySo26WBSSavedAccountMatchResultCSg_____G s5NeverO
++ _symbolic Sccyyt_____G s5NeverO
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic So11NSExtensionC
++ _symbolic So18UIVisualEffectViewCSg
++ _symbolic So19SwiftNativeNSObjectC
++ _symbolic So20WBSSavedAccountStoreC
++ _symbolic So22ASAuthorizationRequestC
++ _symbolic So32_ASAgentCredentialUpdateListenerC
++ _symbolic So34WBSFileVaultRecoveryKeySaveRequestC
++ _symbolic So35_ASAgentPeriodicMaintenanceActivityC
++ _symbolic So36SFCredentialProviderExtensionManagerC
++ _symbolic So36_ASAgentFileVaultRecoveryKeyListenerC
++ _symbolic So37_ASAgentCredentialUpdateListenerProxyC
++ _symbolic So51ASAuthorizationWebBrowserPublicKeyCredentialManagerC
++ _symbolic So54ASAuthorizationPlatformPublicKeyCredentialRegistrationC
++ _symbolic So5NSSetCIeyBy_
++ _symbolic So6UIViewC
++ _symbolic So7NSArrayC
++ _symbolic So7NSArrayCIeyBy_
++ _symbolic So7NSErrorCSgIeyBy_
++ _symbolic So8NSObjectC
++ _symbolic So8NSStringC
++ _symbolic _____ 22AuthenticationServices17ASEmailIdentifierV
++ _symbolic _____ 22AuthenticationServices19ASContactIdentifierO
++ _symbolic _____ 22AuthenticationServices19ASCredentialUpdaterC
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO10PersonNameV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO4WiFiV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO6APIKeyV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO6SSHKeyV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO7AddressV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysO
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO8PassportV
++ _symbolic _____ 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices23ASPhoneNumberIdentifierV
++ _symbolic _____ 22AuthenticationServices24ASAuthorizationUIContextV10MainButtonV0F4TextO
++ _symbolic _____ 22AuthenticationServices24ASAuthorizationUIContextV6HeaderV5TitleO
++ _symbolic _____ 22AuthenticationServices24ASAuthorizationUIContextV8IconTypeO03AppE0O
++ _symbolic _____ 22AuthenticationServices24ASAuthorizationUIContextV8IconTypeO10BiometricsO
++ _symbolic _____ 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO
++ _symbolic _____ 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices24_ASCredentialUpdateErrorO
++ _symbolic _____ 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV
++ _symbolic _____ 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLO
++ _symbolic _____ 22AuthenticationServices26ASContactIdentifierRequestO
++ _symbolic _____ 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____ 22AuthenticationServices26ASContactIdentifierRequestO15EmailCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____ 22AuthenticationServices26ASContactIdentifierRequestO21PhoneNumberCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV
++ _symbolic _____ 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____ 22AuthenticationServices29_ASCredentialUpdateControllerC
++ _symbolic _____ 22AuthenticationServices35_ASNavigationControllerBackdropViewC
++ _symbolic _____ 22AuthenticationServices38ASAuthorizationAccountCreationProviderC
++ _symbolic _____ 22AuthenticationServices49_ASCredentialProviderExtensionNotificationManagerC
++ _symbolic _____ 22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredentialC
++ _symbolic _____ 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC
++ _symbolic _____ 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLO
++ _symbolic _____ 26AuthenticationServicesCore38ASCPublicKeyAccountRegistrationOptionsC27ASCContactIdentifierRequestO
++ _symbolic _____ SC20ASAuthorizationErrorLeV
++ _symbolic _____ So20ASAuthorizationErrorV
++ _symbolic _____8biometry_t So14LABiometryTypeV
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg 22AuthenticationServices27ASImportableCredentialScopeV
++ _symbolic _____Sg 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV
++ _symbolic _____Sg So15WBSSavedAccountC10SafariCoreE19PasskeyCredentialIDV
++ _symbolic _____Sg So15WBSSavedAccountC10SafariCoreE21PasskeyRelyingPartyIDV
++ _symbolic _____Sg_ABt 10Foundation4DateV
++ _symbolic _____Sg_ABt 22AuthenticationServices25ASImportableEditableFieldV
++ _symbolic ______AAt 22AuthenticationServices22ASImportableCredentialO
++ _symbolic ______AAt 22AuthenticationServices24ASAuthorizationUIContextV7MessageO
++ _symbolic ______Sb19showSaveInPasswordst 22AuthenticationServices24ASAuthorizationUIContextV7ServiceO
++ _symbolic ______Sd9iconScalet 10Foundation4DataV
++ _symbolic ______p 10SafariCore39WBSPasswordsNotificationManagerProtocolP
++ _symbolic ______p 22AuthenticationServices30ASCExternalLoginChoiceProtocol33_8DA86F4EB6D9B5E4871C2671F96ACCEFLLP
++ _symbolic ______p 22AuthenticationServices38_ASCredentialProviderExtensionManagingP
++ _symbolic ______pSg 22AuthenticationServices30ASCExternalLoginChoiceProtocol33_8DA86F4EB6D9B5E4871C2671F96ACCEFLLP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic _____ySSSo20WBSSavedAccountStoreCG s18_DictionaryStorageC
++ _symbolic _____ySo11NSExtensionCG s11_SetStorageC
++ _symbolic _____y_____G s11_SetStorageC 10Foundation4DataV
++ _symbolic _____y_____G s11_SetStorageC 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices25ASCredentialExportManagerC0G7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO15EmailCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO21PhoneNumberCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO10PersonNameV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO4WiFiV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO6APIKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO6SSHKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO7AddressV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices22ASImportableCredentialO8PassportV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices25ASCredentialExportManagerC0G7OptionsV10CodingKeys33_7395B158D2A3BB270C933A0FFA5F6FC2LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO10CodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO15EmailCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices26ASContactIdentifierRequestO21PhoneNumberCodingKeys33_9AF91A2FBECCFF949A0E8AB599C8B8ACLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV10CodingKeys33_CA4A76CC3A0F7944655FAD38FECCC931LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequestC10CodingKeys33_49A768E3A4E8EF99F989D97E8624491DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10SafariCore18WBSKeychainPasskeyV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 22AuthenticationServices24ASExportedCredentialDataV13FormatVersionO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 26AuthenticationServicesCore38ASCPublicKeyAccountRegistrationOptionsC27ASCContactIdentifierRequestO
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic x
++ _type_layout_string 22AuthenticationServices19ASContactIdentifierO
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO14DriversLicenseV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO16IdentityDocumentV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO17GeneratedPasswordV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO4WiFiV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO6SSHKeyV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO7AddressV
++ _type_layout_string 22AuthenticationServices22ASImportableCredentialO8PassportV
++ _type_layout_string 22AuthenticationServices23ASPhoneNumberIdentifierV
++ _type_layout_string 22AuthenticationServices24ASAuthorizationUIContextV8IconTypeO03AppE0O
++ _type_layout_string 22AuthenticationServices24_ASCredentialUpdateErrorO
++ _type_layout_string 22AuthenticationServices25ASCredentialExportManagerC0D7OptionsV
++ _type_layout_string 22AuthenticationServices27ASImportableCredentialScopeV
++ _type_layout_string 22AuthenticationServices27ASImportableCredentialScopeV12AndroidAppIDV
++ _type_layout_string 22AuthenticationServices27ASImportableCredentialScopeV34AndroidAppCertificationFingerprintV
++ _type_layout_string SC20ASAuthorizationErrorLeV
+- +[_ASPasswordManagerDeleteAlertConfiguration _buttonTitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:]
+- +[_ASPasswordManagerDeleteAlertConfiguration _credentialDeletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:]
+- +[_ASPasswordManagerDeleteAlertConfiguration _deletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:isDeletingSharedAccounts:isPermanentlyDeleting:]
+- +[_ASPasswordManagerDeleteAlertConfiguration _getInformationForSavedAccountsToDelete:numberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:hasSharedAccounts:areAllAccountsShared:]
+- +[_ASPasswordManagerDeleteAlertConfiguration _subtitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:isDeletingSharedAccounts:isPermanentlyDeleting:]
+- +[_ASPasswordManagerDeleteAlertConfiguration _titleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:]
+- -[ASAuthorizationWebBrowserPublicKeyCredentialManager corePlatformCredentialsForRelyingParty:completionHandler:]
+- -[ASCredentialRequestInfoLabelSubPane addToStackView:withCustomSpacingAfter:context:]
+- -[_ASAgentCredentialExchangeListener cancel]
+- -[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:]
+- -[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:].cold.1
+- -[_ASAgentCredentialExchangeListenerProxy cancel]
+- -[_ASAgentCredentialExchangeListenerProxy init]
+- -[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:]
+- -[_ASPasswordManagerIconController appIconForBundleID:]
+- GCC_except_table44
+- GCC_except_table45
+- GCC_except_table52
+- _ASAgentCredentialExchangeListenerInterface
+- _ASAgentCredentialExchangeListenerInterface.cold.1
+- _ASAgentCredentialExchangeListenerInterface.interface
+- _ASAgentCredentialExchangeListenerInterface.onceToken
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._connection
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._exportDataFetchCompletionHandler
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._exportedCredentialData
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._importerBundleID
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._importerToken
+- _OBJC_IVAR_$__ASAgentCredentialExchangeListener._transaction
+- __OBJC_$_CLASS_METHODS_ASAuthorization
+- __OBJC_$_INSTANCE_METHODS_ASAuthorizationWebBrowserPublicKeyCredentialManager
+- __OBJC_$_INSTANCE_METHODS__ASAgentPeriodicMaintenanceActivity
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_ASAgentCredentialExchangeListenerInterface
+- __OBJC_$_PROTOCOL_METHOD_TYPES_ASAgentCredentialExchangeListenerInterface
+- __OBJC_LABEL_PROTOCOL_$_ASAgentCredentialExchangeListenerInterface
+- __OBJC_PROTOCOL_$_ASAgentCredentialExchangeListenerInterface
+- __OBJC_PROTOCOL_REFERENCE_$_ASAgentCredentialExchangeListenerInterface
+- ___141-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:]_block_invoke
+- ___141-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:]_block_invoke_2
+- ___141-[_ASAgentCredentialExchangeListenerProxy requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:]_block_invoke_2.cold.1
+- ___44-[ASAuthorizationController _failWithError:]_block_invoke.129
+- ___49-[_ASAgentCredentialExchangeListenerProxy cancel]_block_invoke
+- ___49-[_ASAgentCredentialExchangeListenerProxy cancel]_block_invoke_2
+- ___49-[_ASAgentCredentialExchangeListenerProxy cancel]_block_invoke_2.cold.1
+- ___56-[ASAuthorizationController _completeWithAuthorization:]_block_invoke.122
+- ___70-[ASCredentialRequestConfirmButtonSubPane _switchToPasscodeOrPassword]_block_invoke
+- ___71-[ASCredentialRequestConfirmButtonSubPane showContinueButtonWithTitle:]_block_invoke
+- ___72-[ASCredentialRequestConfirmButtonSubPane _switchToAppleAccountPassword]_block_invoke
+- ___73-[_ASAgentCredentialExchangeListener listener:shouldAcceptNewConnection:]_block_invoke
+- ___75-[ASCredentialRequestCABLEClientViewController _useSecurityKeyButtonTapped]_block_invoke.47
+- ___75-[ASCredentialRequestCABLEClientViewController _useSecurityKeyButtonTapped]_block_invoke.54
+- ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke.88
+- ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke.91
+- ___78-[ASCredentialRequestConfirmButtonSubPane authenticationResult:error:context:]_block_invoke.91.cold.1
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke.25
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke.26
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.27
+- ___97-[_ASPasswordManagerIconController _requestTouchIconForDomain:options:requestID:responseHandler:]_block_invoke_2.27.cold.1
+- ___ASAgentCredentialExchangeListenerInterface_block_invoke
+- ___block_descriptor_40_e8_32s_e17_v16?0"NSTimer"8ls32l8
+- ___block_literal_global.139
+- ___block_literal_global.141
+- ___block_literal_global.19
+- ___block_literal_global.271
+- ___block_literal_global.49
+- ___block_literal_global.52
+- ___block_literal_global.57
+- ___block_literal_global.75
+- ___block_literal_global.90
+- ___swift_memcpy120_8
+- ___swift_memcpy121_8
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AuthenticationServices
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AuthenticationServices
+- _associated conformance 22AuthenticationServices16ASImportableItemV0D4TypeOSHAASQ
+- _associated conformance 22AuthenticationServices24ASExportedCredentialDataVs12IdentifiableAA2IDsADP_SH
+- _block_copy_helper.20
+- _block_descriptor.22
+- _block_destroy_helper.21
+- _get_enum_tag_for_layout_string 22AuthenticationServices24ASAuthorizationUIContextV5TitleO
+- _objc_msgSend$_buttonTitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:
+- _objc_msgSend$_credentialDeletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:
+- _objc_msgSend$_deletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:isDeletingSharedAccounts:isPermanentlyDeleting:
+- _objc_msgSend$_getInformationForSavedAccountsToDelete:numberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:hasSharedAccounts:areAllAccountsShared:
+- _objc_msgSend$_requestExportWithConnection:credentialProviderBundleIdentifier:windowSceneIdentifier:exportedCredentialData:completionHandler:
+- _objc_msgSend$_subtitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:isDeletingSharedAccounts:isPermanentlyDeleting:
+- _objc_msgSend$_titleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:
+- _objc_msgSend$browserPasskeysForRelyingParty:completionHandler:
+- _objc_msgSend$image
+- _objc_msgSend$marginInset
+- _objc_msgSend$paneBackgroundBlurEffect
+- _objc_msgSend$requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:
+- _objc_msgSend$savePendingProviderChangesBeforeTermination
+- _objc_msgSend$setMaskedCorners:
+- _objc_msgSend$setRequirePrivateRelayForAllNetworkTraffic:
+- _swift_release_n
+- _symbolic $ss12IdentifiableP
+- _symbolic So45ASPasskeyRegistrationCredentialExtensionInputCSg
+- _symbolic _____ 10Foundation4UUIDV
+- _symbolic _____ 22AuthenticationServices16ASImportableItemV0D4TypeO
+- _symbolic _____8iconData_Sd0A5Scalet 10Foundation4DataV
+- _type_layout_string 22AuthenticationServices22ASImportableCollectionV
+- _type_layout_string 22AuthenticationServices22ASImportableCredentialO10CreditCardV
+- _type_layout_string 22AuthenticationServices24ASAuthorizationUIContextV5TitleO
+- _type_layout_string SC21ASCAuthorizationErrorLeV
+CStrings:
++ "\t"
++ "\n\n%@"
++ " as an array containing values from ASExportedCredentialData.FormatVersion."
++ " but no such extension found. Found "
++ "$__lazy_storage_$_accountStore"
++ "$defaultActor"
++ "%s disconnected"
++ "%{public}s must only be called by the view service"
++ "-[_ASAgentCredentialExchangeListener _setSelectedImporterBundleIdentifierForCurrentOperation:]"
++ "-[_ASAgentCredentialExchangeListener _setUpExporterConnection:forOperation:]_block_invoke"
++ "-[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:]"
++ "-[_ASAgentCredentialExchangeListener continueExportWithCredentials:completionHandler:]_block_invoke"
++ "-[_ASAgentCredentialExchangeListener getExportedCredentialData:]"
++ "-[_ASAgentCredentialExchangeListener importCredentialsWithToken:completionHandler:]"
++ "-[_ASAgentCredentialExchangeListener requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:]"
++ "-[_ASAgentCredentialExchangeListener setTokenForImport:]"
++ ". Please specify "
++ "1.0"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@\"_ASAgentCredentialExchangeOperation\""
++ "@\"_TtC22AuthenticationServices35_ASNavigationControllerBackdropView\""
++ "ASAgentCredentialExchangeExporterInterface"
++ "ASAgentCredentialExchangeImporterInterface"
++ "Account registration requests cannot be used with other types of requests."
++ "App contains multiple credential provider extensions. Please specify an extension bundle identifier."
++ "App must have at least credential provider extension in order to export."
++ "App requested to export from "
++ "App requested to export from %s but no such extension found."
++ "Are you sure you want to delete this Recovery Key?"
++ "At least one contact identifier must be specified in `acceptedContactIdentifiers` for ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest."
++ "AuthenticationServices.ASAuthorizationAccountCreationPlatformPublicKeyCredential"
++ "AuthenticationServices.ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest"
++ "AuthenticationServices._ASCredentialProviderExtensionNotificationManager"
++ "AuthenticationServices._ASCredentialUpdateController"
++ "AuthenticationServices._ASNavigationControllerBackdropView"
++ "AuthenticationServices/ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest.swift"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "Background activity for performMaintenanceWork expired"
++ "Background activity for savePendingProviderChangesBeforeTermination expired"
++ "Called %{public}s with no current operation."
++ "Calling process has browser or internal process entitlement. Skipping check for RP in associated domains…"
++ "Client is not entitled."
++ "Connected process is not entitled to make this call."
++ "Could not create URL from %s"
++ "Could not decode json for %{public}s. %{public}s"
++ "Could not fetch bundle identifier from application identifier %{public}@. %{public}@"
++ "Could not find encoded json for %{public}s"
++ "Could not find importer extension with bundle ID %{public}s"
++ "Could not find selected importer app."
++ "Could not retrieve application identifier for calling process."
++ "Could not retrieve bunlde record for %{public}s. Error: %{public}s"
++ "Could not retrieve calling app name"
++ "CredentialExchange"
++ "CredentialUpdate"
++ "CredentialUpdate/ReportAllAcceptedPublicKeyCredential"
++ "CredentialUpdate/ReportPublicKeyCredentialUpdate"
++ "CredentialUpdate/ReportUnknownPublicKeyCredential"
++ "CredentialUpdate/ReportUnusedPasswordCredential"
++ "Delete Recovery Key"
++ "Delete Recovery Key (alert title)"
++ "Delete Shared Recovery Key (alert title)"
++ "Did not update any passkey in keychain. Error: %@"
++ "Exporter has one extension."
++ "Exporting app does not have a credential provider extension."
++ "Exporting app has multiple credential provider extensions but none specified."
++ "Failed to initialize."
++ "Fetch for %{sensitive}@ intentionally failed due to absence of underlying platform support."
++ "Found %ld invalid passkeys in keychain."
++ "Found %ld passkey with matching credentialID in keychain."
++ "Found matching extension for %s."
++ "Importer and exporter do not support any matching versions."
++ "Importer and exporter have no matching verisons. %{public}s vs %{public}s."
++ "Importer app has no valid format versions."
++ "Invalid number of keys found, expected one."
++ "No active connection."
++ "No export in progress"
++ "No export in progress."
++ "No invalid passkeys found in keychain."
++ "No savedAccount found matching the domain and username."
++ "No savedAccount found matching the username and credentialID."
++ "No supporting credential providers found. Nothing to report."
++ "No valid format versions found for "
++ "No valid format versions in Info.plist."
++ "Passkey Account Registration"
++ "Passkey cannot be deleted by service."
++ "Password cannot be deleted by service."
++ "Perform maintenance work"
++ "Received KCSharingParticipant with nil handle %{sensitive}@."
++ "Received connection from %s"
++ "Received unexpected export options."
++ "Received unexpected format version: %s"
++ "Recovery Key and Sign in with Apple items must be deleted individually."
++ "Recovery Keys must be deleted individually."
++ "SFCredentialProviderExtensionManagerObserver"
++ "Save pending changes before termination"
++ "Saved pending changes to database"
++ "Sign In (button)"
++ "Starting maintenance work with background task assertion"
++ "Starting new credential exchange operation."
++ "Starting to save pending changes with background task assertion"
++ "Successfully moved passkey to Recently Deleted."
++ "Successfully moved password to Recently Deleted."
++ "T@\"ASCAgentProxy\",R,N,V_agentProxy"
++ "T@\"NSData\",&,N,V_exportedCredentialData"
++ "T@\"NSObject<OS_os_transaction>\",&,N,V_transaction"
++ "T@\"NSString\",&,N,V_exporterBundleIdentifier"
++ "T@\"NSString\",&,N,V_selectedImporterBundleIdentifier"
++ "T@\"NSUUID\",&,N,V_importerToken"
++ "T@\"NSXPCConnection\",&,N,V_exporterConnection"
++ "T@\"NSXPCConnection\",&,N,V_importerConnection"
++ "T@\"NSXPCConnection\",&,N,V_viewServiceConnection"
++ "T@?,C,N,V_exportDataFetchCompletionHandler"
++ "TB,R,N,V_hasAccountsWithVerificationCodes"
++ "TB,R,N,V_hasOnlySharedAccounts"
++ "TB,R,N,V_hasSharedAccounts"
++ "TQ,R,N,V_numberOfFileVaultRecoveryKeys"
++ "TQ,R,N,V_numberOfPasskeys"
++ "TQ,R,N,V_numberOfPasswords"
++ "TQ,R,N,V_numberOfSignInWithAppleAccounts"
++ "The requested domain is invalid."
++ "These %zu passkeys and these %zu passwords will be moved to Recently Deleted. After %@ days, they will be permanently deleted."
++ "These %zu passkeys will be moved to Recently Deleted. After %@ days, they will be permanently deleted."
++ "These %zu passwords will be moved to Recently Deleted. After %@ days, they will be permanently deleted."
++ "This Recovery Key will be moved to Recently Deleted. After %@ days, it will be permanently deleted."
++ "This action does not turn off FileVault on your Mac. You can still view the key in System Settings on that Mac."
++ "This passkey and password will be moved to Recently Deleted. After %@ days, they will be permanently deleted."
++ "This passkey will be moved to Recently Deleted. After %@ days, it will be permanently deleted."
++ "This password will be moved to Recently Deleted. After %@ days, it will be permanently deleted."
++ "Unable to verify webcredentials association"
++ "Unable to verify webcredentials association with domain "
++ "Unexpected process %{public}@ tried to connect during credential import."
++ "Unrecognized version "
++ "WBSFileVaultRecoveryKeyListenerProtocol"
++ "_ASAgentCredentialExchangeOperation"
++ "_ASAgentCredentialUpdateListener"
++ "_ASAgentCredentialUpdateListenerProxy"
++ "_ASAgentFileVaultRecoveryKeyListener"
++ "_ASCredentialUpdateListenerProtocol"
++ "_ASPasswordManagerAccountsSelectionInfo"
++ "_TtC22AuthenticationServices19ASCredentialUpdater"
++ "_TtC22AuthenticationServices29_ASCredentialUpdateController"
++ "_TtC22AuthenticationServices35_ASNavigationControllerBackdropView"
++ "_TtC22AuthenticationServices38ASAuthorizationAccountCreationProvider"
++ "_TtC22AuthenticationServices49_ASCredentialProviderExtensionNotificationManager"
++ "_TtC22AuthenticationServices57ASAuthorizationAccountCreationPlatformPublicKeyCredential"
++ "_TtC22AuthenticationServices64ASAuthorizationAccountCreationPlatformPublicKeyCredentialRequest"
++ "_TtP10SafariCore39WBSPasswordsNotificationManagerProtocol_"
++ "_TtP22AuthenticationServices21_ASCredentialUpdating_"
++ "_TtP22AuthenticationServices38_ASCredentialProviderExtensionManaging_"
++ "_biometricsContainerView"
++ "_buttonTitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:"
++ "_configurationForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:"
++ "_credentialDeletionStringForAlertToDeleteNumberOfFileVaultRecoveryKeys:"
++ "_credentialDeletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:"
++ "_currentOperation"
++ "_deletionStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:"
++ "_edgeLength"
++ "_exporterBundleIdentifier"
++ "_exporterConnection"
++ "_footerStackViewSpacing"
++ "_hasAccountsWithVerificationCodes"
++ "_hasOnlySharedAccounts"
++ "_hasSharedAccounts"
++ "_highestCommonVersionNumber:credentialProviderBundleIdentifier:importerBundleIdentifier:completionHandler:"
++ "_importerConnection"
++ "_mainStackViewAlignment"
++ "_mode"
++ "_moveCredentialTypesToRecentlyDeleted:fromSavedAccount:completionHandler:"
++ "_numberOfFileVaultRecoveryKeys"
++ "_numberOfPasskeys"
++ "_numberOfPasswords"
++ "_numberOfSignInWithAppleAccounts"
++ "_requestExportWithConnection:credentialProviderBundleIdentifier:windowSceneIdentifier:completionHandler:"
++ "_selectedImporterBundleIdentifier"
++ "_setSelectedImporterBundleIdentifierForCurrentOperation:"
++ "_setUpExporterConnection:forOperation:"
++ "_setUpImporterConnection:forOperation:"
++ "_subtitleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:"
++ "_subtitleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:"
++ "_titleStringForAlertToDeleteFileVaultRecoveryKeyWithSavedAccount:"
++ "_titleStringForAlertToDeleteWithAccountsSelectionInfo:isPermanentlyDeleting:"
++ "_viewServiceConnection"
++ "acceptedContactIdentifiers"
++ "accountStore"
++ "addWeakObserver:"
++ "agentProxy"
++ "api-key"
++ "appIconForAppID:"
++ "applicationIdentifier"
++ "authorizationCredentialForAccountRegistration:"
++ "authorizationCredentialIsAccountRegistration:"
++ "authorizationProviderForAccountRegistration:"
++ "browserPasskeysForRelyingParty:testOptions:completionHandler:"
++ "bundleId"
++ "canBeDeletedByServiceViaCredentialUpdater"
++ "cancelCurrentOperation"
++ "certificate"
++ "city"
++ "collections"
++ "com.apple.AuthenticationServices.AuthenticationServicesAgent.CredentialUpdate"
++ "com.apple.AuthenticationServices.AuthenticationServicesAgent.FileVaultRecoveryKeys"
++ "com.apple.Passwords.PRIconFetching"
++ "com.apple.developer.web-browser"
++ "com.apple.private.AuthenticationServicesAgent.fileVaultRecoveryKeys"
++ "com.apple.private.authentication-services.internal-authorization-requests"
++ "connection"
++ "constraintEqualToSystemSpacingBelowAnchor:multiplier:"
++ "constraintGreaterThanOrEqualToAnchor:constant:"
++ "constraintLessThanOrEqualToAnchor:"
++ "constraintLessThanOrEqualToAnchor:constant:"
++ "country"
++ "country-code"
++ "creationAt"
++ "credentialProviderExtensionManager"
++ "credentialProviderExtensionManagerExtensionListDidChange:"
++ "credentialProviderExtensionNotificationManager"
++ "credentialRegistration"
++ "deleteRecoveryKeyForVolumeID:serialNumber:completion:"
++ "digits"
++ "domainsToPartialAccountStore"
++ "drivers-license"
++ "enabledExtensions"
++ "exactMatches"
++ "expiryDate"
++ "exportDataFetchCompletionHandler"
++ "exporterBundleIdentifier"
++ "exporterConnection"
++ "exporterDisplayName"
++ "exporterRpId"
++ "extensionSupportedCredentialExchangeFormatVersions:"
++ "extensionSupportsCredentialUpdate:"
++ "extensionsSupportingCredentialUpdateWithCompletionHandler:"
++ "fingerprint"
++ "fingerprint was not a proper Base64URL encoded string"
++ "formattedRecentlyDeletedExpirationDays"
++ "generated-password"
++ "hasAccountsWithVerificationCodes"
++ "hasOnlyFileVaultRecoveryKeys"
++ "hasOnlyFileVaultRecoveryKeysAndSignInWithAppleAccounts"
++ "hasOnlySharedAccounts"
++ "hasOnlySignInWithAppleAccounts"
++ "hasSharedAccounts"
++ "hashAlg"
++ "icon"
++ "identificationNumber"
++ "identity-document"
++ "importerConnection"
++ "importerToken"
++ "init(frame:)"
++ "init(provider:)"
++ "initForMode:"
++ "initForMode:endpoint:"
++ "initPartialStoreForDomains:forTesting:"
++ "initWithConnection:accountStore:passwordsNotificationManager:credentialProviderExtensionNotificationManager:"
++ "initWithExtension:acceptedPasskeysRequestForRelyingParty:userHandle:acceptedCredentialIDs:"
++ "initWithExtension:unknownPasskeyRequestForRelyingParty:credentialID:"
++ "initWithExtension:unusedPasswordRequestForDomain:username:"
++ "initWithExtension:updatePasskeyRequestForRelyingParty:userHandle:newName:"
++ "initWithListenerEndpoint:"
++ "initWithSavedAccounts:"
++ "initWithString:matchingType:"
++ "initWithURL:options:userNameQuery:associatedDomainsManager:webFrameIdentifier:"
++ "initWithURL:options:userNameQuery:passkeyCredentialIdentifier:associatedDomainsManager:webFrameIdentifier:"
++ "internalLock"
++ "isClientEntitledWebBrowser"
++ "isClientWithAuditTokenAWebBrowser:"
++ "isPromotePasskeyUpgradesEnabled"
++ "isSelectedAccountSingleFileVaultRecoveryKey"
++ "isSelectedAccountSingleSignInWithApple"
++ "isSolariumEnabled"
++ "issuer"
++ "issuingAuthority"
++ "items"
++ "keyComment"
++ "keyGenerationSource"
++ "keyType"
++ "listener"
++ "localizedStringFromNumber:numberStyle:"
++ "major"
++ "minor"
++ "modifiedAt"
++ "nationalIdentificationNumber"
++ "networkSecurityType"
++ "numberOfFileVaultRecoveryKeys"
++ "numberOfPasskeys"
++ "numberOfPasswords"
++ "numberOfSignInWithAppleAccounts"
++ "passport"
++ "passwordsNotificationManager"
++ "performExpiringActivityWithReason:usingBlock:"
++ "performPasskeyAvailabilityCheckForDomainsInSavedAccounts:completionHandler:"
++ "period"
++ "person-name"
++ "phoneNumber"
++ "postalCode"
++ "presentExportFlowForProcess:windowSceneIdentifier:completionHandler:"
++ "privateKey"
++ "privateKey was not a proper Base64URL encoded string"
++ "publicKeyAccountRegistrationOptionsForRequest:"
++ "queryThatMatchesEverything"
++ "recentlyDeletedExpirationTimeInDays"
++ "recoveryKeyForVolumeID:serialNumber:completion:"
++ "recoveryKeysForSerialNumber:completion:"
++ "relyingPartyIdentifierForRequest:"
++ "reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:"
++ "reportAllAcceptedPublicKeyCredentialsForRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:"
++ "reportAllAcceptedPublicKeyCredentialsWithRelyingParty:userHandle:acceptedCredentialIDs:completionHandler:"
++ "reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:"
++ "reportPublicKeyCredentialUpdateForRelyingParty:userHandle:newName:completionHandler:"
++ "reportPublicKeyCredentialUpdateWithRelyingParty:userHandle:newName:completionHandler:"
++ "reportUnknownPublicKeyCredentialForRelyingParty:credentialID:"
++ "reportUnknownPublicKeyCredentialForRelyingParty:credentialID:completionHandler:"
++ "reportUnknownPublicKeyCredentialWithRelyingParty:credentialID:completionHandler:"
++ "reportUnusedPasswordCredentialForDomain:userName:"
++ "reportUnusedPasswordCredentialForDomain:username:"
++ "reportUnusedPasswordCredentialForDomain:username:completionHandler:"
++ "reportUnusedPasswordCredentialWithDomain:username:completionHandler:"
++ "requestExportForCredentialProvider:windowSceneIdentifier:completionHandler:"
++ "safari_boolForEntitlement:"
++ "safari_hasApprovedWebCredentialsDomainAssociationForDomain:"
++ "savePendingProviderChangesWithCompletion:"
++ "saveRecoveryKeyWithRequest:completion:"
++ "savedAccount"
++ "savedAccountsMatchingCriteria:withCompletionHandler:"
++ "schedulePasskeyMovedToRecentlyDeletedNotificationForApp:relyingPartyID:userName:credentialID:shouldUseRelyingPartyForServiceName:completionHandler:"
++ "schedulePasskeyUpdatedNotificationForApp:relyingPartyID:userName:credentialID:shouldUseRelyingPartyForServiceName:completionHandler:"
++ "schedulePasswordMovedToRecentlyDeletedNotificationForApp:domain:userName:shouldUseRelyingPartyForServiceName:completionHandler:"
++ "secret"
++ "selectedCredentialTypes"
++ "selectedImporterBundleIdentifier"
++ "setContentInset:"
++ "setExportDataFetchCompletionHandler:"
++ "setExporterBundleIdentifier:"
++ "setExporterConnection:"
++ "setImporterConnection:"
++ "setImporterToken:"
++ "setPlatformAccountRegistrationOptions:"
++ "setSelectedImporterBundleIdentifier:"
++ "setSourceApplicationSecondaryIdentifierForRequiringPrivacyProxyFailingClosed:"
++ "setTransaction:"
++ "setUserDisplayName:"
++ "setUserName:"
++ "setViewServiceConnection:"
++ "sf_applicationRecordForContainingApp"
++ "sharedNotificationManager"
++ "shouldRequestName"
++ "ssh-key"
++ "streetAddress"
++ "stringByAppendingFormat:"
++ "subcollections"
++ "subdivision-code"
++ "tel"
++ "territory"
++ "test_overrideCallingAppName"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "timestamp"
++ "transaction"
++ "v16@?0@\"NSMutableArray\"8"
++ "v16@?0@\"WBSSavedAccount\"8"
++ "v16@?0@\"WBSSavedAccountMatchResult\"8"
++ "v24@0:8@\"SFCredentialProviderExtensionManager\"16"
++ "v24@0:8@?<v@?@\"NSSet\">16"
++ "v32@0:8@\"NSString\"16@\"NSData\"24"
++ "v32@0:8@\"NSString\"16@\"NSString\"24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\">24"
++ "v32@0:8@\"NSString\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v32@0:8@\"WBSFileVaultRecoveryKeySaveRequest\"16@?<v@?@\"NSError\">24"
++ "v40@0:8@\"NSString\"16@\"NSData\"24@\"NSArray\"32"
++ "v40@0:8@\"NSString\"16@\"NSData\"24@\"NSString\"32"
++ "v40@0:8@\"NSString\"16@\"NSData\"24@?<v@?>32"
++ "v40@0:8@\"NSString\"16@\"NSData\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?>32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSString\"@\"NSError\">32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"WBSFileVaultRecoveryKey\"@\"NSError\">32"
++ "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSArray\"32@?<v@?>40"
++ "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSArray\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSString\"32@?<v@?>40"
++ "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSString\"32@?<v@?@\"NSError\">40"
++ "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSString\"@\"NSError\">40"
++ "v48@0:8@\"NSXPCConnection\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSString\"@\"NSError\">40"
++ "v52@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32B40@?<v@?>44"
++ "v52@0:8@16@24@32B40@?44"
++ "v60@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@\"NSData\"40B48@?<v@?>52"
++ "v60@0:8@16@24@32@40B48@?52"
++ "validFrom"
++ "version"
++ "viewServiceConnection"
++ "visualEffectView"
++ "wifi"
++ "wifi-network-security-type"
++ "\xd1"
+- "@40@0:8Q16Q24B32B36"
+- "@44@0:8Q16Q24Q32B40"
+- "@48@0:8Q16Q24Q32B40B44"
+- "@52@0:8Q16Q24Q32B40B44B48"
+- "ASAgentCredentialExchangeListenerInterface"
+- "Before deleting this password, visit the associated website to turn off the verification code. Otherwise, you may no longer be able to sign in."
+- "In developer preview flow with nil credential data, this is unexpected."
+- "Missing presentation anchor."
+- "No presentationAnchor set."
+- "Sign in with Touch\u00a0ID"
+- "These %zu passkeys and these %zu passwords will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "These %zu passkeys and this password will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "These %zu passkeys will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "These %zu passwords will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "This passkey and password will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "This passkey and these %zu passwords will be moved to Recently Deleted. After 30 days, they will be permanently deleted."
+- "This passkey will be moved to Recently Deleted. After 30 days, it will be permanently deleted."
+- "This password will be moved to Recently Deleted. After 30 days, it will be permanently deleted."
+- "_buttonTitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:"
+- "_credentialDeletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:"
+- "_deletionStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:isDeletingSharedAccounts:isPermanentlyDeleting:"
+- "_getInformationForSavedAccountsToDelete:numberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:hasSharedAccounts:areAllAccountsShared:"
+- "_importerBundleID"
+- "_requestExportWithConnection:credentialProviderBundleIdentifier:windowSceneIdentifier:exportedCredentialData:completionHandler:"
+- "_subtitleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingVerificationCodes:isDeletingSharedAccounts:isPermanentlyDeleting:"
+- "_titleStringForAlertToDeleteNumberOfPasswords:numberOfPasskeys:numberOfSiwaAccounts:isDeletingSharedAccounts:isPermanentlyDeleting:"
+- "appIconForBundleID:"
+- "browserPasskeysForRelyingParty:completionHandler:"
+- "com.apple.Passwords"
+- "document"
+- "identity"
+- "passkeyCredentialID"
+- "passkeyRelyingPartyID"
+- "presentExportFlowForProcess:windowSceneIdentifier:exportedCredentialData:completionHandler:"
+- "requestExportForCredentialProvider:windowSceneIdentifier:exportedCredentialData:completionHandler:"
+- "savePendingProviderChangesBeforeTermination"
+- "setRequirePrivateRelayForAllNetworkTraffic:"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSData\"32@?<v@?@\"NSString\"@\"NSError\">40"
+- "v56@0:8@\"NSXPCConnection\"16@\"NSString\"24@\"NSString\"32@\"NSData\"40@?<v@?@\"NSString\"@\"NSError\">48"
+- "v72@0:8@16^Q24^Q32^Q40^B48^B56^B64"
+- "\xc1"
+
+```

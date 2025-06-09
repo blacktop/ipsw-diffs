@@ -1,0 +1,2815 @@
+## AudioSession
+
+> `/System/Library/PrivateFrameworks/AudioSession.framework/AudioSession`
+
+```diff
+
+-321.603.0.0.0
+-  __TEXT.__text: 0x43fdc
+-  __TEXT.__auth_stubs: 0xb60
+-  __TEXT.__objc_methlist: 0x1c20
+-  __TEXT.__gcc_except_tab: 0x7bec
+-  __TEXT.__cstring: 0x23b2
+-  __TEXT.__const: 0x250
+-  __TEXT.__oslogstring: 0x2c12
+-  __TEXT.__unwind_info: 0x2748
+-  __TEXT.__objc_classname: 0x30f
+-  __TEXT.__objc_methname: 0x45f3
+-  __TEXT.__objc_methtype: 0x1367
+-  __TEXT.__objc_stubs: 0x28c0
+-  __DATA_CONST.__got: 0xa40
+-  __DATA_CONST.__const: 0x708
+-  __DATA_CONST.__objc_classlist: 0x80
+-  __DATA_CONST.__objc_protolist: 0x40
++395.3.0.0.0
++  __TEXT.__text: 0x49ad4
++  __TEXT.__auth_stubs: 0xbf0
++  __TEXT.__objc_methlist: 0x21d0
++  __TEXT.__gcc_except_tab: 0x88c0
++  __TEXT.__cstring: 0x27d4
++  __TEXT.__const: 0x21f
++  __TEXT.__oslogstring: 0x357f
++  __TEXT.__unwind_info: 0x2b18
++  __TEXT.__objc_classname: 0x51b
++  __TEXT.__objc_methname: 0x4f83
++  __TEXT.__objc_methtype: 0x1ec2
++  __TEXT.__objc_stubs: 0x2c20
++  __DATA_CONST.__got: 0xaf0
++  __DATA_CONST.__const: 0x7d0
++  __DATA_CONST.__objc_classlist: 0xf0
++  __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1388
+-  __DATA_CONST.__objc_superrefs: 0x70
++  __DATA_CONST.__objc_selrefs: 0x1598
++  __DATA_CONST.__objc_superrefs: 0xb8
+   __DATA_CONST.__objc_arraydata: 0x8
+-  __AUTH_CONST.__auth_got: 0x5c0
+-  __AUTH_CONST.__const: 0x1540
+-  __AUTH_CONST.__cfstring: 0x1d20
+-  __AUTH_CONST.__objc_const: 0x16c8
+-  __AUTH_CONST.__objc_intobj: 0x138
++  __AUTH_CONST.__auth_got: 0x608
++  __AUTH_CONST.__const: 0x1698
++  __AUTH_CONST.__cfstring: 0x20a0
++  __AUTH_CONST.__objc_const: 0x2778
++  __AUTH_CONST.__objc_intobj: 0x150
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__objc_floatobj: 0x40
+-  __AUTH.__objc_data: 0xa0
+-  __DATA.__objc_ivar: 0x70
+-  __DATA.__data: 0x358
++  __AUTH.__objc_data: 0x500
++  __DATA.__objc_ivar: 0x10c
++  __DATA.__data: 0x538
+   __DATA.__common: 0x1
+-  __DATA.__bss: 0x100
++  __DATA.__bss: 0xf8
+   __DATA_DIRTY.__objc_data: 0x460
+-  __DATA_DIRTY.__data: 0xb0
+-  __DATA_DIRTY.__bss: 0x240
++  __DATA_DIRTY.__data: 0x50
++  __DATA_DIRTY.__bss: 0x2d0
++  - /System/Library/Frameworks/AVRouting.framework/AVRouting
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AudioSession.framework/libSessionUtility.dylib
+   - /System/Library/PrivateFrameworks/MediaExperience.framework/MediaExperience
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 59E071B5-055D-3DE0-B60D-47B4DCE20666
+-  Functions: 1395
+-  Symbols:   4928
+-  CStrings:  1602
++  UUID: 05B192E9-B543-3378-B152-35990B02CB49
++  Functions: 1580
++  Symbols:   5601
++  CStrings:  1889
+ 
+Symbols:
++ +[AVAudioApplication(SPI) visionosDeviceSupportsEnhanceDialogue]
++ +[AVAudioNotificationRouterXPC sharedInstance]
++ -[AVAudioApplication(SPI) requestRecordPermissionWithCompletionHandler:]
++ -[AVAudioIONodeCallbackDispatcher IOControllerEvent:sessions:isDecoupledInput:]
++ -[AVAudioIONodeCallbackDispatcher pingClient:]
++ -[AVAudioIONodeDescription .cxx_destruct]
++ -[AVAudioIONodeDescription copyWithZone:]
++ -[AVAudioIONodeDescription isEqual:]
++ -[AVAudioIONodeDescription playerType]
++ -[AVAudioIONodeDescription sessionOwnerPID]
++ -[AVAudioIONodeDescription setPlayerType:]
++ -[AVAudioIONodeDescription setSessionOwnerPID:]
++ -[AVAudioIONodeDescription setSourceSession:]
++ -[AVAudioIONodeDescription sourceSession]
++ -[AVAudioIONodePlayState copyWithZone:]
++ -[AVAudioIONodePlayState ioMode]
++ -[AVAudioIONodePlayState isEqual:]
++ -[AVAudioIONodePlayState playState]
++ -[AVAudioIONodePlayState setIoMode:]
++ -[AVAudioIONodePlayState setPlayState:]
++ -[AVAudioIONodeSession .cxx_construct]
++ -[AVAudioIONodeSession .cxx_destruct]
++ -[AVAudioIONodeSession _setMXProperties:properties:error:]
++ -[AVAudioIONodeSession dealloc]
++ -[AVAudioIONodeSession description]
++ -[AVAudioIONodeSession getMXProperties:propertyErrors:]
++ -[AVAudioIONodeSession getMXSessionProperty:error:]
++ -[AVAudioIONodeSession initWithDescription:]
++ -[AVAudioIONodeSession initWithDescription:server:]
++ -[AVAudioIONodeSession invalidate]
++ -[AVAudioIONodeSession isExplicitSimulationEnabled]
++ -[AVAudioIONodeSession isInputMuted]
++ -[AVAudioIONodeSession isOutputMuted]
++ -[AVAudioIONodeSession nodeSessionID]
++ -[AVAudioIONodeSession nodeSessionUUID]
++ -[AVAudioIONodeSession playState]
++ -[AVAudioIONodeSession playerType]
++ -[AVAudioIONodeSession privateCreateIONodeSession:server:]
++ -[AVAudioIONodeSession reconfigure:error:]
++ -[AVAudioIONodeSession sessionOwnerPID]
++ -[AVAudioIONodeSession setInputMuted:]
++ -[AVAudioIONodeSession setMXProperties:error:]
++ -[AVAudioIONodeSession setMXSessionProperty:value:error:]
++ -[AVAudioIONodeSession setOutputMuted:]
++ -[AVAudioIONodeSession setPlayState:]
++ -[AVAudioIONodeSession sourceSessionID]
++ -[AVAudioIONodeSessionRemoteServer .cxx_construct]
++ -[AVAudioIONodeSessionRemoteServer .cxx_destruct]
++ -[AVAudioIONodeSessionRemoteServer createIONodeWithSourceSession:sessionOwnerPID:playerType:error:]
++ -[AVAudioIONodeSessionRemoteServer getPropertiesIONode:properties:status:error:]
++ -[AVAudioIONodeSessionRemoteServer init]
++ -[AVAudioIONodeSessionRemoteServer invalidateIONode:error:]
++ -[AVAudioIONodeSessionRemoteServer reconfigureIONode:withSourceSession:sessionOwnerPID:playerType:error:]
++ -[AVAudioIONodeSessionRemoteServer setIONode:playState:modes:error:]
++ -[AVAudioIONodeSessionRemoteServer setPropertiesIONode:values:error:]
++ -[AVAudioInterruptionNotification .cxx_destruct]
++ -[AVAudioInterruptionNotification initWithInternal:]
++ -[AVAudioInterruptionNotification interruptionInfo]
++ -[AVAudioInterruptionNotification interruptionState]
++ -[AVAudioInterruptionNotification nodeSessionID]
++ -[AVAudioInterruptionNotification sessionOwnerPID]
++ -[AVAudioInterruptionNotification sourceSessionID]
++ -[AVAudioNotification .cxx_destruct]
++ -[AVAudioNotification propertyName]
++ -[AVAudioNotification setPropertyName:]
++ -[AVAudioNotification setType:]
++ -[AVAudioNotification type]
++ -[AVAudioNotificationCenter .cxx_construct]
++ -[AVAudioNotificationCenter .cxx_destruct]
++ -[AVAudioNotificationCenter dealloc]
++ -[AVAudioNotificationCenter delegateID]
++ -[AVAudioNotificationCenter initWithServer:type:]
++ -[AVAudioNotificationCenter init]
++ -[AVAudioNotificationCenter invalidate]
++ -[AVAudioNotificationCenter locked_calculateFilter]
++ -[AVAudioNotificationCenter privateSetInterruptionNotificationHandler:]
++ -[AVAudioNotificationCenter privateSetPropertyNotificationHandler:]
++ -[AVAudioNotificationCenter privateStartObservingNotifications:]
++ -[AVAudioNotificationCenter privateStopObservingNotifications:]
++ -[AVAudioNotificationCenter setInterruptionNotificationHandler:]
++ -[AVAudioNotificationCenter setPropertyNotificationHandler:]
++ -[AVAudioNotificationCenter startObservingNotifications:]
++ -[AVAudioNotificationCenter stopObservingNotifications:]
++ -[AVAudioNotificationCenter unlocked_updateServerWithFilter:]
++ -[AVAudioNotificationCenterHandler .cxx_construct]
++ -[AVAudioNotificationCenterHandler .cxx_destruct]
++ -[AVAudioNotificationCenterHandler handleInterruptionNotifications:]
++ -[AVAudioNotificationCenterHandler handlePropertyNotifications:]
++ -[AVAudioNotificationCenterHandler interruptionHandler]
++ -[AVAudioNotificationCenterHandler propertyNotificationHandler]
++ -[AVAudioNotificationCenterHandler setInterruptionHandler:]
++ -[AVAudioNotificationCenterHandler setPropertyNotificationHandler:]
++ -[AVAudioNotificationRouterXPC .cxx_construct]
++ -[AVAudioNotificationRouterXPC .cxx_destruct]
++ -[AVAudioNotificationRouterXPC addNotificationDelegate:error:]
++ -[AVAudioNotificationRouterXPC createRemoteNotificationCenter]
++ -[AVAudioNotificationRouterXPC destroyRemoteNotificationCenter:]
++ -[AVAudioNotificationRouterXPC handleAudiomxdReset]
++ -[AVAudioNotificationRouterXPC handleAudiomxdTermination]
++ -[AVAudioNotificationRouterXPC handleNotification:payload:]
++ -[AVAudioNotificationRouterXPC init]
++ -[AVAudioNotificationRouterXPC isAudioServiceTerminated]
++ -[AVAudioNotificationRouterXPC removeNotificationDelegate:]
++ -[AVAudioNotificationRouterXPC setAudioServiceTerminated:]
++ -[AVAudioNotificationRouterXPC startObservingNotifications:forDelegate:]
++ -[AVAudioNotificationRouterXPC stopObservingNotifications:forDelegate:]
++ -[AVAudioPropertyNotification .cxx_destruct]
++ -[AVAudioPropertyNotification initWithInternal:]
++ -[AVAudioPropertyNotification nodeSessionID]
++ -[AVAudioPropertyNotification propertyData]
++ -[AVAudioPropertyNotification propertyName]
++ -[AVAudioPropertyNotification sourceSessionID]
++ -[AVAudioSecureSession _innerSession]
++ -[AVAudioSecureSession set_innerSession:]
++ -[AVAudioSession allowEnhanceDialogue]
++ -[AVAudioSession conformedPoliciesOfSession:]
++ -[AVAudioSession hasVideo]
++ -[AVAudioSession iAmTheAssistant]
++ -[AVAudioSession initProxySession:autoReconnect:]
++ -[AVAudioSession initSessionForIndependentInputRoute]
++ -[AVAudioSession initWithIsolatedAudioUseCaseID:publishingSession:]
++ -[AVAudioSession isActive]
++ -[AVAudioSession isOutputMuted]
++ -[AVAudioSession privateGetDataSources:core:]
++ -[AVAudioSession privateGetSelectedDataSource:core:]
++ -[AVAudioSession privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:core:]
++ -[AVAudioSession privateRequiresWatchOSRoutePicker:core:]
++ -[AVAudioSession privateSetActive:withOptions:error:core:]
++ -[AVAudioSession privateSetPrefersInterruptionOnRouteDisconnect:core:]
++ -[AVAudioSession sessionCore]
++ -[AVAudioSession setAllowEnhanceDialogue:error:]
++ -[AVAudioSession setConformsToSessionBehavior:error:]
++ -[AVAudioSession setHasVideo:error:]
++ -[AVAudioSession setIAmTheAssistant:error:]
++ -[AVAudioSession setOutputMuted:error:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) addObserverForType:name:block:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) getMXProperties:propertyErrors:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) getMXSessionProperty:error:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) removeObserverForType:observer:name:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) setAudioIOProperties:propertyErrors:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) setMXProperties:propertyErrors:]
++ -[AVAudioSession(AVAudioSessionGenericPropertyPipe) setMXSessionProperty:value:error:]
++ -[AVAudioSession(AudioHUD) getAllSessionInformation]
++ -[AVAudioSession(AudioHUD) sendNotification:notificationName:userInfo:error:]
++ -[AVAudioSession(AudioHUD) toggleNotification:notificationName:enabled:error:]
++ -[AVAudioSession(NotificationCenterHooks) privateCreateRemoteNotificationCenter]
++ -[AVAudioSession(NotificationCenterHooks) privateDestroyRemoteNotificationCenter:]
++ -[AVAudioSession(NotificationCenterHooks) privateStartOrStopObserving:remoteNotifications:forDelegate:]
++ -[AVAudioSessionCapability initWithIsSupported:isEnabled:]
++ -[AVAudioSessionCapability isEnabled]
++ -[AVAudioSessionCapability isSupported]
++ -[AVAudioSessionPortDescription bluetoothMicrophoneExtension]
++ -[AVAudioSessionPortExtensionBluetoothMicrophone .cxx_destruct]
++ -[AVAudioSessionPortExtensionBluetoothMicrophone highQualityRecording]
++ -[AVAudioSessionPortExtensionBluetoothMicrophone setHighQualityRecording:]
++ -[AVAudioSessionSpecification publishingSession]
++ -[AVAudioSessionSpecification setPublishingSession:]
++ -[AVOutputContextMonitor .cxx_construct]
++ -[AVOutputContextMonitor .cxx_destruct]
++ -[AVOutputContextMonitor dealloc]
++ -[AVOutputContextMonitor handleAVOutputContextOutputDeviceChange:]
++ -[AVOutputContextMonitor handleAVOutputContextOutputDevicesChange:]
++ -[AVOutputContextMonitor initWithSessionCore:routingContextUID:]
++ GCC_except_table106
++ GCC_except_table121
++ GCC_except_table140
++ GCC_except_table156
++ GCC_except_table157
++ GCC_except_table194
++ GCC_except_table209
++ GCC_except_table215
++ GCC_except_table218
++ GCC_except_table222
++ GCC_except_table246
++ GCC_except_table248
++ GCC_except_table255
++ GCC_except_table265
++ GCC_except_table266
++ GCC_except_table286
++ GCC_except_table287
++ GCC_except_table304
++ GCC_except_table311
++ GCC_except_table329
++ GCC_except_table388
++ GCC_except_table390
++ GCC_except_table391
++ GCC_except_table420
++ GCC_except_table480
++ GCC_except_table49
++ GCC_except_table490
++ GCC_except_table491
++ GCC_except_table494
++ GCC_except_table50
++ GCC_except_table66
++ GCC_except_table73
++ GCC_except_table88
++ GCC_except_table89
++ GCC_except_table91
++ GCC_except_table95
++ _AVAudioSessionActivationCallTypeKey
++ _AVAudioSessionAvailableInputsChangeNotification
++ _AVAudioSessionAvailableOutputsChangeNotification
++ _AVAudioSessionConformSessionAudioSessionIDKey
++ _AVAudioSessionConformSessionShadowingOptionsKey
++ _AVAudioSessionInterruptorSessionIDKey
++ _AVAudioSessionModeShortFormVideo
++ _AVAudioSessionMuteStateKey
++ _AVAudioSessionOutputMuteStateChangeNotification
++ _AVAudioSessionProperty_IntendedSpatialAudioExperienceOverride
++ _AVAudioSessionProperty_ResolvedSpatialAudioExperience
++ _AVAudioSessionProperty_SceneIdentifier
++ _AVAudioSessionUserIntentToUnmuteOutputNotification
++ _AVAudioSystemNotificationKey_AuditToken
++ _AVAudioSystemNotificationKey_UpdatedMicrophoneInjectionPreference
++ _AVAudioSystemProperty_MicrophoneInjectionPreference
++ _AVInputDeviceDiscoverySessionAvailableInputDevicesDidChangeNotification
++ _AVOutputDeviceDiscoverySessionAvailableOutputDevicesDidChangeNotification
++ _AudioHUDInformationCreatorProcessNameKey
++ _AudioHUDInformationSessionIDKey
++ _AudioHUDInformationSessionTypeKey
++ _CFRelease
++ _OBJC_CLASS_$_AVAudioIONodeCallbackDispatcher
++ _OBJC_CLASS_$_AVAudioIONodeDescription
++ _OBJC_CLASS_$_AVAudioIONodePlayState
++ _OBJC_CLASS_$_AVAudioIONodeSession
++ _OBJC_CLASS_$_AVAudioIONodeSessionRemoteServer
++ _OBJC_CLASS_$_AVAudioInterruptionNotification
++ _OBJC_CLASS_$_AVAudioNotification
++ _OBJC_CLASS_$_AVAudioNotificationCenter
++ _OBJC_CLASS_$_AVAudioNotificationCenterHandler
++ _OBJC_CLASS_$_AVAudioNotificationFilter
++ _OBJC_CLASS_$_AVAudioNotificationInternal
++ _OBJC_CLASS_$_AVAudioNotificationRouterXPC
++ _OBJC_CLASS_$_AVAudioPropertyNotification
++ _OBJC_CLASS_$_AVAudioPropertyNotificationInternal
++ _OBJC_CLASS_$_AVAudioSessionCapability
++ _OBJC_CLASS_$_AVAudioSessionPortExtensionBluetoothMicrophone
++ _OBJC_CLASS_$_AVInputDeviceDiscoverySession
++ _OBJC_CLASS_$_AVOutputContextMonitor
++ _OBJC_CLASS_$_AVOutputDeviceDiscoverySession
++ _OBJC_IVAR_$_AVAudioIONodeDescription._playerType
++ _OBJC_IVAR_$_AVAudioIONodeDescription._sessionOwnerPID
++ _OBJC_IVAR_$_AVAudioIONodeDescription._sourceSession
++ _OBJC_IVAR_$_AVAudioIONodePlayState._ioMode
++ _OBJC_IVAR_$_AVAudioIONodePlayState._playState
++ _OBJC_IVAR_$_AVAudioIONodeSession._explicitSimulationEnabled
++ _OBJC_IVAR_$_AVAudioIONodeSession._impl
++ _OBJC_IVAR_$_AVAudioIONodeSession._invalidated
++ _OBJC_IVAR_$_AVAudioIONodeSession._playState
++ _OBJC_IVAR_$_AVAudioIONodeSessionRemoteServer._mutex
++ _OBJC_IVAR_$_AVAudioIONodeSessionRemoteServer._xpcConnection
++ _OBJC_IVAR_$_AVAudioInterruptionNotification._interruptionInfo
++ _OBJC_IVAR_$_AVAudioInterruptionNotification._interruptionState
++ _OBJC_IVAR_$_AVAudioInterruptionNotification._nodeSessionID
++ _OBJC_IVAR_$_AVAudioInterruptionNotification._sessionOwnerPID
++ _OBJC_IVAR_$_AVAudioInterruptionNotification._sourceSessionID
++ _OBJC_IVAR_$_AVAudioNotification.propertyName
++ _OBJC_IVAR_$_AVAudioNotification.type
++ _OBJC_IVAR_$_AVAudioNotificationCenter._delegateID
++ _OBJC_IVAR_$_AVAudioNotificationCenter._handler
++ _OBJC_IVAR_$_AVAudioNotificationCenter._mutex
++ _OBJC_IVAR_$_AVAudioNotificationCenter._propertiesOfInterest
++ _OBJC_IVAR_$_AVAudioNotificationCenter._server
++ _OBJC_IVAR_$_AVAudioNotificationCenter._type
++ _OBJC_IVAR_$_AVAudioNotificationCenter._wantsInterruptions
++ _OBJC_IVAR_$_AVAudioNotificationCenterHandler._interruptionHandler
++ _OBJC_IVAR_$_AVAudioNotificationCenterHandler._mutex
++ _OBJC_IVAR_$_AVAudioNotificationCenterHandler._propertyNotificationHandler
++ _OBJC_IVAR_$_AVAudioNotificationRouterXPC._delegates
++ _OBJC_IVAR_$_AVAudioPropertyNotification._nodeSessionID
++ _OBJC_IVAR_$_AVAudioPropertyNotification._propertyData
++ _OBJC_IVAR_$_AVAudioPropertyNotification._propertyName
++ _OBJC_IVAR_$_AVAudioPropertyNotification._sourceSessionID
++ _OBJC_IVAR_$_AVAudioSessionCapability._enabled
++ _OBJC_IVAR_$_AVAudioSessionCapability._supported
++ _OBJC_IVAR_$_AVAudioSessionPortExtensionBluetoothMicrophone.highQualityRecording
++ _OBJC_IVAR_$_AVAudioSessionSpecification.publishingSession
++ _OBJC_IVAR_$_AVOutputContextMonitor.mAVOutputContext
++ _OBJC_IVAR_$_AVOutputContextMonitor.mSessionCore
++ _OBJC_METACLASS_$_AVAudioIONodeCallbackDispatcher
++ _OBJC_METACLASS_$_AVAudioIONodeDescription
++ _OBJC_METACLASS_$_AVAudioIONodePlayState
++ _OBJC_METACLASS_$_AVAudioIONodeSession
++ _OBJC_METACLASS_$_AVAudioIONodeSessionRemoteServer
++ _OBJC_METACLASS_$_AVAudioInterruptionNotification
++ _OBJC_METACLASS_$_AVAudioNotification
++ _OBJC_METACLASS_$_AVAudioNotificationCenter
++ _OBJC_METACLASS_$_AVAudioNotificationCenterHandler
++ _OBJC_METACLASS_$_AVAudioNotificationRouterXPC
++ _OBJC_METACLASS_$_AVAudioPropertyNotification
++ _OBJC_METACLASS_$_AVAudioSessionCapability
++ _OBJC_METACLASS_$_AVAudioSessionPortExtensionBluetoothMicrophone
++ _OBJC_METACLASS_$_AVOutputContextMonitor
++ _SecTaskCopySigningIdentifier
++ _SecTaskCreateWithAuditToken
++ __OBJC_$_CLASS_METHODS_AVAudioNotificationRouterXPC
++ __OBJC_$_INSTANCE_METHODS_AVAudioIONodeCallbackDispatcher
++ __OBJC_$_INSTANCE_METHODS_AVAudioIONodeDescription
++ __OBJC_$_INSTANCE_METHODS_AVAudioIONodePlayState
++ __OBJC_$_INSTANCE_METHODS_AVAudioIONodeSession
++ __OBJC_$_INSTANCE_METHODS_AVAudioIONodeSessionRemoteServer
++ __OBJC_$_INSTANCE_METHODS_AVAudioInterruptionNotification
++ __OBJC_$_INSTANCE_METHODS_AVAudioNotification
++ __OBJC_$_INSTANCE_METHODS_AVAudioNotificationCenter
++ __OBJC_$_INSTANCE_METHODS_AVAudioNotificationCenterHandler
++ __OBJC_$_INSTANCE_METHODS_AVAudioNotificationRouterXPC
++ __OBJC_$_INSTANCE_METHODS_AVAudioPropertyNotification
++ __OBJC_$_INSTANCE_METHODS_AVAudioSession(NotificationCenterHooks|CommonImplementation|AVAudioSessionGenericPropertyPipe|AudioHUD)
++ __OBJC_$_INSTANCE_METHODS_AVAudioSessionCapability
++ __OBJC_$_INSTANCE_METHODS_AVAudioSessionPortExtensionBluetoothMicrophone
++ __OBJC_$_INSTANCE_METHODS_AVOutputContextMonitor
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioIONodeDescription
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioIONodePlayState
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioIONodeSession
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioIONodeSessionRemoteServer
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioInterruptionNotification
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioNotification
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioNotificationCenter
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioNotificationCenterHandler
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioNotificationRouterXPC
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioPropertyNotification
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioSessionCapability
++ __OBJC_$_INSTANCE_VARIABLES_AVAudioSessionPortExtensionBluetoothMicrophone
++ __OBJC_$_INSTANCE_VARIABLES_AVOutputContextMonitor
++ __OBJC_$_PROP_LIST_AVAudioIONodeDescription
++ __OBJC_$_PROP_LIST_AVAudioIONodePlayState
++ __OBJC_$_PROP_LIST_AVAudioIONodeSession
++ __OBJC_$_PROP_LIST_AVAudioInterruptionNotification
++ __OBJC_$_PROP_LIST_AVAudioNotification
++ __OBJC_$_PROP_LIST_AVAudioNotificationCenterHandler
++ __OBJC_$_PROP_LIST_AVAudioNotificationRouterXPC
++ __OBJC_$_PROP_LIST_AVAudioPropertyNotification
++ __OBJC_$_PROP_LIST_AVAudioSessionCapability
++ __OBJC_$_PROP_LIST_AVAudioSessionPortExtensionBluetoothMicrophone
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVAudioIONodeSessionServer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVAudioNotificationCenterServer
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVAudioNotificationCenterServerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVAudioNotificationCenterServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAudioIONodeSessionServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAudioNotificationCenterServer
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVAudioNotificationCenterServerDelegate
++ __OBJC_$_PROTOCOL_REFS_AVAudioNotificationCenterServer
++ __OBJC_CLASS_PROTOCOLS_$_AVAudioIONodeCallbackDispatcher
++ __OBJC_CLASS_PROTOCOLS_$_AVAudioIONodeSessionRemoteServer
++ __OBJC_CLASS_PROTOCOLS_$_AVAudioNotificationCenterHandler
++ __OBJC_CLASS_PROTOCOLS_$_AVAudioNotificationRouterXPC
++ __OBJC_CLASS_RO_$_AVAudioIONodeCallbackDispatcher
++ __OBJC_CLASS_RO_$_AVAudioIONodeDescription
++ __OBJC_CLASS_RO_$_AVAudioIONodePlayState
++ __OBJC_CLASS_RO_$_AVAudioIONodeSession
++ __OBJC_CLASS_RO_$_AVAudioIONodeSessionRemoteServer
++ __OBJC_CLASS_RO_$_AVAudioInterruptionNotification
++ __OBJC_CLASS_RO_$_AVAudioNotification
++ __OBJC_CLASS_RO_$_AVAudioNotificationCenter
++ __OBJC_CLASS_RO_$_AVAudioNotificationCenterHandler
++ __OBJC_CLASS_RO_$_AVAudioNotificationRouterXPC
++ __OBJC_CLASS_RO_$_AVAudioPropertyNotification
++ __OBJC_CLASS_RO_$_AVAudioSessionCapability
++ __OBJC_CLASS_RO_$_AVAudioSessionPortExtensionBluetoothMicrophone
++ __OBJC_CLASS_RO_$_AVOutputContextMonitor
++ __OBJC_LABEL_PROTOCOL_$_AVAudioIONodeSessionServer
++ __OBJC_LABEL_PROTOCOL_$_AVAudioNotificationCenterServer
++ __OBJC_LABEL_PROTOCOL_$_AVAudioNotificationCenterServerDelegate
++ __OBJC_LABEL_PROTOCOL_$_IONodeSessionXPCServerCallbackProtocol
++ __OBJC_METACLASS_RO_$_AVAudioIONodeCallbackDispatcher
++ __OBJC_METACLASS_RO_$_AVAudioIONodeDescription
++ __OBJC_METACLASS_RO_$_AVAudioIONodePlayState
++ __OBJC_METACLASS_RO_$_AVAudioIONodeSession
++ __OBJC_METACLASS_RO_$_AVAudioIONodeSessionRemoteServer
++ __OBJC_METACLASS_RO_$_AVAudioInterruptionNotification
++ __OBJC_METACLASS_RO_$_AVAudioNotification
++ __OBJC_METACLASS_RO_$_AVAudioNotificationCenter
++ __OBJC_METACLASS_RO_$_AVAudioNotificationCenterHandler
++ __OBJC_METACLASS_RO_$_AVAudioNotificationRouterXPC
++ __OBJC_METACLASS_RO_$_AVAudioPropertyNotification
++ __OBJC_METACLASS_RO_$_AVAudioSessionCapability
++ __OBJC_METACLASS_RO_$_AVAudioSessionPortExtensionBluetoothMicrophone
++ __OBJC_METACLASS_RO_$_AVOutputContextMonitor
++ __OBJC_PROTOCOL_$_AVAudioIONodeSessionServer
++ __OBJC_PROTOCOL_$_AVAudioNotificationCenterServer
++ __OBJC_PROTOCOL_$_AVAudioNotificationCenterServerDelegate
++ __OBJC_PROTOCOL_$_IONodeSessionXPCServerCallbackProtocol
++ __Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeRKNSt3__18optionalI13audit_token_tEEU13block_pointerFv25tcc_authorization_right_tE
++ __Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeRKNSt3__18optionalI13audit_token_tEEU13block_pointerFv25tcc_authorization_right_tE.cold.1
++ __Z28ReplaceRouteChangeReasonCodeP8NSNumber
++ __ZGVZN4avas21CategoryRequiresInputEP8NSStringE24categoriesRequiringInput
++ __ZGVZN4avas6client11SessionCore20GetNotificationQueueEvE18sNotificationQueue
++ __ZGVZN4avas6client12CacheManager25cacheConsideredPropertiesEvE25cacheConsideredProperties
++ __ZGVZN4avas6client12CacheManager25propertiesForNotificationEvE25propertiesForNotification
++ __ZGVZN4avas6client17gSessionClientLogEvE7sLogCat
++ __ZGVZN4avas6client21DeviceTimeGlobalState8instanceEvE6global
++ __ZGVZN4avasL16StudioMicEnabledEvE16studioMicEnabled
++ __ZGVZN4avasL18InputPickerEnabledEvE18inputPickerEnabled
++ __ZGVZN4avasL22TransitionToBestEffortEvE29transitionToBestEffortEnabled
++ __ZGVZN4avasL23AudioSessionMuteEnabledEvE7enabled
++ __ZGVZN4avasL23OverdubRecordingEnabledEvE7enabled
++ __ZGVZN4avasL24ClientSideCachingEnabledEvE7enabled
++ __ZGVZN4avasL24SampleRateCachingEnabledEvE7enabled
++ __ZGVZN4avasL27SmartRoutingPrioritizesCallEvE7enabled
++ __ZGVZNK4avas15ProcessIdentity7isValidEvE11emptyProcID
++ __ZGVZNK4avas15ProcessIdentity7isValidEvE13invalidProcID
++ __ZL29gAVAudioNotificationRouterXPC
++ __ZN10applesauce2CF9ObjectRefIP9__SecTaskED1Ev
++ __ZN10applesauce8dispatch2v15queueD2Ev
++ __ZN12_GLOBAL__N_123GetSidekickDefaultValueEP8NSString
++ __ZN12_GLOBAL__N_125GetApplicationPropertyXPCEONSt3__15tupleIJNS0_10shared_ptrIN4avas6client13XPCConnectionEEENS3_15ProcessIdentityEjEEEP8NSStringb
++ __ZN12_GLOBAL__N_130CreateHostTimeMinimalTimeStampEv
++ __ZN12_GLOBAL__N_18initImplEP27AVAudioSessionSpecificationP14AVAudioSession
++ __ZN33NotificationDelegateCollectionXPC11AddDelegateEPU50objcproto39AVAudioNotificationCenterServerDelegate11objc_objecty
++ __ZN33NotificationDelegateCollectionXPC19HandleNotificationsEP7NSArrayIP35AVAudioPropertyNotificationInternalEPS0_IP8NSNumberE
++ __ZN4avac28CreateUUIDForIONodeSessionIDEj
++ __ZN4avac34CreateInProcessIONodeSessionServerEv
++ __ZN4avac39CreateInProcessNotificationCenterServerEv
++ __ZN4avas11ScopedTraceD2Ev
++ __ZN4avas13AudioAppState13setPropertyMXEP8NSStringPU25objcproto14NSSecureCoding11objc_object
++ __ZN4avas13AudioAppState14setPropertyAppEP8NSStringPU25objcproto14NSSecureCoding11objc_object
++ __ZN4avas13AudioAppStateC2EP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectES7_
++ __ZN4avas13AudioAppStateD2Ev
++ __ZN4avas15ProcessIdentity14currentProcessEv
++ __ZN4avas15ProcessIdentity14currentProcessEv.cold.1
++ __ZN4avas15ProcessIdentityC1ERK13audit_token_t
++ __ZN4avas21CategoryRequiresInputEP8NSString
++ __ZN4avas28GetServerXPCListenerEndpointEv
++ __ZN4avas28IsStandardMXNotificationNameEP8NSString
++ __ZN4avas32CreateFixedPriorityDispatchQueueERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEi11qos_class_t
++ __ZN4avas4util20interpolateTimeStampERKNS_16MinimalTimeStampEy
++ __ZN4avas4util23minimalToAudioTimeStampERKNS_16MinimalTimeStampEb
++ __ZN4avas4util30minimalToPresentationTimeStampERKNS_16MinimalTimeStampEb
++ __ZN4avas6client10KVOManager19markPropertiesDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEEm
++ __ZN4avas6client10KVOManager19markPropertiesDirtyEm
++ __ZN4avas6client10KVOManager22markPropertiesDirtyAllEv
++ __ZN4avas6client10KVOManagerC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSession
++ __ZN4avas6client10KVOManagerD2Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayE13UpdateIfDirtyERKNSt3__18functionIFS3_vEEE
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayE13UpdateIfDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKNS6_8functionIFS3_vEEE
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayE15UpdateAndNotifyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERU8__strongKS3_b
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayE15UpdateAndNotifyERU8__strongKS3_b
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSessionPK8NSStringRU8__strongKS3_
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayED0Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayED1Ev
++ __ZN4avas6client11KVOPropertyIU8__strongP7NSArrayED2Ev
++ __ZN4avas6client11KVOPropertyIdE13UpdateIfDirtyERKNSt3__18functionIFdvEEE
++ __ZN4avas6client11KVOPropertyIdE13UpdateIfDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKNS3_8functionIFdvEEE
++ __ZN4avas6client11KVOPropertyIdE15UpdateAndNotifyERKdb
++ __ZN4avas6client11KVOPropertyIdE15UpdateAndNotifyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKdb
++ __ZN4avas6client11KVOPropertyIdED0Ev
++ __ZN4avas6client11KVOPropertyIdED1Ev
++ __ZN4avas6client11KVOPropertyIfE13UpdateIfDirtyERKNSt3__18functionIFfvEEE
++ __ZN4avas6client11KVOPropertyIfE13UpdateIfDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKNS3_8functionIFfvEEE
++ __ZN4avas6client11KVOPropertyIfE15UpdateAndNotifyERKfb
++ __ZN4avas6client11KVOPropertyIfE15UpdateAndNotifyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKfb
++ __ZN4avas6client11KVOPropertyIfED0Ev
++ __ZN4avas6client11KVOPropertyIfED1Ev
++ __ZN4avas6client11KVOPropertyIjE13UpdateIfDirtyERKNSt3__18functionIFjvEEE
++ __ZN4avas6client11KVOPropertyIjE13UpdateIfDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKNS3_8functionIFjvEEE
++ __ZN4avas6client11KVOPropertyIjE15UpdateAndNotifyERKjb
++ __ZN4avas6client11KVOPropertyIjE15UpdateAndNotifyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEERKjb
++ __ZN4avas6client11KVOPropertyIjED0Ev
++ __ZN4avas6client11KVOPropertyIjED1Ev
++ __ZN4avas6client11SessionCore10HandlePingEv
++ __ZN4avas6client11SessionCore11setCategoryEP8NSStringS3_32AVAudioSessionRouteSharingPolicym
++ __ZN4avas6client11SessionCore12DispatchPingEv
++ __ZN4avas6client11SessionCore12setSessionIDEj
++ __ZN4avas6client11SessionCore13setReporterIDEx
++ __ZN4avas6client11SessionCore18addObserverForTypeE30AVAudioSessionNotificationTypeP8NSStringU13block_pointerFvP14NSNotificationE
++ __ZN4avas6client11SessionCore18preferredInputPortEv
++ __ZN4avas6client11SessionCore18setSourceSessionIDEj
++ __ZN4avas6client11SessionCore20GetNotificationQueueEv
++ __ZN4avas6client11SessionCore20SetAudioIOPropertiesEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectEPU15__autoreleasingPS2_IS4_P8NSNumberE
++ __ZN4avas6client11SessionCore21HandleDeferredMessageEP8NSStringP12NSDictionary
++ __ZN4avas6client11SessionCore21createSessionInServerEv
++ __ZN4avas6client11SessionCore21removeObserverForTypeE30AVAudioSessionNotificationTypeP11objc_objectP8NSString
++ __ZN4avas6client11SessionCore21setPreferredInputPortEP29AVAudioSessionPortDescription
++ __ZN4avas6client11SessionCore23ReinitializeClientStateEv
++ __ZN4avas6client11SessionCore23currentRouteDescriptionEv
++ __ZN4avas6client11SessionCore23recreateSessionInServerEv
++ __ZN4avas6client11SessionCore25setSessionCreationHandlerENSt3__110shared_ptrINS2_8functionIFvvEEEEE
++ __ZN4avas6client11SessionCore26initializeDeviceTimeClientEPU24objcproto13OS_xpc_object8NSObjectj
++ __ZN4avas6client11SessionCore27resetSessionCreationHandlerEv
++ __ZN4avas6client11SessionCore27setAVASNotificationsEnabledEb
++ __ZN4avas6client11SessionCore27setCachedRouteSharingPolicyE32AVAudioSessionRouteSharingPolicy
++ __ZN4avas6client11SessionCore28setIsSessionInputMutedCachedEb
++ __ZN4avas6client11SessionCore29resetCachedPreferredInputPortEv
++ __ZN4avas6client11SessionCore30addCategoryOptionsToDictionaryEP19NSMutableDictionaryP8NSStringm
++ __ZN4avas6client11SessionCore31getCachedOrFromServerReporterIDEv
++ __ZN4avas6client11SessionCore36restoreClientStateAfterServerRestartEv
++ __ZN4avas6client11SessionCore42setClientPrefersLongFormRouteSharingPolicyEb
++ __ZN4avas6client11SessionCore5PImplC2EP27AVAudioSessionSpecification
++ __ZN4avas6client11SessionCoreC2EP27AVAudioSessionSpecificationP14AVAudioSession
++ __ZN4avas6client11SessionCoreD0Ev
++ __ZN4avas6client11SessionCoreD1Ev
++ __ZN4avas6client11SessionCoreD2Ev
++ __ZN4avas6client12CacheManager11updateCacheEP8NSStringPU25objcproto14NSSecureCoding11objc_object
++ __ZN4avas6client12CacheManager14getCachedValueEP8NSString
++ __ZN4avas6client12CacheManager15invalidateCacheEv
++ __ZN4avas6client12CacheManager16isPropertyCachedEP8NSString
++ __ZN4avas6client12CacheManager20getCachingPreferenceEv
++ __ZN4avas6client12CacheManager20setCachingPreferenceEb
++ __ZN4avas6client12CacheManager21refreshCachedPropertyEP14AVAudioSessionP8NSString
++ __ZN4avas6client12CacheManager23checkAndInvalidateCacheEP8NSString
++ __ZN4avas6client12CacheManager23refreshCachedPropertiesEP14AVAudioSession
++ __ZN4avas6client12CacheManager23removePropertyFromCacheEP8NSString
++ __ZN4avas6client12CacheManager25cacheConsideredPropertiesEv
++ __ZN4avas6client12CacheManager25isCacheConsideredPropertyEP8NSString
++ __ZN4avas6client12CacheManager25propertiesForNotificationEv
++ __ZN4avas6client12CacheManager25removePropertiesFromCacheEP7NSArrayIP8NSStringE
++ __ZN4avas6client12CacheManager25updateCacheMultipleValuesEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectE
++ __ZN4avas6client12CacheManager35checkAndRefreshCacheForNotificationEP14AVAudioSessionP8NSString
++ __ZN4avas6client13XPCConnection12sync_messageIJEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongP12NSDictionaryEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongP12NSDictionaryS5_EEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongP32AVAudioSessionSpatialPreferencesEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongP7NSArrayEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongP8NSStringEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJdmEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection12sync_messageIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
++ __ZN4avas6client13XPCConnection13getConnectionEv
++ __ZN4avas6client13XPCConnection15serverRestartedEj
++ __ZN4avas6client13XPCConnection15tryReconnectionEv
++ __ZN4avas6client13XPCConnection16serverTerminatedEPKc
++ __ZN4avas6client13XPCConnection16serverTerminatedEPKc.cold.1
++ __ZN4avas6client13XPCConnection20dispatchReconnectionEv
++ __ZN4avas6client13XPCConnection20dispatchReconnectionEv.cold.1
++ __ZN4avas6client13XPCConnection21clearClientConnectionEb
++ __ZN4avas6client13XPCConnection22CreateForIONodeSessionERKNSt3__110shared_ptrINS2_15recursive_mutexEEE
++ __ZN4avas6client13XPCConnection25CreateForAudioApplicationERKNSt3__110shared_ptrINS2_15recursive_mutexEEE
++ __ZN4avas6client13XPCConnection26setServerRestartedCallbackERKNSt3__18functionIFvvEEE
++ __ZN4avas6client13XPCConnection27setServerTerminatedCallbackERKNSt3__18functionIFvvEEEb
++ __ZN4avas6client13XPCConnection6CreateEv
++ __ZN4avas6client13XPCConnection7messageIJEEEN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEENSB_7HandlerE
++ __ZN4avas6client13XPCConnectionC2ERKNSt3__110shared_ptrINS2_15recursive_mutexEEENS_10ClientTypeE
++ __ZN4avas6client13XPCConnectionD2Ev
++ __ZN4avas6client14GetPropertyXPCENSt3__110shared_ptrINS0_13XPCConnectionEEEjP8NSStringb
++ __ZN4avas6client14SetPropertyXPCENSt3__110shared_ptrINS0_13XPCConnectionEEEjP8NSStringPU25objcproto14NSSecureCoding11objc_objectb
++ __ZN4avas6client16DeviceTimeClient11currentTimeEv
++ __ZN4avas6client16DeviceTimeClient18privateCurrentTimeEy
++ __ZN4avas6client16DeviceTimeClient23currentPresentationTimeEv
++ __ZN4avas6client16DeviceTimeClient30privateCurrentPresentationTimeEy
++ __ZN4avas6client16DeviceTimeClient31loadOrGetCachedMinimalTimestampEy
++ __ZN4avas6client17gSessionClientLogEv
++ __ZN4avas6client18MapToMxHWCtrlFlagsE39AVAudioSessionAudioHardwareControlFlags
++ __ZN4avas6client18PerformanceTrackerC2EP8NSStringxP8NSNumberNS0_16SessionOperationE
++ __ZN4avas6client18PerformanceTrackerC2EPKcxNS0_16SessionOperationE
++ __ZN4avas6client18PerformanceTrackerD2Ev
++ __ZN4avas6client19KVONSObjectPropertyIU8__strongP7NSArrayED0Ev
++ __ZN4avas6client19KVONSObjectPropertyIU8__strongP7NSArrayED1Ev
++ __ZN4avas6client19ReaderWriterTryLock12readerLockedIRKZNS0_21DeviceTimeGlobalState17accessSharedBlockEONSt3__18functionIFvRKNS_13DTSharedBlockEEEEEUlvE_JEEEbOT_DpOT0_
++ __ZN4avas6client21DeviceTimeGlobalState17accessSharedBlockEONSt3__18functionIFvRKNS_13DTSharedBlockEEEE
++ __ZN4avas6client21DeviceTimeGlobalState22obtainedNewSharedBlockEiPU24objcproto13OS_xpc_object8NSObject
++ __ZN4avas6client21DeviceTimeGlobalState8instanceEv
++ __ZN4avas6client21DeviceTimeGlobalStateC2Ev
++ __ZN4avas6client21DeviceTimeGlobalStateD0Ev
++ __ZN4avas6client21DeviceTimeGlobalStateD1Ev
++ __ZN4avas6client21SessionCoreLegacy_iOS12ioControllerEv
++ __ZN4avas6client21SessionCoreLegacy_iOS17HandleRouteChangeEP12NSDictionary
++ __ZN4avas6client21SessionCoreLegacy_iOS17inputTimeObserverEv
++ __ZN4avas6client21SessionCoreLegacy_iOS18outputTimeObserverEv
++ __ZN4avas6client21SessionCoreLegacy_iOS18preferredInputPortEv
++ __ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary
++ __ZN4avas6client21SessionCoreLegacy_iOS21decoupledIOControllerEv
++ __ZN4avas6client21SessionCoreLegacy_iOS21setPreferredInputPortEP29AVAudioSessionPortDescription
++ __ZN4avas6client21SessionCoreLegacy_iOS23currentRouteDescriptionEv
++ __ZN4avas6client21SessionCoreLegacy_iOS26initializeDeviceTimeClientEPU24objcproto13OS_xpc_object8NSObjectj
++ __ZN4avas6client21SessionCoreLegacy_iOS31getCachedOrFromServerReporterIDEv
++ __ZN4avas6client21SessionCoreLegacy_iOS31initializeAVOutputContextObjectEP8NSStringb
++ __ZN4avas6client21SessionCoreLegacy_iOS36restoreClientStateAfterServerRestartEv
++ __ZN4avas6client21SessionCoreLegacy_iOS36setParticipatesInNowPlayingAppPolicyEb
++ __ZN4avas6client21SessionCoreLegacy_iOS37HandleCurrentInputSampleRateDidChangeEv
++ __ZN4avas6client21SessionCoreLegacy_iOS37registerForAvailableInputOutputChangeEv
++ __ZN4avas6client21SessionCoreLegacy_iOS38HandleCurrentOutputSampleRateDidChangeEv
++ __ZN4avas6client21SessionCoreLegacy_iOS58subscribeToMicrophoneInjectionCapabilityChangeNotificationEv
++ __ZN4avas6client21SessionCoreLegacy_iOSC1EP27AVAudioSessionSpecificationP14AVAudioSession
++ __ZN4avas6client21SessionCoreLegacy_iOSC2EP27AVAudioSessionSpecificationP14AVAudioSession
++ __ZN4avas6client21SessionCoreLegacy_iOSD0Ev
++ __ZN4avas6client21SessionCoreLegacy_iOSD1Ev
++ __ZN4avas6client21SessionCoreLegacy_iOSD2Ev
++ __ZN4avas6client21getCurrentProcessNameEv
++ __ZN4avas6client22AVAudioApplicationImpl11SetClientIDEj
++ __ZN4avas6client22AVAudioApplicationImplC1EP31AVAudioApplicationSpecification
++ __ZN4avas6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification
++ __ZN4avas6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification.cold.1
++ __ZN4avas6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification.cold.2
++ __ZN4avas6client24AVAudioIONodeSessionImpl14SetDescriptionEP24AVAudioIONodeDescription
++ __ZN4avas6client24AVAudioIONodeSessionImpl9SetNodeIDEj
++ __ZN4avas6client24AVAudioIONodeSessionImplD2Ev
++ __ZN4avas6client24NotificationStateManager20PostNotificationTypeE30AVAudioSessionNotificationTypeP8NSStringP12NSDictionaryPU39objcproto28AVAudioSecureSessionProtocol11objc_objectNSt3__110shared_ptrIS1_EEPKNS0_11SessionCoreE
++ __ZN4avas6client24NotificationStateManager27GetNotificationStateForTypeE30AVAudioSessionNotificationTypeb
++ __ZN4avas6client25ValidateActivationContextEP12NSDictionary
++ __ZN4avas6client26TranslateFromMXBadgingTypeEP8NSString
++ __ZN4avas6client31AVAudioSessionNotificationState18AddObserverForNameEP8NSStringPU39objcproto28AVAudioSecureSessionProtocol11objc_objectU13block_pointerFvP14NSNotificationE
++ __ZN4avas6client31AVAudioSessionNotificationState21RemoveObserverForTypeE30AVAudioSessionNotificationTypeP8NSStringPU18objcproto8NSObject11objc_objectPU39objcproto28AVAudioSecureSessionProtocol11objc_objectPKNS0_11SessionCoreE
++ __ZN4avas6client31AVAudioSessionNotificationState41privateUnregisterMXNotificationWithServerEP8NSStringPKNS0_11SessionCoreE
++ __ZN4avas6client31TranslateActivationContextForMXEP19NSMutableDictionary
++ __ZN4avas6client32TranslateToMXAudioHardwareFormatEl
++ __ZN4avas6client33AVAudioSessionDaemonsStateManager19processServiceResetEP8NSString
++ __ZN4avas6client33AVAudioSessionDaemonsStateManager24clearServiceNotificationEP8NSString
++ __ZN4avas6client33AVAudioSessionDaemonsStateManager25processServiceTerminationEP8NSString
++ __ZN4avas6client33AVAudioSessionDaemonsStateManagerC1EPNS0_11SessionCoreE
++ __ZN4avas6client34TranslateFromMXAudioHardwareFormatEP8NSString
++ __ZN4avas6client35TranslateOutputChannelLayoutsFromMXEP7NSArrayIP6NSDataE
++ __ZN4avas6client36ValidateRouteSharingPolicyParametersEP8NSStringS2_32AVAudioSessionRouteSharingPolicym
++ __ZN4avas6client38CreateDispatchQueueWithRootQueueTargetERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
++ __ZN4avasL24SampleRateCachingEnabledEv
++ __ZN5caulk10concurrent12atomic_valueIN4avas16MinimalTimeStampELi2ELi6EE5storeERKS3_
++ __ZN5caulk15string_from_4ccEjb
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJEED2Ev
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP12NSDictionaryEED2Ev
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP12NSDictionaryS7_EED2Ev
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP7NSArrayEED2Ev
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP8NSStringEED2Ev
++ __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJdmEED2Ev
++ __ZN5caulk7product16get_device_classEv
++ __ZNK4avas13AudioAppState14getPropertyAppEP8NSString
++ __ZNK4avas13AudioAppState28getMXPropertiesExplicitlySetEv
++ __ZNK4avas13AudioAppState29getAppPropertiesExplicitlySetEv
++ __ZNK4avas15ProcessIdentity12SecurityTaskEv
++ __ZNK4avas15ProcessIdentity7isValidEv
++ __ZNK4avas6client11KVOPropertyIU8__strongP7NSArrayE14ValuesAreEqualERU8__strongKS3_S7_
++ __ZNK4avas6client11KVOPropertyIU8__strongP7NSArrayE7IsDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEE
++ __ZNK4avas6client11KVOPropertyIdE14ValuesAreEqualERKdS4_
++ __ZNK4avas6client11KVOPropertyIdE7IsDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEE
++ __ZNK4avas6client11KVOPropertyIfE14ValuesAreEqualERKfS4_
++ __ZNK4avas6client11KVOPropertyIfE7IsDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEE
++ __ZNK4avas6client11KVOPropertyIjE14ValuesAreEqualERKjS4_
++ __ZNK4avas6client11KVOPropertyIjE7IsDirtyERNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEEE
++ __ZNK4avas6client11SessionCore10reporterIDEv
++ __ZNK4avas6client11SessionCore11GetPropertyEP8NSStringb
++ __ZNK4avas6client11SessionCore11SetPropertyEP8NSStringPU25objcproto14NSSecureCoding11objc_objectb
++ __ZNK4avas6client11SessionCore11sessionTypeEv
++ __ZNK4avas6client11SessionCore14sourceBundleIDEv
++ __ZNK4avas6client11SessionCore15HandleInputMuteEP12NSDictionary
++ __ZNK4avas6client11SessionCore15categoryOptionsEv
++ __ZNK4avas6client11SessionCore15sourceSessionIDEv
++ __ZNK4avas6client11SessionCore16clientIdentifierEv
++ __ZNK4avas6client11SessionCore16isInputAvailableEv
++ __ZNK4avas6client11SessionCore16sourceAuditTokenEv
++ __ZNK4avas6client11SessionCore17GetCachedPropertyEP8NSString
++ __ZNK4avas6client11SessionCore17useCaseIdentifierEv
++ __ZNK4avas6client11SessionCore18HandleInterruptionEP12NSDictionary
++ __ZNK4avas6client11SessionCore18PostNotificationMXEP8NSStringP12NSDictionary
++ __ZNK4avas6client11SessionCore18SetBatchPropertiesEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectEPU15__autoreleasingP7NSArrayIPS2_IS4_P8NSNumberEENS_30AVAudioSessionBatchSetStrategyEbb
++ __ZNK4avas6client11SessionCore18isRelatedSessionIDEj
++ __ZNK4avas6client11SessionCore18routeSharingPolicyEv
++ __ZNK4avas6client11SessionCore18routingContextUUIDEv
++ __ZNK4avas6client11SessionCore20GetBatchPropertiesMXEP7NSArrayIP8NSStringEPU15__autoreleasingP12NSDictionaryIS4_P8NSNumberE
++ __ZNK4avas6client11SessionCore20SetBatchPropertiesMXEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectE
++ __ZNK4avas6client11SessionCore22GetAllCachedPropertiesEPU15__autoreleasingP12NSDictionaryIP8NSStringP8NSNumberE
++ __ZNK4avas6client11SessionCore24PostNotificationStandardEP8NSStringP12NSDictionary
++ __ZNK4avas6client11SessionCore25GetPropertyMX_GenericPipeEP8NSString
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIU8__strongP7NSArrayEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIU8__strongP8NSStringEET_S4_b
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIbEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIdEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIfEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIiEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIjEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroIlEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25GetProperty_DefaultToZeroImEET_P8NSStringb
++ __ZNK4avas6client11SessionCore25isSessionInputMutedCachedEv
++ __ZNK4avas6client11SessionCore27GetPropertyMX_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSString
++ __ZNK4avas6client11SessionCore27GetPropertyMX_DefaultToZeroIU8__strongP7NSArrayEET_P8NSString
++ __ZNK4avas6client11SessionCore27GetPropertyMX_DefaultToZeroIU8__strongP8NSStringEET_S4_
++ __ZNK4avas6client11SessionCore27creationSpecSourceSessionIDEv
++ __ZNK4avas6client11SessionCore27getAVASNotificationsEnabledEv
++ __ZNK4avas6client11SessionCore29GetPropertyAVAS_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSString
++ __ZNK4avas6client11SessionCore29GetPropertyAVAS_DefaultToZeroIU8__strongP7NSArrayEET_P8NSString
++ __ZNK4avas6client11SessionCore31CheckAndMakeKVOPropertyDirtyForEP8NSString
++ __ZNK4avas6client11SessionCore31shouldAttemptAutomaticReconnectEv
++ __ZNK4avas6client11SessionCore37wasCreatedWithNoAudioSessionForServerEv
++ __ZNK4avas6client11SessionCore39clientPrefersLongFormRouteSharingPolicyEv
++ __ZNK4avas6client11SessionCore4modeEv
++ __ZNK4avas6client11SessionCore8categoryEv
++ __ZNK4avas6client11SessionCore8isActiveEv
++ __ZNK4avas6client11SessionCore9sessionIDEv
++ __ZNK4avas6client16DeviceTimeClient14currentLatencyEv
++ __ZNK4avas6client16DeviceTimeClient16isLatencyDynamicEv
++ __ZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEv
++ __ZNK4avas6client19KVONSObjectPropertyIU8__strongP7NSArrayE14ValuesAreEqualERU8__strongKS3_S7_
++ __ZNK4avas6client21SessionCoreLegacy_iOS10sampleRateEv
++ __ZNK4avas6client21SessionCoreLegacy_iOS15inputSampleRateEv
++ __ZNK4avas6client21SessionCoreLegacy_iOS16ioBufferDurationEv
++ __ZNK4avas6client21SessionCoreLegacy_iOS16outputSampleRateEv
++ __ZNK4avas6client21SessionCoreLegacy_iOS17ioBufferFrameSizeEv
++ __ZNK4avas6client21SessionCoreLegacy_iOS33participatesInNowPlayingAppPolicyEv
++ __ZNK4avas6client22AVAudioApplicationImpl13GetConnectionEv
++ __ZNK4avas6client31AVAudioSessionNotificationState21CountRegisteredOfNameEP8NSString
++ __ZNK4avas6client31AVAudioSessionNotificationState28privateCountRegisteredOfNameEP8NSString
++ __ZNK4avas6client31AVAudioSessionNotificationState32RegisterMXNotificationWithServerEP8NSStringPKNS0_11SessionCoreE
++ __ZNK4avas6client31AVAudioSessionNotificationState36RegisterAllMXNotificationsWithServerEPKNS0_11SessionCoreE
++ __ZNK4avas6client31AVAudioSessionNotificationState39privateRegisterMXNotificationWithServerEP8NSStringPKNS0_11SessionCoreE
++ __ZNK5caulk10concurrent12atomic_valueIN4avas16MinimalTimeStampELi2ELi3EE4loadEv
++ __ZNK5caulk10concurrent12atomic_valueIN4avas16MinimalTimeStampELi2ELi6EE4loadEv
++ __ZNK5caulk10concurrent12atomic_valueIN4avas18SessionSharedStateELi2ELi3EE4loadEv
++ __ZNK5caulk3ipc13mapped_memory7get_ptrIN4avas13DTSharedBlockEEENSt3__118__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS7_EE5valuesr7is_voidIS7_EE5valueEE4typeEm
++ __ZNK5caulk3ipc13mapped_memory7get_ptrIN4avas13DTSharedBlockEEENSt3__118__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS7_EE5valuesr7is_voidIS7_EE5valueEE4typeEm.cold.1
++ __ZNKSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEE7__cloneEPNS0_6__baseIS9_EE
++ __ZNKSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
++ __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEE7__cloneEPNS0_6__baseIS8_EE
++ __ZNKSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7__cloneEPNS0_6__baseISB_EE
++ __ZNKSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7__cloneEv
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne200100IPNS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEESC_SC_EENS4_IT_T1_EESD_T0_SE_
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt12out_of_rangeC1B8ne200100EPKc
++ __ZNSt3__110__function12__value_funcIFP7NSArrayvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFdvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFfvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFjvEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJEEEEEC2B8ne200100ERKS8_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP32AVAudioSessionSpatialPreferencesEEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP32AVAudioSessionSpatialPreferencesEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayEEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP8NSStringEEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP8NSStringEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEEEC2B8ne200100ERKSB_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJdmEEEEEC2B8ne200100ERKS8_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJdmEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjEEEEEC2B8ne200100ERKS8_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEEEC2B8ne200100ERKSC_
++ __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvRKN4avas13DTSharedBlockEEED2B8ne200100Ev
++ __ZNSt3__110__function12__value_funcIFvvEE4swapB8ne200100ERS3_
++ __ZNSt3__110__function12__value_funcIFvvEEC2B8ne200100ERKS3_
++ __ZNSt3__110__function12__value_funcIFvvEED2B8ne200100Ev
++ __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEED0Ev
++ __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEED1Ev
++ __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEEclEv
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEED0Ev
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEED1Ev
++ __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEEclEv
++ __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEED0Ev
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEED1Ev
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEEclEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEED0Ev
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEED1Ev
++ __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEEclEv
++ __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEED0Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEED1Ev
++ __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEED0Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEED1Ev
++ __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEEclEv
++ __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEE7destroyEv
++ __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEED0Ev
++ __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEED1Ev
++ __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEEclES8_
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEED0Ev
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEED1Ev
++ __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEEclEv
++ __ZNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7destroyEv
++ __ZNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEED0Ev
++ __ZNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEED1Ev
++ __ZNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEEclEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEED0Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEED1Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEEclEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEED0Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEED1Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEEclEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEE7destroyEv
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEED0Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEED1Ev
++ __ZNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEEclEv
++ __ZNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7destroyEv
++ __ZNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEED0Ev
++ __ZNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEED1Ev
++ __ZNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEEclESA_
++ __ZNSt3__110shared_ptrIN4avas6client13XPCConnectionEE18__enable_weak_thisB8ne200100IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4avas6client13XPCConnectionEEC2B8ne200100IS3_Li0EEEPT_
++ __ZNSt3__110shared_ptrIN4avas6client13XPCConnectionEEC2B8ne200100IS3_Li0EEERKNS_8weak_ptrIT_EE
++ __ZNSt3__110shared_ptrIN4avas6client21SessionCoreLegacy_iOSEE18__enable_weak_thisB8ne200100INS2_11SessionCoreES3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
++ __ZNSt3__110shared_ptrIN4avas6client21SessionCoreLegacy_iOSEEC2B8ne200100IS3_Li0EEEPT_
++ __ZNSt3__110unique_ptrIN4avas6client11SessionCore5PImplENS_14default_deleteIS4_EEE5resetB8ne200100EPS4_
++ __ZNSt3__110unique_ptrIN4avas6client13XPCConnectionENS_14default_deleteIS3_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIN4avas6client21SessionCoreLegacy_iOSENS_14default_deleteIS3_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIN4avas6client33AVAudioSessionDaemonsStateManagerENS_14default_deleteIS3_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIN5caulk12synchronizedIN4avas6client22AVAudioApplicationImplENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_14default_deleteISA_EEE5resetB8ne200100EPSA_
++ __ZNSt3__110unique_ptrIN5caulk12synchronizedIN4avas6client24AVAudioIONodeSessionImplENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_14default_deleteISA_EEE5resetB8ne200100EPSA_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEEPvEENS_22__hash_node_destructorINS_9allocatorIS7_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectEEPvEENS_22__tree_node_destructorINS6_ISE_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjU6__weakP14AVAudioSessionEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjU6__weakP18AVAudioApplicationEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZZZN4avas6client13XPCConnection13getConnectionEvENK3$_0clEPKcEUb_EUlvE_NS_14default_deleteIS7_EEED1B8ne200100Ev
++ __ZNSt3__111shared_lockINS_12shared_mutexEED2B8ne200100Ev
++ __ZNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEE4lockB8ne200100Ev
++ __ZNSt3__111unique_lockIN5caulk4mach21unfair_recursive_lockEE6unlockB8ne200100Ev
++ __ZNSt3__111unique_lockINS_12shared_mutexEED2B8ne200100Ev
++ __ZNSt3__112__destroy_atB8ne200100INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectEELi0EEEvPT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE14__erase_uniqueIyEEmRKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIyJNS_4pairIKyS3_EEEEENSH_INS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE4findIyEENS_15__hash_iteratorIPNS_11__hash_nodeIS4_PvEEEERKT_
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE5clearEv
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE6removeENS_21__hash_const_iteratorIPNS_11__hash_nodeIS4_PvEEEE
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN33NotificationDelegateCollectionXPC21NotificationDelegatesEEENS_22__unordered_map_hasherIyS4_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS4_S9_S7_Lb1EEENS_9allocatorIS4_EEED2Ev
++ __ZNSt3__112__next_primeEm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne200100ENS_24__uninitialized_size_tagEmRKS4_
++ __ZNSt3__112construct_atB8ne200100IN4avas6client10KVOManagerEJRN5caulk4mach21unfair_recursive_lockERU6__weakP14AVAudioSessionEPS3_EEPT_SE_DpOT0_
++ __ZNSt3__113__tree_removeB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__114__split_bufferINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEERNS_9allocatorIS8_EEE17__destruct_at_endB8ne200100EPS8_
++ __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE12emplace_backIJS4_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE13emplace_frontIJRS4_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE13emplace_frontIJS4_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionRNS_9allocatorIS4_EEE12emplace_backIJRS4_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionRNS_9allocatorIS4_EEE12emplace_backIJS4_EEEvDpOT_
++ __ZNSt3__115allocate_sharedB8ne200100IN4avas11ScopedTraceENS_9allocatorIS2_EEJNS1_21AudioSessionTraceCodeEjELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100IN4avas6client10KVOManagerENS_9allocatorIS3_EEJRN5caulk4mach21unfair_recursive_lockERU6__weakP14AVAudioSessionELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100IN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEJbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100IN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115allocate_sharedB8ne200100INS_15recursive_mutexENS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZN12CADeprecated10TSingletonI14ApplicationMapE8instanceEvEUlvE_EEEEEvPv
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZN12CADeprecated10TSingletonIN8avfaudio10SessionMapEE8instanceEvEUlvE_EEEEEvPv
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIjU8__strongP8NSStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPU8__strongP14AVAudioSessionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEENS_16reverse_iteratorIPS9_EESD_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEEPS9_SB_EEvRT_T0_T1_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8ne200100Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEEC2B8ne200100IJNS1_21AudioSessionTraceCodeEjES4_Li0EEES4_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEEC2B8ne200100IJRN5caulk4mach21unfair_recursive_lockERU6__weakP14AVAudioSessionES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client12CacheManagerENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client12CacheManagerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client12CacheManagerENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client12CacheManagerENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEEC2B8ne200100IJbES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEEC2B8ne200100IJES5_Li0EEES5_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceINS_15recursive_mutexENS_9allocatorIS1_EEEC2B8ne200100IJES3_Li0EEES3_DpOT_
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client21SessionCoreLegacy_iOSENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client21SessionCoreLegacy_iOSENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client21SessionCoreLegacy_iOSENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev
++ __ZNSt3__120__shared_ptr_pointerIPN4avas6client21SessionCoreLegacy_iOSENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev
++ __ZNSt3__120__throw_bad_any_castB8ne200100Ev
++ __ZNSt3__120__throw_bad_weak_ptrB8ne200100Ev
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__120__throw_out_of_rangeB8ne200100EPKc
++ __ZNSt3__120__throw_system_errorEiPKc
++ __ZNSt3__124__copy_move_unwrap_itersB8ne200100INS_11__move_implINS_17_ClassicAlgPolicyEEEPNS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEESA_SA_Li0EEENS4_IT0_T2_EESB_T1_SC_
++ __ZNSt3__124__memberwise_copy_assignB8ne200100INS_5tupleIJU8__strongP12NSDictionaryS4_EEES5_JLm0ELm1EEEEvRT_RKT0_NS_15__tuple_indicesIJXspT1_EEEE
++ __ZNSt3__124__memberwise_copy_assignB8ne200100INS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEES6_JLm0ELm1ELm2ELm3EEEEvRT_RKT0_NS_15__tuple_indicesIJXspT1_EEEE
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZNSt3__127__tree_balance_after_insertB8ne200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEEPSA_EEED2B8ne200100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEEPS9_EEvRT_T0_SE_SE_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEEEEPS7_EEvRT_T0_SC_SC_
++ __ZNSt3__13any5resetB8ne200100Ev
++ __ZNSt3__13anyaSB8ne200100IddvEERS0_OT_
++ __ZNSt3__13anyaSB8ne200100IjjvEERS0_OT_
++ __ZNSt3__13mapI30AVAudioSessionNotificationTypeNS_10shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEENS_4lessIS1_EENS_9allocatorINS_4pairIKS1_S6_EEEEE16insert_or_assignB8ne200100IRS6_EENSA_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS1_S6_EEPNS_11__tree_nodeISK_PvEElEEEEbEERSB_OT_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectNS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEE16insert_or_assignB8ne200100IRS9_EENSC_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS6_S9_EEPNS_11__tree_nodeISM_PvEElEEEEbEEOS6_OT_
++ __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectNS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEE16insert_or_assignB8ne200100IS9_EENSC_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS6_S9_EEPNS_11__tree_nodeISL_PvEElEEEEbEEOS6_OT_
++ __ZNSt3__13mapIU8__strongP8NSStringN4avas6client19ServiceRunningStateENS_4lessIS3_EENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEE16insert_or_assignB8ne200100IS6_EENSA_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS3_S6_EEPNS_11__tree_nodeISJ_PvEElEEEEbEERSB_OT_
++ __ZNSt3__15dequeIU8__strongP14AVAudioSessionNS_9allocatorIS3_EEE25__maybe_remove_back_spareB8ne200100Eb
++ __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE12__find_equalIS2_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SI_EElEERPNS_15__tree_end_nodeISK_EESL_RKT_
++ __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
++ __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE30__emplace_hint_unique_key_argsIS2_JRKS2_RS7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SP_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE11lower_boundB8ne200100IS7_EENS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEERKT_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE12__find_equalIS4_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SI_EElEERPNS_15__tree_end_nodeISK_EESL_RKT_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE14__erase_uniqueIS4_EEmRKT_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE21__remove_node_pointerEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE30__emplace_hint_unique_key_argsIS4_JRU8__strongKS3_S7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SO_lEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE5eraseENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEE
++ __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN4avas6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
++ __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE25__emplace_unique_key_argsIjJjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEERKT_DpOT0_
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE22__base_destruct_at_endB8ne200100EPS8_
++ __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE24__emplace_back_slow_pathIJRS4_RS7_EEEPS8_DpOT_
++ __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE16__init_with_sizeB8ne200100IPKS5_SB_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE16__init_with_sizeB8ne200100IPS5_SA_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJRKlRS5_EEEPS6_DpOT_
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEEC2B8ne200100Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB8ne200100IPKjS6_EEvT_T0_m
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__18any_castB8ne200100IU8__strongP12NSDictionaryEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IU8__strongP7NSArrayEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IU8__strongP8NSStringEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IbEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IdEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IfEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IiEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IjEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100IlEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__18any_castB8ne200100ImEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
++ __ZNSt3__19__any_imp13_SmallHandlerIU8__strongP7NSArrayE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS7_PKSt9type_infoPKv
++ __ZNSt3__19__any_imp13_SmallHandlerIU8__strongP8NSStringE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS7_PKSt9type_infoPKv
++ __ZNSt3__19__any_imp13_SmallHandlerIdE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
++ __ZNSt3__19__any_imp13_SmallHandlerIfE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
++ __ZNSt3__19__any_imp13_SmallHandlerIjE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
++ __ZNSt3__19__any_imp13_SmallHandlerImE8__handleB8ne200100ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
++ __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEEEEDaNS_17basic_string_viewIT_T0_EENS_13type_identityIS7_E4typeE
++ __ZNSt3__1ssB8ne200100IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ __ZTVN4avas6client11KVOPropertyIU8__strongP7NSArrayEE
++ __ZTVN4avas6client11KVOPropertyIdEE
++ __ZTVN4avas6client11KVOPropertyIfEE
++ __ZTVN4avas6client11KVOPropertyIjEE
++ __ZTVN4avas6client11SessionCoreE
++ __ZTVN4avas6client19KVONSObjectPropertyIU8__strongP7NSArrayEE
++ __ZTVN4avas6client21DeviceTimeGlobalStateE
++ __ZTVN4avas6client21SessionCoreLegacy_iOSE
++ __ZTVNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_4NS_9allocatorIS2_EEFfvEEE
++ __ZTVNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E3$_7NS_9allocatorIS2_EEFdvEEE
++ __ZTVNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_1NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_2NS_9allocatorIS2_EEFP7NSArrayvEEE
++ __ZTVNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_0NS_9allocatorIS2_EEFfvEEE
++ __ZTVNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_3NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_12NS_9allocatorIS2_EEFdvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession IOBufferDuration]E3$_8NS_9allocatorIS2_EEFdvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_6NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_13NS_9allocatorIS2_EEFdvEEE
++ __ZTVNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN4avas13DTSharedBlockEEEE
++ __ZTVNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E3$_9NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_10NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_11NS_9allocatorIS2_EEFjvEEE
++ __ZTVNSt3__110__function6__funcIZ45-[AVAudioSession privateGetDataSources:core:]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEEE
++ __ZTVNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_0NS_9allocatorIS5_EEFvvEEE
++ __ZTVNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_1NS_9allocatorIS5_EEFvvEEE
++ __ZTVNSt3__110__function6__funcIZN4avas6client11SessionCore21createSessionInServerEvE3$_2NS_9allocatorIS5_EEFvvEEE
++ __ZTVNSt3__110__function6__funcIZNK4avas6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas11ScopedTraceENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6client10KVOManagerENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6client12CacheManagerENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6client16DeviceTimeClientENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6client24NotificationStateManagerENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN4avas6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN4avas6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE
++ __ZTVNSt3__120__shared_ptr_pointerIPN4avas6client21SessionCoreLegacy_iOSENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE
++ __ZZ46+[AVAudioNotificationRouterXPC sharedInstance]E9onceToken
++ __ZZN10applesauce8dispatch2v15asyncIZZZN4avas6client13XPCConnection13getConnectionEvENK3$_0clEPKcEUb_EUlvE_EEvPU28objcproto17OS_dispatch_queue8NSObjectOT_ENUlPvE_8__invokeESF_
++ __ZZN4avas15ProcessIdentity14currentProcessEvE10auditToken
++ __ZZN4avas15ProcessIdentity14currentProcessEvE9onceToken
++ __ZZN4avas21CategoryRequiresInputEP8NSStringE24categoriesRequiringInput
++ __ZZN4avas6client11SessionCore20GetNotificationQueueEvE18sNotificationQueue
++ __ZZN4avas6client12CacheManager25cacheConsideredPropertiesEvE25cacheConsideredProperties
++ __ZZN4avas6client12CacheManager25propertiesForNotificationEvE25propertiesForNotification
++ __ZZN4avas6client13XPCConnection13getConnectionEvEN3$_0D1Ev
++ __ZZN4avas6client14DefaultMXStateEvE13sDefaultState
++ __ZZN4avas6client14DefaultMXStateEvE9onceToken
++ __ZZN4avas6client17gSessionClientLogEvE7sLogCat
++ __ZZN4avas6client20DefaultAudioAppStateEvE13sDefaultState
++ __ZZN4avas6client20DefaultAudioAppStateEvE9onceToken
++ __ZZN4avas6client21DeviceTimeGlobalState8instanceEvE6global
++ __ZZN4avas6client21getReconnectionStagesEvE19kReconnectionStages
++ __ZZN4avasL16StudioMicEnabledEvE16studioMicEnabled
++ __ZZN4avasL18InputPickerEnabledEvE18inputPickerEnabled
++ __ZZN4avasL22TransitionToBestEffortEvE29transitionToBestEffortEnabled
++ __ZZN4avasL23AudioSessionMuteEnabledEvE7enabled
++ __ZZN4avasL23OverdubRecordingEnabledEvE7enabled
++ __ZZN4avasL24ClientSideCachingEnabledEvE7enabled
++ __ZZN4avasL24SampleRateCachingEnabledEvE7enabled
++ __ZZN4avasL27SmartRoutingPrioritizesCallEvE7enabled
++ __ZZNK4avas15ProcessIdentity7isValidEvE11emptyProcID
++ __ZZNK4avas15ProcessIdentity7isValidEvE13invalidProcID
++ ___38-[AVAudioApplication recordPermission]_block_invoke
++ ___46+[AVAudioNotificationRouterXPC sharedInstance]_block_invoke
++ ___56-[AVAudioSession activateWithOptions:completionHandler:]_block_invoke.130
++ ___72-[AVAudioApplication(SPI) requestRecordPermissionWithCompletionHandler:]_block_invoke
++ ____Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeRKNSt3__18optionalI13audit_token_tEEU13block_pointerFv25tcc_authorization_right_tE_block_invoke
++ ____ZN10deprecatedL23inputIsAvailableChangedEb_block_invoke
++ ____ZN12_GLOBAL__N_129caReportGetBatchPropertyErrorEiP12NSDictionaryP8NSString_block_invoke
++ ____ZN12_GLOBAL__N_131sendPerformanceDataToCAReporterEyyP8NSStringd_block_invoke
++ ____ZN4avas15ProcessIdentity14currentProcessEv_block_invoke
++ ____ZN4avas6client11SessionCore12DispatchPingEv_block_invoke
++ ____ZN4avas6client11SessionCore21createSessionInServerEv_block_invoke
++ ____ZN4avas6client11SessionCore23recreateSessionInServerEv_block_invoke
++ ____ZN4avas6client13XPCConnection15tryReconnectionEv_block_invoke
++ ____ZN4avas6client13XPCConnection20dispatchReconnectionEv_block_invoke
++ ____ZN4avas6client14DefaultMXStateEv_block_invoke
++ ____ZN4avas6client20DefaultAudioAppStateEv_block_invoke
++ ____ZN4avas6client21SessionCoreLegacy_iOS17HandleRouteChangeEP12NSDictionary_block_invoke
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke.106
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke.107
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke.108
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke.110
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke.112
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_2
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_2.109
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_2.111
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_3
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_4
++ ____ZN4avas6client21SessionCoreLegacy_iOS21HandleDeferredMessageEP8NSStringP12NSDictionary_block_invoke_5
++ ____ZN4avas6client21SessionCoreLegacy_iOS37registerForAvailableInputOutputChangeEv_block_invoke
++ ____ZN4avas6client21SessionCoreLegacy_iOS37registerForAvailableInputOutputChangeEv_block_invoke.112
++ ____ZN4avas6client24NotificationStateManager20PostNotificationTypeE30AVAudioSessionNotificationTypeP8NSStringP12NSDictionaryPU39objcproto28AVAudioSecureSessionProtocol11objc_objectNSt3__110shared_ptrIS1_EEPKNS0_11SessionCoreE_block_invoke
++ ____ZN4avas6client24NotificationStateManager20PostNotificationTypeE30AVAudioSessionNotificationTypeP8NSStringP12NSDictionaryPU39objcproto28AVAudioSecureSessionProtocol11objc_objectNSt3__110shared_ptrIS1_EEPKNS0_11SessionCoreE_block_invoke.2
++ ____ZZN4avas6client11SessionCore21createSessionInServerEvENK3$_0clEv_block_invoke
++ ____ZZN4avas6client13XPCConnection13getConnectionEvENK3$_0clEPKc_block_invoke
++ ___block_descriptor_44_e21_v24?0"NSError"8^v16l
++ ___block_descriptor_48_ea8_32c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___block_descriptor_48_ea8_32c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE_e5_v8?0l
++ ___block_descriptor_49_ea8_32c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___block_descriptor_52_ea8_32c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE_e5_v8?0l
++ ___block_descriptor_56_ea8_32s40c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___block_descriptor_56_ea8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
++ ___block_descriptor_56_ea8_40c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e24_v16?0"NSNotification"8l
++ ___block_descriptor_64_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE_e5_v8?0l
++ ___block_descriptor_64_ea8_32s40s48c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___block_descriptor_64_ea8_32s48c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE_e5_v8?0l
++ ___block_descriptor_72_ea8_32s40s48w56c73_ZTSNSt3__110shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEE_e5_v8?0l
++ ___block_descriptor_80_ea8_32s40bs48c46_ZTSNSt3__110shared_ptrIN4avas11ScopedTraceEEE_e21_v24?0"NSError"8^v16lu64l8
++ ___block_descriptor_88_ea8_32s40bs48c46_ZTSNSt3__110shared_ptrIN4avas11ScopedTraceEEE_e20_v24?0Q8"NSError"16lu80l8
++ ___block_descriptor_92_ea8_32s40bs_e8_v16?0Q8ls32l8s40l8
++ ___block_literal_global.133
++ ___block_literal_global.87
++ ___copy_helper_block_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE
++ ___copy_helper_block_ea8_32c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___copy_helper_block_ea8_32c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE
++ ___copy_helper_block_ea8_40c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___copy_helper_block_ea8_48c46_ZTSNSt3__110shared_ptrIN4avas11ScopedTraceEEE
++ ___copy_helper_block_ea8_48c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___copy_helper_block_ea8_56c73_ZTSNSt3__110shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEE
++ ___destroy_helper_block_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE
++ ___destroy_helper_block_ea8_32c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___destroy_helper_block_ea8_32c52_ZTSNSt3__18weak_ptrIN4avas6client13XPCConnectionEEE
++ ___destroy_helper_block_ea8_40c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___destroy_helper_block_ea8_48c46_ZTSNSt3__110shared_ptrIN4avas11ScopedTraceEEE
++ ___destroy_helper_block_ea8_48c50_ZTSNSt3__18weak_ptrIN4avas6client11SessionCoreEEE
++ ___destroy_helper_block_ea8_56c73_ZTSNSt3__110shared_ptrIN4avas6client31AVAudioSessionNotificationStateEEE
++ _kAudioSessionNotification_InterruptionInfoKey_InterruptorSessionID
++ _kMXSessionNotificationKey_IsOutputMutedDidChange_Muted
++ _kMXSessionNotification_IsOutputMutedDidChange
++ _kMXSessionNotification_UserIntentToUnmuteDidChange
++ _kMXSessionProperty_IsOutputMuted
++ _kMXSessionProperty_IsPlayingVideoOutput
++ _kMXSessionProperty_PrefersBluetoothHighQualityContentCapture
++ _kMXSession_RouteDetailedDescriptionKey_HighQualityContentCaptureEnabled
++ _kMXSession_RouteDetailedDescriptionKey_SupportsHighQualityContentCapture
++ _objc_msgSend$_setMXProperties:properties:error:
++ _objc_msgSend$activateSession:options:requestID:reply:
++ _objc_msgSend$addEntriesFromDictionary:
++ _objc_msgSend$addNotificationDelegate:error:
++ _objc_msgSend$addObserver:selector:name:object:
++ _objc_msgSend$createIONodeWithSourceSession:sessionOwnerPID:playerType:error:
++ _objc_msgSend$createIONodeWithSourceSession:sessionOwnerPID:playerType:reply:
++ _objc_msgSend$createRemoteNotificationCenter
++ _objc_msgSend$createSession:sourceAuditToken:sourceSessionID:nameOrDeviceUID:clientProcessName:clientProcessBundleID:useCaseIdentifier:reply:
++ _objc_msgSend$delegatePayload
++ _objc_msgSend$destroyRemoteNotificationCenter:
++ _objc_msgSend$dictionaryWithDictionary:
++ _objc_msgSend$domain
++ _objc_msgSend$getPropertiesForCache:reply:
++ _objc_msgSend$getPropertiesIONode:properties:reply:
++ _objc_msgSend$getPropertiesIONode:properties:status:error:
++ _objc_msgSend$handlePropertyNotifications:
++ _objc_msgSend$init
++ _objc_msgSend$initWithDescription:server:
++ _objc_msgSend$initWithDeviceFeatures:
++ _objc_msgSend$initWithInternal:
++ _objc_msgSend$initWithIsSupported:isEnabled:
++ _objc_msgSend$initWithIsolatedAudioUseCaseID:publishingSession:
++ _objc_msgSend$initWithPropertyName:sourceSessionID:nodeSessionID:propertyData:
++ _objc_msgSend$initWithPropertyNotificationsOfInterest:wantsInterruptions:
++ _objc_msgSend$initWithServer:type:
++ _objc_msgSend$interruptionHandler
++ _objc_msgSend$interruptionInfo
++ _objc_msgSend$interruptionState
++ _objc_msgSend$invalidateIONode:error:
++ _objc_msgSend$invalidateIONode:reply:
++ _objc_msgSend$ioMode
++ _objc_msgSend$isAudioServiceTerminated
++ _objc_msgSend$locked_calculateFilter
++ _objc_msgSend$minusSet:
++ _objc_msgSend$nodeSessionID
++ _objc_msgSend$numberWithUnsignedLongLong:
++ _objc_msgSend$outputContextForID:
++ _objc_msgSend$playState
++ _objc_msgSend$playerType
++ _objc_msgSend$privateCreateIONodeSession:server:
++ _objc_msgSend$privateCreateRemoteNotificationCenter
++ _objc_msgSend$privateDestroyRemoteNotificationCenter:
++ _objc_msgSend$privateGetDataSources:core:
++ _objc_msgSend$privateGetSelectedDataSource:core:
++ _objc_msgSend$privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:core:
++ _objc_msgSend$privateRequiresWatchOSRoutePicker:core:
++ _objc_msgSend$privateSetActive:withOptions:error:core:
++ _objc_msgSend$privateSetInterruptionNotificationHandler:
++ _objc_msgSend$privateSetPrefersInterruptionOnRouteDisconnect:core:
++ _objc_msgSend$privateSetPropertyNotificationHandler:
++ _objc_msgSend$privateStartObservingNotifications:
++ _objc_msgSend$privateStartOrStopObserving:remoteNotifications:forDelegate:
++ _objc_msgSend$privateStopObservingNotifications:
++ _objc_msgSend$propertyData
++ _objc_msgSend$propertyName
++ _objc_msgSend$propertyNotificationHandler
++ _objc_msgSend$publishingSession
++ _objc_msgSend$reconfigureIONode:withSourceSession:sessionOwnerPID:playerType:error:
++ _objc_msgSend$reconfigureIONode:withSourceSession:sessionOwnerPID:playerType:reply:
++ _objc_msgSend$removeNotificationDelegate:
++ _objc_msgSend$sessionCore
++ _objc_msgSend$sessionOwnerPID
++ _objc_msgSend$set
++ _objc_msgSend$setAudioServiceTerminated:
++ _objc_msgSend$setAudioSessionID:
++ _objc_msgSend$setHighQualityRecording:
++ _objc_msgSend$setIONode:playState:modes:error:
++ _objc_msgSend$setIONode:playState:modes:reply:
++ _objc_msgSend$setIOProperties:values:reply:
++ _objc_msgSend$setIoMode:
++ _objc_msgSend$setMXProperties:error:
++ _objc_msgSend$setPlayState:
++ _objc_msgSend$setPlayerType:
++ _objc_msgSend$setPropertiesIONode:values:error:
++ _objc_msgSend$setPropertiesIONode:values:reply:
++ _objc_msgSend$setPropertyName:
++ _objc_msgSend$setPropertyNotificationHandler:
++ _objc_msgSend$setPublishingSession:
++ _objc_msgSend$setSessionOwnerPID:
++ _objc_msgSend$setSourceSession:
++ _objc_msgSend$setTargetAudioSession:
++ _objc_msgSend$setType:
++ _objc_msgSend$sourceSession
++ _objc_msgSend$startObservingNotifications:forDelegate:
++ _objc_msgSend$stopObservingNotifications:forDelegate:
++ _objc_msgSend$subscribedDelegates
++ _objc_msgSend$type
++ _objc_msgSend$unionSet:
++ _objc_msgSend$unlocked_updateServerWithFilter:
++ _objc_msgSend$updateDelegate:notificationFilter:error:
++ _objc_msgSend$updateMicrophonePermission:clientToken:reply:
++ _objc_msgSend$userInfo
++ _objc_msgSend$visionosDeviceSupportsEnhanceDialogue
++ _objc_retain_x11
++ _objc_retain_x26
++ _objc_unsafeClaimAutoreleasedReturnValue
++ _tcc_credential_create_for_process_with_audit_token
+- -[AVAudioSession handleDeferredMessage:userInfo:]
+- -[AVAudioSession initWithIsolatedAudioUseCaseID:]
+- -[AVAudioSession initializeAVOutputContextObject:updateCache:]
+- -[AVAudioSession privateCreateSessionInServerUsingXPC:]
+- -[AVAudioSession privateGetCategory:]
+- -[AVAudioSession privateGetCurrentRoute:]
+- -[AVAudioSession privateGetDataSources:accessor:]
+- -[AVAudioSession privateGetInputAvailable:]
+- -[AVAudioSession privateGetRouteSharingPolicy:]
+- -[AVAudioSession privateGetSelectedDataSource:accessor:]
+- -[AVAudioSession privateHandleAVOutputContextOutputDeviceChange:]
+- -[AVAudioSession privateHandleAVOutputContextOutputDevicesChange:]
+- -[AVAudioSession privateHandleActiveNeroVisualStreamInfoDidChange]
+- -[AVAudioSession privateHandleAudioHardwareFormatChange]
+- -[AVAudioSession privateHandleAvailableSampleRatesChange:]
+- -[AVAudioSession privateHandleBadgeTypeChange:]
+- -[AVAudioSession privateHandleBeaconBudgetChange:accessor:]
+- -[AVAudioSession privateHandleCurrentInputDeviceBufferSizeDidChange]
+- -[AVAudioSession privateHandleCurrentInputSampleRateDidChange]
+- -[AVAudioSession privateHandleCurrentOutputDeviceBufferSizeDidChange]
+- -[AVAudioSession privateHandleCurrentOutputSampleRateDidChange]
+- -[AVAudioSession privateHandleMicrophoneInjectionCapabilityChange:accessor:]
+- -[AVAudioSession privateHandleOtherPrimaryAudioPlayStateChange:]
+- -[AVAudioSession privateHandlePickableRoutesChange:]
+- -[AVAudioSession privateHandlePrefersConcurrentAirPlayAudioChange:accessor:]
+- -[AVAudioSession privateHandleRenderingCapabilitiesChange:]
+- -[AVAudioSession privateHandleRouteControlFeaturesChange:accessor:]
+- -[AVAudioSession privateHandleRoutingContextChange:]
+- -[AVAudioSession privateHandleSecondaryAudioHintChange:accessor:]
+- -[AVAudioSession privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:accessor:]
+- -[AVAudioSession privateInputIsAvailableChanged:]
+- -[AVAudioSession privateNeedsTranslationForNoSpeakerCategory:accessor:]
+- -[AVAudioSession privateRecreateSessionInServerUsingXPC]
+- -[AVAudioSession privateRequiresWatchOSRoutePicker:accessor:]
+- -[AVAudioSession privateResetCachedPropertyValues:]
+- -[AVAudioSession privateSetActive:withOptions:error:accessor:]
+- -[AVAudioSession privateSetPrefersInterruptionOnRouteDisconnect:accessor:]
+- -[AVAudioSession privateShouldSubscribeToMicrophoneInjectionCapabilityChangeNotification]
+- -[AVAudioSession privateSubscribeToMicrophoneInjectionCapabilityChangeNotification]
+- -[AVAudioSession privateUpdateAudioFormat:]
+- -[AVAudioSession privateUpdateAudioFormats:]
+- -[AVAudioSession privateUpdateInputAvailable]
+- -[AVAudioSession privateUpdateInputChannelCount:]
+- -[AVAudioSession privateUpdateInputGain:]
+- -[AVAudioSession privateUpdateOutputChannelCount:]
+- -[AVAudioSession privateUpdateOutputVolume:]
+- -[AVAudioSession privateUpdatePiPAvailabilityChange:]
+- -[AVAudioSession privateUpdatePromptStyle:]
+- -[AVAudioSession privateUpdateReporterIDs:]
+- -[AVAudioSession privateUpdateSpeechDetectionStyle:]
+- -[AVAudioSession registerPublishingSessionNotifications:]
+- -[AVAudioSession(AVAudioSessionPrivateCommon) iAmTheAssistant]
+- -[AVAudioSession(AVAudioSessionPrivateCommon) setIAmTheAssistant:error:]
+- -[AVAudioSession(ClientCommonImplementation) accessor]
+- -[AVAudioSession(ClientCommonImplementation) addObserverForType:name:block:]
+- -[AVAudioSession(ClientCommonImplementation) atomicImpl]
+- -[AVAudioSession(ClientCommonImplementation) getNotificationQueue]
+- -[AVAudioSession(ClientCommonImplementation) privateDispatchPing:]
+- -[AVAudioSession(ClientCommonImplementation) privateGetGuardOfImplementation]
+- -[AVAudioSession(ClientCommonImplementation) privateGetSessionID]
+- -[AVAudioSession(ClientCommonImplementation) privateHandlePing]
+- -[AVAudioSession(ClientCommonImplementation) privateInputMuteWithInfo:accessor:]
+- -[AVAudioSession(ClientCommonImplementation) privateInterruptionWithInfo:accessor:]
+- -[AVAudioSession(ClientCommonImplementation) privateIsActive:]
+- -[AVAudioSession(ClientCommonImplementation) privatePostNotificationForType:name:userInfo:accessor:]
+- -[AVAudioSession(ClientCommonImplementation) removeObserverForType:observer:name:]
+- -[AVAudioSession(CommonAPI) addCategoryOptionsToDictionary:category:options:]
+- -[AVAudioSession(CommonAPI) privateSetCategoryWithOptions:modes:routeSharingPolicy:options:accessor:]
+- -[AVAudioSession(CommonSPI) isActive]
+- -[AVAudioSession(GenericPipe) getMXProperties:propertyErrors:]
+- -[AVAudioSession(GenericPipe) getMXSessionProperty:error:]
+- -[AVAudioSession(GenericPipe) setMXProperties:propertyErrors:]
+- -[AVAudioSession(GenericPipe) setMXSessionProperty:value:error:]
+- GCC_except_table110
+- GCC_except_table115
+- GCC_except_table116
+- GCC_except_table133
+- GCC_except_table134
+- GCC_except_table142
+- GCC_except_table144
+- GCC_except_table160
+- GCC_except_table185
+- GCC_except_table206
+- GCC_except_table214
+- GCC_except_table217
+- GCC_except_table219
+- GCC_except_table226
+- GCC_except_table228
+- GCC_except_table236
+- GCC_except_table237
+- GCC_except_table244
+- GCC_except_table254
+- GCC_except_table258
+- GCC_except_table259
+- GCC_except_table260
+- GCC_except_table284
+- GCC_except_table294
+- GCC_except_table297
+- GCC_except_table299
+- GCC_except_table302
+- GCC_except_table305
+- GCC_except_table306
+- GCC_except_table315
+- GCC_except_table316
+- GCC_except_table317
+- GCC_except_table320
+- GCC_except_table322
+- GCC_except_table323
+- GCC_except_table324
+- GCC_except_table325
+- GCC_except_table330
+- GCC_except_table331
+- GCC_except_table332
+- GCC_except_table333
+- GCC_except_table334
+- GCC_except_table335
+- GCC_except_table336
+- GCC_except_table337
+- GCC_except_table338
+- GCC_except_table339
+- GCC_except_table340
+- GCC_except_table341
+- GCC_except_table342
+- GCC_except_table343
+- GCC_except_table344
+- GCC_except_table345
+- GCC_except_table346
+- GCC_except_table347
+- GCC_except_table348
+- GCC_except_table349
+- GCC_except_table350
+- GCC_except_table351
+- GCC_except_table352
+- GCC_except_table353
+- GCC_except_table354
+- GCC_except_table358
+- GCC_except_table359
+- GCC_except_table360
+- GCC_except_table361
+- GCC_except_table362
+- GCC_except_table363
+- GCC_except_table367
+- GCC_except_table368
+- GCC_except_table369
+- GCC_except_table370
+- GCC_except_table373
+- GCC_except_table374
+- GCC_except_table375
+- GCC_except_table376
+- GCC_except_table377
+- GCC_except_table378
+- GCC_except_table382
+- GCC_except_table387
+- GCC_except_table394
+- GCC_except_table395
+- GCC_except_table405
+- GCC_except_table407
+- GCC_except_table408
+- GCC_except_table410
+- GCC_except_table411
+- GCC_except_table413
+- GCC_except_table417
+- GCC_except_table418
+- GCC_except_table430
+- GCC_except_table434
+- GCC_except_table436
+- GCC_except_table443
+- GCC_except_table450
+- GCC_except_table461
+- GCC_except_table462
+- GCC_except_table475
+- GCC_except_table476
+- GCC_except_table482
+- GCC_except_table487
+- GCC_except_table51
+- GCC_except_table535
+- GCC_except_table536
+- GCC_except_table541
+- GCC_except_table542
+- GCC_except_table543
+- GCC_except_table544
+- GCC_except_table545
+- GCC_except_table546
+- GCC_except_table547
+- GCC_except_table548
+- GCC_except_table549
+- GCC_except_table554
+- GCC_except_table555
+- GCC_except_table556
+- GCC_except_table565
+- GCC_except_table572
+- GCC_except_table574
+- GCC_except_table603
+- GCC_except_table611
+- GCC_except_table612
+- GCC_except_table613
+- GCC_except_table622
+- GCC_except_table623
+- GCC_except_table624
+- GCC_except_table625
+- GCC_except_table633
+- GCC_except_table634
+- GCC_except_table635
+- GCC_except_table636
+- GCC_except_table651
+- GCC_except_table652
+- GCC_except_table653
+- GCC_except_table654
+- GCC_except_table669
+- GCC_except_table670
+- GCC_except_table672
+- GCC_except_table673
+- GCC_except_table683
+- GCC_except_table684
+- GCC_except_table687
+- GCC_except_table688
+- GCC_except_table689
+- _AVAudioSessionModeEnrollment
+- _MGGetSInt32Answer
+- __DefaultRuneLocale
+- __OBJC_$_INSTANCE_METHODS_AVAudioSession(ClientCommonImplementation|CommonAPI|CommonSPI|GenericPipe|AVAudioSessionPrivateCommon|CommonImplementation)
+- __Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeU13block_pointerFv25tcc_authorization_right_tE
+- __Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeU13block_pointerFv25tcc_authorization_right_tE.cold.1
+- __ZGVZ66-[AVAudioSession(ClientCommonImplementation) getNotificationQueue]E18sNotificationQueue
+- __ZGVZN2as21CategoryRequiresInputEP8NSStringE24categoriesRequiringInput
+- __ZGVZN2as6client10cache_util12CacheManager25cacheConsideredPropertiesEvE25cacheConsideredProperties
+- __ZGVZN2as6client10cache_util12CacheManager25propertiesForNotificationEvE25propertiesForNotification
+- __ZGVZN2as6client17gSessionClientLogEvE7sLogCat
+- __ZGVZN2as6client21DeviceTimeGlobalState8instanceEvE6global
+- __ZGVZN2asL23AudioSessionMuteEnabledEvE7enabled
+- __ZGVZN2asL23OverdubRecordingEnabledEvE7enabled
+- __ZGVZN2asL24ClientSideCachingEnabledEvE7enabled
+- __ZGVZN2asL24SampleRateCachingEnabledEvE7enabled
+- __ZGVZN2asL27SmartRoutingPrioritizesCallEvE7enabled
+- __ZGVZNK2as15ProcessIdentity7isValidEvE11emptyProcID
+- __ZGVZNK2as15ProcessIdentity7isValidEvE13invalidProcID
+- __ZN10applesauce8dispatch2v15queueD1Ev
+- __ZN12CAX4CCStringC2Ei
+- __ZN12_GLOBAL__N_117HandleRouteChangeEP14AVAudioSessionP12NSDictionaryRNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- __ZN12_GLOBAL__N_125GetApplicationPropertyXPCEONSt3__15tupleIJNS0_10shared_ptrIN2as6client13XPCConnectionEEENS3_15ProcessIdentityEjEEEP8NSStringb
+- __ZN12_GLOBAL__N_136HandleSpatializationCapabilityChangeEP14AVAudioSessionP12NSDictionaryRNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- __ZN12_GLOBAL__N_138privateInterruptionWithInfo_deprecatedEP12NSDictionary
+- __ZN18AVAudioSessionImpl12setSessionIDEj
+- __ZN18AVAudioSessionImpl20UpdateServerAccessorEv
+- __ZN18AVAudioSessionImplC2EP14AVAudioSession18AVAudioSessionType
+- __ZN18AVAudioSessionImplD2Ev
+- __ZN18PerformanceTrackerC2EP8NSStringxP8NSNumber16SessionOperation
+- __ZN18PerformanceTrackerC2EPKcx16SessionOperation
+- __ZN18PerformanceTrackerD2Ev
+- __ZN21PlatformUtilities_iOS13ProductIsiPadEv
+- __ZN21PlatformUtilities_iOS15ProductIsAPhoneEv
+- __ZN21PlatformUtilities_iOS16ProductIsAppleTVEv
+- __ZN2as11ScopedTraceD2Ev
+- __ZN2as13AudioAppState13setPropertyMXEP8NSStringPU25objcproto14NSSecureCoding11objc_object
+- __ZN2as13AudioAppState14setPropertyAppEP8NSStringPU25objcproto14NSSecureCoding11objc_object
+- __ZN2as13AudioAppStateC2EP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectES7_
+- __ZN2as13AudioAppStateD1Ev
+- __ZN2as15ProcessIdentity14currentProcessEv
+- __ZN2as15ProcessIdentity14currentProcessEv.cold.1
+- __ZN2as15ProcessIdentityC1ERK13audit_token_t
+- __ZN2as21CategoryRequiresInputEP8NSString
+- __ZN2as28GetServerXPCListenerEndpointEv
+- __ZN2as28IsStandardMXNotificationNameEP8NSString
+- __ZN2as32CreateFixedPriorityDispatchQueueERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEi11qos_class_t
+- __ZN2as4util20interpolateTimeStampERKNS_16MinimalTimeStampEy
+- __ZN2as4util23minimalToAudioTimeStampERKNS_16MinimalTimeStampE
+- __ZN2as4util30minimalToPresentationTimeStampERKNS_16MinimalTimeStampEb
+- __ZN2as6client10KVOManager19markPropertiesDirtyEm
+- __ZN2as6client10KVOManager22markPropertiesDirtyAllEv
+- __ZN2as6client10KVOManagerC2EP14AVAudioSession
+- __ZN2as6client10KVOManagerD2Ev
+- __ZN2as6client10cache_util12CacheManager11updateCacheEP8NSStringPU25objcproto14NSSecureCoding11objc_object
+- __ZN2as6client10cache_util12CacheManager14getCachedValueEP8NSString
+- __ZN2as6client10cache_util12CacheManager15invalidateCacheEv
+- __ZN2as6client10cache_util12CacheManager16isPropertyCachedEP8NSString
+- __ZN2as6client10cache_util12CacheManager20getCachingPreferenceEv
+- __ZN2as6client10cache_util12CacheManager20setCachingPreferenceEb
+- __ZN2as6client10cache_util12CacheManager21refreshCachedPropertyEP14AVAudioSessionP8NSString
+- __ZN2as6client10cache_util12CacheManager23checkAndInvalidateCacheEP8NSString
+- __ZN2as6client10cache_util12CacheManager23refreshCachedPropertiesEP14AVAudioSession
+- __ZN2as6client10cache_util12CacheManager23removePropertyFromCacheEP8NSString
+- __ZN2as6client10cache_util12CacheManager25cacheConsideredPropertiesEv
+- __ZN2as6client10cache_util12CacheManager25isCacheConsideredPropertyEP8NSString
+- __ZN2as6client10cache_util12CacheManager25propertiesForNotificationEv
+- __ZN2as6client10cache_util12CacheManager25removePropertiesFromCacheEP7NSArrayIP8NSStringE
+- __ZN2as6client10cache_util12CacheManager25updateCacheMultipleValuesEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectE
+- __ZN2as6client10cache_util12CacheManager35checkAndRefreshCacheForNotificationEP14AVAudioSessionP8NSString
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayE13UpdateIfDirtyERKNSt3__18functionIFS3_vEEE
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayE15UpdateAndNotifyERU8__strongKS3_b
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayEC2ERN5caulk4mach21unfair_recursive_lockEP14AVAudioSessionPK8NSStringRU8__strongKS3_
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayED0Ev
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayED1Ev
+- __ZN2as6client11KVOPropertyIU8__strongP7NSArrayED2Ev
+- __ZN2as6client11KVOPropertyIdE13UpdateIfDirtyERKNSt3__18functionIFdvEEE
+- __ZN2as6client11KVOPropertyIdE15UpdateAndNotifyERKdb
+- __ZN2as6client11KVOPropertyIdED0Ev
+- __ZN2as6client11KVOPropertyIdED1Ev
+- __ZN2as6client11KVOPropertyIfE13UpdateIfDirtyERKNSt3__18functionIFfvEEE
+- __ZN2as6client11KVOPropertyIfE15UpdateAndNotifyERKfb
+- __ZN2as6client11KVOPropertyIfED0Ev
+- __ZN2as6client11KVOPropertyIfED1Ev
+- __ZN2as6client11KVOPropertyIjE13UpdateIfDirtyERKNSt3__18functionIFjvEEE
+- __ZN2as6client11KVOPropertyIjE15UpdateAndNotifyERKjb
+- __ZN2as6client11KVOPropertyIjED0Ev
+- __ZN2as6client11KVOPropertyIjED1Ev
+- __ZN2as6client13XPCConnection12sync_messageIJEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP11objc_objectjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP12NSDictionaryEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP12NSDictionaryS5_EEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP32AVAudioSessionSpatialPreferencesEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP7NSArrayEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongP8NSStringEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJdmEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection12sync_messageIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEEv
+- __ZN2as6client13XPCConnection13getConnectionEv
+- __ZN2as6client13XPCConnection15serverRestartedEj
+- __ZN2as6client13XPCConnection15tryReconnectionEv
+- __ZN2as6client13XPCConnection16serverTerminatedEPKc
+- __ZN2as6client13XPCConnection16serverTerminatedEPKc.cold.1
+- __ZN2as6client13XPCConnection20dispatchReconnectionEv
+- __ZN2as6client13XPCConnection20dispatchReconnectionEv.cold.1
+- __ZN2as6client13XPCConnection21clearClientConnectionEb
+- __ZN2as6client13XPCConnection25CreateForAudioApplicationERKNSt3__110shared_ptrINS2_15recursive_mutexEEE
+- __ZN2as6client13XPCConnection26setServerRestartedCallbackERKNSt3__18functionIFvvEEE
+- __ZN2as6client13XPCConnection27setServerTerminatedCallbackERKNSt3__18functionIFvvEEEb
+- __ZN2as6client13XPCConnection6CreateEv
+- __ZN2as6client13XPCConnection7messageIJEEEN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJDpT_EEENSB_7HandlerE
+- __ZN2as6client13XPCConnectionC2ERKNSt3__110shared_ptrINS2_15recursive_mutexEEENS_10ClientTypeE
+- __ZN2as6client13XPCConnectionD2Ev
+- __ZN2as6client16DeviceTimeClient11currentTimeEv
+- __ZN2as6client16DeviceTimeClient18privateCurrentTimeEy
+- __ZN2as6client16DeviceTimeClient23currentPresentationTimeEv
+- __ZN2as6client16DeviceTimeClient30privateCurrentPresentationTimeEy
+- __ZN2as6client16DeviceTimeClient31loadOrGetCachedMinimalTimestampEy
+- __ZN2as6client17gSessionClientLogEv
+- __ZN2as6client19KVONSObjectPropertyIU8__strongP7NSArrayED0Ev
+- __ZN2as6client19KVONSObjectPropertyIU8__strongP7NSArrayED1Ev
+- __ZN2as6client19ReaderWriterTryLock12readerLockedIRKZNS0_21DeviceTimeGlobalState17accessSharedBlockEONSt3__18functionIFvRKNS_13DTSharedBlockEEEEEUlvE_JEEEbOT_DpOT0_
+- __ZN2as6client21DeviceTimeGlobalState17accessSharedBlockEONSt3__18functionIFvRKNS_13DTSharedBlockEEEE
+- __ZN2as6client21DeviceTimeGlobalState22obtainedNewSharedBlockEiPU24objcproto13OS_xpc_object8NSObject
+- __ZN2as6client21DeviceTimeGlobalState8instanceEv
+- __ZN2as6client21DeviceTimeGlobalStateC1Ev
+- __ZN2as6client21DeviceTimeGlobalStateD0Ev
+- __ZN2as6client21DeviceTimeGlobalStateD1Ev
+- __ZN2as6client22AVAudioApplicationImpl11SetClientIDEj
+- __ZN2as6client22AVAudioApplicationImplC1EP31AVAudioApplicationSpecification
+- __ZN2as6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification
+- __ZN2as6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification.cold.1
+- __ZN2as6client22AVAudioApplicationImplC2EP31AVAudioApplicationSpecification.cold.2
+- __ZN2as6client24NotificationStateManager27GetNotificationStateForTypeE30AVAudioSessionNotificationTypeb
+- __ZN2as6client31AVAudioSessionNotificationState18AddObserverForNameEP8NSStringPU18objcproto8NSObject11objc_objectU13block_pointerFvP14NSNotificationE
+- __ZN2as6client31AVAudioSessionNotificationState21RemoveObserverForTypeE30AVAudioSessionNotificationTypeP8NSStringPU18objcproto8NSObject11objc_objectS6_RKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZN2as6client31AVAudioSessionNotificationState41privateUnregisterMXNotificationWithServerEP8NSStringRKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZN2as6client31AVAudioSessionNotificationStateC2Ev
+- __ZN2as6client33AVAudioSessionDaemonsStateManager19processServiceResetEP8NSStringRKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZN2as6client33AVAudioSessionDaemonsStateManager24clearServiceNotificationEP8NSString
+- __ZN2as6client33AVAudioSessionDaemonsStateManager25processServiceTerminationEP8NSStringRKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZN2as6client38CreateDispatchQueueWithRootQueueTargetERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE
+- __ZN2as6client9api_utils14GetPropertyXPCENSt3__110shared_ptrINS0_13XPCConnectionEEEjP8NSStringb
+- __ZN2as6client9api_utils14SetPropertyXPCENSt3__110shared_ptrINS0_13XPCConnectionEEEjP8NSStringPU25objcproto14NSSecureCoding11objc_objectb
+- __ZN2as6client9api_utils18MapToMxHWCtrlFlagsE39AVAudioSessionAudioHardwareControlFlags
+- __ZN2as6client9api_utils21getCurrentProcessNameEv
+- __ZN2as6client9api_utils23GetSidekickDefaultValueEP8NSString
+- __ZN2as6client9api_utils25ValidateActivationContextEP12NSDictionary
+- __ZN2as6client9api_utils26TranslateFromMXBadgingTypeEP8NSString
+- __ZN2as6client9api_utils31TranslateActivationContextForMXEP19NSMutableDictionary
+- __ZN2as6client9api_utils32TranslateToMXAudioHardwareFormatEl
+- __ZN2as6client9api_utils34TranslateFromMXAudioHardwareFormatEP8NSString
+- __ZN2as6client9api_utils35TranslateOutputChannelLayoutsFromMXEP7NSArrayIP6NSDataE
+- __ZN2as6client9api_utils36ValidateRouteSharingPolicyParametersEP8NSStringS3_32AVAudioSessionRouteSharingPolicym
+- __ZN2asL24SampleRateCachingEnabledEv
+- __ZN5caulk10concurrent12atomic_valueIN2as16MinimalTimeStampELi2ELi6EE5storeERKS3_
+- __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC2EP15NSXPCConnection
+- __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEED1Ev
+- __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP12NSDictionaryEED1Ev
+- __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP8NSStringEED1Ev
+- __ZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJdmEED1Ev
+- __ZN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEE10sync_proxyEv
+- __ZN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEE5replyEv
+- __ZN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC2EP15NSXPCConnectionNSt3__18functionIFvP7NSErrorONSB_5tupleIJS7_jEEEEEE
+- __ZNK2as13AudioAppState14getPropertyAppEP8NSString
+- __ZNK2as13AudioAppState28getMXPropertiesExplicitlySetEv
+- __ZNK2as13AudioAppState29getAppPropertiesExplicitlySetEv
+- __ZNK2as15ProcessIdentity7isValidEv
+- __ZNK2as6client11KVOPropertyIU8__strongP7NSArrayE14ValuesAreEqualERU8__strongKS3_S7_
+- __ZNK2as6client11KVOPropertyIU8__strongP7NSArrayE7IsDirtyERNSt3__110lock_guardIN5caulk4mach21unfair_recursive_lockEEE
+- __ZNK2as6client11KVOPropertyIdE14ValuesAreEqualERKdS4_
+- __ZNK2as6client11KVOPropertyIdE7IsDirtyERNSt3__110lock_guardIN5caulk4mach21unfair_recursive_lockEEE
+- __ZNK2as6client11KVOPropertyIfE14ValuesAreEqualERKfS4_
+- __ZNK2as6client11KVOPropertyIfE7IsDirtyERNSt3__110lock_guardIN5caulk4mach21unfair_recursive_lockEEE
+- __ZNK2as6client11KVOPropertyIjE14ValuesAreEqualERKjS4_
+- __ZNK2as6client11KVOPropertyIjE7IsDirtyERNSt3__110lock_guardIN5caulk4mach21unfair_recursive_lockEEE
+- __ZNK2as6client16DeviceTimeClient14currentLatencyEv
+- __ZNK2as6client16DeviceTimeClient16isLatencyDynamicEv
+- __ZNK2as6client16DeviceTimeClient20loadCurrentTimestampEv
+- __ZNK2as6client19KVONSObjectPropertyIU8__strongP7NSArrayE14ValuesAreEqualERU8__strongKS3_S7_
+- __ZNK2as6client22AVAudioApplicationImpl13GetConnectionEv
+- __ZNK2as6client31AVAudioSessionNotificationState21CountRegisteredOfNameEP8NSString
+- __ZNK2as6client31AVAudioSessionNotificationState28privateCountRegisteredOfNameEP8NSString
+- __ZNK2as6client31AVAudioSessionNotificationState32RegisterMXNotificationWithServerEP8NSStringRKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZNK2as6client31AVAudioSessionNotificationState36RegisterAllMXNotificationsWithServerERKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZNK2as6client31AVAudioSessionNotificationState39privateRegisterMXNotificationWithServerEP8NSStringRKNSt3__110shared_ptrIKNS0_9api_utils14ServerAccessorEEE
+- __ZNK2as6client9api_utils14ServerAccessor11GetPropertyEP8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor11SetPropertyEP8NSStringPU25objcproto14NSSecureCoding11objc_objectb
+- __ZNK2as6client9api_utils14ServerAccessor18SetBatchPropertiesEP12NSDictionaryIP8NSStringPU25objcproto14NSSecureCoding11objc_objectEPU15__autoreleasingP7NSArrayIPS3_IS5_P8NSNumberEENS_30AVAudioSessionBatchSetStrategyEbb
+- __ZNK2as6client9api_utils14ServerAccessor20GetBatchPropertiesMXEP7NSArrayIP8NSStringEPU15__autoreleasingP12NSDictionaryIS5_P8NSNumberE
+- __ZNK2as6client9api_utils14ServerAccessor25GetPropertyMX_GenericPipeEP8NSString
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP7NSArrayEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP7NSArrayIP6NSDataEEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP7NSArrayIP8NSNumberEEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP7NSArrayIP8NSStringEEET_S6_b
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP8NSNumberEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIU8__strongP8NSStringEET_S5_b
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIbEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIdEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIfEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIiEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIjEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroIlEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor25GetProperty_DefaultToZeroImEET_P8NSStringb
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP7NSArrayEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP7NSArrayIP6NSDataEEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP7NSArrayIP8NSNumberEEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP7NSArrayIP8NSStringEEET_S6_
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP8NSNumberEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor27GetPropertyMX_DefaultToZeroIU8__strongP8NSStringEET_S5_
+- __ZNK2as6client9api_utils14ServerAccessor29GetPropertyAVAS_DefaultToZeroIU8__strongP12NSDictionaryEET_P8NSString
+- __ZNK2as6client9api_utils14ServerAccessor29GetPropertyAVAS_DefaultToZeroIU8__strongP7NSArrayIP8NSStringEEET_S6_
+- __ZNK2as6client9api_utils14ServerAccessor31CheckAndMakeKVOPropertyDirtyForEP8NSString
+- __ZNK2as6client9api_utils14ServerAccessor41GetPropertyMX_DefaultToZero_WithAnalyticsIU8__strongP8NSStringEET_S5_xPKc
+- __ZNK2as6client9api_utils14ServerAccessor43GetPropertyAVAS_DefaultToZero_WithAnalyticsIU8__strongP12NSDictionaryEET_P8NSStringxPKc
+- __ZNK5caulk10concurrent12atomic_valueIN2as16MinimalTimeStampELi2ELi3EE4loadEv
+- __ZNK5caulk10concurrent12atomic_valueIN2as16MinimalTimeStampELi2ELi3EE4loadEv.cold.1
+- __ZNK5caulk10concurrent12atomic_valueIN2as16MinimalTimeStampELi2ELi6EE4loadEv
+- __ZNK5caulk10concurrent12atomic_valueIN2as16MinimalTimeStampELi2ELi6EE4loadEv.cold.1
+- __ZNK5caulk10concurrent12atomic_valueIN2as18SessionSharedStateELi2ELi3EE4loadEv
+- __ZNK5caulk10concurrent12atomic_valueIN2as18SessionSharedStateELi2ELi3EE4loadEv.cold.1
+- __ZNK5caulk3ipc13mapped_memory7get_ptrIN2as13DTSharedBlockEEENSt3__118__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS7_EE5valuesr7is_voidIS7_EE5valueEE4typeEm
+- __ZNK5caulk3ipc13mapped_memory7get_ptrIN2as13DTSharedBlockEEENSt3__118__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS7_EE5valuesr7is_voidIS7_EE5valueEE4typeEm.cold.1
+- __ZNKSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEE7__cloneEPNS0_6__baseIS9_EE
+- __ZNKSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEE7__cloneEPNS0_6__baseIS5_EE
+- __ZNKSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EE7__cloneEPNS0_6__baseISM_EE
+- __ZNKSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EE7__cloneEv
+- __ZNKSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7__cloneEPNS0_6__baseISB_EE
+- __ZNKSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7__cloneEv
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEESC_SC_EENS4_IT_T1_EESD_T0_SE_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__114default_deleteIN5caulk12synchronizedIN2as6client22AVAudioApplicationImplENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEEEclB8ne190102EPSA_
+- __ZNKSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__18functionIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEclES2_S8_
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt12out_of_rangeC1B8ne190102EPKc
+- __ZNSt3__110__function12__value_funcIFP7NSArrayvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFdvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFfvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFjvEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJEEEEEC2B8ne190102ERKS8_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP12NSDictionaryS7_EEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP32AVAudioSessionSpatialPreferencesEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP32AVAudioSessionSpatialPreferencesEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP7NSArrayEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP8NSStringEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongP8NSStringEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEEEC2B8ne190102ERKSB_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJdmEEEEEC2B8ne190102ERKS8_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJdmEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjEEEEEC2B8ne190102ERKS8_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEEEC2B8ne190102ERKSC_
+- __ZNSt3__110__function12__value_funcIFvP7NSErrorONS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvRKN2as13DTSharedBlockEEED2B8ne190102Ev
+- __ZNSt3__110__function12__value_funcIFvvEE4swapB8ne190102ERS3_
+- __ZNSt3__110__function12__value_funcIFvvEEC2B8ne190102ERKS3_
+- __ZNSt3__110__function12__value_funcIFvvEED2B8ne190102Ev
+- __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEED0Ev
+- __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEED1Ev
+- __ZNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEEclEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEED0Ev
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEED1Ev
+- __ZNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEEclEv
+- __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEED0Ev
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEED1Ev
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEEclEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEED0Ev
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEED1Ev
+- __ZNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEEclEv
+- __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEED0Ev
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEED1Ev
+- __ZNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEEclEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEED0Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEED1Ev
+- __ZNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEEclEv
+- __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEE7destroyEv
+- __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEED0Ev
+- __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEED1Ev
+- __ZNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEEclES8_
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEED0Ev
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEED1Ev
+- __ZNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEEclEv
+- __ZNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEED0Ev
+- __ZNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEED1Ev
+- __ZNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEEclEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEED0Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEED1Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEEclEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEED0Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEED1Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEEclEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEE7destroyEv
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEED0Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEED1Ev
+- __ZNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEEclEv
+- __ZNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EE7destroyEv
+- __ZNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EED0Ev
+- __ZNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EED1Ev
+- __ZNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EEclEOU8__strongSF_SI_
+- __ZNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEE7destroyEv
+- __ZNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEED0Ev
+- __ZNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEED1Ev
+- __ZNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEEclESA_
+- __ZNSt3__110shared_ptrIN2as6client13XPCConnectionEE18__enable_weak_thisB8ne190102IS3_S3_Li0EEEvPKNS_23enable_shared_from_thisIT_EEPT0_
+- __ZNSt3__110shared_ptrIN2as6client13XPCConnectionEEC2B8ne190102IS3_Li0EEEPT_
+- __ZNSt3__110shared_ptrIN2as6client13XPCConnectionEEC2B8ne190102IS3_Li0EEERKNS_8weak_ptrIT_EE
+- __ZNSt3__110unique_ptrIN2as6client13XPCConnectionENS_14default_deleteIS3_EEE5resetB8ne190102EPS3_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEEPvEENS_22__tree_node_destructorINS_9allocatorISB_EEEEE5resetB8ne190102EPSB_
+- __ZNSt3__110unique_ptrIZZZN2as6client13XPCConnection13getConnectionEvENK3$_0clEPKcEUb_EUlvE_NS_14default_deleteIS7_EEED1B8ne190102Ev
+- __ZNSt3__111shared_lockINS_12shared_mutexEED2B8ne190102Ev
+- __ZNSt3__111this_thread9sleep_forB8ne190102IxNS_5ratioILl1ELl1000EEEEEvRKNS_6chrono8durationIT_T0_EE
+- __ZNSt3__111unique_lockINS_12shared_mutexEED2B8ne190102Ev
+- __ZNSt3__112__destroy_atB8ne190102IKN2as6client9api_utils14ServerAccessorELi0EEEvPT_
+- __ZNSt3__112__destroy_atB8ne190102INS_4pairIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectEELi0EEEvPT_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ENS_24__uninitialized_size_tagEmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__112construct_atB8ne190102IKN2as6client9api_utils14ServerAccessorEJRNS_6atomicIjEERK18AVAudioSessionTypeRU6__weakP14AVAudioSessionRNS_10shared_ptrINS2_10KVOManagerEEERKNSG_IN5caulk12synchronizedINS2_24NotificationStateManagerENSK_4mach11unfair_lockENSK_22empty_atomic_interfaceISM_EEEEEERNSG_INS2_13XPCConnectionEEERKNSG_INS2_10cache_util12CacheManagerEEEEPS5_EEPT_S15_DpOT0_
+- __ZNSt3__113__tree_removeB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__114__split_bufferINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEERNS_9allocatorIS8_EEE17__destruct_at_endB8ne190102EPS8_
+- __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE10push_frontEOS4_
+- __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE10push_frontERKS4_
+- __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionNS_9allocatorIS4_EEE9push_backEOS4_
+- __ZNSt3__114__split_bufferIPU8__strongP14AVAudioSessionRNS_9allocatorIS4_EEE9push_backEOS4_
+- __ZNSt3__115allocate_sharedB8ne190102IKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEJRjRK18AVAudioSessionTypeDnDnDnRKNS_10shared_ptrINS2_13XPCConnectionEEEELi0EEENSC_IT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN2as11ScopedTraceENS_9allocatorIS2_EEJNS1_21AudioSessionTraceCodeEjELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN2as6client10KVOManagerENS_9allocatorIS3_EEJRU8__strongP14AVAudioSessionELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN2as6client16DeviceTimeClientENS_9allocatorIS3_EEJbELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102IN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__115allocate_sharedB8ne190102INS_15recursive_mutexENS_9allocatorIS1_EEJELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
+- __ZNSt3__117__call_once_paramINS_5tupleIJOZN12CADeprecated10TSingletonIN8avfaudio10SessionMapEE8instanceEvEUlvE_EEEE9__executeB8ne190102IJEEEvNS_15__tuple_indicesIJXspT_EEEE
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZN12CADeprecated10TSingletonI14ApplicationMapE8instanceEvEUlvE_EEEEEvPv
+- __ZNSt3__117__call_once_proxyB8ne190102INS_5tupleIJOZN12CADeprecated10TSingletonIN8avfaudio10SessionMapEE8instanceEvEUlvE_EEEEEvPv
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIjU8__strongP8NSStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPU8__strongP14AVAudioSessionEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8ne190102Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEEC2B8ne190102IJRjRK18AVAudioSessionTypeDnDnDnRKNS_10shared_ptrINS2_13XPCConnectionEEEES7_Li0EEES7_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEEC2B8ne190102IJNS1_21AudioSessionTraceCodeEjES4_Li0EEES4_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEEC2B8ne190102IJRU8__strongP14AVAudioSessionES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10cache_util12CacheManagerENS_9allocatorIS4_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10cache_util12CacheManagerENS_9allocatorIS4_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10cache_util12CacheManagerENS_9allocatorIS4_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client10cache_util12CacheManagerENS_9allocatorIS4_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEEC2B8ne190102IJbES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEEC2B8ne190102IJES5_Li0EEES5_DpOT_
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceIN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_emplaceIN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_emplaceIN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEED0Ev
+- __ZNSt3__120__shared_ptr_emplaceIN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEED1Ev
+- __ZNSt3__120__shared_ptr_emplaceINS_15recursive_mutexENS_9allocatorIS1_EEEC2B8ne190102IJES3_Li0EEES3_DpOT_
+- __ZNSt3__120__shared_ptr_pointerIPN2as6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE16__on_zero_sharedEv
+- __ZNSt3__120__shared_ptr_pointerIPN2as6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEE21__on_zero_shared_weakEv
+- __ZNSt3__120__shared_ptr_pointerIPN2as6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED0Ev
+- __ZNSt3__120__shared_ptr_pointerIPN2as6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEED1Ev
+- __ZNSt3__120__throw_bad_any_castB8ne190102Ev
+- __ZNSt3__120__throw_bad_weak_ptrB8ne190102Ev
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120__throw_out_of_rangeB8ne190102EPKc
+- __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__move_implINS_17_ClassicAlgPolicyEEEPNS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEESA_SA_Li0EEENS4_IT0_T2_EESB_T1_SC_
+- __ZNSt3__124__memberwise_copy_assignB8ne190102INS_5tupleIJU8__strongP12NSDictionaryS4_EEES5_JLm0ELm1EEEEvRT_RKT0_NS_15__tuple_indicesIJXspT1_EEEE
+- __ZNSt3__124__memberwise_copy_assignB8ne190102INS_5tupleIJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEES6_JLm0ELm1ELm2ELm3EEEEvRT_RKT0_NS_15__tuple_indicesIJXspT1_EEEE
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __ZNSt3__127__tree_balance_after_insertB8ne190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_jEEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP12NSDictionaryEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP12NSDictionarySB_EEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_SB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP32AVAudioSessionSpatialPreferencesEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP7NSArrayEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP8NSStringEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_EEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongPU25objcproto14NSSecureCoding11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSB_jEEEE_U8__strongSG_SI_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJdmEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJdmEEEE_U8__strongSD_SF_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJjEEEE_U8__strongSD_SF_EEEvDpOT_
+- __ZNSt3__128__invoke_void_return_wrapperIvLb1EE6__callB8ne190102IJRZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJjU8__strongPU24objcproto13OS_xpc_object8NSObjectjjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJjSC_jjEEEE_U8__strongSH_SJ_EEEvDpOT_
+- __ZNSt3__13any5resetB8ne190102Ev
+- __ZNSt3__13anyaSB8ne190102IddvEERS0_OT_
+- __ZNSt3__13anyaSB8ne190102IjjvEERS0_OT_
+- __ZNSt3__13mapI30AVAudioSessionNotificationTypeNS_10shared_ptrIN2as6client31AVAudioSessionNotificationStateEEENS_4lessIS1_EENS_9allocatorINS_4pairIKS1_S6_EEEEE16insert_or_assignB8ne190102IRS6_EENSA_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS1_S6_EEPNS_11__tree_nodeISK_PvEElEEEEbEERSB_OT_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectNS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEE16insert_or_assignB8ne190102IRS9_EENSC_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS6_S9_EEPNS_11__tree_nodeISM_PvEElEEEEbEEOS6_OT_
+- __ZNSt3__13mapINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectNS_4lessIS6_EENS4_INS_4pairIKS6_S9_EEEEE16insert_or_assignB8ne190102IS9_EENSC_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS6_S9_EEPNS_11__tree_nodeISL_PvEElEEEEbEEOS6_OT_
+- __ZNSt3__13mapIU8__strongP8NSStringN2as6client19ServiceRunningStateENS_4lessIS3_EENS_9allocatorINS_4pairIU8__strongKS2_S6_EEEEE16insert_or_assignB8ne190102IS6_EENSA_INS_14__map_iteratorINS_15__tree_iteratorINS_12__value_typeIS3_S6_EEPNS_11__tree_nodeISJ_PvEElEEEEbEERSB_OT_
+- __ZNSt3__15dequeIU8__strongP14AVAudioSessionNS_9allocatorIS3_EEE25__maybe_remove_back_spareB8ne190102Eb
+- __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN2as6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE12__find_equalIS2_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SI_EElEERPNS_15__tree_end_nodeISK_EESL_RKT_
+- __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN2as6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN2as6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE30__emplace_hint_unique_key_argsIS2_JRKS2_RS7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SP_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeI30AVAudioSessionNotificationTypeNS_10shared_ptrIN2as6client31AVAudioSessionNotificationStateEEEEENS_19__map_value_compareIS2_S8_NS_4lessIS2_EELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEU8__strongPU25objcproto14NSSecureCoding11objc_objectEENS_19__map_value_compareIS7_SB_NS_4lessIS7_EELb1EEENS5_ISB_EEE11lower_boundB8ne190102IS7_EENS_15__tree_iteratorISB_PNS_11__tree_nodeISB_PvEElEERKT_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE12__find_equalIS4_EERPNS_16__tree_node_baseIPvEENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_SI_EElEERPNS_15__tree_end_nodeISK_EESL_RKT_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE14__erase_uniqueIS4_EEmRKT_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSK_SK_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE21__remove_node_pointerEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE30__emplace_hint_unique_key_argsIS4_JRU8__strongKS3_S7_EEENS_4pairINS_15__tree_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEEbEENS_21__tree_const_iteratorIS8_SO_lEERKT_DpOT0_
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE5eraseENS_21__tree_const_iteratorIS8_PNS_11__tree_nodeIS8_PvEElEE
+- __ZNSt3__16__treeINS_12__value_typeIU8__strongP8NSStringN2as6client19ServiceRunningStateEEENS_19__map_value_compareIS4_S8_NS_4lessIS4_EELb1EEENS_9allocatorIS8_EEE7destroyEPNS_11__tree_nodeIS8_PvEE
+- __ZNSt3__16__treeIjNS_4lessIjEENS_9allocatorIjEEE25__emplace_unique_key_argsIjJRKjEEENS_4pairINS_15__tree_iteratorIjPNS_11__tree_nodeIjPvEElEEbEERKT_DpOT0_
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE12emplace_backIJRS4_RS7_EEERS8_DpOT_
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairIU8__strongP8NSStringU8__strongPU18objcproto8NSObject11objc_objectEENS_9allocatorIS8_EEE22__base_destruct_at_endB8ne190102EPS8_
+- __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEE16__init_with_sizeB8ne190102IPS5_SA_EEvT_T0_m
+- __ZNSt3__16vectorINS_4pairIjU8__strongP8NSStringEENS_9allocatorIS5_EEEC1B8ne190102ESt16initializer_listIS5_E
+- __ZNSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE12emplace_backIJRKlRS5_EEERS6_DpOT_
+- __ZNSt3__16vectorINS_4pairIlU8__strongU13block_pointerFv24AVAudioIOControllerEventEEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEEC2B8ne190102Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE16__init_with_sizeB8ne190102IPKjS6_EEvT_T0_m
+- __ZNSt3__18any_castB8ne190102IU8__strongP12NSDictionaryEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP7NSArrayEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP7NSArrayIP6NSDataEEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS8_EE5valuesr7is_voidIS8_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP7NSArrayIP8NSNumberEEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS8_EE5valuesr7is_voidIS8_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP7NSArrayIP8NSStringEEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS8_EE5valuesr7is_voidIS8_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP8NSNumberEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IU8__strongP8NSStringEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS5_EE5valuesr7is_voidIS5_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IbEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IdEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IfEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IiEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IjEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102IlEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__18any_castB8ne190102ImEENS_18__add_pointer_implIT_Xoosr25__libcpp_is_referenceableIS2_EE5valuesr7is_voidIS2_EE5valueEE4typeEPNS_3anyE
+- __ZNSt3__19__any_imp13_SmallHandlerIU8__strongP7NSArrayE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS7_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp13_SmallHandlerIU8__strongP8NSStringE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS7_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp13_SmallHandlerIdE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp13_SmallHandlerIfE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp13_SmallHandlerIjE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp13_SmallHandlerImE8__handleB8ne190102ENS0_7_ActionEPKNS_3anyEPS4_PKSt9type_infoPKv
+- __ZNSt3__19__any_imp17__unique_typeinfoIU8__strongP7NSArrayIP6NSDataEE4__idE
+- __ZNSt3__19__any_imp17__unique_typeinfoIU8__strongP7NSArrayIP8NSNumberEE4__idE
+- __ZNSt3__19__any_imp17__unique_typeinfoIU8__strongP7NSArrayIP8NSStringEE4__idE
+- __ZNSt3__19__any_imp17__unique_typeinfoIU8__strongP8NSNumberE4__idE
+- __ZNSt3__1ssB8ne190102IcNS_11char_traitsIcEEEEDaNS_17basic_string_viewIT_T0_EENS_13type_identityIS7_E4typeE
+- __ZNSt3__1ssB8ne190102IcNS_11char_traitsIcEENS_9allocatorIcEEEEDaRKNS_12basic_stringIT_T0_T1_EESC_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __ZTVN2as6client11KVOPropertyIU8__strongP7NSArrayEE
+- __ZTVN2as6client11KVOPropertyIdEE
+- __ZTVN2as6client11KVOPropertyIfEE
+- __ZTVN2as6client11KVOPropertyIjEE
+- __ZTVN2as6client19KVONSObjectPropertyIU8__strongP7NSArrayEE
+- __ZTVN2as6client21DeviceTimeGlobalStateE
+- __ZTVNSt3__110__function6__funcIZ27-[AVAudioSession inputGain]E3$_7NS_9allocatorIS2_EEFfvEEE
+- __ZTVNSt3__110__function6__funcIZ28-[AVAudioSession sampleRate]E4$_10NS_9allocatorIS2_EEFdvEEE
+- __ZTVNSt3__110__function6__funcIZ29-[AVAudioSession promptStyle]E3$_4NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ30-[AVAudioSession audioFormats]E3$_5NS_9allocatorIS2_EEFP7NSArrayvEEE
+- __ZTVNSt3__110__function6__funcIZ30-[AVAudioSession outputVolume]E3$_3NS_9allocatorIS2_EEFfvEEE
+- __ZTVNSt3__110__function6__funcIZ32-[AVAudioSession isPiPAvailable]E3$_6NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ33-[AVAudioSession inputSampleRate]E4$_14NS_9allocatorIS2_EEFdvEEE
+- __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession isInputAvailable]E3$_9NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ34-[AVAudioSession outputSampleRate]E4$_15NS_9allocatorIS2_EEFdvEEE
+- __ZTVNSt3__110__function6__funcIZ36-[AVAudioIOController_iOS isRunning]E3$_0NS_9allocatorIS2_EEFvRKN2as13DTSharedBlockEEEE
+- __ZTVNSt3__110__function6__funcIZ38-[AVAudioSession speechDetectionStyle]E4$_11NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ39-[AVAudioSession inputNumberOfChannels]E4$_12NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ40-[AVAudioSession outputNumberOfChannels]E4$_13NS_9allocatorIS2_EEFjvEEE
+- __ZTVNSt3__110__function6__funcIZ49-[AVAudioSession privateGetDataSources:accessor:]E3$_8NS_9allocatorIS2_EEFP7NSArrayvEEE
+- __ZTVNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_0NS_9allocatorIS2_EEFvvEEE
+- __ZTVNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_1NS_9allocatorIS2_EEFvvEEE
+- __ZTVNSt3__110__function6__funcIZ55-[AVAudioSession privateCreateSessionInServerUsingXPC:]E3$_2NS_9allocatorIS2_EEFvvEEE
+- __ZTVNSt3__110__function6__funcIZN5caulk3xpc12sync_messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEEC1EP15NSXPCConnectionEUlP7NSErrorONS_5tupleIJSA_jEEEE_NS_9allocatorISJ_EEFvSF_SI_EEE
+- __ZTVNSt3__110__function6__funcIZNK2as6client16DeviceTimeClient20loadCurrentTimestampEvE3$_0NS_9allocatorIS5_EEFvRKNS2_13DTSharedBlockEEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIKN2as6client9api_utils14ServerAccessorENS_9allocatorIS4_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN2as11ScopedTraceENS_9allocatorIS2_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN2as6client10KVOManagerENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN2as6client10cache_util12CacheManagerENS_9allocatorIS4_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN2as6client16DeviceTimeClientENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN2as6client31AVAudioSessionNotificationStateENS_9allocatorIS3_EEEE
+- __ZTVNSt3__120__shared_ptr_emplaceIN5caulk12synchronizedIN2as6client24NotificationStateManagerENS1_4mach11unfair_lockENS1_22empty_atomic_interfaceIS5_EEEENS_9allocatorISA_EEEE
+- __ZTVNSt3__120__shared_ptr_pointerIPN2as6client13XPCConnectionENS_10shared_ptrIS3_E27__shared_ptr_default_deleteIS3_S3_EENS_9allocatorIS3_EEEE
+- __ZZ66-[AVAudioSession(ClientCommonImplementation) getNotificationQueue]E18sNotificationQueue
+- __ZZN10applesauce8dispatch2v15asyncIZZZN2as6client13XPCConnection13getConnectionEvENK3$_0clEPKcEUb_EUlvE_EEvPU28objcproto17OS_dispatch_queue8NSObjectOT_ENUlPvE_8__invokeESF_
+- __ZZN2as15ProcessIdentity14currentProcessEvE10auditToken
+- __ZZN2as15ProcessIdentity14currentProcessEvE9onceToken
+- __ZZN2as21CategoryRequiresInputEP8NSStringE24categoriesRequiringInput
+- __ZZN2as6client10cache_util12CacheManager25cacheConsideredPropertiesEvE25cacheConsideredProperties
+- __ZZN2as6client10cache_util12CacheManager25propertiesForNotificationEvE25propertiesForNotification
+- __ZZN2as6client13XPCConnection13getConnectionEvEN3$_0D1Ev
+- __ZZN2as6client14DefaultMXStateEvE13sDefaultState
+- __ZZN2as6client14DefaultMXStateEvE9onceToken
+- __ZZN2as6client17gSessionClientLogEvE7sLogCat
+- __ZZN2as6client20DefaultAudioAppStateEvE13sDefaultState
+- __ZZN2as6client20DefaultAudioAppStateEvE9onceToken
+- __ZZN2as6client21DeviceTimeGlobalState8instanceEvE6global
+- __ZZN2as6client21getReconnectionStagesEvE19kReconnectionStages
+- __ZZN2asL23AudioSessionMuteEnabledEvE7enabled
+- __ZZN2asL23OverdubRecordingEnabledEvE7enabled
+- __ZZN2asL24ClientSideCachingEnabledEvE7enabled
+- __ZZN2asL24SampleRateCachingEnabledEvE7enabled
+- __ZZN2asL27SmartRoutingPrioritizesCallEvE7enabled
+- __ZZNK2as15ProcessIdentity7isValidEvE11emptyProcID
+- __ZZNK2as15ProcessIdentity7isValidEvE13invalidProcID
+- __Znwm
+- ___100-[AVAudioSession(ClientCommonImplementation) privatePostNotificationForType:name:userInfo:accessor:]_block_invoke
+- ___100-[AVAudioSession(ClientCommonImplementation) privatePostNotificationForType:name:userInfo:accessor:]_block_invoke.88
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_10
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_11
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_12
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_2
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_3
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_4
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_5
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_6
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_7
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_8
+- ___49-[AVAudioSession handleDeferredMessage:userInfo:]_block_invoke_9
+- ___49-[AVAudioSession privateInputIsAvailableChanged:]_block_invoke
+- ___55-[AVAudioSession privateCreateSessionInServerUsingXPC:]_block_invoke
+- ___56-[AVAudioSession activateWithOptions:completionHandler:]_block_invoke.122
+- ___66-[AVAudioSession(ClientCommonImplementation) privateDispatchPing:]_block_invoke
+- ____Z20makeTCCAccessRequestb42tcc_message_option_request_prompt_policy_t26AudioSessionTCCRequestTypeU13block_pointerFv25tcc_authorization_right_tE_block_invoke
+- ____ZL31sendPerformanceDataToCAReporteryyP8NSStringd_block_invoke
+- ____ZN12_GLOBAL__N_117HandleRouteChangeEP14AVAudioSessionP12NSDictionaryRNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE_block_invoke
+- ____ZN12_GLOBAL__N_129caReportGetBatchPropertyErrorEiP12NSDictionary_block_invoke
+- ____ZN2as15ProcessIdentity14currentProcessEv_block_invoke
+- ____ZN2as6client13XPCConnection15tryReconnectionEv_block_invoke
+- ____ZN2as6client13XPCConnection20dispatchReconnectionEv_block_invoke
+- ____ZN2as6client14DefaultMXStateEv_block_invoke
+- ____ZN2as6client20DefaultAudioAppStateEv_block_invoke
+- ____ZN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEE10sync_proxyEv_block_invoke
+- ____ZN5caulk3xpc7messageIU8__strongPU36objcproto25SessionManagerXPCProtocol11objc_objectJU8__strongP11objc_objectjEE5replyEv_block_invoke
+- ____ZZN2as6client13XPCConnection13getConnectionEvENK3$_0clEPKc_block_invoke
+- ___block_descriptor_48_ea8_32c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE_e5_v8?0l
+- ___block_descriptor_48_ea8_32c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE_e21_v24?0"NSError"8^v16l
+- ___block_descriptor_48_ea8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_52_ea8_32c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE_e5_v8?0l
+- ___block_descriptor_64_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE_e5_v8?0l
+- ___block_descriptor_64_ea8_32c75_ZTSNSt3__18functionIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEE_e17_v16?0"NSError"8l
+- ___block_descriptor_64_ea8_32c75_ZTSNSt3__18functionIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEE_e23_v28?0"NSError"816I24l
+- ___block_descriptor_64_ea8_32s40s48s56w_e5_v8?0lw56l8s32l8s40l8s48l8
+- ___block_descriptor_64_ea8_32s40w48c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE_e5_v8?0l
+- ___block_descriptor_72_ea8_32s40s48w56c71_ZTSNSt3__110shared_ptrIN2as6client31AVAudioSessionNotificationStateEEE_e5_v8?0l
+- ___block_descriptor_80_ea8_32s40bs48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE_e21_v24?0"NSError"8^v16lu64l8
+- ___block_descriptor_96_ea8_32s40bs48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE72c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE_e20_v24?0Q8"NSError"16lu88l8
+- ___block_literal_global.132
+- ___block_literal_global.69
+- ___copy_helper_block_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE
+- ___copy_helper_block_ea8_32c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE
+- ___copy_helper_block_ea8_32c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___copy_helper_block_ea8_32c75_ZTSNSt3__18functionIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEE
+- ___copy_helper_block_ea8_48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE
+- ___copy_helper_block_ea8_48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE72c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___copy_helper_block_ea8_48c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___copy_helper_block_ea8_56c71_ZTSNSt3__110shared_ptrIN2as6client31AVAudioSessionNotificationStateEEE
+- ___destroy_helper_block_ea8_32c36_ZTSN10applesauce8dispatch2v15queueE40c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE
+- ___destroy_helper_block_ea8_32c50_ZTSNSt3__18weak_ptrIN2as6client13XPCConnectionEEE
+- ___destroy_helper_block_ea8_32c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___destroy_helper_block_ea8_32c75_ZTSNSt3__18functionIFvP7NSErrorONS_5tupleIJU8__strongP11objc_objectjEEEEEE
+- ___destroy_helper_block_ea8_48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE
+- ___destroy_helper_block_ea8_48c44_ZTSNSt3__110shared_ptrIN2as11ScopedTraceEEE72c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___destroy_helper_block_ea8_48c65_ZTSNSt3__110shared_ptrIKN2as6client9api_utils14ServerAccessorEEE
+- ___destroy_helper_block_ea8_56c71_ZTSNSt3__110shared_ptrIN2as6client31AVAudioSessionNotificationStateEEE
+- ___maskrune
+- _objc_msgSend$accessor
+- _objc_msgSend$activateSession:options:deviceInfo:requestID:reply:
+- _objc_msgSend$addCategoryOptionsToDictionary:category:options:
+- _objc_msgSend$atomicImpl
+- _objc_msgSend$beginInterruption
+- _objc_msgSend$createSession:sourceAuditToken:sourceSessionID:nameOrDeviceUID:clientProcessName:useCaseIdentifier:reply:
+- _objc_msgSend$endInterruption
+- _objc_msgSend$endInterruptionWithFlags:
+- _objc_msgSend$getNotificationQueue
+- _objc_msgSend$handleDeferredMessage:userInfo:
+- _objc_msgSend$initializeAVOutputContextObject:updateCache:
+- _objc_msgSend$inputIsAvailableChanged:
+- _objc_msgSend$outputSampleRate
+- _objc_msgSend$privateCreateSessionInServerUsingXPC:
+- _objc_msgSend$privateDispatchPing:
+- _objc_msgSend$privateGetCategory:
+- _objc_msgSend$privateGetCurrentRoute:
+- _objc_msgSend$privateGetDataSources:accessor:
+- _objc_msgSend$privateGetGuardOfImplementation
+- _objc_msgSend$privateGetInputAvailable:
+- _objc_msgSend$privateGetRouteSharingPolicy:
+- _objc_msgSend$privateGetSelectedDataSource:accessor:
+- _objc_msgSend$privateHandleActiveNeroVisualStreamInfoDidChange
+- _objc_msgSend$privateHandleAudioHardwareFormatChange
+- _objc_msgSend$privateHandleAvailableSampleRatesChange:
+- _objc_msgSend$privateHandleBadgeTypeChange:
+- _objc_msgSend$privateHandleBeaconBudgetChange:accessor:
+- _objc_msgSend$privateHandleCurrentInputDeviceBufferSizeDidChange
+- _objc_msgSend$privateHandleCurrentInputSampleRateDidChange
+- _objc_msgSend$privateHandleCurrentOutputDeviceBufferSizeDidChange
+- _objc_msgSend$privateHandleCurrentOutputSampleRateDidChange
+- _objc_msgSend$privateHandleMicrophoneInjectionCapabilityChange:accessor:
+- _objc_msgSend$privateHandleOtherPrimaryAudioPlayStateChange:
+- _objc_msgSend$privateHandlePickableRoutesChange:
+- _objc_msgSend$privateHandlePrefersConcurrentAirPlayAudioChange:accessor:
+- _objc_msgSend$privateHandleRenderingCapabilitiesChange:
+- _objc_msgSend$privateHandleRouteControlFeaturesChange:accessor:
+- _objc_msgSend$privateHandleRoutingContextChange:
+- _objc_msgSend$privateHandleSecondaryAudioHintChange:accessor:
+- _objc_msgSend$privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:accessor:
+- _objc_msgSend$privateInputIsAvailableChanged:
+- _objc_msgSend$privateInputMuteWithInfo:accessor:
+- _objc_msgSend$privateInterruptionWithInfo:accessor:
+- _objc_msgSend$privateIsActive:
+- _objc_msgSend$privateNeedsTranslationForNoSpeakerCategory:accessor:
+- _objc_msgSend$privatePostNotificationForType:name:userInfo:accessor:
+- _objc_msgSend$privateRecreateSessionInServerUsingXPC
+- _objc_msgSend$privateRequiresWatchOSRoutePicker:accessor:
+- _objc_msgSend$privateResetCachedPropertyValues:
+- _objc_msgSend$privateSetActive:withOptions:error:accessor:
+- _objc_msgSend$privateSetCategoryWithOptions:modes:routeSharingPolicy:options:accessor:
+- _objc_msgSend$privateSetPrefersInterruptionOnRouteDisconnect:accessor:
+- _objc_msgSend$privateShouldSubscribeToMicrophoneInjectionCapabilityChangeNotification
+- _objc_msgSend$privateSubscribeToMicrophoneInjectionCapabilityChangeNotification
+- _objc_msgSend$privateUpdateAudioFormats:
+- _objc_msgSend$privateUpdateInputAvailable
+- _objc_msgSend$privateUpdateInputChannelCount:
+- _objc_msgSend$privateUpdateInputGain:
+- _objc_msgSend$privateUpdateOutputChannelCount:
+- _objc_msgSend$privateUpdateOutputVolume:
+- _objc_msgSend$privateUpdatePiPAvailabilityChange:
+- _objc_msgSend$privateUpdatePromptStyle:
+- _objc_msgSend$privateUpdateReporterIDs:
+- _objc_msgSend$privateUpdateSpeechDetectionStyle:
+- _objc_msgSend$registerPublishingSessionNotifications:
+- _objc_msgSend$streams
+- _objc_msgSend$updateMicrophonePermission:reply:
+- _objc_retain_x9
+- _snprintf
+CStrings:
++ "\""
++ "%25s:%-5d ---> port: %@"
++ "%25s:%-5d AVAudioSession no longer valid, exiting create"
++ "%25s:%-5d AVAudioSession no longer valid, exiting recreate"
++ "%25s:%-5d AVAudioSession no longer valid, returning nil"
++ "%25s:%-5d AudioSession creation failed with an error: %@"
++ "%25s:%-5d Creating session for independent input route"
++ "%25s:%-5d DeviceTimeClient: couldn't protect shared block, err: %d"
++ "%25s:%-5d Error - client-side caching is disabled"
++ "%25s:%-5d Error - invalid output mute notification payload"
++ "%25s:%-5d Error - routingContextUID is nil"
++ "%25s:%-5d Error in creating AVOutputContext"
++ "%25s:%-5d Error: Invalid client token for proxy AVAudioApplication"
++ "%25s:%-5d Failed to add observers to remote notification center, mediaserver has not been reset"
++ "%25s:%-5d Failed to configure notification center: %@"
++ "%25s:%-5d Failed to create IONodeSession on the server"
++ "%25s:%-5d Failed to create remote notification center, mediaserver has not been reset"
++ "%25s:%-5d Failed to create underlying AVAudioIONodeSessionImpl"
++ "%25s:%-5d Failed to get kMXSessionProperty_CoreSessionID, err: %s (sessionID: 0x%x)"
++ "%25s:%-5d Failed to remove observers for remote notification center, mediaserver has not been reset"
++ "%25s:%-5d Failed to set play state for 0x%x: %@"
++ "%25s:%-5d Failed to update notification center filter: %@"
++ "%25s:%-5d Got Microphone Permission value %d"
++ "%25s:%-5d Invalid XPC connection, Server may be restarting, session ID = 0x%x, notification name = %@"
++ "%25s:%-5d Invalid XPC connection, probably media server died"
++ "%25s:%-5d Invalid XPC connection, session ID = 0x%x, notification name = %@"
++ "%25s:%-5d Invalid input for setting AudioIOProperties"
++ "%25s:%-5d Notifying listeners that user intended to unmuted output"
++ "%25s:%-5d Proxy session creation with an AVAudioSessionTokenNoAudioSessionForServer or auto-reconnect is not yet supported."
++ "%25s:%-5d Received AVOutputContextOutputDeviceChange but session expired"
++ "%25s:%-5d Received AVOutputContextOutputDeviceChange for session 0x%x"
++ "%25s:%-5d Received AVOutputContextOutputDevicesChange but session expired"
++ "%25s:%-5d Received AVOutputContextOutputDevicesChange for session 0x%x"
++ "%25s:%-5d Received mediaserver lost notification"
++ "%25s:%-5d Received mediaserver reset notification"
++ "%25s:%-5d Retrieving session information failed"
++ "%25s:%-5d Server termination handler called. Session %p with ID: 0x%x"
++ "%25s:%-5d Session 0x%x posting AVAudioSessionAvailableInputsChangeNotification"
++ "%25s:%-5d Session 0x%x posting AVAudioSessionAvailableOutputsChangeNotification"
++ "%25s:%-5d Session 0x%x posting AVAudioSessionSpatialPlaybackCapabilitiesChangedNotification"
++ "%25s:%-5d Subscribing to MicrophoneInjectionCapabilityChangeNotification for process: %@"
++ "%25s:%-5d Unimplemented!"
++ "%25s:%-5d failed to invalidate AVAudioIONodeSession 0x%x: %@"
++ "%25s:%-5d failed to set preferred input: %@"
++ "%25s:%-5d notification not handled: %@"
++ "%25s:%-5d recordPermission called for Proxy AVAudioApplication"
++ "%25s:%-5d reporterIDs array is nil for new reporter IDs"
++ "%25s:%-5d requestRecordPermissionWithCompletionHandler called for Proxy AVAudioApplication"
++ "1#`"
++ "<AVAudioIONodeSession: %p, source: 0x%x, playerType: %d>"
++ "<AVAudioSessionIOBinding@%p: session %@>"
++ "@\"<AVAudioNotificationCenterServer>\""
++ "@\"<AVAudioSecureSessionProtocol>\""
++ "@\"AVAudioIONodePlayState\""
++ "@\"AVAudioNotificationCenterHandler\""
++ "@\"AVAudioSessionCapability\""
++ "@\"AVOutputContext\""
++ "@\"NSArray\"36@0:8I16@\"NSDictionary\"20^@28"
++ "@\"NSDictionary\""
++ "@\"NSDictionary\"44@0:8I16@\"NSArray\"20^@28^@36"
++ "@\"NSMutableSet\""
++ "@24@0:8B16B20"
++ "@24@0:8I16B20"
++ "@24@0:8^{_NSZone=}16"
++ "@28@0:8@16i24"
++ "@28@0:8I16@20"
++ "@32@0:8{shared_ptr<avas::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}16"
++ "@36@0:8I16@20^@28"
++ "@40@0:8{weak_ptr<avas::client::SessionCore>=^{SessionCore}^{__shared_weak_count}}16@32"
++ "@44@0:8I16@20^@28^@36"
++ "@64@0:8@16{shared_ptr<avas::client::XPCConnection>=^{XPCConnection}^{__shared_weak_count}}24{shared_ptr<avas::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}40I56B60"
++ "@?"
++ "@?16@0:8"
++ "A"
++ "AVAudioIONodeCallbackDispatcher"
++ "AVAudioIONodeDescription"
++ "AVAudioIONodePlayState"
++ "AVAudioIONodeSession"
++ "AVAudioIONodeSession.mm"
++ "AVAudioIONodeSessionRemoteServer"
++ "AVAudioIONodeSessionServer"
++ "AVAudioInterruptionNotification"
++ "AVAudioNotification"
++ "AVAudioNotificationCenter"
++ "AVAudioNotificationCenter.mm"
++ "AVAudioNotificationCenterHandler"
++ "AVAudioNotificationCenterServer"
++ "AVAudioNotificationCenterServerDelegate"
++ "AVAudioNotificationRouterXPC"
++ "AVAudioNotificationRouterXPC.mm"
++ "AVAudioPropertyNotification"
++ "AVAudioSessionAvailableInputsChangeNotification"
++ "AVAudioSessionAvailableOutputsChangeNotification"
++ "AVAudioSessionCapability"
++ "AVAudioSessionGenericPropertyPipe"
++ "AVAudioSessionIndependentRoutingSession"
++ "AVAudioSessionInterruptorSessionIDKey"
++ "AVAudioSessionModeShortFormVideo"
++ "AVAudioSessionMuteStateKey"
++ "AVAudioSessionOutputMuteStateChangeNotification"
++ "AVAudioSessionPortExtensionBluetoothMicrophone"
++ "AVAudioSessionUserIntentToUnmuteOutputNotification"
++ "AVAudioSession_AudioHUD.mm"
++ "AVAudioSession_GenericPipe.mm"
++ "AVOutputContextMonitor"
++ "AVOutputContextMonitor.mm"
++ "AVOutputContextOutputDeviceDidChangeNotification"
++ "AVOutputContextOutputDevicesDidChangeNotification"
++ "AirPodsStudioVoiceMic"
++ "AllSessionInformation"
++ "AllowEnhanceDialogue"
++ "AudioHUD"
++ "AudioHUD_ClientProcessName"
++ "AudioHUD_SessionID"
++ "AudioHUD_SessionType"
++ "AudioSessionID"
++ "AuditToken"
++ "B24@0:8Q16"
++ "B28@0:8I16^@20"
++ "B32@0:8@16@24"
++ "B36@0:8B16@20Q28"
++ "B36@0:8I16I20I24^@28"
++ "B40@0:8I16@20B28^@32"
++ "B40@0:8Q16@\"AVAudioNotificationFilter\"24^@32"
++ "B40@0:8Q16@24^@32"
++ "B40@0:8^v16@24^@32"
++ "B44@0:8I16@20@28^@36"
++ "BluetoothLEInput"
++ "I40@0:8I16@\"NSNumber\"20I28^@32"
++ "I40@0:8I16@20I28^@32"
++ "I44@0:8I16I20@\"NSNumber\"24I32^@36"
++ "I44@0:8I16I20@24I32^@36"
++ "IONodeSessionXPCServerCallbackProtocol"
++ "IntendedSpatialExperienceOverride"
++ "MicrophoneInjectionPreference"
++ "NotificationCenterHooks"
++ "Q32@0:8@\"<AVAudioNotificationCenterServerDelegate>\"16^@24"
++ "Q32@0:8@16^@24"
++ "ResolvedSpatialParameters"
++ "SceneIdentifier"
++ "Server was dead when %@ request was made"
++ "SessionCore.mm"
++ "SessionCore_Create.mm"
++ "SessionCore_NotificationHandlers.mm"
++ "SessionCore_iOS.mm"
++ "SessionCore_iOS_NotificationHandlers.mm"
++ "ShadowingAudioSessionOptions"
++ "ShadowingOptions"
++ "ShortFormVideo"
++ "T@\"<AVAudioSecureSessionProtocol>\",W,N,VpublishingSession"
++ "T@\"AVAudioIONodePlayState\",C,N"
++ "T@\"AVAudioSession\",&,N,V_innerSession"
++ "T@\"AVAudioSessionCapability\",&,N,VhighQualityRecording"
++ "T@\"NSDictionary\",R,N,V_interruptionInfo"
++ "T@\"NSDictionary\",R,N,V_propertyData"
++ "T@\"NSNumber\",C,N,V_sessionOwnerPID"
++ "T@\"NSNumber\",R,N,V_nodeSessionID"
++ "T@\"NSNumber\",R,N,V_sourceSessionID"
++ "T@\"NSString\",C,N,VpropertyName"
++ "T@\"NSString\",R,N,V_propertyName"
++ "T@\"NSUUID\",R,N"
++ "T@?,C,N"
++ "TB,N,GisInputMuted"
++ "TB,N,GisOutputMuted"
++ "TB,R,GisOutputMuted"
++ "TB,R,N,GisEnabled,V_enabled"
++ "TB,R,N,GisExplicitSimulationEnabled,V_explicitSimulationEnabled"
++ "TB,R,N,GisSupported,V_supported"
++ "TI,N,V_ioMode"
++ "TI,N,V_playState"
++ "TI,N,V_playerType"
++ "TI,N,V_sourceSession"
++ "TI,R,N,V_interruptionState"
++ "TI,R,N,V_sessionOwnerPID"
++ "TI,R,N,V_sourceSessionID"
++ "TQ,N,Vtype"
++ "Ti,R,N"
++ "TransitionToBestEffort"
++ "UpdatedMicrophoneInjectionPreference"
++ "VirtualAudio"
++ "^v16@0:8"
++ "^{PortDescriptionImpl=@@@@@BBBBB@qQ@@@@}16@0:8"
++ "_delegateID"
++ "_delegates"
++ "_enabled"
++ "_explicitSimulationEnabled"
++ "_handler"
++ "_interruptionHandler"
++ "_interruptionInfo"
++ "_interruptionState"
++ "_invalidated"
++ "_ioMode"
++ "_mutex"
++ "_nodeSessionID"
++ "_playState"
++ "_playerType"
++ "_propertiesOfInterest"
++ "_propertyData"
++ "_propertyName"
++ "_propertyNotificationHandler"
++ "_server"
++ "_sessionOwnerPID"
++ "_setMXProperties:properties:error:"
++ "_sourceSession"
++ "_sourceSessionID"
++ "_supported"
++ "_type"
++ "_wantsInterruptions"
++ "_xpcConnection"
++ "activateSession:options:requestID:reply:"
++ "activation"
++ "activation call type"
++ "addEntriesFromDictionary:"
++ "addNotificationDelegate:error:"
++ "addObserver:selector:name:object:"
++ "allowEnhanceDialogue"
++ "bluetoothMicrophoneExtension"
++ "conformedPoliciesOfSession:"
++ "copyWithZone:"
++ "createIONodeWithSourceSession:sessionOwnerPID:playerType:error:"
++ "createIONodeWithSourceSession:sessionOwnerPID:playerType:reply:"
++ "createRemoteNotificationCenter"
++ "createSession:sourceAuditToken:sourceSessionID:nameOrDeviceUID:clientProcessName:clientProcessBundleID:useCaseIdentifier:reply:"
++ "deactivation"
++ "delegateID"
++ "delegatePayload"
++ "destroyRemoteNotificationCenter:"
++ "dictionaryWithDictionary:"
++ "domain"
++ "enabled"
++ "explicitSimulationEnabled"
++ "getAllSessionInformation"
++ "getPropertiesForCache:reply:"
++ "getPropertiesIONode:properties:reply:"
++ "getPropertiesIONode:properties:status:error:"
++ "handleAVOutputContextOutputDeviceChange:"
++ "handleAVOutputContextOutputDevicesChange:"
++ "handleAudiomxdReset"
++ "handleAudiomxdTermination"
++ "handleInterruptionNotifications:"
++ "handleNotification:payload:"
++ "handlePropertyNotifications:"
++ "hasVideo"
++ "highQualityRecording"
++ "i16@0:8"
++ "i24@0:8@\"NSArray\"16"
++ "i24@0:8@16"
++ "initProxySession:autoReconnect:"
++ "initSessionForIndependentInputRoute"
++ "initWithDescription:"
++ "initWithDescription:server:"
++ "initWithDeviceFeatures:"
++ "initWithInternal:"
++ "initWithIsSupported:isEnabled:"
++ "initWithIsolatedAudioUseCaseID:publishingSession:"
++ "initWithPropertyName:sourceSessionID:nodeSessionID:propertyData:"
++ "initWithPropertyNotificationsOfInterest:wantsInterruptions:"
++ "initWithServer:type:"
++ "initWithSessionCore:routingContextUID:"
++ "input_picker"
++ "interruptionHandler"
++ "interruptionInfo"
++ "interruptionState"
++ "invalidateIONode:error:"
++ "invalidateIONode:reply:"
++ "ioMode"
++ "isAudioServiceTerminated"
++ "isEnabled"
++ "isExplicitSimulationEnabled"
++ "isOutputMuted"
++ "isSupported"
++ "locked_calculateFilter"
++ "mAVOutputContext"
++ "mSessionCore"
++ "minusSet:"
++ "nodeSessionID"
++ "nodeSessionUUID"
++ "numberWithUnsignedLongLong:"
++ "outputContextForID:"
++ "outputMuted"
++ "playState"
++ "playerType"
++ "privateCreateIONodeSession:server:"
++ "privateCreateRemoteNotificationCenter"
++ "privateDestroyRemoteNotificationCenter:"
++ "privateGetDataSources:core:"
++ "privateGetSelectedDataSource:core:"
++ "privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:core:"
++ "privateRequiresWatchOSRoutePicker:core:"
++ "privateSetActive:withOptions:error:core:"
++ "privateSetInterruptionNotificationHandler:"
++ "privateSetPrefersInterruptionOnRouteDisconnect:core:"
++ "privateSetPropertyNotificationHandler:"
++ "privateStartObservingNotifications:"
++ "privateStartOrStopObserving:remoteNotifications:forDelegate:"
++ "privateStopObservingNotifications:"
++ "propertyData"
++ "propertyName"
++ "propertyNotificationHandler"
++ "publishingSession"
++ "q24@0:8^v16"
++ "reconfigure:error:"
++ "reconfigureIONode:withSourceSession:sessionOwnerPID:playerType:error:"
++ "reconfigureIONode:withSourceSession:sessionOwnerPID:playerType:reply:"
++ "removeNotificationDelegate:"
++ "sendNotification:notificationName:userInfo:error:"
++ "sessionCore"
++ "sessionOwnerPID"
++ "set"
++ "setAllowEnhanceDialogue:error:"
++ "setAudioIOProperties:propertyErrors:"
++ "setAudioServiceTerminated:"
++ "setAudioSessionID:"
++ "setCategory"
++ "setConformsToSessionBehavior:error:"
++ "setHasVideo:error:"
++ "setHighQualityRecording:"
++ "setIONode:playState:modes:error:"
++ "setIONode:playState:modes:reply:"
++ "setIOProperties:values:reply:"
++ "setInputMuted:"
++ "setInterruptionNotificationHandler:"
++ "setIoMode:"
++ "setMXProperties:error:"
++ "setOutputMuted:"
++ "setOutputMuted:error:"
++ "setPlayState:"
++ "setPlayerType:"
++ "setPropertiesIONode:values:error:"
++ "setPropertiesIONode:values:reply:"
++ "setPropertyName:"
++ "setPropertyNotificationHandler:"
++ "setPublishingSession:"
++ "setSessionOwnerPID:"
++ "setSourceSession:"
++ "setTargetAudioSession:"
++ "setType:"
++ "set_innerSession:"
++ "sourceSession"
++ "source_bundle_id"
++ "startObservingNotifications:"
++ "startObservingNotifications:forDelegate:"
++ "stopObservingNotifications:"
++ "stopObservingNotifications:forDelegate:"
++ "subscribedDelegates"
++ "supported"
++ "toggleNotification:notificationName:enabled:error:"
++ "type"
++ "unionSet:"
++ "unique_lock::lock: already locked"
++ "unique_lock::lock: references null mutex"
++ "unique_lock::unlock: not locked"
++ "unlocked_updateServerWithFilter:"
++ "updateDelegate:notificationFilter:error:"
++ "updateMicrophonePermission:clientToken:reply:"
++ "userInfo"
++ "v16@?0@\"NSNotification\"8"
++ "v24@0:8@\"NSArray\"16"
++ "v32@0:8@\"NSArray\"16Q24"
++ "v32@0:8@16Q24"
++ "visionosDeviceSupportsEnhanceDialogue"
++ "{atomic_flag=\"__a_\"{__cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>>=\"__a_value\"AB}}"
++ "{optional<(anonymous namespace)::IOControllerImpl>=\"\"(?=\"__null_state_\"c\"__val_\"{IOControllerImpl=\"mSession\"@\"AVAudioSession\"\"mIsDecoupledInput\"B\"mXPCConnection\"{weak_ptr<avas::client::XPCConnection>=\"__ptr_\"^{XPCConnection}\"__cntrl_\"^{__shared_weak_count}}\"mTimingStateSlot\"{atomic<unsigned int>=\"__a_\"{__cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>>=\"__a_value\"AI}}\"mListenerMgr\"{synchronized<(anonymous namespace)::ListenerMgr, caulk::mach::unfair_lock, caulk::empty_atomic_interface<(anonymous namespace)::ListenerMgr>>=\"mMutex\"{unfair_lock=\"m_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}}\"mObject\"{ListenerMgr=\"mOuter\"^{IOControllerImpl}\"mListeners\"{vector<std::pair<long, void (^)(AVAudioIOControllerEvent)>, std::allocator<std::pair<long, void (^)(AVAudioIOControllerEvent)>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}}}})\"__engaged_\"B}"
++ "{shared_ptr<avas::client::DeviceTimeClient>=\"__ptr_\"^{DeviceTimeClient}\"__cntrl_\"^{__shared_weak_count}}"
++ "{shared_ptr<avas::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}16@0:8"
++ "{shared_ptr<avas::client::XPCConnection>=\"__ptr_\"^{XPCConnection}\"__cntrl_\"^{__shared_weak_count}}"
++ "{shared_ptr<std::recursive_mutex>=\"__ptr_\"^{recursive_mutex}\"__cntrl_\"^{__shared_weak_count}}"
++ "{sync_guard<avas::client::AVAudioApplicationImpl, caulk::mach::unfair_lock>=^{unfair_lock}{value_holder<avas::client::AVAudioApplicationImpl>=^{AVAudioApplicationImpl}}}16@0:8"
++ "{synchronized<NotificationDelegateCollectionXPC, caulk::mach::unfair_lock, caulk::empty_atomic_interface<NotificationDelegateCollectionXPC>>=\"mMutex\"{unfair_lock=\"m_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}}\"mObject\"{NotificationDelegateCollectionXPC=\"mDelegates\"{unordered_map<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, NotificationDelegateCollectionXPC::NotificationDelegates>, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}\"mIsAudioServiceTerminated\"B}}"
++ "{tuple<std::shared_ptr<avas::client::XPCConnection>, avas::ProcessIdentity, unsigned int>={__tuple_impl<std::__tuple_indices<0, 1, 2>, std::shared_ptr<avas::client::XPCConnection>, avas::ProcessIdentity, unsigned int>={shared_ptr<avas::client::XPCConnection>=^{XPCConnection}^{__shared_weak_count}}{ProcessIdentity={?=[8I]}ii}I}}16@0:8"
++ "{unfair_lock=\"m_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}}"
++ "{unique_ptr<caulk::synchronized<avas::client::AVAudioApplicationImpl>, std::default_delete<caulk::synchronized<avas::client::AVAudioApplicationImpl>>>=\"__ptr_\"^v}"
++ "{unique_ptr<caulk::synchronized<avas::client::AVAudioIONodeSessionImpl>, std::default_delete<caulk::synchronized<avas::client::AVAudioIONodeSessionImpl>>>=\"__ptr_\"^v}"
++ "{weak_ptr<avas::client::SessionCore>=\"__ptr_\"^{SessionCore}\"__cntrl_\"^{__shared_weak_count}}"
+- "%25s:%-5d ---> inPort: %@"
+- "%25s:%-5d DeviceTimeClient: couldn't protect shared block"
+- "%25s:%-5d Either accessor or mOwningSession is nil"
+- "%25s:%-5d Error while reading value from MX for property %@"
+- "%25s:%-5d Invalid object passed."
+- "%25s:%-5d Received privateHandleAVOutputContextOutputDeviceChange for session 0x%x"
+- "%25s:%-5d Received privateHandleAVOutputContextOutputDevicesChange for session 0x%x"
+- "%25s:%-5d Session 0x%x posting AVAudioSessionSpatialPlaybackCapabilitiesChangedNotification."
+- "%25s:%-5d Subscribing to MicrophoneInjectionCapabilityChangeNotification for process:%@"
+- "%25s:%-5d inValue is nil for new reporter IDs"
+- "-[AVAudioSession privateGetCategory:]"
+- "-[AVAudioSession privateRecreateSessionInServerUsingXPC]"
+- "-[AVAudioSession(CommonAPI) privateSetCategoryWithOptions:modes:routeSharingPolicy:options:accessor:]"
+- "0x%x"
+- "1$`"
+- "<AVAudioSessionIOBinding@%p: session %@, streams %@>"
+- "@24@0:8r^v16"
+- "@32@0:8{shared_ptr<as::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}16"
+- "@64@0:8@16{shared_ptr<as::client::XPCConnection>=^{XPCConnection}^{__shared_weak_count}}24{shared_ptr<as::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}40I56B60"
+- "AVAudioSessionClient_Common.mm"
+- "AVAudioSessionModeEnrollment"
+- "AVAudioSessionPrivateCommon"
+- "AudioSessionBeginInterruptionNotification"
+- "AudioSessionEndInterruptionNotification"
+- "B24@0:8^v16"
+- "B24@0:8r^v16"
+- "B32@0:8@16r^v24"
+- "C16@0:8"
+- "ClientCommonImplementation"
+- "CommonAPI"
+- "CommonSPI"
+- "DeviceClassNumber"
+- "Enrollment"
+- "GenericPipe"
+- "Q24@0:8r^v16"
+- "SessionAPIUtilities.h"
+- "SessionAPIUtilities.mm"
+- "^{PortDescriptionImpl=@@@@@BBBBBqQ@@@@}16@0:8"
+- "accessor"
+- "activateSession:options:deviceInfo:requestID:reply:"
+- "addCategoryOptionsToDictionary:category:options:"
+- "atomicImpl"
+- "createSession:sourceAuditToken:sourceSessionID:nameOrDeviceUID:clientProcessName:useCaseIdentifier:reply:"
+- "getNotificationQueue"
+- "handleDeferredMessage:userInfo:"
+- "i56@0:8@16@24Q32Q40r^v48"
+- "initializeAVOutputContextObject:updateCache:"
+- "privateCreateSessionInServerUsingXPC:"
+- "privateDispatchPing:"
+- "privateGetCategory:"
+- "privateGetCurrentRoute:"
+- "privateGetDataSources:accessor:"
+- "privateGetGuardOfImplementation"
+- "privateGetInputAvailable:"
+- "privateGetRouteSharingPolicy:"
+- "privateGetSelectedDataSource:accessor:"
+- "privateGetSessionID"
+- "privateHandleAVOutputContextOutputDeviceChange:"
+- "privateHandleAVOutputContextOutputDevicesChange:"
+- "privateHandleActiveNeroVisualStreamInfoDidChange"
+- "privateHandleAudioHardwareFormatChange"
+- "privateHandleAvailableSampleRatesChange:"
+- "privateHandleBadgeTypeChange:"
+- "privateHandleBeaconBudgetChange:accessor:"
+- "privateHandleCurrentInputDeviceBufferSizeDidChange"
+- "privateHandleCurrentInputSampleRateDidChange"
+- "privateHandleCurrentOutputDeviceBufferSizeDidChange"
+- "privateHandleCurrentOutputSampleRateDidChange"
+- "privateHandleMicrophoneInjectionCapabilityChange:accessor:"
+- "privateHandleOtherPrimaryAudioPlayStateChange:"
+- "privateHandlePickableRoutesChange:"
+- "privateHandlePrefersConcurrentAirPlayAudioChange:accessor:"
+- "privateHandleRenderingCapabilitiesChange:"
+- "privateHandleRouteControlFeaturesChange:accessor:"
+- "privateHandleRoutingContextChange:"
+- "privateHandleSecondaryAudioHintChange:accessor:"
+- "privateHandleWatchOSActivationAfterRoutePickerSelection:options:error:accessor:"
+- "privateInputIsAvailableChanged:"
+- "privateInputMuteWithInfo:accessor:"
+- "privateInterruptionWithInfo:accessor:"
+- "privateIsActive:"
+- "privateNeedsTranslationForNoSpeakerCategory:accessor:"
+- "privatePostNotificationForType:name:userInfo:accessor:"
+- "privateRecreateSessionInServerUsingXPC"
+- "privateRequiresWatchOSRoutePicker:accessor:"
+- "privateResetCachedPropertyValues:"
+- "privateSetActive:withOptions:error:accessor:"
+- "privateSetCategoryWithOptions:modes:routeSharingPolicy:options:accessor:"
+- "privateSetPrefersInterruptionOnRouteDisconnect:accessor:"
+- "privateShouldSubscribeToMicrophoneInjectionCapabilityChangeNotification"
+- "privateSubscribeToMicrophoneInjectionCapabilityChangeNotification"
+- "privateUpdateAudioFormat:"
+- "privateUpdateAudioFormats:"
+- "privateUpdateInputAvailable"
+- "privateUpdateInputChannelCount:"
+- "privateUpdateInputGain:"
+- "privateUpdateOutputChannelCount:"
+- "privateUpdateOutputVolume:"
+- "privateUpdatePiPAvailabilityChange:"
+- "privateUpdatePromptStyle:"
+- "privateUpdateReporterIDs:"
+- "privateUpdateSpeechDetectionStyle:"
+- "q24@0:8r^v16"
+- "registerPublishingSessionNotifications:"
+- "updateMicrophonePermission:reply:"
+- "v24@0:8r^v16"
+- "v28@0:8@16B24"
+- "v28@?0@\"NSError\"8@16I24"
+- "v32@0:8@16r^v24"
+- "v40@0:8@16@24Q32"
+- "v48@0:8Q16@24@32r^v40"
+- "{AVAudioSessionImplAtomic=^{AVAudioSessionImpl}}16@0:8"
+- "{optional<(anonymous namespace)::IOControllerImpl>=\"\"(?=\"__null_state_\"c\"__val_\"{IOControllerImpl=\"mSession\"@\"AVAudioSession\"\"mIsDecoupledInput\"B\"mXPCConnection\"{weak_ptr<as::client::XPCConnection>=\"__ptr_\"^{XPCConnection}\"__cntrl_\"^{__shared_weak_count}}\"mTimingStateSlot\"{atomic<unsigned int>=\"__a_\"{__cxx_atomic_impl<unsigned int, std::__cxx_atomic_base_impl<unsigned int>>=\"__a_value\"AI}}\"mListenerMgr\"{synchronized<(anonymous namespace)::ListenerMgr, caulk::mach::unfair_lock, caulk::empty_atomic_interface<(anonymous namespace)::ListenerMgr>>=\"mMutex\"{unfair_lock=\"m_lock\"{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}}\"mObject\"{ListenerMgr=\"mOuter\"^{IOControllerImpl}\"mListeners\"{vector<std::pair<long, void (^)(AVAudioIOControllerEvent)>, std::allocator<std::pair<long, void (^)(AVAudioIOControllerEvent)>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::pair<long, void (^)(AVAudioIOControllerEvent)> *, std::allocator<std::pair<long, void (^)(AVAudioIOControllerEvent)>>>=\"__value_\"^v}}}}})\"__engaged_\"B}"
+- "{shared_ptr<as::client::DeviceTimeClient>=\"__ptr_\"^{DeviceTimeClient}\"__cntrl_\"^{__shared_weak_count}}"
+- "{shared_ptr<as::client::DeviceTimeClient>=^{DeviceTimeClient}^{__shared_weak_count}}16@0:8"
+- "{shared_ptr<const as::client::api_utils::ServerAccessor>=^{ServerAccessor}^{__shared_weak_count}}16@0:8"
+- "{sync_guard<AVAudioSessionImpl, caulk::mach::unfair_recursive_lock>=^{unfair_recursive_lock}{value_holder<AVAudioSessionImpl>=^{AVAudioSessionImpl}}}16@0:8"
+- "{sync_guard<as::client::AVAudioApplicationImpl, caulk::mach::unfair_lock>=^{unfair_lock}{value_holder<as::client::AVAudioApplicationImpl>=^{AVAudioApplicationImpl}}}16@0:8"
+- "{tuple<std::shared_ptr<as::client::XPCConnection>, as::ProcessIdentity, unsigned int>={__tuple_impl<std::__tuple_indices<0, 1, 2>, std::shared_ptr<as::client::XPCConnection>, as::ProcessIdentity, unsigned int>={shared_ptr<as::client::XPCConnection>=^{XPCConnection}^{__shared_weak_count}}{ProcessIdentity={?=[8I]}ii}I}}16@0:8"
+- "{unique_ptr<caulk::synchronized<as::client::AVAudioApplicationImpl>, std::default_delete<caulk::synchronized<as::client::AVAudioApplicationImpl>>>=\"__ptr_\"{__compressed_pair<caulk::synchronized<as::client::AVAudioApplicationImpl> *, std::default_delete<caulk::synchronized<as::client::AVAudioApplicationImpl>>>=\"__value_\"^v}}"
+
+```

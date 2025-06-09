@@ -1,0 +1,787 @@
+## libAccessibility.dylib
+
+> `/usr/lib/libAccessibility.dylib`
+
+```diff
+
+-3148.15.26.0.0
+-  __TEXT.__text: 0x2b6c4
+-  __TEXT.__auth_stubs: 0x9e0
++3180.6.1.0.0
++  __TEXT.__text: 0x2cea0
++  __TEXT.__auth_stubs: 0xa20
+   __TEXT.__objc_methlist: 0x34c
+-  __TEXT.__const: 0x2c0
+-  __TEXT.__cstring: 0x8ee0
+-  __TEXT.__gcc_except_tab: 0x1ec
+-  __TEXT.__oslogstring: 0x12d3
++  __TEXT.__const: 0x2c8
++  __TEXT.__cstring: 0x93b4
++  __TEXT.__gcc_except_tab: 0x1f4
++  __TEXT.__oslogstring: 0x1453
+   __TEXT.__dlopen_cstrs: 0x119
+-  __TEXT.__unwind_info: 0xdf0
++  __TEXT.__unwind_info: 0xda8
+   __TEXT.__objc_classname: 0xc3
+-  __TEXT.__objc_methname: 0xf65
++  __TEXT.__objc_methname: 0xf71
+   __TEXT.__objc_methtype: 0x1f2
+-  __TEXT.__objc_stubs: 0x11c0
++  __TEXT.__objc_stubs: 0x11e0
+   __DATA_CONST.__got: 0x140
+-  __DATA_CONST.__const: 0x400
++  __DATA_CONST.__const: 0x428
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x578
++  __DATA_CONST.__objc_selrefs: 0x580
+   __DATA_CONST.__objc_superrefs: 0x18
+   __DATA_CONST.__objc_arraydata: 0x50
+-  __AUTH_CONST.__auth_got: 0x500
+-  __AUTH_CONST.__const: 0x3120
+-  __AUTH_CONST.__cfstring: 0x6a60
++  __AUTH_CONST.__auth_got: 0x520
++  __AUTH_CONST.__const: 0x33c0
++  __AUTH_CONST.__cfstring: 0x6d00
+   __AUTH_CONST.__objc_const: 0x710
+-  __AUTH_CONST.__objc_intobj: 0x168
++  __AUTH_CONST.__objc_intobj: 0x180
+   __AUTH_CONST.__objc_floatobj: 0x50
+   __AUTH_CONST.__objc_doubleobj: 0x40
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0x44
+-  __DATA.__data: 0x1230
+-  __DATA.__bss: 0x13c8
++  __DATA.__data: 0x12c0
++  __DATA.__bss: 0x14a8
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x88
+-  __DATA_DIRTY.__bss: 0x2b0
++  __DATA_DIRTY.__bss: 0x318
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 113A2051-DD1E-3D76-8055-6160F2185893
+-  Functions: 1841
+-  Symbols:   5464
+-  CStrings:  2258
++  UUID: 827EB41D-F253-3FA3-8904-EA9B30997E05
++  Functions: 1902
++  Symbols:   5404
++  CStrings:  2328
+ 
+Symbols:
++ GCC_except_table13
++ GCC_except_table23
++ GCC_except_table234
++ GCC_except_table235
++ GCC_except_table236
++ GCC_except_table401
++ GCC_except_table55
++ GCC_except_table919
++ GCC_except_table97
++ _AXDeviceSupportsLiveRecognition
++ _AXDeviceSupportsLiveRecognition.Supported
++ _AXDeviceSupportsLiveRecognition.cold.1
++ _AXDeviceSupportsLiveRecognition.onceToken
++ _AXLogGuestPass
++ _AXLogGuestPass.__logObj
++ _AXLogGuestPass.cold.1
++ _AXLogGuestPass.onceToken
++ _AXLogReader
++ _AXLogReader.__logObj
++ _AXLogReader.cold.1
++ _AXLogReader.onceToken
++ _AXLogVoiceOverMapsAI
++ _AXLogVoiceOverMapsAI.__logObj
++ _AXLogVoiceOverMapsAI.cold.1
++ _AXLogVoiceOverMapsAI.onceToken
++ _AXRuntimeCheck_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardKeyTimer._ffEnabled_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardKeyTimer.cold.1
++ _AXRuntimeCheck_DwellKeyboardKeyTimer.onceToken_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipe._ffEnabled_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipe.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipe.cold.2
++ _AXRuntimeCheck_DwellKeyboardSwipe.onceToken_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous._ffEnabled_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous.onceToken_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad._ffEnabled_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad.onceToken_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_LiveCaptionsSupportsLanguageExpansion
++ _AXRuntimeCheck_LiveCaptionsSupportsLanguageExpansion.cold.1
++ _AXRuntimeCheck_SupportsBrailleUI
++ _AXRuntimeCheck_SupportsBrailleUI._supportsBrailleUI
++ _AXRuntimeCheck_SupportsBrailleUI.cold.1
++ _AXRuntimeCheck_SupportsBrailleUI.onceToken
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes._supportsVoiceOverReadPrefixes
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes.cold.1
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes.onceToken
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem._supportsWatchControlAXFocusSystem
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem.cold.1
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem.onceToken
++ _InitializePrefsChangedNotificationQueue.onceToken
++ _SWCHLogSettings
++ _SWCHLogSettings.__logObj
++ _SWCHLogSettings.cold.1
++ _SWCHLogSettings.onceToken
++ __AXSAccessibilityEnabled.inGuestPassAtSystemAppStartup
++ __AXSAccessibilityKeyboardContinuousPathEnabled
++ __AXSAccessibilityKeyboardContinuousPathEnabled.cold.1
++ __AXSAccessibilityKeyboardContinuousPathEnabled.onceToken
++ __AXSBrailleScreenInputSetEnabled.token
++ __AXSDidSetDwellKeyboardContinuousPathEnabled
++ __AXSDidSetDwellKeyboardContinuousPathEnabled.cold.1
++ __AXSDidSetDwellKeyboardContinuousPathEnabled.onceToken
++ __AXSDwellKeyboardContinuousPathEnabled
++ __AXSDwellKeyboardContinuousPathEnabled.cold.1
++ __AXSDwellKeyboardContinuousPathEnabled.onceToken
++ __AXSExtendedKeyboardPredictionsEnabled.cold.5
++ __AXSExtendedKeyboardPredictionsEnabled.cold.6
++ __AXSGuestPassWasActiveAtSystemAppStartup
++ __AXSGuestPassWasActiveAtSystemAppStartup.InGuestPassAtSystemAppStartup
++ __AXSGuestPassWasActiveAtSystemAppStartup.cold.1
++ __AXSGuestPassWasActiveAtSystemAppStartup.onceToken
++ __AXSMotionCuesIntensity
++ __AXSMotionCuesIntensity.cold.1
++ __AXSMotionCuesIntensity.onceToken
++ __AXSMotionCuesStyle
++ __AXSMotionCuesStyle.cold.1
++ __AXSMotionCuesStyle.onceToken
++ __AXSMotionCuesTintColor
++ __AXSMotionCuesTintColor.cold.1
++ __AXSMotionCuesTintColor.onceToken
++ __AXSPreferenceKeysToNotifications
++ __AXSPreferenceKeysToNotifications.PrefKeysToNotifications
++ __AXSPreferenceKeysToNotifications.cold.1
++ __AXSPreferenceKeysToNotifications.onceToken
++ __AXSPreferencesParticipatingInGuestPass
++ __AXSSetDwellKeyboardContinuousPathEnabled
++ __AXSSetDwellKeyboardContinuousPathEnabled.cold.1
++ __AXSSetMotionCuesIntensity
++ __AXSSetMotionCuesStyle
++ __AXSSetMotionCuesTintColor
++ __AXSSetSwitchControlKeyboardContinuousPathEnabled
++ __AXSSwitchControlKeyboardContinuousPathEnabled
++ __AXSSwitchControlKeyboardContinuousPathEnabled.cold.1
++ __AXSSwitchControlKeyboardContinuousPathEnabled.onceToken
++ __AXSUpdateAccessibilityKeyboardContinuousPathEnabled
++ __AXSUpdateAccessibilityKeyboardContinuousPathEnabled.cold.1
++ __AXSUpdateAccessibilityKeyboardContinuousPathEnabled.cold.2
++ __AXSVoiceOverTouchCopyBrailleUIMainMenuItems
++ __AXSVoiceOverTouchSetBrailleUIMainMenuItems
++ __AXSVoiceOverTouchSetSpeakingRate.cold.1
++ ___AXDeviceSupportsLiveRecognition_block_invoke
++ ___AXLogGuestPass_block_invoke
++ ___AXLogReader_block_invoke
++ ___AXLogVoiceOverMapsAI_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardKeyTimer_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipeContinuous_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipe_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipe_iPad_block_invoke
++ ___AXRuntimeCheck_SupportsBrailleUI_block_invoke
++ ___AXRuntimeCheck_SupportsVoiceOverReadPrefixes_block_invoke
++ ___AXRuntimeCheck_SupportsWatchControlAXFocusSystem_block_invoke
++ ___InitializePrefsChangedNotificationQueue_block_invoke
++ ___ObservePreferenceDistributed_block_invoke.cold.2
++ ___ObservePreferenceDistributed_block_invoke_3
++ ___SWCHLogSettings_block_invoke
++ ____AXSAccessibilityEnabled_block_invoke.cold.1
++ ____AXSAccessibilityEnablers_block_invoke_22
++ ____AXSAccessibilityKeyboardContinuousPathEnabled_block_invoke
++ ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1996
++ ____AXSDidSetDwellKeyboardContinuousPathEnabled_block_invoke
++ ____AXSDwellKeyboardContinuousPathEnabled_block_invoke
++ ____AXSGuestPassWasActiveAtSystemAppStartup_block_invoke
++ ____AXSGuestPassWasActiveAtSystemAppStartup_block_invoke.cold.1
++ ____AXSMotionCuesIntensity_block_invoke
++ ____AXSMotionCuesStyle_block_invoke
++ ____AXSMotionCuesTintColor_block_invoke
++ ____AXSPreferenceKeysToNotifications_block_invoke
++ ____AXSSwitchControlKeyboardContinuousPathEnabled_block_invoke
++ ___block_descriptor_32_e5_B8?0l
++ ___block_literal_global.1782
++ ___block_literal_global.1784
++ ___block_literal_global.1786
++ ___block_literal_global.1792
++ ___block_literal_global.1797
++ ___block_literal_global.1799
++ ___block_literal_global.1802
++ ___block_literal_global.1830
++ ___block_literal_global.1832
++ ___block_literal_global.1859
++ ___block_literal_global.1861
++ ___block_literal_global.1863
++ ___block_literal_global.1865
++ ___block_literal_global.1867
++ ___block_literal_global.1870
++ ___block_literal_global.1872
++ ___block_literal_global.1874
++ ___block_literal_global.1876
++ ___block_literal_global.1888
++ ___block_literal_global.1890
++ ___block_literal_global.1892
++ ___block_literal_global.1898
++ ___block_literal_global.1900
++ ___block_literal_global.1902
++ ___block_literal_global.1904
++ ___block_literal_global.1906
++ ___block_literal_global.1918
++ ___block_literal_global.1942
++ ___block_literal_global.1955
++ ___block_literal_global.1958
++ ___block_literal_global.1960
++ ___block_literal_global.1963
++ ___block_literal_global.1965
++ ___block_literal_global.1972
++ ___block_literal_global.1974
++ ___block_literal_global.1976
++ ___block_literal_global.1984
++ ___block_literal_global.1986
++ ___block_literal_global.1988
++ ___block_literal_global.1990
++ ___block_literal_global.2008
++ ___block_literal_global.2010
++ ___block_literal_global.2012
++ ___block_literal_global.2021
++ ___block_literal_global.2026
++ ___block_literal_global.2031
++ ___block_literal_global.2033
++ ___block_literal_global.2041
++ ___block_literal_global.2043
++ ___block_literal_global.2056
++ ___block_literal_global.2058
++ ___block_literal_global.2062
++ ___block_literal_global.2064
++ ___block_literal_global.2066
++ ___block_literal_global.2068
++ ___block_literal_global.2078
++ ___block_literal_global.2082
++ ___block_literal_global.2084
++ ___block_literal_global.2086
++ ___block_literal_global.2089
++ ___block_literal_global.2094
++ ___block_literal_global.2099
++ ___block_literal_global.2104
++ ___block_literal_global.2109
++ ___block_literal_global.2114
++ ___block_literal_global.2119
++ ___block_literal_global.2124
++ ___block_literal_global.2129
++ ___block_literal_global.2134
++ ___block_literal_global.2144
++ ___block_literal_global.2154
++ ___block_literal_global.2160
++ ___block_literal_global.2165
++ ___block_literal_global.2170
++ ___block_literal_global.2175
++ ___block_literal_global.2180
++ ___block_literal_global.2186
++ ___block_literal_global.2208
++ ___block_literal_global.2220
++ ___block_literal_global.2225
++ ___block_literal_global.2260
++ ___block_literal_global.2262
++ ___block_literal_global.2264
++ ___block_literal_global.2266
++ ___block_literal_global.2271
++ ___block_literal_global.2274
++ ___block_literal_global.2279
++ ___block_literal_global.2281
++ ___block_literal_global.2283
++ ___block_literal_global.2285
++ ___block_literal_global.2287
++ ___block_literal_global.2420
++ ___block_literal_global.2422
++ ___block_literal_global.2424
++ ___block_literal_global.2464
++ ___block_literal_global.2466
++ ___block_literal_global.2468
++ ___block_literal_global.2470
++ ___block_literal_global.2472
++ ___block_literal_global.2474
++ ___block_literal_global.2489
++ ___block_literal_global.2493
++ ___block_literal_global.2495
++ ___block_literal_global.2497
++ ___block_literal_global.2499
++ ___block_literal_global.2501
++ ___block_literal_global.2503
++ ___block_literal_global.2505
++ ___block_literal_global.2507
++ ___block_literal_global.2509
++ ___block_literal_global.2511
++ ___block_literal_global.2513
++ ___block_literal_global.2515
++ ___block_literal_global.2517
++ ___block_literal_global.2521
++ ___block_literal_global.2523
++ ___block_literal_global.2525
++ ___block_literal_global.2531
++ ___block_literal_global.2533
++ ___block_literal_global.2535
++ ___block_literal_global.2537
++ ___block_literal_global.2539
++ ___block_literal_global.2541
++ ___block_literal_global.2543
++ ___block_literal_global.2545
++ ___block_literal_global.2547
++ ___block_literal_global.2549
++ ___block_literal_global.2551
++ ___block_literal_global.2553
++ ___block_literal_global.2555
++ ___block_literal_global.2557
++ ___block_literal_global.2559
++ ___block_literal_global.2561
++ ___block_literal_global.2563
++ ___block_literal_global.2567
++ ___block_literal_global.2582
++ ___block_literal_global.2584
++ ___block_literal_global.2586
++ ___block_literal_global.2588
++ ___block_literal_global.2590
++ ___block_literal_global.2595
++ ___block_literal_global.2603
++ ___block_literal_global.2605
++ ___block_literal_global.2607
++ ___block_literal_global.2610
++ ___block_literal_global.2618
++ ___block_literal_global.2655
++ ___block_literal_global.3148
++ ___block_literal_global.3151
++ ___block_literal_global.3154
++ ___block_literal_global.3156
++ ___block_literal_global.3159
++ ___block_literal_global.3161
++ ___block_literal_global.3163
++ ___block_literal_global.3165
++ ___block_literal_global.3173
++ ___block_literal_global.3180
++ ___block_literal_global.3196
++ ___block_literal_global.3198
++ ___block_literal_global.3215
++ ___block_literal_global.39
++ ___block_literal_global.42
++ ___block_literal_global.45
++ ___block_literal_global.48
++ ___block_literal_global.493
++ ___block_literal_global.496
++ ___block_literal_global.499
++ ___block_literal_global.502
++ ___block_literal_global.59
++ ___block_literal_global.62
++ ___block_literal_global.65
++ ___block_literal_global.68
++ ___block_literal_global.71
++ ___block_literal_global.74
++ __kAXSCacheAccessibilityKeyboardContinuousPathEnabled
++ __kAXSCacheDidSetDwellKeyboardContinuousPathEnabled
++ __kAXSCacheDwellKeyboardContinuousPathEnabled
++ __kAXSCacheMotionCuesIntensity
++ __kAXSCacheMotionCuesIntensityDidChangeNotification
++ __kAXSCacheMotionCuesStyle
++ __kAXSCacheMotionCuesStyleDidChangeNotification
++ __kAXSCacheMotionCuesTintColor
++ __kAXSCacheMotionCuesTintColorDidChangeNotification
++ __kAXSCacheSwitchControlKeyboardContinuousPathEnabled
++ __processIsResponsibleForPreferenceObserving
++ _kAXGuestPassNeedsSyncNotification
++ _kAXSAccessibilityKeyboardContinuousPathEnabledNotification
++ _kAXSDidSetDwellKeyboardContinuousPathEnabledPreference
++ _kAXSDwellKeyboardContinuousPathEnabledNotification
++ _kAXSDwellKeyboardContinuousPathEnabledPreference
++ _kAXSGuestPassSessionActivePreference
++ _kAXSMotionCuesCustomizationDidChangeNotification
++ _kAXSMotionCuesIntensityPreference
++ _kAXSMotionCuesStylePreference
++ _kAXSMotionCuesTintColorPreference
++ _kAXSSwitchControlKeyboardContinuousPathEnabledNotification
++ _kAXSSwitchControlKeyboardContinuousPathEnabledPreference
++ _kAXSVoiceOverTouchBrailleUIMainMenuItemsChangedNotification
++ _kAXSVoiceOverTouchBrailleUIMainMenuItemsPreference
++ _notify_register_check
++ _notify_set_state
++ _objc_msgSend$boolForKey:
++ _objc_release_x28
++ _objc_retain_x24
+- GCC_except_table11
+- GCC_except_table22
+- GCC_except_table221
+- GCC_except_table222
+- GCC_except_table223
+- GCC_except_table388
+- GCC_except_table40
+- GCC_except_table894
+- GCC_except_table96
+- _ObservePreferenceDistributed
+- _ObservePreferenceLocal
+- __AXSLiveTranscriptionEnabled.cold.2
+- __AXSQuickSpeakEnabled.cold.3
+- __AXSVisualAlertEnabled.cold.2
+- ___ObservePreferenceLocal_block_invoke
+- ___ObservePreferenceLocal_block_invoke.cold.1
+- ___ObservePreferenceLocal_block_invoke_2
+- ____AXSAttentionAwarenessFeaturesEnabled_block_invoke.1932
+- ____axsHandlePrefChanged_block_invoke.cold.10
+- ____axsHandlePrefChanged_block_invoke.cold.100
+- ____axsHandlePrefChanged_block_invoke.cold.101
+- ____axsHandlePrefChanged_block_invoke.cold.102
+- ____axsHandlePrefChanged_block_invoke.cold.103
+- ____axsHandlePrefChanged_block_invoke.cold.104
+- ____axsHandlePrefChanged_block_invoke.cold.105
+- ____axsHandlePrefChanged_block_invoke.cold.106
+- ____axsHandlePrefChanged_block_invoke.cold.107
+- ____axsHandlePrefChanged_block_invoke.cold.108
+- ____axsHandlePrefChanged_block_invoke.cold.109
+- ____axsHandlePrefChanged_block_invoke.cold.11
+- ____axsHandlePrefChanged_block_invoke.cold.110
+- ____axsHandlePrefChanged_block_invoke.cold.111
+- ____axsHandlePrefChanged_block_invoke.cold.112
+- ____axsHandlePrefChanged_block_invoke.cold.113
+- ____axsHandlePrefChanged_block_invoke.cold.114
+- ____axsHandlePrefChanged_block_invoke.cold.115
+- ____axsHandlePrefChanged_block_invoke.cold.116
+- ____axsHandlePrefChanged_block_invoke.cold.117
+- ____axsHandlePrefChanged_block_invoke.cold.118
+- ____axsHandlePrefChanged_block_invoke.cold.119
+- ____axsHandlePrefChanged_block_invoke.cold.12
+- ____axsHandlePrefChanged_block_invoke.cold.120
+- ____axsHandlePrefChanged_block_invoke.cold.121
+- ____axsHandlePrefChanged_block_invoke.cold.122
+- ____axsHandlePrefChanged_block_invoke.cold.123
+- ____axsHandlePrefChanged_block_invoke.cold.124
+- ____axsHandlePrefChanged_block_invoke.cold.125
+- ____axsHandlePrefChanged_block_invoke.cold.126
+- ____axsHandlePrefChanged_block_invoke.cold.127
+- ____axsHandlePrefChanged_block_invoke.cold.128
+- ____axsHandlePrefChanged_block_invoke.cold.129
+- ____axsHandlePrefChanged_block_invoke.cold.13
+- ____axsHandlePrefChanged_block_invoke.cold.130
+- ____axsHandlePrefChanged_block_invoke.cold.131
+- ____axsHandlePrefChanged_block_invoke.cold.132
+- ____axsHandlePrefChanged_block_invoke.cold.133
+- ____axsHandlePrefChanged_block_invoke.cold.134
+- ____axsHandlePrefChanged_block_invoke.cold.135
+- ____axsHandlePrefChanged_block_invoke.cold.136
+- ____axsHandlePrefChanged_block_invoke.cold.137
+- ____axsHandlePrefChanged_block_invoke.cold.138
+- ____axsHandlePrefChanged_block_invoke.cold.139
+- ____axsHandlePrefChanged_block_invoke.cold.14
+- ____axsHandlePrefChanged_block_invoke.cold.140
+- ____axsHandlePrefChanged_block_invoke.cold.141
+- ____axsHandlePrefChanged_block_invoke.cold.15
+- ____axsHandlePrefChanged_block_invoke.cold.16
+- ____axsHandlePrefChanged_block_invoke.cold.17
+- ____axsHandlePrefChanged_block_invoke.cold.18
+- ____axsHandlePrefChanged_block_invoke.cold.19
+- ____axsHandlePrefChanged_block_invoke.cold.20
+- ____axsHandlePrefChanged_block_invoke.cold.21
+- ____axsHandlePrefChanged_block_invoke.cold.22
+- ____axsHandlePrefChanged_block_invoke.cold.23
+- ____axsHandlePrefChanged_block_invoke.cold.24
+- ____axsHandlePrefChanged_block_invoke.cold.25
+- ____axsHandlePrefChanged_block_invoke.cold.26
+- ____axsHandlePrefChanged_block_invoke.cold.27
+- ____axsHandlePrefChanged_block_invoke.cold.28
+- ____axsHandlePrefChanged_block_invoke.cold.29
+- ____axsHandlePrefChanged_block_invoke.cold.30
+- ____axsHandlePrefChanged_block_invoke.cold.31
+- ____axsHandlePrefChanged_block_invoke.cold.32
+- ____axsHandlePrefChanged_block_invoke.cold.33
+- ____axsHandlePrefChanged_block_invoke.cold.34
+- ____axsHandlePrefChanged_block_invoke.cold.35
+- ____axsHandlePrefChanged_block_invoke.cold.36
+- ____axsHandlePrefChanged_block_invoke.cold.37
+- ____axsHandlePrefChanged_block_invoke.cold.38
+- ____axsHandlePrefChanged_block_invoke.cold.39
+- ____axsHandlePrefChanged_block_invoke.cold.40
+- ____axsHandlePrefChanged_block_invoke.cold.41
+- ____axsHandlePrefChanged_block_invoke.cold.42
+- ____axsHandlePrefChanged_block_invoke.cold.43
+- ____axsHandlePrefChanged_block_invoke.cold.44
+- ____axsHandlePrefChanged_block_invoke.cold.45
+- ____axsHandlePrefChanged_block_invoke.cold.46
+- ____axsHandlePrefChanged_block_invoke.cold.47
+- ____axsHandlePrefChanged_block_invoke.cold.48
+- ____axsHandlePrefChanged_block_invoke.cold.49
+- ____axsHandlePrefChanged_block_invoke.cold.5
+- ____axsHandlePrefChanged_block_invoke.cold.50
+- ____axsHandlePrefChanged_block_invoke.cold.51
+- ____axsHandlePrefChanged_block_invoke.cold.52
+- ____axsHandlePrefChanged_block_invoke.cold.53
+- ____axsHandlePrefChanged_block_invoke.cold.54
+- ____axsHandlePrefChanged_block_invoke.cold.55
+- ____axsHandlePrefChanged_block_invoke.cold.56
+- ____axsHandlePrefChanged_block_invoke.cold.57
+- ____axsHandlePrefChanged_block_invoke.cold.58
+- ____axsHandlePrefChanged_block_invoke.cold.59
+- ____axsHandlePrefChanged_block_invoke.cold.6
+- ____axsHandlePrefChanged_block_invoke.cold.60
+- ____axsHandlePrefChanged_block_invoke.cold.61
+- ____axsHandlePrefChanged_block_invoke.cold.62
+- ____axsHandlePrefChanged_block_invoke.cold.63
+- ____axsHandlePrefChanged_block_invoke.cold.64
+- ____axsHandlePrefChanged_block_invoke.cold.65
+- ____axsHandlePrefChanged_block_invoke.cold.66
+- ____axsHandlePrefChanged_block_invoke.cold.67
+- ____axsHandlePrefChanged_block_invoke.cold.68
+- ____axsHandlePrefChanged_block_invoke.cold.69
+- ____axsHandlePrefChanged_block_invoke.cold.7
+- ____axsHandlePrefChanged_block_invoke.cold.70
+- ____axsHandlePrefChanged_block_invoke.cold.71
+- ____axsHandlePrefChanged_block_invoke.cold.72
+- ____axsHandlePrefChanged_block_invoke.cold.73
+- ____axsHandlePrefChanged_block_invoke.cold.74
+- ____axsHandlePrefChanged_block_invoke.cold.75
+- ____axsHandlePrefChanged_block_invoke.cold.76
+- ____axsHandlePrefChanged_block_invoke.cold.77
+- ____axsHandlePrefChanged_block_invoke.cold.78
+- ____axsHandlePrefChanged_block_invoke.cold.79
+- ____axsHandlePrefChanged_block_invoke.cold.8
+- ____axsHandlePrefChanged_block_invoke.cold.80
+- ____axsHandlePrefChanged_block_invoke.cold.81
+- ____axsHandlePrefChanged_block_invoke.cold.82
+- ____axsHandlePrefChanged_block_invoke.cold.83
+- ____axsHandlePrefChanged_block_invoke.cold.84
+- ____axsHandlePrefChanged_block_invoke.cold.85
+- ____axsHandlePrefChanged_block_invoke.cold.86
+- ____axsHandlePrefChanged_block_invoke.cold.87
+- ____axsHandlePrefChanged_block_invoke.cold.88
+- ____axsHandlePrefChanged_block_invoke.cold.89
+- ____axsHandlePrefChanged_block_invoke.cold.9
+- ____axsHandlePrefChanged_block_invoke.cold.90
+- ____axsHandlePrefChanged_block_invoke.cold.91
+- ____axsHandlePrefChanged_block_invoke.cold.92
+- ____axsHandlePrefChanged_block_invoke.cold.93
+- ____axsHandlePrefChanged_block_invoke.cold.94
+- ____axsHandlePrefChanged_block_invoke.cold.95
+- ____axsHandlePrefChanged_block_invoke.cold.96
+- ____axsHandlePrefChanged_block_invoke.cold.97
+- ____axsHandlePrefChanged_block_invoke.cold.98
+- ____axsHandlePrefChanged_block_invoke.cold.99
+- ____willGetPrefValue_block_invoke_2
+- ___block_literal_global.1731
+- ___block_literal_global.1733
+- ___block_literal_global.1735
+- ___block_literal_global.1741
+- ___block_literal_global.1746
+- ___block_literal_global.1748
+- ___block_literal_global.1751
+- ___block_literal_global.1779
+- ___block_literal_global.1781
+- ___block_literal_global.1808
+- ___block_literal_global.1810
+- ___block_literal_global.1812
+- ___block_literal_global.1814
+- ___block_literal_global.1817
+- ___block_literal_global.1819
+- ___block_literal_global.1821
+- ___block_literal_global.1823
+- ___block_literal_global.1825
+- ___block_literal_global.1827
+- ___block_literal_global.1835
+- ___block_literal_global.1837
+- ___block_literal_global.1839
+- ___block_literal_global.1841
+- ___block_literal_global.1843
+- ___block_literal_global.1845
+- ___block_literal_global.1847
+- ___block_literal_global.1849
+- ___block_literal_global.1857
+- ___block_literal_global.1882
+- ___block_literal_global.1891
+- ___block_literal_global.1899
+- ___block_literal_global.1901
+- ___block_literal_global.1903
+- ___block_literal_global.1912
+- ___block_literal_global.1920
+- ___block_literal_global.1922
+- ___block_literal_global.1924
+- ___block_literal_global.1926
+- ___block_literal_global.1928
+- ___block_literal_global.1934
+- ___block_literal_global.1936
+- ___block_literal_global.1948
+- ___block_literal_global.1950
+- ___block_literal_global.1952
+- ___block_literal_global.1954
+- ___block_literal_global.1957
+- ___block_literal_global.1962
+- ___block_literal_global.1969
+- ___block_literal_global.1977
+- ___block_literal_global.1979
+- ___block_literal_global.1981
+- ___block_literal_global.1994
+- ___block_literal_global.1996
+- ___block_literal_global.2002
+- ___block_literal_global.2004
+- ___block_literal_global.2006
+- ___block_literal_global.2020
+- ___block_literal_global.2022
+- ___block_literal_global.2025
+- ___block_literal_global.2030
+- ___block_literal_global.2035
+- ___block_literal_global.2040
+- ___block_literal_global.2050
+- ___block_literal_global.2055
+- ___block_literal_global.2065
+- ___block_literal_global.2075
+- ___block_literal_global.2085
+- ___block_literal_global.2090
+- ___block_literal_global.2096
+- ___block_literal_global.2101
+- ___block_literal_global.2106
+- ___block_literal_global.2111
+- ___block_literal_global.2116
+- ___block_literal_global.2121
+- ___block_literal_global.2141
+- ___block_literal_global.2143
+- ___block_literal_global.2145
+- ___block_literal_global.2147
+- ___block_literal_global.2151
+- ___block_literal_global.2156
+- ___block_literal_global.2193
+- ___block_literal_global.2195
+- ___block_literal_global.2197
+- ___block_literal_global.2202
+- ___block_literal_global.2205
+- ___block_literal_global.2340
+- ___block_literal_global.2342
+- ___block_literal_global.2344
+- ___block_literal_global.2346
+- ___block_literal_global.2351
+- ___block_literal_global.2353
+- ___block_literal_global.2355
+- ___block_literal_global.2357
+- ___block_literal_global.2359
+- ___block_literal_global.2361
+- ___block_literal_global.2363
+- ___block_literal_global.2365
+- ___block_literal_global.2367
+- ___block_literal_global.2369
+- ___block_literal_global.2371
+- ___block_literal_global.2373
+- ___block_literal_global.2375
+- ___block_literal_global.2377
+- ___block_literal_global.2379
+- ___block_literal_global.2381
+- ___block_literal_global.2383
+- ___block_literal_global.2385
+- ___block_literal_global.2387
+- ___block_literal_global.2389
+- ___block_literal_global.2394
+- ___block_literal_global.2396
+- ___block_literal_global.2398
+- ___block_literal_global.2400
+- ___block_literal_global.2402
+- ___block_literal_global.2404
+- ___block_literal_global.2417
+- ___block_literal_global.2419
+- ___block_literal_global.2421
+- ___block_literal_global.2423
+- ___block_literal_global.2425
+- ___block_literal_global.2461
+- ___block_literal_global.2463
+- ___block_literal_global.2465
+- ___block_literal_global.2467
+- ___block_literal_global.2469
+- ___block_literal_global.2471
+- ___block_literal_global.2473
+- ___block_literal_global.2475
+- ___block_literal_global.2477
+- ___block_literal_global.2506
+- ___block_literal_global.2508
+- ___block_literal_global.2510
+- ___block_literal_global.2512
+- ___block_literal_global.2514
+- ___block_literal_global.2532
+- ___block_literal_global.2540
+- ___block_literal_global.2580
+- ___block_literal_global.2602
+- ___block_literal_global.2623
+- ___block_literal_global.2829
+- ___block_literal_global.2841
+- ___block_literal_global.2843
+- ___block_literal_global.2846
+- ___block_literal_global.2848
+- ___block_literal_global.2850
+- ___block_literal_global.2852
+- ___block_literal_global.2860
+- ___block_literal_global.2873
+- ___block_literal_global.2931
+- ___block_literal_global.2933
+- ___block_literal_global.2983
+- __axsPrefsToNotificationMap
+- __willGetPrefValue.onceToken
+CStrings:
++ "AXGuestPass"
++ "AXGuestPassNeedsSync"
++ "AXGuestPassSessionActive"
++ "AXReader"
++ "AXSMotionCuesIntensity"
++ "AXSMotionCuesStyle"
++ "AXSMotionCuesTintColor"
++ "AXVoiceOverMapsAI"
++ "AccessibilityReader"
++ "AccessibilityReaderEnabled"
++ "B8@?0"
++ "BrailleUI"
++ "BrailleUIMainMenuItems"
++ "DidSetDwellKeyboardContinuousPathEnabled"
++ "DwellKeyboardContinuousPathEnabled"
++ "DwellKeyboardKeyTimer"
++ "DwellKeyboardSwipe"
++ "DwellKeyboardSwipeContinuous"
++ "DwellKeyboardSwipe_iPad"
++ "Live Captions supported: %@ [%@,%@,%@,%@,%@]"
++ "Live Captions supports language expansion %d"
++ "LiveCaptionsLanguageExpansion"
++ "Magnifier_Service"
++ "No device address for setting %@"
++ "SWCHSettings"
++ "Set invert colors enabled: %@"
++ "Set invert colors enabled: %@ app: %@"
++ "Set motion cues intensity: %@"
++ "Set motion cues style: %@"
++ "Set motion cues tintColor: %@"
++ "Setting AirPods %@:%@ %@"
++ "Smart invert app status cached: %@"
++ "Smart invert status global: %@"
++ "Smart invert status per app: %@"
++ "SwitchControlKeyboardContinuousPathEnabled"
++ "Update invert status global: %@"
++ "UserEventAgent"
++ "Using invalid setter for rate. This is a no-op."
++ "VoiceOver_ReadPrefixes"
++ "WatchControl_AXFocusSystem"
++ "boolForKey:"
++ "com.apple.accessibility.accessibility.keyboard.continuous.path.status"
++ "com.apple.accessibility.bsi.8.dot.mode"
++ "com.apple.accessibility.cache.dwell.keyboardcontinuouspath"
++ "com.apple.accessibility.cache.switch.control.keyboardcontinuouspath"
++ "com.apple.accessibility.dwell.keyboard.continuous.path.status"
++ "com.apple.accessibility.internal.motion.cues.intensity.changed"
++ "com.apple.accessibility.internal.motion.cues.style.changed"
++ "com.apple.accessibility.internal.motion.cues.tintColor.changed"
++ "com.apple.accessibility.motion.cues.customization.changed"
++ "com.apple.accessibility.switch.control.keyboard.continuous.path.status"
++ "com.apple.voiceovertouch.brailleui.mainmenuitems"
+- "Live captions supported: %@ [%@,%@,%@]"
+- "No device address for setting%@"
+- "Setting airpods %@:%@ %@"
+
+```

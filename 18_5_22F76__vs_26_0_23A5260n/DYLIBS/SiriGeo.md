@@ -1,0 +1,198 @@
+## SiriGeo
+
+> `/System/Library/PrivateFrameworks/SiriGeo.framework/SiriGeo`
+
+```diff
+
+-3405.7.1.0.0
+-  __TEXT.__text: 0x1b90c
+-  __TEXT.__auth_stubs: 0x1170
++3500.5.1.0.0
++  __TEXT.__text: 0x1adf0
++  __TEXT.__auth_stubs: 0x1160
+   __TEXT.__objc_methlist: 0x3fc
+-  __TEXT.__const: 0xd50
++  __TEXT.__const: 0xda0
+   __TEXT.__cstring: 0xe71
+-  __TEXT.__swift5_typeref: 0x804
++  __TEXT.__swift5_typeref: 0x80e
+   __TEXT.__constg_swiftt: 0x528
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_reflstr: 0x251
+
+   __TEXT.__oslogstring: 0x83c
+   __TEXT.__swift_as_entry: 0x14
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x628
+-  __TEXT.__eh_frame: 0x420
++  __TEXT.__unwind_info: 0x650
++  __TEXT.__eh_frame: 0x408
+   __TEXT.__objc_classname: 0x115
+   __TEXT.__objc_methname: 0xcdf
+   __TEXT.__objc_methtype: 0x3f9
+   __TEXT.__objc_stubs: 0x40
+-  __DATA_CONST.__got: 0x468
+-  __DATA_CONST.__const: 0x158
++  __DATA_CONST.__got: 0x458
++  __DATA_CONST.__const: 0x130
+   __DATA_CONST.__objc_classlist: 0x40
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0xb0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x4b8
+   __DATA_CONST.__objc_protorefs: 0x58
+-  __AUTH_CONST.__auth_got: 0x8c0
+-  __AUTH_CONST.__const: 0xfe8
++  __AUTH_CONST.__auth_got: 0x8b8
++  __AUTH_CONST.__const: 0x1010
+   __AUTH_CONST.__objc_const: 0x1df8
+   __AUTH.__objc_data: 0x5d0
+-  __AUTH.__data: 0x2b0
+-  __DATA.__data: 0x870
++  __AUTH.__data: 0x2b8
++  __DATA.__data: 0x7f0
+   __DATA.__bss: 0x1200
+   __DATA.__common: 0x20
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
+   - /System/Library/Frameworks/MapKit.framework/MapKit
++  - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+
+   - /System/Library/PrivateFrameworks/SiriInference.framework/SiriInference
+   - /System/Library/PrivateFrameworks/SiriNLUTypes.framework/SiriNLUTypes
+   - /System/Library/PrivateFrameworks/SiriOntology.framework/SiriOntology
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 9F384866-42FD-33C7-9BCD-23A3F72C65C6
+-  Functions: 600
+-  Symbols:   2294
++  UUID: FC8219DC-79A3-30CE-84E7-F2E90B75EBB9
++  Functions: 601
++  Symbols:   2291
+   CStrings:  354
+ 
+Symbols:
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_TA
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_yAPYbcfU_
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_yAPYbcfU_TA
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySo0sT14CapabilityTypeV_s5Error_pSgtYbcfU0_
++ _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySo0sT14CapabilityTypeV_s5Error_pSgtYbcfU0_TA
++ _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_
++ _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtYbcfU_TA
++ _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgYbcfU0_TA
++ _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgYbcfU_TA
++ _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgYbcfU_Tm
++ _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ySaySo11CLPlacemarkCGSg_APtYbcfU_
++ _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ySaySo11CLPlacemarkCGSg_APtYbcfU_TA
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo19INPersonHandleLabela_SSTt0g5Tf4g_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFSay7SiriGeo28EnhancedMSPSharedTripContactVG_Tg503$s7d5Geo14i74ServiceC030rankAndSortHandlesByPopularityF4Type15forHandleValues_ySaySSG_yw5AA021fgH42C0VGctFyAISg_s5Error_pSgtcfU_SbAH_AHtXEfU_Tf1cn_n
++ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy7SiriGeo28EnhancedMSPSharedTripContactVG_Tg503$s7f5Geo14k65ServiceC30rankAndSortHandlesByPopularity15forHandleValuesSayAA021hiJ23C0VGAH_tFSbAG_AGtXEfU1_Tf1cn_n
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFs5UInt8V_SayAFGTgq5
++ _$sSa6remove2atxSi_tFSnySiG_Tgq5
++ _$sSaySo11CLPlacemarkCGSgs5Error_pSgIeghgg_So7NSArrayCSgSo7NSErrorCSgIeyBhyy_TR
++ _$sSbSSSgs5Error_pSgIeghygg_SbSo8NSStringCSgSo7NSErrorCSgIeyBhyyy_TR
++ _$sSo10CLLocationCSgSo7NSErrorCSgIeyBhyy_ABTz_
++ _$sSo19INPersonHandleLabela_SStMD
++ _$sSo27MSPSharedTripCapabilityTypeVs5Error_pSgIeghyg_ABSo7NSErrorCSgIeyBhyy_TR
++ _$sSo28AFLocationAuthorizationStyleVSo010CLAccuracyB0VSo7NSErrorCSgIeyBhyyy_AB_ADtTz_
++ _$sSo7NSArrayCSgSo7NSErrorCSgIeyBhyy_SaySo11CLPlacemarkCGTz_
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_7SiriGeo28EnhancedMSPSharedTripContactV_Tg503$s7e5Geo14j17ServiceC30rankAndb44HandlesByPopularity15forHandleValuesSayAA021ghI23C0VGAH_tFSbAG_AGtXEfU1_Tf1nnncn_n
++ _$sSr15_stableSortImpl2byySbx_xtKXE_tKFySryxGz_SiztKXEfU_7SiriGeo28EnhancedMSPSharedTripContactV_Tg503$s7e5Geo14j18ServiceC030rankAndb52HandlesByPopularityF4Type15forHandleValues_ySaySSG_yw5AA021ghI42C0VGctFyAISg_s5Error_pSgtcfU_SbAH_AHtXEfU_Tf1nnncn_n
++ _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
++ _$ss11_StringGutsV23_allocateForDeconstructyXl5owner_SVSi6lengthtyFTv_r
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSnySiG_Tg5
++ _$ss5Error_pSgIeghg_So7NSErrorCSgIeyBhy_TR
++ _$sxq_Ri_zRi0_zRi__Ri0__r0_lySay7SiriGeo28EnhancedMSPSharedTripContactVGytIsegnr_SgWOy
++ _$sxq_Ri_zRi0_zRi__Ri0__r0_lySo27INPlacemarkResolutionResultCytIsegnr_SgWOy
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriGeo
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriGeo
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriGeo
++ _swift_setDeallocating
++ _symbolic So27INPlacemarkResolutionResultCIeyBhy_
++ _symbolic ______SSt So19INPersonHandleLabela
+- _$s7SiriGeo11MapsServiceC25CapabilityFetcherObserverCyAESo013MSPSharedTripe5LevelF0CcfcTf4gn_n
+- _$s7SiriGeo14ContactServiceC30rankAndSortHandlesByPopularity15forHandleValuesSayAA021EnhancedMSPSharedTripC0VGAH_tFA2GXEfU0_
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_TA
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_yAPcfU_
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_yAPcfU_TA
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySo0sT14CapabilityTypeV_s5Error_pSgtcfU0_
+- _$s7SiriGeo23INShareETAIntentHandlerC14handleShareETA33_73890AA4F3C712AED7434AA5E49C1938LL6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySo0sT14CapabilityTypeV_s5Error_pSgtcfU0_TA
+- _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_
+- _$s7SiriGeo23INShareETAIntentHandlerC7confirm6intent10completionySo0cD0C_ySo0cD8ResponseCctFySo20MSPSharedTripServiceCcfU_ySb_SSSgs5Error_pSgtcfU_TA
+- _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgcfU0_TA
+- _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgcfU_TA
+- _$s7SiriGeo27INStopShareETAIntentHandlerC010handleStopD3ETA33_3A0DEC3189633C5DAEB81D22DCD1F847LL6intent10completionySo0cdE0C_ySo0cdE8ResponseCctFySo20MSPSharedTripServiceCcfU_ys5Error_pSgcfU_Tm
+- _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ySaySo11CLPlacemarkCGSg_APtcfU_
+- _$s7SiriGeo38INRetrieveParkingLocationIntentHandlerC6handle6intent10completionySo0cdeF0C_ySo0cdeF8ResponseCctFySaySo14RTVehicleEventCGSg_s5Error_pSgtcfU_ySaySo11CLPlacemarkCGSg_APtcfU_TA
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo19INPersonHandleLabela_SSTt0g5
+- _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKFs15ContiguousArrayVy7SiriGeo28EnhancedMSPSharedTripContactVG_Tg503$s7f5Geo14k65ServiceC30rankAndSortHandlesByPopularity15forHandleValuesSayAA021hiJ23C0VGAH_tFSbAG_AGtXEfU1_Tf1cn_nTm
+- _$sSaySo11CLPlacemarkCGSgs5Error_pSgIeggg_So7NSArrayCSgSo7NSErrorCSgIeyByy_TR
+- _$sSbSSSgs5Error_pSgIegygg_SbSo8NSStringCSgSo7NSErrorCSgIeyByyy_TR
+- _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFSay7SiriGeo28EnhancedMSPSharedTripContactVG_AHs5NeverOTg503$s7d5Geo14i65ServiceC30rankAndSortHandlesByPopularity15forHandleValuesSayAA021fgH18C0VGAH_tFA2GXEfU0_AF0iM0CSDySSSo8NSNumberCGSgTf1cn_nTf4ngg_n
+- _$sSo10CLLocationCSgSo7NSErrorCSgIeyByy_ABTz_
+- _$sSo19INPersonHandleLabelas21_ObjectiveCBridgeableSCsACP09_bridgeToD1C01_D5CTypeQzyFTWTm
+- _$sSo27MSPSharedTripCapabilityTypeVs5Error_pSgIegyg_ABSo7NSErrorCSgIeyByy_TR
+- _$sSo28AFLocationAuthorizationStyleVSo010CLAccuracyB0VSo7NSErrorCSgIeyByyy_AB_ADtTz_
+- _$sSo7NSArrayCSgSo7NSErrorCSgIeyByy_SaySo11CLPlacemarkCGTz_
+- _$sSr15_stableSortImpl2byySbx_xtKXE_tKF7SiriGeo28EnhancedMSPSharedTripContactV_Tg503$s7e5Geo14j18ServiceC030rankAndb52HandlesByPopularityF4Type15forHandleValues_ySaySSG_yw5AA021ghI42C0VGctFyAISg_s5Error_pSgtcfU_SbAH_AHtXEfU_Tf1cn_n
+- _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+- _$ss5Error_pSgIegg_So7NSErrorCSgIeyBy_TR
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_SiriGeo
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_SiriGeo
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_SiriGeo
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_SiriGeo
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_SiriGeo
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_SiriGeo
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_SiriGeo
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_SiriGeo
+- _swift_bridgeObjectRelease_n
+- _swift_release_n
+- _swift_retain_n
+- _symbolic So27INPlacemarkResolutionResultCIeyBy_
+
+```

@@ -1,0 +1,2596 @@
+## CoreServices
+
+> `/System/Library/Frameworks/CoreServices.framework/CoreServices`
+
+```diff
+
+-1378.19.1.0.0
+-  __TEXT.__text: 0x199700
+-  __TEXT.__auth_stubs: 0x3210
+-  __TEXT.__objc_methlist: 0xc3ec
+-  __TEXT.__const: 0x920
+-  __TEXT.__cstring: 0x208e9
+-  __TEXT.__oslogstring: 0x12f56
+-  __TEXT.__gcc_except_tab: 0x24424
++1420.0.0.0.0
++  __TEXT.__text: 0x1a5b0c
++  __TEXT.__auth_stubs: 0x2fe0
++  __TEXT.__delay_stubs: 0x2c
++  __TEXT.__delay_helper: 0xa4
++  __TEXT.__objc_methlist: 0xcafc
++  __TEXT.__const: 0x910
++  __TEXT.__cstring: 0x23f19
++  __TEXT.__oslogstring: 0x130be
++  __TEXT.__gcc_except_tab: 0x266d4
+   __TEXT.__ustring: 0x23c
+-  __TEXT.__unwind_info: 0xa570
++  __TEXT.__unwind_info: 0xac18
+   __TEXT.__eh_frame: 0x60
+-  __TEXT.__objc_classname: 0x1d52
+-  __TEXT.__objc_methname: 0x1be4b
+-  __TEXT.__objc_methtype: 0xadff
+-  __TEXT.__objc_stubs: 0xf600
+-  __DATA_CONST.__got: 0x9f8
+-  __DATA_CONST.__const: 0x6a70
+-  __DATA_CONST.__objc_classlist: 0x670
+-  __DATA_CONST.__objc_catlist: 0x48
++  __TEXT.__objc_classname: 0x1e62
++  __TEXT.__objc_methname: 0x1cac8
++  __TEXT.__objc_methtype: 0x9ec2
++  __TEXT.__objc_stubs: 0x100e0
++  __DATA_CONST.__got: 0xa78
++  __DATA_CONST.__const: 0x6b80
++  __DATA_CONST.__objc_classlist: 0x6a0
++  __DATA_CONST.__objc_catlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x140
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5a50
++  __DATA_CONST.__objc_selrefs: 0x5dc8
+   __DATA_CONST.__objc_protorefs: 0x98
+-  __DATA_CONST.__objc_superrefs: 0x518
+-  __DATA_CONST.__objc_arraydata: 0x198
+-  __AUTH_CONST.__auth_got: 0x1920
+-  __AUTH_CONST.__const: 0x3468
+-  __AUTH_CONST.__cfstring: 0x15f80
+-  __AUTH_CONST.__objc_const: 0x12520
+-  __AUTH_CONST.__objc_intobj: 0x7e0
++  __DATA_CONST.__objc_superrefs: 0x548
++  __DATA_CONST.__objc_arraydata: 0x1c0
++  __AUTH_CONST.__auth_got: 0x1810
++  __AUTH_CONST.__const: 0x3680
++  __AUTH_CONST.__cfstring: 0x16720
++  __AUTH_CONST.__objc_const: 0x12ce8
++  __AUTH_CONST.__objc_intobj: 0x810
+   __AUTH_CONST.__objc_dictobj: 0xf0
+-  __AUTH_CONST.__objc_arrayobj: 0xf0
+-  __AUTH.__objc_data: 0x2940
+-  __AUTH.__data: 0x328
+-  __DATA.__objc_ivar: 0xa24
+-  __DATA.__data: 0x1350
+-  __DATA.__bss: 0xeb8
++  __AUTH_CONST.__objc_arrayobj: 0x120
++  __AUTH.__objc_data: 0x2b20
++  __AUTH.__data: 0x330
++  __DATA.__objc_ivar: 0xa58
++  __DATA.__data: 0x12b4
++  __DATA.__bss: 0xeb0
+   __DATA.__common: 0x40
+   __DATA_DIRTY.__objc_data: 0x1720
+-  __DATA_DIRTY.__data: 0x58
+-  __DATA_DIRTY.__crash_info: 0x40
+-  __DATA_DIRTY.__bss: 0x858
++  __DATA_DIRTY.__data: 0x50
++  __DATA_DIRTY.__crash_info: 0x148
++  __DATA_DIRTY.__bss: 0x8c8
+   __DATA_DIRTY.__common: 0x8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/FileProvider.framework/FileProvider
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
++  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/CoreServicesStore.framework/CoreServicesStore
+   - /System/Library/PrivateFrameworks/InstalledContentLibrary.framework/InstalledContentLibrary
+   - /usr/lib/libMobileGestalt.dylib
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+-  UUID: 050203DD-7488-307D-A999-E587314B041A
+-  Functions: 8264
+-  Symbols:   26936
+-  CStrings:  13085
++  UUID: FAFAFEEC-83C1-37F0-9AAA-C2CEC61E25A3
++  Functions: 8562
++  Symbols:   27805
++  CStrings:  13481
+ 
+Symbols:
++ +[FSNode relativePathToFullPath:fromBasePath:]
++ +[LSClaimBinding(ClaimBindingConfiguration) claimBindingsWithConfiguration:error:]
++ +[LSClaimBindingBindable bindableWithDocumentProxy:]
++ +[LSClaimBindingBindable bindableWithTypeIdentifier:]
++ +[LSClaimBindingBindable bindableWithURL:]
++ +[LSClaimBindingBindable supportsSecureCoding]
++ +[LSClaimBindingConfiguration supportsSecureCoding]
++ +[LSClaimBindingConfiguration(CannedConfigurations) oneTapOpenClaimBindingConfigurationForBindable:]
++ +[LSClaimBindingConfiguration(CannedConfigurations) oneTapOpenClaimBindingConfigurationForBindable:].cold.1
++ +[LSDocumentProxy(Binding) _bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:]
++ +[_LSClaimBindingDocumentProxyBindable supportsSecureCoding]
++ +[_LSClaimBindingTypeIdentifierBindable supportsSecureCoding]
++ +[_LSClaimBindingURLBindable supportsSecureCoding]
++ +[_LSCompatibilityNothingBindable supportsSecureCoding]
++ +[_LSDocumentProxyBindingQuery bindingConfigurationForDocument:style:handlerRank:]
++ +[_LSLazyPropertyList lazyPropertyListWithLazyPropertyLists:]
++ +[_LSStackBacktrace supportsSecureCoding]
++ +[_LSStringLocalizer(Private) findKeysToLocalizeInInfoDictionary:forArrayKey:stringKeys:localizedKeys:]
++ -[CSStoreAttributedStringWriter(LaunchServices) write:directoryClass:]
++ -[CSStoreAttributedStringWriter(LaunchServices) write:iNode:]
++ -[CSStoreAttributedStringWriter(LaunchServices) write:platform:]
++ -[CSStoreAttributedStringWriter(LaunchServices) write:version:]
++ -[LSApplicationExtensionRecord isUpdating]
++ -[LSApplicationRecord supportsDataExport]
++ -[LSApplicationRecord(Gaming) _LSRecord_resolve_supportedGameControllers]
++ -[LSApplicationRecord(Gaming) isGameCenterEnabled]
++ -[LSApplicationRecord(Gaming) supportedGameControllersWithContext:tableID:unitID:unitBytes:]
++ -[LSApplicationRecord(Gaming) supportedGameControllers]
++ -[LSApplicationRecord(Gaming) supportsControllerUserInteraction]
++ -[LSApplicationRecord(JournalApp) journalNotificationURLFormatString]
++ -[LSApplicationRestrictionsManager locked_setRatingRankExceptionBundleIDs:]
++ -[LSApplicationRestrictionsManager ratingRankExceptionBundleIDs]
++ -[LSApplicationWorkspace _LSPrivateAskLSDToExitSafely:completionHandler:]
++ -[LSApplicationWorkspace _LSPrivateRebuildDatabaseAtNextRestart:]
++ -[LSApplicationWorkspace operationToOpenResource:usingApplication:uniqueDocumentIdentifier:isContentManaged:sourceAuditToken:userInfo:configuration:delegate:]
++ -[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:exceptions:]
++ -[LSApplicationWorkspace scanForAppsInRatingRankExceptionsList:]
++ -[LSApplicationWorkspace(DefaultApps) preferenceSetDateForDefaultAppCategory:error:]
++ -[LSApplicationWorkspace(DefaultApps) setDefaultHandlerForTypeRecord:toApplicationRecord:completionHandler:]
++ -[LSApplicationWorkspace(DefaultApps) setDefaultHandlerForTypeRecord:toApplicationRecord:completionHandler:].cold.1
++ -[LSApplicationWorkspace(OpenAdditions) isApplicationEligibleForReadOnlyDocumentOpenBehavior:]
++ -[LSApplicationWorkspace(OpenAdditions) isCurrentProcessEligibleForReadOnlyDocumentOpenBehavior]
++ -[LSAskManagerMCStateProvider maximumRating]
++ -[LSAskManagerMCStateProvider ratingRankExceptionBundleIDs]
++ -[LSBundleRecord _LSRecord_resolve_execSDKVersion]
++ -[LSBundleRecord execSDKVersionWithContext:tableID:unitID:unitBytes:]
++ -[LSBundleRecord execSDKVersion]
++ -[LSClaimBinding _initWithClaimRecord:typeRecord:bundleRecord:provenance:]
++ -[LSClaimBinding provenance]
++ -[LSClaimBinding(ClaimBindingConfiguration) initWithConfiguration:error:]
++ -[LSClaimBindingBindable URL]
++ -[LSClaimBindingBindable _initProtected]
++ -[LSClaimBindingBindable baseBindingEvaluatorWithBindingStyle:auditToken:]
++ -[LSClaimBindingBindable documentProxy]
++ -[LSClaimBindingBindable encodeWithCoder:]
++ -[LSClaimBindingBindable initWithCoder:]
++ -[LSClaimBindingBindable typeIdentifier]
++ -[LSClaimBindingBindable typeRecordWithError:]
++ -[LSClaimBindingConfiguration URL]
++ -[LSClaimBindingConfiguration allowNoneHandlerRank]
++ -[LSClaimBindingConfiguration allowWildcardClaims]
++ -[LSClaimBindingConfiguration documentProxy]
++ -[LSClaimBindingConfiguration encodeWithCoder:]
++ -[LSClaimBindingConfiguration hash]
++ -[LSClaimBindingConfiguration ignoreStrongBindingPreferences]
++ -[LSClaimBindingConfiguration ignoreWeakBindingPreferences]
++ -[LSClaimBindingConfiguration initWithBindable:]
++ -[LSClaimBindingConfiguration initWithCoder:]
++ -[LSClaimBindingConfiguration initWithDocumentProxy:]
++ -[LSClaimBindingConfiguration initWithURL:]
++ -[LSClaimBindingConfiguration isEqual:]
++ -[LSClaimBindingConfiguration maximumHandlerRank]
++ -[LSClaimBindingConfiguration minimumHandlerRank]
++ -[LSClaimBindingConfiguration requireOpenInPlace]
++ -[LSClaimBindingConfiguration setAllowNoneHandlerRank:]
++ -[LSClaimBindingConfiguration setAllowWildcardClaims:]
++ -[LSClaimBindingConfiguration setIgnoreStrongBindingPreferences:]
++ -[LSClaimBindingConfiguration setIgnoreWeakBindingPreferences:]
++ -[LSClaimBindingConfiguration setMaximumHandlerRank:]
++ -[LSClaimBindingConfiguration setMinimumHandlerRank:]
++ -[LSClaimBindingConfiguration setRequireOpenInPlace:]
++ -[LSClaimBindingConfiguration(BindingEvaluator) _baseBindingEvaluatorForBindableWithAuditToken:]
++ -[LSClaimBindingConfiguration(BindingEvaluator) bindingEvaluatorForAuditToken:]
++ -[LSClaimBindingConfiguration(BindingEvaluator) initWithDocumentProxy:bindingStyle:]
++ -[LSClaimBindingConfiguration(BindingEvaluator) initWithDocumentProxy:bindingStyle:].cold.1
++ -[LSClaimBindingConfiguration(ForIconServicesOnly) addClaimRecordIfMissing]
++ -[LSClaimBindingConfiguration(ForIconServicesOnly) bundleClassMask]
++ -[LSClaimBindingConfiguration(ForIconServicesOnly) setAddClaimRecordIfMissing:]
++ -[LSClaimBindingConfiguration(ForIconServicesOnly) setBundleClassMask:]
++ -[LSClaimRecord isWildcard]
++ -[LSDocumentProxy(Binding) bindingEvaluatorForIconInfo]
++ -[LSEnumerator .cxx_construct]
++ -[LSRegistrationInfo action]
++ -[LSRegistrationInfo setAction:]
++ -[LSRegistrationInfo setVersion:]
++ -[LSRegistrationInfo version]
++ -[LSUseValuesMCStateProvider initWithAllowlistEnabled:allowlistedBundles:restrictedBundles:ratingRankExceptions:maximumRating:]
++ -[LSUseValuesMCStateProvider maximumRating]
++ -[LSUseValuesMCStateProvider ratingRankExceptionBundleIDs]
++ -[UTTypeRecord __isDirectlyOneTapOpenable]
++ -[UTTypeRecord _isOneTapOpenable]
++ -[UTTypeRecord _isVocabularyType]
++ -[UTTypeRecord(ARKit) _referenceAccessoryURLNoConformances]
++ -[UTTypeRecord(ARKit) referenceAccessoryURL]
++ -[_LSApplicationState _isRestrictedByRatingRankWithStateProvider:]
++ -[_LSClaimBindingDocumentProxyBindable .cxx_destruct]
++ -[_LSClaimBindingDocumentProxyBindable baseBindingEvaluatorWithBindingStyle:auditToken:]
++ -[_LSClaimBindingDocumentProxyBindable documentProxy]
++ -[_LSClaimBindingDocumentProxyBindable encodeWithCoder:]
++ -[_LSClaimBindingDocumentProxyBindable hash]
++ -[_LSClaimBindingDocumentProxyBindable initWithCoder:]
++ -[_LSClaimBindingDocumentProxyBindable initWithProxy:]
++ -[_LSClaimBindingDocumentProxyBindable isEqual:]
++ -[_LSClaimBindingDocumentProxyBindable typeRecordWithError:]
++ -[_LSClaimBindingTypeIdentifierBindable .cxx_destruct]
++ -[_LSClaimBindingTypeIdentifierBindable baseBindingEvaluatorWithBindingStyle:auditToken:]
++ -[_LSClaimBindingTypeIdentifierBindable encodeWithCoder:]
++ -[_LSClaimBindingTypeIdentifierBindable hash]
++ -[_LSClaimBindingTypeIdentifierBindable initWithCoder:]
++ -[_LSClaimBindingTypeIdentifierBindable initWithTypeIdentifier:]
++ -[_LSClaimBindingTypeIdentifierBindable isEqual:]
++ -[_LSClaimBindingTypeIdentifierBindable typeIdentifier]
++ -[_LSClaimBindingTypeIdentifierBindable typeRecordWithError:]
++ -[_LSClaimBindingURLBindable .cxx_destruct]
++ -[_LSClaimBindingURLBindable URL]
++ -[_LSClaimBindingURLBindable baseBindingEvaluatorWithBindingStyle:auditToken:]
++ -[_LSClaimBindingURLBindable encodeWithCoder:]
++ -[_LSClaimBindingURLBindable hash]
++ -[_LSClaimBindingURLBindable initWithCoder:]
++ -[_LSClaimBindingURLBindable initWithURL:]
++ -[_LSClaimBindingURLBindable isEqual:]
++ -[_LSClaimBindingURLBindable typeRecordWithError:]
++ -[_LSCompatibilityNothingBindable baseBindingEvaluatorWithBindingStyle:auditToken:]
++ -[_LSCompatibilityNothingBindable baseBindingEvaluatorWithBindingStyle:auditToken:].cold.1
++ -[_LSCompatibilityNothingBindable encodeWithCoder:]
++ -[_LSCompatibilityNothingBindable hash]
++ -[_LSCompatibilityNothingBindable initWithCoder:]
++ -[_LSCompatibilityNothingBindable init]
++ -[_LSCompatibilityNothingBindable isEqual:]
++ -[_LSCompatibilityNothingBindable typeRecordWithError:]
++ -[_LSDModifyClient removeDatabaseStoreOnNextOpportunity:]
++ -[_LSDModifyClient removeDatabaseStoreOnNextOpportunity:].cold.1
++ -[_LSDModifyClient removeDatabaseStoreOnNextOpportunity:].cold.2
++ -[_LSDModifyClient removeDatabaseStoreOnNextOpportunity:].cold.3
++ -[_LSDModifyClient requestLSDExitSafely:completionHandler:]
++ -[_LSDModifyClient requestLSDExitSafely:completionHandler:].cold.1
++ -[_LSDefaults dbRemoveDBOnStartupURL]
++ -[_LSDocumentProxyBindingQuery _handlerRank]
++ -[_LSDocumentProxyBindingQuery bindingConfiguration]
++ -[_LSDocumentProxyBindingQuery initWithBindingConfiguration:]
++ -[_LSOpenConfiguration setShouldSetHandlerOnDocumentOpen:]
++ -[_LSOpenConfiguration setUseOneTapOpenBehavior:]
++ -[_LSOpenConfiguration shouldSetHandlerOnDocumentOpen]
++ -[_LSOpenConfiguration useOneTapOpenBehavior]
++ -[_LSStackBacktrace .cxx_construct]
++ -[_LSStackBacktrace .cxx_destruct]
++ -[_LSStackBacktrace backtraceString]
++ -[_LSStackBacktrace copyWithZone:]
++ -[_LSStackBacktrace description]
++ -[_LSStackBacktrace encodeWithCoder:]
++ -[_LSStackBacktrace initWithBacktrace]
++ -[_LSStackBacktrace initWithCoder:]
++ -[_LSStackBacktrace initWithFrames:count:]
++ -[_UTDeclaredTypeRecord __isDirectlyOneTapOpenable]
++ -[_UTDeclaredTypeRecord _isOneTapOpenable]
++ -[_UTDeclaredTypeRecord _isVocabularyType]
++ -[_UTDeclaredTypeRecord(ARKit) _LSRecord_resolve__referenceAccessoryPath]
++ -[_UTDeclaredTypeRecord(ARKit) _referenceAccessoryPathWithContext:tableID:unitID:unitBytes:]
++ -[_UTDeclaredTypeRecord(ARKit) _referenceAccessoryPath]
++ -[_UTDeclaredTypeRecord(ARKit) _referenceAccessoryURLNoConformances]
++ -[_UTDynamicTypeRecord _isOneTapOpenable]
++ -[_UTDynamicTypeRecord _isVocabularyType]
++ GCC_except_table113
++ GCC_except_table145
++ GCC_except_table148
++ GCC_except_table162
++ GCC_except_table167
++ GCC_except_table168
++ GCC_except_table172
++ GCC_except_table174
++ GCC_except_table181
++ GCC_except_table183
++ GCC_except_table188
++ GCC_except_table191
++ GCC_except_table195
++ GCC_except_table210
++ GCC_except_table213
++ GCC_except_table219
++ GCC_except_table228
++ GCC_except_table229
++ GCC_except_table231
++ GCC_except_table232
++ GCC_except_table235
++ GCC_except_table244
++ GCC_except_table247
++ GCC_except_table250
++ GCC_except_table252
++ GCC_except_table259
++ GCC_except_table264
++ GCC_except_table268
++ GCC_except_table270
++ GCC_except_table272
++ GCC_except_table275
++ GCC_except_table282
++ GCC_except_table287
++ GCC_except_table290
++ GCC_except_table292
++ GCC_except_table301
++ GCC_except_table304
++ GCC_except_table310
++ GCC_except_table312
++ GCC_except_table314
++ GCC_except_table319
++ GCC_except_table320
++ GCC_except_table325
++ GCC_except_table326
++ GCC_except_table339
++ GCC_except_table342
++ GCC_except_table348
++ GCC_except_table358
++ GCC_except_table368
++ GCC_except_table369
++ GCC_except_table375
++ GCC_except_table376
++ GCC_except_table380
++ GCC_except_table384
++ GCC_except_table389
++ GCC_except_table390
++ GCC_except_table391
++ GCC_except_table398
++ GCC_except_table401
++ GCC_except_table405
++ GCC_except_table443
++ GCC_except_table449
++ GCC_except_table453
++ GCC_except_table457
++ GCC_except_table459
++ GCC_except_table463
++ GCC_except_table464
++ GCC_except_table477
++ GCC_except_table496
++ GCC_except_table497
++ GCC_except_table500
++ GCC_except_table503
++ GCC_except_table505
++ GCC_except_table506
++ _APP_SANDBOX_READ
++ _CFAllocatorAllocateTyped
++ _CFNullGetTypeID
++ _FPExtendBookmarkForDocumentURL
++ _FPExtendBookmarkForDocumentURL$delayInitStub
++ _LSBundleMeetsBasicDefaultAppRequirements.cold.1
++ _LSBundleMeetsBasicDefaultAppRequirements.cold.2
++ _LSBundleMeetsBasicDefaultAppRequirements.cold.3
++ _LSBundleMeetsBasicDefaultAppRequirements.cold.4
++ _LSDefaultAppCategoryPreferenceGetLastSetDate
++ _LSFPSandboxExtensionKey
++ _LSOneTapOpenBehaviorKey
++ _LSPersonaTypeForPersonaAttributes
++ _LSSetHandlerOnDocumentOpenKey
++ _OBJC_CLASS_$_BSProcessHandle
++ _OBJC_CLASS_$_CSStoreAttributedStringWriter
++ _OBJC_CLASS_$_LSClaimBindingBindable
++ _OBJC_CLASS_$__LSClaimBindingDocumentProxyBindable
++ _OBJC_CLASS_$__LSClaimBindingTypeIdentifierBindable
++ _OBJC_CLASS_$__LSClaimBindingURLBindable
++ _OBJC_CLASS_$__LSCompatibilityNothingBindable
++ _OBJC_CLASS_$__LSStackBacktrace
++ _OBJC_IVAR_$_LSApplicationRestrictionsManager._ratingRankExceptionBundleIDs
++ _OBJC_IVAR_$_LSClaimBinding._provenance
++ _OBJC_IVAR_$_LSClaimBindingConfiguration._bindable
++ _OBJC_IVAR_$_LSClaimBindingConfiguration._bindingStyle
++ _OBJC_IVAR_$_LSClaimBindingConfiguration._flags
++ _OBJC_IVAR_$_LSClaimBindingConfiguration._maximumNumericHandlerRank
++ _OBJC_IVAR_$_LSClaimBindingConfiguration._minimumNumericHandlerRank
++ _OBJC_IVAR_$_LSUseValuesMCStateProvider._maximumRating
++ _OBJC_IVAR_$_LSUseValuesMCStateProvider._ratingRankExceptionBundleIDs
++ _OBJC_IVAR_$__LSClaimBindingDocumentProxyBindable._documentProxy
++ _OBJC_IVAR_$__LSClaimBindingTypeIdentifierBindable._typeIdentifier
++ _OBJC_IVAR_$__LSClaimBindingURLBindable._url
++ _OBJC_IVAR_$__LSDatabase._schema
++ _OBJC_IVAR_$__LSDatabase._shouldBeDeletedOnOpen
++ _OBJC_IVAR_$__LSDatabase._store
++ _OBJC_IVAR_$__LSDocumentProxyBindingQuery._bindingConfiguration
++ _OBJC_IVAR_$__LSOpenConfiguration._shouldSetHandlerOnDocumentOpen
++ _OBJC_IVAR_$__LSOpenConfiguration._useOneTapOpenBehavior
++ _OBJC_IVAR_$__LSStackBacktrace._description
++ _OBJC_IVAR_$__LSStackBacktrace._frames
++ _OBJC_METACLASS_$_LSClaimBindingBindable
++ _OBJC_METACLASS_$__LSClaimBindingDocumentProxyBindable
++ _OBJC_METACLASS_$__LSClaimBindingTypeIdentifierBindable
++ _OBJC_METACLASS_$__LSClaimBindingURLBindable
++ _OBJC_METACLASS_$__LSCompatibilityNothingBindable
++ _OBJC_METACLASS_$__LSStackBacktrace
++ __LSApplicationRestrictionsManagerAllowlistedBundleIDs
++ __LSApplicationRestrictionsManagerIsAdTrackingEnabled
++ __LSApplicationRestrictionsManagerIsAllowlistEnabled
++ __LSApplicationRestrictionsManagerIsAppExtensionRestricted
++ __LSApplicationRestrictionsManagerIsApplicationRestricted
++ __LSApplicationRestrictionsManagerIsApplicationRestrictedCheckingFlags
++ __LSApplicationRestrictionsManagerIsOpenInRestrictionInEffect
++ __LSApplicationRestrictionsManagerIsRatingAllowed
++ __LSApplicationRestrictionsManagerMaximumRating
++ __LSApplicationRestrictionsManagerRestrictedBundleIDs
++ __LSBindingListGetEntryWithClass.cold.1
++ __LSDatabaseCreateFromPersistentStore.cold.4
++ __LSDatabaseCreateFromPersistentStore.cold.5
++ __LSIsKnownExtension
++ __LSLazyPropertyListGetPropertyList
++ __LSLazyPropertyListWithLazyPropertyLists
++ __LSLazyPropertyListWithPropertyList
++ __LSLazyPropertyListWithPropertyListData
++ __LSPersonaWithAttributesPersonaUniqueString
++ __LSShouldSetWeakBindingOnOpenByDefault
++ __OBJC_$_CATEGORY_CSStoreAttributedStringWriter_$_LaunchServices
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_CSStoreAttributedStringWriter_$_LaunchServices
++ __OBJC_$_CLASS_METHODS_LSApplicationRecord(Containers|iTunesMetadata|UniqueIdentifiers|InfoPlistRarities|Localization|AlternateIconsInternal|AlternateIcons|IconServices|Intents|UserActivity|Gaming|AppWrappers|MobileInstall|watchOS|InstallMachineryPrivate|Transitional|Identities|DefaultApps|BUIPrivate|ForRunningBoardOnly|JournalApp|Redaction|Diagnostic|Enumeration)
++ __OBJC_$_CLASS_METHODS_LSApplicationWorkspace(DeprecatedEnumeration|DefaultApps|Marketplaces|URLQueries|DeprecatedURLQueries|OpenAdditions|LSURLOverride)
++ __OBJC_$_CLASS_METHODS_LSClaimBinding(ClaimBindingConfiguration)
++ __OBJC_$_CLASS_METHODS_LSClaimBindingBindable
++ __OBJC_$_CLASS_METHODS_LSClaimBindingConfiguration(BindingEvaluator|ForIconServicesOnly|CannedConfigurations)
++ __OBJC_$_CLASS_METHODS_LSDocumentProxy(Binding)
++ __OBJC_$_CLASS_METHODS_UTTypeRecord(Enumeration|ARKit|IconServices)
++ __OBJC_$_CLASS_METHODS__LSClaimBindingDocumentProxyBindable
++ __OBJC_$_CLASS_METHODS__LSClaimBindingTypeIdentifierBindable
++ __OBJC_$_CLASS_METHODS__LSClaimBindingURLBindable
++ __OBJC_$_CLASS_METHODS__LSCompatibilityNothingBindable
++ __OBJC_$_CLASS_METHODS__LSStackBacktrace
++ __OBJC_$_CLASS_PROP_LIST_LSClaimBindingBindable
++ __OBJC_$_CLASS_PROP_LIST_LSClaimBindingConfiguration
++ __OBJC_$_CLASS_PROP_LIST__LSStackBacktrace
++ __OBJC_$_INSTANCE_METHODS_LSApplicationRecord(Containers|iTunesMetadata|UniqueIdentifiers|InfoPlistRarities|Localization|AlternateIconsInternal|AlternateIcons|IconServices|Intents|UserActivity|Gaming|AppWrappers|MobileInstall|watchOS|InstallMachineryPrivate|Transitional|Identities|DefaultApps|BUIPrivate|ForRunningBoardOnly|JournalApp|Redaction|Diagnostic|Enumeration)
++ __OBJC_$_INSTANCE_METHODS_LSApplicationWorkspace(DeprecatedEnumeration|DefaultApps|Marketplaces|URLQueries|DeprecatedURLQueries|OpenAdditions|LSURLOverride)
++ __OBJC_$_INSTANCE_METHODS_LSClaimBinding(ClaimBindingConfiguration)
++ __OBJC_$_INSTANCE_METHODS_LSClaimBindingBindable
++ __OBJC_$_INSTANCE_METHODS_LSClaimBindingConfiguration(BindingEvaluator|ForIconServicesOnly|CannedConfigurations)
++ __OBJC_$_INSTANCE_METHODS_UTTypeRecord(Enumeration|ARKit|IconServices)
++ __OBJC_$_INSTANCE_METHODS__LSClaimBindingDocumentProxyBindable
++ __OBJC_$_INSTANCE_METHODS__LSClaimBindingTypeIdentifierBindable
++ __OBJC_$_INSTANCE_METHODS__LSClaimBindingURLBindable
++ __OBJC_$_INSTANCE_METHODS__LSCompatibilityNothingBindable
++ __OBJC_$_INSTANCE_METHODS__LSStackBacktrace
++ __OBJC_$_INSTANCE_METHODS__UTDeclaredTypeRecord(ARKit)
++ __OBJC_$_INSTANCE_VARIABLES__LSClaimBindingDocumentProxyBindable
++ __OBJC_$_INSTANCE_VARIABLES__LSClaimBindingTypeIdentifierBindable
++ __OBJC_$_INSTANCE_VARIABLES__LSClaimBindingURLBindable
++ __OBJC_$_INSTANCE_VARIABLES__LSStackBacktrace
++ __OBJC_$_PROP_LIST_LSClaimBindingBindable
++ __OBJC_$_PROP_LIST_LSRegistrationInfo
++ __OBJC_$_PROP_LIST__LSStackBacktrace
++ __OBJC_CLASS_PROTOCOLS_$_LSClaimBindingBindable
++ __OBJC_CLASS_PROTOCOLS_$_LSClaimBindingConfiguration
++ __OBJC_CLASS_PROTOCOLS_$__LSStackBacktrace
++ __OBJC_CLASS_RO_$_LSClaimBindingBindable
++ __OBJC_CLASS_RO_$__LSClaimBindingDocumentProxyBindable
++ __OBJC_CLASS_RO_$__LSClaimBindingTypeIdentifierBindable
++ __OBJC_CLASS_RO_$__LSClaimBindingURLBindable
++ __OBJC_CLASS_RO_$__LSCompatibilityNothingBindable
++ __OBJC_CLASS_RO_$__LSStackBacktrace
++ __OBJC_METACLASS_RO_$_LSClaimBindingBindable
++ __OBJC_METACLASS_RO_$__LSClaimBindingDocumentProxyBindable
++ __OBJC_METACLASS_RO_$__LSClaimBindingTypeIdentifierBindable
++ __OBJC_METACLASS_RO_$__LSClaimBindingURLBindable
++ __OBJC_METACLASS_RO_$__LSCompatibilityNothingBindable
++ __OBJC_METACLASS_RO_$__LSStackBacktrace
++ __Z17CFTypeGetAsNumberPKv
++ __Z38_LSMakeNSErrorDomainUserInfoWithExtrasPKcS0_i
++ __Z38_LSMakeNSErrorDomainUserInfoWithExtrasPKcS0_i.cold.1
++ __ZGVZN14LaunchServices12HandlerPrefsL7displayEP9LSContextjjP29CSStoreAttributedStringWriterE6labels
++ __ZL21UTTypeDescriptionKeysv
++ __ZL26BundleIsDialerAppCandidateP11_LSDatabasejPK12LSBundleDataP12NSDictionaryb
++ __ZL29ReadOnlyDocumentOpenCheckList
++ __ZL33CarrierMessagingSubordinateClaims
++ __ZL34init_EXAppExtensionPointEnumeratorv
++ __ZL35class_EXAppExtensionPointEnumerator
++ __ZL36BundleIsCarrierMessagingAppCandidateP11_LSDatabasejPK12LSBundleDataP12NSDictionaryb
++ __ZL38_EXAppExtensionPointEnumeratorFunctionv
++ __ZL38get_EXAppExtensionPointEnumeratorClass
++ __ZL45BundleCanBeCandidateAndMakesSubordinateClaimsP11_LSDatabasejPK12LSBundleDataP12NSDictionaryP7NSArrayIP8NSStringES8_PK36LSDefaultAppCategorySubordinateClaimm
++ __ZL47_LSOpenOperationPerformContinueAfterAsyncGatherP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE
++ __ZL47_LSOpenOperationPerformContinueAfterAsyncGatherP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE.cold.1
++ __ZL53_LSPathifyReferenceAccessorysInTypeDeclarationsForKeyP16LSBundleProviderP14__CFDictionaryPK10__CFString
++ __ZN12LSPluginInfoD2Ev
++ __ZN13LSHandlerPref19SetModificationDateEP11_LSDatabasejd
++ __ZN14LSCrashMessageD1Ev
++ __ZN14LSCrashMessageD1Ev.cold.1
++ __ZN14LaunchServices10ContainersL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices12HandlerPrefsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices12HandlerPrefsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter.cold.1
++ __ZN14LaunchServices12LocalizationL22displayCanonicalStringEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices12LocalizationL22displayLocalizedStringEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices13PropertyListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices13StrongBindingL16isAllowedForNodeERNS_8Database7ContextEP6FSNodejPhPU15__autoreleasingP7NSError
++ __ZN14LaunchServices15ExtensionPointsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices16BindingEvaluator15setResultFilterEU13block_pointerFvRNS0_13BindingResultEE
++ __ZN14LaunchServices17BindingEvaluation17BindingResultImpl16enumerateResultsEU13block_pointerFbP9LSContextRK9LSBindingE
++ __ZN14LaunchServices17BindingEvaluation17BindingResultImpl8setErrorEP7NSError
++ __ZN14LaunchServices17BindingEvaluation17BindingResultImplC2INSt3__16vectorINS0_15ExtendedBindingENS_19MallocZoneAllocatorIS5_NS0_17BindingMallocZoneEEEEEEERKNS0_5StateERKT_
++ __ZN14LaunchServices17BindingEvaluation17BindingResultImplD2Ev
++ __ZN14LaunchServices17BindingEvaluationL14addAndEvaluateERNS0_5StateEPFvS2_ERNSt3__16vectorINS0_15ExtendedBindingENS_19MallocZoneAllocatorIS7_NS0_17BindingMallocZoneEEEEE
++ __ZN14LaunchServices17BindingEvaluationL15pushBackBindingERNS0_5StateERNSt3__16vectorINS0_15ExtendedBindingENS_19MallocZoneAllocatorIS5_NS0_17BindingMallocZoneEEEEERKS5_
++ __ZN14LaunchServices17BindingEvaluationL30ensureBundlePointersInBindingsERKNSt3__16vectorINS0_15ExtendedBindingENS_19MallocZoneAllocatorIS3_NS0_17BindingMallocZoneEEEEE
++ __ZN14LaunchServices18LSSandboxExtension14consume_sharedEPKcPU15__autoreleasingP7NSError
++ __ZN14LaunchServices18LSSandboxExtension7consumeEPKcPU15__autoreleasingP7NSError
++ __ZN14LaunchServices18LSSandboxExtensionD2Ev
++ __ZN14LaunchServices19URLPropertyProviderL21setStrongBindingValueERNS_8Database7ContextEP6FSNodeP11__FileCachePK10__CFStringPKvPNS0_5StateEPU15__autoreleasingP7NSError
++ __ZN14LaunchServices19URLPropertyProviderL25prepareStrongBindingValueERNS_8Database7ContextEPU34objcproto23FSNodePropertyProviding11objc_objectP11__FileCachePK10__CFStringPNS0_5StateEPU15__autoreleasingP7NSError
++ __ZN14LaunchServices19URLPropertyProviderL25prepareStrongBindingValueERNS_8Database7ContextEPU34objcproto23FSNodePropertyProviding11objc_objectP11__FileCachePK10__CFStringPNS0_5StateEPU15__autoreleasingP7NSError.cold.1
++ __ZN14LaunchServices19URLPropertyProviderL31prepareCanSetStrongBindingValueERNS_8Database7ContextEPU34objcproto23FSNodePropertyProviding11objc_objectP11__FileCachePK10__CFStringPNS0_5StateEPU15__autoreleasingP7NSError
++ __ZN14LaunchServices19URLPropertyProviderL31prepareCanSetStrongBindingValueERNS_8Database7ContextEPU34objcproto23FSNodePropertyProviding11objc_objectP11__FileCachePK10__CFStringPNS0_5StateEPU15__autoreleasingP7NSError.cold.1
++ __ZN14LaunchServices21DatabaseVisualizationL21writeTableDescriptionEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices23SetStrongBindingForNodeERNS_8Database7ContextEP6FSNodejS4_PU15__autoreleasingP7NSError
++ __ZN14LaunchServices24CopyStrongBindingForNodeERNS_8Database7ContextEP6FSNodejPU8__strongS4_P9LSBindingPU15__autoreleasingP7NSError
++ __ZN14LaunchServices25ClaimBindingConfiguration11FilterStack9addFilterEP8NSStringU13block_pointerFbP9LSContextRK9LSBindingE
++ __ZN14LaunchServices29IsStrongBindingAllowedForNodeERNS_8Database7ContextEP6FSNodejPhPU15__autoreleasingP7NSError
++ __ZN14LaunchServices3$_78__invokeEv
++ __ZN14LaunchServices4UTIsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices6ClaimsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices7AliasesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices7PluginsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter
++ __ZN14LaunchServices8Database7ContextD2Ev
++ __ZN14LaunchServices8Database7ContextcvP9LSContextEv
++ __ZN14LaunchServicesL28_UTTypeAllDisplayNameFlavorsE
++ __ZN16LSBundleProvider24copyResourceRelativePathEP8NSStringS1_S1_
++ __ZN16_LSHoistingStateD2Ev
++ __ZN21LSRegisterPluginStateD2Ev
++ __ZNK14LaunchServices13TypeEvaluator13getTypeRecordEP9LSContextPU15__autoreleasingP7NSError
++ __ZNK14LaunchServices16BindingEvaluator14getFilter_NoIOEPP8NSString
++ __ZNK14LaunchServices17BindingEvaluation17BindingResultImpl18resolvedTypeRecordEv
++ __ZNK14LaunchServices25ClaimBindingConfiguration11FilterStack11buildFilterEv
++ __ZNK14LaunchServices25ClaimBindingConfiguration11FilterStack16buildDescriptionEv
++ __ZNKSt3__111__copy_implclB8nn200100IPKN14LaunchServices17BindingEvaluation15ExtendedBindingES6_PS4_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__copy_implclB8nn200100IPN14LaunchServices17BindingEvaluation15ExtendedBindingES5_P9LSBindingEENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__copy_implclB8nn200100IPN14LaunchServices17BindingEvaluation15ExtendedBindingES5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8nn200100IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8nn200100IPU6__weakP8LSRecordS7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn200100IP9LSBindingS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn200100IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn200100IPU6__weakP8LSRecordS7_S7_EENS_4pairIT_T1_EES9_T0_SA_
++ __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8nn200100EPKvm
++ __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8nn200100ERKS6_S9_
++ __ZNSt3__110__function12__value_funcIFN14LaunchServices23LSDefaultAppsExtraStateENS_8optionalIS3_EEP7NSErrorEED2B8nn200100Ev
++ __ZNSt3__110__function12__value_funcIFP11objc_objectS3_P7NSErrorEED2B8nn200100Ev
++ __ZNSt3__110__function12__value_funcIFbP11objc_objectEEC2B8nn200100EOS5_
++ __ZNSt3__110__function12__value_funcIFbP11objc_objectEED2B8nn200100Ev
++ __ZNSt3__110unique_ptrIA_PNS_16__hash_node_baseIPNS_11__hash_nodeIjPvEEEENS_25__bucket_list_deallocatorIN14LaunchServices19MallocZoneAllocatorIS7_NSA_17BindingEvaluation17BindingMallocZoneEEEEEE5resetB8nn200100IPS7_Li0EEEvT_
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIP13objc_selectorU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIPKvU8__strongP5NSSetIP10objc_classEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_13unordered_mapIjbNS_4hashIjEENS_8equal_toIjEENS_9allocatorINS_4pairIKjbEEEEEEEEPvEENS_22__hash_node_destructorINS8_ISG_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_13unordered_setIjNS_4hashIjEENS_8equal_toIjEENS_9allocatorIjEEEEEEPvEENS_22__hash_node_destructorINS8_ISD_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjU8__strongP19LSApplicationRecordEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyN14LaunchServices11OpenStaging20StagingDirectoryInfoEEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeIjPvEENS_22__hash_node_destructorIN14LaunchServices19MallocZoneAllocatorIS3_NS5_17BindingEvaluation17BindingMallocZoneEEEEEE5resetB8nn200100EPS3_
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjU8__strongP8NSStringEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B8nn200100Ev
++ __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeImU8__strongU13block_pointerFvvEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEED1B8nn200100Ev
++ __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_1PjLb0EEEvT1_S5_T0_NS_15iterator_traitsIS5_E15difference_typeEb
++ __ZNSt3__111__sift_downB8nn200100INS_17_ClassicAlgPolicyERZN14LaunchServices17BindingEvaluationL4sortERNS3_5StateEE3$_0NS_11__wrap_iterIPNS3_15ExtendedBindingEEEEEvT1_OT0_NS_15iterator_traitsISC_E15difference_typeESC_
++ __ZNSt3__112__destroy_atB8nn200100IN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierELi0EEEvPT_
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEE11__do_rehashILb1EEEvm
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEE17__deallocate_nodeEPNS_16__hash_node_baseIPNS_11__hash_nodeIjPvEEEE
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEE25__emplace_unique_key_argsIjJRKjEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIjPvEEEEbEERKT_DpOT0_
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEE4findIjEENS_15__hash_iteratorIPNS_11__hash_nodeIjPvEEEERKT_
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEE8__rehashILb1EEEvm
++ __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEEN14LaunchServices19MallocZoneAllocatorIjNS5_17BindingEvaluation17BindingMallocZoneEEEED2Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE17__assign_externalEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100ILi0EEEPKc
++ __ZNSt3__113__tree_removeB8nn200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__113unordered_mapIPK20LSExtensionPointDatajZ27_LSEnumerateExtensionPointsE30_LSExtensionPointCxxComparatorS4_NS_9allocatorINS_4pairIKS3_jEEEEED1B8nn200100Ev
++ __ZNSt3__113unordered_mapIyN14LaunchServices11OpenStaging20StagingDirectoryInfoENS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS3_EEEEE16insert_or_assignB8nn200100IS3_EENS9_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIyS3_EEPvEEEEEEbEERSA_OT_
++ __ZNSt3__114__split_bufferI9LSBindingRNS_9allocatorIS1_EEE17__destruct_at_endB8nn200100EPS1_
++ __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE28__construct_at_end_with_sizeINS_11__wrap_iterIPS3_EEEEvT_m
++ __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE5clearB8nn200100Ev
++ __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEEC1EmmS7_
++ __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEED2Ev
++ __ZNSt3__114__split_bufferINS_10shared_ptrIN14LaunchServices16PerThreadContextEEERNS_9allocatorIS4_EEE5clearB8nn200100Ev
++ __ZNSt3__114__split_bufferINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEERNS_9allocatorISD_EEE17__destruct_at_endB8nn200100EPSD_
++ __ZNSt3__114__split_bufferINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEERNS_9allocatorISD_EEED2Ev
++ __ZNSt3__115allocate_sharedB8nn200100INS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEJRKSH_ELi0EEENS_10shared_ptrIT_EERKT0_DpOT1_
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE15__init_buf_ptrsB8nn200100Ev
++ __ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn200100Ej
++ __ZNSt3__116__pad_and_outputB8nn200100IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsIN14LaunchServices19MallocZoneAllocatorINS1_17BindingEvaluation15ExtendedBindingENS3_17BindingMallocZoneEEEE7destroyB8nn200100IS4_vLi0EEEvRS6_PT_
++ __ZNSt3__116allocator_traitsIN14LaunchServices19MallocZoneAllocatorINS1_17BindingEvaluation15ExtendedBindingENS3_17BindingMallocZoneEEEE9constructB8nn200100IS4_JRKS4_EvLi0EEEvRS6_PT_DpOT0_
++ __ZNSt3__116allocator_traitsIN14LaunchServices19MallocZoneAllocatorINS1_17BindingEvaluation15ExtendedBindingENS3_17BindingMallocZoneEEEE9constructB8nn200100IS4_JS4_EvLi0EEEvRS6_PT_DpOT0_
++ __ZNSt3__119__allocator_destroyB8nn200100INS_9allocatorI9LSBindingEEPS2_S4_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8nn200100INS_9allocatorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEEEEPSE_SG_EEvRT_T0_T1_
++ __ZNSt3__119__shared_weak_count16__release_sharedB8nn200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn200100Ev
++ __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev
++ __ZNSt3__120__optional_copy_baseIN14LaunchServices16BindingEvaluatorELb0EEC2B8nn200100ERKS3_
++ __ZNSt3__120__shared_ptr_emplaceIN14LaunchServices18LSSandboxExtensionENS_9allocatorIS2_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceIN14LaunchServices18LSSandboxExtensionENS_9allocatorIS2_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceIN14LaunchServices18LSSandboxExtensionENS_9allocatorIS2_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceIN14LaunchServices18LSSandboxExtensionENS_9allocatorIS2_EEED1Ev
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEEC2B8nn200100IJRKSH_ESI_Li0EEESI_DpOT_
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEED1Ev
++ __ZNSt3__120back_insert_iteratorINS_6vectorIjNS_9allocatorIjEEEEEaSB8nn200100EOj
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8nn200100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8nn200100EPKcm
++ __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8nn200100EPKcm
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8nn200100EPS9_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIP17_opaque_pthread_tNS_10shared_ptrIN14LaunchServices16PerThreadContextEEEEEPvEEEEEclB8nn200100EPSC_
++ __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPKvNS_6vectorINS_4pairIP13objc_selectorPFvP11objc_objectS9_EEENS1_ISE_EEEEEEPvEEEEEclB8nn200100EPSJ_
++ __ZNSt3__123__optional_storage_baseI9LSBindingLb0EE13__assign_fromB8nn200100INS_27__optional_move_assign_baseIS1_Lb0EEEEEvOT_
++ __ZNSt3__123__optional_storage_baseIN14LaunchServices13TypeEvaluator6ResultELb0EE13__assign_fromB8nn200100INS_27__optional_move_assign_baseIS3_Lb0EEEEEvOT_
++ __ZNSt3__123__optional_storage_baseIU8__strongP12NSDictionaryIP8NSStringP11objc_objectELb0EE13__assign_fromB8nn200100INS_27__optional_move_assign_baseIS8_Lb0EEEEEvOT_
++ __ZNSt3__123__optional_storage_baseIU8__strongP8NSStringLb0EE13__assign_fromB8nn200100INS_27__optional_move_assign_baseIS3_Lb0EEEEEvOT_
++ __ZNSt3__124__put_character_sequenceB8nn200100IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__125__throw_bad_function_callB8nn200100Ev
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEEEEbT1_SA_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_1PjEEbT1_S5_T0_
++ __ZNSt3__127__insertion_sort_incompleteB8nn200100INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataEEbT1_SE_T0_
++ __ZNSt3__127__throw_bad_optional_accessB8nn200100Ev
++ __ZNSt3__127__tree_balance_after_insertB8nn200100IPNS_16__tree_node_baseIPvEEEEvT_S5_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn200100IN14LaunchServices19MallocZoneAllocatorINS1_17BindingEvaluation15ExtendedBindingENS3_17BindingMallocZoneEEEPS4_EEvRT_T0_SA_SA_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorI9LSBindingEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorINS_4pairIjU8__strongP6NSUUIDEEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorINS_5tupleIJU8__strongP8NSStringjEEEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__134__uninitialized_allocator_relocateB8nn200100INS_9allocatorIU6__weakP8LSRecordEEPS4_EEvRT_T0_S9_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8nn200100IN14LaunchServices19MallocZoneAllocatorINS1_17BindingEvaluation15ExtendedBindingENS3_17BindingMallocZoneEEEPS4_S7_S7_EET2_RT_T0_T1_S8_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8nn200100INS_9allocatorI9LSBindingEEPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_PS2_EET2_RT_T0_T1_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8nn200100INS_9allocatorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEEEEPSE_SG_SG_EET2_RT_T0_T1_SH_
++ __ZNSt3__14swapB8nn200100IN14LaunchServices17BindingEvaluation15ExtendedBindingEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
++ __ZNSt3__15arrayIU8__strongP8NSStringLm5EED1Ev
++ __ZNSt3__16__findB8nn200100IPU6__weakP8LSRecordS4_DnNS_10__identityEEET_S6_T0_RKT1_RT2_
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16removeB8nn200100INS_11__wrap_iterIPU6__weakP8LSRecordEEDnEET_S7_S7_RKT0_
++ __ZNSt3__16vectorI11LSSliceDataNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE18__assign_with_sizeB8nn200100IPKS1_S7_EEvT_T0_l
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE18__assign_with_sizeB8nn200100IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE9push_backB8nn200100EOS1_
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEEC2B8nn200100ERKS4_
++ __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEEC2B8nn200100ESt16initializer_listIS1_E
++ __ZNSt3__16vectorI13LSPersonaTypeNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI23os_eligibility_answer_tNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE18__insert_with_sizeB8nn200100INS_11__wrap_iterIPN14LaunchServices17BindingEvaluation15ExtendedBindingEEESB_EENS6_IPS1_EENS6_IPKS1_EET_T0_l
++ __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS1_RS3_EEPS1_
++ __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE5clearB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE12__move_rangeEPS3_S8_S8_
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE13__vdeallocateEv
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE16__init_with_sizeB8nn200100INS_11__wrap_iterIPKS3_EESC_EEvT_T0_m
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE18__assign_with_sizeB8nn200100IPKS3_SA_EEvT_T0_l
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE18__insert_with_sizeB8nn200100INS_11__wrap_iterIPS3_EESB_EESB_NS9_IPKS3_EET_T0_l
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS6_EEPS3_
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE5eraseENS_11__wrap_iterIPKS3_EESB_
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE7reserveEm
++ __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS1_19MallocZoneAllocatorIS3_NS2_17BindingMallocZoneEEEE9push_backB8nn200100ERKS3_
++ __ZNSt3__16vectorIN14LaunchServices19URLPropertyProvider12FilePropertyENS_9allocatorIS3_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIN14LaunchServices19URLPropertyProvider12FilePropertyENS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices19URLPropertyProvider12FilePropertyENS_9allocatorIS3_EEEC2B8nn200100ESt16initializer_listIS3_E
++ __ZNSt3__16vectorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierENS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierENS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE9push_backB8nn200100ERKS3_
++ __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE5clearB8nn200100Ev
++ __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE9push_backB8nn200100ERKS4_
++ __ZNSt3__16vectorINS_4pairIP13objc_selectorPFvP11objc_objectS3_EEENS_9allocatorIS8_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE16__init_with_sizeB8nn200100IPSD_SI_EEvT_T0_m
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE26__swap_out_circular_bufferERNS_14__split_bufferISD_RSF_EE
++ __ZNSt3__16vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISD_EEE5clearB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIjPK12LSBundleDataEENS_9allocatorIS5_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIjU8__strongP6NSUUIDEENS_9allocatorIS5_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIjU8__strongP6NSUUIDEENS_9allocatorIS5_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_4pairIjU8__strongP6NSUUIDEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_4pairIjU8__strongP6NSUUIDEENS_9allocatorIS5_EEE9push_backB8nn200100EOS5_
++ __ZNSt3__16vectorINS_5tupleIJU8__strongP8NSStringjEEENS_9allocatorIS5_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorINS_5tupleIJU8__strongP8NSStringjEEENS_9allocatorIS5_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorINS_5tupleIJU8__strongP8NSStringjEEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_5tupleIJU8__strongP8NSStringjEEENS_9allocatorIS5_EEE9push_backB8nn200100EOS5_
++ __ZNSt3__16vectorIP8LSRecordNS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPK10__CFStringNS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE6resizeEm
++ __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE7reserveEm
++ __ZNSt3__16vectorIPvNS_9allocatorIS1_EEE8__appendEm
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__init_with_sizeB8nn200100IPKS2_S9_EEvT_T0_m
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__init_with_sizeB8nn200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE18__insert_with_sizeB8nn200100IPKS2_S9_EENS_11__wrap_iterIPS3_EENSA_IPU6__weakKS2_EET_T0_l
++ __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongP19LSApplicationRecordNS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongP19LSApplicationRecordNS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongP19LSApplicationRecordNS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorENS_9allocatorIS7_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorENS_9allocatorIS7_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorENS_9allocatorIS7_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS7_RS9_EE
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE16__destroy_vectorclB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE16__init_with_sizeB8nn200100IPS3_S8_EEvT_T0_m
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS5_EE
++ __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE9push_backB8nn200100ERU8__strongKS2_
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE7reserveEm
++ __ZNSt3__16vectorIcNS_9allocatorIcEEE9push_backB8nn200100EOc
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIiNS_9allocatorIiEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8nn200100IPjS5_EEvT_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE18__insert_with_sizeB8nn200100INS_11__wrap_iterIPjEES7_EES7_NS5_IPKjEET_T0_l
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8nn200100EOj
++ __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB8nn200100ERKj
++ __ZNSt3__16vectorIjNS_9allocatorIjEEEC2B8nn200100ERKS3_
++ __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8nn200100Em
++ __ZNSt3__16vectorItNS_9allocatorItEEE20__throw_length_errorB8nn200100Ev
++ __ZNSt3__17__sort3B8nn200100INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEELi0EEEbT1_SA_SA_T0_
++ __ZNSt3__17__sort3B8nn200100INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_1PjLi0EEEbT1_S5_S5_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEELi0EEEvT1_SA_SA_SA_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_1PjLi0EEEvT1_S5_S5_S5_T0_
++ __ZNSt3__17__sort4B8nn200100INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataLi0EEEvT1_SE_SE_SE_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEELi0EEEvT1_SA_SA_SA_SA_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_1PjLi0EEEvT1_S5_S5_S5_S5_T0_
++ __ZNSt3__17__sort5B8nn200100INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataLi0EEEvT1_SE_SE_SE_SE_T0_
++ __ZNSt3__18optionalI9LSBindingED1Ev
++ __ZNSt3__18optionalI9LSBindingEaSB8nn200100IRKN14LaunchServices17BindingEvaluation15ExtendedBindingEvEERS2_OT_
++ __ZNSt3__18optionalI9LSBindingEaSB8nn200100IS1_vEERS2_OT_
++ __ZNSt3__18optionalIN14LaunchServices11OpenStaging20StagingDirectoryInfoEE7emplaceB8nn200100IJRU8__strongP8NSStringRU8__strongP6FSNodeRxEvEERS3_DpOT_
++ __ZNSt3__18optionalIN14LaunchServices16BindingEvaluatorEEaSB8nn200100IS2_vEERS3_OT_
++ __ZNSt3__18optionalIN14LaunchServices16EligibilityCache11NotifyStateEE7emplaceB8nn200100IJU8__strongU13block_pointerFvvEEvEERS3_DpOT_
++ __ZNSt3__18optionalIN14LaunchServices30EligibilityPredicateEvaluation9PredicateEE7emplaceB8nn200100IJS3_EvEERS3_DpOT_
++ __ZNSt3__18optionalIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierEED2Ev
++ __ZNSt3__18optionalIN14LaunchServices30FeatureFlagPredicateEvaluation9PredicateEE7emplaceB8nn200100IJS3_EvEERS3_DpOT_
++ __ZNSt3__18optionalIN14LaunchServices30FeatureFlagPredicateEvaluation9PredicateEED2Ev
++ __ZNSt3__18optionalIU8__strongP7NSErrorEaSB8nn200100IRS3_vEERS4_OT_
++ __ZNSt3__19allocatorI11LSSliceDataE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorI13LSBundleClassE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorI13LSPersonaTypeE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorI23os_eligibility_answer_tE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorI8_NSRangeE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorI9LSBindingE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIN14LaunchServices19URLPropertyProvider12FilePropertyEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_4pairIP13objc_selectorPFvP11objc_objectS3_EEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_4pairIjPK12LSBundleDataEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_4pairIjU8__strongP6NSUUIDEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorINS_5tupleIJU8__strongP8NSStringjEEEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIP8LSRecordE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIPK10__CFStringE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIPKvE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIPvE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIU6__weakP8LSRecordE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIU8__strongP19LSApplicationRecordE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIU8__strongP8NSStringE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIU8__strongU13block_pointerFvvEE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIiE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorIjE17allocate_at_leastB8nn200100Em
++ __ZNSt3__19allocatorItE17allocate_at_leastB8nn200100Em
++ __ZSt28__throw_bad_array_new_lengthB8nn200100v
++ __ZTVN14LaunchServices17BindingEvaluation17BindingResultImplE
++ __ZTVNSt3__115basic_streambufIcNS_11char_traitsIcEEEE
++ __ZTVNSt3__120__shared_ptr_emplaceIN14LaunchServices18LSSandboxExtensionENS_9allocatorIS2_EEEE
++ __ZTVNSt3__120__shared_ptr_emplaceINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEENSF_ISH_EEEE
++ __ZZL27launchServicesVersionStringvE5sOnce
++ __ZZN14LaunchServices12HandlerPrefsL7displayEP9LSContextjjP29CSStoreAttributedStringWriterE6labels
++ __ZZN14LaunchServices17BindingEvaluation17BindingMallocZone8get_zoneEvE4zone
++ ___101+[LSDocumentProxy(Binding) _bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:]_block_invoke
++ ___101+[LSDocumentProxy(Binding) _bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:]_block_invoke_2
++ ___101+[LSDocumentProxy(Binding) _bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:]_block_invoke_3
++ ___101-[_LSInstallProgressService createInstallProgressForApplication:withPhase:andPublishingString:reply:]_block_invoke.269
++ ___108-[LSApplicationWorkspace(DefaultApps) setDefaultHandlerForTypeRecord:toApplicationRecord:completionHandler:]_block_invoke
++ ___111-[_LSCanOpenURLManager(PrivateSchemeChecking) legacy_isBundleID:bundleData:context:allowedToCheckScheme:error:]_block_invoke.74
++ ___37-[LSSettingsStore addChangeObserver:]_block_invoke.41
++ ___42-[LSDocumentProxy(Binding) _boundIconInfo]_block_invoke.159
++ ___42-[LSMIResultRegistrant runWithCompletion:]_block_invoke.107
++ ___42-[_UTDeclaredTypeRecord _isOneTapOpenable]_block_invoke
++ ___44-[LSMIResultUnregistrant runWithCompletion:]_block_invoke.141
++ ___44-[UTTypeRecord(ARKit) referenceAccessoryURL]_block_invoke
++ ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.18
++ ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.18.cold.1
++ ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.22
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke.197
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke.200
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke.205
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke.211
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke.217
++ ___45-[LSApplicationWorkspace establishConnection]_block_invoke_2.208
++ ___47-[LSByURLBundleUnregistrant runWithCompletion:]_block_invoke.159
++ ___47-[LSByURLPluginUnregistrant runWithCompletion:]_block_invoke.177
++ ___50-[_LSDiskUsage(Private) fetchClientSideWithError:]_block_invoke.145
++ ___51-[LSApplicationWorkspace deviceIdentifierForVendor]_block_invoke.381
++ ___51-[LSApplicationWorkspace deviceIdentifierForVendor]_block_invoke.381.cold.1
++ ___52-[_LSInstallProgressService restoreInactiveInstalls]_block_invoke.217
++ ___52-[_LSInstallProgressService restoreInactiveInstalls]_block_invoke.217.cold.1
++ ___54-[_LSClientSettingsStore resetUserElectionsWithError:]_block_invoke.223
++ ___54-[_LSClientSettingsStore resetUserElectionsWithError:]_block_invoke.223.cold.1
++ ___54-[_LSClientSettingsStore userElectionForExtensionKey:]_block_invoke.220
++ ___54-[_LSClientSettingsStore userElectionForExtensionKey:]_block_invoke.220.cold.1
++ ___55-[LSApplicationWorkspace _LSPrivateNoteMigratorRunning]_block_invoke.407
++ ___55-[LSApplicationWorkspace _LSPrivateNoteMigratorRunning]_block_invoke.407.cold.1
++ ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.638
++ ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.638.cold.1
++ ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.639
++ ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.639.cold.1
++ ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.639.cold.2
++ ___56-[LSApplicationWorkspace deviceIdentifierForAdvertising]_block_invoke.378
++ ___56-[LSApplicationWorkspace deviceIdentifierForAdvertising]_block_invoke.378.cold.1
++ ___58+[UTTypeRecord _typeRecordWithIdentifier:allowUndeclared:]_block_invoke.1
++ ___58+[UTTypeRecord _typeRecordWithIdentifier:allowUndeclared:]_block_invoke.cold.1
++ ___59-[_LSDModifyClient removeAllHandlersWithCompletionHandler:]_block_invoke.247
++ ___59-[_LSDModifyClient requestLSDExitSafely:completionHandler:]_block_invoke
++ ___59-[_LSDModifyClient requestLSDExitSafely:completionHandler:]_block_invoke.347
++ ___59-[_LSDModifyClient requestLSDExitSafely:completionHandler:]_block_invoke.350
++ ___59-[_LSDModifyClient requestLSDExitSafely:completionHandler:]_block_invoke.353
++ ___59-[_LSXPCQueryResolver _resolveQueries:XPCConnection:error:]_block_invoke.137
++ ___59-[_LSXPCQueryResolver _resolveQueries:XPCConnection:error:]_block_invoke.137.cold.1
++ ___60-[LSApplicationRestrictionsManager beginListeningForChanges]_block_invoke.114
++ ___61-[LSSystemExtensionPointRefreshRegistrant runWithCompletion:]_block_invoke.217
++ ___64-[CSStoreAttributedStringWriter(LaunchServices) write:platform:]_block_invoke
++ ___64-[LSApplicationRestrictionsManager ratingRankExceptionBundleIDs]_block_invoke
++ ___64-[LSApplicationWorkspace scanForAppsInRatingRankExceptionsList:]_block_invoke
++ ___64-[LSApplicationWorkspace scanForAppsInRatingRankExceptionsList:]_block_invoke.cold.1
++ ___64-[_LSClientSettingsStore setUserElection:forExtensionKey:error:]_block_invoke.222
++ ___64-[_LSClientSettingsStore setUserElection:forExtensionKey:error:]_block_invoke.222.cold.1
++ ___64-[_LSInstallProgressService loadJournalledNotificationsFromDisk]_block_invoke.340
++ ___65-[LSApplicationWorkspace _LSPrivateRebuildDatabaseAtNextRestart:]_block_invoke
++ ___65-[LSApplicationWorkspace _LSPrivateRebuildDatabaseAtNextRestart:]_block_invoke_2
++ ___65-[LSApplicationWorkspace _LSPrivateRebuildDatabaseAtNextRestart:]_block_invoke_3
++ ___65-[LSApplicationWorkspace _LSPrivateRebuildDatabaseAtNextRestart:]_block_invoke_4
++ ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.217
++ ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.217.cold.1
++ ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.219
++ ___66-[LSApplicationWorkspace installProgressForApplication:withPhase:]_block_invoke.390
++ ___67-[LSApplicationRecord(UniqueIdentifiers) deviceIdentifierForVendor]_block_invoke.511
++ ___68-[LSApplicationRestrictionsManager handleMCEffectiveSettingsChanged]_block_invoke.122
++ ___68-[LSApplicationRestrictionsManager handleMCEffectiveSettingsChanged]_block_invoke.123
++ ___68-[LSApplicationWorkspace urlContainsDeviceIdentifierForAdvertising:]_block_invoke.382
++ ___68-[LSApplicationWorkspaceRemoteObserver applicationInstallsDidStart:]_block_invoke.774
++ ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.385
++ ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.386
++ ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.387
++ ___70-[CSStoreAttributedStringWriter(LaunchServices) write:directoryClass:]_block_invoke
++ ___70-[CSStoreAttributedStringWriter(LaunchServices) write:directoryClass:]_block_invoke_2
++ ___72-[LSApplicationRecord(UniqueIdentifiers) deviceIdentifierForAdvertising]_block_invoke.513
++ ___73-[LSApplicationRestrictionsManager _pruneObsoleteTrustedSignerIdentities]_block_invoke.124
++ ___73-[LSApplicationWorkspace _LSPrivateAskLSDToExitSafely:completionHandler:]_block_invoke
++ ___73-[LSApplicationWorkspace _LSPrivateAskLSDToExitSafely:completionHandler:]_block_invoke_2
++ ___73-[LSApplicationWorkspace _LSPrivateAskLSDToExitSafely:completionHandler:]_block_invoke_3
++ ___73-[LSApplicationWorkspace _LSPrivateAskLSDToExitSafely:completionHandler:]_block_invoke_4
++ ___75-[_LSDModifyClient unregisterApplicationsAtMountPoint:operationUUID:reply:]_block_invoke.287
++ ___75-[_LSDModifyClient unregisterApplicationsAtMountPoint:operationUUID:reply:]_block_invoke.292
++ ___76-[_LSInstallProgressService addSendNotificationFenceWithTimeout:fenceBlock:]_block_invoke.335
++ ___78-[LSApplicationRecord(AlternateIcons) setAlternateIconName:completionHandler:]_block_invoke.633
++ ___78-[LSApplicationRecord(AlternateIcons) setAlternateIconName:completionHandler:]_block_invoke.633.cold.1
++ ___79-[LSClaimBindingConfiguration(BindingEvaluator) bindingEvaluatorForAuditToken:]_block_invoke
++ ___79-[LSClaimBindingConfiguration(BindingEvaluator) bindingEvaluatorForAuditToken:]_block_invoke_2
++ ___79-[_LSInstallProgressService sendNotification:forAppProxies:Plugins:completion:]_block_invoke.320
++ ___83-[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:exceptions:]_block_invoke
++ ___83-[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:exceptions:]_block_invoke_2
++ ___84-[_LSDModifyClient setPreferenceValue:forKey:forApplicationAtURL:completionHandler:]_block_invoke.327
++ ___89-[LSApplicationRestrictionsManager scanForMissedNotificationsForImportantAppsIfNecessary]_block_invoke.113
++ ___92-[LSApplicationRecord(Gaming) supportedGameControllersWithContext:tableID:unitID:unitBytes:]_block_invoke
++ ___95-[LSApplicationWorkspace _LSPrivateRebuildApplicationDatabasesForSystemApps:internal:user:uid:]_block_invoke.402
++ ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.323
++ ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.323.cold.1
++ ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.324
++ ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.324.cold.1
++ ___98-[_LSDModifyClient performUpdateOfPersonasOfBundleIDs:toPersonaUniqueStrings:operationUUID:reply:]_block_invoke.346
++ ___98-[_LSDModifyClient performUpdateOfPersonasOfBundleIDs:toPersonaUniqueStrings:operationUUID:reply:]_block_invoke.cold.2
++ ___99+[LSApplicationRecord setUpdateAvailabilityForApplicationsWithBundleIdentifiers:completionHandler:]_block_invoke.35
++ ___99+[LSApplicationRecord setUpdateAvailabilityForApplicationsWithBundleIdentifiers:completionHandler:]_block_invoke.39
++ ___Block_byref_object_copy_.1029
++ ___Block_byref_object_copy_.1205
++ ___Block_byref_object_copy_.131
++ ___Block_byref_object_copy_.136
++ ___Block_byref_object_copy_.142
++ ___Block_byref_object_copy_.197
++ ___Block_byref_object_copy_.23
++ ___Block_byref_object_copy_.262
++ ___Block_byref_object_copy_.28
++ ___Block_byref_object_copy_.286
++ ___Block_byref_object_copy_.333
++ ___Block_byref_object_copy_.367
++ ___Block_byref_object_copy_.387
++ ___Block_byref_object_copy_.39
++ ___Block_byref_object_copy_.52
++ ___Block_byref_object_copy_.613
++ ___Block_byref_object_copy_.683
++ ___Block_byref_object_copy_.71
++ ___Block_byref_object_copy_.73
++ ___Block_byref_object_copy_.80
++ ___Block_byref_object_dispose_.1030
++ ___Block_byref_object_dispose_.1206
++ ___Block_byref_object_dispose_.132
++ ___Block_byref_object_dispose_.137
++ ___Block_byref_object_dispose_.143
++ ___Block_byref_object_dispose_.198
++ ___Block_byref_object_dispose_.24
++ ___Block_byref_object_dispose_.263
++ ___Block_byref_object_dispose_.287
++ ___Block_byref_object_dispose_.29
++ ___Block_byref_object_dispose_.334
++ ___Block_byref_object_dispose_.368
++ ___Block_byref_object_dispose_.388
++ ___Block_byref_object_dispose_.40
++ ___Block_byref_object_dispose_.53
++ ___Block_byref_object_dispose_.614
++ ___Block_byref_object_dispose_.684
++ ___Block_byref_object_dispose_.72
++ ___Block_byref_object_dispose_.74
++ ___Block_byref_object_dispose_.81
++ ____LSBundleRemove_block_invoke.156
++ ____LSBundleRemove_block_invoke_2.157
++ ____LSContainerAddWithNode_block_invoke.25
++ ____LSContextCreateVisualizer_block_invoke.17
++ ____LSContextCreateVisualizer_block_invoke.26
++ ____LSCopyStoreFromServer_block_invoke.72
++ ____LSCopyStoreFromServer_block_invoke.72.cold.1
++ ____LSCopyStoreFromServer_block_invoke.73
++ ____LSCopyStoreFromServer_block_invoke_2.75
++ ____LSDatabaseDisplayHeader_block_invoke.cold.1
++ ____LSHandlerPrefRemoveAllWithBundleID_block_invoke.67
++ ____LSHandlerPrefRemoveAllWithBundleID_block_invoke.67.cold.1
++ ____LSResetServer_block_invoke.127
++ ____LSResetServer_block_invoke.127.cold.1
++ ____LSServer_BeginProvidingVisualizationArchives_block_invoke.54
++ ____LSServer_GetServerStoreForConnectionWithCompletionHandler_block_invoke.3
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.957
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.957.cold.1
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.961
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.961.cold.1
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.963
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.964
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.959
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.962
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.966
++ ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.966.cold.1
++ ____LSServer_PerformOpenOperation_block_invoke.81
++ ____LSServer_PerformOpenOperation_block_invoke.81.cold.1
++ ____LSServer_PerformOpenOperation_block_invoke_2.cold.1
++ ____LSServer_PerformOpenOperation_block_invoke_2.cold.2
++ ____LSServer_PerformOpenOperation_block_invoke_2.cold.3
++ ____LSServer_SyncWithMobileInstallation_block_invoke.1031
++ ____LSServer_SyncWithMobileInstallation_block_invoke_2.1032
++ ____LSUnregisterBundle_block_invoke.185
++ ____ZL15_LSContainerAddP9LSContextP6FSNodeP6NSDataS2_S4_tyhU13block_pointerFvjP7NSErrorE_block_invoke.36
++ ____ZL15_LSContainerAddP9LSContextP6FSNodeP6NSDataS2_S4_tyhU13block_pointerFvjP7NSErrorE_block_invoke.38
++ ____ZL16getPropertyTablev_block_invoke.cold.10
++ ____ZL16getPropertyTablev_block_invoke.cold.11
++ ____ZL16getPropertyTablev_block_invoke.cold.9
++ ____ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke.113
++ ____ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke.114
++ ____ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke.114.cold.1
++ ____ZL23_LSUpdateDefaultHandlerP18LSApplicationProxyP5NSURL_block_invoke.158
++ ____ZL23_LSUpdateDefaultHandlerP18LSApplicationProxyP5NSURL_block_invoke.158.cold.1
++ ____ZL26_LSArmSaveTimerWithTimeouthdU13block_pointerFvbP11_LSDatabaseP7NSErrorE_block_invoke.394
++ ____ZL27launchServicesVersionStringv_block_invoke
++ ____ZL29pluginKitUserElectionStoreURLv_block_invoke.250
++ ____ZL29pluginKitUserElectionStoreURLv_block_invoke.250.cold.1
++ ____ZL29pluginKitUserElectionStoreURLv_block_invoke.250.cold.2
++ ____ZL34LSCheckDatabaseAvailableWithServerP17_LSDServiceDomain_block_invoke.382
++ ____ZL38_LSWriteBundlePlaceholderToURLInternalRN14LaunchServices8Database7ContextEP5NSURLS4__block_invoke.60
++ ____ZL41_LSSystemContentDatabaseSanitizeForExportP11_LSDatabase_block_invoke.cold.1
++ ____ZL41_LSSystemContentDatabaseSanitizeForExportP11_LSDatabase_block_invoke.cold.2
++ ____ZL41_LSSystemContentDatabaseSanitizeForExportP11_LSDatabase_block_invoke.cold.3
++ ____ZL41_LSSystemContentDatabaseSanitizeForExportP11_LSDatabase_block_invoke_2.cold.1
++ ____ZL41_LSSystemContentDatabaseSanitizeForExportP11_LSDatabase_block_invoke_2.cold.2
++ ____ZL47_LSOpenOperationPerformContinueAfterAsyncGatherP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke
++ ____ZL47_LSOpenOperationPerformContinueAfterAsyncGatherP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke_2
++ ____ZL51_LSPathifyReferenceAccessorysInTypeDeclarationsListP16LSBundleProviderP7NSArray_block_invoke
++ ____ZL51_LSPathifyReferenceAccessorysInTypeDeclarationsListP16LSBundleProviderP7NSArray_block_invoke_2
++ ____ZN13LSHandlerPref4SaveEP11_LSDatabase_block_invoke.56
++ ____ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke
++ ____ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_2
++ ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke
++ ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_2
++ ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_3
++ ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_4
++ ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_5
++ ____ZN14LaunchServices12PrefsStorage15setValueForNodeEP8NSStringP6FSNodeP11objc_objectPU15__autoreleasingP7NSError_block_invoke.100
++ ____ZN14LaunchServices12PrefsStorage7_updateEv_block_invoke.76
++ ____ZN14LaunchServices12PrefsStorage7_updateEv_block_invoke.76.cold.1
++ ____ZN14LaunchServices19URLPropertyProviderL43beginTranslatingHiddenBySystemNotificationsEv_block_invoke.63
++ ____ZN14LaunchServices19URLPropertyProviderL43beginTranslatingHiddenBySystemNotificationsEv_block_invoke.69
++ ____ZN14LaunchServices4UTIsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_2
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_3
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_4
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_5
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_6
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_7
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_8
++ ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke_9
++ ____ZN14LaunchServices7PluginsL7displayEP9LSContextjjP29CSStoreAttributedStringWriter_block_invoke
++ ____ZN14LaunchServicesL35UTTypeEnumerateFlavoredDisplayNamesIU8__strongU13block_pointerFvjRKNS_23UTTypeDisplayNameFlavorEPhEEEvP11_LSDatabasePK11_UTTypeDataRKT__block_invoke
++ ____ZN14LaunchServicesL35UTTypeEnumerateFlavoredDisplayNamesIZNS_L54UTTypeEnumerateAvailableAndPresentFlavoredDisplayNamesIZL30_UTGetLocalizedDescriptionImplPK16UTTypeSearchInfoE3$_0EEvP11_LSDatabasePK11_UTTypeDataRKT_EUljRKNS_23UTTypeDisplayNameFlavorEPhE_EEvS7_SA_SD__block_invoke
++ ____ZN14LaunchServicesL47UTTypeReleaseLocalizedDescriptionOrDescriptionsEP11_LSDatabasePK11_UTTypeData_block_invoke
++ ____ZNK14LaunchServices25ClaimBindingConfiguration11FilterStack11buildFilterEv_block_invoke
++ ___block_descriptor_129_ea8_32s40s48s56s64s72s80s88s96bs104bs112c64_ZTSNSt3__110shared_ptrIN14LaunchServices18LSSandboxExtensionEEE_e36_v24?0^{__CFString=}8^{__CFError=}16l
++ ___block_descriptor_129_ea8_32s40s48s56s64s72s80s88s96s104s112bs120bs_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8s112l8s104l8s120l8
++ ___block_descriptor_248_ea8_32s40r48r64c59_ZTSNSt3__18optionalIN14LaunchServices16BindingEvaluatorEEE_e33_B16?0r^{?=IIIIiII[8I]IIIIIIIII}8l
++ ___block_descriptor_32_e374_B28?0^{LSContext=}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20l
++ ___block_descriptor_32_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16l
++ ___block_descriptor_36_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16l
++ ___block_descriptor_40_e36_"NSDictionary"16?0"NSDictionary"8l
++ ___block_descriptor_40_ea8_32bs_e59_v44?0^{LSContext=}8I16r^{?=IIIIiII[8I]IIIIIIIII}20q28^B36ls32l8
++ ___block_descriptor_40_ea8_32bs_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16ls32l8
++ ___block_descriptor_40_ea8_32r_e29_v32?0"UTTypeRecord"8q16^B24lr32l8
++ ___block_descriptor_40_ea8_32s_e374_B28?0"_LSDatabase"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
++ ___block_descriptor_40_ea8_32s_e374_B28?0^{LSContext=}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
++ ___block_descriptor_40_ea8_32s_e39_v28?0I8r^{?=IIIIiII[8I]IIIIIIIII}12*20ls32l8
++ ___block_descriptor_40_ea8_32s_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16ls32l8
++ ___block_descriptor_44_e374_B28?0"_LSDatabase"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20l
++ ___block_descriptor_44_ea8_32r_e10_v16?0r^v8lr32l8
++ ___block_descriptor_44_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_48_ea8_32bs_e371_v28?0"NSString"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
++ ___block_descriptor_48_ea8_32bs_e42_v36?0I8r^{?=IIIIiII[8I]IIIIIIIII}12q20*28ls32l8
++ ___block_descriptor_48_ea8_32c141_ZTSNSt3__110shared_ptrINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEEEE_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16l
++ ___block_descriptor_48_ea8_32r40r_e42_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24lr32l8r40l8
++ ___block_descriptor_48_ea8_32s40bs_e36_v28?0B8"_LSDatabase"12"NSError"20ls40l8s32l8
++ ___block_descriptor_48_ea8_32s40s_e19_v32?0I8r^v12I20*24ls32l8s40l8
++ ___block_descriptor_48_ea8_32s40s_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16ls32l8s40l8
++ ___block_descriptor_48_ea8_32s_e39_v28?0I8r^{?=IIIIiII[8I]IIIIIIIII}12*20ls32l8
++ ___block_descriptor_48_ea8_32s_e42_v36?0I8r^{?=IIIIiII[8I]IIIIIIIII}12q20*28ls32l8
++ ___block_descriptor_48_ea8_32s_e57_v28?0I8r^{UTTypeDisplayNameFlavor=^?^{__CFString}*}12*20ls32l8
++ ___block_descriptor_48_ea8_40c27_ZTS10CFReleaserIP7__CFSetE_e42_v36?0I8r^{?=IIIIiII[8I]IIIIIIIII}12q20*28l
++ ___block_descriptor_49_e8_32s40bs_e5_v8?0ls40l8s32l8
++ ___block_descriptor_52_e42_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24lu40l8
++ ___block_descriptor_52_ea8_32s_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8
++ ___block_descriptor_52_ea8_32s_e42_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24ls32l8
++ ___block_descriptor_52_ea8_32s_e5_v8?0ls32l8
++ ___block_descriptor_56_ea8_32bs40bs_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8
++ ___block_descriptor_56_ea8_32bs40r48r_e42_v36?0I8r^{?=IIIIiII[8I]IIIIIIIII}12q20*28lr40l8s32l8r48l8
++ ___block_descriptor_56_ea8_32r40r_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20lr32l8r40l8
++ ___block_descriptor_56_ea8_32s40bs_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8
++ ___block_descriptor_56_ea8_32s40s48r_e36_v28?0B8"_LSDatabase"12"NSError"20ls32l8s40l8r48l8
++ ___block_descriptor_56_ea8_32s_e37_v40?0q8"NSString"16"NSString"24*32ls32l8
++ ___block_descriptor_56_ea8_32s_e61_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}Q}16ls32l8
++ ___block_descriptor_60_ea8_32s40r_e42_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24ls32l8r40l8
++ ___block_descriptor_64_e8_32s40s48s56s_e27_v24?0"LSBundleProxy"8^B16ls32l8s40l8s48l8s56l8
++ ___block_descriptor_64_ea8_32s40s48r_e68_v24?0r^{LSBinding=I^{LSBundleData}I^{?}Q}8"_SWCServiceDetails"16ls32l8s40l8r48l8
++ ___block_descriptor_64_ea8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___block_descriptor_64_ea8_32s40s_e5_v8?0ls32l8s40l8
++ ___block_descriptor_69_e27_v16?0^{BindingResult=^^?}8l
++ ___block_descriptor_72_e8_32bs40r48r_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8r40l8r48l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e42_v24?0"LSDBExecutionContext"8"NSError"16ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_72_ea8_32r40r48r56r64r_e42_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24lr32l8r40l8r48l8r56l8r64l8
++ ___block_descriptor_72_ea8_32s40s48r_e361_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8r48l8
++ ___block_descriptor_80_ea8_32s40s48s56s64r72r_e42_v24?0"LSDBExecutionContext"8"NSError"16ls32l8s40l8s48l8s56l8r64l8r72l8
++ ___block_descriptor_84_ea8_32s40s48r56r64r_e14_v24?0I8I12*16ls32l8r48l8r56l8r64l8s40l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8
++ ___block_descriptor_88_ea8_32s40s48r56r64r_e5_v8?0lr48l8s32l8r56l8r64l8s40l8
++ ___block_literal_global.109
++ ___block_literal_global.11
++ ___block_literal_global.1104
++ ___block_literal_global.1110
++ ___block_literal_global.1133
++ ___block_literal_global.1160
++ ___block_literal_global.1162
++ ___block_literal_global.1173
++ ___block_literal_global.120
++ ___block_literal_global.129
++ ___block_literal_global.141
++ ___block_literal_global.147
++ ___block_literal_global.150
++ ___block_literal_global.157
++ ___block_literal_global.161
++ ___block_literal_global.163
++ ___block_literal_global.166
++ ___block_literal_global.171
++ ___block_literal_global.187
++ ___block_literal_global.189
++ ___block_literal_global.191
++ ___block_literal_global.199
++ ___block_literal_global.220
++ ___block_literal_global.222
++ ___block_literal_global.224
++ ___block_literal_global.228
++ ___block_literal_global.230
++ ___block_literal_global.233
++ ___block_literal_global.238
++ ___block_literal_global.243
++ ___block_literal_global.250
++ ___block_literal_global.259
++ ___block_literal_global.271
++ ___block_literal_global.273
++ ___block_literal_global.284
++ ___block_literal_global.286
++ ___block_literal_global.291
++ ___block_literal_global.302
++ ___block_literal_global.310
++ ___block_literal_global.316
++ ___block_literal_global.33
++ ___block_literal_global.339
++ ___block_literal_global.343
++ ___block_literal_global.349
++ ___block_literal_global.352
++ ___block_literal_global.355
++ ___block_literal_global.372
++ ___block_literal_global.381
++ ___block_literal_global.387
++ ___block_literal_global.389
++ ___block_literal_global.398
++ ___block_literal_global.401
++ ___block_literal_global.406
++ ___block_literal_global.409
++ ___block_literal_global.417
++ ___block_literal_global.419
++ ___block_literal_global.42
++ ___block_literal_global.426
++ ___block_literal_global.435
++ ___block_literal_global.446
++ ___block_literal_global.449
++ ___block_literal_global.467
++ ___block_literal_global.470
++ ___block_literal_global.475
++ ___block_literal_global.50
++ ___block_literal_global.51
++ ___block_literal_global.519
++ ___block_literal_global.545
++ ___block_literal_global.55
++ ___block_literal_global.550
++ ___block_literal_global.575
++ ___block_literal_global.62
++ ___block_literal_global.630
++ ___block_literal_global.65
++ ___block_literal_global.662
++ ___block_literal_global.67
++ ___block_literal_global.676
++ ___block_literal_global.68
++ ___block_literal_global.693
++ ___block_literal_global.695
++ ___block_literal_global.71
++ ___block_literal_global.77
++ ___block_literal_global.78
++ ___block_literal_global.81
++ ___block_literal_global.83
++ ___block_literal_global.86
++ ___block_literal_global.90
++ ___block_literal_global.936
++ ___block_literal_global.94
++ ___block_literal_global.940
++ ___block_literal_global.95
++ ___block_literal_global.979
++ ___copy_helper_block_ea8_112c64_ZTSNSt3__110shared_ptrIN14LaunchServices18LSSandboxExtensionEEE
++ ___copy_helper_block_ea8_32c141_ZTSNSt3__110shared_ptrINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEEEE
++ ___destroy_helper_block_ea8_112c64_ZTSNSt3__110shared_ptrIN14LaunchServices18LSSandboxExtensionEEE
++ ___destroy_helper_block_ea8_32c141_ZTSNSt3__110shared_ptrINS_6vectorINS_4pairIU8__strongU13block_pointerFbP9LSContextRK9LSBindingEU8__strongP8NSStringEENS_9allocatorISE_EEEEEE
++ ___maskrune
++ _backtrace
++ _backtrace_symbols
++ _dlopenHelper$FileProvider
++ _dlopenHelperFlag$FileProvider
++ _getFileHandleForOpeningResourceIfNecessary
++ _kCFURLIsRegularFileKey
++ _kLSClientAllowedToRequestLSDExit
++ _malloc_default_zone
++ _malloc_type_zone_malloc
++ _malloc_zone_free
++ _objc_msgSend$__isDirectlyOneTapOpenable
++ _objc_msgSend$_baseBindingEvaluatorForBindableWithAuditToken:
++ _objc_msgSend$_bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:
++ _objc_msgSend$_handlerRank
++ _objc_msgSend$_initWithClaimRecord:typeRecord:bundleRecord:provenance:
++ _objc_msgSend$_isOneTapOpenable
++ _objc_msgSend$_referenceAccessoryPath
++ _objc_msgSend$_referenceAccessoryURLNoConformances
++ _objc_msgSend$allowNoneHandlerRank
++ _objc_msgSend$allowWildcardClaims
++ _objc_msgSend$appsRatingExemptedBundleIDs
++ _objc_msgSend$attributedString
++ _objc_msgSend$backtraceString
++ _objc_msgSend$baseBindingEvaluatorWithBindingStyle:auditToken:
++ _objc_msgSend$beginBitfieldFlags:
++ _objc_msgSend$beginFlags:flags:
++ _objc_msgSend$bindingConfiguration
++ _objc_msgSend$bindingConfigurationForDocument:style:handlerRank:
++ _objc_msgSend$bindingEvaluatorForAuditToken:
++ _objc_msgSend$bindingEvaluatorForIconInfo
++ _objc_msgSend$childUnit:table:unit:
++ _objc_msgSend$childUnit:unit:
++ _objc_msgSend$compare:options:range:
++ _objc_msgSend$dbRemoveDBOnStartupURL
++ _objc_msgSend$endFlags
++ _objc_msgSend$enumeratePedigreeWithBlock:
++ _objc_msgSend$execSDKVersion
++ _objc_msgSend$extendedAttributeWithName:options:error:
++ _objc_msgSend$findKeysToLocalizeInInfoDictionary:forArrayKey:stringKeys:localizedKeys:
++ _objc_msgSend$flag:name:
++ _objc_msgSend$flag:name:color:
++ _objc_msgSend$hasParallelPlaceholder
++ _objc_msgSend$ignoreStrongBindingPreferences
++ _objc_msgSend$ignoreWeakBindingPreferences
++ _objc_msgSend$initWithBacktrace
++ _objc_msgSend$initWithBindable:
++ _objc_msgSend$initWithBindingConfiguration:
++ _objc_msgSend$initWithBundleIdentifier:sdkDictionary:entitlements:
++ _objc_msgSend$initWithDocumentProxy:
++ _objc_msgSend$initWithDocumentProxy:bindingStyle:
++ _objc_msgSend$initWithFrames:count:
++ _objc_msgSend$initWithLazyPropertyLists:
++ _objc_msgSend$isApplicationEligibleForReadOnlyDocumentOpenBehavior:
++ _objc_msgSend$link:unit:
++ _objc_msgSend$link:unit:linkedText:
++ _objc_msgSend$linkURL:
++ _objc_msgSend$linkURL:linkedText:
++ _objc_msgSend$maximumRating
++ _objc_msgSend$minimumHandlerRank
++ _objc_msgSend$missingFlag:name:
++ _objc_msgSend$missingFlag:name:color:
++ _objc_msgSend$newWithStore:buffer:
++ _objc_msgSend$ratingRankExceptionBundleIDs
++ _objc_msgSend$relativePathToFullPath:fromBasePath:
++ _objc_msgSend$removeDatabaseStoreOnNextOpportunity:
++ _objc_msgSend$requestLSDExitSafely:completionHandler:
++ _objc_msgSend$requireOpenInPlace
++ _objc_msgSend$scanForApplicationStateChangesFromRank:toRank:exceptions:
++ _objc_msgSend$scanForAppsInRatingRankExceptionsList:
++ _objc_msgSend$separatorForTitle:separator:
++ _objc_msgSend$setAllowNoneHandlerRank:
++ _objc_msgSend$setAllowWildcardClaims:
++ _objc_msgSend$setElidesEmptyValues:
++ _objc_msgSend$setExtendedAttribute:name:options:error:
++ _objc_msgSend$setInsertsNewlines:
++ _objc_msgSend$setMaximumHandlerRank:
++ _objc_msgSend$setMinimumHandlerRank:
++ _objc_msgSend$setVisualizer:
++ _objc_msgSend$shouldSetHandlerOnDocumentOpen
++ _objc_msgSend$typeRecordWithError:
++ _objc_msgSend$useOneTapOpenBehavior
++ _objc_msgSend$visualizer
++ _objc_msgSend$withAppliedAttribute:value:block:
++ _objc_msgSend$withReferenceToUnit:unit:block:
++ _objc_msgSend$withTextColor:backgroundColor:block:
++ _objc_msgSend$withTextColor:block:
++ _objc_msgSend$withWarningColors:
++ _objc_msgSend$write:
++ _objc_msgSend$write:array:
++ _objc_msgSend$write:arrayID:
++ _objc_msgSend$write:arrayIDs:count:
++ _objc_msgSend$write:arrayStringID:
++ _objc_msgSend$write:bool:
++ _objc_msgSend$write:directoryClass:
++ _objc_msgSend$write:format:
++ _objc_msgSend$write:interval:
++ _objc_msgSend$write:number:
++ _objc_msgSend$write:platform:
++ _objc_msgSend$write:string:
++ _objc_msgSend$write:stringID:
++ _objc_msgSend$write:version:
++ _objc_msgSend$writeArray:
++ _objc_msgSend$writeAttributedString:
++ _objc_msgSend$writeFormat:
++ _objc_msgSend$writeSeparator
++ _objc_release_x3
++ _openOptionsModifiedForOneTapOpen
++ _openOptionsModifiedForOneTapOpen.cold.1
++ _openOptionsModifiedForOneTapOpen.cold.2
++ _preferredLocalizations.once.248
+- +[LSClaimBinding(ForIconServicesOnly) claimBindingsWithConfiguration:error:]
+- +[_LSStringLocalizer(Private) findKeysToLocalizeInInfoDictionary:forArrayKey:stringKey:localizedKeys:]
+- -[LSApplicationRecord(GameKit) _LSRecord_resolve_supportedGameControllers]
+- -[LSApplicationRecord(GameKit) supportedGameControllersWithContext:tableID:unitID:unitBytes:]
+- -[LSApplicationRecord(GameKit) supportedGameControllers]
+- -[LSApplicationRecord(GameKit) supportsControllerUserInteraction]
+- -[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:]
+- -[LSBundleRecord SDKVersionWithContext:tableID:unitID:unitBytes:]
+- -[LSBundleRecord _LSRecord_resolve_SDKVersion]
+- -[LSClaimBinding _initWithClaimRecord:typeRecord:bundleRecord:]
+- -[LSClaimBinding(ForIconServicesOnly) initWithConfiguration:error:]
+- -[LSClaimBindingConfiguration addClaimRecordIfMissing]
+- -[LSClaimBindingConfiguration bundleClassMask]
+- -[LSClaimBindingConfiguration setAddClaimRecordIfMissing:]
+- -[LSClaimBindingConfiguration setBundleClassMask:]
+- -[LSDocumentProxy(Binding) _bindingEvaluatorWithAuditToken:]
+- -[LSUseValuesMCStateProvider initWithAllowlistEnabled:allowlistedBundles:restrictedBundles:]
+- -[_LSDefaults allowsUnentitledExtensionPointDeclaration]
+- -[_LSDocumentProxyBindingQuery documentProxy]
+- -[_LSDocumentProxyBindingQuery filterOpenRestrictedBindings:connection:context:earlyYield:]
+- -[_LSDocumentProxyBindingQuery filterOpenRestrictedBindings:connection:context:earlyYield:].cold.1
+- -[_LSDocumentProxyBindingQuery handlerRank]
+- -[_LSDocumentProxyBindingQuery style]
+- GCC_except_table165
+- GCC_except_table171
+- GCC_except_table196
+- GCC_except_table200
+- GCC_except_table208
+- GCC_except_table209
+- GCC_except_table211
+- GCC_except_table214
+- GCC_except_table217
+- GCC_except_table220
+- GCC_except_table238
+- GCC_except_table242
+- GCC_except_table245
+- GCC_except_table248
+- GCC_except_table251
+- GCC_except_table255
+- GCC_except_table267
+- GCC_except_table269
+- GCC_except_table271
+- GCC_except_table274
+- GCC_except_table277
+- GCC_except_table285
+- GCC_except_table288
+- GCC_except_table297
+- GCC_except_table298
+- GCC_except_table302
+- GCC_except_table305
+- GCC_except_table306
+- GCC_except_table318
+- GCC_except_table322
+- GCC_except_table323
+- GCC_except_table337
+- GCC_except_table340
+- GCC_except_table344
+- GCC_except_table346
+- GCC_except_table349
+- GCC_except_table352
+- GCC_except_table359
+- GCC_except_table370
+- GCC_except_table371
+- GCC_except_table373
+- GCC_except_table377
+- GCC_except_table379
+- GCC_except_table393
+- GCC_except_table426
+- GCC_except_table432
+- GCC_except_table436
+- GCC_except_table440
+- GCC_except_table442
+- GCC_except_table446
+- GCC_except_table447
+- GCC_except_table460
+- GCC_except_table479
+- GCC_except_table480
+- GCC_except_table483
+- GCC_except_table486
+- GCC_except_table488
+- GCC_except_table489
+- _CFAllocatorAllocate
+- _OBJC_IVAR_$_LSBundleRecordBuilder._canDefineSystemExtensionPoint
+- _OBJC_IVAR_$_LSClaimBindingConfiguration._typeIdentifier
+- _OBJC_IVAR_$__LSDatabase.schema
+- _OBJC_IVAR_$__LSDatabase.store
+- _OBJC_IVAR_$__LSDocumentProxyBindingQuery._documentProxy
+- _OBJC_IVAR_$__LSDocumentProxyBindingQuery._handlerRank
+- _OBJC_IVAR_$__LSDocumentProxyBindingQuery._style
+- __LSGetNSErrorFromOSStatusImpl.cold.1
+- __OBJC_$_CLASS_METHODS_LSApplicationRecord(Containers|iTunesMetadata|UniqueIdentifiers|InfoPlistRarities|Localization|AlternateIconsInternal|AlternateIcons|IconServices|Intents|UserActivity|GameKit|AppWrappers|MobileInstall|watchOS|InstallMachineryPrivate|Transitional|Identities|DefaultApps|BUIPrivate|ForRunningBoardOnly|Redaction|Diagnostic|Enumeration)
+- __OBJC_$_CLASS_METHODS_LSApplicationWorkspace(DeprecatedEnumeration|DefaultApps|Marketplaces|URLQueries|DeprecatedURLQueries|LSURLOverride)
+- __OBJC_$_CLASS_METHODS_LSClaimBinding(ForIconServicesOnly)
+- __OBJC_$_CLASS_METHODS_LSDocumentProxy
+- __OBJC_$_CLASS_METHODS_UTTypeRecord(Enumeration|IconServices)
+- __OBJC_$_INSTANCE_METHODS_LSApplicationRecord(Containers|iTunesMetadata|UniqueIdentifiers|InfoPlistRarities|Localization|AlternateIconsInternal|AlternateIcons|IconServices|Intents|UserActivity|GameKit|AppWrappers|MobileInstall|watchOS|InstallMachineryPrivate|Transitional|Identities|DefaultApps|BUIPrivate|ForRunningBoardOnly|Redaction|Diagnostic|Enumeration)
+- __OBJC_$_INSTANCE_METHODS_LSApplicationWorkspace(DeprecatedEnumeration|DefaultApps|Marketplaces|URLQueries|DeprecatedURLQueries|LSURLOverride)
+- __OBJC_$_INSTANCE_METHODS_LSClaimBinding(ForIconServicesOnly)
+- __OBJC_$_INSTANCE_METHODS_LSClaimBindingConfiguration
+- __OBJC_$_INSTANCE_METHODS_UTTypeRecord(Enumeration|IconServices)
+- __OBJC_$_INSTANCE_METHODS__UTDeclaredTypeRecord
+- __OBJC_$_PROP_LIST_LSClaimBindingConfiguration
+- __Z28CFDictionaryGetValueAsNumberPK14__CFDictionaryPKv
+- __Z33LSPersonaTypeForPersonaAttributesP23UMUserPersonaAttributes
+- __ZGVZL24once_createPropertyTablevE27architecturesDependencyKeys
+- __ZL20initFBSProcessHandlev
+- __ZL21classFBSProcessHandle
+- __ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE
+- __ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE.cold.1
+- __ZL24FBSProcessHandleFunctionv
+- __ZL24getFBSProcessHandleClass
+- __ZL25_LSCopyPathRelativeToBasePK10__CFStringS1_
+- __ZL39CreateBindingEvaluatorWithConfigurationP27LSClaimBindingConfiguration
+- __ZN12LSPluginInfoD1Ev
+- __ZN14LSCrashMessageD2Ev
+- __ZN14LSCrashMessageD2Ev.cold.1
+- __ZN14LaunchServices10ContainersL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices10DumpWriter14directoryClassEP8NSString16LSDirectoryClass
+- __ZN14LaunchServices10DumpWriter7versionEP8NSString15LSVersionNumber
+- __ZN14LaunchServices10DumpWriter8platformEP8NSStringj
+- __ZN14LaunchServices10DumpWriterC1EP11_LSDatabaseP25NSMutableAttributedString
+- __ZN14LaunchServices10DumpWriterC1EP25NSMutableAttributedString
+- __ZN14LaunchServices10DumpWriterC2EP11_LSDatabaseP25NSMutableAttributedString
+- __ZN14LaunchServices10DumpWriterD0Ev
+- __ZN14LaunchServices10DumpWriterD1Ev
+- __ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices12HandlerPrefsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices12LocalizationL22displayCanonicalStringEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices12LocalizationL22displayLocalizedStringEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices13PropertyListsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices15ExtensionPointsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices17BindingEvaluationL14addAndEvaluateERNS0_5StateEPFvS2_ERNSt3__16vectorINS0_15ExtendedBindingENS5_3pmr21polymorphic_allocatorIS7_EEEE
+- __ZN14LaunchServices17BindingEvaluationL15pushBackBindingERNS0_5StateERNSt3__16vectorINS0_15ExtendedBindingENS3_3pmr21polymorphic_allocatorIS5_EEEERKS5_
+- __ZN14LaunchServices17BindingEvaluationL24getBindingMemoryResourceEv
+- __ZN14LaunchServices17BindingEvaluationL24getBindingMemoryResourceEv.cold.1
+- __ZN14LaunchServices17BindingEvaluationL30ensureBundlePointersInBindingsERKNSt3__16vectorINS0_15ExtendedBindingENS1_3pmr21polymorphic_allocatorIS3_EEEE
+- __ZN14LaunchServices21DatabaseVisualizationL21writeTableDescriptionEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices4UTIsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices6ClaimsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices7AliasesL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14LaunchServices7PluginsL7displayEP9LSContextjjPNS_10DumpWriterE
+- __ZN14_LSSchemaCacheC2Ev
+- __ZN14_LSSchemaCacheD2Ev
+- __ZN16_LSHoistingStateD1Ev
+- __ZN21LSRegisterPluginStateD1Ev
+- __ZN8CSStore222AttributedStringWriter10beginFlagsEP8NSStringm
+- __ZN8CSStore222AttributedStringWriter11missingFlagEmP8NSStringRKNSt3__18optionalIjEE
+- __ZN8CSStore222AttributedStringWriter11stringArrayEP8NSStringPKjj
+- __ZN8CSStore222AttributedStringWriter11stringArrayEP8NSStringj
+- __ZN8CSStore222AttributedStringWriter13setVisualizerEP13_CSVisualizer
+- __ZN8CSStore222AttributedStringWriter13withTextColorEjU13block_pointerFvvE
+- __ZN8CSStore222AttributedStringWriter16attributedStringEP18NSAttributedString
+- __ZN8CSStore222AttributedStringWriter17withWarningColorsEU13block_pointerFvvE
+- __ZN8CSStore222AttributedStringWriter18beginBitfieldFlagsEP8NSString
+- __ZN8CSStore222AttributedStringWriter18setInsertsNewlinesEb
+- __ZN8CSStore222AttributedStringWriter19withReferenceToUnitEjjU13block_pointerFvvE
+- __ZN8CSStore222AttributedStringWriter20setElidesEmptyValuesEb
+- __ZN8CSStore222AttributedStringWriter20withAppliedAttributeEP8NSStringP11objc_objectU13block_pointerFvvE
+- __ZN8CSStore222AttributedStringWriter26withTextAndBackgroundColorEjjU13block_pointerFvvE
+- __ZN8CSStore222AttributedStringWriter4flagEmP8NSStringRKNSt3__18optionalIjEE
+- __ZN8CSStore222AttributedStringWriter4linkEP5NSURLP8NSString
+- __ZN8CSStore222AttributedStringWriter4linkEjjP8NSString
+- __ZN8CSStore222AttributedStringWriter5arrayEP7NSArray
+- __ZN8CSStore222AttributedStringWriter5arrayEP8NSStringP7NSArray
+- __ZN8CSStore222AttributedStringWriter6formatEP8NSStringS2_z
+- __ZN8CSStore222AttributedStringWriter6numberEP8NSStringP8NSNumber
+- __ZN8CSStore222AttributedStringWriter6stringEP8NSString
+- __ZN8CSStore222AttributedStringWriter6stringEP8NSStringS2_
+- __ZN8CSStore222AttributedStringWriter6stringEP8NSStringj
+- __ZN8CSStore222AttributedStringWriter8endFlagsEv
+- __ZN8CSStore222AttributedStringWriter9SeparatorEcP8NSString
+- __ZN8CSStore222AttributedStringWriter9childUnitEP8NSStringjj
+- __ZN8CSStore222AttributedStringWriter9childUnitEjj
+- __ZN8CSStore222AttributedStringWriter9separatorEcP8NSString
+- __ZN8CSStore222AttributedStringWriter9timestampEP8NSStringd
+- __ZN8CSStore222AttributedStringWriterC2EPK9__CSStoreP25NSMutableAttributedString
+- __ZN8CSStore222AttributedStringWriterC2ERKS0_
+- __ZN8CSStore222AttributedStringWriterD2Ev
+- __ZNK8CSStore222AttributedStringWriter13getVisualizerEv
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8nn190102INS_13move_iteratorINS_11__wrap_iterIPN14LaunchServices17BindingEvaluation15ExtendedBindingEEEEESB_S9_EENS_4pairIT_T1_EESD_T0_SE_
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8nn190102IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_P9LSBindingEENS_4pairIT_T1_EESB_T0_SC_
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8nn190102IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8nn190102IP9LSBindingS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8nn190102IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8nn190102IPU6__weakP8LSRecordS7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE3strEv
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn190102IP9LSBindingS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn190102IPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__120__move_backward_implINS_17_ClassicAlgPolicyEEclB8nn190102IPU6__weakP8LSRecordS7_S7_EENS_4pairIT_T1_EES9_T0_SA_
+- __ZNKSt3__121__murmur2_or_cityhashImLm64EEclB8nn190102EPKvm
+- __ZNKSt3__18equal_toINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8nn190102ERKS6_S9_
+- __ZNSt3__110__function12__value_funcIFN14LaunchServices23LSDefaultAppsExtraStateENS_8optionalIS3_EEP7NSErrorEED2B8nn190102Ev
+- __ZNSt3__110__function12__value_funcIFP11objc_objectS3_P7NSErrorEED2B8nn190102Ev
+- __ZNSt3__110__function12__value_funcIFbP11objc_objectEEC2B8nn190102EOS5_
+- __ZNSt3__110__function12__value_funcIFbP11objc_objectEED2B8nn190102Ev
+- __ZNSt3__110unique_ptrIA_PNS_16__hash_node_baseIPNS_11__hash_nodeIjPvEEEENS_25__bucket_list_deallocatorINS_3pmr21polymorphic_allocatorIS7_EEEEED2B8nn190102Ev
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIP13objc_selectorU8__strongP11objc_objectEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB8nn190102EPSA_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIPKvU8__strongP5NSSetIP10objc_classEEEPvEENS_22__hash_node_destructorINS_9allocatorISD_EEEEE5resetB8nn190102EPSD_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_13unordered_mapIjbNS_4hashIjEENS_8equal_toIjEENS_9allocatorINS_4pairIKjbEEEEEEEEPvEENS_22__hash_node_destructorINS8_ISG_EEEEE5resetB8nn190102EPSG_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjNS_13unordered_setIjNS_4hashIjEENS_8equal_toIjEENS_9allocatorIjEEEEEEPvEENS_22__hash_node_destructorINS8_ISD_EEEEE5resetB8nn190102EPSD_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjU8__strongP19LSApplicationRecordEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8nn190102EPS8_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIjU8__strongP8NSStringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8nn190102EPS8_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeIyN14LaunchServices11OpenStaging20StagingDirectoryInfoEEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8nn190102EPS8_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeIjU8__strongP8NSStringEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEE5resetB8nn190102EPS8_
+- __ZNSt3__110unique_ptrINS_11__tree_nodeINS_12__value_typeImU8__strongU13block_pointerFvvEEEPvEENS_22__tree_node_destructorINS_9allocatorIS8_EEEEE5resetB8nn190102EPS8_
+- __ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_2PjLb0EEEvT1_S5_T0_NS_15iterator_traitsIS5_E15difference_typeEb
+- __ZNSt3__111__sift_downB8nn190102INS_17_ClassicAlgPolicyERZN14LaunchServices17BindingEvaluationL4sortERNS3_5StateEE3$_0NS_11__wrap_iterIPNS3_15ExtendedBindingEEEEEvT1_OT0_NS_15iterator_traitsISC_E15difference_typeESC_
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeIyN14LaunchServices11OpenStaging20StagingDirectoryInfoEEENS_22__unordered_map_hasherIyS5_NS_4hashIyEENS_8equal_toIyEELb1EEENS_21__unordered_map_equalIyS5_SA_S8_Lb1EEENS_9allocatorIS5_EEE5eraseENS_21__hash_const_iteratorIPNS_11__hash_nodeIS5_PvEEEE
+- __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEE11__do_rehashILb1EEEvm
+- __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEE25__emplace_unique_key_argsIjJRKjEEENS_4pairINS_15__hash_iteratorIPNS_11__hash_nodeIjPvEEEEbEERKT_DpOT0_
+- __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEE4findIjEENS_15__hash_iteratorIPNS_11__hash_nodeIjPvEEEERKT_
+- __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEE8__rehashILb1EEEvm
+- __ZNSt3__112__hash_tableIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEED2Ev
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8nn190102ILi0EEEPKc
+- __ZNSt3__113__tree_removeB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__113unordered_mapIPK20LSExtensionPointDatajZ27_LSEnumerateExtensionPointsE30_LSExtensionPointCxxComparatorS4_NS_9allocatorINS_4pairIKS3_jEEEEED1B8nn190102Ev
+- __ZNSt3__113unordered_mapIyN14LaunchServices11OpenStaging20StagingDirectoryInfoENS_4hashIyEENS_8equal_toIyEENS_9allocatorINS_4pairIKyS3_EEEEE16insert_or_assignB8nn190102IS3_EENS9_INS_19__hash_map_iteratorINS_15__hash_iteratorIPNS_11__hash_nodeINS_17__hash_value_typeIyS3_EEPvEEEEEEbEERSA_OT_
+- __ZNSt3__113unordered_setIjNS_4hashIjEENS_8equal_toIjEENS_3pmr21polymorphic_allocatorIjEEEC2EmRKS2_RKS4_RKS7_
+- __ZNSt3__114__split_bufferI9LSBindingRNS_9allocatorIS1_EEE17__destruct_at_endB8nn190102EPS1_
+- __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS_3pmr21polymorphic_allocatorIS3_EEE5clearB8nn190102Ev
+- __ZNSt3__114__split_bufferIN14LaunchServices17BindingEvaluation15ExtendedBindingERNS_3pmr21polymorphic_allocatorIS3_EEED2Ev
+- __ZNSt3__114__split_bufferIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierERNS_9allocatorIS3_EEE5clearB8nn190102Ev
+- __ZNSt3__114__split_bufferINS_10shared_ptrIN14LaunchServices16PerThreadContextEEERNS_9allocatorIS4_EEE5clearB8nn190102Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEEC2Ev
+- __ZNSt3__115basic_streambufIcNS_11char_traitsIcEEED2Ev
+- __ZNSt3__116__pad_and_outputB8nn190102IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI11LSSliceDataEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI13LSBundleClassEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI13LSPersonaTypeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI23os_eligibility_answer_tEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorI9LSBindingEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS9_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_4pairIP13objc_selectorPFvP11objc_objectS4_EEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSD_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_4pairIjPK12LSBundleDataEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_4pairIjU8__strongP6NSUUIDEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorINS_5tupleIJU8__strongP8NSStringjEEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIP8LSRecordEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPK10__CFStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIPKvEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIU6__weakP8LSRecordEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIU8__strongP19LSApplicationRecordEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIU8__strongP8NSStringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSC_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIU8__strongU13block_pointerFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIiEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorIjEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__allocate_at_leastB8nn190102INS_9allocatorItEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS5_m
+- __ZNSt3__119__shared_weak_count16__release_sharedB8nn190102Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8nn190102Ev
+- __ZNSt3__119basic_ostringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev
+- __ZNSt3__120__optional_copy_baseIN14LaunchServices16BindingEvaluatorELb0EEC2B8nn190102ERKS3_
+- __ZNSt3__120back_insert_iteratorINS_6vectorIjNS_9allocatorIjEEEEEaSB8nn190102EOj
+- __ZNSt3__120back_insert_iteratorINS_6vectorIjNS_9allocatorIjEEEEEaSB8nn190102ERKj
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE18__hash_len_0_to_16B8nn190102EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_17_to_32B8nn190102EPKcm
+- __ZNSt3__121__murmur2_or_cityhashImLm64EE19__hash_len_33_to_64B8nn190102EPKcm
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEEPvEEEEEclB8nn190102EPS9_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIP17_opaque_pthread_tNS_10shared_ptrIN14LaunchServices16PerThreadContextEEEEEPvEEEEEclB8nn190102EPSC_
+- __ZNSt3__122__hash_node_destructorINS_9allocatorINS_11__hash_nodeINS_17__hash_value_typeIPKvNS_6vectorINS_4pairIP13objc_selectorPFvP11objc_objectS9_EEENS1_ISE_EEEEEEPvEEEEEclB8nn190102EPSJ_
+- __ZNSt3__123__optional_storage_baseI9LSBindingLb0EE13__assign_fromB8nn190102INS_27__optional_move_assign_baseIS1_Lb0EEEEEvOT_
+- __ZNSt3__123__optional_storage_baseIN14LaunchServices13TypeEvaluator6ResultELb0EE13__assign_fromB8nn190102INS_27__optional_move_assign_baseIS3_Lb0EEEEEvOT_
+- __ZNSt3__123__optional_storage_baseIU8__strongP12NSDictionaryIP8NSStringP11objc_objectELb0EE13__assign_fromB8nn190102INS_27__optional_move_assign_baseIS8_Lb0EEEEEvOT_
+- __ZNSt3__123__optional_storage_baseIU8__strongP8NSStringLb0EE13__assign_fromB8nn190102INS_27__optional_move_assign_baseIS3_Lb0EEEEEvOT_
+- __ZNSt3__124__optional_destruct_baseI9LSBindingLb0EE5resetB8nn190102Ev
+- __ZNSt3__124__optional_destruct_baseI9LSBindingLb0EED2B8nn190102Ev
+- __ZNSt3__124__optional_destruct_baseIN14LaunchServices16EligibilityCache11NotifyStateELb0EE5resetB8nn190102Ev
+- __ZNSt3__124__optional_destruct_baseIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierELb0EED2B8nn190102Ev
+- __ZNSt3__124__optional_destruct_baseIN14LaunchServices30FeatureFlagPredicateEvaluation9PredicateELb0EE5resetB8nn190102Ev
+- __ZNSt3__124__optional_destruct_baseIN14LaunchServices30FeatureFlagPredicateEvaluation9PredicateELb0EED2B8nn190102Ev
+- __ZNSt3__124__put_character_sequenceB8nn190102IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__124__sort5_maybe_branchlessB8nn190102INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEELi0EEEvT1_SA_SA_SA_SA_T0_
+- __ZNSt3__124__sort5_maybe_branchlessB8nn190102INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_2PjLi0EEEvT1_S5_S5_S5_S5_T0_
+- __ZNSt3__124__sort5_maybe_branchlessB8nn190102INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataLi0EEEvT1_SE_SE_SE_SE_T0_
+- __ZNSt3__125__throw_bad_function_callB8nn190102Ev
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEEEEbT1_SA_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_2PjEEbT1_S5_T0_
+- __ZNSt3__127__insertion_sort_incompleteB8nn190102INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataEEbT1_SE_T0_
+- __ZNSt3__127__throw_bad_optional_accessB8nn190102Ev
+- __ZNSt3__127__tree_balance_after_insertB8nn190102IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_3pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEEES5_EEvRT_PT0_SA_SA_
+- __ZNSt3__134__uninitialized_allocator_relocateB8nn190102INS_9allocatorIU6__weakP8LSRecordEES4_EEvRT_PT0_S9_S9_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8nn190102INS_3pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEEENS_13move_iteratorINS_11__wrap_iterIPS5_EEEESB_S9_EET2_RT_T0_T1_SC_
+- __ZNSt3__135__uninitialized_allocator_copy_implB8nn190102INS_9allocatorI9LSBindingEEPN14LaunchServices17BindingEvaluation15ExtendedBindingES7_PS2_EET2_RT_T0_T1_S9_
+- __ZNSt3__13pmr20get_default_resourceEv
+- __ZNSt3__13pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEE7destroyB8nn190102IS4_EEvPT_
+- __ZNSt3__13pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEE8allocateB8nn190102Em
+- __ZNSt3__13pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEE9constructB8nn190102IS4_JRKS4_EEEvPT_DpOT0_
+- __ZNSt3__13pmr21polymorphic_allocatorIN14LaunchServices17BindingEvaluation15ExtendedBindingEE9constructB8nn190102IS4_JRS4_EEEvPT_DpOT0_
+- __ZNSt3__13pmr21polymorphic_allocatorIPNS_16__hash_node_baseIPNS_11__hash_nodeIjPvEEEEE8allocateB8nn190102Em
+- __ZNSt3__14swapB8nn190102IN14LaunchServices17BindingEvaluation15ExtendedBindingEEENS_9enable_ifIXaasr21is_move_constructibleIT_EE5valuesr18is_move_assignableIS5_EE5valueEvE4typeERS5_S8_
+- __ZNSt3__16__findB8nn190102IPU6__weakP8LSRecordS4_DnNS_10__identityEEET_S6_T0_RKT1_RT2_
+- __ZNSt3__16removeB8nn190102INS_11__wrap_iterIPU6__weakP8LSRecordEEDnEET_S7_S7_RKT0_
+- __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE18__assign_with_sizeB8nn190102IPKS1_S7_EEvT_T0_l
+- __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEE18__assign_with_sizeB8nn190102IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI13LSBundleClassNS_9allocatorIS1_EEEC2ERKS4_
+- __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE18__insert_with_sizeB8nn190102INS_11__wrap_iterIPN14LaunchServices17BindingEvaluation15ExtendedBindingEEESB_EENS6_IPS1_EENS6_IPKS1_EET_T0_l
+- __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE22__base_destruct_at_endB8nn190102EPS1_
+- __ZNSt3__16vectorI9LSBindingNS_9allocatorIS1_EEE5eraseENS_11__wrap_iterIPKS1_EES8_
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE12__move_rangeEPS3_S8_S8_
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE13__move_assignERS7_NS_17integral_constantIbLb0EEE
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE13__vdeallocateEv
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE18__assign_with_sizeB8nn190102INS_13move_iteratorINS_11__wrap_iterIPS3_EEEESD_EEvT_T0_l
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE18__insert_with_sizeB8nn190102INS_11__wrap_iterIPS3_EESB_EESB_NS9_IPKS3_EET_T0_l
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE26__swap_out_circular_bufferERNS_14__split_bufferIS3_RS6_EEPS3_
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE5eraseENS_11__wrap_iterIPKS3_EESB_
+- __ZNSt3__16vectorIN14LaunchServices17BindingEvaluation15ExtendedBindingENS_3pmr21polymorphic_allocatorIS3_EEE7reserveEm
+- __ZNSt3__16vectorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierENS_9allocatorIS3_EEE12emplace_backIJS3_EEERS3_DpOT_
+- __ZNSt3__16vectorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIN14LaunchServices5Types41EnumeratedTypeUnitOrDynamicTypeIdentifierENS_9allocatorIS3_EEE9push_backB8nn190102ERKS3_
+- __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN14LaunchServices16PerThreadContextEEENS_9allocatorIS4_EEE7__clearB8nn190102Ev
+- __ZNSt3__16vectorINS_4pairIjU8__strongP6NSUUIDEENS_9allocatorIS5_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorINS_5tupleIJU8__strongP8NSStringjEEENS_9allocatorIS5_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIPKvNS_9allocatorIS2_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__init_with_sizeB8nn190102IPKS2_S9_EEvT_T0_m
+- __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE16__init_with_sizeB8nn190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIU6__weakP8LSRecordNS_9allocatorIS3_EEE18__insert_with_sizeB8nn190102IPKS2_S9_EENS_11__wrap_iterIPS3_EENSA_IPU6__weakKS2_EET_T0_l
+- __ZNSt3__16vectorIU8__strongP19LSApplicationRecordNS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIU8__strongP8NSStringNS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIU8__strongU13block_pointerFvbP11_LSDatabaseP7NSErrorENS_9allocatorIS7_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE16__destroy_vectorclB8nn190102Ev
+- __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE16__init_with_sizeB8nn190102IPS3_S8_EEvT_T0_m
+- __ZNSt3__16vectorIU8__strongU13block_pointerFvvENS_9allocatorIS3_EEE9push_backB8nn190102ERU8__strongKS2_
+- __ZNSt3__16vectorIiNS_9allocatorIiEEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE11__vallocateB8nn190102Em
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__assign_with_sizeB8nn190102IPjS5_EEvT_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE18__insert_with_sizeB8nn190102INS_11__wrap_iterIPjEES7_EES7_NS5_IPKjEET_T0_l
+- __ZNSt3__16vectorIjNS_9allocatorIjEEEC2ERKS3_
+- __ZNSt3__16vectorItNS_9allocatorItEEE11__vallocateB8nn190102Em
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEEEEjT1_SA_SA_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_2PjEEjT1_S5_S5_T0_
+- __ZNSt3__17__sort3B8nn190102INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataEEjT1_SE_SE_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZ87+[LSApplicationRecord(UserActivity) applicationRecordsForUserActivityType:limit:error:]E3$_0PNS_4pairIjPK12LSBundleDataEEEEvT1_SA_SA_SA_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZ98+[LSApplicationRecord(Enumeration) displayOrderEnumeratorForViableDefaultAppsForCategory:options:]E3$_2PjEEvT1_S5_S5_S5_T0_
+- __ZNSt3__17__sort4B8nn190102INS_17_ClassicAlgPolicyERZL33_LSBundleCopyArchitectures_CommonPK12LSBundleDataP7NSArrayIP8NSStringEE3$_0P11LSSliceDataEEvT1_SE_SE_SE_T0_
+- __ZNSt3__18optionalI9LSBindingEaSB8nn190102IRKN14LaunchServices17BindingEvaluation15ExtendedBindingEvEERS2_OT_
+- __ZNSt3__18optionalI9LSBindingEaSB8nn190102IS1_vEERS2_OT_
+- __ZNSt3__18optionalIN14LaunchServices11OpenStaging20StagingDirectoryInfoEE7emplaceB8nn190102IJRU8__strongP8NSStringRU8__strongP6FSNodeRxEvEERS3_DpOT_
+- __ZNSt3__18optionalIN14LaunchServices16BindingEvaluatorEEaSB8nn190102IS2_vEERS3_OT_
+- __ZNSt3__18optionalIN14LaunchServices30EligibilityPredicateEvaluation9PredicateEE7emplaceB8nn190102IJS3_EvEERS3_DpOT_
+- __ZNSt3__18optionalIN14LaunchServices30FeatureFlagPredicateEvaluation9PredicateEE7emplaceB8nn190102IJS3_EvEERS3_DpOT_
+- __ZNSt3__18optionalIU8__strongP7NSErrorEaSB8nn190102IRS3_vEERS4_OT_
+- __ZNSt3__19allocatorIN14LaunchServices30FeatureFlagPredicateEvaluation20FeatureFlagSpecifierEE7destroyB8nn190102EPS3_
+- __ZNSt3__19remove_ifB8nn190102INS_11__wrap_iterIP9LSBindingEEU8__strongU13block_pointerFbRKS2_EEET_SA_SA_T0_
+- __ZSt28__throw_bad_array_new_lengthB8nn190102v
+- __ZTVN14LaunchServices10DumpWriterE
+- __ZZL24once_createPropertyTablevE27architecturesDependencyKeys
+- __ZZN14LaunchServices17BindingEvaluationL21getLocalAllocatorInfoEvE9onceToken
+- __Znwm
+- ___101-[_LSInstallProgressService createInstallProgressForApplication:withPhase:andPublishingString:reply:]_block_invoke.268
+- ___111-[_LSCanOpenURLManager(PrivateSchemeChecking) legacy_isBundleID:bundleData:context:allowedToCheckScheme:error:]_block_invoke.73
+- ___37-[LSSettingsStore addChangeObserver:]_block_invoke.40
+- ___42-[LSDocumentProxy(Binding) _boundIconInfo]_block_invoke.154
+- ___42-[LSMIResultRegistrant runWithCompletion:]_block_invoke.106
+- ___44-[LSMIResultUnregistrant runWithCompletion:]_block_invoke.140
+- ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.17
+- ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.17.cold.1
+- ___45+[LSBundleProxy bundleProxyForCurrentProcess]_block_invoke.21
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke.190
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke.193
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke.198
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke.204
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke.210
+- ___45-[LSApplicationWorkspace establishConnection]_block_invoke_2.201
+- ___47-[LSByURLBundleUnregistrant runWithCompletion:]_block_invoke.158
+- ___47-[LSByURLPluginUnregistrant runWithCompletion:]_block_invoke.176
+- ___50-[_LSDiskUsage(Private) fetchClientSideWithError:]_block_invoke.144
+- ___51-[LSApplicationWorkspace deviceIdentifierForVendor]_block_invoke.374
+- ___51-[LSApplicationWorkspace deviceIdentifierForVendor]_block_invoke.374.cold.1
+- ___52-[_LSInstallProgressService restoreInactiveInstalls]_block_invoke.216
+- ___52-[_LSInstallProgressService restoreInactiveInstalls]_block_invoke.216.cold.1
+- ___54-[_LSClientSettingsStore resetUserElectionsWithError:]_block_invoke.222
+- ___54-[_LSClientSettingsStore resetUserElectionsWithError:]_block_invoke.222.cold.1
+- ___54-[_LSClientSettingsStore userElectionForExtensionKey:]_block_invoke.219
+- ___54-[_LSClientSettingsStore userElectionForExtensionKey:]_block_invoke.219.cold.1
+- ___55-[LSApplicationWorkspace _LSPrivateNoteMigratorRunning]_block_invoke.400
+- ___55-[LSApplicationWorkspace _LSPrivateNoteMigratorRunning]_block_invoke.400.cold.1
+- ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.634
+- ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.634.cold.1
+- ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.635
+- ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.635.cold.1
+- ___56-[LSApplicationRecord(AlternateIcons) alternateIconName]_block_invoke.635.cold.2
+- ___56-[LSApplicationWorkspace deviceIdentifierForAdvertising]_block_invoke.371
+- ___56-[LSApplicationWorkspace deviceIdentifierForAdvertising]_block_invoke.371.cold.1
+- ___58+[UTTypeRecord _typeRecordWithIdentifier:allowUndeclared:]_block_invoke_2
+- ___59-[_LSDModifyClient removeAllHandlersWithCompletionHandler:]_block_invoke.241
+- ___59-[_LSXPCQueryResolver _resolveQueries:XPCConnection:error:]_block_invoke.136
+- ___59-[_LSXPCQueryResolver _resolveQueries:XPCConnection:error:]_block_invoke.136.cold.1
+- ___60-[LSApplicationRestrictionsManager beginListeningForChanges]_block_invoke.108
+- ___61-[LSSystemExtensionPointRefreshRegistrant runWithCompletion:]_block_invoke.216
+- ___64-[_LSClientSettingsStore setUserElection:forExtensionKey:error:]_block_invoke.221
+- ___64-[_LSClientSettingsStore setUserElection:forExtensionKey:error:]_block_invoke.221.cold.1
+- ___64-[_LSInstallProgressService loadJournalledNotificationsFromDisk]_block_invoke.339
+- ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.216
+- ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.216.cold.1
+- ___65-[_LSClientSettingsStore __internalQueue_xpcConnectionWithError:]_block_invoke.218
+- ___66-[LSApplicationWorkspace installProgressForApplication:withPhase:]_block_invoke.383
+- ___66-[_LSDocumentProxyBindingQuery _enumerateWithXPCConnection:block:]_block_invoke
+- ___67-[LSApplicationRecord(UniqueIdentifiers) deviceIdentifierForVendor]_block_invoke.507
+- ___68-[LSApplicationRestrictionsManager handleMCEffectiveSettingsChanged]_block_invoke.116
+- ___68-[LSApplicationRestrictionsManager handleMCEffectiveSettingsChanged]_block_invoke.117
+- ___68-[LSApplicationWorkspace urlContainsDeviceIdentifierForAdvertising:]_block_invoke.375
+- ___68-[LSApplicationWorkspaceRemoteObserver applicationInstallsDidStart:]_block_invoke.753
+- ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.378
+- ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.379
+- ___69-[LSApplicationWorkspace installProgressForBundleID:makeSynchronous:]_block_invoke.380
+- ___72-[LSApplicationRecord(UniqueIdentifiers) deviceIdentifierForAdvertising]_block_invoke.509
+- ___72-[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:]_block_invoke
+- ___72-[LSApplicationWorkspace scanForApplicationStateChangesFromRank:toRank:]_block_invoke_2
+- ___73-[LSApplicationRestrictionsManager _pruneObsoleteTrustedSignerIdentities]_block_invoke.118
+- ___75-[_LSDModifyClient unregisterApplicationsAtMountPoint:operationUUID:reply:]_block_invoke.281
+- ___75-[_LSDModifyClient unregisterApplicationsAtMountPoint:operationUUID:reply:]_block_invoke.286
+- ___76-[_LSInstallProgressService addSendNotificationFenceWithTimeout:fenceBlock:]_block_invoke.334
+- ___78-[LSApplicationRecord(AlternateIcons) setAlternateIconName:completionHandler:]_block_invoke.629
+- ___78-[LSApplicationRecord(AlternateIcons) setAlternateIconName:completionHandler:]_block_invoke.629.cold.1
+- ___79-[_LSInstallProgressService sendNotification:forAppProxies:Plugins:completion:]_block_invoke.319
+- ___84-[_LSDModifyClient setPreferenceValue:forKey:forApplicationAtURL:completionHandler:]_block_invoke.321
+- ___89-[LSApplicationRestrictionsManager scanForMissedNotificationsForImportantAppsIfNecessary]_block_invoke.107
+- ___91-[_LSDocumentProxyBindingQuery filterOpenRestrictedBindings:connection:context:earlyYield:]_block_invoke
+- ___93-[LSApplicationRecord(GameKit) supportedGameControllersWithContext:tableID:unitID:unitBytes:]_block_invoke
+- ___95-[LSApplicationWorkspace _LSPrivateRebuildApplicationDatabasesForSystemApps:internal:user:uid:]_block_invoke.395
+- ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.316
+- ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.316.cold.1
+- ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.317
+- ___98-[LSApplicationWorkspace commonClientOpenURL:options:configuration:synchronous:completionHandler:]_block_invoke.317.cold.1
+- ___98-[_LSDModifyClient performUpdateOfPersonasOfBundleIDs:toPersonaUniqueStrings:operationUUID:reply:]_block_invoke.340
+- ___99+[LSApplicationRecord setUpdateAvailabilityForApplicationsWithBundleIdentifiers:completionHandler:]_block_invoke.34
+- ___99+[LSApplicationRecord setUpdateAvailabilityForApplicationsWithBundleIdentifiers:completionHandler:]_block_invoke.38
+- ___Block_byref_object_copy_.1005
+- ___Block_byref_object_copy_.1181
+- ___Block_byref_object_copy_.130
+- ___Block_byref_object_copy_.135
+- ___Block_byref_object_copy_.141
+- ___Block_byref_object_copy_.196
+- ___Block_byref_object_copy_.24
+- ___Block_byref_object_copy_.256
+- ___Block_byref_object_copy_.26
+- ___Block_byref_object_copy_.285
+- ___Block_byref_object_copy_.332
+- ___Block_byref_object_copy_.36
+- ___Block_byref_object_copy_.364
+- ___Block_byref_object_copy_.372
+- ___Block_byref_object_copy_.44
+- ___Block_byref_object_copy_.50
+- ___Block_byref_object_copy_.592
+- ___Block_byref_object_copy_.67
+- ___Block_byref_object_copy_.679
+- ___Block_byref_object_copy_.69
+- ___Block_byref_object_copy_.79
+- ___Block_byref_object_dispose_.1006
+- ___Block_byref_object_dispose_.1182
+- ___Block_byref_object_dispose_.131
+- ___Block_byref_object_dispose_.136
+- ___Block_byref_object_dispose_.142
+- ___Block_byref_object_dispose_.197
+- ___Block_byref_object_dispose_.25
+- ___Block_byref_object_dispose_.257
+- ___Block_byref_object_dispose_.27
+- ___Block_byref_object_dispose_.286
+- ___Block_byref_object_dispose_.333
+- ___Block_byref_object_dispose_.365
+- ___Block_byref_object_dispose_.37
+- ___Block_byref_object_dispose_.373
+- ___Block_byref_object_dispose_.45
+- ___Block_byref_object_dispose_.51
+- ___Block_byref_object_dispose_.593
+- ___Block_byref_object_dispose_.68
+- ___Block_byref_object_dispose_.680
+- ___Block_byref_object_dispose_.70
+- ___Block_byref_object_dispose_.80
+- ____LSBundleRemove_block_invoke.155
+- ____LSBundleRemove_block_invoke_2.156
+- ____LSContainerAddWithNode_block_invoke.24
+- ____LSContextCreateVisualizer_block_invoke.16
+- ____LSContextCreateVisualizer_block_invoke.25
+- ____LSCopyStoreFromServer_block_invoke.64
+- ____LSCopyStoreFromServer_block_invoke.64.cold.1
+- ____LSCopyStoreFromServer_block_invoke.65
+- ____LSCopyStoreFromServer_block_invoke_2.67
+- ____LSHandlerPrefRemoveAllWithBundleID_block_invoke.59
+- ____LSHandlerPrefRemoveAllWithBundleID_block_invoke.63.cold.1
+- ____LSResetServer_block_invoke.123
+- ____LSResetServer_block_invoke.123.cold.1
+- ____LSServer_BeginProvidingVisualizationArchives_block_invoke.52
+- ____LSServer_GetServerStoreForConnectionWithCompletionHandler_block_invoke.2
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.933
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.933.cold.1
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.937
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.937.cold.1
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.939
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke.940
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.935
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.938
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.942
+- ____LSServer_LSEnumerateAndRegisterAllBundles_block_invoke_2.942.cold.1
+- ____LSServer_PerformOpenOperation_block_invoke.74
+- ____LSServer_PerformOpenOperation_block_invoke.74.cold.1
+- ____LSServer_SyncWithMobileInstallation_block_invoke.1007
+- ____LSServer_SyncWithMobileInstallation_block_invoke_2.1008
+- ____LSUnregisterBundle_block_invoke.184
+- ____ZL15_LSContainerAddP9LSContextP6FSNodeP6NSDataS2_S4_tyhU13block_pointerFvjP7NSErrorE_block_invoke.34
+- ____ZL15_LSContainerAddP9LSContextP6FSNodeP6NSDataS2_S4_tyhU13block_pointerFvjP7NSErrorE_block_invoke.37
+- ____ZL23_LSOpenOperationPerformP5NSURLP12NSFileHandleP8NSStringbS4_P12NSDictionaryIS4_P11objc_objectES9_PU42objcproto31LSOpenResourceOperationDelegate11objc_objectP15NSXPCConnectionU13block_pointerFvbP7NSErrorE_block_invoke_2
+- ____ZL23_LSUpdateDefaultHandlerP18LSApplicationProxyP5NSURL_block_invoke.146
+- ____ZL23_LSUpdateDefaultHandlerP18LSApplicationProxyP5NSURL_block_invoke.146.cold.1
+- ____ZL26_LSArmSaveTimerWithTimeouthdU13block_pointerFvbP11_LSDatabaseP7NSErrorE_block_invoke.390
+- ____ZL29pluginKitUserElectionStoreURLv_block_invoke.249
+- ____ZL29pluginKitUserElectionStoreURLv_block_invoke.249.cold.1
+- ____ZL29pluginKitUserElectionStoreURLv_block_invoke.249.cold.2
+- ____ZL34LSCheckDatabaseAvailableWithServerP17_LSDServiceDomain_block_invoke.379
+- ____ZL38_LSWriteBundlePlaceholderToURLInternalRN14LaunchServices8Database7ContextEP5NSURLS4__block_invoke.59
+- ____ZN13LSHandlerPref4SaveEP11_LSDatabase_block_invoke.53
+- ____ZN13LSHandlerPref4SaveEP11_LSDatabase_block_invoke.cold.1
+- ____ZN14LaunchServices10DumpWriter14directoryClassEP8NSString16LSDirectoryClass_block_invoke
+- ____ZN14LaunchServices10DumpWriter8platformEP8NSStringj_block_invoke
+- ____ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke
+- ____ZN14LaunchServices11BindingMapsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_2
+- ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke
+- ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke.6
+- ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_2
+- ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_3
+- ____ZN14LaunchServices12BindingListsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_4
+- ____ZN14LaunchServices12PrefsStorage15setValueForNodeEP8NSStringP6FSNodeP11objc_objectPU15__autoreleasingP7NSError_block_invoke.96
+- ____ZN14LaunchServices12PrefsStorage7_updateEv_block_invoke.72
+- ____ZN14LaunchServices12PrefsStorage7_updateEv_block_invoke.72.cold.1
+- ____ZN14LaunchServices17BindingEvaluationL21getLocalAllocatorInfoEv_block_invoke
+- ____ZN14LaunchServices19URLPropertyProviderL43beginTranslatingHiddenBySystemNotificationsEv_block_invoke.52
+- ____ZN14LaunchServices19URLPropertyProviderL43beginTranslatingHiddenBySystemNotificationsEv_block_invoke.58
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_2
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_3
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_4
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_5
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_6
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_7
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_8
+- ____ZN14LaunchServices7BundlesL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke_9
+- ____ZN14LaunchServices7PluginsL7displayEP9LSContextjjPNS_10DumpWriterE_block_invoke
+- ___block_descriptor_240_ea8_32s40r48r64c59_ZTSNSt3__18optionalIN14LaunchServices16BindingEvaluatorEEE_e32_B16?0r^{?=IIIIiII[8I]IIIIIIII}8l
+- ___block_descriptor_32_e372_B28?0^{LSContext=}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20l
+- ___block_descriptor_32_e60_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}}16l
+- ___block_descriptor_36_e60_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}}16l
+- ___block_descriptor_40_ea8_32bs_e58_v44?0^{LSContext=}8I16r^{?=IIIIiII[8I]IIIIIIII}20q28^B36ls32l8
+- ___block_descriptor_40_ea8_32bs_e60_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}}16ls32l8
+- ___block_descriptor_40_ea8_32s_e372_B28?0"_LSDatabase"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
+- ___block_descriptor_40_ea8_32s_e372_B28?0^{LSContext=}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
+- ___block_descriptor_40_ea8_32s_e38_v28?0I8r^{?=IIIIiII[8I]IIIIIIII}12*20ls32l8
+- ___block_descriptor_44_e372_B28?0"_LSDatabase"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20l
+- ___block_descriptor_44_ea8_32rc_e5_v8?0lr32l8
+- ___block_descriptor_48_e14_v24?0I8I12*16l
+- ___block_descriptor_48_ea8_32bs_e369_v28?0"NSString"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20ls32l8
+- ___block_descriptor_48_ea8_32bs_e41_v36?0I8r^{?=IIIIiII[8I]IIIIIIII}12q20*28ls32l8
+- ___block_descriptor_48_ea8_32r40r_e41_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24lr32l8r40l8
+- ___block_descriptor_48_ea8_32s40rc_e5_v8?0lr40l8s32l8
+- ___block_descriptor_48_ea8_32s40s_e60_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}}16ls32l8s40l8
+- ___block_descriptor_48_ea8_32s_e19_v32?0I8r^v12I20*24ls32l8
+- ___block_descriptor_48_ea8_32s_e38_v28?0I8r^{?=IIIIiII[8I]IIIIIIII}12*20ls32l8
+- ___block_descriptor_48_ea8_32s_e41_v36?0I8r^{?=IIIIiII[8I]IIIIIIII}12q20*28ls32l8
+- ___block_descriptor_48_ea8_32s_e44_B16?0r^{LSBinding=I^{LSBundleData}I^{?}}8ls32l8
+- ___block_descriptor_48_ea8_40c27_ZTS10CFReleaserIP7__CFSetE_e41_v36?0I8r^{?=IIIIiII[8I]IIIIIIII}12q20*28l
+- ___block_descriptor_52_e41_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24lu40l8
+- ___block_descriptor_52_e5_v8?0l
+- ___block_descriptor_52_ea8_32s_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8
+- ___block_descriptor_52_ea8_32s_e41_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24ls32l8
+- ___block_descriptor_56_e37_v40?0q8"NSString"16"NSString"24*32l
+- ___block_descriptor_56_e8_32s40s48s_e27_v24?0"LSBundleProxy"8^B16ls32l8s40l8s48l8
+- ___block_descriptor_56_ea8_32bs40bs_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8
+- ___block_descriptor_56_ea8_32bs40r48r_e41_v36?0I8r^{?=IIIIiII[8I]IIIIIIII}12q20*28lr40l8s32l8r48l8
+- ___block_descriptor_56_ea8_32r40r_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20lr32l8r40l8
+- ___block_descriptor_56_ea8_32s40bs_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8
+- ___block_descriptor_56_ea8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_56_ea8_32s_e60_B24?0^{LSContext=}8r^{LSBinding=I^{LSBundleData}I^{?}}16ls32l8
+- ___block_descriptor_60_ea8_32s40r48r_e10_v16?0r^v8lr40l8r48l8s32l8
+- ___block_descriptor_60_ea8_32s40r_e41_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24ls32l8r40l8
+- ___block_descriptor_60_ea8_32s_e14_v24?0I8I12*16ls32l8
+- ___block_descriptor_64_ea8_32r40r48r56r_e41_v32?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24lr32l8r40l8r48l8r56l8
+- ___block_descriptor_64_ea8_32rc_e5_v8?0lr32l8
+- ___block_descriptor_64_ea8_32s40s48r_e67_v24?0r^{LSBinding=I^{LSBundleData}I^{?}}8"_SWCServiceDetails"16ls32l8s40l8r48l8
+- ___block_descriptor_64_ea8_32s40s48s56rc_e5_v8?0ls32l8s40l8r56l8s48l8
+- ___block_descriptor_72_e8_32bs40r48r_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8r40l8r48l8
+- ___block_descriptor_72_ea8_32s40s48r_e359_v28?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20ls32l8s40l8r48l8
+- ___block_descriptor_72_ea8_32s40s48s56r64r_e42_v24?0"LSDBExecutionContext"8"NSError"16ls32l8r56l8s40l8r64l8s48l8
+- ___block_descriptor_80_e8_32s40s48s56s64s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_84_ea8_32rc40r48r56r_e14_v24?0I8I12*16lr32l8r40l8r48l8r56l8
+- ___block_descriptor_88_ea8_32r40rc48r56r_e5_v8?0lr32l8r40l8r48l8r56l8
+- ___block_literal_global.101
+- ___block_literal_global.1080
+- ___block_literal_global.1086
+- ___block_literal_global.1109
+- ___block_literal_global.112
+- ___block_literal_global.1136
+- ___block_literal_global.1138
+- ___block_literal_global.114
+- ___block_literal_global.1149
+- ___block_literal_global.128
+- ___block_literal_global.13
+- ___block_literal_global.140
+- ___block_literal_global.144
+- ___block_literal_global.146
+- ___block_literal_global.149
+- ___block_literal_global.15
+- ___block_literal_global.160
+- ___block_literal_global.162
+- ___block_literal_global.164
+- ___block_literal_global.170
+- ___block_literal_global.178
+- ___block_literal_global.181
+- ___block_literal_global.182
+- ___block_literal_global.183
+- ___block_literal_global.192
+- ___block_literal_global.195
+- ___block_literal_global.197
+- ___block_literal_global.20
+- ___block_literal_global.200
+- ___block_literal_global.203
+- ___block_literal_global.206
+- ___block_literal_global.215
+- ___block_literal_global.216
+- ___block_literal_global.219
+- ___block_literal_global.221
+- ___block_literal_global.223
+- ___block_literal_global.225
+- ___block_literal_global.231
+- ___block_literal_global.236
+- ___block_literal_global.242
+- ___block_literal_global.245
+- ___block_literal_global.248
+- ___block_literal_global.257
+- ___block_literal_global.266
+- ___block_literal_global.269
+- ___block_literal_global.270
+- ___block_literal_global.277
+- ___block_literal_global.279
+- ___block_literal_global.290
+- ___block_literal_global.292
+- ___block_literal_global.30
+- ___block_literal_global.305
+- ___block_literal_global.309
+- ___block_literal_global.323
+- ___block_literal_global.338
+- ___block_literal_global.341
+- ___block_literal_global.357
+- ___block_literal_global.378
+- ___block_literal_global.384
+- ___block_literal_global.386
+- ___block_literal_global.388
+- ___block_literal_global.394
+- ___block_literal_global.399
+- ___block_literal_global.402
+- ___block_literal_global.413
+- ___block_literal_global.415
+- ___block_literal_global.422
+- ___block_literal_global.43
+- ___block_literal_global.431
+- ___block_literal_global.442
+- ___block_literal_global.445
+- ___block_literal_global.463
+- ___block_literal_global.468
+- ___block_literal_global.471
+- ___block_literal_global.515
+- ___block_literal_global.54
+- ___block_literal_global.540
+- ___block_literal_global.549
+- ___block_literal_global.554
+- ___block_literal_global.57
+- ___block_literal_global.60
+- ___block_literal_global.61
+- ___block_literal_global.626
+- ___block_literal_global.63
+- ___block_literal_global.649
+- ___block_literal_global.66
+- ___block_literal_global.663
+- ___block_literal_global.680
+- ___block_literal_global.682
+- ___block_literal_global.70
+- ___block_literal_global.73
+- ___block_literal_global.8
+- ___block_literal_global.80
+- ___block_literal_global.82
+- ___block_literal_global.85
+- ___block_literal_global.87
+- ___block_literal_global.89
+- ___block_literal_global.912
+- ___block_literal_global.933
+- ___block_literal_global.965
+- _getFileHandleForOpeningResource
+- _objc_msgSend$_bindingEvaluatorWithAuditToken:
+- _objc_msgSend$_initWithClaimRecord:typeRecord:bundleRecord:
+- _objc_msgSend$allowsUnentitledExtensionPointDeclaration
+- _objc_msgSend$extensionPointDefinitionEnumeratorWithSDKDictionary:
+- _objc_msgSend$filterOpenRestrictedBindings:connection:context:earlyYield:
+- _objc_msgSend$findKeysToLocalizeInInfoDictionary:forArrayKey:stringKey:localizedKeys:
+- _objc_msgSend$scanForApplicationStateChangesFromRank:toRank:
+- _objc_msgSend$style
+- _preferredLocalizations.once.246
+- _pthread_rwlock_destroy
+- _pthread_rwlock_init
+- _pthread_rwlock_rdlock
+- _pthread_rwlock_tryrdlock
+- _pthread_rwlock_unlock
+- _pthread_rwlock_wrlock
+CStrings:
++ " 5#0%4#0\"2"
++ "(no filter description)"
++ ", then %@"
++ "-[LSApplicationWorkspace scanForAppsInRatingRankExceptionsList:]_block_invoke"
++ "-[LSApplicationWorkspace(DefaultApps) setDefaultHandlerForTypeRecord:toApplicationRecord:completionHandler:]_block_invoke"
++ "-[LSClaimBindingConfiguration initWithCoder:]"
++ "-[LSClaimBindingConfiguration initWithDocumentProxy:]"
++ "-[LSClaimBindingConfiguration initWithURL:]"
++ "-[_LSClaimBindingTypeIdentifierBindable typeRecordWithError:]"
++ "-[_LSCompatibilityNothingBindable typeRecordWithError:]"
++ "-[_LSDModifyClient removeDatabaseStoreOnNextOpportunity:]"
++ "-[_LSDModifyClient requestLSDExitSafely:completionHandler:]"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/FSMimic.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/FSUtils.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSDMFSupport.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSDispatchUtils.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSDisplayNameConstructor.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSPrefsSupport.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSUtils.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Base/LSValidationToken.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSAlias.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSBundle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSContainer.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSDatabase.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSPluginBundle.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSSchemeApproval.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/LSServerDBExecutionContext.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/DefaultApps/LSDefaultAppsCore.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSAppPlaceholders.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSBindingEvaluator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSBundleRecordBuilder.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSBundleRecordUpdater.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSCore.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSEligibility.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSExternalPriv.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSPrefs.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSRegistrants.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSRegistration.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSStrongBinding.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSURLPropertyProvider.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/_LSPersonaDatabase.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/Enumerator/LSApplicationRecordEnumerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/Enumerator/LSEnumerator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSApplicationExtensionRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSApplicationRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSBundleRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSClaimBindingConfiguration.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSClaimRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSDatabaseContext.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSExtensionPointRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/LSiTunesMetadata.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Record/UTTypeRecord.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/RunIdentity/LSApplicationIdentity.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSCanOpenURLManager.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDIconService.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDModifyService.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDOpenService.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDReadService.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDService.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSDXPCClient.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Server/LSServerInterface.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/SettingsStore/LSSettingsStore.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Type/UTTypeEvaluator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Visualization/LSDatabaseVisualization.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSAltIconManager.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSAppLink.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSAppLinkPlugIn.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSAppRemovalPrompt.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSApplicationIsInstalledQuery.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSApplicationProxy.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSApplicationState.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSApplicationWorkspace.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSBundleProxy.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSBundleQuery.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSContainerHelpers.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSDiskUsage.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSDocumentProxy.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSEligibilityPredicateEvaluator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSFeatureFlagPredicateEvaluator+LSData.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSFeatureFlagPredicateEvaluator.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSInstallationInterface.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSMobileDataTransitSupport.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSOpenOperation.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSOpenStagingDirectoryManager.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSPlugInQuery.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSPlugInQueryAll.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSPlugInQueryWithIdentifier.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSPlugInQueryWithURL.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSQuery/LSQuery.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSQuery/LSQueryContext.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSSandboxHelper.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSSpringBoardCall.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/LSStatePlist.mm"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/NSCoder+LaunchServicesAdditions.m"
++ "/Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Workspace/_LSInstallProgressService.m"
++ "/System/Library/Frameworks/FileProvider.framework/FileProvider"
++ "@\"LSClaimBindingBindable\""
++ "@\"LSClaimBindingConfiguration\""
++ "@\"NSDictionary\"16@?0@\"NSDictionary\"8"
++ "@\"NSNumber\"16@0:8"
++ "@32@0:8^^v16Q24"
++ "@32@0:8^{LSContext=@}16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}24"
++ "@32@0:8r^v16r^{LSBinding=I^{LSBundleData}I^{?}@@Q}24"
++ "@36@0:8@16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
++ "@36@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
++ "@40@0:8^{LSContext=@}16I24I28r^{?=IIIIiII[8I]IIIIIIIII}32"
++ "@40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "@44@0:8B16^{LSContext=@}20I28I32r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}36"
++ "@44@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20@28^@36"
++ "@44@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28^@36"
++ "@56@0:8^{LSContext=@}16r^{LSBinding=I^{LSBundleData}I^{?}@@Q}24^@32@40^@48"
++ "@?32@0:8C16B20r^{?=[8I]}24"
++ "A type must be specified."
++ "ARKit"
++ "Adding strong binding"
++ "App %@ on rating rank exceptions list does not appear to be installed (this may be expected): %@"
++ "App validation failed (no bundle path), ignoring didInstall notification for %@"
++ "App validation failed (no executable path), ignoring didInstall notification for %@"
++ "App validation failed: no executable URL for %@"
++ "Armed LS save timer didn't complete."
++ "Arming LS save timer completed, attempted=%{BOOL}d error=%{public}@"
++ "Arming LS save timer, interval=%{public}g"
++ "B16@?0r^{?=IIIIiII[8I]IIIIIIIII}8"
++ "B24@0:8@?16"
++ "B24@?0^{LSContext=@}8r^{LSBinding=I^{LSBundleData}I^{?}@@Q}16"
++ "B28@?0@\"_LSDatabase\"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
++ "B28@?0^{LSContext=@}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
++ "B32@0:8d16@?24"
++ "B36@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20^{LSContext=@}28"
++ "B40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "B52@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20^{LSContext=@}28@36^@44"
++ "B60@0:8^@16^@24I32r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}36@44^@52"
++ "BA"
++ "BindingEvaluator"
++ "C40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "Caller supplied nil bindable to LSClaimBindingConfiguration; binding as nil UTI, which isn't well defined."
++ "CannedConfigurations"
++ "ClaimBindingConfiguration"
++ "Consuming sandbox extension failed: %@"
++ "ContextMenuShowsOpenWithApp"
++ "CopyStrongBindingForNode"
++ "Created removeAtNextStartup sentinel file at %{public}@"
++ "DocumentManager"
++ "Error %{public}@ creating removeAtNextStartup sentinel file at %{public}@"
++ "Error, client %{public}@ is not entitled to call removeDatabaseStoreOnNextOpportunity"
++ "Error, client %{public}@ is not entitled to call requestLSDExitSafely"
++ "Error, removeAtNextStartupURL is NULL"
++ "Exiting immediately; not saving current database."
++ "Extend bookmark operation complete"
++ "Failed to get bookmark string, continuing as usual. Error: %@"
++ "Gaming"
++ "I40@0:8^{LSContext=@}16I24I28r^{?=IIIIiII[8I]IIIIIIIII}32"
++ "I40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "JSNotificationURLFormat"
++ "JournalApp"
++ "LSAppRestrictionsManager: new max rating set to %@, exceptions: %@"
++ "LSClaimBindingBindable"
++ "LSClaimBindingConfiguration.mm"
++ "LSDefaultAppCategoryCarrierMessaging"
++ "LSDefaultAppCategoryDialing"
++ "LSDefaultAppCategoryPreferenceGetLastSetDate"
++ "LSFPSandboxExtensionKey"
++ "LSHandlerModificationDate"
++ "LSOneTapOpenBehaviorKey"
++ "LSSetHandlerOnDocumentOpenKey"
++ "LaunchServices: Exiting after request to stop lsd and flushing databases."
++ "NSErrorIncludeBacktraces"
++ "No sandbox extension provided for one-tap open?"
++ "No strong binding found"
++ "OpenAdditions"
++ "Plugin %{private}@ (0x%llx platform 0x%lx) has a bad extension point identifier specified in its Info.plist: %@"
++ "Q40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "Rating rank exceptions list changed to %@, affected identifiers: %@"
++ "SF"
++ "SetStrongBindingForNode"
++ "Skipping strong binding binding due to options"
++ "Stopping lsd %{public}d uid %{public}d on request; letting databases complete in-flight operations."
++ "Strong Binding"
++ "SupportsAppMigration"
++ "T@\"LSClaimBindingConfiguration\",R,N,V_bindingConfiguration"
++ "T@\"LSDocumentProxy\",R,D"
++ "T@\"NSString\",C,D"
++ "T@\"NSURL\",R,D"
++ "TB,D"
++ "TB,N,V_shouldSetHandlerOnDocumentOpen"
++ "TB,N,V_useOneTapOpenBehavior"
++ "TB,R,G_isVocabularyType"
++ "TB,R,GisGameCenterEnabled"
++ "TI,N,Vaction"
++ "TI,N,Vversion"
++ "TQ,R,V_provenance"
++ "T{LSBinding=I^{LSBundleData}I^{?}@@Q},R,V_binding"
++ "T{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1},R"
++ "T{LSVersionNumber=[32C]},R"
++ "UTTypeCore.mm"
++ "UTTypeEnumerateFlavoredDisplayNames"
++ "UTTypeOneTapOpenable"
++ "UTTypeReferenceAccessoryFile"
++ "Unknown directory class"
++ "WiFiAware"
++ "_EXAppExtensionPointEnumerator"
++ "_LSBacktrace"
++ "_LSClaimBindingDocumentProxyBindable"
++ "_LSClaimBindingTypeIdentifierBindable"
++ "_LSClaimBindingURLBindable"
++ "_LSCompatibilityNothingBindable"
++ "_LSCreateStoreWithFileContents, removed database file at %{public}@ to force clean rebuild."
++ "_LSCreateStoreWithFileContents, unable to remove database file at %{public}@, error=%{public}@"
++ "_LSCreateStoreWithFileContents, unable to removeDBOnStartup sentinel file, %{public}@"
++ "_LSErrorMessage"
++ "_LSFile"
++ "_LSGetBindingForNodeOrSchemeOrUTI failed"
++ "_LSOpenOperationPerformContinueAfterAsyncGather"
++ "_LSPrivateAskLSDToExitSafely:completionHandler:"
++ "_LSPrivateRebuildDatabaseAtNextRestart:"
++ "_LSRecord_resolve__referenceAccessoryPath"
++ "_LSRecord_resolve_execSDKVersion"
++ "_LSReferenceAccessoryResourcePath"
++ "_LSStackBacktrace"
++ "_NSURLCanSetStrongBindingKey"
++ "_NSURLStrongBindingKey"
++ "__isDirectlyOneTapOpenable"
++ "_baseBindingEvaluatorForBindableWithAuditToken:"
++ "_bindable"
++ "_bindingConfiguration"
++ "_bindingEvaluatorResultFilterForBindingStyle:contentIsManaged:auditToken:"
++ "_bindingStyle"
++ "_description"
++ "_dispatch_"
++ "_frames"
++ "_initProtected"
++ "_initWithClaimRecord:typeRecord:bundleRecord:provenance:"
++ "_isOneTapOpenable"
++ "_isVocabularyType"
++ "_maximumNumericHandlerRank"
++ "_minimumNumericHandlerRank"
++ "_provenance"
++ "_pthread_"
++ "_ratingRankExceptionBundleIDs"
++ "_referenceAccessoryPath"
++ "_referenceAccessoryPathWithContext:tableID:unitID:unitBytes:"
++ "_referenceAccessoryURLNoConformances"
++ "_schema"
++ "_shouldBeDeletedOnOpen"
++ "_shouldSetHandlerOnDocumentOpen"
++ "_store"
++ "_useOneTapOpenBehavior"
++ "allowNoneHandlerRank"
++ "allowWildcardClaims"
++ "already have a file provider string for %{private}@"
++ "appCategory(%ld)"
++ "appsRatingExemptedBundleIDs"
++ "attributedString"
++ "backtrace"
++ "backtraceString"
++ "baseBindingEvaluatorWithBindingStyle:auditToken:"
++ "beginBitfieldFlags:"
++ "beginFlags:flags:"
++ "bindable"
++ "bindableWithDocumentProxy:"
++ "bindableWithTypeIdentifier:"
++ "bindableWithURL:"
++ "binding result filter"
++ "bindingConfiguration"
++ "bindingConfigurationForDocument:style:handlerRank:"
++ "bindingEvaluatorForAuditToken:"
++ "bindingEvaluatorForIconInfo"
++ "bindingStyle"
++ "bluetooth product ID (?)URL scheme"
++ "bogus array in %s, %zu elements"
++ "bookmark extension successful, got FP string %@"
++ "bundle supports open in place"
++ "bundleidentifier"
++ "c40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "checking extension point for plugin %{private}@ (0x%llx), found it is inside a placeholder"
++ "childUnit:table:unit:"
++ "childUnit:unit:"
++ "claim has correct handler rank"
++ "com.apple.LSStrongBindingDictionaryKey"
++ "com.apple.LaunchServices.DefaultAppCategory.CarrierMessaging"
++ "com.apple.LaunchServices.DefaultAppCategory.Dialer"
++ "com.apple.LaunchServices.OpenWith"
++ "com.apple.background-asset-downloader-extension"
++ "com.apple.default-app.carrier-messaging"
++ "com.apple.default-app.dialer"
++ "com.apple.developer.carrier-messaging-app"
++ "com.apple.developer.dialing-app"
++ "com.apple.developer.game-center"
++ "com.apple.launchservices.recreate"
++ "com.apple.private.launchservices.requestlsdexit"
++ "compare:options:range:"
++ "consume"
++ "consumed sandbox extension %s: %ld"
++ "copyResolvedApplication"
++ "could not reach database to find type for %@: %@"
++ "couldn't canonicalize URL: %@"
++ "couldn't determine type for bindable %@: %@"
++ "couldn't find type record for %@: %@"
++ "dbRemoveDBOnStartupURL"
++ "discarding old handler preference for %@/%@ (no modification timestamp)"
++ "endFlags"
++ "execSDKVersion"
++ "execSDKVersionWithContext:tableID:unitID:unitBytes:"
++ "findKeysToLocalizeInInfoDictionary:forArrayKey:stringKeys:localizedKeys:"
++ "flag:name:"
++ "flag:name:color:"
++ "flagsData"
++ "frames"
++ "getDictionaryFromAttributeOfNode"
++ "getFileHandleForOpeningResourceIfNecessary"
++ "has-journal-notification-format"
++ "i32@0:8@16^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}24"
++ "i36@0:8@16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
++ "i40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "ignoreStrongBindingPreferences"
++ "ignoreWeakBindingPreferences"
++ "initWithBacktrace"
++ "initWithBindable:"
++ "initWithBindingConfiguration:"
++ "initWithBundleIdentifier:sdkDictionary:entitlements:"
++ "initWithDocumentProxy:"
++ "initWithDocumentProxy:bindingStyle:"
++ "initWithFrames:count:"
++ "isAllowedForNode"
++ "isApplicationEligibleForReadOnlyDocumentOpenBehavior:"
++ "isCurrentProcessEligibleForReadOnlyDocumentOpenBehavior"
++ "isUpdating"
++ "journalNotificationURLFormatString"
++ "link:unit:"
++ "link:unit:linkedText:"
++ "linkURL:"
++ "linkURL:linkedText:"
++ "localizedDescription%s"
++ "maximumHandlerRank"
++ "maximumNumericHandlerRank"
++ "maximumRating"
++ "minimumHandlerRank"
++ "minimumNumericHandlerRank"
++ "missingFlag:name:"
++ "missingFlag:name:color:"
++ "model (?)"
++ "multiple-descriptions"
++ "newWithStore:buffer:"
++ "nil URL provided to %s"
++ "nil proxy provided to %s"
++ "no FP string but no error, continuing"
++ "one-tap-openable"
++ "oneTapOpenClaimBindingConfigurationForBindable:"
++ "open_document_with_dont_set_weak_binding"
++ "opening file: URL via simple openURL: path."
++ "operation %@ attempting to set personas %@ for bundleIDs %@ from pid %ld"
++ "operation %@: Not all persona updates were successful, but %zu were, so arming save timer"
++ "operation %@: Save after update personas for bundles %@ attempted: %d save error: %@"
++ "operation %@: could not get affected bundle info for persona change: %@"
++ "operation %@: could not get database: %@"
++ "operation %@: could not get personas from persona unique strings: %@"
++ "operation %@: persona-update succeeded"
++ "operationToOpenResource:usingApplication:uniqueDocumentIdentifier:isContentManaged:sourceAuditToken:userInfo:configuration:delegate:"
++ "pi->tableID == ctx->db.schema->bundleTable"
++ "pi->tableID == ctx->db.schema->pluginTable"
++ "pi->tableID == ctx->db.schema->utypeTable"
++ "preferenceSetDateForDefaultAppCategory:error:"
++ "prepareCanSetStrongBindingValue"
++ "prepareStrongBindingValue"
++ "provenance"
++ "ratingRankExceptionBundleIDs"
++ "referenceAccessoryPath"
++ "referenceAccessoryURL"
++ "relativePathToFullPath:fromBasePath:"
++ "releasing sandbox extension %ld"
++ "removeDatabaseStoreOnNextOpportunity:"
++ "requestLSDExitSafely:completionHandler:"
++ "requireOpenInPlace"
++ "scanForApplicationStateChangesFromRank:toRank:exceptions:"
++ "scanForAppsInRatingRankExceptionsList:"
++ "separatorForTitle:separator:"
++ "setAction:"
++ "setAllowNoneHandlerRank:"
++ "setAllowWildcardClaims:"
++ "setDefaultHandlerForTypeRecord:toApplicationRecord:completionHandler:"
++ "setElidesEmptyValues:"
++ "setForNode"
++ "setIgnoreStrongBindingPreferences:"
++ "setIgnoreWeakBindingPreferences:"
++ "setInsertsNewlines:"
++ "setMaximumHandlerRank:"
++ "setMinimumHandlerRank:"
++ "setRequireOpenInPlace:"
++ "setShouldSetHandlerOnDocumentOpen:"
++ "setStrongBindingValue"
++ "setUseOneTapOpenBehavior:"
++ "setVersion:"
++ "setVisualizer:"
++ "shouldSetHandlerOnDocumentOpen"
++ "sms"
++ "start_wqthread"
++ "static NSInteger LaunchServices::PrefsStorage::_GetIndexOfValueInPrefsArrayWithPredicate(NSArray *__strong, const Pred &) [Pred = (lambda at /Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSPrefs.mm:1413:63)]"
++ "supports-data-export"
++ "supportsDataExport"
++ "target of one-tap open %{private}@ does not support one-tap-open of readonly document"
++ "typeRecordWithError:"
++ "unable to make sandbox extension: %{darwin.errno}d"
++ "useOneTapOpenBehavior"
++ "v16@?0^{BindingResult=^^?}8"
++ "v24@?0^{__CFString=}8^{__CFError=}16"
++ "v24@?0r^{LSBinding=I^{LSBundleData}I^{?}@@Q}8@\"_SWCServiceDetails\"16"
++ "v28@?0@\"NSString\"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
++ "v28@?0I8r^{?=IIIIiII[8I]IIIIIIIII}12*20"
++ "v28@?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20"
++ "v28@?0I8r^{UTTypeDisplayNameFlavor=^?^{__CFString}*}12*20"
++ "v32@0:8d16@?<v@?B@\"NSError\">24"
++ "v32@?0I8I12r^{?=IIIIiII[8I]IIIIIIIII}16*24"
++ "v36@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
++ "v36@?0I8r^{?=IIIIiII[8I]IIIIIIIII}12q20*28"
++ "v44@?0^{LSContext=@}8I16r^{?=IIIIiII[8I]IIIIIIIII}20q28^B36"
++ "v48@0:8@16^{__CFString=}24@32@40"
++ "v56@0:8@16{LSVersionNumber=[32C]}24"
++ "visualizer"
++ "vocabulary"
++ "vocabularyType"
++ "void LaunchServices::UTTypeEnumerateFlavoredDisplayNames(__strong LSDatabaseRef, const _UTTypeData *, const F &) [F = (lambda at /Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Database/UTTypeCore.mm:159:55)]"
++ "void LaunchServices::UTTypeEnumerateFlavoredDisplayNames(__strong LSDatabaseRef, const _UTTypeData *, const F &) [F = void (^)(unsigned int, const LaunchServices::UTTypeDisplayNameFlavor &, unsigned char *)]"
++ "void _LSOpenOperationPerformContinueAfterAsyncGather(NSURL *__strong, NSFileHandle *__strong, NSString *__strong, BOOL, NSString *__strong, NSDictionary<NSString *,id> *__strong, NSDictionary<NSString *,id> *__strong, __strong id<LSOpenResourceOperationDelegate>, NSXPCConnection *__strong, __strong _LSDOpenServiceCompletionHandler)"
++ "will extend bookmark and get FP string for %{private}@ to %@"
++ "withAppliedAttribute:value:block:"
++ "withReferenceToUnit:unit:block:"
++ "withTextColor:backgroundColor:block:"
++ "withTextColor:block:"
++ "withWarningColors:"
++ "write:"
++ "write:array:"
++ "write:arrayID:"
++ "write:arrayIDs:count:"
++ "write:arrayStringID:"
++ "write:bool:"
++ "write:directoryClass:"
++ "write:format:"
++ "write:iNode:"
++ "write:interval:"
++ "write:number:"
++ "write:platform:"
++ "write:string:"
++ "write:stringID:"
++ "write:version:"
++ "writeArray:"
++ "writeAttributedString:"
++ "writeFormat:"
++ "writeSeparator"
++ "{?=\"allowWildcardClaims\"b1\"ignoreStrongBindingPreferences\"b1\"ignoreWeakBindingPreferences\"b1\"requireOpenInPlace\"b1}"
++ "{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I^I}@?@@?@@?}16@0:8"
++ "{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I^I}@?@@?@@?}24@0:8@16"
++ "{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I^I}@?@@?@@?}24@0:8r^{?=[8I]}16"
++ "{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I^I}@?@@?@@?}28@0:8C16r^{?=[8I]}20"
++ "{DelayedInitable<LaunchServices::Predicate>=\"_storage\"{optional<LaunchServices::Predicate>=\"\"(?=\"__null_state_\"c\"__val_\"{Predicate=\"_match_map\"{map<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>, std::less<os_eligibility_domain_t>, std::allocator<std::pair<const os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>>>=\"__tree_\"{__tree<std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, std::__map_value_compare<os_eligibility_domain_t, std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, std::less<os_eligibility_domain_t>>, std::allocator<std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>>>=\"__begin_node_\"^v\"__end_node_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}\"__size_\"Q}}})\"__engaged_\"B}}"
++ "{DelayedInitable<LaunchServices::Predicate>=\"_storage\"{optional<LaunchServices::Predicate>=\"\"(?=\"__null_state_\"c\"__val_\"{Predicate=\"_requiredFeatures\"{vector<LaunchServices::FeatureFlagSpecifier, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__begin_\"^{FeatureFlagSpecifier}\"__end_\"^{FeatureFlagSpecifier}\"__cap_\"^{FeatureFlagSpecifier}}\"_antiRequiredFeatures\"{vector<LaunchServices::FeatureFlagSpecifier, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__begin_\"^{FeatureFlagSpecifier}\"__end_\"^{FeatureFlagSpecifier}\"__cap_\"^{FeatureFlagSpecifier}}})\"__engaged_\"B}}"
++ "{LSBinding=\"bundle\"I\"bundleData\"^{LSBundleData}\"claim\"I\"claimData\"^{?}\"userInfo\"@\"reason\"@\"NSString\"\"provenance\"Q}"
++ "{LSBinding=I^{LSBundleData}I^{?}@@Q}16@0:8"
++ "{LSBundleData=\"base\"{LSBundleBaseData=\"bookmark\"I\"container\"I\"execPath\"I\"exactIdentifier\"I\"teamID\"I\"platform\"I\"registrationTime\"i\"version\"{LSVersionNumber=\"_opaque\"[32C]}\"execSDKVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"machOUUIDs\"I\"dataContainerAlias\"I\"bundleName\"I\"localizedShortDisplayName\"I\"displayName\"I\"localizedDisplayName\"I\"localizedMicrophoneUsageDescription\"I\"localizedIdentityUsageDescription\"I\"codeInfoIdentifier\"I\"signerOrganization\"I\"signerIdentity\"I\"infoDictionary\"I\"entitlements\"I\"groupContainers\"I\"containingDirectoryClass\"C\"profileValidationState\"C\"intentDefinitionURLs\"I\"_sliceMask\"S\"signatureVersion\"I\"flags\"{LSBundleBaseFlags=\"appleInternal\"b1\"requiresObjCGarbageCollection\"b1\"builtWithTSan\"b1\"isLinkEnabled\"b1\"isSecuredSystemContent\"b1\"redactible\"b1\"_reserved\"b1}}\"_clas\"I\"_bundleFlags\"Q\"_plistContentFlags\"I\"_itemFlags\"I\"_iconFlags\"C\"moreFlags\"{LSBundleMoreFlags=\"isWebBrowser\"b1\"isMailClient\"b1\"supportsControllerUserInteraction\"b1\"supportsSpotlightQueryContinuation\"b1\"supportsSpotlightActions\"b1\"isCodeSigningInfoNotAuthoritative\"b1\"applicationQueriesSchemesTooBig\"b1\"isUpdateAvailable\"b1\"isPlaygroundsApp\"b1\"supportsAlwaysOnDisplay\"b1\"defaultsToPrivateAlwaysOnDisplayTreatment\"b1\"supportsLiveActivities\"b1\"supportsLiveActivitiesFrequentUpdates\"b1\"requiresPostprocessing\"b1\"hasShellRole\"b1\"requiresSecureLaunch\"b1\"eligibleForWatchAppInstall\"b1\"isEligibilityCheckedBrowser\"b1\"isEligibilityCheckedBrowserEngineEmbedder\"b1\"isManagedAppDistributor\"b1\"isHiddenByAppProtection\"b1\"isLockedByAppProtection\"b1\"supportsDataExport\"b1\"_reserved\"b1}\"_hfsType\"I\"_mtime\"i\"minSystemVersionPlatform\"I\"_minSystemVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"_maxSystemVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"appStoreToolsBuildVersion\"I\"sequenceNumber\"Q\"compatibilityState\"Q\"itemID\"Q\"deviceFamilies\"I\"identifier\"I\"counterpartIdentifiers\"I\"equivalentBundleIdentifiers\"I\"categoryType\"I\"secondaryCategoryType\"I\"filename\"I\"bundleVersion\"I\"shortVersionString\"I\"installType\"I\"installFailureReason\"Q\"vendorName\"I\"appType\"I\"staticDiskUsage\"Q\"purchaserDSID\"Q\"downloaderDSID\"Q\"familyID\"Q\"itemName\"I\"storefront\"Q\"versionIdentifier\"Q\"sourceAppBundleID\"I\"appVariant\"I\"managementDeclarationIdentifier\"I\"ratingRank\"Q\"ratingLabel\"I\"genreID\"Q\"genre\"I\"distributorInfo\"I\"primaryIconName\"I\"alternatePrimaryIconName\"I\"iconsDict\"I\"iconFileNames\"I\"libraryPath\"I\"libraryItems\"I\"claims\"I\"types\"I\"plugins\"I\"driverExtensions\"I\"extensionPoints\"I\"activityTypes\"I\"queriableSchemes\"I\"bgPermittedIDs\"I\"carPlayInstrumentClusterURLSchemes\"I\"appContainerAlias\"I\"revision\"C\"retries\"C\"_reserved4\"C\"sandboxEnvironmentVariables\"I\"localizedNameWithContext\"[1I]\"bundlePersonas\"I\"bundlePersonaTypes\"I\"appClipFields\"{LSAppClipFields=\"parentAppIDs\"I}\"recordModificationTime\"i\"supportedGameControllers\"I\"mobileInstallIDs\"I\"applicationManagementDomain\"I\"stashedAppDict\"I\"linkedParentBundleIdentifier\"I\"_reserved5\"I}"
++ "{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32@0:8@16^@24"
++ "{LSBundleMoreFlags=\"isWebBrowser\"b1\"isMailClient\"b1\"supportsControllerUserInteraction\"b1\"supportsSpotlightQueryContinuation\"b1\"supportsSpotlightActions\"b1\"isCodeSigningInfoNotAuthoritative\"b1\"applicationQueriesSchemesTooBig\"b1\"isUpdateAvailable\"b1\"isPlaygroundsApp\"b1\"supportsAlwaysOnDisplay\"b1\"defaultsToPrivateAlwaysOnDisplayTreatment\"b1\"supportsLiveActivities\"b1\"supportsLiveActivitiesFrequentUpdates\"b1\"requiresPostprocessing\"b1\"hasShellRole\"b1\"requiresSecureLaunch\"b1\"eligibleForWatchAppInstall\"b1\"isEligibilityCheckedBrowser\"b1\"isEligibilityCheckedBrowserEngineEmbedder\"b1\"isManagedAppDistributor\"b1\"isHiddenByAppProtection\"b1\"isLockedByAppProtection\"b1\"supportsDataExport\"b1\"_reserved\"b1}"
++ "{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}16@0:8"
++ "{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
++ "{optional<LSBinding>=(?=c{LSBinding=I^{LSBundleData}I^{?}@@Q})B}40@0:8^{LSContext=@}16@24@32"
++ "{unordered_map<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>, std::allocator<std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>>>=\"__table_\"{__hash_table<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::__unordered_map_hasher<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>>, std::__unordered_map_equal<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::equal_to<_opaque_pthread_t *>, std::hash<_opaque_pthread_t *>>, std::allocator<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}"
++ "{unordered_map<unsigned int, LSPluginData, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, LSPluginData>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned int, LSPluginData>, std::__unordered_map_hasher<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::__hash_value_type<unsigned int, LSPluginData>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}"
++ "{unordered_map<unsigned long long, LaunchServices::StagingDirectoryInfo, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, LaunchServices::StagingDirectoryInfo>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>>=\"__ptr_\"^^v\"__deleter_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>=\"__size_\"Q}}\"__first_node_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *>=\"__next_\"^v}\"__size_\"Q\"__max_load_factor_\"f}}"
++ "{vector<unsigned int, std::allocator<unsigned int>>=\"__begin_\"^I\"__end_\"^I\"__cap_\"^I}"
++ "{vector<void *, std::allocator<void *>>=\"__begin_\"^^v\"__end_\"^^v\"__cap_\"^^v}"
+- " 5#0%3$0\"2"
+- "%s Skipping extension point '%@' unentitled app '%@' is not permitted to register a system extension point"
+- "+++ %{public}@ %{public}@"
+- "-[_LSDocumentProxyBindingQuery filterOpenRestrictedBindings:connection:context:earlyYield:]"
+- "@32@0:8^{LSContext=@}16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}24"
+- "@32@0:8r^v16r^{LSBinding=I^{LSBundleData}I^{?}@@}24"
+- "@36@0:8@16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
+- "@36@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
+- "@40@0:8^{LSContext=@}16I24I28r^{?=IIIIiII[8I]IIIIIIII}32"
+- "@40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "@44@0:8B16^{LSContext=@}20I28I32r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}36"
+- "@44@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20@28^@36"
+- "@44@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28^@36"
+- "@56@0:8^{LSContext=@}16r^{LSBinding=I^{LSBundleData}I^{?}@@}24^@32@40^@48"
+- "App validation failed, ignoring didInstall notification for %@"
+- "B16@?0r^{?=IIIIiII[8I]IIIIIIII}8"
+- "B16@?0r^{LSBinding=I^{LSBundleData}I^{?}@@}8"
+- "B24@?0^{LSContext=@}8r^{LSBinding=I^{LSBundleData}I^{?}@@}16"
+- "B28@?0@\"_LSDatabase\"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
+- "B28@?0^{LSContext=@}8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
+- "B36@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20^{LSContext=@}28"
+- "B40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "B52@0:8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20^{LSContext=@}28@36^@44"
+- "B60@0:8^@16^@24I32r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}36@44^@52"
+- "Best binding found for evaluator %{public}p: %{private}@"
+- "BindingEvaluator::~BindingEvaluator(%p)"
+- "C40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "Constructing NSError %{public}@/%li at %{public}s:%i"
+- "Converted OSStatus %li to error %{public}@"
+- "FBSProcessHandle"
+- "GameKit"
+- "Got extension \".%{private}@\" from caller-supplied filename. This is less accurate than passing a file URL."
+- "Got extension \".%{private}@\" from file URL."
+- "I40@0:8^{LSContext=@}16I24I28r^{?=IIIIiII[8I]IIIIIIII}32"
+- "I40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "Invoking selector %{public}s on <%{public}@ %p> to get the value for property %{public}s"
+- "LSAppRestrictionsManager: new max rating set to %@"
+- "NSPboard type"
+- "Not all persona updates were successful, but %zu were, so arming save timer"
+- "OSType"
+- "Open restriction in effect, but caller has no bundle ID."
+- "Plugin %{private}@ (0x%llx) has a bad extension point identifier specified in its Info.plist: %@"
+- "Q40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "SDKVersionWithContext:tableID:unitID:unitBytes:"
+- "Save after update personas for bundles %@ attempted: %d save error: %@"
+- "T@\"LSDocumentProxy\",R,&,N,V_documentProxy"
+- "T@\"NSString\",R,C,N,V_handlerRank"
+- "T@\"NSString\",R,V_typeIdentifier"
+- "TB,V_addClaimRecordIfMissing"
+- "TC,R,N,V_style"
+- "TQ,V_bundleClassMask"
+- "T{LSBinding=I^{LSBundleData}I^{?}@@},R,V_binding"
+- "T{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1},R"
+- "URL scheme"
+- "Unable to bind to an executable or application, returning kLSApplicationNotFoundErr."
+- "Will%{public}s bind to tag claims (regular file? %i; resolvable? %i; package? %i; AVCHD? %i; tagged UTI? %i)"
+- "_LSRecord_resolve_SDKVersion"
+- "_bindingEvaluatorWithAuditToken:"
+- "_canDefineSystemExtensionPoint"
+- "_initWithClaimRecord:typeRecord:bundleRecord:"
+- "_style"
+- "allowsUnentitledExtensionPointDeclaration"
+- "allows_unentitled_app_extension_point_declaration"
+- "attempting to set personas %@ for bundleIDs %@ from pid %ld"
+- "c40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "could not get affected bundle info for persona change: %@"
+- "could not get personas from persona unique strings: %@"
+- "extensionPointDefinitionEnumeratorWithSDKDictionary:"
+- "filterOpenRestrictedBindings:connection:context:earlyYield:"
+- "findKeysToLocalizeInInfoDictionary:forArrayKey:stringKey:localizedKeys:"
+- "getFileHandleForOpeningResource"
+- "i32@0:8@16^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}24"
+- "i36@0:8@16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
+- "i40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "missing entitlement"
+- "model"
+- "pi->tableID == ctx->db->schema.bundleTable"
+- "pi->tableID == ctx->db->schema.pluginTable"
+- "pi->tableID == ctx->db->schema.utypeTable"
+- "scanForApplicationStateChangesFromRank:toRank:"
+- "schema"
+- "static NSInteger LaunchServices::PrefsStorage::_GetIndexOfValueInPrefsArrayWithPredicate(NSArray *__strong, const Pred &) [Pred = (lambda at /Library/Caches/com.apple.xbs/Sources/CoreServices/LaunchServices.subprj/Source/LaunchServices/Info/LSPrefs.mm:1355:63)]"
+- "style"
+- "v24@?0r^{LSBinding=I^{LSBundleData}I^{?}@@}8@\"_SWCServiceDetails\"16"
+- "v28@?0@\"NSString\"8I16r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}20"
+- "v28@?0I8r^{?=IIIIiII[8I]IIIIIIII}12*20"
+- "v28@?0I8r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}12*20"
+- "v32@?0I8I12r^{?=IIIIiII[8I]IIIIIIII}16*24"
+- "v36@0:8^{LSContext=@}16I24r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}28"
+- "v36@?0I8r^{?=IIIIiII[8I]IIIIIIII}12q20*28"
+- "v44@?0^{LSContext=@}8I16r^{?=IIIIiII[8I]IIIIIIII}20q28^B36"
+- "v48@0:8@16^{__CFString=}24^{__CFString=}32@40"
+- "v48@0:8^v16@24^{LSContext=@}32@?40"
+- "void _LSOpenOperationPerform(NSURL *__strong, NSFileHandle *__strong, NSString *__strong, BOOL, NSString *__strong, NSDictionary<NSString *,id> *__strong, NSDictionary<NSString *,id> *__strong, __strong id<LSOpenResourceOperationDelegate>, NSXPCConnection *__strong, __strong _LSDOpenServiceCompletionHandler)"
+- "{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I{__compressed_pair<LSBundleClass *, std::allocator<LSBundleClass>>=^I}}@?@@?@}24@0:8@16"
+- "{DelayedInitable<LaunchServices::Predicate>=\"_storage\"{optional<LaunchServices::Predicate>=\"\"(?=\"__null_state_\"c\"__val_\"{Predicate=\"_match_map\"{map<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>, std::less<os_eligibility_domain_t>, std::allocator<std::pair<const os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>>>=\"__tree_\"{__tree<std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, std::__map_value_compare<os_eligibility_domain_t, std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, std::less<os_eligibility_domain_t>>, std::allocator<std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>>>=\"__begin_node_\"^v\"__pair1_\"{__compressed_pair<std::__tree_end_node<std::__tree_node_base<void *> *>, std::allocator<std::__tree_node<std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, void *>>>=\"__value_\"{__tree_end_node<std::__tree_node_base<void *> *>=\"__left_\"^v}}\"__pair3_\"{__compressed_pair<unsigned long, std::__map_value_compare<os_eligibility_domain_t, std::__value_type<os_eligibility_domain_t, std::vector<os_eligibility_answer_t>>, std::less<os_eligibility_domain_t>>>=\"__value_\"Q}}}})\"__engaged_\"B}}"
+- "{DelayedInitable<LaunchServices::Predicate>=\"_storage\"{optional<LaunchServices::Predicate>=\"\"(?=\"__null_state_\"c\"__val_\"{Predicate=\"_requiredFeatures\"{vector<LaunchServices::FeatureFlagSpecifier, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__begin_\"^{FeatureFlagSpecifier}\"__end_\"^{FeatureFlagSpecifier}\"__end_cap_\"{__compressed_pair<LaunchServices::FeatureFlagSpecifier *, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__value_\"^{FeatureFlagSpecifier}}}\"_antiRequiredFeatures\"{vector<LaunchServices::FeatureFlagSpecifier, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__begin_\"^{FeatureFlagSpecifier}\"__end_\"^{FeatureFlagSpecifier}\"__end_cap_\"{__compressed_pair<LaunchServices::FeatureFlagSpecifier *, std::allocator<LaunchServices::FeatureFlagSpecifier>>=\"__value_\"^{FeatureFlagSpecifier}}}})\"__engaged_\"B}}"
+- "{LSBinding=\"bundle\"I\"bundleData\"^{LSBundleData}\"claim\"I\"claimData\"^{?}\"userInfo\"@\"reason\"@\"NSString\"}"
+- "{LSBinding=I^{LSBundleData}I^{?}@@}16@0:8"
+- "{LSBundleData=\"base\"{LSBundleBaseData=\"bookmark\"I\"container\"I\"execPath\"I\"exactIdentifier\"I\"teamID\"I\"platform\"I\"registrationTime\"i\"version\"{LSVersionNumber=\"_opaque\"[32C]}\"execSDKVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"machOUUIDs\"I\"dataContainerAlias\"I\"bundleName\"I\"localizedShortDisplayName\"I\"displayName\"I\"localizedDisplayName\"I\"localizedMicrophoneUsageDescription\"I\"localizedIdentityUsageDescription\"I\"codeInfoIdentifier\"I\"signerOrganization\"I\"signerIdentity\"I\"infoDictionary\"I\"entitlements\"I\"groupContainers\"I\"containingDirectoryClass\"C\"profileValidationState\"C\"intentDefinitionURLs\"I\"_sliceMask\"S\"signatureVersion\"I\"flags\"{LSBundleBaseFlags=\"appleInternal\"b1\"requiresObjCGarbageCollection\"b1\"builtWithTSan\"b1\"isLinkEnabled\"b1\"isSecuredSystemContent\"b1\"redactible\"b1\"_reserved\"b1}}\"_clas\"I\"_bundleFlags\"Q\"_plistContentFlags\"I\"_itemFlags\"I\"_iconFlags\"C\"moreFlags\"{LSBundleMoreFlags=\"isWebBrowser\"b1\"isMailClient\"b1\"supportsControllerUserInteraction\"b1\"supportsSpotlightQueryContinuation\"b1\"supportsSpotlightActions\"b1\"isCodeSigningInfoNotAuthoritative\"b1\"applicationQueriesSchemesTooBig\"b1\"isUpdateAvailable\"b1\"isPlaygroundsApp\"b1\"supportsAlwaysOnDisplay\"b1\"defaultsToPrivateAlwaysOnDisplayTreatment\"b1\"supportsLiveActivities\"b1\"supportsLiveActivitiesFrequentUpdates\"b1\"requiresPostprocessing\"b1\"hasShellRole\"b1\"requiresSecureLaunch\"b1\"eligibleForWatchAppInstall\"b1\"isEligibilityCheckedBrowser\"b1\"isEligibilityCheckedBrowserEngineEmbedder\"b1\"isManagedAppDistributor\"b1\"isHiddenByAppProtection\"b1\"isLockedByAppProtection\"b1\"_reserved\"b1}\"_hfsType\"I\"_mtime\"i\"minSystemVersionPlatform\"I\"_minSystemVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"_maxSystemVersion\"{LSVersionNumber=\"_opaque\"[32C]}\"appStoreToolsBuildVersion\"I\"sequenceNumber\"Q\"compatibilityState\"Q\"itemID\"Q\"deviceFamilies\"I\"identifier\"I\"counterpartIdentifiers\"I\"equivalentBundleIdentifiers\"I\"categoryType\"I\"secondaryCategoryType\"I\"filename\"I\"bundleVersion\"I\"shortVersionString\"I\"installType\"I\"installFailureReason\"Q\"vendorName\"I\"appType\"I\"staticDiskUsage\"Q\"purchaserDSID\"Q\"downloaderDSID\"Q\"familyID\"Q\"itemName\"I\"storefront\"Q\"versionIdentifier\"Q\"sourceAppBundleID\"I\"appVariant\"I\"managementDeclarationIdentifier\"I\"ratingRank\"Q\"ratingLabel\"I\"genreID\"Q\"genre\"I\"distributorInfo\"I\"primaryIconName\"I\"alternatePrimaryIconName\"I\"iconsDict\"I\"iconFileNames\"I\"libraryPath\"I\"libraryItems\"I\"claims\"I\"types\"I\"plugins\"I\"driverExtensions\"I\"extensionPoints\"I\"activityTypes\"I\"queriableSchemes\"I\"bgPermittedIDs\"I\"carPlayInstrumentClusterURLSchemes\"I\"appContainerAlias\"I\"revision\"C\"retries\"C\"_reserved4\"C\"sandboxEnvironmentVariables\"I\"localizedNameWithContext\"[1I]\"bundlePersonas\"I\"bundlePersonaTypes\"I\"appClipFields\"{LSAppClipFields=\"parentAppIDs\"I}\"recordModificationTime\"i\"supportedGameControllers\"I\"mobileInstallIDs\"I\"applicationManagementDomain\"I\"stashedAppDict\"I\"linkedParentBundleIdentifier\"I\"_reserved5\"I}"
+- "{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32@0:8@16^@24"
+- "{LSBundleMoreFlags=\"isWebBrowser\"b1\"isMailClient\"b1\"supportsControllerUserInteraction\"b1\"supportsSpotlightQueryContinuation\"b1\"supportsSpotlightActions\"b1\"isCodeSigningInfoNotAuthoritative\"b1\"applicationQueriesSchemesTooBig\"b1\"isUpdateAvailable\"b1\"isPlaygroundsApp\"b1\"supportsAlwaysOnDisplay\"b1\"defaultsToPrivateAlwaysOnDisplayTreatment\"b1\"supportsLiveActivities\"b1\"supportsLiveActivitiesFrequentUpdates\"b1\"requiresPostprocessing\"b1\"hasShellRole\"b1\"requiresSecureLaunch\"b1\"eligibleForWatchAppInstall\"b1\"isEligibilityCheckedBrowser\"b1\"isEligibilityCheckedBrowserEngineEmbedder\"b1\"isManagedAppDistributor\"b1\"isHiddenByAppProtection\"b1\"isLockedByAppProtection\"b1\"_reserved\"b1}"
+- "{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}16@0:8"
+- "{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}40@0:8^{LSContext=@}16I24I28r^{LSBundleData={LSBundleBaseData=IIIIIIi{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IIIIIIIIIIIIIICCISI{LSBundleBaseFlags=b1b1b1b1b1b1b1}}IQIIC{LSBundleMoreFlags=b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1}IiI{LSVersionNumber=[32C]}{LSVersionNumber=[32C]}IQQQIIIIIIIIIIQIIQQQQIQQIIIQIQIIIIIIIIIIIIIIIIIICCCI[1I]II{LSAppClipFields=I}iIIIIII}32"
+- "{optional<LSBinding>=(?=c{LSBinding=I^{LSBundleData}I^{?}@@})B}40@0:8^{LSContext=@}16@24@32"
+- "{optional<LaunchServices::BindingEvaluator>=(?=c{BindingEvaluator=@@@@@@{LSVersionNumber=[32C]}@BBQII{vector<LSBundleClass, std::allocator<LSBundleClass>>=^I^I{__compressed_pair<LSBundleClass *, std::allocator<LSBundleClass>>=^I}}@?@@?@})B}24@0:8r^{?=[8I]}16"
+- "{unordered_map<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>, std::allocator<std::pair<_opaque_pthread_t *const, std::shared_ptr<LaunchServices::PerThreadContext>>>>=\"__table_\"{__hash_table<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::__unordered_map_hasher<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>>, std::__unordered_map_equal<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::equal_to<_opaque_pthread_t *>, std::hash<_opaque_pthread_t *>>, std::allocator<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::__unordered_map_hasher<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::hash<_opaque_pthread_t *>, std::equal_to<_opaque_pthread_t *>>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::__unordered_map_equal<_opaque_pthread_t *, std::__hash_value_type<_opaque_pthread_t *, std::shared_ptr<LaunchServices::PerThreadContext>>, std::equal_to<_opaque_pthread_t *>, std::hash<_opaque_pthread_t *>>>=\"__value_\"f}}}"
+- "{unordered_map<unsigned int, LSPluginData, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, LSPluginData>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned int, LSPluginData>, std::__unordered_map_hasher<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::hash<unsigned int>, std::equal_to<unsigned int>>, std::__unordered_map_equal<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::equal_to<unsigned int>, std::hash<unsigned int>>, std::allocator<std::__hash_value_type<unsigned int, LSPluginData>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned int, LSPluginData>, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::__unordered_map_hasher<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::hash<unsigned int>, std::equal_to<unsigned int>>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::__unordered_map_equal<unsigned int, std::__hash_value_type<unsigned int, LSPluginData>, std::equal_to<unsigned int>, std::hash<unsigned int>>>=\"__value_\"f}}}"
+- "{unordered_map<unsigned long long, LaunchServices::StagingDirectoryInfo, std::hash<unsigned long long>, std::equal_to<unsigned long long>, std::allocator<std::pair<const unsigned long long, LaunchServices::StagingDirectoryInfo>>>=\"__table_\"{__hash_table<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>>>=\"__bucket_list_\"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>>=\"__ptr_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> **, std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>>=\"__value_\"^^v\"__value_\"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>=\"__data_\"{__compressed_pair<unsigned long, std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *> *>>=\"__value_\"Q}}}}\"__p1_\"{__compressed_pair<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *>, std::allocator<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *>>>=\"__value_\"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, void *> *>=\"__next_\"^v}}\"__p2_\"{__compressed_pair<unsigned long, std::__unordered_map_hasher<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>>=\"__value_\"Q}\"__p3_\"{__compressed_pair<float, std::__unordered_map_equal<unsigned long long, std::__hash_value_type<unsigned long long, LaunchServices::StagingDirectoryInfo>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>>=\"__value_\"f}}}"
+- "{vector<unsigned int, std::allocator<unsigned int>>=\"__begin_\"^I\"__end_\"^I\"__end_cap_\"{__compressed_pair<unsigned int *, std::allocator<unsigned int>>=\"__value_\"^I}}"
+- "\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\xf0\x91"
+
+```

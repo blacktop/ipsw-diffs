@@ -1,0 +1,469 @@
+## PegasusKit
+
+> `/System/Library/PrivateFrameworks/PegasusKit.framework/PegasusKit`
+
+```diff
+
+-3405.13.1.0.0
+-  __TEXT.__text: 0x755ac
+-  __TEXT.__auth_stubs: 0x22f0
+-  __TEXT.__objc_methlist: 0x250
+-  __TEXT.__const: 0x3ad0
+-  __TEXT.__cstring: 0x2c21
+-  __TEXT.__constg_swiftt: 0x20c8
+-  __TEXT.__swift5_typeref: 0x20e0
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0x1e0c
+-  __TEXT.__swift5_fieldmd: 0x1754
+-  __TEXT.__swift5_types: 0x124
+-  __TEXT.__swift5_protos: 0x70
+-  __TEXT.__swift5_proto: 0x1b0
+-  __TEXT.__oslogstring: 0x136f
+-  __TEXT.__swift5_capture: 0x62c
+-  __TEXT.__swift5_assocty: 0x138
+-  __TEXT.__swift_as_entry: 0xbc
+-  __TEXT.__swift_as_ret: 0xd8
++3500.91.2.0.0
++  __TEXT.__text: 0x76840
++  __TEXT.__auth_stubs: 0x2510
++  __TEXT.__objc_methlist: 0x2a8
++  __TEXT.__const: 0x3980
++  __TEXT.__cstring: 0x3031
++  __TEXT.__swift5_typeref: 0x2252
++  __TEXT.__constg_swiftt: 0x2304
++  __TEXT.__swift5_reflstr: 0x1a7d
++  __TEXT.__swift5_fieldmd: 0x1628
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__oslogstring: 0x17bf
++  __TEXT.__swift5_proto: 0x1c4
++  __TEXT.__swift5_types: 0x134
++  __TEXT.__swift5_protos: 0x7c
++  __TEXT.__swift5_capture: 0x73c
++  __TEXT.__swift_as_entry: 0x118
++  __TEXT.__swift_as_ret: 0x150
++  __TEXT.__swift5_assocty: 0x180
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1808
+-  __TEXT.__eh_frame: 0x28f0
++  __TEXT.__unwind_info: 0x1a80
++  __TEXT.__eh_frame: 0x35f8
+   __TEXT.__objc_classname: 0x42
+-  __TEXT.__objc_methname: 0x940
++  __TEXT.__objc_methname: 0x9d9
+   __TEXT.__objc_methtype: 0xeb
+-  __DATA_CONST.__got: 0x668
+-  __DATA_CONST.__const: 0x1b0
+-  __DATA_CONST.__objc_classlist: 0xd8
++  __DATA_CONST.__got: 0x6d8
++  __DATA_CONST.__const: 0x190
++  __DATA_CONST.__objc_classlist: 0xe8
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3a8
++  __DATA_CONST.__objc_selrefs: 0x3b0
+   __DATA_CONST.__objc_protorefs: 0x38
+-  __AUTH_CONST.__auth_got: 0x1178
+-  __AUTH_CONST.__const: 0x2b58
+-  __AUTH_CONST.__objc_const: 0x1dd0
+-  __AUTH.__data: 0x2b8
+-  __DATA.__data: 0x10d0
+-  __DATA.__bss: 0x1d80
++  __AUTH_CONST.__auth_got: 0x1288
++  __AUTH_CONST.__const: 0x2e58
++  __AUTH_CONST.__objc_const: 0x1ec0
++  __AUTH.__objc_data: 0x48
++  __AUTH.__data: 0x868
++  __DATA.__data: 0xe28
++  __DATA.__bss: 0x1c80
+   __DATA.__common: 0x30
+-  __DATA_DIRTY.__objc_data: 0x190
+-  __DATA_DIRTY.__data: 0x4570
+-  __DATA_DIRTY.__common: 0xa8
+-  __DATA_DIRTY.__bss: 0xc80
++  __DATA_DIRTY.__objc_data: 0x280
++  __DATA_DIRTY.__data: 0x47a0
++  __DATA_DIRTY.__common: 0xa0
++  __DATA_DIRTY.__bss: 0xe80
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F0088CAE-6E08-3942-A419-9B645AC7BB4B
+-  Functions: 2569
+-  Symbols:   2790
+-  CStrings:  587
++  UUID: 871C2FFD-BDA7-30DA-A2E3-A32AE8E4722B
++  Functions: 2702
++  Symbols:   2695
++  CStrings:  635
+ 
+Symbols:
++ _OBJC_CLASS_$__TtC10PegasusKit17ParsecdConnection
++ _OBJC_METACLASS_$__TtC10PegasusKit17ParsecdConnection
++ __DATA__TtC10PegasusKit27PegasusProxyForFlightSearch
++ __DATA__TtC10PegasusKit33PegasusProxyForDeviceExpertSearch
++ __INSTANCE_METHODS__TtC10PegasusKit17ParsecdConnection
++ __METACLASS_DATA__TtC10PegasusKit27PegasusProxyForFlightSearch
++ __METACLASS_DATA__TtC10PegasusKit33PegasusProxyForDeviceExpertSearch
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_memcpy40_8
++ ___unnamed_5
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_PegasusKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_PegasusKit
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_PegasusKit
++ _block_copy_helper.14
++ _block_copy_helper.18
++ _block_copy_helper.21
++ _block_copy_helper.31
++ _block_copy_helper.41
++ _block_copy_helper.48
++ _block_copy_helper.58
++ _block_copy_helper.68
++ _block_descriptor.16
++ _block_descriptor.20
++ _block_descriptor.23
++ _block_descriptor.33
++ _block_descriptor.43
++ _block_descriptor.50
++ _block_descriptor.60
++ _block_descriptor.70
++ _block_destroy_helper.15
++ _block_destroy_helper.19
++ _block_destroy_helper.22
++ _block_destroy_helper.32
++ _block_destroy_helper.42
++ _block_destroy_helper.49
++ _block_destroy_helper.59
++ _block_destroy_helper.69
++ _objc_release_x9
++ _objectdestroy.26Tm
++ _objectdestroy.30Tm
++ _objectdestroy.53Tm
++ _swift_cvw_initEnumMetadataSingleCaseWithLayoutString
++ _symbolic $s10PegasusKit19NetworkCallObserverP
++ _symbolic $s10PegasusKit27FlightSearchResponseFetcherP
++ _symbolic $s10PegasusKit33DeviceExpertClientResponseFetcherP
++ _symbolic ScCy___________pG 10PegasusAPI54Apple_Parsec_Flights_Pubsub_V1alpha_FlightStatusUpdateV s5ErrorP
++ _symbolic ScCy___________pG 10PegasusAPI59Apple_Parsec_Flights_V1alpha_FetchSubscriptionTokenResponseV s5ErrorP
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic Ss_Ss6clientt
++ _symbolic _____ 10PegasusAPI020Apple_Parsec_Search_A12QueryContextV
++ _symbolic _____ 10PegasusAPI026Apple_Parsec_Siri_V2alpha_eA8ResponseV
++ _symbolic _____ 10PegasusAPI50Apple_Parsec_DeviceExpert_V1alpha_QnaSearchRequestV
++ _symbolic _____ 10PegasusAPI51Apple_Parsec_DeviceExpert_V1alpha_QnaSearchResponseV
++ _symbolic _____ 10PegasusAPI59Apple_Parsec_Flights_V1alpha_FetchSubscriptionTokenResponseV
++ _symbolic _____ 10PegasusKit0A20ProxyForFlightSearchC
++ _symbolic _____ 10PegasusKit0A20ProxyForSpotlightZKWC12TimeoutError33_284B763088888A682EA4640B8BE1B3C5LLO
++ _symbolic _____ 10PegasusKit0A26ProxyForDeviceExpertSearchC
++ _symbolic _____ 10PegasusKit24NetworkFeedbackGeneratorV
++ _symbolic _____Sg 10PegasusAPI42Apple_Parsec_Type_Aps_Messsage_PushMessageV
++ _symbolic _____Sg 10PegasusAPI42Apple_Parsec_Type_Aps_Messsage_PushMessageV13OneOf_PayloadO
++ _symbolic _____Sg 10PegasusAPI47Apple_Parsec_Visualsearch_V2_VisualSearchDomainO
++ _symbolic _____Sg 10PegasusAPI50Apple_Parsec_Flights_V1alpha_APNSStatusChannelInfoV
++ _symbolic _____Sg 10PegasusAPI54Apple_Parsec_Encryptedsearch_V1_EncryptedSearchUsecaseO
++ _symbolic _____SgXw 10PegasusKit0A17ProxyForAssistantC
++ _symbolic ______p 10PegasusKit19NetworkCallObserverP
++ _symbolic ______pSg 10PegasusKit19NetworkCallObserverP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic _____yAAy___________pG_____G s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP s5NeverO
++ _symbolic _____yAAy___________pG_____GIegn_ s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP s5NeverO
++ _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGIegg_ s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGIegn_ s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGytIegnr_ s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____ySs_Ss6clienttG 17_StringProcessing5RegexV
++ _symbolic _____ySs_Ss6clientt_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_Ss6clientt_GSg 17_StringProcessing5RegexV5MatchV
++ _symbolic _____y______G 10PegasusKit12ActivitySpanC0C4Data33_86011CAF6F9A154C17FA9ACDB1EACD20LLV AA014ResourceAccessC0O
++ _symbolic _____y______G 10PegasusKit12ActivitySpanC0C4Data33_86011CAF6F9A154C17FA9ACDB1EACD20LLV AA015ResourceNetworkC0V
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_fB8ResponseV 0B3Kit0B17ProxyForAssistantC5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_F8ResponseV 0B3Kit0B14ProxyForLookupC5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_G8ResponseV 0B3Kit0b8ProxyForG0C5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0B3Kit0B28ProxyForIntelligencePlatformC5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0B3Kit0b8ProxyForF3ZKWC5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0B3Kit0b8ProxyForhI0C5ErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI51Apple_Parsec_Sba_V1_SafariAssistantPrefetchResponseV 0B3Kit10ProxyErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI52Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponseV 0B3Kit10ProxyErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI52Apple_Parsec_Sba_V1_SafariAssistantSummarizeResponseV 0B3Kit10ProxyErrorO
++ _symbolic _____y__________G s6ResultOsRi_zRi0_zrlE 10PegasusAPI67Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponseV 0B3Kit10ProxyErrorO
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_oK8ResponseV 0K3Kit0K17ProxyForAssistantC5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_O8ResponseV 0K3Kit0K14ProxyForLookupC5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_P8ResponseV 0K3Kit0k8ProxyForP0C5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0K3Kit0K28ProxyForIntelligencePlatformC5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0K3Kit0k8ProxyForO3ZKWC5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0K3Kit0k8ProxyForqR0C5ErrorO sATP AA12AnyPublisherV
++ _symbolic _____y______y______y______y_____y__________G_____G______pGADyAfK_pGG_____yAHGG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_Q8ResponseV 0L3Kit0l8ProxyForQ0C5ErrorO s5NeverO sATP AA4JustV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_nJ8ResponseV 0J3Kit0J17ProxyForAssistantC5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_N8ResponseV 0J3Kit0J14ProxyForLookupC5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_O8ResponseV 0J3Kit0j8ProxyForO0C5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0J3Kit0J28ProxyForIntelligencePlatformC5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0J3Kit0j8ProxyForN3ZKWC5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0J3Kit0j8ProxyForpQ0C5ErrorO sARP AA12AnyPublisherV
++ _symbolic _____y______y______y_____y__________G_____G______pGACyAeJ_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_P8ResponseV 0K3Kit0k8ProxyForP0C5ErrorO s5NeverO sARP
++ _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_lH8ResponseV 0H3Kit0H17ProxyForAssistantC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
++ _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_L8ResponseV 0H3Kit0H14ProxyForLookupC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
++ _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_M8ResponseV 0H3Kit0h8ProxyForM0C5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
++ _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0H3Kit0H28ProxyForIntelligencePlatformC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
++ _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0H3Kit0h8ProxyFornO0C5ErrorO s5NeverO AJ0j1_k1_o1_H12QueryContextV sAPP
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_mI8ResponseV 0I3Kit0I17ProxyForAssistantC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_M8ResponseV 0I3Kit0I14ProxyForLookupC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_N8ResponseV 0I3Kit0i8ProxyForN0C5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0I3Kit0I28ProxyForIntelligencePlatformC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0I3Kit0i8ProxyForM3ZKWC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0I3Kit0i8ProxyForoP0C5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GG 7Combine10PublishersO12HandleEventsV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0H3Kit0h8ProxyForL3ZKWC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0H3Kit0h8ProxyForL3ZKWC5ErrorO s5NeverO
++ _symbolic _____y______y_____y__________G_____G_____y______y_ABy_____AGGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_lH8ResponseV 0H3Kit0H17ProxyForAssistantC5ErrorO s5NeverO AC5FirstV AC4DropV AM04BasehP0C12EnabledStateC0Y0O
++ _symbolic _____y______y_____y__________G_____G_____y______y_ABy_____AGGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0H3Kit0H28ProxyForIntelligencePlatformC5ErrorO s5NeverO AC5FirstV AC4DropV AM04BasehQ0C12EnabledStateC5StateO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_hD8ResponseV 0D3Kit0D17ProxyForAssistantC5ErrorO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_H8ResponseV 0D3Kit0D14ProxyForLookupC5ErrorO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_I8ResponseV 0D3Kit0d8ProxyForI0C5ErrorO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0D3Kit0D28ProxyForIntelligencePlatformC5ErrorO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0D3Kit0d8ProxyForH3ZKWC5ErrorO
++ _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0D3Kit0d8ProxyForjK0C5ErrorO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_iE8ResponseV 0E3Kit0E17ProxyForAssistantC5ErrorO s5NeverO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_I8ResponseV 0E3Kit0E14ProxyForLookupC5ErrorO s5NeverO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_J8ResponseV 0E3Kit0e8ProxyForJ0C5ErrorO s5NeverO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0E3Kit0E28ProxyForIntelligencePlatformC5ErrorO s5NeverO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0E3Kit0e8ProxyForI3ZKWC5ErrorO s5NeverO
++ _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0E3Kit0e8ProxyForkL0C5ErrorO s5NeverO
++ _symbolic _____y_____y___________pG_____G 7Combine12AnyPublisherV s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_E12QueryContextV s5ErrorP s5NeverO
++ _symbolic _____y_____y___________pG_____G 7Combine6FutureC s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_D12QueryContextV s5ErrorP s5NeverO
++ _symbolic _____y_____y_____y___________pG_____GG 7Combine8DeferredV AA6FutureC s6ResultOsRi_zRi0_zrlE 10PegasusAPI020Apple_Parsec_Search_E12QueryContextV s5ErrorP s5NeverO
++ _symbolic y_____nYbc 10PegasusAPI025Apple_Parsec_Feedback_V2_E7PayloadV
++ _symbolic y_____ySo17NSHTTPURLResponseC______Sgt______pGcSg s6ResultOsRi_zRi0_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic ytSgIeAgHr_
++ _type_layout_string 10PegasusKit24NetworkFeedbackGeneratorV
+- _OBJC_CLASS_$_NSRegularExpression
+- _OBJC_CLASS_$_NSTextCheckingResult
+- _OUTLINED_FUNCTION_324
+- _OUTLINED_FUNCTION_325
+- _OUTLINED_FUNCTION_326
+- _OUTLINED_FUNCTION_327
+- _OUTLINED_FUNCTION_328
+- _OUTLINED_FUNCTION_329
+- _OUTLINED_FUNCTION_330
+- _OUTLINED_FUNCTION_331
+- _OUTLINED_FUNCTION_332
+- _OUTLINED_FUNCTION_333
+- _OUTLINED_FUNCTION_334
+- _OUTLINED_FUNCTION_335
+- _OUTLINED_FUNCTION_336
+- _OUTLINED_FUNCTION_337
+- _OUTLINED_FUNCTION_338
+- _OUTLINED_FUNCTION_339
+- _OUTLINED_FUNCTION_340
+- _OUTLINED_FUNCTION_341
+- _OUTLINED_FUNCTION_342
+- _OUTLINED_FUNCTION_343
+- _OUTLINED_FUNCTION_344
+- _OUTLINED_FUNCTION_345
+- _OUTLINED_FUNCTION_346
+- _OUTLINED_FUNCTION_347
+- _OUTLINED_FUNCTION_348
+- _OUTLINED_FUNCTION_349
+- _OUTLINED_FUNCTION_350
+- _OUTLINED_FUNCTION_351
+- _OUTLINED_FUNCTION_352
+- _OUTLINED_FUNCTION_353
+- _OUTLINED_FUNCTION_354
+- _OUTLINED_FUNCTION_355
+- _OUTLINED_FUNCTION_356
+- _OUTLINED_FUNCTION_357
+- _OUTLINED_FUNCTION_358
+- _OUTLINED_FUNCTION_359
+- ___swift_allocate_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_PegasusKit
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_PegasusKit
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_PegasusKit
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_PegasusKit
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_PegasusKit
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_PegasusKit
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_PegasusKit
+- _block_copy_helper.19
+- _block_copy_helper.22
+- _block_copy_helper.32
+- _block_copy_helper.42
+- _block_descriptor.21
+- _block_descriptor.24
+- _block_descriptor.34
+- _block_descriptor.44
+- _block_destroy_helper.20
+- _block_destroy_helper.23
+- _block_destroy_helper.33
+- _block_destroy_helper.43
+- _dynamic_cast_existential_1_unconditional
+- _objectdestroy.27Tm
+- _swift_projectBox
+- _symbolic SaySsG
+- _symbolic _____ SS5IndexV
+- _symbolic _____SgXw 10PegasusKit0A14ProxyForLookupC
+- _symbolic _____SgXw 10PegasusKit0A20ProxyForVisualSearchC
+- _symbolic _____SgXwz_Xx 10PegasusKit0A14ProxyForLookupC
+- _symbolic _____SgXwz_Xx 10PegasusKit0A20ProxyForVisualSearchC
+- _symbolic ______pAA_pIeggo_ s5ErrorP
+- _symbolic _____yAAy___________pG_____G s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP s5NeverO
+- _symbolic _____yAAy___________pG_____GIegn_ s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP s5NeverO
+- _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGIegg_ s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGIegn_ s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____ySo17NSHTTPURLResponseC______Sgt______pGytIegnr_ s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_fB8ResponseV 0B3Kit0B17ProxyForAssistantC5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_F8ResponseV 0B3Kit0B14ProxyForLookupC5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_G8ResponseV 0B3Kit0b8ProxyForG0C5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0B3Kit0B28ProxyForIntelligencePlatformC5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0B3Kit0b8ProxyForF3ZKWC5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0B3Kit0b8ProxyForhI0C5ErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI51Apple_Parsec_Sba_V1_SafariAssistantPrefetchResponseV 0B3Kit10ProxyErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI52Apple_Parsec_Encryptedvisualsearch_V1_ConfigResponseV 0B3Kit10ProxyErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI52Apple_Parsec_Sba_V1_SafariAssistantSummarizeResponseV 0B3Kit10ProxyErrorO
+- _symbolic _____y__________G s6ResultOsRi_zrlE 10PegasusAPI67Apple_Parsec_Encryptedvisualsearch_V1_EncryptedVisualSearchResponseV 0B3Kit10ProxyErrorO
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_B12QueryContextV s5ErrorP
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_oK8ResponseV 0K3Kit0K17ProxyForAssistantC5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_O8ResponseV 0K3Kit0K14ProxyForLookupC5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_P8ResponseV 0K3Kit0k8ProxyForP0C5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0K3Kit0K28ProxyForIntelligencePlatformC5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0K3Kit0k8ProxyForO3ZKWC5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________GG______pG_____yAfJ_pGGAIG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0K3Kit0k8ProxyForqR0C5ErrorO sATP AA12AnyPublisherV
+- _symbolic _____y______y______y______y_____y__________G_____G______pGADyAfK_pGG_____yAHGG 7Combine10PublishersO5CatchV AC7FlatMapV AC14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_Q8ResponseV 0L3Kit0l8ProxyForQ0C5ErrorO s5NeverO sATP AA4JustV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_nJ8ResponseV 0J3Kit0J17ProxyForAssistantC5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_N8ResponseV 0J3Kit0J14ProxyForLookupC5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_O8ResponseV 0J3Kit0j8ProxyForO0C5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0J3Kit0J28ProxyForIntelligencePlatformC5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0J3Kit0j8ProxyForN3ZKWC5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________GG______pG_____yAeI_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0J3Kit0j8ProxyForpQ0C5ErrorO sARP AA12AnyPublisherV
+- _symbolic _____y______y______y_____y__________G_____G______pGACyAeJ_pGG 7Combine10PublishersO7FlatMapV AC14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_P8ResponseV 0K3Kit0k8ProxyForP0C5ErrorO s5NeverO sARP
+- _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_lH8ResponseV 0H3Kit0H17ProxyForAssistantC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
+- _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_L8ResponseV 0H3Kit0H14ProxyForLookupC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
+- _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_M8ResponseV 0H3Kit0h8ProxyForM0C5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
+- _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0H3Kit0H28ProxyForIntelligencePlatformC5ErrorO s5NeverO AJ0j1_k8_Search_H12QueryContextV sAPP
+- _symbolic _____y______y_____y__________G_____GAByACy___________pGAGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0H3Kit0h8ProxyFornO0C5ErrorO s5NeverO AJ0j1_k1_o1_H12QueryContextV sAPP
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_mI8ResponseV 0I3Kit0I17ProxyForAssistantC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_M8ResponseV 0I3Kit0I14ProxyForLookupC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_N8ResponseV 0I3Kit0i8ProxyForN0C5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0I3Kit0I28ProxyForIntelligencePlatformC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0I3Kit0i8ProxyForM3ZKWC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GAEG 7Combine10PublishersO14SetFailureTypeV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0I3Kit0i8ProxyForoP0C5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GG 7Combine10PublishersO12HandleEventsV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0H3Kit0h8ProxyForL3ZKWC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____GSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0H3Kit0h8ProxyForL3ZKWC5ErrorO s5NeverO
+- _symbolic _____y______y_____y__________G_____G_____y______y_ABy_____AGGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_lH8ResponseV 0H3Kit0H17ProxyForAssistantC5ErrorO s5NeverO AC5FirstV AC4DropV AM04BasehP0C12EnabledStateC0Y0O
+- _symbolic _____y______y_____y__________G_____G_____y______y_ABy_____AGGGGG 7Combine10PublishersO7FlatMapV AA12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0H3Kit0H28ProxyForIntelligencePlatformC5ErrorO s5NeverO AC5FirstV AC4DropV AM04BasehQ0C12EnabledStateC5StateO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_hD8ResponseV 0D3Kit0D17ProxyForAssistantC5ErrorO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_H8ResponseV 0D3Kit0D14ProxyForLookupC5ErrorO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_I8ResponseV 0D3Kit0d8ProxyForI0C5ErrorO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0D3Kit0D28ProxyForIntelligencePlatformC5ErrorO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0D3Kit0d8ProxyForH3ZKWC5ErrorO
+- _symbolic _____y_____y__________GG 7Combine4JustV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0D3Kit0d8ProxyForjK0C5ErrorO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI026Apple_Parsec_Siri_V2alpha_iE8ResponseV 0E3Kit0E17ProxyForAssistantC5ErrorO s5NeverO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI027Apple_Parsec_Multimodal_V1_I8ResponseV 0E3Kit0E14ProxyForLookupC5ErrorO s5NeverO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI050Apple_Parsec_Responseframework_Engagement_V1alpha_J8ResponseV 0E3Kit0e8ProxyForJ0C5ErrorO s5NeverO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI40Apple_Parsec_Kg_V1alpha_IDSearchResponseV 0E3Kit0E28ProxyForIntelligencePlatformC5ErrorO s5NeverO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Spotlight_V1alpha_ZkwSuggestResponseV 0E3Kit0e8ProxyForI3ZKWC5ErrorO s5NeverO
+- _symbolic _____y_____y__________G_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI49Apple_Parsec_Visualsearch_V2_VisualSearchResponseV 0E3Kit0e8ProxyForkL0C5ErrorO s5NeverO
+- _symbolic _____y_____y___________pG_____G 7Combine12AnyPublisherV s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_E12QueryContextV s5ErrorP s5NeverO
+- _symbolic _____y_____y___________pG_____G 7Combine6FutureC s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_D12QueryContextV s5ErrorP s5NeverO
+- _symbolic _____y_____y_____y___________pG_____GG 7Combine8DeferredV AA6FutureC s6ResultOsRi_zrlE 10PegasusAPI020Apple_Parsec_Search_E12QueryContextV s5ErrorP s5NeverO
+- _symbolic _____z_Xx 10PegasusAPI043Apple_Parsec_Feedback_V2_StartNetworkSearchE0V
+- _symbolic y_____ySo17NSHTTPURLResponseC______Sgt______pGcSg s6ResultOsRi_zrlE 10Foundation4DataV s5ErrorP
+CStrings:
++ "/.*\\s+\\(.*\\)\\s+(?<client>.+)/"
++ "Allows matching abbreviated user agent %s. ClientName: %s"
++ "Failed to unsubscribe from flight updates: %@"
++ "FetchSubscriptionToken"
++ "Searching for fight %{sensitive}s, [bundleId: %{sensitive}s]"
++ "Subscribing to flight status updates for %{sensitive}s"
++ "XPC Fetch start: fetch Query Context for client %lu proxy activity: %lu"
++ "_TtC10PegasusKit27PegasusProxyForFlightSearch"
++ "_TtC10PegasusKit33PegasusProxyForDeviceExpertSearch"
++ "apple.parsec.device_expert.v1alpha.DeviceExpert"
++ "apple.parsec.flights.v1alpha.Flight"
++ "com.apple.intelligenceplatform.IntelligencePlatformComputeService"
++ "com.apple.pegasus.flight-updates"
++ "failed to convert encoded message to push message"
++ "failed to get latest push, %@"
++ "feedbackPublisher"
++ "fetch latest push update XPC failure: %s"
++ "fetchContext(for:proxyActivity:)"
++ "fetchLatestPushUpdateWithChannel:topic:completionHandler:"
++ "fetchUpdate(for:)"
++ "fetched flight %{sensitive}s successfully"
++ "fetching flight update for channel %s"
++ "getQueryContextDataForClient:activity:reply:"
++ "hit retry limit in subscribe XPC"
++ "hit retry limit in unsubscribe XPC"
++ "no error message"
++ "parseKeys"
++ "parsecdCloudConnectionFetchLatestPush"
++ "parsecdCloudConnectionSubscribe"
++ "parsecdCloudConnectionUnsubscribe"
++ "pegasusKitDeviceExpertSearch"
++ "pegasusKitFlightUtilities"
++ "pegasusKitFlightUtilitiesSubscribe"
++ "proxyForDeviceExpertSearch"
++ "proxyForFlightSearch"
++ "push message received does not contain flights push payload"
++ "received flightPush in proxy: %{sensitive}s"
++ "retrying fetch latest push update once more on interruption"
++ "returning error from subscription %@"
++ "returning flight subscription token response"
++ "search received status error: %s"
++ "self is nil when retrying subscribe XPC"
++ "self is nil when retrying unsubscribe XPC"
++ "setInterruptionHandler:"
++ "subscribe token received status error: %s"
++ "subscribe xpc failure: %s"
++ "subscribeToPushNotificationsWithChannelId:topic:completionHandler:"
++ "successfully received subscription token for flight %{sensitive}s"
++ "successfully unsubscribed flight updates for channel %s"
++ "unsubscribe XPC failure: %s"
++ "unsubscribe(channelId:)"
++ "unsubscribeFromPushNotificationsWithChannelId:topic:completionHandler:"
++ "unsubscribing flight updates for channel %s"
++ "v1/deviceexpert/qnasearch"
++ "v1/flight/fetchsubscriptiontoken"
++ "v1/flight/search"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSData\"@\"NSError\">32"
++ "v40@0:8@\"NSString\"16@\"NSString\"24@?<v@?@\"NSError\">32"
++ "v40@0:8@16@24@?32"
++ "v40@0:8Q16Q24@?32"
++ "v40@0:8Q16Q24@?<v@?@\"NSData\"@\"NSError\">32"
+- "(?i)(.*) \\((.*)\\) (.*)"
+- "Allows matching abbreviated user agent. ClientName: %s"
+- "Could not build useragent match regular expressions: %s"
+- "Slow Response Network Timing Data for request %{public}s: %{public}s"
+- "XPC Fetch start: fetch Query Context for client %lu"
+- "feedbackEventStream"
+- "fetchContext(for:)"
+- "getQueryContextDataForClient:reply:"
+- "initWithPattern:options:error:"
+- "matchesInString:options:range:"
+- "rangeAtIndex:"
+- "v32@0:8Q16@?24"
+- "v32@0:8Q16@?<v@?@\"NSData\"@\"NSError\">24"
+
+```

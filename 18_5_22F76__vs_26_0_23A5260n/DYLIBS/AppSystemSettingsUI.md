@@ -1,0 +1,883 @@
+## AppSystemSettingsUI
+
+> `/System/Library/PrivateFrameworks/AppSystemSettingsUI.framework/AppSystemSettingsUI`
+
+```diff
+
+-3.3.5.0.0
+-  __TEXT.__text: 0x11a38
+-  __TEXT.__auth_stubs: 0xc30
+-  __TEXT.__objc_methlist: 0xb0c
+-  __TEXT.__const: 0x308
++15.0.0.0.0
++  __TEXT.__text: 0x29f14
++  __TEXT.__auth_stubs: 0x1620
++  __TEXT.__objc_methlist: 0xf4c
++  __TEXT.__const: 0x1058
++  __TEXT.__cstring: 0x2a1e
++  __TEXT.__oslogstring: 0x915
+   __TEXT.__gcc_except_tab: 0x348
+-  __TEXT.__cstring: 0x1dac
+-  __TEXT.__oslogstring: 0x614
+   __TEXT.__ustring: 0x114
+-  __TEXT.__constg_swiftt: 0x15c
+-  __TEXT.__swift5_typeref: 0x172
+-  __TEXT.__swift5_capture: 0x64
+-  __TEXT.__swift5_proto: 0x10
+-  __TEXT.__swift5_types: 0x14
++  __TEXT.__constg_swiftt: 0x5a0
++  __TEXT.__swift5_typeref: 0x1427
++  __TEXT.__swift5_fieldmd: 0x30c
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_reflstr: 0x317
++  __TEXT.__swift5_assocty: 0x108
++  __TEXT.__swift5_capture: 0x1bc
++  __TEXT.__swift5_proto: 0x5c
++  __TEXT.__swift5_types: 0x5c
+   __TEXT.__swift_as_entry: 0x8
+   __TEXT.__swift_as_ret: 0x4
+-  __TEXT.__swift5_reflstr: 0x39
+-  __TEXT.__swift5_fieldmd: 0x70
+-  __TEXT.__swift5_assocty: 0x18
+-  __TEXT.__unwind_info: 0x4b8
+-  __TEXT.__eh_frame: 0x118
+-  __TEXT.__objc_classname: 0x16a
+-  __TEXT.__objc_methname: 0x2bd4
+-  __TEXT.__objc_methtype: 0x552
+-  __TEXT.__objc_stubs: 0x2560
+-  __DATA_CONST.__got: 0x450
+-  __DATA_CONST.__const: 0x488
+-  __DATA_CONST.__objc_classlist: 0x58
+-  __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x20
++  __TEXT.__unwind_info: 0x968
++  __TEXT.__eh_frame: 0x228
++  __TEXT.__objc_classname: 0x1f0
++  __TEXT.__objc_methname: 0x3b94
++  __TEXT.__objc_methtype: 0x11b0
++  __TEXT.__objc_stubs: 0x2980
++  __DATA_CONST.__got: 0x758
++  __DATA_CONST.__const: 0x4b0
++  __DATA_CONST.__objc_classlist: 0x90
++  __DATA_CONST.__objc_catlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x58
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xcb0
++  __DATA_CONST.__objc_selrefs: 0x1090
++  __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x28
+-  __AUTH_CONST.__auth_got: 0x628
+-  __AUTH_CONST.__const: 0x320
+-  __AUTH_CONST.__cfstring: 0x1480
+-  __AUTH_CONST.__objc_const: 0xdc0
++  __AUTH_CONST.__auth_got: 0xb20
++  __AUTH_CONST.__const: 0xa48
++  __AUTH_CONST.__cfstring: 0x1620
++  __AUTH_CONST.__objc_const: 0x1a10
+   __AUTH_CONST.__objc_intobj: 0x318
+   __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x4c8
+-  __AUTH.__data: 0x78
+-  __DATA.__objc_ivar: 0x88
+-  __DATA.__data: 0x230
+-  __DATA.__bss: 0x290
++  __AUTH.__objc_data: 0x970
++  __AUTH.__data: 0x310
++  __DATA.__objc_ivar: 0x90
++  __DATA.__data: 0x9f8
++  __DATA.__bss: 0xbe0
++  __DATA.__common: 0x20
++  __DATA_DIRTY.__data: 0x10
++  __DATA_DIRTY.__bss: 0x100
+   - /System/Library/Frameworks/AccessorySetupKit.framework/AccessorySetupKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
++  - /System/Library/Frameworks/AlarmKit.framework/AlarmKit
++  - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+
+   - /System/Library/PrivateFrameworks/AppSystemSettings.framework/AppSystemSettings
+   - /System/Library/PrivateFrameworks/BulletinBoard.framework/BulletinBoard
+   - /System/Library/PrivateFrameworks/CommunicationSafetySettingsUI.framework/CommunicationSafetySettingsUI
++  - /System/Library/PrivateFrameworks/CommunicationsSetupUI.framework/CommunicationsSetupUI
++  - /System/Library/PrivateFrameworks/CoreIDV.framework/CoreIDV
+   - /System/Library/PrivateFrameworks/DefaultAppsSettings.framework/DefaultAppsSettings
+   - /System/Library/PrivateFrameworks/DefaultAppsSettingsUI.framework/DefaultAppsSettingsUI
+   - /System/Library/PrivateFrameworks/DeviceAccess.framework/DeviceAccess
+   - /System/Library/PrivateFrameworks/DocumentManager.framework/DocumentManager
+   - /System/Library/PrivateFrameworks/DocumentManagerCore.framework/DocumentManagerCore
+   - /System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/IMSharedUtilities.framework/IMSharedUtilities
++  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+   - /System/Library/PrivateFrameworks/IntlPreferences.framework/IntlPreferences
+   - /System/Library/PrivateFrameworks/LimitAdTracking.framework/LimitAdTracking
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/MomentsOnboardingAndSettings.framework/MomentsOnboardingAndSettings
+   - /System/Library/PrivateFrameworks/NetAppsUtilities.framework/NetAppsUtilities
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
++  - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
+   - /System/Library/PrivateFrameworks/SEService.framework/SEService
++  - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /System/Library/PrivateFrameworks/SettingsCellular.framework/SettingsCellular
+   - /System/Library/PrivateFrameworks/SettingsFoundation.framework/SettingsFoundation
+   - /System/Library/PrivateFrameworks/TCC.framework/TCC
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/_IconServices_SwiftUI
+   - /usr/lib/libCTGreenTeaLogger.dylib
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 3629F78B-4A1B-3F42-A57B-D10275A919B4
+-  Functions: 332
+-  Symbols:   1370
+-  CStrings:  979
++  UUID: 2B285C46-1BAF-3457-A0DB-6CAB8DF08320
++  Functions: 808
++  Symbols:   1787
++  CStrings:  1247
+ 
+Symbols:
++ -[AUSystemSettingsSpecifiersProvider _supportsAlarmKit]
++ -[AUSystemSettingsSpecifiersProvider alarmKitSpecifier]
++ -[AUSystemSettingsSpecifiersProvider authLevelStringForStatus:learnedRoutesAccess:visitHistoryAccess:]
++ -[AUSystemSettingsSpecifiersProvider getLearnedRoutesAccess:visitHistoryAccess:fromDetails:serviceKey:]
++ -[AUSystemSettingsSpecifiersProvider getLearnedRoutesAccess:visitHistoryAccess:fromDetails:serviceKey:].cold.1
++ -[AUSystemSettingsSpecifiersProvider getLearnedRoutesAccess:visitHistoryAccess:fromDetails:serviceKey:].cold.2
++ -[AUSystemSettingsSpecifiersProvider identityVerificationSpecifiers]
++ -[AUSystemSettingsSpecifiersProvider isAlarmKitEnabled:]
++ -[AUSystemSettingsSpecifiersProvider isIdentityVerificationAllowOnWebsitesEnabled:]
++ -[AUSystemSettingsSpecifiersProvider locationStatus:].cold.1
++ -[AUSystemSettingsSpecifiersProvider notificationSpecifier].cold.1
++ -[AUSystemSettingsSpecifiersProvider setAlarmKitEnabled:forSpecifier:]
++ -[AUSystemSettingsSpecifiersProvider setIdentityVerificationAllowOnWebsitesEnabled:specifier:]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_boolValue]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_createCellInstance]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_detailString]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_footerString]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_image]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_isUserInteractive]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_loadValueFromCell]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_prefersSubtitleAppearance]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) au_titleString]
++ -[PSSpecifier(AppSystemSettingsUIAdditions) setAu_boolValue:]
++ GCC_except_table110
++ GCC_except_table115
++ GCC_except_table26
++ GCC_except_table44
++ GCC_except_table59
++ GCC_except_table76
++ GCC_except_table77
++ GCC_except_table94
++ OBJC_IVAR_$_PSSpecifier.action
++ OBJC_IVAR_$_PSSpecifier.cellType
++ OBJC_IVAR_$_PSSpecifier.detailControllerClass
++ OBJC_IVAR_$_PSSpecifier.editPaneClass
++ OBJC_IVAR_$_PSSpecifier.setter
++ _CFPreferencesGetAppBooleanValue
++ _NSBOOLFromString
++ _NSStringFromClass
++ _OBJC_CLASS_$_AKAlarmAuthorization
++ _OBJC_CLASS_$_CNFRegController
++ _OBJC_CLASS_$_CTBundle
++ _OBJC_CLASS_$_CTLazuliMessagingCapabilities
++ _OBJC_CLASS_$_CTLazuliSystemConfiguration
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionContext
++ _OBJC_CLASS_$_CTXPCServiceSubscriptionInfo
++ _OBJC_CLASS_$_CoreTelephonyClient
++ _OBJC_CLASS_$_DIIdentitySettingsProvider
++ _OBJC_CLASS_$_IMCTRCSUtilitiesManager
++ _OBJC_CLASS_$_IMCTSMSUtilitiesManager
++ _OBJC_CLASS_$_ISIcon
++ _OBJC_CLASS_$_ISImageDescriptor
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_PSTableCell
++ _OBJC_CLASS_$_UIKeyboardInputMode
++ _OBJC_CLASS_$_UIKeyboardInputModeController
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI25MessagingSettingsProvider
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI26MMSMessagingViewController
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI26RCSMessagingViewController
++ _OBJC_CLASS_$__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_IVAR_$_AUSystemSettingsSpecifiersProvider._identitySettingsProvider
++ _OBJC_IVAR_$_AUSystemSettingsSpecifiersProvider._showIdentityDocumentProviderExtension
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI25MessagingSettingsProvider
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI26MMSMessagingViewController
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI26RCSMessagingViewController
++ _OBJC_METACLASS_$__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _OUTLINED_FUNCTION_0
++ _PSBundleIsControllerKey
++ _PSBundleOverridePrincipalClassKey
++ _PSButtonCellSubtitleTextKey
++ _PSDetailControllerClassKey
++ _PSLazilyLoadedBundleKey
++ __DATA__TtC19AppSystemSettingsUI11AUSpecifier
++ __DATA__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ __DATA__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ __DATA__TtC19AppSystemSettingsUI25MessagingSettingsProvider
++ __DATA__TtC19AppSystemSettingsUI26MMSMessagingViewController
++ __DATA__TtC19AppSystemSettingsUI26RCSMessagingViewController
++ __DATA__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1
++ __INSTANCE_METHODS__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ __INSTANCE_METHODS__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ __INSTANCE_METHODS__TtC19AppSystemSettingsUI26MMSMessagingViewController
++ __INSTANCE_METHODS__TtC19AppSystemSettingsUI26RCSMessagingViewController
++ __IVARS__TtC19AppSystemSettingsUI11AUSpecifier
++ __IVARS__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ __IVARS__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ __IVARS__TtC19AppSystemSettingsUI25MessagingSettingsProvider
++ __IVARS__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1
++ __METACLASS_DATA__TtC19AppSystemSettingsUI11AUSpecifier
++ __METACLASS_DATA__TtC19AppSystemSettingsUI21MMSMessagingSpecifier
++ __METACLASS_DATA__TtC19AppSystemSettingsUI21RCSMessagingSpecifier
++ __METACLASS_DATA__TtC19AppSystemSettingsUI25MessagingSettingsProvider
++ __METACLASS_DATA__TtC19AppSystemSettingsUI26MMSMessagingViewController
++ __METACLASS_DATA__TtC19AppSystemSettingsUI26RCSMessagingViewController
++ __METACLASS_DATA__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_PSSpecifier_$_AppSystemSettingsUIAdditions
++ __OBJC_$_CATEGORY_PSSpecifier_$_AppSystemSettingsUIAdditions
++ __OBJC_$_INSTANCE_METHODS__TtC19AppSystemSettingsUI25MessagingSettingsProvider(AppSystemSettingsUI|AppSystemSettingsUI1)
++ __OBJC_$_INSTANCE_METHODS__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1(AppSystemSettingsUI)
++ __OBJC_$_PROP_LIST_PSSpecifier_$_AppSystemSettingsUIAdditions
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AUSystemSettingsSpecifiersProviderDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CoreTelephonyClientDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_CoreTelephonyClientLazuliDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AUSystemSettingsSpecifiersProviderDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CoreTelephonyClientDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CoreTelephonyClientLazuliDelegate
++ __OBJC_$_PROTOCOL_REFS_AUSystemSettingsSpecifiersProviderDelegate
++ __OBJC_$_PROTOCOL_REFS_CoreTelephonyClientDelegate
++ __OBJC_$_PROTOCOL_REFS_CoreTelephonyClientLazuliDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC19AppSystemSettingsUI25MessagingSettingsProvider(AppSystemSettingsUI|AppSystemSettingsUI1)
++ __OBJC_CLASS_PROTOCOLS_$__TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1(AppSystemSettingsUI)
++ __OBJC_LABEL_PROTOCOL_$_AUSystemSettingsSpecifiersProviderDelegate
++ __OBJC_LABEL_PROTOCOL_$_CoreTelephonyClientDelegate
++ __OBJC_LABEL_PROTOCOL_$_CoreTelephonyClientLazuliDelegate
++ __OBJC_PROTOCOL_$_AUSystemSettingsSpecifiersProviderDelegate
++ __OBJC_PROTOCOL_$_CoreTelephonyClientDelegate
++ __OBJC_PROTOCOL_$_CoreTelephonyClientLazuliDelegate
++ ___59-[AUSystemSettingsSpecifiersProvider notificationSpecifier]_block_invoke
++ ___65-[AUSystemSettingsSpecifiersProvider _updateDownloadsFolderTitle]_block_invoke.615
++ ___68-[AUSystemSettingsSpecifiersProvider setPrivacyAccess:forSpecifier:]_block_invoke.439
++ ___68-[AUSystemSettingsSpecifiersProvider setPrivacyAccess:forSpecifier:]_block_invoke_2.444
++ ___74-[AUSystemSettingsSpecifiersProvider initWithApplicationBundleIdentifier:]_block_invoke.91
++ ___74-[AUSystemSettingsSpecifiersProvider initWithApplicationBundleIdentifier:]_block_invoke.92
++ ___block_descriptor_40_e8_32s_e30_v24?0"NSNumber"8"NSError"16ls32l8
++ ___block_literal_global.124
++ ___block_literal_global.240
++ ___block_literal_global.256
++ ___block_literal_global.502
++ ___block_literal_global.564
++ ___block_literal_global.582
++ ___block_literal_global.95
++ ___swift_allocate_value_buffer
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_memcpy0_1
++ ___swift_memcpy16_8
++ ___swift_memcpy24_8
++ ___swift_memcpy32_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_0Tm
++ ___swift_project_value_buffer
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAppleArchive
++ __swift_FORCE_LOAD_$_swiftAppleArchive_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AppSystemSettingsUI
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AppSystemSettingsUI
++ __swift_stdlib_malloc_size
++ _associated conformance 19AppSystemSettingsUI08AUSystemC14ListContent_v1V05SwiftD04ViewAA4BodyAdEP_AdE
++ _associated conformance 19AppSystemSettingsUI11AUSpecifierC7Combine16ObservableObjectAA0H19WillChangePublisherAdEP_AD0K0
++ _associated conformance 19AppSystemSettingsUI13MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV05SwiftD00F0AA4BodyAeFP_AeF
++ _associated conformance 19AppSystemSettingsUI13RCSToggleView33_82BE158A72740C371390E335F5EE5E15LLV05SwiftD00F0AA4BodyAeFP_AeF
++ _associated conformance 19AppSystemSettingsUI15MMSSettingsView33_F7DA4EF5F482E568900026F6EBF6ED61LLV05SwiftD00F0AA4BodyAeFP_AeF
++ _associated conformance 19AppSystemSettingsUI15RCSSettingsView33_82BE158A72740C371390E335F5EE5E15LLV05SwiftD00F0AA4BodyAeFP_AeF
++ _associated conformance 19AppSystemSettingsUI21AUSpecifierSection_v1VSHAASQ
++ _associated conformance 19AppSystemSettingsUI22AULinkSpecifierView_v1V05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 19AppSystemSettingsUI24AUToggleSpecifierView_v1V05SwiftD00G0AA4BodyAdEP_AdE
++ _associated conformance 19AppSystemSettingsUI24CoreTelephonyFeatureFlagOSHAASQ
++ _associated conformance 19AppSystemSettingsUI26RCSBusinessMessagesSection33_82BE158A72740C371390E335F5EE5E15LLV05SwiftD04ViewAA4BodyAeFP_AeF
++ _associated conformance So18CTSubscriptionSlotVSHSCSQ
++ _bzero
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA7ForEachVySay017AppSystemSettingsB021AUSpecifierSection_v1VGSSSgAA0P0VyAA4TextVSgAJySaySo11PSSpecifierCGAoCyACyAA5GroupVyAA012_ConditionalD0VyA_yAK017AUToggleSpecifiere1_Q0VAK06AULinkwe1_Q0VGASGGAA31AccessibilityAttachmentModifierVGAA32_EnvironmentKeyTransformModifierVySbGGGATGG_AA10ScenePhaseOQo_AA25_AppearanceActionModifierVGAaDHPqd0__AaDHD3_A19_HO_A21_AA0E8ModifierHPyHCHC.17
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ToggleVyAA9TupleViewVyAA4TextV_AISgtGGAA32_EnvironmentKeyTransformModifierVySbGGAA0G0HPAlaQHPyHC_AoA0gL0HPyHCHC.42
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA14NavigationLinkVyACyAA5LabelVyAA9TupleViewVyAA4TextVSg_ALtGACyACyAA5ImageV014_IconServices_aB005AsynclK0VyAOGGASGSgGAA07LabeledD0VyAGyAlVGALGG19PreferencesExtended0p10ControllerI0VGACyAEyA0_s5NeverOGA7_GGAA0I0HPA4_AAA10_HPyHC_A8_AAA10_HPA7_AAA10_HPyHC_A7_AAA10_HPyHCHCHC.2
++ _get_witness_table 7SwiftUI6ToggleVyAA4TextVGAA4ViewHPyHC.23
++ _get_witness_table 7SwiftUI6ToggleVyAA5LabelVyAA4TextVSgAA19_ConditionalContentVyAJyAA5ImageV014_IconServices_aB005AsynciH0VyALGGAPGSgGGAA4ViewHPyHC.3
++ _get_witness_table 7SwiftUI7SectionVyAA9EmptyViewVAA15ModifiedContentVyAA6ToggleVyAA4TextVGAA32_EnvironmentKeyTransformModifierVySbGGAKGSgAA0E0HpAqaSHPAeaSHPyHC_ApaSHPAlaSHPyHC_AoA0eM0HPyHCHCAkaSHPyHCHC_HC.43
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA4ListVys5NeverOAA05TupleC0VyAA012_ConditionalI0VyAA7SectionVyAA05EmptyC0V017AppSystemSettingsB009RCSToggleC033_82BE158A72740C371390E335F5EE5E15LLVAHyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA13OpenURLActionVGGGARyAzA7ForEachVySaySo31CTXPCServiceSubscriptionContextCGSo18CTSubscriptionSlotVAXGA4_GG_AU019RCSBusinessMessagesN0AWLLVtGGAA25_AppearanceActionModifierVG_AU09MessagingR8ProviderCQo_HO.20
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAA15ModifiedContentVyAA4ListVys5NeverOAA7SectionVyAA4TextVAA7ForEachVySaySo31CTXPCServiceSubscriptionContextCGSo18CTSubscriptionSlotV017AppSystemSettingsB009MMSToggleC033_F7DA4EF5F482E568900026F6EBF6ED61LLVGAA05EmptyC0VGGAA25_AppearanceActionModifierVG_AX09MessagingW8ProviderCQo_HO.16
++ _kISImageDescriptorTableUIName
++ _keypath_get_selector_au_boolValue
++ _keypath_get_selector_identifier
++ _keypath_get_selector_slotID
++ _malloc_size
++ _memcpy
++ _notificationSpecifier.notificationCellClass
++ _notificationSpecifier.notificationDetailControllerClass
++ _notificationSpecifier.notificationSettingsBundle
++ _notificationSpecifier.onceToken
++ _objc_getAssociatedObject
++ _objc_msgSend$alarmKitSpecifier
++ _objc_msgSend$au_createCellInstance
++ _objc_msgSend$au_prefersSubtitleAppearance
++ _objc_msgSend$authLevelStringForStatus:learnedRoutesAccess:visitHistoryAccess:
++ _objc_msgSend$authorizationStateForBundleID:
++ _objc_msgSend$cellClassForSpecifier:
++ _objc_msgSend$cellStyle
++ _objc_msgSend$cellType
++ _objc_msgSend$contactlessAndNFCSpecifier
++ _objc_msgSend$controllerLoadAction
++ _objc_msgSend$detailTextLabel
++ _objc_msgSend$didChangeValueForKey:
++ _objc_msgSend$getLearnedRoutesAccess:forBundleIdentifier:
++ _objc_msgSend$getLearnedRoutesAccess:visitHistoryAccess:fromDetails:serviceKey:
++ _objc_msgSend$getVisitHistoryAccess:forBundleIdentifier:
++ _objc_msgSend$hasValidGetter
++ _objc_msgSend$hasValidSetter
++ _objc_msgSend$identityVerificationSpecifiers
++ _objc_msgSend$initWithStyle:reuseIdentifier:specifier:
++ _objc_msgSend$isDocumentProviderExtensionEnabledFor:
++ _objc_msgSend$isSubclassOfClass:
++ _objc_msgSend$keyboardExtensionSpecifier
++ _objc_msgSend$performSetterWithValue:
++ _objc_msgSend$refreshCellContentsWithSpecifier:
++ _objc_msgSend$reuseIdentifierForSpecifier:
++ _objc_msgSend$setAuthorizationState:forBundleID:
++ _objc_msgSend$setDocumentProviderExtensionEnablementFor:to:
++ _objc_msgSend$shortTitleDictionary
++ _objc_msgSend$showDocumentProviderExtensionFor:completion:
++ _objc_msgSend$supportsAlarmKit:
++ _objc_msgSend$text
++ _objc_msgSend$textMessagingSpecifiers
++ _objc_msgSend$titleDictionary
++ _objc_msgSend$willChangeValueForKey:
++ _objc_retain_x10
++ _objc_retain_x28
++ _objc_retain_x5
++ _objc_retain_x9
++ _objc_setAssociatedObject
++ _objectdestroy.18Tm
++ _objectdestroy.22Tm
++ _objectdestroy.33Tm
++ _objectdestroy.3Tm
++ _objectdestroyTm
++ _swift_arrayInitWithCopy
++ _swift_bridgeObjectRetain_n
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_deallocClassInstance
++ _swift_deallocPartialClassInstance
++ _swift_dynamicCastObjCClass
++ _swift_endAccess
++ _swift_getAtKeyPath
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getKeyPath
++ _swift_getSingletonMetadata
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_once
++ _swift_retain_n
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_updateClassMetadata2
++ _symbolic $s7Combine16ObservableObjectP
++ _symbolic $sSY
++ _symbolic SDy_____So27CTLazuliSystemConfigurationCG So18CTSubscriptionSlotV
++ _symbolic SS
++ _symbolic SS_ypt
++ _symbolic SaySo11PSSpecifierCG
++ _symbolic SaySo31CTXPCServiceSubscriptionContextCG
++ _symbolic Say_____G 19AppSystemSettingsUI21AUSpecifierSection_v1V
++ _symbolic Sb
++ _symbolic Si
++ _symbolic So19CoreTelephonyClientC
++ _symbolic So28CTXPCServiceSubscriptionInfoCSg
++ _symbolic So31CTXPCServiceSubscriptionContextC
++ _symbolic So34AUSystemSettingsSpecifiersProviderCSg
++ _symbolic So8NSObjectCSg
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 19AppSystemSettingsUI08AUSystemC14ListContent_v1V
++ _symbolic _____ 19AppSystemSettingsUI08AUSystemC19ListContentModel_v1C
++ _symbolic _____ 19AppSystemSettingsUI09MessagingC8ProviderC
++ _symbolic _____ 19AppSystemSettingsUI11AUSpecifierC
++ _symbolic _____ 19AppSystemSettingsUI13MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _symbolic _____ 19AppSystemSettingsUI13RCSToggleView33_82BE158A72740C371390E335F5EE5E15LLV
++ _symbolic _____ 19AppSystemSettingsUI15MMSSettingsView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _symbolic _____ 19AppSystemSettingsUI15RCSSettingsView33_82BE158A72740C371390E335F5EE5E15LLV
++ _symbolic _____ 19AppSystemSettingsUI21AUSpecifierSection_v1V
++ _symbolic _____ 19AppSystemSettingsUI21MMSMessagingSpecifierC
++ _symbolic _____ 19AppSystemSettingsUI21RCSMessagingSpecifierC
++ _symbolic _____ 19AppSystemSettingsUI22AULinkSpecifierView_v1V
++ _symbolic _____ 19AppSystemSettingsUI24AUToggleSpecifierView_v1V
++ _symbolic _____ 19AppSystemSettingsUI24CoreTelephonyFeatureFlagO
++ _symbolic _____ 19AppSystemSettingsUI26MMSMessagingViewControllerC
++ _symbolic _____ 19AppSystemSettingsUI26RCSBusinessMessagesSection33_82BE158A72740C371390E335F5EE5E15LLV
++ _symbolic _____ 19AppSystemSettingsUI26RCSMessagingViewControllerC
++ _symbolic _____ 7SwiftUI10ScenePhaseO
++ _symbolic _____ 7SwiftUI13OpenURLActionV
++ _symbolic _____ 7SwiftUI17EnvironmentValuesV
++ _symbolic _____ 7SwiftUI34WithCurrentHostingControllerActionV
++ _symbolic _____ So18CTSubscriptionSlotV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 17AppSystemSettings22ASApplicationRecord_V1V
++ _symbolic _____Sg 19PreferencesExtended0A16ControllerRecipeV
++ _symbolic _____Sg 7SwiftUI34WithCurrentHostingControllerActionV
++ _symbolic _____Sg 7SwiftUI4TextV
++ _symbolic _____Sg 8Settings0A10PaneRecipeV
++ _symbolic _____Sg 9SEService24SESContactlessTCCContextC9NFCTCCRowV
++ _symbolic _____SgXw 19AppSystemSettingsUI26MMSMessagingViewControllerC
++ _symbolic _____SgXw 19AppSystemSettingsUI26RCSMessagingViewControllerC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____yAAy__________G_____G 7SwiftUI19_ConditionalContentV 017AppSystemSettingsB024AUToggleSpecifierView_v1V AD06AULinkij1_K0V AA4TextV
++ _symbolic _____yAAy__________yABGGADG 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V
++ _symbolic _____yAAy__________yABGGADGSg 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V
++ _symbolic _____yAAy_____y_____yACy__________G_____GG_____G_____ySbGG 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 017AppSystemSettingsB024AUToggleSpecifierView_v1V AH06AULinkkl1_M0V AA4TextV AA31AccessibilityAttachmentModifierV AA024_EnvironmentKeyTransformR0V
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySaySo11PSSpecifierCGSSSg_____yAFy_____y_____yAHy__________G_____GG_____G_____ySbGGG 7SwiftUI7ForEachV AA15ModifiedContentV AA5GroupV AA012_ConditionalF0V 017AppSystemSettingsB024AUToggleSpecifierView_v1V AJ06AULinkmn1_O0V AA4TextV AA31AccessibilityAttachmentModifierV AA024_EnvironmentKeyTransformT0V
++ _symbolic _____ySaySo31CTXPCServiceSubscriptionContextCG__________G 7SwiftUI7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _symbolic _____ySaySo31CTXPCServiceSubscriptionContextCG__________G 7SwiftUI7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013RCSToggleView33_82BE158A72740C371390E335F5EE5E15LLV
++ _symbolic _____ySay_____GSSSg_____y_____SgAAySaySo11PSSpecifierCGAD_____yAKy_____y_____yAMy__________GAFGG_____G_____ySbGGGAGGG 7SwiftUI7ForEachV 017AppSystemSettingsB021AUSpecifierSection_v1V AA0I0V AA4TextV AA15ModifiedContentV AA5GroupV AA012_ConditionalM0V AD022AUToggleSpecifierView_J0V AD06AULinkqr1_J0V AA31AccessibilityAttachmentModifierV AA024_EnvironmentKeyTransformV0V
++ _symbolic _____ySbG 7SwiftUI32_EnvironmentKeyTransformModifierV
++ _symbolic _____ySo11PSSpecifierCG 7SwiftUI7BindingV
++ _symbolic _____y_So11PSSpecifierCSbG So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y_____G 21_IconServices_SwiftUI05AsyncA5ImageV 0cD00F0V
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA0C6ValuesV
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA10ScenePhaseO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA34WithCurrentHostingControllerActionV
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 017AppSystemSettingsB011AUSpecifierC
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 017AppSystemSettingsB015MMSSettingsView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 017AppSystemSettingsB015RCSSettingsView33_82BE158A72740C371390E335F5EE5E15LLV
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y_____G 7SwiftUI5StateV 017AppSystemSettingsB008AUSystemF19ListContentModel_v1C
++ _symbolic _____y_____G 7SwiftUI6ToggleV AA4TextV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 19AppSystemSettingsUI21AUSpecifierSection_v1V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____Sg_ACtG 7SwiftUI9TupleViewV AA4TextV
++ _symbolic _____y_____Sg_____yADy__________yAEGGAGGSgG 7SwiftUI5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynchG0V
++ _symbolic _____y_____Sg_____ySaySo11PSSpecifierCGSSSg_____yAIy_____y_____yAKy__________GABGG_____G_____ySbGGGACG 7SwiftUI7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AA5GroupV AA012_ConditionalH0V 017AppSystemSettingsB024AUToggleSpecifierView_v1V AN06AULinkop1_Q0V AA31AccessibilityAttachmentModifierV AA024_EnvironmentKeyTransformU0V
++ _symbolic _____y_____So27CTLazuliSystemConfigurationCG s18_DictionaryStorageC So18CTSubscriptionSlotV
++ _symbolic _____y______ABSgtG 7SwiftUI9TupleViewV AA4TextV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA0C6ValuesV
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA10ScenePhaseO
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA34WithCurrentHostingControllerActionV
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV 017AppSystemSettingsB024AUToggleSpecifierView_v1V AD06AULinkij1_K0V
++ _symbolic _____y___________G 7SwiftUI19_ConditionalContentV7StorageO 017AppSystemSettingsB024AUToggleSpecifierView_v1V AF06AULinkjk1_L0V
++ _symbolic _____y_______________y__________y_____GGG 7SwiftUI7SectionV AA9EmptyViewV 017AppSystemSettingsB009RCSToggleE033_82BE158A72740C371390E335F5EE5E15LLV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y__________yABGG 7SwiftUI19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncfE0V
++ _symbolic _____y__________yABG_G 7SwiftUI19_ConditionalContentV7StorageO AA5ImageV 014_IconServices_aB005AsyncgF0V
++ _symbolic _____y__________ySaySo31CTXPCServiceSubscriptionContextCG__________G_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV AA05EmptyM0V
++ _symbolic _____y__________ySaySo31CTXPCServiceSubscriptionContextCG__________G_____yAB_____y_____GGG 7SwiftUI7SectionV AA4TextV AA7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013RCSToggleView33_82BE158A72740C371390E335F5EE5E15LLV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV
++ _symbolic _____y__________y__________ySaySo31CTXPCServiceSubscriptionContextCG__________G_____GG 7SwiftUI4ListV s5NeverO AA7SectionV AA4TextV AA7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV AA05EmptyO0V
++ _symbolic _____y__________y_____y_____G_____ySbGGAEG 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y__________y_____y_____G_____ySbGGAEGSg 7SwiftUI7SectionV AA9EmptyViewV AA15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y__________y_____y_____y_______________y__________y_____GGGAEyAI_____ySaySo31CTXPCServiceSubscriptionContextCG_____AGGAMGG______tGG 7SwiftUI4ListV s5NeverO AA9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyF0V 017AppSystemSettingsB009RCSToggleF033_82BE158A72740C371390E335F5EE5E15LLV AA08ModifiedH0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV AN019RCSBusinessMessagesI0APLLV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______y_So11PSSpecifierCSbGG 7Combine10PublishersO5FirstV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______y______y_So11PSSpecifierCSbGGytG 7Combine10PublishersO3MapV AC5FirstV So8NSObjectC10FoundationE26KeyValueObservingPublisherV
++ _symbolic _____y______yyt_____GG 7Combine10PublishersO9MergeManyV AA12AnyPublisherV s5NeverO
++ _symbolic _____y_____yAAy_____y_____y_____Sg_AFtGAAyAAy__________yAHGGAJGSgG_____yACyAfMGAFGG_____GAAyAByAR_____GAVGG 7SwiftUI19_ConditionalContentV AA14NavigationLinkV AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsynclK0V AA07LabeledD0V 19PreferencesExtended0p10ControllerI0V s5NeverO
++ _symbolic _____y_____yAAy_____y_____y_____Sg_AFtGAAyAAy__________yAHGGAJGSgG_____yACyAfMGAFGG_____GATG 7SwiftUI19_ConditionalContentV AA14NavigationLinkV AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsynclK0V AA07LabeledD0V s5NeverO
++ _symbolic _____y_____yABy__________G_____GG 7SwiftUI5GroupV AA19_ConditionalContentV 017AppSystemSettingsB024AUToggleSpecifierView_v1V AF06AULinkjk1_L0V AA4TextV
++ _symbolic _____y_____y_____G_____ySbGG 7SwiftUI15ModifiedContentV AA6ToggleV AA4TextV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____Sg_ADtG_____yAFy__________yAGGGAIGSgG 7SwiftUI5LabelV AA9TupleViewV AA4TextV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsyncjI0V
++ _symbolic _____y_____y_____Sg_____yAEy__________yAFGGAHGSgGADG 7SwiftUI14LabeledContentV AA5LabelV AA4TextV AA012_ConditionalD0V AA5ImageV 014_IconServices_aB005AsynciH0V
++ _symbolic _____y_____y_____Sg_____yAEy__________yAFGGAHGSgGG 7SwiftUI6ToggleV AA5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV 014_IconServices_aB005AsynciH0V
++ _symbolic _____y_____y______ACSgtGG 7SwiftUI6ToggleV AA9TupleViewV AA4TextV
++ _symbolic _____y_____y__________G______G 7SwiftUI19_ConditionalContentV7StorageO AC 017AppSystemSettingsB024AUToggleSpecifierView_v1V AF06AULinkjk1_L0V AA4TextV
++ _symbolic _____y_____y_______________y__________y_____GGGAByAF_____ySaySo31CTXPCServiceSubscriptionContextCG_____ADGAJGG 7SwiftUI19_ConditionalContentV AA7SectionV AA9EmptyViewV 017AppSystemSettingsB009RCSToggleG033_82BE158A72740C371390E335F5EE5E15LLV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV
++ _symbolic _____y_____y_______________y__________y_____GGGAByAF_____ySaySo31CTXPCServiceSubscriptionContextCG_____ADGAJGG______t 7SwiftUI19_ConditionalContentV AA7SectionV AA9EmptyViewV 017AppSystemSettingsB009RCSToggleG033_82BE158A72740C371390E335F5EE5E15LLV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV AH019RCSBusinessMessagesE0AJLLV
++ _symbolic _____y_____y_______________y__________y_____GGGAByAF_____ySaySo31CTXPCServiceSubscriptionContextCG_____ADGAJG_G 7SwiftUI19_ConditionalContentV7StorageO AA7SectionV AA9EmptyViewV 017AppSystemSettingsB009RCSToggleH033_82BE158A72740C371390E335F5EE5E15LLV AA08ModifiedD0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV
++ _symbolic _____y_____y__________yACGGAE_G 7SwiftUI19_ConditionalContentV7StorageO AC AA5ImageV 014_IconServices_aB005AsyncgF0V
++ _symbolic _____y_____y__________y__________ySaySo31CTXPCServiceSubscriptionContextCG__________G_____GG_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA7SectionV AA4TextV AA7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB013MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV AA05EmptyQ0V AA25_AppearanceActionModifierV
++ _symbolic _____y_____y__________y_____y_____y__________AAy__________y_____GGGAFyAI_____ySaySo31CTXPCServiceSubscriptionContextCG_____AHGAMGG______tGG_____G 7SwiftUI15ModifiedContentV AA4ListV s5NeverO AA9TupleViewV AA012_ConditionalD0V AA7SectionV AA05EmptyH0V 017AppSystemSettingsB009RCSToggleH033_82BE158A72740C371390E335F5EE5E15LLV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV AP019RCSBusinessMessagesJ0ARLLV AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____yACy__________G_____GG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V 017AppSystemSettingsB024AUToggleSpecifierView_v1V AH06AULinkkl1_M0V AA4TextV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y_____y_____ySay_____GSSSg_____y_____SgABySaySo11PSSpecifierCGAeAyAAy_____y_____yAMy__________GAGGG_____G_____ySbGGGAHGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA7ForEachV 017AppSystemSettingsB021AUSpecifierSection_v1V AA0P0V AA4TextV AA5GroupV AA012_ConditionalD0V AK017AUToggleSpecifiere1_Q0V AK06AULinkve1_Q0V AA31AccessibilityAttachmentModifierV AA024_EnvironmentKeyTransformZ0V AA10ScenePhaseO AA017_AppearanceActionZ0V
++ _symbolic _____y_____y_____y_____Sg_AEtGAAyAAy__________yAGGGAIGSgG_____yAByAeLGAEGG 7SwiftUI19_ConditionalContentV AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsyncjI0V AA07LabeledD0V
++ _symbolic _____y_____y_____y_____Sg_AEtG_____yAGy__________yAHGGAJGSgG_____yAByAeMGAEG_G 7SwiftUI19_ConditionalContentV7StorageO AA5LabelV AA9TupleViewV AA4TextV AC AA5ImageV 014_IconServices_aB005AsynckJ0V AA07LabeledD0V
++ _symbolic _____y_____y_____y______ADSgtGG_____ySbGG 7SwiftUI15ModifiedContentV AA6ToggleV AA9TupleViewV AA4TextV AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_______________y__________y_____GGGACyAG_____ySaySo31CTXPCServiceSubscriptionContextCG_____AEGAKGG______tG 7SwiftUI9TupleViewV AA19_ConditionalContentV AA7SectionV AA05EmptyD0V 017AppSystemSettingsB009RCSToggleD033_82BE158A72740C371390E335F5EE5E15LLV AA08ModifiedF0V AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV AJ019RCSBusinessMessagesG0ALLLV
++ _symbolic _____y_____y_____y__________y__________ySaySo31CTXPCServiceSubscriptionContextCG__________G_____GG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA4ListV s5NeverO AA7SectionV AA4TextV AA7ForEachV So18CTSubscriptionSlotV 017AppSystemSettingsB009MMSToggleC033_F7DA4EF5F482E568900026F6EBF6ED61LLV AA05EmptyC0V AA25_AppearanceActionModifierV AU09MessagingT8ProviderC
++ _symbolic _____y_____y_____y__________y_____y_____y__________AAy__________y_____GGGAFyAI_____ySaySo31CTXPCServiceSubscriptionContextCG_____AHGAMGG______tGG_____G______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA4ListV s5NeverO AA05TupleC0V AA012_ConditionalI0V AA7SectionV AA05EmptyC0V 017AppSystemSettingsB009RCSToggleC033_82BE158A72740C371390E335F5EE5E15LLV AA4TextV AA30_EnvironmentKeyWritingModifierV AA13OpenURLActionV AA7ForEachV So18CTSubscriptionSlotV AU019RCSBusinessMessagesN0AWLLV AA25_AppearanceActionModifierV AU09MessagingR8ProviderC
++ _symbolic _____y_____y_____y_____y_____Sg_AFtGAByABy__________yAHGGAJGSgG_____yACyAfMGAFGG_____G 7SwiftUI14NavigationLinkV AA19_ConditionalContentV AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsynclK0V AA07LabeledF0V 19PreferencesExtended0p10ControllerI0V
++ _symbolic _____y_____y_____y_____y_____Sg_AFtGAByABy__________yAHGGAJGSgG_____yACyAfMGAFGG_____G 7SwiftUI14NavigationLinkV AA19_ConditionalContentV AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsynclK0V AA07LabeledF0V s5NeverO
++ _symbolic _____y_____y_____y_____y_____y_____Sg_AGtGACyACy__________yAIGGAKGSgG_____yADyAgNGAGGG_____GACyAByAS_____GAWG_G 7SwiftUI19_ConditionalContentV7StorageO AA14NavigationLinkV AC AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsyncmL0V AA07LabeledD0V 19PreferencesExtended0q10ControllerJ0V s5NeverO
++ _symbolic _____y_____y_____y_____y_____y_____Sg_AGtGACyACy__________yAIGGAKGSgG_____yADyAgNGAGGG_____GAU_G 7SwiftUI19_ConditionalContentV7StorageO AA14NavigationLinkV AC AA5LabelV AA9TupleViewV AA4TextV AA5ImageV 014_IconServices_aB005AsyncmL0V AA07LabeledD0V s5NeverO
++ _symbolic _____y_____yyt_____GG s23_ContiguousArrayStorageC 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yyt_____G 7Combine12AnyPublisherV s5NeverO
++ _type_layout_string 19AppSystemSettingsUI13MMSToggleView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _type_layout_string 19AppSystemSettingsUI13RCSToggleView33_82BE158A72740C371390E335F5EE5E15LLV
++ _type_layout_string 19AppSystemSettingsUI15MMSSettingsView33_F7DA4EF5F482E568900026F6EBF6ED61LLV
++ _type_layout_string 19AppSystemSettingsUI15RCSSettingsView33_82BE158A72740C371390E335F5EE5E15LLV
++ _type_layout_string 19AppSystemSettingsUI21AUSpecifierSection_v1V
++ _type_layout_string 19AppSystemSettingsUI24AUToggleSpecifierView_v1V
++ _type_layout_string 19AppSystemSettingsUI26RCSBusinessMessagesSection33_82BE158A72740C371390E335F5EE5E15LLV
+- -[AUSystemSettingsSpecifiersProvider authLevelStringForStatus:]
+- GCC_except_table102
+- GCC_except_table107
+- GCC_except_table19
+- GCC_except_table37
+- GCC_except_table52
+- GCC_except_table68
+- GCC_except_table69
+- GCC_except_table86
+- ___65-[AUSystemSettingsSpecifiersProvider _updateDownloadsFolderTitle]_block_invoke.591
+- ___68-[AUSystemSettingsSpecifiersProvider setPrivacyAccess:forSpecifier:]_block_invoke.415
+- ___68-[AUSystemSettingsSpecifiersProvider setPrivacyAccess:forSpecifier:]_block_invoke_2.420
+- ___block_literal_global.219
+- ___block_literal_global.235
+- ___block_literal_global.478
+- ___block_literal_global.540
+- ___block_literal_global.558
+- ___block_literal_global.88
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AppSystemSettingsUI
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AppSystemSettingsUI
+- _objc_msgSend$authLevelStringForStatus:
+CStrings:
++ "$__lazy_storage_$_systemSettingsSpecifiersProvider"
++ "%{public}s: Failed to load identity settings with error %{public}@"
++ "''"
++ "-[AUSystemSettingsSpecifiersProvider initWithApplicationBundleIdentifier:]_block_invoke"
++ "@\"DIIdentitySettingsProvider\""
++ "@32@0:8Q16i24i28"
++ "ALWAYS_AUTHORIZATION"
++ "ASApplicationRecord"
++ "ASBundleName"
++ "AUSystemSettingsSpecifiersProviderDelegate"
++ "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
++ "Alarms"
++ "Allow on Websites"
++ "AppSystemSettingsUI.AUSystemSettingsListContentModel_v1"
++ "AppSystemSettingsUI.MMSMessagingSpecifier"
++ "AppSystemSettingsUI.RCSMessagingSpecifier"
++ "AppSystemSettingsUI/AULinkSpecifierView_v1.swift"
++ "AppSystemSettingsUI/AUSystemSettingsListContentModel_v1.swift"
++ "AppSystemSettingsUI/AUSystemSettingsListContent_v1.swift"
++ "AppSystemSettingsUI/AUToggleSpecifierView_v1.swift"
++ "AppSystemSettingsUI/MMSMessagingSpecifier.swift"
++ "AppSystemSettingsUI/MMSMessagingViewController.swift"
++ "AppSystemSettingsUI/RCSMessagingViewController.swift"
++ "AppSystemSettingsUI1"
++ "AppSystemSettingsUIAdditions"
++ "ApplicationSettings"
++ "B48@0:8^i16^i24@32@40"
++ "CELLULAR_DATA_SETTINGS"
++ "CoreTelephony"
++ "CoreTelephonyClientDelegate"
++ "CoreTelephonyClientLazuliDelegate"
++ "EnvironmentValues"
++ "Failed to get learned routes and/or visit history state, assuming ineligible for both"
++ "Failed to get learned routes state"
++ "Failed to get visit history state"
++ "Got learned routes access state: %d"
++ "Got visit history state: %d"
++ "IDENTITY_VERIFICATION_ALLOW_ON_WEBSITES"
++ "IDENTITY_VERIFICATION_GROUP"
++ "Identity Verification"
++ "KeyboardSettings"
++ "MMSDefaultEnabled"
++ "MMS_MESSAGING_HEADER"
++ "MessagingAPI"
++ "NEVER_AUTHORIZATION"
++ "NOT_DETERMINED_AUTHORIZATION_SHORT"
++ "Notifying observers of MMS enabled change"
++ "PSAppDataUsagePolicyTernaryControlTableCell"
++ "RCS enabled changing %{bool}d -> %{bool}d"
++ "RCS messaging capabilities have changed"
++ "RCS system configuration has changed to: %s"
++ "RCS_BUSINESS_MESSAGES_GROUP_FOOTER"
++ "RCS_BUSINESS_MESSAGES_SWITCH"
++ "RCS_FOOTER_ACTIVATION_FAILURE_TEXT"
++ "RCS_FOOTER_FORMAT"
++ "RCS_FOOTER_LEARN_MORE"
++ "RCS_FOOTER_TEXT_UNCERTIFIED_CARRIER"
++ "RCS_FOOTER_UNCERTIFIED_CARRIER_FORMAT"
++ "RCS_LEARN_MORE_URL"
++ "RCS_MESSAGING_HEADER"
++ "RCS_SWITCH_STATUS_IN_PROGRESS"
++ "RCS_SWITCH_STATUS_MDM_RESTRICTED"
++ "Setting MMS enabled: %{bool}d for key: %s"
++ "Setting RCS enabled: %{bool}d for: %@"
++ "SettingsPaneRecipeContentIdentifier"
++ "ShowRCSWarningForUncertifiedCarrier"
++ "Subscription info has changed to: %@"
++ "T@\"NSString\",R,C,N"
++ "T@\"UIImage\",R,N"
++ "TB,N"
++ "TIKeyboardExtensionController"
++ "Unsupported cell type!"
++ "Use digital ID cards for proof of age or identity on websites. Apple and these apps do not know when or where you present your ID."
++ "WHEN_IN_USE_AUTHORIZATION_AND_MORE"
++ "WHEN_IN_USE_AUTHORIZATION_SHORT"
++ "WithCurrentHostingControllerAction"
++ "_$observationRegistrar"
++ "_TtC19AppSystemSettingsUI11AUSpecifier"
++ "_TtC19AppSystemSettingsUI21MMSMessagingSpecifier"
++ "_TtC19AppSystemSettingsUI21RCSMessagingSpecifier"
++ "_TtC19AppSystemSettingsUI25MessagingSettingsProvider"
++ "_TtC19AppSystemSettingsUI26MMSMessagingViewController"
++ "_TtC19AppSystemSettingsUI26RCSMessagingViewController"
++ "_TtC19AppSystemSettingsUI35AUSystemSettingsListContentModel_v1"
++ "__cachedSubscriptionInfo"
++ "_identitySettingsProvider"
++ "_rcsConfigurationBySlotID"
++ "_showIdentityDocumentProviderExtension"
++ "_specifierSections"
++ "_supportsAlarmKit"
++ "_withCurrentHostingController"
++ "activeSubscriptionsDidChange"
++ "alarmKitSpecifier"
++ "au_boolValue"
++ "au_createCellInstance"
++ "au_detailString"
++ "au_footerString"
++ "au_image"
++ "au_isUserInteractive"
++ "au_loadValueFromCell"
++ "au_prefersSubtitleAppearance"
++ "au_titleString"
++ "authLevelStringForStatus:learnedRoutesAccess:visitHistoryAccess:"
++ "authorizationStateForBundleID:"
++ "businessMessagingCapabilities"
++ "capabilitiesFound:destination:withCapabilities:"
++ "cellClassForSpecifier:"
++ "cellType"
++ "chatDeleted:forGroupChat:deletedBy:"
++ "com.apple.MobileSMS"
++ "com.apple.MobileSMS.MMSEnabled.changed"
++ "com.apple.MobileSMS.RCSForBusinessEnabled.changed"
++ "com.apple.Preferences"
++ "com.apple.graphic-icon.alarm"
++ "composingIndicator:from:withID:withIndication:"
++ "composingIndicator:from:withID:withIndication:withSecurity:"
++ "contactlessAndNFCSpecifier"
++ "containingBundle"
++ "controllerLoadAction"
++ "copyCarrierBundleValue:keyHierarchy:bundleType:error:"
++ "copyCarrierBundleValueWithDefault:key:bundleType:error:"
++ "copyMobileSubscriberCountryCode:error:"
++ "copyMobileSubscriberIsoCountryCode:error:"
++ "coreTelephonyClient"
++ "defaultApplicationForCategory:error:"
++ "destinationCapabilitiesUpdated:withCapabilities:"
++ "detailTextLabel"
++ "didChangeValueForKey:"
++ "didDiscover:destination:withCapabilities:withResult:"
++ "didFinishExit:withResult:"
++ "didFinishFetchChatBotRenderInformation:forChatBot:withRenderData:withResult:"
++ "didFinishGroupChatCreation:forGroupChat:withResult:"
++ "didFinishGroupUpdate:forGroupChat:"
++ "didFinishIconChange:withNewIcon:withResult:"
++ "didFinishParticipantsAddition:added:didNotAdd:withResult:"
++ "didFinishParticipantsRemoval:removed:didNotRemove:withResult:"
++ "didFinishSubjectChange:withNewSubject:withResult:"
++ "didReportChatbotSpam:forChatbot:withResult:"
++ "didReportSpam:forDestination:withResult:"
++ "disableBusinessMessaging:withError:"
++ "disableLazuli:withError:"
++ "dispositionInformation:withStatus:"
++ "dispositionInformation:withStatus:withSecurity:"
++ "dualSimCapabilityDidChange"
++ "enableBusinessMessaging:withError:"
++ "enableLazuli:withError:"
++ "evictedFromGroup:withGroupInfo:evictedBy:"
++ "extensionInputModes"
++ "featureDisabledByProfile"
++ "featureEnabledByDefault"
++ "featureSupported"
++ "getCurrentDataSubscriptionContextSync:"
++ "getLearnedRoutesAccess:forBundleIdentifier:"
++ "getLearnedRoutesAccess:visitHistoryAccess:fromDetails:serviceKey:"
++ "getSubscriptionInfoWithError:"
++ "getSystemConfiguration:withError:"
++ "getVisitHistoryAccess:forBundleIdentifier:"
++ "groupComposingIndicator:fromGroup:from:withID:withIndication:"
++ "hasValidGetter"
++ "hasValidSetter"
++ "iconUpdated:forGroupChat:withNewIcon:updatedBy:"
++ "identityVerificationSpecifiers"
++ "imageDescriptorNamed:"
++ "incomingGroupChat:withGroupInformation:"
++ "initWithBundleType:"
++ "initWithStyle:reuseIdentifier:specifier:"
++ "initWithSuiteName:"
++ "initWithType:"
++ "isAlarmKitEnabled:"
++ "isDocumentProviderExtensionEnabledFor:"
++ "isIdentityVerificationAllowOnWebsitesEnabled:"
++ "isMMSEnabledFor:"
++ "isSubclassOfClass:"
++ "kDontUseOldAction"
++ "keyboardExtensionSpecifier"
++ "label"
++ "labelID"
++ "loadValuesAndTitlesFromDataSource"
++ "messageReceived:withID:ofType:"
++ "messageSendFailed:forMessageID:withError:"
++ "messageSendSuccess:withID:"
++ "messagingCapabilities"
++ "mmsSupportedAndConfiguredForPhoneNumber:simID:"
++ "openSensitiveURL:withOptions:"
++ "operationStatus"
++ "participantsAdded:toGroupChat:withAddedParticipants:addedBy:"
++ "participantsRemoved:fromGroupChat:withRemovedParticipants:removedBy:"
++ "performSetterWithValue:"
++ "phoneNumber"
++ "preferencesSpecifier"
++ "presentViewController:animated:completion:"
++ "refreshCellContentsWithSpecifier:"
++ "requestToDisableAnonymization:from:withID:"
++ "requestToEnableDisplayedNotifications:from:withID:"
++ "reuseIdentifierForSpecifier:"
++ "revokationStatus:forMessageID:withResult:"
++ "setAlarmKitEnabled:forSpecifier:"
++ "setAu_boolValue:"
++ "setAuthorizationState:forBundleID:"
++ "setBool:forKey:"
++ "setDocumentProviderExtensionEnablementFor:to:"
++ "setDrawBorder:"
++ "setIdentityVerificationAllowOnWebsitesEnabled:specifier:"
++ "setMMSEnabled:specifier:"
++ "settings-navigation"
++ "settings-navigation://com.apple.Settings.Cellular"
++ "sharedInputModeController"
++ "shortTitleDictionary"
++ "showDocumentProviderExtensionFor:completion:"
++ "simLessSubscriptionsDidChange"
++ "slotID"
++ "subjectUpdated:forGroupChat:withNewSubject:updatedBy:"
++ "subscriptionInfoDidChange"
++ "subscriptions"
++ "subscriptionsInUse"
++ "supported"
++ "supportedForPhoneNumber:simID:"
++ "supportsAlarmKit:"
++ "switchState"
++ "systemConfigurationChanged:withConfiguration:"
++ "text"
++ "textMessagingSpecifiers"
++ "titleDictionary"
++ "uuid"
++ "v24@0:8@\"AUSystemSettingsSpecifiersProvider\"16"
++ "v24@?0@\"NSNumber\"8@\"NSError\"16"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestinationUpdate\"24"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageDispositionStatus\"24"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageID\"24"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliOperationResult\"24"
++ "v32@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliSystemConfiguration\"24"
++ "v36@0:8@\"AUSystemSettingsSpecifiersProvider\"16@\"UIViewController\"24B32"
++ "v36@0:8@16@24B32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliCapabilitiesInformation\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliMessageID\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliOperationResult\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatIcon\"24@\"CTLazuliOperationResult\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliGroupChatParticipant\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliOperationResult\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatSubject\"24@\"CTLazuliOperationResult\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatUri\"24@\"CTLazuliGroupChatParticipant\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageDispositionStatus\"24@\"CTLazuliSecurity\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageID\"24@\"CTLazuliMessageRevokeResult\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageID\"24@\"CTLazuliMessageTypeInformation\"32"
++ "v40@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliMessageID\"24@\"CTLazuliOperationError\"32"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliCapabilitiesInformation\"32@\"CTLazuliOperationResult\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliChatBotRenderInformationData\"32@\"CTLazuliOperationResult\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliMessageID\"32@\"CTLazuliMessageComposingIndicator\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliGroupChatIcon\"32@\"CTLazuliGroupChatParticipant\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliGroupChatParticipantList\"32@\"CTLazuliGroupChatParticipant\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliGroupChatSubject\"32@\"CTLazuliGroupChatParticipant\"40"
++ "v48@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatParticipantList\"24@\"CTLazuliGroupChatParticipantList\"32@\"CTLazuliOperationResult\"40"
++ "v48@0:8@16@24@32@40"
++ "v56@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliDestination\"24@\"CTLazuliMessageID\"32@\"CTLazuliMessageComposingIndicator\"40@\"CTLazuliSecurity\"48"
++ "v56@0:8@\"CTXPCServiceSubscriptionContext\"16@\"CTLazuliGroupChatInformation\"24@\"CTLazuliGroupChatParticipant\"32@\"CTLazuliMessageID\"40@\"CTLazuliMessageComposingIndicator\"48"
++ "v56@0:8@16@24@32@40@48"
++ "willChangeValueForKey:"
++ "\xa1"
+- "&'"
+- "@24@0:8Q16"
+- "Always"
+- "Never"
+- "When Shared"
+- "While Using"
+- "authLevelStringForStatus:"
+- "\x91"
+
+```

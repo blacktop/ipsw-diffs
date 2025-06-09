@@ -1,0 +1,1035 @@
+## CloudAttestation
+
+> `/System/Library/PrivateFrameworks/CloudAttestation.framework/CloudAttestation`
+
+```diff
+
+-199.120.10.0.0
+-  __TEXT.__text: 0x1185c8
+-  __TEXT.__auth_stubs: 0x25e0
++255.0.3.0.0
++  __TEXT.__text: 0x10f4c4
++  __TEXT.__auth_stubs: 0x2540
+   __TEXT.__objc_methlist: 0x164
+-  __TEXT.__const: 0xc5fe
+-  __TEXT.__cstring: 0x28e4
+-  __TEXT.__constg_swiftt: 0x2ad4
+-  __TEXT.__swift5_typeref: 0x2784
+-  __TEXT.__swift5_fieldmd: 0x3480
+-  __TEXT.__swift5_proto: 0xa70
+-  __TEXT.__swift5_types: 0x3e8
+-  __TEXT.__oslogstring: 0x24c8
+-  __TEXT.__swift5_reflstr: 0x2a62
+-  __TEXT.__swift_as_entry: 0x2cc
+-  __TEXT.__swift_as_ret: 0x288
+-  __TEXT.__swift5_capture: 0x2a0
+-  __TEXT.__swift5_assocty: 0x588
+-  __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_mpenum: 0xb0
++  __TEXT.__const: 0x14397
++  __TEXT.__cstring: 0x2a13
++  __TEXT.__swift5_typeref: 0x26c6
++  __TEXT.__oslogstring: 0x2414
++  __TEXT.__swift5_capture: 0x220
++  __TEXT.__swift5_reflstr: 0x2a50
++  __TEXT.__swift5_assocty: 0x5b8
++  __TEXT.__constg_swiftt: 0x2a9c
++  __TEXT.__swift5_fieldmd: 0x34c8
++  __TEXT.__swift5_builtin: 0xf0
++  __TEXT.__swift5_mpenum: 0xa0
++  __TEXT.__swift5_proto: 0xac8
++  __TEXT.__swift5_types: 0x3dc
++  __TEXT.__swift_as_entry: 0x2a8
++  __TEXT.__swift_as_ret: 0x258
+   __TEXT.__swift5_protos: 0x28
+-  __TEXT.__unwind_info: 0x4968
+-  __TEXT.__eh_frame: 0x96b8
++  __TEXT.__unwind_info: 0x4800
++  __TEXT.__eh_frame: 0x8f98
+   __TEXT.__objc_classname: 0x3b
+   __TEXT.__objc_methname: 0x3ce
+   __TEXT.__objc_methtype: 0x16c
+-  __DATA_CONST.__got: 0x6d8
+-  __DATA_CONST.__const: 0x400
++  __DATA_CONST.__got: 0x6d0
++  __DATA_CONST.__const: 0xf08
+   __DATA_CONST.__objc_classlist: 0x38
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x168
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x12f0
+-  __AUTH_CONST.__const: 0x60a0
+-  __AUTH_CONST.__objc_const: 0x730
++  __AUTH_CONST.__auth_got: 0x12a0
++  __AUTH_CONST.__const: 0x6638
++  __AUTH_CONST.__objc_const: 0x770
+   __AUTH.__objc_data: 0x200
+-  __AUTH.__data: 0x23a0
+-  __DATA.__data: 0x2f98
+-  __DATA.__bss: 0x11780
+-  __DATA.__common: 0x208
+-  __DATA_DIRTY.__data: 0x1ba0
++  __AUTH.__data: 0x22c0
++  __DATA.__data: 0x2818
++  __DATA.__common: 0x390
++  __DATA.__bss: 0x12200
++  __DATA_DIRTY.__data: 0x1bf8
+   __DATA_DIRTY.__common: 0x158
+   __DATA_DIRTY.__bss: 0x2180
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /System/Library/Frameworks/SecureConfigDB.framework/SecureConfigDB
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/AppleKeyStore.framework/AppleKeyStore
+-  - /System/Library/PrivateFrameworks/CryptoKitPrivate.framework/CryptoKitPrivate
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 2A225988-C973-35D1-A05C-B8275D9322F9
+-  Functions: 6019
+-  Symbols:   1629
+-  CStrings:  560
++  UUID: 4A468051-3C84-3036-90C4-D2CF004C9837
++  Functions: 6211
++  Symbols:   2345
++  CStrings:  573
+ 
+Symbols:
++ _AVPSecureBootG2Rsa4kSha384IM4C
++ _AVPSecureBootG2Rsa4kSha384IM4C_len
++ _CCRSA_PKCS1_FAULT_CANARY
++ _CryptexG1Rsa4kSha384IM4C
++ _CryptexG1Rsa4kSha384IM4C_len
++ _CryptexGlobalG1Rsa4kSha384IM4C
++ _CryptexGlobalG1Rsa4kSha384IM4C_len
++ _DERAccessDescriptionItemSpecs
++ _DERAlgorithmIdItemSpecs
++ _DERAttributeTypeAndValueItemSpecs
++ _DERAuthorityKeyIdentifierItemSpecs
++ _DERBasicConstraintsItemSpecs
++ _DERCRTPSequenceItemSpecs
++ _DERDecodeItem
++ _DERDecodeItemPartialBuffer
++ _DERDecodeItemPartialBufferGetLength
++ _DERDecodeSeqContentInit
++ _DERDecodeSeqInit
++ _DERDecodeSeqNext
++ _DERDecodeSequenceContentWithBlock
++ _DERDecodeSequenceWithBlock
++ _DERDistributionPointItemSpecs
++ _DERExtensionItemSpecs
++ _DERGeneralSubtreeItemSpecs
++ _DERIM4CItemSpecs
++ _DERImg4CertificateItemSpecs
++ _DERImg4CompressionItemSpecs
++ _DERImg4Decode
++ _DERImg4DecodeCertificate
++ _DERImg4DecodeCertificatePropertiesAndPubKey
++ _DERImg4DecodeContentFindItemWithTag
++ _DERImg4DecodeFindInSequence
++ _DERImg4DecodeFindProperty
++ _DERImg4DecodeFindPropertyInSequence
++ _DERImg4DecodeManifest
++ _DERImg4DecodeManifestCommon
++ _DERImg4DecodeParseCertificateProperties
++ _DERImg4DecodeParseManifestProperties
++ _DERImg4DecodeParseManifestPropertiesInternal
++ _DERImg4DecodePayload
++ _DERImg4DecodePayloadCompression
++ _DERImg4DecodePayloadProperties
++ _DERImg4DecodePayloadWithProperties
++ _DERImg4DecodeProperty
++ _DERImg4DecodePropertyWithItem
++ _DERImg4DecodeRestoreInfo
++ _DERImg4DecodeTagCompare
++ _DERImg4DecodeUnsignedCertificate
++ _DERImg4DecodeUnsignedManifest
++ _DERImg4ItemSpecs
++ _DERImg4ManifestItemSpecs
++ _DERImg4PayloadItemSpecs
++ _DERImg4PayloadPropertiesItemSpecs
++ _DERImg4PayloadWithPropertiesItemSpecs
++ _DERImg4RestoreInfoItemSpecs
++ _DERImg4UnsignedManifestItemSpecs
++ _DERNameConstraintsItemSpecs
++ _DERNoticeReferenceItemSpecs
++ _DERNumAccessDescriptionItemSpecs
++ _DERNumAlgorithmIdItemSpecs
++ _DERNumAttributeTypeAndValueItemSpecs
++ _DERNumAuthorityKeyIdentifierItemSpecs
++ _DERNumBasicConstraintsItemSpecs
++ _DERNumCRTPSequenceItemSpecs
++ _DERNumDistributionPointItemSpecs
++ _DERNumExtensionItemSpecs
++ _DERNumGeneralSubtreeItemSpecs
++ _DERNumIM4CItemSpecs
++ _DERNumImg4CertificateItemSpecs
++ _DERNumImg4CompressionItemSpecs
++ _DERNumImg4ItemSpecs
++ _DERNumImg4ManifestItemSpecs
++ _DERNumImg4PayloadItemSpecs
++ _DERNumImg4PayloadPropertiesItemSpecs
++ _DERNumImg4PayloadWithPropertiesItemSpecs
++ _DERNumImg4RestoreInfoItemSpecs
++ _DERNumImg4UnsignedManifestItemSpecs
++ _DERNumNameConstraintsItemSpecs
++ _DERNumNoticeReferenceItemSpecs
++ _DERNumOtherNameItemSpecs
++ _DERNumPolicyConstraintsItemSpecs
++ _DERNumPolicyInformationItemSpecs
++ _DERNumPolicyMappingItemSpecs
++ _DERNumPolicyQualifierInfoItemSpecs
++ _DERNumPrivateKeyUsagePeriodItemSpecs
++ _DERNumRSAKeyPairItemSpecs
++ _DERNumRSAPrivKeyCRTItemSpecs
++ _DERNumRSAPubKeyAppleItemSpecs
++ _DERNumRSAPubKeyPKCS1ItemSpecs
++ _DERNumRevokedCertItemSpecs
++ _DERNumSignedCertCrlItemSpecs
++ _DERNumSubjPubKeyInfoItemSpecs
++ _DERNumTBSCertItemSpecs
++ _DERNumTBSCrlItemSpecs
++ _DERNumUserNoticeItemSpecs
++ _DERNumValidityItemSpecs
++ _DEROidCompare
++ _DEROtherNameItemSpecs
++ _DERParseBitString
++ _DERParseBoolean
++ _DERParseBooleanWithDefault
++ _DERParseInteger
++ _DERParseInteger64
++ _DERParseInteger64Signed
++ _DERParseIntegerSigned
++ _DERParseSequence
++ _DERParseSequenceContent
++ _DERParseSequenceContentToObject
++ _DERParseSequenceToObject
++ _DERPolicyConstraintsItemSpecs
++ _DERPolicyInformationItemSpecs
++ _DERPolicyMappingItemSpecs
++ _DERPolicyQualifierInfoItemSpecs
++ _DERPrivateKeyUsagePeriodItemSpecs
++ _DERRSAKeyPairItemSpecs
++ _DERRSAPrivKeyCRTItemSpecs
++ _DERRSAPubKeyAppleItemSpecs
++ _DERRSAPubKeyPKCS1ItemSpecs
++ _DERRevokedCertItemSpecs
++ _DERSignedCertCrlItemSpecs
++ _DERSubjPubKeyInfoItemSpecs
++ _DERTBSCertItemSpecs
++ _DERTBSCrlItemSpecs
++ _DERUserNoticeItemSpecs
++ _DERValidityItemSpecs
++ _EC384_SHA384_LP_ROOT_CA_CERTIFICATE
++ _EC384_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
++ _Img4DecodeAVPSecureBootG2Rsa4kSha384IM4C
++ _Img4DecodeComputeDigest
++ _Img4DecodeCopyManifestDigest
++ _Img4DecodeCopyManifestHash
++ _Img4DecodeCopyManifestHashWithCallback
++ _Img4DecodeCopyManifestTrustedBootPolicyMeasurement
++ _Img4DecodeCopyPayloadDigest
++ _Img4DecodeCopyPayloadHash
++ _Img4DecodeCopyPayloadHashWithCallback
++ _Img4DecodeCopyPayloadPropertiesDigest
++ _Img4DecodeCryptexG1Rsa4kSha384IM4C
++ _Img4DecodeCryptexGlobalG1Rsa4kSha384IM4C
++ _Img4DecodeDigestFinal
++ _Img4DecodeDigestInit
++ _Img4DecodeDigestReturnHash
++ _Img4DecodeDigestUpdate
++ _Img4DecodeEvaluateCertificateChain
++ _Img4DecodeEvaluateCertificateProperties
++ _Img4DecodeEvaluateCertificatePropertiesInternal
++ _Img4DecodeEvaluateDictionaryProperties
++ _Img4DecodeEvaluateManifestProperties
++ _Img4DecodeEvaluateObjectProperties
++ _Img4DecodeEvaluateTrust
++ _Img4DecodeEvaluateTrustWithCallbacks
++ _Img4DecodeGetBooleanFromSection
++ _Img4DecodeGetDataFromSection
++ _Img4DecodeGetInteger64FromSection
++ _Img4DecodeGetIntegerFromSection
++ _Img4DecodeGetManifest
++ _Img4DecodeGetObjectProperty
++ _Img4DecodeGetObjectPropertyBoolean
++ _Img4DecodeGetObjectPropertyData
++ _Img4DecodeGetObjectPropertyInteger
++ _Img4DecodeGetObjectPropertyInteger64
++ _Img4DecodeGetObjectPropertyString
++ _Img4DecodeGetPayload
++ _Img4DecodeGetPayloadCompressionInfo
++ _Img4DecodeGetPayloadKeybag
++ _Img4DecodeGetPayloadProperties
++ _Img4DecodeGetPayloadPropertiesBoolean
++ _Img4DecodeGetPayloadPropertiesData
++ _Img4DecodeGetPayloadPropertiesInteger
++ _Img4DecodeGetPayloadPropertiesInteger64
++ _Img4DecodeGetPayloadType
++ _Img4DecodeGetPayloadVersion
++ _Img4DecodeGetPayloadVersionPropertyString
++ _Img4DecodeGetPropertyBoolean
++ _Img4DecodeGetPropertyData
++ _Img4DecodeGetPropertyFromSection
++ _Img4DecodeGetPropertyInteger
++ _Img4DecodeGetPropertyInteger64
++ _Img4DecodeGetRestoreInfoBoolean
++ _Img4DecodeGetRestoreInfoData
++ _Img4DecodeGetRestoreInfoInteger
++ _Img4DecodeGetRestoreInfoInteger64
++ _Img4DecodeInit
++ _Img4DecodeInitCertificate
++ _Img4DecodeInitManifest
++ _Img4DecodeInitManifestCommon
++ _Img4DecodeInitPayload
++ _Img4DecodeInitUnsignedCertificate
++ _Img4DecodeInitUnsignedManifest
++ _Img4DecodeLocalPolicyTatsuG8Rsa4kSha384IM4C
++ _Img4DecodeLocalRsa4kSha384IM4C
++ _Img4DecodeManifestExists
++ _Img4DecodeParseLengthFromBuffer
++ _Img4DecodeParseLengthFromBufferWithTag
++ _Img4DecodePayloadCompressionInfoExists
++ _Img4DecodePayloadExists
++ _Img4DecodePayloadKeybagExists
++ _Img4DecodePayloadPropertiesExists
++ _Img4DecodePayloadPropertiesFindItemWithTag
++ _Img4DecodePayloadProperty
++ _Img4DecodePayloadPropertyExistsByTag
++ _Img4DecodePerformManifestTrustEvaluationWithCallbacks
++ _Img4DecodePerformTrustEvaluatation
++ _Img4DecodePerformTrustEvaluatationWithCallbacks
++ _Img4DecodePerformTrustEvaluation
++ _Img4DecodePerformTrustEvaluationWithCallbacks
++ _Img4DecodeRepairG1Rsa4kSha384IM4C
++ _Img4DecodeRestoreInfoExists
++ _Img4DecodeSectionExists
++ _Img4DecodeSecureBootG7Rsa4kSha384IM4C
++ _Img4DecodeSecureBootGlobalG1Rsa4kSha384IM4C
++ _Img4DecodeSecureBootRsa4kSha384IM4C
++ _Img4DecodeShamRsa4kSha384IM4C
++ _Img4DecodeVerifyChainIM4C
++ _LOCAL_EC256_SHA256_ROOT_CA_CERTIFICATE
++ _LOCAL_EC256_SHA256_ROOT_CA_CERTIFICATE_SIZE
++ _LOCAL_EC384_SHA384_ROOT_CA_CERTIFICATE
++ _LOCAL_EC384_SHA384_ROOT_CA_CERTIFICATE_SIZE
++ _LOCAL_RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE
++ _LOCAL_RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
++ _LocalPolicyTatsuG8Rsa4kSha384IM4C
++ _LocalPolicyTatsuG8Rsa4kSha384IM4C_len
++ _LocalRsa4kSha384IM4C
++ _LocalRsa4kSha384IM4C_len
++ _OBJC_CLASS_$_SWTransparencyExpiringVerificationResult
++ _OUTLINED_FUNCTION_0
++ _OUTLINED_FUNCTION_1
++ _OUTLINED_FUNCTION_2
++ _OUTLINED_FUNCTION_3
++ _OUTLINED_FUNCTION_4
++ _OUTLINED_FUNCTION_5
++ _OUTLINED_FUNCTION_6
++ _QA_EC384_SHA384_ROOT_CA_CERTIFICATE
++ _QA_EC384_SHA384_ROOT_CA_CERTIFICATE_SIZE
++ _ROOT_CA_CERTIFICATE
++ _ROOT_CA_CERTIFICATE_SIZE
++ _RSA3K_SHA384_ROOT_CA_CERTIFICATE
++ _RSA3K_SHA384_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_AVP_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_AVP_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_DDI_FAKE_GLOBAL_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_DDI_FAKE_GLOBAL_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_DDI_FAKE_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_DDI_FAKE_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_DDI_GLOBAL_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_DDI_GLOBAL_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_DDI_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_DDI_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_LP_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_PED_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_PED_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_ROOT_CA_CERTIFICATE_AWG1
++ _RSA4K_SHA384_ROOT_CA_CERTIFICATE_AWG1_SIZE
++ _RSA4K_SHA384_ROOT_CA_CERTIFICATE_SIZE
++ _RSA4K_SHA384_X86_ROOT_CA_CERTIFICATE
++ _RSA4K_SHA384_X86_ROOT_CA_CERTIFICATE_SIZE
++ _RepairG1Rsa4kSha384IM4C
++ _RepairG1Rsa4kSha384IM4C_len
++ _SecureBootG7Rsa4kSha384IM4C
++ _SecureBootG7Rsa4kSha384IM4C_len
++ _SecureBootGlobalG1Rsa4kSha384IM4C
++ _SecureBootGlobalG1Rsa4kSha384IM4C_len
++ _ShamRsa4kSha384IM4C
++ _ShamRsa4kSha384IM4C_len
++ __Img4DecodePayloadPropertyExistsWithValue
++ __Img4DecodePerformTrustEvaluationWithCallbacksInternal
++ __Img4DecodeValidateManifestPropertyInterposer
++ ___swift_memcpy120_8
++ __crack_chain_with_anchor
++ __oidAdCAIssuer
++ __oidAdOCSP
++ __oidAnsip224r1
++ __oidAnsip384r1
++ __oidAnsip521r1
++ __oidAnyExtendedKeyUsage
++ __oidAnyPolicy
++ __oidAppleApplicationSigning
++ __oidAppleCertExtAST2DiagnosticsServerAuthProd
++ __oidAppleCertExtAST2DiagnosticsServerAuthProdQA
++ __oidAppleCertExtATVAppSigningProd
++ __oidAppleCertExtATVAppSigningProdQA
++ __oidAppleCertExtATVVPNProfileSigning
++ __oidAppleCertExtApplePPQSigningProd
++ __oidAppleCertExtApplePPQSigningProdQA
++ __oidAppleCertExtAppleSMPEncryption
++ __oidAppleCertExtAppleServerAuthentication
++ __oidAppleCertExtAppleServerAuthenticationAPNProd
++ __oidAppleCertExtAppleServerAuthenticationAPNProdQA
++ __oidAppleCertExtAppleServerAuthenticationGS
++ __oidAppleCertExtAppleServerAuthenticationIDSProd
++ __oidAppleCertExtAppleServerAuthenticationIDSProdQA
++ __oidAppleCertExtAppleServerAuthenticationPPQProd
++ __oidAppleCertExtAppleServerAuthenticationPPQProdQA
++ __oidAppleCertExtCryptoServicesExtEncryption
++ __oidAppleCertExtEscrowProxyServerAuthProd
++ __oidAppleCertExtEscrowProxyServerAuthProdQA
++ __oidAppleCertExtFMiPServerAuthProd
++ __oidAppleCertExtFMiPServerAuthProdQA
++ __oidAppleCertExtHomeKitServerAuth
++ __oidAppleCertExtMMCSServerAuthProd
++ __oidAppleCertExtMMCSServerAuthProdQA
++ __oidAppleCertExtOSXProvisioningProfileSigning
++ __oidAppleCertExtTrustCacheSigning
++ __oidAppleCertExtTrustCacheSigningTest
++ __oidAppleCertExtensionAppleIDRecordValidationSigning
++ __oidAppleCertExtiCloudSetupServerAuthProd
++ __oidAppleCertExtiCloudSetupServerAuthProdQA
++ __oidAppleExtendedKeyUsageAppleID
++ __oidAppleExtendedKeyUsageCodeSigning
++ __oidAppleExtendedKeyUsageCodeSigningDev
++ __oidAppleExtendedKeyUsagePassbook
++ __oidAppleExtendedKeyUsageProfileSigning
++ __oidAppleExtendedKeyUsageQAProfileSigning
++ __oidAppleImg4ManifestCertSpec
++ __oidAppleInstallerPackagingSigningExternal
++ __oidAppleIntmMarkerAppleHomeKitServerCA
++ __oidAppleIntmMarkerAppleID
++ __oidAppleIntmMarkerAppleID2
++ __oidAppleIntmMarkerAppleServerAuthentication
++ __oidAppleIntmMarkerAppleSystemIntg2
++ __oidAppleIntmMarkerAppleSystemIntgG3
++ __oidAppleIntmMarkerAppleWWDR
++ __oidApplePolicyEscrowService
++ __oidApplePolicyMobileStore
++ __oidApplePolicyMobileStoreProdQA
++ __oidAppleProvisioningProfile
++ __oidAppleSecureBootCertSpec
++ __oidAppleSecureBootTicketCertSpec
++ __oidAppleTVOSApplicationSigningProd
++ __oidAppleTVOSApplicationSigningProdQA
++ __oidAppleXROSApplicationSigningProd
++ __oidAppleXROSApplicationSigningProdQA
++ __oidAuthorityInfoAccess
++ __oidAuthorityKeyIdentifier
++ __oidBasicConstraints
++ __oidCertificatePolicies
++ __oidCollectiveOrganizationName
++ __oidCollectiveOrganizationalUnitName
++ __oidCollectiveStateOrProvinceName
++ __oidCollectiveStreetAddress
++ __oidCommonName
++ __oidContentType
++ __oidCountryName
++ __oidCrlDistributionPoints
++ __oidDescription
++ __oidEcPrime192v1
++ __oidEcPrime256v1
++ __oidEcPubKey
++ __oidEd25519
++ __oidEd448
++ __oidEmailAddress
++ __oidEntrustVersInfo
++ __oidExtendedKeyUsage
++ __oidExtendedKeyUsageClientAuth
++ __oidExtendedKeyUsageCodeSigning
++ __oidExtendedKeyUsageEmailProtection
++ __oidExtendedKeyUsageIPSec
++ __oidExtendedKeyUsageMicrosoftSGC
++ __oidExtendedKeyUsageNetscapeSGC
++ __oidExtendedKeyUsageOCSPSigning
++ __oidExtendedKeyUsageServerAuth
++ __oidExtendedKeyUsageTimeStamping
++ __oidFee
++ __oidFriendlyName
++ __oidGoogleEmbeddedSignedCertificateTimestamp
++ __oidGoogleOCSPSignedCertificateTimestamp
++ __oidInhibitAnyPolicy
++ __oidIssuerAltName
++ __oidKeyUsage
++ __oidLocalKeyId
++ __oidLocalityName
++ __oidMSNTPrincipalName
++ __oidMd2
++ __oidMd2Rsa
++ __oidMd4
++ __oidMd4Rsa
++ __oidMd5
++ __oidMd5Fee
++ __oidMd5Rsa
++ __oidMessageDigest
++ __oidMfg1
++ __oidMicrosoftSpcIndirectDataContext
++ __oidMicrosoftSpcPEImageData
++ __oidMicrosoftSpcSpOpusInfo
++ __oidNameConstraints
++ __oidNetscapeCertType
++ __oidOCSPNoCheck
++ __oidOrganizationName
++ __oidOrganizationalUnitName
++ __oidPSSRsa
++ __oidPkcs7SignedData
++ __oidPolicyConstraints
++ __oidPolicyMappings
++ __oidPrivateKeyUsagePeriod
++ __oidQCCompliance
++ __oidQCDisclosures
++ __oidQCEuRetentionPeriod
++ __oidQCLimitValue
++ __oidQCStatements
++ __oidQCSyntaxv1
++ __oidQCSyntaxv2
++ __oidQCType
++ __oidQCTypeEseal
++ __oidQCTypeEsign
++ __oidQCTypeWeb
++ __oidQtCps
++ __oidQtUNotice
++ __oidRsa
++ __oidSHAKE256
++ __oidSemanticsIdEidasLegal
++ __oidSemanticsIdEidasNatural
++ __oidSemanticsIdLegal
++ __oidSemanticsIdNatural
++ __oidSha1
++ __oidSha1Dsa
++ __oidSha1DsaCommonOIW
++ __oidSha1DsaOIW
++ __oidSha1Ecdsa
++ __oidSha1Fee
++ __oidSha1Rsa
++ __oidSha1RsaOIW
++ __oidSha224
++ __oidSha224Ecdsa
++ __oidSha224Rsa
++ __oidSha256
++ __oidSha256Ecdsa
++ __oidSha256Rsa
++ __oidSha384
++ __oidSha384Ecdsa
++ __oidSha384Rsa
++ __oidSha512
++ __oidSha512Ecdsa
++ __oidSha512Rsa
++ __oidStateOrProvinceName
++ __oidStreetAddress
++ __oidSubjectAltName
++ __oidSubjectInfoAccess
++ __oidSubjectKeyIdentifier
++ __oidUserId
++ __oidX25519
++ __oidX448
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_CloudAttestation
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_CloudAttestation
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_CloudAttestation
++ _associated conformance 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0L0
++ _associated conformance 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementVSHAASQ
++ _associated conformance 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
++ _associated conformance 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetVSHAASQ
++ _associated conformance 16CloudAttestation15LocalBootPolicyV5ErrorOSHAASQ
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV10CodingKeysOSHAASQ
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV10CodingKeysOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV10CodingKeysOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV14ImplementationO21InternalSwiftProtobuf4EnumAASH
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV14ImplementationO21InternalSwiftProtobuf4EnumAASY
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV14ImplementationOSHAASQ
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV14ImplementationOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0I0
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
++ _associated conformance 16CloudAttestation17Proto_LocalPolicyVSHAASQ
++ _associated conformance 16CloudAttestation3SEPO0B0V6OSTypeOSHAASQ
++ _cc_cmp_safe
++ _ccdigest
++ _ccdigest_init
++ _ccdigest_update
++ _ccec_get_cp
++ _ccec_import_pub
++ _ccec_keysize_is_supported
++ _ccec_verify
++ _ccec_x963_import_pub_size
++ _ccmd5_ltc_di
++ _ccrsa_make_pub
++ _ccrsa_verify_pkcs1v15
++ _ccrsa_verify_pkcs1v15_digest
++ _ccsha1_ltc_di
++ _ccsha256_ltc_di
++ _ccsha384_ltc_di
++ _ccsha512_ltc_di
++ _crack_chain_ecdsa256_sha256
++ _crack_chain_ecdsa384_sha384
++ _crack_chain_ecdsa384_sha384_hacktivate
++ _crack_chain_ecdsa384_sha384_qa
++ _crack_chain_rsa3k_sha384
++ _crack_chain_rsa4k_sha384
++ _crack_chain_rsa4k_sha384_AWG1
++ _crack_chain_rsa4k_sha384_PED
++ _crack_chain_rsa4k_sha384_avp
++ _crack_chain_rsa4k_sha384_ddi
++ _crack_chain_rsa4k_sha384_ddi_fake
++ _crack_chain_rsa4k_sha384_ddi_fake_global
++ _crack_chain_rsa4k_sha384_ddi_global
++ _crack_chain_rsa4k_sha384_tatsu_local_policy
++ _crack_chain_rsa4k_sha384_tatsu_local_policy_hacktivate
++ _crack_chain_rsa4k_sha384_x86
++ _default_manifest_property_exclude
++ _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA09LocalBootC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPGAA0bC0HPyHC.14
++ _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA09LocalBootC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPGAA0bC0HPyHC.7
++ _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AEy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA09LocalBootC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPG_AA014ProxiedReleaseC0VQPGAA0bC0HPyHC.3
++ _img4_verify_signature_with_chain
++ _kAMSupportChainValidationKeySize3k
++ _kAMSupportChainValidationKeySize4k
++ _kAMSupportDigestInfoSha1
++ _kAMSupportDigestInfoSha256
++ _kAMSupportDigestInfoSha384
++ _kAMSupportDigestInfoSha512
++ _kImg4DecodeAVPSecureBootG2Rsa4kSha384IM4C
++ _kImg4DecodeCryptexG1Rsa4kSha384IM4C
++ _kImg4DecodeCryptexGlobalG1Rsa4kSha384IM4C
++ _kImg4DecodeLocalPolicyEc384Sha384
++ _kImg4DecodeLocalPolicyEc384Sha384Hacktivate
++ _kImg4DecodeLocalPolicyEc384Sha384QA
++ _kImg4DecodeLocalPolicyRsa4kSha384
++ _kImg4DecodeLocalPolicyRsa4kSha384Hacktivate
++ _kImg4DecodeLocalPolicyTatsuG8Rsa4kSha384IM4C
++ _kImg4DecodeLocalRsa4kSha384IM4C
++ _kImg4DecodePEDRsa4kSha384
++ _kImg4DecodeRepairG1Rsa4kSha384IM4C
++ _kImg4DecodeSecureBootEc192Sha256
++ _kImg4DecodeSecureBootEc256Sha256
++ _kImg4DecodeSecureBootEc384Sha384
++ _kImg4DecodeSecureBootEc521Sha512
++ _kImg4DecodeSecureBootG7Rsa4kSha384IM4C
++ _kImg4DecodeSecureBootGlobalG1Rsa4kSha384IM4C
++ _kImg4DecodeSecureBootRsa1kSha1
++ _kImg4DecodeSecureBootRsa3kSha384
++ _kImg4DecodeSecureBootRsa4kSha384
++ _kImg4DecodeSecureBootRsa4kSha384AVP
++ _kImg4DecodeSecureBootRsa4kSha384AWG1
++ _kImg4DecodeSecureBootRsa4kSha384DDI
++ _kImg4DecodeSecureBootRsa4kSha384DDIFake
++ _kImg4DecodeSecureBootRsa4kSha384DDIFakeGlobal
++ _kImg4DecodeSecureBootRsa4kSha384DDIGlobal
++ _kImg4DecodeSecureBootRsa4kSha384IM4C
++ _kImg4DecodeSecureBootRsa4kSha384X86
++ _kImg4DecodeShamRsa4kSha384IM4C
++ _md5_digest_info
++ _objc_release_x9
++ _oidAdCAIssuer
++ _oidAdOCSP
++ _oidAnsip224r1
++ _oidAnsip384r1
++ _oidAnsip521r1
++ _oidAnyExtendedKeyUsage
++ _oidAnyPolicy
++ _oidAppleApplicationSigning
++ _oidAppleCertExtAST2DiagnosticsServerAuthProd
++ _oidAppleCertExtAST2DiagnosticsServerAuthProdQA
++ _oidAppleCertExtATVAppSigningProd
++ _oidAppleCertExtATVAppSigningProdQA
++ _oidAppleCertExtATVVPNProfileSigning
++ _oidAppleCertExtApplePPQSigningProd
++ _oidAppleCertExtApplePPQSigningProdQA
++ _oidAppleCertExtAppleSMPEncryption
++ _oidAppleCertExtAppleServerAuthentication
++ _oidAppleCertExtAppleServerAuthenticationAPNProd
++ _oidAppleCertExtAppleServerAuthenticationAPNProdQA
++ _oidAppleCertExtAppleServerAuthenticationGS
++ _oidAppleCertExtAppleServerAuthenticationIDSProd
++ _oidAppleCertExtAppleServerAuthenticationIDSProdQA
++ _oidAppleCertExtAppleServerAuthenticationMMCSProd
++ _oidAppleCertExtAppleServerAuthenticationMMCSProdQA
++ _oidAppleCertExtAppleServerAuthenticationPPQProd
++ _oidAppleCertExtAppleServerAuthenticationPPQProdQA
++ _oidAppleCertExtAppleServerAuthenticationiCloudSetupProd
++ _oidAppleCertExtAppleServerAuthenticationiCloudSetupProdQA
++ _oidAppleCertExtCryptoServicesExtEncryption
++ _oidAppleCertExtEscrowProxyServerAuthProd
++ _oidAppleCertExtEscrowProxyServerAuthProdQA
++ _oidAppleCertExtFMiPServerAuthProd
++ _oidAppleCertExtFMiPServerAuthProdQA
++ _oidAppleCertExtHomeKitServerAuth
++ _oidAppleCertExtOSXProvisioningProfileSigning
++ _oidAppleCertExtTrustCacheSigning
++ _oidAppleCertExtTrustCacheSigningTest
++ _oidAppleCertExtensionAppleIDRecordValidationSigning
++ _oidAppleExtendedKeyUsageAppleID
++ _oidAppleExtendedKeyUsageCodeSigning
++ _oidAppleExtendedKeyUsageCodeSigningDev
++ _oidAppleExtendedKeyUsagePassbook
++ _oidAppleExtendedKeyUsageProfileSigning
++ _oidAppleExtendedKeyUsageQAProfileSigning
++ _oidAppleImg4ManifestCertSpec
++ _oidAppleInstallerPackagingSigningExternal
++ _oidAppleIntmMarkerAppleHomeKitServerCA
++ _oidAppleIntmMarkerAppleID
++ _oidAppleIntmMarkerAppleID2
++ _oidAppleIntmMarkerAppleServerAuthentication
++ _oidAppleIntmMarkerAppleSystemIntg2
++ _oidAppleIntmMarkerAppleSystemIntgG3
++ _oidAppleIntmMarkerAppleWWDR
++ _oidApplePolicyEscrowService
++ _oidApplePolicyMobileStore
++ _oidApplePolicyMobileStoreProdQA
++ _oidAppleProvisioningProfile
++ _oidApplePushServiceClient
++ _oidAppleSecureBootCertSpec
++ _oidAppleSecureBootTicketCertSpec
++ _oidAppleTVOSApplicationSigningProd
++ _oidAppleTVOSApplicationSigningProdQA
++ _oidAppleXROSApplicationSigningProd
++ _oidAppleXROSApplicationSigningProdQA
++ _oidAuthorityInfoAccess
++ _oidAuthorityKeyIdentifier
++ _oidBasicConstraints
++ _oidCertificatePolicies
++ _oidCollectiveOrganizationName
++ _oidCollectiveOrganizationalUnitName
++ _oidCollectiveStateOrProvinceName
++ _oidCollectiveStreetAddress
++ _oidCommonName
++ _oidContentType
++ _oidCountryName
++ _oidCrlDistributionPoints
++ _oidDescription
++ _oidEcPrime192v1
++ _oidEcPrime256v1
++ _oidEcPubKey
++ _oidEd25519
++ _oidEd448
++ _oidEmailAddress
++ _oidEntrustVersInfo
++ _oidExtendedKeyUsage
++ _oidExtendedKeyUsageClientAuth
++ _oidExtendedKeyUsageCodeSigning
++ _oidExtendedKeyUsageEmailProtection
++ _oidExtendedKeyUsageIPSec
++ _oidExtendedKeyUsageMicrosoftSGC
++ _oidExtendedKeyUsageNetscapeSGC
++ _oidExtendedKeyUsageOCSPSigning
++ _oidExtendedKeyUsageServerAuth
++ _oidExtendedKeyUsageTimeStamping
++ _oidFee
++ _oidFriendlyName
++ _oidGoogleEmbeddedSignedCertificateTimestamp
++ _oidGoogleOCSPSignedCertificateTimestamp
++ _oidInhibitAnyPolicy
++ _oidIssuerAltName
++ _oidKeyUsage
++ _oidLocalKeyId
++ _oidLocalityName
++ _oidMSNTPrincipalName
++ _oidMd2
++ _oidMd2Rsa
++ _oidMd4
++ _oidMd4Rsa
++ _oidMd5
++ _oidMd5Fee
++ _oidMd5Rsa
++ _oidMessageDigest
++ _oidMfg1
++ _oidMicrosoftSpcIndirectDataContext
++ _oidMicrosoftSpcPEImageData
++ _oidMicrosoftSpcSpOpusInfo
++ _oidNameConstraints
++ _oidNetscapeCertType
++ _oidOCSPNoCheck
++ _oidOrganizationName
++ _oidOrganizationalUnitName
++ _oidPSSRsa
++ _oidPkcs7SignedData
++ _oidPolicyConstraints
++ _oidPolicyMappings
++ _oidPrivateKeyUsagePeriod
++ _oidQCCompliance
++ _oidQCDisclosures
++ _oidQCEuRetentionPeriod
++ _oidQCLimitValue
++ _oidQCStatements
++ _oidQCSyntaxv1
++ _oidQCSyntaxv2
++ _oidQCType
++ _oidQCTypeEseal
++ _oidQCTypeEsign
++ _oidQCTypeWeb
++ _oidQtCps
++ _oidQtUNotice
++ _oidRsa
++ _oidSHAKE256
++ _oidSemanticsIdEidasLegal
++ _oidSemanticsIdEidasNatural
++ _oidSemanticsIdLegal
++ _oidSemanticsIdNatural
++ _oidSha1
++ _oidSha1Dsa
++ _oidSha1DsaCommonOIW
++ _oidSha1DsaOIW
++ _oidSha1Ecdsa
++ _oidSha1Fee
++ _oidSha1Rsa
++ _oidSha1RsaOIW
++ _oidSha224
++ _oidSha224Ecdsa
++ _oidSha224Rsa
++ _oidSha256
++ _oidSha256Ecdsa
++ _oidSha256Rsa
++ _oidSha384
++ _oidSha384Ecdsa
++ _oidSha384Rsa
++ _oidSha512
++ _oidSha512Ecdsa
++ _oidSha512Rsa
++ _oidStateOrProvinceName
++ _oidStreetAddress
++ _oidSubjectAltName
++ _oidSubjectInfoAccess
++ _oidSubjectKeyIdentifier
++ _oidUserId
++ _oidX25519
++ _oidX448
++ _parse_chain
++ _parse_ec_chain
++ _parse_extensions
++ _sha1_digest
++ _sha1_digest_info
++ _sha256_digest_info
++ _sha384_digest_info
++ _sha512_digest_info
++ _swift_coroFrameAlloc
++ _symbolic Say_____G 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementV
++ _symbolic Say_____G 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetV
++ _symbolic Say_____G 16CloudAttestation17Proto_LocalPolicyV14ImplementationO
++ _symbolic ScCySo40SWTransparencyExpiringVerificationResultC______pG s5ErrorP
++ _symbolic Shy_____G 10Foundation4UUIDV
++ _symbolic _____ 16CloudAttestation07PrivateA23Compute_ReleaseMetadataV15ToolRequirementV
++ _symbolic _____ 16CloudAttestation07PrivateA39Compute_TransparencyLog_AssociatedAssetV
++ _symbolic _____ 16CloudAttestation15LocalBootPolicyV
++ _symbolic _____ 16CloudAttestation15LocalBootPolicyV5ErrorO
++ _symbolic _____ 16CloudAttestation17Proto_LocalPolicyV
++ _symbolic _____ 16CloudAttestation17Proto_LocalPolicyV10CodingKeysO
++ _symbolic _____ 16CloudAttestation17Proto_LocalPolicyV14ImplementationO
++ _symbolic _____ 16CloudAttestation17Proto_LocalPolicyV5ErrorO
++ _symbolic _____ 16CloudAttestation18SealedHashSelectorO
++ _symbolic _____ 16CloudAttestation3SEPO0B0V6OSTypeO
++ _symbolic _____Sg 16CloudAttestation17Proto_LocalPolicyV
++ _symbolic _____Sg_ABt 16CloudAttestation17Proto_LocalPolicyV
++ _symbolic ______Say_____Gt 10Foundation4UUIDV 16CloudAttestation3SEPO10SealedHashV5EntryV
++ _symbolic ___________y______y_______QPGAEG________________________________________y_ACy_______QPGG____________________t 16CloudAttestation10X509PolicyV AA0D7BuilderV011ConditionalD0O AE05TupleD0V AA014SEPAttestationD0V AA08APTicketD0V AA09LocalBootD0V AA08SEPImageD0V AA07CryptexD0V AA012SecureConfigD0V AA012TransparencyD0V AA010KeyOptionsD0V AE08OptionalD0V AA06FusingD0V AA010DeviceModeD0V AA010DarwinInitD0V AA011RoutingHintD0V AA015EnsembleMembersD0V
++ _symbolic _____y_AAy____________y_AAy_______QPGAEG________________________________________y_AAy_______QPGG____________________QPG______QPG 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA09LocalBootC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16CloudAttestation17Proto_LocalPolicyV10CodingKeysO
++ _symbolic _____y____________y_AAy_______QPGAEG________________________________________y_AAy_______QPGG____________________QPG 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA09LocalBootC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V
++ _symbolic _____y____________y_AAy_______QPGAEG________________________________________y_AAy_______QPGG____________________QPG______t 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA09LocalBootC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V
++ _symbolic _____y_____y_____GAD_G s12Zip2SequenceV8IteratorV s10ArraySliceV s5UInt8V
++ _type_layout_string 16CloudAttestation18SealedHashSelectorO
++ _verify_chain_img4_avp
++ _verify_chain_img4_ddi
++ _verify_chain_img4_ddi_fake
++ _verify_chain_img4_ddi_fake_global
++ _verify_chain_img4_ddi_global
++ _verify_chain_img4_ec_v1
++ _verify_chain_img4_ec_v2
++ _verify_chain_img4_ecdsa256
++ _verify_chain_img4_ecdsa384
++ _verify_chain_img4_ecdsa384_hacktivate
++ _verify_chain_img4_ecdsa384_local_policy
++ _verify_chain_img4_ecdsa384_qa
++ _verify_chain_img4_tatsu_local_policy
++ _verify_chain_img4_tatsu_local_policy_hacktivate
++ _verify_chain_img4_v1
++ _verify_chain_img4_v1.sboot_common_name
++ _verify_chain_img4_v1.sboot_item
++ _verify_chain_img4_v2
++ _verify_chain_img4_v2_AWG1
++ _verify_chain_img4_v2_PED
++ _verify_chain_img4_v2_rsa3k
++ _verify_chain_img4_v2_with_crack_callback
++ _verify_chain_img4_x86
++ _verify_chain_signatures
++ _verify_ecdsa_sig
++ _verify_pkcs1_sig
++ _verify_signature_ecdsa
++ _verify_signature_rsa
++ _verify_signature_rsa3k
+- _SecKeyCreateWithData
+- ___swift_memcpy33_8
+- ___swift_memcpy80_8
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_CloudAttestation
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_CloudAttestation
+- _associated conformance 16CloudAttestation12EnsembleHPKEO5ErrorOSHAASQ
+- _associated conformance 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLOSHAASQ
+- _associated conformance 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16CloudAttestation23EnsembleChannelSecurityO11PairingDataVSHAASQ
+- _get_enum_tag_for_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO
+- _get_enum_tag_for_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO023ProvisioningCertificateF0O
+- _get_enum_tag_for_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO08TopologyF0O
+- _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPGAA0bC0HPyHC.15
+- _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPGAA0bC0HPyHC.7
+- _get_witness_table 16CloudAttestation13PolicyBuilderV05TupleC0Vy_AEy_AA04X509C0V_AC011ConditionalC0Oy_AEy_AA014SEPAttestationC0V_QPGALGAA08APTicketC0VAA08SEPImageC0VAA07CryptexC0VAA012SecureConfigC0VAA012TransparencyC0VAA010KeyOptionsC0VAC08OptionalC0Vy_AEy_AA06FusingC0V_QPGGAA010DeviceModeC0VAA010DarwinInitC0VAA011RoutingHintC0VAA015EnsembleMembersC0VQPG_AA014ProxiedReleaseC0VQPGAA0bC0HPyHC.3
+- _kSecAttrKeyClass
+- _kSecAttrKeyClassPrivate
+- _objc_retain_x1
+- _swift_bridgeObjectRetain_n
+- _swift_continuation_throwingResume
+- _swift_continuation_throwingResumeWithError
+- _swift_retain_n
+- _symbolic SDySSShySSGG
+- _symbolic SDy_____y______G_____yAC______GG 16CloudAttestation27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AA014SWTransparencyE0V AA13TemporalCacheV7ElementV 10Foundation4DateV
+- _symbolic SS3key_yp5valuetSg
+- _symbolic SS7chassis_Si5countSi7maximumt
+- _symbolic SS8provided_SS11certificatet
+- _symbolic SaySsG
+- _symbolic SccySo40SWTransparencyExpiringVerificationResultC______pG s5ErrorP
+- _symbolic ShySSG
+- _symbolic Si5count_Si7maximumt
+- _symbolic _____ 16CloudAttestation12EnsembleHPKEO
+- _symbolic _____ 16CloudAttestation12EnsembleHPKEO5ErrorO
+- _symbolic _____ 16CloudAttestation12EnsembleHPKEO6LeaderV
+- _symbolic _____ 16CloudAttestation12EnsembleHPKEO8FollowerV
+- _symbolic _____ 16CloudAttestation14SendableSecKey33_A3EB2001BB80B769F4496A57F0023FDCLLV
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLO
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO5ErrorO
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO5ErrorO023ProvisioningCertificateF0O
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO5ErrorO08TopologyF0O
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO6LeaderV
+- _symbolic _____ 16CloudAttestation23EnsembleChannelSecurityO8FollowerV
+- _symbolic _____ 9CryptoKit12SymmetricKeyV
+- _symbolic _____ SS5IndexV
+- _symbolic _____ SS8UTF8ViewV
+- _symbolic _____Sg 16CloudAttestation14Image4ManifestV8PropertyV
+- _symbolic ___________pIegozo_ 10Foundation4DataV s5ErrorP
+- _symbolic ___________y______y_______QPGAEG___________________________________y_ACy_______QPGG____________________t 16CloudAttestation10X509PolicyV AA0D7BuilderV011ConditionalD0O AE05TupleD0V AA014SEPAttestationD0V AA08APTicketD0V AA08SEPImageD0V AA07CryptexD0V AA012SecureConfigD0V AA012TransparencyD0V AA010KeyOptionsD0V AE08OptionalD0V AA06FusingD0V AA010DeviceModeD0V AA010DarwinInitD0V AA011RoutingHintD0V AA015EnsembleMembersD0V
+- _symbolic ______p 16CloudAttestation8AttestorP
+- _symbolic _____yKc 10Foundation4DataV
+- _symbolic _____ySSG s11_SetStorageC
+- _symbolic _____ySSShySSGG s18_DictionaryStorageC
+- _symbolic _____y_AAy____________y_AAy_______QPGAEG___________________________________y_AAy_______QPGG____________________QPG______QPG 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V
+- _symbolic _____y_____G 16CloudAttestation27CachingTransparencyVerifierV AA014SWTransparencyE0V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV10CodingKeys33_AED713BC47CB23669FD121EC32555A91LLO
+- _symbolic _____y______G 16CloudAttestation27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AA014SWTransparencyE0V
+- _symbolic _____y______G______yAC______Gt 16CloudAttestation27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AA014SWTransparencyE0V AA13TemporalCacheV7ElementV 10Foundation4DateV
+- _symbolic _____y____________y_AAy_______QPGAEG___________________________________y_AAy_______QPGG____________________QPG 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V
+- _symbolic _____y____________y_AAy_______QPGAEG___________________________________y_AAy_______QPGG____________________QPG______t 16CloudAttestation13PolicyBuilderV05TupleC0V AA04X509C0V AC011ConditionalC0O AA014SEPAttestationC0V AA08APTicketC0V AA08SEPImageC0V AA07CryptexC0V AA012SecureConfigC0V AA012TransparencyC0V AA010KeyOptionsC0V AC08OptionalC0V AA06FusingC0V AA010DeviceModeC0V AA010DarwinInitC0V AA011RoutingHintC0V AA015EnsembleMembersC0V AA014ProxiedReleaseC0V
+- _symbolic _____y_____y______G_____G 16CloudAttestation18AsyncTemporalCacheC AA27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AA014SWTransparencyH0V 10Foundation4DateV
+- _symbolic _____y_____y______G______G 16CloudAttestation13TemporalCacheV7ElementV AA27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AA014SWTransparencyH0V 10Foundation4DateV
+- _symbolic _____y_____y______G_____yAD______GG s18_DictionaryStorageC 16CloudAttestation27CachingTransparencyVerifierV3Key33_8EE7B43C80CDCC86F95414D738051B60LLV AC014SWTransparencyG0V AC13TemporalCacheV7ElementV 10Foundation4DateV
+- _type_layout_string 16CloudAttestation14SendableSecKey33_A3EB2001BB80B769F4496A57F0023FDCLLV
+- _type_layout_string 16CloudAttestation23EnsembleChannelSecurityO11PairingDataV
+- _type_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO
+- _type_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO023ProvisioningCertificateF0O
+- _type_layout_string 16CloudAttestation23EnsembleChannelSecurityO5ErrorO08TopologyF0O
+CStrings:
++ ".ToolRequirement"
++ "Attestation contains nonce, but no nonce provided to validate"
++ "Certificate DeviceIdentity %s != %s"
++ "Fetching inclusion proofs for digest %{public}s"
++ "IMPLEMENTATION_EC384SHA384"
++ "IMPLEMENTATION_UNKNOWN"
++ "LIVEON"
++ "Narrative is not available on this OS"
++ "Observed nonce %{public}s does not match %{public}s"
++ "PrivateCloudCompute.TransparencyLog.AssociatedAsset"
++ "QUARANTINE"
++ "_createCheckedThrowingContinuation(_:)"
++ "_localPolicy"
++ "_sfrManifest"
++ "app data integrity check failed: no nonce observed"
++ "associatedAssets"
++ "availability"
++ "details"
++ "feature"
++ "identifier"
++ "implementation"
++ "liveon"
++ "local_policy"
++ "policy"
++ "property sealedHashSlots is unused"
++ "proto.LocalPolicy"
++ "quarantine"
++ "requirements"
++ "sfr_manifest"
+- "B6FF3FC5-7CAF-4898-82F5-4887ED946ABC"
+- "CachingTransparencyVerifier"
+- "EnsembleChannelSecurity.Leader"
+- "Follower UDID %{public}s does not match provisioning certificate UDID %{public}s"
+- "Follower UDID %{public}s not in expected set %{public}s"
+- "Follower completed pairing with leader: %{public}s"
+- "Follower rekeyed"
+- "Leader attestation generated"
+- "Leader pairing with %{public}s"
+- "Leader rekeyed"
+- "Malformed darwin-init: %{public}@"
+- "Narrative is not supported on this system"
+- "No SecureConfig entries in SecureConfigDB"
+- "No darwin-init entry in SecureConfigDB"
+- "Nonce %s does not match %s"
+- "associatedAssetIds"
+
+```

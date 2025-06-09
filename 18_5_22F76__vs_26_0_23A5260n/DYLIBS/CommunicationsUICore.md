@@ -1,0 +1,2222 @@
+## CommunicationsUICore
+
+> `/System/Library/PrivateFrameworks/CommunicationsUICore.framework/CommunicationsUICore`
+
+```diff
+
+-55.600.42.2.1
+-  __TEXT.__text: 0x0
+-  __TEXT.__const: 0x50
++91.100.5.2.14
++  __TEXT.__text: 0x6fe40
++  __TEXT.__auth_stubs: 0x1df0
++  __TEXT.__objc_methlist: 0x1084
++  __TEXT.__const: 0x45e4
++  __TEXT.__cstring: 0x24b4
++  __TEXT.__swift5_typeref: 0x1c20
++  __TEXT.__oslogstring: 0x2503
++  __TEXT.__swift5_capture: 0x6e4
++  __TEXT.__swift5_fieldmd: 0x16d0
++  __TEXT.__constg_swiftt: 0x1c8c
++  __TEXT.__swift5_reflstr: 0x1395
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_assocty: 0x108
++  __TEXT.__swift5_protos: 0x50
++  __TEXT.__swift5_proto: 0x298
++  __TEXT.__swift5_types: 0x178
++  __TEXT.__swift_as_entry: 0xdc
++  __TEXT.__swift_as_ret: 0xc0
++  __TEXT.__unwind_info: 0x1c30
++  __TEXT.__eh_frame: 0x2e14
++  __TEXT.__objc_classname: 0x9c
++  __TEXT.__objc_methname: 0x3883
++  __TEXT.__objc_methtype: 0x8a8
++  __DATA_CONST.__got: 0x700
++  __DATA_CONST.__const: 0x400
++  __DATA_CONST.__objc_classlist: 0x120
++  __DATA_CONST.__objc_protolist: 0x90
++  __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_selrefs: 0xef0
++  __DATA_CONST.__objc_protorefs: 0x48
++  __AUTH_CONST.__auth_got: 0xef8
++  __AUTH_CONST.__const: 0x2738
++  __AUTH_CONST.__objc_const: 0x8188
++  __AUTH.__objc_data: 0x858
++  __AUTH.__data: 0x1038
++  __DATA.__data: 0x1360
++  __DATA.__bss: 0x45f0
++  __DATA.__common: 0x78
++  __DATA_DIRTY.__objc_data: 0x2f8
++  __DATA_DIRTY.__data: 0x1328
++  __DATA_DIRTY.__common: 0x38
++  __DATA_DIRTY.__bss: 0x680
++  - /System/Library/Frameworks/ActivityKit.framework/ActivityKit
++  - /System/Library/Frameworks/Combine.framework/Combine
++  - /System/Library/Frameworks/Contacts.framework/Contacts
++  - /System/Library/Frameworks/ContactsUI.framework/ContactsUI
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
++  - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/GroupActivities.framework/GroupActivities
++  - /System/Library/Frameworks/LiveCommunicationKit.framework/LiveCommunicationKit
++  - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/Translation.framework/Translation
++  - /System/Library/Frameworks/UIKit.framework/UIKit
++  - /System/Library/PrivateFrameworks/AVConference.framework/AVConference
++  - /System/Library/PrivateFrameworks/AudioAccessoryAssetManagement.framework/AudioAccessoryAssetManagement
++  - /System/Library/PrivateFrameworks/CallIntelligence.framework/CallIntelligence
++  - /System/Library/PrivateFrameworks/CommunicationTrust.framework/CommunicationTrust
++  - /System/Library/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers
++  - /System/Library/PrivateFrameworks/FTServices.framework/FTServices
++  - /System/Library/PrivateFrameworks/FindMyDevice.framework/FindMyDevice
++  - /System/Library/PrivateFrameworks/RTTUtilities.framework/RTTUtilities
++  - /System/Library/PrivateFrameworks/SetupAssistant.framework/SetupAssistant
++  - /System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices
++  - /System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices
++  - /System/Library/PrivateFrameworks/TelephonyUI.framework/TelephonyUI
++  - /System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities
+   - /usr/lib/libSystem.B.dylib
+-  UUID: D2389D83-7608-3816-9449-38600076B298
+-  Functions: 0
+-  Symbols:   2
+-  CStrings:  0
++  - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
++  - /usr/lib/swift/libswiftCompression.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
++  - /usr/lib/swift/libswiftCoreFoundation.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
++  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
++  - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
++  - /usr/lib/swift/libswiftXPC.dylib
++  - /usr/lib/swift/libswift_Builtin_float.dylib
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 935A94A5-2C1E-3FAF-B05F-37345813FBF6
++  Functions: 2450
++  Symbols:   1265
++  CStrings:  1030
+ 
+Symbols:
++ <redacted>
++ _AXTTYMessageKeyCallID
++ _AXTTYMessageKeyMessageText
++ _AXTTYMessageKeyMessageType
++ _AXTTYMessageKeySenderIsMe
++ _AXTTYMessageKeyTranslatedMessageText
++ _BYSetupAssistantFinishedDarwinNotification
++ _BYSetupAssistantNeedsToRun
++ _CFPhoneNumberCreate
++ _CFPhoneNumberCreateString
++ _CNContactEmailAddressesKey
++ _CNContactFamilyNameKey
++ _CNContactGivenNameKey
++ _CNContactIdentifierKey
++ _CNContactImageDataAvailableKey
++ _CNContactImageDataKey
++ _CNContactMiddleNameKey
++ _CNContactNicknameKey
++ _CNContactOrganizationNameKey
++ _CNContactPhoneNumbersKey
++ _CNContactSharedPhotoDisplayPreferenceKey
++ _CNContactThumbnailImageDataKey
++ _CNContactWallpaperKey
++ _CNContactWallpaperMetadataKey
++ _CNContactWallpaperURIKey
++ _OBJC_CLASS_$_AVCCaptionsClient
++ _OBJC_CLASS_$_AVCCaptionsConfig
++ _OBJC_CLASS_$_AVCCaptionsResult
++ _OBJC_CLASS_$_AudioAccessoryAssetManagementClient
++ _OBJC_CLASS_$_CCFTMenuItemRegistry
++ _OBJC_CLASS_$_CNContact
++ _OBJC_CLASS_$_CNContactFormatter
++ _OBJC_CLASS_$_CNContactStore
++ _OBJC_CLASS_$_CNContactStoreConfiguration
++ _OBJC_CLASS_$_CNContactViewController
++ _OBJC_CLASS_$_CNMeCardSharingSettingsViewController
++ _OBJC_CLASS_$_CUICPhoneLockStateObserver
++ _OBJC_CLASS_$_FMDFMIPManager
++ _OBJC_CLASS_$_FTServerBag
++ _OBJC_CLASS_$_LAContext
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSLocale
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSNumber
++ _OBJC_CLASS_$_NSObject
++ _OBJC_CLASS_$_NSPersonNameComponents
++ _OBJC_CLASS_$_NSRunLoop
++ _OBJC_CLASS_$_NSThread
++ _OBJC_CLASS_$_NSUserDefaults
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_RTTServer
++ _OBJC_CLASS_$_TUCall
++ _OBJC_CLASS_$_TUCallCenter
++ _OBJC_CLASS_$_TUCallStartRecordingRequest
++ _OBJC_CLASS_$_TUCallStopRecordingRequest
++ _OBJC_CLASS_$_TUCallTranslationStartRequest
++ _OBJC_CLASS_$_TUCallTranslationStopRequest
++ _OBJC_CLASS_$_TUConversationActivitySession
++ _OBJC_CLASS_$_TUConversationManager
++ _OBJC_CLASS_$_TUConversationParticipant
++ _OBJC_CLASS_$_TUFeatureFlags
++ _OBJC_CLASS_$_TUHandle
++ _OBJC_CLASS_$_TUJoinConversationRequest
++ _OBJC_CLASS_$_TUPhoneNumber
++ _OBJC_CLASS_$_TUPrivacyManager
++ _OBJC_CLASS_$_TURoute
++ _OBJC_CLASS_$_TURouteController
++ _OBJC_CLASS_$_UIColor
++ _OBJC_CLASS_$_UIDevice
++ _OBJC_CLASS_$_UIImage
++ _OBJC_CLASS_$_UITraitCollection
++ _OBJC_CLASS_$__LTLanguageStatus
++ _OBJC_CLASS_$__LTLanguageStatusObservation
++ _OBJC_CLASS_$__TtC20CommunicationsUICore17AudioRouteService
++ _OBJC_CLASS_$__TtC20CommunicationsUICore20ConversationObserver
++ _OBJC_CLASS_$__TtC20CommunicationsUICore22CallTranslationService
++ _OBJC_CLASS_$__TtC20CommunicationsUICore22CaptionsClientDelegate
++ _OBJC_CLASS_$__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ _OBJC_CLASS_$__TtC20CommunicationsUICore32TranslationInteractionController
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$_CCFTMenuItemRegistry
++ _OBJC_METACLASS_$_CUICPhoneLockStateObserver
++ _OBJC_METACLASS_$_NSObject
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore17AudioRouteService
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore20ConversationObserver
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore22CallTranslationService
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore22CaptionsClientDelegate
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ _OBJC_METACLASS_$__TtC20CommunicationsUICore32TranslationInteractionController
++ _OBJC_METACLASS_$__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ _PNCopyBestGuessCountryCodeForNumber
++ _SBSRequestPasscodeUnlockUI
++ _TUBundle
++ _TUCallCenterCallStatusChangedNotification
++ _TUCallCenterLastReceptionistMessageChangedNotification
++ _TUCallCenterReceptionistSessionChangedNotification
++ _TUCallCenterReceptionistStateChangedNotification
++ _TUCallIsUplinkMutedChangedNotification
++ _TUCallScreeningDidFinishAnnouncementNotification
++ _TUCallTranslationStateChangedNotification
++ _TUFaceTimeAudioServiceName
++ _TUFaceTimeVideoServiceName
++ _TUHomeCountryCode
++ _TUIsProfanityAllowedForUseCase
++ _TUTranslationActivityIdentifier
++ __Block_copy
++ __Block_release
++ __DATA_CCFTMenuItemRegistry
++ __DATA_CUICPhoneLockStateObserver
++ __DATA__TtC20CommunicationsUICore10CallFacade
++ __DATA__TtC20CommunicationsUICore10FTMenuItem
++ __DATA__TtC20CommunicationsUICore11ContactKeys
++ __DATA__TtC20CommunicationsUICore15ActivityWrapper
++ __DATA__TtC20CommunicationsUICore15ContactsService
++ __DATA__TtC20CommunicationsUICore15FTMenuViewModel
++ __DATA__TtC20CommunicationsUICore16AudioMuteService
++ __DATA__TtC20CommunicationsUICore16CallCenterFacade
++ __DATA__TtC20CommunicationsUICore16DeviceConditions
++ __DATA__TtC20CommunicationsUICore17AudioRouteService
++ __DATA__TtC20CommunicationsUICore18BlocklistViewModel
++ __DATA__TtC20CommunicationsUICore20ConversationObserver
++ __DATA__TtC20CommunicationsUICore20LanguageAssetManager
++ __DATA__TtC20CommunicationsUICore22BlockUnblockController
++ __DATA__TtC20CommunicationsUICore22CallTranslationService
++ __DATA__TtC20CommunicationsUICore22CaptionsClientDelegate
++ __DATA__TtC20CommunicationsUICore23FTMenuItemStateProvider
++ __DATA__TtC20CommunicationsUICore23PodcastRecordingService
++ __DATA__TtC20CommunicationsUICore24CallTranslationRTTHelper
++ __DATA__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ __DATA__TtC20CommunicationsUICore26LanguageSelectionViewModel
++ __DATA__TtC20CommunicationsUICore27FTMenuItemProviderContainer
++ __DATA__TtC20CommunicationsUICore27SettingsPersonListViewModel
++ __DATA__TtC20CommunicationsUICore29TranslationInteractionSession
++ __DATA__TtC20CommunicationsUICore30CallTranslationCaptionsClients
++ __DATA__TtC20CommunicationsUICore30LanguageSelectionDownloadModel
++ __DATA__TtC20CommunicationsUICore31CallScreeningTranscriptsService
++ __DATA__TtC20CommunicationsUICore32TranslationInteractionController
++ __DATA__TtC20CommunicationsUICoreP33_5859C44149DEFA644EBE5CBE4DBC65E711StringDummy
++ __DATA__TtC20CommunicationsUICoreP33_794E5A3136078D8D4D40DFBEB8BAB2CB12WeakDelegate
++ __DATA__TtC20CommunicationsUICoreP33_846D0A5282A3A64002ADFB6C0FB782F512WeakDelegate
++ __DATA__TtC20CommunicationsUICoreP33_8E92376F0F5C36D11E88C838831E7D4E19ResourceBundleClass
++ __DATA__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ __DATA__TtC20CommunicationsUICoreP33_C60C12309A0D8B4C6B24B2867827D64715MockTranscripts
++ __INSTANCE_METHODS_CCFTMenuItemRegistry
++ __INSTANCE_METHODS_CUICPhoneLockStateObserver
++ __INSTANCE_METHODS__TtC20CommunicationsUICore17AudioRouteService
++ __INSTANCE_METHODS__TtC20CommunicationsUICore20ConversationObserver
++ __INSTANCE_METHODS__TtC20CommunicationsUICore22CallTranslationService
++ __INSTANCE_METHODS__TtC20CommunicationsUICore22CaptionsClientDelegate
++ __INSTANCE_METHODS__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ __INSTANCE_METHODS__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ __IVARS_CCFTMenuItemRegistry
++ __IVARS_CUICPhoneLockStateObserver
++ __IVARS__TtC20CommunicationsUICore10CallFacade
++ __IVARS__TtC20CommunicationsUICore10FTMenuItem
++ __IVARS__TtC20CommunicationsUICore15ActivityWrapper
++ __IVARS__TtC20CommunicationsUICore15ContactsService
++ __IVARS__TtC20CommunicationsUICore15FTMenuViewModel
++ __IVARS__TtC20CommunicationsUICore16AudioMuteService
++ __IVARS__TtC20CommunicationsUICore16CallCenterFacade
++ __IVARS__TtC20CommunicationsUICore16DeviceConditions
++ __IVARS__TtC20CommunicationsUICore17AudioRouteService
++ __IVARS__TtC20CommunicationsUICore18BlocklistViewModel
++ __IVARS__TtC20CommunicationsUICore20ConversationObserver
++ __IVARS__TtC20CommunicationsUICore20LanguageAssetManager
++ __IVARS__TtC20CommunicationsUICore22BlockUnblockController
++ __IVARS__TtC20CommunicationsUICore22CallTranslationService
++ __IVARS__TtC20CommunicationsUICore22CaptionsClientDelegate
++ __IVARS__TtC20CommunicationsUICore23FTMenuItemStateProvider
++ __IVARS__TtC20CommunicationsUICore23PodcastRecordingService
++ __IVARS__TtC20CommunicationsUICore24CallTranslationRTTHelper
++ __IVARS__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ __IVARS__TtC20CommunicationsUICore26LanguageSelectionViewModel
++ __IVARS__TtC20CommunicationsUICore27FTMenuItemProviderContainer
++ __IVARS__TtC20CommunicationsUICore27SettingsPersonListViewModel
++ __IVARS__TtC20CommunicationsUICore29TranslationInteractionSession
++ __IVARS__TtC20CommunicationsUICore30CallTranslationCaptionsClients
++ __IVARS__TtC20CommunicationsUICore30LanguageSelectionDownloadModel
++ __IVARS__TtC20CommunicationsUICore31CallScreeningActivityController
++ __IVARS__TtC20CommunicationsUICore31CallScreeningTranscriptsService
++ __IVARS__TtC20CommunicationsUICore32TranslationInteractionController
++ __IVARS__TtC20CommunicationsUICore9_Streamed
++ __IVARS__TtC20CommunicationsUICoreP33_794E5A3136078D8D4D40DFBEB8BAB2CB12WeakDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_846D0A5282A3A64002ADFB6C0FB782F512WeakDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ __IVARS__TtC20CommunicationsUICoreP33_C60C12309A0D8B4C6B24B2867827D64715MockTranscripts
++ __METACLASS_DATA_CCFTMenuItemRegistry
++ __METACLASS_DATA_CUICPhoneLockStateObserver
++ __METACLASS_DATA__TtC20CommunicationsUICore10CallFacade
++ __METACLASS_DATA__TtC20CommunicationsUICore10FTMenuItem
++ __METACLASS_DATA__TtC20CommunicationsUICore11ContactKeys
++ __METACLASS_DATA__TtC20CommunicationsUICore15ActivityWrapper
++ __METACLASS_DATA__TtC20CommunicationsUICore15ContactsService
++ __METACLASS_DATA__TtC20CommunicationsUICore15FTMenuViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore16AudioMuteService
++ __METACLASS_DATA__TtC20CommunicationsUICore16CallCenterFacade
++ __METACLASS_DATA__TtC20CommunicationsUICore16DeviceConditions
++ __METACLASS_DATA__TtC20CommunicationsUICore17AudioRouteService
++ __METACLASS_DATA__TtC20CommunicationsUICore18BlocklistViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore20ConversationObserver
++ __METACLASS_DATA__TtC20CommunicationsUICore20LanguageAssetManager
++ __METACLASS_DATA__TtC20CommunicationsUICore22BlockUnblockController
++ __METACLASS_DATA__TtC20CommunicationsUICore22CallTranslationService
++ __METACLASS_DATA__TtC20CommunicationsUICore22CaptionsClientDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICore23FTMenuItemStateProvider
++ __METACLASS_DATA__TtC20CommunicationsUICore23PodcastRecordingService
++ __METACLASS_DATA__TtC20CommunicationsUICore24CallTranslationRTTHelper
++ __METACLASS_DATA__TtC20CommunicationsUICore25DarwinNotificationWrapper
++ __METACLASS_DATA__TtC20CommunicationsUICore26LanguageSelectionViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore27FTMenuItemProviderContainer
++ __METACLASS_DATA__TtC20CommunicationsUICore27SettingsPersonListViewModel
++ __METACLASS_DATA__TtC20CommunicationsUICore29TranslationInteractionSession
++ __METACLASS_DATA__TtC20CommunicationsUICore30CallTranslationCaptionsClients
++ __METACLASS_DATA__TtC20CommunicationsUICore30LanguageSelectionDownloadModel
++ __METACLASS_DATA__TtC20CommunicationsUICore31CallScreeningTranscriptsService
++ __METACLASS_DATA__TtC20CommunicationsUICore32TranslationInteractionController
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_5859C44149DEFA644EBE5CBE4DBC65E711StringDummy
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_794E5A3136078D8D4D40DFBEB8BAB2CB12WeakDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_846D0A5282A3A64002ADFB6C0FB782F512WeakDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_8E92376F0F5C36D11E88C838831E7D4E19ResourceBundleClass
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ __METACLASS_DATA__TtC20CommunicationsUICoreP33_C60C12309A0D8B4C6B24B2867827D64715MockTranscripts
++ __NSConcreteStackBlock
++ __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
++ __OBJC_$_CLASS_PROP_LIST_TUFeatureFlags
++ __OBJC_$_INSTANCE_METHODS__TtC20CommunicationsUICore32TranslationInteractionController(CommunicationsUICore)
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROP_LIST_TUFeatureFlags
++ __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
++ __OBJC_$_PROTOCOL_CLASS_METHODS_TUFeatureFlags
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVCCaptionsClientDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TUConversationManagerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_TURouteControllerDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_TUFeatureFlags
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AVCCaptionsClientDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TUConversationManagerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TUFeatureFlags
++ __OBJC_$_PROTOCOL_METHOD_TYPES_TURouteControllerDelegate
++ __OBJC_$_PROTOCOL_REFS_AVCCaptionsClientDelegate
++ __OBJC_$_PROTOCOL_REFS_CNKeyDescriptor
++ __OBJC_$_PROTOCOL_REFS_NSSecureCoding
++ __OBJC_$_PROTOCOL_REFS_TUConversationManagerDelegate
++ __OBJC_$_PROTOCOL_REFS_TUFeatureFlags
++ __OBJC_$_PROTOCOL_REFS_TURouteControllerDelegate
++ __OBJC_CLASS_PROTOCOLS_$__TtC20CommunicationsUICore32TranslationInteractionController(CommunicationsUICore)
++ __OBJC_LABEL_PROTOCOL_$_AVCCaptionsClientDelegate
++ __OBJC_LABEL_PROTOCOL_$_CNKeyDescriptor
++ __OBJC_LABEL_PROTOCOL_$_NSCoding
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
++ __OBJC_LABEL_PROTOCOL_$_TUConversationManagerDelegate
++ __OBJC_LABEL_PROTOCOL_$_TUFeatureFlags
++ __OBJC_LABEL_PROTOCOL_$_TURouteControllerDelegate
++ __OBJC_PROTOCOL_$_AVCCaptionsClientDelegate
++ __OBJC_PROTOCOL_$_CNKeyDescriptor
++ __OBJC_PROTOCOL_$_NSCoding
++ __OBJC_PROTOCOL_$_NSCopying
++ __OBJC_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_NSSecureCoding
++ __OBJC_PROTOCOL_$_TUConversationManagerDelegate
++ __OBJC_PROTOCOL_$_TUFeatureFlags
++ __OBJC_PROTOCOL_$_TURouteControllerDelegate
++ __PROTOCOLS__TtC20CommunicationsUICore20ConversationObserver
++ __PROTOCOLS__TtC20CommunicationsUICore20ConversationObserver.29
++ __PROTOCOLS__TtC20CommunicationsUICore22CaptionsClientDelegate
++ __PROTOCOLS__TtC20CommunicationsUICore22CaptionsClientDelegate.10
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate
++ __PROTOCOLS__TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate.7
++ __TUIsInternalInstall
++ ___chkstk_darwin
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_allocate_boxed_opaque_existential_0
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_instantiateGenericMetadata
++ ___swift_memcpy16_8
++ ___swift_memcpy18_8
++ ___swift_memcpy1_1
++ ___swift_memcpy32_8
++ ___swift_memcpy33_8
++ ___swift_memcpy40_8
++ ___swift_memcpy56_8
++ ___swift_memcpy67_8
++ ___swift_memcpy73_8
++ ___swift_mutable_project_boxed_opaque_existential_1
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_value_buffer
++ ___swift_reflection_version
++ ___unnamed_1
++ ___unnamed_5
++ __objc_empty_cache
++ __os_log_impl
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCompression
++ __swift_FORCE_LOAD_$_swiftCompression_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreFoundation
++ __swift_FORCE_LOAD_$_swiftCoreFoundation_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftDarwin
++ __swift_FORCE_LOAD_$_swiftDarwin_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftDispatch
++ __swift_FORCE_LOAD_$_swiftDispatch_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftFoundation
++ __swift_FORCE_LOAD_$_swiftFoundation_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftMapKit_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftObjectiveC
++ __swift_FORCE_LOAD_$_swiftObjectiveC_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftXPC
++ __swift_FORCE_LOAD_$_swiftXPC_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swift_Builtin_float
++ __swift_FORCE_LOAD_$_swift_Builtin_float_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_CommunicationsUICore
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_CommunicationsUICore
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 20CommunicationsUICore10AudioRouteVSHAASQ
++ _associated conformance 20CommunicationsUICore10CallStatusOSHAASQ
++ _associated conformance 20CommunicationsUICore10FTMenuItemC30SecondaryViewPresentationStyleOSHAASQ
++ _associated conformance 20CommunicationsUICore10FTMenuItemCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO0A12UICodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO0A12UICodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO16SystemCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeO16SystemCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10BundleTypeOSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO0D19IterativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO0D19IterativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO0D20CumulativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO0D20CumulativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO14NoneCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationO14NoneCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore14ActivitySymbolV9AnimationOSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVSHAASQ
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVs26ExpressibleByStringLiteralAA0gH4TypesADP_s01_ef7BuiltingH0
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVs26ExpressibleByStringLiteralAAs0ef23ExtendedGraphemeClusterH0
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVs33ExpressibleByUnicodeScalarLiteralAA0ghI4TypesADP_s01_ef7BuiltinghI0
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVs43ExpressibleByExtendedGraphemeClusterLiteralAA0ghiJ4TypesADP_s01_ef7BuiltinghiJ0
++ _associated conformance 20CommunicationsUICore14ActivitySymbolVs43ExpressibleByExtendedGraphemeClusterLiteralAAs0ef13UnicodeScalarJ0
++ _associated conformance 20CommunicationsUICore15ActivityWrapperCAA0cD8ProtocolAA10AttributesAaDP_0C3Kit0cF0
++ _associated conformance 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLOSHAASQ
++ _associated conformance 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOSHAASQ
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO17PrimaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO17PrimaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO18FacetimeCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO18FacetimeCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO19SecondaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleO19SecondaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore18ActivityLabelStyleOSHAASQ
++ _associated conformance 20CommunicationsUICore20SettingsPersonHandleV0E4TypeOSHAASQ
++ _associated conformance 20CommunicationsUICore21FTMenuContextMenuViewV0dE4ItemVs12IdentifiableAA2IDsAFP_SH
++ _associated conformance 20CommunicationsUICore21FTMenuContextMenuViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 20CommunicationsUICore21PodcastRecordingErrorOSHAASQ
++ _associated conformance 20CommunicationsUICore22PushToTalkChannelStateOSHAASQ
++ _associated conformance 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLOSHAASQ
++ _associated conformance 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV0D3Kit0dE0AA12ContentStateAdEP_SE
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV0D3Kit0dE0AA12ContentStateAdEP_SH
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV0D3Kit0dE0AA12ContentStateAdEP_Se
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV0D3Kit0dE0AASE
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV0D3Kit0dE0AASe
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOSHAASQ
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOSHAASQ
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateVSHAASQ
++ _associated conformance 20CommunicationsUICore30LanguageSelectionDownloadModelCSHAASQ
++ _associated conformance 20CommunicationsUICore30LanguageSelectionDownloadModelCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 20CommunicationsUICore30TranslationInteractionActivityV10CodingKeys33_846D0A5282A3A64002ADFB6C0FB782F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 20CommunicationsUICore30TranslationInteractionActivityV10CodingKeys33_846D0A5282A3A64002ADFB6C0FB782F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 20CommunicationsUICore30TranslationInteractionActivityV15GroupActivities0fE0AASE
++ _associated conformance 20CommunicationsUICore30TranslationInteractionActivityV15GroupActivities0fE0AASe
++ _associated conformance 20CommunicationsUICore31CallScreeningTranscriptsServiceC14UserInputStateOSHAASQ
++ _block_copy_helper
++ _block_copy_helper.1
++ _block_copy_helper.14
++ _block_copy_helper.16
++ _block_copy_helper.18
++ _block_copy_helper.20
++ _block_copy_helper.30
++ _block_copy_helper.45
++ _block_copy_helper.5
++ _block_copy_helper.60
++ _block_descriptor
++ _block_descriptor.16
++ _block_descriptor.18
++ _block_descriptor.20
++ _block_descriptor.22
++ _block_descriptor.3
++ _block_descriptor.32
++ _block_descriptor.47
++ _block_descriptor.62
++ _block_descriptor.7
++ _block_destroy_helper
++ _block_destroy_helper.15
++ _block_destroy_helper.17
++ _block_destroy_helper.19
++ _block_destroy_helper.2
++ _block_destroy_helper.21
++ _block_destroy_helper.31
++ _block_destroy_helper.46
++ _block_destroy_helper.6
++ _block_destroy_helper.61
++ _bzero
++ _flat unique Sci_px7ElementSciRts_q_7FailureSciRtsXP
++ _flat unique So14TUFeatureFlags_p
++ _flat unique So15CNKeyDescriptor_p
++ _free
++ _get_enum_tag_for_layout_string 20CommunicationsUICore16CallProviderTypeO
++ _get_enum_tag_for_layout_string 20CommunicationsUICore19CallScreeningStatusO
++ _get_witness_table 7SwiftUI7ForEachVySay20CommunicationsUICore21FTMenuContextMenuViewV0hI4ItemVG10Foundation4UUIDVAA19_ConditionalContentVyAA0I0VyAA5LabelVyAA4TextVANyAA5ImageVAA05EmptyJ0VGGACySayAD0gK0CGAlA6ButtonVyAZGGGA4_GGAA0J0HPA7_AAA9_HPA6_AAA9_HPyHC_A4_AAA9_HPyHCHC_HC.24
++ _kLostModeChangedRestrictedNotification
++ _keypath_set.3Tm
++ _keypath_setTm
++ _malloc
++ _malloc_size
++ _memcpy
++ _memmove
++ _notify_cancel
++ _notify_get_state
++ _notify_register_check
++ _notify_register_dispatch
++ _objc_allocWithZone
++ _objc_autoreleaseReturnValue
++ _objc_msgSend
++ _objc_msgSendSuper2
++ _objc_opt_self
++ _objc_release
++ _objc_release_x10
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_release_x9
++ _objc_retain
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x1
++ _objc_retain_x19
++ _objc_retain_x2
++ _objc_retain_x20
++ _objc_retain_x21
++ _objc_retain_x22
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x26
++ _objc_retain_x27
++ _objc_retain_x28
++ _objc_retain_x8
++ _objectdestroy.10Tm
++ _objectdestroy.18Tm
++ _objectdestroy.2Tm
++ _objectdestroy.58Tm
++ _objectdestroy.62Tm
++ _objectdestroy.76Tm
++ _objectdestroyTm
++ _os_log_type_enabled
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_allocateGenericClassMetadata
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_checkMetadataState
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_cvw_instantiateLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getEnumCaseMultiPayload
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getGenericMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getOpaqueTypeConformance2
++ _swift_getSingletonMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initClassMetadata2
++ _swift_initStackObject
++ _swift_initStaticObject
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isUniquelyReferenced_nonNull_bridgeObject
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_makeBoxUnique
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_retain_n
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_stdlib_isStackAllocationSafe
++ _swift_storeEnumTagMultiPayload
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_create
++ _swift_task_dealloc
++ _swift_task_getMainExecutor
++ _swift_task_isCurrentExecutor
++ _swift_task_switch
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectUnownedDestroy
++ _swift_unknownObjectUnownedInit
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_updateClassMetadata2
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrow
++ _swift_willThrowTypedImpl
++ _symbolic $s11ActivityKit0A10AttributesP
++ _symbolic $s20CommunicationsUICore12CallProviderP
++ _symbolic $s20CommunicationsUICore13IconServicingP
++ _symbolic $s20CommunicationsUICore16MutableAudioCallP
++ _symbolic $s20CommunicationsUICore16RouteControllingP
++ _symbolic $s20CommunicationsUICore18FTMenuItemProviderP
++ _symbolic $s20CommunicationsUICore21CallScreeningOverrideP
++ _symbolic $s20CommunicationsUICore23ActivityWrapperProtocolP
++ _symbolic $s20CommunicationsUICore24AudioMuteServiceProtocolP
++ _symbolic $s20CommunicationsUICore24CallTranslationServicingP
++ _symbolic $s20CommunicationsUICore24FTMenuItemStateProvidingP
++ _symbolic $s20CommunicationsUICore25AudioRouteServiceProtocolP
++ _symbolic $s20CommunicationsUICore25ScreeningCaptionsProviderP
++ _symbolic $s20CommunicationsUICore28CallScreeningServiceProtocolP
++ _symbolic $s20CommunicationsUICore28LanguageAvailabilityProtocolP
++ _symbolic $s20CommunicationsUICore31PodcastRecordingRequestProtocolP
++ _symbolic $s20CommunicationsUICore33CallScreeningTranscriptsServicingP
++ _symbolic $s20CommunicationsUICore33TranslationInteractionControllingP
++ _symbolic $s20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic $s20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic $s20CommunicationsUICore9BasicCallP
++ _symbolic $s7SwiftUI4ViewP
++ _symbolic $sSY
++ _symbolic $ss12IdentifiableP
++ _symbolic $ss26ExpressibleByStringLiteralP
++ _symbolic $ss33ExpressibleByUnicodeScalarLiteralP
++ _symbolic $ss43ExpressibleByExtendedGraphemeClusterLiteralP
++ _symbolic 10Attributes_____Qz 20CommunicationsUICore23ActivityWrapperProtocolP
++ _symbolic 7ElementSciQyd__
++ _symbolic 7FailureSciQyd__
++ _symbolic B0
++ _symbolic BD
++ _symbolic G0R0_
++ _symbolic Ieg_
++ _symbolic SDySS_____G 20CommunicationsUICore27FTMenuItemProviderContainerC
++ _symbolic SDySS_____G 20CommunicationsUICore30LanguageSelectionDownloadModelC
++ _symbolic SDySi_____yx_GG ScS12ContinuationV
++ _symbolic SDy_____Sb8original_Sb10translatedtG s6UInt32V
++ _symbolic SDy__________G s6UInt32V 20CommunicationsUICore25CallTranslationTranscriptV
++ _symbolic SS
++ _symbolic SS16bundleIdentifier_t
++ _symbolic SS5title______4viewtSgIego_ 7SwiftUI7AnyViewV
++ _symbolic SS5title______4viewtSgIegr_ 7SwiftUI7AnyViewV
++ _symbolic SSSg
++ _symbolic SSSg7summary_t
++ _symbolic SaySo28_LTLanguageStatusObservationCGSg
++ _symbolic SaySo7TURouteCG
++ _symbolic SaySo9CNContactCG
++ _symbolic Say_____G 10Foundation6LocaleV
++ _symbolic Say_____G 20CommunicationsUICore10FTMenuItemC
++ _symbolic Say_____G 20CommunicationsUICore12WeakDelegate33_794E5A3136078D8D4D40DFBEB8BAB2CBLLC
++ _symbolic Say_____G 20CommunicationsUICore12WeakDelegate33_846D0A5282A3A64002ADFB6C0FB782F5LLC
++ _symbolic Say_____G 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic Say_____G 20CommunicationsUICore20SettingsPersonHandleV
++ _symbolic Say_____G 20CommunicationsUICore21FTMenuContextMenuViewV0dE4ItemV
++ _symbolic Say_____G 20CommunicationsUICore23CallScreeningTranscriptV
++ _symbolic Say_____G 20CommunicationsUICore30LanguageSelectionDownloadModelC
++ _symbolic Say_____G 7Combine14AnyCancellableC
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say______pG 20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic Say______pG 20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic Say______pG So15CNKeyDescriptorP
++ _symbolic Sb
++ _symbolic SbIegy_
++ _symbolic SbSg
++ _symbolic ScA_pSg
++ _symbolic ScPSg
++ _symbolic ScSySaySo28_LTLanguageStatusObservationCGSgG
++ _symbolic ScTy__________G 7Combine14AnyCancellableC s5NeverO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic Sccyyt______pG s5ErrorP
++ _symbolic Sd
++ _symbolic Shy_____G 7Combine14AnyCancellableC
++ _symbolic Si
++ _symbolic SiSg
++ _symbolic So11FTServerBagC
++ _symbolic So12TUCallCenterC
++ _symbolic So14CNContactStoreC
++ _symbolic So14CNLabeledValueC
++ _symbolic So14TUConversationCSgXw
++ _symbolic So14TUFeatureFlagsC
++ _symbolic So17AVCCaptionsClientCSg
++ _symbolic So17_LTLanguageStatusC
++ _symbolic So17_LTLanguageStatusCSg
++ _symbolic So20NSNotificationCenterC
++ _symbolic So29TUConversationActivitySessionCSg
++ _symbolic So6TUCallC
++ _symbolic So6TUCallCSgXw
++ _symbolic So8NSNumberCSg
++ _symbolic So8NSObjectC
++ _symbolic So8NSObjectCSg
++ _symbolic So9CNContactC
++ _symbolic So9CNContactCSg
++ _symbolic _____ 10Foundation16AttributedStringV
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 10Foundation6LocaleV
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 11TelephonyUI9TaskQueueC
++ _symbolic _____ 12CoreGraphics7CGFloatV
++ _symbolic _____ 15GroupActivities0A16SessionMessengerC
++ _symbolic _____ 18CommunicationTrust9BlockListC
++ _symbolic _____ 20CommunicationsUICore10AudioRouteV
++ _symbolic _____ 20CommunicationsUICore10CallFacadeC
++ _symbolic _____ 20CommunicationsUICore10CallStatusO
++ _symbolic _____ 20CommunicationsUICore10FTMenuItemC
++ _symbolic _____ 20CommunicationsUICore10FTMenuItemC12SymbolConfigV
++ _symbolic _____ 20CommunicationsUICore10FTMenuItemC30SecondaryViewPresentationStyleO
++ _symbolic _____ 20CommunicationsUICore10FTMenuItemC8IconTypeO
++ _symbolic _____ 20CommunicationsUICore11ContactKeysC
++ _symbolic _____ 20CommunicationsUICore11ParticipantV
++ _symbolic _____ 20CommunicationsUICore11StringDummy33_5859C44149DEFA644EBE5CBE4DBC65E7LLC
++ _symbolic _____ 20CommunicationsUICore12WeakDelegate33_794E5A3136078D8D4D40DFBEB8BAB2CBLLC
++ _symbolic _____ 20CommunicationsUICore12WeakDelegate33_846D0A5282A3A64002ADFB6C0FB782F5LLC
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV10BundleTypeO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV10BundleTypeO0A12UICodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV10BundleTypeO16SystemCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV9AnimationO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV9AnimationO0D19IterativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV9AnimationO0D20CumulativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14ActivitySymbolV9AnimationO14NoneCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____ 20CommunicationsUICore14SenderIdentityV
++ _symbolic _____ 20CommunicationsUICore15ActivityWrapperC
++ _symbolic _____ 20CommunicationsUICore15ColorComponentsV
++ _symbolic _____ 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLO
++ _symbolic _____ 20CommunicationsUICore15ContactsServiceC
++ _symbolic _____ 20CommunicationsUICore15FTMenuViewModelC
++ _symbolic _____ 20CommunicationsUICore15MockTranscripts33_C60C12309A0D8B4C6B24B2867827D647LLC
++ _symbolic _____ 20CommunicationsUICore16AudioMuteServiceC
++ _symbolic _____ 20CommunicationsUICore16CallCenterFacadeC
++ _symbolic _____ 20CommunicationsUICore16CallProviderTypeO
++ _symbolic _____ 20CommunicationsUICore16DeviceConditionsC
++ _symbolic _____ 20CommunicationsUICore17AudioRouteServiceC
++ _symbolic _____ 20CommunicationsUICore18ActivityLabelStyleO
++ _symbolic _____ 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____ 20CommunicationsUICore18ActivityLabelStyleO17PrimaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____ 20CommunicationsUICore18ActivityLabelStyleO18FacetimeCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____ 20CommunicationsUICore18ActivityLabelStyleO19SecondaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____ 20CommunicationsUICore18BlocklistViewModelC
++ _symbolic _____ 20CommunicationsUICore18FTMenuItemRegistryC
++ _symbolic _____ 20CommunicationsUICore19CallScreeningStatusO
++ _symbolic _____ 20CommunicationsUICore19LanguageDisplayNameV
++ _symbolic _____ 20CommunicationsUICore19ResourceBundleClass33_8E92376F0F5C36D11E88C838831E7D4ELLC
++ _symbolic _____ 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic _____ 20CommunicationsUICore20CallScreeningServiceV
++ _symbolic _____ 20CommunicationsUICore20ConversationObserverC
++ _symbolic _____ 20CommunicationsUICore20LanguageAssetManagerC
++ _symbolic _____ 20CommunicationsUICore20SettingsPersonHandleV
++ _symbolic _____ 20CommunicationsUICore20SettingsPersonHandleV0E4TypeO
++ _symbolic _____ 20CommunicationsUICore21FTMenuContextMenuViewV
++ _symbolic _____ 20CommunicationsUICore21FTMenuContextMenuViewV0dE4ItemV
++ _symbolic _____ 20CommunicationsUICore21PodcastRecordingErrorO
++ _symbolic _____ 20CommunicationsUICore22BlockUnblockControllerC
++ _symbolic _____ 20CommunicationsUICore22BlockUnblockControllerC16UnknownInitiatorV
++ _symbolic _____ 20CommunicationsUICore22CallTranslationServiceC
++ _symbolic _____ 20CommunicationsUICore22CaptionsClientDelegateC
++ _symbolic _____ 20CommunicationsUICore22PhoneLockStateObserverC
++ _symbolic _____ 20CommunicationsUICore22PushToTalkChannelStateO
++ _symbolic _____ 20CommunicationsUICore23CallScreeningTranscriptV
++ _symbolic _____ 20CommunicationsUICore23FTMenuItemStateProviderC
++ _symbolic _____ 20CommunicationsUICore23PodcastRecordingServiceC
++ _symbolic _____ 20CommunicationsUICore23RouteControllerDelegate33_958756A54F68EF1F0D6D0FD8C6158AC2LLC
++ _symbolic _____ 20CommunicationsUICore24CallTranslationRTTHelperC
++ _symbolic _____ 20CommunicationsUICore25CallTranslationTranscriptV
++ _symbolic _____ 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLO
++ _symbolic _____ 20CommunicationsUICore25DarwinNotificationWrapperC
++ _symbolic _____ 20CommunicationsUICore26LanguageSelectionViewModelC
++ _symbolic _____ 20CommunicationsUICore27FTMenuItemProviderContainerC
++ _symbolic _____ 20CommunicationsUICore27SettingsPersonListViewModelC
++ _symbolic _____ 20CommunicationsUICore29TranslationInteractionSessionC
++ _symbolic _____ 20CommunicationsUICore30CallTranslationCaptionsClientsC
++ _symbolic _____ 20CommunicationsUICore30IntelligenceActivityAttributesV
++ _symbolic _____ 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____ 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV
++ _symbolic _____ 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____ 20CommunicationsUICore30LanguageSelectionDownloadModelC
++ _symbolic _____ 20CommunicationsUICore30LocalizedDisplayNameComparatorV
++ _symbolic _____ 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____ 20CommunicationsUICore30TranslationInteractionActivityV10CodingKeys33_846D0A5282A3A64002ADFB6C0FB782F5LLO
++ _symbolic _____ 20CommunicationsUICore31CallScreeningActivityControllerC
++ _symbolic _____ 20CommunicationsUICore31CallScreeningActivityControllerC5ErrorV
++ _symbolic _____ 20CommunicationsUICore31CallScreeningTranscriptsServiceC
++ _symbolic _____ 20CommunicationsUICore31CallScreeningTranscriptsServiceC14UserInputStateO
++ _symbolic _____ 20CommunicationsUICore32TranslationInteractionControllerC
++ _symbolic _____ 20CommunicationsUICore9_StreamedC
++ _symbolic _____ 20CommunicationsUICore9_StreamedC5State33_72A0CBB5548B38C9BE00A5282A86989CLLV
++ _symbolic _____ 20LiveCommunicationKit6HandleV
++ _symbolic _____ 2os6LoggerV
++ _symbolic _____ 7SwiftUI13AnyShapeStyleV
++ _symbolic _____ 7SwiftUI4FontV
++ _symbolic _____ 7SwiftUI5ImageV
++ _symbolic _____ 7SwiftUI7AnyViewV
++ _symbolic _____ So15_LTOfflineStateV
++ _symbolic _____ So16os_unfair_lock_sV
++ _symbolic _____ So17AVCCaptionsReasonV
++ _symbolic _____ So22_LTTranslationTaskHintV
++ _symbolic _____ So23TUCallReceptionistStateV
++ _symbolic _____ So7CGPointV
++ _symbolic _____ s5Int32V
++ _symbolic _____ s6UInt32V
++ _symbolic _____17presentationStyle_SS5title______4viewtSgyc13evaluatedViewtSg 20CommunicationsUICore10FTMenuItemC30SecondaryViewPresentationStyleO 7SwiftUI03AnyF0V
++ _symbolic _____5local_AA6remotet 10Foundation6LocaleV
++ _symbolic _____5local_AA6remotetSg 10Foundation6LocaleV
++ _symbolic _____IeAgHr_ 7Combine14AnyCancellableC
++ _symbolic _____Iegn_ 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic _____IeyBy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____SaySo28_LTLanguageStatusObservationCGSg_____Xj r0_lSci_px7ElementRts_q_7FailureRtsXPXGMq s5NeverO
++ _symbolic _____Sg 10Foundation16AttributedStringV
++ _symbolic _____Sg 10Foundation20PersonNameComponentsV
++ _symbolic _____Sg 10Foundation3URLV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic _____Sg 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg 10Foundation6LocaleV6ScriptV
++ _symbolic _____Sg 10Foundation6LocaleV8LanguageV
++ _symbolic _____Sg 11ActivityKit0A5StateO
++ _symbolic _____Sg 15GroupActivities11ParticipantV
++ _symbolic _____Sg 16CallIntelligence20WaitOnHoldControllerC
++ _symbolic _____Sg 20CommunicationsUICore10AudioRouteV
++ _symbolic _____Sg 20CommunicationsUICore10CallFacadeC
++ _symbolic _____Sg 20CommunicationsUICore10FTMenuItemC8IconTypeO
++ _symbolic _____Sg 20CommunicationsUICore14ActivitySymbolV
++ _symbolic _____Sg 20CommunicationsUICore18ActivityLabelStyleO
++ _symbolic _____Sg 20CommunicationsUICore22BlockUnblockControllerC16UnknownInitiatorV
++ _symbolic _____Sg 20CommunicationsUICore23CallScreeningTranscriptV
++ _symbolic _____Sg 20CommunicationsUICore23RouteControllerDelegate33_958756A54F68EF1F0D6D0FD8C6158AC2LLC
++ _symbolic _____Sg 20CommunicationsUICore25DarwinNotificationWrapperC
++ _symbolic _____Sg 20CommunicationsUICore29TranslationInteractionSessionC
++ _symbolic _____Sg 20CommunicationsUICore30CallTranslationCaptionsClientsC
++ _symbolic _____Sg 7Combine14AnyCancellableC
++ _symbolic _____Sg 7SwiftUI4TextV
++ _symbolic _____Sg So9NSRunLoopC10FoundationE16SchedulerOptionsV
++ _symbolic _____Sg s6UInt32V
++ _symbolic _____SgXw 20CommunicationsUICore16AudioMuteServiceC
++ _symbolic _____SgXw 20CommunicationsUICore16DeviceConditionsC
++ _symbolic _____SgXw 20CommunicationsUICore17AudioRouteServiceC
++ _symbolic _____SgXw 20CommunicationsUICore22CallTranslationServiceC
++ _symbolic _____SgXw 20CommunicationsUICore22PhoneLockStateObserverC
++ _symbolic _____SgXw 20CommunicationsUICore23PodcastRecordingServiceC
++ _symbolic _____SgXw 20CommunicationsUICore25DarwinNotificationWrapperC
++ _symbolic _____SgXw 20CommunicationsUICore26LanguageSelectionViewModelC
++ _symbolic _____SgXw 20CommunicationsUICore29TranslationInteractionSessionC
++ _symbolic _____SgXw 20CommunicationsUICore30CallTranslationCaptionsClientsC
++ _symbolic _____SgXw 20CommunicationsUICore31CallScreeningTranscriptsServiceC
++ _symbolic _____SgXw 20CommunicationsUICore32TranslationInteractionControllerC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore22CallTranslationServiceC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore22PhoneLockStateObserverC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore23PodcastRecordingServiceC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore26LanguageSelectionViewModelC
++ _symbolic _____SgXwz_Xx 20CommunicationsUICore32TranslationInteractionControllerC
++ _symbolic _____Sg_ABt 10Foundation16AttributedStringV
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg_____Iegyr_ So23TUCallReceptionistStateV 20CommunicationsUICore31CallScreeningTranscriptsServiceC09UserInputC0O
++ _symbolic _____Xo 20CommunicationsUICore32TranslationInteractionControllerC
++ _symbolic ______AAt 11Translation20LanguageAvailabilityC6StatusO
++ _symbolic __________Iegnn_ 20CommunicationsUICore25CallTranslationTranscriptV 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic ___________t 10Foundation6LocaleV 11Translation20LanguageAvailabilityC6StatusO
++ _symbolic ___________t 20CommunicationsUICore25CallTranslationTranscriptV 15GroupActivities0F16SessionMessengerC14MessageContextV
++ _symbolic ___________tSg 10Foundation6LocaleV 11Translation20LanguageAvailabilityC6StatusO
++ _symbolic ______p 20CommunicationsUICore16MutableAudioCallP
++ _symbolic ______p 20CommunicationsUICore16RouteControllingP
++ _symbolic ______p 20CommunicationsUICore21CallScreeningOverrideP
++ _symbolic ______p 20CommunicationsUICore25ScreeningCaptionsProviderP
++ _symbolic ______p 20CommunicationsUICore28LanguageAvailabilityProtocolP
++ _symbolic ______p 20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic ______p 20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic ______p 20CommunicationsUICore9BasicCallP
++ _symbolic ______p So14TUFeatureFlagsP
++ _symbolic ______p So15CNKeyDescriptorP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pIegg_ 20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic ______pIegg_ 20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic ______pSg 20CommunicationsUICore18FTMenuItemProviderP
++ _symbolic ______pSg 20CommunicationsUICore33TranslationInteractionControllingP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______pSgIegg_ s5ErrorP
++ _symbolic ______pSgXw 20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic ______pSgXw 20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20CommunicationsUICore27FTMenuItemProviderContainerC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 20CommunicationsUICore30LanguageSelectionDownloadModelC
++ _symbolic _____ySaySo28_LTLanguageStatusObservationCGSg_G ScS12ContinuationV
++ _symbolic _____ySaySo28_LTLanguageStatusObservationCGSg__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySaySo28_LTLanguageStatusObservationCGSg__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____ySay_____G_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore10AudioRouteV s5NeverO
++ _symbolic _____ySay_____G__________y_____y__________y__________GGGG 7SwiftUI7ForEachV 20CommunicationsUICore10FTMenuItemC 10Foundation4UUIDV AA6ButtonV AA5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____ySay_____G__________y_____y_____y_____AEy__________GGAAySay_____GAD_____yALGGGAPGG 7SwiftUI7ForEachV 20CommunicationsUICore21FTMenuContextMenuViewV0hI4ItemV 10Foundation4UUIDV AA19_ConditionalContentV AA0I0V AA5LabelV AA4TextV AA5ImageV AA05EmptyJ0V AD0gK0C AA6ButtonV
++ _symbolic _____ySb_____G 7Combine19CurrentValueSubjectC s5NeverO
++ _symbolic _____ySb_____GSg 7Combine19CurrentValueSubjectC s5NeverO
++ _symbolic _____yShy_____G_G 7Combine9PublishedV9PublisherV 15GroupActivities11ParticipantV
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo14TUConversationC_____G 7Combine12AnyPublisherV s5NeverO
++ _symbolic _____ySo14TUConversationC_____G 7Combine18PassthroughSubjectC s5NeverO
++ _symbolic _____y_____5local_AB6remotetG s23_ContiguousArrayStorageC 10Foundation6LocaleV
++ _symbolic _____y_____5local_AB6remotetSg_____G 7Combine19CurrentValueSubjectC 10Foundation6LocaleV s5NeverO
++ _symbolic _____y_____G 11ActivityKit0A0C 20CommunicationsUICore012IntelligenceA10AttributesV
++ _symbolic _____y_____G 11ActivityKit0A7ContentV 20CommunicationsUICore012IntelligenceA10AttributesV0C5StateV
++ _symbolic _____y_____G 15GroupActivities0A7SessionC 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____y_____G s11_SetStorageC 15GroupActivities11ParticipantV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO0D12UICodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO16SystemCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO0G19IterativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO0G20CumulativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO14NoneCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore18ActivityLabelStyleO17PrimaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore18ActivityLabelStyleO18FacetimeCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore18ActivityLabelStyleO19SecondaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO0D12UICodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV10BundleTypeO16SystemCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO0G19IterativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO0G20CumulativeCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO10CodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore14ActivitySymbolV9AnimationO14NoneCodingKeys33_1C1ADD5736FA1074C8EC7647D1CD8188LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore15ColorComponentsV10CodingKeys33_9A0A46F4EC89355CA3E047632A56CFECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore18ActivityLabelStyleO10CodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore18ActivityLabelStyleO17PrimaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore18ActivityLabelStyleO18FacetimeCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore18ActivityLabelStyleO19SecondaryCodingKeys33_9D4C6301998B0A257535C32A0521A32DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore25CallTranslationTranscriptV10CodingKeys33_330E77AADF200FBE8ADBAF18DF3228C1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore30IntelligenceActivityAttributesV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore30IntelligenceActivityAttributesV12ContentStateV10CodingKeys33_64429CE667402C42B31BDC0CF977B5ADLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 20CommunicationsUICore30TranslationInteractionActivityV10CodingKeys33_846D0A5282A3A64002ADFB6C0FB782F5LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation6LocaleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 11ActivityKit0D19PresentationOptionsV0dF11DestinationO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore10AudioRouteV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore20SettingsPersonHandleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore23CallScreeningTranscriptV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20CommunicationsUICore31CallScreeningTranscriptsServiceC14UserInputStateO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____GSg 11ActivityKit0A7ContentV 20CommunicationsUICore012IntelligenceA10AttributesV0C5StateV
++ _symbolic _____y_____Sb8original_Sb10translatedtG s18_DictionaryStorageC s6UInt32V
++ _symbolic _____y_____Sg_____G 7Combine12AnyPublisherV 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore10AudioRouteV s5NeverO
++ _symbolic _____y_____Sg_____G 7Combine19CurrentValueSubjectC 20CommunicationsUICore25CallTranslationTranscriptV s5NeverO
++ _symbolic _____y______G 11ActivityKit0A0C0A12StateUpdatesV 20CommunicationsUICore012IntelligenceA10AttributesV
++ _symbolic _____y______G 15GroupActivities0A16SessionMessengerC13MessageStreamV 20CommunicationsUICore25CallTranslationTranscriptV
++ _symbolic _____y______G 15GroupActivities0A7SessionC5StateO 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____y______G 15GroupActivities0A7SessionC8SessionsV 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____y______So9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV So20NSNotificationCenterC10FoundationE9PublisherV
++ _symbolic _____y_______G 11ActivityKit0A0C0A12StateUpdatesV8IteratorV 20CommunicationsUICore012IntelligenceA10AttributesV
++ _symbolic _____y_______G 15GroupActivities0A7SessionC8SessionsV8IteratorV 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____y__________G 7Combine12AnyPublisherV 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y__________G 7Combine12AnyPublisherV So23TUCallReceptionistStateV s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y__________G 7Combine18PassthroughSubjectC 20CommunicationsUICore25CallTranslationTranscriptV s5NeverO
++ _symbolic _____y__________G 7SwiftUI19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____y__________G s18_DictionaryStorageC s6UInt32V 20CommunicationsUICore25CallTranslationTranscriptV
++ _symbolic _____y__________G s23AsyncCompactMapSequenceV So20NSNotificationCenterC10FoundationE13NotificationsC 20CommunicationsUICore19CallScreeningStatusO
++ _symbolic _____y___________G 7Combine10PublishersO10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV So23TUCallReceptionistStateV
++ _symbolic _____y___________tG s23_ContiguousArrayStorageC 10Foundation6LocaleV 11Translation20LanguageAvailabilityC6StatusO
++ _symbolic _____y__________y__________GG 7SwiftUI5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 20CommunicationsUICore37TranslationInteractionSessionDelegateP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 20CommunicationsUICore40TranslationInteractionControllerDelegateP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC s7CVarArgP
++ _symbolic _____y______ySb_____GG 7Combine10PublishersO16RemoveDuplicatesV AA19CurrentValueSubjectC s5NeverO
++ _symbolic _____y______ySb_____GG 7Combine10PublishersO4DropV AA19CurrentValueSubjectC s5NeverO
++ _symbolic _____y______y_Say_____G_____G_____y______y_____AEGACGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 20CommunicationsUICore31CallScreeningTranscriptsServiceC14UserInputStateO s5NeverO AC3MapV AA12AnyPublisherV So018TUCallReceptionistM0V
++ _symbolic _____y______y_____Sg_____GACG 7Combine10PublishersO10CompactMapV AA19CurrentValueSubjectC 20CommunicationsUICore25CallTranslationTranscriptV s5NeverO
++ _symbolic _____y______y_____Sg_____GSo9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y______y__________GG 7Combine10PublishersO16RemoveDuplicatesV AA18PassthroughSubjectC 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y______y__________GSo9NSRunLoopCG 7Combine10PublishersO9ReceiveOnV AA12AnyPublisherV 20CommunicationsUICore23CallScreeningTranscriptV s5NeverO
++ _symbolic _____y______y__________G_____G 7Combine10PublishersO3MapV AA12AnyPublisherV So23TUCallReceptionistStateV s5NeverO 20CommunicationsUICore31CallScreeningTranscriptsServiceC09UserInputH0O
++ _symbolic _____y______y___________GG 7Combine10PublishersO16RemoveDuplicatesV AC10CompactMapV So20NSNotificationCenterC10FoundationE9PublisherV So23TUCallReceptionistStateV
++ _symbolic _____y______y______y_Say_____G_____G_____y______y_____AFGADGGG 7Combine10PublishersO16RemoveDuplicatesV AC11ConcatenateV AC8SequenceV 20CommunicationsUICore31CallScreeningTranscriptsServiceC14UserInputStateO s5NeverO AC3MapV AA12AnyPublisherV So018TUCallReceptionistO0V
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____y______G_G 7Combine9PublishedV9PublisherV 15GroupActivities0D7SessionC5StateO 20CommunicationsUICore30TranslationInteractionActivityV
++ _symbolic _____y_____y__________y__________GGG 7SwiftUI6ButtonV AA5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV AA9EmptyViewV
++ _symbolic _____y_____y__________y__________GG_____ySay_____G__________yAHGGG 7SwiftUI4MenuV AA5LabelV AA4TextV AA19_ConditionalContentV AA5ImageV AA9EmptyViewV AA7ForEachV 20CommunicationsUICore10FTMenuItemC 10Foundation4UUIDV AA6ButtonV
++ _symbolic _____y_____y_____y_____AAy__________GG_____ySay_____G__________yAHGGGANG 7SwiftUI19_ConditionalContentV AA4MenuV AA5LabelV AA4TextV AA5ImageV AA9EmptyViewV AA7ForEachV 20CommunicationsUICore10FTMenuItemC 10Foundation4UUIDV AA6ButtonV
++ _symbolic _____y_____y_____y__________y__________GG_____ySay_____G__________yAIGGGAO_G 7SwiftUI19_ConditionalContentV7StorageO AA4MenuV AA5LabelV AA4TextV AC AA5ImageV AA9EmptyViewV AA7ForEachV 20CommunicationsUICore10FTMenuItemC 10Foundation4UUIDV AA6ButtonV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____y_____yx_GG 2os21OSAllocatedUnfairLockV 20CommunicationsUICore9_StreamedC5State33_72A0CBB5548B38C9BE00A5282A86989CLLV
++ _symbolic _____ytIegnr_ 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic _____yxG 20CommunicationsUICore31CallScreeningActivityControllerC
++ _symbolic _____yxGSgXw 20CommunicationsUICore9_StreamedC
++ _symbolic _____yxGSgXwz_x_SQRzlXX 20CommunicationsUICore9_StreamedC
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yytG 2os21OSAllocatedUnfairLockV
++ _symbolic _____yyt_____G s13ManagedBufferCsRi__rlE So16os_unfair_lock_sV
++ _symbolic q_
++ _symbolic qd__
++ _symbolic x
++ _symbolic xSg
++ _symbolic ySaySo7TURouteCG_ABSgtcSg
++ _symbolic ySaySo9CNContactCGc
++ _symbolic y___________SSSbtcSg s6UInt32V 10Foundation6LocaleV
++ _symbolic y_____c 20CommunicationsUICore19SettingsPersonEntryV
++ _symbolic y_____cSg 20CommunicationsUICore25CallTranslationTranscriptV
++ _symbolic ypSg
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIeAgHr_
++ _symbolic ytIegr_
++ _symbolic ytSg
++ _symbolic ytSgIeAgHr_
++ _symbolic yt______pIgrzo_ s5ErrorP
++ _symbolic yyc
++ _symbolic yycSg
++ _type_layout_string 20CommunicationsUICore10AudioRouteV
++ _type_layout_string 20CommunicationsUICore10FTMenuItemC12SymbolConfigV
++ _type_layout_string 20CommunicationsUICore14ActivitySymbolV
++ _type_layout_string 20CommunicationsUICore15ColorComponentsV
++ _type_layout_string 20CommunicationsUICore16CallProviderTypeO
++ _type_layout_string 20CommunicationsUICore19CallScreeningStatusO
++ _type_layout_string 20CommunicationsUICore19SettingsPersonEntryV
++ _type_layout_string 20CommunicationsUICore20CallScreeningServiceV
++ _type_layout_string 20CommunicationsUICore20SettingsPersonHandleV
++ _type_layout_string 20CommunicationsUICore21FTMenuContextMenuViewV
++ _type_layout_string 20CommunicationsUICore22BlockUnblockControllerC16UnknownInitiatorV
++ _type_layout_string 20CommunicationsUICore23ActivityWrapperProtocolRzAA012IntelligenceC10AttributesV0G0RtzlAA013CallScreeningC10ControllerC5ErrorVyx_G
++ _type_layout_string 20CommunicationsUICore23CallScreeningTranscriptV
++ _type_layout_string 20CommunicationsUICore25CallTranslationTranscriptV
++ _type_layout_string So16os_unfair_lock_sV
++ _type_layout_string So7CGPointV
+CStrings:
++ "#16@0:8"
++ "$__lazy_storage_$_isInLostMode"
++ "$__lazy_storage_$_isSetupAssistantRunning"
++ "$__lazy_storage_$_isSpringBoardPasscodeSubject"
++ "$__lazy_storage_$_routeDelegate"
++ "$__lazy_storage_$_waitOnHoldController"
++ "$defaultActor"
++ "%s Did not find call with identifier %s"
++ "%s has notified"
++ ", isTranslating: "
++ ", originalText: "
++ ", translatedText: "
++ ".cxx_destruct"
++ "@\"NSString\"16@0:8"
++ "@16@0:8"
++ "@24@0:8:16"
++ "@24@0:8@\"NSCoder\"16"
++ "@24@0:8@16"
++ "@24@0:8@?16"
++ "@24@0:8^{_NSZone=}16"
++ "@32@0:8:16@24"
++ "@40@0:8:16@24@32"
++ "ADD_BLOCKED_CONTACT"
++ "ADD_PHONE_OR_EMAIL"
++ "AVCCaptionsClientDelegate"
++ "Already requested remote transcripts"
++ "B16@0:8"
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B24@0:8@16"
++ "BLOCKED_CONTACTS"
++ "CALL_RECORDING_PRIMARY_SUBTITLE"
++ "CALL_RECORDING_SECONDARY_SUBTITLE"
++ "CALL_SCREENING_MORE_INFO_%@"
++ "CALL_SCREENING_MORE_INFO_PHONE"
++ "CALL_SCREENING_REPLY_ONE"
++ "CALL_SCREENING_REPLY_THREE"
++ "CALL_SCREENING_REPLY_TWO"
++ "CALL_SCREENING_SUMMARY_TITLE"
++ "CALL_TRANSLATION_START_DISCLOSURE_V2"
++ "CCFTMenuItemRegistry"
++ "CHINESE_MANDARIN"
++ "CNKeyDescriptor"
++ "CUICPhoneLockStateObserver"
++ "CallScreeningActivityController - Ending activity %s"
++ "CallScreeningActivityController - Stopping all activities with IntelligenceActivityAttributes"
++ "CallScreeningTranscriptsService creating userInputStatePublisher"
++ "CallScreeningTranscriptsService publishing %s for %s"
++ "CallScreeningTranscriptsServicing cannot publish receptionistState change for object %s"
++ "CallScreeningTranscriptsServicing publishing receptionistState change for call %@"
++ "CallTranslationInteraction"
++ "CallTranslationLanguageSelection"
++ "CallTranslationService: init"
++ "CallTranslationService: invalid call"
++ "Cannot update activity that is not started"
++ "Captions %s disabled: %{bool}d; error: %@"
++ "Captions %s enabled: %{bool}d; error: %@"
++ "Captions %s identifier: %u text: %s updates: %@"
++ "Captions %s started for reason: %s"
++ "Captions %s stopped for reason: %s"
++ "Captions server die %s"
++ "Clear activitySession"
++ "Clear custom item providers for %s"
++ "CommunicationsUICore.AudioRouteService"
++ "CommunicationsUICore.CallTranslationService"
++ "CommunicationsUICore.CaptionsClientDelegate"
++ "CommunicationsUICore.ConversationObserver"
++ "CommunicationsUICore.DarwinNotificationWrapper"
++ "CommunicationsUICore.TranslationInteractionController"
++ "CommunicationsUICore/CallScreeningActivityController.swift"
++ "CommunicationsUICore/CallTranslationService.swift"
++ "Couldn't find call"
++ "Couldn't find translation session"
++ "Create initial script: %{private}s"
++ "Created Downlink Captions Clients"
++ "Created Uplink Captions Clients"
++ "Creating translation interaction sesion for group session: %s"
++ "Current call is ended"
++ "DarwinNotification"
++ "Delay sendReceptionistReply"
++ "Delay startReceptionistReply"
++ "Didn't create interactionController for call %s"
++ "Do not start translation session because call is inactive"
++ "FTUserScore"
++ "Failed to begin with error: %@"
++ "Failed to creat the activity"
++ "Failed to fetch blocklist contacts %s"
++ "Failed to fetch blocklist handles %s"
++ "Failed to fetch unified contact with identifier: %s error: %s"
++ "Failed to observe %s"
++ "Failed to observe PhoneLockState with status %{public}u"
++ "Failed to send message error: %@"
++ "Fatal error"
++ "Gets interaction session for group session: %s"
++ "Group session is not in joined state. Won't be able to leave."
++ "I'm planning to travel to Kyoto with my friends next month, and I'm really looking forward to visiting historic temples and beautiful gardens."
++ "Incorrect actor executor assumption; Expected same executor as "
++ "Initiator stops translation, receiver also needs to stop the transcripts"
++ "IntelligenceActivityAttributes(title: "
++ "IntelligenceActivityAttributes.ContentState(message character count: "
++ "IntelligenceActivityAttributes.ContentState(message: "
++ "Invalid number of keys found, expected one."
++ "Invalidating translation interaction session: %s"
++ "Join translation session, since translation has started locally."
++ "Joining group session for telephony."
++ "Joining group session upon session state change."
++ "Joining session for telephony call."
++ "LIVE_CAPTIONS_PRIMARY_SUBTITLE"
++ "LIVE_CAPTIONS_SECONDARY_SUBTITLE"
++ "LIVE_REPLY_INFO_PHONE"
++ "LIVE_REPLY_INFO_PHONE_%@"
++ "LIVE_TRANSLATION"
++ "LIVE_TRANSLATION_DESCRIPTION"
++ "LVMEverywhere"
++ "LanguageSelection"
++ "Leaving group session."
++ "MANDARIN_SIMPLIFIED_SUBTITLE"
++ "MANDARIN_TRADITIONAL_SUBTITLE"
++ "More_ContactCard"
++ "More_ScreenSharing"
++ "NSCoding"
++ "NSCopying"
++ "NSObject"
++ "NSSecureCoding"
++ "No activitySession"
++ "Not able to find conversation. Return."
++ "Not able to find downlink translation client identifier"
++ "Not able to find locale for captions client"
++ "Not able to find uplink translation client identifier"
++ "Not able to join conversation. Missing translation session."
++ "Not able to start transcripts session"
++ "Not able to start translation. %s"
++ "Not able to stop translation. %@. final state: %{bool}d"
++ "Not creating new captions clients."
++ "Not handling unexpected providers."
++ "Not starting translation session because of invalid conversation/active remote participants"
++ "Not starting translation session because remote doesn't support translation"
++ "Not starting translation session for telephony call because remote doesn't support translation"
++ "Notify remote has started translation."
++ "Observing translation session. created locally: %{bool}d"
++ "Overriding call screening status with %s"
++ "Participants changed to %ld for session %s"
++ "PodcastRecording"
++ "Preferred languages: %s, possibleLanguges.count %ld, availableLanguage count: %ld, possibleLanguages: %s"
++ "Q16@0:8"
++ "Querying into CommTrust Blocklist for contacts..."
++ "Querying into CommTrust Blocklist for handles..."
++ "Receive assistent message: %{private}s %s"
++ "Receive reasons for calling response: %s"
++ "Receive summary message: %{private}s %d"
++ "Receive transcripts: %s"
++ "Recieved Activity observation ending with state update: %s"
++ "Recieved Activity state update: %s: %s"
++ "Recieved Activity: %s"
++ "Register custom item providers for %s"
++ "Remote is trying to end with existing translation. Trying to ensure we respect local state."
++ "Remote is trying to start with existing translation. What to do?"
++ "Remote transcripts already stopped"
++ "Request FaceID"
++ "Request download assets for %s"
++ "Request to get remote transcripts, but translation starts locally."
++ "Requesting Activity with contentState: %s and with attrbutes: %s"
++ "Requesting to start a podcast recording session."
++ "Requesting to stop a podcast recording session."
++ "SCREEN_SHARE_MENU_ITEM_SUBTITLE"
++ "SHARE_PLAY_MENU_ITEM_SUBTITLE"
++ "Session state changed to %s"
++ "ShowRemoteTranscripts"
++ "Skip participants update because we have not joined."
++ "Skipping empty captions %s %s"
++ "Spring Board has updated value to: %{bool}d"
++ "Start captions clients"
++ "Start translation %s -> %s"
++ "Stop Translation"
++ "Stop captions clients"
++ "Successfully started podcast recording"
++ "Successfully stopped podcast recording"
++ "T#,R"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "TB,R"
++ "TB,R,N"
++ "TQ,R"
++ "TTRBannerEnabled"
++ "TUCallTranslationStateChanged"
++ "TUConversationManagerDelegate"
++ "TUFeatureFlags"
++ "TURouteController pickedRoute is nil"
++ "TURouteControllerDelegate"
++ "Translation already started. Remote start: %{bool}d"
++ "Translation already stopped. Remote start: %{bool}d"
++ "Translation has started in remote"
++ "Translation session cancelled."
++ "TranslationTranscripts"
++ "Trying to stop translation without translation session."
++ "UNBLOCK_SWIPE_ACTION"
++ "UUID"
++ "Unable to get SpringBoard passcode lock state: result = %s"
++ "Unable to get token to check if SpringBoard is passcode locked: result = %s"
++ "Unable to start podcast recording: %s"
++ "Unable to stop podcast recording: %s"
++ "Unblock unknown participants %s"
++ "Updating Activity(%s) with contentState: %s"
++ "User defaults set to locale identifier %s"
++ "Vv16@0:8"
++ "WOH_HOLD_CALL_SUBTITLE"
++ "WOH_HOLD_CALL_TITLE"
++ "Waiting for group session to form"
++ "Wow, that sounds great! The temples and gardens in Kyoto are really famous. Do you have any specific places you want to visit?"
++ "[%s] %s: Cannot update activity that is not started"
++ "[%s] %s: Failed to start the Call Screening Live Activity"
++ "[%s] %s: Requesting Call Screening Live Activity."
++ "[%s] %s: Started Call Screening Live Activity"
++ "[%s] %s: currentActivity does not equal the activity we want to update."
++ "[%s] %s:Updated Call Screening Live Activity %s"
++ "[%s]: Block unknown participants %s"
++ "[%s]: Report spam"
++ "[%s]: blocking phoneNumbers %s \n\n emailAddreses: %s"
++ "[%s]: calling report spam handler"
++ "[%s]: has initiator, checking if contact"
++ "[%s]: known initiator"
++ "[%s]: new canReportSpam=%{bool}d"
++ "[%s]: no initiator"
++ "[%s]: unknown initiator"
++ "[%s]: updating hasReportedSpam"
++ "^{_NSZone=}16@0:8"
++ "_$observationRegistrar"
++ "_TtC20CommunicationsUICore10CallFacade"
++ "_TtC20CommunicationsUICore10FTMenuItem"
++ "_TtC20CommunicationsUICore11ContactKeys"
++ "_TtC20CommunicationsUICore15ActivityWrapper"
++ "_TtC20CommunicationsUICore15ContactsService"
++ "_TtC20CommunicationsUICore15FTMenuViewModel"
++ "_TtC20CommunicationsUICore16AudioMuteService"
++ "_TtC20CommunicationsUICore16CallCenterFacade"
++ "_TtC20CommunicationsUICore16DeviceConditions"
++ "_TtC20CommunicationsUICore17AudioRouteService"
++ "_TtC20CommunicationsUICore18BlocklistViewModel"
++ "_TtC20CommunicationsUICore20ConversationObserver"
++ "_TtC20CommunicationsUICore20LanguageAssetManager"
++ "_TtC20CommunicationsUICore22BlockUnblockController"
++ "_TtC20CommunicationsUICore22CallTranslationService"
++ "_TtC20CommunicationsUICore22CaptionsClientDelegate"
++ "_TtC20CommunicationsUICore23FTMenuItemStateProvider"
++ "_TtC20CommunicationsUICore23PodcastRecordingService"
++ "_TtC20CommunicationsUICore24CallTranslationRTTHelper"
++ "_TtC20CommunicationsUICore25DarwinNotificationWrapper"
++ "_TtC20CommunicationsUICore26LanguageSelectionViewModel"
++ "_TtC20CommunicationsUICore27FTMenuItemProviderContainer"
++ "_TtC20CommunicationsUICore27SettingsPersonListViewModel"
++ "_TtC20CommunicationsUICore29TranslationInteractionSession"
++ "_TtC20CommunicationsUICore30CallTranslationCaptionsClients"
++ "_TtC20CommunicationsUICore30LanguageSelectionDownloadModel"
++ "_TtC20CommunicationsUICore31CallScreeningTranscriptsService"
++ "_TtC20CommunicationsUICore32TranslationInteractionController"
++ "_TtC20CommunicationsUICoreP33_5859C44149DEFA644EBE5CBE4DBC65E711StringDummy"
++ "_TtC20CommunicationsUICoreP33_794E5A3136078D8D4D40DFBEB8BAB2CB12WeakDelegate"
++ "_TtC20CommunicationsUICoreP33_846D0A5282A3A64002ADFB6C0FB782F512WeakDelegate"
++ "_TtC20CommunicationsUICoreP33_8E92376F0F5C36D11E88C838831E7D4E19ResourceBundleClass"
++ "_TtC20CommunicationsUICoreP33_958756A54F68EF1F0D6D0FD8C6158AC223RouteControllerDelegate"
++ "_TtC20CommunicationsUICoreP33_C60C12309A0D8B4C6B24B2867827D64715MockTranscripts"
++ "_availableLanguages"
++ "_customEditMode"
++ "_deleteEntryAction"
++ "_dismissOnTap"
++ "_downloadSize"
++ "_entries"
++ "_hasReportedSpam"
++ "_icon"
++ "_isDefaultModel"
++ "_isPresentingSecondaryView"
++ "_isReady"
++ "_isSessionActive"
++ "_items"
++ "_knownPersonListViewModel"
++ "_presentContactPicker"
++ "_progress"
++ "_rowAction"
++ "_secondaryView"
++ "_state"
++ "_stopAction"
++ "_stopTitle"
++ "_subEntryText"
++ "_subtitle"
++ "_suggestedLanguages"
++ "_title"
++ "_titleBadge"
++ "_unknownContacts"
++ "_unknownPersonListViewModel"
++ "_wantsToDismiss"
++ "aTVHandoff"
++ "acceptedContactsLabelsEnabled"
++ "activeConversationForCall:"
++ "activeParticipentUpdateSubject"
++ "activeRemoteParticipants"
++ "activity"
++ "activityIdentifier"
++ "activityObserver"
++ "activitySession"
++ "addDelegate:"
++ "addDelegate:queue:"
++ "addEntryAction"
++ "addEntryText"
++ "afbEnabled"
++ "announceCalls"
++ "answeringMachineStreamToken"
++ "appProtectionEnabled"
++ "appleAccountRebrandEnabled"
++ "areAuxiliaryRoutesAvailable"
++ "assistantName"
++ "aswanEnabled"
++ "audioCallTranslationEnabled"
++ "audioCallUIModernizationEnabled"
++ "automaticCallActivationDisabled"
++ "autorelease"
++ "avLessSharePlayEnabled"
++ "avMode"
++ "availableLocaleIdentifiers"
++ "avcCameraSelectionEnabled"
++ "betterBlockingEnabled"
++ "biometryType"
++ "blockListSyncingEnabled"
++ "blockUnknownParticipant(_:)"
++ "blockUnknownParticipants()"
++ "boolValue"
++ "bottomDivider"
++ "btScanAbstraction"
++ "bundleForClass:"
++ "call"
++ "callCenter"
++ "callConnectHapticsEnabled"
++ "callEndSpamUIEnhancementEnabled"
++ "callExperiencePhoneAppEnabled"
++ "callExperienceVoicemailDetailsEnabled"
++ "callGroupUUID"
++ "callHistorySearchEnabled"
++ "callManagementMuteControl"
++ "callManagerEnabled"
++ "callRecording"
++ "callRecordingEnabled"
++ "callRemindersEnabled"
++ "callScreeningEnabled"
++ "callScreeningEnabledM3"
++ "callScreeningRTTEnabled"
++ "callStatus"
++ "callTranscriptionExpansionEnabled"
++ "callTranscriptionGASRExpansionEnabled"
++ "callTranscriptionGASRMigrationEnabled"
++ "callUUID"
++ "callWithUniqueProxyIdentifier:"
++ "callerIDSyncMacEnabled"
++ "callsBusinessMetadataQuery"
++ "canEvaluatePolicy:error:"
++ "cancel"
++ "cancellables"
++ "capabilities"
++ "captionDraggingEnabled"
++ "captions.bubble.fill"
++ "captionsClient:didChangeSourceLocale:"
++ "captionsClient:didConfigureCaptionsWithError:"
++ "captionsClient:didDetectGibberish:"
++ "captionsClient:didDisableCaptions:error:"
++ "captionsClient:didEnableCaptions:error:"
++ "captionsClient:didProduceLanguageHypothesis:"
++ "captionsClient:didStartCaptioningWithReason:"
++ "captionsClient:didStopCaptioningWithReason:"
++ "captionsClient:didStopLanguageDetectorWithError:"
++ "captionsClient:didUpdateCaptions:source:"
++ "captionsProvider"
++ "captionsServerDidDie:"
++ "carPlayBannersEnabled"
++ "civicBlurAvatarsEnabled"
++ "civicBlurPosterEnabled"
++ "class"
++ "collaborateTogetherEnabled"
++ "com.apple.CommunicationUICore"
++ "com.apple.CommunicationsUI"
++ "com.apple.calls.communicationsUICore"
++ "com.apple.communicationuicore"
++ "com.apple.springboard.passcodeLockedOrBlocked"
++ "communicationDetailsEnabled"
++ "communicationTrustAdoption"
++ "communicationsUI"
++ "completions"
++ "configureCaptions:"
++ "conformsToProtocol:"
++ "contactForDestinationId:"
++ "contactForIdentifier:keysToFetch:"
++ "contactIdentifier"
++ "contactIdentifiers"
++ "contactStore"
++ "contactWithDisplayName:handleStrings:"
++ "contacts"
++ "contactsIntroductionsEnabled"
++ "continuityCaptureEnabled"
++ "continuityEmergencyMultiDeviceDiscoveryEnabled"
++ "controlMessageOverQREnabled"
++ "controller"
++ "controller: remoteEndsTranslation"
++ "conversation"
++ "conversationHandoffEnabled"
++ "conversationManager"
++ "conversationManager:activeRemoteParticipantsChangedForConversation:"
++ "conversationManager:activeRemoteParticipantsChangedForConversation:fromOldConversation:"
++ "conversationManager:activitySessionsChangedForConversation:"
++ "conversationManager:activitySessionsChangedForConversation:fromOldConversation:"
++ "conversationManager:addedActiveConversation:"
++ "conversationManager:avModeChangedForConversation:"
++ "conversationManager:avModeChangedForConversation:fromOldConversation:"
++ "conversationManager:cameraMixedWithScreenDidChangeForConversation:"
++ "conversationManager:cameraMixedWithScreenDidChangeForConversation:fromOldConversation:"
++ "conversationManager:changedActivityAuthorizationForBundleIdentifier:"
++ "conversationManager:collaborationChanged:forConversation:collaborationState:"
++ "conversationManager:conversation:addedMembersLocally:"
++ "conversationManager:conversation:buzzedMember:"
++ "conversationManager:conversation:didChangeSceneAssociationForActivitySession:"
++ "conversationManager:conversation:didChangeStateForActivitySession:"
++ "conversationManager:conversation:launchStateChanged:forActivitySession:"
++ "conversationManager:conversation:participant:addedCollaborationNotice:"
++ "conversationManager:conversation:participant:addedNotice:"
++ "conversationManager:conversation:receivedActivitySessionEvent:"
++ "conversationManager:conversation:requestedScreenShareForParticipant:"
++ "conversationManager:conversation:screenSharingChangedForParticipant:"
++ "conversationManager:conversation:updatedMessagesGroupPhoto:"
++ "conversationManager:conversationUpdatedMessagesGroupName:"
++ "conversationManager:conversationUpdatedMessagesGroupName:fromOldConversation:"
++ "conversationManager:conversationUpdatedMessagesGroupUUID:"
++ "conversationManager:didChangeActivatedLinks:"
++ "conversationManager:didChangeConversationAdvertisement:"
++ "conversationManager:handoffEligibilityChangedForConversation:"
++ "conversationManager:handoffEligibilityChangedToConversation:fromPreviousConversation:"
++ "conversationManager:ignoreLMIRequestsChangedForConversation:"
++ "conversationManager:kickedMembersChangedForConversation:"
++ "conversationManager:kickedMembersChangedForConversation:fromOldConversation:"
++ "conversationManager:letMeInRequestStateChangedForConversation:"
++ "conversationManager:letMeInRequestStateChangedForConversation:fromOldConversation:"
++ "conversationManager:linkChangedForConversation:"
++ "conversationManager:linkChangedForConversation:fromOldConversation:"
++ "conversationManager:linkInvitedMemberHandlesChangedForConversation:"
++ "conversationManager:linkInvitedMemberHandlesChangedForConversation:fromOldConversation:"
++ "conversationManager:localParticipantClusterDidChangeForConversation:"
++ "conversationManager:localParticipantClusterDidChangeForConversation:fromOldConversation:"
++ "conversationManager:localVideoToggledForConversation:"
++ "conversationManager:localVideoToggledForConversation:fromOldConversation:"
++ "conversationManager:migratingFromConversation:toConversation:"
++ "conversationManager:nearbySharePlayToggledForConversation:"
++ "conversationManager:nearbySharePlayToggledForConversation:fromOldConversation:"
++ "conversationManager:oneToOneModeChangedForConversation:"
++ "conversationManager:oneToOneModeChangedForConversation:fromOldConversation:"
++ "conversationManager:otherInvitedHandlesChangedForConversation:"
++ "conversationManager:otherInvitedHandlesChangedForConversation:fromOldConversation:"
++ "conversationManager:pendingMembersChangedForConversation:"
++ "conversationManager:pendingMembersChangedForConversation:fromOldConversation:"
++ "conversationManager:presentationContextChangedForConversation:"
++ "conversationManager:presentationContextChangedForConversation:fromOldConversation:"
++ "conversationManager:rejectedMembersChangedForConversation:"
++ "conversationManager:rejectedMembersChangedForConversation:fromOldConversation:"
++ "conversationManager:remoteMembersChangedForConversation:"
++ "conversationManager:remoteMembersChangedForConversation:fromOldConversation:"
++ "conversationManager:remoteScreenShareAttributesChanged:isLocallySharing:"
++ "conversationManager:remoteScreenShareEndedWithReason:"
++ "conversationManager:removedActiveConversation:"
++ "conversationManager:resolvedAudioVideoModeChangedForConversation:"
++ "conversationManager:resolvedAudioVideoModeChangedForConversation:fromOldConversation:"
++ "conversationManager:screenSharingAvailableChanged:"
++ "conversationManager:screenSharingRequestsChangedForConversation:fromOldConversation:"
++ "conversationManager:screeningChangedForConversation:"
++ "conversationManager:sharePlayAvailableChanged:"
++ "conversationManager:stateChangedForConversation:"
++ "conversationManager:stateChangedForConversation:fromOldConversation:"
++ "conversationManager:systemActivitySessionsChangedForConversation:"
++ "conversationManager:systemActivitySessionsChangedForConversation:fromOldConversation:"
++ "conversationManager:trackedPendingMember:forConversationLink:"
++ "conversationManager:updatedIncomingPendingConversations:"
++ "conversationObserver"
++ "conversationOneToOneModeEnabled"
++ "conversationsChangedForConversationManager:"
++ "copyWithZone:"
++ "currentActivity"
++ "currentActivity does not equal the activity given"
++ "currentAudioAndVideoCallCount"
++ "currentDevice"
++ "currentStartSessionTask"
++ "currentTelephonyConversation"
++ "currentTranscripts"
++ "currentTranslateToLocale"
++ "dealloc"
++ "debugDescription"
++ "defaultAppsEnabled"
++ "defaultCallingAppsGracefulFallbackEnabled"
++ "defaultCenter"
++ "defaultLocalScript"
++ "defaultRemoteScript"
++ "defaultTranslateToLocale"
++ "deinit session"
++ "delayStartReply"
++ "delegate"
++ "deleteBlocklistEntry %s"
++ "deleteEntryAction"
++ "deleteText"
++ "description"
++ "descriptorForRequiredKeys"
++ "descriptorForRequiredKeysForStyle:"
++ "descriptorForUsedKeys"
++ "deskView"
++ "deviceExpertMigrationEnabled"
++ "deviceType"
++ "dialerInterceptEnabled"
++ "digits"
++ "displayContext"
++ "displayName"
++ "downlink: transcripts: %s, message: %s"
++ "downlinkCaptions"
++ "downlinkTranslatorIdentifier"
++ "downloadSize"
++ "downloadTranslationAssets:useCellular:showDownloadCompleteNotification:completion:"
++ "dualSIMRingtoneEnabled"
++ "emailAddresses"
++ "embedSwapBannerEnabled"
++ "enableCaptions:"
++ "encodeWithCoder:"
++ "enhancedCallRecordingEnabled"
++ "evaluatePolicy:options:reply:"
++ "expanseBTSwitchingEnabled"
++ "expanseEnabled"
++ "faceTimeMessageStoreOnMacEnabled"
++ "fail to evaluate policy %s"
++ "failed to get interactionController"
++ "favoritesCallTapTargetsEnabled"
++ "featureFlags"
++ "features"
++ "filterGFTaaSCalls"
++ "found previous remote session, need to notify delegate"
++ "frsvEnabled"
++ "ftAppDeletionEnabled"
++ "ftlcGeneralASRExpansionEnabled"
++ "ftlcGeneralASRMigrationEnabled"
++ "ftlcPrimaryLanguageControlledEnabled"
++ "ftvSpatialAudioEnabled"
++ "fullScreenVoicemailDetailsEnabled"
++ "gameCenterSharePlayIntegration"
++ "gameControllerSystemButton"
++ "gameOverlayEnabled"
++ "gelatoEnabled"
++ "get remote message"
++ "getRed:green:blue:alpha:"
++ "gftDowngradeToOneToOne"
++ "gftOnWatch"
++ "greenTeaLagunaEnabled"
++ "greenTeaLinksEnabled"
++ "group session is not in waiting state, return"
++ "groupConversations"
++ "groupFacetimeAsAServiceEnabled"
++ "groupSession"
++ "groupUUID"
++ "handler"
++ "hasSubscribed"
++ "hash"
++ "iPadCallRecordingEnabled"
++ "id"
++ "identifier"
++ "ignore activity updates. conversation group uuid didn't match to current call. %s. group uuid: %s"
++ "ignore activity updates. not able to find current call. %s."
++ "imageNamed:inBundle:"
++ "imageURL"
++ "incomingBannerOverSixUpEnabled"
++ "increaseCallHistoryEnabled"
++ "init"
++ "init TranslationInteractionController for call %s"
++ "init TranslationInteractionSession for %s"
++ "init()"
++ "init(contacts:initiatorHandleValue:initiatorName:reportSpam:safetyCheckFetchSharing:safetyCheckPresent:)"
++ "initWithBool:"
++ "initWithCall:"
++ "initWithCall:localLocale:remoteLocale:translationLinks:remoteAudioMode:translationMode:"
++ "initWithCall:mode:isInitiatedLocally:"
++ "initWithCoder:"
++ "initWithConfiguration:"
++ "initWithConversation:originatingUIType:"
++ "initWithDelegate:translatorIdentifier:"
++ "initWithDigits:countryCode:"
++ "initWithInteger:"
++ "initWithSuiteName:"
++ "initWithTaskHint:useDedicatedMachPort:observations:"
++ "initialMessage"
++ "initialUpdateTask"
++ "initial_message_assistant"
++ "initiatorName"
++ "intelligentRoutingEnabled"
++ "interactionController"
++ "interactionController is nil"
++ "invalid interactionController"
++ "invalid session, return"
++ "invalid tuCall status"
++ "invalid tuCall, return"
++ "isAddCallAllowed"
++ "isAddPersonEnabled"
++ "isAuxiliary"
++ "isBackedByGroupSession"
++ "isConversation"
++ "isCurrentlyPicked"
++ "isDefaultRoute"
++ "isDownlink"
++ "isDualSimParityEnabled"
++ "isEligibleForScreening"
++ "isEqual:"
++ "isFaceTimeProvider"
++ "isFocusBasedSimSilencingEnabled"
++ "isGuest"
++ "isHostedOnCurrentDevice"
++ "isIncomingCommunicationBlockedForEmailAddress:"
++ "isIncomingCommunicationBlockedForPhoneNumber:"
++ "isKindOfClass:"
++ "isLocallyInitiated"
++ "isLocked"
++ "isMainThread"
++ "isMemberOfClass:"
++ "isOneToOneFaceTimeMyself"
++ "isPodcastRecordingAllowed"
++ "isProxy"
++ "isRTT"
++ "isReceiver"
++ "isRecommended"
++ "isRecording"
++ "isRecordingAllowed"
++ "isRecordingPodcast"
++ "isRemoteCallControlOnWatchEnabled"
++ "isRemoteStartedSubject"
++ "isScreening"
++ "isScreeningDueToUserInteraction"
++ "isSharePlayCapable"
++ "isShowingRemoteLocale"
++ "isSpeaker"
++ "isTTY"
++ "isTelephonyProvider"
++ "isTranslationAvailable"
++ "isTranslationStartedSubject"
++ "isUplinkMuted"
++ "isVideo"
++ "isWiredHeadphones"
++ "isWiredHeadset"
++ "isWirelessHeadset"
++ "joinConversation with joinRequest %@"
++ "joinConversationWithRequest:"
++ "junkFilteringEnabled"
++ "keepCallsEnabled"
++ "keys"
++ "lagunaAudioCallsEnabled"
++ "lagunaContinuityCompanionModeEnabled"
++ "lagunaContinuityCompanionModeMessageSupport"
++ "lagunaEnabled"
++ "lagunaIncomingCallsEnabled"
++ "lagunaLiveCaptionsEnabled"
++ "lagunaPullBackEnabled"
++ "languageAvailability"
++ "languageManager"
++ "languagePairSubject"
++ "lastReceptionistMessage"
++ "linkNamesEnabled"
++ "listenWith:"
++ "liveCaptions"
++ "liveIDLookupEnabled"
++ "livePhotoDonation"
++ "livePhotoXPCServiceEnabled"
++ "liveReply"
++ "liveTranslation"
++ "localLocale"
++ "locale"
++ "localizedStringForRegion:context:short:"
++ "locally created systemActivitySessionsChangedFor %s"
++ "lock"
++ "lockEventNotification"
++ "lockEventNotificationName"
++ "lockStateNotification"
++ "logger"
++ "lostModeIsActive"
++ "lostModeNotification"
++ "lvmExpansionLiveOnEnabled"
++ "lvmGeneralASRExpansionEnabled"
++ "lvmGeneralASRMigrationEnabled"
++ "macCallRecordingEnabled"
++ "mainRunLoop"
++ "mediaTokensEnabled"
++ "memojiCameraEnabled"
++ "menuItemProviders"
++ "messageSubscription"
++ "mochiEnabled"
++ "mockTranscripts"
++ "modelMap"
++ "mooseEnabled"
++ "muteSubject"
++ "name"
++ "nameAndPhotoBackwardsCompatibilityEnabled"
++ "nameAndPhotoEnabled"
++ "nameAndPhotoEnabledC3"
++ "nearbyFaceTimeEnabled"
++ "needsToJoinGroupSession"
++ "needsToReportRemoteStarted"
++ "newCallHistoryStoreEnabled"
++ "nonInterruptingCalls"
++ "not able to start getting remote translation transcripts, return"
++ "notificationCall.isUplinkMuted:%{bool}d"
++ "notificationCenter"
++ "notificationName"
++ "nudityDetectionEnabled"
++ "objectForKey:"
++ "observationStarted"
++ "observationTask"
++ "observer"
++ "observers"
++ "offlineTranscriptionEnabled"
++ "offrampEnabled"
++ "oneToOneFaceTimeMyselfEnabled"
++ "outgoingCallCallerIDEnabled"
++ "participantIDToURIRemovedEnabled"
++ "passRemoteMessage %s"
++ "pendingReply"
++ "performActionAfterDismiss"
++ "performRecordingRequest:completion:"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "performTranslationRequest:completion:"
++ "personNameComponents"
++ "phone.pause.fill"
++ "phoneClassicEnabled"
++ "phoneLargeFormatUIEnabled"
++ "phoneNumbers"
++ "phoneRecentsAvatarsCarplayEnabled"
++ "phoneRecentsAvatarsEnabled"
++ "pickRouteWithUniqueIdentifier:"
++ "pickedRoute"
++ "pickedRouteSubject"
++ "postNotificationName:object:"
++ "posterEnabledMac"
++ "posterLiveRenderEnabledMac"
++ "posterSnapshotEnabledMac"
++ "preferredLanguages"
++ "previewMSROptimizationEnabled"
++ "previousTranscriptID"
++ "progress"
++ "provider"
++ "qrPluginEncryptionEnabled"
++ "queue"
++ "reactionsEnabled"
++ "reasons_for_calling"
++ "received systemActivitySessionsChangedFor %s"
++ "receivedRemoteMessage"
++ "recentsCallTapTargetsEnabled"
++ "receptionistEnabled"
++ "receptionistSession"
++ "receptionistState"
++ "recived mute state did change notification for a different call"
++ "relayCallRecordingEnabled"
++ "relayCallTranslationEnabled"
++ "release"
++ "reliableMessenger"
++ "remote ends translation from callback"
++ "remote joins the groupSession for translation %s"
++ "remote joins the groupSession for translation %s. Translation starts locally."
++ "remote leaves the groupSession for translation %s"
++ "remote leaves the groupSession for translation starts locally."
++ "remoteEndsTranslation"
++ "remoteLocale"
++ "remoteParticipantHandles"
++ "remoteParticipantHandles count is %ld"
++ "remoteStartsTranslation"
++ "replyStateCancellable"
++ "reportSpamHandler"
++ "requestA2DPOverIncomingCalls"
++ "requestRemoteTranscripts"
++ "requestToScreenShareEnabled"
++ "resetSession"
++ "resolvedColorWithTraitCollection:"
++ "respondsToSelector:"
++ "retain"
++ "retainCount"
++ "routeController"
++ "routes"
++ "routes have changed, %s, %@"
++ "routesChangedForRouteController:"
++ "routesSubject"
++ "safetyCheckFetchSharingHandler"
++ "safetyCheckPresentHandler"
++ "scEnabled"
++ "sckSystemPickerEnabled"
++ "screenShare"
++ "screenSharingCALayerHostMode"
++ "screenSharingDeskViewEnabled"
++ "screenSharingDeskViewSqueegeeEnabled"
++ "screenSharingDrawToHighlightEnabled"
++ "screenSharingRemoteControlEnabled"
++ "screenSharingSpringBoardEssoniteEnabled"
++ "screeningAnnouncementHasFinished"
++ "screeningAnnouncmentFinished(for:)"
++ "screeningCallDueToUserinteraction(call:)"
++ "screeningStatusForCall(_:)"
++ "self"
++ "self released, can't request start podcast recording"
++ "self released, can't request stop podcast recording"
++ "send transcript %s to remote participant %s"
++ "sendMessageWithPayload:andIdentifier:"
++ "sendReceptionistReply"
++ "sendReceptionistReply:"
++ "sendTranscriptToRemoteForCallEnabled"
++ "sendTranscriptToRemoteForCallEnabled is not enabled, not joining the conversation"
++ "sendTranscriptToRemoteForFaceTimeAudioEnabled"
++ "sendTranscriptsToRemote, remoteParticipants.count: %ld"
++ "sent transcript %s successfully"
++ "serverBag"
++ "serverDisconnectedForConversationManager:"
++ "session"
++ "sessionBasedMutingEnabled"
++ "sessionCancellables"
++ "sessionObserverTask"
++ "setActivity:"
++ "setBlockIncomingCommunication:forEmailAddress:"
++ "setBlockIncomingCommunication:forPhoneNumber:"
++ "setExplicitLanguageFilterEnabled:"
++ "setIncludeAcceptedIntroductions:"
++ "setIncludeLocalContacts:"
++ "setLocale:"
++ "setProvider:"
++ "setSourceLocale:"
++ "setStyle:"
++ "setUUID:"
++ "setUplinkMuted:"
++ "setUsage:"
++ "setting activitySession to %@"
++ "settings-navigation://com.apple.Settings.Apps/com.apple.Translate/DOWNLOADED_LANGUAGES_SPECIFIER"
++ "setupAssistantNotification"
++ "sharePlay"
++ "sharePlayCanEndWhenInitiatorLeaves"
++ "sharePlayDisabled"
++ "sharePlayDiscoverabilityEnabled"
++ "sharePlayInCallsEnabled"
++ "sharePlayInFaceTimeCanvasEnabled"
++ "sharePlayWithAirplayEnabled"
++ "sharedInstance"
++ "sharedPrivacyManager"
++ "shouldCenterAlignMessage"
++ "shouldRingForIncomingCallEnabled"
++ "silencedCallNotificationBlockAndReportEnabled"
++ "simLinePickerEnabled"
++ "simulatedModeEnabled"
++ "simultaneousTranslationDisclosureEnabled"
++ "smartCallActionsEnabled"
++ "smartDialerExpandedSearchEnabled"
++ "smartDialerLastFourDigitsSearchEnabled"
++ "smartDialerLocalizationEnabled"
++ "smartDialerRankingEnabled"
++ "smartHoldingAvailability"
++ "smartHoldingRelayEnabled"
++ "smartHoldingSession"
++ "smartVoicemailActionsEnabled"
++ "source"
++ "sourceClient"
++ "speechCancellable"
++ "startActivity(with:contentState:)"
++ "startCountdownForPodcastRecording"
++ "startGettingRemoteTranslationTranscripts"
++ "startPodcastRecordingRequest"
++ "startPodcastRecordingStateCancelled"
++ "startPodcastRecordingStateFailed"
++ "startReceptionistReply"
++ "startTranslationSession"
++ "state"
++ "status"
++ "stop observeTranslationActivity"
++ "stopCaptionClients"
++ "stopRemoteTranscripts, remoteLeaves: %{bool}d"
++ "stopTranslationSession"
++ "stopped translation"
++ "stringForKey:"
++ "stringForReceptionistState:"
++ "stringFromContact:"
++ "stringValue"
++ "subject"
++ "subscriptions"
++ "suggestedLocales"
++ "suggestionsReloadForSelectedRecipients"
++ "summary"
++ "superclass"
++ "supportsConversations"
++ "supportsScreenSharing"
++ "supportsSecureCoding"
++ "symbolCumulative"
++ "systemActivitySessions"
++ "systemImageNameForDeviceType:"
++ "systemOrangeColor"
++ "target"
++ "targetClient"
++ "taskHint"
++ "telephonyCallNotificationsEnabled"
++ "tell TUCalI: %s to update isUplinkMuted to %{bool}d"
++ "text"
++ "thirdPartyTranslationEnabled"
++ "title"
++ "token"
++ "traitCollectionWithUserInterfaceStyle:"
++ "transcriptCancellable"
++ "transcriptDidUpdate"
++ "transcriptTranslationEnabled"
++ "transcriptionEvaluationEnabled"
++ "transcripts"
++ "transcriptsSubject"
++ "translation session has already started."
++ "translation session has already stopped."
++ "translationAvailability"
++ "translationLinks"
++ "translationSession"
++ "translationState"
++ "tuCallProvider is not FaceTimeProvider or TelephonyProvider"
++ "tu_acceptedContactStoreConfiguration"
++ "tu_defaults"
++ "tvHandoff"
++ "uNNotificationsMacOSEnabled"
++ "uPlusNDowngrade"
++ "uPlusOneFullBleedHandoffEnabled"
++ "uPlusOneScreenSharing"
++ "uPlusOneSessionWithCapabilitiesEnabled"
++ "unblockByAppEnabled"
++ "unexpected client %@"
++ "unifiedContactWithIdentifier:keysToFetch:error:"
++ "unifiedContactsMatchingPredicate:keysToFetch:error:"
++ "uninstalledAppStoreLockupEnabled"
++ "uniqueIdentifier"
++ "uniqueProxyIdentifier"
++ "uniqueProxyIdentifierUUID"
++ "uniquelyFaceTimeEnabled"
++ "unknownInitiator"
++ "unknownInitiatorReportEnabled"
++ "unreliableMessengerEnabled"
++ "update lock state, send value: %{bool}d"
++ "updateLockState, send value: %{bool}d"
++ "updateTranscript"
++ "updateTranslationState no session"
++ "updateTranslationState: %d"
++ "uplevelFTAEnabled"
++ "uplink: transcripts: %s, message: %s"
++ "uplinkCaptions"
++ "uplinkTranslatorIdentifier"
++ "useDedicatedMachPort"
++ "useSharedRecentsViewModel"
++ "usesMediaSafetyNetPillDataSource"
++ "usesModernScreenSharingFromMessages"
++ "utteranceComplete"
++ "utteranceNumber"
++ "v12@?0C8"
++ "v12@?0i8"
++ "v16@0:8"
++ "v16@?0@\"NSArray\"8"
++ "v16@?0@\"NSError\"8"
++ "v24@0:8@\"AVCCaptionsClient\"16"
++ "v24@0:8@\"NSCoder\"16"
++ "v24@0:8@\"TUConversationManager\"16"
++ "v24@0:8@\"TURouteController\"16"
++ "v24@0:8@16"
++ "v24@?0@\"NSDictionary\"8@\"NSError\"16"
++ "v28@0:8@\"AVCCaptionsClient\"16B24"
++ "v28@0:8@\"AVCCaptionsClient\"16C24"
++ "v28@0:8@\"TUConversationManager\"16B24"
++ "v28@0:8@16B24"
++ "v28@0:8@16C24"
++ "v32@0:8@\"AVCCaptionsClient\"16@\"AVCCaptionsLanguageDetectorResults\"24"
++ "v32@0:8@\"AVCCaptionsClient\"16@\"NSError\"24"
++ "v32@0:8@\"AVCCaptionsClient\"16@\"NSLocale\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"NSArray\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"NSError\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"NSString\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"TUConversation\"24"
++ "v32@0:8@\"TUConversationManager\"16@\"TUConversationActivityAdvertisement\"24"
++ "v32@0:8@16@24"
++ "v36@0:8@\"AVCCaptionsClient\"16@\"AVCCaptionsResult\"24i32"
++ "v36@0:8@\"AVCCaptionsClient\"16B24@\"NSError\"28"
++ "v36@0:8@\"TUConversationManager\"16@\"<TUScreenShareAttributes>\"24B32"
++ "v36@0:8@16@24B32"
++ "v36@0:8@16@24i32"
++ "v36@0:8@16B24@28"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"NSData\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"NSSet\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversation\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationActivityEvent\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationActivitySession\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationMember\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32"
++ "v40@0:8@\"TUConversationManager\"16@\"TUConversationMember\"24@\"TUConversationLink\"32"
++ "v40@0:8@16@24@32"
++ "v48@0:8@\"TUConversationManager\"16@\"SWCollaborationHighlight\"24@\"TUConversation\"32q40"
++ "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32@\"TUCollaborationNotice\"40"
++ "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24@\"TUConversationParticipant\"32@\"TUConversationNotice\"40"
++ "v48@0:8@\"TUConversationManager\"16@\"TUConversation\"24Q32@\"TUConversationActivitySession\"40"
++ "v48@0:8@16@24@32@40"
++ "v48@0:8@16@24@32q40"
++ "v48@0:8@16@24Q32@40"
++ "v8@?0"
++ "value"
++ "videoCall"
++ "videoCallTranslationEnabled"
++ "videoMessagingCalalystEnabled"
++ "videoMessagingEnabled"
++ "videoMessagingSpamReportEnabled"
++ "visionCallRecordingEnabled"
++ "vmCatchUpDonationEnabled"
++ "voiceTranslationEnabled"
++ "voicemailInboxOnIPadEnabled"
++ "voicemailSearchEnabled"
++ "volumeChangedForRouteController:"
++ "wagoneerEnabled"
++ "waitOnHoldEnabled"
++ "waitOnHoldLoggingEnabled"
++ "wantsSubtitle"
++ "wombatWisdomEnabled"
++ "zone"
++ "来月、友達と一緒に京都に旅行に行く予定で、歴史的な寺や美しい庭園を巡るのをとても楽しみにしています。"
+
+```

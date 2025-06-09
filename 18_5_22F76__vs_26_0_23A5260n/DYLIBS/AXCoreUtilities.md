@@ -1,0 +1,1247 @@
+## AXCoreUtilities
+
+> `/System/Library/PrivateFrameworks/AXCoreUtilities.framework/AXCoreUtilities`
+
+```diff
+
+-3148.15.26.0.0
+-  __TEXT.__text: 0x90734
+-  __TEXT.__auth_stubs: 0x2730
+-  __TEXT.__objc_methlist: 0x2a84
+-  __TEXT.__const: 0x2f7c
++3180.6.1.0.0
++  __TEXT.__text: 0xc7fa4
++  __TEXT.__auth_stubs: 0x3170
++  __TEXT.__objc_methlist: 0x2c84
++  __TEXT.__const: 0x4ecc
+   __TEXT.__gcc_except_tab: 0x7c0
+-  __TEXT.__cstring: 0x62ac
++  __TEXT.__cstring: 0x7270
+   __TEXT.__dlopen_cstrs: 0x40c
+-  __TEXT.__oslogstring: 0xdf1
++  __TEXT.__oslogstring: 0xe24
+   __TEXT.__ustring: 0x8
+-  __TEXT.__constg_swiftt: 0x1560
+-  __TEXT.__swift5_typeref: 0x1257
+-  __TEXT.__swift5_builtin: 0x118
+-  __TEXT.__swift5_reflstr: 0x50b
+-  __TEXT.__swift5_fieldmd: 0x944
+-  __TEXT.__swift5_assocty: 0x1c8
+-  __TEXT.__swift5_proto: 0x198
+-  __TEXT.__swift5_types: 0xc4
+-  __TEXT.__swift5_capture: 0xf50
+-  __TEXT.__swift_as_entry: 0x48
+-  __TEXT.__swift_as_ret: 0x54
+-  __TEXT.__swift5_protos: 0x3c
+-  __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x27b8
+-  __TEXT.__eh_frame: 0x3400
+-  __TEXT.__objc_classname: 0x71c
+-  __TEXT.__objc_methname: 0x7064
+-  __TEXT.__objc_methtype: 0xbd4
+-  __TEXT.__objc_stubs: 0x4e60
+-  __DATA_CONST.__got: 0x838
+-  __DATA_CONST.__const: 0x14d0
+-  __DATA_CONST.__objc_classlist: 0x2a0
++  __TEXT.__constg_swiftt: 0x1e98
++  __TEXT.__swift5_typeref: 0x1a1b
++  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__swift5_reflstr: 0xb66
++  __TEXT.__swift5_fieldmd: 0x11dc
++  __TEXT.__swift5_assocty: 0x328
++  __TEXT.__swift5_proto: 0x2ec
++  __TEXT.__swift5_types: 0x174
++  __TEXT.__swift5_capture: 0x1884
++  __TEXT.__swift_as_entry: 0xe4
++  __TEXT.__swift_as_ret: 0xd8
++  __TEXT.__swift5_protos: 0x4c
++  __TEXT.__swift5_mpenum: 0x2c
++  __TEXT.__unwind_info: 0x3568
++  __TEXT.__eh_frame: 0x4df0
++  __TEXT.__objc_classname: 0x74f
++  __TEXT.__objc_methname: 0x73c6
++  __TEXT.__objc_methtype: 0xbdb
++  __TEXT.__objc_stubs: 0x4dc0
++  __DATA_CONST.__got: 0xa08
++  __DATA_CONST.__const: 0x1578
++  __DATA_CONST.__objc_classlist: 0x308
+   __DATA_CONST.__objc_catlist: 0x58
+-  __DATA_CONST.__objc_protolist: 0x58
++  __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1c88
+-  __DATA_CONST.__objc_protorefs: 0x20
++  __DATA_CONST.__objc_selrefs: 0x1da0
++  __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x88
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x13a8
+-  __AUTH_CONST.__const: 0x4ca0
+-  __AUTH_CONST.__cfstring: 0x5820
+-  __AUTH_CONST.__objc_const: 0x5338
++  __AUTH_CONST.__auth_got: 0x18c8
++  __AUTH_CONST.__const: 0x67d0
++  __AUTH_CONST.__cfstring: 0x5860
++  __AUTH_CONST.__objc_const: 0x5fd8
+   __AUTH_CONST.__objc_intobj: 0x18
+   __AUTH_CONST.__objc_arrayobj: 0x18
+-  __AUTH.__objc_data: 0x1620
+-  __AUTH.__data: 0x1230
++  __AUTH.__objc_data: 0x14e8
++  __AUTH.__data: 0x1610
+   __DATA.__objc_ivar: 0x1b4
+-  __DATA.__data: 0x13e0
+-  __DATA.__bss: 0x3f30
+-  __DATA.__common: 0xb0
+-  __DATA_DIRTY.__objc_data: 0x230
+-  __DATA_DIRTY.__bss: 0x260
++  __DATA.__data: 0x1a20
++  __DATA.__bss: 0x6770
++  __DATA.__common: 0xa0
++  __DATA_DIRTY.__objc_data: 0x778
++  __DATA_DIRTY.__data: 0x6b8
++  __DATA_DIRTY.__bss: 0x500
++  __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility
++  - /System/Library/PrivateFrameworks/ArgumentParserInternal.framework/ArgumentParserInternal
+   - /System/Library/PrivateFrameworks/AttributeGraph.framework/AttributeGraph
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
++  - /usr/lib/libedit.3.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libperfcheck.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: D93C6108-9749-337A-98F1-2A419A9D4301
+-  Functions: 4174
+-  Symbols:   7520
+-  CStrings:  3247
++  UUID: 068EFB97-BA83-31A0-A3A3-7E54BD5EA9DA
++  Functions: 5339
++  Symbols:   7910
++  CStrings:  3421
+ 
+Symbols:
++ -[AXBaseSettings_Legacy .cxx_destruct]
++ -[AXBaseSettings_Legacy _handlePreferenceChangedWithNotificationName:]
++ -[AXBaseSettings_Legacy _registerForNotification:]
++ -[AXBaseSettings_Legacy _registerForNotification:].cold.1
++ -[AXBaseSettings_Legacy _registerUpdateBlock:forPreferenceKey:withListener:]
++ -[AXBaseSettings_Legacy _registerUpdateBlock:forPreferenceKey:withListener:].cold.1
++ -[AXBaseSettings_Legacy _switchFromRootUserIfNecessary:]
++ -[AXBaseSettings_Legacy _switchFromRootUserIfNecessary:].cold.1
++ -[AXBaseSettings_Legacy _synchronizeIfNecessaryForPreferenceKey:domainName:]
++ -[AXBaseSettings_Legacy _unregisterUpdateBlockForPreferenceKey:withListenerID:]
++ -[AXBaseSettings_Legacy _userDefaultsStoreForDomainName:]
++ -[AXBaseSettings_Legacy _userDefaultsStoreForDomainName:].cold.1
++ -[AXBaseSettings_Legacy allDomainNamesForPreferenceKey:]
++ -[AXBaseSettings_Legacy boolValueForPreferenceKey:defaultValue:]
++ -[AXBaseSettings_Legacy clearExistingValueForPreferenceWithSelector:]
++ -[AXBaseSettings_Legacy clearExistingValueForPreferenceWithSelector:].cold.1
++ -[AXBaseSettings_Legacy dealloc]
++ -[AXBaseSettings_Legacy domainNameForPreferenceKey:]
++ -[AXBaseSettings_Legacy doubleValueForPreferenceKey:defaultValue:]
++ -[AXBaseSettings_Legacy floatValueForPreferenceKey:defaultValue:]
++ -[AXBaseSettings_Legacy hasExistingValueForPreferenceWithSelector:]
++ -[AXBaseSettings_Legacy hasExistingValueForPreferenceWithSelector:].cold.1
++ -[AXBaseSettings_Legacy init]
++ -[AXBaseSettings_Legacy init].cold.1
++ -[AXBaseSettings_Legacy integerValueForPreferenceKey:defaultValue:]
++ -[AXBaseSettings_Legacy notificationNameForPreferenceKey:]
++ -[AXBaseSettings_Legacy objectValueForPreferenceKey:ofClass:defaultValue:]
++ -[AXBaseSettings_Legacy observeValueForKeyPath:ofObject:change:context:]
++ -[AXBaseSettings_Legacy postNotificationForPreferenceKey:]
++ -[AXBaseSettings_Legacy preferenceKeyForSelector:]
++ -[AXBaseSettings_Legacy preferenceKeysByDomainNameToSynchronize]
++ -[AXBaseSettings_Legacy registerUpdateBlock:forPreferenceKey:withListener:]
++ -[AXBaseSettings_Legacy registerUpdateBlock:forRetrieveSelector:withListener:]
++ -[AXBaseSettings_Legacy registerUpdateBlock:forRetrieveSelector:withListener:].cold.1
++ -[AXBaseSettings_Legacy registeredPreferenceKeys]
++ -[AXBaseSettings_Legacy setPreferenceKeysByDomainNameToSynchronize:]
++ -[AXBaseSettings_Legacy setRegisteredPreferenceKeys:]
++ -[AXBaseSettings_Legacy setUpdateBlocks:]
++ -[AXBaseSettings_Legacy setValue:forPreferenceKey:]
++ -[AXBaseSettings_Legacy unregisterUpdateBlockForPreferenceKey:withListenerID:]
++ -[AXBaseSettings_Legacy unregisterUpdateBlockForRetrieveSelector:withListenerID:]
++ -[AXBaseSettings_Legacy unregisterUpdateBlockForRetrieveSelector:withListenerID:].cold.1
++ -[AXBaseSettings_Legacy updateBlocks]
++ -[AXBaseSettings_Legacy valueForPreferenceKey:]
++ -[AXBaseSettings_Legacy valueForPreferenceKey:].cold.1
++ -[AXBaseSettings_Legacy willPerformUpdateBlocksForPreferenceKey:]
++ -[AXBaseSettings_Legacy willPostNotificationForPreferenceKey:value:]
++ -[AXValidationManager validateClass:hasClassMethod:withReturnType:args:]
++ -[AXValidationManager validateClass:hasInstanceMethod:withReturnType:args:]
++ GCC_except_table108
++ GCC_except_table111
++ GCC_except_table13
++ GCC_except_table16
++ GCC_except_table53
++ GCC_except_table55
++ GCC_except_table62
++ GCC_except_table84
++ _AXDeviceSupportsAccessibilityReader
++ _AXDeviceSupportsAccessibilityReader._AXDeviceSupportsAccessibilityReader
++ _AXDeviceSupportsAccessibilityReader.cold.1
++ _AXDeviceSupportsAccessibilityReader.onceToken
++ _AXDeviceSupportsLiveRecognition
++ _AXDeviceSupportsLiveRecognition.Supported
++ _AXDeviceSupportsLiveRecognition.cold.1
++ _AXDeviceSupportsLiveRecognition.onceToken
++ _AXDeviceSupportsNameRecognition
++ _AXDeviceSupportsNameRecognition._AXDeviceSupportsNameRecognition
++ _AXDeviceSupportsNameRecognition.cold.1
++ _AXDeviceSupportsNameRecognition.onceToken
++ _AXLogGuestPass
++ _AXLogGuestPass.__logObj
++ _AXLogGuestPass.cold.1
++ _AXLogGuestPass.onceToken
++ _AXLogReader
++ _AXLogReader.__logObj
++ _AXLogReader.cold.1
++ _AXLogReader.onceToken
++ _AXLogVoiceOverMapsAI
++ _AXLogVoiceOverMapsAI.__logObj
++ _AXLogVoiceOverMapsAI.cold.1
++ _AXLogVoiceOverMapsAI.onceToken
++ _AXRuntimeCheck_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardKeyTimer._ffEnabled_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardKeyTimer.cold.1
++ _AXRuntimeCheck_DwellKeyboardKeyTimer.onceToken_DwellKeyboardKeyTimer
++ _AXRuntimeCheck_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipe._ffEnabled_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipe.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipe.cold.2
++ _AXRuntimeCheck_DwellKeyboardSwipe.onceToken_DwellKeyboardSwipe
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous._ffEnabled_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipeContinuous.onceToken_DwellKeyboardSwipeContinuous
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad._ffEnabled_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad.cold.1
++ _AXRuntimeCheck_DwellKeyboardSwipe_iPad.onceToken_DwellKeyboardSwipe_iPad
++ _AXRuntimeCheck_LiveCaptionsSupportsLanguageExpansion
++ _AXRuntimeCheck_LiveCaptionsSupportsLanguageExpansion.cold.1
++ _AXRuntimeCheck_SupportsBrailleUI
++ _AXRuntimeCheck_SupportsBrailleUI._supportsBrailleUI
++ _AXRuntimeCheck_SupportsBrailleUI.cold.1
++ _AXRuntimeCheck_SupportsBrailleUI.onceToken
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes._supportsVoiceOverReadPrefixes
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes.cold.1
++ _AXRuntimeCheck_SupportsVoiceOverReadPrefixes.onceToken
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem._supportsWatchControlAXFocusSystem
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem.cold.1
++ _AXRuntimeCheck_SupportsWatchControlAXFocusSystem.onceToken
++ _AXSSwitchControlMenuItemCalibrateEyeTracking
++ _AXSSwitchControlMenuItemDeviceAssistiveTouch
++ _AXSSwitchControlMenuItemEyeTracking
++ _AXSSwitchControlMenuItemProfiles
++ _AX_AppleTVAppBundleName
++ _AX_QuickboardBundleName
++ _CFNotificationCenterRemoveEveryObserver
++ _NSCocoaErrorDomain
++ _NSFileCreationDate
++ _OBJC_CLASS_$_AXBaseSettings_Legacy
++ _OBJC_CLASS_$_AXCoreSettings
++ _OBJC_CLASS_$_NSFileHandle
++ _OBJC_CLASS_$_NSNotificationCenter
++ _OBJC_CLASS_$_NSPipe
++ _OBJC_CLASS_$_NSRecursiveLock
++ _OBJC_CLASS_$_NSTask
++ _OBJC_CLASS_$_OS_dispatch_queue
++ _OBJC_CLASS_$_OS_dispatch_queue_serial
++ _OBJC_CLASS_$_OS_dispatch_source
++ _OBJC_CLASS_$__TtCC15AXCoreUtilities19AXCoreSettingsStore11Observation
++ _OBJC_CLASS_$__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ _OBJC_IVAR_$_AXBaseSettings_Legacy._domainNamesToSynchronizeLock
++ _OBJC_IVAR_$_AXBaseSettings_Legacy._preferenceKeysByDomainNameToSynchronize
++ _OBJC_IVAR_$_AXBaseSettings_Legacy._registeredPreferenceKeys
++ _OBJC_IVAR_$_AXBaseSettings_Legacy._updateBlocks
++ _OBJC_METACLASS_$_AXBaseSettings_Legacy
++ _OBJC_METACLASS_$_AXCoreSettings
++ _OBJC_METACLASS_$__TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext
++ _OBJC_METACLASS_$__TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock
++ _OBJC_METACLASS_$__TtCC15AXCoreUtilities19AXCoreSettingsStore11Observation
++ _OBJC_METACLASS_$__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ _SWCHLogSettings
++ _SWCHLogSettings.__logObj
++ _SWCHLogSettings.cold.1
++ _SWCHLogSettings.onceToken
++ __DATA_AXBaseSettings
++ __DATA_AXCoreSettings
++ __DATA__TtC15AXCoreUtilities10AXExecutor
++ __DATA__TtC15AXCoreUtilities13AXTaskWrapper
++ __DATA__TtC15AXCoreUtilities15AXBlockObserver
++ __DATA__TtC15AXCoreUtilities22AXLongLivedEventLogger
++ __DATA__TtC15AXCoreUtilities23AXInMemorySettingsStore
++ __DATA__TtC15AXCoreUtilities25SWEAXTextFileHandleReader
++ __DATA__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleReader
++ __DATA__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleWriter
++ __DATA__TtC15AXCoreUtilities9Debouncer
++ __DATA__TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext
++ __DATA__TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock
++ __DATA__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ __DATA__TtCO15AXCoreUtilities12AXCTLSupport6System
++ __INSTANCE_METHODS_AXBaseSettings
++ __INSTANCE_METHODS_AXCoreSettings
++ __INSTANCE_METHODS__TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext
++ __INSTANCE_METHODS__TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock
++ __INSTANCE_METHODS__TtCC15AXCoreUtilities19AXCoreSettingsStore11Observation
++ __INSTANCE_METHODS__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ __IVARS_AXBaseSettings
++ __IVARS__TtC15AXCoreUtilities10AXExecutor
++ __IVARS__TtC15AXCoreUtilities13AXTaskWrapper
++ __IVARS__TtC15AXCoreUtilities15AXBlockObserver
++ __IVARS__TtC15AXCoreUtilities15AXSettingRecord
++ __IVARS__TtC15AXCoreUtilities22AXLongLivedEventLogger
++ __IVARS__TtC15AXCoreUtilities23AXInMemorySettingsStore
++ __IVARS__TtC15AXCoreUtilities25SWEAXTextFileHandleReader
++ __IVARS__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleReader
++ __IVARS__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleWriter
++ __IVARS__TtC15AXCoreUtilities9Debouncer
++ __IVARS__TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext
++ __IVARS__TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock
++ __IVARS__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ __IVARS__TtCO15AXCoreUtilities12AXCTLSupport6System
++ __METACLASS_DATA_AXBaseSettings
++ __METACLASS_DATA_AXCoreSettings
++ __METACLASS_DATA__TtC15AXCoreUtilities10AXExecutor
++ __METACLASS_DATA__TtC15AXCoreUtilities13AXTaskWrapper
++ __METACLASS_DATA__TtC15AXCoreUtilities15AXBlockObserver
++ __METACLASS_DATA__TtC15AXCoreUtilities22AXLongLivedEventLogger
++ __METACLASS_DATA__TtC15AXCoreUtilities23AXInMemorySettingsStore
++ __METACLASS_DATA__TtC15AXCoreUtilities25SWEAXTextFileHandleReader
++ __METACLASS_DATA__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleReader
++ __METACLASS_DATA__TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleWriter
++ __METACLASS_DATA__TtC15AXCoreUtilities9Debouncer
++ __METACLASS_DATA__TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext
++ __METACLASS_DATA__TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock
++ __METACLASS_DATA__TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask
++ __METACLASS_DATA__TtCO15AXCoreUtilities12AXCTLSupport6System
++ __OBJC_$_CLASS_METHODS_AXAudioEffectConfiguration(AXCoreUtilities)
++ __OBJC_$_CLASS_METHODS_AXCVoiceSelection(AXCoreUtilities)
++ __OBJC_$_INSTANCE_METHODS_AXAudioEffectConfiguration(AXCoreUtilities)
++ __OBJC_$_INSTANCE_METHODS_AXBaseSettings_Legacy
++ __OBJC_$_INSTANCE_METHODS_AXCVoiceSelection(AXCoreUtilities)
++ __OBJC_$_INSTANCE_VARIABLES_AXBaseSettings_Legacy
++ __OBJC_$_PROP_LIST_AXBaseSettings_Legacy
++ __OBJC_$_PROTOCOL_REFS_OS_dispatch_source
++ __OBJC_$_PROTOCOL_REFS_OS_dispatch_source_timer
++ __OBJC_CLASS_PROTOCOLS_$_AXAudioEffectConfiguration(AXCoreUtilities)
++ __OBJC_CLASS_PROTOCOLS_$_AXCVoiceSelection(AXCoreUtilities)
++ __OBJC_CLASS_RO_$_AXBaseSettings_Legacy
++ __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source
++ __OBJC_LABEL_PROTOCOL_$_OS_dispatch_source_timer
++ __OBJC_METACLASS_RO_$_AXBaseSettings_Legacy
++ __OBJC_PROTOCOL_$_OS_dispatch_source
++ __OBJC_PROTOCOL_$_OS_dispatch_source_timer
++ __PROPERTIES_AXBaseSettings
++ ___47-[AXBaseSettings_Legacy valueForPreferenceKey:]_block_invoke
++ ___50-[AXBaseSettings_Legacy _registerForNotification:]_block_invoke
++ ___50-[AXBaseSettings_Legacy _registerForNotification:]_block_invoke_2
++ ___51-[AXBaseSettings_Legacy setValue:forPreferenceKey:]_block_invoke
++ ___57-[AXBaseSettings_Legacy _userDefaultsStoreForDomainName:]_block_invoke
++ ___70-[AXBaseSettings_Legacy _handlePreferenceChangedWithNotificationName:]_block_invoke
++ ___70-[AXBaseSettings_Legacy _handlePreferenceChangedWithNotificationName:]_block_invoke_2
++ ___76-[AXBaseSettings_Legacy _registerUpdateBlock:forPreferenceKey:withListener:]_block_invoke
++ ___79-[AXBaseSettings_Legacy _unregisterUpdateBlockForPreferenceKey:withListenerID:]_block_invoke
++ ___AXDeviceSupportsAccessibilityReader_block_invoke
++ ___AXDeviceSupportsLiveRecognition_block_invoke
++ ___AXDeviceSupportsNameRecognition_block_invoke
++ ___AXLogGuestPass_block_invoke
++ ___AXLogReader_block_invoke
++ ___AXLogVoiceOverMapsAI_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardKeyTimer_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipeContinuous_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipe_block_invoke
++ ___AXRuntimeCheck_DwellKeyboardSwipe_iPad_block_invoke
++ ___AXRuntimeCheck_SupportsBrailleUI_block_invoke
++ ___AXRuntimeCheck_SupportsVoiceOverReadPrefixes_block_invoke
++ ___AXRuntimeCheck_SupportsWatchControlAXFocusSystem_block_invoke
++ ___SWCHLogSettings_block_invoke
++ ___block_literal_global.228
++ ___block_literal_global.230
++ ___block_literal_global.234
++ ___block_literal_global.236
++ ___block_literal_global.240
++ ___block_literal_global.242
++ ___block_literal_global.246
++ ___block_literal_global.254
++ ___block_literal_global.261
++ ___block_literal_global.263
++ ___block_literal_global.267
++ ___block_literal_global.269
++ ___block_literal_global.273
++ ___block_literal_global.275
++ ___block_literal_global.279
++ ___block_literal_global.281
++ ___block_literal_global.285
++ ___block_literal_global.287
++ ___block_literal_global.294
++ ___block_literal_global.318
++ ___block_literal_global.345
++ ___block_literal_global.357
++ ___block_literal_global.393
++ ___block_literal_global.420
++ ___block_literal_global.440
++ ___block_literal_global.45
++ ___block_literal_global.48
++ ___block_literal_global.493
++ ___block_literal_global.496
++ ___block_literal_global.499
++ ___block_literal_global.502
++ ___block_literal_global.62
++ ___block_literal_global.65
++ ___block_literal_global.68
++ ___block_literal_global.71
++ ___block_literal_global.74
++ ___block_literal_global.75
++ ___block_literal_global.83
++ ___block_literal_global.92
++ ___block_literal_global.95
++ ___swift_memcpy0_1
++ ___swift_memcpy17_8
++ ___swift_memcpy40_8
++ ___unnamed_3
++ ___unnamed_7
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AXCoreUtilities
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AXCoreUtilities
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AXCoreUtilities
++ _add_history
++ _associated conformance 15AXCoreUtilities10AXExecutorCScfAAScF
++ _associated conformance 15AXCoreUtilities10AXExecutorCSchAAScF
++ _associated conformance 15AXCoreUtilities11AXTraitsKey33_3AE0BCB3614478E6A827F1EA52C66D46LLVSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO12RuntimeErrorV10Foundation09LocalizedE0AAs0E0
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs06CustomF17StringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceO22ArgumentParserInternal010EnumerableF0AASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceO22ArgumentParserInternal010EnumerableF0AAs12CaseIterable
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO15OnOrOffArgumentOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXCTLSupportO6SystemC21ReadlineSessionResultOSHAASQ
++ _associated conformance 15AXCoreUtilities12AXDataHolderOSHAASQ
++ _associated conformance 15AXCoreUtilities17AXFetchableStreamVyxGSciAA13AsyncIteratorSci_ScI
++ _associated conformance 15AXCoreUtilities20AXWatchPreferenceKey33_3AE0BCB3614478E6A827F1EA52C66D46LLVSHAASQ
++ _associated conformance 15AXCoreUtilities22AXLongLivedEventLoggerC8LogLevelOSHAASQ
++ _associated conformance So18NSFileAttributeKeyaSHSCSQ
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSFileAttributeKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So18NSNotificationNameaSHSCSQ
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18NSNotificationNameas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.11
++ _block_copy_helper.13
++ _block_copy_helper.209
++ _block_copy_helper.218
++ _block_copy_helper.227
++ _block_copy_helper.248
++ _block_copy_helper.29
++ _block_copy_helper.39
++ _block_copy_helper.47
++ _block_copy_helper.50
++ _block_copy_helper.55
++ _block_copy_helper.61
++ _block_copy_helper.72
++ _block_descriptor.13
++ _block_descriptor.15
++ _block_descriptor.211
++ _block_descriptor.220
++ _block_descriptor.229
++ _block_descriptor.250
++ _block_descriptor.31
++ _block_descriptor.41
++ _block_descriptor.49
++ _block_descriptor.52
++ _block_descriptor.57
++ _block_descriptor.63
++ _block_descriptor.74
++ _block_destroy_helper.12
++ _block_destroy_helper.14
++ _block_destroy_helper.210
++ _block_destroy_helper.219
++ _block_destroy_helper.228
++ _block_destroy_helper.249
++ _block_destroy_helper.30
++ _block_destroy_helper.40
++ _block_destroy_helper.48
++ _block_destroy_helper.51
++ _block_destroy_helper.56
++ _block_destroy_helper.62
++ _block_destroy_helper.73
++ _class_copyPropertyList
++ _dispatch_semaphore_create
++ _dynamic_cast_existential_1_superclass_conditional
++ _execve
++ _exit
++ _flat unique So24OS_dispatch_source_timer_p
++ _generic environment l
++ _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
++ _get_enum_tag_for_layout_string 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O
++ _get_enum_tag_for_layout_string 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0OSg
++ _get_enum_tag_for_layout_string 15AXCoreUtilities12AXDataHolderO
++ _get_enum_tag_for_layout_string 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _get_enum_tag_for_layout_string 15AXCoreUtilities8SWEAXErrO
++ _isatty
++ _ivar_getName
++ _kAXGuestPassNeedsSyncNotification
++ _keypath_get_selector_boundLanguage
++ _keypath_get_selector_forceNewSettingsUsage
++ _objc_retain_x28
++ _objc_retain_x5
++ _objectdestroy.225Tm
++ _objectdestroy.22Tm
++ _objectdestroy.25Tm
++ _objectdestroy.5Tm
++ _objectdestroy.85Tm
++ _property_getAttributes
++ _readline
++ _swift_coroFrameAlloc
++ _swift_cvw_allocateGenericValueMetadataWithLayoutString
++ _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString
++ _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag
++ _swift_cvw_multiPayloadEnumGeneric_getEnumTag
++ _swift_errorRetain
++ _swift_getExistentialTypeMetadata
++ _swift_getTupleTypeMetadata2
++ _swift_isEscapingClosureAtFileLocation
++ _swift_job_run_on_task_executor
++ _swift_setAtWritableKeyPath
++ _swift_storeEnumTagMultiPayload
++ _swift_unknownObjectRetain_n
++ _swift_unknownObjectUnownedDestroy
++ _swift_unknownObjectUnownedInit
++ _swift_unknownObjectUnownedLoadStrong
++ _swift_weakDestroy
++ _swift_weakInit
++ _swift_weakLoadStrong
++ _swift_willThrowTypedImpl
++ _symbolic $s15AXCoreUtilities13AXReflectableP
++ _symbolic $s15AXCoreUtilities18AXSelectorRoutableP
++ _symbolic $s15AXCoreUtilities20AXCTLCommandProtocolP
++ _symbolic $s15AXCoreUtilities20AXObservableSettingsP
++ _symbolic $s15AXCoreUtilities22AXSettingsAttributeKeyP
++ _symbolic $s15AXCoreUtilities26_AccessibilitySafeCategoryP
++ _symbolic $s15AXCoreUtilities41AXCTLCommandSupportingInteractiveProtocolP
++ _symbolic $s15AXCoreUtilities7AXActorP
++ _symbolic $sSci
++ _symbolic $ss12CaseIterableP
++ _symbolic Ig_
++ _symbolic SDyS2SG
++ _symbolic SDySOypG
++ _symbolic SDySSSDySS_____GG s11AnyHashableV
++ _symbolic SDySSSayyycGG
++ _symbolic SDySS_____G 15AXCoreUtilities12AXDataHolderO
++ _symbolic SDy_____ScTyyt______pGG 10Foundation4UUIDV s5ErrorP
++ _symbolic SSSbIeghHgl_
++ _symbolic SS_SSt
++ _symbolic SS_SaySSGt
++ _symbolic SS______t s11AnyHashableV
++ _symbolic SayScTyyt_____GG s5NeverO
++ _symbolic Say_____G 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic Say_____G 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceO
++ _symbolic Say_____G 15AXCoreUtilities12AXDataHolderO
++ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Say_____GSgSg 15AXCoreUtilities12AXDataHolderO
++ _symbolic Say_____SgG s11AnyHashableV
++ _symbolic SbIegr_
++ _symbolic ScCySb______pG s5ErrorP
++ _symbolic ScCy___________pG 10Foundation4DataV s5ErrorP
++ _symbolic ScCyyt_____G s5NeverO
++ _symbolic ScCyyt______pG s5ErrorP
++ _symbolic ScJ
++ _symbolic ScSySbG
++ _symbolic Sccyyt_____GSg s5NeverO
++ _symbolic So12NSFileHandleC
++ _symbolic So14AXBaseSettingsCSgXw
++ _symbolic So14AXBaseSettingsCSgXwz_Xx
++ _symbolic So14AXBaseSettingsCXDXMT
++ _symbolic So15NSRecursiveLockC
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So21OS_dispatch_semaphoreC
++ _symbolic So24OS_dispatch_queue_serialC
++ _symbolic So6NSTaskCSg
++ _symbolic _____ 10Foundation3URLV
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 10ObjectiveC8SelectorV
++ _symbolic _____ 15AXCoreUtilities10AXExecutorC
++ _symbolic _____ 15AXCoreUtilities11AXTraitsKey33_3AE0BCB3614478E6A827F1EA52C66D46LLV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO10SimpleTaskC
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO10SimpleTaskC6ResultV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO12RuntimeErrorV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO15OnOffFlagChoiceO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO15OnOrOffArgumentO
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO20TransmutationProcessV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO4PathV
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO6SystemC
++ _symbolic _____ 15AXCoreUtilities12AXCTLSupportO6SystemC21ReadlineSessionResultO
++ _symbolic _____ 15AXCoreUtilities12AXDataHolderO
++ _symbolic _____ 15AXCoreUtilities13AXTaskWrapperC
++ _symbolic _____ 15AXCoreUtilities15AXBlockObserverC
++ _symbolic _____ 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____ 15AXCoreUtilities16DeallocaterBlock33_FFE50D56E52C4B9845E8BAA5274691DDLLC
++ _symbolic _____ 15AXCoreUtilities17AXFetchableStreamV
++ _symbolic _____ 15AXCoreUtilities19AXPreferenceKeyPairV
++ _symbolic _____ 15AXCoreUtilities19NotificationContext33_12C73CDEAAFA9A64DE4BE2781CC8BB3DLLC
++ _symbolic _____ 15AXCoreUtilities20AXSettingsAttributesV
++ _symbolic _____ 15AXCoreUtilities20AXWatchPreferenceKey33_3AE0BCB3614478E6A827F1EA52C66D46LLV
++ _symbolic _____ 15AXCoreUtilities22AXLongLivedEventLoggerC
++ _symbolic _____ 15AXCoreUtilities22AXLongLivedEventLoggerC8LogLevelO
++ _symbolic _____ 15AXCoreUtilities23AXInMemorySettingsStoreC
++ _symbolic _____ 15AXCoreUtilities25SWEAXTextFileHandleReaderC
++ _symbolic _____ 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _symbolic _____ 15AXCoreUtilities35SWEAXStructuredDataFileHandleReaderC
++ _symbolic _____ 15AXCoreUtilities35SWEAXStructuredDataFileHandleReaderC5EventO
++ _symbolic _____ 15AXCoreUtilities35SWEAXStructuredDataFileHandleWriterC
++ _symbolic _____ 15AXCoreUtilities5AXLogO
++ _symbolic _____ 15AXCoreUtilities8SWEAXErrO
++ _symbolic _____ 15AXCoreUtilities9DebouncerC
++ _symbolic _____ So18NSFileAttributeKeya
++ _symbolic _____ So18NSNotificationNamea
++ _symbolic _____ So41AXSVoiceOverBrailleUIBrailleNotesSortTypeV
++ _symbolic _____ So46AXSVoiceOverBrailleUIBrailleNotesSortDirectionV
++ _symbolic _____ s11AnyHashableV
++ _symbolic _____ s5NeverO
++ _symbolic _____IeAgHr_ 15AXCoreUtilities12AXCTLSupportO6SystemC21ReadlineSessionResultO
++ _symbolic _____Sg 10Foundation11JSONDecoderC20DateDecodingStrategyO
++ _symbolic _____Sg 10Foundation11JSONEncoderC20DateEncodingStrategyO
++ _symbolic _____Sg 10Foundation12NotificationV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O
++ _symbolic _____Sg 15AXCoreUtilities14VoiceSelectionV
++ _symbolic _____Sg 15AXCoreUtilities19AXPreferenceKeyPairV
++ _symbolic _____Sg_ABt 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sgxc s11AnyHashableV
++ _symbolic _____Xo 15AXCoreUtilities12AXCTLSupportO10SimpleTaskC
++ _symbolic _____Xoz_Xx 15AXCoreUtilities12AXCTLSupportO10SimpleTaskC
++ _symbolic ______SSSg______pSgt 10Foundation4DataV s5ErrorP
++ _symbolic ______So8NSObjectCXc 15AXCoreUtilities13AXReflectableP
++ _symbolic ______p 15AXCoreUtilities13AXReflectableP
++ _symbolic ______p 15AXCoreUtilities18AXSelectorRoutableP
++ _symbolic ______p 15AXCoreUtilities20AXObservableSettingsP
++ _symbolic ______pSg 15AXCoreUtilities13AXReflectableP
++ _symbolic ______pSg So24OS_dispatch_source_timerP
++ _symbolic _____ySOypG s18_DictionaryStorageC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSSDySS_____GG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____ySSSayyycGG s18_DictionaryStorageC
++ _symbolic _____ySSSgG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 15AXCoreUtilities12AXDataHolderO
++ _symbolic _____ySS______G SD4KeysV 15AXCoreUtilities12AXDataHolderO
++ _symbolic _____ySb_G ScS12ContinuationV
++ _symbolic _____ySb_G ScS8IteratorV
++ _symbolic _____ySb__G ScS12ContinuationV11YieldResultO
++ _symbolic _____ySb__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yScTyyt_____GG s23_ContiguousArrayStorageC s5NeverO
++ _symbolic _____ySiSDySSSay_____GGG s18_DictionaryStorageC 10Foundation4UUIDV
++ _symbolic _____ySpy_____GSgG s23_ContiguousArrayStorageC s4Int8V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O14InfoCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O15DebugCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O15ErrorCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O17DefaultCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0H0O17WarningCodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV10CodingKeys33_DAB70D8B2C768F62F10B7F55F6BF3946LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation11JSONEncoderC16OutputFormattingV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation3URLV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4UUIDV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15AXCoreUtilities12AXDataHolderO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____ScTyyt______pGG s18_DictionaryStorageC 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y_____SgG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y______G ScS12ContinuationV 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _symbolic _____y_______G ScS12ContinuationV11YieldResultO 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _symbolic _____y_______G ScS12ContinuationV15BufferingPolicyO 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _symbolic _____y___________pG s18_DictionaryStorageC 10ObjectiveC8SelectorV 15AXCoreUtilities18AXSelectorRoutableP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 15AXCoreUtilities17AXSettingProtocolP
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 15AXCoreUtilities18AXSelectorRoutableP
++ _symbolic _____y_____y_xG_G ScS12ContinuationV 15AXCoreUtilities35SWEAXStructuredDataFileHandleReaderC5EventO
++ _symbolic _____yxG 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____yxG 15AXCoreUtilities17AXFetchableStreamV
++ _symbolic _____yxGSgXw 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____yxGSgXwz_x_lXX 15AXCoreUtilities15AXSettingRecordC
++ _symbolic _____yx_G ScS8IteratorV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yyt_G ScS12ContinuationV
++ _symbolic _____yyt__G ScS12ContinuationV11YieldResultO
++ _symbolic _____yyt__G ScS12ContinuationV15BufferingPolicyO
++ _symbolic _____yyycG s23_ContiguousArrayStorageC
++ _symbolic xSg_____Sgc s11AnyHashableV
++ _symbolic xxcSg
++ _symbolic xyYac
++ _symbolic xyc
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _symbolic ytIegr_
++ _symbolic ytSgIeAgHr_
++ _symbolic yxcSg
++ _type_layout_string 15AXCoreUtilities12AXCTLSupportO10SimpleTaskC6ResultV
++ _type_layout_string 15AXCoreUtilities12AXCTLSupportO12RuntimeErrorV
++ _type_layout_string 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV
++ _type_layout_string 15AXCoreUtilities12AXCTLSupportO14ToolingMessageV0E0O
++ _type_layout_string 15AXCoreUtilities12AXDataHolderO
++ _type_layout_string 15AXCoreUtilities19AXPreferenceKeyPairV
++ _type_layout_string 15AXCoreUtilities20AXSettingsAttributesV
++ _type_layout_string 15AXCoreUtilities25SWEAXTextFileHandleReaderC5EventO
++ _type_layout_string 15AXCoreUtilities8SWEAXErrO
++ _type_layout_string So18NSNotificationNamea
+- -[AXBaseSettings .cxx_destruct]
+- -[AXBaseSettings _handlePreferenceChangedWithNotificationName:]
+- -[AXBaseSettings _registerForNotification:]
+- -[AXBaseSettings _registerForNotification:].cold.1
+- -[AXBaseSettings _registerUpdateBlock:forPreferenceKey:withListener:]
+- -[AXBaseSettings _registerUpdateBlock:forPreferenceKey:withListener:].cold.1
+- -[AXBaseSettings _switchFromRootUserIfNecessary:]
+- -[AXBaseSettings _switchFromRootUserIfNecessary:].cold.1
+- -[AXBaseSettings _synchronizeIfNecessaryForPreferenceKey:domainName:]
+- -[AXBaseSettings _unregisterUpdateBlockForPreferenceKey:withListenerID:]
+- -[AXBaseSettings _userDefaultsStoreForDomainName:]
+- -[AXBaseSettings _userDefaultsStoreForDomainName:].cold.1
+- -[AXBaseSettings allDomainNamesForPreferenceKey:]
+- -[AXBaseSettings boolValueForPreferenceKey:defaultValue:]
+- -[AXBaseSettings clearExistingValueForPreferenceWithSelector:]
+- -[AXBaseSettings clearExistingValueForPreferenceWithSelector:].cold.1
+- -[AXBaseSettings dealloc]
+- -[AXBaseSettings domainNameForPreferenceKey:]
+- -[AXBaseSettings doubleValueForPreferenceKey:defaultValue:]
+- -[AXBaseSettings floatValueForPreferenceKey:defaultValue:]
+- -[AXBaseSettings forwardingTargetForSelector:]
+- -[AXBaseSettings hasExistingValueForPreferenceWithSelector:]
+- -[AXBaseSettings hasExistingValueForPreferenceWithSelector:].cold.1
+- -[AXBaseSettings init]
+- -[AXBaseSettings init].cold.1
+- -[AXBaseSettings integerValueForPreferenceKey:defaultValue:]
+- -[AXBaseSettings notificationNameForPreferenceKey:]
+- -[AXBaseSettings objectValueForPreferenceKey:ofClass:defaultValue:]
+- -[AXBaseSettings observeValueForKeyPath:ofObject:change:context:]
+- -[AXBaseSettings postNotificationForPreferenceKey:]
+- -[AXBaseSettings preferenceKeyForSelector:]
+- -[AXBaseSettings preferenceKeysByDomainNameToSynchronize]
+- -[AXBaseSettings registerUpdateBlock:forPreferenceKey:withListener:]
+- -[AXBaseSettings registerUpdateBlock:forRetrieveSelector:withListener:]
+- -[AXBaseSettings registerUpdateBlock:forRetrieveSelector:withListener:].cold.1
+- -[AXBaseSettings registeredPreferenceKeys]
+- -[AXBaseSettings setPreferenceKeysByDomainNameToSynchronize:]
+- -[AXBaseSettings setRegisteredPreferenceKeys:]
+- -[AXBaseSettings setUpdateBlocks:]
+- -[AXBaseSettings setValue:forPreferenceKey:]
+- -[AXBaseSettings setValue:forUndefinedKey:]
+- -[AXBaseSettings targetForKVOKey:]
+- -[AXBaseSettings unregisterUpdateBlockForPreferenceKey:withListenerID:]
+- -[AXBaseSettings unregisterUpdateBlockForRetrieveSelector:withListenerID:]
+- -[AXBaseSettings unregisterUpdateBlockForRetrieveSelector:withListenerID:].cold.1
+- -[AXBaseSettings updateBlocks]
+- -[AXBaseSettings valueForPreferenceKey:]
+- -[AXBaseSettings valueForPreferenceKey:].cold.1
+- -[AXBaseSettings valueForUndefinedKey:]
+- -[AXBaseSettings willPerformUpdateBlocksForPreferenceKey:]
+- -[AXBaseSettings willPostNotificationForPreferenceKey:value:]
+- GCC_except_table11
+- GCC_except_table110
+- GCC_except_table113
+- GCC_except_table40
+- GCC_except_table50
+- GCC_except_table60
+- GCC_except_table86
+- _AXDeviceIsN301
+- _AXProcessRequestMobileUserPrivileges
+- _AXProcessRequestNonRootUserPrivilegesIfNeeded
+- _AXSSwitchControlMenuItemSideApp
+- _OBJC_CLASS_$_AXBridgedSettings
+- _OBJC_IVAR_$_AXBaseSettings._domainNamesToSynchronizeLock
+- _OBJC_IVAR_$_AXBaseSettings._preferenceKeysByDomainNameToSynchronize
+- _OBJC_IVAR_$_AXBaseSettings._registeredPreferenceKeys
+- _OBJC_IVAR_$_AXBaseSettings._updateBlocks
+- _OBJC_METACLASS_$_AXBridgedSettings
+- __AXSafeSwiftOptionalCGSizeForKeyTm
+- __DATA_AXBridgedSettings
+- __DATA__TtC15AXCoreUtilities12AXDataHolder
+- __INSTANCE_METHODS_AXAudioEffectConfiguration
+- __INSTANCE_METHODS_AXBridgedSettings
+- __INSTANCE_METHODS_AXCVoiceSelection
+- __INSTANCE_METHODS__TtC15AXCoreUtilities9AXSetting
+- __IVARS_AXBridgedSettings
+- __IVARS__TtC15AXCoreUtilities12AXDataHolder
+- __IVARS__TtC15AXCoreUtilities9AXSetting
+- __METACLASS_DATA_AXBridgedSettings
+- __METACLASS_DATA__TtC15AXCoreUtilities12AXDataHolder
+- __OBJC_$_INSTANCE_METHODS_AXBaseSettings
+- __OBJC_$_INSTANCE_VARIABLES_AXBaseSettings
+- __OBJC_$_PROP_LIST_AXBaseSettings
+- __OBJC_CLASS_RO_$_AXBaseSettings
+- __OBJC_METACLASS_RO_$_AXBaseSettings
+- ___40-[AXBaseSettings valueForPreferenceKey:]_block_invoke
+- ___43-[AXBaseSettings _registerForNotification:]_block_invoke
+- ___43-[AXBaseSettings _registerForNotification:]_block_invoke_2
+- ___44-[AXBaseSettings setValue:forPreferenceKey:]_block_invoke
+- ___50-[AXBaseSettings _userDefaultsStoreForDomainName:]_block_invoke
+- ___63-[AXBaseSettings _handlePreferenceChangedWithNotificationName:]_block_invoke
+- ___63-[AXBaseSettings _handlePreferenceChangedWithNotificationName:]_block_invoke_2
+- ___69-[AXBaseSettings _registerUpdateBlock:forPreferenceKey:withListener:]_block_invoke
+- ___72-[AXBaseSettings _unregisterUpdateBlockForPreferenceKey:withListenerID:]_block_invoke
+- ___block_literal_global.221
+- ___block_literal_global.225
+- ___block_literal_global.227
+- ___block_literal_global.231
+- ___block_literal_global.233
+- ___block_literal_global.237
+- ___block_literal_global.239
+- ___block_literal_global.243
+- ___block_literal_global.251
+- ___block_literal_global.258
+- ___block_literal_global.260
+- ___block_literal_global.264
+- ___block_literal_global.266
+- ___block_literal_global.270
+- ___block_literal_global.272
+- ___block_literal_global.276
+- ___block_literal_global.278
+- ___block_literal_global.282
+- ___block_literal_global.284
+- ___block_literal_global.291
+- ___block_literal_global.315
+- ___block_literal_global.342
+- ___block_literal_global.354
+- ___block_literal_global.390
+- ___block_literal_global.417
+- ___block_literal_global.438
+- ___swift_memcpy56_8
+- ___unnamed_4
+- ___unnamed_5
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_AXCoreUtilities
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_AXCoreUtilities
+- _block_copy_helper.10
+- _block_copy_helper.100
+- _block_copy_helper.106
+- _block_copy_helper.112
+- _block_copy_helper.118
+- _block_copy_helper.124
+- _block_copy_helper.130
+- _block_copy_helper.136
+- _block_copy_helper.142
+- _block_copy_helper.148
+- _block_copy_helper.22
+- _block_copy_helper.34
+- _block_copy_helper.4
+- _block_copy_helper.40
+- _block_copy_helper.46
+- _block_copy_helper.52
+- _block_copy_helper.64
+- _block_copy_helper.70
+- _block_copy_helper.76
+- _block_copy_helper.82
+- _block_copy_helper.88
+- _block_copy_helper.94
+- _block_descriptor.102
+- _block_descriptor.108
+- _block_descriptor.114
+- _block_descriptor.12
+- _block_descriptor.120
+- _block_descriptor.126
+- _block_descriptor.132
+- _block_descriptor.138
+- _block_descriptor.144
+- _block_descriptor.150
+- _block_descriptor.24
+- _block_descriptor.36
+- _block_descriptor.42
+- _block_descriptor.48
+- _block_descriptor.54
+- _block_descriptor.6
+- _block_descriptor.66
+- _block_descriptor.72
+- _block_descriptor.78
+- _block_descriptor.84
+- _block_descriptor.90
+- _block_descriptor.96
+- _block_destroy_helper.101
+- _block_destroy_helper.107
+- _block_destroy_helper.11
+- _block_destroy_helper.113
+- _block_destroy_helper.119
+- _block_destroy_helper.125
+- _block_destroy_helper.131
+- _block_destroy_helper.137
+- _block_destroy_helper.143
+- _block_destroy_helper.149
+- _block_destroy_helper.23
+- _block_destroy_helper.35
+- _block_destroy_helper.41
+- _block_destroy_helper.47
+- _block_destroy_helper.5
+- _block_destroy_helper.53
+- _block_destroy_helper.65
+- _block_destroy_helper.71
+- _block_destroy_helper.77
+- _block_destroy_helper.83
+- _block_destroy_helper.89
+- _block_destroy_helper.95
+- _class_replaceMethod
+- _flat unique ST_px7ElementSTRts_XP
+- _flat unique SY_px8RawValueSYRts_XP
+- _generic environment SeRzSERzl
+- _imp_implementationWithBlock
+- _kAXSVoiceOverTouchRotorItemLanguage
+- _objc_msgSend$forwardingTargetForSelector:
+- _objc_msgSend$observeWithSelector:listener:block:
+- _objc_msgSend$setValue:forKey:
+- _objc_msgSend$swiftSettings
+- _objc_msgSend$targetForKVOKey:
+- _objectdestroy.92Tm
+- _swift_dynamicCastObjCClass
+- _symbolic $s15AXCoreUtilities18AXOptionalProtocolP
+- _symbolic $s15AXCoreUtilities19BridgableCollectionP
+- _symbolic $s15AXCoreUtilities19_AXOptionalProtocolP
+- _symbolic $s15AXCoreUtilities23StringKeyableDictionaryP
+- _symbolic 7ElementSTQyd__
+- _symbolic 8RawValueSYQyd__
+- _symbolic G0R0_
+- _symbolic G0R1_
+- _symbolic G0R2_
+- _symbolic SDy_____AAG s11AnyHashableV
+- _symbolic ST_p
+- _symbolic ST_pSg
+- _symbolic Say_____G 10ObjectiveC8SelectorV
+- _symbolic Say_____GSgSg s11AnyHashableV
+- _symbolic Sl_p
+- _symbolic _____ 15AXCoreUtilities12AXDataHolderC
+- _symbolic _____ 15AXCoreUtilities9AXSettingC
+- _symbolic _____SSXj lSY_px8RawValueRts_XPXGMq
+- _symbolic _____SiXj lSY_px8RawValueRts_XPXGMq
+- _symbolic _____SuXj lSY_px8RawValueRts_XPXGMq
+- _symbolic ______So8NSObjectCXc 15AXCoreUtilities15AXSettingsGroupP
+- _symbolic ______p 15AXCoreUtilities15AXSettingsGroupP
+- _symbolic ______p 15AXCoreUtilities18AXOptionalProtocolP
+- _symbolic ______p 15AXCoreUtilities19BridgableCollectionP
+- _symbolic ______p 15AXCoreUtilities19_AXOptionalProtocolP
+- _symbolic ______p 15AXCoreUtilities23StringKeyableDictionaryP
+- _symbolic ______p s21_ObjectiveCBridgeableP
+- _symbolic ______pIgn_ 15AXCoreUtilities17AXSettingProtocolP
+- _symbolic ______pSg 15AXCoreUtilities15AXSettingsGroupP
+- _symbolic ______pSg 15AXCoreUtilities18AXOptionalProtocolP
+- _symbolic ______pSg 15AXCoreUtilities23StringKeyableDictionaryP
+- _symbolic _____ySS______G SD4KeysV s11AnyHashableV
+- _symbolic _____y_____ABG s18_DictionaryStorageC s11AnyHashableV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC s11AnyHashableV
+- _symbolic _____y___________pG s18_DictionaryStorageC 10ObjectiveC8SelectorV 15AXCoreUtilities17AXSettingProtocolP
+- _symbolic _____y_____ypG s18_DictionaryStorageC 10ObjectiveC8SelectorV
+- _symbolic _____ypXj lST_px7ElementRts_XPXGMq
+- _symbolic _____yxG 15AXCoreUtilities9AXSettingC
+- _symbolic _____yxGSgXw 15AXCoreUtilities9AXSettingC
+- _symbolic _____yxGSgXwz_x_SeRzSERzlXX 15AXCoreUtilities9AXSettingC
+- _symbolic q_
+- _symbolic xycSg
+- _type_layout_string 15AXCoreUtilities14VoiceSelectionV
+- _type_layout_string So19NSKeyValueChangeKeya
+CStrings:
++ "  INFO"
++ "  LOG"
++ " DEBUG"
++ " WARN"
++ "$__lazy_storage_$_selectorToPrefGroups"
++ "---PAYLOAD-BEGIN---"
++ "---PAYLOAD-END---"
++ ". Program does not exist"
++ "@\"AXBaseSettings_Legacy\""
++ "@72@0:8@16@24@32@40@48@56@64"
++ "AXBaseSettings_Legacy"
++ "AXCoreSettings"
++ "AXCoreUtilities.DeallocaterBlock"
++ "AXCoreUtilities.Observation"
++ "AXCoreUtilities.SimpleTask"
++ "AXCoreUtilities/AXBaseSettings.swift"
++ "AXCoreUtilities/AXDataHolder.swift"
++ "AXGuestPass"
++ "AXReader"
++ "AXSelectorRoutable-dispatch-queue"
++ "AXVoiceOverMapsAI"
++ "AccessibilityReader"
++ "AssistiveTouch"
++ "BrailleUI"
++ "CalibrateEyeTracking"
++ "Cannot assert non-root privileges. Not running as 'mobile'"
++ "Cannot assert non-root privileges. getpwnam() failed"
++ "Cannot assert non-root privileges. setgid() failed"
++ "Cannot assert non-root privileges. setuid() failed"
++ "Cannot execve into "
++ "Caught #SafeExpression responds to selector exception while performing safe block. Stacktrace: "
++ "CoreSynthBackedAVSS"
++ "CoreSynthesizerSpeechDeconfliction"
++ "DwellKeyboardKeyTimer"
++ "DwellKeyboardSwipe"
++ "DwellKeyboardSwipeContinuous"
++ "DwellKeyboardSwipe_iPad"
++ "ERROR"
++ "EyeTracking"
++ "HoverTextTouch"
++ "Invalid number of keys found, expected one."
++ "Live Captions supported: %@ [%@,%@,%@,%@,%@]"
++ "Live Captions supports language expansion %d"
++ "LiveCaptionsForAll"
++ "LiveCaptionsLanguageExpansion"
++ "LiveCaptionsLanguageExpansionV2"
++ "LiveRecognitionForVisionOS"
++ "LiveRecognitionSpeechAnnouncements"
++ "LiveSpeechLanguageAwareness"
++ "LiveSpeechPrefsUI"
++ "Magnifier_Infinite_Blizzard"
++ "Magnifier_Infinite_VQA"
++ "Magnifier_Service"
++ "MotionCuesCustomization"
++ "NameRecognition"
++ "OS_dispatch_source"
++ "OS_dispatch_source_timer"
++ "Path is not reachable: "
++ "PersonalVoiceVersion2"
++ "Profiles"
++ "Require root privilages failed. uid: "
++ "SWCHSettings"
++ "ShouldUseSwiftSettingsStore"
++ "SimpleTask failed. ReturnCode="
++ "SiriSSMLPassthrough"
++ "T@\"NSUUID\",N,&,V_identifier"
++ "T@\"NSUUID\",N,C"
++ "TB,N,R"
++ "TB,N,VforceNewSettingsUsage"
++ "TrackpadDeadRegionCustomization"
++ "Undefined forwarding target for axsettings key "
++ "Unexpected non array type"
++ "VoiceDatabase"
++ "VoiceOverCoreSynthesizer_iOS"
++ "VoiceOverCoreSynthesizer_macOS"
++ "VoiceOver_ReadPrefixes"
++ "WatchControl_AXFocusSystem"
++ "_TtC15AXCoreUtilities10AXExecutor"
++ "_TtC15AXCoreUtilities13AXTaskWrapper"
++ "_TtC15AXCoreUtilities15AXBlockObserver"
++ "_TtC15AXCoreUtilities22AXLongLivedEventLogger"
++ "_TtC15AXCoreUtilities23AXInMemorySettingsStore"
++ "_TtC15AXCoreUtilities25SWEAXTextFileHandleReader"
++ "_TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleReader"
++ "_TtC15AXCoreUtilities35SWEAXStructuredDataFileHandleWriter"
++ "_TtC15AXCoreUtilities9Debouncer"
++ "_TtC15AXCoreUtilitiesP33_12C73CDEAAFA9A64DE4BE2781CC8BB3D19NotificationContext"
++ "_TtC15AXCoreUtilitiesP33_FFE50D56E52C4B9845E8BAA5274691DD16DeallocaterBlock"
++ "_TtCO15AXCoreUtilities12AXCTLSupport10SimpleTask"
++ "_TtCO15AXCoreUtilities12AXCTLSupport6System"
++ "_cacheLock"
++ "_cachedValue"
++ "_continuation"
++ "_identifier"
++ "_lock"
++ "_observationToken"
++ "_valueObservationLock"
++ "accessibilityReader"
++ "attributes"
++ "attributesOfItemAtPath:error:"
++ "availableData"
++ "axctlRunningInteractive"
++ "boundLanguage"
++ "closeAndReturnError:"
++ "collectOutput"
++ "collectedData"
++ "com.apple.QuickboardViewService"
++ "com.apple.ax.longlivedeventlogger"
++ "communicateWithToolingMessageProtocol"
++ "completed"
++ "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:"
++ "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
++ "createFileAtPath:contents:attributes:"
++ "debounce"
++ "debugLoggingEnabled"
++ "decoder"
++ "defaultCenter"
++ "didSet"
++ "directory"
++ "encoder"
++ "fileHandleForReading"
++ "fileHandleForWritingToURL:error:"
++ "fileHandleWithStandardOutput"
++ "forceNewSettingsUsage"
++ "getBlock"
++ "guestPass"
++ "handle"
++ "hoverTextTouch"
++ "initWithName:reason:userInfo:"
++ "initWithVoiceId:rate:pitch:volume:voiceSettings:effects:boundLanguage:"
++ "isParsingMultiChunkMessage"
++ "launch"
++ "listenerLock"
++ "listenerMap"
++ "liveCaptionsForAll"
++ "liveCaptionsLanguageExpansion"
++ "liveCaptionsLanguageExpansionV2"
++ "liveRecognitionForVisionOS"
++ "logFilePrefix"
++ "magnifierInfiniteBlizzard"
++ "magnifierInfiniteVQA"
++ "motionCuesCustomization"
++ "off"
++ "on"
++ "passthroughZoom"
++ "personalVoiceForAssistiveTechnologies"
++ "personalVoiceShortPhraseTraining"
++ "personalVoiceVersion2"
++ "postNotificationName:object:"
++ "raise"
++ "removeItemAtURL:error:"
++ "result"
++ "root"
++ "seekToEndOfFile"
++ "setArguments:"
++ "setBlock"
++ "setBoundLanguage:"
++ "setForceNewSettingsUsage:"
++ "setLaunchPath:"
++ "setReadabilityHandler:"
++ "setStandardError:"
++ "setStandardOutput:"
++ "setTerminationHandler:"
++ "setWriteabilityHandler:"
++ "set_identifier:"
++ "shouldUseSwiftSettingsStore"
++ "standardError"
++ "standardOutput"
++ "stdErrorData"
++ "stdOutData"
++ "suite"
++ "sweax_readData()"
++ "sweax_waitUntilWritable()"
++ "tadmor"
++ "task"
++ "tasks"
++ "terminationStatus"
++ "timer"
++ "timerQueue"
++ "trackpadDeadRegionCustomization"
++ "unlock"
++ "v16@?0@\"NSFileHandle\"8"
++ "v16@?0@\"NSTask\"8"
++ "validateClass:hasClassMethod:withReturnType:args:"
++ "validateClass:hasInstanceMethod:withReturnType:args:"
++ "voiceDatabase"
++ "watchControlAXFocusSystem"
++ "willSet"
++ "writeData:"
++ "writer"
+- "$__lazy_storage_$_selectorTargetMap"
+- "@\"AXBaseSettings\""
+- "@\"NSObject\"16@?0@8"
+- "@\"NSString\"16@?0@8"
+- "@16@?0@8"
+- "AXBaseSettings"
+- "AXCoreUtilities.AXSetting"
+- "B16@?0@8"
+- "B40@0:8:16@24@?32"
+- "C16@?0@8"
+- "Language"
+- "Live captions supported: %@ [%@,%@,%@]"
+- "Q16@?0@8"
+- "SideApp"
+- "T@\"NSUUID\",N,&,Videntifier"
+- "Undefined forwarding target for axsettings key %@"
+- "_TtC15AXCoreUtilities12AXDataHolder"
+- "__cachedValue"
+- "_completed"
+- "_isObservingSettings"
+- "additionalObserveSelectors"
+- "d16@?0@8"
+- "f16@?0@8"
+- "initializer"
+- "object"
+- "observeWithSelector:listener:block:"
+- "q16@?0@8"
+- "swiftSettings"
+- "targetForKVOKey:"
+- "v20@?0@8B16"
+- "v20@?0@8C16"
+- "v20@?0@8f16"
+- "v24@?0@8@\"NSObject\"16"
+- "v24@?0@8@\"NSString\"16"
+- "v24@?0@8@16"
+- "v24@?0@8Q16"
+- "v24@?0@8d16"
+- "v24@?0@8q16"
+
+```

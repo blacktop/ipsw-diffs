@@ -1,0 +1,1539 @@
+## NewsArticles
+
+> `/System/Library/PrivateFrameworks/NewsArticles.framework/NewsArticles`
+
+```diff
+
+-5681.0.0.0.0
+-  __TEXT.__text: 0x37b198
+-  __TEXT.__auth_stubs: 0xaa20
+-  __TEXT.__objc_methlist: 0x82ec
+-  __TEXT.__const: 0x2a894
+-  __TEXT.__cstring: 0x1c90c
+-  __TEXT.__oslogstring: 0x1c65
++5718.1.0.0.0
++  __TEXT.__text: 0x390130
++  __TEXT.__auth_stubs: 0xabc0
++  __TEXT.__objc_methlist: 0x8724
++  __TEXT.__const: 0x2b354
++  __TEXT.__cstring: 0x1c9cc
++  __TEXT.__oslogstring: 0x1e35
+   __TEXT.__ustring: 0x4
+   __TEXT.__gcc_except_tab: 0xa0
+-  __TEXT.__swift5_typeref: 0xd6c4
+-  __TEXT.__swift5_fieldmd: 0xea14
+-  __TEXT.__constg_swiftt: 0x11bac
+-  __TEXT.__swift5_reflstr: 0xcdaa
+-  __TEXT.__swift5_builtin: 0x5dc
+-  __TEXT.__swift5_assocty: 0x1618
+-  __TEXT.__swift5_protos: 0x588
+-  __TEXT.__swift5_proto: 0x1e64
+-  __TEXT.__swift5_types: 0x1194
+-  __TEXT.__swift5_capture: 0x3eb4
+-  __TEXT.__swift5_mpenum: 0x140
+-  __TEXT.__swift_as_entry: 0x1e8
+-  __TEXT.__swift_as_ret: 0x234
+-  __TEXT.__unwind_info: 0xca18
+-  __TEXT.__eh_frame: 0xc2c8
+-  __TEXT.__objc_classname: 0xebd
+-  __TEXT.__objc_methname: 0x128a7
+-  __TEXT.__objc_methtype: 0x4194
+-  __TEXT.__objc_stubs: 0x24a0
+-  __DATA_CONST.__got: 0x3590
+-  __DATA_CONST.__const: 0xc88
+-  __DATA_CONST.__objc_classlist: 0xfb8
++  __TEXT.__swift5_typeref: 0xda50
++  __TEXT.__swift5_fieldmd: 0xf30c
++  __TEXT.__constg_swiftt: 0x12474
++  __TEXT.__swift5_reflstr: 0xd58a
++  __TEXT.__swift5_builtin: 0x5b4
++  __TEXT.__swift5_assocty: 0x1438
++  __TEXT.__swift5_protos: 0x5c8
++  __TEXT.__swift5_proto: 0x1e74
++  __TEXT.__swift5_types: 0x11f8
++  __TEXT.__swift5_capture: 0x4618
++  __TEXT.__swift5_mpenum: 0x14c
++  __TEXT.__swift_as_entry: 0x174
++  __TEXT.__swift_as_ret: 0x1ac
++  __TEXT.__unwind_info: 0xc4a0
++  __TEXT.__eh_frame: 0xb520
++  __TEXT.__objc_classname: 0xf19
++  __TEXT.__objc_methname: 0x12c0e
++  __TEXT.__objc_methtype: 0x431c
++  __TEXT.__objc_stubs: 0x2580
++  __DATA_CONST.__got: 0x35b0
++  __DATA_CONST.__const: 0xdb8
++  __DATA_CONST.__objc_classlist: 0x1058
+   __DATA_CONST.__objc_catlist: 0x18
+   __DATA_CONST.__objc_catlist2: 0x8
+-  __DATA_CONST.__objc_protolist: 0x8c8
++  __DATA_CONST.__objc_protolist: 0x8f8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x5420
+-  __DATA_CONST.__objc_protorefs: 0x490
++  __DATA_CONST.__objc_selrefs: 0x54e0
++  __DATA_CONST.__objc_protorefs: 0x4a8
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x58
+-  __AUTH_CONST.__auth_got: 0x5520
+-  __AUTH_CONST.__const: 0x19dd8
+-  __AUTH_CONST.__cfstring: 0x9e0
+-  __AUTH_CONST.__objc_const: 0x25d90
++  __AUTH_CONST.__auth_got: 0x55f0
++  __AUTH_CONST.__const: 0x1b0b8
++  __AUTH_CONST.__cfstring: 0xa00
++  __AUTH_CONST.__objc_const: 0x278b0
+   __AUTH_CONST.__objc_doubleobj: 0xc0
+   __AUTH_CONST.__objc_arrayobj: 0x48
+-  __AUTH.__objc_data: 0x3958
+-  __AUTH.__data: 0x9698
+-  __DATA.__objc_ivar: 0xf8
+-  __DATA.__data: 0x9eb8
++  __AUTH.__objc_data: 0x3e68
++  __AUTH.__data: 0x9468
++  __DATA.__objc_ivar: 0x100
++  __DATA.__data: 0x98c8
+   __DATA.__objc_stublist: 0x20
+-  __DATA.__bss: 0x22ec0
+-  __DATA.__common: 0x340
+-  __DATA_DIRTY.__objc_data: 0x3488
+-  __DATA_DIRTY.__data: 0x13778
+-  __DATA_DIRTY.__bss: 0xe0a0
+-  __DATA_DIRTY.__common: 0x130
++  __DATA.__bss: 0x21f50
++  __DATA.__common: 0x2f0
++  __DATA_DIRTY.__objc_data: 0x35c8
++  __DATA_DIRTY.__data: 0x14ba8
++  __DATA_DIRTY.__bss: 0xe720
++  __DATA_DIRTY.__common: 0x168
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreText.framework/CoreText
+-  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+   - /System/Library/Frameworks/MessageUI.framework/MessageUI
+
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/SafariServices.framework/SafariServices
+   - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+   - /System/Library/PrivateFrameworks/AppleMediaServices.framework/AppleMediaServices
+   - /System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/AppleMediaServicesUI
+
+   - /System/Library/PrivateFrameworks/TeaTemplate.framework/TeaTemplate
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/WeatherUI.framework/WeatherUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 3955C1F1-721B-3681-878E-2D25BAA54E85
+-  Functions: 17977
+-  Symbols:   9534
+-  CStrings:  6528
++  UUID: 6F097B79-23A3-3095-9CE9-561E7D20DB83
++  Functions: 18278
++  Symbols:   9740
++  CStrings:  6598
+ 
+Symbols:
++ -[NANowPlayingDockedView _computeLabelWidthWithLeadingButton:]
++ -[NANowPlayingDockedView artworkEnabled]
++ -[NANowPlayingDockedView artworkSize]
++ -[NANowPlayingDockedView artworkView]
++ -[NANowPlayingDockedView initWithBackground:artworkEnabled:]
++ -[NANowPlayingDockedView setArtwork:]
++ -[NANowPlayingDockedView setArtwork:animated:]
++ -[NANowPlayingDockedView setArtworkEnabled:]
++ -[NANowPlayingDockedView setArtworkView:]
++ _NSParagraphStyleAttributeName
++ _OBJC_CLASS_$_NSMutableParagraphStyle
++ _OBJC_CLASS_$_SXTagSubscriptionStatus
++ _OBJC_CLASS_$_TUPageViewController
++ _OBJC_CLASS_$__TtC12NewsArticles11ArticleView
++ _OBJC_CLASS_$__TtC12NewsArticles25AudioArticleBarButtonItem
++ _OBJC_CLASS_$__TtC12NewsArticles26RecipeArticleBarButtonItem
++ _OBJC_CLASS_$__TtC12NewsArticles26RecipeViewerViewController
++ _OBJC_CLASS_$__TtC12NewsArticles27ArticleViewerIssueCoverView
++ _OBJC_CLASS_$__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ _OBJC_CLASS_$__TtC12NewsArticles29TagSubscriptionStatusProvider
++ _OBJC_CLASS_$__TtC5TeaUI14BouncingButton
++ _OBJC_IVAR_$_NANowPlayingDockedView._artworkEnabled
++ _OBJC_IVAR_$_NANowPlayingDockedView._artworkView
++ _OBJC_METACLASS_$__TtC12NewsArticles11ArticleView
++ _OBJC_METACLASS_$__TtC12NewsArticles25AudioArticleBarButtonItem
++ _OBJC_METACLASS_$__TtC12NewsArticles26RecipeArticleBarButtonItem
++ _OBJC_METACLASS_$__TtC12NewsArticles26RecipeViewerViewController
++ _OBJC_METACLASS_$__TtC12NewsArticles27ArticleViewerIssueCoverView
++ _OBJC_METACLASS_$__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ _OBJC_METACLASS_$__TtC12NewsArticles29TagSubscriptionStatusProvider
++ _OBJC_METACLASS_$__TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController
++ __DATA__TtC12NewsArticles11ArticleView
++ __DATA__TtC12NewsArticles11RecipeCache
++ __DATA__TtC12NewsArticles17EndOfRecipeConfig
++ __DATA__TtC12NewsArticles18RecipeViewerModule
++ __DATA__TtC12NewsArticles18RecipeViewerRouter
++ __DATA__TtC12NewsArticles18RecipeViewerStyler
++ __DATA__TtC12NewsArticles19RecipeViewerTracker
++ __DATA__TtC12NewsArticles20RecipeViewerAssembly
++ __DATA__TtC12NewsArticles21WeakRecipeCoordinator
++ __DATA__TtC12NewsArticles22RecipeViewerInteractor
++ __DATA__TtC12NewsArticles23RecipeViewerDataManager
++ __DATA__TtC12NewsArticles24RecipeViewerEventHandler
++ __DATA__TtC12NewsArticles25AudioArticleBarButtonItem
++ __DATA__TtC12NewsArticles25RecipeBlueprintRouteModel
++ __DATA__TtC12NewsArticles26BlueprintRecipeViewerToken
++ __DATA__TtC12NewsArticles26RecipeArticleBarButtonItem
++ __DATA__TtC12NewsArticles26RecipeCoordinatorContainer
++ __DATA__TtC12NewsArticles26RecipeViewerViewController
++ __DATA__TtC12NewsArticles27ArticleViewerIssueCoverView
++ __DATA__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ __DATA__TtC12NewsArticles29RecipeViewerBlueprintProvider
++ __DATA__TtC12NewsArticles29TagSubscriptionStatusAssembly
++ __DATA__TtC12NewsArticles29TagSubscriptionStatusProvider
++ __DATA__TtC12NewsArticles32CookingKitExternalRecipeHydrator
++ __DATA__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
++ __DATA__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
++ __DATA__TtC12NewsArticles33ArticleViewerIssueCoverViewStyler
++ __DATA__TtC12NewsArticles33AudioArticleViewerFeatureProvider
++ __DATA__TtC12NewsArticles33ExportToGroceryListCommandHandler
++ __DATA__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
++ __DATA__TtC12NewsArticles35ArticleViewerIssueCoverViewRenderer
++ __DATA__TtC12NewsArticles38ArticleViewerIssueCoverFeatureProvider
++ __DATA__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
++ __DATA__TtC12NewsArticles40ArticleViewerIssueCoverViewButtonFactory
++ __DATA__TtC12NewsArticles41ArticleViewerIssueCoverViewFeatureManager
++ __DATA__TtC12NewsArticles41PDFReplicaViewerIssueCoverFeatureProvider
++ __DATA__TtC12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManager
++ __DATA__TtC12NewsArticles50ArticleViewerIssueCoverViewLayoutAttributesFactory
++ __DATA__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
++ __DATA__TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController
++ __INSTANCE_METHODS__TtC12NewsArticles11ArticleView
++ __INSTANCE_METHODS__TtC12NewsArticles25AudioArticleBarButtonItem
++ __INSTANCE_METHODS__TtC12NewsArticles26RecipeArticleBarButtonItem
++ __INSTANCE_METHODS__TtC12NewsArticles27ArticleViewerIssueCoverView
++ __INSTANCE_METHODS__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ __INSTANCE_METHODS__TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController
++ __IVARS__TtC12NewsArticles11RecipeCache
++ __IVARS__TtC12NewsArticles17EndOfRecipeConfig
++ __IVARS__TtC12NewsArticles18RecipeViewerModule
++ __IVARS__TtC12NewsArticles18RecipeViewerRouter
++ __IVARS__TtC12NewsArticles18RecipeViewerStyler
++ __IVARS__TtC12NewsArticles19RecipeViewerTracker
++ __IVARS__TtC12NewsArticles21WeakRecipeCoordinator
++ __IVARS__TtC12NewsArticles22RecipeViewerInteractor
++ __IVARS__TtC12NewsArticles23RecipeViewerDataManager
++ __IVARS__TtC12NewsArticles24RecipeViewerEventHandler
++ __IVARS__TtC12NewsArticles25RecipeBlueprintRouteModel
++ __IVARS__TtC12NewsArticles26RecipeCoordinatorContainer
++ __IVARS__TtC12NewsArticles26RecipeViewerViewController
++ __IVARS__TtC12NewsArticles27ArticleViewerIssueCoverView
++ __IVARS__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ __IVARS__TtC12NewsArticles29RecipeViewerBlueprintProvider
++ __IVARS__TtC12NewsArticles29TagSubscriptionStatusProvider
++ __IVARS__TtC12NewsArticles32CookingKitExternalRecipeHydrator
++ __IVARS__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
++ __IVARS__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
++ __IVARS__TtC12NewsArticles33AudioArticleViewerFeatureProvider
++ __IVARS__TtC12NewsArticles33BlueprintRecipeViewerTokenSession
++ __IVARS__TtC12NewsArticles33ExportToGroceryListCommandHandler
++ __IVARS__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
++ __IVARS__TtC12NewsArticles35ArticleViewerIssueCoverViewRenderer
++ __IVARS__TtC12NewsArticles38ArticleViewerIssueCoverFeatureProvider
++ __IVARS__TtC12NewsArticles38BlueprintRecipeViewerBlueprintProvider
++ __IVARS__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
++ __IVARS__TtC12NewsArticles40ArticleViewerIssueCoverViewButtonFactory
++ __IVARS__TtC12NewsArticles41ArticleViewerIssueCoverViewFeatureManager
++ __IVARS__TtC12NewsArticles41PDFReplicaViewerIssueCoverFeatureProvider
++ __IVARS__TtC12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManager
++ __IVARS__TtC12NewsArticles50ArticleViewerIssueCoverViewLayoutAttributesFactory
++ __IVARS__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
++ __IVARS__TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController
++ __METACLASS_DATA__TtC12NewsArticles11ArticleView
++ __METACLASS_DATA__TtC12NewsArticles11RecipeCache
++ __METACLASS_DATA__TtC12NewsArticles17EndOfRecipeConfig
++ __METACLASS_DATA__TtC12NewsArticles18RecipeViewerModule
++ __METACLASS_DATA__TtC12NewsArticles18RecipeViewerRouter
++ __METACLASS_DATA__TtC12NewsArticles18RecipeViewerStyler
++ __METACLASS_DATA__TtC12NewsArticles19RecipeViewerTracker
++ __METACLASS_DATA__TtC12NewsArticles20RecipeViewerAssembly
++ __METACLASS_DATA__TtC12NewsArticles21WeakRecipeCoordinator
++ __METACLASS_DATA__TtC12NewsArticles22RecipeViewerInteractor
++ __METACLASS_DATA__TtC12NewsArticles23RecipeViewerDataManager
++ __METACLASS_DATA__TtC12NewsArticles24RecipeViewerEventHandler
++ __METACLASS_DATA__TtC12NewsArticles25AudioArticleBarButtonItem
++ __METACLASS_DATA__TtC12NewsArticles25RecipeBlueprintRouteModel
++ __METACLASS_DATA__TtC12NewsArticles26BlueprintRecipeViewerToken
++ __METACLASS_DATA__TtC12NewsArticles26RecipeArticleBarButtonItem
++ __METACLASS_DATA__TtC12NewsArticles26RecipeCoordinatorContainer
++ __METACLASS_DATA__TtC12NewsArticles26RecipeViewerViewController
++ __METACLASS_DATA__TtC12NewsArticles27ArticleViewerIssueCoverView
++ __METACLASS_DATA__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ __METACLASS_DATA__TtC12NewsArticles29RecipeViewerBlueprintProvider
++ __METACLASS_DATA__TtC12NewsArticles29TagSubscriptionStatusAssembly
++ __METACLASS_DATA__TtC12NewsArticles29TagSubscriptionStatusProvider
++ __METACLASS_DATA__TtC12NewsArticles32CookingKitExternalRecipeHydrator
++ __METACLASS_DATA__TtC12NewsArticles32RecipeViewerBarButtonItemFactory
++ __METACLASS_DATA__TtC12NewsArticles32RecipeViewerPageBlueprintFactory
++ __METACLASS_DATA__TtC12NewsArticles33ArticleViewerIssueCoverViewStyler
++ __METACLASS_DATA__TtC12NewsArticles33AudioArticleViewerFeatureProvider
++ __METACLASS_DATA__TtC12NewsArticles33ExportToGroceryListCommandHandler
++ __METACLASS_DATA__TtC12NewsArticles34RecipeArticleViewerFeatureProvider
++ __METACLASS_DATA__TtC12NewsArticles35ArticleViewerIssueCoverViewRenderer
++ __METACLASS_DATA__TtC12NewsArticles38ArticleViewerIssueCoverFeatureProvider
++ __METACLASS_DATA__TtC12NewsArticles38RecipeViewerPageViewControllerProvider
++ __METACLASS_DATA__TtC12NewsArticles40ArticleViewerIssueCoverViewButtonFactory
++ __METACLASS_DATA__TtC12NewsArticles41ArticleViewerIssueCoverViewFeatureManager
++ __METACLASS_DATA__TtC12NewsArticles41PDFReplicaViewerIssueCoverFeatureProvider
++ __METACLASS_DATA__TtC12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManager
++ __METACLASS_DATA__TtC12NewsArticles50ArticleViewerIssueCoverViewLayoutAttributesFactory
++ __METACLASS_DATA__TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider
++ __METACLASS_DATA__TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController
++ __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles26RecipeViewerViewController(NewsArticles)
++ __OBJC_$_INSTANCE_METHODS__TtC12NewsArticles29TagSubscriptionStatusProvider(NewsArticles|NewsArticles1)
++ __OBJC_$_PROP_LIST_SXTagSubscriptionStatusProviding
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NUArticleViewControllerLoadingListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTagSubscriptionStatusObserving
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SXTagSubscriptionStatusProviding
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SXTagSubscriptionStatusObserving
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SXTagSubscriptionStatusProviding
++ __OBJC_$_PROTOCOL_REFS_NUArticleViewControllerLoadingListener
++ __OBJC_$_PROTOCOL_REFS_NUSafeAreaInsetsProviding
++ __OBJC_$_PROTOCOL_REFS_SXTagSubscriptionStatusObserving
++ __OBJC_$_PROTOCOL_REFS_SXTagSubscriptionStatusProviding
++ __OBJC_CLASS_PROTOCOLS_$__TtC12NewsArticles29TagSubscriptionStatusProvider(NewsArticles|NewsArticles1)
++ __OBJC_LABEL_PROTOCOL_$_NUSafeAreaInsetsProviding
++ __OBJC_LABEL_PROTOCOL_$_SXTagSubscriptionStatusObserving
++ __OBJC_LABEL_PROTOCOL_$_SXTagSubscriptionStatusProviding
++ __OBJC_PROTOCOL_$_NUSafeAreaInsetsProviding
++ __OBJC_PROTOCOL_$_SXTagSubscriptionStatusObserving
++ __OBJC_PROTOCOL_$_SXTagSubscriptionStatusProviding
++ __PROPERTIES__TtC12NewsArticles29ArticleViewerIssueCoverButton
++ __PROPERTIES__TtC12NewsArticles29TagSubscriptionStatusProvider
++ __PROTOCOLS__TtC12NewsArticles11ArticleView
++ __PROTOCOLS__TtC12NewsArticles11ArticleView.1
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_10
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_2
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_3
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_4
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_5
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_6
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_7
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_8
++ ___60-[NANowPlayingDockedView initWithBackground:artworkEnabled:]_block_invoke_9
++ ___block_descriptor_40_e8_32s_e33_"UIImageSymbolConfiguration"8?0ls32l8
++ ___swift_memcpy169_8
++ ___unnamed_3
++ ___unnamed_5
++ ___unnamed_8
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_NewsArticles
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_NewsArticles
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_NewsArticles
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_NewsArticles
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_NewsArticles
++ _associated conformance 12NewsArticles16RecipeViewerPageO13TeaFoundation8DiffableAASH
++ _associated conformance 12NewsArticles16RecipeViewerPageO13TeaFoundation8DiffableAaD12Identifiable
++ _associated conformance 12NewsArticles16RecipeViewerPageO5TeaUI0E4TypeAA0E6MarkerAdEP_SQ
++ _associated conformance 12NewsArticles16RecipeViewerPageO5TeaUI0E4TypeAA0F10Foundation8Diffable
++ _associated conformance 12NewsArticles16RecipeViewerPageOSHAASQ
++ _associated conformance 12NewsArticles17LinkHandlerTraitsVs10SetAlgebraAASQ
++ _associated conformance 12NewsArticles17LinkHandlerTraitsVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 12NewsArticles17LinkHandlerTraitsVs9OptionSetAASY
++ _associated conformance 12NewsArticles17LinkHandlerTraitsVs9OptionSetAAs0G7Algebra
++ _associated conformance 12NewsArticles20RecipeSessionTriggerOSHAASQ
++ _associated conformance 12NewsArticles20RecipeViewControllerC5Event33_79180F22F085E90DC316DD9A2B1B9C2DLLOSHAASQ
++ _associated conformance 12NewsArticles20RecipeViewControllerC5TeaUI12PageViewableAA0F10Foundation12Identifiable
++ _associated conformance 12NewsArticles23RecipeViewerDataManagerC5Error33_54F0E3CF1CC50548A1147A4CE456B75ALLOSHAASQ
++ _associated conformance 12NewsArticles25RecipeBlueprintRouteModelC6TraitsOSHAASQ
++ _associated conformance 12NewsArticles26RecipeViewerViewControllerC5Event33_8BD4E40FB96FB5E702789588E749BEE0LLOSHAASQ
++ _associated conformance 12NewsArticles26RecipeViewerViewControllerC5TeaUI04PageeF12DelegateTypeAA0I0AdEP_AD0iK0
++ _associated conformance 12NewsArticles27ArticleViewerViewControllerC19NarrativeAudioState33_F478AAD21120CB51E42B62988BC310EFLLOSHAASQ
++ _associated conformance 12NewsArticles29TagSubscriptionStatusOverrideO11TeaSettings8SettableAASQ
++ _associated conformance 12NewsArticles29TagSubscriptionStatusOverrideOSHAASQ
++ _associated conformance 12NewsArticles33AudioArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
++ _associated conformance 12NewsArticles34RecipeArticleViewerFeatureProviderCAA0defG4TypeAA0F7ContextAaDP_AA0fiH0
++ _associated conformance 12NewsArticles38RecipeViewerPageViewControllerProviderC5TeaUI0efgH4TypeAA0E0AdEP_AD0eK0
++ _block_copy_helper.111
++ _block_copy_helper.113
++ _block_copy_helper.121
++ _block_copy_helper.123
++ _block_copy_helper.130
++ _block_copy_helper.140
++ _block_copy_helper.15
++ _block_copy_helper.152
++ _block_copy_helper.185
++ _block_copy_helper.24
++ _block_copy_helper.3
++ _block_copy_helper.31
++ _block_copy_helper.51
++ _block_copy_helper.52
++ _block_copy_helper.57
++ _block_copy_helper.58
++ _block_copy_helper.61
++ _block_copy_helper.71
++ _block_copy_helper.73
++ _block_copy_helper.77
++ _block_copy_helper.80
++ _block_copy_helper.82
++ _block_copy_helper.86
++ _block_copy_helper.90
++ _block_copy_helper.97
++ _block_descriptor.113
++ _block_descriptor.115
++ _block_descriptor.123
++ _block_descriptor.125
++ _block_descriptor.132
++ _block_descriptor.142
++ _block_descriptor.154
++ _block_descriptor.17
++ _block_descriptor.187
++ _block_descriptor.26
++ _block_descriptor.33
++ _block_descriptor.5
++ _block_descriptor.53
++ _block_descriptor.54
++ _block_descriptor.59
++ _block_descriptor.60
++ _block_descriptor.63
++ _block_descriptor.73
++ _block_descriptor.75
++ _block_descriptor.79
++ _block_descriptor.82
++ _block_descriptor.84
++ _block_descriptor.88
++ _block_descriptor.92
++ _block_descriptor.99
++ _block_destroy_helper.112
++ _block_destroy_helper.114
++ _block_destroy_helper.122
++ _block_destroy_helper.124
++ _block_destroy_helper.131
++ _block_destroy_helper.141
++ _block_destroy_helper.153
++ _block_destroy_helper.16
++ _block_destroy_helper.186
++ _block_destroy_helper.25
++ _block_destroy_helper.32
++ _block_destroy_helper.4
++ _block_destroy_helper.52
++ _block_destroy_helper.53
++ _block_destroy_helper.58
++ _block_destroy_helper.59
++ _block_destroy_helper.62
++ _block_destroy_helper.72
++ _block_destroy_helper.74
++ _block_destroy_helper.78
++ _block_destroy_helper.81
++ _block_destroy_helper.83
++ _block_destroy_helper.87
++ _block_destroy_helper.91
++ _block_destroy_helper.98
++ _flat unique So32SXTagSubscriptionStatusObserving_p
++ _get_enum_tag_for_layout_string 12NewsArticles21RecipeRouteIdentifierO
++ _get_enum_tag_for_layout_string 12NewsArticles21RecipeViewerBlueprintO
++ _get_enum_tag_for_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
++ _get_enum_tag_for_layout_string 12NewsArticles29PDFReplicaViewerFeatureActionO
++ _objc_msgSend$_computeLabelWidthWithLeadingButton:
++ _objc_msgSend$artworkEnabled
++ _objc_msgSend$artworkSize
++ _objc_msgSend$initWithBackground:artworkEnabled:
++ _objc_msgSend$isHidden
++ _objc_msgSend$labelColor
++ _objc_msgSend$setArtworkEnabled:
++ _objc_setAssociatedObject
++ _objc_sync_enter
++ _objc_sync_exit
++ _objectdestroy.170Tm
++ _objectdestroy.17Tm
++ _objectdestroy.21Tm
++ _objectdestroy.23Tm
++ _objectdestroy.24Tm
++ _objectdestroy.25Tm
++ _objectdestroy.36Tm
++ _objectdestroy.41Tm
++ _objectdestroy.73Tm
++ _objectdestroy.86Tm
++ _objectdestroy.88Tm
++ _objectdestroy.9Tm
++ _swift_coroFrameAlloc
++ _symbolic $s12NewsArticles012RecipeViewerC13RepresentableP
++ _symbolic $s12NewsArticles22RecipeViewerModuleTypeP
++ _symbolic $s12NewsArticles22RecipeViewerRouterTypeP
++ _symbolic $s12NewsArticles22RecipeViewerStylerTypeP
++ _symbolic $s12NewsArticles23RecipeViewerTrackerTypeP
++ _symbolic $s12NewsArticles24RecipeViewerObserverTypeP
++ _symbolic $s12NewsArticles26RecipeViewerInteractorTypeP
++ _symbolic $s12NewsArticles27RecipeViewerCoordinatorTypeP
++ _symbolic $s12NewsArticles27RecipeViewerDataManagerTypeP
++ _symbolic $s12NewsArticles28RecipeViewControllerDelegateP
++ _symbolic $s12NewsArticles28RecipeViewerEventHandlerTypeP
++ _symbolic $s12NewsArticles31RecipeViewerCoordinatorDelegateP
++ _symbolic $s12NewsArticles33RecipeViewerBlueprintProviderTypeP
++ _symbolic $s12NewsArticles34RecipeViewerInteractorTypeDelegateP
++ _symbolic $s12NewsArticles36RecipeViewerBarButtonItemFactoryTypeP
++ _symbolic $s12NewsArticles36RecipeViewerEventHandlerTypeDelegateP
++ _symbolic $s12NewsArticles36RecipeViewerPageBlueprintFactoryTypeP
++ _symbolic $s12NewsArticles37ArticleViewerIssueCoverViewStylerTypeP
++ _symbolic $s12NewsArticles39ArticleViewerIssueCoverViewRendererTypeP
++ _symbolic $s12NewsArticles42ArticleViewerIssueCoverFeatureProviderTypeP
++ _symbolic $s12NewsArticles44ArticleViewerIssueCoverViewButtonFactoryTypeP
++ _symbolic $s12NewsArticles45ArticleViewerIssueCoverViewFeatureManagerTypeP
++ _symbolic $s12NewsArticles45PDFReplicaViewerIssueCoverFeatureProviderTypeP
++ _symbolic $s12NewsArticles48PDFReplicaViewerIssueCoverViewFeatureManagerTypeP
++ _symbolic $s12NewsArticles49ArticleViewerIssueCoverViewFeatureManagerDelegateP
++ _symbolic $s12NewsArticles52PDFReplicaViewerIssueCoverViewFeatureManagerDelegateP
++ _symbolic $s12NewsArticles54ArticleViewerIssueCoverViewLayoutAttributesFactoryTypeP
++ _symbolic SDySS_____G 12NewsArticles16RecipeViewerPageO
++ _symbolic Say_____G 12NewsArticles012RecipeViewerC0V
++ _symbolic Say_____G 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
++ _symbolic Say_____G 12NewsArticles25RecipeBlueprintRouteModelC6TraitsO
++ _symbolic ScSySSG
++ _symbolic ScSySbG
++ _symbolic ScTySo8FCRecipeC______pG s5ErrorP
++ _symbolic Si______SgtIeAgHr_ 12NewsArticles012RecipeViewerC0V
++ _symbolic So11NSHashTableCy______pG So32SXTagSubscriptionStatusObservingP
++ _symbolic So16UINavigationItemCSgXw
++ _symbolic So23SXTagSubscriptionStatusC
++ _symbolic So26UIImageSymbolConfigurationC
++ _symbolic So6UIMenuC
++ _symbolic So6UIViewCSg14issueCoverView_t
++ _symbolic _____ 11TeaSettings0B0C12NewsArticlesE11CompressionV
++ _symbolic _____ 12NewsArticles012RecipeViewerC0V
++ _symbolic _____ 12NewsArticles012RecipeViewerC4PageV
++ _symbolic _____ 12NewsArticles017AsyncRecipeViewerD0V
++ _symbolic _____ 12NewsArticles017AsyncRecipeViewerD4TaskV
++ _symbolic _____ 12NewsArticles021BlueprintRecipeViewerC8ProviderC
++ _symbolic _____ 12NewsArticles11ArticleViewC
++ _symbolic _____ 12NewsArticles11RecipeCacheC
++ _symbolic _____ 12NewsArticles13RecipeSessionV
++ _symbolic _____ 12NewsArticles15BrandBarContentV
++ _symbolic _____ 12NewsArticles15RecipeViewModelV
++ _symbolic _____ 12NewsArticles16RecipeViewerPageO
++ _symbolic _____ 12NewsArticles17EndOfRecipeConfigC
++ _symbolic _____ 12NewsArticles17LinkHandlerTraitsV
++ _symbolic _____ 12NewsArticles18RecipeViewerConfigV
++ _symbolic _____ 12NewsArticles18RecipeViewerModuleC
++ _symbolic _____ 12NewsArticles18RecipeViewerRouterC
++ _symbolic _____ 12NewsArticles18RecipeViewerStylerC
++ _symbolic _____ 12NewsArticles19RecipeModuleContextV
++ _symbolic _____ 12NewsArticles19RecipeViewerTrackerC
++ _symbolic _____ 12NewsArticles20RecipeSessionTriggerO
++ _symbolic _____ 12NewsArticles20RecipeViewControllerC5Event33_79180F22F085E90DC316DD9A2B1B9C2DLLO
++ _symbolic _____ 12NewsArticles20RecipeViewerAssemblyC
++ _symbolic _____ 12NewsArticles21RecipeRouteIdentifierO
++ _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO
++ _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
++ _symbolic _____ 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
++ _symbolic _____ 12NewsArticles21WeakRecipeCoordinatorC
++ _symbolic _____ 12NewsArticles22RecipeViewerInteractorC
++ _symbolic _____ 12NewsArticles23ArticleViewerIssueCoverV
++ _symbolic _____ 12NewsArticles23RecipeViewerDataManagerC
++ _symbolic _____ 12NewsArticles23RecipeViewerDataManagerC5Error33_54F0E3CF1CC50548A1147A4CE456B75ALLO
++ _symbolic _____ 12NewsArticles24NowPlayingViewControllerC16ThumbnailRequest33_76CA0A200B7DB957C98E18A199381B8CLLO
++ _symbolic _____ 12NewsArticles24RecipeViewerEventHandlerC
++ _symbolic _____ 12NewsArticles25AudioArticleBarButtonItemC
++ _symbolic _____ 12NewsArticles25RecipeBlueprintRouteModelC
++ _symbolic _____ 12NewsArticles25RecipeBlueprintRouteModelC6TraitsO
++ _symbolic _____ 12NewsArticles26BlueprintRecipeViewerTokenC
++ _symbolic _____ 12NewsArticles26IssueCoverViewFeatureStateV
++ _symbolic _____ 12NewsArticles26RecipeArticleBarButtonItemC
++ _symbolic _____ 12NewsArticles26RecipeCoordinatorContainerC
++ _symbolic _____ 12NewsArticles26RecipeViewerViewControllerC
++ _symbolic _____ 12NewsArticles26RecipeViewerViewControllerC5Event33_8BD4E40FB96FB5E702789588E749BEE0LLO
++ _symbolic _____ 12NewsArticles27ArticleViewerIssueCoverViewC
++ _symbolic _____ 12NewsArticles27ArticleViewerViewControllerC19NarrativeAudioState33_F478AAD21120CB51E42B62988BC310EFLLO
++ _symbolic _____ 12NewsArticles28IssueCoverViewFeatureContextV
++ _symbolic _____ 12NewsArticles29ArticleViewerIssueCoverButtonC
++ _symbolic _____ 12NewsArticles29PDFReplicaViewerFeatureActionO
++ _symbolic _____ 12NewsArticles29RecipeViewerBlueprintProviderC
++ _symbolic _____ 12NewsArticles29TagSubscriptionStatusAssemblyC
++ _symbolic _____ 12NewsArticles29TagSubscriptionStatusOverrideO
++ _symbolic _____ 12NewsArticles29TagSubscriptionStatusProviderC
++ _symbolic _____ 12NewsArticles31BlueprintRecipeViewerTokenState33_4BC89CB3D96B763EF772AC751768F543LLO
++ _symbolic _____ 12NewsArticles31RecipeBlueprintRouteModelResultV
++ _symbolic _____ 12NewsArticles32ArticleViewerAudioFeatureContextV
++ _symbolic _____ 12NewsArticles32CookingKitExternalRecipeHydratorC
++ _symbolic _____ 12NewsArticles32RecipeBlueprintRouteModelRequestV
++ _symbolic _____ 12NewsArticles32RecipeViewerBarButtonItemFactoryC
++ _symbolic _____ 12NewsArticles32RecipeViewerPageBlueprintFactoryC
++ _symbolic _____ 12NewsArticles33ArticleMastheadRootViewController33_F6C36BFF6F0AD6186D9B355F40022442LLC
++ _symbolic _____ 12NewsArticles33ArticleViewerIssueCoverViewStylerC
++ _symbolic _____ 12NewsArticles33ArticleViewerRecipeFeatureContextV
++ _symbolic _____ 12NewsArticles33AudioArticleViewerFeatureProviderC
++ _symbolic _____ 12NewsArticles33BlueprintRecipeViewerTokenSessionC
++ _symbolic _____ 12NewsArticles33ExportToGroceryListCommandHandlerC
++ _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO0F4DataV
++ _symbolic _____ 12NewsArticles34RecipeArticleViewerFeatureProviderC
++ _symbolic _____ 12NewsArticles35ArticleViewerIssueCoverViewRendererC
++ _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO0F4DataV
++ _symbolic _____ 12NewsArticles38ArticleViewerIssueCoverFeatureProviderC
++ _symbolic _____ 12NewsArticles38PDFReplicaIssueCoverViewFeatureContextV
++ _symbolic _____ 12NewsArticles38RecipeViewerPageViewControllerProviderC
++ _symbolic _____ 12NewsArticles40ArticleViewerIssueCoverViewButtonFactoryC
++ _symbolic _____ 12NewsArticles41ArticleViewerIssueCoverViewFeatureManagerC
++ _symbolic _____ 12NewsArticles41PDFReplicaViewerIssueCoverFeatureProviderC
++ _symbolic _____ 12NewsArticles43ArticleViewerIssueCoverViewLayoutAttributesV
++ _symbolic _____ 12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManagerC
++ _symbolic _____ 12NewsArticles50ArticleViewerIssueCoverViewLayoutAttributesFactoryC
++ _symbolic _____ 12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProviderC
++ _symbolic _____ 5TeaUI22ScrollViewProxyManagerC
++ _symbolic _____ 8NewsFeed23TagMastheadViewProviderC
++ _symbolic _____ 8NewsFeed26ExportToGroceryListContextV
++ _symbolic _____5token______yxq_G17blueprintProvider_____yq0_q1_G0b6LayoutC0t 12NewsArticles26BlueprintRecipeViewerTokenC 5TeaUI0C8ProviderC AD0c6LayoutI0C
++ _symbolic _____7article______6actiont 12NewsArticles7ArticleV AA0C16NavigationActionO
++ _symbolic _____Sg 12NewsArticles13RecipeSessionV
++ _symbolic _____Sg 12NewsArticles19PlayableArticleInfoC
++ _symbolic _____Sg 12NewsArticles26IssueCoverViewFeatureStateV
++ _symbolic _____Sg 12NewsArticles27ArticleViewerIssueCoverViewC
++ _symbolic _____Sg 14CookingSupport33RecipeCardContainerViewControllerC
++ _symbolic _____Sg 8NewsFeed0B14ConfigMetadataV
++ _symbolic _____Sg So12UIEdgeInsetsV
++ _symbolic _____Sg14issueCoverView_t 12NewsArticles27ArticleViewerIssueCoverViewC
++ _symbolic _____SgSg 5TeaUI29TransitionContainerIdentifierO
++ _symbolic _____SgXw 12NewsArticles17EndOfRecipeModuleC
++ _symbolic _____SgXw 12NewsArticles22RecipeViewerInteractorC
++ _symbolic _____SgXw 12NewsArticles25RecipeBlueprintRouteModelC
++ _symbolic _____SgXw 12NewsArticles26RecipeViewerViewControllerC
++ _symbolic _____SgXw 12NewsArticles29ArticleViewerIssueCoverButtonC
++ _symbolic _____SgXw 12NewsArticles32RecipeViewerBarButtonItemFactoryC
++ _symbolic _____SgXw 12NewsArticles33AudioArticleViewerFeatureProviderC
++ _symbolic _____SgXw 12NewsArticles33EndOfRecipeViewControllerProviderC
++ _symbolic _____SgXw 12NewsArticles41ArticleViewerIssueCoverViewFeatureManagerC
++ _symbolic _____SgXw 12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManagerC
++ _symbolic _____SgXwz_Xx 12NewsArticles17EndOfRecipeModuleC
++ _symbolic _____SgXwz_Xx 12NewsArticles22RecipeViewerInteractorC
++ _symbolic _____SgXwz_Xx 12NewsArticles26RecipeViewerViewControllerC
++ _symbolic _____SgXwz_Xx 12NewsArticles32RecipeViewerBarButtonItemFactoryC
++ _symbolic _____SgXwz_Xx 12NewsArticles33EndOfRecipeViewControllerProviderC
++ _symbolic _____Sg_____cSg 5TeaUI33FloatingTabBarNavigationTitleViewC 12NewsArticles012RecipeViewerH10ControllerC
++ _symbolic ______Sb13openInBrowsert 10Foundation3URLV
++ _symbolic ______p 12NewsArticles16RecipeModuleTypeP
++ _symbolic ______p 12NewsArticles22RecipeViewerRouterTypeP
++ _symbolic ______p 12NewsArticles22RecipeViewerStylerTypeP
++ _symbolic ______p 12NewsArticles23RecipeViewerTrackerTypeP
++ _symbolic ______p 12NewsArticles26RecipeViewerInteractorTypeP
++ _symbolic ______p 12NewsArticles27RecipeViewerDataManagerTypeP
++ _symbolic ______p 12NewsArticles28RecipeViewerEventHandlerTypeP
++ _symbolic ______p 12NewsArticles33RecipeViewerBlueprintProviderTypeP
++ _symbolic ______p 12NewsArticles36RecipeViewerBarButtonItemFactoryTypeP
++ _symbolic ______p 12NewsArticles36RecipeViewerPageBlueprintFactoryTypeP
++ _symbolic ______p 12NewsArticles37ArticleViewerIssueCoverViewStylerTypeP
++ _symbolic ______p 12NewsArticles39ArticleViewerIssueCoverViewRendererTypeP
++ _symbolic ______p 12NewsArticles42ArticleViewerIssueCoverFeatureProviderTypeP
++ _symbolic ______p 12NewsArticles44ArticleViewerIssueCoverViewButtonFactoryTypeP
++ _symbolic ______p 12NewsArticles45ArticleViewerIssueCoverViewFeatureManagerTypeP
++ _symbolic ______p 12NewsArticles45PDFReplicaViewerIssueCoverFeatureProviderTypeP
++ _symbolic ______p 12NewsArticles48PDFReplicaViewerIssueCoverViewFeatureManagerTypeP
++ _symbolic ______p 12NewsArticles54ArticleViewerIssueCoverViewLayoutAttributesFactoryTypeP
++ _symbolic ______p 8NewsFeed25ExternalRecipeFactoryTypeP
++ _symbolic ______p 8NewsFeed8ZoomableP
++ _symbolic ______p So18FCChannelProvidingP
++ _symbolic ______pSg 10CookingKit21RecipeURLProviderTypeP
++ _symbolic ______pSg 10CookingKit35HorizontalParallaxModelProviderTypeP
++ _symbolic ______pSg 12NewsArticles27RecipeViewerCoordinatorTypeP
++ _symbolic ______pSg 12NewsArticles33NowPlayingArtworkConfigurableViewP
++ _symbolic ______pSg 8NewsFeed0B21DismissingManagerTypeP
++ _symbolic ______pSgXw 12NewsArticles21RecipeCoordinatorTypeP
++ _symbolic ______pSgXw 12NewsArticles24RecipeViewerObserverTypeP
++ _symbolic ______pSgXw 12NewsArticles28RecipeViewControllerDelegateP
++ _symbolic ______pSgXw 12NewsArticles34RecipeViewerInteractorTypeDelegateP
++ _symbolic ______pSgXw 12NewsArticles36RecipeViewerEventHandlerTypeDelegateP
++ _symbolic ______pSgXw 12NewsArticles49ArticleViewerIssueCoverViewFeatureManagerDelegateP
++ _symbolic ______pSgXw 12NewsArticles52PDFReplicaViewerIssueCoverViewFeatureManagerDelegateP
++ _symbolic ______pSgXw 5TeaUI39FloatingTabBarAccessoryProviderDelegateP
++ _symbolic ______pSgXw 8NewsFeed8ZoomableP
++ _symbolic _____ySDySS_____GG 2os21OSAllocatedUnfairLockV 12NewsArticles21WeakRecipeCoordinatorC
++ _symbolic _____ySS_G ScS12ContinuationV
++ _symbolic _____ySbG 2os21OSAllocatedUnfairLockV
++ _symbolic _____ySb_G ScS12ContinuationV
++ _symbolic _____ySo8FCRecipeCG 8NewsFeed0B12ScoredRecipeV
++ _symbolic _____y_____G 11TeaSettings7SettingC 12NewsArticles29TagSubscriptionStatusOverrideO
++ _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles20RecipeViewControllerC0C033_79180F22F085E90DC316DD9A2B1B9C2DLLO
++ _symbolic _____y_____G 13TeaFoundation12EventManagerC 12NewsArticles26RecipeViewerViewControllerC0C033_8BD4E40FB96FB5E702789588E749BEE0LLO
++ _symbolic _____y_____G 13TeaFoundation14SyncObservableC 12NewsArticles21RecipeViewerBlueprintO
++ _symbolic _____y_____G 5TeaUI20PageBlueprintManagerC 12NewsArticles012RecipeViewerC0O
++ _symbolic _____y_____GSg 5TeaUI22MastheadViewControllerC 12NewsArticles07Articlec4RootdE033_F6C36BFF6F0AD6186D9B355F40022442LLC
++ _symbolic _____y_____GSg 8NewsFeed14OfflineManagerC 0A8Articles06RecipeC5ModelV
++ _symbolic _____y_____SgG 13TeaFoundation14SyncObservableC 0A2UI33FloatingTabBarNavigationTitleViewC
++ _symbolic _____y____________________G 12NewsArticles33BlueprintRecipeViewerTokenSessionC AA05EndOfD17SectionDescriptorO AA0hiD5ModelO AA0hid6LayoutjK0O AA0hidmL0O
++ _symbolic _____y_____y_____G_______________yADGG 5TeaUI24ModernPageViewControllerC AA0D16BlueprintManagerC 12NewsArticles012RecipeViewerD0O AF0kldeF8ProviderC AF0kleF0C AA0dG9PrewarmerC
++ _symbolic _____y_____y__________GG 12NewsArticles23RecipeRouteModelFactoryC 5TeaUI23BlueprintLayoutProviderC AA05EndOfcJ17SectionDescriptorO AA0lmcjE0O
++ _symbolic _____y_____y__________GGSgXw 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO
++ _symbolic _____yxGSgXw 12NewsArticles021BlueprintRecipeViewerC8ProviderC
++ _symbolic _____yxGSgXwz______y__________G______Rz_____11LayoutModel_____Rpz_____ALRQ_____ALRQlXX 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF0C AA05EndOfdI17SectionDescriptorO AA0jkdI5ModelO AD0ciF4TypeP AA0deD13RepresentableP AL 0G10Foundation12IdentifiableP AD14VisualRankableP
++ _symbolic _____yxGSgXwz_x______Rz_____11LayoutModel_____Rpz_____AHRQ_____AHRQlXX 12NewsArticles021BlueprintRecipeViewerC8ProviderC 5TeaUI0c6LayoutF4TypeP AA0deD13RepresentableP AF 0G10Foundation12IdentifiableP AD14VisualRankableP
++ _symbolic _____yx_G 12NewsArticles24NowPlayingViewControllerC16ThumbnailRequest33_76CA0A200B7DB957C98E18A199381B8CLLO
++ _symbolic _____yxq_q0_q1_G 12NewsArticles31BlueprintRecipeViewerTokenState33_4BC89CB3D96B763EF772AC751768F543LLO
++ _symbolic y_____c 12NewsArticles29PDFReplicaViewerFeatureActionO
++ _symbolic y_____cSg 12NewsArticles26RecipeViewerViewControllerC
++ _type_layout_string 12NewsArticles012RecipeViewerC0V
++ _type_layout_string 12NewsArticles012RecipeViewerC4PageV
++ _type_layout_string 12NewsArticles017AsyncRecipeViewerD0V
++ _type_layout_string 12NewsArticles017AsyncRecipeViewerD4TaskV
++ _type_layout_string 12NewsArticles15BrandBarContentV
++ _type_layout_string 12NewsArticles16RecipeViewerPageO
++ _type_layout_string 12NewsArticles17LinkHandlerTraitsV
++ _type_layout_string 12NewsArticles18RecipeViewerConfigV
++ _type_layout_string 12NewsArticles21RecipeRouteIdentifierO
++ _type_layout_string 12NewsArticles21RecipeViewerBlueprintO
++ _type_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV
++ _type_layout_string 12NewsArticles21RecipeViewerBlueprintO0C4ItemV5ModelO
++ _type_layout_string 12NewsArticles26IssueCoverViewFeatureStateV
++ _type_layout_string 12NewsArticles29PDFReplicaViewerFeatureActionO
++ _type_layout_string 12NewsArticles31RecipeBlueprintRouteModelResultV
++ _type_layout_string 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO
++ _type_layout_string 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO0F4DataV
++ _type_layout_string 12NewsArticles35EndOfArticleLayoutSectionDescriptorO
++ _type_layout_string 12NewsArticles35EndOfArticleLayoutSectionDescriptorO0F4DataV
++ _type_layout_string 12NewsArticles38PDFReplicaIssueCoverViewFeatureContextV
++ _type_layout_string So16os_unfair_lock_sV
+- _FCOperationPurposeAudioFeed
+- _FCOperationPurposeSavedFeed
+- _FCOperationPurposeUnknown
+- _OBJC_CLASS_$__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- _OBJC_METACLASS_$__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- _OBJC_METACLASS_$__TtCC12NewsArticles27ModalToolbarFeatureProviderP33_1AF7F0043EBE645F99824835FC96155114LabelContainer
+- _UIAccessibilityIsSwitchControlRunning
+- _UIAccessibilityTraitNotEnabled
+- __DATA__TtC12NewsArticles20RecipeSharingManager
+- __DATA__TtC12NewsArticles21ExternalRecipeFactory
+- __DATA__TtC12NewsArticles23RecipeRouteModelFactory
+- __DATA__TtC12NewsArticles26RecipeBarButtonItemFactory
+- __DATA__TtC12NewsArticles27ModalToolbarFeatureProvider
+- __DATA__TtC12NewsArticles27NewsPlusLabelConfigProvider
+- __DATA__TtC12NewsArticles28NewsPlusLabelFeatureProvider
+- __DATA__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- __DATA__TtC12NewsArticles33NewsPlusLabelPaletteFeatureStyler
+- __DATA__TtC12NewsArticles35ArticleViewerImmersiveEffectChecker
+- __DATA__TtC12NewsArticles35NewsPlusLabelPaletteFeatureRenderer
+- __DATA__TtC12NewsArticles37NewsPlusLabelPaletteFeatureDescriptor
+- __DATA__TtC12NewsArticles38ModalNewsPlusPaletteVisibilityProvider
+- __DATA__TtC12NewsArticles38NewsPlusLabelFeatureVisibilityProvider
+- __DATA__TtC12NewsArticles41FollowChannelArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles43TableOfContentsArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles45LegacyLikeDislikeArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles45ToolbarNavigationArticleViewerFeatureProvider
+- __DATA__TtC12NewsArticles55ToolbarNavigationArticleViewerFeatureVisibilityProvider
+- __DATA__TtCC12NewsArticles27ModalToolbarFeatureProviderP33_1AF7F0043EBE645F99824835FC96155114LabelContainer
+- __INSTANCE_METHODS__TtC12NewsArticles27ModalToolbarFeatureProvider
+- __INSTANCE_METHODS__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- __INSTANCE_METHODS__TtCC12NewsArticles27ModalToolbarFeatureProviderP33_1AF7F0043EBE645F99824835FC96155114LabelContainer
+- __IVARS__TtC12NewsArticles20RecipeSharingManager
+- __IVARS__TtC12NewsArticles21ExternalRecipeFactory
+- __IVARS__TtC12NewsArticles26RecipeBarButtonItemFactory
+- __IVARS__TtC12NewsArticles27ModalToolbarFeatureProvider
+- __IVARS__TtC12NewsArticles27NewsPlusLabelConfigProvider
+- __IVARS__TtC12NewsArticles28NewsPlusLabelFeatureProvider
+- __IVARS__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- __IVARS__TtC12NewsArticles33NewsPlusLabelPaletteFeatureStyler
+- __IVARS__TtC12NewsArticles37NewsPlusLabelPaletteFeatureDescriptor
+- __IVARS__TtC12NewsArticles38NewsPlusLabelFeatureVisibilityProvider
+- __IVARS__TtC12NewsArticles41FollowChannelArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles43TableOfContentsArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles45LegacyLikeDislikeArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles45ToolbarNavigationArticleViewerFeatureProvider
+- __IVARS__TtC12NewsArticles55ToolbarNavigationArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles20RecipeSharingManager
+- __METACLASS_DATA__TtC12NewsArticles21ExternalRecipeFactory
+- __METACLASS_DATA__TtC12NewsArticles23RecipeRouteModelFactory
+- __METACLASS_DATA__TtC12NewsArticles26RecipeBarButtonItemFactory
+- __METACLASS_DATA__TtC12NewsArticles27ModalToolbarFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles27NewsPlusLabelConfigProvider
+- __METACLASS_DATA__TtC12NewsArticles28NewsPlusLabelFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles31NewsPlusLabelPaletteFeatureView
+- __METACLASS_DATA__TtC12NewsArticles33NewsPlusLabelPaletteFeatureStyler
+- __METACLASS_DATA__TtC12NewsArticles35ArticleViewerImmersiveEffectChecker
+- __METACLASS_DATA__TtC12NewsArticles35NewsPlusLabelPaletteFeatureRenderer
+- __METACLASS_DATA__TtC12NewsArticles37NewsPlusLabelPaletteFeatureDescriptor
+- __METACLASS_DATA__TtC12NewsArticles38ModalNewsPlusPaletteVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles38NewsPlusLabelFeatureVisibilityProvider
+- __METACLASS_DATA__TtC12NewsArticles41FollowChannelArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles43TableOfContentsArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles45LegacyLikeDislikeArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles45ToolbarNavigationArticleViewerFeatureProvider
+- __METACLASS_DATA__TtC12NewsArticles55ToolbarNavigationArticleViewerFeatureVisibilityProvider
+- __METACLASS_DATA__TtCC12NewsArticles27ModalToolbarFeatureProviderP33_1AF7F0043EBE645F99824835FC96155114LabelContainer
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_2
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_3
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_4
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_5
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_6
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_7
+- ___45-[NANowPlayingDockedView initWithBackground:]_block_invoke_8
+- ___swift_memcpy89_8
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_NewsArticles
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_NewsArticles
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_NewsArticles
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents06EntityD0AA0G0AdEP_AD0eG0
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents06EntityD0AaD22DynamicOptionsProvider
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents06EntityD0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
+- _associated conformance 12NewsArticles0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsE12Dependencies
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents07IndexedD0AaD0eD0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0E5ValueAaD07_IntentG0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0E5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0E5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0eD0AA12DefaultQueryAdEP_AD0dH0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0eD0AA2IDs12IdentifiableP_AD0D21IdentifierConvertible
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0eD0AAs12Identifiable
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0eD0AaD0E5Value
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents0eD0AaD20DisplayRepresentable
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents12_IntentValueAA0H4TypeAdEP_AdE
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents20DisplayRepresentableAaD04TypegH0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents20DisplayRepresentableAaD08InstancegH0
+- _associated conformance 12NewsArticles0A12RecipeEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 12NewsArticles0A12RecipeEntityV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
+- _associated conformance 12NewsArticles0A12RecipeEntityVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents06EntityD0AA0G0AdEP_AD0eG0
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents06EntityD0AaD22DynamicOptionsProvider
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents06EntityD0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
+- _associated conformance 12NewsArticles12ArticleQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsE12Dependencies
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents07IndexedD0AaD0eD0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0E5ValueAaD07_IntentG0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0E5ValueAaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0E5ValueAaD24TypeDisplayRepresentable
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0eD0AA12DefaultQueryAdEP_AD0dH0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0eD0AA2IDs12IdentifiableP_AD0D21IdentifierConvertible
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0eD0AAs12Identifiable
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0eD0AaD0E5Value
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents0eD0AaD20DisplayRepresentable
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents12_IntentValueAA0H4TypeAdEP_AdE
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents20DisplayRepresentableAaD04TypegH0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents20DisplayRepresentableAaD08InstancegH0
+- _associated conformance 12NewsArticles13ArticleEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
+- _associated conformance 12NewsArticles13ArticleEntityV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
+- _associated conformance 12NewsArticles13ArticleEntityVs12IdentifiableAA2IDsADP_SH
+- _associated conformance 12NewsArticles16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 12NewsArticles16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AaF09_SupportsI12Dependencies
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents06SystemE0AaD0fE0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0cE0AA5ValueAdEP_AD0fH0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0cE0AaD06SystemE0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 12NewsArticles16OpenRecipeIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles17LinkHandlerTraitsOSHAASQ
+- _associated conformance 12NewsArticles17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 12NewsArticles17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 12NewsArticles17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents06SystemE0AaD0fE0
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0cE0AA5ValueAdEP_AD0fH0
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0cE0AaD06SystemE0
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 12NewsArticles17OpenArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 12NewsArticles17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 12NewsArticles17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents013AudioPlaybackE0AaD06SystemE0
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents06SystemE0AaD0fE0
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 12NewsArticles17PlayArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 12NewsArticles17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 12NewsArticles17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 12NewsArticles17SaveArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 12NewsArticles17SaveArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 12NewsArticles17SaveArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 12NewsArticles17SaveArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles17SaveArticleIntentV5ErrorOSHAASQ
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
+- _associated conformance 12NewsArticles19UnsaveArticleIntentV5ErrorOSHAASQ
+- _block_copy_helper.100
+- _block_copy_helper.103
+- _block_copy_helper.106
+- _block_copy_helper.108
+- _block_copy_helper.116
+- _block_copy_helper.154
+- _block_copy_helper.2
+- _block_copy_helper.20
+- _block_copy_helper.29
+- _block_copy_helper.30
+- _block_copy_helper.35
+- _block_copy_helper.37
+- _block_copy_helper.40
+- _block_copy_helper.41
+- _block_copy_helper.47
+- _block_copy_helper.48
+- _block_copy_helper.53
+- _block_copy_helper.54
+- _block_copy_helper.64
+- _block_copy_helper.81
+- _block_copy_helper.94
+- _block_descriptor.102
+- _block_descriptor.105
+- _block_descriptor.108
+- _block_descriptor.110
+- _block_descriptor.118
+- _block_descriptor.156
+- _block_descriptor.22
+- _block_descriptor.31
+- _block_descriptor.32
+- _block_descriptor.37
+- _block_descriptor.39
+- _block_descriptor.4
+- _block_descriptor.42
+- _block_descriptor.43
+- _block_descriptor.49
+- _block_descriptor.50
+- _block_descriptor.55
+- _block_descriptor.56
+- _block_descriptor.66
+- _block_descriptor.83
+- _block_descriptor.96
+- _block_destroy_helper.101
+- _block_destroy_helper.104
+- _block_destroy_helper.107
+- _block_destroy_helper.109
+- _block_destroy_helper.117
+- _block_destroy_helper.155
+- _block_destroy_helper.21
+- _block_destroy_helper.3
+- _block_destroy_helper.30
+- _block_destroy_helper.31
+- _block_destroy_helper.36
+- _block_destroy_helper.38
+- _block_destroy_helper.41
+- _block_destroy_helper.42
+- _block_destroy_helper.48
+- _block_destroy_helper.49
+- _block_destroy_helper.54
+- _block_destroy_helper.55
+- _block_destroy_helper.65
+- _block_destroy_helper.82
+- _block_destroy_helper.95
+- _get_enum_tag_for_layout_string 10CookingKit14ExternalRecipeV12NewsArticlesE0D9LoadErrorO
+- _get_enum_tag_for_layout_string 12NewsArticles18RecipeRouteContextV10IdentifierO
+- _get_enum_tag_for_layout_string 12NewsArticles21RecipeToolbarItemTypeO
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.4
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.5
+- _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.8
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy12NewsArticles010OpenRecipeC0VGAA0dE0HPyHC.7
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy12NewsArticles011OpenArticleC0VGAA0dE0HPyHC.3
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy12NewsArticles011PlayArticleC0VGAA0dE0HPyHC.4
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy12NewsArticles011SaveArticleC0VGAA0dE0HPyHC.3
+- _get_witness_table 10AppIntents22IntentParameterSummaryVy12NewsArticles013UnsaveArticleC0VGAA0dE0HPyHC.3
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.10
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.4
+- _get_witness_table 16CoreTransferable19ProxyRepresentationVy12NewsArticles0E12RecipeEntityV10Foundation3URLVGAA08TransferD0HPyHC.2
+- _get_witness_table 16CoreTransferable19ProxyRepresentationVy12NewsArticles13ArticleEntityV10Foundation3URLVGAA08TransferD0HPyHC.2
+- _keypath_hashTm
+- _objc_release_x7
+- _objectdestroy.139Tm
+- _objectdestroy.29Tm
+- _objectdestroy.45Tm
+- _objectdestroy.59Tm
+- _objectdestroy.62Tm
+- _objectdestroy.75Tm
+- _symbolic $s10AppIntents0A6EntityP
+- _symbolic $s10AppIntents0A6IntentP
+- _symbolic $s10AppIntents10OpenIntentP
+- _symbolic $s10AppIntents11EntityQueryP
+- _symbolic $s10AppIntents12_IntentValueP
+- _symbolic $s10AppIntents22DynamicOptionsProviderP
+- _symbolic $s12NewsArticles0A27PlusLabelConfigProviderTypeP
+- _symbolic $s12NewsArticles0A33PlusLabelPaletteFeatureStylerTypeP
+- _symbolic $s12NewsArticles0A35PlusLabelPaletteFeatureRendererTypeP
+- _symbolic $s12NewsArticles0A38PlusLabelFeatureVisibilityProviderTypeP
+- _symbolic $s12NewsArticles25ExternalRecipeFactoryTypeP
+- _symbolic $s12NewsArticles26ArticleOptionsProviderTypeP
+- _symbolic $s12NewsArticles29OpenRecipeIntentNavigatorTypeP
+- _symbolic $s12NewsArticles30OpenArticleIntentNavigatorTypeP
+- _symbolic $s12NewsArticles30RecipeBarButtonItemFactoryTypeP
+- _symbolic $s12NewsArticles39ArticleViewerImmersiveEffectCheckerTypeP
+- _symbolic $s12NewsArticles59ToolbarNavigationArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic $s12NewsArticles8ZoomableP
+- _symbolic $s16CoreTransferable0B0P
+- _symbolic SS_SS6formatt
+- _symbolic Say_____G 12NewsArticles0A12RecipeEntityV
+- _symbolic Say_____G 12NewsArticles13ArticleEntityV
+- _symbolic SbIeAgHr_
+- _symbolic So26FCNewsPlusLabelConfigGroupCSgSg
+- _symbolic So6UIViewC10sourceView_t
+- _symbolic _____ 10CookingKit14ExternalRecipeV12NewsArticlesE0D9LoadErrorO
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0O
+- _symbolic _____ 10Foundation15AttributeScopesO5UIKitE0D10AttributesV04FontB0O
+- _symbolic _____ 10Foundation22AttributeDynamicLookupO
+- _symbolic _____ 12NewsArticles05ModalA29PlusPaletteVisibilityProviderC
+- _symbolic _____ 12NewsArticles0A11RecipeQueryV
+- _symbolic _____ 12NewsArticles0A12RecipeEntityV
+- _symbolic _____ 12NewsArticles0A23PlusLabelConfigProviderC
+- _symbolic _____ 12NewsArticles0A24PlusLabelFeatureProviderC
+- _symbolic _____ 12NewsArticles0A27PlusLabelPaletteFeatureViewC
+- _symbolic _____ 12NewsArticles0A29PlusLabelPaletteFeatureStylerC
+- _symbolic _____ 12NewsArticles0A31PlusLabelPaletteFeatureRendererC
+- _symbolic _____ 12NewsArticles0A33PlusLabelPaletteFeatureDescriptorC
+- _symbolic _____ 12NewsArticles0A34PlusLabelFeatureVisibilityProviderC
+- _symbolic _____ 12NewsArticles12ArticleQueryV
+- _symbolic _____ 12NewsArticles13ArticleEntityV
+- _symbolic _____ 12NewsArticles16OpenRecipeIntentV
+- _symbolic _____ 12NewsArticles16OpenRecipeIntentV0D22DynamicOptionsProviderV
+- _symbolic _____ 12NewsArticles17EndOfRecipeConfigV
+- _symbolic _____ 12NewsArticles17LinkHandlerTraitsO
+- _symbolic _____ 12NewsArticles17OpenArticleIntentV
+- _symbolic _____ 12NewsArticles17OpenArticleIntentV0D15OptionsProviderV
+- _symbolic _____ 12NewsArticles17PlayArticleIntentV
+- _symbolic _____ 12NewsArticles17PlayArticleIntentV0D15OptionsProviderV
+- _symbolic _____ 12NewsArticles17RecipeToolbarItemV
+- _symbolic _____ 12NewsArticles17SaveArticleIntentV
+- _symbolic _____ 12NewsArticles17SaveArticleIntentV0D15OptionsProviderV
+- _symbolic _____ 12NewsArticles17SaveArticleIntentV5ErrorO
+- _symbolic _____ 12NewsArticles18RecipeRouteContextV10IdentifierO
+- _symbolic _____ 12NewsArticles19RecipeBarButtonItemV
+- _symbolic _____ 12NewsArticles19UnsaveArticleIntentV
+- _symbolic _____ 12NewsArticles19UnsaveArticleIntentV0D15OptionsProviderV
+- _symbolic _____ 12NewsArticles19UnsaveArticleIntentV5ErrorO
+- _symbolic _____ 12NewsArticles20RecipeSharingManagerC
+- _symbolic _____ 12NewsArticles20RecipeViewControllerC0cD5Model33_79180F22F085E90DC316DD9A2B1B9C2DLLV
+- _symbolic _____ 12NewsArticles21ExternalRecipeFactoryC
+- _symbolic _____ 12NewsArticles21RecipeToolbarItemTypeO
+- _symbolic _____ 12NewsArticles22EndOfRecipeDataManagerC5Error33_1C0FAA6170F21967F52628EDE2DB94D6LLO
+- _symbolic _____ 12NewsArticles23RecipeRouteModelRequestV
+- _symbolic _____ 12NewsArticles26RecipeBarButtonItemFactoryC
+- _symbolic _____ 12NewsArticles27ModalToolbarFeatureProviderC
+- _symbolic _____ 12NewsArticles27ModalToolbarFeatureProviderC14LabelContainer33_1AF7F0043EBE645F99824835FC961551LLC
+- _symbolic _____ 12NewsArticles27SavedArticleOptionsProviderV
+- _symbolic _____ 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO4DataV
+- _symbolic _____ 12NewsArticles35ArticleViewerImmersiveEffectCheckerC
+- _symbolic _____ 12NewsArticles35EndOfArticleLayoutSectionDescriptorO4DataV
+- _symbolic _____ 12NewsArticles41FollowChannelArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles43TableOfContentsArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles45LegacyLikeDislikeArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles45ToolbarNavigationArticleViewerFeatureProviderC
+- _symbolic _____ 12NewsArticles55ToolbarNavigationArticleViewerFeatureVisibilityProviderC
+- _symbolic _____ 5TeaUI19ToolbarTemplateItemO
+- _symbolic _____ 5TeaUI8CommandsC12NewsArticlesE0D9PlusLabelV
+- _symbolic _____ 5TeaUI8CommandsC12NewsArticlesE10TextSizingV
+- _symbolic _____ 5TeaUI8CommandsC12NewsArticlesE7ZoomingV
+- _symbolic _____ So21FCRecipeContentFormatV
+- _symbolic _____ So23FCRecipeContentEncodingV
+- _symbolic _____6recipe_t 12NewsArticles16RecipeRouteModelO
+- _symbolic _____7article______6actionSb31disableTransparentNavigationBart 12NewsArticles7ArticleV AA0C16NavigationActionO
+- _symbolic _____Sg 12NewsArticles17RecipeToolbarItemV
+- _symbolic _____SgXw 12NewsArticles26RecipeBarButtonItemFactoryC
+- _symbolic _____SgXw 12NewsArticles41FollowChannelArticleViewerFeatureProviderC
+- _symbolic _____SgXwz_Xx 12NewsArticles26RecipeBarButtonItemFactoryC
+- _symbolic _____SgXwz_Xx 12NewsArticles41FollowChannelArticleViewerFeatureProviderC
+- _symbolic ______SS10identifiert 5TeaUI17ButtonToolbarItemC
+- _symbolic ______So6UIMenuCt 5TeaUI15MenuToolbarItemC
+- _symbolic ______p 10CookingKit14TipManagerTypeP
+- _symbolic ______p 12NewsArticles0A27PlusLabelConfigProviderTypeP
+- _symbolic ______p 12NewsArticles0A33PlusLabelPaletteFeatureStylerTypeP
+- _symbolic ______p 12NewsArticles0A35PlusLabelPaletteFeatureRendererTypeP
+- _symbolic ______p 12NewsArticles0A38PlusLabelFeatureVisibilityProviderTypeP
+- _symbolic ______p 12NewsArticles25ExternalRecipeFactoryTypeP
+- _symbolic ______p 12NewsArticles27RecipeRouteModelFactoryTypeP
+- _symbolic ______p 12NewsArticles30RecipeBarButtonItemFactoryTypeP
+- _symbolic ______p 12NewsArticles39ArticleViewerImmersiveEffectCheckerTypeP
+- _symbolic ______p 12NewsArticles59ToolbarNavigationArticleViewerFeatureVisibilityProviderTypeP
+- _symbolic ______p 12NewsArticles8ZoomableP
+- _symbolic ______pSg 12NewsArticles43NowPlayingActivityViewControllerFactoryTypeP
+- _symbolic ______pSgXw 12NewsArticles22BrandBarHeightProviderP
+- _symbolic ______pSgXw 12NewsArticles8ZoomableP
+- _symbolic _____ySSG 10AppIntents14EntityPropertyC
+- _symbolic _____ySSSgG 10AppIntents14EntityPropertyC
+- _symbolic _____ySaySSGSgG 10AppIntents14EntityPropertyC
+- _symbolic _____y_____A3BG 10AppIntents21IntentResultContainerV s5NeverO
+- _symbolic _____y_____G 10AppIntents0A10DependencyC 0A9Analytics7TrackerC
+- _symbolic _____y_____G 10AppIntents15IntentParameterC 12NewsArticles0E12RecipeEntityV
+- _symbolic _____y_____G 10AppIntents15IntentParameterC 12NewsArticles13ArticleEntityV
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 12NewsArticles010OpenRecipeC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 12NewsArticles011OpenArticleC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 12NewsArticles011PlayArticleC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 12NewsArticles011SaveArticleC0V
+- _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 12NewsArticles013UnsaveArticleC0V
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 12NewsArticles0F12RecipeEntityV
+- _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 12NewsArticles13ArticleEntityV
+- _symbolic _____y______G 12NewsArticles34EndOfRecipeLayoutSectionDescriptorO4DataV 0A4Feed06FormatJ5GroupV
+- _symbolic _____y______G 12NewsArticles35EndOfArticleLayoutSectionDescriptorO4DataV 0A4Feed06FormatJ5GroupV
+- _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 12NewsArticles0E12RecipeEntityV 10Foundation3URLV
+- _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 12NewsArticles13ArticleEntityV 10Foundation3URLV
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 12NewsArticles26ArticleOptionsProviderTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 12NewsArticles29OpenRecipeIntentNavigatorTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 12NewsArticles30OpenArticleIntentNavigatorTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 5TeaUI17CommandCenterTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsCore17RecipeHistoryTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed17RecipeServiceTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed19HeadlineServiceTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed21ShareLinkProviderTypeP
+- _symbolic _____y______pG 10AppIntents0A10DependencyC So31FCBundleSubscriptionManagerTypeP
+- _type_layout_string 10CookingKit14ExternalRecipeV12NewsArticlesE0D9LoadErrorO
+- _type_layout_string 12NewsArticles0A11RecipeQueryV
+- _type_layout_string 12NewsArticles12ArticleQueryV
+- _type_layout_string 12NewsArticles16OpenRecipeIntentV
+- _type_layout_string 12NewsArticles16OpenRecipeIntentV0D22DynamicOptionsProviderV
+- _type_layout_string 12NewsArticles17EndOfRecipeConfigV
+- _type_layout_string 12NewsArticles17OpenArticleIntentV
+- _type_layout_string 12NewsArticles17OpenArticleIntentV0D15OptionsProviderV
+- _type_layout_string 12NewsArticles17PlayArticleIntentV
+- _type_layout_string 12NewsArticles17PlayArticleIntentV0D15OptionsProviderV
+- _type_layout_string 12NewsArticles17SaveArticleIntentV
+- _type_layout_string 12NewsArticles17SaveArticleIntentV0D15OptionsProviderV
+- _type_layout_string 12NewsArticles18RecipeRouteContextV10IdentifierO
+- _type_layout_string 12NewsArticles19UnsaveArticleIntentV
+- _type_layout_string 12NewsArticles19UnsaveArticleIntentV0D15OptionsProviderV
+- _type_layout_string 12NewsArticles21RecipeToolbarItemTypeO
+- _type_layout_string 12NewsArticles22EndOfRecipeDataManagerC5Error33_1C0FAA6170F21967F52628EDE2DB94D6LLO
+- _type_layout_string 12NewsArticles27SavedArticleOptionsProviderV
+- _type_layout_string So11CMTimeFlagsV
+CStrings:
++ " openInBrowser "
++ "$__lazy_storage_$_transitionIdentifier"
++ "*"
++ "@\"<FCRecipeItemFactoryType>\"16@0:8"
++ "@\"SXTagSubscriptionStatus\"16@0:8"
++ "@\"SXTagSubscriptionStatus\"24@0:8@\"SXTagSubscriptionStatus\"16"
++ "@\"UIImageSymbolConfiguration\"8@?0"
++ "@\"UIMenu\"24@?0@8@\"NSArray\"16"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "Accessibility hint for the article viewer issue cover button"
++ "Accessibility label for the 'Pause' configuration of the audio navigation bar button in a News article."
++ "Accessibility label for the 'Play' configuration of the audio navigation bar button in a News article."
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "B40@0:8@16@24@32"
++ "Cancel button to close search in article"
++ "Cancelling view session from page viewable, recipeIdentifier=%s"
++ "Creating page blueprint for recipe=%s"
++ "Deferring view session start for recipe=%s, reason='viewModel is nil'"
++ "Did show recipe page=%s"
++ "Failed to add ingredients to grocery list in export to grocery list command handler with error: %@"
++ "Failed to find the active tracker instance for creating EndOfRecipe chained tracker, recipeCardID=%s, recipeID=%s"
++ "Failed to load recipe from viewer blueprint, error=%@"
++ "Failed to lookup recipe for EndOfRecipe feed, recipeID=%s"
++ "Failed to resolve coordinator tracker"
++ "NUSafeAreaInsetsProviding"
++ "NewsArticles.ArticleMastheadRootViewController"
++ "NewsArticles.ArticleViewerIssueCoverButton"
++ "NewsArticles.ArticleViewerIssueCoverView"
++ "NewsArticles.RecipeViewerViewController"
++ "NewsArticles/ArticleView.swift"
++ "NewsArticles/ArticleViewerIssueCoverButton.swift"
++ "NewsArticles/ArticleViewerIssueCoverView.swift"
++ "NewsArticles/RecipeSession.swift"
++ "NewsArticles/RecipeViewerPage.swift"
++ "NewsArticles/RecipeViewerViewController.swift"
++ "NewsArticles/TagSubscriptionStatusProvider.swift"
++ "Prewarming blueprint..."
++ "RecipeURLProvider not assembled. ExportToGroceryListCommandHandler not configured. Unable to present Reminders UI."
++ "Resigning view session=%s, recipeIdentifier=%s"
++ "Resuming view session=%s, recipeIdentifier=%s"
++ "SXTagSubscriptionStatusObserving"
++ "SXTagSubscriptionStatusProviding"
++ "Selecting recipe viewer page=%s"
++ "Spotlight articles do not support the More To Read Group"
++ "T@\"<FCRecipeItemFactoryType>\",R,N"
++ "T@\"SXTagSubscriptionStatus\",N,&,VtagSubscriptionStatus"
++ "T@\"SXTagSubscriptionStatus\",R,N"
++ "TB,N,V_artworkEnabled"
++ "The title for a dislike (thumbs down icon) button for an article"
++ "The title for a like (thumbs up icon) button for an article"
++ "The title for an article's share button."
++ "The title for an article's text resize button."
++ "This API is no longer invoked. Replaced with RecipeViewerPageViewControllerProvider"
++ "Top presented view controller not found. Unable to present Reminders UI."
++ "Triggering new view session=%s from page viewable, recipeIdentifier=%s"
++ "Unable to find a navigation item associated with the feature ID %s.  Removal of this feature will fail."
++ "Unable unload recipe since it's not currently loaded"
++ "_TtC12NewsArticles11ArticleView"
++ "_TtC12NewsArticles11RecipeCache"
++ "_TtC12NewsArticles17EndOfRecipeConfig"
++ "_TtC12NewsArticles18RecipeViewerModule"
++ "_TtC12NewsArticles18RecipeViewerRouter"
++ "_TtC12NewsArticles18RecipeViewerStyler"
++ "_TtC12NewsArticles19RecipeViewerTracker"
++ "_TtC12NewsArticles20RecipeViewerAssembly"
++ "_TtC12NewsArticles21WeakRecipeCoordinator"
++ "_TtC12NewsArticles22RecipeViewerInteractor"
++ "_TtC12NewsArticles23RecipeViewerDataManager"
++ "_TtC12NewsArticles24RecipeViewerEventHandler"
++ "_TtC12NewsArticles25AudioArticleBarButtonItem"
++ "_TtC12NewsArticles25RecipeBlueprintRouteModel"
++ "_TtC12NewsArticles26BlueprintRecipeViewerToken"
++ "_TtC12NewsArticles26RecipeArticleBarButtonItem"
++ "_TtC12NewsArticles26RecipeCoordinatorContainer"
++ "_TtC12NewsArticles26RecipeViewerViewController"
++ "_TtC12NewsArticles27ArticleViewerIssueCoverView"
++ "_TtC12NewsArticles29ArticleViewerIssueCoverButton"
++ "_TtC12NewsArticles29RecipeViewerBlueprintProvider"
++ "_TtC12NewsArticles29TagSubscriptionStatusAssembly"
++ "_TtC12NewsArticles29TagSubscriptionStatusProvider"
++ "_TtC12NewsArticles32CookingKitExternalRecipeHydrator"
++ "_TtC12NewsArticles32RecipeViewerBarButtonItemFactory"
++ "_TtC12NewsArticles32RecipeViewerPageBlueprintFactory"
++ "_TtC12NewsArticles33ArticleViewerIssueCoverViewStyler"
++ "_TtC12NewsArticles33AudioArticleViewerFeatureProvider"
++ "_TtC12NewsArticles33ExportToGroceryListCommandHandler"
++ "_TtC12NewsArticles34RecipeArticleViewerFeatureProvider"
++ "_TtC12NewsArticles35ArticleViewerIssueCoverViewRenderer"
++ "_TtC12NewsArticles38ArticleViewerIssueCoverFeatureProvider"
++ "_TtC12NewsArticles38RecipeViewerPageViewControllerProvider"
++ "_TtC12NewsArticles40ArticleViewerIssueCoverViewButtonFactory"
++ "_TtC12NewsArticles41ArticleViewerIssueCoverViewFeatureManager"
++ "_TtC12NewsArticles41PDFReplicaViewerIssueCoverFeatureProvider"
++ "_TtC12NewsArticles44PDFReplicaViewerIssueCoverViewFeatureManager"
++ "_TtC12NewsArticles50ArticleViewerIssueCoverViewLayoutAttributesFactory"
++ "_TtC12NewsArticles50TableOfContentsArticleViewerToolbarFeatureProvider"
++ "_TtC12NewsArticlesP33_F6C36BFF6F0AD6186D9B355F4002244233ArticleMastheadRootViewController"
++ "_artworkEnabled"
++ "_computeLabelWidthWithLeadingButton:"
++ "_observer"
++ "_recipeWasLoaded"
++ "_setSecondaryActionsProvider:"
++ "_tracker"
++ "adSponsorshipsEnabled"
++ "article action "
++ "artworkEnabled"
++ "baseSymbolConfiguration"
++ "blueprintTraits"
++ "cancelButton"
++ "cancelButtonTapped"
++ "configurableOffersEnabled"
++ "configurableOffersMappingResourceId"
++ "contentScrollViewForEdge:"
++ "contextualNames"
++ "coordinatorContainer"
++ "coordinators"
++ "currentModel"
++ "currentRecipeViewController"
++ "defaultTTLForArticleRecords"
++ "defaultTTLForIssueRecords"
++ "defaultTTLForPurchaseLookupRecords"
++ "defaultTTLForPuzzleRecords"
++ "defaultTTLForPuzzleTypeRecords"
++ "defaultTTLForRecipeListRecords"
++ "defaultTTLForRecipeRecords"
++ "defaultTTLForSportsEventRecords"
++ "defaultTTLForTagRecords"
++ "dismissingIdentifier"
++ "exportToGroceryListEnabled"
++ "featureProvider"
++ "featureState"
++ "feedDismissingManager"
++ "following"
++ "freeRecentRecipeListIDs"
++ "freeTagRecipeListIDPrefix"
++ "hand.thumbsdown.fill"
++ "hand.thumbsdown.fill.thumbsup"
++ "hand.thumbsdown.thumbsup"
++ "hand.thumbsdown.thumbsup.fill"
++ "hand.thumbsup.fill"
++ "hasRecipeList"
++ "hasUnclippedForBackgroundView"
++ "horizontalParallaxModelProvider"
++ "initWithBackground:artworkEnabled:"
++ "initWithFollowing:tags:"
++ "initWithShouldAutoPlayVideo:scrollPosition:"
++ "isPrimary"
++ "isPrimaryContinuation"
++ "isPrimaryStream"
++ "isTodaySponsorshipEligible"
++ "issueCoverContainerView"
++ "issueCoverView"
++ "issueCoverViewFeatureManager"
++ "lastSafeAreaInsets"
++ "layoutAttributes pluginIdentifier "
++ "loadContextBlock"
++ "loadedArticle:didApplyDocumentStyle:"
++ "mastheadViewController"
++ "mostVisibleRecipeViewController"
++ "narrativeAudioState"
++ "navigationTitleView"
++ "navigationTitleViewBlock"
++ "news_articles.compression.allow_navigation_bar_compression"
++ "newsarticles.anf.conditional.offer_identifier_override"
++ "newsarticles.anf.conditional.offer_identifier_override_enabled"
++ "newsarticles.anf.conditional.tag_subscription_status"
++ "newsarticles.article.audio"
++ "newsarticles.article.recipe"
++ "notFollowing"
++ "offerIdentifier"
++ "offerIdentifierOverrideEnabled"
++ "onFailedToLoadRecipeBlock"
++ "onPresentedRecipeBlock"
++ "overrideOfferIdentifier:"
++ "overrideTagSubscriptionStatus:"
++ "paidRecentRecipeListIDs"
++ "paidTagRecipeListIDPrefix"
++ "parallaxX"
++ "recipeAutoFavoritesServiceConfigurationJSONData"
++ "recipeCache"
++ "recipeCoordinatorContainer"
++ "recipeIdentifier"
++ "recipeItemFactory"
++ "recipeModule"
++ "recipePersonalizationAllowlistResourceId"
++ "recipePersonalizationBundleIdMappingResourceId"
++ "recipePersonalizationUrlMappingResourceId"
++ "recipeURLProvider"
++ "recipeViewSessionIDContinuation"
++ "recipeViewSessionIDStream"
++ "recipeViewerStyler"
++ "recipeViewingSession"
++ "scrollViewProxyManager"
++ "sender"
++ "setArtworkEnabled:"
++ "setContentAlpha:"
++ "setContentScrollView:forEdge:"
++ "setLeftItemsSupplementBackButton:"
++ "setLineBreakMode:"
++ "setPrimaryAction:"
++ "setTagSubscriptionStatus:"
++ "subscribedTagIDs"
++ "tagMastheadProvider"
++ "tagSubscriptionStatus"
++ "tagSubscriptionStatusChangedFromStatus:"
++ "tags"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "todayWidgetForYouMaxAIGArticles"
++ "updateDismissingIdentifier:"
++ "v24@0:8@\"<SXTagSubscriptionStatusObserving>\"16"
++ "v24@0:8@\"SXTagSubscriptionStatus\"16"
++ "v32@0:8@\"FCArticle\"16@\"<SXDocumentStyle>\"24"
++ "viewSafeAreaInsetsDidChange"
++ "viewSessionID"
++ "viewingSession"
++ "willLoadArticle:withContext:"
++ "windowTitle"
++ "xmark"
+- ")"
+- "Accessibility label for the NewsPlusLabel"
+- "Add the article to your Saved Stories list"
+- "Apple News+ Badge"
+- "Decrease Text Size"
+- "Decrease the text size for the current article"
+- "Delete the article from your Saved Stories list"
+- "Done button to close search in article"
+- "Error executing .playNow command with error %@"
+- "Expect a tracker via container injection of `RecipeCoordinatorType`"
+- "Failed to load the suitable for diet tag: %{public}@"
+- "Increase Text Size"
+- "Increase the text size for the current article"
+- "NewsArticles.NewsPlusLabelPaletteFeatureView"
+- "NewsArticles/ArticleViewerStyler.swift"
+- "NewsArticles/NewsPlusLabelPaletteFeatureView.swift"
+- "NewsArticles/PDFReplicaViewerStyler.swift"
+- "NewsArticles/RecipeCoordinator.swift"
+- "Open an article in the News app"
+- "OpenArticleIntent.target"
+- "Opening article through intent, id=%s"
+- "Opening recipe through intent, id=%s"
+- "PlayArticleIntent.target"
+- "Playing article through intent, id=%s"
+- "Playing now by adding to playlist because user is subscribed, id=%s"
+- "Playing now ignoring playlist because user is not subscribed, id=%s"
+- "Plays the audio story associated with the article."
+- "SaveArticleIntent.target"
+- "Saving article through intent, id=%s"
+- "Should provision a concrete recipe coordinator using container injection"
+- "The article that will open in the News app"
+- "The article to save"
+- "The article to unsave"
+- "The description of the 'Open Article' intent"
+- "The description of the 'Play Article' intent"
+- "The description of the 'Save Article' intent"
+- "The description of the 'Unsave Article' intent"
+- "The description of the 'target' paramater on the `SaveArticleIntent` intent"
+- "The description of the 'target' paramater on the `UnsaveArticleIntent` intent"
+- "The description of the 'target' parameter on the `OpenArticleIntent` intent"
+- "The description of the 'target' parameter on the `OpenRecipeIntent` intent"
+- "The description of the 'target' parameter on the `PlayArticleIntent` intent"
+- "The name of the 'Excerpt' property of the Article entity used in intents."
+- "The name of the 'Excerpt' property of the Recipe entity used in intents."
+- "The name of the 'Source' property of the Article entity used in intents."
+- "The name of the 'Source' property of the Recipe entity used in intents."
+- "The name of the 'Title' property of the Article entity used in intents."
+- "The name of the 'Title' property of the Recipe entity used in intents."
+- "The name of the 'byline' or author(s) property of the Article entity used in intents."
+- "The name of the 'byline' or author(s) property of the Recipe entity used in intents."
+- "The name of the article entity type used in intents."
+- "The name of the recipe entity type used in intents."
+- "The recipe that will open in the News app"
+- "The title of the 'Article' parameter of the 'Open Article' intent"
+- "The title of the 'Article' parameter of the 'Play Article' intent"
+- "The title of the 'Article' parameter of the 'Save Article' intent"
+- "The title of the 'Article' parameter of the 'Unsave Article' intent"
+- "The title of the 'Open Article' intent"
+- "The title of the 'Open Recipe' intent"
+- "The title of the 'Play Article' intent"
+- "The title of the 'Recipe' parameter of the 'Open Recipe' intent"
+- "The title of the 'Save Article' intent"
+- "This article is already saved"
+- "This article is not saved"
+- "Unable to unsave"
+- "UnsaveArticleIntent.target"
+- "Unsaving article through intent, id=%s"
+- "_TtC12NewsArticles20RecipeSharingManager"
+- "_TtC12NewsArticles21ExternalRecipeFactory"
+- "_TtC12NewsArticles23RecipeRouteModelFactory"
+- "_TtC12NewsArticles26RecipeBarButtonItemFactory"
+- "_TtC12NewsArticles27ModalToolbarFeatureProvider"
+- "_TtC12NewsArticles27NewsPlusLabelConfigProvider"
+- "_TtC12NewsArticles28NewsPlusLabelFeatureProvider"
+- "_TtC12NewsArticles31NewsPlusLabelPaletteFeatureView"
+- "_TtC12NewsArticles33NewsPlusLabelPaletteFeatureStyler"
+- "_TtC12NewsArticles35ArticleViewerImmersiveEffectChecker"
+- "_TtC12NewsArticles35NewsPlusLabelPaletteFeatureRenderer"
+- "_TtC12NewsArticles37NewsPlusLabelPaletteFeatureDescriptor"
+- "_TtC12NewsArticles38ModalNewsPlusPaletteVisibilityProvider"
+- "_TtC12NewsArticles38NewsPlusLabelFeatureVisibilityProvider"
+- "_TtC12NewsArticles41FollowChannelArticleViewerFeatureProvider"
+- "_TtC12NewsArticles43TableOfContentsArticleViewerFeatureProvider"
+- "_TtC12NewsArticles45LegacyLikeDislikeArticleViewerFeatureProvider"
+- "_TtC12NewsArticles45ToolbarNavigationArticleViewerFeatureProvider"
+- "_TtC12NewsArticles55ToolbarNavigationArticleViewerFeatureVisibilityProvider"
+- "_TtCC12NewsArticles27ModalToolbarFeatureProviderP33_1AF7F0043EBE645F99824835FC96155114LabelContainer"
+- "activityViewControllerFactory"
+- "allSortedArticleIDsInReadingList"
+- "alphaComponent"
+- "article action disableTransparentNavigationBar "
+- "articleviewer.newspluslabel.notification"
+- "bottomSpacerView"
+- "brandbarHeightProvider"
+- "bringSubviewToFront:"
+- "com.apple.news.newsarticles"
+- "configForPaidBundleViaOffer"
+- "configForSubscribers"
+- "configForTrialists"
+- "configProvider"
+- "contentEncoding"
+- "contentFormat"
+- "contentInset"
+- "contentVersion"
+- "coverDateLabel"
+- "didTap"
+- "didTapButton"
+- "doneButton"
+- "doneButtonTapped"
+- "immersiveEffectChecker"
+- "initWithShouldAutoPlayVideo:scrollPosition:shouldDisableTransparentNavigationBar:"
+- "isDisplayingNewsPlusLabel"
+- "isNewsPlusLabelVisible"
+- "isPaidBundleViaOfferActivated"
+- "isViewLoaded"
+- "minimal article viewer badging for free articles"
+- "minimal article viewer badging for paid articles"
+- "moreActions"
+- "navigationStyler"
+- "newsPlusLabelConfigProvider"
+- "newsPlusLabelStyler"
+- "newsPlusLabelVisibilityProvider"
+- "newsPlusVisibilityProvider"
+- "newsarticles.textsizing.bigger"
+- "newsarticles.textsizing.decrease"
+- "newsarticles.textsizing.increase"
+- "newsarticles.textsizing.reset"
+- "newsarticles.textsizing.smaller"
+- "newsarticles.zooming.actual"
+- "newsarticles.zooming.in"
+- "newsarticles.zooming.out"
+- "recipeCatalogSearchConfigurationProfiles"
+- "recipeSharingManager"
+- "recipeStyler"
+- "recipeTagRecipeListIDPrefix"
+- "recipe_radar_bar_button_item"
+- "recipe_radar_bar_item"
+- "remoteURL"
+- "respectRecipeChannelGroupingEligibility"
+- "setContentInset:"
+- "shouldAddBottomPadding"
+- "shouldShowNewsPlusLabel"
+- "sportsSearchConfigurationProfiles"
+- "sportsSyncingConfigurationV2ResourceId"
+- "subscriptionManager"
+- "subscriptionState"
+- "supportsMinimalToolbarHeight"
+- "the text preceding the News+ label image in the article viewer palette"
+- "thumbnailExtraLarge"
+- "thumbnailLarge"
+- "thumbnailSmall"
+- "ts_setAutomaticContentOffsetAdjustmentEnabled:"
+- "ts_setIndicatorInsetAdjustmentBehaviorAlways"
+- "useTransparentNavigationBar"
+
+```

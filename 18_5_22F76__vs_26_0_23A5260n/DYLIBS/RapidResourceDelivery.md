@@ -1,0 +1,360 @@
+## RapidResourceDelivery
+
+> `/System/Library/PrivateFrameworks/RapidResourceDelivery.framework/RapidResourceDelivery`
+
+```diff
+
+-3405.21.1.0.0
+-  __TEXT.__text: 0x5e364
+-  __TEXT.__auth_stubs: 0x1700
++3500.32.1.0.0
++  __TEXT.__text: 0x6a934
++  __TEXT.__auth_stubs: 0x17f0
+   __TEXT.__objc_methlist: 0x29c
+-  __TEXT.__const: 0x3af8
+-  __TEXT.__cstring: 0xf19
+-  __TEXT.__constg_swiftt: 0xe78
+-  __TEXT.__swift5_typeref: 0x1109
+-  __TEXT.__swift5_reflstr: 0x9b0
+-  __TEXT.__swift5_fieldmd: 0xf60
+-  __TEXT.__oslogstring: 0x15c8
+-  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__cstring: 0x114b
++  __TEXT.__const: 0x5758
++  __TEXT.__constg_swiftt: 0x122c
++  __TEXT.__swift5_typeref: 0x1685
++  __TEXT.__swift5_reflstr: 0xb00
++  __TEXT.__swift5_fieldmd: 0x1314
++  __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_assocty: 0x98
+-  __TEXT.__swift5_proto: 0x37c
+-  __TEXT.__swift5_types: 0x13c
+-  __TEXT.__swift_as_entry: 0xac
+-  __TEXT.__swift5_capture: 0x168
++  __TEXT.__swift5_proto: 0x51c
++  __TEXT.__swift5_types: 0x1a4
++  __TEXT.__oslogstring: 0x1ad2
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift_as_ret: 0xcc
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x1500
+-  __TEXT.__eh_frame: 0x3340
++  __TEXT.__swift5_capture: 0x21c
++  __TEXT.__swift_as_entry: 0xa8
++  __TEXT.__swift_as_ret: 0xc4
++  __TEXT.__swift5_mpenum: 0x28
++  __TEXT.__unwind_info: 0x1788
++  __TEXT.__eh_frame: 0x3440
+   __TEXT.__objc_classname: 0x6c
+-  __TEXT.__objc_methname: 0xa4a
++  __TEXT.__objc_methname: 0xa4f
+   __TEXT.__objc_methtype: 0x5c6
+-  __DATA_CONST.__got: 0x338
+-  __DATA_CONST.__const: 0x98
++  __DATA_CONST.__got: 0x360
++  __DATA_CONST.__const: 0x78
+   __DATA_CONST.__objc_classlist: 0x58
+   __DATA_CONST.__objc_protolist: 0x60
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x318
++  __DATA_CONST.__objc_selrefs: 0x320
+   __DATA_CONST.__objc_protorefs: 0x30
+-  __AUTH_CONST.__auth_got: 0xb80
+-  __AUTH_CONST.__const: 0x1bc8
++  __AUTH_CONST.__auth_got: 0xbf8
++  __AUTH_CONST.__const: 0x2580
+   __AUTH_CONST.__objc_const: 0xc78
+-  __AUTH.__objc_data: 0x330
+-  __AUTH.__data: 0x1078
+-  __DATA.__data: 0x13a0
+-  __DATA.__common: 0x228
+-  __DATA.__bss: 0x6d80
++  __AUTH.__objc_data: 0xf0
++  __AUTH.__data: 0x938
++  __DATA.__data: 0x13f8
++  __DATA.__bss: 0xa190
++  __DATA.__common: 0x100
++  __DATA_DIRTY.__objc_data: 0x240
++  __DATA_DIRTY.__data: 0xa98
++  __DATA_DIRTY.__common: 0x148
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: F3F6D79B-27A0-391F-8319-577188E2E23C
+-  Functions: 1520
+-  Symbols:   779
+-  CStrings:  403
++  UUID: 0FDE9985-1D8A-3744-B7CB-E31A9DD3A83A
++  Functions: 1816
++  Symbols:   918
++  CStrings:  442
+ 
+Symbols:
++ _NSURLContentModificationDateKey
++ _NSURLIsDirectoryKey
++ ___swift_memcpy40_8
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_RapidResourceDelivery
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_RapidResourceDelivery
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_RapidResourceDelivery
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO05LogicE10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO05LogicE10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO05LogicE10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO23NoUpdatesFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO23NoUpdatesFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO24NoManifestFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO24NoManifestFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO28NoUpdatesRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO28NoUpdatesRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO29NoManifestRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO29NoManifestRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO42IncorrectAssetsConfigurationFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B12ManagerErrorO42IncorrectAssetsConfigurationFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO0B17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO0B17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO0B17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO17UnknownCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO17UnknownCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingE10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingE10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingE10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO07InvalidD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO07InvalidD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO07MissingD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO07MissingD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO0B18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO0B18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO0B18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs9CodingKeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs9CodingKeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOSHAASQ
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO30UpdateDigestMismatchCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO30UpdateDigestMismatchCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO31InvalidBase64EncodingCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21RapidResourceDelivery8ManifestV5ErrorO31InvalidBase64EncodingCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _block_copy_helper.16
++ _block_copy_helper.24
++ _block_descriptor.18
++ _block_descriptor.26
++ _block_destroy_helper.17
++ _block_destroy_helper.25
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO
++ _get_enum_tag_for_layout_string 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorOSg
++ _objc_release_x1
++ _objc_release_x9
++ _objc_retain_x3
++ _objectdestroy.11Tm
++ _objectdestroy.15Tm
++ _swift_coroFrameAlloc
++ _swift_getKeyPath
++ _swift_getMetatypeMetadata
++ _symbolic SS_So8NSNumberCt
++ _symbolic SS_So8NSObjectCt
++ _symbolic Say_____3url______16modificationDatetG 10Foundation3URLV AA4DateV
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO05LogicE10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO23NoUpdatesFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO24NoManifestFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO28NoUpdatesRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO29NoManifestRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B12ManagerErrorO42IncorrectAssetsConfigurationFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO0B17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO17UnknownCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____ 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____ 21RapidResourceDelivery12UpdatesStateV
++ _symbolic _____ 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingE10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLO
++ _symbolic _____ 21RapidResourceDelivery16DirectoryCleanerV
++ _symbolic _____ 21RapidResourceDelivery18ContainerizableURLV
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO07InvalidD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO07MissingD19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO0B18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO30UpdateDigestMismatchCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery8ManifestV5ErrorO31InvalidBase64EncodingCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____ 21RapidResourceDelivery9HTTPErrorO
++ _symbolic _____3url______16modificationDatet 10Foundation3URLV AA4DateV
++ _symbolic _____Sg 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V
++ _symbolic _____Sg 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO
++ _symbolic _____XDXMT 21RapidResourceDelivery14RRDPeerHandlerC
++ _symbolic _____y_____3url______16modificationDatetG 10Foundation17KeyPathComparatorV AA3URLV AA4DateV
++ _symbolic _____y_____3url______16modificationDatetG s23_ContiguousArrayStorageC 10Foundation3URLV AC4DateV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO05LogicH10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO23NoUpdatesFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO24NoManifestFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO28NoUpdatesRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO29NoManifestRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E12ManagerErrorO42IncorrectAssetsConfigurationFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E4InfoV020NonNetworkingFailureG0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO0E17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO17UnknownCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingH10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO07InvalidG19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO07MissingG19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO0E18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO30UpdateDigestMismatchCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO31InvalidBase64EncodingCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO05LogicH10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO10CodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO23NoUpdatesFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO24NoManifestFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO28NoUpdatesRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO29NoManifestRemoteURLCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E12ManagerErrorO42IncorrectAssetsConfigurationFileCodingKeys33_7EFCD011821DEA729ED7DC5344C4A5F0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E4InfoV020NonNetworkingFailureG0V10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO0E17ManagerCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO10CodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO17UnknownCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery0E4InfoV25NonNetworkingFailureErrorO18ManifestCodingKeys33_E511224A57C7E52FCBB79B1706C0F1B9LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery15RRDServiceErrorO010UnderlyingH10CodingKeys33_F7C5A71A92599BDE6D6D45BAF674D761LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO013InvalidBase64B10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO07InvalidG19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO07MissingG19SignatureCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO0E18NotFoundCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO10CodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO20InvalidURLCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO26InvalidURLSchemeCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21RapidResourceDelivery8ManifestV5ErrorO30UpdateDigestMismatchCodingKeys33_229B9149C287CC7AC0CC5381BC3DA1F5LLO
++ _symbolic _____y_____SgG s9TaskLocalC 10Foundation4UUIDV
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 10Foundation3URLV s5ErrorP
++ _symbolic _____y___________pG s6ResultOsRi_zRi0_zrlE 21RapidResourceDelivery8FileInfoV s5ErrorP
++ _symbolic _____yx______pG s6ResultOsRi_zRi0_zrlE s5ErrorP
++ _type_layout_string 21RapidResourceDelivery0B4InfoV020NonNetworkingFailureD0V
++ _type_layout_string 21RapidResourceDelivery0B4InfoV25NonNetworkingFailureErrorO
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_RapidResourceDelivery
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_RapidResourceDelivery
+- _block_copy_helper.14
+- _block_copy_helper.17
+- _block_descriptor.16
+- _block_descriptor.19
+- _block_destroy_helper.15
+- _block_destroy_helper.18
+- _objectdestroy.12Tm
+- _objectdestroy.16Tm
+- _swift_release_n
+- _symbolic _____Sg 21RapidResourceDelivery10RRDRequestO
+- _symbolic _____Sg 3XPC16XPCCodableObjectV
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 10Foundation3URLV s5ErrorP
+- _symbolic _____y___________pG s6ResultOsRi_zrlE 21RapidResourceDelivery8FileInfoV s5ErrorP
+- _symbolic _____yx______pG s6ResultOsRi_zrlE s5ErrorP
+CStrings:
++ "%ld failed & handled, removing from taskStates"
++ "%s Request failed: %@"
++ "%s Response context: Manifest (URL: %s, digest: %s), Updates (URL: %s, digest: %s, path: %s)"
++ "%s has less than 2 items - no cleanup needed"
++ "%s used deprecated resourceUpdatesFolder RRDRequest"
++ "%s used deprecated resourceUpdatesFolderForAssets RRDRequest, using assets URL: %s"
++ ", isInvalidated "
++ ".resourceUpdates("
++ ".resourceUpdatesFolder"
++ ".resourceUpdatesFolder("
++ ".resourceUpdatesFolderForAssets("
++ "Couldn't send file handle to client."
++ "Error reading manifest: %@"
++ "Fetching manifest finished with status code %s"
++ "Fetching updates finished with status code %s."
++ "Invalid request. %@"
++ "Missing manifest."
++ "New RRD configuration %s"
++ "Post availability change notification, stateBefore: %s, stateAfter: %s"
++ "RapidResourceDelivery/RRDPeerHandler.swift"
++ "Unexpectedly no lastAttempt provided despite %ld failures"
++ "Updating manifest state to: %s"
++ "Updating manifest state to: unknown"
++ "[%s] Request: %s"
++ "[%s] Response: %s"
++ "cleaning %s: deleting %s"
++ "cleaning %s: failed to remove %s: %@"
++ "cleaning %s: keeping %s"
++ "cleaning %s: skipping deleting %s as %s is not older than %s"
++ "cleaning cache dir failed: %{public}@"
++ "cleaning temp dir failed: %{public}@"
++ "code"
++ "consecutiveFailures"
++ "found existing task:%ld\n url: %s \n beginning: %s\n state: %ld\n error: %@"
++ "incorrectAssetsConfigurationFile"
++ "invalidBase64Encoding"
++ "invalidManifestSignature"
++ "invalidURLScheme"
++ "jittered retry interval: %s"
++ "missingManifestSignature"
++ "noManifestRemoteURL"
++ "noUpdatesRemoteURL"
++ "nonNetworkingFailureInfo"
++ "resourceNotFound"
++ "taskState missing at error handling time for taskId: %ld"
++ "unable to retrieve contentModificationDate for %s: %@"
++ "unexpected missing contentModificationDate at %s"
++ "updateDigestMismatch"
++ "updatingUpToDateState called with nil fileInfo, we no longer have the resource that is up to date."
+- "%ld failed: %@"
+- "%ld starts with assets URL: %s"
+- "%ld starts without assets URL"
+- "Error reading manifest: %s"
+- "Fetching manifest: Success"
+- "Fetching updates: Success."
+- "Request failed with internal error: %@"
+- "Updates requested: %s"
+- "found existing task:%ld\n url: %s \n beginning: %s\n state: %ld\n error: %s"
+- "manifestNetworkURL"
+
+```

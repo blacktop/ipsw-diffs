@@ -1,0 +1,985 @@
+## ReminderKit
+
+> `/System/Library/PrivateFrameworks/ReminderKit.framework/ReminderKit`
+
+```diff
+
+-1238.0.0.0.0
+-  __TEXT.__text: 0x137fa4
+-  __TEXT.__auth_stubs: 0xcd0
+-  __TEXT.__objc_methlist: 0x14ab0
+-  __TEXT.__const: 0x1697
+-  __TEXT.__oslogstring: 0x11708
+-  __TEXT.__cstring: 0xd914
+-  __TEXT.__gcc_except_tab: 0x829c
++3787.13.0.0.0
++  __TEXT.__text: 0x13b6c0
++  __TEXT.__auth_stubs: 0xcc0
++  __TEXT.__objc_methlist: 0x14fa8
++  __TEXT.__const: 0x16b7
++  __TEXT.__oslogstring: 0x11799
++  __TEXT.__cstring: 0xdc1a
++  __TEXT.__gcc_except_tab: 0x833c
+   __TEXT.__ustring: 0x292
+   __TEXT.__dlopen_cstrs: 0xb4
+-  __TEXT.__unwind_info: 0x6588
+-  __TEXT.__objc_classname: 0x37ef
+-  __TEXT.__objc_methname: 0x2615d
+-  __TEXT.__objc_methtype: 0x4197
+-  __TEXT.__objc_stubs: 0x15f80
+-  __DATA_CONST.__got: 0xec0
+-  __DATA_CONST.__const: 0x2940
+-  __DATA_CONST.__objc_classlist: 0xb60
++  __TEXT.__unwind_info: 0x66c0
++  __TEXT.__objc_classname: 0x3918
++  __TEXT.__objc_methname: 0x26baa
++  __TEXT.__objc_methtype: 0x4189
++  __TEXT.__objc_stubs: 0x16280
++  __DATA_CONST.__got: 0xee8
++  __DATA_CONST.__const: 0x29b0
++  __DATA_CONST.__objc_classlist: 0xb90
+   __DATA_CONST.__objc_catlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x220
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x7710
++  __DATA_CONST.__objc_selrefs: 0x78c0
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __DATA_CONST.__objc_superrefs: 0x998
+-  __DATA_CONST.__objc_arraydata: 0x980
+-  __AUTH_CONST.__auth_got: 0x680
+-  __AUTH_CONST.__const: 0x2b80
+-  __AUTH_CONST.__cfstring: 0xde80
+-  __AUTH_CONST.__objc_const: 0x228f0
++  __DATA_CONST.__objc_superrefs: 0x9c8
++  __DATA_CONST.__objc_arraydata: 0x988
++  __AUTH_CONST.__auth_got: 0x678
++  __AUTH_CONST.__const: 0x2c40
++  __AUTH_CONST.__cfstring: 0xe120
++  __AUTH_CONST.__objc_const: 0x23118
+   __AUTH_CONST.__objc_arrayobj: 0x228
+   __AUTH_CONST.__objc_intobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH.__objc_data: 0x2da0
++  __AUTH.__objc_data: 0x2f30
+   __AUTH.__data: 0x8
+-  __DATA.__objc_ivar: 0x1098
+-  __DATA.__data: 0x1a34
+-  __DATA.__bss: 0x2d4
++  __DATA.__objc_ivar: 0x10cc
++  __DATA.__data: 0x1a3c
++  __DATA.__bss: 0x304
+   __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0x4420
++  __DATA_DIRTY.__objc_data: 0x4470
+   __DATA_DIRTY.__data: 0x10
+-  __DATA_DIRTY.__bss: 0x440
++  __DATA_DIRTY.__bss: 0x450
+   __DATA_DIRTY.__common: 0x1a0
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: C8478D0E-E63F-3C54-A93A-A878CA9AAC52
+-  Functions: 8417
+-  Symbols:   27111
+-  CStrings:  11115
++  UUID: 8F0D61B8-7DEB-347C-9AFA-52E37E2A3AF8
++  Functions: 8549
++  Symbols:   27429
++  CStrings:  11249
+ 
+Symbols:
++ +[REMAutoCategorizationActivity supportsSecureCoding]
++ +[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders supportsSecureCoding]
++ +[REMLog autoCategorization]
++ +[REMLog autoCategorization].cold.1
++ +[REMLog intelligentReminderExtraction]
++ +[REMLog intelligentReminderExtraction].cold.1
++ +[REMLog operationQueue]
++ +[REMLog operationQueue].cold.1
++ +[REMLog widget]
++ +[REMLog widget].cold.1
++ +[REMReminderExtractionInput supportsSecureCoding]
++ +[REMReminderStorage isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:showTimedRemindersAsOverdue:]
++ +[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms supportsSecureCoding]
++ -[REMAccountCapabilities supportsUrgentAlert]
++ -[REMAutoCategorizationActivity .cxx_destruct]
++ -[REMAutoCategorizationActivity activityByMergingWithActivity:]
++ -[REMAutoCategorizationActivity activityBySubtractingActivity:]
++ -[REMAutoCategorizationActivity copyWithZone:]
++ -[REMAutoCategorizationActivity description]
++ -[REMAutoCategorizationActivity encodeWithCoder:]
++ -[REMAutoCategorizationActivity initWithCoder:]
++ -[REMAutoCategorizationActivity initWithListID:reminderIDs:]
++ -[REMAutoCategorizationActivity initWithReminderIDsByListID:]
++ -[REMAutoCategorizationActivity init]
++ -[REMAutoCategorizationActivity isEqual:]
++ -[REMAutoCategorizationActivity reminderIDsByListID]
++ -[REMAutoCategorizationActivity reminderIDsForListID:]
++ -[REMDaemonUserDefaults isAutoCategorizationLoggingEnabled]
++ -[REMDaemonUserDefaults observeTimeZoneOverrideEnabledWithBlock:]
++ -[REMDaemonUserDefaults observeTimeZoneOverrideWithBlock:]
++ -[REMDaemonUserDefaults observeTreatRemindersAsNotOverdueWithBlock:]
++ -[REMDaemonUserDefaults setIsAutoCategorizationLoggingEnabled:]
++ -[REMDaemonUserDefaults setShouldPassExistingSectionsForAutoCategorizationEnabled:]
++ -[REMDaemonUserDefaults setTimeZoneOverride:]
++ -[REMDaemonUserDefaults setTimeZoneOverrideEnabled:]
++ -[REMDaemonUserDefaults setTreatRemindersAsNotOverdue:]
++ -[REMDaemonUserDefaults shouldPassExistingSectionsForAutoCategorizationEnabled]
++ -[REMDaemonUserDefaults timeZoneOverrideEnabled]
++ -[REMDaemonUserDefaults timeZoneOverride]
++ -[REMDaemonUserDefaults treatRemindersAsNotOverdue]
++ -[REMListAutoCategorizeContext .cxx_destruct]
++ -[REMListAutoCategorizeContext initWithList:]
++ -[REMListAutoCategorizeContext list]
++ -[REMListAutoCategorizeContext setList:]
++ -[REMListAutoCategorizeContext shouldAutoCategorizeItems]
++ -[REMListAutoCategorizeContextChangeItem .cxx_destruct]
++ -[REMListAutoCategorizeContextChangeItem categorizeAutoCategorizationItemsWithReminderIDs:]
++ -[REMListAutoCategorizeContextChangeItem initWithListChangeItem:]
++ -[REMListAutoCategorizeContextChangeItem listChangeItem]
++ -[REMListAutoCategorizeContextChangeItem setListChangeItem:]
++ -[REMListAutoCategorizeContextChangeItem setShouldAutoCategorizeItems:]
++ -[REMListAutoCategorizeContextChangeItem shouldAutoCategorizeItems]
++ -[REMListAutoCategorizeContextChangeItem unsavedReminderIDsForCategorization]
++ -[REMListChangeItem autoCategorizeContextChangeItem]
++ -[REMListGroceryContextChangeItem unsavedReminderIDsForCategorization]
++ -[REMListStorage setShouldAutoCategorizeItems:]
++ -[REMListStorage setUnsavedReminderIDsForCategorization:]
++ -[REMListStorage shouldAutoCategorizeItems]
++ -[REMListStorage unsavedReminderIDsForCategorization]
++ -[REMListsDataView fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders:error:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders copyWithZone:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders encodeWithCoder:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders hash]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders initWithCoder:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders initWithRequiringOneOrMoreIncompleteReminders:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders isEqual:]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders requiringOneOrMoreIncompleteReminders]
++ -[REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders setRequiringOneOrMoreIncompleteReminders:]
++ -[REMReminderExtractionInput .cxx_destruct]
++ -[REMReminderExtractionInput copyWithZone:]
++ -[REMReminderExtractionInput description]
++ -[REMReminderExtractionInput encodeWithCoder:]
++ -[REMReminderExtractionInput initWithCoder:]
++ -[REMReminderExtractionInput initWithInputText:]
++ -[REMReminderExtractionInput initWithInputText:inputURL:]
++ -[REMReminderExtractionInput initWithInputURL:]
++ -[REMReminderExtractionInput isEqual:]
++ -[REMReminderExtractionInput text]
++ -[REMReminderExtractionInput url]
++ -[REMRemindersDataView fetchRemindersCountWithListID:includingCompleted:error:]
++ -[REMRemindersDataView fetchRemindersWithListID:includingSubtasks:includingCompleted:error:]
++ -[REMRemindersDataView fetchRemindersWithLocationAlarmsIncludingCompleted:error:]
++ -[REMRemindersDataViewInvocation_fetchByListID includingCompleted]
++ -[REMRemindersDataViewInvocation_fetchByListID initWithListID:includingSubtasks:includingCompleted:]
++ -[REMRemindersDataViewInvocation_fetchRemindersCountByListID includingCompleted]
++ -[REMRemindersDataViewInvocation_fetchRemindersCountByListID initWithListID:includingCompleted:]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms copyWithZone:]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms encodeWithCoder:]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms hash]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms includingCompleted]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms initWithCoder:]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms initWithIncludingCompleted:]
++ -[REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms isEqual:]
++ -[REMStore(IntelligentFeatures) isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:]
++ -[REMStore(UnitTest) test_handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:]
++ -[REMStore(UnitTest) test_initDummyAutoCategorizationWithCategoryByTitle:]
++ -[REMXPCDaemonController autoCategorizationActivityObserver]
++ -[REMXPCDaemonController setAutoCategorizationActivityObserver:]
++ -[REMXPCDaemonControllerExportedObject autoCategorizationActivityDidUpdate:]
++ -[REMXPCDaemonControllerExportedObject autoCategorizationActivityObserver]
++ -[REMXPCDaemonControllerExportedObject setAutoCategorizationActivityObserver:]
++ GCC_except_table104
++ GCC_except_table105
++ GCC_except_table112
++ GCC_except_table120
++ GCC_except_table133
++ GCC_except_table141
++ GCC_except_table145
++ GCC_except_table147
++ GCC_except_table157
++ GCC_except_table158
++ GCC_except_table162
++ GCC_except_table164
++ GCC_except_table170
++ GCC_except_table176
++ GCC_except_table177
++ GCC_except_table184
++ GCC_except_table190
++ GCC_except_table197
++ GCC_except_table198
++ GCC_except_table200
++ GCC_except_table215
++ GCC_except_table217
++ GCC_except_table219
++ GCC_except_table225
++ GCC_except_table229
++ GCC_except_table232
++ GCC_except_table240
++ GCC_except_table246
++ GCC_except_table249
++ GCC_except_table257
++ GCC_except_table259
++ GCC_except_table267
++ GCC_except_table269
++ GCC_except_table271
++ GCC_except_table273
++ GCC_except_table278
++ GCC_except_table281
++ GCC_except_table288
++ GCC_except_table290
++ GCC_except_table297
++ GCC_except_table299
++ GCC_except_table302
++ GCC_except_table306
++ GCC_except_table309
++ GCC_except_table316
++ GCC_except_table320
++ GCC_except_table322
++ GCC_except_table325
++ GCC_except_table327
++ GCC_except_table330
++ GCC_except_table335
++ GCC_except_table339
++ GCC_except_table341
++ GCC_except_table344
++ GCC_except_table351
++ GCC_except_table353
++ GCC_except_table360
++ GCC_except_table362
++ GCC_except_table364
++ GCC_except_table369
++ GCC_except_table372
++ GCC_except_table379
++ GCC_except_table383
++ GCC_except_table385
++ GCC_except_table388
++ GCC_except_table390
++ GCC_except_table393
++ GCC_except_table398
++ GCC_except_table400
++ GCC_except_table405
++ GCC_except_table409
++ GCC_except_table412
++ GCC_except_table416
++ GCC_except_table419
++ GCC_except_table425
++ GCC_except_table427
++ GCC_except_table429
++ GCC_except_table431
++ GCC_except_table435
++ GCC_except_table438
++ GCC_except_table473
++ GCC_except_table477
++ GCC_except_table491
++ GCC_except_table93
++ GCC_except_table95
++ _OBJC_CLASS_$_REMAutoCategorizationActivity
++ _OBJC_CLASS_$_REMListAutoCategorizeContext
++ _OBJC_CLASS_$_REMListAutoCategorizeContextChangeItem
++ _OBJC_CLASS_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ _OBJC_CLASS_$_REMReminderExtractionInput
++ _OBJC_CLASS_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ _OBJC_IVAR_$_REMAccountCapabilities._supportsUrgentAlert
++ _OBJC_IVAR_$_REMAutoCategorizationActivity._reminderIDsByListID
++ _OBJC_IVAR_$_REMListAutoCategorizeContext._list
++ _OBJC_IVAR_$_REMListAutoCategorizeContextChangeItem._listChangeItem
++ _OBJC_IVAR_$_REMListStorage._shouldAutoCategorizeItems
++ _OBJC_IVAR_$_REMListStorage._unsavedReminderIDsForCategorization
++ _OBJC_IVAR_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders._requiringOneOrMoreIncompleteReminders
++ _OBJC_IVAR_$_REMReminderExtractionInput._text
++ _OBJC_IVAR_$_REMReminderExtractionInput._url
++ _OBJC_IVAR_$_REMRemindersDataViewInvocation_fetchByListID._includingCompleted
++ _OBJC_IVAR_$_REMRemindersDataViewInvocation_fetchRemindersCountByListID._includingCompleted
++ _OBJC_IVAR_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms._includingCompleted
++ _OBJC_IVAR_$_REMXPCDaemonController._autoCategorizationActivityObserver
++ _OBJC_IVAR_$_REMXPCDaemonControllerExportedObject._autoCategorizationActivityObserver
++ _OBJC_METACLASS_$_REMAutoCategorizationActivity
++ _OBJC_METACLASS_$_REMListAutoCategorizeContext
++ _OBJC_METACLASS_$_REMListAutoCategorizeContextChangeItem
++ _OBJC_METACLASS_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ _OBJC_METACLASS_$_REMReminderExtractionInput
++ _OBJC_METACLASS_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ _RDAutoCategorizationOperationAuthor
++ _REMAppIntentsSectionEntityName
++ _REMAppIntentsSectionTypeDisplayName
++ _REMSettingsTimeZoneIdentifier
++ _REMSettingsTimeZoneOverrideIdentifier
++ __OBJC_$_CLASS_METHODS_REMAutoCategorizationActivity
++ __OBJC_$_CLASS_METHODS_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_$_CLASS_METHODS_REMReminderExtractionInput
++ __OBJC_$_CLASS_METHODS_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_$_CLASS_METHODS_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|IntelligentFeatures|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
++ __OBJC_$_CLASS_PROP_LIST_REMAutoCategorizationActivity
++ __OBJC_$_CLASS_PROP_LIST_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_$_CLASS_PROP_LIST_REMReminderExtractionInput
++ __OBJC_$_CLASS_PROP_LIST_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_$_INSTANCE_METHODS_REMAutoCategorizationActivity
++ __OBJC_$_INSTANCE_METHODS_REMListAutoCategorizeContext
++ __OBJC_$_INSTANCE_METHODS_REMListAutoCategorizeContextChangeItem
++ __OBJC_$_INSTANCE_METHODS_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_$_INSTANCE_METHODS_REMReminderExtractionInput
++ __OBJC_$_INSTANCE_METHODS_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_$_INSTANCE_METHODS_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|IntelligentFeatures|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
++ __OBJC_$_INSTANCE_VARIABLES_REMAutoCategorizationActivity
++ __OBJC_$_INSTANCE_VARIABLES_REMListAutoCategorizeContext
++ __OBJC_$_INSTANCE_VARIABLES_REMListAutoCategorizeContextChangeItem
++ __OBJC_$_INSTANCE_VARIABLES_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_$_INSTANCE_VARIABLES_REMReminderExtractionInput
++ __OBJC_$_INSTANCE_VARIABLES_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_$_PROP_LIST_REMAutoCategorizationActivity
++ __OBJC_$_PROP_LIST_REMListAutoCategorizeContext
++ __OBJC_$_PROP_LIST_REMListAutoCategorizeContextChangeItem
++ __OBJC_$_PROP_LIST_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_$_PROP_LIST_REMReminderExtractionInput
++ __OBJC_$_PROP_LIST_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_CLASS_PROTOCOLS_$_REMAutoCategorizationActivity
++ __OBJC_CLASS_PROTOCOLS_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_CLASS_PROTOCOLS_$_REMReminderExtractionInput
++ __OBJC_CLASS_PROTOCOLS_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_CLASS_PROTOCOLS_$_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|IntelligentFeatures|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
++ __OBJC_CLASS_RO_$_REMAutoCategorizationActivity
++ __OBJC_CLASS_RO_$_REMListAutoCategorizeContext
++ __OBJC_CLASS_RO_$_REMListAutoCategorizeContextChangeItem
++ __OBJC_CLASS_RO_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_CLASS_RO_$_REMReminderExtractionInput
++ __OBJC_CLASS_RO_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __OBJC_METACLASS_RO_$_REMAutoCategorizationActivity
++ __OBJC_METACLASS_RO_$_REMListAutoCategorizeContext
++ __OBJC_METACLASS_RO_$_REMListAutoCategorizeContextChangeItem
++ __OBJC_METACLASS_RO_$_REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders
++ __OBJC_METACLASS_RO_$_REMReminderExtractionInput
++ __OBJC_METACLASS_RO_$_REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms
++ __REMStoreDaemonDidLaunchNotificationName
++ __ZNKSt3__111__copy_implclB8ne200100IP11TopoIDRangeS3_S3_EENS_4pairIT_T1_EES5_T0_S6_
++ __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne200100IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
++ __ZNSt12length_errorC1B8ne200100EPKc
++ __ZNSt3__110unique_ptrINS_11__hash_nodeI6TopoIDPvEENS_22__hash_node_destructorINS_9allocatorIS4_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS6_EEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrINS_4pairI13minIdPathDataP13TopoSubstringEERNS_12__destruct_nEED2B8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ne200100ILi0EEEPKc
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne200100EPS6_
++ __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne200100EPS3_
++ __ZNSt3__114__split_bufferIP13TopoSubstringRNS_9allocatorIS2_EEE12emplace_backIJRKS2_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP13TopoSubstringNS_9allocatorIS3_EEE12emplace_backIJRS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP13TopoSubstringNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP13TopoSubstringNS_9allocatorIS3_EEE13emplace_frontIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP13TopoSubstringRNS_9allocatorIS3_EEE12emplace_backIJS3_EEEvDpOT_
++ __ZNSt3__114__split_bufferIPP13TopoSubstringRNS_9allocatorIS3_EEE13emplace_frontIJRS3_EEEvDpOT_
++ __ZNSt3__116__rotate_forwardB8ne200100INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocate_at_leastB8ne200100INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEPS7_S9_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI6TopoIDS3_EEEENS_16reverse_iteratorIPS4_EES8_EEvRT_T0_T1_
++ __ZNSt3__119__allocator_destroyB8ne200100INS_9allocatorINS_4pairI6TopoIDS3_EEEEPS4_S6_EEvRT_T0_T1_
++ __ZNSt3__120__throw_length_errorB8ne200100EPKc
++ __ZNSt3__124__copy_move_unwrap_itersB8ne200100INS_11__move_implINS_17_ClassicAlgPolicyEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESB_NS4_INS_11__wrap_iterISA_EEEELi0EEENS5_IT0_T2_EESF_T1_SG_
++ __ZNSt3__127__insertion_sort_incompleteB8ne200100INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEPS8_EEED2B8ne200100Ev
++ __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI6TopoIDS4_EEEEPS5_EEED2B8ne200100Ev
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorI11TopoIDRangeEEPS2_EEvRT_T0_S7_S7_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_EEvRT_T0_SC_SC_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEPS7_EEvRT_T0_SC_SC_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEPS6_EEvRT_T0_SB_SB_
++ __ZNSt3__134__uninitialized_allocator_relocateB8ne200100INS_9allocatorINS_4pairI6TopoIDS3_EEEEPS4_EEvRT_T0_S9_S9_
++ __ZNSt3__135__uninitialized_allocator_copy_implB8ne200100INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
++ __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne200100ERKS5_
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne200100Eb
++ __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne200100Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne200100IPS1_S6_EEvT_T0_l
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE24__emplace_back_slow_pathIJRKS1_EEEPS1_DpOT_
++ __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE9push_backB8ne200100ERKS1_
++ __ZNSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE16__init_with_sizeB8ne200100IPKS1_S7_EEvT_T0_m
++ __ZNSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne200100IPS6_SB_EEvT_T0_l
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne200100EPS6_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE9push_backB8ne200100EOS6_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne200100EPS6_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE24__emplace_back_slow_pathIJS6_EEEPS6_DpOT_
++ __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE9push_backB8ne200100EOS6_
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE24__emplace_back_slow_pathIJS5_EEEPS5_DpOT_
++ __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE9push_backB8ne200100EOS5_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne200100EPS3_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__construct_one_at_endB8ne200100IJRKS3_EEEvDpOT_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJRKS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE24__emplace_back_slow_pathIJS3_EEEPS3_DpOT_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE9push_backB8ne200100EOS3_
++ __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE9push_backB8ne200100ERKS3_
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne200100Em
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE16__init_with_sizeB8ne200100IPKS2_S8_EEvT_T0_m
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPKS2_S8_EEvT_T0_l
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne200100IPS2_S7_EEvT_T0_l
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE9push_backB8ne200100ERKS2_
++ __ZNSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne200100Ev
++ __ZNSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE9push_backB8ne200100EOS3_
++ __ZNSt3__17__sort5B8ne200100INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeLi0EEEvT1_S6_S6_S6_S6_T0_
++ __ZNSt3__18_IterOpsINS_17_ClassicAlgPolicyEE9iter_swapB8ne200100IRNS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESC_EEvOT_OT0_
++ __ZSt28__throw_bad_array_new_lengthB8ne200100v
++ ___103-[REMStore(UnitTest) test_handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:]_block_invoke
++ ___103-[REMStore(UnitTest) test_handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:]_block_invoke.cold.1
++ ___105-[REMStore(ClientConnections) requestToUpdateClientConnectionsAsynchronously:shouldKeepAlive:completion:]_block_invoke.645
++ ___105-[REMStore(ClientConnections) requestToUpdateClientConnectionsAsynchronously:shouldKeepAlive:completion:]_block_invoke.645.cold.1
++ ___113-[REMStore(UnitTest) test_immediatelyCreateOrUpdatePublicLinkOfTemplateWithTemplateObjectID:configuration:error:]_block_invoke.695
++ ___123-[REMStore(IntelligentFeatures) isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:]_block_invoke
++ ___123-[REMStore(IntelligentFeatures) isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:]_block_invoke.460
++ ___123-[REMStore(IntelligentFeatures) isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:]_block_invoke.cold.1
++ ___123-[REMStore(IntelligentFeatures) isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:]_block_invoke.cold.2
++ ___16+[REMLog widget]_block_invoke
++ ___238-[REMStore saveSaveRequest:accountChangeItems:listChangeItems:listSectionChangeItems:smartListChangeItems:smartListSectionChangeItems:templateChangeItems:templateSectionChangeItems:reminderChangeItems:author:replicaManagerProvider:error:]_block_invoke.80
++ ___238-[REMStore saveSaveRequest:accountChangeItems:listChangeItems:listSectionChangeItems:smartListChangeItems:smartListSectionChangeItems:templateChangeItems:templateSectionChangeItems:reminderChangeItems:author:replicaManagerProvider:error:]_block_invoke_2.81
++ ___24+[REMLog operationQueue]_block_invoke
++ ___24-[REMStore nukeDatabase]_block_invoke.49
++ ___28+[REMLog autoCategorization]_block_invoke
++ ___39+[REMLog intelligentReminderExtraction]_block_invoke
++ ___42-[REMStore fetchShareForListWithID:error:]_block_invoke.115
++ ___42-[REMStore fetchShareForListWithID:error:]_block_invoke.115.cold.1
++ ___49-[REMStore resultFromPerformingInvocation:error:]_block_invoke.93
++ ___49-[REMStore resultFromPerformingInvocation:error:]_block_invoke.93.cold.1
++ ___50-[REMStore fetchReplicaManagerForAccountID:error:]_block_invoke.70
++ ___50-[REMStore fetchReplicaManagerForAccountID:error:]_block_invoke.70.cold.1
++ ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.88
++ ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.88.cold.1
++ ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.88.cold.2
++ ___55-[REMStore anchoredBubbleCloudOverridesWithCompletion:]_block_invoke.146
++ ___55-[REMStore createShareForListWithID:appIconData:error:]_block_invoke.120
++ ___55-[REMStore createShareForListWithID:appIconData:error:]_block_invoke.120.cold.1
++ ___57+[REMStore destroyIsolatedStoreContainerWithToken:error:]_block_invoke.32
++ ___57+[REMStore destroyIsolatedStoreContainerWithToken:error:]_block_invoke.32.cold.1
++ ___58-[REMDaemonUserDefaults observeTimeZoneOverrideWithBlock:]_block_invoke
++ ___60-[REMStore fetchReplicaManagersForAccountID:bundleID:error:]_block_invoke.75
++ ___60-[REMStore fetchReplicaManagersForAccountID:bundleID:error:]_block_invoke.75.cold.1
++ ___64-[REMStore fetchMinimumSearchTermLengthByBaseLanguageWithError:]_block_invoke.153
++ ___64-[REMStore fetchMinimumSearchTermLengthByBaseLanguageWithError:]_block_invoke.153.cold.1
++ ___64-[REMXPCDaemonController setAutoCategorizationActivityObserver:]_block_invoke
++ ___65-[REMDaemonUserDefaults observeTimeZoneOverrideEnabledWithBlock:]_block_invoke
++ ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.135
++ ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.135.cold.1
++ ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.135.cold.2
++ ___67-[REMStore(UnitTest) test_revertImageAttachmentsToUnDeduped:error:]_block_invoke.709
++ ___68-[REMDaemonUserDefaults observeTreatRemindersAsNotOverdueWithBlock:]_block_invoke
++ ___72-[REMStore(EventKitCompatibility) MCIsManagedAccountWithObjectID:error:]_block_invoke.505
++ ___72-[REMStore(EventKitCompatibility) MCIsManagedAccountWithObjectID:error:]_block_invoke.505.cold.1
++ ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke.539
++ ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke_2.541
++ ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke_2.541.cold.1
++ ___74-[REMStore(UnitTest) test_initDummyAutoCategorizationWithCategoryByTitle:]_block_invoke
++ ___74-[REMStore(UnitTest) test_initDummyAutoCategorizationWithCategoryByTitle:]_block_invoke.cold.1
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.410
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.410.cold.1
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.413
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.413.cold.1
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.421
++ ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.421.cold.1
++ ___76-[REMStore(PhantomObjectRepairing) repairPhantomObjectsWithObjectIDs:error:]_block_invoke.654
++ ___76-[REMStore(PhantomObjectRepairing) repairPhantomObjectsWithObjectIDs:error:]_block_invoke.654.cold.1
++ ___78-[REMStore resultFromPerformingSwiftInvocation:parametersData:storages:error:]_block_invoke.98
++ ___78-[REMStore resultFromPerformingSwiftInvocation:parametersData:storages:error:]_block_invoke.98.cold.1
++ ___83-[REMStore(iMessageInteractionSPI) notifyOfInteractionWithPeople:force:completion:]_block_invoke.354
++ ___83-[REMStore(iMessageInteractionSPI) notifyOfInteractionWithPeople:force:completion:]_block_invoke.354.cold.1
++ ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke.311
++ ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_2.312
++ ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_3.317
++ ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_3.317.cold.1
++ ___90-[REMStore(AccountManagement_PrivateSPIs) triggerSyncForDataAccessAccountsWithAccountIDs:]_block_invoke.527
++ ___91-[REMStore(UnitTest) test_immediatelyRevokePublicLinkOfTemplateWithTemplateObjectID:error:]_block_invoke.702
++ ___Block_byref_object_copy_.16
++ ___Block_byref_object_copy_.29
++ ___Block_byref_object_copy_.66
++ ___Block_byref_object_dispose_.17
++ ___Block_byref_object_dispose_.30
++ ___Block_byref_object_dispose_.67
++ ___block_descriptor_40_e17_v16?0"NSError"8l
++ ___block_descriptor_40_e8_32r_e18_v16?0"NSNumber"8lr32l8
++ ___block_literal_global.145
++ ___block_literal_global.166
++ ___block_literal_global.170
++ ___block_literal_global.181
++ ___block_literal_global.184
++ ___block_literal_global.189
++ ___block_literal_global.191
++ ___block_literal_global.194
++ ___block_literal_global.199
++ ___block_literal_global.203
++ ___block_literal_global.205
++ ___block_literal_global.350
++ ___block_literal_global.469
++ ___block_literal_global.48
++ ___block_literal_global.51
++ ___block_literal_global.529
++ ___block_literal_global.532
++ ___block_literal_global.549
++ ___block_literal_global.560
++ ___block_literal_global.57
++ ___block_literal_global.664
++ ___block_literal_global.669
++ ___block_literal_global.674
++ ___block_literal_global.679
++ ___block_literal_global.684
++ ___block_literal_global.689
++ ___block_literal_global.694
++ ___block_literal_global.701
++ ___block_literal_global.708
++ ___block_literal_global.89
++ ___block_literal_global.92
++ ___block_literal_global.95
++ ___block_literal_global.98
++ _autoCategorization.__log
++ _autoCategorization.onceToken
++ _intelligentReminderExtraction.__log
++ _intelligentReminderExtraction.onceToken
++ _kREMSupportedVersionFor2025Seed1
++ _objc_msgSend$autoCategorizationActivityDidChange:
++ _objc_msgSend$autoCategorizationActivityObserver
++ _objc_msgSend$autoCategorizeContextChangeItem
++ _objc_msgSend$categorizeAutoCategorizationItemsWithReminderIDs:
++ _objc_msgSend$fetchIntelligentFeaturesMinimumSupportedVersionWith:isInternalInstall:completion:
++ _objc_msgSend$fetchRemindersCountWithListID:includingCompleted:error:
++ _objc_msgSend$fetchRemindersWithListID:includingSubtasks:includingCompleted:error:
++ _objc_msgSend$handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:
++ _objc_msgSend$includingCompleted
++ _objc_msgSend$initDummyAutoCategorizationWithCategoryByTitle:
++ _objc_msgSend$initWithIncludingCompleted:
++ _objc_msgSend$initWithInputText:inputURL:
++ _objc_msgSend$initWithListID:includingCompleted:
++ _objc_msgSend$initWithListID:includingSubtasks:includingCompleted:
++ _objc_msgSend$initWithReminderIDsByListID:
++ _objc_msgSend$initWithRequiringOneOrMoreIncompleteReminders:
++ _objc_msgSend$isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:showTimedRemindersAsOverdue:
++ _objc_msgSend$reminderIDsByListID
++ _objc_msgSend$requiringOneOrMoreIncompleteReminders
++ _objc_msgSend$setAutoCategorizationActivityObserver:
++ _objc_msgSend$setByAddingObjectsFromSet:
++ _objc_msgSend$setShouldAutoCategorizeItems:
++ _objc_msgSend$setUnsavedReminderIDsForCategorization:
++ _objc_msgSend$shouldAutoCategorizeItems
++ _objc_msgSend$supportsUrgentAlert
++ _objc_msgSend$timeZoneOverride
++ _objc_msgSend$timeZoneOverrideEnabled
++ _objc_msgSend$treatRemindersAsNotOverdue
++ _objc_msgSend$unsavedReminderIDsForCategorization
++ _objc_msgSend$unsignedIntValue
++ _operationQueue.__log
++ _operationQueue.onceToken
++ _search.__log.196
++ _search.onceToken.197
++ _utility.__log.200
++ _utility.onceToken.201
++ _widget.__log
++ _widget.onceToken
++ _xpc.__log.186
++ _xpc.onceToken.187
+- +[REMReminderStorage isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:]
+- -[REMListGroceryContextChangeItem unsavedReminderIDsToCategorizeAsGroceryItems]
+- -[REMListStorage setUnsavedReminderIDsToCategorizeAsGroceryItems:]
+- -[REMListStorage unsavedReminderIDsToCategorizeAsGroceryItems]
+- -[REMRemindersDataView fetchRemindersCountWithListID:error:]
+- -[REMRemindersDataView fetchRemindersCountWithListID:error:].cold.1
+- -[REMRemindersDataView fetchRemindersWithListID:includingSubtasks:error:]
+- -[REMRemindersDataViewInvocation_fetchByListID initWithListID:includingSubtasks:]
+- -[REMRemindersDataViewInvocation_fetchRemindersCountByListID initWithListID:]
+- GCC_except_table109
+- GCC_except_table129
+- GCC_except_table142
+- GCC_except_table150
+- GCC_except_table160
+- GCC_except_table167
+- GCC_except_table172
+- GCC_except_table191
+- GCC_except_table201
+- GCC_except_table202
+- GCC_except_table210
+- GCC_except_table211
+- GCC_except_table216
+- GCC_except_table223
+- GCC_except_table231
+- GCC_except_table235
+- GCC_except_table242
+- GCC_except_table244
+- GCC_except_table248
+- GCC_except_table254
+- GCC_except_table258
+- GCC_except_table266
+- GCC_except_table268
+- GCC_except_table270
+- GCC_except_table274
+- GCC_except_table279
+- GCC_except_table283
+- GCC_except_table285
+- GCC_except_table289
+- GCC_except_table295
+- GCC_except_table298
+- GCC_except_table300
+- GCC_except_table304
+- GCC_except_table314
+- GCC_except_table319
+- GCC_except_table321
+- GCC_except_table323
+- GCC_except_table326
+- GCC_except_table328
+- GCC_except_table334
+- GCC_except_table338
+- GCC_except_table340
+- GCC_except_table342
+- GCC_except_table348
+- GCC_except_table352
+- GCC_except_table358
+- GCC_except_table361
+- GCC_except_table363
+- GCC_except_table367
+- GCC_except_table371
+- GCC_except_table377
+- GCC_except_table382
+- GCC_except_table384
+- GCC_except_table386
+- GCC_except_table389
+- GCC_except_table391
+- GCC_except_table397
+- GCC_except_table399
+- GCC_except_table404
+- GCC_except_table406
+- GCC_except_table411
+- GCC_except_table415
+- GCC_except_table417
+- GCC_except_table423
+- GCC_except_table426
+- GCC_except_table428
+- GCC_except_table430
+- GCC_except_table434
+- GCC_except_table436
+- GCC_except_table464
+- GCC_except_table474
+- _OBJC_IVAR_$_REMListStorage._unsavedReminderIDsToCategorizeAsGroceryItems
+- __OBJC_$_CLASS_METHODS_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
+- __OBJC_$_INSTANCE_METHODS_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
+- __OBJC_CLASS_PROTOCOLS_$_REMStore(CalDAVSharing|ChangeTrackingSupport|IndentingUnsupportedSubtasks|ChangeTrackingProvider_IntegrationTestsOnlyAPIsSupport|iMessageInteractionSPI|TipKit|FamilyChecklist|TrialClient|AppStore|EventKitBridging|SiriSearch|CalendarDataAccess|EventKitCompatibility|REMAssignment_ChangeTrackingInternalSupport|REMHashtag_ChangeTrackingInternalSupport|UserActivity|AccountManagement_PrivateSPIs|AccountManagement_Internal|Templates|Sharing|ReplicaManagerProviders|ClientConnections|PhantomObjectRepairing|Debugging|UnitTest|REMListSection|REMSmartListSection|REMTemplateSection)
+- __ZN13TopoSubstring8addChildEPS_
+- __ZN13TopoSubstringC2E11TopoIDRangej
+- __ZNKSt3__111__copy_implINS_17_ClassicAlgPolicyEEclB8ne190102IP11TopoIDRangeS5_S5_EENS_4pairIT_T1_EES7_T0_S8_
+- __ZNKSt3__111__move_implINS_17_ClassicAlgPolicyEEclB8ne190102IPNS_4pairI13minIdPathDataP13TopoSubstringEES9_S9_EENS4_IT_T1_EESA_T0_SB_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorI8_NSRangeNS_9allocatorIS1_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPFvvENS_9allocatorIS2_EEE20__throw_length_errorB8ne190102Ev
+- __ZNKSt3__16vectorIPN4CRDT18Document_DocObjectENS_9allocatorIS3_EEE20__throw_length_errorB8ne190102Ev
+- __ZNSt12length_errorC1B8ne190102EPKc
+- __ZNSt3__110unique_ptrINS_11__hash_nodeI6TopoIDPvEENS_22__hash_node_destructorINS_9allocatorIS4_EEEEE5resetB8ne190102EPS4_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDNS_4pairIP13TopoSubstringS6_EEEEPvEENS_22__hash_node_destructorINS_9allocatorISA_EEEEE5resetB8ne190102EPSA_
+- __ZNSt3__110unique_ptrINS_11__hash_nodeINS_17__hash_value_typeI6TopoIDP13TopoSubstringEEPvEENS_22__hash_node_destructorINS_9allocatorIS8_EEEEE5resetB8ne190102EPS8_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ne190102ILi0EEEPKc
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEERNS_9allocatorIS6_EEE17__destruct_at_endB8ne190102EPS6_
+- __ZNSt3__114__split_bufferINS_4pairI6TopoIDS2_EERNS_9allocatorIS3_EEE17__destruct_at_endB8ne190102EPS3_
+- __ZNSt3__114__split_bufferIPP13TopoSubstringNS_9allocatorIS3_EEE10push_frontEOS3_
+- __ZNSt3__114__split_bufferIPP13TopoSubstringNS_9allocatorIS3_EEE9push_backEOS3_
+- __ZNSt3__114__split_bufferIPP13TopoSubstringRNS_9allocatorIS3_EEE10push_frontERKS3_
+- __ZNSt3__114__split_bufferIPP13TopoSubstringRNS_9allocatorIS3_EEE9push_backEOS3_
+- __ZNSt3__116__rotate_forwardB8ne190102INS_17_ClassicAlgPolicyENS_11__wrap_iterIPNS_4pairI13minIdPathDataP13TopoSubstringEEEEEET0_SA_SA_SA_
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI11TopoIDRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorI8_NSRangeEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSB_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI13minIdPathDataP13TopoSubstringEEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERSA_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorINS_4pairI6TopoIDS3_EEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPFvvEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS7_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPN4CRDT18Document_DocObjectEEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocate_at_leastB8ne190102INS_9allocatorIPP13TopoSubstringEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+- __ZNSt3__119__allocator_destroyB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEENS_16reverse_iteratorIPS7_EESB_EEvRT_T0_T1_
+- __ZNSt3__120__throw_length_errorB8ne190102EPKc
+- __ZNSt3__120get_temporary_bufferB8ne190102INS_4pairI13minIdPathDataP13TopoSubstringEEEENS1_IPT_lEEl
+- __ZNSt3__124__copy_move_unwrap_itersB8ne190102INS_11__move_implINS_17_ClassicAlgPolicyEEENS_16reverse_iteratorIPNS_4pairI13minIdPathDataP13TopoSubstringEEEESB_NS4_INS_11__wrap_iterISA_EEEELi0EEENS5_IT0_T2_EESF_T1_SG_
+- __ZNSt3__127__insertion_sort_incompleteB8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEbT1_S6_T0_
+- __ZNSt3__128__exception_guard_exceptionsINS_29_AllocatorDestroyRangeReverseINS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS8_EEED2B8ne190102Ev
+- __ZNSt3__135__uninitialized_allocator_copy_implB8ne190102INS_9allocatorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEEEEPS7_S9_S9_EET2_RT_T0_T1_SA_
+- __ZNSt3__14pairI11TopoIDRangeU8__strongP12NSDictionaryEaSB8ne190102ERKS5_
+- __ZNSt3__14pairI13minIdPathDataP13TopoSubstringE4swapB8ne190102ERS4_
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEE25__maybe_remove_back_spareB8ne190102Eb
+- __ZNSt3__15dequeIP13TopoSubstringNS_9allocatorIS2_EEED2B8ne190102Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE18__assign_with_sizeB8ne190102IPS1_S6_EEvT_T0_l
+- __ZNSt3__16vectorI11TopoIDRangeNS_9allocatorIS1_EEE9push_backB8ne190102ERKS1_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE18__assign_with_sizeB8ne190102IPS6_SB_EEvT_T0_l
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP12NSDictionaryEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairI11TopoIDRangeU8__strongP18NSAttributedStringEENS_9allocatorIS6_EEE22__base_destruct_at_endB8ne190102EPS6_
+- __ZNSt3__16vectorINS_4pairI13minIdPathDataP13TopoSubstringEENS_9allocatorIS5_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE16__destroy_vectorclB8ne190102Ev
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE21__push_back_slow_pathIRKS3_EEPS3_OT_
+- __ZNSt3__16vectorINS_4pairI6TopoIDS2_EENS_9allocatorIS3_EEE22__base_destruct_at_endB8ne190102EPS3_
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE11__vallocateB8ne190102Em
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPKS2_S8_EEvT_T0_l
+- __ZNSt3__16vectorIP13TopoSubstringNS_9allocatorIS2_EEE18__assign_with_sizeB8ne190102IPS2_S7_EEvT_T0_l
+- __ZNSt3__17__sort3B8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEjT1_S6_S6_T0_
+- __ZNSt3__17__sort4B8ne190102INS_17_ClassicAlgPolicyERZ58-[TTMergeableString deleteSubstrings:withCharacterRanges:]E3$_1P8_NSRangeEEvT1_S6_S6_S6_T0_
+- __ZSt28__throw_bad_array_new_lengthB8ne190102v
+- __Znwm
+- ___105-[REMStore(ClientConnections) requestToUpdateClientConnectionsAsynchronously:shouldKeepAlive:completion:]_block_invoke.632
+- ___105-[REMStore(ClientConnections) requestToUpdateClientConnectionsAsynchronously:shouldKeepAlive:completion:]_block_invoke.632.cold.1
+- ___113-[REMStore(UnitTest) test_immediatelyCreateOrUpdatePublicLinkOfTemplateWithTemplateObjectID:configuration:error:]_block_invoke.672
+- ___238-[REMStore saveSaveRequest:accountChangeItems:listChangeItems:listSectionChangeItems:smartListChangeItems:smartListSectionChangeItems:templateChangeItems:templateSectionChangeItems:reminderChangeItems:author:replicaManagerProvider:error:]_block_invoke.79
+- ___238-[REMStore saveSaveRequest:accountChangeItems:listChangeItems:listSectionChangeItems:smartListChangeItems:smartListSectionChangeItems:templateChangeItems:templateSectionChangeItems:reminderChangeItems:author:replicaManagerProvider:error:]_block_invoke_2.80
+- ___24-[REMStore nukeDatabase]_block_invoke.48
+- ___42-[REMStore fetchShareForListWithID:error:]_block_invoke.114
+- ___42-[REMStore fetchShareForListWithID:error:]_block_invoke.114.cold.1
+- ___49-[REMStore resultFromPerformingInvocation:error:]_block_invoke.92
+- ___49-[REMStore resultFromPerformingInvocation:error:]_block_invoke.92.cold.1
+- ___50-[REMStore fetchReplicaManagerForAccountID:error:]_block_invoke.69
+- ___50-[REMStore fetchReplicaManagerForAccountID:error:]_block_invoke.69.cold.1
+- ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.87
+- ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.87.cold.1
+- ___53-[REMStore fetchResultByExecutingFetchRequest:error:]_block_invoke.87.cold.2
+- ___55-[REMStore anchoredBubbleCloudOverridesWithCompletion:]_block_invoke.145
+- ___55-[REMStore createShareForListWithID:appIconData:error:]_block_invoke.119
+- ___55-[REMStore createShareForListWithID:appIconData:error:]_block_invoke.119.cold.1
+- ___57+[REMStore destroyIsolatedStoreContainerWithToken:error:]_block_invoke.31
+- ___57+[REMStore destroyIsolatedStoreContainerWithToken:error:]_block_invoke.31.cold.1
+- ___60-[REMStore fetchReplicaManagersForAccountID:bundleID:error:]_block_invoke.74
+- ___60-[REMStore fetchReplicaManagersForAccountID:bundleID:error:]_block_invoke.74.cold.1
+- ___64-[REMStore fetchMinimumSearchTermLengthByBaseLanguageWithError:]_block_invoke.152
+- ___64-[REMStore fetchMinimumSearchTermLengthByBaseLanguageWithError:]_block_invoke.152.cold.1
+- ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.134
+- ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.134.cold.1
+- ___65-[REMStore compressedDistributedEvaluationDataWithOptions:error:]_block_invoke.134.cold.2
+- ___67-[REMStore(UnitTest) test_revertImageAttachmentsToUnDeduped:error:]_block_invoke.686
+- ___72-[REMStore(EventKitCompatibility) MCIsManagedAccountWithObjectID:error:]_block_invoke.492
+- ___72-[REMStore(EventKitCompatibility) MCIsManagedAccountWithObjectID:error:]_block_invoke.492.cold.1
+- ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke.526
+- ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke_2.528
+- ___73-[REMStore(AccountManagement_Internal) updateAccountsAndSync:completion:]_block_invoke_2.528.cold.1
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.409
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.409.cold.1
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.412
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.412.cold.1
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.420
+- ___75-[REMStore(FamilyChecklist) addParticipantsToSharedGroceryList:completion:]_block_invoke.420.cold.1
+- ___76-[REMStore(PhantomObjectRepairing) repairPhantomObjectsWithObjectIDs:error:]_block_invoke.641
+- ___76-[REMStore(PhantomObjectRepairing) repairPhantomObjectsWithObjectIDs:error:]_block_invoke.641.cold.1
+- ___78-[REMStore resultFromPerformingSwiftInvocation:parametersData:storages:error:]_block_invoke.97
+- ___78-[REMStore resultFromPerformingSwiftInvocation:parametersData:storages:error:]_block_invoke.97.cold.1
+- ___83-[REMStore(iMessageInteractionSPI) notifyOfInteractionWithPeople:force:completion:]_block_invoke.353
+- ___83-[REMStore(iMessageInteractionSPI) notifyOfInteractionWithPeople:force:completion:]_block_invoke.353.cold.1
+- ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke.310
+- ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_2.311
+- ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_3.316
+- ___84-[REMStore(CalDAVSharing) _respondToCalDAVSharedList:withResponse:queue:completion:]_block_invoke_3.316.cold.1
+- ___90-[REMStore(AccountManagement_PrivateSPIs) triggerSyncForDataAccessAccountsWithAccountIDs:]_block_invoke.514
+- ___91-[REMStore(UnitTest) test_immediatelyRevokePublicLinkOfTemplateWithTemplateObjectID:error:]_block_invoke.679
+- ___Block_byref_object_copy_.15
+- ___Block_byref_object_copy_.26
+- ___Block_byref_object_copy_.63
+- ___Block_byref_object_dispose_.16
+- ___Block_byref_object_dispose_.27
+- ___Block_byref_object_dispose_.64
+- ___block_literal_global.144
+- ___block_literal_global.146
+- ___block_literal_global.150
+- ___block_literal_global.151
+- ___block_literal_global.161
+- ___block_literal_global.164
+- ___block_literal_global.169
+- ___block_literal_global.171
+- ___block_literal_global.174
+- ___block_literal_global.179
+- ___block_literal_global.183
+- ___block_literal_global.185
+- ___block_literal_global.349
+- ___block_literal_global.456
+- ___block_literal_global.516
+- ___block_literal_global.519
+- ___block_literal_global.536
+- ___block_literal_global.54
+- ___block_literal_global.547
+- ___block_literal_global.651
+- ___block_literal_global.656
+- ___block_literal_global.661
+- ___block_literal_global.666
+- ___block_literal_global.671
+- ___block_literal_global.678
+- ___block_literal_global.685
+- _objc_msgSend$fetchRemindersCountWithListID:error:
+- _objc_msgSend$fetchRemindersWithListID:includingSubtasks:error:
+- _objc_msgSend$initWithListID:includingSubtasks:
+- _objc_msgSend$isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:
+- _objc_msgSend$setUnsavedReminderIDsToCategorizeAsGroceryItems:
+- _objc_msgSend$unsavedReminderIDsToCategorizeAsGroceryItems
+- _search.__log.176
+- _search.onceToken.177
+- _utility.__log.180
+- _utility.onceToken.181
+- _xpc.__log.166
+- _xpc.onceToken.167
+CStrings:
++ "%@, %@"
++ "4"
++ "<%@: %p text: %@, url: %@>"
++ "<%@: %p> {lists: %ld, reminders: %ld}"
++ "@\"<REMXPCDaemonControllerAutoCategorizationActivityObserver>\""
++ "@40@0:8@16B24B28^@32"
++ "AutoCategorizationSupportedInCurrentAppVersion"
++ "B28@0:8q16B24"
++ "B44@0:8@16@24B32B36B40"
++ "IntelligentFeatures"
++ "REMAutoCategorizationActivity"
++ "REMListAutoCategorizeContext"
++ "REMListAutoCategorizeContextChangeItem"
++ "REMListsDataViewInvocation_fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders"
++ "REMReminderExtractionInput"
++ "REMRemindersDataViewInvocation_fetchRemindersWithLocationAlarms"
++ "Section"
++ "SectionEntity"
++ "SuggestedRemindersSupportedInCurrentAppVersion"
++ "T@\"<REMXPCDaemonControllerAutoCategorizationActivityObserver>\",W,N,V_autoCategorizationActivityObserver"
++ "T@\"NSArray\",&,N,V_unsavedReminderIDsForCategorization"
++ "T@\"NSDictionary\",R,N,V_reminderIDsByListID"
++ "T@\"NSString\",R,N,V_text"
++ "T@\"REMListAutoCategorizeContextChangeItem\",R,N"
++ "TB,N,V_requiringOneOrMoreIncompleteReminders"
++ "TB,N,V_shouldAutoCategorizeItems"
++ "TB,R,N,V_includingCompleted"
++ "TB,R,N,V_supportsUrgentAlert"
++ "TIME_ZONE"
++ "TIME_ZONE_OVERRIDE"
++ "XPC error while request to fetch Auto Categorization minimum supported version {error: %{public}@}"
++ "XPC error while request to fetch Suggested Reminders minimum supported version {error: %{public}@}"
++ "_autoCategorizationActivityObserver"
++ "_includingCompleted"
++ "_reminderIDsByListID"
++ "_requiringOneOrMoreIncompleteReminders"
++ "_shouldAutoCategorizeItems"
++ "_supportsUrgentAlert"
++ "_unsavedReminderIDsForCategorization"
++ "activityByMergingWithActivity:"
++ "activityBySubtractingActivity:"
++ "autoCategorization"
++ "autoCategorizationActivityDidChange:"
++ "autoCategorizationActivityDidUpdate:"
++ "autoCategorizationActivityObserver"
++ "autoCategorizeContextChangeItem"
++ "categorizeAutoCategorizationItemsWithReminderIDs:"
++ "clearAutoCategorizationLocalCorrectionsOfListsOwnedByCurrentUserWithCompletion:"
++ "com.apple.remindd.RDAutoCategorizationOperation.author"
++ "com.apple.reminderkit.daemonDidLaunch"
++ "fetchAutoCategorizationSuggestedSectionsForListName:reminderTitles:existingSections:completion:"
++ "fetchGroceryListsWithRequiringOneOrMoreIncompleteReminders:error:"
++ "fetchIntelligentFeaturesMinimumSupportedVersionWith:isInternalInstall:completion:"
++ "fetchRemindersCountWithListID:includingCompleted:error:"
++ "fetchRemindersWithListID:includingSubtasks:includingCompleted:error:"
++ "fetchRemindersWithLocationAlarmsIncludingCompleted:error:"
++ "fetchSuggestedRemindersFromExtractionInput:completion:"
++ "handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:"
++ "includingCompleted"
++ "initDummyAutoCategorizationWithCategoryByTitle:"
++ "initWithIncludingCompleted:"
++ "initWithInputText:"
++ "initWithInputText:inputURL:"
++ "initWithInputURL:"
++ "initWithListID:includingCompleted:"
++ "initWithListID:includingSubtasks:includingCompleted:"
++ "initWithListID:reminderIDs:"
++ "initWithReminderIDsByListID:"
++ "initWithRequiringOneOrMoreIncompleteReminders:"
++ "intelligentReminderExtraction"
++ "isAutoCategorizationLoggingEnabled"
++ "isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:showTimedRemindersAsOverdue:"
++ "isIntelligentFeaturesSupportedInCurrentAppVersionWithIntelligentFeature:isInternalInstall:"
++ "observeAutoCategorizationActivityChanges"
++ "observeTimeZoneOverrideEnabledWithBlock:"
++ "observeTimeZoneOverrideWithBlock:"
++ "observeTreatRemindersAsNotOverdueWithBlock:"
++ "operationQueue"
++ "reminderIDsByListID"
++ "reminderIDsForListID:"
++ "requiringOneOrMoreIncompleteReminders"
++ "setAutoCategorizationActivityObserver:"
++ "setByAddingObjectsFromSet:"
++ "setIsAutoCategorizationLoggingEnabled:"
++ "setRequiringOneOrMoreIncompleteReminders:"
++ "setShouldAutoCategorizeItems:"
++ "setShouldPassExistingSectionsForAutoCategorizationEnabled:"
++ "setTimeZoneOverride:"
++ "setTimeZoneOverrideEnabled:"
++ "setTreatRemindersAsNotOverdue:"
++ "setUnsavedReminderIDsForCategorization:"
++ "shouldAutoCategorizeItems"
++ "shouldPassExistingSectionsForAutoCategorizationEnabled"
++ "supportsUrgentAlert"
++ "test_handleIncompleteAutoCategorizationOperationQueueItemsImmediately"
++ "test_handleIncompleteAutoCategorizationOperationQueueItemsImmediatelyWithTimeout:"
++ "test_initDummyAutoCategorizationWithCategoryByTitle"
++ "test_initDummyAutoCategorizationWithCategoryByTitle:"
++ "timeZoneOverride"
++ "timeZoneOverrideEnabled"
++ "treatRemindersAsNotOverdue"
++ "unsavedReminderIDsForCategorization"
++ "unsignedIntValue"
++ "v16@?0@\"NSNumber\"8"
++ "v24@0:8@\"NSDictionary\"16"
++ "v24@0:8@\"REMAutoCategorizationActivity\"16"
++ "v32@0:8@\"REMReminderExtractionInput\"16@?<v@?@\"NSArray\"@\"NSError\">24"
++ "v36@0:8q16B24@?28"
++ "v36@0:8q16B24@?<v@?@\"NSNumber\">28"
++ "v48@0:8@\"NSString\"16@\"NSSet\"24@\"NSSet\"32@?<v@?@\"NSDictionary\"@\"NSError\">40"
++ "widget"
++ "{basic_string<char, std::char_traits<char>, std::allocator<char>>=(__rep={__short=[23c]b7b1}{__long=*Qb63b1})}16@0:8"
++ "{vector<CRDT::Document_DocObject *, std::allocator<CRDT::Document_DocObject *>>=\"__begin_\"^^{Document_DocObject}\"__end_\"^^{Document_DocObject}\"__cap_\"^^{Document_DocObject}}"
++ "{vector<TopoSubstring *, std::allocator<TopoSubstring *>>=\"__begin_\"^^{TopoSubstring}\"__end_\"^^{TopoSubstring}\"__cap_\"^^{TopoSubstring}}"
++ "{vector<std::pair<TopoID, TopoID>, std::allocator<std::pair<TopoID, TopoID>>>=\"__begin_\"^v\"__end_\"^v\"__cap_\"^v}"
+- "B40@0:8@16@24B32B36"
+- "Failed to fetch reminders count of list {listID: %@}"
+- "T@\"NSArray\",&,N,V_unsavedReminderIDsToCategorizeAsGroceryItems"
+- "_unsavedReminderIDsToCategorizeAsGroceryItems"
+- "clearGroceryLocalCorrectionsOfListsOwnedByCurrentUserWithCompletion:"
+- "fetchRemindersCountWithListID:error:"
+- "fetchRemindersWithListID:includingSubtasks:error:"
+- "initWithListID:includingSubtasks:"
+- "isDate:overdueAtReferenceDate:allDay:showAllDayRemindersAsOverdue:"
+- "setUnsavedReminderIDsToCategorizeAsGroceryItems:"
+- "unsavedReminderIDsToCategorizeAsGroceryItems"
+- "{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>=(__rep={__short=[23c][0C]b7b1}{__long=*Qb63b1})}}16@0:8"
+- "{vector<CRDT::Document_DocObject *, std::allocator<CRDT::Document_DocObject *>>=\"__begin_\"^^{Document_DocObject}\"__end_\"^^{Document_DocObject}\"__end_cap_\"{__compressed_pair<CRDT::Document_DocObject **, std::allocator<CRDT::Document_DocObject *>>=\"__value_\"^^{Document_DocObject}}}"
+- "{vector<TopoSubstring *, std::allocator<TopoSubstring *>>=\"__begin_\"^^{TopoSubstring}\"__end_\"^^{TopoSubstring}\"__end_cap_\"{__compressed_pair<TopoSubstring **, std::allocator<TopoSubstring *>>=\"__value_\"^^{TopoSubstring}}}"
+- "{vector<std::pair<TopoID, TopoID>, std::allocator<std::pair<TopoID, TopoID>>>=\"__begin_\"^v\"__end_\"^v\"__end_cap_\"{__compressed_pair<std::pair<TopoID, TopoID> *, std::allocator<std::pair<TopoID, TopoID>>>=\"__value_\"^v}}"
+
+```

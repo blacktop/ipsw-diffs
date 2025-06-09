@@ -1,0 +1,2402 @@
+## NewsFeed
+
+> `/System/Library/PrivateFrameworks/NewsFeed.framework/NewsFeed`
+
+```diff
+
+-5681.0.0.0.0
+-  __TEXT.__text: 0x166af40
+-  __TEXT.__auth_stubs: 0xdbe0
++5718.1.0.0.0
++  __TEXT.__text: 0x16db62c
++  __TEXT.__auth_stubs: 0xe9f0
+   __TEXT.__delay_helper: 0x17c
+-  __TEXT.__objc_methlist: 0xa0bc
+-  __TEXT.__const: 0x1358b4
+-  __TEXT.__cstring: 0x4984c
+-  __TEXT.__oslogstring: 0x5887
+-  __TEXT.__constg_swiftt: 0x34d80
+-  __TEXT.__swift5_typeref: 0x26172
+-  __TEXT.__swift5_reflstr: 0x33c76
+-  __TEXT.__swift5_fieldmd: 0x4a098
+-  __TEXT.__swift5_builtin: 0x1b80
+-  __TEXT.__swift5_assocty: 0x83f8
+-  __TEXT.__swift5_proto: 0xffac
+-  __TEXT.__swift5_types: 0x4960
+-  __TEXT.__swift5_protos: 0x590
+-  __TEXT.__swift5_capture: 0x24fec
+-  __TEXT.__swift5_mpenum: 0x136c
+-  __TEXT.__swift_as_entry: 0x7e8
+-  __TEXT.__swift_as_ret: 0x900
+-  __TEXT.__unwind_info: 0x4eed0
+-  __TEXT.__eh_frame: 0x9f2a4
+-  __TEXT.__objc_classname: 0xa0b
+-  __TEXT.__objc_methname: 0x1906f
+-  __TEXT.__objc_methtype: 0x4c58
+-  __TEXT.__objc_stubs: 0xe20
+-  __DATA_CONST.__got: 0x46e0
+-  __DATA_CONST.__const: 0x4080
+-  __DATA_CONST.__objc_classlist: 0x1b08
+-  __DATA_CONST.__objc_catlist: 0x40
+-  __DATA_CONST.__objc_catlist2: 0x10
+-  __DATA_CONST.__objc_protolist: 0x688
++  __TEXT.__objc_methlist: 0xa5d4
++  __TEXT.__const: 0x142644
++  __TEXT.__cstring: 0x4c712
++  __TEXT.__oslogstring: 0x5ee7
++  __TEXT.__constg_swiftt: 0x367bc
++  __TEXT.__swift5_typeref: 0x27562
++  __TEXT.__swift5_reflstr: 0x35bb6
++  __TEXT.__swift5_fieldmd: 0x4bf64
++  __TEXT.__swift5_builtin: 0x1c48
++  __TEXT.__swift5_assocty: 0x8d20
++  __TEXT.__swift5_proto: 0x10668
++  __TEXT.__swift5_types: 0x4b84
++  __TEXT.__swift5_protos: 0x5d4
++  __TEXT.__swift5_capture: 0x31088
++  __TEXT.__swift5_mpenum: 0x140c
++  __TEXT.__swift_as_entry: 0x984
++  __TEXT.__swift_as_ret: 0xa84
++  __TEXT.__unwind_info: 0x4a4e8
++  __TEXT.__eh_frame: 0x8533c
++  __TEXT.__objc_classname: 0xb14
++  __TEXT.__objc_methname: 0x19bf4
++  __TEXT.__objc_methtype: 0x4fa7
++  __TEXT.__objc_stubs: 0xec0
++  __DATA_CONST.__got: 0x4998
++  __DATA_CONST.__const: 0x4128
++  __DATA_CONST.__objc_classlist: 0x1b90
++  __DATA_CONST.__objc_catlist: 0x48
++  __DATA_CONST.__objc_catlist2: 0x18
++  __DATA_CONST.__objc_protolist: 0x748
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6e40
+-  __DATA_CONST.__objc_protorefs: 0x370
++  __DATA_CONST.__objc_selrefs: 0x7198
++  __DATA_CONST.__objc_protorefs: 0x3d0
+   __DATA_CONST.__objc_superrefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x6df8
+-  __AUTH_CONST.__const: 0xed138
++  __AUTH_CONST.__auth_got: 0x7500
++  __AUTH_CONST.__const: 0xffc48
+   __AUTH_CONST.__cfstring: 0xa0
+-  __AUTH_CONST.__objc_const: 0x458f0
+-  __AUTH.__objc_data: 0xa988
+-  __AUTH.__data: 0xf410
++  __AUTH_CONST.__objc_const: 0x47198
++  __AUTH.__objc_data: 0xaba0
++  __AUTH.__data: 0xf2a0
+   __DATA.__objc_ivar: 0x4c
+-  __DATA.__data: 0x214b0
+-  __DATA.__objc_stublist: 0x50
+-  __DATA.__bss: 0x11aad8
+-  __DATA.__common: 0x7c8
+-  __DATA_DIRTY.__objc_data: 0x46b0
+-  __DATA_DIRTY.__data: 0x447c0
+-  __DATA_DIRTY.__bss: 0xa9f00
+-  __DATA_DIRTY.__common: 0xa18
++  __DATA.__data: 0x1fb50
++  __DATA.__objc_stublist: 0x58
++  __DATA.__bss: 0x11e6e8
++  __DATA.__common: 0x908
++  __DATA_DIRTY.__objc_data: 0x4a00
++  __DATA_DIRTY.__data: 0x42ee0
++  __DATA_DIRTY.__bss: 0xb2700
++  __DATA_DIRTY.__common: 0xaf0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/AVKit.framework/AVKit
+   - /System/Library/Frameworks/Accounts.framework/Accounts
++  - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreText.framework/CoreText
++  - /System/Library/Frameworks/CoreTransferable.framework/CoreTransferable
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/GameKit.framework/GameKit
+   - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/WeatherKit.framework/WeatherKit
+   - /System/Library/Frameworks/WebKit.framework/WebKit
++  - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppAnalytics.framework/AppAnalytics
+   - /System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/AppleIDSSOAuthentication
++  - /System/Library/PrivateFrameworks/CookingKit.framework/CookingKit
++  - /System/Library/PrivateFrameworks/CookingSupport.framework/CookingSupport
+   - /System/Library/PrivateFrameworks/CoreRoutine.framework/CoreRoutine
+   - /System/Library/PrivateFrameworks/FamilyCircle.framework/FamilyCircle
+   - /System/Library/PrivateFrameworks/FamilyCircleUI.framework/FamilyCircleUI
+
+   - /System/Library/PrivateFrameworks/TeaUI.framework/TeaUI
+   - /System/Library/PrivateFrameworks/TextInput.framework/TextInput
+   - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /System/Library/PrivateFrameworks/WeatherCore.framework/WeatherCore
+   - /System/Library/PrivateFrameworks/WeatherDaemon.framework/WeatherDaemon
+   - /System/Library/PrivateFrameworks/WeatherUI.framework/WeatherUI
+
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
++  - /usr/lib/swift/libswiftCallKit.dylib
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreAudio.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftGameplayKit.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftMetalKit.dylib
+   - /usr/lib/swift/libswiftModelIO.dylib
+
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
++  - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 1113A15F-3E46-34AA-BE8B-FC118EE2A53B
+-  Functions: 106124
+-  Symbols:   25135
+-  CStrings:  13011
++  UUID: 84EDBBFA-9F24-3AAA-89D0-42C578131E23
++  Functions: 108493
++  Symbols:   26145
++  CStrings:  13472
+ 
+Symbols:
++ -[NSObject(AXPriv) ts_setAccessiblyContainer:]
++ _CADynamicRangeConstrainedHigh
++ _CADynamicRangeHigh
++ _FCMutateHeadlineWithBlock
++ _FCOperationPurposeAudioFeed
++ _FCOperationPurposeSavedFeed
++ _FCPaidAccessCheckerHasAccessToRecipeInline
++ _NSTrackingAttributeName
++ _OBJC_CLASS_$_FCSelectorValue
++ _OBJC_CLASS_$_FCSportsEvent
++ _OBJC_CLASS_$_GKGameActivity
++ _OBJC_CLASS_$_SWLayoutGuide
++ _OBJC_CLASS_$_UIWindowScene
++ _OBJC_CLASS_$__TtC8NewsFeed15TagMastheadView
++ _OBJC_CLASS_$__TtC8NewsFeed19FormatSystemFactory
++ _OBJC_CLASS_$__TtC8NewsFeed23TagMastheadViewProvider
++ _OBJC_CLASS_$__TtC8NewsFeed23WebEmbedLayoutGuideView
++ _OBJC_CLASS_$__TtC8NewsFeed24DebugFormatBarButtonItem
++ _OBJC_CLASS_$__TtC8NewsFeed29TagMastheadViewBackgroundView
++ _OBJC_CLASS_$__TtC8NewsFeed32DebugFormatSidebarViewController
++ _OBJC_METACLASS_$_UIBarButtonItem
++ _OBJC_METACLASS_$__TtC5TeaUI15PassthroughView
++ _OBJC_METACLASS_$__TtC8NewsFeed15TagMastheadView
++ _OBJC_METACLASS_$__TtC8NewsFeed19FormatSystemFactory
++ _OBJC_METACLASS_$__TtC8NewsFeed23TagMastheadViewProvider
++ _OBJC_METACLASS_$__TtC8NewsFeed23WebEmbedLayoutGuideView
++ _OBJC_METACLASS_$__TtC8NewsFeed24DebugFormatBarButtonItem
++ _OBJC_METACLASS_$__TtC8NewsFeed29TagMastheadViewBackgroundView
++ _OBJC_METACLASS_$__TtC8NewsFeed32DebugFormatSidebarViewController
++ _UIRectFill
++ __CATEGORY_INSTANCE_METHODS__TtC8NewsFeed29TagMastheadViewBackgroundView_$_NewsFeed
++ __CATEGORY_INSTANCE_METHODS__TtC8NewsFeed32DebugFormatSidebarViewController_$_NewsFeed
++ __CATEGORY_PROTOCOLS__TtC8NewsFeed29TagMastheadViewBackgroundView_$_NewsFeed
++ __CATEGORY_PROTOCOLS__TtC8NewsFeed32DebugFormatSidebarViewController_$_NewsFeed
++ __CATEGORY__TtC8NewsFeed29TagMastheadViewBackgroundView_$_NewsFeed
++ __CATEGORY__TtC8NewsFeed32DebugFormatSidebarViewController_$_NewsFeed
++ __DATA__TtC8NewsFeed15TagMastheadView
++ __DATA__TtC8NewsFeed20FeedDatabaseExporter
++ __DATA__TtC8NewsFeed20FormatServiceHistory
++ __DATA__TtC8NewsFeed21ExternalRecipeFactory
++ __DATA__TtC8NewsFeed21FeedDismissingManager
++ __DATA__TtC8NewsFeed21TagMastheadViewStyler
++ __DATA__TtC8NewsFeed23TagMastheadViewProvider
++ __DATA__TtC8NewsFeed23TagMastheadViewRenderer
++ __DATA__TtC8NewsFeed23WebEmbedLayoutGuideView
++ __DATA__TtC8NewsFeed24DebugFormatBarButtonItem
++ __DATA__TtC8NewsFeed24StubFormatServiceHistory
++ __DATA__TtC8NewsFeed25FileBasedDismissalStorage
++ __DATA__TtC8NewsFeed25FormatGlassEffectRenderer
++ __DATA__TtC8NewsFeed25StubFeedDismissingManager
++ __DATA__TtC8NewsFeed26EmptyFeedDismissingManager
++ __DATA__TtC8NewsFeed27PuzzleAverageScoreFormatter
++ __DATA__TtC8NewsFeed29TagMastheadViewBackgroundView
++ __DATA__TtC8NewsFeed31DebugFormatDebuggerRestoreState
++ __DATA__TtC8NewsFeed32DebugFormatSidebarViewController
++ __DATA__TtC8NewsFeed36WebEmbedDiagnosticAttachmentProvider
++ __DATA__TtC8NewsFeed38TagMastheadViewLayoutAttributesFactory
++ __DATA__TtC8NewsFeedP33_68551BA141CBE037DC226014628127E136DiagnosticDataDirectoryNameGenerator
++ __INSTANCE_METHODS__TtC8NewsFeed15TagMastheadView
++ __INSTANCE_METHODS__TtC8NewsFeed23TagMastheadViewProvider
++ __INSTANCE_METHODS__TtC8NewsFeed23WebEmbedLayoutGuideView
++ __INSTANCE_METHODS__TtC8NewsFeed24DebugFormatBarButtonItem
++ __INSTANCE_METHODS__TtC8NewsFeed29TagMastheadViewBackgroundView
++ __INSTANCE_METHODS__TtC8NewsFeed32DebugFormatSidebarViewController
++ __IVARS__TtC8NewsFeed15TagMastheadView
++ __IVARS__TtC8NewsFeed20FeedDatabaseExporter
++ __IVARS__TtC8NewsFeed20FormatServiceHistory
++ __IVARS__TtC8NewsFeed21ExternalRecipeFactory
++ __IVARS__TtC8NewsFeed21FeedDismissingManager
++ __IVARS__TtC8NewsFeed23TagMastheadViewProvider
++ __IVARS__TtC8NewsFeed23TagMastheadViewRenderer
++ __IVARS__TtC8NewsFeed23WebEmbedLayoutGuideView
++ __IVARS__TtC8NewsFeed25FileBasedDismissalStorage
++ __IVARS__TtC8NewsFeed29TagMastheadViewBackgroundView
++ __IVARS__TtC8NewsFeed31DebugFormatDebuggerRestoreState
++ __IVARS__TtC8NewsFeed32DebugFormatSidebarViewController
++ __IVARS__TtC8NewsFeed36WebEmbedDiagnosticAttachmentProvider
++ __IVARS__TtC8NewsFeed38TagMastheadViewLayoutAttributesFactory
++ __IVARS__TtC8NewsFeedP33_68551BA141CBE037DC226014628127E136DiagnosticDataDirectoryNameGenerator
++ __IVARS__TtCC8NewsFeed15FeedCursorStoreP33_E5E548A1C2922FD1AAB84A5765ABC95519WeakCursorContainer
++ __IVARS__TtCC8NewsFeed15FeedCursorStoreP33_E5E548A1C2922FD1AAB84A5765ABC9559WeakToken
++ __METACLASS_DATA__TtC8NewsFeed15TagMastheadView
++ __METACLASS_DATA__TtC8NewsFeed20FeedDatabaseExporter
++ __METACLASS_DATA__TtC8NewsFeed20FormatServiceHistory
++ __METACLASS_DATA__TtC8NewsFeed21ExternalRecipeFactory
++ __METACLASS_DATA__TtC8NewsFeed21FeedDismissingManager
++ __METACLASS_DATA__TtC8NewsFeed21TagMastheadViewStyler
++ __METACLASS_DATA__TtC8NewsFeed23TagMastheadViewProvider
++ __METACLASS_DATA__TtC8NewsFeed23TagMastheadViewRenderer
++ __METACLASS_DATA__TtC8NewsFeed23WebEmbedLayoutGuideView
++ __METACLASS_DATA__TtC8NewsFeed24DebugFormatBarButtonItem
++ __METACLASS_DATA__TtC8NewsFeed24StubFormatServiceHistory
++ __METACLASS_DATA__TtC8NewsFeed25FileBasedDismissalStorage
++ __METACLASS_DATA__TtC8NewsFeed25FormatGlassEffectRenderer
++ __METACLASS_DATA__TtC8NewsFeed25StubFeedDismissingManager
++ __METACLASS_DATA__TtC8NewsFeed26EmptyFeedDismissingManager
++ __METACLASS_DATA__TtC8NewsFeed27PuzzleAverageScoreFormatter
++ __METACLASS_DATA__TtC8NewsFeed29TagMastheadViewBackgroundView
++ __METACLASS_DATA__TtC8NewsFeed31DebugFormatDebuggerRestoreState
++ __METACLASS_DATA__TtC8NewsFeed32DebugFormatSidebarViewController
++ __METACLASS_DATA__TtC8NewsFeed36WebEmbedDiagnosticAttachmentProvider
++ __METACLASS_DATA__TtC8NewsFeed38TagMastheadViewLayoutAttributesFactory
++ __METACLASS_DATA__TtC8NewsFeedP33_68551BA141CBE037DC226014628127E136DiagnosticDataDirectoryNameGenerator
++ __OBJC_$_CATEGORY_INSTANCE_METHODS_NSObject_$_AXPriv
++ __OBJC_$_CATEGORY_NSObject_$_AXPriv
++ __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed19FormatSystemFactory(NewsFeed)
++ __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed23PuzzleGameCenterService(NewsFeed|NewsFeed1|NewsFeed2)
++ __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed34DebugFormatInspectorViewController(NewsFeed)
++ __OBJC_$_PROP_LIST_FCReadingHistoryType
++ __OBJC_$_PROP_LIST_FCRecipeScorable
++ __OBJC_$_PROP_LIST_SWFailureProvider
++ __OBJC_$_PROP_LIST_SWShareConfiguration
++ __OBJC_$_PROP_LIST_SWShareConfigurationProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCReadingHistoryType
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FCRecipeScorable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKChallengeListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKGameActivityListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKInviteEventListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKSavedGameListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_GKTurnBasedEventListener
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFailureProvider
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWFeedConfigurationFactory
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWShareConfiguration
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWShareConfigurationProvider
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FCReadingHistoryType
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FCRecipeScorable
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKChallengeListener
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKGameActivityListener
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKInviteEventListener
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKSavedGameListener
++ __OBJC_$_PROTOCOL_METHOD_TYPES_GKTurnBasedEventListener
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SWFailureProvider
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SWFeedConfigurationFactory
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SWShareConfiguration
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SWShareConfigurationProvider
++ __OBJC_$_PROTOCOL_REFS_FCRecipeScorable
++ __OBJC_$_PROTOCOL_REFS_GKChallengeListener
++ __OBJC_$_PROTOCOL_REFS_GKLocalPlayerListener
++ __OBJC_$_PROTOCOL_REFS_GKSavedGameListener
++ __OBJC_$_PROTOCOL_REFS_SWFailureProvider
++ __OBJC_$_PROTOCOL_REFS_SWFeedConfigurationFactory
++ __OBJC_$_PROTOCOL_REFS_SWShareConfiguration
++ __OBJC_$_PROTOCOL_REFS_SWShareConfigurationProvider
++ __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed19FormatSystemFactory(NewsFeed)
++ __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed23PuzzleGameCenterService(NewsFeed|NewsFeed1|NewsFeed2)
++ __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed34DebugFormatInspectorViewController(NewsFeed)
++ __OBJC_LABEL_PROTOCOL_$_FCReadingHistoryType
++ __OBJC_LABEL_PROTOCOL_$_FCRecipeScorable
++ __OBJC_LABEL_PROTOCOL_$_GKChallengeListener
++ __OBJC_LABEL_PROTOCOL_$_GKGameActivityListener
++ __OBJC_LABEL_PROTOCOL_$_GKInviteEventListener
++ __OBJC_LABEL_PROTOCOL_$_GKLocalPlayerListener
++ __OBJC_LABEL_PROTOCOL_$_GKSavedGameListener
++ __OBJC_LABEL_PROTOCOL_$_GKTurnBasedEventListener
++ __OBJC_LABEL_PROTOCOL_$_SWFailureProvider
++ __OBJC_LABEL_PROTOCOL_$_SWFeedConfigurationFactory
++ __OBJC_LABEL_PROTOCOL_$_SWShareConfiguration
++ __OBJC_LABEL_PROTOCOL_$_SWShareConfigurationProvider
++ __OBJC_PROTOCOL_$_FCReadingHistoryType
++ __OBJC_PROTOCOL_$_FCRecipeScorable
++ __OBJC_PROTOCOL_$_GKChallengeListener
++ __OBJC_PROTOCOL_$_GKGameActivityListener
++ __OBJC_PROTOCOL_$_GKInviteEventListener
++ __OBJC_PROTOCOL_$_GKLocalPlayerListener
++ __OBJC_PROTOCOL_$_GKSavedGameListener
++ __OBJC_PROTOCOL_$_GKTurnBasedEventListener
++ __OBJC_PROTOCOL_$_SWFailureProvider
++ __OBJC_PROTOCOL_$_SWFeedConfigurationFactory
++ __OBJC_PROTOCOL_$_SWShareConfiguration
++ __OBJC_PROTOCOL_$_SWShareConfigurationProvider
++ __PROPERTIES__TtC8NewsFeed29TagMastheadViewBackgroundView
++ __PROTOCOLS__TtC8NewsFeed26WebEmbedURLHandlerDelegate.21
++ __PROTOCOLS__TtC8NewsFeed30TagImageShareAttributeProvider.9
++ __PROTOCOLS__TtC8NewsFeedP33_794D88F236353B31EBD5B0134C6249D837LocationDetectionManagerObserverProxy.8
++ __PROTOCOL_INSTANCE_METHODS_NAZoomable
++ __PROTOCOL_METHOD_TYPES_NAZoomable
++ __PROTOCOL_NAZoomable
++ __UISolariumEnabled
++ ___55-[NPFamilyEligibilityProvider requestFamilyEligibility]_block_invoke.37
++ ___swift_memcpy169_8
++ ___swift_memcpy20_8
++ ___swift_memcpy272_8
++ ___swift_memcpy290_8
++ ___swift_memcpy424_8
++ ___swift_memcpy544_8
++ ___swift_memcpy58_8
++ ___unnamed_10
++ ___unnamed_11
++ ___unnamed_12
++ ___unnamed_14
++ ___unnamed_17
++ ___unnamed_20
++ ___unnamed_26
++ ___unnamed_30
++ ___unnamed_33
++ ___unnamed_43
++ ___unnamed_9
++ __swift_FORCE_LOAD_$_swiftCallKit
++ __swift_FORCE_LOAD_$_swiftCallKit_$_NewsFeed
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_NewsFeed
++ __swift_FORCE_LOAD_$_swiftVideoToolbox
++ __swift_FORCE_LOAD_$_swiftVideoToolbox_$_NewsFeed
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_NewsFeed
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_NewsFeed
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_NewsFeed
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0C6IntentAA5ValueAdEP_AD0eH0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0C6IntentAaD06SystemG0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0E14IntentInternalAaD0eG0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0E6IntentAA13PerformResultAdEP_AD0gI0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0E6IntentAA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0E6IntentAaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents0E6IntentAaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents12SystemIntentAaD0eH0
++ _associated conformance 8NewsFeed010OpenStaticB0V10AppIntents22URLRepresentableIntentAaD0eH0
++ _associated conformance 8NewsFeed04OpenB6IntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAfGP_AF01_dK0
++ _associated conformance 8NewsFeed04OpenB6IntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed04OpenB6IntentV0B15OptionsProviderV10AppIntents07DynamiceF0AaF09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents06SystemD0AaD0eD0
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0cD0AA5ValueAdEP_AD0eG0
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0cD0AaD06SystemD0
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed04OpenB6IntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents06EntityD0AA0G0AdEP_AD0eG0
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents06EntityD0AaD22DynamicOptionsProvider
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents06EntityD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 8NewsFeed0A11RecipeQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents016EnumerableEntityI0AaF0mI0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AA0L0AfGP_AF0jL0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AaF22DynamicOptionsProvider
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents06EntityI0AaF24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAfGP_AF07_IntentP0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV10AppIntents22DynamicOptionsProviderAaF09_SupportsJ12Dependencies
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F5ValueAaD07_IntentH0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F6EntityAA12DefaultQueryAdEP_AD0hJ0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F6EntityAA2IDs12IdentifiableP_AD0H21IdentifierConvertible
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F6EntityAAs12Identifiable
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F6EntityAaD0F5Value
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents0F6EntityAaD20DisplayRepresentable
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents12_IntentValueAA0I4TypeAdEP_AdE
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverJ0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents18AttributableEntityAaD0fI0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents20DisplayRepresentableAaD04TypehI0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents20DisplayRepresentableAaD08InstancehI0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents22URLRepresentableEntityAaD0fI0
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents22URLRepresentableEntityAaD43CustomURLRepresentationParameterConvertible
++ _associated conformance 8NewsFeed0A11TabDeepLinkV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 8NewsFeed0A11TabDeepLinkVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0E5ValueAaD07_IntentG0
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0E5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0E5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0eD0AA12DefaultQueryAdEP_AD0dH0
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0eD0AA2IDs12IdentifiableP_AD0D21IdentifierConvertible
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0eD0AAs12Identifiable
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0eD0AaD0E5Value
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents0eD0AaD20DisplayRepresentable
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents12_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents20DisplayRepresentableAaD04TypegH0
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents20DisplayRepresentableAaD08InstancegH0
++ _associated conformance 8NewsFeed0A12RecipeEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 8NewsFeed0A12RecipeEntityV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
++ _associated conformance 8NewsFeed0A12RecipeEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8NewsFeed0A22TabDeepLinkDestinationOSHAASQ
++ _associated conformance 8NewsFeed0A22TabDeepLinkDestinationOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 8NewsFeed0B11PuzzleScoreO5TeaUI19CommandRawStateTypeAaD0giJ0
++ _associated conformance 8NewsFeed0B14ConfigMetadataV10CodingKeys33_BBBDA4D2810D04C14AA3A836E19F4396LLOSHAASQ
++ _associated conformance 8NewsFeed0B14ConfigMetadataV10CodingKeys33_BBBDA4D2810D04C14AA3A836E19F4396LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed0B14ConfigMetadataV10CodingKeys33_BBBDA4D2810D04C14AA3A836E19F4396LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed0B14ConfigMetadataV7AdStateOSHAASQ
++ _associated conformance 8NewsFeed0B19ItemDismissalRecordV10CodingKeys33_2B4A8F8286309097CB42AE1AE23310BCLLOSHAASQ
++ _associated conformance 8NewsFeed0B19ItemDismissalRecordV10CodingKeys33_2B4A8F8286309097CB42AE1AE23310BCLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed0B19ItemDismissalRecordV10CodingKeys33_2B4A8F8286309097CB42AE1AE23310BCLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed0B22LayoutCacheHintPathKey33_6498D479FE15BB841244D93AE90C5BBFLLVSHAASQ
++ _associated conformance 8NewsFeed0B22OptionsProviderSectionOSHAASQ
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents06EntityC0AA0F0AdEP_AD0dF0
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents06EntityC0AaD22DynamicOptionsProvider
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents06EntityC0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentJ0
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 8NewsFeed0B5QueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsD12Dependencies
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0D5ValueAaD07_IntentF0
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0D5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0D5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0dC0AA12DefaultQueryAdEP_AD0cG0
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0dC0AA2IDs12IdentifiableP_AD0C21IdentifierConvertible
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0dC0AAs12Identifiable
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0dC0AaD0D5Value
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents0dC0AaD20DisplayRepresentable
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents12_IntentValueAA0G4TypeAdEP_AdE
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverH0
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents20DisplayRepresentableAaD04TypefG0
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents20DisplayRepresentableAaD08InstancefG0
++ _associated conformance 8NewsFeed0B6EntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 8NewsFeed0B6EntityV16CoreTransferable0E0AA14RepresentationAdEP_AD08TransferF0
++ _associated conformance 8NewsFeed0B6EntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8NewsFeed11BlockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAfGP_AF01_dK0
++ _associated conformance 8NewsFeed11BlockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed11BlockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AaF09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed11BlockIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
++ _associated conformance 8NewsFeed11BlockIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
++ _associated conformance 8NewsFeed11BlockIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed11BlockIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed11BlockIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents06EntityD0AA0G0AdEP_AD0eG0
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents06EntityD0AaD22DynamicOptionsProvider
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents06EntityD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents22DynamicOptionsProviderAA12DefaultValueAdEP_AD07_IntentK0
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents22DynamicOptionsProviderAA6ResultAdEP_AD17ResultsCollection
++ _associated conformance 8NewsFeed12ArticleQueryV10AppIntents22DynamicOptionsProviderAaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed12FollowIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAfGP_AF01_dK0
++ _associated conformance 8NewsFeed12FollowIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed12FollowIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AaF09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed12FollowIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
++ _associated conformance 8NewsFeed12FollowIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
++ _associated conformance 8NewsFeed12FollowIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed12FollowIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed12FollowIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents07IndexedD0AaD0eD0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0E5ValueAaD07_IntentG0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0E5ValueAaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0E5ValueAaD24TypeDisplayRepresentable
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0eD0AA12DefaultQueryAdEP_AD0dH0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0eD0AA2IDs12IdentifiableP_AD0D21IdentifierConvertible
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0eD0AAs12Identifiable
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0eD0AaD0E5Value
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents0eD0AaD20DisplayRepresentable
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents12_IntentValueAA0H4TypeAdEP_AdE
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents12_IntentValueAA13SpecificationAdEP_AD08ResolverI0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents12_IntentValueAA13UnwrappedTypeAdEP_AdE
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents20DisplayRepresentableAaD04TypegH0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents20DisplayRepresentableAaD08InstancegH0
++ _associated conformance 8NewsFeed13ArticleEntityV10AppIntents28InstanceDisplayRepresentableAA10Foundation40CustomLocalizedStringResourceConvertible
++ _associated conformance 8NewsFeed13ArticleEntityV16CoreTransferable0F0AA14RepresentationAdEP_AD08TransferG0
++ _associated conformance 8NewsFeed13ArticleEntityVs12IdentifiableAA2IDsADP_SH
++ _associated conformance 8NewsFeed13UnblockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA12DefaultValueAfGP_AF01_dK0
++ _associated conformance 8NewsFeed13UnblockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed13UnblockIntentV0B15OptionsProviderV10AppIntents07DynamiceF0AaF09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed13UnblockIntentV10AppIntents0eD0AA13PerformResultAdEP_AD0dH0
++ _associated conformance 8NewsFeed13UnblockIntentV10AppIntents0eD0AA14SummaryContentAdEP_AD09ParameterG0
++ _associated conformance 8NewsFeed13UnblockIntentV10AppIntents0eD0AaD09_SupportsE12Dependencies
++ _associated conformance 8NewsFeed13UnblockIntentV10AppIntents0eD0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed13UnblockIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed15OpenSavedIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed15OpenSavedIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed15OpenSavedIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed15OpenSavedIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed15PuzzleScoreTypeOSHAASQ
++ _associated conformance 8NewsFeed16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AA12DefaultValueAfGP_AF01_eL0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed16OpenRecipeIntentV0D22DynamicOptionsProviderV10AppIntents0fgH0AaF09_SupportsI12Dependencies
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents06SystemE0AaD0fE0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0cE0AA5ValueAdEP_AD0fH0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0cE0AaD06SystemE0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed16OpenRecipeIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8NewsFeed17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
++ _associated conformance 8NewsFeed17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed17OpenArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents06SystemE0AaD0fE0
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0cE0AA5ValueAdEP_AD0fH0
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0cE0AaD06SystemE0
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed17OpenArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed17OpenHistoryIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed17OpenHistoryIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed17OpenHistoryIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed17OpenHistoryIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
++ _associated conformance 8NewsFeed17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed17PlayArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents013AudioPlaybackE0AaD06SystemE0
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents06SystemE0AaD0fE0
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed17PlayArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
++ _associated conformance 8NewsFeed17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed17SaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
++ _associated conformance 8NewsFeed17SaveArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed17SaveArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed17SaveArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed17SaveArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed17SaveArticleIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed18FormatGroupBindingV11SponsorshipO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed18FormatGroupBindingV11SponsorshipOSHAASQ
++ _associated conformance 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA12DefaultValueAfGP_AF01_eL0
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AA6ResultAfGP_AF17ResultsCollection
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV0D15OptionsProviderV10AppIntents07DynamicfG0AaF09_SupportsH12Dependencies
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV10AppIntents0fE0AA13PerformResultAdEP_AD0eI0
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV10AppIntents0fE0AA14SummaryContentAdEP_AD09ParameterH0
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV10AppIntents0fE0AaD09_SupportsF12Dependencies
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV10AppIntents0fE0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed19UnsaveArticleIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO22AverageScoreCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOSHAASQ
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO22AverageScoreCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO22AverageScoreCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO23PerfectSolvedCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOSHAASQ
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO23PerfectSolvedCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed20PuzzleStatisticValueO23PerfectSolvedCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed20TagMastheadAlignmentOSHAASQ
++ _associated conformance 8NewsFeed20TagMastheadPlacementOSHAASQ
++ _associated conformance 8NewsFeed21FormatButtonNodeStateOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 8NewsFeed21FormatGlassEffectSizeO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed21FormatGlassEffectSizeOSHAASQ
++ _associated conformance 8NewsFeed22DecreaseTextSizeIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
++ _associated conformance 8NewsFeed22DecreaseTextSizeIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
++ _associated conformance 8NewsFeed22DecreaseTextSizeIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed22DecreaseTextSizeIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed22DecreaseTextSizeIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed22FormatSlotItemValidateO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed22FormatSlotItemValidateOSHAASQ
++ _associated conformance 8NewsFeed22IncreaseTextSizeIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
++ _associated conformance 8NewsFeed22IncreaseTextSizeIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
++ _associated conformance 8NewsFeed22IncreaseTextSizeIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed22IncreaseTextSizeIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed22IncreaseTextSizeIntentV5ErrorOSHAASQ
++ _associated conformance 8NewsFeed22OpenSavedRecipesIntentV10AppIntents0gF0AA13PerformResultAdEP_AD0fJ0
++ _associated conformance 8NewsFeed22OpenSavedRecipesIntentV10AppIntents0gF0AA14SummaryContentAdEP_AD09ParameterI0
++ _associated conformance 8NewsFeed22OpenSavedRecipesIntentV10AppIntents0gF0AaD09_SupportsG12Dependencies
++ _associated conformance 8NewsFeed22OpenSavedRecipesIntentV10AppIntents0gF0AaD24PersistentlyIdentifiable
++ _associated conformance 8NewsFeed23FormatGlassEffectOptionO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed23FormatGlassEffectOptionOSHAASQ
++ _associated conformance 8NewsFeed23FormatGlassEffectOptionOSLAASQ
++ _associated conformance 8NewsFeed24DebugFormatInspectorPaneOSHAASQ
++ _associated conformance 8NewsFeed24FormatGlassEffectVariantO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed24FormatGlassEffectVariantOSHAASQ
++ _associated conformance 8NewsFeed25FileBasedDismissalStorageC3KeyOSHAASQ
++ _associated conformance 8NewsFeed27FormatLayoutViewRouteOptionOSHAASQ
++ _associated conformance 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8NewsFeed32FormatSponsoredBannerNodeBindingO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed33FormatGlassEffectInteractionStateO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed33FormatGlassEffectInteractionStateOSHAASQ
++ _associated conformance 8NewsFeed33FormatScoreDataVisualizationTraitOSHAASQ
++ _associated conformance 8NewsFeed33FormatScoreDataVisualizationTraitOSLAASQ
++ _associated conformance 8NewsFeed33SportsScoreDataVisualizationTraitOSHAASQ
++ _associated conformance 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLOs12CaseIterableAA8AllCasessAGP_Sl
++ _associated conformance 8NewsFeed36SportsDataVisualizationRequestTraitsVSHAASQ
++ _associated conformance 8NewsFeed39FormatBindingSponsorshipExpressionLogicO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed39FormatBindingSponsorshipExpressionLogicOSHAASQ
++ _associated conformance 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLOSHAASQ
++ _associated conformance 8NewsFeed39PuzzleNotificationAutoEnableStartupTaskC6Errors33_2B58C3B406D2D25BABD0D0023CA85173LLOSHAASQ
++ _associated conformance 8NewsFeed45FormatCodingSplitBackgroundInsetsZeroStrategyVAA0cdI0AA14RawDecodeValueAaDP_Se
++ _associated conformance 8NewsFeed45FormatCodingSplitBackgroundInsetsZeroStrategyVAA0cdI0AA14RawEncodeValueAaDP_SE
++ _associated conformance 8NewsFeed45FormatCodingSplitBackgroundInsetsZeroStrategyVAA0cdI0AA8RawValueAaDP_SE
++ _associated conformance 8NewsFeed45FormatCodingSplitBackgroundInsetsZeroStrategyVAA0cdI0AA8RawValueAaDP_Se
++ _associated conformance 8NewsFeed54FormatCodingNotEmptySponsorshipExpressionLogicStrategyVAA0cdJ0AA14RawDecodeValueAaDP_Se
++ _associated conformance 8NewsFeed54FormatCodingNotEmptySponsorshipExpressionLogicStrategyVAA0cdJ0AA14RawEncodeValueAaDP_SE
++ _associated conformance 8NewsFeed54FormatCodingNotEmptySponsorshipExpressionLogicStrategyVAA0cdJ0AA8RawValueAaDP_SE
++ _associated conformance 8NewsFeed54FormatCodingNotEmptySponsorshipExpressionLogicStrategyVAA0cdJ0AA8RawValueAaDP_Se
++ _block_copy_helper.113
++ _block_copy_helper.126
++ _block_copy_helper.133
++ _block_copy_helper.134
++ _block_copy_helper.140
++ _block_copy_helper.141
++ _block_copy_helper.149
++ _block_copy_helper.154
++ _block_copy_helper.171
++ _block_copy_helper.179
++ _block_copy_helper.186
++ _block_copy_helper.191
++ _block_copy_helper.192
++ _block_copy_helper.199
++ _block_copy_helper.200
++ _block_copy_helper.206
++ _block_copy_helper.207
++ _block_copy_helper.213
++ _block_copy_helper.220
++ _block_copy_helper.225
++ _block_copy_helper.234
++ _block_copy_helper.245
++ _block_copy_helper.252
++ _block_copy_helper.258
++ _block_copy_helper.265
++ _block_copy_helper.272
++ _block_copy_helper.279
++ _block_copy_helper.286
++ _block_copy_helper.311
++ _block_copy_helper.318
++ _block_copy_helper.32
++ _block_copy_helper.324
++ _block_copy_helper.331
++ _block_copy_helper.338
++ _block_copy_helper.345
++ _block_copy_helper.352
++ _block_copy_helper.376
++ _block_copy_helper.38
++ _block_copy_helper.383
++ _block_copy_helper.389
++ _block_copy_helper.396
++ _block_copy_helper.40
++ _block_copy_helper.403
++ _block_copy_helper.410
++ _block_copy_helper.417
++ _block_copy_helper.42
++ _block_copy_helper.44
++ _block_copy_helper.442
++ _block_copy_helper.449
++ _block_copy_helper.455
++ _block_copy_helper.462
++ _block_copy_helper.469
++ _block_copy_helper.476
++ _block_copy_helper.483
++ _block_copy_helper.50
++ _block_copy_helper.52
++ _block_copy_helper.58
++ _block_copy_helper.63
++ _block_copy_helper.74
++ _block_copy_helper.75
++ _block_copy_helper.82
++ _block_copy_helper.84
++ _block_copy_helper.85
++ _block_copy_helper.94
++ _block_copy_helper.95
++ _block_copy_helper.98
++ _block_copy_helper.99
++ _block_descriptor.100
++ _block_descriptor.101
++ _block_descriptor.115
++ _block_descriptor.128
++ _block_descriptor.135
++ _block_descriptor.136
++ _block_descriptor.142
++ _block_descriptor.143
++ _block_descriptor.151
++ _block_descriptor.156
++ _block_descriptor.173
++ _block_descriptor.181
++ _block_descriptor.188
++ _block_descriptor.193
++ _block_descriptor.194
++ _block_descriptor.201
++ _block_descriptor.202
++ _block_descriptor.208
++ _block_descriptor.209
++ _block_descriptor.215
++ _block_descriptor.222
++ _block_descriptor.227
++ _block_descriptor.236
++ _block_descriptor.247
++ _block_descriptor.254
++ _block_descriptor.260
++ _block_descriptor.267
++ _block_descriptor.274
++ _block_descriptor.281
++ _block_descriptor.288
++ _block_descriptor.313
++ _block_descriptor.320
++ _block_descriptor.326
++ _block_descriptor.333
++ _block_descriptor.34
++ _block_descriptor.340
++ _block_descriptor.347
++ _block_descriptor.354
++ _block_descriptor.378
++ _block_descriptor.385
++ _block_descriptor.391
++ _block_descriptor.398
++ _block_descriptor.40
++ _block_descriptor.405
++ _block_descriptor.412
++ _block_descriptor.419
++ _block_descriptor.42
++ _block_descriptor.44
++ _block_descriptor.444
++ _block_descriptor.451
++ _block_descriptor.457
++ _block_descriptor.46
++ _block_descriptor.464
++ _block_descriptor.471
++ _block_descriptor.478
++ _block_descriptor.485
++ _block_descriptor.52
++ _block_descriptor.54
++ _block_descriptor.60
++ _block_descriptor.65
++ _block_descriptor.76
++ _block_descriptor.77
++ _block_descriptor.84
++ _block_descriptor.86
++ _block_descriptor.87
++ _block_descriptor.96
++ _block_descriptor.97
++ _block_destroy_helper.100
++ _block_destroy_helper.114
++ _block_destroy_helper.127
++ _block_destroy_helper.134
++ _block_destroy_helper.135
++ _block_destroy_helper.141
++ _block_destroy_helper.142
++ _block_destroy_helper.150
++ _block_destroy_helper.155
++ _block_destroy_helper.172
++ _block_destroy_helper.180
++ _block_destroy_helper.187
++ _block_destroy_helper.192
++ _block_destroy_helper.193
++ _block_destroy_helper.200
++ _block_destroy_helper.201
++ _block_destroy_helper.207
++ _block_destroy_helper.208
++ _block_destroy_helper.214
++ _block_destroy_helper.221
++ _block_destroy_helper.226
++ _block_destroy_helper.235
++ _block_destroy_helper.246
++ _block_destroy_helper.253
++ _block_destroy_helper.259
++ _block_destroy_helper.266
++ _block_destroy_helper.273
++ _block_destroy_helper.280
++ _block_destroy_helper.287
++ _block_destroy_helper.312
++ _block_destroy_helper.319
++ _block_destroy_helper.325
++ _block_destroy_helper.33
++ _block_destroy_helper.332
++ _block_destroy_helper.339
++ _block_destroy_helper.346
++ _block_destroy_helper.353
++ _block_destroy_helper.377
++ _block_destroy_helper.384
++ _block_destroy_helper.39
++ _block_destroy_helper.390
++ _block_destroy_helper.397
++ _block_destroy_helper.404
++ _block_destroy_helper.41
++ _block_destroy_helper.411
++ _block_destroy_helper.418
++ _block_destroy_helper.43
++ _block_destroy_helper.443
++ _block_destroy_helper.45
++ _block_destroy_helper.450
++ _block_destroy_helper.456
++ _block_destroy_helper.463
++ _block_destroy_helper.470
++ _block_destroy_helper.477
++ _block_destroy_helper.484
++ _block_destroy_helper.51
++ _block_destroy_helper.53
++ _block_destroy_helper.59
++ _block_destroy_helper.64
++ _block_destroy_helper.75
++ _block_destroy_helper.76
++ _block_destroy_helper.83
++ _block_destroy_helper.85
++ _block_destroy_helper.86
++ _block_destroy_helper.95
++ _block_destroy_helper.96
++ _block_destroy_helper.99
++ _flat unique So17SWFailureProvider_p
++ _flat unique So20FCReadingHistoryType_p
++ _flat unique So20SWShareConfiguration_p
++ _flat unique So28SWShareConfigurationProvider_p
++ _get_enum_tag_for_layout_string 10CookingKit14ExternalRecipeV8NewsFeedE0D9LoadErrorO
++ _get_enum_tag_for_layout_string 8NewsFeed0B12LayoutSolverC6ErrorsOyx_G
++ _get_enum_tag_for_layout_string 8NewsFeed0B20GroupClusteringKnobsVSg
++ _get_enum_tag_for_layout_string 8NewsFeed12FormatStringOSg
++ _get_enum_tag_for_layout_string 8NewsFeed18FormatVisualEffectO
++ _get_enum_tag_for_layout_string 8NewsFeed18FormatVisualEffectOSg
++ _get_enum_tag_for_layout_string 8NewsFeed18PuzzleLaunchActionO
++ _get_enum_tag_for_layout_string 8NewsFeed19TagMastheadViewLogoO
++ _get_enum_tag_for_layout_string 8NewsFeed27FormatServiceHistoryRequestO
++ _get_enum_tag_for_layout_string 8NewsFeed27WebEmbedFailureContentModelO
++ _get_enum_tag_for_layout_string 8NewsFeed33SubscriptionActivationEligibilityO
++ _get_enum_tag_for_layout_string 8NewsFeed33SubscriptionActivationEligibilityOSg
++ _get_enum_tag_for_layout_string 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO
++ _get_enum_tag_for_layout_string 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleOSg
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2069
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2070
++ _get_witness_table 10AppIntents21IntentResultContainerVy8NewsFeed0F12RecipeEntityVs5NeverOA2HGAA12ReturnsValueHPyHC.8
++ _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.2
++ _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.4
++ _get_witness_table 10AppIntents21IntentResultContainerVys5NeverOA3EGAA0cD0HPyHC.5
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed010OpenRecipeC0VGAA0dE0HPyHC.7
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed010OpenStaticG0VGAA0dE0HPyHC.11
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed011OpenArticleC0VGAA0dE0HPyHC.3
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed011PlayArticleC0VGAA0dE0HPyHC.4
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed011SaveArticleC0VGAA0dE0HPyHC.3
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed013UnsaveArticleC0VGAA0dE0HPyHC.3
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed04OpengC0VGAA0dE0HPyHC.1
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed05BlockC0VGAA0dE0HPyHC.1
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed06FollowC0VGAA0dE0HPyHC.1
++ _get_witness_table 10AppIntents22IntentParameterSummaryVy8NewsFeed07UnblockC0VGAA0dE0HPyHC.1
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH12KnobsMaxSizeVAaBHPyHC.19
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH12KnobsMinSizeVAaBHPyHC.20
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH20KnobsMaxAIGCArticlesVAaBHPyHC.18
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH25KnobsMaxEvergreenArticlesVAaBHPyHC.15
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH28KnobsMaxInaccessibleArticlesVAaBHPyHC.16
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH28KnobsMaxPublisherOccurrencesVAaBHPyHC.17
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6Customh22KnobsPaidBundleArticleI0VAaBHPyHC.21
++ _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6Customh5KnobsjK0VAaBHPyHC.22
++ _get_witness_table 16CoreTransferable19ProxyRepresentationVy8NewsFeed0E12RecipeEntityV10Foundation3URLVGAA08TransferD0HPyHC.2
++ _get_witness_table 16CoreTransferable19ProxyRepresentationVy8NewsFeed0F6EntityV10Foundation3URLVGAA08TransferD0HPyHC.2
++ _get_witness_table 16CoreTransferable19ProxyRepresentationVy8NewsFeed13ArticleEntityV10Foundation3URLVGAA08TransferD0HPyHC.2
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA05TupleE0VyAA7ForEachVySay8NewsFeed25DebugFormatLayoutTreeItemCG10Foundation4UUIDVAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyACyAP0opqrvE0VAA21_TraitWritingModifierVyAA0hV18BackgroundTraitKeyVGG_Qo_G_AOySayAP0opqR7PackageCGAveAEAW_AXQrAZ_A2_tFQOyAP0opqr7PackageE0V_Qo_GtGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A24_HO_A30_AA0E8ModifierHPyHCHC.26
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA7ForEachVySay8NewsFeed23DebugFormatFileTreeItemCG10Foundation4UUIDVACyAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAN0nopqrE0V_Qo_AA21_TraitWritingModifierVyAA0hU18BackgroundTraitKeyVGGGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A14_HO_A20_AA0E8ModifierHPyHCHC.11
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH4ViewVAJGGAA13_TaskModifierVGAA0K0HPAlaPHPyHC_AnA0kM0HPyHCHC.32
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH8ItemViewVAA08ProgressL0VyAA05EmptyL0VANGGGAA13_TaskModifierVGAA0L0HPAqaUHPyHC_AsA0lP0HPyHCHC.21
++ _get_witness_table 7SwiftUI19_ConditionalContentVy8NewsFeed31DebugFormatInspectorPopoverViewVyAA08ModifiedD0VyAHyAA6HStackVyAA05TupleK0VyACyACyAHyAHyAA5ImageVAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeK0VyArA012HierarchicalW5StyleVAA05EmptyK0VGGGAHyAnA022_EnvironmentKeyWritingU0VyAA5ColorVSgGGGAA08ProgressK0VyA0_A0_GG_AA6VStackVyALyAA4TextV_AHyA19_A5_ySiSgGGtGGAA6SpacerVtGGAA01_dwU0VyAA0S0VGGAA010_TaskValueU0VyAD0h9WorkspaceF0VGGGA40_GAA0K0HPA41_AAA43_HPyHC_A40_AAA43_HPA34_AAA43_HPA28_AAA43_HPyHC_A33_AA0kU0HPyHCHC_A39_AAA44_HPyHCHCHC.22
++ _get_witness_table 7SwiftUI9TupleViewVyAA6ButtonVy8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLVG_AA19_ConditionalContentVyACyAF0higD0V_AA7ForEachVySayAF0G8ItemType_pGSSAF0higzD0VGAA08ModifiedW0VyAWyAWyAPySayAF0hi7PackageJ0CGSSAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0hi7PackageD0V_Qo_GAA21_TraitWritingModifierVyAA14OnMoveTraitKeyVGGA9_yAA16OnDeleteTraitKeyVGGA9_yAA21ListRowInsetsTraitKeyVGGAWyAWyAWyAPySayAF0hi6EditorL5GroupVGSSAWyA6_A9_yAA25ListRowBackgroundTraitKeyVGGGA12_GA16_GA20_GA0_AAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo_tGAA4TextVSgGtGAAA_HPyHC.65
++ _get_witness_table 8NewsFeed31DebugFormatInspectorPopoverViewVy7SwiftUI15ModifiedContentVyAFyAD6HStackVyAD05TupleG0VyAFyAFyAD5ImageVAD11_ClipEffectVyAD16RoundedRectangleVGGAD16_OverlayModifierVyAD011StrokeShapeG0VyApD012HierarchicalV5StyleVAD05EmptyG0VGGGSg_AD6VStackVyAJyAD4TextV_AFyA6_AD022_EnvironmentKeyWritingT0VySiSgGGtGGAD6SpacerVtGGAD01_kvT0VyAD0R0VGGAD010_TaskValueT0VySSGGGAD0G0HPyHC.4
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleC0VyAA6VStackVyAA4TextVG_AA6SpacerVAMyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGAA01_m5ShapeW0VyAA9RectangleVGG_Qo_HO.70
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAMyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreet6HeaderC0VAA05TupleC0VyAMyAMyAMyAMyAP0rsq5AsyncC0VAA21_TraitWritingModifierVyAA04Liste6InsetsY3KeyVGGAXyAA016IsDeleteDisabledY3KeyVGGAXyAA014IsMoveDisabledY3KeyVGGAXyAA04Liste10BackgroundY3KeyVGG_AMyAMyAMyAMyAA7ForEachVySaySi6offset_AP0Q8ItemType_pSgyYaKc7elementtGSiAP0rsq4ItemxC0VGA_GA3_GA7_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rS16PackageInventoryCGSSAP0rs7PackageC0VGAXyAA08OnDeleteY3KeyVGGAXyAA06OnMoveY3KeyVGGA3_GA7_GA_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rstO0VGSSA31_GA35_GA39_GA3_GA7_GA_GA11_GtGGA_GA11_G_Qo_HO.97
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAcAE0D5StyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA05TupleC0VyAA7ForEachVySay8NewsFeed0U8ItemType_pGSSAcAEAD_AEQrAG_AKtFQOyAX011DebugFormatuvC0V_Qo_G_AcAEAD_AEQrAG_AKtFQOyAX0xy19BindingTreeSelectorC0V_Qo_SgAcAEAD_AEQrAG_AKtFQOyAX0xyz10TreeOptionC0V_Qo_SgAWySayAX0xY16PackageInventoryCGSSAX0xyz4TreeeC0VGAWySayAX0xY20EditorWorkspaceGroupVGSSAcAEAD_AEQrAG_AKtFQOyAX0xyz12TreeSubgroupC0V_Qo_GSgtGSgG_AA05PlainoN0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeN0VSgGG_Qo_HO.24
++ _objc_msgSend$bundleSubscription
++ _objc_msgSend$bundleSubscriptionProvider
++ _objc_msgSend$isPaid
++ _objc_msgSend$setAccessibilityContainer:
++ _objc_msgSend$unsignedIntegerValue
++ _objectdestroy.102Tm
++ _objectdestroy.10488Tm
++ _objectdestroy.105Tm
++ _objectdestroy.106Tm
++ _objectdestroy.1104Tm
++ _objectdestroy.1107Tm
++ _objectdestroy.114Tm
++ _objectdestroy.123Tm
++ _objectdestroy.124Tm
++ _objectdestroy.125Tm
++ _objectdestroy.128Tm
++ _objectdestroy.12Tm
++ _objectdestroy.13100Tm
++ _objectdestroy.131Tm
++ _objectdestroy.136Tm
++ _objectdestroy.138Tm
++ _objectdestroy.139Tm
++ _objectdestroy.149Tm
++ _objectdestroy.179Tm
++ _objectdestroy.185Tm
++ _objectdestroy.195Tm
++ _objectdestroy.216Tm
++ _objectdestroy.233Tm
++ _objectdestroy.236Tm
++ _objectdestroy.239Tm
++ _objectdestroy.243Tm
++ _objectdestroy.2481Tm
++ _objectdestroy.2493Tm
++ _objectdestroy.253Tm
++ _objectdestroy.256Tm
++ _objectdestroy.28Tm
++ _objectdestroy.301Tm
++ _objectdestroy.3587Tm
++ _objectdestroy.358Tm
++ _objectdestroy.3590Tm
++ _objectdestroy.36Tm
++ _objectdestroy.38Tm
++ _objectdestroy.406Tm
++ _objectdestroy.424Tm
++ _objectdestroy.42Tm
++ _objectdestroy.46Tm
++ _objectdestroy.484Tm
++ _objectdestroy.496Tm
++ _objectdestroy.497Tm
++ _objectdestroy.4997Tm
++ _objectdestroy.5006Tm
++ _objectdestroy.50Tm
++ _objectdestroy.55Tm
++ _objectdestroy.5639Tm
++ _objectdestroy.5724Tm
++ _objectdestroy.63Tm
++ _objectdestroy.661Tm
++ _objectdestroy.676Tm
++ _objectdestroy.682Tm
++ _objectdestroy.685Tm
++ _objectdestroy.691Tm
++ _objectdestroy.699Tm
++ _objectdestroy.69Tm
++ _objectdestroy.71Tm
++ _objectdestroy.85Tm
++ _objectdestroy.871Tm
++ _objectdestroy.87Tm
++ _objectdestroy.8891Tm
++ _objectdestroy.897Tm
++ _objectdestroy.93Tm
++ _objectdestroy.96Tm
++ _objectdestroy.978Tm
++ _objectdestroy.99Tm
++ _swift_continuation_resume
++ _swift_coroFrameAlloc
++ _symbolic $s10AppIntents0A6EntityP
++ _symbolic $s10AppIntents0A6IntentP
++ _symbolic $s10AppIntents10OpenIntentP
++ _symbolic $s10AppIntents11EntityQueryP
++ _symbolic $s10AppIntents12_IntentValueP
++ _symbolic $s10AppIntents22DynamicOptionsProviderP
++ _symbolic $s16CoreTransferable0B0P
++ _symbolic $s8NewsFeed04OpenB19IntentNavigatorTypeP
++ _symbolic $s8NewsFeed0B19OptionsProviderTypeP
++ _symbolic $s8NewsFeed0B21DismissingManagerTypeP
++ _symbolic $s8NewsFeed0B24ItemDismissalStorageTypeP
++ _symbolic $s8NewsFeed0B28IntentItemSectionFactoryTypeP
++ _symbolic $s8NewsFeed22WebEmbedFailureHandlerP
++ _symbolic $s8NewsFeed24FormatServiceHistoryTypeP
++ _symbolic $s8NewsFeed25ExternalRecipeFactoryTypeP
++ _symbolic $s8NewsFeed25TagMastheadViewStylerTypeP
++ _symbolic $s8NewsFeed26ArticleOptionsProviderTypeP
++ _symbolic $s8NewsFeed27TagMastheadViewRendererTypeP
++ _symbolic $s8NewsFeed28FormatContextValueResolvableP
++ _symbolic $s8NewsFeed28OpenSavedIntentNavigatorTypeP
++ _symbolic $s8NewsFeed29OpenRecipeIntentNavigatorTypeP
++ _symbolic $s8NewsFeed30OpenArticleIntentNavigatorTypeP
++ _symbolic $s8NewsFeed30OpenHistoryIntentNavigatorTypeP
++ _symbolic $s8NewsFeed35OpenSavedRecipesIntentNavigatorTypeP
++ _symbolic $s8NewsFeed42TagMastheadViewLayoutAttributesFactoryTypeP
++ _symbolic $s8NewsFeed8ZoomableP
++ _symbolic 13ResolvedValue_____Qz 8NewsFeed28FormatContextValueResolvableP
++ _symbolic 5Value_____Qz 10AppIntents12IntentResultP
++ _symbolic SDySSSaySo12NTPBFeedItemCGG
++ _symbolic SDySSSay_____yx_GGG 8NewsFeed0B11CursorStoreC9WeakToken33_E5E548A1C2922FD1AAB84A5765ABC955LLC
++ _symbolic SDySSShy_____GG 8NewsFeed33SportsScoreDataVisualizationTraitO
++ _symbolic SDySSSiGSg
++ _symbolic SDySSSo12NTPBFeedItemCG
++ _symbolic SDySS_____G 8NewsFeed22FormatSourceMapContextO
++ _symbolic SDySS_____ySaySSGGG 8NewsFeed0B19GroupKnobsRuleValueC
++ _symbolic SDySS_____yx_GG 8NewsFeed0B11CursorStoreC04WeakC9Container33_E5E548A1C2922FD1AAB84A5765ABC955LLC
++ _symbolic SDy_____SDySS_____GG 8NewsFeed25FileBasedDismissalStorageC3KeyO AA0b4ItemE6RecordV
++ _symbolic SS_SS6formatt
++ _symbolic SaySSG14offerSelectors_t
++ _symbolic SaySbycG
++ _symbolic Say_____G 8NewsFeed0A11TabDeepLinkV
++ _symbolic Say_____G 8NewsFeed0A12RecipeEntityV
++ _symbolic Say_____G 8NewsFeed0A22TabDeepLinkDestinationO
++ _symbolic Say_____G 8NewsFeed0B6EntityV
++ _symbolic Say_____G 8NewsFeed13ArticleEntityV
++ _symbolic Say_____G 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic Say_____G 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic Say_____G 8NewsFeed21FormatButtonNodeStateO
++ _symbolic Say_____G 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic Say_____G 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic Say_____ySo8FCRecipeCGG 8NewsFeed0B12ScoredRecipeV
++ _symbolic Sb15allowAnyChannel_Sb32keepOverflowHeadlinesInInventoryt
++ _symbolic ScCySo7UIImageCSg_____G s5NeverO
++ _symbolic Shy_____G 8NewsFeed27FormatLayoutViewRouteOptionO
++ _symbolic Shy_____G 8NewsFeed33SportsScoreDataVisualizationTraitO
++ _symbolic So13SWLayoutGuideC
++ _symbolic So14GKGameActivityC
++ _symbolic So24GKGameActivityDefinitionC
++ _symbolic So8GKPlayerC
++ _symbolic _____ 10CookingKit14ExternalRecipeV
++ _symbolic _____ 10CookingKit14ExternalRecipeV8NewsFeedE0D9LoadErrorO
++ _symbolic _____ 5TeaUI15PassthroughViewC
++ _symbolic _____ 5TeaUI15SplitViewInsetsV
++ _symbolic _____ 5TeaUI22BlueprintLayoutMarginsO
++ _symbolic _____ 5TeaUI8CommandsC8NewsFeedE10TextSizingV
++ _symbolic _____ 5TeaUI8CommandsC8NewsFeedE7ZoomingV
++ _symbolic _____ 7NewsAds17AdSponsorshipViewC
++ _symbolic _____ 7NewsAds17SponsorshipAdTypeO
++ _symbolic _____ 8NewsFeed010OpenStaticB0V
++ _symbolic _____ 8NewsFeed025TagMastheadViewBackgroundE0C
++ _symbolic _____ 8NewsFeed04OpenB6IntentV
++ _symbolic _____ 8NewsFeed04OpenB6IntentV0B15OptionsProviderV
++ _symbolic _____ 8NewsFeed04StubB17DismissingManagerC
++ _symbolic _____ 8NewsFeed05EmptyB17DismissingManagerC
++ _symbolic _____ 8NewsFeed08ExportedB8DatabaseV
++ _symbolic _____ 8NewsFeed0A11RecipeQueryV
++ _symbolic _____ 8NewsFeed0A11TabDeepLinkV
++ _symbolic _____ 8NewsFeed0A11TabDeepLinkV09AvailableD21LinksDestinationQueryV
++ _symbolic _____ 8NewsFeed0A12RecipeEntityV
++ _symbolic _____ 8NewsFeed0A22TabDeepLinkDestinationO
++ _symbolic _____ 8NewsFeed0B11CursorStoreC04WeakC9Container33_E5E548A1C2922FD1AAB84A5765ABC955LLC
++ _symbolic _____ 8NewsFeed0B11CursorStoreC9WeakToken33_E5E548A1C2922FD1AAB84A5765ABC955LLC
++ _symbolic _____ 8NewsFeed0B11PuzzleScoreO
++ _symbolic _____ 8NewsFeed0B14ConfigMetadataV
++ _symbolic _____ 8NewsFeed0B14ConfigMetadataV10CodingKeys33_BBBDA4D2810D04C14AA3A836E19F4396LLO
++ _symbolic _____ 8NewsFeed0B14ConfigMetadataV7AdStateO
++ _symbolic _____ 8NewsFeed0B16DatabaseExporterC
++ _symbolic _____ 8NewsFeed0B17DismissingManagerC
++ _symbolic _____ 8NewsFeed0B19CursorExportContextV
++ _symbolic _____ 8NewsFeed0B19ItemDismissalRecordV
++ _symbolic _____ 8NewsFeed0B19ItemDismissalRecordV10CodingKeys33_2B4A8F8286309097CB42AE1AE23310BCLLO
++ _symbolic _____ 8NewsFeed0B21DatabaseExportContextV
++ _symbolic _____ 8NewsFeed0B21DatabaseExportContextV0dC0O
++ _symbolic _____ 8NewsFeed0B22LayoutCacheHintPathKey33_6498D479FE15BB841244D93AE90C5BBFLLV
++ _symbolic _____ 8NewsFeed0B22OptionsProviderSectionO
++ _symbolic _____ 8NewsFeed0B25LayoutCacheHintPathResult33_6498D479FE15BB841244D93AE90C5BBFLLV
++ _symbolic _____ 8NewsFeed0B25SuggestionClusteringBatchV
++ _symbolic _____ 8NewsFeed0B5QueryV
++ _symbolic _____ 8NewsFeed0B6EntityV
++ _symbolic _____ 8NewsFeed0b40GroupClusteringKnobsBasedFormatTransformE0V
++ _symbolic _____ 8NewsFeed11BlockIntentV
++ _symbolic _____ 8NewsFeed11BlockIntentV0B15OptionsProviderV
++ _symbolic _____ 8NewsFeed11BlockIntentV5ErrorO
++ _symbolic _____ 8NewsFeed12ArticleQueryV
++ _symbolic _____ 8NewsFeed12FollowIntentV
++ _symbolic _____ 8NewsFeed12FollowIntentV0B15OptionsProviderV
++ _symbolic _____ 8NewsFeed12FollowIntentV5ErrorO
++ _symbolic _____ 8NewsFeed13ArticleEntityV
++ _symbolic _____ 8NewsFeed13UnblockIntentV
++ _symbolic _____ 8NewsFeed13UnblockIntentV0B15OptionsProviderV
++ _symbolic _____ 8NewsFeed13UnblockIntentV5ErrorO
++ _symbolic _____ 8NewsFeed14FormatVersionsO12CrystalGlowGV
++ _symbolic _____ 8NewsFeed14FormatVersionsO9LuckCheerV
++ _symbolic _____ 8NewsFeed15OpenSavedIntentV
++ _symbolic _____ 8NewsFeed15PuzzleScoreTypeO
++ _symbolic _____ 8NewsFeed15TagMastheadViewC
++ _symbolic _____ 8NewsFeed16OpenRecipeIntentV
++ _symbolic _____ 8NewsFeed16OpenRecipeIntentV0D22DynamicOptionsProviderV
++ _symbolic _____ 8NewsFeed16TagMastheadModelV
++ _symbolic _____ 8NewsFeed17FormatGlassEffectV
++ _symbolic _____ 8NewsFeed17FormatGlassEffectV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed17OpenArticleIntentV
++ _symbolic _____ 8NewsFeed17OpenArticleIntentV0D15OptionsProviderV
++ _symbolic _____ 8NewsFeed17OpenHistoryIntentV
++ _symbolic _____ 8NewsFeed17PlayArticleIntentV
++ _symbolic _____ 8NewsFeed17PlayArticleIntentV0D15OptionsProviderV
++ _symbolic _____ 8NewsFeed17SaveArticleIntentV
++ _symbolic _____ 8NewsFeed17SaveArticleIntentV0D15OptionsProviderV
++ _symbolic _____ 8NewsFeed17SaveArticleIntentV5ErrorO
++ _symbolic _____ 8NewsFeed18FormatGroupBindingV11SponsorshipO
++ _symbolic _____ 8NewsFeed18FormatGroupBindingV11SponsorshipO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed18FormatSlotItemSortO15sortBySeenState33_E2FF9485B085AA737760592FC46A2114LL11resolutions8servicesSayAA0c7ContentdE10ResolutionVGAJ_AA0C23ServiceResolverServicesCtF0ijE0L_V
++ _symbolic _____ 8NewsFeed19FormatDismissActionV
++ _symbolic _____ 8NewsFeed19FormatDismissActionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed19TagMastheadViewLogoO
++ _symbolic _____ 8NewsFeed19UnsaveArticleIntentV
++ _symbolic _____ 8NewsFeed19UnsaveArticleIntentV0D15OptionsProviderV
++ _symbolic _____ 8NewsFeed19UnsaveArticleIntentV5ErrorO
++ _symbolic _____ 8NewsFeed20FormatServiceHistoryC
++ _symbolic _____ 8NewsFeed20PuzzleStatisticValueO22AverageScoreCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLO
++ _symbolic _____ 8NewsFeed20PuzzleStatisticValueO23PerfectSolvedCodingKeys33_BD03DE9D98864986786A98F83D919E1CLLO
++ _symbolic _____ 8NewsFeed20TagMastheadAlignmentO
++ _symbolic _____ 8NewsFeed20TagMastheadPlacementO
++ _symbolic _____ 8NewsFeed21ExternalRecipeFactoryC
++ _symbolic _____ 8NewsFeed21FormatGlassEffectSizeO
++ _symbolic _____ 8NewsFeed21FormatGlassEffectSizeO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed21TagMastheadViewStylerC
++ _symbolic _____ 8NewsFeed22DecreaseTextSizeIntentV
++ _symbolic _____ 8NewsFeed22DecreaseTextSizeIntentV5ErrorO
++ _symbolic _____ 8NewsFeed22FormatSlotItemValidateO
++ _symbolic _____ 8NewsFeed22FormatSlotItemValidateO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed22FormatSourceMapContextO
++ _symbolic _____ 8NewsFeed22IncreaseTextSizeIntentV
++ _symbolic _____ 8NewsFeed22IncreaseTextSizeIntentV5ErrorO
++ _symbolic _____ 8NewsFeed22OpenSavedRecipesIntentV
++ _symbolic _____ 8NewsFeed22WebEmbedFailureContextV
++ _symbolic _____ 8NewsFeed23FormatDismissActionDataV
++ _symbolic _____ 8NewsFeed23FormatGlassEffectOptionO
++ _symbolic _____ 8NewsFeed23FormatGlassEffectOptionO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed23TagMastheadViewProviderC
++ _symbolic _____ 8NewsFeed23TagMastheadViewRendererC
++ _symbolic _____ 8NewsFeed23WebEmbedLayoutGuideViewC
++ _symbolic _____ 8NewsFeed24DebugFormatBarButtonItemC
++ _symbolic _____ 8NewsFeed24DebugFormatInspectorPaneO
++ _symbolic _____ 8NewsFeed24FormatGlassEffectVariantO
++ _symbolic _____ 8NewsFeed24FormatGlassEffectVariantO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed24StubFormatServiceHistoryC
++ _symbolic _____ 8NewsFeed25FileBasedDismissalStorageC
++ _symbolic _____ 8NewsFeed25FileBasedDismissalStorageC10CacheStateO
++ _symbolic _____ 8NewsFeed25FileBasedDismissalStorageC3KeyO
++ _symbolic _____ 8NewsFeed25FormatGlassEffectRendererC
++ _symbolic _____ 8NewsFeed25PuzzleGameCenterChallengeV
++ _symbolic _____ 8NewsFeed25TagMastheadViewBackgroundV
++ _symbolic _____ 8NewsFeed26ExportToGroceryListContextV
++ _symbolic _____ 8NewsFeed27FormatLayoutViewRouteOptionO
++ _symbolic _____ 8NewsFeed27FormatServiceHistoryRequestO
++ _symbolic _____ 8NewsFeed27FormatSplitBackgroundInsetsV
++ _symbolic _____ 8NewsFeed27FormatSplitBackgroundInsetsV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed27PuzzleAverageScoreFormatterC
++ _symbolic _____ 8NewsFeed27SavedArticleOptionsProviderV
++ _symbolic _____ 8NewsFeed27WebEmbedFailureContentModelO
++ _symbolic _____ 8NewsFeed29FormatLayoutSectionDescriptorO0D4DataV
++ _symbolic _____ 8NewsFeed31CompletedShareImageFactoryTheme33_1AB23A019A94525840AAA3EBFB74EFAELLV
++ _symbolic _____ 8NewsFeed31DebugFormatDebuggerRestoreStateC
++ _symbolic _____ 8NewsFeed31DebugFormatLayoutModelSelectionO
++ _symbolic _____ 8NewsFeed31PuzzleGameCenterActivityRequestV
++ _symbolic _____ 8NewsFeed31PuzzleGameCenterActivityRequestV11LeaderboardV
++ _symbolic _____ 8NewsFeed31TagMastheadViewLayoutAttributesV
++ _symbolic _____ 8NewsFeed32CompletedShareImageConfiguration33_1AB23A019A94525840AAA3EBFB74EFAELLV
++ _symbolic _____ 8NewsFeed32DebugFormatSidebarViewControllerC
++ _symbolic _____ 8NewsFeed32FormatSponsoredBannerNodeBindingO
++ _symbolic _____ 8NewsFeed32FormatSponsoredBannerNodeBindingO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed33FormatGlassEffectInteractionStateO
++ _symbolic _____ 8NewsFeed33FormatGlassEffectInteractionStateO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed33FormatScoreDataVisualizationTraitO
++ _symbolic _____ 8NewsFeed33SportsScoreDataVisualizationTraitO
++ _symbolic _____ 8NewsFeed34FormatBindingSponsorshipExpressionV
++ _symbolic _____ 8NewsFeed34FormatBindingSponsorshipExpressionV10CodingKeys33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed36DiagnosticDataDirectoryNameGenerator33_68551BA141CBE037DC226014628127E1LLC
++ _symbolic _____ 8NewsFeed36SportsDataVisualizationRequestTraitsV
++ _symbolic _____ 8NewsFeed36WebEmbedDiagnosticAttachmentProviderC
++ _symbolic _____ 8NewsFeed38TagMastheadViewLayoutAttributesFactoryC
++ _symbolic _____ 8NewsFeed39FormatBindingSponsorshipExpressionLogicO
++ _symbolic _____ 8NewsFeed39FormatBindingSponsorshipExpressionLogicO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO
++ _symbolic _____ 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO10CodingType33_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____ 8NewsFeed39PuzzleNotificationAutoEnableStartupTaskC6Errors33_2B58C3B406D2D25BABD0D0023CA85173LLO
++ _symbolic _____ 8NewsFeed45FormatCodingSplitBackgroundInsetsZeroStrategyV
++ _symbolic _____ 8NewsFeed54FormatCodingNotEmptySponsorshipExpressionLogicStrategyV
++ _symbolic _____ So17UIViewContentModeV
++ _symbolic _____ So21FCRecipeContentFormatV
++ _symbolic _____ So23FCRecipeContentEncodingV
++ _symbolic _____IeyBhy_ 10ObjectiveC8ObjCBoolV
++ _symbolic _____Sg 5TeaUI18GradientDescriptorV
++ _symbolic _____Sg 5TeaUI23ScreenScaleImageRequestC
++ _symbolic _____Sg 5TeaUI27BlueprintPipelineRunOptionsC
++ _symbolic _____Sg 5TeaUI33BlueprintHorizontalScrollShimViewC
++ _symbolic _____Sg 8NewsFeed0B20GroupClusteringKnobsV
++ _symbolic _____Sg 8NewsFeed12FormatStringO
++ _symbolic _____Sg 8NewsFeed15PuzzleScoreTypeO
++ _symbolic _____Sg 8NewsFeed16TagMastheadModelV
++ _symbolic _____Sg 8NewsFeed20PuzzleResourceSourceO
++ _symbolic _____Sg 8NewsFeed21FormatGlassEffectSizeO
++ _symbolic _____Sg 8NewsFeed22FormatSourceMapContextO
++ _symbolic _____Sg 8NewsFeed23WebEmbedLayoutGuideViewC
++ _symbolic _____Sg 8NewsFeed24DebugFormatBarButtonItemC
++ _symbolic _____Sg 8NewsFeed24FormatGlassEffectVariantO
++ _symbolic _____Sg 8NewsFeed25FormatButtonNodeStateMaskV
++ _symbolic _____Sg 8NewsFeed26ExportToGroceryListContextV
++ _symbolic _____Sg 8NewsFeed27WebEmbedFailureContentModelO
++ _symbolic _____Sg 8NewsFeed31DebugFormatDebuggerRestoreStateC
++ _symbolic _____Sg 8NewsFeed31PuzzleGameCenterActivityRequestV11LeaderboardV
++ _symbolic _____Sg 8NewsFeed33FormatGlassEffectInteractionStateO
++ _symbolic _____Sg 8NewsFeed38DebugFormatInspectorPaneViewControllerC
++ _symbolic _____Sg 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO
++ _symbolic _____SgXw 8NewsFeed0B17DismissingManagerC
++ _symbolic _____SgXw 8NewsFeed15TagMastheadViewC
++ _symbolic _____SgXw 8NewsFeed24DebugFormatBarButtonItemC
++ _symbolic _____SgXwz_Xx 8NewsFeed0B17DismissingManagerC
++ _symbolic _____SgXwz_Xx 8NewsFeed15TagMastheadViewC
++ _symbolic ______So16UIViewControllerCXcSg 5TeaUI11SegmentableP
++ _symbolic ______So18NSAttributedStringC13fallbackTitlet 8NewsFeed29PublisherLogoProcessorRequestC
++ _symbolic ___________tIeAgHr_ So6CGSizeV So20UIUserInterfaceIdiomV
++ _symbolic ______p 8NewsFeed0B21DismissingManagerTypeP
++ _symbolic ______p 8NewsFeed0B24ItemDismissalStorageTypeP
++ _symbolic ______p 8NewsFeed22WebEmbedFailureHandlerP
++ _symbolic ______p 8NewsFeed24FormatServiceHistoryTypeP
++ _symbolic ______p 8NewsFeed25ExternalRecipeFactoryTypeP
++ _symbolic ______p 8NewsFeed25TagMastheadViewStylerTypeP
++ _symbolic ______p 8NewsFeed27TagMastheadViewRendererTypeP
++ _symbolic ______p 8NewsFeed42TagMastheadViewLayoutAttributesFactoryTypeP
++ _symbolic ______p So17SWFailureProviderP
++ _symbolic ______p So20FCReadingHistoryTypeP
++ _symbolic ______p So28SWShareConfigurationProviderP
++ _symbolic ______pIegg_ So20SWShareConfigurationP
++ _symbolic ______pSg 8NewsCore17RecipeHistoryTypeP
++ _symbolic ______pSg 8NewsFeed23FeatureAvailabilityTypeP
++ _symbolic ______pSg 8NewsFeed25ExternalRecipeFactoryTypeP
++ _symbolic ______pSg So20SWShareConfigurationP
++ _symbolic ______pytIegnr_ So20SWShareConfigurationP
++ _symbolic _____ySDySSSiGG 8NewsFeed0B19GroupKnobsRuleValueC
++ _symbolic _____ySSG 10AppIntents14EntityPropertyC
++ _symbolic _____ySSSgG 10AppIntents14EntityPropertyC
++ _symbolic _____ySSSo7UIImageCG 13TeaFoundation5CacheC
++ _symbolic _____ySaySSGSgG 10AppIntents14EntityPropertyC
++ _symbolic _____yShy_____GG 13TeaFoundation18ObservablePropertyC 8NewsFeed21FormatButtonNodeStateO
++ _symbolic _____ySo16UIViewControllerCSSG 13TeaFoundation12AddressCacheV
++ _symbolic _____y_____A3BG 10AppIntents21IntentResultContainerV s5NeverO
++ _symbolic _____y_____G 10AppIntents0A10DependencyC 0A9Analytics7TrackerC
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 8NewsFeed0E11TabDeepLinkV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 8NewsFeed0E12RecipeEntityV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 8NewsFeed0F6EntityV
++ _symbolic _____y_____G 10AppIntents15IntentParameterC 8NewsFeed13ArticleEntityV
++ _symbolic _____y_____G 10AppIntents20IntentItemCollectionV 8NewsFeed0G6EntityV
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed010OpenRecipeC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed010OpenStaticG0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed011OpenArticleC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed011PlayArticleC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed011SaveArticleC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed013UnsaveArticleC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed04OpengC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed05BlockC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed06FollowC0V
++ _symbolic _____y_____G 10AppIntents22IntentParameterSummaryV 8NewsFeed07UnblockC0V
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 8NewsFeed0F11TabDeepLinkV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 8NewsFeed0F12RecipeEntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 8NewsFeed0G6EntityV
++ _symbolic _____y_____G 10AppIntents26EmptyResolverSpecificationV 8NewsFeed13ArticleEntityV
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 8NewsFeed25FileBasedDismissalStorageC10CacheStateO
++ _symbolic _____y_____G 5TeaUI7CommandC 8NewsFeed26ExportToGroceryListContextV
++ _symbolic _____y_____G 8NewsFeed19FormatCodingDefaultV AA0cD33SplitBackgroundInsetsZeroStrategyV
++ _symbolic _____y_____G 8NewsFeed19FormatCodingDefaultV AA0cD42NotEmptySponsorshipExpressionLogicStrategyV
++ _symbolic _____y_____G 8NewsFeed24FormatUserInterfaceValueV AA0c15SponsoredBannerdE5StyleO
++ _symbolic _____y_____G 8NewsFeed25FormatCodingKeysContainerO AA0C11GlassEffectV0dE033_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____y_____G 8NewsFeed25FormatCodingKeysContainerO AA0C13DismissActionV0dE033_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____y_____G 8NewsFeed25FormatCodingKeysContainerO AA0C21SplitBackgroundInsetsV0dE033_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____y_____G 8NewsFeed25FormatCodingKeysContainerO AA0C28BindingSponsorshipExpressionV0dE033_C092737B1889A83E0CD3F1D8D5492C03LLO
++ _symbolic _____y_____SgG 13TeaFoundation18ObservablePropertyC 8NewsFeed31DebugFormatLayoutModelSelectionO
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 8NewsFeed011OpenHistoryC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 8NewsFeed016DecreaseTextSizeC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 8NewsFeed016IncreaseTextSizeC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 8NewsFeed016OpenSavedRecipesC0V
++ _symbolic _____y______Qo_ 10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQO 8NewsFeed09OpenSavedC0V
++ _symbolic _____y__________A2CG 10AppIntents21IntentResultContainerV 8NewsFeed0F12RecipeEntityV s5NeverO
++ _symbolic _____y__________G 13TeaFoundation5CacheC 8NewsFeed0e6LayoutC11HintPathKey33_6498D479FE15BB841244D93AE90C5BBFLLV AD0efcgH6ResultAFLLV
++ _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 8NewsFeed0E12RecipeEntityV 10Foundation3URLV
++ _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 8NewsFeed0F6EntityV 10Foundation3URLV
++ _symbolic _____y__________G 16CoreTransferable19ProxyRepresentationV 8NewsFeed13ArticleEntityV 10Foundation3URLV
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 5TeaUI17CommandCenterTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsCore17RecipeHistoryTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed04OpenE19IntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed0E19OptionsProviderTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed14TagServiceTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed17RecipeServiceTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed19HeadlineServiceTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed21ShareLinkProviderTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed26ArticleOptionsProviderTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed28OpenSavedIntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed29OpenRecipeIntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed30OpenArticleIntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed30OpenHistoryIntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC 8NewsFeed35OpenSavedRecipesIntentNavigatorTypeP
++ _symbolic _____y______pG 10AppIntents0A10DependencyC So31FCBundleSubscriptionManagerTypeP
++ _symbolic _____y_____y_____GG 8NewsFeed19FormatCodingDefaultV AA0cD16EmptySetStrategyV AA0C17GlassEffectOptionO
++ _symbolic _____y_____y_____GG 8NewsFeed19FormatCodingDefaultV AA0cD16EmptySetStrategyV AA0C27ScoreDataVisualizationTraitO
++ _symbolic _____y_____y_____y__________ySay_____G_____AAy_____y______Qo______y_____GGGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA7ForEachV 8NewsFeed23DebugFormatFileTreeItemC 10Foundation4UUIDV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AN0nopqrE0V AA21_TraitWritingModifierV AA0hU18BackgroundTraitKeyV AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _symbolic _____y_____y_____y__________y_____ySay_____G__________yAAy__________y_____GG_Qo_G_AEySay_____GAH_____y______Qo_GtGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA05TupleE0V AA7ForEachV 8NewsFeed25DebugFormatLayoutTreeItemC 10Foundation4UUIDV AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AP0opqrvE0V AA21_TraitWritingModifierV AA0hV18BackgroundTraitKeyV AP0opqR7PackageC AeAEAV_AWQrAY_A1_tFQO AP0opqr7PackageE0V AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
++ _symbolic _____y_____y_____y_____y__________y_____ySay______pGSS_____y______Qo_G______y______Qo_Sg_____y______Qo_SgAEySay_____GSS_____GAEySay_____GSS_____y______Qo_GSgtGSgG______Qo______y_____SgGG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleC0V AA7ForEachV 8NewsFeed0U8ItemTypeP AcAEAD_AEQrAG_AKtFQO AX011DebugFormatuvC0V AcAEAD_AEQrAG_AKtFQO AX0xy19BindingTreeSelectorC0V AcAEAD_AEQrAG_AKtFQO AX0xyz10TreeOptionC0V AX0xY16PackageInventoryC AX0xyz4TreeeC0V AX0xY20EditorWorkspaceGroupV AcAEAD_AEQrAG_AKtFQO AX0xyz12TreeSubgroupC0V AA05PlainoN0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeN0V
++ _symbolic _____yxGSgXw 8NewsFeed0B14DeferredCursorC
++ _symbolic xSbIeggy_
++ _symbolic xSgXwz_x_RlzClXX
++ _symbolic y______SbtcSg 8NewsFeed25DebugFormatLayoutTreeItemC
++ _symbolic y______pcSg So20SWShareConfigurationP
++ _type_layout_string 10CookingKit14ExternalRecipeV8NewsFeedE0D9LoadErrorO
++ _type_layout_string 8NewsFeed010OpenStaticB0V
++ _type_layout_string 8NewsFeed04OpenB6IntentV
++ _type_layout_string 8NewsFeed04OpenB6IntentV0B15OptionsProviderV
++ _type_layout_string 8NewsFeed08ExportedB8DatabaseV
++ _type_layout_string 8NewsFeed0A11RecipeQueryV
++ _type_layout_string 8NewsFeed0A11TabDeepLinkV
++ _type_layout_string 8NewsFeed0B14ConfigMetadataV
++ _type_layout_string 8NewsFeed0B19CursorExportContextV
++ _type_layout_string 8NewsFeed0B21DatabaseExportContextV
++ _type_layout_string 8NewsFeed0B21DatabaseExportContextV0dC0O
++ _type_layout_string 8NewsFeed0B22LayoutCacheHintPathKey33_6498D479FE15BB841244D93AE90C5BBFLLV
++ _type_layout_string 8NewsFeed0B25LayoutCacheHintPathResult33_6498D479FE15BB841244D93AE90C5BBFLLV
++ _type_layout_string 8NewsFeed0B25SuggestionClusteringBatchV
++ _type_layout_string 8NewsFeed0B5QueryV
++ _type_layout_string 8NewsFeed0b40GroupClusteringKnobsBasedFormatTransformE0V
++ _type_layout_string 8NewsFeed11BlockIntentV
++ _type_layout_string 8NewsFeed11BlockIntentV0B15OptionsProviderV
++ _type_layout_string 8NewsFeed12ArticleQueryV
++ _type_layout_string 8NewsFeed12FollowIntentV
++ _type_layout_string 8NewsFeed12FollowIntentV0B15OptionsProviderV
++ _type_layout_string 8NewsFeed13UnblockIntentV
++ _type_layout_string 8NewsFeed13UnblockIntentV0B15OptionsProviderV
++ _type_layout_string 8NewsFeed15OpenSavedIntentV
++ _type_layout_string 8NewsFeed16OpenRecipeIntentV
++ _type_layout_string 8NewsFeed16OpenRecipeIntentV0D22DynamicOptionsProviderV
++ _type_layout_string 8NewsFeed16TagMastheadModelV
++ _type_layout_string 8NewsFeed17FormatGlassEffectV
++ _type_layout_string 8NewsFeed17OpenArticleIntentV
++ _type_layout_string 8NewsFeed17OpenArticleIntentV0D15OptionsProviderV
++ _type_layout_string 8NewsFeed17OpenHistoryIntentV
++ _type_layout_string 8NewsFeed17PlayArticleIntentV
++ _type_layout_string 8NewsFeed17PlayArticleIntentV0D15OptionsProviderV
++ _type_layout_string 8NewsFeed17SaveArticleIntentV
++ _type_layout_string 8NewsFeed17SaveArticleIntentV0D15OptionsProviderV
++ _type_layout_string 8NewsFeed18FormatVisualEffectO
++ _type_layout_string 8NewsFeed19FormatDismissActionV
++ _type_layout_string 8NewsFeed19TagMastheadViewLogoO
++ _type_layout_string 8NewsFeed19UnsaveArticleIntentV
++ _type_layout_string 8NewsFeed19UnsaveArticleIntentV0D15OptionsProviderV
++ _type_layout_string 8NewsFeed20PuzzleTypeDebugStatsV
++ _type_layout_string 8NewsFeed22DecreaseTextSizeIntentV
++ _type_layout_string 8NewsFeed22IncreaseTextSizeIntentV
++ _type_layout_string 8NewsFeed22OpenSavedRecipesIntentV
++ _type_layout_string 8NewsFeed23FormatDismissActionDataV
++ _type_layout_string 8NewsFeed25FileBasedDismissalStorageC10CacheStateO
++ _type_layout_string 8NewsFeed25PuzzleGameCenterChallengeV
++ _type_layout_string 8NewsFeed26ExportToGroceryListContextV
++ _type_layout_string 8NewsFeed26IssueCoverViewLayerOptionsV
++ _type_layout_string 8NewsFeed27DebugFormatInspectorContextV
++ _type_layout_string 8NewsFeed27FormatServiceHistoryRequestO
++ _type_layout_string 8NewsFeed27FormatSplitBackgroundInsetsV
++ _type_layout_string 8NewsFeed27SavedArticleOptionsProviderV
++ _type_layout_string 8NewsFeed27WebEmbedFailureContentModelO
++ _type_layout_string 8NewsFeed29FormatLayoutSectionDescriptorO
++ _type_layout_string 8NewsFeed29FormatLayoutSectionDescriptorO0D4DataV
++ _type_layout_string 8NewsFeed31CompletedShareImageFactoryTheme33_1AB23A019A94525840AAA3EBFB74EFAELLV
++ _type_layout_string 8NewsFeed32CompletedShareImageConfiguration33_1AB23A019A94525840AAA3EBFB74EFAELLV
++ _type_layout_string 8NewsFeed33SubscriptionActivationEligibilityO
++ _type_layout_string 8NewsFeed34FormatBindingSponsorshipExpressionV
++ _type_layout_string 8NewsFeed36SportsDataVisualizationRequestTraitsV
++ _type_layout_string 8NewsFeed39FormatSponsoredBannerUserInterfaceStyleO
++ _type_layout_string So16FCRecipeScorableRzl8NewsFeed0D12ScoredRecipeVyxG
+- _FCDiagnosticsLog
+- _OBJC_CLASS_$_FCTopStoriesStyleConfiguration
+- _OBJC_METACLASS_$__TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController
+- __CATEGORY_INSTANCE_METHODS__TtC8NewsFeed34DebugFormatInspectorViewController_$_NewsFeed
+- __CATEGORY_PROTOCOLS__TtC8NewsFeed34DebugFormatInspectorViewController_$_NewsFeed
+- __CATEGORY__TtC8NewsFeed34DebugFormatInspectorViewController_$_NewsFeed
+- __DATA__TtC8NewsFeed29SportsSyncingConfigV2Resource
+- __DATA__TtC8NewsFeed31WebEmbedRadarAttachmentProvider
+- __DATA__TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController
+- __DATA__TtC8NewsFeedP33_87CACDB1B7E68230F1CB52514950178436DiagnosticDataDirectoryNameGenerator
+- __INSTANCE_METHODS__TtC8NewsFeed34DebugFormatInspectorViewController
+- __INSTANCE_METHODS__TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController
+- __IVARS__TtC8NewsFeed29SportsSyncingConfigV2Resource
+- __IVARS__TtC8NewsFeed31WebEmbedRadarAttachmentProvider
+- __IVARS__TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController
+- __IVARS__TtC8NewsFeedP33_87CACDB1B7E68230F1CB52514950178436DiagnosticDataDirectoryNameGenerator
+- __IVARS__TtCC8NewsFeed15FeedCursorStoreP33_E5E548A1C2922FD1AAB84A5765ABC95511WeakWrapper
+- __METACLASS_DATA__TtC8NewsFeed29SportsSyncingConfigV2Resource
+- __METACLASS_DATA__TtC8NewsFeed31WebEmbedRadarAttachmentProvider
+- __METACLASS_DATA__TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController
+- __METACLASS_DATA__TtC8NewsFeedP33_87CACDB1B7E68230F1CB52514950178436DiagnosticDataDirectoryNameGenerator
+- __OBJC_$_INSTANCE_METHODS__TtC8NewsFeed23PuzzleGameCenterService(NewsFeed)
+- __OBJC_CLASS_PROTOCOLS_$__TtC8NewsFeed23PuzzleGameCenterService(NewsFeed)
+- __PROTOCOLS__TtC8NewsFeed22DiagnosticFileProvider
+- __PROTOCOLS__TtC8NewsFeed22DiagnosticFileProvider.2
+- __PROTOCOLS__TtC8NewsFeed26WebEmbedURLHandlerDelegate.17
+- __PROTOCOLS__TtC8NewsFeed30TagImageShareAttributeProvider.18
+- __PROTOCOLS__TtC8NewsFeedP33_794D88F236353B31EBD5B0134C6249D837LocationDetectionManagerObserverProxy.15
+- __PROTOCOL_INSTANCE_METHODS_TFDiagnosticFileProvider
+- __PROTOCOL_METHOD_TYPES_TFDiagnosticFileProvider
+- __PROTOCOL_TFDiagnosticFileProvider
+- ___55-[NPFamilyEligibilityProvider requestFamilyEligibility]_block_invoke.31
+- ___swift_memcpy148_8
+- ___swift_memcpy184_8
+- ___swift_memcpy264_8
+- ___swift_memcpy440_8
+- ___swift_memcpy560_8
+- ___swift_memcpy576_8
+- ___unnamed_15
+- ___unnamed_22
+- ___unnamed_29
+- ___unnamed_32
+- ___unnamed_42
+- ___unnamed_8
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit
+- __swift_FORCE_LOAD_$_swiftCryptoTokenKit_$_NewsFeed
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_NewsFeed
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_NewsFeed
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_NewsFeed
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_NewsFeed
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_NewsFeed
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_NewsFeed
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_NewsFeed
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_NewsFeed
+- _associated conformance 8NewsFeed10PuzzleKindOSHAASQ
+- _associated conformance 8NewsFeed10PuzzleKindOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 8NewsFeed29SportsSyncingConfigV2ResourceC10CodingKeys33_B11CB54C9C97A1A692025904B0C93064LLOSHAASQ
+- _associated conformance 8NewsFeed29SportsSyncingConfigV2ResourceC10CodingKeys33_B11CB54C9C97A1A692025904B0C93064LLOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 8NewsFeed29SportsSyncingConfigV2ResourceC10CodingKeys33_B11CB54C9C97A1A692025904B0C93064LLOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8NewsFeed33SubscriptionActivationEligibilityOSHAASQ
+- _block_copy_helper.100
+- _block_copy_helper.110
+- _block_copy_helper.130
+- _block_copy_helper.131
+- _block_copy_helper.137
+- _block_copy_helper.143
+- _block_copy_helper.151
+- _block_copy_helper.158
+- _block_copy_helper.165
+- _block_copy_helper.197
+- _block_copy_helper.203
+- _block_copy_helper.210
+- _block_copy_helper.217
+- _block_copy_helper.224
+- _block_copy_helper.231
+- _block_copy_helper.256
+- _block_copy_helper.263
+- _block_copy_helper.269
+- _block_copy_helper.276
+- _block_copy_helper.283
+- _block_copy_helper.290
+- _block_copy_helper.297
+- _block_copy_helper.322
+- _block_copy_helper.329
+- _block_copy_helper.335
+- _block_copy_helper.342
+- _block_copy_helper.349
+- _block_copy_helper.356
+- _block_copy_helper.363
+- _block_copy_helper.387
+- _block_copy_helper.394
+- _block_copy_helper.400
+- _block_copy_helper.407
+- _block_copy_helper.414
+- _block_copy_helper.421
+- _block_copy_helper.428
+- _block_copy_helper.43
+- _block_copy_helper.45
+- _block_copy_helper.453
+- _block_copy_helper.460
+- _block_copy_helper.466
+- _block_copy_helper.473
+- _block_copy_helper.480
+- _block_copy_helper.487
+- _block_copy_helper.494
+- _block_copy_helper.66
+- _block_copy_helper.68
+- _block_copy_helper.69
+- _block_copy_helper.76
+- _block_copy_helper.87
+- _block_copy_helper.97
+- _block_descriptor.102
+- _block_descriptor.112
+- _block_descriptor.132
+- _block_descriptor.133
+- _block_descriptor.139
+- _block_descriptor.145
+- _block_descriptor.153
+- _block_descriptor.160
+- _block_descriptor.167
+- _block_descriptor.199
+- _block_descriptor.205
+- _block_descriptor.212
+- _block_descriptor.219
+- _block_descriptor.226
+- _block_descriptor.233
+- _block_descriptor.258
+- _block_descriptor.265
+- _block_descriptor.271
+- _block_descriptor.278
+- _block_descriptor.285
+- _block_descriptor.292
+- _block_descriptor.299
+- _block_descriptor.324
+- _block_descriptor.331
+- _block_descriptor.337
+- _block_descriptor.344
+- _block_descriptor.351
+- _block_descriptor.358
+- _block_descriptor.365
+- _block_descriptor.389
+- _block_descriptor.396
+- _block_descriptor.402
+- _block_descriptor.409
+- _block_descriptor.416
+- _block_descriptor.423
+- _block_descriptor.430
+- _block_descriptor.45
+- _block_descriptor.455
+- _block_descriptor.462
+- _block_descriptor.468
+- _block_descriptor.47
+- _block_descriptor.475
+- _block_descriptor.482
+- _block_descriptor.489
+- _block_descriptor.496
+- _block_descriptor.68
+- _block_descriptor.70
+- _block_descriptor.71
+- _block_descriptor.78
+- _block_descriptor.89
+- _block_descriptor.99
+- _block_destroy_helper.101
+- _block_destroy_helper.111
+- _block_destroy_helper.131
+- _block_destroy_helper.132
+- _block_destroy_helper.138
+- _block_destroy_helper.144
+- _block_destroy_helper.152
+- _block_destroy_helper.159
+- _block_destroy_helper.166
+- _block_destroy_helper.198
+- _block_destroy_helper.204
+- _block_destroy_helper.211
+- _block_destroy_helper.218
+- _block_destroy_helper.225
+- _block_destroy_helper.232
+- _block_destroy_helper.257
+- _block_destroy_helper.264
+- _block_destroy_helper.270
+- _block_destroy_helper.277
+- _block_destroy_helper.284
+- _block_destroy_helper.291
+- _block_destroy_helper.298
+- _block_destroy_helper.323
+- _block_destroy_helper.330
+- _block_destroy_helper.336
+- _block_destroy_helper.343
+- _block_destroy_helper.350
+- _block_destroy_helper.357
+- _block_destroy_helper.364
+- _block_destroy_helper.388
+- _block_destroy_helper.395
+- _block_destroy_helper.401
+- _block_destroy_helper.408
+- _block_destroy_helper.415
+- _block_destroy_helper.422
+- _block_destroy_helper.429
+- _block_destroy_helper.44
+- _block_destroy_helper.454
+- _block_destroy_helper.46
+- _block_destroy_helper.461
+- _block_destroy_helper.467
+- _block_destroy_helper.474
+- _block_destroy_helper.481
+- _block_destroy_helper.488
+- _block_destroy_helper.495
+- _block_destroy_helper.67
+- _block_destroy_helper.69
+- _block_destroy_helper.70
+- _block_destroy_helper.77
+- _block_destroy_helper.88
+- _block_destroy_helper.98
+- _get_enum_tag_for_layout_string 8NewsFeed20FormatSourceMapEntryVSg
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.2225
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.2226
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO0A10AttributesV024InlinePresentationIntentE0OAaBHPyHC.33
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV014ParagraphStyleE0OAaBHPyHC.1
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV014ParagraphStyleE0OAaBHPyHC.20
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.20
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.30
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV015ForegroundColorE0OAaBHPyHC.7
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.1
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.24
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO5UIKitE0G10AttributesV04FontE0OAaBHPyHC.7
+- _get_witness_table 10Foundation19AttributedStringKeyRzlAA15AttributeScopesO7SwiftUIE0G12UIAttributesV018StrikethroughStyleE0OAaBHPyHC.46
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH12KnobsMaxSizeVAaBHPyHC.16
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH12KnobsMinSizeVAaBHPyHC.17
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH20KnobsMaxAIGCArticlesVAaBHPyHC.15
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH25KnobsMaxEvergreenArticlesVAaBHPyHC.12
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH28KnobsMaxInaccessibleArticlesVAaBHPyHC.13
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6CustomH28KnobsMaxPublisherOccurrencesVAaBHPyHC.14
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6Customh22KnobsPaidBundleArticleI0VAaBHPyHC.18
+- _get_witness_table 10XavierNews20DefaultValueProviderRzAaBR_AaBR0_AaBR1_AaBR2_AaBR3_AaBR4_AaBR5_Si0D0RtzSiACRt_SiACRt0_SiACRt1_SiACRt2_SiACRt3_AA7ClassicV13ConfigurationV010ClusteringG0V6QuotasVACRt4_AO14TopicDiversityVACRt5_r6_lAO0c6Customh5KnobsjK0VAaBHPyHC.19
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA05TupleE0VyAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo_Sg_AA7ForEachVySay8NewsFeed23DebugFormatFileTreeItemCG10Foundation4UUIDVACyAeAEAN_AOQrAQ_AUtFQOyA0_0wxyz4ItemE0V_Qo_AA21_TraitWritingModifierVyAA0hK18BackgroundTraitKeyVGGGtGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A21_HO_A27_AA0E8ModifierHPyHCHC.11
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQOyAA0H0Vys5NeverOAA05TupleE0VyAeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo__AA7ForEachVySay8NewsFeed25DebugFormatLayoutTreeItemCG10Foundation4UUIDVAeAEAN_AOQrAQ_AUtFQOyACyA_0wxyzkE0VAA21_TraitWritingModifierVyAA0hK18BackgroundTraitKeyVGG_Qo_GAZySayA_0wxyZ7PackageCGA5_AeAEAN_AOQrAQ_AUtFQOyA_0wxyz7PackageE0V_Qo_GtGG_AA05PlainhG0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeG0VSgGGAaDHPqd0__AaDHD3_A27_HO_A33_AA0E8ModifierHPyHCHC.26
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH4ViewVAJGGAA13_TaskModifierVGAA0K0HPAlaPHPyHC_AnA0kM0HPyHCHC.35
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA012_ConditionalD0Vy8NewsFeed011DebugFormatH8ItemViewVAA08ProgressL0VyAA05EmptyL0VANGGGAA13_TaskModifierVGAA0L0HPAqaUHPyHC_AsA0lP0HPyHCHC.20
+- _get_witness_table 7SwiftUI19_ConditionalContentVy8NewsFeed31DebugFormatInspectorPopoverViewVyAA08ModifiedD0VyAHyAA6HStackVyAA05TupleK0VyACyACyAHyAHyAA5ImageVAA11_ClipEffectVyAA16RoundedRectangleVGGAA16_OverlayModifierVyAA011StrokeShapeK0VyArA012HierarchicalW5StyleVAA05EmptyK0VGGGAHyAnA022_EnvironmentKeyWritingU0VyAA5ColorVSgGGGAA08ProgressK0VyA0_A0_GG_AA6VStackVyALyAA4TextV_AHyA19_A5_ySiSgGGtGGAA6SpacerVtGGAA01_dwU0VyAA0S0VGGAA010_TaskValueU0VyAD0h9WorkspaceF0VGGGA40_GAA0K0HPA41_AAA43_HPyHC_A40_AAA43_HPA34_AAA43_HPA28_AAA43_HPyHC_A33_AA0kU0HPyHCHC_A39_AAA44_HPyHCHCHC.25
+- _get_witness_table 7SwiftUI9TupleViewVyAA6ButtonVy8NewsFeed039DebugFormatInventoryTreeWorkspaceHeaderD033_214DF46B78DAF5313C7B1FD133CD0D78LLVG_AA19_ConditionalContentVyACyAF0higD0V_AA7ForEachVySayAF0G8ItemType_pGSSAF0higzD0VGAA08ModifiedW0VyAWyAWyAPySayAF0hi7PackageJ0CGSSAA0D0PAAE12onTapGesture5count7performQrSi_yyctFQOyAF0hi7PackageD0V_Qo_GAA21_TraitWritingModifierVyAA14OnMoveTraitKeyVGGA9_yAA16OnDeleteTraitKeyVGGA9_yAA21ListRowInsetsTraitKeyVGGAWyAWyAWyAPySayAF0hi6EditorL5GroupVGSSAWyA6_A9_yAA25ListRowBackgroundTraitKeyVGGGA12_GA16_GA20_GA0_AAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA6SpacerV_Qo_tGAA4TextVSgGtGAAA_HPyHC.66
+- _get_witness_table 8NewsFeed31DebugFormatInspectorPopoverViewVy7SwiftUI15ModifiedContentVyAFyAD6HStackVyAD05TupleG0VyAFyAFyAD5ImageVAD11_ClipEffectVyAD16RoundedRectangleVGGAD16_OverlayModifierVyAD011StrokeShapeG0VyApD012HierarchicalV5StyleVAD05EmptyG0VGGGSg_AD6VStackVyAJyAD4TextV_AFyA6_AD022_EnvironmentKeyWritingT0VySiSgGGtGGAD6SpacerVtGGAD01_kvT0VyAD0R0VGGAD010_TaskValueT0VySSGGGAD0G0HPyHC.3
+- _get_witness_table SHRzr0_lSSSHHPyHC.14
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAA6HStackVyAA05TupleC0VyAA6VStackVyAA4TextVG_AA6SpacerVAMyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGGtGGAA01_m5ShapeW0VyAA9RectangleVGG_Qo_HO.71
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAMyAA15DisclosureGroupVy8NewsFeed024DebugFormatWorkspaceTreet6HeaderC0VAA05TupleC0VyAMyAMyAMyAMyAP0rsq5AsyncC0VAA21_TraitWritingModifierVyAA04Liste6InsetsY3KeyVGGAXyAA016IsDeleteDisabledY3KeyVGGAXyAA014IsMoveDisabledY3KeyVGGAXyAA04Liste10BackgroundY3KeyVGG_AMyAMyAMyAMyAA7ForEachVySaySi6offset_AP0Q8ItemType_pSgyYaKc7elementtGSiAP0rsq4ItemxC0VGA_GA3_GA7_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rS16PackageInventoryCGSSAP0rs7PackageC0VGAXyAA08OnDeleteY3KeyVGGAXyAA06OnMoveY3KeyVGGA3_GA7_GA_GA11_GAMyAMyAMyAMyAMyAMyA14_ySayAP0rstO0VGSSA31_GA35_GA39_GA3_GA7_GA_GA11_GtGGA_GA11_G_Qo_HO.93
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAA15ModifiedContentVyAcAE0D5StyleyQrqd__AA04ListN0Rd__lFQOyAA0O0Vys5NeverOAA05TupleC0VyAcAEAD_AEQrAG_AKtFQOyAA6SpacerV_Qo__AA7ForEachVySay8NewsFeed0V8ItemType_pGSSAcAEAD_AEQrAG_AKtFQOyA_011DebugFormatvwC0V_Qo_GAcAEAD_AEQrAG_AKtFQOyA_0yz19BindingTreeSelectorC0V_Qo_SgAcAEAD_AEQrAG_AKtFQOyA_0yz17BindingTreeOptionC0V_Qo_SgAZySayA_0yZ16PackageInventoryCGSSA_0yz11BindingTreeeC0VGAZySayA_0yZ20EditorWorkspaceGroupVGSSAcAEAD_AEQrAG_AKtFQOyA_0yz19BindingTreeSubgroupC0V_Qo_GSgtGSgG_AA05PlainoN0VQo_AA30_EnvironmentKeyWritingModifierVyAA08AnyShapeN0VSgGG_Qo_HO.24
+- _keypath_get.19Tm
+- _keypath_hash.39Tm
+- _keypath_hashTm
+- _keypath_set.20Tm
+- _objectdestroy.101Tm
+- _objectdestroy.104Tm
+- _objectdestroy.107Tm
+- _objectdestroy.113Tm
+- _objectdestroy.116Tm
+- _objectdestroy.121Tm
+- _objectdestroy.122Tm
+- _objectdestroy.132Tm
+- _objectdestroy.133Tm
+- _objectdestroy.135Tm
+- _objectdestroy.140Tm
+- _objectdestroy.143Tm
+- _objectdestroy.157Tm
+- _objectdestroy.161Tm
+- _objectdestroy.183Tm
+- _objectdestroy.184Tm
+- _objectdestroy.193Tm
+- _objectdestroy.207Tm
+- _objectdestroy.211Tm
+- _objectdestroy.214Tm
+- _objectdestroy.224Tm
+- _objectdestroy.227Tm
+- _objectdestroy.230Tm
+- _objectdestroy.232Tm
+- _objectdestroy.234Tm
+- _objectdestroy.339Tm
+- _objectdestroy.348Tm
+- _objectdestroy.34Tm
+- _objectdestroy.380Tm
+- _objectdestroy.397Tm
+- _objectdestroy.4165Tm
+- _objectdestroy.4168Tm
+- _objectdestroy.4194Tm
+- _objectdestroy.435Tm
+- _objectdestroy.44Tm
+- _objectdestroy.460Tm
+- _objectdestroy.473Tm
+- _objectdestroy.52Tm
+- _objectdestroy.538Tm
+- _objectdestroy.583Tm
+- _objectdestroy.609Tm
+- _objectdestroy.645Tm
+- _objectdestroy.656Tm
+- _objectdestroy.65Tm
+- _objectdestroy.75Tm
+- _objectdestroy.76Tm
+- _objectdestroy.884Tm
+- _objectdestroy.89Tm
+- _objectdestroy.94Tm
+- _objectdestroy.95Tm
+- _objectdestroy.97Tm
+- _objectdestroy.98Tm
+- _parameter-flags
+- _swift_getFunctionTypeMetadata
+- _symbolic $s8NewsFeed19RecipeRepresentableP
+- _symbolic SDySSSay_____yx_GGG 8NewsFeed0B11CursorStoreC11WeakWrapper33_E5E548A1C2922FD1AAB84A5765ABC955LLC
+- _symbolic SDy_____SdGz_Xx s5Int64V
+- _symbolic SDy_____SiGIegr_ s5Int64V
+- _symbolic SDy_____SiGz_Xx s5Int64V
+- _symbolic SSIego_
+- _symbolic Say_____G 8NewsFeed017DebugFormatLayoutB4ItemV
+- _symbolic Say_____G 8NewsFeed0B12ScoredRecipeV
+- _symbolic Say_____G 8NewsFeed10PuzzleKindO
+- _symbolic Say_____G 8NewsFeed31SportsSyncingConfigResourceItemV
+- _symbolic Say_____G s7UnicodeO6ScalarV
+- _symbolic Say_____GIegr_ 8NewsFeed12PuzzleStreakV
+- _symbolic Sb15allowAnyChannel_Sb32keepOverflowHeadlinesInInventorySb28ignoreTagScoreForEligibilityt
+- _symbolic SbIegd_
+- _symbolic SdIegd_
+- _symbolic SiIegd_
+- _symbolic SiIegr_
+- _symbolic Si______tSi_AAtSbIegnnr_ 8NewsFeed0B10GapOfflineV
+- _symbolic Si______tSi_AAtSbIegnnr_ 8NewsFeed0B16EngagementBannerV
+- _symbolic Si______tSi_AAtSbIegnnr_ 8NewsFeed0B3GapV
+- _symbolic Si______tSi_AAtSbIegnnr_ 8NewsFeed0B8BannerAdV
+- _symbolic So15UIBarButtonItemCSgXw
+- _symbolic So7CALayerCSg
+- _symbolic So7NSArrayCIeyBy_
+- _symbolic _____ 10Foundation15AttributeScopesO0A10AttributesV
+- _symbolic _____ 10Foundation15AttributeScopesO0A10AttributesV024InlinePresentationIntentB0O
+- _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV
+- _symbolic _____ 10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV018StrikethroughStyleB0O
+- _symbolic _____ 10Foundation22AttributeDynamicLookupO
+- _symbolic _____ 8NewsFeed0B11CursorStoreC11WeakWrapper33_E5E548A1C2922FD1AAB84A5765ABC955LLC
+- _symbolic _____ 8NewsFeed0B22DatabaseCommandContextV
+- _symbolic _____ 8NewsFeed0B22DatabaseCommandContextV06ExportC0O
+- _symbolic _____ 8NewsFeed0B26CursorExportCommandContextV
+- _symbolic _____ 8NewsFeed10PuzzleKindO
+- _symbolic _____ 8NewsFeed29FormatLayoutSectionDescriptorO4DataV
+- _symbolic _____ 8NewsFeed29SportsSyncingConfigV2ResourceC
+- _symbolic _____ 8NewsFeed29SportsSyncingConfigV2ResourceC10CodingKeys33_B11CB54C9C97A1A692025904B0C93064LLO
+- _symbolic _____ 8NewsFeed31WebEmbedRadarAttachmentProviderC
+- _symbolic _____ 8NewsFeed33FormatDerivedDataResultValidationO
+- _symbolic _____ 8NewsFeed36DiagnosticDataDirectoryNameGenerator33_87CACDB1B7E68230F1CB525149501784LLC
+- _symbolic _____ 8NewsFeed47DebugFormatInspectorMaskSegmentedViewController33_6275C3DAA525E07DBF54869CBD6D7477LLC
+- _symbolic _____Iegd_ s5Int32V
+- _symbolic _____Iegd_ s5Int64V
+- _symbolic _____Iegr_ 10Foundation4DateV
+- _symbolic _____Iegr_ s5Int32V
+- _symbolic _____Iegr_ s5Int64V
+- _symbolic _____SgXw 8NewsFeed0B20SponsorshipAdServiceC
+- _symbolic _____SgXwz_Xx 8NewsFeed0B20SponsorshipAdServiceC
+- _symbolic ___________pIegno_ 8NewsFeed0B14ScoredHeadlineV So19FCHeadlineProvidingP
+- _symbolic ______p______pIeggo_ So17FCSportsProvidingP So05FCTagB0P
+- _symbolic _____y_____G 8NewsFeed39FormatAnimationNodeDataLayoutAttributesV AA0c8WebEmbedegH0C
+- _symbolic _____y______G 8NewsFeed29FormatLayoutSectionDescriptorO4DataV AA0C7ContentV8ResolvedV
+- _symbolic _____y__________G 7NewsAds15AdRequestResultO AA011SponsorshipC7ContextV AA0fC9PlacementV
+- _symbolic _____y_____y_____y__________y_____y______Qo_Sg______ySay_____G_____AAy_____y______Qo______y_____GGGtGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA05TupleE0V AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA6SpacerV AA7ForEachV 8NewsFeed23DebugFormatFileTreeItemC 10Foundation4UUIDV AeAEAN_AOQrAQ_AUtFQO AZ0wxyz4ItemE0V AA21_TraitWritingModifierV AA0hK18BackgroundTraitKeyV AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
+- _symbolic _____y_____y_____y__________y_____y______Qo_______ySay_____G__________yAAy__________y_____GG_Qo_GAGySay_____GAJ_____y______Qo_GtGG______Qo______y_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE9listStyleyQrqd__AA04ListG0Rd__lFQO AA0H0V s5NeverO AA05TupleE0V AeAE0F12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA6SpacerV AA7ForEachV 8NewsFeed25DebugFormatLayoutTreeItemC 10Foundation4UUIDV AeAEAN_AOQrAQ_AUtFQO AZ0wxyzkE0V AA21_TraitWritingModifierV AA0hK18BackgroundTraitKeyV AZ0wxyZ7PackageC AeAEAN_AOQrAQ_AUtFQO AZ0wxyz7PackageE0V AA05PlainhG0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeG0V
+- _symbolic _____y_____y_____y_____y__________y_____y______Qo_______ySay______pGSS_____y______Qo_G_____y______Qo_Sg_____y______Qo_SgAGySay_____GSS_____GAGySay_____GSS_____y______Qo_GSgtGSgG______Qo______y_____SgGG_Qo_ 7SwiftUI4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AA15ModifiedContentV AcAE0D5StyleyQrqd__AA04ListN0Rd__lFQO AA0O0V s5NeverO AA05TupleC0V AcAEAD_AEQrAG_AKtFQO AA6SpacerV AA7ForEachV 8NewsFeed0V8ItemTypeP AcAEAD_AEQrAG_AKtFQO AZ011DebugFormatvwC0V AcAEAD_AEQrAG_AKtFQO AZ0yz19BindingTreeSelectorC0V AcAEAD_AEQrAG_AKtFQO AZ0yz17BindingTreeOptionC0V AZ0yZ16PackageInventoryC AZ0yz11BindingTreeeC0V AZ0yZ20EditorWorkspaceGroupV AcAEAD_AEQrAG_AKtFQO AZ0yz19BindingTreeSubgroupC0V AA05PlainoN0V AA30_EnvironmentKeyWritingModifierV AA08AnyShapeN0V
+- _symbolic y_____cSg 8NewsFeed25DebugFormatLayoutTreeItemC
+- _type_layout_string 8NewsFeed0B12ScoredRecipeV
+- _type_layout_string 8NewsFeed0B22DatabaseCommandContextV
+- _type_layout_string 8NewsFeed0B22DatabaseCommandContextV06ExportC0O
+- _type_layout_string 8NewsFeed0B26CursorExportCommandContextV
+- _type_layout_string 8NewsFeed20FormatSourceMapEntryV
+- _type_layout_string 8NewsFeed20FormatViewBackgroundO05SplitE0V
+- _type_layout_string 8NewsFeed22DebugFormatLayoutModelV
+CStrings:
++ " averageScores: "
++ " binding items for group "
++ " progressMovesDescription="
++ " shareData "
++ "$__lazy_storage_$_canvasInteractionBarButtonItem"
++ "$__lazy_storage_$_changeSetBarButtonItem"
++ "$__lazy_storage_$_completeSolvedWithMovesText"
++ "$__lazy_storage_$_paneViewController"
++ "$__lazy_storage_$_solvedWithMovesText"
++ "%{public}@ Solver bind %{public}@, time=%.3fms, layout=%{public}@"
++ "%{public}@ Solver layout %{public}@, time=%.3fms, layout=%{public}@"
++ "@\"<FCRecipeItemFactoryType>\"16@0:8"
++ "@\"NSArray\"24@0:8Q16"
++ "@\"NSSet\"16@0:8"
++ "@\"SWFeedConfiguration\"24@0:8@\"UIViewController\"16"
++ "@\"UIMenu\"40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSArray\"32"
++ "@?<v@?@\"<SWShareConfiguration>\">16@0:8"
++ "@?<v@?@\"SWFailureMessage\">16@0:8"
++ "Action for solving a puzzle, with a placeholder for the number of moves (e.g.: 18 moves)"
++ "Action for solving a puzzle, with a placeholder for the puzzle name (e.g.: Emoji Game) and the number of moves"
++ "Add the article to your Saved Stories list"
++ "Add to Grocery List"
++ "Adds Recipe's ingredients to Grocery List"
++ "Adds a channel or topic to your Following list"
++ "Already following"
++ "Already unblocked"
++ "B40@0:8@\"UITextField\"16@\"NSArray\"24@\"NSString\"32"
++ "Block Channel or Topic"
++ "Boolean option: "
++ "Button State Mask"
++ "Cannot block item of this type"
++ "Cannot decrease text size"
++ "Cannot increase text size"
++ "Channel or Topic"
++ "Dark Puzzle Rank Color "
++ "Decrease Text Size"
++ "Decrease Text Size through intent"
++ "Decrease the text size for the current article"
++ "Delete the article from your Saved Stories list"
++ "Dismiss feed item with dismissingIdentifier=%{public}@ but no implementation"
++ "Dismiss feed item with dismissingIdentifier=%{public}@ with name=%{public}@"
++ "DismissalRecords.json"
++ "Dismissed feed item but layout rebuild closure not setup with name=%{public}@"
++ "Embed posted failure message=(contentDomain: %{public}s, embedName:%{public}s, errorType:%{public}s), %s"
++ "Error executing .playNow command with error %@"
++ "ExportRecipeIngredients"
++ "ExternalRecipe Factory is nil in SharingRecipeURLActivityItemSource"
++ "FCReadingHistoryType"
++ "FCRecipeScorable"
++ "Failed to convert FCRecipe to ExternalRecipe in SharingRecipeURLActivityItemSource with error: %@"
++ "Failed to delete dismissing dismissal storage error=%{public}@"
++ "Failed to load dismissingIdentifiers from disk with error=%{public}@"
++ "Failed to load the suitable for diet tag: %{public}@"
++ "Failed to save dismissingIdentifiers to disk with error=%{public}@"
++ "FeedQuery, tag not found: %{public}s"
++ "Float macUnscaled"
++ "Follow Channel or Topic"
++ "Following feed through intent, id=%s"
++ "Format service failed to fetch ad sponsorship, sponsorshipType=%{public}@, content=%{public}@, tag=%{public}@, sponsorshipKeywords=%{public}@, error=%{public}@"
++ "Format service will not resolve sponsorship because the content is not eligible for feed sponsorship, content=%{public}@, tag=%{public}@, iAdKeywords=%{public}@, superfeedKeywords=%{public}@"
++ "Format service will resolve fulfilled ad sponsorship, sponsorshipType=%{public}@, content=%{public}@, tag=%{public}@, sponsorshipKeywords=%{public}@"
++ "Format service will resolve unfilled ad sponsorship, sponsorshipType=%{public}@, content=%{public}@, tag=%{public}@, sponsorshipKeywords=%{public}@"
++ "GKChallengeListener"
++ "GKGameActivityListener"
++ "GKInviteEventListener"
++ "GKLocalPlayerListener"
++ "GKSavedGameListener"
++ "GKTurnBasedEventListener"
++ "Has Primary Value"
++ "Has Secondary Value"
++ "Has Tertiary Value"
++ "Highlights Display Angle"
++ "I solved the %@ in %d moves."
++ "Ignore From Stats & Streaks"
++ "Increase Text Size"
++ "Increase Text Size through intent"
++ "Increase the text size for the current article"
++ "Integer option: "
++ "Interaction State"
++ "Label indicating a perfect score on a puzzle."
++ "Label showing the number of moves used to complete a puzzle."
++ "Load dismissingIdentifiers with %d records"
++ "MastheadBackground"
++ "NAZoomable"
++ "News Tab Deep Links"
++ "News.NewsFeed.FileBasedDismissalStorage.loadFromDisk"
++ "News.NewsFeed.FileBasedDismissalStorage.saveToDisk"
++ "NewsFeed.FormatSystemFactory"
++ "NewsFeed.TagMastheadViewProvider"
++ "NewsFeed/DebugFormatBarButtonItem.swift"
++ "NewsFeed/FormatVersion.swift"
++ "NewsFeed/TagMastheadView.swift"
++ "NewsFeed/TagMastheadViewBackgroundView.swift"
++ "NewsFeed/WebEmbedLayoutGuideView.swift"
++ "Open Channel or Topic"
++ "Open History Feed"
++ "Open Saved Recipes"
++ "Open a feed in the News app"
++ "Open an article in the News app"
++ "OpenArticleIntent.target"
++ "Opening History Feed through intent"
++ "Opening Saved Feed through intent"
++ "Opening article through intent, id=%s"
++ "Opening feed through intent, id=%s"
++ "Opening recipe through intent, id=%s"
++ "PlayArticleIntent.target"
++ "Playing article through intent, id=%s"
++ "Playing now by adding to playlist because user is subscribed, id=%s"
++ "Playing now ignoring playlist because user is not subscribed, id=%s"
++ "Plays the audio story associated with the article."
++ "Puzzle Rank Color "
++ "PuzzleGameCenterService: Failed to load leaderboard %s. [%s]"
++ "PuzzleGameCenterService: GKGameActivity has pending game activities... will authenticate to GC"
++ "PuzzleGameCenterService: No leaderboard returned with ID [%s]"
++ "PuzzleGameCenterService: Player %s wants to play activity %s"
++ "PuzzleStatsProcessor: adding %s to perfect puzzles set - difficulty: %lld"
++ "PuzzleStatsProcessor: computeStats using initial completedRunningCounts %s perfectRunningCounts %s startedRunningCounts %s"
++ "PuzzleStatsProcessor: processing %s - wasCompletedAtSomePoint: %{bool}d, isStarted: %{bool}d, usedReveal: %{bool}d, hasFirstCompletedDate: %{bool}d, hasPerfectScore: %{bool}d"
++ "PuzzleStatsProcessor: updating averageScores for difficulty %lld to: %f"
++ "PuzzleStatsProcessor: updating perfectRunningCounts for difficulty %lld to: %ld"
++ "PuzzleStatsService: error updating stats for %s: %s"
++ "SWFailureProvider"
++ "SWFeedConfigurationFactory"
++ "SWShareConfiguration"
++ "SWShareConfigurationProvider"
++ "SaveArticleIntent.target"
++ "Saving article through intent, id=%s"
++ "Selector value contains selectors"
++ "Show Source Metrics"
++ "Solved in %d moves"
++ "String binding: "
++ "T@\"<FCRecipeItemFactoryType>\",R,N"
++ "T@\"NSSet\",R,N"
++ "T@?,C,N,SonEvent:"
++ "Tap a node on the canvas or layout navigator for inspection."
++ "The article that will open in the News app"
++ "The article to save"
++ "The article to unsave"
++ "The channel or topic feed that will open"
++ "The description of the 'Open Article' intent"
++ "The description of the 'Play Article' intent"
++ "The description of the 'Save Article' intent"
++ "The description of the 'Unsave Article' intent"
++ "The description of the 'target' paramater on the `BlockIntent` intent"
++ "The description of the 'target' paramater on the `FollowIntent` intent"
++ "The description of the 'target' paramater on the `OpenFeedIntent` intent"
++ "The description of the 'target' paramater on the `SaveArticleIntent` intent"
++ "The description of the 'target' paramater on the `UnblockIntent` intent"
++ "The description of the 'target' paramater on the `UnsaveArticleIntent` intent"
++ "The description of the 'target' parameter on the `OpenArticleIntent` intent"
++ "The description of the 'target' parameter on the `OpenRecipeIntent` intent"
++ "The description of the 'target' parameter on the `OpenStaticFeed` intent"
++ "The description of the 'target' parameter on the `PlayArticleIntent` intent"
++ "The destination to open"
++ "The moves label used to show score for moves based puzzles"
++ "The name of the 'Excerpt' property of the Article entity used in intents."
++ "The name of the 'Excerpt' property of the Recipe entity used in intents."
++ "The name of the 'Source' property of the Article entity used in intents."
++ "The name of the 'Source' property of the Recipe entity used in intents."
++ "The name of the 'Title' property of the Article entity used in intents."
++ "The name of the 'Title' property of the Recipe entity used in intents."
++ "The name of the 'byline' or author(s) property of the Article entity used in intents."
++ "The name of the 'byline' or author(s) property of the Recipe entity used in intents."
++ "The name of the article entity type used in intents."
++ "The name of the channel or topic feed that will open"
++ "The name of the channel or topic that will be blocked"
++ "The name of the channel or topic that will be followed"
++ "The name of the channel or topic that will be unblocked"
++ "The name of the feed entity type used in intents."
++ "The name of the feed. Can be a channel or topic, or the name of a tab in the News app."
++ "The name of the recipe entity type used in intents."
++ "The of the 'Subtitle' property of the Feed Entity used in intents."
++ "The recipe that will open in the News app"
++ "The title of the 'Article' parameter of the 'Open Article' intent"
++ "The title of the 'Article' parameter of the 'Play Article' intent"
++ "The title of the 'Article' parameter of the 'Save Article' intent"
++ "The title of the 'Article' parameter of the 'Unsave Article' intent"
++ "The title of the 'Block' intent"
++ "The title of the 'Decrease Text Size' intent"
++ "The title of the 'Increase Text Size' intent"
++ "The title of the 'Open Article' intent"
++ "The title of the 'Open Feed' intent"
++ "The title of the 'Open History Feed' Intent"
++ "The title of the 'Open Recipe' intent"
++ "The title of the 'Open Saved Feed' Intent"
++ "The title of the 'Open Saved Recipes' Intent"
++ "The title of the 'Play Article' intent"
++ "The title of the 'Recipe' parameter of the 'Open Recipe' intent"
++ "The title of the 'Save Article' intent"
++ "The title of the 'Unblock' intent"
++ "The title of the Block intent"
++ "The title of the Unblock intent"
++ "The title of the follow intent's paramater of the channel or topic that will be followed"
++ "This article is already saved"
++ "This article is not saved"
++ "Unable to follow"
++ "Unable to unblock"
++ "Unable to unsave"
++ "Unblock Channel or Topic"
++ "Unresolved value: "
++ "UnsaveArticleIntent.target"
++ "Unsaving article through intent, id=%s"
++ "Web embed data source manager failed to derive endpoint URL, requestURL=%{public}@"
++ "X Insets (Right)"
++ "_Concurrency/arm64e-apple-ios.private.swiftinterface"
++ "_TtC8NewsFeed15TagMastheadView"
++ "_TtC8NewsFeed20FeedDatabaseExporter"
++ "_TtC8NewsFeed20FormatServiceHistory"
++ "_TtC8NewsFeed21ExternalRecipeFactory"
++ "_TtC8NewsFeed21FeedDismissingManager"
++ "_TtC8NewsFeed21TagMastheadViewStyler"
++ "_TtC8NewsFeed23TagMastheadViewProvider"
++ "_TtC8NewsFeed23TagMastheadViewRenderer"
++ "_TtC8NewsFeed23WebEmbedLayoutGuideView"
++ "_TtC8NewsFeed24DebugFormatBarButtonItem"
++ "_TtC8NewsFeed24StubFormatServiceHistory"
++ "_TtC8NewsFeed25FileBasedDismissalStorage"
++ "_TtC8NewsFeed25FormatGlassEffectRenderer"
++ "_TtC8NewsFeed25StubFeedDismissingManager"
++ "_TtC8NewsFeed26EmptyFeedDismissingManager"
++ "_TtC8NewsFeed27PuzzleAverageScoreFormatter"
++ "_TtC8NewsFeed29TagMastheadViewBackgroundView"
++ "_TtC8NewsFeed31DebugFormatDebuggerRestoreState"
++ "_TtC8NewsFeed32DebugFormatSidebarViewController"
++ "_TtC8NewsFeed36WebEmbedDiagnosticAttachmentProvider"
++ "_TtC8NewsFeed38TagMastheadViewLayoutAttributesFactory"
++ "_TtC8NewsFeedP33_68551BA141CBE037DC226014628127E136DiagnosticDataDirectoryNameGenerator"
++ "_canvasInteractionButtonStateMasks"
++ "_headroomUsage"
++ "_layoutModelSelection"
++ "_setHiddenPocketEdges:"
++ "_setPrefersNoPlatter:"
++ "_systemImageNamed:"
++ "abuttedSidebar"
++ "activityDefinition"
++ "adMetricsView"
++ "adSponsorshipView"
++ "adSponsorshipsEnabled"
++ "allDataSourceUrls"
++ "allReadArticleIDs"
++ "allSeenArticleIDs"
++ "allSortedArticleIDsInReadingList"
++ "allowAdSponsorship"
++ "allowCancellation"
++ "allowForAllUsers"
++ "allowForFreeUsers"
++ "allowedSportsPublishers"
++ "appIcons"
++ "appearance.darkmode"
++ "appearance.darkmode.inverse"
++ "applenewss://apple.news/"
++ "arf"
++ "arrow.down.to.line"
++ "arrow.up.to.line"
++ "arrow.uturn.forward"
++ "articleIDs"
++ "averageScore(nil)"
++ "averageScoreByDifficultyLevel"
++ "avplayer"
++ "backgroundGradientView"
++ "backgroundImageCache"
++ "backgroundImageView"
++ "baseLeaderboardID"
++ "baseMastheadHeight"
++ "blueprintHorizontalShimView"
++ "bubbles"
++ "canBecomeFocused"
++ "canDecreaseTextSize"
++ "canIncreaseTextSize"
++ "canResetZoom"
++ "canZoomIn"
++ "canZoomOut"
++ "checkPendingGameActivityExistenceWithCompletionHandler:"
++ "childDataSourceUrls"
++ "closures"
++ "com.apple.news.FileBasedDismissalStorage"
++ "com.apple.news.dismissalStorage"
++ "com.apple.news.location-authorization"
++ "com.apple.news.newsarticles"
++ "com.apple.reminders.sharingextension"
++ "configurableOffer-("
++ "configurableOffersEnabled"
++ "configurableOffersMappingResourceId"
++ "contentAssetHandle"
++ "contentDomain"
++ "contentEncoding"
++ "contentFormat"
++ "contentSafeAreaFrame"
++ "contentSafeAreaFrameView"
++ "contentVersion"
++ "contextMenuItemOptions"
++ "contextualNames"
++ "controlCenter"
++ "createFeedConfigurationForViewController:"
++ "createShareSportsEventImage(for:size:logoWidth:)"
++ "custom.medal.circle.fill"
++ "dataSourceUrls"
++ "databaseExporter"
++ "debuggerRestoreState"
++ "decreaseTextSize"
++ "deeplyPressed"
++ "defaultTTLForArticleRecords"
++ "defaultTTLForIssueRecords"
++ "defaultTTLForPurchaseLookupRecords"
++ "defaultTTLForPuzzleRecords"
++ "defaultTTLForPuzzleTypeRecords"
++ "defaultTTLForRecipeListRecords"
++ "defaultTTLForRecipeRecords"
++ "defaultTTLForSportsEventRecords"
++ "defaultTTLForTagRecords"
++ "deferred"
++ "disableAllAds"
++ "dismiss"
++ "dismissingIdentifier"
++ "dismissingManager"
++ "dock"
++ "drawAtPoint:withAttributes:"
++ "embedName"
++ "emoji.face.smiling.with.heart.eyes.inverse.circle.fill"
++ "emoji.face.smiling.with.smiling.eyes.inverse.fill"
++ "emoji.face.smiling.with.sunglasses.inverse.circle.fill"
++ "emoji.face.with.starry.eyes.inverse.circle.fill"
++ "emojiBottomButton"
++ "emojiBottomButtonConfig"
++ "emojiButtonsStackView"
++ "emojiElementsStackView"
++ "emojiIconSize"
++ "emojiTopButton"
++ "emojiTopButtonConfig"
++ "endPoint"
++ "errorType"
++ "eventAggregationPersonalizationData"
++ "excludingForeground"
++ "excludingPlatter"
++ "excludingShadow"
++ "exportToGroceryList"
++ "exportToGroceryListEnabled"
++ "externalRecipeFactory"
++ "face.smiling.inverse.circle.fill"
++ "facetime"
++ "failureProvider"
++ "fast"
++ "fastestButtonConfig"
++ "fc_isValidTagID"
++ "feedDismissingManager"
++ "fetchPuzzleTypeForPuzzleTypeID:cachePolicy:qualityOfService:callbackQueue:completionHandler:"
++ "firstSeenDateFor:"
++ "flexibleBarButtonItem"
++ "forceIncreasedContrast"
++ "forceScrim"
++ "forceSubdued"
++ "foryou"
++ "freeRecentRecipeListIDs"
++ "freeTagRecipeListIDPrefix"
++ "gamePlayerID"
++ "glass"
++ "glassGroup"
++ "hasRecipeList"
++ "highlightsDisplayAngle"
++ "hintCache"
++ "idle"
++ "increaseTextSize"
++ "initWithBounds:contentFrame:contentSafeAreaFrame:systemSafeAreaFrame:"
++ "initWithIdentifier:type:title:publicationDate:coverDate:lastModifiedDate:metadataJSONAssetHandle:coverImageAssetHandle:coverImageAspectRatio:coverImagePrimaryColor:coverImageBackgroundColor:coverImageTextColor:coverImageAccentColor:layeredCoverJSON:layeredCoverAspectRatio:layeredCoverPrimaryColor:isCurrent:isDraft:isPaid:minimumNewsVersion:allArticleIDs:coverArticleID:allowedStorefrontIDs:blockedStorefrontIDs:topicTagIDs:sourceChannel:notificationDescription:issueDescription:sortDate:"
++ "initWithStoreFront:locale:contentEnvironment:contentSizeCategory:layoutGuide:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:"
++ "interactionState"
++ "isEligibleForFoodGrouping"
++ "isEligibleForFoodGroupingIfAutofavorited"
++ "isEligibleForFoodGroupingIfFavorited"
++ "isFulfilled"
++ "isSportsEventIdentifier:"
++ "isTodaySponsorshipEligible"
++ "lastModifiedDate groupingEligibility "
++ "lastReferenceDate"
++ "lastSafeAreaInsets"
++ "layoutGuide"
++ "layoutGuideDidChange"
++ "layoutGuideView"
++ "lineView"
++ "locations"
++ "logoImageCache"
++ "magazines"
++ "margins"
++ "masthead"
++ "mastheadView"
++ "maxPublisherOccurrencesByPublisherID"
++ "model styler position "
++ "monogram"
++ "mostRecentUnplayedPuzzle"
++ "mostRecentlyReadArticlesWithMaxCount:"
++ "mysports"
++ "newestNotCompletedPuzzleIDForPuzzleTypeID:excludingPuzzleIDs:"
++ "news.features.adSponsorshipsEnabled"
++ "news.features.useExportToGroceryList"
++ "news.modules.puzzles.show_layout_guide"
++ "newsarticles.textsizing.bigger"
++ "newsarticles.textsizing.decrease"
++ "newsarticles.textsizing.increase"
++ "newsarticles.textsizing.reset"
++ "newsarticles.textsizing.smaller"
++ "newsarticles.zooming.actual"
++ "newsarticles.zooming.in"
++ "newsarticles.zooming.out"
++ "newsfeed.export_to_grocery_list"
++ "newsfeed.puzzle.puzzleScore"
++ "notFulfilled"
++ "onEvent:"
++ "onShareConfigurationUpdate"
++ "overriddenStateMask"
++ "paidRecentRecipeListIDs"
++ "paidTagRecipeListIDPrefix"
++ "pane"
++ "parallaxX"
++ "perfectSolved"
++ "personalizationData"
++ "player:didAcceptInvite:"
++ "player:didCompleteChallenge:issuedByFriend:"
++ "player:didModifySavedGame:"
++ "player:didReceiveChallenge:"
++ "player:didRequestMatchWithOtherPlayers:"
++ "player:didRequestMatchWithPlayers:"
++ "player:didRequestMatchWithRecipients:"
++ "player:hasConflictingSavedGames:"
++ "player:issuedChallengeWasCompleted:byFriend:"
++ "player:matchEnded:"
++ "player:receivedExchangeCancellation:forMatch:"
++ "player:receivedExchangeReplies:forCompletedExchange:forMatch:"
++ "player:receivedExchangeRequest:forMatch:"
++ "player:receivedTurnEventForMatch:didBecomeActive:"
++ "player:wantsToPlayChallenge:"
++ "player:wantsToPlayGameActivity:completionHandler:"
++ "player:wantsToQuitMatch:"
++ "preservedSearchText"
++ "pressed"
++ "progressMovesDescription"
++ "publisherLogoImageMaxSize"
++ "puzzleSource"
++ "rapidUpdatePersonalizationData"
++ "recipeAutoFavoritesServiceConfigurationJSONData"
++ "recipeHistory"
++ "recipeItemFactory"
++ "recipePersonalizationAllowlistResourceId"
++ "recipePersonalizationBundleIdMappingResourceId"
++ "recipePersonalizationUrlMappingResourceId"
++ "rectangle.on.rectangle"
++ "rectangle.split.3x1"
++ "referralLeaderboard"
++ "registerListener:"
++ "renderer"
++ "resetZoom"
++ "rollover"
++ "routeOptions"
++ "safeAreaContainerView"
++ "safeAreaContainerViewFrame"
++ "safeAreaContainerViewParallaxX"
++ "scaledValueForValue:compatibleWithTraitCollection:"
++ "scoreEmojiView"
++ "scoreType"
++ "seenState"
++ "selectedSidebarViewController"
++ "set"
++ "setContentCompressionResistancePriority:forAxis:"
++ "setDismissingIdentifier:"
++ "setMinimumScaleFactor:"
++ "setPreferredDynamicRange:"
++ "setPreferredPrimaryColumnWidth:"
++ "setPreferredSearchBarPlacement:"
++ "setShareConfigurationBlock:"
++ "shareConfiguration"
++ "shareConfigurationBlock"
++ "shareConfigurationProvider"
++ "shareIncludeEmojiIcon"
++ "shareText2BackgroundColor"
++ "shareText2ForegroundColor"
++ "shareText2UseLargeFontNoCapsule"
++ "shareText3BackgroundColor"
++ "shareText3ForegroundColor"
++ "showGameCenterChallenge"
++ "showSource"
++ "sidebar"
++ "sidebarNavigationController"
++ "sidebarViewController"
++ "sizeWithAttributes:"
++ "slow"
++ "someUnseen"
++ "sourceContext"
++ "splitViewController:didHideColumn:"
++ "splitViewController:didShowColumn:"
++ "sponsoredAdService"
++ "sponsorship"
++ "stagedCursors"
++ "startPoint"
++ "storageFileName"
++ "superfeedKeywords"
++ "sync"
++ "systemSafeAreaFrame"
++ "systemSafeAreaFrameView"
++ "tag-compact-display-name"
++ "tag-compact-name"
++ "tag-display-name"
++ "textField:editMenuForCharactersInRanges:suggestedActions:"
++ "textField:shouldChangeCharactersInRanges:replacementString:"
++ "textformat.size.larger"
++ "textformat.size.smaller"
++ "todayWidgetForYouMaxAIGArticles"
++ "topicTagIDs"
++ "trapezoid.and.line.horizontal"
++ "ts_setAccessiblyContainer:"
++ "unitScoreStackView"
++ "updateDismissingIdentifier:"
++ "updatePuzzle:puzzleTypeID:progressData:progressLevel:score:scoreType:rankID:usedReveal:playDuration:isSolved:progressMovesDescription:difficulty:publishDate:behaviorFlags:"
++ "v16@?0@\"<SWShareConfiguration>\"8"
++ "v16@?0@\"FCHeadline\"8"
++ "v16@?0@\"SWFailureMessage\"8"
++ "v24@0:8@?<v@?@\"<SWShareConfiguration>\">16"
++ "v24@0:8@?<v@?@\"SWFailureMessage\">16"
++ "v24@?0@\"<FCPuzzleTypeProviding>\"8@\"NSError\"16"
++ "v32@0:8@\"GKPlayer\"16@\"GKChallenge\"24"
++ "v32@0:8@\"GKPlayer\"16@\"GKInvite\"24"
++ "v32@0:8@\"GKPlayer\"16@\"GKSavedGame\"24"
++ "v32@0:8@\"GKPlayer\"16@\"GKTurnBasedMatch\"24"
++ "v32@0:8@\"GKPlayer\"16@\"NSArray\"24"
++ "v36@0:8@\"GKPlayer\"16@\"GKTurnBasedMatch\"24B32"
++ "v40@0:8@\"GKPlayer\"16@\"GKChallenge\"24@\"GKPlayer\"32"
++ "v40@0:8@\"GKPlayer\"16@\"GKGameActivity\"24@?<v@?B>32"
++ "v40@0:8@\"GKPlayer\"16@\"GKTurnBasedExchange\"24@\"GKTurnBasedMatch\"32"
++ "v48@0:8@\"GKPlayer\"16@\"NSArray\"24@\"GKTurnBasedExchange\"32@\"GKTurnBasedMatch\"40"
++ "validate"
++ "validate-some-unseen"
++ "viewSafeAreaInsetsDidChange"
++ "webEmbedDiagnosticAttachmentProvider"
++ "webEmbedFailureHandler"
++ "widgets"
++ "writeQueue"
++ "zoomIn"
++ "zoomOut"
+- "$__lazy_storage_$_chaneSetBarButtonItem"
+- "$__lazy_storage_$_maskLayer"
+- "$__lazy_storage_$_sourceMetricsBarButtonItem"
+- "%{public}@ Best layout for group, layout=%{public}@"
+- "CatalogChannelGroup"
+- "Dark Puzzle Rank Color"
+- "FormatGroupLayoutFactory binding items for group "
+- "Items the user didn't see, but could have seen"
+- "Items the user didn’t see, but could have seen"
+- "NewsFeed.DebugFormatInspectorMaskSegmentedViewController"
+- "NewsFeed.DebugGroupLayoutView"
+- "NewsFeed.DiagnosticFileProvider failed to provide diagnostic files; error=%@"
+- "Puzzle Rank Color"
+- "PuzzleGameCenterService: Failed to load leaderboard %s"
+- "PuzzleStatsProcessor: computeStats using initial completedRunningCounts %s startedRunningCounts %s"
+- "PuzzleStatsProcessor: processing %s - wasCompletedAtSomePoint: %{bool}d, isStarted: %{bool}d, usedReveal: %{bool}d, hasFirstCompletedDate: %{bool}d"
+- "TFDiagnosticFileProvider"
+- "The items user saw on their feed."
+- "Title for keyboard command that opens the article in a new window"
+- "Title for keyboard command that opens the recipe in a new window"
+- "_Concurrency/TaskGroup.swift"
+- "_TtC8NewsFeed29SportsSyncingConfigV2Resource"
+- "_TtC8NewsFeed31WebEmbedRadarAttachmentProvider"
+- "_TtC8NewsFeedP33_6275C3DAA525E07DBF54869CBD6D747747DebugFormatInspectorMaskSegmentedViewController"
+- "_TtC8NewsFeedP33_87CACDB1B7E68230F1CB52514950178436DiagnosticDataDirectoryNameGenerator"
+- "_inspectorSearchTerm"
+- "_inventorySearchTerm"
+- "arrow.down.to.line.circle"
+- "arrow.up.to.line.circle"
+- "arrow.uturn.forward.circle"
+- "audio-badge-branded"
+- "audio-badge-regular"
+- "buttonConfig"
+- "channelGroup"
+- "circle.lefthalf.fill"
+- "circle.righthalf.fill"
+- "clientScoreCoefficient"
+- "columnDebugView"
+- "containerSegmentedViewController"
+- "contentFrameChanged"
+- "contextLayoutOptions"
+- "diagnosticDataWithCompletionHandler:"
+- "diagnosticFilesWithCompletionHandler:"
+- "doToggleSidebar"
+- "featureCtr"
+- "featureWeightsByID"
+- "forYou"
+- "historyButton"
+- "initWithIdentifier:type:title:publicationDate:coverDate:metadataJSONAssetHandle:coverImageAssetHandle:coverImageAspectRatio:coverImagePrimaryColor:coverImageBackgroundColor:coverImageTextColor:coverImageAccentColor:layeredCoverJSON:layeredCoverAspectRatio:layeredCoverPrimaryColor:isCurrent:isDraft:isPaid:minimumNewsVersion:allArticleIDs:coverArticleID:allowedStorefrontIDs:blockedStorefrontIDs:topicTagIDs:sourceChannel:notificationDescription:issueDescription:sortDate:"
+- "initWithStoreFront:locale:contentEnvironment:contentSizeCategory:canvasSize:contentFrame:dataSources:location:sourceURL:activePictureInPictureURL:feedConfiguration:supportsLiveActivities:"
+- "inventoryNavigationController"
+- "item-trait-puzzle"
+- "latestRecipes"
+- "latestRecipesScoringConfig"
+- "maximumPrimaryColumnWidth"
+- "minimumPrimaryColumnWidth"
+- "news.features.disableTabiArticleScoring"
+- "news.features.overrideSponsoredSuperfeedBundleCheck"
+- "news.features.overrideSponsoredSuperfeedEligibility"
+- "news.features.useSportsSyncingV2"
+- "newsfeed.debug.format.inspector_search_term"
+- "newsfeed.debug.format.inventory_search_term"
+- "newsfeed.debug.layout.show_bounds"
+- "newsfeed.debug.layout.show_cell_bounds"
+- "newsfeed.debug.layout.show_cell_content_bounds"
+- "onHistoryTap"
+- "popToRootViewControllerAnimated:"
+- "recipeCatalogSearchConfigurationProfiles"
+- "recipeChannelGroupScoringConfig"
+- "recipeTagRecipeListIDPrefix"
+- "recipesForYouScoringConfig"
+- "respectRecipeChannelGroupingEligibility"
+- "setEdgesForExtendedLayout:"
+- "setNavigationBarHidden:animated:"
+- "setTitleView:"
+- "slider.horizontal.3"
+- "sportsSearchConfigurationProfiles"
+- "sportsSyncingConfigurationV2ResourceId"
+- "tagWeightsByID"
+- "togglePrimaryViewVisibilityAnimated:"
+- "updatePuzzle:puzzleTypeID:progressData:progressLevel:score:rankID:usedReveal:playDuration:isSolved:difficulty:publishDate:behaviorFlags:"
+- "useTransparentNavigationBar"
+- "v24@0:8@?<v@?@\"NSArray\">16"
+- "watchlistKitSyncMap"
+- "web-embed-datastores"
+- "webEmbedRadarAttachmentProvider"
+
+```

@@ -1,0 +1,1071 @@
+## DeviceDiscoveryUICore
+
+> `/System/Library/PrivateFrameworks/DeviceDiscoveryUICore.framework/DeviceDiscoveryUICore`
+
+```diff
+
+-2060.60.41.2.3
+-  __TEXT.__text: 0x15e8c
+-  __TEXT.__auth_stubs: 0xb30
+-  __TEXT.__objc_methlist: 0x11ec
+-  __TEXT.__const: 0x262
+-  __TEXT.__cstring: 0x1105
+-  __TEXT.__oslogstring: 0x22c3
+-  __TEXT.__gcc_except_tab: 0x268
+-  __TEXT.__swift5_typeref: 0x110
+-  __TEXT.__swift5_capture: 0x24
+-  __TEXT.__constg_swiftt: 0xe0
+-  __TEXT.__swift5_reflstr: 0x26
+-  __TEXT.__swift5_fieldmd: 0x64
+-  __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift5_proto: 0x8
+-  __TEXT.__swift5_types: 0xc
+-  __TEXT.__swift_as_entry: 0x8
+-  __TEXT.__swift_as_ret: 0x8
+-  __TEXT.__unwind_info: 0x560
+-  __TEXT.__eh_frame: 0x198
+-  __TEXT.__objc_classname: 0x367
+-  __TEXT.__objc_methname: 0x3823
+-  __TEXT.__objc_methtype: 0xac1
+-  __TEXT.__objc_stubs: 0x2460
+-  __DATA_CONST.__got: 0x298
+-  __DATA_CONST.__const: 0x950
+-  __DATA_CONST.__objc_classlist: 0x98
+-  __DATA_CONST.__objc_protolist: 0xa8
++2084.10.7.2.5
++  __TEXT.__text: 0x3b8f4
++  __TEXT.__auth_stubs: 0x1970
++  __TEXT.__objc_methlist: 0x159c
++  __TEXT.__const: 0x29c8
++  __TEXT.__cstring: 0x2077
++  __TEXT.__oslogstring: 0x2f50
++  __TEXT.__gcc_except_tab: 0x284
++  __TEXT.__swift5_typeref: 0xce6
++  __TEXT.__constg_swiftt: 0xb18
++  __TEXT.__swift5_fieldmd: 0x880
++  __TEXT.__swift5_builtin: 0x3c
++  __TEXT.__swift5_reflstr: 0x4c0
++  __TEXT.__swift5_assocty: 0xb8
++  __TEXT.__swift5_proto: 0x22c
++  __TEXT.__swift5_types: 0xd4
++  __TEXT.__swift5_capture: 0x1ec
++  __TEXT.__swift_as_entry: 0x5c
++  __TEXT.__swift_as_ret: 0x70
++  __TEXT.__swift5_acfuncs: 0x28
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__swift5_mpenum: 0x8
++  __TEXT.__unwind_info: 0x1188
++  __TEXT.__eh_frame: 0x18e0
++  __TEXT.__objc_classname: 0x3fc
++  __TEXT.__objc_methname: 0x4071
++  __TEXT.__objc_methtype: 0xde8
++  __TEXT.__objc_stubs: 0x25e0
++  __DATA_CONST.__got: 0x510
++  __DATA_CONST.__const: 0x998
++  __DATA_CONST.__objc_classlist: 0x108
++  __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xdb8
+-  __DATA_CONST.__objc_protorefs: 0x28
++  __DATA_CONST.__objc_selrefs: 0x1008
++  __DATA_CONST.__objc_protorefs: 0x70
+   __DATA_CONST.__objc_superrefs: 0x68
+-  __AUTH_CONST.__auth_got: 0x5a8
+-  __AUTH_CONST.__const: 0x1f8
+-  __AUTH_CONST.__cfstring: 0x11c0
+-  __AUTH_CONST.__objc_const: 0x2250
++  __AUTH_CONST.__auth_got: 0xcc8
++  __AUTH_CONST.__const: 0x1838
++  __AUTH_CONST.__cfstring: 0x12a0
++  __AUTH_CONST.__objc_const: 0x2dc8
+   __AUTH_CONST.__objc_intobj: 0x60
+-  __AUTH.__objc_data: 0x500
+-  __AUTH.__data: 0x108
+-  __DATA.__objc_ivar: 0x13c
+-  __DATA.__data: 0x690
+-  __DATA.__bss: 0x78
+-  __DATA.__common: 0x8
+-  __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__bss: 0x30
++  __AUTH.__objc_data: 0xc10
++  __AUTH.__data: 0x898
++  __DATA.__objc_ivar: 0x140
++  __DATA.__data: 0x11f0
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0x41b0
++  __DATA.__common: 0x28
++  __DATA_DIRTY.__objc_data: 0x1c8
++  __DATA_DIRTY.__data: 0x190
++  __DATA_DIRTY.__bss: 0x2b0
++  __DATA_DIRTY.__common: 0x10
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreTelephony.framework/CoreTelephony
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Network.framework/Network
++  - /System/Library/Frameworks/Security.framework/Security
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
++  - /System/Library/PrivateFrameworks/BaseBoard.framework/BaseBoard
+   - /System/Library/PrivateFrameworks/ContactsFoundation.framework/ContactsFoundation
+   - /System/Library/PrivateFrameworks/ContactsUICore.framework/ContactsUICore
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
++  - /System/Library/PrivateFrameworks/FrontBoard.framework/FrontBoard
+   - /System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices
++  - /System/Library/PrivateFrameworks/IDS.framework/IDS
+   - /System/Library/PrivateFrameworks/IMCore.framework/IMCore
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
++  - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+   - /System/Library/PrivateFrameworks/ShareSheet.framework/ShareSheet
+   - /System/Library/PrivateFrameworks/Sharing.framework/Sharing
+-  - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
++  - /System/Library/PrivateFrameworks/SharingUI.framework/SharingUI
+   - /System/Library/PrivateFrameworks/vCard.framework/vCard
++  - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDarwin.dylib
+-  - /usr/lib/swift/libswiftDataDetection.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftDistributed.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_errno.dylib
+-  - /usr/lib/swift/libswift_math.dylib
+-  - /usr/lib/swift/libswift_signal.dylib
+-  - /usr/lib/swift/libswift_stdio.dylib
+-  - /usr/lib/swift/libswift_time.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
++  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  - /usr/lib/swift/libswiftsys_time.dylib
+-  - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: AD2518EF-8F7D-3780-9944-386010B390BC
+-  Functions: 481
+-  Symbols:   1814
+-  CStrings:  1199
++  UUID: 2BF60968-C9AE-3F8E-90B7-10E03D290B38
++  Functions: 1456
++  Symbols:   2479
++  CStrings:  1493
+ 
+Symbols:
++ -[DDUICoreAgent dduiService]
++ -[DDUICoreAgent setDduiService:]
++ -[DDUICoreAgent startNFCServerWithLocalIdentity:listenerUUID:remotePublicKey:]
++ -[DDUICoreAgent stopNFCServer]
++ -[DDUIRapportPeopleDiscovery discoverySessionStartReason]
++ -[DDUIRapportPeopleDiscovery selectPerson:forPairingType:]
++ -[_DDUINotificationManager handleMicOnlyConfirmationWithID:fromDevice:completionHandler:]
++ -[_DDUINotificationManager handleMicOnlyConfirmationWithID:fromDevice:completionHandler:].cold.1
++ -[_DDUIiOSNotificationPresenter _createMicOnlyNotificationWithDeviceName:]
++ -[_DDUIiOSNotificationPresenter _showContinuityConfirmation:identifier:micOnly:completion:]
++ -[_DDUIiOSNotificationPresenter showMicOnlyConfirmation:identifier:completion:]
++ GCC_except_table15
++ GCC_except_table25
++ _DDUIAddEndpointToArray
++ _DDUICoreSingLocalizedString
++ _DDUINearFieldIdentity
++ _DDUINearFieldIdentity.cold.1
++ _DDUINearFieldIdentity.cold.2
++ _DDUINearFieldIdentity.cold.3
++ _DDUINearFieldPublicKeyFromIdentity
++ _DDUINearFieldPublicKeyFromIdentity.cold.1
++ _FBSOpenApplicationOptionKeyActions
++ _FBSOpenApplicationOptionKeyActivateSuspended
++ _FBSOpenApplicationOptionKeyLaunchIntent
++ _FBSOpenApplicationOptionKeyPayloadOptions
++ _IDSCopyLocalDeviceUniqueID
++ _MGCopyAnswer
++ _OBJC_CLASS_$_BSAction
++ _OBJC_CLASS_$_BSMutableSettings
++ _OBJC_CLASS_$_FBDisplayManager
++ _OBJC_CLASS_$_FBSceneWorkspace
++ _OBJC_CLASS_$_NSXPCConnection
++ _OBJC_CLASS_$_NSXPCInterface
++ _OBJC_CLASS_$_NSXPCListener
++ _OBJC_CLASS_$_RBSProcessIdentity
++ _OBJC_CLASS_$_UIApplicationSceneSettings
++ _OBJC_CLASS_$_UIApplicationSceneSpecification
++ _OBJC_CLASS_$_UIMutableApplicationSceneSettings
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore11DDUIService
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore22DDUIConfirmationAction
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings
++ _OBJC_CLASS_$__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ _OBJC_CLASS_$__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ _OBJC_IVAR_$_DDUICoreAgent._dduiService
++ _OBJC_METACLASS_$_BSAction
++ _OBJC_METACLASS_$_SFXPCInvocation
++ _OBJC_METACLASS_$_UIApplicationSceneSettings
++ _OBJC_METACLASS_$_UIApplicationSceneSpecification
++ _OBJC_METACLASS_$_UIMutableApplicationSceneSettings
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore11DDUIService
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore22DDUIConfirmationAction
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings
++ _OBJC_METACLASS_$__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ _OBJC_METACLASS_$__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ _RPRemoteDisplayDiscoverySessionReasonStartMicOnly
++ _SecGenerateSelfSignedCertificate
++ _SecIdentityCopyPrivateKey
++ _SecIdentityCreate
++ _SecKeyCopyPublicKey
++ _SecKeyCopySubjectPublicKeyInfo
++ _SecKeyCreateRandomKey
++ _UIApplicationLaunchOptionsSourceApplicationKey
++ __Block_copy
++ __Block_release
++ __CLASS_METHODS__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ __CLASS_PROPERTIES__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ __DATA__TtC21DeviceDiscoveryUICore11DDUIService
++ __DATA__TtC21DeviceDiscoveryUICore16DDUIServiceActor
++ __DATA__TtC21DeviceDiscoveryUICore19DDUINoticeXPCClient
++ __DATA__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ __DATA__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ __DATA__TtC21DeviceDiscoveryUICore21DDUIPermissionService
++ __DATA__TtC21DeviceDiscoveryUICore22DDUIAppSettingsManager
++ __DATA__TtC21DeviceDiscoveryUICore22DDUIConfirmationAction
++ __DATA__TtC21DeviceDiscoveryUICore27DDUIPermissionPresenter_iOS
++ __DATA__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ __DATA__TtC21DeviceDiscoveryUICore30DDUIPermissionPresenterFactory
++ __DATA__TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings
++ __DATA__TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings
++ __DATA__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ __DATA__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore11DDUIService
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore22DDUIConfirmationAction
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings
++ __INSTANCE_METHODS__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ __INSTANCE_METHODS__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ __IVARS__TtC21DeviceDiscoveryUICore11DDUIService
++ __IVARS__TtC21DeviceDiscoveryUICore16DDUIServiceActor
++ __IVARS__TtC21DeviceDiscoveryUICore19DDUINoticeXPCClient
++ __IVARS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ __IVARS__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ __IVARS__TtC21DeviceDiscoveryUICore21DDUIPermissionService
++ __IVARS__TtC21DeviceDiscoveryUICore22DDUIAppSettingsManager
++ __IVARS__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore11DDUIService
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore16DDUIServiceActor
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore19DDUINoticeXPCClient
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore20DDUIPermissionClient
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore21DDUIPermissionService
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore22DDUIAppSettingsManager
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore22DDUIConfirmationAction
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore27DDUIPermissionPresenter_iOS
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore30DDUIPermissionPresenterFactory
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings
++ __METACLASS_DATA__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ __METACLASS_DATA__TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_FBSceneCreating
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneCreating
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_FBSceneObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneCreating
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_FBSceneObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_REFS_FBSceneCreating
++ __OBJC_$_PROTOCOL_REFS_FBSceneDelegate
++ __OBJC_$_PROTOCOL_REFS_FBSceneObserver
++ __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
++ __OBJC_$_PROTOCOL_REFS_OS_nw_parameters
++ __OBJC_$_PROTOCOL_REFS_OS_nw_protocol_options
++ __OBJC_$_PROTOCOL_REFS_OS_nw_protocol_stack
++ __OBJC_$_PROTOCOL_REFS_OS_sec_identity
++ __OBJC_LABEL_PROTOCOL_$_FBSceneCreating
++ __OBJC_LABEL_PROTOCOL_$_FBSceneDelegate
++ __OBJC_LABEL_PROTOCOL_$_FBSceneObserver
++ __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
++ __OBJC_LABEL_PROTOCOL_$_OS_nw_parameters
++ __OBJC_LABEL_PROTOCOL_$_OS_nw_protocol_options
++ __OBJC_LABEL_PROTOCOL_$_OS_nw_protocol_stack
++ __OBJC_LABEL_PROTOCOL_$_OS_sec_identity
++ __OBJC_PROTOCOL_$_FBSceneCreating
++ __OBJC_PROTOCOL_$_FBSceneDelegate
++ __OBJC_PROTOCOL_$_FBSceneObserver
++ __OBJC_PROTOCOL_$_NSXPCListenerDelegate
++ __OBJC_PROTOCOL_$_OS_nw_parameters
++ __OBJC_PROTOCOL_$_OS_nw_protocol_options
++ __OBJC_PROTOCOL_$_OS_nw_protocol_stack
++ __OBJC_PROTOCOL_$_OS_sec_identity
++ __PROPERTIES__TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification
++ __PROTOCOLS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService
++ __PROTOCOLS__TtC21DeviceDiscoveryUICore20DDUINoticeXPCService.6
++ __PROTOCOLS__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager
++ __PROTOCOLS__TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager.10
++ __PROTOCOL_INSTANCE_METHODS__TtP21DeviceDiscoveryUICore18UserAcceptProtocol_
++ __PROTOCOL_METHOD_TYPES__TtP21DeviceDiscoveryUICore18UserAcceptProtocol_
++ __PROTOCOL__TtP21DeviceDiscoveryUICore18UserAcceptProtocol_
++ ___30-[DDUICoreAgent _startOnQueue]_block_invoke.12
++ ___30-[DDUICoreAgent _startOnQueue]_block_invoke.12.cold.1
++ ___30-[DDUICoreAgent stopNFCServer]_block_invoke
++ ___54-[DDUICoreAgent _setupListenerIfNeededWithCompletion:]_block_invoke.16
++ ___54-[DDUICoreAgent _setupListenerIfNeededWithCompletion:]_block_invoke.18
++ ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.26
++ ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.31
++ ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.35
++ ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.39
++ ___62-[DDUICoreAgent _handleIncomingPairingSession:pairingMessage:]_block_invoke.19
++ ___62-[DDUICoreAgent _handleIncomingPairingSession:pairingMessage:]_block_invoke.21
++ ___78-[DDUICoreAgent startNFCServerWithLocalIdentity:listenerUUID:remotePublicKey:]_block_invoke
++ ___78-[DDUICoreAgent startNFCServerWithLocalIdentity:listenerUUID:remotePublicKey:]_block_invoke_2
++ ___91-[_DDUIiOSNotificationPresenter _showContinuityConfirmation:identifier:micOnly:completion:]_block_invoke
++ ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0ls32l8s40l8s48l8s56l8
++ ___block_literal_global.14
++ ___block_literal_global.8
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_memcpy0_1
++ ___swift_memcpy113_8
++ ___swift_memcpy1_1
++ ___swift_memcpy32_8
++ ___swift_memcpy33_8
++ ___swift_memcpy88_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1Tm
++ __swiftEmptyDictionarySingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_DeviceDiscoveryUICore
++ __swift_FORCE_LOAD_$_swiftMapKit
++ __swift_FORCE_LOAD_$_swiftMapKit_$_DeviceDiscoveryUICore
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_DeviceDiscoveryUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_DeviceDiscoveryUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_DeviceDiscoveryUICore
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3
++ __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_DeviceDiscoveryUICore
++ __swift_stdlib_reportUnimplementedInitializer
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorC11Distributed0fE0AA0E6SystemAdEP_AD0feG0
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorC11Distributed0fE0AASH
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorC11Distributed0fE0AAs12Identifiable
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorC7Network020NWSingletonPublishedE0AA11Distributed0iE0
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorCSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore16DDUIServiceActorCs12IdentifiableAA2IDsADP_SH
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO21ApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO21ApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore17DDUINoticeFailureOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore19BoopConnectionErrorOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO17EnabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO17EnabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO18DisabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO18DisabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC7Sharing22SFXPCInvocableProtocolAA10ParametersAfGP_SE
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC7Sharing22SFXPCInvocableProtocolAA10ParametersAfGP_Se
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC7Sharing22SFXPCInvocableProtocolAA8ResponseAfGP_SE
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC7Sharing22SFXPCInvocableProtocolAA8ResponseAfGP_Se
++ _associated conformance 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC7Sharing28_SFXPCAsyncInvocableProtocolAaF014SFXPCInvocableJ0
++ _associated conformance 21DeviceDiscoveryUICore28DDUIConfirmationActionResultOSHAASQ
++ _associated conformance 21DeviceDiscoveryUICore9DDUIErrorOSHAASQ
++ _associated conformance So29UIApplicationLaunchOptionsKeyaSHSCSQ
++ _associated conformance So29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So29UIApplicationLaunchOptionsKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.14
++ _block_copy_helper.16
++ _block_copy_helper.18
++ _block_copy_helper.19
++ _block_copy_helper.2
++ _block_copy_helper.20
++ _block_copy_helper.27
++ _block_copy_helper.36
++ _block_copy_helper.61
++ _block_copy_helper.75
++ _block_copy_helper.78
++ _block_copy_helper.84
++ _block_descriptor.16
++ _block_descriptor.18
++ _block_descriptor.20
++ _block_descriptor.21
++ _block_descriptor.22
++ _block_descriptor.29
++ _block_descriptor.38
++ _block_descriptor.4
++ _block_descriptor.63
++ _block_descriptor.77
++ _block_descriptor.80
++ _block_descriptor.86
++ _block_destroy_helper.15
++ _block_destroy_helper.17
++ _block_destroy_helper.19
++ _block_destroy_helper.20
++ _block_destroy_helper.21
++ _block_destroy_helper.28
++ _block_destroy_helper.3
++ _block_destroy_helper.37
++ _block_destroy_helper.62
++ _block_destroy_helper.76
++ _block_destroy_helper.79
++ _block_destroy_helper.85
++ _flat unique 21DeviceDiscoveryUICore18UserAcceptProtocol_p
++ _flat unique So15FBSceneCreating_p
++ _flat unique So15OS_sec_identity_p
++ _flat unique So16OS_nw_parameters_p
++ _flat unique So20OS_nw_protocol_stack_p
++ _flat unique So22OS_nw_protocol_options_p
++ _get_enum_tag_for_layout_string 10Foundation4DataVSg
++ _get_enum_tag_for_layout_string 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO
++ _get_enum_tag_for_layout_string 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO
++ _get_enum_tag_for_layout_string 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindOSg
++ _kCFAllocatorDefault
++ _kSecAttrKeySizeInBits
++ _kSecAttrKeyType
++ _nw_array_append
++ _nw_array_create
++ _nw_endpoint_create_bonjour_service
++ _nw_endpoint_get_contact_id
++ _nw_endpoint_get_device_id
++ _nw_endpoint_get_device_model
++ _nw_endpoint_set_public_keys
++ _nw_listener_set_advertise_endpoints
++ _nw_parameters_copy_default_protocol_stack
++ _nw_parameters_create_application_service_quic_using_identity
++ _nw_parameters_set_attach_protocol_listener
++ _nw_parameters_set_include_peer_to_peer
++ _nw_parameters_set_local_only
++ _nw_parameters_set_multipath_service
++ _nw_parameters_set_preferred_interface_subtypes
++ _nw_parameters_set_preferred_netagent_classes
++ _nw_parameters_set_prohibit_constrained
++ _nw_parameters_set_prohibit_expensive
++ _nw_parameters_set_prohibited_interface_subtypes
++ _nw_parameters_set_prohibited_interface_types
++ _nw_parameters_set_required_interface_subtype
++ _nw_parameters_set_server_mode
++ _nw_parameters_set_source_application_by_bundle_id
++ _nw_protocol_options_is_quic
++ _nw_protocol_stack_iterate_application_protocols
++ _nw_quic_connection_set_disable_spin_bit
++ _nw_quic_copy_sec_protocol_options
++ _nw_quic_set_disable_spin_bit
++ _nw_quic_set_idle_timeout
++ _objc_class_stubs
++ _objc_msgSend$_createMicOnlyNotificationWithDeviceName:
++ _objc_msgSend$_showContinuityConfirmation:identifier:micOnly:completion:
++ _objc_msgSend$dduiService
++ _objc_msgSend$discoverySessionStartReason
++ _objc_msgSend$handleMicOnlyConfirmationWithID:fromDevice:completionHandler:
++ _objc_msgSend$iconForApplicationIdentifier:
++ _objc_msgSend$setPersonSelected:forPairingType:
++ _objc_msgSend$showMicOnlyConfirmation:identifier:completion:
++ _objc_msgSend$startNearFieldServerWithLocalIdentity:listenerUUID:remotePublicKey:completionHandler:
++ _objc_msgSend$startServerWithCompletionHandler:
++ _objc_msgSend$started
++ _objc_msgSend$stopNearFieldServer
++ _objc_retain_x9
++ _objectdestroy.22Tm
++ _objectdestroy.31Tm
++ _objectdestroyTm
++ _os_unfair_lock_lock
++ _os_unfair_lock_unlock
++ _sec_identity_copy_ref
++ _sec_identity_create
++ _sec_protocol_options_add_tls_application_protocol
++ _sec_protocol_options_clear_tls_application_protocols
++ _sec_protocol_options_set_verify_block
++ _swift_allocError
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease_n
++ _swift_conformsToProtocol
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithTake
++ _swift_defaultActor_deallocate
++ _swift_defaultActor_destroy
++ _swift_defaultActor_initialize
++ _swift_deletedAsyncMethodErrorTu
++ _swift_distributedActor_remote_initialize
++ _swift_distributed_actor_is_remote
++ _swift_dynamicCastClass
++ _swift_endAccess
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getForeignTypeMetadata
++ _swift_getObjCClassFromMetadata
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_initClassMetadata2
++ _swift_isEscapingClosureAtFileLocation
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_updateClassMetadata2
++ _symbolic $s11Distributed0A5ActorP
++ _symbolic $s21DeviceDiscoveryUICore18UserAcceptProtocolP
++ _symbolic $s21DeviceDiscoveryUICore23DDUIPermissionPresenterP
++ _symbolic $s7Sharing22SFXPCInvocableProtocolP
++ _symbolic $s7Sharing28_SFXPCAsyncInvocableProtocolP
++ _symbolic $sSY
++ _symbolic $ss12IdentifiableP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic BD
++ _symbolic IeAgH_
++ _symbolic IeghH_
++ _symbolic IeyB_
++ _symbolic SDySS_____G 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO
++ _symbolic SDy_____SSSgG So29UIApplicationLaunchOptionsKeya
++ _symbolic SDy_____ScCySb______pGG 10Foundation4UUIDV s5ErrorP
++ _symbolic SS
++ _symbolic SS10deviceName_t
++ _symbolic SS11appBundleID_SS0A4Namet
++ _symbolic SS11deviceModel_SS0A4Namet
++ _symbolic SS9contactID_t
++ _symbolic SSSg
++ _symbolic SaySSG
++ _symbolic SaySo8BSActionCG
++ _symbolic Say_____G So17OS_dispatch_queueC8DispatchE10AttributesV
++ _symbolic Sb
++ _symbolic SbIeyBy_
++ _symbolic ScCySb_____G s5NeverO
++ _symbolic ScCySb_____GSg s5NeverO
++ _symbolic ScCySb______pG s5ErrorP
++ _symbolic ScCySb______pGSg s5ErrorP
++ _symbolic ScCy__________G 21DeviceDiscoveryUICore28DDUIConfirmationActionResultO s5NeverO
++ _symbolic ScCy__________GSg 21DeviceDiscoveryUICore28DDUIConfirmationActionResultO s5NeverO
++ _symbolic ScTyyt_____GSg s5NeverO
++ _symbolic SccySo15BSProcessHandleC______pG s5ErrorP
++ _symbolic Sccy_____Sg______Sgt______pG 10Foundation4UUIDV AA4DataV s5ErrorP
++ _symbolic Sccy_____Sg______pG 10Foundation4UUIDV s5ErrorP
++ _symbolic Se_SEp
++ _symbolic So13NSXPCListenerC
++ _symbolic So14NSUserDefaultsC
++ _symbolic So15NSXPCConnectionC
++ _symbolic So15NSXPCConnectionCSg
++ _symbolic So17OS_dispatch_queueC
++ _symbolic So23FBSMutableSceneSettingsCIghg_
++ _symbolic So25FBSMutableSceneParametersCIgg_
++ _symbolic So26UIApplicationSceneSettingsC
++ _symbolic So31UIApplicationSceneSpecificationC
++ _symbolic So33UIMutableApplicationSceneSettingsC
++ _symbolic So6NSDataC
++ _symbolic So6NSUUIDC
++ _symbolic So8BSActionC
++ _symbolic So8NSObjectC
++ _symbolic So8NSStringC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 21DeviceDiscoveryUICore0A36PickerConfirmationSceneSpecificationC
++ _symbolic _____ 21DeviceDiscoveryUICore10DDUINoticeO
++ _symbolic _____ 21DeviceDiscoveryUICore11DDUIServiceC
++ _symbolic _____ 21DeviceDiscoveryUICore16DDUIServiceActorC
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO21ApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore17BoopLaunchRequestV
++ _symbolic _____ 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore17DDUINoticeFailureO
++ _symbolic _____ 21DeviceDiscoveryUICore17TapLaunchResponseV
++ _symbolic _____ 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore19BoopConnectionErrorO
++ _symbolic _____ 21DeviceDiscoveryUICore19DDUINoticeXPCClientC
++ _symbolic _____ 21DeviceDiscoveryUICore20DDUINoticeXPCServiceC
++ _symbolic _____ 21DeviceDiscoveryUICore20DDUIPermissionClientC
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____ 21DeviceDiscoveryUICore21DDUIPermissionServiceC
++ _symbolic _____ 21DeviceDiscoveryUICore22BoopConnectionResponseV
++ _symbolic _____ 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO17EnabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO18DisabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____ 21DeviceDiscoveryUICore22DDUIConfirmationActionC
++ _symbolic _____ 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV
++ _symbolic _____ 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLO
++ _symbolic _____ 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO
++ _symbolic _____ 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC
++ _symbolic _____ 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV
++ _symbolic _____ 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLO
++ _symbolic _____ 21DeviceDiscoveryUICore27DDUIPermissionPresenter_iOSC
++ _symbolic _____ 21DeviceDiscoveryUICore28DDUIConfirmationActionResultO
++ _symbolic _____ 21DeviceDiscoveryUICore28DDUIConfirmationSceneManagerC
++ _symbolic _____ 21DeviceDiscoveryUICore30DDUIPermissionPresenterFactoryC
++ _symbolic _____ 21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettingsC
++ _symbolic _____ 21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettingsC
++ _symbolic _____ 21DeviceDiscoveryUICore9DDUIErrorO
++ _symbolic _____ 7Network13NWActorSystemC
++ _symbolic _____ 7Network9NWActorIDV
++ _symbolic _____ 7Sharing12VoidResponseV
++ _symbolic _____ 7Sharing15SFXPCConnectionC
++ _symbolic _____ 7Sharing15SFXPCInvocationC
++ _symbolic _____ 7Sharing16SFCodableCGImageV
++ _symbolic _____ So29UIApplicationLaunchOptionsKeya
++ _symbolic _____ So30FBSOpenApplicationLaunchIntentV
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO
++ _symbolic _____Sg 7Network10NWEndpointO
++ _symbolic _____Sg 7Sharing16SFCodableCGImageV
++ _symbolic _____Sg______Sgt 10Foundation4UUIDV AA4DataV
++ _symbolic ______SSSgt So29UIApplicationLaunchOptionsKeya
++ _symbolic _____________________pIetMHnTgrzo_ 21DeviceDiscoveryUICore16TapLaunchRequestV AA16DDUIServiceActorC AA0dE8ResponseV s5ErrorP
++ _symbolic _____________________pIetMHnTgrzo_ 21DeviceDiscoveryUICore17BoopLaunchRequestV AA16DDUIServiceActorC AA0D18ConnectionResponseV s5ErrorP
++ _symbolic ______p 21DeviceDiscoveryUICore18UserAcceptProtocolP
++ _symbolic ______p So15OS_sec_identityP
++ _symbolic ______p So16OS_nw_parametersP
++ _symbolic ______p So20OS_nw_protocol_stackP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pIgg_ So15FBSceneCreatingP
++ _symbolic ______pIgg_ So22OS_nw_protocol_optionsP
++ _symbolic ______pSg 7Network11NWActorPeerP
++ _symbolic ______ypt s11AnyHashableV
++ _symbolic _____ySS_____G s18_DictionaryStorageC 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO
++ _symbolic _____ySo8BSActionCG s11_SetStorageC
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 21DeviceDiscoveryUICore16TapLaunchRequestV
++ _symbolic _____y_____G 11Distributed18RemoteCallArgumentV 21DeviceDiscoveryUICore17BoopLaunchRequestV
++ _symbolic _____y_____G 7Sharing13SFXPCListenerC 21DeviceDiscoveryUICore21DDUIPermissionServiceC
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO21ApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO17EnabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO18DisabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO21ApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO26ProxyApplicationCodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore17BoopLaunchRequestV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore17TapLaunchResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO10CodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO17ContactCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO19PinPairedCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO21SameAccountCodingKeys33_0914762F500B8041995E36A722E76C5FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore22BoopConnectionResponseV10CodingKeys33_2D5ED4C85944A3C647AE3913A212703DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO10CodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO17EnabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore22DDUIAppSettingsManagerC7SettingO18DisabledCodingKeys33_6533B8BBD8EE7678C818E747DDD65D0BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore23DDUINoticeLaunchOptionsV10CodingKeys33_33A0482C90A3698DC4CB721978BCF80DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 21DeviceDiscoveryUICore25DDUIPermissionInvocationsO7RespondC10ParametersV10CodingKeys33_4471550A4804BD6504168207F8DB303ALLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10Foundation4DataV
++ _symbolic _____y_____SSSgG s18_DictionaryStorageC So29UIApplicationLaunchOptionsKeya
++ _symbolic _____y_____ScCySb______pGG s18_DictionaryStorageC 10Foundation4UUIDV s5ErrorP
++ _symbolic _____y______SSSgtG s23_ContiguousArrayStorageC So29UIApplicationLaunchOptionsKeya
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC s11AnyHashableV
++ _symbolic _____y_____ypG s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic _____yytG 2os21OSAllocatedUnfairLockV
++ _symbolic ypSg
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 21DeviceDiscoveryUICore16TapLaunchRequestV
++ _type_layout_string 21DeviceDiscoveryUICore16TapLaunchRequestV4KindO
++ _type_layout_string 21DeviceDiscoveryUICore17BoopLaunchRequestV
++ _type_layout_string 21DeviceDiscoveryUICore21DDUIPermissionRequestV4KindO
++ _type_layout_string So29UIApplicationLaunchOptionsKeya
++ _xpc_array_create
++ _xpc_array_create_empty
++ _xpc_array_set_string
++ _xpc_array_set_uint64
+- -[DDUIRapportPeopleDiscovery selectPerson:forDedicatedPairing:]
+- GCC_except_table19
+- ___54-[DDUICoreAgent _setupListenerIfNeededWithCompletion:]_block_invoke.10
+- ___54-[DDUICoreAgent _setupListenerIfNeededWithCompletion:]_block_invoke.8
+- ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.18
+- ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.23
+- ___61-[DDUICoreAgent _handleIncomingContinuityCameraConfirmation:]_block_invoke.27
+- ___62-[DDUICoreAgent _handleIncomingPairingSession:pairingMessage:]_block_invoke.11
+- ___62-[DDUICoreAgent _handleIncomingPairingSession:pairingMessage:]_block_invoke.13
+- ___88-[_DDUIiOSNotificationPresenter showContinuityCameraConfirmation:identifier:completion:]_block_invoke
+- __swift_FORCE_LOAD_$_swiftDataDetection
+- __swift_FORCE_LOAD_$_swiftDataDetection_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swift_errno
+- __swift_FORCE_LOAD_$_swift_errno_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swift_math
+- __swift_FORCE_LOAD_$_swift_math_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swift_signal
+- __swift_FORCE_LOAD_$_swift_signal_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swift_stdio
+- __swift_FORCE_LOAD_$_swift_stdio_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swift_time
+- __swift_FORCE_LOAD_$_swift_time_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swiftsys_time
+- __swift_FORCE_LOAD_$_swiftsys_time_$_DeviceDiscoveryUICore
+- __swift_FORCE_LOAD_$_swiftunistd
+- __swift_FORCE_LOAD_$_swiftunistd_$_DeviceDiscoveryUICore
+- _swift_release_n
+- _swift_retain_n
+CStrings:
++ "$defaultActor"
++ ", permissionRequestKind: "
++ ", publicKey: Data(count: "
++ ", serviceIdentifier: "
++ "<UNKNOWN DEVICE NAME>"
++ "<Unknown Device Name>"
++ "@\"NSSet\"32@0:8@\"FBScene\"16@\"NSSet\"24"
++ "@\"_TtC21DeviceDiscoveryUICore11DDUIService\""
++ "@24@0:8^v16"
++ "@48@0:8@16d24@32@?40"
++ "Asked to present a confirmation dialog while one is already waiting for a reply"
++ "Asked to present while a scene already exists for %s"
++ "Attempting to Show confirmation dialog"
++ "Attempting to create boop actor"
++ "Attempting to create mapping ID for %s with service %s bundleID: %s"
++ "Attempting to create mapping for service: %s"
++ "Attempting to create mapping with %s for service: %s"
++ "Attempting to send user response"
++ "B32@0:8@\"NSXPCListener\"16@\"NSXPCConnection\"24"
++ "BoopConnectionResponse(serviceName: "
++ "BoopLaunchRequest(bundleID: "
++ "CONTINUITYCAPTURE_MICONLY_CATEGORY"
++ "CONTINUITY_SING_NOTIFICATION_BODY"
++ "CONTINUITY_SING_NOTIFICATION_TITLE"
++ "Connection interrupted from %@"
++ "Connection invalidated from %@"
++ "Could not convert endpoint to nw_endpoint %s"
++ "Created Mapping with mappingID: %s"
++ "Creating DDUINoticeXPCClient"
++ "Creating endpoint with service name %s, remoteDeviceID %s and endpointID: %s"
++ "Creating listener for modern DDUI here"
++ "Creating the actor for combinedServiceName: %s"
++ "DDUI actor exited."
++ "DDUIConfirmation"
++ "DDUIListenerActor is no longer valid"
++ "DDUIListenerActorManager"
++ "DDUIPermissionRequestLaunchOptions"
++ "DDUIService"
++ "DDUIServiceActor"
++ "DeviceDiscoveryUICore.DDUIConfirmationAction"
++ "DeviceDiscoveryUICore.DDUIPermissionClient"
++ "DeviceDiscoveryUICore/DDUIService.swift"
++ "Error publishing actor system: "
++ "Error publishing actor system: %@"
++ "FBSceneCreating"
++ "FBSceneDelegate"
++ "FBSceneObserver"
++ "Failed to create application service QUIC parameters"
++ "Failed to create mapping for %s."
++ "Failed to decode settings: %@"
++ "Failed to encode settings: %@"
++ "Failed to find QUIC protocol options from protocol stack: "
++ "Failed to get proxy"
++ "Failed to load UserDefaults for com.apple.DeviceDiscoveryUI"
++ "Fatal error"
++ "Found mappingID: %s"
++ "Got User Response: %s"
++ "Got a new connection, %s"
++ "Got a nil agentUUID while trying to create the mapping from %s to %s with %s."
++ "Got a nil endpointUUID while trying to create a mapping for %s and service %s."
++ "Got deviceName %s, deviceModel %s"
++ "Got incoming Boop Launch Request: %s"
++ "Got incoming Tap Launch Request: %s"
++ "Got response: %s"
++ "Incoming continuity mic-only confirmation request from: %@, shouldByPassConfirmation: %d"
++ "Invalid number of keys found, expected one."
++ "Loaded settings: %s"
++ "LocalizableSing"
++ "Missing continuation for %s"
++ "NSXPCListenerDelegate"
++ "No data found for %s"
++ "No listener available"
++ "No mappingID found"
++ "OS_nw_parameters"
++ "OS_nw_protocol_options"
++ "OS_nw_protocol_stack"
++ "OS_sec_identity"
++ "Querying to see if we have a current mapping with %s for service: %s"
++ "RapportBrowseAgent"
++ "Received Continuity confirmation response: %@ for category: %@\n"
++ "Request to present notification for %@ micOnly: %d"
++ "SecGenerateSelfSignedCertificate failed"
++ "SecIdentityCopyPrivateKey failed"
++ "SecIdentityCreate failed"
++ "Sending request: %s"
++ "Setting RPRemoteDisplayDiscovery person selected %{public}@ to %@ for pairing type: %u"
++ "Sing on Apple TV"
++ "Starting NFC server {self: %@}"
++ "Starting server for NFC"
++ "Starting server for application service:\"com.apple.DDUI-Picker\""
++ "Stopping NFC server {self: %@}"
++ "Stopping server for NFC"
++ "T#,N,R"
++ "T@\"NSString\",N,R"
++ "T@\"_TtC21DeviceDiscoveryUICore11DDUIService\",&,N,V_dduiService"
++ "TB,N,R"
++ "Tap to turn your phone into a mic."
++ "TapLaunchRequest(bundleID: "
++ "TapLaunchResponse(endpointID: "
++ "Trying to get kind of endpoint %s, name: %s, model: %s, contactID: %s"
++ "UISceneSessionRoleEndpointConfirmation"
++ "Unable to Fetch Endpoint From Peer"
++ "Unable to get app name for bundle ID %s"
++ "Unknown Device Model"
++ "Unknown Device Name"
++ "Unknown DeviceName"
++ "UserAssignedDeviceName"
++ "Waiting for User Response"
++ "XPC Connection established: %s"
++ "_TtC21DeviceDiscoveryUICore11DDUIService"
++ "_TtC21DeviceDiscoveryUICore16DDUIServiceActor"
++ "_TtC21DeviceDiscoveryUICore19DDUINoticeXPCClient"
++ "_TtC21DeviceDiscoveryUICore20DDUINoticeXPCService"
++ "_TtC21DeviceDiscoveryUICore20DDUIPermissionClient"
++ "_TtC21DeviceDiscoveryUICore21DDUIPermissionService"
++ "_TtC21DeviceDiscoveryUICore22DDUIAppSettingsManager"
++ "_TtC21DeviceDiscoveryUICore22DDUIConfirmationAction"
++ "_TtC21DeviceDiscoveryUICore27DDUIPermissionPresenter_iOS"
++ "_TtC21DeviceDiscoveryUICore28DDUIConfirmationSceneManager"
++ "_TtC21DeviceDiscoveryUICore30DDUIPermissionPresenterFactory"
++ "_TtC21DeviceDiscoveryUICore35DDUIConfirmationDialogSceneSettings"
++ "_TtC21DeviceDiscoveryUICore42DDUIConfirmationDialogMutableSceneSettings"
++ "_TtC21DeviceDiscoveryUICore42DevicePickerConfirmationSceneSpecification"
++ "_TtCO21DeviceDiscoveryUICore25DDUIPermissionInvocations7Respond"
++ "_TtP21DeviceDiscoveryUICore18UserAcceptProtocol_"
++ "_asquic._udp"
++ "_createMicOnlyNotificationWithDeviceName:"
++ "_dduiService"
++ "_showContinuityConfirmation:identifier:micOnly:completion:"
++ "activate:"
++ "actorSystem"
++ "addObserver:"
++ "com.apple.AccessibilityUIServer"
++ "com.apple.DDUI-Picker"
++ "com.apple.DDUI.UserAcceptService"
++ "com.apple.DeviceDiscoveryUI.Permission"
++ "com.apple.DeviceDiscoveryUI.permission.client"
++ "com.apple.Music"
++ "com.apple.RemoteCompositorServer"
++ "com.apple.networkendpointpickerui"
++ "com.apple.rapport.browse"
++ "configureParameters:"
++ "connection"
++ "continuation"
++ "continuationsByIdentifier"
++ "createScene:"
++ "created XPCListener, waiting for connections..."
++ "dataForKey:"
++ "dduiService"
++ "decline"
++ "did advertise boop endpoint: listenerUUID:%s, remotePublicKey:%@"
++ "did get listener response - serviceName: %s, publicKey: %@"
++ "did open application for bundleID: %s"
++ "did start NFC server"
++ "discoverySessionStartReason"
++ "error calling boopTest: %@"
++ "exchangeQUICPublicKeyFor:publicKey:completion:"
++ "got confirmation action: %s"
++ "h3"
++ "handleMicOnlyConfirmationWithID:fromDevice:completionHandler:"
++ "iconForApplicationIdentifier:"
++ "id"
++ "identityForAngelJobLabel:"
++ "init()"
++ "init(info:responder:)"
++ "init(info:timeout:forResponseOn:withHandler:)"
++ "initWithBundleIdentifier:allowPlaceholder:error:"
++ "initWithIdentifier:"
++ "initWithInfo:responder:"
++ "initWithInfo:timeout:forResponseOnQueue:withHandler:"
++ "initWithMachServiceName:"
++ "initWithMachServiceName:options:"
++ "initWithSettings:"
++ "initWithXPCDictionary:"
++ "interfaceWithProtocol:"
++ "listener"
++ "listener:shouldAcceptNewConnection:"
++ "local"
++ "lock"
++ "mainConfiguration"
++ "mutableCopyWithZone:"
++ "nearfieldServerTask"
++ "objectForSetting:"
++ "otherSettings"
++ "permissionRequestKind"
++ "proxyApplication"
++ "proxyApplication(appBundleID: "
++ "queue"
++ "rejecting mic only confirmation since this is an unsupported device"
++ "remoteObjectProxy"
++ "removeObserver:"
++ "request to open application for bundleID: %s"
++ "resume"
++ "scene::oneAPI::ConfirmationDialog::"
++ "scene:clientDidConnect:"
++ "scene:didApplyUpdateWithContext:"
++ "scene:didCompleteUpdateWithContext:error:"
++ "scene:didPrepareUpdateWithContext:"
++ "scene:didReceiveActions:"
++ "scene:didUpdateClientSettings:"
++ "scene:didUpdateClientSettingsWithDiff:oldClientSettings:transitionContext:"
++ "scene:didUpdateSettings:"
++ "scene:handleActions:"
++ "scene:willUpdateSettings:"
++ "scene:willUpdateSettings:withTransitionContext:"
++ "sceneContentStateDidChange:"
++ "sceneDidActivate:"
++ "sceneDidDeactivate:withContext:"
++ "sceneDidDeactivate:withError:"
++ "sceneDidInvalidate:"
++ "sceneDidInvalidate:withContext:"
++ "sceneWillActivate:"
++ "sceneWillDeactivate:withContext:"
++ "sceneWillDeactivate:withError:"
++ "sceneWithIdentifier:"
++ "scenelessBundleIdentifiers"
++ "sec_identity_create failed"
++ "selectPerson:forPairingType:"
++ "serverTask"
++ "setClientIdentity:"
++ "setDduiService:"
++ "setDisplayConfiguration:"
++ "setExportedInterface:"
++ "setExportedObject:"
++ "setForeground:"
++ "setInvalidationHandler:"
++ "setObject:forSetting:"
++ "setPersonSelected:forPairingType:"
++ "setRemoteObjectInterface:"
++ "setSpecification:"
++ "setting fbs applications to launch suspended for bundleID: %s"
++ "settingsByBundleID"
++ "settingsClass"
++ "settingsKey"
++ "showMicOnlyConfirmation:identifier:completion:"
++ "standardUserDefaults"
++ "startNFCServerWithLocalIdentity:listenerUUID:remotePublicKey:"
++ "startNearFieldServerWithLocalIdentity:listenerUUID:remotePublicKey:completionHandler:"
++ "startServerWithCompletionHandler:"
++ "stopNFCServer"
++ "stopNearFieldServer"
++ "suspendedBundleIdentifiers"
++ "uiSceneSessionRole"
++ "updateSettingsWithBlock:"
++ "userDefaults"
++ "userDidRespond was called, resuming, accepted: %{bool}d"
++ "userDidRespondWithAccepted:"
++ "v16@?0@\"<FBSceneCreating>\"8"
++ "v16@?0@\"<OS_nw_protocol_options>\"8"
++ "v16@?0@\"BSActionResponse\"8"
++ "v16@?0@\"FBSMutableSceneParameters\"8"
++ "v16@?0@\"FBSMutableSceneSettings\"8"
++ "v24@0:8@\"<FBSSceneClientIdentifying>\"16"
++ "v24@0:8@\"FBSSceneSpecification\"16"
++ "v24@0:8@\"FBScene\"16"
++ "v24@0:8@?<v@?>16"
++ "v24@0:8@?<v@?@\"FBSMutableSceneParameters\">16"
++ "v28@0:8@16I24"
++ "v32@0:8@\"FBScene\"16@\"FBSSceneTransitionContext\"24"
++ "v32@0:8@\"FBScene\"16@\"FBSSceneUpdate\"24"
++ "v32@0:8@\"FBScene\"16@\"FBSceneClientHandle\"24"
++ "v32@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24"
++ "v32@0:8@\"FBScene\"16@\"NSError\"24"
++ "v32@0:8@\"FBScene\"16@\"NSSet\"24"
++ "v32@?0@\"<OS_sec_protocol_metadata>\"8@\"<OS_sec_trust>\"16@?<v@?B>24"
++ "v32@?0@\"NSUUID\"8@\"NSData\"16@\"NSError\"24"
++ "v40@0:8@\"FBScene\"16@\"FBSMutableSceneSettings\"24@\"FBSSceneTransitionContext\"32"
++ "v40@0:8@\"FBScene\"16@\"FBSceneUpdateContext\"24@\"NSError\"32"
++ "v40@0:8@16@24@32"
++ "v44@0:8@16@24B32@?36"
++ "v48@0:8@\"<OS_sec_identity>\"16@\"NSUUID\"24@\"NSData\"32@?<v@?>40"
++ "v48@0:8@\"FBScene\"16@\"FBSSceneClientSettingsDiff\"24@\"FBSSceneClientSettings\"32@\"FBSSceneTransitionContext\"40"
++ "v48@0:8@16@24@32@40"
++ "waitForResponse()"
++ "waitForUserResponse()"
++ "xpcListener"
++ "{self: %@} Enter session with remoteDeviceID: %@ reason: %@"
+- "Received Continuity Camera confirmation response: %@\n"
+- "Setting RPRemoteDisplayDiscovery person selected %{public}@ to %@"
+- "selectPerson:forDedicatedPairing:"
+- "v28@0:8@16B24"
+
+```

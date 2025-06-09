@@ -1,0 +1,807 @@
+## DistributedEvaluation
+
+> `/System/Library/PrivateFrameworks/DistributedEvaluation.framework/DistributedEvaluation`
+
+```diff
+
+-108.0.0.0.0
+-  __TEXT.__text: 0x26cdc
+-  __TEXT.__auth_stubs: 0x980
+-  __TEXT.__objc_methlist: 0x225c
+-  __TEXT.__const: 0x290
+-  __TEXT.__cstring: 0x29f8
+-  __TEXT.__oslogstring: 0x2302
+-  __TEXT.__gcc_except_tab: 0x6d4
++111.1.0.0.0
++  __TEXT.__text: 0x1f5ac
++  __TEXT.__auth_stubs: 0x8e0
++  __TEXT.__objc_methlist: 0x1bc4
++  __TEXT.__const: 0x260
++  __TEXT.__cstring: 0x2370
++  __TEXT.__oslogstring: 0x1cdb
++  __TEXT.__gcc_except_tab: 0x684
+   __TEXT.__dlopen_cstrs: 0x6e
+-  __TEXT.__unwind_info: 0x8b8
+-  __TEXT.__objc_classname: 0x541
+-  __TEXT.__objc_methname: 0x516a
+-  __TEXT.__objc_methtype: 0x1069
+-  __TEXT.__objc_stubs: 0x37e0
+-  __DATA_CONST.__got: 0x380
+-  __DATA_CONST.__const: 0x860
+-  __DATA_CONST.__objc_classlist: 0x1a0
++  __TEXT.__unwind_info: 0x768
++  __TEXT.__objc_classname: 0x467
++  __TEXT.__objc_methname: 0x3f91
++  __TEXT.__objc_methtype: 0xb82
++  __TEXT.__objc_stubs: 0x2d40
++  __DATA_CONST.__got: 0x2c0
++  __DATA_CONST.__const: 0x640
++  __DATA_CONST.__objc_classlist: 0x168
+   __DATA_CONST.__objc_catlist: 0x20
+-  __DATA_CONST.__objc_protolist: 0x60
++  __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x14a8
+-  __DATA_CONST.__objc_protorefs: 0x10
+-  __DATA_CONST.__objc_superrefs: 0x118
+-  __AUTH_CONST.__auth_got: 0x4d8
+-  __AUTH_CONST.__const: 0x2f0
+-  __AUTH_CONST.__cfstring: 0x3380
+-  __AUTH_CONST.__objc_const: 0x4060
++  __DATA_CONST.__objc_selrefs: 0x10e8
++  __DATA_CONST.__objc_protorefs: 0x8
++  __DATA_CONST.__objc_superrefs: 0xd8
++  __AUTH_CONST.__auth_got: 0x488
++  __AUTH_CONST.__const: 0x2b0
++  __AUTH_CONST.__cfstring: 0x2c80
++  __AUTH_CONST.__objc_const: 0x35b0
+   __AUTH_CONST.__objc_intobj: 0x78
+-  __DATA.__objc_ivar: 0x220
+-  __DATA.__data: 0x480
+-  __DATA.__bss: 0x78
+-  __DATA_DIRTY.__objc_data: 0x1040
+-  __DATA_DIRTY.__bss: 0x70
++  __AUTH.__objc_data: 0xf0
++  __DATA.__objc_ivar: 0x1ac
++  __DATA.__data: 0x3c0
++  __DATA.__bss: 0x70
++  __DATA_DIRTY.__objc_data: 0xd20
++  __DATA_DIRTY.__bss: 0x48
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /System/Library/PrivateFrameworks/CoreDuet.framework/CoreDuet
+   - /System/Library/PrivateFrameworks/CoreParsec.framework/CoreParsec
+   - /System/Library/PrivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy
+-  - /System/Library/PrivateFrameworks/LighthouseBitacoraFramework.framework/LighthouseBitacoraFramework
+   - /System/Library/PrivateFrameworks/ManagedConfiguration.framework/ManagedConfiguration
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 193E5105-2277-383D-83F2-A724AE354397
+-  Functions: 864
+-  Symbols:   3206
+-  CStrings:  2173
++  UUID: 469BD85F-257D-30CF-BE7A-D65D08AF70E2
++  Functions: 722
++  Symbols:   2695
++  CStrings:  1803
+ 
+Symbols:
++ -[DESDecimalEncoder encodeDecimalData:forKey:withSchemas:errorOut:].cold.2
++ -[DESDecimalEncoder encodeDecimalData:forKey:withSchemas:errorOut:].cold.3
++ -[DESDecimalEncoder encodeDecimalData:forKey:withSchemas:errorOut:].cold.4
++ -[DESDecimalEncoder encodeDecimalData:forKey:withSchemas:errorOut:].cold.5
++ __ZNKSt9type_infoeqB8ne200100ERKS_
++ __ZNSt3__110__function12__value_funcIFddEED2B8ne200100Ev
++ __ZNSt3__125__throw_bad_function_callB8ne200100Ev
++ __ZnwmSt19__type_descriptor_t
++ _objc_msgSend$_setError
++ _objc_msgSend$getBytes:range:
++ _objc_msgSend$hasError
++ _objc_msgSend$position
++ _objc_msgSend$setPosition:
+- +[DESBitacoraEventManager _sendBitacoraEventForBundleID:event:identifiers:]
+- +[DESBitacoraEventManager _sendBitacoraEventForBundleID:event:identifiers:].cold.1
+- +[DESBitacoraEventManager _sendBitacoraEventForEvent:identifiers:]
+- +[DESBitacoraEventManager _sendBitacoraEventForEvent:identifiers:].cold.1
+- +[DESBitacoraEventManager allowEventForBundleID:]
+- +[DESBitacoraEventManager allowEventForBundleID:].cold.1
+- +[DESBitacoraEventManager initialize]
+- +[DESBitacoraEventManager initialize].cold.1
+- +[DESBitacoraEventManager sendEventActivityScheduled]
+- +[DESBitacoraEventManager sendEventTaskCompletedForBundleID:identifiers:error:]
+- +[DESBitacoraEventManager sendEventTaskFetchedForBundleID:identifiers:]
+- +[DESBitacoraEventManager sendEventTaskSchedulingFailedForBundleID:identifiers:error:]
+- +[DESBitacoraEventManager sendEventTaskSchedulingSucceededForBundleID:identifiers:]
+- +[DESBundleRegistry _extensionsWithEndpointName:]
+- +[DESBundleRegistry _extensionsWithEndpointName:].cold.1
+- +[DESBundleRegistry initialize]
+- +[DESBundleRegistry sharedInstance]
+- +[DESDodMLTaskResultContainer supportsSecureCoding]
+- +[DESInternalDodMLTask supportsSecureCoding]
+- +[DESRecordStore _getServiceProxyWithErrorHandler:block:]
+- +[DESRecordStorePolicyManager sharedInstance]
+- +[DESServiceAccess hasRecordAccessToBundleId:connection:error:]
+- +[DESServiceAccess hasRecordAccessToBundleId:connection:error:].cold.1
+- +[DESServiceAccess hasToolEntitlement:]
+- -[DESBundleRegistry .cxx_destruct]
+- -[DESBundleRegistry _init]
+- -[DESBundleRegistry allBundleIds]
+- -[DESBundleRegistry allFedStatsUnrestrictedBundleIds]
+- -[DESBundleRegistry allNonFedStatsUnrestrictedBundleIds]
+- -[DESBundleRegistry allPossibleUnrestrictedFedStatsIds]
+- -[DESBundleRegistry allUnrestrictedBundleIds]
+- -[DESBundleRegistry allUnrestrictedExtensionIds]
+- -[DESBundleRegistry containsBundleId:]
+- -[DESBundleRegistry init]
+- -[DESBundleRegistry pluginTypeForBundleId:]
+- -[DESDodMLMMappedTaskResult .cxx_destruct]
+- -[DESDodMLMMappedTaskResult dealloc]
+- -[DESDodMLMMappedTaskResult dealloc].cold.1
+- -[DESDodMLMMappedTaskResult description]
+- -[DESDodMLMMappedTaskResult initWithJSONResult:binaryResult:deferred:deferralURL:duration:]
+- -[DESDodMLMMappedTaskResult initWithJSONResult:sandboxManager:mmappedFile:duration:]
+- -[DESDodMLTaskResultContainer .cxx_destruct]
+- -[DESDodMLTaskResultContainer JSONResult]
+- -[DESDodMLTaskResultContainer binaryResultURL]
+- -[DESDodMLTaskResultContainer copyWithZone:]
+- -[DESDodMLTaskResultContainer description]
+- -[DESDodMLTaskResultContainer duration]
+- -[DESDodMLTaskResultContainer encodeWithCoder:]
+- -[DESDodMLTaskResultContainer initWithCoder:]
+- -[DESDodMLTaskResultContainer initWithJSONResult:binaryResultURL:sandboxExtension:duration:]
+- -[DESDodMLTaskResultContainer sandboxExtension]
+- -[DESDodMLTaskResultContainer taskResultWithError:]
+- -[DESDodMLTaskResultContainer taskResultWithError:].cold.1
+- -[DESDodMLTaskResultContainer taskResultWithError:].cold.2
+- -[DESDodMLTaskResultContainer taskResultWithError:].cold.3
+- -[DESInternalDodMLTask .cxx_destruct]
+- -[DESInternalDodMLTask baseURL]
+- -[DESInternalDodMLTask copyWithZone:]
+- -[DESInternalDodMLTask description]
+- -[DESInternalDodMLTask encodeWithCoder:]
+- -[DESInternalDodMLTask initWithCoder:]
+- -[DESInternalDodMLTask initWithRecipe:matchingRecordSet:baseURL:localIdentifier:recipePath:uploadTransport:]
+- -[DESInternalDodMLTask localeIdentifier]
+- -[DESInternalDodMLTask matchingRecordSet]
+- -[DESInternalDodMLTask recipe]
+- -[DESInternalDodMLTask testingRecipePath]
+- -[DESInternalDodMLTask uploadTransport]
+- -[DESRecipeEvaluationSession JSONResult]
+- -[DESRecipeEvaluationSession _initWithDodMLTask:]
+- -[DESRecipeEvaluationSession binaryResult]
+- -[DESRecipeEvaluationSession deferralURL]
+- -[DESRecipeEvaluationSession error]
+- -[DESRecipeEvaluationSession evaluationResult]
+- -[DESRecipeEvaluationSession requestedToStop]
+- -[DESRecipeEvaluationSession setActivity:]
+- -[DESRecipeEvaluationSession setRequestedToStop:]
+- -[DESRecipeEvaluationSession setTestingCompletionHandler:]
+- -[DESRecipeEvaluationSession setTestingRecipeAttachments:]
+- -[DESRecipeEvaluationSession setTestingRecipePath:]
+- -[DESRecipeEvaluationSession testingCompletionHandler]
+- -[DESRecipeEvaluationSession testingRecipeAttachments]
+- -[DESRecipeEvaluationSession testingRecipePath]
+- -[DESRecordSet _anyNativeRecordUUID]
+- -[DESRecordSet initWithNativeRecords:nativeRecordInfo:coreDuetEvents:]
+- -[DESRecordSet initWithNativeRecords:nativeRecordInfo:coreDuetEvents:predicate:dataFetcher:]
+- -[DESRecordStoreManager .cxx_destruct]
+- -[DESRecordStoreManager deleteAllSavedRecordsForBundleId:completion:]
+- -[DESRecordStoreManager deleteSavedRecordForBundleId:identfier:completion:]
+- -[DESRecordStoreManager fetchCoreDuetEventsForBundleId:completion:]
+- -[DESRecordStoreManager fetchNativeRecordDataForRecordUUID:bundleId:completion:]
+- -[DESRecordStoreManager fetchRecordSetForBundleId:completion:]
+- -[DESRecordStoreManager fetchRecordSetSynchronouslyForBundleId:error:]
+- -[DESRecordStoreManager fetchSavedRecordInfoForBundleId:completion:]
+- -[DESRecordStoreManager fetchSavedRecordInfoForRecordType:completion:]
+- -[DESRecordStoreManager init]
+- -[DESRecordStoreManager recordDirURLsForBundleId:]
+- -[DESRecordStoreManager saveCoreDuetEvent:completion:]
+- -[DESRecordStoreManager saveRecordForBundleId:data:recordInfo:completion:]
+- -[DESRecordStoreManager saveRecordForBundleId:data:recordInfo:completion:].cold.1
+- -[DESRecordStoreManager saveRecordToDirPath:data:recordInfo:error:]
+- -[DESRecordStoreManager saveRecordToDirPath:data:recordInfo:error:].cold.1
+- -[DESRecordStoreManager saveRecordToDirPath:data:recordInfo:error:].cold.2
+- -[DESRecordStorePolicyManager .cxx_destruct]
+- -[DESRecordStorePolicyManager arrayOfStringForPlugin:key:defaultValue:]
+- -[DESRecordStorePolicyManager coreDuetEventLimitForPluginID:]
+- -[DESRecordStorePolicyManager coreDuetEventQueryForPluginID:]
+- -[DESRecordStorePolicyManager coreDuetPredicateForPluginID:]
+- -[DESRecordStorePolicyManager daysToExpirationOfRecordsForPluginID:]
+- -[DESRecordStorePolicyManager initWithBundleRegistry:policyPathURL:]
+- -[DESRecordStorePolicyManager maximumNumberOfRecordsForPluginID:]
+- -[DESRecordStorePolicyManager policyForNSExtensionPluginID:]
+- -[DESRecordStorePolicyManager policyForNSExtensionPluginID:].cold.1
+- -[DESRecordStorePolicyManager policyForPluginID:]
+- -[DESRecordStorePolicyManager stringForPluginID:key:defaultValue:]
+- -[DESRecordStorePolicyManager supportedCoreDuetEventStreamNamesForPluginID:]
+- -[DESRecordStorePolicyManager supportedRecordTypesForPluginID:]
+- -[DESRecordStorePolicyManager unsignedIntegerForPluginID:key:defaultValue:]
+- GCC_except_table10
+- GCC_except_table21
+- OBJC_IVAR_$_PBDataReader._bytes
+- OBJC_IVAR_$_PBDataReader._error
+- OBJC_IVAR_$_PBDataReader._length
+- OBJC_IVAR_$_PBDataReader._pos
+- _AddRecordsForType
+- _AddRecordsForTypeWithUUIDs
+- _DESAmendedRecordInfo
+- _DESRecordStoreServiceName
+- _FindRecordTypeForRecordUUID
+- _MGGetProductType
+- _NSExtensionPointName
+- _OBJC_CLASS_$_DESBitacoraEventManager
+- _OBJC_CLASS_$_DESBundleRegistry
+- _OBJC_CLASS_$_DESDodMLMMappedTaskResult
+- _OBJC_CLASS_$_DESDodMLTaskResultContainer
+- _OBJC_CLASS_$_DESInternalDodMLTask
+- _OBJC_CLASS_$_DESRecordStoreManager
+- _OBJC_CLASS_$_DESRecordStorePolicyManager
+- _OBJC_CLASS_$_LBFEventManager
+- _OBJC_CLASS_$_LBFMLRuntimedEvent
+- _OBJC_CLASS_$_NSExtension
+- _OBJC_CLASS_$_NSURLComponents
+- _OBJC_CLASS_$_NSURLQueryItem
+- _OBJC_CLASS_$_NSXPCConnection
+- _OBJC_CLASS_$__DKEvent
+- _OBJC_CLASS_$__DKKnowledgeStore
+- _OBJC_IVAR_$_DESBundleRegistry._highMemoryExtensions
+- _OBJC_IVAR_$_DESBundleRegistry._lowMemoryExtensions
+- _OBJC_IVAR_$_DESBundleRegistry._restrictedExtensions
+- _OBJC_IVAR_$_DESDodMLMMappedTaskResult._mmappedFile
+- _OBJC_IVAR_$_DESDodMLMMappedTaskResult._sandboxManager
+- _OBJC_IVAR_$_DESDodMLTaskResultContainer._JSONResult
+- _OBJC_IVAR_$_DESDodMLTaskResultContainer._binaryResultURL
+- _OBJC_IVAR_$_DESDodMLTaskResultContainer._duration
+- _OBJC_IVAR_$_DESDodMLTaskResultContainer._sandboxExtension
+- _OBJC_IVAR_$_DESInternalDodMLTask._baseURL
+- _OBJC_IVAR_$_DESInternalDodMLTask._localeIdentifier
+- _OBJC_IVAR_$_DESInternalDodMLTask._matchingRecordSet
+- _OBJC_IVAR_$_DESInternalDodMLTask._recipe
+- _OBJC_IVAR_$_DESInternalDodMLTask._testingRecipePath
+- _OBJC_IVAR_$_DESInternalDodMLTask._uploadTransport
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._JSONResult
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._binaryResult
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._error
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._evaluationResult
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._requestedToStop
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._testingCompletionHandler
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._testingRecipeAttachments
+- _OBJC_IVAR_$_DESRecipeEvaluationSession._testingRecipePath
+- _OBJC_IVAR_$_DESRecordSet._dataFetcher
+- _OBJC_IVAR_$_DESRecordStoreManager._identifierStore
+- _OBJC_IVAR_$_DESRecordStoreManager._policyManager
+- _OBJC_IVAR_$_DESRecordStoreManager._queue
+- _OBJC_IVAR_$_DESRecordStorePolicyManager._bundleRegistry
+- _OBJC_IVAR_$_DESRecordStorePolicyManager._policyPathURL
+- _OBJC_METACLASS_$_DESBitacoraEventManager
+- _OBJC_METACLASS_$_DESBundleRegistry
+- _OBJC_METACLASS_$_DESDodMLMMappedTaskResult
+- _OBJC_METACLASS_$_DESDodMLTaskResultContainer
+- _OBJC_METACLASS_$_DESInternalDodMLTask
+- _OBJC_METACLASS_$_DESRecordStoreManager
+- _OBJC_METACLASS_$_DESRecordStorePolicyManager
+- _RecordDataForUUID
+- _RecordInfoForUUID
+- __OBJC_$_CLASS_METHODS_DESBitacoraEventManager
+- __OBJC_$_CLASS_METHODS_DESBundleRegistry
+- __OBJC_$_CLASS_METHODS_DESDodMLTaskResultContainer
+- __OBJC_$_CLASS_METHODS_DESInternalDodMLTask
+- __OBJC_$_CLASS_METHODS_DESRecordStore
+- __OBJC_$_CLASS_METHODS_DESRecordStorePolicyManager
+- __OBJC_$_CLASS_PROP_LIST_DESDodMLTaskResultContainer
+- __OBJC_$_CLASS_PROP_LIST_DESInternalDodMLTask
+- __OBJC_$_INSTANCE_METHODS_DESBundleRegistry
+- __OBJC_$_INSTANCE_METHODS_DESDodMLMMappedTaskResult
+- __OBJC_$_INSTANCE_METHODS_DESDodMLTaskResultContainer
+- __OBJC_$_INSTANCE_METHODS_DESInternalDodMLTask
+- __OBJC_$_INSTANCE_METHODS_DESRecordStoreManager
+- __OBJC_$_INSTANCE_METHODS_DESRecordStorePolicyManager
+- __OBJC_$_INSTANCE_VARIABLES_DESBundleRegistry
+- __OBJC_$_INSTANCE_VARIABLES_DESDodMLMMappedTaskResult
+- __OBJC_$_INSTANCE_VARIABLES_DESDodMLTaskResultContainer
+- __OBJC_$_INSTANCE_VARIABLES_DESInternalDodMLTask
+- __OBJC_$_INSTANCE_VARIABLES_DESRecordStoreManager
+- __OBJC_$_INSTANCE_VARIABLES_DESRecordStorePolicyManager
+- __OBJC_$_PROP_LIST_DESBundleRegistry
+- __OBJC_$_PROP_LIST_DESDodMLTaskResultContainer
+- __OBJC_$_PROP_LIST_DESInternalDodMLTask
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_DESBundleRegistryManaging
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_DESRecordStoreService
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DESBundleRegistryManaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_DESBundleRegistryManaging
+- __OBJC_$_PROTOCOL_METHOD_TYPES_DESRecordStoreService
+- __OBJC_$_PROTOCOL_REFS_DESBundleRegistryManaging
+- __OBJC_$_PROTOCOL_REFS_DESRecordStoreService
+- __OBJC_CLASS_PROTOCOLS_$_DESBundleRegistry
+- __OBJC_CLASS_PROTOCOLS_$_DESDodMLTaskResultContainer
+- __OBJC_CLASS_PROTOCOLS_$_DESInternalDodMLTask
+- __OBJC_CLASS_RO_$_DESBitacoraEventManager
+- __OBJC_CLASS_RO_$_DESBundleRegistry
+- __OBJC_CLASS_RO_$_DESDodMLMMappedTaskResult
+- __OBJC_CLASS_RO_$_DESDodMLTaskResultContainer
+- __OBJC_CLASS_RO_$_DESInternalDodMLTask
+- __OBJC_CLASS_RO_$_DESRecordStoreManager
+- __OBJC_CLASS_RO_$_DESRecordStorePolicyManager
+- __OBJC_LABEL_PROTOCOL_$_DESBundleRegistryManaging
+- __OBJC_LABEL_PROTOCOL_$_DESRecordStoreService
+- __OBJC_METACLASS_RO_$_DESBitacoraEventManager
+- __OBJC_METACLASS_RO_$_DESBundleRegistry
+- __OBJC_METACLASS_RO_$_DESDodMLMMappedTaskResult
+- __OBJC_METACLASS_RO_$_DESDodMLTaskResultContainer
+- __OBJC_METACLASS_RO_$_DESInternalDodMLTask
+- __OBJC_METACLASS_RO_$_DESRecordStoreManager
+- __OBJC_METACLASS_RO_$_DESRecordStorePolicyManager
+- __OBJC_PROTOCOL_$_DESBundleRegistryManaging
+- __OBJC_PROTOCOL_$_DESRecordStoreService
+- __OBJC_PROTOCOL_REFERENCE_$_DESRecordStoreService
+- __ZNKSt9type_infoeqB8ne190102ERKS_
+- __ZNSt3__110__function12__value_funcIFddEED2B8ne190102Ev
+- __ZNSt3__125__throw_bad_function_callB8ne190102Ev
+- __Znwm
+- ___41-[DESRecipeEvaluationSession deferralURL]_block_invoke
+- ___41-[DESRecipeEvaluationSession deferralURL]_block_invoke_2
+- ___45+[DESRecordStorePolicyManager sharedInstance]_block_invoke
+- ___49+[DESBitacoraEventManager allowEventForBundleID:]_block_invoke
+- ___54-[DESRecordStoreManager saveCoreDuetEvent:completion:]_block_invoke
+- ___57+[DESRecordStore _getServiceProxyWithErrorHandler:block:]_block_invoke
+- ___57+[DESRecordStore _getServiceProxyWithErrorHandler:block:]_block_invoke_2
+- ___62-[DESRecordStoreManager fetchRecordSetForBundleId:completion:]_block_invoke
+- ___67-[DESRecordStoreManager fetchCoreDuetEventsForBundleId:completion:]_block_invoke
+- ___67-[DESRecordStoreManager fetchCoreDuetEventsForBundleId:completion:]_block_invoke.cold.1
+- ___68-[DESRecordStoreManager fetchSavedRecordInfoForBundleId:completion:]_block_invoke
+- ___70-[DESRecordSet initWithNativeRecords:nativeRecordInfo:coreDuetEvents:]_block_invoke
+- ___70-[DESRecordStoreManager fetchRecordSetSynchronouslyForBundleId:error:]_block_invoke
+- ___70-[DESRecordStoreManager fetchRecordSetSynchronouslyForBundleId:error:]_block_invoke.cold.1
+- ___FindRecordTypeForRecordUUID_block_invoke
+- ___GarbageCollectOldRecords_block_invoke_2
+- ___block_descriptor_32_e27_q24?0"NSDate"8"NSDate"16l
+- ___block_descriptor_40_e8_32s_e22_v32?0"NSURL"8Q16^B24ls32l8
+- ___block_descriptor_40_e8_32s_e28_"NSData"24?0"NSUUID"8^16ls32l8
+- ___block_descriptor_40_e8_32s_e32_v32?0"NSString"8"NSSet"16^B24ls32l8
+- ___block_descriptor_48_e8_32bs_e20_v20?0B8"NSError"12ls32l8
+- ___block_descriptor_48_e8_32s40bs_e17_v16?0"NSError"8ls32l8s40l8
+- ___block_descriptor_48_e8_32s40bs_e63_v40?0"NSDictionary"8"NSDictionary"16"NSArray"24"NSError"32ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e32_v32?0"NSString"8"NSSet"16^B24ls32l8r40l8
+- ___block_descriptor_56_e8_32s40s48bs_e29_v24?0"NSArray"8"NSError"16ls48l8s32l8s40l8
+- ___block_descriptor_64_e8_32s40s48bs_e30_v24?0"NSObject"8"NSError"16ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48r56r_e34_v24?0"DESRecordSet"8"NSError"16lr48l8s32l8r56l8s40l8
+- ___block_literal_global.35
+- __os_signpost_emit_with_name_impl
+- _bitacoraManager
+- _dispatch_queue_attr_make_with_autorelease_frequency
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_time
+- _getpid
+- _kCoreEventMaxLimit
+- _kHighMemoryExtensionPointName
+- _kLowMemoryExtensionPointName
+- _kRecordRetentionDaysToExpiration
+- _kRecordRetentionMaxRecordCount
+- _kRestrictedExtensionPointName
+- _objc_msgSend$URL
+- _objc_msgSend$URLPathAllowedCharacterSet
+- _objc_msgSend$_extensionsWithEndpointName:
+- _objc_msgSend$_init
+- _objc_msgSend$_sendBitacoraEventForBundleID:event:identifiers:
+- _objc_msgSend$_sendBitacoraEventForEvent:identifiers:
+- _objc_msgSend$absoluteString
+- _objc_msgSend$addMLRuntimedEvent:identifiers:error:
+- _objc_msgSend$addObjectsFromArray:
+- _objc_msgSend$allObjects
+- _objc_msgSend$allPossibleUnrestrictedFedStatsIds
+- _objc_msgSend$allUnrestrictedBundleIds
+- _objc_msgSend$allUnrestrictedExtensionIds
+- _objc_msgSend$appendString:
+- _objc_msgSend$arrayOfStringForPlugin:key:defaultValue:
+- _objc_msgSend$arrayWithArray:
+- _objc_msgSend$baseURL
+- _objc_msgSend$characterAtIndex:
+- _objc_msgSend$consumeExtensionsWithError:
+- _objc_msgSend$containsBundleId:
+- _objc_msgSend$containsValueForKey:
+- _objc_msgSend$coreDuetEventQueryForPluginID:
+- _objc_msgSend$dateWithTimeIntervalSinceNow:
+- _objc_msgSend$daysToExpirationOfRecordsForPluginID:
+- _objc_msgSend$decodeDoubleForKey:
+- _objc_msgSend$dictionaryWithContentsOfURL:error:
+- _objc_msgSend$encodeDouble:forKey:
+- _objc_msgSend$enumerateObjectsUsingBlock:
+- _objc_msgSend$enumeratorAtPath:
+- _objc_msgSend$executeQuery:responseQueue:withCompletion:
+- _objc_msgSend$extensionsWithMatchingAttributes:error:
+- _objc_msgSend$fetchCoreDuetEventsForBundleId:completion:
+- _objc_msgSend$fetchRecordSetForBundleId:completion:
+- _objc_msgSend$fetchSavedRecordInfoForBundleId:completion:
+- _objc_msgSend$fileExistsAtPath:
+- _objc_msgSend$fileURL
+- _objc_msgSend$hasToolEntitlement:
+- _objc_msgSend$identifierForBundleId:
+- _objc_msgSend$initWithBundleRegistry:policyPathURL:
+- _objc_msgSend$initWithExtensions:
+- _objc_msgSend$initWithJSONResult:binaryResult:deferred:deferralURL:duration:
+- _objc_msgSend$initWithJSONResult:binaryResultURL:sandboxExtension:duration:
+- _objc_msgSend$initWithJSONResult:sandboxManager:mmappedFile:duration:
+- _objc_msgSend$initWithNativeRecords:nativeRecordInfo:coreDuetEvents:
+- _objc_msgSend$initWithNativeRecords:nativeRecordInfo:coreDuetEvents:predicate:dataFetcher:
+- _objc_msgSend$initWithRecipe:matchingRecordSet:baseURL:localIdentifier:recipePath:uploadTransport:
+- _objc_msgSend$initWithScheduleStatus:
+- _objc_msgSend$initWithServiceName:
+- _objc_msgSend$initWithTaskCompleted:error:
+- _objc_msgSend$initWithTaskFetched:error:
+- _objc_msgSend$initWithTaskScheduled:error:
+- _objc_msgSend$initWithURL:
+- _objc_msgSend$initWithUUIDString:
+- _objc_msgSend$invalidate
+- _objc_msgSend$isFileURL
+- _objc_msgSend$isValidJSONObject:
+- _objc_msgSend$knowledgeStore
+- _objc_msgSend$matchingRecordSet
+- _objc_msgSend$maximumNumberOfRecordsForPluginID:
+- _objc_msgSend$metadata
+- _objc_msgSend$nativeRecords
+- _objc_msgSend$policyForNSExtensionPluginID:
+- _objc_msgSend$policyForPluginID:
+- _objc_msgSend$processIdentifier
+- _objc_msgSend$queryItemWithName:value:
+- _objc_msgSend$recipe
+- _objc_msgSend$remoteObjectProxyWithErrorHandler:
+- _objc_msgSend$removeItemAtURL:error:
+- _objc_msgSend$resume
+- _objc_msgSend$saveObjects:responseQueue:withCompletion:
+- _objc_msgSend$saveRecordToDirPath:data:recordInfo:error:
+- _objc_msgSend$sendEventWriteRecordForBundleID:
+- _objc_msgSend$setClasses:forSelector:argumentIndex:ofReply:
+- _objc_msgSend$setHost:
+- _objc_msgSend$setMetadata:
+- _objc_msgSend$setPath:
+- _objc_msgSend$setQueryItems:
+- _objc_msgSend$setRemoteObjectInterface:
+- _objc_msgSend$setScheme:
+- _objc_msgSend$sharedInstance
+- _objc_msgSend$skipDescendants
+- _objc_msgSend$sortUsingComparator:
+- _objc_msgSend$stream
+- _objc_msgSend$stringByAddingPercentEncodingWithAllowedCharacters:
+- _objc_msgSend$stringForPluginID:key:defaultValue:
+- _objc_msgSend$supportedRecordTypesForPluginID:
+- _objc_msgSend$testingRecipePath
+- _objc_msgSend$timeIntervalSinceReferenceDate
+- _objc_msgSend$unsignedIntegerForPluginID:key:defaultValue:
+- _objc_msgSend$uploadTransport
+- _os_signpost_enabled
+- _os_signpost_id_generate
+- _sDESCoreDuetEventLimitKey
+- _sDESCoreDuetEventPredicateKey
+- _sDESCoreDuetSupportedEventStreamNamesKey
+- _sDESDaysToExpirationOfRecordsKey
+- _sDESMaximumNumberOfRecordsKey
+- _sDESSupportedRecordTypesKey
+- _sSharedInstance
+- _sharedInstance.onceToken
+- _sharedInstance.singleton
+CStrings:
++ "T@\"NSObject<OS_xpc_object>\",R,N,V_activity"
++ "_setError"
++ "getBytes:range:"
++ "hasError"
++ "position"
++ "setPosition:"
+- "$device_os"
+- "$device_type"
+- "$dodml_dataset"
+- "$dodml_device_identifier"
+- "$record_type"
+- "%.0f"
+- "%@(%@, %@, %@, %@, %@, %@)"
+- "%@(binaryResult.length=%lu, binaryResultURL=%@, JSONResult=%@)"
+- "%@(binaryResultURL=%@, JSONResult=%@, sandboxExtension=%@, duration=%.1f)"
+- "%@.plist"
+- "%@_%lu"
+- "+"
+- "/System/Library/DistributedEvaluation/DESRecordStorePolicies"
+- "/resume"
+- "@\"DESBundleRegistry\""
+- "@\"DESDeviceIdentifierStore\""
+- "@\"DESMMappedFile\""
+- "@\"DESRecordStorePolicyManager\""
+- "@\"DESSandBoxManager\""
+- "@\"DESUploadTransport\""
+- "@\"NSArray\"16@0:8"
+- "@\"NSData\"24@?0@\"NSUUID\"8^@16"
+- "@\"NSError\""
+- "@\"NSSet\""
+- "@48@0:8@16@24@32d40"
+- "@56@0:8@16@24@32@40@?48"
+- "@64@0:8@16@24@32@40@48@56"
+- "@?"
+- "@?16@0:8"
+- "@unionOfObjects.identifier"
+- "B24@0:8@\"NSString\"16"
+- "B40@0:8@16@24^@32"
+- "BinaryResultURL"
+- "Could not delete %@: %@"
+- "Could not read records for %@: %@"
+- "DES identifier: %{private}@, dataset: %@"
+- "DESBitacoraEventManager"
+- "DESBundleRegistry"
+- "DESBundleRegistryManaging"
+- "DESCoreDuetEventLimit"
+- "DESCoreDuetEventPredicate"
+- "DESCoreDuetSupportedEventStreamNames"
+- "DESDaysToExpirationOfRecordsKey"
+- "DESDodMLMMappedTaskResult"
+- "DESDodMLTaskResultContainer"
+- "DESInternalDodMLTask"
+- "DESMaximumNumberOfRecordsKey"
+- "DESRecordStoreManager"
+- "DESRecordStorePolicyManager"
+- "DESRecordStoreService"
+- "DESSupportedRecordTypes"
+- "DeleteAllRecords"
+- "DeleteRecord"
+- "Deleting all records."
+- "Deleting record."
+- "Duration"
+- "Fail to consume sandbox extension=%@ with errror=%@."
+- "Fail to discover extensions for endpoint=%@ with error=%@"
+- "Fail to fetch records for %@"
+- "Fail to load policy from plist=%@, error=%@"
+- "Fail to locate plugin."
+- "Fail to mmap file."
+- "Fail to mmap file=%@ with errror=%@."
+- "Fail to remove %@ with error=%@"
+- "Fail to saveRecordForBundleId with bundleId=%@, error=%@"
+- "Failed to fetch CoreDuet events %@"
+- "Failed to send Bitacora event: addMLRuntimedEvent with error=%@"
+- "Fetch %lu DES records for %@"
+- "FetchCoreDuetEvents"
+- "Fetching CoreDuet events."
+- "Fetching records for %@"
+- "Finished deleting all records."
+- "Finished deleting record."
+- "Finished fetching CoreDuet events."
+- "Finished saving core duet event."
+- "Finished saving record."
+- "Found extensions=%@"
+- "Got response from %@"
+- "Ignore unknown element value type %@, key=%@, plugin=%@."
+- "Ignore unknown value type %@, key=%@, plugin=%@."
+- "Ignore unknown value type=%@, key=%@, plugin=%@."
+- "InfoKeys-%@"
+- "LighthouseBitacoraFramework.framework is not loaded."
+- "Missing  sandboxExtension."
+- "Missing entitlement; programmer error!"
+- "Missing sandboxExtension."
+- "No record access to the bundle=%@"
+- "Q24@0:8@16"
+- "Q40@0:8@16@24Q32"
+- "Record info cannot be converted to JSON"
+- "Record info cannot be converted to JSON: %@"
+- "RecordSaving"
+- "Running CoreDuet event query %@ for %@"
+- "SandboxExtension"
+- "SaveCoreDuetEvent"
+- "Saving Record."
+- "Saving core duet event."
+- "Skipping bad record name: %@"
+- "Skipping unparsable record: %@, %@"
+- "Skipping unreadable record: %@, %@"
+- "T@\"DESUploadTransport\",R,N,V_uploadTransport"
+- "T@\"NSArray\",C,N,V_testingRecipeAttachments"
+- "T@\"NSData\",R,C,N,V_binaryResult"
+- "T@\"NSDictionary\",R,C,N,V_JSONResult"
+- "T@\"NSError\",R,C,N,V_error"
+- "T@\"NSObject<OS_xpc_object>\",&,N,V_activity"
+- "T@\"NSString\",C,N,V_testingRecipePath"
+- "T@\"NSString\",R,N,V_localeIdentifier"
+- "T@\"NSString\",R,N,V_sandboxExtension"
+- "T@\"NSString\",R,N,V_testingRecipePath"
+- "T@\"NSURL\",R,N,V_baseURL"
+- "T@\"NSURL\",R,N,V_binaryResultURL"
+- "T@?,C,N,V_testingCompletionHandler"
+- "TB,N,V_requestedToStop"
+- "Telemetry is prohibited for plugin: %@"
+- "The connection does not exist"
+- "Timeout while fetching DES records for %@"
+- "Tq,R,N,V_evaluationResult"
+- "URL"
+- "URLPathAllowedCharacterSet"
+- "Unable to delete failed record data: %@"
+- "Unable to read record: %@"
+- "Unreadable record: %@, %@"
+- "Using custom info key/value pairs set by device owner: %@"
+- "_anyNativeRecordUUID"
+- "_binaryResultURL"
+- "_bundleRegistry"
+- "_dataFetcher"
+- "_error"
+- "_evaluationResult"
+- "_extensionsWithEndpointName:"
+- "_getServiceProxyWithErrorHandler:block:"
+- "_highMemoryExtensions"
+- "_identifierStore"
+- "_init"
+- "_initWithDodMLTask:"
+- "_lowMemoryExtensions"
+- "_mmappedFile"
+- "_policyManager"
+- "_policyPathURL"
+- "_requestedToStop"
+- "_restrictedExtensions"
+- "_sandboxExtension"
+- "_sandboxManager"
+- "_sendBitacoraEventForBundleID:event:identifiers:"
+- "_sendBitacoraEventForEvent:identifiers:"
+- "_testingCompletionHandler"
+- "_testingRecipeAttachments"
+- "_testingRecipePath"
+- "_uploadTransport"
+- "absoluteString"
+- "addMLRuntimedEvent:identifiers:error:"
+- "addObjectsFromArray:"
+- "allBundleIds"
+- "allFedStatsUnrestrictedBundleIds"
+- "allNonFedStatsUnrestrictedBundleIds"
+- "allObjects"
+- "allPossibleUnrestrictedFedStatsIds"
+- "allUnrestrictedBundleIds"
+- "allUnrestrictedExtensionIds"
+- "appendString:"
+- "arrayOfStringForPlugin:key:defaultValue:"
+- "arrayWithArray:"
+- "attachment"
+- "baseURL"
+- "binaryResultURL"
+- "characterAtIndex:"
+- "com.apple.mlruntime.extension-point-high"
+- "com.apple.mlruntime.extension-point-low"
+- "com.apple.mlruntime.extension-point-restricted"
+- "com.apple.private.DistributedEvaluation.RecordAccess-"
+- "com.apple.private.des_tool"
+- "com.apple.siri-distributed-evaluation"
+- "containsBundleId:"
+- "containsValueForKey:"
+- "coreDuetEventLimitForPluginID:"
+- "coreDuetEventQueryForPluginID:"
+- "coreDuetPredicateForPluginID:"
+- "dateWithTimeIntervalSinceNow:"
+- "daysToExpirationOfRecordsForPluginID:"
+- "debugInfoStringForPluginID:completion:"
+- "decodeDoubleForKey:"
+- "deferralDate"
+- "deleteAllSavedRecordsForBundleId:completion:"
+- "deleteSavedRecordForBundleId:identfier:completion:"
+- "dev"
+- "dictionaryWithContentsOfURL:error:"
+- "dodml"
+- "dodml://evaluation_session/resume?"
+- "encodeDouble:forKey:"
+- "enumerateObjectsUsingBlock:"
+- "enumeratorAtPath:"
+- "evaluationResult"
+- "evaluation_session"
+- "executeQuery:responseQueue:withCompletion:"
+- "extensionsWithMatchingAttributes:error:"
+- "fetchCoreDuetEventsForBundleId:completion:"
+- "fetchInstalledBundlesIdsWithCompletion:"
+- "fetchNativeRecordDataForRecordUUID:bundleId:completion:"
+- "fetchRecordSetForBundleId:completion:"
+- "fetchRecordSetSynchronouslyForBundleId:error:"
+- "fetchRecordsForBundleId:completion:"
+- "fetchSavedRecordInfoForBundleId:completion:"
+- "fetchSavedRecordInfoForRecordType:completion:"
+- "fetchTelemetryForBundleId:completion:"
+- "fileExistsAtPath:"
+- "hasRecordAccessToBundleId:connection:error:"
+- "hasToolEntitlement:"
+- "initWithBundleRegistry:policyPathURL:"
+- "initWithJSONResult:binaryResultURL:sandboxExtension:duration:"
+- "initWithJSONResult:sandboxManager:mmappedFile:duration:"
+- "initWithNativeRecords:nativeRecordInfo:coreDuetEvents:"
+- "initWithNativeRecords:nativeRecordInfo:coreDuetEvents:predicate:dataFetcher:"
+- "initWithRecipe:matchingRecordSet:baseURL:localIdentifier:recipePath:uploadTransport:"
+- "initWithScheduleStatus:"
+- "initWithServiceName:"
+- "initWithTaskCompleted:error:"
+- "initWithTaskFetched:error:"
+- "initWithTaskScheduled:error:"
+- "initWithUUIDString:"
+- "invalid arguments passed to service; programmer error!"
+- "invalidate"
+- "isFileURL"
+- "isValidJSONObject:"
+- "knowledgeStore"
+- "maximumNumberOfRecordsForPluginID:"
+- "pluginTypeForBundleId:"
+- "policyForNSExtensionPluginID:"
+- "policyForPluginID:"
+- "processIdentifier"
+- "q24@0:8@\"NSString\"16"
+- "q24@0:8@16"
+- "q24@?0@\"NSDate\"8@\"NSDate\"16"
+- "queryItemWithName:value:"
+- "recipePath"
+- "recipeType"
+- "recordDirURLsForBundleId:"
+- "remoteObjectProxyWithErrorHandler:"
+- "removeItemAtURL:error:"
+- "requestedToStop"
+- "resume"
+- "runEvaluationForBundleId:recipePath:recordUUIDs:attachments:sandboxExtensions:completion:"
+- "runLiveEvaluationForAllBundlesWithBaseURL:localeIdentifier:completion:"
+- "runLiveEvaluationForBundleId:taskSource:baseURL:localeIdentifier:completion:"
+- "sandboxExtension"
+- "saveObjects:responseQueue:withCompletion:"
+- "saveRecordForBundleId:data:recordInfo:completion:"
+- "saveRecordToDirPath:data:recordInfo:error:"
+- "sendEventActivityScheduled"
+- "sendEventTaskCompletedForBundleID:identifiers:error:"
+- "sendEventTaskFetchedForBundleID:identifiers:"
+- "sendEventTaskSchedulingFailedForBundleID:identifiers:error:"
+- "sendEventTaskSchedulingSucceededForBundleID:identifiers:"
+- "setActivity:"
+- "setClasses:forSelector:argumentIndex:ofReply:"
+- "setHost:"
+- "setMetadata:"
+- "setPath:"
+- "setQueryItems:"
+- "setRemoteObjectInterface:"
+- "setRequestedToStop:"
+- "setScheme:"
+- "setTestingCompletionHandler:"
+- "setTestingRecipeAttachments:"
+- "setTestingRecipePath:"
+- "setValue:forInfoKey:bundleID:completion:"
+- "sharedInstance"
+- "skipDescendants"
+- "sortUsingComparator:"
+- "stream"
+- "stringByAddingPercentEncodingWithAllowedCharacters:"
+- "stringForPluginID:key:defaultValue:"
+- "supportedCoreDuetEventStreamNamesForPluginID:"
+- "supportedRecordTypesForPluginID:"
+- "taskResultWithError:"
+- "testingCompletionHandler"
+- "testingRecipeAttachments"
+- "testingRecipePath"
+- "timeIntervalSinceReferenceDate"
+- "train"
+- "unsignedIntegerForPluginID:key:defaultValue:"
+- "uploadTransport"
+- "v16@?0@\"NSError\"8"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@?<v@?>16"
+- "v24@0:8@?<v@?@\"NSArray\"@\"NSError\">16"
+- "v24@?0@\"DESRecordSet\"8@\"NSError\"16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"NSObject\"8@\"NSError\"16"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSDictionary\"@\"NSArray\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSDictionary\"@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSError\">24"
+- "v32@0:8@\"NSString\"16@?<v@?@\"NSString\">24"
+- "v32@0:8@\"_DKEvent\"16@?<v@?B@\"NSError\">24"
+- "v32@0:8@?16@?24"
+- "v32@?0@\"NSString\"8@\"NSSet\"16^B24"
+- "v32@?0@\"NSURL\"8Q16^B24"
+- "v40@0:8@\"NSString\"16@\"NSUUID\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSURL\"16@\"NSString\"24@?<v@?@\"NSError\">32"
+- "v40@0:8@\"NSUUID\"16@\"NSString\"24@?<v@?@\"NSData\"@\"NSError\">32"
+- "v40@?0@\"NSDictionary\"8@\"NSDictionary\"16@\"NSArray\"24@\"NSError\"32"
+- "v48@0:8@\"NSString\"16@\"NSData\"24@\"NSDictionary\"32@?<v@?@\"NSUUID\"@\"NSError\">40"
+- "v48@0:8@\"NSString\"16@\"NSString\"24@\"NSString\"32@?<v@?@\"NSDictionary\">40"
+- "v48@0:8@16@24@32@?40"
+- "v56@0:8@\"NSString\"16q24@\"NSURL\"32@\"NSString\"40@?<v@?@@\"NSError\">48"
+- "v56@0:8@16q24@32@40@?48"
+- "v64@0:8@\"NSString\"16@\"NSString\"24@\"NSArray\"32@\"NSArray\"40@\"NSArray\"48@?<v@?@\"NSDictionary\"@\"NSData\"@\"NSURL\"@\"NSError\">56"
+- "v64@0:8@16@24@32@40@48@?56"
+- "wakeUpWithCompletion:"
+
+```
