@@ -1,0 +1,48 @@
+## com.apple.iokit.IOSkywalkFamily
+
+> `com.apple.iokit.IOSkywalkFamily`
+
+```diff
+
+-521.120.4.0.0
+-  __TEXT.__cstring: 0x1b0e
+-  __TEXT.__const: 0xe30
+-  __TEXT_EXEC.__text: 0x37f0c
++544.0.4.0.0
++  __TEXT.__cstring: 0x1b1a
++  __TEXT.__const: 0xe70
++  __TEXT_EXEC.__text: 0x39658
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xe8
+   __DATA.__common: 0x6b0
+   __DATA.__bss: 0x9c
+-  __DATA_CONST.__auth_got: 0xa30
++  __DATA_CONST.__auth_got: 0xa88
+   __DATA_CONST.__got: 0x168
+   __DATA_CONST.__auth_ptr: 0x10
+   __DATA_CONST.__mod_init_func: 0x130
+   __DATA_CONST.__mod_term_func: 0x130
+-  __DATA_CONST.__const: 0x8c88
++  __DATA_CONST.__const: 0x8ca8
+   __DATA_CONST.__kalloc_type: 0x15c0
+   __DATA_CONST.__kalloc_var: 0x780
+-  UUID: 6B78C931-6CD8-3F20-8EDF-5D96EC7E4C76
+-  Functions: 1885
++  UUID: 6C909067-DCFD-3AB3-BDC0-664E4A5DF6FF
++  Functions: 1901
+   Symbols:   0
+-  CStrings:  283
++  CStrings:  284
+ 
+CStrings:
++ "121"
++ "1211111212221212111111121112"
++ "121111121222121211111112111212221111"
++ "12111112122212121111111211121222111111121222222222222"
++ "121111121222121211111112111212221111111212222222222222222222222"
+- "12111112122212121111111112"
+- "1211111212221212111111111212221111"
+- "121111121222121211111111121222111111121222222222222"
+- "1211111212221212111111111212221111111212222222222222222222222"
+
+```

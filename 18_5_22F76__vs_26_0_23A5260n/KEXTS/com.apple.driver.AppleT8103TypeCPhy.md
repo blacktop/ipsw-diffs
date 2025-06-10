@@ -1,0 +1,36 @@
+## com.apple.driver.AppleT8103TypeCPhy
+
+> `com.apple.driver.AppleT8103TypeCPhy`
+
+```diff
+
+-244.100.7.0.0
++266.0.2.0.1
+   __TEXT.__const: 0x1a0
+-  __TEXT.__cstring: 0xa571
++  __TEXT.__cstring: 0xa577
+   __TEXT.__os_log: 0xe5f4
+-  __TEXT_EXEC.__text: 0x4aab0
++  __TEXT_EXEC.__text: 0x4ad3c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xc8
+   __DATA.__common: 0x38
+
+   __DATA_CONST.__got: 0x48
+   __DATA_CONST.__mod_init_func: 0x8
+   __DATA_CONST.__mod_term_func: 0x8
+-  __DATA_CONST.__const: 0x960
++  __DATA_CONST.__const: 0x970
+   __DATA_CONST.__kalloc_type: 0x40
+-  UUID: A881D1EA-3A98-31CC-9D16-3237449DF13D
+-  Functions: 114
++  UUID: BDC87EA0-CCFC-371D-8BAB-730E63FEF9FF
++  Functions: 116
+   Symbols:   0
+   CStrings:  1073
+ 
+CStrings:
++ "121111121222121211111112121212121112111122211111111111111111111111111111111111111111111111111111111112222222222222222222111222"
+- "121111121222121211111112121211121122211111111111111111111111111111111111111111111111111111111112222222222222222222111222"
+
+```
