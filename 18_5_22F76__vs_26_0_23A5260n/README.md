@@ -305,6 +305,10 @@
 
 </details>
 
+### KDKs
+
+- [KDK DIFF](KDK.md)
+
 ## MachO
 
 ### 🆕 NEW (291)
@@ -6596,12 +6600,12 @@
 
 ### ❌ Removed (6)
 
-- `Domain/AdAttributionKit.plist`
-- `Domain/AdaptiveMusic.plist`
 - `Domain/SiriInferredHelpfulness.plist`
-- `Domain/SiriTurnRestatement.plist`
-- `Domain/HumanUnderstanding.plist`
 - `Domain/MomentsTesting.plist`
+- `Domain/SiriTurnRestatement.plist`
+- `Domain/AdaptiveMusic.plist`
+- `Domain/HumanUnderstanding.plist`
+- `Domain/AdAttributionKit.plist`
 
 ### ⬆️ Updated (212)
 

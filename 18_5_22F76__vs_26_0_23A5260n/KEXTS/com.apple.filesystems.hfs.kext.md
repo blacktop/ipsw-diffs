@@ -60,7 +60,7 @@ Functions:
 ~ sub_fffffff009f16e68 -> sub_fffffff00a2c2d60 : 788 -> 784
 ~ sub_fffffff009f1742c -> sub_fffffff00a2c3320 : 648 -> 644
 ~ sub_fffffff009f176b4 -> sub_fffffff00a2c35a4 : 4576 -> 4568
-~ _hfs_flush_invalid_ranges : 1020 -> 1004
+~ _hfs_flush_invalid_ranges -> sub_fffffff00a2c477c : 1020 -> 1004
 ~ sub_fffffff009f18db8 -> sub_fffffff00a2c4c90 : 152 -> 148
 ~ _MoveExtents : 1140 -> 1132
 ~ sub_fffffff009f19b60 -> sub_fffffff00a2c5a2c : 360 -> 388
@@ -77,7 +77,7 @@ Functions:
 ~ sub_fffffff009f22ff8 -> sub_fffffff00a2cf2bc : 132 -> 180
 ~ _hfs_vnop_blockmap : 1812 -> 1836
 ~ sub_fffffff009f23ed8 -> sub_fffffff00a2d01e4 : 856 -> 852
-~ _hfs_flush_invalid_ranges -> sub_fffffff00a2d223c : 700 -> 696
+~ _hfs_flush_invalid_ranges : 700 -> 696
 ~ _ReplaceBTreeRecord : 376 -> 372
 ~ sub_fffffff009f26774 -> sub_fffffff00a2d2a74 : 536 -> 560
 ~ _catrec_update : 1240 -> 1184
