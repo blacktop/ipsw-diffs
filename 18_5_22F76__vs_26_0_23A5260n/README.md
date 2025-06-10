@@ -2937,6 +2937,787 @@
 
 - [Entitlements DIFF](Entitlements.md)
 
+## Firmware
+
+### ⬆️ Updated (22)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [AppleAVE2FW_H17.im4p](FIRMWARE/AppleAVE2FW_H17.im4p.md)
+- [SmartIOFirmware_ASCv7.im4p](FIRMWARE/SmartIOFirmware_ASCv7.im4p.md)
+- [adc-rheia-d9x.im4p](FIRMWARE/adc-rheia-d9x.im4p.md)
+- [agx_a000](FIRMWARE/agx_a000.md)
+- [agx_a010](FIRMWARE/agx_a010.md)
+- [agx_b000](FIRMWARE/agx_b000.md)
+- [agx_b010](FIRMWARE/agx_b010.md)
+- [agx_b100](FIRMWARE/agx_b100.md)
+- [ansf.t8140.release.im4p](FIRMWARE/ansf.t8140.release.im4p.md)
+- [exclave_ExclaveStackshotServer](FIRMWARE/exclave_ExclaveStackshotServer.md)
+- [exclave_kernel](FIRMWARE/exclave_kernel.md)
+- [exclave_pmm_exclave](FIRMWARE/exclave_pmm_exclave.md)
+- [exclave_roottask](FIRMWARE/exclave_roottask.md)
+- [exclave_scheduler](FIRMWARE/exclave_scheduler.md)
+- [exclave_sharedcache](FIRMWARE/exclave_sharedcache.md)
+- [h17_ane_fw_theia_d9x.im4p](FIRMWARE/h17_ane_fw_theia_d9x.im4p.md)
+- [rans.t8140.release.im4p](FIRMWARE/rans.t8140.release.im4p.md)
+- [securem3fw-d9x.im4p](FIRMWARE/securem3fw-d9x.im4p.md)
+- [sptm.t8140.release.im4p](FIRMWARE/sptm.t8140.release.im4p.md)
+- [t8140pmcfw.im4p](FIRMWARE/t8140pmcfw.im4p.md)
+- [t8140pmp.im4p](FIRMWARE/t8140pmp.im4p.md)
+- [txm.iphoneos.release.im4p](FIRMWARE/txm.iphoneos.release.im4p.md)
+
+</details>
+
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 18.5 *(22F76)* | iBoot-11881.122.1 |
+| 26.0 *(23A5260n)* | iBoot-13822.0.88.0.3 |
+
+#### 🆕 NEW (12)
+
+<details>
+  <summary><i>View NEW</i></summary>
+
+##### `RTKit.bin`
+  - `ThIntr:%u,%u,%u,%u`
+  - `!flush: %x r=%zu w=%zu (%zu/%zu)`
+  - `RS: [new: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d]`
+  - `smc/thermal/componentController/cloakingCC.cpp`
+  - `Unbalanced transients`
+  - `RS:  prv: p:%03d m:0x%01x vid:%04x pid:%04x s:%03d c:%03d t:%03d `
+  - `Corrupt log channel`
+  - `LOG: entries sz > coalescer sz (%zu > %zu)`
+  - `InductiveCommonInit`
+  - `MBI queue overflow:%s`
+  - `%s: %s:%d: %s, Invalid CloakingCC cloakingMode  %d`
+  - `%s QCLK %d`
+  - `VmOv %d %d`
+  - `Invalid AP power: %d`
+##### `iboot_blob29.bin`
+  - `(CCMFXF0H1H2H3HCIDIMNXNMPXPMQXQCRDRERFRGRHRIRRRSRWRCSDSESFSGSHSATMTOTPTSTVTXTYTZT ]`
+  - `PBUCK ACC`
+  - `Telemetry CFG`
+  - `/zd`
+  - `Ch`
+  - `m5`
+  - `1HDHcHdHaPfPmP1h`
+  - `DC Results`
+  - `u0PVZ0PTd1PTd2PTd3PTd4PTd5PTb1PTb2PTb3PTb4PTb5PTl6PTl7PT`
+  - `rkosftab`
+  - `/"`
+  - `LC0D1D2D3D4DVILPCSVSCT\`
+  - `u0Au0Q2`
+  - `pP6`
+  - `ni`
+  - `:/`
+  - `54p`
+  - `#o5`
+  - `Yh`
+  - `QBRBaB2CuCLF1H2H8HRHSPaPsPMRQR0T1h2h3h5h7hdhkhsh`
+  - `Li`
+  - `P6`
+  - `1$_`
+  - `D~`
+  - ` ^`
+  - `\e`
+  - `TREP`
+  - `pM`
+  - `FN`
+  - `B[`
+  - `Kn`
+  - `B0b0u0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd`
+  - `Cx`
+  - `CĞ`
+  - `O&`
+  - `DACEACNKDADGBDGCDGSDG1GL2GL4GLFONSGOIMPSMPcMP"`
+  - `+S10MK1SM1taBPDCPDG1SH2SH3SH4SHb0Pb1Pl1Pb2Pl2Pl3Pb4Pl4Pb5Pl5Pb6Pl6Pb7Pl7Pl8Pl9PMZPbaPlaPbbPbdP0CZ1CZBCZUCZ1DZf0bf1bf2bf3bBrwSrwTrwC`
+  - `PMU FW Health Counter`
+  - `Battery Health Results`
+  - `WPY^KLEBohafst}z`
+  - `magsafe chg`
+  - `Scan Agent Slots`
+  - `CCXESR+`
+  - `Sec Lock Status`
+  - `C03456FMabcdegms\|`
+  - `1OPU`
+  - `magsafe acc`
+  - `rQ`
+  - `CFDFFFIFNFPF0RDRNRSRTRtR`
+  - `123456789`
+  - `td`
+  - `,X`
+  - `,W`
+  - `CCOS@`
+  - `CF`
+  - `PARADBCCECBDEDRECFDIGIRIONDSDURVfihiiiminisitpW`
+  - `Sb`
+  - `p}`
+  - `0X`
+  - `\0`
+  - `ACAHAVCVIVLVMVNVOVPVQVRV`
+  - `rl`
+  - `1%`
+  - `1HRHaPmPIT`
+  - `TY`
+  - `CT`
+  - `General Features CFGs`
+  - `P(`
+  - `b9J`
+  - `Z0d1d2d3d4d50D1D2D3D4D5D6D`
+  - `,a`
+  - `pi`
+  - `Hi`
+  - `OAmCcNEP0SCTMTPWiW`
+  - `@HA`
+  - `\4`
+  - ` X`
+  - `C<`
+  - `Cz`
+  - `QR`
+  - `BONK`
+  - `@(`
+  - `Tx`
+  - `pM`
+  - `89abcde`
+  - `0123456789abcdefgh`
+  - `xm`
+  - `mpp chg`
+  - ` pL`
+  - `012CDEGRSUVW`
+  - `012`
+  - `0123456789`
+  - `Ch`
+  - `W .`
+  - `hi`
+  - `CP`
+  - `N{`
+  - `C8`
+  - `ie`
+  - `CMdmdmtMu<`
+  - `Xe`
+  - `CH`
+  - `pd`
+  - `sy`
+  - `pM`
+  - `FPV`
+  - `Cl`
+  - `PHbMzM0`
+  - `C$k`
+  - `Mj[`
+  - `Ch`
+  - `QAIB1DEDUFVF`
+  - `5Vp`
+  - `DIBVRBDICVRCICEVSENEG00P10P20P0FPtlPDIUREVZ`
+  - `Cf1f3`
+  - `pP6`
+  - `bc`
+  - `MA`
+  - `C,`
+  - `jl`
+  - `P3`
+  - `P0`
+  - `h<]`
+  - `C<`
+  - `IBBD`
+  - `STLF`
+  - `TL`
+  - `6*p`
+  - `GF`
+  - `Db`
+  - `O)i`
+  - `I&`
+  - `W&`
+  - `^|u`
+  - `6d`
+  - `P-`
+  - `(3`
+  - `A0s0A1A2LAEBQBRBSBaB0DzDAFDFHFLFMRNRQRRR1a2a3a4a5a1b2b3b4b5b1c2c3c4c5c1d2d3d4d5d1e2e3e4e5eP`
+  - `.j)`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpS`
+  - `sM`
+  - `pM`
+  - `%z`
+  - `MDrH0L1L2L3L4L5L6L7L8L9LALBLCLDLELFLMPmP1T3T5THTITMU1t3t5t0`
+  - `da`
+  - `l}`
+  - `(F`
+  - `TD`
+  - `P@u`
+  - `pM`
+  - `5Tp`
+  - `FCET4`
+  - `VS`
+  - `C|k`
+  - `CTk`
+  - ` 3`
+  - ` uL`
+  - `/,`
+  - `HM`
+  - `nS`
+  - `C+`
+  - `tl`
+  - `4X`
+  - `CD`
+  - `hp`
+  - `EP`
+  - `CDIMNOPSUV9t5`
+  - `SUtaT`
+  - `u0y`
+  - `<q`
+  - `(W`
+  - `2LAC`
+  - `))`
+  - `Te`
+  - `_&`
+  - `external2`
+  - `f&`
+  - `?d;`
+  - `TZA`
+  - `ZXp`
+  - `)<6`
+  - `CODOIOJOPO`
+  - `LM`
+  - `${`
+  - `@X`
+  - `#q5`
+  - `H~`
+  - `h&`
+  - `1dA2dA1kA2kA1tA2tANSECCFDCFPCFSCFTCFPATk`
+  - `Ct`
+  - `(i`
+  - `le`
+  - `30BiB0C1C2CiCjCkC0I0KiK0L1L2L3L4L5L6L7L8L9LALBLiLjLkLlLmLnLoLpLqLrLsLtL0PRPdPkPsP1R2RiRjR0SiS0TiT0WiW0XC`
+  - ` A`
+  - ` vL`
+  - `Mx`
+  - `@i`
+  - `MRx`
+  - `C0h1h2h0m1m2m3m6m7m8m0p1p2p3p4p5p6p7p0r1rx`
+  - `C0123456789abcdefghpr`
+  - `6V`
+  - `w q`
+  - `ML`
+  - `$3`
+  - `_l`
+  - `DI`
+  - `!C#C?CRCYp`
+  - `8X`
+  - ` R`
+  - `A1I1V1A2I2LBACCDDDWD0FPFRFWFLSnHu`
+  - `Pz`
+  - `C(`
+  - `C$`
+  - `CLk`
+  - `,3`
+  - `0123`
+  - `CD`
+  - `4i`
+  - `|d`
+  - `Z&`
+  - `\,`
+  - `\1)`
+  - `C\k`
+  - `83`
+  - `0[`
+  - `XX;`
+  - `'DH`
+  - `\dp`
+  - `9v5`
+  - `/xd`
+  - `1B2B8B1T1b2b4b5bRbkb1t3t5t$`
+  - `IN`
+  - `\p`
+  - `DLA2AP4APDAPKAPTSPSARCTRTTR10iV0iUBiFNi1ti2ti3ti5ti7ti8tiMCm`
+  - `F&`
+  - `V&`
+  - `<A`
+  - `6_`
+  - `00102030405060708090C0W00111213141W10C1CDKMKSOCSSS6`
+  - `dp`
+  - `:_`
+  - `,i`
+  - `8d`
+  - `C\`
+  - `\hL`
+  - `3LAMANAOARASATAUAVAXALFNFVMWMCOPOCSKSMS3T6TCTDT0X2X9XAXCXDXHXKXLXNXPXSXTXUXZXbXcXdXhXkXlXmXnXsXtXbxdxsx`
+  - `0_`
+  - `M&`
+  - `\dL`
+  - `/~`
+  - `6n`
+  - `PT`
+  - `Ch`
+  - ` q`
+  - `N&`
+  - `P&`
+  - `L&`
+  - `!&/(=:34NI@GRU\[vqx`
+  - `C0L0V0CHWHLIARORSRTRISVSATCTITSTAVCVIVLV`
+  - `B$p`
+  - `Q~`
+  - `"z`
+  - `FX`
+  - `(dU`
+  - `Pi`
+  - `MPCPCoOCuoCu1Hu2Hu8HuRHuaPufPumPu1Vu2Vu3Vu5Vu7Vu8Vu0Zu1hu2hu3hu5hu7hudhukhushuxpu(`
+  - `^&`
+  - `6F`
+  - ` Np`
+  - `4050C0D0K0L0d0e0`
+  - `hX`
+  - `1SB2SBTFCATCEPDPIHMPLrAPsDPfNPTPPpSPiWP1bP2bPEPRTPUspd`
+  - `Filter Results 2nd copy`
+  - `>d;`
+  - `CC1D1X/{`
+  - `T$`
+  - `C(`
+  - `AX`
+  - `W .`
+  - `H&`
+  - `Cb0b1l1b2l2l3b4l4b5l5b6l6b7l7l8l9balabbbd`
+  - `sx_`
+  - `uC1H2H8HRHaPfPmP1h2h3h5h7hdhkhshd`
+  - `Scan Agent ACC`
+  - `BCCS`
+  - `C0C1C0E1E0H1HiHjH2I3I0e1e0i0k1kLr0t1tst`
+  - `000200300400`
+  - `DCADBDTDLFCSNS1W2W6`
+  - `405060R0S0T00x1x2x3x`
+  - `0123456789ABL`
+  - `Filter Results 1st copy`
+  - `PI Results`
+  - `Scan Agent CTRL`
+  - `SSITIW6`
+  - `0010204050608090A0C0D0E0G0H0I0K0L0M00x1xP`
+  - `Cortex Status Regs`
+  - `Rail Energy Results`
+  - `Scan Agent Results`
+  - `0KLC`
+  - `A0B0C0H0V0`
+  - `COFOROSOTO4`
+  - `00108090C0D0O0P0R0S0U0V0cr`
+  - `0123456789abcdef`
+  - `0Bt2Tt7Tt8TtkTt`
+  - `Cortex Bootloader & CFG`
+  - `Cortex Global Control`
+  - `CARO`
+  - `DCOS`
+  - `Trace Logger Data`
+  - `Debug Buffer Results`
+##### `iboot`
+  - `diags_rtkitos`
+  - `1THIS) Q#[[15`
+  - `bundle/bundle-regions`
+  - `paniclog: buffer (addr %p, utilized: %#zx)`
+  - `hXg!NiN{vv`
+  - `alpm-language-direction`
+  - `alpm-number-system`
+  - `voltage-states22`
+  - `DispTargetX3200`
+  - `pmgr %s %#x use a ps group with invalid mapping`
+  - `%s: load failed`
+  - `voltage-states22-sram`
+  - `post-upgrade`
+  - ` %s: Sequence %s, seq_id %d, seq_base %p %p, count %d reconfig_info_ptr->parse_option %d is_reg64 %d`
+  - `d23-dev-gpio-cfg`
+  - `iboot-stage-one-tag`
+  - `bundle-size`
+  - `panicmedic-telemetry`
+  - `root@65nmd.p1l.plx.sd...2025/05/24@04:32:11`
+  - `arm-io/aop2-smbox`
+  - `ḅEDȊM<q`
+  - `rail-energy-in-pocket`
+  - `Storage task`
+  - `]jC8gc4O<q(^`
+  - `%s: handle create failed`
+  - `uniprocessor-override`
+  - `MCE FW E001- built on Mon May 19 03:19:44 UTC 2025 by root`
+  - `voltage-states23`
+  - `recovery-boot-mode`
+  - `pmgr %s %#x has one child with an ID %#x lower than itself`
+  - `pmgr %s %#x ps(%p) has an invalid value %#x`
+  - `X6yLtȩNEl`
+  - `voltage-states23-extra`
+  - `device-recovery`
+  - `Network Recovery`
+  - `disable-mahi`
+  - `%02X%02X%02x`
+  - `======== Start of %s serial output. ========`
+  - `field-diags`
+  - `'Hz[6Ew72.h0]`
+  - `alpm-language-direction`
+  - `voltage-states23-sram`
+  - `recover-fallback`
+  - `allow-embedded-pm`
+  - `device-recovery`
+  - `pmgr %s %#x ps should be enabled`
+  - `device-recovery`
+  - `panicmedic-engaged`
+  - `PRRRRRRRRRRR`
+  - `DispTarget908`
+  - `mbox-index`
+  - `XZJ8Hv*?*=`
+  - `alpm-number-system`
+  - `chip-config-rack`
+  - `Gt[h5m:~j<V`
+  - `syscfg-mismatch/`
+  - `panicmedic-auxkc-present`
+  - `target_oracle_update_contract_from_cookie`
+  - `panicmedic-engaged`
+  - `tsrtlaesgfCfgfCdvppagfCektpafpcdpcdefoicfumtMEPLHTLdCIBd1wfi2wfiwfengfCtgfC0tbplLCDAFSPdSALrCALiTSRP1rdf2rdfgfCbLACUSCIBlCDxHTLcACmHrcSdgfCLCIBTlCmHgfCjgfCcgfCm`
+  - `panicmedic-panic-count`
+  - `arm-io/pmgr-child not found`
+  - `wī[˲tE1eR`
+  - `dart,t6710`
+  - `pè?D@&w&K`
+  - `panicmedic-timestamps`
+  - `physical-addr`
+  - `t8140c4020fpga`
+  - `%s: create failed`
+  - `sdram device_info:0x%02x`
+  - `"i~_(3#:&n`
+  - `v57-dev-gpio-cfg`
+  - `recovery-reason`
+  - `-no_panic_dialog`
+  - `kernel-ctrr-to-be-enabled`
+  - `apcie2-piodma`
+  - `a5759989bef26cf19237b8a5598dad3b`
+  - `aslr-data-placeholder`
+  - `v57-dev-gpio-cfg`
+  - `apcie0-piodma`
+  - `ʡx<{^v'V)W`
+  - `Z,YVGUQ1]0`
+  - `usb rpc task`
+  - ` ApplePMUFirmware-608.0.3~1368.release`
+  - `voltage-states22-extra`
+  - `device-recovery`
+  - `DispTargetX3200`
+  - `panicmedic`
+  - `audio-amp-register-len`
+  - `arm-io/aop-smbox`
+  - `reconfig_command_rmw`
+  - `panicmedic-timestamps`
+  - `pmgr %s %#x use wrong ps group`
+  - `cputrace-aslr-data-region`
+  - `recover-system`
+  - `audio-amp-register-len`
+  - `cBvxZ7"4(-`
+  - `recover-system`
+  - `pmgr %s %#x bridge %d doesn't exist`
+  - `recover-fallback`
+  - `cL4-kernel/mmio`
+  - `Tǭ)xǥĖ]`
+  - `field-diags-paired`
+  - `restore_rtkitos`
+  - `iBoot-13822.0.88.0.3`
+  - `socd_push_init`
+  - `sec-research-device-erm-enabled`
+  - `allow-embedded-pm`
+  - `arm-io/pmgr-child`
+  - `LF[LFSLFELF9`
+  - `force-research-policy`
+  - `y0)oW+G!Â|}a`
+  - `iBoot Recovery`
+  - `recovery-boot-mode`
+  - `iic-bus-num`
+  - `chiplet-count`
+  - `usb cmd task`
+  - `d23-dev-gpio-cfg`
+  - `pmgr %s %#x use a PS address %p outside the ps mapping %#llx size %#llx`
+  - `1ȈY67}l.₵`
+  - `panicmedic-panic-count`
+  - `fsboot-safe`
+  - `panicmedic-telemetry`
+  - `t8140c4030fpga`
+  - `pmgr %s %#x use forbidden ps index`
+  - `Device Recovery`
+  - `unknown cookie (%u) for target`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-6164.0.58.0.3.d93.REL`
+##### `iboot_blob40.bin`
+  - `SNUT`
+  - `TABI`
+  - `OKRF`
+  - `ZSOI`
+  - `__DATA`
+  - `fwsg`
+  - `RAVC`
+  - `BTMR`
+  - `VDNI`
+  - `GKTS`
+  - `ZNUT`
+  - `hQ`
+  - `ZSTR`
+  - `S2xG`
+  - `dApC`
+  - `__TEXT`
+  - `LICE`
+  - `8R`
+  - `BtpG`
+  - `hR`
+  - `_DIB`
+  - `qF8v`
+  - `TNGI`
+  - `SEBC`
+  - `sP1T`
+  - `SZSD`
+  - `MTTT`
+  - `1V1D`
+  - `HICE`
+  - `VERB`
+  - `StpG`
+  - `LZSD`
+  - `GLFp`
+  - `ARcM`
+  - `XR`
+  - `3L1D`
+  - `2V1D`
+  - `SVSD`
+  - `oeNS`
+  - `DILS`
+  - `SRSA`
+  - `SSSC`
+  - `BVTP`
+  - `LLTR`
+  - `h8`
+  - `ABOI`
+  - `LCBC`
+  - `(R`
+  - `HR`
+  - `_COS`
+  - `RCOS`
+  - `dArW`
+  - `fVED`
+  - `xR`
+  - `1L1D`
+  - `ECAP`
+  - `OTTR`
+  - `2L1D`
+  - `BlpP`
+  - `xQ`
+  - `3V1D`
+  - `LRSD`
+  - `LCSD`
+  - `BPTP`
+  - `8Q`
+  - `HQ`
+  - `XQ`
+  - `GFCM`
+  - `SPTP`
+
+</details>
+
+#### ❌ Removed (9)
+
+<details>
+  <summary><i>View Removed</i></summary>
+
+##### `RTKit.bin`
+  - `logData_t ptr = 0x%08lx`
+  - `RS:  prv: p:%03d m:0x%01x vid:%04xpid:%04x s:%03d c:%03d t:%03d `
+  - `feedback_current=%d, feedback_voltage=%d`
+  - `%s: %s:%d: %s, Invalid register size %u`
+  - `DE: invalid checksum SMC %d AP %d`
+  - `HE-nRCS %d First Error: Cmd = 0x%x, Timestamp = 0x%x, Status = 0x%x `
+  - `device_aon_ptd.cpp`
+  - `smc/ace.cpp`
+  - `configureTxPout`
+  - `RS: RX: RS_EVT_DEVICE_UNTETHERED; invoke poutTriggerSet`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_READY; invoke poutTriggerSet`
+  - `platform/t8140/device_i2c.cpp`
+  - `apComms.cpp`
+  - `%s: %s:%d: %s, SMC MTR Offset Case not Handled Type %d Idx %d Calc %d`
+  - `inductivePoutPolicy.cpp`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_CLEARED; invoke poutTriggerSet`
+  - `POP: TXFW: %s: drct: %u (targ) | %u (program)`
+  - `misc_workloop`
+  - `Aborting AOP iop_ringbuffer at %s:%d`
+  - `platform/t8140/device_asc.cpp`
+  - `smc/bms/charger.cpp`
+  - `RS: RX: RS_EVT_WAIKATO_MITIGATION_NOT_READY; invoke poutTriggerSet`
+  - `platform/t8140/device_gpio.cpp`
+  - `AONPTDTask`
+  - `platform/t8140/device_dockchannel.cpp`
+  - `acePowerOut.cpp`
+  - `ACSt: iBoot HP %d Lp %d OS=%d ACSt 0x%02x AC %d GG %d ACPW %d SOC1 %d SMCFixturePresent %d`
+  - `POP: TXFW: pout_set_power_limit failed; ret=%d`
+  - `Ace: End HostAct %c%c%c%c`
+  - ` E%d %d %x`
+  - `pmu_workloop`
+  - `charger_servo_atv.cpp`
+  - `platform/t8140/device_watchdog.cpp`
+  - `A%d, SMC did not acquire the uvdm Lock %d, uvdm Timer %d`
+  - `A%d lock not acquired, timeout was set %d`
+  - `A%d SSPS%d`
+  - `RS: RX: RS_EVT_FW_DOWNLOADED received; invoke poutTriggerSet`
+  - `platform/t8140/device_awl_bus.cpp`
+  - `platform/t8140/device_pmgr.cpp`
+  - `battery_authentication.cpp`
+  - `inValid Op %d`
+  - `Shutdown flags: Battery=%d, PMU=%d, pwrOut=%d Override=%d`
+  - `RS: [new: p:%03d m:0x%01x vid:%04xpid:%04x s:%03d c:%03d t:%03d]`
+  - `ACE_REG_DATASTATUS: Ace%d baAceI2cRx[1] = 0x%x,            baAceI2cRx[2]: 0x%x, baAceI2cRx[3]: 0x%x, baAceI2cRx[4]: 0x%x`
+  - `%s: servo_i=%d, servo_v=%d, vbat=%d, ibat=%d`
+  - `extPwriOS.cpp`
+  - `management`
+  - `charger_calculate_servo_output`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Reject(%d); stay in TX mode`
+  - `battery_dynamic_shutdown.cpp`
+  - `ACE_ALLCALL_GET_IRQ_STATE Fail OneAceInt 0x%x`
+  - `smc/i2c.cpp`
+  - `RS: RX: RS_EVT_ACCESSORY_DETACHED`
+  - `RS: TX: RS_EVT_ACCESSORY_ATTACHED`
+  - `iop_ringbuffer.h`
+  - `RS: TX: RS_EVT_TX_FW_SUSPENDED (Idle); swapToRxMode`
+  - `smc/acam.cpp`
+  - `DE: Checksum becomes valid SMC %d AP %d`
+  - `platform/t8140/device_aon_ptd.cpp`
+  - `vchg=%d, vmin=%d, vmax=%d`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Reject(%d); stay in RX mode`
+  - `HE-nRCS %d Error Status = 0x%x `
+  - `smc/bms/bms.cpp`
+  - `smc/aceCommon.cpp`
+  - `ichg=%d, imin=%d, imax=%d`
+  - `ACE_REG_MODE: Ace%d Mode=%c%c%c%c`
+  - `RS: RX: RS_EVT_HLOS_BOOTED; invoke poutTriggerSet`
+  - `platform/t8140/device_trigger_interface.cpp`
+  - `feedforward_current=%d, feedforward_voltage=%d`
+  - `platform/common/platform_tunables.cpp`
+  - `RS: RX: RS_EVT_ACCESSORY_ATTACHED`
+  - `RS: RX: RS_EVT_POUT_ABOVE_THRESHOLD; poutTriggerSet`
+  - `ioreporting`
+  - `HE-nRCS %d Error Count: In = 0x%x, Out = 0x%x, Bus = 0x%x `
+  - ` VDO %d not found`
+  - `smc/ap_watchdog.cpp`
+  - `Not charging:%llx`
+  - `RS: RX: RS_EVT_DEVICE_TETHERED; invoke poutTriggerSet`
+  - `vBMSTaskStop fail`
+  - `platform/t8140/device_mtr_die_temps.cpp`
+  - `platform/common/platform_power.cpp`
+  - `platform/t8140/device_spmi.cpp`
+  - `RS: TX: RS_EVT_ACCESSORY_DETACHED; loadFirmware(RX)`
+  - `RS: RX: RS_EVT_ROLE_SWAP_REQUEST_SENT; Rcvd PTx Rsp: Accept; loadFirmware(TX)`
+  - `Address Remapper %d Error: 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x 0x%x `
+  - `Notf: A%d uvdmDone`
+  - `rc:%d, err:%d`
+  - `platform/t8140/device_aop.cpp`
+  - `smc/aopComms.cpp`
+  - `platform/common/platform_mem.cpp`
+  - `Shutdown VPMax bounds: floor=%d ceil=%d vpmax_vcut=%d gg_vcut=%d iss=%d.`
+  - `smc/comms.cpp`
+  - `Charger override max charging voltage: %d`
+  - `RS: RX: RS_EVT_ACCESSORY_UNTETHERED; invoke poutTriggerSet`
+  - `RS: TX: RS_EVT_FW_DOWNLOADED: device untethered; start poutUntethered timer for %llu ms`
+  - `smc/acePowerOut.cpp`
+  - `RS: TX: RS_EVT_POUT_CAPABLE`
+  - `aceCommon.cpp`
+  - `smc/event_buf.cpp`
+  - `pd charger`
+  - `Ace: HostAct %c%c%c%c`
+  - `RS: TX: RS_EVT_DEVICE_UNTETHERED: start poutUntethered timer for %llu ms`
+  - `smc/aceUtilEmbedded.cpp`
+  - `A%d unable to acquire smc uvdm lock %d`
+  - `RS: RX: RS_EVT_DEAD_ACCESSORY_DETECTED; invoke poutTriggerSet`
+  - `smc/ap_watchdog_logger.cpp`
+  - `smc/crashlog.cpp`
+  - `RS: RX: RS_EVT_POUT_CAPABLE; invoke poutTriggerSet`
+  - `smc/apComms.cpp`
+  - `RS: TX: RS_EVT_ROLE_SWAP_REQUEST_RECEIVED; FW Sent Rsp: Accept; loadFirmware(RX)`
+  - `InductiveTask`
+  - `charger.cpp`
+  - `RS: TX: RS_EVT_DEVICE_TETHERED: cancel poutUntethered timer (%llu)`
+  - `RS: TX: RS_EVT_HLOS_BOOTED`
+  - `Critical Shutdown Requested`
+  - `inductiveRoleSwap.cpp`
+  - `platform/t8140/device_forcewakeup.cpp`
+  - `is Shutdwn needed: Req %d, budV %d isBattbt %d isPT %d`
+  - `battery.cpp`
+  - `POP: TXFW: %s: ramp: %u (targ) | %lld %+lld => %u (program)`
+  - `dcp_to_smc`
+  - `ACE_REG_CFVIDSTATUS: baAceI2cRx[%d] = 0x%x and baAceI2cRx[%d] = 0x%x`
+  - `SMC HID Event: %02x %02x %02x`
+  - `smc/forceKeyAccess.cpp`
+  - `DE: correcting shutdown_threshold from %d to %d`
+##### `AppleSMCFirmware.bin`
+  - `B0QIu0QIu0AQu0QQd0QTj0QTu0QVu1QVl0QVu0AWu0QWDDQVp`
+  - `AppleSMCFirmware_H17-5204.122.2.d93.REL`
+##### `iboot`
+  - `cputrace-available-placeholder`
+  - `)b°⚦#g&`
+  - `ÂzgJ_]wR#`
+  - `iBoot-11881.122.1`
+  - `loaded ramdisk at %p of size %#zx, from image at %p`
+  - `hdmi21_features_enabled=1`
+  - `cputrace-available`
+  - `cputrace-stream-placeholder`
+  - `88Rc8E(%;NL2`
+  - `%s: Message too big for ring (message length = %u, data in ring = %u)`
+  - `e4d4279a51f9f4da9ac112a2b0c1cb1e`
+  - `reading data from channel failed`
+  - `hrd-o:CeS!`
+  - `usb_dispatch_task`
+  - `RF&+fqoRix`
+  - `pmgr %s %x use wrong ps group`
+  - `X>fQ¬sen^>`
+  - `Zl!kT@Cmy>`
+  - `)bgL4t?ld(`
+  - `cH-û÷/ʣV`
+  - `pmgr %s %x ps(%p) has an invalid value %x`
+  - `writing data to channel failed`
+  - `failed to create libsocd handle`
+  - `9*H;C+Ax#E`
+  - `)Fl;.Nżbg`
+  - `L@%Ok*y.FD`
+  - `_process_h2d_messages`
+  - `ȋTg(=3V[|ÚTB#9z+`
+  - `pmgr %s %x has one child with an ID %x lower than itself`
+  - `⾫FTTM+hf`
+  - `2kP}Vv˷m `
+  - `l\{8"{g+z:`
+  - `pmgr %s %x use a ps group with invalid mapping`
+  - `cputrace-stream`
+  - `pmgr %s %x bridge %d doesn't exist`
+  - `Config Table base address is not 256 Byte Aligned`
+  - `%s Overflow: current_ptr = 0x%llx, region_end = 0x%llx`
+  - `_zj\d<2zFæm`
+  - `/()?/-Zt@l`
+  - `.ETp7&-([@14`
+  - `A^w=%n}_^)z`
+  - `bFhEXf20Z"ª`
+  - `dcp-trusted-allow`
+  - `pmgr %s %x use a PS address %p outside the ps mapping 0x%llx size 0x%llx`
+  - `loaded device tree at %p of size 0x%zx, from image at %p`
+  - `dptx-register-capture-done`
+  - `Opcode %d not defined`
+  - `libsocd early init failed`
+  - `n%dnxN5&ȶ`
+  - `pmgr %s %x ps should be enabled`
+  - `MCE FW E001- built on Sat Apr 19 04:10:41 UTC 2025 by root`
+  - `channel %#x read returned more bytes (%zu) than expected %zu`
+  - `root_dispatch_task`
+  - `U!||]glkVqN`
+  - `_ǌWʰvJi4`
+  - `failed to create libsocd smc handle`
+  - `tsrtlaesgfCfgfCdvppagfCektpafpcdpcdefoicfumtMEPLHTLdCIBd1wfi2wfiwfengfCtgfC0tbplLCDAFSPdSALrCALiTSRP1rdf2rdfgfCbLACUSCIBlCDxHTLcACmHrcSdgfCLCIBTlCmHgfCj`
+  - `Sequence base address is not 32 Byte Aligned`
+  - `BC_ SfOU\2`
+  - `*/m],RRC-4`
+  - `m@&'2+#3'3`
+  - `Invalid copy direction:%d`
+  - `root@hn6kq.p1l.plx.sd...2025/04/22@20:26:21`
+  - `active fs mounts:`
+  - `Blockdev task`
+  - `gK\[H!hq[h%`
+  - `paniclog: buffer (addr 0x%p, utilized: %#zx)`
+  - ` ApplePMUFirmware-503.120.3~468.release`
+  - `pmgr %s %x use forbidden ps index`
+  - `S[ lSG/nOɤ~`
+
+</details>
+
 ### launchd Config
 
 <details>
@@ -6600,12 +7381,12 @@
 
 ### ❌ Removed (6)
 
-- `Domain/SiriInferredHelpfulness.plist`
 - `Domain/MomentsTesting.plist`
+- `Domain/AdAttributionKit.plist`
+- `Domain/HumanUnderstanding.plist`
 - `Domain/SiriTurnRestatement.plist`
 - `Domain/AdaptiveMusic.plist`
-- `Domain/HumanUnderstanding.plist`
-- `Domain/AdAttributionKit.plist`
+- `Domain/SiriInferredHelpfulness.plist`
 
 ### ⬆️ Updated (212)
 
