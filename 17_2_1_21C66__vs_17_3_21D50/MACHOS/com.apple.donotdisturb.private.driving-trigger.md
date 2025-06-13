@@ -1,0 +1,18 @@
+## com.apple.donotdisturb.private.driving-trigger
+
+> `/System/Library/DoNotDisturb/ClientBundles/com.apple.donotdisturb.private.driving-trigger.bundle/com.apple.donotdisturb.private.driving-trigger`
+
+```diff
+
+-371.15.0.0.0
++371.16.0.0.0
+   __TEXT.__text: 0x0
+   __TEXT.__const: 0x68
+   - /usr/lib/libSystem.B.dylib
+-  UUID: 576A09BE-BBEE-3DBA-9776-6876EB9727AB
++  UUID: ECDD8488-8279-3D57-B91A-06A3B8EEB682
+   Functions: 0
+   Symbols:   2
+   CStrings:  0
+
+```

@@ -1,0 +1,512 @@
+## iCloudQuotaUI
+
+> `/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/iCloudQuotaUI`
+
+```diff
+
+-301.21.0.16.0
+-  __TEXT.__text: 0x1960c8
+-  __TEXT.__auth_stubs: 0x3a20
+-  __TEXT.__objc_methlist: 0x7f78
+-  __TEXT.__const: 0x8064
+-  __TEXT.__gcc_except_tab: 0xcfc
+-  __TEXT.__cstring: 0xe251
+-  __TEXT.__oslogstring: 0x8882
++301.21.1.3.0
++  __TEXT.__text: 0x1a09c4
++  __TEXT.__auth_stubs: 0x3a70
++  __TEXT.__objc_methlist: 0x8000
++  __TEXT.__const: 0x8534
++  __TEXT.__gcc_except_tab: 0xd18
++  __TEXT.__cstring: 0xe5f1
++  __TEXT.__oslogstring: 0x8ee5
+   __TEXT.__dlopen_cstrs: 0x689
+-  __TEXT.__swift5_typeref: 0xdd02
+-  __TEXT.__swift5_reflstr: 0x2095
+-  __TEXT.__swift5_assocty: 0xae0
+-  __TEXT.__constg_swiftt: 0x3464
+-  __TEXT.__swift5_fieldmd: 0x2308
+-  __TEXT.__swift5_capture: 0xe0c
+-  __TEXT.__swift5_proto: 0x578
+-  __TEXT.__swift5_types: 0x2b0
++  __TEXT.__swift5_typeref: 0xdeca
++  __TEXT.__swift5_reflstr: 0x21aa
++  __TEXT.__swift5_assocty: 0xb58
++  __TEXT.__constg_swiftt: 0x37d4
++  __TEXT.__swift5_fieldmd: 0x248c
++  __TEXT.__swift5_capture: 0xe44
++  __TEXT.__swift5_proto: 0x5a0
++  __TEXT.__swift5_types: 0x2d8
+   __TEXT.__swift5_builtin: 0x78
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x64dc
+-  __TEXT.__eh_frame: 0x3fc8
+-  __TEXT.__objc_classname: 0x1765
+-  __TEXT.__objc_methname: 0x19540
+-  __TEXT.__objc_methtype: 0x5a32
+-  __TEXT.__objc_stubs: 0x12fc0
+-  __DATA_CONST.__got: 0xef0
+-  __DATA_CONST.__const: 0x2580
+-  __DATA_CONST.__objc_classlist: 0x5b8
++  __TEXT.__unwind_info: 0x6888
++  __TEXT.__eh_frame: 0x40a8
++  __TEXT.__objc_classname: 0x1750
++  __TEXT.__objc_methname: 0x198b0
++  __TEXT.__objc_methtype: 0x5a6d
++  __TEXT.__objc_stubs: 0x13180
++  __DATA_CONST.__got: 0xf08
++  __DATA_CONST.__const: 0x2610
++  __DATA_CONST.__objc_classlist: 0x5c0
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x268
++  __DATA_CONST.__objc_protolist: 0x270
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x20f18
+-  __DATA_CONST.__objc_selrefs: 0x5ec8
++  __DATA_CONST.__objc_const: 0x21338
++  __DATA_CONST.__objc_selrefs: 0x5f80
+   __DATA_CONST.__objc_arraydata: 0x578
+-  __AUTH_CONST.__cfstring: 0x7520
+-  __AUTH_CONST.__objc_const: 0x38e8
+-  __AUTH_CONST.__const: 0x9a88
++  __AUTH_CONST.__cfstring: 0x7280
++  __AUTH_CONST.__objc_const: 0x3810
++  __AUTH_CONST.__const: 0xa020
+   __AUTH_CONST.__objc_arrayobj: 0x120
+   __AUTH_CONST.__objc_intobj: 0x1c8
+   __AUTH_CONST.__objc_doubleobj: 0x40
+   __AUTH_CONST.__objc_dictobj: 0x488
+-  __AUTH_CONST.__auth_got: 0x1d20
+-  __AUTH.__objc_data: 0x41b0
+-  __AUTH.__data: 0x2538
++  __AUTH_CONST.__auth_got: 0x1d48
++  __AUTH.__objc_data: 0x42c8
++  __AUTH.__data: 0x2808
+   __DATA.__objc_protorefs: 0x88
+-  __DATA.__objc_classrefs: 0xbe8
+-  __DATA.__objc_superrefs: 0x378
+-  __DATA.__objc_ivar: 0xb34
++  __DATA.__objc_classrefs: 0xbe0
++  __DATA.__objc_superrefs: 0x370
++  __DATA.__objc_ivar: 0xb3c
+   __DATA.__objc_data: 0x60
+-  __DATA.__data: 0x56a0
+-  __DATA.__bss: 0xc048
++  __DATA.__data: 0x5920
++  __DATA.__bss: 0xc608
+   __DATA.__common: 0x268
+   __DATA_DIRTY.__objc_data: 0x1e0
+   __DATA_DIRTY.__bss: 0x10
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1D951662-E05C-3ED4-B737-DEECD4D95E41
+-  Functions: 9626
+-  Symbols:   15034
+-  CStrings:  8584
++  UUID: BBF4C01D-4190-389D-98FE-C5D361DAB94B
++  Functions: 9924
++  Symbols:   15202
++  CStrings:  8641
+ 
+Symbols:
++ +[ICQLocalBackupController currentDeviceBackupWithMBManager:filtering:error:].cold.1
++ +[UIImage(ICQUIAdditions) imageWithType:size:]
++ -[ICQBackupController manager:didFailRestoreWithError:].cold.1
++ -[ICQBundlesHook dynamicViewController:didFinishPurchaseWithResult:error:].cold.2
++ -[ICQLinkInAppAction _launchFlowManagerWithContext:].cold.2
++ -[ICQLocalBackupController beginScan].cold.1
++ -[ICQLocalBackupController manager:didFailScanWithError:].cold.1
++ -[ICQRecommendationsViewControllerWrapper .cxx_destruct]
++ -[ICQRecommendationsViewControllerWrapper accountsForAccountManager:]
++ -[ICQRecommendationsViewControllerWrapper recController]
++ -[ICQRecommendationsViewControllerWrapper setRecController:]
++ -[ICQRecommendationsViewControllerWrapper viewDidDisappear:]
++ -[ICQRecommendationsViewControllerWrapper viewDidLoad]
++ -[ICQUINativeManageStorageController launchFreshmintFlowForLink:].cold.1
++ -[ICQUINativeManageStorageController launchFreshmintFlowForSpecifier:].cold.1
++ -[ICQUINativeManageStorageController loadDrilldownFromSpecifier:].cold.3
++ -[ICQUINativeManageStorageController loadLiftUIDrilldownFromSpecifier:].cold.2
++ -[ICQUINativeManageStorageController loadRemoteUIDrilldownFromSpecifier:].cold.1
++ -[ICQUINativeManageStorageController loadRemoteUIDrilldownFromSpecifier:].cold.2
++ -[ICQUINativeManageStorageController presentLiftUISheetFromSpecifier:].cold.2
++ -[ICQUINativeManageStorageController presentRemoteUISheetFromSpecifier:].cold.1
++ -[ICQUINativeManageStorageController provider:loadActionFromSpecifier:].cold.1
++ -[ICQUITipSpecifierProvider _launchUpgradeFlowWithActionString:andURL:]
++ -[ICQUpgradeFlowManager presentHostingNavigationController]
++ -[ICQUpgradeFlowManager presentationContext]
++ -[ICQiCloudHeaderSpecifierProvider _handleSkippedCFUWithResourceDictionary:]
++ -[ICQiCloudHeaderSpecifierProvider _launchServerUIFlowWithOffer:]
++ -[NSString(ICQUI) icqui_isCFUSkipPath]
++ GCC_except_table80
++ _ICQActionParameterFollowUpIdentifierKey
++ _ICQActionParameterSkipCFUKey
++ _ICQiCloudSettingsUniversalURL
++ _OBJC_CLASS_$_AAUIDataclassSpecifierCell
++ _OBJC_CLASS_$_ICQAnalytics
++ _OBJC_CLASS_$_ICQRecommendationsViewControllerWrapper
++ _OBJC_IVAR_$_ICQRecommendationsViewControllerWrapper._recController
++ _OBJC_IVAR_$_ICQUpgradeFlowManager._presentingViewController
++ _OBJC_METACLASS_$_ICQAnalytics
++ _OBJC_METACLASS_$_ICQRecommendationsViewControllerWrapper
++ _OUTLINED_FUNCTION_6
++ __DATA_ICQAnalytics
++ __DATA__TtC13iCloudQuotaUI21ManageStorageAppModel
++ __DATA__TtC13iCloudQuotaUI22ManageStorageAnalytics
++ __DATA__TtC13iCloudQuotaUI26ManageStorageAppModelStore
++ __ICQIdentifierPrefixEvent
++ __ICQIdentifierPrefixPremium
++ __IVARS__TtC13iCloudQuotaUI21ManageStorageAppModel
++ __IVARS__TtC13iCloudQuotaUI22ManageStorageAnalytics
++ __IVARS__TtC13iCloudQuotaUI26ManageStorageAppModelStore
++ __METACLASS_DATA_ICQAnalytics
++ __METACLASS_DATA__TtC13iCloudQuotaUI21ManageStorageAppModel
++ __METACLASS_DATA__TtC13iCloudQuotaUI22ManageStorageAnalytics
++ __METACLASS_DATA__TtC13iCloudQuotaUI26ManageStorageAppModelStore
++ __OBJC_$_CLASS_METHODS_UIViewController(iCloudQuotaUI|iCloudQuotaUI)
++ __OBJC_$_INSTANCE_METHODS_ICQAnalytics
++ __OBJC_$_INSTANCE_METHODS_ICQRecommendationsViewControllerWrapper
++ __OBJC_$_INSTANCE_METHODS_UIViewController(iCloudQuotaUI|iCloudQuotaUI)
++ __OBJC_$_INSTANCE_VARIABLES_ICQRecommendationsViewControllerWrapper
++ __OBJC_$_PROP_LIST_ICQRecommendationsViewControllerWrapper
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AIDAAccountManagerDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AIDAAccountManagerDelegate
++ __OBJC_$_PROTOCOL_REFS_AIDAAccountManagerDelegate
++ __OBJC_CLASS_PROTOCOLS_$_ICQRecommendationsViewControllerWrapper
++ __OBJC_CLASS_RO_$_ICQRecommendationsViewControllerWrapper
++ __OBJC_LABEL_PROTOCOL_$_AIDAAccountManagerDelegate
++ __OBJC_METACLASS_RO_$_ICQRecommendationsViewControllerWrapper
++ __OBJC_PROTOCOL_$_AIDAAccountManagerDelegate
++ ___34-[ICQBackupController startBackup]_block_invoke.438
++ ___34-[ICQBackupController startBackup]_block_invoke.440
++ ___37-[ICQBackupController cancelRestore:]_block_invoke.435
++ ___38-[ICQBackupController updateBusyState]_block_invoke.422
++ ___39-[ICQUITipSpecifierProvider _fetchTip:]_block_invoke.97
++ ___39-[ICQUsageStorageController specifiers]_block_invoke.335
++ ___46-[ICQCloudStorageGroupController getQuotaInfo]_block_invoke.cold.1
++ ___46-[ICQUpgradeStorageHook beginOsloPurchaseFlow]_block_invoke
++ ___46-[ICQUpgradeStorageHook beginOsloPurchaseFlow]_block_invoke_2
++ ___49-[ICQLocalBackupController deleteBackupConfirmed]_block_invoke.299
++ ___49-[ICQLocalBackupController deleteBackupConfirmed]_block_invoke_2.cold.1
++ ___50-[ICQBackupController _setBackupEnabled:passcode:]_block_invoke.290
++ ___50-[ICQBackupController _setBackupEnabled:passcode:]_block_invoke.291
++ ___54-[ICQBackupController startListeningForThermalChanges]_block_invoke.217
++ ___54-[ICQLocalBackupController turnOffAppBackupConfirmed:]_block_invoke.150
++ ___54-[ICQLocalBackupController turnOffAppBackupConfirmed:]_block_invoke_2.cold.1
++ ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke.299
++ ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke.299.cold.1
++ ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke.322
++ ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke.323
++ ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke_2.cold.1
++ ___65-[ICQiCloudHeaderSpecifierProvider _launchServerUIFlowWithOffer:]_block_invoke
++ ___67-[ICQUpgradeFlowManager remoteUIController:didFinishLoadWithError:]_block_invoke.168
++ ___69-[ICQUsageStorageController(BugReporting) snapshotAndReportDiskSpace]_block_invoke.70
++ ___69-[ICQUsageStorageController(BugReporting) snapshotAndReportDiskSpace]_block_invoke.cold.1
++ ___76-[ICQiCloudHeaderSpecifierProvider _handleSkippedCFUWithResourceDictionary:]_block_invoke
++ ___76-[ICQiCloudHeaderSpecifierProvider _handleSkippedCFUWithResourceDictionary:]_block_invoke_2
++ ___76-[ICQiCloudHeaderSpecifierProvider _handleSkippedCFUWithResourceDictionary:]_block_invoke_3
++ ___81-[ICQPreferencesRemoteUIDelegate _freshmintStorageUpgradeWithICQLink:completion:]_block_invoke.279
++ ___block_descriptor_40_e8_32bs_e8_v12?0B8ls32l8
++ ___block_descriptor_40_e8_32s_e30_v24?0"ICQOffer"8"NSError"16ls32l8
++ ___block_descriptor_40_e8_32s_e37_v24?0"ICQPremiumOffer"8"NSError"16ls32l8
++ ___block_descriptor_56_e8_32s40s48bs_e8_v12?0B8ls32l8s48l8s40l8
++ ___block_literal_global.107
++ ___block_literal_global.176
++ ___block_literal_global.236
++ ___block_literal_global.247
++ ___block_literal_global.443
++ ___swift_memcpy17_8
++ __unnamed_array_storage.116
++ _associated conformance 13iCloudQuotaUI19ManageStorageAppRowV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13iCloudQuotaUI20ManageStorageInfoRowV05SwiftC04ViewAA4BodyAdEP_AdE
++ _associated conformance 13iCloudQuotaUI21ManageStorageAppModelC7Combine16ObservableObjectAA0J19WillChangePublisherAdEP_AD0M0
++ _associated conformance 13iCloudQuotaUI24ManageStorageDestinationOSHAASQ
++ _associated conformance 13iCloudQuotaUI26RecommendationsViewContextOSHAASQ
++ _block_copy_helper.13
++ _block_copy_helper.134
++ _block_descriptor.136
++ _block_descriptor.15
++ _block_destroy_helper.135
++ _block_destroy_helper.14
++ _get_witness_table 13iCloudQuotaUI19ManageStorageAppRowV05SwiftC04ViewHPyHC.4
++ _get_witness_table 7SwiftUI14LabeledContentVyAA4TextVAA012_ConditionalD0VyAeA08ModifiedD0VyAIyAA12ProgressViewVyAA05EmptyI0VAMGAA30_EnvironmentKeyWritingModifierVyAA11ControlSizeOGGAA16_FlexFrameLayoutVGGSgGAA0I0HPAeAA_HPyHC_AyAA_HpAxAA_HPAeAA_HPyHC_AwAA_HPAtAA_HPAnAA_HPyHC_AsA0iN0HPyHCHC_AvAA0_HPyHCHCHC_HCHC.5
++ _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA14GeometryReaderVyAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQOyAiAE06scrollL10BackgroundyQrAA10VisibilityOFQOyAA08ModifiedL0VyAiAE9listStyleyQrqd__AA04ListR0Rd__lFQOyAA0S0Vys5NeverOAA05TupleH0VyAQyAiAE0Q12RowSeparator_5edgesQrAO_AA12VerticalEdgeO3SetVtFQOyAQy011iCloudQuotaB010HeaderCardVAA21_TraitWritingModifierVyAA0sV14InsetsTraitKeyVGG_Qo_AA14_PaddingLayoutVG_AA012_ConditionalL0VyAiAEAZ_A_QrAO_A3_tFQOyAQyAQyAQyA4_14DelayedSpinnerVAA16_FlexFrameLayoutVGA15_GA8_yAA0svN8TraitKeyVGG_Qo_AQyAA7ForEachVySayA4_021RecommendationSectionH5ModelCGSOAiAE16headerProminenceyQrAA10ProminenceOFQOyAA7SectionVyAA4TextVAiAEAZ_A_QrAO_A3_tFQOyA31_ySaySo16CERecommendationCGSSA18_yAQyA4_4CardVA11_GAQyA47_AA25_AppearanceActionModifierVGGG_Qo_AA05EmptyH0VG_Qo_SgGA15_GGAQyA39_yA41_AiAE12onTapGesture5count7performQrSi_yyctFQOyAQyAQyAQyAQyAQyAiAEAZ_A_QrAO_A3_tFQOyAQyAA0C4LinkVyA41_A4_024CompletedRecommendationsS0VGA15_G_Qo_A22_GAA01_nR8ModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGA11_GA27_G_Qo_A55_GA15_GSgA18_yAiAEAZ_A_QrAO_A3_tFQOyAQyAQyAQyAQyAQyAA6VStackVyAYyA41__A41_tGGA22_GAA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGA15_GA15_GA27_G_Qo_A105_GSgSgtGG_AA05InsetsR0VQo_A77_G_Qo__AA0kL7BuilderV10buildBlockyQrxAaLRzlFZQOy_AA0K4ItemVyytAA6ButtonVyA41_GGQo_Qo_GGAaHHPyHC.1
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA7ForEachVySay011iCloudQuotaB0021RecommendationSectionC5ModelCGSOAcAE16headerProminenceyQrAA0P0OFQOyAA0M0VyAA4TextVAKySaySo16CERecommendationCGSSAA15ModifiedContentVyA_yAcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAL4CardV_Qo_AA21_TraitWritingModifierVyAA0fU14InsetsTraitKeyVGGAA25_AppearanceActionModifierVGGAA05EmptyC0VG_Qo_SgGG_AA012InsetGroupedfE0VQo_HO.4
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAA5GroupVyAA012_ConditionalI0VyAA14NavigationLinkVy011iCloudQuotaB020ManageStorageInfoRowVs5NeverOGAQGGAA25_AppearanceActionModifierVG_AO0pqE0OAO0pQ13LiftUIManagerC014generateRemoteiC03url11errorStringQr10Foundation3URLV_SSSgtFQOy_Qo_Qo_HO.4
++ _objc_msgSend$_handleSkippedCFUWithResourceDictionary:
++ _objc_msgSend$_launchServerUIFlowWithOffer:
++ _objc_msgSend$_launchUpgradeFlowWithActionString:andURL:
++ _objc_msgSend$clearNotificationWithController:offerType:completion:
++ _objc_msgSend$followupSpecification
++ _objc_msgSend$getEventOfferWithOptions:completion:
++ _objc_msgSend$getPremiumOfferWithCompletion:
++ _objc_msgSend$hasServerUIAction
++ _objc_msgSend$icqui_isCFUSkipPath
++ _objc_msgSend$initWithAccountStore:
++ _objc_msgSend$noteActivateLink
++ _objc_msgSend$numberWithLongLong:
++ _objc_msgSend$parentViewController
++ _objc_msgSend$presentHostingNavigationController
++ _objc_msgSend$recController
++ _objc_msgSend$setAccountManager:
++ _objc_msgSend$setRecController:
++ _objc_msgSend$setServerUIURL:
++ _symbolic SDySSSiG
++ _symbolic SDySS_____G 13iCloudQuotaUI21ManageStorageAppModelC
++ _symbolic SS13appIdentifier_t
++ _symbolic So18ICQAppCloudStorageCSg
++ _symbolic _____ 13iCloudQuotaUI19ManageStorageAppRowV
++ _symbolic _____ 13iCloudQuotaUI20ManageStorageInfoRowV
++ _symbolic _____ 13iCloudQuotaUI21ManageStorageAppModelC
++ _symbolic _____ 13iCloudQuotaUI22ManageStorageAnalyticsC
++ _symbolic _____ 13iCloudQuotaUI24ManageStorageDestinationO
++ _symbolic _____ 13iCloudQuotaUI26ManageStorageAppModelStoreC
++ _symbolic _____ 13iCloudQuotaUI26RecommendationsViewContextO
++ _symbolic _____ 13iCloudQuotaUI29ManageStorageAppModelStoreKeyV
++ _symbolic _____ 13iCloudQuotaUI9AnalyticsC5EventV
++ _symbolic _____ 13iCloudQuotaUI9AnalyticsC7JourneyO
++ _symbolic _____3url_t 10Foundation3URLV
++ _symbolic _____Sg 13iCloudQuotaUI22ManageStorageAnalyticsC
++ _symbolic _____Sg 13iCloudQuotaUI24ManageStorageDestinationO
++ _symbolic _____Sg 13iCloudQuotaUI26ManageStorageAppModelStoreC
++ _symbolic _____Sg 13iCloudQuotaUI9AnalyticsC7JourneyO
++ _symbolic _____Sg s5Int64V
++ _symbolic ______AAt 13iCloudQuotaUI24ManageStorageDestinationO
++ _symbolic _____yAAy_____y_____ACG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV
++ _symbolic _____yAAy_____y______Qo______y_____GG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listg6InsetsQ3KeyV AA017_AppearanceActionS0V
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_____G s18_DictionaryStorageC 13iCloudQuotaUI06ManageB8AppModelC
++ _symbolic _____ySaySo16CERecommendationCGSS_____yAEy_____y______Qo______y_____GG_____GG 7SwiftUI7ForEachV AA15ModifiedContentV AA4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listi6InsetsS3KeyV AA017_AppearanceActionU0V
++ _symbolic _____ySay_____GSO_____y_____y_____AAySaySo16CERecommendationCGSS_____yAIy_____y______Qo______y_____GG_____GG_____G_Qo_SgG 7SwiftUI7ForEachV 011iCloudQuotaB030RecommendationSectionViewModelC AA0I0PAAE16headerProminenceyQrAA0L0OFQO AA0H0V AA4TextV AA15ModifiedContentV AhAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AD4CardV AA21_TraitWritingModifierV AA04Listq6InsetsY3KeyV AA25_AppearanceActionModifierV AA05EmptyI0V
++ _symbolic _____y_____G 7SwiftUI14ObservedObjectV 011iCloudQuotaB021ManageStorageAppModelC
++ _symbolic _____y_____SgG 7Combine9PublishedV 10Foundation3URLV
++ _symbolic _____y_____SgG 7Combine9PublishedV s5Int64V
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV 10Foundation3URLV
++ _symbolic _____y_____Sg_G 7Combine9PublishedV9PublisherV s5Int64V
++ _symbolic _____y__________G 7SwiftUI14NavigationLinkV 011iCloudQuotaB020ManageStorageInfoRowV s5NeverO
++ _symbolic _____y__________yAB_____yADy_____y_____AFG_____y_____GG_____GGSgG 7SwiftUI14LabeledContentV AA4TextV AA012_ConditionalD0V AA08ModifiedD0V AA12ProgressViewV AA05EmptyI0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV
++ _symbolic _____y__________yACy_____y_____AEG_____y_____GG_____GG 7SwiftUI19_ConditionalContentV AA4TextV AA08ModifiedD0V AA12ProgressViewV AA05EmptyH0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV
++ _symbolic _____y__________yACy_____y_____AEG_____y_____GG_____GGSg 7SwiftUI19_ConditionalContentV AA4TextV AA08ModifiedD0V AA12ProgressViewV AA05EmptyH0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV
++ _symbolic _____y__________yACy_____y_____AEG_____y_____GG_____G_G 7SwiftUI19_ConditionalContentV7StorageO AA4TextV AA08ModifiedD0V AA12ProgressViewV AA05EmptyI0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO AA16_FlexFrameLayoutV
++ _symbolic _____y__________ySaySo16CERecommendationCGSS_____yAGy_____y______Qo______y_____GG_____GG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AA4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listk6InsetsU3KeyV AA017_AppearanceActionW0V AA05EmptyI0V
++ _symbolic _____y__________ySay_____GSO_____y_____y_____ACySaySo16CERecommendationCGSS_____yAKy_____y______Qo______y_____GG_____GG_____G_Qo_SgGG 7SwiftUI4ListV s5NeverO AA7ForEachV 011iCloudQuotaB030RecommendationSectionViewModelC AA0K0PAAE16headerProminenceyQrAA0N0OFQO AA0J0V AA4TextV AA15ModifiedContentV AlAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AH4CardV AA21_TraitWritingModifierV AA0cS14InsetsTraitKeyV AA25_AppearanceActionModifierV AA05EmptyK0V
++ _symbolic _____y__________y_____y_____y_____y_____y_____y__________yADy_____yADy__________y_____GG_Qo______G______y_____yADyADyADy__________GANGAIy_____GG_Qo_ADy_____ySay_____GSO_____y_____y__________yAYySaySo16CERecommendationCGSSAPyADy_____AKGADyA6______GGG_Qo______G_Qo_SgGANGGADyA0_yA1______yADyADyADyADyADy_____yADy_____yA1______GANG_Qo_ARG_____y_____GG_____y_____GGAKGAVG_Qo_A12_GANGSgAPy_____yADyADyADyADyADy_____yAGyA1__A1_tGGARG_____y_____GGANGANGAVG_Qo_A50_GSgSgtGG______Qo_A27_G_Qo_______y______yyt_____yA1_GGQo_Qo_GG 7SwiftUI15NavigationStackV AA0C4PathV AA14GeometryReaderV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA14ToolbarContentRd__lFQO AiAE06scrollL10BackgroundyQrAA10VisibilityOFQO AA08ModifiedL0V AiAE9listStyleyQrqd__AA04ListR0Rd__lFQO AA0S0V s5NeverO AA05TupleH0V AiAE0Q12RowSeparator_5edgesQrAO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB010HeaderCardV AA21_TraitWritingModifierV AA0sV14InsetsTraitKeyV AA14_PaddingLayoutV AA012_ConditionalL0V AiAEAZ_A_QrAO_A3_tFQO A4_14DelayedSpinnerV AA16_FlexFrameLayoutV AA0svN8TraitKeyV AA7ForEachV A4_021RecommendationSectionH5ModelC AiAE16headerProminenceyQrAA10ProminenceOFQO AA7SectionV AA4TextV AiAEAZ_A_QrAO_A3_tFQO A4_4CardV AA25_AppearanceActionModifierV AA05EmptyH0V AiAE12onTapGesture5count7performQrSi_yyctFQO AiAEAZ_A_QrAO_A3_tFQO AA0C4LinkV A4_024CompletedRecommendationsS0V AA01_nR8ModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AiAEAZ_A_QrAO_A3_tFQO AA6VStackV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA05InsetsR0V AA0kL7BuilderV10buildBlockyQrxAaLRzlFZQO AA0K4ItemV AA6ButtonV
++ _symbolic _____y_____y_____ACG_____y_____GG 7SwiftUI15ModifiedContentV AA12ProgressViewV AA05EmptyF0V AA30_EnvironmentKeyWritingModifierV AA11ControlSizeO
++ _symbolic _____y_____y__________GACG 7SwiftUI19_ConditionalContentV AA14NavigationLinkV 011iCloudQuotaB020ManageStorageInfoRowV s5NeverO
++ _symbolic _____y_____y__________GAC_G 7SwiftUI19_ConditionalContentV7StorageO AA14NavigationLinkV 011iCloudQuotaB006ManageE7InfoRowV s5NeverO
++ _symbolic _____y_____y__________ySaySo16CERecommendationCGSS_____yAGy_____y______Qo______y_____GG_____GG_____G_Qo_ 7SwiftUI4ViewPAAE16headerProminenceyQrAA0E0OFQO AA7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listm6InsetsW3KeyV AA017_AppearanceActionY0V AA05EmptyC0V
++ _symbolic _____y_____y__________ySaySo16CERecommendationCGSS_____yAGy_____y______Qo______y_____GG_____GG_____G_Qo_Sg 7SwiftUI4ViewPAAE16headerProminenceyQrAA0E0OFQO AA7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listm6InsetsW3KeyV AA017_AppearanceActionY0V AA05EmptyC0V
++ _symbolic _____y_____y__________ySay_____GSO_____y_____y_____ACySaySo16CERecommendationCGSS_____yAKy_____y______Qo______y_____GG_____GG_____G_Qo_SgGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA7ForEachV 011iCloudQuotaB0021RecommendationSectionC5ModelC AcAE16headerProminenceyQrAA0P0OFQO AA0M0V AA4TextV AA15ModifiedContentV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AL4CardV AA21_TraitWritingModifierV AA0fT14InsetsTraitKeyV AA25_AppearanceActionModifierV AA05EmptyC0V AA012InsetGroupedfE0V
++ _symbolic _____y_____y_____y__________GADGG 7SwiftUI5GroupV AA19_ConditionalContentV AA14NavigationLinkV 011iCloudQuotaB020ManageStorageInfoRowV s5NeverO
++ _symbolic _____y_____y_____y_____y__________GAEGG_____G 7SwiftUI15ModifiedContentV AA5GroupV AA012_ConditionalD0V AA14NavigationLinkV 011iCloudQuotaB020ManageStorageInfoRowV s5NeverO AA25_AppearanceActionModifierV
++ _symbolic _____y_____y_____y_____y_____y__________GAEGG_____G___________y_Qo_Qo_ 7SwiftUI4ViewPAAE21navigationDestination3for11destinationQrqd__m_qd_0_qd__ctSHRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA5GroupV AA012_ConditionalI0V AA14NavigationLinkV 011iCloudQuotaB020ManageStorageInfoRowV s5NeverO AA25_AppearanceActionModifierV AO0pqE0O AO0pQ13LiftUIManagerC014generateRemoteiC03url11errorStringQr10Foundation3URLV_SSSgtFQO
+- +[ICQSpecifierWithCenterSubtitleCell cellStyle]
+- -[ICQSpecifierWithCenterSubtitleCell refreshCellContentsWithSpecifier:]
+- -[ICQSpecifierWithGiantIconCell layoutSubviews]
+- -[ICQSpecifierWithGiantIconCell refreshCellContentsWithSpecifier:]
+- -[ICQUpgradeFlowPresenter presentFlowWithContext:completion:]
+- -[ICQUpgradeFlowPresenter upgradeFlowManagerDidCancel:]
+- -[ICQUpgradeFlowPresenter upgradeFlowManagerDidComplete:]
+- GCC_except_table78
+- _NSLog
+- _OBJC_CLASS_$_ICQSpecifierWithCenterSubtitleCell
+- _OBJC_CLASS_$_ICQSpecifierWithGiantIconCell
+- _OBJC_CLASS_$_ICQUpgradeFlowPresenter
+- _OBJC_METACLASS_$_ICQSpecifierWithCenterSubtitleCell
+- _OBJC_METACLASS_$_ICQSpecifierWithGiantIconCell
+- _OBJC_METACLASS_$_ICQUpgradeFlowPresenter
+- __DATA__TtC13iCloudQuotaUI9Analytics
+- __IVARS__TtC13iCloudQuotaUI9Analytics
+- __METACLASS_DATA__TtC13iCloudQuotaUI9Analytics
+- __OBJC_$_CLASS_METHODS_ICQSpecifierWithCenterSubtitleCell
+- __OBJC_$_CLASS_METHODS_UIViewController(iCloudQuotaUI|iCloudQuotaUI1)
+- __OBJC_$_INSTANCE_METHODS_ICQSpecifierWithCenterSubtitleCell
+- __OBJC_$_INSTANCE_METHODS_ICQSpecifierWithGiantIconCell
+- __OBJC_$_INSTANCE_METHODS_ICQUpgradeFlowPresenter
+- __OBJC_$_INSTANCE_METHODS_UIViewController(iCloudQuotaUI|iCloudQuotaUI1)
+- __OBJC_$_PROP_LIST_ICQUpgradeFlowPresenter
+- __OBJC_CLASS_PROTOCOLS_$_ICQUpgradeFlowPresenter
+- __OBJC_CLASS_RO_$_ICQSpecifierWithCenterSubtitleCell
+- __OBJC_CLASS_RO_$_ICQSpecifierWithGiantIconCell
+- __OBJC_CLASS_RO_$_ICQUpgradeFlowPresenter
+- __OBJC_METACLASS_RO_$_ICQSpecifierWithCenterSubtitleCell
+- __OBJC_METACLASS_RO_$_ICQSpecifierWithGiantIconCell
+- __OBJC_METACLASS_RO_$_ICQUpgradeFlowPresenter
+- ___34-[ICQBackupController startBackup]_block_invoke.456
+- ___34-[ICQBackupController startBackup]_block_invoke_2
+- ___37-[ICQBackupController cancelRestore:]_block_invoke.453
+- ___38-[ICQBackupController updateBusyState]_block_invoke.440
+- ___39-[ICQUITipSpecifierProvider _fetchTip:]_block_invoke.94
+- ___39-[ICQUsageStorageController specifiers]_block_invoke_3
+- ___49-[ICQLocalBackupController deleteBackupConfirmed]_block_invoke_3
+- ___50-[ICQBackupController _setBackupEnabled:passcode:]_block_invoke.298
+- ___50-[ICQBackupController _setBackupEnabled:passcode:]_block_invoke.299
+- ___54-[ICQBackupController startListeningForThermalChanges]_block_invoke_2
+- ___54-[ICQLocalBackupController turnOffAppBackupConfirmed:]_block_invoke_3
+- ___61-[ICQUpgradeFlowPresenter presentFlowWithContext:completion:]_block_invoke
+- ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke.335
+- ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke_3
+- ___62-[ICQBackupController _persistBackupEnablementState:passcode:]_block_invoke_4
+- ___67-[ICQUpgradeFlowManager remoteUIController:didFinishLoadWithError:]_block_invoke.167
+- ___69-[ICQUsageStorageController(BugReporting) snapshotAndReportDiskSpace]_block_invoke_2
+- ___81-[ICQPreferencesRemoteUIDelegate _freshmintStorageUpgradeWithICQLink:completion:]_block_invoke.282
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_literal_global.104
+- ___block_literal_global.175
+- ___block_literal_global.244
+- ___block_literal_global.255
+- ___block_literal_global.463
+- ___swift_memcpy96_8
+- __swift_stdlib_strtof_clocale
+- __unnamed_array_storage.119
+- _block_copy_helper.131
+- _block_descriptor.133
+- _block_destroy_helper.132
+- _get_witness_table 7SwiftUI15NavigationStackVyAA0C4PathVAA15ModifiedContentVyAA14GeometryReaderVyAA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarG0Rd__lFQOyAkAE06scrollG10BackgroundyQrAA10VisibilityOFQOyAGyAkAE9listStyleyQrqd__AA04ListR0Rd__lFQOyAA0S0Vys5NeverOAA05TupleJ0VyAGyAkAE0Q12RowSeparator_5edgesQrAQ_AA12VerticalEdgeO3SetVtFQOyAGy011iCloudQuotaB010HeaderCardVAA21_TraitWritingModifierVyAA0sV14InsetsTraitKeyVGG_Qo_AA14_PaddingLayoutVG_AA012_ConditionalG0VyAkAEAZ_A_QrAQ_A3_tFQOyAGyAGyAGyA4_14DelayedSpinnerVAA16_FlexFrameLayoutVGA15_GA8_yAA0svO8TraitKeyVGG_Qo_AGyAA7ForEachVySayA4_021RecommendationSectionJ5ModelCGSOAkAE16headerProminenceyQrAA10ProminenceOFQOyAA7SectionVyAA4TextVAkAEAZ_A_QrAQ_A3_tFQOyA31_ySaySo16CERecommendationCGSSA18_yAGyA4_4CardVA11_GAGyA47_AA25_AppearanceActionModifierVGGG_Qo_AA05EmptyJ0VG_Qo_SgGA15_GGAGyA39_yA41_AkAE12onTapGesture5count7performQrSi_yyctFQOyAGyAGyAGyAGyAGyAkAEAZ_A_QrAQ_A3_tFQOyAGyAA0C4LinkVyA41_A4_024CompletedRecommendationsS0VGA15_G_Qo_A22_GAA01_oR8ModifierVyAA5ColorVGGAA11_ClipEffectVyAA16RoundedRectangleVGGA11_GA27_G_Qo_A55_GA15_GSgA18_yAkAEAZ_A_QrAQ_A3_tFQOyAGyAGyAGyAGyAGyAA6VStackVyAYyA41__A41_tGGA22_GAA30_EnvironmentKeyWritingModifierVyAA13TextAlignmentOGGA15_GA15_GA27_G_Qo_A105_GSgSgtGG_AA05InsetsR0VQo_A77_G_Qo__AA0mG7BuilderV10buildBlockyQrxAaNRzlFZQOy_AA0M4ItemVyytAA6ButtonVyA41_GGQo_Qo_GA49_GGAaJHPyHC.1
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE9listStyleyQrqd__AA04ListE0Rd__lFQOyAA0F0Vys5NeverOAA7ForEachVySay011iCloudQuotaB0021RecommendationSectionC5ModelCGSOAcAE16headerProminenceyQrAA0P0OFQOyAA0M0VyAA4TextVAKySaySo16CERecommendationCGSSAA15ModifiedContentVyAcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQOyAL4CardV_Qo_AA21_TraitWritingModifierVyAA0fU14InsetsTraitKeyVGGGAA05EmptyC0VG_Qo_SgGG_AA012InsetGroupedfE0VQo_HO.4
+- _objc_msgSend$center
+- _objc_msgSend$clearNotificationWithController:isPremium:completion:
+- _objc_msgSend$initWithActionString:url:
+- _objc_msgSend$setContext:
+- _symbolic _____Sg 13iCloudQuotaUI9AnalyticsC
+- _symbolic _____ySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG 7SwiftUI7ForEachV AA15ModifiedContentV AA4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listi6InsetsS3KeyV
+- _symbolic _____ySay_____GSO_____y_____y_____AAySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G_Qo_SgG 7SwiftUI7ForEachV 011iCloudQuotaB030RecommendationSectionViewModelC AA0I0PAAE16headerProminenceyQrAA0L0OFQO AA0H0V AA4TextV AA15ModifiedContentV AhAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AD4CardV AA21_TraitWritingModifierV AA04Listq6InsetsY3KeyV AA05EmptyI0V
+- _symbolic _____yShySSGG 7SwiftUI5StateV
+- _symbolic _____yShySSGGSg 7SwiftUI11AnyLocationC
+- _symbolic _____y__________ySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G 7SwiftUI7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AA4ViewPAAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listk6InsetsU3KeyV AA05EmptyI0V
+- _symbolic _____y__________ySay_____GSO_____y_____y_____ACySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G_Qo_SgGG 7SwiftUI4ListV s5NeverO AA7ForEachV 011iCloudQuotaB030RecommendationSectionViewModelC AA0K0PAAE16headerProminenceyQrAA0N0OFQO AA0J0V AA4TextV AA15ModifiedContentV AlAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AH4CardV AA21_TraitWritingModifierV AA0cS14InsetsTraitKeyV AA05EmptyK0V
+- _symbolic _____y__________y_____y_____y_____yACy_____y_____y__________yACy_____yACy__________y_____GG_Qo______G______y_____yACyACyACy__________GANGAIy_____GG_Qo_ACy_____ySay_____GSO_____y_____y__________yAYySaySo16CERecommendationCGSSAPyACy_____AKGACyA6______GGG_Qo______G_Qo_SgGANGGACyA0_yA1______yACyACyACyACyACy_____yACy_____yA1______GANG_Qo_ARG_____y_____GG_____y_____GGAKGAVG_Qo_A12_GANGSgAPy_____yACyACyACyACyACy_____yAGyA1__A1_tGGARG_____y_____GGANGANGAVG_Qo_A50_GSgSgtGG______Qo_A27_G_Qo_______y______yyt_____yA1_GGQo_Qo_GA7_GG 7SwiftUI15NavigationStackV AA0C4PathV AA15ModifiedContentV AA14GeometryReaderV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarG0Rd__lFQO AkAE06scrollG10BackgroundyQrAA10VisibilityOFQO AkAE9listStyleyQrqd__AA04ListR0Rd__lFQO AA0S0V s5NeverO AA05TupleJ0V AkAE0Q12RowSeparator_5edgesQrAQ_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB010HeaderCardV AA21_TraitWritingModifierV AA0sV14InsetsTraitKeyV AA14_PaddingLayoutV AA012_ConditionalG0V AkAEAZ_A_QrAQ_A3_tFQO A4_14DelayedSpinnerV AA16_FlexFrameLayoutV AA0svO8TraitKeyV AA7ForEachV A4_021RecommendationSectionJ5ModelC AkAE16headerProminenceyQrAA10ProminenceOFQO AA7SectionV AA4TextV AkAEAZ_A_QrAQ_A3_tFQO A4_4CardV AA25_AppearanceActionModifierV AA05EmptyJ0V AkAE12onTapGesture5count7performQrSi_yyctFQO AkAEAZ_A_QrAQ_A3_tFQO AA0C4LinkV A4_024CompletedRecommendationsS0V AA01_oR8ModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AkAEAZ_A_QrAQ_A3_tFQO AA6VStackV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA05InsetsR0V AA0mG7BuilderV10buildBlockyQrxAaNRzlFZQO AA0M4ItemV AA6ButtonV
+- _symbolic _____y_____y__________ySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G_Qo_ 7SwiftUI4ViewPAAE16headerProminenceyQrAA0E0OFQO AA7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listm6InsetsW3KeyV AA05EmptyC0V
+- _symbolic _____y_____y__________ySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G_Qo_Sg 7SwiftUI4ViewPAAE16headerProminenceyQrAA0E0OFQO AA7SectionV AA4TextV AA7ForEachV AA15ModifiedContentV AcAE16listRowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB04CardV AA21_TraitWritingModifierV AA04Listm6InsetsW3KeyV AA05EmptyC0V
+- _symbolic _____y_____y__________ySay_____GSO_____y_____y_____ACySaySo16CERecommendationCGSS_____y_____y______Qo______y_____GGG_____G_Qo_SgGG______Qo_ 7SwiftUI4ViewPAAE9listStyleyQrqd__AA04ListE0Rd__lFQO AA0F0V s5NeverO AA7ForEachV 011iCloudQuotaB0021RecommendationSectionC5ModelC AcAE16headerProminenceyQrAA0P0OFQO AA0M0V AA4TextV AA15ModifiedContentV AcAE0D12RowSeparator_5edgesQrAA10VisibilityO_AA12VerticalEdgeO3SetVtFQO AL4CardV AA21_TraitWritingModifierV AA0fT14InsetsTraitKeyV AA05EmptyC0V AA012InsetGroupedfE0V
+- _symbolic _____y_____y_____y_____yAAy_____y_____y__________yAAy_____yAAy__________y_____GG_Qo______G______y_____yAAyAAyAAy__________GALGAGy_____GG_Qo_AAy_____ySay_____GSO_____y_____y__________yAWySaySo16CERecommendationCGSSANyAAy_____AIGAAyA4______GGG_Qo______G_Qo_SgGALGGAAyAZyA______yAAyAAyAAyAAyAAy_____yAAy_____yA______GALG_Qo_APG_____y_____GG_____y_____GGAIGATG_Qo_A10_GALGSgANy_____yAAyAAyAAyAAyAAy_____yAEyA__A_tGGAPG_____y_____GGALGALGATG_Qo_A48_GSgSgtGG______Qo_A25_G_Qo_______y______yyt_____yA_GGQo_Qo_GA5_G 7SwiftUI15ModifiedContentV AA14GeometryReaderV AA4ViewPAAE7toolbar7contentQrqd__yXE_tAA07ToolbarD0Rd__lFQO AgAE06scrollD10BackgroundyQrAA10VisibilityOFQO AgAE9listStyleyQrqd__AA04ListO0Rd__lFQO AA0P0V s5NeverO AA05TupleG0V AgAE0N12RowSeparator_5edgesQrAM_AA12VerticalEdgeO3SetVtFQO 011iCloudQuotaB010HeaderCardV AA21_TraitWritingModifierV AA0pS14InsetsTraitKeyV AA14_PaddingLayoutV AA012_ConditionalD0V AgAEAV_AWQrAM_A_tFQO A0_14DelayedSpinnerV AA16_FlexFrameLayoutV AA0psL8TraitKeyV AA7ForEachV A0_021RecommendationSectionG5ModelC AgAE16headerProminenceyQrAA10ProminenceOFQO AA7SectionV AA4TextV AgAEAV_AWQrAM_A_tFQO A0_4CardV AA25_AppearanceActionModifierV AA05EmptyG0V AgAE12onTapGesture5count7performQrSi_yyctFQO AgAEAV_AWQrAM_A_tFQO AA14NavigationLinkV A0_024CompletedRecommendationsP0V AA01_lO8ModifierV AA5ColorV AA11_ClipEffectV AA16RoundedRectangleV AgAEAV_AWQrAM_A_tFQO AA6VStackV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA05InsetpO0V AA0jD7BuilderV10buildBlockyQrxAaJRzlFZQO AA0J4ItemV AA6ButtonV
+CStrings:
++ "\x01\x11\x12\x11\x13\x1b"
++ " enableTelemetry=YES "
++ "%s called"
++ "%s called for icqLink %@."
++ "%s called for specifier %@."
++ "%s, Detected action direct to oslo, skipping presentation and saving presenting view controller"
++ "%s: Overriding offer action %@ with link action %@"
++ "%s: Received CFU skip url from lockscreen notification"
++ "%s: Received review large files url"
++ "%s: failed to present with _flowManager.hostingNavigationController: %@, _presentingViewController.presentedViewController: %@"
++ "-[ICQUINativeManageStorageController launchFreshmintFlowForLink:]"
++ "-[ICQUINativeManageStorageController launchFreshmintFlowForSpecifier:]"
++ "-[ICQUINativeManageStorageController loadDrilldownFromSpecifier:]"
++ "-[ICQUINativeManageStorageController loadLiftUIDrilldownFromSpecifier:]"
++ "-[ICQUINativeManageStorageController loadRemoteUIDrilldownFromSpecifier:]"
++ "-[ICQUINativeManageStorageController presentLiftUISheetFromSpecifier:]"
++ "-[ICQUINativeManageStorageController presentRemoteUISheetFromSpecifier:]"
++ "-[ICQUINativeManageStorageController provider:loadActionFromSpecifier:]"
++ "-[ICQUpgradeFlowManager _configurePresentingViewController:preloadedRemoteUIData:]"
++ "-[ICQUpgradeFlowManager _presentRemoteUIUsingViewController:withData:]"
++ "-[ICQUpgradeFlowManager beginRemoteUpgradeFlowWithICQLink:presenter:]"
++ "-[ICQUpgradeFlowManager startFlowWithParentViewController:]"
++ "-[ICQiCloudHeaderSpecifierProvider handleURL:]"
++ "@\"NSDictionary\"24@0:8@\"AIDAAccountManager\"16"
++ "AIDAAccountManagerDelegate"
++ "An error occurred. Please try again later."
++ "Failed to delete backup with error: %@"
++ "Failed to snapshot filesystem metadata with error: %@"
++ "Found no url for specifier w/ id: %@, Bailing."
++ "Handling serverUI action %@ in link %@"
++ "ICQAnalytics"
++ "ICQRecommendationsViewControllerWrapper"
++ "ICQUpgradeFlowManger manual presentation request. presentingViewController: %@ hostingNavigationController: %@"
++ "In-app message: present flow manager"
++ "No special handling for action %@ in link %@, falling back to performAction."
++ "Purchase cancelled during direct to oslo, running completion"
++ "Returning in-app message: %@, to client: %@"
++ "Returning message: %@, to client: %@"
++ "SIGNPOST BEGIN [id: %hu]: iOSManageStorageDrilldownLoad  enableTelemetry=YES "
++ "T@\"_TtC13iCloudQuotaUI25RecommendationsController\",&,N,V_recController"
++ "Unable to find an ICQLink in %@"
++ "Unknown scene identifier! Falling back to topmost viewcontroller's scene"
++ "User hit event: %s"
++ "Using server provided copy for recommendation action."
++ "X-Apple-Locale-Date-Format-Long"
++ "X-Apple-Locale-Date-Format-Short"
++ "_TtC13iCloudQuotaUI21ManageStorageAppModel"
++ "_TtC13iCloudQuotaUI22ManageStorageAnalytics"
++ "_TtC13iCloudQuotaUI26ManageStorageAppModelStore"
++ "_handleSkippedCFUWithResourceDictionary:"
++ "_isLoading"
++ "_launchServerUIFlowWithOffer:"
++ "_launchUpgradeFlowWithActionString:andURL:"
++ "_liftUIURL"
++ "_recController"
++ "_storageUsed"
++ "accountsForAccountManager:"
++ "actionTitleTemplateForKey:"
++ "allSetScreenImpressionWithAttributingAppIdentifier:"
++ "all_set_impression_"
++ "clearNotificationWithController:offerType:completion:"
++ "com.apple.iCloudQuota.analytics"
++ "dataController"
++ "event"
++ "followupSpecification"
++ "freshmintPageDisplayedFromInAppBannerWithAppIdentifier:"
++ "freshmintPageInteractionFromInAppBannerWithAppIdentifier:interactionIdentifier:"
++ "freshmint_display"
++ "getEventOfferWithOptions:completion:"
++ "getPremiumOfferWithCompletion:"
++ "hasServerUIAction"
++ "https://apple.com/"
++ "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT"
++ "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT&path=ICLOUD_SERVICE"
++ "icqui_isCFUSkipPath"
++ "imageWithType:size:"
++ "initWithAccountStore:"
++ "loadFailedWithLoadIdentifier:duration:errorCode:"
++ "loadSucceededWithLoadIdentifier:duration:"
++ "logInAppBannerEventWithAppIdentifier:eventName:"
++ "main"
++ "messageTemplateForKey:"
++ "models"
++ "noteActivateLink"
++ "numberWithLongLong:"
++ "presentHostingNavigationController"
++ "q24@?0@\"CERecommendationRule\"8@\"CERecommendationRule\"16"
++ "ranksMap"
++ "recController"
++ "seenCompletedRecommendations"
++ "seenRecommendations"
++ "setADPState:"
++ "setActionTitle:"
++ "setRecController:"
++ "setServerUIURL:"
++ "sortRecommendationRulesUsingComparator:"
++ "standardDateFormat:"
++ "subTitleTemplateForKey:"
++ "titleTemplateForKey:"
++ "v32@0:8q16@24"
++ "v40@0:8@16q24q32"
++ "\xc1"
+- "\x01\x11\x12\x13\x1b"
+- "%@: Received review large files url"
+- "An error occured. Please try again later."
+- "Failed to delete backup due to %@"
+- "Failed to snapshot filesystem metadata: %@"
+- "ICQSpecifierWithCenterSubtitleCell"
+- "ICQSpecifierWithGiantIconCell"
+- "ICQUpgradeFlowPresenter"
+- "INTERNET_PRIVACY_ICON"
+- "In-app message: present flow  manager"
+- "SIGNPOST BEGIN [id: %hu]: iOSManageStorageDrilldownLoad "
+- "_TtC13iCloudQuotaUI9Analytics"
+- "begining flow with context = %@"
+- "center"
+- "clearNotificationWithController:isPremium:completion:"
+- "iCloudQuotaUI1"
+- "initWithActionString:url:"
+- "messageTemplates"
+- "presentFlowWithContext:completion:"
+- "setContext:"
+- "setRecommendationRules:"
+- "subTitleTemplates"
+- "titleTemplates"
+- "\xa1"
+
+```
