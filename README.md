@@ -127,6 +127,7 @@
 ### iOS 26.0 beta
 
 - [18.5 (22F76) .vs 26.0 (23A5260n)](18_5_22F76__vs_26_0_23A5260n/README.md)
+- [26.0 (23A5260n) .vs 26.0 (23A5260u)](26_0_23A5260n__vs_26_0_23A5260u/README.md)
 
 ### Generating Diffs
 
