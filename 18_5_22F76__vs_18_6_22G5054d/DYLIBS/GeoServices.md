@@ -1,0 +1,1124 @@
+## GeoServices
+
+> `/System/Library/PrivateFrameworks/GeoServices.framework/GeoServices`
+
+```diff
+
+-1986.35.3.6.3
+-  __TEXT.__text: 0x16e0f34
++1986.36.4.18.4
++  __TEXT.__text: 0x16e178c
+   __TEXT.__auth_stubs: 0x3180
+   __TEXT.__objc_methlist: 0xd7d9c
+-  __TEXT.__gcc_except_tab: 0x874ec
++  __TEXT.__gcc_except_tab: 0x87534
+   __TEXT.__const: 0x7fe0e
+-  __TEXT.__cstring: 0x9a630
++  __TEXT.__cstring: 0x9a7e9
+   __TEXT.__dlopen_cstrs: 0x289
+-  __TEXT.__oslogstring: 0x23c2f
++  __TEXT.__oslogstring: 0x23ccf
+   __TEXT.__ustring: 0x156
+-  __TEXT.__unwind_info: 0x5d8b8
++  __TEXT.__unwind_info: 0x5d8c0
+   __TEXT.__objc_classname: 0x157db
+-  __TEXT.__objc_methname: 0xdd554
++  __TEXT.__objc_methname: 0xdd560
+   __TEXT.__objc_methtype: 0x72ae1
+   __TEXT.__objc_stubs: 0x7a3a0
+   __DATA_CONST.__got: 0x3dc0
+-  __DATA_CONST.__const: 0x22010
++  __DATA_CONST.__const: 0x22048
+   __DATA_CONST.__objc_classlist: 0x5ca8
+   __DATA_CONST.__objc_catlist: 0xc8
+   __DATA_CONST.__objc_protolist: 0x7d0
+
+   __DATA_CONST.__objc_selrefs: 0x34f30
+   __DATA_CONST.__objc_protorefs: 0x130
+   __DATA_CONST.__objc_superrefs: 0x5860
+-  __DATA_CONST.__objc_arraydata: 0x36b0
++  __DATA_CONST.__objc_arraydata: 0x36b8
+   __AUTH_CONST.__auth_got: 0x18d8
+-  __AUTH_CONST.__const: 0x120a8
+-  __AUTH_CONST.__cfstring: 0xa8d40
+-  __AUTH_CONST.__objc_const: 0x16f9c8
++  __AUTH_CONST.__const: 0x120c8
++  __AUTH_CONST.__cfstring: 0xa8da0
++  __AUTH_CONST.__objc_const: 0x16fa08
+   __AUTH_CONST.__objc_intobj: 0x1680
+   __AUTH_CONST.__objc_arrayobj: 0x768
+   __AUTH_CONST.__objc_dictobj: 0x140
+   __AUTH_CONST.__objc_doubleobj: 0x260
+   __AUTH.__objc_data: 0x34aa8
+   __AUTH.__data: 0x5a0
+-  __DATA.__objc_ivar: 0x7694
+-  __DATA.__data: 0x8e10
++  __DATA.__objc_ivar: 0x769c
++  __DATA.__data: 0x8e20
+   __DATA.__bss: 0x1728
+   __DATA.__common: 0x860
+   __DATA_DIRTY.__objc_ivar: 0xc09c
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: D9A242CE-B761-3383-AD59-36AB8D2C3898
+-  Functions: 98826
+-  Symbols:   268826
+-  CStrings:  95155
++  UUID: FD568AE0-D161-3420-AAC3-CDE16FB34CAC
++  Functions: 98831
++  Symbols:   268841
++  CStrings:  95171
+ 
+Symbols:
++ _.str.421
++ _GeoServicesConfig_TileDBWriteQueueInterval
++ _GeoServicesConfig_TileDBWriteQueueInterval_Metadata
++ _GeoServicesConfig_TileDBWriteQueueInterval_Metadata_block_invoke_479
++ _OBJC_IVAR_$__GEOTileDBWriteQueue._flushTimer
++ _OBJC_IVAR_$__GEOTileDBWriteQueue._transaction
++ ___129-[GEOTileDB _addDataOnDBQueueWithData:forOfflineBatchKey:version:etag:externalResourceUUID:containedKeys:subscriptionIdentifier:]_block_invoke.620
++ ___20-[GEOTileDB _setup:]_block_invoke.539
++ ___20-[GEOTileDB _setup:]_block_invoke.542
++ ___20-[GEOTileDB _setup:]_block_invoke_2.547
++ ___20-[GEOTileDB _setup:]_block_invoke_3
++ ___28-[GEOTileDB _editionUpdate:]_block_invoke.555
++ ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke.558
++ ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke.560
++ ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke_2.559
++ ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke.598
++ ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke.602
++ ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke_2.599
++ ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke_2.603
++ ___45-[GEOTileDB _addSubscriptionOnDBQueue:error:]_block_invoke.611
++ ___46-[GEOTileDB _cleanUpOrphanedExternalResources]_block_invoke.551
++ ___47-[_GEOTileDBWriteQueue _flushPendingOperations]_block_invoke.424
++ ___48-[GEOTileDB _removeSubscriptionOnDBQueue:error:]_block_invoke.613
++ ___60-[GEOTileDB _cleanUpDeletedExternalDataIfNecessaryOnDBQueue]_block_invoke.552
++ ___67-[GEOTileDB _dataForKeyOnDBQueue:reason:callbackQueue:dataHandler:]_block_invoke.564
++ ___70-[GEOTileDB _expireOfflineSubscriptionsForRegulatoryRegionIfNecessary]_block_invoke.606
++ ___70-[GEOTileDB _expireOfflineSubscriptionsForRegulatoryRegionIfNecessary]_block_invoke_2.610
++ ___74-[_GEOTileDBWriteQueue initWithDB:maxOperations:maxOperationsSizeInBytes:]_block_invoke
++ ___96-[GEOTileDB _hasDataForOfflineKeyOnDBQueue:version:associatedWithFullyLoadedSubscription:error:]_block_invoke.623
++ ___97-[GEOTileDB _setSubscriptionWithIdentifierOnQueue:isFullyLoaded:forDataType:dataSubtype:version:]_block_invoke.617
++ ___GetDBGeneration_block_invoke
++ ___SetDBGeneration_block_invoke
++ ___block_literal_global.1171
++ ___block_literal_global.1173
++ ___block_literal_global.1175
++ ___block_literal_global.1200
++ ___block_literal_global.1202
++ ___block_literal_global.1221
++ ___block_literal_global.1223
++ ___block_literal_global.1225
++ ___block_literal_global.1227
++ ___block_literal_global.1229
++ ___block_literal_global.1231
++ ___block_literal_global.1438
++ ___block_literal_global.1443
++ ___block_literal_global.1445
++ ___block_literal_global.1450
++ ___block_literal_global.1452
++ ___block_literal_global.1454
++ ___block_literal_global.1456
++ ___block_literal_global.1458
++ ___block_literal_global.1460
++ ___block_literal_global.1462
++ ___block_literal_global.1464
++ ___block_literal_global.1466
++ ___block_literal_global.1468
++ ___block_literal_global.1470
++ ___block_literal_global.1472
++ ___block_literal_global.1474
++ ___block_literal_global.1476
++ ___block_literal_global.1478
++ ___block_literal_global.1480
++ ___block_literal_global.1482
++ ___block_literal_global.1484
++ ___block_literal_global.1486
++ ___block_literal_global.1488
++ ___block_literal_global.1490
++ ___block_literal_global.1492
++ ___block_literal_global.1494
++ ___block_literal_global.1496
++ ___block_literal_global.1498
++ ___block_literal_global.1500
++ ___block_literal_global.1502
++ ___block_literal_global.1504
++ ___block_literal_global.1506
++ ___block_literal_global.1508
++ ___block_literal_global.1510
++ ___block_literal_global.1512
++ ___block_literal_global.1514
++ ___block_literal_global.1516
++ ___block_literal_global.1518
++ ___block_literal_global.1520
++ ___block_literal_global.1522
++ ___block_literal_global.1524
++ ___block_literal_global.1526
++ ___block_literal_global.1528
++ ___block_literal_global.1530
++ ___block_literal_global.1532
++ ___block_literal_global.1534
++ ___block_literal_global.1536
++ ___block_literal_global.1538
++ ___block_literal_global.1540
++ ___block_literal_global.1542
++ ___block_literal_global.1544
++ ___block_literal_global.1546
++ ___block_literal_global.1548
++ ___block_literal_global.1550
++ ___block_literal_global.1552
++ ___block_literal_global.1554
++ ___block_literal_global.1556
++ ___block_literal_global.1558
++ ___block_literal_global.1560
++ ___block_literal_global.1562
++ ___block_literal_global.1564
++ ___block_literal_global.1566
++ ___block_literal_global.1568
++ ___block_literal_global.1570
++ ___block_literal_global.1572
++ ___block_literal_global.1574
++ ___block_literal_global.1576
++ ___block_literal_global.1581
++ ___block_literal_global.1585
++ ___block_literal_global.1587
++ ___block_literal_global.1595
++ ___block_literal_global.1600
++ ___block_literal_global.1605
++ ___block_literal_global.1610
++ ___block_literal_global.1617
++ ___block_literal_global.1622
++ ___block_literal_global.1627
++ ___block_literal_global.1632
++ ___block_literal_global.1637
++ ___block_literal_global.1642
++ ___block_literal_global.1647
++ ___block_literal_global.1652
++ ___block_literal_global.1654
++ ___block_literal_global.1656
++ ___block_literal_global.1658
++ ___block_literal_global.1660
++ ___block_literal_global.1662
++ ___block_literal_global.1669
++ ___block_literal_global.1674
++ ___block_literal_global.1676
++ ___block_literal_global.1678
++ ___block_literal_global.1680
++ ___block_literal_global.1682
++ ___block_literal_global.1684
++ ___block_literal_global.1686
++ ___block_literal_global.1688
++ ___block_literal_global.1692
++ ___block_literal_global.1694
++ ___block_literal_global.1698
++ ___block_literal_global.1702
++ ___block_literal_global.1706
++ ___block_literal_global.1710
++ ___block_literal_global.1712
++ ___block_literal_global.1714
++ ___block_literal_global.1718
++ ___block_literal_global.1720
++ ___block_literal_global.1722
++ ___block_literal_global.1724
++ ___block_literal_global.1726
++ ___block_literal_global.1728
++ ___block_literal_global.1730
++ ___block_literal_global.1732
++ ___block_literal_global.1736
++ ___block_literal_global.1740
++ ___block_literal_global.1744
++ ___block_literal_global.1748
++ ___block_literal_global.1755
++ ___block_literal_global.1757
++ ___block_literal_global.1759
++ ___block_literal_global.1761
++ ___block_literal_global.1765
++ ___block_literal_global.1767
++ ___block_literal_global.1771
++ ___block_literal_global.1773
++ ___block_literal_global.1777
++ ___block_literal_global.1779
++ ___block_literal_global.1781
++ ___block_literal_global.1783
++ ___block_literal_global.1785
++ ___block_literal_global.1787
++ ___block_literal_global.1789
++ ___block_literal_global.1791
++ ___block_literal_global.1795
++ ___block_literal_global.1797
++ ___block_literal_global.1799
++ ___block_literal_global.1801
++ ___block_literal_global.1805
++ ___block_literal_global.1807
++ ___block_literal_global.1811
++ ___block_literal_global.1815
++ ___block_literal_global.1819
++ ___block_literal_global.1823
++ ___block_literal_global.1825
++ ___block_literal_global.1829
++ ___block_literal_global.1831
++ ___block_literal_global.1833
++ ___block_literal_global.1835
++ ___block_literal_global.1837
++ ___block_literal_global.1841
++ ___block_literal_global.1843
++ ___block_literal_global.1845
++ ___block_literal_global.1847
++ ___block_literal_global.1849
++ ___block_literal_global.1851
++ ___block_literal_global.1853
++ ___block_literal_global.1855
++ ___block_literal_global.1859
++ ___block_literal_global.1861
++ ___block_literal_global.1863
++ ___block_literal_global.1874
++ ___block_literal_global.1878
++ ___block_literal_global.1880
++ ___block_literal_global.1885
++ ___block_literal_global.1887
++ ___block_literal_global.1891
++ ___block_literal_global.1895
++ ___block_literal_global.1897
++ ___block_literal_global.1899
++ ___block_literal_global.1903
++ ___block_literal_global.1905
++ ___block_literal_global.1909
++ ___block_literal_global.1913
++ ___block_literal_global.1915
++ ___block_literal_global.1919
++ ___block_literal_global.1921
++ ___block_literal_global.1925
++ ___block_literal_global.1927
++ ___block_literal_global.1929
++ ___block_literal_global.1931
++ ___block_literal_global.1933
++ ___block_literal_global.1935
++ ___block_literal_global.1937
++ ___block_literal_global.1941
++ ___block_literal_global.1945
++ ___block_literal_global.1949
++ ___block_literal_global.1951
++ ___block_literal_global.1955
++ ___block_literal_global.1959
++ ___block_literal_global.1961
++ ___block_literal_global.1963
++ ___block_literal_global.1965
++ ___block_literal_global.1967
++ ___block_literal_global.1969
++ ___block_literal_global.1971
++ ___block_literal_global.1979
++ ___block_literal_global.1981
++ ___block_literal_global.1983
++ ___block_literal_global.1985
++ ___block_literal_global.1987
++ ___block_literal_global.1989
++ ___block_literal_global.1991
++ ___block_literal_global.1993
++ ___block_literal_global.1995
++ ___block_literal_global.1997
++ ___block_literal_global.2001
++ ___block_literal_global.2003
++ ___block_literal_global.2005
++ ___block_literal_global.2007
++ ___block_literal_global.2009
++ ___block_literal_global.2011
++ ___block_literal_global.2013
++ ___block_literal_global.2015
++ ___block_literal_global.2017
++ ___block_literal_global.2019
++ ___block_literal_global.2021
++ ___block_literal_global.2023
++ ___block_literal_global.2025
++ ___block_literal_global.2027
++ ___block_literal_global.2029
++ ___block_literal_global.2031
++ ___block_literal_global.2033
++ ___block_literal_global.2035
++ ___block_literal_global.2037
++ ___block_literal_global.2041
++ ___block_literal_global.2045
++ ___block_literal_global.2047
++ ___block_literal_global.2051
++ ___block_literal_global.2053
++ ___block_literal_global.2055
++ ___block_literal_global.2059
++ ___block_literal_global.2061
++ ___block_literal_global.2063
++ ___block_literal_global.2065
++ ___block_literal_global.2067
++ ___block_literal_global.2069
++ ___block_literal_global.2073
++ ___block_literal_global.2075
++ ___block_literal_global.2077
++ ___block_literal_global.2079
++ ___block_literal_global.2083
++ ___block_literal_global.2085
++ ___block_literal_global.2087
++ ___block_literal_global.2089
++ ___block_literal_global.2091
++ ___block_literal_global.2095
++ ___block_literal_global.2097
++ ___block_literal_global.2099
++ ___block_literal_global.2103
++ ___block_literal_global.2107
++ ___block_literal_global.2109
++ ___block_literal_global.2111
++ ___block_literal_global.2115
++ ___block_literal_global.2117
++ ___block_literal_global.2119
++ ___block_literal_global.2123
++ ___block_literal_global.2127
++ ___block_literal_global.2131
++ ___block_literal_global.2133
++ ___block_literal_global.2135
++ ___block_literal_global.2137
++ ___block_literal_global.2139
++ ___block_literal_global.2141
++ ___block_literal_global.2145
++ ___block_literal_global.2147
++ ___block_literal_global.2151
++ ___block_literal_global.2153
++ ___block_literal_global.2157
++ ___block_literal_global.2159
++ ___block_literal_global.2161
++ ___block_literal_global.2163
++ ___block_literal_global.2165
++ ___block_literal_global.2167
++ ___block_literal_global.2171
++ ___block_literal_global.2175
++ ___block_literal_global.2177
++ ___block_literal_global.2179
++ ___block_literal_global.2181
++ ___block_literal_global.2185
++ ___block_literal_global.2187
++ ___block_literal_global.2189
++ ___block_literal_global.2191
++ ___block_literal_global.2195
++ ___block_literal_global.2197
++ ___block_literal_global.2199
++ ___block_literal_global.2201
++ ___block_literal_global.2203
++ ___block_literal_global.2205
++ ___block_literal_global.2207
++ ___block_literal_global.2209
++ ___block_literal_global.2211
++ ___block_literal_global.2215
++ ___block_literal_global.2219
++ ___block_literal_global.2221
++ ___block_literal_global.2223
++ ___block_literal_global.2225
++ ___block_literal_global.2227
++ ___block_literal_global.2229
++ ___block_literal_global.2231
++ ___block_literal_global.2233
++ ___block_literal_global.2237
++ ___block_literal_global.2239
++ ___block_literal_global.2243
++ ___block_literal_global.2245
++ ___block_literal_global.2249
++ ___block_literal_global.2251
++ ___block_literal_global.2253
++ ___block_literal_global.2255
++ ___block_literal_global.2257
++ ___block_literal_global.2261
++ ___block_literal_global.2263
++ ___block_literal_global.2265
++ ___block_literal_global.2270
++ ___block_literal_global.2272
++ ___block_literal_global.2274
++ ___block_literal_global.2276
++ ___block_literal_global.2278
++ ___block_literal_global.2280
++ ___block_literal_global.2282
++ ___block_literal_global.2284
++ ___block_literal_global.2286
++ ___block_literal_global.2288
++ ___block_literal_global.2290
++ ___block_literal_global.2292
++ ___block_literal_global.2296
++ ___block_literal_global.2298
++ ___block_literal_global.2300
++ ___block_literal_global.2302
++ ___block_literal_global.2306
++ ___block_literal_global.2310
++ ___block_literal_global.2316
++ ___block_literal_global.2320
++ ___block_literal_global.2324
++ ___block_literal_global.2326
++ ___block_literal_global.2328
++ ___block_literal_global.2330
++ ___block_literal_global.2334
++ ___block_literal_global.2338
++ ___block_literal_global.2342
++ ___block_literal_global.2344
++ ___block_literal_global.2346
++ ___block_literal_global.2348
++ ___block_literal_global.2350
++ ___block_literal_global.2352
++ ___block_literal_global.2354
++ ___block_literal_global.2356
++ ___block_literal_global.2358
++ ___block_literal_global.2360
++ ___block_literal_global.2362
++ ___block_literal_global.2364
++ ___block_literal_global.2371
++ ___block_literal_global.2373
++ ___block_literal_global.2375
++ ___block_literal_global.2377
++ ___block_literal_global.2379
++ ___block_literal_global.2381
++ ___block_literal_global.2383
++ ___block_literal_global.2385
++ ___block_literal_global.2387
++ ___block_literal_global.2401
++ ___block_literal_global.2403
++ ___block_literal_global.2405
++ ___block_literal_global.2407
++ ___block_literal_global.2409
++ ___block_literal_global.2411
++ ___block_literal_global.2413
++ ___block_literal_global.2421
++ ___block_literal_global.2423
++ ___block_literal_global.2427
++ ___block_literal_global.2429
++ ___block_literal_global.2434
++ ___block_literal_global.2436
++ ___block_literal_global.2440
++ ___block_literal_global.2442
++ ___block_literal_global.2444
++ ___block_literal_global.2448
++ ___block_literal_global.2450
++ ___block_literal_global.2452
++ ___block_literal_global.2454
++ ___block_literal_global.2456
++ ___block_literal_global.2458
++ ___block_literal_global.2460
++ ___block_literal_global.2462
++ ___block_literal_global.2464
++ ___block_literal_global.2466
++ ___block_literal_global.2468
++ ___block_literal_global.2470
++ ___block_literal_global.2472
++ ___block_literal_global.2474
++ ___block_literal_global.2476
++ ___block_literal_global.2478
++ ___block_literal_global.2482
++ ___block_literal_global.2484
++ ___block_literal_global.2486
++ ___block_literal_global.2488
++ ___block_literal_global.2490
++ ___block_literal_global.2492
++ ___block_literal_global.2494
++ ___block_literal_global.2496
++ ___block_literal_global.2498
++ ___block_literal_global.2500
++ ___block_literal_global.2502
++ ___block_literal_global.2504
++ ___block_literal_global.2506
++ ___block_literal_global.2508
++ ___block_literal_global.2512
++ ___block_literal_global.2514
++ ___block_literal_global.2516
++ ___block_literal_global.2518
++ ___block_literal_global.2522
++ ___block_literal_global.2524
++ ___block_literal_global.2528
++ ___block_literal_global.2530
++ ___block_literal_global.2532
++ ___block_literal_global.2534
++ ___block_literal_global.2538
++ ___block_literal_global.2540
++ ___block_literal_global.2542
++ ___block_literal_global.2544
++ ___block_literal_global.2546
++ ___block_literal_global.2548
++ ___block_literal_global.2550
++ ___block_literal_global.2554
++ ___block_literal_global.2556
++ ___block_literal_global.2558
++ ___block_literal_global.2560
++ ___block_literal_global.2562
++ ___block_literal_global.2564
++ ___block_literal_global.2566
++ ___block_literal_global.2568
++ ___block_literal_global.2570
++ ___block_literal_global.2572
++ ___block_literal_global.2574
++ ___block_literal_global.2576
++ ___block_literal_global.2585
++ ___block_literal_global.2590
++ ___block_literal_global.2592
++ ___block_literal_global.2594
++ ___block_literal_global.2599
++ ___block_literal_global.2618
++ ___block_literal_global.2624
++ ___block_literal_global.2626
++ ___block_literal_global.2628
++ ___block_literal_global.2630
++ ___block_literal_global.2632
++ ___block_literal_global.2634
++ ___block_literal_global.2636
++ ___block_literal_global.2638
++ ___block_literal_global.2640
++ ___block_literal_global.2642
++ ___block_literal_global.2644
++ ___block_literal_global.2646
++ ___block_literal_global.2648
++ ___block_literal_global.2650
++ ___block_literal_global.2760
++ ___block_literal_global.2762
++ ___block_literal_global.2767
++ ___block_literal_global.2769
++ ___block_literal_global.2774
++ ___block_literal_global.2776
++ ___block_literal_global.2778
++ ___block_literal_global.2780
++ ___block_literal_global.2782
++ ___block_literal_global.2790
++ ___block_literal_global.2792
++ ___block_literal_global.2794
++ ___block_literal_global.2796
++ ___block_literal_global.2798
++ ___block_literal_global.2800
++ ___block_literal_global.2802
++ ___block_literal_global.2804
++ ___block_literal_global.2806
++ ___block_literal_global.2808
++ ___block_literal_global.2810
++ ___block_literal_global.2814
++ ___block_literal_global.2816
++ ___block_literal_global.2818
++ ___block_literal_global.609
++ ___block_literal_global.980
+- _.str.416
+- ___129-[GEOTileDB _addDataOnDBQueueWithData:forOfflineBatchKey:version:etag:externalResourceUUID:containedKeys:subscriptionIdentifier:]_block_invoke.609
+- ___20-[GEOTileDB _setup:]_block_invoke.528
+- ___20-[GEOTileDB _setup:]_block_invoke.531
+- ___20-[GEOTileDB _setup:]_block_invoke_2.536
+- ___28-[GEOTileDB _editionUpdate:]_block_invoke.543
+- ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke.546
+- ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke.548
+- ___31-[GEOTileDB _shrinkBySizeSlow:]_block_invoke_2.547
+- ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke.586
+- ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke.591
+- ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke_2.588
+- ___40-[GEOTileDB _removeExpiredSubscriptions]_block_invoke_2.592
+- ___45-[GEOTileDB _addSubscriptionOnDBQueue:error:]_block_invoke.600
+- ___46-[GEOTileDB _cleanUpOrphanedExternalResources]_block_invoke.539
+- ___47-[_GEOTileDBWriteQueue _flushPendingOperations]_block_invoke.417
+- ___48-[GEOTileDB _removeSubscriptionOnDBQueue:error:]_block_invoke.602
+- ___60-[GEOTileDB _cleanUpDeletedExternalDataIfNecessaryOnDBQueue]_block_invoke.540
+- ___67-[GEOTileDB _dataForKeyOnDBQueue:reason:callbackQueue:dataHandler:]_block_invoke.552
+- ___70-[GEOTileDB _expireOfflineSubscriptionsForRegulatoryRegionIfNecessary]_block_invoke.595
+- ___70-[GEOTileDB _expireOfflineSubscriptionsForRegulatoryRegionIfNecessary]_block_invoke_2.599
+- ___96-[GEOTileDB _hasDataForOfflineKeyOnDBQueue:version:associatedWithFullyLoadedSubscription:error:]_block_invoke.612
+- ___97-[GEOTileDB _setSubscriptionWithIdentifierOnQueue:isFullyLoaded:forDataType:dataSubtype:version:]_block_invoke.606
+- ___block_literal_global.1155
+- ___block_literal_global.1157
+- ___block_literal_global.1159
+- ___block_literal_global.1184
+- ___block_literal_global.1186
+- ___block_literal_global.1191
+- ___block_literal_global.1205
+- ___block_literal_global.1209
+- ___block_literal_global.1211
+- ___block_literal_global.1213
+- ___block_literal_global.1215
+- ___block_literal_global.1435
+- ___block_literal_global.1440
+- ___block_literal_global.1442
+- ___block_literal_global.1447
+- ___block_literal_global.1449
+- ___block_literal_global.1451
+- ___block_literal_global.1453
+- ___block_literal_global.1455
+- ___block_literal_global.1457
+- ___block_literal_global.1459
+- ___block_literal_global.1461
+- ___block_literal_global.1463
+- ___block_literal_global.1465
+- ___block_literal_global.1467
+- ___block_literal_global.1469
+- ___block_literal_global.1471
+- ___block_literal_global.1473
+- ___block_literal_global.1475
+- ___block_literal_global.1477
+- ___block_literal_global.1479
+- ___block_literal_global.1481
+- ___block_literal_global.1483
+- ___block_literal_global.1485
+- ___block_literal_global.1487
+- ___block_literal_global.1489
+- ___block_literal_global.1491
+- ___block_literal_global.1493
+- ___block_literal_global.1495
+- ___block_literal_global.1497
+- ___block_literal_global.1499
+- ___block_literal_global.1501
+- ___block_literal_global.1503
+- ___block_literal_global.1505
+- ___block_literal_global.1507
+- ___block_literal_global.1509
+- ___block_literal_global.1511
+- ___block_literal_global.1513
+- ___block_literal_global.1515
+- ___block_literal_global.1517
+- ___block_literal_global.1519
+- ___block_literal_global.1521
+- ___block_literal_global.1523
+- ___block_literal_global.1525
+- ___block_literal_global.1527
+- ___block_literal_global.1529
+- ___block_literal_global.1531
+- ___block_literal_global.1533
+- ___block_literal_global.1535
+- ___block_literal_global.1537
+- ___block_literal_global.1539
+- ___block_literal_global.1541
+- ___block_literal_global.1543
+- ___block_literal_global.1545
+- ___block_literal_global.1547
+- ___block_literal_global.1549
+- ___block_literal_global.1551
+- ___block_literal_global.1553
+- ___block_literal_global.1555
+- ___block_literal_global.1557
+- ___block_literal_global.1559
+- ___block_literal_global.1561
+- ___block_literal_global.1563
+- ___block_literal_global.1565
+- ___block_literal_global.1567
+- ___block_literal_global.1569
+- ___block_literal_global.1571
+- ___block_literal_global.1573
+- ___block_literal_global.1578
+- ___block_literal_global.1582
+- ___block_literal_global.1584
+- ___block_literal_global.1592
+- ___block_literal_global.1597
+- ___block_literal_global.1602
+- ___block_literal_global.1607
+- ___block_literal_global.1614
+- ___block_literal_global.1619
+- ___block_literal_global.1624
+- ___block_literal_global.1629
+- ___block_literal_global.1634
+- ___block_literal_global.1639
+- ___block_literal_global.1644
+- ___block_literal_global.1649
+- ___block_literal_global.1651
+- ___block_literal_global.1653
+- ___block_literal_global.1655
+- ___block_literal_global.1657
+- ___block_literal_global.1659
+- ___block_literal_global.1666
+- ___block_literal_global.1671
+- ___block_literal_global.1673
+- ___block_literal_global.1675
+- ___block_literal_global.1677
+- ___block_literal_global.1679
+- ___block_literal_global.1681
+- ___block_literal_global.1683
+- ___block_literal_global.1685
+- ___block_literal_global.1689
+- ___block_literal_global.1691
+- ___block_literal_global.1695
+- ___block_literal_global.1699
+- ___block_literal_global.1703
+- ___block_literal_global.1707
+- ___block_literal_global.1709
+- ___block_literal_global.1711
+- ___block_literal_global.1715
+- ___block_literal_global.1717
+- ___block_literal_global.1719
+- ___block_literal_global.1721
+- ___block_literal_global.1723
+- ___block_literal_global.1725
+- ___block_literal_global.1727
+- ___block_literal_global.1729
+- ___block_literal_global.1733
+- ___block_literal_global.1737
+- ___block_literal_global.1741
+- ___block_literal_global.1745
+- ___block_literal_global.1749
+- ___block_literal_global.1754
+- ___block_literal_global.1756
+- ___block_literal_global.1758
+- ___block_literal_global.1762
+- ___block_literal_global.1764
+- ___block_literal_global.1768
+- ___block_literal_global.1770
+- ___block_literal_global.1774
+- ___block_literal_global.1776
+- ___block_literal_global.1778
+- ___block_literal_global.1780
+- ___block_literal_global.1782
+- ___block_literal_global.1784
+- ___block_literal_global.1786
+- ___block_literal_global.1788
+- ___block_literal_global.1792
+- ___block_literal_global.1794
+- ___block_literal_global.1796
+- ___block_literal_global.1798
+- ___block_literal_global.1802
+- ___block_literal_global.1804
+- ___block_literal_global.1808
+- ___block_literal_global.1812
+- ___block_literal_global.1816
+- ___block_literal_global.1820
+- ___block_literal_global.1822
+- ___block_literal_global.1826
+- ___block_literal_global.1828
+- ___block_literal_global.1830
+- ___block_literal_global.1832
+- ___block_literal_global.1834
+- ___block_literal_global.1838
+- ___block_literal_global.1840
+- ___block_literal_global.1842
+- ___block_literal_global.1844
+- ___block_literal_global.1846
+- ___block_literal_global.1848
+- ___block_literal_global.1850
+- ___block_literal_global.1852
+- ___block_literal_global.1856
+- ___block_literal_global.1858
+- ___block_literal_global.1860
+- ___block_literal_global.1871
+- ___block_literal_global.1875
+- ___block_literal_global.1877
+- ___block_literal_global.1882
+- ___block_literal_global.1884
+- ___block_literal_global.1888
+- ___block_literal_global.1892
+- ___block_literal_global.1894
+- ___block_literal_global.1896
+- ___block_literal_global.1900
+- ___block_literal_global.1902
+- ___block_literal_global.1906
+- ___block_literal_global.1910
+- ___block_literal_global.1912
+- ___block_literal_global.1916
+- ___block_literal_global.1918
+- ___block_literal_global.1922
+- ___block_literal_global.1924
+- ___block_literal_global.1926
+- ___block_literal_global.1928
+- ___block_literal_global.1930
+- ___block_literal_global.1932
+- ___block_literal_global.1934
+- ___block_literal_global.1938
+- ___block_literal_global.1942
+- ___block_literal_global.1946
+- ___block_literal_global.1948
+- ___block_literal_global.1952
+- ___block_literal_global.1956
+- ___block_literal_global.1958
+- ___block_literal_global.1960
+- ___block_literal_global.1962
+- ___block_literal_global.1964
+- ___block_literal_global.1966
+- ___block_literal_global.1968
+- ___block_literal_global.1976
+- ___block_literal_global.1978
+- ___block_literal_global.1980
+- ___block_literal_global.1982
+- ___block_literal_global.1984
+- ___block_literal_global.1986
+- ___block_literal_global.1988
+- ___block_literal_global.1990
+- ___block_literal_global.1992
+- ___block_literal_global.1994
+- ___block_literal_global.1998
+- ___block_literal_global.2000
+- ___block_literal_global.2002
+- ___block_literal_global.2004
+- ___block_literal_global.2006
+- ___block_literal_global.2008
+- ___block_literal_global.2010
+- ___block_literal_global.2012
+- ___block_literal_global.2014
+- ___block_literal_global.2016
+- ___block_literal_global.2018
+- ___block_literal_global.2020
+- ___block_literal_global.2022
+- ___block_literal_global.2024
+- ___block_literal_global.2026
+- ___block_literal_global.2028
+- ___block_literal_global.2030
+- ___block_literal_global.2032
+- ___block_literal_global.2034
+- ___block_literal_global.2038
+- ___block_literal_global.2042
+- ___block_literal_global.2044
+- ___block_literal_global.2048
+- ___block_literal_global.2050
+- ___block_literal_global.2052
+- ___block_literal_global.2056
+- ___block_literal_global.2058
+- ___block_literal_global.2060
+- ___block_literal_global.2062
+- ___block_literal_global.2064
+- ___block_literal_global.2066
+- ___block_literal_global.2070
+- ___block_literal_global.2072
+- ___block_literal_global.2074
+- ___block_literal_global.2076
+- ___block_literal_global.2080
+- ___block_literal_global.2082
+- ___block_literal_global.2084
+- ___block_literal_global.2086
+- ___block_literal_global.2088
+- ___block_literal_global.2092
+- ___block_literal_global.2094
+- ___block_literal_global.2096
+- ___block_literal_global.2100
+- ___block_literal_global.2104
+- ___block_literal_global.2106
+- ___block_literal_global.2108
+- ___block_literal_global.2112
+- ___block_literal_global.2114
+- ___block_literal_global.2116
+- ___block_literal_global.2120
+- ___block_literal_global.2124
+- ___block_literal_global.2128
+- ___block_literal_global.2130
+- ___block_literal_global.2132
+- ___block_literal_global.2134
+- ___block_literal_global.2136
+- ___block_literal_global.2138
+- ___block_literal_global.2142
+- ___block_literal_global.2144
+- ___block_literal_global.2148
+- ___block_literal_global.2150
+- ___block_literal_global.2154
+- ___block_literal_global.2156
+- ___block_literal_global.2158
+- ___block_literal_global.2160
+- ___block_literal_global.2162
+- ___block_literal_global.2164
+- ___block_literal_global.2168
+- ___block_literal_global.2172
+- ___block_literal_global.2174
+- ___block_literal_global.2176
+- ___block_literal_global.2178
+- ___block_literal_global.2182
+- ___block_literal_global.2184
+- ___block_literal_global.2186
+- ___block_literal_global.2188
+- ___block_literal_global.2192
+- ___block_literal_global.2194
+- ___block_literal_global.2196
+- ___block_literal_global.2198
+- ___block_literal_global.2200
+- ___block_literal_global.2202
+- ___block_literal_global.2204
+- ___block_literal_global.2206
+- ___block_literal_global.2208
+- ___block_literal_global.2212
+- ___block_literal_global.2216
+- ___block_literal_global.2218
+- ___block_literal_global.2220
+- ___block_literal_global.2222
+- ___block_literal_global.2224
+- ___block_literal_global.2226
+- ___block_literal_global.2228
+- ___block_literal_global.2230
+- ___block_literal_global.2234
+- ___block_literal_global.2236
+- ___block_literal_global.2240
+- ___block_literal_global.2242
+- ___block_literal_global.2246
+- ___block_literal_global.2248
+- ___block_literal_global.2250
+- ___block_literal_global.2252
+- ___block_literal_global.2254
+- ___block_literal_global.2258
+- ___block_literal_global.2260
+- ___block_literal_global.2262
+- ___block_literal_global.2264
+- ___block_literal_global.2269
+- ___block_literal_global.2271
+- ___block_literal_global.2273
+- ___block_literal_global.2275
+- ___block_literal_global.2277
+- ___block_literal_global.2279
+- ___block_literal_global.2281
+- ___block_literal_global.2283
+- ___block_literal_global.2285
+- ___block_literal_global.2287
+- ___block_literal_global.2289
+- ___block_literal_global.2293
+- ___block_literal_global.2295
+- ___block_literal_global.2297
+- ___block_literal_global.2299
+- ___block_literal_global.2303
+- ___block_literal_global.2307
+- ___block_literal_global.2313
+- ___block_literal_global.2317
+- ___block_literal_global.2321
+- ___block_literal_global.2323
+- ___block_literal_global.2325
+- ___block_literal_global.2327
+- ___block_literal_global.2331
+- ___block_literal_global.2335
+- ___block_literal_global.2339
+- ___block_literal_global.2341
+- ___block_literal_global.2343
+- ___block_literal_global.2345
+- ___block_literal_global.2347
+- ___block_literal_global.2349
+- ___block_literal_global.2351
+- ___block_literal_global.2353
+- ___block_literal_global.2355
+- ___block_literal_global.2357
+- ___block_literal_global.2359
+- ___block_literal_global.2361
+- ___block_literal_global.2368
+- ___block_literal_global.2370
+- ___block_literal_global.2372
+- ___block_literal_global.2374
+- ___block_literal_global.2376
+- ___block_literal_global.2378
+- ___block_literal_global.2380
+- ___block_literal_global.2382
+- ___block_literal_global.2384
+- ___block_literal_global.2398
+- ___block_literal_global.2400
+- ___block_literal_global.2402
+- ___block_literal_global.2404
+- ___block_literal_global.2406
+- ___block_literal_global.2408
+- ___block_literal_global.2410
+- ___block_literal_global.2418
+- ___block_literal_global.2420
+- ___block_literal_global.2424
+- ___block_literal_global.2426
+- ___block_literal_global.2431
+- ___block_literal_global.2433
+- ___block_literal_global.2437
+- ___block_literal_global.2439
+- ___block_literal_global.2441
+- ___block_literal_global.2445
+- ___block_literal_global.2447
+- ___block_literal_global.2449
+- ___block_literal_global.2451
+- ___block_literal_global.2453
+- ___block_literal_global.2455
+- ___block_literal_global.2457
+- ___block_literal_global.2459
+- ___block_literal_global.2461
+- ___block_literal_global.2463
+- ___block_literal_global.2465
+- ___block_literal_global.2467
+- ___block_literal_global.2469
+- ___block_literal_global.2471
+- ___block_literal_global.2473
+- ___block_literal_global.2475
+- ___block_literal_global.2479
+- ___block_literal_global.2481
+- ___block_literal_global.2483
+- ___block_literal_global.2485
+- ___block_literal_global.2487
+- ___block_literal_global.2489
+- ___block_literal_global.2491
+- ___block_literal_global.2493
+- ___block_literal_global.2495
+- ___block_literal_global.2497
+- ___block_literal_global.2499
+- ___block_literal_global.2501
+- ___block_literal_global.2503
+- ___block_literal_global.2505
+- ___block_literal_global.2509
+- ___block_literal_global.2511
+- ___block_literal_global.2513
+- ___block_literal_global.2515
+- ___block_literal_global.2519
+- ___block_literal_global.2521
+- ___block_literal_global.2525
+- ___block_literal_global.2527
+- ___block_literal_global.2529
+- ___block_literal_global.2531
+- ___block_literal_global.2535
+- ___block_literal_global.2537
+- ___block_literal_global.2539
+- ___block_literal_global.2541
+- ___block_literal_global.2543
+- ___block_literal_global.2545
+- ___block_literal_global.2547
+- ___block_literal_global.2551
+- ___block_literal_global.2553
+- ___block_literal_global.2555
+- ___block_literal_global.2557
+- ___block_literal_global.2559
+- ___block_literal_global.2561
+- ___block_literal_global.2563
+- ___block_literal_global.2565
+- ___block_literal_global.2567
+- ___block_literal_global.2569
+- ___block_literal_global.2571
+- ___block_literal_global.2573
+- ___block_literal_global.2582
+- ___block_literal_global.2587
+- ___block_literal_global.2589
+- ___block_literal_global.2591
+- ___block_literal_global.2596
+- ___block_literal_global.2615
+- ___block_literal_global.2621
+- ___block_literal_global.2623
+- ___block_literal_global.2625
+- ___block_literal_global.2627
+- ___block_literal_global.2629
+- ___block_literal_global.2631
+- ___block_literal_global.2633
+- ___block_literal_global.2635
+- ___block_literal_global.2637
+- ___block_literal_global.2639
+- ___block_literal_global.2641
+- ___block_literal_global.2643
+- ___block_literal_global.2645
+- ___block_literal_global.2647
+- ___block_literal_global.2757
+- ___block_literal_global.2759
+- ___block_literal_global.2764
+- ___block_literal_global.2766
+- ___block_literal_global.2771
+- ___block_literal_global.2773
+- ___block_literal_global.2775
+- ___block_literal_global.2777
+- ___block_literal_global.2779
+- ___block_literal_global.2787
+- ___block_literal_global.2789
+- ___block_literal_global.2791
+- ___block_literal_global.2793
+- ___block_literal_global.2795
+- ___block_literal_global.2797
+- ___block_literal_global.2799
+- ___block_literal_global.2801
+- ___block_literal_global.2803
+- ___block_literal_global.2805
+- ___block_literal_global.2807
+- ___block_literal_global.2811
+- ___block_literal_global.2813
+- ___block_literal_global.598
+- ___block_literal_global.970
+CStrings:
++ "@category"
++ "@generation"
++ "Assertion failed: EnumerateOfflineDataExternalResources(_db, ((void*)0), ^BOOL(NSUUID *ext_uuid) { NSURL *fileURL = [_externalDataDirectory URLByAppendingPathComponent:ext_uuid.UUIDString]; if ([fileManager fileExistsAtPath:fileURL.path]) { if ( __builtin_expect(!([fileManager removeItemAtURL:fileURL error:((void*)0)]), 0) ) { __extension__({ os_log_t _log_tmp = (((__bridge os_log_t)&(_os_log_default))); os_log_type_t _type_tmp = OS_LOG_TYPE_FAULT; if (os_log_type_enabled(_log_tmp, _type_tmp)) { __extension__({ _Pragma(\"clang diagnostic push\") _Pragma(\"clang diagnostic ignored \\\"-Wvla\\\"\") _Pragma(\"clang diagnostic error \\\"-Wformat\\\"\") _Static_assert(__builtin_constant_p(\"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"), \"format/label/description argument must be a string constant\"); __attribute__((section(\"__TEXT,__oslogstring,cstring_literals\"),internal_linkage)) static const char _os_fmt_str[] __asm(\"LOS_LOG47\") = \"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"; uint8_t _Alignas(16) __attribute__((uninitialized)) _os_fmt_buf[__builtin_os_log_format_buffer_size(\"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\")]; _os_log_fault_impl(&__dso_handle, _log_tmp, _type_tmp, _os_fmt_str, (uint8_t *)__builtin_os_log_format(_os_fmt_buf, \"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"), (uint32_t)sizeof(_os_fmt_buf)) _Pragma(\"clang diagnostic pop\"); }); } }); return __objc_no; } else do {} while (0); } return __objc_yes; })"
++ "CREATE TABLE IF NOT EXISTS db_generation (    category INT NOT NULL,    generation INT NOT NULL,    UNIQUE(category)    ON CONFLICT REPLACE    );"
++ "Failed to read file-backed tile data: %{public}@"
++ "GetDBGeneration"
++ "INSERT INTO db_generation    (category, generation)    VALUES (@category, @generation);"
++ "SELECT generation    FROM db_generation    WHERE category = @category;"
++ "Scheduling write queue timer for %.1f seconds"
++ "SetDBGeneration"
++ "Tile DB generation changed (%u => %u). Cleaning up external data"
++ "TileDBWriteQueueInterval"
++ "_flushTimer"
++ "com.apple.geo.com.apple.GeoServices.TileDB.pendingWrites"
+- "Assertion failed: EnumerateOfflineDataExternalResources(_db, ((void*)0), ^BOOL(NSUUID *ext_uuid) { NSURL *fileURL = [_externalDataDirectory URLByAppendingPathComponent:ext_uuid.UUIDString]; if ([fileManager fileExistsAtPath:fileURL.path]) { if ( __builtin_expect(!([fileManager removeItemAtURL:fileURL error:((void*)0)]), 0) ) { __extension__({ os_log_t _log_tmp = (((__bridge os_log_t)&(_os_log_default))); os_log_type_t _type_tmp = OS_LOG_TYPE_FAULT; if (os_log_type_enabled(_log_tmp, _type_tmp)) { __extension__({ _Pragma(\"clang diagnostic push\") _Pragma(\"clang diagnostic ignored \\\"-Wvla\\\"\") _Pragma(\"clang diagnostic error \\\"-Wformat\\\"\") _Static_assert(__builtin_constant_p(\"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"), \"format/label/description argument must be a string constant\"); __attribute__((section(\"__TEXT,__oslogstring,cstring_literals\"),internal_linkage)) static const char _os_fmt_str[] __asm(\"LOS_LOG45\") = \"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"; uint8_t _Alignas(16) __attribute__((uninitialized)) _os_fmt_buf[__builtin_os_log_format_buffer_size(\"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\")]; _os_log_fault_impl(&__dso_handle, _log_tmp, _type_tmp, _os_fmt_str, (uint8_t *)__builtin_os_log_format(_os_fmt_buf, \"Assertion failed: \" \"[fileManager removeItemAtURL:fileURL error:((void*)0)]\"), (uint32_t)sizeof(_os_fmt_buf)) _Pragma(\"clang diagnostic pop\"); }); } }); return __objc_no; } else do {} while (0); } return __objc_yes; })"
+
+```

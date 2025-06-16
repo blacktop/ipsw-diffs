@@ -1,0 +1,48 @@
+## GAXSpringboardServer
+
+> `/System/Library/AccessibilityBundles/GAXSpringboardServer.bundle/GAXSpringboardServer`
+
+```diff
+
+-1002.2.2.0.0
++1002.2.4.0.0
+   __TEXT.__text: 0x142b0
+   __TEXT.__auth_stubs: 0x6a0
+   __TEXT.__objc_stubs: 0x2aa0
+   __TEXT.__objc_methlist: 0x1d3c
+   __TEXT.__const: 0xa0
+   __TEXT.__gcc_except_tab: 0x4d4
+-  __TEXT.__cstring: 0x4d35
++  __TEXT.__cstring: 0x4d55
+   __TEXT.__objc_methname: 0x51e6
+   __TEXT.__oslogstring: 0x1037
+   __TEXT.__objc_classname: 0xdcd
+
+   __TEXT.__unwind_info: 0x6d0
+   __DATA_CONST.__auth_got: 0x360
+   __DATA_CONST.__got: 0x220
+-  __DATA_CONST.__const: 0x1080
+-  __DATA_CONST.__cfstring: 0x4880
++  __DATA_CONST.__const: 0x1088
++  __DATA_CONST.__cfstring: 0x48a0
+   __DATA_CONST.__objc_classlist: 0x2d8
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x20
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B1008906-8BAA-3AB9-828F-B3D6B8D6398F
++  UUID: 088BC413-2C8E-3CA5-8374-343BC234B7EB
+   Functions: 534
+-  Symbols:   541
+-  CStrings:  2163
++  Symbols:   542
++  CStrings:  2165
+ 
+Symbols:
++ _GAXAccessibilityUIServerIdentifier
+CStrings:
++ "com.apple.AccessibilityUIServer"
+
+```

@@ -1,0 +1,31 @@
+## KaleidoscopePoster
+
+> `/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/KaleidoscopePoster.appex/KaleidoscopePoster`
+
+```diff
+
+-2483.147.79.1.2
++2483.147.79.9.0
+   __TEXT.__text: 0x24c08
+   __TEXT.__auth_stubs: 0x1300
+   __TEXT.__objc_stubs: 0x12a0
+
+   __TEXT.__eh_frame: 0x80
+   __DATA_CONST.__auth_got: 0x998
+   __DATA_CONST.__got: 0x380
+-  __DATA_CONST.__auth_ptr: 0x318
++  __DATA_CONST.__auth_ptr: 0x350
+   __DATA_CONST.__const: 0x6a8
+   __DATA_CONST.__cfstring: 0x500
+   __DATA_CONST.__objc_classlist: 0x80
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  UUID: 398C6B6B-E0CF-3403-8BE4-F783C5F7A9DD
++  UUID: 44C121CB-1D02-3F83-B2BF-4AF8B2E38402
+   Functions: 511
+   Symbols:   314
+   CStrings:  772
+
+```
