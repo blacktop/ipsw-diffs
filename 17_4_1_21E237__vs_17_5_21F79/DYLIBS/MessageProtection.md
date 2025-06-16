@@ -1,0 +1,647 @@
+## MessageProtection
+
+> `/System/Library/PrivateFrameworks/MessageProtection.framework/MessageProtection`
+
+```diff
+
+-329.100.22.0.0
+-  __TEXT.__text: 0x7fa64
+-  __TEXT.__auth_stubs: 0x2020
+-  __TEXT.__objc_methlist: 0x211c
+-  __TEXT.__cstring: 0x43e1
++329.120.3.0.0
++  __TEXT.__text: 0x85018
++  __TEXT.__auth_stubs: 0x2070
++  __TEXT.__objc_methlist: 0x212c
++  __TEXT.__cstring: 0x45a1
+   __TEXT.__oslogstring: 0x1b7d
+-  __TEXT.__const: 0x3af0
++  __TEXT.__const: 0x3f40
+   __TEXT.__gcc_except_tab: 0x2d4
+   __TEXT.__ustring: 0x21c
+-  __TEXT.__constg_swiftt: 0xee4
+-  __TEXT.__swift5_typeref: 0xb99
+-  __TEXT.__swift5_proto: 0x36c
+-  __TEXT.__swift5_types: 0x128
++  __TEXT.__constg_swiftt: 0xf7c
++  __TEXT.__swift5_typeref: 0xc59
++  __TEXT.__swift5_proto: 0x3b8
++  __TEXT.__swift5_types: 0x13c
+   __TEXT.__swift5_capture: 0x198
+-  __TEXT.__swift5_fieldmd: 0xd38
+-  __TEXT.__swift5_reflstr: 0xcc7
+-  __TEXT.__swift5_assocty: 0x138
++  __TEXT.__swift5_fieldmd: 0xe0c
++  __TEXT.__swift5_reflstr: 0xdb7
++  __TEXT.__swift5_assocty: 0x168
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x20a4
+-  __TEXT.__eh_frame: 0x2310
++  __TEXT.__unwind_info: 0x23fc
++  __TEXT.__eh_frame: 0x2510
+   __TEXT.__objc_classname: 0x58c
+-  __TEXT.__objc_methname: 0x3d6d
+-  __TEXT.__objc_methtype: 0xc42
+-  __TEXT.__objc_stubs: 0x2ca0
+-  __DATA_CONST.__got: 0x480
++  __TEXT.__objc_methname: 0x3cc2
++  __TEXT.__objc_methtype: 0xc3e
++  __TEXT.__objc_stubs: 0x2c20
++  __DATA_CONST.__got: 0x490
+   __DATA_CONST.__const: 0x328
+   __DATA_CONST.__objc_classlist: 0x258
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0x4fc8
+-  __DATA_CONST.__objc_selrefs: 0xe68
++  __DATA_CONST.__objc_selrefs: 0xe50
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_classrefs: 0x290
+   __DATA_CONST.__objc_superrefs: 0x128
+   __AUTH_CONST.__objc_const: 0x120
+-  __AUTH_CONST.__cfstring: 0x1880
++  __AUTH_CONST.__cfstring: 0x18a0
+   __AUTH_CONST.__objc_intobj: 0xd8
+-  __AUTH_CONST.__const: 0x16c8
+-  __AUTH_CONST.__auth_got: 0x1020
+-  __AUTH.__objc_data: 0x670
++  __AUTH_CONST.__const: 0x1a70
++  __AUTH_CONST.__auth_got: 0x1048
++  __AUTH.__objc_data: 0x488
+   __AUTH.__data: 0x148
+   __DATA.__objc_ivar: 0x178
+-  __DATA.__data: 0xe60
+-  __DATA.__bss: 0x4f80
++  __DATA.__data: 0xf10
++  __DATA.__bss: 0x5200
+   __DATA.__common: 0x1b8
+-  __DATA_DIRTY.__const: 0xe08
++  __DATA_DIRTY.__const: 0xd78
+   __DATA_DIRTY.__objc_const: 0x14c0
+-  __DATA_DIRTY.__objc_data: 0x1b70
+-  __DATA_DIRTY.__data: 0x1320
+-  __DATA_DIRTY.__bss: 0x1dd0
+-  __DATA_DIRTY.__common: 0xf8
++  __DATA_DIRTY.__objc_data: 0x1d58
++  __DATA_DIRTY.__data: 0x1518
++  __DATA_DIRTY.__bss: 0x24d0
++  __DATA_DIRTY.__common: 0x100
+   - /System/Library/Frameworks/CoreData.framework/CoreData
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+-  - /System/Library/Frameworks/CryptoTokenKit.framework/CryptoTokenKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/PrivateFrameworks/CryptoKitPrivate.framework/CryptoKitPrivate
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: A8D62C3D-329A-399E-8233-E757D325B6CF
+-  Functions: 2796
+-  Symbols:   8721
+-  CStrings:  1617
++  UUID: FEA810E9-443A-3149-A3D6-842BF7AD6C41
++  Functions: 2929
++  Symbols:   9081
++  CStrings:  1620
+ 
+Symbols:
++ +[NGMFullPrekey newCompactPrivateKey]
++ +[SecKeyP256Private compactPrivateKeyWithAccessControl:]
++ +[SecKeyP256Private compactPrivateKeyWithAccessControl:].cold.1
++ +[SecKeyP256Private compactPrivateKeyWithAccessControl:].cold.2
++ -[NGMFullPrekey isSEPKey]
++ -[NGMFullPrekey keychainData]
++ -[NGMFullPrekey tetraPrivateKey]
++ -[NGMFullPrekey tetraRegistration]
++ -[NGMPBDevicePreKey hasTetraPrivateKey]
++ -[NGMPBDevicePreKey hasTetraRegistrationData]
++ -[NGMPBDevicePreKey hasTetraVersion]
++ -[NGMPBDevicePreKey setHasTetraVersion:]
++ -[NGMPBDevicePreKey setTetraPrivateKey:]
++ -[NGMPBDevicePreKey setTetraRegistrationData:]
++ -[NGMPBDevicePreKey setTetraVersion:]
++ -[NGMPBDevicePreKey tetraPrivateKey]
++ -[NGMPBDevicePreKey tetraRegistrationData]
++ -[NGMPBDevicePreKey tetraVersion]
++ -[NGMPBOuterMessage hasTetraMessage]
++ -[NGMPBOuterMessage setTetraMessage:]
++ -[NGMPBOuterMessage tetraMessage]
++ -[NGMPBPublicDeviceIdentity hasTetraVersion]
++ -[NGMPBPublicDeviceIdentity setHasTetraVersion:]
++ -[NGMPBPublicDeviceIdentity setTetraVersion:]
++ -[NGMPBPublicDeviceIdentity tetraVersion]
++ -[NGMPBPublicDevicePrekey hasTetraPreKey]
++ -[NGMPBPublicDevicePrekey setTetraPreKey:]
++ -[NGMPBPublicDevicePrekey tetraPreKey]
++ -[NGMPublicDeviceIdentity isTetraCompatibleWithFullKey:]
++ _$s10Foundation4DataVSgMD
++ _$s10Foundation4DataVSgxSgSEsSERzlWL
++ _$s10Foundation4DataVSgxSgSEsSERzlWl
++ _$s17MessageProtection10AKSTokenIDSo11CFStringRefavp
++ _$s17MessageProtection10AKSTokenID_WZ
++ _$s17MessageProtection10AKSTokenID_Wz
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLO11stringValueAFSgSS_tcfCTf4nd_n
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFSQAAWL
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFSQAAWl
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs0E3KeyAAWL
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs0E3KeyAAWl
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs23CustomStringConvertibleAAWL
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs23CustomStringConvertibleAAWl
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs28CustomDebugStringConvertibleAAWL
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOAFs28CustomDebugStringConvertibleAAWl
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOMF
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOMXX
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOMa
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOMf
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOMn
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAAMc
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAAMcMK
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAASH9hashValueSivgTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAASQWb
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSQAAMc
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSQAAMcMK
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOWV
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAMc
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAMcMK
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAs23CustomStringConvertiblePWb
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAs28CustomDebugStringConvertiblePWb
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAsAGP11stringValueSSvgTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAsAGP11stringValuexSgSS_tcfCTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAsAGP8intValueSiSgvgTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAsAGP8intValuexSgSi_tcfCTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs23CustomStringConvertibleAAMc
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs23CustomStringConvertibleAAMcMK
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs28CustomDebugStringConvertibleAAMc
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs28CustomDebugStringConvertibleAAMcMK
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOwet
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOwst
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOwug
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOwui
++ _$s17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOwup
++ _$s17MessageProtection12TetraECDHKeyV28sharedSecretFromKeyAgreement4with9CryptoKit09SymmetricH0VAF4P256O0hI0O06PublicH0V_tKF
++ _$s17MessageProtection12TetraECDHKeyV4fromACs7Decoder_p_tKcfC
++ _$s17MessageProtection12TetraECDHKeyV6encode2toys7Encoder_p_tKF
++ _$s17MessageProtection12TetraECDHKeyV9publicKey9CryptoKit4P256O0F9AgreementO06PublicF0Vvg
++ _$s17MessageProtection12TetraECDHKeyVACSEAAWL
++ _$s17MessageProtection12TetraECDHKeyVACSeAAWL
++ _$s17MessageProtection12TetraECDHKeyVMF
++ _$s17MessageProtection12TetraECDHKeyVMa
++ _$s17MessageProtection12TetraECDHKeyVMf
++ _$s17MessageProtection12TetraECDHKeyVMl
++ _$s17MessageProtection12TetraECDHKeyVMn
++ _$s17MessageProtection12TetraECDHKeyVMr
++ _$s17MessageProtection12TetraECDHKeyVN
++ _$s17MessageProtection12TetraECDHKeyVSEAAMc
++ _$s17MessageProtection12TetraECDHKeyVSEAAMcMK
++ _$s17MessageProtection12TetraECDHKeyVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17MessageProtection12TetraECDHKeyVSeAAMc
++ _$s17MessageProtection12TetraECDHKeyVSeAAMcMK
++ _$s17MessageProtection12TetraECDHKeyVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17MessageProtection12TetraECDHKeyVWOb
++ _$s17MessageProtection12TetraECDHKeyVWOc
++ _$s17MessageProtection12TetraECDHKeyVWOh
++ _$s17MessageProtection12TetraECDHKeyVWOhTm
++ _$s17MessageProtection12TetraECDHKeyVWV
++ _$s17MessageProtection12TetraECDHKeyVwCP
++ _$s17MessageProtection12TetraECDHKeyVwca
++ _$s17MessageProtection12TetraECDHKeyVwcp
++ _$s17MessageProtection12TetraECDHKeyVwet
++ _$s17MessageProtection12TetraECDHKeyVwst
++ _$s17MessageProtection12TetraECDHKeyVwta
++ _$s17MessageProtection12TetraECDHKeyVwtk
++ _$s17MessageProtection12TetraECDHKeyVwxx
++ _$s17MessageProtection15TetraECDHSecKeyV016sharedSecretFromE9Agreement4with9CryptoKit09SymmetricE0VAF4P256O0eI0O06PublicE0V_tKF
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAESQAAWL
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAESQAAWl
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs0fE0AAWL
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs0fE0AAWl
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs23CustomStringConvertibleAAWL
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs23CustomStringConvertibleAAWl
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs28CustomDebugStringConvertibleAAWL
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOMF
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOMa
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOMf
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOMn
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysON
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAASH9hashValueSivgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAASQWb
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSQAAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSQAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAAMA
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAASY8rawValue03RawI0QzvgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAASY8rawValuexSg03RawI0Qz_tcfCTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOSYAASY8rawValuexSg03RawI0Qz_tcfCTWTv_
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOWV
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAs23CustomStringConvertiblePWb
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAs28CustomDebugStringConvertiblePWb
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAsAFP11stringValueSSvgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAsAFP11stringValuexSgSS_tcfCTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAsAFP11stringValuexSgSS_tcfCTWTv_
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAsAFP8intValueSiSgvgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAsAFP8intValuexSgSi_tcfCTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs23CustomStringConvertibleAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs28CustomDebugStringConvertibleAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOwet
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOwst
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOwug
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOwui
++ _$s17MessageProtection15TetraECDHSecKeyV10CodingKeysOwup
++ _$s17MessageProtection15TetraECDHSecKeyV4fromACs7Decoder_p_tKcfCTf4nd_n
++ _$s17MessageProtection15TetraECDHSecKeyV6encode2toys7Encoder_p_tKF
++ _$s17MessageProtection15TetraECDHSecKeyV7aksBlobAC10Foundation4DataV_tKcfCTf4nd_n
++ _$s17MessageProtection15TetraECDHSecKeyVACSEAAWL
++ _$s17MessageProtection15TetraECDHSecKeyVACSEAAWl
++ _$s17MessageProtection15TetraECDHSecKeyVACSeAAWL
++ _$s17MessageProtection15TetraECDHSecKeyVACSeAAWl
++ _$s17MessageProtection15TetraECDHSecKeyVMF
++ _$s17MessageProtection15TetraECDHSecKeyVMa
++ _$s17MessageProtection15TetraECDHSecKeyVMf
++ _$s17MessageProtection15TetraECDHSecKeyVMn
++ _$s17MessageProtection15TetraECDHSecKeyVN
++ _$s17MessageProtection15TetraECDHSecKeyVSEAAMc
++ _$s17MessageProtection15TetraECDHSecKeyVSEAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s17MessageProtection15TetraECDHSecKeyVSeAAMc
++ _$s17MessageProtection15TetraECDHSecKeyVSeAAMcMK
++ _$s17MessageProtection15TetraECDHSecKeyVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOACSQAAWL
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOACSQAAWl
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOACs5ErrorAAWL
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOACs5ErrorAAWl
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOMF
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOMa
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOMf
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOMn
++ _$s17MessageProtection21TetraECDHSecKeyErrorsON
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAAMc
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAAMcMK
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAASH9hashValueSivgTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSHAASQWb
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSQAAMc
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSQAAMcMK
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOWV
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAMc
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAMcMK
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAsADP19_getEmbeddedNSErroryXlSgyFTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAsADP5_codeSivgTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAsADP7_domainSSvgTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOs5ErrorAAsADP9_userInfoyXlSgvgTW
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOwet
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOwst
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOwug
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOwui
++ _$s17MessageProtection21TetraECDHSecKeyErrorsOwup
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO8rawValueAESgSS_tcfCTf4nd_n
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO8rawValueAESgSS_tcfCTv_
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAESQAAWL
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAESQAAWl
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs0gE0AAWL
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs0gE0AAWl
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs23CustomStringConvertibleAAWL
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs23CustomStringConvertibleAAWl
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs28CustomDebugStringConvertibleAAWL
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOMF
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOMa
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOMf
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOMn
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysON
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAASH9hashValueSivgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAASQWb
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSQAAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSQAAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSQAASQ2eeoiySbx_xtFZTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSYAAMA
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSYAAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSYAAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSYAASY8rawValue03RawJ0QzvgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOWV
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAs23CustomStringConvertiblePWb
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAs28CustomDebugStringConvertiblePWb
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAsAFP11stringValueSSvgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAsAFP11stringValuexSgSS_tcfCTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAsAFP8intValueSiSgvgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAsAFP8intValuexSgSi_tcfCTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs23CustomStringConvertibleAAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs23CustomStringConvertibleAAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs23CustomStringConvertibleAAsAFP11descriptionSSvgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs28CustomDebugStringConvertibleAAMc
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs28CustomDebugStringConvertibleAAMcMK
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOwet
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOwst
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOwug
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOwui
++ _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOwup
++ _$s17MessageProtection23TetraOutgoingKeyContentV14includesKEMKey5encapACSb_10Foundation4DataVSgtKcfC
++ _$s17MessageProtection23TetraOutgoingKeyContentVWOc
++ _$s17MessageProtection8TokenOIDSo11CFStringRefavp
++ _$s17MessageProtection8TokenOID_WZ
++ _$s17MessageProtection8TokenOID_Wz
++ _$s9CryptoKit13SecureEnclaveO11isAvailableSbvgZ
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VAISe17MessageProtectionWlTm
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgMD
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgML
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgMa
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOb
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOc
++ _$s9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0VSgWOh
++ _$s9CryptoKit8Kyber768O10PrivateKeyVSgWOdTm
++ _$s9CryptoKit8Kyber768O10PrivateKeyVSgWOhTm
++ _$s9CryptoKit8Kyber768O10PrivateKeyVSgxSgSEsSERzlWL
++ _$s9CryptoKit8Kyber768O10PrivateKeyVSgxSgSEsSERzlWl
++ _$s9CryptoKit9Kyber1024O10PrivateKeyVSgxSgSEsSERzlWL
++ _$s9CryptoKit9Kyber1024O10PrivateKeyVSgxSgSEsSERzlWl
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSo11CFStringRefa_yXlTgm5
++ _$sSo8NSObjectC10ObjectiveCE13_rawHashValue4seedS2i_tF
++ _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
++ _$sSo8NSObjectCABSH10ObjectiveCWL
++ _$sSo8NSObjectCABSH10ObjectiveCWl
++ _$sSo8NSObjectCML
++ _$sSo8NSObjectCSH10ObjectiveCMc
++ _$ss17__CocoaDictionaryV6lookupyyXlSgyXlF
++ _$ss18_DictionaryStorageCySo11CFStringRefayXlGMD
++ _$ss22KeyedDecodingContainerVy17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOGMD
++ _$ss22KeyedDecodingContainerVy17MessageProtection15TetraECDHSecKeyV10CodingKeysOGMD
++ _$ss22KeyedDecodingContainerVy17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOGMD
++ _$ss22KeyedEncodingContainerVy17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOGMD
++ _$ss22KeyedEncodingContainerVy17MessageProtection15TetraECDHSecKeyV10CodingKeysOGMD
++ _$ss22KeyedEncodingContainerVy17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOGMD
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo8NSObjectC_Tg5
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo8NSObjectC_Tg5
++ _$ss23_ContiguousArrayStorageCySo11CFStringRefa_yXltGMD
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO_Tg5
++ _$ss38_bridgeAnythingNonVerbatimToObjectiveCyyXlxnlF
++ _$sxSgSEsSERzlMc
++ _$syXlN
++ _OBJC_IVAR_$_NGMFullPrekey._tetraPrivateKey
++ _OBJC_IVAR_$_NGMFullPrekey._tetraRegistration
++ _OBJC_IVAR_$_NGMPBDevicePreKey._tetraPrivateKey
++ _OBJC_IVAR_$_NGMPBDevicePreKey._tetraRegistrationData
++ _OBJC_IVAR_$_NGMPBDevicePreKey._tetraVersion
++ _OBJC_IVAR_$_NGMPBOuterMessage._tetraMessage
++ _OBJC_IVAR_$_NGMPBPublicDeviceIdentity._tetraVersion
++ _OBJC_IVAR_$_NGMPBPublicDevicePrekey._tetraPreKey
++ _associated conformance 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOSHAASQ
++ _associated conformance 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 17MessageProtection15TetraECDHSecKeyV10CodingKeysOSHAASQ
++ _associated conformance 17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAs23CustomStringConvertible
++ _associated conformance 17MessageProtection15TetraECDHSecKeyV10CodingKeysOs0fE0AAs28CustomDebugStringConvertible
++ _associated conformance 17MessageProtection21TetraECDHSecKeyErrorsOSHAASQ
++ _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOSHAASQ
++ _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAs23CustomStringConvertible
++ _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysOs0gE0AAs28CustomDebugStringConvertible
++ _objc_msgSend$compactPrivateKeyWithAccessControl:
++ _objc_msgSend$hasTetraMessage
++ _objc_msgSend$hasTetraPrivateKey
++ _objc_msgSend$isTetraCompatibleWithFullKey:
++ _objc_msgSend$setTetraMessage:
++ _objc_msgSend$setTetraPreKey:
++ _objc_msgSend$setTetraPrivateKey:
++ _objc_msgSend$setTetraRegistrationData:
++ _objc_msgSend$setTetraVersion:
++ _objc_msgSend$tetraMessage
++ _objc_msgSend$tetraPreKey
++ _objc_msgSend$tetraPrivateKey
++ _objc_msgSend$tetraRegistrationData
++ _symbolic _____ 17MessageProtection12TetraECDHKeyV
++ _symbolic _____ 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLO
++ _symbolic _____ 17MessageProtection15TetraECDHSecKeyV
++ _symbolic _____ 17MessageProtection15TetraECDHSecKeyV10CodingKeysO
++ _symbolic _____ 17MessageProtection21TetraECDHSecKeyErrorsO
++ _symbolic _____ 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO
++ _symbolic _____Sg 17MessageProtection15TetraECDHSecKeyV
++ _symbolic _____Sg 9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17MessageProtection15TetraECDHSecKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17MessageProtection12TetraECDHKeyV10CodingKeys33_8DBB73CD2A2F188CBCF836BAA44E29C1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17MessageProtection15TetraECDHSecKeyV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 17MessageProtection23TetraOutgoingKeyContentV10CodingKeysO
++ _symbolic _____y______yXltG s23_ContiguousArrayStorageC So11CFStringRefa
++ _symbolic _____y_____yXlG s18_DictionaryStorageC So11CFStringRefa
+- +[NGMFullPrekey hasSEP]
+- +[SecKeyP256Private generateWithAccessControl:].cold.1
+- +[SecKeyP256Private generateWithAccessControl:].cold.2
+- -[NGMFullPrekey ecdhKeyCTKObject]
+- -[NGMFullPrekey secondaryPrivateKey]
+- -[NGMFullPrekey secondaryRegistration]
+- -[NGMPBDevicePreKey hasSecondaryPrivateKey]
+- -[NGMPBDevicePreKey hasSecondaryRegistrationData]
+- -[NGMPBDevicePreKey hasSecondaryVersion]
+- -[NGMPBDevicePreKey secondaryPrivateKey]
+- -[NGMPBDevicePreKey secondaryRegistrationData]
+- -[NGMPBDevicePreKey secondaryVersion]
+- -[NGMPBDevicePreKey setHasSecondaryVersion:]
+- -[NGMPBDevicePreKey setSecondaryPrivateKey:]
+- -[NGMPBDevicePreKey setSecondaryRegistrationData:]
+- -[NGMPBDevicePreKey setSecondaryVersion:]
+- -[NGMPBOuterMessage hasSecondaryMessage]
+- -[NGMPBOuterMessage secondaryMessage]
+- -[NGMPBOuterMessage setSecondaryMessage:]
+- -[NGMPBPublicDeviceIdentity hasSecondaryVersion]
+- -[NGMPBPublicDeviceIdentity secondaryVersion]
+- -[NGMPBPublicDeviceIdentity setHasSecondaryVersion:]
+- -[NGMPBPublicDeviceIdentity setSecondaryVersion:]
+- -[NGMPBPublicDevicePrekey hasSecondaryPrekey]
+- -[NGMPBPublicDevicePrekey secondaryPrekey]
+- -[NGMPBPublicDevicePrekey setSecondaryPrekey:]
+- -[NGMPublicDeviceIdentity isSecondaryCompatibleWithFullKey:]
+- _$s17MessageProtection21TetraRatchetingErrorsOwetTm
+- _$s17MessageProtection21TetraRatchetingErrorsOwstTm
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLO11stringValueAFSgSS_tcfCTf4nd_n
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFSQAAWL
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFSQAAWl
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs0gE0AAWL
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs0gE0AAWl
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs23CustomStringConvertibleAAWL
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs23CustomStringConvertibleAAWl
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs28CustomDebugStringConvertibleAAWL
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOAFs28CustomDebugStringConvertibleAAWl
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOMF
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOMXX
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOMa
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOMf
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOMn
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAAMc
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAAMcMK
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAASH4hash4intoys6HasherVz_tFTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAASH9hashValueSivgTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAASQWb
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSQAAMc
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSQAAMcMK
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSQAASQ2eeoiySbx_xtFZTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOWV
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAMc
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAMcMK
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAs23CustomStringConvertiblePWb
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAs28CustomDebugStringConvertiblePWb
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAsAGP11stringValueSSvgTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAsAGP11stringValuexSgSS_tcfCTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAsAGP8intValueSiSgvgTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAsAGP8intValuexSgSi_tcfCTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs23CustomStringConvertibleAAMc
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs23CustomStringConvertibleAAMcMK
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs28CustomDebugStringConvertibleAAMc
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs28CustomDebugStringConvertibleAAMcMK
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs28CustomDebugStringConvertibleAAsAGP16debugDescriptionSSvgTW
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOwet
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOwst
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOwug
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOwui
+- _$s17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOwup
+- _$ss22KeyedDecodingContainerVy17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOGMD
+- _$ss22KeyedEncodingContainerVy17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOGMD
+- _OBJC_CLASS_$_TKTokenWatcher
+- _OBJC_IVAR_$_NGMFullPrekey._secondaryPrivateKey
+- _OBJC_IVAR_$_NGMFullPrekey._secondaryRegistration
+- _OBJC_IVAR_$_NGMPBDevicePreKey._secondaryPrivateKey
+- _OBJC_IVAR_$_NGMPBDevicePreKey._secondaryRegistrationData
+- _OBJC_IVAR_$_NGMPBDevicePreKey._secondaryVersion
+- _OBJC_IVAR_$_NGMPBOuterMessage._secondaryMessage
+- _OBJC_IVAR_$_NGMPBPublicDeviceIdentity._secondaryVersion
+- _OBJC_IVAR_$_NGMPBPublicDevicePrekey._secondaryPrekey
+- _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOSHAASQ
+- _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAs23CustomStringConvertible
+- _associated conformance 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLOs0gE0AAs28CustomDebugStringConvertible
+- _kSecAttrTokenIDSecureEnclave
+- _objc_msgSend$containsObject:
+- _objc_msgSend$hasSEP
+- _objc_msgSend$hasSecondaryMessage
+- _objc_msgSend$hasSecondaryPrivateKey
+- _objc_msgSend$isSecondaryCompatibleWithFullKey:
+- _objc_msgSend$secondaryMessage
+- _objc_msgSend$secondaryPrekey
+- _objc_msgSend$secondaryPrivateKey
+- _objc_msgSend$secondaryRegistration
+- _objc_msgSend$secondaryRegistrationData
+- _objc_msgSend$secondaryVersion
+- _objc_msgSend$setSecondaryMessage:
+- _objc_msgSend$setSecondaryPrekey:
+- _objc_msgSend$setSecondaryPrivateKey:
+- _objc_msgSend$setSecondaryRegistrationData:
+- _objc_msgSend$setSecondaryVersion:
+- _objc_msgSend$tokenIDs
+- _symbolic _____ 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 17MessageProtection23TetraOutgoingKeyContentV10CodingKeys33_24EC99FEFB5CB9AC2242B2550E093FA2LLO
+CStrings:
++ "@40@0:8@16^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}24^@32"
++ "@44@0:8@16B24^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}28^@36"
++ "@48@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@24@32^@40"
++ "Attempting to initialize a key with missing OID data."
++ "MessageProtection/TetraECDHKey.swift"
++ "T@\"NSData\",&,N,V_tetraMessage"
++ "T@\"NSData\",&,N,V_tetraPreKey"
++ "T@\"NSData\",&,N,V_tetraPrivateKey"
++ "T@\"NSData\",&,N,V_tetraRegistrationData"
++ "T@\"_TtC17MessageProtection17TetraRegistration\",R,N,V_tetraRegistration"
++ "T@\"_TtC17MessageProtection23Kyber1024ObjCPrivateKey\",R,N,V_tetraPrivateKey"
++ "TI,N,V_tetraVersion"
++ "T^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v},N,R,VdiversifiedKey"
++ "^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}48@0:8^{__SecKey={__CFRuntimeBase=QAQ}^{__SecKeyDescriptor}^v}16@24@32^@40"
++ "_tetraMessage"
++ "_tetraPreKey"
++ "_tetraPrivateKey"
++ "_tetraRegistrationData"
++ "com.apple.setoken:aks"
++ "compactPrivateKeyWithAccessControl:"
++ "ecdhKey"
++ "encap"
++ "hasTetraMessage"
++ "hasTetraPreKey"
++ "hasTetraPrivateKey"
++ "hasTetraRegistrationData"
++ "hasTetraVersion"
++ "isSEPKey"
++ "isTetraCompatibleWithFullKey:"
++ "kem1024Key"
++ "kem768Key"
++ "newCompactPrivateKey"
++ "setHasTetraVersion:"
++ "setTetraMessage:"
++ "setTetraPreKey:"
++ "setTetraPrivateKey:"
++ "setTetraRegistrationData:"
++ "setTetraVersion:"
++ "tetraEcdhKey"
++ "tetraMessage"
++ "tetraPreKey"
++ "tetraPrivateKey"
++ "tetraRegistrationData"
++ "{?=\"tetraVersion\"b1}"
+- "@44@0:8@16B24^{__SecKey=}28^@36"
+- "T@\"NSData\",&,N,V_secondaryMessage"
+- "T@\"NSData\",&,N,V_secondaryPrekey"
+- "T@\"NSData\",&,N,V_secondaryPrivateKey"
+- "T@\"NSData\",&,N,V_secondaryRegistrationData"
+- "T@\"_TtC17MessageProtection17TetraRegistration\",R,N,V_secondaryRegistration"
+- "T@\"_TtC17MessageProtection23Kyber1024ObjCPrivateKey\",R,N,V_secondaryPrivateKey"
+- "TI,N,V_secondaryVersion"
+- "T^{__SecKey=},N,R,VdiversifiedKey"
+- "_secondaryMessage"
+- "_secondaryPrekey"
+- "_secondaryPrivateKey"
+- "_secondaryRegistration"
+- "_secondaryRegistrationData"
+- "_secondaryVersion"
+- "containsObject:"
+- "ecdhKeyCTKObject"
+- "hasSEP"
+- "hasSecondaryMessage"
+- "hasSecondaryPrekey"
+- "hasSecondaryPrivateKey"
+- "hasSecondaryRegistrationData"
+- "hasSecondaryVersion"
+- "isSecondaryCompatibleWithFullKey:"
+- "secondaryMessage"
+- "secondaryPrekey"
+- "secondaryPrivateKey"
+- "secondaryRegistration"
+- "secondaryRegistrationData"
+- "secondaryVersion"
+- "setHasSecondaryVersion:"
+- "setSecondaryMessage:"
+- "setSecondaryPrekey:"
+- "setSecondaryPrivateKey:"
+- "setSecondaryRegistrationData:"
+- "setSecondaryVersion:"
+- "tokenIDs"
+- "{?=\"secondaryVersion\"b1}"
+
+```

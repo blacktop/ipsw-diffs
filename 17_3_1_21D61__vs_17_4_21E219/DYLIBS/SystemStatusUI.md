@@ -1,0 +1,286 @@
+## SystemStatusUI
+
+> `/System/Library/PrivateFrameworks/SystemStatusUI.framework/SystemStatusUI`
+
+```diff
+
+-165.19.0.0.0
+-  __TEXT.__text: 0x90a80
+-  __TEXT.__auth_stubs: 0x1370
+-  __TEXT.__objc_methlist: 0x9170
+-  __TEXT.__const: 0x2c78
+-  __TEXT.__swift5_typeref: 0x20d0
+-  __TEXT.__cstring: 0x273f
+-  __TEXT.__swift5_capture: 0x74
++165.115.0.0.0
++  __TEXT.__text: 0x91cd0
++  __TEXT.__auth_stubs: 0x13d0
++  __TEXT.__objc_methlist: 0x9220
++  __TEXT.__const: 0x2c88
++  __TEXT.__swift5_typeref: 0x2208
++  __TEXT.__cstring: 0x2774
++  __TEXT.__swift5_capture: 0x94
+   __TEXT.__swift5_reflstr: 0x218
+   __TEXT.__swift5_assocty: 0x198
+   __TEXT.__constg_swiftt: 0x630
+
+   __TEXT.__swift5_proto: 0xe0
+   __TEXT.__swift5_types: 0x8c
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__gcc_except_tab: 0xd88
++  __TEXT.__gcc_except_tab: 0xd9c
+   __TEXT.__ustring: 0xb0
+   __TEXT.__oslogstring: 0x499
+-  __TEXT.__unwind_info: 0x240c
++  __TEXT.__unwind_info: 0x23fc
+   __TEXT.__eh_frame: 0x70
+-  __TEXT.__objc_classname: 0x1b59
+-  __TEXT.__objc_methname: 0x154fd
+-  __TEXT.__objc_methtype: 0x31bd
+-  __TEXT.__objc_stubs: 0xf940
+-  __DATA_CONST.__got: 0x560
+-  __DATA_CONST.__const: 0x1be8
++  __TEXT.__objc_classname: 0x1b55
++  __TEXT.__objc_methname: 0x156db
++  __TEXT.__objc_methtype: 0x31d9
++  __TEXT.__objc_stubs: 0xfa60
++  __DATA_CONST.__got: 0x588
++  __DATA_CONST.__const: 0x1bc8
+   __DATA_CONST.__objc_classlist: 0x580
+   __DATA_CONST.__objc_catlist: 0x90
+   __DATA_CONST.__objc_protolist: 0x110
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1a8b0
+-  __DATA_CONST.__objc_selrefs: 0x4bd0
++  __DATA_CONST.__objc_const: 0x1aa28
++  __DATA_CONST.__objc_selrefs: 0x4c20
++  __DATA_CONST.__objc_protorefs: 0x18
++  __DATA_CONST.__objc_classrefs: 0x978
++  __DATA_CONST.__objc_superrefs: 0x2d8
+   __DATA_CONST.__objc_arraydata: 0x300
+   __AUTH_CONST.__const: 0x16b8
+-  __AUTH_CONST.__cfstring: 0x3720
++  __AUTH_CONST.__cfstring: 0x37a0
+   __AUTH_CONST.__objc_const: 0x49f8
+   __AUTH_CONST.__objc_arrayobj: 0x300
+   __AUTH_CONST.__objc_intobj: 0xd8
+   __AUTH_CONST.__objc_doubleobj: 0x1b0
+-  __AUTH_CONST.__auth_got: 0x9c8
+-  __AUTH.__objc_data: 0xd90
++  __AUTH_CONST.__auth_got: 0x9f8
++  __AUTH.__objc_data: 0xc00
+   __AUTH.__data: 0x260
+-  __DATA.__objc_protorefs: 0x18
+-  __DATA.__objc_classrefs: 0x968
+-  __DATA.__objc_superrefs: 0x2d8
+-  __DATA.__objc_ivar: 0x504
+-  __DATA.__data: 0x1310
+-  __DATA.__bss: 0x1df8
+-  __DATA.__common: 0x18
+-  __DATA_DIRTY.__objc_ivar: 0x3e4
+-  __DATA_DIRTY.__objc_data: 0x2a30
++  __DATA.__objc_ivar: 0x508
++  __DATA.__data: 0x1360
++  __DATA.__bss: 0x1e08
++  __DATA.__common: 0x10
++  __DATA_DIRTY.__objc_ivar: 0x3e8
++  __DATA_DIRTY.__objc_data: 0x2bc0
+   __DATA_DIRTY.__bss: 0x1d0
+   __DATA_DIRTY.__common: 0x38
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 4CCAEDC1-945F-3BEC-831A-D5A54C26C0FA
+-  Functions: 4311
+-  Symbols:   12130
+-  CStrings:  5068
++  UUID: 9F7E2F9C-7ED6-3149-A251-E660C1758F16
++  Functions: 4327
++  Symbols:   12183
++  CStrings:  5089
+ 
+Symbols:
++ +[STUIStatusBarCellularItem sosDisplayIdentifier]
++ -[STUIDataAccessAttribution initWithDataAccessType:microphoneRecordingAttribution:cameraCaptureAttribution:locationAttribution:recent:startDate:endDate:]
++ -[STUIDataAccessAttribution initWithMicrophoneRecordingAttribution:recent:startDate:endDate:]
++ -[STUIDataAccessAttribution microphoneRecordingAttribution]
++ -[STUIDataAccessStatusDomain _dataAccessAttributionsForAttributions:dataAccessType:dataAccessAttributionProvider:]
++ -[STUIStatusBarCellularItem _create_sosView]
++ -[STUIStatusBarCellularItem setSosView:]
++ -[STUIStatusBarCellularItem sosView]
++ -[STUIStatusBarDataAggregator dealloc]
++ -[STUIStatusBarDataAggregator descriptionBuilderWithMultilinePrefix:]
++ -[STUIStatusBarDataAggregator descriptionWithMultilinePrefix:]
++ -[STUIStatusBarDataAggregator description]
++ -[STUIStatusBarDataAggregator stateCaptureHandle]
++ -[STUIStatusBarDataAggregator succinctDescriptionBuilder]
++ -[STUIStatusBarDataAggregator succinctDescription]
++ -[STUIStatusBarVisualProvider_Pad edgeInsets]
++ -[STUIStatusBarVisualProvider_RoundedPad edgeInsets]
++ -[STUIStatusBarVoiceControlItem systemImageNameForUpdate:]
++ GCC_except_table17
++ GCC_except_table2
++ GCC_except_table25
++ GCC_except_table58
++ _OBJC_CLASS_$_STMediaStatusDomainMicrophoneRecordingAttribution
++ _OBJC_CLASS_$_STStatusBarDataDateTimeEntry
++ _OBJC_IVAR_$_STUIDataAccessAttribution._microphoneRecordingAttribution
++ _OBJC_IVAR_$_STUIStatusBarDataAggregator._stateCaptureHandle
++ __OBJC_CLASS_PROTOCOLS_$_STUIStatusBarDataAggregator
++ ___114-[STUIDataAccessStatusDomain _dataAccessAttributionsForAttributions:dataAccessType:dataAccessAttributionProvider:]_block_invoke
++ ___51-[STUIStatusBarDataAggregator initWithUpdateBlock:]_block_invoke
++ ___52-[STUIStatusBarVisualProvider_RoundedPad edgeInsets]_block_invoke
++ ___69-[STUIStatusBarDataAggregator descriptionBuilderWithMultilinePrefix:]_block_invoke
++ ___88-[STUIDataAccessStatusDomain _dataAccessAttributionsForMicrophoneRecordingAttributions:]_block_invoke
++ ___block_literal_global.226
++ ___block_literal_global.252
++ ___block_literal_global.254
++ ___block_literal_global.256
++ ___block_literal_global.268
++ ___block_literal_global.279
++ ___block_literal_global.31
++ ___block_literal_global.33
++ ___block_literal_global.440
++ ___block_literal_global.442
++ ___block_literal_global.444
++ __unnamed_array_storage.272
++ __unnamed_array_storage.274
++ __unnamed_array_storage.277
++ __unnamed_array_storage.285
++ __unnamed_array_storage.424
++ __unnamed_array_storage.430
++ _edgeInsets.needsAdditionalPadding
++ _edgeInsets.onceToken
++ _get_witness_table 14SystemStatusUI0B20BarDataOverridesViewV05SwiftC00G0HPyHC.27
++ _get_witness_table 7SwiftUI6PickerVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA0F0PAAE13symbolVariantyQrAA14SymbolVariantsVFQOyAA5ImageV_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentBackgroundoP0VyAUGGSg_AA4TextVtGG012SystemStatusB00V11BarOverrideOAGyAIyA2_AA013_TraitWritingP0VyAA08TagValueY3KeyVyA7_GGG_A14_A14_tGGAaJHPyHC.17
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG12LocationTypeVACyAHyAnA21_TraitWritingModifierVyAA08TagValueR3KeyVyAPGGG_A2WtGGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.20
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG16VoiceControlTypeVACyAHyAnA21_TraitWritingModifierVyAA08TagValueS3KeyVyAPGGG_A2WtGGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.23
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAHyAnA21_TraitWritingModifierVyAA08TagValueQ3KeyVySiGGGGG_AHyAHyAA0N5FieldVyANGAA12_FrameLayoutVGAA010_AlignmentrS0VGAHyA1_A6_GALyANSo08STStatusG16DataCellularTypeVACyAHyAnSyAUyA10_GGG_AA7DividerVAJyACyA13__A13_A13_A13_tGGA15_AJyACyA13__A13_A13_A13_A13_tGGA15_A17_tGGtGGAA08_PaddingY0VGSgtGAA0D0HPyHC.18
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAHyAnA21_TraitWritingModifierVyAA08TagValueQ3KeyVySiGGGGG_ALyANSo08STStatusG12DataWifiTypeVACyAHyAnSyAUyA0_GGG_A3_tGGtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.19
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSo08STStatusG14BluetoothStateVACyAHyAnA21_TraitWritingModifierVyAA08TagValueR3KeyVyAPGGG_A2WtGG_AD0fg7BatteryhD0VtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.22
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAHyAHyAA6SliderVyAA05EmptyD0VANGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA010_AlignmentqR0VG_ACyAA6PickerVyAA4TextVSo08STStatusG12BatteryStateVACyAHyA1_AA06_TraitqR0VyAA013TagValueTraitP0VyA3_GGG_A10_tGG_AHyAA0I0VyA1_GAQyAA5ColorVSgGGA15_tGSgtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.21
++ _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAHyAA9TextFieldVyAA0M0VGAA25_AlignmentWritingModifierVGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.24
++ _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA4FormVyAA05TupleC0VyAA7SectionVyAA4TextV012SystemStatusB00m19BarCellularOverrideC0VAA05EmptyC0VG_AtLyAnJyAO0mnP6ToggleV_AvO0mn4WiFipC0VtGASGALyAnJyAV_AvA19_ConditionalContentVyA0_yAA08ModifiedV0VyAA5GroupVyAA10DatePickerVyANGGAA14_PaddingLayoutVGA11_GA11_GSgtGASGALyAnO0mn8LocationpC0VASGALyAnO0mn7BatterypC0VASGALyAnO0mn9BluetoothpC0VASGALyAnO0mn12VoiceControlpC0VASGALyAnO0mn4UserpC0VASGALyAnJyAV_A5VtGASGAA6ButtonVyANGtGG_AO0mN9OverridesVQo_HO.26
++ _objc_msgSend$_create_sosView
++ _objc_msgSend$_displayCornerRadiusIgnoringZoom
++ _objc_msgSend$coalescedKeys
++ _objc_msgSend$initWithActivityAttribution:
++ _objc_msgSend$initWithMicrophoneRecordingAttribution:recent:startDate:endDate:
++ _objc_msgSend$maximumHistoryAccessed
++ _objc_msgSend$microphoneAttributions
++ _objc_msgSend$microphoneRecordingAttribution
++ _objc_msgSend$sosDisplayIdentifier
++ _objc_msgSend$succinctDescription
++ _objc_retain_x5
++ _swift_dynamicCastObjCClass
++ _swift_storeEnumTagMultiPayload
++ _symbolic ______AA_____yABy_____y_____y_____y_____GG_____GAJGAJGSgt 14SystemStatusUI0B17BarOverrideToggleV 05SwiftC019_ConditionalContentV AD08ModifiedI0V AD5GroupV AD10DatePickerV AD4TextV AD14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y_____y_____GG_____GAIGAIG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____yAAy_____y_____y_____y_____GG_____GAIGAIGSg 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____G 7SwiftUI10DatePickerV AA4TextV
++ _symbolic _____y______AB_____yACy_____y_____y_____y_____GG_____GAKGAKGSgtG 7SwiftUI9TupleViewV 012SystemStatusB00F17BarOverrideToggleV AA19_ConditionalContentV AA08ModifiedK0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_______________G_AeAyAB_____y______AG_____tGADGAAyAbFyAG_AG_____yAKy_____y_____y_____yABGG_____GARGARGSgtGADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAbFyAG_A5GtGADG_____yABGt 7SwiftUI7SectionV AA4TextV 012SystemStatusB00F23BarCellularOverrideViewV AA05EmptyJ0V AA05TupleJ0V AF0fgI6ToggleV AF0fg4WiFiiJ0V AA19_ConditionalContentV AA08ModifiedQ0V AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AF0fg8LocationiJ0V AF0fg7BatteryiJ0V AF0fg9BluetoothiJ0V AF0fg12VoiceControliJ0V AF0fg4UseriJ0V AA6ButtonV
++ _symbolic _____y__________y______AD_____yAEy_____y_____y_____yABGG_____GALGALGSgtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV 012SystemStatusB00H17BarOverrideToggleV AA19_ConditionalContentV AA08ModifiedM0V AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AA05EmptyF0V
++ _symbolic _____y_____y_______________G_AfByAcAy______AG_____tGAEGAByAcAyAG_AG_____yAKy_____y_____y_____yACGG_____GARGARGSgtGAEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAcAyAG_A5GtGAEG_____yACGtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV 012SystemStatusB00h19BarCellularOverrideD0V AA05EmptyD0V AH0hiK6ToggleV AH0hi4WiFikD0V AA19_ConditionalContentV AA08ModifiedQ0V AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AH0hi8LocationkD0V AH0hi7BatterykD0V AH0hi9BluetoothkD0V AH0hi12VoiceControlkD0V AH0hi4UserkD0V AA6ButtonV
++ _symbolic _____y_____y_____y_______________G_AgCyAdBy______AH_____tGAFGACyAdByAH_AH_____yALy_____y_____y_____yADGG_____GASGASGSgtGAFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAdByAH_A5HtGAFG_____yADGtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV 012SystemStatusB00i19BarCellularOverrideE0V AA05EmptyE0V AJ0ijL6ToggleV AJ0ij4WiFilE0V AA19_ConditionalContentV AA08ModifiedR0V AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AJ0ij8LocationlE0V AJ0ij7BatterylE0V AJ0ij9BluetoothlE0V AJ0ij12VoiceControllE0V AJ0ij4UserlE0V AA6ButtonV
++ _symbolic _____y_____y_____y_____y_____GG_____GAIG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_____GG_____GAI_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
++ _symbolic _____y_____y_____y_____y_______________G_AgCyAdBy______AH_____tGAFGACyAdByAH_AH_____yALy_____y_____y_____yADGG_____GASGASGSgtGAFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAdByAH_A5HtGAFG_____yADGtGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV 012SystemStatusB00m19BarCellularOverrideC0V AA05EmptyC0V AO0mnP6ToggleV AO0mn4WiFipC0V AA19_ConditionalContentV AA08ModifiedV0V AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AO0mn8LocationpC0V AO0mn7BatterypC0V AO0mn9BluetoothpC0V AO0mn12VoiceControlpC0V AO0mn4UserpC0V AA6ButtonV AO0mN9OverridesV
++ _symbolic _____y_____y_____y_____y_____y_____GG_____GAJGAJ_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
+- -[STUIDataAccessAttribution initWithDataAccessType:audioRecordingActivityAttribution:cameraCaptureAttribution:locationAttribution:recent:startDate:endDate:]
+- -[STUIDataAccessStatusDomain _dataAccessAttributionsForAttributions:dataAccessType:entityProvider:dataAccessAttributionProvider:]
+- -[STUIStatusBarVoiceControlItem imageNameForUpdate:]
+- GCC_except_table42
+- GCC_except_table54
+- GCC_except_table9
+- _OBJC_IVAR_$_STUIDataAccessAttribution._audioRecordingActivityAttribution
+- ___77-[STUIDataAccessStatusDomain _dataAccessAttributionsForLocationAttributions:]_block_invoke_2
+- ___82-[STUIDataAccessStatusDomain _dataAccessAttributionsForCameraCaptureAttributions:]_block_invoke_2
+- ___91-[STUIDataAccessStatusDomain _dataAccessAttributionsForAudioRecordingActivityAttributions:]_block_invoke
+- ___91-[STUIDataAccessStatusDomain _dataAccessAttributionsForAudioRecordingActivityAttributions:]_block_invoke_2
+- ___block_descriptor_32_e28_"STAttributedEntity"16?08l
+- ___block_literal_global.225
+- ___block_literal_global.238
+- ___block_literal_global.240
+- ___block_literal_global.242
+- ___block_literal_global.267
+- ___block_literal_global.278
+- ___block_literal_global.30
+- ___block_literal_global.34
+- ___block_literal_global.36
+- ___block_literal_global.38
+- ___block_literal_global.439
+- ___block_literal_global.441
+- ___block_literal_global.443
+- __unnamed_array_storage.270
+- __unnamed_array_storage.273
+- __unnamed_array_storage.275
+- __unnamed_array_storage.284
+- __unnamed_array_storage.423
+- __unnamed_array_storage.429
+- _get_witness_table 14SystemStatusUI0B20BarDataOverridesViewV05SwiftC00G0HPyHC.25
+- _get_witness_table 7SwiftUI6PickerVyAA6HStackVyAA9TupleViewVyAA15ModifiedContentVyAIyAA0F0PAAE13symbolVariantyQrAA14SymbolVariantsVFQOyAA5ImageV_Qo_AA24_ForegroundStyleModifierVyAA5ColorVGGAA022_EnvironmentBackgroundoP0VyAUGGSg_AA4TextVtGG012SystemStatusB00V11BarOverrideOAGyAIyA2_AA013_TraitWritingP0VyAA08TagValueY3KeyVyA7_GGG_A14_A14_tGGAaJHPyHC.15
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG12LocationTypeVACyAHyAnA21_TraitWritingModifierVyAA08TagValueR3KeyVyAPGGG_A2WtGGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.18
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAA6PickerVyAA4TextVSo08STStatusG16VoiceControlTypeVACyAHyAnA21_TraitWritingModifierVyAA08TagValueS3KeyVyAPGGG_A2WtGGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.21
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAHyAnA21_TraitWritingModifierVyAA08TagValueQ3KeyVySiGGGGG_AHyAHyAA0N5FieldVyANGAA12_FrameLayoutVGAA010_AlignmentrS0VGAHyA1_A6_GALyANSo08STStatusG16DataCellularTypeVACyAHyAnSyAUyA10_GGG_AA7DividerVAJyACyA13__A13_A13_A13_tGGA15_AJyACyA13__A13_A13_A13_A13_tGGA15_A17_tGGtGGAA08_PaddingY0VGSgtGAA0D0HPyHC.16
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSiAA7ForEachVySnySiGSiAHyAnA21_TraitWritingModifierVyAA08TagValueQ3KeyVySiGGGGG_ALyANSo08STStatusG12DataWifiTypeVACyAHyAnSyAUyA0_GGG_A3_tGGtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.17
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAA6PickerVyAA4TextVSo08STStatusG14BluetoothStateVACyAHyAnA21_TraitWritingModifierVyAA08TagValueR3KeyVyAPGGG_A2WtGG_AD0fg7BatteryhD0VtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.20
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyACyAHyAHyAA6SliderVyAA05EmptyD0VANGAA30_EnvironmentKeyWritingModifierVyAA13AnyShapeStyleVSgGGAA010_AlignmentqR0VG_ACyAA6PickerVyAA4TextVSo08STStatusG12BatteryStateVACyAHyA1_AA06_TraitqR0VyAA013TagValueTraitP0VyA3_GGG_A10_tGG_AHyAA0I0VyA1_GAQyAA5ColorVSgGGA15_tGSgtGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.19
+- _get_witness_table 7SwiftUI9TupleViewVy012SystemStatusB00F17BarOverrideToggleV_AA15ModifiedContentVyAA5GroupVyAHyAA9TextFieldVyAA0M0VGAA25_AlignmentWritingModifierVGGAA14_PaddingLayoutVGSgtGAA0D0HPyHC.22
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAA4FormVyAA05TupleC0VyAA7SectionVyAA4TextV012SystemStatusB00m19BarCellularOverrideC0VAA05EmptyC0VG_AtLyAnJyAO0mnP6ToggleV_AvO0mn4WiFipC0VtGASGALyAnJyAV_AA15ModifiedContentVyAA5GroupVyAA10DatePickerVyANGGAA14_PaddingLayoutVGSgAVA10_tGASGALyAnO0mn8LocationpC0VASGALyAnO0mn7BatterypC0VASGALyAnO0mn9BluetoothpC0VASGALyAnO0mn12VoiceControlpC0VASGALyAnO0mn4UserpC0VASGALyAnJyAV_A5VtGASGAA6ButtonVyANGtGG_AO0mN9OverridesVQo_HO.24
+- _objc_msgSend$audioRecordingAttributionList
+- _swift_release_n
+- _swift_retain_n
+- _symbolic ___________y_____y_____y_____GG_____GSgAaJt 14SystemStatusUI0B17BarOverrideToggleV 05SwiftC015ModifiedContentV AD5GroupV AD10DatePickerV AD4TextV AD14_PaddingLayoutV
+- _symbolic _____y_______________G_AeAyAB_____y______AG_____tGADGAAyAbFyAG______y_____y_____yABGG_____GSgAgRtGADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAB_____ADGAAyAbFyAG_A5GtGADG_____yABGt 7SwiftUI7SectionV AA4TextV 012SystemStatusB00F23BarCellularOverrideViewV AA05EmptyJ0V AA05TupleJ0V AF0fgI6ToggleV AF0fg4WiFiiJ0V AA15ModifiedContentV AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AF0fg8LocationiJ0V AF0fg7BatteryiJ0V AF0fg9BluetoothiJ0V AF0fg12VoiceControliJ0V AF0fg4UseriJ0V AA6ButtonV
+- _symbolic _____y___________y_____y_____y_____GG_____GSgAbKtG 7SwiftUI9TupleViewV 012SystemStatusB00F17BarOverrideToggleV AA15ModifiedContentV AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y__________y___________y_____y_____yABGG_____GSgAdLtG_____G 7SwiftUI7SectionV AA4TextV AA9TupleViewV 012SystemStatusB00H17BarOverrideToggleV AA15ModifiedContentV AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AA05EmptyF0V
+- _symbolic _____y_____y_______________G_AfByAcAy______AG_____tGAEGAByAcAyAG______y_____y_____yACGG_____GSgAgRtGAEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAC_____AEGAByAcAyAG_A5GtGAEG_____yACGtG 7SwiftUI9TupleViewV AA7SectionV AA4TextV 012SystemStatusB00h19BarCellularOverrideD0V AA05EmptyD0V AH0hiK6ToggleV AH0hi4WiFikD0V AA15ModifiedContentV AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AH0hi8LocationkD0V AH0hi7BatterykD0V AH0hi9BluetoothkD0V AH0hi12VoiceControlkD0V AH0hi4UserkD0V AA6ButtonV
+- _symbolic _____y_____y_____y_____GG_____GSg 7SwiftUI15ModifiedContentV AA5GroupV AA10DatePickerV AA4TextV AA14_PaddingLayoutV
+- _symbolic _____y_____y_____y_______________G_AgCyAdBy______AH_____tGAFGACyAdByAH______y_____y_____yADGG_____GSgAhStGAFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAdByAH_A5HtGAFG_____yADGtGG 7SwiftUI4FormV AA9TupleViewV AA7SectionV AA4TextV 012SystemStatusB00i19BarCellularOverrideE0V AA05EmptyE0V AJ0ijL6ToggleV AJ0ij4WiFilE0V AA15ModifiedContentV AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AJ0ij8LocationlE0V AJ0ij7BatterylE0V AJ0ij9BluetoothlE0V AJ0ij12VoiceControllE0V AJ0ij4UserlE0V AA6ButtonV
+- _symbolic _____y_____y_____y_____y_______________G_AgCyAdBy______AH_____tGAFGACyAdByAH______y_____y_____yADGG_____GSgAhStGAFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAD_____AFGACyAdByAH_A5HtGAFG_____yADGtGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA4FormV AA05TupleC0V AA7SectionV AA4TextV 012SystemStatusB00m19BarCellularOverrideC0V AA05EmptyC0V AO0mnP6ToggleV AO0mn4WiFipC0V AA15ModifiedContentV AA5GroupV AA10DatePickerV AA14_PaddingLayoutV AO0mn8LocationpC0V AO0mn7BatterypC0V AO0mn9BluetoothpC0V AO0mn12VoiceControlpC0V AO0mn4UserpC0V AA6ButtonV AO0mN9OverridesV
+CStrings:
++ "@\"STMediaStatusDomainMicrophoneRecordingAttribution\""
++ "SystemStatusUI - StatusBar - %@"
++ "T@\"<BSInvalidatable>\",R,N,V_stateCaptureHandle"
++ "T@\"NSString\",?,R,C"
++ "T@\"STActivityAttribution\",R,C,N"
++ "T@\"STMediaStatusDomainMicrophoneRecordingAttribution\",R,C,N,V_microphoneRecordingAttribution"
++ "T@\"STUIStatusBarImageView\",&,N,V_sosView"
++ "T@\"UIAccessibilityHUDItem\",?,R,N"
++ "TB,?,R,N"
++ "Tq,?,R,N"
++ "_create_sosView"
++ "_displayCornerRadiusIgnoringZoom"
++ "_microphoneRecordingAttribution"
++ "dateValue"
++ "entryForDateWithDateValue:"
++ "entryForShortTimeWithDateValue:"
++ "entryForTimeWithDateValue:"
++ "initWithActivityAttribution:"
++ "initWithMicrophoneRecordingAttribution:recent:startDate:endDate:"
++ "maximumHistoryAccessed"
++ "microphoneAttributions"
++ "microphoneRecordingAttribution"
++ "setSosView:"
++ "sosDisplayIdentifier"
++ "stateCaptureHandle"
++ "voice.control"
++ "voice.control.slash"
+- "\a"
+- "&"
+- "@\"STActivityAttribution\""
+- "@\"STAttributedEntity\"16@?0@8"
+- "T@\"STActivityAttribution\",R,C,N,V_audioRecordingActivityAttribution"
+- "T@\"UIAccessibilityHUDItem\",R,N"
+- "VoiceControl"
+- "VoiceControlSlash"
+- "_audioRecordingActivityAttribution"
+- "audioRecordingAttributionList"
+- "setAMSymbol:"
+- "setPMSymbol:"
+- "stringFromDate:"
+
+```

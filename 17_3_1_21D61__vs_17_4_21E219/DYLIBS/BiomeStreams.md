@@ -1,0 +1,1523 @@
+## BiomeStreams
+
+> `/System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams`
+
+```diff
+
+-123.2.8.0.0
+-  __TEXT.__text: 0x499f7c
+-  __TEXT.__auth_stubs: 0x2280
+-  __TEXT.__objc_methlist: 0x14af8
+-  __TEXT.__const: 0xaa484
+-  __TEXT.__cstring: 0x34c8e
+-  __TEXT.__oslogstring: 0xabba
+-  __TEXT.__gcc_except_tab: 0xb00
++123.5.23.1.0
++  __TEXT.__text: 0x4a049c
++  __TEXT.__auth_stubs: 0x2370
++  __TEXT.__objc_methlist: 0x14950
++  __TEXT.__const: 0xaa514
++  __TEXT.__cstring: 0x3576c
++  __TEXT.__oslogstring: 0xaa43
++  __TEXT.__gcc_except_tab: 0xb18
+   __TEXT.__dlopen_cstrs: 0x5d4
+-  __TEXT.__constg_swiftt: 0xafac
+-  __TEXT.__swift5_typeref: 0x574d
+-  __TEXT.__swift5_reflstr: 0x69c1
+-  __TEXT.__swift5_fieldmd: 0xb6a4
++  __TEXT.__constg_swiftt: 0xb040
++  __TEXT.__swift5_typeref: 0x577b
++  __TEXT.__swift5_reflstr: 0x69d1
++  __TEXT.__swift5_fieldmd: 0xb6d0
+   __TEXT.__swift5_capture: 0x174
+   __TEXT.__swift5_proto: 0x1f3c
+-  __TEXT.__swift5_types: 0x804
++  __TEXT.__swift5_types: 0x80c
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_mpenum: 0x44
+   __TEXT.__swift5_protos: 0x34
+   __TEXT.__swift5_assocty: 0xc60
+-  __TEXT.__unwind_info: 0xdc28
+-  __TEXT.__eh_frame: 0xe348
+-  __TEXT.__objc_classname: 0x2757
+-  __TEXT.__objc_methname: 0x1bac6
+-  __TEXT.__objc_methtype: 0x3653
+-  __TEXT.__objc_stubs: 0x10380
+-  __DATA_CONST.__got: 0x410
+-  __DATA_CONST.__const: 0x2a398
+-  __DATA_CONST.__objc_classlist: 0xed8
++  __TEXT.__unwind_info: 0xe404
++  __TEXT.__eh_frame: 0xe410
++  __TEXT.__objc_classname: 0x26a7
++  __TEXT.__objc_methname: 0x1bd28
++  __TEXT.__objc_methtype: 0x3871
++  __TEXT.__objc_stubs: 0x105a0
++  __DATA_CONST.__got: 0x490
++  __DATA_CONST.__const: 0x2a4b8
++  __DATA_CONST.__objc_classlist: 0xee0
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x1c8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x44698
+-  __DATA_CONST.__objc_selrefs: 0x59c8
++  __DATA_CONST.__objc_const: 0x44088
++  __DATA_CONST.__objc_selrefs: 0x5a88
++  __DATA_CONST.__objc_protorefs: 0x80
++  __DATA_CONST.__objc_classrefs: 0xc98
++  __DATA_CONST.__objc_superrefs: 0x9d8
+   __DATA_CONST.__objc_arraydata: 0xa0
+-  __AUTH_CONST.__cfstring: 0x8ce0
+-  __AUTH_CONST.__objc_const: 0x9268
+-  __AUTH_CONST.__const: 0xd980
++  __AUTH_CONST.__cfstring: 0x8e40
++  __AUTH_CONST.__objc_const: 0x92b0
++  __AUTH_CONST.__const: 0xdb00
+   __AUTH_CONST.__objc_intobj: 0x48
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__auth_got: 0x1150
+-  __AUTH.__objc_data: 0x24a0
+-  __AUTH.__data: 0x12e00
+-  __DATA.__objc_protorefs: 0x80
+-  __DATA.__objc_classrefs: 0xc80
+-  __DATA.__objc_superrefs: 0x9e8
+-  __DATA.__objc_ivar: 0x1810
+-  __DATA.__data: 0xdd28
++  __AUTH_CONST.__auth_got: 0x11c8
++  __AUTH.__objc_data: 0x2770
++  __AUTH.__data: 0x12e50
++  __DATA.__objc_ivar: 0x180c
++  __DATA.__data: 0x121d8
+   __DATA.__thread_vars: 0x420
+   __DATA.__thread_data: 0x112
+   __DATA.__thread_bss: 0x7a8
+-  __DATA.__bss: 0x3a390
++  __DATA.__bss: 0x3a3a0
+   __DATA.__common: 0x1d87
+-  __DATA_DIRTY.__objc_data: 0x6f40
+-  __DATA_DIRTY.__data: 0x730
+-  __DATA_DIRTY.__bss: 0x148
++  __DATA_DIRTY.__objc_data: 0x6db0
++  __DATA_DIRTY.__data: 0x7e0
++  __DATA_DIRTY.__bss: 0x158
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Security.framework/Security
+
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+   - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
++  - /System/Library/PrivateFrameworks/PoirotSchematizer.framework/PoirotSchematizer
+   - /System/Library/PrivateFrameworks/ProactiveSupport.framework/ProactiveSupport
+   - /System/Library/PrivateFrameworks/ProtocolBuffer.framework/ProtocolBuffer
+   - /System/Library/PrivateFrameworks/SoftLinking.framework/SoftLinking
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 870E995B-8FC5-35E9-8241-CA5207E59883
+-  Functions: 27717
+-  Symbols:   77167
+-  CStrings:  16301
++  UUID: 50573FE4-6FCC-349E-A08D-77D724D0F05C
++  Functions: 27804
++  Symbols:   77450
++  CStrings:  16423
+ 
+Symbols:
++ +[BMDaemon runLaunchTasks]
++ +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:account:activity:]
++ +[BMEventBase convertValue:toType:]
++ +[BMEventBase protoFields]
++ +[BMEventSession openSessionsFromBookmark:]
++ +[BMEventSession sessionPublisherWithStreamPublisher:startingBlock:endingBlock:sessionKeyBlock:options:]
++ +[BMEventSession supportsSecureCoding]
++ +[BMPairedEventSession openSessionsFromBookmark:]
++ +[BMPairedEventSession sessionPublisherWithStreamPublisher:startingBlock:sessionKeyBlock:options:]
++ +[BMSQLProtoColumn extractValueFromProtoData:fieldNumber:type:error:]
++ +[BMSQLProtoColumn extractValuesFromProtoData:fieldNumber:type:error:]
++ +[BMSQLProtoUDFs _addEventClass:toProtoRegistry:]
++ +[BMSQLProtoUDFs registerProtoUDFsWithDatabase:eventClasses:error:]
++ -[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:]
++ -[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:].cold.1
++ -[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:]
++ -[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:].cold.1
++ -[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:].cold.2
++ -[BMComputeSourceServerConnection eventsPrunedWithStreamIdentifier:account:remoteName:reason:]
++ -[BMComputeSourceServerConnection eventsPrunedWithStreamIdentifier:account:remoteName:reason:].cold.1
++ -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:]
++ -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:].cold.1
++ -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:].cold.2
++ -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:].cold.3
++ -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:].cold.4
++ -[BMDaemon eventsPrunedWithStreamIdentifier:account:remoteName:reason:]
++ -[BMDaemon eventsPrunedWithStreamIdentifier:account:remoteName:reason:].cold.1
++ -[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]
++ -[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:].cold.1
++ -[BMEventSession .cxx_destruct]
++ -[BMEventSession encodeWithCoder:]
++ -[BMEventSession events]
++ -[BMEventSession initWithCoder:]
++ -[BMEventSession initWithKey:events:]
++ -[BMEventSession isEqual:]
++ -[BMEventSession key]
++ -[BMPairedEventSession endEvent]
++ -[BMPairedEventSession initWithKey:startEvent:endEvent:]
++ -[BMPairedEventSession startEvent]
++ -[BMProtoField .cxx_destruct]
++ -[BMProtoField description]
++ -[BMProtoField initWithName:number:type:subMessageClass:]
++ -[BMProtoField name]
++ -[BMProtoField number]
++ -[BMProtoField subMessageClass]
++ -[BMProtoField type]
++ -[BMPruner initWithStoreStream:remote:]
++ -[BMSQLDatabase registerFunctionWithName:numArgs:function:userData:error:]
++ -[BMSQLDatabase registerFunctionWithName:numArgs:function:userData:error:].cold.1
++ -[BMSQLProtoColumn convertedType]
++ -[BMSQLProtoColumn description]
++ -[BMSQLProtoColumn fieldNumber]
++ -[BMSQLProtoColumn initWithName:dataType:requestOnly:fieldNumber:protoDataType:convertedType:]
++ -[BMSQLProtoColumn protoDataType]
++ -[BMStorePublisherManager _createStreamReaderForRemoteName:eventDataClass:]
++ -[BMStorePublisherManager _publisherForDevice:options:]
++ -[BMStorePublisherManager _publishersForDevices:includeLocal:options:]
++ -[BMStorePublisherManager _streamReaderWithRemoteName:]
++ -[BMStorePublisherManager initWithStreamIdentifier:streamConfig:accessClient:eventDataClass:useCase:].cold.1
++ -[BMStorePublisherManager publisherForDevice:options:]
++ -[BMStorePublisherManager publisherWithOptions:]
++ -[BMStorePublisherManager publishersForDevices:includeLocal:options:pipeline:]
++ -[BMStoreStream _prunerForRemote:]
++ -[BMStoreStream _publisherForDevice:options:]
++ -[BMStoreStream _publishersForDevices:includeLocal:options:]
++ -[BMStoreStream pruneEventsOfRemote:withReason:error:predicateBlock:]
++ -[BMStoreStream pruneEventsOfRemote:withReason:usingPredicateBlock:]
++ -[BMStoreStream publisherForDevice:withUseCase:]
++ -[BMStoreStream publisherForDevice:withUseCase:options:]
++ -[BMStoreStream publishersForDevices:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
++ -[BMStoreStream publishersForDevices:withUseCase:startTime:includeLocal:pipeline:]
++ -[BMStoreStream remoteDevicesForAccount:error:]
++ -[BMStoreStream storeConfig]
++ -[BMStoreStream(BMPublisherOptions) publisherWithOptions:]
++ -[BMStream prunerForDevice:]
++ -[BMStreamBase _storeStreamForAccount:useCase:]
++ -[BMStreamBase _storeStreamForUseCase:]
++ -[BMStreamBase prunerForDevice:]
++ -[BMStreamBase publisherForAccount:device:withUseCase:]
++ -[BMStreamBase publisherForAccount:device:withUseCase:options:]
++ -[BMStreamBase publisherForDevice:withUseCase:]
++ -[BMStreamBase publisherForDevice:withUseCase:options:]
++ -[BMStreamBase publishersForAccounts:deviceTypes:includeLocal:options:useCase:pipeline:]
++ -[BMStreamBase publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
++ -[BMStreamBase publishersForRemoteDevices:startTime:includeLocal:pipeline:]
++ -[BMStreamBase remoteDevicesForAccount:error:]
++ -[BMStreamBase remoteDevices]
++ -[BMStreamBase sharedDeviceAccountsWithError:]
++ -[BMStreamBase sharedDeviceAccountsWithUseCase:]
++ -[BMStreamVirtualTable stream]
++ GCC_except_table28
++ GCC_except_table45
++ GCC_except_table46
++ _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF
++ _$s10Foundation4DataV5bytes5countACSV_SitcfC
++ _$s10Foundation4DataV5bytes5countACSV_SitcfCTf4nnd_n
++ _$s12BiomeStreams13BookmarkCacheV9tableName016materializedViewF0S2S_tFZ
++ _$s12BiomeStreams13DatabaseValueOwCPTm
++ _$s12BiomeStreams22IncrementalViewManagerC11UpdateErrorOwCPTm
++ _$s12BiomeStreams22IncrementalViewManagerCACycfcSayAA012MaterializedD12PhysicalPlanVGAA16DatabaseResource_pXpKXEfU_
++ _$s12BiomeStreams22IncrementalViewManagerCACycfcSayAA012MaterializedD12PhysicalPlanVGAA16DatabaseResource_pXpKXEfU_TA
++ _$s12BiomeStreams23BMPoirotSchematizerShimC014bmTypeToPoirotG033_6AF5E9B2F4D56B14EB8E6E9336EA174FLL12typeRawValue0iD00G6SchemaOSi_tFZ
++ _$s12BiomeStreams23BMPoirotSchematizerShimC017poirotValueToObjcG033_6AF5E9B2F4D56B14EB8E6E9336EA174FLL5valueypSg06PoirotD003AnyG0OSg_tFZ
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC10nextObjectypSgyF
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC10nextObjectypSgyFTo
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC8iterator06PoirotD00D0V010RepeatableG8IteratorVSgvM
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC8iterator06PoirotD00D0V010RepeatableG8IteratorVSgvM.resume.0
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC8iterator06PoirotD00D0V010RepeatableG8IteratorVSgvpWvd
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC8iteratorAF06PoirotD00D0V010RepeatableG8IteratorV_tcfc
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCAFycfc
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCAFycfcTo
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMF
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMU
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMXX
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMa
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMf
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMl
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMn
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCMr
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCN
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCfD
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCfDTm
++ _$s12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLCfETo
++ _$s12BiomeStreams23BMPoirotSchematizerShimC11searchValue2in15withFieldNumber07typeRawG05errorypSg10Foundation4DataV_S2iSAySo7NSErrorCSgGSgtFZ
++ _$s12BiomeStreams23BMPoirotSchematizerShimC11searchValue2in15withFieldNumber07typeRawG05errorypSg10Foundation4DataV_S2iSAySo7NSErrorCSgGSgtFZTo
++ _$s12BiomeStreams23BMPoirotSchematizerShimC12searchValues2in15withFieldNumber12typeRawValue5errorSo12NSEnumeratorCSg10Foundation4DataV_S2iSAySo7NSErrorCSgGSgtFZ
++ _$s12BiomeStreams23BMPoirotSchematizerShimC12searchValues2in15withFieldNumber12typeRawValue5errorSo12NSEnumeratorCSg10Foundation4DataV_S2iSAySo7NSErrorCSgGSgtFZTo
++ _$s12BiomeStreams23BMPoirotSchematizerShimCACycfC
++ _$s12BiomeStreams23BMPoirotSchematizerShimCACycfc
++ _$s12BiomeStreams23BMPoirotSchematizerShimCACycfcTo
++ _$s12BiomeStreams23BMPoirotSchematizerShimCMF
++ _$s12BiomeStreams23BMPoirotSchematizerShimCMa
++ _$s12BiomeStreams23BMPoirotSchematizerShimCMf
++ _$s12BiomeStreams23BMPoirotSchematizerShimCMn
++ _$s12BiomeStreams23BMPoirotSchematizerShimCMo
++ _$s12BiomeStreams23BMPoirotSchematizerShimCN
++ _$s12BiomeStreams23BMPoirotSchematizerShimCfD
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE04readF3SQL20materializedViewName13groupBySchemaSS3sql_SayAA13StorableValueOGAJKc16argumentsFromKeytSS_SaySS_0A9SQLParser11SQLDataTypeOtGtKFZA2JKcfU0_TA.57
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c11AggregationfG0V_Tgm5
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c19FirstMatchingRecordG0V_Tgm5
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c19FirstMatchingRecordG0V_Tgm5Tm
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE14createTableSQL20materializedViewName6schemaS2S_SDySS0A9SQLParser11SQLDataTypeOGtKFZS2S_AItKXEfU_
++ _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE8setValue_6forKeyy0I0Qz_SayAA08StorableI0OGtKFAA0c19FirstMatchingRecordG0V_Tg5
++ _$s14BiomeSQLParser08PgQuery_D6SourceO8allCases_WZTv_
++ _$s14BiomeSQLParser08PgQuery_D6SourceO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser11SQLFunctionO8allCasesSayACGvgZTv_
++ _$s14BiomeSQLParser13PgQuery_TokenO8allCases_WZTv_
++ _$s14BiomeSQLParser15PgQuery_CmdTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser15PgQuery_RTEKindO8allCases_WZTv_
++ _$s14BiomeSQLParser15PgQuery_RTEKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser15PgQuery_RawStmtV2eeoiySbAC_ACtFZTf4nnd_nTm
++ _$s14BiomeSQLParser15PgQuery_WCOKindO8allCases_WZTv_
++ _$s14BiomeSQLParser15PgQuery_WCOKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser16PgQuery_AggSplitO8allCases_WZTv_
++ _$s14BiomeSQLParser16PgQuery_AggSplitO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser16PgQuery_JoinTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser16PgQuery_JoinTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser16PgQuery_MinMaxOpO8allCases_WZTv_
++ _$s14BiomeSQLParser16PgQuery_SetOpCmdO8allCases_WZTv_
++ _$s14BiomeSQLParser16PgQuery_SetOpCmdO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser17PgQuery_FetchStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvgTWTm
++ _$s14BiomeSQLParser17PgQuery_FetchStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvsTWTm
++ _$s14BiomeSQLParser17PgQuery_ParamKindO8allCases_WZTv_
++ _$s14BiomeSQLParser17PgQuery_ParamKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser17PgQuery_SortByDirO8allCases_WZTv_
++ _$s14BiomeSQLParser17PgQuery_SortByDirO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser17PgQuery_XmlExprOpO8allCases_WZTv_
++ _$s14BiomeSQLParser17PgQuery_XmlExprOpO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser18PgQuery_ConstrTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser18PgQuery_DefineStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvgTWTm
++ _$s14BiomeSQLParser18PgQuery_DefineStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvsTWTm
++ _$s14BiomeSQLParser18PgQuery_ObjectTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser18PgQuery_WindowFuncV13_StorageClass33_A784F7F2ED97E043416F18646CF1BF17LLCfDTm
++ _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv3_
++ _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv4_
++ _$s14BiomeSQLParser18SQLExpressionAExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLV19inferExprReturnType01lnO001rnO02opAA07SQLDataO0OAJSg_AJSStKFZTv5_
++ _$s14BiomeSQLParser19PgQuery_A_Expr_KindO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_AggStrategyO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_AggStrategyO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser19PgQuery_DiscardModeO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_DiscardModeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser19PgQuery_KeywordKindO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_KeywordKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser19PgQuery_LimitOptionO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_LimitOptionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser19PgQuery_SortByNullsO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_SortByNullsO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser19PgQuery_SubLinkTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser19PgQuery_SubLinkTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_BoolExprTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_BoolExprTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_BoolTestTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_BoolTestTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_CoercionFormO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_CoercionFormO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_DropBehaviorO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_NullTestTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_RoleSpecTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_RoleSpecTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_RoleStmtTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_RoleStmtTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20PgQuery_SetOperationO8allCases_WZTv_
++ _$s14BiomeSQLParser20PgQuery_SetOperationO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser20SQLExpressioBoolExpr33_B787555787B9EFBBEFB0C9C5225A4FB7LLVwCPTm
++ _$s14BiomeSQLParser20SQLExpressionInteger33_B787555787B9EFBBEFB0C9C5225A4FB7LLVwCPTm
++ _$s14BiomeSQLParser21PgQuery_ClusterOptionO8allCases_WZTv_
++ _$s14BiomeSQLParser21PgQuery_DefElemActionO8allCases_WZTv_
++ _$s14BiomeSQLParser21PgQuery_DefElemActionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser21PgQuery_LockTupleModeO8allCases_WZTv_
++ _$s14BiomeSQLParser21PgQuery_LockTupleModeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser21PgQuery_SetOpStrategyO8allCases_WZTv_
++ _$s14BiomeSQLParser21PgQuery_XmlOptionTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_AlterTableTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_CTEMaterializeO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_CTEMaterializeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser22PgQuery_FetchDirectionO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_FetchDirectionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser22PgQuery_LockWaitPolicyO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_LockWaitPolicyO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser22PgQuery_MultiAssignRefV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlFTm
++ _$s14BiomeSQLParser22PgQuery_OnCommitActionO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_OnCommitActionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser22PgQuery_OverridingKindO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_OverridingKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser22PgQuery_RowCompareTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser22PgQuery_RowCompareTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_CoercionContextO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_CoercionContextO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_GrantTargetTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_GrantTargetTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_GroupingSetKindO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_GroupingSetKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_TableLikeOptionO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_TableLikeOptionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_VariableSetKindO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_VariableSetKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser23PgQuery_ViewCheckOptionO8allCases_WZTv_
++ _$s14BiomeSQLParser23PgQuery_ViewCheckOptionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser24PgQuery_OnConflictActionO8allCases_WZTv_
++ _$s14BiomeSQLParser24PgQuery_OnConflictActionO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser25PgQuery_AlterTSConfigTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser25PgQuery_AlterTSConfigTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser25PgQuery_DeclareCursorStmtV14_uniqueStorage33_A784F7F2ED97E043416F18646CF1BF17LLAC01_I5ClassAELLCyFTf4n_g
++ _$s14BiomeSQLParser25PgQuery_ReindexObjectTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser25PgQuery_ReindexObjectTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser26PgQuery_LockClauseStrengthO8allCases_WZTv_
++ _$s14BiomeSQLParser26PgQuery_LockClauseStrengthO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser26PgQuery_SQLValueFunctionOpO8allCases_WZTv_
++ _$s14BiomeSQLParser27PgQuery_TransactionStmtKindO8allCases_WZTv_
++ _$s14BiomeSQLParser29PgQuery_AlterSubscriptionTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser29PgQuery_AlterSubscriptionTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser29PgQuery_FunctionParameterModeO8allCases_WZTv_
++ _$s14BiomeSQLParser29PgQuery_FunctionParameterModeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser31PgQuery_ImportForeignSchemaTypeO8allCases_WZTv_
++ _$s14BiomeSQLParser31PgQuery_ImportForeignSchemaTypeO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser31PgQuery_PartitionRangeDatumKindO8allCases_WZTv_
++ _$s14BiomeSQLParser31PgQuery_PartitionRangeDatumKindO8rawValueACSgSi_tcfCTf4nd_n
++ _$s14BiomeSQLParser35SQLExpressionNonAggregationFunction33_B787555787B9EFBBEFB0C9C5225A4FB7LLVwCPTm
++ _$s14BiomeSQLParser6SchemaVwCPTm
++ _$s14BiomeSQLParser7BindingVwCPTm
++ _$s14BiomeSQLParser7BindingVwetTm
++ _$s14BiomeSQLParser7BindingVwstTm
++ _$s17PoirotSchematizer0B0V11searchValue2in15withFieldNumber4typeAA03AnyD0OSg10Foundation4DataV_SiAA10TypeSchemaOtKFZ
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorV4nextAA8AnyValueOSgyKF
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorVMa
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorVMn
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorVSgMD
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorVSgML
++ _$s17PoirotSchematizer0B0V23RepeatableFieldIteratorVSgMa
++ _$s17PoirotSchematizer0B0V27makeRepeatableFieldIterator2in04withE6Number4typeAC0deF0V10Foundation4DataV_SiAA10TypeSchemaOtKFZ
++ _$s17PoirotSchematizer10TypeSchemaO4boolyA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO5bytesyA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO5floatyA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO5int32yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO5int64yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6doubleyA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6sint32yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6sint64yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6stringyA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6uint32yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO6uint64yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO7fixed32yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO7fixed64yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO8sfixed32yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaO8sfixed64yA2CmFWC
++ _$s17PoirotSchematizer10TypeSchemaOMa
++ _$s17PoirotSchematizer15SchematizedDataVMa
++ _$s17PoirotSchematizer8AnyValueOMa
++ _$s17PoirotSchematizer8AnyValueOMn
++ _$s17PoirotSchematizer8AnyValueOSgMD
++ _$s17PoirotSchematizer8AnyValueOSgWOc
++ _$s17PoirotSchematizer8AnyValueOSgWOhTm
++ _$s17PoirotSchematizer9EnumValueVMa
++ _$sSD8endIndexSD0B0Vyxq__GvgSS_12BiomeStreams13DatabaseValueOTg5
++ _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_14BiomeSQLParser11SQLDataTypeOTgm5
++ _$sSLsE1goiySbx_xtFZ10Foundation4DataV_Tgmq5
++ _$sSLsE2geoiySbx_xtFZ10Foundation4DataV_Tgmq5
++ _$sSLsE2leoiySbx_xtFZ10Foundation4DataV_Tgmq5
++ _$sSTsE7flatMapySay7ElementQyd__Gqd__ABQzKXEKSTRd__lFSay12BiomeStreams16DatabaseResource_pXpG_SayAF28MaterializedViewPhysicalPlanVGTg5
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyF12BiomeStreams12ChangeRecordV_Tg5Tm
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12BiomeStreams13StorableValueO_Tgm5
++ _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ14BiomeSQLParser11SQLDataTypeO_Tgm5
++ _$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtF14BiomeSQLParser19AggregationFunctionV_Tg5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12BiomeStreams13StorableValueO_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser11SQLDataTypeO_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser11SQLDataTypeO_Tgm5Tm
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser13SQLExpressionV_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser19AggregationFunctionV_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSS_12BiomeStreams13StorableValueOt_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSS_Tgm5
++ _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSay14BiomeSQLParser19AggregationFunctionVG_Tgm5
++ _$sSa29_hoistableIsNativeTypeCheckedSbyFSS3key_14BiomeSQLParser010SQLRawDataD0O5valuet_Tg5
++ _$sSa29_hoistableIsNativeTypeCheckedSbyFSS3key_14BiomeSQLParser07SQLDataD0O5valuet_Tg5
++ _$sSa9_getCountSiyF14BiomeSQLParser12ResultColumnV_Tg5
++ _$sSa9_getCountSiyF14BiomeSQLParser19AggregationFunctionV_Tg5
++ _$sSa9_getCountSiyF14BiomeSQLParser6SchemaV_Tg5
++ _$sSa9_getCountSiyFSay14BiomeSQLParser19AggregationFunctionVG_Tg5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser11SQLDataTypeO_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser12PgQuery_NodeV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser15PgQuery_RawStmtV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser17PgQuery_ScanTokenV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser19AggregationFunctionV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser7BindingV_Tgm5
++ _$sSasSQRzlE2eeoiySbSayxG_ABtFZs6UInt64V_Tgm5
++ _$sSfN
++ _$sSo7NSErrorCML
++ _$sSo7NSErrorCMa
++ _$sSp10initialize4from5countySPyxG_SitF12BiomeStreams11Aggregation_p_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF12BiomeStreams12ChangeRecordV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF12BiomeStreams13StorableValueO_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF12BiomeStreams28MaterializedViewPhysicalPlanV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF14BiomeSQLParser12ResultColumnV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF14BiomeSQLParser13SQLExpressionV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF14BiomeSQLParser19AggregationFunctionV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitF14BiomeSQLParser19AggregationFunctionV_Tg5Tm
++ _$sSp10initialize4from5countySPyxG_SitF14BiomeSQLParser6SchemaV_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSDySS12BiomeStreams13StorableValueOG_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSDySS12BiomeStreams13StorableValueOG_Tg5Tm
++ _$sSp10initialize4from5countySPyxG_SitFSS10columnName_14BiomeSQLParser11SQLDataTypeO04dataI0t_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS11metadataKey_SS10columnName14BiomeSQLParser11SQLDataTypeO04dataK0t_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS3key_12BiomeStreams13StorableValueO5valuet_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS3key_14BiomeSQLParser11SQLDataTypeO5valuet_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS_14BiomeSQLParser11SQLDataTypeOt_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSS_14BiomeSQLParser11SQLDataTypeOt_Tg5Tm
++ _$sSp10initialize4from5countySPyxG_SitFSS_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSay12BiomeStreams13StorableValueOG_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFSaySS11metadataKey_SS10columnName14BiomeSQLParser11SQLDataTypeO04dataK0tG_Tg5
++ _$sSp10initialize4from5countySPyxG_SitFs5UInt8V_Tgq5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12BiomeStreams11Aggregation_p_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12BiomeStreams12ChangeRecordV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12BiomeStreams13StorableValueO_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF12BiomeStreams28MaterializedViewPhysicalPlanV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitF14BiomeSQLParser6SchemaV_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSDySS12BiomeStreams13StorableValueOG_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFSDySS12BiomeStreams13StorableValueOG_Tg5Tm
++ _$sSp14moveInitialize4from5countySpyxG_SitFSS_Tg5
++ _$sSp14moveInitialize4from5countySpyxG_SitFs5UInt8V_Tgq5
++ _$sSv16initializeMemory2as4from5countSpyxGxm_SPyxGSitlFs5UInt8V_Tgmq5
++ _$sSw10copyMemory4fromySW_tF
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSS3key_14BiomeSQLParser11SQLDataTypeO5valuet_Tg5
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams12ChangeRecordV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams28MaterializedViewPhysicalPlanV_Tg5
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$ss15ContiguousArrayV034_makeUniqueAndReserveCapacityIfNotD0yyFSS_Tg5Tm
++ _$ss15ContiguousArrayV12_endMutationyyFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$ss15ContiguousArrayV15reserveCapacityyySiFSay14BiomeSQLParser19AggregationFunctionVG_Tg5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$ss15ContiguousArrayV36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFSS_Tg5Tm
++ _$ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntFSS3key_14BiomeSQLParser14SQLRawDataTypeO5valuet_Tg5
++ _$ss15ContiguousArrayVAByxGycfCSS_Tgm5
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_12BiomeStreams13StorableValueOTg5
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_12BiomeStreams08StorableD0OTg5
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss17_assertionFailure__5flagss5NeverOs12StaticStringV_SSs6UInt32VtF
++ _$ss18_fatalErrorMessage__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtF
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgmq5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams12ChangeRecordV_Tg5Tm
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss9_typeName_9qualifiedSSypXp_SbtF
++ _$syXlN
++ _$sypSgWOb
++ _BMEventBodyDataSQLColumn
++ _BMEventClassNameSQLColumn
++ _BMFieldPathFromKeyPath
++ _BMSqliteResultFromObjcValue
++ _BMSqliteValueToObjcValue
++ _BMSqliteValueToObjcValue.onceToken
++ _BPSPubSubErrorDomain
++ _OBJC_CLASS_$_BMAccountManager
++ _OBJC_CLASS_$_BMDevice
++ _OBJC_CLASS_$_BMEventSession
++ _OBJC_CLASS_$_BMPairedEventSession
++ _OBJC_CLASS_$_BMProtoField
++ _OBJC_CLASS_$_BMSQLProtoColumn
++ _OBJC_CLASS_$_BMSQLProtoUDFs
++ _OBJC_CLASS_$_NSEnumerator
++ _OBJC_CLASS_$__TtC12BiomeStreams23BMPoirotSchematizerShim
++ _OBJC_IVAR_$_BMEventSession._events
++ _OBJC_IVAR_$_BMEventSession._key
++ _OBJC_IVAR_$_BMProtoField._name
++ _OBJC_IVAR_$_BMProtoField._number
++ _OBJC_IVAR_$_BMProtoField._subMessageClass
++ _OBJC_IVAR_$_BMProtoField._type
++ _OBJC_IVAR_$_BMPruner._remote
++ _OBJC_IVAR_$_BMSQLProtoColumn._convertedType
++ _OBJC_IVAR_$_BMSQLProtoColumn._fieldNumber
++ _OBJC_IVAR_$_BMSQLProtoColumn._protoDataType
++ _OBJC_IVAR_$_BMStoreSource._config
++ _OBJC_IVAR_$_BMStreamVirtualTable._stream
++ _OBJC_METACLASS_$_BMEventSession
++ _OBJC_METACLASS_$_BMPairedEventSession
++ _OBJC_METACLASS_$_BMProtoField
++ _OBJC_METACLASS_$_BMSQLProtoColumn
++ _OBJC_METACLASS_$_BMSQLProtoUDFs
++ _OBJC_METACLASS_$_NSEnumerator
++ _OBJC_METACLASS_$__TtC12BiomeStreams23BMPoirotSchematizerShim
++ _OBJC_METACLASS_$__TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator
++ __DATA__TtC12BiomeStreams23BMPoirotSchematizerShim
++ __DATA__TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator
++ __IVARS__TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator
++ __METACLASS_DATA__TtC12BiomeStreams23BMPoirotSchematizerShim
++ __METACLASS_DATA__TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator
++ __OBJC_$_CLASS_METHODS_BMEventSession
++ __OBJC_$_CLASS_METHODS_BMPairedEventSession
++ __OBJC_$_CLASS_METHODS_BMSQLProtoColumn
++ __OBJC_$_CLASS_METHODS_BMSQLProtoUDFs
++ __OBJC_$_CLASS_METHODS_BMStoreStream(BMPublisherOptions)
++ __OBJC_$_CLASS_METHODS__TtC12BiomeStreams23BMPoirotSchematizerShim
++ __OBJC_$_CLASS_PROP_LIST_BMEventSession
++ __OBJC_$_INSTANCE_METHODS_BMEventSession
++ __OBJC_$_INSTANCE_METHODS_BMPairedEventSession
++ __OBJC_$_INSTANCE_METHODS_BMProtoField
++ __OBJC_$_INSTANCE_METHODS_BMSQLProtoColumn
++ __OBJC_$_INSTANCE_METHODS_BMStoreStream(BMPublisherOptions)
++ __OBJC_$_INSTANCE_METHODS__TtC12BiomeStreams23BMPoirotSchematizerShim
++ __OBJC_$_INSTANCE_METHODS__TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator
++ __OBJC_$_INSTANCE_VARIABLES_BMEventSession
++ __OBJC_$_INSTANCE_VARIABLES_BMProtoField
++ __OBJC_$_INSTANCE_VARIABLES_BMSQLProtoColumn
++ __OBJC_$_PROP_LIST_BMEventSession
++ __OBJC_$_PROP_LIST_BMPairedEventSession
++ __OBJC_$_PROP_LIST_BMProtoField
++ __OBJC_$_PROP_LIST_BMSQLProtoColumn
++ __OBJC_CLASS_PROTOCOLS_$_BMEventSession
++ __OBJC_CLASS_RO_$_BMEventSession
++ __OBJC_CLASS_RO_$_BMPairedEventSession
++ __OBJC_CLASS_RO_$_BMProtoField
++ __OBJC_CLASS_RO_$_BMSQLProtoColumn
++ __OBJC_CLASS_RO_$_BMSQLProtoUDFs
++ __OBJC_METACLASS_RO_$_BMEventSession
++ __OBJC_METACLASS_RO_$_BMPairedEventSession
++ __OBJC_METACLASS_RO_$_BMProtoField
++ __OBJC_METACLASS_RO_$_BMSQLProtoColumn
++ __OBJC_METACLASS_RO_$_BMSQLProtoUDFs
++ ___104+[BMEventSession sessionPublisherWithStreamPublisher:startingBlock:endingBlock:sessionKeyBlock:options:]_block_invoke
++ ___104+[BMEventSession sessionPublisherWithStreamPublisher:startingBlock:endingBlock:sessionKeyBlock:options:]_block_invoke_2
++ ___108-[BMStreamBase publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]_block_invoke
++ ___109-[BMStoreStream publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]_block_invoke
++ ___115-[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:]_block_invoke
++ ___29-[BMStreamBase remoteDevices]_block_invoke
++ ___35-[BMComputeSourceClient connection]_block_invoke.52
++ ___55-[BMStorePublisherManager _streamReaderWithRemoteName:]_block_invoke
++ ___57-[BMBiomeScheduler subscribeWithDSLGraph:publisherBlock:]_block_invoke.162
++ ___60-[BMComputeSourceServer listener:shouldAcceptNewConnection:]_block_invoke.133
++ ___65-[BMSQLDatabase registerFunctionWithName:numArgs:function:error:]_block_invoke
++ ___66-[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:]_block_invoke
++ ___66-[BMComputeSourceClient eventsPrunedForAccount:remoteName:reason:]_block_invoke.cold.1
++ ___67+[BMSQLProtoUDFs registerProtoUDFsWithDatabase:eventClasses:error:]_block_invoke
++ ___75-[BMStreamBase publishersForRemoteDevices:startTime:includeLocal:pipeline:]_block_invoke
++ ___76-[BMStoreStream publishersForRemoteDevices:startTime:includeLocal:pipeline:]_block_invoke
++ ___82-[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]_block_invoke
++ ___82-[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]_block_invoke.50
++ ___82-[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]_block_invoke.52
++ ___82-[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]_block_invoke.54
++ ___82-[BMDaemon sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:]_block_invoke.cold.1
++ ___88-[BMStreamBase publishersForAccounts:deviceTypes:includeLocal:options:useCase:pipeline:]_block_invoke
++ ___89-[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:]_block_invoke
++ ___89-[BMComputeSourceClient sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:]_block_invoke.cold.1
++ ___94-[BMSQLProtoColumn initWithName:dataType:requestOnly:fieldNumber:protoDataType:convertedType:]_block_invoke
++ ___98+[BMPairedEventSession sessionPublisherWithStreamPublisher:startingBlock:sessionKeyBlock:options:]_block_invoke
++ ___98+[BMPairedEventSession sessionPublisherWithStreamPublisher:startingBlock:sessionKeyBlock:options:]_block_invoke_2
++ ___BMEventBodyDataSQLColumn_block_invoke
++ ___BMEventClassNameSQLColumn_block_invoke
++ ___BMSqliteValueToObjcValue_block_invoke
++ ___block_descriptor_32_e28_"BMDevice"16?0"NSString"8l
++ ___block_descriptor_32_e28_"NSString"16?0"BMDevice"8l
++ ___block_descriptor_32_e33_"<BPSPublisher>"16?0"NSArray"8l
++ ___block_descriptor_32_e45_32?0"NSArray"8"NSMutableDictionary"16^24l
++ ___block_descriptor_40_e8_32bs_e22_B16?0"BMStoreEvent"8ls32l8
++ ___block_descriptor_40_e8_32bs_e24_16?0"BMEventSession"8ls32l8
++ ___block_descriptor_40_e8_32bs_e24_32?0"NSArray"816^24ls32l8
++ ___block_descriptor_56_e12_24?08^16l
++ ___block_descriptor_56_e8_32s40s48r_e47_v16?0"BMStorePublisherManagerProtectedState"8ls32l8s40l8r48l8
++ ___block_descriptor_64_e8_32bs40bs48bs_e34_24?0"NSArray"8"BMStoreEvent"16ls32l8s40l8s48l8
++ ___block_literal_global.136
++ ___block_literal_global.138
++ ___block_literal_global.141
++ ___block_literal_global.145
++ ___block_literal_global.147
++ ___block_literal_global.184
++ ___block_literal_global.187
++ ___block_literal_global.214
++ ___block_literal_global.217
++ ___block_literal_global.220
++ ___block_literal_global.223
++ ___block_literal_global.226
++ ___block_literal_global.229
++ ___block_literal_global.23
++ ___block_literal_global.28
++ ___block_literal_global.31
++ ___block_literal_global.50
++ ___block_literal_global.57
++ ___block_literal_global.83
++ ___block_literal_global.89
++ ___getBMSiriAudioHistoryClass_block_invoke
++ ___getBMSiriAudioHistoryClass_block_invoke.cold.1
++ ___getBMSiriRemembersAudioHistoryIdentifierSymbolLoc_block_invoke
++ ___swift_get_extra_inhabitant_index.3229Tm
++ ___swift_get_extra_inhabitant_index.3250Tm
++ ___swift_get_extra_inhabitant_index.3268Tm
++ ___swift_get_extra_inhabitant_index.3340Tm
++ ___swift_get_extra_inhabitant_index.3419Tm
++ ___swift_get_extra_inhabitant_index.3428Tm
++ ___swift_get_extra_inhabitant_index.3437Tm
++ ___swift_get_extra_inhabitant_index.3443Tm
++ ___swift_get_extra_inhabitant_index.3446Tm
++ ___swift_get_extra_inhabitant_index.3524Tm
++ ___swift_get_extra_inhabitant_index.3542Tm
++ ___swift_get_extra_inhabitant_index.3572Tm
++ ___swift_get_extra_inhabitant_index.3584Tm
++ ___swift_get_extra_inhabitant_index.3626Tm
++ ___swift_get_extra_inhabitant_index.3647Tm
++ ___swift_get_extra_inhabitant_index.3662Tm
++ ___swift_get_extra_inhabitant_index.3677Tm
++ ___swift_get_extra_inhabitant_index.3725Tm
++ ___swift_get_extra_inhabitant_index.3731Tm
++ ___swift_get_extra_inhabitant_index.3779Tm
++ ___swift_get_extra_inhabitant_index.4088Tm
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_store_extra_inhabitant_index.3230Tm
++ ___swift_store_extra_inhabitant_index.3251Tm
++ ___swift_store_extra_inhabitant_index.3269Tm
++ ___swift_store_extra_inhabitant_index.3341Tm
++ ___swift_store_extra_inhabitant_index.3420Tm
++ ___swift_store_extra_inhabitant_index.3429Tm
++ ___swift_store_extra_inhabitant_index.3438Tm
++ ___swift_store_extra_inhabitant_index.3444Tm
++ ___swift_store_extra_inhabitant_index.3525Tm
++ ___swift_store_extra_inhabitant_index.3543Tm
++ ___swift_store_extra_inhabitant_index.3573Tm
++ ___swift_store_extra_inhabitant_index.3585Tm
++ ___swift_store_extra_inhabitant_index.3627Tm
++ ___swift_store_extra_inhabitant_index.3630Tm
++ ___swift_store_extra_inhabitant_index.3648Tm
++ ___swift_store_extra_inhabitant_index.3663Tm
++ ___swift_store_extra_inhabitant_index.3678Tm
++ ___swift_store_extra_inhabitant_index.3726Tm
++ ___swift_store_extra_inhabitant_index.3732Tm
++ ___swift_store_extra_inhabitant_index.3780Tm
++ ___swift_store_extra_inhabitant_index.4029Tm
++ ___swift_store_extra_inhabitant_index.4089Tm
++ __swift_stdlib_reportUnimplementedInitializer
++ __unnamed_array_storage.304
++ _biome_each_bestindex
++ _biome_each_bestindex.cold.1
++ _biome_each_close
++ _biome_each_column
++ _biome_each_column.cold.1
++ _biome_each_connect
++ _biome_each_disconnect
++ _biome_each_eof
++ _biome_each_filter
++ _biome_each_filter.cold.1
++ _biome_each_module
++ _biome_each_next
++ _biome_each_open
++ _biome_each_rowid
++ _biome_each_vtab_destroy
++ _getBMSiriAudioHistoryClass
++ _getBMSiriAudioHistoryClass.softClass
++ _getBMSiriRemembersAudioHistoryIdentifier
++ _getBMSiriRemembersAudioHistoryIdentifier.cold.1
++ _getBMSiriRemembersAudioHistoryIdentifierSymbolLoc.ptr
++ _objc_msgSend$_addEventClass:toProtoRegistry:
++ _objc_msgSend$_createStreamReaderForRemoteName:eventDataClass:
++ _objc_msgSend$_prunerForRemote:
++ _objc_msgSend$_publisherForDevice:options:
++ _objc_msgSend$_publishersForDevices:includeLocal:options:
++ _objc_msgSend$_storeStreamForAccount:useCase:
++ _objc_msgSend$_storeStreamForUseCase:
++ _objc_msgSend$_streamReaderWithRemoteName:
++ _objc_msgSend$account
++ _objc_msgSend$accounts
++ _objc_msgSend$appIntentInteractionIdentifier
++ _objc_msgSend$convertValue:toType:
++ _objc_msgSend$copyWithRemoteName:
++ _objc_msgSend$decodeObjectForKey:
++ _objc_msgSend$deviceIdentifier
++ _objc_msgSend$deviceIdentifiersForAccount:
++ _objc_msgSend$eventBodyData
++ _objc_msgSend$events
++ _objc_msgSend$eventsPrunedForAccount:remoteName:reason:
++ _objc_msgSend$eventsPrunedWithStreamIdentifier:account:remoteName:reason:
++ _objc_msgSend$extractValueFromProtoData:fieldNumber:type:error:
++ _objc_msgSend$flatMapWithTransform:
++ _objc_msgSend$initWithDeviceIdentifier:idsDeviceIdentifier:name:model:platform:
++ _objc_msgSend$initWithIdentifier:schema:configuration:
++ _objc_msgSend$initWithKey:events:
++ _objc_msgSend$initWithKey:startEvent:endEvent:
++ _objc_msgSend$initWithStoreStream:remote:
++ _objc_msgSend$initWithStreamIdentifier:eventClass:storeConfig:
++ _objc_msgSend$initWithUUIDBytes:
++ _objc_msgSend$isSubclassOfClass:
++ _objc_msgSend$migrate
++ _objc_msgSend$openSessionsFromBookmark:
++ _objc_msgSend$pathForSharedSyncWithAccount:streamType:domain:
++ _objc_msgSend$protoFields
++ _objc_msgSend$pruneEventsOfRemote:withReason:error:predicateBlock:
++ _objc_msgSend$pruneEventsOfRemote:withReason:usingPredicateBlock:
++ _objc_msgSend$pruneRestrictedStreamsInDomain:account:activity:
++ _objc_msgSend$publisherForDevice:options:
++ _objc_msgSend$publisherForDevice:withUseCase:
++ _objc_msgSend$publisherForDevice:withUseCase:options:
++ _objc_msgSend$publisherWithOptions:
++ _objc_msgSend$publishersForDevices:includeLocal:options:pipeline:
++ _objc_msgSend$publishersForDevices:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:
++ _objc_msgSend$publishersForDevices:withUseCase:startTime:includeLocal:pipeline:
++ _objc_msgSend$registerFunctionWithName:numArgs:function:userData:error:
++ _objc_msgSend$registerProtoUDFsWithDatabase:eventClasses:error:
++ _objc_msgSend$remoteDevicesForAccount:error:
++ _objc_msgSend$remoteName
++ _objc_msgSend$remoteStreamName
++ _objc_msgSend$scanWithInitial:nextPartialResult:
++ _objc_msgSend$searchValueIn:withFieldNumber:typeRawValue:error:
++ _objc_msgSend$searchValuesIn:withFieldNumber:typeRawValue:error:
++ _objc_msgSend$sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:
++ _objc_msgSend$sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:
++ _objc_msgSend$sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:
++ _objc_msgSend$sessionPublisherWithStreamPublisher:startingBlock:endingBlock:sessionKeyBlock:options:
++ _objc_msgSend$sharedDeviceAccountsWithUseCase:
++ _objc_msgSend$stream
++ _objc_msgSend$streamDeletionWithStreamIdentifier:remoteName:error:
++ _objc_msgSend$streamPrunedWithStreamIdentifier:remoteName:error:
++ _objc_msgSend$streamUpdatedWithStreamIdentifier:remoteName:error:
++ _objc_msgSend$subMessageClass
++ _objc_msgSend$unsignedLongLongValue
++ _swift_FORCE_LOAD_$_swiftFoundation.144
++ _swift_FORCE_LOAD_$_swiftFoundation.4181
++ _swift_FORCE_LOAD_$_swiftFoundation.56
++ _swift_FORCE_LOAD_$_swiftFoundation.63
++ _swift_FORCE_LOAD_$_swiftFoundation.7
++ _swift_FORCE_LOAD_$_swiftFoundation.70
++ _symbolic So12NSEnumeratorC
++ _symbolic _____ 12BiomeStreams23BMPoirotSchematizerShimC
++ _symbolic _____ 12BiomeStreams23BMPoirotSchematizerShimC0C23RepeatedFieldEnumerator33_6AF5E9B2F4D56B14EB8E6E9336EA174FLLC
++ _symbolic _____Sg 17PoirotSchematizer0B0V23RepeatableFieldIteratorV
++ _symbolic _____Sg 17PoirotSchematizer8AnyValueO
+- +[BMDaemon(Pruning) pruneRestrictedStreamsInDomain:activity:]
+- +[BMLibraryStreamsPruner _interactionIdentifierFromObject:]
+- +[BMPBSiriMemoryReferenceResolutionEvent entityMapElementsType]
+- +[BMSiriMemoryReferenceResolutionEvent eventWithData:dataVersion:]
+- +[BMSiriMemoryReferenceResolutionEvent eventWithData:dataVersion:].cold.1
+- -[BMComputeSourceClient eventsPrunedWithReason:]
+- -[BMComputeSourceClient eventsPrunedWithReason:].cold.1
+- -[BMComputeSourceClient sendEvent:timestamp:signpostID:sendFullEvent:]
+- -[BMComputeSourceClient sendEvent:timestamp:signpostID:sendFullEvent:].cold.1
+- -[BMComputeSourceClient sendEvent:timestamp:signpostID:sendFullEvent:].cold.2
+- -[BMComputeSourceServerConnection eventsPrunedWithStreamIdentifier:reason:]
+- -[BMComputeSourceServerConnection eventsPrunedWithStreamIdentifier:reason:].cold.1
+- -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:]
+- -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:].cold.1
+- -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:].cold.2
+- -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:].cold.3
+- -[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:].cold.4
+- -[BMDaemon eventsPrunedWithStreamIdentifier:reason:]
+- -[BMDaemon eventsPrunedWithStreamIdentifier:reason:].cold.1
+- -[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]
+- -[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:].cold.1
+- -[BMPBSiriMemoryReferenceResolutionEntityValue .cxx_destruct]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue copyTo:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue copyWithZone:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue description]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue dictionaryRepresentation]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue hasTimestamp]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue hasValueData]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue hash]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue isEqual:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue mergeFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue readFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue setHasTimestamp:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue setTimestamp:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue setValueData:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue timestamp]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue valueData]
+- -[BMPBSiriMemoryReferenceResolutionEntityValue writeTo:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement .cxx_destruct]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement copyTo:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement copyWithZone:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement description]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement dictionaryRepresentation]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement hasKey]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement hasValue]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement hash]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement isEqual:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement key]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement mergeFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement readFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement setKey:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement setValue:]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement value]
+- -[BMPBSiriMemoryReferenceResolutionEntityValueMapElement writeTo:]
+- -[BMPBSiriMemoryReferenceResolutionEvent .cxx_destruct]
+- -[BMPBSiriMemoryReferenceResolutionEvent addEntityMapElements:]
+- -[BMPBSiriMemoryReferenceResolutionEvent clearEntityMapElements]
+- -[BMPBSiriMemoryReferenceResolutionEvent copyTo:]
+- -[BMPBSiriMemoryReferenceResolutionEvent copyWithZone:]
+- -[BMPBSiriMemoryReferenceResolutionEvent description]
+- -[BMPBSiriMemoryReferenceResolutionEvent dictionaryRepresentation]
+- -[BMPBSiriMemoryReferenceResolutionEvent entityMapElementsAtIndex:]
+- -[BMPBSiriMemoryReferenceResolutionEvent entityMapElementsCount]
+- -[BMPBSiriMemoryReferenceResolutionEvent entityMapElements]
+- -[BMPBSiriMemoryReferenceResolutionEvent hasVersion]
+- -[BMPBSiriMemoryReferenceResolutionEvent hash]
+- -[BMPBSiriMemoryReferenceResolutionEvent isEqual:]
+- -[BMPBSiriMemoryReferenceResolutionEvent mergeFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEvent readFrom:]
+- -[BMPBSiriMemoryReferenceResolutionEvent setEntityMapElements:]
+- -[BMPBSiriMemoryReferenceResolutionEvent setVersion:]
+- -[BMPBSiriMemoryReferenceResolutionEvent version]
+- -[BMPBSiriMemoryReferenceResolutionEvent writeTo:]
+- -[BMPruner initWithStoreStream:config:]
+- -[BMPruner storeConfig]
+- -[BMPruner storeStream]
+- -[BMSQLDatabase registerFunctionWithName:numArgs:function:error:].cold.1
+- -[BMSiriMemoryReferenceResolutionEntityValue .cxx_destruct]
+- -[BMSiriMemoryReferenceResolutionEntityValue encodeAsProto]
+- -[BMSiriMemoryReferenceResolutionEntityValue hash]
+- -[BMSiriMemoryReferenceResolutionEntityValue initWithProto:]
+- -[BMSiriMemoryReferenceResolutionEntityValue initWithProto:].cold.1
+- -[BMSiriMemoryReferenceResolutionEntityValue initWithProto:].cold.2
+- -[BMSiriMemoryReferenceResolutionEntityValue initWithProtoData:]
+- -[BMSiriMemoryReferenceResolutionEntityValue initWithTimestamp:valueData:]
+- -[BMSiriMemoryReferenceResolutionEntityValue isEqual:]
+- -[BMSiriMemoryReferenceResolutionEntityValue proto]
+- -[BMSiriMemoryReferenceResolutionEntityValue serialize]
+- -[BMSiriMemoryReferenceResolutionEntityValue timestamp]
+- -[BMSiriMemoryReferenceResolutionEntityValue valueData]
+- -[BMSiriMemoryReferenceResolutionEvent .cxx_destruct]
+- -[BMSiriMemoryReferenceResolutionEvent dataVersion]
+- -[BMSiriMemoryReferenceResolutionEvent encodeAsProto]
+- -[BMSiriMemoryReferenceResolutionEvent entitiesByEntityID]
+- -[BMSiriMemoryReferenceResolutionEvent hash]
+- -[BMSiriMemoryReferenceResolutionEvent initWithProto:]
+- -[BMSiriMemoryReferenceResolutionEvent initWithProto:].cold.1
+- -[BMSiriMemoryReferenceResolutionEvent initWithProto:].cold.2
+- -[BMSiriMemoryReferenceResolutionEvent initWithProtoData:]
+- -[BMSiriMemoryReferenceResolutionEvent initWithVersion:entityDict:]
+- -[BMSiriMemoryReferenceResolutionEvent isEqual:]
+- -[BMSiriMemoryReferenceResolutionEvent proto]
+- -[BMSiriMemoryReferenceResolutionEvent serialize]
+- -[BMSiriMemoryReferenceResolutionEvent version]
+- -[BMSiriMemoryReferenceResolutionStream .cxx_destruct]
+- -[BMSiriMemoryReferenceResolutionStream identifier]
+- -[BMSiriMemoryReferenceResolutionStream init]
+- -[BMSiriMemoryReferenceResolutionStream publisherFromStartTime:]
+- -[BMSiriMemoryReferenceResolutionStream publisherWithStartTime:endTime:maxEvents:lastN:reversed:]
+- -[BMSiriMemoryReferenceResolutionStream publisherWithStartTime:endTime:maxEvents:reversed:]
+- -[BMSiriMemoryReferenceResolutionStream publisher]
+- -[BMSiriMemoryReferenceResolutionStream publishersForDevices:startTime:includeLocal:pipeline:]
+- -[BMSiriMemoryReferenceResolutionStream source]
+- -[BMStorePublisherManager _openStreamReaderWithAccount:storeLocation:remoteStreamName:eventDataClass:]
+- -[BMStorePublisherManager _openStreamReaderWithStoreLocation:remoteStreamName:eventDataClass:]
+- -[BMStorePublisherManager _publisherWithAccount:storeLocation:remoteStreamName:]
+- -[BMStorePublisherManager _publisherWithStoreLocation:remoteStreamName:]
+- -[BMStorePublisherManager _publishersForAccount:remoteDevices:includeLocal:]
+- -[BMStorePublisherManager _publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStorePublisherManager _publishersForRemoteDevices:includeLocal:]
+- -[BMStorePublisherManager _publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStorePublisherManager _streamReaderWithStoreLocation:remoteStreamName:]
+- -[BMStorePublisherManager initWithStreamIdentifier:streamConfig:accessClient:]
+- -[BMStorePublisherManager publisherFromStartTime:]
+- -[BMStorePublisherManager publisherWithStartTime:endTime:maxEvents:lastN:reversed:]
+- -[BMStorePublisherManager publisherWithStartTime:endTime:maxEvents:reversed:]
+- -[BMStorePublisherManager publisherWithStartTime:withEndTime:withMaxEvents:reversed:]
+- -[BMStorePublisherManager publisher]
+- -[BMStorePublisherManager publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStorePublisherManager publishersForDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStorePublisherManager publishersForDevices:startTime:includeLocal:pipeline:]
+- -[BMStorePublisherManager publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStorePublisherManager publishersForRemoteDevices:startTime:includeLocal:pipeline:]
+- -[BMStoreStream accountsWithError:]
+- -[BMStoreStream pruneEventsWithReason:error:predicateBlock:]
+- -[BMStoreStream pruneEventsWithReason:error:predicateBlock:].cold.1
+- -[BMStoreStream publishersForAccounts:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStoreStream sharedSyncAccountsForDomain:error:]
+- -[BMStreamBase accountsWithError:]
+- -[BMStreamBase publishersForAccounts:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:]
+- -[BMStreamBase storeStreamForUseCase:]
+- GCC_except_table22
+- GCC_except_table23
+- GCC_except_table27
+- GCC_except_table36
+- GCC_except_table38
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEntityValue._has
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEntityValue._timestamp
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEntityValue._valueData
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement._key
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement._value
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEvent._entityMapElements
+- OBJC_IVAR_$_BMPBSiriMemoryReferenceResolutionEvent._version
+- _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFs5UInt8V_A15It_Tg5064$s12BiomeStreams13StorableValueO012fromDatabaseD0_8dataTypeAcA0fq32O_0A9SQLParser07SQLDataH0OtKFZs5I14V_A15LtSWXEfU_Tf1nncn_n
+- _$s10Foundation4DataV06InlineB0V15withUnsafeBytesyxxSWKXEKlFs5UInt8V_A15Ht_Tg5064$s12BiomeStreams13StorableValueO012fromDatabaseD0_8dataTypeAcA0fo32O_0A9SQLParser07SQLDataH0OtKFZs5G14V_A15LtSWXEfU_Tf1ncn_n
+- _$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n
+- _$s10Foundation4DataV15_RepresentationOyAESWcfC
+- _$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n
+- _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFs5UInt8V_A15Ft_Tg5064$s12BiomeStreams13StorableValueO012fromDatabaseD0_8dataTypeAcA0fn32O_0A9SQLParser07SQLDataH0OtKFZs5F14V_A15LtSWXEfU_Tf1ncn_n
+- _$s10Foundation4DataVSL12BiomeStreamsSL2leoiySbx_xtFZTWTm
+- _$s12BiomeStreams13DaemonLibraryO4root_WZ
+- _$s12BiomeStreams13DaemonLibraryO4root_Wz
+- _$s12BiomeStreams29KeyedAggregationMetadataCacheVAA0c12QueryPlannereF0A2aDP16itemsToBeFlushedSDySayAA13StorableValueOG0N0Qz5value_AA0F5EventO5eventtGvgTW
+- _$s12BiomeStreams29KeyedFirstMatchingRecordCacheVAA0c20QueryPlannerMetadataG0A2aDP16itemsToBeFlushedSDySayAA13StorableValueOG0P0Qz5value_AA0G5EventO5eventtGvgTW
+- _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE04readF3SQL20materializedViewName13groupBySchemaSS3sql_SayAA13StorableValueOGAJKc16argumentsFromKeytSS_SaySS_0A9SQLParser11SQLDataTypeOtGtKFZA2JKcfU0_TA.56
+- _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c11AggregationfG0V_Tg5
+- _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c19FirstMatchingRecordG0V_Tg5
+- _$s12BiomeStreams30KeyedQueryPlannerMetadataCachePAAE13groupBySchema0hI6FieldsSaySS_0A9SQLParser11SQLDataTypeOtGSayAF13SQLExpressionVG_tFZAA0c19FirstMatchingRecordG0V_Tg5Tm
+- _$s14BiomeSQLParser08PgQuery_D6SourceO8allCases_WZTm
+- _$s14BiomeSQLParser08PgQuery_D6SourceO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser11SQLFunctionO8allCasesSayACGvgZTf4d_n
+- _$s14BiomeSQLParser12PgQuery_ListV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser13PgQuery_FloatV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser13PgQuery_TokenO21InternalSwiftProtobuf4EnumAadEP8rawValuexSgSi_tcfCTWTm
+- _$s14BiomeSQLParser13PgQuery_TokenOSYAASY8rawValuexSg03RawG0Qz_tcfCTWTm
+- _$s14BiomeSQLParser15PgQuery_IntegerV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser15PgQuery_RawStmtV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s14BiomeSQLParser17PgQuery_ColumnRefV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser17PgQuery_SortByDirO8allCases_WZTm
+- _$s14BiomeSQLParser17PgQuery_SortByDirO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser19PgQuery_A_Expr_KindOSQAASQ2eeoiySbx_xtFZTWTm
+- _$s14BiomeSQLParser19PgQuery_ParseResultV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser19PgQuery_SubLinkTypeO8allCases_WZTm
+- _$s14BiomeSQLParser19PgQuery_SubLinkTypeO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser20PgQuery_DropBehaviorO8allCases_WZTm
+- _$s14BiomeSQLParser20PgQuery_DropRoleStmtV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser21PgQuery_AlterTypeStmtV21InternalSwiftProtobuf7MessageAadEPxycfCTWTm
+- _$s14BiomeSQLParser21PgQuery_CreateSeqStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvgTWTm
+- _$s14BiomeSQLParser21PgQuery_CreateSeqStmtV21InternalSwiftProtobuf7MessageAadEP13unknownFieldsAD14UnknownStorageVvsTWTm
+- _$s14BiomeSQLParser21PgQuery_NextValueExprV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s14BiomeSQLParser22PgQuery_MultiAssignRefV2eeoiySbAC_ACtFZTf4nnd_n
+- _$s14BiomeSQLParser22PgQuery_OverridingKindO8allCases_WZTm
+- _$s14BiomeSQLParser22PgQuery_OverridingKindO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser23PgQuery_TableLikeOptionO8allCases_WZTm
+- _$s14BiomeSQLParser23PgQuery_TableLikeOptionO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser23PgQuery_VariableSetKindO8allCases_WZTm
+- _$s14BiomeSQLParser23PgQuery_VariableSetKindO8rawValueACSgSi_tcfCTf4nd_nTm
+- _$s14BiomeSQLParser25PgQuery_DeclareCursorStmtV13_StorageClass33_A784F7F2ED97E043416F18646CF1BF17LLC7copyingA2F_tcfc
+- _$s14BiomeSQLParser25PgQuery_TableSampleClauseV13_StorageClass33_A784F7F2ED97E043416F18646CF1BF17LLC7copyingA2F_tcfc
+- _$s14BiomeSQLParser31PgQuery_PartitionRangeDatumKindOwstTm
+- _$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_14BiomeSQLParser11SQLDataTypeOTg5Tf4nnd_n
+- _$sSLsE1goiySbx_xtFZ10Foundation4DataV_Tgq5
+- _$sSLsE2geoiySbx_xtFZ10Foundation4DataV_Tgq5
+- _$sSLsE2leoiySbx_xtFZ10Foundation4DataV_Tgq5
+- _$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12BiomeStreams13StorableValueO_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ12BiomeStreams13StorableValueO_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser11SQLDataTypeO_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser11SQLDataTypeO_Tg5Tm
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser13SQLExpressionV_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZ14BiomeSQLParser19AggregationFunctionV_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSS_12BiomeStreams13StorableValueOt_Tg5
+- _$sSa22_allocateUninitializedySayxG_SpyxGtSiFZSS_Tg5
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF12BiomeStreams28MaterializedViewPhysicalPlanV_SayAGGTg5Tm
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser11SQLDataTypeO_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser12PgQuery_NodeV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser12PgQuery_NodeV_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser15PgQuery_RawStmtV_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser17PgQuery_ScanTokenV_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser19AggregationFunctionV_Tg5
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser19AggregationFunctionV_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZ14BiomeSQLParser7BindingV_Tg5Tf4nnd_n
+- _$sSasSQRzlE2eeoiySbSayxG_ABtFZs6UInt64V_Tg5Tf4nnd_n
+- _$sSlsE5first7ElementQzSgvgSDySS12BiomeStreams13DatabaseValueOG_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitF12BiomeStreams13StorableValueO_Tg5Tm
+- _$sSw5countSivg
+- _$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtF12BiomeStreams13StorableValueO_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams13StorableValueO_Tg5Tm
+- _$ss15ContiguousArrayVAByxGycfCSS_Tg5
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs5UInt8V_Tgq5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams12ChangeRecordV_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF12BiomeStreams13StorableValueO_Tg5Tm
+- _BMPBSiriMemoryReferenceResolutionEntityValueMapElementReadFrom
+- _BMPBSiriMemoryReferenceResolutionEntityValueReadFrom
+- _BMPBSiriMemoryReferenceResolutionEventReadFrom
+- _BMPubSubErrorDomain
+- _OBJC_CLASS_$_BMAccount
+- _OBJC_CLASS_$_BMPBSiriMemoryReferenceResolutionEntityValue
+- _OBJC_CLASS_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- _OBJC_CLASS_$_BMPBSiriMemoryReferenceResolutionEvent
+- _OBJC_CLASS_$_BMSiriMemoryReferenceResolutionEntityValue
+- _OBJC_CLASS_$_BMSiriMemoryReferenceResolutionEvent
+- _OBJC_CLASS_$_BMSiriMemoryReferenceResolutionStream
+- _OBJC_IVAR_$_BMPruner._storeConfig
+- _OBJC_IVAR_$_BMSiriMemoryReferenceResolutionEntityValue._timestamp
+- _OBJC_IVAR_$_BMSiriMemoryReferenceResolutionEntityValue._valueData
+- _OBJC_IVAR_$_BMSiriMemoryReferenceResolutionEvent._entitiesByEntityID
+- _OBJC_IVAR_$_BMSiriMemoryReferenceResolutionEvent._version
+- _OBJC_IVAR_$_BMSiriMemoryReferenceResolutionStream._stream
+- _OBJC_METACLASS_$_BMPBSiriMemoryReferenceResolutionEntityValue
+- _OBJC_METACLASS_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- _OBJC_METACLASS_$_BMPBSiriMemoryReferenceResolutionEvent
+- _OBJC_METACLASS_$_BMSiriMemoryReferenceResolutionEntityValue
+- _OBJC_METACLASS_$_BMSiriMemoryReferenceResolutionEvent
+- _OBJC_METACLASS_$_BMSiriMemoryReferenceResolutionStream
+- _OUTLINED_FUNCTION_255
+- _OUTLINED_FUNCTION_256
+- _OUTLINED_FUNCTION_257
+- __OBJC_$_CLASS_METHODS_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_$_CLASS_METHODS_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_$_CLASS_METHODS_BMStoreStream
+- __OBJC_$_INSTANCE_METHODS_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_INSTANCE_METHODS_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_$_INSTANCE_METHODS_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_$_INSTANCE_METHODS_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_INSTANCE_METHODS_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_$_INSTANCE_METHODS_BMSiriMemoryReferenceResolutionStream
+- __OBJC_$_INSTANCE_METHODS_BMStoreStream
+- __OBJC_$_INSTANCE_VARIABLES_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_INSTANCE_VARIABLES_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_$_INSTANCE_VARIABLES_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_$_INSTANCE_VARIABLES_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_INSTANCE_VARIABLES_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_$_INSTANCE_VARIABLES_BMSiriMemoryReferenceResolutionStream
+- __OBJC_$_PROP_LIST_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_PROP_LIST_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_$_PROP_LIST_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_$_PROP_LIST_BMPruner
+- __OBJC_$_PROP_LIST_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_$_PROP_LIST_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_$_PROP_LIST_BMSiriMemoryReferenceResolutionStream
+- __OBJC_CLASS_PROTOCOLS_$_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_CLASS_PROTOCOLS_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_CLASS_PROTOCOLS_$_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_CLASS_PROTOCOLS_$_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_CLASS_PROTOCOLS_$_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_CLASS_PROTOCOLS_$_BMSiriMemoryReferenceResolutionStream
+- __OBJC_CLASS_RO_$_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_CLASS_RO_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_CLASS_RO_$_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_CLASS_RO_$_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_CLASS_RO_$_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_CLASS_RO_$_BMSiriMemoryReferenceResolutionStream
+- __OBJC_METACLASS_RO_$_BMPBSiriMemoryReferenceResolutionEntityValue
+- __OBJC_METACLASS_RO_$_BMPBSiriMemoryReferenceResolutionEntityValueMapElement
+- __OBJC_METACLASS_RO_$_BMPBSiriMemoryReferenceResolutionEvent
+- __OBJC_METACLASS_RO_$_BMSiriMemoryReferenceResolutionEntityValue
+- __OBJC_METACLASS_RO_$_BMSiriMemoryReferenceResolutionEvent
+- __OBJC_METACLASS_RO_$_BMSiriMemoryReferenceResolutionStream
+- ___35-[BMComputeSourceClient connection]_block_invoke.51
+- ___35-[BMStoreStream accountsWithError:]_block_invoke
+- ___48-[BMComputeSourceClient eventsPrunedWithReason:]_block_invoke
+- ___48-[BMComputeSourceClient eventsPrunedWithReason:]_block_invoke.cold.1
+- ___57-[BMBiomeScheduler subscribeWithDSLGraph:publisherBlock:]_block_invoke.160
+- ___60-[BMComputeSourceServer listener:shouldAcceptNewConnection:]_block_invoke.132
+- ___63-[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]_block_invoke
+- ___63-[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]_block_invoke.40
+- ___63-[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]_block_invoke.42
+- ___63-[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]_block_invoke.44
+- ___63-[BMDaemon sendEventWithStreamIdentifier:timestamp:storeEvent:]_block_invoke.cold.1
+- ___70-[BMComputeSourceClient sendEvent:timestamp:signpostID:sendFullEvent:]_block_invoke
+- ___70-[BMComputeSourceClient sendEvent:timestamp:signpostID:sendFullEvent:]_block_invoke.cold.1
+- ___75-[BMStorePublisherManager _streamReaderWithStoreLocation:remoteStreamName:]_block_invoke
+- ___96-[BMComputeSourceServerConnection sendEventWithStreamIdentifier:timestamp:signpostID:eventData:]_block_invoke
+- ___block_descriptor_32_e18_16?0"NSString"8l
+- ___block_descriptor_64_e8_32s40s48r_e47_v16?0"BMStorePublisherManagerProtectedState"8ls32l8s40l8r48l8
+- ___block_literal_global.135
+- ___block_literal_global.137
+- ___block_literal_global.140
+- ___block_literal_global.144
+- ___block_literal_global.146
+- ___block_literal_global.17
+- ___block_literal_global.183
+- ___block_literal_global.186
+- ___block_literal_global.213
+- ___block_literal_global.216
+- ___block_literal_global.219
+- ___block_literal_global.222
+- ___block_literal_global.225
+- ___block_literal_global.228
+- ___block_literal_global.73
+- ___block_literal_global.78
+- ___swift_get_extra_inhabitant_index.3338Tm
+- ___swift_get_extra_inhabitant_index.3359Tm
+- ___swift_get_extra_inhabitant_index.3377Tm
+- ___swift_get_extra_inhabitant_index.3449Tm
+- ___swift_get_extra_inhabitant_index.3528Tm
+- ___swift_get_extra_inhabitant_index.3537Tm
+- ___swift_get_extra_inhabitant_index.3546Tm
+- ___swift_get_extra_inhabitant_index.3552Tm
+- ___swift_get_extra_inhabitant_index.3555Tm
+- ___swift_get_extra_inhabitant_index.3633Tm
+- ___swift_get_extra_inhabitant_index.3651Tm
+- ___swift_get_extra_inhabitant_index.3681Tm
+- ___swift_get_extra_inhabitant_index.3693Tm
+- ___swift_get_extra_inhabitant_index.3735Tm
+- ___swift_get_extra_inhabitant_index.3756Tm
+- ___swift_get_extra_inhabitant_index.3771Tm
+- ___swift_get_extra_inhabitant_index.3786Tm
+- ___swift_get_extra_inhabitant_index.3834Tm
+- ___swift_get_extra_inhabitant_index.3840Tm
+- ___swift_get_extra_inhabitant_index.3888Tm
+- ___swift_get_extra_inhabitant_index.4197Tm
+- ___swift_store_extra_inhabitant_index.3339Tm
+- ___swift_store_extra_inhabitant_index.3360Tm
+- ___swift_store_extra_inhabitant_index.3378Tm
+- ___swift_store_extra_inhabitant_index.3450Tm
+- ___swift_store_extra_inhabitant_index.3529Tm
+- ___swift_store_extra_inhabitant_index.3538Tm
+- ___swift_store_extra_inhabitant_index.3547Tm
+- ___swift_store_extra_inhabitant_index.3553Tm
+- ___swift_store_extra_inhabitant_index.3634Tm
+- ___swift_store_extra_inhabitant_index.3652Tm
+- ___swift_store_extra_inhabitant_index.3682Tm
+- ___swift_store_extra_inhabitant_index.3694Tm
+- ___swift_store_extra_inhabitant_index.3736Tm
+- ___swift_store_extra_inhabitant_index.3739Tm
+- ___swift_store_extra_inhabitant_index.3757Tm
+- ___swift_store_extra_inhabitant_index.3772Tm
+- ___swift_store_extra_inhabitant_index.3787Tm
+- ___swift_store_extra_inhabitant_index.3835Tm
+- ___swift_store_extra_inhabitant_index.3841Tm
+- ___swift_store_extra_inhabitant_index.3889Tm
+- ___swift_store_extra_inhabitant_index.4138Tm
+- ___swift_store_extra_inhabitant_index.4198Tm
+- __unnamed_array_storage.283
+- _objc_msgSend$_interactionIdentifierFromObject:
+- _objc_msgSend$_openStreamReaderWithAccount:storeLocation:remoteStreamName:eventDataClass:
+- _objc_msgSend$_openStreamReaderWithStoreLocation:remoteStreamName:eventDataClass:
+- _objc_msgSend$_publisherWithAccount:storeLocation:remoteStreamName:
+- _objc_msgSend$_publisherWithStoreLocation:remoteStreamName:
+- _objc_msgSend$_publishersForAccount:remoteDevices:includeLocal:
+- _objc_msgSend$_publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:
+- _objc_msgSend$_publishersForRemoteDevices:includeLocal:
+- _objc_msgSend$_publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:
+- _objc_msgSend$_streamReaderWithStoreLocation:remoteStreamName:
+- _objc_msgSend$accountsWithError:
+- _objc_msgSend$addEntityMapElements:
+- _objc_msgSend$clearEntityMapElements
+- _objc_msgSend$copyStoreConfigWithOption:account:remoteStreamName:
+- _objc_msgSend$copyStoreConfigWithOption:remoteStreamName:
+- _objc_msgSend$entitiesByEntityID
+- _objc_msgSend$entityMapElements
+- _objc_msgSend$entityMapElementsAtIndex:
+- _objc_msgSend$entityMapElementsCount
+- _objc_msgSend$eventsPrunedWithReason:
+- _objc_msgSend$eventsPrunedWithStreamIdentifier:reason:
+- _objc_msgSend$hasTimestamp
+- _objc_msgSend$hasValueData
+- _objc_msgSend$hasVersion
+- _objc_msgSend$initWithBiomeAccountIdentifier:
+- _objc_msgSend$initWithStoreStream:config:
+- _objc_msgSend$initWithTimestamp:valueData:
+- _objc_msgSend$initWithVersion:entityDict:
+- _objc_msgSend$methodForSelector:
+- _objc_msgSend$pruneEventsWithReason:error:predicateBlock:
+- _objc_msgSend$pruneRestrictedStreamsInDomain:activity:
+- _objc_msgSend$publishersForAccounts:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:
+- _objc_msgSend$publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:
+- _objc_msgSend$sendEvent:timestamp:signpostID:sendFullEvent:
+- _objc_msgSend$sendEventWithStreamIdentifier:timestamp:signpostID:eventData:
+- _objc_msgSend$sendEventWithStreamIdentifier:timestamp:storeEvent:
+- _objc_msgSend$setEntityMapElements:
+- _objc_msgSend$setValueData:
+- _objc_msgSend$setVersion:
+- _objc_msgSend$sharedSyncAccountsForDomain:error:
+- _objc_msgSend$sharedSyncDirectoryForDomain:
+- _objc_msgSend$storeStreamForUseCase:
+- _objc_msgSend$streamDeletionWithStreamIdentifier:error:
+- _objc_msgSend$streamPrunedWithStreamIdentifier:error:
+- _objc_msgSend$streamUpdatedWithStreamIdentifier:error:
+- _objc_msgSend$valueData
+- _swift_FORCE_LOAD_$_swiftFoundation.13
+- _swift_FORCE_LOAD_$_swiftFoundation.143
+- _swift_FORCE_LOAD_$_swiftFoundation.4290
+- _swift_FORCE_LOAD_$_swiftFoundation.55
+- _swift_FORCE_LOAD_$_swiftFoundation.62
+- _swift_FORCE_LOAD_$_swiftFoundation.69
+CStrings:
++ "\x03\x12\x11"
++ " returned from Schematizer.searchValue"
++ "(key: String, value: SQLDataType)"
++ "(key: String, value: SQLRawDataType)"
++ "(options & BMIncludeRepeatedStartEvent) == NO"
++ "<%@ %p> name: %@, datatype: %@, request only: %@, fieldNumber: %@, protoDataType: %@, convertedType: %@"
++ "<%@ %p> name: %@, number: %@, type: %@, subMessageClass: %@"
++ "@\"<BPSPublisher>\"16@?0@\"NSArray\"8"
++ "@\"<NSCopying>\""
++ "@\"BMBookmarkablePublisher\"32@0:8@\"BMDevice\"16@\"NSString\"24"
++ "@\"BMBookmarkablePublisher\"40@0:8@\"BMAccount\"16@\"BMDevice\"24@\"NSString\"32"
++ "@\"BMBookmarkablePublisher\"40@0:8@\"BMDevice\"16@\"NSString\"24@\"BMPublisherOptions\"32"
++ "@\"BMBookmarkablePublisher\"48@0:8@\"BMAccount\"16@\"BMDevice\"24@\"NSString\"32@\"BMPublisherOptions\"40"
++ "@\"BMDevice\"16@?0@\"NSString\"8"
++ "@\"BMSharedPublishers\"56@0:8@\"NSArray\"16I24B28@\"BMPublisherOptions\"32@\"NSString\"40@?<@\"<BPSPublisher>\"@?@\"BMBookmarkablePublisher\">48"
++ "@\"BMStreamBase\""
++ "@\"NSArray\"32@0:8@\"BMAccount\"16^@24"
++ "@\"NSString\"16@?0@\"BMDevice\"8"
++ "@16@?0@\"BMEventSession\"8"
++ "@24@?0@\"NSArray\"8@\"BMStoreEvent\"16"
++ "@32@0:8@16q24"
++ "@32@?0@\"NSArray\"8@\"NSMutableDictionary\"16^@24"
++ "@32@?0@\"NSArray\"8@16^@24"
++ "@36@0:8@16B24@28"
++ "@44@0:8@16B24@28@?36"
++ "@48@0:8@16@?24@?32Q40"
++ "@48@0:8@16q24q32#40"
++ "@48@0:8@16q24q32^@40"
++ "@56@0:8@16@?24@?32@?40Q48"
++ "@56@0:8@16I24B28@32@40@?48"
++ "@60@0:8@16q24B32q36q44q52"
++ "B48@0:8@16Q24^@32@?40"
++ "B52@0:8@16i24@?28@36^@44"
++ "BMComputeSourceClient for stream %@ XPC error in eventsPrunedForAccount:remoteName:reason:%@"
++ "BMDaemon.m"
++ "BMEventBase.m"
++ "BMEventSession"
++ "BMEventSession.m"
++ "BMPairedEventSession"
++ "BMProtoField"
++ "BMSQLProtoColumn"
++ "BMSQLProtoUDFs"
++ "BMSQLProtoUDFs.m"
++ "BMSiriAudioHistory"
++ "BMSiriRemembersAudioHistoryIdentifier"
++ "BMStoreStream.m"
++ "BiomeStreams.BMPoirotRepeatedFieldEnumerator"
++ "BiomeStreams/BMPoirotSchematizerShim.swift"
++ "CREATE TABLE biome_each(value ANY, eventBodyData HIDDEN, eventClass TEXT HIDDEN, keyPath TEXT HIDDEN)"
++ "Can't construct Array with count < 0"
++ "Class getBMSiriAudioHistoryClass(void)_block_invoke"
++ "Division by zero"
++ "Division results in an overflow"
++ "Down-casted Array element failed to match the target type\nExpected "
++ "Error calling biome_each(): %s"
++ "Error calling biome_each(): eventClassName is null"
++ "Error calling biome_each(): key path is null"
++ "Error enumerating biome_each() result: %s"
++ "Failed to report prune event to view orchestration system: %@ %@"
++ "Field path is not valid: %@; eventClass: %@"
++ "Insufficient space allocated to copy string contents"
++ "Invalid sqlite3 value type: %d"
++ "NSString *getBMSiriRemembersAudioHistoryIdentifier(void)"
++ "Objective-C class %@ is not a valid sqlite type"
++ "Siri.Remembers.AudioHistory"
++ "Swift/Array.swift"
++ "Swift/ContiguousArrayBuffer.swift"
++ "Swift/IntegerTypes.swift"
++ "Swift/StringTesting.swift"
++ "Swift/StringUTF8View.swift"
++ "Swift/UnsafeBufferPointer.swift"
++ "Swift/UnsafePointer.swift"
++ "Swift/UnsafeRawPointer.swift"
++ "T#,R,N,V_subMessageClass"
++ "T@\"<NSCopying>\",R,N,V_key"
++ "T@\"BMStoreEvent\",R,N"
++ "T@\"BMStreamBase\",R,N,V_stream"
++ "T@\"NSArray\",?,R,N"
++ "T@\"NSArray\",R,N,V_events"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",?,R,N"
++ "Tq,R,N,V_convertedType"
++ "Tq,R,N,V_fieldNumber"
++ "Tq,R,N,V_number"
++ "Tq,R,N,V_protoDataType"
++ "Tq,R,N,V_type"
++ "Unable to alloc memory for biome_each_vtab_metadata"
++ "Unable to create biome_each module"
++ "Unexpected UUID value: %@"
++ "Unexpected enum value "
++ "Unexpected message value "
++ "Unexpectedly found nil while unwrapping an Optional value"
++ "Unknow type raw value "
++ "Unknown converted type: %ld"
++ "UnsafeMutableBufferPointer with negative count"
++ "UnsafeMutablePointer.initialize overlapping range"
++ "UnsafeMutablePointer.initialize with negative count"
++ "UnsafeMutablePointer.moveInitialize with negative count"
++ "UnsafeMutableRawPointer.initializeMemory overlapping range"
++ "UnsafeMutableRawPointer.initializeMemory with negative count"
++ "Warning: instantiating a BMStorePublisherManager with a config which already specifies a remote"
++ "[_useCase isEqual:useCase]"
++ "_TtC12BiomeStreams23BMPoirotSchematizerShim"
++ "_TtCC12BiomeStreams23BMPoirotSchematizerShimP33_6AF5E9B2F4D56B14EB8E6E9336EA174F31BMPoirotRepeatedFieldEnumerator"
++ "_addEventClass:toProtoRegistry:"
++ "_convertedType"
++ "_createStreamReaderForRemoteName:eventDataClass:"
++ "_eventBodyData"
++ "_eventClassName"
++ "_fieldNumber"
++ "_protoDataType"
++ "_prunerForRemote:"
++ "_publisherForDevice:options:"
++ "_publishersForDevices:includeLocal:options:"
++ "_remote"
++ "_storeStreamForAccount:useCase:"
++ "_storeStreamForUseCase:"
++ "_streamReaderWithRemoteName:"
++ "_subMessageClass"
++ "account"
++ "account == nil"
++ "accounts"
++ "argc == 3"
++ "biome_each"
++ "biome_each_bestindex"
++ "biome_each_column"
++ "biome_each_filter"
++ "biome_extract"
++ "biome_extract(): eventClassName is null"
++ "biome_extract(): key path is null"
++ "convertValue:toType:"
++ "convertedType"
++ "copyWithRemoteName:"
++ "decodeObjectForKey:"
++ "deviceIdentifiersForAccount:"
++ "endEvent"
++ "eventBodyData"
++ "eventsPrunedForAccount:remoteName:reason:"
++ "eventsPrunedWithStreamIdentifier:account:remoteName:reason:"
++ "extractValueFromProtoData:fieldNumber:type:error:"
++ "extractValuesFromProtoData:fieldNumber:type:error:"
++ "fieldNumber"
++ "flatMapWithTransform:"
++ "init()"
++ "initWithDeviceIdentifier:idsDeviceIdentifier:name:model:platform:"
++ "initWithKey:events:"
++ "initWithKey:startEvent:endEvent:"
++ "initWithName:dataType:requestOnly:fieldNumber:protoDataType:convertedType:"
++ "initWithName:number:type:subMessageClass:"
++ "initWithStoreStream:remote:"
++ "initWithUUIDBytes:"
++ "invalid Collection: less than 'count' elements in collection"
++ "isSubclassOfClass:"
++ "iterator"
++ "migrate"
++ "openSessionsFromBookmark:"
++ "pIdxInfo->aConstraint[i].op == SQLITE_INDEX_CONSTRAINT_EQ"
++ "pathForSharedSyncWithAccount:streamType:domain:"
++ "protoDataType"
++ "protoFields"
++ "pruneEventsOfRemote:withReason:error:predicateBlock:"
++ "pruneEventsOfRemote:withReason:usingPredicateBlock:"
++ "pruneRestrictedStreamsInDomain:account:activity:"
++ "prunerForDevice:"
++ "publisherForAccount:device:withUseCase:"
++ "publisherForAccount:device:withUseCase:options:"
++ "publisherForDevice:options:"
++ "publisherForDevice:withUseCase:"
++ "publisherForDevice:withUseCase:options:"
++ "publishersForAccounts:deviceTypes:includeLocal:options:useCase:pipeline:"
++ "publishersForDevices:includeLocal:options:pipeline:"
++ "registerFunctionWithName:numArgs:function:userData:error:"
++ "registerProtoUDFsWithDatabase:eventClasses:error:"
++ "remote"
++ "remoteDevicesForAccount:error:"
++ "remoteName"
++ "remoteStreamName"
++ "runLaunchTasks"
++ "scanWithInitial:nextPartialResult:"
++ "searchValueIn:withFieldNumber:typeRawValue:error:"
++ "searchValuesIn:withFieldNumber:typeRawValue:error:"
++ "sendEvent:account:remoteName:timestamp:signpostID:sendFullEvent:"
++ "sendEventWithStreamIdentifier:timestamp:account:remoteName:storeEvent:"
++ "sendEventWithStreamIdentifier:timestamp:signpostID:eventData:account:remoteName:"
++ "sessionPublisherWithStreamPublisher:startingBlock:endingBlock:sessionKeyBlock:options:"
++ "sessionPublisherWithStreamPublisher:startingBlock:sessionKeyBlock:options:"
++ "sharedDeviceAccountsWithError:"
++ "sharedDeviceAccountsWithUseCase:"
++ "sqlite_temp_master"
++ "startEvent"
++ "streamDeletionWithStreamIdentifier:remoteName:error:"
++ "streamPrunedWithStreamIdentifier:remoteName:error:"
++ "streamUpdatedWithStreamIdentifier:remoteName:error:"
++ "subMessageClass"
++ "unsignedLongLongValue"
++ "v32@0:8#16@24"
++ "v40@0:8@16@24Q32"
++ "v40@0:8@16@24^@32"
++ "v40@0:8@16Q24@?32"
++ "v40@0:8Q16@24@32"
++ "v48@0:8@\"NSString\"16@\"BMAccount\"24@\"NSString\"32Q40"
++ "v48@0:8@16@24@32Q40"
++ "v56@0:8@\"NSString\"16@\"NSNumber\"24@\"BMAccount\"32@\"NSString\"40@\"BMStoreEvent\"48"
++ "v56@0:8@16@24@32@40@48"
++ "v60@0:8@16@24@32d40Q48B56"
++ "v64@0:8@\"NSString\"16@\"NSNumber\"24Q32@\"NSData\"40@\"BMAccount\"48@\"NSString\"56"
++ "v64@0:8@16@24Q32@40@48@56"
+- "\x02\x12\x11"
+- "@\"BMPBSiriMemoryReferenceResolutionEntityValue\""
+- "@\"BMSharedPublishers\"84@0:8@\"NSArray\"16I24@\"NSString\"28@\"NSNumber\"36@\"NSNumber\"44@\"NSNumber\"52@\"NSNumber\"60B68B72@?<@\"<BPSPublisher>\"@?@\"BMBookmarkablePublisher\">76"
+- "@16@?0@\"NSString\"8"
+- "@32@0:8Q16^@24"
+- "@32@0:8d16@24"
+- "@40@0:8@16q24@32"
+- "@40@0:8q16@24#32"
+- "@48@0:8@16q24@32#40"
+- "@84@0:8@16I24@28@36@44@52@60B68B72@?76"
+- "@92@0:8@16@24I32@36@44@52@60@68B76B80@?84"
+- "B40@0:8Q16^@24@?32"
+- "BMComputeSourceClient for stream %@ XPC error in eventsPrunedWithReason:%@"
+- "BMPBSiriMemoryReferenceResolutionEntityValue"
+- "BMPBSiriMemoryReferenceResolutionEntityValueMapElement"
+- "BMPBSiriMemoryReferenceResolutionEvent"
+- "BMSiriMemoryReferenceResolutionEntityValue"
+- "BMSiriMemoryReferenceResolutionEntityValue: tried to initialize with a non-BMPBSiriSyncRecordEvent proto"
+- "BMSiriMemoryReferenceResolutionEntityValue: tried to initialize with a proto missing required dataValue."
+- "BMSiriMemoryReferenceResolutionEvent"
+- "BMSiriMemoryReferenceResolutionEvent: Mismatched dataValue versions (%u != %u) cannot deserialize"
+- "BMSiriMemoryReferenceResolutionEvent: tried to initialize with a non-BMPBSiriMemoryReferenceResolutionEvent proto"
+- "BMSiriMemoryReferenceResolutionEvent: tried to initialize with a proto missing required version."
+- "BMSiriMemoryReferenceResolutionStream"
+- "BMStorePublisherManager.m"
+- "Failed to report pruine event to view orchestration system: %@ %@"
+- "Invalid return value from user-defined function: %@ is not a valid sqlite type"
+- "Local stream should only contain 1 publisher"
+- "SiriMemoryReferenceResolutionStream"
+- "T@\"BMPBSiriMemoryReferenceResolutionEntityValue\",&,N,V_value"
+- "T@\"BMStoreStream\",R,N,V_storeStream"
+- "T@\"NSData\",&,N,V_valueData"
+- "T@\"NSData\",R,C,N,V_valueData"
+- "T@\"NSDictionary\",R,C,N,V_entitiesByEntityID"
+- "T@\"NSMutableArray\",&,N,V_entityMapElements"
+- "T@\"NSString\",&,N,V_version"
+- "T@\"NSString\",R,C,N,V_version"
+- "Write access denied to stream: %@"
+- "_entitiesByEntityID"
+- "_entityMapElements"
+- "_interactionIdentifierFromObject:"
+- "_openStreamReaderWithAccount:storeLocation:remoteStreamName:eventDataClass:"
+- "_openStreamReaderWithStoreLocation:remoteStreamName:eventDataClass:"
+- "_publisherWithAccount:storeLocation:remoteStreamName:"
+- "_publisherWithStoreLocation:remoteStreamName:"
+- "_publishersForAccount:remoteDevices:includeLocal:"
+- "_publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:"
+- "_publishersForRemoteDevices:includeLocal:"
+- "_publishersForRemoteDevices:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:"
+- "_streamReaderWithStoreLocation:remoteStreamName:"
+- "_valueData"
+- "_version"
+- "accountsWithError:"
+- "addEntityMapElements:"
+- "clearEntityMapElements"
+- "copyStoreConfigWithOption:account:remoteStreamName:"
+- "copyStoreConfigWithOption:remoteStreamName:"
+- "entitiesByEntityID"
+- "entityMapElements"
+- "entityMapElementsAtIndex:"
+- "entityMapElementsCount"
+- "entityMapElementsType"
+- "entity_map_elements"
+- "eventsPrunedWithReason:"
+- "eventsPrunedWithStreamIdentifier:reason:"
+- "hasValueData"
+- "hasVersion"
+- "initWithBiomeAccountIdentifier:"
+- "initWithStoreStream:config:"
+- "initWithStreamIdentifier:streamConfig:accessClient:"
+- "initWithTimestamp:valueData:"
+- "initWithVersion:entityDict:"
+- "methodForSelector:"
+- "pruneEventsWithReason:error:predicateBlock:"
+- "pruneRestrictedStreamsInDomain:activity:"
+- "publishersForAccounts:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:"
+- "publishersForAccounts:devices:deviceTypes:withUseCase:startTime:endTime:maxEvents:lastN:reversed:includeLocal:pipeline:"
+- "sendEvent:timestamp:signpostID:sendFullEvent:"
+- "sendEventWithStreamIdentifier:timestamp:signpostID:eventData:"
+- "sendEventWithStreamIdentifier:timestamp:storeEvent:"
+- "setEntityMapElements:"
+- "setValueData:"
+- "setVersion:"
+- "sharedSyncAccountsForDomain:error:"
+- "sharedSyncDirectoryForDomain:"
+- "storeStreamForUseCase:"
+- "streamDeletionWithStreamIdentifier:error:"
+- "streamPrunedWithStreamIdentifier:error:"
+- "streamUpdatedWithStreamIdentifier:error:"
+- "v32@0:8@\"NSString\"16Q24"
+- "v32@0:8Q16@24"
+- "v40@0:8@\"NSString\"16@\"NSNumber\"24@\"BMStoreEvent\"32"
+- "v44@0:8@16d24Q32B40"
+- "v48@0:8@\"NSString\"16@\"NSNumber\"24Q32@\"NSData\"40"
+- "v48@0:8@16@24Q32@40"
+- "valueData"
+- "value_data"
+- "{?=\"timestamp\"b1}"
+
+```

@@ -1,0 +1,98 @@
+## _JetEngine_SwiftUI
+
+> `/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/_JetEngine_SwiftUI`
+
+```diff
+
+-7.1.10.2.1
+-  __TEXT.__text: 0x1237a0
+-  __TEXT.__auth_stubs: 0x44f0
++7.2.9.0.0
++  __TEXT.__text: 0x125f54
++  __TEXT.__auth_stubs: 0x4520
+   __TEXT.__objc_methlist: 0x144
+-  __TEXT.__const: 0x89b0
++  __TEXT.__const: 0x8a20
+   __TEXT.__constg_swiftt: 0x7008
+-  __TEXT.__swift5_typeref: 0x765b
+-  __TEXT.__swift5_reflstr: 0x1d40
+-  __TEXT.__swift5_fieldmd: 0x2738
++  __TEXT.__swift5_typeref: 0x76ab
++  __TEXT.__swift5_reflstr: 0x1d60
++  __TEXT.__swift5_fieldmd: 0x2750
+   __TEXT.__swift5_builtin: 0x104
+-  __TEXT.__swift5_proto: 0x3b8
++  __TEXT.__swift5_proto: 0x3bc
+   __TEXT.__swift5_types: 0x3a0
+   __TEXT.__swift5_mpenum: 0x64
+   __TEXT.__swift5_assocty: 0x11f0
+-  __TEXT.__cstring: 0x2a5c
++  __TEXT.__cstring: 0x2a9c
+   __TEXT.__swift5_capture: 0x2514
+   __TEXT.__swift5_protos: 0x30
+-  __TEXT.__unwind_info: 0x4948
++  __TEXT.__unwind_info: 0x4984
+   __TEXT.__eh_frame: 0x3118
+   __TEXT.__objc_methname: 0x737
+-  __DATA_CONST.__got: 0xec0
+-  __DATA_CONST.__const: 0x1e0
++  __DATA_CONST.__got: 0xef0
++  __DATA_CONST.__const: 0x1e8
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_const: 0xa78
+   __DATA_CONST.__objc_selrefs: 0x328
+-  __AUTH_CONST.__const: 0x7980
+-  __AUTH_CONST.__auth_got: 0x2278
++  __AUTH_CONST.__const: 0x79a0
++  __AUTH_CONST.__auth_got: 0x2290
+   __AUTH.__data: 0xa8
+   __AUTH.__objc_data: 0x130
+   __DATA.__objc_classrefs: 0xf0
+-  __DATA.__data: 0x4b98
+-  __DATA.__bss: 0x7580
++  __DATA.__data: 0x4c00
++  __DATA.__bss: 0x7600
+   __DATA.__common: 0x38
+   __DATA_DIRTY.__const: 0x4368
+   __DATA_DIRTY.__objc_data: 0x5b0
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D372CC3D-0F1D-3435-BAD8-A73310D97CBF
+-  Functions: 6530
+-  Symbols:   2147
+-  CStrings:  339
++  UUID: 73EAD9CC-3339-304E-8F2D-29595FFF6E16
++  Functions: 6549
++  Symbols:   2153
++  CStrings:  341
+ 
+Symbols:
++ ___unnamed_15
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyADyADyADyxAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAJyAA13TextAlignmentOGGAA016_ForegroundStyleK0VyAA5ColorVGG_ADyADyADyADyq_ANGARGAUyAA017HierarchicalShapeP0VGGAA14_PaddingLayoutVGADyAaBPAAE06buttonP0yQrqd__AA015PrimitiveButtonP0Rd__lFQOyq0__AA07DefaultxP0VQo_A5_GtGGA5_GAaBHPA15_AaBHPyHC_A5_AA0cK0HPyHCHC.105
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE29navigationBarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQOyADyAeAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAA012_ConditionalE0VyADyARy011_JetEngine_aB001_e17UnavailableScrollC033_2C9372103D5C9C8B2E11519870660DC1LLVyAS014_CompatibilityezcE0AULLVyxq_q0_GGAVyAS09_PlatformezcE0AULLVGGAS21_OnUIScenePhaseChange33_EB4CFB19714826A3D856AE8C33F4EE45LLVGADyA2_AS19_OnScenePhaseChangeA4_LLVGG_AA7SectionVyAA4TextVAA6ButtonVyA14_GAA05EmptyC0VGSgQo_AA19_BackgroundModifierVyAS01_ez10BackgroundC0VGG_Qo__Qo_AA0I18AttachmentModifierVGAaBHPqd__AaBHD2_A30_HO_A32_AA0C8ModifierHPyHCHC.55
++ _get_witness_table 7SwiftUI4ViewRzlAA14GeometryReaderVyAaBPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAeAE0F14BounceBehavior_AGQrAA0inO0V_AMtFQOyAA0iC0VyAA15ModifiedContentVyAA6VStackVyATyATyxAA14_PaddingLayoutVGAA06_FrameT0VGGAA05_FlexuT0VGG_Qo__Qo_GAaBHPyHC.106
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy011_JetEngine_aB00e11UnavailableC19PresentationContextOSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.56
++ _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyADyAA6ButtonVyxG011_JetEngine_aB006ActionF0VyxGGADyAA4LinkVyxGAOGGAaBHPAlaBHPAgaBHPyHC_AkaBHPyHCHC_ApaBHPAoaBHPyHC_AoaBHPyHCHCHC.57
++ _objectdestroy.72Tm
++ _symbolic SDyS2SG
++ _symbolic SDySS_____G s11AnyHashableV
++ _symbolic SS3key______5valuetSg s11AnyHashableV
++ _symbolic SS______t s11AnyHashableV
++ _symbolic _____ySS_____G s18_DictionaryStorageC s11AnyHashableV
++ _symbolic _____ySS______tG s23_ContiguousArrayStorageC s11AnyHashableV
+- ___unnamed_14
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVyAA6VStackVyAA05TupleC0VyADyADyADyxAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAJyAA13TextAlignmentOGGAA016_ForegroundStyleK0VyAA5ColorVGG_ADyADyADyADyq_ANGARGAUyAA017HierarchicalShapeP0VGGAA14_PaddingLayoutVGADyAaBPAAE06buttonP0yQrqd__AA015PrimitiveButtonP0Rd__lFQOyq0__AA07DefaultxP0VQo_A5_GtGGA5_GAaBHPA15_AaBHPyHC_A5_AA0cK0HPyHCHC.101
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_r1_lAA15ModifiedContentVyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAeAE29navigationBarTitleDisplayModeyQrAA010NavigationM4ItemV0noP0OFQOyADyAeAE11contextMenu9menuItemsQrqd__yXE_tAaBRd__lFQOyAA012_ConditionalE0VyADyARy011_JetEngine_aB001_e17UnavailableScrollC033_2C9372103D5C9C8B2E11519870660DC1LLVyAS014_CompatibilityezcE0AULLVyxq_q0_GGAVyAS09_PlatformezcE0AULLVGGAS21_OnUIScenePhaseChange33_EB4CFB19714826A3D856AE8C33F4EE45LLVGADyA2_AS19_OnScenePhaseChangeA4_LLVGG_AA7SectionVyAA4TextVAA6ButtonVyA14_GAA05EmptyC0VGSgQo_AA19_BackgroundModifierVyAS01_ez10BackgroundC0VGG_Qo__Qo_AA0I18AttachmentModifierVGAaBHPqd__AaBHD2_A30_HO_A32_AA0C8ModifierHPyHCHC.51
+- _get_witness_table 7SwiftUI4ViewRzlAA14GeometryReaderVyAaBPAAE16scrollIndicators_4axesQrAA25ScrollIndicatorVisibilityV_AA4AxisO3SetVtFQOyAeAE0F14BounceBehavior_AGQrAA0inO0V_AMtFQOyAA0iC0VyAA15ModifiedContentVyAA6VStackVyATyATyxAA14_PaddingLayoutVGAA06_FrameT0VGGAA05_FlexuT0VGG_Qo__Qo_GAaBHPyHC.102
+- _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyxAA30_EnvironmentKeyWritingModifierVy011_JetEngine_aB00e11UnavailableC19PresentationContextOSgGGAaBHPxAaBHD1__AkA0cI0HPyHCHC.52
+- _get_witness_table 7SwiftUI4ViewRzlAA19_ConditionalContentVyADyAA6ButtonVyxG011_JetEngine_aB006ActionF0VyxGGADyAA4LinkVyxGAOGGAaBHPAlaBHPAgaBHPyHC_AkaBHPyHCHC_ApaBHPAoaBHPyHC_AoaBHPyHCHCHC.53
+- _objectdestroy.31Tm
+- _objectdestroy.68Tm
+CStrings:
++ "maximumFractionDigits"
++ "minimumFractionDigits"
+
+```
