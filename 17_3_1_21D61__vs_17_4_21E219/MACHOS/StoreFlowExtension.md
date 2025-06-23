@@ -1,0 +1,49 @@
+## StoreFlowExtension
+
+> `/private/var/staged_system_apps/Music.app/PlugIns/StoreFlowExtension.appex/StoreFlowExtension`
+
+```diff
+
+-4023.410.1.0.0
++4023.510.5.0.0
+   __TEXT.__text: 0x38ac
+   __TEXT.__auth_stubs: 0x3a0
+   __TEXT.__objc_stubs: 0x1320
+   __TEXT.__objc_methlist: 0x3c4
+   __TEXT.__const: 0x10
+   __TEXT.__cstring: 0x469
+-  __TEXT.__objc_methname: 0x1ac0
++  __TEXT.__objc_methname: 0x1ad2
+   __TEXT.__objc_classname: 0x1b6
+   __TEXT.__objc_methtype: 0x87a
+   __TEXT.__gcc_except_tab: 0x48
+
+   __DATA_CONST.__objc_classlist: 0x30
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_classrefs: 0x138
++  __DATA_CONST.__objc_superrefs: 0x38
+   __DATA_CONST.__objc_arraydata: 0x30
+   __DATA_CONST.__objc_dictobj: 0x50
+   __DATA.__objc_const: 0x1078
+   __DATA.__objc_selrefs: 0x610
+-  __DATA.__objc_classrefs: 0x138
+-  __DATA.__objc_superrefs: 0x38
+   __DATA.__objc_ivar: 0x1c
+   __DATA.__objc_data: 0x1e0
+   __DATA.__data: 0x300
+
+   - /System/Library/PrivateFrameworks/iTunesStoreUI.framework/iTunesStoreUI
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 2C2BF6AF-B938-3E2E-A663-9CC9618C5D77
++  UUID: A54D25F0-26ED-3194-959E-72ECED7DB38F
+   Functions: 90
+   Symbols:   138
+-  CStrings:  407
++  CStrings:  408
+ 
+CStrings:
++ "T@\"NSString\",?,R,C"
+
+```

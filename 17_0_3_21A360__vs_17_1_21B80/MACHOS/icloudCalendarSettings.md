@@ -1,0 +1,59 @@
+## icloudCalendarSettings
+
+> `/System/Library/PreferenceBundles/AccountSettings/icloudCalendarSettings.bundle/icloudCalendarSettings`
+
+```diff
+
+-37.1.0.0.0
+-  __TEXT.__text: 0x7d1c
++2023.2.4.0.0
++  __TEXT.__text: 0x7d38
+   __TEXT.__auth_stubs: 0x3a0
+-  __TEXT.__objc_stubs: 0x1720
++  __TEXT.__objc_stubs: 0x1740
+   __TEXT.__objc_methlist: 0x6e8
+   __TEXT.__const: 0x50
+-  __TEXT.__objc_methname: 0x1abd
++  __TEXT.__objc_methname: 0x1ae9
+   __TEXT.__objc_classname: 0x179
+   __TEXT.__objc_methtype: 0x381
+   __TEXT.__gcc_except_tab: 0xd0
+
+   __TEXT.__oslogstring: 0x59c
+   __TEXT.__unwind_info: 0x238
+   __DATA_CONST.__auth_got: 0x1e0
+-  __DATA_CONST.__got: 0xf8
++  __DATA_CONST.__got: 0x100
+   __DATA_CONST.__const: 0x270
+   __DATA_CONST.__cfstring: 0xa00
+   __DATA_CONST.__objc_classlist: 0x70
+
+   __DATA_CONST.__objc_protolist: 0x10
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_intobj: 0x18
+-  __DATA.__objc_const: 0x12e0
+-  __DATA.__objc_selrefs: 0x788
++  __DATA.__objc_const: 0x1300
++  __DATA.__objc_selrefs: 0x790
+   __DATA.__objc_classrefs: 0x160
+   __DATA.__objc_superrefs: 0x68
+   __DATA.__objc_ivar: 0x84
+
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 86BAA01C-1108-3631-B43E-FA8A90641659
++  UUID: CB8650AE-A42D-3A23-B7FE-FD16892522ED
+   Functions: 178
+-  Symbols:   181
+-  CStrings:  605
++  Symbols:   182
++  CStrings:  607
+ 
+Symbols:
++ _PSAllowMultilineTitleKey
+CStrings:
++ "setADPState:"
++ "setObject:forKeyedSubscript:"
+
+```
