@@ -1,0 +1,92 @@
+## com.apple.AGXG17P
+
+> `com.apple.AGXG17P`
+
+```diff
+
+-340.6.0.0.0
+-  __TEXT.__const: 0x3b5c
+-  __TEXT.__os_log: 0xf54
+-  __TEXT.__cstring: 0x11c29
+-  __TEXT_EXEC.__text: 0xe04f0
++340.10.1.0.0
++  __TEXT.__const: 0x3bec
++  __TEXT.__os_log: 0xfc7
++  __TEXT.__cstring: 0x11e21
++  __TEXT_EXEC.__text: 0xe4c58
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x13c4
+   __DATA.__common: 0x10
+-  __DATA.__bss: 0x49b0
+-  __DATA_CONST.__auth_got: 0xca8
++  __DATA.__bss: 0x4a30
++  __DATA_CONST.__auth_got: 0xcc8
+   __DATA_CONST.__got: 0x268
+-  __DATA_CONST.__mod_init_func: 0x3b0
++  __DATA_CONST.__mod_init_func: 0x3c0
+   __DATA_CONST.__mod_term_func: 0x2f8
+-  __DATA_CONST.__const: 0xf028
++  __DATA_CONST.__const: 0xf128
+   __DATA_CONST.__kalloc_type: 0x2580
+-  __DATA_CONST.__kalloc_var: 0x32f0
+-  UUID: 43DA8489-ACC7-3AA6-AF06-A114BD6796C2
+-  Functions: 3081
++  __DATA_CONST.__kalloc_var: 0x3bb0
++  UUID: 9B056128-E519-3266-A236-90BE00EAB793
++  Functions: 3108
+   Symbols:   0
+-  CStrings:  2043
++  CStrings:  2056
+ 
+CStrings:
++ " (Pool ID %d)"
++ ") - Aggregate of UMA Blocks for Pool ID %d"
++ "111112211222222222122222"
++ "1211111111111112122"
++ "1211111121122221221111112112222122111111211222212211111121122221221222222222222222211221111111112222222221111121121212112121121211212112121121211212112121121211212112121121211212111111111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222222211112212112121111111122222222221222221111221211212111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222222222222222212112112222222222222222221111112211222222222122222111112211222222222122222111112211222222222122222111112211222222222122222111112211222222222122222111112211222222222122222111122211111222111112221111122211111222111112221111122211111222111112221111122211111222111112221111122211111222112111112211111222111111221121122111111111111111111111111111111111111111111111111122222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111122222222"
++ "1211111221112121111111122212111211122111111111212211221212212122"
++ "1222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222112222211111112222222222222222212111222222221122222222122221111111111111111122222222222222222222222222222222222222222222222222222111111222221111122212211"
++ "AGXAcceleratorRingEntry *AGXAcceleratorRing<AGFIAcceleratorDataMasterEntry>::nextEntry(IOCommandGate *) [AGXAcceleratorRingEntry = AGFIAcceleratorDataMasterEntry]"
++ "AGXAcceleratorRingEntry *AGXAcceleratorRing<AGFIAcceleratorDeviceControlEntry>::nextEntry(IOCommandGate *) [AGXAcceleratorRingEntry = AGFIAcceleratorDeviceControlEntry]"
++ "Compute, "
++ "Default Priority, "
++ "Failed to create TimeStamp Queue\n"
++ "Failed to create command queue FW resources\n"
++ "Failed to get Command Buffer State\n"
++ "Fragment, "
++ "High Priority, "
++ "Jun 18 2025 20:52:08"
++ "Pool ID %d"
++ "Real Time Priority, "
++ "Shared Compute, "
++ "Shared Render, "
++ "UMA Page List Backing ("
++ "Vertex, "
++ "site.AGXBitmap<kL2WidthBits>"
++ "void AGXFirmwareResourceStack<AGXCachedFWChannelMem, AGXChannel, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = AGXCachedFWChannelMem, ElementOwner = AGXChannel, kL1WidthBits = 64, kL2WidthBits = 256]"
++ "void AGXFirmwareResourceStack<AGXUncachedFWChannelMem, AGXChannel, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = AGXUncachedFWChannelMem, ElementOwner = AGXChannel, kL1WidthBits = 64, kL2WidthBits = 256]"
++ "void AGXFirmwareResourceStack<_AGFIChannelState, AGXChannel, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFIChannelState, ElementOwner = AGXChannel, kL1WidthBits = 64, kL2WidthBits = 256]"
++ "void AGXFirmwareResourceStack<_AGFISchedulerState, AGXCommandQueue, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFISchedulerState, ElementOwner = AGXCommandQueue, kL1WidthBits = 64, kL2WidthBits = 256]"
++ "void AGXFirmwareResourceStack<_AGFITimeStampQueue, AGXTimeStampQueue, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFITimeStampQueue, ElementOwner = AGXTimeStampQueue, kL1WidthBits = 64, kL2WidthBits = 256]"
++ "void AGXFirmwareResourceStack<unsigned char, AGXParameterManagement, 64, 64>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = unsigned char, ElementOwner = AGXParameterManagement, kL1WidthBits = 64, kL2WidthBits = 64]"
++ "void AGXFirmwareResourceStack<unsigned long long, AGXLateEvalEvent, 64, 256>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = unsigned long long, ElementOwner = AGXLateEvalEvent, kL1WidthBits = 64, kL2WidthBits = 256]"
+- "1111122112222222221222222"
+- "121111111111111212"
+- "1211111121122221221111112112222122111111211222212211111121122221221222222222222222211221111111112222222221111121212112121121211212112121121211212112121121211212112121121211212111111111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222111222222211112212112121111111122222222221222221111221211212111111112222222222121122222222222222222222222222222222222222222222222222222222222222222222222222222222222212112112222222222222222221111112211222222222122222211111221122222222212222221111122112222222221222222111112211222222222122222211111221122222222212222221111122112222222221222222111122211111222111112221111122211111222111112221111122211111222111112221111122211111222111112221111122211111222112111112211111222111111221121122111111111111111111111111111111111111111111111111122222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222111111122222222"
+- "121111122111212111111112221211121112211111111121221122121221212"
+- "122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222211222221111111222222222222222221211122222222112222222212211111111111111222222222222222222222222222222222222222222222222211122221111112222211111222212211"
+- "AGXAcceleratorRingEntry *AGXAcceleratorRing<AGFIAcceleratorDataMasterEntry>::nextEntry() [AGXAcceleratorRingEntry = AGFIAcceleratorDataMasterEntry]"
+- "AGXAcceleratorRingEntry *AGXAcceleratorRing<AGFIAcceleratorDeviceControlEntry>::nextEntry() [AGXAcceleratorRingEntry = AGFIAcceleratorDeviceControlEntry]"
+- "May 30 2025 19:22:11"
+- "UMA Page List Backing"
+- "UMA Page List Backing (Shared Compute)"
+- "UMA Page List Backing (Shared Render)"
+- "void AGXFirmwareResourceStack<AGXCachedFWChannelMem, AGXChannel>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = AGXCachedFWChannelMem, ElementOwner = AGXChannel]"
+- "void AGXFirmwareResourceStack<AGXUncachedFWChannelMem, AGXChannel>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = AGXUncachedFWChannelMem, ElementOwner = AGXChannel]"
+- "void AGXFirmwareResourceStack<_AGFIChannelState, AGXChannel>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFIChannelState, ElementOwner = AGXChannel]"
+- "void AGXFirmwareResourceStack<_AGFISchedulerState, AGXCommandQueue>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFISchedulerState, ElementOwner = AGXCommandQueue]"
+- "void AGXFirmwareResourceStack<_AGFITimeStampQueue, AGXTimeStampQueue>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = _AGFITimeStampQueue, ElementOwner = AGXTimeStampQueue]"
+- "void AGXFirmwareResourceStack<unsigned char, AGXParameterManagement>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = unsigned char, ElementOwner = AGXParameterManagement]"
+- "void AGXFirmwareResourceStack<unsigned long long, AGXLateEvalEvent>::releaseElement(ElementOwner *, uint32_t) [FWResourceManagerElement = unsigned long long, ElementOwner = AGXLateEvalEvent]"
+
+```

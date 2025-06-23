@@ -1,0 +1,151 @@
+## libswiftXPC.dylib
+
+> `/usr/lib/swift/libswiftXPC.dylib`
+
+```diff
+
+-105.0.5.0.0
+-  __TEXT.__text: 0x38a7c
++105.0.12.0.0
++  __TEXT.__text: 0x38a84
+   __TEXT.__auth_stubs: 0x1490
+   __TEXT.__objc_methlist: 0x104
+   __TEXT.__const: 0x24cc
+
+   __TEXT.__objc_methname: 0x13f
+   __TEXT.__objc_methtype: 0xad
+   __DATA_CONST.__got: 0x3a8
+-  __DATA_CONST.__const: 0x218
++  __DATA_CONST.__const: 0x1f8
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+-  UUID: B0F74DB3-3FCC-3240-A531-70ECECB9A3FA
++  UUID: F7774065-ED40-3020-866C-A53C55265532
+   Functions: 1735
+-  Symbols:   4943
++  Symbols:   4909
+   CStrings:  137
+ 
+Symbols:
++ _$s3XPC10XPCSessionC8endpoint11targetQueue7options19cancellationHandlerAcA11XPCEndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVyAA12XPCRichErrorVcSgtKcfC
++ _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCEndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVAA13XPCDictionaryVSgAQcSgyAA12XPCRichErrorVcSgtKcfC
++ _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCEndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgAA011XPCReceivedH0VcSgyAA12XPCRichErrorVcSgtKcfC
++ _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCEndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgxcSgyAA12XPCRichErrorVcSgtKcSeRzlufC
++ _$s3XPC11XPCEndpointV16debugDescriptionSSvg
++ _$s3XPC11XPCEndpointV16debugDescriptionSSvpMV
++ _$s3XPC11XPCEndpointV2eeoiySbAC_ACtFZ
++ _$s3XPC11XPCEndpointV4fromACs7Decoder_p_tKcfC
++ _$s3XPC11XPCEndpointV4hash4intoys6HasherVz_tF
++ _$s3XPC11XPCEndpointV6encode2toys7Encoder_p_tKF
++ _$s3XPC11XPCEndpointV9hashValueSivg
++ _$s3XPC11XPCEndpointV9hashValueSivpMV
++ _$s3XPC11XPCEndpointVACSQAAWL
++ _$s3XPC11XPCEndpointVACSQAAWl
++ _$s3XPC11XPCEndpointVMF
++ _$s3XPC11XPCEndpointVMa
++ _$s3XPC11XPCEndpointVMf
++ _$s3XPC11XPCEndpointVMn
++ _$s3XPC11XPCEndpointVN
++ _$s3XPC11XPCEndpointVSEAAMc
++ _$s3XPC11XPCEndpointVSEAAMcMK
++ _$s3XPC11XPCEndpointVSEAASE6encode2toys7Encoder_p_tKFTW
++ _$s3XPC11XPCEndpointVSHAAMc
++ _$s3XPC11XPCEndpointVSHAAMcMK
++ _$s3XPC11XPCEndpointVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s3XPC11XPCEndpointVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s3XPC11XPCEndpointVSHAASH9hashValueSivgTW
++ _$s3XPC11XPCEndpointVSHAASQWb
++ _$s3XPC11XPCEndpointVSQAAMc
++ _$s3XPC11XPCEndpointVSQAAMcMK
++ _$s3XPC11XPCEndpointVSQAASQ2eeoiySbx_xtFZTW
++ _$s3XPC11XPCEndpointVSeAAMc
++ _$s3XPC11XPCEndpointVSeAAMcMK
++ _$s3XPC11XPCEndpointVSeAASe4fromxs7Decoder_p_tKcfCTW
++ _$s3XPC11XPCEndpointVs28CustomDebugStringConvertibleAAMc
++ _$s3XPC11XPCEndpointVs28CustomDebugStringConvertibleAAMcMK
++ _$s3XPC11XPCEndpointVs28CustomDebugStringConvertibleAAsADP16debugDescriptionSSvgTW
++ _$s3XPC11XPCListenerC8endpointAA11XPCEndpointVvg
++ _$s3XPC11XPCListenerC8endpointAA11XPCEndpointVvpMV
++ _$s3XPC13XPCDictionaryV_2asAA11XPCEndpointVSgSS_AFmtcig
++ _$s3XPC13XPCDictionaryV_2asAA11XPCEndpointVSgSS_AFmtcigTm
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSSciM
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSSciM.resume.0
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSScig
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSScipACTk
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSScipMV
++ _$s3XPC13XPCDictionaryVyAA11XPCEndpointVSgSScis
++ _associated conformance 3XPC11XPCEndpointVSHAASQ
++ _symbolic _____ 3XPC11XPCEndpointV
++ _type_layout_string 3XPC11XPCEndpointV
+- _$s3XPC10XPCSessionC8endpoint11targetQueue7options19cancellationHandlerAcA11XPCListenerC8EndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVyAA12XPCRichErrorVcSgtKcfC
+- _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCListenerC8EndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVAA13XPCDictionaryVSgAScSgyAA12XPCRichErrorVcSgtKcfC
+- _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCListenerC8EndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgAA011XPCReceivedH0VcSgyAA12XPCRichErrorVcSgtKcfC
+- _$s3XPC10XPCSessionC8endpoint11targetQueue7options22incomingMessageHandler012cancellationI0AcA11XPCListenerC8EndpointV_So17OS_dispatch_queueCSgAC21InitializationOptionsVSE_pSgxcSgyAA12XPCRichErrorVcSgtKcSeRzlufC
+- _$s3XPC11XPCListenerC8EndpointV16debugDescriptionSSvg
+- _$s3XPC11XPCListenerC8EndpointV16debugDescriptionSSvpMV
+- _$s3XPC11XPCListenerC8EndpointV2eeoiySbAE_AEtFZ
+- _$s3XPC11XPCListenerC8EndpointV4fromAEs7Decoder_p_tKcfC
+- _$s3XPC11XPCListenerC8EndpointV4hash4intoys6HasherVz_tF
+- _$s3XPC11XPCListenerC8EndpointV6encode2toys7Encoder_p_tKF
+- _$s3XPC11XPCListenerC8EndpointV9hashValueSivg
+- _$s3XPC11XPCListenerC8EndpointV9hashValueSivpMV
+- _$s3XPC11XPCListenerC8EndpointVAESQAAWL
+- _$s3XPC11XPCListenerC8EndpointVAESQAAWl
+- _$s3XPC11XPCListenerC8EndpointVMF
+- _$s3XPC11XPCListenerC8EndpointVMa
+- _$s3XPC11XPCListenerC8EndpointVMf
+- _$s3XPC11XPCListenerC8EndpointVMn
+- _$s3XPC11XPCListenerC8EndpointVN
+- _$s3XPC11XPCListenerC8EndpointVSEAAMc
+- _$s3XPC11XPCListenerC8EndpointVSEAAMcMK
+- _$s3XPC11XPCListenerC8EndpointVSEAASE6encode2toys7Encoder_p_tKFTW
+- _$s3XPC11XPCListenerC8EndpointVSHAAMc
+- _$s3XPC11XPCListenerC8EndpointVSHAAMcMK
+- _$s3XPC11XPCListenerC8EndpointVSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s3XPC11XPCListenerC8EndpointVSHAASH4hash4intoys6HasherVz_tFTW
+- _$s3XPC11XPCListenerC8EndpointVSHAASH9hashValueSivgTW
+- _$s3XPC11XPCListenerC8EndpointVSHAASQWb
+- _$s3XPC11XPCListenerC8EndpointVSQAAMc
+- _$s3XPC11XPCListenerC8EndpointVSQAAMcMK
+- _$s3XPC11XPCListenerC8EndpointVSQAASQ2eeoiySbx_xtFZTW
+- _$s3XPC11XPCListenerC8EndpointVSeAAMc
+- _$s3XPC11XPCListenerC8EndpointVSeAAMcMK
+- _$s3XPC11XPCListenerC8EndpointVSeAASe4fromxs7Decoder_p_tKcfCTW
+- _$s3XPC11XPCListenerC8EndpointVs28CustomDebugStringConvertibleAAMc
+- _$s3XPC11XPCListenerC8EndpointVs28CustomDebugStringConvertibleAAMcMK
+- _$s3XPC11XPCListenerC8EndpointVs28CustomDebugStringConvertibleAAsAFP16debugDescriptionSSvgTW
+- _$s3XPC11XPCListenerC8endpointAC8EndpointVvg
+- _$s3XPC11XPCListenerC8endpointAC8EndpointVvpMV
+- _$s3XPC13XPCDictionaryV_2asAA11XPCListenerC8EndpointVSgSS_AHmtcig
+- _$s3XPC13XPCDictionaryV_2asAA11XPCListenerC8EndpointVSgSS_AHmtcigTm
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSSciM
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSSciM.resume.0
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSScig
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSScipACTk
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSScipMV
+- _$s3XPC13XPCDictionaryVyAA11XPCListenerC8EndpointVSgSScis
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_XPC
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_XPC
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_XPC
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_XPC
+- _associated conformance 3XPC11XPCListenerC8EndpointVSHAASQ
+- _symbolic _____ 3XPC11XPCListenerC8EndpointV
+- _type_layout_string 3XPC11XPCListenerC8EndpointV
+
+```

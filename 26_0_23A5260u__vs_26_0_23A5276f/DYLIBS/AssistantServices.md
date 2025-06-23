@@ -1,0 +1,992 @@
+## AssistantServices
+
+> `/System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices`
+
+```diff
+
+-3500.97.4.1.2
+-  __TEXT.__text: 0x1ae45c
++3500.104.2.0.0
++  __TEXT.__text: 0x1ae3d8
+   __TEXT.__auth_stubs: 0x1560
+-  __TEXT.__objc_methlist: 0x1dbd4
++  __TEXT.__objc_methlist: 0x1dc24
+   __TEXT.__const: 0x468
+   __TEXT.__dlopen_cstrs: 0x484
+   __TEXT.__gcc_except_tab: 0x2aec
+-  __TEXT.__cstring: 0x3d8eb
+-  __TEXT.__oslogstring: 0x115dc
++  __TEXT.__cstring: 0x3d997
++  __TEXT.__oslogstring: 0x114a9
+   __TEXT.__ustring: 0x2ac
+   __TEXT.__unwind_info: 0x7dc0
+   __TEXT.__objc_classname: 0x4f56
+-  __TEXT.__objc_methname: 0x3b0f7
+-  __TEXT.__objc_methtype: 0xaadf
+-  __TEXT.__objc_stubs: 0x245a0
++  __TEXT.__objc_methname: 0x3b16b
++  __TEXT.__objc_methtype: 0xaaf9
++  __TEXT.__objc_stubs: 0x245e0
+   __DATA_CONST.__got: 0x1640
+-  __DATA_CONST.__const: 0x83b0
++  __DATA_CONST.__const: 0x83d0
+   __DATA_CONST.__objc_classlist: 0xde8
+   __DATA_CONST.__objc_catlist: 0x290
+   __DATA_CONST.__objc_protolist: 0x560
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc2f8
++  __DATA_CONST.__objc_selrefs: 0xc310
+   __DATA_CONST.__objc_protorefs: 0x148
+   __DATA_CONST.__objc_superrefs: 0xe00
+   __DATA_CONST.__objc_arraydata: 0x2098
+   __AUTH_CONST.__auth_got: 0xac0
+   __AUTH_CONST.__const: 0x3ac0
+-  __AUTH_CONST.__cfstring: 0x27120
+-  __AUTH_CONST.__objc_const: 0x336a8
++  __AUTH_CONST.__cfstring: 0x27180
++  __AUTH_CONST.__objc_const: 0x33700
+   __AUTH_CONST.__objc_intobj: 0x2310
+   __AUTH_CONST.__objc_dictobj: 0xbb8
+   __AUTH_CONST.__objc_arrayobj: 0x5b8
+   __AUTH_CONST.__objc_doubleobj: 0x30
+   __AUTH.__objc_data: 0x7b98
+   __AUTH.__data: 0x288
+-  __DATA.__objc_ivar: 0x253c
++  __DATA.__objc_ivar: 0x2544
+   __DATA.__data: 0x41c8
+   __DATA.__bss: 0x1300
+   __DATA.__common: 0x18
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 4BC0DFFB-EE04-3887-AEF0-9BF0856ECC91
+-  Functions: 11777
+-  Symbols:   37494
+-  CStrings:  24215
++  UUID: 65AEF41E-2C1D-31C8-9A71-2154198E421D
++  Functions: 11782
++  Symbols:   37508
++  CStrings:  24220
+ 
+Symbols:
++ +[AFFeatureFlags(SWEFeatureFlags) isASRSpeechProfileSamplingEnabled]
++ -[AFModesConfiguration initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isInitialBringUp:isUserEngagedWithDevice:]
++ -[AFModesConfiguration isInitialBringUp]
++ -[AFSiriAudioRoute isBluetoothHeadset]
++ -[_AFModesConfigurationMutation getIsInitialBringUp]
++ -[_AFModesConfigurationMutation setIsInitialBringUp:]
++ GCC_except_table10105
++ GCC_except_table10108
++ GCC_except_table10117
++ GCC_except_table10143
++ GCC_except_table10164
++ GCC_except_table10357
++ GCC_except_table10418
++ GCC_except_table10424
++ GCC_except_table10427
++ GCC_except_table10433
++ GCC_except_table10437
++ GCC_except_table10443
++ GCC_except_table10715
++ GCC_except_table10883
++ GCC_except_table10896
++ GCC_except_table11084
++ GCC_except_table11223
++ GCC_except_table11236
++ GCC_except_table11274
++ GCC_except_table11532
++ GCC_except_table11675
++ GCC_except_table11697
++ GCC_except_table11699
++ GCC_except_table4464
++ GCC_except_table4468
++ GCC_except_table4757
++ GCC_except_table4823
++ GCC_except_table4886
++ GCC_except_table4896
++ GCC_except_table4907
++ GCC_except_table4920
++ GCC_except_table5045
++ GCC_except_table5399
++ GCC_except_table5402
++ GCC_except_table5470
++ GCC_except_table5485
++ GCC_except_table5491
++ GCC_except_table5529
++ GCC_except_table5535
++ GCC_except_table5541
++ GCC_except_table5613
++ GCC_except_table5615
++ GCC_except_table5650
++ GCC_except_table5653
++ GCC_except_table5787
++ GCC_except_table5886
++ GCC_except_table5907
++ GCC_except_table5909
++ GCC_except_table5973
++ GCC_except_table5975
++ GCC_except_table5977
++ GCC_except_table5979
++ GCC_except_table5993
++ GCC_except_table5999
++ GCC_except_table6122
++ GCC_except_table6129
++ GCC_except_table6484
++ GCC_except_table6499
++ GCC_except_table6522
++ GCC_except_table6625
++ GCC_except_table6634
++ GCC_except_table6673
++ GCC_except_table6705
++ GCC_except_table6772
++ GCC_except_table7243
++ GCC_except_table7248
++ GCC_except_table7251
++ GCC_except_table7254
++ GCC_except_table7257
++ GCC_except_table7260
++ GCC_except_table7467
++ GCC_except_table7470
++ GCC_except_table7472
++ GCC_except_table7484
++ GCC_except_table7557
++ GCC_except_table7563
++ GCC_except_table7733
++ GCC_except_table7839
++ GCC_except_table7869
++ GCC_except_table8063
++ GCC_except_table8127
++ GCC_except_table8233
++ GCC_except_table8660
++ GCC_except_table8714
++ GCC_except_table8758
++ GCC_except_table8846
++ GCC_except_table8886
++ GCC_except_table8923
++ GCC_except_table8927
++ GCC_except_table9173
++ GCC_except_table9243
++ GCC_except_table9249
++ GCC_except_table9284
++ GCC_except_table9287
++ GCC_except_table9365
++ GCC_except_table9394
++ GCC_except_table9466
++ GCC_except_table9469
++ GCC_except_table9473
++ GCC_except_table9578
++ GCC_except_table9582
++ GCC_except_table9586
++ GCC_except_table9619
++ GCC_except_table9664
++ _AnnounceLibrary.sLib.43651
++ _AnnounceLibrary.sOnce.43649
++ _BiomeLibraryLibraryCore.45787
++ _BiomeLibraryLibraryCore.frameworkLibrary.27084
++ _BiomeLibraryLibraryCore.frameworkLibrary.45790
++ _BluetoothManagerLibrary.45884
++ _BluetoothManagerLibraryCore.frameworkLibrary.20377
++ _CoreServicesLibrary.frameworkLibrary.46532
++ _CoreSpeechLibrary.frameworkLibrary.39290
++ _DataCollectionServicesLibrary.sLib.46544
++ _DataCollectionServicesLibrary.sOnce.46543
++ _IntentsLibrary.15186
++ _IntentsLibraryCore.frameworkLibrary.15189
++ _IntentsLibraryCore.frameworkLibrary.31158
++ _LSApplicationProxyFunction.34620
++ _LSApplicationProxyFunction.46538
++ _MediaExperienceLibrary.27535
++ _MediaExperienceLibraryCore.frameworkLibrary.27561
++ _OBJC_IVAR_$_AFModesConfiguration._isInitialBringUp
++ _OBJC_IVAR_$__AFModesConfigurationMutation._isInitialBringUp
++ _SoftBiomeLibrary.45773
++ _VTPreferencesFunction.46748
++ _VoiceTriggerLibrary.frameworkLibrary.46742
++ ___363-[AFModesConfiguration initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isInitialBringUp:isUserEngagedWithDevice:]_block_invoke
++ ___AnnounceLibrary_block_invoke.43655
++ ___BiomeLibraryLibraryCore_block_invoke.27085
++ ___BiomeLibraryLibraryCore_block_invoke.45791
++ ___Block_byref_object_copy_.10642
++ ___Block_byref_object_copy_.10835
++ ___Block_byref_object_copy_.11467
++ ___Block_byref_object_copy_.12049
++ ___Block_byref_object_copy_.13299
++ ___Block_byref_object_copy_.13571
++ ___Block_byref_object_copy_.16558
++ ___Block_byref_object_copy_.17087
++ ___Block_byref_object_copy_.17579
++ ___Block_byref_object_copy_.19621
++ ___Block_byref_object_copy_.19862
++ ___Block_byref_object_copy_.20393
++ ___Block_byref_object_copy_.21465
++ ___Block_byref_object_copy_.22414
++ ___Block_byref_object_copy_.23083
++ ___Block_byref_object_copy_.23501
++ ___Block_byref_object_copy_.24099
++ ___Block_byref_object_copy_.26223
++ ___Block_byref_object_copy_.29070
++ ___Block_byref_object_copy_.30743
++ ___Block_byref_object_copy_.35047
++ ___Block_byref_object_copy_.35491
++ ___Block_byref_object_copy_.37719
++ ___Block_byref_object_copy_.38909
++ ___Block_byref_object_copy_.42031
++ ___Block_byref_object_copy_.46680
++ ___Block_byref_object_copy_.47938
++ ___Block_byref_object_copy_.48665
++ ___Block_byref_object_copy_.48947
++ ___Block_byref_object_dispose_.10643
++ ___Block_byref_object_dispose_.10836
++ ___Block_byref_object_dispose_.11468
++ ___Block_byref_object_dispose_.12050
++ ___Block_byref_object_dispose_.13300
++ ___Block_byref_object_dispose_.13572
++ ___Block_byref_object_dispose_.16559
++ ___Block_byref_object_dispose_.17088
++ ___Block_byref_object_dispose_.17580
++ ___Block_byref_object_dispose_.19622
++ ___Block_byref_object_dispose_.19863
++ ___Block_byref_object_dispose_.20394
++ ___Block_byref_object_dispose_.21466
++ ___Block_byref_object_dispose_.22415
++ ___Block_byref_object_dispose_.23084
++ ___Block_byref_object_dispose_.23502
++ ___Block_byref_object_dispose_.24100
++ ___Block_byref_object_dispose_.26224
++ ___Block_byref_object_dispose_.29071
++ ___Block_byref_object_dispose_.30744
++ ___Block_byref_object_dispose_.35048
++ ___Block_byref_object_dispose_.35492
++ ___Block_byref_object_dispose_.37720
++ ___Block_byref_object_dispose_.38910
++ ___Block_byref_object_dispose_.42032
++ ___Block_byref_object_dispose_.46681
++ ___Block_byref_object_dispose_.47939
++ ___Block_byref_object_dispose_.48666
++ ___Block_byref_object_dispose_.48948
++ ___BluetoothManagerLibraryCore_block_invoke.20378
++ ___DataCollectionServicesLibrary_block_invoke.46546
++ ___IntentsLibraryCore_block_invoke.15190
++ ___IntentsLibraryCore_block_invoke.31159
++ ___MediaExperienceLibraryCore_block_invoke.27562
++ ___block_descriptor_63_e8_32s_e40_v16?0"<AFModesConfigurationMutating>"8ls32l8
++ ___block_literal_global.101.22544
++ ___block_literal_global.101.39017
++ ___block_literal_global.103.22540
++ ___block_literal_global.10371
++ ___block_literal_global.10428
++ ___block_literal_global.10580
++ ___block_literal_global.10647
++ ___block_literal_global.109.22533
++ ___block_literal_global.111.22530
++ ___block_literal_global.11142
++ ___block_literal_global.112.10575
++ ___block_literal_global.115.22525
++ ___block_literal_global.11683
++ ___block_literal_global.11762
++ ___block_literal_global.11789
++ ___block_literal_global.11864
++ ___block_literal_global.120.10512
++ ___block_literal_global.12069
++ ___block_literal_global.121.33790
++ ___block_literal_global.123.22517
++ ___block_literal_global.12325
++ ___block_literal_global.12365
++ ___block_literal_global.12861
++ ___block_literal_global.129.22511
++ ___block_literal_global.129.33786
++ ___block_literal_global.13005
++ ___block_literal_global.131.45994
++ ___block_literal_global.135.33780
++ ___block_literal_global.13725
++ ___block_literal_global.13919
++ ___block_literal_global.14076
++ ___block_literal_global.141.33768
++ ___block_literal_global.142.43650
++ ___block_literal_global.144.33744
++ ___block_literal_global.14403
++ ___block_literal_global.14431
++ ___block_literal_global.14540
++ ___block_literal_global.148.43663
++ ___block_literal_global.15.23093
++ ___block_literal_global.15.27072
++ ___block_literal_global.15.44592
++ ___block_literal_global.15.45940
++ ___block_literal_global.152.22488
++ ___block_literal_global.160.43657
++ ___block_literal_global.16031
++ ___block_literal_global.163.43647
++ ___block_literal_global.16391
++ ___block_literal_global.16595
++ ___block_literal_global.16732
++ ___block_literal_global.168.22481
++ ___block_literal_global.168.33754
++ ___block_literal_global.16901
++ ___block_literal_global.17136
++ ___block_literal_global.17170
++ ___block_literal_global.17572
++ ___block_literal_global.176.22475
++ ___block_literal_global.178.41639
++ ___block_literal_global.182.46136
++ ___block_literal_global.18590
++ ___block_literal_global.18609
++ ___block_literal_global.188.46151
++ ___block_literal_global.18957
++ ___block_literal_global.19100
++ ___block_literal_global.19139
++ ___block_literal_global.19171
++ ___block_literal_global.19728
++ ___block_literal_global.198.46161
++ ___block_literal_global.19803
++ ___block_literal_global.19864
++ ___block_literal_global.2018
++ ___block_literal_global.20435
++ ___block_literal_global.2065
++ ___block_literal_global.20677
++ ___block_literal_global.2075
++ ___block_literal_global.20814
++ ___block_literal_global.20959
++ ___block_literal_global.21063
++ ___block_literal_global.21187
++ ___block_literal_global.21217
++ ___block_literal_global.2122
++ ___block_literal_global.2132
++ ___block_literal_global.2137
++ ___block_literal_global.21618
++ ___block_literal_global.22604
++ ___block_literal_global.23101
++ ___block_literal_global.23552
++ ___block_literal_global.23576
++ ___block_literal_global.23659
++ ___block_literal_global.24046
++ ___block_literal_global.241.46190
++ ___block_literal_global.24222
++ ___block_literal_global.253
++ ___block_literal_global.25397
++ ___block_literal_global.26.45951
++ ___block_literal_global.263.14704
++ ___block_literal_global.26300
++ ___block_literal_global.26327
++ ___block_literal_global.26593
++ ___block_literal_global.26791
++ ___block_literal_global.26960
++ ___block_literal_global.27092
++ ___block_literal_global.27279
++ ___block_literal_global.27590
++ ___block_literal_global.28419
++ ___block_literal_global.28605
++ ___block_literal_global.29028
++ ___block_literal_global.29106
++ ___block_literal_global.29201
++ ___block_literal_global.29521
++ ___block_literal_global.29584
++ ___block_literal_global.30227
++ ___block_literal_global.30354
++ ___block_literal_global.30453
++ ___block_literal_global.30496
++ ___block_literal_global.31303
++ ___block_literal_global.32019
++ ___block_literal_global.32943
++ ___block_literal_global.33318
++ ___block_literal_global.33793
++ ___block_literal_global.33928
++ ___block_literal_global.34614
++ ___block_literal_global.35207
++ ___block_literal_global.35336
++ ___block_literal_global.35504
++ ___block_literal_global.35576
++ ___block_literal_global.37204
++ ___block_literal_global.37224
++ ___block_literal_global.37651
++ ___block_literal_global.37738
++ ___block_literal_global.38.22592
++ ___block_literal_global.38600
++ ___block_literal_global.38629
++ ___block_literal_global.38724
++ ___block_literal_global.38791
++ ___block_literal_global.39024
++ ___block_literal_global.39218
++ ___block_literal_global.39681
++ ___block_literal_global.39732
++ ___block_literal_global.40.47445
++ ___block_literal_global.40672
++ ___block_literal_global.40706
++ ___block_literal_global.40980
++ ___block_literal_global.41204
++ ___block_literal_global.41635
++ ___block_literal_global.41847
++ ___block_literal_global.42.14890
++ ___block_literal_global.42.22585
++ ___block_literal_global.42058
++ ___block_literal_global.42180
++ ___block_literal_global.43.47439
++ ___block_literal_global.43412
++ ___block_literal_global.43473
++ ___block_literal_global.43672
++ ___block_literal_global.44125
++ ___block_literal_global.44396
++ ___block_literal_global.44488
++ ___block_literal_global.44596
++ ___block_literal_global.45805
++ ___block_literal_global.45935
++ ___block_literal_global.47.48960
++ ___block_literal_global.47108
++ ___block_literal_global.47131
++ ___block_literal_global.47285
++ ___block_literal_global.47433
++ ___block_literal_global.47958
++ ___block_literal_global.48.26968
++ ___block_literal_global.48621
++ ___block_literal_global.48968
++ ___block_literal_global.5.48953
++ ___block_literal_global.523
++ ___block_literal_global.526
++ ___block_literal_global.54.22575
++ ___block_literal_global.58.32953
++ ___block_literal_global.63.35507
++ ___block_literal_global.66.19858
++ ___block_literal_global.68.19854
++ ___block_literal_global.68.35511
++ ___block_literal_global.70.45969
++ ___block_literal_global.71.30416
++ ___block_literal_global.73.35512
++ ___block_literal_global.75.22563
++ ___block_literal_global.75.45976
++ ___block_literal_global.82.45987
++ ___block_literal_global.85.22556
++ ___block_literal_global.85.26963
++ ___block_literal_global.859.46783
++ ___block_literal_global.89.43537
++ ___block_literal_global.93.22550
++ ___block_literal_global.95.39021
++ ___getBMSiriServiceClass_block_invoke.27103
++ ___getBiomeLibrarySymbolLoc_block_invoke.45779
++ ___getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15194
++ ___getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15185
++ ___initLSApplicationProxy_block_invoke.34618
++ ___initLSApplicationProxy_block_invoke.46531
++ ___initVTPreferences_block_invoke.46741
++ _audit_stringBiomeLibrary.27087
++ _audit_stringBiomeLibrary.45793
++ _audit_stringBluetoothManager.20382
++ _audit_stringIntents.15192
++ _audit_stringIntents.31173
++ _audit_stringMediaExperience.27565
++ _classLSApplicationProxy.34615
++ _classLSApplicationProxy.46529
++ _classVTPreferences.46739
++ _getBMSiriServiceClass.softClass.27102
++ _getBiomeLibrarySymbolLoc.ptr.45778
++ _getBluetoothPairedStatusChangedNotification.45890
++ _getINSearchForMessagesIntentIdentifier.15183
++ _getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15193
++ _getINSendMessageIntentIdentifierSymbolLoc.ptr.15184
++ _getLSApplicationProxyClass.34607
++ _getLSApplicationProxyClass.46525
++ _getVTPreferencesClass.46735
++ _initLSApplicationProxy.34612
++ _initLSApplicationProxy.46527
++ _initLSApplicationProxy.sOnce.34613
++ _initLSApplicationProxy.sOnce.46528
++ _initVTPreferences.46737
++ _initVTPreferences.sOnce.46738
++ _objc_msgSend$getIsInitialBringUp
++ _objc_msgSend$initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isInitialBringUp:isUserEngagedWithDevice:
++ _objc_msgSend$isBluetoothHeadset
++ _provider.onceToken.15197
++ _provider.provider.15198
++ _sharedInstance.onceToken.17135
++ _sharedInstance.onceToken.22632
++ _sharedInstance.onceToken.23551
++ _sharedInstance.onceToken.28604
++ _sharedInstance.onceToken.37223
++ _sharedInstance.onceToken.44614
++ _sharedInstance.singleton.44615
++ _sharedManager.onceToken.16594
++ _sharedManager.onceToken.22098
++ _sharedManager.onceToken.32942
++ _sharedManager.onceToken.43411
++ _sharedManager.result.32944
++ _sharedManager.sharedManager.43413
++ _sharedMonitor.monitor.20449
++ _sharedMonitor.onceToken.19660
++ _sharedMonitor.onceToken.20448
++ _sharedObserver.onceToken.31302
++ _sharedObserver.onceToken.45893
++ _sharedObserver.onceToken.48967
++ _sharedObserver.sharedObserver.31304
++ _sharedObserver.sharedObserver.48969
+- -[AFModesConfiguration initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isUserEngagedWithDevice:]
+- GCC_except_table10098
+- GCC_except_table10100
+- GCC_except_table10112
+- GCC_except_table10138
+- GCC_except_table10159
+- GCC_except_table10352
+- GCC_except_table10413
+- GCC_except_table10417
+- GCC_except_table10419
+- GCC_except_table10428
+- GCC_except_table10432
+- GCC_except_table10438
+- GCC_except_table10710
+- GCC_except_table10878
+- GCC_except_table10891
+- GCC_except_table11079
+- GCC_except_table11218
+- GCC_except_table11231
+- GCC_except_table11269
+- GCC_except_table11527
+- GCC_except_table11670
+- GCC_except_table11689
+- GCC_except_table11692
+- GCC_except_table4463
+- GCC_except_table4466
+- GCC_except_table4756
+- GCC_except_table4822
+- GCC_except_table4885
+- GCC_except_table4895
+- GCC_except_table4906
+- GCC_except_table4919
+- GCC_except_table5044
+- GCC_except_table5398
+- GCC_except_table5401
+- GCC_except_table5468
+- GCC_except_table5482
+- GCC_except_table5490
+- GCC_except_table5528
+- GCC_except_table5534
+- GCC_except_table5540
+- GCC_except_table5612
+- GCC_except_table5614
+- GCC_except_table5649
+- GCC_except_table5652
+- GCC_except_table5786
+- GCC_except_table5885
+- GCC_except_table5906
+- GCC_except_table5908
+- GCC_except_table5972
+- GCC_except_table5974
+- GCC_except_table5976
+- GCC_except_table5978
+- GCC_except_table5992
+- GCC_except_table5998
+- GCC_except_table6121
+- GCC_except_table6128
+- GCC_except_table6483
+- GCC_except_table6498
+- GCC_except_table6521
+- GCC_except_table6624
+- GCC_except_table6633
+- GCC_except_table6672
+- GCC_except_table6704
+- GCC_except_table6771
+- GCC_except_table7239
+- GCC_except_table7244
+- GCC_except_table7247
+- GCC_except_table7250
+- GCC_except_table7253
+- GCC_except_table7256
+- GCC_except_table7463
+- GCC_except_table7466
+- GCC_except_table7468
+- GCC_except_table7480
+- GCC_except_table7552
+- GCC_except_table7558
+- GCC_except_table7728
+- GCC_except_table7834
+- GCC_except_table7864
+- GCC_except_table8053
+- GCC_except_table8122
+- GCC_except_table8228
+- GCC_except_table8655
+- GCC_except_table8709
+- GCC_except_table8753
+- GCC_except_table8841
+- GCC_except_table8881
+- GCC_except_table8912
+- GCC_except_table8918
+- GCC_except_table9168
+- GCC_except_table9238
+- GCC_except_table9244
+- GCC_except_table9279
+- GCC_except_table9282
+- GCC_except_table9360
+- GCC_except_table9389
+- GCC_except_table9461
+- GCC_except_table9464
+- GCC_except_table9468
+- GCC_except_table9573
+- GCC_except_table9577
+- GCC_except_table9581
+- GCC_except_table9614
+- GCC_except_table9659
+- _AnnounceLibrary.sLib.43626
+- _AnnounceLibrary.sOnce.43624
+- _BiomeLibraryLibraryCore.45763
+- _BiomeLibraryLibraryCore.frameworkLibrary.27073
+- _BiomeLibraryLibraryCore.frameworkLibrary.45766
+- _BluetoothManagerLibrary.45860
+- _BluetoothManagerLibraryCore.frameworkLibrary.20379
+- _CoreServicesLibrary.frameworkLibrary.46509
+- _CoreSpeechLibrary.frameworkLibrary.39265
+- _DataCollectionServicesLibrary.sLib.46521
+- _DataCollectionServicesLibrary.sOnce.46520
+- _IntentsLibrary.15188
+- _IntentsLibraryCore.frameworkLibrary.15191
+- _IntentsLibraryCore.frameworkLibrary.31145
+- _LSApplicationProxyFunction.34607
+- _LSApplicationProxyFunction.46515
+- _MediaExperienceLibrary.27523
+- _MediaExperienceLibraryCore.frameworkLibrary.27549
+- _SoftBiomeLibrary.45749
+- _VTPreferencesFunction.46725
+- _VoiceTriggerLibrary.frameworkLibrary.46719
+- ___346-[AFModesConfiguration initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isUserEngagedWithDevice:]_block_invoke
+- ___AnnounceLibrary_block_invoke.43630
+- ___BiomeLibraryLibraryCore_block_invoke.27074
+- ___BiomeLibraryLibraryCore_block_invoke.45767
+- ___Block_byref_object_copy_.10639
+- ___Block_byref_object_copy_.10832
+- ___Block_byref_object_copy_.11464
+- ___Block_byref_object_copy_.12046
+- ___Block_byref_object_copy_.13296
+- ___Block_byref_object_copy_.13568
+- ___Block_byref_object_copy_.16560
+- ___Block_byref_object_copy_.17089
+- ___Block_byref_object_copy_.17581
+- ___Block_byref_object_copy_.19623
+- ___Block_byref_object_copy_.19864
+- ___Block_byref_object_copy_.20395
+- ___Block_byref_object_copy_.21467
+- ___Block_byref_object_copy_.22412
+- ___Block_byref_object_copy_.23084
+- ___Block_byref_object_copy_.23502
+- ___Block_byref_object_copy_.24100
+- ___Block_byref_object_copy_.26212
+- ___Block_byref_object_copy_.29058
+- ___Block_byref_object_copy_.30730
+- ___Block_byref_object_copy_.35034
+- ___Block_byref_object_copy_.35478
+- ___Block_byref_object_copy_.37703
+- ___Block_byref_object_copy_.38884
+- ___Block_byref_object_copy_.42006
+- ___Block_byref_object_copy_.46657
+- ___Block_byref_object_copy_.47916
+- ___Block_byref_object_copy_.48641
+- ___Block_byref_object_copy_.48923
+- ___Block_byref_object_dispose_.10640
+- ___Block_byref_object_dispose_.10833
+- ___Block_byref_object_dispose_.11465
+- ___Block_byref_object_dispose_.12047
+- ___Block_byref_object_dispose_.13297
+- ___Block_byref_object_dispose_.13569
+- ___Block_byref_object_dispose_.16561
+- ___Block_byref_object_dispose_.17090
+- ___Block_byref_object_dispose_.17582
+- ___Block_byref_object_dispose_.19624
+- ___Block_byref_object_dispose_.19865
+- ___Block_byref_object_dispose_.20396
+- ___Block_byref_object_dispose_.21468
+- ___Block_byref_object_dispose_.22413
+- ___Block_byref_object_dispose_.23085
+- ___Block_byref_object_dispose_.23503
+- ___Block_byref_object_dispose_.24101
+- ___Block_byref_object_dispose_.26213
+- ___Block_byref_object_dispose_.29059
+- ___Block_byref_object_dispose_.30731
+- ___Block_byref_object_dispose_.35035
+- ___Block_byref_object_dispose_.35479
+- ___Block_byref_object_dispose_.37704
+- ___Block_byref_object_dispose_.38885
+- ___Block_byref_object_dispose_.42007
+- ___Block_byref_object_dispose_.46658
+- ___Block_byref_object_dispose_.47917
+- ___Block_byref_object_dispose_.48642
+- ___Block_byref_object_dispose_.48924
+- ___BluetoothManagerLibraryCore_block_invoke.20380
+- ___DataCollectionServicesLibrary_block_invoke.46523
+- ___IntentsLibraryCore_block_invoke.15192
+- ___IntentsLibraryCore_block_invoke.31146
+- ___MediaExperienceLibraryCore_block_invoke.27550
+- ___block_descriptor_62_e8_32s_e40_v16?0"<AFModesConfigurationMutating>"8ls32l8
+- ___block_literal_global.101.22542
+- ___block_literal_global.101.38992
+- ___block_literal_global.103.22538
+- ___block_literal_global.10368
+- ___block_literal_global.10425
+- ___block_literal_global.10577
+- ___block_literal_global.10644
+- ___block_literal_global.109.22531
+- ___block_literal_global.111.22528
+- ___block_literal_global.11139
+- ___block_literal_global.112.10572
+- ___block_literal_global.115.22523
+- ___block_literal_global.11680
+- ___block_literal_global.11759
+- ___block_literal_global.11786
+- ___block_literal_global.11861
+- ___block_literal_global.120.10509
+- ___block_literal_global.12066
+- ___block_literal_global.121.33777
+- ___block_literal_global.123.22515
+- ___block_literal_global.12322
+- ___block_literal_global.12362
+- ___block_literal_global.12858
+- ___block_literal_global.129.22509
+- ___block_literal_global.129.33773
+- ___block_literal_global.13002
+- ___block_literal_global.131.45971
+- ___block_literal_global.135.33767
+- ___block_literal_global.13722
+- ___block_literal_global.13916
+- ___block_literal_global.14073
+- ___block_literal_global.141.33755
+- ___block_literal_global.142.43625
+- ___block_literal_global.144.33731
+- ___block_literal_global.14400
+- ___block_literal_global.14428
+- ___block_literal_global.14537
+- ___block_literal_global.148.43638
+- ___block_literal_global.15.23094
+- ___block_literal_global.15.27061
+- ___block_literal_global.15.44567
+- ___block_literal_global.15.45917
+- ___block_literal_global.152.22486
+- ___block_literal_global.160.43632
+- ___block_literal_global.16033
+- ___block_literal_global.163.43622
+- ___block_literal_global.16393
+- ___block_literal_global.16597
+- ___block_literal_global.16734
+- ___block_literal_global.168.22479
+- ___block_literal_global.168.33741
+- ___block_literal_global.16903
+- ___block_literal_global.17138
+- ___block_literal_global.17172
+- ___block_literal_global.17574
+- ___block_literal_global.176.22473
+- ___block_literal_global.178.41614
+- ___block_literal_global.182.46113
+- ___block_literal_global.18592
+- ___block_literal_global.18611
+- ___block_literal_global.188.46128
+- ___block_literal_global.18959
+- ___block_literal_global.19102
+- ___block_literal_global.19141
+- ___block_literal_global.19173
+- ___block_literal_global.19730
+- ___block_literal_global.198.46138
+- ___block_literal_global.19805
+- ___block_literal_global.19866
+- ___block_literal_global.2012
+- ___block_literal_global.20437
+- ___block_literal_global.2062
+- ___block_literal_global.20679
+- ___block_literal_global.2072
+- ___block_literal_global.20816
+- ___block_literal_global.20961
+- ___block_literal_global.21065
+- ___block_literal_global.2116
+- ___block_literal_global.21189
+- ___block_literal_global.21219
+- ___block_literal_global.2129
+- ___block_literal_global.2134
+- ___block_literal_global.21620
+- ___block_literal_global.22602
+- ___block_literal_global.23102
+- ___block_literal_global.23553
+- ___block_literal_global.23577
+- ___block_literal_global.23660
+- ___block_literal_global.24047
+- ___block_literal_global.241.46167
+- ___block_literal_global.24223
+- ___block_literal_global.252
+- ___block_literal_global.25386
+- ___block_literal_global.26.45928
+- ___block_literal_global.262
+- ___block_literal_global.26289
+- ___block_literal_global.26316
+- ___block_literal_global.26582
+- ___block_literal_global.26780
+- ___block_literal_global.26949
+- ___block_literal_global.27081
+- ___block_literal_global.27268
+- ___block_literal_global.27579
+- ___block_literal_global.28409
+- ___block_literal_global.28595
+- ___block_literal_global.29016
+- ___block_literal_global.29094
+- ___block_literal_global.29189
+- ___block_literal_global.29509
+- ___block_literal_global.29572
+- ___block_literal_global.30214
+- ___block_literal_global.30341
+- ___block_literal_global.30440
+- ___block_literal_global.30483
+- ___block_literal_global.31290
+- ___block_literal_global.32006
+- ___block_literal_global.32936
+- ___block_literal_global.33306
+- ___block_literal_global.33780
+- ___block_literal_global.33915
+- ___block_literal_global.34601
+- ___block_literal_global.35194
+- ___block_literal_global.35323
+- ___block_literal_global.35491
+- ___block_literal_global.35563
+- ___block_literal_global.37191
+- ___block_literal_global.37211
+- ___block_literal_global.37635
+- ___block_literal_global.37722
+- ___block_literal_global.38.22590
+- ___block_literal_global.38575
+- ___block_literal_global.38604
+- ___block_literal_global.38699
+- ___block_literal_global.38766
+- ___block_literal_global.38999
+- ___block_literal_global.39193
+- ___block_literal_global.39656
+- ___block_literal_global.39707
+- ___block_literal_global.40.47423
+- ___block_literal_global.40647
+- ___block_literal_global.40681
+- ___block_literal_global.40955
+- ___block_literal_global.41179
+- ___block_literal_global.41610
+- ___block_literal_global.41822
+- ___block_literal_global.42.14894
+- ___block_literal_global.42.22583
+- ___block_literal_global.42033
+- ___block_literal_global.42155
+- ___block_literal_global.43.47417
+- ___block_literal_global.43387
+- ___block_literal_global.43448
+- ___block_literal_global.43647
+- ___block_literal_global.44100
+- ___block_literal_global.44371
+- ___block_literal_global.44463
+- ___block_literal_global.44571
+- ___block_literal_global.45781
+- ___block_literal_global.45912
+- ___block_literal_global.47.48938
+- ___block_literal_global.47086
+- ___block_literal_global.47109
+- ___block_literal_global.47263
+- ___block_literal_global.47411
+- ___block_literal_global.47936
+- ___block_literal_global.48.26957
+- ___block_literal_global.48597
+- ___block_literal_global.48946
+- ___block_literal_global.5.48929
+- ___block_literal_global.521
+- ___block_literal_global.524
+- ___block_literal_global.54.22573
+- ___block_literal_global.55.48934
+- ___block_literal_global.63.35494
+- ___block_literal_global.66.19860
+- ___block_literal_global.68.19856
+- ___block_literal_global.68.35498
+- ___block_literal_global.70.45946
+- ___block_literal_global.71.30403
+- ___block_literal_global.73.35499
+- ___block_literal_global.75.22561
+- ___block_literal_global.75.45953
+- ___block_literal_global.82.45964
+- ___block_literal_global.85.22554
+- ___block_literal_global.85.26952
+- ___block_literal_global.859.46761
+- ___block_literal_global.89.43512
+- ___block_literal_global.93.22548
+- ___block_literal_global.95.38996
+- ___getBMSiriServiceClass_block_invoke.27092
+- ___getBiomeLibrarySymbolLoc_block_invoke.45755
+- ___getINSearchForMessagesIntentIdentifierSymbolLoc_block_invoke.15196
+- ___getINSendMessageIntentIdentifierSymbolLoc_block_invoke.15187
+- ___initLSApplicationProxy_block_invoke.34605
+- ___initLSApplicationProxy_block_invoke.46508
+- ___initVTPreferences_block_invoke.46718
+- _audit_stringBiomeLibrary.27076
+- _audit_stringBiomeLibrary.45769
+- _audit_stringBluetoothManager.20384
+- _audit_stringIntents.15194
+- _audit_stringIntents.31160
+- _audit_stringMediaExperience.27553
+- _classLSApplicationProxy.34602
+- _classLSApplicationProxy.46506
+- _classVTPreferences.46716
+- _getBMSiriServiceClass.softClass.27091
+- _getBiomeLibrarySymbolLoc.ptr.45754
+- _getBluetoothPairedStatusChangedNotification.45866
+- _getINSearchForMessagesIntentIdentifier.15185
+- _getINSearchForMessagesIntentIdentifierSymbolLoc.ptr.15195
+- _getINSendMessageIntentIdentifierSymbolLoc.ptr.15186
+- _getLSApplicationProxyClass.34594
+- _getLSApplicationProxyClass.46502
+- _getVTPreferencesClass.46712
+- _initLSApplicationProxy.34599
+- _initLSApplicationProxy.46504
+- _initLSApplicationProxy.sOnce.34600
+- _initLSApplicationProxy.sOnce.46505
+- _initVTPreferences.46714
+- _initVTPreferences.sOnce.46715
+- _objc_msgSend$initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isUserEngagedWithDevice:
+- _provider.onceToken.15199
+- _provider.provider.15200
+- _sharedInstance.onceToken.17137
+- _sharedInstance.onceToken.22630
+- _sharedInstance.onceToken.23552
+- _sharedInstance.onceToken.28594
+- _sharedInstance.onceToken.37210
+- _sharedInstance.onceToken.44589
+- _sharedInstance.singleton.44590
+- _sharedManager.onceToken.16596
+- _sharedManager.onceToken.22100
+- _sharedManager.onceToken.32935
+- _sharedManager.onceToken.43386
+- _sharedManager.result.32937
+- _sharedManager.sharedManager.43388
+- _sharedMonitor.monitor.20451
+- _sharedMonitor.onceToken.19662
+- _sharedMonitor.onceToken.20450
+- _sharedObserver.onceToken.31289
+- _sharedObserver.onceToken.45869
+- _sharedObserver.onceToken.48945
+- _sharedObserver.sharedObserver.31291
+- _sharedObserver.sharedObserver.48947
+CStrings:
++ "%@ {isEyesFree = %@, isUIFree = %@, isForCarDND = %@, isInAmbient = %@, isMapsNavigationActive = %@, isVoiceTriggerRequest = %@, isConnectedToCarPlay = %@, isRequestMadeWithPhysicalDeviceInteraction = %@, isAudioAccessoryButtonActivation = %@, isSiriAutoPrompt = %@, isFlexibleFollowup = %@, userTypedInSiri = %@, modeOverrideValue = %@, isDeviceUnlocked = %@, isDeviceScreenON = %@, isInitialBringUp = %@, isUserEngagedWithDevice = %@}"
++ "%s #SAEStatus #cacheUpdate Received notification %@, updating cache"
++ "%s #SAEStatus #cacheUpdate Updating cache:\ndeviceSupportsSAE: %d (%d)\n       saeEnabled: %d (%d)\n     saeAvailable: %d (%d)\n      swaiEnabled: %d (%d)\n        viEnabled: %d (%d)"
++ "%s #gms GMS available = %d (locale = %@, status = %ld, includeRestricted = %d)"
++ "%s #gms Locale is nil, falling back to system language"
++ "%s #gms Locale is nil, returning unavailable"
++ "@92@0:8B16B20B24B28B32B36B40B44B48B52B56B60@64B72B76B80q84"
++ "AFModesConfiguration::isInitialBringUp"
++ "ASR_SPEECH_PROFILE_CLIENT_EVENT"
++ "TB,R,N,V_isInitialBringUp"
++ "asr_speech_profile_sampling"
++ "com.apple.os-eligibility-domain.change.greymatter"
++ "getIsInitialBringUp"
++ "initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isInitialBringUp:isUserEngagedWithDevice:"
++ "isASRSpeechProfileSamplingEnabled"
++ "isBluetoothHeadset"
++ "{_mutationFlags=\"isDirty\"b1\"hasIsEyesFree\"b1\"hasIsUIFree\"b1\"hasIsForCarDND\"b1\"hasIsInAmbient\"b1\"hasIsMapsNavigationActive\"b1\"hasIsVoiceTriggerRequest\"b1\"hasIsConnectedToCarPlay\"b1\"hasIsRequestMadeWithPhysicalDeviceInteraction\"b1\"hasIsAudioAccessoryButtonActivation\"b1\"hasIsSiriAutoPrompt\"b1\"hasIsFlexibleFollowup\"b1\"hasUserTypedInSiri\"b1\"hasModeOverrideValue\"b1\"hasIsDeviceUnlocked\"b1\"hasIsDeviceScreenON\"b1\"hasIsInitialBringUp\"b1\"hasIsUserEngagedWithDevice\"b1}"
+- "%@ {isEyesFree = %@, isUIFree = %@, isForCarDND = %@, isInAmbient = %@, isMapsNavigationActive = %@, isVoiceTriggerRequest = %@, isConnectedToCarPlay = %@, isRequestMadeWithPhysicalDeviceInteraction = %@, isAudioAccessoryButtonActivation = %@, isSiriAutoPrompt = %@, isFlexibleFollowup = %@, userTypedInSiri = %@, modeOverrideValue = %@, isDeviceUnlocked = %@, isDeviceScreenON = %@, isUserEngagedWithDevice = %@}"
+- "%s #SAEStatus #cacheUpdate Fetched deviceSupportsSAE (deprecated): %d"
+- "%s #SAEStatus #cacheUpdate Fetched saeAvailable: %d"
+- "%s #SAEStatus #cacheUpdate Fetched saeEnabled: %d"
+- "%s #SAEStatus #cacheUpdate Fetched swaiEnabled: %d"
+- "%s #SAEStatus #cacheUpdate Fetched visualIntelligenceEnabled: %d"
+- "%s #SAEStatus #cacheUpdate Fetching deviceSupportsSAE (deprecated)"
+- "%s #SAEStatus #cacheUpdate Received notification %@, updating cache if needed"
+- "%s #SAEStatus #cacheUpdate Updating cache:\ndeviceSupportsSAE: %d->%d\nsaeEnabled: %d->%d\nsaeAvailable: %d->%d\nswaiEnabled: %d->%d\nvisualIntelligenceEnabled: %d->%d"
+- "%s Loading GMS availability via deprecated SPI"
+- "%s Loading GMS availability via locale based SPI"
+- "%s Locale is nil, returning unavailable"
+- "@88@0:8B16B20B24B28B32B36B40B44B48B52B56B60@64B72B76q80"
+- "initWithIsEyesFree:isUIFree:isForCarDND:isInAmbient:isMapsNavigationActive:isVoiceTriggerRequest:isConnectedToCarPlay:isRequestMadeWithPhysicalDeviceInteraction:isAudioAccessoryButtonActivation:isSiriAutoPrompt:isFlexibleFollowup:userTypedInSiri:modeOverrideValue:isDeviceUnlocked:isDeviceScreenON:isUserEngagedWithDevice:"
+- "{_mutationFlags=\"isDirty\"b1\"hasIsEyesFree\"b1\"hasIsUIFree\"b1\"hasIsForCarDND\"b1\"hasIsInAmbient\"b1\"hasIsMapsNavigationActive\"b1\"hasIsVoiceTriggerRequest\"b1\"hasIsConnectedToCarPlay\"b1\"hasIsRequestMadeWithPhysicalDeviceInteraction\"b1\"hasIsAudioAccessoryButtonActivation\"b1\"hasIsSiriAutoPrompt\"b1\"hasIsFlexibleFollowup\"b1\"hasUserTypedInSiri\"b1\"hasModeOverrideValue\"b1\"hasIsDeviceUnlocked\"b1\"hasIsDeviceScreenON\"b1\"hasIsUserEngagedWithDevice\"b1}"
+
+```

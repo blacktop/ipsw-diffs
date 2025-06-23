@@ -1,0 +1,475 @@
+## ThreatNotificationCore
+
+> `/System/Library/PrivateFrameworks/ThreatNotificationCore.framework/ThreatNotificationCore`
+
+```diff
+
+-24.0.1.0.0
+-  __TEXT.__text: 0xbb3c
+-  __TEXT.__auth_stubs: 0xa00
+-  __TEXT.__const: 0x9c4
+-  __TEXT.__cstring: 0xab4
+-  __TEXT.__oslogstring: 0x3ba
+-  __TEXT.__swift5_typeref: 0x3bd
+-  __TEXT.__constg_swiftt: 0x780
+-  __TEXT.__swift5_reflstr: 0x1a0
+-  __TEXT.__swift5_fieldmd: 0x3d8
+-  __TEXT.__swift5_proto: 0x50
+-  __TEXT.__swift5_types: 0x8c
++24.0.5.0.0
++  __TEXT.__text: 0x11944
++  __TEXT.__auth_stubs: 0xb80
++  __TEXT.__const: 0xcc4
++  __TEXT.__cstring: 0xc44
++  __TEXT.__oslogstring: 0x42a
++  __TEXT.__swift5_typeref: 0x49d
++  __TEXT.__constg_swiftt: 0x818
++  __TEXT.__swift5_reflstr: 0x2a3
++  __TEXT.__swift5_fieldmd: 0x4e0
++  __TEXT.__swift5_builtin: 0x14
++  __TEXT.__swift5_assocty: 0x78
++  __TEXT.__swift5_proto: 0x70
++  __TEXT.__swift5_types: 0x98
+   __TEXT.__swift5_capture: 0x34
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__swift5_assocty: 0x30
+   __TEXT.__swift5_protos: 0x1c
+-  __TEXT.__unwind_info: 0x428
+-  __TEXT.__eh_frame: 0x350
+-  __TEXT.__objc_methname: 0x232
+-  __DATA_CONST.__got: 0x108
+-  __DATA_CONST.__const: 0xa8
++  __TEXT.__unwind_info: 0x4f0
++  __TEXT.__eh_frame: 0x468
++  __TEXT.__objc_methname: 0x3fa
++  __DATA_CONST.__got: 0x138
++  __DATA_CONST.__const: 0x88
+   __DATA_CONST.__objc_classlist: 0x48
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x108
+-  __AUTH_CONST.__auth_got: 0x500
+-  __AUTH_CONST.__const: 0x7a0
+-  __AUTH_CONST.__objc_const: 0x6a8
+-  __AUTH.__data: 0x2d0
+-  __DATA.__data: 0x170
+-  __DATA.__bss: 0x680
+-  __DATA_DIRTY.__data: 0x4d0
++  __DATA_CONST.__objc_selrefs: 0x1f8
++  __AUTH_CONST.__auth_got: 0x5c0
++  __AUTH_CONST.__const: 0x7d8
++  __AUTH_CONST.__objc_const: 0x6c8
++  __AUTH.__data: 0x408
++  __DATA.__data: 0x258
++  __DATA.__bss: 0xa80
++  __DATA_DIRTY.__data: 0x4e8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/PrivateFrameworks/AuthKit.framework/AuthKit
+
+   - /usr/lib/swift/libswiftCompression.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: CD7DB9DB-2975-3F27-8478-CECE7766E287
+-  Functions: 407
+-  Symbols:   1436
+-  CStrings:  111
++  UUID: 0902E85F-00D2-33C4-BEDE-F13919BC6486
++  Functions: 490
++  Symbols:   1711
++  CStrings:  149
+ 
+Symbols:
++ _$s10Foundation13__DataStorageC15withUnsafeBytes2in5applyxSnySiG_xSWKXEtKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_AA0B0VTf1ncn_nTf4nng_n
++ _$s10Foundation13__DataStorageC6_bytesSvSgvg
++ _$s10Foundation13__DataStorageC7_lengthSivg
++ _$s10Foundation13__DataStorageC7_offsetSivg
++ _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
++ _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
++ _$s10Foundation3URLVACSQAAWL
++ _$s10Foundation3URLVSQAAMc
++ _$s10Foundation3URLVSgML
++ _$s10Foundation3URLVSgMaTm
++ _$s10Foundation3URLVSgWOcTm
++ _$s10Foundation3URLVSg_ADtMD
++ _$s10Foundation4DataV15withUnsafeBytesyxxSWKXEKlFSb_Tgq5015$s10Foundation4B26V2eeoiySbAC_ACtFZSbSWXEfU_ACTf1cn_n
++ _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
++ _$s10Foundation4DataV2eeoiySbAC_ACtFZSbSWXEfU_
++ _$s10Foundation4DataV2eeoiySbAC_ACtFZTf4nnd_n
++ _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
++ _$s10Foundation4DataVMn
++ _$s10Foundation4DataVSgML
++ _$s10Foundation4DataVSgWOe
++ _$s10Foundation4DataVSgWOy
++ _$s10Foundation4DateVSgWObTm
++ _$s10Foundation4DateVSgWOcTm
++ _$s12CoreFollowUpMXM
++ _$s15_ObjectiveCTypes01_A11CBridgeablePTl
++ _$s22ThreatNotificationCore011TNCFollowUpB0V02flB0ACSgSo08FLFolloweB0CSg_tcfC
++ _$s22ThreatNotificationCore011TNCFollowUpB0V02flB0So08FLFolloweB0Cvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V02flB0So08FLFolloweB0CvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V05firstB5DelaySdSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V05firstB5DelaySdSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V11clearActionAA0deG0VSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V11clearActionAA0deG0VSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V12subtitleTextSSSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V12subtitleTextSSSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V14activateActionAA0deG0VSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V14activateActionAA0deG0VSgvgTm
++ _$s22ThreatNotificationCore011TNCFollowUpB0V14activateActionAA0deG0VSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V15informativeTextSSSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V15informativeTextSSSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V17unlockActionLabelSSSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V17unlockActionLabelSSSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V2eeoiySbAC_ACtFZ
++ _$s22ThreatNotificationCore011TNCFollowUpB0V2eeoiySbAC_ACtFZTf4nnd_n
++ _$s22ThreatNotificationCore011TNCFollowUpB0V5title15informativeText14activateAction05clearJ0ACSSSg_AhA0deJ0VSgAKtcfC
++ _$s22ThreatNotificationCore011TNCFollowUpB0V5titleSSSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V5titleSSSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V7optionsShySSGSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V7optionsShySSGSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0V9frequencySdSgvg
++ _$s22ThreatNotificationCore011TNCFollowUpB0V9frequencySdSgvpMV
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMF
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMa
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMf
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMl
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMn
++ _$s22ThreatNotificationCore011TNCFollowUpB0VMr
++ _$s22ThreatNotificationCore011TNCFollowUpB0VN
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSQAAMc
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSQAAMcMK
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSQAASQ2eeoiySbx_xtFZTW
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSgMD
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSgML
++ _$s22ThreatNotificationCore011TNCFollowUpB0VSg_ADtMD
++ _$s22ThreatNotificationCore011TNCFollowUpB0VWV
++ _$s22ThreatNotificationCore011TNCFollowUpB0Vwet
++ _$s22ThreatNotificationCore011TNCFollowUpB0Vwst
++ _$s22ThreatNotificationCore0aB0O19FollowUpItemGeneralO22notifyingAppIdentifierSSvgZ
++ _$s22ThreatNotificationCore0aB0O19FollowUpItemGeneralO22notifyingAppIdentifierSSvpZMV
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnO10identifierSSvgZ
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnO10identifierSSvpZMV
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnOMF
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnOMa
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnOMf
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnOMn
++ _$s22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnON
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffO10identifierSSvgZ
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffO10identifierSSvpZMV
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffOMF
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffOMa
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffOMf
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffOMn
++ _$s22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffON
++ _$s22ThreatNotificationCore12TNCKVStorageC5clearyyF
++ _$s22ThreatNotificationCore12TNCKVStorageC5clearyyFTj
++ _$s22ThreatNotificationCore12TNCKVStorageC5clearyyFTq
++ _$s22ThreatNotificationCore12TNCKVStorageCAA12TNCKVStoringA2aDP5clearyyFTW
++ _$s22ThreatNotificationCore12TNCKVStoringP5clearyyFTj
++ _$s22ThreatNotificationCore12TNCKVStoringP5clearyyFTq
++ _$s22ThreatNotificationCore13TNCStorageKeyO8allCasesSayACGvgZ
++ _$s22ThreatNotificationCore13TNCStorageKeyO8allCasesSayACGvgZTv_r
++ _$s22ThreatNotificationCore13TNCStorageKeyO8allCasesSayACGvpZMV
++ _$s22ThreatNotificationCore13TNCStorageKeyO9cfuViewedyA2CmFWC
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAA8AllCasessADP_SlWT
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAAMA
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAAMc
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAAMcMK
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAAsADP8allCases03AllI0QzvgZTW
++ _$s22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAAsADP8allCases03AllI0QzvgZTWTv_r
++ _$s22ThreatNotificationCore15TNCFollowUpItemV10identifier5title15groupIdentifier14expirationDate8userInfo7actions12notificationACSS_S2SSg10Foundation0L0VSgSDys11AnyHashableVypGSgSayAA0dE6ActionVGAA0deB0VSgtcfC
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO14notifyingAppIDSSvgZ
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO14notifyingAppIDSSvpZ
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO14notifyingAppIDSSvpZMV
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO14notifyingAppID_WZ
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO14notifyingAppID_Wz
++ _$s22ThreatNotificationCore15TNCFollowUpItemV11UserInfoKeyO21primaryAccountAltDSIDSSvgZTm
++ _$s22ThreatNotificationCore15TNCFollowUpItemV12notificationAA0deB0VSgvg
++ _$s22ThreatNotificationCore15TNCFollowUpItemV12notificationAA0deB0VSgvpMV
++ _$s22ThreatNotificationCore15TNCFollowUpItemVWOcTm
++ _$s22ThreatNotificationCore15TNCFollowUpItemVWOhTm
++ _$s22ThreatNotificationCore17TNCFollowUpActionV02flF0ACSgSo08FLFolloweF0CSg_tcfC
++ _$s22ThreatNotificationCore17TNCFollowUpActionV02flF0So08FLFolloweF0Cvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV02flF0So08FLFolloweF0CvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV06launchF3URL10Foundation0H0VSgvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV06launchF3URL10Foundation0H0VSgvgTm
++ _$s22ThreatNotificationCore17TNCFollowUpActionV06launchF3URL10Foundation0H0VSgvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV06launchF9Arguments10Foundation4DataVSgvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV06launchF9Arguments10Foundation4DataVSgvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV10identifier5titleACSSSg_AFtcfC
++ _$s22ThreatNotificationCore17TNCFollowUpActionV10identifierSSSgvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV10identifierSSSgvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV11destructiveSbvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV11destructiveSbvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV3url10Foundation3URLVSgvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV3url10Foundation3URLVSgvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionV8userInfoSDys11AnyHashableVypGSgvg
++ _$s22ThreatNotificationCore17TNCFollowUpActionV8userInfoSDys11AnyHashableVypGSgvpMV
++ _$s22ThreatNotificationCore17TNCFollowUpActionVMaTm
++ _$s22ThreatNotificationCore17TNCFollowUpActionVMl
++ _$s22ThreatNotificationCore17TNCFollowUpActionVMr
++ _$s22ThreatNotificationCore17TNCFollowUpActionVSgMD
++ _$s22ThreatNotificationCore17TNCFollowUpActionVSgML
++ _$s22ThreatNotificationCore17TNCFollowUpActionVSgWOhTm
++ _$s22ThreatNotificationCore17TNCFollowUpActionVSg_ADtMD
++ _$s22ThreatNotificationCore17TNCFollowUpActionVWObTm
++ _$s22ThreatNotificationCore17TNCFollowUpActionVWOc
++ _$s22ThreatNotificationCore17TNCFollowUpActionVWOhTm
++ _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManager7storageAcA14TNCLDMManaging_p_AA12TNCKVStoring_ptcfC
++ _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManager7storageAcA14TNCLDMManaging_p_AA12TNCKVStoring_ptcfCTj
++ _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManager7storageAcA14TNCLDMManaging_p_AA12TNCKVStoring_ptcfCTq
++ _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManager7storageAcA14TNCLDMManaging_p_AA12TNCKVStoring_ptcfc
++ _$s22ThreatNotificationCore21TNCFollowUpControllerC7storage33_13CF1AD1E99CAC940C17947E683FDA43LLAA12TNCKVStoring_pvpWvd
++ _$s8AllCasess12CaseIterablePTl
++ _$sBOWV
++ _$sSDys11AnyHashableVypGSgMaTm
++ _$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ
++ _$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ
++ _$sSS9hashValueSivg
++ _$sSay22ThreatNotificationCore13TNCStorageKeyOGMD
++ _$sSay22ThreatNotificationCore13TNCStorageKeyOGSayxGSlsWL
++ _$sSay22ThreatNotificationCore13TNCStorageKeyOGSayxGSlsWl
++ _$sSayxGSlsMc
++ _$sSdSgML
++ _$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF
++ _$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ
++ _$sSh15minimumCapacityShyxGSi_tcfC
++ _$sSh2eeoiySbShyxG_ABtFZSS_Tt1g5
++ _$sSh5IndexV8_VariantOySo21FLNotificationOptionsa__GWOe
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSS_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSo21FLNotificationOptionsa_Tg5
++ _$sShySSGMD
++ _$sShySSGSgML
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSS_SaySSGTt0g5Tf4g_n
++ _$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSo21FLNotificationOptionsa_SayAEGTt0g5Tf4g_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySSG_So21FLNotificationOptionsas5NeverOTg5047$s22ThreatNotificationCore011TNCFollowUpB0V02flm13So08FLFollowem7CvgSo21D15OptionsaSSXEfU_Tf1cn_n
++ _$sSlsE3mapySayqd__Gqd__7ElementQzqd_0_YKXEqd_0_YKs5ErrorRd_0_r0_lFShySo21FLNotificationOptionsaG_SSs5NeverOTg5047$s22ThreatNotificationCore011TNCFollowUpB0V02flm17ACSgSo08FLFollowem14CSg_tcfcSSSo21D13OptionsaXEfU_Tf1cn_nTm
++ _$sSo21FLNotificationOptionsaABSHSCWL
++ _$sSo21FLNotificationOptionsaABSHSCWlTm
++ _$sSo21FLNotificationOptionsaABSQSCWL
++ _$sSo21FLNotificationOptionsaABSYSCWL
++ _$sSo21FLNotificationOptionsaABSYSCWlTm
++ _$sSo21FLNotificationOptionsaABs20_SwiftNewtypeWrapperSCWL
++ _$sSo21FLNotificationOptionsaABs35_HasCustomAnyHashableRepresentationSCWL
++ _$sSo21FLNotificationOptionsaMB
++ _$sSo21FLNotificationOptionsaMF
++ _$sSo21FLNotificationOptionsaML
++ _$sSo21FLNotificationOptionsaMa
++ _$sSo21FLNotificationOptionsaMf
++ _$sSo21FLNotificationOptionsaMn
++ _$sSo21FLNotificationOptionsaSHSCMc
++ _$sSo21FLNotificationOptionsaSHSCMcMK
++ _$sSo21FLNotificationOptionsaSHSCSH13_rawHashValue4seedS2i_tFTW
++ _$sSo21FLNotificationOptionsaSHSCSH4hash4intoys6HasherVz_tFTW
++ _$sSo21FLNotificationOptionsaSHSCSH9hashValueSivgTW
++ _$sSo21FLNotificationOptionsaSHSCSQWb
++ _$sSo21FLNotificationOptionsaSQSCMc
++ _$sSo21FLNotificationOptionsaSQSCMcMK
++ _$sSo21FLNotificationOptionsaSQSCSQ2eeoiySbx_xtFZTW
++ _$sSo21FLNotificationOptionsaSYSCMA
++ _$sSo21FLNotificationOptionsaSYSCMc
++ _$sSo21FLNotificationOptionsaSYSCMcMK
++ _$sSo21FLNotificationOptionsaSYSCSY8rawValue03RawD0QzvgTW
++ _$sSo21FLNotificationOptionsaSYSCSY8rawValuexSg03RawD0Qz_tcfCTW
++ _$sSo21FLNotificationOptionsas20_SwiftNewtypeWrapperSCMc
++ _$sSo21FLNotificationOptionsas20_SwiftNewtypeWrapperSCMcMK
++ _$sSo21FLNotificationOptionsas20_SwiftNewtypeWrapperSCSYWb
++ _$sSo21FLNotificationOptionsas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentationPWb
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCMA
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCMc
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCMcMK
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCsACP016_forceBridgeFromC1C_6resulty01_C5CTypeQz_xSgztFZTW
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCsACP024_conditionallyBridgeFromC1C_6resultSb01_C5CTypeQz_xSgztFZTW
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCsACP026_unconditionallyBridgeFromC1Cyx01_C5CTypeQzSgFZTW
++ _$sSo21FLNotificationOptionsas21_ObjectiveCBridgeableSCsACP09_bridgeToC1C01_C5CTypeQzyFTW
++ _$sSo21FLNotificationOptionsas35_HasCustomAnyHashableRepresentationSCMc
++ _$sSo21FLNotificationOptionsas35_HasCustomAnyHashableRepresentationSCMcMK
++ _$sSo21FLNotificationOptionsas35_HasCustomAnyHashableRepresentationSCsACP03_todeF0s0eF0VSgyFTW
++ _$sSoMXM
++ _$ss018_bridgeAnyObjectToB0yypyXlSgF
++ _$ss10_HashTableV11startBucketAB0D0Vvg
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tFSo21FLNotificationOptionsa_Tg5
++ _$ss10_NativeSetV4copyyyFSS_Tg5
++ _$ss10_NativeSetV4copyyyFSo21FLNotificationOptionsa_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSS_Tg5
++ _$ss10_NativeSetV6resize8capacityySi_tFSo21FLNotificationOptionsa_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSS_Tg5
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtFSo21FLNotificationOptionsa_Tg5
++ _$ss11_SetStorageC4copy8originalAByxGs05__RawaB0C_tFZ
++ _$ss11_SetStorageC6resize8original8capacity4moveAByxGs05__RawaB0C_SiSbtFZ
++ _$ss11_SetStorageCMn
++ _$ss11_SetStorageCySSGMD
++ _$ss11_SetStorageCySo21FLNotificationOptionsaGMD
++ _$ss12CaseIterableMp
++ _$ss12CaseIterableP8AllCasesAB_SlTn
++ _$ss12CaseIterableP8allCases03AllD0QzvgZTq
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22ThreatNotificationCore17TNCFollowUpActionV_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_Tg5
++ _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSo21FLNotificationOptionsa_Tg5
++ _$ss20_SwiftNewtypeWrapperMp
++ _$ss20_SwiftNewtypeWrapperPSYTb
++ _$ss20_SwiftNewtypeWrapperPs35_HasCustomAnyHashableRepresentationTb
++ _$ss20_SwiftNewtypeWrapperPsSHRzSH8RawValueSYRpzrlE20_toCustomAnyHashables0hI0VSgyF
++ _$ss21_ObjectiveCBridgeableMp
++ _$ss21_ObjectiveCBridgeableP016_forceBridgeFromA1C_6resulty01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP024_conditionallyBridgeFromA1C_6resultSb01_A5CTypeQz_xSgztFZTq
++ _$ss21_ObjectiveCBridgeableP026_unconditionallyBridgeFromA1Cyx01_A5CTypeQzSgFZTq
++ _$ss21_ObjectiveCBridgeableP09_bridgeToA1C01_A5CTypeQzyFTq
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo21FLNotificationOptionsa_Tg5
++ _$ss23_ContiguousArrayStorageCySo21FLNotificationOptionsaGMD
++ _$ss27_bridgeAnythingToObjectiveCyyXlxlF
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF22ThreatNotificationCore13TNCStorageKeyO_TB5
++ _$ss35_HasCustomAnyHashableRepresentationMp
++ _$ss35_HasCustomAnyHashableRepresentationP03_tobcD0s0cD0VSgyFTq
++ _$ss50ELEMENT_TYPE_OF_SET_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
++ _$sypSgWOc
++ _FLFollowUpNotifyingAppIdKey
++ _FLFollowUpThreatNotificationBundleIdentifier
++ _OBJC_CLASS_$_FLFollowUpNotification
++ ___swift_project_boxed_opaque_existential_0
++ _associated conformance 22ThreatNotificationCore13TNCStorageKeyOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance So21FLNotificationOptionsaSHSCSQ
++ _associated conformance So21FLNotificationOptionsas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So21FLNotificationOptionsas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _memcmp
++ _objc_retain
++ _objc_retain_x9
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_getForeignTypeMetadata
++ _symbolic $ss12CaseIterableP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic Say_____G 22ThreatNotificationCore13TNCStorageKeyO
++ _symbolic SdSg
++ _symbolic ShySSG
++ _symbolic ShySSGSg
++ _symbolic So8NSStringC
++ _symbolic _____ 22ThreatNotificationCore011TNCFollowUpB0V
++ _symbolic _____ 22ThreatNotificationCore0aB0O7ScreensO19AttackDetectedLDMOnO
++ _symbolic _____ 22ThreatNotificationCore0aB0O7ScreensO20AttackDetectedLDMOffO
++ _symbolic _____ So21FLNotificationOptionsa
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 22ThreatNotificationCore011TNCFollowUpB0V
++ _symbolic _____Sg 22ThreatNotificationCore17TNCFollowUpActionV
++ _symbolic _____Sg_ABt 10Foundation3URLV
++ _symbolic _____Sg_ABt 22ThreatNotificationCore011TNCFollowUpB0V
++ _symbolic _____Sg_ABt 22ThreatNotificationCore17TNCFollowUpActionV
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____y_____G s11_SetStorageC So21FLNotificationOptionsa
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So21FLNotificationOptionsa
++ _type_layout_string So21FLNotificationOptionsa
+- _$s10Foundation4DateVACSQAAWl
+- _$s10Foundation4DateVSgMa
+- _$s10Foundation4DateVSgWOb
+- _$s10Foundation4DateVSgWOc
+- _$s10Foundation4DateVSg_ADtWOhTm
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedO10identifierSSvgZ
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedO10identifierSSvpZMV
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedOMF
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedOMa
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedOMf
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedOMn
+- _$s22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedON
+- _$s22ThreatNotificationCore14TNCLDMManaging_pWOb
+- _$s22ThreatNotificationCore15TNCFollowUpItemV10identifier5title15groupIdentifier14expirationDate8userInfo7actionsACSS_S2SSg10Foundation0L0VSgSDys11AnyHashableVypGSgSayAA0dE6ActionVGtcfC
+- _$s22ThreatNotificationCore15TNCFollowUpItemVWOc
+- _$s22ThreatNotificationCore15TNCFollowUpItemVWOh
+- _$s22ThreatNotificationCore17TNCFollowUpActionV10identifier5titleACSS_SSSgtcfC
+- _$s22ThreatNotificationCore17TNCFollowUpActionV10identifierSSvg
+- _$s22ThreatNotificationCore17TNCFollowUpActionV10identifierSSvpMV
+- _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManagerAcA14TNCLDMManaging_p_tcfC
+- _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManagerAcA14TNCLDMManaging_p_tcfCTj
+- _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManagerAcA14TNCLDMManaging_p_tcfCTq
+- _$s22ThreatNotificationCore21TNCFollowUpControllerC10ldmManagerAcA14TNCLDMManaging_p_tcfc
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_n
+- _$sSD8_VariantV11removeValue6forKeyq_Sgx_tFSS_ypTg5
+- _$sSDys11AnyHashableVypGSgMa
+- _$sSS_yptMD
+- _$ss10_HashTableV12previousHole6beforeAB6BucketVAF_tF
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF22ThreatNotificationCore17TNCFollowUpActionV_Tg5
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypTg5
+- _$ss17_NativeDictionaryV4copyyyFSS_ypTg5
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSS_ypTg5
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypTg5
+- _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_ypTg5
+- _$ss18_DictionaryStorageCySSypGMD
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF22ThreatNotificationCore17TNCFollowUpActionV_Tg5
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5
+- _$sypSgWOcTm
+- _NSGlobalDomain
+- ___swift_memcpy32_8
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_ThreatNotificationCore
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ThreatNotificationCore
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ThreatNotificationCore
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ThreatNotificationCore
+- _objc_release_x26
+- _symbolic SS_ypt
+- _symbolic _____ 22ThreatNotificationCore0aB0O7ScreensO14AttackDetectedO
+- _symbolic _____ySSypG s18_DictionaryStorageC
+- _type_layout_string 22ThreatNotificationCore17TNCFollowUpActionV
+CStrings:
++ ", notification: "
++ "Apple Threat Notification"
++ "Apple detected a mercenary spyware attack targeted at your iPhone. There are actions you can take now to help protect your data and device."
++ "Created UserDefaults with suite name: %s"
++ "Failed to create UserDefaults with suite name: %s"
++ "activateAction"
++ "bundleIdentifier"
++ "clearAction"
++ "com.apple.ThreatNotification.FollowUp"
++ "com.apple.ThreatNotificationUI.FollowUpExtension.screen.attackDetectedLDMOff"
++ "com.apple.ThreatNotificationUI.FollowUpExtension.screen.attackDetectedLDMOn"
++ "com.apple.ThreatNotificationUI.storage.cfuViewed"
++ "defaultOptions"
++ "destructive"
++ "firstNotificationDelay"
++ "frequency"
++ "informativeText"
++ "initWithSuiteName:"
++ "launchActionArguments"
++ "launchActionURL"
++ "mainBundle"
++ "notification"
++ "objectForKey:"
++ "options"
++ "setActivateAction:"
++ "setClearAction:"
++ "setDestructive:"
++ "setFirstNotificationDelay:"
++ "setFrequency:"
++ "setInformativeText:"
++ "setLaunchActionArguments:"
++ "setLaunchActionURL:"
++ "setNotification:"
++ "setObject:forKey:"
++ "setOptions:"
++ "setSubtitleText:"
++ "setUnlockActionLabel:"
++ "setUrl:"
++ "subtitleText"
++ "unlockActionLabel"
++ "url"
+- "com.apple.ThreatNotificationUI.FollowUpExtension.screen.attackDetected"
+- "persistentDomainForName:"
+- "setPersistentDomain:forName:"
+
+```

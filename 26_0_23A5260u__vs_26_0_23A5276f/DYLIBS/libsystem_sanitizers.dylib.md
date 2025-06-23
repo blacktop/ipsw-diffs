@@ -1,0 +1,111 @@
+## libsystem_sanitizers.dylib
+
+> `/usr/lib/system/libsystem_sanitizers.dylib`
+
+```diff
+
+-23.0.0.0.0
+-  __TEXT.__text: 0x4984
++25.0.0.0.0
++  __TEXT.__text: 0x63ec
+   __TEXT.__auth_stubs: 0x190
+   __TEXT.__const: 0x160
+-  __TEXT.__cstring: 0xa87
++  __TEXT.__cstring: 0xa74
+   __DATA_CONST.__got: 0x30
+   __DATA_CONST.__const: 0x90
+   __AUTH_CONST.__auth_got: 0xc8
+-  __AUTH_CONST.__const: 0xb8
+-  __DATA.__bss: 0x540
+-  __DATA.__common: 0x10
++  __AUTH_CONST.__const: 0xd0
++  __DATA.__common: 0x18
++  __DATA.__bss: 0x548
+   __DATA_DIRTY.__data: 0x30
+   - /usr/lib/system/libdyld.dylib
+   - /usr/lib/system/libmacho.dylib
+
+   - /usr/lib/system/libsystem_malloc.dylib
+   - /usr/lib/system/libsystem_platform.dylib
+   - /usr/lib/system/libsystem_pthread.dylib
+-  UUID: 6E66DDB3-442B-3097-9C7F-5BEED2486725
+-  Functions: 197
+-  Symbols:   408
+-  CStrings:  133
++  UUID: 3C8E77CA-623F-3BC1-BAAE-C6D208EDB6E6
++  Functions: 204
++  Symbols:   451
++  CStrings:  129
+ 
+Symbols:
++ _OUTLINED_FUNCTION_0
++ __ZN2vm6createIN5trace13AllocationMapILm1048576EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_
++ __ZN2vm6createIN5trace13AllocationMapILm1048576EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_.cold.1
++ __ZN2vm6createIN5trace13AllocationMapILm1048576EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_.cold.2
++ __ZN2vm6createIN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_
++ __ZN2vm6createIN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_.cold.1
++ __ZN2vm6createIN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEEEJEEEPT_DpOT0_.cold.2
++ __ZN2vm6createIN5trace5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_
++ __ZN2vm6createIN5trace5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_.cold.1
++ __ZN2vm6createIN5trace5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_.cold.2
++ __ZN2vm6createIN5trace5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_
++ __ZN2vm6createIN5trace5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_.cold.1
++ __ZN2vm6createIN5trace5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEEJEEEPT_DpOT0_.cold.2
++ __ZN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEE15addDeallocTraceEmNS_2IdE
++ __ZN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEE15addDeallocTraceEmNS_2IdE.cold.1
++ __ZN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEE6insertEmmNS_2IdE
++ __ZN5trace13AllocationMapILm262144EXadL_ZN4hash7Murmur211hashPointerEmEEE6insertEmmNS_2IdE.cold.1
++ __ZN5trace5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEE11insertTraceEPmm
++ __ZN5trace5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEE11insertTraceEPmm.cold.1
++ __ZN6config3env6Parser11getTrialValILm39EEEPKcS4_RAT__S3_RA128_c
++ __ZN6config3env6Parser8unsetEnvILm39EEEvPPKcRAT__S3_
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.10
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.11
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.12
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.5
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.6
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.7
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.8
++ __ZN9libmalloc12MallocLoggerIXadL_ZL7onAllocmmjEEXadL_ZL9onDeallocmjEEE10loggerFuncEjmmmmj.cold.9
++ __ZNK5trace9CollectorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEXadL_Z11malloc_sizeEEE10shouldSkipINS7_8LazySizeEEEbmRT_
++ __ZNK5trace9ExtractorINS_5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm1048576EXadL_ZNS3_11hashPointerEmEEEEE14retrieveTracesEmR24sanitizers_stack_trace_tS9_.cold.1
++ __ZNK5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEE13diagnoseFaultEm
++ __ZNK5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEE14retrieveTracesERK14AllocationInfoR24sanitizers_stack_trace_tSC_
++ __ZNK5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEE14retrieveTracesERK14AllocationInfoR24sanitizers_stack_trace_tSC_.cold.1
++ __ZNK5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEE14retrieveTracesEmR24sanitizers_stack_trace_tS9_
++ __ZNK5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEE14retrieveTracesEmR24sanitizers_stack_trace_tS9_.cold.1
++ __ZNK6config3env6Parser10getSettingILm39EbLm1EEET0_RAT__KcS3_RAT1__KNS1_7SettingIS3_EE
++ __ZNK6config3env6Parser6getValILm39EEEPKcRAT__S3_
++ __ZTVN5trace9ExtractorINS_5DepotILm65536ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm262144EXadL_ZNS3_11hashPointerEmEEEEEE
+- __ZN12MemoryReader4readEmm
+- __ZN12MemoryReader4readEmm.cold.1
+- __ZN4hash7Murmur212hashPointersE10array_viewImE
+- __ZN5trace19initTraceCollectionERKN6config6TracesE.cold.2
+- __ZN5trace19initTraceCollectionERKN6config6TracesE.cold.3
+- __ZN5trace19initTraceCollectionERKN6config6TracesE.cold.4
+- __ZN5trace19initTraceCollectionERKN6config6TracesE.cold.5
+- __ZNK5trace13AllocationMapILm1048576EXadL_ZN4hash7Murmur211hashPointerEmEEE3getEm
+- __ZNK5trace13AllocationMapILm1048576EXadL_ZN4hash7Murmur211hashPointerEmEEE3getEm.cold.1
+- __ZNK5trace5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEE12forEachFrameIZNKS3_13retrieveTraceENS_2IdERA64_mEUlmmE_EEvNS3_5EntryET_
+- __ZNK5trace5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEE13retrieveTraceENS_2IdERA64_m
+- __ZNK5trace9ExtractorINS_5DepotILm524288ELm64ELm8EN4hash7Murmur2EXadL_Z16thread_stack_pcsEEEENS_13AllocationMapILm1048576EXadL_ZNS3_11hashPointerEmEEEEE19diagnoseMemoryErrorEmR25sanitizers_memory_error_t
+- __ZNK9BlockInfo11absDistanceEm
+- __ZNK9BlockInfo12endInclusiveEv
+- __ZNK9BlockInfo12endInclusiveEv.cold.1
+CStrings:
++ "Failed to load `sanitizers_report_globals`"
++ "Failed to load trace depot and/or allocation map"
++ "No traces were collected, use env var `SanitizersAllocationTraces={all,tagged}` to enable"
++ "SanitizersAllocationTracesMemoryBudget"
++ "production"
+- "count < MaxCount"
+- "endInclusive"
+- "failed to load `sanitizers_report_globals`"
+- "failed to load trace depot and/or allocation map"
+- "isValid()"
+- "memory_reader.h"
+- "no traces were collected, use env var `SanitizersAllocationTraces={all,tagged}` to enable"
+- "read"
+- "types.h"
+
+```

@@ -1,0 +1,313 @@
+## IntelligencePlatformQuery
+
+> `/System/Library/PrivateFrameworks/IntelligencePlatformQuery.framework/IntelligencePlatformQuery`
+
+```diff
+
+-192.0.0.0.0
+-  __TEXT.__text: 0x2e8b70
+-  __TEXT.__auth_stubs: 0x1ae0
++195.0.0.0.0
++  __TEXT.__text: 0x2ec240
++  __TEXT.__auth_stubs: 0x1af0
+   __TEXT.__objc_methlist: 0x3ec
+-  __TEXT.__const: 0xabf64
+-  __TEXT.__cstring: 0x2de67
++  __TEXT.__const: 0xac0d4
++  __TEXT.__cstring: 0x2e1e7
+   __TEXT.__oslogstring: 0x8ca
+-  __TEXT.__swift5_typeref: 0x5032
+-  __TEXT.__swift5_fieldmd: 0xb520
+-  __TEXT.__constg_swiftt: 0xb12c
+-  __TEXT.__swift5_builtin: 0xa0
+-  __TEXT.__swift5_reflstr: 0x6621
+-  __TEXT.__swift5_assocty: 0xd90
+-  __TEXT.__swift5_proto: 0x20b0
+-  __TEXT.__swift5_types: 0x814
++  __TEXT.__swift5_typeref: 0x5142
++  __TEXT.__swift5_fieldmd: 0xb648
++  __TEXT.__constg_swiftt: 0xb224
++  __TEXT.__swift5_builtin: 0xb4
++  __TEXT.__swift5_reflstr: 0x6721
++  __TEXT.__swift5_assocty: 0xdc0
++  __TEXT.__swift5_proto: 0x20bc
++  __TEXT.__swift5_types: 0x828
+   __TEXT.__swift5_capture: 0xd0
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__unwind_info: 0x8858
+-  __TEXT.__eh_frame: 0xf320
++  __TEXT.__swift5_mpenum: 0x3c
++  __TEXT.__unwind_info: 0x8908
++  __TEXT.__eh_frame: 0xf5a8
+   __TEXT.__objc_classname: 0x86
+-  __TEXT.__objc_methname: 0x94b
++  __TEXT.__objc_methname: 0x956
+   __TEXT.__objc_methtype: 0x2b9
+   __TEXT.__objc_stubs: 0x1e0
+   __DATA_CONST.__got: 0x2f0
+-  __DATA_CONST.__const: 0x28938
+-  __DATA_CONST.__objc_classlist: 0x408
++  __DATA_CONST.__const: 0x288f8
++  __DATA_CONST.__objc_classlist: 0x420
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x338
++  __DATA_CONST.__objc_selrefs: 0x340
+   __DATA_CONST.__objc_protorefs: 0x50
+-  __AUTH_CONST.__auth_got: 0xd78
+-  __AUTH_CONST.__const: 0x11a88
++  __AUTH_CONST.__auth_got: 0xd80
++  __AUTH_CONST.__const: 0x11b68
+   __AUTH_CONST.__cfstring: 0x80
+-  __AUTH_CONST.__objc_const: 0xa5f8
+-  __AUTH.__objc_data: 0xfd0
+-  __AUTH.__data: 0x5488
++  __AUTH_CONST.__objc_const: 0xa958
++  __AUTH.__objc_data: 0x1020
++  __AUTH.__data: 0x5738
+   __AUTH.__thread_vars: 0x348
+   __AUTH.__thread_data: 0xf4
+   __AUTH.__thread_bss: 0x458
+   __DATA.__objc_ivar: 0x4
+-  __DATA.__data: 0x6080
++  __DATA.__data: 0x60f0
+   __DATA.__bss: 0x3e280
+-  __DATA.__common: 0x1b32
++  __DATA.__common: 0x1b42
+   __DATA_DIRTY.__objc_data: 0x1400
+-  __DATA_DIRTY.__data: 0x10898
++  __DATA_DIRTY.__data: 0x108a8
+   __DATA_DIRTY.__bss: 0x2390
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/libsqlite3.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 78681C7F-3E1F-3158-8ADD-288AFE276090
+-  Functions: 13828
+-  Symbols:   49021
+-  CStrings:  7971
++  UUID: E85A283D-7FED-3180-B7CF-BE434D279D99
++  Functions: 13906
++  Symbols:   49252
++  CStrings:  7996
+ 
+Symbols:
++ _$s12BiomeStreams24IntelligencePlatformViewP0cD5QueryE17searchableColumns33_8AFA1FF9F43404903EFE26D32B0D3DF2LLSaySSGvgZ
++ _$s12BiomeStreams24IntelligencePlatformViewP0cD5QueryE23subjectIdentifierColumn33_8AFA1FF9F43404903EFE26D32B0D3DF2LLSSSgvgZ
++ _$s12BiomeStreams24IntelligencePlatformViewP9configStrSSvgZTj
++ _$s25IntelligencePlatformQuery12VirtualTableO0E0PAAE8tearDownyyKFAC6SearchOADC_Ttg5
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C12createCursorAE0H0CyKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C12searchSchema12BiomeStreams15LibraryArtifactOAFVvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C14candidatePlansSaySayAE0F9PredicateOGGvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C17searchableColumnsSay12BiomeStreams15LibraryArtifactO6ColumnVGvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C20identifierColumnNameSSvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C4nameSSvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C4view12BiomeStreams0aB4View_pXpvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C6module9tableName4viewAgE6ModuleC_SS12BiomeStreams0aB4View_pXptKcfCTq
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C6module9tableName4viewAgE6ModuleC_SS12BiomeStreams0aB4View_pXptKcfc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C6moduleAE6ModuleCvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C9bestIndex9indexInfoySo08sqlite3_I5_infoVz_tKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C9createSQLSSvg
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C9createSQLSSvpMV
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfA6CursorAcFP_AcHPWT
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfAMA
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfAMc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfAWP
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfacFP12createCursor0H0QzyKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfacFP8tearDownyyKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfacFP9bestIndex9indexInfoySo08sqlite3_I5_infoVz_tKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfacFP9createSQLSSvgTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMU
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMa
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMf
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMl
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMm
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMn
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMo
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMr
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CMu
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CN
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CfD
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0E0Cfd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOMB
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOMF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOMa
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOMf
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOMn
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateON
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOWV
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOwet
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOwst
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOwug
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOwui
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOwup
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC15searchStatements13OpaquePointerVSgvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC3eofSbyKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC4nextyyKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC5rowIds5Int64VyKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC5tableAE0E0CvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC6column7context5indexys13OpaquePointerV_SitKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC6filter6idxNum0I3Str4argsys5Int32V_SSSgSays13OpaquePointerVGtKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC6isDoneSbvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC7ipsqlDb5tableAgA13SQLConnectionC_AE0E0CtcfCTq
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC7ipsqlDb5tableAgA13SQLConnectionC_AE0E0Ctcfc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC7ipsqlDbAA13SQLConnectionCvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfAMc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfAWP
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfacFP3eofSbyKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfacFP4nextyyKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfacFP5rowIds5Int64VyKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfacFP6column7context5indexys13OpaquePointerV_SitKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCAcfacFP6filter6idxNum0I3Str4argsys5Int32V_SSSgSays13OpaquePointerVGtKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMa
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMf
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMm
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMn
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMo
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCMu
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCN
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCfD
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorCfd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC06createE05using12databaseName05tableK04argsAE0E0CSS_S2SSaySSGtKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC06createE7Initial5using12databaseName05tableL04argsAE0E0CSS_S2SSaySSGtKF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleNameSSvg
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleNameSSvpMV
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleNameSSvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleTypeAC0eI0Ovg
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleTypeAC0eI0OvpMV
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC10moduleTypeAC0eI0OvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC6tablesSDySSAE0E0CGvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC7ipsqlDbAA13SQLConnectionCvpWvd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC7ipsqlDbAgA13SQLConnectionC_tcfC
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC7ipsqlDbAgA13SQLConnectionC_tcfCTj
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC7ipsqlDbAgA13SQLConnectionC_tcfCTq
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC7ipsqlDbAgA13SQLConnectionC_tcfc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfA0E0AcFP_AcHPWT
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfAMA
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfAMc
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfAWP
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfacFP06createE05using12databaseName05tableK04args0E0QzSS_S2SSaySSGtKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfacFP06createE7Initial5using12databaseName05tableL04args0E0QzSS_S2SSaySSGtKFTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfacFP10moduleNameSSvgTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfacFP10moduleTypeAC0eI0OvgTW
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMa
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMf
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMm
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMn
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMo
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCMu
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCN
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCfD
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCfd
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchOMF
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchOMa
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchOMf
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchOMn
++ _$s25IntelligencePlatformQuery12VirtualTableO6SearchON
++ _$s25IntelligencePlatformQuery13SQLConnectionC12addTokenizer10apiHandlerxxSPySo05fts5_G0VGKXE_tlF
++ _$s25IntelligencePlatformQuery13SQLConnectionC12addTokenizer10apiHandlerxxSPySo05fts5_G0VGKXE_tlFAA016Unicode61WrapperF13DataReferenceC_Tg504$s25ab7Query13d13C26addUnicodek29TokenizeryyFAA09Unicode61gH13lm12CSPySo8fts5_G7VGKcfu_Tf1cn_n
++ _$s25IntelligencePlatformQuery13SQLConnectionC5ErrorO16missingParameteryAESS_SStcAEmFWC
++ _$sSDySSypGMD
++ _$sSDyq_SgxcigSS_ypTg5
++ _$sSS6column_SS4termtMD
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFSay25IntelligencePlatformQuery12VirtualTableO6SearchO0M9PredicateOG_Tg5
++ _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFSay25IntelligencePlatformQuery12VirtualTableO6SearchO0M9PredicateOG_Tg5
++ _$sSay25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateOGMD
++ _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSaySSG_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF25IntelligencePlatformQuery12VirtualTableO6SearchO0T9PredicateO_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS6column_SS4termt_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay25IntelligencePlatformQuery12VirtualTableO6SearchO0T9PredicateOG_Tg5
++ _$ss13OpaquePointerVSgMD
++ _$ss17_NativeDictionaryV8setValue_6forKey8isUniqueyq_n_xSbtFSS_25IntelligencePlatformQuery12VirtualTableO15StreamTombstoneO0M0CTg5
++ _$ss17_NativeDictionaryVySS25IntelligencePlatformQuery12VirtualTableO6SearchO0G0CGMD
++ _$ss23_ContiguousArrayStorageCy25IntelligencePlatformQuery12VirtualTableO6SearchO0I9PredicateOGMD
++ _$ss23_ContiguousArrayStorageCySS6column_SS4termtGMD
++ _$ss23_ContiguousArrayStorageCySay25IntelligencePlatformQuery12VirtualTableO6SearchO0I9PredicateOGGMD
++ __DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search5Table
++ __DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Cursor
++ __DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Module
++ __IVARS__TtCOO25IntelligencePlatformQuery12VirtualTable6Search5Table
++ __IVARS__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Cursor
++ __IVARS__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Module
++ __METACLASS_DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search5Table
++ __METACLASS_DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Cursor
++ __METACLASS_DATA__TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Module
++ _associated conformance 25IntelligencePlatformQuery12VirtualTableO6SearchO0E0CAcfA6CursorAcFP_AcH
++ _associated conformance 25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleCAcfA0E0AcFP_AcH
++ _symbolic SDySS_____G 25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C
++ _symbolic SDySSypG
++ _symbolic SS6column_SS4termt
++ _symbolic SS9parameter_SS7contextt
++ _symbolic SaySay_____GG 25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateO
++ _symbolic Say_____G 12BiomeStreams15LibraryArtifactO6ColumnV
++ _symbolic Say_____G 25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateO
++ _symbolic Si11columnIndex_Si03argB0t
++ _symbolic Si8argIndex_t
++ _symbolic _____ 25IntelligencePlatformQuery12VirtualTableO6SearchO
++ _symbolic _____ 25IntelligencePlatformQuery12VirtualTableO6SearchO0E0C
++ _symbolic _____ 25IntelligencePlatformQuery12VirtualTableO6SearchO0F9PredicateO
++ _symbolic _____ 25IntelligencePlatformQuery12VirtualTableO6SearchO6CursorC
++ _symbolic _____ 25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC
++ _symbolic _____Xo 25IntelligencePlatformQuery12VirtualTableO6SearchO6ModuleC
++ _symbolic _____ySS6column_SS4termtG s23_ContiguousArrayStorageC
++ _symbolic _____ySS_____G s17_NativeDictionaryV 25IntelligencePlatformQuery12VirtualTableO6SearchO0G0C
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 25IntelligencePlatformQuery12VirtualTableO6SearchO0I9PredicateO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 25IntelligencePlatformQuery12VirtualTableO6SearchO0I9PredicateO
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_BiomeSQLParser
+- __swift_FORCE_LOAD_$_swiftDarwin_$_IntelligencePlatformQuery
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_BiomeSQLParser
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_IntelligencePlatformQuery
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_BiomeSQLParser
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_IntelligencePlatformQuery
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_BiomeSQLParser
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_IntelligencePlatformQuery
+CStrings:
++ " is not searchable"
++ " unexpected column "
++ ", view metadata columns: "
++ ": column is not a string. Search statement: "
++ "Could not create custom tokenizer. Error: "
++ "Invalid argument type. Expecting String"
++ "Missing parameter "
++ "No valid view argument provided"
++ "SELECT *, rank\nFROM "
++ "Search virtual table: invalid search predicates"
++ "Search virtual table: search term is a hidden column"
++ "Search virtual table: view "
++ "Search virtual table: view metadata: "
++ "UTF8String"
++ "When processing column: "
++ "_TtCOO25IntelligencePlatformQuery12VirtualTable6Search5Table"
++ "_TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Cursor"
++ "_TtCOO25IntelligencePlatformQuery12VirtualTable6Search6Module"
++ "candidatePlans"
++ "identifierColumnName"
++ "isDone"
++ "searchSchema"
++ "searchStatement"
++ "searchStatement is nil"
++ "searchableColumns"
++ "subjectIdentifierColumn"
+- "Could not create unicode61wrapper Tokenizer. Error: "
+
+```

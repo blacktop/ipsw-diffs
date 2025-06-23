@@ -1,0 +1,557 @@
+## QueryParser
+
+> `/System/Library/PrivateFrameworks/QueryParser.framework/QueryParser`
+
+```diff
+
+-2374.0.1.0.0
+-  __TEXT.__text: 0xa5154
+-  __TEXT.__auth_stubs: 0x1a40
++2381.0.1.0.0
++  __TEXT.__text: 0xa6ec8
++  __TEXT.__auth_stubs: 0x1a70
+   __TEXT.__objc_methlist: 0x8e4
+-  __TEXT.__const: 0x15be
+-  __TEXT.__gcc_except_tab: 0xc0f4
+-  __TEXT.__oslogstring: 0x31b6
+-  __TEXT.__cstring: 0x9560
++  __TEXT.__const: 0x15ce
++  __TEXT.__gcc_except_tab: 0xc234
++  __TEXT.__oslogstring: 0x3481
++  __TEXT.__cstring: 0x960f
+   __TEXT.__ustring: 0x10a
+   __TEXT.__dlopen_cstrs: 0x41
+-  __TEXT.__unwind_info: 0x3478
++  __TEXT.__unwind_info: 0x34f0
+   __TEXT.__objc_classname: 0xeb
+-  __TEXT.__objc_methname: 0x2649
++  __TEXT.__objc_methname: 0x2684
+   __TEXT.__objc_methtype: 0x469
+-  __TEXT.__objc_stubs: 0x2b40
++  __TEXT.__objc_stubs: 0x2b80
+   __DATA_CONST.__got: 0x440
+-  __DATA_CONST.__const: 0x2478
++  __DATA_CONST.__const: 0x24f8
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x18
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc40
++  __DATA_CONST.__objc_selrefs: 0xc50
+   __DATA_CONST.__objc_superrefs: 0x38
+-  __DATA_CONST.__objc_arraydata: 0x1b30
+-  __AUTH_CONST.__auth_got: 0xd38
+-  __AUTH_CONST.__const: 0x1d18
+-  __AUTH_CONST.__cfstring: 0xdb60
++  __DATA_CONST.__objc_arraydata: 0x1b28
++  __AUTH_CONST.__auth_got: 0xd50
++  __AUTH_CONST.__const: 0x1d28
++  __AUTH_CONST.__cfstring: 0xdd40
+   __AUTH_CONST.__objc_const: 0x1058
+-  __AUTH_CONST.__objc_arrayobj: 0x2a0
++  __AUTH_CONST.__objc_arrayobj: 0x288
+   __AUTH_CONST.__objc_intobj: 0x15c0
+   __AUTH_CONST.__objc_dictobj: 0xf0
+-  __AUTH_CONST.__objc_doubleobj: 0xf0
++  __AUTH_CONST.__objc_doubleobj: 0x150
+   __AUTH.__objc_data: 0xf0
+   __DATA.__objc_ivar: 0xbc
+-  __DATA.__data: 0xb50
+-  __DATA.__bss: 0x290
++  __DATA.__data: 0xb68
++  __DATA.__bss: 0x2b8
+   __DATA_DIRTY.__objc_data: 0x230
+   __DATA_DIRTY.__data: 0x70
+-  __DATA_DIRTY.__bss: 0x2b0
++  __DATA_DIRTY.__bss: 0x298
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 42DE5E27-8169-3709-B939-CBBA391606CB
+-  Functions: 2232
+-  Symbols:   8113
+-  CStrings:  4595
++  UUID: DE148414-B905-365A-B067-DC4CCF6C67A9
++  Functions: 2254
++  Symbols:   8218
++  CStrings:  4636
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table117
++ GCC_except_table118
++ GCC_except_table119
++ GCC_except_table130
++ GCC_except_table135
++ GCC_except_table141
++ GCC_except_table167
++ GCC_except_table187
++ GCC_except_table190
++ GCC_except_table221
++ GCC_except_table226
++ GCC_except_table227
++ GCC_except_table228
++ GCC_except_table231
++ GCC_except_table239
++ GCC_except_table241
++ GCC_except_table242
++ GCC_except_table246
++ GCC_except_table248
++ GCC_except_table259
++ GCC_except_table267
++ GCC_except_table270
++ GCC_except_table280
++ GCC_except_table300
++ GCC_except_table317
++ GCC_except_table321
++ GCC_except_table322
++ GCC_except_table326
++ GCC_except_table327
++ GCC_except_table338
++ GCC_except_table354
++ GCC_except_table358
++ _CFStringGetCStringPtr
++ _CFURLResourceIsReachable
++ _SILanguagesGetLanguageID
++ __ZL18s3rTestEnvironment
++ __ZN2QP13ParserGrammar13loadResourcesEb.cold.1
++ __ZN2QP13ParserGrammar24loadRankingPhraseWeightsEPK14__CFDictionaryPK10__CFString
++ __ZN2QP13ParserGrammar25loadParserGrammarResourceEPK7__CFURLb.cold.1
++ __ZN2QP13ParserGrammar25loadParserGrammarResourceEPK7__CFURLb.cold.2
++ __ZN2QP13ParserGrammar25loadParserGrammarResourceEPK7__CFURLb.cold.3
++ __ZN2QP17QueryParserEngine14bplistFilenameEv
++ __ZN2QP17QueryParserEngine15updateResourcesEv.cold.4
++ __ZN2QP17QueryParserEngine15updateResourcesEv.cold.5
++ __ZN2QP17QueryParserEngine15updateResourcesEv.cold.6
++ __ZN2QP17QueryParserEngine17loadAssetsWithURLEPK10__CFLocalePK7__CFURL.cold.2
++ __ZN2QP17QueryParserEngine17loadAssetsWithURLEPK10__CFLocalePK7__CFURL.cold.3
++ __ZN2QP17QueryParserEngine17loadAssetsWithURLEPK10__CFLocalePK7__CFURL.cold.4
++ __ZN2QP17QueryParserEngine24enumerateDateRangeParsesEPK14__CFDictionaryPK10__CFStringS3_S6_S3_U13block_pointerFvS3_PbE
++ __ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary
++ __ZN2QP18SpotlightFormatter24addDisplayParseAttributeENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEEiRN3nlp11CFScopedPtrIPK10__CFStringEERNS8_IP14__CFDictionaryEERSB_RNS8_IP9__CFArrayEERKSC_SO_SO_
++ __ZN2QP18SpotlightFormatter26getGroundedStartAndEndDateENSt3__110shared_ptrINS_10DatePeriodEEERN3nlp11CFScopedPtrIPK10__CFStringEESB_Ri
++ __ZN2QP19ParserConfiguration12setS3RTestIDEPK10__CFString
++ __ZN2QP19ParserConfiguration17setS3RTestVersionEPK10__CFString
++ __ZN2QP19ParserConfiguration23setIsMissingAnnotationsEPK11__CFBoolean
++ __ZN2QP19ParserConfiguration24setS3RTestingEnvironmentEPK11__CFBoolean
++ __ZN2QP5Lexer17loadLexerResourceEPK7__CFURL.cold.1
++ __ZN2QP5Lexer17loadLexerResourceEPK7__CFURL.cold.2
++ __ZN2QP5Lexer17loadLexerResourceEPK7__CFURL.cold.3
++ __ZN2QP6Parser12mergeNumbersERNSt3__16vectorINS1_10shared_ptrINS_14ParseAttributeEEENS1_9allocatorIS5_EEEE
++ __ZN2QP6Parser5mergeERNSt3__16vectorINS1_10shared_ptrINS_14ParseAttributeEEENS1_9allocatorIS5_EEEERNS2_INS3_INS_6LexemeEEENS6_ISB_EEEEb
++ __ZN2QP9Formatter21loadFormatterResourceEPK7__CFURL.cold.1
++ __ZN2QP9Formatter21loadFormatterResourceEPK7__CFURL.cold.2
++ __ZN2QP9Formatter21loadFormatterResourceEPK7__CFURL.cold.3
++ __ZN2QP9LLMParser12addParseAttrEPK10__CFStringS3_S3_RNSt3__13mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS5_ISB_NS4_3setISB_NS4_4lessISB_EENS9_ISB_EEEESE_NS9_INS4_4pairIKSB_SG_EEEEEESE_NS9_INSH_ISI_SL_EEEEEES3_l7CFRangeRNS4_6vectorINS4_10shared_ptrINS_14ParseAttributeEEENS9_ISU_EEEEPK9__CFArrayS10_PK14__CFDictionaryb
++ __ZN2QP9LLMParser12addParseAttrEPK10__CFStringS3_S3_RNSt3__13mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS5_ISB_NS4_3setISB_NS4_4lessISB_EENS9_ISB_EEEESE_NS9_INS4_4pairIKSB_SG_EEEEEESE_NS9_INSH_ISI_SL_EEEEEES3_l7CFRangeRNS4_6vectorINS4_10shared_ptrINS_14ParseAttributeEEENS9_ISU_EEEEPK9__CFArrayS10_PK14__CFDictionaryb.cold.1
++ __ZN2QP9LLMParser12addTokenInfoEPK10__CFStringS3_S3_S3_S3_7CFRangePlPK10__CFLocalePK9__CFArraylPS9_bSB_b
++ __ZN2QP9LLMParser5parseEPK14__CFDictionarybU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE
++ __ZN2QP9LLMParser5parseEPK14__CFDictionarybU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE.cold.1
++ __ZN2QP9LLMParser5parseEPK14__CFDictionarybU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE.cold.2
++ __ZN2QP9LLMParser5parseEPK14__CFDictionarybU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE.cold.3
++ __ZNKSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE4findIS7_EENS_21__tree_const_iteratorISA_PNS_11__tree_nodeISA_PvEElEERKT_
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEENS_4pairIffEEEEPvEEEEEclB8ne200100EPSD_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE12__find_equalIS7_EERPNS_16__tree_node_baseIPvEERPNS_15__tree_end_nodeISL_EERKT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__construct_nodeIJRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSL_IJEEEEEENS_10unique_ptrINS_11__tree_nodeISA_PvEENS_22__tree_node_destructorINS5_IST_EEEEEEDpOT_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSL_SL_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE25__emplace_unique_key_argsIS7_JRKNS_21piecewise_construct_tENS_5tupleIJRKS7_EEENSL_IJEEEEEENS8_INS_15__tree_iteratorISA_PNS_11__tree_nodeISA_PvEElEEbEERKT_DpOT0_
++ __ZNSt3__16__treeINS_12__value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_4pairIffEEEENS_19__map_value_compareIS7_SA_NS_4lessIS7_EELb1EEENS5_ISA_EEE7destroyEPNS_11__tree_nodeISA_PvEE
++ __ZZL15formatterLoggervE3log
++ __ZZL15formatterLoggervE5token
++ __ZZN2QP5Lexer28selectKnowledgeSourceLexemesEPK7CFRangelbE15onceIgnoreToken
++ __ZZN2QPL19priorityIDForStringEPK10__CFStringE17oncePriorityToken
++ __ZZN2QPL19priorityIDForStringEPK10__CFStringE20sPriorityAnnotations
++ ___Block_byref_object_copy_.354
++ ___Block_byref_object_copy_.356
++ ___Block_byref_object_copy_.358
++ ___Block_byref_object_copy_.360
++ ___Block_byref_object_copy_.362
++ ___Block_byref_object_copy_.368
++ ___Block_byref_object_copy_.377
++ ___Block_byref_object_copy_.391
++ ___Block_byref_object_copy_.564
++ ___Block_byref_object_copy_.592
++ ___Block_byref_object_dispose_.355
++ ___Block_byref_object_dispose_.357
++ ___Block_byref_object_dispose_.359
++ ___Block_byref_object_dispose_.361
++ ___Block_byref_object_dispose_.363
++ ___Block_byref_object_dispose_.369
++ ___Block_byref_object_dispose_.378
++ ___Block_byref_object_dispose_.392
++ ___Block_byref_object_dispose_.565
++ ___Block_byref_object_dispose_.593
++ ____ZL15formatterLoggerv_block_invoke
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.311
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.313
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.315
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.314
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.314.cold.1
++ ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.314.cold.2
++ ____ZN2QP17QueryParserEngine11parseStringEPK10__CFStringPK14__CFDictionarybbbbbby_block_invoke.56
++ ____ZN2QP17QueryParserEngine11parseStringEPK10__CFStringPK14__CFDictionarybbbbbby_block_invoke.59
++ ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke.350
++ ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke.365
++ ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_2.368
++ ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_3.370
++ ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_4.376
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke.185
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke_2
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke_2.186
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke_3
++ ____ZN2QP18SpotlightFormatter23getGroundedTranslationsENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEERKN3nlp11CFScopedPtrIPK10__CFStringEESE_RSB_RNS8_IP9__CFArrayEESJ_hPK14__CFDictionary_block_invoke_4
++ ____ZN2QP18SpotlightFormatter24addDisplayParseAttributeENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEEiRN3nlp11CFScopedPtrIPK10__CFStringEERNS8_IP14__CFDictionaryEERSB_RNS8_IP9__CFArrayEERKSC_SO_SO__block_invoke
++ ____ZN2QP18SpotlightFormatter24addDisplayParseAttributeENSt3__110shared_ptrINS_14ParseAttributeEEENS2_INS_10DatePeriodEEEiRN3nlp11CFScopedPtrIPK10__CFStringEERNS8_IP14__CFDictionaryEERSB_RNS8_IP9__CFArrayEERKSC_SO_SO__block_invoke_2
++ ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke.424
++ ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_2.426
++ ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_3.428
++ ____ZN2QP5Lexer28selectKnowledgeSourceLexemesEPK7CFRangelb_block_invoke_3.cold.2
++ ____ZN2QP8U2Parser13parseInternalENSt3__110shared_ptrINS_5ParseEEEPK14__CFDictionary_block_invoke.494
++ ____ZN2QP9LLMParser12addTokenInfoEPK10__CFStringS3_S3_S3_S3_7CFRangePlPK10__CFLocalePK9__CFArraylPS9_bSB_b_block_invoke
++ ____ZN2QPL16newModifiedTokenEP10NSIndexSetPU32objcproto21QUUnderstandingOutput11objc_object_block_invoke.598
++ ____ZN2QPL19priorityIDForStringEPK10__CFString_block_invoke
++ ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringlP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke
++ ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringlP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke.cold.1
++ ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringlP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke.cold.2
++ ___block_descriptor_72_ea8_32s40r48r_e45_v24?0"<QUUnderstandingOutput>"8"NSError"16lr40l8r48l8s32l8
++ ___block_descriptor_tmp.1046
++ ___block_descriptor_tmp.1047
++ ___block_descriptor_tmp.1048
++ ___block_descriptor_tmp.1049
++ ___block_descriptor_tmp.1050
++ ___block_descriptor_tmp.1051
++ ___block_descriptor_tmp.1052
++ ___block_descriptor_tmp.113
++ ___block_descriptor_tmp.151
++ ___block_descriptor_tmp.181
++ ___block_descriptor_tmp.182
++ ___block_descriptor_tmp.184
++ ___block_descriptor_tmp.187
++ ___block_descriptor_tmp.188
++ ___block_descriptor_tmp.195
++ ___block_descriptor_tmp.202
++ ___block_descriptor_tmp.218
++ ___block_descriptor_tmp.252
++ ___block_descriptor_tmp.313
++ ___block_descriptor_tmp.317
++ ___block_descriptor_tmp.339
++ ___block_descriptor_tmp.349
++ ___block_descriptor_tmp.367
++ ___block_descriptor_tmp.369
++ ___block_descriptor_tmp.371
++ ___block_descriptor_tmp.389
++ ___block_descriptor_tmp.390
++ ___block_descriptor_tmp.396
++ ___block_descriptor_tmp.417
++ ___block_descriptor_tmp.422
++ ___block_descriptor_tmp.423
++ ___block_descriptor_tmp.427
++ ___block_descriptor_tmp.429
++ ___block_descriptor_tmp.443
++ ___block_descriptor_tmp.444
++ ___block_descriptor_tmp.460
++ ___block_descriptor_tmp.479
++ ___block_descriptor_tmp.49
++ ___block_descriptor_tmp.544
++ ___block_descriptor_tmp.58
++ ___block_descriptor_tmp.60
++ ___block_descriptor_tmp.62
++ ___block_literal_global.115
++ ___block_literal_global.134
++ ___block_literal_global.148
++ ___block_literal_global.151
++ ___block_literal_global.157
++ ___block_literal_global.309
++ ___block_literal_global.314
++ ___block_literal_global.325
++ ___block_literal_global.341
++ ___block_literal_global.407
++ ___block_literal_global.409
++ ___block_literal_global.411
++ ___block_literal_global.413
++ ___block_literal_global.415
++ ___block_literal_global.417
++ ___block_literal_global.419
++ ___block_literal_global.421
++ ___block_literal_global.423
++ ___block_literal_global.481
++ ___block_literal_global.524
++ ___block_literal_global.546
++ ___block_literal_global.563
++ ___copy_helper_block_e8_40c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___copy_helper_block_e8_48c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE104c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___copy_helper_block_e8_48c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE96c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___copy_helper_block_e8_80c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___destroy_helper_block_e8_40c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___destroy_helper_block_e8_48c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE104c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___destroy_helper_block_e8_48c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE96c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ ___destroy_helper_block_e8_80c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
++ _copyEmbeddingDataForS3RTestID
++ _copyEmbeddingDataForS3RTestID.cold.1
++ _copyEmbeddingDataForS3RTestID.cold.2
++ _copyEmbeddingDataForS3RTestID.cold.3
++ _copyEmbeddingDataForS3RTestID.cold.4
++ _copyEmbeddingDataForS3RTestID.cold.5
++ _kQPParseAttributeExtensionKey
++ _kQPParseAttributeNumberExtensionKey
++ _kQPQUOutputTokenPhraseWeightsKey
++ _objc_msgSend$getUnderstandingForQueryString:queryID:spans:intentHint:withCompletionHandler:
++ _objc_msgSend$initWithBase64EncodedString:options:
++ _objc_msgSend$stringForKey:
+- GCC_except_table109
+- GCC_except_table111
+- GCC_except_table132
+- GCC_except_table147
+- GCC_except_table165
+- GCC_except_table168
+- GCC_except_table19
+- GCC_except_table193
+- GCC_except_table197
+- GCC_except_table199
+- GCC_except_table201
+- GCC_except_table218
+- GCC_except_table219
+- GCC_except_table244
+- GCC_except_table249
+- GCC_except_table256
+- GCC_except_table264
+- GCC_except_table272
+- GCC_except_table284
+- GCC_except_table301
+- GCC_except_table313
+- GCC_except_table314
+- GCC_except_table318
+- GCC_except_table319
+- GCC_except_table330
+- GCC_except_table334
+- GCC_except_table346
+- GCC_except_table94
+- __ZN2QP17QueryParserEngine24enumerateDateRangeParsesEPK10__CFStringPK14__CFDictionaryS3_S6_U13block_pointerFvS6_PbE
+- __ZN2QP17QueryParserEngine9setStringEPK10__CFStringPK14__CFDictionarybbbbb.cold.6
+- __ZN2QP19ParserConfiguration19setCanUseEmbeddingsEPK11__CFBoolean
+- __ZN2QP9LLMParser12addParseAttrEPK10__CFStringS3_S3_RNSt3__13mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS5_ISB_NS4_3setISB_NS4_4lessISB_EENS9_ISB_EEEESE_NS9_INS4_4pairIKSB_SG_EEEEEESE_NS9_INSH_ISI_SL_EEEEEERNS5_ISB_SB_SE_NS9_INSH_ISI_SB_EEEEEEl7CFRangeRNS4_6vectorINS4_10shared_ptrINS_14ParseAttributeEEENS9_ISY_EEEEPK9__CFArrayS14_PK14__CFDictionaryb
+- __ZN2QP9LLMParser12addParseAttrEPK10__CFStringS3_S3_RNSt3__13mapINS4_12basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEENS5_ISB_NS4_3setISB_NS4_4lessISB_EENS9_ISB_EEEESE_NS9_INS4_4pairIKSB_SG_EEEEEESE_NS9_INSH_ISI_SL_EEEEEERNS5_ISB_SB_SE_NS9_INSH_ISI_SB_EEEEEEl7CFRangeRNS4_6vectorINS4_10shared_ptrINS_14ParseAttributeEEENS9_ISY_EEEEPK9__CFArrayS14_PK14__CFDictionaryb.cold.1
+- __ZN2QP9LLMParser12addTokenInfoEPK10__CFStringS3_S3_S3_7CFRangePlPK10__CFLocalePK9__CFArraylPS9_bSB_b
+- __ZN2QP9LLMParser5parseEPK14__CFDictionaryU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE
+- __ZN2QP9LLMParser5parseEPK14__CFDictionaryU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE.cold.1
+- __ZN2QP9LLMParser5parseEPK14__CFDictionaryU13block_pointerFvPK10__CFStringRNSt3__110shared_ptrINS_14ParseAttributeEEElNS7_12basic_stringIcNS7_11char_traitsIcEENS7_9allocatorIcEEEE7CFRangeRNS7_6vectorINS8_INS_6LexemeEEENSF_ISL_EEEEPbE.cold.2
+- __ZN2QPL20isECRSupportedLocaleEP8NSLocale
+- __ZN2QPL20isECRSupportedLocaleEP8NSLocale.cold.1
+- __ZZN2QP5Lexer28selectKnowledgeSourceLexemesEPK7CFRangelbE9onceToken
+- __ZZN2QPL20isECRSupportedLocaleEP8NSLocaleE26supportedLocaleIdentifiers
+- __ZZN2QPL20isECRSupportedLocaleEP8NSLocaleE9onceToken
+- ___Block_byref_object_copy_.357
+- ___Block_byref_object_copy_.359
+- ___Block_byref_object_copy_.361
+- ___Block_byref_object_copy_.363
+- ___Block_byref_object_copy_.365
+- ___Block_byref_object_copy_.374
+- ___Block_byref_object_copy_.394
+- ___Block_byref_object_copy_.534
+- ___Block_byref_object_copy_.562
+- ___Block_byref_object_dispose_.358
+- ___Block_byref_object_dispose_.360
+- ___Block_byref_object_dispose_.362
+- ___Block_byref_object_dispose_.364
+- ___Block_byref_object_dispose_.366
+- ___Block_byref_object_dispose_.375
+- ___Block_byref_object_dispose_.395
+- ___Block_byref_object_dispose_.535
+- ___Block_byref_object_dispose_.563
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.308
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.310
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke.312
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.311
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.311.cold.1
+- ____ZL18queryForAttributesP26_SpotlightKnowledgeContextP8NSStringP7NSArrayS4_S4_S4_b_block_invoke_2.311.cold.2
+- ____ZN2QP17QueryParserEngine11parseStringEPK10__CFStringPK14__CFDictionarybbbbbby_block_invoke.48
+- ____ZN2QP17QueryParserEngine11parseStringEPK10__CFStringPK14__CFDictionarybbbbbby_block_invoke.51
+- ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke.353
+- ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke.368
+- ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_2.371
+- ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_3.373
+- ____ZN2QP18SpotlightFormatter18_parseAttributeKeyENSt3__110shared_ptrINS_14ParseAttributeEEERKNS1_12basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEEtt12QPSymbolFlagPK10__CFStringPK9__CFArraySJ_SG_SG_SG_SG_U13block_pointerFvSG_PSE_EU13block_pointerFvSG_ESO__block_invoke_4.379
+- ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke.427
+- ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_2.429
+- ____ZN2QP18SpotlightFormatter24updateParseWithAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_3.431
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke.194
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke.208
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_2
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_2.195
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_2.231
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_3
+- ____ZN2QP18SpotlightFormatter28updateParseWithDateAttributeEPK10__CFStringNSt3__110shared_ptrINS_14ParseAttributeEEE_block_invoke_4
+- ____ZN2QP8U2Parser13parseInternalENSt3__110shared_ptrINS_5ParseEEEPK14__CFDictionary_block_invoke.464
+- ____ZN2QP9LLMParser12addTokenInfoEPK10__CFStringS3_S3_S3_7CFRangePlPK10__CFLocalePK9__CFArraylPS9_bSB_b_block_invoke
+- ____ZN2QPL16newModifiedTokenEP10NSIndexSetPU32objcproto21QUUnderstandingOutput11objc_object_block_invoke.568
+- ____ZN2QPL20isECRSupportedLocaleEP8NSLocale_block_invoke
+- ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke
+- ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke.cold.1
+- ____ZN2QPL26u2UnderstandingWithTimeoutEPU31objcproto20QUUnderstandingModel11objc_objectPK10__CFStringP7QUSpansP8NSNumberbjPU15__autoreleasingP7NSError_block_invoke.cold.2
+- ___block_descriptor_64_ea8_32s40r48r_e45_v24?0"<QUUnderstandingOutput>"8"NSError"16lr40l8r48l8s32l8
+- ___block_descriptor_tmp.1037
+- ___block_descriptor_tmp.1038
+- ___block_descriptor_tmp.1039
+- ___block_descriptor_tmp.1040
+- ___block_descriptor_tmp.1041
+- ___block_descriptor_tmp.1042
+- ___block_descriptor_tmp.1043
+- ___block_descriptor_tmp.108
+- ___block_descriptor_tmp.190
+- ___block_descriptor_tmp.191
+- ___block_descriptor_tmp.193
+- ___block_descriptor_tmp.196
+- ___block_descriptor_tmp.197
+- ___block_descriptor_tmp.204
+- ___block_descriptor_tmp.215
+- ___block_descriptor_tmp.232
+- ___block_descriptor_tmp.258
+- ___block_descriptor_tmp.319
+- ___block_descriptor_tmp.323
+- ___block_descriptor_tmp.336
+- ___block_descriptor_tmp.352
+- ___block_descriptor_tmp.370
+- ___block_descriptor_tmp.372
+- ___block_descriptor_tmp.374
+- ___block_descriptor_tmp.392
+- ___block_descriptor_tmp.393
+- ___block_descriptor_tmp.399
+- ___block_descriptor_tmp.420
+- ___block_descriptor_tmp.424
+- ___block_descriptor_tmp.426
+- ___block_descriptor_tmp.428
+- ___block_descriptor_tmp.43
+- ___block_descriptor_tmp.432
+- ___block_descriptor_tmp.433
+- ___block_descriptor_tmp.446
+- ___block_descriptor_tmp.447
+- ___block_descriptor_tmp.463
+- ___block_descriptor_tmp.47
+- ___block_descriptor_tmp.475
+- ___block_descriptor_tmp.50
+- ___block_descriptor_tmp.547
+- ___block_descriptor_tmp.65
+- ___block_descriptor_tmp.80
+- ___block_descriptor_tmp.81
+- ___block_descriptor_tmp.82
+- ___block_literal_global.128
+- ___block_literal_global.131
+- ___block_literal_global.214
+- ___block_literal_global.223
+- ___block_literal_global.288
+- ___block_literal_global.293
+- ___block_literal_global.322
+- ___block_literal_global.338
+- ___block_literal_global.401
+- ___block_literal_global.406
+- ___block_literal_global.408
+- ___block_literal_global.410
+- ___block_literal_global.412
+- ___block_literal_global.414
+- ___block_literal_global.416
+- ___block_literal_global.418
+- ___block_literal_global.420
+- ___block_literal_global.477
+- ___block_literal_global.494
+- ___block_literal_global.533
+- ___block_literal_global.549
+- ___copy_helper_block_e8_80c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE112c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- ___copy_helper_block_e8_88c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE112c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- ___copy_helper_block_e8_96c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- ___destroy_helper_block_e8_80c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE112c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- ___destroy_helper_block_e8_88c47_ZTSNSt3__110shared_ptrIN2QP14ParseAttributeEEE112c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- ___destroy_helper_block_e8_96c43_ZTSNSt3__110shared_ptrIN2QP10DatePeriodEEE
+- _objc_msgSend$getUnderstandingForQueryString:spans:intentHint:withCompletionHandler:
+CStrings:
++ "%@d"
++ ".bplist"
++ "ALLOW"
++ "DomainSpecificBPlists"
++ "Formatter::loadFormatterResource"
++ "Lexer::loadLexerResource-"
++ "MD5"
++ "ParserGrammar::loadParserGrammarResource"
++ "Processing plist loaded fromProcessing plist loaded from %s"
++ "QPFormatter"
++ "QueryParserEngine::loadAssetsWithURL"
++ "QueryParserEngine::updateResources"
++ "RANKINGPHRASEWEIGHTS"
++ "S3RTestEnvironment"
++ "[QPNLU] Could not generate embedding data from the given string for test id %@; Not generating any query embeddings"
++ "[QPNLU] Embedding loaded for testID:%@"
++ "[QPNLU] Empty testID string for S3R; Not generating any query embeddings."
++ "[QPNLU][qid=%ld] ARG_LOCATION confidence below threshold, keeping it in embedding string"
++ "[QPNLU][qid=%ld] Cooldown QU model"
++ "[QPNLU][qid=%ld] Lexeme: %@ Type: %@"
++ "[QPNLU][qid=%ld] People Threshold: %f, Location Threshold: %f"
++ "[QPNLU][qid=%ld] Preheat QU model for locale: %@"
++ "[QPNLU][qid=%ld] Skipping parsing using LLMParse for the same queryID"
++ "[QPNLU][qid=%ld] Stripping trailing '.' from input string"
++ "[QPNLU][qid=%ld] U2 parsing timed out"
++ "[QPNLU][qid=%ld] Unable to find a Kind* or Media lexeme for %@; falling back to Text"
++ "[QPNLU][qid=%ld] Unable to use U2: %@"
++ "[QPNLU][qid=%ld] [Recurring Failure] U2 parsing timed out %d times"
++ "[QPNLU][qid=%ld] cannot remove ARG_PERSON because of low confidence"
++ "[QPNLU][qid=%ld] embedding search disabled , part of control"
++ "[QPNLU][qid=%ld] embedding string - (%@)"
++ "[QPNLU][qid=%ld] embedding string length (%ld) less than (%ld)"
++ "[QPNLU][qid=%ld] embedding string tokens count (%ld) less than (%ld)"
++ "[QPNLU][qid=%ld] hasResourcesLoaded hasResources=%d"
++ "[QPNLU][qid=%ld] hasResourcesLoaded u2ResourcesLoaded=%d"
++ "[QPNLU][qid=%ld] lexer string and current string same not parsing"
++ "[QPNLU][qid=%ld] log_query_parse_analytic_event: %s {\n\tprocess: %s\n\\tlocale: %s\ntstatus: %llu\n\tqueryLength: %u\n\ttokenCount: %u\n\ttotalLatency: %.4f\n\tquLatency: %.4f\n\tloadLatency: %.4f\n\tcdmLatency: %.4f\n\tu2Latency: %.4f\n\tecrLatency: %.4f\n\tecrCount: %u\n\tecrErrorCount: %u\n\terrorMessage: %s\n}"
++ "[QPNLU][qid=%ld] no embedding string as public figure token (%@) with non person arg type (%d)"
++ "[QPNLU][qid=%ld] no embedding string as public figure token (%@) with person arg type with low confidence (%f)"
++ "[QPNLU][qid=%ld] not generating query embedding due to missing annotations (lexicon-based safety resources)"
++ "[QPNLU][qid=%ld] personalized embedding: %d"
++ "[QPNLU][qid=%ld] photos semantic search usecase disabled"
++ "[QPNLU][qid=%ld] skipping embedding generation for the same queryID && previous request (error: %d)"
++ "_emb"
++ "da_DK"
++ "getUnderstandingForQueryString:queryID:spans:intentHint:withCompletionHandler:"
++ "initWithBase64EncodedString:options:"
++ "kQPNumberExtension"
++ "kQPQUOutputTokenPhraseWeights"
++ "ko_KR"
++ "nb"
++ "nb_NO"
++ "stringForKey:"
++ "testVersion"
++ "zh_Hant_HK"
+- "[QPNLU] Cooldown QU model"
+- "[QPNLU] Lexeme: %@ Type: %@"
+- "[QPNLU] Preheat QU model for locale: %@"
+- "[QPNLU] Stripping trailing '.' from input string"
+- "[QPNLU] U2 parsing timed out"
+- "[QPNLU] Unable to find a Kind* or Media lexeme for %@; falling back to Text"
+- "[QPNLU] Unable to use U2: %@"
+- "[QPNLU] [Recurring Failure] U2 parsing timed out %d times"
+- "[QPNLU] hasResourcesLoaded hasResources=%d"
+- "[QPNLU] hasResourcesLoaded u2ResourcesLoaded=%d"
+- "[QPNLU] lexer string and current string same not parsing"
+- "[QPNLU][qid=%ld] not generating query embedding due to failed canUseEmbeddings check"
+- "[QPNLU][qid=%ld] skipping embedding generation for the same queryID (error: %d)"
+- "[QPNLU][qid=%ld] skipping parsing the query for the same queryID"
+- "[qid=%ld] ARG_LOCATION confidence below threshold, keeping it in embedding string"
+- "[qid=%ld] People Threshold: %f, Location Threshold: %f"
+- "[qid=%ld] cannot remove ARG_PERSON because of low confidence"
+- "[qid=%ld] embedding search disabled , part of control"
+- "[qid=%ld] embedding string - (%@)"
+- "[qid=%ld] embedding string length (%ld) less than (%ld)"
+- "[qid=%ld] embedding string tokens count (%ld) less than (%ld)"
+- "[qid=%ld] no embedding string as public figure token (%@) with non person arg type (%d)"
+- "[qid=%ld] no embedding string as public figure token (%@) with person arg type with low confidence (%f)"
+- "[qid=%ld] personalized embedding: %d"
+- "getUnderstandingForQueryString:spans:intentHint:withCompletionHandler:"
+- "hour"
+- "log_query_parse_analytic_event: %s {\n\tprocess: %s\n\\tlocale: %s\ntstatus: %llu\n\tqueryLength: %u\n\ttokenCount: %u\n\ttotalLatency: %.4f\n\tquLatency: %.4f\n\tloadLatency: %.4f\n\tcdmLatency: %.4f\n\tu2Latency: %.4f\n\tecrLatency: %.4f\n\tecrCount: %u\n\tecrErrorCount: %u\n\terrorMessage: %s\n}"
+- "minute"
+- "photos semantic search usecase disabled"
+- "second"
+
+```

@@ -1,0 +1,468 @@
+## AppIntentsServices
+
+> `/System/Library/PrivateFrameworks/AppIntentsServices.framework/AppIntentsServices`
+
+```diff
+
+-36.17.0.0.0
+-  __TEXT.__text: 0x2027e8
+-  __TEXT.__auth_stubs: 0x2c40
++36.21.101.0.0
++  __TEXT.__text: 0x204938
++  __TEXT.__auth_stubs: 0x2cb0
+   __TEXT.__objc_methlist: 0x6c4
+-  __TEXT.__const: 0x18f78
+-  __TEXT.__cstring: 0x6811
+-  __TEXT.__constg_swiftt: 0x58f2
+-  __TEXT.__swift5_typeref: 0x64af
+-  __TEXT.__swift5_reflstr: 0x3ba1
+-  __TEXT.__swift5_fieldmd: 0x5820
+-  __TEXT.__swift5_builtin: 0x320
+-  __TEXT.__swift5_assocty: 0x808
+-  __TEXT.__oslogstring: 0x2c29
+-  __TEXT.__swift5_capture: 0x20d8
++  __TEXT.__const: 0x19018
++  __TEXT.__cstring: 0x6821
++  __TEXT.__constg_swiftt: 0x58f6
++  __TEXT.__swift5_typeref: 0x64c9
++  __TEXT.__swift5_reflstr: 0x3bc1
++  __TEXT.__swift5_fieldmd: 0x5840
++  __TEXT.__swift5_builtin: 0x334
++  __TEXT.__swift5_assocty: 0x820
++  __TEXT.__oslogstring: 0x2de9
++  __TEXT.__swift5_capture: 0x2188
+   __TEXT.__swift5_mpenum: 0x144
+-  __TEXT.__swift5_proto: 0x115c
++  __TEXT.__swift5_proto: 0x118c
+   __TEXT.__swift5_types: 0x62c
+   __TEXT.__swift5_types2: 0x8
+   __TEXT.__swift_as_entry: 0x758
+   __TEXT.__swift_as_ret: 0x800
+   __TEXT.__swift5_protos: 0x108
+   __TEXT.__swift5_acfuncs: 0x244
+-  __TEXT.__unwind_info: 0xa400
+-  __TEXT.__eh_frame: 0x1b4c0
++  __TEXT.__unwind_info: 0xa440
++  __TEXT.__eh_frame: 0x1b578
+   __TEXT.__objc_classname: 0x59
+-  __TEXT.__objc_methname: 0x21a0
++  __TEXT.__objc_methname: 0x21d4
+   __TEXT.__objc_methtype: 0x427
+-  __DATA_CONST.__got: 0xd78
+-  __DATA_CONST.__const: 0x168
++  __DATA_CONST.__got: 0xdc8
++  __DATA_CONST.__const: 0x148
+   __DATA_CONST.__objc_classlist: 0x148
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xb48
++  __DATA_CONST.__objc_selrefs: 0xb68
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x1620
+-  __AUTH_CONST.__const: 0xc8b0
+-  __AUTH_CONST.__objc_const: 0x36c0
++  __AUTH_CONST.__auth_got: 0x1658
++  __AUTH_CONST.__const: 0xcac8
++  __AUTH_CONST.__objc_const: 0x3700
+   __AUTH.__objc_data: 0x9b0
+-  __AUTH.__data: 0x6908
+-  __DATA.__data: 0x5c10
++  __AUTH.__data: 0x6928
++  __DATA.__data: 0x5c38
+   __DATA.__bss: 0x1d3c0
+-  __DATA.__common: 0x1b38
+-  __DATA_DIRTY.__data: 0x178
++  __DATA.__common: 0x1c00
++  __DATA_DIRTY.__data: 0x180
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication
+   - /System/Library/Frameworks/Network.framework/Network
+   - /System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/BackgroundSystemTasks
+-  - /System/Library/PrivateFrameworks/BiometricKit.framework/BiometricKit
+   - /System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils
+   - /System/Library/PrivateFrameworks/CoreWiFi.framework/CoreWiFi
+   - /System/Library/PrivateFrameworks/DiagnosticRequest.framework/DiagnosticRequest
+
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+   - /System/Library/PrivateFrameworks/LinkServices.framework/LinkServices
++  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
+   - /System/Library/PrivateFrameworks/PowerLog.framework/PowerLog
+   - /System/Library/PrivateFrameworks/Rapport.framework/Rapport
+   - /System/Library/PrivateFrameworks/UserManagement.framework/UserManagement
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftDistributed.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 1C63B833-F7D1-37C8-911E-724D6DDC8F6C
+-  Functions: 13605
+-  Symbols:   10059
+-  CStrings:  1445
++  UUID: FBC2DB1B-9FB0-36FA-9182-BAFA54AB4E97
++  Functions: 13640
++  Symbols:   10056
++  CStrings:  1457
+ 
+Symbols:
++ _MKBGetDeviceLockState
++ _MKBGetDeviceLockStateInfo
++ _MobileGestalt_get_wifiCapability
++ _OBJC_CLASS_$_LAEnvironment
++ _OBJC_CLASS_$_NSDictionary
++ __DATA__TtC18AppIntentsServices17DeviceStateHelper
++ __DATA__TtCC18AppIntentsServices17DeviceStateHelper13SystemMonitor
++ __DATA__TtCC18AppIntentsServices17DeviceStateHelper16LockStateMonitor
++ __DATA__TtCC18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
++ __DATA__TtCC18AppIntentsServices26RemoteAppIntentsDispatcher15WiFiErrorSource
++ __IVARS__TtC18AppIntentsServices17DeviceStateHelper
++ __IVARS__TtCC18AppIntentsServices17DeviceStateHelper13SystemMonitor
++ __IVARS__TtCC18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
++ __IVARS__TtCC18AppIntentsServices26RemoteAppIntentsDispatcher15WiFiErrorSource
++ __IVARS__TtCC18AppIntentsServices26RemoteAppIntentsDispatcher23DistributedActorManager
++ __IVARS__TtCC18AppIntentsServices26RemoteAppIntentsDispatcher9ActorCall
++ __IVARS__TtCCC18AppIntentsServices26RemoteAppIntentsDispatcher23DistributedActorManager11CallManager
++ __METACLASS_DATA__TtC18AppIntentsServices17DeviceStateHelper
++ __METACLASS_DATA__TtCC18AppIntentsServices17DeviceStateHelper13SystemMonitor
++ __METACLASS_DATA__TtCC18AppIntentsServices17DeviceStateHelper16LockStateMonitor
++ __METACLASS_DATA__TtCC18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
++ __METACLASS_DATA__TtCC18AppIntentsServices26RemoteAppIntentsDispatcher15WiFiErrorSource
++ __PROTOCOLS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult.18
++ ___swift_memcpy125_8
++ ___swift_memcpy206_8
++ ___swift_memcpy42_8
++ ___swift_memcpy90_8
++ ___unnamed_10
++ ___unnamed_13
++ _associated conformance So26LNAssistantDismissalPolicyV18AppIntentsServices29_DeserializableEnumFromUInt6433_2751758AFE110A00C5EF3AE4BAE73B71LLAC8RawValueAcdELLP_AC014_InitializableiJ0AELL
++ _block_copy_helper.121
++ _block_copy_helper.136
++ _block_copy_helper.149
++ _block_copy_helper.173
++ _block_copy_helper.196
++ _block_copy_helper.225
++ _block_copy_helper.245
++ _block_copy_helper.280
++ _block_copy_helper.283
++ _block_copy_helper.286
++ _block_copy_helper.56
++ _block_copy_helper.581
++ _block_copy_helper.68
++ _block_descriptor.123
++ _block_descriptor.138
++ _block_descriptor.151
++ _block_descriptor.175
++ _block_descriptor.198
++ _block_descriptor.227
++ _block_descriptor.247
++ _block_descriptor.282
++ _block_descriptor.285
++ _block_descriptor.288
++ _block_descriptor.58
++ _block_descriptor.583
++ _block_descriptor.70
++ _block_destroy_helper.122
++ _block_destroy_helper.137
++ _block_destroy_helper.150
++ _block_destroy_helper.174
++ _block_destroy_helper.197
++ _block_destroy_helper.226
++ _block_destroy_helper.246
++ _block_destroy_helper.281
++ _block_destroy_helper.284
++ _block_destroy_helper.287
++ _block_destroy_helper.57
++ _block_destroy_helper.582
++ _block_destroy_helper.69
++ _generic environment RlzCs8SendableRzSTRd__18AppIntentsServices06RemotebC10DispatcherC12AnyActorCallVy_xG7ElementRtd__r__l
++ _get_enum_tag_for_layout_string 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV7OutcomeO
++ _get_enum_tag_for_layout_string 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC0G12AvailabilityOy_x_G
++ _get_type_metadata 15Synchronization5MutexVyScTyyts5Error_pGSgG.50
++ _get_type_metadata RlzCs8SendableRzl15Synchronization5MutexVy18AppIntentsServices06RemotedE10DispatcherC23DistributedActorManagerC04CallK0C6_StateVy_x__GG.3
++ _get_type_metadata RlzCs8SendableRzl15Synchronization5MutexVySDy10Foundation4UUIDVScS12ContinuationVy18AppIntentsServices06RemotegH10DispatcherC23DistributedActorManagerC0M12AvailabilityOy_x_G_GGG.1
++ _get_type_metadata s8SendableRzsAAR_r0_l15Synchronization5MutexVy18AppIntentsServices06RemotedE10DispatcherC9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLVy_xq__GG.34
++ _get_type_metadata s8SendableRzsAAR_r0_l18AppIntentsServices06RemotebC10DispatcherC21ActorCallRetryHandlerV.35
++ _kMKBInfoFailedAttempts
++ _objectdestroy.110Tm
++ _objectdestroy.135Tm
++ _objectdestroy.19Tm
++ _objectdestroy.200Tm
++ _objectdestroy.229Tm
++ _objectdestroy.308Tm
++ _objectdestroy.36Tm
++ _symbolic $s18AppIntentsServices06RemoteaB10DispatcherC28ActorAvailabilityErrorSourceP
++ _symbolic SDy__________y_xGG 10Foundation4UUIDV 18AppIntentsServices06RemotecD10DispatcherC12AnyActorCallV
++ _symbolic Say______pG 18AppIntentsServices06RemoteaB10DispatcherC28ActorAvailabilityErrorSourceP
++ _symbolic ScSy_____y_______GG 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC0G12AvailabilityO AA0dabG0C
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC12AnyActorCallV
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC15WiFiErrorSourceC
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC21ActorCallRetryHandlerV
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV7OutcomeO
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC04CallH0C
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC04CallH0C6_StateV
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC0G12AvailabilityO
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC
++ _symbolic _____ 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLV
++ _symbolic _____ 18AppIntentsServices17DeviceStateHelperC
++ _symbolic _____ 18AppIntentsServices17DeviceStateHelperC04LockE7MonitorC
++ _symbolic _____ 18AppIntentsServices17DeviceStateHelperC13SystemMonitorC
++ _symbolic _____ 18AppIntentsServices17DeviceStateHelperC20CompanionLinkMonitorC
++ _symbolic _____ So26LNAssistantDismissalPolicyV
++ _symbolic _____Sg 18AppIntentsServices17DeviceStateHelperC04LockE7MonitorC
++ _symbolic _____Sg So26LNAssistantDismissalPolicyV
++ _symbolic _____SgXw 18AppIntentsServices06RemoteaB10DispatcherC15WiFiErrorSourceC
++ _symbolic _____SgXw 18AppIntentsServices17DeviceStateHelperC
++ _symbolic _____SgXw 18AppIntentsServices17DeviceStateHelperC13SystemMonitorC
++ _symbolic _____SgXw 18AppIntentsServices17DeviceStateHelperC20CompanionLinkMonitorC
++ _symbolic ___________p_SitYbc 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV7OutcomeO s5ErrorP
++ _symbolic ______pSg 18AppIntentsServices06RemoteaB10DispatcherC28ActorAvailabilityErrorSourceP
++ _symbolic _____y______G 18AppIntentsServices06RemoteaB10DispatcherC12AnyActorCallV AA0dabG0C
++ _symbolic _____y______G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC AA0dabG0C
++ _symbolic _____y______GSg 18AppIntentsServices06RemoteaB10DispatcherC12AnyActorCallV AA0dabG0C
++ _symbolic _____y______GSg 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC AA0dabG0C
++ _symbolic _____y______GSgXw 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC AA0dabG0C
++ _symbolic _____y_______G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC04CallH0C AA0dabG0C
++ _symbolic _____y_______G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC0G12AvailabilityO AA0dabG0C
++ _symbolic _____y_______G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO AA0dabG0C
++ _symbolic _____y_______G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV AA0dabG0C
++ _symbolic _____y_______GSg 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO AA0dabG0C
++ _symbolic _____y___________G 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC AA0dabF0C AA0dabE10DescriptorV
++ _symbolic _____y___________G 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC AA0dabF0C AC0D11QueryResult33_B5708ECC7F6A26C5132D2814E197AF3BLLV
++ _symbolic _____y___________SgG 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC AA0dabF0C 10Foundation4DataV
++ _symbolic _____y___________ySo7LNValueCGG 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC AA0dabF0C AA0A19IntentSuccessResultV
++ _symbolic _____y__________y______GG s17_NativeDictionaryV 10Foundation4UUIDV 18AppIntentsServices06RemoteeF10DispatcherC12AnyActorCallV AF0hefK0C
++ _symbolic _____y__________y______G_G SD6ValuesV 10Foundation4UUIDV 18AppIntentsServices06RemotedE10DispatcherC12AnyActorCallV AF0gdeJ0C
++ _symbolic _____y__________y_____y_______G_GG s17_NativeDictionaryV 10Foundation4UUIDV ScS12ContinuationV 18AppIntentsServices06RemotefG10DispatcherC23DistributedActorManagerC0L12AvailabilityO AH0ifgL0C
++ _symbolic _____y______pG s23_ContiguousArrayStorageC 18AppIntentsServices06RemotedE10DispatcherC28ActorAvailabilityErrorSourceP
++ _symbolic _____y_____y______GG s23_ContiguousArrayStorageC 18AppIntentsServices06RemotedE10DispatcherC12AnyActorCallV AC0gdeJ0C
++ _symbolic _____y_____y_______G_G ScS12ContinuationV 18AppIntentsServices06RemotebC10DispatcherC23DistributedActorManagerC0H12AvailabilityO AC0ebcH0C
++ _symbolic _____y_____y_______G_G ScS8IteratorV 18AppIntentsServices06RemotebC10DispatcherC23DistributedActorManagerC0H12AvailabilityO AC0ebcH0C
++ _symbolic _____y_____y_______G_GSg ScS12ContinuationV 18AppIntentsServices06RemotebC10DispatcherC23DistributedActorManagerC0H12AvailabilityO AC0ebcH0C
++ _symbolic _____y_____y_______G__G ScS12ContinuationV11YieldResultO 18AppIntentsServices06RemotedE10DispatcherC23DistributedActorManagerC0J12AvailabilityO AE0gdeJ0C
++ _symbolic _____y_____y_______G__G ScS12ContinuationV15BufferingPolicyO 18AppIntentsServices06RemotedE10DispatcherC23DistributedActorManagerC0J12AvailabilityO AE0gdeJ0C
++ _symbolic _____y_xG 18AppIntentsServices06RemoteaB10DispatcherC12AnyActorCallV
++ _symbolic _____y_xGSgXwz_______RlzClXX 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC AA0dabG0C
++ _symbolic _____y_x_G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC04CallH0C
++ _symbolic _____y_x_G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC0G12AvailabilityO
++ _symbolic _____y_x_G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO
++ _symbolic _____y_x_G 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV
++ _symbolic _____y_x_GSg 18AppIntentsServices06RemoteaB10DispatcherC23DistributedActorManagerC04CallH0C
++ _symbolic _____y_xq_G 18AppIntentsServices06RemoteaB10DispatcherC9ActorCallC
++ _symbolic x___________tKc 7Network10NWEndpointO 10Foundation4UUIDV
++ _type_layout_string 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV
++ _type_layout_string 18AppIntentsServices06RemoteaB10DispatcherC22ActorCallRetryStrategyV7OutcomeO
++ _type_layout_string RlzCs8SendableRzl18AppIntentsServices06RemotebC10DispatcherC23DistributedActorManagerC04CallI0C6_StateVy_x__G
++ _type_layout_string RlzCs8SendableRzl18AppIntentsServices06RemotebC10DispatcherC23DistributedActorManagerC0H12AvailabilityOy_x_G
++ _type_layout_string s8SendableRzsAAR_r0_l18AppIntentsServices06RemotebC10DispatcherC9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLVy_xq__G
+- _OBJC_CLASS_$_BiometricKit
+- __DATA__TtC18AppIntentsServices15WiFiErrorSource
+- __DATA__TtC18AppIntentsServices18BiometricKitHelper
+- __DATA__TtCC18AppIntentsServices18BiometricKitHelper35DeviceLockStateNotificationObserver
+- __DATA__TtCV18AppIntentsServices17DeviceStateHelper13SystemMonitor
+- __DATA__TtCV18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
+- __IVARS__TtC18AppIntentsServices15WiFiErrorSource
+- __IVARS__TtC18AppIntentsServices18BiometricKitHelper
+- __IVARS__TtC18AppIntentsServices23DistributedActorManager
+- __IVARS__TtC18AppIntentsServices9ActorCall
+- __IVARS__TtCC18AppIntentsServices23DistributedActorManager11CallManager
+- __IVARS__TtCV18AppIntentsServices17DeviceStateHelper13SystemMonitor
+- __IVARS__TtCV18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
+- __METACLASS_DATA__TtC18AppIntentsServices15WiFiErrorSource
+- __METACLASS_DATA__TtC18AppIntentsServices18BiometricKitHelper
+- __METACLASS_DATA__TtCC18AppIntentsServices18BiometricKitHelper35DeviceLockStateNotificationObserver
+- __METACLASS_DATA__TtCV18AppIntentsServices17DeviceStateHelper13SystemMonitor
+- __METACLASS_DATA__TtCV18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor
+- __PROTOCOLS__TtCV18AppIntentsServices9AnyDialogP33_2751758AFE110A00C5EF3AE4BAE73B7118RemoteDialogResult.16
+- ___swift_memcpy109_8
+- ___swift_memcpy18_8
+- ___swift_memcpy190_8
+- ___swift_memcpy74_8
+- ___unnamed_11
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_AppIntentsServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AppIntentsServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AppIntentsServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AppIntentsServices
+- _block_copy_helper.116
+- _block_copy_helper.130
+- _block_copy_helper.144
+- _block_copy_helper.168
+- _block_copy_helper.191
+- _block_copy_helper.220
+- _block_copy_helper.240
+- _block_copy_helper.275
+- _block_copy_helper.278
+- _block_copy_helper.281
+- _block_copy_helper.54
+- _block_copy_helper.66
+- _block_descriptor.118
+- _block_descriptor.132
+- _block_descriptor.146
+- _block_descriptor.170
+- _block_descriptor.193
+- _block_descriptor.222
+- _block_descriptor.242
+- _block_descriptor.277
+- _block_descriptor.280
+- _block_descriptor.283
+- _block_descriptor.56
+- _block_descriptor.68
+- _block_destroy_helper.117
+- _block_destroy_helper.131
+- _block_destroy_helper.145
+- _block_destroy_helper.169
+- _block_destroy_helper.192
+- _block_destroy_helper.221
+- _block_destroy_helper.241
+- _block_destroy_helper.276
+- _block_destroy_helper.279
+- _block_destroy_helper.282
+- _block_destroy_helper.55
+- _block_destroy_helper.67
+- _generic environment RlzCs8SendableRzSTRd__18AppIntentsServices12AnyActorCallVyxG7ElementRtd__r__l
+- _get_enum_tag_for_layout_string 18AppIntentsServices22ActorCallRetryStrategyV7OutcomeO
+- _get_enum_tag_for_layout_string 18AppIntentsServices23DistributedActorManagerC0E12AvailabilityOyx_G
+- _get_type_metadata 15Synchronization5MutexVyScTyyts5Error_pGSgG.49
+- _get_type_metadata RlzCs8SendableRzl15Synchronization5MutexVy18AppIntentsServices23DistributedActorManagerC04CallI0C6_StateVyx__GG.3
+- _get_type_metadata RlzCs8SendableRzl15Synchronization5MutexVySDy10Foundation4UUIDVScS12ContinuationVy18AppIntentsServices23DistributedActorManagerC0K12AvailabilityOyx_G_GGG.1
+- _get_type_metadata s8SendableRzsAAR_r0_l15Synchronization5MutexVy18AppIntentsServices9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLVyxq__GG.34
+- _get_type_metadata s8SendableRzsAAR_r0_l18AppIntentsServices21ActorCallRetryHandlerV.35
+- _objectdestroy.105Tm
+- _objectdestroy.130Tm
+- _objectdestroy.16Tm
+- _objectdestroy.195Tm
+- _objectdestroy.224Tm
+- _objectdestroy.303Tm
+- _objectdestroy.33Tm
+- _swift_conformsToProtocol
+- _symbolic $s18AppIntentsServices28ActorAvailabilityErrorSourceP
+- _symbolic SDy__________yxGG 10Foundation4UUIDV 18AppIntentsServices12AnyActorCallV
+- _symbolic Say______pG 18AppIntentsServices28ActorAvailabilityErrorSourceP
+- _symbolic ScSy_____y______GG 18AppIntentsServices23DistributedActorManagerC0E12AvailabilityO AA06RemoteabE0C
+- _symbolic _____ 18AppIntentsServices12AnyActorCallV
+- _symbolic _____ 18AppIntentsServices15WiFiErrorSourceC
+- _symbolic _____ 18AppIntentsServices17DeviceStateHelperV
+- _symbolic _____ 18AppIntentsServices17DeviceStateHelperV13SystemMonitorC
+- _symbolic _____ 18AppIntentsServices17DeviceStateHelperV20CompanionLinkMonitorC
+- _symbolic _____ 18AppIntentsServices18BiometricKitHelperC
+- _symbolic _____ 18AppIntentsServices18BiometricKitHelperC35DeviceLockStateNotificationObserverC
+- _symbolic _____ 18AppIntentsServices21ActorCallRetryHandlerV
+- _symbolic _____ 18AppIntentsServices22ActorCallRetryStrategyV
+- _symbolic _____ 18AppIntentsServices22ActorCallRetryStrategyV7OutcomeO
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC04CallF0C
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC04CallF0C6_StateV
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC0E12AvailabilityO
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO
+- _symbolic _____ 18AppIntentsServices23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV
+- _symbolic _____ 18AppIntentsServices9ActorCallC
+- _symbolic _____ 18AppIntentsServices9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLV
+- _symbolic _____Sg 18AppIntentsServices18BiometricKitHelperC35DeviceLockStateNotificationObserverC
+- _symbolic _____SgXw 18AppIntentsServices15WiFiErrorSourceC
+- _symbolic _____SgXw 18AppIntentsServices17DeviceStateHelperV13SystemMonitorC
+- _symbolic _____SgXw 18AppIntentsServices17DeviceStateHelperV20CompanionLinkMonitorC
+- _symbolic ___________p_SitYbc 18AppIntentsServices22ActorCallRetryStrategyV7OutcomeO s5ErrorP
+- _symbolic ______pSg 18AppIntentsServices28ActorAvailabilityErrorSourceP
+- _symbolic _____y_____G 18AppIntentsServices12AnyActorCallV AA06RemoteabE0C
+- _symbolic _____y_____G 18AppIntentsServices23DistributedActorManagerC AA06RemoteabE0C
+- _symbolic _____y_____GSg 18AppIntentsServices12AnyActorCallV AA06RemoteabE0C
+- _symbolic _____y_____GSg 18AppIntentsServices23DistributedActorManagerC AA06RemoteabE0C
+- _symbolic _____y_____GSgXw 18AppIntentsServices23DistributedActorManagerC AA06RemoteabE0C
+- _symbolic _____y______G 18AppIntentsServices23DistributedActorManagerC04CallF0C AA06RemoteabE0C
+- _symbolic _____y______G 18AppIntentsServices23DistributedActorManagerC0E12AvailabilityO AA06RemoteabE0C
+- _symbolic _____y______G 18AppIntentsServices23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO AA06RemoteabE0C
+- _symbolic _____y______G 18AppIntentsServices23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV AA06RemoteabE0C
+- _symbolic _____y______GSg 18AppIntentsServices23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO AA06RemoteabE0C
+- _symbolic _____y__________G 18AppIntentsServices9ActorCallC AA06RemoteabD0C AA0faB10DispatcherC0F11QueryResult33_B5708ECC7F6A26C5132D2814E197AF3BLLV
+- _symbolic _____y__________G 18AppIntentsServices9ActorCallC AA06RemoteabD0C AA0faB20DispatcherDescriptorV
+- _symbolic _____y__________SgG 18AppIntentsServices9ActorCallC AA06RemoteabD0C 10Foundation4DataV
+- _symbolic _____y__________ySo7LNValueCGG 18AppIntentsServices9ActorCallC AA06RemoteabD0C AA0A19IntentSuccessResultV
+- _symbolic _____y__________y_____GG s17_NativeDictionaryV 10Foundation4UUIDV 18AppIntentsServices12AnyActorCallV AF06RemoteefI0C
+- _symbolic _____y__________y_____G_G SD6ValuesV 10Foundation4UUIDV 18AppIntentsServices12AnyActorCallV AF06RemotedeH0C
+- _symbolic _____y__________y_____y______G_GG s17_NativeDictionaryV 10Foundation4UUIDV ScS12ContinuationV 18AppIntentsServices23DistributedActorManagerC0J12AvailabilityO AH06RemotefgJ0C
+- _symbolic _____y______pG s23_ContiguousArrayStorageC 18AppIntentsServices28ActorAvailabilityErrorSourceP
+- _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 18AppIntentsServices12AnyActorCallV AC06RemotedeH0C
+- _symbolic _____y_____y______G_G ScS12ContinuationV 18AppIntentsServices23DistributedActorManagerC0F12AvailabilityO AC06RemotebcF0C
+- _symbolic _____y_____y______G_G ScS8IteratorV 18AppIntentsServices23DistributedActorManagerC0F12AvailabilityO AC06RemotebcF0C
+- _symbolic _____y_____y______G_GSg ScS12ContinuationV 18AppIntentsServices23DistributedActorManagerC0F12AvailabilityO AC06RemotebcF0C
+- _symbolic _____y_____y______G__G ScS12ContinuationV11YieldResultO 18AppIntentsServices23DistributedActorManagerC0H12AvailabilityO AE06RemotedeH0C
+- _symbolic _____y_____y______G__G ScS12ContinuationV15BufferingPolicyO 18AppIntentsServices23DistributedActorManagerC0H12AvailabilityO AE06RemotedeH0C
+- _symbolic _____yxG 18AppIntentsServices12AnyActorCallV
+- _symbolic _____yxGSgXwz_______RlzClXX 18AppIntentsServices23DistributedActorManagerC AA06RemoteabE0C
+- _symbolic _____yx_G 18AppIntentsServices23DistributedActorManagerC04CallF0C
+- _symbolic _____yx_G 18AppIntentsServices23DistributedActorManagerC0E12AvailabilityO
+- _symbolic _____yx_G 18AppIntentsServices23DistributedActorManagerC20EndpointAvailability33_E4BB1AAB239C54DDFA00AF988C248E58LLO
+- _symbolic _____yx_G 18AppIntentsServices23DistributedActorManagerC5State33_E4BB1AAB239C54DDFA00AF988C248E58LLV
+- _symbolic _____yx_GSg 18AppIntentsServices23DistributedActorManagerC04CallF0C
+- _symbolic _____yxq_G 18AppIntentsServices9ActorCallC
+- _symbolic x_____Kc 7Network10NWEndpointO
+- _type_layout_string 18AppIntentsServices17DeviceStateHelperV
+- _type_layout_string 18AppIntentsServices22ActorCallRetryStrategyV
+- _type_layout_string 18AppIntentsServices22ActorCallRetryStrategyV7OutcomeO
+- _type_layout_string RlzCs8SendableRzl18AppIntentsServices23DistributedActorManagerC04CallG0C6_StateVyx__G
+- _type_layout_string RlzCs8SendableRzl18AppIntentsServices23DistributedActorManagerC0F12AvailabilityOyx_G
+- _type_layout_string s8SendableRzsAAR_r0_l18AppIntentsServices9ActorCallC10Invocation33_2E7986988454E558F051BE6A778C40D6LLVyxq__G
+CStrings:
++ "%s Remote actor(%s) created"
++ "%s Remote actor(%s) with endpoint %s invalidated: %@"
++ "%s%s %s\nisOwner: %{bool}d"
++ "PersonNameComponents"
++ "Rejecting request: Biometric authentication required"
++ "Rejecting request: Device is passcode locked with 3 or more failed attempts"
++ "Remote device is not logged in to the same account as %s"
++ "Validated remote device is logged in to the same account as %s"
++ "[%s] Dropping actor %s unavailability update with error %s - mismatches current actor %s"
++ "[%s] Observation stopped for %s: %@"
++ "_TtC18AppIntentsServices17DeviceStateHelper"
++ "_TtCC18AppIntentsServices17DeviceStateHelper13SystemMonitor"
++ "_TtCC18AppIntentsServices17DeviceStateHelper16LockStateMonitor"
++ "_TtCC18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor"
++ "_TtCC18AppIntentsServices26RemoteAppIntentsDispatcher15WiFiErrorSource"
++ "assistantDismissalPolicy"
++ "biometry"
++ "companionMonitor"
++ "currentUser"
++ "isAvailable"
++ "isEnrolled"
++ "isLockedOut"
++ "lockStateMonitor"
++ "setAssistantDismissalPolicy:"
+- "$__lazy_storage_$_isAvailable"
+- "%s%s %s"
+- "%s: device lock state changed"
+- "%s: isBiometricAuthenticationLocked took %fms"
+- "BiometricKitHelper<"
+- "_TtC18AppIntentsServices15WiFiErrorSource"
+- "_TtC18AppIntentsServices18BiometricKitHelper"
+- "_TtCC18AppIntentsServices18BiometricKitHelper35DeviceLockStateNotificationObserver"
+- "_TtCV18AppIntentsServices17DeviceStateHelper13SystemMonitor"
+- "_TtCV18AppIntentsServices17DeviceStateHelper20CompanionLinkMonitor"
+- "deviceLockStateObserver"
+- "getBioLockoutState"
+- "manager"
+
+```

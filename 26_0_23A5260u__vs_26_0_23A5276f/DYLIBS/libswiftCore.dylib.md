@@ -1,0 +1,213 @@
+## libswiftCore.dylib
+
+> `/usr/lib/swift/libswiftCore.dylib`
+
+```diff
+
+-6.2.0.9.950
+-  __TEXT.__text: 0x485e24
++6.2.0.10.905
++  __TEXT.__text: 0x485ac4
+   __TEXT.__auth_stubs: 0xd40
+   __TEXT.__delay_stubs: 0x108
+   __TEXT.__delay_helper: 0x2a0
+   __TEXT.__init_offsets: 0x18
+   __TEXT.__objc_methlist: 0x1d90
+-  __TEXT.__cstring: 0x13102
+-  __TEXT.__const: 0xb771c
++  __TEXT.__cstring: 0x130a2
++  __TEXT.__const: 0xb770c
+   __TEXT.__oslogstring: 0xb7
+   __TEXT.__gcc_except_tab: 0xf0
+   __TEXT.__lldbsummaries: 0x46
+-  __TEXT.__swift5_typeref: 0x58c9
++  __TEXT.__swift5_typeref: 0x58c3
+   __TEXT.__swift5_capture: 0x3b8
+   __TEXT.__swift5_reflstr: 0x1461
+   __TEXT.__swift5_assocty: 0x5200
+-  __TEXT.__constg_swiftt: 0x8fd4
+-  __TEXT.__swift5_fieldmd: 0x4924
++  __TEXT.__constg_swiftt: 0x8fb8
++  __TEXT.__swift5_fieldmd: 0x4914
+   __TEXT.__swift5_builtin: 0xbcc
+   __TEXT.__swift5_mpenum: 0x8c
+   __TEXT.__swift5_protos: 0x1a4
+   __TEXT.__swift5_proto: 0x14ec
+-  __TEXT.__swift5_types: 0x92c
++  __TEXT.__swift5_types: 0x928
+   __TEXT.__swift5_types2: 0xc
+-  __TEXT.__unwind_info: 0xad50
++  __TEXT.__unwind_info: 0xad58
+   __TEXT.__eh_frame: 0x8938
+   __TEXT.__objc_classname: 0x139
+   __TEXT.__objc_methname: 0x8af
+
+   __DATA_CONST.__objc_protorefs: 0x58
+   __DATA_CONST.__objc_superrefs: 0x40
+   __AUTH_CONST.__auth_got: 0x6e0
+-  __AUTH_CONST.__const: 0x15be8
++  __AUTH_CONST.__const: 0x15bc0
+   __AUTH_CONST.__objc_const: 0x4a60
+   __AUTH.__objc_data: 0x1c8
+   __AUTH.__data: 0xe6d0
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libswiftPrespecialized.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+-  UUID: D18E5B2E-9EDC-3916-8BBB-7E99DA3B07AA
+-  Functions: 21969
++  UUID: CE2111E9-1F3C-3CDA-B974-898F3D226BB3
++  Functions: 21970
+   Symbols:   56670
+-  CStrings:  3025
++  CStrings:  3023
+ 
+Symbols:
++ _$sSPys5UInt8VGSbIgyd_ACSbSgIegyr_TRTA.2897
++ _$sSPys5UInt8VGSbIgyd_ACSbSgIegyr_TRTA.2900
++ _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2904
++ _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2914
++ _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2919
++ _$sSS11withCString9encodedAs_xq_m_xSPy8CodeUnitQy_GKXEtKs16_UnicodeEncodingR_r0_lFxSPys4Int8VGKXEfU_TA.2910
++ _$sSS8decoding2asSSx_q_mtcSlRzs16_UnicodeEncodingR_8CodeUnitQy_7ElementRtzr0_lufcSSSRyAGGXEfU_TA.2911
++ _$sSdySdSgxcSyRzlufcSbSpySdGXEfU_SbSPys4Int8VGXEfU_TA.2901
++ _$sSfySfSgxcSyRzlufcSbSpySfGXEfU_SbSPys4Int8VGXEfU_TA.2902
++ _$sSryxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2913
++ _$sSryxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2918
++ _$sSs15withUnsafeBytesyxxSWKXEKlFxSRys5UInt8VGKXEfU_TA.2915
++ _$ss11InlineArrayVsRi__rlE11mutableSpans07MutableD0Vyq_Gvr
++ _$ss11InlineArrayVsRi__rlE11mutableSpans07MutableD0Vyq_Gvr.resume.0
++ _$ss11_StringGutsV11withCStringyxxSPys4Int8VGKXEKlFxSRyAEGKXEfU_Sb_TGq5TA.2903
++ _$ss15CollectionOfOneV11mutableSpans07MutableE0VyxGvr
++ _$ss15CollectionOfOneV11mutableSpans07MutableE0VyxGvr.resume.0
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_TA.2955
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA.2954
++ _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA.2956
++ _$ss19RawKeyPathComponentV16_projectReadOnly_2to10endingWith_7pointeryx_q_mq0_mSbzSpyq_Gtr1_lFySpyq0_GXEfU0_TA.2940
++ _$ss19RawKeyPathComponentV16_projectReadOnly_2to10endingWith_7pointeryx_q_mq0_mSbzSpyq_Gtr1_lFySpyq0_GXEfU0_TA.2942
++ _$ss22_AbstractStringStoragePsE8_isEqualys4Int8VyXlSgFSbSPys5UInt8VGXEfU_s02__bC0C_Tg5TA.2899
++ _$ss22_AbstractStringStoragePsE8_isEqualys4Int8VyXlSgFSbSPys5UInt8VGXEfU_s08__SharedbC0C_Tg5TA.2896
++ _$ss24ReferenceWritableKeyPathC22_projectMutableAddress4fromSpyq_G7pointer_yXlSg5ownertx_tFAEs0cD6BufferVXEfU_ypSwXEfU_0E3NewL_yyqd__mr0__lF0E7CurrentL_yyqd0__mr0___lFySryqd__GXEfU0_TA.2939
++ _$ss24ReferenceWritableKeyPathC22_projectMutableAddress4fromSpyq_G7pointer_yXlSg5ownertx_tFAEs0cD6BufferVXEfU_ypSwXEfU_ySryxGXEfU_TA.2938
++ _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA.2953
++ _$ss41__SwiftNativeNSArrayWithContiguousStorageC9_objectAt33_76B2831B9FC4680F4D3302315AC249DBLLys9UnmanagedVyyXlGSiFAGSRyyXlGXEfU_TA.2895
++ _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_TA.2912
++ _$ss7UnicodeO12_InternalNFCV8IteratorV4nextAB6ScalarVSgyFAJyXEfU_Ss0aF4ViewV_Tg5TA.2909
++ _$ss7UnicodeO12_InternalNFCV8IteratorV4nextAB6ScalarVSgyFAJyXEfU_Ss0aF4ViewV_Tg5TA.2932
++ _$ss8DurationV11nanosecondsyABSdFZ
++ _$sxSiSgSbIgnyd_xAASbs5Error_pIegnndzo_SHRzlTRTA.2928
++ __PROTOCOLS_$ss11_SetStorageCySOGMf.3615
++ __PROTOCOLS_$ss11_SetStorageCySSGMf.3472
++ __PROTOCOLS_$ss11_SetStorageCySiGMf.3348
++ __PROTOCOLS_$ss11_SetStorageCys11AnyHashableVGMf.3455
++ __PROTOCOLS_$ss18_DictionaryStorageCyS2SGMf.3598
++ __PROTOCOLS_$ss18_DictionaryStorageCyS2iGMf.3332
++ __PROTOCOLS_$ss18_DictionaryStorageCySOSiGMf.3508
++ __PROTOCOLS_$ss18_DictionaryStorageCySSSiGMf.3402
++ __PROTOCOLS_$ss18_DictionaryStorageCySSs11AnyHashableVGMf.3580
++ __PROTOCOLS_$ss18_DictionaryStorageCySSypGMf.3562
++ __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVADGMf.3170
++ __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVSSGMf.3544
++ __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVypGMf.3526
++ _parameter-flags.2941
+- _$sSPys5UInt8VGSbIgyd_ACSbSgIegyr_TRTA.2899
+- _$sSPys5UInt8VGSbIgyd_ACSbSgIegyr_TRTA.2901
+- _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2905
+- _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2915
+- _$sSRyxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2920
+- _$sSS11withCString9encodedAs_xq_m_xSPy8CodeUnitQy_GKXEtKs16_UnicodeEncodingR_r0_lFxSPys4Int8VGKXEfU_TA.2911
+- _$sSS8decoding2asSSx_q_mtcSlRzs16_UnicodeEncodingR_8CodeUnitQy_7ElementRtzr0_lufcSSSRyAGGXEfU_TA.2912
+- _$sSdySdSgxcSyRzlufcSbSpySdGXEfU_SbSPys4Int8VGXEfU_TA.2902
+- _$sSfySfSgxcSyRzlufcSbSpySfGXEfU_SbSPys4Int8VGXEfU_TA.2903
+- _$sSryxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2914
+- _$sSryxGqd__s5Error_pIgyrzo_AAqd__sAB_pIegyrzr_r__lTRTA.2919
+- _$sSs15withUnsafeBytesyxxSWKXEKlFxSRys5UInt8VGKXEfU_TA.2916
+- _$ss11_StringGutsV11withCStringyxxSPys4Int8VGKXEKlFxSRyAEGKXEfU_Sb_TGq5TA.2904
+- _$ss12SwiftSettingVABycfC
+- _$ss12SwiftSettingVMF
+- _$ss12SwiftSettingVMa
+- _$ss12SwiftSettingVMf
+- _$ss12SwiftSettingVMn
+- _$ss12SwiftSettingVN
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_TA.2956
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_A2HSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA.2955
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtFySRys5UInt8VGXEfU_yAMXEfU_yAMXEfU_TA.2957
+- _$ss19RawKeyPathComponentV16_projectReadOnly_2to10endingWith_7pointeryx_q_mq0_mSbzSpyq_Gtr1_lFySpyq0_GXEfU0_TA.2941
+- _$ss19RawKeyPathComponentV16_projectReadOnly_2to10endingWith_7pointeryx_q_mq0_mSbzSpyq_Gtr1_lFySpyq0_GXEfU0_TA.2943
+- _$ss22_AbstractStringStoragePsE8_isEqualys4Int8VyXlSgFSbSPys5UInt8VGXEfU_s02__bC0C_Tg5TA.2900
+- _$ss22_AbstractStringStoragePsE8_isEqualys4Int8VyXlSgFSbSPys5UInt8VGXEfU_s08__SharedbC0C_Tg5TA.2897
+- _$ss24ReferenceWritableKeyPathC22_projectMutableAddress4fromSpyq_G7pointer_yXlSg5ownertx_tFAEs0cD6BufferVXEfU_ypSwXEfU_0E3NewL_yyqd__mr0__lF0E7CurrentL_yyqd0__mr0___lFySryqd__GXEfU0_TA.2940
+- _$ss24ReferenceWritableKeyPathC22_projectMutableAddress4fromSpyq_G7pointer_yXlSg5ownertx_tFAEs0cD6BufferVXEfU_ypSwXEfU_ySryxGXEfU_TA.2939
+- _$ss25_unimplementedInitializer9className04initD04file4line6columns5NeverOs12StaticStringV_A2JS2utFySRys5UInt8VGXEfU_yAMXEfU_TA.2954
+- _$ss41__SwiftNativeNSArrayWithContiguousStorageC9_objectAt33_76B2831B9FC4680F4D3302315AC249DBLLys9UnmanagedVyyXlGSiFAGSRyyXlGXEfU_TA.2896
+- _$ss5SliceV32withContiguousStorageIfAvailableyqd__Sgqd__SRy7ElementQzGKXEKlFqd__AGKXEfU_TA.2913
+- _$ss7UnicodeO12_InternalNFCV8IteratorV4nextAB6ScalarVSgyFAJyXEfU_Ss0aF4ViewV_Tg5TA.2910
+- _$ss7UnicodeO12_InternalNFCV8IteratorV4nextAB6ScalarVSgyFAJyXEfU_Ss0aF4ViewV_Tg5TA.2935
+- _$sxSiSgSbIgnyd_xAASbs5Error_pIegnndzo_SHRzlTRTA.2929
+- __PROTOCOLS_$ss11_SetStorageCySOGMf.3616
+- __PROTOCOLS_$ss11_SetStorageCySSGMf.3473
+- __PROTOCOLS_$ss11_SetStorageCySiGMf.3349
+- __PROTOCOLS_$ss11_SetStorageCys11AnyHashableVGMf.3456
+- __PROTOCOLS_$ss18_DictionaryStorageCyS2SGMf.3599
+- __PROTOCOLS_$ss18_DictionaryStorageCyS2iGMf.3333
+- __PROTOCOLS_$ss18_DictionaryStorageCySOSiGMf.3509
+- __PROTOCOLS_$ss18_DictionaryStorageCySSSiGMf.3403
+- __PROTOCOLS_$ss18_DictionaryStorageCySSs11AnyHashableVGMf.3581
+- __PROTOCOLS_$ss18_DictionaryStorageCySSypGMf.3563
+- __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVADGMf.3171
+- __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVSSGMf.3545
+- __PROTOCOLS_$ss18_DictionaryStorageCys11AnyHashableVypGMf.3527
+- _parameter-flags.2942
+- _symbolic _____ s12SwiftSettingV
+Functions:
+~ __ZN5swift22swift_cvw_arrayDestroyEPNS_11OpaqueValueEmmPKNS_14TargetMetadataINS_9InProcessEEE : 1148 -> 1160
+~ __ZN5swift27swift_cvw_arrayInitWithCopyEPNS_11OpaqueValueES1_mmPKNS_14TargetMetadataINS_9InProcessEEE : 1484 -> 1496
+~ _swift_cvw_arrayAssignWithCopy : 1652 -> 1664
+~ __ZL21swift_cvw_destroyImplPN5swift11OpaqueValueEPKNS_14TargetMetadataINS_9InProcessEEE : 1088 -> 1100
+~ __ZL28swift_cvw_assignWithCopyImplPN5swift11OpaqueValueES1_PKNS_14TargetMetadataINS_9InProcessEEE : 1584 -> 1596
+~ __ZL26swift_cvw_initWithCopyImplPN5swift11OpaqueValueES1_PKNS_14TargetMetadataINS_9InProcessEEE : 744 -> 756
+~ __ZL26swift_cvw_initWithTakeImplPN5swift11OpaqueValueES1_PKNS_14TargetMetadataINS_9InProcessEEE : 1312 -> 1324
+~ __ZL39swift_cvw_destroyMultiPayloadEnumFNSlowPN5swift11OpaqueValueEPKNS_14TargetMetadataINS_9InProcessEEERNSt3__16atomicImEEmPFvS1_S6_E : 364 -> 372
+~ _swift_cvw_initWithCopyMultiPayloadEnumFN : 560 -> 564
+~ __ZL44swift_cvw_initWithCopyMultiPayloadEnumFNImplPN5swift11OpaqueValueES1_PKNS_14TargetMetadataINS_9InProcessEEE : 412 -> 416
+~ __ZL44swift_cvw_initWithCopyMultiPayloadEnumFNSlowPN5swift11OpaqueValueES1_PKNS_14TargetMetadataINS_9InProcessEEERNSt3__16atomicImEEmPFS1_S1_S1_S6_E : 512 -> 516
+~ __ZL23multiPayloadEnumGenericIXadL_ZL22handleRefCountsDestroyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhEEEvS5_S7_S8_S9_ : 300 -> 308
+~ __ZL18multiPayloadEnumFNIXadL_ZL27handleRefCountsInitWithCopyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 352 -> 356
+~ __ZL26multiPayloadEnumFNResolvedIXadL_ZL27handleRefCountsInitWithCopyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 332 -> 336
+~ __ZL23multiPayloadEnumGenericIXadL_ZL27handleRefCountsInitWithCopyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 388 -> 392
+~ __ZL37singlePayloadEnumSimpleAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 704 -> 708
+~ __ZL38singlePayloadEnumGenericAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 696 -> 704
+~ __ZL32multiPayloadEnumFNAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 2112 -> 2136
+~ __ZL40multiPayloadEnumFNResolvedAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 612 -> 624
+~ __ZL37multiPayloadEnumGenericAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 660 -> 672
+~ __ZL18multiPayloadEnumFNIXadL_ZL27handleRefCountsInitWithTakePKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 352 -> 356
+~ __ZL26multiPayloadEnumFNResolvedIXadL_ZL27handleRefCountsInitWithTakePKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 332 -> 336
+~ __ZL23multiPayloadEnumGenericIXadL_ZL27handleRefCountsInitWithTakePKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhS9_EEEvS5_S7_S8_S9_S9_ : 388 -> 392
+~ _OUTLINED_FUNCTION_11 : 20 -> 12
+~ _OUTLINED_FUNCTION_12 : 12 -> 20
+~ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lFSS_ShySSGTs5 : 852 -> 864
++ _$ss11InlineArrayVsRi__rlE11mutableSpans07MutableD0Vyq_Gvr
+~ _$sSzsE12_description5radix9uppercaseSSSi_SbtFs7_Int128V_Tg5 : 1184 -> 1180
+~ _$sSzsE12_description5radix9uppercaseSSSi_SbtFs6Int128V_Tg5 : 1056 -> 1032
+~ _$sSzsE12_description5radix9uppercaseSSSi_SbtFs7UInt128V_Tg5 : 924 -> 900
+~ _$sSzsE12_description5radix9uppercaseSSSi_SbtF : 4480 -> 4428
+~ _$sSMsSkRzrlE4sort2byySb7ElementSTQz_ADtKXE_tKF : 3024 -> 3036
+- _$ss12SwiftSettingVABycfC
++ _$ss15CollectionOfOneV11mutableSpans07MutableE0VyxGvr
++ _$ss8DurationV11nanosecondsyABSdFZ
+~ _$ss6SIMD64V16debugDescriptionSSvg : 12868 -> 11740
+- _$ss12SwiftSettingVMa
+~ __ZL39swift_cvw_destroyMultiPayloadEnumFNImplPN5swift11OpaqueValueEPKNS_14TargetMetadataINS_9InProcessEEE : 212 -> 220
+~ __ZL18multiPayloadEnumFNIXadL_ZL22handleRefCountsDestroyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhEEEvS5_S7_S8_S9_ : 192 -> 200
+~ __ZL26multiPayloadEnumFNResolvedIXadL_ZL22handleRefCountsDestroyPKN5swift14TargetMetadataINS0_9InProcessEEERNS0_19LayoutStringReader1ERmPhEEEvS5_S7_S8_S9_ : 172 -> 180
+~ __ZL22handleRefCountsDestroyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPh : 172 -> 180
+~ __ZL27handleRefCountsInitWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 152 -> 156
+~ __ZL33singlePayloadEnumFNAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 340 -> 348
+~ __ZL41singlePayloadEnumFNResolvedAssignWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 324 -> 332
+~ __ZL32handleSingleRefCountInitWithCopyPKN5swift14TargetMetadataINS_9InProcessEEERNS_19LayoutStringReader1ERmPhS8_ : 180 -> 184
+~ _swift_cvw_destroyMultiPayloadEnumFN.cold.1 : 264 -> 272
+CStrings:
+- "A SwiftSetting should never actually be constructed"
+- "Swift/SwiftSettings.swift"
+
+```

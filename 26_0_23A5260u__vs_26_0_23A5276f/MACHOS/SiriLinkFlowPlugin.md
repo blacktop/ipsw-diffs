@@ -1,0 +1,230 @@
+## SiriLinkFlowPlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/SiriLinkFlowPlugin.bundle/SiriLinkFlowPlugin`
+
+```diff
+
+-3500.24.1.0.0
+-  __TEXT.__text: 0x1f3ec0
+-  __TEXT.__auth_stubs: 0x5230
++3500.28.1.0.0
++  __TEXT.__text: 0x1fd404
++  __TEXT.__auth_stubs: 0x5280
+   __TEXT.__objc_stubs: 0x8e0
+   __TEXT.__objc_methlist: 0xebc
+-  __TEXT.__const: 0x162b8
+-  __TEXT.__cstring: 0x86cb
+-  __TEXT.__objc_methname: 0x4410
++  __TEXT.__const: 0x162c8
++  __TEXT.__cstring: 0x873b
++  __TEXT.__objc_methname: 0x442b
+   __TEXT.__objc_classname: 0x31c
+   __TEXT.__objc_methtype: 0x951
+-  __TEXT.__swift5_typeref: 0x5888
+-  __TEXT.__oslogstring: 0xc60a
+-  __TEXT.__swift5_capture: 0x8b8
++  __TEXT.__swift5_typeref: 0x58ba
++  __TEXT.__oslogstring: 0xca3a
++  __TEXT.__swift5_capture: 0x8c8
+   __TEXT.__constg_swiftt: 0x6dc4
+   __TEXT.__swift5_builtin: 0x2a8
+-  __TEXT.__swift5_reflstr: 0x5594
+-  __TEXT.__swift5_fieldmd: 0x6ee8
++  __TEXT.__swift5_reflstr: 0x55c4
++  __TEXT.__swift5_fieldmd: 0x6ef4
+   __TEXT.__swift5_assocty: 0x1020
+   __TEXT.__swift5_proto: 0xeac
+   __TEXT.__swift5_types: 0x76c
+
+   __TEXT.__swift_as_ret: 0x1114
+   __TEXT.__swift5_protos: 0x88
+   __TEXT.__swift5_mpenum: 0x150
+-  __TEXT.__unwind_info: 0x99a0
+-  __TEXT.__eh_frame: 0x193ac
+-  __DATA_CONST.__auth_got: 0x2920
+-  __DATA_CONST.__got: 0x1828
++  __TEXT.__unwind_info: 0x99b0
++  __TEXT.__eh_frame: 0x19424
++  __DATA_CONST.__auth_got: 0x2948
++  __DATA_CONST.__got: 0x1848
+   __DATA_CONST.__auth_ptr: 0x16b0
+-  __DATA_CONST.__const: 0x12b88
++  __DATA_CONST.__const: 0x12bb0
+   __DATA_CONST.__cfstring: 0x600
+   __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_protolist: 0x140
+
+   __DATA_CONST.__objc_superrefs: 0x40
+   __DATA_CONST.__objc_intobj: 0x30
+   __DATA.__objc_const: 0xc8e0
+-  __DATA.__objc_selrefs: 0x18d0
++  __DATA.__objc_selrefs: 0x18d8
+   __DATA.__objc_ivar: 0x9c
+   __DATA.__objc_data: 0xff0
+   __DATA.__data: 0xb2b0
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D8F7C55D-52A5-348E-A7CA-99C73AF59F0A
+-  Functions: 12626
+-  Symbols:   93755
+-  CStrings:  2889
++  UUID: 4DE7A1DD-4B77-3593-B7FE-19FC87C3A2E2
++  Functions: 12662
++  Symbols:   93950
++  CStrings:  2903
+ 
+Symbols:
++ _$s10Foundation20PersonNameComponentsVACSEAAWL
++ _$s10Foundation20PersonNameComponentsVACSEAAWlTm
++ _$s10Foundation20PersonNameComponentsVSEAAMc
++ _$s10Foundation20PersonNameComponentsVSgWOcTm
++ _$s10Foundation20PersonNameComponentsVyACSSKcfC
++ _$s11SiriKitFlow11DeviceStateP012userAssignedD4NameSSSgvgTj
++ _$s12SiriNLUTypes0A27_Nlu_External_UserDialogActV0A14LinkFlowPluginE25personNameComponentsValue10Foundation06PersonlM0VSgyKF
++ _$s12SiriOntology23UsoEntity_common_PersonC4nameSSSgvgTj
++ _$s13SiriUtilities12ResponseModeV0A14LinkFlowPluginE02toe11InteractionD014supportedModes16isOpenAppWhenRunSo013LNInteractionD0VSo08LNActionK0V_SbtF
++ _$s13SiriUtilities12ResponseModeV_S2btMD
++ _$s13SiriUtilities12ResponseModeV_S2btWOh
++ _$s18SiriLinkFlowPlugin10InputUtilsO23getPersonNameComponents4from10Foundation0hiJ0VSgAA21VoiceCommandsNLIntentV_tFZ
++ _$s18SiriLinkFlowPlugin10SignposterO4NameO019inputUtilsGetPersonF10Componentss12StaticStringVvau
++ _$s18SiriLinkFlowPlugin10SignposterO4NameO019inputUtilsGetPersonF10Componentss12StaticStringVvgZ
++ _$s18SiriLinkFlowPlugin10SignposterO4NameO019inputUtilsGetPersonF10Componentss12StaticStringVvpZ
++ _$s18SiriLinkFlowPlugin10SignposterO4NameO019inputUtilsGetPersonF10Componentss12StaticStringVvpZMV
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbc6FailedE06reasonySo36FLOWLINKSchemaFLOWLINKExecutionErrorV_tFZTm
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo33FLOWLINKSchemaFLOWLINKActionTier1C_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo35FLOWLINKSchemaFLOWLINKActionContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo44FLOWLINKSchemaFLOWLINKActionExecutionContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo45FLOWLINKSchemaFLOWLINKActionConversionContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo46FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsedC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo47FLOWLINKSchemaFLOWLINKActionConfirmationContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo49FLOWLINKSchemaFLOWLINKActionPromptForValueContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo49FLOWLINKSchemaFLOWLINKEntityDisambiguationContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo56FLOWLINKSchemaFLOWLINKActionParameterConfirmationContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo58FLOWLINKSchemaFLOWLINKActionParameterDisambiguationContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo60FLOWLINKSchemaFLOWLINKAppShortcutFirstRunConfirmationContextC_Tt1g5
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TA
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TATQ0_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TATu
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TQ1_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TY0_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TY2_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_TY3_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKYCcSo0ofG0Ccfu_AISSYaKYCcfu0_Tu
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandIdSSSgSS_tYaFTY2_
++ _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandIdSSSgSS_tYaFTY3_
++ _$s18SiriLinkFlowPlugin31ProvisionalInstrumentationUtilsO04emitbceF033_80B45F24A3E78C34017763C32D0F479DLL5event15siriEnvironmentyx_0A9Utilities0aS0CtSo08SISchemaF7MessageCRbzlFZSo0abceB16ActionCompletionC_Tt1g5
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TR
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TRTA
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TRTATQ0_
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TRTATu
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TRTQ0_
++ _$sScA_pSgSSSo15VCVoiceShortcutCs5Error_pIegHggozo_SSACsAD_pIegHgozo_TRTu
++ _$sSo11LNValueTypeC18SiriLinkFlowPluginE03getA08usoParse17parameterMetadata6localeSo0A0CSg0c3KitE08USOParseV_So017LNActionParameterK0C10Foundation6LocaleVtYaKFAiP20PersonNameComponentsVXEfU11_
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE18includesBackgroundSbvg
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE18includesBackgroundSbvpMV
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE18includesForegroundSbvg
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE18includesForegroundSbvpMV
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE8asStringSSvg
++ _$sSo13LNActionModesV18SiriLinkFlowPluginE8asStringSSvpMV
++ _$sSo13os_log_type_ta0A0E5faultABvgZ
++ _$sSo14LNCodableValueC12LinkMetadataEyABxcSERzlufC
++ _$sSo18LNCodableValueTypeC12LinkMetadataE20personNameComponentsABXDvgZ
++ _OBJC_CLASS_$_FLOWLINKSchemaFLOWLINKActionParametersUpdated
++ _OBJC_CLASS_$_LNSuccessResult
++ _symbolic ScA_pSgSSSo15VCVoiceShortcutC______pIegHggozo_ s5ErrorP
++ _symbolic ______S2bt 13SiriUtilities12ResponseModeV
++ block_copy_helper.27
++ block_descriptor.29
++ block_destroy_helper.28
+- _$s10GeoToolbox15PlaceDescriptorVSgWOcTm
+- _$s11SiriKitFlow11DeviceStatePAAE012userAssignedD4NameSSSgvg
+- _$s13SiriUtilities12ResponseModeV0A14LinkFlowPluginE02toe11InteractionD016isOpenAppWhenRunSo013LNInteractionD0VSb_tF
+- _$s13SiriUtilities12ResponseModeV_SbtMD
+- _$s13SiriUtilities12ResponseModeV_SbtWOh
+- _$s18SiriLinkFlowPlugin20InstrumentationUtilsO04emitbcE033_4B7DCD361232BDB55F45721261AF3126LL5event0g7RequestB0yx_SbtSo08SISchemaE7MessageCRbzlFZSo46FLOWLINKSchemaFLOWLINKAutoShortcutTemplateUsedC_Tt1g5Tm
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O51F0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_So0ofG0CTf1ncn_n
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O51F0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_So0ofG0CTf1ncn_nTQ0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O51F0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_So0ofG0CTf1ncn_nTY1_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O51F0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_So0ofG0CTf1ncn_nTY2_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZ04$s18abc8Plugin26efgh20C03geteF4Name14voicel6Id0kf2n13M0SSSgSS_So07O51F0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_So0ofG0CTf1ncn_nTu
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TA
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TATQ0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TATu
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TQ1_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TY0_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TY2_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_TY3_
+- _$s18SiriLinkFlowPlugin26VoiceShortcutClientWrapperC03geteF4Name14voiceCommandId0kf2ByM0SSSgSS_So07VCVoiceF0CSSYaKXEtYaFZfA0_AISSYaKcSo0ofG0Ccfu_AISSYaKcfu0_Tu
+- _$s18SiriLinkFlowPlugin31ProvisionalInstrumentationUtilsO04emitbceF033_80B45F24A3E78C34017763C32D0F479DLL5event15siriEnvironmentyx_0A9Utilities0aS0CtSo08SISchemaF7MessageCRbzlFZSo0abceB16ActionCompletionC_Tt1g5Tm
+- _$s22_GeoToolbox_AppIntents21PlaceDescriptorEntityVAC0cD0028SystemIntentValueConvertibleG0AAWl
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_SiriLinkFlowPlugin
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_SiriLinkFlowPlugin
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_SiriLinkFlowPlugin
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_SiriLinkFlowPlugin
+- _symbolic ______Sbt 13SiriUtilities12ResponseModeV
+- block_copy_helper.25
+- block_descriptor.27
+- block_destroy_helper.26
+CStrings:
++ "#InputUtils: Could not get location, setting hemisphere to north"
++ "#InputUtils: Could not parse Contact from intent"
++ "#InputUtils: Did not receive valid voiceCommandContact from server"
++ "#InputUtils: getPersonNameComponents"
++ "#InputUtils: getPlacemarkQueryText - no voiceCommandText from intent"
++ "#LNValueType: Encountered an error when trying to resolve person %s"
++ "#LinkRCHFlow execute .initializing - action %s\nsupportedModes: %s\nopenAppWhenRun=%{bool}d\nresponseMode=%s\ninteractionMode=%s"
++ "#NLUUserDialogActInputUtils ContactResolver call returned needsConfirmation which is unsupported, returning contact"
++ "#NLUUserDialogActInputUtils ContactResolver call returned needsDisambiguation which is unsupported, picking first one"
++ "#NLUUserDialogActInputUtils ContactResolver confidently recommended a contact"
++ "#NLUUserDialogActInputUtils ContactResolver could not recommend a contact"
++ "#NLUUserDialogActInputUtils: Could not create ContactQuery from parse"
++ "#NLUUserDialogActInputUtils: Could not get location, setting hemisphere to north"
++ "#NLUUserDialogActInputUtils: Currency parser received unit with identifier: %s"
++ "#NLUUserDialogActInputUtils: Extracting bool value from nlv4 failed"
++ "#NLUUserDialogActInputUtils: More than one task found in UDA"
++ "#NLUUserDialogActInputUtils: NLUUserDialogAct does not have a user stated task"
++ "#NLUUserDialogActInputUtils: No tasks found in UDA"
++ "#NLUUserDialogActInputUtils: Unable to extract currency information from parse"
++ "#NLUUserDialogActInputUtils: Unable to extract measurement component from parse"
++ "#ShortcutsLinkPromptForMultiChoiceFlowStrategy make prompt for multi choice item"
++ ", includesForeground="
++ "AnonymousConnectionDelegate#executor(_:needsValueWith:) got called erroneously with an LNSuccessResult"
++ "InputUtilsGetPersonNameComponents"
++ "includesBackground="
++ "setActionParameterUpdated:"
+- "#InputUtils getPlacemarkQueryText - no voiceCommandText from intent"
+- "#LinkRCHFlow execute .initializing - action %s\nopenAppWhenRun=%{bool}d\nresponseMode=%s\ninteractionMode=%s"
+- "#ShortcutsLinkDisambiguationFlowStrategy make prompt for disambiguation item"
+- "Could not create ContactQuery from parse"
+- "Could not get location, setting hemisphere to north"
+- "Currency parser received unit with identifier: %s"
+- "Did not receive valid voiceCommandContact from server"
+- "Encountered an error when trying to resolve person %s"
+- "Extracting bool value from nlv4 failed"
+- "NLUUserDialogAct does not have a user stated task"
+- "Unable to extract currency information from parse"
+- "Unable to extract measurement component from parse"
+
+```

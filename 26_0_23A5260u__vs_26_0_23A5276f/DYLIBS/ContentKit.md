@@ -1,0 +1,1505 @@
+## ContentKit
+
+> `/System/Library/PrivateFrameworks/ContentKit.framework/ContentKit`
+
+```diff
+
+-4022.0.27.101.0
+-  __TEXT.__text: 0x1701c4
+-  __TEXT.__auth_stubs: 0x2fa0
+-  __TEXT.__objc_methlist: 0xbf2c
+-  __TEXT.__const: 0x484c
++4025.0.13.0.0
++  __TEXT.__text: 0x171bf0
++  __TEXT.__auth_stubs: 0x2ff0
++  __TEXT.__objc_methlist: 0xbf24
++  __TEXT.__const: 0x4bcc
+   __TEXT.__dlopen_cstrs: 0x19af
+-  __TEXT.__cstring: 0x173ee
+-  __TEXT.__swift5_typeref: 0x1463
++  __TEXT.__cstring: 0x1759f
++  __TEXT.__swift5_typeref: 0x14a9
+   __TEXT.__swift5_capture: 0x140
+-  __TEXT.__constg_swiftt: 0xe64
+-  __TEXT.__swift5_reflstr: 0x737
+-  __TEXT.__swift5_fieldmd: 0xbc8
+-  __TEXT.__oslogstring: 0x379d
+-  __TEXT.__swift5_builtin: 0x50
++  __TEXT.__constg_swiftt: 0xf08
++  __TEXT.__swift5_reflstr: 0x837
++  __TEXT.__swift5_fieldmd: 0xcb4
++  __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_assocty: 0x1f8
++  __TEXT.__oslogstring: 0x3a9d
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__swift5_proto: 0x2bc
+-  __TEXT.__swift5_types: 0xfc
+-  __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__swift_as_entry: 0x204
+-  __TEXT.__swift_as_ret: 0x350
++  __TEXT.__swift5_proto: 0x2e8
++  __TEXT.__swift5_types: 0x110
++  __TEXT.__swift5_mpenum: 0x18
++  __TEXT.__swift_as_entry: 0x200
++  __TEXT.__swift_as_ret: 0x328
+   __TEXT.__gcc_except_tab: 0x2978
+   __TEXT.__ustring: 0x9e0
+-  __TEXT.__unwind_info: 0x65c8
+-  __TEXT.__eh_frame: 0x67b0
++  __TEXT.__unwind_info: 0x6160
++  __TEXT.__eh_frame: 0x63e8
+   __TEXT.__objc_classname: 0x17f5
+-  __TEXT.__objc_methname: 0x1a63f
++  __TEXT.__objc_methname: 0x1a570
+   __TEXT.__objc_methtype: 0x2914
+-  __TEXT.__objc_stubs: 0x15100
+-  __DATA_CONST.__got: 0x11d8
+-  __DATA_CONST.__const: 0x5ed0
++  __TEXT.__objc_stubs: 0x150e0
++  __DATA_CONST.__got: 0x1210
++  __DATA_CONST.__const: 0x5eb8
+   __DATA_CONST.__objc_classlist: 0x6d8
+   __DATA_CONST.__objc_catlist: 0x120
+   __DATA_CONST.__objc_protolist: 0xe0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6440
++  __DATA_CONST.__objc_selrefs: 0x6430
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x488
+   __DATA_CONST.__objc_arraydata: 0x1490
+-  __AUTH_CONST.__auth_got: 0x17e0
+-  __AUTH_CONST.__const: 0x4938
++  __AUTH_CONST.__auth_got: 0x1808
++  __AUTH_CONST.__const: 0x4b50
+   __AUTH_CONST.__cfstring: 0x11aa0
+-  __AUTH_CONST.__objc_const: 0x14af8
++  __AUTH_CONST.__objc_const: 0x14ac8
+   __AUTH_CONST.__objc_intobj: 0x1ef0
+   __AUTH_CONST.__objc_arrayobj: 0xf0
+   __AUTH_CONST.__objc_dictobj: 0x168
+-  __AUTH.__objc_data: 0x24f8
+-  __AUTH.__data: 0xd88
+-  __DATA.__objc_ivar: 0x860
+-  __DATA.__data: 0x2b90
+-  __DATA.__bss: 0x65c8
++  __AUTH.__objc_data: 0x2508
++  __AUTH.__data: 0xda8
++  __DATA.__objc_ivar: 0x85c
++  __DATA.__data: 0x2c18
++  __DATA.__bss: 0x6b38
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x2260
+-  __DATA_DIRTY.__data: 0x48
+-  __DATA_DIRTY.__bss: 0x3b8
++  __DATA_DIRTY.__data: 0x50
++  __DATA_DIRTY.__bss: 0x3c8
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/CoreLocation.framework/CoreLocation
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: B9AAA552-CD6B-3273-9DA4-1264C29952DE
+-  Functions: 8433
+-  Symbols:   20823
+-  CStrings:  11504
++  UUID: B26EEBB7-7E23-3FEA-A909-3E62652DBDDC
++  Functions: 8503
++  Symbols:   20922
++  CStrings:  11521
+ 
+Symbols:
++ +[WFSharedPhotoLibrary systemPhotoLibraryURL]
++ GCC_except_table1713
++ GCC_except_table1728
++ GCC_except_table1764
++ GCC_except_table1770
++ GCC_except_table1773
++ GCC_except_table1823
++ GCC_except_table1844
++ GCC_except_table1853
++ GCC_except_table1861
++ GCC_except_table1867
++ GCC_except_table1928
++ GCC_except_table1939
++ GCC_except_table1944
++ GCC_except_table1976
++ GCC_except_table1985
++ GCC_except_table1990
++ GCC_except_table1999
++ GCC_except_table2032
++ GCC_except_table2035
++ GCC_except_table2091
++ GCC_except_table2097
++ GCC_except_table2101
++ GCC_except_table2106
++ GCC_except_table2114
++ GCC_except_table2116
++ GCC_except_table2121
++ GCC_except_table2125
++ GCC_except_table2128
++ GCC_except_table2138
++ GCC_except_table2143
++ GCC_except_table2176
++ GCC_except_table2197
++ GCC_except_table2206
++ GCC_except_table2218
++ GCC_except_table2220
++ GCC_except_table2234
++ GCC_except_table2236
++ GCC_except_table2243
++ GCC_except_table2301
++ GCC_except_table2360
++ GCC_except_table2406
++ GCC_except_table2411
++ GCC_except_table2417
++ GCC_except_table2433
++ GCC_except_table2451
++ GCC_except_table2454
++ GCC_except_table2456
++ GCC_except_table2471
++ GCC_except_table2475
++ GCC_except_table2488
++ GCC_except_table2504
++ GCC_except_table2509
++ GCC_except_table2514
++ GCC_except_table2519
++ GCC_except_table2532
++ GCC_except_table2541
++ GCC_except_table2551
++ GCC_except_table2556
++ GCC_except_table2590
++ GCC_except_table2598
++ GCC_except_table2609
++ GCC_except_table2611
++ GCC_except_table2637
++ GCC_except_table2690
++ GCC_except_table2759
++ GCC_except_table2816
++ GCC_except_table2828
++ GCC_except_table2862
++ GCC_except_table2877
++ GCC_except_table2976
++ GCC_except_table2983
++ GCC_except_table2996
++ GCC_except_table3008
++ GCC_except_table3010
++ GCC_except_table3012
++ GCC_except_table3024
++ GCC_except_table3028
++ GCC_except_table3080
++ GCC_except_table3085
++ GCC_except_table3122
++ GCC_except_table3151
++ GCC_except_table3191
++ GCC_except_table3201
++ GCC_except_table3204
++ GCC_except_table3280
++ GCC_except_table3367
++ GCC_except_table3368
++ GCC_except_table3372
++ GCC_except_table3525
++ GCC_except_table3546
++ GCC_except_table3550
++ GCC_except_table3581
++ GCC_except_table3672
++ GCC_except_table3729
++ GCC_except_table3736
++ GCC_except_table3737
++ GCC_except_table3745
++ GCC_except_table3748
++ GCC_except_table3797
++ GCC_except_table3815
++ GCC_except_table3884
++ GCC_except_table4005
++ GCC_except_table4027
++ GCC_except_table4034
++ GCC_except_table4046
++ GCC_except_table4071
++ GCC_except_table4074
++ GCC_except_table4164
++ GCC_except_table4200
++ GCC_except_table4205
++ GCC_except_table4206
++ GCC_except_table4284
++ GCC_except_table4302
++ GCC_except_table4307
++ GCC_except_table4314
++ _AVFoundationLibrary.10363
++ _AVFoundationLibrary.14913
++ _AVFoundationLibrary.21576
++ _AVFoundationLibrary.9752
++ _AVFoundationLibraryCore.frameworkLibrary.10372
++ _AVFoundationLibraryCore.frameworkLibrary.14919
++ _AVFoundationLibraryCore.frameworkLibrary.21594
++ _AVFoundationLibraryCore.frameworkLibrary.9759
++ _ContactsLibrary.11318
++ _ContactsLibrary.11593
++ _ContactsLibrary.14039
++ _ContactsLibrary.15443
++ _ContactsLibrary.22881
++ _ContactsLibraryCore.frameworkLibrary.11347
++ _ContactsLibraryCore.frameworkLibrary.11629
++ _ContactsLibraryCore.frameworkLibrary.14050
++ _ContactsLibraryCore.frameworkLibrary.15462
++ _ContactsLibraryCore.frameworkLibrary.20885
++ _ContactsLibraryCore.frameworkLibrary.22901
++ _CoreLocationLibrary.14537
++ _CoreLocationLibrary.17562
++ _CoreLocationLibraryCore.frameworkLibrary.14546
++ _CoreLocationLibraryCore.frameworkLibrary.17564
++ _CoreLocationLibraryCore.frameworkLibrary.20083
++ _CoreLocationLibraryCore.frameworkLibrary.9064
++ _CoreLocationLibraryCore.frameworkLibrary.9806
++ _CoreMediaLibrary.10410
++ _CoreMediaLibrary.9815
++ _CoreMediaLibraryCore.frameworkLibrary.10416
++ _CoreMediaLibraryCore.frameworkLibrary.14904
++ _CoreMediaLibraryCore.frameworkLibrary.9821
++ _EventKitLibrary.9460
++ _EventKitLibraryCore.frameworkLibrary.12606
++ _EventKitLibraryCore.frameworkLibrary.21490
++ _EventKitLibraryCore.frameworkLibrary.9470
++ _FileProviderLibraryCore.frameworkLibrary.22969
++ _MapKitLibrary.14210
++ _MapKitLibrary.17549
++ _MapKitLibrary.9041
++ _MapKitLibraryCore.frameworkLibrary.12835
++ _MapKitLibraryCore.frameworkLibrary.14219
++ _MapKitLibraryCore.frameworkLibrary.14875
++ _MapKitLibraryCore.frameworkLibrary.17557
++ _MapKitLibraryCore.frameworkLibrary.9073
++ _MediaPlayerLibrary.26379
++ _MediaPlayerLibraryCore.frameworkLibrary.10396
++ _MediaPlayerLibraryCore.frameworkLibrary.21605
++ _MediaPlayerLibraryCore.frameworkLibrary.25792
++ _MediaPlayerLibraryCore.frameworkLibrary.26390
++ _NLLanguageSimplifiedChinese
++ _NLLanguageTraditionalChinese
++ _OUTLINED_FUNCTION_385
++ _OUTLINED_FUNCTION_386
++ _OUTLINED_FUNCTION_387
++ _OUTLINED_FUNCTION_388
++ _OUTLINED_FUNCTION_389
++ _OUTLINED_FUNCTION_390
++ _OUTLINED_FUNCTION_391
++ _OUTLINED_FUNCTION_392
++ _OUTLINED_FUNCTION_393
++ _OUTLINED_FUNCTION_394
++ _OUTLINED_FUNCTION_395
++ _OUTLINED_FUNCTION_396
++ _OUTLINED_FUNCTION_397
++ _PhotosLibrary.11183
++ _PhotosLibraryCore.frameworkLibrary.11187
++ _PhotosLibraryCore.frameworkLibrary.17870
++ _PhotosLibraryCore.frameworkLibrary.21634
++ _PhotosLibraryCore.frameworkLibrary.6680
++ _ReminderKitLibrary.19890
++ _ReminderKitLibraryCore.frameworkLibrary.10101
++ _ReminderKitLibraryCore.frameworkLibrary.14712
++ _ReminderKitLibraryCore.frameworkLibrary.19900
++ _UIFoundationLibrary.21106
++ _UIFoundationLibrary.25058
++ _UIFoundationLibraryCore.frameworkLibrary.12659
++ _UIFoundationLibraryCore.frameworkLibrary.19760
++ _UIFoundationLibraryCore.frameworkLibrary.21124
++ _UIFoundationLibraryCore.frameworkLibrary.25074
++ _UIFoundationLibraryCore.frameworkLibrary.8089
++ _UIKitLibrary.sLib.11726
++ _UIKitLibrary.sLib.11990
++ _UIKitLibrary.sLib.12205
++ _UIKitLibrary.sLib.17163
++ _UIKitLibrary.sLib.21545
++ _UIKitLibrary.sLib.8115
++ _UIKitLibrary.sOnce.11719
++ _UIKitLibrary.sOnce.11983
++ _UIKitLibrary.sOnce.12197
++ _UIKitLibrary.sOnce.17153
++ _UIKitLibrary.sOnce.21538
++ _UIKitLibrary.sOnce.8106
++ _UIPrintFormatterFunction.12201
++ _UIPrintFormatterFunction.17169
++ _UISimpleTextPrintFormatterFunction.8110
++ _UIViewPrintFormatterFunction.17158
++ _WFDyldBulkImageLoadCallback.19847
++ _WFEnforceClass.14532
++ _WFEnforceClass.17678
++ _WFEnforceClass.22633
++ _WebKitLibraryCore.frameworkLibrary.11736
++ _WebKitLibraryCore.frameworkLibrary.11998
++ _WebKitLibraryCore.frameworkLibrary.13892
++ _WebKitLibraryCore.frameworkLibrary.17134
++ ___42+[WFGeneratedContentItem propertyBuilders]_block_invoke_2
++ ___AVFoundationLibraryCore_block_invoke.10373
++ ___AVFoundationLibraryCore_block_invoke.14920
++ ___AVFoundationLibraryCore_block_invoke.21595
++ ___AVFoundationLibraryCore_block_invoke.9760
++ ___Block_byref_object_copy_.10997
++ ___Block_byref_object_copy_.11171
++ ___Block_byref_object_copy_.11475
++ ___Block_byref_object_copy_.15965
++ ___Block_byref_object_copy_.16292
++ ___Block_byref_object_copy_.16352
++ ___Block_byref_object_copy_.17798
++ ___Block_byref_object_copy_.18812
++ ___Block_byref_object_copy_.22316
++ ___Block_byref_object_copy_.25094
++ ___Block_byref_object_copy_.252
++ ___Block_byref_object_copy_.26469
++ ___Block_byref_object_copy_.27383
++ ___Block_byref_object_copy_.8685
++ ___Block_byref_object_copy_.8893
++ ___Block_byref_object_dispose_.10998
++ ___Block_byref_object_dispose_.11172
++ ___Block_byref_object_dispose_.11476
++ ___Block_byref_object_dispose_.15966
++ ___Block_byref_object_dispose_.16293
++ ___Block_byref_object_dispose_.16353
++ ___Block_byref_object_dispose_.17799
++ ___Block_byref_object_dispose_.18813
++ ___Block_byref_object_dispose_.22317
++ ___Block_byref_object_dispose_.25095
++ ___Block_byref_object_dispose_.253
++ ___Block_byref_object_dispose_.26470
++ ___Block_byref_object_dispose_.27384
++ ___Block_byref_object_dispose_.8686
++ ___Block_byref_object_dispose_.8894
++ ___ContactsLibraryCore_block_invoke.11348
++ ___ContactsLibraryCore_block_invoke.11630
++ ___ContactsLibraryCore_block_invoke.14051
++ ___ContactsLibraryCore_block_invoke.15463
++ ___ContactsLibraryCore_block_invoke.20886
++ ___ContactsLibraryCore_block_invoke.22902
++ ___CoreLocationLibraryCore_block_invoke.14547
++ ___CoreLocationLibraryCore_block_invoke.17565
++ ___CoreLocationLibraryCore_block_invoke.20084
++ ___CoreLocationLibraryCore_block_invoke.9065
++ ___CoreLocationLibraryCore_block_invoke.9807
++ ___CoreMediaLibraryCore_block_invoke.10417
++ ___CoreMediaLibraryCore_block_invoke.14905
++ ___CoreMediaLibraryCore_block_invoke.9822
++ ___EventKitLibraryCore_block_invoke.12607
++ ___EventKitLibraryCore_block_invoke.21491
++ ___EventKitLibraryCore_block_invoke.9471
++ ___FileProviderLibraryCore_block_invoke.22970
++ ___MapKitLibraryCore_block_invoke.12836
++ ___MapKitLibraryCore_block_invoke.14220
++ ___MapKitLibraryCore_block_invoke.14876
++ ___MapKitLibraryCore_block_invoke.17558
++ ___MapKitLibraryCore_block_invoke.9074
++ ___MediaPlayerLibraryCore_block_invoke.10397
++ ___MediaPlayerLibraryCore_block_invoke.21606
++ ___MediaPlayerLibraryCore_block_invoke.25793
++ ___MediaPlayerLibraryCore_block_invoke.26391
++ ___PhotosLibraryCore_block_invoke.11188
++ ___PhotosLibraryCore_block_invoke.17871
++ ___PhotosLibraryCore_block_invoke.21635
++ ___PhotosLibraryCore_block_invoke.6681
++ ___ReminderKitLibraryCore_block_invoke.10102
++ ___ReminderKitLibraryCore_block_invoke.14713
++ ___ReminderKitLibraryCore_block_invoke.19901
++ ___UIFoundationLibraryCore_block_invoke.12660
++ ___UIFoundationLibraryCore_block_invoke.19761
++ ___UIFoundationLibraryCore_block_invoke.21125
++ ___UIFoundationLibraryCore_block_invoke.25075
++ ___UIFoundationLibraryCore_block_invoke.8090
++ ___UIKitLibrary_block_invoke.11724
++ ___UIKitLibrary_block_invoke.11988
++ ___UIKitLibrary_block_invoke.12203
++ ___UIKitLibrary_block_invoke.17161
++ ___UIKitLibrary_block_invoke.21543
++ ___UIKitLibrary_block_invoke.8113
++ ___WebKitLibraryCore_block_invoke.11737
++ ___WebKitLibraryCore_block_invoke.11999
++ ___WebKitLibraryCore_block_invoke.13893
++ ___WebKitLibraryCore_block_invoke.17135
++ ___block_literal_global.10.21245
++ ___block_literal_global.10.9186
++ ___block_literal_global.10494
++ ___block_literal_global.10871
++ ___block_literal_global.10980
++ ___block_literal_global.11043
++ ___block_literal_global.11195
++ ___block_literal_global.114.20042
++ ___block_literal_global.11527
++ ___block_literal_global.11763
++ ___block_literal_global.11984
++ ___block_literal_global.121.10544
++ ___block_literal_global.12310
++ ___block_literal_global.12477
++ ___block_literal_global.12623
++ ___block_literal_global.13.21241
++ ___block_literal_global.13039
++ ___block_literal_global.131.20048
++ ___block_literal_global.13473
++ ___block_literal_global.13703
++ ___block_literal_global.138.20050
++ ___block_literal_global.14068
++ ___block_literal_global.14150
++ ___block_literal_global.142.11447
++ ___block_literal_global.14488
++ ___block_literal_global.14710
++ ___block_literal_global.15.21417
++ ___block_literal_global.15227
++ ___block_literal_global.15302
++ ___block_literal_global.156.20054
++ ___block_literal_global.15678
++ ___block_literal_global.15967
++ ___block_literal_global.16.25289
++ ___block_literal_global.16176
++ ___block_literal_global.163.11506
++ ___block_literal_global.16370
++ ___block_literal_global.16614
++ ___block_literal_global.17154
++ ___block_literal_global.175.18858
++ ___block_literal_global.177.20061
++ ___block_literal_global.177.24499
++ ___block_literal_global.17783
++ ___block_literal_global.180
++ ___block_literal_global.18070
++ ___block_literal_global.18433
++ ___block_literal_global.186.24501
++ ___block_literal_global.187.20064
++ ___block_literal_global.18854
++ ___block_literal_global.189.14121
++ ___block_literal_global.19013
++ ___block_literal_global.19283
++ ___block_literal_global.198.14139
++ ___block_literal_global.19848
++ ___block_literal_global.199.8011
++ ___block_literal_global.20023
++ ___block_literal_global.204.8023
++ ___block_literal_global.20479
++ ___block_literal_global.207.11210
++ ___block_literal_global.207.20072
++ ___block_literal_global.21256
++ ___block_literal_global.21427
++ ___block_literal_global.21539
++ ___block_literal_global.21648
++ ___block_literal_global.217.14062
++ ___block_literal_global.223.14029
++ ___block_literal_global.223.19936
++ ___block_literal_global.22749
++ ___block_literal_global.22906
++ ___block_literal_global.23156
++ ___block_literal_global.23407
++ ___block_literal_global.24497
++ ___block_literal_global.25285
++ ___block_literal_global.26348
++ ___block_literal_global.26412
++ ___block_literal_global.26579
++ ___block_literal_global.26663
++ ___block_literal_global.26743
++ ___block_literal_global.27249
++ ___block_literal_global.29.12216
++ ___block_literal_global.29.19017
++ ___block_literal_global.3.21252
++ ___block_literal_global.3.23159
++ ___block_literal_global.300.22467
++ ___block_literal_global.353.18426
++ ___block_literal_global.354
++ ___block_literal_global.362
++ ___block_literal_global.368.22414
++ ___block_literal_global.383
++ ___block_literal_global.406
++ ___block_literal_global.53.11720
++ ___block_literal_global.55.6839
++ ___block_literal_global.56.10884
++ ___block_literal_global.56.11537
++ ___block_literal_global.56.22751
++ ___block_literal_global.6.21248
++ ___block_literal_global.63.21566
++ ___block_literal_global.64.10874
++ ___block_literal_global.64.6831
++ ___block_literal_global.6701
++ ___block_literal_global.6838
++ ___block_literal_global.69.21568
++ ___block_literal_global.7.19285
++ ___block_literal_global.73.6827
++ ___block_literal_global.75.11530
++ ___block_literal_global.75.21570
++ ___block_literal_global.77.23185
++ ___block_literal_global.7756
++ ___block_literal_global.7968
++ ___block_literal_global.8107
++ ___block_literal_global.8713
++ ___block_literal_global.8865
++ ___block_literal_global.8996
++ ___block_literal_global.90.16611
++ ___block_literal_global.9184
++ ___block_literal_global.9662
++ ___block_literal_global.9880
++ ___getAVAssetClass_block_invoke.9768
++ ___getAVAssetExportPresetAppleM4ASymbolLoc_block_invoke.10405
++ ___getAVAssetExportSessionClass_block_invoke.10403
++ ___getAVMediaTypeVideoSymbolLoc_block_invoke.9832
++ ___getAVMetadataCommonKeyArtistSymbolLoc_block_invoke.14912
++ ___getAVMetadataCommonKeyTitleSymbolLoc_block_invoke.21575
++ ___getAVMetadataItemClass_block_invoke.14910
++ ___getAVMetadataKeySpaceCommonSymbolLoc_block_invoke.14916
++ ___getAVURLAssetClass_block_invoke.10362
++ ___getAVURLAssetClass_block_invoke.21584
++ ___getAVURLAssetClass_block_invoke.9783
++ ___getCLCircularRegionClass_block_invoke.14563
++ ___getCLGeocoderClass_block_invoke.24651
++ ___getCLLocationClass_block_invoke.20082
++ ___getCLLocationClass_block_invoke.9805
++ ___getCLLocationCoordinate2DIsValidSymbolLoc_block_invoke.17570
++ ___getCLLocationCoordinate2DIsValidSymbolLoc_block_invoke.9048
++ ___getCLLocationCoordinate2DMakeSymbolLoc_block_invoke.17575
++ ___getCLPlacemarkClass_block_invoke.14536
++ ___getCLPlacemarkClass_block_invoke.24659
++ ___getCMTimeGetSecondsSymbolLoc_block_invoke.14902
++ ___getCMTimeGetSecondsSymbolLoc_block_invoke.9814
++ ___getCMTimeRangeMakeSymbolLoc_block_invoke.10413
++ ___getCNContactBirthdayKeySymbolLoc_block_invoke.11451
++ ___getCNContactCreationDateKeySymbolLoc_block_invoke.11519
++ ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.11467
++ ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.22887
++ ___getCNContactModificationDateKeySymbolLoc_block_invoke.11516
++ ___getCNContactNicknameKeySymbolLoc_block_invoke.11523
++ ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.11463
++ ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.22880
++ ___getCNContactStoreClass_block_invoke.14085
++ ___getCNContactUrlAddressesKeySymbolLoc_block_invoke.22891
++ ___getCNLabelHomeSymbolLoc_block_invoke.11643
++ ___getCNLabelOtherSymbolLoc_block_invoke.11635
++ ___getCNLabelPhoneNumberHomeFaxSymbolLoc_block_invoke.11608
++ ___getCNLabelPhoneNumberMainSymbolLoc_block_invoke.11612
++ ___getCNLabelPhoneNumberMobileSymbolLoc_block_invoke.11618
++ ___getCNLabelPhoneNumberOtherFaxSymbolLoc_block_invoke.11592
++ ___getCNLabelPhoneNumberPagerSymbolLoc_block_invoke.11600
++ ___getCNLabelPhoneNumberWorkFaxSymbolLoc_block_invoke.11604
++ ___getCNLabelPhoneNumberiPhoneSymbolLoc_block_invoke.11622
++ ___getCNLabelWorkSymbolLoc_block_invoke.11639
++ ___getCNLabeledValueClass_block_invoke.11338
++ ___getCNLabeledValueClass_block_invoke.11656
++ ___getCNLabeledValueClass_block_invoke.14038
++ ___getCNPhoneNumberClass_block_invoke.11648
++ ___getCNPhoneNumberClass_block_invoke.14075
++ ___getCNPhoneNumberClass_block_invoke.20884
++ ___getCNSaveRequestClass_block_invoke.14079
++ ___getEKEventClass_block_invoke.9418
++ ___getMKLocalSearchClass_block_invoke.24639
++ ___getMKLocalSearchRequestClass_block_invoke.24637
++ ___getMKMapItemClass_block_invoke.9061
++ ___getMKPlacemarkClass_block_invoke.24647
++ ___getMKPlacemarkClass_block_invoke.9054
++ ___getMPMediaItemClass_block_invoke.10430
++ ___getMPMediaItemClass_block_invoke.26378
++ ___getMPMediaItemPropertyMediaTypeSymbolLoc_block_invoke.26401
++ ___getMPMediaItemPropertyTitleSymbolLoc_block_invoke.21603
++ ___getMPMediaQueryClass_block_invoke.26408
++ ___getNSAttachmentAttributeNameSymbolLoc_block_invoke.12648
++ ___getNSAttachmentAttributeNameSymbolLoc_block_invoke.19748
++ ___getNSCharacterEncodingDocumentAttributeSymbolLoc_block_invoke.21114
++ ___getNSDocumentTypeDocumentAttributeSymbolLoc_block_invoke.25057
++ ___getNSHTMLTextDocumentTypeSymbolLoc_block_invoke.21110
++ ___getNSHTMLTextDocumentTypeSymbolLoc_block_invoke.25065
++ ___getPHAssetClass_block_invoke.11182
++ ___getPHAssetClass_block_invoke.17869
++ ___getPHAssetCollectionClass_block_invoke.11232
++ ___getPHPhotoLibraryClass_block_invoke.6679
++ ___getREMReminderClass_block_invoke.19889
++ ___getWKWebViewClass_block_invoke.11997
++ ___getWKWebViewClass_block_invoke.13941
++ ___getWKWebViewClass_block_invoke.17131
++ ___getWKWebViewConfigurationClass_block_invoke.13939
++ ___getkCMTimeZeroSymbolLoc_block_invoke.10409
++ ___getkCMTimeZeroSymbolLoc_block_invoke.9827
++ _associated conformance 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLOSHAASQ
++ _associated conformance 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10ContentKit20SafetyRejectionCauseO6OriginOSHAASQ
++ _audit_stringAVFoundation.10378
++ _audit_stringAVFoundation.14923
++ _audit_stringAVFoundation.21597
++ _audit_stringAVFoundation.9766
++ _audit_stringContacts.11351
++ _audit_stringContacts.11633
++ _audit_stringContacts.14057
++ _audit_stringContacts.15466
++ _audit_stringContacts.20901
++ _audit_stringContacts.22905
++ _audit_stringCoreLocation.14553
++ _audit_stringCoreLocation.17568
++ _audit_stringCoreLocation.20087
++ _audit_stringCoreLocation.9068
++ _audit_stringCoreLocation.9810
++ _audit_stringCoreMedia.10419
++ _audit_stringCoreMedia.14908
++ _audit_stringCoreMedia.9824
++ _audit_stringEventKit.12620
++ _audit_stringEventKit.21506
++ _audit_stringEventKit.9477
++ _audit_stringFileProvider.22985
++ _audit_stringMapKit.12846
++ _audit_stringMapKit.14223
++ _audit_stringMapKit.14886
++ _audit_stringMapKit.17561
++ _audit_stringMapKit.9077
++ _audit_stringMediaPlayer.10400
++ _audit_stringMediaPlayer.21609
++ _audit_stringMediaPlayer.25808
++ _audit_stringMediaPlayer.26397
++ _audit_stringPhotos.11194
++ _audit_stringPhotos.17885
++ _audit_stringPhotos.21639
++ _audit_stringPhotos.6695
++ _audit_stringReminderKit.10117
++ _audit_stringReminderKit.14726
++ _audit_stringReminderKit.19907
++ _audit_stringUIFoundation.12664
++ _audit_stringUIFoundation.19765
++ _audit_stringUIFoundation.21127
++ _audit_stringUIFoundation.25078
++ _audit_stringUIFoundation.8093
++ _audit_stringWebKit.11752
++ _audit_stringWebKit.12015
++ _audit_stringWebKit.13899
++ _audit_stringWebKit.17150
++ _classUIPrintFormatter.12199
++ _classUIPrintFormatter.17167
++ _classUISimpleTextPrintFormatter.8108
++ _classUIViewPrintFormatter.17156
++ _getAVAssetClass.softClass.9767
++ _getAVAssetExportPresetAppleM4ASymbolLoc.ptr.10404
++ _getAVAssetExportSessionClass.softClass.10402
++ _getAVMediaTypeVideoSymbolLoc.ptr.9831
++ _getAVMetadataCommonKeyArtistSymbolLoc.ptr.14911
++ _getAVMetadataCommonKeyTitleSymbolLoc.ptr.21574
++ _getAVMetadataItemClass.softClass.14909
++ _getAVMetadataKeySpaceCommonSymbolLoc.ptr.14915
++ _getAVURLAssetClass.10356
++ _getAVURLAssetClass.9776
++ _getAVURLAssetClass.softClass.10361
++ _getAVURLAssetClass.softClass.21583
++ _getAVURLAssetClass.softClass.9782
++ _getCLCircularRegionClass.softClass.14562
++ _getCLGeocoderClass.softClass.24650
++ _getCLLocationClass.20069
++ _getCLLocationClass.softClass.20081
++ _getCLLocationClass.softClass.9804
++ _getCLLocationCoordinate2DIsValidSymbolLoc.ptr.17569
++ _getCLLocationCoordinate2DIsValidSymbolLoc.ptr.9047
++ _getCLLocationCoordinate2DMakeSymbolLoc.ptr.17574
++ _getCLPlacemarkClass.softClass.14535
++ _getCLPlacemarkClass.softClass.24658
++ _getCMTimeGetSecondsSymbolLoc.ptr.14901
++ _getCMTimeGetSecondsSymbolLoc.ptr.9813
++ _getCMTimeRangeMakeSymbolLoc.ptr.10412
++ _getCNContactBirthdayKeySymbolLoc.ptr.11450
++ _getCNContactClass.18424
++ _getCNContactCreationDateKeySymbolLoc.ptr.11518
++ _getCNContactEmailAddressesKeySymbolLoc.ptr.11466
++ _getCNContactEmailAddressesKeySymbolLoc.ptr.22886
++ _getCNContactModificationDateKeySymbolLoc.ptr.11515
++ _getCNContactNicknameKeySymbolLoc.ptr.11522
++ _getCNContactPhoneNumbersKeySymbolLoc.ptr.11462
++ _getCNContactPhoneNumbersKeySymbolLoc.ptr.22879
++ _getCNContactStoreClass.14080
++ _getCNContactStoreClass.softClass.14084
++ _getCNContactUrlAddressesKeySymbolLoc.ptr.22890
++ _getCNLabelHomeSymbolLoc.ptr.11642
++ _getCNLabelOtherSymbolLoc.ptr.11634
++ _getCNLabelPhoneNumberHomeFaxSymbolLoc.ptr.11607
++ _getCNLabelPhoneNumberMainSymbolLoc.ptr.11611
++ _getCNLabelPhoneNumberMobileSymbolLoc.ptr.11617
++ _getCNLabelPhoneNumberOtherFaxSymbolLoc.ptr.11591
++ _getCNLabelPhoneNumberPagerSymbolLoc.ptr.11599
++ _getCNLabelPhoneNumberWorkFaxSymbolLoc.ptr.11603
++ _getCNLabelPhoneNumberiPhoneSymbolLoc.ptr.11621
++ _getCNLabelWorkSymbolLoc.ptr.11638
++ _getCNLabeledValueClass.11646
++ _getCNLabeledValueClass.14036
++ _getCNLabeledValueClass.softClass.11337
++ _getCNLabeledValueClass.softClass.11655
++ _getCNLabeledValueClass.softClass.14037
++ _getCNPhoneNumberClass.softClass.11647
++ _getCNPhoneNumberClass.softClass.14074
++ _getCNPhoneNumberClass.softClass.20883
++ _getCNSaveRequestClass.softClass.14078
++ _getEKEventClass.softClass.9417
++ _getMKLocalSearchClass.softClass.24638
++ _getMKLocalSearchRequestClass.softClass.24636
++ _getMKMapItemClass.9052
++ _getMKMapItemClass.softClass.9060
++ _getMKPlacemarkClass.24645
++ _getMKPlacemarkClass.softClass.24646
++ _getMKPlacemarkClass.softClass.9053
++ _getMPMediaItemClass.softClass.10429
++ _getMPMediaItemClass.softClass.26377
++ _getMPMediaItemPropertyMediaTypeSymbolLoc.ptr.26400
++ _getMPMediaItemPropertyTitleSymbolLoc.ptr.21602
++ _getMPMediaQueryClass.softClass.26407
++ _getNSAttachmentAttributeNameSymbolLoc.ptr.12647
++ _getNSAttachmentAttributeNameSymbolLoc.ptr.19747
++ _getNSCharacterEncodingDocumentAttributeSymbolLoc.ptr.21113
++ _getNSDocumentTypeDocumentAttributeSymbolLoc.ptr.25056
++ _getNSHTMLTextDocumentTypeSymbolLoc.ptr.21109
++ _getNSHTMLTextDocumentTypeSymbolLoc.ptr.25064
++ _getPHAssetClass.11180
++ _getPHAssetClass.softClass.11181
++ _getPHAssetClass.softClass.17868
++ _getPHAssetCollectionClass.softClass.11231
++ _getPHPhotoLibraryClass.softClass.6678
++ _getREMReminderClass.softClass.19888
++ _getUIPrintFormatterClass.12190
++ _getUIPrintFormatterClass.17128
++ _getUISimpleTextPrintFormatterClass.8103
++ _getUIViewPrintFormatterClass.17129
++ _getWKWebViewClass.softClass.11996
++ _getWKWebViewClass.softClass.13940
++ _getWKWebViewClass.softClass.17130
++ _getWKWebViewConfigurationClass.softClass.13938
++ _get_enum_tag_for_layout_string 10ContentKit20SafetyRejectionCauseO
++ _getkCMTimeZeroSymbolLoc.ptr.10408
++ _getkCMTimeZeroSymbolLoc.ptr.9826
++ _initUIPrintFormatter.12196
++ _initUIPrintFormatter.17165
++ _initUISimpleTextPrintFormatter.8105
++ _initUIViewPrintFormatter.17152
++ _objc_msgSend$getRenderedUserContentWithItem:
++ _rcsid.11135
++ _rcsid.12033
++ _rcsid.12484
++ _rcsid.14693
++ _rcsid.15031
++ _rcsid.15155
++ _rcsid.15431
++ _rcsid.15818
++ _rcsid.17582
++ _rcsid.20322
++ _rcsid.20666
++ _rcsid.24369
++ _rcsid.24416
++ _rcsid.9007
++ _sharedProvider.onceToken.21647
++ _symbolic SDy_____SSG 10ContentKit21WFGenerativeModelNameO
++ _symbolic SS13rejectionInfo_t
++ _symbolic _____ 10ContentKit14AdapterVersionV
++ _symbolic _____ 10ContentKit14AdapterVersionV11DiagnosticsV
++ _symbolic _____ 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLO
++ _symbolic _____ 10ContentKit20SafetyRejectionCauseO
++ _symbolic _____ 10ContentKit20SafetyRejectionCauseO6OriginO
++ _symbolic _____5cause_t 10ContentKit20SafetyRejectionCauseO
++ _symbolic _____8category_t s6UInt32V
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10ContentKit14AdapterVersionV11DiagnosticsV10CodingKeys33_390C680CCFDE2B3FF5B81B72DA54248CLLO
++ _symbolic _____y_____SSG s17_NativeDictionaryV 10ContentKit21WFGenerativeModelNameO
++ _symbolic _____y______SdtG s23_ContiguousArrayStorageC So10NLLanguagea
++ _type_layout_string 10ContentKit14AdapterVersionV11DiagnosticsV
++ _type_layout_string 10ContentKit20SafetyRejectionCauseO
+- -[WFContentItem contentItemWithOriginatingGenerativeModelIdentifier:]
+- -[WFContentItem originatingGenerativeModelIdentifier]
+- GCC_except_table1711
+- GCC_except_table1726
+- GCC_except_table1763
+- GCC_except_table1768
+- GCC_except_table1772
+- GCC_except_table1822
+- GCC_except_table1843
+- GCC_except_table1852
+- GCC_except_table1860
+- GCC_except_table1866
+- GCC_except_table1927
+- GCC_except_table1938
+- GCC_except_table1943
+- GCC_except_table1975
+- GCC_except_table1983
+- GCC_except_table1989
+- GCC_except_table1998
+- GCC_except_table2031
+- GCC_except_table2034
+- GCC_except_table2089
+- GCC_except_table2096
+- GCC_except_table2100
+- GCC_except_table2105
+- GCC_except_table2112
+- GCC_except_table2115
+- GCC_except_table2120
+- GCC_except_table2124
+- GCC_except_table2127
+- GCC_except_table2137
+- GCC_except_table2142
+- GCC_except_table2175
+- GCC_except_table2194
+- GCC_except_table2205
+- GCC_except_table2217
+- GCC_except_table2219
+- GCC_except_table2232
+- GCC_except_table2235
+- GCC_except_table2242
+- GCC_except_table2300
+- GCC_except_table2359
+- GCC_except_table2405
+- GCC_except_table2410
+- GCC_except_table2416
+- GCC_except_table2432
+- GCC_except_table2450
+- GCC_except_table2453
+- GCC_except_table2455
+- GCC_except_table2470
+- GCC_except_table2473
+- GCC_except_table2487
+- GCC_except_table2502
+- GCC_except_table2507
+- GCC_except_table2513
+- GCC_except_table2518
+- GCC_except_table2531
+- GCC_except_table2540
+- GCC_except_table2550
+- GCC_except_table2555
+- GCC_except_table2586
+- GCC_except_table2592
+- GCC_except_table2608
+- GCC_except_table2610
+- GCC_except_table2636
+- GCC_except_table2689
+- GCC_except_table2758
+- GCC_except_table2815
+- GCC_except_table2827
+- GCC_except_table2861
+- GCC_except_table2876
+- GCC_except_table2975
+- GCC_except_table2982
+- GCC_except_table2995
+- GCC_except_table3007
+- GCC_except_table3009
+- GCC_except_table3011
+- GCC_except_table3023
+- GCC_except_table3027
+- GCC_except_table3079
+- GCC_except_table3084
+- GCC_except_table3121
+- GCC_except_table3150
+- GCC_except_table3190
+- GCC_except_table3200
+- GCC_except_table3203
+- GCC_except_table3279
+- GCC_except_table3365
+- GCC_except_table3366
+- GCC_except_table3370
+- GCC_except_table3523
+- GCC_except_table3544
+- GCC_except_table3548
+- GCC_except_table3577
+- GCC_except_table3670
+- GCC_except_table3727
+- GCC_except_table3734
+- GCC_except_table3735
+- GCC_except_table3743
+- GCC_except_table3746
+- GCC_except_table3795
+- GCC_except_table3813
+- GCC_except_table3882
+- GCC_except_table4003
+- GCC_except_table4025
+- GCC_except_table4032
+- GCC_except_table4044
+- GCC_except_table4069
+- GCC_except_table4072
+- GCC_except_table4162
+- GCC_except_table4196
+- GCC_except_table4201
+- GCC_except_table4204
+- GCC_except_table4282
+- GCC_except_table4300
+- GCC_except_table4305
+- GCC_except_table4312
+- _AVFoundationLibrary.10359
+- _AVFoundationLibrary.14910
+- _AVFoundationLibrary.21567
+- _AVFoundationLibrary.9748
+- _AVFoundationLibraryCore.frameworkLibrary.10368
+- _AVFoundationLibraryCore.frameworkLibrary.14916
+- _AVFoundationLibraryCore.frameworkLibrary.21585
+- _AVFoundationLibraryCore.frameworkLibrary.9755
+- _ContactsLibrary.11314
+- _ContactsLibrary.11589
+- _ContactsLibrary.14035
+- _ContactsLibrary.15438
+- _ContactsLibrary.22873
+- _ContactsLibraryCore.frameworkLibrary.11343
+- _ContactsLibraryCore.frameworkLibrary.11625
+- _ContactsLibraryCore.frameworkLibrary.14046
+- _ContactsLibraryCore.frameworkLibrary.15457
+- _ContactsLibraryCore.frameworkLibrary.20876
+- _ContactsLibraryCore.frameworkLibrary.22893
+- _CoreLocationLibrary.14534
+- _CoreLocationLibrary.17553
+- _CoreLocationLibraryCore.frameworkLibrary.14543
+- _CoreLocationLibraryCore.frameworkLibrary.17555
+- _CoreLocationLibraryCore.frameworkLibrary.20074
+- _CoreLocationLibraryCore.frameworkLibrary.9060
+- _CoreLocationLibraryCore.frameworkLibrary.9802
+- _CoreMediaLibrary.10406
+- _CoreMediaLibrary.9811
+- _CoreMediaLibraryCore.frameworkLibrary.10412
+- _CoreMediaLibraryCore.frameworkLibrary.14901
+- _CoreMediaLibraryCore.frameworkLibrary.9817
+- _EventKitLibrary.9456
+- _EventKitLibraryCore.frameworkLibrary.12602
+- _EventKitLibraryCore.frameworkLibrary.21481
+- _EventKitLibraryCore.frameworkLibrary.9466
+- _FileProviderLibraryCore.frameworkLibrary.22961
+- _MapKitLibrary.14206
+- _MapKitLibrary.17540
+- _MapKitLibrary.9037
+- _MapKitLibraryCore.frameworkLibrary.12831
+- _MapKitLibraryCore.frameworkLibrary.14215
+- _MapKitLibraryCore.frameworkLibrary.14872
+- _MapKitLibraryCore.frameworkLibrary.17548
+- _MapKitLibraryCore.frameworkLibrary.9069
+- _MediaPlayerLibrary.26383
+- _MediaPlayerLibraryCore.frameworkLibrary.10392
+- _MediaPlayerLibraryCore.frameworkLibrary.21596
+- _MediaPlayerLibraryCore.frameworkLibrary.25794
+- _MediaPlayerLibraryCore.frameworkLibrary.26394
+- _OBJC_IVAR_$_WFContentItem._originatingGenerativeModelIdentifier
+- _PhotosLibrary.11179
+- _PhotosLibraryCore.frameworkLibrary.11183
+- _PhotosLibraryCore.frameworkLibrary.17861
+- _PhotosLibraryCore.frameworkLibrary.21625
+- _PhotosLibraryCore.frameworkLibrary.6678
+- _ReminderKitLibrary.19881
+- _ReminderKitLibraryCore.frameworkLibrary.10097
+- _ReminderKitLibraryCore.frameworkLibrary.14709
+- _ReminderKitLibraryCore.frameworkLibrary.19891
+- _UIFoundationLibrary.21097
+- _UIFoundationLibrary.25060
+- _UIFoundationLibraryCore.frameworkLibrary.12655
+- _UIFoundationLibraryCore.frameworkLibrary.19751
+- _UIFoundationLibraryCore.frameworkLibrary.21115
+- _UIFoundationLibraryCore.frameworkLibrary.25076
+- _UIFoundationLibraryCore.frameworkLibrary.8084
+- _UIKitLibrary.sLib.11722
+- _UIKitLibrary.sLib.11986
+- _UIKitLibrary.sLib.12201
+- _UIKitLibrary.sLib.17154
+- _UIKitLibrary.sLib.21536
+- _UIKitLibrary.sLib.8110
+- _UIKitLibrary.sOnce.11715
+- _UIKitLibrary.sOnce.11979
+- _UIKitLibrary.sOnce.12193
+- _UIKitLibrary.sOnce.17144
+- _UIKitLibrary.sOnce.21529
+- _UIKitLibrary.sOnce.8101
+- _UIPrintFormatterFunction.12197
+- _UIPrintFormatterFunction.17160
+- _UISimpleTextPrintFormatterFunction.8105
+- _UIViewPrintFormatterFunction.17149
+- _WFDyldBulkImageLoadCallback.19838
+- _WFEnforceClass.14529
+- _WFEnforceClass.17669
+- _WFEnforceClass.22625
+- _WebKitLibraryCore.frameworkLibrary.11732
+- _WebKitLibraryCore.frameworkLibrary.11994
+- _WebKitLibraryCore.frameworkLibrary.13888
+- _WebKitLibraryCore.frameworkLibrary.17125
+- ___AVFoundationLibraryCore_block_invoke.10369
+- ___AVFoundationLibraryCore_block_invoke.14917
+- ___AVFoundationLibraryCore_block_invoke.21586
+- ___AVFoundationLibraryCore_block_invoke.9756
+- ___Block_byref_object_copy_.10993
+- ___Block_byref_object_copy_.11167
+- ___Block_byref_object_copy_.11471
+- ___Block_byref_object_copy_.15956
+- ___Block_byref_object_copy_.16283
+- ___Block_byref_object_copy_.16343
+- ___Block_byref_object_copy_.17789
+- ___Block_byref_object_copy_.18803
+- ___Block_byref_object_copy_.22305
+- ___Block_byref_object_copy_.25096
+- ___Block_byref_object_copy_.255
+- ___Block_byref_object_copy_.26473
+- ___Block_byref_object_copy_.27388
+- ___Block_byref_object_copy_.8680
+- ___Block_byref_object_copy_.8889
+- ___Block_byref_object_dispose_.10994
+- ___Block_byref_object_dispose_.11168
+- ___Block_byref_object_dispose_.11472
+- ___Block_byref_object_dispose_.15957
+- ___Block_byref_object_dispose_.16284
+- ___Block_byref_object_dispose_.16344
+- ___Block_byref_object_dispose_.17790
+- ___Block_byref_object_dispose_.18804
+- ___Block_byref_object_dispose_.22306
+- ___Block_byref_object_dispose_.25097
+- ___Block_byref_object_dispose_.256
+- ___Block_byref_object_dispose_.26474
+- ___Block_byref_object_dispose_.27389
+- ___Block_byref_object_dispose_.8681
+- ___Block_byref_object_dispose_.8890
+- ___ContactsLibraryCore_block_invoke.11344
+- ___ContactsLibraryCore_block_invoke.11626
+- ___ContactsLibraryCore_block_invoke.14047
+- ___ContactsLibraryCore_block_invoke.15458
+- ___ContactsLibraryCore_block_invoke.20877
+- ___ContactsLibraryCore_block_invoke.22894
+- ___CoreLocationLibraryCore_block_invoke.14544
+- ___CoreLocationLibraryCore_block_invoke.17556
+- ___CoreLocationLibraryCore_block_invoke.20075
+- ___CoreLocationLibraryCore_block_invoke.9061
+- ___CoreLocationLibraryCore_block_invoke.9803
+- ___CoreMediaLibraryCore_block_invoke.10413
+- ___CoreMediaLibraryCore_block_invoke.14902
+- ___CoreMediaLibraryCore_block_invoke.9818
+- ___EventKitLibraryCore_block_invoke.12603
+- ___EventKitLibraryCore_block_invoke.21482
+- ___EventKitLibraryCore_block_invoke.9467
+- ___FileProviderLibraryCore_block_invoke.22962
+- ___MapKitLibraryCore_block_invoke.12832
+- ___MapKitLibraryCore_block_invoke.14216
+- ___MapKitLibraryCore_block_invoke.14873
+- ___MapKitLibraryCore_block_invoke.17549
+- ___MapKitLibraryCore_block_invoke.9070
+- ___MediaPlayerLibraryCore_block_invoke.10393
+- ___MediaPlayerLibraryCore_block_invoke.21597
+- ___MediaPlayerLibraryCore_block_invoke.25795
+- ___MediaPlayerLibraryCore_block_invoke.26395
+- ___PhotosLibraryCore_block_invoke.11184
+- ___PhotosLibraryCore_block_invoke.17862
+- ___PhotosLibraryCore_block_invoke.21626
+- ___PhotosLibraryCore_block_invoke.6679
+- ___ReminderKitLibraryCore_block_invoke.10098
+- ___ReminderKitLibraryCore_block_invoke.14710
+- ___ReminderKitLibraryCore_block_invoke.19892
+- ___UIFoundationLibraryCore_block_invoke.12656
+- ___UIFoundationLibraryCore_block_invoke.19752
+- ___UIFoundationLibraryCore_block_invoke.21116
+- ___UIFoundationLibraryCore_block_invoke.25077
+- ___UIFoundationLibraryCore_block_invoke.8085
+- ___UIKitLibrary_block_invoke.11720
+- ___UIKitLibrary_block_invoke.11984
+- ___UIKitLibrary_block_invoke.12199
+- ___UIKitLibrary_block_invoke.17152
+- ___UIKitLibrary_block_invoke.21534
+- ___UIKitLibrary_block_invoke.8108
+- ___WebKitLibraryCore_block_invoke.11733
+- ___WebKitLibraryCore_block_invoke.11995
+- ___WebKitLibraryCore_block_invoke.13889
+- ___WebKitLibraryCore_block_invoke.17126
+- ___block_literal_global.10.21236
+- ___block_literal_global.10.9182
+- ___block_literal_global.10490
+- ___block_literal_global.10867
+- ___block_literal_global.10976
+- ___block_literal_global.11039
+- ___block_literal_global.11191
+- ___block_literal_global.114.20033
+- ___block_literal_global.11523
+- ___block_literal_global.11759
+- ___block_literal_global.11980
+- ___block_literal_global.121.10540
+- ___block_literal_global.12306
+- ___block_literal_global.12473
+- ___block_literal_global.12619
+- ___block_literal_global.13.21232
+- ___block_literal_global.13036
+- ___block_literal_global.131.20039
+- ___block_literal_global.13470
+- ___block_literal_global.13700
+- ___block_literal_global.138.20041
+- ___block_literal_global.14064
+- ___block_literal_global.14146
+- ___block_literal_global.142.11443
+- ___block_literal_global.14485
+- ___block_literal_global.14707
+- ___block_literal_global.15.21408
+- ___block_literal_global.15222
+- ___block_literal_global.15297
+- ___block_literal_global.156.20045
+- ___block_literal_global.15673
+- ___block_literal_global.15958
+- ___block_literal_global.16.25291
+- ___block_literal_global.16167
+- ___block_literal_global.163.11502
+- ___block_literal_global.16361
+- ___block_literal_global.16605
+- ___block_literal_global.17145
+- ___block_literal_global.175.18849
+- ___block_literal_global.177.20052
+- ___block_literal_global.177.24500
+- ___block_literal_global.17774
+- ___block_literal_global.18061
+- ___block_literal_global.18424
+- ___block_literal_global.186.24502
+- ___block_literal_global.187.20055
+- ___block_literal_global.18845
+- ___block_literal_global.189.14117
+- ___block_literal_global.19004
+- ___block_literal_global.19274
+- ___block_literal_global.198.14135
+- ___block_literal_global.19839
+- ___block_literal_global.199.8006
+- ___block_literal_global.20014
+- ___block_literal_global.204.8018
+- ___block_literal_global.20470
+- ___block_literal_global.207.11206
+- ___block_literal_global.207.20063
+- ___block_literal_global.21247
+- ___block_literal_global.21418
+- ___block_literal_global.21530
+- ___block_literal_global.21639
+- ___block_literal_global.217.14058
+- ___block_literal_global.223.14025
+- ___block_literal_global.223.19927
+- ___block_literal_global.22741
+- ___block_literal_global.22898
+- ___block_literal_global.23148
+- ___block_literal_global.23399
+- ___block_literal_global.24498
+- ___block_literal_global.25287
+- ___block_literal_global.26352
+- ___block_literal_global.26416
+- ___block_literal_global.26583
+- ___block_literal_global.26667
+- ___block_literal_global.26747
+- ___block_literal_global.27254
+- ___block_literal_global.29.12212
+- ___block_literal_global.29.19008
+- ___block_literal_global.3.21243
+- ___block_literal_global.3.23151
+- ___block_literal_global.303
+- ___block_literal_global.353.18417
+- ___block_literal_global.357
+- ___block_literal_global.365
+- ___block_literal_global.371
+- ___block_literal_global.386.22398
+- ___block_literal_global.409
+- ___block_literal_global.53.11716
+- ___block_literal_global.55.6834
+- ___block_literal_global.56.10880
+- ___block_literal_global.56.11533
+- ___block_literal_global.56.22743
+- ___block_literal_global.6.21239
+- ___block_literal_global.63.21557
+- ___block_literal_global.64.10870
+- ___block_literal_global.64.6826
+- ___block_literal_global.6697
+- ___block_literal_global.6833
+- ___block_literal_global.69.21559
+- ___block_literal_global.7.19276
+- ___block_literal_global.73.6822
+- ___block_literal_global.75.11526
+- ___block_literal_global.75.21561
+- ___block_literal_global.77.23177
+- ___block_literal_global.7751
+- ___block_literal_global.7963
+- ___block_literal_global.8102
+- ___block_literal_global.8708
+- ___block_literal_global.8861
+- ___block_literal_global.8992
+- ___block_literal_global.90.16602
+- ___block_literal_global.9180
+- ___block_literal_global.9658
+- ___block_literal_global.9876
+- ___getAVAssetClass_block_invoke.9764
+- ___getAVAssetExportPresetAppleM4ASymbolLoc_block_invoke.10401
+- ___getAVAssetExportSessionClass_block_invoke.10399
+- ___getAVMediaTypeVideoSymbolLoc_block_invoke.9828
+- ___getAVMetadataCommonKeyArtistSymbolLoc_block_invoke.14909
+- ___getAVMetadataCommonKeyTitleSymbolLoc_block_invoke.21566
+- ___getAVMetadataItemClass_block_invoke.14907
+- ___getAVMetadataKeySpaceCommonSymbolLoc_block_invoke.14913
+- ___getAVURLAssetClass_block_invoke.10358
+- ___getAVURLAssetClass_block_invoke.21575
+- ___getAVURLAssetClass_block_invoke.9779
+- ___getCLCircularRegionClass_block_invoke.14560
+- ___getCLGeocoderClass_block_invoke.24650
+- ___getCLLocationClass_block_invoke.20073
+- ___getCLLocationClass_block_invoke.9801
+- ___getCLLocationCoordinate2DIsValidSymbolLoc_block_invoke.17561
+- ___getCLLocationCoordinate2DIsValidSymbolLoc_block_invoke.9044
+- ___getCLLocationCoordinate2DMakeSymbolLoc_block_invoke.17566
+- ___getCLPlacemarkClass_block_invoke.14533
+- ___getCLPlacemarkClass_block_invoke.24658
+- ___getCMTimeGetSecondsSymbolLoc_block_invoke.14899
+- ___getCMTimeGetSecondsSymbolLoc_block_invoke.9810
+- ___getCMTimeRangeMakeSymbolLoc_block_invoke.10409
+- ___getCNContactBirthdayKeySymbolLoc_block_invoke.11447
+- ___getCNContactCreationDateKeySymbolLoc_block_invoke.11515
+- ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.11463
+- ___getCNContactEmailAddressesKeySymbolLoc_block_invoke.22879
+- ___getCNContactModificationDateKeySymbolLoc_block_invoke.11512
+- ___getCNContactNicknameKeySymbolLoc_block_invoke.11519
+- ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.11459
+- ___getCNContactPhoneNumbersKeySymbolLoc_block_invoke.22872
+- ___getCNContactStoreClass_block_invoke.14081
+- ___getCNContactUrlAddressesKeySymbolLoc_block_invoke.22883
+- ___getCNLabelHomeSymbolLoc_block_invoke.11639
+- ___getCNLabelOtherSymbolLoc_block_invoke.11631
+- ___getCNLabelPhoneNumberHomeFaxSymbolLoc_block_invoke.11604
+- ___getCNLabelPhoneNumberMainSymbolLoc_block_invoke.11608
+- ___getCNLabelPhoneNumberMobileSymbolLoc_block_invoke.11614
+- ___getCNLabelPhoneNumberOtherFaxSymbolLoc_block_invoke.11588
+- ___getCNLabelPhoneNumberPagerSymbolLoc_block_invoke.11596
+- ___getCNLabelPhoneNumberWorkFaxSymbolLoc_block_invoke.11600
+- ___getCNLabelPhoneNumberiPhoneSymbolLoc_block_invoke.11618
+- ___getCNLabelWorkSymbolLoc_block_invoke.11635
+- ___getCNLabeledValueClass_block_invoke.11334
+- ___getCNLabeledValueClass_block_invoke.11652
+- ___getCNLabeledValueClass_block_invoke.14034
+- ___getCNPhoneNumberClass_block_invoke.11644
+- ___getCNPhoneNumberClass_block_invoke.14071
+- ___getCNPhoneNumberClass_block_invoke.20875
+- ___getCNSaveRequestClass_block_invoke.14075
+- ___getEKEventClass_block_invoke.9414
+- ___getMKLocalSearchClass_block_invoke.24638
+- ___getMKLocalSearchRequestClass_block_invoke.24636
+- ___getMKMapItemClass_block_invoke.9057
+- ___getMKPlacemarkClass_block_invoke.24646
+- ___getMKPlacemarkClass_block_invoke.9050
+- ___getMPMediaItemClass_block_invoke.10426
+- ___getMPMediaItemClass_block_invoke.26382
+- ___getMPMediaItemPropertyMediaTypeSymbolLoc_block_invoke.26405
+- ___getMPMediaItemPropertyTitleSymbolLoc_block_invoke.21594
+- ___getMPMediaQueryClass_block_invoke.26412
+- ___getNSAttachmentAttributeNameSymbolLoc_block_invoke.12644
+- ___getNSAttachmentAttributeNameSymbolLoc_block_invoke.19739
+- ___getNSCharacterEncodingDocumentAttributeSymbolLoc_block_invoke.21105
+- ___getNSDocumentTypeDocumentAttributeSymbolLoc_block_invoke.25059
+- ___getNSHTMLTextDocumentTypeSymbolLoc_block_invoke.21101
+- ___getNSHTMLTextDocumentTypeSymbolLoc_block_invoke.25067
+- ___getPHAssetClass_block_invoke.11178
+- ___getPHAssetClass_block_invoke.17860
+- ___getPHAssetCollectionClass_block_invoke.11228
+- ___getPHPhotoLibraryClass_block_invoke.6677
+- ___getREMReminderClass_block_invoke.19880
+- ___getWKWebViewClass_block_invoke.11993
+- ___getWKWebViewClass_block_invoke.13937
+- ___getWKWebViewClass_block_invoke.17122
+- ___getWKWebViewConfigurationClass_block_invoke.13935
+- ___getkCMTimeZeroSymbolLoc_block_invoke.10405
+- ___getkCMTimeZeroSymbolLoc_block_invoke.9823
+- ___swift_deallocate_boxed_opaque_existential_1
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_ContentKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_ContentKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_ContentKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_ContentKit
+- _audit_stringAVFoundation.10374
+- _audit_stringAVFoundation.14920
+- _audit_stringAVFoundation.21588
+- _audit_stringAVFoundation.9762
+- _audit_stringContacts.11347
+- _audit_stringContacts.11629
+- _audit_stringContacts.14053
+- _audit_stringContacts.15461
+- _audit_stringContacts.20892
+- _audit_stringContacts.22897
+- _audit_stringCoreLocation.14550
+- _audit_stringCoreLocation.17559
+- _audit_stringCoreLocation.20078
+- _audit_stringCoreLocation.9064
+- _audit_stringCoreLocation.9806
+- _audit_stringCoreMedia.10415
+- _audit_stringCoreMedia.14905
+- _audit_stringCoreMedia.9820
+- _audit_stringEventKit.12616
+- _audit_stringEventKit.21497
+- _audit_stringEventKit.9473
+- _audit_stringFileProvider.22977
+- _audit_stringMapKit.12842
+- _audit_stringMapKit.14219
+- _audit_stringMapKit.14883
+- _audit_stringMapKit.17552
+- _audit_stringMapKit.9073
+- _audit_stringMediaPlayer.10396
+- _audit_stringMediaPlayer.21600
+- _audit_stringMediaPlayer.25810
+- _audit_stringMediaPlayer.26401
+- _audit_stringPhotos.11190
+- _audit_stringPhotos.17876
+- _audit_stringPhotos.21630
+- _audit_stringPhotos.6692
+- _audit_stringReminderKit.10113
+- _audit_stringReminderKit.14723
+- _audit_stringReminderKit.19898
+- _audit_stringUIFoundation.12660
+- _audit_stringUIFoundation.19756
+- _audit_stringUIFoundation.21118
+- _audit_stringUIFoundation.25080
+- _audit_stringUIFoundation.8088
+- _audit_stringWebKit.11748
+- _audit_stringWebKit.12011
+- _audit_stringWebKit.13895
+- _audit_stringWebKit.17141
+- _classUIPrintFormatter.12195
+- _classUIPrintFormatter.17158
+- _classUISimpleTextPrintFormatter.8103
+- _classUIViewPrintFormatter.17147
+- _getAVAssetClass.softClass.9763
+- _getAVAssetExportPresetAppleM4ASymbolLoc.ptr.10400
+- _getAVAssetExportSessionClass.softClass.10398
+- _getAVMediaTypeVideoSymbolLoc.ptr.9827
+- _getAVMetadataCommonKeyArtistSymbolLoc.ptr.14908
+- _getAVMetadataCommonKeyTitleSymbolLoc.ptr.21565
+- _getAVMetadataItemClass.softClass.14906
+- _getAVMetadataKeySpaceCommonSymbolLoc.ptr.14912
+- _getAVURLAssetClass.10352
+- _getAVURLAssetClass.9772
+- _getAVURLAssetClass.softClass.10357
+- _getAVURLAssetClass.softClass.21574
+- _getAVURLAssetClass.softClass.9778
+- _getCLCircularRegionClass.softClass.14559
+- _getCLGeocoderClass.softClass.24649
+- _getCLLocationClass.20060
+- _getCLLocationClass.softClass.20072
+- _getCLLocationClass.softClass.9800
+- _getCLLocationCoordinate2DIsValidSymbolLoc.ptr.17560
+- _getCLLocationCoordinate2DIsValidSymbolLoc.ptr.9043
+- _getCLLocationCoordinate2DMakeSymbolLoc.ptr.17565
+- _getCLPlacemarkClass.softClass.14532
+- _getCLPlacemarkClass.softClass.24657
+- _getCMTimeGetSecondsSymbolLoc.ptr.14898
+- _getCMTimeGetSecondsSymbolLoc.ptr.9809
+- _getCMTimeRangeMakeSymbolLoc.ptr.10408
+- _getCNContactBirthdayKeySymbolLoc.ptr.11446
+- _getCNContactClass.18415
+- _getCNContactCreationDateKeySymbolLoc.ptr.11514
+- _getCNContactEmailAddressesKeySymbolLoc.ptr.11462
+- _getCNContactEmailAddressesKeySymbolLoc.ptr.22878
+- _getCNContactModificationDateKeySymbolLoc.ptr.11511
+- _getCNContactNicknameKeySymbolLoc.ptr.11518
+- _getCNContactPhoneNumbersKeySymbolLoc.ptr.11458
+- _getCNContactPhoneNumbersKeySymbolLoc.ptr.22871
+- _getCNContactStoreClass.14076
+- _getCNContactStoreClass.softClass.14080
+- _getCNContactUrlAddressesKeySymbolLoc.ptr.22882
+- _getCNLabelHomeSymbolLoc.ptr.11638
+- _getCNLabelOtherSymbolLoc.ptr.11630
+- _getCNLabelPhoneNumberHomeFaxSymbolLoc.ptr.11603
+- _getCNLabelPhoneNumberMainSymbolLoc.ptr.11607
+- _getCNLabelPhoneNumberMobileSymbolLoc.ptr.11613
+- _getCNLabelPhoneNumberOtherFaxSymbolLoc.ptr.11587
+- _getCNLabelPhoneNumberPagerSymbolLoc.ptr.11595
+- _getCNLabelPhoneNumberWorkFaxSymbolLoc.ptr.11599
+- _getCNLabelPhoneNumberiPhoneSymbolLoc.ptr.11617
+- _getCNLabelWorkSymbolLoc.ptr.11634
+- _getCNLabeledValueClass.11642
+- _getCNLabeledValueClass.14032
+- _getCNLabeledValueClass.softClass.11333
+- _getCNLabeledValueClass.softClass.11651
+- _getCNLabeledValueClass.softClass.14033
+- _getCNPhoneNumberClass.softClass.11643
+- _getCNPhoneNumberClass.softClass.14070
+- _getCNPhoneNumberClass.softClass.20874
+- _getCNSaveRequestClass.softClass.14074
+- _getEKEventClass.softClass.9413
+- _getMKLocalSearchClass.softClass.24637
+- _getMKLocalSearchRequestClass.softClass.24635
+- _getMKMapItemClass.9048
+- _getMKMapItemClass.softClass.9056
+- _getMKPlacemarkClass.24644
+- _getMKPlacemarkClass.softClass.24645
+- _getMKPlacemarkClass.softClass.9049
+- _getMPMediaItemClass.softClass.10425
+- _getMPMediaItemClass.softClass.26381
+- _getMPMediaItemPropertyMediaTypeSymbolLoc.ptr.26404
+- _getMPMediaItemPropertyTitleSymbolLoc.ptr.21593
+- _getMPMediaQueryClass.softClass.26411
+- _getNSAttachmentAttributeNameSymbolLoc.ptr.12643
+- _getNSAttachmentAttributeNameSymbolLoc.ptr.19738
+- _getNSCharacterEncodingDocumentAttributeSymbolLoc.ptr.21104
+- _getNSDocumentTypeDocumentAttributeSymbolLoc.ptr.25058
+- _getNSHTMLTextDocumentTypeSymbolLoc.ptr.21100
+- _getNSHTMLTextDocumentTypeSymbolLoc.ptr.25066
+- _getPHAssetClass.11176
+- _getPHAssetClass.softClass.11177
+- _getPHAssetClass.softClass.17859
+- _getPHAssetCollectionClass.softClass.11227
+- _getPHPhotoLibraryClass.softClass.6676
+- _getREMReminderClass.softClass.19879
+- _getUIPrintFormatterClass.12186
+- _getUIPrintFormatterClass.17119
+- _getUISimpleTextPrintFormatterClass.8098
+- _getUIViewPrintFormatterClass.17120
+- _getWKWebViewClass.softClass.11992
+- _getWKWebViewClass.softClass.13936
+- _getWKWebViewClass.softClass.17121
+- _getWKWebViewConfigurationClass.softClass.13934
+- _getkCMTimeZeroSymbolLoc.ptr.10404
+- _getkCMTimeZeroSymbolLoc.ptr.9822
+- _initUIPrintFormatter.12192
+- _initUIPrintFormatter.17156
+- _initUISimpleTextPrintFormatter.8100
+- _initUIViewPrintFormatter.17143
+- _objc_msgSend$decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:
+- _objc_msgSend$originatingGenerativeModelIdentifier
+- _rcsid.11131
+- _rcsid.12029
+- _rcsid.12480
+- _rcsid.14690
+- _rcsid.15026
+- _rcsid.15150
+- _rcsid.15426
+- _rcsid.15809
+- _rcsid.17573
+- _rcsid.20313
+- _rcsid.20657
+- _rcsid.24370
+- _rcsid.24417
+- _rcsid.9003
+- _sharedProvider.onceToken.21638
+- _symbolic Say_____G 9PromptKit0A0V
+- _symbolic So13WFContentItemCSg
+- _symbolic So17WFDateContentItemCSg
+- _symbolic _____ySo13WFContentItemCSgG s23_ContiguousArrayStorageC
+- _symbolic _____ySo17WFDateContentItemCSgG s23_ContiguousArrayStorageC
+CStrings:
++ " [Internal Only: "
++ "<could not encode JSON data into string>"
++ "<failed to encode diagnostics>"
++ "Deny list override rejected"
++ "Failed to encode diagnostics: %@"
++ "Failed to render user prompt: %@"
++ "Input text rejected by sanitizer with violation category: "
++ "Language recognizer rejected"
++ "Model returned a handleWithCare response (v2 adapter)"
++ "Model returned an unsafe response (v1 adapter)"
++ "Model returned an unsafe response (v2 adapter)"
++ "Rejected by response sanitizer: "
++ "Rendered User Content"
++ "SCMLImageSanitizer rejected the input"
++ "Script validator rejected"
++ "The model cannot provide a response for this request. Please revise the request and try again."
++ "WFLanguageRecognizer: failed to determine topLanguages, falling back to default locale %{public}s"
++ "WFLanguageRecognizer: isLikelyMath = YES; prioritizing currentLocaleId %{public}s"
++ "WFLanguageRecognizer: isLikelyMath=YES because >= 15%% of chars are numbers and we found one or more math symbols"
++ "WFLanguageRecognizer: isShortSingleWordText = YES"
++ "WFLanguageRecognizer: picking first model-supported locale %{public}s"
++ "WFLanguageRecognizer: picking supported locale %{public}s"
++ "WFLanguageRecognizer: picking system locale %{public}s with pDelta=%{public}f"
++ "WFLanguageRecognizer: prioritizing currentLocaleId %{public}s"
++ "WFLanguageRecognizer: topLanguages = %{public}s"
++ "getRenderedUserContentWithItem:"
+- " [Internal Only: Hit .safetyRejected error due to unsafe content]"
+- "NLLanguageRecognizer not able to recognize any languages...."
+- "T@\"NSString\",R,N,V_originatingGenerativeModelIdentifier"
+- "The action could not run for the request provided. Please revise the request and try again."
+- "_originatingGenerativeModelIdentifier"
+- "contentItemWithOriginatingGenerativeModelIdentifier:"
+- "decodeDictionaryWithKeysOfClass:objectsOfClass:forKey:"
+- "originatingGenerativeModelIdentifier"
+
+```

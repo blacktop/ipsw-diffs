@@ -1,0 +1,1819 @@
+## DashBoard
+
+> `/System/Library/PrivateFrameworks/DashBoard.framework/DashBoard`
+
+```diff
+
+-512.2.4.0.0
+-  __TEXT.__text: 0x2076ac
+-  __TEXT.__auth_stubs: 0x4c90
+-  __TEXT.__objc_methlist: 0x15d10
+-  __TEXT.__const: 0x4c44
+-  __TEXT.__cstring: 0xfee6
+-  __TEXT.__gcc_except_tab: 0x1cac
+-  __TEXT.__oslogstring: 0x1045c
+-  __TEXT.__swift5_typeref: 0x6220
+-  __TEXT.__swift5_fieldmd: 0x1fe0
+-  __TEXT.__constg_swiftt: 0x3f98
+-  __TEXT.__swift5_reflstr: 0x27f7
+-  __TEXT.__swift5_capture: 0x1458
+-  __TEXT.__swift5_types: 0x31c
+-  __TEXT.__swift5_assocty: 0x340
+-  __TEXT.__swift5_proto: 0x180
++517.3.2.0.0
++  __TEXT.__text: 0x222f60
++  __TEXT.__auth_stubs: 0x4f90
++  __TEXT.__objc_methlist: 0x1631c
++  __TEXT.__const: 0x5714
++  __TEXT.__cstring: 0x10fd6
++  __TEXT.__gcc_except_tab: 0x1d38
++  __TEXT.__oslogstring: 0x10f6c
++  __TEXT.__swift5_typeref: 0x6b40
++  __TEXT.__swift5_fieldmd: 0x24b8
++  __TEXT.__constg_swiftt: 0x4bc0
++  __TEXT.__swift5_reflstr: 0x2c6f
++  __TEXT.__swift5_capture: 0x1a88
++  __TEXT.__swift5_types: 0x3a8
++  __TEXT.__swift5_assocty: 0x3f8
++  __TEXT.__swift5_proto: 0x1a0
+   __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_builtin: 0x1cc
++  __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift_as_entry: 0x40
+   __TEXT.__swift_as_ret: 0x40
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x6780
+-  __TEXT.__eh_frame: 0x227c
+-  __TEXT.__objc_classname: 0x2aa6
+-  __TEXT.__objc_methname: 0x39035
+-  __TEXT.__objc_methtype: 0xb776
+-  __TEXT.__objc_stubs: 0x21c20
+-  __DATA_CONST.__got: 0x2698
+-  __DATA_CONST.__const: 0x3698
+-  __DATA_CONST.__objc_classlist: 0xa30
++  __TEXT.__unwind_info: 0x6ea8
++  __TEXT.__eh_frame: 0x2394
++  __TEXT.__objc_classname: 0x2919
++  __TEXT.__objc_methname: 0x39023
++  __TEXT.__objc_methtype: 0xb956
++  __TEXT.__objc_stubs: 0x21940
++  __DATA_CONST.__got: 0x2708
++  __DATA_CONST.__const: 0x3690
++  __DATA_CONST.__objc_classlist: 0xa78
+   __DATA_CONST.__objc_nlclslist: 0x48
+-  __DATA_CONST.__objc_catlist: 0xb8
+-  __DATA_CONST.__objc_protolist: 0x930
++  __DATA_CONST.__objc_catlist: 0xc0
++  __DATA_CONST.__objc_protolist: 0x968
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc2e0
+-  __DATA_CONST.__objc_protorefs: 0x418
+-  __DATA_CONST.__objc_superrefs: 0x598
++  __DATA_CONST.__objc_selrefs: 0xc420
++  __DATA_CONST.__objc_protorefs: 0x438
++  __DATA_CONST.__objc_superrefs: 0x580
+   __DATA_CONST.__objc_arraydata: 0x190
+-  __AUTH_CONST.__auth_got: 0x2658
+-  __AUTH_CONST.__const: 0x5db8
+-  __AUTH_CONST.__cfstring: 0x80a0
+-  __AUTH_CONST.__objc_const: 0x47510
+-  __AUTH_CONST.__objc_intobj: 0x378
++  __AUTH_CONST.__auth_got: 0x27d8
++  __AUTH_CONST.__const: 0x6fc0
++  __AUTH_CONST.__cfstring: 0x8180
++  __AUTH_CONST.__objc_const: 0x49008
++  __AUTH_CONST.__objc_intobj: 0x360
+   __AUTH_CONST.__objc_arrayobj: 0x1f8
+-  __AUTH_CONST.__objc_doubleobj: 0x120
++  __AUTH_CONST.__objc_doubleobj: 0xc0
+   __AUTH_CONST.__objc_dictobj: 0x78
+-  __AUTH.__objc_data: 0xa9c8
+-  __AUTH.__data: 0x1d78
+-  __DATA.__objc_ivar: 0x13b4
+-  __DATA.__data: 0x7818
+-  __DATA.__bss: 0x3550
+-  __DATA.__common: 0x228
++  __AUTH.__objc_data: 0xcc60
++  __AUTH.__data: 0x2350
++  __DATA.__objc_ivar: 0x135c
++  __DATA.__data: 0x7d60
++  __DATA.__bss: 0x39c0
++  __DATA.__common: 0x240
+   __DATA_DIRTY.__objc_data: 0x640
+   __DATA_DIRTY.__bss: 0x168
+   __DATA_DIRTY.__common: 0x8
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftObservation.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 08377718-557B-3C6C-A8BB-59690465B4DA
+-  Functions: 11027
+-  Symbols:   26338
+-  CStrings:  14733
++  UUID: 74E99F29-BE5A-38F7-B8ED-7A4727CDD791
++  Functions: 11764
++  Symbols:   26604
++  CStrings:  14889
+ 
+Symbols:
++ +[DBSmartWidgetView viewWithPrediction:predictedSize:]
++ -[DBAnalytics clusterElementDidChangeVisibility:foreground:]
++ -[DBBannerAuthority .cxx_destruct]
++ -[DBBannerAuthority assistantPseudoPresentable]
++ -[DBBannerAuthority delegate]
++ -[DBBannerAuthority setAssistantPseudoPresentable:]
++ -[DBBannerAuthority setDelegate:]
++ -[DBBannerAuthority setSuspendedForAssistant:]
++ -[DBDashboard _animateClearLockoutWindow]
++ -[DBDashboard _handleSmartStackConfigurationEvent:]
++ -[DBDashboard presentSmartStackConfiguratorWithConfiguration:]
++ -[DBDashboardHomeViewController _cacheIconImagesForCurrentTraitCollection]
++ -[DBDashboardHomeViewController _maxWidgetDimmingViewAlpha]
++ -[DBDashboardHomeViewController isApplicationPresented]
++ -[DBDashboardHomeViewController setIsApplicationPresented:]
++ -[DBDashboardHomeViewController userInterfaceStyleChanged]
++ -[DBDockRootViewController _traitEnvironmentDidChange:previousTraitCollection:]
++ -[DBFolderView internalDockPageControlHorizontalOffset]
++ -[DBIconListPageControl hitTest:withEvent:]
++ -[DBLockOutController automakerOverlayStateMonitor:didUpdateLockOut:]
++ -[DBLockOutController automakerOverlayStateMonitor:didUpdateOverlays:]
++ -[DBLockOutController overlayStateMonitor]
++ -[DBLockOutController registerAutomakerOverlayStateMonitor:]
++ -[DBLockOutController setOverlayStateMonitor:]
++ -[DBSmartStackManagerConfiguration .cxx_destruct]
++ -[DBSmartStackManagerConfiguration actionTitle]
++ -[DBSmartStackManagerConfiguration action]
++ -[DBSmartStackManagerConfiguration alertSubtitle]
++ -[DBSmartStackManagerConfiguration alertTitle]
++ -[DBSmartStackManagerConfiguration initWithAlertTitle:alertSubtitle:actionTitle:action:]
++ -[DBSmartWidgetActionButton initWithUIImage:]
++ -[DBSmartWidgetActionButton updateImage:]
++ -[DBSmartWidgetCalendarPrediction managerConfigurationWithAction:]
++ -[DBSmartWidgetEngine clearedPredictionsForSession]
++ -[DBSmartWidgetEngine sessionShouldHidePrediction:]
++ -[DBSmartWidgetEngine setClearedPredictionsForSession:]
++ -[DBSmartWidgetHomePrediction managerConfigurationWithAction:]
++ -[DBSmartWidgetLiveActivityPrediction alertingWidget]
++ -[DBSmartWidgetLiveActivityPrediction managerConfigurationWithAction:]
++ -[DBSmartWidgetLiveActivityPrediction setAlertingWidget:]
++ -[DBSmartWidgetLiveActivitySource activityPredictions]
++ -[DBSmartWidgetLiveActivitySource didUpdateAlertingLiveActivityWithActivityDescriptor:]
++ -[DBSmartWidgetLiveActivitySource didUpdateAlertingLiveActivityWithActivityDescriptor:].cold.1
++ -[DBSmartWidgetLiveActivitySource liveActivityNameWithDescriptor:]
++ -[DBSmartWidgetLiveActivityView _updateViews].cold.4
++ -[DBSmartWidgetLiveActivityView initWithFrame:predictedSize:]
++ -[DBSmartWidgetLiveActivityView layoutSubviews].cold.2
++ -[DBSmartWidgetLiveActivityView setPredictedBounds:].cold.1
++ -[DBSmartWidgetPrediction shortDescription]
++ -[DBSmartWidgetRangeBasedView _runWidgetPrimaryButtonAction]
++ -[DBSmartWidgetRangeBasedView canBecomeFocused]
++ -[DBSmartWidgetRangeBasedView predictionImageButton]
++ -[DBSmartWidgetRangeBasedView setPredictionImageButton:]
++ -[DBSmartWidgetView canBecomeFocused]
++ -[DBSmartWidgetViewController _updateToMostRecentSuccessfulPrediction]
++ -[DBSmartWidgetViewController _updateToMostRecentSuccessfulPrediction].cold.1
++ -[DBSmartWidgetViewController _updateToMostRecentSuccessfulPrediction].cold.2
++ -[DBSmartWidgetViewController _updateToMostRecentSuccessfulPrediction].cold.3
++ -[DBSmartWidgetViewController _updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:]
++ -[DBSmartWidgetViewController _updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:].cold.1
++ -[DBSmartWidgetViewController carouselVC]
++ -[DBSmartWidgetViewController resolveForNoPredictions]
++ -[DBSmartWidgetViewController setCarouselVC:]
++ -[DBSmartWidgetViewController setUsesCarouselStyle:]
++ -[DBSmartWidgetViewController setWantsToShowPrediction:].cold.1
++ -[DBSmartWidgetViewController usesCarouselStyle]
++ -[DBSplashScreenAlert environmentConfiguration]
++ -[DBSplashScreenAlert initWithEnvironmentConfiguration:]
++ -[DBSplashScreenAlert setEnvironmentConfiguration:]
++ -[_DBAssistantPresentable requestIdentifier]
++ -[_DBAssistantPresentable requesterIdentifier]
++ GCC_except_table100
++ GCC_except_table103
++ GCC_except_table154
++ GCC_except_table167
++ GCC_except_table20
++ GCC_except_table209
++ GCC_except_table211
++ GCC_except_table216
++ GCC_except_table217
++ GCC_except_table28
++ GCC_except_table35
++ GCC_except_table377
++ GCC_except_table380
++ GCC_except_table381
++ GCC_except_table42
++ GCC_except_table72
++ GCC_except_table79
++ GCC_except_table89
++ GCC_except_table92
++ GCC_except_table96
++ _DBReconnectingWithNewOverrideCanvasKey
++ _FBSOpenApplicationOptionKeyAppLink4LS
++ _OBJC_CLASS_$_CAFBluetoothStatus
++ _OBJC_CLASS_$_CAFCellularStatus
++ _OBJC_CLASS_$_CAFCurrentUserStatus
++ _OBJC_CLASS_$_CAFExteriorConditions
++ _OBJC_CLASS_$_CAFOverlayView
++ _OBJC_CLASS_$_CAFWiFiStatus
++ _OBJC_CLASS_$_CAPackage
++ _OBJC_CLASS_$_CRSUICAPackageView
++ _OBJC_CLASS_$_DBSmartStackManagerConfiguration
++ _OBJC_CLASS_$_NSCompoundPredicate
++ _OBJC_CLASS_$_STStatusBarDataBoolImageEntry
++ _OBJC_CLASS_$__DBAssistantPresentable
++ _OBJC_CLASS_$__TtC9DashBoard15DBAnimationView
++ _OBJC_CLASS_$__TtC9DashBoard19DBAnimationSettings
++ _OBJC_CLASS_$__TtC9DashBoard19DBAppToAppAnimation
++ _OBJC_CLASS_$__TtC9DashBoard20DBAppToHomeAnimation
++ _OBJC_CLASS_$__TtC9DashBoard20DBDashboardAnimation
++ _OBJC_CLASS_$__TtC9DashBoard20DBHomeToAppAnimation
++ _OBJC_CLASS_$__TtC9DashBoard21DBSmartWidgetCarousel
++ _OBJC_CLASS_$__TtC9DashBoard23DBToStackedAppAnimation
++ _OBJC_CLASS_$__TtC9DashBoard25DBFromStackedAppAnimation
++ _OBJC_CLASS_$__TtC9DashBoard28DBAppToHomeAnimationSettings
++ _OBJC_CLASS_$__TtC9DashBoard28DBHomeToAppAnimationSettings
++ _OBJC_CLASS_$__TtC9DashBoard29DBAutomakerOverlayLockoutView
++ _OBJC_CLASS_$__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ _OBJC_CLASS_$__TtC9DashBoard31DBToStackedAppAnimationSettings
++ _OBJC_CLASS_$__TtC9DashBoard33DBFromStackedAppAnimationSettings
++ _OBJC_CLASS_$__TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton
++ _OBJC_CLASS_$__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ _OBJC_CLASS_$__UIViewGlassGroup
++ _OBJC_IVAR_$_DBBannerAuthority._assistantPseudoPresentable
++ _OBJC_IVAR_$_DBBannerAuthority.delegate
++ _OBJC_IVAR_$_DBDashboardHomeViewController._isApplicationPresented
++ _OBJC_IVAR_$_DBLockOutController._overlayStateMonitor
++ _OBJC_IVAR_$_DBSmartStackManagerConfiguration._action
++ _OBJC_IVAR_$_DBSmartStackManagerConfiguration._actionTitle
++ _OBJC_IVAR_$_DBSmartStackManagerConfiguration._alertSubtitle
++ _OBJC_IVAR_$_DBSmartStackManagerConfiguration._alertTitle
++ _OBJC_IVAR_$_DBSmartWidgetEngine._clearedPredictionsForSession
++ _OBJC_IVAR_$_DBSmartWidgetLiveActivityPrediction._alertingWidget
++ _OBJC_IVAR_$_DBSmartWidgetLiveActivitySource._activityPredictions
++ _OBJC_IVAR_$_DBSmartWidgetRangeBasedView._predictionImageButton
++ _OBJC_IVAR_$_DBSmartWidgetViewController._carouselVC
++ _OBJC_IVAR_$_DBSmartWidgetViewController._usesCarouselStyle
++ _OBJC_IVAR_$_DBSplashScreenAlert._environmentConfiguration
++ _OBJC_METACLASS_$_DBSmartStackManagerConfiguration
++ _OBJC_METACLASS_$__DBAssistantPresentable
++ _OBJC_METACLASS_$__TtC9DashBoard15DBAnimationView
++ _OBJC_METACLASS_$__TtC9DashBoard19DBAnimationSettings
++ _OBJC_METACLASS_$__TtC9DashBoard19DBAppToAppAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard20DBAppToHomeAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard20DBDashboardAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard20DBHomeToAppAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard21DBSmartWidgetCarousel
++ _OBJC_METACLASS_$__TtC9DashBoard23DBToStackedAppAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard25DBFromStackedAppAnimation
++ _OBJC_METACLASS_$__TtC9DashBoard28DBAppToHomeAnimationSettings
++ _OBJC_METACLASS_$__TtC9DashBoard28DBHomeToAppAnimationSettings
++ _OBJC_METACLASS_$__TtC9DashBoard29DBAutomakerOverlayLockoutView
++ _OBJC_METACLASS_$__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ _OBJC_METACLASS_$__TtC9DashBoard31DBToStackedAppAnimationSettings
++ _OBJC_METACLASS_$__TtC9DashBoard33DBFromStackedAppAnimationSettings
++ _OBJC_METACLASS_$__TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton
++ _OBJC_METACLASS_$__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ _OBJC_METACLASS_$__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF27_DBAppSwitchDosidoAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF34_DBAppSwitchReducedMotionAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView
++ _OBJC_METACLASS_$__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D33_DBSuspendAppToHomeScaleAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D41_DBSuspendAppToHomeReducedMotionAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A34_DBLaunchAppFromHomeScaleAnimation
++ _OBJC_METACLASS_$__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A42_DBLaunchAppFromHomeReducedMotionAnimation
++ _SBHCacheIconImagesForApplicationsWithTraitCollection
++ _UIFontTextStyleTitle3
++ __CATEGORY_CAFOverlayView_$_DashBoard
++ __CATEGORY_PROTOCOLS_CAFOverlayView_$_DashBoard
++ __CLASS_METHODS__TtC9DashBoard19DBAppToAppAnimation
++ __CLASS_METHODS__TtC9DashBoard20DBAppToHomeAnimation
++ __CLASS_METHODS__TtC9DashBoard20DBHomeToAppAnimation
++ __CLASS_METHODS__TtC9DashBoard23DBToStackedAppAnimation
++ __CLASS_METHODS__TtC9DashBoard25DBFromStackedAppAnimation
++ __DATA__TtC9DashBoard15DBAnimationView
++ __DATA__TtC9DashBoard19DBAnimationSettings
++ __DATA__TtC9DashBoard19DBAppToAppAnimation
++ __DATA__TtC9DashBoard20DBAppToHomeAnimation
++ __DATA__TtC9DashBoard20DBDashboardAnimation
++ __DATA__TtC9DashBoard20DBHomeToAppAnimation
++ __DATA__TtC9DashBoard21DBSmartWidgetCarousel
++ __DATA__TtC9DashBoard23DBToStackedAppAnimation
++ __DATA__TtC9DashBoard25DBFromStackedAppAnimation
++ __DATA__TtC9DashBoard26TimelinePlaybackController
++ __DATA__TtC9DashBoard28DBAppToHomeAnimationSettings
++ __DATA__TtC9DashBoard28DBHomeToAppAnimationSettings
++ __DATA__TtC9DashBoard29DBAutomakerOverlayLockoutView
++ __DATA__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ __DATA__TtC9DashBoard31DBToStackedAppAnimationSettings
++ __DATA__TtC9DashBoard33DBFromStackedAppAnimationSettings
++ __DATA__TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton
++ __DATA__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ __DATA__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF27_DBAppSwitchDosidoAnimation
++ __DATA__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF34_DBAppSwitchReducedMotionAnimation
++ __DATA__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView
++ __DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation
++ __DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D33_DBSuspendAppToHomeScaleAnimation
++ __DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D41_DBSuspendAppToHomeReducedMotionAnimation
++ __DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation
++ __DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A34_DBLaunchAppFromHomeScaleAnimation
++ __DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A42_DBLaunchAppFromHomeReducedMotionAnimation
++ __INSTANCE_METHODS__TtC9DashBoard15DBAnimationView
++ __INSTANCE_METHODS__TtC9DashBoard19DBAnimationSettings
++ __INSTANCE_METHODS__TtC9DashBoard19DBAppToAppAnimation
++ __INSTANCE_METHODS__TtC9DashBoard20DBAppToHomeAnimation
++ __INSTANCE_METHODS__TtC9DashBoard20DBDashboardAnimation
++ __INSTANCE_METHODS__TtC9DashBoard20DBHomeToAppAnimation
++ __INSTANCE_METHODS__TtC9DashBoard23DBToStackedAppAnimation
++ __INSTANCE_METHODS__TtC9DashBoard25DBFromStackedAppAnimation
++ __INSTANCE_METHODS__TtC9DashBoard28DBAppToHomeAnimationSettings
++ __INSTANCE_METHODS__TtC9DashBoard28DBHomeToAppAnimationSettings
++ __INSTANCE_METHODS__TtC9DashBoard31DBToStackedAppAnimationSettings
++ __INSTANCE_METHODS__TtC9DashBoard33DBFromStackedAppAnimationSettings
++ __INSTANCE_METHODS__TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton
++ __INSTANCE_METHODS__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ __INSTANCE_METHODS__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF27_DBAppSwitchDosidoAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF34_DBAppSwitchReducedMotionAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D33_DBSuspendAppToHomeScaleAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D41_DBSuspendAppToHomeReducedMotionAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A34_DBLaunchAppFromHomeScaleAnimation
++ __INSTANCE_METHODS__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A42_DBLaunchAppFromHomeReducedMotionAnimation
++ __IVARS__TtC9DashBoard15DBAnimationView
++ __IVARS__TtC9DashBoard19DBAnimationSettings
++ __IVARS__TtC9DashBoard20DBDashboardAnimation
++ __IVARS__TtC9DashBoard21DBSmartWidgetCarousel
++ __IVARS__TtC9DashBoard26TimelinePlaybackController
++ __IVARS__TtC9DashBoard28DBAppToHomeAnimationSettings
++ __IVARS__TtC9DashBoard28DBHomeToAppAnimationSettings
++ __IVARS__TtC9DashBoard29DBAutomakerOverlayLockoutView
++ __IVARS__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ __IVARS__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ __IVARS__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView
++ __IVARS__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation
++ __IVARS__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation
++ __METACLASS_DATA__TtC9DashBoard15DBAnimationView
++ __METACLASS_DATA__TtC9DashBoard19DBAnimationSettings
++ __METACLASS_DATA__TtC9DashBoard19DBAppToAppAnimation
++ __METACLASS_DATA__TtC9DashBoard20DBAppToHomeAnimation
++ __METACLASS_DATA__TtC9DashBoard20DBDashboardAnimation
++ __METACLASS_DATA__TtC9DashBoard20DBHomeToAppAnimation
++ __METACLASS_DATA__TtC9DashBoard21DBSmartWidgetCarousel
++ __METACLASS_DATA__TtC9DashBoard23DBToStackedAppAnimation
++ __METACLASS_DATA__TtC9DashBoard25DBFromStackedAppAnimation
++ __METACLASS_DATA__TtC9DashBoard26TimelinePlaybackController
++ __METACLASS_DATA__TtC9DashBoard28DBAppToHomeAnimationSettings
++ __METACLASS_DATA__TtC9DashBoard28DBHomeToAppAnimationSettings
++ __METACLASS_DATA__TtC9DashBoard29DBAutomakerOverlayLockoutView
++ __METACLASS_DATA__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ __METACLASS_DATA__TtC9DashBoard31DBToStackedAppAnimationSettings
++ __METACLASS_DATA__TtC9DashBoard33DBFromStackedAppAnimationSettings
++ __METACLASS_DATA__TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton
++ __METACLASS_DATA__TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage
++ __METACLASS_DATA__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF27_DBAppSwitchDosidoAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF34_DBAppSwitchReducedMotionAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView
++ __METACLASS_DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D33_DBSuspendAppToHomeScaleAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D41_DBSuspendAppToHomeReducedMotionAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A34_DBLaunchAppFromHomeScaleAnimation
++ __METACLASS_DATA__TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A42_DBLaunchAppFromHomeReducedMotionAnimation
++ __OBJC_$_INSTANCE_METHODS_DBSmartStackManagerConfiguration
++ __OBJC_$_INSTANCE_METHODS__DBAssistantPresentable
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard21DBSmartWidgetCarousel(DashBoard|DashBoard1)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard26DBWidgetHomeViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard29DBAutomakerOverlayLockoutView(DashBoard)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoard30DBAutomakerOverlayStateMonitor(DashBoard|DashBoard1|DashBoard2)
++ __OBJC_$_INSTANCE_METHODS__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView(DashBoard)
++ __OBJC_$_INSTANCE_VARIABLES_DBBannerAuthority
++ __OBJC_$_INSTANCE_VARIABLES_DBSmartStackManagerConfiguration
++ __OBJC_$_PROP_LIST_DBSmartStackManagerConfiguration
++ __OBJC_$_PROP_LIST__DBAssistantPresentable
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_CAFOverlayViewObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SBHWidgetStackViewControllerObserver
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __OBJC_$_PROTOCOL_METHOD_TYPES_CAFOverlayViewObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES_SBHWidgetStackViewControllerObserver
++ __OBJC_$_PROTOCOL_METHOD_TYPES__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __OBJC_$_PROTOCOL_REFS_CAFOverlayViewObserver
++ __OBJC_$_PROTOCOL_REFS_SBHWidgetStackViewControllerObserver
++ __OBJC_CLASS_PROTOCOLS_$__DBAssistantPresentable
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard21DBSmartWidgetCarousel(DashBoard|DashBoard1)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard26DBWidgetHomeViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6|DashBoard7)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard29DBAutomakerOverlayLockoutView(DashBoard)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard30DBAutomakerOverlayStateMonitor(DashBoard|DashBoard1|DashBoard2)
++ __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView(DashBoard)
++ __OBJC_CLASS_RO_$_DBSmartStackManagerConfiguration
++ __OBJC_CLASS_RO_$__DBAssistantPresentable
++ __OBJC_LABEL_PROTOCOL_$_CAFOverlayViewObserver
++ __OBJC_LABEL_PROTOCOL_$_SBHWidgetStackViewControllerObserver
++ __OBJC_LABEL_PROTOCOL_$__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __OBJC_METACLASS_RO_$_DBSmartStackManagerConfiguration
++ __OBJC_METACLASS_RO_$__DBAssistantPresentable
++ __OBJC_PROTOCOL_$_CAFOverlayViewObserver
++ __OBJC_PROTOCOL_$_SBHWidgetStackViewControllerObserver
++ __OBJC_PROTOCOL_$__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __PROPERTIES__TtC9DashBoard15DBAnimationView
++ __PROPERTIES__TtC9DashBoard19DBAnimationSettings
++ __PROPERTIES__TtC9DashBoard20DBDashboardAnimation
++ __PROPERTIES__TtC9DashBoard28DBAppToHomeAnimationSettings
++ __PROPERTIES__TtC9DashBoard28DBHomeToAppAnimationSettings
++ __PROPERTIES__TtC9DashBoard30DBAutomakerOverlayStateMonitor
++ __PROTOCOLS__TtC9DashBoard21DBLiveActivityMonitor.6
++ __PROTOCOL_INSTANCE_METHODS__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __PROTOCOL_INSTANCE_METHODS__TtP9DashBoard9DBOverlay_
++ __PROTOCOL_METHOD_TYPES__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __PROTOCOL_METHOD_TYPES__TtP9DashBoard9DBOverlay_
++ __PROTOCOL_PROPERTIES__TtP9DashBoard9DBOverlay_
++ __PROTOCOL__TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_
++ __PROTOCOL__TtP9DashBoard9DBOverlay_
++ ___101-[DBSmartWidgetViewController _updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:]_block_invoke
++ ___101-[DBSmartWidgetViewController _updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:]_block_invoke.cold.1
++ ___101-[DBSmartWidgetViewController _updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:]_block_invoke.cold.2
++ ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.704
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.656
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.657
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.673
++ ___33-[DBDashboard _handleSessionURL:]_block_invoke.673.cold.1
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke.713
++ ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.714
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.487
++ ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.490
++ ___39-[DBHome _updateLastUsedServiceOfType:]_block_invoke.81
++ ___39-[DBHome _updateLastUsedServiceOfType:]_block_invoke.cold.1
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.564
++ ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.565
++ ___41-[DBDashboard _animateClearLockoutWindow]_block_invoke
++ ___41-[DBSmartWidgetEngine currentPredictions]_block_invoke.295
++ ___42-[DBSessionController _applyAXPreferences]_block_invoke.342
++ ___42-[DBSessionController _applyAXPreferences]_block_invoke.342.cold.1
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.239
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.240
++ ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke_2
++ ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.718
++ ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.554
++ ___54-[DBSmartWidgetViewController resolveForNoPredictions]_block_invoke
++ ___54-[DBSmartWidgetViewController resolveForNoPredictions]_block_invoke.cold.1
++ ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.219
++ ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.226
++ ___56-[DBSplashScreenAlert initWithEnvironmentConfiguration:]_block_invoke
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.475
++ ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.482
++ ___59-[DBSessionController _handleSessionConnectWithThemeAsset:]_block_invoke.374
++ ___59-[DBSessionController _handleSessionConnectWithThemeAsset:]_block_invoke.374.cold.1
++ ___60-[DBAnalytics clusterElementDidChangeVisibility:foreground:]_block_invoke
++ ___62-[DBDashboard presentSmartStackConfiguratorWithConfiguration:]_block_invoke
++ ___62-[DBDashboard presentSmartStackConfiguratorWithConfiguration:]_block_invoke_2
++ ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.303
++ ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.305
++ ___66-[DBDashboardRootViewController _updateHomeViewControllerVisible:]_block_invoke
++ ___70-[DBSmartWidgetViewController _updateToMostRecentSuccessfulPrediction]_block_invoke
++ ___75-[DBDashboardHomeViewController workspace:stateDidChangeFromState:toState:]_block_invoke
++ ___75-[DBDashboardHomeViewController workspace:stateDidChangeFromState:toState:]_block_invoke_2
++ ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.151
++ ___79-[DBTodayViewController environmentConfiguration:mapsAppearanceStyleDidChange:]_block_invoke.202
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.628
++ ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.629
++ ___block_descriptor_40_e8_32s_e40_B32?0"DBSmartWidgetPrediction"8Q16^B24ls32l8
++ ___block_descriptor_40_e8_32s_e50_B24?0"DBSmartWidgetPrediction"8"NSDictionary"16ls32l8
++ ___block_descriptor_56_e8_32s40s48s_e57_v16?0"_TtC9DashBoard31DBToStackedAppAnimationSettings"8ls32l8s40l8s48l8
++ ___block_descriptor_56_e8_32s40s48s_e59_v16?0"_TtC9DashBoard33DBFromStackedAppAnimationSettings"8ls32l8s40l8s48l8
++ ___block_descriptor_64_e8_32s40s48w_e5_v8?0lw48l8s32l8s40l8
++ ___block_descriptor_72_e8_32s40s48s56s64s_e45_v16?0"_TtC9DashBoard19DBAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64s_e54_v16?0"_TtC9DashBoard28DBAppToHomeAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64s_e54_v16?0"_TtC9DashBoard28DBHomeToAppAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_96_e8_32s40s48s56s64s72s80s88w_e5_v8?0lw88l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8
++ ___block_literal_global.146
++ ___block_literal_global.1479
++ ___block_literal_global.236
++ ___block_literal_global.316
++ ___block_literal_global.337
++ ___block_literal_global.344
++ ___block_literal_global.376
++ ___block_literal_global.466
++ ___block_literal_global.489
++ ___block_literal_global.492
++ ___block_literal_global.569
++ ___block_literal_global.612
++ ___block_literal_global.663
++ ___block_literal_global.709
++ ___block_literal_global.716
++ ___block_literal_global.721
++ ___block_literal_global.728
++ ___swift_memcpy24_8
++ _associated conformance 9DashBoard18SmartWidgetWrapperV7SwiftUI19UIViewRepresentableAaD4View
++ _associated conformance 9DashBoard18SmartWidgetWrapperV7SwiftUI4ViewAA4BodyAdEP_AdE
++ _associated conformance 9DashBoard21CAPackageTimelineViewV7SwiftUI0E0AA4BodyAdEP_AdE
++ _associated conformance 9DashBoard21CAPackageTimelineViewV7SwiftUI19UIViewRepresentableAaD0E0
++ _associated conformance 9DashBoard21DBWidgetHomeIntroViewV7SwiftUI0F0AA4BodyAdEP_AdE
++ _associated conformance 9DashBoard26BalancedLinesWidthModifierV7SwiftUI04ViewF0AA4BodyAdEP_AD0I0
++ _associated conformance So23DBSmartWidgetPredictionCs12Identifiable9DashBoard2IDsACP_SH
++ _block_copy_helper.105
++ _block_copy_helper.106
++ _block_copy_helper.111
++ _block_copy_helper.119
++ _block_copy_helper.123
++ _block_copy_helper.126
++ _block_copy_helper.129
++ _block_copy_helper.133
++ _block_copy_helper.136
++ _block_copy_helper.139
++ _block_copy_helper.145
++ _block_copy_helper.149
++ _block_copy_helper.158
++ _block_copy_helper.181
++ _block_copy_helper.36
++ _block_copy_helper.42
++ _block_copy_helper.53
++ _block_copy_helper.68
++ _block_copy_helper.87
++ _block_copy_helper.89
++ _block_copy_helper.95
++ _block_copy_helper.99
++ _block_descriptor.101
++ _block_descriptor.107
++ _block_descriptor.108
++ _block_descriptor.113
++ _block_descriptor.121
++ _block_descriptor.125
++ _block_descriptor.128
++ _block_descriptor.131
++ _block_descriptor.135
++ _block_descriptor.138
++ _block_descriptor.141
++ _block_descriptor.147
++ _block_descriptor.151
++ _block_descriptor.160
++ _block_descriptor.183
++ _block_descriptor.38
++ _block_descriptor.44
++ _block_descriptor.55
++ _block_descriptor.70
++ _block_descriptor.89
++ _block_descriptor.91
++ _block_descriptor.97
++ _block_destroy_helper.100
++ _block_destroy_helper.106
++ _block_destroy_helper.107
++ _block_destroy_helper.112
++ _block_destroy_helper.120
++ _block_destroy_helper.124
++ _block_destroy_helper.127
++ _block_destroy_helper.130
++ _block_destroy_helper.134
++ _block_destroy_helper.137
++ _block_destroy_helper.140
++ _block_destroy_helper.146
++ _block_destroy_helper.150
++ _block_destroy_helper.159
++ _block_destroy_helper.182
++ _block_destroy_helper.37
++ _block_destroy_helper.43
++ _block_destroy_helper.54
++ _block_destroy_helper.69
++ _block_destroy_helper.88
++ _block_destroy_helper.90
++ _block_destroy_helper.96
++ _flat unique 9DashBoard38DBAutomakerOverlayStateMonitorObserver_p
++ _flat unique 9DashBoard9DBOverlay_p
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA18_AnimationModifierVySbGG_AA14GeometryReaderVyACyACyAA6VStackVyAGyACyACyACyAA012_ConditionalD0Vy9DashBoard017CAPackageTimelineG0VAIGAA11_ClipEffectVyAA9RectangleVGGAA12_FrameLayoutVGAA017_AppearanceActionJ0VG_ACyAA6SpacerVA3_GAA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQOyACyAA4TextVAA022_EnvironmentKeyWritingJ0VyA15_SgGG_Qo_A10_ACyACyA12_AAE7kerningyQr12CoreGraphics7CGFloatVFQOyA20__Qo_A24_GAT018BalancedLinesWidthJ0VGA10_A12_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQOyAA6ButtonVyACyA25_A3_GG_012CarPlayAssetB019ElevatedButtonStyleVyAA07RoundedU0VGQo_tGGAA05_FlexvW0VGAA09_PositionW0VGGtGGAA08_OpacityT0VGAA05_BlurT0VGAA06_ScaleT0VGAAA11_HPA65_AAA11_HPA62_AAA11_HPA59_AAA11_HPyHC_A61_AA0gJ0HPyHCHC_A64_AAA69_HPyHCHC_A67_AAA69_HPyHCHC.25
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAEyAEyAEyAA014_ViewModifier_D0Vy9DashBoard018BalancedLinesWidthG0VGAA022_EnvironmentKeyWritingG0VyAA13TextAlignmentOGGAMySiSgGGAA16_FixedSizeLayoutVGAMyAA0P0V14TruncationModeOGGAA06_FrameT0VGAEyAEyAkVGAA011_BackgroundG0VyAEyAA14GeometryReaderVyAEyAA5ColorVAA017_AppearanceActionG0VGGAA07_HiddenG0VGGGGAA0F0HPA4_AAA22_HPA1_AAA22_HPAwAA22_HPAtAA22_HPAqAA22_HPAkAA22_HPyHC_ApA0fG0HPyHCHC_AsAA23_HPyHCHC_AvAA23_HPyHCHC_A0_AAA23_HPyHCHC_A3_AAA23_HPyHCHC_A20_AAA22_HPA5_AAA22_HPAkAA22_HPyHC_AvAA23_HPyHCHC_A19_AAA23_HPyHCHCHC.26
++ _get_witness_table 7SwiftUI4ViewRzlAA15ModifiedContentVyx9DashBoard26BalancedLinesWidthModifierVGAaBHPxAaBHD1__AgA0cK0HPyHCHC.27
++ _get_witness_table 7SwiftUI4ViewRzlAA4TextVAaBHPyHC.28
++ _kCAPackageTypeCAMLBundle
++ _kDBSolariumWidgetCornerRadius
++ _objc_msgSend$_animateClearLockoutWindow
++ _objc_msgSend$_cacheIconImagesForCurrentTraitCollection
++ _objc_msgSend$_handleSmartStackConfigurationEvent:
++ _objc_msgSend$_maxWidgetDimmingViewAlpha
++ _objc_msgSend$_setBackground:
++ _objc_msgSend$_updateToMostRecentSuccessfulPrediction
++ _objc_msgSend$_updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:
++ _objc_msgSend$action
++ _objc_msgSend$actionTitle
++ _objc_msgSend$alertSubtitle
++ _objc_msgSend$alertTitle
++ _objc_msgSend$alertingWidget
++ _objc_msgSend$andPredicateWithSubpredicates:
++ _objc_msgSend$assistantPseudoPresentable
++ _objc_msgSend$bannerAuthority
++ _objc_msgSend$bannerAuthority:mayChangeDecisionForResponsiblePresentable:
++ _objc_msgSend$carouselVC
++ _objc_msgSend$clearedPredictionsForSession
++ _objc_msgSend$configureImageWithImage:
++ _objc_msgSend$initWithAlertTitle:alertSubtitle:actionTitle:action:
++ _objc_msgSend$initWithEnvironment:engine:predictedSmartSize:
++ _objc_msgSend$initWithFrame:predictedSize:
++ _objc_msgSend$initWithUIImage:
++ _objc_msgSend$isApplicationPresented
++ _objc_msgSend$isEqualToData:
++ _objc_msgSend$liveActivitiesMode
++ _objc_msgSend$liveActivityNameWith:
++ _objc_msgSend$liveActivityNameWithDescriptor:
++ _objc_msgSend$lockOut
++ _objc_msgSend$lodWidgetsMode
++ _objc_msgSend$overlayStateMonitor
++ _objc_msgSend$pageState
++ _objc_msgSend$precacheImagesForRootIconsWithTraitCollection:
++ _objc_msgSend$predicateWithBlock:
++ _objc_msgSend$predictionImageButton
++ _objc_msgSend$presentSmartStackConfiguratorWithConfiguration:
++ _objc_msgSend$registerAutomakerOverlayStateMonitor:
++ _objc_msgSend$resolveForNoPredictions
++ _objc_msgSend$setAlertingWidget:
++ _objc_msgSend$setAssistantPseudoPresentable:
++ _objc_msgSend$setCarouselVC:
++ _objc_msgSend$setIsApplicationPresented:
++ _objc_msgSend$setSemanticContentAttribute:
++ _objc_msgSend$setSuspendedForAssistant:
++ _objc_msgSend$setUserInfo:
++ _objc_msgSend$updateCarouselElements
++ _objc_msgSend$updateImage:
++ _objc_msgSend$userInterfaceStyleChanged
++ _objc_msgSend$viewWithPrediction:predictedSize:
++ _objectdestroy.2Tm
++ _objectdestroy.33Tm
++ _objectdestroy.78Tm
++ _objectdestroy.91Tm
++ _objectdestroy.97Tm
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_getAtKeyPath
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getFunctionTypeMetadata0
++ _swift_storeEnumTagSinglePayloadGeneric
++ _symbolic $s7SwiftUI14EnvironmentKeyP
++ _symbolic $s7SwiftUI19UIViewRepresentableP
++ _symbolic $s9DashBoard38DBAutomakerOverlayStateMonitorObserverP
++ _symbolic $s9DashBoard9DBOverlayP
++ _symbolic $ss12IdentifiableP
++ _symbolic Ieg_Sg
++ _symbolic SDySSSaySSGG
++ _symbolic SDy__________G 10Foundation4UUIDV 9DashBoard13DBOverlayView33_A2B08C6DB83AD2FD52A6D2095FBE4B7ALLC
++ _symbolic SaySSG23highPriorityIdentifiers_AA03lowbC0t
++ _symbolic SaySo17DBSmartWidgetViewCG
++ _symbolic Say______pG 9DashBoard9DBOverlayP
++ _symbolic So10DBIconViewC
++ _symbolic So10DBIconViewCSg
++ _symbolic So11NSHashTableCy______pG 9DashBoard38DBAutomakerOverlayStateMonitorObserverP
++ _symbolic So11UIImageViewCSg
++ _symbolic So13DBLockOutViewC
++ _symbolic So16UIViewControllerCSg
++ _symbolic So17DBSmartWidgetViewC
++ _symbolic So17DBSmartWidgetViewCSg
++ _symbolic So17UITraitCollectionC
++ _symbolic So18CRSUICAPackageViewC
++ _symbolic So18NSLayoutConstraintC
++ _symbolic So19DBSmartWidgetEngineC
++ _symbolic So23DBSmartWidgetPredictionC
++ _symbolic So9CAPackageC
++ _symbolic So9CAPackageCSg
++ _symbolic _____ 11Observation0A9RegistrarV
++ _symbolic _____ 7SwiftUI13GeometryProxyV
++ _symbolic _____ 7SwiftUI15LayoutDirectionO
++ _symbolic _____ 7SwiftUI4TextV14TruncationModeO
++ _symbolic _____ 9DashBoard03$s9A120Board0032DBWidgetHomeIntroViewswift_jIADjfMX167_0_33_AB9444AEE744693B22C65F1C243A6EB9Ll7PreviewfMf_15PreviewRegistryfMu_V
++ _symbolic _____ 9DashBoard13DBOverlayView33_A2B08C6DB83AD2FD52A6D2095FBE4B7ALLC
++ _symbolic _____ 9DashBoard15DBAnimationViewC
++ _symbolic _____ 9DashBoard18SmartWidgetWrapperV
++ _symbolic _____ 9DashBoard19DBAnimationSettingsC
++ _symbolic _____ 9DashBoard19DBAppToAppAnimationC
++ _symbolic _____ 9DashBoard20DBAppToHomeAnimationC
++ _symbolic _____ 9DashBoard20DBDashboardAnimationC
++ _symbolic _____ 9DashBoard20DBHomeToAppAnimationC
++ _symbolic _____ 9DashBoard21CAPackageTimelineViewV
++ _symbolic _____ 9DashBoard21DBSmartWidgetCarouselC
++ _symbolic _____ 9DashBoard21DBWidgetHomeIntroViewV
++ _symbolic _____ 9DashBoard23DBToStackedAppAnimationC
++ _symbolic _____ 9DashBoard25DBFromStackedAppAnimationC
++ _symbolic _____ 9DashBoard26BalancedLinesWidthModifierV
++ _symbolic _____ 9DashBoard26TimelinePlaybackControllerC
++ _symbolic _____ 9DashBoard27_DBAppSwitchDosidoAnimation33_5268365BA47BB3D26CC31F574A006AFFLLC
++ _symbolic _____ 9DashBoard28DBAppToHomeAnimationSettingsC
++ _symbolic _____ 9DashBoard28DBHomeToAppAnimationSettingsC
++ _symbolic _____ 9DashBoard29DBAutomakerOverlayLockoutViewC
++ _symbolic _____ 9DashBoard29TimelinePlaybackControllerKeyV
++ _symbolic _____ 9DashBoard30DBAutomakerOverlayStateMonitorC
++ _symbolic _____ 9DashBoard31DBToStackedAppAnimationSettingsC
++ _symbolic _____ 9DashBoard32_DBSuspendAppToHomeZoomAnimation33_D40E7872F70D8F122B999F93C1E1124DLLC
++ _symbolic _____ 9DashBoard33DBFromStackedAppAnimationSettingsC
++ _symbolic _____ 9DashBoard33_DBLaunchAppFromHomeZoomAnimation33_FD9B5304F96E1F01D97887BA20EFEE2ALLC
++ _symbolic _____ 9DashBoard33_DBSuspendAppToHomeScaleAnimation33_D40E7872F70D8F122B999F93C1E1124DLLC
++ _symbolic _____ 9DashBoard34_DBAppSwitchReducedMotionAnimation33_5268365BA47BB3D26CC31F574A006AFFLLC
++ _symbolic _____ 9DashBoard34_DBLaunchAppFromHomeScaleAnimation33_FD9B5304F96E1F01D97887BA20EFEE2ALLC
++ _symbolic _____ 9DashBoard37DBSmartWidgetEffectCoordinatingButtonC
++ _symbolic _____ 9DashBoard39DBSmartWidgetActionGlassButtonWithImageC
++ _symbolic _____ 9DashBoard41_DBSuspendAppToHomeReducedMotionAnimation33_D40E7872F70D8F122B999F93C1E1124DLLC
++ _symbolic _____ 9DashBoard42_DBLaunchAppFromHomeReducedMotionAnimation33_FD9B5304F96E1F01D97887BA20EFEE2ALLC
++ _symbolic _____ So15SBIconImageInfoV
++ _symbolic _____ So17UIViewContentModeV
++ _symbolic _____ s5NeverO
++ _symbolic _____12cornerRadius______19pageControlPositiont 12CoreGraphics7CGFloatV 14CarPlayAssetUI21CarouselConfigurationV19PageControlPositionO
++ _symbolic _____Sg 9DashBoard15DBAnimationViewC
++ _symbolic _____Sg 9DashBoard18SmartWidgetWrapperV
++ _symbolic _____Sg 9DashBoard26TimelinePlaybackControllerC
++ _symbolic _____SgXw 9DashBoard21DBSmartWidgetCarouselC
++ _symbolic _____SgXw 9DashBoard30DBAutomakerOverlayStateMonitorC
++ _symbolic _____SgXwz_Xx 9DashBoard21DBSmartWidgetCarouselC
++ _symbolic _____SgXwz_Xx 9DashBoard30DBAutomakerOverlayStateMonitorC
++ _symbolic _____SgXwz_Xx 9DashBoard34DBLiveActivityWidgetViewControllerC
++ _symbolic _____Sg_ABt 10Foundation4UUIDV
++ _symbolic ___________t 7SwiftUI5ColorV 9DashBoard21DBWidgetHomeIntroViewV
++ _symbolic ______p 9DashBoard38DBAutomakerOverlayStateMonitorObserverP
++ _symbolic ______p 9DashBoard9DBOverlayP
++ _symbolic ______pIegg_ 9DashBoard38DBAutomakerOverlayStateMonitorObserverP
++ _symbolic _____yAAyAAyAAyAAy_____y_____G_____y_____GGAEySiSgGG_____GAEy_____GG_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA022_EnvironmentKeyWritingF0V AA13TextAlignmentO AA16_FixedSizeLayoutV AA0O0V14TruncationModeO AA06_FrameS0V
++ _symbolic _____yAAyAAyAAy_____y_____G_____y_____GGAEySiSgGG_____GAEy_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA022_EnvironmentKeyWritingF0V AA13TextAlignmentO AA16_FixedSizeLayoutV AA0O0V14TruncationModeO
++ _symbolic _____yAAyAAy_____y_____G_____y_____GGAEySiSgGG_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA022_EnvironmentKeyWritingF0V AA13TextAlignmentO AA16_FixedSizeLayoutV
++ _symbolic _____yAAyAAy_____y__________G_____y_____GG_____G_____G 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 9DashBoard21CAPackageTimelineViewV AA5ColorV AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA25_AppearanceActionModifierV
++ _symbolic _____yAAyAAy_____y__________G_____y_____GG_____G_____G_AAy_____AJG_____yAAy__________y_____SgGG_Qo_AoAyAAy_____yAP_Qo_ATG_____GAO_____y_____yAAyAuJGG______y_____GQo_t 7SwiftUI15ModifiedContentV AA012_ConditionalD0V 9DashBoard21CAPackageTimelineViewV AA5ColorV AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA25_AppearanceActionModifierV AA6SpacerV AA0J0PAAE10fontWeightyQrAA4FontV0V0VSgFQO AA4TextV AA022_EnvironmentKeyWritingS0V AY AvAE7kerningyQr12CoreGraphics7CGFloatVFQO AF018BalancedLinesWidthS0V AvAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedN0V
++ _symbolic _____yAAyAAy_____y_____yAAy__________ySbGG______yAAyAAy_____yACyAAyAAyAAy_____y_____ADG_____y_____GG_____G_____G_AAy_____AQG_____yAAy__________y_____SgGG_Qo_AvAyAAy_____yAW_Qo_A_G_____GAV_____y_____yAAyA0_AQGG______y_____GQo_tGG_____G_____GGtGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA14GeometryReaderV AA6VStackV AA012_ConditionalD0V 9DashBoard017CAPackageTimelineG0V AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA017_AppearanceActionJ0V AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA022_EnvironmentKeyWritingJ0V A7_ A4_AAE7kerningyQr12CoreGraphics7CGFloatVFQO AR018BalancedLinesWidthJ0V A4_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedU0V AA05_FlexvW0V AA09_PositionW0V AA08_OpacityT0V AA05_BlurT0V AA06_ScaleT0V
++ _symbolic _____yAAy_____y_____G_____G_____yAAy_____yAAy__________GG_____GGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA16_FixedSizeLayoutV AA011_BackgroundF0V AA14GeometryReaderV AA5ColorV AA017_AppearanceActionF0V AA07_HiddenF0V
++ _symbolic _____yAAy_____y_____G_____y_____GGAEySiSgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA022_EnvironmentKeyWritingF0V AA13TextAlignmentO
++ _symbolic _____yAAy_____y______Qo______y_____SgGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE7kerningyQr12CoreGraphics7CGFloatVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV 9DashBoard018BalancedLinesWidthN0V
++ _symbolic _____yAAy_____y_____yAAyAAyAAy_____y__________G_____y_____GG_____G_____G_AAy_____ALG_____yAAy__________y_____SgGG_Qo_AqAyAAy_____yAR_Qo_AVG_____GAQ_____y_____yAAyAwLGG______y_____GQo_tGG_____G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V 9DashBoard017CAPackageTimelineG0V AA5ColorV AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA25_AppearanceActionModifierV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0X0VSgFQO AA4TextV AA022_EnvironmentKeyWritingU0V A1_ AzAE7kerningyQr12CoreGraphics7CGFloatVFQO AJ018BalancedLinesWidthU0V AzAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedP0V AA05_FlexqR0V AA09_PositionR0V
++ _symbolic _____yAAy_____y_____yAAy__________ySbGG______yAAyAAy_____yACyAAyAAyAAy_____y_____ADG_____y_____GG_____G_____G_AAy_____AQG_____yAAy__________y_____SgGG_Qo_AvAyAAy_____yAW_Qo_A_G_____GAV_____y_____yAAyA0_AQGG______y_____GQo_tGG_____G_____GGtGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA14GeometryReaderV AA6VStackV AA012_ConditionalD0V 9DashBoard017CAPackageTimelineG0V AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA017_AppearanceActionJ0V AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA022_EnvironmentKeyWritingJ0V A7_ A4_AAE7kerningyQr12CoreGraphics7CGFloatVFQO AR018BalancedLinesWidthJ0V A4_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedU0V AA05_FlexvW0V AA09_PositionW0V AA08_OpacityT0V AA05_BlurT0V
++ _symbolic _____ySdG 7SwiftUI5StateV
++ _symbolic _____ySiSgG 7SwiftUI30_EnvironmentKeyWritingModifierV
++ _symbolic _____ySo23DBSmartWidgetPredictionCAC_____10FoundationyHCg_AC_____9DashBoardyHCg0_G 14CarPlayAssetUI13CarouselModelC s23CustomStringConvertibleP s12IdentifiableP
++ _symbolic _____ySo23DBSmartWidgetPredictionC_AC_____10FoundationyHCg_AC_____9DashBoardyHCg0_G 14CarPlayAssetUI13CarouselModelC9DirectionO s23CustomStringConvertibleP s12IdentifiableP
++ _symbolic _____ySo9CAPackageCSgG 7SwiftUI5StateV
++ _symbolic _____y_____ABG 14CarPlayAssetUI7DynamicO AA10InstrumentV13ConfigurationV9BlendModeO
++ _symbolic _____y_____ABGSg 14CarPlayAssetUI7DynamicO AA10InstrumentV13ConfigurationV9BlendModeO
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV 9DashBoard26TimelinePlaybackControllerC
++ _symbolic _____y_____G 7SwiftUI11EnvironmentV AA15LayoutDirectionO
++ _symbolic _____y_____G 7SwiftUI21_ViewModifier_ContentV 9DashBoard018BalancedLinesWidthD0V
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV 9DashBoard26TimelinePlaybackControllerC
++ _symbolic _____y_____G 7SwiftUI30_EnvironmentKeyWritingModifierV AA4TextV14TruncationModeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 14CarPlayAssetUI28WidgetMultiStackScreenLayoutV
++ _symbolic _____y_____SgSo23DBSmartWidgetPredictionCAE_____10FoundationyHCg0_AE_____9DashBoardyHCg1_G 14CarPlayAssetUI8CarouselV 9DashBoard18SmartWidgetWrapperV s23CustomStringConvertibleP s12IdentifiableP
++ _symbolic _____y______G 7SwiftUI11EnvironmentV7ContentO AA15LayoutDirectionO
++ _symbolic _____y__________G s18_DictionaryStorageC 10Foundation4UUIDV 9DashBoard13DBOverlayView33_A2B08C6DB83AD2FD52A6D2095FBE4B7ALLC
++ _symbolic _____y___________y___________tGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA5ColorV 9DashBoard017DBWidgetHomeIntroD0V
++ _symbolic _____y___________y_____yADyADy_____y__________G_____y_____GG_____G_____G_ADy_____AMG_____yADy__________y_____SgGG_Qo_ArDyADy_____yAS_Qo_AWG_____GAR_____y_____yADyAxMGG______y_____GQo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV AA012_ConditionalJ0V 9DashBoard017CAPackageTimelineD0V AA5ColorV AA11_ClipEffectV AA9RectangleV AA06_FrameG0V AA25_AppearanceActionModifierV AA6SpacerV AA0D0PAAE10fontWeightyQrAA4FontV0Z0VSgFQO AA4TextV AA022_EnvironmentKeyWritingW0V A5_ A2_AAE7kerningyQr12CoreGraphics7CGFloatVFQO AN018BalancedLinesWidthW0V A2_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedS0V
++ _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV 9DashBoard21DBWidgetHomeIntroViewV AA30_EnvironmentKeyWritingModifierV AD26TimelinePlaybackControllerC
++ _symbolic _____y_____yAByAByAByABy_____y_____G_____y_____GGAFySiSgGG_____GAFy_____GG_____GAByAByAeMG_____yABy_____yABy__________GG_____GGGG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthG0V AA022_EnvironmentKeyWritingG0V AA13TextAlignmentO AA16_FixedSizeLayoutV AA0P0V14TruncationModeO AA06_FrameT0V AA011_BackgroundG0V AA14GeometryReaderV AA5ColorV AA017_AppearanceActionG0V AA07_HiddenG0V
++ _symbolic _____y_____yAByAByAByABy_____y_____G_____y_____GGAFySiSgGG_____GAFy_____GG_____GAByAByAeMG_____yABy_____yABy__________GG_____GGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthH0V AA022_EnvironmentKeyWritingH0V AA13TextAlignmentO AA16_FixedSizeLayoutV AA0Q0V14TruncationModeO AA06_FrameU0V AA011_BackgroundH0V AA14GeometryReaderV AA5ColorV AA017_AppearanceActionH0V AA07_HiddenH0V
++ _symbolic _____y_____y_____G_____G 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA16_FixedSizeLayoutV
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 9DashBoard018BalancedLinesWidthF0V AA022_EnvironmentKeyWritingF0V AA13TextAlignmentO
++ _symbolic _____y_____y_____SgSo23DBSmartWidgetPredictionCAF_____10FoundationyHCg0_AF_____9DashBoardyHCg1_GG 7SwiftUI19UIHostingControllerC 012CarPlayAssetB08CarouselV 9DashBoard18SmartWidgetWrapperV s23CustomStringConvertibleP s12IdentifiableP
++ _symbolic _____y_____y___________tGG 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV 9DashBoard017DBWidgetHomeIntroE0V
++ _symbolic _____y_____y__________y_____GGG 7SwiftUI19UIHostingControllerC AA15ModifiedContentV 9DashBoard21DBWidgetHomeIntroViewV AA30_EnvironmentKeyWritingModifierV AF016TimelinePlaybackD0C
++ _symbolic _____y_____y_____yAAyAAyAAy_____y__________G_____y_____GG_____G_____G_AAy_____ALG_____yAAy__________y_____SgGG_Qo_AqAyAAy_____yAR_Qo_AVG_____GAQ_____y_____yAAyAwLGG______y_____GQo_tGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA012_ConditionalD0V 9DashBoard017CAPackageTimelineG0V AA5ColorV AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA25_AppearanceActionModifierV AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV0X0VSgFQO AA4TextV AA022_EnvironmentKeyWritingU0V A1_ AzAE7kerningyQr12CoreGraphics7CGFloatVFQO AJ018BalancedLinesWidthU0V AzAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedP0V AA05_FlexqR0V
++ _symbolic _____y_____y_____yAAy__________ySbGG______yAAyAAy_____yACyAAyAAyAAy_____y_____ADG_____y_____GG_____G_____G_AAy_____AQG_____yAAy__________y_____SgGG_Qo_AvAyAAy_____yAW_Qo_A_G_____GAV_____y_____yAAyA0_AQGG______y_____GQo_tGG_____G_____GGtGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA14GeometryReaderV AA6VStackV AA012_ConditionalD0V 9DashBoard017CAPackageTimelineG0V AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA017_AppearanceActionJ0V AA6SpacerV AA0G0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA022_EnvironmentKeyWritingJ0V A7_ A4_AAE7kerningyQr12CoreGraphics7CGFloatVFQO AR018BalancedLinesWidthJ0V A4_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedU0V AA05_FlexvW0V AA09_PositionW0V AA08_OpacityT0V
++ _symbolic _____y_____y_____yABy__________GG_____GG 7SwiftUI19_BackgroundModifierV AA15ModifiedContentV AA14GeometryReaderV AA5ColorV AA017_AppearanceActionD0V AA07_HiddenD0V
++ _symbolic _____y_____y_____yACyACy_____y__________G_____y_____GG_____G_____G_ACy_____ALG_____yACy__________y_____SgGG_Qo_AqCyACy_____yAR_Qo_AVG_____GAQ_____y_____yACyAwLGG______y_____GQo_tGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV AA012_ConditionalG0V 9DashBoard017CAPackageTimelineE0V AA5ColorV AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA25_AppearanceActionModifierV AA6SpacerV AA0E0PAAE10fontWeightyQrAA4FontV0X0VSgFQO AA4TextV AA022_EnvironmentKeyWritingU0V A1_ AzAE7kerningyQr12CoreGraphics7CGFloatVFQO AJ018BalancedLinesWidthU0V AzAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedP0V
++ _symbolic _____y_____y_____y___________tGG_____y_____GG 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV 9DashBoard017DBWidgetHomeIntroG0V AA30_EnvironmentKeyWritingModifierV AJ26TimelinePlaybackControllerC
++ _symbolic _____y_____y_____y__________ySbGG______yACyACy_____yAByACyACyACy_____y_____ADG_____y_____GG_____G_____G_ACy_____AQG_____yACy__________y_____SgGG_Qo_AvCyACy_____yAW_Qo_A_G_____GAV_____y_____yACyA0_AQGG______y_____GQo_tGG_____G_____GGtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA5ColorV AA18_AnimationModifierV AA14GeometryReaderV AA6VStackV AA012_ConditionalG0V 9DashBoard017CAPackageTimelineE0V AA11_ClipEffectV AA9RectangleV AA12_FrameLayoutV AA017_AppearanceActionJ0V AA6SpacerV AA0E0PAAE10fontWeightyQrAA4FontV6WeightVSgFQO AA4TextV AA022_EnvironmentKeyWritingJ0V A7_ A4_AAE7kerningyQr12CoreGraphics7CGFloatVFQO AR018BalancedLinesWidthJ0V A4_AAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA07RoundedU0V AA05_FlexvW0V AA09_PositionW0V
++ _symbolic _____yx_____G 7SwiftUI15ModifiedContentV 9DashBoard26BalancedLinesWidthModifierV
++ _symbolic yt
++ _type_layout_string 9DashBoard18SmartWidgetWrapperV
++ _type_layout_string 9DashBoard21CAPackageTimelineViewV
++ _type_layout_string 9DashBoard26BalancedLinesWidthModifierV
++ _type_layout_string So15SBIconImageInfoV
+- +[DBAppToAppAnimation animationWithSettings:]
+- +[DBAppToHomeAnimation animationWithSettings:]
+- +[DBFolderView countOfAdditionalPagesToKeepVisibleInOneDirection]
+- +[DBFromStackedAppAnimation animationWithSettings:]
+- +[DBHomeToAppAnimation animationWithSettings:]
+- +[DBSmartWidgetView viewWithPrediction:parentViewController:]
+- +[DBToStackedAppAnimation animationWithSettings:]
+- -[DBAnalytics clusterForegroundElementDidChange:]
+- -[DBAnimationSettings .cxx_destruct]
+- -[DBAnimationSettings dbCornerRadius]
+- -[DBAnimationSettings fromTransitionContainerView]
+- -[DBAnimationSettings fromView]
+- -[DBAnimationSettings rootContainerBackgroundColor]
+- -[DBAnimationSettings rootContainerView]
+- -[DBAnimationSettings setDbCornerRadius:]
+- -[DBAnimationSettings setFromTransitionContainerView:]
+- -[DBAnimationSettings setFromView:]
+- -[DBAnimationSettings setRootContainerBackgroundColor:]
+- -[DBAnimationSettings setRootContainerView:]
+- -[DBAnimationSettings setToTransitionContainerView:]
+- -[DBAnimationSettings setToView:]
+- -[DBAnimationSettings toTransitionContainerView]
+- -[DBAnimationSettings toView]
+- -[DBAnimationView .cxx_destruct]
+- -[DBAnimationView _shouldAnimatePropertyWithKey:]
+- -[DBAnimationView keysToAnimate]
+- -[DBAnimationView setKeysToAnimate:]
+- -[DBAppToHomeAnimationSettings .cxx_destruct]
+- -[DBAppToHomeAnimationSettings iconView]
+- -[DBAppToHomeAnimationSettings setIconView:]
+- -[DBDashboard _setupDualDockWithScene:]
+- -[DBDashboard _setupSingleDockWithScene:]
+- -[DBDashboard _updateMaskedCornersForStatusBarWindows]
+- -[DBDashboard didActivateLiveActivityConfiguratorWithActivityIdentifier:activityConfigurator:]
+- -[DBDashboard dockFocusAssertion]
+- -[DBDashboard dockSceneHostWindow]
+- -[DBDashboard driverDockViewController]
+- -[DBDashboard driverDockWindow]
+- -[DBDashboard homeButtonStateManager]
+- -[DBDashboard passengerDockViewController]
+- -[DBDashboard passengerDockWindow]
+- -[DBDashboard setDockFocusAssertion:]
+- -[DBDashboard setDockSceneHostWindow:]
+- -[DBDashboard setDriverDockViewController:]
+- -[DBDashboard setDriverDockWindow:]
+- -[DBDashboard setHomeButtonStateManager:]
+- -[DBDashboard setPassengerDockViewController:]
+- -[DBDashboard setPassengerDockWindow:]
+- -[DBDashboard setStatusBarServiceDomainActivationToken:]
+- -[DBDashboard setStatusBarStateProvider:]
+- -[DBDashboard setStatusBarStyleAssertion:]
+- -[DBDashboard setStatusBarStyleService:]
+- -[DBDashboard statusBarServiceDomainActivationToken]
+- -[DBDashboard statusBarStateProvider]
+- -[DBDashboard statusBarStyleAssertion]
+- -[DBDashboard statusBarStyleService]
+- -[DBDashboardAnimation .cxx_destruct]
+- -[DBDashboardAnimation dbCornerRadius]
+- -[DBDashboardAnimation fromTransitionContainerView]
+- -[DBDashboardAnimation fromView]
+- -[DBDashboardAnimation initWithSettings:]
+- -[DBDashboardAnimation rootContainerBackgroundColor]
+- -[DBDashboardAnimation rootContainerView]
+- -[DBDashboardAnimation setDbCornerRadius:]
+- -[DBDashboardAnimation startAnimationWithCompletion:]
+- -[DBDashboardAnimation toTransitionContainerView]
+- -[DBDashboardAnimation toView]
+- -[DBDashboardHomeViewController maxWidgetDimmingViewAlpha]
+- -[DBDashboardHomeViewController setMaxWidgetDimmingViewAlpha:]
+- -[DBDockRootViewController initWithEnvironment:iconProvider:audioNotificationViewController:stateProvider:layout:]
+- -[DBFolderView hitTest:withEvent:]
+- -[DBFolderView iconVisibilityHandling]
+- -[DBFromStackedAppAnimation startAnimationWithCompletion:]
+- -[DBHome _updateLastUsedServiceOfType:].cold.1
+- -[DBHomeToAppAnimationSettings .cxx_destruct]
+- -[DBHomeToAppAnimationSettings iconView]
+- -[DBHomeToAppAnimationSettings setIconView:]
+- -[DBSessionController _updateVehicleSupportsLoDIfNecessaryForSession:]
+- -[DBSiriViewController intentUsageDelegate]
+- -[DBSiriViewController setIntentUsageDelegate:]
+- -[DBSmartWidgetActionButton initWithSystemImageNamed:]
+- -[DBSmartWidgetActionButton systemImageName]
+- -[DBSmartWidgetLiveActivitySource activityDescriptors]
+- -[DBSmartWidgetLiveActivitySource didTapLiveActivityWithDescriptor:]
+- -[DBSmartWidgetLiveActivityView _smartParent]
+- -[DBSmartWidgetLiveActivityView _updateLiveActivityMetricsIfNecessary].cold.1
+- -[DBSmartWidgetLiveActivityView initWithFrame:parent:]
+- -[DBSmartWidgetLiveActivityView parentBounds]
+- -[DBSmartWidgetLiveActivityView parent]
+- -[DBSmartWidgetLiveActivityView setParent:]
+- -[DBSmartWidgetLiveActivityView setParentBounds:]
+- -[DBSmartWidgetRangeBasedView imageview]
+- -[DBSmartWidgetRangeBasedView setImageview:]
+- -[DBSmartWidgetViewController _updatePrediction].cold.3
+- -[DBSplashScreenAlert init]
+- -[DBToStackedAppAnimation startAnimationWithCompletion:]
+- -[_DBAppSwitchDosidoAnimation startAnimationWithCompletion:]
+- -[_DBAppSwitchReducedMotionAnimation startAnimationWithCompletion:]
+- -[_DBLaunchAppFromHomeReducedMotionAnimation startAnimationWithCompletion:]
+- -[_DBLaunchAppFromHomeScaleAnimation startAnimationWithCompletion:]
+- -[_DBLaunchAppFromHomeZoomAnimation .cxx_destruct]
+- -[_DBLaunchAppFromHomeZoomAnimation iconView]
+- -[_DBLaunchAppFromHomeZoomAnimation initWithSettings:]
+- -[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]
+- -[_DBSuspendAppToHomeReducedMotionAnimation startAnimationWithCompletion:]
+- -[_DBSuspendAppToHomeScaleAnimation startAnimationWithCompletion:]
+- -[_DBSuspendAppToHomeZoomAnimation .cxx_destruct]
+- -[_DBSuspendAppToHomeZoomAnimation iconView]
+- -[_DBSuspendAppToHomeZoomAnimation initWithSettings:]
+- -[_DBSuspendAppToHomeZoomAnimation setIconView:]
+- -[_DBSuspendAppToHomeZoomAnimation startAnimationWithCompletion:]
+- GCC_except_table102
+- GCC_except_table150
+- GCC_except_table157
+- GCC_except_table170
+- GCC_except_table212
+- GCC_except_table214
+- GCC_except_table222
+- GCC_except_table223
+- GCC_except_table402
+- GCC_except_table405
+- GCC_except_table406
+- GCC_except_table44
+- GCC_except_table60
+- GCC_except_table75
+- GCC_except_table88
+- GCC_except_table91
+- GCC_except_table95
+- GCC_except_table99
+- _OBJC_CLASS_$_DBAnimationSettings
+- _OBJC_CLASS_$_DBAnimationView
+- _OBJC_CLASS_$_DBAppToAppAnimation
+- _OBJC_CLASS_$_DBAppToHomeAnimation
+- _OBJC_CLASS_$_DBAppToHomeAnimationSettings
+- _OBJC_CLASS_$_DBDashboardAnimation
+- _OBJC_CLASS_$_DBFromStackedAppAnimation
+- _OBJC_CLASS_$_DBFromStackedAppAnimationSettings
+- _OBJC_CLASS_$_DBHomeToAppAnimation
+- _OBJC_CLASS_$_DBHomeToAppAnimationSettings
+- _OBJC_CLASS_$_DBToStackedAppAnimation
+- _OBJC_CLASS_$_DBToStackedAppAnimationSettings
+- _OBJC_CLASS_$_STStatusBarDataImageAndStringEntry
+- _OBJC_CLASS_$_STStatusBarDataImageEntry
+- _OBJC_CLASS_$__DBAppSwitchDosidoAnimation
+- _OBJC_CLASS_$__DBAppSwitchReducedMotionAnimation
+- _OBJC_CLASS_$__DBLaunchAppFromHomeReducedMotionAnimation
+- _OBJC_CLASS_$__DBLaunchAppFromHomeScaleAnimation
+- _OBJC_CLASS_$__DBLaunchAppFromHomeZoomAnimation
+- _OBJC_CLASS_$__DBSuspendAppToHomeReducedMotionAnimation
+- _OBJC_CLASS_$__DBSuspendAppToHomeScaleAnimation
+- _OBJC_CLASS_$__DBSuspendAppToHomeZoomAnimation
+- _OBJC_IVAR_$_DBAnimationSettings._dbCornerRadius
+- _OBJC_IVAR_$_DBAnimationSettings._fromTransitionContainerView
+- _OBJC_IVAR_$_DBAnimationSettings._fromView
+- _OBJC_IVAR_$_DBAnimationSettings._rootContainerBackgroundColor
+- _OBJC_IVAR_$_DBAnimationSettings._rootContainerView
+- _OBJC_IVAR_$_DBAnimationSettings._toTransitionContainerView
+- _OBJC_IVAR_$_DBAnimationSettings._toView
+- _OBJC_IVAR_$_DBAnimationView._keysToAnimate
+- _OBJC_IVAR_$_DBAppToHomeAnimationSettings._iconView
+- _OBJC_IVAR_$_DBDashboard._dockFocusAssertion
+- _OBJC_IVAR_$_DBDashboard._dockSceneHostWindow
+- _OBJC_IVAR_$_DBDashboard._driverDockViewController
+- _OBJC_IVAR_$_DBDashboard._driverDockWindow
+- _OBJC_IVAR_$_DBDashboard._homeButtonStateManager
+- _OBJC_IVAR_$_DBDashboard._passengerDockViewController
+- _OBJC_IVAR_$_DBDashboard._passengerDockWindow
+- _OBJC_IVAR_$_DBDashboard._statusBarServiceDomainActivationToken
+- _OBJC_IVAR_$_DBDashboard._statusBarStateProvider
+- _OBJC_IVAR_$_DBDashboard._statusBarStyleAssertion
+- _OBJC_IVAR_$_DBDashboard._statusBarStyleService
+- _OBJC_IVAR_$_DBDashboardAnimation._dbCornerRadius
+- _OBJC_IVAR_$_DBDashboardAnimation._fromTransitionContainerView
+- _OBJC_IVAR_$_DBDashboardAnimation._fromView
+- _OBJC_IVAR_$_DBDashboardAnimation._rootContainerBackgroundColor
+- _OBJC_IVAR_$_DBDashboardAnimation._rootContainerView
+- _OBJC_IVAR_$_DBDashboardAnimation._toTransitionContainerView
+- _OBJC_IVAR_$_DBDashboardAnimation._toView
+- _OBJC_IVAR_$_DBDashboardHomeViewController._maxWidgetDimmingViewAlpha
+- _OBJC_IVAR_$_DBHomeToAppAnimationSettings._iconView
+- _OBJC_IVAR_$_DBSiriViewController._intentUsageDelegate
+- _OBJC_IVAR_$_DBSmartWidgetActionButton._systemImageName
+- _OBJC_IVAR_$_DBSmartWidgetLiveActivitySource._activityDescriptors
+- _OBJC_IVAR_$_DBSmartWidgetLiveActivityView._parent
+- _OBJC_IVAR_$_DBSmartWidgetLiveActivityView._parentBounds
+- _OBJC_IVAR_$_DBSmartWidgetRangeBasedView._imageview
+- _OBJC_IVAR_$__DBLaunchAppFromHomeZoomAnimation._iconView
+- _OBJC_IVAR_$__DBSuspendAppToHomeZoomAnimation._iconView
+- _OBJC_METACLASS_$_DBAnimationSettings
+- _OBJC_METACLASS_$_DBAnimationView
+- _OBJC_METACLASS_$_DBAppToAppAnimation
+- _OBJC_METACLASS_$_DBAppToHomeAnimation
+- _OBJC_METACLASS_$_DBAppToHomeAnimationSettings
+- _OBJC_METACLASS_$_DBDashboardAnimation
+- _OBJC_METACLASS_$_DBFromStackedAppAnimation
+- _OBJC_METACLASS_$_DBFromStackedAppAnimationSettings
+- _OBJC_METACLASS_$_DBHomeToAppAnimation
+- _OBJC_METACLASS_$_DBHomeToAppAnimationSettings
+- _OBJC_METACLASS_$_DBToStackedAppAnimation
+- _OBJC_METACLASS_$_DBToStackedAppAnimationSettings
+- _OBJC_METACLASS_$__DBAppSwitchDosidoAnimation
+- _OBJC_METACLASS_$__DBAppSwitchReducedMotionAnimation
+- _OBJC_METACLASS_$__DBLaunchAppFromHomeReducedMotionAnimation
+- _OBJC_METACLASS_$__DBLaunchAppFromHomeScaleAnimation
+- _OBJC_METACLASS_$__DBLaunchAppFromHomeZoomAnimation
+- _OBJC_METACLASS_$__DBSuspendAppToHomeReducedMotionAnimation
+- _OBJC_METACLASS_$__DBSuspendAppToHomeScaleAnimation
+- _OBJC_METACLASS_$__DBSuspendAppToHomeZoomAnimation
+- __OBJC_$_CLASS_METHODS_DBAppToAppAnimation
+- __OBJC_$_CLASS_METHODS_DBAppToHomeAnimation
+- __OBJC_$_CLASS_METHODS_DBFromStackedAppAnimation
+- __OBJC_$_CLASS_METHODS_DBHomeToAppAnimation
+- __OBJC_$_CLASS_METHODS_DBToStackedAppAnimation
+- __OBJC_$_INSTANCE_METHODS_DBAnimationSettings
+- __OBJC_$_INSTANCE_METHODS_DBAnimationView
+- __OBJC_$_INSTANCE_METHODS_DBAppToHomeAnimationSettings
+- __OBJC_$_INSTANCE_METHODS_DBDashboardAnimation
+- __OBJC_$_INSTANCE_METHODS_DBFromStackedAppAnimation
+- __OBJC_$_INSTANCE_METHODS_DBHomeToAppAnimationSettings
+- __OBJC_$_INSTANCE_METHODS_DBToStackedAppAnimation
+- __OBJC_$_INSTANCE_METHODS__DBAppSwitchDosidoAnimation
+- __OBJC_$_INSTANCE_METHODS__DBAppSwitchReducedMotionAnimation
+- __OBJC_$_INSTANCE_METHODS__DBLaunchAppFromHomeReducedMotionAnimation
+- __OBJC_$_INSTANCE_METHODS__DBLaunchAppFromHomeScaleAnimation
+- __OBJC_$_INSTANCE_METHODS__DBLaunchAppFromHomeZoomAnimation
+- __OBJC_$_INSTANCE_METHODS__DBSuspendAppToHomeReducedMotionAnimation
+- __OBJC_$_INSTANCE_METHODS__DBSuspendAppToHomeScaleAnimation
+- __OBJC_$_INSTANCE_METHODS__DBSuspendAppToHomeZoomAnimation
+- __OBJC_$_INSTANCE_METHODS__TtC9DashBoard26DBWidgetHomeViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6)
+- __OBJC_$_INSTANCE_VARIABLES_DBAnimationSettings
+- __OBJC_$_INSTANCE_VARIABLES_DBAnimationView
+- __OBJC_$_INSTANCE_VARIABLES_DBAppToHomeAnimationSettings
+- __OBJC_$_INSTANCE_VARIABLES_DBDashboardAnimation
+- __OBJC_$_INSTANCE_VARIABLES_DBHomeToAppAnimationSettings
+- __OBJC_$_INSTANCE_VARIABLES__DBLaunchAppFromHomeZoomAnimation
+- __OBJC_$_INSTANCE_VARIABLES__DBSuspendAppToHomeZoomAnimation
+- __OBJC_$_PROP_LIST_DBAnimationSettings
+- __OBJC_$_PROP_LIST_DBAnimationView
+- __OBJC_$_PROP_LIST_DBAppToHomeAnimationSettings
+- __OBJC_$_PROP_LIST_DBDashboardAnimation
+- __OBJC_$_PROP_LIST_DBHomeToAppAnimationSettings
+- __OBJC_$_PROP_LIST__DBLaunchAppFromHomeZoomAnimation
+- __OBJC_$_PROP_LIST__DBSuspendAppToHomeZoomAnimation
+- __OBJC_CLASS_PROTOCOLS_$__TtC9DashBoard26DBWidgetHomeViewController(DashBoard|DashBoard1|DashBoard2|DashBoard3|DashBoard4|DashBoard5|DashBoard6)
+- __OBJC_CLASS_RO_$_DBAnimationSettings
+- __OBJC_CLASS_RO_$_DBAnimationView
+- __OBJC_CLASS_RO_$_DBAppToAppAnimation
+- __OBJC_CLASS_RO_$_DBAppToHomeAnimation
+- __OBJC_CLASS_RO_$_DBAppToHomeAnimationSettings
+- __OBJC_CLASS_RO_$_DBDashboardAnimation
+- __OBJC_CLASS_RO_$_DBFromStackedAppAnimation
+- __OBJC_CLASS_RO_$_DBFromStackedAppAnimationSettings
+- __OBJC_CLASS_RO_$_DBHomeToAppAnimation
+- __OBJC_CLASS_RO_$_DBHomeToAppAnimationSettings
+- __OBJC_CLASS_RO_$_DBToStackedAppAnimation
+- __OBJC_CLASS_RO_$_DBToStackedAppAnimationSettings
+- __OBJC_CLASS_RO_$__DBAppSwitchDosidoAnimation
+- __OBJC_CLASS_RO_$__DBAppSwitchReducedMotionAnimation
+- __OBJC_CLASS_RO_$__DBLaunchAppFromHomeReducedMotionAnimation
+- __OBJC_CLASS_RO_$__DBLaunchAppFromHomeScaleAnimation
+- __OBJC_CLASS_RO_$__DBLaunchAppFromHomeZoomAnimation
+- __OBJC_CLASS_RO_$__DBSuspendAppToHomeReducedMotionAnimation
+- __OBJC_CLASS_RO_$__DBSuspendAppToHomeScaleAnimation
+- __OBJC_CLASS_RO_$__DBSuspendAppToHomeZoomAnimation
+- __OBJC_METACLASS_RO_$_DBAnimationSettings
+- __OBJC_METACLASS_RO_$_DBAnimationView
+- __OBJC_METACLASS_RO_$_DBAppToAppAnimation
+- __OBJC_METACLASS_RO_$_DBAppToHomeAnimation
+- __OBJC_METACLASS_RO_$_DBAppToHomeAnimationSettings
+- __OBJC_METACLASS_RO_$_DBDashboardAnimation
+- __OBJC_METACLASS_RO_$_DBFromStackedAppAnimation
+- __OBJC_METACLASS_RO_$_DBFromStackedAppAnimationSettings
+- __OBJC_METACLASS_RO_$_DBHomeToAppAnimation
+- __OBJC_METACLASS_RO_$_DBHomeToAppAnimationSettings
+- __OBJC_METACLASS_RO_$_DBToStackedAppAnimation
+- __OBJC_METACLASS_RO_$_DBToStackedAppAnimationSettings
+- __OBJC_METACLASS_RO_$__DBAppSwitchDosidoAnimation
+- __OBJC_METACLASS_RO_$__DBAppSwitchReducedMotionAnimation
+- __OBJC_METACLASS_RO_$__DBLaunchAppFromHomeReducedMotionAnimation
+- __OBJC_METACLASS_RO_$__DBLaunchAppFromHomeScaleAnimation
+- __OBJC_METACLASS_RO_$__DBLaunchAppFromHomeZoomAnimation
+- __OBJC_METACLASS_RO_$__DBSuspendAppToHomeReducedMotionAnimation
+- __OBJC_METACLASS_RO_$__DBSuspendAppToHomeScaleAnimation
+- __OBJC_METACLASS_RO_$__DBSuspendAppToHomeZoomAnimation
+- __PROPERTIES__TtC9DashBoard26DBWidgetHomeViewController
+- __PROTOCOLS__TtC9DashBoard21DBLiveActivityMonitor.9
+- ___152-[DBDashboard environmentConfiguration:viewAreaDidChangeFromViewAreaFrame:safeAreaInsets:toViewAreaFrame:safeAreaInsets:duration:transitionControlType:]_block_invoke.724
+- ___27-[DBSplashScreenAlert init]_block_invoke
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.676
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.677
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.693
+- ___33-[DBDashboard _handleSessionURL:]_block_invoke.693.cold.1
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke.733
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_2.734
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_5
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_6
+- ___37-[DBDashboard _animateStartupToIcons]_block_invoke_7
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke.486
+- ___37-[DBDashboard _handleTapToRadarEvent]_block_invoke_2.489
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.577
+- ___40-[DBDashboard _updateUserInterfaceStyle]_block_invoke.578
+- ___42-[DBSessionController _applyAXPreferences]_block_invoke.348
+- ___42-[DBSessionController _applyAXPreferences]_block_invoke.348.cold.1
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.244
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.244.cold.1
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.246
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.246.cold.1
+- ___48-[DBSmartWidgetViewController _updatePrediction]_block_invoke.cold.1
+- ___49-[DBAnalytics clusterForegroundElementDidChange:]_block_invoke
+- ___50-[DBDashboard _animateStartupFromScaledMainWindow]_block_invoke.738
+- ___53-[DBDashboard _notifyAccessoryIfNeededWithUIContext:]_block_invoke.567
+- ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.218
+- ___54-[DBTodayViewController thermalMonitorLevelDidChange:]_block_invoke.225
+- ___56-[DBToStackedAppAnimation startAnimationWithCompletion:]_block_invoke
+- ___56-[DBToStackedAppAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.474
+- ___57-[DBDashboard _handleBackgroundURLDeliveryForLaunchInfo:]_block_invoke.481
+- ___58-[DBFromStackedAppAnimation startAnimationWithCompletion:]_block_invoke
+- ___58-[DBFromStackedAppAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___59-[DBSessionController _handleSessionConnectWithThemeAsset:]_block_invoke.380
+- ___59-[DBSessionController _handleSessionConnectWithThemeAsset:]_block_invoke.380.cold.1
+- ___60-[_DBAppSwitchDosidoAnimation startAnimationWithCompletion:]_block_invoke
+- ___60-[_DBAppSwitchDosidoAnimation startAnimationWithCompletion:]_block_invoke.94
+- ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.304
+- ___65-[DBEnvironmentConfiguration _computeStatusBarEdgesForViewAreas:]_block_invoke.306
+- ___65-[_DBSuspendAppToHomeZoomAnimation startAnimationWithCompletion:]_block_invoke
+- ___65-[_DBSuspendAppToHomeZoomAnimation startAnimationWithCompletion:]_block_invoke.228
+- ___65-[_DBSuspendAppToHomeZoomAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___65-[_DBSuspendAppToHomeZoomAnimation startAnimationWithCompletion:]_block_invoke_3
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke.227
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke.230
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke_3
+- ___66-[_DBLaunchAppFromHomeZoomAnimation startAnimationWithCompletion:]_block_invoke_4
+- ___66-[_DBSuspendAppToHomeScaleAnimation startAnimationWithCompletion:]_block_invoke
+- ___66-[_DBSuspendAppToHomeScaleAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___67-[_DBAppSwitchReducedMotionAnimation startAnimationWithCompletion:]_block_invoke
+- ___67-[_DBAppSwitchReducedMotionAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___67-[_DBLaunchAppFromHomeScaleAnimation startAnimationWithCompletion:]_block_invoke
+- ___67-[_DBLaunchAppFromHomeScaleAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___70-[DBSessionController _updateVehicleSupportsLoDIfNecessaryForSession:]_block_invoke
+- ___70-[DBSessionController _updateVehicleSupportsLoDIfNecessaryForSession:]_block_invoke.cold.1
+- ___74-[_DBSuspendAppToHomeReducedMotionAnimation startAnimationWithCompletion:]_block_invoke
+- ___74-[_DBSuspendAppToHomeReducedMotionAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___75-[DBTodayViewController environmentConfiguration:appearanceStyleDidChange:]_block_invoke.150
+- ___75-[_DBLaunchAppFromHomeReducedMotionAnimation startAnimationWithCompletion:]_block_invoke
+- ___75-[_DBLaunchAppFromHomeReducedMotionAnimation startAnimationWithCompletion:]_block_invoke_2
+- ___79-[DBTodayViewController environmentConfiguration:mapsAppearanceStyleDidChange:]_block_invoke.201
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.648
+- ___92-[DBDashboard lockOutController:didChangeFromLockoutMode:toLockOutMode:animated:takeScreen:]_block_invoke.649
+- ___94-[DBDashboard didActivateLiveActivityConfiguratorWithActivityIdentifier:activityConfigurator:]_block_invoke
+- ___94-[DBDashboard didActivateLiveActivityConfiguratorWithActivityIdentifier:activityConfigurator:]_block_invoke_2
+- ___block_descriptor_104_e8_32s40s48s56s64s72s80s88s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
+- ___block_descriptor_112_e8_32s40s_e5_v8?0ls32l8s40l8
+- ___block_descriptor_144_e8_32s40s48s56s64s72s80s88s_e5_v8?0ls32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8
+- ___block_descriptor_176_e8_32s40s48s56s64s72s80s88s96s104w_e5_v8?0lw104l8s32l8s40l8s48l8s56l8s64l8s72l8s80l8s88l8s96l8
+- ___block_descriptor_56_e8_32s40s48bs_e8_v12?0B8ls48l8s32l8s40l8
+- ___block_descriptor_56_e8_32s40s48s_e41_v16?0"DBToStackedAppAnimationSettings"8ls32l8s40l8s48l8
+- ___block_descriptor_56_e8_32s40s48s_e43_v16?0"DBFromStackedAppAnimationSettings"8ls32l8s40l8s48l8
+- ___block_descriptor_64_e8_32s40s48s_e5_v8?0ls32l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48s56s64bs_e8_v12?0B8ls64l8s32l8s40l8s48l8s56l8
+- ___block_descriptor_72_e8_32s40s48s56s64s_e29_v16?0"DBAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s72bs_e8_v12?0B8ls32l8s40l8s48l8s56l8s64l8s72l8
+- ___block_descriptor_80_e8_32s40s48s56s64s_e38_v16?0"DBAppToHomeAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_descriptor_80_e8_32s40s48s56s64s_e38_v16?0"DBHomeToAppAnimationSettings"8ls32l8s40l8s48l8s56l8s64l8
+- ___block_literal_global.1560
+- ___block_literal_global.309
+- ___block_literal_global.330
+- ___block_literal_global.343
+- ___block_literal_global.350
+- ___block_literal_global.382
+- ___block_literal_global.465
+- ___block_literal_global.488
+- ___block_literal_global.491
+- ___block_literal_global.56
+- ___block_literal_global.582
+- ___block_literal_global.623
+- ___block_literal_global.660
+- ___block_literal_global.683
+- ___block_literal_global.729
+- ___block_literal_global.736
+- ___block_literal_global.740
+- ___block_literal_global.747
+- ___swift_memcpy48_8
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_DashBoard
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_DashBoard
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_DashBoard
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_DashBoard
+- _associated conformance 9DashBoard18DBStandByIntroViewV7SwiftUI0F0AA4BodyAdEP_AdE
+- _block_copy_helper.104
+- _block_copy_helper.110
+- _block_copy_helper.124
+- _block_copy_helper.131
+- _block_copy_helper.143
+- _block_copy_helper.147
+- _block_copy_helper.156
+- _block_copy_helper.179
+- _block_copy_helper.85
+- _block_copy_helper.97
+- _block_descriptor.106
+- _block_descriptor.112
+- _block_descriptor.126
+- _block_descriptor.133
+- _block_descriptor.145
+- _block_descriptor.149
+- _block_descriptor.158
+- _block_descriptor.181
+- _block_descriptor.87
+- _block_descriptor.99
+- _block_destroy_helper.105
+- _block_destroy_helper.111
+- _block_destroy_helper.125
+- _block_destroy_helper.132
+- _block_destroy_helper.144
+- _block_destroy_helper.148
+- _block_destroy_helper.157
+- _block_destroy_helper.180
+- _block_destroy_helper.86
+- _block_destroy_helper.98
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA6ZStackVyAA9TupleViewVyACyAA5ColorVAA18_AnimationModifierVySbGG_AA6VStackVyAGyAA0G0PAAE10fontWeightyQrAA4FontV0M0VSgFQOyACyAA5ImageVAA022_EnvironmentKeyWritingJ0VyATSgGG_Qo__ACyAA6SpacerVAA12_FrameLayoutVGAqAEARyQrAWFQOyACyAA4TextVA1_G_Qo_A8_AqAE9lineLimit_13reservesSpaceQrSi_SbtFQOyACyACyAqAE7kerningyQr12CoreGraphics7CGFloatVFQOyA10__Qo_A1_GA_yAA0V9AlignmentOGG_Qo_A8_AqAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQOyAA6ButtonVyACyA11_A7_GG_012CarPlayAssetB019ElevatedButtonStyleVyAA16RoundedRectangleVGQo_tGGtGGAA05_FlextU0VGAA14_OpacityEffectVGAA11_BlurEffectVGAA12_ScaleEffectVGAaPHPA51_AaPHPA48_AaPHPA45_AaPHPA42_AaPHPyHC_A44_AA0gJ0HPyHCHC_A47_AAA55_HPyHCHC_A50_AAA55_HPyHCHC_A53_AAA55_HPyHCHC.1
+- _get_witness_table 7SwiftUI4ViewRzlAA4TextVAaBHPyHC.2
+- _objc_msgSend$_setupDualDockWithScene:
+- _objc_msgSend$_setupSingleDockWithScene:
+- _objc_msgSend$_smartParent
+- _objc_msgSend$_updateMaskedCornersForStatusBarWindows
+- _objc_msgSend$_updateVehicleSupportsLoDIfNecessaryForSession:
+- _objc_msgSend$activeIntentWithBundleId:
+- _objc_msgSend$cleanupAfterCrossfade
+- _objc_msgSend$clearLiveActivityAction
+- _objc_msgSend$convertPoint:fromView:
+- _objc_msgSend$convertRect:fromView:
+- _objc_msgSend$convertRect:toView:
+- _objc_msgSend$dbCornerRadius
+- _objc_msgSend$deferFocusToWindow:scene:priority:reason:heading:focusedFrame:
+- _objc_msgSend$didTapLiveActivityWithDescriptor:
+- _objc_msgSend$dockFocusAssertion
+- _objc_msgSend$dockHostWindowFrame
+- _objc_msgSend$dockSceneHostWindow
+- _objc_msgSend$doesNotRecognizeSelector:
+- _objc_msgSend$driverDockViewController
+- _objc_msgSend$driverDockWindow
+- _objc_msgSend$focusStatusUpdated:
+- _objc_msgSend$fromTransitionContainerView
+- _objc_msgSend$fromView
+- _objc_msgSend$hitTest:withEvent:
+- _objc_msgSend$iconImageFrame
+- _objc_msgSend$iconView
+- _objc_msgSend$imageview
+- _objc_msgSend$initWithEnvironment:iconProvider:audioNotificationViewController:stateProvider:layout:
+- _objc_msgSend$initWithFrame:parent:
+- _objc_msgSend$initWithInterfaceStyle:
+- _objc_msgSend$initWithSystemImageNamed:
+- _objc_msgSend$intentUsageDelegate
+- _objc_msgSend$isDescendantOfView:
+- _objc_msgSend$keysToAnimate
+- _objc_msgSend$liveActivityName
+- _objc_msgSend$markedSafe
+- _objc_msgSend$matchingIconViewByAddingConfigurationOptions:removingConfigurationOptions:
+- _objc_msgSend$maxWidgetDimmingViewAlpha
+- _objc_msgSend$parent
+- _objc_msgSend$parentBounds
+- _objc_msgSend$passengerDockViewController
+- _objc_msgSend$passengerDockWindow
+- _objc_msgSend$prepareToCrossfadeImageWithView:options:
+- _objc_msgSend$rootContainerBackgroundColor
+- _objc_msgSend$rootContainerView
+- _objc_msgSend$scrollView
+- _objc_msgSend$setAllowsAdornmentsOverIconImage:
+- _objc_msgSend$setAudioNotificationViewController:
+- _objc_msgSend$setCrossfadeCornerRadius:
+- _objc_msgSend$setCrossfadeFraction:
+- _objc_msgSend$setCustomIconImageViewControllerPriority:
+- _objc_msgSend$setDockFocusAssertion:
+- _objc_msgSend$setIconContentScale:
+- _objc_msgSend$setIconImageAlpha:
+- _objc_msgSend$setIsRightHandDrive:
+- _objc_msgSend$setMaskedCorners:
+- _objc_msgSend$setMaxWidgetDimmingViewAlpha:
+- _objc_msgSend$setMorphFraction:
+- _objc_msgSend$setParentBounds:
+- _objc_msgSend$setShadowHidden:
+- _objc_msgSend$setShowsSquareCorners:
+- _objc_msgSend$setStatusBarStyleAssertion:
+- _objc_msgSend$setSupportsLoD:
+- _objc_msgSend$showLiveActivityConfiguratorWith:
+- _objc_msgSend$statusBarServiceDomainActivationToken
+- _objc_msgSend$statusBarStateProvider
+- _objc_msgSend$statusBarStyleService
+- _objc_msgSend$supportsLoD
+- _objc_msgSend$toTransitionContainerView
+- _objc_msgSend$toView
+- _objc_msgSend$todayViewVisibilityProgress
+- _objc_msgSend$viewWithPrediction:parentViewController:
+- _objc_retain_x5
+- _objectdestroy.89Tm
+- _objectdestroy.95Tm
+- _symbolic SaySo6SBIconCG
+- _symbolic So6SBIconCSiSpy_____GIggyy_ 10ObjectiveC8ObjCBoolV
+- _symbolic _____ 9DashBoard03$s9A116Board0029DBStandByIntroViewswift_tAFJhfMX79_0_33_B43338F88AB8ED79612C95B28908CB20Ll7PreviewfMf_15PreviewRegistryfMu_V
+- _symbolic _____ 9DashBoard18DBStandByIntroViewV
+- _symbolic _____SgXw 9DashBoard19DBIconManagerModernC
+- _symbolic _____yAAyAAyAAy_____y_____yAAy__________ySbGG______yACy_____yAAy__________y_____SgGG_Qo__AAy__________G_____yAAy_____AMG_Qo_AR_____yAAyAAy_____yAS_Qo_AMGAJy_____GG_Qo_AR_____y_____yAAyAtQGG______y_____GQo_tGGtGG_____G_____G_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0G0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingJ0V AR AA6SpacerV AA12_FrameLayoutV AoAEAPyQrAUFQO AA4TextV AoAE9lineLimit_13reservesSpaceQrSi_SbtFQO AoAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0V9AlignmentO AoAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV AA05_FlextU0V AA14_OpacityEffectV AA11_BlurEffectV AA12_ScaleEffectV
+- _symbolic _____yAAyAAy_____y_____yAAy__________ySbGG______yACy_____yAAy__________y_____SgGG_Qo__AAy__________G_____yAAy_____AMG_Qo_AR_____yAAyAAy_____yAS_Qo_AMGAJy_____GG_Qo_AR_____y_____yAAyAtQGG______y_____GQo_tGGtGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0G0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingJ0V AR AA6SpacerV AA12_FrameLayoutV AoAEAPyQrAUFQO AA4TextV AoAE9lineLimit_13reservesSpaceQrSi_SbtFQO AoAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0V9AlignmentO AoAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV AA05_FlextU0V AA14_OpacityEffectV AA11_BlurEffectV
+- _symbolic _____yAAy_____y______Qo______y_____SgGGADy_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE7kerningyQr12CoreGraphics7CGFloatVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0J9AlignmentO
+- _symbolic _____yAAy_____y_____yAAy__________ySbGG______yACy_____yAAy__________y_____SgGG_Qo__AAy__________G_____yAAy_____AMG_Qo_AR_____yAAyAAy_____yAS_Qo_AMGAJy_____GG_Qo_AR_____y_____yAAyAtQGG______y_____GQo_tGGtGG_____G_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0G0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingJ0V AR AA6SpacerV AA12_FrameLayoutV AoAEAPyQrAUFQO AA4TextV AoAE9lineLimit_13reservesSpaceQrSi_SbtFQO AoAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0V9AlignmentO AoAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV AA05_FlextU0V AA14_OpacityEffectV
+- _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 9DashBoard18DBStandByIntroViewV
+- _symbolic _____y_____GSg 7SwiftUI19UIHostingControllerC 9DashBoard18DBStandByIntroViewV
+- _symbolic _____y___________y_____y__________ySbGG______yACy_____yADy__________y_____SgGG_Qo__ADy__________G_____yADy_____ANG_Qo_AS_____yADyADy_____yAT_Qo_ANGAKy_____GG_Qo_AS_____y_____yADyAuRGG______y_____GQo_tGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0D0PAAE10fontWeightyQrAA4FontV0P0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingM0V AV AA6SpacerV AA06_FrameG0V AsAEATyQrAYFQO AA4TextV AsAE9lineLimit_13reservesSpaceQrSi_SbtFQO AsAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0X9AlignmentO AsAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _symbolic _____y___________y_____y_____y__________y_____SgGG_Qo__ADy__________G_____yADy_____AIG_Qo_AN_____yADyADy_____yAO_Qo_AIGAFy_____GG_Qo_AN_____y_____yADyApMGG______y_____GQo_tGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA0D0PAAE10fontWeightyQrAA4FontV0J0VSgFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AN AA6SpacerV AA06_FrameG0V AkAEALyQrAQFQO AA4TextV AkAE9lineLimit_13reservesSpaceQrSi_SbtFQO AkAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0U9AlignmentO AkAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _symbolic _____y__________ySbGG______y_____y_____yAAy__________y_____SgGG_Qo__AAy__________G_____yAAy_____ALG_Qo_AQ_____yAAyAAy_____yAR_Qo_ALGAIy_____GG_Qo_AQ_____y_____yAAyAsPGG______y_____GQo_tGGt 7SwiftUI15ModifiedContentV AA5ColorV AA18_AnimationModifierV AA6VStackV AA9TupleViewV AA0J0PAAE10fontWeightyQrAA4FontV0L0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingG0V AP AA6SpacerV AA12_FrameLayoutV AmAEANyQrASFQO AA4TextV AmAE9lineLimit_13reservesSpaceQrSi_SbtFQO AmAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0U9AlignmentO AmAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _symbolic _____y__________y_____SgGG 7SwiftUI15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AA4FontV
+- _symbolic _____y_____yAAy_____y______Qo______y_____SgGGADy_____GG_Qo_ 7SwiftUI4ViewPAAE9lineLimit_13reservesSpaceQrSi_SbtFQO AA15ModifiedContentV AcAE7kerningyQr12CoreGraphics7CGFloatVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA4FontV AA0N9AlignmentO
+- _symbolic _____y_____y___________tGG 7SwiftUI6ZStackV AA9TupleViewV AA5ColorV 9DashBoard014DBStandByIntroE0V
+- _symbolic _____y_____y__________y_____SgGG_Qo_ 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AF
+- _symbolic _____y_____y__________y_____SgGG_Qo__AAy__________G_____yAAy_____AFG_Qo_AK_____yAAyAAy_____yAL_Qo_AFGACy_____GG_Qo_AK_____y_____yAAyAmJGG______y_____GQo_t 7SwiftUI4ViewPAAE10fontWeightyQrAA4FontV0E0VSgFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AF AA6SpacerV AA12_FrameLayoutV AcAEADyQrAIFQO AA4TextV AcAE9lineLimit_13reservesSpaceQrSi_SbtFQO AcAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0Q9AlignmentO AcAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _symbolic _____y_____y_____yAAy__________ySbGG______yACy_____yAAy__________y_____SgGG_Qo__AAy__________G_____yAAy_____AMG_Qo_AR_____yAAyAAy_____yAS_Qo_AMGAJy_____GG_Qo_AR_____y_____yAAyAtQGG______y_____GQo_tGGtGG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA9TupleViewV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0G0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingJ0V AR AA6SpacerV AA12_FrameLayoutV AoAEAPyQrAUFQO AA4TextV AoAE9lineLimit_13reservesSpaceQrSi_SbtFQO AoAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0V9AlignmentO AoAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV AA05_FlextU0V
+- _symbolic _____y_____y_____y__________ySbGG______yABy_____yACy__________y_____SgGG_Qo__ACy__________G_____yACy_____AMG_Qo_AR_____yACyACy_____yAS_Qo_AMGAJy_____GG_Qo_AR_____y_____yACyAtQGG______y_____GQo_tGGtGG 7SwiftUI6ZStackV AA9TupleViewV AA15ModifiedContentV AA5ColorV AA18_AnimationModifierV AA6VStackV AA0E0PAAE10fontWeightyQrAA4FontV0M0VSgFQO AA5ImageV AA022_EnvironmentKeyWritingJ0V AR AA6SpacerV AA12_FrameLayoutV AoAEAPyQrAUFQO AA4TextV AoAE9lineLimit_13reservesSpaceQrSi_SbtFQO AoAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0V9AlignmentO AoAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _symbolic _____y_____y_____y_____y__________y_____SgGG_Qo__ACy__________G_____yACy_____AHG_Qo_AM_____yACyACy_____yAN_Qo_AHGAEy_____GG_Qo_AM_____y_____yACyAoLGG______y_____GQo_tGG 7SwiftUI6VStackV AA9TupleViewV AA0E0PAAE10fontWeightyQrAA4FontV0G0VSgFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ AA6SpacerV AA12_FrameLayoutV AgAEAHyQrAMFQO AA4TextV AgAE9lineLimit_13reservesSpaceQrSi_SbtFQO AgAE7kerningyQr12CoreGraphics7CGFloatVFQO AA0S9AlignmentO AgAE11buttonStyleyQrqd__AA11ButtonStyleRd__lFQO AA6ButtonV 012CarPlayAssetB019ElevatedButtonStyleV AA16RoundedRectangleV
+- _type_layout_string 9DashBoard18DBStandByIntroViewV
+CStrings:
++ "$__lazy_storage_$_timelinePlaybackController"
++ "%s overlay=%s"
++ "%s service=%@ on=%{bool}d"
++ "%s uuid=%s identifier=%s x=%f y=%f w=%f h=%f"
++ "%{public}@ foregrounding cluster scene for app %{public}@ and url %{public}@ in display location: %{public}@"
++ "<%@: %p; identifier = %@, score = %ld, tieBreakScore = %ld>"
++ "@\"<BNConsideringDelegate>\""
++ "@\"<BNPresentable>\""
++ "@\"SBHIconGridPath\"40@0:8@\"SBHIconManager\"16@\"SBIcon\"24@\"SBRootFolder\"32"
++ "@\"_TtC9DashBoard21DBSmartWidgetCarousel\""
++ "@\"_TtC9DashBoard30DBAutomakerOverlayStateMonitor\""
++ "@40@0:8@16{CGSize=dd}24"
++ "@48@0:8@16@24@32@?40"
++ "@48@0:8@16@24{CGSize=dd}32"
++ "@64@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16{CGSize=dd}48"
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "Added widget to stack %{public}s: %{public}s"
++ "Alerting live activity not currently in activity list. Adding."
++ "Application Icons, added: %@, updated: %@, removed: %@"
++ "Assistant"
++ "B24@?0@\"DBSmartWidgetPrediction\"8@\"NSDictionary\"16"
++ "B32@?0@\"DBSmartWidgetPrediction\"8Q16^B24"
++ "CAFOverlayViewObserver"
++ "Created carousel model with starting predictions: %s, and predicted size: %s"
++ "DBAssetLibrary NOT hidding background for identifier: %s"
++ "DBAssetLibrary NOT using temporary content for identifier: %s"
++ "DBAssetLibrary assetManager updated"
++ "DBAssetLibrary handshake PT not performed yet: %s"
++ "DBAssetLibrary hidding background for identifier: %s, %{bool}d"
++ "DBAssetLibrary match between assets and infoResponse: %s"
++ "DBAssetLibrary perform handshake"
++ "DBAssetLibrary using temporary content for identifier: %s, %{bool}d"
++ "DBAssetLibrary verifier PT for bundleIdentifier: %s, %s"
++ "DBReconnectingWithNewOverrideCanvasKey"
++ "DBRequestContentPunchThroughManager requestContentPTManager init DONE: %@"
++ "DBRequestContentPunchThroughManager setCar: %@, %@"
++ "DBSmartStackManagerConfiguration"
++ "DashBoard.DBDashboardAnimation"
++ "DashBoard.DBOverlayView"
++ "DashBoard.DBSmartWidgetActionGlassButtonWithImage"
++ "DashBoard.DBSmartWidgetCarousel"
++ "DashBoard._DBLaunchAppFromHomeZoomAnimation"
++ "DashBoard._DBSuspendAppToHomeZoomAnimation"
++ "DashBoard/DBAutomakerOverlayLockoutView.swift"
++ "DashBoard/DBSmartWidgetCarousel.swift"
++ "DashBoard/DBWidgetHomeIntroView.swift"
++ "Device is locked and not rescaling, showing alert"
++ "Device is not locked or rescaling, will not present splash screen alert"
++ "Failed to read package from %s: %@"
++ "Identifier: %@. Current size %@ predicted size %@. LA size %@. Aspect ratio: %@"
++ "Instrument Cluster"
++ "No display_uuid in metadata, proceed with handling"
++ "Notifying proactive about changes to current stacks"
++ "Notifying proactive widget was added to stack %{public}s: %{public}@"
++ "Notifying proactive widget was removed from stack %{public}s: %{public}@"
++ "PRIVACY_DISCLOSURE_ALERT_OK"
++ "Passenger Display"
++ "Reconfiguring view with updateType: %{public}s"
++ "Removed widget from stack %{public}s: %{public}s"
++ "SBHWidgetStackViewControllerObserver"
++ "SMARTSTACK_ACTIONSHEET_CALENDAR"
++ "SMARTSTACK_ACTIONSHEET_CANCEL"
++ "SMARTSTACK_ACTIONSHEET_CLEAR"
++ "SMARTSTACK_ACTIONSHEET_LIVE_ACTIVITIES"
++ "SMARTSTACK_ACTIONSHEET_SIRI_SUGGESTIONS"
++ "Set interrupted PT identifier to nil. Using request temporary content for: %{public}@"
++ "SmartWidgetImageButton"
++ "T@\"<BNConsideringDelegate>\",?,W,N,Vdelegate"
++ "T@\"<BNPresentable>\",&,N,V_assistantPseudoPresentable"
++ "T@\"DBIconView\",N,&,ViconView"
++ "T@\"NSArray\",R,N,V_activityPredictions"
++ "T@\"NSMutableSet\",&,N,V_clearedPredictionsForSession"
++ "T@\"NSString\",R,C,N,V_actionTitle"
++ "T@\"NSString\",R,C,N,V_alertSubtitle"
++ "T@\"NSString\",R,C,N,V_alertTitle"
++ "T@\"NSUUID\",N,R"
++ "T@\"UIButton\",&,N,V_predictionImageButton"
++ "T@\"UIColor\",N,&,VrootContainerBackgroundColor"
++ "T@\"UIView\",N,&,VfromTransitionContainerView"
++ "T@\"UIView\",N,&,VfromView"
++ "T@\"UIView\",N,&,VrootContainerView"
++ "T@\"UIView\",N,&,VtoTransitionContainerView"
++ "T@\"UIView\",N,&,VtoView"
++ "T@\"_TtC9DashBoard21DBSmartWidgetCarousel\",&,N,V_carouselVC"
++ "T@\"_TtC9DashBoard30DBAutomakerOverlayStateMonitor\",&,N,V_overlayStateMonitor"
++ "T@?,R,C,N,V_action"
++ "TB,N,V_alertingWidget"
++ "TB,N,V_isApplicationPresented"
++ "TB,N,V_usesCarouselStyle"
++ "TB,N,VlockOut"
++ "Td,N,VdbCornerRadius"
++ "Tf,N,R"
++ "Updating proactive with current stacks: %{public}s"
++ "WIDGETHOME_CUSTOMIZE"
++ "WIDGETHOME_WELCOME"
++ "Wants to show prediction: %@"
++ "[DBLiveActivityWidgetViewController] ensuredContent for upcomingHostViewController activateLiveActivity %@ with error %@"
++ "[DBLiveActivityWidgetViewController] ensuredContent for upcomingHostViewController activateLiveActivity %@ with error %{public}@"
++ "[DBLiveActivityWidgetViewController] showLiveActivity - unable to activate live activity with error: %{public}@"
++ "[DBLiveActivityWidgetViewController] showLiveActivity after activateLiveActivity. upcomingHostViewController.view.window: %@"
++ "[DBLiveActivityWidgetViewController] showLiveActivity upcomingHostViewController.view.window: %@"
++ "[DBSmartWidgetCarousel] Updated predictions: %s"
++ "[DBSmartWidgetCarousel] hiding prediction with identifier: %s for this drive"
++ "[DBSmartWidgetCarousel] long press gesture began"
++ "[DBSmartWidgetCarousel] long press gesture ended"
++ "[DBSmartWidgetCarousel] prediction prepared with error: %@"
++ "[DBSmartWidgetLiveActivityView] _updateViews - for %{public}@"
++ "[DBSmartWidgetLiveActivityView] updated predicted bounds %{public}@"
++ "[Notifications] Allowing InCallService presentable %@"
++ "[Notifications] Presentable pended due to Siri: %@"
++ "[Notifications] Suspending notifications for Siri"
++ "[Notifications] Un-suspending notifications for Siri"
++ "[Update Prediction] Attempt 1 %{public}@ SUCCESS"
++ "[Update Prediction] Attempt 1 %{public}@ failed to prepare with error %{public}@. Making one more attempt"
++ "[Update Prediction] Attempt 1: Prediction %{public}@ is out-of-date. A new prediction has been requested."
++ "[Update Prediction] Attempt 2 %{public}@ SUCCESS"
++ "[Update Prediction] Attempt 2 %{public}@ failed to prepare with error %{public}@. Re-requesting previous successful prediction or non-LA prediction."
++ "[Update Prediction] Attempt 2: Prediction %{public}@ is out-of-date. A new prediction has been requested."
++ "[Update Prediction] Prediction already visible: %{public}@"
++ "[Update Prediction] Preparing prediction %{public}@, %{public}@. Operation ID: %{public}@"
++ "[Update Prediction] There are no successful predictions to update to. Should remove smart stack."
++ "[Update Prediction] Widget View prediction %{public}@ prepared"
++ "[Update Prediction] requesting current prediction at index =%ld"
++ "[Update Prediction] requesting relevant non-live activity prediction at index =%ld"
++ "_$observationRegistrar"
++ "_DBAssistantPresentable"
++ "_TtC9DashBoard15DBAnimationView"
++ "_TtC9DashBoard19DBAnimationSettings"
++ "_TtC9DashBoard19DBAppToAppAnimation"
++ "_TtC9DashBoard20DBAppToHomeAnimation"
++ "_TtC9DashBoard20DBDashboardAnimation"
++ "_TtC9DashBoard20DBHomeToAppAnimation"
++ "_TtC9DashBoard21DBSmartWidgetCarousel"
++ "_TtC9DashBoard23DBToStackedAppAnimation"
++ "_TtC9DashBoard25DBFromStackedAppAnimation"
++ "_TtC9DashBoard26TimelinePlaybackController"
++ "_TtC9DashBoard28DBAppToHomeAnimationSettings"
++ "_TtC9DashBoard28DBHomeToAppAnimationSettings"
++ "_TtC9DashBoard29DBAutomakerOverlayLockoutView"
++ "_TtC9DashBoard30DBAutomakerOverlayStateMonitor"
++ "_TtC9DashBoard31DBToStackedAppAnimationSettings"
++ "_TtC9DashBoard33DBFromStackedAppAnimationSettings"
++ "_TtC9DashBoard37DBSmartWidgetEffectCoordinatingButton"
++ "_TtC9DashBoard39DBSmartWidgetActionGlassButtonWithImage"
++ "_TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF27_DBAppSwitchDosidoAnimation"
++ "_TtC9DashBoardP33_5268365BA47BB3D26CC31F574A006AFF34_DBAppSwitchReducedMotionAnimation"
++ "_TtC9DashBoardP33_A2B08C6DB83AD2FD52A6D2095FBE4B7A13DBOverlayView"
++ "_TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D32_DBSuspendAppToHomeZoomAnimation"
++ "_TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D33_DBSuspendAppToHomeScaleAnimation"
++ "_TtC9DashBoardP33_D40E7872F70D8F122B999F93C1E1124D41_DBSuspendAppToHomeReducedMotionAnimation"
++ "_TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A33_DBLaunchAppFromHomeZoomAnimation"
++ "_TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A34_DBLaunchAppFromHomeScaleAnimation"
++ "_TtC9DashBoardP33_FD9B5304F96E1F01D97887BA20EFEE2A42_DBLaunchAppFromHomeReducedMotionAnimation"
++ "_TtP9DashBoard38DBAutomakerOverlayStateMonitorObserver_"
++ "_TtP9DashBoard9DBOverlay_"
++ "_action"
++ "_actionTitle"
++ "_activityPredictions"
++ "_alertSubtitle"
++ "_alertTitle"
++ "_alertingWidget"
++ "_animateClearLockoutWindow"
++ "_assistantPseudoPresentable"
++ "_cacheIconImagesForCurrentTraitCollection"
++ "_carouselVC"
++ "_clearedPredictionsForSession"
++ "_configureRootFolderConfiguration:"
++ "_handleLongPressGesture:"
++ "_handleSmartStackConfigurationEvent:"
++ "_isApplicationPresented"
++ "_overlayStateMonitor"
++ "_predictionImageButton"
++ "_runWidgetPrimaryButtonAction"
++ "_setBackground:"
++ "_shouldPlay"
++ "_updateRequestContentForDismissedPT: Not setting RequestTemporaryContent. PT: %@ requestTemporaryContent.On: %i"
++ "_updateToMostRecentSuccessfulPrediction"
++ "_updateWidgetWithPrediction:predictedSize:operationID:smartWidgetView:"
++ "_usesCarouselStyle"
++ "actionTitle"
++ "activeWidgetViews"
++ "activityPredictions"
++ "alertSubtitle"
++ "alertTitle"
++ "alertingWidget"
++ "andPredicateWithSubpredicates:"
++ "aqiInvalid"
++ "assistantPseudoPresentable"
++ "automakerOverlay"
++ "automakerOverlayStateMonitor:didUpdateLockOut:"
++ "automakerOverlayStateMonitor:didUpdateOverlays:"
++ "automakerOverlays"
++ "bannerAuthority:mayChangeDecisionForResponsiblePresentable:"
++ "carouselVC"
++ "ccui_applyClearGlass"
++ "clearLiveActivityWith:"
++ "clearedPredictionsForSession"
++ "clusterElementDidChangeVisibility:foreground:"
++ "com.apple.CarPlay.internal.didChangeIconLayout"
++ "com.apple.CarPlayApp.icon-precaching-high"
++ "com.apple.CarPlayApp.icon-precaching-low"
++ "com.apple.DBAutomakerOverlayStateMonitor"
++ "com.apple.DashBoard.assistant"
++ "configureImageWithImage:"
++ "displayLocation"
++ "entryWithImageNamed:boolValue:"
++ "exteriorConditionsService:didUpdateIcyConditions:"
++ "f16@0:8"
++ "frontmostView"
++ "hasIcyConditions"
++ "height"
++ "heightConstraint"
++ "iconManager:customInsertionGridPathForIcon:inRootFolder:"
++ "iconPrecacheHighPriorityQueue"
++ "iconPrecacheLowPriorityQueue"
++ "iconTypeIdentifierForImageForIcon:"
++ "icyConditions"
++ "init(overlay:parentTopAnchor:parentLeftAnchor:)"
++ "init(settings:)"
++ "initWithAlertTitle:alertSubtitle:actionTitle:action:"
++ "initWithEnvironment:engine:predictedSmartSize:"
++ "initWithFrame:predictedSize:"
++ "initWithUIImage:"
++ "internalDockPageControlHorizontalOffset"
++ "isApplicationPresented"
++ "isEqualToData:"
++ "isShowingDecorations"
++ "leftConstraint"
++ "liveActivitiesMode"
++ "liveActivityNameWith:"
++ "liveActivityNameWithDescriptor:"
++ "lockOut"
++ "lodWidgetsMode"
++ "managerConfigurationWithAction:"
++ "observerQueue"
++ "originX"
++ "originY"
++ "overlay"
++ "overlayDidUpdate()"
++ "overlayStateMonitor"
++ "overlayViewService(_:didUpdateOn:)"
++ "overlayViewService:didUpdateDisplayPanelIdentifier:"
++ "overlayViewService:didUpdateHeight:"
++ "overlayViewService:didUpdateIdentifier:"
++ "overlayViewService:didUpdateName:"
++ "overlayViewService:didUpdateOn:"
++ "overlayViewService:didUpdateOriginX:"
++ "overlayViewService:didUpdateOriginY:"
++ "overlayViewService:didUpdateWidth:"
++ "overlayViews"
++ "overlays"
++ "package"
++ "packageWithContentsOfURL:type:options:error:"
++ "pageState"
++ "play"
++ "precacheImagesForRootIconsWithTraitCollection:"
++ "predicateWithBlock:"
++ "predictedSize"
++ "predictionImageButton"
++ "presentSmartStackConfiguratorWithConfiguration:"
++ "radius"
++ "registerAutomakerOverlayStateMonitor:"
++ "resolveForNoPredictions"
++ "rootLayer"
++ "screenID"
++ "sessionShouldHidePrediction:"
++ "setAdditionalPartialPagesToKeepVisible:"
++ "setAlertingWidget:"
++ "setAssistantPseudoPresentable:"
++ "setCarouselVC:"
++ "setClearedPredictionsForSession:"
++ "setImageLoadingBehavior:"
++ "setIsApplicationPresented:"
++ "setLockOut:"
++ "setOverlayStateMonitor:"
++ "setOverlays:"
++ "setPredictionImageButton:"
++ "setSemanticContentAttribute:"
++ "setSuspendedForAssistant:"
++ "setUserInfo:"
++ "setUsesCarouselStyle:"
++ "shortDescription"
++ "stop"
++ "systemGrayColor"
++ "temperatureInvalid"
++ "topConstraint"
++ "updateCarouselElements"
++ "updateImage:"
++ "userInterfaceStyleChanged"
++ "usesCarouselStyle"
++ "v16@?0@\"_TtC9DashBoard19DBAnimationSettings\"8"
++ "v16@?0@\"_TtC9DashBoard28DBAppToHomeAnimationSettings\"8"
++ "v16@?0@\"_TtC9DashBoard28DBHomeToAppAnimationSettings\"8"
++ "v16@?0@\"_TtC9DashBoard31DBToStackedAppAnimationSettings\"8"
++ "v16@?0@\"_TtC9DashBoard33DBFromStackedAppAnimationSettings\"8"
++ "v24@0:8@\"<DBAutomakerOverlayStateMonitorObserver>\"16"
++ "v24@0:8@\"SBHWidgetStackViewController\"16"
++ "v28@0:8@\"CAFExteriorConditions\"16C24"
++ "v28@0:8@\"CAFOverlayView\"16B24"
++ "v28@0:8@\"CAFOverlayView\"16f24"
++ "v28@0:8@\"_TtC9DashBoard30DBAutomakerOverlayStateMonitor\"16B24"
++ "v28@0:8@16f24"
++ "v32@0:8@\"CAFOverlayView\"16@\"NSString\"24"
++ "v32@0:8@\"_TtC9DashBoard30DBAutomakerOverlayStateMonitor\"16@\"NSArray\"24"
++ "v56@0:8@16{CGSize=dd}24q40@48"
++ "vehicleSupportsGaugeCluster"
++ "viewWithPrediction:predictedSize:"
++ "widgetStackViewControllerWillBeginScrolling:"
++ "width"
++ "widthConstraint"
++ "\x81\xe1"
+- "%{public}@ foregrounding cluster scene for app %{public}@ and url %{public}@ "
+- "1b5495d233ec431e"
+- "@\"<SiriPresentationIntentUsageDelegate>\""
+- "@\"CRSUIStatusBarStyleService\""
+- "@\"DBDockRootViewController\""
+- "@\"DBHomeButtonStateManager\""
+- "@\"DBIconView\""
+- "@\"_TtC9DashBoard12DBDockWindow\""
+- "@\"_TtC9DashBoard21DBDockSceneHostWindow\""
+- "@56@0:8@16@24@32@40Q48"
+- "Added widget to stack: %{public}s"
+- "Creating driver dock window: %@"
+- "Creating new dock window: %@"
+- "Creating passenger dock window: %@"
+- "Current session not available, not updating LoD support"
+- "DBAnimationSettings"
+- "DBAnimationView"
+- "DBAppToAppAnimation"
+- "DBAppToHomeAnimation"
+- "DBAppToHomeAnimationSettings"
+- "DBDashboardAnimation"
+- "DBFromStackedAppAnimation"
+- "DBFromStackedAppAnimationSettings"
+- "DBHomeToAppAnimation"
+- "DBHomeToAppAnimationSettings"
+- "DBToStackedAppAnimation"
+- "DBToStackedAppAnimationSettings"
+- "DashBoard/DBStandByIntroView.swift"
+- "Device is locked, showing alert"
+- "Device is not locked, will not present splash screen alert"
+- "Identifier: %@. Current bounds %@ parent bounds %@ predictedSize %@. LA size %@. Aspect ratio: %@"
+- "LIVE_ACTIVITIES"
+- "LIVE_ACTIVITY_CANCEL"
+- "LIVE_ACTIVITY_CLEAR"
+- "LoD supported for for this vehicle: %@ (PPID = %@, config = %@, supportsVehicleData = %@)"
+- "No PPID found for this vehicle"
+- "Notifying proactive widget was added to stack: %{public}s"
+- "Notifying proactive widget was removed from stack: %{public}s"
+- "OK"
+- "ReconnectingWithNewOverrideCanvasKey"
+- "Removed widget from stack: %{public}s"
+- "STANDBY_CONTINUE"
+- "Saved updated vehicle"
+- "SplitStatusBar"
+- "Supports for LoD already stored for this vehicle: %@"
+- "T@\"<BSInvalidatable>\",&,N,V_statusBarServiceDomainActivationToken"
+- "T@\"<DBFocusAssertion>\",&,N,V_dockFocusAssertion"
+- "T@\"<SiriPresentationIntentUsageDelegate>\",W,N,V_intentUsageDelegate"
+- "T@\"CRSUIStatusBarStyleService\",&,N,V_statusBarStyleService"
+- "T@\"DBDockRootViewController\",&,N,V_driverDockViewController"
+- "T@\"DBDockRootViewController\",&,N,V_passengerDockViewController"
+- "T@\"DBHomeButtonStateManager\",&,N,V_homeButtonStateManager"
+- "T@\"DBIconView\",&,N,V_iconView"
+- "T@\"DBIconView\",R,N,V_iconView"
+- "T@\"DBStatusBarStateProvider\",&,N,V_statusBarStateProvider"
+- "T@\"NSArray\",C,N,V_keysToAnimate"
+- "T@\"NSString\",R,N,V_systemImageName"
+- "T@\"UIColor\",&,N,V_rootContainerBackgroundColor"
+- "T@\"UIColor\",R,N,V_rootContainerBackgroundColor"
+- "T@\"UIImageView\",&,N,V_imageview"
+- "T@\"UIView\",&,N,V_fromTransitionContainerView"
+- "T@\"UIView\",&,N,V_fromView"
+- "T@\"UIView\",&,N,V_rootContainerView"
+- "T@\"UIView\",&,N,V_toTransitionContainerView"
+- "T@\"UIView\",&,N,V_toView"
+- "T@\"UIView\",R,N,V_fromTransitionContainerView"
+- "T@\"UIView\",R,N,V_fromView"
+- "T@\"UIView\",R,N,V_rootContainerView"
+- "T@\"UIView\",R,N,V_toTransitionContainerView"
+- "T@\"UIView\",R,N,V_toView"
+- "T@\"UIViewController\",W,N,V_parent"
+- "T@\"_TtC9DashBoard12DBDockWindow\",&,N,V_driverDockWindow"
+- "T@\"_TtC9DashBoard12DBDockWindow\",&,N,V_passengerDockWindow"
+- "T@\"_TtC9DashBoard21DBDockSceneHostWindow\",&,N,V_dockSceneHostWindow"
+- "Td,N,V_dbCornerRadius"
+- "Td,N,V_maxWidgetDimmingViewAlpha"
+- "The symbols are already localized. Example: 'Settings > General > CarPlay'"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_parentBounds"
+- "Updating LoD support stored for this vehicle: %@"
+- "Updating proactive with current stacks"
+- "You can customize this screen on your iPhone in Settings "
+- "[DBLiveActivityWidgetViewController] showLiveActivity - unable to activate live activity with error: %@"
+- "[DBSmartWidgetLiveActivityView] _updateLiveActivityMetricsIfNecessary - parent bounds are invalid, using the most recent predicted bounds %@"
+- "[Update Prediction] Prediction %{public}@ is out-of-date. A new prediction has been requested."
+- "[Update Prediction] Preparing prediction %{public}@"
+- "[Update Prediction] Widget View prediction %{public}@ prepared with error %{public}@"
+- "_DBAppSwitchDosidoAnimation"
+- "_DBAppSwitchReducedMotionAnimation"
+- "_DBLaunchAppFromHomeReducedMotionAnimation"
+- "_DBLaunchAppFromHomeScaleAnimation"
+- "_DBLaunchAppFromHomeZoomAnimation"
+- "_DBSuspendAppToHomeReducedMotionAnimation"
+- "_DBSuspendAppToHomeScaleAnimation"
+- "_DBSuspendAppToHomeZoomAnimation"
+- "_dbCornerRadius"
+- "_dockFocusAssertion"
+- "_driverDockViewController"
+- "_fromTransitionContainerView"
+- "_fromView"
+- "_iconView"
+- "_imageview"
+- "_intentUsageDelegate"
+- "_keysToAnimate"
+- "_parent"
+- "_parentBounds"
+- "_passengerDockViewController"
+- "_rootContainerBackgroundColor"
+- "_rootContainerView"
+- "_setupDualDockWithScene:"
+- "_setupSingleDockWithScene:"
+- "_smartParent"
+- "_statusBarServiceDomainActivationToken"
+- "_systemImageName"
+- "_toTransitionContainerView"
+- "_toView"
+- "_updateMaskedCornersForStatusBarWindows"
+- "_updateRequestContentForDismissedPT: Not setting RequestTemporaryContent. This is not a requestable PT: %@."
+- "_updateVehicleSupportsLoDIfNecessaryForSession:"
+- "addIcons:imageAppearance:priority:options:"
+- "buildCacheRequestWithReason:"
+- "clock.filled.and.widget.filled"
+- "clusterForegroundElementDidChange:"
+- "com.apple.CarPlay.internal.didPresentStylePicker"
+- "convertPoint:fromView:"
+- "convertRect:fromView:"
+- "convertRect:toView:"
+- "countOfAdditionalPagesToKeepVisibleInOneDirection"
+- "createBackgroundView"
+- "currentRootIconList"
+- "dockFocusAssertion"
+- "dockSceneHostWindow"
+- "doesNotRecognizeSelector:"
+- "driverDockViewController"
+- "driverDockWindow"
+- "entryWithImageNamed:"
+- "entryWithImageNamed:stringValue:"
+- "enumerateIconsUsingBlock:"
+- "finalizeRequestWithCompletionHandler:"
+- "homeButtonStateManager"
+- "iconVisibilityHandling"
+- "imageview"
+- "initWithEnvironment:iconProvider:audioNotificationViewController:stateProvider:layout:"
+- "initWithFrame:parent:"
+- "initWithSystemImageNamed:"
+- "intentUsageDelegate"
+- "isDescendantOfView:"
+- "maxWidgetDimmingViewAlpha"
+- "model"
+- "parent"
+- "parentBounds"
+- "passengerDockViewController"
+- "passengerDockWindow"
+- "presentCarPlayStylePicker"
+- "q\xf1"
+- "scrollView"
+- "setDockFocusAssertion:"
+- "setDockSceneHostWindow:"
+- "setDriverDockViewController:"
+- "setDriverDockWindow:"
+- "setHomeButtonStateManager:"
+- "setImageview:"
+- "setMaxWidgetDimmingViewAlpha:"
+- "setParent:"
+- "setParentBounds:"
+- "setPassengerDockViewController:"
+- "setPassengerDockWindow:"
+- "setStatusBarServiceDomainActivationToken:"
+- "setStatusBarStateProvider:"
+- "setStatusBarStyleService:"
+- "setSupportsLoD:"
+- "showLiveActivityConfiguratorWith:"
+- "statusBarServiceDomainActivationToken"
+- "statusBarStateProvider"
+- "statusBarStyleService"
+- "supportsLoD"
+- "systemImageName"
+- "todayViewVisibilityProgress"
+- "v16@?0@\"DBAnimationSettings\"8"
+- "v16@?0@\"DBAppToHomeAnimationSettings\"8"
+- "v16@?0@\"DBFromStackedAppAnimationSettings\"8"
+- "v16@?0@\"DBHomeToAppAnimationSettings\"8"
+- "v16@?0@\"DBToStackedAppAnimationSettings\"8"
+- "v32@?0@\"SBIcon\"8q16^B24"
+- "viewWithPrediction:parentViewController:"
+- "{CGRect={CGPoint=dd}{CGSize=dd}}"
+- "\xa1"
+
+```

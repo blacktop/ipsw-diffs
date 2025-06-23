@@ -1,0 +1,1018 @@
+## momentsd
+
+> `/usr/libexec/momentsd`
+
+```diff
+
+-255.0.0.0.0
+-  __TEXT.__text: 0x23d5a0
+-  __TEXT.__auth_stubs: 0x1af0
+-  __TEXT.__objc_stubs: 0x1c920
+-  __TEXT.__objc_methlist: 0x1072c
+-  __TEXT.__cstring: 0x24b1f
+-  __TEXT.__objc_classname: 0x1b19
+-  __TEXT.__objc_methtype: 0x2fc7
+-  __TEXT.__objc_methname: 0x32612
+-  __TEXT.__oslogstring: 0x2d376
+-  __TEXT.__const: 0x10e1
+-  __TEXT.__gcc_except_tab: 0x7b9c
++265.0.0.0.0
++  __TEXT.__text: 0x243494
++  __TEXT.__auth_stubs: 0x1ae0
++  __TEXT.__objc_stubs: 0x1cc40
++  __TEXT.__objc_methlist: 0x109c4
++  __TEXT.__cstring: 0x2525f
++  __TEXT.__objc_classname: 0x1b58
++  __TEXT.__objc_methtype: 0x3079
++  __TEXT.__objc_methname: 0x33679
++  __TEXT.__oslogstring: 0x2e1eb
++  __TEXT.__const: 0x1101
++  __TEXT.__gcc_except_tab: 0x7d50
+   __TEXT.__ustring: 0x4
+   __TEXT.__dlopen_cstrs: 0x51
+-  __TEXT.__constg_swiftt: 0x5d4
++  __TEXT.__constg_swiftt: 0x5ec
+   __TEXT.__swift5_typeref: 0x430
+-  __TEXT.__swift5_fieldmd: 0x220
++  __TEXT.__swift5_fieldmd: 0x22c
+   __TEXT.__swift5_types: 0x3c
+-  __TEXT.__swift5_capture: 0x280
++  __TEXT.__swift5_capture: 0x288
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x44
+-  __TEXT.__swift5_reflstr: 0x12e
++  __TEXT.__swift5_reflstr: 0x145
+   __TEXT.__swift5_proto: 0xc
+-  __TEXT.__unwind_info: 0x4cf0
++  __TEXT.__unwind_info: 0x4db0
+   __TEXT.__eh_frame: 0x8e8
+-  __DATA_CONST.__auth_got: 0xd90
++  __DATA_CONST.__auth_got: 0xd88
+   __DATA_CONST.__got: 0xb90
+   __DATA_CONST.__auth_ptr: 0x160
+-  __DATA_CONST.__const: 0xaeb0
+-  __DATA_CONST.__cfstring: 0x23ca0
+-  __DATA_CONST.__objc_classlist: 0x7a8
++  __DATA_CONST.__const: 0xb1c8
++  __DATA_CONST.__cfstring: 0x24340
++  __DATA_CONST.__objc_classlist: 0x7b8
+   __DATA_CONST.__objc_catlist: 0x70
+   __DATA_CONST.__objc_protolist: 0x128
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x5f0
+-  __DATA_CONST.__objc_intobj: 0x3d08
+-  __DATA_CONST.__objc_arraydata: 0x1570
+-  __DATA_CONST.__objc_arrayobj: 0xa80
++  __DATA_CONST.__objc_intobj: 0x3df8
++  __DATA_CONST.__objc_arraydata: 0x15a8
++  __DATA_CONST.__objc_arrayobj: 0xa98
+   __DATA_CONST.__objc_doubleobj: 0x4c0
+-  __DATA_CONST.__objc_dictobj: 0xc8
++  __DATA_CONST.__objc_dictobj: 0xf0
+   __DATA_CONST.__objc_floatobj: 0x250
+-  __DATA.__objc_const: 0x1bef8
+-  __DATA.__objc_selrefs: 0x8b98
+-  __DATA.__objc_ivar: 0x1540
+-  __DATA.__objc_data: 0x54f0
+-  __DATA.__data: 0x18b8
+-  __DATA.__common: 0x2c4
++  __DATA.__objc_const: 0x1c378
++  __DATA.__objc_selrefs: 0x8d38
++  __DATA.__objc_ivar: 0x1584
++  __DATA.__objc_data: 0x55b0
++  __DATA.__data: 0x18a8
++  __DATA.__common: 0x2b4
+   __DATA.__bss: 0x3a0
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 6D158061-2633-3842-A2B7-41E08A79B949
+-  Functions: 8097
+-  Symbols:   57647
+-  CStrings:  19837
++  UUID: 68CF8C96-5B4B-3CF5-9EC3-1009EB87EEAD
++  Functions: 8179
++  Symbols:   58222
++  CStrings:  20074
+ 
+Symbols:
++ $s8momentsd19MOEventEntityInviteC9appBundleSSSgvM.resume.0
++ $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9
++ $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9TQ0_
++ $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9Tu
++ +[MODowntimeDetectionUtilities calculateMeanWithIndices:forArray:]
++ +[MODowntimeDetectionUtilities calculateStatsPerHour:withTrimFraction:]
++ +[MODowntimeDetectionUtilities deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:]
++ +[MODowntimeDetectionUtilities deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:].cold.1
++ +[MODowntimeDetectionUtilities deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:].cold.2
++ +[MODowntimeDetectionUtilities deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:].cold.3
++ +[MODowntimeDetectionUtilities downtimeDetectionPipeline:withBundles:withEngagement:withDefaults:withAllowedScreentimeCategories:forRecentDays:error:]
++ +[MODowntimeDetectionUtilities findDowntimeWindow:maxWindowLength:minWindowLength:withWindowActivityRatioMax:error:]
++ +[MODowntimeDetectionUtilities findDowntimeWindow:maxWindowLength:minWindowLength:withWindowActivityRatioMax:error:].cold.1
++ +[MODowntimeDetectionUtilities getTotalScreentimeDurations:withAllowedScreentimeCategories:]
++ +[MODowntimeDetectionUtilities getUniqueDays:withCalendar:]
++ +[MODowntimeDetectionUtilities isBeforeHour:comparedTo:]
++ +[MODowntimeDetectionUtilities preprocessEventsForDowntimeDetection:withBundles:withEngagement:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:withAllowedScreentimeCategories:error:]
++ +[MODowntimeDetectionUtilities preprocessEventsForDowntimeDetection:withBundles:withEngagement:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:withAllowedScreentimeCategories:error:].cold.1
++ +[MOOnboardingAnalyticsUtilities convertMGDeviceClassToAnalyticsDeviceType:]
++ +[MOOnboardingAnalyticsUtilities onboardingDurationBinFrom:]
++ +[MOPlatformInfo getDeviceClass]
++ +[MOPlatformInfo getDeviceClass].cold.1
++ +[MOPlatformInfo isDNUEnabled]
++ +[MOPlatformInfo isIHAEnabled]
++ -[MOAvailabilityPredictionManager downtimeDetectionDefaultSleepStartHour]
++ -[MOAvailabilityPredictionManager downtimeDetectionMinActiveHoursThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionMinNumDaysWithScreentimeThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionMinNumObservationsThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionOverallActivityThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionRecentDaysMinActiveHoursThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionRecentDaysMinNumObservationsThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionRecentDaysOverallActivityThreshold]
++ -[MOAvailabilityPredictionManager downtimeDetectionTrimFraction]
++ -[MOAvailabilityPredictionManager downtimeDetectionWinActivityRatioMax]
++ -[MOAvailabilityPredictionManager downtimeDetectionWinLengthMax]
++ -[MOAvailabilityPredictionManager downtimeDetectionWinLengthMin]
++ -[MOAvailabilityPredictionManager downtimeStartHourFeatureScaleMean]
++ -[MOAvailabilityPredictionManager downtimeStartHourFeatureScaleStd]
++ -[MOAvailabilityPredictionManager extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:withDowntimeWindowStartHour:]
++ -[MOAvailabilityPredictionManager predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:availabilityWithDowntimeHandler:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionDefaultSleepStartHour:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionMinActiveHoursThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionMinNumDaysWithScreentimeThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionMinNumObservationsThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionOverallActivityThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionRecentDaysMinActiveHoursThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionRecentDaysMinNumObservationsThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionRecentDaysOverallActivityThreshold:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionTrimFraction:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionWinActivityRatioMax:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionWinLengthMax:]
++ -[MOAvailabilityPredictionManager setDowntimeDetectionWinLengthMin:]
++ -[MOAvailabilityPredictionManager setDowntimeStartHourFeatureScaleMean:]
++ -[MOAvailabilityPredictionManager setDowntimeStartHourFeatureScaleStd:]
++ -[MOBookmarkStore updateBookmarks:completionHandler:]
++ -[MOBundleClusteringManager _phenotypeDimensionFor:withphenotypeDimensionDict:]
++ -[MODominantBundleCreationManager _removeDuplicatePhotoResourceFromActivityBundles:compareWithInviteOutingBundle:]
++ -[MODominantBundleCreationManager filterEventBundlesEligibleForDominantBundleCreation:]
++ -[MODominantBundleCreationManager getInviteBundles:]
++ -[MODominantBundleCreationManager processBundlesForCreatingDominantBundles:withParameters:handler:].cold.1
++ -[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:andCompletionHandler:]
++ -[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:andCompletionHandler:]
++ -[MOEngagementHistoryManager queue]
++ -[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:updatedBookmark:processEvent:]
++ -[MOEngagementHistoryManager updatedBookmarkWithNewBookMark:deviceID:]
++ -[MOEngagementHistoryManager updatedBookmarkWithNewBookMark:deviceID:].cold.1
++ -[MOEngagementHistoryManager writeEngagementLightStreamForDevice:storedBookmarks:handler:]
++ -[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:]
++ -[MOEventBundleRankingInput maxSubBundleGoodnessScores]
++ -[MOEventBundleRankingInput setMaxSubBundleGoodnessScores:]
++ -[MOEventBundleRankingInput setSubBundleCount:]
++ -[MOEventBundleRankingInput subBundleCount]
++ -[MONotificationsManager downtimeDictionary]
++ -[MONotificationsManager setDowntimeDictionary:]
++ -[MONotificationsReporter unpackDowntimeDictionary:]
++ -[MOOnboardingAndSettingsPersistence publishOnboardingStatusAnalytics].cold.1
++ -[MOOnboardingAndSettingsPersistence publishOnboardingStatusAnalytics].cold.2
++ -[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:].cold.1
++ /Library/Caches/com.apple.xbs/Binaries/Moments/install/TempContent/Objects/Moments.build/momentsd.build/Objects-normal/arm64e/MODowntimeDetectionUtilities.o
++ /Library/Caches/com.apple.xbs/Binaries/Moments/install/TempContent/Objects/Moments.build/momentsd.build/Objects-normal/arm64e/MOOnboardingAnalyticsUtilities.o
++ GCC_except_table122
++ GCC_except_table124
++ GCC_except_table140
++ GCC_except_table153
++ GCC_except_table68
++ MODowntimeDetectionUtilities.m
++ MOOnboardingAnalyticsUtilities.m
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionDefaultSleepStartHour
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionMinActiveHoursThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionMinNumDaysWithScreentimeThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionMinNumObservationsThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionOverallActivityThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionRecentDaysMinActiveHoursThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionRecentDaysMinNumObservationsThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionRecentDaysOverallActivityThreshold
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionTrimFraction
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionWinActivityRatioMax
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionWinLengthMax
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeDetectionWinLengthMin
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeStartHourFeatureScaleMean
++ OBJC_IVAR_$_MOAvailabilityPredictionManager._downtimeStartHourFeatureScaleStd
++ OBJC_IVAR_$_MOEngagementHistoryManager._queue
++ OBJC_IVAR_$_MOEventBundleRankingInput._maxSubBundleGoodnessScores
++ OBJC_IVAR_$_MOEventBundleRankingInput._subBundleCount
++ OBJC_IVAR_$_MONotificationsManager._downtimeDictionary
++ _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier9appBundle10organizers9attendeesACSSSg_10Foundation0G0VSgAQSo10CLLocationCSgA3MSayAA0bcD6PersonCGSgAXtcfC
++ _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier9appBundle10organizers9attendeesACSSSg_10Foundation0G0VSgAQSo10CLLocationCSgA3MSayAA0bcD6PersonCGSgAXtcfCTq
++ _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier9appBundle10organizers9attendeesACSSSg_10Foundation0G0VSgAQSo10CLLocationCSgA3MSayAA0bcD6PersonCGSgAXtcfc
++ _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier9appBundle10organizers9attendeesACSSSg_10Foundation0G0VSgAQSo10CLLocationCSgA3MSayAA0bcD6PersonCGSgAXtcfcTf4nnngnnnnnn_n
++ _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier9appBundle10organizers9attendeesACSSSg_10Foundation0G0VSgAQSo10CLLocationCSgA3MSayAA0bcD6PersonCGSgAXtcfcTo
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvM
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvMTq
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvg
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvgTo
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvgTq
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvpMV
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvpWvd
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvpfi
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvs
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvsTo
++ _$s8momentsd19MOEventEntityInviteC9appBundleSSSgvsTq
++ _$s8momentsd21MOAppUsageAggregationC15longestActivity10Foundation12DateIntervalVSgvpfiTm
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctF
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFTo
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFTq
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TATQ0_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TATu
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ1_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ2_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ3_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY0_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY4_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY5_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY6_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY7_
++ _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM016bundleIdentifier10completionySaySSG_10Foundation0L0VAMSSySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_Tu
++ _OBJC_CLASS_$_MODowntimeDetectionUtilities
++ _OBJC_CLASS_$_MOOnboardingAnalyticsUtilities
++ _OBJC_METACLASS_$_MODowntimeDetectionUtilities
++ _OBJC_METACLASS_$_MOOnboardingAnalyticsUtilities
++ __101-[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:]_block_invoke.505
++ __101-[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:]_block_invoke_2.cold.1
++ __103-[MOEngagementHistoryManager fetchAppEntryEngagementEventsWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.493
++ __105-[MOEngagementHistoryManager fetchSuggestionEngagementEventsWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.484
++ __117-[MOEngagementHistoryManager fetchAppEntryEngagementEventsFromAllDevicesWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.494
++ __119-[MOEngagementHistoryManager fetchSuggestionEngagementEventsFromAllDevicesWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.485
++ __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.451
++ __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.454
++ __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_2.452
++ __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_3.453
++ __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.437
++ __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.443
++ __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_2.439
++ __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_3.441
++ __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.464
++ __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.467
++ __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_2.465
++ __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_3.466
++ __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.457
++ __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.460
++ __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_2.458
++ __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_3.459
++ __185-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:andCompletionHandler:]_block_invoke.129
++ __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1931
++ __45-[MOTrendsAnalyzer(Metrics) setCommonFields:]_block_invoke.606
++ __49-[MOBiomeManager _updateDataStreamWithEngagement]_block_invoke.668
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.445
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.445.cold.1
++ __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.446
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.456
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.457
++ __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.457.cold.1
++ __50-[MOUserData _fetchUserDataWithCompletionHandler:]_block_invoke.125
++ __50-[MOUserData _fetchUserDataWithCompletionHandler:]_block_invoke.136
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.448
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.448.cold.1
++ __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.449
++ __53-[MOBookmarkStore updateBookmarks:completionHandler:]_block_invoke.cold.1
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.145
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.145.cold.1
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.145.cold.2
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.145.cold.3
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.cold.2
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.cold.3
++ __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.cold.4
++ __61-[MOAvailabilityPredictionManager saveEligiblePOICategories:]_block_invoke.441
++ __61-[MOAvailabilityPredictionManager saveEligiblePOICategories:]_block_invoke.441.cold.1
++ __61-[MONotificationsManager setUpNotificationTimerWithFireDate:]_block_invoke.672
++ __61-[MOOnboardingAndSettingsPersistence getStateForSettingFast:]_block_invoke.235
++ __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.652
++ __62-[MOEventBundleRanking _fillRichnessInfoForRanking:forBundle:]_block_invoke.517
++ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.682
++ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.692
++ __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.707
++ __64-[MOOnboardingAndSettingsPersistence _peopleAwarenessSubscribe:]_block_invoke.126
++ __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.351
++ __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.355
++ __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.358
++ __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.454
++ __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.672
++ __71-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterOnboarding]_block_invoke.220
++ __71-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterOnboarding]_block_invoke_2.221
++ __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.257
++ __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.259
++ __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.265
++ __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.265.cold.1
++ __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke.472
++ __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke.478
++ __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke_2.473
++ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.675
++ __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.676
++ __84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke.538
++ __84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke_2.cold.1
++ __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke.496
++ __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke.496.cold.1
++ __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke.497
++ __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke_2.cold.1
++ __86-[MOBundleClusteringManager generateClusterBundleFrom:withEmbeddings:andCreationDate:]_block_invoke.393.cold.2
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.694
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.694.cold.1
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.698
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.698.cold.1
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.705
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.706
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.710
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.720
++ __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.721
++ __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.138
++ __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.141
++ __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.141.cold.1
++ __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.144
++ __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.144.cold.1
++ __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.482
++ __93-[MOEngagementHistoryManager fetchAppEntryEngagementEventsFromStartDate:toEndDate:withError:]_block_invoke.483
++ __95-[MOEngagementHistoryManager fetchSuggestionEngagementEventsFromStartDate:toEndDate:withError:]_block_invoke.482
++ __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.483
++ __OBJC_$_CLASS_METHODS_MODowntimeDetectionUtilities
++ __OBJC_$_CLASS_METHODS_MOOnboardingAnalyticsUtilities
++ __OBJC_CLASS_RO_$_MODowntimeDetectionUtilities
++ __OBJC_CLASS_RO_$_MOOnboardingAnalyticsUtilities
++ __OBJC_METACLASS_RO_$_MODowntimeDetectionUtilities
++ __OBJC_METACLASS_RO_$_MOOnboardingAnalyticsUtilities
++ ___101-[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:]_block_invoke
++ ___101-[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:]_block_invoke_2
++ ___114-[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:updatedBookmark:processEvent:]_block_invoke
++ ___114-[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:updatedBookmark:processEvent:]_block_invoke_2
++ ___136-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:andCompletionHandler:]_block_invoke
++ ___170-[MOAvailabilityPredictionManager predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:availabilityWithDowntimeHandler:]_block_invoke
++ ___185-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:andCompletionHandler:]_block_invoke
++ ___296+[MODowntimeDetectionUtilities deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:]_block_invoke
++ ___53-[MOBookmarkStore updateBookmarks:completionHandler:]_block_invoke
++ ___59+[MODowntimeDetectionUtilities getUniqueDays:withCalendar:]_block_invoke
++ ___70-[MOOnboardingAndSettingsPersistence publishOnboardingStatusAnalytics]_block_invoke
++ ___84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke_2
++ ___84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke_2
++ ___90-[MOEngagementHistoryManager writeEngagementLightStreamForDevice:storedBookmarks:handler:]_block_invoke
++ ___block_descriptor_32_e27_q24?0"NSDate"8"NSDate"16l
++ ___block_descriptor_40_e8_32s_e29_v24?0"NSArray"8"NSError"16ls32l8
++ ___block_descriptor_48_e8_32r_e35_v32?0"NSNumber"8"NSNumber"16^B24lr32l8
++ ___block_descriptor_48_e8_32s40bs_e46_v32?0"NSArray"8"NSDictionary"16"NSError"24ls32l8s40l8
++ ___block_descriptor_48_e8_32s40r_e17_v16?0"NSArray"8ls32l8r40l8
++ ___block_descriptor_56_e8_32bs40r48r_e5_v8?0lr40l8s32l8r48l8
++ ___block_descriptor_64_e8_32s40bs48r_e32_v16?0"NSManagedObjectContext"8ls32l8s40l8r48l8
++ ___block_descriptor_64_e8_32s40s48r56r_e46_v24?0"MOBookmarkForBiomeStream"8"NSError"16ls32l8r48l8r56l8s40l8
++ ___block_descriptor_64_e8_32s40s48r56r_e5_v8?0ls32l8r48l8s40l8r56l8
++ ___block_descriptor_80_e8_32s40s48bs56r64r_e29_v24?0"NSArray"8"NSError"16lr56l8s32l8s40l8r64l8s48l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs72w_e5_v8?0lw72l8s32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_80_e8_32s40s48s56s64bs_e34_v24?0"NSError"8"NSDictionary"16ls32l8s40l8s48l8s64l8s56l8
++ ___block_descriptor_81_e8_32s40s48s56s64s72r_e29_v24?0"PHAsset"8"NSError"16lr72l8s32l8s40l8s48l8s56l8s64l8
++ ___block_descriptor_88_e8_32s40s48s56s64s72bs_e34_v24?0"NSError"8"NSDictionary"16ls32l8s40l8s72l8s48l8s56l8s64l8
++ ___block_descriptor_96_e8_32s40s48s56bs64r72r80r_e29_v24?0"NSArray"8"NSError"16lr64l8s32l8r72l8s40l8s48l8r80l8s56l8
++ __block_literal_global.128
++ __block_literal_global.264
++ __block_literal_global.375
++ __block_literal_global.379
++ __block_literal_global.381
++ __block_literal_global.401
++ __block_literal_global.428
++ __block_literal_global.430
++ __block_literal_global.432
++ __block_literal_global.446
++ __block_literal_global.450
++ __block_literal_global.456
++ __block_literal_global.463
++ __block_literal_global.469
++ __block_literal_global.471
++ __block_literal_global.475
++ __block_literal_global.477
++ __block_literal_global.493
++ __block_literal_global.498
++ __block_literal_global.500
++ __block_literal_global.526
++ __block_literal_global.532
++ __block_literal_global.534
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_momentsd
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_momentsd
++ _kAPMDowntimeStartHourFeatureScaleMeanKey
++ _kAPMDowntimeStartHourFeatureScaleStdKey
++ _kAvailabilityPredictionScreentimeDurationArray
++ _kAvailabilityPredictionScreentimeMaxDuration
++ _kDowntimeDetectionDefaultSleepStartHourKey
++ _kDowntimeDetectionErrorAllDays
++ _kDowntimeDetectionErrorRecent
++ _kDowntimeDetectionMinActiveHoursThresholdKey
++ _kDowntimeDetectionMinNumDaysWithScreentimeThresholdKey
++ _kDowntimeDetectionMinNumObservationsThresholdKey
++ _kDowntimeDetectionOverallActivityThresholdKey
++ _kDowntimeDetectionRecentDaysMinActiveHoursThresholdKey
++ _kDowntimeDetectionRecentDaysMinNumDaysWithScreentimeThresholdKey
++ _kDowntimeDetectionRecentDaysMinNumObservationsThresholdKey
++ _kDowntimeDetectionRecentDaysOverallActivityThresholdKey
++ _kDowntimeDetectionSelectionMechanism
++ _kDowntimeDetectionTrimFractionKey
++ _kDowntimeDetectionWinActivityRatioMaxKey
++ _kDowntimeDetectionWinLengthMaxKey
++ _kDowntimeDetectionWinLengthMinKey
++ _kDowntimeDetectionWindowEndHour
++ _kDowntimeDetectionWindowEndHourSelected
++ _kDowntimeDetectionWindowLength
++ _kDowntimeDetectionWindowLengthAllDays
++ _kDowntimeDetectionWindowLengthRecent
++ _kDowntimeDetectionWindowStartHour
++ _kDowntimeDetectionWindowStartHourAllDays
++ _kDowntimeDetectionWindowStartHourRecent
++ _kDowntimeDetectionWindowStartHourSelected
++ _kMOActivityContext
++ _kMOAnalyticsDeviceType
++ _kMOAnalyticsOnboardingStatusEvent
++ _kMOAnalyticsOnboardingStatusEventV2
++ _kMODeviceClass
++ _kMOIsDNUEnabled
++ _kMOIsIHAEnabled
++ _kMOLabelFormatterMetaKeywordNotHome
++ _kMOLocationContext
++ _kMOPeopleContext
++ _kMOPhotoTraitContext
++ _kMOThematicSummaryLabelDiversityKeywordWorkouts
++ _kMOTimeContext
++ _kSuggestionRecommendThresholdForThematicSummary
++ _objc_msgSend$_phenotypeDimensionFor:withphenotypeDimensionDict:
++ _objc_msgSend$_removeDuplicatePhotoResourceFromActivityBundles:compareWithInviteOutingBundle:
++ _objc_msgSend$calculateMeanWithIndices:forArray:
++ _objc_msgSend$calculateStatsPerHour:withTrimFraction:
++ _objc_msgSend$convertMGDeviceClassToAnalyticsDeviceType:
++ _objc_msgSend$deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:
++ _objc_msgSend$downtimeDetectionPipeline:withBundles:withEngagement:withDefaults:withAllowedScreentimeCategories:forRecentDays:error:
++ _objc_msgSend$downtimeDictionary
++ _objc_msgSend$extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:withDowntimeWindowStartHour:
++ _objc_msgSend$fetchEventEntityPropertiesWithSpotlightIdentifiers:startDateFetch:endDateFetch:bundleIdentifier:completion:
++ _objc_msgSend$filterEventBundlesEligibleForDominantBundleCreation:
++ _objc_msgSend$findDowntimeWindow:maxWindowLength:minWindowLength:withWindowActivityRatioMax:error:
++ _objc_msgSend$getDeviceClass
++ _objc_msgSend$getInviteBundles:
++ _objc_msgSend$getTotalScreentimeDurations:withAllowedScreentimeCategories:
++ _objc_msgSend$getUniqueDays:withCalendar:
++ _objc_msgSend$initWithIdentifier:bundleInterfaceType:bundleEvergreenType:bundleGoodnessScore:
++ _objc_msgSend$isBeforeHour:comparedTo:
++ _objc_msgSend$isDNUEnabled
++ _objc_msgSend$isIHAEnabled
++ _objc_msgSend$maxSubBundleGoodnessScores
++ _objc_msgSend$onboardingDurationBinFrom:
++ _objc_msgSend$predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:availabilityWithDowntimeHandler:
++ _objc_msgSend$preprocessEventsForDowntimeDetection:withBundles:withEngagement:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:withAllowedScreentimeCategories:error:
++ _objc_msgSend$setDowntimeDictionary:
++ _objc_msgSend$setMaxSubBundleGoodnessScores:
++ _objc_msgSend$setSubBundleCount:
++ _objc_msgSend$streamEngagementEventsFromSource:storedBookmarks:error:updatedBookmark:processEvent:
++ _objc_msgSend$subBundleCount
++ _objc_msgSend$submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:andCompletionHandler:
++ _objc_msgSend$submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:andCompletionHandler:
++ _objc_msgSend$unpackDowntimeDictionary:
++ _objc_msgSend$updateBookmarks:completionHandler:
++ _objc_msgSend$updatedBookmarkWithNewBookMark:deviceID:
++ _objc_msgSend$writeEngagementLightStreamForDevice:storedBookmarks:handler:
++ _objc_msgSend$writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:
+- $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9
+- $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9TQ0_
+- $s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA.9Tu
+- -[MOAvailabilityPredictionManager extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:]
+- -[MOAvailabilityPredictionManager getTotalScreentimeDurations:]
+- -[MOAvailabilityPredictionManager predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:handler:]
+- -[MOAvailabilityPredictionManager setSleepStartHourFeatureScaleMean:]
+- -[MOAvailabilityPredictionManager setSleepStartHourFeatureScaleStd:]
+- -[MOAvailabilityPredictionManager sleepStartHourFeatureScaleMean]
+- -[MOAvailabilityPredictionManager sleepStartHourFeatureScaleStd]
+- -[MOBundleClusteringManager generateClusterBundleFrom:withEmbeddings:andCreationDate:].cold.16
+- -[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:AndCompletionHandler:]
+- -[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:processEvent:]
+- -[MOEngagementHistoryManager updateBookMarkWithNewBookMark:deviceID:]
+- -[MOEngagementHistoryManager updateBookMarkWithNewBookMark:deviceID:].cold.1
+- -[MOEngagementHistoryManager writeEngagementLightStreamForDevice:storedBookmarks:]
+- -[MOEngagementHistoryManager writeEngagementLightStreamForDevices:storedBookmarks:]
+- GCC_except_table117
+- GCC_except_table119
+- GCC_except_table123
+- GCC_except_table131
+- GCC_except_table136
+- GCC_except_table67
+- OBJC_IVAR_$_MOAvailabilityPredictionManager._sleepStartHourFeatureScaleMean
+- OBJC_IVAR_$_MOAvailabilityPredictionManager._sleepStartHourFeatureScaleStd
+- _$s8momentsd12CommonLoggerC5btask2os0C0Vvau
+- _$s8momentsd12CommonLoggerC5btask2os0C0VvgZ
+- _$s8momentsd12CommonLoggerC5btask2os0C0VvpZ
+- _$s8momentsd12CommonLoggerC5btask2os0C0VvpZMV
+- _$s8momentsd12CommonLoggerC5btask_WZ
+- _$s8momentsd12CommonLoggerC5btask_Wz
+- _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier10organizers9attendeesACSSSg_10Foundation0G0VSgAPSo10CLLocationCSgA2LSayAA0bcD6PersonCGSgAWtcfC
+- _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier10organizers9attendeesACSSSg_10Foundation0G0VSgAPSo10CLLocationCSgA2LSayAA0bcD6PersonCGSgAWtcfCTq
+- _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier10organizers9attendeesACSSSg_10Foundation0G0VSgAPSo10CLLocationCSgA2LSayAA0bcD6PersonCGSgAWtcfc
+- _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier10organizers9attendeesACSSSg_10Foundation0G0VSgAPSo10CLLocationCSgA2LSayAA0bcD6PersonCGSgAWtcfcTf4nnngnnnnn_n
+- _$s8momentsd19MOEventEntityInviteC5title9startDate03endG08location9placeName10identifier10organizers9attendeesACSSSg_10Foundation0G0VSgAPSo10CLLocationCSgA2LSayAA0bcD6PersonCGSgAWtcfcTo
+- _$s8momentsd19MOEventEntityInviteC9startDate10Foundation0F0VSgvpfiTm
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctF
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFTo
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFTq
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TA
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TATQ0_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TATu
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ1_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ2_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TQ3_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY0_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY4_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY5_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY6_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_TY7_
+- _$s8momentsd27MOEventEntityInviteProviderC010fetchEventC10Properties20spotlightIdentifiers14startDateFetch03endlM010completionySaySSG_10Foundation0L0VALySayAA0bcD0CGSg_s5Error_pSgtctFyyYacfU_Tu
+- _$sSa11descriptionSSvg
+- _$sScPSgWOh
+- __103-[MOEngagementHistoryManager fetchAppEntryEngagementEventsWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.492
+- __105-[MOEngagementHistoryManager fetchSuggestionEngagementEventsWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.483
+- __117-[MOEngagementHistoryManager fetchAppEntryEngagementEventsFromAllDevicesWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.493
+- __119-[MOEngagementHistoryManager fetchSuggestionEngagementEventsFromAllDevicesWithTypes:fromStartDate:toEndDate:withError:]_block_invoke.484
+- __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.450
+- __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.453
+- __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_2.451
+- __119-[MOEngagementHistoryManager getEvergreenTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_3.452
+- __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.436
+- __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke.442
+- __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_2.438
+- __119-[MOEngagementHistoryManager getInterfaceTypeCountForSuggestionEngagmentEvent:from:to:onceForEachBundle:skipForEvents:]_block_invoke_3.440
+- __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.463
+- __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.466
+- __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_2.464
+- __177-[MOEngagementHistoryManager getEvergreenTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_3.465
+- __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.456
+- __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke.459
+- __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_2.457
+- __177-[MOEngagementHistoryManager getInterfaceTypeCountForAppEntryEvent:withMinAddedCharacterCount:andMaxAddedCharacterCount:fromStartDate:toEndDate:onceForEachBundle:skipForEvents:]_block_invoke_3.458
+- __185-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:AndCompletionHandler:]_block_invoke.128
+- __37-[MOPromptMetrics getAndSetAgeGender]_block_invoke.1927
+- __45-[MOTrendsAnalyzer(Metrics) setCommonFields:]_block_invoke.602
+- __49-[MOBiomeManager _updateDataStreamWithEngagement]_block_invoke.665
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.442
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.442.cold.1
+- __49-[MOHealthKitManager _rehydrateWorkouts:handler:]_block_invoke.443
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.453
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.454
+- __50-[MOHealthKitManager _fetchLocationsFrom:handler:]_block_invoke.454.cold.1
+- __50-[MOUserData _fetchUserDataWithCompletionHandler:]_block_invoke.124
+- __50-[MOUserData _fetchUserDataWithCompletionHandler:]_block_invoke.135
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.445
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.445.cold.1
+- __52-[MOHealthKitManager _rehydrateStateOfMind:handler:]_block_invoke.446
+- __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.138
+- __53-[MOSpotlightManager _rehydrateInviteEvents:handler:]_block_invoke.138.cold.1
+- __61-[MOAvailabilityPredictionManager saveEligiblePOICategories:]_block_invoke.1767
+- __61-[MOAvailabilityPredictionManager saveEligiblePOICategories:]_block_invoke.1767.cold.1
+- __61-[MONotificationsManager setUpNotificationTimerWithFireDate:]_block_invoke.671
+- __61-[MOOnboardingAndSettingsPersistence getStateForSettingFast:]_block_invoke.295
+- __62-[MOBiomeManager donateEvents:andBundles:andOnboardingStatus:]_block_invoke.649
+- __62-[MOEventBundleRanking _fillRichnessInfoForRanking:forBundle:]_block_invoke.514
+- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.678
+- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.688
+- __64-[MOBiomeManager _fetchAndSetDemographicsWithCompletionHandler:]_block_invoke.703
+- __64-[MOOnboardingAndSettingsPersistence _peopleAwarenessSubscribe:]_block_invoke.186
+- __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.352
+- __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.356
+- __66-[MOEventBundleManager bundleEventsWithRefreshVariant:andHandler:]_block_invoke.359
+- __66-[MOHealthKitManager _rehydrateStoredEvents:fromWorkouts:handler:]_block_invoke.451
+- __69-[MOBiomeManager fetchMomentsEngagementForBundles:CompletionHandler:]_block_invoke.669
+- __69-[MOEngagementHistoryManager updateBookMarkWithNewBookMark:deviceID:]_block_invoke.cold.1
+- __71-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterOnboarding]_block_invoke.280
+- __71-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterOnboarding]_block_invoke_2.281
+- __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.317
+- __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.319
+- __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.325
+- __74-[MOOnboardingAndSettingsPersistence postRefreshTriggerAfterSettingChange]_block_invoke.325.cold.1
+- __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke.471
+- __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke.477
+- __77-[MOEngagementHistoryManager eventBundleStore:needsEngagementInfoForBundles:]_block_invoke_2.472
+- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke.672
+- __82-[MOBiomeManager fetchMomentsEventDataBetweenStartDate:EndDate:CompletionHandler:]_block_invoke_2.673
+- __84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke.533
+- __84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke.534
+- __84-[MOEngagementHistoryManager updateEngagementLightStreamWithRefreshVariant:handler:]_block_invoke.cold.1
+- __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke.495
+- __84-[MOEngagementHistoryManager writeEngagementLightStreamForRemoteDevicesWithHandler:]_block_invoke.495.cold.1
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.691
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.691.cold.1
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.695
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.695.cold.1
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.699
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.703
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.707
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.717
+- __88-[MOEventBundleRanking _calculateRankingScore:withMinRecommendedBundleCountRequirement:]_block_invoke.718
+- __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.131
+- __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.135
+- __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.135.cold.1
+- __90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke_2.cold.1
+- __91-[MOHealthKitManager _fetchWorkoutEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.479
+- __93-[MOEngagementHistoryManager fetchAppEntryEngagementEventsFromStartDate:toEndDate:withError:]_block_invoke.482
+- __95-[MOEngagementHistoryManager fetchSuggestionEngagementEventsFromStartDate:toEndDate:withError:]_block_invoke.481
+- __95-[MOHealthKitManager _fetchStateOfMindEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke.480
+- ___146-[MOAvailabilityPredictionManager predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:handler:]_block_invoke
+- ___146-[MOAvailabilityPredictionManager predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:handler:]_block_invoke_2
+- ___185-[MOEngagementAndSuggestionAnalyticsManager submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:AndCompletionHandler:]_block_invoke
+- ___69-[MOEngagementHistoryManager updateBookMarkWithNewBookMark:deviceID:]_block_invoke
+- ___82-[MOEngagementHistoryManager writeEngagementLightStreamForDevice:storedBookmarks:]_block_invoke
+- ___90-[MOSpotlightManager _fetchInviteEventsBetweenStartDate:endDate:withStoredEvents:handler:]_block_invoke_2
+- ___98-[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:processEvent:]_block_invoke
+- ___98-[MOEngagementHistoryManager streamEngagementEventsFromSource:storedBookmarks:error:processEvent:]_block_invoke_2
+- ___block_descriptor_48_e8_32s_e34_v24?0"NSError"8"NSDictionary"16ls32l8
+- ___block_descriptor_80_e8_32s40s48s56r64r_e29_v24?0"NSArray"8"NSError"16lr56l8s32l8s40l8r64l8s48l8
+- ___block_descriptor_81_e8_32s40s48s56s64s72r_e29_v24?0"PHAsset"8"NSError"16ls32l8s40l8s48l8s56l8r72l8s64l8
+- __block_literal_global.188
+- __block_literal_global.324
+- __block_literal_global.374
+- __block_literal_global.378
+- __block_literal_global.380
+- __block_literal_global.400
+- __block_literal_global.425
+- __block_literal_global.427
+- __block_literal_global.429
+- __block_literal_global.431
+- __block_literal_global.445
+- __block_literal_global.455
+- __block_literal_global.462
+- __block_literal_global.468
+- __block_literal_global.470
+- __block_literal_global.474
+- __block_literal_global.476
+- __block_literal_global.490
+- __block_literal_global.495
+- __block_literal_global.521
+- __block_literal_global.524
+- __block_literal_global.527
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_momentsd
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_momentsd
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_momentsd
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_momentsd
+- _kAPMSleepStartHourFeatureScaleMeanKey
+- _kAPMSleepStartHourFeatureScaleStdKey
+- _kAvailabilityPredictionLookbackWindowSizeKey
+- _kAvailabilityPredictionTimeBufferKey
+- _kMOThematicSummaryLabelAtHome
+- _kMOThematicSummaryLabelDiversityKeywordWokrouts
+- _kMOThematicSummaryLabelNotHome
+- _objc_msgSend$extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:
+- _objc_msgSend$fetchEventEntityPropertiesWithSpotlightIdentifiers:startDateFetch:endDateFetch:completion:
+- _objc_msgSend$getTotalScreentimeDurations:
+- _objc_msgSend$initWithIdentifier:bundleInterfaceType:bundleEvergreenType:
+- _objc_msgSend$predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:handler:
+- _objc_msgSend$streamEngagementEventsFromSource:storedBookmarks:error:processEvent:
+- _objc_msgSend$submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:AndCompletionHandler:
+- _objc_msgSend$updateBookMarkWithNewBookMark:deviceID:
+- _objc_msgSend$updateBookmark:completionHandler:
+- _objc_msgSend$writeEngagementLightStreamForDevice:storedBookmarks:
+- _objc_msgSend$writeEngagementLightStreamForDevices:storedBookmarks:
+CStrings:
++ " %@ Phenotype was found: %{private}@. subbundles:%@"
++ " reported downtime dictionary: %@"
++ "(%K < %@) AND (%K > %@)"
++ "@104@0:8@16@24@32@40@48d56d64d72d80d88^@96"
++ "@56@0:8@16d24d32d40^@48"
++ "@64@0:8@16@24@32@40@48d56"
++ "@68@0:8@16@24@32@40@48B56^@60"
++ "@88@0:8@16@24@32@40@48@56@64@72@80"
++ "@88@0:8@16@24@32d40d48d56d64@72^@80"
++ "APMDowntimeStartHourFeatureScaleMeanKey"
++ "APMDowntimeStartHourFeatureScaleStdKey"
++ "After prioritizing non-time context:%{private}@"
++ "AppleTV"
++ "B32@0:8d16d24"
++ "B56@0:8@16@24o^@32o^@40@?48"
++ "ContactName %{private}@ was picked as phenotype"
++ "Could not find person object for %{private}@. Ignoring from propagating to bundle.persons"
++ "Could not get device class (MGError=%d)"
++ "Current contactName:%{private}@, count:%lu, totalSubBundleCount:%lu"
++ "Current deviceClass=%@"
++ "Current featureKey:%@, subBundleIDsGroupedByFeatureValues:%{private}@, sortedFeatureValuesByFrequency:%{private}@, mostFrequentFeatureValue:%{private}@, count:%lu"
++ "Current featureValue %{private}@, SubBundleIDs %@"
++ "Current phenotype: dimension=%{private}@, Key=%{private}@, value=%{private}@, subBundleCount=%lu"
++ "Current photo asset (UUID:%@) does not contain phenotype person(s): %{private}@. However it contains photo trait phenotype(s): (%{private}@. Hold dropping this photo asset "
++ "DT: Both checks failed for deriving composite score"
++ "DT: Did not observe sufficent amount of active hours across days"
++ "DT: Downtime detection pipeline generic error"
++ "DT: Not sufficient amount of days with screentime for downtime detection"
++ "DT: Overall activity not sufficient for downtime detection"
++ "DT: Ratio of activity in the window to outside is not sufficient"
++ "DominantBundleCreation: Input eventBundles count after filtering for numInviteEvents == 0: %lu."
++ "DominantBundleCreation: Raw input eventBundles count, %lu"
++ "DominantBundleCreation: found %lu invite outing bundles"
++ "DominantBundleCreation: input activity bundle count after eligible for dominant bundle creation filter, %lu"
++ "DominantBundleCreation: input activity bundle count, %lu"
++ "DominantBundleCreation: input outing bundle count after eligible for dominant bundle creation filter, %lu"
++ "DominantBundleCreation: input outing bundle count, %lu"
++ "DominantBundleCreation: no dominant bundle is created since outing or activity bundles count is 0, outing bundles count: %lu, activity bundles count: %lu"
++ "DominantBundleCreation: no resource change needed for activity bundles compared to invite outing bundles since outing or activity bundles count is 0, invite outing bundles count: %lu, activity bundles count: %lu"
++ "DowntimeDetectionDefaultSleepStartHourKey"
++ "DowntimeDetectionMinActiveHoursThresholdKey"
++ "DowntimeDetectionMinNumDaysWithScreentimeThresholdKey"
++ "DowntimeDetectionMinNumObservationsThresholdKey"
++ "DowntimeDetectionOverallActivityThresholdKey"
++ "DowntimeDetectionRecentDaysMinActiveHoursThresholdKey"
++ "DowntimeDetectionRecentDaysMinNumDaysWithScreentimeThresholdKey"
++ "DowntimeDetectionRecentDaysMinNumObservationsThresholdKey"
++ "DowntimeDetectionRecentDaysOverallActivityThresholdKey"
++ "DowntimeDetectionTrimFractionKey"
++ "DowntimeDetectionWinActivityRatioMaxDefaultKey"
++ "DowntimeDetectionWinLengthMaxDefaultKey"
++ "DowntimeDetectionWinLengthMinDefaultKey"
++ "DowntimeDetectionWindowEndHour"
++ "DowntimeDetectionWindowStartHour"
++ "DowntimeDetectionWindowStartHourUserHistoricalDefault"
++ "Embedding for bundle %{private}@ is nil. Skip and proceed to the next bundle"
++ "Extracted embedding:%{private}@"
++ "MODowntimeDetectionUtilities"
++ "MOOnboardingAnalyticsUtilities"
++ "Mac"
++ "Minimum phenotype dimension requirement was already satisfied with %lu subbundles. Adding the current phenotype value %{private}@ drops subbundle count to %lu. Dropping the current phenotype"
++ "Phenotype selected. count=%lu phenotypeSubBundleIDs= %{private}@"
++ "PlatformInfoOverrideIsDNUEnabled"
++ "PlatformInfoOverrideIsIHAEnabled"
++ "Pruning bundles with different values from phenotype: %{private}@, subBundleIDsWithPhenotypeFeatures:%{private}@"
++ "Publishing onboarding status for analytics %@ : %@"
++ "RealityDevice"
++ "Rejected thematic summary due to low maxSubBundleGoodnessScores or subBundleCount: suggestionID %@, maxSubBundleGoodnessScores=%.3f,subBundleCount=%lu, recommendThre=%.3f "
++ "Remaining phenotype after pruning: %{private}@"
++ "Resource counts from subBundles=%{private}@, setting max resource count per bundle to %lu"
++ "SecondLevelActivityType selected phenotype:%{private}@"
++ "Setting thematic summary visibility status to Recommended only: suggestionID %@, maxSubBundleGoodnessScores=%.3f,subBundleCount=%lu, recommendThre=%.3f "
++ "Skipping current pattern summary bundle:start and end dates are on the same date and it was not holiday summary (subSuggestionCount=%lu, phenotypes=%{private}@, dateRange=%@-%@)"
++ "T@\"NSDictionary\",&,N,V_downtimeDictionary"
++ "TQ,N,V_subBundleCount"
++ "Td,N,V_downtimeDetectionDefaultSleepStartHour"
++ "Td,N,V_downtimeDetectionMinActiveHoursThreshold"
++ "Td,N,V_downtimeDetectionMinNumDaysWithScreentimeThreshold"
++ "Td,N,V_downtimeDetectionMinNumObservationsThreshold"
++ "Td,N,V_downtimeDetectionOverallActivityThreshold"
++ "Td,N,V_downtimeDetectionRecentDaysMinActiveHoursThreshold"
++ "Td,N,V_downtimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold"
++ "Td,N,V_downtimeDetectionRecentDaysMinNumObservationsThreshold"
++ "Td,N,V_downtimeDetectionRecentDaysOverallActivityThreshold"
++ "Td,N,V_downtimeDetectionTrimFraction"
++ "Td,N,V_downtimeDetectionWinActivityRatioMax"
++ "Td,N,V_downtimeDetectionWinLengthMax"
++ "Td,N,V_downtimeDetectionWinLengthMin"
++ "Td,N,V_downtimeStartHourFeatureScaleMean"
++ "Td,N,V_downtimeStartHourFeatureScaleStd"
++ "Tf,N,V_maxSubBundleGoodnessScores"
++ "The intersection between selected subbundles and subbundles with the current phenotype (key,value)=(%{private}@,%{private}@) is less than threshold %lu, or the ratio between intersection and current subbundles %.3f is less than thres %.3f Dropping the current phenotype"
++ "Thematic summary got rejected due to engagement signal: suggestionID %@, isBundleOrSubBundlesSelectedOrQuickAdded %d, isBundleOrSubBundleDeleted %d"
++ "TopLevelActivityType phenotypeCandidatesWithValueCounts before filtering:%{private}@"
++ "TopLevelActivityType selected phenotype:%{private}@"
++ "Updated bookmarks count %lu"
++ "[APM] Downtime detection across all days, window start hour: %@, window end hour: %@, window length: %@"
++ "[APM] Downtime detection for recent days, window start hour: %@, window end hour: %@, window length: %@"
++ "[APM] Downtime detection reconciled window end hour: %f"
++ "[APM] Downtime detection reconciled window start hour: %f"
++ "[APM] Downtime detection using overall end hour only: %f"
++ "[APM] Downtime detection using overall start hour only: %f"
++ "[APM] Downtime detection using personalized default start hour: %f"
++ "[APM] Downtime detection using population default start hour: %f"
++ "[APM] Extracted feature array after scaling: [downtimeStartHour:%.5f, hour:%.5f, prevEngagementCount:%.5f, prevEngagementCountBin1:%.5f, prevScreentimeCount:%.5f, prevScreentimeCountShortLookback:%.5f, overMedianScreentimeSameWeekdayProbability:%.5f, over20MinScreentimeSameWeekdayProbability:%.5f, weekdayPrevScreentimeCount:%.5f, isMorning:%.5f] for window %@"
++ "[APM] Extracted feature array before scaling: [downtimeStartHour:%.5f, hour:%.5f, prevEngagementCount:%.5f, prevEngagementCountBin1:%.5f, prevScreentimeCount:%.5f, prevScreentimeCountShortLookback:%.5f, overMedianScreentimeSameWeekdayProbability:%.5f, over20MinScreentimeSameWeekdayProbability:%.5f, weekdayPrevScreentimeCount:%.5f, isMorning:%.5f] for window %@"
++ "[APM] downtime detection preprocessing: Both checks failed for deriving composite score"
++ "[APM] downtime detection preprocessing: Did not observe sufficent amount of active hours across days"
++ "[APM] downtime detection preprocessing: Not sufficient amount of days with screentime for downtime detection"
++ "[APM] downtime detection preprocessing: Overall activity not sufficient for downtime detection"
++ "[APM] downtime detection preprocessing: Ratio of activity in the window to outside is not sufficient"
++ "[APM] downtime detection: no items in composite score array, defaulting to 0 for hour %d"
++ "[APM] downtime detection: not enough number of items left in composite score array for trimmed mean calculation, defaulting to median for hour %d"
++ "[photoManager fetchAssetUsingID] error=%{private}@. Drop this photo asset from the summary."
++ "_downtimeDetectionDefaultSleepStartHour"
++ "_downtimeDetectionMinActiveHoursThreshold"
++ "_downtimeDetectionMinNumDaysWithScreentimeThreshold"
++ "_downtimeDetectionMinNumObservationsThreshold"
++ "_downtimeDetectionOverallActivityThreshold"
++ "_downtimeDetectionRecentDaysMinActiveHoursThreshold"
++ "_downtimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold"
++ "_downtimeDetectionRecentDaysMinNumObservationsThreshold"
++ "_downtimeDetectionRecentDaysOverallActivityThreshold"
++ "_downtimeDetectionTrimFraction"
++ "_downtimeDetectionWinActivityRatioMax"
++ "_downtimeDetectionWinLengthMax"
++ "_downtimeDetectionWinLengthMin"
++ "_downtimeDictionary"
++ "_downtimeStartHourFeatureScaleMean"
++ "_downtimeStartHourFeatureScaleStd"
++ "_maxSubBundleGoodnessScores"
++ "_phenotypeDimensionFor:withphenotypeDimensionDict:"
++ "_removeDuplicatePhotoResourceFromActivityBundles:compareWithInviteOutingBundle:"
++ "_subBundleCount"
++ "activityContext"
++ "bundleID == \"%@\""
++ "calculateMeanWithIndices:forArray:"
++ "calculateStatsPerHour:withTrimFraction:"
++ "com.apple.Moments.MOOnboardingStatusV2"
++ "com.apple.bookmark.update"
++ "com.apple.rsvp"
++ "compositeScore"
++ "convertMGDeviceClassToAnalyticsDeviceType:"
++ "deriveCompositeScoreForDays:forScreentimeDurations:forMotionAndWorkoutBundles:forEngagement:withCalendar:withMaxScreentimeDuration:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:error:"
++ "downtimeDetectionDefaultSleepStartHour"
++ "downtimeDetectionErrorAllDays"
++ "downtimeDetectionErrorRecent"
++ "downtimeDetectionMinActiveHoursThreshold"
++ "downtimeDetectionMinNumDaysWithScreentimeThreshold"
++ "downtimeDetectionMinNumObservationsThreshold"
++ "downtimeDetectionOverallActivityThreshold"
++ "downtimeDetectionPipeline:withBundles:withEngagement:withDefaults:withAllowedScreentimeCategories:forRecentDays:error:"
++ "downtimeDetectionRecentDaysMinActiveHoursThreshold"
++ "downtimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold"
++ "downtimeDetectionRecentDaysMinNumObservationsThreshold"
++ "downtimeDetectionRecentDaysOverallActivityThreshold"
++ "downtimeDetectionTrimFraction"
++ "downtimeDetectionWinActivityRatioMax"
++ "downtimeDetectionWinLengthMax"
++ "downtimeDetectionWinLengthMin"
++ "downtimeDictionary"
++ "downtimeSelectionMechanism"
++ "downtimeStartHourFeatureScaleMean"
++ "downtimeStartHourFeatureScaleStd"
++ "downtimeWindowEndHour"
++ "downtimeWindowEndHourSelected"
++ "downtimeWindowLength"
++ "downtimeWindowLengthAllDays"
++ "downtimeWindowLengthRecent"
++ "downtimeWindowStartHour"
++ "downtimeWindowStartHourAllDays"
++ "downtimeWindowStartHourRecent"
++ "downtimeWindowStartHourSelected"
++ "durationArray"
++ "engagement/suggestion analytics submission was skipped. lastAnalyticsSubmissionDateForDefaultAnalytics=%@ ,lastAnalyticsSubmissionDateForWeeklyRotationMetrics=%@"
++ "extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:withDowntimeWindowStartHour:"
++ "fetch result is empty"
++ "fetchAssetUsingID returned nil PHAsset. Can't check if phenotype person is in the photo asset. Drop this asset from the summary"
++ "fetchEventEntityPropertiesWithSpotlightIdentifiers:startDateFetch:endDateFetch:bundleIdentifier:completion:"
++ "filterEventBundlesEligibleForDominantBundleCreation:"
++ "findDowntimeWindow:maxWindowLength:minWindowLength:withWindowActivityRatioMax:error:"
++ "getDeviceClass"
++ "getInviteBundles:"
++ "getTotalScreentimeDurations:withAllowedScreentimeCategories:"
++ "getUniqueDays:withCalendar:"
++ "initWithIdentifier:bundleInterfaceType:bundleEvergreenType:bundleGoodnessScore:"
++ "initWithTitle:startDate:endDate:location:placeName:identifier:appBundle:organizers:attendees:"
++ "isBeforeHour:comparedTo:"
++ "isDNUEnabled"
++ "isIHAEnabled"
++ "kMODeviceClass"
++ "kMOIsDNUEnabled"
++ "kMOIsIHAEnabled"
++ "locationContext"
++ "maxDuration"
++ "maxSubBundleGoodnessScores"
++ "onboardingDurationBinFrom:"
++ "peopleContext"
++ "person type=%ld, localIdentifer=%@, name=%{private}@, displayName=%{private}@, personURI=%{private}@, contactMatchingDictionary=%{private}@"
++ "phenotype keys before sorting:%{private}@, after sorting:%{private}@"
++ "photoTraitContext"
++ "predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:availabilityWithDowntimeHandler:"
++ "preprocessEventsForDowntimeDetection:withBundles:withEngagement:withMinNumDaysWithScreentimeThreshold:withOverallActivityThreshold:withMinNumObservationsThreshold:withMinActiveHoursThreshold:withAllowedScreentimeCategories:error:"
++ "q24@?0@\"NSDate\"8@\"NSDate\"16"
++ "saving bookmarks error, %@"
++ "saving bookmarks succeeded, bookmarks count, %lu"
++ "setDowntimeDetectionDefaultSleepStartHour:"
++ "setDowntimeDetectionMinActiveHoursThreshold:"
++ "setDowntimeDetectionMinNumDaysWithScreentimeThreshold:"
++ "setDowntimeDetectionMinNumObservationsThreshold:"
++ "setDowntimeDetectionOverallActivityThreshold:"
++ "setDowntimeDetectionRecentDaysMinActiveHoursThreshold:"
++ "setDowntimeDetectionRecentDaysMinNumDaysWithScreentimeThreshold:"
++ "setDowntimeDetectionRecentDaysMinNumObservationsThreshold:"
++ "setDowntimeDetectionRecentDaysOverallActivityThreshold:"
++ "setDowntimeDetectionTrimFraction:"
++ "setDowntimeDetectionWinActivityRatioMax:"
++ "setDowntimeDetectionWinLengthMax:"
++ "setDowntimeDetectionWinLengthMin:"
++ "setDowntimeDictionary:"
++ "setDowntimeStartHourFeatureScaleMean:"
++ "setDowntimeStartHourFeatureScaleStd:"
++ "setMaxSubBundleGoodnessScores:"
++ "setSubBundleCount:"
++ "spotlight invite event fetched with title: %@, with domain identifier: %@, with app entitity instance ID %@, for bundleID %@"
++ "spotlight invite fetch trying again with different bundle ID since internal build and zero fetch result for spotlight query"
++ "spotlight invite rehydration fetch result count %lu for com.apple.rsvp"
++ "spotlight invite rehydration fetch result count %lu for com.apple.rsvp.liveon"
++ "spotlight invite rehydration hit error %@ for com.apple.rsvp"
++ "spotlight invite rehydration hit error %@ for com.apple.rsvp.liveon"
++ "spotlight invite rehydration processing results for com.apple.rsvp"
++ "spotlight invite rehydration processing results for com.apple.rsvp.liveon"
++ "spotlight invite rehydration trying for com.apple.rsvp.liveon since zero rehydration results and internal build"
++ "streamEngagementEventsFromSource:storedBookmarks:error:updatedBookmark:processEvent:"
++ "subBundleIDsGroupedByFeatureValues for %{private}@: %{private}@"
++ "submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:andCompletionHandler:"
++ "submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:andCompletionHandler:"
++ "suggestionRecommendThresholdForThematicSummary"
++ "trimmedMean"
++ "unpackDowntimeDictionary:"
++ "updateBookmarks:completionHandler:"
++ "updatedBookmarkWithNewBookMark:deviceID:"
++ "v24@?0@\"MOBookmarkForBiomeStream\"8@\"NSError\"16"
++ "v32@?0@\"NSArray\"8@\"NSDictionary\"16@\"NSError\"24"
++ "write engagement light stream hit error %@"
++ "writeEngagementLightStreamForDevice:storedBookmarks:handler:"
++ "writeEngagementLightStreamForDevices:storedBookmarks:completionHandler:"
+- " %@ Phenotype was found: %@. subbundles:%@"
+- "%@ Histogram: %@"
+- "@80@0:8@16@24@32@40@48@56@64@72"
+- "APMSleepStartHourFeatureScaleMeanKey"
+- "APMSleepStartHourFeatureScaleStdKey"
+- "After prioritizing non-time context:%@"
+- "AvailabilityPredictionLookbackWindowSizeKey"
+- "AvailabilityPredictionTimeBufferKey"
+- "B48@0:8@16@24o^@32@?40"
+- "ContactName %@ was picked as phenotype"
+- "Could not find person object for %@. Ignoring from propagating to bundle.persons"
+- "Current contactName:%@, count:%lu, totalSubBundleCount:%lu"
+- "Current featureKey:%@, subBundleIDsGroupedByFeatureValues:%@, sortedFeatureValuesByFrequency:%@"
+- "Current featureValue %@, SubBundleIDs %@"
+- "Current phenotype value: %@, subBundles: %@"
+- "Current photo asset (UUID:%@) does not contain phenotype person(s): %{private}@. However it contains photo trait phenotype(s): (%@. Hold dropping this photo asset "
+- "DominantBundleCreation: no dominant bundle is created since outing or activit bundles count is 0, outing bundles count: %lu, activity bundles count: %lu"
+- "Embedding for bundle %@ is nil. Skip and proceed to the next bundle"
+- "Entity value attendees: %s"
+- "Entity value organizers: %s"
+- "Entity value property value title: %s"
+- "Extracted embedding:%{sensitive}@"
+- "Minimum phenotype dimension requirement was already satisfied with %lu subbundles. Adding the current phenotype value %@ drops subbundle count to %lu. Dropping the current phenotype"
+- "MomentsSpotlight"
+- "PersonalRelationship histogram: %@"
+- "Phenotype selected. count=%lu phenotypeSubBundleIDs= %@"
+- "Pruning bundles with different values from phenotype: %@, subBundleIDsWithPhenotypeFeatures:%@"
+- "Remaining phenotype after pruning: %@"
+- "Resource counts from subBundles=%@, setting max resource count per bundle to %lu"
+- "SecondLevelActivityType selected phenotype:%@"
+- "Setting thematic summary visibility status to Recommended only: bundleID %@, suggestionID %@"
+- "Td,N,V_sleepStartHourFeatureScaleMean"
+- "Td,N,V_sleepStartHourFeatureScaleStd"
+- "The intersection between selected subbundles and subbundles with the current phenotype value %@ is less than threshold %lu, or the ratio between intersection and current subbundles %.3f is less than thres %.3f Dropping the current phenotype"
+- "Thematic summary gotgot rejected due to engagement signal: bundleID %@, suggestionID %@, isBundleOrSubBundlesSelectedOrQuickAdded %d, isBundleOrSubBundleDeleted %d"
+- "TopLevelActivityType phenotypeCandidatesWithValueCounts before filtering:%@"
+- "TopLevelActivityType selected phenotype:%@"
+- "[APM] Extracted feature array after scaling: [sleepStartHour:%.5f, hour:%.5f, prevEngagementCount:%.5f, prevEngagementCountBin1:%.5f, prevScreentimeCount:%.5f, prevScreentimeCountShortLookback:%.5f, overMedianScreentimeSameWeekdayProbability:%.5f, over20MinScreentimeSameWeekdayProbability:%.5f, weekdayPrevScreentimeCount:%.5f, isMorning:%.5f] for window %@"
+- "[APM] Extracted feature array before scaling: [sleepStartHour:%.5f, hour:%.5f, prevEngagementCount:%.5f, prevEngagementCountBin1:%.5f, prevScreentimeCount:%.5f, prevScreentimeCountShortLookback:%.5f, overMedianScreentimeSameWeekdayProbability:%.5f, over20MinScreentimeSameWeekdayProbability:%.5f, weekdayPrevScreentimeCount:%.5f, isMorning:%.5f] for window %@"
+- "[bundleEventsWithRefreshVariant] engagement/suggestion analytics submission was skipped. lastAnalyticsSubmissionDateForDefaultAnalytics=%@ ,lastAnalyticsSubmissionDateForWeeklyRotationMetrics=%@"
+- "_sleepStartHourFeatureScaleMean"
+- "_sleepStartHourFeatureScaleStd"
+- "bundleID == \"com.apple.rsvp.liveon\""
+- "extractFeaturesWithEvents:andBundles:andHourlyEngagement:andHourlyWritingEngagement:forWindow:"
+- "fetchEventEntityPropertiesWithSpotlightIdentifiers:startDateFetch:endDateFetch:completion:"
+- "getTotalScreentimeDurations:"
+- "initWithIdentifier:bundleInterfaceType:bundleEvergreenType:"
+- "initWithTitle:startDate:endDate:location:placeName:identifier:organizers:attendees:"
+- "mostFrequentFeatureValue:%@, count:%lu"
+- "person type=%ld, localIdentifer=%@, name=%@, displayName=%@, personURI=%@, contactMatchingDictionary=%@"
+- "phenotype keys before sorting:%@, after sorting:%@"
+- "predictUserAvailabilityWithEvents:andBundles:andSuggestionEngagementEvents:andAppEntryEngagementEvents:handler:"
+- "setSleepStartHourFeatureScaleMean:"
+- "setSleepStartHourFeatureScaleStd:"
+- "sleepStartHourFeatureScaleMean"
+- "sleepStartHourFeatureScaleStd"
+- "spotlight invite event fetched with title: %@, with domain identifier: %@, with app entitity instance ID %@"
+- "spotlight invite rehydration fetch result count %lu"
+- "spotlight invite rehydration hit error, %@"
+- "streamEngagementEventsFromSource:storedBookmarks:error:processEvent:"
+- "subBundleIDsGroupedByFeatureValues for %@: %@"
+- "submitEngagementAndSuggestionPerformanceAnalyticsWithOnboardingStatus:submitDefaultMetrics:submitWeeklyRotationMetrics:AndCompletionHandler:"
+- "updateBookMarkWithNewBookMark:deviceID:"
+- "writeEngagementLightStreamForDevice:storedBookmarks:"
+- "writeEngagementLightStreamForDevices:storedBookmarks:"
+
+```

@@ -1,0 +1,1065 @@
+## PFLLM
+
+> `/System/Library/PrivateFrameworks/PFLLM.framework/PFLLM`
+
+```diff
+
+-51.0.0.0.0
+-  __TEXT.__text: 0x0
+-  __TEXT.__const: 0x3a
+-  __DATA_CONST.__const: 0x50
++53.0.0.0.0
++  __TEXT.__text: 0x47fb4
++  __TEXT.__auth_stubs: 0x1c40
++  __TEXT.__objc_methlist: 0x13c
++  __TEXT.__const: 0x3b80
++  __TEXT.__cstring: 0xbdc
++  __TEXT.__constg_swiftt: 0x8a0
++  __TEXT.__swift5_typeref: 0xfab
++  __TEXT.__swift5_builtin: 0x8c
++  __TEXT.__swift5_reflstr: 0x18dc
++  __TEXT.__swift5_fieldmd: 0x14ac
++  __TEXT.__swift5_assocty: 0x240
++  __TEXT.__swift5_proto: 0x334
++  __TEXT.__swift5_types: 0xec
++  __TEXT.__oslogstring: 0xd54
++  __TEXT.__swift_as_entry: 0x40
++  __TEXT.__swift_as_ret: 0x54
++  __TEXT.__swift5_mpenum: 0x24
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_capture: 0x64
++  __TEXT.__unwind_info: 0xfe8
++  __TEXT.__eh_frame: 0x1e10
++  __TEXT.__objc_classname: 0x2d
++  __TEXT.__objc_methname: 0x7a6
++  __TEXT.__objc_methtype: 0xda
++  __DATA_CONST.__got: 0x570
++  __DATA_CONST.__const: 0xe0
++  __DATA_CONST.__objc_classlist: 0x8
++  __DATA_CONST.__objc_protolist: 0x30
+   __DATA_CONST.__objc_imageinfo: 0x8
++  __DATA_CONST.__objc_selrefs: 0x3a0
++  __DATA_CONST.__objc_protorefs: 0x18
++  __AUTH_CONST.__auth_got: 0xe20
++  __AUTH_CONST.__const: 0x22c0
++  __AUTH_CONST.__objc_const: 0x278
++  __AUTH.__objc_data: 0x50
++  __AUTH.__data: 0x510
++  __DATA.__data: 0xe00
++  __DATA.__common: 0x30
++  __DATA.__bss: 0x6420
++  - /System/Library/Frameworks/Combine.framework/Combine
++  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
++  - /System/Library/Frameworks/CryptoKit.framework/CryptoKit
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/Intents.framework/Intents
++  - /System/Library/Frameworks/NaturalLanguage.framework/NaturalLanguage
++  - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
++  - /System/Library/PrivateFrameworks/Email.framework/Email
++  - /System/Library/PrivateFrameworks/EmailCore.framework/EmailCore
++  - /System/Library/PrivateFrameworks/EmojiFoundation.framework/EmojiFoundation
++  - /System/Library/PrivateFrameworks/FeatureFlags.framework/FeatureFlags
++  - /System/Library/PrivateFrameworks/GenerativeFunctions.framework/GenerativeFunctions
++  - /System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/GenerativeFunctionsFoundation
+   - /System/Library/PrivateFrameworks/GenerativeModels.framework/GenerativeModels
++  - /System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/GenerativeModelsFoundation
+   - /System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary
++  - /System/Library/PrivateFrameworks/LighthouseBackground.framework/LighthouseBackground
++  - /System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag
++  - /System/Library/PrivateFrameworks/ModelCatalog.framework/ModelCatalog
++  - /System/Library/PrivateFrameworks/ModelManagerServices.framework/ModelManagerServices
++  - /System/Library/PrivateFrameworks/Morpheus.framework/Morpheus
++  - /System/Library/PrivateFrameworks/MorpheusExtensions.framework/MorpheusExtensions
+   - /System/Library/PrivateFrameworks/PrivateFederatedLearning.framework/PrivateFederatedLearning
++  - /System/Library/PrivateFrameworks/PromptKit.framework/PromptKit
+   - /System/Library/PrivateFrameworks/TokenGeneration.framework/TokenGeneration
++  - /System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore
++  - /System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
++  - /usr/lib/swift/libswiftAVFoundation.dylib
++  - /usr/lib/swift/libswiftAccelerate.dylib
++  - /usr/lib/swift/libswiftCore.dylib
++  - /usr/lib/swift/libswiftCoreAudio.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
++  - /usr/lib/swift/libswiftCoreImage.dylib
++  - /usr/lib/swift/libswiftCoreLocation.dylib
++  - /usr/lib/swift/libswiftCoreMIDI.dylib
++  - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
++  - /usr/lib/swift/libswiftIntents.dylib
++  - /usr/lib/swift/libswiftMLCompute.dylib
++  - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftNaturalLanguage.dylib
++  - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftQuartzCore.dylib
++  - /usr/lib/swift/libswiftSpatial.dylib
++  - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+-  UUID: 91373D8A-10C0-3261-9AD5-E46622BA9690
+-  Functions: 0
+-  Symbols:   23
+-  CStrings:  0
++  - /usr/lib/swift/libswift_Concurrency.dylib
++  - /usr/lib/swift/libswift_StringProcessing.dylib
++  - /usr/lib/swift/libswiftos.dylib
++  - /usr/lib/swift/libswiftsimd.dylib
++  UUID: 08BEA500-2C95-3C97-B370-F1533E7E774F
++  Functions: 1321
++  Symbols:   716
++  CStrings:  302
+ 
+Symbols:
++ <redacted>
++ _BiomeLibrary
++ _ECMessageHeaderKeyAutoSubmitted
++ _EMContentRepresentationTypeHTML
++ _MKBDeviceUnlockedSinceBoot
++ _NSCharacterEncodingDocumentOption
++ _NSDocumentTypeDocumentOption
++ _NSHTMLTextDocumentType
++ _NSKeyedArchiveRootObjectKey
++ _OBJC_CLASS_$_BMPublisherOptions
++ _OBJC_CLASS_$_ECMessageBodyParsingUtils
++ _OBJC_CLASS_$_EMContentRequestOptions
++ _OBJC_CLASS_$_EMDaemonInterface
++ _OBJC_CLASS_$_EMFEmojiLocaleData
++ _OBJC_CLASS_$_EMFEmojiToken
++ _OBJC_CLASS_$_EMMailbox
++ _OBJC_CLASS_$_EMMessage
++ _OBJC_CLASS_$_EMMessageListItemPredicates
++ _OBJC_CLASS_$_EMQuery
++ _OBJC_CLASS_$_EMThread
++ _OBJC_CLASS_$_INInteraction
++ _OBJC_CLASS_$_INSendMessageIntent
++ _OBJC_CLASS_$_NLTokenizer
++ _OBJC_CLASS_$_NSAttributedString
++ _OBJC_CLASS_$_NSBundle
++ _OBJC_CLASS_$_NSCalendar
++ _OBJC_CLASS_$_NSCompoundPredicate
++ _OBJC_CLASS_$_NSDateFormatter
++ _OBJC_CLASS_$_NSKeyedUnarchiver
++ _OBJC_CLASS_$_NSPredicate
++ _OBJC_CLASS_$_NSProcessInfo
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$_NSSortDescriptor
++ _OBJC_CLASS_$_NSTextCheckingResult
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ __Block_copy
++ __Block_release
++ __DATA__TtC5PFLLM12LLMInference
++ __IVARS__TtC5PFLLM12LLMInference
++ __METACLASS_DATA__TtC5PFLLM12LLMInference
++ __NSConcreteStackBlock
++ __OBJC_$_PROP_LIST_ECEmailAddressConvertible
++ __OBJC_$_PROP_LIST_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
++ __OBJC_$_PROTOCOL_METHOD_TYPES_ECEmailAddressConvertible
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
++ __OBJC_$_PROTOCOL_REFS_ECEmailAddressConvertible
++ __OBJC_LABEL_PROTOCOL_$_ECEmailAddressConvertible
++ __OBJC_LABEL_PROTOCOL_$_NSCopying
++ __OBJC_LABEL_PROTOCOL_$_NSObject
++ __OBJC_PROTOCOL_$_ECEmailAddressConvertible
++ __OBJC_PROTOCOL_$_NSCopying
++ __OBJC_PROTOCOL_$_NSObject
++ ___chkstk_darwin
++ ___stack_chk_fail
++ ___stack_chk_guard
++ ___swift_allocate_boxed_opaque_existential_1
++ ___swift_allocate_boxed_opaque_existential_1Tm
++ ___swift_allocate_value_buffer
++ ___swift_async_entry_functlets
++ ___swift_async_ret_functlets
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_instantiateConcreteTypeFromMangledName
++ ___swift_instantiateConcreteTypeFromMangledNameAbstract
++ ___swift_memcpy0_1
++ ___swift_memcpy113_8
++ ___swift_memcpy120_8
++ ___swift_memcpy144_8
++ ___swift_memcpy146_8
++ ___swift_memcpy16_8
++ ___swift_memcpy17_8
++ ___swift_memcpy192_8
++ ___swift_memcpy1_1
++ ___swift_memcpy33_8
++ ___swift_memcpy40_8
++ ___swift_memcpy48_8
++ ___swift_memcpy51_8
++ ___swift_memcpy56_8
++ ___swift_noop_void_return
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_project_boxed_opaque_existential_1
++ ___swift_project_boxed_opaque_existential_1Tm
++ ___swift_project_value_buffer
++ __objc_empty_cache
++ __os_log_impl
++ __swiftEmptyArrayStorage
++ __swiftEmptyDictionarySingleton
++ __swiftEmptySetSingleton
++ __swiftImmortalRefCount
++ __swift_FORCE_LOAD_$_swiftAVFoundation
++ __swift_FORCE_LOAD_$_swiftAVFoundation_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftAccelerate
++ __swift_FORCE_LOAD_$_swiftAccelerate_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftCoreAudio
++ __swift_FORCE_LOAD_$_swiftCoreAudio_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftCoreImage
++ __swift_FORCE_LOAD_$_swiftCoreImage_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftCoreLocation
++ __swift_FORCE_LOAD_$_swiftCoreLocation_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftCoreMIDI
++ __swift_FORCE_LOAD_$_swiftCoreMIDI_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftCoreMedia
++ __swift_FORCE_LOAD_$_swiftCoreMedia_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftIntents
++ __swift_FORCE_LOAD_$_swiftIntents_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftMLCompute
++ __swift_FORCE_LOAD_$_swiftMLCompute_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftMetal
++ __swift_FORCE_LOAD_$_swiftMetal_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage
++ __swift_FORCE_LOAD_$_swiftNaturalLanguage_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftOSLog
++ __swift_FORCE_LOAD_$_swiftOSLog_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftQuartzCore
++ __swift_FORCE_LOAD_$_swiftQuartzCore_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftSpatial
++ __swift_FORCE_LOAD_$_swiftSpatial_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftUIKit
++ __swift_FORCE_LOAD_$_swiftUIKit_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers
++ __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftos
++ __swift_FORCE_LOAD_$_swiftos_$_PFLLM
++ __swift_FORCE_LOAD_$_swiftsimd
++ __swift_FORCE_LOAD_$_swiftsimd_$_PFLLM
++ __swift_stdlib_bridgeErrorToNSError
++ __swift_stdlib_malloc_size
++ _associated conformance 5PFLLM10DataSourceOSHAASQ
++ _associated conformance 5PFLLM10DataSourceOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLOSHAASQ
++ _associated conformance 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs011CustomDebugD11Convertible
++ _associated conformance 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs06CustomD11Convertible
++ _associated conformance 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOSHAASQ
++ _associated conformance 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOSHAASQ
++ _associated conformance 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM15FeaturizerErrorO20LighthouseBackground06MLHostC0AA8RawValueSY_Sy
++ _associated conformance 5PFLLM15FeaturizerErrorO20LighthouseBackground06MLHostC0AASY
++ _associated conformance 5PFLLM15FeaturizerErrorO20LighthouseBackground06MLHostC0AAs0C0
++ _associated conformance 5PFLLM15FeaturizerErrorOSHAASQ
++ _associated conformance 5PFLLM16DataLoadingErrorOSHAASQ
++ _associated conformance 5PFLLM16DataSourceConfigO10CodingKeysOSHAASQ
++ _associated conformance 5PFLLM16DataSourceConfigO10CodingKeysOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM16DataSourceConfigO10CodingKeysOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOSHAASQ
++ _associated conformance 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM16MailFeatureFlagsOSHAASQ
++ _associated conformance 5PFLLM16MessageExtractorVScIAA7FailureScI_s5Error
++ _associated conformance 5PFLLM16MessageExtractorVSciAA13AsyncIteratorSci_ScI
++ _associated conformance 5PFLLM17LLMInferenceErrorOSHAASQ
++ _associated conformance 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLOSHAASQ
++ _associated conformance 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOSHAASQ
++ _associated conformance 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOSHAASQ
++ _associated conformance 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOSHAASQ
++ _associated conformance 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOSHAASQ
++ _associated conformance 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLOs0D3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM21MetadataEncodingErrorOSHAASQ
++ _associated conformance 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOSHAASQ
++ _associated conformance 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM26MetadataEncodingParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOSHAASQ
++ _associated conformance 5PFLLM26MetadataEncodingParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM26MetadataEncodingParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOSHAASQ
++ _associated conformance 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM32GenerativeModelsAvailabilityTypeOSHAASQ
++ _associated conformance 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOSHAASQ
++ _associated conformance 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV10CodingKeysOSHAASQ
++ _associated conformance 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV10CodingKeysOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV10CodingKeysOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 5PFLLM7WeekDayOSHAASQ
++ _associated conformance 5PFLLM7WeekDayOs12CaseIterableAA8AllCasessADP_Sl
++ _associated conformance So18ECMessageHeaderKeyaSHSCSQ
++ _associated conformance So18ECMessageHeaderKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So18ECMessageHeaderKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So30NSAttributedStringDocumentTypeaSHSCSQ
++ _associated conformance So30NSAttributedStringDocumentTypeas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So30NSAttributedStringDocumentTypeas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _associated conformance So37ECMessageBodyStringAccumulatorOptionsVs10SetAlgebraSCSQ
++ _associated conformance So37ECMessageBodyStringAccumulatorOptionsVs10SetAlgebraSCs25ExpressibleByArrayLiteral
++ _associated conformance So37ECMessageBodyStringAccumulatorOptionsVs9OptionSetSCSY
++ _associated conformance So37ECMessageBodyStringAccumulatorOptionsVs9OptionSetSCs0G7Algebra
++ _associated conformance So42NSAttributedStringDocumentReadingOptionKeyaSHSCSQ
++ _associated conformance So42NSAttributedStringDocumentReadingOptionKeyas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So42NSAttributedStringDocumentReadingOptionKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper
++ _block_copy_helper.1
++ _block_copy_helper.22
++ _block_copy_helper.25
++ _block_copy_helper.27
++ _block_copy_helper.3
++ _block_copy_helper.33
++ _block_descriptor
++ _block_descriptor.24
++ _block_descriptor.27
++ _block_descriptor.29
++ _block_descriptor.3
++ _block_descriptor.35
++ _block_descriptor.5
++ _block_destroy_helper
++ _block_destroy_helper.2
++ _block_destroy_helper.23
++ _block_destroy_helper.26
++ _block_destroy_helper.28
++ _block_destroy_helper.34
++ _block_destroy_helper.4
++ _bzero
++ _flat unique 27IntelligencePlatformLibrary6Source_px6StreamAaBPRts_XP
++ _flat unique So25ECEmailAddressConvertible_p
++ _free
++ _get_enum_tag_for_layout_string 5PFLLM12MetadataTypeO
++ _get_enum_tag_for_layout_string 5PFLLM12PromptConfigO
++ _get_enum_tag_for_layout_string 5PFLLM16DataSourceConfigO
++ _get_enum_tag_for_layout_string 5PFLLM19EmailFilterCriteriaVSg
++ _get_enum_tag_for_layout_string 5PFLLM36GeneratedImageFeaturesFilterCriteriaVSg
++ _malloc
++ _malloc_size
++ _memcmp
++ _memcpy
++ _memmove
++ _objc_allocWithZone
++ _objc_msgSend
++ _objc_opt_self
++ _objc_release
++ _objc_release_x19
++ _objc_release_x20
++ _objc_release_x21
++ _objc_release_x22
++ _objc_release_x23
++ _objc_release_x24
++ _objc_release_x25
++ _objc_release_x26
++ _objc_release_x27
++ _objc_release_x28
++ _objc_release_x8
++ _objc_retain
++ _objc_retainAutoreleasedReturnValue
++ _objc_retain_x19
++ _objc_retain_x20
++ _objc_retain_x21
++ _objc_retain_x22
++ _objc_retain_x23
++ _objc_retain_x24
++ _objc_retain_x25
++ _objc_retain_x26
++ _objc_retain_x28
++ _objc_retain_x8
++ _os_log_type_enabled
++ _swift_allocBox
++ _swift_allocError
++ _swift_allocObject
++ _swift_arrayDestroy
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _swift_beginAccess
++ _swift_bridgeObjectRelease
++ _swift_bridgeObjectRelease_n
++ _swift_bridgeObjectRetain
++ _swift_bridgeObjectRetain_n
++ _swift_continuation_await
++ _swift_continuation_init
++ _swift_continuation_resume
++ _swift_continuation_throwingResume
++ _swift_continuation_throwingResumeWithError
++ _swift_coroFrameAlloc
++ _swift_cvw_assignWithCopy
++ _swift_cvw_assignWithTake
++ _swift_cvw_destroy
++ _swift_cvw_enumFn_getEnumTag
++ _swift_cvw_initStructMetadataWithLayoutString
++ _swift_cvw_initWithCopy
++ _swift_cvw_initWithTake
++ _swift_cvw_initializeBufferWithCopyOfBuffer
++ _swift_deallocClassInstance
++ _swift_deallocObject
++ _swift_deallocPartialClassInstance
++ _swift_deletedAsyncMethodErrorTu
++ _swift_deletedMethodError
++ _swift_dynamicCast
++ _swift_dynamicCastClass
++ _swift_dynamicCastObjCClass
++ _swift_endAccess
++ _swift_errorRelease
++ _swift_errorRetain
++ _swift_getAssociatedConformanceWitness
++ _swift_getAssociatedTypeWitness
++ _swift_getDynamicType
++ _swift_getEnumTagSinglePayloadGeneric
++ _swift_getErrorValue
++ _swift_getForeignTypeMetadata
++ _swift_getKeyPath
++ _swift_getObjCClassFromMetadata
++ _swift_getObjCClassMetadata
++ _swift_getObjectType
++ _swift_getSingletonMetadata
++ _swift_getTypeByMangledNameInContext2
++ _swift_getTypeByMangledNameInContextInMetadataState2
++ _swift_getWitnessTable
++ _swift_initStackObject
++ _swift_isEscapingClosureAtFileLocation
++ _swift_isUniquelyReferenced_nonNull_native
++ _swift_lookUpClassMethod
++ _swift_once
++ _swift_release
++ _swift_release_n
++ _swift_retain
++ _swift_setDeallocating
++ _swift_slowAlloc
++ _swift_slowDealloc
++ _swift_stdlib_random
++ _swift_storeEnumTagSinglePayloadGeneric
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
++ _swift_unexpectedError
++ _swift_unknownObjectRelease
++ _swift_unknownObjectRetain
++ _swift_unknownObjectRetain_n
++ _swift_updateClassMetadata2
++ _swift_willThrow
++ _swift_willThrowTypedImpl
++ _symbolic $s5PFLLM17ExtractParametersP
++ _symbolic $s5PFLLM20ChatPromptRespondingP
++ _symbolic $s5PFLLM20DataExtractorFactoryP
++ _symbolic $s5PFLLM9ExtractorP
++ _symbolic $sSY
++ _symbolic $sScI
++ _symbolic $sSci
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss12CaseIterableP
++ _symbolic $ss21_ObjectiveCBridgeableP
++ _symbolic $ss25ExpressibleByArrayLiteralP
++ _symbolic $ss9OptionSetP
++ _symbolic 6Stream_____Qyd__ 27IntelligencePlatformLibrary6SourceP
++ _symbolic SB_p
++ _symbolic SDyS2SG
++ _symbolic SDyS2SGSg
++ _symbolic SDySSSay_____GG 5PFLLM12MetadataTypeO
++ _symbolic SS
++ _symbolic SSSg
++ _symbolic SS_SSSgtSg
++ _symbolic SS_Say_____Gt 5PFLLM12MetadataTypeO
++ _symbolic SS_______pt 9PromptKit012ChatMessagesA11ConvertibleP
++ _symbolic SS_______pt 9PromptKit0A25ComponentValueConvertibleP
++ _symbolic SS______t 5PFLLM8DialogueV
++ _symbolic SS_ypt
++ _symbolic SaySSG
++ _symbolic SaySSGSg
++ _symbolic SaySiG
++ _symbolic SaySiGSg
++ _symbolic SaySo19INSendMessageIntentC6intent______9timestampSS7groupIDtG 10Foundation4DateV
++ _symbolic SaySo19INSendMessageIntentC6intent______9timestampSS7groupIDtGz_Xx 10Foundation4DateV
++ _symbolic SaySo9EMMessageCG
++ _symbolic Say_____G 27IntelligencePlatformLibrary29GeneratedImageUserInteractionV
++ _symbolic Say_____G 5PFLLM10DataSourceO
++ _symbolic Say_____G 5PFLLM10SmsMessageV
++ _symbolic Say_____G 5PFLLM12MetadataTypeO
++ _symbolic Say_____G 5PFLLM16ExtractedMessageV
++ _symbolic Say_____G 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV
++ _symbolic Say_____G 5PFLLM7WeekDayO
++ _symbolic Say_____G s5UInt8V
++ _symbolic Say_____GSg 5PFLLM7WeekDayO
++ _symbolic SayypG
++ _symbolic Sb
++ _symbolic SbSg
++ _symbolic ScCySS_SSSgtSg_____G s5NeverO
++ _symbolic SccySaySo9EMMessageCG______pG s5ErrorP
++ _symbolic SccySb_____G s5NeverO
++ _symbolic SdSg
++ _symbolic Sf
++ _symbolic ShySSG
++ _symbolic ShySSGSg
++ _symbolic Si
++ _symbolic Si5count_Si7maximum_____t 15TokenGeneration0aB5ErrorO7ContextV
++ _symbolic Si6offset______7elementt 27IntelligencePlatformLibrary29GeneratedImageUserInteractionV
++ _symbolic Si6offset______7elementt 5PFLLM10SmsMessageV
++ _symbolic Si6offset______7elementtSg 27IntelligencePlatformLibrary29GeneratedImageUserInteractionV
++ _symbolic SiSg
++ _symbolic Sny_____G SS5IndexV
++ _symbolic So17EMDaemonInterfaceC
++ _symbolic So19INSendMessageIntentC6intent______9timestampSS7groupIDt 10Foundation4DateV
++ _symbolic So23EMContentRequestOptionsC
++ _symbolic So8NSObjectCSg
++ _symbolic So8NSStringC
++ _symbolic Ss
++ _symbolic Ss_Sst
++ _symbolic Ss_yt9_doNotUset
++ _symbolic Su
++ _symbolic Sz_p
++ _symbolic _____ 10Foundation4DateV
++ _symbolic _____ 15TokenGeneration0A9GeneratorC
++ _symbolic _____ 5PFLLM10DataSourceO
++ _symbolic _____ 5PFLLM10SmsMessageV
++ _symbolic _____ 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLO
++ _symbolic _____ 5PFLLM12LLMInferenceC
++ _symbolic _____ 5PFLLM12MetadataTypeO
++ _symbolic _____ 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM12PromptConfigO
++ _symbolic _____ 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____ 5PFLLM12SmsExtractorV
++ _symbolic _____ 5PFLLM13ExtractedItemV
++ _symbolic _____ 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____ 5PFLLM14BiomeTagWriterV
++ _symbolic _____ 5PFLLM14EmailExtractorV
++ _symbolic _____ 5PFLLM15FeaturizerErrorO
++ _symbolic _____ 5PFLLM16DataLoadingErrorO
++ _symbolic _____ 5PFLLM16DataSourceConfigO
++ _symbolic _____ 5PFLLM16DataSourceConfigO10CodingKeysO
++ _symbolic _____ 5PFLLM16ExtractedMessageV
++ _symbolic _____ 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____ 5PFLLM16MailFeatureFlagsO
++ _symbolic _____ 5PFLLM16MessageExtractorV
++ _symbolic _____ 5PFLLM17LLMInferenceErrorO
++ _symbolic _____ 5PFLLM17TaggingParametersV
++ _symbolic _____ 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLO
++ _symbolic _____ 5PFLLM18LLMInferenceConfigV
++ _symbolic _____ 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____ 5PFLLM19EmailFilterCriteriaV
++ _symbolic _____ 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____ 5PFLLM19MorpheusPEExtensionO
++ _symbolic _____ 5PFLLM20ExtractSmsParametersV
++ _symbolic _____ 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____ 5PFLLM21ExtractedConversationV
++ _symbolic _____ 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____ 5PFLLM21MetadataEncodingErrorO
++ _symbolic _____ 5PFLLM22ExtractEmailParametersV
++ _symbolic _____ 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____ 5PFLLM22GenmojiPromptExtractorV
++ _symbolic _____ 5PFLLM24MessageCleanupParametersV
++ _symbolic _____ 5PFLLM24TextDataExtractorFactoryV
++ _symbolic _____ 5PFLLM26MetadataEncodingParametersV
++ _symbolic _____ 5PFLLM26MetadataEncodingParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____ 5PFLLM30ExtractGenmojiPromptParametersV
++ _symbolic _____ 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____ 5PFLLM32GenerativeModelsAvailabilityTypeO
++ _symbolic _____ 5PFLLM34GenerativeModelsAvailabilityConfigO
++ _symbolic _____ 5PFLLM36GeneratedImageFeaturesFilterCriteriaV
++ _symbolic _____ 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____ 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV
++ _symbolic _____ 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV10CodingKeysO
++ _symbolic _____ 5PFLLM7WeekDayO
++ _symbolic _____ 5PFLLM8DialogueV
++ _symbolic _____ So18ECMessageHeaderKeya
++ _symbolic _____ So30NSAttributedStringDocumentTypea
++ _symbolic _____ So37ECMessageBodyStringAccumulatorOptionsV
++ _symbolic _____ So42NSAttributedStringDocumentReadingOptionKeya
++ _symbolic _____ s5Int32V
++ _symbolic _____ s5Int64V
++ _symbolic _____16completionPrompt______8metadatat 19GenerativeFunctions01_A45FunctionOverridableInternals_CompletionPromptV AA01_acE9_MetadataV
++ _symbolic _____16completionPrompt______8metadatatSg 19GenerativeFunctions01_A45FunctionOverridableInternals_CompletionPromptV AA01_acE9_MetadataV
++ _symbolic _____18chatMessagesPrompt______8metadatat 19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV AA01_acE9_MetadataV
++ _symbolic _____18chatMessagesPrompt______8metadatatSg 19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV AA01_acE9_MetadataV
++ _symbolic _____Sg 10Foundation4DateV
++ _symbolic _____Sg 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation6LocaleV12LanguageCodeV
++ _symbolic _____Sg 10Foundation6LocaleV6RegionV
++ _symbolic _____Sg 15TokenGeneration11ModelBundleV
++ _symbolic _____Sg 15TokenGeneration16SamplingStrategyV
++ _symbolic _____Sg 26GenerativeModelsFoundation14PromptTemplateV
++ _symbolic _____Sg 29GenerativeFunctionsFoundation18FunctionIdentifierV19ResourceInformationV
++ _symbolic _____Sg 5PFLLM10SmsMessageV
++ _symbolic _____Sg 5PFLLM13ExtractedItemV
++ _symbolic _____Sg 5PFLLM14BiomeTagWriterV
++ _symbolic _____Sg 5PFLLM16ExtractedMessageV
++ _symbolic _____Sg 5PFLLM19EmailFilterCriteriaV
++ _symbolic _____Sg 5PFLLM36GeneratedImageFeaturesFilterCriteriaV
++ _symbolic _____Sg 8Morpheus0A7ProgramC
++ _symbolic ______AAt 5PFLLM16DataSourceConfigO
++ _symbolic __________Xj l27IntelligencePlatformLibrary6Source_px6StreamRts_XPXGMq AA0C0O7StreamsO21GenerativeExperiencesO10PromptTagsO
++ _symbolic ___________t 15TokenGeneration6PromptV07SpecialA0V AA0aB5ErrorO7ContextV
++ _symbolic ___________t 19GenerativeFunctions01_A45FunctionOverridableInternals_CompletionPromptV AA01_acE9_MetadataV
++ _symbolic ___________t 19GenerativeFunctions01_A47FunctionOverridableInternals_ChatMessagesPromptV AA01_acE9_MetadataV
++ _symbolic ______p 10Foundation15ContiguousBytesP
++ _symbolic ______p So25ECEmailAddressConvertibleP
++ _symbolic ______p s5ErrorP
++ _symbolic ______pSg 10Foundation15ContiguousBytesP
++ _symbolic ______pSg s5ErrorP
++ _symbolic ______p_SSt 17_StringProcessing14RegexComponentP
++ _symbolic ______ypt So42NSAttributedStringDocumentReadingOptionKeya
++ _symbolic _____yS2SG s18_DictionaryStorageC
++ _symbolic _____ySJG s11_SetStorageC
++ _symbolic _____ySSG s11_SetStorageC
++ _symbolic _____ySSG s23_ContiguousArrayStorageC
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC 5PFLLM12MetadataTypeO
++ _symbolic _____ySSSayypGG s18_DictionaryStorageC
++ _symbolic _____ySSSiG s18_DictionaryStorageC
++ _symbolic _____ySS_Say_____GtG s23_ContiguousArrayStorageC 5PFLLM12MetadataTypeO
++ _symbolic _____ySS_____G s18_DictionaryStorageC 5PFLLM8DialogueV
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 9PromptKit012ChatMessagesD11ConvertibleP
++ _symbolic _____ySS_______ptG s23_ContiguousArrayStorageC 9PromptKit0D25ComponentValueConvertibleP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 9PromptKit012ChatMessagesC11ConvertibleP
++ _symbolic _____ySS______pG s18_DictionaryStorageC 9PromptKit0C25ComponentValueConvertibleP
++ _symbolic _____ySS_yptG s23_ContiguousArrayStorageC
++ _symbolic _____ySSypG s18_DictionaryStorageC
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 5PFLLM12MetadataTypeO
++ _symbolic _____ySiG s23_ContiguousArrayStorageC
++ _symbolic _____ySnySiGG s23_ContiguousArrayStorageC
++ _symbolic _____ySo19INSendMessageIntentC6intent______9timestampSS7groupIDtG s23_ContiguousArrayStorageC 10Foundation4DateV
++ _symbolic _____ySsG 17_StringProcessing5RegexV
++ _symbolic _____ySsG s23_ContiguousArrayStorageC
++ _symbolic _____ySs_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____ySs_SstG 17_StringProcessing5RegexV
++ _symbolic _____ySs_Sst_G 17_StringProcessing5RegexV5MatchV
++ _symbolic _____y_____G 12ModelCatalog24ResourceBundleIdentifierV AA20AssetBackedLLMBundleV
++ _symbolic _____y_____G 16GenerativeModels12OverrideHintO 15TokenGeneration18SamplingParametersV
++ _symbolic _____y_____G 17_StringProcessing5RegexV AA03AnyC6OutputV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM16DataSourceConfigO10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM26MetadataEncodingParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM08MetadataB10ParametersV10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM10SmsMessageV10CodingKeys33_0496DA4668CEBBD7D515523675EA6545LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12MetadataTypeO10CodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12MetadataTypeO13IntCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12MetadataTypeO14BoolCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12MetadataTypeO15FloatCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12MetadataTypeO16StringCodingKeys33_9286699690AD3B7A07F70328CC583984LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM12PromptConfigO10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM13ExtractedItemV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM16DataSourceConfigO10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM16ExtractedMessageV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM17TaggingParametersV10CodingKeys33_EB8AEED07AC42CF01011F2F57C04896ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM18LLMInferenceConfigV10CodingKeys33_050331834B6712EB3164300DDFA6F126LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM19EmailFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM20ExtractSmsParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM21ExtractedConversationV10CodingKeys33_664624A0A3213AFF7614A1BEFE8213EBLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM22ExtractEmailParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM30ExtractGenmojiPromptParametersV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 5PFLLM36GeneratedImageFeaturesFilterCriteriaV10CodingKeys33_EA4341D59EADF807CE7ADC34D9FFC96ELLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15TokenGeneration11ModelBundleV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary29GeneratedImageUserInteractionV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM10SmsMessageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM12MetadataTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM13ExtractedItemV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM16ExtractedMessageV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM21ExtractedConversationV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 5PFLLM8DialogueV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit012ChatMessagesD0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 9PromptKit0D0V
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So18ECMessageHeaderKeya
++ _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
++ _symbolic _____y_____GSg 17_StringProcessing5RegexV AA03AnyC6OutputV
++ _symbolic _____y_____Say_____GG s18_DictionaryStorageC s5Int64V 5PFLLM16ExtractedMessageV
++ _symbolic _____y__________ABG 19GenerativeFunctions0A21ConfigurationRunnableV 9PromptKit010CompletionE0V 15TokenGeneration0H9GeneratorC
++ _symbolic _____y__________ABG 19GenerativeFunctions0A21ConfigurationRunnableV 9PromptKit012ChatMessagesE0V 15TokenGeneration0I9GeneratorC
++ _symbolic _____y______p_SStG s23_ContiguousArrayStorageC 17_StringProcessing14RegexComponentP
++ _symbolic _____y______yptG s23_ContiguousArrayStorageC So42NSAttributedStringDocumentReadingOptionKeya
++ _symbolic _____y_____ypG s18_DictionaryStorageC So42NSAttributedStringDocumentReadingOptionKeya
++ _symbolic _____yyXlG s23_ContiguousArrayStorageC
++ _symbolic _____yypG s23_ContiguousArrayStorageC
++ _symbolic qd__
++ _symbolic x
++ _symbolic ypSg
++ _symbolic ypXmT______t s13DecodingErrorO7ContextV
++ _type_layout_string 5PFLLM12MetadataTypeO
++ _type_layout_string 5PFLLM12PromptConfigO
++ _type_layout_string 5PFLLM14BiomeTagWriterV
++ _type_layout_string 5PFLLM16DataSourceConfigO
++ _type_layout_string 5PFLLM17TaggingParametersV
++ _type_layout_string 5PFLLM18LLMInferenceConfigV
++ _type_layout_string 5PFLLM19EmailFilterCriteriaV
++ _type_layout_string 5PFLLM20ExtractSmsParametersV
++ _type_layout_string 5PFLLM21ExtractedConversationV
++ _type_layout_string 5PFLLM22ExtractEmailParametersV
++ _type_layout_string 5PFLLM24MessageCleanupParametersV
++ _type_layout_string 5PFLLM24TextDataExtractorFactoryV
++ _type_layout_string 5PFLLM26MetadataEncodingParametersV
++ _type_layout_string 5PFLLM30ExtractGenmojiPromptParametersV
++ _type_layout_string 5PFLLM36GeneratedImageFeaturesFilterCriteriaV
++ _type_layout_string 5PFLLM3Tag33_EB8AEED07AC42CF01011F2F57C04896ALLV
++ _type_layout_string 5PFLLM8DialogueV
++ _type_layout_string So18ECMessageHeaderKeya
++ _type_layout_string So37ECMessageBodyStringAccumulatorOptionsV
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_PFLLM
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_PFLLM
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_PFLLM
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_PFLLM
+CStrings:
++ "#16@0:8"
++ "(((do[-_]?not[-_]?)|no[-_]?)reply)|@([a-zA-Z0-9.-]+).apple.com"
++ "/(?:[0-9A-Fa-f]{2})+/"
++ "/[\\u{0000}-\\u{0009}\\u{000B}-\\u{001F}\\u{007F}\\u{FFFD}\\u{0080}]/"
++ "/\\u{0D}|\\u{0085}|\\u{2028}|\\u{2029}/"
++ "/https?:\\/\\/([-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6})\\b[-a-zA-Z0-9()@:%_\\+.~#?&\\/=]*/"
++ "@\"ECEmailAddress\"16@0:8"
++ "@\"NSString\"16@0:8"
++ "@16@0:8"
++ "@24@0:8:16"
++ "@24@0:8^{_NSZone=}16"
++ "@32@0:8:16@24"
++ "@40@0:8:16@24@32"
++ "App"
++ "B16@0:8"
++ "B16@?0@8"
++ "B24@0:8#16"
++ "B24@0:8:16"
++ "B24@0:8@\"Protocol\"16"
++ "B24@0:8@16"
++ "BetweenHours filter | message date: %s, timezone: %s, local hour: %ld,  start hour: %ld, end hour: %ld, is in: %{bool}d"
++ "Cannot cast %s with type %s to MetadataType."
++ "Cannot find metadataMorpheusProgram or metadataMorpheusProgramName in MetadataEncodingParameters."
++ "Categories attachment %s not found."
++ "ClassCData"
++ "Cleaned body %ld: %s"
++ "Convert single SMS messages into dialogues."
++ "Creating Data Extractor with %s"
++ "DataSource"
++ "ECEmailAddressConvertible"
++ "Email"
++ "Email interface: data not accessible."
++ "End date '%s' derived from untilNDaysAgo '%ld' is earlier than start date '%s', abort."
++ "Error at extraction loop: %@."
++ "Error when filtering message sender."
++ "ExtractParameters"
++ "Extracted Genmoji prompt #%ld: %s"
++ "Extracted items %ld less than required sample size %ld."
++ "Failed to access Biome storage from stream %s, error %s"
++ "Failed to access Biome storage from stream GenerativeExperiences.GeneratedImageFeatures.UserInteraction."
++ "Failed to complete chat, reason=%@, type=%s"
++ "Failed to complete chat, type=GenerativeError, reason=%@, code=%ld"
++ "Failed to complete chat, type=ModelManagerError, reason=%@, code=%ld"
++ "Failed to complete chat, type=PromptTemplateRenderError, reason=%@"
++ "Failed to complete chat, type=TokenGenerationError, reason=%@"
++ "Failed to connect to Biome tag source: %@"
++ "Failed to extract message content. Terminated extraction loop."
++ "Failed to get model bundle %s"
++ "Failed to parse tags: %@"
++ "Failed to read events from biome stream %s, error %s"
++ "Failed to use Morpheus to cleanup: %s. Fallback to native cleanup."
++ "Filtered %ld auto-generated messages"
++ "Filtered %ld conversations with a single message."
++ "Filtered %ld empty body messages."
++ "Filtered %ld group or no-reply apple messages"
++ "Filtered %ld messages by hours."
++ "Filtered %ld messages by week days."
++ "Fri"
++ "GenerativeModelsAvailabilityConfig.type set to %s"
++ "GenerativeModelsAvailabilityType"
++ "GenmojiPrompt"
++ "Grouping SMS messages into dialogues."
++ "INSendMessageIntent"
++ "Initialized with prompt template: %s"
++ "Intent"
++ "Interaction intent read from biome stream %s is not of INSendMessageIntent type, message will be discarded."
++ "Invalid ExtractParameters.filterCriteria.results for generated image user interaction: %s. Allowed results are: %s."
++ "Invalid number of keys found, expected one."
++ "Loaded %ld GeneratedImageFeatures UserInteractions events."
++ "Mail"
++ "Mail classC data access is enabled, checking if device unlocked since boot."
++ "Message metadata %ld:%s"
++ "Model's resource information: %s"
++ "Mon"
++ "Morpheus Program attachment %s not found."
++ "Morpheus Program decoding failed: %s."
++ "NSCopying"
++ "NSObject"
++ "PFLLM/TextUtils.swift"
++ "Parsed body %ld: %s"
++ "Predicate to query Email Daemon: %@"
++ "PrivateEvolution"
++ "PrivateEvolution.removeHtmlCharacters"
++ "PrivateEvolution.removePercentEncoding"
++ "PrivateEvolution.removeUnsupportedUnicodeCharacters"
++ "PrivateEvolution.sanitizeRawContent"
++ "PromptFilePath"
++ "PromptTemplateID"
++ "Q16@0:8"
++ "Queried %ld messages."
++ "Query date start: %s, end: %s"
++ "Querying GeneratedImageFeatures UserInteractions events with %@."
++ "Read events from biome stream %s successfully."
++ "Sat"
++ "Skipping prompt: %@ with invalid result: %s"
++ "Sms"
++ "Subsampling from %ld to %ld items."
++ "Sun"
++ "SystemPrompt"
++ "T#,R"
++ "T@\"ECEmailAddress\",R,N"
++ "T@\"NSString\",?,R,C"
++ "T@\"NSString\",R,C"
++ "T@\"NSString\",R,N"
++ "TQ,R"
++ "TQpyA2mXehXBrXvj0BywzW5ARKI."
++ "Task attachments = %s."
++ "Task cancelled at extraction loop. Extracted %ld messages."
++ "Thu"
++ "Tue"
++ "URLForResource:withExtension:"
++ "Use Morpheus to cleanup."
++ "Use native to cleanup."
++ "Using adapter %s"
++ "Vv16@0:8"
++ "Wed"
++ "WeekDays filter | message date: %s, timezone: %s, local week day: %s, week days: %s, is in: %{bool}d"
++ "You are an assistant."
++ "[End of Dialogue]"
++ "\\b(\\w+(?:\\s+\\w+)+)\\s+(?=\\1\\b)"
++ "^{_NSZone=}16@0:8"
++ "_OverrideConfigurationHelper.samplingParameters(.dynamic(SamplingParameters(strategy:self.samplingStrategy,temperature:self.temperature,randomSeed:self.seed,)))"
++ "_TtC5PFLLM12LLMInference"
++ "_modelVersion"
++ "absoluteTimestamp"
++ "andPredicateWithSubpredicates:"
++ "autorelease"
++ "available"
++ "bundleID"
++ "bundleWithIdentifier:"
++ "cancelled"
++ "category"
++ "ccList"
++ "chat response with tags %s"
++ "class"
++ "com.apple.MobileSMS"
++ "com.apple.Settings.AppleIntelligence"
++ "com.apple.Settings.AppleIntelligence.Diffusion"
++ "com.apple.SummarizationKit"
++ "com.apple.mlda.AutoTagger"
++ "com.apple.priml.PFLMLHostPlugins"
++ "conformsToProtocol:"
++ "contactIdentifier"
++ "content"
++ "contentFilterOutRegex"
++ "contentURL"
++ "conversationID"
++ "conversationText"
++ "copyWithZone:"
++ "copyWithoutModifiers"
++ "currentCalendar"
++ "customIdentifier"
++ "customPredicateFormat"
++ "date"
++ "debugDescription"
++ "deleted"
++ "description"
++ "displayName"
++ "emailAddressValue"
++ "emailDataNotAccessible"
++ "emojiTokenWithString:localeData:"
++ "error"
++ "eventBody"
++ "extractedEmptyData"
++ "failed to parse llm response: %s, error: %@"
++ "failedToExtract"
++ "failedToParseConfig"
++ "filterWithIsIncluded:"
++ "firstHeaderForKey:"
++ "flagged"
++ "flags"
++ "forwarded"
++ "generatedSummary"
++ "genmojiPromptExtraction"
++ "groupIdentifier"
++ "hasGeneratedSummary"
++ "hasSynopsisSummary"
++ "hasTopLineSummary"
++ "hash"
++ "identifier"
++ "init"
++ "initForReadingFromData:error:"
++ "initWithBuilder:"
++ "initWithCoder:com.apple.SummarizationKit.XCTests"
++ "initWithData:options:documentAttributes:error:"
++ "initWithPattern:options:error:"
++ "initWithStartDate:endDate:maxEvents:lastN:reversed:"
++ "initWithTargetClass:predicate:sortDescriptors:"
++ "initWithUnit:"
++ "intent"
++ "intentClass"
++ "interaction"
++ "interactionDirection"
++ "interrupted"
++ "invalidSourceType"
++ "isBlocked"
++ "isCCMe"
++ "isDataAccessible:"
++ "isEqual:"
++ "isGroupedSender"
++ "isHighImpact"
++ "isJunk"
++ "isKindOfClass:"
++ "isMe"
++ "isMemberOfClass:"
++ "isProxy"
++ "isToMe"
++ "isVIP"
++ "llmInferenceConfig"
++ "mailboxes"
++ "matchesInString:options:range:"
++ "maxThreadDaysSpan"
++ "messageRepository"
++ "metadataMorpheusProgram"
++ "metadataMorpheusProgramName"
++ "nearestNeighborDistanceName"
++ "notEnoughDataToSample"
++ "notImplemented"
++ "null"
++ "numberOfMessages"
++ "numberOfRecipients"
++ "outgoingMessageType"
++ "pLzIN0fcOQrl-aW6jhwomA-T9gs."
++ "parsed auto tagger response: %s"
++ "performQuery:limit:completionHandler:"
++ "performSelector:"
++ "performSelector:withObject:"
++ "performSelector:withObject:withObject:"
++ "personalizations"
++ "predicateForMessagesNewerThanDate:"
++ "processIdentifier"
++ "processInfo"
++ "promptTemplate"
++ "publisherWithUseCase:options:"
++ "rangeAtIndex:"
++ "read"
++ "redirected"
++ "release"
++ "removeHtmlCharacters"
++ "removePercentEncoding"
++ "removeUnsupportedUnicodeCharacters"
++ "replied"
++ "requestRepresentationWithOptions:completionHandler:"
++ "requestedHeaders"
++ "respondsToSelector:"
++ "restricted"
++ "retain"
++ "retainCount"
++ "samplingStrategy"
++ "sanitizeRawContent"
++ "seed"
++ "self"
++ "sender"
++ "senderAddress"
++ "senderFilterOutRegex"
++ "senderList"
++ "setDateFormat:"
++ "setLanguage:"
++ "setLocale:"
++ "setNetworkUsage:"
++ "setRequestAllHeaders:"
++ "setRequestedHeaderKeys:"
++ "setRequestedRepresentation:"
++ "setString:"
++ "setTimeZone:"
++ "simpleThreadFormat"
++ "sinkWithCompletion:receiveInput:"
++ "snippetFromHTMLBody:options:maxLength:preservingQuotedForwardedContent:"
++ "sortDescriptorForDateAscending:"
++ "state"
++ "string"
++ "stringFromDate:"
++ "stringValue"
++ "subject"
++ "subjectString"
++ "subtype"
++ "summary"
++ "superclass"
++ "synopsis"
++ "synopsisNumberOfCharacters"
++ "synopsisNumberOfWords"
++ "systemPrompt"
++ "temperature"
++ "textCleanupMorpheusProgram"
++ "toList"
++ "tokenGenerator"
++ "topLine"
++ "topLineNumberOfCharacters"
++ "topLineNumberOfWords"
++ "type"
++ "urgent"
++ "useMessagesAfterLastSent"
++ "useMorpheusToCleanupText"
++ "userInterfaceLanguage"
++ "userSetRegionFormat"
++ "v12@?0B8"
++ "v16@?0@\"<EMContentRequestOptionsBuilder>\"8"
++ "v16@?0@\"BPSCompletion\"8"
++ "v16@?0@8"
++ "v24@?0@\"EMContentRepresentation\"8@\"NSError\"16"
++ "v24@?0@\"NSArray\"8@\"NSError\"16"
++ "zone"
+
+```

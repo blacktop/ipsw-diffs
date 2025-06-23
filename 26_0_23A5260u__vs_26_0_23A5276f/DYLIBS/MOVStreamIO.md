@@ -1,0 +1,476 @@
+## MOVStreamIO
+
+> `/System/Library/PrivateFrameworks/MOVStreamIO.framework/MOVStreamIO`
+
+```diff
+
+-3.32.2.0.0
+-  __TEXT.__text: 0x8d674
+-  __TEXT.__auth_stubs: 0x1240
++3.33.0.0.0
++  __TEXT.__text: 0x9c724
++  __TEXT.__auth_stubs: 0x13d0
+   __TEXT.__delay_stubs: 0x18c
+   __TEXT.__delay_helper: 0xa4
+-  __TEXT.__objc_methlist: 0x6488
+-  __TEXT.__const: 0x1960
+-  __TEXT.__cstring: 0x8204
++  __TEXT.__objc_methlist: 0x65e0
++  __TEXT.__const: 0x47b0
++  __TEXT.__cstring: 0x8977
+   __TEXT.__oslogstring: 0x3537
+-  __TEXT.__gcc_except_tab: 0xdb74
+-  __TEXT.__ustring: 0xb6
+-  __TEXT.__unwind_info: 0x3218
+-  __TEXT.__objc_classname: 0xec8
+-  __TEXT.__objc_methname: 0xe707
+-  __TEXT.__objc_methtype: 0x4fef
+-  __TEXT.__objc_stubs: 0x9520
+-  __DATA_CONST.__got: 0x7e8
++  __TEXT.__gcc_except_tab: 0xecb8
++  __TEXT.__ustring: 0x5fc
++  __TEXT.__unwind_info: 0x3528
++  __TEXT.__objc_classname: 0xf38
++  __TEXT.__objc_methname: 0xe8a1
++  __TEXT.__objc_methtype: 0x52ea
++  __TEXT.__objc_stubs: 0x95a0
++  __DATA_CONST.__got: 0x7f0
+   __DATA_CONST.__const: 0x9b8
+-  __DATA_CONST.__objc_classlist: 0x350
++  __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x18
+-  __DATA_CONST.__objc_protolist: 0xc8
++  __DATA_CONST.__objc_protolist: 0xd8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3000
++  __DATA_CONST.__objc_selrefs: 0x3060
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x1d0
++  __DATA_CONST.__objc_superrefs: 0x1d8
+   __DATA_CONST.__objc_arraydata: 0x2b8
+-  __AUTH_CONST.__auth_got: 0x980
+-  __AUTH_CONST.__const: 0x9b8
+-  __AUTH_CONST.__cfstring: 0x5820
+-  __AUTH_CONST.__objc_const: 0xe578
++  __AUTH_CONST.__auth_got: 0xa48
++  __AUTH_CONST.__const: 0x9f8
++  __AUTH_CONST.__cfstring: 0x5c20
++  __AUTH_CONST.__objc_const: 0xeab8
+   __AUTH_CONST.__objc_intobj: 0x930
+   __AUTH_CONST.__objc_doubleobj: 0x90
+   __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_dictobj: 0x50
+-  __AUTH.__objc_data: 0x410
+-  __DATA.__objc_ivar: 0x618
+-  __DATA.__data: 0x964
+-  __DATA.__bss: 0x159
++  __AUTH.__objc_data: 0x4b0
++  __DATA.__objc_ivar: 0x620
++  __DATA.__data: 0xa24
++  __DATA.__bss: 0x169
+   __DATA_DIRTY.__objc_data: 0x1d10
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: B14753D5-E539-37BC-B2EF-3F77C6AB1648
+-  Functions: 2563
+-  Symbols:   9776
+-  CStrings:  4628
++  UUID: 41B25529-87B9-392B-8EE8-246A20747044
++  Functions: 2731
++  Symbols:   10221
++  CStrings:  4770
+ 
+Symbols:
++ +[MIOPixelBufferSampler sharedSampler]
++ -[MIOPixelBufferSampler findNormalizedRGBInSampleInfo:]
++ -[MIOPixelBufferSampler pixelBuffer:sampleAtNormalizedX:normalizedY:error:]
++ -[MIOPixelBufferSampler pixelBuffer:sampleAtX:y:error:]
++ -[MIOPixelBufferSampler pixelFormatInfoString:]
++ -[MIOPixelBufferSampler quantizedRGBFromNormalizedRGB:bitDepth:fullRange:error:]
++ -[MIOTimeRangeMetadataTrackReader .cxx_destruct]
++ -[MIOTimeRangeMetadataTrackReader dealloc]
++ -[MIOTimeRangeMetadataTrackReader grabNextTimeRangeMetadataSampleOfStream:rangeStartTime:rangeEndTime:presentationTimeRange:error:]
++ -[MIOTimeRangeMetadataTrackReader initWithMetadataTrackId:asset:]
++ -[MIOTimeRangeMetadataTrackReader readTimeRangeMetadataSamplesOutError:]
++ GCC_except_table137
++ GCC_except_table146
++ GCC_except_table68
++ GCC_except_table79
++ GCC_except_table90
++ _OBJC_CLASS_$_MIOPixelBufferSampler
++ _OBJC_CLASS_$_MIOTimeRangeMetadataTrackReader
++ _OBJC_IVAR_$_MIOTimeRangeMetadataTrackReader._asset
++ _OBJC_IVAR_$_MIOTimeRangeMetadataTrackReader._trackId
++ _OBJC_METACLASS_$_MIOPixelBufferSampler
++ _OBJC_METACLASS_$_MIOTimeRangeMetadataTrackReader
++ __OBJC_$_CLASS_METHODS_MIOPixelBufferSampler
++ __OBJC_$_INSTANCE_METHODS_MIOPixelBufferSampler
++ __OBJC_$_INSTANCE_METHODS_MIOTimeRangeMetadataTrackReader
++ __OBJC_$_INSTANCE_VARIABLES_MIOTimeRangeMetadataTrackReader
++ __OBJC_$_PROP_LIST_MIOTimeRangeMetadataTrackReader
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MOVStreamReaderDelegate
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_MOVStreamReaderDelegateDeprecated
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MOVStreamReaderDelegate
++ __OBJC_$_PROTOCOL_METHOD_TYPES_MOVStreamReaderDelegateDeprecated
++ __OBJC_$_PROTOCOL_REFS_MOVStreamReaderDelegate
++ __OBJC_$_PROTOCOL_REFS_MOVStreamReaderDelegateDeprecated
++ __OBJC_CLASS_PROTOCOLS_$_MIOTimeRangeMetadataTrackReader
++ __OBJC_CLASS_RO_$_MIOPixelBufferSampler
++ __OBJC_CLASS_RO_$_MIOTimeRangeMetadataTrackReader
++ __OBJC_LABEL_PROTOCOL_$_MOVStreamReaderDelegate
++ __OBJC_LABEL_PROTOCOL_$_MOVStreamReaderDelegateDeprecated
++ __OBJC_METACLASS_RO_$_MIOPixelBufferSampler
++ __OBJC_METACLASS_RO_$_MIOTimeRangeMetadataTrackReader
++ __OBJC_PROTOCOL_$_MOVStreamReaderDelegate
++ __OBJC_PROTOCOL_$_MOVStreamReaderDelegateDeprecated
++ __Z18videoFullRangeFlagj
++ __ZN10math_color24color_primaries_to_kR_kBERKNS_15ColourPrimariesERdS3_
++ __ZN12_GLOBAL__N_115PixelBufferLockC1EP10__CVBufferb
++ __ZN12_GLOBAL__N_115PixelBufferLockC1EP10__CVBufferb.cold.1
++ __ZN12_GLOBAL__N_116plane_dimensionsEP10__CVBufferi
++ __ZN12_GLOBAL__N_116plane_dimensionsEP10__CVBufferi.cold.1
++ __ZN12_GLOBAL__N_121plane_sample_locationEP10__CVBufferiRmS2_
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayIhLm1EEEEEDaP10__CVBufferim
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayIhLm1EEEEEDaP10__CVBufferim.cold.1
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayIhLm2EEEEEDaP10__CVBufferim
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayIhLm2EEEEEDaP10__CVBufferim.cold.1
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayItLm1EEEEEDaP10__CVBufferim
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayItLm1EEEEEDaP10__CVBufferim.cold.1
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayItLm2EEEEEDaP10__CVBufferim
++ __ZN12_GLOBAL__N_16rowPtrINSt3__15arrayItLm2EEEEEDaP10__CVBufferim.cold.1
++ __ZN18pixelBufferSampler19pixelFormatAsStringEP10__CVBuffer
++ __ZN18pixelBufferSampler6sampleEP10__CVBufferdd
++ __ZN18pixelBufferSampler6sampleEP10__CVBuffermm
++ __ZNK10ITU_T_H27311Video_coder13encode_chromaEd
++ __ZNK10math_color9RGB_coder6decodeEiiii
++ __ZNK10math_color9YCC_coder14YCbCr_to_YPbPrEiii
++ __ZNK10math_color9YCC_coder14YPbPr_to_YCbCrEddd
++ __ZNKSt13runtime_error4whatEv
++ __ZNKSt3__113__format_spec8__parserIcE10__validateB8ne200100ENS0_8__fieldsB8ne200100EPKcj
++ __ZNKSt3__113__format_spec8__parserIcE11__get_widthB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
++ __ZNKSt3__113__format_spec8__parserIcE15__get_precisionB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEiRT_
++ __ZNKSt3__113__format_spec8__parserIcE31__get_parsed_std_specificationsB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENS0_23__parsed_specificationsIcEERT_
++ __ZNKSt3__116__formatter_charIcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEcRSA_
++ __ZNKSt3__118__formatter_stringIcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorENS_17basic_string_viewIcNS_11char_traitsIcEEEERSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IiNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IjNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100InNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IoNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IxNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_integerIcE6formatB8ne200100IyNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorET_RSA_
++ __ZNKSt3__119__formatter_pointerIcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEPKvRSA_
++ __ZNKSt3__16locale9use_facetERNS0_2idE
++ __ZNKSt3__19formatterIbcE6formatB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT_8iteratorEbRSA_
++ __ZNSt13runtime_errorC2EPKc
++ __ZNSt13runtime_errorD2Ev
++ __ZNSt3__111__formatter13__format_boolB8ne200100IcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT0_8iteratorEbRS9_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IciNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcjNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcnNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcoNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcxNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter13__format_charB8ne200100IcyNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET0_T1_NS_13__format_spec23__parsed_specificationsIT_EE
++ __ZNSt3__111__formatter14__hex_to_upperB8ne200100Ec
++ __ZNSt3__111__formatter14__write_stringB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter15__format_bufferB8ne200100IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_bbNS_13__format_spec6__signENS8_6__typeE
++ __ZNSt3__111__formatter16__format_integerB8ne200100IjPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IjcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100ImPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100ImcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100IoPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IocNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter16__format_integerB8ne200100IyPccNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT2_8iteratorET_RSA_NS_13__format_spec23__parsed_specificationsIT1_EEbT0_SI_PKci
++ __ZNSt3__111__formatter16__format_integerB8ne200100IycNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EEb
++ __ZNSt3__111__formatter19__write_transformedB8ne200100IPcccPFccENS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_ET_SB_T3_NS_13__format_spec23__parsed_specificationsIT1_EET2_
++ __ZNSt3__111__formatter21__format_escaped_charB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ET_T0_NS_13__format_spec23__parsed_specificationsIS8_EE
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_buffer_defaultB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_Pc
++ __ZNSt3__111__formatter23__format_escaped_stringB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IdcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IecNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter23__format_floating_pointB8ne200100IfcNS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEENT1_8iteratorET_RS9_NS_13__format_spec23__parsed_specificationsIT0_EE
++ __ZNSt3__111__formatter25__write_escaped_code_unitB8ne200100IcEEvRNS_12basic_stringIT_NS_11char_traitsIS3_EENS_9allocatorIS3_EEEEDiPKS3_
++ __ZNSt3__111__formatter27__write_string_no_precisionB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET0_NS_13__format_spec23__parsed_specificationsIS9_EE
++ __ZNSt3__111__formatter28__write_using_trailing_zerosB8ne200100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp1_EPKT_SA_T1_NS_13__format_spec23__parsed_specificationsIT0_EEmSA_m
++ __ZNSt3__111__formatter29__format_locale_specific_formB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEdcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
++ __ZNSt3__111__formatter29__format_locale_specific_formB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEfcEET_S7_RKNS0_14__float_bufferIT0_EERKNS0_14__float_resultENS_6localeENS_13__format_spec23__parsed_specificationsIT1_EE
++ __ZNSt3__111__formatter29__is_escaped_sequence_writtenB8ne200100IcEEbRNS_12basic_stringIT_NS_11char_traitsIS3_EENS_9allocatorIS3_EEEEDibNS0_23__escape_quotation_markE
++ __ZNSt3__111__formatter29__is_escaped_sequence_writtenB8ne200100IcEEbRNS_12basic_stringIT_NS_11char_traitsIS3_EENS_9allocatorIS3_EEEEbDi
++ __ZNSt3__111__formatter32__write_using_decimal_separatorsB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEPccEET_S8_T0_S9_S9_ONS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEET1_NS_13__format_spec23__parsed_specificationsISH_EE
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IddEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IdeEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_buffer_general_lower_caseB8ne200100IffEENS0_14__float_resultERNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter34__format_floating_point_non_finiteB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEET_S7_NS_13__format_spec23__parsed_specificationsIT0_EEbb
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter37__format_buffer_scientific_lower_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_lower_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IddEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IdeEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter38__format_buffer_hexadecimal_upper_caseB8ne200100IffEENS0_14__float_resultERKNS0_14__float_bufferIT_EET0_iPc
++ __ZNSt3__111__formatter6__fillB8ne200100IcNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEET0_S7_mNS_13__format_spec12__code_pointIT_EE
++ __ZNSt3__111__formatter7__writeB8ne200100IccNS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEEEDtfp0_ENS_17basic_string_viewIT_NS_11char_traitsIS9_EEEET1_NS_13__format_spec23__parsed_specificationsIT0_EEl
++ __ZNSt3__111__formatter8__escapeB8ne200100IcEEvRNS_12basic_stringIT_NS_11char_traitsIS3_EENS_9allocatorIS3_EEEENS_17basic_string_viewIS3_S5_EENS0_23__escape_quotation_markE
++ __ZNSt3__112__vformat_toB8ne200100INS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcS5_EET_S6_NS_17basic_string_viewIT0_NS_11char_traitsIS8_EEEENS_17basic_format_argsINS_20basic_format_contextIT1_S8_EEEE
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc
++ __ZNSt3__112format_errorC1B8ne200100EPKc
++ __ZNSt3__112format_errorD0Ev
++ __ZNSt3__112format_errorD1Ev
++ __ZNSt3__113__format_spec14__parse_arg_idB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS_8__format21__parse_number_resultIT_EES8_S8_RT0_
++ __ZNSt3__113__format_spec21__process_parsed_boolB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec21__process_parsed_charB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec23__estimate_column_widthB8ne200100IcPKcEENS0_21__column_width_resultIT0_EENS_17basic_string_viewIT_NS_11char_traitsIS8_EEEEmNS0_23__column_width_roundingE
++ __ZNSt3__113__format_spec24__process_parsed_integerB8ne200100IcEEvRNS0_8__parserIT_EEPKc
++ __ZNSt3__113__format_spec33__throw_invalid_type_format_errorB8ne200100EPKc
++ __ZNSt3__113__format_spec35__throw_invalid_option_format_errorB8ne200100EPKcS2_
++ __ZNSt3__113__format_spec8__detail43__estimate_column_width_grapheme_clusteringB8ne200100IPKcEENS0_21__column_width_resultIT_EES6_S6_mNS0_23__column_width_roundingE
++ __ZNSt3__113__format_spec8__parserIcE12__parse_typeB8ne200100IPKcEEvRT_
++ __ZNSt3__113__format_spec8__parserIcE13__parse_widthB8ne200100IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
++ __ZNSt3__113__format_spec8__parserIcE17__parse_precisionB8ne200100IPKcNS_26basic_format_parse_contextIcEEEEbRT_S8_RT0_
++ __ZNSt3__113__format_spec8__parserIcE18__parse_fill_alignB8ne200100IPKcEEbRT_S6_
++ __ZNSt3__113__format_spec8__parserIcE7__parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS6_NS0_8__fieldsB8ne200100E
++ __ZNSt3__118__formatter_stringIcE5parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
++ __ZNSt3__118__visit_format_argB8ne200100IZNS_13__format_spec19__substitute_arg_idB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_S9_EEDcOSB_NSA_IT0_EE
++ __ZNSt3__118__visit_format_argB8ne200100IZNS_8__format26__handle_replacement_fieldB8ne200100IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS1_15__output_bufferIcEEEEcEEEET_SD_SD_RT0_RT1_EUlSD_E_SC_EEDcOSD_NS_16basic_format_argISE_EE
++ __ZNSt3__119__formatter_pointerIcE5parseB8ne200100INS_26basic_format_parse_contextIcEEEENT_8iteratorERS5_
++ __ZNSt3__119__is_posix_terminalEP7__sFILE
++ __ZNSt3__119__to_chars_integralB8ne200100IjEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__119__to_chars_integralB8ne200100IoEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__119__to_chars_integralB8ne200100IyEENS_15to_chars_resultEPcS2_T_iNS_17integral_constantIbLb0EEE
++ __ZNSt3__120__throw_format_errorB8ne200100EPKc
++ __ZNSt3__120__throw_system_errorEiPKc
++ __ZNSt3__120basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcE6localeB8ne200100Ev
++ __ZNSt3__122__escaped_output_table14__needs_escapeB8ne200100EDi
++ __ZNSt3__122__escaped_output_table9__entriesB8ne200100E
++ __ZNSt3__122__indic_conjunct_break14__get_propertyB8ne200100EDi
++ __ZNSt3__122__indic_conjunct_break9__entriesB8ne200100E
++ __ZNSt3__124__width_estimation_table17__estimated_widthB8ne200100EDi
++ __ZNSt3__124__width_estimation_table9__entriesB8ne200100E
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IjEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IoEEiT_j
++ __ZNSt3__125__to_chars_integral_widthB8ne200100IyEEiT_j
++ __ZNSt3__126basic_format_parse_contextIcE11next_arg_idB8ne200100Ev
++ __ZNSt3__144__extended_grapheme_custer_property_boundary14__get_propertyB8ne200100EDi
++ __ZNSt3__144__extended_grapheme_custer_property_boundary9__entriesB8ne200100E
++ __ZNSt3__15__gcdImEET_S1_S1_
++ __ZNSt3__15printB8ne200100IJRNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEEvP7__sFILENS_19basic_format_stringIcJDpNS_13type_identityIT_E4typeEEEEDpOSC_
++ __ZNSt3__16__itoa10__append10B8ne200100IyEEPcS2_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj16EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj2EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IjEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IoEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__integralILj8EE10__to_charsB8ne200100IyEENS_15to_chars_resultEPcS5_T_
++ __ZNSt3__16__itoa10__pow10_32E
++ __ZNSt3__16__itoa10__pow10_64E
++ __ZNSt3__16__itoa11__pow10_128E
++ __ZNSt3__16__itoa12__base_2_lutE
++ __ZNSt3__16__itoa12__base_8_lutE
++ __ZNSt3__16__itoa13__base_10_u32B8ne200100EPcj
++ __ZNSt3__16__itoa13__base_16_lutE
++ __ZNSt3__16__itoa14__base_10_u128B8ne200100EPco
++ __ZNSt3__16__itoa16__digits_base_10E
++ __ZNSt3__16invokeB8ne200100IZNS_13__format_spec19__substitute_arg_idB8ne200100INS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEjNS_16basic_format_argIT_EEEUlSB_E_JRxEEENS_13invoke_resultISB_JDpT0_EE4typeEOSB_DpOSG_
++ __ZNSt3__16localeC1ERKS0_
++ __ZNSt3__16localeC1Ev
++ __ZNSt3__16localeD1Ev
++ __ZNSt3__16localeaSERKS0_
++ __ZNSt3__17__print19__vprint_nonunicodeB8ne200100IvEEvP7__sFILENS_17basic_string_viewIcNS_11char_traitsIcEEEENS_17basic_format_argsINS_20basic_format_contextINS_20back_insert_iteratorINS_8__format15__output_bufferIcEEEEcEEEEb
++ __ZNSt3__18__format12__vformat_toB8ne200100INS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEENT0_8iteratorEOT_OSA_
++ __ZNSt3__18__format14__parse_arg_idB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES7_S7_RT0_
++ __ZNSt3__18__format14__parse_numberB8ne200100IPKcEENS0_21__parse_number_resultIT_EES5_S5_
++ __ZNSt3__18__format15__output_bufferIcE11__transformB8ne200100IPcPFccEcEEvT_S7_T0_
++ __ZNSt3__18__format15__output_bufferIcE6__copyB8ne200100IcEEvNS_17basic_string_viewIT_NS_11char_traitsIS5_EEEE
++ __ZNSt3__18__format15__output_bufferIcE6__fillB8ne200100Emc
++ __ZNSt3__18__format15__output_bufferIcE9push_backB8ne200100Ec
++ __ZNSt3__18__format19__allocating_bufferIcE13__grow_bufferB8ne200100Em
++ __ZNSt3__18__format19__allocating_bufferIcE15__prepare_writeB8ne200100ERNS0_15__output_bufferIcEEm
++ __ZNSt3__18__format26__handle_replacement_fieldB8ne200100IPKcNS_26basic_format_parse_contextIcEENS_20basic_format_contextINS_20back_insert_iteratorINS0_15__output_bufferIcEEEEcEEEET_SC_SC_RT0_RT1_
++ __ZNSt3__18__format8__detail14__parse_manualB8ne200100IPKcNS_26basic_format_parse_contextIcEEEENS0_21__parse_number_resultIT_EES8_S8_RT0_
++ __ZNSt3__18numpunctIcE2idE
++ __ZNSt3__18optionalINS_6localeEEaSB8ne200100IS1_vEERS2_OT_
++ __ZNSt3__18to_charsEPcS0_d
++ __ZNSt3__18to_charsEPcS0_dNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_dNS_12chars_formatEi
++ __ZNSt3__18to_charsEPcS0_e
++ __ZNSt3__18to_charsEPcS0_eNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_eNS_12chars_formatEi
++ __ZNSt3__18to_charsEPcS0_f
++ __ZNSt3__18to_charsEPcS0_fNS_12chars_formatE
++ __ZNSt3__18to_charsEPcS0_fNS_12chars_formatEi
++ __ZNSt3__19__unicode17__code_point_viewIcE9__consumeB8ne200100Ev
++ __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne200100Ev
++ __ZNSt3__19__unicode32__extended_grapheme_cluster_viewIcE9__consumeB8ne200100Ev.cold.1
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break10__evaluateB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break15__evaluate_noneB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break21__evaluate_GB11_emojiB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_break36__evaluate_GB9c_indic_conjunct_breakB8ne200100EDiNS_44__extended_grapheme_custer_property_boundary10__propertyE
++ __ZNSt3__19__unicode33__extended_grapheme_cluster_breakC2B8ne200100EDi
++ __ZTINSt3__112format_errorE
++ __ZTISt13runtime_error
++ __ZTSNSt3__112format_errorE
++ __ZTVNSt3__112format_errorE
++ __ZZ38+[MIOPixelBufferSampler sharedSampler]E12shareSampler
++ __ZZ38+[MIOPixelBufferSampler sharedSampler]E9onceToken
++ ___38+[MIOPixelBufferSampler sharedSampler]_block_invoke
++ ___udivti3
++ ___umodti3
++ _feof
++ _ferror
++ _fflush
++ _memchr
++ _objc_msgSend$findNormalizedRGBInSampleInfo:
++ _objc_msgSend$initWithMetadataTrackId:asset:
++ _objc_msgSend$numberWithFloat:
++ _objc_msgSend$numberWithUnsignedShort:
++ _objc_msgSend$readTimeRangeMetadataSamplesOutError:
+- GCC_except_table94
+- GCC_except_table97
+- __Z18videoFullRangeFlag12EPixelFormat
+- __ZN10math_color27color_primaries_to_kR_kG_kBERKNS_15ColourPrimariesERdS3_S3_
+- __ZN10math_color9print_3x3EPA3_d
+- __ZNK10math_color11YPbPr_YCbCr13encode_chromaEd
+- __ZNK10math_color11YPbPr_YCbCr6encodeEddd
+- _kCVImageBufferLogTransferFunction_AppleLog
+- _objc_msgSend$hasReachedEndOfMetadataStream:
+- _putchar
+CStrings:
++ " does not allow the "
++ " formatting argument"
++ " option"
++ "01"
++ "01234567"
++ "0123456789abcdef"
++ "0123456789abcdefghijklmnopqrstuvwxyz"
++ "0B"
++ "0X"
++ "0b"
++ "0x"
++ "3.33.0"
++ "4"
++ "@\"AVAsset\""
++ "@28@0:8i16@20"
++ "@40@0:8@16C24B28^@32"
++ "@48@0:8^{__CVBuffer=}16Q24Q32^@40"
++ "@48@0:8^{__CVBuffer=}16d24d32^@40"
++ "@56@0:8@\"MOVStreamReader\"16@\"NSString\"24@32@\"NSDictionary\"40I48I52"
++ "@56@0:8@16@24@32@40I48I52"
++ "An argument index may not have a negative value"
++ "B24@0:8@\"MOVStreamReader\"16"
++ "B32@0:8@\"MOVStreamReader\"16@\"NSString\"24"
++ "B36@0:8@\"MOVStreamReader\"16@\"NSString\"24I32"
++ "B36@0:8@16@24I32"
++ "B40@0:8@\"MOVStreamReader\"16@\"NSString\"24q32"
++ "B40@0:8@16@24q32"
++ "B48@0:8@\"MOVStreamReader\"16@\"NSString\"24q32@\"AVAssetTrack\"40"
++ "B48@0:8@16@24q32@40"
++ "BGRA: 8-bit RGBA"
++ "Cannot retrieve sample from pixel buffer."
++ "EOF while writing the formatted output"
++ "End of input while parsing an argument index"
++ "End of input while parsing format specifier precision"
++ "Error: pixel buffer is missing expected YCbCrMatrix attachments.\n"
++ "Error: unexpected pixel format type: {}\n"
++ "I24@0:8@\"MOVStreamReader\"16"
++ "I32@0:8@\"MOVStreamReader\"16@\"NSString\"24"
++ "I36@0:8@\"MOVStreamReader\"16@\"NSString\"24I32"
++ "I36@0:8@16@24I32"
++ "Integral value outside the range of the char type"
++ "L"
++ "MIOPixelBufferSampler"
++ "MIOTimeRangeMetadataTrackReader"
++ "MIOTimeRangeMetadataTrackReader dealloc"
++ "MOVStreamReaderDelegate"
++ "MOVStreamReaderDelegateDeprecated"
++ "Missing r'g'b' values."
++ "PixelBufferSampler.mm"
++ "RGfA: float rgba"
++ "RGhA: half-float rgba"
++ "Replacement argument isn't a standard signed or unsigned integer type"
++ "The argument index is invalid"
++ "The argument index should end with a ':' or a '}'"
++ "The argument index starts with an invalid character"
++ "The argument index value is too large for the number of arguments supplied"
++ "The fill option contains an invalid value"
++ "The format specifier contains malformed Unicode characters"
++ "The format specifier for "
++ "The format specifier should consume the input or end with a '}'"
++ "The format string contains an invalid escape sequence"
++ "The format string terminates at a '{'"
++ "The numeric value of the format specifier is too large"
++ "The precision option does not contain a value or an argument index"
++ "The replacement field misses a terminating '}'"
++ "The type does not fit in the mask"
++ "The type option contains an invalid value for "
++ "The type option contains an invalid value for a string formatting argument"
++ "The value of the argument index exceeds its maximum value"
++ "The width option should not have a leading zero"
++ "Using automatic argument numbering in manual argument numbering mode"
++ "Using manual argument numbering in automatic argument numbering mode"
++ "Y"
++ "YCbCr"
++ "\\\""
++ "\\'"
++ "\\\\"
++ "\\n"
++ "\\r"
++ "\\t"
++ "\\u{"
++ "\\x{"
++ "_asset"
++ "_trackId"
++ "a bool"
++ "a character"
++ "a floating-point"
++ "a pointer"
++ "alternate form"
++ "an integer"
++ "bitDepth (%d) must be greater than or equal to 8."
++ "failed to write formatted output"
++ "findNormalizedRGBInSampleInfo:"
++ "infnanINFNAN"
++ "initWithMetadataTrackId:asset:"
++ "locale-specific form"
++ "native"
++ "numberWithFloat:"
++ "numberWithUnsignedShort:"
++ "pixelBuffer:sampleAtNormalizedX:normalizedY:error:"
++ "pixelBuffer:sampleAtX:y:error:"
++ "pixelFormatInfoString:"
++ "plane_dimensions"
++ "precision"
++ "quantizedRGBFromNormalizedRGB:bitDepth:fullRange:error:"
++ "r"
++ "readTimeRangeMetadataSamplesOutError:"
++ "reader:readUnknownMetadataList:associatedTo:inTimeRange:"
++ "readerReadMetadata:"
++ "rowPtr"
++ "s"
++ "sharedSampler"
++ "sign"
++ "sv22: 16-bit 4:4:4"
++ "true"
++ "v32@0:8@\"MOVStreamReader\"16@\"NSError\"24"
++ "v88@0:8@\"MOVStreamReader\"16@\"NSArray\"24@\"NSString\"32{?={?=qiIq}{?=qiIq}}40"
++ "v88@0:8@16@24@32{?={?=qiIq}{?=qiIq}}40"
++ "x"
++ "zero-padding"
+- "%14.10f  "
+- "3.32.2"
+- "Could not create reader for stream %@ to build timed metadata track data structure, error: %@"
+- "Could not reset reader for time range metadata read of stream %@, error: %@"
+
+```

@@ -1,0 +1,749 @@
+## HealthSettings
+
+> `/System/Library/PreferenceBundles/HealthSettings.bundle/HealthSettings`
+
+```diff
+
+-6074.1.2.4.0
+-  __TEXT.__text: 0x5dc0
+-  __TEXT.__auth_stubs: 0x460
+-  __TEXT.__objc_stubs: 0x1900
+-  __TEXT.__objc_methlist: 0xb94
+-  __TEXT.__const: 0x22
+-  __TEXT.__gcc_except_tab: 0xc4
+-  __TEXT.__cstring: 0x421
+-  __TEXT.__objc_classname: 0x23e
+-  __TEXT.__objc_methname: 0x2109
+-  __TEXT.__oslogstring: 0x2d6
+-  __TEXT.__objc_methtype: 0x76b
+-  __TEXT.__unwind_info: 0x278
+-  __DATA_CONST.__auth_got: 0x240
+-  __DATA_CONST.__got: 0x1b0
+-  __DATA_CONST.__const: 0x3d8
+-  __DATA_CONST.__cfstring: 0x400
+-  __DATA_CONST.__objc_classlist: 0x48
+-  __DATA_CONST.__objc_catlist: 0x10
+-  __DATA_CONST.__objc_protolist: 0x40
++6087.1.2.1.0
++  __TEXT.__text: 0xb08
++  __TEXT.__auth_stubs: 0x290
++  __TEXT.__cstring: 0x1ae
++  __TEXT.__const: 0xaa
++  __TEXT.__constg_swiftt: 0x8c
++  __TEXT.__swift5_typeref: 0x83
++  __TEXT.__swift5_fieldmd: 0x20
++  __TEXT.__swift5_reflstr: 0x5
++  __TEXT.__swift5_assocty: 0x30
++  __TEXT.__objc_methname: 0x1f
++  __TEXT.__swift5_proto: 0x8
++  __TEXT.__swift5_types: 0x8
++  __TEXT.__swift_as_entry: 0x4
++  __TEXT.__unwind_info: 0xa0
++  __TEXT.__eh_frame: 0x70
++  __DATA_CONST.__auth_got: 0x148
++  __DATA_CONST.__got: 0x48
++  __DATA_CONST.__auth_ptr: 0x68
++  __DATA_CONST.__const: 0x178
++  __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0x40
+-  __DATA.__objc_const: 0x1150
+-  __DATA.__objc_selrefs: 0x8d8
+-  __DATA.__objc_ivar: 0x88
+-  __DATA.__objc_data: 0x2d0
+-  __DATA.__data: 0x300
+-  __DATA.__bss: 0x10
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  __DATA.__objc_const: 0x90
++  __DATA.__objc_selrefs: 0x8
++  __DATA.__data: 0xd0
++  __DATA.__bss: 0x100
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/HealthKit.framework/HealthKit
++  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+   - /System/Library/PrivateFrameworks/AppProtection.framework/AppProtection
+-  - /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+   - /System/Library/PrivateFrameworks/HealthAppServices.framework/HealthAppServices
+-  - /System/Library/PrivateFrameworks/HealthExperienceUI.framework/HealthExperienceUI
+   - /System/Library/PrivateFrameworks/HealthPlatform.framework/HealthPlatform
+-  - /System/Library/PrivateFrameworks/HealthPlatformCore.framework/HealthPlatformCore
+-  - /System/Library/PrivateFrameworks/HealthRecordServices.framework/HealthRecordServices
+-  - /System/Library/PrivateFrameworks/HealthToolbox.framework/HealthToolbox
+-  - /System/Library/PrivateFrameworks/HealthUI.framework/HealthUI
+-  - /System/Library/PrivateFrameworks/MedicalIDUI.framework/MedicalIDUI
++  - /System/Library/PrivateFrameworks/HealthSettingsUI.framework/HealthSettingsUI
+   - /System/Library/PrivateFrameworks/Preferences.framework/Preferences
+   - /System/Library/PrivateFrameworks/PreferencesExtended.framework/PreferencesExtended
++  - /System/Library/PrivateFrameworks/Settings.framework/Settings
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 451DB96D-BC4C-30BF-9DB6-7443579EF75E
+-  Functions: 197
+-  Symbols:   186
+-  CStrings:  505
++  UUID: 568DBB47-C2E7-308A-99D5-413336F2E7BF
++  Functions: 17
++  Symbols:   51
++  CStrings:  12
+ 
+Symbols:
++ _OBJC_CLASS_$__TtCs12_SwiftObject
++ _OBJC_METACLASS_$__TtCs12_SwiftObject
++ ___chkstk_darwin
++ __swiftImmortalRefCount
++ _objc_opt_self
++ _objc_retainAutoreleasedReturnValue
++ _swift_bridgeObjectRelease
++ _swift_deallocClassInstance
++ _swift_deletedMethodError
++ _swift_getObjCClassMetadata
++ _swift_getOpaqueTypeConformance2
++ _swift_getWitnessTable
++ _swift_task_alloc
++ _swift_task_dealloc
++ _swift_task_switch
+- OBJC_IVAR_$_PSListController._specifiers
+- _GSSystemRootDirectory
+- _HKHealthSettingsLocalizedString
+- _HKHealthSettingsSpecifiersLocalizedString
+- _HKLogDefault
+- _HKLogHealthRecords
+- _HKLogQuery
+- _OBJC_CLASS_$_APApplication
+- _OBJC_CLASS_$_APGuard
+- _OBJC_CLASS_$_AuthenticationHelper
+- _OBJC_CLASS_$_HKClinicalAccountStore
+- _OBJC_CLASS_$_HKHealthChecklistUtilities
+- _OBJC_CLASS_$_HKHealthSettingsMedicalIDCallToActionTableViewController
+- _OBJC_CLASS_$_HKHealthSettingsMedicalIDViewController
+- _OBJC_CLASS_$_HKHealthSettingsOrganDonationViewController
+- _OBJC_CLASS_$_HKHealthSettingsProfile
+- _OBJC_CLASS_$_HKHealthSettingsProfileTableViewController
+- _OBJC_CLASS_$_HKHealthSettingsSecondaryProfileSourcesViewController
+- _OBJC_CLASS_$_HKHealthSettingsSourcesViewController
+- _OBJC_CLASS_$_HKHealthStore
+- _OBJC_CLASS_$_HKMedicalIDCallToActionTableViewCell
+- _OBJC_CLASS_$_HKMedicalIDStore
+- _OBJC_CLASS_$_HKMedicalIDViewController
+- _OBJC_CLASS_$_HKOrganDonationConnectionManager
+- _OBJC_CLASS_$_HKOrganDonationRegisterViewController
+- _OBJC_CLASS_$_HKProfileStore
+- _OBJC_CLASS_$_HealthAppAuthorizationManagementLinkBuilder
+- _OBJC_CLASS_$_HealthAppScribeAnalyticEventManager
+- _OBJC_CLASS_$_LSApplicationWorkspace
+- _OBJC_CLASS_$_MIUIDisplayConfiguration
+- _OBJC_CLASS_$_MIUIMedicalIDNavigationBarView
+- _OBJC_CLASS_$_MIUIMedicalIDViewController
+- _OBJC_CLASS_$_NSArray
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSLocale
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPersonNameComponents
+- _OBJC_CLASS_$_NSPersonNameComponentsFormatter
+- _OBJC_CLASS_$_NSPredicate
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_PSListController
+- _OBJC_CLASS_$_PSSpecifier
+- _OBJC_CLASS_$_PSSystemPolicyForApp
+- _OBJC_CLASS_$_ProfileCharacteristicsViewController
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UINavigationController
+- _OBJC_CLASS_$_UITableViewController
+- _OBJC_CLASS_$_UIViewController
+- _OBJC_CLASS_$_WDProfile
+- _OBJC_CLASS_$_WDSecondaryProfileSourcesViewController
+- _OBJC_CLASS_$_WDSourcesViewController
+- _OBJC_CLASS_$__HKBehavior
+- _OBJC_CLASS_$__NSLocalizedStringResource
+- _OBJC_METACLASS_$_AuthenticationHelper
+- _OBJC_METACLASS_$_HKHealthSettingsController
+- _OBJC_METACLASS_$_HKHealthSettingsMedicalIDCallToActionTableViewController
+- _OBJC_METACLASS_$_HKHealthSettingsMedicalIDViewController
+- _OBJC_METACLASS_$_HKHealthSettingsOrganDonationViewController
+- _OBJC_METACLASS_$_HKHealthSettingsProfile
+- _OBJC_METACLASS_$_HKHealthSettingsProfileTableViewController
+- _OBJC_METACLASS_$_HKHealthSettingsSecondaryProfileSourcesViewController
+- _OBJC_METACLASS_$_HKHealthSettingsSourcesViewController
+- _OBJC_METACLASS_$_HKOrganDonationRegisterViewController
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_PSListController
+- _OBJC_METACLASS_$_ProfileCharacteristicsViewController
+- _OBJC_METACLASS_$_UITableViewController
+- _OBJC_METACLASS_$_UIViewController
+- _OBJC_METACLASS_$_WDProfile
+- _OBJC_METACLASS_$_WDSecondaryProfileSourcesViewController
+- _OBJC_METACLASS_$_WDSourcesViewController
+- _PSAllowMultilineTitleKey
+- _PSFooterTextGroupKey
+- _WDProfilePresentationContextSettings
+- __Block_object_dispose
+- __HKInitializeLogging
+- __NSConcreteGlobalBlock
+- __NSConcreteStackBlock
+- __Unwind_Resume
+- ___CFConstantStringClassReference
+- ___NSArray0__struct
+- ___NSDictionary0__struct
+- ___kCFBooleanTrue
+- ___objc_personality_v0
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __dispatch_main_q
+- __os_log_error_impl
+- __os_log_fault_impl
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- _dispatch_async
+- _dispatch_group_create
+- _dispatch_group_enter
+- _dispatch_group_leave
+- _dispatch_group_wait
+- _dispatch_once
+- _dispatch_semaphore_create
+- _dispatch_semaphore_signal
+- _dispatch_semaphore_wait
+- _dispatch_time
+- _kHKHealthAppBundleIdentifier
+- _kHKMedicalIDDidChangeNotification
+- _notify_cancel
+- _notify_register_dispatch
+- _objc_alloc
+- _objc_allocWithZone
+- _objc_alloc_init
+- _objc_autoreleaseReturnValue
+- _objc_claimAutoreleasedReturnValue
+- _objc_copyWeak
+- _objc_destroyWeak
+- _objc_enumerationMutation
+- _objc_initWeak
+- _objc_loadWeakRetained
+- _objc_msgSendSuper2
+- _objc_opt_class
+- _objc_release
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x8
+- _objc_release_x9
+- _objc_retain
+- _objc_retainAutoreleaseReturnValue
+- _objc_retain_x1
+- _objc_retain_x19
+- _objc_retain_x2
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x3
+- _objc_retain_x5
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_storeStrong
+- _objc_storeWeak
+- _os_log_type_enabled
+CStrings:
++ "HKHealthRecordsSettingsViewController"
++ "HealthRecordsSettings"
++ "HealthSettings/HealthSettingsExperience.swift"
++ "_TtC14HealthSettings26HealthSettingsPluginLoader"
++ "healthSettingsBundleIdentifier"
+- ""
+- "!"
+- "#16@0:8"
+- "%@_MEDICAL_ID_SETUP_BRIDGE_BODY"
+- "%{public}@ Failed to fetch name for profile, Error: %{public}@"
+- "%{public}@ Failed to fetch profiles from HKProfileStore, Error: %{public}@"
+- "%{public}@: Authentication failed: %{public}@."
+- ".cxx_destruct"
+- "/"
+- "/System/Library/PreferenceBundles/HealthRecordsSettings.bundle"
+- "3"
+- "@\"<HKHealthSettingsNavigationDonating>\""
+- "@\"<HKHealthSettingsNavigationDonating>\"16@0:8"
+- "@\"<UIViewControllerAnimatedTransitioning>\"48@0:8@\"UINavigationController\"16q24@\"UIViewController\"32@\"UIViewController\"40"
+- "@\"<UIViewControllerInteractiveTransitioning>\"32@0:8@\"UINavigationController\"16@\"<UIViewControllerAnimatedTransitioning>\"24"
+- "@\"HKHealthSettingsProfile\""
+- "@\"HKHealthStore\""
+- "@\"HKMedicalIDStore\""
+- "@\"NSArray\""
+- "@\"NSBundle\"16@0:8"
+- "@\"NSDictionary\""
+- "@\"NSNumber\""
+- "@\"NSPersonNameComponents\""
+- "@\"NSString\""
+- "@\"NSString\"16@0:8"
+- "@\"PSRootController\""
+- "@\"PSRootController\"16@0:8"
+- "@\"PSSpecifier\""
+- "@\"PSSpecifier\"16@0:8"
+- "@\"PSSystemPolicyForApp\""
+- "@\"UIViewController\""
+- "@\"UIViewController<PSController>\""
+- "@\"UIViewController<PSController>\"16@0:8"
+- "@\"_HKMedicalIDData\""
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"PSSpecifier\"16"
+- "@24@0:8@16"
+- "@28@0:8B16@20"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@48@0:8@16q24@32@40"
+- "AuthenticationHelper"
+- "Authorization Management: Settings"
+- "B"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "B40@0:8@\"NSString\"16@\"NSDictionary\"24^B32"
+- "B40@0:8@16@24^B32"
+- "B48@0:8@\"NSString\"16@\"NSDictionary\"24^B32@?<v@?>40"
+- "B48@0:8@16@24^B32@?40"
+- "Could not load HealthRecordsSettings bundle"
+- "Could not load HealthRecordsSettings bundle's principal class"
+- "HEALTH_CHECKLIST_FOOTER_PHONE_ONLY"
+- "HEALTH_CHECKLIST_FOOTER_PHONE_WATCH"
+- "HEALTH_CHECKLIST_GROUP"
+- "HEALTH_CHECKLIST_ITEM"
+- "HEALTH_DATA_SETTINGS_TITLE"
+- "HEALTH_SETTINGS_TITLE"
+- "HKHealthSettingsController"
+- "HKHealthSettingsController is expecting to insert HEALTH_RECORDS_ITEM after SOURCES_ITEM, however the latter is not currently present in self.specifiers. Have: %{public}@"
+- "HKHealthSettingsController is expecting to insert SHARED_DATA_GROUP_TITLE after SOURCES_ITEM, however the latter is not currently present in self.specifiers. Have: %{public}@"
+- "HKHealthSettingsMedicalIDCallToActionTableViewController"
+- "HKHealthSettingsNavigationDonaterConsuming"
+- "HKHealthSettingsNavigationDonating"
+- "HKHealthSettingsOrganDonationViewController"
+- "HKHealthSettingsProfile"
+- "HKHealthSettingsSecondaryProfileSourcesViewController"
+- "HKMedicalIDViewControllerDelegate"
+- "Health"
+- "HealthSettings"
+- "HealthSettings/HealthExperienceUI+Bridging.swift"
+- "HealthSettingsProfileProperty"
+- "HealthSettingsSpecifiers"
+- "HealthSettingsTinkerProfileSpecifierID"
+- "HealthUI-Localizable-tinker"
+- "Localizable-tinker"
+- "MEDICAL_ID_SETUP_BRIDGE_BODY"
+- "MEDICAL_ID_SETUP_OPEN_BRIDGE"
+- "Medical ID"
+- "NSObject"
+- "ORGAN_DONATION_ITEM"
+- "PSController"
+- "PSStateRestoration"
+- "PSSystemPolicyForAppDelegate"
+- "Q16@0:8"
+- "Q24@0:8@\"UINavigationController\"16"
+- "Q24@0:8@16"
+- "SHARED_DATA_GROUP_TITLE"
+- "T#,R"
+- "T@\"<HKHealthSettingsNavigationDonating>\",W,N"
+- "T@\"<HKHealthSettingsNavigationDonating>\",W,N,V_settingsNavigationDonatingDelegate"
+- "T@\"HKHealthSettingsProfile\",&,N,V_healthSettingsProfile"
+- "T@\"HKHealthStore\",&,N,V_healthStore"
+- "T@\"NSArray\",&,N,V_sharedHealthDataIdentifiers"
+- "T@\"NSDictionary\",&,N,V_pendingURLDictionary"
+- "T@\"NSPersonNameComponents\",&,N,V_nameComponents"
+- "T@\"NSString\",&,N,V_localizedName"
+- "T@\"NSString\",?,R,C"
+- "T@\"NSString\",R,C"
+- "T@\"PSRootController\",W,N,V_rootController"
+- "T@\"PSSpecifier\",&,N,V_healthRecordsSpecifier"
+- "T@\"PSSpecifier\",&,N,V_specifier"
+- "T@\"PSSystemPolicyForApp\",&,N,V_appPolicy"
+- "T@\"UIViewController\",&,N,V__currentChildViewController"
+- "T@\"UIViewController<PSController>\",W,N,V_parentController"
+- "T@\"_HKMedicalIDData\",&,N,V__medicalIDData"
+- "TB,N,V__medicalIDLoaded"
+- "TB,R,N,GisPrimaryProfile,V_primaryProfile"
+- "TQ,R"
+- "UINavigationControllerDelegate"
+- "URLWithString:"
+- "Unable to initialize HealthRecordsSettings bundle's principal class as a view controller"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "__currentChildViewController"
+- "__medicalIDData"
+- "__medicalIDLoaded"
+- "_appPolicy"
+- "_authenticateWithGuard:completion:"
+- "_createMedicalIDTapped:"
+- "_currentChildViewController"
+- "_fetchMedicalIDData"
+- "_getLastDataSourceInSpecifiers:"
+- "_handleFetchedMedicalIDData:"
+- "_hasHealthRecordsData"
+- "_healthRecordsSpecifier"
+- "_healthSettingsProfile"
+- "_healthStore"
+- "_localizedName"
+- "_medicalIDChangedToken"
+- "_medicalIDData"
+- "_medicalIDLoaded"
+- "_medicalIDStore"
+- "_nameComponents"
+- "_parentController"
+- "_pendingURLDictionary"
+- "_primaryProfile"
+- "_rootController"
+- "_setSectionContentInsetFollowsLayoutMargins:"
+- "_setSectionCornerRadius:"
+- "_settingsNavigationDonatingDelegate"
+- "_sharedHealthDataIdentifiers"
+- "_specifier"
+- "_submitScribeAnalyticEvent"
+- "_updateChildViewController"
+- "actionButton"
+- "addChildViewController:"
+- "addHealthRecordsSpecifier:"
+- "addObject:"
+- "addObjectsFromArray:"
+- "addSharedDataSpecifiersWithIdentifiers:"
+- "addSubview:"
+- "addTarget:action:forControlEvents:"
+- "appPolicy"
+- "applicationWithBundleIdentifier:"
+- "array"
+- "arrayWithObjects:count:"
+- "authenticateForSubject:completion:"
+- "authenticateWithCompletion:"
+- "autorelease"
+- "autoupdatingCurrentLocale"
+- "boolValue"
+- "bridge:root=ActiveWatch"
+- "bundleForClass:"
+- "bundleURL"
+- "bundleWithIdentifier:"
+- "bundleWithPath:"
+- "callToActionLabel"
+- "canBeShownFromSuspendedState"
+- "canOpenLinkWithSourceIdentifier:destinationIdentifier:"
+- "class"
+- "com.apple.Health"
+- "com.apple.HealthUI"
+- "componentsSeparatedByString:"
+- "configureHealthChecklistItemInSpecifiers:"
+- "configureHealthRecordsItemInSpecifiers:"
+- "configureMedicalIDItemInSpecifiers:"
+- "configureOrganDonationItemInSpecifiers:"
+- "configureProfileCharacteristicsItemInSpecifiers:"
+- "configureSourcesItemInSpecifiers:"
+- "conformsToProtocol:"
+- "containsString:"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createSharedHealthDataSpecifiersWithProfileIdentifiers:"
+- "currentLocale"
+- "dealloc"
+- "debugDescription"
+- "defaultReuseIdentifier"
+- "defaultWorkspace"
+- "deleteMedicalIDDataWithCompletion:"
+- "dequeueReusableCellWithIdentifier:"
+- "description"
+- "didLock"
+- "didMoveToParentViewController:"
+- "didUnlock"
+- "didWake"
+- "dismissViewControllerAnimated:completion:"
+- "donateWithDeepLink:andTitle:"
+- "editButtonTapped:"
+- "externalSourceAssistantService"
+- "fetchAllProfilesWithCompletion:"
+- "fetchDisplayName:"
+- "fetchHealthRecordsDataWithCompletion:"
+- "fetchMedicalIDDataSynchronously"
+- "fetchMedicalIDDataWithCompletion:"
+- "fetchSharedHealthData"
+- "filteredArrayUsingPredicate:"
+- "firstObject"
+- "formatSearchEntries:parent:"
+- "getNameComponents"
+- "getProfilesOfType:completion:"
+- "givenName"
+- "groupSpecifierWithID:name:"
+- "handleURL:"
+- "handleURL:withCompletion:"
+- "hasAnyHealthRecordsAccountWithCompletion:"
+- "hasPairedWatch"
+- "hasStoredRegistrant"
+- "hash"
+- "healthAppHiddenOrNotInstalled"
+- "healthRecordsSpecifier"
+- "healthSettingsMedicalIDSpecifier"
+- "healthSettingsProfile"
+- "healthSettingsSourcesItemSpecifier"
+- "healthStore"
+- "highlightSpecifierWithID:"
+- "hk_alignConstraintsWithView:"
+- "hk_authenticateWithCompletionViewController:"
+- "hk_authenticateWithGuard:completionViewController:"
+- "i"
+- "identifier"
+- "indexOfSpecifierWithID:"
+- "init"
+- "initInEditMode:inBuddy:organDonationSignupAvailable:"
+- "initWithBundleIdentifier:"
+- "initWithHealthSettingsProfile:"
+- "initWithHealthStore:"
+- "initWithHealthStore:displayConfiguration:"
+- "initWithHealthStore:medicalIDData:displayConfiguration:"
+- "initWithHealthStore:medicalIDData:showDateUpdated:locale:"
+- "initWithKey:table:locale:bundleURL:"
+- "initWithPrimaryProfile:healthSettingsProfile:"
+- "initWithProfile:usingInsetStyling:"
+- "initWithProfileIdentifier:"
+- "initWithRootViewController:"
+- "initWithString:"
+- "initWithStyle:"
+- "insertContiguousSpecifiers:afterSpecifier:animated:"
+- "insertObject:atIndex:"
+- "insertSpecifier:afterSpecifier:animated:"
+- "internalHealthSettingsURLString"
+- "internalHealthSettingsURLTo:"
+- "isEditEnabled"
+- "isEmpty"
+- "isEqual:"
+- "isEqualToString:"
+- "isHealthChecklistAvailable"
+- "isKindOfClass:"
+- "isMedicalIDAvailable"
+- "isMemberOfClass:"
+- "isOrganDonationRegistrationAvailable"
+- "isPrimaryProfile"
+- "isProxy"
+- "isViewLoaded"
+- "lastObject"
+- "loadSpecifiersFromPlistName:target:bundle:"
+- "localizedCaseInsensitiveCompare:"
+- "localizedName"
+- "localizedStringForKey:value:table:"
+- "localizedStringFromPersonNameComponents:style:options:"
+- "localizedStringWithFormat:"
+- "makeWithSharedDiskHealthExperienceStoreWithHealthStore:"
+- "medicalIDViewControllerDidAppear:"
+- "medicalIDViewControllerDidCancel:"
+- "medicalIDViewControllerDidDelete:"
+- "medicalIDViewControllerDidFinish:"
+- "medicalIDViewControllerDidSave:"
+- "medicalIDViewControllerDidUpdate:"
+- "mutableCopy"
+- "name"
+- "nameComponents"
+- "navigationController"
+- "navigationController:animationControllerForOperation:fromViewController:toViewController:"
+- "navigationController:didShowViewController:animated:"
+- "navigationController:interactionControllerForAnimationController:"
+- "navigationController:willShowViewController:animated:"
+- "navigationControllerPreferredInterfaceOrientationForPresentation:"
+- "navigationControllerSupportedInterfaceOrientations:"
+- "navigationItem"
+- "numberOfSectionsInTableView:"
+- "numberWithBool:"
+- "objectAtIndexedSubscript:"
+- "objectForKeyedSubscript:"
+- "openHealthChecklist:"
+- "openSensitiveURL:withOptions:"
+- "parentController"
+- "parentViewController"
+- "path"
+- "pe_emitNavigationEventForApplicationSettingsWithApplicationBundleIdentifier:title:localizedNavigationComponents:deepLink:"
+- "pendingURLDictionary"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "predicateWithFormat:"
+- "preferenceSpecifierNamed:target:set:get:detail:cell:edit:"
+- "prepareHandlingURLForSpecifierID:resourceDictionary:animatePush:"
+- "prepareHandlingURLForSpecifierID:resourceDictionary:animatePush:withCompletion:"
+- "presentViewController:animated:completion:"
+- "presentationContext"
+- "primaryProfile"
+- "principalClass"
+- "profileIdentifier"
+- "profileStore"
+- "propertyForKey:"
+- "ps_insertObjectsFromArray:afterObject:"
+- "pushController:"
+- "pushController:animate:"
+- "pushViewController:animated:"
+- "q24@0:8@\"UINavigationController\"16"
+- "q24@0:8@16"
+- "q24@?0@\"PSSpecifier\"8@\"PSSpecifier\"16"
+- "q32@0:8@16q24"
+- "readPreferenceValue:"
+- "registerClass:forCellReuseIdentifier:"
+- "release"
+- "reloadSpecifiers"
+- "removeFromParentViewController"
+- "removeFromSuperview"
+- "removeObject:"
+- "removeObjectsInArray:"
+- "respondsToSelector:"
+- "resume"
+- "retain"
+- "retainCount"
+- "rootController"
+- "searchBundle"
+- "self"
+- "setAccessPoint:"
+- "setAccessType:"
+- "setAppPolicy:"
+- "setBackgroundColor:"
+- "setButtonAction:"
+- "setControllerLoadAction:"
+- "setDelegate:"
+- "setFamilyName:"
+- "setGivenName:"
+- "setHealthRecordsSpecifier:"
+- "setHealthSettingsProfile:"
+- "setHealthStore:"
+- "setIsDeletionAvailable:"
+- "setLocalizedName:"
+- "setMedicalID:"
+- "setMedicalIDData:"
+- "setMedicalIDStore:"
+- "setNameComponents:"
+- "setParentController:"
+- "setPendingURLDictionary:"
+- "setPreferenceValue:specifier:"
+- "setPreservesSuperviewLayoutMargins:"
+- "setProfileIdentifier:"
+- "setProperty:forKey:"
+- "setRestorationSourceBundleIdentifier:"
+- "setRightBarButtonItem:"
+- "setRootController:"
+- "setSettingsNavigationDonatingDelegate:"
+- "setSharedHealthDataIdentifiers:"
+- "setShouldShowDoneButton:"
+- "setShowsDeleteButton:"
+- "setSourceBundleIdentifier:"
+- "setSpecifier:"
+- "setText:"
+- "setTitle:"
+- "setTitle:forState:"
+- "setTitleView:"
+- "set_currentChildViewController:"
+- "set_medicalIDData:"
+- "set_medicalIDLoaded:"
+- "settingsNavigationDonatingDelegate"
+- "shared"
+- "sharedBehavior"
+- "sharedGuard"
+- "sharedHealthDataIdentifiers"
+- "sharedProfile"
+- "showController:"
+- "showController:animate:"
+- "showHealthRecords"
+- "showHealthRecords:"
+- "showMedicalID:"
+- "showOrganDonation:"
+- "showProfileCharacteristics:"
+- "showSharedProfileHealthSettings:"
+- "showSources:"
+- "showSourcesForPrimaryProfile:animated:restorationSourceBundleIdentifier:completion:"
+- "showViewController:sender:"
+- "sortUsingComparator:"
+- "sourcesViewControllerForPrimaryProfile:restorationSourceBundleIdentifier:"
+- "specifier"
+- "specifierForID:"
+- "specifiers"
+- "specifiersForPolicyOptions:force:"
+- "standardConfiguration"
+- "statusBarWillAnimateByHeight:"
+- "stringByAppendingPathComponent:"
+- "submitHealthEventWithDescription:requestInterval:"
+- "superclass"
+- "suspend"
+- "systemGroupedBackgroundColor"
+- "systemPolicyForApp:didUpdateForSystemPolicyOptions:withValue:"
+- "tableView"
+- "tableView:cellForRowAtIndexPath:"
+- "tableView:numberOfRowsInSection:"
+- "type"
+- "type = %d"
+- "v12@?0B8"
+- "v12@?0i8"
+- "v16@0:8"
+- "v16@?0@\"NSArray\"8"
+- "v20@0:8B16"
+- "v20@?0B8@\"NSError\"12"
+- "v24@0:8@\"<HKHealthSettingsNavigationDonating>\"16"
+- "v24@0:8@\"HKMedicalIDViewController\"16"
+- "v24@0:8@\"NSDictionary\"16"
+- "v24@0:8@\"NSString\"16"
+- "v24@0:8@\"PSRootController\"16"
+- "v24@0:8@\"PSSpecifier\"16"
+- "v24@0:8@\"UIViewController\"16"
+- "v24@0:8@\"UIViewController<PSController>\"16"
+- "v24@0:8@16"
+- "v24@0:8@?16"
+- "v24@0:8d16"
+- "v24@?0@\"NSArray\"8@\"NSError\"16"
+- "v24@?0@\"_HKMedicalIDData\"8@\"NSError\"16"
+- "v28@0:8@\"UIViewController\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"NSDictionary\"16@?<v@?>24"
+- "v32@0:8@\"NSMutableArray\"16@\"PSSearchEntry\"24"
+- "v32@0:8@\"NSURL\"16@\"NSString\"24"
+- "v32@0:8@16@\"PSSpecifier\"24"
+- "v32@0:8@16@24"
+- "v32@0:8@16@?24"
+- "v32@0:8q16@?24"
+- "v32@?0@\"NSString\"8@\"NSString\"16@\"NSError\"24"
+- "v36@0:8@\"UINavigationController\"16@\"UIViewController\"24B32"
+- "v36@0:8@16@24B32"
+- "v40@0:8@\"PSSystemPolicyForApp\"16Q24@32"
+- "v40@0:8@16Q24@32"
+- "v40@0:8B16B20@24@?32"
+- "v8@?0"
+- "validateSpecifier:"
+- "view"
+- "viewDidAppear:"
+- "viewDidLoad"
+- "viewIsAppearing:"
+- "willBecomeActive"
+- "willMoveToParentViewController:"
+- "willResignActive"
+- "willUnlock"
+- "window"
+- "x-apple-health://HealthChecklist?urlSource=HealthSettings"
+- "zone"
+
+```

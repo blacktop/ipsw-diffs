@@ -1,0 +1,443 @@
+## AppleAccountUI
+
+> `/System/Library/PrivateFrameworks/AppleAccountUI.framework/AppleAccountUI`
+
+```diff
+
+-540.1.0.0.0
+-  __TEXT.__text: 0x233af4
+-  __TEXT.__auth_stubs: 0x3980
++542.0.0.0.0
++  __TEXT.__text: 0x2571dc
++  __TEXT.__auth_stubs: 0x3ac0
+   __TEXT.__delay_stubs: 0x2c
+   __TEXT.__delay_helper: 0x110
+-  __TEXT.__objc_methlist: 0xb014
+-  __TEXT.__cstring: 0x9ead
+-  __TEXT.__const: 0xa5ae
+-  __TEXT.__gcc_except_tab: 0x16f8
+-  __TEXT.__oslogstring: 0xde1c
++  __TEXT.__objc_methlist: 0xb0a4
++  __TEXT.__cstring: 0xa29d
++  __TEXT.__const: 0xad04
++  __TEXT.__gcc_except_tab: 0x1698
++  __TEXT.__oslogstring: 0xe06c
+   __TEXT.__dlopen_cstrs: 0x4d6
+   __TEXT.__ustring: 0x4
+-  __TEXT.__constg_swiftt: 0x45c8
+-  __TEXT.__swift5_typeref: 0xff28
+-  __TEXT.__swift5_reflstr: 0x2416
+-  __TEXT.__swift5_fieldmd: 0x230c
+-  __TEXT.__swift5_types: 0x440
+-  __TEXT.__swift5_capture: 0x1c6c
+-  __TEXT.__swift5_assocty: 0xc98
+-  __TEXT.__swift5_proto: 0x594
+-  __TEXT.__swift_as_entry: 0xd0
+-  __TEXT.__swift_as_ret: 0xac
+-  __TEXT.__swift5_builtin: 0x1a4
++  __TEXT.__constg_swiftt: 0x47dc
++  __TEXT.__swift5_typeref: 0x111d4
++  __TEXT.__swift5_reflstr: 0x25c6
++  __TEXT.__swift5_fieldmd: 0x24fc
++  __TEXT.__swift5_types: 0x47c
++  __TEXT.__swift5_capture: 0x23cc
++  __TEXT.__swift5_assocty: 0xd10
++  __TEXT.__swift5_proto: 0x5f4
++  __TEXT.__swift_as_entry: 0xdc
++  __TEXT.__swift_as_ret: 0xbc
++  __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x52d0
+-  __TEXT.__eh_frame: 0x1078
+-  __TEXT.__objc_classname: 0x213b
+-  __TEXT.__objc_methname: 0x1acea
+-  __TEXT.__objc_methtype: 0x4e8c
+-  __TEXT.__objc_stubs: 0x13620
+-  __DATA_CONST.__got: 0x1bd8
+-  __DATA_CONST.__const: 0x3110
+-  __DATA_CONST.__objc_classlist: 0x7b8
++  __TEXT.__unwind_info: 0x54d0
++  __TEXT.__eh_frame: 0x12c8
++  __TEXT.__objc_classname: 0x2191
++  __TEXT.__objc_methname: 0x1af0e
++  __TEXT.__objc_methtype: 0x4ec0
++  __TEXT.__objc_stubs: 0x136a0
++  __DATA_CONST.__got: 0x1c40
++  __DATA_CONST.__const: 0x30b0
++  __DATA_CONST.__objc_classlist: 0x7c8
+   __DATA_CONST.__objc_catlist: 0x78
+-  __DATA_CONST.__objc_protolist: 0x360
++  __DATA_CONST.__objc_protolist: 0x368
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x6638
+-  __DATA_CONST.__objc_protorefs: 0xc0
+-  __DATA_CONST.__objc_superrefs: 0x460
++  __DATA_CONST.__objc_selrefs: 0x66c0
++  __DATA_CONST.__objc_protorefs: 0xc8
++  __DATA_CONST.__objc_superrefs: 0x468
+   __DATA_CONST.__objc_arraydata: 0xd8
+-  __AUTH_CONST.__auth_got: 0x1cd8
+-  __AUTH_CONST.__const: 0x7a90
+-  __AUTH_CONST.__cfstring: 0x4ba0
+-  __AUTH_CONST.__objc_const: 0x3b5f8
++  __AUTH_CONST.__auth_got: 0x1d78
++  __AUTH_CONST.__const: 0x8f90
++  __AUTH_CONST.__cfstring: 0x4bc0
++  __AUTH_CONST.__objc_const: 0x3b768
+   __AUTH_CONST.__objc_intobj: 0x78
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+-  __AUTH.__objc_data: 0x65b0
+-  __AUTH.__data: 0x2930
+-  __DATA.__objc_ivar: 0xbd0
+-  __DATA.__data: 0x570c
+-  __DATA.__bss: 0xbe48
++  __AUTH.__objc_data: 0x66b0
++  __AUTH.__data: 0x2960
++  __DATA.__objc_ivar: 0xbd8
++  __DATA.__data: 0x5a8c
++  __DATA.__bss: 0xca48
+   __DATA.__common: 0x4f0
+   __DATA_DIRTY.__objc_data: 0x2d0
+   __DATA_DIRTY.__bss: 0x48
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMapKit.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
++  - /usr/lib/swift/libswiftMetalKit.dylib
++  - /usr/lib/swift/libswiftModelIO.dylib
+   - /usr/lib/swift/libswiftNaturalLanguage.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D4F8FB74-629B-3E8F-AF97-E0B598EC9DD7
+-  Functions: 11035
+-  Symbols:   17296
+-  CStrings:  7913
++  UUID: 8369334C-8EE5-3451-A462-15802A0B8B32
++  Functions: 11431
++  Symbols:   17431
++  CStrings:  7993
+ 
+Symbols:
++ -[AAUIAccountMigrationHook authController]
++ -[AAUIAccountMigrationHook setAuthController:]
++ -[AAUIInvitePreviewMessageBubbleView .cxx_destruct]
++ -[AAUIInvitePreviewMessageBubbleView _inviteBalloonView:]
++ -[AAUIInvitePreviewMessageBubbleView _setupContentViewWithURLComponents:]
++ -[AAUIInvitePreviewMessageBubbleView initWithURLComponents:]
++ -[AAUIOBTrustedContactInviteMessageModel drawImage:withBadge:]
++ _AATrustedContactPreflightStatusCRKDoesNotExist
++ _AATrustedContactPreflightStatusCRKExists
++ _AATrustedContactPreflightStatusResultsDoNotExist
++ _AATrustedContactStatusDeclined
++ _AATrustedContactStatusIneligible
++ _AATrustedContactStatusNotDefined
++ _OBJC_CLASS_$_AACustodianInvitationResponseContext
++ _OBJC_CLASS_$_AACustodianshipInfo
++ _OBJC_CLASS_$_AATrustedContact
++ _OBJC_CLASS_$_AAUIInviteMessageViewFactory
++ _OBJC_CLASS_$_AAUIInvitePreviewMessageBubbleView
++ _OBJC_CLASS_$_AAUniversalLinkHelper
++ _OBJC_CLASS_$_CKColoredBalloonView
++ _OBJC_CLASS_$_NSURLComponents
++ _OBJC_IVAR_$_AAUIAccountMigrationHook._authController
++ _OBJC_IVAR_$_AAUIInvitePreviewMessageBubbleView._urlComponents
++ _OBJC_METACLASS_$_AAUIInviteMessageViewFactory
++ _OBJC_METACLASS_$_AAUIInvitePreviewMessageBubbleView
++ __CLASS_METHODS_AAUIInviteMessageViewFactory
++ __DATA_AAUIInviteMessageViewFactory
++ __INSTANCE_METHODS_AAUIInviteMessageViewFactory
++ __METACLASS_DATA_AAUIInviteMessageViewFactory
++ __OBJC_$_INSTANCE_METHODS_AAUIInvitePreviewMessageBubbleView
++ __OBJC_$_INSTANCE_VARIABLES_AAUIInvitePreviewMessageBubbleView
++ __OBJC_$_PROP_LIST_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_$_PROTOCOL_METHOD_TYPES_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_$_PROTOCOL_REFS_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_CLASS_RO_$_AAUIInvitePreviewMessageBubbleView
++ __OBJC_LABEL_PROTOCOL_$_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_METACLASS_RO_$_AAUIInvitePreviewMessageBubbleView
++ __OBJC_PROTOCOL_$_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ __OBJC_PROTOCOL_REFERENCE_$_AAOBTrustedContactUpsellInviteMessageModelProtocol
++ ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.98
++ ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.98.cold.1
++ ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.99
++ ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke_2.112
++ ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.100
++ ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.100.cold.1
++ ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.99
++ ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.99.cold.1
++ ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.87
++ ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.88
++ ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.89
++ ___79-[AAUISignInFlowController _presentValidationErrorAlert:forAccount:completion:]_block_invoke.157
++ ___82-[AAUISignInFlowController _promptToEnableFindMyIfPossibleWithAccount:completion:]_block_invoke.125
++ ___82-[AAUISignInFlowController _promptToEnableFindMyIfPossibleWithAccount:completion:]_block_invoke_2.130
++ ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.116
++ ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.117
++ ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.118
++ ___91-[AAUISignInFlowControllerDelegate signInFlowController:enableFindMyWithAction:completion:]_block_invoke.72
++ ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.95
++ ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.95.cold.1
++ ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.96
++ ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.96.cold.1
++ ___swift_memcpy11_8
++ ___swift_memcpy195_8
++ __swift_FORCE_LOAD_$_swiftMetalKit
++ __swift_FORCE_LOAD_$_swiftMetalKit_$_AppleAccountUI
++ __swift_FORCE_LOAD_$_swiftModelIO
++ __swift_FORCE_LOAD_$_swiftModelIO_$_AppleAccountUI
++ _associated conformance 14AppleAccountUI15InviteQueryItemOSHAASQ
++ _associated conformance 14AppleAccountUI17CustodianIconViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance 14AppleAccountUI17InviteMessageViewV05SwiftC00F0AA4BodyAdEP_AdE
++ _associated conformance So31AATrustedContactPreflightStatusaSHSCSQ
++ _associated conformance So31AATrustedContactPreflightStatusas20_SwiftNewtypeWrapperSCSY
++ _associated conformance So31AATrustedContactPreflightStatusas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
++ _block_copy_helper.107
++ _block_descriptor.109
++ _block_destroy_helper.108
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAeAE5sheet11isPresented0I7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQOyACyAeAE7gesture_9includingQrqd___AA11GestureMaskVtAA0U0Rd__lFQOyACyACyACyAA6VStackVyACy012AppleAccountB017BirthdayPickerRowVAA14_PaddingLayoutVGGAA25_AllowsHitTestingModifierVGA4_GAA24_BackgroundStyleModifierVyAA5ColorVGG_A0_0xyZ9PickerRowV07RowDragU0VQo_AA18_AnimationModifierVySbGG_A0_0Z11PickerSheetVQo__10Foundation4DateVQo__A0_0z9PickerRowE5ModelCQo_AA32_EnvironmentKeyTransformModifierVySbGGAaDHPqd0__AaDHD3_A35_HO_A38_AA0E8ModifierHPyHCHC.66
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA6VStackVyAA9TupleViewVyACy012AppleAccountB0013CustodianIconG0VAA31AccessibilityAttachmentModifierVG_AEyAGyAA4TextV_ACyAoA16_FixedSizeLayoutVGtGGAA012_ConditionalD0VyAVyAA05EmptyG0VAEyAGyAA7DividerV_AA10LabelGroupVyAGyAA6HStackVyAGyAO_AA5ImageVtGG_AOtGGtGGGAVyAVyA2_yAGyAA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQOyACyACyAA6ButtonVyAOGAA11_ClipEffectVyAA16RoundedRectangleVGGAA022_EnvironmentKeyWritingN0VyAA5ColorVSgGG_AA19BorderedButtonStyleVQo__A34_tGGA10_GA10_GGtGGAA08_PaddingR0VGA43_GA43_GAA010_FlexFrameR0VGAA016_BackgroundStyleN0VyA28_GGAAA12_HPA49_AAA12_HPA46_AAA12_HPA45_AAA12_HPA44_AAA12_HPA41_AAA12_HPyHC_A43_AA0gN0HPyHCHC_A43_AAA54_HPyHCHC_A43_AAA54_HPyHCHC_A48_AAA54_HPyHCHC_A52_AAA54_HPyHCHC.28
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA6HStackVyAA9TupleViewVyAA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQOyAA08ModifiedD0VyAMyAA0K0VyAA4TextVGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA08BorderedkI0VQo__A6_tGGAA6VStackVyAGyAA7DividerV_AA10LabelGroupVyAGyAEyAGyAQ_AA5ImageVtGG_AQtGGtGGGAaHHPA8_AaHHPyHC_A22_AaHHPyHCHC.31
++ _get_witness_table 7SwiftUI19_ConditionalContentVyACyAA9EmptyViewVAA6VStackVyAA05TupleF0VyAA7DividerV_AA10LabelGroupVyAIyAA6HStackVyAIyAA4TextV_AA5ImageVtGG_AQtGGtGGGACyACyAOyAIyAA0F0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQOyAA08ModifiedD0VyA4_yAA0R0VyAQGAA11_ClipEffectVyAA16RoundedRectangleVGGAA30_EnvironmentKeyWritingModifierVyAA5ColorVSgGG_AA08BorderedrP0VQo__A23_tGGAYGAYGGAAA_HPAzAA_HPAeAA_HPyHC_AyAA_HPyHCHC_A27_AAA_HPA26_AAA_HPA25_AAA_HPyHC_AyAA_HPyHCHC_AyAA_HPyHCHCHC.29
++ _get_witness_table 7SwiftUI6HStackVyAA9TupleViewVyAA15ModifiedContentVyAA5ImageVAA12_FrameLayoutVG_AA6SpacerVAA6ButtonVyAA4TextVGtGGAA0E0HPyHC.32
++ _get_witness_table 7SwiftUI6VStackVyAA9TupleViewVyAA7DividerV_AA10LabelGroupVyAEyAA6HStackVyAEyAA4TextV_AA5ImageVtGG_AMtGGtGGAA0E0HPyHC.30
++ _objc_msgSend$_inviteBalloonView:
++ _objc_msgSend$_setupContentViewWithURLComponents:
++ _objc_msgSend$authController
++ _objc_msgSend$createInviteMessageViewUIWithUrlComponents:
++ _objc_msgSend$drawImage:withBadge:
++ _objc_msgSend$initWithType:recipientHandle:messageURL:
++ _objc_msgSend$initWithURL:resolvingAgainstBaseURL:
++ _objc_msgSend$initWithURLComponents:
++ _objc_msgSend$setForceModalPresentation:
++ _symbolic SDy_____SSG 14AppleAccountUI15InviteQueryItemO
++ _symbolic SaySo16AATrustedContactCG
++ _symbolic SaySo19AACustodianshipInfoCG
++ _symbolic Say_____G 10Foundation12URLQueryItemV
++ _symbolic SccySaySo16AATrustedContactCG______pG s5ErrorP
++ _symbolic SccySaySo19AACustodianshipInfoCG______pG s5ErrorP
++ _symbolic So16AATrustedContactC
++ _symbolic So19AACustodianshipInfoC
++ _symbolic _____ 14AppleAccountUI15InviteQueryItemO
++ _symbolic _____ 14AppleAccountUI17CustodianIconViewV
++ _symbolic _____ 14AppleAccountUI17InviteMessageViewV
++ _symbolic _____ 14AppleAccountUI20InviteMessageDetailsV
++ _symbolic _____ 14AppleAccountUI24InviteMessageViewFactoryC
++ _symbolic _____ So22NSStringCompareOptionsV
++ _symbolic _____ So31AATrustedContactPreflightStatusa
++ _symbolic _____Iegr_ 10Foundation4UUIDV
++ _symbolic _____Sg 10Foundation6LocaleV
++ _symbolic ______SSt 14AppleAccountUI15InviteQueryItemO
++ _symbolic ___________y_____y_____yACy___________tGG_AEtGGt 7SwiftUI7DividerV AA10LabelGroupV AA9TupleViewV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____yAAyAAyAAyAAy_____y_____yAAy__________G_AByACy______AAyAG_____GtGG_____yALy_____AByACy___________yACy_____yACyAG______tGG_AGtGGtGGGALyALyAPyACy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG_____GA17_GA17_G_____G_____yA4_GG 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 012AppleAccountB0013CustodianIconG0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyG0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV AA08_PaddingR0V AA010_FlexFrameR0V AA016_BackgroundStyleN0V
++ _symbolic _____yAAyAAyAAy_____y_____yAAy__________G_AByACy______AAyAG_____GtGG_____yALy_____AByACy___________yACy_____yACyAG______tGG_AGtGGtGGGALyALyAPyACy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG_____GA17_GA17_G_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 012AppleAccountB0013CustodianIconG0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyG0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV AA08_PaddingR0V AA010_FlexFrameR0V
++ _symbolic _____yAAyAAy_____y_____yAAy__________G_AByACy______AAyAG_____GtGG_____yALy_____AByACy___________yACy_____yACyAG______tGG_AGtGGtGGGALyALyAPyACy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG_____GA17_GA17_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 012AppleAccountB0013CustodianIconG0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyG0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV AA08_PaddingR0V
++ _symbolic _____yAAy__________y_____y___________yADy_____yADy___________tGG_AHtGGtGGGAAyAAyAGyADy_____y_____yAQy_____yAHG_____y_____GG_____y_____SgGG______Qo__A2_tGGAOGAOGG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA6VStackV AA05TupleF0V AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV AA0F0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonP0Rd__lFQO AA08ModifiedD0V AA0R0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedrP0V
++ _symbolic _____yAAy_____y_____G_____y_____GG_____y_____SgGG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV
++ _symbolic _____yAAy_____y_____yAAy__________G_AByACy______AAyAG_____GtGG_____yALy_____AByACy___________yACy_____yACyAG______tGG_AGtGGtGGGALyALyAPyACy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG_____GA17_G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 012AppleAccountB0013CustodianIconG0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyG0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV AA08_PaddingR0V
++ _symbolic _____yAAy_____y_____y_____y_____yADy_____y_____G_____y_____GG_____y_____SgGG______Qo__ARtGG_____yACy___________yACyAByACyAF______tGG_AFtGGtGGGA2_G 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA08ModifiedD0V AA0K0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedkI0V AA6VStackV AA7DividerV AA10LabelGroupV AA5ImageV
++ _symbolic _____ySaySo16AATrustedContactCGG s16IndexingIteratorV
++ _symbolic _____ySaySo19AACustodianshipInfoCGG s16IndexingIteratorV
++ _symbolic _____y_____G 7SwiftUI19UIHostingControllerC 012AppleAccountB017InviteMessageViewV
++ _symbolic _____y_____G s16PartialRangeFromV SS5IndexV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV 012AppleAccountB017CustodianIconViewV AA31AccessibilityAttachmentModifierV
++ _symbolic _____y__________G___________y_____Gt 7SwiftUI15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA6SpacerV AA6ButtonV AA4TextV
++ _symbolic _____y__________G______y_____y______AAyAG_____GtGG_____yALy_____AEyAFy___________yAFy_____yAFyAG______tGG_AGtGGtGGGALyALyAPyAFy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGt 7SwiftUI15ModifiedContentV 012AppleAccountB017CustodianIconViewV AA31AccessibilityAttachmentModifierV AA6VStackV AA05TupleI0V AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyI0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0I0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingL0V AA5ColorV AA19BorderedButtonStyleV
++ _symbolic _____y___________tG 7SwiftUI9TupleViewV AA4TextV AA5ImageV
++ _symbolic _____y___________yAAy_____yAAy___________tGG_AEtGGtG 7SwiftUI9TupleViewV AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y___________yAB_____GtG 7SwiftUI9TupleViewV AA4TextV AA15ModifiedContentV AA16_FixedSizeLayoutV
++ _symbolic _____y___________y___________yACy_____yACy___________tGG_AGtGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y___________y_____y__________G___________y_____GtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA15ModifiedContentV AA5ImageV AA06_FrameG0V AA6SpacerV AA6ButtonV AA4TextV
++ _symbolic _____y___________y_____y__________G______yACy______ADyAI_____GtGG_____yANy_____AHyACy___________yACy_____yACyAI______tGG_AItGGtGGGANyANyARyACy_____yADyADy_____yAIG_____y_____GG_____y_____SgGG______Qo__A11_tGGAYGAYGGtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA15ModifiedContentV 012AppleAccountB0013CustodianIconD0V AA31AccessibilityAttachmentModifierV AA0F0V AA4TextV AA010_FixedSizeG0V AA012_ConditionalJ0V AA05EmptyD0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingQ0V AA5ColorV AA19BorderedButtonStyleV
++ _symbolic _____y___________y_____y_____yADy_____y_____G_____y_____GG_____y_____SgGG______Qo__ARtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA15ModifiedContentV AA0L0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedlJ0V
++ _symbolic _____y__________y_____y___________yADy_____yADy___________tGG_AHtGGtGGG 7SwiftUI19_ConditionalContentV AA9EmptyViewV AA6VStackV AA05TupleF0V AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y__________y_____y___________yADy_____yADy___________tGG_AHtGGtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA9EmptyViewV AA6VStackV AA05TupleG0V AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y_____yAAy___________tGG_ACtG 7SwiftUI9TupleViewV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y_____yAAy_____y_____G_____y_____GG_____y_____SgGG______Qo_ 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedgE0V
++ _symbolic _____y_____yAAy_____y_____G_____y_____GG_____y_____SgGG______Qo__AOt 7SwiftUI4ViewPAAE11buttonStyleyQrqd__AA015PrimitiveButtonE0Rd__lFQO AA15ModifiedContentV AA0G0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedgE0V
++ _symbolic _____y_____y_____G_____y_____GG 7SwiftUI15ModifiedContentV AA6ButtonV AA4TextV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____y__________G___________y_____GtG 7SwiftUI9TupleViewV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA6SpacerV AA6ButtonV AA4TextV
++ _symbolic _____y_____y__________G______yAAy______AByAG_____GtGG_____yALy_____AFyAAy___________yAAy_____yAAyAG______tGG_AGtGGtGGGALyALyAPyAAy_____yAByABy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtG 7SwiftUI9TupleViewV AA15ModifiedContentV 012AppleAccountB0013CustodianIconD0V AA31AccessibilityAttachmentModifierV AA6VStackV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalF0V AA05EmptyD0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0D0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingM0V AA5ColorV AA19BorderedButtonStyleV
++ _symbolic _____y_____y___________tGG 7SwiftUI6HStackV AA9TupleViewV AA4TextV AA5ImageV
++ _symbolic _____y_____y___________yABy_____yABy___________tGG_AFtGGtGG 7SwiftUI6VStackV AA9TupleViewV AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y_____y___________yAC_____GtGG 7SwiftUI6VStackV AA9TupleViewV AA4TextV AA15ModifiedContentV AA16_FixedSizeLayoutV
++ _symbolic _____y_____y__________y_____y___________yAEy_____yAEy___________tGG_AItGGtGGGAByAByAHyAEy_____y_____yARy_____yAIG_____y_____GG_____y_____SgGG______Qo__A3_tGGAPGAPG_G 7SwiftUI19_ConditionalContentV7StorageO AC AA9EmptyViewV AA6VStackV AA05TupleG0V AA7DividerV AA10LabelGroupV AA6HStackV AA4TextV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonQ0Rd__lFQO AA08ModifiedD0V AA0S0V AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedsQ0V
++ _symbolic _____y_____y_____yAAy__________G_AByACy______AAyAG_____GtGG_____yALy_____AByACy___________yACy_____yACyAG______tGG_AGtGGtGGGALyALyAPyACy_____yAAyAAy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV 012AppleAccountB0013CustodianIconG0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalD0V AA05EmptyG0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0G0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV AA08_PaddingR0V
++ _symbolic _____y_____y_____yABy___________tGG_ADtGG 7SwiftUI10LabelGroupV AA9TupleViewV AA6HStackV AA4TextV AA5ImageV
++ _symbolic _____y_____y_____yABy_____y_____G_____y_____GG_____y_____SgGG______Qo__APtG 7SwiftUI9TupleViewV AA0D0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonF0Rd__lFQO AA15ModifiedContentV AA0H0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedhF0V
++ _symbolic _____y_____y_____y__________G_AAyABy______ACyAG_____GtGG_____yALy_____AAyABy___________yABy_____yAByAG______tGG_AGtGGtGGGALyALyAPyABy_____yACyACy_____yAGG_____y_____GG_____y_____SgGG______Qo__A9_tGGAWGAWGGtGG 7SwiftUI6VStackV AA9TupleViewV AA15ModifiedContentV 012AppleAccountB0013CustodianIconE0V AA31AccessibilityAttachmentModifierV AA4TextV AA16_FixedSizeLayoutV AA012_ConditionalG0V AA05EmptyE0V AA7DividerV AA10LabelGroupV AA6HStackV AA5ImageV AA0E0PAAE11buttonStyleyQrqd__AA20PrimitiveButtonStyleRd__lFQO AA6ButtonV AA11_ClipEffectV AA16RoundedRectangleV AA022_EnvironmentKeyWritingN0V AA5ColorV AA19BorderedButtonStyleV
++ _symbolic _____y_____y_____y__________G___________y_____GtGG 7SwiftUI6HStackV AA9TupleViewV AA15ModifiedContentV AA5ImageV AA12_FrameLayoutV AA6SpacerV AA6ButtonV AA4TextV
++ _symbolic _____y_____y_____y_____yAAy_____yAAyAAyAAy_____yAAy__________GG_____GADG_____y_____GG______Qo______ySbGG______Qo_______Qo_______Qo______ySbGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQO AeAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAE5sheet11isPresented0I7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaDRd__lFQO AeAE7gesture_9includingQrqd___AA11GestureMaskVtAA0U0Rd__lFQO AA6VStackV 012AppleAccountB017BirthdayPickerRowV AA14_PaddingLayoutV AA25_AllowsHitTestingModifierV AA24_BackgroundStyleModifierV AA5ColorV A0_0xyZ9PickerRowV07RowDragU0V AA18_AnimationModifierV A0_0Z11PickerSheetV 10Foundation4DateV A0_0z9PickerRowE5ModelC AA32_EnvironmentKeyTransformModifierV
++ _symbolic _____y_____y_____y_____yACy_____y_____G_____y_____GG_____y_____SgGG______Qo__AQtGG 7SwiftUI6HStackV AA9TupleViewV AA0E0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonG0Rd__lFQO AA15ModifiedContentV AA0I0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderediG0V
++ _symbolic _____y_____y_____y_____y_____yADy_____y_____G_____y_____GG_____y_____SgGG______Qo__ARtGG_____yACy___________yACyAByACyAF______tGG_AFtGGtGGG 7SwiftUI19_ConditionalContentV AA6HStackV AA9TupleViewV AA0G0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonI0Rd__lFQO AA08ModifiedD0V AA0K0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedkI0V AA6VStackV AA7DividerV AA10LabelGroupV AA5ImageV
++ _symbolic _____y_____y_____y_____y_____yADy_____y_____G_____y_____GG_____y_____SgGG______Qo__ARtGG_____yACy___________yACyAByACyAF______tGG_AFtGGtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA6HStackV AA9TupleViewV AA0H0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA08ModifiedD0V AA0L0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedlJ0V AA6VStackV AA7DividerV AA10LabelGroupV AA5ImageV
++ _symbolic _____y_____y_____y_____y_____y_____yAEy_____y_____G_____y_____GG_____y_____SgGG______Qo__AStGG_____yADy___________yADyACyADyAG______tGG_AGtGGtGGGA3__G 7SwiftUI19_ConditionalContentV7StorageO AC AA6HStackV AA9TupleViewV AA0H0PAAE11buttonStyleyQrqd__AA015PrimitiveButtonJ0Rd__lFQO AA08ModifiedD0V AA0L0V AA4TextV AA11_ClipEffectV AA16RoundedRectangleV AA30_EnvironmentKeyWritingModifierV AA5ColorV AA08BorderedlJ0V AA6VStackV AA7DividerV AA10LabelGroupV AA5ImageV
++ _type_layout_string 14AppleAccountUI17InviteMessageViewV
++ _type_layout_string 14AppleAccountUI20InviteMessageDetailsV
+- +[AAUIFeatureFlags isSignInSecurityRedesignEnabled]
+- +[AAUIFeatureFlags isSignInSecurityRedesignEnabled].cold.1
+- +[AAUIFeatureFlags isSignInSecurityRedesignMacOSEnabled]
+- +[AAUIFeatureFlags isSignInSecurityRedesignMacOSEnabled].cold.1
+- -[AAUIAccountMigrationHook _invokeShieldMigrationFlowWithPendingDOB:completion:].cold.3
+- ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.92
+- ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.92.cold.1
+- ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke.93
+- ___103-[AAUISignInFlowController _verifyLoginResponseForiCloudAccount:withSuccess:response:error:completion:]_block_invoke_2.106
+- ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.93
+- ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.93.cold.1
+- ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.94
+- ___115-[AAUISignInFlowControllerDelegate signInFlowController:presentAccountPrivacyOptinForAccount:userActionCompletion:]_block_invoke.94.cold.1
+- ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.76
+- ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.81
+- ___75-[AAUISignInFlowController signInWithIDMSAuthenticationResults:completion:]_block_invoke.83
+- ___79-[AAUISignInFlowController _presentValidationErrorAlert:forAccount:completion:]_block_invoke.151
+- ___82-[AAUISignInFlowController _promptToEnableFindMyIfPossibleWithAccount:completion:]_block_invoke.119
+- ___82-[AAUISignInFlowController _promptToEnableFindMyIfPossibleWithAccount:completion:]_block_invoke_2.124
+- ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.110
+- ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.111
+- ___82-[AAUISignInFlowController _validateCDPStateForAccount:withCDPContext:completion:]_block_invoke.112
+- ___91-[AAUISignInFlowControllerDelegate signInFlowController:enableFindMyWithAction:completion:]_block_invoke.66
+- ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.89
+- ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.89.cold.1
+- ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.90
+- ___98-[AAUISignInFlowControllerDelegate signInFlowController:presentProgressViewForAccount:completion:]_block_invoke.90.cold.1
+- ___block_descriptor_72_e8_32s40s48bs56r64w_e20_v20?0B8"NSError"12ls32l8w64l8r56l8s40l8s48l8
+- ___block_descriptor_72_e8_32s40s48w56w_e20_v20?0B8"NSError"12lw48l8w56l8s32l8s40l8
+- ___swift_memcpy10_8
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_AppleAccountUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AppleAccountUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AppleAccountUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AppleAccountUI
+- _get_witness_table qd0__7SwiftUI4ViewHD3_AaBPAAE11environmentyQrqd__SgRld__C11Observation10ObservableRd__lFQOyAcAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAcAE5sheet11isPresented0G7Dismiss7contentQrAA7BindingVySbG_yycSgqd__yctAaBRd__lFQOyAA15ModifiedContentVyAcAE7gesture_9includingQrqd___AA11GestureMaskVtAA0U0Rd__lFQOyATyATyATyAA6VStackVyATy012AppleAccountB017BirthdayPickerRowVAA14_PaddingLayoutVGGAA25_AllowsHitTestingModifierVGA4_GAA24_BackgroundStyleModifierVyAA5ColorVGG_A0_0xyZ9PickerRowV07RowDragU0VQo_AA18_AnimationModifierVySbGG_A0_0Z11PickerSheetVQo__10Foundation4DateVQo__A0_0z9PickerRowC5ModelCQo_HO.66
+- _objc_msgSend$_presentWithBasePresentationMode:fromCurrentViewController:completion:
+- _objc_msgSend$aa_setPendingDOB:
+- _objc_msgSend$initWithAccountManager:highlightRowIdentifier:
+- _objc_msgSend$isSignInSecurityRedesignEnabled
+- _objc_msgSend$saveVerifiedAccount:error:
+CStrings:
++ "@\"NSURL\"16@0:8"
++ "@\"NSURLComponents\""
++ "AAOBTrustedContactUpsellInviteMessageModelProtocol"
++ "AAUIInviteMessageViewFactory"
++ "AAUIInvitePreviewMessageBubbleView"
++ "AppleAccountUI/InviteMessageView.swift"
++ "Building message.."
++ "Evaluating Manatee availability"
++ "Failed to init CDPStateController"
++ "InvalidStatus"
++ "LEARN_MORE_CUSTODIAN"
++ "MISSING_RECORD_SUBTITLE"
++ "MISSING_RECORD_TITLE"
++ "Manatee available"
++ "Manatee not available,Inline accept unavailable"
++ "Manatee unavailable"
++ "Message is in compose screen, return message with minimal details"
++ "No"
++ "Presenting Legacy Contacts UI"
++ "Presenting Recovery Contacts UI"
++ "RC_UPSELL_PRIMARY_BUTTON_FAMILY"
++ "RECEIVER_REQUEST_ACCEPTED"
++ "RECEIVER_REQUEST_ACCEPTED_SUBTITLE"
++ "RECEIVER_REQUEST_DECLINE"
++ "RECEIVER_REQUEST_DECLINE_SUBTITLE"
++ "Range cannot have an unordered lower bound."
++ "SENDER_REQUEST_ACCEPTED"
++ "SENDER_REQUEST_ACCEPTED_SUBTITLE"
++ "SENDER_REQUEST_DECLINED"
++ "SENDER_REQUEST_DECLINE_SUBTITLE"
++ "SENDER_REQUEST_SENT"
++ "SENDER_REQUEST_SENT_SUBTITLE"
++ "T@\"AKAppleIDAuthenticationController\",&,N,V_authController"
++ "T@\"NSURL\",C,N"
++ "Unknown"
++ "Yes"
++ "]"
++ "] ["
++ "] [CanHelpRecover:"
++ "_inviteBalloonView:"
++ "_setupContentViewWithURLComponents:"
++ "_urlComponents"
++ "acceptButtonLabel"
++ "accepted"
++ "acceptedButtonLabel"
++ "addButton"
++ "authController"
++ "ckShareAccepted"
++ "createInviteMessageViewUIWithUrlComponents:"
++ "declineButtonLabel"
++ "declined"
++ "declinedButtonLabel"
++ "disabled"
++ "drawImage:withBadge:"
++ "fetchCustodianshipInfoWithCompletion:"
++ "fetchMyCustodianshipOwners : %s"
++ "fetchTrustedContacts : %s"
++ "fetchTrustedContactsWithCompletion:"
++ "forceModalPresentation"
++ "handleInvite : %{bool}d"
++ "idmsFinal"
++ "idmsPending"
++ "ineligible"
++ "initWithCustodianID:didAccept:"
++ "initWithType:recipientHandle:messageURL:"
++ "initWithURL:resolvingAgainstBaseURL:"
++ "initWithURLComponents:"
++ "mailto:"
++ "messageSubTitle"
++ "messageTitle"
++ "noCKShare"
++ "open default accept flow"
++ "pending"
++ "preflightStatus"
++ "questionmark.circle.fill"
++ "respondToCustodianRequest : %s"
++ "respondToCustodianRequestWithResponse:completion:"
++ "senderHandle"
++ "setAuthController:"
++ "setForceModalPresentation:"
++ "setMessageURL:"
++ "status"
++ "statusDescription"
++ "stringForCustodianMessagesURLWithUUID:"
++ "systemGray5Color"
++ "trustedContact Message message.senderHandle %s , message.recipientHandle: %s , message.isSender : %{bool}d message.custodianUID :%s"
++ "trustedContact is a match message.isSender = true %s %s %s %s %s %s"
++ "trustedContactOwner is a match %s %s %s"
++ "unknown"
++ "unreachable"
++ "v24@0:8@\"NSURL\"16"
+- "AuthKit"
+- "AuthKit/SignInSecurityRedesign is disabled."
+- "AuthKit/SignInSecurityRedesign=%d"
+- "Failed to save account after setting pendingDOB: %@"
+- "Presenting new Legacy Contacts UI"
+- "Presenting new Recovery Contacts UI"
+- "SignInSecurityRedesign"
+- "add"
+- "isSignInSecurityRedesignEnabled"
+- "isSignInSecurityRedesignMacOSEnabled"
+- "no name"
+- "saveVerifiedAccount:error:"
+
+```

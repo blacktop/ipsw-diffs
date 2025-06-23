@@ -1,0 +1,210 @@
+## libswift_DarwinFoundation1.dylib
+
+> `/usr/lib/swift/libswift_DarwinFoundation1.dylib`
+
+```diff
+
+-346.0.0.0.0
++347.0.3.0.0
+   __TEXT.__text: 0x236c
+   __TEXT.__auth_stubs: 0x4e0
+-  __TEXT.__const: 0x198
++  __TEXT.__const: 0x1a0
+   __TEXT.__swift5_typeref: 0x19
+   __TEXT.__swift5_reflstr: 0x9
+   __TEXT.__swift5_assocty: 0x18
+
+   __AUTH_CONST.__const: 0x20
+   __DATA.__data: 0x30
+   __DATA.__bss: 0x180
+-  __DATA.__common: 0x1
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+-  UUID: D4FD6BBC-D5A4-3A1F-821B-8CC802721CAA
++  UUID: 472FA031-07FC-3905-9A43-6700C46DE89D
+   Functions: 106
+-  Symbols:   262
++  Symbols:   66
+   CStrings:  2
+ 
+Symbols:
+- _$s18IntegerLiteralTypes013ExpressibleByaB0PTl
+- _$s6Darwin10fpclassifyySixSFRzlF
+- _$s6Darwin14POSIXErrorCodeO10EOPNOTSUPPACvgZ
+- _$s6Darwin14POSIXErrorCodeO10EOPNOTSUPPACvpZMV
+- _$s6Darwin14POSIXErrorCodeO11EWOULDBLOCKACvgZ
+- _$s6Darwin14POSIXErrorCodeO11EWOULDBLOCKACvpZMV
+- _$s6Darwin14POSIXErrorCodeO5ELASTACvgZ
+- _$s6Darwin14POSIXErrorCodeO5ELASTACvpZMV
+- _$s6Darwin14POSIXErrorCodeO8rawValueACSgs5Int32V_tcfC
+- _$s6Darwin14POSIXErrorCodeO8rawValueACSgs5Int32V_tcfCTf4nd_n
+- _$s6Darwin14POSIXErrorCodeO8rawValues5Int32Vvg
+- _$s6Darwin14POSIXErrorCodeO8rawValues5Int32VvpMV
+- _$s6Darwin14POSIXErrorCodeOACSQAAWL
+- _$s6Darwin14POSIXErrorCodeOACSQAAWl
+- _$s6Darwin14POSIXErrorCodeOMB
+- _$s6Darwin14POSIXErrorCodeOMa
+- _$s6Darwin14POSIXErrorCodeOMf
+- _$s6Darwin14POSIXErrorCodeOMn
+- _$s6Darwin14POSIXErrorCodeON
+- _$s6Darwin14POSIXErrorCodeOSHAAMc
+- _$s6Darwin14POSIXErrorCodeOSHAAMcMK
+- _$s6Darwin14POSIXErrorCodeOSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s6Darwin14POSIXErrorCodeOSHAASH4hash4intoys6HasherVz_tFTW
+- _$s6Darwin14POSIXErrorCodeOSHAASH9hashValueSivgTW
+- _$s6Darwin14POSIXErrorCodeOSHAASQWb
+- _$s6Darwin14POSIXErrorCodeOSQAAMc
+- _$s6Darwin14POSIXErrorCodeOSQAAMcMK
+- _$s6Darwin14POSIXErrorCodeOSQAASQ2eeoiySbx_xtFZTW
+- _$s6Darwin14POSIXErrorCodeOSYAAMA
+- _$s6Darwin14POSIXErrorCodeOSYAAMc
+- _$s6Darwin14POSIXErrorCodeOSYAAMcMK
+- _$s6Darwin14POSIXErrorCodeOSYAASY8rawValue03RawE0QzvgTW
+- _$s6Darwin14POSIXErrorCodeOSYAASY8rawValuexSg03RawE0Qz_tcfCTW
+- _$s6Darwin2jnySdSi_SdtF
+- _$s6Darwin2jnySdSi_SdtFTm
+- _$s6Darwin2ynySdSi_SdtF
+- _$s6Darwin3cosyS2dF
+- _$s6Darwin3cosyS2fF
+- _$s6Darwin3erfyS2fF
+- _$s6Darwin3expyS2dF
+- _$s6Darwin3expyS2fF
+- _$s6Darwin3fmayxx_xxtSFRzlF
+- _$s6Darwin3logyS2dF
+- _$s6Darwin3logyS2fF
+- _$s6Darwin3nanySfSSF
+- _$s6Darwin3powyS2f_SftF
+- _$s6Darwin3sinyS2dF
+- _$s6Darwin3sinyS2fF
+- _$s6Darwin3tanyS2fF
+- _$s6Darwin4M_PISdvg
+- _$s6Darwin4acosyS2fF
+- _$s6Darwin4asinyS2fF
+- _$s6Darwin4atanyS2fF
+- _$s6Darwin4cbrtyS2fF
+- _$s6Darwin4ceilyxxSFRzlF
+- _$s6Darwin4ceilyxxSFRzlFTm
+- _$s6Darwin4coshyS2fF
+- _$s6Darwin4erfcyS2fF
+- _$s6Darwin4exp2yS2dF
+- _$s6Darwin4exp2yS2fF
+- _$s6Darwin4fabsyxxSFRzlF
+- _$s6Darwin4fdimyS2f_SftF
+- _$s6Darwin4fmaxyS2f_SftF
+- _$s6Darwin4fminyS2f_SftF
+- _$s6Darwin4fmodyxx_xtSFRzlF
+- _$s6Darwin4log2yS2dF
+- _$s6Darwin4log2yS2fF
+- _$s6Darwin4logbyS2fF
+- _$s6Darwin4modfyx_xtxSFRzlF
+- _$s6Darwin4rintyS2dF
+- _$s6Darwin4rintyS2fF
+- _$s6Darwin4sinhyS2fF
+- _$s6Darwin4sqrtyxxSFRzlF
+- _$s6Darwin4tanhyS2fF
+- _$s6Darwin5acoshyS2fF
+- _$s6Darwin5asinhyS2fF
+- _$s6Darwin5atan2yS2f_SftF
+- _$s6Darwin5atanhyS2fF
+- _$s6Darwin5errnos5Int32VvM
+- _$s6Darwin5errnos5Int32VvM.resume.0
+- _$s6Darwin5errnos5Int32Vvg
+- _$s6Darwin5errnos5Int32Vvs
+- _$s6Darwin5expm1yS2fF
+- _$s6Darwin5flooryxxSFRzlF
+- _$s6Darwin5frexpyx_SitxSBRzlF
+- _$s6Darwin5hypotyS2f_SftF
+- _$s6Darwin5ilogbySixSBRzlF
+- _$s6Darwin5isinfySbxSFRzlF
+- _$s6Darwin5isnanySbxSFRzlF
+- _$s6Darwin5ldexpyS2d_SitF
+- _$s6Darwin5ldexpyS2f_SitF
+- _$s6Darwin5log10yS2dF
+- _$s6Darwin5log10yS2fF
+- _$s6Darwin5log1pyS2fF
+- _$s6Darwin5roundyxxSFRzlF
+- _$s6Darwin5truncyxxSFRzlF
+- _$s6Darwin6M_PI_2Sdvg
+- _$s6Darwin6M_PI_4Sdvg
+- _$s6Darwin6lgammaySd_SitSdF
+- _$s6Darwin6lgammaySf_SitSfF
+- _$s6Darwin6remquoySd_SitSd_SdtF
+- _$s6Darwin6remquoySf_SitSf_SftF
+- _$s6Darwin6scalbnyxx_SitSFRzlF
+- _$s6Darwin6tgammayS2fF
+- _$s6Darwin7M_SQRT2Sdvg
+- _$s6Darwin7M_SQRT2SdvgTm
+- _$s6Darwin7M_SQRT2Sdvp
+- _$s6Darwin7M_SQRT2_WZ
+- _$s6Darwin7M_SQRT2_Wz
+- _$s6Darwin7signbitySixSFRzlF
+- _$s6Darwin8copysignyS2f_SftF
+- _$s6Darwin8isfiniteySbxSFRzlF
+- _$s6Darwin8isnormalySbxSFRzlF
+- _$s6Darwin9M_SQRT1_2Sdvg
+- _$s6Darwin9M_SQRT1_2Sdvp
+- _$s6Darwin9M_SQRT1_2_WZ
+- _$s6Darwin9M_SQRT1_2_Wz
+- _$s6Darwin9nearbyintyS2dF
+- _$s6Darwin9nearbyintyS2fF
+- _$s6Darwin9nextafteryS2f_SftF
+- _$s6Darwin9remainderyxx_xtSFRzlF
+- _$s6DarwinMXM
+- _$s8ExponentSFTl
+- _$s8RawValueSYTl
+- _$sBi32_WV
+- _$sS2iSzsWL
+- _$sS2iSzsWl
+- _$sSF10squareRootxyFTj
+- _$sSF11significandxvgTj
+- _$sSF13addingProductyxx_xtFTj
+- _$sSF19truncatingRemainder10dividingByxx_tFTj
+- _$sSF1doiyxx_xtFZTj
+- _$sSF4sign8exponent11significandxs17FloatingPointSignO_8ExponentQzxtcfCTj
+- _$sSF7roundedyxs25FloatingPointRoundingRuleOFTj
+- _$sSF8ExponentSF_SZTn
+- _$sSF8exponent8ExponentQzvgTj
+- _$sSF8isFiniteSbvgTj
+- _$sSF9remainder10dividingByxx_tFTj
+- _$sSFTL
+- _$sSH13_rawHashValue4seedS2i_tFTq
+- _$sSH4hash4intoys6HasherVz_tFTq
+- _$sSH9hashValueSivgTq
+- _$sSHMp
+- _$sSHSQTb
+- _$sSL1loiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTj
+- _$sSQ2eeoiySbx_xtFZTq
+- _$sSQMp
+- _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+- _$sSY8rawValue03RawB0QzvgTq
+- _$sSY8rawValuexSg03RawB0Qz_tcfCTq
+- _$sSYMp
+- _$sSd4sign8exponent11significandSds17FloatingPointSignO_SiSdtcfCTf4nnnd_n
+- _$sSf4sign8exponent11significandSfs17FloatingPointSignO_SiSftcfCTf4nnnd_n
+- _$sSiN
+- _$sSiSzsMc
+- _$sSj9magnitude9MagnitudeQzvgTj
+- _$sSz18truncatingIfNeededxqd___tcSzRd__lufCTj
+- _$sSz8_lowWordSuvgTj
+- _$sSz8bitWidthSivgTj
+- _$sSz8isSignedSbvgZTj
+- _$sSzyxqd__cSzRd__lufCTj
+- _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+- _$ss18AdditiveArithmeticP1poiyxx_xtFZTj
+- _$ss18AdditiveArithmeticP1soiyxx_xtFZTj
+- _$ss25FloatingPointRoundingRuleO10towardZeroyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO23toNearestOrAwayFromZeroyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO2upyA2BmFWC
+- _$ss25FloatingPointRoundingRuleO4downyA2BmFWC
+- _$ss25FloatingPointRoundingRuleOMa
+- _$ss27ExpressibleByIntegerLiteralP07integerD0x0cD4TypeQz_tcfCTj
+- _$ss27ExpressibleByIntegerLiteralP0cD4TypeAB_s01_ab7BuiltincD0Tn
+- _$ss27ExpressibleByIntegerLiteralTL
+- _$ss35_ExpressibleByBuiltinIntegerLiteralP08_builtindE0xBI_tcfCTj
+- _$ss5Int32VMn
+- _$ss6HasherV5_seedABSi_tcfC
+- _$ss6HasherV8_combineyys6UInt32VF
+- _$ss6HasherV9_finalizeSiyF
+
+```

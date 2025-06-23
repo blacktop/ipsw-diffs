@@ -1,0 +1,107 @@
+## PaymentUIBase
+
+> `/System/Library/PrivateFrameworks/PaymentUIBase.framework/PaymentUIBase`
+
+```diff
+
+-1619.6.3.0.0
+-  __TEXT.__text: 0x2ccb8
+-  __TEXT.__auth_stubs: 0x1560
++1622.6.0.0.0
++  __TEXT.__text: 0x2d49c
++  __TEXT.__auth_stubs: 0x1540
+   __TEXT.__objc_methlist: 0x30c
+   __TEXT.__const: 0x2794
+-  __TEXT.__cstring: 0xc34
++  __TEXT.__cstring: 0xc84
+   __TEXT.__constg_swiftt: 0x129c
+-  __TEXT.__swift5_typeref: 0x18a1
++  __TEXT.__swift5_typeref: 0x1951
+   __TEXT.__swift5_fieldmd: 0x9dc
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__swift5_types: 0xb8
+
+   __TEXT.__swift5_assocty: 0x3d8
+   __TEXT.__swift5_proto: 0xf4
+   __TEXT.__swift5_capture: 0x184
+-  __TEXT.__oslogstring: 0xdd
++  __TEXT.__oslogstring: 0x4d
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__unwind_info: 0xbd8
+   __TEXT.__objc_classname: 0x7a
+-  __TEXT.__objc_methname: 0x941
++  __TEXT.__objc_methname: 0x927
+   __TEXT.__objc_methtype: 0x40d
+   __DATA_CONST.__got: 0x3c0
+-  __DATA_CONST.__const: 0x440
++  __DATA_CONST.__const: 0x420
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x328
++  __DATA_CONST.__objc_selrefs: 0x320
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __AUTH_CONST.__auth_got: 0xab0
++  __AUTH_CONST.__auth_got: 0xaa0
+   __AUTH_CONST.__const: 0x12e0
+   __AUTH_CONST.__objc_const: 0x7f8
+   __AUTH.__objc_data: 0xc0
+   __AUTH.__data: 0x250
+-  __DATA.__data: 0xc70
++  __DATA.__data: 0xc80
+   __DATA.__bss: 0x1660
+   __DATA.__common: 0x18
+   __DATA_DIRTY.__objc_data: 0xf0
+
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3BEC6780-7479-3B94-96C8-3C68D140DCA6
++  UUID: 9B4F5F21-D611-38AB-B5B5-39292805BB05
+   Functions: 1470
+-  Symbols:   645
+-  CStrings:  259
++  Symbols:   638
++  CStrings:  256
+ 
+Symbols:
++ _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_AaBR1_r2_lAA19_ConditionalContentVyAA6VStackVyAA05TupleC0VyADyADyAA6ButtonVyAA08ModifiedE0VyALyALyALyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAFyAHyALyAA6HStackVyAHyASyAHyALyAmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQOyALyxAA12_FrameLayoutVG_Qo_AA0M18AttachmentModifierVG_ALyq_AA05_FlexuV0VGtGG_ASyAHyq0_Sg_13PaymentUIBase09AccessoryC0VtGGSgtGGAA08_PaddingV0VG_AHyAmAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyALyAA7DividerVA17_G_AA8SolariumVALyA24_A17_GQo__ALyAmAEAnOQrAQ_tFQOyALyALyALyALyq1_A3_GA17_GA17_GA17_G_Qo_A0_GtGSgtGG_Qo_A0_GA3_GAA011_BackgroundX0VyAA14GeometryReaderVyAmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyALyAA5ColorVAA017_AppearanceActionX0VG_12CoreGraphics7CGFloatVQo_GGGAA11_ClipEffectVyAA16RoundedRectangleVGGGAmAE12onTapGesture5count7performQrSi_yyctFQOyA66__Qo_GA66_G_A23_tGGA73_GAaBHPA75_AaBHPyHC_A73_AaBHPA72_AaBHPA67_AaBHPyHC_qd__AaBHD2_A71_HOHC_A66_AaBHPA60_AaBHPA41_AaBHPA40_AaBHPqd__AaBHD2_A39_HO_A0_AA0cX0HPyHCHC_A3_AAA77_HPyHCHC_A59_AAA77_HPyHCHC_A65_AAA77_HPyHCHCHCHC.16
++ _get_witness_table qd0__7SwiftUI4ViewHD4_AaBPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyAA15ModifiedContentVyAHyAHyAHyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAJ5ScaleOGGALyAA4FontVSgGGALyAA5ColorVSgGGAA14_PaddingLayoutVG_AA8SolariumVAcAE15dynamicTypeSizeyQrAA07DynamicwX0OFQOyA1__Qo_Qo_HO.18
++ _objectdestroy.18Tm
++ _symbolic _____y_____yAAyAAyAAy__________y_____GGACy_____SgGGACy_____SgGG_____G_Qo_ 7SwiftUI4ViewPAAE15dynamicTypeSizeyQrAA07DynamiceF0OFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ5ScaleO AA4FontV AA5ColorV AA14_PaddingLayoutV
++ _symbolic _____y_____yAAyAAyAAy__________y_____GGACy_____SgGGACy_____SgGG_____G___________yAP_Qo_Qo_ 7SwiftUI4ViewPAAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQO AA15ModifiedContentV AA5ImageV AA30_EnvironmentKeyWritingModifierV AJ5ScaleO AA4FontV AA5ColorV AA14_PaddingLayoutV AA8SolariumV AcAE15dynamicTypeSizeyQrAA07DynamicwX0OFQO
++ _symbolic _____y_____y_____yAAyAAy_____y_____yAEyAEyAEy_____yAByACyAEy_____yACyAFyACyAEy_____yAEyx_____G_Qo______G_AEyq______GtGG_AFyACyq0_Sg______tGGSgtGG_____G_ACy_____yAEy_____AWG______AEyAzWGQo__AEy_____yAEyAEyAEyAEyq1_ALGAWGAWGAWG_Qo_AJGtGSgtGG_Qo_AJGALG_____y_____y_____yAEy__________G______Qo_GGG_____y_____GGG_____yA28__Qo_GA28_G_AYtGGA32_G 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV AA6ButtonV AA08ModifiedD0V AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AmAE15dynamicTypeSizeyQrAA07DynamicrS0OFQO AA12_FrameLayoutV AA0M18AttachmentModifierV AA05_FlexuV0V 13PaymentUIBase09AccessoryG0V AA08_PaddingV0V AmAE8staticIf_4thenQrqd___qd_0_xXEtAA0G14InputPredicateRd__AaLRd_0_r0_lFQO AA7DividerV AA8SolariumV AmAEAnOQrAQ_tFQO AA011_BackgroundX0V AA14GeometryReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5ColorV AA017_AppearanceActionX0V 12CoreGraphics7CGFloatV AA11_ClipEffectV AA16RoundedRectangleV AmAE12onTapGesture5count7performQrSi_yyctFQO
+- _OBJC_CLASS_$_NSString
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_PaymentUIBase
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_PaymentUIBase
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_PaymentUIBase
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_PaymentUIBase
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAE5ScaleOGGAGyAA4FontVSgGGAGyAA5ColorVSgGGAA14_PaddingLayoutVGAA4ViewHPAuaYHPApaYHPAkaYHPAeaYHPyHC_AjA0oI0HPyHCHC_AoaZHPyHCHC_AtaZHPyHCHC_AwaZHPyHCHC.16
+- _get_witness_table 7SwiftUI4ViewRzAaBR_AaBR0_AaBR1_r2_lAA19_ConditionalContentVyAA6VStackVyAA05TupleC0VyADyADyAA6ButtonVyAA08ModifiedE0VyALyALyALyAaBPAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQOyAFyAHyALyAA6HStackVyAHyASyAHyALyALyxAA12_FrameLayoutVGAA0M18AttachmentModifierVG_ALyq_AA05_FlexqR0VGtGG_ASyAHyq0_Sg_13PaymentUIBase09AccessoryC0VtGGSgtGGAA08_PaddingR0VG_AHyAmAE8staticIf_4thenQrqd___qd_0_xXEtAA0C14InputPredicateRd__AaBRd_0_r0_lFQOyALyAA7DividerVA13_G_AA8SolariumVALyA20_A13_GQo__ALyAmAEAnOQrAQ_tFQOyALyALyALyALyq1_A_GA13_GA13_GA13_G_Qo_AXGtGSgtGG_Qo_AXGA_GAA011_BackgroundT0VyAA14GeometryReaderVyAmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyALyAA5ColorVAA017_AppearanceActionT0VG_12CoreGraphics7CGFloatVQo_GGGAA11_ClipEffectVyAA16RoundedRectangleVGGGAmAE12onTapGesture5count7performQrSi_yyctFQOyA62__Qo_GA62_G_A19_tGGA69_GAaBHPA71_AaBHPyHC_A69_AaBHPA68_AaBHPA63_AaBHPyHC_qd__AaBHD2_A67_HOHC_A62_AaBHPA56_AaBHPA37_AaBHPA36_AaBHPqd__AaBHD2_A35_HO_AxA0cT0HPyHCHC_A_AAA73_HPyHCHC_A55_AAA73_HPyHCHC_A61_AAA73_HPyHCHCHCHC.15
+- _objectdestroy.17Tm
+- _symbolic _____y_____y_____yAAyAAy_____y_____yAEyAEyAEy_____yAByACyAEy_____yACyAFyACyAEyAEyx_____G_____G_AEyq______GtGG_AFyACyq0_Sg______tGGSgtGG_____G_ACy_____yAEy_____AVG______AEyAyVGQo__AEy_____yAEyAEyAEyAEyq1_AKGAVGAVGAVG_Qo_AIGtGSgtGG_Qo_AIGAKG_____y_____y_____yAEy__________G______Qo_GGG_____y_____GGG_____yA27__Qo_GA27_G_AXtGGA31_G 7SwiftUI19_ConditionalContentV AA6VStackV AA9TupleViewV AA6ButtonV AA08ModifiedD0V AA0G0PAAE20accessibilityElement8childrenQrAA26AccessibilityChildBehaviorV_tFQO AA6HStackV AA12_FrameLayoutV AA0M18AttachmentModifierV AA05_FlexqR0V 13PaymentUIBase09AccessoryG0V AA08_PaddingR0V AmAE8staticIf_4thenQrqd___qd_0_xXEtAA0G14InputPredicateRd__AaLRd_0_r0_lFQO AA7DividerV AA8SolariumV AmAEAnOQrAQ_tFQO AA011_BackgroundT0V AA14GeometryReaderV AmAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AA5ColorV AA017_AppearanceActionT0V 12CoreGraphics7CGFloatV AA11_ClipEffectV AA16RoundedRectangleV AmAE12onTapGesture5count7performQrSi_yyctFQO
+CStrings:
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
+- "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+- "Dictionary<String, KeyPathView>"
+- "UserInterfaceType"
+- "initWithFormat:arguments:"
+
+```

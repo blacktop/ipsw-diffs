@@ -1,0 +1,262 @@
+## OmniSearchTypes
+
+> `/System/Library/PrivateFrameworks/OmniSearchTypes.framework/OmniSearchTypes`
+
+```diff
+
+-3500.48.2.0.0
+-  __TEXT.__text: 0x64ba8
+-  __TEXT.__auth_stubs: 0xd60
++3500.55.5.0.0
++  __TEXT.__text: 0x65c4c
++  __TEXT.__auth_stubs: 0xd80
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__const: 0x74a0
+-  __TEXT.__cstring: 0x1345
+-  __TEXT.__swift5_typeref: 0x1428
+-  __TEXT.__constg_swiftt: 0x1280
+-  __TEXT.__swift5_reflstr: 0x1a9e
+-  __TEXT.__swift5_fieldmd: 0x3de0
+-  __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_types: 0x1d8
+-  __TEXT.__swift5_proto: 0x7a8
+-  __TEXT.__swift5_assocty: 0xc8
+-  __TEXT.__oslogstring: 0x44
+-  __TEXT.__swift5_protos: 0x8
++  __TEXT.__const: 0x76d0
++  __TEXT.__cstring: 0x1362
++  __TEXT.__swift5_typeref: 0x1461
+   __TEXT.__swift5_capture: 0x14
++  __TEXT.__constg_swiftt: 0x12d4
++  __TEXT.__swift5_reflstr: 0x1ad6
++  __TEXT.__swift5_fieldmd: 0x3eb8
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_proto: 0x7c0
++  __TEXT.__swift5_types: 0x1e4
+   __TEXT.__swift_as_entry: 0x4
+-  __TEXT.__unwind_info: 0x1cb0
++  __TEXT.__swift5_assocty: 0xf8
++  __TEXT.__oslogstring: 0x50
++  __TEXT.__swift5_protos: 0x8
++  __TEXT.__unwind_info: 0x1c98
+   __TEXT.__eh_frame: 0x1a58
+   __TEXT.__objc_classname: 0x18
+   __TEXT.__objc_methname: 0xee
+   __TEXT.__objc_methtype: 0x46
+   __DATA_CONST.__got: 0x230
+-  __DATA_CONST.__const: 0x128
++  __DATA_CONST.__const: 0x108
+   __DATA_CONST.__objc_classlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x50
+   __DATA_CONST.__objc_protorefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x6b0
+-  __AUTH_CONST.__const: 0x3050
++  __AUTH_CONST.__auth_got: 0x6c0
++  __AUTH_CONST.__const: 0x32b0
+   __AUTH_CONST.__objc_const: 0x440
+   __AUTH.__objc_data: 0x50
+-  __AUTH.__data: 0x16e8
+-  __DATA.__data: 0x1788
+-  __DATA.__bss: 0xeb80
++  __AUTH.__data: 0x16f0
++  __DATA.__data: 0x17a8
+   __DATA.__common: 0x50
++  __DATA.__bss: 0xee80
+   __DATA_DIRTY.__data: 0x3d0
+   __DATA_DIRTY.__bss: 0x980
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftIntents.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 62708485-C774-3E53-B0CD-D2DC436FFF08
+-  Functions: 3728
+-  Symbols:   11781
+-  CStrings:  185
++  UUID: 4E7D802F-C927-3967-9E12-7D0EDB35A2A6
++  Functions: 3784
++  Symbols:   11933
++  CStrings:  188
+ 
+Symbols:
++ _$s10Foundation11JSONEncoderC16OutputFormattingVAEs10SetAlgebraAAWlTm
++ _$s10Foundation4DataVSgMaTm
++ _$s15OmniSearchTypes0B10ToolDialogV08renderedE0AC10PegasusAPI034Apple_Parsec_Siri_V2alpha_RenderedE9ComponentV_tcfC
++ _$s15OmniSearchTypes0B10ToolDialogVSgML
++ _$s15OmniSearchTypes13EmailDocumentV13mailMessageIdSSSgvg
++ _$s15OmniSearchTypes13EmailDocumentV13mailMessageIdSSSgvpMV
++ _$s15OmniSearchTypes13EmailDocumentV2id13mailMessageId7subject4body11authorNames4from2to2cc4date010attachmentM00rC00R5Paths6unread10hydratable24instantAnswerDescription19dataDetectorResults028extractedEventsLLMConsumableX026partialExtractedAttributes16preExtractedCard19preExtractedContact22preExtractedSharedLink22preExtractedBreadcrumbACSS_SSSgA2ZSaySSGA_A_A_10Foundation4DateVSgA_A_A_SbSgA4_AzA04DataZ7ResultsVSgAzA26PartialExtractedAttributesVSgAA16PreExtractedCardVSgAA19PreExtractedContactVSgAA22PreExtractedSharedLinkVSgAA22PreExtractedBreadcrumbVSgtcfC
++ _$s15OmniSearchTypes13EmailDocumentV4date10Foundation4DateVSgvg
++ _$s15OmniSearchTypes13EmailDocumentV4date10Foundation4DateVSgvgTm
++ _$s15OmniSearchTypes13EmailDocumentV4date10Foundation4DateVSgvpMV
++ _$s15OmniSearchTypes15LLMSearchResultV10identifier10typedValue22standardRepresentation14associatedData13nlDescription14resultMetadata6sfCard6dialog17referenceEntitiesACSS_7ToolKit05TypedH0O10AppIntents09Transienty23EntityConvertibleIntentH0_SeSEpSg10Foundation0L0VSgSSSDyS2SGSgSo6SFCardCSgAA0bV6DialogVSgSayACGSgtcfC
++ _$s15OmniSearchTypes15LLMSearchResultV6dialogAA0B10ToolDialogVSgvg
++ _$s15OmniSearchTypes15LLMSearchResultV6dialogAA0B10ToolDialogVSgvpMV
++ _$s15OmniSearchTypes17LLMSearchResponseV11resultLists17isExpectingAnswerACSayAA0D10ResultListVG_SbtcfC
++ _$s15OmniSearchTypes17LLMSearchResponseV11resultListsACSayAA0D10ResultListVG_tcfC
++ _$s15OmniSearchTypes17LLMSearchResponseV11resultListsSayAA0D10ResultListVGvg
++ _$s15OmniSearchTypes17LLMSearchResponseV11resultListsSayAA0D10ResultListVGvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO5localyA2EmFWC
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO6globalyA2EmFWC
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO8rawValueAESgSS_tcfC
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO8rawValueAESgSS_tcfCTv_r
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO8rawValueSSvg
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceO8rawValueSSvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOAESQAAWL
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOAESQAAWl
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOMF
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOMa
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOMf
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOMn
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceON
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAASH9hashValueSivgTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAASQWb
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSQAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSQAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSQAASQ2eeoiySbx_xtFZTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSYAAMA
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSYAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSYAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSYAASY8rawValue03RawI0QzvgTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOSYAASY8rawValuexSg03RawI0Qz_tcfCTW
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOWV
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOwet
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOwst
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOwug
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOwui
++ _$s15OmniSearchTypes19LLMSearchResultListV0B6SourceOwup
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifier6source11snippetType0I06dialog14resultMetadata7results24isDisambiguationResponseACSS_AC0B6SourceOAC07SnippetJ0OSo6SFCardCSgAA0B10ToolDialogVSgSDyS2SGSayAA0dE0VGSbtcfC
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifierSSvg
++ _$s15OmniSearchTypes19LLMSearchResultListV10identifierSSvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO10composableyA2EmFWC
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO8rawValueAESgSS_tcfC
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO8rawValueAESgSS_tcfCTm
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO8rawValueAESgSS_tcfCTv_r
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO8rawValueSSvg
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO8rawValueSSvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO9singletonyA2EmFWC
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOAESQAAWL
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOAESQAAWl
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOMF
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOMa
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOMf
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOMn
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeON
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAASH9hashValueSivgTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAASQWb
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSQAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSQAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSQAASQ2eeoiySbx_xtFZTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSYAAMA
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSYAAMc
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSYAAMcMK
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSYAASY8rawValue03RawJ0QzvgTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSYAASY8rawValuexSg03RawJ0Qz_tcfCTW
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOWV
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwet
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwetTm
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwst
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwstTm
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwug
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwui
++ _$s15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOwup
++ _$s15OmniSearchTypes19LLMSearchResultListV11snippetTypeAC07SnippetH0Ovg
++ _$s15OmniSearchTypes19LLMSearchResultListV11snippetTypeAC07SnippetH0OvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV14resultMetadataSDyS2SGvg
++ _$s15OmniSearchTypes19LLMSearchResultListV14resultMetadataSDyS2SGvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV24isDisambiguationResponseSbvg
++ _$s15OmniSearchTypes19LLMSearchResultListV24isDisambiguationResponseSbvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV6dialogAA0B10ToolDialogVSgvg
++ _$s15OmniSearchTypes19LLMSearchResultListV6dialogAA0B10ToolDialogVSgvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV6sourceAC0B6SourceOvg
++ _$s15OmniSearchTypes19LLMSearchResultListV6sourceAC0B6SourceOvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV7resultsSayAA0dE0VGvg
++ _$s15OmniSearchTypes19LLMSearchResultListV7resultsSayAA0dE0VGvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListV7snippetSo6SFCardCSgvg
++ _$s15OmniSearchTypes19LLMSearchResultListV7snippetSo6SFCardCSgvpMV
++ _$s15OmniSearchTypes19LLMSearchResultListVMF
++ _$s15OmniSearchTypes19LLMSearchResultListVMa
++ _$s15OmniSearchTypes19LLMSearchResultListVMf
++ _$s15OmniSearchTypes19LLMSearchResultListVMn
++ _$s15OmniSearchTypes19LLMSearchResultListVN
++ _$s15OmniSearchTypes19LLMSearchResultListVWV
++ _$s15OmniSearchTypes19LLMSearchResultListVwet
++ _$s15OmniSearchTypes19LLMSearchResultListVwst
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg15OmniSearchTypes19LLMSearchResultListV0E6SourceO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF15OmniSearchTypes19LLMSearchResultListV0G6SourceO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE08_rawHashB04seedS2i_tF15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF15OmniSearchTypes19LLMSearchResultListV0G6SourceO_TB5
++ _$sSYsSHRzSH8RawValueSYRpzrlE4hash4intoys6HasherVz_tF15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO_TB5
++ _$sSp14moveInitialize4from5countySpyxG_SitF15OmniSearchTypes15LLMSearchResultV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15OmniSearchTypes15LLMSearchResultV_Tg5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC15OmniSearchTypes15LLMSearchResultV_Tt1g5
++ _$ss23_ContiguousArrayStorageCy15OmniSearchTypes15LLMSearchResultVGMD
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF15OmniSearchTypes19LLMSearchResultListV0E6SourceO_TB5
++ _$ss2eeoiySbx_xtSYRzSQ8RawValueRpzlF15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO_TB5
++ ___swift_memcpy113_8
++ _associated conformance 15OmniSearchTypes19LLMSearchResultListV0B6SourceOSHAASQ
++ _associated conformance 15OmniSearchTypes19LLMSearchResultListV11SnippetTypeOSHAASQ
++ _swift_arrayInitWithCopy
++ _swift_arrayInitWithTakeBackToFront
++ _swift_arrayInitWithTakeFrontToBack
++ _symbolic Say_____G 15OmniSearchTypes19LLMSearchResultListV
++ _symbolic _____ 15OmniSearchTypes19LLMSearchResultListV
++ _symbolic _____ 15OmniSearchTypes19LLMSearchResultListV0B6SourceO
++ _symbolic _____ 15OmniSearchTypes19LLMSearchResultListV11SnippetTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 15OmniSearchTypes15LLMSearchResultV
++ _type_layout_string 15OmniSearchTypes19LLMSearchResultListV
+- _$s10Foundation11JSONEncoderC16OutputFormattingVAEs10SetAlgebraAAWl
+- _$s10Foundation4DataVSgMa
+- _$s10Foundation4DateV2eeoiySbAC_ACtFZ
+- _$s10Foundation4DateVACSEAAWlTm
+- _$s15OmniSearchTypes0B20TransferabilityErrorVACs0E0AAWl
+- _$s15OmniSearchTypes13EmailDocumentV13mailMessageIdSSvg
+- _$s15OmniSearchTypes13EmailDocumentV13mailMessageIdSSvpMV
+- _$s15OmniSearchTypes13EmailDocumentV2id13mailMessageId7subject4body11authorNames4from2to2cc4date010attachmentM00rC00R5Paths6unread10hydratable24instantAnswerDescription19dataDetectorResults028extractedEventsLLMConsumableX026partialExtractedAttributes16preExtractedCard19preExtractedContact22preExtractedSharedLink22preExtractedBreadcrumbACSS_S2SSgAZSaySSGA_A_A_10Foundation4DateVA_A_A_SbSgA3_AzA04DataZ7ResultsVSgAzA26PartialExtractedAttributesVSgAA16PreExtractedCardVSgAA19PreExtractedContactVSgAA22PreExtractedSharedLinkVSgAA22PreExtractedBreadcrumbVSgtcfC
+- _$s15OmniSearchTypes13EmailDocumentV4date10Foundation4DateVvg
+- _$s15OmniSearchTypes13EmailDocumentV4date10Foundation4DateVvpMV
+- _$s15OmniSearchTypes15LLMSearchResultV10identifier10typedValue22standardRepresentation14associatedData13nlDescription14resultMetadata6sfCard17referenceEntitiesACSS_7ToolKit05TypedH0O10AppIntents09Transientx23EntityConvertibleIntentH0_SeSEpSg10Foundation0L0VSgSSSDyS2SGSgSo6SFCardCSgSayACGSgtcfC
+- _$s15OmniSearchTypes16PreExtractedCardVSgWObTm
+- _$s15OmniSearchTypes17MobileSMSDocumentV10contentURL10Foundation0G0VSgvgTm
+- _$s15OmniSearchTypes26PartialExtractedAttributesVSgMaTm
+- _$s15OmniSearchTypes26PartialExtractedAttributesVSgWOcTm
+- _$s15OmniSearchTypes26PartialExtractedAttributesVSg_ADtWOhTm
+- ___swift_memcpy98_8
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_OmniSearchTypes
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_OmniSearchTypes
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_OmniSearchTypes
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_OmniSearchTypes
+CStrings:
++ "composable"
++ "local"
++ "singleton"
+
+```

@@ -1,0 +1,170 @@
+## CalculateUI
+
+> `/System/Library/PrivateFrameworks/CalculateUI.framework/CalculateUI`
+
+```diff
+
+-218.0.0.0.0
+-  __TEXT.__text: 0x7f754
++221.0.0.0.0
++  __TEXT.__text: 0x83720
+   __TEXT.__auth_stubs: 0x3690
+   __TEXT.__objc_methlist: 0x588
+-  __TEXT.__const: 0x3a80
+-  __TEXT.__cstring: 0x1597
+-  __TEXT.__swift5_typeref: 0x96c1
++  __TEXT.__const: 0x3c30
++  __TEXT.__cstring: 0x1667
++  __TEXT.__swift5_typeref: 0x96cf
+   __TEXT.__swift5_capture: 0xc38
+-  __TEXT.__constg_swiftt: 0x1b48
+-  __TEXT.__swift5_reflstr: 0x11d8
++  __TEXT.__constg_swiftt: 0x1c54
++  __TEXT.__swift5_reflstr: 0x1228
+   __TEXT.__swift5_assocty: 0x3d0
+-  __TEXT.__swift5_fieldmd: 0x12d8
++  __TEXT.__swift5_fieldmd: 0x1324
+   __TEXT.__swift5_builtin: 0xdc
+-  __TEXT.__swift5_proto: 0x174
+-  __TEXT.__swift5_types: 0x11c
++  __TEXT.__swift5_proto: 0x17c
++  __TEXT.__swift5_types: 0x120
+   __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__oslogstring: 0x2a8
+   __TEXT.__swift_as_entry: 0x30
+   __TEXT.__swift_as_ret: 0x2c
+-  __TEXT.__unwind_info: 0x1b00
+-  __TEXT.__eh_frame: 0x116c
++  __TEXT.__oslogstring: 0x218
++  __TEXT.__unwind_info: 0x1bc0
++  __TEXT.__eh_frame: 0x11b4
+   __TEXT.__objc_classname: 0x53
+   __TEXT.__objc_methname: 0x112b
+   __TEXT.__objc_methtype: 0x3ba
+   __DATA_CONST.__got: 0xae8
+-  __DATA_CONST.__const: 0x430
++  __DATA_CONST.__const: 0x460
+   __DATA_CONST.__objc_classlist: 0x80
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x40
+
+   __DATA_CONST.__objc_selrefs: 0x6a0
+   __DATA_CONST.__objc_protorefs: 0x20
+   __AUTH_CONST.__auth_got: 0x1b48
+-  __AUTH_CONST.__const: 0x2c80
+-  __AUTH_CONST.__objc_const: 0x18f8
++  __AUTH_CONST.__const: 0x2d98
++  __AUTH_CONST.__objc_const: 0x1938
+   __AUTH.__objc_data: 0x4a0
+   __AUTH.__data: 0x7c0
+-  __DATA.__data: 0x17b0
+-  __DATA.__bss: 0x26e8
++  __DATA.__data: 0x17d0
++  __DATA.__bss: 0x2818
+   __DATA.__common: 0x88
+   __DATA_DIRTY.__objc_data: 0x270
+-  __DATA_DIRTY.__data: 0x19b0
++  __DATA_DIRTY.__data: 0x1ab0
+   __DATA_DIRTY.__bss: 0xb80
+   __DATA_DIRTY.__common: 0x60
+   - /System/Library/Frameworks/Accessibility.framework/Accessibility
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 3B2E7841-C88C-3608-8E57-6160DF4F3988
+-  Functions: 2606
+-  Symbols:   1287
+-  CStrings:  467
++  UUID: 39E92551-8827-3C24-A611-9912BD7F515E
++  Functions: 2711
++  Symbols:   1283
++  CStrings:  469
+ 
+Symbols:
++ _associated conformance 11CalculateUI14GraphViewModelC5StateOSHAASQ
++ _block_copy_helper.105
++ _block_copy_helper.121
++ _block_copy_helper.124
++ _block_copy_helper.98
++ _block_descriptor.100
++ _block_descriptor.107
++ _block_descriptor.123
++ _block_descriptor.126
++ _block_destroy_helper.106
++ _block_destroy_helper.122
++ _block_destroy_helper.125
++ _block_destroy_helper.99
++ _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.13
++ _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.14
++ _get_witness_table 6Charts12BuilderTupleVyAA12ChartContentPAAE10annotation8position9alignment7spacing7contentQrAA18AnnotationPositionV_7SwiftUI9AlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAM4ViewRd__lFQOyAeAE9lineStyleyQrAM06StrokeU0VFQOyAeAE010foregroundU0yQrqd__AM05ShapeU0Rd__lFQOyAA8RuleMarkV_AM5ColorVQo__Qo__AM08ModifiedE0VyAM4TextVAM14_PaddingLayoutVGQo__A11_AeAEAXyQrqd__AmYRd__lFQOyAeAEAUyQrAWFQOyAA0Y4PlotVyAA010Vectorizedy4PlotE0VySaySdGGG_Qo__A1_Qo_A20_AM7ForEachVyA16_SdAeAEAfghI18overflowResolutionAJQrAL_AosA0K18OverflowResolutionVqd__yXEtAmTRd__lFQOyAeAE7opacityyQrSdFQOyAA05PointZ0V_Qo__A10_Qo_SgGA32_QPGAaDHPqd0__AaDHD3_A11_HO_qd0__AaDHD3_A11_HOqd0__AaDHD3_A20_HOqd0__AaDHD3_A20_HOA32_AaDHpA31_AaDHpqd0__AaDHD3_A30_HO_HC_HCA32_AaDHpA31_AaDHpqd0__AaDHD3_A30_HO_HC_HCHX_HC.179
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyAA06_ShapeG0VyAA16RoundedRectangleVAA5ColorVG_ACyAA24ButtonStyleConfigurationV5LabelVAA011_ForegroundM8ModifierVyAMGGtGGAA12_FrameLayoutVGAA0G0HPAxAA0_HPyHC_AzA0gQ0HPyHCHC.27
++ _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAG14TruncationModeOGGAIyAA0F9AlignmentOGGAEyAA14GeometryReaderVyAA6ZStackVyAA010ScrollViewO0VyAA0R0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAEyAEyAyAE20scrollBounceBehavior_4axesQrAA0qxY0V_AA4AxisO3SetVtFQOyAyAE0W10Indicators_A2_QrAA0Q19IndicatorVisibilityV_A8_tFQOyAEyAyAE07defaultQ6AnchoryQrAA9UnitPointVSgFQOyAEyAEyAA0qR0VyAUyAA05TupleR0VyAEyAEyASyAEyAA5ColorVAA011_PreferenceiJ0Vy09CalculateB004Mainq10PreferenceH033_0ED696DA9FB6D48C2DC5E17D1BB9B77ELLVGGGAA16_FlexFrameLayoutVGAA12_FrameLayoutVG_AEyAEyAA6IDViewVyAEyAEyAEyAEyAgIySiSgGGAPGA32_GA35_G10Foundation4UUIDVGAA01_miJ0VGAA08_OverlayJ0VyAEyA24_08PlatformR13RepresentableVAIy12CoreGraphics7CGFloatVSgGGSgGGtGGGAIyAA15LayoutDirectionOGGAA11_MaskEffectVyAEyAEyAA6HStackVyA19_yAEyAA14LinearGradientVA35_GSg_AA9RectangleVA79_tGGAA017_AllowsHitTestingJ0VGA70_GGG_Qo_A35_G_Qo__Qo_AA016_CoordinateSpaceJ0VySSGGAA017_PreferenceActionJ0VyA27_So6CGRectVSQA56_yHCg0_GG_So18NSAttributedStringCQo_GGGA35_GGAaXHPAqaXHPAmaXHPAgaXHPyHC_AlA0rJ0HPyHCHC_ApAA112_HPyHCHC_A110_AaXHPA109_AaXHPyHC_A35_AAA112_HPyHCHCHC.16
++ _get_witness_table qd__7SwiftUI4ViewHD2_AaBP6ChartsE23chart3DCameraProjectionyQrAD06Chart3fG0VFQOyAcDE0E5DPoseyQrAA7BindingVyAD0hI0VGFQOyAcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQOyAcDE0K6YScaleAoPQrqd___AStAdTRd__lFQOyAcDE0K6XScaleAoPQrqd___AStAdTRd__lFQOy09CalculateB00H5DViewV_SNySdGQo__AZQo__AZQo__Qo__Qo_HO.15
++ _keypath_get.137Tm
++ _keypath_get.143Tm
++ _keypath_get.151Tm
++ _keypath_set.138Tm
++ _keypath_set.152Tm
++ _keypath_set.68Tm
++ _objectdestroy.111Tm
++ _objectdestroy.61Tm
++ _symbolic _____ 11CalculateUI14GraphViewModelC5StateO
++ _symbolic _____y_____G 7SwiftUI5StateV 6Charts11Chart3DPoseV
++ _symbolic _____y_____G 7SwiftUI7BindingV 6Charts11Chart3DPoseV
++ _symbolic _____y_____y_____y_____y______SNySdGQo__ABQo__ABQo__Qo_ 7SwiftUI4ViewP6ChartsE11chart3DPoseyQrAA7BindingVyAD06Chart3F0VGFQO AcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0M6DomainRd__lFQO AcDE0I6YScaleAlMQrqd___APtAdQRd__lFQO AcDE0I6XScaleAlMQrqd___APtAdQRd__lFQO 09CalculateB00H5DViewV
++ _symbolic _____y_____y_____y_____y_____y______SNySdGQo__ABQo__ABQo__Qo__Qo_ 7SwiftUI4ViewP6ChartsE23chart3DCameraProjectionyQrAD06Chart3fG0VFQO AcDE0E5DPoseyQrAA7BindingVyAD0hI0VGFQO AcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQO AcDE0K6YScaleAoPQrqd___AStAdTRd__lFQO AcDE0K6XScaleAoPQrqd___AStAdTRd__lFQO 09CalculateB00H5DViewV
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_CalculateUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_CalculateUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_CalculateUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_CalculateUI
+- _block_copy_helper.86
+- _block_copy_helper.89
+- _block_descriptor.88
+- _block_descriptor.91
+- _block_destroy_helper.87
+- _block_destroy_helper.90
+- _get_underlying_type_ref 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOQr.12
+- _get_underlying_witness 7SwiftUI4ViewPAAEAcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentH0OAA0J0OSgqd__yctAaBRd__lFQOqd0__AaBHC.13
+- _get_witness_table 6Charts12BuilderTupleVyAA12ChartContentPAAE10annotation8position9alignment7spacing7contentQrAA18AnnotationPositionV_7SwiftUI9AlignmentV12CoreGraphics7CGFloatVSgqd__yXEtAM4ViewRd__lFQOyAeAE9lineStyleyQrAM06StrokeU0VFQOyAeAE010foregroundU0yQrqd__AM05ShapeU0Rd__lFQOyAA8RuleMarkV_AM5ColorVQo__Qo__AM08ModifiedE0VyAM4TextVAM14_PaddingLayoutVGQo__A11_AeAEAXyQrqd__AmYRd__lFQOyAeAEAUyQrAWFQOyAA0Y4PlotVyAA010Vectorizedy4PlotE0VySaySdGGG_Qo__A1_Qo_A20_AM7ForEachVyA16_SdAeAEAfghI18overflowResolutionAJQrAL_AosA0K18OverflowResolutionVqd__yXEtAmTRd__lFQOyAeAE7opacityyQrSdFQOyAA05PointZ0V_Qo__A10_Qo_SgGA32_QPGAaDHPqd0__AaDHD3_A11_HO_qd0__AaDHD3_A11_HOqd0__AaDHD3_A20_HOqd0__AaDHD3_A20_HOA32_AaDHpA31_AaDHpqd0__AaDHD3_A30_HO_HC_HCA32_AaDHpA31_AaDHpqd0__AaDHD3_A30_HO_HC_HCHX_HC.175
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6ZStackVyAA9TupleViewVyAA06_ShapeG0VyAA16RoundedRectangleVAA5ColorVG_ACyAA24ButtonStyleConfigurationV5LabelVAA011_ForegroundM8ModifierVyAMGGtGGAA12_FrameLayoutVGAA0G0HPAxAA0_HPyHC_AzA0gQ0HPyHCHC.23
+- _get_witness_table 7SwiftUI19_ConditionalContentVyAA08ModifiedD0VyAEyAA4TextVAA30_EnvironmentKeyWritingModifierVyAG14TruncationModeOGGAIyAA0F9AlignmentOGGAEyAA14GeometryReaderVyAA6ZStackVyAA010ScrollViewO0VyAA0R0PAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAEyAEyAyAE20scrollBounceBehavior_4axesQrAA0qxY0V_AA4AxisO3SetVtFQOyAyAE0W10Indicators_A2_QrAA0Q19IndicatorVisibilityV_A8_tFQOyAEyAyAE07defaultQ6AnchoryQrAA9UnitPointVSgFQOyAEyAEyAA0qR0VyAUyAA05TupleR0VyAEyAEyASyAEyAA5ColorVAA011_PreferenceiJ0Vy09CalculateB004Mainq10PreferenceH033_0ED696DA9FB6D48C2DC5E17D1BB9B77ELLVGGGAA16_FlexFrameLayoutVGAA12_FrameLayoutVG_AEyAEyAA6IDViewVyAEyAEyAEyAEyAgIySiSgGGAPGA32_GA35_G10Foundation4UUIDVGAA01_miJ0VGAA08_OverlayJ0VyAEyA24_08PlatformR13RepresentableVAIy12CoreGraphics7CGFloatVSgGGSgGGtGGGAIyAA15LayoutDirectionOGGAA11_MaskEffectVyAEyAEyAA6HStackVyA19_yAEyAA14LinearGradientVA35_GSg_AA9RectangleVA79_tGGAA017_AllowsHitTestingJ0VGA70_GGG_Qo_A35_G_Qo__Qo_AA016_CoordinateSpaceJ0VySSGGAA017_PreferenceActionJ0VyA27_So6CGRectVSQA56_yHCg0_GG_So18NSAttributedStringCQo_GGGA35_GGAaXHPAqaXHPAmaXHPAgaXHPyHC_AlA0rJ0HPyHCHC_ApAA112_HPyHCHC_A110_AaXHPA109_AaXHPyHC_A35_AAA112_HPyHCHCHC.15
+- _get_witness_table qd__7SwiftUI4ViewHD2_AaBP6ChartsE23chart3DCameraProjectionyQrAD06Chart3fG0VFQOyAcDE0eF4PoseyQrAA7BindingVyAD0hfI0VGFQOyAcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQOyAcDE0K6YScaleAoPQrqd___AStAdTRd__lFQOyAcDE0K6XScaleAoPQrqd___AStAdTRd__lFQOy09CalculateB00H5DViewV_SNySdGQo__AZQo__AZQo__Qo__Qo_HO.15
+- _keypath_get.102Tm
+- _keypath_get.108Tm
+- _keypath_get.116Tm
+- _keypath_set.103Tm
+- _keypath_set.117Tm
+- _keypath_set.59Tm
+- _objectdestroy.116Tm
+- _objectdestroy.60Tm
+- _symbolic _____y_____G 7SwiftUI5StateV 6Charts17Chart3DCameraPoseV
+- _symbolic _____y_____G 7SwiftUI7BindingV 6Charts17Chart3DCameraPoseV
+- _symbolic _____y_____y_____y_____y______SNySdGQo__ABQo__ABQo__Qo_ 7SwiftUI4ViewP6ChartsE17chart3DCameraPoseyQrAA7BindingVyAD06Chart3fG0VGFQO AcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0N6DomainRd__lFQO AcDE0J6YScaleAlMQrqd___APtAdQRd__lFQO AcDE0J6XScaleAlMQrqd___APtAdQRd__lFQO 09CalculateB00I5DViewV
+- _symbolic _____y_____y_____y_____y_____y______SNySdGQo__ABQo__ABQo__Qo__Qo_ 7SwiftUI4ViewP6ChartsE23chart3DCameraProjectionyQrAD06Chart3fG0VFQO AcDE0eF4PoseyQrAA7BindingVyAD0hfI0VGFQO AcDE11chartZScale6domain4typeQrqd___AD9ScaleTypeVSgtAD0O6DomainRd__lFQO AcDE0K6YScaleAoPQrqd___AStAdTRd__lFQO AcDE0K6XScaleAoPQrqd___AStAdTRd__lFQO 09CalculateB00H5DViewV
+CStrings:
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "_allowCenterOrigin"
++ "_allowEqualizeAxes"
++ "_state"
+- "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+- "_isRecentering"
+
+```

@@ -1,0 +1,545 @@
+## AudioDSPManager
+
+> `/System/Library/PrivateFrameworks/AudioDSPManager.framework/AudioDSPManager`
+
+```diff
+
+-189.0.0.0.0
+-  __TEXT.__text: 0xa45ac
+-  __TEXT.__auth_stubs: 0x2740
++193.0.0.0.0
++  __TEXT.__text: 0xa4518
++  __TEXT.__auth_stubs: 0x2750
+   __TEXT.__init_offsets: 0x14
+   __TEXT.__objc_methlist: 0x6a8
+   __TEXT.__dlopen_cstrs: 0x54
+   __TEXT.__const: 0xc458
+-  __TEXT.__cstring: 0x588d
++  __TEXT.__cstring: 0x58b1
+   __TEXT.__swift5_typeref: 0x1f56
+   __TEXT.__swift5_fieldmd: 0x1398
+   __TEXT.__constg_swiftt: 0x1728
+
+   __TEXT.__swift5_assocty: 0x328
+   __TEXT.__swift_as_entry: 0x4c
+   __TEXT.__swift_as_ret: 0x48
+-  __TEXT.__gcc_except_tab: 0x6c60
++  __TEXT.__gcc_except_tab: 0x6c00
+   __TEXT.__swift5_capture: 0x178
+-  __TEXT.__oslogstring: 0x2ff6
++  __TEXT.__oslogstring: 0x2ffe
+   __TEXT.__swift5_builtin: 0x64
+   __TEXT.__swift5_mpenum: 0x2c
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x3398
++  __TEXT.__unwind_info: 0x3350
+   __TEXT.__eh_frame: 0x2e34
+   __TEXT.__objc_classname: 0x99
+   __TEXT.__objc_methname: 0xe2f
+   __TEXT.__objc_methtype: 0x3d6b
+   __TEXT.__objc_stubs: 0xd20
+   __DATA_CONST.__got: 0x538
+-  __DATA_CONST.__const: 0x760
++  __DATA_CONST.__const: 0x750
+   __DATA_CONST.__objc_classlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x488
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x13c0
++  __AUTH_CONST.__auth_got: 0x13c8
+   __AUTH_CONST.__const: 0x6d98
+   __AUTH_CONST.__cfstring: 0xf20
+   __AUTH_CONST.__objc_const: 0xf20
+
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+   - /usr/lib/swift/libswiftCoreImage.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D384A007-3609-3A1E-BA39-BBB5825FB5FF
+-  Functions: 2983
+-  Symbols:   5645
+-  CStrings:  1453
++  UUID: CE1622DD-22DD-32B5-B664-564E8CCE85E9
++  Functions: 2975
++  Symbols:   5613
++  CStrings:  1455
+ 
+Symbols:
++ GCC_except_table1006
++ GCC_except_table1007
++ GCC_except_table1008
++ GCC_except_table1016
++ GCC_except_table1020
++ GCC_except_table1021
++ GCC_except_table1022
++ GCC_except_table1028
++ GCC_except_table1030
++ GCC_except_table1032
++ GCC_except_table1034
++ GCC_except_table1036
++ GCC_except_table1038
++ GCC_except_table1040
++ GCC_except_table1042
++ GCC_except_table1047
++ GCC_except_table1053
++ GCC_except_table1054
++ GCC_except_table1071
++ GCC_except_table1075
++ GCC_except_table1120
++ GCC_except_table1121
++ GCC_except_table1137
++ GCC_except_table1147
++ GCC_except_table1157
++ GCC_except_table1167
++ GCC_except_table1177
++ GCC_except_table1187
++ GCC_except_table1197
++ GCC_except_table1207
++ GCC_except_table1217
++ GCC_except_table1227
++ GCC_except_table1231
++ GCC_except_table1232
++ GCC_except_table1245
++ GCC_except_table1247
++ GCC_except_table1251
++ GCC_except_table1260
++ GCC_except_table1264
++ GCC_except_table1269
++ GCC_except_table1271
++ GCC_except_table1281
++ GCC_except_table1289
++ GCC_except_table1293
++ GCC_except_table1298
++ GCC_except_table1300
++ GCC_except_table1308
++ GCC_except_table1310
++ GCC_except_table1317
++ GCC_except_table1321
++ GCC_except_table1334
++ GCC_except_table1335
++ GCC_except_table1336
++ GCC_except_table1349
++ GCC_except_table1350
++ GCC_except_table1351
++ GCC_except_table1356
++ GCC_except_table1369
++ GCC_except_table1386
++ GCC_except_table1387
++ GCC_except_table1388
++ GCC_except_table1389
++ GCC_except_table1390
++ GCC_except_table1391
++ GCC_except_table1393
++ GCC_except_table1395
++ GCC_except_table1402
++ GCC_except_table1404
++ GCC_except_table1407
++ GCC_except_table1409
++ GCC_except_table1410
++ GCC_except_table1429
++ GCC_except_table1436
++ GCC_except_table1449
++ GCC_except_table1460
++ GCC_except_table1461
++ GCC_except_table1467
++ GCC_except_table1468
++ GCC_except_table1483
++ GCC_except_table1494
++ GCC_except_table1495
++ GCC_except_table1498
++ GCC_except_table1500
++ GCC_except_table1507
++ GCC_except_table1521
++ GCC_except_table1526
++ GCC_except_table1531
++ GCC_except_table1532
++ GCC_except_table1533
++ GCC_except_table1534
++ GCC_except_table1563
++ GCC_except_table214
++ GCC_except_table216
++ GCC_except_table258
++ GCC_except_table259
++ GCC_except_table260
++ GCC_except_table270
++ GCC_except_table278
++ GCC_except_table283
++ GCC_except_table287
++ GCC_except_table292
++ GCC_except_table298
++ GCC_except_table307
++ GCC_except_table309
++ GCC_except_table311
++ GCC_except_table313
++ GCC_except_table318
++ GCC_except_table324
++ GCC_except_table329
++ GCC_except_table340
++ GCC_except_table341
++ GCC_except_table345
++ GCC_except_table346
++ GCC_except_table351
++ GCC_except_table352
++ GCC_except_table379
++ GCC_except_table395
++ GCC_except_table401
++ GCC_except_table403
++ GCC_except_table408
++ GCC_except_table415
++ GCC_except_table416
++ GCC_except_table417
++ GCC_except_table425
++ GCC_except_table455
++ GCC_except_table459
++ GCC_except_table461
++ GCC_except_table465
++ GCC_except_table469
++ GCC_except_table470
++ GCC_except_table479
++ GCC_except_table481
++ GCC_except_table483
++ GCC_except_table491
++ GCC_except_table510
++ GCC_except_table515
++ GCC_except_table520
++ GCC_except_table521
++ GCC_except_table527
++ GCC_except_table528
++ GCC_except_table534
++ GCC_except_table538
++ GCC_except_table539
++ GCC_except_table543
++ GCC_except_table544
++ GCC_except_table545
++ GCC_except_table557
++ GCC_except_table558
++ GCC_except_table559
++ GCC_except_table563
++ GCC_except_table564
++ GCC_except_table568
++ GCC_except_table583
++ GCC_except_table585
++ GCC_except_table596
++ GCC_except_table609
++ GCC_except_table611
++ GCC_except_table618
++ GCC_except_table619
++ GCC_except_table634
++ GCC_except_table636
++ GCC_except_table640
++ GCC_except_table641
++ GCC_except_table701
++ GCC_except_table702
++ GCC_except_table706
++ GCC_except_table736
++ GCC_except_table753
++ GCC_except_table799
++ GCC_except_table803
++ GCC_except_table804
++ GCC_except_table812
++ GCC_except_table820
++ GCC_except_table821
++ GCC_except_table825
++ GCC_except_table827
++ GCC_except_table841
++ GCC_except_table842
++ GCC_except_table846
++ GCC_except_table854
++ GCC_except_table858
++ GCC_except_table865
++ GCC_except_table873
++ GCC_except_table889
++ GCC_except_table890
++ GCC_except_table891
++ GCC_except_table899
++ GCC_except_table900
++ GCC_except_table907
++ GCC_except_table908
++ GCC_except_table909
++ GCC_except_table915
++ GCC_except_table920
++ GCC_except_table922
++ GCC_except_table948
++ GCC_except_table949
++ GCC_except_table953
++ GCC_except_table959
++ GCC_except_table960
++ GCC_except_table961
++ GCC_except_table965
++ GCC_except_table966
++ GCC_except_table979
++ GCC_except_table981
++ GCC_except_table986
++ __ZN5caulk22shared_semaphore_mutex13unlock_sharedEv
++ __ZN5caulk22shared_semaphore_mutex15try_lock_sharedEv
++ __ZN5caulk22shared_semaphore_mutex4lockEv
++ __ZN5caulk22shared_semaphore_mutex6unlockEv
++ __ZN5caulk22shared_semaphore_mutexC2Ev
++ __ZN5caulk22shared_semaphore_mutexD1Ev
++ __ZN5caulk9semaphoreC1Ej
++ __ZN5caulk9semaphoreD1Ev
++ __ZNSt3__18optionalIN10applesauce2CF13DictionaryRefEED2Ev
++ _objc_retain_x28
+- GCC_except_table1009
+- GCC_except_table1013
+- GCC_except_table1014
+- GCC_except_table1019
+- GCC_except_table1024
+- GCC_except_table1025
+- GCC_except_table1029
+- GCC_except_table1031
+- GCC_except_table1033
+- GCC_except_table1035
+- GCC_except_table1037
+- GCC_except_table1039
+- GCC_except_table1041
+- GCC_except_table1043
+- GCC_except_table1045
+- GCC_except_table1050
+- GCC_except_table1056
+- GCC_except_table1057
+- GCC_except_table1074
+- GCC_except_table1078
+- GCC_except_table1129
+- GCC_except_table1130
+- GCC_except_table1140
+- GCC_except_table1150
+- GCC_except_table1160
+- GCC_except_table1170
+- GCC_except_table1180
+- GCC_except_table1190
+- GCC_except_table1200
+- GCC_except_table1210
+- GCC_except_table1220
+- GCC_except_table1238
+- GCC_except_table1239
+- GCC_except_table1240
+- GCC_except_table1248
+- GCC_except_table1250
+- GCC_except_table1254
+- GCC_except_table1266
+- GCC_except_table1267
+- GCC_except_table1272
+- GCC_except_table1274
+- GCC_except_table1287
+- GCC_except_table1295
+- GCC_except_table1302
+- GCC_except_table1303
+- GCC_except_table1304
+- GCC_except_table1311
+- GCC_except_table1313
+- GCC_except_table1323
+- GCC_except_table1324
+- GCC_except_table1338
+- GCC_except_table1339
+- GCC_except_table1346
+- GCC_except_table1353
+- GCC_except_table1365
+- GCC_except_table1370
+- GCC_except_table1373
+- GCC_except_table1374
+- GCC_except_table1375
+- GCC_except_table1376
+- GCC_except_table1380
+- GCC_except_table1381
+- GCC_except_table1397
+- GCC_except_table1398
+- GCC_except_table1399
+- GCC_except_table1400
+- GCC_except_table1411
+- GCC_except_table1412
+- GCC_except_table1413
+- GCC_except_table1414
+- GCC_except_table1415
+- GCC_except_table1416
+- GCC_except_table1417
+- GCC_except_table1419
+- GCC_except_table1420
+- GCC_except_table1439
+- GCC_except_table1446
+- GCC_except_table1470
+- GCC_except_table1478
+- GCC_except_table1487
+- GCC_except_table1489
+- GCC_except_table1491
+- GCC_except_table1493
+- GCC_except_table1508
+- GCC_except_table1513
+- GCC_except_table1514
+- GCC_except_table1515
+- GCC_except_table1535
+- GCC_except_table1537
+- GCC_except_table1539
+- GCC_except_table1540
+- GCC_except_table1541
+- GCC_except_table1542
+- GCC_except_table1543
+- GCC_except_table1572
+- GCC_except_table213
+- GCC_except_table215
+- GCC_except_table218
+- GCC_except_table219
+- GCC_except_table254
+- GCC_except_table264
+- GCC_except_table266
+- GCC_except_table267
+- GCC_except_table273
+- GCC_except_table284
+- GCC_except_table286
+- GCC_except_table290
+- GCC_except_table295
+- GCC_except_table301
+- GCC_except_table310
+- GCC_except_table312
+- GCC_except_table314
+- GCC_except_table316
+- GCC_except_table321
+- GCC_except_table327
+- GCC_except_table332
+- GCC_except_table343
+- GCC_except_table347
+- GCC_except_table348
+- GCC_except_table349
+- GCC_except_table357
+- GCC_except_table358
+- GCC_except_table385
+- GCC_except_table398
+- GCC_except_table404
+- GCC_except_table406
+- GCC_except_table411
+- GCC_except_table418
+- GCC_except_table419
+- GCC_except_table420
+- GCC_except_table428
+- GCC_except_table458
+- GCC_except_table462
+- GCC_except_table467
+- GCC_except_table471
+- GCC_except_table472
+- GCC_except_table473
+- GCC_except_table487
+- GCC_except_table488
+- GCC_except_table494
+- GCC_except_table495
+- GCC_except_table513
+- GCC_except_table518
+- GCC_except_table523
+- GCC_except_table524
+- GCC_except_table531
+- GCC_except_table533
+- GCC_except_table537
+- GCC_except_table541
+- GCC_except_table542
+- GCC_except_table547
+- GCC_except_table548
+- GCC_except_table549
+- GCC_except_table560
+- GCC_except_table561
+- GCC_except_table562
+- GCC_except_table567
+- GCC_except_table571
+- GCC_except_table572
+- GCC_except_table586
+- GCC_except_table588
+- GCC_except_table599
+- GCC_except_table612
+- GCC_except_table614
+- GCC_except_table621
+- GCC_except_table622
+- GCC_except_table637
+- GCC_except_table643
+- GCC_except_table644
+- GCC_except_table645
+- GCC_except_table704
+- GCC_except_table705
+- GCC_except_table709
+- GCC_except_table739
+- GCC_except_table756
+- GCC_except_table809
+- GCC_except_table814
+- GCC_except_table818
+- GCC_except_table822
+- GCC_except_table824
+- GCC_except_table835
+- GCC_except_table837
+- GCC_except_table839
+- GCC_except_table844
+- GCC_except_table848
+- GCC_except_table849
+- GCC_except_table870
+- GCC_except_table876
+- GCC_except_table878
+- GCC_except_table880
+- GCC_except_table895
+- GCC_except_table896
+- GCC_except_table897
+- GCC_except_table903
+- GCC_except_table905
+- GCC_except_table910
+- GCC_except_table912
+- GCC_except_table914
+- GCC_except_table918
+- GCC_except_table923
+- GCC_except_table925
+- GCC_except_table951
+- GCC_except_table955
+- GCC_except_table956
+- GCC_except_table962
+- GCC_except_table963
+- GCC_except_table970
+- GCC_except_table972
+- GCC_except_table974
+- GCC_except_table982
+- GCC_except_table989
+- GCC_except_table990
+- __ZN10applesauce2CF10convert_asIxLi0EEENSt3__18optionalIT_EEPK10__CFNumber
+- __ZN10applesauce2CF7details23find_at_key_or_optionalINS0_7TypeRefERA6_KcEENSt3__18optionalIT_EEPK14__CFDictionaryOT0_NS1_17applesauce_cf_tagE
+- __ZN3adm5graph24AudioIssueDetectorClient5resetEv
+- __ZN3adm5graph6detail18KernelPropertyTypeIN10applesauce2CF7TypeRefEEC1IS5_EENS0_16KernelPropertyIDERKT_
+- __ZN3adm7utility27readDefaultsEnableDSPBypassEv
+- __ZN3adm7utility36readDefaultsDebugAudioCaptureOptionsEv
+- __ZNSt3__112__hash_tableINS_17__hash_value_typeINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_13unordered_mapIS7_N3adm26DSPGraphBasicConfigurationENS_4hashIS7_EENS_8equal_toIS7_EENS5_INS_4pairIKS7_SA_EEEEEEEENS_22__unordered_map_hasherIS7_SK_SC_SE_Lb1EEENS_21__unordered_map_equalIS7_SK_SE_SC_Lb1EEENS5_ISK_EEEC2EOSQ_
+- __ZNSt3__118condition_variableD1Ev
+- __ZNSt3__119__shared_mutex_base13unlock_sharedEv
+- __ZNSt3__119__shared_mutex_base15try_lock_sharedEv
+- __ZNSt3__119__shared_mutex_base4lockEv
+- __ZNSt3__119__shared_mutex_base6unlockEv
+- __ZNSt3__119__shared_mutex_baseC1Ev
+- __ZNSt3__14__fs10filesystem6existsB8ne200100ERKNS1_4pathERNS_10error_codeE
+- __ZNSt3__15mutexD1Ev
+- __ZNSt3__16vectorINS_10shared_ptrIN3adm5graph14KernelPropertyEEENS_9allocatorIS5_EEE9push_backB8ne200100ERKS5_
+- __ZNSt3__16vectorIjNS_9allocatorIjEEE7reserveEm
+- __ZNSt3__18optionalIN10applesauce2CF13DictionaryRefEED1Ev
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_AudioDSPManagerSwift
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AudioDSPManagerSwift
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AudioDSPManagerSwift
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AudioDSPManagerSwift
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B3CsugCriSWSfSnNgXtHP9hB-8rBBtB4PsZwtrw/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
++ "BeginProcessing handler is called, IOStarting"
++ "SpeakerTap"
++ "_VoiceProcessingUL"
++ "microphone_port_subtype"
+- "/AppleInternal/Library/BuildRoots/4~B1g5ugCWaC5eLMvhudV3aHgqZDXLTtcTZSUCEXI/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/exception/detail/exception_ptr.hpp"
+- "Failed to reset RTAID due to error %i"
+- "VoiceProcessingUL"
+
+```

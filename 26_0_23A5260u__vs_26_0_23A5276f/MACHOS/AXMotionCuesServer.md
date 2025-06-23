@@ -1,0 +1,264 @@
+## AXMotionCuesServer
+
+> `/System/Library/AccessibilityBundles/AXMotionCuesServer.axuiservice/AXMotionCuesServer`
+
+```diff
+
+-3180.6.1.0.0
+-  __TEXT.__text: 0x2b8c0
+-  __TEXT.__auth_stubs: 0x12f0
++3183.1.0.0.0
++  __TEXT.__text: 0x30784
++  __TEXT.__auth_stubs: 0x1320
+   __TEXT.__objc_stubs: 0xe0
+   __TEXT.__objc_methlist: 0x5a8
+   __TEXT.__const: 0x1a96
+-  __TEXT.__cstring: 0x2f5f
++  __TEXT.__cstring: 0x3c1f
+   __TEXT.__gcc_except_tab: 0x24
+-  __TEXT.__oslogstring: 0xa88
++  __TEXT.__oslogstring: 0xaf8
+   __TEXT.__dlopen_cstrs: 0x68
+   __TEXT.__objc_classname: 0x8a
+-  __TEXT.__objc_methname: 0x12a0
++  __TEXT.__objc_methname: 0x12cc
+   __TEXT.__objc_methtype: 0x3c9
+-  __TEXT.__constg_swiftt: 0x10a4
+-  __TEXT.__swift5_typeref: 0x88e
+-  __TEXT.__swift5_reflstr: 0xe46
+-  __TEXT.__swift5_fieldmd: 0xbec
++  __TEXT.__constg_swiftt: 0x10bc
++  __TEXT.__swift5_typeref: 0x88c
++  __TEXT.__swift5_reflstr: 0xe75
++  __TEXT.__swift5_fieldmd: 0xc04
+   __TEXT.__swift5_builtin: 0xb4
+-  __TEXT.__swift5_capture: 0x2b8
++  __TEXT.__swift5_capture: 0x264
+   __TEXT.__swift5_assocty: 0x140
+   __TEXT.__swift5_proto: 0x78
+   __TEXT.__swift5_types: 0x90
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__swift_as_entry: 0x54
+-  __TEXT.__swift_as_ret: 0x64
+-  __TEXT.__unwind_info: 0xb08
+-  __TEXT.__eh_frame: 0xe98
+-  __DATA_CONST.__auth_got: 0x988
+-  __DATA_CONST.__got: 0x308
++  __TEXT.__swift_as_entry: 0x58
++  __TEXT.__swift_as_ret: 0x6c
++  __TEXT.__unwind_info: 0xc78
++  __TEXT.__eh_frame: 0xf38
++  __DATA_CONST.__auth_got: 0x9a0
++  __DATA_CONST.__got: 0x310
+   __DATA_CONST.__auth_ptr: 0x400
+-  __DATA_CONST.__const: 0x1280
++  __DATA_CONST.__const: 0x11f0
+   __DATA_CONST.__cfstring: 0x60
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x40
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_protorefs: 0x20
+-  __DATA_CONST.__vfx_script_tbl: 0x20
+-  __DATA.__objc_const: 0x2290
+-  __DATA.__objc_selrefs: 0x630
+-  __DATA.__objc_data: 0xc58
+-  __DATA.__data: 0x1d98
+-  __DATA.__bss: 0x12d0
+-  __DATA.__common: 0xc0
++  __DATA_CONST.__vfx_script_tbl: 0x30
++  __DATA.__objc_const: 0x22b0
++  __DATA.__objc_selrefs: 0x658
++  __DATA.__objc_data: 0xc78
++  __DATA.__data: 0x2038
++  __DATA.__bss: 0x1430
++  __DATA.__common: 0x90
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D5495622-41E4-32EC-8BF9-8A70C3F18086
+-  Functions: 869
+-  Symbols:   384
+-  CStrings:  695
++  UUID: C92BB80D-0D85-3DD6-9D70-7B019ED09982
++  Functions: 951
++  Symbols:   467
++  CStrings:  748
+ 
+Symbols:
++ _CATransform3DMakeScale
++ _OBJC_CLASS_$_CABasicAnimation
++ __Z65Init_VMCParticlesScale_graph_1445C770_A49B_4894_94AC_B4D154F1884APKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_25B9580F_E23A_4B51_A840_30CE680727D7PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CCPKvjffffDv2_fbbbR15vfx_float_rangeS3_RDv3_fS5_S5_S5_S5_S5_S5_RbS6_S6_
++ __Z65Init_VMCParticlesScale_graph_2AA92230_9984_45FD_9A9C_66AB44D1A824PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_3EC81B40_ECC3_4C39_9B76_6559D42EFD23PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_4DF59011_C0EA_44A4_9C60_B8D7D31AE61DPKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_5E35518D_A00D_4A51_AE17_3EF90DE23185PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2EPKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_8D138026_9B52_481D_9973_96E7FEB9E3FCPKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_9A79FBED_A1DF_4990_907D_C27691AC2205PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Init_VMCParticlesScale_graph_A3F43E73_1BAF_42D6_A928_0BB85F553593PKvjfDv2_fR15vfx_float_rangeS3_
++ __Z65Main_VMCParticlesScale_graph_0B995548_91B4_4FFF_90AE_B881318BA5DEPKvjbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_0CA434B7_7AFD_4E43_8922_9DC5675E0789PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1PKvjbbbRf
++ __Z65Main_VMCParticlesScale_graph_146FC771_47A0_4A24_B5BA_69F87709644DPKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_17E967EA_C9EA_4ED9_9CF8_79DC9A0BDA22PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_325EA221_A398_4CC2_A685_33CAE117CA3BPKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018APKvjbbRDv3_fRb
++ __Z65Main_VMCParticlesScale_graph_3C8DF072_AB99_4AB3_A359_CF77D6D14F89PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1PKvjbbRDv3_fRb
++ __Z65Main_VMCParticlesScale_graph_5D958868_DF35_4085_8654_603C9A86965APKvjbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_6746B212_9E76_405D_B162_B0A889B3CC08PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_8FFB1B4C_C330_435D_8249_9CD583F85229PKvjbbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_A05BEC47_A3DB_432E_B908_AAB91A52CA37PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_A914479F_F468_4795_8E1E_41C0A98A3A01PKvjbbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_AB4B1C9A_5D07_488B_989B_A5749BBCC440PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_C3BA1F1C_035A_46DE_972F_607D12F4DCC8PKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_C872529C_63C3_483B_9924_4A939AC313EBPKvjfffRf
++ __Z65Main_VMCParticlesScale_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467PKvjbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_F324EAA4_B817_4C7A_B24F_74A008361421PKvjffbbbRDv3_f
++ __Z65Main_VMCParticlesScale_graph_FA441883_F559_4A46_86C7_02742D9AC80DPKvjbbRDv3_f
++ __Z66Spawn_VMCParticlesScale_graph_F06B866A_2AAD_4693_8963_A8695D4F626CPKvjffffffRfS1_S1_S1_S1_RbS2_S2_
++ __Z67Update_VMCParticlesScale_graph_211588BD_DE94_45AD_9945_A64B152FE2E8PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_40E24353_930D_45AD_BD44_26A71634859APKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_5F2BE375_CDF4_4719_B30B_8E7576C4D957PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_65FE66F1_9ED2_4B3B_8020_472043AE8875PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_6703DF5A_C977_4797_9BC1_83E0A7C80336PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_6A353C51_F304_42D8_9E95_D3BA58457D18PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_849F96DD_63C8_4A75_8AE4_CFFEA51C1316PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_9B0E811A_707E_4030_A430_3744E9E60E1EPKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_9ED1AF55_D6F5_41CB_B095_1B3644C71B6APKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_A71CEC89_D079_4ACA_8461_6EDA418BD8E9PKvjfffRDv3_f
++ __Z67Update_VMCParticlesScale_graph_E8303296_F525_4A35_AD16_D581D946684APKvjfffRDv3_f
++ ___vfx_script_VMCParticlesScale_graph_0B995548_91B4_4FFF_90AE_B881318BA5DE
++ ___vfx_script_VMCParticlesScale_graph_0CA434B7_7AFD_4E43_8922_9DC5675E0789
++ ___vfx_script_VMCParticlesScale_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1
++ ___vfx_script_VMCParticlesScale_graph_1445C770_A49B_4894_94AC_B4D154F1884A
++ ___vfx_script_VMCParticlesScale_graph_146FC771_47A0_4A24_B5BA_69F87709644D
++ ___vfx_script_VMCParticlesScale_graph_17E967EA_C9EA_4ED9_9CF8_79DC9A0BDA22
++ ___vfx_script_VMCParticlesScale_graph_211588BD_DE94_45AD_9945_A64B152FE2E8
++ ___vfx_script_VMCParticlesScale_graph_25B9580F_E23A_4B51_A840_30CE680727D7
++ ___vfx_script_VMCParticlesScale_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CC
++ ___vfx_script_VMCParticlesScale_graph_2AA92230_9984_45FD_9A9C_66AB44D1A824
++ ___vfx_script_VMCParticlesScale_graph_325EA221_A398_4CC2_A685_33CAE117CA3B
++ ___vfx_script_VMCParticlesScale_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018A
++ ___vfx_script_VMCParticlesScale_graph_3C8DF072_AB99_4AB3_A359_CF77D6D14F89
++ ___vfx_script_VMCParticlesScale_graph_3EC81B40_ECC3_4C39_9B76_6559D42EFD23
++ ___vfx_script_VMCParticlesScale_graph_40E24353_930D_45AD_BD44_26A71634859A
++ ___vfx_script_VMCParticlesScale_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1
++ ___vfx_script_VMCParticlesScale_graph_4DF59011_C0EA_44A4_9C60_B8D7D31AE61D
++ ___vfx_script_VMCParticlesScale_graph_5D958868_DF35_4085_8654_603C9A86965A
++ ___vfx_script_VMCParticlesScale_graph_5E35518D_A00D_4A51_AE17_3EF90DE23185
++ ___vfx_script_VMCParticlesScale_graph_5F2BE375_CDF4_4719_B30B_8E7576C4D957
++ ___vfx_script_VMCParticlesScale_graph_65FE66F1_9ED2_4B3B_8020_472043AE8875
++ ___vfx_script_VMCParticlesScale_graph_6703DF5A_C977_4797_9BC1_83E0A7C80336
++ ___vfx_script_VMCParticlesScale_graph_6746B212_9E76_405D_B162_B0A889B3CC08
++ ___vfx_script_VMCParticlesScale_graph_6A353C51_F304_42D8_9E95_D3BA58457D18
++ ___vfx_script_VMCParticlesScale_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2E
++ ___vfx_script_VMCParticlesScale_graph_849F96DD_63C8_4A75_8AE4_CFFEA51C1316
++ ___vfx_script_VMCParticlesScale_graph_8D138026_9B52_481D_9973_96E7FEB9E3FC
++ ___vfx_script_VMCParticlesScale_graph_8FFB1B4C_C330_435D_8249_9CD583F85229
++ ___vfx_script_VMCParticlesScale_graph_9A79FBED_A1DF_4990_907D_C27691AC2205
++ ___vfx_script_VMCParticlesScale_graph_9B0E811A_707E_4030_A430_3744E9E60E1E
++ ___vfx_script_VMCParticlesScale_graph_9ED1AF55_D6F5_41CB_B095_1B3644C71B6A
++ ___vfx_script_VMCParticlesScale_graph_A05BEC47_A3DB_432E_B908_AAB91A52CA37
++ ___vfx_script_VMCParticlesScale_graph_A3F43E73_1BAF_42D6_A928_0BB85F553593
++ ___vfx_script_VMCParticlesScale_graph_A71CEC89_D079_4ACA_8461_6EDA418BD8E9
++ ___vfx_script_VMCParticlesScale_graph_A914479F_F468_4795_8E1E_41C0A98A3A01
++ ___vfx_script_VMCParticlesScale_graph_AB4B1C9A_5D07_488B_989B_A5749BBCC440
++ ___vfx_script_VMCParticlesScale_graph_C3BA1F1C_035A_46DE_972F_607D12F4DCC8
++ ___vfx_script_VMCParticlesScale_graph_C872529C_63C3_483B_9924_4A939AC313EB
++ ___vfx_script_VMCParticlesScale_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467
++ ___vfx_script_VMCParticlesScale_graph_E8303296_F525_4A35_AD16_D581D946684A
++ ___vfx_script_VMCParticlesScale_graph_F06B866A_2AAD_4693_8963_A8695D4F626C
++ ___vfx_script_VMCParticlesScale_graph_F324EAA4_B817_4C7A_B24F_74A008361421
++ ___vfx_script_VMCParticlesScale_graph_FA441883_F559_4A46_86C7_02742D9AC80D
+- _CGAffineTransformMakeScale
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+CStrings:
++ "AXMotionCuesRootViewController viewDidAppear %@"
++ "AXMotionCuesRootViewController viewDidDisappear %@"
++ "AXMotionCuesRootViewController viewDidLoad %@"
++ "Called removeMainDisplayViewController but view controller is already nil."
++ "VMCParticlesScale"
++ "VMC_Particles_Scale"
++ "__vfx_script_VMCParticlesScale_graph_0B995548_91B4_4FFF_90AE_B881318BA5DE"
++ "__vfx_script_VMCParticlesScale_graph_0CA434B7_7AFD_4E43_8922_9DC5675E0789"
++ "__vfx_script_VMCParticlesScale_graph_1072D7CF_4C5A_44CA_989E_8E48D20C59A1"
++ "__vfx_script_VMCParticlesScale_graph_1445C770_A49B_4894_94AC_B4D154F1884A"
++ "__vfx_script_VMCParticlesScale_graph_146FC771_47A0_4A24_B5BA_69F87709644D"
++ "__vfx_script_VMCParticlesScale_graph_17E967EA_C9EA_4ED9_9CF8_79DC9A0BDA22"
++ "__vfx_script_VMCParticlesScale_graph_211588BD_DE94_45AD_9945_A64B152FE2E8"
++ "__vfx_script_VMCParticlesScale_graph_25B9580F_E23A_4B51_A840_30CE680727D7"
++ "__vfx_script_VMCParticlesScale_graph_25FD3188_A461_4DDE_9306_B8B93CAEA6CC"
++ "__vfx_script_VMCParticlesScale_graph_2AA92230_9984_45FD_9A9C_66AB44D1A824"
++ "__vfx_script_VMCParticlesScale_graph_325EA221_A398_4CC2_A685_33CAE117CA3B"
++ "__vfx_script_VMCParticlesScale_graph_3B7F6C17_DC21_4CBE_A0B6_00795EC5018A"
++ "__vfx_script_VMCParticlesScale_graph_3C8DF072_AB99_4AB3_A359_CF77D6D14F89"
++ "__vfx_script_VMCParticlesScale_graph_3EC81B40_ECC3_4C39_9B76_6559D42EFD23"
++ "__vfx_script_VMCParticlesScale_graph_40E24353_930D_45AD_BD44_26A71634859A"
++ "__vfx_script_VMCParticlesScale_graph_4B720A4C_22ED_4BC7_8EAB_63388F55B5E1"
++ "__vfx_script_VMCParticlesScale_graph_4DF59011_C0EA_44A4_9C60_B8D7D31AE61D"
++ "__vfx_script_VMCParticlesScale_graph_5D958868_DF35_4085_8654_603C9A86965A"
++ "__vfx_script_VMCParticlesScale_graph_5E35518D_A00D_4A51_AE17_3EF90DE23185"
++ "__vfx_script_VMCParticlesScale_graph_5F2BE375_CDF4_4719_B30B_8E7576C4D957"
++ "__vfx_script_VMCParticlesScale_graph_65FE66F1_9ED2_4B3B_8020_472043AE8875"
++ "__vfx_script_VMCParticlesScale_graph_6703DF5A_C977_4797_9BC1_83E0A7C80336"
++ "__vfx_script_VMCParticlesScale_graph_6746B212_9E76_405D_B162_B0A889B3CC08"
++ "__vfx_script_VMCParticlesScale_graph_6A353C51_F304_42D8_9E95_D3BA58457D18"
++ "__vfx_script_VMCParticlesScale_graph_6B70C51E_4F3C_471B_B2A6_82E6EAEB4C2E"
++ "__vfx_script_VMCParticlesScale_graph_849F96DD_63C8_4A75_8AE4_CFFEA51C1316"
++ "__vfx_script_VMCParticlesScale_graph_8D138026_9B52_481D_9973_96E7FEB9E3FC"
++ "__vfx_script_VMCParticlesScale_graph_8FFB1B4C_C330_435D_8249_9CD583F85229"
++ "__vfx_script_VMCParticlesScale_graph_9A79FBED_A1DF_4990_907D_C27691AC2205"
++ "__vfx_script_VMCParticlesScale_graph_9B0E811A_707E_4030_A430_3744E9E60E1E"
++ "__vfx_script_VMCParticlesScale_graph_9ED1AF55_D6F5_41CB_B095_1B3644C71B6A"
++ "__vfx_script_VMCParticlesScale_graph_A05BEC47_A3DB_432E_B908_AAB91A52CA37"
++ "__vfx_script_VMCParticlesScale_graph_A3F43E73_1BAF_42D6_A928_0BB85F553593"
++ "__vfx_script_VMCParticlesScale_graph_A71CEC89_D079_4ACA_8461_6EDA418BD8E9"
++ "__vfx_script_VMCParticlesScale_graph_A914479F_F468_4795_8E1E_41C0A98A3A01"
++ "__vfx_script_VMCParticlesScale_graph_AB4B1C9A_5D07_488B_989B_A5749BBCC440"
++ "__vfx_script_VMCParticlesScale_graph_C3BA1F1C_035A_46DE_972F_607D12F4DCC8"
++ "__vfx_script_VMCParticlesScale_graph_C872529C_63C3_483B_9924_4A939AC313EB"
++ "__vfx_script_VMCParticlesScale_graph_D5A926A8_D9DD_456C_B6D4_4FDF3C1BB467"
++ "__vfx_script_VMCParticlesScale_graph_E8303296_F525_4A35_AD16_D581D946684A"
++ "__vfx_script_VMCParticlesScale_graph_F06B866A_2AAD_4693_8963_A8695D4F626C"
++ "__vfx_script_VMCParticlesScale_graph_F324EAA4_B817_4C7A_B24F_74A008361421"
++ "__vfx_script_VMCParticlesScale_graph_FA441883_F559_4A46_86C7_02742D9AC80D"
++ "animationWithKeyPath:"
++ "got 10 nil model outputs in a row"
++ "nilModelOutputCount"
++ "particlesScale"
++ "removeAllContentViewControllersForService:withUserInteractionEnabled:completion:"
++ "setDuration:"
++ "setFromValue:"
++ "setRemovedOnCompletion:"
++ "setToValue:"
+- "AXMotionCuesRootViewController viewDidAppear"
+- "AXMotionCuesRootViewController viewDidDisappear"
+- "AXMotionCuesRootViewController viewDidLoad"
+- "animateWithDuration:delay:options:animations:completion:"
+- "got nil model output"
+- "removeContentViewController:withUserInteractionEnabled:forService:context:completion:"
+
+```

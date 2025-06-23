@@ -1,0 +1,525 @@
+## GeoAnalytics
+
+> `/System/Library/PrivateFrameworks/GeoAnalytics.framework/GeoAnalytics`
+
+```diff
+
+-2018.30.5.20.2
+-  __TEXT.__text: 0x88568
+-  __TEXT.__auth_stubs: 0x870
+-  __TEXT.__objc_methlist: 0x1efc
++2022.30.6.6.3
++  __TEXT.__text: 0x89698
++  __TEXT.__auth_stubs: 0x8a0
++  __TEXT.__objc_methlist: 0x1f14
+   __TEXT.__const: 0x61c
+   __TEXT.__dlopen_cstrs: 0x126
+   __TEXT.__gcc_except_tab: 0x9dc
+-  __TEXT.__cstring: 0xe22f
++  __TEXT.__cstring: 0xe2eb
+   __TEXT.__oslogstring: 0xfe4
+-  __TEXT.__unwind_info: 0xcf8
+-  __TEXT.__objc_classname: 0x399
+-  __TEXT.__objc_methname: 0x11acc
+-  __TEXT.__objc_methtype: 0x1a32
+-  __TEXT.__objc_stubs: 0xd620
+-  __DATA_CONST.__got: 0x620
+-  __DATA_CONST.__const: 0x67e8
++  __TEXT.__unwind_info: 0xd10
++  __TEXT.__objc_classname: 0x3af
++  __TEXT.__objc_methname: 0x12147
++  __TEXT.__objc_methtype: 0x1ae5
++  __TEXT.__objc_stubs: 0xd920
++  __DATA_CONST.__got: 0x638
++  __DATA_CONST.__const: 0x6810
+   __DATA_CONST.__objc_classlist: 0xd0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3cb0
++  __DATA_CONST.__objc_selrefs: 0x3d70
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x80
+   __DATA_CONST.__objc_arraydata: 0xef8
+-  __AUTH_CONST.__auth_got: 0x450
++  __AUTH_CONST.__auth_got: 0x468
+   __AUTH_CONST.__const: 0x2d60
+-  __AUTH_CONST.__cfstring: 0x13c40
++  __AUTH_CONST.__cfstring: 0x13d20
+   __AUTH_CONST.__objc_const: 0x1f18
+-  __AUTH_CONST.__objc_intobj: 0x1878
++  __AUTH_CONST.__objc_intobj: 0x1998
+   __AUTH_CONST.__objc_dictobj: 0x4b0
+   __AUTH_CONST.__objc_doubleobj: 0x20
+   __AUTH_CONST.__objc_arrayobj: 0x318
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: F036D6AF-4B8B-3067-A073-FD8C1B0AB59D
+-  Functions: 1338
+-  Symbols:   6123
+-  CStrings:  7549
++  UUID: 4EC8EB6A-83B5-393C-844E-27A65A41EA90
++  Functions: 1340
++  Symbols:   6158
++  CStrings:  7591
+ 
+Symbols:
++ +[GEOAPFuzzers saltedHashWithSalt:value:]
++ +[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:]
++ +[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]
++ +[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:]
++ +[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:additionalStates:providedDropRate:completionQueue:completionBlock:]
++ +[GEOAPPortal(client_ac_suggestions) captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:]
++ GCC_except_table1016
++ GCC_except_table1022
++ GCC_except_table1233
++ GCC_except_table436
++ GCC_except_table499
++ GCC_except_table502
++ GCC_except_table505
++ GCC_except_table508
++ GCC_except_table540
++ GCC_except_table550
++ GCC_except_table552
++ GCC_except_table559
++ GCC_except_table573
++ GCC_except_table579
++ GCC_except_table588
++ GCC_except_table860
++ GCC_except_table974
++ GCC_except_table998
++ _CC_SHA256_Final
++ _CC_SHA256_Init
++ _CC_SHA256_Update
++ _OBJC_CLASS_$_GEOExperimentMetadata
++ _OBJC_CLASS_$_GEOModelMetadata
++ _OBJC_CLASS_$_GEORedactedDirectionsClientMetadata
++ __OBJC_$_CLASS_METHODS_GEOAPPortal(NetworkEvent|UserAction|UserActionCodeGen|Extras|system_app_deletion|daily_usage_counts|GeoAnalyticsEventConfig_directionsRequestDetails_disabled|client_ac_suggestions|DailyUsageCodeGen|PredEx|GridDuration|FindMy)
++ ___107+[GEOAPPortal captureImpressionEventWithAdditionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.58
++ ___113+[GEOAPPortal captureNavTraceWithNavTraceData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.72
++ ___114+[GEOAPPortal captureNetEventSummaryWithGroups:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.74
++ ___117+[GEOAPPortal capturePressureDataWithPressureData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.89
++ ___117+[GEOAPPortal captureTtlInitialTimeWithTravelTime:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.113
++ ___120+[GEOAPPortal captureHardStopWithScore:digits:cities:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.56
++ ___120+[GEOAPPortal captureTelemetricWithTelemetricEntitys:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.107
++ ___122+[GEOAPPortal captureRealTrafficWithLocationCollection:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.93
++ ___123+[GEOAPPortal captureMapsInteractionWithInteractionType:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.66
++ ___123+[GEOAPPortal captureNetSelectionHarvestWithHarvestData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.76
++ ___123+[GEOAPPortal captureWifiProbeWithWifiConnectionQuality:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.121
++ ___127+[GEOAPPortal captureMapsEngagementWithUser_mapsUseLastDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.64
++ ___128+[GEOAPPortal capturePlacesServiceMetadataWithPlacesMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.82
++ ___136+[GEOAPPortal captureDirectionsServiceMetadataWithDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.43
++ ___136+[GEOAPPortal captureUgcDeleteLogsWithCertificates:signature:trigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.115
++ ___137+[GEOAPPortal captureMarcoLiteWithTotalNavTime:usageStates:vioTrigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.68
++ ___137+[GEOAPPortal captureTableBookedWithBookedTableSessionId:bookedTables:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.103
++ ___154+[GEOAPPortal captureTransitAppLaunchWithBundleIdentifier:source:destination:timestamp:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.109
++ ___161+[GEOAPPortal captureEvRoutingVehicleDetailsWithMake:model:towingNotSupported:batteryCapacity:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.47
++ ___164+[GEOAPPortal captureProactiveSuggestionWithListType:interactedItemIndex:duration:proactiveItems:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.91
++ ___165+[GEOAPPortal captureMapLaunchWithLaunchUri:sourceAppId:GEOTimeToLeaveMapLaunch_minutesUntilEvent:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.61
++ ___168+[GEOAPPortal captureFindMyUsageWithUserActionEventAction:userActionEventTarget:userActionEventValue:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.52
++ ___171+[GEOAPPortal captureGridDurationWithDurationMs:previousState:endState:endStateErrorReasons:displayType:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.54
++ ___174+[GEOAPPortal captureNavThermalPressureWithThermalPressure:disableMapFeatures:navMapType:collectionTrigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.70
++ ___177+[GEOAPPortal capturePeriodicSettingsWithMapSettings:mapUiShown:mapsFeatures:mapsUserSettings:routingSettings:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.81
++ ___180+[GEOAPPortal captureShowcaseSuppressionWithBusinessId:localSearchProviderID:showcaseId:suppressionReason:adamId:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.101
++ ___202+[GEOAPPortal captureDailyUseSummaryWithUseEvents:summaryPeriod:summaryDate:aggregationSummaryDate:firstEventDate:user_mapsUseLastDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.38
++ ___205+[GEOAPPortal capturePoiBusynessDataWithTimestamp:GEOLatLng_lat:GEOLatLng_lng:horizontalAccuracy:verticalAccuracy:altitude:poiPredictions:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.85
++ ___228+[GEOAPPortal captureCommuteWindowWithStartTime:duration:predictedExitTime:endReason:numberOfAlertingResponses:numberOfDoomRoutingRequests:predictedDestinations:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.35
++ ___236+[GEOAPPortal captureWidgetInteractionWithMapsWidgetType:endState:lockedMode:localHour:localDayOfWeek:duration:mapsNearbyWidget:mapsTransitWidget:mapsDestinationsWidget:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.119
++ ___251+[GEOAPPortal captureDisplayAnalyticWithDisplayActionTrigger:requiredResourcesAvailable:totalTime:requestedImageCount:renderedImageCount:movementDistance:meanImageSpacing:displayEvent:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.45
++ ___251+[GEOAPPortal captureTtlHypothesisWithArrival:departure:ttlUiNotificationShown:earliestArrivalOffset:earliestDepartureOffset:latestArrivalOffset:latestDepartureOffset:numberOfReroutes:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.111
++ ___268+[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
++ ___268+[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.95
++ ___313+[GEOAPPortal captureEvTripWithOutOfCharge:outOfRangeAlertDisplayed:originalTripIncludedChargingStation:chargingStopAddedThroughSar:tripIncludedPreferredChargingStation:stopRemovedDetails:realtimeDodgeballs:chargeLocationDetails:stopAddedDetails:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.50
++ ___318+[GEOAPPortal captureRideBookedWithRideBookedSessionId:bookedUsingMaps:cancelled:contactedDriver:viewedInProactiveTray:tappedProactiveTrayItem:viewedDetails:invalidVehicleLocation:missingVehicleLocation:rideAppId:rideAppVersion:intentResponseFailures:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.97
++ ___341+[GEOAPPortal captureVlfUsageWithEntryPoint:sessionTimeMs:timeRoundedToHour:localizationDetails:finalState:postFusionCorrection:initialPositionContextClassification:initialLocation:initializationFailureDetails:arStates:deviceOrientations:crowdsourcingDetails:arFailureTypes:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.117
++ ___377+[GEOAPPortal captureTableBookingWithBookTableSessionId:endState:endView:bookTableAppId:muid:blurredReservationTimestamp:blurredBookingTimestamp:durationOfSessionInSeconds:installNeeded:installNeededTappedAppId:installCompleted:tableSize:addedSpecialRequest:swipedAvailableTimes:tappedDatePicker:errorMessages:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.105
++ ___416+[GEOAPPortal captureNetworkEventWithNetworkService:requestAppIdentifier:requestAppIdMajorVer:requestAppIdMinorVer:requestErrorDomain:requestErrorCode:requestDataSize:responseDataSize:totalTime:httpResponseCode:serviceIpAddress:taskMetrics:mptcpServiceType:mptcpNegotiated:rnfTriggered:queuedTime:redirectCount:requestStart:requestEnd:wasBackground:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.79
++ ___478+[GEOAPPortal captureRideBookingWithRideBookingSessionId:statusIssue:endState:endView:rideAppId:rideAppVersion:originBlurred:destinationBlurred:exploredOtherOptions:distanceToPickupInMeters:paymentIsApplePay:numberOfAvailableExtensions:switchedApp:comparedRideOptions:showedSurgePricingAlert:durationOfSessionInSeconds:installedApp:timestamp:unavailable:movedPickupLocation:errorMessages:intentResponseFailures:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.99
++ ___601+[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
++ ___601+[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.33
++ ___705+[GEOAPPortal capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isInBasemode:isCarplayConnected:isTourist:isTransitPossible:routePlanningScreenPresented:userLocationGeohash4:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.87
++ ___978+[GEOAPPortal captureDirectionsWithDirectionsFeedbacks:finalLocation:arrivalLocation:arrivedAtDestination:navigationAudioFeedback:durationOfTrip:durationInNavigationModes:preArrival:originalEta:isVlfImprovementUsed:isCoarseLocationUsed:acceptedCyclingWorkout:batteryDied:chargingStopAdded:isSiriEngaged:tripOrigin:isBadEvExperience:isEvSampleTrip:stateOfChargeAtOrigin:stateOfChargeAtDestPredicted:stateOfChargeAtDestActual:stateOfChargeDiffAtDest:waypoints:evConsumptionModel:evChargingMode:activeNavMode:arWalkingUsedInRoutePlanning:arWalkingUsedInNavigation:voiceGuidanceLevel:hFPEnabled:isEndRouteTermination:isParkedCarTermination:isTransitionToWalkingTermination:isTransitionToFindmyTermination:parkingDetectionLocation:timeBetweenParkedAndArrival:arrivedAtDestinationCount:inParkingModeCount:isInParkingMode:isSuggestToWalkingTriggered:isTransitedToWalking:isSuggestToFindmyTriggered:isTransitedToFindmy:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.41
++ ___Block_byref_object_copy_.1097
++ ___Block_byref_object_copy_.2434
++ ___Block_byref_object_copy_.3224
++ ___Block_byref_object_copy_.3292
++ ___Block_byref_object_dispose_.1098
++ ___Block_byref_object_dispose_.2435
++ ___Block_byref_object_dispose_.3225
++ ___Block_byref_object_dispose_.3293
++ ___block_descriptor_40_e8_32s_e30_v28?0"GEOLogMsgState"8I16Q20ls32l8
++ ___block_descriptor_48_e8_32s40s_e30_v28?0"GEOLogMsgState"8I16Q20ls32l8s40l8
++ ___block_descriptor_56_e8_32s40r48r_e39_v60?0d8{GEOSessionID=QQ}16d32d40I48Q52ls32l8r40l8r48l8
++ ___block_descriptor_56_e8_32s40s48bs_e30_v28?0"GEOLogMsgState"8I16Q20ls32l8s48l8s40l8
++ ___block_descriptor_64_e8_32s40s48s_e30_v28?0"GEOLogMsgState"8I16Q20ls32l8s40l8s48l8
++ ___block_literal_global.102.1575
++ ___block_literal_global.1030
++ ___block_literal_global.107.1582
++ ___block_literal_global.1102
++ ___block_literal_global.114.2113
++ ___block_literal_global.119.2120
++ ___block_literal_global.12.1481
++ ___block_literal_global.12.2017
++ ___block_literal_global.1214
++ ___block_literal_global.124.2127
++ ___block_literal_global.1262
++ ___block_literal_global.129.2134
++ ___block_literal_global.129.3362
++ ___block_literal_global.134.2967
++ ___block_literal_global.137.2141
++ ___block_literal_global.1370
++ ___block_literal_global.1384
++ ___block_literal_global.142.2146
++ ___block_literal_global.146
++ ___block_literal_global.147.2151
++ ___block_literal_global.1471
++ ___block_literal_global.151
++ ___block_literal_global.152.2156
++ ___block_literal_global.156
++ ___block_literal_global.157.2161
++ ___block_literal_global.161
++ ___block_literal_global.162.2168
++ ___block_literal_global.166
++ ___block_literal_global.167.2173
++ ___block_literal_global.171
++ ___block_literal_global.172.2178
++ ___block_literal_global.177.2185
++ ___block_literal_global.18.1396
++ ___block_literal_global.18.1491
++ ___block_literal_global.182.2192
++ ___block_literal_global.187.2199
++ ___block_literal_global.192.2206
++ ___block_literal_global.197.2213
++ ___block_literal_global.2009
++ ___block_literal_global.202.2218
++ ___block_literal_global.207.2223
++ ___block_literal_global.212.2230
++ ___block_literal_global.217.2235
++ ___block_literal_global.222.2240
++ ___block_literal_global.227.2247
++ ___block_literal_global.232.2254
++ ___block_literal_global.2365
++ ___block_literal_global.237.2259
++ ___block_literal_global.242.2266
++ ___block_literal_global.247.2271
++ ___block_literal_global.2489
++ ___block_literal_global.252.2278
++ ___block_literal_global.2558
++ ___block_literal_global.257.2285
++ ___block_literal_global.262.2290
++ ___block_literal_global.262.2752
++ ___block_literal_global.274.2760
++ ___block_literal_global.282.2766
++ ___block_literal_global.284.2768
++ ___block_literal_global.292.2770
++ ___block_literal_global.2995
++ ___block_literal_global.307.2779
++ ___block_literal_global.314.2785
++ ___block_literal_global.322.2793
++ ___block_literal_global.324.2797
++ ___block_literal_global.3260
++ ___block_literal_global.332.2805
++ ___block_literal_global.334.2807
++ ___block_literal_global.342.2809
++ ___block_literal_global.3437
++ ___block_literal_global.347.2814
++ ___block_literal_global.3478
++ ___block_literal_global.352.2819
++ ___block_literal_global.357.2824
++ ___block_literal_global.42.2041
++ ___block_literal_global.436.2860
++ ___block_literal_global.446.2868
++ ___block_literal_global.458.2878
++ ___block_literal_global.463.2883
++ ___block_literal_global.47.2046
++ ___block_literal_global.473.2891
++ ___block_literal_global.493.1889
++ ___block_literal_global.50.1414
++ ___block_literal_global.52.2051
++ ___block_literal_global.555.2913
++ ___block_literal_global.57.2056
++ ___block_literal_global.62.2401
++ ___block_literal_global.635.1974
++ ___block_literal_global.66.2070
++ ___block_literal_global.722
++ ___block_literal_global.75.2996
++ ___block_literal_global.82.1547
++ ___block_literal_global.823
++ ___block_literal_global.87.1554
++ ___block_literal_global.92.1561
++ ___block_literal_global.957
++ ___block_literal_global.97.1568
++ ___block_literal_global.99.2986
++ __registerStateCaptureCallbacks.1474
++ __registerStateCaptureCallbacks.2012
++ __registerStateCaptureCallbacks.2368
++ __registerStateCaptureCallbacks.2561
++ __stateCaptureCallbackRegistration.1472
++ __stateCaptureCallbackRegistration.2010
++ __stateCaptureCallbackRegistration.2366
++ __stateCaptureCallbackRegistration.2559
++ _objc_msgSend$captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:
++ _objc_msgSend$captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:
++ _objc_msgSend$captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:additionalStates:providedDropRate:completionQueue:completionBlock:
++ _objc_msgSend$getBytes:maxLength:usedLength:encoding:options:range:remainingRange:
++ _objc_msgSend$hasMapSettingsFamiliarRoutes
++ _objc_msgSend$initWithBytes:length:encoding:
++ _objc_msgSend$mapSettingsFamiliarRoutes
++ _objc_msgSend$modelMetadata
++ _objc_msgSend$redactedDirectionsClientMetadata
++ _objc_msgSend$saltedHashWithSalt:value:
++ _objc_msgSend$setDeploymentId:
++ _objc_msgSend$setDestinationHash:
++ _objc_msgSend$setExperimentDescription:
++ _objc_msgSend$setExperimentId:
++ _objc_msgSend$setFamiliarRoutes:
++ _objc_msgSend$setModelMetadata:
++ _objc_msgSend$setPredictedDepartureTimeDelta:
++ _objc_msgSend$setRedactedDirectionsClientMetadata:
++ _objc_msgSend$setResponseStatus:
++ _objc_msgSend$setRolloutDeploymentId:
++ _objc_msgSend$setRolloutFactorpackId:
++ _objc_msgSend$setRolloutId:
++ _objc_msgSend$setRolloutRampId:
++ _objc_msgSend$setTreatmentId:
++ _objc_msgSend$setTrialExperimentMetadata:
++ _objc_msgSend$trialExperimentMetadata
++ _sharedManager.onceToken.1080
+- +[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:]
+- +[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:additionalStates:providedDropRate:completionQueue:completionBlock:]
+- +[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:]
+- +[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]
+- GCC_except_table1014
+- GCC_except_table1018
+- GCC_except_table1231
+- GCC_except_table435
+- GCC_except_table498
+- GCC_except_table501
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table539
+- GCC_except_table549
+- GCC_except_table551
+- GCC_except_table558
+- GCC_except_table572
+- GCC_except_table577
+- GCC_except_table587
+- GCC_except_table858
+- GCC_except_table972
+- GCC_except_table994
+- __OBJC_$_CLASS_METHODS_GEOAPPortal(NetworkEvent|UserAction|UserActionCodeGen|Extras|system_app_deletion|daily_usage_counts|GeoAnalyticsEventConfig_directionsRequestDetails_disabled|DailyUsageCodeGen|PredEx|GridDuration|FindMy)
+- ___107+[GEOAPPortal captureImpressionEventWithAdditionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.56
+- ___113+[GEOAPPortal captureNavTraceWithNavTraceData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.70
+- ___114+[GEOAPPortal captureNetEventSummaryWithGroups:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.72
+- ___117+[GEOAPPortal capturePressureDataWithPressureData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.87
+- ___117+[GEOAPPortal captureTtlInitialTimeWithTravelTime:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.110
+- ___120+[GEOAPPortal captureHardStopWithScore:digits:cities:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.54
+- ___120+[GEOAPPortal captureTelemetricWithTelemetricEntitys:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.104
+- ___122+[GEOAPPortal captureRealTrafficWithLocationCollection:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.91
+- ___123+[GEOAPPortal captureMapsInteractionWithInteractionType:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.64
+- ___123+[GEOAPPortal captureNetSelectionHarvestWithHarvestData:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.74
+- ___123+[GEOAPPortal captureWifiProbeWithWifiConnectionQuality:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.118
+- ___127+[GEOAPPortal captureMapsEngagementWithUser_mapsUseLastDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.62
+- ___128+[GEOAPPortal capturePlacesServiceMetadataWithPlacesMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.80
+- ___136+[GEOAPPortal captureDirectionsServiceMetadataWithDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.41
+- ___136+[GEOAPPortal captureUgcDeleteLogsWithCertificates:signature:trigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.112
+- ___137+[GEOAPPortal captureMarcoLiteWithTotalNavTime:usageStates:vioTrigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.66
+- ___137+[GEOAPPortal captureTableBookedWithBookedTableSessionId:bookedTables:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.100
+- ___152+[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
+- ___152+[GEOAPPortal captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.92
+- ___154+[GEOAPPortal captureTransitAppLaunchWithBundleIdentifier:source:destination:timestamp:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.106
+- ___161+[GEOAPPortal captureEvRoutingVehicleDetailsWithMake:model:towingNotSupported:batteryCapacity:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.45
+- ___164+[GEOAPPortal captureProactiveSuggestionWithListType:interactedItemIndex:duration:proactiveItems:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.89
+- ___165+[GEOAPPortal captureMapLaunchWithLaunchUri:sourceAppId:GEOTimeToLeaveMapLaunch_minutesUntilEvent:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.59
+- ___168+[GEOAPPortal captureFindMyUsageWithUserActionEventAction:userActionEventTarget:userActionEventValue:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.50
+- ___171+[GEOAPPortal captureGridDurationWithDurationMs:previousState:endState:endStateErrorReasons:displayType:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.52
+- ___174+[GEOAPPortal captureNavThermalPressureWithThermalPressure:disableMapFeatures:navMapType:collectionTrigger:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.68
+- ___177+[GEOAPPortal capturePeriodicSettingsWithMapSettings:mapUiShown:mapsFeatures:mapsUserSettings:routingSettings:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.79
+- ___180+[GEOAPPortal captureShowcaseSuppressionWithBusinessId:localSearchProviderID:showcaseId:suppressionReason:adamId:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.98
+- ___202+[GEOAPPortal captureDailyUseSummaryWithUseEvents:summaryPeriod:summaryDate:aggregationSummaryDate:firstEventDate:user_mapsUseLastDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.36
+- ___205+[GEOAPPortal capturePoiBusynessDataWithTimestamp:GEOLatLng_lat:GEOLatLng_lng:horizontalAccuracy:verticalAccuracy:altitude:poiPredictions:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.83
+- ___228+[GEOAPPortal captureCommuteWindowWithStartTime:duration:predictedExitTime:endReason:numberOfAlertingResponses:numberOfDoomRoutingRequests:predictedDestinations:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.33
+- ___236+[GEOAPPortal captureWidgetInteractionWithMapsWidgetType:endState:lockedMode:localHour:localDayOfWeek:duration:mapsNearbyWidget:mapsTransitWidget:mapsDestinationsWidget:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.116
+- ___251+[GEOAPPortal captureDisplayAnalyticWithDisplayActionTrigger:requiredResourcesAvailable:totalTime:requestedImageCount:renderedImageCount:movementDistance:meanImageSpacing:displayEvent:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.43
+- ___251+[GEOAPPortal captureTtlHypothesisWithArrival:departure:ttlUiNotificationShown:earliestArrivalOffset:earliestDepartureOffset:latestArrivalOffset:latestDepartureOffset:numberOfReroutes:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.108
+- ___276+[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke
+- ___276+[GEOAPPortal captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.31
+- ___313+[GEOAPPortal captureEvTripWithOutOfCharge:outOfRangeAlertDisplayed:originalTripIncludedChargingStation:chargingStopAddedThroughSar:tripIncludedPreferredChargingStation:stopRemovedDetails:realtimeDodgeballs:chargeLocationDetails:stopAddedDetails:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.48
+- ___318+[GEOAPPortal captureRideBookedWithRideBookedSessionId:bookedUsingMaps:cancelled:contactedDriver:viewedInProactiveTray:tappedProactiveTrayItem:viewedDetails:invalidVehicleLocation:missingVehicleLocation:rideAppId:rideAppVersion:intentResponseFailures:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.94
+- ___341+[GEOAPPortal captureVlfUsageWithEntryPoint:sessionTimeMs:timeRoundedToHour:localizationDetails:finalState:postFusionCorrection:initialPositionContextClassification:initialLocation:initializationFailureDetails:arStates:deviceOrientations:crowdsourcingDetails:arFailureTypes:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.114
+- ___377+[GEOAPPortal captureTableBookingWithBookTableSessionId:endState:endView:bookTableAppId:muid:blurredReservationTimestamp:blurredBookingTimestamp:durationOfSessionInSeconds:installNeeded:installNeededTappedAppId:installCompleted:tableSize:addedSpecialRequest:swipedAvailableTimes:tappedDatePicker:errorMessages:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.102
+- ___416+[GEOAPPortal captureNetworkEventWithNetworkService:requestAppIdentifier:requestAppIdMajorVer:requestAppIdMinorVer:requestErrorDomain:requestErrorCode:requestDataSize:responseDataSize:totalTime:httpResponseCode:serviceIpAddress:taskMetrics:mptcpServiceType:mptcpNegotiated:rnfTriggered:queuedTime:redirectCount:requestStart:requestEnd:wasBackground:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.77
+- ___478+[GEOAPPortal captureRideBookingWithRideBookingSessionId:statusIssue:endState:endView:rideAppId:rideAppVersion:originBlurred:destinationBlurred:exploredOtherOptions:distanceToPickupInMeters:paymentIsApplePay:numberOfAvailableExtensions:switchedApp:comparedRideOptions:showedSurgePricingAlert:durationOfSessionInSeconds:installedApp:timestamp:unavailable:movedPickupLocation:errorMessages:intentResponseFailures:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.96
+- ___705+[GEOAPPortal capturePredExTrainingWithChanceOfPrecipitation:chanceOfRain:chanceOfSnow:endTime:durationUntilEventEnd:durationUntilEventStart:startTime:temperature:timeOfDay:timeSinceBackgrounded:actualTransportMode:dayOfWeek:distanceFromHereToHome:distanceFromHereToOrigin:distanceFromHereToParkedCar:distanceFromHereToWork:distanceFromHere:distanceFromOriginToDestination:entryType:weatherType:mapType:predictedTransportMode:preferredTransportMode:isInBasemode:isCarplayConnected:isTourist:isTransitPossible:routePlanningScreenPresented:userLocationGeohash4:isVehicleBluetoothConnected:weatherAqi:modelName:modelVersion:modelTrainedDate:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.85
+- ___978+[GEOAPPortal captureDirectionsWithDirectionsFeedbacks:finalLocation:arrivalLocation:arrivedAtDestination:navigationAudioFeedback:durationOfTrip:durationInNavigationModes:preArrival:originalEta:isVlfImprovementUsed:isCoarseLocationUsed:acceptedCyclingWorkout:batteryDied:chargingStopAdded:isSiriEngaged:tripOrigin:isBadEvExperience:isEvSampleTrip:stateOfChargeAtOrigin:stateOfChargeAtDestPredicted:stateOfChargeAtDestActual:stateOfChargeDiffAtDest:waypoints:evConsumptionModel:evChargingMode:activeNavMode:arWalkingUsedInRoutePlanning:arWalkingUsedInNavigation:voiceGuidanceLevel:hFPEnabled:isEndRouteTermination:isParkedCarTermination:isTransitionToWalkingTermination:isTransitionToFindmyTermination:parkingDetectionLocation:timeBetweenParkedAndArrival:arrivedAtDestinationCount:inParkingModeCount:isInParkingMode:isSuggestToWalkingTriggered:isTransitedToWalking:isSuggestToFindmyTriggered:isTransitedToFindmy:additionalStates:providedDropRate:completionQueue:completionBlock:]_block_invoke.39
+- ___Block_byref_object_copy_.1184
+- ___Block_byref_object_copy_.2508
+- ___Block_byref_object_copy_.3274
+- ___Block_byref_object_copy_.3342
+- ___Block_byref_object_dispose_.1185
+- ___Block_byref_object_dispose_.2509
+- ___Block_byref_object_dispose_.3275
+- ___Block_byref_object_dispose_.3343
+- ___block_descriptor_40_e8_32s_e27_v20?0"GEOLogMsgState"8I16ls32l8
+- ___block_descriptor_48_e8_32s40r_e36_v52?0d8{GEOSessionID=QQ}16d32d40I48ls32l8r40l8
+- ___block_descriptor_56_e8_32s40s48bs_e27_v20?0"GEOLogMsgState"8I16ls32l8s48l8s40l8
+- ___block_descriptor_64_e8_32s40s48s_e27_v20?0"GEOLogMsgState"8I16ls32l8s40l8s48l8
+- ___block_literal_global.102.1663
+- ___block_literal_global.1043
+- ___block_literal_global.107.1670
+- ___block_literal_global.1117
+- ___block_literal_global.114.2197
+- ___block_literal_global.1189
+- ___block_literal_global.119.2204
+- ___block_literal_global.12.1569
+- ___block_literal_global.12.2100
+- ___block_literal_global.124.2211
+- ___block_literal_global.129.2218
+- ___block_literal_global.129.3412
+- ___block_literal_global.1300
+- ___block_literal_global.134.3021
+- ___block_literal_global.1346
+- ___block_literal_global.137.2225
+- ___block_literal_global.142.2230
+- ___block_literal_global.144
+- ___block_literal_global.1445
+- ___block_literal_global.1460
+- ___block_literal_global.147.2235
+- ___block_literal_global.149
+- ___block_literal_global.152.2240
+- ___block_literal_global.154
+- ___block_literal_global.1559
+- ___block_literal_global.157.2245
+- ___block_literal_global.159
+- ___block_literal_global.162.2252
+- ___block_literal_global.164
+- ___block_literal_global.167.2257
+- ___block_literal_global.169
+- ___block_literal_global.172.2262
+- ___block_literal_global.177.2269
+- ___block_literal_global.18.1472
+- ___block_literal_global.18.1579
+- ___block_literal_global.182.2276
+- ___block_literal_global.187.2283
+- ___block_literal_global.192.2290
+- ___block_literal_global.197.2297
+- ___block_literal_global.202.2302
+- ___block_literal_global.207.2307
+- ___block_literal_global.2092
+- ___block_literal_global.212.2314
+- ___block_literal_global.217.2319
+- ___block_literal_global.222.2324
+- ___block_literal_global.227.2331
+- ___block_literal_global.232.2338
+- ___block_literal_global.237.2343
+- ___block_literal_global.242.2350
+- ___block_literal_global.2439
+- ___block_literal_global.247.2355
+- ___block_literal_global.252.2362
+- ___block_literal_global.2563
+- ___block_literal_global.257.2369
+- ___block_literal_global.262.2374
+- ___block_literal_global.262.2820
+- ___block_literal_global.2632
+- ___block_literal_global.274.2824
+- ___block_literal_global.282.2826
+- ___block_literal_global.284.2828
+- ___block_literal_global.292.2830
+- ___block_literal_global.3048
+- ___block_literal_global.307.2839
+- ___block_literal_global.314.2845
+- ___block_literal_global.322.2853
+- ___block_literal_global.324.2857
+- ___block_literal_global.3310
+- ___block_literal_global.332.2865
+- ___block_literal_global.334.2867
+- ___block_literal_global.342.2869
+- ___block_literal_global.347.2874
+- ___block_literal_global.3489
+- ___block_literal_global.352.2879
+- ___block_literal_global.3529
+- ___block_literal_global.357.2884
+- ___block_literal_global.42.2124
+- ___block_literal_global.436.2911
+- ___block_literal_global.446.2919
+- ___block_literal_global.458.2929
+- ___block_literal_global.463.2934
+- ___block_literal_global.47.2129
+- ___block_literal_global.473.2942
+- ___block_literal_global.50.1490
+- ___block_literal_global.52.2134
+- ___block_literal_global.555.2964
+- ___block_literal_global.57.2139
+- ___block_literal_global.589
+- ___block_literal_global.62.2475
+- ___block_literal_global.66.2154
+- ___block_literal_global.727
+- ___block_literal_global.75.3049
+- ___block_literal_global.814
+- ___block_literal_global.82.1635
+- ___block_literal_global.87.1642
+- ___block_literal_global.908
+- ___block_literal_global.92.1649
+- ___block_literal_global.97.1656
+- ___block_literal_global.99.3039
+- __registerStateCaptureCallbacks.1562
+- __registerStateCaptureCallbacks.2095
+- __registerStateCaptureCallbacks.2442
+- __registerStateCaptureCallbacks.2635
+- __stateCaptureCallbackRegistration.1560
+- __stateCaptureCallbackRegistration.2093
+- __stateCaptureCallbackRegistration.2440
+- __stateCaptureCallbackRegistration.2633
+- _objc_msgSend$captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:additionalStates:providedDropRate:completionQueue:completionBlock:
+- _objc_msgSend$captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:
+- _sharedManager.onceToken.1167
+CStrings:
++ "@32@0:8Q16@24"
++ "ADD_TO_FAVORITE_GUIDE"
++ "FAMILIAR_ROUTES_ONBOARDING"
++ "FAMILIAR_ROUTE_DISPLAYED"
++ "FAMILIAR_ROUTE_NAV_STARTED"
++ "REMOVE_FROM_FAVORITE_GUIDE"
++ "SELECT_AUDIO_VOLUME_LOUDER"
++ "SELECT_AUDIO_VOLUME_SOFTER"
++ "captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:"
++ "captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:responseStatus:GEOModelMetadata_modelVersion:GEOModelMetadata_rolloutId:GEOModelMetadata_rolloutDeploymentId:GEOModelMetadata_rolloutFactorpackId:GEOModelMetadata_rolloutRampId:GEOExperimentMetadata_experimentId:GEOExperimentMetadata_deploymentId:GEOExperimentMetadata_treatmentId:GEOExperimentMetadata_experimentDescription:additionalStates:providedDropRate:completionQueue:completionBlock:"
++ "captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:"
++ "captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:GEORedactedDirectionsClientMetadata_destinationHash:GEORedactedDirectionsClientMetadata_predictedDepartureTimeDelta:additionalStates:providedDropRate:completionQueue:completionBlock:"
++ "client_ac_suggestions"
++ "getBytes:maxLength:usedLength:encoding:options:range:remainingRange:"
++ "hasMapSettingsFamiliarRoutes"
++ "initWithBytes:length:encoding:"
++ "mapSettingsFamiliarRoutes"
++ "modelMetadata"
++ "redactedDirectionsClientMetadata"
++ "saltedHashWithSalt:value:"
++ "setDeploymentId:"
++ "setDestinationHash:"
++ "setExperimentDescription:"
++ "setExperimentId:"
++ "setFamiliarRoutes:"
++ "setModelMetadata:"
++ "setPredictedDepartureTimeDelta:"
++ "setRedactedDirectionsClientMetadata:"
++ "setResponseStatus:"
++ "setRolloutDeploymentId:"
++ "setRolloutFactorpackId:"
++ "setRolloutId:"
++ "setRolloutRampId:"
++ "setTreatmentId:"
++ "setTrialExperimentMetadata:"
++ "trialExperimentMetadata"
++ "v164@0:8@16@24@32@40@48@56@64@72@80i88@92@100@108@116@124@132@140@148@156"
++ "v196@0:8@16@24@32@40@48@56@64@72@80i88@92@100@108@116@124@132@140@148@156@164@172@180@?188"
++ "v28@?0@\"GEOLogMsgState\"8I16Q20"
++ "v60@?0d8{GEOSessionID=QQ}16d32d40I48Q52"
+- "captureClientACSuggestionWithQuery:queryTokens:entries:selectedIndex:selectedSectionIndex:withinSectionSelectedIndex:isRetainedQuery:isRerankerTriggered:shouldDifferentiateClientAndServerResults:additionalStates:providedDropRate:completionQueue:completionBlock:"
+- "captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:"
+- "captureRedactedDirectionsServiceMetadataWithRedactedDirectionsMetadata:additionalStates:providedDropRate:completionQueue:completionBlock:"
+- "v20@?0@\"GEOLogMsgState\"8I16"
+- "v52@?0d8{GEOSessionID=QQ}16d32d40I48"
+
+```

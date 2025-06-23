@@ -1,0 +1,349 @@
+## MediaServices
+
+> `/System/Library/PrivateFrameworks/MediaServices.framework/MediaServices`
+
+```diff
+
+-4025.100.95.0.0
++4025.100.107.0.0
+   __TEXT.__text: 0x59820
+   __TEXT.__auth_stubs: 0x1ee0
+   __TEXT.__objc_methlist: 0x567c
+   __TEXT.__const: 0x3d0
+   __TEXT.__dlopen_cstrs: 0xd4
+-  __TEXT.__cstring: 0x5fd7
++  __TEXT.__cstring: 0x5fdb
+   __TEXT.__gcc_except_tab: 0x1320
+   __TEXT.__oslogstring: 0x2c4d
+   __TEXT.__ustring: 0x18
+-  __TEXT.__unwind_info: 0x16d0
++  __TEXT.__unwind_info: 0x16d8
+   __TEXT.__objc_classname: 0xb1e
+   __TEXT.__objc_methname: 0xbc72
+   __TEXT.__objc_methtype: 0x1d23
+   __TEXT.__objc_stubs: 0x7b60
+   __DATA_CONST.__got: 0x668
+-  __DATA_CONST.__const: 0x14b0
++  __DATA_CONST.__const: 0x1490
+   __DATA_CONST.__objc_classlist: 0x318
+   __DATA_CONST.__objc_catlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0x98
+
+   __AUTH_CONST.__auth_got: 0xf88
+   __AUTH_CONST.__const: 0x700
+   __AUTH_CONST.__cfstring: 0x5960
+-  __AUTH_CONST.__objc_const: 0x9aa0
+-  __AUTH_CONST.__objc_arrayobj: 0x48
++  __AUTH_CONST.__objc_const: 0x9a80
+   __AUTH_CONST.__objc_intobj: 0x198
+   __AUTH_CONST.__objc_dictobj: 0x28
++  __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH.__objc_data: 0x14a0
+   __AUTH.__data: 0xc8
+   __DATA.__objc_ivar: 0x694
+
+   - /usr/lib/libz.1.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 4BF453B0-7A3E-3234-AF34-25D9527A2154
++  UUID: 3D6B6F27-10C3-3FF3-BA97-21A52814E21C
+   Functions: 2080
+-  Symbols:   7429
++  Symbols:   7424
+   CStrings:  4428
+ 
+Symbols:
++ GCC_except_table1056
++ GCC_except_table1230
++ GCC_except_table1235
++ GCC_except_table1256
++ GCC_except_table1257
++ GCC_except_table1258
++ GCC_except_table1275
++ GCC_except_table1332
++ GCC_except_table1334
++ GCC_except_table1339
++ GCC_except_table1341
++ GCC_except_table1342
++ GCC_except_table1343
++ GCC_except_table1348
++ GCC_except_table1360
++ GCC_except_table1395
++ GCC_except_table1403
++ GCC_except_table1449
++ GCC_except_table146
++ GCC_except_table1469
++ GCC_except_table150
++ GCC_except_table152
++ GCC_except_table1542
++ GCC_except_table1544
++ GCC_except_table1575
++ GCC_except_table1578
++ GCC_except_table1579
++ GCC_except_table1583
++ GCC_except_table1592
++ GCC_except_table1616
++ GCC_except_table1625
++ GCC_except_table1629
++ GCC_except_table1633
++ GCC_except_table1674
++ GCC_except_table180
++ GCC_except_table1859
++ GCC_except_table187
++ GCC_except_table188
++ GCC_except_table189
++ GCC_except_table196
++ GCC_except_table200
++ GCC_except_table204
++ GCC_except_table205
++ GCC_except_table210
++ GCC_except_table369
++ GCC_except_table375
++ GCC_except_table435
++ GCC_except_table484
++ GCC_except_table488
++ GCC_except_table490
++ GCC_except_table492
++ GCC_except_table494
++ GCC_except_table496
++ GCC_except_table498
++ GCC_except_table500
++ GCC_except_table502
++ GCC_except_table504
++ GCC_except_table506
++ GCC_except_table510
++ GCC_except_table517
++ GCC_except_table523
++ GCC_except_table594
++ GCC_except_table651
++ GCC_except_table665
++ GCC_except_table778
++ _MSVFastHexStringFromBytes.hexCharacters.4942
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_MSVAdditions
++ __OBJC_$_CATEGORY_CLASS_METHODS_NSURL_$_MSVAdditions
++ __OBJC_$_CATEGORY_NSArray_$_MSVSequence
++ __OBJC_$_CATEGORY_NSDate_$_MSVAdditions
++ __OBJC_$_CATEGORY_NSDictionary_$_MSVAdditions
++ __OBJC_$_CATEGORY_NSURL_$_MSVAdditions
++ __OBJC_$_CLASS_METHODS_NSError(MediaServices|MSVErrorAdditions|MSVDependencyError|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSArray(MSVSequence|MSVAdditions|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSDate(MSVAdditions|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSDictionary(MSVAdditions|MSVSequence|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSError(MediaServices|MSVErrorAdditions|MSVDependencyError|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSURL(MSVAdditions|MSVJSONConvertible)
++ __OBJC_$_PROP_LIST_NSDate_$_MSVAdditions
++ __OBJC_$_PROP_LIST_NSDictionary_$_MSVAdditions
++ __OBJC_$_PROP_LIST_NSURL_$_MSVAdditions
++ __OBJC_CLASS_PROTOCOLS_$_NSArray(MSVSequence|MSVAdditions|MSVJSONConvertible)
++ __OBJC_CLASS_PROTOCOLS_$_NSDate(MSVAdditions|MSVJSONConvertible)
++ __OBJC_CLASS_PROTOCOLS_$_NSDictionary(MSVAdditions|MSVSequence|MSVJSONConvertible)
++ __OBJC_CLASS_PROTOCOLS_$_NSError(MediaServices|MSVErrorAdditions|MSVDependencyError|MSVJSONConvertible)
++ __OBJC_CLASS_PROTOCOLS_$_NSURL(MSVAdditions|MSVJSONConvertible)
++ ___Block_byref_object_copy_.1059
++ ___Block_byref_object_copy_.1187
++ ___Block_byref_object_copy_.236
++ ___Block_byref_object_copy_.297
++ ___Block_byref_object_copy_.3749
++ ___Block_byref_object_copy_.4244
++ ___Block_byref_object_copy_.4630
++ ___Block_byref_object_copy_.4856
++ ___Block_byref_object_copy_.4937
++ ___Block_byref_object_copy_.5311
++ ___Block_byref_object_copy_.6076
++ ___Block_byref_object_copy_.786
++ ___Block_byref_object_dispose_.1060
++ ___Block_byref_object_dispose_.1188
++ ___Block_byref_object_dispose_.237
++ ___Block_byref_object_dispose_.298
++ ___Block_byref_object_dispose_.3750
++ ___Block_byref_object_dispose_.4245
++ ___Block_byref_object_dispose_.4631
++ ___Block_byref_object_dispose_.4857
++ ___Block_byref_object_dispose_.4938
++ ___Block_byref_object_dispose_.5312
++ ___Block_byref_object_dispose_.6077
++ ___Block_byref_object_dispose_.787
++ ___assertion.5834
++ ___assertionCount.5829
++ ___assertionInvalidationNonce.5833
++ ___assertionLock.5828
++ ___block_literal_global.1147
++ ___block_literal_global.122.4338
++ ___block_literal_global.1272
++ ___block_literal_global.189
++ ___block_literal_global.1987
++ ___block_literal_global.2138
++ ___block_literal_global.285
++ ___block_literal_global.2854
++ ___block_literal_global.2924
++ ___block_literal_global.2980
++ ___block_literal_global.3273
++ ___block_literal_global.3361
++ ___block_literal_global.4050
++ ___block_literal_global.4152
++ ___block_literal_global.4311
++ ___block_literal_global.4794
++ ___block_literal_global.5217
++ ___block_literal_global.5314
++ ___block_literal_global.55.5869
++ ___block_literal_global.5874
++ ___block_literal_global.5959
++ ___block_literal_global.695
++ ___block_literal_global.886
+- GCC_except_table100
+- GCC_except_table111
+- GCC_except_table1197
+- GCC_except_table1201
+- GCC_except_table1203
+- GCC_except_table1217
+- GCC_except_table1223
+- GCC_except_table125
+- GCC_except_table1283
+- GCC_except_table1486
+- GCC_except_table1490
+- GCC_except_table1492
+- GCC_except_table1494
+- GCC_except_table1496
+- GCC_except_table1498
+- GCC_except_table1500
+- GCC_except_table1502
+- GCC_except_table1504
+- GCC_except_table1506
+- GCC_except_table1508
+- GCC_except_table1512
+- GCC_except_table1519
+- GCC_except_table1525
+- GCC_except_table1589
+- GCC_except_table1598
+- GCC_except_table1602
+- GCC_except_table1606
+- GCC_except_table1647
+- GCC_except_table176
+- GCC_except_table177
+- GCC_except_table181
+- GCC_except_table1832
+- GCC_except_table186
+- GCC_except_table190
+- GCC_except_table197
+- GCC_except_table199
+- GCC_except_table201
+- GCC_except_table207
+- GCC_except_table311
+- GCC_except_table316
+- GCC_except_table337
+- GCC_except_table338
+- GCC_except_table339
+- GCC_except_table356
+- GCC_except_table413
+- GCC_except_table415
+- GCC_except_table420
+- GCC_except_table422
+- GCC_except_table423
+- GCC_except_table424
+- GCC_except_table429
+- GCC_except_table441
+- GCC_except_table464
+- GCC_except_table472
+- GCC_except_table518
+- GCC_except_table538
+- GCC_except_table607
+- GCC_except_table609
+- GCC_except_table643
+- GCC_except_table644
+- GCC_except_table648
+- GCC_except_table657
+- GCC_except_table688
+- GCC_except_table713
+- GCC_except_table990
+- _MSVFastHexStringFromBytes.hexCharacters.4808
+- __OBJC_$_CATEGORY_NSArray_$_MSVJSONConvertible
+- __OBJC_$_CATEGORY_NSDate_$_MSVJSONConvertible
+- __OBJC_$_CATEGORY_NSDictionary_$_MSVJSONConvertible
+- __OBJC_$_CATEGORY_NSURL_$_MSVJSONConvertible
+- __OBJC_$_CLASS_METHODS_NSDictionary(MSVJSONConvertible|MSVAdditions|MSVSequence)
+- __OBJC_$_CLASS_METHODS_NSError(MediaServices|MSVJSONConvertible|MSVErrorAdditions|MSVDependencyError)
+- __OBJC_$_CLASS_METHODS_NSURL(MSVJSONConvertible|MSVAdditions)
+- __OBJC_$_INSTANCE_METHODS_NSArray(MSVJSONConvertible|MSVAdditions|MSVSequence)
+- __OBJC_$_INSTANCE_METHODS_NSDate(MSVJSONConvertible|MSVAdditions)
+- __OBJC_$_INSTANCE_METHODS_NSDictionary(MSVJSONConvertible|MSVAdditions|MSVSequence)
+- __OBJC_$_INSTANCE_METHODS_NSError(MediaServices|MSVJSONConvertible|MSVErrorAdditions|MSVDependencyError)
+- __OBJC_$_INSTANCE_METHODS_NSURL(MSVJSONConvertible|MSVAdditions)
+- __OBJC_CATEGORY_PROTOCOLS_$_NSArray_$_MSVJSONConvertible
+- __OBJC_CATEGORY_PROTOCOLS_$_NSDate_$_MSVJSONConvertible
+- __OBJC_CATEGORY_PROTOCOLS_$_NSDictionary_$_MSVJSONConvertible
+- __OBJC_CATEGORY_PROTOCOLS_$_NSURL_$_MSVJSONConvertible
+- __OBJC_CLASS_PROTOCOLS_$_NSError(MediaServices|MSVJSONConvertible|MSVErrorAdditions|MSVDependencyError)
+- ___Block_byref_object_copy_.1311
+- ___Block_byref_object_copy_.1667
+- ___Block_byref_object_copy_.1933
+- ___Block_byref_object_copy_.2111
+- ___Block_byref_object_copy_.3341
+- ___Block_byref_object_copy_.3438
+- ___Block_byref_object_copy_.3509
+- ___Block_byref_object_copy_.4510
+- ___Block_byref_object_copy_.4720
+- ___Block_byref_object_copy_.4802
+- ___Block_byref_object_copy_.5180
+- ___Block_byref_object_copy_.6061
+- ___Block_byref_object_dispose_.1312
+- ___Block_byref_object_dispose_.1668
+- ___Block_byref_object_dispose_.1934
+- ___Block_byref_object_dispose_.2112
+- ___Block_byref_object_dispose_.3342
+- ___Block_byref_object_dispose_.3439
+- ___Block_byref_object_dispose_.3510
+- ___Block_byref_object_dispose_.4511
+- ___Block_byref_object_dispose_.4721
+- ___Block_byref_object_dispose_.4803
+- ___Block_byref_object_dispose_.5181
+- ___Block_byref_object_dispose_.6062
+- ___assertion.5819
+- ___assertionCount.5814
+- ___assertionInvalidationNonce.5818
+- ___assertionLock.5813
+- ___block_literal_global.122.4640
+- ___block_literal_global.1506
+- ___block_literal_global.1602
+- ___block_literal_global.1716
+- ___block_literal_global.2408
+- ___block_literal_global.2910
+- ___block_literal_global.3286
+- ___block_literal_global.3384
+- ___block_literal_global.3625
+- ___block_literal_global.3936
+- ___block_literal_global.403
+- ___block_literal_global.4639
+- ___block_literal_global.4658
+- ___block_literal_global.5087
+- ___block_literal_global.5183
+- ___block_literal_global.5427
+- ___block_literal_global.5486
+- ___block_literal_global.55.5854
+- ___block_literal_global.5859
+- ___block_literal_global.5944
+- ___block_literal_global.624
+- ___block_literal_global.891
+- ___block_literal_global.977
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_MediaServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_MediaServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_MediaServices
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_MediaServices
+CStrings:
++ "replacement"
+- "replace"
+
+```

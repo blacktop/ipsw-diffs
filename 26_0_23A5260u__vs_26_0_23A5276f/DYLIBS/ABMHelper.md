@@ -1,0 +1,418 @@
+## ABMHelper
+
+> `/System/Library/PrivateFrameworks/ABMHelper.framework/ABMHelper`
+
+```diff
+
+-1371.0.1.0.0
+-  __TEXT.__text: 0x140fb4
+-  __TEXT.__auth_stubs: 0x2410
++1377.2.0.0.0
++  __TEXT.__text: 0x142a08
++  __TEXT.__auth_stubs: 0x2430
+   __TEXT.__init_offsets: 0xc8
+   __TEXT.__objc_methlist: 0x14
+   __TEXT.__const: 0x5baa
+-  __TEXT.__gcc_except_tab: 0x19600
+-  __TEXT.__cstring: 0x686e
+-  __TEXT.__oslogstring: 0x9c19
+-  __TEXT.__unwind_info: 0x5ed8
++  __TEXT.__gcc_except_tab: 0x19880
++  __TEXT.__cstring: 0x6cdc
++  __TEXT.__oslogstring: 0x9d28
++  __TEXT.__unwind_info: 0x5f28
+   __TEXT.__objc_classname: 0x16
+   __TEXT.__objc_methname: 0x660
+   __TEXT.__objc_methtype: 0x28
+   __TEXT.__objc_stubs: 0xa00
+   __DATA_CONST.__got: 0x5d0
+-  __DATA_CONST.__const: 0x1e48
++  __DATA_CONST.__const: 0x2088
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x280
+   __DATA_CONST.__objc_arraydata: 0x10
+-  __AUTH_CONST.__auth_got: 0x1220
+-  __AUTH_CONST.__const: 0x7610
++  __AUTH_CONST.__auth_got: 0x1230
++  __AUTH_CONST.__const: 0x7640
+   __AUTH_CONST.__cfstring: 0x840
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__objc_intobj: 0x30
+
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x230
+-  __DATA_DIRTY.__bss: 0x428
++  __DATA_DIRTY.__bss: 0x8c0
+   __DATA_DIRTY.__common: 0xf4
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreMotion.framework/CoreMotion
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libsysdiagnose.dylib
+-  UUID: 3B5E0CFB-739E-3C12-B885-BBE4D08E8C54
+-  Functions: 3522
+-  Symbols:   9990
+-  CStrings:  2229
++  UUID: 5463BE14-410C-3FB6-AB99-FE6142330546
++  Functions: 3533
++  Symbols:   10160
++  CStrings:  2307
+ 
+Symbols:
++ GCC_except_table105
++ GCC_except_table149
++ _.str.66
++ __ZN13CoredumpTrace21parseCrashReason_syncERKN3xpc4dictE
++ __ZN13CoredumpTrace25updateAnalyticsEvent_syncERKN3xpc4dictES3_
++ __ZN16ICECoredumpTrace21parseCrashReason_syncERKN3xpc4dictE
++ __ZN18CrashReportMetrics15handleBothEntryEN3xpc4dictERKS1_PKc
++ __ZN18CrashReportMetrics17handleEitherEntryEN3xpc4dictERKS1_PKc
++ __ZN18CrashReportMetrics18handleGenericEntryEN3xpc4dictERKS1_PKc
++ __ZN18CrashReportMetrics20updateAnalyticsEventEN3xpc4dictERKS1_
++ __ZN18CrashReportMetrics30updateAnalyticsEventForEntriesEN3xpc4dictERKS1_NSt3__14spanINS_5EntryELm18446744073709551615EEE
++ __ZN21KernelPCIRestoreTrace12getLogClientEv
++ __ZN21KernelPCIRestoreTrace13dumpPCIEStateEN8dispatch13group_sessionE
++ __ZN21KernelPCIRestoreTrace18dumpPCIEState_syncEN8dispatch13group_sessionE
++ __ZN21KernelPCIRestoreTrace18readLogsCompletionEP11BuffContextmi
++ __ZN21KernelPCIRestoreTrace19flushLogsCompletionEP11BuffContextmi
++ __ZN21KernelPCIRestoreTrace22allocateBuffQueue_syncERNSt3__110shared_ptrI11PipeContextEE
++ __ZN21KernelPCIRestoreTrace22createBuffContext_syncEmRNSt3__110shared_ptrI11PipeContextEEN8dispatch13group_sessionE
++ __ZN21KernelPCIRestoreTrace22deleteBuffContext_syncEP11BuffContext
++ __ZN21KernelPCIRestoreTrace23registerWithKernel_syncEv
++ __ZN21KernelPCIRestoreTrace25deregisterWithKernel_syncEv
++ __ZN21KernelPCIRestoreTrace4stopEN8dispatch13group_sessionE
++ __ZN21KernelPCIRestoreTrace5startEN8dispatch13group_sessionE
++ __ZN21KernelPCIRestoreTraceC1ENS_6ConfigE
++ __ZN21KernelPCIRestoreTraceC2ENS_6ConfigE
++ __ZN21KernelPCIRestoreTraceD1Ev
++ __ZN21KernelPCIRestoreTraceD2Ev
++ __ZN3abm10kKeyMCGRATE
++ __ZN3abm10kKeyOTAMsgE
++ __ZN3abm10kKeySCGRATE
++ __ZN3abm12kKeyIMSIPLMNE
++ __ZN3abm12kKeyL1CSchedE
++ __ZN3abm12kKeyL1CStateE
++ __ZN3abm12kKeyL3CStateE
++ __ZN3abm12kKeyPCellPCIE
++ __ZN3abm12kKeySCGStateE
++ __ZN3abm12kKeySDMStateE
++ __ZN3abm13kKeyBWPSwitchE
++ __ZN3abm13kKeyDLCCStateE
++ __ZN3abm13kKeyIsAPAwakeE
++ __ZN3abm13kKeyNASSecCtxE
++ __ZN3abm13kKeyPCellSINRE
++ __ZN3abm13kKeyPSCellPCIE
++ __ZN3abm13kKeyRRCErrorsE
++ __ZN3abm13kKeyULCCStateE
++ __ZN3abm14kKeyAMRRCStateE
++ __ZN3abm14kKeyL1CServiceE
++ __ZN3abm14kKeyPSCellSINRE
++ __ZN3abm14kKeyRFRequiredE
++ __ZN3abm14kKeyRFResourceE
++ __ZN3abm14kKeyTLSBASInfoE
++ __ZN3abm14kKeyTRXHandlesE
++ __ZN3abm15kKeyEnabledRATsE
++ __ZN3abm15kKeyMCGRRCStateE
++ __ZN3abm15kKeyMMOTARejectE
++ __ZN3abm15kKeyNRCDRXStateE
++ __ZN3abm15kKeyPCellSecCtxE
++ __ZN3abm15kKeyScreenStateE
++ __ZN3abm16kKeyLTECDRXStateE
++ __ZN3abm16kKeyPCellDLARFCNE
++ __ZN3abm16kKeySleepBlockedE
++ __ZN3abm17kKeyMSIMArbBitmapE
++ __ZN3abm17kKeyOperationModeE
++ __ZN3abm17kKeyPSCellDLARFCNE
++ __ZN3abm17kKeyTGULTAGBitmapE
++ __ZN3abm18kKeyDLCRFullBitmapE
++ __ZN3abm18kKeyIsSDMBackedOffE
++ __ZN3abm18kKeyMMServiceStateE
++ __ZN3abm18kKeyPCellSignalPwrE
++ __ZN3abm18kKeyRRCMeasGapTypeE
++ __ZN3abm18kKeyServingCellGCIE
++ __ZN3abm19kKeyActiveDataPathsE
++ __ZN3abm19kKeyHasIRATPushbackE
++ __ZN3abm19kKeyIsDataPreferredE
++ __ZN3abm19kKeyIsIMSRegisteredE
++ __ZN3abm19kKeyL2CExpectedCNFsE
++ __ZN3abm19kKeyMCGRRCProcedureE
++ __ZN3abm19kKeyPCellSignalQualE
++ __ZN3abm19kKeyPSCellSignalPwrE
++ __ZN3abm19kKeySCGRRCProcedureE
++ __ZN3abm20kKeyARMRecoveryCauseE
++ __ZN3abm20kKeyL3ServiceReqInfoE
++ __ZN3abm20kKeyPSCellSignalQualE
++ __ZN3abm20kKeyULIsOutOfDescMemE
++ __ZN3abm23kKeyBandComboConfiguredE
++ __ZN3abm23kKeyDataNetworkContextsE
++ __ZN3abm23kKeyL3DLActiveProcedureE
++ __ZN3abm23kKeyPCellSelectionCauseE
++ __ZN3abm23kKeyULIsOutOfPayloadMemE
++ __ZN3abm25kKeyActiveDataStreamCountE
++ __ZN3abm25kKeyIs3GppVoiceCallActiveE
++ __ZN3abm27kKeyTraceFlushTimerIntervalE
++ __ZN3abm28kKeyDLTRUnavailabilityBitmapE
++ __ZN3abm7kKeyTRSE
++ __ZN3abm9kKeyCC2TGE
++ __ZN3abm9kKeyHPLMNE
++ __ZN3abm9kKeyL1CCAE
++ __ZN3abm9kKeyMIBSIE
++ __ZN3abm9kKeyTxAntE
++ __ZN3ctu20SharedSynchronizableI21KernelPCIRestoreTraceED2Ev
++ __ZN8defaults7bbtrace20flush_timer_intervalEv
++ __ZNK3xpc4dict12object_proxyaSERKS1_
++ __ZNSt3__110shared_ptrI21KernelPCIRestoreTraceED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN21KernelPCIRestoreTrace13dumpPCIEStateEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN21KernelPCIRestoreTrace4stopEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZN21KernelPCIRestoreTrace5startEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_13dumpPCIEStateEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_18readLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_19flushLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_4stopEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_5startEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
++ __ZNSt3__110unique_ptrIZZN21KernelPCIRestoreTrace4stopEN8dispatch13group_sessionEENK3$_0clEvEUlvE_NS_14default_deleteIS5_EEED1B8ne200100Ev
++ __ZNSt3__111__call_onceERVmPvPFvS2_E
++ __ZNSt3__117__call_once_proxyB8ne200100INS_5tupleIJOZN18CrashReportMetricsL16sGetOsLogContextEvE3$_0EEEEEvPv
++ __ZZN18CrashReportMetrics30updateAnalyticsEventForEntriesEN3xpc4dictERKS1_NSt3__14spanINS_5EntryELm18446744073709551615EEEEN3$_0D1Ev
++ __ZZN21KernelPCIRestoreTrace23registerWithKernel_syncEvE4name
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_13dumpPCIEStateENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_18readLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS9_NSE_14default_deleteIS9_EEEEENUlPvE_8__invokeESJ_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_19flushLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS9_NSE_14default_deleteIS9_EEEEENUlPvE_8__invokeESJ_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_4stopENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
++ __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21KernelPCIRestoreTraceE15execute_wrappedIZNS3_5startENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
++ __ZZN8dispatch6detail12group_notifyIZZN21KernelPCIRestoreTrace4stopENS_13group_sessionEENK3$_0clEvEUlvE_EEvP16dispatch_group_sP16dispatch_queue_sOT_NSt3__117integral_constantIbLb0EEEENUlPvE_8__invokeESF_
++ __ZZZN21KernelPCIRestoreTrace4stopEN8dispatch13group_sessionEENK3$_0clEvENUlvE_D1Ev
++ ____ZN21KernelPCIRestoreTrace18dumpPCIEState_syncEN8dispatch13group_sessionE_block_invoke
++ ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.172
++ ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.173
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.104
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.107
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.112
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.113
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.118
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.122
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.123
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.130
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.134
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.87
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.96
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.97
++ ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke_2.124
++ ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.139
++ ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.143
++ ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.147
++ ___block_descriptor_tmp.101
++ ___block_descriptor_tmp.108
++ ___block_descriptor_tmp.114
++ ___block_descriptor_tmp.121
++ ___block_descriptor_tmp.125
++ ___block_descriptor_tmp.126
++ ___block_descriptor_tmp.133
++ ___block_descriptor_tmp.146
++ ___block_descriptor_tmp.150
++ ___block_descriptor_tmp.151
++ ___block_descriptor_tmp.168
++ ___block_descriptor_tmp.171
++ ___block_descriptor_tmp.177
++ ___block_descriptor_tmp.180
++ ___block_descriptor_tmp.181
++ ___block_descriptor_tmp.184
++ ___block_descriptor_tmp.187
++ ___block_descriptor_tmp.190
++ ___block_descriptor_tmp.193
++ ___block_descriptor_tmp.196
++ ___block_descriptor_tmp.199
++ ___block_descriptor_tmp.208
++ ___block_descriptor_tmp.211
++ ___block_descriptor_tmp.214
++ ___block_descriptor_tmp.95
++ ___copy_helper_block_e8_40c27_ZTSNSt3__110shared_ptrIvEE
++ ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c46_ZTSNSt3__18weak_ptrI21KernelPCIRestoreTraceEE
++ ___cxx_global_var_init.200
++ ___cxx_global_var_init.83
++ ___destroy_helper_block_e8_40c27_ZTSNSt3__110shared_ptrIvEE
++ ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c46_ZTSNSt3__18weak_ptrI21KernelPCIRestoreTraceEE
++ _dispatch_after
+- GCC_except_table122
+- GCC_except_table142
+- GCC_except_table146
+- GCC_except_table147
+- _.str.82
+- __ZN13CoredumpTrace21parseCrashReason_syncEv
+- __ZN13CoredumpTrace25updateAnalyticsEvent_syncERKN3xpc4dictE
+- __ZN16ICECoredumpTrace21parseCrashReason_syncEv
+- __ZN21PCIKernelTraceWrapper12getLogClientEv
+- __ZN21PCIKernelTraceWrapper13dumpPCIEStateEN8dispatch13group_sessionE
+- __ZN21PCIKernelTraceWrapper18dumpPCIEState_syncEN8dispatch13group_sessionE
+- __ZN21PCIKernelTraceWrapper18readLogsCompletionEP11BuffContextmi
+- __ZN21PCIKernelTraceWrapper19flushLogsCompletionEP11BuffContextmi
+- __ZN21PCIKernelTraceWrapper22allocateBuffQueue_syncERNSt3__110shared_ptrI11PipeContextEE
+- __ZN21PCIKernelTraceWrapper22createBuffContext_syncEmRNSt3__110shared_ptrI11PipeContextEEN8dispatch13group_sessionE
+- __ZN21PCIKernelTraceWrapper22deleteBuffContext_syncEP11BuffContext
+- __ZN21PCIKernelTraceWrapper23registerWithKernel_syncEv
+- __ZN21PCIKernelTraceWrapper25deregisterWithKernel_syncEv
+- __ZN21PCIKernelTraceWrapper4stopEN8dispatch13group_sessionE
+- __ZN21PCIKernelTraceWrapper5startEN8dispatch13group_sessionE
+- __ZN21PCIKernelTraceWrapperC1ENS_6ConfigE
+- __ZN21PCIKernelTraceWrapperC2ENS_6ConfigE
+- __ZN21PCIKernelTraceWrapperD1Ev
+- __ZN21PCIKernelTraceWrapperD2Ev
+- __ZN3ctu20SharedSynchronizableI21PCIKernelTraceWrapperED2Ev
+- __ZNK3xpc4dict12object_proxycvNS_6objectEEv
+- __ZNSt3__110shared_ptrI21PCIKernelTraceWrapperED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZN21PCIKernelTraceWrapper13dumpPCIEStateEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZN21PCIKernelTraceWrapper4stopEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZN21PCIKernelTraceWrapper5startEN8dispatch13group_sessionEE3$_0NS_14default_deleteIS4_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_13dumpPCIEStateEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_18readLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_19flushLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_4stopEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_5startEN8dispatch13group_sessionEE3$_0EEvOT_EUlvE_NS_14default_deleteISB_EEED1B8ne200100Ev
+- __ZNSt3__110unique_ptrIZZN21PCIKernelTraceWrapper4stopEN8dispatch13group_sessionEENK3$_0clEvEUlvE_NS_14default_deleteIS5_EEED1B8ne200100Ev
+- __ZZN21PCIKernelTraceWrapper23registerWithKernel_syncEvE4name
+- __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_13dumpPCIEStateENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
+- __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_18readLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS9_NSE_14default_deleteIS9_EEEEENUlPvE_8__invokeESJ_
+- __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_19flushLogsCompletionEP11BuffContextmiE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS9_NSE_14default_deleteIS9_EEEEENUlPvE_8__invokeESJ_
+- __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_4stopENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
+- __ZZN8dispatch5asyncIZNK3ctu20SharedSynchronizableI21PCIKernelTraceWrapperE15execute_wrappedIZNS3_5startENS_13group_sessionEE3$_0EEvOT_EUlvE_EEvP16dispatch_queue_sNSt3__110unique_ptrIS8_NSD_14default_deleteIS8_EEEEENUlPvE_8__invokeESI_
+- __ZZN8dispatch6detail12group_notifyIZZN21PCIKernelTraceWrapper4stopENS_13group_sessionEENK3$_0clEvEUlvE_EEvP16dispatch_group_sP16dispatch_queue_sOT_NSt3__117integral_constantIbLb0EEEENUlPvE_8__invokeESF_
+- __ZZZN21PCIKernelTraceWrapper4stopEN8dispatch13group_sessionEENK3$_0clEvENUlvE_D1Ev
+- ____ZN21PCIKernelTraceWrapper18dumpPCIEState_syncEN8dispatch13group_sessionE_block_invoke
+- ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.168
+- ____ZN3abm19BasebandTracingTask11performWorkEN8dispatch13group_sessionENS0_5StateENS1_8callbackIU13block_pointerFviN3xpc4dictEEEENS1_5blockIU13block_pointerFvvEEESD__block_invoke.171
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.100
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.105
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.110
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.111
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.116
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.120
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.121
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.128
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.132
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.94
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke.95
+- ____ZN3abm19BasebandTracingTask9init_syncEv_block_invoke_2.122
+- ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.137
+- ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.141
+- ____ZN3abm19BasebandTracingTask9stop_syncEv_block_invoke.145
+- ___block_descriptor_tmp.109
+- ___block_descriptor_tmp.112
+- ___block_descriptor_tmp.115
+- ___block_descriptor_tmp.119
+- ___block_descriptor_tmp.124
+- ___block_descriptor_tmp.131
+- ___block_descriptor_tmp.140
+- ___block_descriptor_tmp.144
+- ___block_descriptor_tmp.148
+- ___block_descriptor_tmp.149
+- ___block_descriptor_tmp.166
+- ___block_descriptor_tmp.167
+- ___block_descriptor_tmp.172
+- ___block_descriptor_tmp.178
+- ___block_descriptor_tmp.179
+- ___block_descriptor_tmp.182
+- ___block_descriptor_tmp.185
+- ___block_descriptor_tmp.188
+- ___block_descriptor_tmp.191
+- ___block_descriptor_tmp.194
+- ___block_descriptor_tmp.197
+- ___block_descriptor_tmp.206
+- ___block_descriptor_tmp.207
+- ___block_descriptor_tmp.212
+- ___block_descriptor_tmp.96
+- ___copy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c46_ZTSNSt3__18weak_ptrI21PCIKernelTraceWrapperEE
+- ___cxx_global_var_init.198
+- ___cxx_global_var_init.79
+- ___destroy_helper_block_e8_40c30_ZTSN8dispatch13group_sessionE48c46_ZTSNSt3__18weak_ptrI21PCIKernelTraceWrapperEE
+CStrings:
++ "#I Releasing snapshot jetsam assertion"
++ "#I Snapshot: Begin - acquiring snapshot jetsam assertion"
++ "CC2TG"
++ "DLCC_state"
++ "DL_CR_full_bitmap"
++ "DL_TR_unavailability_bitmap"
++ "Invalid baseband state dictionary"
++ "KernelPCIRestoreTrace obj is gone"
++ "Key %s not found"
++ "Key %s not found when both it and %s expected to be present"
++ "LTE_CDRX_state"
++ "NR_CDRX_state"
++ "Neither key %s nor %s is present"
++ "TG_UL_TAG_bitmap"
++ "TraceFlushTimerInterval"
++ "ULCC_state"
++ "UL_is_out_of_desc_mem"
++ "UL_is_out_of_payload_mem"
++ "Unexpectedly found key %s when %s is also present"
++ "_AM_RRC_State"
++ "_ARM_recovery_cause"
++ "_BWP_switch"
++ "_HPLMN"
++ "_IMSI_PLMN"
++ "_L1C_CA"
++ "_L1C_sched"
++ "_L1C_service"
++ "_L1C_state"
++ "_L2C_expected_CNFs"
++ "_L3C_state"
++ "_L3_DL_active_procedure"
++ "_L3_service_req_info"
++ "_MCG_RAT"
++ "_MCG_RRC_procedure"
++ "_MCG_RRC_state"
++ "_MIBSI"
++ "_MM_OTA_reject"
++ "_MM_service_state"
++ "_MSIM_arb_bitmap"
++ "_NAS_sec_ctx"
++ "_OTA_msg"
++ "_PCell_DL_ARFCN"
++ "_PCell_PCI"
++ "_PCell_SINR"
++ "_PCell_sec_ctx"
++ "_PCell_selection_cause"
++ "_PCell_signal_pwr"
++ "_PCell_signal_qual"
++ "_PSCell_DL_ARFCN"
++ "_PSCell_PCI"
++ "_PSCell_SINR"
++ "_PSCell_signal_pwr"
++ "_PSCell_signal_qual"
++ "_RF_required"
++ "_RF_resource"
++ "_RRC_errors"
++ "_RRC_meas_gap_type"
++ "_SCG_RAT"
++ "_SCG_RRC_procedure"
++ "_SCG_state"
++ "_SDM_state"
++ "_Sleep_blocked"
++ "_TLS_BAS_Info"
++ "_TRS"
++ "_TRX_handles"
++ "_active_data_paths"
++ "_band_combo_configured"
++ "_data_network_contexts"
++ "_enabled_RATs"
++ "_has_IRAT_pushback"
++ "_is_3gpp_voice_call_active"
++ "_is_IMS_registered"
++ "_is_SDM_backedoff"
++ "_is_data_preferred"
++ "_operation_mode"
++ "_serving_cell_GCI"
++ "_tx_ant"
++ "active_data_stream_count"
++ "bb_state"
++ "crash.metrics"
++ "is_AP_awake"
++ "screen_state"
+- "#I Snapshot: Begin"
+- "PCIKernelTraceWrapper obj is gone"
+- "c:"
+- "s:"
+
+```

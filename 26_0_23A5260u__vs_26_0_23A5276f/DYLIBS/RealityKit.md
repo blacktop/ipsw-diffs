@@ -1,0 +1,221 @@
+## RealityKit
+
+> `/System/Library/Frameworks/RealityKit.framework/RealityKit`
+
+```diff
+
+-403.0.9.502.4
+-  __TEXT.__text: 0x7c310
++403.0.15.0.5
++  __TEXT.__text: 0x7c1b4
+   __TEXT.__auth_stubs: 0x4b10
+   __TEXT.__objc_methlist: 0x117c
+-  __TEXT.__const: 0x4350
+-  __TEXT.__cstring: 0x3304
+-  __TEXT.__swift5_typeref: 0x16ce
++  __TEXT.__const: 0x41d0
++  __TEXT.__cstring: 0x3334
++  __TEXT.__swift5_typeref: 0x1658
+   __TEXT.__swift5_capture: 0x444
+-  __TEXT.__constg_swiftt: 0x1ac8
+-  __TEXT.__swift5_reflstr: 0x188d
+-  __TEXT.__swift5_fieldmd: 0x14b8
+-  __TEXT.__swift5_builtin: 0x1e0
++  __TEXT.__constg_swiftt: 0x1ac0
++  __TEXT.__swift5_reflstr: 0x187d
++  __TEXT.__swift5_fieldmd: 0x146c
++  __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_assocty: 0x2e8
+-  __TEXT.__swift5_proto: 0x2a4
+-  __TEXT.__swift5_types: 0x198
+-  __TEXT.__swift_as_entry: 0x4c
++  __TEXT.__swift5_proto: 0x2ac
++  __TEXT.__swift5_types: 0x194
++  __TEXT.__swift_as_entry: 0x58
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__oslogstring: 0x79
+-  __TEXT.__swift5_mpenum: 0x90
++  __TEXT.__swift5_mpenum: 0x88
+   __TEXT.__swift5_protos: 0x14
+   __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x1b10
+-  __TEXT.__eh_frame: 0x17f0
++  __TEXT.__unwind_info: 0x1b18
++  __TEXT.__eh_frame: 0x1848
+   __TEXT.__objc_classname: 0xc2
+   __TEXT.__objc_methname: 0x308c
+   __TEXT.__objc_methtype: 0x1ce6
+   __DATA_CONST.__got: 0x970
+-  __DATA_CONST.__const: 0x5c0
++  __DATA_CONST.__const: 0x5a0
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xe88
+   __DATA_CONST.__objc_protorefs: 0x60
+   __AUTH_CONST.__auth_got: 0x2588
+-  __AUTH_CONST.__const: 0x2e90
++  __AUTH_CONST.__const: 0x2da0
+   __AUTH_CONST.__objc_const: 0x2f38
+   __AUTH.__objc_data: 0xa60
+   __AUTH.__data: 0x1040
+-  __DATA.__data: 0x1758
+-  __DATA.__bss: 0x4990
++  __DATA.__data: 0x1768
++  __DATA.__bss: 0x4b10
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__objc_data: 0x568
+   __DATA_DIRTY.__data: 0x40
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftGLKit.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 385453A8-E1AF-3B69-884E-CDBDF05A79FF
+-  Functions: 2700
+-  Symbols:   9389
+-  CStrings:  1099
++  UUID: ED8EEA53-A85C-3FAB-9144-EF0062DBB20B
++  Functions: 2693
++  Symbols:   9358
++  CStrings:  1100
+ 
+Symbols:
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOAISQAAWL
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOAISQAAWl
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOAIs0H0AAWL
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOAIs0H0AAWl
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOMF
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOMXX
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOMa
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOMf
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOMn
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAAMc
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAAMcMK
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAASH4hash4intoys6HasherVz_tFTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAASH9hashValueSivgTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAASQWb
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSQAAMc
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSQAAMcMK
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSQAASQ2eeoiySbx_xtFZTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOWV
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAMc
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAMcMK
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAsAJP19_getEmbeddedNSErroryXlSgyFTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAsAJP5_codeSivgTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAsAJP7_domainSSvgTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOs0H0AAsAJP9_userInfoyXlSgvgTW
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOwet
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOwst
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOwug
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOwui
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOwup
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories3urlSayAFG0E03URLV_tYaKFZ
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories3urlSayAFG0E03URLV_tYaKFZTY0_
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories3urlSayAFG0E03URLV_tYaKFZTu
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories5named2inSayAFGSS_So8NSBundleCtYaKFZ
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories5named2inSayAFGSS_So8NSBundleCtYaKFZTY0_
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE15loadAccessories5named2inSayAFGSS_So8NSBundleCtYaKFZTu
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE6deviceAFSo8GCDevice_p_tYaKcfC
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE6deviceAFSo8GCDevice_p_tYaKcfCTY0_
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE6deviceAFSo8GCDevice_p_tYaKcfCTu
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAEMXE
++ _$s10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVMn
++ _$s17RealityFoundation16AntialiasingModeO2eeoiySbAC_ACtFZ
++ _associated conformance 10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLOSHAASQ
++ _symbolic _____ 10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceV
++ _symbolic _____ 10RealityKit18AnchoringComponentV0A10FoundationE09AccessoryC6SourceVAAE0fcG5Error33_403215C29E71AEE8F18D3E21BE1132D6LLO
+- _$s10RealityKit26ARKitAnchorSourceComponentV011getARSourceD033_3268415B6DA9E339F0FD4E86C25935D0LL04coreF0AC0D4TypeOSgs13OpaquePointerVSg_tFZ
+- _$s10RealityKit26ARKitAnchorSourceComponentV04coreF4Type0A10Foundation04CorefH0VvgZ
+- _$s10RealityKit26ARKitAnchorSourceComponentV04coreF4Type0A10Foundation04CorefH0VvpZMV
+- _$s10RealityKit26ARKitAnchorSourceComponentV05arkitD0AC0D4TypeOSgvg
+- _$s10RealityKit26ARKitAnchorSourceComponentV05arkitD0AC0D4TypeOSgvpMV
+- _$s10RealityKit26ARKitAnchorSourceComponentV06__coreF4TypeAA02__fH3RefVvgZ
+- _$s10RealityKit26ARKitAnchorSourceComponentV06__coreF4TypeAA02__fH3RefVvpZMV
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO4bodyyAESo06ARBodyD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO4faceyAESo06ARFaceD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO4meshyAESo06ARMeshD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO5imageyAESo07ARImageD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO5planeyAESo07ARPlaneD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO5worldyAESo8ARAnchorCcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeO6objectyAESo08ARObjectD0CcAEmFWC
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOMB
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOMF
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOMa
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOMf
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOMn
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeON
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOSgWOy
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOWV
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOwet
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOwst
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOwui
+- _$s10RealityKit26ARKitAnchorSourceComponentV0D4TypeOwup
+- _$s10RealityKit26ARKitAnchorSourceComponentV10__fromCoreyAcA02__F3RefVFZ
+- _$s10RealityKit26ARKitAnchorSourceComponentV8__toCoreyyAA02__F3RefVF
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP04coreF4Type0A10Foundation04CorefH0VvgZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP06__coreF4TypeAA02__fH3RefVvgZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP10__fromCoreyxAA02__F3RefVFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP10__typeNameSSvgZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP13componentNameSSvgZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP22__addIntrospectionDatayys13OpaquePointerVSgFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP6__free2to6offsetySv_SitFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP6__load4from6offsetAaD_pSV_SitFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP6__load4fromxSV_tFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP6__sizeSivgZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP7__store9attribute2to6offset12deinitializeyAaD_p_SvSiSbtFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP7__store9attribute2to6offsetyAaD_p_SvSitFZTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0A2aDP8__toCoreyyAA02__F3RefVFTW
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0AAMc
+- _$s10RealityKit26ARKitAnchorSourceComponentVAA0F0AAWP
+- _$s10RealityKit26ARKitAnchorSourceComponentVMF
+- _$s10RealityKit26ARKitAnchorSourceComponentVMa
+- _$s10RealityKit26ARKitAnchorSourceComponentVMf
+- _$s10RealityKit26ARKitAnchorSourceComponentVMn
+- _$s10RealityKit26ARKitAnchorSourceComponentVN
+- _$s10RealityKit26ARKitAnchorSourceComponentVWV
+- _$s10RealityKit26ARKitAnchorSourceComponentVwet
+- _$s10RealityKit26ARKitAnchorSourceComponentVwst
+- _$s17RealityFoundation26_Proto_AntialiasingMode_v1O2eeoiySbAC_ACtFZ
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_RealityKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_RealityKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_RealityKit
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_RealityKit
+- _get_enum_tag_for_layout_string 10RealityKit26ARKitAnchorSourceComponentV0D4TypeO
+- _get_enum_tag_for_layout_string 10RealityKit26ARKitAnchorSourceComponentV0D4TypeOSg
+- _symbolic So12ARBodyAnchorC
+- _symbolic So12ARFaceAnchorC
+- _symbolic So12ARMeshAnchorC
+- _symbolic So13ARImageAnchorC
+- _symbolic So13ARPlaneAnchorC
+- _symbolic So14ARObjectAnchorC
+- _symbolic _____ 10RealityKit26ARKitAnchorSourceComponentV
+- _symbolic _____ 10RealityKit26ARKitAnchorSourceComponentV0D4TypeO
+- _symbolic _____Sg 10RealityKit26ARKitAnchorSourceComponentV0D4TypeO
+- _type_layout_string 10RealityKit26ARKitAnchorSourceComponentV
+- _type_layout_string 10RealityKit26ARKitAnchorSourceComponentV0D4TypeO
+CStrings:
++ "Snapshot width or height is zero"
++ "Unable to create cgContext"
++ "Unable to create image from cgContext"
+- "Unable to to create cgContext"
+- "Unable to to create image from cgContext"
+
+```

@@ -1,0 +1,141 @@
+## AccessibilitySharedUISupport
+
+> `/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/AccessibilitySharedUISupport`
+
+```diff
+
+-534.1.0.0.0
+-  __TEXT.__text: 0x155ec8
+-  __TEXT.__auth_stubs: 0x32e0
+-  __TEXT.__objc_methlist: 0x15dc
++537.0.0.0.0
++  __TEXT.__text: 0x15fc14
++  __TEXT.__auth_stubs: 0x32a0
++  __TEXT.__objc_methlist: 0x15f4
+   __TEXT.__const: 0xeaa4
+-  __TEXT.__cstring: 0xaa61
++  __TEXT.__cstring: 0xaaf1
+   __TEXT.__ustring: 0x46
+   __TEXT.__gcc_except_tab: 0x280
+   __TEXT.__dlopen_cstrs: 0xec
+-  __TEXT.__oslogstring: 0x64f
++  __TEXT.__oslogstring: 0x5bf
+   __TEXT.__constg_swiftt: 0x6554
+-  __TEXT.__swift5_typeref: 0x1a848
++  __TEXT.__swift5_typeref: 0x1a9f2
+   __TEXT.__swift5_reflstr: 0x28c0
+   __TEXT.__swift5_assocty: 0x10b0
+   __TEXT.__swift5_fieldmd: 0x3348
+
+   __TEXT.__swift_as_ret: 0x8
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__swift5_protos: 0x4
+-  __TEXT.__unwind_info: 0x3090
++  __TEXT.__unwind_info: 0x30d8
+   __TEXT.__eh_frame: 0x4a4
+   __TEXT.__objc_classname: 0x301
+-  __TEXT.__objc_methname: 0x466c
++  __TEXT.__objc_methname: 0x46c8
+   __TEXT.__objc_methtype: 0x1051
+-  __TEXT.__objc_stubs: 0x2ba0
+-  __DATA_CONST.__got: 0xcb8
+-  __DATA_CONST.__const: 0x7b8
++  __TEXT.__objc_stubs: 0x2bc0
++  __DATA_CONST.__got: 0xcb0
++  __DATA_CONST.__const: 0x798
+   __DATA_CONST.__objc_classlist: 0x288
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x98
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x13b0
++  __DATA_CONST.__objc_selrefs: 0x13c0
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x50
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0x1980
++  __AUTH_CONST.__auth_got: 0x1960
+   __AUTH_CONST.__const: 0xa8b8
+   __AUTH_CONST.__cfstring: 0x720
+-  __AUTH_CONST.__objc_const: 0x49b8
++  __AUTH_CONST.__objc_const: 0x49e8
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH.__objc_data: 0x1d40
+   __AUTH.__data: 0x18ba8
+-  __DATA.__objc_ivar: 0xd0
+-  __DATA.__data: 0x5aa8
++  __DATA.__objc_ivar: 0xd4
++  __DATA.__data: 0x5af8
+   __DATA.__bss: 0x92f8
+   __DATA.__common: 0x1c8
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 53925BE3-C809-3B03-A903-51FB061A3820
+-  Functions: 6219
+-  Symbols:   4454
+-  CStrings:  2165
++  UUID: 04BD5E47-6E47-3161-8B0F-CD5C390A9358
++  Functions: 6234
++  Symbols:   4455
++  CStrings:  2169
+ 
+Symbols:
++ -[AXSSImageDescriptionViewController hidesTextBackground]
++ -[AXSSImageDescriptionViewController setHidesTextBackground:]
++ GCC_except_table9
++ _OBJC_IVAR_$_AXSSImageDescriptionViewController._hidesTextBackground
++ ___block_literal_global.293
++ ___block_literal_global.306
++ _get_witness_table 7SwiftUI8StaticIfVyAA8SolariumVAA15ModifiedContentVyAGyAA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQOyAGyAGyAiAE4boldyQrSbFQOyAGyAA6HStackVyAA05TupleH0VyAA6SpacerV_AA24ButtonStyleConfigurationV5LabelVAVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA14_PaddingLayoutVGA2_yAA5ColorVSgGG_AA7CapsuleVQo_AA08_OpacityJ0VGAA01_gO8ModifierVyA18_GGAGyAGyA16_A21_GA24_yAA16RoundedRectangleVGGGAaHHPAeA0H14InputPredicateHPyHC_A26_AaHHPA22_AaHHPqd0__AaHHD3_A19_HO_A21_AA0H8ModifierHPyHCHC_A25_AAA34_HPyHCHCA31_AaHHPA27_AaHHPA16_AaHHPA11_AaHHPqd__AaHHD2_A8_HO_A10_AAA34_HPyHCHC_A15_AAA34_HPyHCHC_A21_AAA34_HPyHCHC_A30_AAA34_HPyHCHCHC.24
++ _get_witness_table 7SwiftUI8StaticIfVyAA8SolariumVAA15ModifiedContentVyAGyAA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQOyAGyAGyAiAE4boldyQrSbFQOyAGyAA6HStackVyAA05TupleH0VyAA6SpacerV_AA24ButtonStyleConfigurationV5LabelVAVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA14_PaddingLayoutVGA2_yAA5ColorVSgGG_AA7CapsuleVQo_AA08_OpacityJ0VGAA01_gO8ModifierVyA18_GGAGyAGyAGyA16_AA021_InsettableBackgroundO8ModifierVyA13_AA16RoundedRectangleVGGA21_GA24_yA30_GGGAaHHPAeA0H14InputPredicateHPyHC_A26_AaHHPA22_AaHHPqd0__AaHHD3_A19_HO_A21_AA0H8ModifierHPyHCHC_A25_AAA38_HPyHCHCA35_AaHHPA33_AaHHPA32_AaHHPA16_AaHHPA11_AaHHPqd__AaHHD2_A8_HO_A10_AAA38_HPyHCHC_A15_AAA38_HPyHCHC_A31_AAA38_HPyHCHC_A21_AAA38_HPyHCHC_A34_AAA38_HPyHCHCHC.23
++ _objc_msgSend$hidesTextBackground
++ _symbolic _____yAAyAAyAAyAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG_____yAP_____GG_____G_____yAUGG 7SwiftUI15ModifiedContentV AA4ViewPAAE4boldyQrSbFQO AA6HStackV AA05TupleE0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA026_InsettableBackgroundShapeQ0V AA16RoundedRectangleV AA14_OpacityEffectV AA01_dxQ0V
++ _symbolic _____yAAyAAyAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG_____G_____y_____GG 7SwiftUI15ModifiedContentV AA4ViewPAAE4boldyQrSbFQO AA6HStackV AA05TupleE0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA14_OpacityEffectV AA01_d5ShapeQ0V AA16RoundedRectangleV
++ _symbolic _____yAAy_____yAAyAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG______Qo______G_____yATGG 7SwiftUI15ModifiedContentV AA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AA6HStackV AA05TupleE0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA7CapsuleV AA08_OpacityG0V AA01_dlX0V
++ _symbolic _____y_____G 7SwiftUI21_ContentShapeModifierV AA7CapsuleV
++ _symbolic _____y__________yACy_____yACyACy_____yACy_____y_____y___________AFtGG_____y_____SgGG_Qo______GAJy_____SgGG______Qo______G_____yAVGGACyACyACyAU_____yAR_____GGAXGAZyA2_GGG 7SwiftUI8StaticIfV AA8SolariumV AA15ModifiedContentV AA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQO AiAE4boldyQrSbFQO AA6HStackV AA05TupleH0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA7CapsuleV AA08_OpacityJ0V AA01_gO8ModifierV AA021_InsettableBackgroundO8ModifierV AA16RoundedRectangleV
++ _symbolic _____y__________yACy_____yACyACy_____yACy_____y_____y___________AFtGG_____y_____SgGG_Qo______GAJy_____SgGG______Qo______G_____yAVGGACyACyAuXGAZy_____GGG 7SwiftUI8StaticIfV AA8SolariumV AA15ModifiedContentV AA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQO AiAE4boldyQrSbFQO AA6HStackV AA05TupleH0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA7CapsuleV AA08_OpacityJ0V AA01_gO8ModifierV AA16RoundedRectangleV
++ _symbolic _____y_____yAAyAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG______Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQO AeAE4boldyQrSbFQO AA6HStackV AA05TupleE0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA7CapsuleV AA08_OpacityG0V
++ _symbolic _____y_____yAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG______Qo_ 7SwiftUI4ViewPAAE11glassEffect_2in9isEnabledQrAA5GlassV_qd__SbtAA5ShapeRd__lFQO AA15ModifiedContentV AcAE4boldyQrSbFQO AA6HStackV AA05TupleC0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA7CapsuleV
+- GCC_except_table8
+- ___block_literal_global.290
+- ___block_literal_global.303
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_AccessibilitySharedUISupport
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_AccessibilitySharedUISupport
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_AccessibilitySharedUISupport
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_AccessibilitySharedUISupport
+- _get_witness_table 7SwiftUI8StaticIfVyAA8SolariumVAA15ModifiedContentVyAA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQOyAGyAGyAiAE4boldyQrSbFQOyAGyAA6HStackVyAA05TupleH0VyAA6SpacerV_AA24ButtonStyleConfigurationV5LabelVAVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA14_PaddingLayoutVGA2_yAA5ColorVSgGG_Qo_AA08_OpacityJ0VGAGyA16_A19_GGAaHHPAeA0H14InputPredicateHPyHC_A20_AaHHPqd__AaHHD2_A17_HO_A19_AA0hZ0HPyHCHCA21_AaHHPA16_AaHHPA11_AaHHPqd__AaHHD2_A8_HO_A10_AAA24_HPyHCHC_A15_AAA24_HPyHCHC_A19_AAA24_HPyHCHCHC.24
+- _get_witness_table 7SwiftUI8StaticIfVyAA8SolariumVAA15ModifiedContentVyAA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQOyAGyAGyAiAE4boldyQrSbFQOyAGyAA6HStackVyAA05TupleH0VyAA6SpacerV_AA24ButtonStyleConfigurationV5LabelVAVtGGAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGG_Qo_AA14_PaddingLayoutVGA2_yAA5ColorVSgGG_Qo_AA08_OpacityJ0VGAGyAGyA16_AA021_InsettableBackgroundmZ0VyA13_AA16RoundedRectangleVGGA19_GGAaHHPAeA0H14InputPredicateHPyHC_A20_AaHHPqd__AaHHD2_A17_HO_A19_AA0hZ0HPyHCHCA27_AaHHPA26_AaHHPA16_AaHHPA11_AaHHPqd__AaHHD2_A8_HO_A10_AAA30_HPyHCHC_A15_AAA30_HPyHCHC_A25_AAA30_HPyHCHC_A19_AAA30_HPyHCHCHC.23
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 7SwiftUI8AnyShapeV
+- _symbolic _____y__________y_____yACyACy_____yACy_____y_____y___________AFtGG_____y_____SgGG_Qo______GAJy_____SgGG_Qo______GACyACyAU_____yAR_____GGAWGG 7SwiftUI8StaticIfV AA8SolariumV AA15ModifiedContentV AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AiAE4boldyQrSbFQO AA6HStackV AA05TupleH0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA08_OpacityJ0V AA021_InsettableBackgroundmZ0V AA16RoundedRectangleV
+- _symbolic _____y__________y_____yACyACy_____yACy_____y_____y___________AFtGG_____y_____SgGG_Qo______GAJy_____SgGG_Qo______GACyAuWGG 7SwiftUI8StaticIfV AA8SolariumV AA15ModifiedContentV AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AiAE4boldyQrSbFQO AA6HStackV AA05TupleH0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA08_OpacityJ0V
+- _symbolic _____y_____yAAyAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG_Qo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AeAE4boldyQrSbFQO AA6HStackV AA05TupleE0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV AA08_OpacityG0V
+- _symbolic _____y_____yAAy_____yAAy_____y_____y___________ADtGG_____y_____SgGG_Qo______GAHy_____SgGG_Qo_ 7SwiftUI4ViewPAAE14materialEffect_2inQrAA8MaterialV_AA9_ShapeSetVtFQO AA15ModifiedContentV AcAE4boldyQrSbFQO AA6HStackV AA05TupleC0V AA6SpacerV AA24ButtonStyleConfigurationV5LabelV AA30_EnvironmentKeyWritingModifierV AA4FontV AA14_PaddingLayoutV AA5ColorV
+CStrings:
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "TB,N,V_hidesTextBackground"
++ "_hidesTextBackground"
++ "hidesTextBackground"
++ "setHidesTextBackground:"
+- "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+
+```

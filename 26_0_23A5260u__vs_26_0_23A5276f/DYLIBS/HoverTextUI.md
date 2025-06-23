@@ -1,0 +1,120 @@
+## HoverTextUI
+
+> `/System/Library/PrivateFrameworks/HoverTextUI.framework/HoverTextUI`
+
+```diff
+
+-3180.6.1.0.0
+-  __TEXT.__text: 0x5fa98
+-  __TEXT.__auth_stubs: 0x2240
++3183.1.0.0.0
++  __TEXT.__text: 0x60418
++  __TEXT.__auth_stubs: 0x22b0
+   __TEXT.__objc_methlist: 0x404
+-  __TEXT.__const: 0x3470
+-  __TEXT.__cstring: 0x1859
+-  __TEXT.__oslogstring: 0xf49
+-  __TEXT.__swift5_typeref: 0x3f98
++  __TEXT.__const: 0x3460
++  __TEXT.__cstring: 0x18e9
++  __TEXT.__oslogstring: 0xf79
++  __TEXT.__swift5_typeref: 0x4032
+   __TEXT.__constg_swiftt: 0x1ce8
+   __TEXT.__swift5_reflstr: 0x15a2
+   __TEXT.__swift5_fieldmd: 0xfd0
+
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__swift_as_entry: 0x78
+   __TEXT.__swift_as_ret: 0x34
+-  __TEXT.__unwind_info: 0x15d8
++  __TEXT.__unwind_info: 0x15f0
+   __TEXT.__eh_frame: 0x1c00
+   __TEXT.__objc_classname: 0x75
+   __TEXT.__objc_methname: 0x174a
+   __TEXT.__objc_methtype: 0x3f1
+   __TEXT.__objc_stubs: 0x560
+-  __DATA_CONST.__got: 0x700
+-  __DATA_CONST.__const: 0xf8
++  __DATA_CONST.__got: 0x710
++  __DATA_CONST.__const: 0xd8
+   __DATA_CONST.__objc_classlist: 0x50
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x7c0
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x10
+-  __AUTH_CONST.__auth_got: 0x1128
++  __AUTH_CONST.__auth_got: 0x1160
+   __AUTH_CONST.__const: 0x2828
+   __AUTH_CONST.__cfstring: 0x4c0
+   __AUTH_CONST.__objc_const: 0x18d0
+   __AUTH.__objc_data: 0x2d0
+   __AUTH.__data: 0x1568
+   __DATA.__objc_ivar: 0x1c
+-  __DATA.__data: 0x1290
++  __DATA.__data: 0x12b0
+   __DATA.__objc_stublist: 0x8
+   __DATA.__bss: 0x22f0
+   __DATA.__common: 0x40
+
+   - /usr/lib/swift/libswiftCoreLocation.dylib
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMLCompute.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9F40778B-5405-33C8-AE82-1BE3E822D4C4
+-  Functions: 2003
+-  Symbols:   1295
+-  CStrings:  668
++  UUID: 32A8A889-5846-3F71-A16B-4539F794F6DE
++  Functions: 2007
++  Symbols:   1293
++  CStrings:  672
+ 
+Symbols:
++ -[AXObserverWrapper initWithSystemElement:runloop:notifications:handler:error:].cold.1
++ -[AXObserverWrapper initWithSystemElement:runloop:notifications:handler:error:].cold.2
++ __os_log_debug_impl
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyAA7AnyViewVAA23_GeometryActionModifierVySo6CGSizeVAISQ12CoreGraphicsyHCg_GGAA30_SafeAreaRegionsIgnoringLayoutVGAA023AccessibilityAttachmentI0VGAA0F0HPAoaSHPAlaSHPAeaSHPyHC_AkA0fI0HPyHCHC_AnaTHPyHCHC_AqaTHPyHCHC.41
++ _symbolic _____yAAyAAyAAyAAy_____y___________AAy_____yAB_Qo______y_____GG_____yAB_____GQo______G_____yAAyAAy_____y_____AF_____GAMGAOyAAyAAyAAyAAy__________yAFSgGGAVy_____SgGGAVy_____GG_____ySbGGGGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA08_OverlayV0V AA06StrokeoE0V AA6CircleV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingV0V AA4FontV AA0D10TransitionV AA010_AnimationV0V AA13_ShadowEffectV AA14_OpacityEffectV AA09_PositionZ0V
++ _symbolic _____yAAyAAyAAy_____y___________AAy_____yAB_Qo______y_____GG_____yAB_____GQo______G_____yAAyAAy_____y_____AF_____GAMGAOyAAyAAyAAyAAy__________yAFSgGGAVy_____SgGGAVy_____GG_____ySbGGGGGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA08_OverlayV0V AA06StrokeoE0V AA6CircleV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingV0V AA4FontV AA0D10TransitionV AA010_AnimationV0V AA13_ShadowEffectV AA14_OpacityEffectV
++ _symbolic _____yAAyAAy__________y_____ADSQ12CoreGraphicsyHCg_GG_____G_____G 7SwiftUI15ModifiedContentV AA7AnyViewV AA23_GeometryActionModifierV So6CGSizeV AA30_SafeAreaRegionsIgnoringLayoutV AA023AccessibilityAttachmentI0V
++ _symbolic _____yAAyAAy_____y___________AAy_____yAB_Qo______y_____GG_____yAB_____GQo______G_____yAAyAAy_____y_____AF_____GAMGAOyAAyAAyAAyAAy__________yAFSgGGAVy_____SgGGAVy_____GG_____ySbGGGGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA08_OverlayV0V AA06StrokeoE0V AA6CircleV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingV0V AA4FontV AA0D10TransitionV AA010_AnimationV0V AA13_ShadowEffectV
++ _symbolic _____yAAy_____y___________AAy_____yAB_Qo______y_____GG_____yAB_____GQo______G_____yAAyAAy_____y_____AF_____GAMGAOyAAyAAyAAyAAy__________yAFSgGGAVy_____SgGGAVy_____GG_____ySbGGGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA08_OverlayV0V AA06StrokeoE0V AA6CircleV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingV0V AA4FontV AA0D10TransitionV AA010_AnimationV0V
++ _symbolic _____y_____y______Qo______y_____GG 7SwiftUI15ModifiedContentV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA16RoundedRectangleV AA24_ForegroundStyleModifierV AA5ColorV
++ _symbolic _____y_____y___________AAy_____yAB_Qo______y_____GG_____yAB_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA24_ForegroundStyleModifierV AA5ColorV AA01_oE0V AA8MaterialV AA12_FrameLayoutV
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_HoverTextUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_HoverTextUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_HoverTextUI
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_HoverTextUI
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyAA7AnyViewVAA23_GeometryActionModifierVySo6CGSizeVAISQ12CoreGraphicsyHCg_GGAA30_SafeAreaRegionsIgnoringLayoutVGAA0F0HPAlaPHPAeaPHPyHC_AkA0fI0HPyHCHC_AnaQHPyHCHC.41
+- _symbolic _____yAAyAAyAAyAAy_____y________________yAB_Qo______yAB_____GQo______G_____yAAyAAy_____y_______________GAIGAKyAAyAAyAAyAAy__________yANSgGGASy_____SgGGASy_____GG_____ySbGGGGGG_____G_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA16_OverlayModifierV AA06StrokeoE0V AA6CircleV AA5ColorV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingX0V AA4FontV AA0D10TransitionV AA010_AnimationX0V AA13_ShadowEffectV AA14_OpacityEffectV AA09_PositionV0V
+- _symbolic _____yAAyAAyAAy_____y________________yAB_Qo______yAB_____GQo______G_____yAAyAAy_____y_______________GAIGAKyAAyAAyAAyAAy__________yANSgGGASy_____SgGGASy_____GG_____ySbGGGGGG_____G_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA16_OverlayModifierV AA06StrokeoE0V AA6CircleV AA5ColorV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingX0V AA4FontV AA0D10TransitionV AA010_AnimationX0V AA13_ShadowEffectV AA14_OpacityEffectV
+- _symbolic _____yAAyAAy_____y________________yAB_Qo______yAB_____GQo______G_____yAAyAAy_____y_______________GAIGAKyAAyAAyAAyAAy__________yANSgGGASy_____SgGGASy_____GG_____ySbGGGGGG_____G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA16_OverlayModifierV AA06StrokeoE0V AA6CircleV AA5ColorV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingX0V AA4FontV AA0D10TransitionV AA010_AnimationX0V AA13_ShadowEffectV
+- _symbolic _____yAAy_____y________________yAB_Qo______yAB_____GQo______G_____yAAyAAy_____y_______________GAIGAKyAAyAAyAAyAAy__________yANSgGGASy_____SgGGASy_____GG_____ySbGGGGGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA01_oE0V AA8MaterialV AA12_FrameLayoutV AA16_OverlayModifierV AA06StrokeoE0V AA6CircleV AA5ColorV AA05EmptyE0V AA5ImageV AA022_EnvironmentKeyWritingX0V AA4FontV AA0D10TransitionV AA010_AnimationX0V
+- _symbolic _____y______Qo_ 7SwiftUI5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA16RoundedRectangleV
+- _symbolic _____y_____y________________yAB_Qo______yAB_____GQo______G 7SwiftUI15ModifiedContentV AA4ViewPAAE8staticIf_4then4elseQrqd___qd_0_xXEqd_1_xXEtAA0E14InputPredicateRd__AaDRd_0_AaDRd_1_r1_lFQO AA16RoundedRectangleV AA8SolariumV AA5ShapeP24AccessibilityUIUtilitiesE18accessibilityGlassQryFQO AA01_oE0V AA8MaterialV AA12_FrameLayoutV
+CStrings:
++ "AXRuntimeClient received a notification. %d"
++ "Accessing Environment's value outside of being installed on a View. This will always read the default value and will not update."
++ "Finished setting up accessibility in AXRuntimeClient"
++ "Finished setting up axobserver."
++ "Setting up axobserver with system element %@"
+- "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+
+```

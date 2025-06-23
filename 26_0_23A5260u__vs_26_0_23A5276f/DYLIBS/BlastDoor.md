@@ -1,0 +1,282 @@
+## BlastDoor
+
+> `/System/Library/PrivateFrameworks/BlastDoor.framework/BlastDoor`
+
+```diff
+
+-284.100.2.0.0
+-  __TEXT.__text: 0x6b38a8
+-  __TEXT.__auth_stubs: 0x39f0
++287.100.1.0.0
++  __TEXT.__text: 0x6b46d8
++  __TEXT.__auth_stubs: 0x3a20
+   __TEXT.__objc_methlist: 0xa70c
+-  __TEXT.__const: 0x8f300
+-  __TEXT.__cstring: 0x21686
++  __TEXT.__const: 0x8e560
++  __TEXT.__cstring: 0x21736
+   __TEXT.__gcc_except_tab: 0x44c
+   __TEXT.__dlopen_cstrs: 0x304
+   __TEXT.__ustring: 0x12
+   __TEXT.__oslogstring: 0xe3b
+-  __TEXT.__constg_swiftt: 0x188c0
+-  __TEXT.__swift5_typeref: 0x1277a
+-  __TEXT.__swift5_reflstr: 0x1fc56
+-  __TEXT.__swift5_fieldmd: 0x236dc
++  __TEXT.__constg_swiftt: 0x187ac
++  __TEXT.__swift5_typeref: 0x12594
++  __TEXT.__swift5_reflstr: 0x1f936
++  __TEXT.__swift5_fieldmd: 0x23350
+   __TEXT.__swift5_builtin: 0x820
+-  __TEXT.__swift5_assocty: 0x47a8
+-  __TEXT.__swift5_proto: 0x8e64
+-  __TEXT.__swift5_types: 0x23e0
+-  __TEXT.__swift5_capture: 0x56d0
++  __TEXT.__swift5_assocty: 0x47f8
++  __TEXT.__swift5_proto: 0x8d48
++  __TEXT.__swift5_types: 0x23a0
++  __TEXT.__swift5_capture: 0x57a8
+   __TEXT.__swift5_protos: 0x9c
+-  __TEXT.__swift5_mpenum: 0x4f4
++  __TEXT.__swift5_mpenum: 0x51c
+   __TEXT.__swift_as_entry: 0x54
+   __TEXT.__swift_as_ret: 0x64
+-  __TEXT.__unwind_info: 0x1fad8
+-  __TEXT.__eh_frame: 0x28bec
++  __TEXT.__unwind_info: 0x1fb00
++  __TEXT.__eh_frame: 0x28cfc
+   __TEXT.__objc_classname: 0xb57
+-  __TEXT.__objc_methname: 0xa965
++  __TEXT.__objc_methname: 0xa9b4
+   __TEXT.__objc_methtype: 0xc06
+   __TEXT.__objc_stubs: 0x3be0
+-  __DATA_CONST.__got: 0xe08
+-  __DATA_CONST.__const: 0x51c0
++  __DATA_CONST.__got: 0xe10
++  __DATA_CONST.__const: 0x5298
+   __DATA_CONST.__objc_classlist: 0x8f8
+   __DATA_CONST.__objc_catlist: 0x10
+   __DATA_CONST.__objc_protolist: 0x60
+
+   __DATA_CONST.__objc_selrefs: 0x3528
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x260
+-  __AUTH_CONST.__auth_got: 0x1d08
+-  __AUTH_CONST.__const: 0x51838
++  __AUTH_CONST.__auth_got: 0x1d20
++  __AUTH_CONST.__const: 0x512c8
+   __AUTH_CONST.__cfstring: 0x2aa0
+-  __AUTH_CONST.__objc_const: 0x163d0
++  __AUTH_CONST.__objc_const: 0x16418
+   __AUTH.__objc_data: 0xb1d0
+-  __AUTH.__data: 0xb628
++  __AUTH.__data: 0xb618
+   __DATA.__objc_ivar: 0x694
+-  __DATA.__data: 0x14808
+-  __DATA.__bss: 0xfbc20
++  __DATA.__data: 0x14580
++  __DATA.__bss: 0xf98a0
+   __DATA.__common: 0x838
+   __DATA_DIRTY.__objc_data: 0x2d80
+-  __DATA_DIRTY.__data: 0x7978
++  __DATA_DIRTY.__data: 0x7968
+   __DATA_DIRTY.__bss: 0xbab0
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0A8D940F-7563-3D16-93A6-2A69A9847629
+-  Functions: 51218
+-  Symbols:   16744
++  UUID: 5A5E014B-404E-37F2-A7D6-5D85F292A579
++  Functions: 51191
++  Symbols:   16668
+   CStrings:  7213
+ 
+Symbols:
++ _CGRectCreateDictionaryRepresentation
++ __IVARS__TtCC9BlastDoor13XPCConnectionP33_15EF64785CA929A8396C00CD5CA35DF320ThreadSafeDictionary
++ ___swift_get_extra_inhabitant_index.686Tm
++ ___swift_memcpy306_8
++ ___swift_memcpy728_8
++ ___swift_memcpy729_8
++ ___swift_store_extra_inhabitant_index.687Tm
++ ___unnamed_6
++ _associated conformance 9BlastDoor35WalletPassSharingGeneralMessageTypeOSHAASQ
++ _associated conformance 9BlastDoor37WalletPassSharingGeneralMessageFormatOSHAASQ
++ _block_copy_helper.18
++ _block_copy_helper.24
++ _block_descriptor.20
++ _block_descriptor.26
++ _block_destroy_helper.19
++ _block_destroy_helper.25
++ _symbolic $ss30ExpressibleByDictionaryLiteralP
++ _symbolic SDySSSay_____GG So15CFDictionaryRefa
++ _symbolic SDyxq_G
++ _symbolic Say_____G So6CGRectV
++ _symbolic Say_____GSg So6CGRectV
++ _symbolic _____ 9BlastDoor13XPCConnectionC20ThreadSafeDictionary33_15EF64785CA929A8396C00CD5CA35DF3LLC
++ _symbolic _____ 9BlastDoor35WalletPassSharingGeneralMessageTypeO
++ _symbolic _____ 9BlastDoor37WalletPassSharingGeneralMessageFormatO
++ _symbolic ______pytIegnr_Sg So13OS_xpc_objectP
++ _symbolic _____ySSSay_____GG s18_DictionaryStorageC So15CFDictionaryRefa
++ _symbolic _____y_____G 9BlastDoor12AnyValidatorC AA35WalletPassSharingGeneralMessageTypeO
++ _symbolic _____y_____G 9BlastDoor17AllMatchValidatorV AA35WalletPassSharingGeneralMessageTypeO
++ _symbolic _____y_____G 9BlastDoor18EquatableValidatorV AA35WalletPassSharingGeneralMessageTypeO
++ _symbolic _____y_____G 9BlastDoor9ValidatedV AA35WalletPassSharingGeneralMessageTypeO
++ _symbolic _____y______y______pcG 9BlastDoor13XPCConnectionC20ThreadSafeDictionary33_15EF64785CA929A8396C00CD5CA35DF3LLC 10Foundation4UUIDV So13OS_xpc_objectP
++ _symbolic y______pcSg So13OS_xpc_objectP
++ _type_layout_string So6CGSizeV
+- ___swift_get_extra_inhabitant_index.682Tm
+- ___swift_memcpy148_8
+- ___swift_memcpy152_8
+- ___swift_memcpy170_8
+- ___swift_memcpy408_8
+- ___swift_memcpy570_8
+- ___swift_memcpy571_8
+- ___swift_store_extra_inhabitant_index.683Tm
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_BlastDoor
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_BlastDoor
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_BlastDoor
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_BlastDoor
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V10CodingKeysOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysOs0H3KeyAAs23CustomStringConvertible
+- _associated conformance 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysOs0H3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI11GenericDataV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI11GenericDataV10CodingKeysOs0lG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI11GenericDataV10CodingKeysOs0lG0AAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI15ProprietaryDataV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI15ProprietaryDataV10CodingKeysOs0lG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI15ProprietaryDataV10CodingKeysOs0lG0AAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysOs0jG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysOs0jG0AAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK11GenericDataV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK11GenericDataV10CodingKeysOs0nG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK11GenericDataV10CodingKeysOs0nG0AAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK15ProprietaryDataV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK15ProprietaryDataV10CodingKeysOs0nG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK15ProprietaryDataV10CodingKeysOs0nG0AAs28CustomDebugStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysOSHAASQ
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysOs0lG0AAs23CustomStringConvertible
+- _associated conformance 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysOs0lG0AAs28CustomDebugStringConvertible
+- _block_copy_helper.13
+- _block_descriptor.15
+- _block_destroy_helper.14
+- _get_enum_tag_for_layout_string 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0VSg
+- _get_enum_tag_for_layout_string 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0VSg
+- _get_enum_tag_for_layout_string 9BlastDoor32WalletPassShareTimeConfigurationVSg
+- _keypath_get.101Tm
+- _symbolic SDySS_____GSg 9BlastDoor10WalletJSONO
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V10CodingKeysO
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V10CodingKeysO
+- _symbolic _____ 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysO
+- _symbolic _____ 9BlastDoor32WalletPassShareTimeConfigurationV
+- _symbolic _____ 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysO
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI11GenericDataV
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI11GenericDataV10CodingKeysO
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI15ProprietaryDataV
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0cdehI15ProprietaryDataV10CodingKeysO
+- _symbolic _____ 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysO
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK11GenericDataV
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK11GenericDataV10CodingKeysO
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK15ProprietaryDataV
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0cdehiK15ProprietaryDataV10CodingKeysO
+- _symbolic _____ 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysO
+- _symbolic _____Sg 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V
+- _symbolic _____Sg 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V
+- _symbolic _____Sg 9BlastDoor32WalletPassShareTimeConfigurationV
+- _symbolic _____y_____G 9BlastDoor35WalletPassSharingSpecializedMessageV AA0cde31CarKeyExternalInvitationRequestG0V
+- _symbolic _____y_____G 9BlastDoor35WalletPassSharingSpecializedMessageV AA0cde9CarKeyUrlG0V
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV0fh6SharedI0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV0fhI0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0fghkL11GenericDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0fghkL15ProprietaryDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0fghklN11GenericDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0fghklN15ProprietaryDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV0fh6SharedI0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV0fhI0V10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32WalletDisplayablePassEntitlementV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor32WalletPassShareTimeConfigurationV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0fghkL11GenericDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV0fghkL15ProprietaryDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor33WalletPassSharingCarKeyUrlMessageV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0fghklN11GenericDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV0fghklN15ProprietaryDataV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 9BlastDoor55WalletPassSharingCarKeyExternalInvitationRequestMessageV10CodingKeysO
+- _symbolic _____y______G 9BlastDoor35WalletPassSharingSpecializedMessageV0cdefG7PayloadV AA0cde31CarKeyExternalInvitationRequestG0V
+- _symbolic _____y______G 9BlastDoor35WalletPassSharingSpecializedMessageV0cdefG7PayloadV AA0cde9CarKeyUrlG0V
+- _type_layout_string 9BlastDoor32WalletDisplayablePassEntitlementV
+- _type_layout_string 9BlastDoor32WalletDisplayablePassEntitlementV0ce6SharedF0V
+- _type_layout_string 9BlastDoor32WalletDisplayablePassEntitlementV0ceF0V
+- _type_layout_string 9BlastDoor32WalletPassShareTimeConfigurationV
+CStrings:
++ "WalletPassSharingExternalInvitationRequestMessage.WalletPassSharingExternalInvitationMessageGenericData.sharingDataType"
++ "WalletPassSharingExternalInvitationRequestMessage.WalletPassSharingExternalInvitationMessageProprietaryData.sharingSessionIdentifier"
++ "WalletPassSharingSpecializedMessage.sessionIdentifier"
++ "WalletPassSharingUrlMessage.WalletPassSharingUrlMessageGenericData.sharingDataType"
++ "WalletPassSharingUrlMessage.WalletPassSharingUrlMessageProprietaryData.url"
++ "adaptiveTimeFrame"
++ "com.apple.blastdoor.xpc.threadsafe-dictionary"
++ "digitalwallet.apple"
++ "digitalwallet.apple.home"
++ "digitalwallet.carkey.ccc"
++ "digitalwallet.generic.authorizationToken"
++ "faces"
++ "initWithImageSize:deviceResolution:parallaxPadding:visibleFrame:adaptiveVisibleFrame:inactiveFrame:adaptiveInactiveTopFrame:spatialVisibleFrame:spatialAdaptiveFrame:timeFrame:adaptiveTimeFrame:salientContentFrame:clockLayerOrder:clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts:"
++ "region"
++ "regions"
++ "salientContentFrame"
++ "spatialAdaptiveFrame"
++ "spatialVisibleFrame"
++ "underlying"
+- "WalletPassSharingCancelMessage.version"
+- "clearGroupWhenSelected"
+- "entitlementIdentifier"
+- "entitlementTemplate"
+- "entitlementTemplateType"
+- "genericSharingData"
+- "hasRemainingShares"
+- "initWithImageSize:deviceResolution:parallaxPadding:visibleFrame:adaptiveVisibleFrame:inactiveFrame:adaptiveInactiveTopFrame:timeFrame:clockLayerOrder:clockIntersection:layoutVariant:hasTopEdgeContact:maxClockShift:debugLayouts:"
+- "localizedSubtitle"
+- "recipientCapabilityRole"
+- "recipientManageability"
+- "recipientShareability"
+- "recipientVisibility"
+- "sharedEntitlement"
+- "timeConfiguration"
+- "walletPassSharingCarKeyExternalInvitationRequestMessage"
+- "walletPassSharingCarKeyExternalInvitationRequestMessage_Value"
+- "walletPassSharingCarKeyUrlMessage"
+- "walletPassSharingCarKeyUrlMessage_Value"
+
+```

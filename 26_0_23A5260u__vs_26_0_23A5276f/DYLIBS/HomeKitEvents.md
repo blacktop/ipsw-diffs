@@ -1,0 +1,241 @@
+## HomeKitEvents
+
+> `/System/Library/PrivateFrameworks/HomeKitEvents.framework/HomeKitEvents`
+
+```diff
+
+-1323.0.6.0.1
+-  __TEXT.__text: 0xda37c
+-  __TEXT.__auth_stubs: 0x1eb0
+-  __TEXT.__objc_methlist: 0x45c
+-  __TEXT.__cstring: 0x1fd2
+-  __TEXT.__const: 0xdaf8
+-  __TEXT.__constg_swiftt: 0x2db0
+-  __TEXT.__swift5_typeref: 0x32be
+-  __TEXT.__swift5_reflstr: 0x1d5c
+-  __TEXT.__swift5_fieldmd: 0x2d8c
++1334.0.0.0.1
++  __TEXT.__text: 0xedf98
++  __TEXT.__auth_stubs: 0x1fc0
++  __TEXT.__objc_methlist: 0x474
++  __TEXT.__cstring: 0x21b2
++  __TEXT.__const: 0xe9a8
++  __TEXT.__constg_swiftt: 0x3048
++  __TEXT.__swift5_typeref: 0x35b6
++  __TEXT.__swift5_reflstr: 0x1fe1
++  __TEXT.__swift5_fieldmd: 0x3180
+   __TEXT.__swift5_builtin: 0xc8
+-  __TEXT.__swift5_assocty: 0xa68
+-  __TEXT.__swift5_proto: 0xe60
+-  __TEXT.__swift5_types: 0x37c
++  __TEXT.__swift5_assocty: 0xae0
++  __TEXT.__swift5_proto: 0xf64
++  __TEXT.__swift5_types: 0x3c8
+   __TEXT.__swift5_protos: 0x50
+-  __TEXT.__swift5_capture: 0xaa0
+-  __TEXT.__oslogstring: 0x17d9
+-  __TEXT.__swift_as_entry: 0x1a0
+-  __TEXT.__swift_as_ret: 0x17c
++  __TEXT.__swift5_capture: 0xb5c
++  __TEXT.__oslogstring: 0x1a44
++  __TEXT.__swift_as_entry: 0x1c8
++  __TEXT.__swift_as_ret: 0x1b0
+   __TEXT.__swift5_mpenum: 0x40
+-  __TEXT.__unwind_info: 0x3660
+-  __TEXT.__eh_frame: 0x56e8
++  __TEXT.__unwind_info: 0x3ac8
++  __TEXT.__eh_frame: 0x60a0
+   __TEXT.__objc_classname: 0xba
+-  __TEXT.__objc_methname: 0xc08
++  __TEXT.__objc_methname: 0xcc2
+   __TEXT.__objc_methtype: 0x268
+   __TEXT.__objc_stubs: 0x80
+-  __DATA_CONST.__got: 0x488
+-  __DATA_CONST.__const: 0x158
++  __DATA_CONST.__got: 0x4c0
++  __DATA_CONST.__const: 0x138
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_protolist: 0xb8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x428
++  __DATA_CONST.__objc_selrefs: 0x458
+   __DATA_CONST.__objc_protorefs: 0x70
+-  __AUTH_CONST.__auth_got: 0xf60
+-  __AUTH_CONST.__const: 0x8260
+-  __AUTH_CONST.__objc_const: 0x15a8
++  __AUTH_CONST.__auth_got: 0xfe8
++  __AUTH_CONST.__const: 0x8d30
++  __AUTH_CONST.__objc_const: 0x15b8
+   __AUTH.__objc_data: 0x8b0
+-  __AUTH.__data: 0x2a58
+-  __DATA.__data: 0x35f0
++  __AUTH.__data: 0x2d40
++  __DATA.__data: 0x3938
+   __DATA.__common: 0xf8
+-  __DATA.__bss: 0x1c110
++  __DATA.__bss: 0x1e090
+   __DATA_DIRTY.__objc_data: 0x68
+   __DATA_DIRTY.__data: 0x69
+   - /System/Library/Frameworks/CloudKit.framework/CloudKit
+
+   - /usr/lib/swift/libswiftCoreMIDI.dylib
+   - /usr/lib/swift/libswiftCoreMedia.dylib
+   - /usr/lib/swift/libswiftCryptoTokenKit.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftMetal.dylib
+   - /usr/lib/swift/libswiftOSLog.dylib
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 45DAA2DF-36E8-3D0B-8AF4-DA2B298F871A
+-  Functions: 4666
+-  Symbols:   1840
+-  CStrings:  576
++  UUID: 8DCB7C11-F681-3421-B2E4-4452D602D9D3
++  Functions: 5024
++  Symbols:   1935
++  CStrings:  608
+ 
+Symbols:
++ _OBJC_CLASS_$_CKAsset
++ ___swift_deallocate_boxed_opaque_existential_1
++ ___swift_get_extra_inhabitant_index.29Tm
++ ___swift_memcpy2_1
++ ___swift_memcpy6_1
++ ___swift_project_boxed_opaque_existential_0
++ ___swift_store_extra_inhabitant_index.30Tm
++ _associated conformance 13HomeKitEvents12DigestRecordV5FieldOSHAASQ
++ _associated conformance 13HomeKitEvents12DigestRecordV8EncodingOSHAASQ
++ _associated conformance 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysOSHAASQ
++ _associated conformance 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF22OrLowerRatesCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0R3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF22OrLowerRatesCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0R3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsVSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14CoolCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14CoolCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14HeatCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14HeatCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateOSHAASQ
++ _associated conformance 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateOs12CaseIterableAA8AllCasessAHP_Sl
++ _objectdestroy.12Tm
++ _symbolic Say_____G 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO
++ _symbolic Say_____G 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO
++ _symbolic Say_____G 13HomeKitEvents9SomeEventO
++ _symbolic _____ 13HomeKitEvents12DigestRecordV
++ _symbolic _____ 13HomeKitEvents12DigestRecordV11EventSourceO
++ _symbolic _____ 13HomeKitEvents12DigestRecordV5FieldO
++ _symbolic _____ 13HomeKitEvents12DigestRecordV8EncodingO
++ _symbolic _____ 13HomeKitEvents12DigestRecordV8MetadataV
++ _symbolic _____ 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysO
++ _symbolic _____ 13HomeKitEvents16EventDigestQueryV
++ _symbolic _____ 13HomeKitEvents16EventDigestQueryV13ConfigurationV
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO07CleanerF22OrLowerRatesCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14CoolCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____ 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO18PausedRunningStateO14HeatCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____Sg 13HomeKitEvents12DigestRecordV
++ _symbolic _____Sg 13HomeKitEvents12DigestRecordV8MetadataV
++ _symbolic ______pSg 13HomeKitEvents18FeaturesDataSourceP
++ _symbolic ______pSg So13CKRecordValueP
++ _symbolic _____m 13HomeKitEvents16EventDigestQueryV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO07CleanerI10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO07CleanerI22OrLowerRatesCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO14CoolCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO14HeatCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents12DigestRecordV8MetadataV10CodingKeysO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO07CleanerI10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO07CleanerI22OrLowerRatesCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO12PauseDetailsV12EndConditionO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO16PausedCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO10CodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO14CoolCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO18PausedRunningStateO14HeatCodingKeys33_1293BD51A84CED56BA448F689BF4D9DALLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0ghiJ6ResultO
++ _symbolic _____y___________p_G Scs12ContinuationV 13HomeKitEvents12DigestRecordV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV11YieldResultO 13HomeKitEvents12DigestRecordV s5ErrorP
++ _symbolic _____y___________p__G Scs12ContinuationV15BufferingPolicyO 13HomeKitEvents12DigestRecordV s5ErrorP
++ _type_layout_string 13HomeKitEvents38ThermostatReducedEnergyAutomationEventV0defG6ResultO12PauseDetailsV
+- ___swift_memcpy5_1
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_HomeKitEvents
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_HomeKitEvents
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_HomeKitEvents
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_HomeKitEvents
+- _objectdestroy.10Tm
+CStrings:
++ " could not be decoded"
++ "/dev/null"
++ "/private/var/tmp/com.apple.homeeventsd"
++ "71F60C3A-0455-4A90-907B-05BB4D955F4B"
++ "ActivityHistory2025"
++ "Ensuring digests for home %{mask.hash}s"
++ "Events"
++ "Failed to encode DigestRecord.Metadata: "
++ "Failed to ensure digests for home %{mask.hash}s: %@"
++ "HomeKitEvents/DigestRecord.swift"
++ "Record is for the wrong home ("
++ "Successfully ensured digests for home %{mask.hash}s"
++ "[%{public}s] Failed to decode record %{public}s: %@"
++ "[%{public}s] Finished subquery %{public}s, emitted %ld matching digest(s)"
++ "[%{public}s] Found invalid digest %{public}s: %@"
++ "[%{public}s] Ignoring record %{public}@ that belongs to another home: %s, %s"
++ "[%{public}s] Ignoring record %{public}@ that had incomprehensible metadata: %s"
++ "[%{public}s] Record contains a digest that matches query: %{public}s"
++ "categories"
++ "cleanerEnergyOrLowerRates"
++ "compressedDataUsingAlgorithm:error:"
++ "count"
++ "decompressedDataUsingAlgorithm:error:"
++ "ensureDigestsWithHomeIdentifier:reply:"
++ "events"
++ "fileURL"
++ "hmvutilEnsureDigestsWithHomeIdentifier:customCreationDate:reply:"
++ "initWithFileURL:"
++ "metadata"
++ "momd"
++ "observeEvent:"
++ "v32@0:8@\"NSUUID\"16@?<v@?@\"NSError\">24"
++ "v40@0:8@\"NSUUID\"16@\"NSDate\"24@?<v@?@\"NSError\">32"
+- "didReceiveEventFromDispatcher:"
+
+```

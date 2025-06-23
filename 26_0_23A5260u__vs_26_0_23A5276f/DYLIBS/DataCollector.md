@@ -1,0 +1,567 @@
+## DataCollector
+
+> `/System/Library/PrivateFrameworks/DataCollector.framework/DataCollector`
+
+```diff
+
+-3500.22.1.0.0
+-  __TEXT.__text: 0x2b7a4
+-  __TEXT.__auth_stubs: 0x10b0
++3500.24.2.0.0
++  __TEXT.__text: 0x20fa8
++  __TEXT.__auth_stubs: 0xf40
+   __TEXT.__objc_methlist: 0x2ac
+-  __TEXT.__const: 0x32c0
+-  __TEXT.__cstring: 0xc19
+-  __TEXT.__swift5_typeref: 0xdec
+-  __TEXT.__swift5_fieldmd: 0xe60
+-  __TEXT.__constg_swiftt: 0x106c
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0xad1
+-  __TEXT.__swift5_assocty: 0x228
+-  __TEXT.__swift5_protos: 0x44
+-  __TEXT.__swift5_proto: 0x260
+-  __TEXT.__swift5_types: 0xf4
+-  __TEXT.__swift5_types2: 0x8
++  __TEXT.__const: 0x200a
++  __TEXT.__cstring: 0x90a
++  __TEXT.__constg_swiftt: 0x10bc
++  __TEXT.__swift5_typeref: 0xd3f
++  __TEXT.__swift5_reflstr: 0x921
++  __TEXT.__swift5_fieldmd: 0xbe4
++  __TEXT.__swift5_builtin: 0x64
++  __TEXT.__oslogstring: 0x265
++  __TEXT.__swift5_assocty: 0x138
++  __TEXT.__swift5_proto: 0x138
++  __TEXT.__swift5_types: 0xd4
++  __TEXT.__swift_as_entry: 0xf4
++  __TEXT.__swift_as_ret: 0xfc
++  __TEXT.__swift5_protos: 0x68
++  __TEXT.__swift5_capture: 0x98
+   __TEXT.__swift5_mpenum: 0x18
+-  __TEXT.__swift_as_entry: 0xdc
+-  __TEXT.__swift_as_ret: 0xe0
+-  __TEXT.__swift5_capture: 0x80
+-  __TEXT.__oslogstring: 0x262
+-  __TEXT.__unwind_info: 0x12a8
+-  __TEXT.__eh_frame: 0x2248
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__unwind_info: 0xe38
++  __TEXT.__eh_frame: 0x1d38
+   __TEXT.__objc_classname: 0x73
+-  __TEXT.__objc_methname: 0x524
++  __TEXT.__objc_methname: 0x522
+   __TEXT.__objc_methtype: 0x1cb
+-  __DATA_CONST.__got: 0x240
+-  __DATA_CONST.__const: 0xa8
+-  __DATA_CONST.__objc_classlist: 0x70
++  __DATA_CONST.__got: 0x210
++  __DATA_CONST.__const: 0x88
++  __DATA_CONST.__objc_classlist: 0x80
+   __DATA_CONST.__objc_protolist: 0x80
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x220
+   __DATA_CONST.__objc_protorefs: 0x40
+-  __AUTH_CONST.__auth_got: 0x858
+-  __AUTH_CONST.__const: 0x1938
+-  __AUTH_CONST.__objc_const: 0x1160
+-  __AUTH.__objc_data: 0x110
+-  __AUTH.__data: 0x1070
+-  __DATA.__data: 0xf60
+-  __DATA.__bss: 0x4200
+-  __DATA.__common: 0x111
++  __AUTH_CONST.__auth_got: 0x7a0
++  __AUTH_CONST.__const: 0x1628
++  __AUTH_CONST.__objc_const: 0x1288
++  __AUTH.__objc_data: 0x1d0
++  __AUTH.__data: 0xd28
++  __DATA.__data: 0xaf8
++  __DATA.__bss: 0x1900
++  __DATA.__common: 0x28
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/PrivateFrameworks/BiomeLibrary.framework/BiomeLibrary
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+   - /System/Library/PrivateFrameworks/BiomeStreams.framework/BiomeStreams
+   - /System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport
++  - /System/Library/PrivateFrameworks/DataCollectorLibrary.framework/DataCollectorLibrary
+   - /System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/InternalSwiftProtobuf
+   - /System/Library/PrivateFrameworks/Osprey.framework/Osprey
+   - /System/Library/PrivateFrameworks/RunningBoardServices.framework/RunningBoardServices
+
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/swift/libswiftCore.dylib
+   - /usr/lib/swift/libswiftCoreFoundation.dylib
+-  - /usr/lib/swift/libswiftDarwin.dylib
+   - /usr/lib/swift/libswiftDispatch.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
++  - /usr/lib/swift/libswiftSynchronization.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation2.dylib
+-  - /usr/lib/swift/libswift_DarwinFoundation3.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: B36B9D40-D6A5-31B2-819F-6CA593B5A3A0
+-  Functions: 1590
+-  Symbols:   1120
+-  CStrings:  249
++  UUID: B2991F3A-9B42-3CA9-94A4-4F409236DE33
++  Functions: 1173
++  Symbols:   968
++  CStrings:  214
+ 
+Symbols:
++ _CFAbsoluteTimeGetCurrent
++ _OBJC_CLASS_$__TtC13DataCollector14MessageWrapper
++ _OBJC_METACLASS_$__TtC13DataCollector14MessageWrapper
++ _OBJC_METACLASS_$__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __DATA__TtC13DataCollector14MessageWrapper
++ __DATA__TtC13DataCollector18AttestedRPCService
++ __DATA__TtC13DataCollector20DefaultBatchUploader
++ __DATA__TtC13DataCollector21DefaultStreamUploader
++ __DATA__TtC13DataCollector22DefaultUploaderContext
++ __DATA__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D17EventStateMachine
++ __DATA__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __DATA__TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9116OspreyRPCChannel
++ __INSTANCE_METHODS__TtC13DataCollector14MessageWrapper
++ __INSTANCE_METHODS__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __IVARS__TtC13DataCollector14MessageWrapper
++ __IVARS__TtC13DataCollector18AttestedRPCService
++ __IVARS__TtC13DataCollector20DefaultBatchUploader
++ __IVARS__TtC13DataCollector21DefaultStreamUploader
++ __IVARS__TtC13DataCollector22DefaultUploaderContext
++ __IVARS__TtC13DataCollectorP33_16650F5CFDF5CF5E5DEC6532C9C5B8B516SafeContinuation
++ __IVARS__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D17EventStateMachine
++ __IVARS__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __IVARS__TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9112OspreyMethod
++ __IVARS__TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9114OspreyProducer
++ __IVARS__TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9116OspreyRPCChannel
++ __METACLASS_DATA__TtC13DataCollector14MessageWrapper
++ __METACLASS_DATA__TtC13DataCollector18AttestedRPCService
++ __METACLASS_DATA__TtC13DataCollector20DefaultBatchUploader
++ __METACLASS_DATA__TtC13DataCollector21DefaultStreamUploader
++ __METACLASS_DATA__TtC13DataCollector22DefaultUploaderContext
++ __METACLASS_DATA__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D17EventStateMachine
++ __METACLASS_DATA__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __METACLASS_DATA__TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9116OspreyRPCChannel
++ __PROTOCOLS__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector
++ __PROTOCOLS__TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector.2
++ ___swift_destroy_boxed_opaque_existential_0Tm
++ ___swift_destroy_boxed_opaque_existential_1Tm
++ ___swift_memcpy264_8
++ ___swift_memcpy49_8
++ ___unnamed_7
++ _associated conformance 13DataCollector0A15PlatformVariantOSHAASQ
++ _associated conformance 13DataCollector17AsyncBPSPublisherVScIAA7FailureScI_s5Error
++ _associated conformance 13DataCollector17AsyncBPSPublisherVSciAA0C8IteratorSci_ScI
++ _block_copy_helper.28
++ _block_copy_helper.31
++ _block_copy_helper.5
++ _block_descriptor.30
++ _block_descriptor.33
++ _block_descriptor.7
++ _block_destroy_helper.29
++ _block_destroy_helper.32
++ _block_destroy_helper.6
++ _bzero
++ _get_enum_tag_for_layout_string 13DataCollector13PostOpCommand33_7464FF206B3FBAD9AAA66F8F184B0F6DLLO
++ _get_enum_tag_for_layout_string 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC0D0O
++ _get_enum_tag_for_layout_string 13DataCollector5EventVSg
++ _get_type_metadata 15Synchronization5MutexVySDy10Foundation3URLV13DataCollector18AttestedRPCChannel_pGG.3
++ _get_type_metadata So11BMStoreDataRzl15Synchronization5MutexVy0B9Collector17AsyncBPSPublisherVSgG.3
++ _get_type_metadata s8SendableRzl15Synchronization5MutexVyScCyxs5Error_pGSgG.5
++ _objc_retain_x27
++ _objectdestroy.14Tm
++ _swift_bridgeObjectRetain_n
++ _swift_retain_n
++ _swift_unknownObjectWeakAssign
++ _swift_unknownObjectWeakDestroy
++ _swift_unknownObjectWeakInit
++ _swift_unknownObjectWeakLoadStrong
++ _swift_willThrowTypedImpl
++ _symbolic $s13DataCollector10RPCServiceP
++ _symbolic $s13DataCollector13BatchUploaderP
++ _symbolic $s13DataCollector14StreamUploaderP
++ _symbolic $s13DataCollector15TelemetryWriterP
++ _symbolic $s13DataCollector17AttestedRPCMethodP
++ _symbolic $s13DataCollector18AttestedRPCChannelP
++ _symbolic $s13DataCollector18TelemetryWriteableP
++ _symbolic $s13DataCollector19AttestedRPCProducerP
++ _symbolic $s13DataCollector19BatchConfigProviderP
++ _symbolic $s13DataCollector20BPSPublisherProviderP
++ _symbolic $s13DataCollector23InternalUploaderContextP
++ _symbolic $s13DataCollector25AttestedRPCServiceFactoryP
++ _symbolic SDy___________pG 10Foundation3URLV 13DataCollector18AttestedRPCChannelP
++ _symbolic SaySccy_____Sg______pGG 13DataCollector5EventV s5ErrorP
++ _symbolic SaySccy_____Sg______pGG7pending_t 13DataCollector5EventV s5ErrorP
++ _symbolic SaySuG
++ _symbolic Sccy_____Sg______pG_ABt 13DataCollector5EventV s5ErrorP
++ _symbolic Sccy_____Sg______pG_AC_pt 13DataCollector5EventV s5ErrorP
++ _symbolic So15BPSSubscriptionC2on_SaySccy_____Sg______pGG7pendingt 13DataCollector5EventV s5ErrorP
++ _symbolic So16OspreyMethodCallCyxq_G
++ _symbolic So21OspreyMessageProducerCyxG
++ _symbolic So8BMStreamC
++ _symbolic _____ 13DataCollector0A13PlatformBatchV
++ _symbolic _____ 13DataCollector0A15PlatformVariantO
++ _symbolic _____ 13DataCollector12OspreyMethod33_FD9CC7167F16E97217A198A8CADD3D91LLC
++ _symbolic _____ 13DataCollector13PostOpCommand33_7464FF206B3FBAD9AAA66F8F184B0F6DLLO
++ _symbolic _____ 13DataCollector14MessageWrapperC
++ _symbolic _____ 13DataCollector14OspreyProducer33_FD9CC7167F16E97217A198A8CADD3D91LLC
++ _symbolic _____ 13DataCollector16OspreyRPCChannel33_FD9CC7167F16E97217A198A8CADD3D91LLC
++ _symbolic _____ 13DataCollector16SafeContinuation33_16650F5CFDF5CF5E5DEC6532C9C5B8B5LLC
++ _symbolic _____ 13DataCollector16TelemetryManagerV
++ _symbolic _____ 13DataCollector17AsyncBPSPublisherV
++ _symbolic _____ 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC
++ _symbolic _____ 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC0D0O
++ _symbolic _____ 13DataCollector18AttestedRPCServiceC
++ _symbolic _____ 13DataCollector19AsyncEventConnector33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC
++ _symbolic _____ 13DataCollector19ProcessingTelemetryV
++ _symbolic _____ 13DataCollector20DefaultBatchUploaderC
++ _symbolic _____ 13DataCollector21DefaultStreamUploaderC
++ _symbolic _____ 13DataCollector22DefaultUploaderContextC
++ _symbolic _____ 13DataCollector23OspreyRPCServiceFactoryV
++ _symbolic _____ 13DataCollector23RateBasedUploadSamplingV
++ _symbolic _____ 13DataCollector26DefaultBatchConfigProvider33_325A0DF6152B8AC6B8600E45E8B25EE6LLV
++ _symbolic _____ 13DataCollector9RPCConfigV
++ _symbolic _____ 20DataCollectorLibrary49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestV
++ _symbolic _____Sg 13DataCollector0A13PlatformBatchV
++ _symbolic _____Sg 13DataCollector16TelemetryManagerV
++ _symbolic _____Sg 13DataCollector17AsyncBPSPublisherV
++ _symbolic _____SgypYbc 13DataCollector5EventV
++ _symbolic __________Ieggo_ 10Foundation4DataV 0B9Collector14MessageWrapperC
++ _symbolic __________Ieggo_ 13DataCollector14MessageWrapperC 10Foundation0A0V
++ _symbolic ______p 13DataCollector10RPCServiceP
++ _symbolic ______p 13DataCollector17AttestedRPCMethodP
++ _symbolic ______p 13DataCollector18AttestedRPCChannelP
++ _symbolic ______p 13DataCollector19BatchConfigProviderP
++ _symbolic ______p 13DataCollector20BPSPublisherProviderP
++ _symbolic ______p 13DataCollector25AttestedRPCServiceFactoryP
++ _symbolic ______p 13DataCollector25DeviceUserOptionsProtocolP
++ _symbolic ______pSg 13DataCollector13BatchUploaderP
++ _symbolic ______pSg 13DataCollector14StreamUploaderP
++ _symbolic ______pSg 13DataCollector18AttestedRPCChannelP
++ _symbolic ______pSg 13DataCollector25DeviceUserOptionsProtocolP
++ _symbolic ______pSgXw 13DataCollector23InternalUploaderContextP
++ _symbolic ______p_______p_____y_____Gt 13DataCollector18AttestedRPCChannelP AA0C9RPCMethodP AA16SafeContinuation33_16650F5CFDF5CF5E5DEC6532C9C5B8B5LLC 10Foundation0A0V
++ _symbolic _____ySDy___________pGG 15Synchronization5MutexVAARi_zrlE 10Foundation3URLV 13DataCollector18AttestedRPCChannelP
++ _symbolic _____yScCy___________pGSgG 15Synchronization5MutexVAARi_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____yScCy___________pGSgG 15Synchronization5_CellVAARi_zrlE 10Foundation4DataV s5ErrorP
++ _symbolic _____ySccy_____Sg______pGG s23_ContiguousArrayStorageC 13DataCollector5EventV s5ErrorP
++ _symbolic _____ySuG s23_ContiguousArrayStorageC
++ _symbolic _____y_____ABG 13DataCollector12OspreyMethod33_FD9CC7167F16E97217A198A8CADD3D91LLC AA14MessageWrapperC
++ _symbolic _____y_____G 13DataCollector16SafeContinuation33_16650F5CFDF5CF5E5DEC6532C9C5B8B5LLC 10Foundation0A0V
++ _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 13DataCollector13PostOpCommand33_7464FF206B3FBAD9AAA66F8F184B0F6DLLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 20DataCollectorLibrary030Com_Apple_Aiml_Dpg_Service_V1_D12EventMessageV
++ _symbolic _____y_____SgG 15Synchronization5MutexVAARi_zrlE 13DataCollector17AsyncBPSPublisherV
++ _symbolic _____y__________G s13ManagedBufferCsRi__rlE 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC So16os_unfair_lock_sV
++ _symbolic _____y___________pG s17_NativeDictionaryV 10Foundation3URLV 13DataCollector18AttestedRPCChannelP
++ _symbolic q_
++ _type_layout_string 13DataCollector13PostOpCommand33_7464FF206B3FBAD9AAA66F8F184B0F6DLLO
++ _type_layout_string 13DataCollector16TelemetryManagerV
++ _type_layout_string 13DataCollector17AsyncBPSPublisherV
++ _type_layout_string 13DataCollector17EventStateMachine33_7464FF206B3FBAD9AAA66F8F184B0F6DLLC0D0O
++ _type_layout_string 13DataCollector23RateBasedUploadSamplingV
+- _OBJC_METACLASS_$__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper
+- _OUTLINED_FUNCTION_67
+- _OUTLINED_FUNCTION_68
+- _OUTLINED_FUNCTION_69
+- _OUTLINED_FUNCTION_70
+- _OUTLINED_FUNCTION_71
+- _OUTLINED_FUNCTION_72
+- _OUTLINED_FUNCTION_73
+- _OUTLINED_FUNCTION_74
+- _OUTLINED_FUNCTION_75
+- _OUTLINED_FUNCTION_76
+- _OUTLINED_FUNCTION_77
+- _OUTLINED_FUNCTION_78
+- __DATA__TtC13DataCollector20DefaultUploadManager
+- __DATA__TtC13DataCollector23DBCSyncedStreamPosition
+- __DATA__TtC13DataCollector23RateBasedUploadSampling
+- __DATA__TtC13DataCollector7Context
+- __DATA__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper
+- __DATA__TtC13DataCollectorP33_939C82B2EA5C7EE4CFB4902BF3877C4723DBCAtomicStreamPosition
+- __INSTANCE_METHODS__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper
+- __INSTANCE_METHODS__TtC13DataCollectorP33_E47608601B5508B843FCD495725104A619AsyncEventConnector
+- __IVARS__TtC13DataCollector20DefaultUploadManager
+- __IVARS__TtC13DataCollector23DBCSyncedStreamPosition
+- __IVARS__TtC13DataCollector23RateBasedUploadSampling
+- __IVARS__TtC13DataCollector7Context
+- __IVARS__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper
+- __IVARS__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB16SafeContinuation
+- __IVARS__TtC13DataCollectorP33_939C82B2EA5C7EE4CFB4902BF3877C4723DBCAtomicStreamPosition
+- __IVARS__TtC13DataCollectorP33_E47608601B5508B843FCD495725104A617EventStateMachine
+- __IVARS__TtC13DataCollectorP33_E47608601B5508B843FCD495725104A619AsyncEventConnector
+- __METACLASS_DATA__TtC13DataCollector20DefaultUploadManager
+- __METACLASS_DATA__TtC13DataCollector23DBCSyncedStreamPosition
+- __METACLASS_DATA__TtC13DataCollector23RateBasedUploadSampling
+- __METACLASS_DATA__TtC13DataCollector7Context
+- __METACLASS_DATA__TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper
+- __METACLASS_DATA__TtC13DataCollectorP33_939C82B2EA5C7EE4CFB4902BF3877C4723DBCAtomicStreamPosition
+- __PROTOCOLS__TtC13DataCollectorP33_E47608601B5508B843FCD495725104A619AsyncEventConnector
+- __PROTOCOLS__TtC13DataCollectorP33_E47608601B5508B843FCD495725104A619AsyncEventConnector.1
+- ___swift_memcpy0_1
+- ___swift_memcpy208_8
+- ___swift_memcpy9_8
+- ___swift_project_boxed_opaque_existential_0
+- ___unnamed_3
+- ___unnamed_9
+- __swift_FORCE_LOAD_$_swiftDarwin
+- __swift_FORCE_LOAD_$_swiftDarwin_$_DataCollector
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation1_$_DataCollector
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation2_$_DataCollector
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3
+- __swift_FORCE_LOAD_$_swift_DarwinFoundation3_$_DataCollector
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorVSHAASQ
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageV21InternalSwiftProtobuf01_J18ImplementationBaseAASH
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageV21InternalSwiftProtobuf01_J18ImplementationBaseAaD0J0
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageV21InternalSwiftProtobuf0J0AAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageVSHAASQ
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0N0
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataVSHAASQ
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeOSHAASQ
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV21InternalSwiftProtobuf01_J18ImplementationBaseAASH
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV21InternalSwiftProtobuf01_J18ImplementationBaseAaD0J0
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV21InternalSwiftProtobuf0J0AAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageVSHAASQ
+- _associated conformance 13DataCollector0A15PlatformVarientOSHAASQ
+- _associated conformance 13DataCollector17AsyncDBCPublisherVyxGScIAA7FailureScI_s5Error
+- _associated conformance 13DataCollector17AsyncDBCPublisherVyxGSciAA0C8IteratorSci_ScI
+- _associated conformance 13DataCollector22AsyncBPSPublisherErrorOSHAASQ
+- _associated conformance 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysOSHAASQ
+- _associated conformance 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysOs0O3KeyAAs23CustomStringConvertible
+- _associated conformance 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysOs0O3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector32Com_Apple_Ve_Common_BuildVariantO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 13DataCollector32Com_Apple_Ve_Common_BuildVariantO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 13DataCollector32Com_Apple_Ve_Common_BuildVariantOSHAASQ
+- _associated conformance 13DataCollector32Com_Apple_Ve_Common_BuildVariantOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeOSHAASQ
+- _associated conformance 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusO21InternalSwiftProtobuf4EnumAASH
+- _associated conformance 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusO21InternalSwiftProtobuf4EnumAASY
+- _associated conformance 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusOSHAASQ
+- _associated conformance 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusOs12CaseIterableAA8AllCasessADP_Sl
+- _associated conformance 13DataCollector45Com_Apple_Ve_Common_Headers_IngestEnvironmentV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 13DataCollector45Com_Apple_Ve_Common_Headers_IngestEnvironmentV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+- _associated conformance 13DataCollector45Com_Apple_Ve_Common_Headers_IngestEnvironmentV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector45Com_Apple_Ve_Common_Headers_IngestEnvironmentVSHAASQ
+- _associated conformance 13DataCollector49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 13DataCollector49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0O0
+- _associated conformance 13DataCollector49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestVSHAASQ
+- _associated conformance 13DataCollector50Com_Apple_Aiml_Dpg_Service_V1_BatchPublishResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+- _associated conformance 13DataCollector50Com_Apple_Aiml_Dpg_Service_V1_BatchPublishResponseV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0O0
+- _associated conformance 13DataCollector50Com_Apple_Aiml_Dpg_Service_V1_BatchPublishResponseV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+- _associated conformance 13DataCollector50Com_Apple_Aiml_Dpg_Service_V1_BatchPublishResponseVSHAASQ
+- _associated conformance So19BMUseCaseIdentifieraSHSCSQ
+- _associated conformance So19BMUseCaseIdentifieras20_SwiftNewtypeWrapperSCSY
+- _associated conformance So19BMUseCaseIdentifieras20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+- _block_copy_helper.11
+- _block_copy_helper.14
+- _block_copy_helper.17
+- _block_descriptor.13
+- _block_descriptor.16
+- _block_descriptor.19
+- _block_destroy_helper.12
+- _block_destroy_helper.15
+- _block_destroy_helper.18
+- _get_enum_tag_for_layout_string 13DataCollector13PostOpCommand33_E47608601B5508B843FCD495725104A6LLOyxG
+- _get_enum_tag_for_layout_string 13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC0D0Oyx_G
+- _get_enum_tag_for_layout_string ypSg
+- _get_type_metadata 13DataCollector13OspreyServiceV.3
+- _memcmp
+- _objc_release_x28
+- _objc_retain_x24
+- _objc_retain_x26
+- _objc_retain_x9
+- _swift_cvw_allocateGenericValueMetadataWithLayoutString
+- _swift_cvw_instantiateLayoutString
+- _swift_initStructMetadata
+- _swift_isaMask
+- _swift_weakAssign
+- _swift_weakDestroy
+- _swift_weakInit
+- _swift_weakLoadStrong
+- _symbolic $s13DataCollector13UploadManagerP
+- _symbolic $s13DataCollector17DBCStreamPositionP
+- _symbolic $s13DataCollector18DBCKeyValueStorageP
+- _symbolic SaySccyxSg______pGG s5ErrorP
+- _symbolic SaySccyxSg______pGG7pending_t s5ErrorP
+- _symbolic Say_____G 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorV
+- _symbolic Say_____G 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageV
+- _symbolic Say_____G 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeO
+- _symbolic Say_____G 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV
+- _symbolic Say_____G 13DataCollector32Com_Apple_Ve_Common_BuildVariantO
+- _symbolic Say_____G 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeO
+- _symbolic Say_____G 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusO
+- _symbolic SccyxSg______pG_AB_pt s5ErrorP
+- _symbolic SccyxSg______pG_ypSgt s5ErrorP
+- _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+- _symbolic So15BPSSubscriptionC2on_SaySccyxSg______pGG7pendingt s5ErrorP
+- _symbolic So16OspreyMethodCallCy_____ACG 13DataCollector14MessageWrapper33_8BBD1117FD039440F90C56E43C2510ABLLC
+- _symbolic So8BMStreamCyxG
+- _symbolic So8NSStringC
+- _symbolic _____ 10Foundation3URLV
+- _symbolic _____ 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A10EventErrorV
+- _symbolic _____ 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A12EventMessageV
+- _symbolic _____ 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV
+- _symbolic _____ 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14EventErrorCodeO
+- _symbolic _____ 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV
+- _symbolic _____ 13DataCollector0A13PlatformBatch33_64DD7B2C8349302DCE5306E01222CF46LLV
+- _symbolic _____ 13DataCollector0A15PlatformVarientO
+- _symbolic _____ 13DataCollector13OspreyServiceV
+- _symbolic _____ 13DataCollector13OspreyServiceV6ConfigV
+- _symbolic _____ 13DataCollector13PostOpCommand33_E47608601B5508B843FCD495725104A6LLO
+- _symbolic _____ 13DataCollector14MessageWrapper33_8BBD1117FD039440F90C56E43C2510ABLLC
+- _symbolic _____ 13DataCollector16SafeContinuation33_8BBD1117FD039440F90C56E43C2510ABLLC
+- _symbolic _____ 13DataCollector17AsyncDBCPublisherV
+- _symbolic _____ 13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC
+- _symbolic _____ 13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC0D0O
+- _symbolic _____ 13DataCollector19AsyncEventConnector33_E47608601B5508B843FCD495725104A6LLC
+- _symbolic _____ 13DataCollector20DefaultUploadManagerC
+- _symbolic _____ 13DataCollector22AsyncBPSPublisherErrorO
+- _symbolic _____ 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC
+- _symbolic _____ 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV
+- _symbolic _____ 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysO
+- _symbolic _____ 13DataCollector23DBCSyncedStreamPositionC
+- _symbolic _____ 13DataCollector23RateBasedUploadSamplingC
+- _symbolic _____ 13DataCollector32Com_Apple_Ve_Common_BuildVariantO
+- _symbolic _____ 13DataCollector41Com_Apple_Aiml_Dpg_Service_V1_PayloadTypeO
+- _symbolic _____ 13DataCollector43Com_Apple_Aiml_Dpg_Service_V1_PublishStatusO
+- _symbolic _____ 13DataCollector45Com_Apple_Ve_Common_Headers_IngestEnvironmentV
+- _symbolic _____ 13DataCollector49Com_Apple_Aiml_Dpg_Service_V1_BatchPublishRequestV
+- _symbolic _____ 13DataCollector50Com_Apple_Aiml_Dpg_Service_V1_BatchPublishResponseV
+- _symbolic _____ 13DataCollector7ContextC
+- _symbolic _____ 21InternalSwiftProtobuf14UnknownStorageV
+- _symbolic _____ So19BMUseCaseIdentifiera
+- _symbolic _____ s5Int32V
+- _symbolic _____ s5Int64V
+- _symbolic _____Sg 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV
+- _symbolic _____Sg 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV
+- _symbolic _____Sg 13DataCollector0A13PlatformBatch33_64DD7B2C8349302DCE5306E01222CF46LLV
+- _symbolic _____Sg 13DataCollector32Com_Apple_Ve_Common_BuildVariantO
+- _symbolic _____Sg So19BMUseCaseIdentifiera
+- _symbolic _____SgXw 13DataCollector7ContextC
+- _symbolic _____Sg_ABt 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A13EventMetadataV
+- _symbolic _____Sg_ABt 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_A14PayloadMessageV
+- _symbolic ______p 13DataCollector12BoundedBatchP
+- _symbolic ______p 13DataCollector17DBCStreamPositionP
+- _symbolic ______p 13DataCollector18DBCKeyValueStorageP
+- _symbolic ______pSg 13DataCollector12BoundedBatchP
+- _symbolic ______pSg 13DataCollector13UploadManagerP
+- _symbolic ______pXp 13DataCollector25DeviceUserOptionsProtocolP
+- _symbolic _____ySDy_____So13OspreyChannelCGG 2os21OSAllocatedUnfairLockV 10Foundation3URLV
+- _symbolic _____ySDy_____So13OspreyChannelCG_____G s13ManagedBufferCsRi__rlE 10Foundation3URLV So16os_unfair_lock_sV
+- _symbolic _____yScCy___________pGSg_____G s13ManagedBufferCsRi__rlE 10Foundation4DataV s5ErrorP So16os_unfair_lock_sV
+- _symbolic _____yScCyx______pGSgG 2os21OSAllocatedUnfairLockV s5ErrorP
+- _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+- _symbolic _____ySo12BMStoreEventCGSg 13DataCollector17AsyncDBCPublisherV
+- _symbolic _____y_____G 13DataCollector16SafeContinuation33_8BBD1117FD039440F90C56E43C2510ABLLC 10Foundation0A0V
+- _symbolic _____y_____G 2os21OSAllocatedUnfairLockV 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV
+- _symbolic _____y_____G s22KeyedDecodingContainerV 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV10CodingKeysO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 13DataCollector030Com_Apple_Aiml_Dpg_Service_V1_D12EventMessageV
+- _symbolic _____y_____So13OspreyChannelCG s17_NativeDictionaryV 10Foundation3URLV
+- _symbolic _____y_____ySo12BMStoreEventCyxGGSgG 2os21OSAllocatedUnfairLockV 13DataCollector17AsyncDBCPublisherV
+- _symbolic _____y_____yxGG 2os21OSAllocatedUnfairLockV 13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC
+- _symbolic _____yxG 13DataCollector17AsyncDBCPublisherV
+- _symbolic _____yxG 13DataCollector19AsyncEventConnector33_E47608601B5508B843FCD495725104A6LLC
+- _symbolic _____yx_G 13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC0D0O
+- _symbolic ypSg
+- _type_layout_string 13DataCollector23DBCAtomicStreamPosition33_939C82B2EA5C7EE4CFB4902BF3877C47LLC5StateV
+- _type_layout_string RlzCs8SendableRzl13DataCollector17AsyncDBCPublisherVyxG
+- _type_layout_string So19BMUseCaseIdentifiera
+- _type_layout_string s8SendableRzl13DataCollector13PostOpCommand33_E47608601B5508B843FCD495725104A6LLOyxG
+- _type_layout_string s8SendableRzl13DataCollector17EventStateMachine33_E47608601B5508B843FCD495725104A6LLC0E0Oyx_G
+CStrings:
++ "_TtC13DataCollector14MessageWrapper"
++ "_TtC13DataCollector18AttestedRPCService"
++ "_TtC13DataCollector20DefaultBatchUploader"
++ "_TtC13DataCollector21DefaultStreamUploader"
++ "_TtC13DataCollector22DefaultUploaderContext"
++ "_TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D17EventStateMachine"
++ "_TtC13DataCollectorP33_7464FF206B3FBAD9AAA66F8F184B0F6D19AsyncEventConnector"
++ "_TtC13DataCollectorP33_FD9CC7167F16E97217A198A8CADD3D9116OspreyRPCChannel"
++ "batchConfigProvider"
++ "batchUploader"
++ "channel"
++ "dataForKey:"
++ "factory"
++ "method"
++ "producer"
++ "protectedURLChannelMap"
++ "setObject:forKey:"
++ "streamUploader"
++ "telemetryManager"
++ "transformer"
+- "EVENT_BODY_INVALID"
+- "EVENT_BODY_TOO_LARGE"
+- "EVENT_HEADERS_INVALID"
+- "EVENT_PRODUCER_FAILED"
+- "EVENT_SCHEMA_UNKNOWN"
+- "EVENT_TIMEOUT"
+- "EVENT_UNSUPPORTED"
+- "FAILED_ALL"
+- "FAILED_PARTIAL"
+- "OK"
+- "PAYLOAD_AVRO_RECORD"
+- "PAYLOAD_PROTO_RECORD"
+- "PAYLOAD_UNKNOWN"
+- "_TtC13DataCollector20DefaultUploadManager"
+- "_TtC13DataCollector23DBCSyncedStreamPosition"
+- "_TtC13DataCollector23RateBasedUploadSampling"
+- "_TtC13DataCollector7Context"
+- "_TtC13DataCollectorP33_8BBD1117FD039440F90C56E43C2510AB14MessageWrapper"
+- "_TtC13DataCollectorP33_939C82B2EA5C7EE4CFB4902BF3877C4723DBCAtomicStreamPosition"
+- "baseURL"
+- "body"
+- "buildVariant"
+- "code"
+- "com.apple.aiml.dpg.service.v1.BatchPublishRequest"
+- "com.apple.aiml.dpg.service.v1.BatchPublishResponse"
+- "com.apple.aiml.dpg.service.v1.DataEventError"
+- "com.apple.aiml.dpg.service.v1.DataEventMessage"
+- "com.apple.aiml.dpg.service.v1.DataEventMetadata"
+- "com.apple.aiml.dpg.service.v1.DataPayloadMessage"
+- "com.apple.ve.common.headers.IngestEnvironment"
+- "disableDeviceAuthentication"
+- "doubleForKey:"
+- "errors"
+- "events"
+- "fqn"
+- "headers"
+- "index"
+- "legacyHeaders"
+- "maxSize"
+- "metadata"
+- "payload"
+- "payload_type"
+- "position"
+- "rate"
+- "request_id"
+- "schema_fingerprint"
+- "schema_name"
+- "setDouble:forKey:"
+- "source_cluster"
+- "status"
+- "storage"
+- "timestamp_ms"
+- "topic_override"
+- "uploadCount"
+- "uploadManager"
+
+```
