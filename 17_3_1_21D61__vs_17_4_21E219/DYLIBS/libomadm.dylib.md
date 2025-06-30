@@ -1,0 +1,70 @@
+## libomadm.dylib
+
+> `/usr/lib/libomadm.dylib`
+
+```diff
+
+ 47.0.0.0.0
+-  __TEXT.__text: 0x63dc4
+-  __TEXT.__auth_stubs: 0xa30
++  __TEXT.__text: 0x63e6c
++  __TEXT.__auth_stubs: 0xa20
+   __TEXT.__cstring: 0xd6cb
+   __TEXT.__const: 0x945
+-  __TEXT.__gcc_except_tab: 0x594
+-  __TEXT.__unwind_info: 0x12d8
++  __TEXT.__gcc_except_tab: 0x598
++  __TEXT.__unwind_info: 0x12dc
+   __TEXT.__eh_frame: 0x38
+   __DATA_CONST.__got: 0xd0
+   __DATA_CONST.__const: 0x17d8
+   __AUTH_CONST.__const: 0xc8
+   __AUTH_CONST.__cfstring: 0xc0
+-  __AUTH_CONST.__auth_got: 0x520
++  __AUTH_CONST.__auth_got: 0x518
+   __DATA.__data: 0x24c
+   __DATA.__common: 0x70
+   __DATA.__bss: 0x900
+
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+-  UUID: E25E1321-9834-360D-8A12-0A05553757F9
+-  Functions: 1652
+-  Symbols:   2265
++  UUID: 45D7ED0F-8E26-3B9F-829A-A73A25E580BE
++  Functions: 1653
++  Symbols:   2266
+   CStrings:  1880
+ 
+Symbols:
++ __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB8ue170006Ev
++ __ZNKSt3__14lessIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB8ue170006ERS7_S9_
++ __ZNSt12length_errorC1B8ue170006EPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006Emc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B8ue170006ILi0EEEPKc
++ __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_
++ __ZNSt3__116__pad_and_outputB8ue170006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
++ __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEE7destroyB8ue170006INS_4pairIS9_S8_EEvvEEvRSD_PT_
++ __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B8ue170006Ev
++ __ZNSt3__120__throw_length_errorB8ue170006EPKc
++ __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB8ue170006EPSC_
++ __ZNSt3__124__put_character_sequenceB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
++ __ZNSt3__127__tree_balance_after_insertB8ue170006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+- __ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE20__throw_length_errorB7v160006Ev
+- __ZNKSt3__14lessIKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEclB7v160006ERS7_S9_
+- __ZNSt12length_errorC1B7v160006EPKc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_mmRKS4_
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006Emc
+- __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2B7v160006IDnEEPKc
+- __ZNSt3__116__pad_and_outputB7v160006IcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+- __ZNSt3__116allocator_traitsINS_9allocatorINS_11__tree_nodeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEE7destroyB7v160006INS_4pairIS9_S8_EEvvEEvRSD_PT_
+- __ZNSt3__118basic_stringstreamIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006Ev
+- __ZNSt3__120__throw_length_errorB7v160006EPKc
+- __ZNSt3__122__tree_node_destructorINS_9allocatorINS_11__tree_nodeINS_12__value_typeIKNS_12basic_stringIcNS_11char_traitsIcEENS1_IcEEEES8_EEPvEEEEEclB7v160006EPSC_
+- __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+- __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_
+
+```

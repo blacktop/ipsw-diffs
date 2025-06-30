@@ -1,0 +1,529 @@
+## CompanionAppViewSetup
+
+> `/System/Library/NanoPreferenceBundles/SetupBundles/CompanionAppViewSetup.bundle/CompanionAppViewSetup`
+
+```diff
+
+-1112.0.187.0.0
+-  __TEXT.__text: 0x7818
+-  __TEXT.__auth_stubs: 0x380
+-  __TEXT.__objc_stubs: 0x11e0
+-  __TEXT.__objc_methlist: 0x438
+-  __TEXT.__const: 0x80
+-  __TEXT.__cstring: 0x65e
+-  __TEXT.__oslogstring: 0x540
+-  __TEXT.__objc_methname: 0x11b8
+-  __TEXT.__objc_classname: 0x1fa
+-  __TEXT.__objc_methtype: 0x4f2
+-  __TEXT.__gcc_except_tab: 0x50
+-  __TEXT.__unwind_info: 0x1c0
+-  __DATA_CONST.__auth_got: 0x1d0
+-  __DATA_CONST.__got: 0x48
+-  __DATA_CONST.__const: 0xd10
+-  __DATA_CONST.__cfstring: 0x2c0
+-  __DATA_CONST.__objc_classlist: 0x50
+-  __DATA_CONST.__objc_protolist: 0x48
++1112.1.27.0.0
++  __TEXT.__text: 0x14ec
++  __TEXT.__auth_stubs: 0x240
++  __TEXT.__objc_stubs: 0x6c0
++  __TEXT.__objc_methlist: 0x15c
++  __TEXT.__const: 0x48
++  __TEXT.__cstring: 0xeb
++  __TEXT.__objc_methname: 0x7bd
++  __TEXT.__oslogstring: 0x23f
++  __TEXT.__objc_classname: 0xf6
++  __TEXT.__objc_methtype: 0x2b8
++  __TEXT.__unwind_info: 0xbc
++  __DATA_CONST.__auth_got: 0x128
++  __DATA_CONST.__got: 0x20
++  __DATA_CONST.__const: 0x78
++  __DATA_CONST.__cfstring: 0x100
++  __DATA_CONST.__objc_classlist: 0x10
++  __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_intobj: 0x30
+-  __DATA.__objc_const: 0x1d08
+-  __DATA.__objc_selrefs: 0x530
+-  __DATA.__objc_classrefs: 0x108
+-  __DATA.__objc_superrefs: 0x38
+-  __DATA.__objc_ivar: 0x68
+-  __DATA.__objc_data: 0x320
+-  __DATA.__data: 0x360
+-  __DATA.__bss: 0x5a0
++  __DATA.__objc_const: 0xa80
++  __DATA.__objc_selrefs: 0x240
++  __DATA.__objc_classrefs: 0x60
++  __DATA.__objc_superrefs: 0x10
++  __DATA.__objc_ivar: 0x14
++  __DATA.__objc_data: 0xa0
++  __DATA.__data: 0x2a0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/UIKit.framework/UIKit
+
+   - /usr/lib/libAccessibility.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 41A47752-E837-38F7-8424-E4C86827B6E6
+-  Functions: 282
+-  Symbols:   219
+-  CStrings:  487
++  UUID: 1269EE8D-2BEA-36E7-A27C-12E3844022A7
++  Functions: 33
++  Symbols:   66
++  CStrings:  176
+ 
+Symbols:
+- _BPSGetActiveSetupCompletedDevice
+- _NRDevicePropertyIsAltAccount
+- _NRDevicePropertyLocalPairingDataStorePath
+- _NRDevicePropertyProductType
+- _NSStringFromCGSize
+- _OBJC_CLASS_$_BPSBridgeAppContext
+- _OBJC_CLASS_$_BPSIllustratedWatchView
+- _OBJC_CLASS_$_CSLPRFAppViewChoiceButton
+- _OBJC_CLASS_$_CSLPRFAppViewImageProvider
+- _OBJC_CLASS_$_CSLPRFDeviceUtilities
+- _OBJC_CLASS_$_CSLPRFWatchChoiceView
+- _OBJC_CLASS_$_NSConstantIntegerNumber
+- _OBJC_CLASS_$_NSData
+- _OBJC_CLASS_$_NSFileManager
+- _OBJC_CLASS_$_NSMutableArray
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSString
+- _OBJC_CLASS_$_NSURL
+- _OBJC_CLASS_$_NSValue
+- _OBJC_CLASS_$_NanoResourceGrabber
+- _OBJC_CLASS_$_PBBridgeWatchAttributeController
+- _OBJC_CLASS_$_UIActivityIndicatorView
+- _OBJC_CLASS_$_UIButton
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_UIImageSymbolConfiguration
+- _OBJC_CLASS_$_UILabel
+- _OBJC_CLASS_$_UIScreen
+- _OBJC_CLASS_$_UIStackView
+- _OBJC_CLASS_$_UITapGestureRecognizer
+- _OBJC_METACLASS_$_CSLPRFAppViewChoiceButton
+- _OBJC_METACLASS_$_CSLPRFAppViewChoiceView
+- _OBJC_METACLASS_$_CSLPRFAppViewImageCache
+- _OBJC_METACLASS_$_CSLPRFAppViewImageProvider
+- _OBJC_METACLASS_$_CSLPRFDeviceUtilities
+- _OBJC_METACLASS_$_CSLPRFLauncherViewModeSetting
+- _OBJC_METACLASS_$_CSLPRFWatchChoice
+- _OBJC_METACLASS_$_CSLPRFWatchChoiceView
+- _OBJC_METACLASS_$_UIButton
+- _OBJC_METACLASS_$_UIStackView
+- _UIApp
+- _UIImagePNGRepresentation
+- _UILayoutFittingCompressedSize
+- __Block_object_dispose
+- __NSConcreteGlobalBlock
+- __Unwind_Resume
+- ___objc_personality_v0
+- __os_feature_enabled_impl
+- __os_log_debug_impl
+- _csl_accessibility_log
+- _csl_action_metrics_log
+- _csl_alerts_log
+- _csl_analytics_log
+- _csl_app_event_log
+- _csl_app_sessions_log
+- _csl_app_switcher_log
+- _csl_application_install_log
+- _csl_ariadne_log
+- _csl_background_refresh_log
+- _csl_backlight_log
+- _csl_battery_log
+- _csl_bb_log
+- _csl_bb_pipeline_log
+- _csl_bedtime_log
+- _csl_brightness_log
+- _csl_budget_log
+- _csl_button_log
+- _csl_cache_delete_log
+- _csl_clock_log
+- _csl_connection_status_log
+- _csl_control_center_log
+- _csl_crown_log
+- _csl_data_migration_log
+- _csl_demo_mode_log
+- _csl_depth_mode_log
+- _csl_detents_log
+- _csl_developer_log
+- _csl_diagnostics_log
+- _csl_dnd_log
+- _csl_dock_log
+- _csl_duet_metering_log
+- _csl_eclipse_log
+- _csl_eco_mode_log
+- _csl_flipbook_log
+- _csl_fluidui_log
+- _csl_gesture_log
+- _csl_haptic_log
+- _csl_hid_log
+- _csl_icon_field_log
+- _csl_icon_log
+- _csl_idle_navigation_log
+- _csl_lesson_log
+- _csl_low_power_mode_cellular_log
+- _csl_midnight_timer_log
+- _csl_migration_app_log
+- _csl_notification_alerting_log
+- _csl_notification_center_log
+- _csl_notification_management_log
+- _csl_now_playing_log
+- _csl_owd_log
+- _csl_passcode_log
+- _csl_power_log
+- _csl_preboard_log
+- _csl_prelaunch_log
+- _csl_process_assertions_log
+- _csl_qlll_log
+- _csl_responder_log
+- _csl_scene_alerts_log
+- _csl_scene_presentation_log
+- _csl_schedule_log
+- _csl_school_mode_log
+- _csl_screenshot_log
+- _csl_scroll_center_log
+- _csl_sessions_log
+- _csl_settings_log
+- _csl_shutdown_log
+- _csl_snapshot_log
+- _csl_startup_log
+- _csl_state_capture_log
+- _csl_statusbar_log
+- _csl_sting_log
+- _csl_systemstate_log
+- _csl_testing_log
+- _csl_thermal_log
+- _csl_timer_log
+- _csl_trace_log
+- _csl_transaction_log
+- _csl_transition_log
+- _csl_ui_log
+- _csl_uitrigger_log
+- _csl_usage_metering_log
+- _csl_user_idle_log
+- _csl_view_service_log
+- _csl_wake_gesture_log
+- _csl_watchkit_log
+- _csl_waterlock_log
+- _csl_widget_log
+- _csl_workspace_log
+- _csl_xpc_barrier_log
+- _dispatch_once
+- _objc_enumerationMutation
+- _objc_release_x1
+- _objc_retainBlock
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x8
+- _os_log_create
+- _os_unfair_lock_lock
+- _os_unfair_lock_unlock
+CStrings:
+- "\x03\x11"
+- "!"
+- "$"
+- "%@ UIApp provided device %@"
+- "%@ doesn't provide to activeWatch"
+- "%@-Default"
+- "%@-S3_Default"
+- "%@-S4_Default"
+- ","
+- ">>>> %@ adding retrieved image %@ to view %@"
+- ">>>> %@ retrieved image is %@, not adding to view %@"
+- ">>>> %d selected"
+- ">>>> CSLPRFDeviceAppviewImageCachePath: Error creating cache directory %@ path %@"
+- ">>>> CSLPRFPerDeviceAppViewImageCachePath: cachePath %@, device %@"
+- ">>>> adding provided %@ to view %@"
+- ">>>> calling getAppViewListImage %@"
+- ">>>> could not get app view list image %@"
+- ">>>> could not read from %@"
+- ">>>> got image %@, calling %@"
+- ">>>> no path for app view image"
+- ">>>> read data from %@"
+- ">>>> selecting %@"
+- ">>>> setting choice to %d was %d"
+- ">>>> unselecting %@"
+- "@\"<CSLPRFLauncherViewModeSettingDelegate>\""
+- "@\"<CSLPRFWatchChoiceDelegate>\""
+- "@\"<CSLPRFWatchChoiceImageProviding>\""
+- "@\"BPSIllustratedWatchView\""
+- "@\"CSLPRFAppViewChoiceButton\""
+- "@\"CSLPRFTwoWaySyncSetting\""
+- "@\"NSMutableArray\""
+- "@\"NSString\""
+- "@\"UIImage\""
+- "@\"UITapGestureRecognizer\""
+- "@24@0:8q16"
+- "@40@0:8@16d24@32"
+- "@48@0:8@16@24d32@?40"
+- "@?"
+- "APP_VIEW_CHOICE_GRID_VIEW"
+- "APP_VIEW_CHOICE_LIST_VIEW"
+- "AppViewGrid.png"
+- "AppViewList.png"
+- "B"
+- "Bridge"
+- "CSLLauncherSettingsChangedNotification"
+- "CSLPRFAppViewChoiceButton"
+- "CSLPRFAppViewChoiceView"
+- "CSLPRFAppViewImageCache"
+- "CSLPRFAppViewImageProvider"
+- "CSLPRFDeviceUtilities"
+- "CSLPRFLauncherViewModeSetting"
+- "CSLPRFTwoWaySyncSettingDelegate"
+- "CSLPRFWatchChoice"
+- "CSLPRFWatchChoiceProviding"
+- "CSLPRFWatchChoiceView"
+- "LauncherViewModeReason"
+- "Screen-Carousel"
+- "Screen-CarouselList"
+- "T@\"<CSLPRFLauncherViewModeSettingDelegate>\",W,N,V_delegate"
+- "T@\"<CSLPRFWatchChoiceDelegate>\",W,N,V_delegate"
+- "T@\"<CSLPRFWatchChoiceImageProviding>\",&,N,V_imageProvider"
+- "T@\"NSString\",R,N,V_label"
+- "T@\"NSString\",R,N,V_screenImageName"
+- "T@\"UIImage\",&,N,V_screenImage"
+- "TB,R,N,V_swapForRightToLeft"
+- "Td,N,V_horizontalOffset"
+- "Tq,R,N,V_choice"
+- "_addWatchScreenImageIfNecessary:"
+- "_button"
+- "_choice"
+- "_createWatchViewForChoice:"
+- "_delegate"
+- "_horizontalOffset"
+- "_imageProvider"
+- "_label"
+- "_lock"
+- "_modeSetting"
+- "_reasonSetting"
+- "_screenImage"
+- "_screenImageName"
+- "_selectionHandler"
+- "_setHyphenationFactor:"
+- "_swapForRightToLeft"
+- "_tapRecognizer"
+- "_updateSelectedChoice:"
+- "_updateWatchViewPreferredWidth"
+- "_watchView"
+- "_watchViews"
+- "_withLock:"
+- "accessibility"
+- "action_metrics"
+- "activeWatch"
+- "addArrangedSubview:"
+- "addConstraint:"
+- "addGestureRecognizer:"
+- "addObject:"
+- "addTarget:action:forControlEvents:"
+- "alerts"
+- "analytics"
+- "app_event"
+- "app_sessions"
+- "app_switcher"
+- "application_install"
+- "ariadne"
+- "array"
+- "background_refresh"
+- "backlight"
+- "battery"
+- "bb"
+- "bb_pipeline"
+- "bedtime"
+- "boolValue"
+- "bounds"
+- "brightness"
+- "budget"
+- "button"
+- "cache_delete"
+- "checkmark.circle.fill"
+- "circle"
+- "clock"
+- "com.apple.Carousel"
+- "com.apple.Carousel.notifications"
+- "com.apple.carousel"
+- "configurationWithPointSize:weight:"
+- "connection_status"
+- "constraintWithItem:attribute:relatedBy:toItem:attribute:multiplier:constant:"
+- "control_center"
+- "count"
+- "countByEnumeratingWithState:objects:count:"
+- "createDirectoryAtPath:withIntermediateDirectories:attributes:error:"
+- "crown"
+- "currentWatchChoice"
+- "d"
+- "d16@0:8"
+- "dataWithContentsOfURL:"
+- "data_migration"
+- "defaultManager"
+- "demo_mode"
+- "depth_mode"
+- "detents"
+- "developer"
+- "diagnostics"
+- "dnd"
+- "dock"
+- "duet_metering"
+- "eclipse"
+- "eco_mode"
+- "fileExistsAtPath:"
+- "fileURLWithPath:"
+- "flipbook"
+- "fluidui"
+- "gesture"
+- "getActivePairedDevice"
+- "getAppViewListImage:completion:"
+- "haptic"
+- "hid"
+- "horizontalOffset"
+- "i"
+- "icon"
+- "icon_field"
+- "idle_navigation"
+- "illustrated_assets"
+- "image"
+- "imageProvider"
+- "imageWithData:scale:"
+- "inWatchSetupFlow"
+- "initWithActivityIndicatorStyle:"
+- "initWithChoice:"
+- "initWithChoice:delegate:horizontalOffset:selectionHandler:"
+- "initWithTarget:action:"
+- "integerValue"
+- "intrinsicContentSize"
+- "isTinker:"
+- "label"
+- "launcherViewMode is %d"
+- "launcherViewModeReason"
+- "layoutIfNeeded"
+- "lesson"
+- "low_power_mode_cellular"
+- "mainScreen"
+- "midnight_timer"
+- "migration_app"
+- "notification_alerting"
+- "notification_center"
+- "notification_management"
+- "now_playing"
+- "numberWithInteger:"
+- "numberWithUnsignedInteger:"
+- "owd"
+- "pairingID"
+- "passcode"
+- "power"
+- "preboard"
+- "prelaunch"
+- "process_assertions"
+- "q16@0:8"
+- "q24@0:8@16"
+- "qlll"
+- "rangeOfString:"
+- "removeFromSuperview"
+- "responder"
+- "scale"
+- "scene_alerts"
+- "scene_presentation"
+- "schedule"
+- "school_mode"
+- "screenImage"
+- "screenImageName"
+- "screenImageNameWithPrefix:"
+- "screenshot"
+- "scroll_center"
+- "selectedByTap:"
+- "seriesForProductType:"
+- "sessions"
+- "setAlignment:"
+- "setAxis:"
+- "setContentCompressionResistancePriority:forAxis:"
+- "setContentHuggingPriority:forAxis:"
+- "setCustomSpacing:afterView:"
+- "setDistribution:"
+- "setHidden:"
+- "setImage:"
+- "setImage:forState:"
+- "setNeedsLayout"
+- "setNumberOfLines:"
+- "setPreferredCGSizeValue:"
+- "setScreenImageName:"
+- "setScreenImageSearchBundleIdentifier:"
+- "setSelected:"
+- "setText:"
+- "setTintColor:"
+- "setValue:"
+- "setting %@ to %d"
+- "setting %@ to %d was %d"
+- "setting launcherViewMode to %d"
+- "settings"
+- "shared"
+- "sharedDeviceController"
+- "shutdown"
+- "size"
+- "sizeFromDevice:"
+- "sizeThatFits:"
+- "snapshot"
+- "startAnimating"
+- "startup"
+- "state_capture"
+- "statusbar"
+- "sting"
+- "stopAnimating"
+- "stringByAppendingPathComponent:"
+- "stringWithFormat:"
+- "substringWithRange:"
+- "swapForRightToLeft"
+- "systemGrayColor"
+- "systemImageNamed:withConfiguration:"
+- "systemLayoutSizeFittingSize:"
+- "systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:"
+- "systemOrangeColor"
+- "systemstate"
+- "testing"
+- "thermal"
+- "timer"
+- "trace"
+- "transaction"
+- "transition"
+- "twoWaySyncSettingDidUpdate:"
+- "ui"
+- "uitrigger"
+- "usage_metering"
+- "user_idle"
+- "v16@?0q8"
+- "v20@0:8B16"
+- "v24@0:8@\"CSLPRFTwoWaySyncSetting\"16"
+- "v24@0:8@?16"
+- "v24@0:8d16"
+- "v24@0:8q16"
+- "v24@?0@\"UIImage\"8@\"NSError\"16"
+- "v32@0:8q16Q24"
+- "v32@?0@\"CSLPRFWatchChoiceView\"8Q16^B24"
+- "value for %@ (%d) is out of range, substituting %d"
+- "valueForProperty:"
+- "valueWithCGSize:"
+- "view_service"
+- "wake_gesture"
+- "watchChoice:"
+- "watchScreenImageView"
+- "watchkit"
+- "waterlock"
+- "widget"
+- "workspace"
+- "writeToURL:atomically:"
+- "xpc_barrier"
+- "{CGSize=dd}16@0:8"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+- "{CGSize=dd}40@0:8{CGSize=dd}16f32f36"
+- "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}"
+
+```

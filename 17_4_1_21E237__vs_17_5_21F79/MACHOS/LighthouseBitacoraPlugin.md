@@ -1,0 +1,16 @@
+## LighthouseBitacoraPlugin
+
+> `/System/Library/PrivateFrameworks/LighthouseBitacoraFramework.framework/PlugIns/LighthouseBitacoraPlugin.appex/LighthouseBitacoraPlugin`
+
+```diff
+
+   - /System/Library/PrivateFrameworks/MLRuntime.framework/MLRuntime
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: DE391252-9E18-3327-8B7B-7B6B57377964
++  UUID: 847488E0-663A-37A7-B626-F65B5CD1A87B
+   Functions: 14
+   Symbols:   125
+   CStrings:  114
+
+```

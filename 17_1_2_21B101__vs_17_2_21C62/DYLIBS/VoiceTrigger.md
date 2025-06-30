@@ -1,0 +1,407 @@
+## VoiceTrigger
+
+> `/System/Library/PrivateFrameworks/VoiceTrigger.framework/VoiceTrigger`
+
+```diff
+
+-3300.52.1.0.0
+-  __TEXT.__text: 0xc412c
++3302.3.1.0.0
++  __TEXT.__text: 0xc4134
+   __TEXT.__auth_stubs: 0x1120
+   __TEXT.__objc_methlist: 0x3570
+   __TEXT.__const: 0xf38
+   __TEXT.__gcc_except_tab: 0x7654
+-  __TEXT.__cstring: 0xd40f
++  __TEXT.__cstring: 0xd410
+   __TEXT.__oslogstring: 0x86f9
+   __TEXT.__ustring: 0xb4
+   __TEXT.__dlopen_cstrs: 0x166
+
+   __DATA.__objc_ivar: 0x588
+   __DATA.__data: 0xa758
+   __DATA.__common: 0x38
+-  __DATA.__bss: 0x248
++  __DATA.__bss: 0x2c0
+   __DATA_DIRTY.__objc_data: 0x7d0
+   __DATA_DIRTY.__common: 0x8
+-  __DATA_DIRTY.__bss: 0x140
++  __DATA_DIRTY.__bss: 0xc8
+   - /System/Library/Frameworks/Accelerate.framework/Accelerate
+   - /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 56968204-69F0-3089-8ADB-1D3BDB77F739
++  UUID: B11F62F3-D036-3169-8DE5-C16A8C4D1D41
+   Functions: 2752
+   Symbols:   8323
+   CStrings:  4514
+Symbols:
++ __OBJC_$_PROP_LIST_NSObject.1068
++ __OBJC_$_PROP_LIST_NSObject.1416
++ __OBJC_$_PROP_LIST_NSObject.1564
++ __OBJC_$_PROP_LIST_NSObject.2070
++ __OBJC_$_PROP_LIST_NSObject.2282
++ __OBJC_$_PROP_LIST_NSObject.2356
++ __OBJC_$_PROP_LIST_NSObject.3357
++ __OBJC_$_PROP_LIST_NSObject.3583
++ __OBJC_$_PROP_LIST_NSObject.3814
++ __OBJC_$_PROP_LIST_NSObject.4164
++ __OBJC_$_PROP_LIST_NSObject.4413
++ __OBJC_$_PROP_LIST_NSObject.4636
++ __OBJC_$_PROP_LIST_NSObject.526
++ __OBJC_$_PROP_LIST_NSObject.6415
++ __OBJC_$_PROP_LIST_NSObject.6530
++ __OBJC_$_PROP_LIST_NSObject.6700
++ __OBJC_$_PROP_LIST_NSObject.927
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.1932
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1069
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1417
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1565
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2071
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2283
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2357
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3358
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3584
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3815
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4165
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4414
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4637
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.527
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6416
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6531
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6701
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.928
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1070
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1418
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1566
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2072
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2284
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2358
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3359
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3585
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3816
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4166
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4415
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4638
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.528
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6417
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6532
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6702
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.929
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__EARSpeechRecognitionResultStream.4167
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTPeerRemoteConnectionDelegate.4639
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTTextDependentSpeakerRecognizerDelegate.6533
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTTriggerEventMonitorDelegate.3586
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.2073
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.3587
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.6418
++ __OBJC_$_PROTOCOL_INSTANCE_METHODS__EARSpeechRecognitionResultStream.4168
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.1933
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1071
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1419
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1567
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2074
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2285
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2359
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3360
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3588
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3817
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4169
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4416
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4640
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.529
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6419
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6534
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6703
++ __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.930
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTPeerRemoteConnectionDelegate.4641
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTTextDependentSpeakerRecognizerDelegate.6535
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTTriggerEventMonitorDelegate.3589
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.2075
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.3590
++ __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.6420
++ __OBJC_$_PROTOCOL_METHOD_TYPES__EARSpeechRecognitionResultStream.4170
++ __OBJC_$_PROTOCOL_REFS_VTPeerRemoteConnectionDelegate.4642
++ __OBJC_$_PROTOCOL_REFS_VTTextDependentSpeakerRecognizerDelegate.6536
++ __OBJC_$_PROTOCOL_REFS_VTTriggerEventMonitorDelegate.3591
++ __OBJC_$_PROTOCOL_REFS_VTXPCService.2076
++ __OBJC_$_PROTOCOL_REFS_VTXPCService.3592
++ __OBJC_$_PROTOCOL_REFS_VTXPCService.6421
++ __OBJC_$_PROTOCOL_REFS__EARSpeechRecognitionResultStream.4171
++ ___Block_byref_object_copy_.190
++ ___Block_byref_object_copy_.1970
++ ___Block_byref_object_copy_.3108
++ ___Block_byref_object_copy_.3491
++ ___Block_byref_object_copy_.4487
++ ___Block_byref_object_copy_.582
++ ___Block_byref_object_copy_.6504
++ ___Block_byref_object_dispose_.191
++ ___Block_byref_object_dispose_.1971
++ ___Block_byref_object_dispose_.3109
++ ___Block_byref_object_dispose_.3492
++ ___Block_byref_object_dispose_.4488
++ ___Block_byref_object_dispose_.583
++ ___Block_byref_object_dispose_.6505
++ ___block_descriptor_64_e8_32s40s48r_e15_v32?0816^B24ls32l8r48l8s40l8
++ ___block_literal_global.1086
++ ___block_literal_global.11.5718
++ ___block_literal_global.1118
++ ___block_literal_global.13.6341
++ ___block_literal_global.14.5719
++ ___block_literal_global.17.5720
++ ___block_literal_global.1989
++ ___block_literal_global.2113
++ ___block_literal_global.22
++ ___block_literal_global.24.6330
++ ___block_literal_global.2776
++ ___block_literal_global.2822
++ ___block_literal_global.3009
++ ___block_literal_global.3214
++ ___block_literal_global.33
++ ___block_literal_global.3317
++ ___block_literal_global.3433
++ ___block_literal_global.3507
++ ___block_literal_global.3701
++ ___block_literal_global.385
++ ___block_literal_global.3866
++ ___block_literal_global.402
++ ___block_literal_global.4321
++ ___block_literal_global.4426
++ ___block_literal_global.448
++ ___block_literal_global.4495
++ ___block_literal_global.4551
++ ___block_literal_global.4685
++ ___block_literal_global.5050
++ ___block_literal_global.5103
++ ___block_literal_global.5622
++ ___block_literal_global.5702
++ ___block_literal_global.5717
++ ___block_literal_global.596
++ ___block_literal_global.61.3780
++ ___block_literal_global.6227
++ ___block_literal_global.6347
++ ___block_literal_global.6518
++ ___block_literal_global.6562
++ ___block_literal_global.6659
++ ___block_literal_global.7.5038
++ __unnamed_array_storage.3190
++ __unnamed_array_storage.3683
++ __unnamed_array_storage.6493
++ _sharedInstance._sharedInstance.2114
++ _sharedInstance._sharedInstance.2777
++ _sharedInstance._sharedInstance.2823
++ _sharedInstance._sharedInstance.3010
++ _sharedInstance._sharedInstance.3318
++ _sharedInstance._sharedInstance.3434
++ _sharedInstance._sharedInstance.3867
++ _sharedInstance._sharedInstance.4552
++ _sharedInstance._sharedInstance.4686
++ _sharedInstance._sharedInstance.5703
++ _sharedInstance._sharedInstance.6228
++ _sharedInstance.onceToken.2112
++ _sharedInstance.onceToken.2775
++ _sharedInstance.onceToken.2821
++ _sharedInstance.onceToken.3008
++ _sharedInstance.onceToken.3316
++ _sharedInstance.onceToken.3432
++ _sharedInstance.onceToken.3865
++ _sharedInstance.onceToken.447
++ _sharedInstance.onceToken.4494
++ _sharedInstance.onceToken.4550
++ _sharedInstance.onceToken.4684
++ _sharedInstance.onceToken.5102
++ _sharedInstance.onceToken.5701
++ _sharedInstance.onceToken.6226
++ _sharedInstance.onceToken.6658
+- __OBJC_$_PROP_LIST_NSObject.1072
+- __OBJC_$_PROP_LIST_NSObject.1422
+- __OBJC_$_PROP_LIST_NSObject.1570
+- __OBJC_$_PROP_LIST_NSObject.2076
+- __OBJC_$_PROP_LIST_NSObject.2288
+- __OBJC_$_PROP_LIST_NSObject.2362
+- __OBJC_$_PROP_LIST_NSObject.3363
+- __OBJC_$_PROP_LIST_NSObject.3589
+- __OBJC_$_PROP_LIST_NSObject.3825
+- __OBJC_$_PROP_LIST_NSObject.4175
+- __OBJC_$_PROP_LIST_NSObject.4424
+- __OBJC_$_PROP_LIST_NSObject.4647
+- __OBJC_$_PROP_LIST_NSObject.530
+- __OBJC_$_PROP_LIST_NSObject.6425
+- __OBJC_$_PROP_LIST_NSObject.6545
+- __OBJC_$_PROP_LIST_NSObject.6715
+- __OBJC_$_PROP_LIST_NSObject.931
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying.1938
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1073
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1423
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.1571
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2077
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2289
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.2363
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3364
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3590
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.3826
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4176
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4425
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.4648
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.531
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6426
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6546
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.6716
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject.932
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1074
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1424
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.1572
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2078
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2290
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.2364
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3365
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3591
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.3827
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4177
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4426
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.4649
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.532
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6427
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6547
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.6717
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject.933
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT__EARSpeechRecognitionResultStream.4178
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTPeerRemoteConnectionDelegate.4650
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTTextDependentSpeakerRecognizerDelegate.6548
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTTriggerEventMonitorDelegate.3592
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.2079
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.3593
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_VTXPCService.6428
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS__EARSpeechRecognitionResultStream.4179
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying.1939
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1075
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1425
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.1573
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2080
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2291
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.2365
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3366
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3594
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.3828
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4180
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4427
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.4651
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.533
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6429
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6549
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.6718
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject.934
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTPeerRemoteConnectionDelegate.4652
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTTextDependentSpeakerRecognizerDelegate.6550
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTTriggerEventMonitorDelegate.3595
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.2081
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.3596
+- __OBJC_$_PROTOCOL_METHOD_TYPES_VTXPCService.6430
+- __OBJC_$_PROTOCOL_METHOD_TYPES__EARSpeechRecognitionResultStream.4181
+- __OBJC_$_PROTOCOL_REFS_VTPeerRemoteConnectionDelegate.4653
+- __OBJC_$_PROTOCOL_REFS_VTTextDependentSpeakerRecognizerDelegate.6551
+- __OBJC_$_PROTOCOL_REFS_VTTriggerEventMonitorDelegate.3597
+- __OBJC_$_PROTOCOL_REFS_VTXPCService.2082
+- __OBJC_$_PROTOCOL_REFS_VTXPCService.3598
+- __OBJC_$_PROTOCOL_REFS_VTXPCService.6431
+- __OBJC_$_PROTOCOL_REFS__EARSpeechRecognitionResultStream.4182
+- ___Block_byref_object_copy_.1976
+- ___Block_byref_object_copy_.202
+- ___Block_byref_object_copy_.3111
+- ___Block_byref_object_copy_.3497
+- ___Block_byref_object_copy_.4498
+- ___Block_byref_object_copy_.585
+- ___Block_byref_object_copy_.6519
+- ___Block_byref_object_dispose_.1977
+- ___Block_byref_object_dispose_.203
+- ___Block_byref_object_dispose_.3112
+- ___Block_byref_object_dispose_.3498
+- ___Block_byref_object_dispose_.4499
+- ___Block_byref_object_dispose_.586
+- ___Block_byref_object_dispose_.6520
+- ___block_descriptor_56_e8_32s40s48r_e15_v32?0816^B24ls32l8r48l8s40l8
+- ___block_literal_global.1090
+- ___block_literal_global.11.5728
+- ___block_literal_global.1122
+- ___block_literal_global.13.6351
+- ___block_literal_global.14.5729
+- ___block_literal_global.17.5730
+- ___block_literal_global.1995
+- ___block_literal_global.2119
+- ___block_literal_global.23.1123
+- ___block_literal_global.24.6340
+- ___block_literal_global.2782
+- ___block_literal_global.2828
+- ___block_literal_global.3015
+- ___block_literal_global.3218
+- ___block_literal_global.3323
+- ___block_literal_global.34
+- ___block_literal_global.3439
+- ___block_literal_global.3513
+- ___block_literal_global.3712
+- ___block_literal_global.3877
+- ___block_literal_global.389
+- ___block_literal_global.406
+- ___block_literal_global.4332
+- ___block_literal_global.4437
+- ___block_literal_global.4506
+- ___block_literal_global.452
+- ___block_literal_global.4562
+- ___block_literal_global.4696
+- ___block_literal_global.5061
+- ___block_literal_global.5114
+- ___block_literal_global.5632
+- ___block_literal_global.5712
+- ___block_literal_global.5727
+- ___block_literal_global.599
+- ___block_literal_global.61.3791
+- ___block_literal_global.6237
+- ___block_literal_global.6357
+- ___block_literal_global.6534
+- ___block_literal_global.6577
+- ___block_literal_global.6674
+- ___block_literal_global.7.5049
+- __unnamed_array_storage.3195
+- __unnamed_array_storage.3692
+- __unnamed_array_storage.6508
+- _sharedInstance._sharedInstance.2120
+- _sharedInstance._sharedInstance.2783
+- _sharedInstance._sharedInstance.2829
+- _sharedInstance._sharedInstance.3016
+- _sharedInstance._sharedInstance.3324
+- _sharedInstance._sharedInstance.3440
+- _sharedInstance._sharedInstance.3878
+- _sharedInstance._sharedInstance.4563
+- _sharedInstance._sharedInstance.4697
+- _sharedInstance._sharedInstance.5713
+- _sharedInstance._sharedInstance.6238
+- _sharedInstance.onceToken.2118
+- _sharedInstance.onceToken.2781
+- _sharedInstance.onceToken.2827
+- _sharedInstance.onceToken.3014
+- _sharedInstance.onceToken.3322
+- _sharedInstance.onceToken.3438
+- _sharedInstance.onceToken.3876
+- _sharedInstance.onceToken.4505
+- _sharedInstance.onceToken.451
+- _sharedInstance.onceToken.4561
+- _sharedInstance.onceToken.4695
+- _sharedInstance.onceToken.5113
+- _sharedInstance.onceToken.5711
+- _sharedInstance.onceToken.6236
+- _sharedInstance.onceToken.6673
+CStrings:
++ "Apple clang version 15.0.0 (clang-1500.1.0.2.2) [+internal-os]"
++ "Novalib gitrelno_unavailable Release Sun Nov 12 09:01:56 2023"
++ "Sun Nov 12 09:01:56 2023"
++ "Sun Nov 12 09:01:56 PST 2023"
+- "Apple clang version 15.0.0 (clang-1500.0.37.1) [+internal-os]"
+- "Novalib gitrelno_unavailable Release Sat Sep 30 15:34:58 2023"
+- "Sat Sep 30 15:34:58 2023"
+- "Sat Sep 30 15:34:58 PDT 2023"
+
+```

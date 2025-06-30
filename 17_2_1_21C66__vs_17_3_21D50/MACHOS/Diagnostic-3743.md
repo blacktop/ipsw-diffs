@@ -1,0 +1,22 @@
+## Diagnostic-3743
+
+> `/Applications/DiagnosticsService.app/PlugIns/Diagnostic-3743.appex/Diagnostic-3743`
+
+```diff
+
+-677.2.4.0.0
++677.3.6.0.0
+   __TEXT.__text: 0x15b0
+   __TEXT.__auth_stubs: 0x230
+   __TEXT.__objc_stubs: 0x520
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libarchive.2.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: A0551C6C-D2DB-34E8-BCE8-37C19E3FC080
++  UUID: EF043691-2F8E-3E1D-846E-B427AD62D9E0
+   Functions: 29
+   Symbols:   61
+   CStrings:  102
+
+```

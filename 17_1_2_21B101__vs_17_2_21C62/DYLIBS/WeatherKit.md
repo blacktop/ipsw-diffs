@@ -1,0 +1,434 @@
+## WeatherKit
+
+> `/System/Library/Frameworks/WeatherKit.framework/WeatherKit`
+
+```diff
+
+-484.1.0.0.0
+-  __TEXT.__text: 0x23918c
+-  __TEXT.__auth_stubs: 0x2b80
++515.0.0.0.0
++  __TEXT.__text: 0x268ee0
++  __TEXT.__auth_stubs: 0x2ed0
+   __TEXT.__objc_methlist: 0x14
+-  __TEXT.__const: 0x17890
+-  __TEXT.__swift5_typeref: 0x5a81
+-  __TEXT.__cstring: 0x134f8
+-  __TEXT.__constg_swiftt: 0x411c
+-  __TEXT.__swift5_reflstr: 0x3c2a
+-  __TEXT.__swift5_fieldmd: 0x6328
++  __TEXT.__const: 0x188e0
++  __TEXT.__swift5_typeref: 0x60a7
++  __TEXT.__cstring: 0x138c8
++  __TEXT.__constg_swiftt: 0x46bc
++  __TEXT.__swift5_reflstr: 0x3fbd
++  __TEXT.__swift5_fieldmd: 0x6930
+   __TEXT.__swift5_builtin: 0x28
+-  __TEXT.__swift5_proto: 0x1710
+-  __TEXT.__swift5_types: 0x6e8
+-  __TEXT.__swift5_capture: 0x2018
+-  __TEXT.__swift5_assocty: 0x550
++  __TEXT.__swift5_proto: 0x1808
++  __TEXT.__swift5_types: 0x744
++  __TEXT.__swift5_capture: 0x2284
++  __TEXT.__swift5_assocty: 0x580
+   __TEXT.__swift5_protos: 0xc
+   __TEXT.__swift5_mpenum: 0x8
+-  __TEXT.__unwind_info: 0x7c74
+-  __TEXT.__eh_frame: 0x6bb8
++  __TEXT.__unwind_info: 0x87fc
++  __TEXT.__eh_frame: 0x7ea8
+   __TEXT.__objc_classname: 0x14
+-  __TEXT.__objc_methname: 0x35df
++  __TEXT.__objc_methname: 0x3667
+   __TEXT.__objc_methtype: 0x7f6
+-  __DATA_CONST.__got: 0x758
++  __DATA_CONST.__got: 0x7a0
+   __DATA_CONST.__const: 0x80
+   __DATA_CONST.__objc_classlist: 0x78
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x3530
+-  __DATA_CONST.__objc_selrefs: 0x138
+-  __AUTH_CONST.__const: 0xec98
++  __DATA_CONST.__objc_const: 0x3580
++  __DATA_CONST.__objc_selrefs: 0x160
++  __AUTH_CONST.__const: 0x10188
+   __AUTH_CONST.__objc_const: 0x48
+-  __AUTH_CONST.__auth_got: 0x15c0
+-  __AUTH.__data: 0x470
++  __AUTH_CONST.__auth_got: 0x1768
++  __AUTH.__data: 0x610
+   __AUTH.__objc_data: 0x0
+   __DATA.__objc_protorefs: 0x10
+-  __DATA.__objc_classrefs: 0xa0
+-  __DATA.__data: 0x4780
+-  __DATA.__bss: 0x25400
++  __DATA.__objc_classrefs: 0xa8
++  __DATA.__data: 0x50b8
++  __DATA.__bss: 0x27300
++  __DATA_DIRTY.__const: 0xb0
+   __DATA_DIRTY.__objc_data: 0x50
+-  __DATA_DIRTY.__data: 0x41a0
++  __DATA_DIRTY.__data: 0x4090
+   __DATA_DIRTY.__bss: 0x8c80
+   __DATA_DIRTY.__common: 0xc0
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: FD9F8E84-5AF8-3884-8ACF-9B537E8CD5F4
+-  Functions: 14137
+-  Symbols:   7972
+-  CStrings:  2104
++  UUID: BDE30ABB-79D1-3BA5-BC56-41588CA8E11F
++  Functions: 15074
++  Symbols:   8502
++  CStrings:  2134
+ 
+Symbols:
++ _OBJC_CLASS_$_NSDateFormatter
++ _OUTLINED_FUNCTION_513
++ _OUTLINED_FUNCTION_514
++ _OUTLINED_FUNCTION_515
++ _OUTLINED_FUNCTION_516
++ _OUTLINED_FUNCTION_517
++ _OUTLINED_FUNCTION_518
++ _OUTLINED_FUNCTION_519
++ _OUTLINED_FUNCTION_520
++ _OUTLINED_FUNCTION_521
++ _OUTLINED_FUNCTION_522
++ _OUTLINED_FUNCTION_523
++ _OUTLINED_FUNCTION_524
++ _OUTLINED_FUNCTION_525
++ _OUTLINED_FUNCTION_526
++ _OUTLINED_FUNCTION_527
++ _OUTLINED_FUNCTION_528
++ _OUTLINED_FUNCTION_529
++ _OUTLINED_FUNCTION_530
++ _OUTLINED_FUNCTION_531
++ _OUTLINED_FUNCTION_532
++ _OUTLINED_FUNCTION_533
++ _OUTLINED_FUNCTION_534
++ _OUTLINED_FUNCTION_535
++ _OUTLINED_FUNCTION_536
++ _OUTLINED_FUNCTION_537
++ _OUTLINED_FUNCTION_538
++ _OUTLINED_FUNCTION_539
++ _OUTLINED_FUNCTION_540
++ _OUTLINED_FUNCTION_541
++ _OUTLINED_FUNCTION_542
++ _OUTLINED_FUNCTION_543
++ _OUTLINED_FUNCTION_544
++ _OUTLINED_FUNCTION_545
++ _OUTLINED_FUNCTION_546
++ _OUTLINED_FUNCTION_547
++ _OUTLINED_FUNCTION_548
++ _OUTLINED_FUNCTION_549
++ _OUTLINED_FUNCTION_550
++ _OUTLINED_FUNCTION_551
++ _OUTLINED_FUNCTION_552
++ _OUTLINED_FUNCTION_553
++ _OUTLINED_FUNCTION_554
++ _OUTLINED_FUNCTION_555
++ _OUTLINED_FUNCTION_556
++ _OUTLINED_FUNCTION_557
++ _OUTLINED_FUNCTION_558
++ _OUTLINED_FUNCTION_559
++ _OUTLINED_FUNCTION_560
++ _OUTLINED_FUNCTION_561
++ _OUTLINED_FUNCTION_562
++ _OUTLINED_FUNCTION_563
++ _OUTLINED_FUNCTION_564
++ _OUTLINED_FUNCTION_565
++ _OUTLINED_FUNCTION_566
++ _OUTLINED_FUNCTION_567
++ _OUTLINED_FUNCTION_568
++ _OUTLINED_FUNCTION_569
++ _OUTLINED_FUNCTION_570
++ _OUTLINED_FUNCTION_571
++ _OUTLINED_FUNCTION_572
++ _OUTLINED_FUNCTION_573
++ _OUTLINED_FUNCTION_574
++ _OUTLINED_FUNCTION_575
++ _OUTLINED_FUNCTION_576
++ _OUTLINED_FUNCTION_577
++ _OUTLINED_FUNCTION_578
++ _OUTLINED_FUNCTION_579
++ _OUTLINED_FUNCTION_580
++ _OUTLINED_FUNCTION_581
++ _OUTLINED_FUNCTION_582
++ _OUTLINED_FUNCTION_583
++ _OUTLINED_FUNCTION_584
++ _OUTLINED_FUNCTION_585
++ _OUTLINED_FUNCTION_586
++ _OUTLINED_FUNCTION_587
++ _OUTLINED_FUNCTION_588
++ _OUTLINED_FUNCTION_589
++ _OUTLINED_FUNCTION_590
++ _OUTLINED_FUNCTION_591
++ _OUTLINED_FUNCTION_592
++ _OUTLINED_FUNCTION_593
++ _OUTLINED_FUNCTION_594
++ _OUTLINED_FUNCTION_595
++ _OUTLINED_FUNCTION_596
++ _OUTLINED_FUNCTION_597
++ ___swift_memcpy120_8
++ _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOyx_GSHAASQ
++ _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOyx_Gs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit05DailyA7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLOSHAASQ
++ _associated conformance 10WeatherKit05DailyA7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLOs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit05DailyA7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLOs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit06HourlyA10StatisticsV10CodingKeys33_B82031E345A2433D487BE2CDC039E6CCLLOyx_GSHAASQ
++ _associated conformance 10WeatherKit06HourlyA10StatisticsV10CodingKeys33_B82031E345A2433D487BE2CDC039E6CCLLOyx_Gs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit06HourlyA10StatisticsV10CodingKeys33_B82031E345A2433D487BE2CDC039E6CCLLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOyx_GSHAASQ
++ _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOyx_Gs0E3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOyx_Gs0E3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit0A25ServiceDailyRelativeRangeV0E2ToOSHAASQ
++ _associated conformance 10WeatherKit0A26ServiceHourlyRelativeRangeV0E2ToOSHAASQ
++ _associated conformance 10WeatherKit0a8QueryDayA13RelativeRangeV0E2ToOSHAASQ
++ _associated conformance 10WeatherKit0a9QueryHourA13RelativeRangeV0E2ToOSHAASQ
++ _associated conformance 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLOSHAASQ
++ _associated conformance 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLOSHAASQ
++ _associated conformance 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLOSHAASQ
++ _associated conformance 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLOSHAASQ
++ _associated conformance 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLOSHAASQ
++ _associated conformance 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLOSHAASQ
++ _associated conformance 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLOSHAASQ
++ _associated conformance 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10WeatherKit9QuantilesV10CodingKeys33_691B2AC7B627E162FF971BF2BB441DC5LLOyx_GSHAASQ
++ _associated conformance 10WeatherKit9QuantilesV10CodingKeys33_691B2AC7B627E162FF971BF2BB441DC5LLOyx_Gs0D3KeyAAs23CustomStringConvertible
++ _associated conformance 10WeatherKit9QuantilesV10CodingKeys33_691B2AC7B627E162FF971BF2BB441DC5LLOyx_Gs0D3KeyAAs28CustomDebugStringConvertible
++ _objectdestroy.119Tm
++ _objectdestroy.134Tm
++ _objectdestroy.165Tm
++ _objectdestroy.184Tm
++ _objectdestroy.203Tm
++ _objectdestroy.56Tm
++ _objectdestroy.72Tm
++ _objectdestroy.78Tm
++ _swift_allocateMetadataPack
++ _swift_allocateWitnessTablePack
++ _symbolic SDy__________G 10WeatherKit13PrecipitationO AA0C11AmountRangeV
++ _symbolic Say_____G 10Foundation4UUIDV
++ _symbolic Say_____G 10WeatherKit03DayA7SummaryV
++ _symbolic Say_____G 13WeatherDaemon17StatisticsProductO
++ _symbolic ScCy___________pG 10WeatherKit05DailyA7SummaryV s5ErrorP
++ _symbolic ScCy_____y_____G_AAy_____Gt______pG 10WeatherKit07MonthlyA10StatisticsV AA016MonthTemperatureD0V AA0e13PrecipitationD0V s5ErrorP
++ _symbolic ScCy_____y_____G______pG 10WeatherKit05DailyA10StatisticsV AA016DayPrecipitationD0V s5ErrorP
++ _symbolic ScCy_____y_____G______pG 10WeatherKit06HourlyA10StatisticsV AA015HourTemperatureD0V s5ErrorP
++ _symbolic ScCy_____yxGxQp_t______pG 10WeatherKit05DailyA10StatisticsV s5ErrorP
++ _symbolic ScCy_____yxGxQp_t______pG 10WeatherKit06HourlyA10StatisticsV s5ErrorP
++ _symbolic ScCy_____yxGxQp_t______pG 10WeatherKit07MonthlyA10StatisticsV s5ErrorP
++ _symbolic So15NSDateFormatterC
++ _symbolic _____ 10Foundation4UUIDV
++ _symbolic _____ 10WeatherKit05DailyA7SummaryV
++ _symbolic _____ 10WeatherKit05DailyA7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLO
++ _symbolic _____ 10WeatherKit06HourlyA10StatisticsV
++ _symbolic _____ 10WeatherKit06HourlyA10StatisticsV10CodingKeys33_B82031E345A2433D487BE2CDC039E6CCLLO
++ _symbolic _____ 10WeatherKit0A25ServiceDailyRelativeRangeV
++ _symbolic _____ 10WeatherKit0A25ServiceDailyRelativeRangeV0E2ToO
++ _symbolic _____ 10WeatherKit0A26ServiceHourlyRelativeRangeV
++ _symbolic _____ 10WeatherKit0A26ServiceHourlyRelativeRangeV0E2ToO
++ _symbolic _____ 10WeatherKit0a8QueryDayA13RelativeRangeV
++ _symbolic _____ 10WeatherKit0a8QueryDayA13RelativeRangeV0E2ToO
++ _symbolic _____ 10WeatherKit0a9QueryHourA13RelativeRangeV
++ _symbolic _____ 10WeatherKit0a9QueryHourA13RelativeRangeV0E2ToO
++ _symbolic _____ 10WeatherKit20DailyStatisticsQueryV
++ _symbolic _____ 10WeatherKit21HourlyStatisticsQueryV
++ _symbolic _____ 10WeatherKit22MonthlyStatisticsQueryV
++ _symbolic _____ 10WeatherKit24DayTemperatureStatisticsV
++ _symbolic _____ 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLO
++ _symbolic _____ 10WeatherKit24PrecipitationAmountRangeV
++ _symbolic _____ 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLO
++ _symbolic _____ 10WeatherKit25HourTemperatureStatisticsV
++ _symbolic _____ 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLO
++ _symbolic _____ 10WeatherKit25PrecipitationAmountRangesV
++ _symbolic _____ 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLO
++ _symbolic _____ 10WeatherKit26DayPrecipitationStatisticsV
++ _symbolic _____ 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLO
++ _symbolic _____ 10WeatherKit26MonthTemperatureStatisticsV
++ _symbolic _____ 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLO
++ _symbolic _____ 10WeatherKit28MonthPrecipitationStatisticsV
++ _symbolic _____ 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLO
++ _symbolic _____ 10WeatherKit9QuantilesV
++ _symbolic _____ 10WeatherKit9QuantilesV10CodingKeys33_691B2AC7B627E162FF971BF2BB441DC5LLO
++ _symbolic _____ 13WeatherDaemon17StatisticsProductO
++ _symbolic _____3key______5valuet 10WeatherKit13PrecipitationO AA0C11AmountRangeV
++ _symbolic _____3key______5valuetSg 10WeatherKit13PrecipitationO AA0C11AmountRangeV
++ _symbolic _____Sg 10WeatherKit0A25ServiceDailyRelativeRangeV
++ _symbolic _____Sg 10WeatherKit0A26ServiceHourlyRelativeRangeV
++ _symbolic _____Sg 10WeatherKit0a8QueryDayA13RelativeRangeV
++ _symbolic _____Sg 10WeatherKit0a9QueryHourA13RelativeRangeV
++ _symbolic _____Sg 13WeatherDaemon0A25RequestDailyRelativeRangeV
++ _symbolic _____Sg 13WeatherDaemon0A26RequestHourlyRelativeRangeV
++ _symbolic _____Sg 13WeatherDaemon16TemperatureRangeV
++ _symbolic _____Sg 13WeatherDaemon19PrecipitationAmountV
++ _symbolic _____Sg 13WeatherDaemon9QuantilesV
++ _symbolic _____ySo17NSUnitTemperatureCG 10WeatherKit9QuantilesV
++ _symbolic _____y_____G 10WeatherKit05DailyA10StatisticsV AA014DayTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit05DailyA10StatisticsV AA016DayPrecipitationD0V
++ _symbolic _____y_____G 10WeatherKit06HourlyA10StatisticsV AA015HourTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit07MonthlyA10StatisticsV AA016MonthTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit07MonthlyA10StatisticsV AA018MonthPrecipitationD0V
++ _symbolic _____y_____G 10WeatherKit20DailyStatisticsQueryV AA014DayTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit20DailyStatisticsQueryV AA016DayPrecipitationD0V
++ _symbolic _____y_____G 10WeatherKit21HourlyStatisticsQueryV AA015HourTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit22MonthlyStatisticsQueryV AA016MonthTemperatureD0V
++ _symbolic _____y_____G 10WeatherKit22MonthlyStatisticsQueryV AA018MonthPrecipitationD0V
++ _symbolic _____y_____G 13TeaFoundation7PromiseC 10WeatherKit05DailyD7SummaryV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit05DailyD7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit05DailyD7SummaryV10CodingKeys33_01DF343CDD3B4A61A6886A09659BAC7FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit24DayTemperatureStatisticsV10CodingKeys33_7964B1E5683D1BAEC651D140A42F518FLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit24PrecipitationAmountRangeV10CodingKeys33_A569D996ED06BBE8E382F1D106EA7FF1LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit25HourTemperatureStatisticsV10CodingKeys33_1C1EAB8C677FA77BADE6DD0774B4DC7ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit25PrecipitationAmountRangesV10CodingKeys33_A820F0D2C5F7D85DBBEB812B38CBF00BLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit26DayPrecipitationStatisticsV10CodingKeys33_B8A7446B16E918C36B38DC9F017BDDC0LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit26MonthTemperatureStatisticsV10CodingKeys33_5D0F535D7B7B47E39120E375EB71D162LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit28MonthPrecipitationStatisticsV10CodingKeys33_F67BB906BC108D0BACEAD648B6B641D1LLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit03DayD7SummaryV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit24DayTemperatureStatisticsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit25HourTemperatureStatisticsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit26DayPrecipitationStatisticsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit26MonthTemperatureStatisticsV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit28MonthPrecipitationStatisticsV
++ _symbolic _____y_____G_AAy_____Gt 10WeatherKit07MonthlyA10StatisticsV AA016MonthTemperatureD0V AA0e13PrecipitationD0V
++ _symbolic _____y_____G_AAy_____Gt 10WeatherKit22MonthlyStatisticsQueryV AA016MonthTemperatureD0V AA0f13PrecipitationD0V
++ _symbolic _____y_____G______y_____G__________y_____G_AHy_____Gtt 10WeatherKit06HourlyA10StatisticsV AA015HourTemperatureD0V AA05DailyaD0V AA016DayPrecipitationD0V AA0gA7SummaryV AA07MonthlyaD0V AA05MonthfD0V AA0liD0V
++ _symbolic _____y___________pG s6ResultO 10WeatherKit05DailyB7SummaryV s5ErrorP
++ _symbolic _____y___________pGIegn_ s6ResultO 10WeatherKit05DailyB7SummaryV s5ErrorP
++ _symbolic _____y_____y_____GG 13TeaFoundation7PromiseC 10WeatherKit05DailyD10StatisticsV AD016DayPrecipitationG0V
++ _symbolic _____y_____y_____GG 13TeaFoundation7PromiseC 10WeatherKit06HourlyD10StatisticsV AD015HourTemperatureG0V
++ _symbolic _____y_____y_____G_ABy_____GtG 13TeaFoundation7PromiseC 10WeatherKit07MonthlyD10StatisticsV AD016MonthTemperatureG0V AD0h13PrecipitationG0V
++ _symbolic _____y_____y_____G_ABy_____Gt______pG s6ResultO 10WeatherKit07MonthlyB10StatisticsV AC016MonthTemperatureE0V AC0f13PrecipitationE0V s5ErrorP
++ _symbolic _____y_____y_____G_ABy_____Gt______pGIegn_ s6ResultO 10WeatherKit07MonthlyB10StatisticsV AC016MonthTemperatureE0V AC0f13PrecipitationE0V s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultO 10WeatherKit05DailyB10StatisticsV AC016DayPrecipitationE0V s5ErrorP
++ _symbolic _____y_____y_____G______pG s6ResultO 10WeatherKit06HourlyB10StatisticsV AC015HourTemperatureE0V s5ErrorP
++ _symbolic _____y_____y_____G______pGIegn_ s6ResultO 10WeatherKit05DailyB10StatisticsV AC016DayPrecipitationE0V s5ErrorP
++ _symbolic _____y_____y_____G______pGIegn_ s6ResultO 10WeatherKit06HourlyB10StatisticsV AC015HourTemperatureE0V s5ErrorP
++ _symbolic _____y_____yxGxQp_t______pGIegn_ s6ResultO 10WeatherKit05DailyB10StatisticsV s5ErrorP
++ _symbolic _____y_____yxGxQp_t______pGIegn_ s6ResultO 10WeatherKit06HourlyB10StatisticsV s5ErrorP
++ _symbolic _____y_____yxGxQp_t______pGIegn_ s6ResultO 10WeatherKit07MonthlyB10StatisticsV s5ErrorP
++ _symbolic _____yxG___________tKc 10WeatherKit05DailyA10StatisticsV 0A6DaemonABV AA0A12ModelFactoryC
++ _symbolic _____yxG___________tKc 10WeatherKit06HourlyA10StatisticsV 0A6DaemonABV AA0A12ModelFactoryC
++ _symbolic _____yxG___________tKc 10WeatherKit07MonthlyA10StatisticsV 0A6DaemonABV AA0A12ModelFactoryC
++ _symbolic _____yxGxQp_t 10WeatherKit20DailyStatisticsQueryV
++ _symbolic _____yxGxQp_t 10WeatherKit21HourlyStatisticsQueryV
++ _symbolic _____yxGxQp_t 10WeatherKit22MonthlyStatisticsQueryV
++ _symbolic sB0
++ _symbolic xxQp_QP
+- ___swift_memcpy104_8
+- _associated conformance 10WeatherKit03DayA10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLOSHAASQ
+- _associated conformance 10WeatherKit03DayA10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit03DayA10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10WeatherKit04HourA10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLOSHAASQ
+- _associated conformance 10WeatherKit04HourA10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit04HourA10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOSHAASQ
+- _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit05DailyA10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10WeatherKit05MonthA10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLOSHAASQ
+- _associated conformance 10WeatherKit05MonthA10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit05MonthA10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOSHAASQ
+- _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOs0E3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit07MonthlyA10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLOs0E3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 10WeatherKit0A10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLOSHAASQ
+- _associated conformance 10WeatherKit0A10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLOs0D3KeyAAs23CustomStringConvertible
+- _associated conformance 10WeatherKit0A10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLOs0D3KeyAAs28CustomDebugStringConvertible
+- _objc_retain_x9
+- _objectdestroy.62Tm
+- _objectdestroy.68Tm
+- _symbolic Say_____G 10WeatherKit03DayA10StatisticsV
+- _symbolic Say_____G 10WeatherKit04HourA10StatisticsV
+- _symbolic Say_____G 10WeatherKit05MonthA10StatisticsV
+- _symbolic Say_____ySo12NSUnitLengthCGG 10Foundation11MeasurementV
+- _symbolic _____ 10WeatherKit03DayA10StatisticsV
+- _symbolic _____ 10WeatherKit03DayA10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLO
+- _symbolic _____ 10WeatherKit04HourA10StatisticsV
+- _symbolic _____ 10WeatherKit04HourA10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLO
+- _symbolic _____ 10WeatherKit05MonthA10StatisticsV
+- _symbolic _____ 10WeatherKit05MonthA10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLO
+- _symbolic _____ 10WeatherKit0A10StatisticsV
+- _symbolic _____ 10WeatherKit0A10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit03DayD10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit04HourD10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit05DailyD10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit05MonthD10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit07MonthlyD10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 10WeatherKit0D10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit03DayD10StatisticsV10CodingKeys33_BBC1A8931446BBA2EEF535DB99A1800FLLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit04HourD10StatisticsV10CodingKeys33_225350057F5E20782032BC2F723E4051LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit05DailyD10StatisticsV10CodingKeys33_34E47014A987D4ACCF30B82EA2FFEF87LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit05MonthD10StatisticsV10CodingKeys33_5351D13B814E4DD6ECC175F31DD73372LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit07MonthlyD10StatisticsV10CodingKeys33_F96DA78116CF8913AA8F57848C077AB0LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 10WeatherKit0D10StatisticsV10CodingKeys33_17B2B9914BDC77CDD364E4AF218438FFLLO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit03DayD10StatisticsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit04HourD10StatisticsV
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 10WeatherKit05MonthD10StatisticsV
+CStrings:
++ "Can't convert GMT local date to Date: %s"
++ "Encountered an error when fetching daily statistics. location=%{private,mask.hash}@, error=%{public}s"
++ "Encountered an error when fetching daily summary. location=%{private,mask.hash}@, error=%{public}s"
++ "Encountered an error when fetching hourly statistics. location=%{private,mask.hash}@, error=%{public}s"
++ "Failed to make precipitationAmountByType for type=%{public}s, amount=%{public}s"
++ "Initializing GeocodeManager - configuredCountryCode=%s"
++ "Missing day statistics' precipitation; dayStatistics=%s"
++ "Missing day statistics' temperatureRange; dayStatistics=%s"
++ "Missing hour statistics' temperature quantiles; hourStatistics=%s"
++ "Missing month statistics' precipitation; monthStatistics=%s"
++ "Missing month statistics' temperatureRange; monthStatistics=%s"
++ "TB,R,N,G_isPartiallyClientized"
++ "_isPartiallyClientized"
++ "dailyPrecipitationStatistics"
++ "dailyStatistics(for:spanning:including:)"
++ "dailySummary(for:spanning:)"
++ "dateFromString:"
++ "day"
++ "gmtLocalDateFormatter"
++ "hourlyStatistics(for:spanning:including:)"
++ "hourlyTemperatureStatistics"
++ "init"
++ "isPartiallyClientized"
++ "monthlyPrecipitationStatistics"
++ "monthlyStatistics(for:spanning:including:)"
++ "monthlyTemperatureStatistics"
++ "moonDetail"
++ "nextTwentyFourHours"
++ "now"
++ "precipitationAmountByType"
++ "setDateFormat:"
++ "setLocale:"
++ "setTimeZone:"
++ "shortDisplayName"
++ "today"
+- "Initializing LocationMetadata - configuredCountryCode=%s"
+- "We received fewer than 24 hours worth of statistics. hourlyTemperatures.count=%{public}ld, hourlyTemperatureNormalRange.count=%{public}ld, daysInterval=%{public}s, dayOfMonth=%{public}ld, month=%{public}ld"
+- "dailyPrecipitationAmounts"
+- "hourlyStatistics"
+- "monthlyStatistics"
+
+```

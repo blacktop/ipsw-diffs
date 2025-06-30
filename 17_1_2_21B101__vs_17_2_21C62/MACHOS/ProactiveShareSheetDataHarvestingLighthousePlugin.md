@@ -1,0 +1,160 @@
+## ProactiveShareSheetDataHarvestingLighthousePlugin
+
+> `/System/Library/PrivateFrameworks/ProactiveShareSheetDataHarvestingLighthouse.framework/PlugIns/ProactiveShareSheetDataHarvestingLighthousePlugin.appex/ProactiveShareSheetDataHarvestingLighthousePlugin`
+
+```diff
+
+-1852.4.2.0.3
+-  __TEXT.__text: 0x7704
+-  __TEXT.__auth_stubs: 0x8f0
++1852.4.7.0.3
++  __TEXT.__text: 0x4900
++  __TEXT.__auth_stubs: 0x750
+   __TEXT.__objc_methlist: 0x38
+-  __TEXT.__const: 0x26e
+-  __TEXT.__cstring: 0x49c
+-  __TEXT.__swift5_typeref: 0xe1
+-  __TEXT.__constg_swiftt: 0x164
+-  __TEXT.__swift5_reflstr: 0x1f4
+-  __TEXT.__swift5_fieldmd: 0x144
++  __TEXT.__const: 0x25e
++  __TEXT.__cstring: 0x36c
++  __TEXT.__swift5_typeref: 0xb5
++  __TEXT.__constg_swiftt: 0x11c
++  __TEXT.__swift5_reflstr: 0x18d
++  __TEXT.__swift5_fieldmd: 0x120
+   __TEXT.__swift5_types: 0x18
+   __TEXT.__objc_methname: 0x321
+   __TEXT.__swift5_proto: 0x10
+   __TEXT.__objc_classname: 0x1b
+   __TEXT.__objc_methtype: 0x1a3
+-  __TEXT.__unwind_info: 0x1e8
+-  __TEXT.__eh_frame: 0x260
+-  __DATA_CONST.__auth_got: 0x478
+-  __DATA_CONST.__got: 0xd8
+-  __DATA_CONST.__auth_ptr: 0x18
+-  __DATA_CONST.__const: 0x2f0
++  __TEXT.__unwind_info: 0x184
++  __TEXT.__eh_frame: 0x180
++  __DATA_CONST.__auth_got: 0x3a8
++  __DATA_CONST.__got: 0x80
++  __DATA_CONST.__auth_ptr: 0x10
++  __DATA_CONST.__const: 0x2d8
+   __DATA_CONST.__objc_classlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x20
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0x490
++  __DATA.__objc_const: 0x430
+   __DATA.__objc_selrefs: 0xa0
+   __DATA.__objc_protorefs: 0x10
+   __DATA.__objc_classrefs: 0x20
+-  __DATA.__objc_data: 0x158
+-  __DATA.__data: 0x1f0
+-  __DATA.__bss: 0x250
++  __DATA.__objc_data: 0xf8
++  __DATA.__data: 0x1d0
++  __DATA.__bss: 0x230
+   __DATA.__common: 0x18
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreML.framework/CoreML
+
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: FB9C46BA-3076-316D-8F13-9951E0AB6557
+-  Functions: 127
+-  Symbols:   1084
+-  CStrings:  101
++  UUID: A64D720C-B297-30CE-804A-2E0148CD8693
++  Functions: 101
++  Symbols:   892
++  CStrings:  92
+ 
+Symbols:
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameO11descriptionSSvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameO20attemptLocalTrainingyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameO22attemptModelMonitoringyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameO23attemptShadowEvaluationyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameOACs23CustomStringConvertibleAAWL
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameOACs23CustomStringConvertibleAAWl
+- _$s43ProactiveShareSheetDataHarvestingLighthouse11SubtaskNameOs23CustomStringConvertibleAAMc
+- _$s43ProactiveShareSheetDataHarvestingLighthouse12userDefaultsSo06NSUserH0Cvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse13ConfigManagerV26shouldAttemptLocalTrainingSbvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse13ConfigManagerV28shouldAttemptModelMonitoringSbvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse13ConfigManagerV29shouldAttemptShadowEvaluationSbvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse15TrialIdentifierVMn
+- _$s43ProactiveShareSheetDataHarvestingLighthouse15TrialIdentifierVSgMD
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO11descriptionSSvg
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO11taskSkippedyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO11taskStartedyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO11taskStoppedyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO13taskCompletedyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO15taskNotExecutedyA2CmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ComputationStateO9taskErroryACSScACmFWC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ExecutionManagerP10shouldStopSbvgTj
+- _$s43ProactiveShareSheetDataHarvestingLighthouse16ExecutionManager_pWOb
+- _$s43ProactiveShareSheetDataHarvestingLighthouse20LocalTrainingManagerV07attemptG5TrainyyF
+- _$s43ProactiveShareSheetDataHarvestingLighthouse20LocalTrainingManagerV6config09executionI0AcA06ConfigI0V_AA09ExecutionI0_ptcfC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse20LocalTrainingManagerVMa
+- _$s43ProactiveShareSheetDataHarvestingLighthouse22ModelMonitoringManagerV07attemptgH0SDyS2SGSgyF
+- _$s43ProactiveShareSheetDataHarvestingLighthouse22ModelMonitoringManagerV6config09executionI0AcA06ConfigI0V_AA09ExecutionI0_ptcfC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse22ModelMonitoringManagerVMa
+- _$s43ProactiveShareSheetDataHarvestingLighthouse23ShadowEvaluationManagerV07attemptgH0SDyS2SGSgyF
+- _$s43ProactiveShareSheetDataHarvestingLighthouse23ShadowEvaluationManagerV6config09executionI015trialIdentifierAcA06ConfigI0V_AA09ExecutionI0_pAA05TrialM0VSgtcfC
+- _$s43ProactiveShareSheetDataHarvestingLighthouse23ShadowEvaluationManagerVMa
+- _$s43ProactiveShareSheetDataHarvestingLighthouse28SynchronizedExecutionManagerVAA0hI0AAWP
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C15jsonResultsDict33_9F23E87386AB89CEF80DAF12E83E6968LLSDyS2SGvg
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C20localTrainingSubtask33_9F23E87386AB89CEF80DAF12E83E6968LLAA0gJ0VvpWvd
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C22modelMonitoringSubtask33_9F23E87386AB89CEF80DAF12E83E6968LLAA0gJ0VvpWvd
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C23shadowEvaluationSubtask33_9F23E87386AB89CEF80DAF12E83E6968LLAA0gJ0VvpWvd
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU0_
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU0_TA
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU1_
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU1_TA
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU_
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFyyXEfU_TA
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0CACycfc
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskV07performH0yyyyKXEF
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskV11subtaskName16executionManager0I6ResultAC0abcdeF00hJ0O_AG09ExecutionL0_pAG16ComputationStateOtcfC
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskV11subtaskName16executionManager0I6ResultAC0abcdeF00hJ0O_AG09ExecutionL0_pAG16ComputationStateOtcfcfA1_
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskV13subtaskResult0abcdeF016ComputationStateOvpfiTm
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskVWOb
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskVWOc
+- _$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G7SubtaskVWOh
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_SSTg5Tf4nd_n
+- _$sSD7merging_16uniquingKeysWithSDyxq_GACn_q_q__q_tKXEtKFSS_SSTg5105$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFS2S_SStXEfU2_Tf1ncn_n
+- _$sSS_SStMD
+- _$sSo14NSUserDefaultsC43ProactiveShareSheetDataHarvestingLighthouseE13shouldComputeySbAC11SubtaskNameOF
+- _$sSo14NSUserDefaultsC43ProactiveShareSheetDataHarvestingLighthouseE19saveComputationDateyyAC11SubtaskNameOF
+- _$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFSS_SSt_Tg5
+- _$ss17_NativeDictionaryV5merge_8isUnique16uniquingKeysWithyqd__n_Sbq_q__q_tKXEtKSTRd__x_q_t7ElementRtd__lFSS_SSs15LazyMapSequenceVySDyS2SGSS_SStGTg5105$s49ProactiveShareSheetDataHarvestingLighthousePlugin0G0C7performySo13MLRTaskResultCSo0I0CKFS2S_SStXEfU2_Tf1nncn_n
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_SSt_Tg5
+- _$ss23_ContiguousArrayStorageCy49ProactiveShareSheetDataHarvestingLighthousePlugin0J7SubtaskVGMD
+- _$ss23_ContiguousArrayStorageCySS_SStGMD
+- _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
+- _$sxq_xq_Iegnnrr_x3key_q_5valuetx_q_tIegnr_SHRzr0_lTRSS_SSTG575$sSD5merge_16uniquingKeysWithySDyxq_Gn_q_q__q_tKXEtKFx_q_tx_q_tcfU_SS_SSTG5Tf3nnpf_n
+- ___swift_allocate_boxed_opaque_existential_1
+- ___swift_project_boxed_opaque_existential_1
+- _objc_retain_x21
+- _swift_allocBox
+- _swift_arrayInitWithCopy
+- _swift_deallocClassInstance
+- _swift_getErrorValue
+- _swift_release_n
+- _swift_setDeallocating
+- _symbolic SS_SSt
+- _symbolic _____Sg 43ProactiveShareSheetDataHarvestingLighthouse15TrialIdentifierV
+- _symbolic _____ySS_SStG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 49ProactiveShareSheetDataHarvestingLighthousePlugin0J7SubtaskV
+CStrings:
+- "Attempting to run subtask %s"
+- "Error in subtask %s: %@"
+- "Finished running subtask %s"
+- "Plugin was asked to stop while running subtask %s"
+- "Running subtask %s"
+- "Skipping subtask %s"
+- "localTrainingSubtask"
+- "modelMonitoringSubtask"
+- "shadowEvaluationSubtask"
+
+```
