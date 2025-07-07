@@ -1,0 +1,763 @@
+## MessagesUIPlugin
+
+> `/System/Library/Snippets/UIPlugins/MessagesUIPlugin.bundle/MessagesUIPlugin`
+
+```diff
+
+-3302.10.1.0.0
+-  __TEXT.__text: 0x9cc60
+-  __TEXT.__auth_stubs: 0x2610
+-  __TEXT.__objc_methlist: 0x90
+-  __TEXT.__const: 0x6848
+-  __TEXT.__cstring: 0x2972
+-  __TEXT.__swift5_typeref: 0xba2c
+-  __TEXT.__swift5_fieldmd: 0x1a88
+-  __TEXT.__constg_swiftt: 0x1ba0
+-  __TEXT.__swift5_builtin: 0x78
+-  __TEXT.__swift5_reflstr: 0x147a
+-  __TEXT.__swift5_assocty: 0x640
+-  __TEXT.__swift5_protos: 0x24
+-  __TEXT.__swift5_proto: 0x5f0
+-  __TEXT.__swift5_types: 0x1ec
+-  __TEXT.__objc_classname: 0x64
+-  __TEXT.__objc_methname: 0xf0c
+-  __TEXT.__objc_methtype: 0x321
+-  __TEXT.__swift5_capture: 0x630
+-  __TEXT.__unwind_info: 0x31b0
+-  __TEXT.__eh_frame: 0x1ba0
+-  __DATA_CONST.__auth_got: 0x1308
+-  __DATA_CONST.__got: 0x7f0
+-  __DATA_CONST.__auth_ptr: 0x190
+-  __DATA_CONST.__const: 0x73f0
+-  __DATA_CONST.__objc_classlist: 0x60
+-  __DATA_CONST.__objc_protolist: 0x70
++3304.67.1.11.1
++  __TEXT.__text: 0xf8
++  __TEXT.__auth_stubs: 0x60
++  __TEXT.__const: 0x72
++  __TEXT.__constg_swiftt: 0x5c
++  __TEXT.__swift5_typeref: 0xc
++  __TEXT.__cstring: 0x29
++  __TEXT.__swift5_fieldmd: 0x10
++  __TEXT.__swift5_types: 0x4
++  __TEXT.__unwind_info: 0x5c
++  __DATA_CONST.__auth_got: 0x30
++  __DATA_CONST.__const: 0x100
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA.__objc_const: 0xeb8
+-  __DATA.__objc_selrefs: 0x460
+-  __DATA.__objc_protorefs: 0x38
+-  __DATA.__objc_classrefs: 0x1a8
+-  __DATA.__objc_data: 0x428
+-  __DATA.__data: 0x4998
+-  __DATA.__bss: 0xac48
+-  __DATA.__common: 0x100
+-  - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+-  - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+-  - /System/Library/Frameworks/Combine.framework/Combine
+-  - /System/Library/Frameworks/Contacts.framework/Contacts
+-  - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+-  - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+-  - /System/Library/Frameworks/CoreServices.framework/CoreServices
++  __DATA.__objc_const: 0x48
++  __DATA.__objc_data: 0x48
++  __DATA.__data: 0x40
++  __DATA.__common: 0x10
++  __DATA.__bss: 0x10
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+-  - /System/Library/Frameworks/Intents.framework/Intents
+-  - /System/Library/Frameworks/LinkPresentation.framework/LinkPresentation
+-  - /System/Library/Frameworks/MapKit.framework/MapKit
+-  - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+-  - /System/Library/Frameworks/SwiftUI.framework/SwiftUI
+-  - /System/Library/Frameworks/_MapKit_SwiftUI.framework/_MapKit_SwiftUI
+-  - /System/Library/PrivateFrameworks/AssistantServices.framework/AssistantServices
+   - /System/Library/PrivateFrameworks/BiomePubSub.framework/BiomePubSub
+-  - /System/Library/PrivateFrameworks/ChatKit.framework/ChatKit
+-  - /System/Library/PrivateFrameworks/CoreKnowledge.framework/CoreKnowledge
+-  - /System/Library/PrivateFrameworks/GeoServices.framework/GeoServices
+-  - /System/Library/PrivateFrameworks/IconServices.framework/IconServices
+-  - /System/Library/PrivateFrameworks/PeopleSuggester.framework/PeopleSuggester
+-  - /System/Library/PrivateFrameworks/SAObjects.framework/SAObjects
+-  - /System/Library/PrivateFrameworks/SiriAnalytics.framework/SiriAnalytics
+-  - /System/Library/PrivateFrameworks/SiriInstrumentation.framework/SiriInstrumentation
+-  - /System/Library/PrivateFrameworks/SiriKitFlow.framework/SiriKitFlow
+-  - /System/Library/PrivateFrameworks/SiriKitInvocation.framework/SiriKitInvocation
+-  - /System/Library/PrivateFrameworks/SiriUtilities.framework/SiriUtilities
+-  - /System/Library/PrivateFrameworks/SnippetKit.framework/SnippetKit
+-  - /System/Library/PrivateFrameworks/SnippetUI.framework/SnippetUI
+-  - /System/Library/PrivateFrameworks/ToneLibrary.framework/ToneLibrary
++  - /System/Library/PrivateFrameworks/SiriMessagesUI.framework/SiriMessagesUI
+   - /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVision.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+-  - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2C510AF2-CC80-30DD-9AB8-A0F0CD0F376E
+-  Functions: 3481
+-  Symbols:   242
+-  CStrings:  455
++  UUID: 14AF0925-43EC-3713-BB7C-6DAD11DDE066
++  Functions: 5
++  Symbols:   39
++  CStrings:  1
+ 
+Symbols:
+- _AVAudioSessionCategoryPlayback
+- _CATransform3DMakeScale
+- _CMTimeMake
+- _CNContactExplicitDisplayNameKey
+- _CNContactFamilyNameKey
+- _CNContactGivenNameKey
+- _CNContactMiddleNameKey
+- _CNContactNamePrefixKey
+- _CNContactNameSuffixKey
+- _CNContactNicknameKey
+- _CNContactOrganizationNameKey
+- _CNContactPhoneticFamilyNameKey
+- _CNContactPhoneticGivenNameKey
+- _CNContactPhoneticMiddleNameKey
+- _CNContactPreviousFamilyNameKey
+- _MKCoordinateRegionMakeWithDistance
+- _NSRunLoopCommonModes
+- _OBJC_CLASS_$_AFPreferences
+- _OBJC_CLASS_$_AVAssetImageGenerator
+- _OBJC_CLASS_$_AVAudioPlayer
+- _OBJC_CLASS_$_AVAudioSession
+- _OBJC_CLASS_$_AVURLAsset
+- _OBJC_CLASS_$_AceObject
+- _OBJC_CLASS_$_AssistantSiriAnalytics
+- _OBJC_CLASS_$_CAPackage
+- _OBJC_CLASS_$_CAStateController
+- _OBJC_CLASS_$_CKAudioMediaObject
+- _OBJC_CLASS_$_CKMediaObjectManager
+- _OBJC_CLASS_$_CKVCustomTerm
+- _OBJC_CLASS_$_CKVocabularySearchResult
+- _OBJC_CLASS_$_CKVocabularySearcher
+- _OBJC_CLASS_$_CNContact
+- _OBJC_CLASS_$_CNContactFetchRequest
+- _OBJC_CLASS_$_CNContactFormatter
+- _OBJC_CLASS_$_CNContactStore
+- _OBJC_CLASS_$_CNMutableContact
+- _OBJC_CLASS_$_FLOWSchemaFLOWClientEvent
+- _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionContext
+- _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionEnded
+- _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionFailed
+- _OBJC_CLASS_$_FLOWSchemaFLOWDomainExecutionStarted
+- _OBJC_CLASS_$_GEOMapURLParser
+- _OBJC_CLASS_$_INSearchForMessagesIntent
+- _OBJC_CLASS_$_ISIcon
+- _OBJC_CLASS_$_ISImageDescriptor
+- _OBJC_CLASS_$_LPLinkMetadata
+- _OBJC_CLASS_$_LPLinkView
+- _OBJC_CLASS_$_LPMetadataProvider
+- _OBJC_CLASS_$_LSApplicationRecord
+- _OBJC_CLASS_$_NSBundle
+- _OBJC_CLASS_$_NSCache
+- _OBJC_CLASS_$_NSNumber
+- _OBJC_CLASS_$_NSObject
+- _OBJC_CLASS_$_NSPropertyListSerialization
+- _OBJC_CLASS_$_NSRunLoop
+- _OBJC_CLASS_$_NSTimer
+- _OBJC_CLASS_$_OS_dispatch_queue
+- _OBJC_CLASS_$_OS_os_log
+- _OBJC_CLASS_$_RFSchemaRFInteractionPerformed
+- _OBJC_CLASS_$_SAUIDelayedActionCancelCommand
+- _OBJC_CLASS_$_SISchemaUUID
+- _OBJC_CLASS_$_SKIDirectInvocation
+- _OBJC_CLASS_$_SKIDirectInvocationContext
+- _OBJC_CLASS_$_SKIDirectInvocationPayload
+- _OBJC_CLASS_$_TLAlert
+- _OBJC_CLASS_$_TLAlertConfiguration
+- _OBJC_CLASS_$_UIApplication
+- _OBJC_CLASS_$_UIBezierPath
+- _OBJC_CLASS_$_UIColor
+- _OBJC_CLASS_$_UIImage
+- _OBJC_CLASS_$_VRXTurnBasedInstrumentationEvent
+- _OBJC_CLASS_$__PSSuggester
+- _OBJC_CLASS_$__TtCs12_SwiftObject
+- _OBJC_METACLASS_$_NSObject
+- _OBJC_METACLASS_$_VRXTurnBasedInstrumentationEvent
+- __Block_copy
+- __Block_release
+- __NSConcreteStackBlock
+- ___chkstk_darwin
+- ___stack_chk_fail
+- ___stack_chk_guard
+- __os_log_impl
+- __swiftEmptyArrayStorage
+- __swiftEmptyDictionarySingleton
+- __swiftEmptySetSingleton
+- __swift_stdlib_reportUnimplementedInitializer
+- _bzero
+- _free
+- _kCAPackageTypeCAMLBundle
+- _kMessageContentChangedViaSnippetDirectInvocationIdentifier
+- _kMessageSendViaSnippetDirectInvocationContentKey
+- _kMessageSendViaSnippetDirectInvocationIdentifier
+- _malloc
+- _malloc_size
+- _memcpy
+- _memmove
+- _objc_allocWithZone
+- _objc_getAssociatedObject
+- _objc_msgSend
+- _objc_msgSendSuper2
+- _objc_opt_self
+- _objc_release
+- _objc_release_x1
+- _objc_release_x10
+- _objc_release_x19
+- _objc_release_x20
+- _objc_release_x21
+- _objc_release_x22
+- _objc_release_x23
+- _objc_release_x24
+- _objc_release_x25
+- _objc_release_x26
+- _objc_release_x27
+- _objc_release_x28
+- _objc_release_x8
+- _objc_retain
+- _objc_retainAutoreleasedReturnValue
+- _objc_retain_x1
+- _objc_retain_x10
+- _objc_retain_x11
+- _objc_retain_x19
+- _objc_retain_x20
+- _objc_retain_x21
+- _objc_retain_x22
+- _objc_retain_x23
+- _objc_retain_x24
+- _objc_retain_x25
+- _objc_retain_x26
+- _objc_retain_x27
+- _objc_retain_x28
+- _objc_retain_x8
+- _objc_retain_x9
+- _objc_setAssociatedObject
+- _os_log_type_enabled
+- _swift_allocBox
+- _swift_allocError
+- _swift_allocateGenericClassMetadata
+- _swift_allocateGenericValueMetadata
+- _swift_arrayDestroy
+- _swift_arrayInitWithCopy
+- _swift_arrayInitWithTakeBackToFront
+- _swift_arrayInitWithTakeFrontToBack
+- _swift_asyncLet_begin
+- _swift_asyncLet_finish
+- _swift_asyncLet_get
+- _swift_beginAccess
+- _swift_bridgeObjectRelease
+- _swift_bridgeObjectRelease_n
+- _swift_bridgeObjectRetain
+- _swift_bridgeObjectRetain_n
+- _swift_checkMetadataState
+- _swift_deallocObject
+- _swift_deallocPartialClassInstance
+- _swift_deletedAsyncMethodErrorTu
+- _swift_deletedMethodError
+- _swift_dynamicCast
+- _swift_dynamicCastObjCClass
+- _swift_dynamicCastUnknownClass
+- _swift_endAccess
+- _swift_errorRelease
+- _swift_errorRetain
+- _swift_getAtKeyPath
+- _swift_getEnumCaseMultiPayload
+- _swift_getEnumTagSinglePayloadGeneric
+- _swift_getErrorValue
+- _swift_getForeignTypeMetadata
+- _swift_getGenericMetadata
+- _swift_getKeyPath
+- _swift_getObjCClassFromMetadata
+- _swift_getObjCClassMetadata
+- _swift_getObjectType
+- _swift_getOpaqueTypeConformance2
+- _swift_getTupleTypeLayout2
+- _swift_getTypeByMangledNameInContext2
+- _swift_getTypeByMangledNameInContextInMetadataState2
+- _swift_getWitnessTable
+- _swift_initEnumMetadataMultiPayload
+- _swift_initStackObject
+- _swift_initStaticObject
+- _swift_initStructMetadata
+- _swift_isUniquelyReferenced_nonNull_bridgeObject
+- _swift_isUniquelyReferenced_nonNull_native
+- _swift_isaMask
+- _swift_makeBoxUnique
+- _swift_once
+- _swift_release
+- _swift_release_n
+- _swift_retain
+- _swift_retain_n
+- _swift_setDeallocating
+- _swift_slowAlloc
+- _swift_slowDealloc
+- _swift_storeEnumTagMultiPayload
+- _swift_storeEnumTagSinglePayloadGeneric
+- _swift_task_alloc
+- _swift_task_create
+- _swift_task_dealloc
+- _swift_task_switch
+- _swift_unexpectedError
+- _swift_unknownObjectRelease
+- _swift_unknownObjectRetain
+- _swift_updateClassMetadata2
+- _swift_willThrow
+CStrings:
+- "#16@0:8"
+- "#AggregatedContactSearcher returning %ld result(s)"
+- "#AggregatedContactSearcher searching for %s"
+- "#AppInfoProvider Siri language is changed, clearing app name cache"
+- "#AppInfoProvider failed to retrieve app name for %s: %s"
+- "#AppSashView LaunchAppWithIntent is missing, no-op"
+- "#AppSashView failed to retrieve app icon for %s"
+- "#AppSashView performing LaunchAppWithIntent"
+- "#AppSashView received %s"
+- "#AudioMessagePlayerView play button tapped, cancelling auto send"
+- "#AudioPlayer Decode error playing audio error=%s"
+- "#AudioPlayer Finished playing audio message successfully=%{bool}d"
+- "#AudioPlayer Pausing audio message playout"
+- "#AudioPlayer failed to set AVAudioSession category with error=%s"
+- "#AudioPlayer played audio message result=%{bool}d"
+- "#AudioWaveFormGenerator Unable to create waveform"
+- "#AudioWaveFormGenerator Unable to get media object for waveform"
+- "#AudioWaveFormGenerator Unable to get media object for waveform, mediaObject=%s"
+- "#AutoSendUtilities playUITone responseMode: %s"
+- "#AutoSendableBinaryButtonView cancel button tapped"
+- "#AutoSendableBinaryButtonView content is not valid, ignoring"
+- "#AutoSendableBinaryButtonView received %s"
+- "#AutoSendableBinaryButtonView send button tapped"
+- "#AutoSendableBinaryButtonView submitting direct invocation for cancel"
+- "#AutoSendableBinaryButtonView submitting direct invocation for send"
+- "#AutoSendableButtonView RF client event is nil"
+- "#AutoSendableButtonView Siri cancelled"
+- "#AutoSendableButtonView Siri dismissed"
+- "#AutoSendableButtonView Siri is Idle"
+- "#AutoSendableButtonView auto send timer expired"
+- "#AutoSendableButtonView button tapped"
+- "#AutoSendableButtonView completionType:%ld"
+- "#AutoSendableButtonView denying command=%@"
+- "#AutoSendableButtonView emitting event %s"
+- "#AutoSendableButtonView error playing UI tone%s"
+- "#AutoSendableButtonView new request started"
+- "#AutoSendableButtonView no responseMode!"
+- "#AutoSendableButtonView not playing tone for displayOnly mode!"
+- "#AutoSendableButtonView pausing timer"
+- "#AutoSendableButtonView playing UI tone"
+- "#AutoSendableButtonView received %s"
+- "#AutoSendableButtonView resuming timer"
+- "#AutoSendableButtonView speech paused"
+- "#AutoSendableButtonView speechSynthesisId is nil"
+- "#AutoSendableButtonView starting timer"
+- "#AutoSendableButtonView stopping timer"
+- "#AutoSendableButtonView submitting %@"
+- "#AutoSendableButtonView view disappearing"
+- "#AutoSendableButtonView view is appearing"
+- "#AutoSendableCarPlayButtonView submitting direct invocation for %s"
+- "#AutoSendableCompactCarPlayButtonView submitting Confirm button DirectInvocation"
+- "#CarPlayHeaderView Announce button tapped, setting announceNotificationsInCarPlayTemporarilyDisabled=%{bool}d)"
+- "#CarPlayHeaderView Failed to load announce glyph, not displaying announce button"
+- "#FirstPartyContactSearcher error enumerating contacts: %s"
+- "#FirstPartyContactSearcher retrieved %ld result(s)"
+- "#LinkAttachmentView failed to fetch metadata: %s, creating a new one"
+- "#LinkAttachmentView fetching metadata"
+- "#LinkAttachmentView metadata fetched"
+- "#LinkAttachmentView metadata not in cache"
+- "#LinkAttachmentView rendering LinkAttachmentView with final metadata"
+- "#LinkAttachmentView using cached metadata"
+- "#MapAttachmentView failed to parse URL"
+- "#MessagesSELFPerformanceLogger Failed to create client event"
+- "#MessagesSELFPerformanceLogger Failed to create execution context"
+- "#MessagesSELFPerformanceLogger Failed to create start event for %s"
+- "#MessagesSELFPerformanceLogger Failed to register end event for %s"
+- "#MessagesSELFPerformanceLogger Registered start event for %s"
+- "#MessagesSELFPerformanceLogger successfully sent %s performance event for %s"
+- "#MessagesUIPlugin Creating response snippet for model=%s\nmode=%s\nidiom=%s"
+- "#MessagesUIPlugin creating view for id=%s"
+- "#MessagesUIPlugin failed to create view component: %s"
+- "#PackageWrapperView#animate no stateController set for packageUrl=%s"
+- "#PackageWrapperView#animate unable to get caState for packageUrl=%s"
+- "#PackageWrapperView#configureView unable to get packageLayer for packageUrl=%s"
+- "#PackageWrapperView#layoutSubviews no packageLayer set for packageUrl=%s"
+- "#PackageWrapperView#package unable to get rootLayer for packageUrl=%s"
+- "#PayloadTextInputView focused"
+- "#PayloadTextInputView new request started while focused"
+- "#PayloadTextInputView no changes to payload, not submitting direct invocation"
+- "#PayloadTextInputView outside content tapped"
+- "#PayloadTextInputView outside content tapped but ignoring"
+- "#PayloadTextInputView received .flushPayload"
+- "#PayloadTextInputView submitting direct invocation for content changed via snippet"
+- "#PayloadTextInputView unfocused"
+- "#ReadingCarPlayButtonView short speech duration, not animating progress bar"
+- "#ReadingCarPlayButtonView speech started. Starting reading animation"
+- "#ReadingCarPlayButtonView tapped after reading, restarting speech"
+- "#ReadingCarPlayButtonView tapped while reading, cancelling speech"
+- "#ReadingCarPlayButtonView timer expired"
+- "#ReadingCompactCarPlayButtonView short speech duration, not animating progress bar"
+- "#ReadingCompactCarPlayButtonView tapped after reading, restarting speech"
+- "#ReadingCompactCarPlayButtonView tapped while reading, cancelling speech"
+- "#ReadingCompactCarPlayButtonView timer expired"
+- "#RecipientLabelView LaunchAppWithIntent is missing, no-op"
+- "#RecipientLabelView app picker menu is %s"
+- "#RecipientLabelView app selected: %s"
+- "#RecipientLabelView performing LaunchAppWithIntent"
+- "#RecipientLabelView presenting contact autocomplete"
+- "#RecipientLabelView received %s"
+- "#RecipientLabelView requesting device unlock"
+- "#RecipientLabelView selection turned to nil, this is not expected"
+- "#RecipientLabelView unlockDevice command is missing"
+- "#SnippetUI+Utilities direct invocation already performed, ignoring"
+- "#SnippetUI+Utilities submitting direct invocation: %s"
+- "#SwiftUI+Utilities begin editing"
+- "#SwiftUI+Utilities end editing"
+- "#SwiftUI+Utilities failed to convert .cancelAutoSend to shared state"
+- "#SwiftUI+Utilities failed to convert .flushPayload to shared state"
+- "#ThirdPartyContactSearcher retrieved %ld result(s)"
+- "#VocabularySearchResult custom term is not available in search result: %@"
+- ".cxx_destruct"
+- "@\"<LPAudioPlayer>\"32@0:8@\"LPLinkView\"16@\"LPAudio\"24"
+- "@\"NSArray\"24@0:8@\"LPLinkView\"16"
+- "@\"NSString\"16@0:8"
+- "@\"NSURL\"32@0:8@\"LPLinkView\"16@\"NSURL\"24"
+- "@\"UIContextMenuConfiguration\"32@0:8@\"LPLinkView\"16@\"UIContextMenuConfiguration\"24"
+- "@16@0:8"
+- "@24@0:8:16"
+- "@24@0:8@\"NSCoder\"16"
+- "@24@0:8@16"
+- "@24@0:8^{_NSZone=}16"
+- "@32@0:8:16@24"
+- "@32@0:8@16@24"
+- "@40@0:8:16@24@32"
+- "@48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16"
+- "APP_SELECTION_TAPPED"
+- "AVAudioPlayerDelegate"
+- "Accessing Environment<%s>'s value outside of being installed on a View. This will always read the default value and will not update."
+- "AnnounceMessagesGlyph"
+- "B16@0:8"
+- "B24@0:8#16"
+- "B24@0:8:16"
+- "B24@0:8@\"LPLinkView\"16"
+- "B24@0:8@\"Protocol\"16"
+- "B24@0:8@16"
+- "CANCEL_BUTTON_TAPPED"
+- "CGImage"
+- "CGPath"
+- "CHANGE_BUTTON_TAPPED"
+- "CNKeyDescriptor"
+- "CONTACT_SELECTION_TAPPED"
+- "ChatKitShim/AudioWaveFormGenerator.swift"
+- "ContactNameField"
+- "Contradictory frame constraints specified."
+- "DELAYED_SEND_TIMER_ENDED"
+- "DELAYED_SEND_TIMER_PAUSED"
+- "DELAYED_SEND_TIMER_RESUMED"
+- "DELAYED_SEND_TIMER_STARTED"
+- "DONE_BUTTON_TAPPED"
+- "Duplicate values for key: '"
+- "Fatal error"
+- "Invalid number of keys found, expected one."
+- "LPLinkViewDelegate"
+- "MessagesUIPlugin.AudioPlayer"
+- "MessagesUIPlugin.DelayedSendTimerEvent"
+- "MessagesUIPlugin.PackageWrapperView"
+- "MessagesUIPlugin/AnimationPackageView.swift"
+- "MessagesUIPlugin/AudioMessagePlayerView.swift"
+- "NSCoding"
+- "NSCopying"
+- "NSObject"
+- "NSSecureCoding"
+- "Optional<String>"
+- "Q16@0:8"
+- "RECIPIENT_NAME_TAPPED"
+- "SEND_BUTTON_TAPPED"
+- "Swift/Dictionary.swift"
+- "Swift/NativeDictionary.swift"
+- "T#,R"
+- "T@\"NSString\",R,C"
+- "TB,N,R"
+- "TB,R"
+- "TQ,R"
+- "URLForResource:withExtension:"
+- "Vv16@0:8"
+- "^{_NSZone=}16@0:8"
+- "_TtC16MessagesUIPlugin11AudioPlayer"
+- "_TtC16MessagesUIPlugin15AppInfoProvider"
+- "_TtC16MessagesUIPlugin16LinkViewDelegate"
+- "_TtC16MessagesUIPlugin17SecurityScopedURL"
+- "_TtC16MessagesUIPlugin21DelayedSendTimerEvent"
+- "_TtC16MessagesUIPlugin23AnnounceButtonViewModel"
+- "_TtC16MessagesUIPlugin29MessagesSELFPerformanceLogger"
+- "_TtC16MessagesUIPluginP33_70734F9A43DCCA2FEA90486EF944B3A119ResourceBundleClass"
+- "_TtC17CoreKnowledgeShim18VocabularySearcher"
+- "_TtCE16MessagesUIPluginCSo8NSBundleP33_67F1159771BB10FFD4DDADEE5396B5BF5Dummy"
+- "_TtCV16MessagesUIPlugin32ContactAutocompleteView_Previews19MockContactSearcher"
+- "_contextMenuActionsForLinkView:"
+- "_currentState"
+- "_isPlaying"
+- "_linkView:contextMenuConfigurationForSuggestedConfiguration:"
+- "_linkView:didTapCaptionButtonWithType:"
+- "_linkView:overrideURLForOpeningURL:"
+- "_linkView:playerForAudio:"
+- "_linkView:willOpenURL:"
+- "_linkViewMetadataDidBecomeComplete:"
+- "_setDisableAnimations:"
+- "_setDisableAutoPlay:"
+- "_setDisablePlayback:"
+- "_setDisablePlaybackControls:"
+- "_setDisablePreviewGesture:"
+- "_setMetadata:isFinal:"
+- "_setPreferredSizeClass:"
+- "_wantsContextMenuPreviewForLinkView:"
+- "aceId"
+- "aceObjectWithDictionary:"
+- "actionType"
+- "addSublayer:"
+- "alertWithConfiguration:"
+- "animationTransitionSpeed"
+- "appBundleIdentifier"
+- "appBundleIdentifiers"
+- "appId"
+- "appNameCache"
+- "arrow.up"
+- "assetWithURL:"
+- "audioMessageLabelText"
+- "audioPlayerBeginInterruption:"
+- "audioPlayerDecodeErrorDidOccur:error:"
+- "audioPlayerDidFinishPlaying:successfully:"
+- "audioPlayerEndInterruption:"
+- "audioPlayerEndInterruption:withFlags:"
+- "audioPlayerEndInterruption:withOptions:"
+- "autoSendableButton"
+- "autorelease"
+- "bell.and.waveform.fill"
+- "bell.slash.fill"
+- "bezierPathWithRoundedRect:byRoundingCorners:cornerRadii:"
+- "bounds"
+- "bundleForClass:"
+- "cancelAutoSend"
+- "cancelButtonText"
+- "cancelSendOnDisappear"
+- "capsule.fill"
+- "centerCoordinate"
+- "changeContactLabelText"
+- "circle.fill"
+- "class"
+- "clearColor"
+- "com.apple.MobileSMS"
+- "com.apple.siri.DirectInvocation.Messages.ButtonPress"
+- "com.apple.siri.DirectInvocation.Messages.MessageAppChangedViaSnippet"
+- "com.apple.siri.DirectInvocation.Messages.MessageRecipientChangedViaSnippet"
+- "com.apple.siri.messages"
+- "componentName"
+- "composeWaveformForWidth:orientation:"
+- "confirmationSnippetModel"
+- "conformsToProtocol:"
+- "contactIdentifiers"
+- "contacts"
+- "contentUpdateInitiatedByNewRequest"
+- "copyCGImageAtTime:actualTime:error:"
+- "copyWithZone:"
+- "currentState"
+- "dataWithPropertyList:format:options:error:"
+- "dealloc"
+- "debugDescription"
+- "defaultMessageStream"
+- "delayedActionCancelCommand"
+- "description"
+- "descriptorForRequiredKeysForStyle:"
+- "dictionary"
+- "disabled"
+- "domainExecutionType"
+- "doubleValue"
+- "duration"
+- "emitMessage:"
+- "emitWithTurnIdentifier:"
+- "enabled"
+- "encodeWithCoder:"
+- "ended"
+- "enumerateContactsAndMatchInfoWithFetchRequest:error:usingBlock:"
+- "failed"
+- "frame"
+- "hash"
+- "identifier"
+- "init"
+- "init()"
+- "init(coder:) has not been implemented"
+- "init(frame:)"
+- "initWithAsset:"
+- "initWithBundleIdentifier:"
+- "initWithBundleIdentifier:allowPlaceholder:error:"
+- "initWithCGImage:"
+- "initWithCoder:"
+- "initWithContentsOfFile:"
+- "initWithContentsOfURL:error:"
+- "initWithFrame:"
+- "initWithIdentifier:"
+- "initWithKeysToFetch:"
+- "initWithLayer:"
+- "initWithMetadata:"
+- "initWithNSUUID:"
+- "initWithSize:scale:"
+- "initWithType:"
+- "initWithURL:"
+- "interactionPerformed"
+- "isAnnounceEnabled"
+- "isEqual:"
+- "isGeometryFlipped"
+- "isKindOfClass:"
+- "isMemberOfClass:"
+- "isProxy"
+- "itemId"
+- "languageCode"
+- "launchAppWithIntent"
+- "layer"
+- "layoutIfNeeded"
+- "layoutSubviews"
+- "linkView:didFetchMetadata:"
+- "linkViewNeedsResize:"
+- "localizedNameWithPreferredLocalizations:"
+- "mainRunLoop"
+- "makeSearcher"
+- "matchedNameProperty"
+- "matchedProperties"
+- "mediaObjectWithFileURL:filename:transcoderUserInfo:"
+- "message.badge.circle.fill"
+- "objectForKey:"
+- "originAppId"
+- "originalSize"
+- "osLogger"
+- "package"
+- "packageLayer"
+- "packageUrl"
+- "packageWithContentsOfURL:type:options:error:"
+- "parseIncludingCustomParameters:"
+- "pathForResource:ofType:"
+- "pause"
+- "pause.circle.fill"
+- "pencil"
+- "pencil.circle.fill"
+- "performSelector:"
+- "performSelector:withObject:"
+- "performSelector:withObject:withObject:"
+- "play"
+- "play.circle.fill"
+- "play.fill"
+- "playWithCompletionHandler:"
+- "player"
+- "predicateForContactsMatchingFullTextSearch:containerIdentifiers:groupIdentifiers:"
+- "prepareImageForDescriptor:"
+- "primaryLanguage"
+- "propertyListWithData:options:format:error:"
+- "quaternarySystemFillColor"
+- "readingInProgressLabelText"
+- "relativeAppUsageProbabilitiesForCandidateBundleIds:daysAgo:"
+- "release"
+- "removeAllObjects"
+- "removeFromSuperlayer"
+- "requiresNewTurn"
+- "respondsToSelector:"
+- "retain"
+- "retainCount"
+- "rootLayer"
+- "runSiriKitExecutorCommandWithContext:payload:"
+- "searchCustomVocabularyWithWildcardPatterns:appIds:vocabularyTypes:"
+- "searcher"
+- "secondarySystemFillColor"
+- "selectedAppIdentifier"
+- "self"
+- "sendButtonDisabled"
+- "setActionName:"
+- "setAnnounceNotificationsInCarPlayTemporarilyDisabled:"
+- "setAppliesPreferredTrackTransform:"
+- "setBackgroundColor:"
+- "setCategory:withOptions:error:"
+- "setCommandType:"
+- "setComponentName:"
+- "setContentHuggingPriority:forAxis:"
+- "setContextId:"
+- "setCurrentTime:"
+- "setDelegate:"
+- "setDomainExecutionType:"
+- "setEnded:"
+- "setExternalToneFileURL:"
+- "setEyesFree:"
+- "setFailed:"
+- "setFlowDomainExecutionContext:"
+- "setGeometryFlipped:"
+- "setGivenName:"
+- "setInitialStatesOfLayer:"
+- "setInteractionPerformed:"
+- "setObject:forKey:"
+- "setPosition:"
+- "setPredicate:"
+- "setShouldIgnoreRingerSwitch:"
+- "setStartedOrChanged:"
+- "setState:ofLayer:transitionSpeed:"
+- "setTimeout:"
+- "setTransform:"
+- "setURL:"
+- "setUnifyResults:"
+- "setUserData:"
+- "setUserInteractionEnabled:"
+- "setVisualComponent:"
+- "sharedAnalytics"
+- "sharedApplication"
+- "sharedInstance"
+- "sharedPreferences"
+- "shouldShowAnnounceButton"
+- "shouldUpdateWithASRText"
+- "siriKitEventSender"
+- "siriLanguageCode"
+- "sizeThatFits:"
+- "sizeToFit"
+- "speechSynthesisId"
+- "startFetchingMetadataForRequest:completionHandler:"
+- "stateController"
+- "stateWithName:"
+- "stop.fill"
+- "stringFromContact:"
+- "stringFromContact:style:"
+- "superclass"
+- "supportsSecureCoding"
+- "taskType"
+- "term"
+- "tertiarySystemFillColor"
+- "textInputMode"
+- "typeName"
+- "unreadMessagesLabelText"
+- "uuid"
+- "v16@0:8"
+- "v24@0:8@\"AVAudioPlayer\"16"
+- "v24@0:8@\"LPLinkView\"16"
+- "v24@0:8@\"NSCoder\"16"
+- "v24@0:8@16"
+- "v24@?0@\"LPLinkMetadata\"8@\"NSError\"16"
+- "v24@?0q8@\"NSError\"16"
+- "v28@0:8@\"AVAudioPlayer\"16B24"
+- "v28@0:8@16B24"
+- "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24"
+- "v32@0:8@\"AVAudioPlayer\"16Q24"
+- "v32@0:8@\"LPLinkView\"16@\"LPLinkMetadata\"24"
+- "v32@0:8@\"LPLinkView\"16@\"NSURL\"24"
+- "v32@0:8@\"LPLinkView\"16q24"
+- "v32@0:8@16@24"
+- "v32@0:8@16Q24"
+- "v32@0:8@16q24"
+- "v32@?0@\"CNContact\"8@\"CNContactMatchInfo\"16^B24"
+- "v8@?0"
+- "vocabularyId"
+- "vocabularyItem"
+- "watchAutosendButtonsSnippetModel"
+- "wrappedValue"
+- "zone"
+- "{CGSize=dd}32@0:8{CGSize=dd}16"
+
+```

@@ -1,0 +1,34 @@
+## VideoDeghostingV2
+
+> `/System/Library/VideoProcessors/VideoDeghostingV2.bundle/VideoDeghostingV2`
+
+```diff
+
+-475.31.1.0.0
++477.8.0.0.0
+   __TEXT.__text: 0x25f10
+   __TEXT.__auth_stubs: 0x7e0
+   __TEXT.__objc_stubs: 0x30c0
+
+   __TEXT.__objc_methname: 0x69f3
+   __TEXT.__cstring: 0x314b
+   __TEXT.__objc_classname: 0x233
+-  __TEXT.__objc_methtype: 0x364e
++  __TEXT.__objc_methtype: 0x3660
+   __TEXT.__gcc_except_tab: 0x294
+   __TEXT.__unwind_info: 0x638
+   __DATA_CONST.__auth_got: 0x408
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 73085B08-0C27-3321-A975-018D5D5743CA
++  UUID: 58AD3C8B-99D2-3FF1-8459-B31F7FA0CC9F
+   Functions: 598
+   Symbols:   191
+   CStrings:  1740
+CStrings:
++ "^{sCIspMetaDataSharedInput=IIIIIISSSSSSSSSCCCCCCISSSSSSSSSSCC[8C]SSSSSSS[32C][32C][32C][128C]IIISSsCCIIIIIIIISSISSSSSSIISSSSSSSSiIIISSSSSSSSIIsSCCsIQQIISSSSCCISSSSiiiiiiiSSQQSSSSSSSSIISIIICCSiiiISSSSCCSI[4S]iSSSSCCfIISSSSffiSSSSSSSSSSSSSSSSSSSSSSSSSSCCcCCSCCCiCiCCCCCIIIIiiCCf[6S][9S]BBBBBf{sCIspRect=iiII}BIIiIIIBSSSSBSSSSBSSSS}"
+- "^{sCIspMetaDataSharedInput=IIIIIISSSSSSSSSCCCCCCISSSSSSSSSSCC[8C]SSSSSSS[32C][32C][32C][128C]IIISSsCCIIIIIIIISSISSSSSSIISSSSSSSSiIIISSSSSSSSIIsSCCsIQQIISSSSCCISSSSiiiiiiiSSQQSSSSSSSSIISIIICCSiiiISSSSCCSI[4S]iSSSSCCfIISSSSffiSSSSSSSSSSSSSSSSSSSSSSSSSSCCcCCSCCCiCiCCCCCIIIIiiCCf[6S][9S]BBBBBf{sCIspRect=iiII}BIIi}"
+
+```

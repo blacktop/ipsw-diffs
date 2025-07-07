@@ -1,0 +1,142 @@
+## AGXMetalG16P_B0
+
+> `/System/Library/Extensions/AGXMetalG16P_B0.bundle/AGXMetalG16P_B0`
+
+```diff
+
+-280.3.9.0.0
+-  __TEXT.__text: 0x7909c4
++282.14.0.0.0
++  __TEXT.__text: 0x793144
+   __TEXT.__auth_stubs: 0x1030
+   __TEXT.__objc_methlist: 0x3b64
+-  __TEXT.__const: 0xc0d0
++  __TEXT.__const: 0xc150
+   __TEXT.__gcc_except_tab: 0x7370
+-  __TEXT.__cstring: 0x5489
++  __TEXT.__cstring: 0x5496
+   __TEXT.__oslogstring: 0x1250
+-  __TEXT.__unwind_info: 0x5fe8
++  __TEXT.__unwind_info: 0x6090
+   __TEXT.__eh_frame: 0xea0
+   __TEXT.__objc_classname: 0xb6a
+   __TEXT.__objc_methname: 0x1158d
+
+   __AUTH_CONST.__objc_arrayobj: 0x18
+   __AUTH_CONST.__auth_got: 0x828
+   __AUTH.__data: 0x28
+-  __AUTH.__objc_data: 0x1130
++  __AUTH.__objc_data: 0x820
+   __DATA.__objc_ivar: 0x200
+-  __DATA.__data: 0x1830
+-  __DATA.__bss: 0x1d88
++  __DATA.__data: 0x1538
++  __DATA.__bss: 0x934
++  __DATA_DIRTY.__objc_data: 0x910
++  __DATA_DIRTY.__data: 0x338
++  __DATA_DIRTY.__bss: 0x1420
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libcompression.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 496903D1-F2FB-338C-8D04-E81FB82FAFCB
+-  Functions: 6307
++  UUID: 88DDB574-C8E6-3A9F-B2A7-59F5C5F397E0
++  Functions: 6328
+   Symbols:   14519
+-  CStrings:  4290
++  CStrings:  4292
+ 
+Symbols:
++ __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5085
++ __ZL13kDquadMaxMode.81
++ __ZL16kDQuadParamTable.79
++ __ZL16kDquadTransition.80
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.4199
++ __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.5228
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5232
++ __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5240
++ __ZL28areDriverUberShadersDisabledv.5084
++ __ZL28get_level_offset_within_tailjjjjjjjb.5229
++ __ZN3AGX20AppleCompressionGen2L10readHeaderILNS0_11PixelFormatE13ENS0_3VecIsEEEEmRT0_S6_S6_RNS0_9BitReaderEh.75
++ __ZN3AGX20AppleCompressionGen2L10readHeaderILNS0_11PixelFormatE19ENS0_3VecIsEEEEmRT0_S6_S6_RNS0_9BitReaderEh.82
++ __ZN3AGX20AppleCompressionGen2L13kRegionOffsetE.78
++ __ZN3AGX20AppleCompressionGen2L14kSampleOffsetsE.77
++ __ZZL28areDriverUberShadersDisabledvE19disableUberVariants.5086
++ __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.3517
++ ___Block_byref_object_copy_.1699
++ ___Block_byref_object_copy_.1707
++ ___Block_byref_object_copy_.180
++ ___Block_byref_object_copy_.3525
++ ___Block_byref_object_copy_.485
++ ___Block_byref_object_copy_.4968
++ ___Block_byref_object_dispose_.1700
++ ___Block_byref_object_dispose_.1708
++ ___Block_byref_object_dispose_.181
++ ___Block_byref_object_dispose_.3526
++ ___Block_byref_object_dispose_.486
++ ___Block_byref_object_dispose_.4969
++ ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1709
++ ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1717
++ ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE24createMeshRenderPipelineI31MTLMeshRenderPipelineDescriptorEEP27AGXG16PFamilyRenderPipelinePT_P19AGXG16PFamilyDevicemPP27MTLRenderPipelineReflectionPP7NSErrorU13block_pointerFvPU33objcproto22MTLRenderPipelineState11objc_objectSF_SI_E_block_invoke.1694
++ ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE28createFragmentProgramVariantI31MTLMeshRenderPipelineDescriptorEEPNS1_22FragmentProgramVariantEPT_P19AGXG16PFamilyDevicemP26AGXG16PFamilyBinaryArchiveP7NSArrayPNS1_15FragmentProgramEPKNS_21VertexProgramVaryingsEPU27objcproto16OS_dispatch_data8NSObjectbU13block_pointerFvS9_13ReflectionKeyP19NSMutableDictionary16MTLCompilerErrorP8NSStringSP_E_block_invoke.1819
++ ___block_descriptor_tmp.6495
++ ___block_literal_global.1590
++ ___block_literal_global.1619
++ ___block_literal_global.5013
++ ___block_literal_global.5517
++ ___block_literal_global.5680
++ ___block_literal_global.6106
++ ___block_literal_global.6493
++ __unnamed_array_storage.5390
++ __unnamed_array_storage.5722
+- __ZGVZL28areDriverUberShadersDisabledvE19disableUberVariants.5078
+- __ZL13kDquadMaxMode.79
+- __ZL16kDQuadParamTable.77
+- __ZL16kDquadTransition.78
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.4194
+- __ZL19agxCalcSparseInputsjjjjjjjjjjjjbbjjjjP27AGXSparseTextureConstInputs.5221
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb0ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5225
+- __ZL19agxsTwiddleAddressZI21AGXSConverterPassThruILb1ELm2ELj1EL12TwiddleOrder1EEEvNT_13twid_ptr_typeENS3_12lin_ptr_typeEjjjjjjjjmP21agxsTwiddledBlockInfoP14agxsSparseInfo.5233
+- __ZL28areDriverUberShadersDisabledv.5077
+- __ZL28get_level_offset_within_tailjjjjjjjb.5222
+- __ZN3AGX20AppleCompressionGen2L10readHeaderILNS0_11PixelFormatE13ENS0_3VecIsEEEEmRT0_S6_S6_RNS0_9BitReaderEh.73
+- __ZN3AGX20AppleCompressionGen2L10readHeaderILNS0_11PixelFormatE19ENS0_3VecIsEEEEmRT0_S6_S6_RNS0_9BitReaderEh.80
+- __ZN3AGX20AppleCompressionGen2L13kRegionOffsetE.76
+- __ZN3AGX20AppleCompressionGen2L14kSampleOffsetsE.75
+- __ZZL28areDriverUberShadersDisabledvE19disableUberVariants.5079
+- __ZZL37agxaBindNullResourceToHardwareCommandP17IOGPUResourceListjE18null_resource_data.3513
+- ___Block_byref_object_copy_.1697
+- ___Block_byref_object_copy_.1705
+- ___Block_byref_object_copy_.177
+- ___Block_byref_object_copy_.3521
+- ___Block_byref_object_copy_.482
+- ___Block_byref_object_copy_.4961
+- ___Block_byref_object_dispose_.1698
+- ___Block_byref_object_dispose_.1706
+- ___Block_byref_object_dispose_.178
+- ___Block_byref_object_dispose_.3522
+- ___Block_byref_object_dispose_.483
+- ___Block_byref_object_dispose_.4962
+- ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1707
+- ____ZN3AGX17UserShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE33createIntersectionProgramVariantsEP21MTLFunctionDescriptorPU22objcproto11MTLFunction11objc_objectP7NSArrayP19AGXG16PFamilyDeviceP26AGXG16PFamilyBinaryArchivebbbP12NSDictionaryU13block_pointerFvRNS1_30IntersectionFunctionVariantSetEE_block_invoke.1715
+- ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE24createMeshRenderPipelineI31MTLMeshRenderPipelineDescriptorEEP27AGXG16PFamilyRenderPipelinePT_P19AGXG16PFamilyDevicemPP27MTLRenderPipelineReflectionPP7NSErrorU13block_pointerFvPU33objcproto22MTLRenderPipelineState11objc_objectSF_SI_E_block_invoke.1692
+- ____ZN3AGX23UserCommonShaderFactoryINS_3G168EncodersENS1_7ClassesENS1_10ObjClassesEE28createFragmentProgramVariantI31MTLMeshRenderPipelineDescriptorEEPNS1_22FragmentProgramVariantEPT_P19AGXG16PFamilyDevicemP26AGXG16PFamilyBinaryArchiveP7NSArrayPNS1_15FragmentProgramEPKNS_21VertexProgramVaryingsEPU27objcproto16OS_dispatch_data8NSObjectbU13block_pointerFvS9_13ReflectionKeyP19NSMutableDictionary16MTLCompilerErrorP8NSStringSP_E_block_invoke.1817
+- ___block_descriptor_tmp.6487
+- ___block_literal_global.1588
+- ___block_literal_global.1617
+- ___block_literal_global.5005
+- ___block_literal_global.5510
+- ___block_literal_global.5671
+- ___block_literal_global.6097
+- ___block_literal_global.6485
+- __unnamed_array_storage.5383
+- __unnamed_array_storage.5713
+CStrings:
++ "g16g"
++ "g16g_a0"
+
+```

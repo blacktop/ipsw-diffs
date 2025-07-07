@@ -1,0 +1,104 @@
+## HomeAccessoryControlUI
+
+> `/System/Library/PrivateFrameworks/HomeAccessoryControlUI.framework/HomeAccessoryControlUI`
+
+```diff
+
+-873.6.20.0.0
+-  __TEXT.__text: 0x1bbfcc
++873.7.6.0.0
++  __TEXT.__text: 0x1bc50c
+   __TEXT.__auth_stubs: 0x40a0
+   __TEXT.__objc_methlist: 0x168
+-  __TEXT.__const: 0x9da0
+-  __TEXT.__cstring: 0x2c6e
+-  __TEXT.__swift5_typeref: 0x1c626
+-  __TEXT.__swift5_reflstr: 0x250f
++  __TEXT.__const: 0x9db0
++  __TEXT.__cstring: 0x2cde
++  __TEXT.__swift5_typeref: 0x1c6f6
++  __TEXT.__swift5_reflstr: 0x252f
+   __TEXT.__swift5_assocty: 0xe70
+-  __TEXT.__constg_swiftt: 0x3a38
+-  __TEXT.__swift5_fieldmd: 0x2e38
++  __TEXT.__constg_swiftt: 0x3a40
++  __TEXT.__swift5_fieldmd: 0x2e44
+   __TEXT.__swift5_builtin: 0x8c
+   __TEXT.__swift5_proto: 0x4d8
+   __TEXT.__swift5_types: 0x394
+
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift5_mpenum: 0x10
+   __TEXT.__gcc_except_tab: 0x13c
+-  __TEXT.__unwind_info: 0x4cd0
++  __TEXT.__unwind_info: 0x4cd8
+   __TEXT.__eh_frame: 0x2310
+   __TEXT.__objc_classname: 0x7c
+   __TEXT.__objc_methname: 0x10b7
+   __TEXT.__objc_methtype: 0x39c
+   __TEXT.__objc_stubs: 0x500
+-  __DATA_CONST.__got: 0xdf0
++  __DATA_CONST.__got: 0xdf8
+   __DATA_CONST.__const: 0x590
+   __DATA_CONST.__objc_classlist: 0x60
+   __DATA_CONST.__objc_protolist: 0x38
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_const: 0x1248
++  __DATA_CONST.__objc_const: 0x1268
+   __DATA_CONST.__objc_selrefs: 0x518
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_classrefs: 0x120
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__const: 0xa678
++  __AUTH_CONST.__const: 0xa680
+   __AUTH_CONST.__cfstring: 0x60
+   __AUTH_CONST.__objc_const: 0x90
+   __AUTH_CONST.__auth_got: 0x2060
+   __AUTH.__objc_data: 0x2a8
+-  __AUTH.__data: 0x3578
++  __AUTH.__data: 0x3580
+   __DATA.__objc_ivar: 0x20
+-  __DATA.__data: 0x5f88
++  __DATA.__data: 0x5fa0
+   __DATA.__bss: 0x99e0
+   __DATA.__common: 0x1a0
+   __DATA_DIRTY.__objc_data: 0x98
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9E39D3B3-F089-3B04-A561-827D78A25F03
+-  Functions: 7330
+-  Symbols:   2763
+-  CStrings:  566
++  UUID: 8558DA0C-B812-3ACA-913F-44F0BD561C58
++  Functions: 7333
++  Symbols:   2765
++  CStrings:  568
+ 
+Symbols:
++ _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA7DividerV_AA6SpacerVACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0J9AlignmentOGGAkSSgtGGAA16_FixedSizeLayoutVGAA0G0HPAvaZHPyHC_AxA0gN0HPyHCHC.29
++ _get_witness_table 7SwiftUI6VStackVyAA19_ConditionalContentVyAEy020HomeAccessoryControlB018NoneResponsiveViewVAA05TupleK0VyAEyAEyAA08ModifiedE0VyAF06AlarmshK0VAA18_AnimationModifierVySay0F9DataModel11StaticAlarmVGGGAHGAHG_AEyAEyALyAF06TimershK0VAPySayAQ0S5TimerVGGGAHGAHGtGGAJyAH_AHtGGGAA0K0HPyHC.24
++ _symbolic ________________y__________y_____GGAbHSgt 7SwiftUI7DividerV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0G9AlignmentO
++ _symbolic _____y___________yACy__________yACyACy_____y__________ySay_____GGGADGADG_ACyACyAFy_____AHySay_____GGGADGADGtGGAEyAD_ADtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV 020HomeAccessoryControlB0014NoneResponsiveD0V AA05TupleD0V AA08ModifiedI0V AJ06AlarmslD0V AA18_AnimationModifierV 0J9DataModel11StaticAlarmV AJ06TimerslD0V AU0V5TimerV
++ _symbolic _____y___________y________________y__________y_____GGAeKSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA7DividerV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO
++ _symbolic _____y__________yAAyAAy_____y__________ySay_____GGGABGABG_AAyAAyADy_____AFySay_____GGGABGABGtGG 7SwiftUI19_ConditionalContentV 020HomeAccessoryControlB018NoneResponsiveViewV AA05TupleJ0V AA08ModifiedD0V AD06AlarmsgJ0V AA18_AnimationModifierV 0E9DataModel11StaticAlarmV AD06TimersgJ0V AO0R5TimerV
++ _symbolic _____y__________y_____yADy_____y__________ySay_____GGGABGABG_ADyADyAEy_____AGySay_____GGGABGABGtG_G 7SwiftUI19_ConditionalContentV7StorageO 020HomeAccessoryControlB018NoneResponsiveViewV AA05TupleK0V AC AA08ModifiedD0V AF06AlarmshK0V AA18_AnimationModifierV 0F9DataModel11StaticAlarmV AF06TimershK0V AQ0S5TimerV
++ _symbolic _____y_____yABy__________yAByABy_____y__________ySay_____GGGACGACG_AByAByAEy_____AGySay_____GGGACGACGtGGADyAC_ACtGGG 7SwiftUI6VStackV AA19_ConditionalContentV 020HomeAccessoryControlB018NoneResponsiveViewV AA05TupleK0V AA08ModifiedE0V AF06AlarmshK0V AA18_AnimationModifierV 0F9DataModel11StaticAlarmV AF06TimershK0V AQ0S5TimerV
++ _symbolic _____y_____y________________y__________y_____GGAdJSgtGG 7SwiftUI6VStackV AA9TupleViewV AA7DividerV AA6SpacerV AA15ModifiedContentV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO
++ _symbolic _____y_____y__________yAByABy_____y__________ySay_____GGGACGACG_AByAByAEy_____AGySay_____GGGACGACGtGGADyAC_ACtG_G 7SwiftUI19_ConditionalContentV7StorageO AC 020HomeAccessoryControlB018NoneResponsiveViewV AA05TupleK0V AA08ModifiedD0V AF06AlarmshK0V AA18_AnimationModifierV 0F9DataModel11StaticAlarmV AF06TimershK0V AQ0S5TimerV
++ _symbolic _____y_____y_____y___________AAy__________y_____GGAeJSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO AA16_FixedSizeLayoutV
+- _get_witness_table 7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyAA7DividerV_AA6SpacerVAA4TextVAkCyAmA30_EnvironmentKeyWritingModifierVyAA0J9AlignmentOGGSgtGGAA16_FixedSizeLayoutVGAA0G0HPAvaZHPyHC_AxA0gN0HPyHCHC.29
+- _get_witness_table 7SwiftUI6VStackVyAA19_ConditionalContentVyAA9TupleViewVyAEyAEyAA08ModifiedE0Vy020HomeAccessoryControlB006AlarmskG0VAA18_AnimationModifierVySay0I9DataModel11StaticAlarmVGGGAJ014NoneResponsiveG0VGAVG_AEyAEyAIyAJ06TimerskG0VANySayAO0Q5TimerVGGGAVGAVGtGAGyAV_AVtGGGAA0G0HPyHC.24
+- _symbolic ________________AB_____yAC_____y_____GGSgt 7SwiftUI7DividerV AA6SpacerV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
+- _symbolic _____y___________y________________AE_____yAF_____y_____GGSgtGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA05TupleD0V AA7DividerV AA6SpacerV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0K9AlignmentO
+- _symbolic _____y___________y_____yACyACy_____y__________ySay_____GGG_____GALG_ACyACyAEy_____AGySay_____GGGALGALGtGADyAL_ALtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA05TupleD0V AA08ModifiedI0V 020HomeAccessoryControlB006AlarmsnD0V AA18_AnimationModifierV 0L9DataModel11StaticAlarmV AN014NoneResponsiveD0V AN06TimersnD0V AS0T5TimerV
+- _symbolic _____y_____y________________AD_____yAE_____y_____GGSgtGG 7SwiftUI6VStackV AA9TupleViewV AA7DividerV AA6SpacerV AA4TextV AA15ModifiedContentV AA30_EnvironmentKeyWritingModifierV AA0H9AlignmentO
+- _symbolic _____y_____y_____yAByABy_____y__________ySay_____GGG_____GAKG_AByAByADy_____AFySay_____GGGAKGAKGtGACyAK_AKtGGG 7SwiftUI6VStackV AA19_ConditionalContentV AA9TupleViewV AA08ModifiedE0V 020HomeAccessoryControlB006AlarmskG0V AA18_AnimationModifierV 0I9DataModel11StaticAlarmV AJ014NoneResponsiveG0V AJ06TimerskG0V AO0Q5TimerV
+- _symbolic _____y_____y_____yACy_____y__________ySay_____GGG_____GAKG_ACyACyADy_____AFySay_____GGGAKGAKGtGAByAK_AKtG_G 7SwiftUI19_ConditionalContentV7StorageO AA9TupleViewV AC AA08ModifiedD0V 020HomeAccessoryControlB006AlarmskG0V AA18_AnimationModifierV 0I9DataModel11StaticAlarmV AJ014NoneResponsiveG0V AJ06TimerskG0V AO0Q5TimerV
+- _symbolic _____y_____y_____y________________AeAyAF_____y_____GGSgtGG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA9TupleViewV AA7DividerV AA6SpacerV AA4TextV AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO AA16_FixedSizeLayoutV
+CStrings:
++ "HUHomePodAlarmsAndTimersNeedsSoftwareUpdateTitle"
++ "softwareUpdateRequiredDescription"
+
+```
