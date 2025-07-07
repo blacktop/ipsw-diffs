@@ -1,0 +1,125 @@
+## PhoneCallFlowDelegatePlugin
+
+> `/System/Library/Assistant/FlowDelegatePlugins/PhoneCallFlowDelegatePlugin.bundle/PhoneCallFlowDelegatePlugin`
+
+```diff
+
+-3500.61.1.0.0
+-  __TEXT.__text: 0x3ffc08
+-  __TEXT.__auth_stubs: 0x8170
++3500.64.1.0.0
++  __TEXT.__text: 0x40038c
++  __TEXT.__auth_stubs: 0x8180
+   __TEXT.__objc_stubs: 0x20
+   __TEXT.__objc_methlist: 0x638
+-  __TEXT.__const: 0x2a2c8
++  __TEXT.__const: 0x2a2d8
+   __TEXT.__cstring: 0x11dbb
+   __TEXT.__swift5_typeref: 0xb3bd
+-  __TEXT.__swift5_capture: 0x3700
++  __TEXT.__swift5_capture: 0x36d0
+   __TEXT.__objc_methname: 0x340b
+   __TEXT.__constg_swiftt: 0x11d4c
+   __TEXT.__swift5_builtin: 0x2a8
+
+   __TEXT.__swift_as_ret: 0x1c3c
+   __TEXT.__swift5_mpenum: 0x70
+   __TEXT.__swift5_protos: 0x1ac
+-  __TEXT.__unwind_info: 0x12ed0
+-  __TEXT.__eh_frame: 0x269e0
+-  __DATA_CONST.__auth_got: 0x40c0
++  __TEXT.__unwind_info: 0x12c38
++  __TEXT.__eh_frame: 0x26a28
++  __DATA_CONST.__auth_got: 0x40c8
+   __DATA_CONST.__got: 0x1d90
+   __DATA_CONST.__auth_ptr: 0x2d98
+-  __DATA_CONST.__const: 0x2b258
++  __DATA_CONST.__const: 0x2b208
+   __DATA_CONST.__cfstring: 0x640
+   __DATA_CONST.__objc_classlist: 0x478
+   __DATA_CONST.__objc_protolist: 0x180
+
+   __DATA.__objc_const: 0xc438
+   __DATA.__objc_selrefs: 0x12b8
+   __DATA.__objc_data: 0x2028
+-  __DATA.__data: 0x16368
++  __DATA.__data: 0x163c8
+   __DATA.__bss: 0x37830
+-  __DATA.__common: 0xda0
++  __DATA.__common: 0xdd0
+   - /System/Library/Frameworks/AppIntents.framework/AppIntents
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/Contacts.framework/Contacts
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 9A3FAB77-1F09-3A93-9913-C15CC2467A78
+-  Functions: 27852
+-  Symbols:   197339
++  UUID: 692F79E6-D29E-3B49-8CA9-21FA560E17B3
++  Functions: 27868
++  Symbols:   197443
+   CStrings:  4160
+ 
+Symbols:
++ $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo06INJoinE6IntentCRs_rlE11transformer13sharedGlobals3app08previousK00pK8ResponseACyAdE_pAGGAD06SharedN9Providing_p_0A13AppResolution0T0CSgSo8INIntentCSgSo0vQ0CSgtFZAgdE_pKcfU_TA.34
++ $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo08INHangUpE6IntentCRs_rlE11transformer13sharedGlobals3app08previousL00qL8ResponseACyAdE_pAGGAD06SharedO9Providing_p_0A13AppResolution0U0CSgSo8INIntentCSgSo0wR0CSgtFZAgdE_pKcfU_TA.27
++ $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo08INHangUpE6IntentCRs_rlE11transformer13sharedGlobals3app08previousL00qL8ResponseACyAdE_pAGGAD06SharedO9Providing_p_0A13AppResolution0U0CSgSo8INIntentCSgSo0wR0CSgtFZAgdE_pKcfU_TA.65
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSay17SiriAppResolution0E0CG_TG5TA.11
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSay17SiriAppResolution0E0CG_TG5TA.11TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSay17SiriAppResolution0E0CG_TG5TA.11Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.26
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.26TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.26Tu
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtensionAA12AnnotatedAppVvau
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtensionAA12AnnotatedAppVvgZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtensionAA12AnnotatedAppVvpZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtensionAA12AnnotatedAppVvpZMV
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtension_WZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA12MacExtension_Wz
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtensionAA12AnnotatedAppVvau
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtensionAA12AnnotatedAppVvgZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtensionAA12AnnotatedAppVvpZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtensionAA12AnnotatedAppVvpZMV
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtension_WZ
++ _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO24siriFaceTimeMacExtension_Wz
++ _$s27PhoneCallFlowDelegatePlugin0abC5StateOySo08INHangUpB6IntentCSo0ghbI8ResponseCGWOh
++ _$s27PhoneCallFlowDelegatePlugin18AnnotatedAppFinderV4find8appQuery6device6avModeAA0fG0VSgAA0gK0V_07SiriKitC011DeviceState_pAA0aB6AVModeOSgtF
++ _$s27PhoneCallFlowDelegatePlugin18AnnotatedAppFinderVAA0fG7FindingA2aDP4find8appQuery6device6avModeAA0fG0VSgAA0gL0V_07SiriKitC011DeviceState_pAA0aB6AVModeOSgtFTW
++ _$s27PhoneCallFlowDelegatePlugin19AnnotatedAppFindingPAAE4find8appQuery6deviceAA0fG0VSgAA0gK0V_07SiriKitC011DeviceState_ptF
++ _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV010getDefaultI033_2F315FA8B70F72DDC603457956E7D934LL3for6device6avModeAA0hI0VSgSS_07SiriKitC011DeviceState_pAA0aB6AVModeOSgtF
++ _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV010getDefaultI03for6avModeAA0hI0V07SiriKitC011DeviceState_p_AA0aB6AVModeOSgtF
++ _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV03getI03for6device6avModeAA0hI0VSgSS_07SiriKitC011DeviceState_pAA0aB6AVModeOSgtF
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sScPSgWOc
++ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfCyt_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCSay17SiriAppResolution0F0CG_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ objectdestroy.7Tm
+- $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo06INJoinE6IntentCRs_rlE11transformer13sharedGlobals3app08previousK00pK8ResponseACyAdE_pAGGAD06SharedN9Providing_p_0A13AppResolution0T0CSgSo8INIntentCSgSo0vQ0CSgtFZAgdE_pKcfU_TA.40
+- $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo08INHangUpE6IntentCRs_rlE11transformer13sharedGlobals3app08previousL00qL8ResponseACyAdE_pAGGAD06SharedO9Providing_p_0A13AppResolution0U0CSgSo8INIntentCSgSo0wR0CSgtFZAgdE_pKcfU_TA.33
+- $s13SiriUtilities11TransformerV27PhoneCallFlowDelegatePluginAD0dE8NLIntent_pRszSo08INHangUpE6IntentCRs_rlE11transformer13sharedGlobals3app08previousL00qL8ResponseACyAdE_pAGGAD06SharedO9Providing_p_0A13AppResolution0U0CSgSo8INIntentCSgSo0wR0CSgtFZAgdE_pKcfU_TA.71
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtensionAA12AnnotatedAppVvau
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtensionAA12AnnotatedAppVvgZ
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtensionAA12AnnotatedAppVvpZ
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtensionAA12AnnotatedAppVvpZMV
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtension_WZ
+- _$s27PhoneCallFlowDelegatePlugin07DefaultA4AppsO04siriA20FaceTimeMacExtension_Wz
+- _$s27PhoneCallFlowDelegatePlugin18AnnotatedAppFinderV4find8appQuery6deviceAA0fG0VSgAA0gK0V_07SiriKitC011DeviceState_ptF
+- _$s27PhoneCallFlowDelegatePlugin18AnnotatedAppFinderVAA0fG7FindingA2aDP4find8appQuery6deviceAA0fG0VSgAA0gL0V_07SiriKitC011DeviceState_ptFTW
+- _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV010getDefaultI033_2F315FA8B70F72DDC603457956E7D934LL3for6deviceAA0hI0VSgSS_07SiriKitC011DeviceState_ptF
+- _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV010getDefaultI03forAA0hI0V07SiriKitC011DeviceState_p_tF
+- _$s27PhoneCallFlowDelegatePlugin27FirstPartyAnnotatedAppStoreV03getI03for6deviceAA0hI0VSgSS_07SiriKitC011DeviceState_ptF
+- _$sScPSgWOh
+- _$sScPSgWOhTm
+- _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfCyt_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
+- objectdestroy.10Tm
+CStrings:
++ "find(appQuery:device:avMode:)"
++ "getApp(for:device:avMode:)"
+- "find(appQuery:device:)"
+- "getApp(for:device:)"
+
+```

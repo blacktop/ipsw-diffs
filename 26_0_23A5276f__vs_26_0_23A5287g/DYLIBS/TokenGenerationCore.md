@@ -1,0 +1,245 @@
+## TokenGenerationCore
+
+> `/System/Library/PrivateFrameworks/TokenGenerationCore.framework/TokenGenerationCore`
+
+```diff
+
+-210.0.2.0.0
+-  __TEXT.__text: 0x13b374
+-  __TEXT.__auth_stubs: 0x3530
++213.1.0.0.0
++  __TEXT.__text: 0x13a500
++  __TEXT.__auth_stubs: 0x3550
+   __TEXT.__objc_methlist: 0xd4
+-  __TEXT.__const: 0xab00
++  __TEXT.__const: 0xab10
+   __TEXT.__gcc_except_tab: 0x4284
+-  __TEXT.__cstring: 0x5fb6
+-  __TEXT.__oslogstring: 0x1868
++  __TEXT.__cstring: 0x605d
++  __TEXT.__oslogstring: 0x1866
+   __TEXT.__swift5_typeref: 0x2924
+-  __TEXT.__swift5_reflstr: 0x2336
+-  __TEXT.__swift5_assocty: 0x290
++  __TEXT.__swift5_fieldmd: 0x3124
+   __TEXT.__constg_swiftt: 0x2248
+   __TEXT.__swift5_builtin: 0x168
++  __TEXT.__swift5_reflstr: 0x2373
++  __TEXT.__swift5_assocty: 0x290
+   __TEXT.__swift5_mpenum: 0xc8
+-  __TEXT.__swift5_fieldmd: 0x3118
+-  __TEXT.__swift5_capture: 0x204
+   __TEXT.__swift5_protos: 0x3c
+   __TEXT.__swift5_proto: 0x774
+   __TEXT.__swift5_types: 0x354
++  __TEXT.__swift5_capture: 0x204
+   __TEXT.__swift_as_entry: 0x44
+-  __TEXT.__swift5_types2: 0x4
+   __TEXT.__swift_as_ret: 0x1c
+-  __TEXT.__unwind_info: 0x4910
++  __TEXT.__swift5_types2: 0x4
++  __TEXT.__unwind_info: 0x4958
+   __TEXT.__eh_frame: 0x4918
+   __TEXT.__objc_classname: 0x16
+   __TEXT.__objc_methname: 0x4a2
+   __TEXT.__objc_methtype: 0x585
+   __TEXT.__objc_stubs: 0x1c0
+-  __DATA_CONST.__got: 0xb28
++  __DATA_CONST.__got: 0xb18
+   __DATA_CONST.__const: 0x1e8
+   __DATA_CONST.__objc_classlist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x1d0
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x1aa8
++  __AUTH_CONST.__auth_got: 0x1ab8
+   __AUTH_CONST.__const: 0x78d8
+   __AUTH_CONST.__cfstring: 0xa0
+   __AUTH_CONST.__objc_const: 0x1050
+
+   __AUTH.__thread_vars: 0x30
+   __AUTH.__thread_bss: 0x9d0
+   __DATA.__objc_ivar: 0x8
+-  __DATA.__data: 0x1728
++  __DATA.__data: 0x1730
+   __DATA.__bss: 0xde69
+   __DATA.__common: 0xc8
+   __DATA_DIRTY.__objc_data: 0xa0
+-  __DATA_DIRTY.__data: 0x21c0
+-  __DATA_DIRTY.__bss: 0x940
++  __DATA_DIRTY.__data: 0x21b0
+   __DATA_DIRTY.__common: 0x3d8
++  __DATA_DIRTY.__bss: 0x940
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswiftOSLog.dylib
+   - /usr/lib/swift/libswiftObjectiveC.dylib
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+-  - /usr/lib/swift/libswiftRegexBuilder.dylib
+   - /usr/lib/swift/libswiftSystem.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 369981CE-C40F-3897-B951-3A99693546C3
+-  Functions: 5244
+-  Symbols:   17797
+-  CStrings:  813
++  UUID: A4EAAB31-4B73-3C00-B695-7466311A4EBE
++  Functions: 5230
++  Symbols:   17778
++  CStrings:  819
+ 
+Symbols:
++ _$s10Foundation6LocaleVSg_ADtWOhTm
++ _$s15TokenGeneration6PromptV07SpecialA0VMaTm
++ _$s15TokenGeneration6PromptV07SpecialA0VSgWOcTm
++ _$s15TokenGeneration6PromptV07SpecialA0VWObTm
++ _$s15TokenGeneration6PromptV14ResponseFormatVSgWOdTm
++ _$s15TokenGeneration6PromptV4TurnV4user8segments6localeAESayAE7SegmentOG_10Foundation6LocaleVSgtFZTm
++ _$s15TokenGeneration6PromptV4TurnV4user8segmentsAESayAE7SegmentOG_tFZTm
++ _$s19TokenGenerationCore0B5ErrorO26AppleIntelligenceReporting0efD0AadEP15requestFeedbackSbvgTW
++ _$s19TokenGenerationCore16EarleyRecognizerCACSQAAWlTm
++ _$s19TokenGenerationCore20LogitMaskComputationOMrTm
++ _$s19TokenGenerationCore7GrammarV10enumerator33_DD88DD49DE63EB9CBD61CBF820251C8ALL4name5cases12wrapInQuotesSayAA4RuleVGSSSg_SaySSGSbtFZ
++ _$s26AppleIntelligenceReporting0aB5ErrorP15requestFeedbackSbvgTq
++ _$s26AppleIntelligenceReporting0aB5ErrorPAAE15requestFeedbackSbvg
++ _$s26GenerativeModelsFoundation14PromptTemplateV06promptE0_0C06LocaleVSg6localetSgWOhTm
++ _$s29GenerativeFunctionsFoundation10JSONSchemaO6StringV5titleSSSgvg
++ _$sSKsE6suffixy11SubSequenceQzSiFSaySiG_Tg5
++ _$sSS_yptWOcTm
++ _$sSTsSQ7ElementRpzrlE6starts4withSbqd___tSTRd__AAQyd__ABRSlFSS_SSTg5
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSay19TokenGenerationCore16EarleyRecognizerC4ItemVG_Tg5
++ _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSi_s15EmptyCollectionVySiGTg5Tf4ndn_n
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF19TokenGenerationCore6SymbolO_SayAGGTg5Tm
++ _$sSasSHRzlE4hash4intoys6HasherVz_tF19TokenGenerationCore16EarleyRecognizerC4ItemV_Tg5
++ _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$sSiSgMD
++ _$sSl19TokenGenerationCoreAA16EarleyRecognizerC4ItemV7ElementRtzrlE12itemCacheKeySiyFSayAEG_Tg5
++ _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyFs10ArraySliceVy19TokenGenerationCore14RollbackStatusO10CodingKeys33_BCFFBE9594FF5E853E9DC79B528E9605LLOG_Tg5
++ _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyFs10ArraySliceVy19TokenGenerationCore14RollbackStatusO10CodingKeys33_BCFFBE9594FF5E853E9DC79B528E9605LLOG_Tg5Tm
++ _$sSo23_opaque_pthread_mutex_tVMaTm
++ _$ss10_NativeSetV13copyAndResize8capacityySi_tF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$ss10_NativeSetV4copyyyF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$ss10_NativeSetV6resize8capacityySi_tF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore6SymbolO_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore9Regex2BNFO6ChoiceV_Tg5Tm
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore9Regex2BNFO6SymbolO_Tg5Tm
++ _$ss15ContiguousArrayV15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSb_s15EmptyCollectionVySbGTg5Tf4ndn_n
++ _$ss15ContiguousArrayV15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFs6UInt64V_s15EmptyCollectionVyAIGTg5Tf4ndn_n
++ _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF10Foundation12CharacterSetV_ShySiGTg5Tm
++ _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF19TokenGenerationCore14TerminalSymbolO_SiTg5
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_SayAH6ChoiceVGTg5Tm
++ _$ss17_NativeDictionaryV4copyyyF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_SayAF6ChoiceVGTg5Tm
++ _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_SayAM6ChoiceVGTg5Tm
++ _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs011_ContiguousaB0Vys6UInt64VG_s15EmptyCollectionVyAMGTg5Tf4nndn_nTm
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC10Foundation12CharacterSetV_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSJ_Tt1g5
++ _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSJ_Tt1g5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore14TerminalSymbolO_Tg5Tm
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSay19TokenGenerationCore9Regex2BNFO6SymbolOG_Tg5Tm
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
++ _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19TokenGenerationCore17NonTerminalSymbolV_TB5Tm
++ _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVy29GenerativeFunctionsFoundation10JSONSchemaO8PropertyVG_Tg5Tm
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF15TokenGeneration6PromptV0hI4CoreE0J6MarkerO_Tg5Tm
+- _$s15TokenGeneration6PromptV07SpecialA0VWOb
+- _$s15TokenGeneration6PromptV0aB4CoreE0C8FragmentOWOc
+- _$s15TokenGeneration6PromptV0aB4CoreE0C8FragmentOWOd
+- _$s15TokenGeneration6PromptV10AttachmentVMaTm
+- _$s15TokenGeneration6PromptV17AttachmentContentOWOcTm
+- _$s15TokenGeneration6PromptV4TurnV8response8segments6localeAESayAE7SegmentOG_10Foundation6LocaleVSgtFZTm
+- _$s15TokenGeneration6PromptV4TurnV9toolCallsyAESayAC8ToolCallVGFZTm
+- _$s19TokenGenerationCore14TerminalSymbolOWOb
+- _$s19TokenGenerationCore16EarleyRecognizerCACSQAAWl
+- _$s19TokenGenerationCore18PromptTemplateInfoV19RichVariableBindingV9ComponentVWOcTm
+- _$s19TokenGenerationCore36SentencePieceVocabularyTextConverterV011convertByteA004fromaG0s5UInt8VSgSS_tFTf4nd_n
+- _$s19TokenGenerationCore6SymbolOSgWOcTm
+- _$s19TokenGenerationCore6SymbolO_ACtWOhTm
+- _$s19TokenGenerationCore7GrammarV10enumerator33_DD88DD49DE63EB9CBD61CBF820251C8ALL5cases12wrapInQuotesSayAA4RuleVGSaySSG_SbtFZ
+- _$sS2S17_StringProcessing14RegexComponent0C7BuilderWL
+- _$sS2S17_StringProcessing14RegexComponent0C7BuilderWl
+- _$sS2SSKsWL
+- _$sS2SSKsWl
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_29GenerativeFunctionsFoundation10JSONSchemaOTt0g5Tf4g_n
+- _$sSDyq_SgxcisSi_s5UInt8VTg5
+- _$sSK17_StringProcessingSs11SubSequenceRtzrlE6starts4withSbqd___tAA14RegexComponentRd__lF
+- _$sSKsE6suffixy11SubSequenceQzSiFs15ContiguousArrayVys6UInt64VG_Tg5
+- _$sSS17_StringProcessing14RegexComponent0C7BuilderMc
+- _$sSSSKsMc
+- _$sSTsSL7ElementRpzrlE3maxABSgyFShySiG_Tg5
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyFSi_Tg5
+- _$sSa15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lF19TokenGenerationCore16EarleyRecognizerC4ItemV_s15EmptyCollectionVyAJGTg5Tf4ndn_nTm
+- _$sSa15reserveCapacityyySiFSS_Tg5
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tFSi_Tg5
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF15TokenGeneration6PromptV10AttachmentV_SayAIGTg5Tm
+- _$sSaySiGMaTm
+- _$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF19TokenGenerationCore17NonTerminalSymbolV_TB5Tm
+- _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyFs10ArraySliceVy19TokenGenerationCore14AutomationJSONV29SamplingStrategyConfigurationO10CodingKeys33_868917FC943B4116B462CF14C383974DLLOG_Tg5Tm
+- _$sSls11SubSequenceQzRszrlE8popFirst7ElementQzSgyFs10ArraySliceVy19TokenGenerationCore6SymbolO10CodingKeys33_FD89BF8DB07CC083F3A49A1D922ED557LLOG_Tg5
+- _$ss10_NativeSetV13copyAndResize8capacityySi_tF19TokenGenerationCore17NonTerminalSymbolV_Tg5Tm
+- _$ss10_NativeSetV4copyyyF19TokenGenerationCore17NonTerminalSymbolV_Tg5Tm
+- _$ss10_NativeSetV6resize8capacityySi_tF19TokenGenerationCore17NonTerminalSymbolV_Tg5Tm
+- _$ss10_NativeSetV9insertNew_2at8isUniqueyxn_s10_HashTableV6BucketVSbtF19TokenGenerationCore17NonTerminalSymbolV_TB5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore14TerminalSymbolO_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore16EarleyRecognizerC0S4RuleV_Tg5Tm
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF19TokenGenerationCore16EarleyRecognizerC5StateV_Tg5Tm
+- _$ss15ContiguousArrayV15replaceSubrange_4withySnySiG_qd__nt7ElementQyd__RszSlRd__lFSb_s15EmptyCollectionVySbGTg5Tf4ndn_nTm
+- _$ss15ContiguousArrayV15reserveCapacityyySiFs6UInt64V_Tg5
+- _$ss15ContiguousArrayV15reserveCapacityyySiFs6UInt64V_Tg5Tm
+- _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF10Foundation12CharacterSetV_SaySiGTg5
+- _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitF10Foundation12CharacterSetV_ShySiGTg5
+- _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitFSJ_SaySiGTg5
+- _$ss17_NativeDictionaryV12ensureUnique02isD08capacityS2b_SitFSJ_SaySiGTg5Tm
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSJ_SaySiGTg5Tm
+- _$ss17_NativeDictionaryV4copyyyFSJ_SaySiGTg5Tm
+- _$ss17_NativeDictionaryV7_delete2atys10_HashTableV6BucketV_tFSi_s5UInt8VTg5
+- _$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSJ_SaySiGTg5Tm
+- _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs011_ContiguousaB0Vys6UInt64VG_s15EmptyCollectionVyAMGTg5Tf4nndn_n
+- _$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0VySiG_s15EmptyCollectionVySiGTg5Tf4nndn_nTm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC19TokenGenerationCore16EarleyRecognizerC4ItemV_Tt1g5Tm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tt1g5Tm
+- _$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCs6UInt64V_Tt1g5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF15TokenGeneration6PromptV10AttachmentV_Tg5Tm
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSaySiG_Tg5Tm
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSJ_Tg5Tm
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlF19TokenGenerationCore9Regex2BNFO17NonTerminalSymbolV_Tg5Tm
+- _$ss32_copyCollectionToContiguousArrayys0dE0Vy7ElementQzGxSlRzlFs0E5SliceVy9PromptKit0H0V9ComponentVG_Tg5Tm
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF15TokenGeneration6PromptV10AttachmentV_Tg5Tm
+CStrings:
++ "Checking candidates: %ld with nextValidTerminals: %{sensitive}s"
++ "SINGLE_HEX_VALUE"
++ "__ArrayOfAtLeast"
++ "__CacheableString"
++ "__CacheableStringAndEscapes"
++ "__CharacterAndEscapes"
++ "__FractionBetween"
++ "__IntegerBetween"
++ "__IntegerGreaterThanOrEqualTo"
++ "__IntegerLessThanOrEqualTo"
++ "__NegativeInteger"
++ "__NonNegativeInteger"
++ "__NumberGreaterThanOrEqualTo"
++ "__NumberLessThanOrEqualTo"
++ "__OptionalAdditional"
++ "__OptionalFraction"
++ "__OptionalNegative"
++ "__ToolCallEnvelope"
+- "CacheableStringAndEscapes"
+- "CharacterAndEscapes"
+- "Failed to parse byte tokenID: %ld with hex string: %s"
+- "IntegerGreaterThanOrEqualTo"
+- "IntegerLessThanOrEqualTo"
+- "NonNegativeInteger"
+- "NumberGreaterThanOrEqualTo"
+- "NumberLessThanOrEqualTo"
+- "OptionalAdditional"
+- "OptionalFraction"
+- "OptionalNegative"
+- "ToolCallEnvelope"
+
+```

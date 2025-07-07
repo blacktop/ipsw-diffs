@@ -1,0 +1,1055 @@
+## MediaControls
+
+> `/System/Library/PrivateFrameworks/MediaControls.framework/MediaControls`
+
+```diff
+
+-4025.110.97.1.0
+-  __TEXT.__text: 0x1e7b30
++4025.100.103.0.0
++  __TEXT.__text: 0x1d6100
+   __TEXT.__auth_stubs: 0x37b0
+-  __TEXT.__objc_methlist: 0x165bc
+-  __TEXT.__cstring: 0x957d
++  __TEXT.__objc_methlist: 0x15254
++  __TEXT.__cstring: 0x946d
+   __TEXT.__ustring: 0x22
+-  __TEXT.__const: 0x9654
+-  __TEXT.__gcc_except_tab: 0x1908
+-  __TEXT.__oslogstring: 0x7c79
++  __TEXT.__const: 0x9124
++  __TEXT.__gcc_except_tab: 0x1850
++  __TEXT.__oslogstring: 0x7b59
+   __TEXT.__dlopen_cstrs: 0x64
+-  __TEXT.__constg_swiftt: 0x66ec
+-  __TEXT.__swift5_typeref: 0x2bee
+-  __TEXT.__swift5_reflstr: 0x3a43
+-  __TEXT.__swift5_fieldmd: 0x3ed4
+-  __TEXT.__swift5_types: 0x4ac
+-  __TEXT.__swift5_capture: 0xe10
++  __TEXT.__constg_swiftt: 0x65e0
++  __TEXT.__swift5_typeref: 0x2bae
++  __TEXT.__swift5_reflstr: 0x3a03
++  __TEXT.__swift5_fieldmd: 0x3e30
++  __TEXT.__swift5_types: 0x498
++  __TEXT.__swift5_capture: 0xe30
+   __TEXT.__swift5_protos: 0xa4
+-  __TEXT.__swift5_proto: 0x4ec
++  __TEXT.__swift5_proto: 0x4d8
+   __TEXT.__swift5_builtin: 0x294
+   __TEXT.__swift5_mpenum: 0x38
+   __TEXT.__swift_as_entry: 0x24
+   __TEXT.__swift_as_ret: 0x24
+   __TEXT.__swift5_assocty: 0x2b8
+-  __TEXT.__unwind_info: 0x7b68
+-  __TEXT.__eh_frame: 0x1320
+-  __TEXT.__objc_classname: 0x28a1
+-  __TEXT.__objc_methname: 0x31020
+-  __TEXT.__objc_methtype: 0x8417
+-  __TEXT.__objc_stubs: 0x1c4c0
++  __TEXT.__unwind_info: 0x7870
++  __TEXT.__eh_frame: 0x1348
++  __TEXT.__objc_classname: 0x2687
++  __TEXT.__objc_methname: 0x30231
++  __TEXT.__objc_methtype: 0x807c
++  __TEXT.__objc_stubs: 0x1bb80
+   __DATA_CONST.__got: 0x1670
+-  __DATA_CONST.__const: 0x3030
+-  __DATA_CONST.__objc_classlist: 0x9a8
++  __DATA_CONST.__const: 0x2f40
++  __DATA_CONST.__objc_classlist: 0x940
+   __DATA_CONST.__objc_catlist: 0x98
+-  __DATA_CONST.__objc_protolist: 0x470
++  __DATA_CONST.__objc_protolist: 0x460
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xa4b0
++  __DATA_CONST.__objc_selrefs: 0xa278
+   __DATA_CONST.__objc_protorefs: 0xb0
+-  __DATA_CONST.__objc_superrefs: 0x648
+-  __DATA_CONST.__objc_arraydata: 0x1c0
++  __DATA_CONST.__objc_superrefs: 0x5f0
++  __DATA_CONST.__objc_arraydata: 0x1b8
+   __AUTH_CONST.__auth_got: 0x1be8
+-  __AUTH_CONST.__const: 0x89b0
+-  __AUTH_CONST.__cfstring: 0x4fe0
+-  __AUTH_CONST.__objc_const: 0x462e8
+-  __AUTH_CONST.__objc_intobj: 0x2d0
+-  __AUTH_CONST.__objc_arrayobj: 0x138
+-  __AUTH_CONST.__objc_doubleobj: 0xf0
++  __AUTH_CONST.__const: 0x88a0
++  __AUTH_CONST.__cfstring: 0x4f80
++  __AUTH_CONST.__objc_const: 0x41f28
++  __AUTH_CONST.__objc_intobj: 0x2b8
++  __AUTH_CONST.__objc_arrayobj: 0x120
++  __AUTH_CONST.__objc_doubleobj: 0x90
+   __AUTH_CONST.__objc_dictobj: 0x140
+-  __AUTH.__objc_data: 0x66b8
+-  __AUTH.__data: 0xf60
+-  __DATA.__objc_ivar: 0x1a20
+-  __DATA.__data: 0x3ea0
+-  __DATA.__bss: 0x7800
++  __AUTH.__objc_data: 0x6220
++  __AUTH.__data: 0xf30
++  __DATA.__objc_ivar: 0x1864
++  __DATA.__data: 0x3da0
++  __DATA.__bss: 0x7600
+   __DATA.__common: 0x628
+-  __DATA_DIRTY.__objc_data: 0x3f60
+-  __DATA_DIRTY.__data: 0x28a8
+-  __DATA_DIRTY.__bss: 0x1888
++  __DATA_DIRTY.__objc_data: 0x3ee0
++  __DATA_DIRTY.__data: 0x2898
++  __DATA_DIRTY.__bss: 0x1808
+   __DATA_DIRTY.__common: 0x850
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 250A8E47-E1B0-35DC-81BA-4B3815E10773
+-  Functions: 13290
+-  Symbols:   26067
+-  CStrings:  11460
++  UUID: 33E6ADC9-1E3F-3508-BBC4-CD37819F5EC9
++  Functions: 12824
++  Symbols:   24818
++  CStrings:  11272
+ 
+Symbols:
++ __DATA_MRUMediaControlsModuleViewController
++ __IVARS_MRUMediaControlsModuleViewController
++ __METACLASS_DATA_MRUMediaControlsModuleViewController
++ __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleViewController(MediaControls)
++ __OBJC_CLASS_PROTOCOLS_$_MRUMediaControlsModuleViewController(MediaControls)
++ __PROPERTIES_MRUMediaControlsModuleViewController
++ __PROTOCOLS__TtC13MediaControls34SessionHardwareButtonEventConsumer.3
+- +[MRUFeatureFlagProvider isSolariumEnabled]
+- +[MRUMediaModuleBackdropView layerClass]
+- -[MRUMediaControlsModuleBackgroundView .cxx_destruct]
+- -[MRUMediaControlsModuleBackgroundView backdropImage]
+- -[MRUMediaControlsModuleBackgroundView clippingView]
+- -[MRUMediaControlsModuleBackgroundView contentEdgeInsets]
+- -[MRUMediaControlsModuleBackgroundView contentScale]
+- -[MRUMediaControlsModuleBackgroundView cornerRadius]
+- -[MRUMediaControlsModuleBackgroundView gradientView]
+- -[MRUMediaControlsModuleBackgroundView initWithFrame:]
+- -[MRUMediaControlsModuleBackgroundView layoutSubviews]
+- -[MRUMediaControlsModuleBackgroundView layout]
+- -[MRUMediaControlsModuleBackgroundView materialView]
+- -[MRUMediaControlsModuleBackgroundView prepareForReuse]
+- -[MRUMediaControlsModuleBackgroundView setBackdropImage:]
+- -[MRUMediaControlsModuleBackgroundView setClippingView:]
+- -[MRUMediaControlsModuleBackgroundView setContentEdgeInsets:]
+- -[MRUMediaControlsModuleBackgroundView setContentScale:]
+- -[MRUMediaControlsModuleBackgroundView setCornerRadius:]
+- -[MRUMediaControlsModuleBackgroundView setGradientView:]
+- -[MRUMediaControlsModuleBackgroundView setLayout:]
+- -[MRUMediaControlsModuleBackgroundView setMaterialView:]
+- -[MRUMediaControlsModuleBackgroundView setShowMaterialOnly:]
+- -[MRUMediaControlsModuleBackgroundView showMaterialOnly]
+- -[MRUMediaControlsModuleBackgroundView stylingProvider]
+- -[MRUMediaControlsModuleBackgroundView updateVisibilty]
+- -[MRUMediaControlsModuleBadge .cxx_destruct]
+- -[MRUMediaControlsModuleBadge count]
+- -[MRUMediaControlsModuleBadge initWithFrame:]
+- -[MRUMediaControlsModuleBadge label]
+- -[MRUMediaControlsModuleBadge layoutSubviews]
+- -[MRUMediaControlsModuleBadge setCount:]
+- -[MRUMediaControlsModuleBadge setLabel:]
+- -[MRUMediaControlsModuleBadge setStylingProvider:]
+- -[MRUMediaControlsModuleBadge sizeThatFits:]
+- -[MRUMediaControlsModuleBadge stylingProvider]
+- -[MRUMediaControlsModuleBadge updateContentSizeCategory]
+- -[MRUMediaControlsModuleBadge updateVisualStyling]
+- -[MRUMediaControlsModuleCollectionViewCell .cxx_destruct]
+- -[MRUMediaControlsModuleCollectionViewCell artworkView:didChangeArtworkImage:]
+- -[MRUMediaControlsModuleCollectionViewCell cellContentView]
+- -[MRUMediaControlsModuleCollectionViewCell contentEdgeInsets]
+- -[MRUMediaControlsModuleCollectionViewCell contentMetrics]
+- -[MRUMediaControlsModuleCollectionViewCell contentScale]
+- -[MRUMediaControlsModuleCollectionViewCell cornerRadius]
+- -[MRUMediaControlsModuleCollectionViewCell highlightView]
+- -[MRUMediaControlsModuleCollectionViewCell initWithFrame:]
+- -[MRUMediaControlsModuleCollectionViewCell layoutSubviews]
+- -[MRUMediaControlsModuleCollectionViewCell materialView]
+- -[MRUMediaControlsModuleCollectionViewCell pointerInteraction:regionForRequest:defaultRegion:]
+- -[MRUMediaControlsModuleCollectionViewCell pointerInteraction:styleForRegion:]
+- -[MRUMediaControlsModuleCollectionViewCell prepareForReuse]
+- -[MRUMediaControlsModuleCollectionViewCell setContentEdgeInsets:]
+- -[MRUMediaControlsModuleCollectionViewCell setContentMetrics:]
+- -[MRUMediaControlsModuleCollectionViewCell setContentScale:]
+- -[MRUMediaControlsModuleCollectionViewCell setCornerRadius:]
+- -[MRUMediaControlsModuleCollectionViewCell setHighlightView:]
+- -[MRUMediaControlsModuleCollectionViewCell setHighlighted:]
+- -[MRUMediaControlsModuleCollectionViewCell setMaterialView:]
+- -[MRUMediaControlsModuleCollectionViewCell setTransformView:]
+- -[MRUMediaControlsModuleCollectionViewCell setTransitionTransform:isVisible:]
+- -[MRUMediaControlsModuleCollectionViewCell sizeThatFits:]
+- -[MRUMediaControlsModuleCollectionViewCell transformView]
+- -[MRUMediaControlsModuleCollectionViewCell updateVisibility]
+- -[MRUMediaControlsModuleContainerView .cxx_destruct]
+- -[MRUMediaControlsModuleContainerView contentMetrics]
+- -[MRUMediaControlsModuleContainerView initWithFrame:]
+- -[MRUMediaControlsModuleContainerView layoutSubviews]
+- -[MRUMediaControlsModuleContainerView layout]
+- -[MRUMediaControlsModuleContainerView nowPlayingView]
+- -[MRUMediaControlsModuleContainerView routingView]
+- -[MRUMediaControlsModuleContainerView setContentMetrics:]
+- -[MRUMediaControlsModuleContainerView setLayout:]
+- -[MRUMediaControlsModuleContainerView setNowPlayingView:]
+- -[MRUMediaControlsModuleContainerView setStylingProvider:]
+- -[MRUMediaControlsModuleContainerView stylingProvider]
+- -[MRUMediaControlsModuleMoreButton .cxx_destruct]
+- -[MRUMediaControlsModuleMoreButton backgroundView]
+- -[MRUMediaControlsModuleMoreButton badge]
+- -[MRUMediaControlsModuleMoreButton contentScale]
+- -[MRUMediaControlsModuleMoreButton count]
+- -[MRUMediaControlsModuleMoreButton imageView]
+- -[MRUMediaControlsModuleMoreButton initWithFrame:]
+- -[MRUMediaControlsModuleMoreButton layoutSubviews]
+- -[MRUMediaControlsModuleMoreButton layout]
+- -[MRUMediaControlsModuleMoreButton pointerInteraction:regionForRequest:defaultRegion:]
+- -[MRUMediaControlsModuleMoreButton pointerInteraction:styleForRegion:]
+- -[MRUMediaControlsModuleMoreButton setBackgroundView:]
+- -[MRUMediaControlsModuleMoreButton setBadge:]
+- -[MRUMediaControlsModuleMoreButton setContentScale:]
+- -[MRUMediaControlsModuleMoreButton setCount:]
+- -[MRUMediaControlsModuleMoreButton setImageView:]
+- -[MRUMediaControlsModuleMoreButton setLayout:]
+- -[MRUMediaControlsModuleMoreButton setStylingProvider:]
+- -[MRUMediaControlsModuleMoreButton setTitle:]
+- -[MRUMediaControlsModuleMoreButton setTitleLabel:]
+- -[MRUMediaControlsModuleMoreButton sizeThatFits:]
+- -[MRUMediaControlsModuleMoreButton stylingProvider]
+- -[MRUMediaControlsModuleMoreButton titleLabel]
+- -[MRUMediaControlsModuleMoreButton title]
+- -[MRUMediaControlsModuleMoreButton updateContentSizeCategory]
+- -[MRUMediaControlsModuleMoreButton updateVisualStyling]
+- -[MRUMediaControlsModuleNowPlayingView .cxx_destruct]
+- -[MRUMediaControlsModuleNowPlayingView artworkView]
+- -[MRUMediaControlsModuleNowPlayingView backdropAlphaWithRatio:]
+- -[MRUMediaControlsModuleNowPlayingView backdropView]
+- -[MRUMediaControlsModuleNowPlayingView contentEdgeInsets]
+- -[MRUMediaControlsModuleNowPlayingView contentMetrics]
+- -[MRUMediaControlsModuleNowPlayingView contentScaleFactor]
+- -[MRUMediaControlsModuleNowPlayingView headerView]
+- -[MRUMediaControlsModuleNowPlayingView initWithFrame:]
+- -[MRUMediaControlsModuleNowPlayingView isOnScreen]
+- -[MRUMediaControlsModuleNowPlayingView layoutSubviews]
+- -[MRUMediaControlsModuleNowPlayingView layout]
+- -[MRUMediaControlsModuleNowPlayingView lowerRoutingButton]
+- -[MRUMediaControlsModuleNowPlayingView resizingAlphaWithRatio:]
+- -[MRUMediaControlsModuleNowPlayingView resizingRatioForForLayout:]
+- -[MRUMediaControlsModuleNowPlayingView resizingThresholdForLayout:]
+- -[MRUMediaControlsModuleNowPlayingView resizing]
+- -[MRUMediaControlsModuleNowPlayingView routingButtons]
+- -[MRUMediaControlsModuleNowPlayingView setBackdropView:]
+- -[MRUMediaControlsModuleNowPlayingView setContentEdgeInsets:]
+- -[MRUMediaControlsModuleNowPlayingView setContentMetrics:]
+- -[MRUMediaControlsModuleNowPlayingView setLayout:]
+- -[MRUMediaControlsModuleNowPlayingView setOnScreen:]
+- -[MRUMediaControlsModuleNowPlayingView setResizing:]
+- -[MRUMediaControlsModuleNowPlayingView setShowSuggestionsView:]
+- -[MRUMediaControlsModuleNowPlayingView setStylingProvider:]
+- -[MRUMediaControlsModuleNowPlayingView setSuggestionsView:]
+- -[MRUMediaControlsModuleNowPlayingView showSuggestionsView]
+- -[MRUMediaControlsModuleNowPlayingView sizeThatFits:]
+- -[MRUMediaControlsModuleNowPlayingView stylingProvider]
+- -[MRUMediaControlsModuleNowPlayingView suggestionsFrame]
+- -[MRUMediaControlsModuleNowPlayingView suggestionsView]
+- -[MRUMediaControlsModuleNowPlayingView timeControlsView]
+- -[MRUMediaControlsModuleNowPlayingView transportControlsView]
+- -[MRUMediaControlsModuleNowPlayingView updateLayout]
+- -[MRUMediaControlsModuleNowPlayingView updateOnScreen]
+- -[MRUMediaControlsModuleNowPlayingView updateVisibility]
+- -[MRUMediaControlsModuleNowPlayingView upperRoutingButton]
+- -[MRUMediaControlsModuleNowPlayingView volumeControlsView]
+- -[MRUMediaControlsModuleNowPlayingViewController .cxx_destruct]
+- -[MRUMediaControlsModuleNowPlayingViewController _canShowWhileLocked]
+- -[MRUMediaControlsModuleNowPlayingViewController _stateDumpObject]
+- -[MRUMediaControlsModuleNowPlayingViewController artworkView:didChangeArtworkImage:]
+- -[MRUMediaControlsModuleNowPlayingViewController artworkView]
+- -[MRUMediaControlsModuleNowPlayingViewController callMonitorDidUpdateOnCall:isOnCall:]
+- -[MRUMediaControlsModuleNowPlayingViewController contentEdgeInsets]
+- -[MRUMediaControlsModuleNowPlayingViewController controller]
+- -[MRUMediaControlsModuleNowPlayingViewController createHapticViewController]
+- -[MRUMediaControlsModuleNowPlayingViewController createSuggestionsViewController]
+- -[MRUMediaControlsModuleNowPlayingViewController createWaveformViewController]
+- -[MRUMediaControlsModuleNowPlayingViewController dealloc]
+- -[MRUMediaControlsModuleNowPlayingViewController delegate]
+- -[MRUMediaControlsModuleNowPlayingViewController description]
+- -[MRUMediaControlsModuleNowPlayingViewController didSelectArtworkView:]
+- -[MRUMediaControlsModuleNowPlayingViewController didSelectLabelView:]
+- -[MRUMediaControlsModuleNowPlayingViewController didSelectQuickControl:]
+- -[MRUMediaControlsModuleNowPlayingViewController didSelectRouteButton:]
+- -[MRUMediaControlsModuleNowPlayingViewController handleHapticEnabledStatusChangedNotification:]
+- -[MRUMediaControlsModuleNowPlayingViewController hapticViewController]
+- -[MRUMediaControlsModuleNowPlayingViewController hardwareVolumeControlAssertion]
+- -[MRUMediaControlsModuleNowPlayingViewController init]
+- -[MRUMediaControlsModuleNowPlayingViewController isOnScreen]
+- -[MRUMediaControlsModuleNowPlayingViewController launchNowPlayingApp]
+- -[MRUMediaControlsModuleNowPlayingViewController layout]
+- -[MRUMediaControlsModuleNowPlayingViewController loadView]
+- -[MRUMediaControlsModuleNowPlayingViewController mediaSuggestionsViewController:didSelectSuggestion:completion:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:didChangeQuickControlItem:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:endpointController:didChangeRoute:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:mediaSuggestionsController:didChangeMediaSuggestions:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:metadataController:didChangeArtwork:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:metadataController:didChangeBundleID:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:metadataController:didChangeNowPlayingInfo:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:metadataController:didChangeTimeControls:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:metadataController:didChangeTransportControls:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingController:tvRemoteController:didChangeShowTVRemote:]
+- -[MRUMediaControlsModuleNowPlayingViewController nowPlayingControllerShouldAutomaticallyUpdateResponse:]
+- -[MRUMediaControlsModuleNowPlayingViewController preview]
+- -[MRUMediaControlsModuleNowPlayingViewController registerHapticObserver]
+- -[MRUMediaControlsModuleNowPlayingViewController resizing]
+- -[MRUMediaControlsModuleNowPlayingViewController setContentEdgeInsets:]
+- -[MRUMediaControlsModuleNowPlayingViewController setController:]
+- -[MRUMediaControlsModuleNowPlayingViewController setDelegate:]
+- -[MRUMediaControlsModuleNowPlayingViewController setHapticViewController:]
+- -[MRUMediaControlsModuleNowPlayingViewController setHardwareVolumeControlAssertion:]
+- -[MRUMediaControlsModuleNowPlayingViewController setLayout:]
+- -[MRUMediaControlsModuleNowPlayingViewController setOnScreen:]
+- -[MRUMediaControlsModuleNowPlayingViewController setPreview:]
+- -[MRUMediaControlsModuleNowPlayingViewController setResizing:]
+- -[MRUMediaControlsModuleNowPlayingViewController setStateHandle:]
+- -[MRUMediaControlsModuleNowPlayingViewController setStylingProvider:]
+- -[MRUMediaControlsModuleNowPlayingViewController setSuggestionsViewController:]
+- -[MRUMediaControlsModuleNowPlayingViewController setVolumeController:]
+- -[MRUMediaControlsModuleNowPlayingViewController setVolumeGroupCoordinator:]
+- -[MRUMediaControlsModuleNowPlayingViewController setWaveformController:]
+- -[MRUMediaControlsModuleNowPlayingViewController setWaveformViewController:]
+- -[MRUMediaControlsModuleNowPlayingViewController shouldExpandModuleOnTouch:]
+- -[MRUMediaControlsModuleNowPlayingViewController shouldRefreshUI]
+- -[MRUMediaControlsModuleNowPlayingViewController showRouteLabel]
+- -[MRUMediaControlsModuleNowPlayingViewController stateHandle]
+- -[MRUMediaControlsModuleNowPlayingViewController stylingProvider]
+- -[MRUMediaControlsModuleNowPlayingViewController suggestionsViewController]
+- -[MRUMediaControlsModuleNowPlayingViewController toggleRoutePicker]
+- -[MRUMediaControlsModuleNowPlayingViewController transportControlsView:didSelectRoutingButton:]
+- -[MRUMediaControlsModuleNowPlayingViewController transportControlsView:didSelectTVRemoteButton:]
+- -[MRUMediaControlsModuleNowPlayingViewController updateArtwork]
+- -[MRUMediaControlsModuleNowPlayingViewController updateEverything]
+- -[MRUMediaControlsModuleNowPlayingViewController updateLayout]
+- -[MRUMediaControlsModuleNowPlayingViewController updateNowPlayingInfo]
+- -[MRUMediaControlsModuleNowPlayingViewController updateQuickControl]
+- -[MRUMediaControlsModuleNowPlayingViewController updateRoute]
+- -[MRUMediaControlsModuleNowPlayingViewController updateRoutingButtonAnimated:]
+- -[MRUMediaControlsModuleNowPlayingViewController updateRoutingButton]
+- -[MRUMediaControlsModuleNowPlayingViewController updateSuggestions]
+- -[MRUMediaControlsModuleNowPlayingViewController updateTimeControls]
+- -[MRUMediaControlsModuleNowPlayingViewController updateTransportControls]
+- -[MRUMediaControlsModuleNowPlayingViewController updateVisibility]
+- -[MRUMediaControlsModuleNowPlayingViewController updateVolumeControls]
+- -[MRUMediaControlsModuleNowPlayingViewController updateWaveformVisibility]
+- -[MRUMediaControlsModuleNowPlayingViewController viewDidLoad]
+- -[MRUMediaControlsModuleNowPlayingViewController viewWillAppear:]
+- -[MRUMediaControlsModuleNowPlayingViewController viewWillDisappear:]
+- -[MRUMediaControlsModuleNowPlayingViewController volumeController]
+- -[MRUMediaControlsModuleNowPlayingViewController volumeControlsView:volumeCapabiltiesDidChange:]
+- -[MRUMediaControlsModuleNowPlayingViewController volumeGroupCoordinator]
+- -[MRUMediaControlsModuleNowPlayingViewController waveformController]
+- -[MRUMediaControlsModuleNowPlayingViewController waveformViewController]
+- -[MRUMediaControlsModuleRouteButton .cxx_destruct]
+- -[MRUMediaControlsModuleRouteButton contentScale]
+- -[MRUMediaControlsModuleRouteButton init]
+- -[MRUMediaControlsModuleRouteButton layoutSubviews]
+- -[MRUMediaControlsModuleRouteButton routeLabel]
+- -[MRUMediaControlsModuleRouteButton route]
+- -[MRUMediaControlsModuleRouteButton setContentScale:]
+- -[MRUMediaControlsModuleRouteButton setEnabled:]
+- -[MRUMediaControlsModuleRouteButton setRoute:]
+- -[MRUMediaControlsModuleRouteButton setRouteLabel:]
+- -[MRUMediaControlsModuleRouteButton setShowRouteLabel:]
+- -[MRUMediaControlsModuleRouteButton showRouteLabel]
+- -[MRUMediaControlsModuleRouteButton sizeThatFits:]
+- -[MRUMediaControlsModuleRouteButton updateContentSizeCategory]
+- -[MRUMediaControlsModuleRouteButton updateLabel]
+- -[MRUMediaControlsModuleRouteButton updateVisibility]
+- -[MRUMediaControlsModuleRouteButton updateVisualStyling]
+- -[MRUMediaControlsModuleRoutingView .cxx_destruct]
+- -[MRUMediaControlsModuleRoutingView backgroundView]
+- -[MRUMediaControlsModuleRoutingView contentSize]
+- -[MRUMediaControlsModuleRoutingView contentView]
+- -[MRUMediaControlsModuleRoutingView initWithFrame:]
+- -[MRUMediaControlsModuleRoutingView layoutSubviews]
+- -[MRUMediaControlsModuleRoutingView separatorView]
+- -[MRUMediaControlsModuleRoutingView setBackgroundView:]
+- -[MRUMediaControlsModuleRoutingView setContentSize:]
+- -[MRUMediaControlsModuleRoutingView setContentView:]
+- -[MRUMediaControlsModuleRoutingView setSeparatorView:]
+- -[MRUMediaControlsModuleRoutingView setStylingProvider:]
+- -[MRUMediaControlsModuleRoutingView stylingProvider]
+- -[MRUMediaControlsModuleRoutingView updateVisualStyling]
+- -[MRUMediaControlsModuleView .cxx_destruct]
+- -[MRUMediaControlsModuleView alertView]
+- -[MRUMediaControlsModuleView backgroundView]
+- -[MRUMediaControlsModuleView collectionViewLayout]
+- -[MRUMediaControlsModuleView collectionView]
+- -[MRUMediaControlsModuleView containerView]
+- -[MRUMediaControlsModuleView contentMetrics]
+- -[MRUMediaControlsModuleView contentScale]
+- -[MRUMediaControlsModuleView cornerRadius]
+- -[MRUMediaControlsModuleView initWithFrame:]
+- -[MRUMediaControlsModuleView isExpanded]
+- -[MRUMediaControlsModuleView isTransitioning]
+- -[MRUMediaControlsModuleView layoutSubviews]
+- -[MRUMediaControlsModuleView layout]
+- -[MRUMediaControlsModuleView moreButton]
+- -[MRUMediaControlsModuleView previewView]
+- -[MRUMediaControlsModuleView setAlertView:]
+- -[MRUMediaControlsModuleView setContentMetrics:]
+- -[MRUMediaControlsModuleView setContentScale:]
+- -[MRUMediaControlsModuleView setCornerRadius:]
+- -[MRUMediaControlsModuleView setExpanded:]
+- -[MRUMediaControlsModuleView setFrame:]
+- -[MRUMediaControlsModuleView setLayout:]
+- -[MRUMediaControlsModuleView setPreviewView:]
+- -[MRUMediaControlsModuleView setShowAlertView:]
+- -[MRUMediaControlsModuleView setShowMoreButton:]
+- -[MRUMediaControlsModuleView setShowPreviewView:]
+- -[MRUMediaControlsModuleView setStylingProvider:]
+- -[MRUMediaControlsModuleView setTransitionFrame:]
+- -[MRUMediaControlsModuleView setTransitioning:]
+- -[MRUMediaControlsModuleView showAlertView]
+- -[MRUMediaControlsModuleView showMoreButton]
+- -[MRUMediaControlsModuleView showPreviewView]
+- -[MRUMediaControlsModuleView stylingProvider]
+- -[MRUMediaControlsModuleView transitionFrame]
+- -[MRUMediaControlsModuleView updateCollectionViewContentInset]
+- -[MRUMediaControlsModuleView updateVisibility]
+- -[MRUMediaControlsModuleViewController .cxx_destruct]
+- -[MRUMediaControlsModuleViewController _canShowWhileLocked]
+- -[MRUMediaControlsModuleViewController activeIdentifier]
+- -[MRUMediaControlsModuleViewController alertViewController]
+- -[MRUMediaControlsModuleViewController artworkView:didChangeArtworkImage:]
+- -[MRUMediaControlsModuleViewController canDismissPresentedContent]
+- -[MRUMediaControlsModuleViewController collectionView:didEndDisplayingCell:forItemAtIndexPath:]
+- -[MRUMediaControlsModuleViewController collectionView:didSelectItemAtIndexPath:]
+- -[MRUMediaControlsModuleViewController collectionView:willDisplayCell:forItemAtIndexPath:]
+- -[MRUMediaControlsModuleViewController compactContinuousCornerRadius]
+- -[MRUMediaControlsModuleViewController containerViewsForPlatterTreatment]
+- -[MRUMediaControlsModuleViewController contentMetrics]
+- -[MRUMediaControlsModuleViewController contentRenderingMode]
+- -[MRUMediaControlsModuleViewController createNowPlayingViewController]
+- -[MRUMediaControlsModuleViewController createRoutingViewController]
+- -[MRUMediaControlsModuleViewController dataSource]
+- -[MRUMediaControlsModuleViewController dealloc]
+- -[MRUMediaControlsModuleViewController didSelectListState:]
+- -[MRUMediaControlsModuleViewController didSelectQuickControl:]
+- -[MRUMediaControlsModuleViewController discoveryMode]
+- -[MRUMediaControlsModuleViewController dismissModuleBlock]
+- -[MRUMediaControlsModuleViewController dismissPresentedContentAnimated:completion:]
+- -[MRUMediaControlsModuleViewController dismissWithCompletion:]
+- -[MRUMediaControlsModuleViewController dismiss]
+- -[MRUMediaControlsModuleViewController expandModuleBlock]
+- -[MRUMediaControlsModuleViewController expandedLayout]
+- -[MRUMediaControlsModuleViewController gestureRecognizer:shouldReceiveTouch:]
+- -[MRUMediaControlsModuleViewController gridSizeClass]
+- -[MRUMediaControlsModuleViewController implicitlyExpandedGridSizeClasses]
+- -[MRUMediaControlsModuleViewController initWithManager:]
+- -[MRUMediaControlsModuleViewController invalidateContainerViewsBlock]
+- -[MRUMediaControlsModuleViewController invalidateContainerViews]
+- -[MRUMediaControlsModuleViewController isExpanded]
+- -[MRUMediaControlsModuleViewController isOnScreen]
+- -[MRUMediaControlsModuleViewController isResizing]
+- -[MRUMediaControlsModuleViewController loadView]
+- -[MRUMediaControlsModuleViewController manager]
+- -[MRUMediaControlsModuleViewController nowPlayingController:didChangeQuickControlItem:]
+- -[MRUMediaControlsModuleViewController nowPlayingController:endpointController:didChangeRoute:]
+- -[MRUMediaControlsModuleViewController nowPlayingController:metadataController:didChangeArtwork:]
+- -[MRUMediaControlsModuleViewController nowPlayingController:metadataController:didChangeNowPlayingInfo:]
+- -[MRUMediaControlsModuleViewController nowPlayingControllerManager:didChangeActiveController:]
+- -[MRUMediaControlsModuleViewController nowPlayingControllerManager:didChangeControllers:]
+- -[MRUMediaControlsModuleViewController nowPlayingControllerShouldAutomaticallyUpdateResponse:]
+- -[MRUMediaControlsModuleViewController nowPlayingViewController:applyLayout:]
+- -[MRUMediaControlsModuleViewController nowPlayingViewController:cordinateDismissal:]
+- -[MRUMediaControlsModuleViewController nowPlayingViewController]
+- -[MRUMediaControlsModuleViewController preferredExpandedContentHeight]
+- -[MRUMediaControlsModuleViewController preferredExpandedContentWidth]
+- -[MRUMediaControlsModuleViewController providesOwnPlatter]
+- -[MRUMediaControlsModuleViewController routingViewController:didSelectRoutingViewItem:]
+- -[MRUMediaControlsModuleViewController routingViewController]
+- -[MRUMediaControlsModuleViewController setActiveController:]
+- -[MRUMediaControlsModuleViewController setAlertViewController:]
+- -[MRUMediaControlsModuleViewController setCompactContinuousCornerRadius:]
+- -[MRUMediaControlsModuleViewController setContentMetrics:]
+- -[MRUMediaControlsModuleViewController setContentRenderingMode:]
+- -[MRUMediaControlsModuleViewController setDataSource:]
+- -[MRUMediaControlsModuleViewController setDiscoveryMode:]
+- -[MRUMediaControlsModuleViewController setDismissModuleBlock:]
+- -[MRUMediaControlsModuleViewController setExpandModuleBlock:]
+- -[MRUMediaControlsModuleViewController setExpandedLayout:]
+- -[MRUMediaControlsModuleViewController setGridSizeClass:]
+- -[MRUMediaControlsModuleViewController setInvalidateContainerViewsBlock:]
+- -[MRUMediaControlsModuleViewController setIsExpanded:]
+- -[MRUMediaControlsModuleViewController setLayout:]
+- -[MRUMediaControlsModuleViewController setNowPlayingViewController:]
+- -[MRUMediaControlsModuleViewController setOnScreen:]
+- -[MRUMediaControlsModuleViewController setResizing:]
+- -[MRUMediaControlsModuleViewController setRoutingViewController:]
+- -[MRUMediaControlsModuleViewController shouldBeginTransitionToExpandedContentModule]
+- -[MRUMediaControlsModuleViewController shouldExpandModuleOnTouch:]
+- -[MRUMediaControlsModuleViewController shouldPerformHoverInteraction]
+- -[MRUMediaControlsModuleViewController shouldRefreshUI]
+- -[MRUMediaControlsModuleViewController showMoreButton]
+- -[MRUMediaControlsModuleViewController transitionToLayout:completion:]
+- -[MRUMediaControlsModuleViewController updateActiveViewController]
+- -[MRUMediaControlsModuleViewController updateCell:forIdentifier:]
+- -[MRUMediaControlsModuleViewController updateCellForIdentifier:]
+- -[MRUMediaControlsModuleViewController updateCornerRadius]
+- -[MRUMediaControlsModuleViewController updateDiscoveryMode]
+- -[MRUMediaControlsModuleViewController updateLayout]
+- -[MRUMediaControlsModuleViewController updateMoreButton]
+- -[MRUMediaControlsModuleViewController updateNowPlayingControllers]
+- -[MRUMediaControlsModuleViewController updateRoutingContentEdgeInsets]
+- -[MRUMediaControlsModuleViewController updateRoutingController]
+- -[MRUMediaControlsModuleViewController updateRoutingDataControllers]
+- -[MRUMediaControlsModuleViewController updateRoutingDiscoveryMode]
+- -[MRUMediaControlsModuleViewController updateVisibilityForActiveCell:inActiveCells:]
+- -[MRUMediaControlsModuleViewController updateVolumeController]
+- -[MRUMediaControlsModuleViewController viewDidLoad]
+- -[MRUMediaControlsModuleViewController viewWillAppear:]
+- -[MRUMediaControlsModuleViewController viewWillDisappear:]
+- -[MRUMediaControlsModuleViewController viewWillLayoutSubviews]
+- -[MRUMediaControlsModuleViewController viewWillTransitionToSize:withTransitionCoordinator:]
+- -[MRUMediaControlsModuleViewController willTransitionToExpandedContentMode:]
+- -[MRUMediaModuleProvider nowPlayingControllerManager]
+- -[MRUMediaModuleProvider setNowPlayingControllerManager:]
+- GCC_except_table38
+- _CCUICompactModuleContinuousCornerRadiusForGridSizeClass
+- _CCUIFeatureEnabled
+- _MRUMediaControlsModuleGridSizeClassForLayout
+- _MRUMediaControlsModuleLayoutForGridSizeClass
+- _MRUMediaModuleArtworkForLayout
+- _MRUMediaModuleContentInsetsForLayout
+- _OBJC_CLASS_$_MRUMediaControlsModuleBackgroundView
+- _OBJC_CLASS_$_MRUMediaControlsModuleBadge
+- _OBJC_CLASS_$_MRUMediaControlsModuleCollectionViewCell
+- _OBJC_CLASS_$_MRUMediaControlsModuleContainerView
+- _OBJC_CLASS_$_MRUMediaControlsModuleMoreButton
+- _OBJC_CLASS_$_MRUMediaControlsModuleNowPlayingView
+- _OBJC_CLASS_$_MRUMediaControlsModuleNowPlayingViewController
+- _OBJC_CLASS_$_MRUMediaControlsModuleRouteButton
+- _OBJC_CLASS_$_MRUMediaControlsModuleRoutingView
+- _OBJC_CLASS_$_MRUMediaControlsModuleView
+- _OBJC_CLASS_$_MRUMediaModuleBackdropView
+- _OBJC_CLASS_$_MRUNewMediaControlsModuleViewController
+- _OBJC_CLASS_$__TtC13MediaControls21SessionBackgroundView
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._clippingView
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._contentEdgeInsets
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._contentScale
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._cornerRadius
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._gradientView
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._materialView
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._showMaterialOnly
+- _OBJC_IVAR_$_MRUMediaControlsModuleBackgroundView._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleBadge._count
+- _OBJC_IVAR_$_MRUMediaControlsModuleBadge._label
+- _OBJC_IVAR_$_MRUMediaControlsModuleBadge._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._cellContentView
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._contentEdgeInsets
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._contentMetrics
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._contentScale
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._cornerRadius
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._highlightView
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._materialView
+- _OBJC_IVAR_$_MRUMediaControlsModuleCollectionViewCell._transformView
+- _OBJC_IVAR_$_MRUMediaControlsModuleContainerView._contentMetrics
+- _OBJC_IVAR_$_MRUMediaControlsModuleContainerView._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleContainerView._nowPlayingView
+- _OBJC_IVAR_$_MRUMediaControlsModuleContainerView._routingView
+- _OBJC_IVAR_$_MRUMediaControlsModuleContainerView._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._backgroundView
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._badge
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._contentScale
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._imageView
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._title
+- _OBJC_IVAR_$_MRUMediaControlsModuleMoreButton._titleLabel
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._artworkView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._backdropView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._contentEdgeInsets
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._contentMetrics
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._headerView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._lowerRoutingButton
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._onScreen
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._resizing
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._routingButtons
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._showSuggestionsView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._suggestionsView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._timeControlsView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._transportControlsView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._upperRoutingButton
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingView._volumeControlsView
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._contentEdgeInsets
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._controller
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._delegate
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._hapticViewController
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._hardwareVolumeControlAssertion
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._onScreen
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._preview
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._resizing
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._stateHandle
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._suggestionsViewController
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._volumeController
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._volumeGroupCoordinator
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._waveformController
+- _OBJC_IVAR_$_MRUMediaControlsModuleNowPlayingViewController._waveformViewController
+- _OBJC_IVAR_$_MRUMediaControlsModuleRouteButton._contentScale
+- _OBJC_IVAR_$_MRUMediaControlsModuleRouteButton._route
+- _OBJC_IVAR_$_MRUMediaControlsModuleRouteButton._routeLabel
+- _OBJC_IVAR_$_MRUMediaControlsModuleRouteButton._showRouteLabel
+- _OBJC_IVAR_$_MRUMediaControlsModuleRoutingView._backgroundView
+- _OBJC_IVAR_$_MRUMediaControlsModuleRoutingView._contentSize
+- _OBJC_IVAR_$_MRUMediaControlsModuleRoutingView._contentView
+- _OBJC_IVAR_$_MRUMediaControlsModuleRoutingView._separatorView
+- _OBJC_IVAR_$_MRUMediaControlsModuleRoutingView._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._alertView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._backgroundView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._collectionView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._collectionViewLayout
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._containerView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._contentMetrics
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._contentScale
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._cornerRadius
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._expanded
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._layout
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._moreButton
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._previewView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._showAlertView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._showMoreButton
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._showPreviewView
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._stylingProvider
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._transitionFrame
+- _OBJC_IVAR_$_MRUMediaControlsModuleView._transitioning
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._alertViewController
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._compactContinuousCornerRadius
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._contentMetrics
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._contentRenderingMode
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._dataSource
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._discoveryMode
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._dismissModuleBlock
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._expandModuleBlock
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._expandedLayout
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._gridSizeClass
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._invalidateContainerViewsBlock
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._isExpanded
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._manager
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._nowPlayingViewController
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._onScreen
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._resizing
+- _OBJC_IVAR_$_MRUMediaControlsModuleViewController._routingViewController
+- _OBJC_IVAR_$_MRUMediaModuleProvider._nowPlayingControllerManager
+- _OBJC_METACLASS_$_MRUMediaControlsModuleBackgroundView
+- _OBJC_METACLASS_$_MRUMediaControlsModuleBadge
+- _OBJC_METACLASS_$_MRUMediaControlsModuleCollectionViewCell
+- _OBJC_METACLASS_$_MRUMediaControlsModuleContainerView
+- _OBJC_METACLASS_$_MRUMediaControlsModuleMoreButton
+- _OBJC_METACLASS_$_MRUMediaControlsModuleNowPlayingView
+- _OBJC_METACLASS_$_MRUMediaControlsModuleNowPlayingViewController
+- _OBJC_METACLASS_$_MRUMediaControlsModuleRouteButton
+- _OBJC_METACLASS_$_MRUMediaControlsModuleRoutingView
+- _OBJC_METACLASS_$_MRUMediaControlsModuleView
+- _OBJC_METACLASS_$_MRUMediaModuleBackdropView
+- _OBJC_METACLASS_$_MRUNewMediaControlsModuleViewController
+- _OBJC_METACLASS_$__TtC13MediaControls21SessionBackgroundView
+- __DATA_MRUNewMediaControlsModuleViewController
+- __DATA__TtC13MediaControls21SessionBackgroundView
+- __INSTANCE_METHODS__TtC13MediaControls21SessionBackgroundView
+- __IVARS_MRUNewMediaControlsModuleViewController
+- __IVARS__TtC13MediaControls21SessionBackgroundView
+- __METACLASS_DATA_MRUNewMediaControlsModuleViewController
+- __METACLASS_DATA__TtC13MediaControls21SessionBackgroundView
+- __OBJC_$_CLASS_METHODS_MRUMediaModuleBackdropView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleBackgroundView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleBadge
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleContainerView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleMoreButton
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleNowPlayingView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleRouteButton
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleRoutingView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleView
+- __OBJC_$_INSTANCE_METHODS_MRUMediaControlsModuleViewController
+- __OBJC_$_INSTANCE_METHODS_MRUNewMediaControlsModuleViewController(MediaControls)
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleBackgroundView
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleBadge
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleContainerView
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleMoreButton
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleNowPlayingView
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleRouteButton
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleRoutingView
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleView
+- __OBJC_$_INSTANCE_VARIABLES_MRUMediaControlsModuleViewController
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleBackgroundView
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleBadge
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleContainerView
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleMoreButton
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleNowPlayingView
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleRouteButton
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleRoutingView
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleView
+- __OBJC_$_PROP_LIST_MRUMediaControlsModuleViewController
+- __OBJC_$_PROP_LIST_MRUNowPlayingControllerManagerObserver
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MRUMediaControlsModuleNowPlayingViewControllerDelegate
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_MRUNowPlayingControllerManagerObserver
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MRUMediaControlsModuleNowPlayingViewControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_MRUNowPlayingControllerManagerObserver
+- __OBJC_$_PROTOCOL_REFS_MRUMediaControlsModuleNowPlayingViewControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_MRUNowPlayingControllerManagerObserver
+- __OBJC_CLASS_PROTOCOLS_$_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_CLASS_PROTOCOLS_$_MRUMediaControlsModuleMoreButton
+- __OBJC_CLASS_PROTOCOLS_$_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_CLASS_PROTOCOLS_$_MRUMediaControlsModuleViewController
+- __OBJC_CLASS_PROTOCOLS_$_MRUNewMediaControlsModuleViewController(MediaControls)
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleBackgroundView
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleBadge
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleContainerView
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleMoreButton
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleNowPlayingView
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleRouteButton
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleRoutingView
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleView
+- __OBJC_CLASS_RO_$_MRUMediaControlsModuleViewController
+- __OBJC_CLASS_RO_$_MRUMediaModuleBackdropView
+- __OBJC_LABEL_PROTOCOL_$_MRUMediaControlsModuleNowPlayingViewControllerDelegate
+- __OBJC_LABEL_PROTOCOL_$_MRUNowPlayingControllerManagerObserver
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleBackgroundView
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleBadge
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleCollectionViewCell
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleContainerView
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleMoreButton
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleNowPlayingView
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleNowPlayingViewController
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleRouteButton
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleRoutingView
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleView
+- __OBJC_METACLASS_RO_$_MRUMediaControlsModuleViewController
+- __OBJC_METACLASS_RO_$_MRUMediaModuleBackdropView
+- __OBJC_PROTOCOL_$_MRUMediaControlsModuleNowPlayingViewControllerDelegate
+- __OBJC_PROTOCOL_$_MRUNowPlayingControllerManagerObserver
+- __PROPERTIES_MRUNewMediaControlsModuleViewController
+- __PROTOCOLS__TtC13MediaControls34SessionHardwareButtonEventConsumer.2
+- ___112-[MRUMediaControlsModuleNowPlayingViewController mediaSuggestionsViewController:didSelectSuggestion:completion:]_block_invoke
+- ___51-[MRUMediaControlsModuleViewController viewDidLoad]_block_invoke
+- ___51-[MRUMediaControlsModuleViewController viewDidLoad]_block_invoke_2
+- ___52-[MRUMediaControlsModuleNowPlayingView setResizing:]_block_invoke
+- ___52-[MRUMediaControlsModuleRoutingView setContentSize:]_block_invoke
+- ___52-[MRUMediaControlsModuleRoutingView setContentView:]_block_invoke
+- ___52-[MRUMediaControlsModuleViewController updateLayout]_block_invoke
+- ___52-[MRUMediaControlsModuleViewController updateLayout]_block_invoke_2
+- ___54-[MRUMediaControlsModuleNowPlayingViewController init]_block_invoke
+- ___54-[MRUMediaControlsModuleNowPlayingViewController init]_block_invoke_2
+- ___56-[MRUMediaControlsModuleNowPlayingView updateVisibility]_block_invoke
+- ___56-[MRUMediaControlsModuleViewController updateMoreButton]_block_invoke
+- ___59-[MRUMediaControlsModuleNowPlayingView setSuggestionsView:]_block_invoke
+- ___63-[MRUMediaControlsModuleViewController setAlertViewController:]_block_invoke
+- ___63-[MRUMediaControlsModuleViewController setAlertViewController:]_block_invoke_2
+- ___63-[MRUMediaControlsModuleViewController updateRoutingController]_block_invoke
+- ___63-[MRUMediaControlsModuleViewController updateRoutingController]_block_invoke_2
+- ___67-[MRUMediaControlsModuleNowPlayingViewController updateSuggestions]_block_invoke
+- ___67-[MRUMediaControlsModuleNowPlayingViewController updateSuggestions]_block_invoke_2
+- ___67-[MRUMediaControlsModuleViewController updateNowPlayingControllers]_block_invoke
+- ___67-[MRUMediaControlsModuleViewController updateNowPlayingControllers]_block_invoke_2
+- ___69-[MRUMediaControlsModuleNowPlayingViewController launchNowPlayingApp]_block_invoke
+- ___70-[MRUMediaControlsModuleViewController transitionToLayout:completion:]_block_invoke
+- ___70-[MRUMediaControlsModuleViewController transitionToLayout:completion:]_block_invoke_2
+- ___70-[MRUMediaControlsModuleViewController transitionToLayout:completion:]_block_invoke_3
+- ___70-[MRUMediaControlsModuleViewController transitionToLayout:completion:]_block_invoke_4
+- ___77-[MRUMediaControlsModuleViewController nowPlayingViewController:applyLayout:]_block_invoke
+- ___80-[MRUMediaControlsModuleViewController collectionView:didSelectItemAtIndexPath:]_block_invoke
+- ___80-[MRUMediaControlsModuleViewController collectionView:didSelectItemAtIndexPath:]_block_invoke_2
+- ___83-[MRUMediaControlsModuleViewController dismissPresentedContentAnimated:completion:]_block_invoke
+- ___87-[MRUMediaControlsModuleViewController routingViewController:didSelectRoutingViewItem:]_block_invoke
+- ___87-[MRUMediaControlsModuleViewController routingViewController:didSelectRoutingViewItem:]_block_invoke_2
+- ___91-[MRUMediaControlsModuleViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+- ___91-[MRUMediaControlsModuleViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke_2
+- ___96-[MRUMediaControlsModuleNowPlayingViewController transportControlsView:didSelectTVRemoteButton:]_block_invoke
+- ___block_descriptor_40_e8_32s_e33_16?0"MRUNowPlayingController"8ls32l8
+- ___block_descriptor_40_e8_32w_e59_v32?0"UICollectionViewCell"8"NSIndexPath"16"NSString"24lw32l8
+- ___block_descriptor_41_e8_32w_e8_v12?0B8lw32l8
+- ___block_descriptor_56_e8_32s40w_e8_v12?0B8lw40l8s32l8
+- _associated conformance 13MediaControls21SessionBackgroundViewC5StyleOSHAASQ
+- _associated conformance 13MediaControls8FeaturesO7SwiftUIOSHAASQ
+- _objc_msgSend$activeController
+- _objc_msgSend$activeIdentifier
+- _objc_msgSend$alertViewController
+- _objc_msgSend$applySnapshot:animatingDifferences:completion:
+- _objc_msgSend$backdropImage
+- _objc_msgSend$backdropView
+- _objc_msgSend$cellForItemAtIndexPath:
+- _objc_msgSend$collectionViewLayout
+- _objc_msgSend$contentMetrics
+- _objc_msgSend$contentScaleFactor
+- _objc_msgSend$controlOtherSpeakersMultipleLines
+- _objc_msgSend$controllers
+- _objc_msgSend$convertRect:toView:
+- _objc_msgSend$createNowPlayingViewController
+- _objc_msgSend$dismissWithCompletion:
+- _objc_msgSend$gridSizeClass
+- _objc_msgSend$indexPathForItemAtPoint:
+- _objc_msgSend$initWithManager:
+- _objc_msgSend$invalidateContainerViews
+- _objc_msgSend$invalidateLayout
+- _objc_msgSend$isCayenneControlCenterEnabled
+- _objc_msgSend$isSolariumEnabled
+- _objc_msgSend$isTransitioning
+- _objc_msgSend$localizedStringFromNumber:numberStyle:
+- _objc_msgSend$manager
+- _objc_msgSend$materialView
+- _objc_msgSend$moreButton
+- _objc_msgSend$mru_controlCenterMoreButtonBadgeFont
+- _objc_msgSend$mru_controlCenterMoreButtonTitleFontWithScale:
+- _objc_msgSend$nowPlayingControllerManager
+- _objc_msgSend$nowPlayingViewController:cordinateDismissal:
+- _objc_msgSend$resizingAlphaWithRatio:
+- _objc_msgSend$resizingRatioForForLayout:
+- _objc_msgSend$resizingThresholdForLayout:
+- _objc_msgSend$routingButtons
+- _objc_msgSend$routingView
+- _objc_msgSend$scrollToItemAtIndexPath:atScrollPosition:animated:
+- _objc_msgSend$setActiveController:
+- _objc_msgSend$setAllowsGroupBlending:
+- _objc_msgSend$setBackdropImage:
+- _objc_msgSend$setController:
+- _objc_msgSend$setCount:
+- _objc_msgSend$setExpandedLayout:
+- _objc_msgSend$setItemSize:
+- _objc_msgSend$setMinimumInteritemSpacing:
+- _objc_msgSend$setNowPlayingView:
+- _objc_msgSend$setPreview:
+- _objc_msgSend$setResizing:
+- _objc_msgSend$setRoutingController:
+- _objc_msgSend$setScaleOnHighlight:
+- _objc_msgSend$setShowDevice:
+- _objc_msgSend$setShowMaterialOnly:
+- _objc_msgSend$setShowMoreButton:
+- _objc_msgSend$setShowPreviewView:
+- _objc_msgSend$setShowRouteLabel:
+- _objc_msgSend$setTransitionFrame:
+- _objc_msgSend$setTransitionTransform:isVisible:
+- _objc_msgSend$setUsesPredictedOutputDevice:
+- _objc_msgSend$shouldExpandModuleOnTouch:
+- _objc_msgSend$shouldRefreshUI
+- _objc_msgSend$showMoreButton
+- _objc_msgSend$symbolScaleFactor
+- _objc_msgSend$toggleRoutePicker
+- _objc_msgSend$transitionTo:
+- _objc_msgSend$transitionToLayout:completion:
+- _objc_msgSend$updateActiveViewController
+- _objc_msgSend$updateCollectionViewContentInset
+- _objc_msgSend$updateCornerRadius
+- _objc_msgSend$updateLabel
+- _objc_msgSend$updateMoreButton
+- _objc_msgSend$updateRoutingController
+- _objc_msgSend$updateRoutingDataControllers
+- _objc_msgSend$updateVisibilityForActiveCell:inActiveCells:
+- _objc_msgSend$updateVolumeController
+- _symbolic Si______Sg_____Sgt 12MediaControl15RoutingControlsV014AbsoluteVolumeB0V AC08RelativefB0V
+- _symbolic _____ 13MediaControls18SessionColorMatrixV4itemV5labelV
+- _symbolic _____ 13MediaControls18SessionColorMatrixV6headerV
+- _symbolic _____ 13MediaControls21SessionBackgroundViewC
+- _symbolic _____ 13MediaControls21SessionBackgroundViewC5StyleO
+- _symbolic _____ 13MediaControls8FeaturesO7SwiftUIO
+CStrings:
++ "systemBackgroundColor"
+- "%4"
+- "%{public}@ predicted output device symbol: %{public}@ | routes: %{public}@"
+- "%{public}@ removing hardware assertion: on screen: %{BOOL}u | call: %{BOOL}u | route: %{public}@"
+- "%{public}@ taking hardware assertion: on screen: %{BOOL}u | call: %{BOOL}u | control: %{BOOL}u | route: %{public}@"
+- "@\"<MRUMediaControlsModuleNowPlayingViewControllerDelegate>\""
+- "@\"MRUCrossfadeImageView\""
+- "@\"MRUMediaControlsModuleBackgroundView\""
+- "@\"MRUMediaControlsModuleBadge\""
+- "@\"MRUMediaControlsModuleContainerView\""
+- "@\"MRUMediaControlsModuleMoreButton\""
+- "@\"MRUMediaControlsModuleNowPlayingView\""
+- "@\"MRUMediaControlsModuleNowPlayingViewController\""
+- "@\"MRUMediaControlsModuleRouteButton\""
+- "@\"MRUMediaControlsModuleRoutingView\""
+- "@\"MRUMediaModuleBackdropView\""
+- "@\"MRUMediaSuggestionsView\""
+- "@\"MRUNowPlayingControllerManager\""
+- "@\"UICollectionViewFlowLayout\""
+- "@16@?0@\"MRUNowPlayingController\"8"
+- "MRUMediaControlsModuleBackgroundView"
+- "MRUMediaControlsModuleBadge"
+- "MRUMediaControlsModuleCollectionViewCell"
+- "MRUMediaControlsModuleContainerView"
+- "MRUMediaControlsModuleMoreButton"
+- "MRUMediaControlsModuleNowPlayingView"
+- "MRUMediaControlsModuleNowPlayingViewController"
+- "MRUMediaControlsModuleNowPlayingViewControllerDelegate"
+- "MRUMediaControlsModuleRouteButton"
+- "MRUMediaControlsModuleRoutingView"
+- "MRUMediaControlsModuleView"
+- "MRUMediaModuleBackdropView"
+- "MRUNewMediaControlsModuleViewController"
+- "MRUNowPlayingControllerManagerObserver"
+- "MediaControls.SessionBackgroundView"
+- "MediaControls/SessionBackgroundView.swift"
+- "Solarium"
+- "SwiftUI"
+- "T@\"<MRUMediaControlsModuleNowPlayingViewControllerDelegate>\",W,N,V_delegate"
+- "T@\"CCUICAPackageView\",&,N,V_previewView"
+- "T@\"CCUIModuleContentMetrics\",?,&,N,V_contentMetrics"
+- "T@\"MRUCrossfadeImageView\",&,N,V_gradientView"
+- "T@\"MRUMediaControlsModuleBackgroundView\",&,N,V_materialView"
+- "T@\"MRUMediaControlsModuleBackgroundView\",R,N,V_backgroundView"
+- "T@\"MRUMediaControlsModuleBadge\",&,N,V_badge"
+- "T@\"MRUMediaControlsModuleContainerView\",R,N,V_containerView"
+- "T@\"MRUMediaControlsModuleMoreButton\",R,N,V_moreButton"
+- "T@\"MRUMediaControlsModuleNowPlayingView\",&,D,N"
+- "T@\"MRUMediaControlsModuleNowPlayingView\",&,N,V_nowPlayingView"
+- "T@\"MRUMediaControlsModuleNowPlayingViewController\",&,N,V_nowPlayingViewController"
+- "T@\"MRUMediaControlsModuleRouteButton\",R,N,V_lowerRoutingButton"
+- "T@\"MRUMediaControlsModuleRouteButton\",R,N,V_upperRoutingButton"
+- "T@\"MRUMediaControlsModuleRoutingView\",R,N,V_routingView"
+- "T@\"MRUMediaControlsModuleView\",&,D,N"
+- "T@\"MRUMediaModuleBackdropView\",&,N,V_backdropView"
+- "T@\"MRUMediaSuggestionsView\",&,N,V_suggestionsView"
+- "T@\"MRUNowPlayingControllerManager\",&,N,V_nowPlayingControllerManager"
+- "T@\"MRUNowPlayingControllerManager\",R,N,V_manager"
+- "T@\"NSArray\",R,N,V_routingButtons"
+- "T@\"UICollectionView\",R,N,V_collectionView"
+- "T@\"UICollectionViewFlowLayout\",R,N,V_collectionViewLayout"
+- "T@\"UILabel\",&,N,V_label"
+- "T@\"UIView\",&,N,V_clippingView"
+- "T@\"UIView\",&,N,V_highlightView"
+- "T@\"UIView\",&,N,V_transformView"
+- "T@?,C,N,V_dismissModuleBlock"
+- "T@?,C,N,V_invalidateContainerViewsBlock"
+- "TB,?,N,GisResizing,V_resizing"
+- "TB,N,V_isExpanded"
+- "TB,N,V_preview"
+- "TB,N,V_resizing"
+- "TB,N,V_showMaterialOnly"
+- "TB,N,V_showMoreButton"
+- "TB,N,V_showPreviewView"
+- "TB,N,V_showRouteLabel"
+- "TQ,N"
+- "TQ,N,V_count"
+- "Tq,?,N,V_gridSizeClass"
+- "Tq,N,V_expandedLayout"
+- "T{CGRect={CGPoint=dd}{CGSize=dd}},N,V_transitionFrame"
+- "_TtC13MediaControls21SessionBackgroundView"
+- "_backdropView"
+- "_badge"
+- "_clippingView"
+- "_count"
+- "_dismissModuleBlock"
+- "_expandedLayout"
+- "_gradientView"
+- "_gridSizeClass"
+- "_invalidateContainerViewsBlock"
+- "_lowerRoutingButton"
+- "_manager"
+- "_moreButton"
+- "_nowPlayingControllerManager"
+- "_preview"
+- "_previewView"
+- "_resizing"
+- "_routingButtons"
+- "_routingView"
+- "_showMaterialOnly"
+- "_showMoreButton"
+- "_showPreviewView"
+- "_showRouteLabel"
+- "_transformView"
+- "_transitionFrame"
+- "_upperRoutingButton"
+- "activeIdentifier"
+- "applySnapshot:animatingDifferences:completion:"
+- "backdropAlphaWithRatio:"
+- "badge"
+- "clippingView"
+- "contentScaleFactor"
+- "convertRect:toView:"
+- "createNowPlayingViewController"
+- "d32@0:8{CGPoint=dd}16"
+- "didSelectRouteButton:"
+- "dismiss"
+- "dismissWithCompletion:"
+- "gradientView"
+- "highlightView"
+- "indexPathForItemAtPoint:"
+- "initWithManager:"
+- "invalidateContainerViews"
+- "isSolariumEnabled"
+- "localizedStringFromNumber:numberStyle:"
+- "lowerRoutingButton"
+- "manager"
+- "moreButton"
+- "nowPlayingControllerManager"
+- "nowPlayingViewController:cordinateDismissal:"
+- "preview"
+- "resizingAlphaWithRatio:"
+- "resizingRatioForForLayout:"
+- "resizingThresholdForLayout:"
+- "routingButtons"
+- "scrollToItemAtIndexPath:atScrollPosition:animated:"
+- "setAllowsGroupBlending:"
+- "setBackdropView:"
+- "setBadge:"
+- "setClippingView:"
+- "setCount:"
+- "setExpandedLayout:"
+- "setGradientView:"
+- "setHighlightView:"
+- "setIsExpanded:"
+- "setItemSize:"
+- "setMinimumInteritemSpacing:"
+- "setNowPlayingControllerManager:"
+- "setPreview:"
+- "setPreviewView:"
+- "setShowMaterialOnly:"
+- "setShowMoreButton:"
+- "setShowPreviewView:"
+- "setShowRouteLabel:"
+- "setTransformView:"
+- "setTransitionFrame:"
+- "setTransitionTransform:isVisible:"
+- "shouldRefreshUI"
+- "showMaterialOnly"
+- "showMoreButton"
+- "showPreviewView"
+- "toggleRoutePicker"
+- "transformView"
+- "transitionFrame"
+- "transitionToLayout:completion:"
+- "updateActiveViewController"
+- "updateCollectionViewContentInset"
+- "updateCornerRadius"
+- "updateLabel"
+- "updateMoreButton"
+- "updateRoutingController"
+- "updateRoutingDataControllers"
+- "updateVisibilityForActiveCell:inActiveCells:"
+- "updateVolumeController"
+- "upperRoutingButton"
+- "v32@0:8@\"MRUMediaControlsModuleNowPlayingViewController\"16@?<v@?>24"
+- "v32@0:8@\"MRUMediaControlsModuleNowPlayingViewController\"16q24"
+- "v32@0:8@\"MRUNowPlayingControllerManager\"16@\"MRUNowPlayingController\"24"
+- "v32@0:8@\"MRUNowPlayingControllerManager\"16@\"NSArray\"24"
+- "v32@?0@\"UICollectionViewCell\"8@\"NSIndexPath\"16@\"NSString\"24"
+- "v68@0:8{CGAffineTransform=dddddd}16B64"
+- "{CGPoint=dd}24@0:8q16"
+- "{CGRect=\"origin\"{CGPoint=\"x\"d\"y\"d}\"size\"{CGSize=\"width\"d\"height\"d}}"
+
+```

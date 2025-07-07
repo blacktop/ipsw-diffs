@@ -1,0 +1,287 @@
+## SpotlightUIShared
+
+> `/System/Library/PrivateFrameworks/SpotlightUIShared.framework/SpotlightUIShared`
+
+```diff
+
+-168.1.0.0.0
+-  __TEXT.__text: 0xa64e8
+-  __TEXT.__auth_stubs: 0x30d0
+-  __TEXT.__objc_methlist: 0x8b8
+-  __TEXT.__const: 0x6bfc
+-  __TEXT.__cstring: 0x2df8
++174.0.0.0.0
++  __TEXT.__text: 0xaa274
++  __TEXT.__auth_stubs: 0x31c0
++  __TEXT.__objc_methlist: 0x918
++  __TEXT.__const: 0x6ebc
++  __TEXT.__cstring: 0x2f48
+   __TEXT.__ustring: 0x7d2
+-  __TEXT.__oslogstring: 0x82f
+-  __TEXT.__swift5_typeref: 0x2d46
+-  __TEXT.__swift5_reflstr: 0x1305
+-  __TEXT.__swift5_assocty: 0x820
+-  __TEXT.__constg_swiftt: 0x2d64
+-  __TEXT.__swift5_fieldmd: 0x17ec
+-  __TEXT.__swift5_proto: 0x578
+-  __TEXT.__swift5_types: 0x268
+-  __TEXT.__swift_as_entry: 0x4d0
+-  __TEXT.__swift_as_ret: 0x448
++  __TEXT.__oslogstring: 0x833
++  __TEXT.__swift5_typeref: 0x2ee4
++  __TEXT.__swift5_reflstr: 0x13a5
++  __TEXT.__swift5_assocty: 0x878
++  __TEXT.__constg_swiftt: 0x2e2c
++  __TEXT.__swift5_fieldmd: 0x1860
++  __TEXT.__swift5_proto: 0x598
++  __TEXT.__swift5_types: 0x278
++  __TEXT.__swift_as_entry: 0x4b4
++  __TEXT.__swift_as_ret: 0x428
++  __TEXT.__swift5_builtin: 0xdc
+   __TEXT.__swift5_protos: 0x84
+-  __TEXT.__swift5_capture: 0x4f0
+-  __TEXT.__swift5_builtin: 0xc8
++  __TEXT.__swift5_capture: 0x544
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x3370
+-  __TEXT.__eh_frame: 0x7848
++  __TEXT.__unwind_info: 0x3350
++  __TEXT.__eh_frame: 0x7550
+   __TEXT.__objc_classname: 0x1d6
+-  __TEXT.__objc_methname: 0x2b70
++  __TEXT.__objc_methname: 0x2ceb
+   __TEXT.__objc_methtype: 0x414
+-  __TEXT.__objc_stubs: 0x1780
+-  __DATA_CONST.__got: 0xcd8
++  __TEXT.__objc_stubs: 0x17c0
++  __DATA_CONST.__got: 0xd80
+   __DATA_CONST.__const: 0x448
+-  __DATA_CONST.__objc_classlist: 0x178
++  __DATA_CONST.__objc_classlist: 0x180
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x70
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xee0
++  __DATA_CONST.__objc_selrefs: 0xf30
+   __DATA_CONST.__objc_protorefs: 0x38
+   __DATA_CONST.__objc_superrefs: 0x18
+-  __DATA_CONST.__objc_arraydata: 0x48
+-  __AUTH_CONST.__auth_got: 0x1870
+-  __AUTH_CONST.__const: 0x43a8
+-  __AUTH_CONST.__cfstring: 0x6a0
+-  __AUTH_CONST.__objc_const: 0x27e0
+-  __AUTH_CONST.__objc_arrayobj: 0x30
+-  __AUTH.__objc_data: 0x11f0
+-  __AUTH.__data: 0x3010
++  __DATA_CONST.__objc_arraydata: 0x50
++  __AUTH_CONST.__auth_got: 0x18e8
++  __AUTH_CONST.__const: 0x44f8
++  __AUTH_CONST.__cfstring: 0x660
++  __AUTH_CONST.__objc_const: 0x2860
++  __AUTH_CONST.__objc_arrayobj: 0x48
++  __AUTH.__objc_data: 0x1280
++  __AUTH.__data: 0x30a0
+   __DATA.__objc_ivar: 0x3c
+-  __DATA.__data: 0x15b0
+-  __DATA.__objc_stublist: 0x10
+-  __DATA.__bss: 0xa568
+-  __DATA.__common: 0x158
++  __DATA.__data: 0x1630
++  __DATA.__objc_stublist: 0x8
++  __DATA.__bss: 0xa988
++  __DATA.__common: 0x140
+   __DATA_DIRTY.__objc_data: 0x158
+   __DATA_DIRTY.__data: 0xc0
+   __DATA_DIRTY.__bss: 0x490
+
+   - /System/Library/PrivateFrameworks/Spotlight.framework/Spotlight
+   - /System/Library/PrivateFrameworks/SpotlightResources.framework/SpotlightResources
+   - /System/Library/PrivateFrameworks/SpotlightServices.framework/SpotlightServices
++  - /System/Library/PrivateFrameworks/SpotlightUIServices.framework/SpotlightUIServices
+   - /System/Library/PrivateFrameworks/TemplateKit.framework/TemplateKit
+   - /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
++  - /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+   - /System/Library/PrivateFrameworks/WorkflowUIServices.framework/WorkflowUIServices
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  - /usr/lib/swift/libswiftARKit.dylib
+   - /usr/lib/swift/libswiftAVFoundation.dylib
+   - /usr/lib/swift/libswiftAccelerate.dylib
+   - /usr/lib/swift/libswiftAppleArchive.dylib
+
+   - /usr/lib/swift/libswiftQuartzCore.dylib
+   - /usr/lib/swift/libswiftSceneKit.dylib
+   - /usr/lib/swift/libswiftSpatial.dylib
+-  - /usr/lib/swift/libswiftSpriteKit.dylib
+   - /usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+   - /usr/lib/swift/libswiftVideoToolbox.dylib
+   - /usr/lib/swift/libswiftXPC.dylib
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 014457B5-B4E6-3200-A48F-B4FF1293ABB7
+-  Functions: 3714
+-  Symbols:   2228
+-  CStrings:  1005
++  UUID: 78D69106-A031-3216-AABE-E5CFA11AEBDC
++  Functions: 3776
++  Symbols:   2252
++  CStrings:  1020
+ 
+Symbols:
++ -[SUISPasteboardManager configurePasteboardHistory]
++ -[SUISPasteboardManager deleteContinuityPasteboardItems]
++ _OBJC_CLASS_$_SPUISPasteboardHistoryDefaultsManager
++ _OBJC_CLASS_$_WFLinkContextualAction
++ _OBJC_CLASS_$__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ _OBJC_METACLASS_$_SSPerformEntityQueryCommand
++ _OBJC_METACLASS_$__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ _WFSpotlightResultRunnableFromData
++ __CLASS_METHODS__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __CLASS_PROPERTIES__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __DATA__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __INSTANCE_METHODS__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __IVARS__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __METACLASS_DATA__TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand
++ __PROTOCOLS__TtC17SpotlightUIShared36PrimitiveTypedValueResultHostingView.25
++ ___56-[SUISPasteboardManager deleteContinuityPasteboardItems]_block_invoke
++ ___56-[SUISPasteboardManager deleteContinuityPasteboardItems]_block_invoke.cold.1
++ ___block_literal_global.461
++ ___block_literal_global.466
++ ___block_literal_global.473
++ ___block_literal_global.481
++ ___swift_memcpy3_1
++ _associated conformance 17SpotlightUIShared16ToolKitUtilitiesO22CommandConversionErrorOSHAASQ
++ _associated conformance 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAA0cD0C_AA0m4ViewO0VtF08RankableC8IdentityL_VSHAASQ
++ _associated conformance 17SpotlightUIShared28QueryViewOptionsCapabilitiesVs10SetAlgebraAASQ
++ _associated conformance 17SpotlightUIShared28QueryViewOptionsCapabilitiesVs10SetAlgebraAAs25ExpressibleByArrayLiteral
++ _associated conformance 17SpotlightUIShared28QueryViewOptionsCapabilitiesVs9OptionSetAASY
++ _associated conformance 17SpotlightUIShared28QueryViewOptionsCapabilitiesVs9OptionSetAAs0H7Algebra
++ _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA012_ConditionalD0VyACy07SnippetB011SmartDialogVyAA9EmptyViewVAA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQOyACyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAVyAA0P9AlignmentOGGAA14_PaddingLayoutVG_Qo_GAA017_AppearanceActionT0VGAA0K8ThatFitsVyAA05TupleK0VyACyAnOEAPyQrARFQOyACyAYA3_G_Qo_AA010_FlexFrameW0VG_A9_tGGGGAA016_BackgroundStyleT0VyAA15BackgroundStyleVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_OverlayT0VyAA011StrokeShapeK0VyA32_6_InsetVAA5ColorVALGGGA3_GA3_GAA010_FixedSizeW0VGAaMHPA47_AaMHPA46_AaMHPA45_AaMHPA34_AaMHPA28_AaMHPA22_AaMHPyHC_A27_AA0kT0HPyHCHC_A33_AAA51_HPyHCHC_A44_AAA51_HPyHCHC_A3_AAA51_HPyHCHC_A3_AAA51_HPyHCHC_A49_AAA51_HPyHCHC.36
++ _objc_msgSend$boolValue
++ _objc_msgSend$configurePasteboardHistory
++ _objc_msgSend$isContinuityEnabled
++ _objc_msgSend$isEnabled
++ _objc_msgSend$isFTEEngaged
++ _objc_msgSend$isShared
++ _objc_msgSend$shared
++ _objectdestroy.5Tm
++ _symbolic $ss10SetAlgebraP
++ _symbolic $ss9OptionSetP
++ _symbolic So14ATXAppIdentityC
++ _symbolic So27SSPerformEntityQueryCommandC
++ _symbolic Su
++ _symbolic _____ 17SpotlightUIShared16ToolKitUtilitiesO22CommandConversionErrorO
++ _symbolic _____ 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAA0cD0C_AA0m4ViewO0VtF08RankableC8IdentityL_V
++ _symbolic _____ 17SpotlightUIShared28QueryViewOptionsCapabilitiesV
++ _symbolic _____ 17SpotlightUIShared32SUIPerformAppBrowseFilterCommandC
++ _symbolic _____ 7ToolKit19TransformableActionV
++ _symbolic _____ So25ATXAppDirectoryCategoryIDV
++ _symbolic _____Sg 7ToolKit19TransformableActionV
++ _symbolic _____Sg So25ATXAppDirectoryCategoryIDV
++ _symbolic _____yAAyAAyAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANGANG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV AA010_FixedSizeW0V
++ _symbolic _____yAAyAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANGANG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
++ _symbolic _____yAAyAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGGANG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
++ _symbolic _____yAAyAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG_____y_____y__________AEGGG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayT0V AA011StrokeShapeK0V A14_6_InsetV AA5ColorV
++ _symbolic _____yAAy_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV
++ _symbolic _____y_____G s16IndexingIteratorV 10Foundation16AttributedStringV13CharacterViewV
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAC0fG0C_AC0p4ViewR0VtF08RankableF8IdentityL_V
++ _symbolic _____y_____SSG s7KeyPathC 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAC0eF0C_AC0o4ViewQ0VtF08RankableE8IdentityL_V
++ _symbolic _____y___________y_____y_____y__________yADyADyADy__________ySiSgGGAHy_____GG_____G_Qo_G_____G_____y_____yADy_____yADyAkOG_Qo______G_ATtGGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA19_ConditionalContentV AA08ModifiedI0V 07SnippetB011SmartDialogV AA05EmptyD0V AA0D0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0S9AlignmentO AA08_PaddingG0V AA017_AppearanceActionW0V AA0D8ThatFitsV AA05TupleD0V ArSEATyQrAVFQO AA010_FlexFrameG0V
++ _symbolic _____y__________y_____yACyACy__________ySiSgGGAEy_____GG_____G_Qo_G 9SnippetUI11SmartDialogV 05SwiftB09EmptyViewV AD0G0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AD15ModifiedContentV AD4TextV AD30_EnvironmentKeyWritingModifierV AD0N9AlignmentO AD14_PaddingLayoutV
++ _symbolic _____y_____y_____SSGG s11_SetStorageC s7KeyPathC 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAE0gH0C_AE0q4ViewS0VtF08RankableG8IdentityL_V
++ _symbolic _____y_____y_____yAAy_____y__________yAAyAAyAAy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yAAy_____yAAyAjNG_Qo______G_AStGGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA012_ConditionalD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V AA016_BackgroundStyleT0V AA15BackgroundStyleV
++ _symbolic _____y_____y_____y__________yAByAByABy__________ySiSgGGAFy_____GG_____G_Qo_G_____G_____y_____yABy_____yAByAiMG_Qo______G_ARtGG_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V
++ _symbolic _____y_____y_____y_____y__________yACyACyACy__________ySiSgGGAGy_____GG_____G_Qo_G_____G_____y_____yACy_____yACyAjNG_Qo______G_AStGGGG 7SwiftUI6VStackV AA19_ConditionalContentV AA08ModifiedE0V 07SnippetB011SmartDialogV AA9EmptyViewV AA0K0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA14_PaddingLayoutV AA017_AppearanceActionT0V AA0K8ThatFitsV AA05TupleK0V AnOEAPyQrARFQO AA010_FlexFrameW0V
++ _type_layout_string 17SpotlightUIShared21AppZKWQueryDataSourceC32suggestionsAndAlphabeticSections18withPopulatedQuery11viewOptionsSaySo22SFMutableResultSectionCGSgAA0cD0C_AA0m4ViewO0VtF08RankableC8IdentityL_V
++ _type_layout_string 17SpotlightUIShared28QueryViewOptionsCapabilitiesV
+- +[SUISPasteboardManager isPasteboardDisclosureEngagedAndEnabled]
+- -[SUISPasteboardManager spotlightPrefsChanged]
+- _OBJC_METACLASS_$__TtC17SpotlightUIShared17ToolKitQueryCache
+- __DATA__TtC17SpotlightUIShared17ToolKitQueryCache
+- __INSTANCE_METHODS__TtC17SpotlightUIShared17ToolKitQueryCache
+- __METACLASS_DATA__TtC17SpotlightUIShared17ToolKitQueryCache
+- __PROTOCOLS__TtC17SpotlightUIShared36PrimitiveTypedValueResultHostingView.20
+- ___block_literal_global.107
+- ___block_literal_global.112
+- ___block_literal_global.134
+- ___swift_memcpy2_1
+- ___unnamed_6
+- __swift_FORCE_LOAD_$_swiftARKit
+- __swift_FORCE_LOAD_$_swiftARKit_$_SpotlightUIShared
+- __swift_FORCE_LOAD_$_swiftSpriteKit
+- __swift_FORCE_LOAD_$_swiftSpriteKit_$_SpotlightUIShared
+- _associated conformance 17SpotlightUIShared17ToolKitQueryCacheC08TemplateD005AsyncF8ComputerAA3KeyAdEP_SH
+- _associated conformance 17SpotlightUIShared24ToolKitQueryCacheRequestVSHAASQ
+- _get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyACyAA6VStackVyAA12ViewThatFitsVyAA05TupleF0VyACyAA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQOyACyACyAA4TextVAA30_EnvironmentKeyWritingModifierVySiSgGGAA14_PaddingLayoutVG_Qo_AA010_FlexFrameT0VG_ACy07SnippetB011SmartDialogVyAA05EmptyF0VAkLEAMyQrAOFQOyACyACyAvSyAA0N9AlignmentOGGAXG_Qo_GAA017_AppearanceActionR0VGtGGGAA016_BackgroundStyleR0VyAA15BackgroundStyleVGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA08_OverlayR0VyAA011StrokeShapeF0VyA29_6_InsetVAA5ColorVA6_GGGAXGAXGAA010_FixedSizeT0VGAaJHPA44_AaJHPA43_AaJHPA42_AaJHPA31_AaJHPA25_AaJHPA19_AaJHPyHC_A24_AA0fR0HPyHCHC_A30_AAA48_HPyHCHC_A41_AAA48_HPyHCHC_AxAA48_HPyHCHC_AxAA48_HPyHCHC_A46_AAA48_HPyHCHC.31
+- _objc_msgSend$arrayForKey:
+- _objc_msgSend$boolForKey:
+- _objc_msgSend$containsObject:
+- _objc_msgSend$isPasteboardDisclosureEngagedAndEnabled
+- _objc_msgSend$standardUserDefaults
+- _symbolic Say_____GSg 7ToolKit10TypedValueO
+- _symbolic Say_____GyYaKc 7ToolKit10TypedValueO
+- _symbolic ScCySay_____GSg_____G 7ToolKit10TypedValueO s5NeverO
+- _symbolic So8INIntentC
+- _symbolic _____ 17SpotlightUIShared17ToolKitQueryCacheC
+- _symbolic _____ 17SpotlightUIShared24ToolKitQueryCacheRequestV
+- _symbolic ______p 7ToolKit0A20ExecutionSessionPoolP
+- _symbolic _____yAAyAAyAAyAAyAAy_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG_____y_____GG_____y_____y__________APGGGAJGAJG_____G 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayR0V AA011StrokeShapeF0V A12_6_InsetV AA5ColorV AA010_FixedSizeT0V
+- _symbolic _____yAAyAAyAAyAAy_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG_____y_____GG_____y_____y__________APGGGAJGAJG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayR0V AA011StrokeShapeF0V A12_6_InsetV AA5ColorV
+- _symbolic _____yAAyAAyAAy_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG_____y_____GG_____y_____y__________APGGGAJG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayR0V AA011StrokeShapeF0V A12_6_InsetV AA5ColorV
+- _symbolic _____yAAyAAy_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG_____y_____GG_____y_____y__________APGGG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV AA08_OverlayR0V AA011StrokeShapeF0V A12_6_InsetV AA5ColorV
+- _symbolic _____yAAy_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____y_____Say_____GG 11TemplateKit10AsyncCacheC 17SpotlightUIShared04Toolb5QueryD7RequestV 0gB010TypedValueO
+- _symbolic _____y___________y_____y_____y_____yAEyAEy__________ySiSgGG_____G_Qo______G_AEy_____y__________yAEyAEyAjGy_____GGAKG_Qo_G_____GtGGG 7SwiftUI13_VariadicViewO4TreeV AA13_VStackLayoutV AA0D8ThatFitsV AA05TupleD0V AA15ModifiedContentV AA0D0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA08_PaddingG0V AA010_FlexFrameG0V 07SnippetB011SmartDialogV AA05EmptyD0V AoPEAQyQrASFQO AA0Q9AlignmentO AA017_AppearanceActionU0V
+- _symbolic _____y_____y_____y_____yAAy_____yAAyAAy__________ySiSgGG_____G_Qo______G_AAy_____y__________yAAyAAyAiFy_____GGAJG_Qo_G_____GtGGG_____y_____GG 7SwiftUI15ModifiedContentV AA6VStackV AA12ViewThatFitsV AA05TupleF0V AA0F0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyF0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V AA016_BackgroundStyleR0V AA15BackgroundStyleV
+- _symbolic _____y_____y_____y_____y_____yADyADy__________ySiSgGG_____G_Qo______G_ADy_____y__________yADyADyAiFy_____GGAJG_Qo_G_____GtGGG 7SwiftUI6VStackV AA12ViewThatFitsV AA05TupleD0V AA15ModifiedContentV AA0D0P06SearchB0E18searchUIAppearanceyQrSo13TLKProminenceVFQO AA4TextV AA30_EnvironmentKeyWritingModifierV AA14_PaddingLayoutV AA010_FlexFrameT0V 07SnippetB011SmartDialogV AA05EmptyD0V AkLEAMyQrAOFQO AA0N9AlignmentO AA017_AppearanceActionR0V
+- _type_layout_string 17SpotlightUIShared24ToolKitQueryCacheRequestV
+CStrings:
++ "@24@0:8^v16"
++ "SpotlightUIShared.SUIPerformAppBrowseFilterCommand"
++ "TB,N,R"
++ "_TtC17SpotlightUIShared32SUIPerformAppBrowseFilterCommand"
++ "_isMultilineText"
++ "_kMDItemDomainIdentifier = %@*"
++ "appBundleIdentifier"
++ "appSectionWithTitle:identifier:style:highDensity:appIdentities:"
++ "boolValue"
++ "com.apple.spotlight.pasteboard.continuity"
++ "com.apple.spotlight.zkw.alphabetic"
++ "com.apple.spotlight.zkw.alphabetic.utilities"
++ "configurePasteboardHistory"
++ "copyWithZone:"
++ "decodeObjectForKey:"
++ "deleteContinuityPasteboardItems"
++ "encodeObject:forKey:"
++ "error deleting continuitiy pastoard items in corespotlight: %@"
++ "filteredCategoryID"
++ "initWithFilterTitle:thumbnailType:symbolName:keywords:filterQueries:folderScopeURLs:enabledDomains:searchBarButtonItems:contentTypes:allowedTypes:blockedTypes:parentType:appBundleId:appURL:filterSubtitle:"
++ "initWithUnsignedInteger:"
++ "isContinuityEnabled"
++ "isEnabled"
++ "isFTEEngaged"
++ "isShared"
++ "linkAction"
++ "sectionWithTitle:identifier:style:highDensity:results:"
++ "supportsSecureCoding"
++ "title for utilities section in apps browse"
++ "unsignedIntegerValue"
+- "EnabledPreferenceRules"
+- "Failed to convert SFPerformIntentCommand: %@"
+- "SPPasteboardFTEEngaged"
+- "System.clipboardHistory"
+- "_TtC17SpotlightUIShared17ToolKitQueryCache"
+- "_kMDItemDomainIdentifier = %@"
+- "appSectionWithTitle:identifier:style:appIdentities:"
+- "arrayForKey:"
+- "boolForKey:"
+- "containsObject:"
+- "isPasteboardDisclosureEngagedAndEnabled"
+- "run(identifier:computeHandler:)"
+- "sectionWithTitle:identifier:style:results:"
+- "spotlightPrefsChanged"
+- "standardUserDefaults"
+
+```

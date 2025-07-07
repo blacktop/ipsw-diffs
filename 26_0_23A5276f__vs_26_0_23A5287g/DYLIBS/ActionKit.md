@@ -1,0 +1,1107 @@
+## ActionKit
+
+> `/System/Library/PrivateFrameworks/ActionKit.framework/ActionKit`
+
+```diff
+
+-4025.0.13.0.0
+-  __TEXT.__text: 0x3b72b4
+-  __TEXT.__auth_stubs: 0x5950
+-  __TEXT.__objc_methlist: 0x211cc
++4027.2.1.0.0
++  __TEXT.__text: 0x3b9500
++  __TEXT.__auth_stubs: 0x5a70
++  __TEXT.__objc_methlist: 0x211ec
+   __TEXT.__const: 0x27938
+   __TEXT.__dlopen_cstrs: 0x2723
+-  __TEXT.__cstring: 0x4e7f8
+-  __TEXT.__constg_swiftt: 0x19a4
+-  __TEXT.__swift5_typeref: 0x3167
++  __TEXT.__cstring: 0x4e981
++  __TEXT.__constg_swiftt: 0x19e4
++  __TEXT.__swift5_typeref: 0x319f
+   __TEXT.__swift5_builtin: 0x1a4
+-  __TEXT.__swift5_reflstr: 0x1198
+-  __TEXT.__swift5_fieldmd: 0xfd4
++  __TEXT.__swift5_reflstr: 0x11b8
++  __TEXT.__swift5_fieldmd: 0xfec
+   __TEXT.__swift5_assocty: 0xb78
+   __TEXT.__swift5_proto: 0x5f8
+   __TEXT.__swift5_types: 0x1c4
+-  __TEXT.__swift5_capture: 0x380
++  __TEXT.__swift5_capture: 0x390
+   __TEXT.__swift5_protos: 0x18
+   __TEXT.__swift_as_entry: 0x350
+-  __TEXT.__swift_as_ret: 0x410
++  __TEXT.__swift_as_ret: 0x40c
+   __TEXT.__swift5_mpenum: 0x24
+-  __TEXT.__oslogstring: 0x4a7b
++  __TEXT.__oslogstring: 0x4beb
+   __TEXT.__gcc_except_tab: 0x3ed8
+   __TEXT.__ustring: 0x38b0
+-  __TEXT.__unwind_info: 0xd670
+-  __TEXT.__eh_frame: 0x7724
++  __TEXT.__unwind_info: 0xd6d8
++  __TEXT.__eh_frame: 0x7704
+   __TEXT.__objc_classname: 0x5b0f
+-  __TEXT.__objc_methname: 0x3fe48
++  __TEXT.__objc_methname: 0x3ff29
+   __TEXT.__objc_methtype: 0x9a1a
+   __TEXT.__objc_stubs: 0x2a8e0
+-  __DATA_CONST.__got: 0x4098
+-  __DATA_CONST.__const: 0x1d5e8
++  __DATA_CONST.__got: 0x40e0
++  __DATA_CONST.__const: 0x1d608
+   __DATA_CONST.__objc_classlist: 0x1a90
+   __DATA_CONST.__objc_nlclslist: 0x8
+   __DATA_CONST.__objc_catlist: 0x110
+   __DATA_CONST.__objc_protolist: 0x510
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xf300
++  __DATA_CONST.__objc_selrefs: 0xf358
+   __DATA_CONST.__objc_protorefs: 0x1c0
+   __DATA_CONST.__objc_superrefs: 0xc68
+   __DATA_CONST.__objc_arraydata: 0xd60
+-  __AUTH_CONST.__auth_got: 0x2cb8
+-  __AUTH_CONST.__const: 0xeba8
++  __AUTH_CONST.__auth_got: 0x2d48
++  __AUTH_CONST.__const: 0xebd0
+   __AUTH_CONST.__cfstring: 0x2abe0
+-  __AUTH_CONST.__objc_const: 0x3ddb8
++  __AUTH_CONST.__objc_const: 0x3de20
+   __AUTH_CONST.__objc_intobj: 0x1b30
+   __AUTH_CONST.__objc_arrayobj: 0x438
+   __AUTH_CONST.__objc_dictobj: 0xc8
+   __AUTH_CONST.__objc_floatobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x10
+-  __AUTH.__objc_data: 0x79b8
++  __AUTH.__objc_data: 0x7a08
+   __AUTH.__data: 0xc20
+   __DATA.__objc_ivar: 0x1d94
+-  __DATA.__data: 0xaa38
++  __DATA.__data: 0xaa88
+   __DATA.__bss: 0x76a0
+   __DATA.__common: 0xa8
+   __DATA_DIRTY.__objc_data: 0x9c68
+-  __DATA_DIRTY.__data: 0x1730
++  __DATA_DIRTY.__data: 0x1720
+   __DATA_DIRTY.__bss: 0x81a0
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: C1CF5DE1-BA52-31D6-B5EA-37AB12941FDE
+-  Functions: 21756
+-  Symbols:   53817
+-  CStrings:  30710
++  UUID: 2AC1BCBD-EABA-3A19-952A-83A3A042DE91
++  Functions: 21784
++  Symbols:   53864
++  CStrings:  30735
+ 
+Symbols:
++ _AVFoundationLibrary.30457
++ _AVFoundationLibrary.42369
++ _AVFoundationLibrary.47629
++ _AVFoundationLibrary.52574
++ _AVFoundationLibraryCore.frameworkLibrary.30465
++ _AVFoundationLibraryCore.frameworkLibrary.30770
++ _AVFoundationLibraryCore.frameworkLibrary.38494
++ _AVFoundationLibraryCore.frameworkLibrary.42380
++ _AVFoundationLibraryCore.frameworkLibrary.45218
++ _AVFoundationLibraryCore.frameworkLibrary.47639
++ _AVFoundationLibraryCore.frameworkLibrary.52654
++ _AccessibilityUtilitiesLibraryCore.frameworkLibrary.51548
++ _CLPlacemarkFunction.51814
++ _ContactsLibraryCore.frameworkLibrary.30603
++ _CoreLocationLibrary.37973
++ _CoreLocationLibrary.41310
++ _CoreLocationLibrary.sLib.51819
++ _CoreLocationLibrary.sOnce.51809
++ _CoreLocationLibraryCore.frameworkLibrary.27935
++ _CoreLocationLibraryCore.frameworkLibrary.34504
++ _CoreLocationLibraryCore.frameworkLibrary.37984
++ _CoreLocationLibraryCore.frameworkLibrary.41313
++ _CoreLocationLibraryCore.frameworkLibrary.54272
++ _CoreRoutineLibraryCore.frameworkLibrary.27952
++ _CoreTelephonyLibrary.49210
++ _CoreTelephonyLibraryCore.frameworkLibrary.49230
++ _HealthUILibrary.sLib.55720
++ _HealthUILibrary.sOnce.55713
++ _MapKitLibrary.41293
++ _MapKitLibraryCore.frameworkLibrary.30584
++ _MapKitLibraryCore.frameworkLibrary.34483
++ _MapKitLibraryCore.frameworkLibrary.41302
++ _MapKitLibraryCore.frameworkLibrary.53138
++ _MediaExperienceLibraryCore.frameworkLibrary.56311
++ _MediaPlayerLibrary.38935
++ _MediaPlayerLibrary.41220
++ _MediaPlayerLibrary.55336
++ _MediaPlayerLibraryCore.frameworkLibrary.28992
++ _MediaPlayerLibraryCore.frameworkLibrary.38940
++ _MediaPlayerLibraryCore.frameworkLibrary.41230
++ _MediaPlayerLibraryCore.frameworkLibrary.43547
++ _MediaPlayerLibraryCore.frameworkLibrary.55347
++ _NetworkExtensionLibraryCore.frameworkLibrary.56069
++ _OBJC_CLASS_$_WFDurationContentItem
++ _OBJC_CLASS_$_WFDurationParameter
++ _OBJC_CLASS_$_WFDurationParameterState
++ _OBJC_CLASS_$_WFPersonNameComponentsContentItem
++ _OBJC_CLASS_$_WFPersonNameComponentsParameter
++ _OBJC_CLASS_$_WFPersonNameComponentsParameterState
++ _OUTLINED_FUNCTION_215
++ _OUTLINED_FUNCTION_216
++ _OUTLINED_FUNCTION_217
++ _OUTLINED_FUNCTION_218
++ _OUTLINED_FUNCTION_219
++ _OUTLINED_FUNCTION_220
++ _OUTLINED_FUNCTION_221
++ _OUTLINED_FUNCTION_222
++ _OUTLINED_FUNCTION_223
++ _PDFKitLibraryCore.frameworkLibrary.48486
++ _PDFKitLibraryCore.frameworkLibrary.54548
++ _PhotosLibrary.27795
++ _PhotosLibrary.31170
++ _PhotosLibrary.47506
++ _PhotosLibrary.52362
++ _PhotosLibrary.52505
++ _PhotosLibraryCore.frameworkLibrary.27806
++ _PhotosLibraryCore.frameworkLibrary.31180
++ _PhotosLibraryCore.frameworkLibrary.31307
++ _PhotosLibraryCore.frameworkLibrary.40167
++ _PhotosLibraryCore.frameworkLibrary.42824
++ _PhotosLibraryCore.frameworkLibrary.43503
++ _PhotosLibraryCore.frameworkLibrary.47512
++ _PhotosLibraryCore.frameworkLibrary.52372
++ _PhotosLibraryCore.frameworkLibrary.52511
++ _PosterBoardServicesLibrary.54747
++ _PosterBoardServicesLibraryCore.frameworkLibrary.43235
++ _PosterBoardServicesLibraryCore.frameworkLibrary.49890
++ _PosterBoardServicesLibraryCore.frameworkLibrary.54757
++ _ReminderKitLibraryCore.frameworkLibrary.30552
++ _ShazamKitLibraryCore.frameworkLibrary.27502
++ _TranslationLibraryCore.frameworkLibrary.54637
++ _UIKitLibrary.49865
++ _UIKitLibrary.sLib.38558
++ _UIKitLibrary.sLib.43711
++ _UIKitLibrary.sLib.43751
++ _UIKitLibrary.sLib.48729
++ _UIKitLibrary.sLib.51918
++ _UIKitLibrary.sOnce.38556
++ _UIKitLibrary.sOnce.43701
++ _UIKitLibrary.sOnce.43744
++ _UIKitLibrary.sOnce.48722
++ _UIKitLibrary.sOnce.51911
++ _UIKitLibraryCore.frameworkLibrary.49867
++ _UIPasteboardFunction.43706
++ _WFCoreTelephonyConnectionCallbackStub.49255
++ _WFEnforceClass.31198
++ _WFEnforceClass.38030
++ _WFEnforceClass.38930
++ _WFEnforceClass.39417
++ _WFEnforceClass.39842
++ _WFEnforceClass.48866
++ _WFEnforceClass.49038
++ _WFEnforceClass.49345
++ _WFEnforceClass.54849
++ _WFEnforceClass.56704
++ __OBJC_$_INSTANCE_METHODS_WFAskLLMAction(ActionKit|ActionKit1)
++ __PROPERTIES_WFIntercomAction
++ ___AVFoundationLibraryCore_block_invoke.30466
++ ___AVFoundationLibraryCore_block_invoke.30771
++ ___AVFoundationLibraryCore_block_invoke.38495
++ ___AVFoundationLibraryCore_block_invoke.42381
++ ___AVFoundationLibraryCore_block_invoke.45219
++ ___AVFoundationLibraryCore_block_invoke.47640
++ ___AVFoundationLibraryCore_block_invoke.52655
++ ___AccessibilityUtilitiesLibraryCore_block_invoke.51549
++ ___Block_byref_object_copy_.29202
++ ___Block_byref_object_copy_.34476
++ ___Block_byref_object_copy_.35746
++ ___Block_byref_object_copy_.36832
++ ___Block_byref_object_copy_.37966
++ ___Block_byref_object_copy_.38961
++ ___Block_byref_object_copy_.40840
++ ___Block_byref_object_copy_.42722
++ ___Block_byref_object_copy_.46856
++ ___Block_byref_object_copy_.47493
++ ___Block_byref_object_copy_.48618
++ ___Block_byref_object_copy_.49923
++ ___Block_byref_object_copy_.51932
++ ___Block_byref_object_copy_.52350
++ ___Block_byref_object_copy_.55082
++ ___Block_byref_object_copy_.55752
++ ___Block_byref_object_copy_.56650
++ ___Block_byref_object_copy_.56694
++ ___Block_byref_object_dispose_.29203
++ ___Block_byref_object_dispose_.34477
++ ___Block_byref_object_dispose_.35747
++ ___Block_byref_object_dispose_.36833
++ ___Block_byref_object_dispose_.37967
++ ___Block_byref_object_dispose_.38962
++ ___Block_byref_object_dispose_.40841
++ ___Block_byref_object_dispose_.42723
++ ___Block_byref_object_dispose_.46857
++ ___Block_byref_object_dispose_.47494
++ ___Block_byref_object_dispose_.48619
++ ___Block_byref_object_dispose_.49924
++ ___Block_byref_object_dispose_.51933
++ ___Block_byref_object_dispose_.52351
++ ___Block_byref_object_dispose_.55083
++ ___Block_byref_object_dispose_.55753
++ ___Block_byref_object_dispose_.56651
++ ___Block_byref_object_dispose_.56695
++ ___ContactsLibraryCore_block_invoke.30604
++ ___CoreLocationLibraryCore_block_invoke.27936
++ ___CoreLocationLibraryCore_block_invoke.34505
++ ___CoreLocationLibraryCore_block_invoke.37985
++ ___CoreLocationLibraryCore_block_invoke.41314
++ ___CoreLocationLibraryCore_block_invoke.54273
++ ___CoreLocationLibrary_block_invoke.51817
++ ___CoreRoutineLibraryCore_block_invoke.27953
++ ___CoreTelephonyLibraryCore_block_invoke.49231
++ ___HealthUILibrary_block_invoke.55718
++ ___MapKitLibraryCore_block_invoke.30585
++ ___MapKitLibraryCore_block_invoke.34484
++ ___MapKitLibraryCore_block_invoke.41303
++ ___MapKitLibraryCore_block_invoke.53139
++ ___MediaExperienceLibraryCore_block_invoke.56312
++ ___MediaPlayerLibraryCore_block_invoke.28993
++ ___MediaPlayerLibraryCore_block_invoke.38941
++ ___MediaPlayerLibraryCore_block_invoke.41231
++ ___MediaPlayerLibraryCore_block_invoke.43548
++ ___MediaPlayerLibraryCore_block_invoke.55348
++ ___NetworkExtensionLibraryCore_block_invoke.56070
++ ___PDFKitLibraryCore_block_invoke.48487
++ ___PDFKitLibraryCore_block_invoke.54549
++ ___PhotosLibraryCore_block_invoke.27807
++ ___PhotosLibraryCore_block_invoke.31181
++ ___PhotosLibraryCore_block_invoke.31308
++ ___PhotosLibraryCore_block_invoke.40168
++ ___PhotosLibraryCore_block_invoke.42825
++ ___PhotosLibraryCore_block_invoke.43504
++ ___PhotosLibraryCore_block_invoke.47513
++ ___PhotosLibraryCore_block_invoke.52373
++ ___PhotosLibraryCore_block_invoke.52512
++ ___PosterBoardServicesLibraryCore_block_invoke.43236
++ ___PosterBoardServicesLibraryCore_block_invoke.49891
++ ___PosterBoardServicesLibraryCore_block_invoke.54758
++ ___ReminderKitLibraryCore_block_invoke.30553
++ ___ShazamKitLibraryCore_block_invoke.27503
++ ___TranslationLibraryCore_block_invoke.54638
++ ___UIKitLibraryCore_block_invoke.49868
++ ___UIKitLibrary_block_invoke.38564
++ ___UIKitLibrary_block_invoke.43709
++ ___UIKitLibrary_block_invoke.43749
++ ___UIKitLibrary_block_invoke.48727
++ ___UIKitLibrary_block_invoke.51916
++ ___block_literal_global.166.36024
++ ___block_literal_global.172.44125
++ ___block_literal_global.176.49638
++ ___block_literal_global.178.36028
++ ___block_literal_global.181.33815
++ ___block_literal_global.181.46126
++ ___block_literal_global.184.33581
++ ___block_literal_global.184.51991
++ ___block_literal_global.187.51992
++ ___block_literal_global.187.56460
++ ___block_literal_global.190.43089
++ ___block_literal_global.192.44131
++ ___block_literal_global.194.40897
++ ___block_literal_global.194.53506
++ ___block_literal_global.194.54667
++ ___block_literal_global.196.49160
++ ___block_literal_global.201.38038
++ ___block_literal_global.204.43092
++ ___block_literal_global.204.51940
++ ___block_literal_global.206.43093
++ ___block_literal_global.208.43094
++ ___block_literal_global.218.33594
++ ___block_literal_global.225.33596
++ ___block_literal_global.225.41843
++ ___block_literal_global.272.43392
++ ___block_literal_global.27867
++ ___block_literal_global.28189
++ ___block_literal_global.28404
++ ___block_literal_global.28557
++ ___block_literal_global.28911
++ ___block_literal_global.28923
++ ___block_literal_global.29576
++ ___block_literal_global.29681
++ ___block_literal_global.29760
++ ___block_literal_global.30221
++ ___block_literal_global.30261
++ ___block_literal_global.30475
++ ___block_literal_global.31680
++ ___block_literal_global.32093
++ ___block_literal_global.33137
++ ___block_literal_global.33397
++ ___block_literal_global.33575
++ ___block_literal_global.33813
++ ___block_literal_global.34309
++ ___block_literal_global.35230
++ ___block_literal_global.36022
++ ___block_literal_global.37019
++ ___block_literal_global.372.51054
++ ___block_literal_global.37575
++ ___block_literal_global.376.44493
++ ___block_literal_global.376.51056
++ ___block_literal_global.37867
++ ___block_literal_global.379.51912
++ ___block_literal_global.38057
++ ___block_literal_global.38557
++ ___block_literal_global.38927
++ ___block_literal_global.39135
++ ___block_literal_global.39259
++ ___block_literal_global.40038
++ ___block_literal_global.40270
++ ___block_literal_global.40356
++ ___block_literal_global.40900
++ ___block_literal_global.41185
++ ___block_literal_global.41842
++ ___block_literal_global.41953
++ ___block_literal_global.42040
++ ___block_literal_global.42227
++ ___block_literal_global.42606
++ ___block_literal_global.42870
++ ___block_literal_global.43027
++ ___block_literal_global.43088
++ ___block_literal_global.43398
++ ___block_literal_global.43521
++ ___block_literal_global.43702
++ ___block_literal_global.43745
++ ___block_literal_global.44124
++ ___block_literal_global.44536
++ ___block_literal_global.44641
++ ___block_literal_global.44845
++ ___block_literal_global.44957
++ ___block_literal_global.45723
++ ___block_literal_global.45971
++ ___block_literal_global.46108
++ ___block_literal_global.46130
++ ___block_literal_global.46635
++ ___block_literal_global.46930
++ ___block_literal_global.46977
++ ___block_literal_global.47849
++ ___block_literal_global.47925
++ ___block_literal_global.48480
++ ___block_literal_global.48723
++ ___block_literal_global.49158
++ ___block_literal_global.49517
++ ___block_literal_global.49650
++ ___block_literal_global.50642
++ ___block_literal_global.51164
++ ___block_literal_global.51210
++ ___block_literal_global.51810
++ ___block_literal_global.52004
++ ___block_literal_global.52308
++ ___block_literal_global.52612
++ ___block_literal_global.52900
++ ___block_literal_global.53060
++ ___block_literal_global.53315
++ ___block_literal_global.53433
++ ___block_literal_global.53479
++ ___block_literal_global.53517
++ ___block_literal_global.53661
++ ___block_literal_global.53769
++ ___block_literal_global.53826
++ ___block_literal_global.54012
++ ___block_literal_global.54677
++ ___block_literal_global.55051
++ ___block_literal_global.55472
++ ___block_literal_global.55714
++ ___block_literal_global.56458
++ ___block_literal_global.56979
++ ___block_literal_global.57136
++ ___getAVAudioSessionCategoryPlaybackSymbolLoc_block_invoke.42408
++ ___getAVAudioSessionClass_block_invoke.38491
++ ___getAVAudioSessionClass_block_invoke.42368
++ ___getAVAudioSessionClass_block_invoke.47649
++ ___getAVAudioSessionModeDefaultSymbolLoc_block_invoke.42393
++ ___getAVLinearPCMBitDepthKeySymbolLoc_block_invoke.47677
++ ___getAVLinearPCMIsFloatKeySymbolLoc_block_invoke.47682
++ ___getAVMediaTypeVideoSymbolLoc_block_invoke.52608
++ ___getAVSystemControllerClass_block_invoke.56310
++ ___getCLGeocoderClass_block_invoke.41292
++ ___getCLLocationClass_block_invoke.27934
++ ___getCLLocationClass_block_invoke.34503
++ ___getCLLocationClass_block_invoke.37970
++ ___getCLLocationClass_block_invoke.54145
++ ___getCLPlacemarkClass_block_invoke.38012
++ ___getCLPlacemarkClass_block_invoke.41290
++ ___getMKErrorDomainSymbolLoc_block_invoke.41376
++ ___getMKMapItemClass_block_invoke.30583
++ ___getMKMapItemClass_block_invoke.34482
++ ___getMKMapItemClass_block_invoke.41348
++ ___getMKMapItemClass_block_invoke.53137
++ ___getMPAVEndpointRouteClass_block_invoke.38934
++ ___getMPAVOutputDeviceRouteClass_block_invoke.55358
++ ___getMPAVRoutingControllerClass_block_invoke.39021
++ ___getMPAVRoutingControllerErrorDomainSymbolLoc_block_invoke.55335
++ ___getMPMediaItemCollectionClass_block_invoke.43545
++ ___getMPMediaLibraryClass_block_invoke.28986
++ ___getMPMediaLibraryClass_block_invoke.41217
++ ___getNEVPNManagerClass_block_invoke.56036
++ ___getPDFDocumentClass_block_invoke.48485
++ ___getPDFDocumentClass_block_invoke.54547
++ ___getPHAssetChangeRequestClass_block_invoke.52361
++ ___getPHAssetClass_block_invoke.27794
++ ___getPHAssetClass_block_invoke.40164
++ ___getPHAssetClass_block_invoke.43500
++ ___getPHAssetClass_block_invoke.52383
++ ___getPHAssetCollectionChangeRequestClass_block_invoke.47521
++ ___getPHAssetCollectionChangeRequestClass_block_invoke.52357
++ ___getPHAssetCollectionClass_block_invoke.31306
++ ___getPHAssetCollectionClass_block_invoke.47497
++ ___getPHAssetCollectionClass_block_invoke.52504
++ ___getPHPhotoLibraryClass_block_invoke.42823
++ ___getPHPhotoLibraryClass_block_invoke.52498
++ ___getPRSServiceClass_block_invoke.43233
++ ___getPRSServiceClass_block_invoke.49887
++ ___getPRSServiceClass_block_invoke.54742
++ ___getREMSaveRequestClass_block_invoke.30662
++ ___get_CTServerConnectionCreateWithIdentifierSymbolLoc_block_invoke.49253
++ ___get_LTTranslatorClass_block_invoke.54634
++ ___getkCLErrorDomainSymbolLoc_block_invoke.41321
++ _audit_stringAVFoundation.30469
++ _audit_stringAVFoundation.30775
++ _audit_stringAVFoundation.38511
++ _audit_stringAVFoundation.42387
++ _audit_stringAVFoundation.45230
++ _audit_stringAVFoundation.47643
++ _audit_stringAVFoundation.52658
++ _audit_stringAccessibilityUtilities.51560
++ _audit_stringContacts.30607
++ _audit_stringCoreLocation.27951
++ _audit_stringCoreLocation.34510
++ _audit_stringCoreLocation.37991
++ _audit_stringCoreLocation.41316
++ _audit_stringCoreLocation.54288
++ _audit_stringCoreRoutine.27957
++ _audit_stringCoreTelephony.49234
++ _audit_stringMapKit.30590
++ _audit_stringMapKit.34498
++ _audit_stringMapKit.41309
++ _audit_stringMapKit.53154
++ _audit_stringMediaExperience.56328
++ _audit_stringMediaPlayer.29009
++ _audit_stringMediaPlayer.38945
++ _audit_stringMediaPlayer.41237
++ _audit_stringMediaPlayer.43564
++ _audit_stringMediaPlayer.55351
++ _audit_stringNetworkExtension.56085
++ _audit_stringPDFKit.48502
++ _audit_stringPDFKit.54564
++ _audit_stringPhotos.27813
++ _audit_stringPhotos.31187
++ _audit_stringPhotos.31324
++ _audit_stringPhotos.40183
++ _audit_stringPhotos.42841
++ _audit_stringPhotos.43520
++ _audit_stringPhotos.47519
++ _audit_stringPhotos.52379
++ _audit_stringPhotos.52518
++ _audit_stringPosterBoardServices.43252
++ _audit_stringPosterBoardServices.49894
++ _audit_stringPosterBoardServices.54764
++ _audit_stringReminderKit.30559
++ _audit_stringShazamKit.27517
++ _audit_stringUIKit.49870
++ _block_copy_helper.33
++ _block_descriptor.35
++ _block_destroy_helper.34
++ _classCLPlacemark.51812
++ _classUIPasteboard.43704
++ _getAFPreferencesClass.49588
++ _getAVAudioSessionCategoryPlayback.42391
++ _getAVAudioSessionCategoryPlaybackSymbolLoc.ptr.42407
++ _getAVAudioSessionClass.42366
++ _getAVAudioSessionClass.47644
++ _getAVAudioSessionClass.softClass.38490
++ _getAVAudioSessionClass.softClass.42367
++ _getAVAudioSessionClass.softClass.47648
++ _getAVAudioSessionModeDefaultSymbolLoc.ptr.42392
++ _getAVLinearPCMBitDepthKeySymbolLoc.ptr.47676
++ _getAVLinearPCMIsFloatKeySymbolLoc.ptr.47681
++ _getAVMediaTypeVideoSymbolLoc.ptr.52607
++ _getAVSystemControllerClass.softClass.56309
++ _getCLGeocoderClass.softClass.41291
++ _getCLLocationClass.27932
++ _getCLLocationClass.34501
++ _getCLLocationClass.softClass.27933
++ _getCLLocationClass.softClass.34502
++ _getCLLocationClass.softClass.37969
++ _getCLLocationClass.softClass.54144
++ _getCLPlacemarkClass.45969
++ _getCLPlacemarkClass.51770
++ _getCLPlacemarkClass.softClass.38011
++ _getCLPlacemarkClass.softClass.41289
++ _getMKErrorDomainSymbolLoc.ptr.41375
++ _getMKMapItemClass.41285
++ _getMKMapItemClass.softClass.30582
++ _getMKMapItemClass.softClass.34481
++ _getMKMapItemClass.softClass.41347
++ _getMKMapItemClass.softClass.53136
++ _getMPAVEndpointRouteClass.softClass.38933
++ _getMPAVOutputDeviceRouteClass.softClass.55357
++ _getMPAVRoutingControllerClass.softClass.39020
++ _getMPAVRoutingControllerErrorDomainSymbolLoc.ptr.55334
++ _getMPMediaItemCollectionClass.softClass.43544
++ _getMPMediaLibraryClass.softClass.28985
++ _getMPMediaLibraryClass.softClass.41216
++ _getNEVPNManagerClass.softClass.56035
++ _getPDFDocumentClass.48481
++ _getPDFDocumentClass.54532
++ _getPDFDocumentClass.softClass.48484
++ _getPDFDocumentClass.softClass.54546
++ _getPHAssetChangeRequestClass.softClass.52360
++ _getPHAssetClass.52345
++ _getPHAssetClass.softClass.27793
++ _getPHAssetClass.softClass.40163
++ _getPHAssetClass.softClass.43499
++ _getPHAssetClass.softClass.52382
++ _getPHAssetCollectionChangeRequestClass.softClass.47520
++ _getPHAssetCollectionChangeRequestClass.softClass.52356
++ _getPHAssetCollectionClass.52499
++ _getPHAssetCollectionClass.softClass.31305
++ _getPHAssetCollectionClass.softClass.47496
++ _getPHAssetCollectionClass.softClass.52503
++ _getPHPhotoLibraryClass.softClass.42822
++ _getPHPhotoLibraryClass.softClass.52497
++ _getPRSServiceClass.softClass.43232
++ _getPRSServiceClass.softClass.49886
++ _getPRSServiceClass.softClass.54741
++ _getREMSaveRequestClass.softClass.30661
++ _getUIPasteboardClass.43697
++ _get_CTServerConnectionCreateWithIdentifierSymbolLoc.ptr.49252
++ _get_LTTranslatorClass.softClass.54633
++ _getkCLErrorDomainSymbolLoc.ptr.41320
++ _initCLPlacemark.51808
++ _initUIPasteboard.43700
++ _initialize.onceToken.40037
++ _initialize.onceToken.40355
++ _objectdestroy.28Tm
++ _sharedInstance.instance.35908
++ _sharedInstance.predicate.35907
++ _structFields.structFields.27.36093
++ _structFields.structFields.36060
++ _structFields.structFields.52.36118
++ _structFields.structFields.77.36142
++ _symbolic SaySdG
++ _symbolic _____5cause______Sg5model_____Sg12conversationt 10ContentKit20SafetyRejectionCauseO AA21WFGenerativeModelNameO AA20WFAskLLMConversationC
+- _AVFoundationLibrary.30456
+- _AVFoundationLibrary.42368
+- _AVFoundationLibrary.47628
+- _AVFoundationLibrary.52573
+- _AVFoundationLibraryCore.frameworkLibrary.30464
+- _AVFoundationLibraryCore.frameworkLibrary.30769
+- _AVFoundationLibraryCore.frameworkLibrary.38493
+- _AVFoundationLibraryCore.frameworkLibrary.42379
+- _AVFoundationLibraryCore.frameworkLibrary.45217
+- _AVFoundationLibraryCore.frameworkLibrary.47638
+- _AVFoundationLibraryCore.frameworkLibrary.52653
+- _AccessibilityUtilitiesLibraryCore.frameworkLibrary.51547
+- _CLPlacemarkFunction.51813
+- _ContactsLibraryCore.frameworkLibrary.30602
+- _CoreLocationLibrary.37972
+- _CoreLocationLibrary.41309
+- _CoreLocationLibrary.sLib.51818
+- _CoreLocationLibrary.sOnce.51808
+- _CoreLocationLibraryCore.frameworkLibrary.27934
+- _CoreLocationLibraryCore.frameworkLibrary.34503
+- _CoreLocationLibraryCore.frameworkLibrary.37983
+- _CoreLocationLibraryCore.frameworkLibrary.41312
+- _CoreLocationLibraryCore.frameworkLibrary.54271
+- _CoreRoutineLibraryCore.frameworkLibrary.27951
+- _CoreTelephonyLibrary.49209
+- _CoreTelephonyLibraryCore.frameworkLibrary.49229
+- _HealthUILibrary.sLib.55719
+- _HealthUILibrary.sOnce.55712
+- _MapKitLibrary.41292
+- _MapKitLibraryCore.frameworkLibrary.30583
+- _MapKitLibraryCore.frameworkLibrary.34482
+- _MapKitLibraryCore.frameworkLibrary.41301
+- _MapKitLibraryCore.frameworkLibrary.53137
+- _MediaExperienceLibraryCore.frameworkLibrary.56310
+- _MediaPlayerLibrary.38934
+- _MediaPlayerLibrary.41219
+- _MediaPlayerLibrary.55335
+- _MediaPlayerLibraryCore.frameworkLibrary.28991
+- _MediaPlayerLibraryCore.frameworkLibrary.38939
+- _MediaPlayerLibraryCore.frameworkLibrary.41229
+- _MediaPlayerLibraryCore.frameworkLibrary.43546
+- _MediaPlayerLibraryCore.frameworkLibrary.55346
+- _NetworkExtensionLibraryCore.frameworkLibrary.56068
+- _PDFKitLibraryCore.frameworkLibrary.48485
+- _PDFKitLibraryCore.frameworkLibrary.54547
+- _PhotosLibrary.27794
+- _PhotosLibrary.31169
+- _PhotosLibrary.47505
+- _PhotosLibrary.52361
+- _PhotosLibrary.52504
+- _PhotosLibraryCore.frameworkLibrary.27805
+- _PhotosLibraryCore.frameworkLibrary.31179
+- _PhotosLibraryCore.frameworkLibrary.31306
+- _PhotosLibraryCore.frameworkLibrary.40166
+- _PhotosLibraryCore.frameworkLibrary.42823
+- _PhotosLibraryCore.frameworkLibrary.43502
+- _PhotosLibraryCore.frameworkLibrary.47511
+- _PhotosLibraryCore.frameworkLibrary.52371
+- _PhotosLibraryCore.frameworkLibrary.52510
+- _PosterBoardServicesLibrary.54746
+- _PosterBoardServicesLibraryCore.frameworkLibrary.43234
+- _PosterBoardServicesLibraryCore.frameworkLibrary.49889
+- _PosterBoardServicesLibraryCore.frameworkLibrary.54756
+- _ReminderKitLibraryCore.frameworkLibrary.30551
+- _ShazamKitLibraryCore.frameworkLibrary.27501
+- _TranslationLibraryCore.frameworkLibrary.54636
+- _UIKitLibrary.49864
+- _UIKitLibrary.sLib.38557
+- _UIKitLibrary.sLib.43710
+- _UIKitLibrary.sLib.43750
+- _UIKitLibrary.sLib.48728
+- _UIKitLibrary.sLib.51917
+- _UIKitLibrary.sOnce.38555
+- _UIKitLibrary.sOnce.43700
+- _UIKitLibrary.sOnce.43743
+- _UIKitLibrary.sOnce.48721
+- _UIKitLibrary.sOnce.51910
+- _UIKitLibraryCore.frameworkLibrary.49866
+- _UIPasteboardFunction.43705
+- _WFCoreTelephonyConnectionCallbackStub.49254
+- _WFEnforceClass.31197
+- _WFEnforceClass.38029
+- _WFEnforceClass.38929
+- _WFEnforceClass.39416
+- _WFEnforceClass.39841
+- _WFEnforceClass.48865
+- _WFEnforceClass.49037
+- _WFEnforceClass.49344
+- _WFEnforceClass.54848
+- _WFEnforceClass.56703
+- __OBJC_$_INSTANCE_METHODS_WFAskLLMAction(ActionKit)
+- ___AVFoundationLibraryCore_block_invoke.30465
+- ___AVFoundationLibraryCore_block_invoke.30770
+- ___AVFoundationLibraryCore_block_invoke.38494
+- ___AVFoundationLibraryCore_block_invoke.42380
+- ___AVFoundationLibraryCore_block_invoke.45218
+- ___AVFoundationLibraryCore_block_invoke.47639
+- ___AVFoundationLibraryCore_block_invoke.52654
+- ___AccessibilityUtilitiesLibraryCore_block_invoke.51548
+- ___Block_byref_object_copy_.29201
+- ___Block_byref_object_copy_.34475
+- ___Block_byref_object_copy_.35745
+- ___Block_byref_object_copy_.36831
+- ___Block_byref_object_copy_.37965
+- ___Block_byref_object_copy_.38960
+- ___Block_byref_object_copy_.40839
+- ___Block_byref_object_copy_.42721
+- ___Block_byref_object_copy_.46855
+- ___Block_byref_object_copy_.47492
+- ___Block_byref_object_copy_.48617
+- ___Block_byref_object_copy_.49922
+- ___Block_byref_object_copy_.51931
+- ___Block_byref_object_copy_.52349
+- ___Block_byref_object_copy_.55081
+- ___Block_byref_object_copy_.55751
+- ___Block_byref_object_copy_.56649
+- ___Block_byref_object_copy_.56693
+- ___Block_byref_object_dispose_.29202
+- ___Block_byref_object_dispose_.34476
+- ___Block_byref_object_dispose_.35746
+- ___Block_byref_object_dispose_.36832
+- ___Block_byref_object_dispose_.37966
+- ___Block_byref_object_dispose_.38961
+- ___Block_byref_object_dispose_.40840
+- ___Block_byref_object_dispose_.42722
+- ___Block_byref_object_dispose_.46856
+- ___Block_byref_object_dispose_.47493
+- ___Block_byref_object_dispose_.48618
+- ___Block_byref_object_dispose_.49923
+- ___Block_byref_object_dispose_.51932
+- ___Block_byref_object_dispose_.52350
+- ___Block_byref_object_dispose_.55082
+- ___Block_byref_object_dispose_.55752
+- ___Block_byref_object_dispose_.56650
+- ___Block_byref_object_dispose_.56694
+- ___ContactsLibraryCore_block_invoke.30603
+- ___CoreLocationLibraryCore_block_invoke.27935
+- ___CoreLocationLibraryCore_block_invoke.34504
+- ___CoreLocationLibraryCore_block_invoke.37984
+- ___CoreLocationLibraryCore_block_invoke.41313
+- ___CoreLocationLibraryCore_block_invoke.54272
+- ___CoreLocationLibrary_block_invoke.51816
+- ___CoreRoutineLibraryCore_block_invoke.27952
+- ___CoreTelephonyLibraryCore_block_invoke.49230
+- ___HealthUILibrary_block_invoke.55717
+- ___MapKitLibraryCore_block_invoke.30584
+- ___MapKitLibraryCore_block_invoke.34483
+- ___MapKitLibraryCore_block_invoke.41302
+- ___MapKitLibraryCore_block_invoke.53138
+- ___MediaExperienceLibraryCore_block_invoke.56311
+- ___MediaPlayerLibraryCore_block_invoke.28992
+- ___MediaPlayerLibraryCore_block_invoke.38940
+- ___MediaPlayerLibraryCore_block_invoke.41230
+- ___MediaPlayerLibraryCore_block_invoke.43547
+- ___MediaPlayerLibraryCore_block_invoke.55347
+- ___NetworkExtensionLibraryCore_block_invoke.56069
+- ___PDFKitLibraryCore_block_invoke.48486
+- ___PDFKitLibraryCore_block_invoke.54548
+- ___PhotosLibraryCore_block_invoke.27806
+- ___PhotosLibraryCore_block_invoke.31180
+- ___PhotosLibraryCore_block_invoke.31307
+- ___PhotosLibraryCore_block_invoke.40167
+- ___PhotosLibraryCore_block_invoke.42824
+- ___PhotosLibraryCore_block_invoke.43503
+- ___PhotosLibraryCore_block_invoke.47512
+- ___PhotosLibraryCore_block_invoke.52372
+- ___PhotosLibraryCore_block_invoke.52511
+- ___PosterBoardServicesLibraryCore_block_invoke.43235
+- ___PosterBoardServicesLibraryCore_block_invoke.49890
+- ___PosterBoardServicesLibraryCore_block_invoke.54757
+- ___ReminderKitLibraryCore_block_invoke.30552
+- ___ShazamKitLibraryCore_block_invoke.27502
+- ___TranslationLibraryCore_block_invoke.54637
+- ___UIKitLibraryCore_block_invoke.49867
+- ___UIKitLibrary_block_invoke.38563
+- ___UIKitLibrary_block_invoke.43708
+- ___UIKitLibrary_block_invoke.43748
+- ___UIKitLibrary_block_invoke.48726
+- ___UIKitLibrary_block_invoke.51915
+- ___block_literal_global.166.36023
+- ___block_literal_global.172.44124
+- ___block_literal_global.176.49637
+- ___block_literal_global.178.36027
+- ___block_literal_global.181.33814
+- ___block_literal_global.181.46125
+- ___block_literal_global.184.33580
+- ___block_literal_global.184.51990
+- ___block_literal_global.187.51991
+- ___block_literal_global.187.56459
+- ___block_literal_global.190.43088
+- ___block_literal_global.192.44130
+- ___block_literal_global.194.40896
+- ___block_literal_global.194.53505
+- ___block_literal_global.194.54666
+- ___block_literal_global.196.49159
+- ___block_literal_global.201.38037
+- ___block_literal_global.204.43091
+- ___block_literal_global.204.51939
+- ___block_literal_global.206.43092
+- ___block_literal_global.208.43093
+- ___block_literal_global.218.33593
+- ___block_literal_global.225.33595
+- ___block_literal_global.225.41842
+- ___block_literal_global.272.43391
+- ___block_literal_global.27866
+- ___block_literal_global.28188
+- ___block_literal_global.28403
+- ___block_literal_global.28556
+- ___block_literal_global.28910
+- ___block_literal_global.28922
+- ___block_literal_global.29575
+- ___block_literal_global.29680
+- ___block_literal_global.29759
+- ___block_literal_global.30220
+- ___block_literal_global.30260
+- ___block_literal_global.30474
+- ___block_literal_global.31679
+- ___block_literal_global.32092
+- ___block_literal_global.33136
+- ___block_literal_global.33396
+- ___block_literal_global.33574
+- ___block_literal_global.33812
+- ___block_literal_global.34308
+- ___block_literal_global.35229
+- ___block_literal_global.36021
+- ___block_literal_global.37018
+- ___block_literal_global.372.51053
+- ___block_literal_global.37574
+- ___block_literal_global.376.44492
+- ___block_literal_global.376.51055
+- ___block_literal_global.37866
+- ___block_literal_global.379.51911
+- ___block_literal_global.38056
+- ___block_literal_global.38556
+- ___block_literal_global.38926
+- ___block_literal_global.39134
+- ___block_literal_global.39258
+- ___block_literal_global.40037
+- ___block_literal_global.40269
+- ___block_literal_global.40355
+- ___block_literal_global.40899
+- ___block_literal_global.41184
+- ___block_literal_global.41841
+- ___block_literal_global.41952
+- ___block_literal_global.42039
+- ___block_literal_global.42226
+- ___block_literal_global.42605
+- ___block_literal_global.42869
+- ___block_literal_global.43026
+- ___block_literal_global.43087
+- ___block_literal_global.43397
+- ___block_literal_global.43520
+- ___block_literal_global.43701
+- ___block_literal_global.43744
+- ___block_literal_global.44123
+- ___block_literal_global.44535
+- ___block_literal_global.44640
+- ___block_literal_global.44844
+- ___block_literal_global.44956
+- ___block_literal_global.45722
+- ___block_literal_global.45970
+- ___block_literal_global.46107
+- ___block_literal_global.46129
+- ___block_literal_global.46634
+- ___block_literal_global.46929
+- ___block_literal_global.46976
+- ___block_literal_global.47848
+- ___block_literal_global.47924
+- ___block_literal_global.48479
+- ___block_literal_global.48722
+- ___block_literal_global.49157
+- ___block_literal_global.49516
+- ___block_literal_global.49649
+- ___block_literal_global.50641
+- ___block_literal_global.51163
+- ___block_literal_global.51209
+- ___block_literal_global.51809
+- ___block_literal_global.52003
+- ___block_literal_global.52307
+- ___block_literal_global.52611
+- ___block_literal_global.52899
+- ___block_literal_global.53059
+- ___block_literal_global.53314
+- ___block_literal_global.53432
+- ___block_literal_global.53478
+- ___block_literal_global.53516
+- ___block_literal_global.53660
+- ___block_literal_global.53768
+- ___block_literal_global.53825
+- ___block_literal_global.54011
+- ___block_literal_global.54676
+- ___block_literal_global.55050
+- ___block_literal_global.55471
+- ___block_literal_global.55713
+- ___block_literal_global.56457
+- ___block_literal_global.56978
+- ___block_literal_global.57135
+- ___getAVAudioSessionCategoryPlaybackSymbolLoc_block_invoke.42407
+- ___getAVAudioSessionClass_block_invoke.38490
+- ___getAVAudioSessionClass_block_invoke.42367
+- ___getAVAudioSessionClass_block_invoke.47648
+- ___getAVAudioSessionModeDefaultSymbolLoc_block_invoke.42392
+- ___getAVLinearPCMBitDepthKeySymbolLoc_block_invoke.47676
+- ___getAVLinearPCMIsFloatKeySymbolLoc_block_invoke.47681
+- ___getAVMediaTypeVideoSymbolLoc_block_invoke.52607
+- ___getAVSystemControllerClass_block_invoke.56309
+- ___getCLGeocoderClass_block_invoke.41291
+- ___getCLLocationClass_block_invoke.27933
+- ___getCLLocationClass_block_invoke.34502
+- ___getCLLocationClass_block_invoke.37969
+- ___getCLLocationClass_block_invoke.54144
+- ___getCLPlacemarkClass_block_invoke.38011
+- ___getCLPlacemarkClass_block_invoke.41289
+- ___getMKErrorDomainSymbolLoc_block_invoke.41375
+- ___getMKMapItemClass_block_invoke.30582
+- ___getMKMapItemClass_block_invoke.34481
+- ___getMKMapItemClass_block_invoke.41347
+- ___getMKMapItemClass_block_invoke.53136
+- ___getMPAVEndpointRouteClass_block_invoke.38933
+- ___getMPAVOutputDeviceRouteClass_block_invoke.55357
+- ___getMPAVRoutingControllerClass_block_invoke.39020
+- ___getMPAVRoutingControllerErrorDomainSymbolLoc_block_invoke.55334
+- ___getMPMediaItemCollectionClass_block_invoke.43544
+- ___getMPMediaLibraryClass_block_invoke.28985
+- ___getMPMediaLibraryClass_block_invoke.41216
+- ___getNEVPNManagerClass_block_invoke.56035
+- ___getPDFDocumentClass_block_invoke.48484
+- ___getPDFDocumentClass_block_invoke.54546
+- ___getPHAssetChangeRequestClass_block_invoke.52360
+- ___getPHAssetClass_block_invoke.27793
+- ___getPHAssetClass_block_invoke.40163
+- ___getPHAssetClass_block_invoke.43499
+- ___getPHAssetClass_block_invoke.52382
+- ___getPHAssetCollectionChangeRequestClass_block_invoke.47520
+- ___getPHAssetCollectionChangeRequestClass_block_invoke.52356
+- ___getPHAssetCollectionClass_block_invoke.31305
+- ___getPHAssetCollectionClass_block_invoke.47496
+- ___getPHAssetCollectionClass_block_invoke.52503
+- ___getPHPhotoLibraryClass_block_invoke.42822
+- ___getPHPhotoLibraryClass_block_invoke.52497
+- ___getPRSServiceClass_block_invoke.43232
+- ___getPRSServiceClass_block_invoke.49886
+- ___getPRSServiceClass_block_invoke.54741
+- ___getREMSaveRequestClass_block_invoke.30661
+- ___get_CTServerConnectionCreateWithIdentifierSymbolLoc_block_invoke.49252
+- ___get_LTTranslatorClass_block_invoke.54633
+- ___getkCLErrorDomainSymbolLoc_block_invoke.41320
+- _audit_stringAVFoundation.30468
+- _audit_stringAVFoundation.30774
+- _audit_stringAVFoundation.38510
+- _audit_stringAVFoundation.42386
+- _audit_stringAVFoundation.45229
+- _audit_stringAVFoundation.47642
+- _audit_stringAVFoundation.52657
+- _audit_stringAccessibilityUtilities.51559
+- _audit_stringContacts.30606
+- _audit_stringCoreLocation.27950
+- _audit_stringCoreLocation.34509
+- _audit_stringCoreLocation.37990
+- _audit_stringCoreLocation.41315
+- _audit_stringCoreLocation.54287
+- _audit_stringCoreRoutine.27956
+- _audit_stringCoreTelephony.49233
+- _audit_stringMapKit.30589
+- _audit_stringMapKit.34497
+- _audit_stringMapKit.41308
+- _audit_stringMapKit.53153
+- _audit_stringMediaExperience.56327
+- _audit_stringMediaPlayer.29008
+- _audit_stringMediaPlayer.38944
+- _audit_stringMediaPlayer.41236
+- _audit_stringMediaPlayer.43563
+- _audit_stringMediaPlayer.55350
+- _audit_stringNetworkExtension.56084
+- _audit_stringPDFKit.48501
+- _audit_stringPDFKit.54563
+- _audit_stringPhotos.27812
+- _audit_stringPhotos.31186
+- _audit_stringPhotos.31323
+- _audit_stringPhotos.40182
+- _audit_stringPhotos.42840
+- _audit_stringPhotos.43519
+- _audit_stringPhotos.47518
+- _audit_stringPhotos.52378
+- _audit_stringPhotos.52517
+- _audit_stringPosterBoardServices.43251
+- _audit_stringPosterBoardServices.49893
+- _audit_stringPosterBoardServices.54763
+- _audit_stringReminderKit.30558
+- _audit_stringShazamKit.27516
+- _audit_stringUIKit.49869
+- _block_copy_helper.24
+- _block_copy_helper.32
+- _block_descriptor.26
+- _block_descriptor.34
+- _block_destroy_helper.25
+- _block_destroy_helper.33
+- _classCLPlacemark.51811
+- _classUIPasteboard.43703
+- _getAFPreferencesClass.49587
+- _getAVAudioSessionCategoryPlayback.42390
+- _getAVAudioSessionCategoryPlaybackSymbolLoc.ptr.42406
+- _getAVAudioSessionClass.42365
+- _getAVAudioSessionClass.47643
+- _getAVAudioSessionClass.softClass.38489
+- _getAVAudioSessionClass.softClass.42366
+- _getAVAudioSessionClass.softClass.47647
+- _getAVAudioSessionModeDefaultSymbolLoc.ptr.42391
+- _getAVLinearPCMBitDepthKeySymbolLoc.ptr.47675
+- _getAVLinearPCMIsFloatKeySymbolLoc.ptr.47680
+- _getAVMediaTypeVideoSymbolLoc.ptr.52606
+- _getAVSystemControllerClass.softClass.56308
+- _getCLGeocoderClass.softClass.41290
+- _getCLLocationClass.27931
+- _getCLLocationClass.34500
+- _getCLLocationClass.softClass.27932
+- _getCLLocationClass.softClass.34501
+- _getCLLocationClass.softClass.37968
+- _getCLLocationClass.softClass.54143
+- _getCLPlacemarkClass.45968
+- _getCLPlacemarkClass.51769
+- _getCLPlacemarkClass.softClass.38010
+- _getCLPlacemarkClass.softClass.41288
+- _getMKErrorDomainSymbolLoc.ptr.41374
+- _getMKMapItemClass.41284
+- _getMKMapItemClass.softClass.30581
+- _getMKMapItemClass.softClass.34480
+- _getMKMapItemClass.softClass.41346
+- _getMKMapItemClass.softClass.53135
+- _getMPAVEndpointRouteClass.softClass.38932
+- _getMPAVOutputDeviceRouteClass.softClass.55356
+- _getMPAVRoutingControllerClass.softClass.39019
+- _getMPAVRoutingControllerErrorDomainSymbolLoc.ptr.55333
+- _getMPMediaItemCollectionClass.softClass.43543
+- _getMPMediaLibraryClass.softClass.28984
+- _getMPMediaLibraryClass.softClass.41215
+- _getNEVPNManagerClass.softClass.56034
+- _getPDFDocumentClass.48480
+- _getPDFDocumentClass.54531
+- _getPDFDocumentClass.softClass.48483
+- _getPDFDocumentClass.softClass.54545
+- _getPHAssetChangeRequestClass.softClass.52359
+- _getPHAssetClass.52344
+- _getPHAssetClass.softClass.27792
+- _getPHAssetClass.softClass.40162
+- _getPHAssetClass.softClass.43498
+- _getPHAssetClass.softClass.52381
+- _getPHAssetCollectionChangeRequestClass.softClass.47519
+- _getPHAssetCollectionChangeRequestClass.softClass.52355
+- _getPHAssetCollectionClass.52498
+- _getPHAssetCollectionClass.softClass.31304
+- _getPHAssetCollectionClass.softClass.47495
+- _getPHAssetCollectionClass.softClass.52502
+- _getPHPhotoLibraryClass.softClass.42821
+- _getPHPhotoLibraryClass.softClass.52496
+- _getPRSServiceClass.softClass.43231
+- _getPRSServiceClass.softClass.49885
+- _getPRSServiceClass.softClass.54740
+- _getREMSaveRequestClass.softClass.30660
+- _getUIPasteboardClass.43696
+- _get_CTServerConnectionCreateWithIdentifierSymbolLoc.ptr.49251
+- _get_LTTranslatorClass.softClass.54632
+- _getkCLErrorDomainSymbolLoc.ptr.41319
+- _initCLPlacemark.51807
+- _initUIPasteboard.43699
+- _initialize.onceToken.40036
+- _initialize.onceToken.40354
+- _objectdestroy.23Tm
+- _sharedInstance.instance.35907
+- _sharedInstance.predicate.35906
+- _structFields.structFields.27.36092
+- _structFields.structFields.36059
+- _structFields.structFields.52.36117
+- _structFields.structFields.77.36141
+CStrings:
++ "    WITH extracted_dates AS (\n        SELECT\n            name,\n            isA,\n            json_extract(occurances, ?) AS dates\n        FROM \"Intelligenceplatform.Entity\".\"HolidayEvent\"\n    )\n    SELECT DISTINCT name, isA\n    FROM extracted_dates\n    WHERE json_type(dates) = 'array' AND json_array_length(dates) > 0;"
++ "    WITH extracted_dates AS (\n        SELECT\n            name,\n            json_extract(occurances, ?) AS occurances\n        FROM \"Intelligenceplatform.Entity\".\"HolidayEvent\"\n    )\n    SELECT DISTINCT\n        json_each.value AS occurrence\n    FROM \n        extracted_dates, \n        json_each(extracted_dates.occurances)\n    WHERE extracted_dates.name = ?;"
++ "ActionKit/WFSpotlightSearchAction.swift"
++ "Failed to populate WFRunActionEvent because the model was nil."
++ "Failed to populate WFRunActionEvent because the session was nil."
++ "Failed to populate adapterVersion, as no version is set for model %s"
++ "Failed to report model configuration identifier: %@"
++ "T@\"WFActionParameterSummary\",N,R"
++ "Use ${WFLLMModel}"
++ "WFSpotlightSearchAction:\n\nCSUserQueries:\n%s"
++ "WFSpotlightSearchAction: Added query for type: %s: %@ %s"
++ "WFSpotlightSearchAction: Creating separate queries for each result type"
++ "WFSpotlightSearchResultTypePickerParameter: Tried to get accessoryImage for deprecated 'any' type"
++ "initWithLocalizedString:"
++ "isChineseRegionDevice"
++ "populateSuccessfulRunEventProperties:"
++ "property.propertyClasses CONTAINS %@ AND value != nil"
++ "requiresUpdatedHome"
++ "runLatencies"
++ "sessionForMetrics"
++ "setAdapterModel:"
++ "setBaseModel:"
++ "setModelDestination:"
++ "setNumFollowUp:"
++ "setRegionEligibility:"
++ "setRequestType:"
++ "setResultType:"
++ "setRunLatency:"
++ "unexpected any type in spotlightBundleIdentifierFilterExpression"
++ "unexpected any type in spotlightTypeIdentifierFilterExpression"
+- "    WITH extracted_dates AS (\n        SELECT\n            name,\n            isA,\n            json_extract(occurances, ?) AS dates\n        FROM \"Intelligenceplatform.Entity\".\"HolidayEvent\"\n    )\n    SELECT name, isA\n    FROM extracted_dates\n    WHERE json_type(dates) = 'array' AND json_array_length(dates) > 0;"
+- "    WITH extracted_dates AS (\n        SELECT\n            name,\n            json_extract(occurances, ?) AS occurances\n        FROM \"Intelligenceplatform.Entity\".\"HolidayEvent\"\n    )\n    SELECT DISTINCT \n        json_each.value AS occurrence\n    FROM \n        extracted_dates, \n        json_each(extracted_dates.occurances)\n    WHERE extracted_dates.name = ?;"
+- "WFSpotlightSearchAction:\n\nCSUserQueries:\n%s\n\n filterQueries:\n%s"
+- "WFSpotlightSearchAction: Added query for type: %s"
+- "WFSpotlightSearchAction: Creating separate queries for each result type in 'any' mode"
+- "fetchAttributes"
+- "property.propertyClass = %@ AND value != nil"
+
+```

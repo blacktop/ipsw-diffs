@@ -1,0 +1,513 @@
+## CoreUtils
+
+> `/System/Library/PrivateFrameworks/CoreUtils.framework/CoreUtils`
+
+```diff
+
+-800.4.0.0.0
+-  __TEXT.__text: 0x11e158
+-  __TEXT.__auth_stubs: 0x3050
++800.7.0.0.0
++  __TEXT.__text: 0x11e240
++  __TEXT.__auth_stubs: 0x3030
+   __TEXT.__objc_methlist: 0x9d80
+-  __TEXT.__cstring: 0x23049
+-  __TEXT.__const: 0x2380
++  __TEXT.__cstring: 0x2303d
++  __TEXT.__const: 0x2398
+   __TEXT.__gcc_except_tab: 0x1d68
+-  __TEXT.__oslogstring: 0xd90
+-  __TEXT.__unwind_info: 0x3a40
++  __TEXT.__oslogstring: 0xdee
++  __TEXT.__unwind_info: 0x3aa0
+   __TEXT.__eh_frame: 0x50
+   __TEXT.__objc_classname: 0xcd4
+   __TEXT.__objc_methname: 0x15f54
+   __TEXT.__objc_methtype: 0x46c5
+   __TEXT.__objc_stubs: 0xa4c0
+   __DATA_CONST.__got: 0x690
+-  __DATA_CONST.__const: 0x2a28
++  __DATA_CONST.__const: 0x2a00
+   __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_protolist: 0x148
+
+   __DATA_CONST.__objc_protorefs: 0x20
+   __DATA_CONST.__objc_superrefs: 0x248
+   __DATA_CONST.__objc_arraydata: 0x8
+-  __AUTH_CONST.__auth_got: 0x1838
+-  __AUTH_CONST.__const: 0x2830
++  __AUTH_CONST.__auth_got: 0x1828
++  __AUTH_CONST.__const: 0x2850
+   __AUTH_CONST.__cfstring: 0x4480
+   __AUTH_CONST.__objc_const: 0x13d78
+   __AUTH_CONST.__objc_intobj: 0x258
+
+   __AUTH.__objc_data: 0x1f40
+   __AUTH.__data: 0xb28
+   __DATA.__objc_ivar: 0x154c
+-  __DATA.__data: 0x31b0
+-  __DATA.__bss: 0x1350
++  __DATA.__data: 0x3140
++  __DATA.__bss: 0x1360
+   __DATA.__common: 0x2a
+   __DATA_DIRTY.__objc_data: 0x280
+   __DATA_DIRTY.__data: 0x178
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 30E3F8F3-24B7-3BBB-ABE0-F175A0FE9F39
+-  Functions: 5853
+-  Symbols:   16914
+-  CStrings:  10228
++  UUID: FFC9B283-5A95-36A7-B344-BA25FA938CBD
++  Functions: 5852
++  Symbols:   16911
++  CStrings:  10231
+ 
+Symbols:
++ _ACAccountStoreFunction.8199
++ _AKAccountManagerFunction.8188
++ _AVAudioSessionFunction.9456
++ _AVFoundationLibrary.sLib.9460
++ _AVFoundationLibrary.sOnce.9452
++ _AccountsLibrary.sLib.8202
++ _AccountsLibrary.sOnce.8196
++ _AppleAccountLibrary.sLib.8205
++ _AppleAccountLibrary.sOnce.8192
++ _AuthKitLibrary.sLib.8191
++ _AuthKitLibrary.sOnce.8185
++ _CALayerFunction.13197
++ _CATransactionFunction.13214
++ _CBCentralManagerFunction.1397
++ _CBManagerIsPrivilegedDaemonKeyFunction.1375
++ _CBManagerNeedsRestrictedStateOperationFunction.1392
++ _CBPeripheralManagerFunction.1559
++ _CoreAnalyticsLibrary.sLib.8645
++ _CoreAnalyticsLibrary.sOnce.8643
++ _CoreBluetoothLibrary.sLib.1170
++ _CoreBluetoothLibrary.sLib.1348
++ _CoreBluetoothLibrary.sLib.1564
++ _CoreBluetoothLibrary.sOnce.1168
++ _CoreBluetoothLibrary.sOnce.1346
++ _CoreBluetoothLibrary.sOnce.1554
++ _CoreHAPLibrary.sLib.5786
++ _CoreHAPLibrary.sOnce.5780
++ _HAPSystemKeychainStoreFunction.5783
++ _MobileCoreServicesLibrary.sLib.13606
++ _MobileCoreServicesLibrary.sOnce.13605
++ _QuartzCoreLibrary.sLib.13162
++ _QuartzCoreLibrary.sOnce.13160
++ _RapportLibrary.sLib.5802
++ _RapportLibrary.sOnce.5797
++ _VideoToolboxLibrary.sLib.13169
++ _VideoToolboxLibrary.sOnce.13168
++ _WiFiAwareInternetSharingConfigurationFunction.4930
++ _WiFiPeerToPeerLibrary.sLib.4883
++ _WiFiPeerToPeerLibrary.sLib.5205
++ _WiFiPeerToPeerLibrary.sLib.9888
++ _WiFiPeerToPeerLibrary.sOnce.4877
++ _WiFiPeerToPeerLibrary.sOnce.5200
++ _WiFiPeerToPeerLibrary.sOnce.9887
++ __NetTransportFinalize.11995
++ __NetTransportFinalize.12003
++ __NetTransportInitialize.11996
++ __NetTransportInitialize.12006
++ __NetTransportRead.11992
++ __NetTransportRead.12005
++ __NetTransportWriteV.11991
++ __NetTransportWriteV.12004
++ ___AVFoundationLibrary_block_invoke.9458
++ ___AccountsLibrary_block_invoke.8201
++ ___AppleAccountLibrary_block_invoke.8204
++ ___AuthKitLibrary_block_invoke.8190
++ ___Block_byref_object_copy_.10437
++ ___Block_byref_object_copy_.10935
++ ___Block_byref_object_copy_.12550
++ ___Block_byref_object_copy_.2996
++ ___Block_byref_object_copy_.4885
++ ___Block_byref_object_copy_.5228
++ ___Block_byref_object_copy_.5744
++ ___Block_byref_object_copy_.6069
++ ___Block_byref_object_copy_.8990
++ ___Block_byref_object_dispose_.10438
++ ___Block_byref_object_dispose_.10936
++ ___Block_byref_object_dispose_.12551
++ ___Block_byref_object_dispose_.2997
++ ___Block_byref_object_dispose_.4886
++ ___Block_byref_object_dispose_.5229
++ ___Block_byref_object_dispose_.5745
++ ___Block_byref_object_dispose_.6070
++ ___Block_byref_object_dispose_.8991
++ ___CoreAnalyticsLibrary_block_invoke.8679
++ ___CoreBluetoothLibrary_block_invoke.1173
++ ___CoreBluetoothLibrary_block_invoke.1351
++ ___CoreBluetoothLibrary_block_invoke.1562
++ ___CoreHAPLibrary_block_invoke.5785
++ ___MobileCoreServicesLibrary_block_invoke.13609
++ ___QuartzCoreLibrary_block_invoke.13166
++ ___RapportLibrary_block_invoke.5801
++ ___VideoToolboxLibrary_block_invoke.13172
++ ___WiFiPeerToPeerLibrary_block_invoke.4881
++ ___WiFiPeerToPeerLibrary_block_invoke.5203
++ ___WiFiPeerToPeerLibrary_block_invoke.9891
++ ___block_descriptor_tmp.11641
++ ___block_descriptor_tmp.11691
++ ___block_descriptor_tmp.14590
++ ___block_descriptor_tmp.3.14606
++ ___block_descriptor_tmp.5
++ ___block_literal_global.10236
++ ___block_literal_global.10470
++ ___block_literal_global.11478
++ ___block_literal_global.11628
++ ___block_literal_global.11689
++ ___block_literal_global.1169
++ ___block_literal_global.12331
++ ___block_literal_global.13161
++ ___block_literal_global.1347
++ ___block_literal_global.13525
++ ___block_literal_global.141.8309
++ ___block_literal_global.14449
++ ___block_literal_global.14593
++ ___block_literal_global.155.8292
++ ___block_literal_global.1555
++ ___block_literal_global.264.10915
++ ___block_literal_global.268.8226
++ ___block_literal_global.271.8227
++ ___block_literal_global.276.8228
++ ___block_literal_global.288.9899
++ ___block_literal_global.29.8340
++ ___block_literal_global.300.9893
++ ___block_literal_global.3025
++ ___block_literal_global.308.9865
++ ___block_literal_global.33.8341
++ ___block_literal_global.3412
++ ___block_literal_global.3614
++ ___block_literal_global.375.8146
++ ___block_literal_global.407.8127
++ ___block_literal_global.41.8342
++ ___block_literal_global.413.8123
++ ___block_literal_global.47.8344
++ ___block_literal_global.4899
++ ___block_literal_global.5119
++ ___block_literal_global.52.8346
++ ___block_literal_global.5798
++ ___block_literal_global.58.8347
++ ___block_literal_global.6563
++ ___block_literal_global.7.14595
++ ___block_literal_global.7001
++ ___block_literal_global.7285
++ ___block_literal_global.7494
++ ___block_literal_global.7960
++ ___block_literal_global.8339
++ ___block_literal_global.856
++ ___block_literal_global.8644
++ ___block_literal_global.908
++ ___block_literal_global.9241
++ ___block_literal_global.9472
++ ___block_literal_global.9638
++ ___block_literal_global.9904
++ ___initValCBManagerIsPrivilegedDaemonKey_block_invoke.1373
++ ___initValCBManagerNeedsRestrictedStateOperation_block_invoke.1390
++ ___logger_block_invoke.12335
++ ___logger_block_invoke.14453
++ ___logger_block_invoke.14602
++ ___logger_block_invoke.5123
++ ___logger_block_invoke.7498
++ ___logger_block_invoke.8222
++ ___logger_block_invoke.9845
++ _classACAccountStore.8197
++ _classAKAccountManager.8186
++ _classAVAudioSession.9454
++ _classCALayer.13195
++ _classCATransaction.13212
++ _classCBCentralManager.1395
++ _classCBPeripheralManager.1557
++ _classHAPSystemKeychainStore.5781
++ _classWiFiAwareInternetSharingConfiguration.4928
++ _constantValCBManagerIsPrivilegedDaemonKey.1371
++ _constantValCBManagerNeedsRestrictedStateOperation.1388
++ _gCFArrayType.12257
++ _gCFBooleanType.12258
++ _gCFDataType.12259
++ _gCFDateType.12260
++ _gCFDictionaryType.12261
++ _gCFNumberType.12256
++ _gCFStringType.12262
++ _gLogCategory_CUPairing
++ _getACAccountStoreClass.8193
++ _getAKAccountManagerClass.8176
++ _getAVAudioSessionClass.9440
++ _getCALayerClass.13176
++ _getCATransactionClass.13202
++ _getCBCentralManagerClass.1376
++ _getCBManagerIsPrivilegedDaemonKey.1367
++ _getCBManagerNeedsRestrictedStateOperation.1377
++ _getCBPeripheralManagerClass.1549
++ _getHAPSystemKeychainStoreClass.5777
++ _getWiFiAwareInternetSharingConfigurationClass.4909
++ _initACAccountStore.8195
++ _initAKAccountManager.8184
++ _initAVAudioSession.9451
++ _initAnalyticsSendEvent.8661
++ _initCALayer.13193
++ _initCATransaction.13210
++ _initCBCentralManager.1394
++ _initCBPeripheralManager.1553
++ _initHAPSystemKeychainStore.5779
++ _initValCBManagerIsPrivilegedDaemonKey.1369
++ _initValCBManagerNeedsRestrictedStateOperation.1386
++ _initWiFiAwareInternetSharingConfiguration.4926
++ _logger.12327
++ _logger.14372
++ _logger.5116
++ _logger.7491
++ _logger.8217
++ _logger.9840
++ _sCUOSLogCreateOnce_logger.12330
++ _sCUOSLogCreateOnce_logger.14448
++ _sCUOSLogCreateOnce_logger.14594
++ _sCUOSLogCreateOnce_logger.5118
++ _sCUOSLogCreateOnce_logger.7493
++ _sCUOSLogCreateOnce_logger.8219
++ _sCUOSLogCreateOnce_logger.9842
++ _sCUOSLogHandle_logger.12332
++ _sCUOSLogHandle_logger.14450
++ _sCUOSLogHandle_logger.14596
++ _sCUOSLogHandle_logger.5120
++ _sCUOSLogHandle_logger.7495
++ _sCUOSLogHandle_logger.8220
++ _sCUOSLogHandle_logger.9843
++ _softLinkAnalyticsSendEvent.8656
++ _softLinkOnceCBManagerIsPrivilegedDaemonKey.1370
++ _softLinkOnceCBManagerNeedsRestrictedStateOperation.1387
++ _xpc_connection_send_message_with_reply_sync
+- _ACAccountStoreFunction.8200
+- _AKAccountManagerFunction.8189
+- _AVAudioSessionFunction.9457
+- _AVFoundationLibrary.sLib.9461
+- _AVFoundationLibrary.sOnce.9453
+- _AccountsLibrary.sLib.8203
+- _AccountsLibrary.sOnce.8197
+- _AppleAccountLibrary.sLib.8206
+- _AppleAccountLibrary.sOnce.8193
+- _AuthKitLibrary.sLib.8192
+- _AuthKitLibrary.sOnce.8186
+- _CALayerFunction.13213
+- _CATransactionFunction.13230
+- _CBCentralManagerFunction.1398
+- _CBManagerIsPrivilegedDaemonKeyFunction.1376
+- _CBManagerNeedsRestrictedStateOperationFunction.1393
+- _CBPeripheralManagerFunction.1560
+- _CoreAnalyticsLibrary.sLib.8646
+- _CoreAnalyticsLibrary.sOnce.8644
+- _CoreBluetoothLibrary.sLib.1171
+- _CoreBluetoothLibrary.sLib.1349
+- _CoreBluetoothLibrary.sLib.1565
+- _CoreBluetoothLibrary.sOnce.1169
+- _CoreBluetoothLibrary.sOnce.1347
+- _CoreBluetoothLibrary.sOnce.1555
+- _CoreHAPLibrary.sLib.5787
+- _CoreHAPLibrary.sOnce.5781
+- _HAPSystemKeychainStoreFunction.5784
+- _MobileCoreServicesLibrary.sLib.13620
+- _MobileCoreServicesLibrary.sOnce.13619
+- _QuartzCoreLibrary.sLib.13178
+- _QuartzCoreLibrary.sOnce.13176
+- _RapportLibrary.sLib.5803
+- _RapportLibrary.sOnce.5798
+- _VideoToolboxLibrary.sLib.13185
+- _VideoToolboxLibrary.sOnce.13184
+- _WiFiAwareInternetSharingConfigurationFunction.4931
+- _WiFiPeerToPeerLibrary.sLib.4884
+- _WiFiPeerToPeerLibrary.sLib.5206
+- _WiFiPeerToPeerLibrary.sLib.9889
+- _WiFiPeerToPeerLibrary.sOnce.4878
+- _WiFiPeerToPeerLibrary.sOnce.5201
+- _WiFiPeerToPeerLibrary.sOnce.9888
+- __NetTransportFinalize.12004
+- __NetTransportFinalize.12012
+- __NetTransportInitialize.12005
+- __NetTransportInitialize.12015
+- __NetTransportRead.12001
+- __NetTransportRead.12014
+- __NetTransportWriteV.12000
+- __NetTransportWriteV.12013
+- ___AVFoundationLibrary_block_invoke.9459
+- ___AccountsLibrary_block_invoke.8202
+- ___AppleAccountLibrary_block_invoke.8205
+- ___AuthKitLibrary_block_invoke.8191
+- ___Block_byref_object_copy_.10438
+- ___Block_byref_object_copy_.10944
+- ___Block_byref_object_copy_.12568
+- ___Block_byref_object_copy_.2995
+- ___Block_byref_object_copy_.4886
+- ___Block_byref_object_copy_.5229
+- ___Block_byref_object_copy_.5745
+- ___Block_byref_object_copy_.6070
+- ___Block_byref_object_copy_.8991
+- ___Block_byref_object_dispose_.10439
+- ___Block_byref_object_dispose_.10945
+- ___Block_byref_object_dispose_.12569
+- ___Block_byref_object_dispose_.2996
+- ___Block_byref_object_dispose_.4887
+- ___Block_byref_object_dispose_.5230
+- ___Block_byref_object_dispose_.5746
+- ___Block_byref_object_dispose_.6071
+- ___Block_byref_object_dispose_.8992
+- ___CoreAnalyticsLibrary_block_invoke.8680
+- ___CoreBluetoothLibrary_block_invoke.1174
+- ___CoreBluetoothLibrary_block_invoke.1352
+- ___CoreBluetoothLibrary_block_invoke.1563
+- ___CoreHAPLibrary_block_invoke.5786
+- ___MobileCoreServicesLibrary_block_invoke.13623
+- ___QuartzCoreLibrary_block_invoke.13182
+- ___RapportLibrary_block_invoke.5802
+- ___VideoToolboxLibrary_block_invoke.13188
+- ___WiFiPeerToPeerLibrary_block_invoke.4882
+- ___WiFiPeerToPeerLibrary_block_invoke.5204
+- ___WiFiPeerToPeerLibrary_block_invoke.9892
+- ___block_descriptor_tmp.11650
+- ___block_descriptor_tmp.11700
+- ___block_descriptor_tmp.14608
+- ___block_descriptor_tmp.3.14618
+- ___block_descriptor_tmp.4
+- ___block_descriptor_tmp.7.14613
+- ___block_literal_global.10237
+- ___block_literal_global.10471
+- ___block_literal_global.11487
+- ___block_literal_global.11637
+- ___block_literal_global.11698
+- ___block_literal_global.1170
+- ___block_literal_global.12340
+- ___block_literal_global.13177
+- ___block_literal_global.1348
+- ___block_literal_global.13539
+- ___block_literal_global.141.8310
+- ___block_literal_global.14463
+- ___block_literal_global.14611
+- ___block_literal_global.155.8293
+- ___block_literal_global.1556
+- ___block_literal_global.264.10924
+- ___block_literal_global.268.8227
+- ___block_literal_global.271.8228
+- ___block_literal_global.276.8229
+- ___block_literal_global.288.9900
+- ___block_literal_global.29.8341
+- ___block_literal_global.300.9894
+- ___block_literal_global.3024
+- ___block_literal_global.308.9866
+- ___block_literal_global.33.8342
+- ___block_literal_global.3411
+- ___block_literal_global.3613
+- ___block_literal_global.375.8147
+- ___block_literal_global.407.8128
+- ___block_literal_global.41.8343
+- ___block_literal_global.413.8124
+- ___block_literal_global.47.8345
+- ___block_literal_global.4900
+- ___block_literal_global.5120
+- ___block_literal_global.52.8347
+- ___block_literal_global.5799
+- ___block_literal_global.58.8348
+- ___block_literal_global.6564
+- ___block_literal_global.7002
+- ___block_literal_global.7286
+- ___block_literal_global.7495
+- ___block_literal_global.7961
+- ___block_literal_global.8340
+- ___block_literal_global.855
+- ___block_literal_global.8645
+- ___block_literal_global.907
+- ___block_literal_global.9242
+- ___block_literal_global.9473
+- ___block_literal_global.9639
+- ___block_literal_global.9905
+- ___initValCBManagerIsPrivilegedDaemonKey_block_invoke.1374
+- ___initValCBManagerNeedsRestrictedStateOperation_block_invoke.1391
+- ___logger_block_invoke.12344
+- ___logger_block_invoke.14467
+- ___logger_block_invoke.5124
+- ___logger_block_invoke.7499
+- ___logger_block_invoke.8223
+- ___logger_block_invoke.9846
+- ___xpc_send_message_sync_block_invoke_2
+- ___xpc_send_message_sync_block_invoke_3
+- _classACAccountStore.8198
+- _classAKAccountManager.8187
+- _classAVAudioSession.9455
+- _classCALayer.13211
+- _classCATransaction.13228
+- _classCBCentralManager.1396
+- _classCBPeripheralManager.1558
+- _classHAPSystemKeychainStore.5782
+- _classWiFiAwareInternetSharingConfiguration.4929
+- _constantValCBManagerIsPrivilegedDaemonKey.1372
+- _constantValCBManagerNeedsRestrictedStateOperation.1389
+- _gCFArrayType.12266
+- _gCFBooleanType.12267
+- _gCFDataType.12268
+- _gCFDateType.12269
+- _gCFDictionaryType.12270
+- _gCFNumberType.12265
+- _gCFStringType.12271
+- _gLogCategory_Pairing
+- _gLogCategory_XPCUtils
+- _getACAccountStoreClass.8194
+- _getAKAccountManagerClass.8177
+- _getAVAudioSessionClass.9441
+- _getCALayerClass.13192
+- _getCATransactionClass.13218
+- _getCBCentralManagerClass.1377
+- _getCBManagerIsPrivilegedDaemonKey.1368
+- _getCBManagerNeedsRestrictedStateOperation.1378
+- _getCBPeripheralManagerClass.1550
+- _getHAPSystemKeychainStoreClass.5778
+- _getWiFiAwareInternetSharingConfigurationClass.4910
+- _initACAccountStore.8196
+- _initAKAccountManager.8185
+- _initAVAudioSession.9452
+- _initAnalyticsSendEvent.8662
+- _initCALayer.13209
+- _initCATransaction.13226
+- _initCBCentralManager.1395
+- _initCBPeripheralManager.1554
+- _initHAPSystemKeychainStore.5780
+- _initValCBManagerIsPrivilegedDaemonKey.1370
+- _initValCBManagerNeedsRestrictedStateOperation.1387
+- _initWiFiAwareInternetSharingConfiguration.4927
+- _logger.12336
+- _logger.14386
+- _logger.5117
+- _logger.7492
+- _logger.8218
+- _logger.9841
+- _sCUOSLogCreateOnce_logger.12339
+- _sCUOSLogCreateOnce_logger.14462
+- _sCUOSLogCreateOnce_logger.5119
+- _sCUOSLogCreateOnce_logger.7494
+- _sCUOSLogCreateOnce_logger.8220
+- _sCUOSLogCreateOnce_logger.9843
+- _sCUOSLogHandle_logger.12341
+- _sCUOSLogHandle_logger.14464
+- _sCUOSLogHandle_logger.5121
+- _sCUOSLogHandle_logger.7496
+- _sCUOSLogHandle_logger.8221
+- _sCUOSLogHandle_logger.9844
+- _softLinkAnalyticsSendEvent.8657
+- _softLinkOnceCBManagerIsPrivilegedDaemonKey.1371
+- _softLinkOnceCBManagerNeedsRestrictedStateOperation.1388
+- _xpc_connection_send_barrier
+- _xpc_connection_send_message
+- _xpc_retain
+CStrings:
++ "### PairSetup client SPAKE2+ not supported by client"
++ "### PairSetup client SPAKE2+ not supported by server"
++ "CUPairing"
++ "xpc_send_message_sync completed: service=%s, reply=%@"
++ "xpc_send_message_sync start: service=%s"
+- "### XPC service '%s' error: %{xpc}\n"
+- "OSStatus xpc_send_message_sync(const char *, uint64_t, uid_t, xpc_object_t, xpc_object_t *)"
+
+```

@@ -1,0 +1,360 @@
+## libmorphun.dylib
+
+> `/usr/lib/libmorphun.dylib`
+
+```diff
+
+-3500.59.1.0.0
+-  __TEXT.__text: 0x127788
++3500.64.1.0.0
++  __TEXT.__text: 0x127858
+   __TEXT.__auth_stubs: 0xef0
+   __TEXT.__const: 0x153fd8
+-  __TEXT.__gcc_except_tab: 0x166b8
++  __TEXT.__gcc_except_tab: 0x166e4
+   __TEXT.__ustring: 0xf320
+   __TEXT.__cstring: 0x282f
+   __TEXT.__oslogstring: 0xa3
+-  __TEXT.__unwind_info: 0x65a8
++  __TEXT.__unwind_info: 0x65f0
+   __DATA_CONST.__got: 0x128
+-  __DATA_CONST.__const: 0x127f8
++  __DATA_CONST.__const: 0x127e0
+   __AUTH_CONST.__auth_got: 0x780
+-  __AUTH_CONST.__const: 0x21328
++  __AUTH_CONST.__const: 0x21330
+   __AUTH_CONST.__cfstring: 0x60
+   __DATA.__data: 0x308
+   __DATA.__bss: 0x1170
+
+   - /usr/lib/libgermantok.dylib
+   - /usr/lib/libicucore.A.dylib
+   - /usr/lib/libmecab.dylib
+-  UUID: D3176078-8E49-3DA8-9E87-6DDE34451B10
++  UUID: 2E5329A1-D416-35F4-859F-854A2BE842CB
+   Functions: 3802
+-  Symbols:   11616
++  Symbols:   11615
+   CStrings:  253
+ 
+Symbols:
++ GCC_except_table3020
++ GCC_except_table3022
++ GCC_except_table3025
++ GCC_except_table3027
++ GCC_except_table3030
++ GCC_except_table3039
++ GCC_except_table3044
++ GCC_except_table3049
++ GCC_except_table3054
++ GCC_except_table3057
++ GCC_except_table3065
++ GCC_except_table3067
++ GCC_except_table3076
++ GCC_except_table3081
++ GCC_except_table3095
++ GCC_except_table3099
++ GCC_except_table3108
++ GCC_except_table3111
++ GCC_except_table3115
++ GCC_except_table3118
++ GCC_except_table3121
++ GCC_except_table3125
++ GCC_except_table3127
++ GCC_except_table3136
++ GCC_except_table3147
++ GCC_except_table3151
++ GCC_except_table3155
++ GCC_except_table3159
++ GCC_except_table3163
++ GCC_except_table3167
++ GCC_except_table3172
++ GCC_except_table3178
++ GCC_except_table3181
++ GCC_except_table3190
++ GCC_except_table3193
++ GCC_except_table3197
++ GCC_except_table3199
++ GCC_except_table3210
++ GCC_except_table3212
++ GCC_except_table3216
++ GCC_except_table3219
++ GCC_except_table3221
++ GCC_except_table3223
++ GCC_except_table3229
++ GCC_except_table3239
++ GCC_except_table3261
++ GCC_except_table3270
++ GCC_except_table3278
++ GCC_except_table3287
++ GCC_except_table3295
++ GCC_except_table3307
++ GCC_except_table3316
++ GCC_except_table3323
++ GCC_except_table3328
++ GCC_except_table3332
++ GCC_except_table3336
++ GCC_except_table3339
++ GCC_except_table3343
++ GCC_except_table3347
++ GCC_except_table3349
++ GCC_except_table3352
++ GCC_except_table3355
++ GCC_except_table3360
++ GCC_except_table3368
++ GCC_except_table3371
++ GCC_except_table3382
++ GCC_except_table3388
++ GCC_except_table3395
++ GCC_except_table3400
++ GCC_except_table3408
++ GCC_except_table3413
++ GCC_except_table3417
++ GCC_except_table3424
++ GCC_except_table3433
++ GCC_except_table3437
++ GCC_except_table3439
++ GCC_except_table3444
++ GCC_except_table3448
++ GCC_except_table3457
++ GCC_except_table3467
++ GCC_except_table3470
++ GCC_except_table3479
++ GCC_except_table3487
++ GCC_except_table3492
++ GCC_except_table3498
++ GCC_except_table3500
++ GCC_except_table3506
++ GCC_except_table3511
++ GCC_except_table3519
++ GCC_except_table3527
++ GCC_except_table3534
++ GCC_except_table3539
++ GCC_except_table3552
++ GCC_except_table3558
++ GCC_except_table3562
++ GCC_except_table3569
++ GCC_except_table3574
++ GCC_except_table3584
++ GCC_except_table3588
++ GCC_except_table3595
++ GCC_except_table3598
++ GCC_except_table3601
++ GCC_except_table3604
++ GCC_except_table3617
++ GCC_except_table3621
++ GCC_except_table3625
++ GCC_except_table3627
++ GCC_except_table3631
++ GCC_except_table3634
++ GCC_except_table3644
++ GCC_except_table3647
++ GCC_except_table3653
++ GCC_except_table3658
++ GCC_except_table3670
++ GCC_except_table3673
++ GCC_except_table3682
++ GCC_except_table3685
++ GCC_except_table3738
++ GCC_except_table3750
++ GCC_except_table3762
++ GCC_except_table3768
++ GCC_except_table3771
++ GCC_except_table3775
++ GCC_except_table3783
++ GCC_except_table3786
++ GCC_except_table3792
++ GCC_except_table3804
++ GCC_except_table3813
++ GCC_except_table3817
++ GCC_except_table3822
++ GCC_except_table3825
++ GCC_except_table3833
++ GCC_except_table3844
++ GCC_except_table3847
++ GCC_except_table3849
++ GCC_except_table3897
++ GCC_except_table3905
++ GCC_except_table3912
++ GCC_except_table3915
++ GCC_except_table3918
++ GCC_except_table3922
++ GCC_except_table3924
++ GCC_except_table3930
++ GCC_except_table3933
++ GCC_except_table3938
++ GCC_except_table3942
++ GCC_except_table3947
++ GCC_except_table3952
++ GCC_except_table3955
++ GCC_except_table3964
++ GCC_except_table3974
++ GCC_except_table3981
++ GCC_except_table3991
++ GCC_except_table3993
++ GCC_except_table3998
++ GCC_except_table4004
++ GCC_except_table4012
++ GCC_except_table4017
++ GCC_except_table4024
+- GCC_except_table3023
+- GCC_except_table3026
+- GCC_except_table3028
+- GCC_except_table3035
+- GCC_except_table3042
+- GCC_except_table3047
+- GCC_except_table3052
+- GCC_except_table3056
+- GCC_except_table3059
+- GCC_except_table3066
+- GCC_except_table3068
+- GCC_except_table3079
+- GCC_except_table3082
+- GCC_except_table3098
+- GCC_except_table3105
+- GCC_except_table3109
+- GCC_except_table3113
+- GCC_except_table3116
+- GCC_except_table3119
+- GCC_except_table3123
+- GCC_except_table3126
+- GCC_except_table3128
+- GCC_except_table3145
+- GCC_except_table3149
+- GCC_except_table3153
+- GCC_except_table3157
+- GCC_except_table3161
+- GCC_except_table3165
+- GCC_except_table3170
+- GCC_except_table3174
+- GCC_except_table3179
+- GCC_except_table3188
+- GCC_except_table3191
+- GCC_except_table3196
+- GCC_except_table3198
+- GCC_except_table3200
+- GCC_except_table3211
+- GCC_except_table3213
+- GCC_except_table3218
+- GCC_except_table3220
+- GCC_except_table3222
+- GCC_except_table3224
+- GCC_except_table3231
+- GCC_except_table3256
+- GCC_except_table3265
+- GCC_except_table3271
+- GCC_except_table3279
+- GCC_except_table3288
+- GCC_except_table3296
+- GCC_except_table3308
+- GCC_except_table3317
+- GCC_except_table3326
+- GCC_except_table3329
+- GCC_except_table3335
+- GCC_except_table3338
+- GCC_except_table3341
+- GCC_except_table3344
+- GCC_except_table3348
+- GCC_except_table3351
+- GCC_except_table3353
+- GCC_except_table3358
+- GCC_except_table3361
+- GCC_except_table3369
+- GCC_except_table3372
+- GCC_except_table3384
+- GCC_except_table3393
+- GCC_except_table3398
+- GCC_except_table3405
+- GCC_except_table3411
+- GCC_except_table3415
+- GCC_except_table3419
+- GCC_except_table3425
+- GCC_except_table3434
+- GCC_except_table3438
+- GCC_except_table3443
+- GCC_except_table3446
+- GCC_except_table3449
+- GCC_except_table3458
+- GCC_except_table3468
+- GCC_except_table3471
+- GCC_except_table3480
+- GCC_except_table3491
+- GCC_except_table3493
+- GCC_except_table3499
+- GCC_except_table3504
+- GCC_except_table3509
+- GCC_except_table3513
+- GCC_except_table3522
+- GCC_except_table3529
+- GCC_except_table3537
+- GCC_except_table3547
+- GCC_except_table3557
+- GCC_except_table3560
+- GCC_except_table3567
+- GCC_except_table3572
+- GCC_except_table3575
+- GCC_except_table3586
+- GCC_except_table3589
+- GCC_except_table3596
+- GCC_except_table3600
+- GCC_except_table3603
+- GCC_except_table3609
+- GCC_except_table3619
+- GCC_except_table3623
+- GCC_except_table3626
+- GCC_except_table3628
+- GCC_except_table3633
+- GCC_except_table3636
+- GCC_except_table3645
+- GCC_except_table3650
+- GCC_except_table3654
+- GCC_except_table3669
+- GCC_except_table3671
+- GCC_except_table3675
+- GCC_except_table3683
+- GCC_except_table3735
+- GCC_except_table3741
+- GCC_except_table3756
+- GCC_except_table3763
+- GCC_except_table3769
+- GCC_except_table3773
+- GCC_except_table3776
+- GCC_except_table3784
+- GCC_except_table3790
+- GCC_except_table3800
+- GCC_except_table3806
+- GCC_except_table3815
+- GCC_except_table3819
+- GCC_except_table3823
+- GCC_except_table3829
+- GCC_except_table3839
+- GCC_except_table3845
+- GCC_except_table3848
+- GCC_except_table3886
+- GCC_except_table3899
+- GCC_except_table3907
+- GCC_except_table3914
+- GCC_except_table3917
+- GCC_except_table3919
+- GCC_except_table3923
+- GCC_except_table3927
+- GCC_except_table3931
+- GCC_except_table3937
+- GCC_except_table3939
+- GCC_except_table3944
+- GCC_except_table3950
+- GCC_except_table3953
+- GCC_except_table3959
+- GCC_except_table3967
+- GCC_except_table3976
+- GCC_except_table3983
+- GCC_except_table3992
+- GCC_except_table3994
+- GCC_except_table4003
+- GCC_except_table4010
+- GCC_except_table4015
+- GCC_except_table4018
+- GCC_except_table4026
+- __ZNKSt3__16__treeINS_12__value_typeIN7morphun4util7ULocaleEPFvRNS2_6dialog20SemanticFeatureModelEEEENS_19__map_value_compareIS4_SA_NS_4lessIS4_EELb1EEENS_9allocatorISA_EEE4findIS4_EENS_21__tree_const_iteratorISA_PNS_11__tree_nodeISA_PvEElEERKT_
+
+```

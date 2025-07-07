@@ -1,0 +1,494 @@
+## StatusKitAgentCore
+
+> `/System/Library/PrivateFrameworks/StatusKitAgentCore.framework/StatusKitAgentCore`
+
+```diff
+
+ 112.100.1.0.0
+-  __TEXT.__text: 0xfe4d8
+-  __TEXT.__auth_stubs: 0x1ce0
++  __TEXT.__text: 0xfe394
++  __TEXT.__auth_stubs: 0x1cf0
+   __TEXT.__objc_methlist: 0x7fdc
+-  __TEXT.__const: 0x1f18
+-  __TEXT.__cstring: 0x4ddf
+-  __TEXT.__oslogstring: 0x12ddd
++  __TEXT.__const: 0x1f00
++  __TEXT.__cstring: 0x4dd1
++  __TEXT.__oslogstring: 0x12ddf
+   __TEXT.__gcc_except_tab: 0x1194
+   __TEXT.__swift5_typeref: 0x162c
+   __TEXT.__constg_swiftt: 0x6b8
+-  __TEXT.__swift5_reflstr: 0x607
++  __TEXT.__swift5_reflstr: 0x5f7
+   __TEXT.__swift5_fieldmd: 0x5e0
+   __TEXT.__swift5_builtin: 0xc8
+   __TEXT.__swift5_assocty: 0x120
+
+   __TEXT.__swift5_types: 0x88
+   __TEXT.__swift_as_entry: 0x220
+   __TEXT.__swift_as_ret: 0x1fc
+-  __TEXT.__unwind_info: 0x3a60
+-  __TEXT.__eh_frame: 0x5428
++  __TEXT.__unwind_info: 0x36c0
++  __TEXT.__eh_frame: 0x5458
+   __TEXT.__objc_classname: 0xed1
+   __TEXT.__objc_methname: 0x11bf0
+   __TEXT.__objc_methtype: 0x4a95
+   __TEXT.__objc_stubs: 0x9bc0
+-  __DATA_CONST.__got: 0x900
++  __DATA_CONST.__got: 0x908
+   __DATA_CONST.__const: 0x1c90
+   __DATA_CONST.__objc_classlist: 0x360
+   __DATA_CONST.__objc_catlist: 0x38
+
+   __DATA_CONST.__objc_protorefs: 0x88
+   __DATA_CONST.__objc_superrefs: 0x258
+   __DATA_CONST.__objc_arraydata: 0x18
+-  __AUTH_CONST.__auth_got: 0xe80
++  __AUTH_CONST.__auth_got: 0xe88
+   __AUTH_CONST.__const: 0x30a8
+   __AUTH_CONST.__cfstring: 0x2480
+   __AUTH_CONST.__objc_const: 0xbc78
+
+   __AUTH.__objc_data: 0xb60
+   __AUTH.__data: 0x1e8
+   __DATA.__objc_ivar: 0x620
+-  __DATA.__data: 0x15f8
++  __DATA.__data: 0x1600
+   __DATA.__bss: 0x1540
+   __DATA.__common: 0x10
+   __DATA_DIRTY.__objc_data: 0x1c90
+-  __DATA_DIRTY.__data: 0x8e0
++  __DATA_DIRTY.__data: 0x910
+   __DATA_DIRTY.__bss: 0x750
+   __DATA_DIRTY.__common: 0x30
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: D96E821C-CD46-3B6B-A267-780B0F23B2DD
+-  Functions: 4832
+-  Symbols:   15592
++  UUID: CFBD7FA7-BA49-3B3E-BBD2-A8BDEEC9935E
++  Functions: 4835
++  Symbols:   15577
+   CStrings:  4882
+ 
+Symbols:
++ _$s10Foundation4UUIDVACs23CustomStringConvertibleAAWlTm
++ _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.48
++ _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.48TQ0_
++ _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.48Tu
++ _$sIeAgH_ytIeAgHr_TRTA.106
++ _$sIeAgH_ytIeAgHr_TRTA.106TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.106Tu
++ _$sIeAgH_ytIeAgHr_TRTA.112
++ _$sIeAgH_ytIeAgHr_TRTA.112TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.112Tu
++ _$sIeAgH_ytIeAgHr_TRTA.121
++ _$sIeAgH_ytIeAgHr_TRTA.121TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.121Tu
++ _$sIeAgH_ytIeAgHr_TRTA.127
++ _$sIeAgH_ytIeAgHr_TRTA.127TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.127Tu
++ _$sIeAgH_ytIeAgHr_TRTA.136
++ _$sIeAgH_ytIeAgHr_TRTA.136TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.136Tu
++ _$sIeAgH_ytIeAgHr_TRTA.142
++ _$sIeAgH_ytIeAgHr_TRTA.142TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.142Tu
++ _$sIeAgH_ytIeAgHr_TRTA.151
++ _$sIeAgH_ytIeAgHr_TRTA.151TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.151Tu
++ _$sIeAgH_ytIeAgHr_TRTA.157
++ _$sIeAgH_ytIeAgHr_TRTA.157TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.157Tu
++ _$sIeAgH_ytIeAgHr_TRTA.166
++ _$sIeAgH_ytIeAgHr_TRTA.166TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.166Tu
++ _$sIeAgH_ytIeAgHr_TRTA.172
++ _$sIeAgH_ytIeAgHr_TRTA.172TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.172Tu
++ _$sIeAgH_ytIeAgHr_TRTA.181
++ _$sIeAgH_ytIeAgHr_TRTA.181TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.181Tu
++ _$sIeAgH_ytIeAgHr_TRTA.187
++ _$sIeAgH_ytIeAgHr_TRTA.187TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.187Tu
++ _$sIeAgH_ytIeAgHr_TRTA.196
++ _$sIeAgH_ytIeAgHr_TRTA.196TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.196Tu
++ _$sIeAgH_ytIeAgHr_TRTA.211
++ _$sIeAgH_ytIeAgHr_TRTA.211TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.211Tu
++ _$sIeAgH_ytIeAgHr_TRTA.226
++ _$sIeAgH_ytIeAgHr_TRTA.226TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.226Tu
++ _$sIeAgH_ytIeAgHr_TRTA.241
++ _$sIeAgH_ytIeAgHr_TRTA.241TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.241Tu
++ _$sIeAgH_ytIeAgHr_TRTA.256
++ _$sIeAgH_ytIeAgHr_TRTA.256TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.256Tu
++ _$sIeAgH_ytIeAgHr_TRTA.271
++ _$sIeAgH_ytIeAgHr_TRTA.271TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.271Tu
++ _$sIeAgH_ytIeAgHr_TRTA.67
++ _$sIeAgH_ytIeAgHr_TRTA.67TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.67Tu
++ _$sIeAgH_ytIeAgHr_TRTA.82
++ _$sIeAgH_ytIeAgHr_TRTA.82TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.82Tu
++ _$sIeAgH_ytIeAgHr_TRTA.91
++ _$sIeAgH_ytIeAgHr_TRTA.91TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.91Tu
++ _$sIeAgH_ytIeAgHr_TRTA.97
++ _$sIeAgH_ytIeAgHr_TRTA.97TQ0_
++ _$sIeAgH_ytIeAgHr_TRTA.97Tu
++ _$sIeghH_IeAgH_TRTA.101
++ _$sIeghH_IeAgH_TRTA.101TQ0_
++ _$sIeghH_IeAgH_TRTA.101Tu
++ _$sIeghH_IeAgH_TRTA.107
++ _$sIeghH_IeAgH_TRTA.107TQ0_
++ _$sIeghH_IeAgH_TRTA.107Tu
++ _$sIeghH_IeAgH_TRTA.116
++ _$sIeghH_IeAgH_TRTA.116TQ0_
++ _$sIeghH_IeAgH_TRTA.116Tu
++ _$sIeghH_IeAgH_TRTA.122
++ _$sIeghH_IeAgH_TRTA.122TQ0_
++ _$sIeghH_IeAgH_TRTA.122Tu
++ _$sIeghH_IeAgH_TRTA.131
++ _$sIeghH_IeAgH_TRTA.131TQ0_
++ _$sIeghH_IeAgH_TRTA.131Tu
++ _$sIeghH_IeAgH_TRTA.137
++ _$sIeghH_IeAgH_TRTA.137TQ0_
++ _$sIeghH_IeAgH_TRTA.137Tu
++ _$sIeghH_IeAgH_TRTA.146
++ _$sIeghH_IeAgH_TRTA.146TQ0_
++ _$sIeghH_IeAgH_TRTA.146Tu
++ _$sIeghH_IeAgH_TRTA.152
++ _$sIeghH_IeAgH_TRTA.152TQ0_
++ _$sIeghH_IeAgH_TRTA.152Tu
++ _$sIeghH_IeAgH_TRTA.161
++ _$sIeghH_IeAgH_TRTA.161TQ0_
++ _$sIeghH_IeAgH_TRTA.161Tu
++ _$sIeghH_IeAgH_TRTA.167
++ _$sIeghH_IeAgH_TRTA.167TQ0_
++ _$sIeghH_IeAgH_TRTA.167Tu
++ _$sIeghH_IeAgH_TRTA.176
++ _$sIeghH_IeAgH_TRTA.176TQ0_
++ _$sIeghH_IeAgH_TRTA.176Tu
++ _$sIeghH_IeAgH_TRTA.182
++ _$sIeghH_IeAgH_TRTA.182TQ0_
++ _$sIeghH_IeAgH_TRTA.182Tu
++ _$sIeghH_IeAgH_TRTA.191
++ _$sIeghH_IeAgH_TRTA.191TQ0_
++ _$sIeghH_IeAgH_TRTA.191Tu
++ _$sIeghH_IeAgH_TRTA.206
++ _$sIeghH_IeAgH_TRTA.206TQ0_
++ _$sIeghH_IeAgH_TRTA.206Tu
++ _$sIeghH_IeAgH_TRTA.221
++ _$sIeghH_IeAgH_TRTA.221TQ0_
++ _$sIeghH_IeAgH_TRTA.221Tu
++ _$sIeghH_IeAgH_TRTA.236
++ _$sIeghH_IeAgH_TRTA.236TQ0_
++ _$sIeghH_IeAgH_TRTA.236Tu
++ _$sIeghH_IeAgH_TRTA.251
++ _$sIeghH_IeAgH_TRTA.251TQ0_
++ _$sIeghH_IeAgH_TRTA.251Tu
++ _$sIeghH_IeAgH_TRTA.266
++ _$sIeghH_IeAgH_TRTA.266TQ0_
++ _$sIeghH_IeAgH_TRTA.266Tu
++ _$sIeghH_IeAgH_TRTA.62
++ _$sIeghH_IeAgH_TRTA.62TQ0_
++ _$sIeghH_IeAgH_TRTA.62Tu
++ _$sIeghH_IeAgH_TRTA.77
++ _$sIeghH_IeAgH_TRTA.77TQ0_
++ _$sIeghH_IeAgH_TRTA.77Tu
++ _$sIeghH_IeAgH_TRTA.86
++ _$sIeghH_IeAgH_TRTA.86TQ0_
++ _$sIeghH_IeAgH_TRTA.86Tu
++ _$sIeghH_IeAgH_TRTA.92
++ _$sIeghH_IeAgH_TRTA.92TQ0_
++ _$sIeghH_IeAgH_TRTA.92Tu
++ _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_s8Sendable_pTt0g5Tf4g_nTm
++ _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
++ _$sSS_s8Sendable_ptWOcTm
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.121
++ _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.124
++ _$sScPSgWOc
++ _$sScPSgWOh
++ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfCyt_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2gq5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF14LocalStatusKit20LSKDestinationDeviceV_Tg5Tm
++ _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So37SKADatabasePublishedLocalStatusDeviceCTg5Tm
++ _$ss17_NativeDictionaryV4copyyyFSS_So37SKADatabasePublishedLocalStatusDeviceCTg5Tm
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.179
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.179TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.179Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.73
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.73TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.73Tu
++ __OBJC_$_INSTANCE_METHODS_SKADatabaseInvitedUser(CoreData|SKHandle)
++ __OBJC_$_INSTANCE_METHODS_SKADatabaseReceivedInvitation(CoreData|SKHandle|IncomingRatchet|SKInvitationPayload)
++ __OBJC_$_INSTANCE_METHODS_SKAGeneratedEncryptionKey(CoreData|Ratchets)
++ __PROTOCOLS_SKALocalStatusServer.24
++ __PROTOCOLS_SKAStatusSubscriptionServiceClientProxy.55
++ __PROTOCOLS__TtCC18StatusKitAgentCore20SKALocalStatusServer16DatabaseDelegate.29
++ _block_copy_helper.102
++ _block_copy_helper.105
++ _block_copy_helper.155
++ _block_copy_helper.190
++ _block_copy_helper.194
++ _block_copy_helper.21
++ _block_copy_helper.5
++ _block_copy_helper.79
++ _block_copy_helper.8
++ _block_copy_helper.82
++ _block_copy_helper.89
++ _block_copy_helper.95
++ _block_descriptor.10
++ _block_descriptor.104
++ _block_descriptor.107
++ _block_descriptor.157
++ _block_descriptor.192
++ _block_descriptor.196
++ _block_descriptor.23
++ _block_descriptor.7
++ _block_descriptor.81
++ _block_descriptor.84
++ _block_descriptor.91
++ _block_descriptor.97
++ _block_destroy_helper.103
++ _block_destroy_helper.106
++ _block_destroy_helper.156
++ _block_destroy_helper.191
++ _block_destroy_helper.195
++ _block_destroy_helper.22
++ _block_destroy_helper.6
++ _block_destroy_helper.80
++ _block_destroy_helper.83
++ _block_destroy_helper.9
++ _block_destroy_helper.90
++ _block_destroy_helper.96
++ _get_witness_table SeRzSERzl10Foundation4DataVSEHPyHC.123
++ _get_witness_table SeRzSERzl10Foundation4DataVSeHPyHC.122
++ _objectdestroy.101Tm
++ _objectdestroy.117Tm
++ _objectdestroy.138Tm
++ _objectdestroy.170Tm
++ _objectdestroy.59Tm
++ _objectdestroy.71Tm
++ _objectdestroy.80Tm
+- _$s10Foundation4UUIDVACSQAAWlTm
+- _$s14LocalStatusKit6LSKKeyVy10Foundation4DataVG_SaySo021SKADatabaseSubscribedaB0CGtWOcTm
+- _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.52
+- _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.52TQ0_
+- _$s18StatusKitAgentCore08SKALocalA6ServerC12objcShutdownyyFyyYacfU_TA.52Tu
+- _$s18StatusKitAgentCore20SKAPrimaryQueueActorCACScAAAWlTm
+- _$sIeAgH_ytIeAgHr_TRTA.104
+- _$sIeAgH_ytIeAgHr_TRTA.104TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.104Tu
+- _$sIeAgH_ytIeAgHr_TRTA.114
+- _$sIeAgH_ytIeAgHr_TRTA.114TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.114Tu
+- _$sIeAgH_ytIeAgHr_TRTA.119
+- _$sIeAgH_ytIeAgHr_TRTA.119TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.119Tu
+- _$sIeAgH_ytIeAgHr_TRTA.129
+- _$sIeAgH_ytIeAgHr_TRTA.129TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.129Tu
+- _$sIeAgH_ytIeAgHr_TRTA.134
+- _$sIeAgH_ytIeAgHr_TRTA.134TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.134Tu
+- _$sIeAgH_ytIeAgHr_TRTA.144
+- _$sIeAgH_ytIeAgHr_TRTA.144TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.144Tu
+- _$sIeAgH_ytIeAgHr_TRTA.149
+- _$sIeAgH_ytIeAgHr_TRTA.149TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.149Tu
+- _$sIeAgH_ytIeAgHr_TRTA.159
+- _$sIeAgH_ytIeAgHr_TRTA.159TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.159Tu
+- _$sIeAgH_ytIeAgHr_TRTA.164
+- _$sIeAgH_ytIeAgHr_TRTA.164TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.164Tu
+- _$sIeAgH_ytIeAgHr_TRTA.174
+- _$sIeAgH_ytIeAgHr_TRTA.174TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.174Tu
+- _$sIeAgH_ytIeAgHr_TRTA.179
+- _$sIeAgH_ytIeAgHr_TRTA.179TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.179Tu
+- _$sIeAgH_ytIeAgHr_TRTA.189
+- _$sIeAgH_ytIeAgHr_TRTA.189TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.189Tu
+- _$sIeAgH_ytIeAgHr_TRTA.194
+- _$sIeAgH_ytIeAgHr_TRTA.194TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.194Tu
+- _$sIeAgH_ytIeAgHr_TRTA.204
+- _$sIeAgH_ytIeAgHr_TRTA.204TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.204Tu
+- _$sIeAgH_ytIeAgHr_TRTA.219
+- _$sIeAgH_ytIeAgHr_TRTA.219TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.219Tu
+- _$sIeAgH_ytIeAgHr_TRTA.234
+- _$sIeAgH_ytIeAgHr_TRTA.234TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.234Tu
+- _$sIeAgH_ytIeAgHr_TRTA.249
+- _$sIeAgH_ytIeAgHr_TRTA.249TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.249Tu
+- _$sIeAgH_ytIeAgHr_TRTA.264
+- _$sIeAgH_ytIeAgHr_TRTA.264TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.264Tu
+- _$sIeAgH_ytIeAgHr_TRTA.74
+- _$sIeAgH_ytIeAgHr_TRTA.74TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.74Tu
+- _$sIeAgH_ytIeAgHr_TRTA.84
+- _$sIeAgH_ytIeAgHr_TRTA.84TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.84Tu
+- _$sIeAgH_ytIeAgHr_TRTA.89
+- _$sIeAgH_ytIeAgHr_TRTA.89TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.89Tu
+- _$sIeAgH_ytIeAgHr_TRTA.99
+- _$sIeAgH_ytIeAgHr_TRTA.99TQ0_
+- _$sIeAgH_ytIeAgHr_TRTA.99Tu
+- _$sIeghH_IeAgH_TRTA.109
+- _$sIeghH_IeAgH_TRTA.109TQ0_
+- _$sIeghH_IeAgH_TRTA.109Tu
+- _$sIeghH_IeAgH_TRTA.114
+- _$sIeghH_IeAgH_TRTA.114TQ0_
+- _$sIeghH_IeAgH_TRTA.114Tu
+- _$sIeghH_IeAgH_TRTA.124
+- _$sIeghH_IeAgH_TRTA.124TQ0_
+- _$sIeghH_IeAgH_TRTA.124Tu
+- _$sIeghH_IeAgH_TRTA.129
+- _$sIeghH_IeAgH_TRTA.129TQ0_
+- _$sIeghH_IeAgH_TRTA.129Tu
+- _$sIeghH_IeAgH_TRTA.139
+- _$sIeghH_IeAgH_TRTA.139TQ0_
+- _$sIeghH_IeAgH_TRTA.139Tu
+- _$sIeghH_IeAgH_TRTA.144
+- _$sIeghH_IeAgH_TRTA.144TQ0_
+- _$sIeghH_IeAgH_TRTA.144Tu
+- _$sIeghH_IeAgH_TRTA.154
+- _$sIeghH_IeAgH_TRTA.154TQ0_
+- _$sIeghH_IeAgH_TRTA.154Tu
+- _$sIeghH_IeAgH_TRTA.159
+- _$sIeghH_IeAgH_TRTA.159TQ0_
+- _$sIeghH_IeAgH_TRTA.159Tu
+- _$sIeghH_IeAgH_TRTA.169
+- _$sIeghH_IeAgH_TRTA.169TQ0_
+- _$sIeghH_IeAgH_TRTA.169Tu
+- _$sIeghH_IeAgH_TRTA.174
+- _$sIeghH_IeAgH_TRTA.174TQ0_
+- _$sIeghH_IeAgH_TRTA.174Tu
+- _$sIeghH_IeAgH_TRTA.184
+- _$sIeghH_IeAgH_TRTA.184TQ0_
+- _$sIeghH_IeAgH_TRTA.184Tu
+- _$sIeghH_IeAgH_TRTA.189
+- _$sIeghH_IeAgH_TRTA.189TQ0_
+- _$sIeghH_IeAgH_TRTA.189Tu
+- _$sIeghH_IeAgH_TRTA.199
+- _$sIeghH_IeAgH_TRTA.199TQ0_
+- _$sIeghH_IeAgH_TRTA.199Tu
+- _$sIeghH_IeAgH_TRTA.214
+- _$sIeghH_IeAgH_TRTA.214TQ0_
+- _$sIeghH_IeAgH_TRTA.214Tu
+- _$sIeghH_IeAgH_TRTA.229
+- _$sIeghH_IeAgH_TRTA.229TQ0_
+- _$sIeghH_IeAgH_TRTA.229Tu
+- _$sIeghH_IeAgH_TRTA.244
+- _$sIeghH_IeAgH_TRTA.244TQ0_
+- _$sIeghH_IeAgH_TRTA.244Tu
+- _$sIeghH_IeAgH_TRTA.259
+- _$sIeghH_IeAgH_TRTA.259TQ0_
+- _$sIeghH_IeAgH_TRTA.259Tu
+- _$sIeghH_IeAgH_TRTA.69
+- _$sIeghH_IeAgH_TRTA.69TQ0_
+- _$sIeghH_IeAgH_TRTA.69Tu
+- _$sIeghH_IeAgH_TRTA.79
+- _$sIeghH_IeAgH_TRTA.79TQ0_
+- _$sIeghH_IeAgH_TRTA.79Tu
+- _$sIeghH_IeAgH_TRTA.84
+- _$sIeghH_IeAgH_TRTA.84TQ0_
+- _$sIeghH_IeAgH_TRTA.84Tu
+- _$sIeghH_IeAgH_TRTA.94
+- _$sIeghH_IeAgH_TRTA.94TQ0_
+- _$sIeghH_IeAgH_TRTA.94Tu
+- _$sIeghH_IeAgH_TRTA.99
+- _$sIeghH_IeAgH_TRTA.99TQ0_
+- _$sIeghH_IeAgH_TRTA.99Tu
+- _$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypTt0g5Tf4g_nTm
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.125
+- _$sSTsSQ7ElementRpzrlE8containsySbABFSbABXEfU_SaySSG_TG5TA.128
+- _$sScPSgWOhTm
+- _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfCyt_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1gq5
+- _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF18StatusKitAgentCore24SKAPresentDevicesManagerC29SKAPayloadVerificationContextV_Tg5Tm
+- _$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_So8NSObjectCTg5Tm
+- _$ss17_NativeDictionaryV4copyyyFSS_So8NSObjectCTg5Tm
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.174
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.174TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.174Tu
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.185
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.185TQ0_
+- _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.185Tu
+- __OBJC_$_INSTANCE_METHODS_SKADatabaseInvitedUser(SKHandle|CoreData)
+- __OBJC_$_INSTANCE_METHODS_SKADatabaseReceivedInvitation(SKHandle|IncomingRatchet|SKInvitationPayload|CoreData)
+- __OBJC_$_INSTANCE_METHODS_SKAGeneratedEncryptionKey(Ratchets|CoreData)
+- __PROTOCOLS_SKALocalStatusServer.28
+- __PROTOCOLS_SKAStatusSubscriptionServiceClientProxy.59
+- __PROTOCOLS__TtCC18StatusKitAgentCore20SKALocalStatusServer16DatabaseDelegate.33
+- _block_copy_helper.106
+- _block_copy_helper.109
+- _block_copy_helper.12
+- _block_copy_helper.159
+- _block_copy_helper.197
+- _block_copy_helper.201
+- _block_copy_helper.25
+- _block_copy_helper.54
+- _block_copy_helper.83
+- _block_copy_helper.86
+- _block_copy_helper.9
+- _block_copy_helper.93
+- _block_copy_helper.99
+- _block_descriptor.101
+- _block_descriptor.108
+- _block_descriptor.11
+- _block_descriptor.111
+- _block_descriptor.14
+- _block_descriptor.161
+- _block_descriptor.199
+- _block_descriptor.203
+- _block_descriptor.27
+- _block_descriptor.56
+- _block_descriptor.85
+- _block_descriptor.88
+- _block_descriptor.95
+- _block_destroy_helper.10
+- _block_destroy_helper.100
+- _block_destroy_helper.107
+- _block_destroy_helper.110
+- _block_destroy_helper.13
+- _block_destroy_helper.160
+- _block_destroy_helper.198
+- _block_destroy_helper.202
+- _block_destroy_helper.26
+- _block_destroy_helper.55
+- _block_destroy_helper.84
+- _block_destroy_helper.87
+- _block_destroy_helper.94
+- _get_witness_table SeRzSERzl10Foundation4DataVSEHPyHC.127
+- _get_witness_table SeRzSERzl10Foundation4DataVSeHPyHC.126
+- _objectdestroy.108Tm
+- _objectdestroy.121Tm
+- _objectdestroy.142Tm
+- _objectdestroy.163Tm
+- _objectdestroy.64Tm
+- _objectdestroy.73Tm
+
+```

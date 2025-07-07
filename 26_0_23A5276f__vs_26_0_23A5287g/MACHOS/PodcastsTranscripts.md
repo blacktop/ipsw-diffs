@@ -1,0 +1,210 @@
+## PodcastsTranscripts
+
+> `/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts`
+
+```diff
+
+-4025.100.80.0.0
+-  __TEXT.__text: 0x84794
+-  __TEXT.__auth_stubs: 0x32f0
++4025.110.88.1.0
++  __TEXT.__text: 0x8a4c4
++  __TEXT.__auth_stubs: 0x3320
+   __TEXT.__objc_methlist: 0x79c
+-  __TEXT.__const: 0x5d10
++  __TEXT.__const: 0x5d62
+   __TEXT.__objc_classname: 0x77
+   __TEXT.__objc_methname: 0x2101
+-  __TEXT.__cstring: 0x2468
++  __TEXT.__cstring: 0x245f
++  __TEXT.__swift5_typeref: 0x5394
+   __TEXT.__constg_swiftt: 0x1ac8
+-  __TEXT.__swift5_typeref: 0x4fce
+   __TEXT.__swift5_builtin: 0x140
+-  __TEXT.__swift5_reflstr: 0x1ac8
+-  __TEXT.__swift5_fieldmd: 0x191c
++  __TEXT.__swift5_reflstr: 0x1b04
++  __TEXT.__swift5_fieldmd: 0x1928
+   __TEXT.__swift5_assocty: 0x4f8
+   __TEXT.__swift5_proto: 0x294
+   __TEXT.__swift5_types: 0x194
+-  __TEXT.__swift5_capture: 0xb80
++  __TEXT.__swift5_protos: 0x40
++  __TEXT.__swift5_capture: 0xbb0
++  __TEXT.__oslogstring: 0x8cb
+   __TEXT.__swift_as_entry: 0x3c
+   __TEXT.__swift_as_ret: 0x40
+-  __TEXT.__swift5_protos: 0x40
+   __TEXT.__swift5_mpenum: 0x34
+-  __TEXT.__oslogstring: 0x8c7
+   __TEXT.__objc_methtype: 0xab1
+-  __TEXT.__unwind_info: 0x1cd8
+-  __TEXT.__eh_frame: 0x10c0
+-  __DATA_CONST.__auth_got: 0x1978
+-  __DATA_CONST.__got: 0xbf0
++  __TEXT.__unwind_info: 0x1d10
++  __TEXT.__eh_frame: 0x1110
++  __DATA_CONST.__auth_got: 0x1990
++  __DATA_CONST.__got: 0xc10
+   __DATA_CONST.__auth_ptr: 0xdf8
+-  __DATA_CONST.__const: 0x3900
++  __DATA_CONST.__const: 0x3978
+   __DATA_CONST.__objc_classlist: 0xe0
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x58
+
+   __DATA.__objc_const: 0x2b10
+   __DATA.__objc_selrefs: 0x9f8
+   __DATA.__objc_data: 0xde0
+-  __DATA.__data: 0x3bf8
+-  __DATA.__bss: 0x4ec0
++  __DATA.__data: 0x3cc0
++  __DATA.__bss: 0x4ec8
+   __DATA.__common: 0xb0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+   - /System/Library/Frameworks/Foundation.framework/Foundation
++  - /System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+   - /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+   - /System/Library/Frameworks/Security.framework/Security
+   - /System/Library/Frameworks/ShazamKit.framework/ShazamKit
+
+   - @rpath/PodcastsActions.framework/PodcastsActions
+   - @rpath/PodcastsPlayback.framework/PodcastsPlayback
+   - @rpath/ShelfKit.framework/ShelfKit
+-  UUID: 153E9651-043F-343D-9E93-903D2BD3636F
+-  Functions: 2721
+-  Symbols:   1477
++  UUID: F0B29C09-424E-3E2D-9E9E-F90637958E4C
++  Functions: 2747
++  Symbols:   1490
+   CStrings:  718
+ 
+Symbols:
++ _OBJC_CLASS_$_MPModelPodcastChapter
++ __DATA__TtC19PodcastsTranscripts28ScoutingAlignmentCoordinator
++ __IVARS__TtC19PodcastsTranscripts28ScoutingAlignmentCoordinator
++ __METACLASS_DATA__TtC19PodcastsTranscripts28ScoutingAlignmentCoordinator
++ _symbolic SaySo21MPModelPodcastChapterCG
++ _symbolic Say_____GSg______pSg_____SgSay_____GSay_____GIeggnygg_ 19PodcastsTranscripts26TranscriptContentViewModelC 0A10Foundation17TimelineAlignmentP s8DurationV 8ShelfKit18TimedReferenceLinkV AI05QueueF0V7ChapterV
++ _symbolic _____ 19PodcastsTranscripts28ScoutingAlignmentCoordinatorC
++ _symbolic _____Sg 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____SgXw 19PodcastsTranscripts28ScoutingAlignmentCoordinatorC
++ _symbolic _____SgXwz_Xx 19PodcastsTranscripts28ScoutingAlignmentCoordinatorC
++ _symbolic ___________yAByAByAByAByABy__________G_____G_____GAHG_____y_____GG_____G_____AAt 19PodcastsTranscripts19TappablePaddingViewV 7SwiftUI15ModifiedContentV AD4TextV AD14_OpacityEffectV AD010_BlendModeL0V AD01_D6LayoutV AD30_EnvironmentKeyWritingModifierV AD0J9AlignmentO AD010_FlexFrameO0V AD6SpacerV
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____GAGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeG0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FlexFrameK0V
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____GAGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeG0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
++ _symbolic _____yAAy_____y_____y_____y______AAyAAyAAyAAyAAyAAy__________G_____G_____GAKG_____y_____GG_____G_____AEtGGSgG_____GAYG 7SwiftUI15ModifiedContentV AA6ZStackV AA6HStackV AA9TupleViewV 19PodcastsTranscripts015TappablePaddingH0V AA4TextV AA14_OpacityEffectV AA010_BlendModeO0V AA01_L6LayoutV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_FlexFrameR0V AA6SpacerV AA017_AppearanceActionV0V
++ _symbolic _____ySaySo21MPModelPodcastChapterCG_G 7Combine9PublishedV9PublisherV
++ _symbolic _____ySay_____GG s23_ContiguousArrayStorageC 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____y_____G s11_SetStorageC 19PodcastsTranscripts26TranscriptContentViewModelC2IDO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____y___________y___________yAEyAEyAEyAEyAEy__________G_____G_____GAKG_____y_____GG_____G_____ADtGG 7SwiftUI13_VariadicViewO4TreeV AA13_HStackLayoutV AA05TupleD0V 19PodcastsTranscripts015TappablePaddingD0V AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeQ0V AA01_lG0V AA30_EnvironmentKeyWritingModifierV AA0O9AlignmentO AA010_FlexFrameG0V AA6SpacerV
++ _symbolic _____y___________y_____y___________yAFyAFyAFyAFyAFy__________G_____G_____GALG_____y_____GG_____G_____AEtGGSgG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA6HStackV AA05TupleD0V 19PodcastsTranscripts015TappablePaddingD0V AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeR0V AA01_mG0V AA30_EnvironmentKeyWritingModifierV AA0P9AlignmentO AA010_FlexFrameG0V AA6SpacerV
++ _symbolic _____y______ySaySo21MPModelPodcastChapterCG_GG 7Combine10PublishersO16RemoveDuplicatesV AA9PublishedV9PublisherV
++ _symbolic _____y______ySay_____GSg_GABy______pSg_G_____y_ABy_____Sg_G_____SgG_____y______y______y_SaySay_____GG______pG_____y______yAuW_pGSo17OS_dispatch_queueCGGGARy_ASy_SaySay_____GG_____G_____y_AYy______y_ABySaySo21MPModelPodcastChapterCG_GGA1_GA6_GGG 7Combine10PublishersO18PodcastsFoundationE16PFCombineLatest5V AA9PublishedV9PublisherV 0C11Transcripts26TranscriptContentViewModelC AD17TimelineAlignmentP AC10MapKeyPathV AD0jM0V s8DurationV AC12ReplaceErrorV AC11ConcatenateV AC8SequenceV 8ShelfKit18TimedReferenceLinkV s0U0P AC9ReceiveOnV AA03AnyH0V A0_05QueueM0V7ChapterV s5NeverO AC0P0V AC16RemoveDuplicatesV
++ _symbolic _____y______y_SaySay_____GG_____G_____y______y______y______ySaySo21MPModelPodcastChapterCG_GGSo17OS_dispatch_queueCGADGG 7Combine10PublishersO11ConcatenateV AC8SequenceV 8ShelfKit10QueueModelV7ChapterV s5NeverO AC3MapV AC9ReceiveOnV AC16RemoveDuplicatesV AA9PublishedV9PublisherV
++ _symbolic _____y______y______ySaySo21MPModelPodcastChapterCG_GGSo17OS_dispatch_queueCG 7Combine10PublishersO9ReceiveOnV AC16RemoveDuplicatesV AA9PublishedV9PublisherV
++ _symbolic _____y______y______ySay_____GSg_GACy______pSg_G_____y_ACy_____Sg_G_____SgG_____y______y______y_SaySay_____GG______pGAAy______yAvX_pGSo17OS_dispatch_queueCGGGASy_ATy_SaySay_____GG_____G_____y_AAy______y_ACySaySo21MPModelPodcastChapterCG_GGA1_GA6_GGGA1_G 7Combine10PublishersO9ReceiveOnV AC18PodcastsFoundationE16PFCombineLatest5V AA9PublishedV9PublisherV 0E11Transcripts26TranscriptContentViewModelC AF17TimelineAlignmentP AC10MapKeyPathV AF0lO0V s8DurationV AC12ReplaceErrorV AC11ConcatenateV AC8SequenceV 8ShelfKit18TimedReferenceLinkV s0W0P AA03AnyJ0V A2_05QueueO0V7ChapterV s5NeverO AC0R0V AC16RemoveDuplicatesV
++ _symbolic _____y______y______y______ySaySo21MPModelPodcastChapterCG_GGSo17OS_dispatch_queueCGSay_____GG 7Combine10PublishersO3MapV AC9ReceiveOnV AC16RemoveDuplicatesV AA9PublishedV9PublisherV 8ShelfKit10QueueModelV7ChapterV
++ _symbolic _____y_____y___________yADyADyADyADyADy__________G_____G_____GAJG_____y_____GG_____G_____ACtGG 7SwiftUI6HStackV AA9TupleViewV 19PodcastsTranscripts015TappablePaddingE0V AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeN0V AA01_I6LayoutV AA30_EnvironmentKeyWritingModifierV AA0L9AlignmentO AA010_FlexFrameQ0V AA6SpacerV
++ _symbolic _____y_____y_____y___________yAEyAEyAEyAEyAEy__________G_____G_____GAKG_____y_____GG_____G_____ADtGGSgG 7SwiftUI6ZStackV AA6HStackV AA9TupleViewV 19PodcastsTranscripts015TappablePaddingF0V AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeO0V AA01_J6LayoutV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_FlexFrameR0V AA6SpacerV
++ _symbolic _____y_____y_____y_____y______AAyAAyAAyAAyAAyAAy__________G_____G_____GAKG_____y_____GG_____G_____AEtGGSgG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA6HStackV AA9TupleViewV 19PodcastsTranscripts015TappablePaddingH0V AA4TextV AA14_OpacityEffectV AA010_BlendModeO0V AA01_L6LayoutV AA30_EnvironmentKeyWritingModifierV AA0M9AlignmentO AA010_FlexFrameR0V AA6SpacerV AA017_AppearanceActionV0V
++ block_copy_helper.111
++ block_copy_helper.148
++ block_copy_helper.157
++ block_copy_helper.206
++ block_copy_helper.33
++ block_copy_helper.46
++ block_copy_helper.50
++ block_copy_helper.54
++ block_copy_helper.58
++ block_copy_helper.80
++ block_copy_helper.89
++ block_descriptor.113
++ block_descriptor.150
++ block_descriptor.159
++ block_descriptor.208
++ block_descriptor.35
++ block_descriptor.48
++ block_descriptor.52
++ block_descriptor.56
++ block_descriptor.60
++ block_descriptor.82
++ block_descriptor.91
++ block_destroy_helper.112
++ block_destroy_helper.149
++ block_destroy_helper.158
++ block_destroy_helper.207
++ block_destroy_helper.34
++ block_destroy_helper.47
++ block_destroy_helper.51
++ block_destroy_helper.55
++ block_destroy_helper.59
++ block_destroy_helper.81
++ block_destroy_helper.90
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVy19PodcastsTranscripts015TappablePaddingG0V_ACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGGAA6SpacerVAJtGGAA01_K6LayoutVGAXGAA0G0HPAyAA_HPAvAA_HPyHC_AxA0gP0HPyHCHC_AxAA0_HPyHCHC.11
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyAA6HStackVyAA9TupleViewVy19PodcastsTranscripts015TappablePaddingH0V_ACyACyACyACyACyACyAA4TextVAA14_OpacityEffectVGAA010_BlendModeO0VGAA01_L6LayoutVGAVGAA30_EnvironmentKeyWritingModifierVyAA0M9AlignmentOGGAA010_FlexFrameR0VGAA6SpacerVALtGGSgGAA017_AppearanceActionV0VGA13_GAA0H0HPA14_AAA16_HPA11_AAA16_HPyHC_A13_AA0hV0HPyHCHC_A13_AAA17_HPyHCHC.24
++ objectdestroy.192Tm
++ objectdestroy.219Tm
+- __DATA__TtC19PodcastsTranscripts33EpisodeDetailAlignmentCoordinator
+- __IVARS__TtC19PodcastsTranscripts33EpisodeDetailAlignmentCoordinator
+- __METACLASS_DATA__TtC19PodcastsTranscripts33EpisodeDetailAlignmentCoordinator
+- _symbolic Say_____GSg______pSg_____SgSay_____GIeggnyg_ 19PodcastsTranscripts26TranscriptContentViewModelC 0A10Foundation17TimelineAlignmentP s8DurationV 8ShelfKit18TimedReferenceLinkV
+- _symbolic _____ 19PodcastsTranscripts33EpisodeDetailAlignmentCoordinatorC
+- _symbolic _____SgXw 19PodcastsTranscripts33EpisodeDetailAlignmentCoordinatorC
+- _symbolic _____SgXwz_Xx 19PodcastsTranscripts33EpisodeDetailAlignmentCoordinatorC
+- _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GG_____G 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeG0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO AA010_FlexFrameK0V
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____GAGGAGG_____y_____GG 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeG0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0E9AlignmentO
+- _symbolic _____yAAyAAyAAyAAy__________G_____G_____GAGGAGG 7SwiftUI15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeG0V AA14_PaddingLayoutV
+- _symbolic _____yAAy_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAHGAHG_____y_____GG_____GSgG_____GATG 7SwiftUI15ModifiedContentV AA6ZStackV AA4TextV AA14_OpacityEffectV AA010_BlendModeH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA010_FlexFrameL0V AA017_AppearanceActionP0V
+- _symbolic _____y___________yACyACyACyACyACyACy__________G_____G_____GAIGAIG_____y_____GG_____GSgG 7SwiftUI13_VariadicViewO4TreeV AA13_ZStackLayoutV AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeL0V AA08_PaddingG0V AA30_EnvironmentKeyWritingModifierV AA0J9AlignmentO AA010_FlexFrameG0V
+- _symbolic _____y______ySay_____GSg_GABy______pSg_G_____y_ABy_____Sg_G_____SgG_____y______y______y_SaySay_____GG______pG_____y______yAuW_pGSo17OS_dispatch_queueCGGGG 7Combine10PublishersO0A7Latest4V AA9PublishedV9PublisherV 19PodcastsTranscripts26TranscriptContentViewModelC 0F10Foundation17TimelineAlignmentP AC10MapKeyPathV AM0hK0V s8DurationV AC12ReplaceErrorV AC11ConcatenateV AC8SequenceV 8ShelfKit18TimedReferenceLinkV s0T0P AC9ReceiveOnV AA03AnyE0V
+- _symbolic _____y______y______ySay_____GSg_GACy______pSg_G_____y_ACy_____Sg_G_____SgG_____y______y______y_SaySay_____GG______pGAAy______yAvX_pGSo17OS_dispatch_queueCGGGGA1_G 7Combine10PublishersO9ReceiveOnV AC0A7Latest4V AA9PublishedV9PublisherV 19PodcastsTranscripts26TranscriptContentViewModelC 0H10Foundation17TimelineAlignmentP AC10MapKeyPathV AO0jM0V s8DurationV AC12ReplaceErrorV AC11ConcatenateV AC8SequenceV 8ShelfKit18TimedReferenceLinkV s0V0P AA03AnyG0V
+- _symbolic _____y_____yAAyAAyAAyAAyAAyAAyAAy__________G_____G_____GAHGAHG_____y_____GG_____GSgG_____G 7SwiftUI15ModifiedContentV AA6ZStackV AA4TextV AA14_OpacityEffectV AA010_BlendModeH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA010_FlexFrameL0V AA017_AppearanceActionP0V
+- _symbolic _____y_____yAByAByAByAByAByABy__________G_____G_____GAHGAHG_____y_____GG_____GSgG 7SwiftUI6ZStackV AA15ModifiedContentV AA4TextV AA14_OpacityEffectV AA010_BlendModeH0V AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV AA0F9AlignmentO AA010_FlexFrameL0V
+- block_copy_helper.112
+- block_copy_helper.121
+- block_copy_helper.143
+- block_copy_helper.147
+- block_copy_helper.190
+- block_copy_helper.199
+- block_copy_helper.78
+- block_copy_helper.82
+- block_copy_helper.86
+- block_copy_helper.90
+- block_copy_helper.97
+- block_descriptor.114
+- block_descriptor.123
+- block_descriptor.145
+- block_descriptor.149
+- block_descriptor.192
+- block_descriptor.201
+- block_descriptor.80
+- block_descriptor.84
+- block_descriptor.88
+- block_descriptor.92
+- block_descriptor.99
+- block_destroy_helper.113
+- block_destroy_helper.122
+- block_destroy_helper.144
+- block_destroy_helper.148
+- block_destroy_helper.191
+- block_destroy_helper.200
+- block_destroy_helper.79
+- block_destroy_helper.83
+- block_destroy_helper.87
+- block_destroy_helper.91
+- block_destroy_helper.98
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6HStackVyAA9TupleViewVy19PodcastsTranscripts015TappablePaddingG0V_ACyAA4TextVAA30_EnvironmentKeyWritingModifierVyAA0L9AlignmentOGGAA6SpacerVAJtGGAA01_K6LayoutVGAXGAA0G0HPAyAA_HPAvAA_HPyHC_AxA0gP0HPyHCHC_AxAA0_HPyHCHC.58
+- get_witness_table 7SwiftUI15ModifiedContentVyACyAA6ZStackVyACyACyACyACyACyACyACyAA4TextVAA14_OpacityEffectVGAA010_BlendModeH0VGAA14_PaddingLayoutVGAOGAOGAA30_EnvironmentKeyWritingModifierVyAA0F9AlignmentOGGAA010_FlexFrameL0VGSgGAA017_AppearanceActionP0VGA3_GAA4ViewHPA4_AAA6_HPA1_AAA6_HPyHC_A3_AA0vP0HPyHCHC_A3_AAA7_HPyHCHC.14
+- objectdestroy.32Tm
+- objectdestroy.56Tm
+CStrings:
++ "_TtC19PodcastsTranscripts28ScoutingAlignmentCoordinator"
+- "_TtC19PodcastsTranscripts33EpisodeDetailAlignmentCoordinator"
+
+```

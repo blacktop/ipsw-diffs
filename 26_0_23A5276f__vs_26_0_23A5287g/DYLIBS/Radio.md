@@ -1,0 +1,198 @@
+## Radio
+
+> `/System/Library/PrivateFrameworks/Radio.framework/Radio`
+
+```diff
+
+   __TEXT.__gcc_except_tab: 0x8a8
+   __TEXT.__cstring: 0x157f
+   __TEXT.__oslogstring: 0xcfe
+-  __TEXT.__unwind_info: 0xa08
++  __TEXT.__unwind_info: 0x9f8
+   __TEXT.__objc_classname: 0x37e
+   __TEXT.__objc_methname: 0x5047
+   __TEXT.__objc_methtype: 0x85c
+
+   __AUTH_CONST.__const: 0x180
+   __AUTH_CONST.__cfstring: 0x1fa0
+   __AUTH_CONST.__objc_const: 0x31d8
+-  __AUTH_CONST.__objc_arrayobj: 0x78
+   __AUTH_CONST.__objc_dictobj: 0x50
++  __AUTH_CONST.__objc_arrayobj: 0x78
+   __DATA.__objc_ivar: 0x238
+   __DATA.__data: 0x300
+   __DATA.__bss: 0xa8
+
+   - /usr/lib/libMobileGestalt.dylib
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 033D8C19-9F55-3C30-B6FA-E503BF269274
++  UUID: 2FB7CA2C-CBA5-36DD-8A80-5F6537A2EA1F
+   Functions: 696
+   Symbols:   2659
+   CStrings:  1649
+Symbols:
++ GCC_except_table105
++ GCC_except_table111
++ GCC_except_table113
++ GCC_except_table115
++ GCC_except_table117
++ GCC_except_table119
++ GCC_except_table134
++ GCC_except_table138
++ GCC_except_table140
++ GCC_except_table142
++ GCC_except_table146
++ GCC_except_table156
++ GCC_except_table160
++ GCC_except_table198
++ GCC_except_table205
++ GCC_except_table334
++ GCC_except_table345
++ GCC_except_table348
++ GCC_except_table351
++ GCC_except_table355
++ GCC_except_table359
++ GCC_except_table363
++ GCC_except_table366
++ GCC_except_table369
++ GCC_except_table373
++ GCC_except_table376
++ GCC_except_table380
++ GCC_except_table383
++ GCC_except_table386
++ GCC_except_table390
++ GCC_except_table393
++ GCC_except_table396
++ GCC_except_table399
++ GCC_except_table403
++ GCC_except_table406
++ GCC_except_table409
++ GCC_except_table412
++ GCC_except_table415
++ GCC_except_table418
++ GCC_except_table421
++ GCC_except_table424
++ GCC_except_table427
++ GCC_except_table430
++ GCC_except_table433
++ GCC_except_table436
++ GCC_except_table439
++ GCC_except_table442
++ GCC_except_table446
++ GCC_except_table450
++ GCC_except_table454
++ GCC_except_table458
++ GCC_except_table461
++ GCC_except_table465
++ GCC_except_table468
++ GCC_except_table522
++ GCC_except_table61
++ GCC_except_table63
++ GCC_except_table654
++ GCC_except_table93
++ ___Block_byref_object_copy_.1054
++ ___Block_byref_object_copy_.124
++ ___Block_byref_object_copy_.212
++ ___Block_byref_object_copy_.377
++ ___Block_byref_object_copy_.604
++ ___Block_byref_object_copy_.910
++ ___Block_byref_object_dispose_.1055
++ ___Block_byref_object_dispose_.125
++ ___Block_byref_object_dispose_.213
++ ___Block_byref_object_dispose_.378
++ ___Block_byref_object_dispose_.605
++ ___Block_byref_object_dispose_.911
++ ___block_descriptor_48_e8_32s40bs_e45_v24?0"SSURLConnectionResponse"8"NSError"16ls40l8s32l8
++ ___block_descriptor_48_e8_32s40r_e5_v8?0lr40l8s32l8
++ ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls48l8s32l8s40l8
++ ___block_literal_global.103
++ ___block_literal_global.1251
++ ___block_literal_global.1286
++ ___block_literal_global.145
++ ___block_literal_global.26
++ ___block_literal_global.59
++ ___block_literal_global.920
+- GCC_except_table213
+- GCC_except_table216
+- GCC_except_table219
+- GCC_except_table224
+- GCC_except_table227
+- GCC_except_table230
+- GCC_except_table234
+- GCC_except_table238
+- GCC_except_table242
+- GCC_except_table245
+- GCC_except_table248
+- GCC_except_table252
+- GCC_except_table255
+- GCC_except_table259
+- GCC_except_table262
+- GCC_except_table265
+- GCC_except_table269
+- GCC_except_table272
+- GCC_except_table275
+- GCC_except_table278
+- GCC_except_table282
+- GCC_except_table285
+- GCC_except_table288
+- GCC_except_table291
+- GCC_except_table294
+- GCC_except_table297
+- GCC_except_table300
+- GCC_except_table303
+- GCC_except_table306
+- GCC_except_table309
+- GCC_except_table312
+- GCC_except_table315
+- GCC_except_table318
+- GCC_except_table321
+- GCC_except_table325
+- GCC_except_table329
+- GCC_except_table333
+- GCC_except_table344
+- GCC_except_table347
+- GCC_except_table384
+- GCC_except_table444
+- GCC_except_table510
+- GCC_except_table512
+- GCC_except_table542
+- GCC_except_table55
+- GCC_except_table554
+- GCC_except_table560
+- GCC_except_table562
+- GCC_except_table564
+- GCC_except_table566
+- GCC_except_table568
+- GCC_except_table583
+- GCC_except_table587
+- GCC_except_table589
+- GCC_except_table591
+- GCC_except_table595
+- GCC_except_table605
+- GCC_except_table609
+- GCC_except_table62
+- ___Block_byref_object_copy_.232
+- ___Block_byref_object_copy_.412
+- ___Block_byref_object_copy_.49
+- ___Block_byref_object_copy_.612
+- ___Block_byref_object_copy_.907
+- ___Block_byref_object_copy_.988
+- ___Block_byref_object_dispose_.233
+- ___Block_byref_object_dispose_.413
+- ___Block_byref_object_dispose_.50
+- ___Block_byref_object_dispose_.613
+- ___Block_byref_object_dispose_.908
+- ___Block_byref_object_dispose_.989
+- ___block_descriptor_48_e8_32s40bs_e45_v24?0"SSURLConnectionResponse"8"NSError"16ls32l8s40l8
+- ___block_descriptor_48_e8_32s40r_e5_v8?0ls32l8r40l8
+- ___block_descriptor_56_e8_32s40s48bs_e5_v8?0ls32l8s48l8s40l8
+- ___block_literal_global.1073
+- ___block_literal_global.161
+- ___block_literal_global.545
+- ___block_literal_global.671
+- ___block_literal_global.753
+- ___block_literal_global.932
+- ___block_literal_global.94
+
+```

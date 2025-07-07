@@ -1,0 +1,1896 @@
+## Photos
+
+> `/System/Library/Frameworks/Photos.framework/Photos`
+
+```diff
+
+-800.20.101.0.0
+-  __TEXT.__text: 0x28e37c
+-  __TEXT.__auth_stubs: 0x2b20
+-  __TEXT.__objc_methlist: 0x2405c
+-  __TEXT.__const: 0x1180
++800.26.109.0.0
++  __TEXT.__text: 0x28ecd4
++  __TEXT.__auth_stubs: 0x2aa0
++  __TEXT.__objc_methlist: 0x240bc
++  __TEXT.__const: 0xf90
+   __TEXT.__dlopen_cstrs: 0x239
+-  __TEXT.__swift5_typeref: 0x336
++  __TEXT.__constg_swiftt: 0x1dc
++  __TEXT.__swift5_typeref: 0x290
+   __TEXT.__swift5_reflstr: 0xd1
+-  __TEXT.__swift5_assocty: 0x98
+-  __TEXT.__constg_swiftt: 0x344
+-  __TEXT.__swift5_builtin: 0x3c
+-  __TEXT.__swift5_fieldmd: 0xec
+-  __TEXT.__cstring: 0x2b5b9
+-  __TEXT.__swift5_protos: 0x8
+-  __TEXT.__swift5_proto: 0x40
+-  __TEXT.__swift5_types: 0x20
++  __TEXT.__swift5_fieldmd: 0xb0
++  __TEXT.__swift5_assocty: 0x80
++  __TEXT.__swift5_builtin: 0x28
++  __TEXT.__swift5_proto: 0x2c
++  __TEXT.__swift5_types: 0x18
++  __TEXT.__cstring: 0x2b5d1
+   __TEXT.__swift5_capture: 0x6c
+-  __TEXT.__gcc_except_tab: 0x9b88
+-  __TEXT.__oslogstring: 0x1caa2
++  __TEXT.__gcc_except_tab: 0x9c60
++  __TEXT.__oslogstring: 0x1ccaa
+   __TEXT.__ustring: 0x4
+-  __TEXT.__unwind_info: 0x8540
++  __TEXT.__unwind_info: 0x84f0
+   __TEXT.__eh_frame: 0x100
+   __TEXT.__objc_classname: 0x3704
+-  __TEXT.__objc_methname: 0x6b2a5
+-  __TEXT.__objc_methtype: 0x6d86
+-  __TEXT.__objc_stubs: 0x39800
++  __TEXT.__objc_methname: 0x6b60e
++  __TEXT.__objc_methtype: 0x6d92
++  __TEXT.__objc_stubs: 0x39aa0
+   __DATA_CONST.__got: 0x26e0
+-  __DATA_CONST.__const: 0x7ee8
++  __DATA_CONST.__const: 0x7f18
+   __DATA_CONST.__objc_classlist: 0xdb8
+   __DATA_CONST.__objc_catlist: 0x70
+-  __DATA_CONST.__objc_protolist: 0x2f0
++  __DATA_CONST.__objc_protolist: 0x2e8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x12e38
+-  __DATA_CONST.__objc_protorefs: 0x48
++  __DATA_CONST.__objc_selrefs: 0x12ec0
++  __DATA_CONST.__objc_protorefs: 0x40
+   __DATA_CONST.__objc_superrefs: 0xb48
+   __DATA_CONST.__objc_arraydata: 0x948
+-  __AUTH_CONST.__auth_got: 0x15a0
+-  __AUTH_CONST.__const: 0x3c28
+-  __AUTH_CONST.__cfstring: 0x281a0
+-  __AUTH_CONST.__objc_const: 0x3d3a0
++  __AUTH_CONST.__auth_got: 0x1560
++  __AUTH_CONST.__const: 0x3b40
++  __AUTH_CONST.__cfstring: 0x28220
++  __AUTH_CONST.__objc_const: 0x3d330
+   __AUTH_CONST.__objc_intobj: 0x1ff8
+   __AUTH_CONST.__objc_arrayobj: 0x6d8
+   __AUTH_CONST.__objc_doubleobj: 0x130
+   __AUTH_CONST.__objc_dictobj: 0xf0
+   __AUTH.__objc_data: 0x6fd8
+   __AUTH.__data: 0xa8
+-  __DATA.__objc_ivar: 0x3230
+-  __DATA.__data: 0x2920
++  __DATA.__objc_ivar: 0x3234
++  __DATA.__data: 0x2890
+   __DATA.__crash_info: 0x148
+-  __DATA.__bss: 0x1888
++  __DATA.__bss: 0x1618
+   __DATA.__common: 0x55
+   __DATA_DIRTY.__objc_data: 0x1970
+   __DATA_DIRTY.__data: 0x148
+
+   - /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+   - /System/Library/Frameworks/CoreServices.framework/CoreServices
+   - /System/Library/Frameworks/CoreSpotlight.framework/CoreSpotlight
+-  - /System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+   - /System/Library/Frameworks/ImageCaptureCore.framework/ImageCaptureCore
+   - /System/Library/Frameworks/ImageIO.framework/ImageIO
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 2056D10B-FC6F-3620-B08A-8EA5F77D9ED3
+-  Functions: 13488
+-  Symbols:   45137
+-  CStrings:  28893
++  UUID: 16BFA82C-FA50-33D2-9822-BA09151DB22A
++  Functions: 13470
++  Symbols:   45170
++  CStrings:  28923
+ 
+Symbols:
++ +[PHImageRequestBehaviorSpec _shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:]
++ +[PHImageRequestBehaviorSpec _shouldLoadHDRGainMapBasedOnChoosingPolicy:options:]
++ +[PHImageRequestBehaviorSpec livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:]
++ +[PHSearchIndexEntityResult fetchAssetUUIDsForDateComponents:toLibrary:error:]
++ +[PHSearchIndexEntityResult fetchAssetUUIDsFromStartDateComponents:endDateComponents:photoLibrary:error:]
++ +[PHSensitiveContentAnalysisUtility _analyzeUserOwnedAsset:]
++ +[PHSensitiveContentAnalysisUtility _assetIsEligableForVideoProcessing:]
++ -[PHAssetCollectionChangeRequest _assetIDsAndUUIDsFromAssets:]
++ -[PHAssetCollectionChangeRequest appendAssets:]
++ -[PHMemory(NavigationContext) URLWantsPlayback]
++ -[PHRelationshipChangeRequestHelper _addObjectIDsAndUUIDs:toMutableArray:]
++ -[PHRelationshipChangeRequestHelper _addObjectIDsAndUUIDs:toMutableArray:coordinator:]
++ -[PHRelationshipChangeRequestHelper _addObjectIDsAndUUIDsFrom:toXpcArray:]
++ -[PHRelationshipChangeRequestHelper _addObjectIDsAndUUIDsFromXpcArray:toMutableArray:coordinator:]
++ -[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]
++ -[PHRelationshipChangeRequestHelper mutableAppendedObjectIDsAndUUIDs]
++ -[PHRelationshipChangeRequestHelper setMutableAppendedObjectIDsAndUUIDs:]
++ -[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]
++ GCC_except_table10000
++ GCC_except_table10001
++ GCC_except_table10002
++ GCC_except_table10003
++ GCC_except_table10004
++ GCC_except_table10005
++ GCC_except_table10006
++ GCC_except_table10007
++ GCC_except_table10008
++ GCC_except_table10009
++ GCC_except_table10045
++ GCC_except_table10049
++ GCC_except_table10068
++ GCC_except_table10073
++ GCC_except_table10143
++ GCC_except_table10236
++ GCC_except_table10376
++ GCC_except_table10413
++ GCC_except_table10503
++ GCC_except_table10531
++ GCC_except_table11024
++ GCC_except_table11179
++ GCC_except_table11182
++ GCC_except_table11193
++ GCC_except_table11197
++ GCC_except_table11203
++ GCC_except_table11309
++ GCC_except_table11328
++ GCC_except_table11330
++ GCC_except_table11332
++ GCC_except_table11334
++ GCC_except_table11369
++ GCC_except_table11416
++ GCC_except_table11423
++ GCC_except_table11425
++ GCC_except_table11427
++ GCC_except_table11433
++ GCC_except_table11470
++ GCC_except_table11616
++ GCC_except_table11628
++ GCC_except_table11670
++ GCC_except_table11672
++ GCC_except_table11685
++ GCC_except_table11784
++ GCC_except_table11788
++ GCC_except_table11827
++ GCC_except_table11831
++ GCC_except_table11840
++ GCC_except_table11841
++ GCC_except_table11848
++ GCC_except_table11885
++ GCC_except_table11892
++ GCC_except_table11936
++ GCC_except_table12020
++ GCC_except_table12023
++ GCC_except_table12029
++ GCC_except_table12031
++ GCC_except_table12071
++ GCC_except_table12090
++ GCC_except_table12099
++ GCC_except_table12153
++ GCC_except_table12155
++ GCC_except_table12215
++ GCC_except_table12359
++ GCC_except_table12363
++ GCC_except_table12367
++ GCC_except_table12404
++ GCC_except_table12428
++ GCC_except_table12435
++ GCC_except_table12643
++ GCC_except_table12885
++ GCC_except_table12962
++ GCC_except_table13007
++ GCC_except_table13054
++ GCC_except_table13064
++ GCC_except_table13082
++ GCC_except_table13097
++ GCC_except_table13126
++ GCC_except_table13139
++ GCC_except_table13141
++ GCC_except_table13143
++ GCC_except_table13162
++ GCC_except_table13244
++ GCC_except_table13266
++ GCC_except_table2470
++ GCC_except_table2480
++ GCC_except_table2521
++ GCC_except_table2582
++ GCC_except_table2680
++ GCC_except_table2691
++ GCC_except_table2693
++ GCC_except_table2727
++ GCC_except_table2801
++ GCC_except_table2806
++ GCC_except_table2811
++ GCC_except_table2814
++ GCC_except_table2824
++ GCC_except_table2835
++ GCC_except_table2837
++ GCC_except_table2840
++ GCC_except_table2971
++ GCC_except_table2975
++ GCC_except_table2978
++ GCC_except_table3045
++ GCC_except_table3053
++ GCC_except_table3082
++ GCC_except_table3086
++ GCC_except_table3091
++ GCC_except_table3207
++ GCC_except_table3240
++ GCC_except_table3246
++ GCC_except_table3249
++ GCC_except_table3259
++ GCC_except_table3263
++ GCC_except_table3269
++ GCC_except_table3272
++ GCC_except_table3276
++ GCC_except_table3280
++ GCC_except_table3291
++ GCC_except_table3307
++ GCC_except_table3308
++ GCC_except_table3324
++ GCC_except_table3333
++ GCC_except_table3430
++ GCC_except_table3452
++ GCC_except_table3454
++ GCC_except_table3456
++ GCC_except_table3503
++ GCC_except_table3530
++ GCC_except_table3561
++ GCC_except_table3563
++ GCC_except_table3581
++ GCC_except_table3583
++ GCC_except_table3586
++ GCC_except_table3796
++ GCC_except_table3798
++ GCC_except_table3820
++ GCC_except_table3855
++ GCC_except_table3863
++ GCC_except_table3865
++ GCC_except_table3880
++ GCC_except_table3883
++ GCC_except_table3885
++ GCC_except_table3917
++ GCC_except_table3922
++ GCC_except_table3923
++ GCC_except_table4185
++ GCC_except_table4191
++ GCC_except_table4218
++ GCC_except_table4241
++ GCC_except_table4243
++ GCC_except_table4247
++ GCC_except_table4252
++ GCC_except_table4263
++ GCC_except_table4267
++ GCC_except_table4280
++ GCC_except_table4346
++ GCC_except_table4655
++ GCC_except_table4657
++ GCC_except_table4664
++ GCC_except_table4728
++ GCC_except_table4730
++ GCC_except_table4734
++ GCC_except_table4736
++ GCC_except_table4739
++ GCC_except_table4808
++ GCC_except_table4813
++ GCC_except_table4842
++ GCC_except_table4989
++ GCC_except_table5344
++ GCC_except_table5393
++ GCC_except_table5417
++ GCC_except_table5423
++ GCC_except_table5436
++ GCC_except_table5438
++ GCC_except_table5464
++ GCC_except_table5466
++ GCC_except_table5469
++ GCC_except_table5470
++ GCC_except_table5483
++ GCC_except_table5487
++ GCC_except_table5496
++ GCC_except_table5500
++ GCC_except_table5537
++ GCC_except_table5545
++ GCC_except_table5575
++ GCC_except_table5601
++ GCC_except_table5605
++ GCC_except_table5609
++ GCC_except_table5627
++ GCC_except_table5633
++ GCC_except_table5637
++ GCC_except_table5651
++ GCC_except_table5654
++ GCC_except_table5657
++ GCC_except_table5678
++ GCC_except_table5722
++ GCC_except_table5733
++ GCC_except_table5780
++ GCC_except_table5811
++ GCC_except_table5814
++ GCC_except_table5820
++ GCC_except_table5824
++ GCC_except_table5853
++ GCC_except_table5883
++ GCC_except_table5909
++ GCC_except_table5911
++ GCC_except_table5922
++ GCC_except_table5969
++ GCC_except_table6044
++ GCC_except_table6049
++ GCC_except_table6054
++ GCC_except_table6186
++ GCC_except_table6189
++ GCC_except_table6202
++ GCC_except_table6226
++ GCC_except_table6236
++ GCC_except_table6239
++ GCC_except_table6276
++ GCC_except_table6313
++ GCC_except_table6315
++ GCC_except_table6700
++ GCC_except_table6713
++ GCC_except_table6726
++ GCC_except_table6743
++ GCC_except_table6772
++ GCC_except_table6775
++ GCC_except_table6777
++ GCC_except_table6779
++ GCC_except_table6781
++ GCC_except_table6789
++ GCC_except_table6832
++ GCC_except_table6845
++ GCC_except_table6878
++ GCC_except_table6880
++ GCC_except_table6919
++ GCC_except_table7180
++ GCC_except_table7190
++ GCC_except_table7197
++ GCC_except_table7213
++ GCC_except_table7215
++ GCC_except_table7216
++ GCC_except_table7217
++ GCC_except_table7218
++ GCC_except_table7219
++ GCC_except_table7231
++ GCC_except_table7232
++ GCC_except_table7233
++ GCC_except_table7390
++ GCC_except_table7608
++ GCC_except_table7634
++ GCC_except_table7653
++ GCC_except_table7655
++ GCC_except_table7656
++ GCC_except_table7717
++ GCC_except_table7739
++ GCC_except_table7743
++ GCC_except_table7749
++ GCC_except_table7802
++ GCC_except_table7961
++ GCC_except_table7963
++ GCC_except_table8010
++ GCC_except_table8050
++ GCC_except_table8054
++ GCC_except_table8056
++ GCC_except_table8058
++ GCC_except_table8070
++ GCC_except_table8075
++ GCC_except_table8115
++ GCC_except_table8143
++ GCC_except_table8269
++ GCC_except_table8327
++ GCC_except_table8347
++ GCC_except_table8350
++ GCC_except_table8369
++ GCC_except_table8431
++ GCC_except_table8439
++ GCC_except_table8448
++ GCC_except_table8450
++ GCC_except_table8490
++ GCC_except_table8554
++ GCC_except_table8711
++ GCC_except_table8752
++ GCC_except_table8757
++ GCC_except_table9002
++ GCC_except_table9006
++ GCC_except_table9010
++ GCC_except_table9012
++ GCC_except_table9038
++ GCC_except_table9039
++ GCC_except_table9131
++ GCC_except_table9141
++ GCC_except_table9173
++ GCC_except_table9225
++ GCC_except_table9259
++ GCC_except_table9279
++ GCC_except_table9306
++ GCC_except_table9329
++ GCC_except_table9362
++ GCC_except_table9364
++ GCC_except_table9454
++ GCC_except_table9545
++ GCC_except_table9664
++ GCC_except_table9678
++ GCC_except_table9679
++ GCC_except_table9686
++ GCC_except_table9689
++ GCC_except_table9720
++ GCC_except_table9793
++ GCC_except_table9794
++ GCC_except_table9795
++ GCC_except_table9796
++ GCC_except_table9797
++ GCC_except_table9798
++ GCC_except_table9799
++ GCC_except_table9800
++ GCC_except_table9801
++ GCC_except_table9802
++ GCC_except_table9803
++ GCC_except_table9804
++ GCC_except_table9805
++ GCC_except_table9806
++ GCC_except_table9807
++ GCC_except_table9808
++ GCC_except_table9904
++ GCC_except_table9913
++ GCC_except_table9914
++ GCC_except_table9915
++ GCC_except_table9916
++ GCC_except_table9917
++ GCC_except_table9919
++ GCC_except_table9924
++ GCC_except_table9942
++ GCC_except_table9966
++ GCC_except_table9967
++ GCC_except_table9968
++ GCC_except_table9969
++ GCC_except_table9970
++ GCC_except_table9980
++ _OBJC_CLASS_$_PSIDate
++ _OBJC_CLASS_$_PSIDateFilter
++ _OBJC_IVAR_$_PHRelationshipChangeRequestHelper._mutableAppendedObjectIDsAndUUIDs
++ _SensitiveContentAnalysisLibraryCore.frameworkLibrary.19259
++ _SensitiveContentAnalysisLibraryCore.frameworkLibrary.22456
++ _SensitiveContentAnalysisLibraryCore.frameworkLibrary.36543
++ __OBJC_$_CLASS_PROP_LIST_PHAssetPropertySet.2602
++ __OBJC_$_PROP_LIST_PHAssetPropertySet.2609
++ ___101+[PHResourceLocalAvailabilityRequest indexesForAssetsRequiringResourceRetrieval:requestType:options:]_block_invoke.386
++ ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.264
++ ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.275
++ ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.278
++ ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke_2.279
++ ___109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.116
++ ___109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.117
++ ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.284
++ ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.287
++ ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.288
++ ___111-[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]_block_invoke
++ ___111-[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]_block_invoke.285
++ ___111-[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]_block_invoke_2
++ ___111-[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]_block_invoke_3
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.240
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.249
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.253
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.255
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.256
++ ___156-[PHResourceLocalAvailabilityRequest _fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:]_block_invoke.257
++ ___60+[PHSensitiveContentAnalysisUtility _analyzeUserOwnedAsset:]_block_invoke
++ ___60+[PHSensitiveContentAnalysisUtility _analyzeUserOwnedAsset:]_block_invoke_2
++ ___60+[PHSensitiveContentAnalysisUtility _analyzeUserOwnedAsset:]_block_invoke_3
++ ___76-[PHSearchQueryManager suggestionsForSearchText:options:suggestionsHandler:]_block_invoke.120
++ ___98-[PHRelationshipChangeRequestHelper _addObjectIDsAndUUIDsFromXpcArray:toMutableArray:coordinator:]_block_invoke
++ ___Block_byref_object_copy_.10423
++ ___Block_byref_object_copy_.11165
++ ___Block_byref_object_copy_.11426
++ ___Block_byref_object_copy_.11585
++ ___Block_byref_object_copy_.12430
++ ___Block_byref_object_copy_.12694
++ ___Block_byref_object_copy_.13155
++ ___Block_byref_object_copy_.13635
++ ___Block_byref_object_copy_.14855
++ ___Block_byref_object_copy_.15605
++ ___Block_byref_object_copy_.17572
++ ___Block_byref_object_copy_.18547
++ ___Block_byref_object_copy_.20229
++ ___Block_byref_object_copy_.20395
++ ___Block_byref_object_copy_.20719
++ ___Block_byref_object_copy_.21186
++ ___Block_byref_object_copy_.21765
++ ___Block_byref_object_copy_.22276
++ ___Block_byref_object_copy_.22463
++ ___Block_byref_object_copy_.24298
++ ___Block_byref_object_copy_.25171
++ ___Block_byref_object_copy_.26860
++ ___Block_byref_object_copy_.27392
++ ___Block_byref_object_copy_.28113
++ ___Block_byref_object_copy_.28405
++ ___Block_byref_object_copy_.29932
++ ___Block_byref_object_copy_.30906
++ ___Block_byref_object_copy_.31652
++ ___Block_byref_object_copy_.31946
++ ___Block_byref_object_copy_.33324
++ ___Block_byref_object_copy_.33906
++ ___Block_byref_object_copy_.34464
++ ___Block_byref_object_copy_.34606
++ ___Block_byref_object_copy_.35041
++ ___Block_byref_object_copy_.35621
++ ___Block_byref_object_copy_.35900
++ ___Block_byref_object_copy_.36874
++ ___Block_byref_object_copy_.37306
++ ___Block_byref_object_copy_.38905
++ ___Block_byref_object_copy_.39462
++ ___Block_byref_object_copy_.43540
++ ___Block_byref_object_copy_.43963
++ ___Block_byref_object_copy_.44174
++ ___Block_byref_object_copy_.44402
++ ___Block_byref_object_copy_.45746
++ ___Block_byref_object_copy_.46155
++ ___Block_byref_object_copy_.46674
++ ___Block_byref_object_copy_.46976
++ ___Block_byref_object_copy_.47352
++ ___Block_byref_object_copy_.47839
++ ___Block_byref_object_copy_.48334
++ ___Block_byref_object_copy_.49213
++ ___Block_byref_object_copy_.49411
++ ___Block_byref_object_copy_.49621
++ ___Block_byref_object_copy_.49658
++ ___Block_byref_object_copy_.51822
++ ___Block_byref_object_copy_.52114
++ ___Block_byref_object_copy_.52848
++ ___Block_byref_object_copy_.53652
++ ___Block_byref_object_copy_.9165
++ ___Block_byref_object_copy_.9722
++ ___Block_byref_object_dispose_.10424
++ ___Block_byref_object_dispose_.11166
++ ___Block_byref_object_dispose_.11427
++ ___Block_byref_object_dispose_.11586
++ ___Block_byref_object_dispose_.12431
++ ___Block_byref_object_dispose_.12695
++ ___Block_byref_object_dispose_.13156
++ ___Block_byref_object_dispose_.13636
++ ___Block_byref_object_dispose_.14856
++ ___Block_byref_object_dispose_.15606
++ ___Block_byref_object_dispose_.17573
++ ___Block_byref_object_dispose_.18548
++ ___Block_byref_object_dispose_.20230
++ ___Block_byref_object_dispose_.20396
++ ___Block_byref_object_dispose_.20720
++ ___Block_byref_object_dispose_.21187
++ ___Block_byref_object_dispose_.21766
++ ___Block_byref_object_dispose_.22277
++ ___Block_byref_object_dispose_.22464
++ ___Block_byref_object_dispose_.24299
++ ___Block_byref_object_dispose_.25172
++ ___Block_byref_object_dispose_.26861
++ ___Block_byref_object_dispose_.27393
++ ___Block_byref_object_dispose_.28114
++ ___Block_byref_object_dispose_.28406
++ ___Block_byref_object_dispose_.29933
++ ___Block_byref_object_dispose_.30907
++ ___Block_byref_object_dispose_.31653
++ ___Block_byref_object_dispose_.31947
++ ___Block_byref_object_dispose_.33325
++ ___Block_byref_object_dispose_.33907
++ ___Block_byref_object_dispose_.34465
++ ___Block_byref_object_dispose_.34607
++ ___Block_byref_object_dispose_.35042
++ ___Block_byref_object_dispose_.35622
++ ___Block_byref_object_dispose_.35901
++ ___Block_byref_object_dispose_.36875
++ ___Block_byref_object_dispose_.37307
++ ___Block_byref_object_dispose_.38906
++ ___Block_byref_object_dispose_.39463
++ ___Block_byref_object_dispose_.43541
++ ___Block_byref_object_dispose_.43964
++ ___Block_byref_object_dispose_.44175
++ ___Block_byref_object_dispose_.44403
++ ___Block_byref_object_dispose_.45747
++ ___Block_byref_object_dispose_.46156
++ ___Block_byref_object_dispose_.46675
++ ___Block_byref_object_dispose_.46977
++ ___Block_byref_object_dispose_.47353
++ ___Block_byref_object_dispose_.47840
++ ___Block_byref_object_dispose_.48335
++ ___Block_byref_object_dispose_.49214
++ ___Block_byref_object_dispose_.49412
++ ___Block_byref_object_dispose_.49622
++ ___Block_byref_object_dispose_.49659
++ ___Block_byref_object_dispose_.51823
++ ___Block_byref_object_dispose_.52115
++ ___Block_byref_object_dispose_.52849
++ ___Block_byref_object_dispose_.53653
++ ___Block_byref_object_dispose_.9166
++ ___Block_byref_object_dispose_.9723
++ ___SensitiveContentAnalysisLibraryCore_block_invoke.19260
++ ___SensitiveContentAnalysisLibraryCore_block_invoke.22457
++ ___SensitiveContentAnalysisLibraryCore_block_invoke.36544
++ ___block_descriptor_48_e8_32s40s_e43_v24?0"SCSensitivityAnalysis"8"NSError"16ls32l8s40l8
++ ___block_literal_global.1034.36734
++ ___block_literal_global.10548
++ ___block_literal_global.1056.36732
++ ___block_literal_global.1058.36730
++ ___block_literal_global.1082.36729
++ ___block_literal_global.1092.36726
++ ___block_literal_global.112.41230
++ ___block_literal_global.11247
++ ___block_literal_global.11442
++ ___block_literal_global.11819
++ ___block_literal_global.12744
++ ___block_literal_global.134.47899
++ ___block_literal_global.13455
++ ___block_literal_global.13637
++ ___block_literal_global.14210
++ ___block_literal_global.14536
++ ___block_literal_global.146.38873
++ ___block_literal_global.14923
++ ___block_literal_global.15600
++ ___block_literal_global.169.52936
++ ___block_literal_global.17152
++ ___block_literal_global.17806
++ ___block_literal_global.18576
++ ___block_literal_global.18627
++ ___block_literal_global.19829
++ ___block_literal_global.20146
++ ___block_literal_global.206.28689
++ ___block_literal_global.20735
++ ___block_literal_global.21161
++ ___block_literal_global.215.29604
++ ___block_literal_global.217.14013
++ ___block_literal_global.217.29588
++ ___block_literal_global.22069
++ ___block_literal_global.224.14811
++ ___block_literal_global.22938
++ ___block_literal_global.234.34193
++ ___block_literal_global.24206
++ ___block_literal_global.25528
++ ___block_literal_global.26198
++ ___block_literal_global.2647
++ ___block_literal_global.27094
++ ___block_literal_global.2733
++ ___block_literal_global.2747
++ ___block_literal_global.27815
++ ___block_literal_global.28090
++ ___block_literal_global.2818
++ ___block_literal_global.2848
++ ___block_literal_global.286
++ ___block_literal_global.28720
++ ___block_literal_global.28990
++ ___block_literal_global.29069
++ ___block_literal_global.29591
++ ___block_literal_global.3.11447
++ ___block_literal_global.30048
++ ___block_literal_global.30435
++ ___block_literal_global.30632
++ ___block_literal_global.30917
++ ___block_literal_global.3101
++ ___block_literal_global.312
++ ___block_literal_global.31335
++ ___block_literal_global.3153
++ ___block_literal_global.316
++ ___block_literal_global.3171
++ ___block_literal_global.3188
++ ___block_literal_global.3216
++ ___block_literal_global.32179
++ ___block_literal_global.32321
++ ___block_literal_global.3237
++ ___block_literal_global.3279
++ ___block_literal_global.32794
++ ___block_literal_global.3330
++ ___block_literal_global.33430
++ ___block_literal_global.34196
++ ___block_literal_global.3421
++ ___block_literal_global.34478
++ ___block_literal_global.34557
++ ___block_literal_global.3460
++ ___block_literal_global.34703
++ ___block_literal_global.34882
++ ___block_literal_global.3493
++ ___block_literal_global.35359
++ ___block_literal_global.3580
++ ___block_literal_global.35905
++ ___block_literal_global.360
++ ___block_literal_global.362
++ ___block_literal_global.364
++ ___block_literal_global.36411
++ ___block_literal_global.37.32225
++ ___block_literal_global.37.47471
++ ___block_literal_global.37176
++ ___block_literal_global.37367
++ ___block_literal_global.37913
++ ___block_literal_global.3797
++ ___block_literal_global.38219
++ ___block_literal_global.3841
++ ___block_literal_global.38948
++ ___block_literal_global.39206
++ ___block_literal_global.3954
++ ___block_literal_global.39635
++ ___block_literal_global.40234
++ ___block_literal_global.40444
++ ___block_literal_global.40928
++ ___block_literal_global.41236
++ ___block_literal_global.42546
++ ___block_literal_global.4280
++ ___block_literal_global.43129
++ ___block_literal_global.4332
++ ___block_literal_global.43543
++ ___block_literal_global.4382
++ ___block_literal_global.44228
++ ___block_literal_global.44419
++ ___block_literal_global.4447
++ ___block_literal_global.4489
++ ___block_literal_global.45039
++ ___block_literal_global.4520
++ ___block_literal_global.4537
++ ___block_literal_global.4568
++ ___block_literal_global.4574
++ ___block_literal_global.45831
++ ___block_literal_global.4586
++ ___block_literal_global.4591
++ ___block_literal_global.4612
++ ___block_literal_global.46187
++ ___block_literal_global.4630
++ ___block_literal_global.4641
++ ___block_literal_global.46505
++ ___block_literal_global.4656
++ ___block_literal_global.46596
++ ___block_literal_global.4667
++ ___block_literal_global.47260
++ ___block_literal_global.47478
++ ___block_literal_global.4764
++ ___block_literal_global.47918
++ ___block_literal_global.48066
++ ___block_literal_global.48826
++ ___block_literal_global.49178
++ ___block_literal_global.49623
++ ___block_literal_global.49671
++ ___block_literal_global.49980
++ ___block_literal_global.50.26166
++ ___block_literal_global.50253
++ ___block_literal_global.51565
++ ___block_literal_global.52939
++ ___block_literal_global.53506
++ ___block_literal_global.635
++ ___block_literal_global.85.53484
++ ___block_literal_global.8953
++ ___block_literal_global.9391
++ ___block_literal_global.980.36901
++ ___block_literal_global.982.36895
++ ___block_literal_global.992.37021
++ ___getSCSensitivityAnalysisClass_block_invoke.19258
++ ___getSCSensitivityAnalysisClass_block_invoke.22455
++ ___getSCSensitivityAnalysisClass_block_invoke.36542
++ __currentTimestampString.s_formatter.47472
++ __currentTimestampString.s_onceToken.47470
++ __wantsPlaybackForMemoryPresentedFromURLNavigation
++ _allowedInfoKeys.allowedKeys.18831
++ _allowedInfoKeys.allowedKeys.40733
++ _allowedInfoKeys.onceToken.18830
++ _allowedInfoKeys.onceToken.40732
++ _audit_stringSensitiveContentAnalysis.19269
++ _audit_stringSensitiveContentAnalysis.22461
++ _audit_stringSensitiveContentAnalysis.36554
++ _corePropertiesToFetch.array.22941
++ _corePropertiesToFetch.array.28717
++ _corePropertiesToFetch.array.34197
++ _corePropertiesToFetch.onceToken.22940
++ _corePropertiesToFetch.onceToken.28716
++ _corePropertiesToFetch.onceToken.34195
++ _defaultManager.onceToken.51901
++ _entityKeyMap.pl_once_object_15.11228
++ _entityKeyMap.pl_once_object_15.11830
++ _entityKeyMap.pl_once_object_15.13446
++ _entityKeyMap.pl_once_object_15.13748
++ _entityKeyMap.pl_once_object_15.27806
++ _entityKeyMap.pl_once_object_15.29080
++ _entityKeyMap.pl_once_object_15.32785
++ _entityKeyMap.pl_once_object_15.36401
++ _entityKeyMap.pl_once_object_15.40266
++ _entityKeyMap.pl_once_object_15.44442
++ _entityKeyMap.pl_once_object_15.46178
++ _entityKeyMap.pl_once_object_15.46588
++ _entityKeyMap.pl_once_object_15.48063
++ _entityKeyMap.pl_once_object_15.50128
++ _entityKeyMap.pl_once_object_15.51048
++ _entityKeyMap.pl_once_object_16.34185
++ _entityKeyMap.pl_once_object_16.34544
++ _entityKeyMap.pl_once_object_16.40431
++ _entityKeyMap.pl_once_object_16.47248
++ _entityKeyMap.pl_once_object_16.53493
++ _entityKeyMap.pl_once_token_15.11227
++ _entityKeyMap.pl_once_token_15.11829
++ _entityKeyMap.pl_once_token_15.13445
++ _entityKeyMap.pl_once_token_15.13747
++ _entityKeyMap.pl_once_token_15.27805
++ _entityKeyMap.pl_once_token_15.29079
++ _entityKeyMap.pl_once_token_15.32784
++ _entityKeyMap.pl_once_token_15.36400
++ _entityKeyMap.pl_once_token_15.40265
++ _entityKeyMap.pl_once_token_15.44441
++ _entityKeyMap.pl_once_token_15.46177
++ _entityKeyMap.pl_once_token_15.46587
++ _entityKeyMap.pl_once_token_15.48062
++ _entityKeyMap.pl_once_token_15.50127
++ _entityKeyMap.pl_once_token_15.51047
++ _entityKeyMap.pl_once_token_16.34184
++ _entityKeyMap.pl_once_token_16.34543
++ _entityKeyMap.pl_once_token_16.40430
++ _entityKeyMap.pl_once_token_16.47247
++ _entityKeyMap.pl_once_token_16.53492
++ _getSCSensitivityAnalysisClass.19256
++ _getSCSensitivityAnalysisClass.36535
++ _getSCSensitivityAnalysisClass.softClass.19257
++ _getSCSensitivityAnalysisClass.softClass.22454
++ _getSCSensitivityAnalysisClass.softClass.36541
++ _identifierPropertiesToFetch.array.35360
++ _identifierPropertiesToFetch.onceToken.35358
++ _objc_msgSend$_addObjectIDsAndUUIDs:toMutableArray:
++ _objc_msgSend$_addObjectIDsAndUUIDs:toMutableArray:coordinator:
++ _objc_msgSend$_addObjectIDsAndUUIDsFrom:toXpcArray:
++ _objc_msgSend$_addObjectIDsAndUUIDsFromXpcArray:toMutableArray:coordinator:
++ _objc_msgSend$_analyzeUserOwnedAsset:
++ _objc_msgSend$_applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:
++ _objc_msgSend$_assetIDsAndUUIDsFromAssets:
++ _objc_msgSend$_assetIsEligableForVideoProcessing:
++ _objc_msgSend$_fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:
++ _objc_msgSend$_shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:
++ _objc_msgSend$_shouldLoadHDRGainMapBasedOnChoosingPolicy:options:
++ _objc_msgSend$analyzeFile:options:progressHandler:completionHandler:
++ _objc_msgSend$assetIdsWithDateFilter:
++ _objc_msgSend$assetUUIDsForAssetIdsArray:
++ _objc_msgSend$cloudStreamShareJobToPublishMediaFromSources:toCollectionShareScopeIdentifier:withCommentText:clientBundleIdentifier:unitTestingMode:
++ _objc_msgSend$createOwnedShareWithUUID:creationDate:title:kind:clientBundleIdentifier:unitTestMode:inPhotoLibrary:
++ _objc_msgSend$distantFuture
++ _objc_msgSend$fetchAssetUUIDsFromStartDateComponents:endDateComponents:photoLibrary:error:
++ _objc_msgSend$initWithDateComponents:
++ _objc_msgSend$int64Representation
++ _objc_msgSend$int64RepresentationMask
++ _objc_msgSend$livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:
++ _objc_msgSend$masterThumbnailFormat
++ _objc_msgSend$mutableAppendedObjectIDsAndUUIDs
++ _objc_msgSend$setCompactImageSCSensitivityAnalysis:
++ _objc_msgSend$setCompactVideoSCSensitivityAnalysis:
++ _objc_msgSend$setMutableAppendedObjectIDsAndUUIDs:
++ _objc_msgSend$sizeWithFallBackSize:
++ _propertiesToFetch.pl_once_object_24.33902
++ _propertiesToFetch.pl_once_token_24.33901
++ _propertiesToFetchWithHint:.array.11243
++ _propertiesToFetchWithHint:.array.11837
++ _propertiesToFetchWithHint:.array.13773
++ _propertiesToFetchWithHint:.array.23435
++ _propertiesToFetchWithHint:.array.27816
++ _propertiesToFetchWithHint:.array.29090
++ _propertiesToFetchWithHint:.array.32795
++ _propertiesToFetchWithHint:.array.36412
++ _propertiesToFetchWithHint:.array.40287
++ _propertiesToFetchWithHint:.array.46188
++ _propertiesToFetchWithHint:.array.48067
++ _propertiesToFetchWithHint:.array.50141
++ _propertiesToFetchWithHint:.array.51076
++ _propertiesToFetchWithHint:.onceToken.11242
++ _propertiesToFetchWithHint:.onceToken.11836
++ _propertiesToFetchWithHint:.onceToken.13454
++ _propertiesToFetchWithHint:.onceToken.13772
++ _propertiesToFetchWithHint:.onceToken.22934
++ _propertiesToFetchWithHint:.onceToken.23434
++ _propertiesToFetchWithHint:.onceToken.27814
++ _propertiesToFetchWithHint:.onceToken.28719
++ _propertiesToFetchWithHint:.onceToken.29089
++ _propertiesToFetchWithHint:.onceToken.32793
++ _propertiesToFetchWithHint:.onceToken.34189
++ _propertiesToFetchWithHint:.onceToken.36410
++ _propertiesToFetchWithHint:.onceToken.40286
++ _propertiesToFetchWithHint:.onceToken.46186
++ _propertiesToFetchWithHint:.onceToken.48065
++ _propertiesToFetchWithHint:.onceToken.50140
++ _propertiesToFetchWithHint:.onceToken.51075
++ _propertiesToFetchWithHint:.pl_once_object_15.34558
++ _propertiesToFetchWithHint:.pl_once_object_15.40445
++ _propertiesToFetchWithHint:.pl_once_object_15.47261
++ _propertiesToFetchWithHint:.pl_once_object_15.53507
++ _propertiesToFetchWithHint:.pl_once_token_15.34556
++ _propertiesToFetchWithHint:.pl_once_token_15.40443
++ _propertiesToFetchWithHint:.pl_once_token_15.47259
++ _propertiesToFetchWithHint:.pl_once_token_15.53505
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.13457
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.22936
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.28722
++ _propertiesToFetchWithHint:.propertiesToFetchByHint.34191
++ _propertiesToFetchWithHint:.propertyQueue.13456
++ _propertiesToFetchWithHint:.propertyQueue.22935
++ _propertiesToFetchWithHint:.propertyQueue.28721
++ _propertiesToFetchWithHint:.propertyQueue.34190
++ _propertiesToPrefetch.onceToken.22471
++ _propertiesToPrefetch.onceToken.28383
++ _propertiesToPrefetch.onceToken.33892
++ _propertiesToPrefetch.propertiesToPrefetch.22472
++ _propertiesToPrefetch.propertiesToPrefetch.28384
++ _propertiesToPrefetch.propertiesToPrefetch.33893
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.13141
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.28569
++ _propertySetAccessorsByPropertySet.accessorByPropertySetName.34160
++ _propertySetAccessorsByPropertySet.onceToken.13140
++ _propertySetAccessorsByPropertySet.onceToken.28568
++ _propertySetAccessorsByPropertySet.onceToken.34159
++ _propertySetClassForPropertySet:.onceToken.13143
++ _propertySetClassForPropertySet:.onceToken.28576
++ _propertySetClassForPropertySet:.onceToken.34168
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.13144
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.28577
++ _propertySetClassForPropertySet:.propertySetClassByPropertySetName.34169
++ _sensitiveContentAnalysisEnabled.cancellablePolicySubscription
++ _sharedDecoder.s_onceToken.50252
++ _sharedDecoder.s_shared.50254
++ _transformValueExpression:forKeyPath:._passThroughSet.11211
++ _transformValueExpression:forKeyPath:._passThroughSet.11826
++ _transformValueExpression:forKeyPath:._passThroughSet.13435
++ _transformValueExpression:forKeyPath:._passThroughSet.13733
++ _transformValueExpression:forKeyPath:._passThroughSet.22889
++ _transformValueExpression:forKeyPath:._passThroughSet.27785
++ _transformValueExpression:forKeyPath:._passThroughSet.28705
++ _transformValueExpression:forKeyPath:._passThroughSet.29076
++ _transformValueExpression:forKeyPath:._passThroughSet.32776
++ _transformValueExpression:forKeyPath:._passThroughSet.34173
++ _transformValueExpression:forKeyPath:._passThroughSet.36395
++ _transformValueExpression:forKeyPath:._passThroughSet.40255
++ _transformValueExpression:forKeyPath:._passThroughSet.44424
++ _transformValueExpression:forKeyPath:._passThroughSet.46166
++ _transformValueExpression:forKeyPath:._passThroughSet.48060
++ _transformValueExpression:forKeyPath:._passThroughSet.51026
++ _transformValueExpression:forKeyPath:._passThroughSet.53455
++ _transformValueExpression:forKeyPath:.onceToken.11210
++ _transformValueExpression:forKeyPath:.onceToken.11825
++ _transformValueExpression:forKeyPath:.onceToken.13434
++ _transformValueExpression:forKeyPath:.onceToken.13732
++ _transformValueExpression:forKeyPath:.onceToken.22888
++ _transformValueExpression:forKeyPath:.onceToken.27784
++ _transformValueExpression:forKeyPath:.onceToken.28704
++ _transformValueExpression:forKeyPath:.onceToken.29075
++ _transformValueExpression:forKeyPath:.onceToken.32775
++ _transformValueExpression:forKeyPath:.onceToken.34172
++ _transformValueExpression:forKeyPath:.onceToken.36394
++ _transformValueExpression:forKeyPath:.onceToken.40254
++ _transformValueExpression:forKeyPath:.onceToken.44423
++ _transformValueExpression:forKeyPath:.onceToken.46165
++ _transformValueExpression:forKeyPath:.onceToken.48059
++ _transformValueExpression:forKeyPath:.onceToken.51025
++ _transformValueExpression:forKeyPath:.onceToken.53454
+- +[PHImageRequestBehaviorSpec _shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:asset:]
+- +[PHImageRequestBehaviorSpec _shouldLoadHDRGainMapBasedOnChoosingPolicy:options:asset:]
+- +[PHImageRequestBehaviorSpec livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:asset:]
+- -[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]
+- GCC_except_table10029
+- GCC_except_table10033
+- GCC_except_table10052
+- GCC_except_table10057
+- GCC_except_table10127
+- GCC_except_table10220
+- GCC_except_table10360
+- GCC_except_table10397
+- GCC_except_table10487
+- GCC_except_table10515
+- GCC_except_table11008
+- GCC_except_table11163
+- GCC_except_table11166
+- GCC_except_table11171
+- GCC_except_table11177
+- GCC_except_table11181
+- GCC_except_table11293
+- GCC_except_table11312
+- GCC_except_table11314
+- GCC_except_table11316
+- GCC_except_table11318
+- GCC_except_table11353
+- GCC_except_table11400
+- GCC_except_table11407
+- GCC_except_table11409
+- GCC_except_table11411
+- GCC_except_table11417
+- GCC_except_table11454
+- GCC_except_table11600
+- GCC_except_table11612
+- GCC_except_table11654
+- GCC_except_table11656
+- GCC_except_table11669
+- GCC_except_table11768
+- GCC_except_table11772
+- GCC_except_table11811
+- GCC_except_table11815
+- GCC_except_table11824
+- GCC_except_table11825
+- GCC_except_table11832
+- GCC_except_table11869
+- GCC_except_table11876
+- GCC_except_table11920
+- GCC_except_table12004
+- GCC_except_table12007
+- GCC_except_table12013
+- GCC_except_table12015
+- GCC_except_table12055
+- GCC_except_table12074
+- GCC_except_table12083
+- GCC_except_table12137
+- GCC_except_table12139
+- GCC_except_table12199
+- GCC_except_table12343
+- GCC_except_table12347
+- GCC_except_table12351
+- GCC_except_table12388
+- GCC_except_table12412
+- GCC_except_table12419
+- GCC_except_table12627
+- GCC_except_table12869
+- GCC_except_table12946
+- GCC_except_table12991
+- GCC_except_table13038
+- GCC_except_table13048
+- GCC_except_table13066
+- GCC_except_table13081
+- GCC_except_table13110
+- GCC_except_table13123
+- GCC_except_table13125
+- GCC_except_table13127
+- GCC_except_table13146
+- GCC_except_table13228
+- GCC_except_table13234
+- GCC_except_table2472
+- GCC_except_table2478
+- GCC_except_table2511
+- GCC_except_table2572
+- GCC_except_table2668
+- GCC_except_table2679
+- GCC_except_table2681
+- GCC_except_table2715
+- GCC_except_table2789
+- GCC_except_table2794
+- GCC_except_table2799
+- GCC_except_table2802
+- GCC_except_table2812
+- GCC_except_table2823
+- GCC_except_table2825
+- GCC_except_table2828
+- GCC_except_table2959
+- GCC_except_table2963
+- GCC_except_table2966
+- GCC_except_table3033
+- GCC_except_table3041
+- GCC_except_table3070
+- GCC_except_table3074
+- GCC_except_table3079
+- GCC_except_table3195
+- GCC_except_table3228
+- GCC_except_table3234
+- GCC_except_table3237
+- GCC_except_table3247
+- GCC_except_table3251
+- GCC_except_table3257
+- GCC_except_table3260
+- GCC_except_table3264
+- GCC_except_table3268
+- GCC_except_table3279
+- GCC_except_table3284
+- GCC_except_table3295
+- GCC_except_table3312
+- GCC_except_table3321
+- GCC_except_table3418
+- GCC_except_table3440
+- GCC_except_table3442
+- GCC_except_table3444
+- GCC_except_table3491
+- GCC_except_table3518
+- GCC_except_table3549
+- GCC_except_table3551
+- GCC_except_table3569
+- GCC_except_table3571
+- GCC_except_table3574
+- GCC_except_table3784
+- GCC_except_table3786
+- GCC_except_table3808
+- GCC_except_table3843
+- GCC_except_table3851
+- GCC_except_table3853
+- GCC_except_table3868
+- GCC_except_table3871
+- GCC_except_table3873
+- GCC_except_table3905
+- GCC_except_table3910
+- GCC_except_table3911
+- GCC_except_table4173
+- GCC_except_table4179
+- GCC_except_table4206
+- GCC_except_table4229
+- GCC_except_table4231
+- GCC_except_table4235
+- GCC_except_table4240
+- GCC_except_table4251
+- GCC_except_table4255
+- GCC_except_table4268
+- GCC_except_table4334
+- GCC_except_table4643
+- GCC_except_table4645
+- GCC_except_table4652
+- GCC_except_table4716
+- GCC_except_table4718
+- GCC_except_table4722
+- GCC_except_table4724
+- GCC_except_table4727
+- GCC_except_table4796
+- GCC_except_table4801
+- GCC_except_table4830
+- GCC_except_table4977
+- GCC_except_table5332
+- GCC_except_table5381
+- GCC_except_table5399
+- GCC_except_table5405
+- GCC_except_table5424
+- GCC_except_table5426
+- GCC_except_table5452
+- GCC_except_table5454
+- GCC_except_table5457
+- GCC_except_table5458
+- GCC_except_table5463
+- GCC_except_table5471
+- GCC_except_table5484
+- GCC_except_table5488
+- GCC_except_table5525
+- GCC_except_table5533
+- GCC_except_table5563
+- GCC_except_table5589
+- GCC_except_table5593
+- GCC_except_table5597
+- GCC_except_table5615
+- GCC_except_table5621
+- GCC_except_table5625
+- GCC_except_table5639
+- GCC_except_table5642
+- GCC_except_table5645
+- GCC_except_table5666
+- GCC_except_table5710
+- GCC_except_table5721
+- GCC_except_table5768
+- GCC_except_table5799
+- GCC_except_table5802
+- GCC_except_table5808
+- GCC_except_table5812
+- GCC_except_table5841
+- GCC_except_table5871
+- GCC_except_table5897
+- GCC_except_table5899
+- GCC_except_table5910
+- GCC_except_table5957
+- GCC_except_table6033
+- GCC_except_table6038
+- GCC_except_table6043
+- GCC_except_table6175
+- GCC_except_table6178
+- GCC_except_table6191
+- GCC_except_table6215
+- GCC_except_table6225
+- GCC_except_table6228
+- GCC_except_table6265
+- GCC_except_table6302
+- GCC_except_table6304
+- GCC_except_table6689
+- GCC_except_table6702
+- GCC_except_table6715
+- GCC_except_table6732
+- GCC_except_table6761
+- GCC_except_table6764
+- GCC_except_table6766
+- GCC_except_table6768
+- GCC_except_table6770
+- GCC_except_table6778
+- GCC_except_table6821
+- GCC_except_table6834
+- GCC_except_table6867
+- GCC_except_table6869
+- GCC_except_table6908
+- GCC_except_table7168
+- GCC_except_table7169
+- GCC_except_table7186
+- GCC_except_table7202
+- GCC_except_table7204
+- GCC_except_table7205
+- GCC_except_table7206
+- GCC_except_table7207
+- GCC_except_table7208
+- GCC_except_table7209
+- GCC_except_table7221
+- GCC_except_table7222
+- GCC_except_table7379
+- GCC_except_table7597
+- GCC_except_table7623
+- GCC_except_table7642
+- GCC_except_table7643
+- GCC_except_table7704
+- GCC_except_table7726
+- GCC_except_table7730
+- GCC_except_table7736
+- GCC_except_table7787
+- GCC_except_table7946
+- GCC_except_table7948
+- GCC_except_table7995
+- GCC_except_table8035
+- GCC_except_table8039
+- GCC_except_table8041
+- GCC_except_table8043
+- GCC_except_table8055
+- GCC_except_table8060
+- GCC_except_table8100
+- GCC_except_table8128
+- GCC_except_table8254
+- GCC_except_table8312
+- GCC_except_table8332
+- GCC_except_table8335
+- GCC_except_table8354
+- GCC_except_table8416
+- GCC_except_table8420
+- GCC_except_table8424
+- GCC_except_table8433
+- GCC_except_table8475
+- GCC_except_table8539
+- GCC_except_table8696
+- GCC_except_table8737
+- GCC_except_table8742
+- GCC_except_table8987
+- GCC_except_table8991
+- GCC_except_table8995
+- GCC_except_table8997
+- GCC_except_table9023
+- GCC_except_table9024
+- GCC_except_table9116
+- GCC_except_table9126
+- GCC_except_table9158
+- GCC_except_table9209
+- GCC_except_table9243
+- GCC_except_table9263
+- GCC_except_table9290
+- GCC_except_table9313
+- GCC_except_table9346
+- GCC_except_table9348
+- GCC_except_table9438
+- GCC_except_table9529
+- GCC_except_table9648
+- GCC_except_table9662
+- GCC_except_table9663
+- GCC_except_table9670
+- GCC_except_table9673
+- GCC_except_table9696
+- GCC_except_table9697
+- GCC_except_table9698
+- GCC_except_table9699
+- GCC_except_table9700
+- GCC_except_table9701
+- GCC_except_table9702
+- GCC_except_table9703
+- GCC_except_table9704
+- GCC_except_table9705
+- GCC_except_table9706
+- GCC_except_table9707
+- GCC_except_table9708
+- GCC_except_table9709
+- GCC_except_table9711
+- GCC_except_table9726
+- GCC_except_table9736
+- GCC_except_table9888
+- GCC_except_table9897
+- GCC_except_table9898
+- GCC_except_table9899
+- GCC_except_table9900
+- GCC_except_table9901
+- GCC_except_table9903
+- GCC_except_table9908
+- GCC_except_table9926
+- GCC_except_table9950
+- GCC_except_table9951
+- GCC_except_table9952
+- GCC_except_table9953
+- GCC_except_table9954
+- GCC_except_table9964
+- GCC_except_table9984
+- GCC_except_table9985
+- GCC_except_table9986
+- GCC_except_table9987
+- GCC_except_table9988
+- GCC_except_table9989
+- GCC_except_table9990
+- GCC_except_table9991
+- GCC_except_table9992
+- GCC_except_table9993
+- _OBJC_CLASS_$_NSXPCInterface
+- _SensitiveContentAnalysisLibraryCore.frameworkLibrary.19184
+- _SensitiveContentAnalysisLibraryCore.frameworkLibrary.22367
+- _SensitiveContentAnalysisLibraryCore.frameworkLibrary.36453
+- __INSTANCE_METHODS__TtC6PhotosP33_F0C51D14AA04B5ECC4D6F907D8702D5F54_PHAssetResourceBackgroundUploadExtensionConfiguration
+- __IVARS__TtC6PhotosP33_F0C51D14AA04B5ECC4D6F907D8702D5F54_PHAssetResourceBackgroundUploadExtensionConfiguration
+- __OBJC_$_CLASS_PROP_LIST_PHAssetPropertySet.2604
+- __OBJC_$_PROP_LIST_PHAssetPropertySet.2611
+- __PROTOCOLS__TtC6PhotosP33_F0C51D14AA04B5ECC4D6F907D8702D5F54_PHAssetResourceBackgroundUploadExtensionConfiguration
+- __PROTOCOLS__TtC6PhotosP33_F0C51D14AA04B5ECC4D6F907D8702D5F54_PHAssetResourceBackgroundUploadExtensionConfiguration.1
+- __PROTOCOL_INSTANCE_METHODS__TtP20PhotoLibraryServices51PLAssetResourceBackgroundUploadExtensionXPCProtocol_
+- __PROTOCOL_METHOD_TYPES__TtP20PhotoLibraryServices51PLAssetResourceBackgroundUploadExtensionXPCProtocol_
+- __PROTOCOL__TtP20PhotoLibraryServices51PLAssetResourceBackgroundUploadExtensionXPCProtocol_
+- ___101+[PHResourceLocalAvailabilityRequest indexesForAssetsRequiringResourceRetrieval:requestType:options:]_block_invoke.367
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.221
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.230
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.234
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.236
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.237
+- ___105-[PHResourceLocalAvailabilityRequest _fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:]_block_invoke.238
+- ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.240
+- ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.245
+- ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke.256
+- ___106-[PHResourceLocalAvailabilityRequest _fetchResourcesForSharingAsset:options:networkAccessAllowed:handler:]_block_invoke_2.260
+- ___109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.111
+- ___109-[PHSearchQueryManager suggestionsForSearchQuery:rangeOfSuggestionText:searchQueryResult:suggestionsHandler:]_block_invoke.112
+- ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.265
+- ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.268
+- ___110-[PHResourceLocalAvailabilityRequest _fetchResourcesForDuplicatingAsset:options:networkAccessAllowed:handler:]_block_invoke.269
+- ___76-[PHSearchQueryManager suggestionsForSearchText:options:suggestionsHandler:]_block_invoke.115
+- ___90-[PHRelationshipChangeRequestHelper initWithRelationshipName:xpcDict:changeRequestHelper:]_block_invoke_2
+- ___96-[PHRelationshipChangeRequestHelper applyMutationsToManagedObject:orderedMutableChildren:error:]_block_invoke
+- ___96-[PHRelationshipChangeRequestHelper applyMutationsToManagedObject:orderedMutableChildren:error:]_block_invoke.283
+- ___96-[PHRelationshipChangeRequestHelper applyMutationsToManagedObject:orderedMutableChildren:error:]_block_invoke_2
+- ___96-[PHRelationshipChangeRequestHelper applyMutationsToManagedObject:orderedMutableChildren:error:]_block_invoke_3
+- ___Block_byref_object_copy_.10392
+- ___Block_byref_object_copy_.11135
+- ___Block_byref_object_copy_.11396
+- ___Block_byref_object_copy_.11555
+- ___Block_byref_object_copy_.12400
+- ___Block_byref_object_copy_.12653
+- ___Block_byref_object_copy_.13134
+- ___Block_byref_object_copy_.13545
+- ___Block_byref_object_copy_.14763
+- ___Block_byref_object_copy_.15509
+- ___Block_byref_object_copy_.17497
+- ___Block_byref_object_copy_.18472
+- ___Block_byref_object_copy_.20133
+- ___Block_byref_object_copy_.20299
+- ___Block_byref_object_copy_.20623
+- ___Block_byref_object_copy_.21091
+- ___Block_byref_object_copy_.21670
+- ___Block_byref_object_copy_.22186
+- ___Block_byref_object_copy_.22374
+- ___Block_byref_object_copy_.24202
+- ___Block_byref_object_copy_.25096
+- ___Block_byref_object_copy_.26774
+- ___Block_byref_object_copy_.27303
+- ___Block_byref_object_copy_.28024
+- ___Block_byref_object_copy_.28319
+- ___Block_byref_object_copy_.29842
+- ___Block_byref_object_copy_.30810
+- ___Block_byref_object_copy_.31556
+- ___Block_byref_object_copy_.31850
+- ___Block_byref_object_copy_.33227
+- ___Block_byref_object_copy_.33818
+- ___Block_byref_object_copy_.34374
+- ___Block_byref_object_copy_.34516
+- ___Block_byref_object_copy_.34951
+- ___Block_byref_object_copy_.35531
+- ___Block_byref_object_copy_.35814
+- ___Block_byref_object_copy_.36786
+- ___Block_byref_object_copy_.37206
+- ___Block_byref_object_copy_.38807
+- ___Block_byref_object_copy_.39364
+- ___Block_byref_object_copy_.43436
+- ___Block_byref_object_copy_.43856
+- ___Block_byref_object_copy_.44067
+- ___Block_byref_object_copy_.44295
+- ___Block_byref_object_copy_.45639
+- ___Block_byref_object_copy_.46048
+- ___Block_byref_object_copy_.46566
+- ___Block_byref_object_copy_.46868
+- ___Block_byref_object_copy_.47244
+- ___Block_byref_object_copy_.47731
+- ___Block_byref_object_copy_.48226
+- ___Block_byref_object_copy_.49105
+- ___Block_byref_object_copy_.49303
+- ___Block_byref_object_copy_.49513
+- ___Block_byref_object_copy_.49550
+- ___Block_byref_object_copy_.51713
+- ___Block_byref_object_copy_.52002
+- ___Block_byref_object_copy_.52736
+- ___Block_byref_object_copy_.53539
+- ___Block_byref_object_copy_.9142
+- ___Block_byref_object_copy_.9690
+- ___Block_byref_object_dispose_.10393
+- ___Block_byref_object_dispose_.11136
+- ___Block_byref_object_dispose_.11397
+- ___Block_byref_object_dispose_.11556
+- ___Block_byref_object_dispose_.12401
+- ___Block_byref_object_dispose_.12654
+- ___Block_byref_object_dispose_.13135
+- ___Block_byref_object_dispose_.13546
+- ___Block_byref_object_dispose_.14764
+- ___Block_byref_object_dispose_.15510
+- ___Block_byref_object_dispose_.17498
+- ___Block_byref_object_dispose_.18473
+- ___Block_byref_object_dispose_.20134
+- ___Block_byref_object_dispose_.20300
+- ___Block_byref_object_dispose_.20624
+- ___Block_byref_object_dispose_.21092
+- ___Block_byref_object_dispose_.21671
+- ___Block_byref_object_dispose_.22187
+- ___Block_byref_object_dispose_.22375
+- ___Block_byref_object_dispose_.24203
+- ___Block_byref_object_dispose_.25097
+- ___Block_byref_object_dispose_.26775
+- ___Block_byref_object_dispose_.27304
+- ___Block_byref_object_dispose_.28025
+- ___Block_byref_object_dispose_.28320
+- ___Block_byref_object_dispose_.29843
+- ___Block_byref_object_dispose_.30811
+- ___Block_byref_object_dispose_.31557
+- ___Block_byref_object_dispose_.31851
+- ___Block_byref_object_dispose_.33228
+- ___Block_byref_object_dispose_.33819
+- ___Block_byref_object_dispose_.34375
+- ___Block_byref_object_dispose_.34517
+- ___Block_byref_object_dispose_.34952
+- ___Block_byref_object_dispose_.35532
+- ___Block_byref_object_dispose_.35815
+- ___Block_byref_object_dispose_.36787
+- ___Block_byref_object_dispose_.37207
+- ___Block_byref_object_dispose_.38808
+- ___Block_byref_object_dispose_.39365
+- ___Block_byref_object_dispose_.43437
+- ___Block_byref_object_dispose_.43857
+- ___Block_byref_object_dispose_.44068
+- ___Block_byref_object_dispose_.44296
+- ___Block_byref_object_dispose_.45640
+- ___Block_byref_object_dispose_.46049
+- ___Block_byref_object_dispose_.46567
+- ___Block_byref_object_dispose_.46869
+- ___Block_byref_object_dispose_.47245
+- ___Block_byref_object_dispose_.47732
+- ___Block_byref_object_dispose_.48227
+- ___Block_byref_object_dispose_.49106
+- ___Block_byref_object_dispose_.49304
+- ___Block_byref_object_dispose_.49514
+- ___Block_byref_object_dispose_.49551
+- ___Block_byref_object_dispose_.51714
+- ___Block_byref_object_dispose_.52003
+- ___Block_byref_object_dispose_.52737
+- ___Block_byref_object_dispose_.53540
+- ___Block_byref_object_dispose_.9143
+- ___Block_byref_object_dispose_.9691
+- ___SensitiveContentAnalysisLibraryCore_block_invoke.19185
+- ___SensitiveContentAnalysisLibraryCore_block_invoke.22368
+- ___SensitiveContentAnalysisLibraryCore_block_invoke.36454
+- ___block_literal_global.1034.36644
+- ___block_literal_global.10516
+- ___block_literal_global.1056.36642
+- ___block_literal_global.1058.36640
+- ___block_literal_global.1082.36639
+- ___block_literal_global.1092.36636
+- ___block_literal_global.112.41132
+- ___block_literal_global.11217
+- ___block_literal_global.11412
+- ___block_literal_global.11789
+- ___block_literal_global.12700
+- ___block_literal_global.13363
+- ___block_literal_global.134.47791
+- ___block_literal_global.13547
+- ___block_literal_global.14116
+- ___block_literal_global.14443
+- ___block_literal_global.146.38775
+- ___block_literal_global.14831
+- ___block_literal_global.15504
+- ___block_literal_global.169.52823
+- ___block_literal_global.17076
+- ___block_literal_global.17732
+- ___block_literal_global.18501
+- ___block_literal_global.18552
+- ___block_literal_global.19758
+- ___block_literal_global.20049
+- ___block_literal_global.206.28599
+- ___block_literal_global.20640
+- ___block_literal_global.21066
+- ___block_literal_global.215.29514
+- ___block_literal_global.217.13916
+- ___block_literal_global.217.29498
+- ___block_literal_global.21979
+- ___block_literal_global.224.14719
+- ___block_literal_global.22841
+- ___block_literal_global.234.34108
+- ___block_literal_global.24110
+- ___block_literal_global.25458
+- ___block_literal_global.26131
+- ___block_literal_global.2649
+- ___block_literal_global.267
+- ___block_literal_global.27003
+- ___block_literal_global.2735
+- ___block_literal_global.2749
+- ___block_literal_global.27726
+- ___block_literal_global.28001
+- ___block_literal_global.2820
+- ___block_literal_global.2850
+- ___block_literal_global.28630
+- ___block_literal_global.28900
+- ___block_literal_global.28979
+- ___block_literal_global.293
+- ___block_literal_global.29501
+- ___block_literal_global.297
+- ___block_literal_global.29958
+- ___block_literal_global.3.11417
+- ___block_literal_global.30339
+- ___block_literal_global.30536
+- ___block_literal_global.30821
+- ___block_literal_global.3103
+- ___block_literal_global.31239
+- ___block_literal_global.3155
+- ___block_literal_global.3173
+- ___block_literal_global.3190
+- ___block_literal_global.32083
+- ___block_literal_global.3218
+- ___block_literal_global.32225
+- ___block_literal_global.3239
+- ___block_literal_global.32697
+- ___block_literal_global.3281
+- ___block_literal_global.3332
+- ___block_literal_global.33333
+- ___block_literal_global.341
+- ___block_literal_global.34111
+- ___block_literal_global.3423
+- ___block_literal_global.343
+- ___block_literal_global.34388
+- ___block_literal_global.34467
+- ___block_literal_global.345
+- ___block_literal_global.34613
+- ___block_literal_global.3462
+- ___block_literal_global.34792
+- ___block_literal_global.3495
+- ___block_literal_global.35269
+- ___block_literal_global.35819
+- ___block_literal_global.3582
+- ___block_literal_global.36321
+- ___block_literal_global.37.32129
+- ___block_literal_global.37.47363
+- ___block_literal_global.37076
+- ___block_literal_global.37267
+- ___block_literal_global.37813
+- ___block_literal_global.3799
+- ___block_literal_global.38120
+- ___block_literal_global.3843
+- ___block_literal_global.38850
+- ___block_literal_global.39108
+- ___block_literal_global.39537
+- ___block_literal_global.3956
+- ___block_literal_global.40135
+- ___block_literal_global.40346
+- ___block_literal_global.40830
+- ___block_literal_global.41138
+- ___block_literal_global.42445
+- ___block_literal_global.4282
+- ___block_literal_global.43025
+- ___block_literal_global.4334
+- ___block_literal_global.43439
+- ___block_literal_global.4384
+- ___block_literal_global.44121
+- ___block_literal_global.44312
+- ___block_literal_global.4449
+- ___block_literal_global.4491
+- ___block_literal_global.44932
+- ___block_literal_global.4522
+- ___block_literal_global.4539
+- ___block_literal_global.4570
+- ___block_literal_global.45724
+- ___block_literal_global.4576
+- ___block_literal_global.4588
+- ___block_literal_global.4593
+- ___block_literal_global.46080
+- ___block_literal_global.4614
+- ___block_literal_global.4632
+- ___block_literal_global.46398
+- ___block_literal_global.4643
+- ___block_literal_global.46489
+- ___block_literal_global.4658
+- ___block_literal_global.4669
+- ___block_literal_global.47152
+- ___block_literal_global.47370
+- ___block_literal_global.4766
+- ___block_literal_global.47810
+- ___block_literal_global.47958
+- ___block_literal_global.48718
+- ___block_literal_global.49070
+- ___block_literal_global.49515
+- ___block_literal_global.49563
+- ___block_literal_global.49872
+- ___block_literal_global.50.26099
+- ___block_literal_global.50145
+- ___block_literal_global.51456
+- ___block_literal_global.52826
+- ___block_literal_global.53393
+- ___block_literal_global.615
+- ___block_literal_global.85.53371
+- ___block_literal_global.8945
+- ___block_literal_global.9359
+- ___block_literal_global.980.36813
+- ___block_literal_global.982.36807
+- ___block_literal_global.992.36933
+- ___getSCSensitivityAnalysisClass_block_invoke.19183
+- ___getSCSensitivityAnalysisClass_block_invoke.22366
+- ___getSCSensitivityAnalysisClass_block_invoke.36452
+- ___swift_instantiateGenericMetadata
+- ___unnamed_5
+- __currentTimestampString.s_formatter.47364
+- __currentTimestampString.s_onceToken.47362
+- __swift_stdlib_reportUnimplementedInitializer
+- _allowedInfoKeys.allowedKeys.18756
+- _allowedInfoKeys.allowedKeys.40635
+- _allowedInfoKeys.onceToken.18755
+- _allowedInfoKeys.onceToken.40634
+- _associated conformance 6Photos47PHAssetResourceBackgroundUploadProcessingResultOSHAASQ
+- _audit_stringSensitiveContentAnalysis.19194
+- _audit_stringSensitiveContentAnalysis.22372
+- _audit_stringSensitiveContentAnalysis.36464
+- _corePropertiesToFetch.array.22844
+- _corePropertiesToFetch.array.28627
+- _corePropertiesToFetch.array.34112
+- _corePropertiesToFetch.onceToken.22843
+- _corePropertiesToFetch.onceToken.28626
+- _corePropertiesToFetch.onceToken.34110
+- _defaultManager.onceToken.51789
+- _entityKeyMap.pl_once_object_15.11198
+- _entityKeyMap.pl_once_object_15.11800
+- _entityKeyMap.pl_once_object_15.13354
+- _entityKeyMap.pl_once_object_15.13658
+- _entityKeyMap.pl_once_object_15.27717
+- _entityKeyMap.pl_once_object_15.28990
+- _entityKeyMap.pl_once_object_15.32688
+- _entityKeyMap.pl_once_object_15.36311
+- _entityKeyMap.pl_once_object_15.40167
+- _entityKeyMap.pl_once_object_15.44335
+- _entityKeyMap.pl_once_object_15.46071
+- _entityKeyMap.pl_once_object_15.46481
+- _entityKeyMap.pl_once_object_15.47955
+- _entityKeyMap.pl_once_object_15.50020
+- _entityKeyMap.pl_once_object_15.50939
+- _entityKeyMap.pl_once_object_16.34100
+- _entityKeyMap.pl_once_object_16.34454
+- _entityKeyMap.pl_once_object_16.40333
+- _entityKeyMap.pl_once_object_16.47140
+- _entityKeyMap.pl_once_object_16.53380
+- _entityKeyMap.pl_once_token_15.11197
+- _entityKeyMap.pl_once_token_15.11799
+- _entityKeyMap.pl_once_token_15.13353
+- _entityKeyMap.pl_once_token_15.13657
+- _entityKeyMap.pl_once_token_15.27716
+- _entityKeyMap.pl_once_token_15.28989
+- _entityKeyMap.pl_once_token_15.32687
+- _entityKeyMap.pl_once_token_15.36310
+- _entityKeyMap.pl_once_token_15.40166
+- _entityKeyMap.pl_once_token_15.44334
+- _entityKeyMap.pl_once_token_15.46070
+- _entityKeyMap.pl_once_token_15.46480
+- _entityKeyMap.pl_once_token_15.47954
+- _entityKeyMap.pl_once_token_15.50019
+- _entityKeyMap.pl_once_token_15.50938
+- _entityKeyMap.pl_once_token_16.34099
+- _entityKeyMap.pl_once_token_16.34453
+- _entityKeyMap.pl_once_token_16.40332
+- _entityKeyMap.pl_once_token_16.47139
+- _entityKeyMap.pl_once_token_16.53379
+- _getSCSensitivityAnalysisClass.19181
+- _getSCSensitivityAnalysisClass.22364
+- _getSCSensitivityAnalysisClass.36445
+- _getSCSensitivityAnalysisClass.softClass.19182
+- _getSCSensitivityAnalysisClass.softClass.22365
+- _getSCSensitivityAnalysisClass.softClass.36451
+- _get_witness_table 6Photos40PHAssetResourceBackgroundUploadExtensionRzlAA01_bcdeF13Configuration33_F0C51D14AA04B5ECC4D6F907D8702D5FLLCyxGAA0bcdefG0HPyHC.2
+- _identifierPropertiesToFetch.array.35270
+- _identifierPropertiesToFetch.onceToken.35268
+- _objc_allocWithZone
+- _objc_msgSend$_fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:
+- _objc_msgSend$_shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:asset:
+- _objc_msgSend$_shouldLoadHDRGainMapBasedOnChoosingPolicy:options:asset:
+- _objc_msgSend$cloudStreamShareJobToPublishMediaFromSources:toCollectionShareScopeIdentifier:withCommentText:unitTestingMode:
+- _objc_msgSend$createOwnedShareWithUUID:creationDate:title:kind:unitTestMode:inPhotoLibrary:
+- _objc_msgSend$hasMasterThumb
+- _objc_msgSend$livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:asset:
+- _propertiesToFetch.pl_once_object_24.33814
+- _propertiesToFetch.pl_once_token_24.33813
+- _propertiesToFetchWithHint:.array.11213
+- _propertiesToFetchWithHint:.array.11807
+- _propertiesToFetchWithHint:.array.13682
+- _propertiesToFetchWithHint:.array.23338
+- _propertiesToFetchWithHint:.array.27727
+- _propertiesToFetchWithHint:.array.29000
+- _propertiesToFetchWithHint:.array.32698
+- _propertiesToFetchWithHint:.array.36322
+- _propertiesToFetchWithHint:.array.40188
+- _propertiesToFetchWithHint:.array.46081
+- _propertiesToFetchWithHint:.array.47959
+- _propertiesToFetchWithHint:.array.50033
+- _propertiesToFetchWithHint:.array.50967
+- _propertiesToFetchWithHint:.onceToken.11212
+- _propertiesToFetchWithHint:.onceToken.11806
+- _propertiesToFetchWithHint:.onceToken.13362
+- _propertiesToFetchWithHint:.onceToken.13681
+- _propertiesToFetchWithHint:.onceToken.22837
+- _propertiesToFetchWithHint:.onceToken.23337
+- _propertiesToFetchWithHint:.onceToken.27725
+- _propertiesToFetchWithHint:.onceToken.28629
+- _propertiesToFetchWithHint:.onceToken.28999
+- _propertiesToFetchWithHint:.onceToken.32696
+- _propertiesToFetchWithHint:.onceToken.34104
+- _propertiesToFetchWithHint:.onceToken.36320
+- _propertiesToFetchWithHint:.onceToken.40187
+- _propertiesToFetchWithHint:.onceToken.46079
+- _propertiesToFetchWithHint:.onceToken.47957
+- _propertiesToFetchWithHint:.onceToken.50032
+- _propertiesToFetchWithHint:.onceToken.50966
+- _propertiesToFetchWithHint:.pl_once_object_15.34468
+- _propertiesToFetchWithHint:.pl_once_object_15.40347
+- _propertiesToFetchWithHint:.pl_once_object_15.47153
+- _propertiesToFetchWithHint:.pl_once_object_15.53394
+- _propertiesToFetchWithHint:.pl_once_token_15.34466
+- _propertiesToFetchWithHint:.pl_once_token_15.40345
+- _propertiesToFetchWithHint:.pl_once_token_15.47151
+- _propertiesToFetchWithHint:.pl_once_token_15.53392
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.13365
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.22839
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.28632
+- _propertiesToFetchWithHint:.propertiesToFetchByHint.34106
+- _propertiesToFetchWithHint:.propertyQueue.13364
+- _propertiesToFetchWithHint:.propertyQueue.22838
+- _propertiesToFetchWithHint:.propertyQueue.28631
+- _propertiesToFetchWithHint:.propertyQueue.34105
+- _propertiesToPrefetch.onceToken.22380
+- _propertiesToPrefetch.onceToken.28297
+- _propertiesToPrefetch.onceToken.33795
+- _propertiesToPrefetch.propertiesToPrefetch.22381
+- _propertiesToPrefetch.propertiesToPrefetch.28298
+- _propertiesToPrefetch.propertiesToPrefetch.33796
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.13120
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.28483
+- _propertySetAccessorsByPropertySet.accessorByPropertySetName.34074
+- _propertySetAccessorsByPropertySet.onceToken.13119
+- _propertySetAccessorsByPropertySet.onceToken.28482
+- _propertySetAccessorsByPropertySet.onceToken.34073
+- _propertySetClassForPropertySet:.onceToken.13122
+- _propertySetClassForPropertySet:.onceToken.28490
+- _propertySetClassForPropertySet:.onceToken.34082
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.13123
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.28491
+- _propertySetClassForPropertySet:.propertySetClassByPropertySetName.34083
+- _sharedDecoder.s_onceToken.50144
+- _sharedDecoder.s_shared.50146
+- _swift_allocateGenericClassMetadata
+- _swift_checkMetadataState
+- _swift_getGenericMetadata
+- _swift_initClassMetadata2
+- _swift_isaMask
+- _symbolic $s6Photos40PHAssetResourceBackgroundUploadExtensionP
+- _symbolic $s6Photos53PHAssetResourceBackgroundUploadExtensionConfigurationP
+- _symbolic _____ 6Photos47PHAssetResourceBackgroundUploadProcessingResultO
+- _symbolic _____ 6Photos54_PHAssetResourceBackgroundUploadExtensionConfiguration33_F0C51D14AA04B5ECC4D6F907D8702D5FLLC
+- _symbolic _____yxG 6Photos54_PHAssetResourceBackgroundUploadExtensionConfiguration33_F0C51D14AA04B5ECC4D6F907D8702D5FLLC
+- _symbolic qd__
+- _symbolic x
+- _transformValueExpression:forKeyPath:._passThroughSet.11181
+- _transformValueExpression:forKeyPath:._passThroughSet.11796
+- _transformValueExpression:forKeyPath:._passThroughSet.13343
+- _transformValueExpression:forKeyPath:._passThroughSet.13643
+- _transformValueExpression:forKeyPath:._passThroughSet.22792
+- _transformValueExpression:forKeyPath:._passThroughSet.27696
+- _transformValueExpression:forKeyPath:._passThroughSet.28615
+- _transformValueExpression:forKeyPath:._passThroughSet.28986
+- _transformValueExpression:forKeyPath:._passThroughSet.32679
+- _transformValueExpression:forKeyPath:._passThroughSet.34088
+- _transformValueExpression:forKeyPath:._passThroughSet.36305
+- _transformValueExpression:forKeyPath:._passThroughSet.40156
+- _transformValueExpression:forKeyPath:._passThroughSet.44317
+- _transformValueExpression:forKeyPath:._passThroughSet.46059
+- _transformValueExpression:forKeyPath:._passThroughSet.47952
+- _transformValueExpression:forKeyPath:._passThroughSet.50917
+- _transformValueExpression:forKeyPath:._passThroughSet.53342
+- _transformValueExpression:forKeyPath:.onceToken.11180
+- _transformValueExpression:forKeyPath:.onceToken.11795
+- _transformValueExpression:forKeyPath:.onceToken.13342
+- _transformValueExpression:forKeyPath:.onceToken.13642
+- _transformValueExpression:forKeyPath:.onceToken.22791
+- _transformValueExpression:forKeyPath:.onceToken.27695
+- _transformValueExpression:forKeyPath:.onceToken.28614
+- _transformValueExpression:forKeyPath:.onceToken.28985
+- _transformValueExpression:forKeyPath:.onceToken.32678
+- _transformValueExpression:forKeyPath:.onceToken.34087
+- _transformValueExpression:forKeyPath:.onceToken.36304
+- _transformValueExpression:forKeyPath:.onceToken.40155
+- _transformValueExpression:forKeyPath:.onceToken.44316
+- _transformValueExpression:forKeyPath:.onceToken.46058
+- _transformValueExpression:forKeyPath:.onceToken.47951
+- _transformValueExpression:forKeyPath:.onceToken.50916
+- _transformValueExpression:forKeyPath:.onceToken.53341
+CStrings:
++ "%tu assets for %@ - %@"
++ "%{public}@ Unable to initialize PHSearchQuery, aborting suggestions request"
++ "-[PHRelationshipChangeRequestHelper _applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:]"
++ "@48@0:8@16@24@32o^@40"
++ "Error analyzing asset %{public}@ for sensitivity: %@"
++ "Error persisting sensitivity analysis result: %lld for asset: %{public}@ with error: %@"
++ "Fetched %tu asset UUIDs for startDate: %@, endDate: %@.\nPSI: creationDate & %lld >= %lld AND creationDate & %lld <= %lld"
++ "Neither image nor video are analyzed, asset was contributed by this user, and analysis result is "
++ "PHFetchResult init after library became unavailable, setting fetchError to %@\n\tself: %@"
++ "PLSearchBackendFetchAssetUUIDsForDateComponents"
++ "T@\"NSMutableArray\",&,N,V_mutableAppendedObjectIDsAndUUIDs"
++ "URLWantsPlayback"
++ "Unable to initialize PHSearchQuery: %@, aborting suggestions request"
++ "_addObjectIDsAndUUIDs:toMutableArray:"
++ "_addObjectIDsAndUUIDs:toMutableArray:coordinator:"
++ "_addObjectIDsAndUUIDsFrom:toXpcArray:"
++ "_addObjectIDsAndUUIDsFromXpcArray:toMutableArray:coordinator:"
++ "_analyzeUserOwnedAsset:"
++ "_applyMutationsToManagedObject:orderedMutableChildren:oldSet:newSet:error:"
++ "_assetIDsAndUUIDsFromAssets:"
++ "_assetIsEligableForVideoProcessing:"
++ "_fetchResourcesUsingPhotoKitForAsset:prioritizeLowResolutionResourcesForAnalysis:options:networkAccessAllowed:handler:"
++ "_mutableAppendedObjectIDsAndUUIDs"
++ "_shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:"
++ "_shouldLoadHDRGainMapBasedOnChoosingPolicy:options:"
++ "analyzeFile:options:progressHandler:completionHandler:"
++ "appendAssets:"
++ "assetIdsWithDateFilter:"
++ "assetUUIDsForAssetIdsArray:"
++ "cloudStreamShareJobToPublishMediaFromSources:toCollectionShareScopeIdentifier:withCommentText:clientBundleIdentifier:unitTestingMode:"
++ "createOwnedShareWithUUID:creationDate:title:kind:clientBundleIdentifier:unitTestMode:inPhotoLibrary:"
++ "dateComponents"
++ "distantFuture"
++ "fetchAssetUUIDsForDateComponents:toLibrary:error:"
++ "fetchAssetUUIDsFromStartDateComponents:endDateComponents:photoLibrary:error:"
++ "fetchKeyAssetBySuggestionUUIDForSuggestions found a nil uuid for suggestion %{public}@"
++ "initWithDateComponents:"
++ "int64Representation"
++ "int64RepresentationMask"
++ "livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:"
++ "masterThumbnailFormat"
++ "mutableAppendedObjectIDsAndUUIDs"
++ "mutableAppendedObjectIDsAndUUIDsKey"
++ "play"
++ "setMutableAppendedObjectIDsAndUUIDs:"
++ "v24@?0@\"SCSensitivityAnalysis\"8@\"NSError\"16"
++ "v48@0:8@16B24@28B36@?40"
+- "-[PHRelationshipChangeRequestHelper applyMutationsToManagedObject:orderedMutableChildren:error:]"
+- "B36@0:8q16B24@28"
+- "B40@0:8q16@24@32"
+- "Photos._PHAssetResourceBackgroundUploadExtensionConfiguration"
+- "SDK unsupported - SPI needed from rdar://140151856"
+- "Skipping analysis for asset %{public}@, with thumbnailIndex %lu"
+- "_TtP20PhotoLibraryServices51PLAssetResourceBackgroundUploadExtensionXPCProtocol_"
+- "_fetchResourcesForPickerAsset:options:networkAccessAllowed:handler:"
+- "_shouldDecodeAsHDRBasedOnChoosingPolicy:optionsPreferHDR:asset:"
+- "_shouldLoadHDRGainMapBasedOnChoosingPolicy:options:asset:"
+- "appex"
+- "cloudStreamShareJobToPublishMediaFromSources:toCollectionShareScopeIdentifier:withCommentText:unitTestingMode:"
+- "createOwnedShareWithUUID:creationDate:title:kind:unitTestMode:inPhotoLibrary:"
+- "init()"
+- "interfaceWithProtocol:"
+- "livePhotoRequestBestBehaviorSpecWithPreviousBehaviorSpec:options:asset:"
+- "processWithReply:"
+- "resume"
+- "setExportedInterface:"
+- "setExportedObject:"
+- "v24@0:8@?<v@?q>16"
+
+```

@@ -1,0 +1,316 @@
+## DiskImages2
+
+> `/System/Library/PrivateFrameworks/DiskImages2.framework/DiskImages2`
+
+```diff
+
+-501.0.0.0.0
+-  __TEXT.__text: 0x1b4874
++505.0.0.0.0
++  __TEXT.__text: 0x1b35b0
+   __TEXT.__auth_stubs: 0x2220
+   __TEXT.__objc_methlist: 0x384c
+-  __TEXT.__const: 0x115a4
+-  __TEXT.__gcc_except_tab: 0x17ff0
++  __TEXT.__const: 0x114f4
++  __TEXT.__gcc_except_tab: 0x17f28
+   __TEXT.__cstring: 0x115a8
+   __TEXT.__oslogstring: 0x1850
+   __TEXT.__ustring: 0x13c
+
+   __TEXT.__swift5_typeref: 0x58
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0xc660
++  __TEXT.__unwind_info: 0xc5d8
+   __TEXT.__eh_frame: 0x150
+   __TEXT.__objc_classname: 0x6a2
+   __TEXT.__objc_methname: 0x6f54
+
+   __DATA_CONST.__objc_superrefs: 0x1f8
+   __DATA_CONST.__objc_arraydata: 0xb8
+   __AUTH_CONST.__auth_got: 0x1128
+-  __AUTH_CONST.__const: 0x337d0
++  __AUTH_CONST.__const: 0x33390
+   __AUTH_CONST.__cfstring: 0x4420
+   __AUTH_CONST.__objc_const: 0x5990
+   __AUTH_CONST.__objc_intobj: 0x30
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0xa0
+   __AUTH.__objc_data: 0x1890
+-  __AUTH.__data: 0x60
++  __AUTH.__data: 0x68
+   __DATA.__objc_ivar: 0x2ec
+   __DATA.__data: 0xb10
+   __DATA.__common: 0x19
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/local/lib/libcurl.4.dylib
+-  UUID: CC9C3639-FDF9-3F7C-9BF5-75FD56045045
+-  Functions: 10310
+-  Symbols:   29607
++  UUID: 7C334428-9D5A-3FEC-BBF7-A0189E9989B3
++  Functions: 10279
++  Symbols:   29521
+   CStrings:  4204
+ 
+Symbols:
++ GCC_except_table1423
++ GCC_except_table258
++ GCC_except_table291
++ GCC_except_table343
++ GCC_except_table382
++ GCC_except_table388
++ GCC_except_table389
++ GCC_except_table399
++ GCC_except_table437
++ GCC_except_table484
++ GCC_except_table506
++ GCC_except_table524
++ GCC_except_table528
++ GCC_except_table655
++ GCC_except_table660
++ GCC_except_table671
++ GCC_except_table687
++ GCC_except_table713
++ __ZL16offset_is_mappedRKNSt3__120__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIN5boost3icl17discrete_intervalIyNS_4lessEEEN4udif7details8run_infoEEEPNS_11__tree_nodeISB_PvEElEEEESJ_y
++ __ZN13DiskImageUDIF31udif_extents_iterator_interface9_make_valEv
++ __ZN15rawTestPlugin_t15CopyDescriptionEPK14__CFDictionary
++ __ZN15rawTestPlugin_t8CopyUUIDEP18_di_plugin_image_t
++ __ZN15rawTestPlugin_t9copy_uuidEv
++ __ZN18DiskImageStackable36stackable_extents_iterator_interface9_make_valEv
++ __ZN38transformed_extents_iterator_interface9_make_valEv
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEE4syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEE5_syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEE6xsputnEPKcl
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEE8overflowEi
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEEC2ERKS2_
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEED0Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEED1Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm167EEEED2Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEE4syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEE5_syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEE6xsputnEPKcl
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEE8overflowEi
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEEC2ERKS2_
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEED0Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEED1Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm177EEEED2Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE4syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE5_syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE6xsputnEPKcl
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE8overflowEi
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEEC2ERKS2_
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED1Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED2Ev
++ __ZN6di_log6loggerINS_11log_printerILm167EEEEC1ERKS2_
++ __ZN6di_log6loggerINS_11log_printerILm167EEEED0Ev
++ __ZN6di_log6loggerINS_11log_printerILm167EEEED1Ev
++ __ZN6di_log6loggerINS_11log_printerILm177EEEEC1ERKS2_
++ __ZN6di_log6loggerINS_11log_printerILm177EEEED0Ev
++ __ZN6di_log6loggerINS_11log_printerILm177EEEED1Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEEC1ERKS2_
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZN7di_asif7details31asif_extents_iterator_interface9_make_valEv
++ __ZN9DiskImage34default_extents_iterator_interface9_make_valEv
++ __ZNK6di_log11log_printerILm167EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZNK6di_log11log_printerILm177EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZNK6di_log11log_printerILm339EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZTCN6di_log6loggerINS_11log_printerILm167EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
++ __ZTCN6di_log6loggerINS_11log_printerILm177EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
++ __ZTCN6di_log6loggerINS_11log_printerILm339EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
++ __ZTIN6di_log10logger_bufINS_11log_printerILm167EEEEE
++ __ZTIN6di_log10logger_bufINS_11log_printerILm177EEEEE
++ __ZTIN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTIN6di_log6loggerINS_11log_printerILm167EEEEE
++ __ZTIN6di_log6loggerINS_11log_printerILm177EEEEE
++ __ZTIN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTSN6di_log10logger_bufINS_11log_printerILm167EEEEE
++ __ZTSN6di_log10logger_bufINS_11log_printerILm177EEEEE
++ __ZTSN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTSN6di_log6loggerINS_11log_printerILm167EEEEE
++ __ZTSN6di_log6loggerINS_11log_printerILm177EEEEE
++ __ZTSN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTTN6di_log6loggerINS_11log_printerILm167EEEEE
++ __ZTTN6di_log6loggerINS_11log_printerILm177EEEEE
++ __ZTTN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTVN6di_log10logger_bufINS_11log_printerILm167EEEEE
++ __ZTVN6di_log10logger_bufINS_11log_printerILm177EEEEE
++ __ZTVN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTVN6di_log6loggerINS_11log_printerILm167EEEEE
++ __ZTVN6di_log6loggerINS_11log_printerILm177EEEEE
++ __ZTVN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZThn360_N6di_log6loggerINS_11log_printerILm167EEEED0Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm167EEEED1Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm177EEEED0Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm177EEEED1Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm167EEEED0Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm167EEEED1Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm177EEEED0Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm177EEEED1Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
+- GCC_except_table173
+- GCC_except_table236
+- GCC_except_table277
+- GCC_except_table346
+- GCC_except_table359
+- GCC_except_table378
+- GCC_except_table384
+- GCC_except_table401
+- GCC_except_table418
+- GCC_except_table457
+- GCC_except_table478
+- GCC_except_table502
+- GCC_except_table510
+- GCC_except_table511
+- GCC_except_table525
+- GCC_except_table536
+- GCC_except_table692
+- GCC_except_table768
+- __ZN13DiskImageUDIF31udif_extents_iterator_interface8make_valEv
+- __ZN15rawTestPlugin_t11DescriptionEPK14__CFDictionary
+- __ZN15rawTestPlugin_t7GetUUIDEP18_di_plugin_image_t
+- __ZN15rawTestPlugin_t8get_uuidEv
+- __ZN18DiskImageStackable36stackable_extents_iterator_interface8make_valEv
+- __ZN38transformed_extents_iterator_interface8make_valEv
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm117EEEED2Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm168EEEED2Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm184EEEED2Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm188EEEED2Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm192EEEED2Ev
+- __ZN6di_log6loggerINS_11log_printerILm117EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm117EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm117EEEED1Ev
+- __ZN6di_log6loggerINS_11log_printerILm168EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm168EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm168EEEED1Ev
+- __ZN6di_log6loggerINS_11log_printerILm184EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm184EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm184EEEED1Ev
+- __ZN6di_log6loggerINS_11log_printerILm188EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm188EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm188EEEED1Ev
+- __ZN6di_log6loggerINS_11log_printerILm192EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm192EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm192EEEED1Ev
+- __ZN7di_asif7details31asif_extents_iterator_interface8make_valEv
+- __ZN9DiskImage34default_extents_iterator_interface8make_valEv
+- __ZNK6di_log11log_printerILm117EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK6di_log11log_printerILm168EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK6di_log11log_printerILm184EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK6di_log11log_printerILm188EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZNK6di_log11log_printerILm192EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm117EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm168EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm184EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm188EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm192EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm117EEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm168EEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm184EEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm188EEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm192EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm117EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm168EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm184EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm188EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm192EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm117EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm168EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm184EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm188EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm192EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm117EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm168EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm184EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm188EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm192EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm117EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm168EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm184EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm188EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm192EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm117EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm168EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm184EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm188EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm192EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm117EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm168EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm184EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm188EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm192EEEEE
+- __ZThn360_N6di_log6loggerINS_11log_printerILm117EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm117EEEED1Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm168EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm168EEEED1Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm184EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm184EEEED1Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm188EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm188EEEED1Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm192EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm192EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm117EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm117EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm168EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm168EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm184EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm184EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm188EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm188EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm192EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm192EEEED1Ev
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B4WYugCbcT6EtrLYaRPCszk_TOiXcroDZ094I6s/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
++ "/AppleInternal/Library/BuildRoots/4~B4WYugCbcT6EtrLYaRPCszk_TOiXcroDZ094I6s/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"
++ "/AppleInternal/Library/BuildRoots/4~B4WYugCbcT6EtrLYaRPCszk_TOiXcroDZ094I6s/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
++ "io_result_t details::for_each_sg_in_vec_internal(Fn &&, sg_vec_ref::iterator, sg_vec::iterator, size_t, bool) [Fn = (lambda at /Library/Caches/com.apple.xbs/Sources/DiskImages2/app/disk_images/formats/plugin_async_di.cpp:370:34)]"
++ "io_result_t details::for_each_sg_in_vec_internal(Fn &&, sg_vec_ref::iterator, sg_vec::iterator, size_t, bool) [Fn = (lambda at /Library/Caches/com.apple.xbs/Sources/DiskImages2/app/disk_images/formats/plugin_async_di.cpp:450:45)]"
+- "/AppleInternal/Library/BuildRoots/4~B3QlugCigXSQj3UNmCdpQk14JvFbxyNl1F5tRpQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
+- "/AppleInternal/Library/BuildRoots/4~B3QlugCigXSQj3UNmCdpQk14JvFbxyNl1F5tRpQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"
+- "/AppleInternal/Library/BuildRoots/4~B3QlugCigXSQj3UNmCdpQk14JvFbxyNl1F5tRpQ/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
+- "io_result_t details::for_each_sg_in_vec_internal(Fn &&, sg_vec_ref::iterator, sg_vec::iterator, size_t, bool) [Fn = (lambda at /Library/Caches/com.apple.xbs/Sources/DiskImages2/app/disk_images/formats/plugin_async_di.cpp:352:34)]"
+- "io_result_t details::for_each_sg_in_vec_internal(Fn &&, sg_vec_ref::iterator, sg_vec::iterator, size_t, bool) [Fn = (lambda at /Library/Caches/com.apple.xbs/Sources/DiskImages2/app/disk_images/formats/plugin_async_di.cpp:432:45)]"
+
+```

@@ -1,0 +1,245 @@
+## FinanceKit
+
+> `/System/Library/Frameworks/FinanceKit.framework/FinanceKit`
+
+```diff
+
+-297.0.0.0.0
+-  __TEXT.__text: 0x60d220
+-  __TEXT.__auth_stubs: 0x5250
+-  __TEXT.__objc_methlist: 0x44f8
+-  __TEXT.__const: 0x60f98
+-  __TEXT.__cstring: 0x1bab6
+-  __TEXT.__oslogstring: 0x8478
++300.0.0.0.0
++  __TEXT.__text: 0x613008
++  __TEXT.__auth_stubs: 0x52a0
++  __TEXT.__objc_methlist: 0x4468
++  __TEXT.__const: 0x61a18
++  __TEXT.__cstring: 0x1bb36
++  __TEXT.__oslogstring: 0x8488
+   __TEXT.__gcc_except_tab: 0x14
+-  __TEXT.__swift5_typeref: 0x145b6
+-  __TEXT.__constg_swiftt: 0x13b88
+-  __TEXT.__swift5_reflstr: 0xeda3
+-  __TEXT.__swift5_fieldmd: 0x17524
++  __TEXT.__swift5_typeref: 0x14818
++  __TEXT.__constg_swiftt: 0x13cac
++  __TEXT.__swift5_reflstr: 0xee03
++  __TEXT.__swift5_fieldmd: 0x17688
+   __TEXT.__swift5_builtin: 0x528
+   __TEXT.__swift5_assocty: 0x2a70
+-  __TEXT.__swift5_proto: 0x57a0
+-  __TEXT.__swift5_types: 0x1cd0
+-  __TEXT.__swift5_capture: 0x1bdc
+-  __TEXT.__swift5_protos: 0x220
+-  __TEXT.__swift_as_entry: 0x878
+-  __TEXT.__swift_as_ret: 0x990
++  __TEXT.__swift5_proto: 0x583c
++  __TEXT.__swift5_types: 0x1cf8
++  __TEXT.__swift5_capture: 0x1c3c
++  __TEXT.__swift5_protos: 0x218
++  __TEXT.__swift_as_entry: 0x884
++  __TEXT.__swift_as_ret: 0x9a8
+   __TEXT.__swift5_mpenum: 0x1d8
+-  __TEXT.__unwind_info: 0x1af18
+-  __TEXT.__eh_frame: 0x2c504
+-  __TEXT.__objc_classname: 0x87f
+-  __TEXT.__objc_methname: 0x10680
+-  __TEXT.__objc_methtype: 0x143e
++  __TEXT.__unwind_info: 0x1b0a0
++  __TEXT.__eh_frame: 0x2c8f4
++  __TEXT.__objc_classname: 0x85c
++  __TEXT.__objc_methname: 0x104fb
++  __TEXT.__objc_methtype: 0x1281
+   __TEXT.__objc_stubs: 0x1020
+-  __DATA_CONST.__got: 0x1590
++  __DATA_CONST.__got: 0x15a0
+   __DATA_CONST.__const: 0x4418
+   __DATA_CONST.__objc_classlist: 0xaa8
+   __DATA_CONST.__objc_catlist: 0x8
+-  __DATA_CONST.__objc_protolist: 0x140
++  __DATA_CONST.__objc_protolist: 0x130
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x43e8
+-  __DATA_CONST.__objc_protorefs: 0xc0
++  __DATA_CONST.__objc_selrefs: 0x43a0
++  __DATA_CONST.__objc_protorefs: 0xb8
+   __DATA_CONST.__objc_superrefs: 0x1c0
+-  __AUTH_CONST.__auth_got: 0x2938
+-  __AUTH_CONST.__const: 0x334b8
++  __AUTH_CONST.__auth_got: 0x2960
++  __AUTH_CONST.__const: 0x338a0
+   __AUTH_CONST.__cfstring: 0x480
+-  __AUTH_CONST.__objc_const: 0x14840
++  __AUTH_CONST.__objc_const: 0x147e8
+   __AUTH_CONST.__objc_intobj: 0x60
+-  __AUTH.__objc_data: 0x5ff0
+-  __AUTH.__data: 0xbbb0
++  __AUTH.__objc_data: 0x5ee8
++  __AUTH.__data: 0xbc60
+   __DATA.__objc_ivar: 0x3f4
+-  __DATA.__data: 0xf6b8
+-  __DATA.__bss: 0x9fb90
++  __DATA.__data: 0xf7e8
++  __DATA.__bss: 0xa1190
+   __DATA.__common: 0x240
+   __DATA_DIRTY.__objc_data: 0x3648
+-  __DATA_DIRTY.__data: 0x6890
++  __DATA_DIRTY.__data: 0x6898
+   __DATA_DIRTY.__bss: 0x8900
+   __DATA_DIRTY.__common: 0xa8
+   - /System/Library/Frameworks/Accounts.framework/Accounts
+
+   - /System/Library/Frameworks/UserNotifications.framework/UserNotifications
+   - /System/Library/Frameworks/_LocationEssentials.framework/_LocationEssentials
+   - /System/Library/PrivateFrameworks/AppSupport.framework/AppSupport
++  - /System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/AsyncAlgorithmsInternal
+   - /System/Library/PrivateFrameworks/CBORLibrary.framework/CBORLibrary
+   - /System/Library/PrivateFrameworks/CollectionsInternal.framework/CollectionsInternal
+   - /System/Library/PrivateFrameworks/CoreAnalytics.framework/CoreAnalytics
+
+   - /usr/lib/swift/libswift_StringProcessing.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: E72055F0-634E-3B9E-B6F3-05C02CC7CA0E
+-  Functions: 37920
+-  Symbols:   14393
+-  CStrings:  6560
++  UUID: EC3540C8-3301-394A-8780-8965BF14CFFE
++  Functions: 38064
++  Symbols:   14449
++  CStrings:  6547
+ 
+Symbols:
++ __PROTOCOLS_XPCBackgroundDataType.12
++ _associated conformance 10FinanceKit0A5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOSHAASQ
++ _associated conformance 10FinanceKit0A5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit0A5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO014InvalidCascadeD10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOSHAASQ
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO014InvalidCascadeD10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO014InvalidCascadeD10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO07ClassicD22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOSHAASQ
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO07ClassicD22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO07ClassicD22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOSHAASQ
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25FeatureDisabledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25FeatureDisabledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25MerchantBlockedCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25MerchantBlockedCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO27DeviceNotEligibleCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO27DeviceNotEligibleCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO28WalletNotInstalledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO28WalletNotInstalledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0N3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO30FailedToFetchBannersCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0O3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO30FailedToFetchBannersCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0O3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO40FailedToFetchMerchantAllowlistCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0P3KeyAAs23CustomStringConvertible
++ _associated conformance 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO40FailedToFetchMerchantAllowlistCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLOs0P3KeyAAs28CustomDebugStringConvertible
++ _objectdestroy.56Tm
++ _symbolic SS12emailAddress_t
++ _symbolic Sb8newValue______16modificationDatet 10Foundation4DateV
++ _symbolic SccyShy_____G______pG 10FinanceKit31ExtractedOrderFoundInMailBannerV s5ErrorP
++ _symbolic _____ 10FinanceKit0A5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____ 10FinanceKit0A5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO014InvalidCascadeD10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO07ClassicD22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25FeatureDisabledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO25MerchantBlockedCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO27DeviceNotEligibleCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO28WalletNotInstalledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO30FailedToFetchBannersCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____ 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0H5ErrorO40FailedToFetchMerchantAllowlistCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____SgXw 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC
++ _symbolic _____SgXwz_Xx 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC
++ _symbolic _____y_Shy_____GG 10FinanceKit0A5StoreC5ReplyO AA31ExtractedOrderFoundInMailBannerV
++ _symbolic _____y_____G s15CollectionOfOneV 10Foundation4DateV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit0D5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO014InvalidCascadeG10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO07ClassicG22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO25FeatureDisabledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO25MerchantBlockedCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO27DeviceNotEligibleCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO28WalletNotInstalledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO30FailedToFetchBannersCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO40FailedToFetchMerchantAllowlistCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC7MessageO38ExtractedOrderFoundInBannersCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit0D5StoreC7MessageO45SetIsAutomaticOrderIngestionEnabledCodingKeys33_5013BE85E9F3658B9690D21D4C96B924LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO014InvalidCascadeG10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO07ClassicG22NotEcommerceCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO10CodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO25FeatureDisabledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO25MerchantBlockedCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO27DeviceNotEligibleCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO28WalletNotInstalledCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO30FailedToFetchBannersCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 10FinanceKit39ExtractedOrderFoundInMailBannerProviderC0K5ErrorO40FailedToFetchMerchantAllowlistCodingKeys33_8ABA02D1D65C9F501229F18A1C192336LLO
++ _symbolic _____y_____y_____ytG_____G 23AsyncAlgorithmsInternal0A16DebounceSequenceV s0a3MapE0V So20NSNotificationCenterC10FoundationE13NotificationsC s15ContinuousClockV
++ _symbolic _____y_____y_____ytG______G 23AsyncAlgorithmsInternal0A16DebounceSequenceV8IteratorV s0a3MapE0V So20NSNotificationCenterC10FoundationE13NotificationsC s15ContinuousClockV
++ _symbolic _____y_____ytG s16AsyncMapSequenceV So20NSNotificationCenterC10FoundationE13NotificationsC
+- _OBJC_CLASS_$_NSFetchedResultsController
+- _OBJC_CLASS_$__TtC10FinanceKit39ExtractedOrderFoundInMailBannerProvider
+- _OBJC_METACLASS_$__TtC10FinanceKit39ExtractedOrderFoundInMailBannerProvider
+- __OBJC_$_INSTANCE_METHODS__TtC10FinanceKit39ExtractedOrderFoundInMailBannerProvider(FinanceKit)
+- __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSFetchedResultsControllerDelegate
+- __OBJC_$_PROTOCOL_METHOD_TYPES_NSFetchedResultsControllerDelegate
+- __OBJC_$_PROTOCOL_REFS_NSFetchedResultsControllerDelegate
+- __OBJC_CLASS_PROTOCOLS_$__TtC10FinanceKit39ExtractedOrderFoundInMailBannerProvider(FinanceKit)
+- __OBJC_LABEL_PROTOCOL_$_NSFetchedResultsControllerDelegate
+- __OBJC_PROTOCOL_$_NSFetchedResultsControllerDelegate
+- __PROTOCOLS_XPCBackgroundDataType.20
+- _objectdestroy.51Tm
+- _symbolic $s10FinanceKit21BackgroundDeliverableP
+- _symbolic $s10FinanceKit29BackgroundDeliverableInternalP
+- _symbolic So26NSFetchedResultsControllerCy_____GSg 10FinanceKit25ManagedOrderDashboardItemC
+- _symbolic So26NSFetchedResultsControllerCy_____GSg 10FinanceKit28ManagedCascadeExtractedOrderC
+- _symbolic _____ 10FinanceKit0A5StoreC18BackgroundDataTypeO09FinancialE0V
+- _symbolic _____Sg 10Foundation9IndexPathV
+CStrings:
++ "Passbook_orderURI"
++ "classicOrderNotEcommerce"
++ "dashboardItem IN %@"
++ "deviceNotEligible"
++ "extractedOrderFoundInBanners"
++ "failedToFetchBanners"
++ "failedToFetchMerchantAllowlist"
++ "invalidCascadeOrder"
++ "invalidCascadeOrder with sourceItemIdentifier: %s and messageID: %s"
++ "newValue modificationDate "
++ "notificationsTask"
++ "setIsAutomaticOrderIngestionEnabled"
++ "walletNotInstalled"
+- "@\"NSString\"32@0:8@\"NSFetchedResultsController\"16@\"NSString\"24"
+- "Failed to fetch orders for banner with messageID %s: %@"
+- "FinanceKit.ExtractedOrderFoundInMailBannerProvider"
+- "NSFetchedResultsControllerDelegate"
+- "Tried to convert unknown deliverable type: "
+- "cascadeOrdersFetchController"
+- "classicOrder == nil"
+- "controller:didChangeContentWithDifference:"
+- "controller:didChangeContentWithSnapshot:"
+- "controller:didChangeObject:atIndexPath:forChangeType:newIndexPath:"
+- "controller:didChangeSection:atIndex:forChangeType:"
+- "controller:sectionIndexTitleForSectionName:"
+- "controllerDidChangeContent:"
+- "controllerWillChangeContent:"
+- "dashboardItemsFetchController"
+- "extractedOrder == nil"
+- "initWithFetchRequest:managedObjectContext:sectionNameKeyPath:cacheName:"
+- "performFetch:"
+- "v24@0:8@\"NSFetchedResultsController\"16"
+- "v32@0:8@\"NSFetchedResultsController\"16@\"NSDiffableDataSourceSnapshot\"24"
+- "v32@0:8@\"NSFetchedResultsController\"16@\"NSOrderedCollectionDifference\"24"
+- "v48@0:8@\"NSFetchedResultsController\"16@\"<NSFetchedResultsSectionInfo>\"24Q32Q40"
+- "v48@0:8@16@24Q32Q40"
+- "v56@0:8@\"NSFetchedResultsController\"16@24@\"NSIndexPath\"32Q40@\"NSIndexPath\"48"
+- "v56@0:8@16@24@32Q40@48"
+
+```

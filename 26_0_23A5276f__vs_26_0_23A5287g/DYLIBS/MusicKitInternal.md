@@ -1,0 +1,472 @@
+## MusicKitInternal
+
+> `/System/Library/PrivateFrameworks/MusicKitInternal.framework/MusicKitInternal`
+
+```diff
+
+-4025.100.70.0.0
+-  __TEXT.__text: 0x74fae0
+-  __TEXT.__auth_stubs: 0xb9f0
+-  __TEXT.__objc_methlist: 0x25b4
+-  __TEXT.__const: 0x577f0
+-  __TEXT.__gcc_except_tab: 0xb84
+-  __TEXT.__cstring: 0x156f1
+-  __TEXT.__dlopen_cstrs: 0x105d
+-  __TEXT.__constg_swiftt: 0xe414
+-  __TEXT.__swift5_typeref: 0x15ddd
+-  __TEXT.__swift5_builtin: 0x4b0
+-  __TEXT.__swift5_reflstr: 0xf665
+-  __TEXT.__swift5_fieldmd: 0x12ae0
+-  __TEXT.__swift5_assocty: 0x3700
+-  __TEXT.__swift5_proto: 0x5070
+-  __TEXT.__swift5_types: 0x125c
+-  __TEXT.__swift_as_entry: 0x14b8
+-  __TEXT.__swift_as_ret: 0x177c
+-  __TEXT.__swift5_mpenum: 0x11c
+-  __TEXT.__oslogstring: 0x8a81
+-  __TEXT.__swift5_capture: 0x39f0
++4025.100.80.0.0
++  __TEXT.__text: 0x768ce0
++  __TEXT.__auth_stubs: 0xba80
++  __TEXT.__objc_methlist: 0x25d4
++  __TEXT.__const: 0x58760
++  __TEXT.__gcc_except_tab: 0xb98
++  __TEXT.__cstring: 0x16241
++  __TEXT.__dlopen_cstrs: 0x10aa
++  __TEXT.__constg_swiftt: 0xe71c
++  __TEXT.__swift5_typeref: 0x16211
++  __TEXT.__swift5_builtin: 0x4c4
++  __TEXT.__swift5_reflstr: 0xf8c5
++  __TEXT.__swift5_fieldmd: 0x12e04
++  __TEXT.__swift5_assocty: 0x3718
++  __TEXT.__swift5_proto: 0x5168
++  __TEXT.__swift5_types: 0x12a8
++  __TEXT.__swift_as_entry: 0x14f0
++  __TEXT.__swift_as_ret: 0x17b0
++  __TEXT.__swift5_mpenum: 0x114
++  __TEXT.__oslogstring: 0x90e1
++  __TEXT.__swift5_capture: 0x3afc
+   __TEXT.__swift5_protos: 0x214
+   __TEXT.__lldbsummaries: 0x67
+-  __TEXT.__unwind_info: 0x1c250
+-  __TEXT.__eh_frame: 0x35d34
+-  __TEXT.__objc_classname: 0xf82
+-  __TEXT.__objc_methname: 0x8a86
++  __TEXT.__unwind_info: 0x1c8b8
++  __TEXT.__eh_frame: 0x3670c
++  __TEXT.__objc_classname: 0xfa7
++  __TEXT.__objc_methname: 0x8b5c
+   __TEXT.__objc_methtype: 0x1807
+-  __TEXT.__objc_stubs: 0x4280
+-  __DATA_CONST.__got: 0x34f8
+-  __DATA_CONST.__const: 0x2060
+-  __DATA_CONST.__objc_classlist: 0x2f0
++  __TEXT.__objc_stubs: 0x42c0
++  __DATA_CONST.__got: 0x3520
++  __DATA_CONST.__const: 0x2078
++  __DATA_CONST.__objc_classlist: 0x2f8
+   __DATA_CONST.__objc_catlist: 0x28
+   __DATA_CONST.__objc_protolist: 0x1b8
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2050
++  __DATA_CONST.__objc_selrefs: 0x2090
+   __DATA_CONST.__objc_protorefs: 0xc8
+   __DATA_CONST.__objc_superrefs: 0x140
+-  __AUTH_CONST.__auth_got: 0x5d08
+-  __AUTH_CONST.__const: 0x23a98
+-  __AUTH_CONST.__cfstring: 0x240
+-  __AUTH_CONST.__objc_const: 0x8828
++  __AUTH_CONST.__auth_got: 0x5d50
++  __AUTH_CONST.__const: 0x23e58
++  __AUTH_CONST.__cfstring: 0x280
++  __AUTH_CONST.__objc_const: 0x88b0
+   __AUTH_CONST.__objc_intobj: 0x30
+-  __AUTH.__objc_data: 0xd98
+-  __AUTH.__data: 0x6840
++  __AUTH.__objc_data: 0xde8
++  __AUTH.__data: 0x6b98
+   __DATA.__objc_ivar: 0x10c
+-  __DATA.__data: 0x10020
+-  __DATA.__bss: 0x840a0
+-  __DATA.__common: 0xac0
++  __DATA.__data: 0x104d0
++  __DATA.__bss: 0x85ed0
++  __DATA.__common: 0xae0
+   __DATA_DIRTY.__objc_data: 0x978
+-  __DATA_DIRTY.__data: 0xcf48
+-  __DATA_DIRTY.__bss: 0x12470
++  __DATA_DIRTY.__data: 0xcf58
++  __DATA_DIRTY.__bss: 0x12480
+   __DATA_DIRTY.__common: 0x618
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: AE76D1FB-ECDE-335E-A239-B56BB546C3DD
+-  Functions: 45538
+-  Symbols:   43485
+-  CStrings:  3923
++  UUID: 2433CCC8-603A-3234-A54C-4A3BC9939583
++  Functions: 45995
++  Symbols:   44136
++  CStrings:  4022
+ 
+Symbols:
++ +[MusicKit_SoftLinking_DownloadedSongs requestDownloadedSongsForMediaLibrary:completionHandler:]
++ -[MusicKit_SoftLinking_MPCPlaybackIntent initWithStoreSectionedCollection:startIdentifierSet:]
++ GCC_except_table13
++ _OBJC_CLASS_$_MusicKit_SoftLinking_DownloadedSongs
++ _OBJC_CLASS_$_NSUnitDuration
++ _OBJC_METACLASS_$_MusicKit_SoftLinking_DownloadedSongs
++ _OBJC_METACLASS_$_MusicKit_SoftLinking_MPModelRequest
++ __OBJC_$_CLASS_METHODS_MusicKit_SoftLinking_DownloadedSongs
++ __OBJC_CLASS_RO_$_MusicKit_SoftLinking_DownloadedSongs
++ __OBJC_METACLASS_RO_$_MusicKit_SoftLinking_DownloadedSongs
++ ___96+[MusicKit_SoftLinking_DownloadedSongs requestDownloadedSongsForMediaLibrary:completionHandler:]_block_invoke
++ ___block_literal_global.15
++ ___block_literal_global.17
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO10Foundation09LocalizedE0AAsAD
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOSHAASQ
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO27UnknownXPCRequestCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO27UnknownXPCRequestCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO28FailedToCreateItemCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO28FailedToCreateItemCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO29FailedToImportTrackCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO29FailedToImportTrackCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO31LibraryEntityNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO31LibraryEntityNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO33NoObservationInProgressCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO33NoObservationInProgressCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO34DatabaseConnectionFailedCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO34DatabaseConnectionFailedCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO34FailedToCreateXPCSessionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO34FailedToCreateXPCSessionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO35ItemDeviceLocalIDNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO35ItemDeviceLocalIDNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO36CannotPerformUnknownActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO36CannotPerformUnknownActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO36FailedToValidateAuditTokenCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO36FailedToValidateAuditTokenCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO39FailedToPerformFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO39FailedToPerformFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO43FailedToPerformUndoFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO43FailedToPerformUndoFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO43FailedToRetrieveAccountIdentifierCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO43FailedToRetrieveAccountIdentifierCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0K3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO46FailedToBeginObservingFavoriteStatusCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0L3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO46FailedToBeginObservingFavoriteStatusCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0L3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO61CannotBeginObservingBeforeEndingPreviousObservationCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0M3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV5ErrorO61CannotBeginObservingBeforeEndingPreviousObservationCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLOs0M3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOSHAASQ
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOSHAASQ
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0H3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0H3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLOSHAASQ
++ _associated conformance 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 16MusicKitInternal18CloudEditorialUberVSHAASQ
++ _block_copy_helper.115
++ _block_copy_helper.16
++ _block_copy_helper.7
++ _block_descriptor.117
++ _block_descriptor.18
++ _block_descriptor.9
++ _block_destroy_helper.116
++ _block_destroy_helper.17
++ _block_destroy_helper.8
++ _exp2
++ _getMPCModelPlaybackIntentTracklistTokenClass
++ _getMPCModelStorePlaybackItemsRequestClass
++ _get_witness_table 8MusicKit0A4ItemRzlxAaBHD1_.14
++ _get_witness_table 8MusicKit0A4ItemRzlxAaBHD1_.2
++ _objc_msgSend$_modelKindForModelObjectType:
++ _objc_msgSend$setIdentifiers:
++ _objectdestroy.4Tm
++ _symbolic SS11description_t
++ _symbolic Say_____yxGG 16MusicKitInternal21MappingSectionWrapperV
++ _symbolic Si6offset______7elementt 16MusicKitInternal0A14PlaybackIntentV
++ _symbolic Si6offset______7elementtSg 16MusicKitInternal0A14PlaybackIntentV
++ _symbolic Si_S2iS2dt
++ _symbolic _____ 16MusicKitInternal0A22PlaybackIntentDonationV0E4KindO
++ _symbolic _____ 16MusicKitInternal0A26DownloadedSongCatalogStoreC8DatabaseC13Migrate30To4005_E6B8L26B035038B1489CAE142917C8D9CLLV
++ _symbolic _____ 16MusicKitInternal0A26DownloadedSongCatalogStoreC8DatabaseC13Migrate40To5005_E6B8L26B035038B1489CAE142917C8D9CLLV
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO27UnknownXPCRequestCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO28FailedToCreateItemCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO29FailedToImportTrackCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO31LibraryEntityNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO33NoObservationInProgressCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO34DatabaseConnectionFailedCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO34FailedToCreateXPCSessionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO35ItemDeviceLocalIDNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO36CannotPerformUnknownActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO36FailedToValidateAuditTokenCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO39FailedToPerformFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO43FailedToPerformUndoFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO43FailedToRetrieveAccountIdentifierCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO46FailedToBeginObservingFavoriteStatusCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV5ErrorO61CannotBeginObservingBeforeEndingPreviousObservationCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____ 16MusicKitInternal0A6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____ 16MusicKitInternal18CloudEditorialUberV
++ _symbolic _____ 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLO
++ _symbolic _____ 16MusicKitInternal21MappingSectionWrapperV
++ _symbolic _____ So24ICEnvironmentNetworkTypeV
++ _symbolic _____7context______Sg5errort 16MusicKitInternal0A6DaemonV8ResponseO7ContextV AC5ErrorO
++ _symbolic _____Sg 16MusicKitInternal0A24FavoriteStatusControllerC0E0O
++ _symbolic _____Sg 16MusicKitInternal0A33DownloadedSongCatalogStoreUpdaterV10PropertiesV
++ _symbolic _____Sg 16MusicKitInternal0A6DaemonV5ErrorO
++ _symbolic _____Sg 16MusicKitInternal0A6DaemonV8ResponseO7ContextV
++ _symbolic _____Sg7context______5errort 16MusicKitInternal0A6DaemonV8ResponseO7ContextV AC5ErrorO
++ _symbolic _____Sg_ABt 16MusicKitInternal0A6DaemonV8ResponseO7ContextV
++ _symbolic ______AAt 16MusicKitInternal0A15SiriItemRequestV4Kind33_9A367A545068E259C29E2DF89B874771LLO
++ _symbolic _____ySayypGG 8MusicKit24UncheckedSendableWrapperV
++ _symbolic _____ySi_S2iS2dtG s23_ContiguousArrayStorageC
++ _symbolic _____ySo14NSUnitDurationCG 10Foundation11MeasurementV
++ _symbolic _____ySo14NSUnitDurationCGSg 10Foundation11MeasurementV
++ _symbolic _____y_____G 8MusicKit14CloudAttributeV 0aB8Internal0C13EditorialUberV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO27UnknownXPCRequestCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO28FailedToCreateItemCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO29FailedToImportTrackCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO31LibraryEntityNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO33NoObservationInProgressCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO34DatabaseConnectionFailedCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO34FailedToCreateXPCSessionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO35ItemDeviceLocalIDNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO36CannotPerformUnknownActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO36FailedToValidateAuditTokenCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO39FailedToPerformFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO43FailedToPerformUndoFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO43FailedToRetrieveAccountIdentifierCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO46FailedToBeginObservingFavoriteStatusCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO61CannotBeginObservingBeforeEndingPreviousObservationCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO10CodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO15OtherCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO24FailedToDecodeCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO27UnknownXPCRequestCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO28FailedToCreateItemCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO29FailedToImportTrackCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO31LibraryEntityNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO33NoObservationInProgressCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO34DatabaseConnectionFailedCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO34FailedToCreateXPCSessionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO35ItemDeviceLocalIDNotFoundCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO36CannotPerformUnknownActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO36FailedToValidateAuditTokenCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO39FailedToPerformFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO43FailedToPerformUndoFavoriteActionCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO43FailedToRetrieveAccountIdentifierCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO46FailedToBeginObservingFavoriteStatusCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV5ErrorO61CannotBeginObservingBeforeEndingPreviousObservationCodingKeys33_454BC5607AF39B86B665C96E0422D4ECLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO25ActionPerformedCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO26ObservationBeganCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal18CloudEditorialUberV10CodingKeys33_9FE225D93507A5ADC34E637B3FCCAE0ALLO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC So13NSFileManagerC16MusicKitInternalE0fG30_LibraryContainerizationPolicyO
++ _symbolic _____y_____GSg 8MusicKit14CloudAttributeV 0aB8Internal0C13EditorialUberV
++ _symbolic _____y_____GSg_ADt 8MusicKit14CloudAttributeV 0aB8Internal0C13EditorialUberV
+- __IVARS__TtC16MusicKitInternal21MappingSectionWrapper
+- ___block_literal_global.12
+- ___block_literal_global.14
+- _associated conformance 16MusicKitInternal0A6DaemonV7RequestO6ActionO20LibraryMapCodingKeys33_5F815F0A20DC2630702B65CBBD53EDF9LLOs0I3KeyAAs23CustomStringConvertible
+- _associated conformance 16MusicKitInternal0A6DaemonV7RequestO6ActionO20LibraryMapCodingKeys33_5F815F0A20DC2630702B65CBBD53EDF9LLOs0I3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO17SuccessCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0G3KeyAAs23CustomStringConvertible
+- _associated conformance 16MusicKitInternal0A6DaemonV8ResponseO17SuccessCodingKeys33_98532D7D8B71D82E7739D24D471783DELLOs0G3KeyAAs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO03NotF10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0I3KeyADs23CustomStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO03NotF10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0I3KeyADs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO0F10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0H3KeyADs23CustomStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO0F10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0H3KeyADs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLOSHADSQ
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0H3KeyADs23CustomStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLOs0H3KeyADs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO17PendingCodingKeys33_73C9F0B133209128540207BC5F428259LLOs0I3KeyADs23CustomStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO17PendingCodingKeys33_73C9F0B133209128540207BC5F428259LLOs0I3KeyADs28CustomDebugStringConvertible
+- _associated conformance 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusOSHADSQ
+- _block_copy_helper.114
+- _block_copy_helper.123
+- _block_copy_helper.132
+- _block_descriptor.116
+- _block_descriptor.125
+- _block_descriptor.134
+- _block_destroy_helper.115
+- _block_destroy_helper.124
+- _block_destroy_helper.133
+- _get_enum_tag_for_layout_string 10Foundation4DataV15_RepresentationO
+- _get_enum_tag_for_layout_string 16MusicKitInternal0A15SiriItemRequestV4Kind33_9A367A545068E259C29E2DF89B874771LLO
+- _objectdestroy.44Tm
+- _symbolic SS12errorMessage_t
+- _symbolic Say_____yxGG 16MusicKitInternal21MappingSectionWrapperC
+- _symbolic Si_SiSdt
+- _symbolic _____ 16MusicKitInternal0A6DaemonV7RequestO6ActionO20LibraryMapCodingKeys33_5F815F0A20DC2630702B65CBBD53EDF9LLO
+- _symbolic _____ 16MusicKitInternal0A6DaemonV8ResponseO17SuccessCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
+- _symbolic _____ 16MusicKitInternal21MappingSectionWrapperC
+- _symbolic _____ 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO
+- _symbolic _____ 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO03NotF10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____ 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO0F10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____ 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____ 8MusicKit8PlaylistV0aB8InternalE13CollaborationV12JoinedStatusO17PendingCodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____Sg 16MusicKitInternal3BagV
+- _symbolic _____Sg_ABt 16MusicKitInternal3BagV
+- _symbolic _____ySi_SiSdtG s23_ContiguousArrayStorageC
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV7RequestO6ActionO20LibraryMapCodingKeys33_5F815F0A20DC2630702B65CBBD53EDF9LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO17SuccessCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO03NotI10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO0I10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedDecodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO17PendingCodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV7RequestO6ActionO20LibraryMapCodingKeys33_5F815F0A20DC2630702B65CBBD53EDF9LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 16MusicKitInternal0D6DaemonV8ResponseO17SuccessCodingKeys33_98532D7D8B71D82E7739D24D471783DELLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO03NotI10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO0I10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO10CodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _symbolic _____y_____G s22KeyedEncodingContainerV 8MusicKit8PlaylistV0dE8InternalE13CollaborationV12JoinedStatusO17PendingCodingKeys33_73C9F0B133209128540207BC5F428259LLO
+- _type_layout_string 16MusicKitInternal0A14PlaybackIntentV
+- _type_layout_string 16MusicKitInternal0A15SiriItemRequestV4Kind33_9A367A545068E259C29E2DF89B874771LLO
+- _type_layout_string 16MusicKitInternal0A21LibraryMappingSectionRzlAA0adE0V16SectionedRequestVy_xG
+- _type_layout_string 16MusicKitInternal0A22PlaybackIntentDonationV
+- _type_layout_string 16MusicKitInternal0A33DownloadedSongCatalogStoreUpdaterV10PropertiesV
+CStrings:
++ "\n                AND\n                "
++ "\n            then 0.0\n            else 1.0\n            end\n        )\n    ), \n    1.0\n    )\nFROM "
++ "\n catalogAssetRequiresSubscription: "
++ " \n                AND\n                "
++ "             INTEGER NOT NULL DEFAULT 0,\n    "
++ "          REAL NOT NULL DEFAULT 0,\n    "
++ " = 0\nWHERE \n    "
++ "%{public}s"
++ ", \n catalogAssetRequiresUserUpload: "
++ ", \n containsDownloadedOrPurchasedContent: "
++ ", \n hasExplicitContent "
++ ", \n hasNonPurgeableLocalAsset "
++ ", \n hasNonPurgeableSubscriptionProtectedLocalAsset: "
++ ", \n hasOnlyExplicitContent "
++ ", \n hasOnlyExplicitDownloadedContent: "
++ ", \n hasRedownloadableCatalogAsset: "
++ ", \n isHomeSharingAssetAvailable: "
++ ", \n isLibraryAddedContainer: "
++ ", \n isNetworkConstrained: "
++ ", \n isSupportedType: "
++ ", \n playableCategory: "
++ ", \n playableItemKind: "
++ "ALTER TABLE catalog_song ADD COLUMN fulfillment_attempts INTEGER NOT NULL DEFAULT 0"
++ "ALTER TABLE catalog_song ADD COLUMN fulfillment_next_attempt REAL NOT NULL DEFAULT 0"
++ "Action performed with error: %{public}s."
++ "Cannot begin observing before ending previous observation."
++ "Cannot perform unknown action."
++ "Creating xpc session."
++ "Current environment information:"
++ "Database connection failed."
++ "Error with message: "
++ "Expected underlying media library to be an MPMediaLibrary, actual value is "
++ "Failed to begin observing favorite status."
++ "Failed to create XPC session."
++ "Failed to create an INPlayMediaIntent from %{public}s: %{public}@."
++ "Failed to create item."
++ "Failed to create xpc session with error: %{public}@."
++ "Failed to decode XPC message with error: %{public}@."
++ "Failed to decode with error message: "
++ "Failed to import track."
++ "Failed to perform favorite action."
++ "Failed to perform undo favorite action."
++ "Failed to retrieve account identifier."
++ "Failed to validate audit token."
++ "Failure tied to context: %{public}s with error: %{public}s."
++ "Handling XPC message."
++ "Initial item state for item, %{public}s, returned playable."
++ "Initial playability information: %{public}s"
++ "Item device local ID not found."
++ "Library entity not found."
++ "MusicFavoriteStatusController[%{public}s]: didBeginObserving."
++ "MusicFavoriteStatusController[%{public}s]: didEndObserving with error: %{public}s."
++ "MusicFavoriteStatusController[%{public}s]: didPerformAction."
++ "MusicFavoriteStatusController[%{public}s]: encountered error: %{public}s trying to observe item: %{public}s, accountID: %{public}s."
++ "MusicFavoriteStatusController[%{public}s]: failed to perform action: %@, reverting..."
++ "MusicFavoriteStatusController[%{public}s]: observingContentDidChange\nitem = %{public}s,\nsubscription: %{public}s,\nrestrictions: %{public}s."
++ "MusicIntentDonator: %{public}s did not provide an INIntent to donate, I will not donate anything."
++ "MusicKitInternal/MusicLibrary+DownloadedItemsProviding.swift"
++ "MusicKit_DownloadedSongsRequest"
++ "MusicKit_SoftLinking_DownloadedSongs"
++ "MusicKit_StoreSectionedCollection"
++ "No observation in progress."
++ "Playability status is %{public}s for item: %{public}s for playableItemKind %{public}s."
++ "SELECT IIF (\n    count(*) > 0, \n    (\n        SELECT AVG(\n            case when\n                "
++ "Shared: Unable to get a library database ID for account: %{public}s."
++ "Shared: nonfatal error while trying to delete unauthenticated library containers: %{public}@."
++ "Started observing item with error: %{public}s."
++ "Stopped observing item with error: %{public}s."
++ "Unable to get all current accounts on this device to delete unauthenticated catalog stores: %{public}@."
++ "Unauthenticated catalog stores deleted."
++ "Unknown XPC request."
++ "Unsupported type of container specified for MusicPlaybackContainerIntent: "
++ "Unsupported type of item specified for MusicPlaybackContainerIntent: "
++ "Updated item state for item, %{public}s, returned playable."
++ "Updated playability information: %{public}s"
++ "XPC session created."
++ "_modelKindForModelObjectType:"
++ "cannotBeginObservingBeforeEndingPreviousObservation"
++ "cannotPerformUnknownAction"
++ "context error "
++ "databaseConnectionFailed"
++ "deleteUnauthenticatedLibraryContainers: deleting %{public}s."
++ "deleteUnauthenticatedLibraryContainers: no explicit library identifiers provided."
++ "deleteUnauthenticatedLibraryContainers: platformSpecificContainerURL is unavailable."
++ "failedToBeginObservingFavoriteStatus"
++ "failedToCreateItem"
++ "failedToCreateXPCSession"
++ "failedToImportTrack"
++ "failedToPerformFavoriteAction"
++ "failedToPerformUndoFavoriteAction"
++ "failedToRetrieveAccountIdentifier"
++ "failedToValidateAuditToken"
++ "fetchCatalogData(descriptors:properties:currentDate:backfill:taskID:)"
++ "fulfillment_attempts"
++ "fulfillment_next_attempt"
++ "hours"
++ "initWithStoreSectionedCollection:startIdentifierSet:"
++ "isNetworkConstrained"
++ "itemDeviceLocalIDNotFound"
++ "itemFulfillmentAttemptsLimit"
++ "libraryEntityNotFound"
++ "noObservationInProgress"
++ "observationBegan"
++ "previousStatus"
++ "removeItemAtURL:error:"
++ "requestDownloadedSongsForMediaLibrary:completionHandler:"
++ "seconds"
++ "setIdentifiers:"
++ "unknownXPCRequest"
++ "waitPeriodBetweenFulfillmentAttemptLimit"
+- "\n            then 1.0 \n            else 0\n            end\n        )\n    ), \n    1.0\n    )\nFROM "
+- "Encountered unexpected error: %{public}@."
+- "Handle XPC message error: %{public}@."
+- "Handle XPC message."
+- "MusicFavoriteStatusController[%{public}s]: contentChanged item = %{public}s,\nsubscription: %{public}s,\nrestrictions: %{public}s."
+- "MusicFavoriteStatusController[%{public}s]: didStopObserving."
+- "New session created."
+- "Playability status is %{public}s for item: %{public}s."
+- "SELECT IIF (\n    count(*) > 0, \n    (\n        SELECT AVG(\n            case when "
+- "Server replied with success."
+- "Stopped observing item."
+- "fetchCatalogData(descriptors:backfill:taskID:)"
+- "mappingSection"
+
+```

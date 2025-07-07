@@ -1,0 +1,34 @@
+## libcryptex_trampoline.dylib
+
+> `/usr/lib/libcryptex_trampoline.dylib`
+
+```diff
+
+-589.0.9.0.0
++589.0.15.0.0
+   __TEXT.__text: 0x6a4
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__const: 0x70
+-  __TEXT.__cstring: 0x1da
++  __TEXT.__cstring: 0x1dd
+   __TEXT.__oslogstring: 0x104
+   __TEXT.__unwind_info: 0x88
+   __DATA_CONST.__got: 0x10
+
+   __DATA.__bss: 0x10
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libcryptex_interface.dylib
+-  UUID: F4844C84-4CC5-3B8B-97B0-55F859F355AE
++  UUID: 57F5E60B-8819-3CEE-9D9F-939208AADE3C
+   Functions: 11
+   Symbols:   60
+   CStrings:  15
+CStrings:
++ "589.0.15"
++ "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Fri Jun 27 02:53:16 PDT 2025; root:libcryptex-589.0.15~21/libcryptex_trampoline/RELEASE_ARM64E"
++ "Monitor Cryptex Upgrades Version 2.0.0: Fri Jun 27 02:53:16 PDT 2025; root:libcryptex-589.0.15~21/libcryptex_trampoline/RELEASE_ARM64E"
+- "589.0.9"
+- "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Tue Jun 10 21:13:28 PDT 2025; root:libcryptex-589.0.9~44/libcryptex_trampoline/RELEASE_ARM64E"
+- "Monitor Cryptex Upgrades Version 2.0.0: Tue Jun 10 21:13:28 PDT 2025; root:libcryptex-589.0.9~44/libcryptex_trampoline/RELEASE_ARM64E"
+
+```

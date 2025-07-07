@@ -1,0 +1,1330 @@
+## IntelligencePlatformLibrary
+
+> `/System/Library/PrivateFrameworks/IntelligencePlatformLibrary.framework/IntelligencePlatformLibrary`
+
+```diff
+
+-225.0.0.0.0
+-  __TEXT.__text: 0x4a69cc
+-  __TEXT.__auth_stubs: 0x18c0
+-  __TEXT.__objc_methlist: 0x11104
+-  __TEXT.__const: 0x49f9c
+-  __TEXT.__constg_swiftt: 0x8ae0
+-  __TEXT.__swift5_typeref: 0x8a48
+-  __TEXT.__swift5_fieldmd: 0x130f0
+-  __TEXT.__swift5_types: 0x1188
+-  __TEXT.__swift5_reflstr: 0x11ba9
+-  __TEXT.__swift5_assocty: 0x3020
+-  __TEXT.__cstring: 0x62a8a
++229.0.0.0.0
++  __TEXT.__text: 0x4c2344
++  __TEXT.__auth_stubs: 0x18f0
++  __TEXT.__objc_methlist: 0x11d14
++  __TEXT.__const: 0x4bc88
++  __TEXT.__constg_swiftt: 0x8d10
++  __TEXT.__swift5_typeref: 0x8cb8
++  __TEXT.__swift5_fieldmd: 0x136e0
++  __TEXT.__swift5_types: 0x11d8
++  __TEXT.__swift5_reflstr: 0x11f19
++  __TEXT.__swift5_assocty: 0x3110
++  __TEXT.__cstring: 0x63bb4
+   __TEXT.__oslogstring: 0x19c
+-  __TEXT.__swift5_proto: 0x5590
+-  __TEXT.__swift5_capture: 0x33f0
++  __TEXT.__swift5_proto: 0x5738
++  __TEXT.__swift5_capture: 0x35d0
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__swift5_builtin: 0x5dc
+-  __TEXT.__swift5_mpenum: 0x5a4
+-  __TEXT.__unwind_info: 0x17f90
+-  __TEXT.__eh_frame: 0x1eff4
+-  __TEXT.__objc_classname: 0x54f9
+-  __TEXT.__objc_methname: 0x1574c
+-  __TEXT.__objc_methtype: 0x2bfc
+-  __TEXT.__objc_stubs: 0x8420
+-  __DATA_CONST.__got: 0xf48
+-  __DATA_CONST.__const: 0x2ad8
+-  __DATA_CONST.__objc_classlist: 0xb48
++  __TEXT.__swift5_builtin: 0x5f0
++  __TEXT.__swift5_mpenum: 0x5b8
++  __TEXT.__unwind_info: 0x18788
++  __TEXT.__eh_frame: 0x1f6cc
++  __TEXT.__objc_classname: 0x59a6
++  __TEXT.__objc_methname: 0x16bf8
++  __TEXT.__objc_methtype: 0x2e80
++  __TEXT.__objc_stubs: 0x8a40
++  __DATA_CONST.__got: 0xfc0
++  __DATA_CONST.__const: 0x2d38
++  __DATA_CONST.__objc_classlist: 0xbb8
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x50
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x2f20
++  __DATA_CONST.__objc_selrefs: 0x31d0
+   __DATA_CONST.__objc_protorefs: 0x10
+   __DATA_CONST.__objc_superrefs: 0x60
+-  __AUTH_CONST.__auth_got: 0xc68
+-  __AUTH_CONST.__const: 0x31ec0
+-  __AUTH_CONST.__cfstring: 0xd8c0
+-  __AUTH_CONST.__objc_const: 0x1fe38
+-  __AUTH.__objc_data: 0x5f40
++  __AUTH_CONST.__auth_got: 0xc80
++  __AUTH_CONST.__const: 0x33108
++  __AUTH_CONST.__cfstring: 0xe200
++  __AUTH_CONST.__objc_const: 0x21558
++  __AUTH.__objc_data: 0x63a0
+   __AUTH.__data: 0x25d0
+-  __DATA.__objc_ivar: 0x1658
+-  __DATA.__data: 0x8e68
+-  __DATA.__bss: 0x59dc0
+-  __DATA.__common: 0x5810
++  __DATA.__objc_ivar: 0x178c
++  __DATA.__data: 0x9100
++  __DATA.__bss: 0x5bc60
++  __DATA.__common: 0x59d8
+   __DATA_DIRTY.__objc_data: 0x1618
+   __DATA_DIRTY.__data: 0x5d28
+-  __DATA_DIRTY.__bss: 0x9fd0
++  __DATA_DIRTY.__bss: 0xa020
+   __DATA_DIRTY.__common: 0x18
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswift_DarwinFoundation1.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 75AADD32-449E-3B25-B1CC-93C627A10D7F
+-  Functions: 46640
+-  Symbols:   43751
+-  CStrings:  12839
++  UUID: 78F7D04E-5CA6-388C-95B2-81FFEB756EF0
++  Functions: 47603
++  Symbols:   44827
++  CStrings:  13276
+ 
+Symbols:
++ +[CCToolKitToolRestrictionContextInInclusiveRange contentMessageClass]
++ +[CCToolKitToolRestrictionContextInInclusiveRange descriptionForTypeIdentifier:]
++ +[CCToolKitToolRestrictionContextInInclusiveRange itemType]
++ +[CCToolKitToolRestrictionContextInInclusiveRange metaContentMessageClass]
++ +[CCToolKitToolRestrictionContextMeasurementExpressibleAs contentMessageClass]
++ +[CCToolKitToolRestrictionContextMeasurementExpressibleAs descriptionForTypeIdentifier:]
++ +[CCToolKitToolRestrictionContextMeasurementExpressibleAs itemType]
++ +[CCToolKitToolRestrictionContextMeasurementExpressibleAs metaContentMessageClass]
++ +[CCToolKitToolToolInvocation contentMessageClass]
++ +[CCToolKitToolToolInvocation descriptionForTypeIdentifier:]
++ +[CCToolKitToolToolInvocation itemType]
++ +[CCToolKitToolToolInvocation metaContentMessageClass]
++ +[CCToolKitToolToolInvocationParameterValuesEntry contentMessageClass]
++ +[CCToolKitToolToolInvocationParameterValuesEntry descriptionForTypeIdentifier:]
++ +[CCToolKitToolToolInvocationParameterValuesEntry itemType]
++ +[CCToolKitToolToolInvocationParameterValuesEntry metaContentMessageClass]
++ +[CCToolKitToolTypeInstanceConstrained contentMessageClass]
++ +[CCToolKitToolTypeInstanceConstrained descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypeInstanceConstrained itemType]
++ +[CCToolKitToolTypeInstanceConstrained metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueDateInterval contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueDateInterval descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueDateInterval itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueDateInterval metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueDuration contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueDuration descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueDuration itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueDuration metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth metaContentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday contentMessageClass]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday itemType]
++ +[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday metaContentMessageClass]
++ +[CCToolKitToolTypedValueResolvable contentMessageClass]
++ +[CCToolKitToolTypedValueResolvable descriptionForTypeIdentifier:]
++ +[CCToolKitToolTypedValueResolvable itemType]
++ +[CCToolKitToolTypedValueResolvable metaContentMessageClass]
++ +[CCToolKitToolValueSearchPredicate contentMessageClass]
++ +[CCToolKitToolValueSearchPredicate descriptionForTypeIdentifier:]
++ +[CCToolKitToolValueSearchPredicate itemType]
++ +[CCToolKitToolValueSearchPredicate metaContentMessageClass]
++ +[CCToolKitToolValueSearchPredicateTemplate contentMessageClass]
++ +[CCToolKitToolValueSearchPredicateTemplate descriptionForTypeIdentifier:]
++ +[CCToolKitToolValueSearchPredicateTemplate itemType]
++ +[CCToolKitToolValueSearchPredicateTemplate metaContentMessageClass]
++ -[CCItemField(CCToolKitToolTypeIdentifierPrimitive_dateInterval) toolKitToolTypeIdentifierPrimitiveDateInterval]
++ -[CCItemField(CCToolKitToolTypeIdentifierPrimitive_duration) toolKitToolTypeIdentifierPrimitiveDuration]
++ -[CCItemField(CCToolKitToolTypeIdentifierPrimitive_recurrenceRule) toolKitToolTypeIdentifierPrimitiveRecurrenceRule]
++ -[CCItemField(CCToolKitToolTypedValuePrimitiveValuePlacemark_type) toolKitToolTypedValuePrimitiveValuePlacemarkType]
++ -[CCItemField(CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday_RecurrenceRuleWeekdayWeekday) toolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekdayRecurrenceRuleWeekdayWeekday]
++ -[CCItemField(CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_frequency) toolKitToolTypedValuePrimitiveValueRecurrenceRuleFrequency]
++ -[CCItemField(CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_matchingPolicy) toolKitToolTypedValuePrimitiveValueRecurrenceRuleMatchingPolicy]
++ -[CCItemField(CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_repeatedTimePolicy) toolKitToolTypedValuePrimitiveValueRecurrenceRuleRepeatedTimePolicy]
++ -[CCToolKitToolQueryAnyPredicate valueSearch]
++ -[CCToolKitToolRestrictionContext inInclusiveRange]
++ -[CCToolKitToolRestrictionContext measurementExpressibleAs]
++ -[CCToolKitToolRestrictionContextInInclusiveRange enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange hasLowerBound]
++ -[CCToolKitToolRestrictionContextInInclusiveRange hasUpperBound]
++ -[CCToolKitToolRestrictionContextInInclusiveRange initWithJSONDictionary:error:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange initWithLowerBound:upperBound:error:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange initializeFieldValuesFromData:error:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange jsonDictionary]
++ -[CCToolKitToolRestrictionContextInInclusiveRange lowerBound]
++ -[CCToolKitToolRestrictionContextInInclusiveRange setHasLowerBound:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange setHasUpperBound:]
++ -[CCToolKitToolRestrictionContextInInclusiveRange upperBound]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs .cxx_destruct]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs hasSupportsNegativeNumbers]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs hasUnitAdjustForLocale]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs initWithJSONDictionary:error:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs initWithUnit:unitAdjustForLocale:supportsNegativeNumbers:error:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs initializeFieldValuesFromData:error:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs jsonDictionary]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs setHasSupportsNegativeNumbers:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs setHasUnitAdjustForLocale:]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs supportsNegativeNumbers]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs unitAdjustForLocale]
++ -[CCToolKitToolRestrictionContextMeasurementExpressibleAs unit]
++ -[CCToolKitToolToolInvocation .cxx_destruct]
++ -[CCToolKitToolToolInvocation enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolToolInvocation identifier]
++ -[CCToolKitToolToolInvocation initWithIdentifier:toolIdentifier:target:parameterValues:error:]
++ -[CCToolKitToolToolInvocation initWithJSONDictionary:error:]
++ -[CCToolKitToolToolInvocation initializeFieldValuesFromData:error:]
++ -[CCToolKitToolToolInvocation jsonDictionary]
++ -[CCToolKitToolToolInvocation parameterValues]
++ -[CCToolKitToolToolInvocation target]
++ -[CCToolKitToolToolInvocation toolIdentifier]
++ -[CCToolKitToolToolInvocationParameterValuesEntry .cxx_destruct]
++ -[CCToolKitToolToolInvocationParameterValuesEntry enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolToolInvocationParameterValuesEntry initWithJSONDictionary:error:]
++ -[CCToolKitToolToolInvocationParameterValuesEntry initWithKey:value:error:]
++ -[CCToolKitToolToolInvocationParameterValuesEntry initializeFieldValuesFromData:error:]
++ -[CCToolKitToolToolInvocationParameterValuesEntry jsonDictionary]
++ -[CCToolKitToolToolInvocationParameterValuesEntry key]
++ -[CCToolKitToolToolInvocationParameterValuesEntry value]
++ -[CCToolKitToolTypeDefinitionVersion1QueryPredicateTemplates initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:valueSearch:metadata:error:]
++ -[CCToolKitToolTypeDefinitionVersion1QueryPredicateTemplates valueSearch]
++ -[CCToolKitToolTypeIdentifierPrimitive dateInterval]
++ -[CCToolKitToolTypeIdentifierPrimitive duration]
++ -[CCToolKitToolTypeIdentifierPrimitive recurrenceRule]
++ -[CCToolKitToolTypeInstance constrained]
++ -[CCToolKitToolTypeInstanceConstrained .cxx_destruct]
++ -[CCToolKitToolTypeInstanceConstrained context]
++ -[CCToolKitToolTypeInstanceConstrained enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypeInstanceConstrained initWithInstance:context:error:]
++ -[CCToolKitToolTypeInstanceConstrained initWithJSONDictionary:error:]
++ -[CCToolKitToolTypeInstanceConstrained initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypeInstanceConstrained instance]
++ -[CCToolKitToolTypeInstanceConstrained jsonDictionary]
++ -[CCToolKitToolTypedValueCollectionValue initWithType:values:typeInstance:error:]
++ -[CCToolKitToolTypedValueCollectionValue typeInstance]
++ -[CCToolKitToolTypedValuePrimitiveValue dateInterval]
++ -[CCToolKitToolTypedValuePrimitiveValue duration]
++ -[CCToolKitToolTypedValuePrimitiveValue initWithPrimitiveValue_kind:primitiveValue_kindType:error:]
++ -[CCToolKitToolTypedValuePrimitiveValue primitiveValue_kindType]
++ -[CCToolKitToolTypedValuePrimitiveValue recurrenceRule]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval .cxx_destruct]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval duration]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval end]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval hasDuration]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval initWithStart:end:duration:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval setHasDuration:]
++ -[CCToolKitToolTypedValuePrimitiveValueDateInterval start]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration attoSeconds]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration hasAttoSeconds]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration hasSeconds]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration initWithSeconds:attoSeconds:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration seconds]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration setHasAttoSeconds:]
++ -[CCToolKitToolTypedValuePrimitiveValueDuration setHasSeconds:]
++ -[CCToolKitToolTypedValuePrimitiveValuePerson hasIsMe]
++ -[CCToolKitToolTypedValuePrimitiveValuePerson initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:isMe:error:]
++ -[CCToolKitToolTypedValuePrimitiveValuePerson isMe]
++ -[CCToolKitToolTypedValuePrimitiveValuePerson setHasIsMe:]
++ -[CCToolKitToolTypedValuePrimitiveValuePlacemark initWithPlacemark:displayRepresentation:type:error:]
++ -[CCToolKitToolTypedValuePrimitiveValuePlacemark type]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule .cxx_destruct]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule calendar]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule daysOfTheMonth]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule daysOfTheYear]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule end]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule frequency]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule hasInterval]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule hours]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule initWithCalendar:frequency:interval:end:matchingPolicy:repeatedTimePolicy:months:daysOfTheYear:daysOfTheMonth:weeks:weekdays:hours:minutes:seconds:setPositions:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule interval]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule matchingPolicy]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule minutes]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule months]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule repeatedTimePolicy]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule seconds]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule setHasInterval:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule setPositions]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule weekdays]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule weeks]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd .cxx_destruct]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd date]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd hasNever]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd hasOccurences]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd initWithOccurences:date:never:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd never]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd occurences]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd setHasNever:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd setHasOccurences:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth hasIndex]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth hasIsLeap]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth index]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth initWithIndex:isLeap:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth isLeap]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth setHasIndex:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth setHasIsLeap:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday RecurrenceRuleWeekdayEvery]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday RecurrenceRuleWeekdayNth]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday RecurrenceRuleWeekdayWeekday]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday hasRecurrenceRuleWeekdayEvery]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday hasRecurrenceRuleWeekdayNth]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday initWithRecurrenceRuleWeekdayWeekday:RecurrenceRuleWeekdayEvery:RecurrenceRuleWeekdayNth:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday jsonDictionary]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday setHasRecurrenceRuleWeekdayEvery:]
++ -[CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday setHasRecurrenceRuleWeekdayNth:]
++ -[CCToolKitToolTypedValueResolvable .cxx_destruct]
++ -[CCToolKitToolTypedValueResolvable enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolTypedValueResolvable initWithJSONDictionary:error:]
++ -[CCToolKitToolTypedValueResolvable initWithKind:kindType:error:]
++ -[CCToolKitToolTypedValueResolvable initializeFieldValuesFromData:error:]
++ -[CCToolKitToolTypedValueResolvable jsonDictionary]
++ -[CCToolKitToolTypedValueResolvable kindType]
++ -[CCToolKitToolTypedValueResolvable reference]
++ -[CCToolKitToolTypedValueResolvable value]
++ -[CCToolKitToolValueSearchPredicate .cxx_destruct]
++ -[CCToolKitToolValueSearchPredicate enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolValueSearchPredicate initWithJSONDictionary:error:]
++ -[CCToolKitToolValueSearchPredicate initWithValues:error:]
++ -[CCToolKitToolValueSearchPredicate initializeFieldValuesFromData:error:]
++ -[CCToolKitToolValueSearchPredicate jsonDictionary]
++ -[CCToolKitToolValueSearchPredicate values]
++ -[CCToolKitToolValueSearchPredicateTemplate .cxx_destruct]
++ -[CCToolKitToolValueSearchPredicateTemplate enumerateFieldsUsingBlock:parentFieldType:]
++ -[CCToolKitToolValueSearchPredicateTemplate initWithInput:error:]
++ -[CCToolKitToolValueSearchPredicateTemplate initWithJSONDictionary:error:]
++ -[CCToolKitToolValueSearchPredicateTemplate initializeFieldValuesFromData:error:]
++ -[CCToolKitToolValueSearchPredicateTemplate input]
++ -[CCToolKitToolValueSearchPredicateTemplate jsonDictionary]
++ -[CCWalletExtractedOrderContent earliestEmailDateSent]
++ -[CCWalletExtractedOrderContent initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:earliestEmailDateSent:error:]
++ -[CCWalletExtractedOrderContent(Deprecation) initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:error:]
++ _CCToolKitToolTypedValuePrimitiveValuePlacemarkTypeAsString
++ _CCToolKitToolTypedValuePrimitiveValuePlacemarkTypeDecode
++ _CCToolKitToolTypedValuePrimitiveValuePlacemarkTypeFromString
++ _CCToolKitToolTypedValuePrimitiveValuePlacemarkTypeFromString.sortedStrings
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarMatchingPolicyAsString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarMatchingPolicyDecode
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarMatchingPolicyFromString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarMatchingPolicyFromString.sortedStrings
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarRepeatedTimePolicyAsString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarRepeatedTimePolicyDecode
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarRepeatedTimePolicyFromString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarRepeatedTimePolicyFromString.sortedStrings
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayAsString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayDecode
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayFromString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayFromString.sortedEnums
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayFromString.sortedStrings
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyAsString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyDecode
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyFromString
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyFromString.sortedEnums
++ _CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyFromString.sortedStrings
++ _OBJC_CLASS_$_CCToolKitToolRestrictionContextInInclusiveRange
++ _OBJC_CLASS_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ _OBJC_CLASS_$_CCToolKitToolToolInvocation
++ _OBJC_CLASS_$_CCToolKitToolToolInvocationParameterValuesEntry
++ _OBJC_CLASS_$_CCToolKitToolTypeInstanceConstrained
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueDuration
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ _OBJC_CLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ _OBJC_CLASS_$_CCToolKitToolTypedValueResolvable
++ _OBJC_CLASS_$_CCToolKitToolValueSearchPredicate
++ _OBJC_CLASS_$_CCToolKitToolValueSearchPredicateTemplate
++ _OBJC_IVAR_$_CCToolKitToolQueryAnyPredicate._valueSearch
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContext._inInclusiveRange
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContext._measurementExpressibleAs
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextInInclusiveRange._hasLowerBound
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextInInclusiveRange._hasUpperBound
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextInInclusiveRange._lowerBound
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextInInclusiveRange._upperBound
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs._hasSupportsNegativeNumbers
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs._hasUnitAdjustForLocale
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs._supportsNegativeNumbers
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs._unit
++ _OBJC_IVAR_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs._unitAdjustForLocale
++ _OBJC_IVAR_$_CCToolKitToolToolInvocation._identifier
++ _OBJC_IVAR_$_CCToolKitToolToolInvocation._parameterValues
++ _OBJC_IVAR_$_CCToolKitToolToolInvocation._target
++ _OBJC_IVAR_$_CCToolKitToolToolInvocation._toolIdentifier
++ _OBJC_IVAR_$_CCToolKitToolToolInvocationParameterValuesEntry._key
++ _OBJC_IVAR_$_CCToolKitToolToolInvocationParameterValuesEntry._value
++ _OBJC_IVAR_$_CCToolKitToolTypeDefinitionVersion1QueryPredicateTemplates._valueSearch
++ _OBJC_IVAR_$_CCToolKitToolTypeIdentifierPrimitive._dateInterval
++ _OBJC_IVAR_$_CCToolKitToolTypeIdentifierPrimitive._duration
++ _OBJC_IVAR_$_CCToolKitToolTypeIdentifierPrimitive._recurrenceRule
++ _OBJC_IVAR_$_CCToolKitToolTypeInstance._constrained
++ _OBJC_IVAR_$_CCToolKitToolTypeInstanceConstrained._context
++ _OBJC_IVAR_$_CCToolKitToolTypeInstanceConstrained._instance
++ _OBJC_IVAR_$_CCToolKitToolTypedValueCollectionValue._typeInstance
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValue._dateInterval
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValue._duration
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValue._primitiveValue_kindType
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValue._recurrenceRule
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDateInterval._duration
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDateInterval._end
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDateInterval._hasDuration
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDateInterval._start
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDuration._attoSeconds
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDuration._hasAttoSeconds
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDuration._hasSeconds
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueDuration._seconds
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValuePerson._hasIsMe
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValuePerson._isMe
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValuePlacemark._type
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._calendar
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._daysOfTheMonth
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._daysOfTheYear
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._end
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._frequency
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._hasInterval
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._hours
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._interval
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._matchingPolicy
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._minutes
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._months
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._repeatedTimePolicy
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._seconds
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._setPositions
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._weekdays
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule._weeks
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd._date
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd._hasNever
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd._hasOccurences
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd._never
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd._occurences
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth._hasIndex
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth._hasIsLeap
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth._index
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth._isLeap
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday._RecurrenceRuleWeekdayEvery
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday._RecurrenceRuleWeekdayNth
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday._RecurrenceRuleWeekdayWeekday
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday._hasRecurrenceRuleWeekdayEvery
++ _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday._hasRecurrenceRuleWeekdayNth
++ _OBJC_IVAR_$_CCToolKitToolTypedValueResolvable._kindType
++ _OBJC_IVAR_$_CCToolKitToolTypedValueResolvable._reference
++ _OBJC_IVAR_$_CCToolKitToolTypedValueResolvable._value
++ _OBJC_IVAR_$_CCToolKitToolValueSearchPredicate._values
++ _OBJC_IVAR_$_CCToolKitToolValueSearchPredicateTemplate._input
++ _OBJC_IVAR_$_CCWalletExtractedOrderContent._hasRaw_earliestEmailDateSent
++ _OBJC_IVAR_$_CCWalletExtractedOrderContent._raw_earliestEmailDateSent
++ _OBJC_METACLASS_$_CCToolKitToolRestrictionContextInInclusiveRange
++ _OBJC_METACLASS_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ _OBJC_METACLASS_$_CCToolKitToolToolInvocation
++ _OBJC_METACLASS_$_CCToolKitToolToolInvocationParameterValuesEntry
++ _OBJC_METACLASS_$_CCToolKitToolTypeInstanceConstrained
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueDuration
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ _OBJC_METACLASS_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ _OBJC_METACLASS_$_CCToolKitToolTypedValueResolvable
++ _OBJC_METACLASS_$_CCToolKitToolValueSearchPredicate
++ _OBJC_METACLASS_$_CCToolKitToolValueSearchPredicateTemplate
++ _OUTLINED_FUNCTION_426
++ _OUTLINED_FUNCTION_427
++ _OUTLINED_FUNCTION_428
++ _OUTLINED_FUNCTION_429
++ _OUTLINED_FUNCTION_430
++ _OUTLINED_FUNCTION_431
++ _OUTLINED_FUNCTION_432
++ _OUTLINED_FUNCTION_433
++ _OUTLINED_FUNCTION_434
++ _OUTLINED_FUNCTION_435
++ _OUTLINED_FUNCTION_436
++ _OUTLINED_FUNCTION_437
++ _OUTLINED_FUNCTION_438
++ _OUTLINED_FUNCTION_439
++ _OUTLINED_FUNCTION_440
++ _OUTLINED_FUNCTION_441
++ _OUTLINED_FUNCTION_442
++ _OUTLINED_FUNCTION_443
++ _OUTLINED_FUNCTION_444
++ _OUTLINED_FUNCTION_445
++ _OUTLINED_FUNCTION_446
++ _OUTLINED_FUNCTION_447
++ _OUTLINED_FUNCTION_448
++ _OUTLINED_FUNCTION_449
++ _OUTLINED_FUNCTION_450
++ _OUTLINED_FUNCTION_451
++ _OUTLINED_FUNCTION_452
++ _OUTLINED_FUNCTION_453
++ _OUTLINED_FUNCTION_454
++ _OUTLINED_FUNCTION_455
++ _OUTLINED_FUNCTION_456
++ _OUTLINED_FUNCTION_457
++ _OUTLINED_FUNCTION_458
++ _OUTLINED_FUNCTION_459
++ _OUTLINED_FUNCTION_460
++ _OUTLINED_FUNCTION_461
++ _OUTLINED_FUNCTION_462
++ _OUTLINED_FUNCTION_616
++ _OUTLINED_FUNCTION_617
++ _OUTLINED_FUNCTION_618
++ _OUTLINED_FUNCTION_619
++ _OUTLINED_FUNCTION_620
++ _OUTLINED_FUNCTION_621
++ _OUTLINED_FUNCTION_622
++ _OUTLINED_FUNCTION_623
++ _OUTLINED_FUNCTION_624
++ _OUTLINED_FUNCTION_625
++ _OUTLINED_FUNCTION_626
++ _OUTLINED_FUNCTION_627
++ _OUTLINED_FUNCTION_628
++ _OUTLINED_FUNCTION_629
++ _OUTLINED_FUNCTION_630
++ _OUTLINED_FUNCTION_631
++ _OUTLINED_FUNCTION_632
++ _OUTLINED_FUNCTION_633
++ _OUTLINED_FUNCTION_634
++ _OUTLINED_FUNCTION_635
++ _OUTLINED_FUNCTION_636
++ _OUTLINED_FUNCTION_637
++ _OUTLINED_FUNCTION_638
++ _OUTLINED_FUNCTION_639
++ _OUTLINED_FUNCTION_640
++ _OUTLINED_FUNCTION_641
++ _OUTLINED_FUNCTION_642
++ _OUTLINED_FUNCTION_643
++ _OUTLINED_FUNCTION_644
++ _OUTLINED_FUNCTION_645
++ _OUTLINED_FUNCTION_646
++ _OUTLINED_FUNCTION_647
++ _OUTLINED_FUNCTION_648
++ _OUTLINED_FUNCTION_649
++ _OUTLINED_FUNCTION_650
++ _OUTLINED_FUNCTION_651
++ _OUTLINED_FUNCTION_652
++ _OUTLINED_FUNCTION_653
++ _OUTLINED_FUNCTION_654
++ _OUTLINED_FUNCTION_655
++ _OUTLINED_FUNCTION_656
++ _OUTLINED_FUNCTION_657
++ _OUTLINED_FUNCTION_658
++ _OUTLINED_FUNCTION_659
++ _OUTLINED_FUNCTION_660
++ _OUTLINED_FUNCTION_661
++ _OUTLINED_FUNCTION_662
++ _OUTLINED_FUNCTION_663
++ _OUTLINED_FUNCTION_664
++ __OBJC_$_CLASS_METHODS_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_$_CLASS_METHODS_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_$_CLASS_METHODS_CCToolKitToolToolInvocation
++ __OBJC_$_CLASS_METHODS_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypeInstanceConstrained
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_$_CLASS_METHODS_CCToolKitToolTypedValueResolvable
++ __OBJC_$_CLASS_METHODS_CCToolKitToolValueSearchPredicate
++ __OBJC_$_CLASS_METHODS_CCToolKitToolValueSearchPredicateTemplate
++ __OBJC_$_INSTANCE_METHODS_CCItemField(CCAssistantSchema_type|CCHomeService_deviceType|CCHomeAccessory_deviceType|CCMediaLinkedIdentifier_type|CCPhotosPetRelationshipContent_type|CCRadioStationContent_signalType|CCSignificantLocationSubPremise_type|CCSiriCompanionContextAudioContent_mediaCategories|CCSiriCompanionContextAudioContent_subscriptionStatus|CCWalletPaymentsCommerceTrackedOrderShippingFulfillment_status|CCWalletPaymentsCommerceOrderEmailShippingInformation_status|CCWalletPaymentsCommerceOrderEmail_emailType|CCWalletExtractedOrderContentExtractedEmailShippingDetails_status|CCWalletExtractedOrderContentExtractedEmail_emailType|CCWalletExtractedOrderContentShippingFulfillment_status|CCWalletExtractedOrderContent_orderStatus|CCToolKitToolTypeIdentifierPrimitive_none_p|CCToolKitToolTypeIdentifierPrimitive_boolType|CCToolKitToolTypeIdentifierPrimitive_intType|CCToolKitToolTypeIdentifierPrimitive_number|CCToolKitToolTypeIdentifierPrimitive_decimal|CCToolKitToolTypeIdentifierPrimitive_string|CCToolKitToolTypeIdentifierPrimitive_date|CCToolKitToolTypeIdentifierPrimitive_dateComponents|CCToolKitToolTypeIdentifierPrimitive_url|CCToolKitToolTypeIdentifierPrimitive_dictionary|CCToolKitToolTypeIdentifierPrimitive_attributedString|CCToolKitToolTypeIdentifierPrimitive_measurement|CCToolKitToolTypeIdentifierPrimitive_currencyAmount|CCToolKitToolTypeIdentifierPrimitive_paymentMethod|CCToolKitToolTypeIdentifierPrimitive_placemark|CCToolKitToolTypeIdentifierPrimitive_person|CCToolKitToolTypeIdentifierPrimitive_file|CCToolKitToolTypeIdentifierPrimitive_app|CCToolKitToolTypeIdentifierPrimitive_searchableItem|CCToolKitToolTypeIdentifierPrimitive_intentsFile|CCToolKitToolTypeIdentifierPrimitive_shortcut|CCToolKitToolTypeIdentifierPrimitive_recurrenceRule|CCToolKitToolTypeIdentifierPrimitive_dateInterval|CCToolKitToolTypeIdentifierPrimitive_duration|CCToolKitToolTypeIdentifierBuiltin_app|CCToolKitToolTypeIdentifierBuiltin_boundNumber|CCToolKitToolTypeIdentifierBuiltin_calendar|CCToolKitToolTypeIdentifierBuiltin_color|CCToolKitToolTypeIdentifierBuiltin_currency|CCToolKitToolTypeIdentifierBuiltin_file|CCToolKitToolTypeIdentifierBuiltin_homeArea|CCToolKitToolTypeIdentifierBuiltin_mediaRoute|CCToolKitToolTypeIdentifierBuiltin_paymentMethod|CCToolKitToolTypeIdentifierBuiltin_podcast|CCToolKitToolTypeIdentifierBuiltin_person|CCToolKitToolTypeIdentifierBuiltin_placemark|CCToolKitToolTypeIdentifierBuiltin_rideshareOption|CCToolKitToolTypeIdentifierBuiltin_vpn|CCToolKitToolTypeIdentifierBuiltin_timeZone|CCToolKitToolTypeIdentifierBuiltin_measurement|CCToolKitToolSystemTypeProtocol_unk|CCToolKitToolSystemTypeProtocol_mailAccount|CCToolKitToolSystemTypeProtocol_mailAddressee|CCToolKitToolSystemTypeProtocol_mailMessage|CCToolKitToolSystemTypeProtocol_mailbox|CCToolKitToolSystemTypeProtocol_intentMessage|CCToolKitToolSystemTypeProtocol_messageGroup|CCToolKitToolSystemTypeProtocol_messageParticipants|CCToolKitToolSystemTypeProtocol_uniqueEntity|CCToolKitToolSystemTypeProtocol_urlRepresentable|CCToolKitToolSystemTypeProtocol_visualSearch|CCToolKitToolSystemTypeProtocol_visualSearchOcr|CCToolKitToolSystemTypeProtocol_updatableEntity|CCToolKitToolSystemTypeProtocol_transientEntity|CCToolKitToolSystemTypeProtocol_indexedEntity|CCToolKitToolTypeDefinitionVersion1Entity_runtimeFlags|CCToolKitToolTypeDefinitionVersion1Enumeration_kind|CCToolKitToolTypedValuePrimitiveValueDecimal_sign|CCToolKitToolTypedValuePrimitiveValueMeasurement_unitType|CCToolKitToolTypedValuePrimitiveValuePaymentMethod_type|CCToolKitToolTypedValuePrimitiveValuePlacemark_type|CCToolKitToolTypedValuePrimitiveValuePersonHandle_type|CCToolKitToolTypedValuePrimitiveValueDateComponentsCalendar_identifier|CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday_RecurrenceRuleWeekdayWeekday|CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_frequency|CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_matchingPolicy|CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_repeatedTimePolicy|CCToolKitToolTypedValuePrimitiveValue_noneVariant|CCToolKitToolRestrictionContextTextTypedWith_keyboardType|CCToolKitToolRestrictionContextTextTypedWith_autocorrectionType|CCToolKitToolRestrictionContextTextTypedWith_capitalizationType|CCToolKitToolRestrictionContext_personReachableAs|CCToolKitToolRestrictionContext_dateExpressibleAs|CCToolKitToolComparisonPredicateComparisonTemplate_hasValue|CCToolKitToolComparisonPredicateComparisonTemplate_hasNoValue|CCToolKitToolComparisonPredicateComparisonTemplate_isToday|CCToolKitToolComparisonPredicateComparison_hasValue|CCToolKitToolComparisonPredicateComparison_hasNoValue|CCToolKitToolComparisonPredicateComparison_isToday|CCToolKitToolCompoundPredicate_operatorType|CCToolKitToolQuery_sort|CCToolKitToolRuntimeRequirementAvailabilityAnnotation_platform|CCToolKitToolRuntimeRequirementDeviceCapability_capability|CCToolKitToolRuntimeRequirement_deviceState|CCToolKitToolSystemToolProtocolIntentSideEffect_unk|CCToolKitToolSystemToolProtocolIntentSideEffect_noSideEffect|CCToolKitToolSystemToolProtocol_unk|CCToolKitToolSystemToolProtocol_undoable|CCToolKitToolSystemToolProtocol_sessionStarting|CCToolKitToolSystemToolProtocol_urlRepresentable|CCToolKitToolSystemToolProtocol_foregroundContinuable|CCToolKitToolSystemToolProtocol_changeBinarySetting|CCToolKitToolSystemToolProtocol_requiresMdmChecks|CCToolKitToolSystemToolProtocol_cut|CCToolKitToolSystemToolProtocol_copyProtocol|CCToolKitToolSystemToolProtocol_paste|CCToolKitToolSystemToolProtocol_cancel|CCToolKitToolSystemToolProtocol_resize|CCToolKitToolSystemToolProtocol_scroll|CCToolKitToolSystemToolProtocol_undo|CCToolKitToolSystemToolProtocol_zoom|CCToolKitToolSystemToolProtocol_closeEntity|CCToolKitToolSystemToolProtocol_createEntity|CCToolKitToolSystemToolProtocol_cutEntity|CCToolKitToolSystemToolProtocol_deleteEntity|CCToolKitToolSystemToolProtocol_duplicateEntity|CCToolKitToolSystemToolProtocol_favoriteEntity|CCToolKitToolSystemToolProtocol_openEntity|CCToolKitToolSystemToolProtocol_previewEntity|CCToolKitToolSystemToolProtocol_saveEntity|CCToolKitToolSystemToolProtocol_putEntityInContainer|CCToolKitToolSystemToolProtocol_audioStarting|CCToolKitToolSystemToolProtocol_audioRecording|CCToolKitToolSystemToolProtocol_pushToTalkTransmission|CCToolKitToolSystemToolProtocol_startDive|CCToolKitToolSystemToolProtocol_startWorkout|CCToolKitToolSystemToolProtocol_pauseWorkout|CCToolKitToolSystemToolProtocol_resumeWorkout|CCToolKitToolSystemToolProtocol_enterMarkup|CCToolKitToolSystemToolProtocol_exitMarkup|CCToolKitToolSystemToolProtocol_focusConfiguration|CCToolKitToolSystemToolProtocol_widgetConfiguration|CCToolKitToolSystemToolProtocol_search|CCToolKitToolSystemToolProtocol_showSearchResultsInApp|CCToolKitToolSystemToolProtocol_showStringSearchResultsInApp|CCToolKitToolSystemToolProtocol_showInAppSearchResults|CCToolKitToolSystemToolProtocol_moveSpatial|CCToolKitToolSystemToolProtocol_navigateSequentially|CCToolKitToolSystemToolProtocol_sting|CCToolKitToolSystemToolProtocol_toggle|CCToolKitToolSystemToolProtocol_cameraCapture|CCToolKitToolSystemToolProtocol_staccatoLongPress|CCToolKitToolSystemToolProtocol_sendMail|CCToolKitToolSystemToolProtocol_setMailMessageIsRead|CCToolKitToolSystemToolProtocol_rewriteWritingTool|CCToolKitToolSystemToolProtocol_proofreadWritingTool|CCToolKitToolSystemToolProtocol_assistantInvocable|CCToolKitToolSystemToolProtocol_systemFrameworkIntent|CCToolKitToolSystemToolProtocol_progressReporting|CCToolKitToolSystemToolProtocol_controlConfiguration|CCToolKitToolSystemToolProtocol_valueSetting|CCToolKitToolSystemToolProtocol_entityGetter|CCToolKitToolToolDefinitionVersion1ParameterRelationshipRelation_isSome|CCToolKitToolToolDefinitionVersion1ParameterRelationshipRelation_isNone|CCToolKitToolToolDefinitionVersion1Parameter_flags|CCToolKitToolToolDefinitionVersion1ToolIconToolSymbolIcon_style|CCToolKitToolToolDefinitionVersion1_toolType|CCToolKitToolToolDefinitionVersion1_flags|CCToolKitToolToolDefinitionVersion1_authenticationPolicy|CCToolKitToolToolDefinitionVersion1_visibilityFlags|CCToolKitToolAppDefinitionDevice_local|CCToolKitToolAppDefinition_origin|CCToolKitToolContainerDefinitionDevice_local|CCToolKitToolContainerDefinition_containerType|CCToolKitToolContainerDefinition_origin|CCToolKitToolDisplayRepresentationDisplayValue_type|CCToolKitToolCoercionDefinition_direction|CCToolKitToolTriggerDefinitionVersion1_flags)
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolToolInvocation
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypeInstanceConstrained
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolTypedValueResolvable
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolValueSearchPredicate
++ __OBJC_$_INSTANCE_METHODS_CCToolKitToolValueSearchPredicateTemplate
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolToolInvocation
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypeInstanceConstrained
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolTypedValueResolvable
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolValueSearchPredicate
++ __OBJC_$_INSTANCE_VARIABLES_CCToolKitToolValueSearchPredicateTemplate
++ __OBJC_$_PROP_LIST_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_$_PROP_LIST_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_$_PROP_LIST_CCToolKitToolToolInvocation
++ __OBJC_$_PROP_LIST_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_$_PROP_LIST_CCToolKitToolTypeInstanceConstrained
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_$_PROP_LIST_CCToolKitToolTypedValueResolvable
++ __OBJC_$_PROP_LIST_CCToolKitToolValueSearchPredicate
++ __OBJC_$_PROP_LIST_CCToolKitToolValueSearchPredicateTemplate
++ __OBJC_CLASS_RO_$_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_CLASS_RO_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_CLASS_RO_$_CCToolKitToolToolInvocation
++ __OBJC_CLASS_RO_$_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_CLASS_RO_$_CCToolKitToolTypeInstanceConstrained
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_CLASS_RO_$_CCToolKitToolTypedValueResolvable
++ __OBJC_CLASS_RO_$_CCToolKitToolValueSearchPredicate
++ __OBJC_CLASS_RO_$_CCToolKitToolValueSearchPredicateTemplate
++ __OBJC_METACLASS_RO_$_CCToolKitToolRestrictionContextInInclusiveRange
++ __OBJC_METACLASS_RO_$_CCToolKitToolRestrictionContextMeasurementExpressibleAs
++ __OBJC_METACLASS_RO_$_CCToolKitToolToolInvocation
++ __OBJC_METACLASS_RO_$_CCToolKitToolToolInvocationParameterValuesEntry
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypeInstanceConstrained
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueDateInterval
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueDuration
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRule
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday
++ __OBJC_METACLASS_RO_$_CCToolKitToolTypedValueResolvable
++ __OBJC_METACLASS_RO_$_CCToolKitToolValueSearchPredicate
++ __OBJC_METACLASS_RO_$_CCToolKitToolValueSearchPredicateTemplate
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_2
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_3
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_4
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_5
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_6
++ ___69-[CCToolKitToolTypedValuePrimitiveValueRecurrenceRule jsonDictionary]_block_invoke_7
++ ___CCToolKitToolTypedValuePrimitiveValuePlacemarkTypeFromString_block_invoke
++ ___CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarMatchingPolicyFromString_block_invoke
++ ___CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleCalendarRepeatedTimePolicyFromString_block_invoke
++ ___CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleLocaleWeekdayFromString_block_invoke
++ ___CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleFrequencyFromString_block_invoke
++ ___block_literal_global.103
++ ___block_literal_global.114
++ ___block_literal_global.122
++ ___block_literal_global.148
++ ___block_literal_global.156
++ ___block_literal_global.164
++ ___block_literal_global.247
++ ___block_literal_global.261
++ ___block_literal_global.269
++ ___block_literal_global.292
++ ___block_literal_global.30.6998
++ ___block_literal_global.320
++ ___block_literal_global.352
++ ___block_literal_global.363
++ ___block_literal_global.374
++ ___block_literal_global.385
++ ___block_literal_global.393
++ ___block_literal_global.401
++ ___block_literal_global.424
++ ___block_literal_global.429
++ ___block_literal_global.442
++ ___block_literal_global.456
++ ___block_literal_global.482
++ ___block_literal_global.493
++ ___block_literal_global.504
++ ___block_literal_global.512
++ ___block_literal_global.514
++ ___block_literal_global.528
++ ___block_literal_global.536
++ ___block_literal_global.541
++ ___block_literal_global.552
++ ___block_literal_global.6710
++ ___block_literal_global.6978
++ ___block_literal_global.98
++ ___swift_memcpy288_8
++ ___swift_memcpy30_8
++ ___swift_memcpy418_8
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O12DateIntervalVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ3EndVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ5MonthVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ7WeekdayVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyOs25LosslessStringConvertibleAAs06CustommN0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayOs25LosslessStringConvertibleAAs06CustomnO0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyOs25LosslessStringConvertibleAAs06CustomoP0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyOs25LosslessStringConvertibleAAs06CustompQ0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O8DurationVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeOs12CaseIterableAA8AllCasessAJP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeOs25LosslessStringConvertibleAAs06CustomlM0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD12TypeInstanceO11ConstrainedVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeOs12CaseIterableAA8AllCasessAFP_Sl
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeOs25LosslessStringConvertibleAAs06CustomkL0
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO16InInclusiveRangeVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO24MeasurementExpressibleAsVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD20TypedValueResolvableOSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV8TemplateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitdD10InvocationV20ParameterValuesEntryVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary07ToolKitdD10InvocationVSHAASQ
++ _associated conformance 27IntelligencePlatformLibrary0C0O9DatabasesO0aB0O6EntityO31initializeGlobalKnowledgeAssetsO12BiomeStreams0aB4ViewAaL0C8ArtifactO04DataM0
++ _get_enum_tag_for_layout_string 27IntelligencePlatformLibrary07ToolKitD20TypedValueResolvableO
++ _get_enum_tag_for_layout_string 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV8TemplateVSg
++ _objc_msgSend$RecurrenceRuleWeekdayEvery
++ _objc_msgSend$RecurrenceRuleWeekdayNth
++ _objc_msgSend$RecurrenceRuleWeekdayWeekday
++ _objc_msgSend$attoSeconds
++ _objc_msgSend$constrained
++ _objc_msgSend$dateInterval
++ _objc_msgSend$daysOfTheMonth
++ _objc_msgSend$daysOfTheYear
++ _objc_msgSend$end
++ _objc_msgSend$hours
++ _objc_msgSend$inInclusiveRange
++ _objc_msgSend$index
++ _objc_msgSend$initWithCalendar:frequency:interval:end:matchingPolicy:repeatedTimePolicy:months:daysOfTheYear:daysOfTheMonth:weeks:weekdays:hours:minutes:seconds:setPositions:error:
++ _objc_msgSend$initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:valueSearch:metadata:error:
++ _objc_msgSend$initWithIdentifier:toolIdentifier:target:parameterValues:error:
++ _objc_msgSend$initWithIndex:isLeap:error:
++ _objc_msgSend$initWithInput:error:
++ _objc_msgSend$initWithInstance:context:error:
++ _objc_msgSend$initWithLowerBound:upperBound:error:
++ _objc_msgSend$initWithOccurences:date:never:error:
++ _objc_msgSend$initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:earliestEmailDateSent:error:
++ _objc_msgSend$initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:isMe:error:
++ _objc_msgSend$initWithPlacemark:displayRepresentation:type:error:
++ _objc_msgSend$initWithPrimitiveValue_kind:primitiveValue_kindType:error:
++ _objc_msgSend$initWithRecurrenceRuleWeekdayWeekday:RecurrenceRuleWeekdayEvery:RecurrenceRuleWeekdayNth:error:
++ _objc_msgSend$initWithSeconds:attoSeconds:error:
++ _objc_msgSend$initWithStart:end:duration:error:
++ _objc_msgSend$initWithType:values:typeInstance:error:
++ _objc_msgSend$initWithUnit:unitAdjustForLocale:supportsNegativeNumbers:error:
++ _objc_msgSend$input
++ _objc_msgSend$instance
++ _objc_msgSend$interval
++ _objc_msgSend$isLeap
++ _objc_msgSend$isMe
++ _objc_msgSend$lowerBound
++ _objc_msgSend$matchingPolicy
++ _objc_msgSend$measurementExpressibleAs
++ _objc_msgSend$minutes
++ _objc_msgSend$months
++ _objc_msgSend$never
++ _objc_msgSend$occurences
++ _objc_msgSend$parameterValues
++ _objc_msgSend$recurrenceRule
++ _objc_msgSend$reference
++ _objc_msgSend$repeatedTimePolicy
++ _objc_msgSend$setPositions
++ _objc_msgSend$start
++ _objc_msgSend$supportsNegativeNumbers
++ _objc_msgSend$target
++ _objc_msgSend$unitAdjustForLocale
++ _objc_msgSend$upperBound
++ _objc_msgSend$valueSearch
++ _objc_msgSend$weekdays
++ _objc_msgSend$weeks
++ _objc_retain_x9
++ _objectdestroy.109Tm
++ _objectdestroy.121Tm
++ _objectdestroy.137Tm
++ _objectdestroy.147Tm
++ _objectdestroy.162Tm
++ _objectdestroy.202Tm
++ _objectdestroy.214Tm
++ _objectdestroy.365Tm
++ _objectdestroy.398Tm
++ _objectdestroy.424Tm
++ _objectdestroy.51Tm
++ _objectdestroy.76Tm
++ _objectdestroy.94Tm
++ _symbolic SDySS_____G 27IntelligencePlatformLibrary07ToolKitD20TypedValueResolvableO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ5MonthV
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ7WeekdayV
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeO
++ _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeO
++ _symbolic Say_____G s5Int64V
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O12DateIntervalV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ3EndV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ5MonthV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ7WeekdayV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O8DurationV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD12TypeInstanceO11ConstrainedV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO16InInclusiveRangeV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO24MeasurementExpressibleAsV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD20TypedValueResolvableO
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV8TemplateV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitdD10InvocationV
++ _symbolic _____ 27IntelligencePlatformLibrary07ToolKitdD10InvocationV20ParameterValuesEntryV
++ _symbolic _____ 27IntelligencePlatformLibrary0C0O9DatabasesO0aB0O6EntityO31initializeGlobalKnowledgeAssetsO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ3EndV
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ9FrequencyO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV13LocaleWeekdayO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV22CalendarMatchingPolicyO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV26CalendarRepeatedTimePolicyO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O9PlacemarkV4TypeO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV12OperatorTypeO
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV8TemplateV
++ _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD9TimestampV
++ _symbolic _____ySS_____G s17_NativeDictionaryV 27IntelligencePlatformLibrary07ToolKitF20TypedValueResolvableO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG10TypedValueO09PrimitiveJ0O14RecurrenceRuleV0lM9FrequencyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG10TypedValueO09PrimitiveJ0O14RecurrenceRuleV13LocaleWeekdayO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG10TypedValueO09PrimitiveJ0O14RecurrenceRuleV22CalendarMatchingPolicyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG10TypedValueO09PrimitiveJ0O14RecurrenceRuleV26CalendarRepeatedTimePolicyO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG10TypedValueO09PrimitiveJ0O9PlacemarkV4TypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG17CompoundPredicateV12OperatorTypeO
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitgG10InvocationV20ParameterValuesEntryV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O12DateIntervalV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ3EndV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ5MonthV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O14RecurrenceRuleV0iJ7WeekdayV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD10TypedValueO09PrimitiveG0O8DurationV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD12TypeInstanceO10RestrictedV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD12TypeInstanceO11ConstrainedV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO16InInclusiveRangeV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD18RestrictionContextO24MeasurementExpressibleAsV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD20TypedValueResolvableO
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitD20ValueSearchPredicateV8TemplateV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitdD10InvocationV
++ _type_layout_string 27IntelligencePlatformLibrary07ToolKitdD10InvocationV20ParameterValuesEntryV
+- -[CCToolKitToolTypeDefinitionVersion1QueryPredicateTemplates initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:metadata:error:]
+- -[CCToolKitToolTypedValueCollectionValue initWithType:values:error:]
+- -[CCToolKitToolTypedValuePrimitiveValue initWithKind:kindType:error:]
+- -[CCToolKitToolTypedValuePrimitiveValue kindType]
+- -[CCToolKitToolTypedValuePrimitiveValuePerson initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:error:]
+- -[CCToolKitToolTypedValuePrimitiveValuePlacemark initWithPlacemark:displayRepresentation:error:]
+- -[CCWalletExtractedOrderContent initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:error:]
+- _OBJC_IVAR_$_CCToolKitToolTypedValuePrimitiveValue._kindType
+- _OUTLINED_FUNCTION_552
+- _OUTLINED_FUNCTION_553
+- _OUTLINED_FUNCTION_554
+- _OUTLINED_FUNCTION_555
+- _OUTLINED_FUNCTION_556
+- _OUTLINED_FUNCTION_557
+- _OUTLINED_FUNCTION_558
+- _OUTLINED_FUNCTION_559
+- _OUTLINED_FUNCTION_560
+- _OUTLINED_FUNCTION_561
+- _OUTLINED_FUNCTION_562
+- _OUTLINED_FUNCTION_563
+- _OUTLINED_FUNCTION_564
+- _OUTLINED_FUNCTION_565
+- _OUTLINED_FUNCTION_566
+- _OUTLINED_FUNCTION_567
+- _OUTLINED_FUNCTION_568
+- _OUTLINED_FUNCTION_569
+- _OUTLINED_FUNCTION_570
+- _OUTLINED_FUNCTION_571
+- _OUTLINED_FUNCTION_572
+- _OUTLINED_FUNCTION_573
+- _OUTLINED_FUNCTION_574
+- _OUTLINED_FUNCTION_575
+- _OUTLINED_FUNCTION_576
+- _OUTLINED_FUNCTION_577
+- _OUTLINED_FUNCTION_578
+- _OUTLINED_FUNCTION_579
+- _OUTLINED_FUNCTION_580
+- _OUTLINED_FUNCTION_581
+- _OUTLINED_FUNCTION_582
+- _OUTLINED_FUNCTION_583
+- _OUTLINED_FUNCTION_584
+- _OUTLINED_FUNCTION_585
+- _OUTLINED_FUNCTION_586
+- _OUTLINED_FUNCTION_587
+- _OUTLINED_FUNCTION_588
+- _OUTLINED_FUNCTION_589
+- _OUTLINED_FUNCTION_590
+- _OUTLINED_FUNCTION_591
+- __OBJC_$_INSTANCE_METHODS_CCItemField(CCAssistantSchema_type|CCHomeService_deviceType|CCHomeAccessory_deviceType|CCMediaLinkedIdentifier_type|CCPhotosPetRelationshipContent_type|CCRadioStationContent_signalType|CCSignificantLocationSubPremise_type|CCSiriCompanionContextAudioContent_mediaCategories|CCSiriCompanionContextAudioContent_subscriptionStatus|CCWalletPaymentsCommerceTrackedOrderShippingFulfillment_status|CCWalletPaymentsCommerceOrderEmailShippingInformation_status|CCWalletPaymentsCommerceOrderEmail_emailType|CCWalletExtractedOrderContentExtractedEmailShippingDetails_status|CCWalletExtractedOrderContentExtractedEmail_emailType|CCWalletExtractedOrderContentShippingFulfillment_status|CCWalletExtractedOrderContent_orderStatus|CCToolKitToolTypeIdentifierPrimitive_none_p|CCToolKitToolTypeIdentifierPrimitive_boolType|CCToolKitToolTypeIdentifierPrimitive_intType|CCToolKitToolTypeIdentifierPrimitive_number|CCToolKitToolTypeIdentifierPrimitive_decimal|CCToolKitToolTypeIdentifierPrimitive_string|CCToolKitToolTypeIdentifierPrimitive_date|CCToolKitToolTypeIdentifierPrimitive_dateComponents|CCToolKitToolTypeIdentifierPrimitive_url|CCToolKitToolTypeIdentifierPrimitive_dictionary|CCToolKitToolTypeIdentifierPrimitive_attributedString|CCToolKitToolTypeIdentifierPrimitive_measurement|CCToolKitToolTypeIdentifierPrimitive_currencyAmount|CCToolKitToolTypeIdentifierPrimitive_paymentMethod|CCToolKitToolTypeIdentifierPrimitive_placemark|CCToolKitToolTypeIdentifierPrimitive_person|CCToolKitToolTypeIdentifierPrimitive_file|CCToolKitToolTypeIdentifierPrimitive_app|CCToolKitToolTypeIdentifierPrimitive_searchableItem|CCToolKitToolTypeIdentifierPrimitive_intentsFile|CCToolKitToolTypeIdentifierPrimitive_shortcut|CCToolKitToolTypeIdentifierBuiltin_app|CCToolKitToolTypeIdentifierBuiltin_boundNumber|CCToolKitToolTypeIdentifierBuiltin_calendar|CCToolKitToolTypeIdentifierBuiltin_color|CCToolKitToolTypeIdentifierBuiltin_currency|CCToolKitToolTypeIdentifierBuiltin_file|CCToolKitToolTypeIdentifierBuiltin_homeArea|CCToolKitToolTypeIdentifierBuiltin_mediaRoute|CCToolKitToolTypeIdentifierBuiltin_paymentMethod|CCToolKitToolTypeIdentifierBuiltin_podcast|CCToolKitToolTypeIdentifierBuiltin_person|CCToolKitToolTypeIdentifierBuiltin_placemark|CCToolKitToolTypeIdentifierBuiltin_rideshareOption|CCToolKitToolTypeIdentifierBuiltin_vpn|CCToolKitToolTypeIdentifierBuiltin_timeZone|CCToolKitToolTypeIdentifierBuiltin_measurement|CCToolKitToolSystemTypeProtocol_unk|CCToolKitToolSystemTypeProtocol_mailAccount|CCToolKitToolSystemTypeProtocol_mailAddressee|CCToolKitToolSystemTypeProtocol_mailMessage|CCToolKitToolSystemTypeProtocol_mailbox|CCToolKitToolSystemTypeProtocol_intentMessage|CCToolKitToolSystemTypeProtocol_messageGroup|CCToolKitToolSystemTypeProtocol_messageParticipants|CCToolKitToolSystemTypeProtocol_uniqueEntity|CCToolKitToolSystemTypeProtocol_urlRepresentable|CCToolKitToolSystemTypeProtocol_visualSearch|CCToolKitToolSystemTypeProtocol_visualSearchOcr|CCToolKitToolSystemTypeProtocol_updatableEntity|CCToolKitToolSystemTypeProtocol_transientEntity|CCToolKitToolSystemTypeProtocol_indexedEntity|CCToolKitToolTypeDefinitionVersion1Entity_runtimeFlags|CCToolKitToolTypeDefinitionVersion1Enumeration_kind|CCToolKitToolTypedValuePrimitiveValueDecimal_sign|CCToolKitToolTypedValuePrimitiveValueMeasurement_unitType|CCToolKitToolTypedValuePrimitiveValuePaymentMethod_type|CCToolKitToolTypedValuePrimitiveValuePersonHandle_type|CCToolKitToolTypedValuePrimitiveValueDateComponentsCalendar_identifier|CCToolKitToolTypedValuePrimitiveValue_noneVariant|CCToolKitToolRestrictionContextTextTypedWith_keyboardType|CCToolKitToolRestrictionContextTextTypedWith_autocorrectionType|CCToolKitToolRestrictionContextTextTypedWith_capitalizationType|CCToolKitToolRestrictionContext_personReachableAs|CCToolKitToolRestrictionContext_dateExpressibleAs|CCToolKitToolComparisonPredicateComparisonTemplate_hasValue|CCToolKitToolComparisonPredicateComparisonTemplate_hasNoValue|CCToolKitToolComparisonPredicateComparisonTemplate_isToday|CCToolKitToolComparisonPredicateComparison_hasValue|CCToolKitToolComparisonPredicateComparison_hasNoValue|CCToolKitToolComparisonPredicateComparison_isToday|CCToolKitToolCompoundPredicate_operatorType|CCToolKitToolQuery_sort|CCToolKitToolRuntimeRequirementAvailabilityAnnotation_platform|CCToolKitToolRuntimeRequirementDeviceCapability_capability|CCToolKitToolRuntimeRequirement_deviceState|CCToolKitToolSystemToolProtocolIntentSideEffect_unk|CCToolKitToolSystemToolProtocolIntentSideEffect_noSideEffect|CCToolKitToolSystemToolProtocol_unk|CCToolKitToolSystemToolProtocol_undoable|CCToolKitToolSystemToolProtocol_sessionStarting|CCToolKitToolSystemToolProtocol_urlRepresentable|CCToolKitToolSystemToolProtocol_foregroundContinuable|CCToolKitToolSystemToolProtocol_changeBinarySetting|CCToolKitToolSystemToolProtocol_requiresMdmChecks|CCToolKitToolSystemToolProtocol_cut|CCToolKitToolSystemToolProtocol_copyProtocol|CCToolKitToolSystemToolProtocol_paste|CCToolKitToolSystemToolProtocol_cancel|CCToolKitToolSystemToolProtocol_resize|CCToolKitToolSystemToolProtocol_scroll|CCToolKitToolSystemToolProtocol_undo|CCToolKitToolSystemToolProtocol_zoom|CCToolKitToolSystemToolProtocol_closeEntity|CCToolKitToolSystemToolProtocol_createEntity|CCToolKitToolSystemToolProtocol_cutEntity|CCToolKitToolSystemToolProtocol_deleteEntity|CCToolKitToolSystemToolProtocol_duplicateEntity|CCToolKitToolSystemToolProtocol_favoriteEntity|CCToolKitToolSystemToolProtocol_openEntity|CCToolKitToolSystemToolProtocol_previewEntity|CCToolKitToolSystemToolProtocol_saveEntity|CCToolKitToolSystemToolProtocol_putEntityInContainer|CCToolKitToolSystemToolProtocol_audioStarting|CCToolKitToolSystemToolProtocol_audioRecording|CCToolKitToolSystemToolProtocol_pushToTalkTransmission|CCToolKitToolSystemToolProtocol_startDive|CCToolKitToolSystemToolProtocol_startWorkout|CCToolKitToolSystemToolProtocol_pauseWorkout|CCToolKitToolSystemToolProtocol_resumeWorkout|CCToolKitToolSystemToolProtocol_enterMarkup|CCToolKitToolSystemToolProtocol_exitMarkup|CCToolKitToolSystemToolProtocol_focusConfiguration|CCToolKitToolSystemToolProtocol_widgetConfiguration|CCToolKitToolSystemToolProtocol_search|CCToolKitToolSystemToolProtocol_showSearchResultsInApp|CCToolKitToolSystemToolProtocol_showStringSearchResultsInApp|CCToolKitToolSystemToolProtocol_showInAppSearchResults|CCToolKitToolSystemToolProtocol_moveSpatial|CCToolKitToolSystemToolProtocol_navigateSequentially|CCToolKitToolSystemToolProtocol_sting|CCToolKitToolSystemToolProtocol_toggle|CCToolKitToolSystemToolProtocol_cameraCapture|CCToolKitToolSystemToolProtocol_staccatoLongPress|CCToolKitToolSystemToolProtocol_sendMail|CCToolKitToolSystemToolProtocol_setMailMessageIsRead|CCToolKitToolSystemToolProtocol_rewriteWritingTool|CCToolKitToolSystemToolProtocol_proofreadWritingTool|CCToolKitToolSystemToolProtocol_assistantInvocable|CCToolKitToolSystemToolProtocol_systemFrameworkIntent|CCToolKitToolSystemToolProtocol_progressReporting|CCToolKitToolSystemToolProtocol_controlConfiguration|CCToolKitToolSystemToolProtocol_valueSetting|CCToolKitToolSystemToolProtocol_entityGetter|CCToolKitToolToolDefinitionVersion1ParameterRelationshipRelation_isSome|CCToolKitToolToolDefinitionVersion1ParameterRelationshipRelation_isNone|CCToolKitToolToolDefinitionVersion1Parameter_flags|CCToolKitToolToolDefinitionVersion1ToolIconToolSymbolIcon_style|CCToolKitToolToolDefinitionVersion1_toolType|CCToolKitToolToolDefinitionVersion1_flags|CCToolKitToolToolDefinitionVersion1_authenticationPolicy|CCToolKitToolToolDefinitionVersion1_visibilityFlags|CCToolKitToolAppDefinitionDevice_local|CCToolKitToolAppDefinition_origin|CCToolKitToolContainerDefinitionDevice_local|CCToolKitToolContainerDefinition_containerType|CCToolKitToolContainerDefinition_origin|CCToolKitToolDisplayRepresentationDisplayValue_type|CCToolKitToolCoercionDefinition_direction|CCToolKitToolTriggerDefinitionVersion1_flags)
+- ___block_literal_global.108
+- ___block_literal_global.116
+- ___block_literal_global.142
+- ___block_literal_global.150
+- ___block_literal_global.200
+- ___block_literal_global.208
+- ___block_literal_global.24
+- ___block_literal_global.240
+- ___block_literal_global.251
+- ___block_literal_global.262
+- ___block_literal_global.273
+- ___block_literal_global.281
+- ___block_literal_global.289
+- ___block_literal_global.317
+- ___block_literal_global.325
+- ___block_literal_global.330
+- ___block_literal_global.341
+- ___block_literal_global.367
+- ___block_literal_global.378
+- ___block_literal_global.389
+- ___block_literal_global.397
+- ___block_literal_global.399
+- ___block_literal_global.413
+- ___block_literal_global.421
+- ___block_literal_global.426
+- ___block_literal_global.6711
+- ___block_literal_global.7047
+- ___block_literal_global.92
+- ___block_literal_global.97
+- ___swift_memcpy280_8
+- ___swift_memcpy417_8
+- _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorOSHAASQ
+- _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorOs12CaseIterableAA8AllCasessAFP_Sl
+- _associated conformance 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorOs25LosslessStringConvertibleAAs06CustomjK0
+- _get_enum_tag_for_layout_string 27IntelligencePlatformLibrary17ToolKitTranscriptV10ResolvableO
+- _objc_msgSend$initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:metadata:error:
+- _objc_msgSend$initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:error:
+- _objc_msgSend$initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:error:
+- _objc_msgSend$initWithPlacemark:displayRepresentation:error:
+- _objc_msgSend$initWithType:values:error:
+- _objectdestroy.118Tm
+- _objectdestroy.124Tm
+- _objectdestroy.125Tm
+- _objectdestroy.135Tm
+- _objectdestroy.152Tm
+- _objectdestroy.199Tm
+- _objectdestroy.343Tm
+- _objectdestroy.376Tm
+- _objectdestroy.402Tm
+- _objectdestroy.48Tm
+- _objectdestroy.73Tm
+- _objectdestroy.83Tm
+- _objectdestroy.98Tm
+- _symbolic Say_____G 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorO
+- _symbolic _____ 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorO
+- _symbolic _____Sg 27IntelligencePlatformLibrary07ToolKitD17CompoundPredicateV8OperatorO
+- _symbolic _____y_____G s23_ContiguousArrayStorageC 27IntelligencePlatformLibrary07ToolKitG17CompoundPredicateV8OperatorO
+- _type_layout_string 27IntelligencePlatformLibrary07ToolKitD12TypeInstanceO8DeferredV
+- _type_layout_string 27IntelligencePlatformLibrary17ToolKitTranscriptV10ResolvableO
+- _type_layout_string 27IntelligencePlatformLibrary17ToolKitTranscriptV20ParameterValuesEntryV
+CStrings:
++ "\n"
++ "%"
++ "161B91B0-CF4F-4E52-9689-0B35819A6D18"
++ "1f88f88ecfaa58461a010b15fa3b73211b326c5a4bd2915aa0e4551e6fb18727"
++ "236732d7-00ad-47a8-ac19-ada766a7872f"
++ "5152cd0f9ddc0c512221d03c11799643a5c33bb65c12aae976004b570158acb7"
++ "53e1d3b51cdfce3dcb5e37985d59aeff68d38c45a2f537aaaf0f785d03f01815"
++ "69988f04-fe85-4d4d-9451-0440d48eca73"
++ "@\"CCToolKitToolRestrictionContextInInclusiveRange\""
++ "@\"CCToolKitToolRestrictionContextMeasurementExpressibleAs\""
++ "@\"CCToolKitToolTypeInstanceConstrained\""
++ "@\"CCToolKitToolTypedValueID\""
++ "@\"CCToolKitToolTypedValuePrimitiveValueDateInterval\""
++ "@\"CCToolKitToolTypedValuePrimitiveValueDuration\""
++ "@\"CCToolKitToolTypedValuePrimitiveValueRecurrenceRule\""
++ "@\"CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd\""
++ "@\"CCToolKitToolTypedValueResolvable\""
++ "@\"CCToolKitToolValueSearchPredicate\""
++ "@\"CCToolKitToolValueSearchPredicateTemplate\""
++ "@124@0:8@16@24@32@40@48@56@64@72@80@88@96I104@108^@116"
++ "@132@0:8@16I24@28@36I44I48@52@60@68@76@84@92@100@108@116^@124"
++ "Bangla"
++ "CCToolKitToolRestrictionContextInInclusiveRange"
++ "CCToolKitToolRestrictionContextMeasurementExpressibleAs"
++ "CCToolKitToolToolInvocation"
++ "CCToolKitToolToolInvocationParameterValuesEntry"
++ "CCToolKitToolTypeIdentifierPrimitive_dateInterval"
++ "CCToolKitToolTypeIdentifierPrimitive_duration"
++ "CCToolKitToolTypeIdentifierPrimitive_recurrenceRule"
++ "CCToolKitToolTypeInstanceConstrained"
++ "CCToolKitToolTypedValuePrimitiveValueDateInterval"
++ "CCToolKitToolTypedValuePrimitiveValueDuration"
++ "CCToolKitToolTypedValuePrimitiveValuePlacemark_type"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRule"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleMonth"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekday_RecurrenceRuleWeekdayWeekday"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_frequency"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_matchingPolicy"
++ "CCToolKitToolTypedValuePrimitiveValueRecurrenceRule_repeatedTimePolicy"
++ "CCToolKitToolTypedValueResolvable"
++ "CCToolKitToolValueSearchPredicate"
++ "CCToolKitToolValueSearchPredicateTemplate"
++ "CalendarIdentifierBangla"
++ "CalendarIdentifierDangi"
++ "CalendarIdentifierGujarati"
++ "CalendarIdentifierKannada"
++ "CalendarIdentifierMalayalam"
++ "CalendarIdentifierMarathi"
++ "CalendarIdentifierOdia"
++ "CalendarIdentifierTamil"
++ "CalendarIdentifierTelugu"
++ "CalendarIdentifierVietnamese"
++ "CalendarIdentifierVikram"
++ "CalendarMatchingPolicyNextTime"
++ "CalendarMatchingPolicyNextTimePreservingSmallerComponents"
++ "CalendarMatchingPolicyPreviousTimePreservingSmallerComponents"
++ "CalendarMatchingPolicyStrict"
++ "CalendarMatchingPolicyUnknown"
++ "CalendarRepeatedTimePolicyFirst"
++ "CalendarRepeatedTimePolicyLast"
++ "CalendarRepeatedTimePolicyUnknown"
++ "CurrentLocation"
++ "Daily"
++ "Dangi"
++ "First"
++ "FlowTool"
++ "Friday"
++ "Gujarati"
++ "Hourly"
++ "Kannada"
++ "Last"
++ "LocaleWeekdayFriday"
++ "LocaleWeekdayMonday"
++ "LocaleWeekdaySaturday"
++ "LocaleWeekdaySunday"
++ "LocaleWeekdayThursday"
++ "LocaleWeekdayTuesday"
++ "LocaleWeekdayUnknown"
++ "LocaleWeekdayWednesday"
++ "Malayalam"
++ "Marathi"
++ "Minutely"
++ "Monday"
++ "Monthly"
++ "NextTime"
++ "NextTimePreservingSmallerComponents"
++ "Odia"
++ "OperatorTypeAnd"
++ "OperatorTypeOr"
++ "OperatorTypeUnknown"
++ "Placemark"
++ "PreviousTimePreservingSmallerComponents"
++ "RecurrenceRuleFrequencyDaily"
++ "RecurrenceRuleFrequencyHourly"
++ "RecurrenceRuleFrequencyMinutely"
++ "RecurrenceRuleFrequencyMonthly"
++ "RecurrenceRuleFrequencyUnknown"
++ "RecurrenceRuleFrequencyWeekly"
++ "RecurrenceRuleFrequencyYearly"
++ "RecurrenceRuleWeekdayEvery"
++ "RecurrenceRuleWeekdayNth"
++ "RecurrenceRuleWeekdayWeekday"
++ "Saturday"
++ "Strict"
++ "Sunday"
++ "T@\"CCRepeatedInt64\",R,N,V_daysOfTheMonth"
++ "T@\"CCRepeatedInt64\",R,N,V_daysOfTheYear"
++ "T@\"CCRepeatedInt64\",R,N,V_hours"
++ "T@\"CCRepeatedInt64\",R,N,V_minutes"
++ "T@\"CCRepeatedInt64\",R,N,V_seconds"
++ "T@\"CCRepeatedInt64\",R,N,V_setPositions"
++ "T@\"CCRepeatedInt64\",R,N,V_weeks"
++ "T@\"CCToolKitToolContainerDefinitionDevice\",R,N,V_target"
++ "T@\"CCToolKitToolRestrictionContextInInclusiveRange\",R,N,V_inInclusiveRange"
++ "T@\"CCToolKitToolRestrictionContextMeasurementExpressibleAs\",R,N,V_measurementExpressibleAs"
++ "T@\"CCToolKitToolTimestamp\",R,N,V_end"
++ "T@\"CCToolKitToolTimestamp\",R,N,V_start"
++ "T@\"CCToolKitToolTypeInstance\",R,N,V_input"
++ "T@\"CCToolKitToolTypeInstance\",R,N,V_instance"
++ "T@\"CCToolKitToolTypeInstanceConstrained\",R,N,V_constrained"
++ "T@\"CCToolKitToolTypedValueID\",R,N,V_reference"
++ "T@\"CCToolKitToolTypedValuePrimitiveValueDateInterval\",R,N,V_dateInterval"
++ "T@\"CCToolKitToolTypedValuePrimitiveValueDuration\",R,N,V_duration"
++ "T@\"CCToolKitToolTypedValuePrimitiveValueRecurrenceRule\",R,N,V_recurrenceRule"
++ "T@\"CCToolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleEnd\",R,N,V_end"
++ "T@\"CCToolKitToolTypedValueResolvable\",R,N,V_value"
++ "T@\"CCToolKitToolValueSearchPredicate\",R,N,V_valueSearch"
++ "T@\"CCToolKitToolValueSearchPredicateTemplate\",R,N,V_valueSearch"
++ "T@\"NSArray\",R,N,V_months"
++ "T@\"NSArray\",R,N,V_parameterValues"
++ "T@\"NSArray\",R,N,V_weekdays"
++ "TB,N,V_hasAttoSeconds"
++ "TB,N,V_hasIndex"
++ "TB,N,V_hasInterval"
++ "TB,N,V_hasIsLeap"
++ "TB,N,V_hasIsMe"
++ "TB,N,V_hasLowerBound"
++ "TB,N,V_hasNever"
++ "TB,N,V_hasOccurences"
++ "TB,N,V_hasRecurrenceRuleWeekdayEvery"
++ "TB,N,V_hasRecurrenceRuleWeekdayNth"
++ "TB,N,V_hasSupportsNegativeNumbers"
++ "TB,N,V_hasUnitAdjustForLocale"
++ "TB,N,V_hasUpperBound"
++ "TB,R,N,V_RecurrenceRuleWeekdayEvery"
++ "TB,R,N,V_isLeap"
++ "TB,R,N,V_isMe"
++ "TB,R,N,V_never"
++ "TB,R,N,V_supportsNegativeNumbers"
++ "TB,R,N,V_unitAdjustForLocale"
++ "TI,R,N,V_RecurrenceRuleWeekdayWeekday"
++ "TI,R,N,V_dateInterval"
++ "TI,R,N,V_duration"
++ "TI,R,N,V_frequency"
++ "TI,R,N,V_matchingPolicy"
++ "TI,R,N,V_primitiveValue_kindType"
++ "TI,R,N,V_recurrenceRule"
++ "TI,R,N,V_repeatedTimePolicy"
++ "Tamil"
++ "Td,R,N,V_lowerBound"
++ "Td,R,N,V_upperBound"
++ "Telugu"
++ "Thursday"
++ "ToolKitToolRestrictionContext.InInclusiveRange"
++ "ToolKitToolRestrictionContext.MeasurementExpressibleAs"
++ "ToolKitToolRuntimePlatformaudioAccessory"
++ "ToolKitToolRuntimePlatformother"
++ "ToolKitToolToolInvocation"
++ "ToolKitToolToolInvocation.ParameterValuesEntry"
++ "ToolKitToolTypeInstance.Constrained"
++ "ToolKitToolTypedValue.PrimitiveValue.DateInterval"
++ "ToolKitToolTypedValue.PrimitiveValue.Duration"
++ "ToolKitToolTypedValue.PrimitiveValue.RecurrenceRule"
++ "ToolKitToolTypedValue.PrimitiveValue.RecurrenceRule.RecurrenceRuleEnd"
++ "ToolKitToolTypedValue.PrimitiveValue.RecurrenceRule.RecurrenceRuleMonth"
++ "ToolKitToolTypedValue.PrimitiveValue.RecurrenceRule.RecurrenceRuleWeekday"
++ "ToolKitToolTypedValueResolvable"
++ "ToolKitToolValueSearchPredicate"
++ "ToolKitToolValueSearchPredicate.Template"
++ "ToolTypeFlowTool"
++ "Tq,R,N,V_RecurrenceRuleWeekdayNth"
++ "Tq,R,N,V_attoSeconds"
++ "Tq,R,N,V_index"
++ "Tq,R,N,V_interval"
++ "Tq,R,N,V_occurences"
++ "Tuesday"
++ "TypeCurrentLocation"
++ "TypePlacemark"
++ "Vietnamese"
++ "Vikram"
++ "WalletExtractedOrderContent_earliestEmailDateSent"
++ "Wednesday"
++ "Weekly"
++ "Yearly"
++ "Z"
++ "_RecurrenceRuleWeekdayEvery"
++ "_RecurrenceRuleWeekdayNth"
++ "_RecurrenceRuleWeekdayWeekday"
++ "_attoSeconds"
++ "_constrained"
++ "_dateInterval"
++ "_daysOfTheMonth"
++ "_daysOfTheYear"
++ "_end"
++ "_hasAttoSeconds"
++ "_hasIndex"
++ "_hasInterval"
++ "_hasIsLeap"
++ "_hasIsMe"
++ "_hasLowerBound"
++ "_hasNever"
++ "_hasOccurences"
++ "_hasRaw_earliestEmailDateSent"
++ "_hasRecurrenceRuleWeekdayEvery"
++ "_hasRecurrenceRuleWeekdayNth"
++ "_hasSupportsNegativeNumbers"
++ "_hasUnitAdjustForLocale"
++ "_hasUpperBound"
++ "_hours"
++ "_inInclusiveRange"
++ "_index"
++ "_input"
++ "_instance"
++ "_interval"
++ "_isLeap"
++ "_isMe"
++ "_lowerBound"
++ "_matchingPolicy"
++ "_measurementExpressibleAs"
++ "_minutes"
++ "_months"
++ "_never"
++ "_occurences"
++ "_parameterValues"
++ "_primitiveValue_kindType"
++ "_raw_earliestEmailDateSent"
++ "_recurrenceRule"
++ "_reference"
++ "_repeatedTimePolicy"
++ "_setPositions"
++ "_start"
++ "_supportsNegativeNumbers"
++ "_target"
++ "_unitAdjustForLocale"
++ "_upperBound"
++ "_valueSearch"
++ "_weekdays"
++ "_weeks"
++ "attoSeconds"
++ "audioAccessory"
++ "ce67ef59-18f1-4ab9-b591-8b0ed249aab7"
++ "constrained"
++ "dateInterval"
++ "daysOfTheMonth"
++ "daysOfTheYear"
++ "earliestEmailDateSent"
++ "end"
++ "hasAttoSeconds"
++ "hasIndex"
++ "hasInterval"
++ "hasIsLeap"
++ "hasIsMe"
++ "hasLowerBound"
++ "hasNever"
++ "hasOccurences"
++ "hasRecurrenceRuleWeekdayEvery"
++ "hasRecurrenceRuleWeekdayNth"
++ "hasSupportsNegativeNumbers"
++ "hasUnitAdjustForLocale"
++ "hasUpperBound"
++ "hours"
++ "inInclusiveRange"
++ "index"
++ "initWithCalendar:frequency:interval:end:matchingPolicy:repeatedTimePolicy:months:daysOfTheYear:daysOfTheMonth:weeks:weekdays:hours:minutes:seconds:setPositions:error:"
++ "initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:valueSearch:metadata:error:"
++ "initWithIdentifier:toolIdentifier:target:parameterValues:error:"
++ "initWithIndex:isLeap:error:"
++ "initWithInput:error:"
++ "initWithInstance:context:error:"
++ "initWithLowerBound:upperBound:error:"
++ "initWithOccurences:date:never:error:"
++ "initWithOrderTypeIdentifier:orderIdentifier:orderNumber:orderEmails:orderDate:merchant:shippingFulfillments:customer:payment:orderUpdateDate:trackedOrderIdentifier:orderStatus:earliestEmailDateSent:error:"
++ "initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:isMe:error:"
++ "initWithPlacemark:displayRepresentation:type:error:"
++ "initWithPrimitiveValue_kind:primitiveValue_kindType:error:"
++ "initWithRecurrenceRuleWeekdayWeekday:RecurrenceRuleWeekdayEvery:RecurrenceRuleWeekdayNth:error:"
++ "initWithSeconds:attoSeconds:error:"
++ "initWithStart:end:duration:error:"
++ "initWithType:values:typeInstance:error:"
++ "initWithUnit:unitAdjustForLocale:supportsNegativeNumbers:error:"
++ "initializeGlobalKnowledgeAssets"
++ "input"
++ "instance"
++ "interval"
++ "isLeap"
++ "isMe"
++ "lowerBound"
++ "matchingPolicy"
++ "measurementExpressibleAs"
++ "minutes"
++ "months"
++ "never"
++ "occurences"
++ "other"
++ "primitiveValue_kindType"
++ "recurrenceRule"
++ "repeatedTimePolicy"
++ "setHasAttoSeconds:"
++ "setHasIndex:"
++ "setHasInterval:"
++ "setHasIsLeap:"
++ "setHasIsMe:"
++ "setHasLowerBound:"
++ "setHasNever:"
++ "setHasOccurences:"
++ "setHasRecurrenceRuleWeekdayEvery:"
++ "setHasRecurrenceRuleWeekdayNth:"
++ "setHasSupportsNegativeNumbers:"
++ "setHasUnitAdjustForLocale:"
++ "setHasUpperBound:"
++ "setPositions"
++ "start"
++ "supportsNegativeNumbers"
++ "toolKitToolTypeIdentifierPrimitiveDateInterval"
++ "toolKitToolTypeIdentifierPrimitiveDuration"
++ "toolKitToolTypeIdentifierPrimitiveRecurrenceRule"
++ "toolKitToolTypedValuePrimitiveValuePlacemarkType"
++ "toolKitToolTypedValuePrimitiveValueRecurrenceRuleFrequency"
++ "toolKitToolTypedValuePrimitiveValueRecurrenceRuleMatchingPolicy"
++ "toolKitToolTypedValuePrimitiveValueRecurrenceRuleRecurrenceRuleWeekdayRecurrenceRuleWeekdayWeekday"
++ "toolKitToolTypedValuePrimitiveValueRecurrenceRuleRepeatedTimePolicy"
++ "unitAdjustForLocale"
++ "upperBound"
++ "valueSearch"
++ "weekdays"
++ "weeks"
++ "{\"configHash\": \"1f88f88ecfaa58461a010b15fa3b73211b326c5a4bd2915aa0e4551e6fb18727\", \"dependencies\": [\"initializeGlobalKnowledgeAssets\"], \"dependents\": [], \"deployment\": [\"production\"], \"featureFlag\": \"OrionSQL\", \"legacyName\": \"holidayEvent\", \"name\": \"holidayEvent\", \"platforms\": {\"iOS\": \"\", \"macOS\": \"\", \"visionOS\": \"\"}, \"sql\": {\"update\": \"WITH static_triples AS (\\n  SELECT\\n    *\\n  FROM\\n    \\\"IntelligencePlatform.GlobalKnowledgeGraph.StaticGraph\\\"\\n),\\ntriples AS (\\n  SELECT\\n    static_graph.*\\n  FROM\\n    static_graph\\n    INNER JOIN static_assets ON static_graph.assetId = static_assets.id\\n  WHERE\\n    static_assets.name = 'HolidayEventSubgraph'\\n),\\nisAs AS (\\n  SELECT\\n    subject,\\n    object AS isA\\n  FROM\\n    triples\\n  WHERE\\n    triples.predicate = 'PS1'\\n),\\nnames AS (\\n  SELECT\\n    subject,\\n    object AS name\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'PS33'\\n),\\nalternateIds AS (\\n  SELECT\\n    subject,\\n    json_group_array(object) AS alternateIds\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'PS102'\\n  GROUP BY\\n    subject\\n),\\noccurances AS (\\n  SELECT\\n    subject,\\n    json_group_array(json(object)) AS occurances\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'nm_occurrenceDate'\\n  GROUP BY\\n    subject\\n)\\nSELECT\\n  isAs.subject AS subject,\\n  'md:' || isAs.subject AS identifier,\\n  isAs.isA,\\n  names.name,\\n  alternateIds.alternateIds,\\n  occurances.occurances\\nFROM\\n  isAs\\n  INNER JOIN names ON isAs.subject = names.subject\\n  INNER JOIN alternateIds ON isAs.subject = alternateIds.subject\\n  INNER JOIN occurances ON isAs.subject = occurances.subject;\\n\"}, \"target\": {\"database\": \"IntelligencePlatform.Entity\", \"name\": \"holidayEvent\", \"target\": \"IntelligencePlatform.Entity.holidayEvent\", \"type\": \"view\"}, \"type\": \"sqlConnection\", \"update\": {\"globalKnowledgeGraphListeners\": [{\"assetName\": \"HolidayEventSubgraph\", \"fullRebuildOnChange\": true, \"rebuildView\": true, \"schedule\": \"live\"}], \"viewListeners\": [{\"name\": \"initializeGlobalKnowledgeAssets\", \"schedule\": \"none\"}]}, \"uuid\": \"BA26240C-8B9B-4353-B6F9-F53BC6FAEBEA\", \"version\": \"236732d7-00ad-47a8-ac19-ada766a7872f\"}"
++ "{\"configHash\": \"5152cd0f9ddc0c512221d03c11799643a5c33bb65c12aae976004b570158acb7\", \"dependencies\": [\"initializeGlobalKnowledgeAssets\"], \"dependents\": [], \"deployment\": [\"production\"], \"featureFlag\": \"OrionSQL\", \"legacyName\": \"sportsTeams\", \"name\": \"sportsTeams\", \"platforms\": {\"iOS\": \"\", \"macOS\": \"\", \"visionOS\": \"\"}, \"sql\": {\"update\": \"WITH static_triples AS (\\n  SELECT\\n    *\\n  FROM\\n    \\\"IntelligencePlatform.GlobalKnowledgeGraph.StaticGraph\\\"\\n),\\nisAs AS (\\n  SELECT\\n    subject,\\n    object AS isA\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS1'\\n),\\nnames AS (\\n  SELECT\\n    subject,\\n    object AS name\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS33'\\n),\\numcIds AS (\\n  SELECT\\n    subject,\\n    object AS umcId\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_UMC_ID'\\n  GROUP BY\\n    subject\\n),\\nleagueNames AS (\\n  SELECT\\n    subject,\\n    object AS leagueName\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_league_name'\\n  GROUP BY\\n    subject\\n),\\nqIds AS (\\n  SELECT\\n    subject,\\n    object AS qid\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS102'\\n  GROUP BY\\n    subject\\n),\\nimageBytes AS (\\n  SELECT\\n    subject,\\n    object AS imageBytes\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_image_bytes'\\n  GROUP BY\\n    subject\\n)\\nSELECT\\n  isAs.subject AS subject,\\n  'md:' || isAs.subject AS identifier,\\n  isAs.isA,\\n  names.name,\\n  umcIds.umcId,\\n  qIds.qid,\\n  leagueNames.leagueName,\\n  imageBytes.imageBytes\\nFROM\\n  isAs\\n  INNER JOIN names ON isAs.subject = names.subject\\n  INNER JOIN umcIds ON isAs.subject = umcIds.subject\\n  INNER JOIN qIds ON isAs.subject = qIds.subject\\n  INNER JOIN leagueNames ON isAs.subject = leagueNames.subject\\n  INNER JOIN imageBytes ON isAs.subject = imageBytes.subject\\nWHERE\\n  isA = 'SB14';\\n\"}, \"target\": {\"database\": \"IntelligencePlatform.Entity\", \"name\": \"sportsTeams\", \"target\": \"IntelligencePlatform.Entity.sportsTeams\", \"type\": \"view\"}, \"type\": \"sqlConnection\", \"update\": {\"globalKnowledgeGraphListeners\": [{\"assetName\": \"MediaEntitiesSubgraph\", \"fullRebuildOnChange\": true, \"rebuildView\": true, \"schedule\": \"live\"}], \"viewListeners\": [{\"name\": \"initializeGlobalKnowledgeAssets\", \"schedule\": \"none\"}]}, \"uuid\": \"44225F26-CBD2-41C5-B57E-919A01B76CCE\", \"version\": \"ce67ef59-18f1-4ab9-b591-8b0ed249aab7\"}"
++ "{\"configHash\": \"53e1d3b51cdfce3dcb5e37985d59aeff68d38c45a2f537aaaf0f785d03f01815\", \"customViewClass\": \"InitializeGlobalKnowledgeAssets\", \"dependencies\": [], \"dependents\": [\"holidayEvent\", \"sportsTeams\"], \"deployment\": [\"production\"], \"legacyName\": \"initializeGlobalKnowledgeAssets\", \"name\": \"initializeGlobalKnowledgeAssets\", \"platforms\": {\"iOS\": \"18.0\", \"macOS\": \"15.0\"}, \"target\": {\"database\": \"IntelligencePlatform.Entity\", \"name\": \"initializeGlobalKnowledgeAssets\", \"target\": \"IntelligencePlatform.Entity.initializeGlobalKnowledgeAssets\", \"type\": \"view\"}, \"type\": \"custom\", \"update\": {\"alwaysUpdateListeners\": [{\"schedule\": \"daily\"}]}, \"uuid\": \"161B91B0-CF4F-4E52-9689-0B35819A6D18\", \"version\": \"69988f04-fe85-4d4d-9451-0440d48eca73\", \"writeToStream\": false}"
+- "08459c7e-bf2b-45c2-87c7-8535adf664ec"
+- "1a79f6ca46b3e63a63695f85425d1904a8688e0e37fc45f02ab14aeef328700b"
+- "3089f2095a674781fd21ee60a0b7e4cacb94c9f18d2e27cde040bdc12648a703"
+- ":"
+- "OperatorAnd"
+- "OperatorOr"
+- "OperatorUnknown"
+- "`operator`"
+- "ba9f2688-fc1c-4516-bace-1fed576fc2af"
+- "initWithComparison:stringSearch:idSearch:all:suggested:sampleInvocations:searchableItem:valid:metadata:error:"
+- "initWithPerson:displayRepresentation:handle:nameComponents:displayName:image:contactIdentifier:customIdentifier:relationship:contactSuggestion:error:"
+- "initWithPlacemark:displayRepresentation:error:"
+- "initWithType:values:error:"
+- "{\"configHash\": \"1a79f6ca46b3e63a63695f85425d1904a8688e0e37fc45f02ab14aeef328700b\", \"dependencies\": [], \"dependents\": [], \"deployment\": [\"production\"], \"featureFlag\": \"OrionSQL\", \"legacyName\": \"holidayEvent\", \"name\": \"holidayEvent\", \"platforms\": {\"iOS\": \"\", \"macOS\": \"\", \"visionOS\": \"\"}, \"sql\": {\"update\": \"WITH static_triples AS (\\n  SELECT\\n    *\\n  FROM\\n    \\\"IntelligencePlatform.GlobalKnowledgeGraph.StaticGraph\\\"\\n),\\ntriples AS (\\n  SELECT\\n    static_graph.*\\n  FROM\\n    static_graph\\n    INNER JOIN static_assets ON static_graph.assetId = static_assets.id\\n  WHERE\\n    static_assets.name = 'HolidayEventSubgraph'\\n),\\nisAs AS (\\n  SELECT\\n    subject,\\n    object AS isA\\n  FROM\\n    triples\\n  WHERE\\n    triples.predicate = 'PS1'\\n),\\nnames AS (\\n  SELECT\\n    subject,\\n    object AS name\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'PS33'\\n),\\nalternateIds AS (\\n  SELECT\\n    subject,\\n    json_group_array(object) AS alternateIds\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'PS102'\\n  GROUP BY\\n    subject\\n),\\noccurances AS (\\n  SELECT\\n    subject,\\n    json_group_array(json(object)) AS occurances\\n  FROM\\n    triples\\n  WHERE\\n    predicate = 'nm_occurrenceDate'\\n  GROUP BY\\n    subject\\n)\\nSELECT\\n  isAs.subject AS subject,\\n  'md:' || isAs.subject AS identifier,\\n  isAs.isA,\\n  names.name,\\n  alternateIds.alternateIds,\\n  occurances.occurances\\nFROM\\n  isAs\\n  INNER JOIN names ON isAs.subject = names.subject\\n  INNER JOIN alternateIds ON isAs.subject = alternateIds.subject\\n  INNER JOIN occurances ON isAs.subject = occurances.subject;\\n\"}, \"target\": {\"database\": \"IntelligencePlatform.Entity\", \"name\": \"holidayEvent\", \"target\": \"IntelligencePlatform.Entity.holidayEvent\", \"type\": \"view\"}, \"type\": \"sqlConnection\", \"update\": {\"globalKnowledgeGraphListeners\": [{\"assetName\": \"HolidayEventSubgraph\", \"schedule\": \"live\"}]}, \"uuid\": \"BA26240C-8B9B-4353-B6F9-F53BC6FAEBEA\", \"version\": \"08459c7e-bf2b-45c2-87c7-8535adf664ec\"}"
+- "{\"configHash\": \"3089f2095a674781fd21ee60a0b7e4cacb94c9f18d2e27cde040bdc12648a703\", \"dependencies\": [], \"dependents\": [], \"deployment\": [\"production\"], \"featureFlag\": \"OrionSQL\", \"legacyName\": \"sportsTeams\", \"name\": \"sportsTeams\", \"platforms\": {\"iOS\": \"\", \"macOS\": \"\", \"visionOS\": \"\"}, \"sql\": {\"update\": \"WITH static_triples AS (\\n  SELECT\\n    *\\n  FROM\\n    \\\"IntelligencePlatform.GlobalKnowledgeGraph.StaticGraph\\\"\\n),\\nisAs AS (\\n  SELECT\\n    subject,\\n    object AS isA\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS1'\\n),\\nnames AS (\\n  SELECT\\n    subject,\\n    object AS name\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS33'\\n),\\numcIds AS (\\n  SELECT\\n    subject,\\n    object AS umcId\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_UMC_ID'\\n  GROUP BY\\n    subject\\n),\\nleagueNames AS (\\n  SELECT\\n    subject,\\n    object AS leagueName\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_league_name'\\n  GROUP BY\\n    subject\\n),\\nqIds AS (\\n  SELECT\\n    subject,\\n    object AS qid\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'PS102'\\n  GROUP BY\\n    subject\\n),\\nimageBytes AS (\\n  SELECT\\n    subject,\\n    object AS imageBytes\\n  FROM\\n    static_graph\\n  WHERE\\n    predicate = 'nm_image_bytes'\\n  GROUP BY\\n    subject\\n)\\nSELECT\\n  isAs.subject AS subject,\\n  'md:' || isAs.subject AS identifier,\\n  isAs.isA,\\n  names.name,\\n  umcIds.umcId,\\n  qIds.qid,\\n  leagueNames.leagueName,\\n  imageBytes.imageBytes\\nFROM\\n  isAs\\n  INNER JOIN names ON isAs.subject = names.subject\\n  INNER JOIN umcIds ON isAs.subject = umcIds.subject\\n  INNER JOIN qIds ON isAs.subject = qIds.subject\\n  INNER JOIN leagueNames ON isAs.subject = leagueNames.subject\\n  INNER JOIN imageBytes ON isAs.subject = imageBytes.subject\\nWHERE\\n  isA = 'SB14';\\n\"}, \"target\": {\"database\": \"IntelligencePlatform.Entity\", \"name\": \"sportsTeams\", \"target\": \"IntelligencePlatform.Entity.sportsTeams\", \"type\": \"view\"}, \"type\": \"sqlConnection\", \"update\": {\"globalKnowledgeGraphListeners\": [{\"assetName\": \"MediaEntitiesSubgraph\", \"schedule\": \"live\"}]}, \"uuid\": \"44225F26-CBD2-41C5-B57E-919A01B76CCE\", \"version\": \"ba9f2688-fc1c-4516-bace-1fed576fc2af\"}"
+
+```

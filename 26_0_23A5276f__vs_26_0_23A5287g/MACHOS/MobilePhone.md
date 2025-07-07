@@ -1,0 +1,402 @@
+## MobilePhone
+
+> `/Applications/MobilePhone.app/MobilePhone`
+
+```diff
+
+-3015.100.5.2.4
+-  __TEXT.__text: 0x1c7480
+-  __TEXT.__auth_stubs: 0x4710
+-  __TEXT.__objc_stubs: 0x19520
+-  __TEXT.__objc_methlist: 0x104e0
+-  __TEXT.__const: 0x69cc
+-  __TEXT.__objc_methname: 0x2b3e6
+-  __TEXT.__cstring: 0xc5ea
+-  __TEXT.__oslogstring: 0xa586
++3018.100.11.2.7
++  __TEXT.__text: 0x1ca17c
++  __TEXT.__auth_stubs: 0x4750
++  __TEXT.__objc_stubs: 0x195e0
++  __TEXT.__objc_methlist: 0x10530
++  __TEXT.__const: 0x6b0c
++  __TEXT.__objc_methname: 0x2b515
++  __TEXT.__cstring: 0xc77a
++  __TEXT.__oslogstring: 0xa676
+   __TEXT.__objc_classname: 0x18bf
+-  __TEXT.__objc_methtype: 0x6a63
+-  __TEXT.__gcc_except_tab: 0xcbc
++  __TEXT.__objc_methtype: 0x6a77
++  __TEXT.__gcc_except_tab: 0xc90
+   __TEXT.__dlopen_cstrs: 0x5e
+   __TEXT.__ustring: 0x10
+-  __TEXT.__swift5_typeref: 0x644a
+-  __TEXT.__swift5_capture: 0x25b8
+-  __TEXT.__constg_swiftt: 0x3250
++  __TEXT.__swift5_typeref: 0x64a8
++  __TEXT.__swift5_capture: 0x25d8
++  __TEXT.__constg_swiftt: 0x32e8
+   __TEXT.__swift5_builtin: 0x208
+-  __TEXT.__swift5_reflstr: 0x2932
+-  __TEXT.__swift5_fieldmd: 0x23fc
++  __TEXT.__swift5_reflstr: 0x29c2
++  __TEXT.__swift5_fieldmd: 0x24b0
+   __TEXT.__swift5_assocty: 0x640
+-  __TEXT.__swift5_proto: 0x314
+-  __TEXT.__swift5_types: 0x2a8
++  __TEXT.__swift5_proto: 0x31c
++  __TEXT.__swift5_types: 0x2b4
+   __TEXT.__swift5_mpenum: 0x40
+   __TEXT.__swift_as_entry: 0x34c
+   __TEXT.__swift_as_ret: 0x350
+   __TEXT.__swift5_protos: 0x40
+-  __TEXT.__unwind_info: 0x7ae0
+-  __TEXT.__eh_frame: 0x8ebc
+-  __DATA_CONST.__auth_got: 0x2398
+-  __DATA_CONST.__got: 0x17d0
+-  __DATA_CONST.__auth_ptr: 0x12c0
+-  __DATA_CONST.__const: 0x9fd8
+-  __DATA_CONST.__cfstring: 0x4f00
+-  __DATA_CONST.__objc_classlist: 0x688
++  __TEXT.__unwind_info: 0x7bc8
++  __TEXT.__eh_frame: 0x8e94
++  __DATA_CONST.__auth_got: 0x23b8
++  __DATA_CONST.__got: 0x17f0
++  __DATA_CONST.__auth_ptr: 0x12c8
++  __DATA_CONST.__const: 0xa108
++  __DATA_CONST.__cfstring: 0x4f40
++  __DATA_CONST.__objc_classlist: 0x698
+   __DATA_CONST.__objc_catlist: 0xb8
+   __DATA_CONST.__objc_catlist2: 0x8
+   __DATA_CONST.__objc_protolist: 0x4a0
+
+   __DATA_CONST.__objc_arraydata: 0x60
+   __DATA_CONST.__objc_arrayobj: 0xa8
+   __DATA_CONST.__objc_dictobj: 0x28
+-  __DATA.__objc_const: 0x18e78
+-  __DATA.__objc_selrefs: 0x92b0
++  __DATA.__objc_const: 0x18fd0
++  __DATA.__objc_selrefs: 0x9308
+   __DATA.__objc_ivar: 0xc00
+-  __DATA.__objc_data: 0x67b8
+-  __DATA.__data: 0x70b0
++  __DATA.__objc_data: 0x68c8
++  __DATA.__data: 0x7200
+   __DATA.__objc_stublist: 0x8
+-  __DATA.__bss: 0x5b48
++  __DATA.__bss: 0x5c48
+   __DATA.__common: 0x8d0
+   - /System/Library/Frameworks/AVFAudio.framework/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/AVFoundation
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 126FF6AF-4F00-3E1C-98D2-5366A40ED642
+-  Functions: 11000
+-  Symbols:   75573
+-  CStrings:  10024
++  UUID: 249E734E-2027-3286-9608-2372D0080E45
++  Functions: 11047
++  Symbols:   75930
++  CStrings:  10054
+ 
+Symbols:
++ $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyBhyy_Sbs5Error_pSgIeghyg_TRTA.19
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_TG5TA.129
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_TG5TA.129TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_TG5TA.129Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.149
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.149TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR7Combine14AnyCancellableC_TG5TA.149Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSo10PhoneBadgea_TG5TA.109
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSo10PhoneBadgea_TG5TA.109TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRSo10PhoneBadgea_TG5TA.109Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.119
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.119TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRytSg_TG5TA.119Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.139
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.139TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.139Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.19
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.19TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tgq5TA.19Tu
++ -[PHContactsViewController initWithContactStore:allowsLargeTitles:allowsSearch:]
++ -[PHContactsViewController initWithDataSource:allowsLargeTitles:allowsSearch:]
++ -[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:]
++ /Library/Caches/com.apple.xbs/Binaries/MobilePhone/install/TempContent/Objects/MobilePhone.build/MobilePhone.build/Objects-normal/arm64e/VoicemailTranscriptProcessor.o
++ VoicemailTranscriptProcessor.swift
++ _$s10CallsAppUI19preferredKeyPadSize5idiomSo6CGSizeVSo20UIUserInterfaceIdiomV_tF
++ _$s10CallsAppUI21RecentsViewControllerC21recentsDetailProvider0G10DataSource0g9RemindersjK009favoritesjK020legacyMailboxService06keypadeF0AcA0dhI0_pSg_0aB8Services0d4ItemjK0CANSgAL09FavoritesjK0CSgAA06LegacyoP8Protocol_pSgSo06UIViewF0C04viewF0_yyScMYcc13buttonsReloadtSgtcfC
++ _$s10Foundation4UUIDVSgWOcTm
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU0_
++ _$s11MobilePhone0B21RecentsViewControllerC07recentsdE033_44E950A0B3802FBB9FA72574D95EE3A8LL3for10CallsAppUI0cdE0CSo10CAUILayoutV_tFyyScMYccfU0_TA
++ _$s11MobilePhone0B21RecentsViewControllerC22preferredWindowMinSizeSo6CGSizeVvgZ
++ _$s11MobilePhone0B21RecentsViewControllerC22preferredWindowMinSizeSo6CGSizeVvgZTo
++ _$s11MobilePhone0B21RecentsViewControllerC22preferredWindowMinSizeSo6CGSizeVvpZMV
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLV23__derived_struct_equalsySbAD_ADtFZTf4nnd_n
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLV4hash4intoys6HasherVz_tF
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVADSQAAWL
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVADSQAAWl
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVMF
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVMXX
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVMa
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVMf
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVMn
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAAMc
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAAMcMK
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAASH13_rawHashValue4seedS2i_tFTW
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAASH4hash4intoys6HasherVz_tFTW
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAASH9hashValueSivgTW
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAASQWb
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSQAAMc
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSQAAMcMK
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSQAASQ2eeoiySbx_xtFZTW
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVWOh
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVWV
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVwet
++ _$s11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVwst
++ _$s11MobilePhone23VoicemailSearchViewCellC19transcriptProcessor33_EEC304817A764917AF249F557FC710C2LLAA0c10TranscriptH0CvpZ
++ _$s11MobilePhone23VoicemailSearchViewCellC19transcriptProcessor33_EEC304817A764917AF249F557FC710C2LL_WZ
++ _$s11MobilePhone23VoicemailSearchViewCellC19transcriptProcessor33_EEC304817A764917AF249F557FC710C2LL_Wz
++ _$s11MobilePhone25CustomSplitViewControllerCACycfC
++ _$s11MobilePhone25CustomSplitViewControllerCACycfc
++ _$s11MobilePhone25CustomSplitViewControllerCACycfcTo
++ _$s11MobilePhone25ProcessedTranscriptResultC14attributedTextSo18NSAttributedStringCSgvg
++ _$s11MobilePhone25ProcessedTranscriptResultC14attributedTextSo18NSAttributedStringCSgvpMV
++ _$s11MobilePhone25ProcessedTranscriptResultC14attributedTextSo18NSAttributedStringCSgvpWvd
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainText010attributedG0ACSS_So18NSAttributedStringCSgtcfC
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainText010attributedG0ACSS_So18NSAttributedStringCSgtcfCTq
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainText010attributedG0ACSS_So18NSAttributedStringCSgtcfc
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainTextSSvg
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainTextSSvpMV
++ _$s11MobilePhone25ProcessedTranscriptResultC9plainTextSSvpWvd
++ _$s11MobilePhone25ProcessedTranscriptResultCACycfC
++ _$s11MobilePhone25ProcessedTranscriptResultCACycfc
++ _$s11MobilePhone25ProcessedTranscriptResultCACycfcTo
++ _$s11MobilePhone25ProcessedTranscriptResultCMF
++ _$s11MobilePhone25ProcessedTranscriptResultCMa
++ _$s11MobilePhone25ProcessedTranscriptResultCMf
++ _$s11MobilePhone25ProcessedTranscriptResultCMn
++ _$s11MobilePhone25ProcessedTranscriptResultCN
++ _$s11MobilePhone25ProcessedTranscriptResultCfD
++ _$s11MobilePhone25ProcessedTranscriptResultCfETo
++ _$s11MobilePhone28VoicemailTranscriptProcessorC07processD4Text4from06searchG08maxLines4font14containerWidthAA09ProcessedD6ResultCSgSo27MPVoicemailMessageViewModelCSg_SSSiSo6UIFontC12CoreGraphics7CGFloatVtF
++ _$s11MobilePhone28VoicemailTranscriptProcessorC07processD4Text4from06searchG08maxLines4font14containerWidthAA09ProcessedD6ResultCSgSo27MPVoicemailMessageViewModelCSg_SSSiSo6UIFontC12CoreGraphics7CGFloatVtFfA0_
++ _$s11MobilePhone28VoicemailTranscriptProcessorC07processD4Text4from06searchG08maxLines4font14containerWidthAA09ProcessedD6ResultCSgSo27MPVoicemailMessageViewModelCSg_SSSiSo6UIFontC12CoreGraphics7CGFloatVtFfA1_
++ _$s11MobilePhone28VoicemailTranscriptProcessorC07processD4Text4from06searchG08maxLines4font14containerWidthAA09ProcessedD6ResultCSgSo27MPVoicemailMessageViewModelCSg_SSSiSo6UIFontC12CoreGraphics7CGFloatVtFfA2_
++ _$s11MobilePhone28VoicemailTranscriptProcessorC07processD4Text4from06searchG08maxLines4font14containerWidthAA09ProcessedD6ResultCSgSo27MPVoicemailMessageViewModelCSg_SSSiSo6UIFontC12CoreGraphics7CGFloatVtFfA3_
++ _$s11MobilePhone28VoicemailTranscriptProcessorC10clearCache33_594E90E2365646B571754D0D9946526FLLyyF
++ _$s11MobilePhone28VoicemailTranscriptProcessorC10clearCache33_594E90E2365646B571754D0D9946526FLLyyFTo
++ _$s11MobilePhone28VoicemailTranscriptProcessorC17memoryWarningSink33_594E90E2365646B571754D0D9946526FLL7Combine14AnyCancellableCSgvpWvd
++ _$s11MobilePhone28VoicemailTranscriptProcessorC17memoryWarningSink33_594E90E2365646B571754D0D9946526FLL7Combine14AnyCancellableCSgvpfi
++ _$s11MobilePhone28VoicemailTranscriptProcessorC20clearProcessingCacheyyF
++ _$s11MobilePhone28VoicemailTranscriptProcessorC25numberOfCharsLabelCanHold4text8maxLines4font14containerWidthSiSS_SiSo6UIFontC12CoreGraphics7CGFloatVtF
++ _$s11MobilePhone28VoicemailTranscriptProcessorC5cache33_594E90E2365646B571754D0D9946526FLLSo7NSCacheCySo8NSNumberCAA09ProcessedD6ResultCGvpWvd
++ _$s11MobilePhone28VoicemailTranscriptProcessorC5cache33_594E90E2365646B571754D0D9946526FLLSo7NSCacheCySo8NSNumberCAA09ProcessedD6ResultCGvpfi
++ _$s11MobilePhone28VoicemailTranscriptProcessorC6logger33_594E90E2365646B571754D0D9946526FLL2os6LoggerVvpWvd
++ _$s11MobilePhone28VoicemailTranscriptProcessorC6logger33_594E90E2365646B571754D0D9946526FLL2os6LoggerVvpfi
++ _$s11MobilePhone28VoicemailTranscriptProcessorC8truncate4text10searchText14characterLimitS2S_SSSitF
++ _$s11MobilePhone28VoicemailTranscriptProcessorCACycfC
++ _$s11MobilePhone28VoicemailTranscriptProcessorCACycfCTq
++ _$s11MobilePhone28VoicemailTranscriptProcessorCACycfc
++ _$s11MobilePhone28VoicemailTranscriptProcessorCACycfcy10Foundation12NotificationVcfU_
++ _$s11MobilePhone28VoicemailTranscriptProcessorCACycfcy10Foundation12NotificationVcfU_TA
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMF
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMU
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMa
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMf
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMl
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMm
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMn
++ _$s11MobilePhone28VoicemailTranscriptProcessorCMr
++ _$s11MobilePhone28VoicemailTranscriptProcessorCN
++ _$s11MobilePhone28VoicemailTranscriptProcessorCfD
++ _$s11MobilePhone28VoicemailTranscriptProcessorCfd
++ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfCSay20FaceTimeMessageStore0G0CG_Tt2g5
++ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfCyt_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfC11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfC7Combine14AnyCancellableC_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCSo10PhoneBadgea_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCytSg_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2gq5
++ _$sSo16PhoneApplicationC06MobileA0E15menuAudioOutput33_F4D309232BECDE508AAEA87B0A3FC8CBLLSo6UIMenuCvg
++ _$sSo16PhoneApplicationC06MobileA0E20addTopLevelMenuAudio33_F4D309232BECDE508AAEA87B0A3FC8CBLLyySo13UIMenuBuilder_pF
++ _$sSo16PhoneApplicationC06MobileA0E20addTopLevelMenuAudio33_F4D309232BECDE508AAEA87B0A3FC8CBLLyySo13UIMenuBuilder_pFTo
++ _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierAudio33_F4D309232BECDE508AAEA87B0A3FC8CBLLABvpZ
++ _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierAudio33_F4D309232BECDE508AAEA87B0A3FC8CBLL_WZ
++ _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierAudio33_F4D309232BECDE508AAEA87B0A3FC8CBLL_Wz
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherV7CombineAdCMc
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVAE7CombineAdCWL
++ _$sSo20NSNotificationCenterC10FoundationE9PublisherVMa
++ _$sSo20NSNotificationCenterC10FoundationE9publisher3for6objectAbCE9PublisherVSo0A4Namea_yXlSgtF
++ _$sSo21NSAttributedStringKeyaABSHSCWlTm
++ _$sSo21NSAttributedStringKeya_yptWOcTm
++ _$sSo21NSAttributedStringKeya_yptWOhTm
++ _$sSo6UIFontCMaTm
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlF11MobilePhone9MessageIDC_Tg5
++ _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo8CHHandleC_Tg5
++ _OBJC_CLASS_$_NSRegularExpression
++ _OBJC_CLASS_$__TtC11MobilePhone25ProcessedTranscriptResult
++ _OBJC_METACLASS_$__TtC11MobilePhone25ProcessedTranscriptResult
++ _UIApplicationDidReceiveMemoryWarningNotification
++ __CLASS_PROPERTIES__TtC11MobilePhone26PhoneRecentsViewController
++ __DATA__TtC11MobilePhone25ProcessedTranscriptResult
++ __DATA__TtC11MobilePhone28VoicemailTranscriptProcessor
++ __INSTANCE_METHODS__TtC11MobilePhone25ProcessedTranscriptResult
++ __INSTANCE_METHODS__TtC11MobilePhone28VoicemailTranscriptProcessor
++ __IVARS__TtC11MobilePhone25ProcessedTranscriptResult
++ __IVARS__TtC11MobilePhone28VoicemailTranscriptProcessor
++ __METACLASS_DATA__TtC11MobilePhone25ProcessedTranscriptResult
++ __METACLASS_DATA__TtC11MobilePhone28VoicemailTranscriptProcessor
++ ___125-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:]_block_invoke
++ ___125-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:]_block_invoke_2
++ ___125-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:]_block_invoke_3
++ ___56-[MobilePhoneApplication applicationDidFinishLaunching:]_block_invoke_2
++ ___swift_memcpy72_8
++ _associated conformance 11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLVSHAASQ
++ _objc_msgSend$initWithContactStore:allowsLargeTitles:allowsSearch:
++ _objc_msgSend$initWithDataSource:allowsLargeTitles:allowsSearch:
++ _objc_msgSend$preferredWindowMinSize
++ _objc_msgSend$setMinimumSize:
++ _objc_msgSend$showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:
++ _objc_msgSend$sizeRestrictions
++ _objc_msgSend$superclass
++ _objc_msgSendSuper
++ _symbolic So18NSAttributedStringCSg
++ _symbolic So7NSCacheCySo8NSNumberC_____G 11MobilePhone25ProcessedTranscriptResultC
++ _symbolic _____ 11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLV
++ _symbolic _____ 11MobilePhone25ProcessedTranscriptResultC
++ _symbolic _____ 11MobilePhone28VoicemailTranscriptProcessorC
++ _symbolic _____SgXw 11MobilePhone28VoicemailTranscriptProcessorC
++ _type_layout_string 11MobilePhone18TranscriptCacheKey33_594E90E2365646B571754D0D9946526FLLV
++ block_copy_helper.152
++ block_copy_helper.155
++ block_copy_helper.171
++ block_copy_helper.68
++ block_copy_helper.78
++ block_copy_helper.90
++ block_copy_helper.93
++ block_copy_helper.96
++ block_copy_helper.99
++ block_descriptor.101
++ block_descriptor.154
++ block_descriptor.157
++ block_descriptor.173
++ block_descriptor.70
++ block_descriptor.80
++ block_descriptor.92
++ block_descriptor.95
++ block_descriptor.98
++ block_destroy_helper.100
++ block_destroy_helper.153
++ block_destroy_helper.156
++ block_destroy_helper.172
++ block_destroy_helper.69
++ block_destroy_helper.79
++ block_destroy_helper.91
++ block_destroy_helper.94
++ block_destroy_helper.97
+- $s10ObjectiveC8ObjCBoolVSo7NSErrorCSgIeyBhyy_Sbs5Error_pSgIeghyg_TRTA.26
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.14
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.14TQ0_
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.14Tu
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.31
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.31TQ0_
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tF7Combine14AnyCancellableCyYaAA0C5ActorCYccfU_TA.31Tu
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tFyycScTy7Combine14AnyCancellableCs5NeverOGcfu_yycfu0_TA.16
+- $s11MobilePhone32VoicemailAccountManagerDecoratorC6listen4withyXlyAA0cdE6UpdateC_10Foundation4UUIDVSgtcn_tFyycScTy7Combine14AnyCancellableCs5NeverOGcfu_yycfu0_TA.33
+- -[PHContactsViewController initWithDataSource:allowsLargeTitles:]
+- -[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:]
+- _$s10CallsAppUI21RecentsViewControllerC21recentsDetailProvider0G10DataSource0g9RemindersjK009favoritesjK020legacyMailboxService06keypadeF0AcA0dhI0_pSg_0aB8Services0d4ItemjK0CANSgAL09FavoritesjK0CSgAA06LegacyoP8Protocol_pSgSo06UIViewF0CSgtcfC
+- _$s10Foundation6LocaleVSgWOhTm
+- _$s11MobilePhone0B21RecentsViewControllerCACycfCTq
+- _$s11MobilePhone23VoicemailSearchViewCellC25numberOfCharsLabelCanHold4textSiSS_tFTf4nd_n
+- _$s11TelephonyUI12TPTipsHelperC5EntryV4KindOAGSHAAWlTm
+- _$sSS_yptWOcTm
+- _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfCSay20FaceTimeMessageStore0F0CG_Tt1g5
+- _$sScTss5Error_pRs_rlE8priority9operationScTyxsAA_pGScPSg_xyYaKYAcntcfCyt_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfC11MobilePhone22CachedVoicemailManagerC5Cache33_CFC589FF927D3725ACAAF49197D752FALLC_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfC7Combine14AnyCancellableC_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfC7Combine14AnyCancellableC_Tt1g5Tm
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCSo10PhoneBadgea_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCytSg_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1gq5
+- _$sSo16PhoneApplicationC06MobileA0E20addTopLevelMenuVideo33_F4D309232BECDE508AAEA87B0A3FC8CBLLyySo13UIMenuBuilder_pF
+- _$sSo16PhoneApplicationC06MobileA0E20addTopLevelMenuVideo33_F4D309232BECDE508AAEA87B0A3FC8CBLLyySo13UIMenuBuilder_pFTo
+- _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierVideo33_F4D309232BECDE508AAEA87B0A3FC8CBLLABvpZ
+- _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierVideo33_F4D309232BECDE508AAEA87B0A3FC8CBLL_WZ
+- _$sSo16UIMenuIdentifiera11MobilePhoneE15identifierVideo33_F4D309232BECDE508AAEA87B0A3FC8CBLL_Wz
+- _$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSo8CHHandleC_Tg5Tm
+- _$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSo21NSAttributedStringKeya_Tg5
+- __56-[MobilePhoneApplication applicationDidFinishLaunching:]_block_invoke.107
+- ___96-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:]_block_invoke
+- ___96-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:]_block_invoke_2
+- ___96-[PhoneTabBarController showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:]_block_invoke_3
+- _objc_msgSend$showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:
+- block_copy_helper.126
+- block_copy_helper.129
+- block_copy_helper.145
+- block_copy_helper.29
+- block_copy_helper.67
+- block_copy_helper.89
+- block_copy_helper.92
+- block_copy_helper.95
+- block_copy_helper.98
+- block_descriptor.100
+- block_descriptor.128
+- block_descriptor.131
+- block_descriptor.147
+- block_descriptor.31
+- block_descriptor.69
+- block_descriptor.91
+- block_descriptor.94
+- block_descriptor.97
+- block_destroy_helper.127
+- block_destroy_helper.130
+- block_destroy_helper.146
+- block_destroy_helper.30
+- block_destroy_helper.68
+- block_destroy_helper.90
+- block_destroy_helper.93
+- block_destroy_helper.96
+- block_destroy_helper.99
+- objectdestroy.2Tm
+CStrings:
++ "@32@0:8@16B24B28"
++ "MobilePhone.ProcessedTranscriptResult"
++ "T{CGSize=dd},N,R"
++ "VoicemailTranscriptProcessor"
++ "VoicemailTranscriptProcessor.cache"
++ "VoicemailTranscriptProcessor: Cache cleared"
++ "VoicemailTranscriptProcessor: Cache hit for key: %@"
++ "VoicemailTranscriptProcessor: Cache miss, processing transcript"
++ "VoicemailTranscriptProcessor: searchTextRange: %s"
++ "_TtC11MobilePhone25ProcessedTranscriptResult"
++ "_TtC11MobilePhone28VoicemailTranscriptProcessor"
++ "addTopLevelMenuAudio:"
++ "allowsLargeTitles"
++ "allowsSearch"
++ "clearCache"
++ "com.apple.facetime.menu.audio"
++ "escapedPatternForString:"
++ "initWithContactStore:allowsLargeTitles:allowsSearch:"
++ "initWithDataSource:allowsLargeTitles:allowsSearch:"
++ "initWithDataSource:withOptions:"
++ "initWithInteger:"
++ "memoryWarningSink"
++ "plainText"
++ "preferredWindowMinSize"
++ "reloadButtons"
++ "setCountLimit:"
++ "setMinimumSize:"
++ "showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:hostedInRemoteViewController:"
++ "sizeRestrictions"
++ "v44@0:8B16B20B24B28B32i36B40"
+- "addTopLevelMenuVideo:"
+- "com.apple.facetime.menu.video"
+- "showFavoritesTab:recentsTab:contactsTab:keypadTab:voicemailTab:prewarm:"
+- "v40@0:8B16B20B24B28B32i36"
+
+```

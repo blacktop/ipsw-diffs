@@ -1,0 +1,297 @@
+## MediaServices
+
+> `/System/Library/PrivateFrameworks/MediaServices.framework/MediaServices`
+
+```diff
+
+-4025.100.107.0.0
+-  __TEXT.__text: 0x59820
++4025.100.111.0.0
++  __TEXT.__text: 0x59818
+   __TEXT.__auth_stubs: 0x1ee0
+   __TEXT.__objc_methlist: 0x567c
+   __TEXT.__const: 0x3d0
+
+   __TEXT.__gcc_except_tab: 0x1320
+   __TEXT.__oslogstring: 0x2c4d
+   __TEXT.__ustring: 0x18
+-  __TEXT.__unwind_info: 0x16d8
++  __TEXT.__unwind_info: 0x1708
+   __TEXT.__objc_classname: 0xb1e
+   __TEXT.__objc_methname: 0xbc72
+   __TEXT.__objc_methtype: 0x1d23
+
+   __AUTH_CONST.__auth_got: 0xf88
+   __AUTH_CONST.__const: 0x700
+   __AUTH_CONST.__cfstring: 0x5960
+-  __AUTH_CONST.__objc_const: 0x9a80
++  __AUTH_CONST.__objc_const: 0x9a90
++  __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH_CONST.__objc_intobj: 0x198
+   __AUTH_CONST.__objc_dictobj: 0x28
+-  __AUTH_CONST.__objc_arrayobj: 0x48
+   __AUTH.__objc_data: 0x14a0
+   __AUTH.__data: 0xc8
+   __DATA.__objc_ivar: 0x694
+
+   - /usr/lib/swift/libswiftXPC.dylib
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 3D6B6F27-10C3-3FF3-BA97-21A52814E21C
++  UUID: 865DD3A3-0E86-3C8C-BF8C-92C98FE2171E
+   Functions: 2080
+-  Symbols:   7424
++  Symbols:   7422
+   CStrings:  4428
+ 
+Symbols:
++ GCC_except_table100
++ GCC_except_table1105
++ GCC_except_table111
++ GCC_except_table1189
++ GCC_except_table1197
++ GCC_except_table1201
++ GCC_except_table1203
++ GCC_except_table125
++ GCC_except_table1401
++ GCC_except_table1431
++ GCC_except_table1432
++ GCC_except_table1434
++ GCC_except_table1436
++ GCC_except_table1437
++ GCC_except_table1439
++ GCC_except_table1440
++ GCC_except_table1441
++ GCC_except_table1445
++ GCC_except_table1448
++ GCC_except_table1452
++ GCC_except_table1454
++ GCC_except_table1456
++ GCC_except_table1457
++ GCC_except_table1462
++ GCC_except_table149
++ GCC_except_table1530
++ GCC_except_table154
++ GCC_except_table175
++ GCC_except_table176
++ GCC_except_table177
++ GCC_except_table194
++ GCC_except_table251
++ GCC_except_table253
++ GCC_except_table258
++ GCC_except_table260
++ GCC_except_table261
++ GCC_except_table262
++ GCC_except_table267
++ GCC_except_table279
++ GCC_except_table399
++ GCC_except_table407
++ GCC_except_table683
++ GCC_except_table703
++ GCC_except_table814
++ GCC_except_table818
++ GCC_except_table820
++ GCC_except_table822
++ GCC_except_table824
++ GCC_except_table826
++ GCC_except_table828
++ GCC_except_table830
++ GCC_except_table832
++ GCC_except_table834
++ GCC_except_table836
++ GCC_except_table840
++ GCC_except_table847
++ GCC_except_table853
++ GCC_except_table997
++ _MSVFastHexStringFromBytes.hexCharacters.4916
++ __OBJC_$_CATEGORY_NSDictionary_$_MSVSequence
++ __OBJC_$_CATEGORY_NSURL_$_MSVJSONConvertible
++ __OBJC_$_CATEGORY_NSUUID_$_MSVJSONConvertible
++ __OBJC_$_CLASS_METHODS_NSDictionary(MSVSequence|MSVAdditions|MSVJSONConvertible)
++ __OBJC_$_CLASS_METHODS_NSURL(MSVJSONConvertible|MSVAdditions)
++ __OBJC_$_CLASS_METHODS_NSUUID(MSVJSONConvertible|MSVBase64)
++ __OBJC_$_INSTANCE_METHODS_NSDictionary(MSVSequence|MSVAdditions|MSVJSONConvertible)
++ __OBJC_$_INSTANCE_METHODS_NSString(MSVSymbols|MSVLyricsTTMLParser|MSVAdditions)
++ __OBJC_$_INSTANCE_METHODS_NSURL(MSVJSONConvertible|MSVAdditions)
++ __OBJC_$_INSTANCE_METHODS_NSUUID(MSVJSONConvertible|MSVBase64)
++ __OBJC_CATEGORY_PROTOCOLS_$_NSURL_$_MSVJSONConvertible
++ __OBJC_CATEGORY_PROTOCOLS_$_NSUUID_$_MSVJSONConvertible
++ __OBJC_CLASS_PROTOCOLS_$_NSDictionary(MSVSequence|MSVAdditions|MSVJSONConvertible)
++ ___Block_byref_object_copy_.1860
++ ___Block_byref_object_copy_.1929
++ ___Block_byref_object_copy_.2002
++ ___Block_byref_object_copy_.2966
++ ___Block_byref_object_copy_.3014
++ ___Block_byref_object_copy_.3802
++ ___Block_byref_object_copy_.4138
++ ___Block_byref_object_copy_.4603
++ ___Block_byref_object_copy_.4829
++ ___Block_byref_object_copy_.4910
++ ___Block_byref_object_copy_.5286
++ ___Block_byref_object_copy_.6051
++ ___Block_byref_object_dispose_.1861
++ ___Block_byref_object_dispose_.1930
++ ___Block_byref_object_dispose_.2003
++ ___Block_byref_object_dispose_.2967
++ ___Block_byref_object_dispose_.3015
++ ___Block_byref_object_dispose_.3803
++ ___Block_byref_object_dispose_.4139
++ ___Block_byref_object_dispose_.4604
++ ___Block_byref_object_dispose_.4830
++ ___Block_byref_object_dispose_.4911
++ ___Block_byref_object_dispose_.5287
++ ___Block_byref_object_dispose_.6052
++ ___assertion.5809
++ ___assertionCount.5804
++ ___assertionInvalidationNonce.5808
++ ___assertionLock.5803
++ ___block_literal_global.122.2244
++ ___block_literal_global.1367
++ ___block_literal_global.1462
++ ___block_literal_global.1574
++ ___block_literal_global.1898
++ ___block_literal_global.2102
++ ___block_literal_global.2242
++ ___block_literal_global.2451
++ ___block_literal_global.2838
++ ___block_literal_global.2894
++ ___block_literal_global.3050
++ ___block_literal_global.327
++ ___block_literal_global.3707
++ ___block_literal_global.4085
++ ___block_literal_global.413
++ ___block_literal_global.4310
++ ___block_literal_global.4767
++ ___block_literal_global.5193
++ ___block_literal_global.5289
++ ___block_literal_global.55.5844
++ ___block_literal_global.5849
++ ___block_literal_global.5934
++ ___block_literal_global.831
+- GCC_except_table1056
+- GCC_except_table1230
+- GCC_except_table1235
+- GCC_except_table1256
+- GCC_except_table1257
+- GCC_except_table1258
+- GCC_except_table1275
+- GCC_except_table1332
+- GCC_except_table1334
+- GCC_except_table1339
+- GCC_except_table1341
+- GCC_except_table1342
+- GCC_except_table1343
+- GCC_except_table1348
+- GCC_except_table1360
+- GCC_except_table1403
+- GCC_except_table1449
+- GCC_except_table146
+- GCC_except_table1469
+- GCC_except_table150
+- GCC_except_table152
+- GCC_except_table179
+- GCC_except_table180
+- GCC_except_table182
+- GCC_except_table184
+- GCC_except_table185
+- GCC_except_table187
+- GCC_except_table188
+- GCC_except_table189
+- GCC_except_table193
+- GCC_except_table196
+- GCC_except_table200
+- GCC_except_table202
+- GCC_except_table204
+- GCC_except_table205
+- GCC_except_table210
+- GCC_except_table369
+- GCC_except_table375
+- GCC_except_table435
+- GCC_except_table484
+- GCC_except_table488
+- GCC_except_table490
+- GCC_except_table492
+- GCC_except_table494
+- GCC_except_table496
+- GCC_except_table498
+- GCC_except_table500
+- GCC_except_table502
+- GCC_except_table504
+- GCC_except_table506
+- GCC_except_table510
+- GCC_except_table517
+- GCC_except_table523
+- GCC_except_table594
+- GCC_except_table640
+- GCC_except_table651
+- GCC_except_table665
+- GCC_except_table778
+- _MSVFastHexStringFromBytes.hexCharacters.4942
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSDictionary_$_MSVAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSURL_$_MSVAdditions
+- __OBJC_$_CATEGORY_CLASS_METHODS_NSUUID_$_MSVBase64
+- __OBJC_$_CATEGORY_NSDictionary_$_MSVAdditions
+- __OBJC_$_CATEGORY_NSURL_$_MSVAdditions
+- __OBJC_$_CATEGORY_NSUUID_$_MSVBase64
+- __OBJC_$_INSTANCE_METHODS_NSDictionary(MSVAdditions|MSVSequence|MSVJSONConvertible)
+- __OBJC_$_INSTANCE_METHODS_NSString(MSVSymbols|MSVAdditions|MSVLyricsTTMLParser)
+- __OBJC_$_INSTANCE_METHODS_NSURL(MSVAdditions|MSVJSONConvertible)
+- __OBJC_$_INSTANCE_METHODS_NSUUID(MSVBase64|MSVJSONConvertible)
+- __OBJC_$_PROP_LIST_NSDictionary_$_MSVAdditions
+- __OBJC_$_PROP_LIST_NSURL_$_MSVAdditions
+- __OBJC_CLASS_PROTOCOLS_$_NSDictionary(MSVAdditions|MSVSequence|MSVJSONConvertible)
+- __OBJC_CLASS_PROTOCOLS_$_NSURL(MSVAdditions|MSVJSONConvertible)
+- __OBJC_CLASS_PROTOCOLS_$_NSUUID(MSVBase64|MSVJSONConvertible)
+- ___Block_byref_object_copy_.1059
+- ___Block_byref_object_copy_.1187
+- ___Block_byref_object_copy_.236
+- ___Block_byref_object_copy_.297
+- ___Block_byref_object_copy_.3749
+- ___Block_byref_object_copy_.4244
+- ___Block_byref_object_copy_.4630
+- ___Block_byref_object_copy_.4856
+- ___Block_byref_object_copy_.4937
+- ___Block_byref_object_copy_.5311
+- ___Block_byref_object_copy_.6076
+- ___Block_byref_object_copy_.786
+- ___Block_byref_object_dispose_.1060
+- ___Block_byref_object_dispose_.1188
+- ___Block_byref_object_dispose_.237
+- ___Block_byref_object_dispose_.298
+- ___Block_byref_object_dispose_.3750
+- ___Block_byref_object_dispose_.4245
+- ___Block_byref_object_dispose_.4631
+- ___Block_byref_object_dispose_.4857
+- ___Block_byref_object_dispose_.4938
+- ___Block_byref_object_dispose_.5312
+- ___Block_byref_object_dispose_.6077
+- ___Block_byref_object_dispose_.787
+- ___assertion.5834
+- ___assertionCount.5829
+- ___assertionInvalidationNonce.5833
+- ___assertionLock.5828
+- ___block_literal_global.1147
+- ___block_literal_global.122.4338
+- ___block_literal_global.1272
+- ___block_literal_global.189
+- ___block_literal_global.1987
+- ___block_literal_global.2138
+- ___block_literal_global.285
+- ___block_literal_global.2854
+- ___block_literal_global.2924
+- ___block_literal_global.2980
+- ___block_literal_global.3273
+- ___block_literal_global.3361
+- ___block_literal_global.4050
+- ___block_literal_global.4152
+- ___block_literal_global.4311
+- ___block_literal_global.4794
+- ___block_literal_global.5217
+- ___block_literal_global.5314
+- ___block_literal_global.55.5869
+- ___block_literal_global.5874
+- ___block_literal_global.5959
+- ___block_literal_global.695
+- ___block_literal_global.886
+
+```

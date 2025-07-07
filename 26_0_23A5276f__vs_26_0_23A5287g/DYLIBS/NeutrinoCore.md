@@ -1,0 +1,560 @@
+## NeutrinoCore
+
+> `/System/Library/PrivateFrameworks/NeutrinoCore.framework/NeutrinoCore`
+
+```diff
+
+-800.20.101.0.0
+-  __TEXT.__text: 0x224024
++800.26.109.0.0
++  __TEXT.__text: 0x2240d0
+   __TEXT.__auth_stubs: 0x1c40
+-  __TEXT.__objc_methlist: 0x16acc
++  __TEXT.__objc_methlist: 0x16ae4
+   __TEXT.__const: 0x1f68
+   __TEXT.__gcc_except_tab: 0x7fe8
+   __TEXT.__cstring: 0x2824a
+
+   __TEXT.__dlopen_cstrs: 0x8a
+   __TEXT.__ustring: 0x2e
+   __TEXT.__unwind_info: 0x5fb0
+-  __TEXT.__objc_classname: 0x35fe
++  __TEXT.__objc_classname: 0x3614
+   __TEXT.__objc_methname: 0x2300d
+   __TEXT.__objc_methtype: 0x63f8
+-  __TEXT.__objc_stubs: 0x1adc0
++  __TEXT.__objc_stubs: 0x1ade0
+   __DATA_CONST.__got: 0x1b58
+   __DATA_CONST.__const: 0x28a8
+-  __DATA_CONST.__objc_classlist: 0x1078
++  __DATA_CONST.__objc_classlist: 0x1080
+   __DATA_CONST.__objc_catlist: 0x88
+   __DATA_CONST.__objc_protolist: 0x360
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0x8728
+   __DATA_CONST.__objc_protorefs: 0x8
+-  __DATA_CONST.__objc_superrefs: 0xbd8
++  __DATA_CONST.__objc_superrefs: 0xbe0
+   __DATA_CONST.__objc_arraydata: 0xab8
+   __AUTH_CONST.__auth_got: 0xe38
+   __AUTH_CONST.__const: 0x3028
+   __AUTH_CONST.__cfstring: 0x131a0
+-  __AUTH_CONST.__objc_const: 0x29138
++  __AUTH_CONST.__objc_const: 0x291c8
+   __AUTH_CONST.__objc_intobj: 0x858
+   __AUTH_CONST.__objc_dictobj: 0x348
+   __AUTH_CONST.__objc_doubleobj: 0xe0
+   __AUTH_CONST.__objc_arrayobj: 0xd8
+   __AUTH_CONST.__objc_floatobj: 0x30
+-  __AUTH.__objc_data: 0x2800
++  __AUTH.__objc_data: 0x2850
+   __DATA.__objc_ivar: 0x1368
+   __DATA.__data: 0x2968
+   __DATA.__crash_info: 0x148
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  UUID: 51826C20-05D5-3259-98B8-1950050EEEBF
+-  Functions: 8053
+-  Symbols:   26881
+-  CStrings:  15006
++  UUID: 79C86D42-0A7E-381C-A2AD-2BFB2692603B
++  Functions: 8054
++  Symbols:   26889
++  CStrings:  15007
+ 
+Symbols:
++ -[NUFixedUpRegionPolicy regionForGeometry:]
++ GCC_except_table4683
++ GCC_except_table4711
++ GCC_except_table4798
++ GCC_except_table4803
++ GCC_except_table4806
++ GCC_except_table4828
++ GCC_except_table4853
++ GCC_except_table4951
++ GCC_except_table4993
++ GCC_except_table5051
++ GCC_except_table5068
++ GCC_except_table5084
++ GCC_except_table5097
++ GCC_except_table5112
++ GCC_except_table5151
++ GCC_except_table5225
++ GCC_except_table5229
++ GCC_except_table5231
++ GCC_except_table5235
++ GCC_except_table5237
++ GCC_except_table5240
++ GCC_except_table5244
++ GCC_except_table5252
++ GCC_except_table5255
++ GCC_except_table5258
++ GCC_except_table5274
++ GCC_except_table5306
++ GCC_except_table5533
++ GCC_except_table5536
++ GCC_except_table5593
++ GCC_except_table5711
++ GCC_except_table5714
++ GCC_except_table5718
++ GCC_except_table5721
++ GCC_except_table5723
++ GCC_except_table5728
++ GCC_except_table5742
++ GCC_except_table5745
++ GCC_except_table5751
++ GCC_except_table5771
++ GCC_except_table5782
++ GCC_except_table5795
++ GCC_except_table5968
++ GCC_except_table6015
++ GCC_except_table6138
++ GCC_except_table6233
++ GCC_except_table6528
++ GCC_except_table6530
++ GCC_except_table6533
++ GCC_except_table6546
++ GCC_except_table6579
++ GCC_except_table6621
++ GCC_except_table6624
++ GCC_except_table6626
++ GCC_except_table6629
++ GCC_except_table6632
++ GCC_except_table6639
++ GCC_except_table6642
++ GCC_except_table6649
++ GCC_except_table6652
++ GCC_except_table6655
++ GCC_except_table6658
++ GCC_except_table6663
++ GCC_except_table6669
++ GCC_except_table6672
++ GCC_except_table6674
++ GCC_except_table6676
++ GCC_except_table6678
++ GCC_except_table6680
++ GCC_except_table6686
++ GCC_except_table6689
++ GCC_except_table6694
++ GCC_except_table6700
++ GCC_except_table6719
++ GCC_except_table6776
++ GCC_except_table6783
++ GCC_except_table6840
++ GCC_except_table6868
++ GCC_except_table6877
++ GCC_except_table6892
++ GCC_except_table6916
++ GCC_except_table6923
++ GCC_except_table6931
++ GCC_except_table6940
++ GCC_except_table6950
++ GCC_except_table6958
++ GCC_except_table6960
++ GCC_except_table6962
++ GCC_except_table6967
++ GCC_except_table7228
++ GCC_except_table7235
++ GCC_except_table7238
++ GCC_except_table7336
++ GCC_except_table7344
++ GCC_except_table7346
++ GCC_except_table7350
++ GCC_except_table7354
++ GCC_except_table7357
++ GCC_except_table7368
++ GCC_except_table7376
++ GCC_except_table7381
++ GCC_except_table7389
++ GCC_except_table7393
++ GCC_except_table7398
++ GCC_except_table7409
++ GCC_except_table7411
++ GCC_except_table7415
++ GCC_except_table7424
++ GCC_except_table7433
++ GCC_except_table7443
++ GCC_except_table7489
++ GCC_except_table7540
++ GCC_except_table7549
++ GCC_except_table7836
++ GCC_except_table7880
++ GCC_except_table7990
++ GCC_except_table7992
++ GCC_except_table8038
++ _NUAssertLogger.25302
++ _NUAssertLogger.26026
++ _NUAssertLogger.26148
++ _NUAssertLogger.26331
++ _NUAssertLogger.26805
++ _NUAssertLogger.27065
++ _NUAssertLogger.27315
++ _NUAssertLogger.27561
++ _NUAssertLogger.27695
++ _NUAssertLogger.28023
++ _NUAssertLogger.29203
++ _NUAssertLogger.29352
++ _NUAssertLogger.29444
++ _NUAssertLogger.29705
++ _NUAssertLogger.29868
++ _NUAssertLogger.29924
++ _NUAssertLogger.29983
++ _NUAssertLogger.30113
++ _NUAssertLogger.31162
++ _NUAssertLogger.31334
++ _NUAssertLogger.31517
++ _NUAssertLogger.31581
++ _NUAssertLogger.31666
++ _NUAssertLogger.31811
++ _NUAssertLogger.32006
++ _NULogger.30650
++ _OBJC_CLASS_$_NUFixedUpRegionPolicy
++ _OBJC_METACLASS_$_NUFixedUpRegionPolicy
++ __OBJC_$_INSTANCE_METHODS_NUFixedUpRegionPolicy
++ __OBJC_CLASS_RO_$_NUFixedUpRegionPolicy
++ __OBJC_METACLASS_RO_$_NUFixedUpRegionPolicy
++ __ZL14NUAssertLoggerv.26525
++ __ZL14NUAssertLoggerv.28589
++ ___Block_byref_object_copy_.26561
++ ___Block_byref_object_copy_.26674
++ ___Block_byref_object_copy_.28142
++ ___Block_byref_object_copy_.28725
++ ___Block_byref_object_copy_.29383
++ ___Block_byref_object_copy_.30809
++ ___Block_byref_object_copy_.31169
++ ___Block_byref_object_copy_.31901
++ ___Block_byref_object_dispose_.26562
++ ___Block_byref_object_dispose_.26675
++ ___Block_byref_object_dispose_.28143
++ ___Block_byref_object_dispose_.28726
++ ___Block_byref_object_dispose_.29384
++ ___Block_byref_object_dispose_.30810
++ ___Block_byref_object_dispose_.31170
++ ___Block_byref_object_dispose_.31902
++ ___NUAssertLogger_block_invoke.25323
++ ___NUAssertLogger_block_invoke.26044
++ ___NUAssertLogger_block_invoke.26169
++ ___NUAssertLogger_block_invoke.26363
++ ___NUAssertLogger_block_invoke.26457
++ ___NUAssertLogger_block_invoke.26827
++ ___NUAssertLogger_block_invoke.27049
++ ___NUAssertLogger_block_invoke.27332
++ ___NUAssertLogger_block_invoke.27532
++ ___NUAssertLogger_block_invoke.27718
++ ___NUAssertLogger_block_invoke.28044
++ ___NUAssertLogger_block_invoke.29221
++ ___NUAssertLogger_block_invoke.29379
++ ___NUAssertLogger_block_invoke.29462
++ ___NUAssertLogger_block_invoke.29546
++ ___NUAssertLogger_block_invoke.29662
++ ___NUAssertLogger_block_invoke.29891
++ ___NUAssertLogger_block_invoke.29938
++ ___NUAssertLogger_block_invoke.30004
++ ___NUAssertLogger_block_invoke.30136
++ ___NUAssertLogger_block_invoke.31161
++ ___NUAssertLogger_block_invoke.31279
++ ___NUAssertLogger_block_invoke.31354
++ ___NUAssertLogger_block_invoke.31540
++ ___NUAssertLogger_block_invoke.31597
++ ___NUAssertLogger_block_invoke.31696
++ ___NUAssertLogger_block_invoke.31899
++ ___NUAssertLogger_block_invoke.32026
++ ___NULogger_block_invoke.25495
++ ___NULogger_block_invoke.25910
++ ___NULogger_block_invoke.26099
++ ___NULogger_block_invoke.26673
++ ___NULogger_block_invoke.27398
++ ___NULogger_block_invoke.28148
++ ___NULogger_block_invoke.29314
++ ___NULogger_block_invoke.29351
++ ___NULogger_block_invoke.30307
++ ____ZL14NUAssertLoggerv_block_invoke.26558
++ ____ZL14NUAssertLoggerv_block_invoke.28608
++ ____ZL8NULoggerv_block_invoke.25275
++ ___block_literal_global.25320
++ ___block_literal_global.25963
++ ___block_literal_global.26041
++ ___block_literal_global.26166
++ ___block_literal_global.26360
++ ___block_literal_global.26442
++ ___block_literal_global.26555
++ ___block_literal_global.26680
++ ___block_literal_global.26824
++ ___block_literal_global.27035
++ ___block_literal_global.27329
++ ___block_literal_global.27517
++ ___block_literal_global.27715
++ ___block_literal_global.28041
++ ___block_literal_global.28144
++ ___block_literal_global.28344
++ ___block_literal_global.28599
++ ___block_literal_global.29088
++ ___block_literal_global.29218
++ ___block_literal_global.29309
++ ___block_literal_global.29376
++ ___block_literal_global.29459
++ ___block_literal_global.29531
++ ___block_literal_global.29647
++ ___block_literal_global.29883
++ ___block_literal_global.29905
++ ___block_literal_global.30001
++ ___block_literal_global.30133
++ ___block_literal_global.31.29347
++ ___block_literal_global.31146
++ ___block_literal_global.31264
++ ___block_literal_global.31367
++ ___block_literal_global.31537
++ ___block_literal_global.31594
++ ___block_literal_global.31693
++ ___block_literal_global.31896
++ ___block_literal_global.32023
++ ___block_literal_global.62.31351
++ _objc_msgSend$regionByFlippingInRect:
+- GCC_except_table4682
+- GCC_except_table4710
+- GCC_except_table4797
+- GCC_except_table4802
+- GCC_except_table4805
+- GCC_except_table4827
+- GCC_except_table4852
+- GCC_except_table4950
+- GCC_except_table4992
+- GCC_except_table5050
+- GCC_except_table5065
+- GCC_except_table5080
+- GCC_except_table5095
+- GCC_except_table5110
+- GCC_except_table5150
+- GCC_except_table5223
+- GCC_except_table5228
+- GCC_except_table5230
+- GCC_except_table5234
+- GCC_except_table5236
+- GCC_except_table5238
+- GCC_except_table5243
+- GCC_except_table5247
+- GCC_except_table5253
+- GCC_except_table5256
+- GCC_except_table5273
+- GCC_except_table5305
+- GCC_except_table5532
+- GCC_except_table5535
+- GCC_except_table5592
+- GCC_except_table5710
+- GCC_except_table5713
+- GCC_except_table5717
+- GCC_except_table5720
+- GCC_except_table5722
+- GCC_except_table5727
+- GCC_except_table5741
+- GCC_except_table5743
+- GCC_except_table5749
+- GCC_except_table5770
+- GCC_except_table5778
+- GCC_except_table5794
+- GCC_except_table5967
+- GCC_except_table6014
+- GCC_except_table6137
+- GCC_except_table6232
+- GCC_except_table6527
+- GCC_except_table6529
+- GCC_except_table6532
+- GCC_except_table6545
+- GCC_except_table6578
+- GCC_except_table6617
+- GCC_except_table6623
+- GCC_except_table6625
+- GCC_except_table6628
+- GCC_except_table6630
+- GCC_except_table6638
+- GCC_except_table6641
+- GCC_except_table6648
+- GCC_except_table6650
+- GCC_except_table6653
+- GCC_except_table6656
+- GCC_except_table6662
+- GCC_except_table6664
+- GCC_except_table6671
+- GCC_except_table6673
+- GCC_except_table6675
+- GCC_except_table6677
+- GCC_except_table6679
+- GCC_except_table6685
+- GCC_except_table6688
+- GCC_except_table6692
+- GCC_except_table6695
+- GCC_except_table6701
+- GCC_except_table6775
+- GCC_except_table6782
+- GCC_except_table6839
+- GCC_except_table6867
+- GCC_except_table6876
+- GCC_except_table6891
+- GCC_except_table6914
+- GCC_except_table6919
+- GCC_except_table6930
+- GCC_except_table6939
+- GCC_except_table6949
+- GCC_except_table6955
+- GCC_except_table6959
+- GCC_except_table6961
+- GCC_except_table6964
+- GCC_except_table7226
+- GCC_except_table7233
+- GCC_except_table7236
+- GCC_except_table7334
+- GCC_except_table7338
+- GCC_except_table7345
+- GCC_except_table7348
+- GCC_except_table7351
+- GCC_except_table7355
+- GCC_except_table7366
+- GCC_except_table7372
+- GCC_except_table7377
+- GCC_except_table7382
+- GCC_except_table7391
+- GCC_except_table7395
+- GCC_except_table7403
+- GCC_except_table7410
+- GCC_except_table7412
+- GCC_except_table7419
+- GCC_except_table7425
+- GCC_except_table7437
+- GCC_except_table7488
+- GCC_except_table7539
+- GCC_except_table7548
+- GCC_except_table7835
+- GCC_except_table7879
+- GCC_except_table7989
+- GCC_except_table7991
+- GCC_except_table8037
+- _NUAssertLogger.25301
+- _NUAssertLogger.26025
+- _NUAssertLogger.26147
+- _NUAssertLogger.26330
+- _NUAssertLogger.26804
+- _NUAssertLogger.27064
+- _NUAssertLogger.27314
+- _NUAssertLogger.27560
+- _NUAssertLogger.27694
+- _NUAssertLogger.28021
+- _NUAssertLogger.29201
+- _NUAssertLogger.29350
+- _NUAssertLogger.29442
+- _NUAssertLogger.29703
+- _NUAssertLogger.29866
+- _NUAssertLogger.29922
+- _NUAssertLogger.29981
+- _NUAssertLogger.30111
+- _NUAssertLogger.31160
+- _NUAssertLogger.31332
+- _NUAssertLogger.31515
+- _NUAssertLogger.31579
+- _NUAssertLogger.31664
+- _NUAssertLogger.31809
+- _NUAssertLogger.32004
+- _NULogger.30648
+- __ZL14NUAssertLoggerv.26524
+- __ZL14NUAssertLoggerv.28587
+- ___Block_byref_object_copy_.26560
+- ___Block_byref_object_copy_.26673
+- ___Block_byref_object_copy_.28140
+- ___Block_byref_object_copy_.28723
+- ___Block_byref_object_copy_.29381
+- ___Block_byref_object_copy_.30807
+- ___Block_byref_object_copy_.31167
+- ___Block_byref_object_copy_.31899
+- ___Block_byref_object_dispose_.26561
+- ___Block_byref_object_dispose_.26674
+- ___Block_byref_object_dispose_.28141
+- ___Block_byref_object_dispose_.28724
+- ___Block_byref_object_dispose_.29382
+- ___Block_byref_object_dispose_.30808
+- ___Block_byref_object_dispose_.31168
+- ___Block_byref_object_dispose_.31900
+- ___NUAssertLogger_block_invoke.25322
+- ___NUAssertLogger_block_invoke.26043
+- ___NUAssertLogger_block_invoke.26168
+- ___NUAssertLogger_block_invoke.26362
+- ___NUAssertLogger_block_invoke.26456
+- ___NUAssertLogger_block_invoke.26826
+- ___NUAssertLogger_block_invoke.27048
+- ___NUAssertLogger_block_invoke.27331
+- ___NUAssertLogger_block_invoke.27531
+- ___NUAssertLogger_block_invoke.27717
+- ___NUAssertLogger_block_invoke.28042
+- ___NUAssertLogger_block_invoke.29219
+- ___NUAssertLogger_block_invoke.29377
+- ___NUAssertLogger_block_invoke.29460
+- ___NUAssertLogger_block_invoke.29544
+- ___NUAssertLogger_block_invoke.29660
+- ___NUAssertLogger_block_invoke.29889
+- ___NUAssertLogger_block_invoke.29936
+- ___NUAssertLogger_block_invoke.30002
+- ___NUAssertLogger_block_invoke.30134
+- ___NUAssertLogger_block_invoke.31159
+- ___NUAssertLogger_block_invoke.31277
+- ___NUAssertLogger_block_invoke.31352
+- ___NUAssertLogger_block_invoke.31538
+- ___NUAssertLogger_block_invoke.31595
+- ___NUAssertLogger_block_invoke.31694
+- ___NUAssertLogger_block_invoke.31897
+- ___NUAssertLogger_block_invoke.32024
+- ___NULogger_block_invoke.25494
+- ___NULogger_block_invoke.25909
+- ___NULogger_block_invoke.26098
+- ___NULogger_block_invoke.26672
+- ___NULogger_block_invoke.27397
+- ___NULogger_block_invoke.28146
+- ___NULogger_block_invoke.29312
+- ___NULogger_block_invoke.29349
+- ___NULogger_block_invoke.30305
+- ____ZL14NUAssertLoggerv_block_invoke.26557
+- ____ZL14NUAssertLoggerv_block_invoke.28606
+- ____ZL8NULoggerv_block_invoke.25274
+- ___block_literal_global.25319
+- ___block_literal_global.25962
+- ___block_literal_global.26040
+- ___block_literal_global.26165
+- ___block_literal_global.26359
+- ___block_literal_global.26441
+- ___block_literal_global.26554
+- ___block_literal_global.26679
+- ___block_literal_global.26823
+- ___block_literal_global.27034
+- ___block_literal_global.27328
+- ___block_literal_global.27516
+- ___block_literal_global.27714
+- ___block_literal_global.28039
+- ___block_literal_global.28142
+- ___block_literal_global.28342
+- ___block_literal_global.28597
+- ___block_literal_global.29086
+- ___block_literal_global.29216
+- ___block_literal_global.29307
+- ___block_literal_global.29374
+- ___block_literal_global.29457
+- ___block_literal_global.29529
+- ___block_literal_global.29645
+- ___block_literal_global.29881
+- ___block_literal_global.29903
+- ___block_literal_global.29999
+- ___block_literal_global.30131
+- ___block_literal_global.31.29345
+- ___block_literal_global.31144
+- ___block_literal_global.31262
+- ___block_literal_global.31365
+- ___block_literal_global.31535
+- ___block_literal_global.31592
+- ___block_literal_global.31691
+- ___block_literal_global.31894
+- ___block_literal_global.32021
+- ___block_literal_global.62.31349
+Functions:
++ -[NUFixedUpRegionPolicy regionForGeometry:]
+CStrings:
++ "NUFixedUpRegionPolicy"
+
+```

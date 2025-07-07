@@ -1,0 +1,120 @@
+## AppleIntelligenceReportingProcessing
+
+> `/System/Library/PrivateFrameworks/AppleIntelligenceReportingProcessing.framework/AppleIntelligenceReportingProcessing`
+
+```diff
+
+-39.0.0.0.0
+-  __TEXT.__text: 0x4beec
++43.0.0.0.0
++  __TEXT.__text: 0x4c070
+   __TEXT.__auth_stubs: 0x1a60
+-  __TEXT.__const: 0x1fe6
+-  __TEXT.__cstring: 0x13d1
+-  __TEXT.__swift5_typeref: 0xf2c
++  __TEXT.__const: 0x1fd6
++  __TEXT.__cstring: 0x13de
++  __TEXT.__swift5_typeref: 0xf2b
++  __TEXT.__oslogstring: 0xebe
+   __TEXT.__constg_swiftt: 0xc50
+-  __TEXT.__swift5_reflstr: 0xdbd
+   __TEXT.__swift5_fieldmd: 0xf54
++  __TEXT.__swift5_capture: 0xb4
+   __TEXT.__swift5_proto: 0x154
+   __TEXT.__swift5_types: 0xa4
+-  __TEXT.__oslogstring: 0xeb8
+-  __TEXT.__swift5_capture: 0xb4
+-  __TEXT.__swift5_protos: 0x10
++  __TEXT.__swift5_reflstr: 0xdad
+   __TEXT.__swift5_assocty: 0xd0
++  __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_entry: 0x20
+   __TEXT.__swift_as_ret: 0x24
+-  __TEXT.__unwind_info: 0x11b8
+-  __TEXT.__eh_frame: 0x1ac0
++  __TEXT.__unwind_info: 0x11c8
++  __TEXT.__eh_frame: 0x1ab8
+   __TEXT.__objc_methname: 0xed
+   __DATA_CONST.__got: 0x5b0
+   __DATA_CONST.__const: 0x2e8
+
+   __DATA.__bss: 0x2290
+   __DATA_DIRTY.__objc_data: 0x50
+   __DATA_DIRTY.__data: 0x11b0
+-  __DATA_DIRTY.__common: 0x48
+   __DATA_DIRTY.__bss: 0x600
++  __DATA_DIRTY.__common: 0x48
+   - /System/Library/Frameworks/Combine.framework/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Foundation
+
+   - /usr/lib/swift/libswift_Builtin_float.dylib
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+-  UUID: 08C319CD-CDB9-3294-9038-E759438CC933
+-  Functions: 2116
+-  Symbols:   6185
++  UUID: 4AF3E93A-F68F-3F8A-84E8-EA3B411195DB
++  Functions: 2110
++  Symbols:   6177
+   CStrings:  236
+ 
+Symbols:
++ _$s27IntelligencePlatformLibrary05AppleA14ReportingAssetV0daE10ProcessingE09formattedF0SSvg
++ _$s27IntelligencePlatformLibrary05AppleA14ReportingAssetV0daE10ProcessingE09formattedF0SSvpMV
++ _$s36AppleIntelligenceReportingProcessing0aB10BiomeEventOWOcTm
++ _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataVMaTm
++ _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataVWObTm
++ _$s36AppleIntelligenceReportingProcessing9CAEncoderCACs7EncoderAAWlTm
++ _$sSD8IteratorV8_VariantOy10Foundation4UUIDVAG__GWOe
++ _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyF36AppleIntelligenceReportingProcessing22InvocationStepMetadataV_Tg5Tm
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF36AppleIntelligenceReportingProcessing14InvocationStepO_Tg5
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF36AppleIntelligenceReportingProcessing27AssetDeliverySubsystemErrorV_Tg5
++ _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtFSS_Tg5Tm
++ _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tF36AppleIntelligenceReportingProcessing22InvocationStepMetadataV_Tg5Tm
++ _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF36AppleIntelligenceReportingProcessing14InvocationStepO_SayAGGTg5Tm
++ _$sScPSgWOc
++ _$sScTss5Error_pRs_rlE4name8priority9operationScTyxsAA_pGSSSg_ScPSgxyYaKYAcntcfCyt_Tt2g5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF36AppleIntelligenceReportingProcessing14InvocationStepO_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF36AppleIntelligenceReportingProcessing21InvocationInformationV_Tg5
++ _$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF36AppleIntelligenceReportingProcessing22InvocationStepMetadataV_Tg5
++ _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF27IntelligencePlatformLibrary05AppleP16ReportingUseCaseV9ParameterV_Tg5
++ _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF27IntelligencePlatformLibrary05AppleH16ReportingUseCaseV9ParameterV_Tg5
+- _$s36AppleIntelligenceReportingProcessing17CAUnkeyedEncodingCACs07UnkeyedF9ContainerAAWlTm
+- _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataV7PartialVMaTm
+- _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataV7PartialVWObTm
+- _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataV7PartialVWOcTm
+- _$s36AppleIntelligenceReportingProcessing22InvocationStepMetadataV7PartialVWOhTm
+- _$sSa034_makeUniqueAndReserveCapacityIfNotB0yyF36AppleIntelligenceReportingProcessing22InvocationStepMetadataV_Tg5
+- _$sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF36AppleIntelligenceReportingProcessing27AssetDeliverySubsystemErrorV_Tg5Tm
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tF36AppleIntelligenceReportingProcessing18AssetDeliveryStateC7SessionCy_0I15PlatformLibrary0hiJ15ModelCatalogLogVG_Tg5
+- _$sSa36_reserveCapacityAssumingUniqueBuffer8oldCountySi_tF36AppleIntelligenceReportingProcessing18AssetDeliveryStateC7SessionCy_0I15PlatformLibrary0hij6MobileL3LogVG_Tg5
+- _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF36AppleIntelligenceReportingProcessing27AssetDeliverySubsystemErrorV_SayAGGTg5
+- _$sSp14moveInitialize4from5countySpyxG_SitF27IntelligencePlatformLibrary05AppleE24ReportingModelCatalogLogV_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitF36AppleIntelligenceReportingProcessing27AssetDeliverySubsystemErrorV_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitFSSSg_Tg5
+- _$sSp14moveInitialize4from5countySpyxG_SitFSS_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF27IntelligencePlatformLibrary05AppleP24ReportingModelCatalogLogV_Tg5
+- _$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtF36AppleIntelligenceReportingProcessing27AssetDeliverySubsystemErrorV_Tg5
+- _$ss6_merge3low3mid4high6buffer2bySbSpyxG_A3GSbx_xtKXEtKlF6$deferL_yylF36AppleIntelligenceReportingProcessing14InvocationStepO_Tg5
+- _OUTLINED_FUNCTION_140
+- _OUTLINED_FUNCTION_141
+- _OUTLINED_FUNCTION_142
+- _OUTLINED_FUNCTION_143
+- _OUTLINED_FUNCTION_144
+- _OUTLINED_FUNCTION_145
+- _OUTLINED_FUNCTION_146
+- _OUTLINED_FUNCTION_147
+- _OUTLINED_FUNCTION_148
+- _OUTLINED_FUNCTION_149
+- _OUTLINED_FUNCTION_150
+- _OUTLINED_FUNCTION_151
+- _OUTLINED_FUNCTION_152
+- _OUTLINED_FUNCTION_153
+- _OUTLINED_FUNCTION_154
+- _OUTLINED_FUNCTION_155
+- _OUTLINED_FUNCTION_156
+- _OUTLINED_FUNCTION_157
+- _OUTLINED_FUNCTION_158
+
+```

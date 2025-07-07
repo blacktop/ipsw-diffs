@@ -1,0 +1,1116 @@
+## ContactsUI
+
+> `/System/Library/Frameworks/ContactsUI.framework/ContactsUI`
+
+```diff
+
+-1415.100.3.2.4
+-  __TEXT.__text: 0x372270
+-  __TEXT.__auth_stubs: 0x54d0
+-  __TEXT.__objc_methlist: 0x38b04
+-  __TEXT.__dlopen_cstrs: 0x17b7
+-  __TEXT.__const: 0xb278
+-  __TEXT.__cstring: 0x16a97
+-  __TEXT.__oslogstring: 0x9f6d
++1418.100.1.2.1
++  __TEXT.__text: 0x3751a4
++  __TEXT.__auth_stubs: 0x54e0
++  __TEXT.__objc_methlist: 0x38b6c
++  __TEXT.__dlopen_cstrs: 0x1801
++  __TEXT.__const: 0xb288
++  __TEXT.__cstring: 0x16a7d
++  __TEXT.__oslogstring: 0xa426
+   __TEXT.__swift5_typeref: 0xffbc
+   __TEXT.__constg_swiftt: 0x58b4
+-  __TEXT.__swift5_reflstr: 0x38b1
++  __TEXT.__swift5_reflstr: 0x38a1
+   __TEXT.__swift5_fieldmd: 0x36a8
+   __TEXT.__swift5_builtin: 0x230
+   __TEXT.__swift5_assocty: 0xf68
+-  __TEXT.__swift5_capture: 0x129c
++  __TEXT.__swift5_capture: 0x12bc
+   __TEXT.__swift5_proto: 0x464
+   __TEXT.__swift5_types: 0x3fc
+   __TEXT.__swift_as_entry: 0x78
+   __TEXT.__swift_as_ret: 0x88
+   __TEXT.__swift5_mpenum: 0x8
+   __TEXT.__swift5_protos: 0x14
+-  __TEXT.__gcc_except_tab: 0x3644
++  __TEXT.__gcc_except_tab: 0x36a0
+   __TEXT.__ustring: 0x79a
+-  __TEXT.__unwind_info: 0xdab8
++  __TEXT.__unwind_info: 0xdcc0
+   __TEXT.__eh_frame: 0x21a8
+   __TEXT.__objc_classname: 0x7453
+-  __TEXT.__objc_methname: 0x79e33
++  __TEXT.__objc_methname: 0x79ee2
+   __TEXT.__objc_methtype: 0x1055f
+-  __TEXT.__objc_stubs: 0x4fc60
+-  __DATA_CONST.__got: 0x2838
+-  __DATA_CONST.__const: 0x6618
++  __TEXT.__objc_stubs: 0x4fca0
++  __DATA_CONST.__got: 0x2840
++  __DATA_CONST.__const: 0x6630
+   __DATA_CONST.__objc_classlist: 0x1760
+   __DATA_CONST.__objc_catlist: 0x130
+   __DATA_CONST.__objc_protolist: 0x968
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x180c8
++  __DATA_CONST.__objc_selrefs: 0x180d8
+   __DATA_CONST.__objc_protorefs: 0x1a0
+   __DATA_CONST.__objc_superrefs: 0xf28
+   __DATA_CONST.__objc_arraydata: 0x5d8
+-  __AUTH_CONST.__auth_got: 0x2a78
+-  __AUTH_CONST.__const: 0x9fd0
+-  __AUTH_CONST.__cfstring: 0xb800
+-  __AUTH_CONST.__objc_const: 0x58858
++  __AUTH_CONST.__auth_got: 0x2a80
++  __AUTH_CONST.__const: 0xa060
++  __AUTH_CONST.__cfstring: 0xb840
++  __AUTH_CONST.__objc_const: 0x58890
+   __AUTH_CONST.__objc_doubleobj: 0xd0
+   __AUTH_CONST.__objc_intobj: 0x468
+   __AUTH_CONST.__objc_arrayobj: 0x2b8
+   __AUTH_CONST.__objc_dictobj: 0x78
+   __AUTH.__objc_data: 0xfc28
+   __AUTH.__data: 0x38b0
+-  __DATA.__objc_ivar: 0x3ba0
+-  __DATA.__data: 0xae98
+-  __DATA.__bss: 0xa828
++  __DATA.__objc_ivar: 0x3ba4
++  __DATA.__data: 0xae78
++  __DATA.__bss: 0xa868
+   __DATA.__common: 0x330
+   __DATA_DIRTY.__objc_data: 0x1fa8
+   __DATA_DIRTY.__data: 0x30
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: 0F885F27-B61E-3290-8EC0-A3A84E872E90
+-  Functions: 24166
+-  Symbols:   64075
+-  CStrings:  24847
++  UUID: FCF44B8E-3EDC-30C3-AAA0-733067149D35
++  Functions: 24182
++  Symbols:   64117
++  CStrings:  24877
+ 
+Symbols:
++ +[CNContactDeleteAcceptedAction os_log]
++ +[CNContactInlineActionsViewController os_log]
++ -[CNContactContentUnitaryViewController initWithEnvironment:isInlineContactCard:]
++ -[CNContactContentUnitaryViewController multiplePhoneNumbersTiedToAppleID]
++ -[CNContactContentUnitaryViewController onboardingControllerDidFinishSetup:]
++ -[CNContactContentUnitaryViewController onboardingController]
++ -[CNContactContentUnitaryViewController setOnboardingController:]
++ -[CNSharedProfileOnboardingController startVisualIdentityOnboardingForMultipleDevicesFromViewController:]
++ GCC_except_table14782
++ GCC_except_table14854
++ GCC_except_table14975
++ GCC_except_table14979
++ GCC_except_table15051
++ GCC_except_table15117
++ GCC_except_table15127
++ GCC_except_table15131
++ GCC_except_table15152
++ GCC_except_table15321
++ GCC_except_table15422
++ GCC_except_table15502
++ GCC_except_table15506
++ GCC_except_table15524
++ GCC_except_table15574
++ GCC_except_table15697
++ GCC_except_table16001
++ GCC_except_table16016
++ GCC_except_table16032
++ GCC_except_table16045
++ GCC_except_table16046
++ GCC_except_table16050
++ GCC_except_table16051
++ GCC_except_table16071
++ GCC_except_table16147
++ GCC_except_table16533
++ GCC_except_table16535
++ GCC_except_table16544
++ GCC_except_table16636
++ GCC_except_table16699
++ GCC_except_table16739
++ GCC_except_table16869
++ GCC_except_table17146
++ GCC_except_table17150
++ GCC_except_table17615
++ GCC_except_table17632
++ GCC_except_table17684
++ GCC_except_table17694
++ GCC_except_table17733
++ GCC_except_table17753
++ GCC_except_table17785
++ GCC_except_table17786
++ GCC_except_table17793
++ GCC_except_table17794
++ GCC_except_table17819
++ GCC_except_table17946
++ GCC_except_table17956
++ GCC_except_table17972
++ GCC_except_table17976
++ GCC_except_table17980
++ GCC_except_table17982
++ GCC_except_table18027
++ GCC_except_table18223
++ GCC_except_table18280
++ GCC_except_table18281
++ GCC_except_table18288
++ GCC_except_table18292
++ GCC_except_table18298
++ GCC_except_table18307
++ GCC_except_table18310
++ GCC_except_table18335
++ GCC_except_table18357
++ GCC_except_table18375
++ GCC_except_table18376
++ GCC_except_table18387
++ GCC_except_table18394
++ GCC_except_table18395
++ GCC_except_table18398
++ GCC_except_table18400
++ GCC_except_table18402
++ GCC_except_table18415
++ GCC_except_table18556
++ _AFPreferencesFunction.46307
++ _AssistantServicesLibraryCore.frameworkLibrary.49062
++ _AssistantServicesLibraryCore.frameworkLibrary.54927
++ _AvatarKitLibraryCore.frameworkLibrary.51047
++ _AvatarKitLibraryCore.frameworkLibrary.55490
++ _AvatarUILibrary.41988
++ _AvatarUILibrary.53442
++ _AvatarUILibraryCore.frameworkLibrary.41998
++ _AvatarUILibraryCore.frameworkLibrary.53446
++ _AvatarUILibraryCore.frameworkLibrary.55466
++ _CRRecentContactsLibraryFunction.50659
++ _FBSOpenApplicationServiceFunction.50283
++ _FBSOpenApplicationServiceFunction.51664
++ _GameCenterFoundationLibraryCore.frameworkLibrary.42286
++ _GameCenterFoundationLibraryCore.frameworkLibrary.49642
++ _GameCenterUICoreLibraryCore.frameworkLibrary.42269
++ _GameCenterUICoreLibraryCore.frameworkLibrary.49647
++ _GameCenterUILibraryCore.frameworkLibrary.49611
++ _HealthKitLibraryCore.frameworkLibrary.41805
++ _IDSLibrary.46387
++ _IDSLibraryCore.frameworkLibrary.42798
++ _IDSLibraryCore.frameworkLibrary.46403
++ _IDSLibraryCore.frameworkLibrary.50645
++ _IDSLibraryCore.frameworkLibrary.52259
++ _IMCoreLibraryCore.frameworkLibrary.47480
++ _IMCoreLibraryCore.frameworkLibrary.64537
++ _IntlPreferencesUILibraryCore.frameworkLibrary.58472
++ _LoadAppleAccount.frameworkLibrary.51420
++ _LoadAppleAccount.loadPredicate.51413
++ _LoadAssistantServices.frameworkLibrary.46312
++ _LoadAssistantServices.loadPredicate.46302
++ _LoadCarPlayServices.frameworkLibrary.50288
++ _LoadCarPlayServices.frameworkLibrary.51669
++ _LoadCarPlayServices.loadPredicate.50278
++ _LoadCarPlayServices.loadPredicate.51659
++ _LoadCoreRecents.frameworkLibrary.50663
++ _LoadCoreRecents.loadPredicate.50655
++ _LoadCoreSuggestions.frameworkLibrary.50641
++ _LoadCoreSuggestions.loadPredicate.50638
++ _LoadMedicalIDUI.frameworkLibrary.41788
++ _LoadMedicalIDUI.loadPredicate.41781
++ _LoadPhotos.frameworkLibrary.44814
++ _LoadPhotos.frameworkLibrary.47923
++ _LoadPhotos.loadPredicate.44811
++ _LoadPhotos.loadPredicate.47918
++ _LoadPhotosUI.frameworkLibrary.44854
++ _LoadPhotosUI.loadPredicate.44846
++ _MIUIDisplayConfigurationFunction.41795
++ _MIUIMedicalIDViewControllerFunction.41784
++ _MobileCoreServicesLibrary.57925
++ _MobileCoreServicesLibraryCore.frameworkLibrary.47322
++ _MobileCoreServicesLibraryCore.frameworkLibrary.57935
++ _OBJC_IVAR_$_CNContactContentUnitaryViewController._onboardingController
++ _PHPhotoLibraryFunction.47939
++ _PHPickerViewControllerFunction.44850
++ _PosterBoardServicesLibrary.65444
++ _PosterBoardServicesLibraryCore.frameworkLibrary.65452
++ _PosterBoardUIServicesLibraryCore.frameworkLibrary.65509
++ _PosterKitLibraryCore.frameworkLibrary.65649
++ _SiriActivationLibrary.54909
++ _SiriActivationLibraryCore.frameworkLibrary.54915
++ _SocialLibraryCore.frameworkLibrary.59579
++ _SocialLibraryCore.frameworkLibrary.64666
++ _ToneKitLibraryCore.frameworkLibrary.57697
++ __OBJC_$_CLASS_METHODS_CNContactDeleteAcceptedAction
++ ___105-[CNSharedProfileOnboardingController startVisualIdentityOnboardingForMultipleDevicesFromViewController:]_block_invoke
++ ___105-[CNSharedProfileOnboardingController startVisualIdentityOnboardingForMultipleDevicesFromViewController:]_block_invoke.81
++ ___39+[CNContactDeleteAcceptedAction os_log]_block_invoke
++ ___46+[CNContactInlineActionsViewController os_log]_block_invoke
++ ___68-[CNContactInlineActionsViewController discoverAvailableActionTypes]_block_invoke.42
++ ___68-[CNContactInlineActionsViewController discoverAvailableActionTypes]_block_invoke_2.43
++ ___81-[CNContactContentUnitaryViewController initWithEnvironment:isInlineContactCard:]_block_invoke
++ ___AssistantServicesLibraryCore_block_invoke.49063
++ ___AssistantServicesLibraryCore_block_invoke.54928
++ ___AvatarKitLibraryCore_block_invoke.51048
++ ___AvatarKitLibraryCore_block_invoke.55491
++ ___AvatarUILibraryCore_block_invoke.41999
++ ___AvatarUILibraryCore_block_invoke.53447
++ ___AvatarUILibraryCore_block_invoke.55467
++ ___Block_byref_object_copy_.44525
++ ___Block_byref_object_copy_.47932
++ ___Block_byref_object_copy_.48809
++ ___Block_byref_object_copy_.51041
++ ___Block_byref_object_copy_.53069
++ ___Block_byref_object_copy_.54664
++ ___Block_byref_object_copy_.55810
++ ___Block_byref_object_copy_.56847
++ ___Block_byref_object_copy_.59513
++ ___Block_byref_object_copy_.62422
++ ___Block_byref_object_copy_.64152
++ ___Block_byref_object_copy_.64574
++ ___Block_byref_object_dispose_.44526
++ ___Block_byref_object_dispose_.47933
++ ___Block_byref_object_dispose_.48810
++ ___Block_byref_object_dispose_.51042
++ ___Block_byref_object_dispose_.53070
++ ___Block_byref_object_dispose_.54665
++ ___Block_byref_object_dispose_.55811
++ ___Block_byref_object_dispose_.56848
++ ___Block_byref_object_dispose_.59514
++ ___Block_byref_object_dispose_.62423
++ ___Block_byref_object_dispose_.64153
++ ___Block_byref_object_dispose_.64575
++ ___GameCenterFoundationLibraryCore_block_invoke.42287
++ ___GameCenterFoundationLibraryCore_block_invoke.49643
++ ___GameCenterUICoreLibraryCore_block_invoke.42270
++ ___GameCenterUICoreLibraryCore_block_invoke.49648
++ ___GameCenterUILibraryCore_block_invoke.49612
++ ___HealthKitLibraryCore_block_invoke.41806
++ ___IDSLibraryCore_block_invoke.42799
++ ___IDSLibraryCore_block_invoke.46404
++ ___IDSLibraryCore_block_invoke.50646
++ ___IDSLibraryCore_block_invoke.52260
++ ___IMCoreLibraryCore_block_invoke.47481
++ ___IMCoreLibraryCore_block_invoke.64538
++ ___IntlPreferencesUILibraryCore_block_invoke.58473
++ ___LoadAppleAccount_block_invoke.51418
++ ___LoadAssistantServices_block_invoke.46310
++ ___LoadCarPlayServices_block_invoke.50286
++ ___LoadCarPlayServices_block_invoke.51667
++ ___LoadCoreRecents_block_invoke.50662
++ ___LoadCoreSuggestions_block_invoke.50640
++ ___LoadMedicalIDUI_block_invoke.41786
++ ___LoadPhotosUI_block_invoke.44852
++ ___LoadPhotos_block_invoke.44813
++ ___LoadPhotos_block_invoke.47921
++ ___MobileCoreServicesLibraryCore_block_invoke.47323
++ ___MobileCoreServicesLibraryCore_block_invoke.57936
++ ___PosterBoardServicesLibraryCore_block_invoke.65453
++ ___PosterBoardUIServicesLibraryCore_block_invoke.65510
++ ___PosterKitLibraryCore_block_invoke.65650
++ ___SiriActivationLibraryCore_block_invoke.54916
++ ___SocialLibraryCore_block_invoke.59580
++ ___SocialLibraryCore_block_invoke.64667
++ ___ToneKitLibraryCore_block_invoke.57698
++ ___block_literal_global.10.64182
++ ___block_literal_global.11.63835
++ ___block_literal_global.1119
++ ___block_literal_global.1122
++ ___block_literal_global.127.52732
++ ___block_literal_global.135.43406
++ ___block_literal_global.14.45196
++ ___block_literal_global.14.57601
++ ___block_literal_global.19.42245
++ ___block_literal_global.2.49526
++ ___block_literal_global.2.62976
++ ___block_literal_global.23.45182
++ ___block_literal_global.23.63135
++ ___block_literal_global.25.40883
++ ___block_literal_global.25.63136
++ ___block_literal_global.25.64172
++ ___block_literal_global.26.57597
++ ___block_literal_global.28.49298
++ ___block_literal_global.29.45173
++ ___block_literal_global.29.48410
++ ___block_literal_global.29.63655
++ ___block_literal_global.3.57636
++ ___block_literal_global.3.58654
++ ___block_literal_global.3.58887
++ ___block_literal_global.38.64160
++ ___block_literal_global.4.46789
++ ___block_literal_global.41657
++ ___block_literal_global.41831
++ ___block_literal_global.41954
++ ___block_literal_global.41986
++ ___block_literal_global.42.66768
++ ___block_literal_global.42255
++ ___block_literal_global.42560
++ ___block_literal_global.43324
++ ___block_literal_global.43689
++ ___block_literal_global.43787
++ ___block_literal_global.43884
++ ___block_literal_global.44302
++ ___block_literal_global.44512
++ ___block_literal_global.44691
++ ___block_literal_global.44862
++ ___block_literal_global.45203
++ ___block_literal_global.46130
++ ___block_literal_global.46316
++ ___block_literal_global.46791
++ ___block_literal_global.47.60468
++ ___block_literal_global.47086
++ ___block_literal_global.47339
++ ___block_literal_global.47413
++ ___block_literal_global.47947
++ ___block_literal_global.48218
++ ___block_literal_global.48443
++ ___block_literal_global.48975
++ ___block_literal_global.49.56546
++ ___block_literal_global.49300
++ ___block_literal_global.49357
++ ___block_literal_global.49444
++ ___block_literal_global.49525
++ ___block_literal_global.49918
++ ___block_literal_global.5.46120
++ ___block_literal_global.50279
++ ___block_literal_global.50656
++ ___block_literal_global.51081
++ ___block_literal_global.51231
++ ___block_literal_global.51409
++ ___block_literal_global.51512
++ ___block_literal_global.51527
++ ___block_literal_global.51660
++ ___block_literal_global.51955
++ ___block_literal_global.52136
++ ___block_literal_global.52841
++ ___block_literal_global.53078
++ ___block_literal_global.53185
++ ___block_literal_global.53495
++ ___block_literal_global.53725
++ ___block_literal_global.53805
++ ___block_literal_global.54.61043
++ ___block_literal_global.54163
++ ___block_literal_global.54663
++ ___block_literal_global.55141
++ ___block_literal_global.55508
++ ___block_literal_global.56.66758
++ ___block_literal_global.56066
++ ___block_literal_global.56590
++ ___block_literal_global.57.51414
++ ___block_literal_global.57646
++ ___block_literal_global.58389
++ ___block_literal_global.58647
++ ___block_literal_global.58882
++ ___block_literal_global.59610
++ ___block_literal_global.60.61031
++ ___block_literal_global.60473
++ ___block_literal_global.61097
++ ___block_literal_global.62373
++ ___block_literal_global.62983
++ ___block_literal_global.63.46303
++ ___block_literal_global.63149
++ ___block_literal_global.63684
++ ___block_literal_global.63841
++ ___block_literal_global.64196
++ ___block_literal_global.64776
++ ___block_literal_global.65099
++ ___block_literal_global.65716
++ ___block_literal_global.65914
++ ___block_literal_global.66159
++ ___block_literal_global.66375
++ ___block_literal_global.66552
++ ___block_literal_global.78.44507
++ ___block_literal_global.8.46787
++ ___block_literal_global.89.58380
++ ___block_literal_global.9.41978
++ ___block_literal_global.9.46111
++ ___getAVTAvatarRecordImageProviderClass_block_invoke.53438
++ ___getAVTAvatarRecordRenderingClass_block_invoke.55465
++ ___getAVTAvatarStoreClass_block_invoke.42009
++ ___getAVTRenderingScopeClass_block_invoke.53440
++ ___getAVTStickerGeneratorOptionsClass_block_invoke.51044
++ ___getAVTViewClass_block_invoke.55487
++ ___getGKDaemonProxyClass_block_invoke.42266
++ ___getGKDaemonProxyClass_block_invoke.49634
++ ___getGKLocalPlayerClass_block_invoke.42268
++ ___getGKLocalPlayerClass_block_invoke.49636
++ ___getIDSIDQueryControllerClass_block_invoke.50644
++ ___getIDSServiceNameFaceTimeSymbolLoc_block_invoke.46386
++ ___getIDSServiceNameiMessageSymbolLoc_block_invoke.42788
++ ___getIDSServiceNameiMessageSymbolLoc_block_invoke.46396
++ ___getIDSServiceNameiMessageSymbolLoc_block_invoke.52252
++ ___getIMNicknameControllerClass_block_invoke.47479
++ ___getIMNicknameControllerClass_block_invoke.64536
++ ___getIPPronounPickerViewControllerClass_block_invoke.58471
++ ___getPRSPosterConfigurationAttributesClass_block_invoke.65477
++ ___getPRSPosterRoleIncomingCallSymbolLoc_block_invoke.65443
++ ___getSLComposeViewControllerClass_block_invoke.59575
++ ___getSLComposeViewControllerClass_block_invoke.64660
++ ___getSiriDirectActionContextClass_block_invoke.54906
++ ___getSiriDirectActionSourceClass_block_invoke.54908
++ ___getkAssistantDirectActionEventKeySymbolLoc_block_invoke.54898
++ ___getkUTTypeJPEGSymbolLoc_block_invoke.57931
++ ___getkUTTypePNGSymbolLoc_block_invoke.57924
++ _audit_stringAssistantServices.49077
++ _audit_stringAssistantServices.54932
++ _audit_stringAvatarKit.51055
++ _audit_stringAvatarKit.55496
++ _audit_stringAvatarUI.42002
++ _audit_stringAvatarUI.53453
++ _audit_stringAvatarUI.55482
++ _audit_stringGameCenterFoundation.42292
++ _audit_stringGameCenterFoundation.49645
++ _audit_stringGameCenterUI.49627
++ _audit_stringGameCenterUICore.42285
++ _audit_stringGameCenterUICore.49652
++ _audit_stringHealthKit.41819
++ _audit_stringIDS.42803
++ _audit_stringIDS.46407
++ _audit_stringIDS.50650
++ _audit_stringIDS.52264
++ _audit_stringIMCore.47497
++ _audit_stringIMCore.64542
++ _audit_stringIntlPreferencesUI.58489
++ _audit_stringMobileCoreServices.47327
++ _audit_stringMobileCoreServices.57939
++ _audit_stringPosterBoardServices.65456
++ _audit_stringPosterBoardUIServices.65512
++ _audit_stringPosterKit.65652
++ _audit_stringSiriActivation.54919
++ _audit_stringSocial.59584
++ _audit_stringSocial.64671
++ _audit_stringToneKit.57712
++ _classAFPreferences.46305
++ _classCRRecentContactsLibrary.50657
++ _classFBSOpenApplicationService.50281
++ _classFBSOpenApplicationService.51662
++ _classMIUIDisplayConfiguration.41793
++ _classMIUIMedicalIDViewController.41782
++ _classPHPhotoLibrary.47937
++ _classPHPickerViewController.44848
++ _defaultServices._services.49358
++ _defaultServices.onceToken.49356
++ _descriptorForRequiredKeys.cn_once_object_1.42561
++ _descriptorForRequiredKeys.cn_once_object_1.43690
++ _descriptorForRequiredKeys.cn_once_object_1.47087
++ _descriptorForRequiredKeys.cn_once_object_1.48219
++ _descriptorForRequiredKeys.cn_once_object_1.48976
++ _descriptorForRequiredKeys.cn_once_object_1.49919
++ _descriptorForRequiredKeys.cn_once_object_1.53496
++ _descriptorForRequiredKeys.cn_once_object_2.45197
++ _descriptorForRequiredKeys.cn_once_token_1.42559
++ _descriptorForRequiredKeys.cn_once_token_1.43688
++ _descriptorForRequiredKeys.cn_once_token_1.47085
++ _descriptorForRequiredKeys.cn_once_token_1.48217
++ _descriptorForRequiredKeys.cn_once_token_1.48974
++ _descriptorForRequiredKeys.cn_once_token_1.49917
++ _descriptorForRequiredKeys.cn_once_token_1.53494
++ _descriptorForRequiredKeys.cn_once_token_2.45195
++ _descriptorForRequiredKeysWithDescription:.cn_once_object_13.59668
++ _descriptorForRequiredKeysWithDescription:.cn_once_object_13.64803
++ _descriptorForRequiredKeysWithDescription:.cn_once_token_13.59667
++ _descriptorForRequiredKeysWithDescription:.cn_once_token_13.64802
++ _enablesTransportButtons.s_enableTransportButtons.64800
++ _enablesTransportButtons.s_onceToken.64799
++ _fullFormatter.44305
++ _getAFPreferencesClass.46299
++ _getAVTAvatarRecordImageProviderClass.softClass.53437
++ _getAVTAvatarRecordRenderingClass.softClass.55464
++ _getAVTAvatarStoreClass.softClass.42008
++ _getAVTRenderingScopeClass.softClass.53439
++ _getAVTStickerGeneratorOptionsClass.softClass.51043
++ _getAVTViewClass.softClass.55486
++ _getCRRecentContactsLibraryClass.50652
++ _getFBSOpenApplicationServiceClass.50275
++ _getFBSOpenApplicationServiceClass.51656
++ _getGKDaemonProxyClass.softClass.42265
++ _getGKDaemonProxyClass.softClass.49633
++ _getGKLocalPlayerClass.softClass.42267
++ _getGKLocalPlayerClass.softClass.49635
++ _getIDSIDQueryControllerClass.softClass.50643
++ _getIDSServiceNameFaceTimeSymbolLoc.ptr.46385
++ _getIDSServiceNameiMessageSymbolLoc.ptr.42787
++ _getIDSServiceNameiMessageSymbolLoc.ptr.46395
++ _getIDSServiceNameiMessageSymbolLoc.ptr.52251
++ _getIMNicknameControllerClass.softClass.47478
++ _getIMNicknameControllerClass.softClass.64535
++ _getIPPronounPickerViewControllerClass.softClass.58470
++ _getMIUIDisplayConfigurationClass.41775
++ _getMIUIMedicalIDViewControllerClass.41776
++ _getPHPhotoLibraryClass.47931
++ _getPHPickerViewControllerClass.44843
++ _getPRSPosterConfigurationAttributesClass.softClass.65476
++ _getPRSPosterRoleIncomingCallSymbolLoc.ptr.65442
++ _getSLComposeViewControllerClass.softClass.59574
++ _getSLComposeViewControllerClass.softClass.64659
++ _getSiriDirectActionContextClass.softClass.54905
++ _getSiriDirectActionSourceClass.softClass.54907
++ _getkAssistantDirectActionEventKeySymbolLoc.ptr.54897
++ _getkUTTypeJPEGSymbolLoc.ptr.57930
++ _getkUTTypePNGSymbolLoc.ptr.57923
++ _initAFPreferences.46301
++ _initCRRecentContactsLibrary.50654
++ _initFBSOpenApplicationService.50277
++ _initFBSOpenApplicationService.51658
++ _initMIUIDisplayConfiguration.41791
++ _initMIUIMedicalIDViewController.41780
++ _initPHPhotoLibrary.47936
++ _initPHPickerViewController.44845
++ _log.cn_once_object_1.45204
++ _log.cn_once_object_1.46131
++ _log.cn_once_object_1.48444
++ _log.cn_once_object_1.49445
++ _log.cn_once_object_1.51082
++ _log.cn_once_object_1.51513
++ _log.cn_once_object_1.52842
++ _log.cn_once_object_1.55509
++ _log.cn_once_object_1.58390
++ _log.cn_once_object_1.61098
++ _log.cn_once_object_2.41832
++ _log.cn_once_object_2.51232
++ _log.cn_once_object_20.44863
++ _log.cn_once_object_20.47948
++ _log.cn_once_object_6.51956
++ _log.cn_once_object_6.66553
++ _log.cn_once_token_1.45202
++ _log.cn_once_token_1.46129
++ _log.cn_once_token_1.48442
++ _log.cn_once_token_1.49443
++ _log.cn_once_token_1.51080
++ _log.cn_once_token_1.51511
++ _log.cn_once_token_1.52840
++ _log.cn_once_token_1.55507
++ _log.cn_once_token_1.58388
++ _log.cn_once_token_1.61096
++ _log.cn_once_token_2.41830
++ _log.cn_once_token_2.51230
++ _log.cn_once_token_20.44861
++ _log.cn_once_token_20.47946
++ _log.cn_once_token_6.51954
++ _log.cn_once_token_6.66551
++ _objc_msgSend$initWithEnvironment:isInlineContactCard:
++ _objc_msgSend$onboardingController
++ _objc_msgSend$startVisualIdentityOnboardingForMultipleDevicesFromViewController:
++ _os_log.cn_once_object_1.63685
++ _os_log.cn_once_object_1.64197
++ _os_log.cn_once_object_6.53726
++ _os_log.cn_once_object_6.66160
++ _os_log.cn_once_token_1.63683
++ _os_log.cn_once_token_1.64195
++ _os_log.cn_once_token_6.53724
++ _os_log.cn_once_token_6.66158
++ _supportedPasteboardTypes.cn_once_object_1.51528
++ _supportedPasteboardTypes.cn_once_token_1.51526
++ _yearlessFormatter.44304
+- GCC_except_table14780
+- GCC_except_table14852
+- GCC_except_table14973
+- GCC_except_table14977
+- GCC_except_table15049
+- GCC_except_table15115
+- GCC_except_table15123
+- GCC_except_table15129
+- GCC_except_table15148
+- GCC_except_table15319
+- GCC_except_table15420
+- GCC_except_table15500
+- GCC_except_table15504
+- GCC_except_table15522
+- GCC_except_table15572
+- GCC_except_table15695
+- GCC_except_table15999
+- GCC_except_table16014
+- GCC_except_table16030
+- GCC_except_table16043
+- GCC_except_table16044
+- GCC_except_table16048
+- GCC_except_table16049
+- GCC_except_table16069
+- GCC_except_table16145
+- GCC_except_table16528
+- GCC_except_table16530
+- GCC_except_table16539
+- GCC_except_table16631
+- GCC_except_table16694
+- GCC_except_table16734
+- GCC_except_table16864
+- GCC_except_table17141
+- GCC_except_table17145
+- GCC_except_table17619
+- GCC_except_table17671
+- GCC_except_table17681
+- GCC_except_table17720
+- GCC_except_table17740
+- GCC_except_table17772
+- GCC_except_table17773
+- GCC_except_table17780
+- GCC_except_table17781
+- GCC_except_table17806
+- GCC_except_table17933
+- GCC_except_table17943
+- GCC_except_table17959
+- GCC_except_table17963
+- GCC_except_table17967
+- GCC_except_table17969
+- GCC_except_table18014
+- GCC_except_table18209
+- GCC_except_table18266
+- GCC_except_table18267
+- GCC_except_table18274
+- GCC_except_table18278
+- GCC_except_table18284
+- GCC_except_table18293
+- GCC_except_table18296
+- GCC_except_table18321
+- GCC_except_table18329
+- GCC_except_table18361
+- GCC_except_table18362
+- GCC_except_table18373
+- GCC_except_table18380
+- GCC_except_table18381
+- GCC_except_table18384
+- GCC_except_table18386
+- GCC_except_table18388
+- GCC_except_table18401
+- GCC_except_table18542
+- _AFPreferencesFunction.46306
+- _AssistantServicesLibraryCore.frameworkLibrary.49061
+- _AssistantServicesLibraryCore.frameworkLibrary.54909
+- _AvatarKitLibraryCore.frameworkLibrary.51046
+- _AvatarKitLibraryCore.frameworkLibrary.55472
+- _AvatarUILibrary.41987
+- _AvatarUILibrary.53441
+- _AvatarUILibraryCore.frameworkLibrary.41997
+- _AvatarUILibraryCore.frameworkLibrary.53445
+- _AvatarUILibraryCore.frameworkLibrary.55448
+- _CRRecentContactsLibraryFunction.50658
+- _FBSOpenApplicationServiceFunction.50282
+- _FBSOpenApplicationServiceFunction.51663
+- _GameCenterFoundationLibraryCore.frameworkLibrary.42285
+- _GameCenterFoundationLibraryCore.frameworkLibrary.49641
+- _GameCenterUICoreLibraryCore.frameworkLibrary.42268
+- _GameCenterUICoreLibraryCore.frameworkLibrary.49646
+- _GameCenterUILibraryCore.frameworkLibrary.49610
+- _HealthKitLibraryCore.frameworkLibrary.41804
+- _IDSLibrary.46386
+- _IDSLibraryCore.frameworkLibrary.42797
+- _IDSLibraryCore.frameworkLibrary.46402
+- _IDSLibraryCore.frameworkLibrary.50644
+- _IDSLibraryCore.frameworkLibrary.52258
+- _IMCoreLibraryCore.frameworkLibrary.47479
+- _IntlPreferencesUILibraryCore.frameworkLibrary.58454
+- _LoadAppleAccount.frameworkLibrary.51419
+- _LoadAppleAccount.loadPredicate.51412
+- _LoadAssistantServices.frameworkLibrary.46311
+- _LoadAssistantServices.loadPredicate.46301
+- _LoadCarPlayServices.frameworkLibrary.50287
+- _LoadCarPlayServices.frameworkLibrary.51668
+- _LoadCarPlayServices.loadPredicate.50277
+- _LoadCarPlayServices.loadPredicate.51658
+- _LoadCoreRecents.frameworkLibrary.50662
+- _LoadCoreRecents.loadPredicate.50654
+- _LoadCoreSuggestions.frameworkLibrary.50640
+- _LoadCoreSuggestions.loadPredicate.50637
+- _LoadMedicalIDUI.frameworkLibrary.41787
+- _LoadMedicalIDUI.loadPredicate.41780
+- _LoadPhotos.frameworkLibrary.44813
+- _LoadPhotos.frameworkLibrary.47922
+- _LoadPhotos.loadPredicate.44810
+- _LoadPhotos.loadPredicate.47917
+- _LoadPhotosUI.frameworkLibrary.44853
+- _LoadPhotosUI.loadPredicate.44845
+- _MIUIDisplayConfigurationFunction.41794
+- _MIUIMedicalIDViewControllerFunction.41783
+- _MobileCoreServicesLibrary.57907
+- _MobileCoreServicesLibraryCore.frameworkLibrary.47321
+- _MobileCoreServicesLibraryCore.frameworkLibrary.57917
+- _PHPhotoLibraryFunction.47938
+- _PHPickerViewControllerFunction.44849
+- _PosterBoardServicesLibrary.65379
+- _PosterBoardServicesLibraryCore.frameworkLibrary.65387
+- _PosterBoardUIServicesLibraryCore.frameworkLibrary.65444
+- _PosterKitLibraryCore.frameworkLibrary.65584
+- _SiriActivationLibrary.54891
+- _SiriActivationLibraryCore.frameworkLibrary.54897
+- _SocialLibraryCore.frameworkLibrary.59561
+- _SocialLibraryCore.frameworkLibrary.64606
+- _ToneKitLibraryCore.frameworkLibrary.57679
+- ___61-[CNContactContentUnitaryViewController initWithEnvironment:]_block_invoke
+- ___68-[CNContactInlineActionsViewController discoverAvailableActionTypes]_block_invoke.38
+- ___68-[CNContactInlineActionsViewController discoverAvailableActionTypes]_block_invoke_2.39
+- ___AssistantServicesLibraryCore_block_invoke.49062
+- ___AssistantServicesLibraryCore_block_invoke.54910
+- ___AvatarKitLibraryCore_block_invoke.51047
+- ___AvatarKitLibraryCore_block_invoke.55473
+- ___AvatarUILibraryCore_block_invoke.41998
+- ___AvatarUILibraryCore_block_invoke.53446
+- ___AvatarUILibraryCore_block_invoke.55449
+- ___Block_byref_object_copy_.44524
+- ___Block_byref_object_copy_.47931
+- ___Block_byref_object_copy_.48808
+- ___Block_byref_object_copy_.51040
+- ___Block_byref_object_copy_.53068
+- ___Block_byref_object_copy_.54646
+- ___Block_byref_object_copy_.55792
+- ___Block_byref_object_copy_.56829
+- ___Block_byref_object_copy_.59495
+- ___Block_byref_object_copy_.62398
+- ___Block_byref_object_copy_.64120
+- ___Block_byref_object_copy_.64518
+- ___Block_byref_object_dispose_.44525
+- ___Block_byref_object_dispose_.47932
+- ___Block_byref_object_dispose_.48809
+- ___Block_byref_object_dispose_.51041
+- ___Block_byref_object_dispose_.53069
+- ___Block_byref_object_dispose_.54647
+- ___Block_byref_object_dispose_.55793
+- ___Block_byref_object_dispose_.56830
+- ___Block_byref_object_dispose_.59496
+- ___Block_byref_object_dispose_.62399
+- ___Block_byref_object_dispose_.64121
+- ___Block_byref_object_dispose_.64519
+- ___GameCenterFoundationLibraryCore_block_invoke.42286
+- ___GameCenterFoundationLibraryCore_block_invoke.49642
+- ___GameCenterUICoreLibraryCore_block_invoke.42269
+- ___GameCenterUICoreLibraryCore_block_invoke.49647
+- ___GameCenterUILibraryCore_block_invoke.49611
+- ___HealthKitLibraryCore_block_invoke.41805
+- ___IDSLibraryCore_block_invoke.42798
+- ___IDSLibraryCore_block_invoke.46403
+- ___IDSLibraryCore_block_invoke.50645
+- ___IDSLibraryCore_block_invoke.52259
+- ___IMCoreLibraryCore_block_invoke.47480
+- ___IntlPreferencesUILibraryCore_block_invoke.58455
+- ___LoadAppleAccount_block_invoke.51417
+- ___LoadAssistantServices_block_invoke.46309
+- ___LoadCarPlayServices_block_invoke.50285
+- ___LoadCarPlayServices_block_invoke.51666
+- ___LoadCoreRecents_block_invoke.50661
+- ___LoadCoreSuggestions_block_invoke.50639
+- ___LoadMedicalIDUI_block_invoke.41785
+- ___LoadPhotosUI_block_invoke.44851
+- ___LoadPhotos_block_invoke.44812
+- ___LoadPhotos_block_invoke.47920
+- ___MobileCoreServicesLibraryCore_block_invoke.47322
+- ___MobileCoreServicesLibraryCore_block_invoke.57918
+- ___PosterBoardServicesLibraryCore_block_invoke.65388
+- ___PosterBoardUIServicesLibraryCore_block_invoke.65445
+- ___PosterKitLibraryCore_block_invoke.65585
+- ___SiriActivationLibraryCore_block_invoke.54898
+- ___SocialLibraryCore_block_invoke.59562
+- ___SocialLibraryCore_block_invoke.64607
+- ___ToneKitLibraryCore_block_invoke.57680
+- ___block_literal_global.11.63811
+- ___block_literal_global.1118
+- ___block_literal_global.1121
+- ___block_literal_global.127.52731
+- ___block_literal_global.135.43405
+- ___block_literal_global.14.45195
+- ___block_literal_global.14.57583
+- ___block_literal_global.19.42244
+- ___block_literal_global.2.49525
+- ___block_literal_global.2.62952
+- ___block_literal_global.20.64137
+- ___block_literal_global.23.40883
+- ___block_literal_global.23.45181
+- ___block_literal_global.23.63111
+- ___block_literal_global.25.63112
+- ___block_literal_global.26.57579
+- ___block_literal_global.28.49297
+- ___block_literal_global.29.45172
+- ___block_literal_global.29.48409
+- ___block_literal_global.29.63631
+- ___block_literal_global.3.57618
+- ___block_literal_global.3.58636
+- ___block_literal_global.3.58869
+- ___block_literal_global.33.64127
+- ___block_literal_global.4.46788
+- ___block_literal_global.41656
+- ___block_literal_global.41830
+- ___block_literal_global.41953
+- ___block_literal_global.41985
+- ___block_literal_global.42.66702
+- ___block_literal_global.42254
+- ___block_literal_global.42559
+- ___block_literal_global.43323
+- ___block_literal_global.43688
+- ___block_literal_global.43786
+- ___block_literal_global.43883
+- ___block_literal_global.44301
+- ___block_literal_global.44511
+- ___block_literal_global.44690
+- ___block_literal_global.44861
+- ___block_literal_global.45202
+- ___block_literal_global.46129
+- ___block_literal_global.46315
+- ___block_literal_global.46790
+- ___block_literal_global.47.60445
+- ___block_literal_global.47085
+- ___block_literal_global.47338
+- ___block_literal_global.47412
+- ___block_literal_global.47946
+- ___block_literal_global.48217
+- ___block_literal_global.48442
+- ___block_literal_global.48974
+- ___block_literal_global.49.56528
+- ___block_literal_global.49299
+- ___block_literal_global.49356
+- ___block_literal_global.49443
+- ___block_literal_global.49524
+- ___block_literal_global.49917
+- ___block_literal_global.5.46119
+- ___block_literal_global.50278
+- ___block_literal_global.50655
+- ___block_literal_global.51080
+- ___block_literal_global.51230
+- ___block_literal_global.51408
+- ___block_literal_global.51511
+- ___block_literal_global.51526
+- ___block_literal_global.51659
+- ___block_literal_global.51954
+- ___block_literal_global.52135
+- ___block_literal_global.52840
+- ___block_literal_global.53077
+- ___block_literal_global.53184
+- ___block_literal_global.53494
+- ___block_literal_global.53787
+- ___block_literal_global.54.61019
+- ___block_literal_global.54145
+- ___block_literal_global.54645
+- ___block_literal_global.55123
+- ___block_literal_global.55490
+- ___block_literal_global.56.66692
+- ___block_literal_global.56048
+- ___block_literal_global.56572
+- ___block_literal_global.57.51413
+- ___block_literal_global.57628
+- ___block_literal_global.58371
+- ___block_literal_global.58629
+- ___block_literal_global.58864
+- ___block_literal_global.59592
+- ___block_literal_global.60.61007
+- ___block_literal_global.60450
+- ___block_literal_global.61073
+- ___block_literal_global.62349
+- ___block_literal_global.62959
+- ___block_literal_global.63.46302
+- ___block_literal_global.63125
+- ___block_literal_global.63660
+- ___block_literal_global.63817
+- ___block_literal_global.64147
+- ___block_literal_global.64716
+- ___block_literal_global.65034
+- ___block_literal_global.65650
+- ___block_literal_global.65848
+- ___block_literal_global.66093
+- ___block_literal_global.66309
+- ___block_literal_global.66486
+- ___block_literal_global.78.44506
+- ___block_literal_global.8.46786
+- ___block_literal_global.89.58362
+- ___block_literal_global.9.41977
+- ___block_literal_global.9.46110
+- ___getAVTAvatarRecordImageProviderClass_block_invoke.53437
+- ___getAVTAvatarRecordRenderingClass_block_invoke.55447
+- ___getAVTAvatarStoreClass_block_invoke.42008
+- ___getAVTRenderingScopeClass_block_invoke.53439
+- ___getAVTStickerGeneratorOptionsClass_block_invoke.51043
+- ___getAVTViewClass_block_invoke.55469
+- ___getGKDaemonProxyClass_block_invoke.42265
+- ___getGKDaemonProxyClass_block_invoke.49633
+- ___getGKLocalPlayerClass_block_invoke.42267
+- ___getGKLocalPlayerClass_block_invoke.49635
+- ___getIDSIDQueryControllerClass_block_invoke.50643
+- ___getIDSServiceNameFaceTimeSymbolLoc_block_invoke.46385
+- ___getIDSServiceNameiMessageSymbolLoc_block_invoke.42787
+- ___getIDSServiceNameiMessageSymbolLoc_block_invoke.46395
+- ___getIDSServiceNameiMessageSymbolLoc_block_invoke.52251
+- ___getIMNicknameControllerClass_block_invoke.47478
+- ___getIPPronounPickerViewControllerClass_block_invoke.58453
+- ___getPRSPosterConfigurationAttributesClass_block_invoke.65412
+- ___getPRSPosterRoleIncomingCallSymbolLoc_block_invoke.65378
+- ___getSLComposeViewControllerClass_block_invoke.59557
+- ___getSLComposeViewControllerClass_block_invoke.64600
+- ___getSiriDirectActionContextClass_block_invoke.54888
+- ___getSiriDirectActionSourceClass_block_invoke.54890
+- ___getkAssistantDirectActionEventKeySymbolLoc_block_invoke.54880
+- ___getkUTTypeJPEGSymbolLoc_block_invoke.57913
+- ___getkUTTypePNGSymbolLoc_block_invoke.57906
+- _audit_stringAssistantServices.49076
+- _audit_stringAssistantServices.54914
+- _audit_stringAvatarKit.51054
+- _audit_stringAvatarKit.55478
+- _audit_stringAvatarUI.42001
+- _audit_stringAvatarUI.53452
+- _audit_stringAvatarUI.55464
+- _audit_stringGameCenterFoundation.42291
+- _audit_stringGameCenterFoundation.49644
+- _audit_stringGameCenterUI.49626
+- _audit_stringGameCenterUICore.42284
+- _audit_stringGameCenterUICore.49651
+- _audit_stringHealthKit.41818
+- _audit_stringIDS.42802
+- _audit_stringIDS.46406
+- _audit_stringIDS.50649
+- _audit_stringIDS.52263
+- _audit_stringIMCore.47496
+- _audit_stringIntlPreferencesUI.58471
+- _audit_stringMobileCoreServices.47326
+- _audit_stringMobileCoreServices.57921
+- _audit_stringPosterBoardServices.65391
+- _audit_stringPosterBoardUIServices.65447
+- _audit_stringPosterKit.65587
+- _audit_stringSiriActivation.54901
+- _audit_stringSocial.59566
+- _audit_stringSocial.64611
+- _audit_stringToneKit.57694
+- _classAFPreferences.46304
+- _classCRRecentContactsLibrary.50656
+- _classFBSOpenApplicationService.50280
+- _classFBSOpenApplicationService.51661
+- _classMIUIDisplayConfiguration.41792
+- _classMIUIMedicalIDViewController.41781
+- _classPHPhotoLibrary.47936
+- _classPHPickerViewController.44847
+- _defaultServices._services.49357
+- _defaultServices.onceToken.49355
+- _descriptorForRequiredKeys.cn_once_object_1.42560
+- _descriptorForRequiredKeys.cn_once_object_1.43689
+- _descriptorForRequiredKeys.cn_once_object_1.47086
+- _descriptorForRequiredKeys.cn_once_object_1.48218
+- _descriptorForRequiredKeys.cn_once_object_1.48975
+- _descriptorForRequiredKeys.cn_once_object_1.49918
+- _descriptorForRequiredKeys.cn_once_object_1.53495
+- _descriptorForRequiredKeys.cn_once_object_2.45196
+- _descriptorForRequiredKeys.cn_once_token_1.42558
+- _descriptorForRequiredKeys.cn_once_token_1.43687
+- _descriptorForRequiredKeys.cn_once_token_1.47084
+- _descriptorForRequiredKeys.cn_once_token_1.48216
+- _descriptorForRequiredKeys.cn_once_token_1.48973
+- _descriptorForRequiredKeys.cn_once_token_1.49916
+- _descriptorForRequiredKeys.cn_once_token_1.53493
+- _descriptorForRequiredKeys.cn_once_token_2.45194
+- _descriptorForRequiredKeysWithDescription:.cn_once_object_13.59650
+- _descriptorForRequiredKeysWithDescription:.cn_once_object_13.64743
+- _descriptorForRequiredKeysWithDescription:.cn_once_token_13.59649
+- _descriptorForRequiredKeysWithDescription:.cn_once_token_13.64742
+- _enablesTransportButtons.s_enableTransportButtons.64740
+- _enablesTransportButtons.s_onceToken.64739
+- _fullFormatter.44304
+- _getAFPreferencesClass.46298
+- _getAVTAvatarRecordImageProviderClass.softClass.53436
+- _getAVTAvatarRecordRenderingClass.softClass.55446
+- _getAVTAvatarStoreClass.softClass.42007
+- _getAVTRenderingScopeClass.softClass.53438
+- _getAVTStickerGeneratorOptionsClass.softClass.51042
+- _getAVTViewClass.softClass.55468
+- _getCRRecentContactsLibraryClass.50651
+- _getFBSOpenApplicationServiceClass.50274
+- _getFBSOpenApplicationServiceClass.51655
+- _getGKDaemonProxyClass.softClass.42264
+- _getGKDaemonProxyClass.softClass.49632
+- _getGKLocalPlayerClass.softClass.42266
+- _getGKLocalPlayerClass.softClass.49634
+- _getIDSIDQueryControllerClass.softClass.50642
+- _getIDSServiceNameFaceTimeSymbolLoc.ptr.46384
+- _getIDSServiceNameiMessageSymbolLoc.ptr.42786
+- _getIDSServiceNameiMessageSymbolLoc.ptr.46394
+- _getIDSServiceNameiMessageSymbolLoc.ptr.52250
+- _getIMNicknameControllerClass.softClass.47477
+- _getIPPronounPickerViewControllerClass.softClass.58452
+- _getMIUIDisplayConfigurationClass.41774
+- _getMIUIMedicalIDViewControllerClass.41775
+- _getPHPhotoLibraryClass.47930
+- _getPHPickerViewControllerClass.44842
+- _getPRSPosterConfigurationAttributesClass.softClass.65411
+- _getPRSPosterRoleIncomingCallSymbolLoc.ptr.65377
+- _getSLComposeViewControllerClass.softClass.59556
+- _getSLComposeViewControllerClass.softClass.64599
+- _getSiriDirectActionContextClass.softClass.54887
+- _getSiriDirectActionSourceClass.softClass.54889
+- _getkAssistantDirectActionEventKeySymbolLoc.ptr.54879
+- _getkUTTypeJPEGSymbolLoc.ptr.57912
+- _getkUTTypePNGSymbolLoc.ptr.57905
+- _initAFPreferences.46300
+- _initCRRecentContactsLibrary.50653
+- _initFBSOpenApplicationService.50276
+- _initFBSOpenApplicationService.51657
+- _initMIUIDisplayConfiguration.41790
+- _initMIUIMedicalIDViewController.41779
+- _initPHPhotoLibrary.47935
+- _initPHPickerViewController.44844
+- _log.cn_once_object_1.45203
+- _log.cn_once_object_1.46130
+- _log.cn_once_object_1.48443
+- _log.cn_once_object_1.49444
+- _log.cn_once_object_1.51081
+- _log.cn_once_object_1.51512
+- _log.cn_once_object_1.52841
+- _log.cn_once_object_1.55491
+- _log.cn_once_object_1.58372
+- _log.cn_once_object_1.61074
+- _log.cn_once_object_2.41831
+- _log.cn_once_object_2.51231
+- _log.cn_once_object_20.44862
+- _log.cn_once_object_20.47947
+- _log.cn_once_object_6.51955
+- _log.cn_once_object_6.66487
+- _log.cn_once_token_1.45201
+- _log.cn_once_token_1.46128
+- _log.cn_once_token_1.48441
+- _log.cn_once_token_1.49442
+- _log.cn_once_token_1.51079
+- _log.cn_once_token_1.51510
+- _log.cn_once_token_1.52839
+- _log.cn_once_token_1.55489
+- _log.cn_once_token_1.58370
+- _log.cn_once_token_1.61072
+- _log.cn_once_token_2.41829
+- _log.cn_once_token_2.51229
+- _log.cn_once_token_20.44860
+- _log.cn_once_token_20.47945
+- _log.cn_once_token_6.51953
+- _log.cn_once_token_6.66485
+- _objc_msgSend$setIsInlineContactCard:
+- _os_log.cn_once_object_1.63661
+- _os_log.cn_once_object_6.66094
+- _os_log.cn_once_token_1.63659
+- _os_log.cn_once_token_6.66092
+- _supportedPasteboardTypes.cn_once_object_1.51527
+- _supportedPasteboardTypes.cn_once_token_1.51525
+- _yearlessFormatter.44303
+CStrings:
++ "  Delegate: %{public}@"
++ "  View Controller: %{public}@"
++ "%@ canceling previous action discovering requests, contact now is %@"
++ "%@ just got new contact %@, dataSource is %@. Will discover action types…"
++ "%@ just got new supportedActionTypes, contact is %@. Will discover action types…"
++ "<no identifier>"
++ "CNContactInlineActionsViewController performing action: %{public}@ for: %{public}@"
++ "Cannot delete accepted contact: contact is nil"
++ "Cannot delete accepted contact: contactStore is nil"
++ "Cannot delete accepted contact: delegate is nil"
++ "Could not delete CoreRecents accepted contact. Error: %@, Error domain: %@, Error code: %ld"
++ "Created save request: %@, deleting contact: %@"
++ "End performing action logging"
++ "Error userInfo: %@"
++ "Failed to create CNCoreRecentsSaveRequest"
++ "No delegate"
++ "Notifying delegate about presenting editing controller"
++ "Presenting view controller for SwiftUI contact card action type: %lu"
++ "Presenting view controller for action: %@ viewController: %@ sender: %@"
++ "Starting deleteAccepted for contact: %@"
++ "Successfully deleted CoreRecents accepted contact: %@"
++ "T@\"CNSharedProfileOnboardingController\",&,N,V_onboardingController"
++ "Unknown Contact identifier"
++ "Unknown action type for SwiftUI contact card presentation: %@"
++ "Using default modal presentation for non-visionOS platform"
++ "executeSaveRequest returned NO but no error was provided"
++ "initWithEnvironment:isInlineContactCard:"
++ "saveChangesToContactStore"
++ "startVisualIdentityOnboardingForMultipleDevicesFromViewController:"
+- "/Library/Caches/com.apple.xbs/Sources/ContactsUI/Framework/CNContactDeleteAcceptedAction.m"
+- "Could not delete CoreRecents accepted contact. Error: %@"
+- "savecChangesToContactStore"
+
+```

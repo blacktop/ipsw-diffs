@@ -1,0 +1,863 @@
+## AppleDepth
+
+> `/System/Library/PrivateFrameworks/AppleDepth.framework/AppleDepth`
+
+```diff
+
+-150.0.0.0.0
+-  __TEXT.__text: 0x101a0c
++150.2.0.0.0
++  __TEXT.__text: 0x1021d4
+   __TEXT.__auth_stubs: 0x1490
+-  __TEXT.__objc_methlist: 0x6f4c
++  __TEXT.__objc_methlist: 0x6fb4
+   __TEXT.__const: 0x14c0
+-  __TEXT.__gcc_except_tab: 0x122b0
+-  __TEXT.__oslogstring: 0x8f94
+-  __TEXT.__cstring: 0x7837
+-  __TEXT.__unwind_info: 0x39b0
+-  __TEXT.__objc_classname: 0x948e
+-  __TEXT.__objc_methname: 0x17414
+-  __TEXT.__objc_methtype: 0x7c71
+-  __TEXT.__objc_stubs: 0xaa40
+-  __DATA_CONST.__got: 0xa20
++  __TEXT.__gcc_except_tab: 0x123ac
++  __TEXT.__oslogstring: 0x9079
++  __TEXT.__cstring: 0x7858
++  __TEXT.__unwind_info: 0x39d8
++  __TEXT.__objc_classname: 0x949f
++  __TEXT.__objc_methname: 0x175ff
++  __TEXT.__objc_methtype: 0x7cc8
++  __TEXT.__objc_stubs: 0xaac0
++  __DATA_CONST.__got: 0xa28
+   __DATA_CONST.__const: 0x320
+-  __DATA_CONST.__objc_classlist: 0x518
++  __DATA_CONST.__objc_classlist: 0x520
+   __DATA_CONST.__objc_catlist: 0x8
+   __DATA_CONST.__objc_protolist: 0x28
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x3750
++  __DATA_CONST.__objc_selrefs: 0x3780
+   __DATA_CONST.__objc_superrefs: 0x458
+   __DATA_CONST.__objc_arraydata: 0x180
+   __AUTH_CONST.__auth_got: 0xa58
+   __AUTH_CONST.__const: 0xa68
+-  __AUTH_CONST.__cfstring: 0x57e0
+-  __AUTH_CONST.__objc_const: 0x11ef0
++  __AUTH_CONST.__cfstring: 0x5800
++  __AUTH_CONST.__objc_const: 0x12050
+   __AUTH_CONST.__objc_intobj: 0x450
+   __AUTH_CONST.__objc_floatobj: 0x30
+   __AUTH_CONST.__objc_doubleobj: 0x150
+   __AUTH_CONST.__objc_arrayobj: 0xc0
+-  __AUTH.__objc_data: 0xeb0
+-  __DATA.__objc_ivar: 0x1168
++  __AUTH.__objc_data: 0xf00
++  __DATA.__objc_ivar: 0x117c
+   __DATA.__data: 0xe8600
+   __DATA.__bss: 0x4d1
+   __DATA_DIRTY.__objc_data: 0x2440
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libz.1.dylib
+-  UUID: 4C84F6E0-66EA-33D7-9375-5B62BDEB07E0
+-  Functions: 3069
+-  Symbols:   11416
+-  CStrings:  6459
++  UUID: 7BF8FEED-6224-3954-A288-A4523143928E
++  Functions: 3077
++  Symbols:   11453
++  CStrings:  6479
+ 
+Symbols:
++ -[ADLKTExecutor lastExecutionStatistics]
++ -[ADLKTExecutor validateInputs:validBufferRect:outputConfidence:]
++ -[ADLKTExecutorParameters enableStatistics]
++ -[ADLKTExecutorParameters setEnableStatistics:]
++ -[ADLKTOpticalFlow _createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:outMeanIntensityAtCoarsestScale:error:]
++ -[ADLKTOpticalFlow _createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:outMeanIntensityAtCoarsestScale:error:]
++ -[ADLKTOpticalFlow _downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:outMeanIntensity:]
++ -[ADLKTOpticalFlow encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:outMeanIntensityAtCoarsestScale:]
++ -[ADLKTStatistics dictionaryRepresentation]
++ -[ADLKTStatistics meanIntensityDiffAtCoarsestScale]
++ -[ADLKTStatistics setMeanIntensityDiffAtCoarsestScale:]
++ -[ADLKTStatistics writeToFile:atomically:]
++ GCC_except_table2312
++ GCC_except_table2313
++ GCC_except_table2321
++ GCC_except_table2325
++ GCC_except_table2330
++ GCC_except_table2331
++ GCC_except_table2334
++ GCC_except_table2337
++ GCC_except_table2343
++ GCC_except_table2344
++ GCC_except_table2357
++ GCC_except_table2358
++ GCC_except_table2359
++ GCC_except_table2360
++ GCC_except_table2369
++ GCC_except_table2372
++ GCC_except_table2375
++ GCC_except_table2376
++ GCC_except_table2378
++ GCC_except_table2379
++ GCC_except_table2381
++ GCC_except_table2382
++ GCC_except_table2388
++ GCC_except_table2391
++ GCC_except_table2397
++ GCC_except_table2400
++ GCC_except_table2403
++ GCC_except_table2409
++ GCC_except_table2414
++ GCC_except_table2456
++ GCC_except_table2469
++ GCC_except_table2474
++ GCC_except_table2475
++ GCC_except_table2481
++ GCC_except_table2485
++ GCC_except_table2487
++ GCC_except_table2494
++ GCC_except_table2498
++ GCC_except_table2521
++ GCC_except_table2522
++ GCC_except_table2523
++ GCC_except_table2533
++ GCC_except_table2535
++ GCC_except_table2536
++ GCC_except_table2556
++ GCC_except_table2558
++ GCC_except_table2559
++ GCC_except_table2561
++ GCC_except_table2565
++ GCC_except_table2568
++ GCC_except_table2588
++ GCC_except_table2590
++ GCC_except_table2591
++ GCC_except_table2592
++ GCC_except_table2593
++ GCC_except_table2594
++ GCC_except_table2595
++ GCC_except_table2607
++ GCC_except_table2610
++ GCC_except_table2611
++ GCC_except_table2612
++ GCC_except_table2613
++ GCC_except_table2614
++ GCC_except_table2625
++ GCC_except_table2631
++ GCC_except_table2634
++ GCC_except_table2637
++ GCC_except_table2640
++ GCC_except_table2643
++ GCC_except_table2644
++ GCC_except_table2646
++ GCC_except_table2658
++ GCC_except_table2659
++ GCC_except_table2661
++ GCC_except_table2662
++ GCC_except_table2665
++ GCC_except_table2666
++ GCC_except_table2672
++ GCC_except_table2677
++ GCC_except_table2678
++ GCC_except_table2679
++ GCC_except_table2682
++ GCC_except_table2683
++ GCC_except_table2684
++ GCC_except_table2688
++ GCC_except_table2704
++ GCC_except_table2707
++ GCC_except_table2708
++ GCC_except_table2714
++ GCC_except_table2717
++ GCC_except_table2720
++ GCC_except_table2726
++ GCC_except_table2727
++ GCC_except_table2729
++ GCC_except_table2730
++ GCC_except_table2742
++ GCC_except_table2743
++ GCC_except_table2744
++ GCC_except_table2745
++ GCC_except_table2747
++ GCC_except_table2760
++ GCC_except_table2765
++ GCC_except_table2767
++ GCC_except_table2769
++ GCC_except_table2778
++ GCC_except_table2779
++ GCC_except_table2792
++ GCC_except_table2793
++ GCC_except_table2794
++ GCC_except_table2797
++ GCC_except_table2806
++ GCC_except_table2807
++ GCC_except_table2808
++ GCC_except_table2809
++ GCC_except_table2832
++ GCC_except_table2833
++ GCC_except_table2834
++ GCC_except_table2835
++ GCC_except_table2837
++ GCC_except_table2839
++ GCC_except_table2844
++ GCC_except_table2855
++ GCC_except_table2874
++ GCC_except_table2877
++ GCC_except_table2881
++ GCC_except_table2884
++ GCC_except_table2888
++ GCC_except_table2890
++ GCC_except_table2908
++ GCC_except_table2910
++ GCC_except_table2911
++ GCC_except_table2917
++ GCC_except_table2920
++ GCC_except_table2933
++ GCC_except_table2953
++ GCC_except_table2957
++ GCC_except_table2960
++ GCC_except_table2963
++ GCC_except_table2998
++ GCC_except_table2999
++ GCC_except_table3000
++ GCC_except_table3001
++ GCC_except_table3002
++ GCC_except_table3003
++ GCC_except_table3004
++ GCC_except_table3032
++ GCC_except_table3033
++ GCC_except_table3046
++ GCC_except_table3047
++ GCC_except_table3048
++ GCC_except_table3057
++ GCC_except_table3061
++ GCC_except_table3062
++ GCC_except_table3063
++ GCC_except_table3064
++ GCC_except_table3066
++ GCC_except_table3067
++ GCC_except_table3073
++ GCC_except_table3080
++ GCC_except_table3084
++ GCC_except_table3089
++ GCC_except_table3094
++ GCC_except_table3098
++ GCC_except_table3099
++ GCC_except_table3100
++ GCC_except_table3103
++ GCC_except_table3105
++ GCC_except_table3116
++ GCC_except_table3117
++ GCC_except_table3118
++ GCC_except_table3119
++ GCC_except_table3120
++ GCC_except_table3121
++ GCC_except_table3130
++ GCC_except_table3132
++ GCC_except_table3137
++ GCC_except_table3139
++ GCC_except_table3154
++ GCC_except_table3155
++ GCC_except_table3157
++ GCC_except_table3164
++ GCC_except_table3166
++ GCC_except_table3167
++ GCC_except_table3168
++ GCC_except_table3173
++ GCC_except_table3180
++ GCC_except_table3183
++ GCC_except_table3192
++ GCC_except_table3195
++ GCC_except_table3204
++ GCC_except_table3205
++ GCC_except_table3206
++ GCC_except_table3210
++ GCC_except_table3230
++ GCC_except_table3232
++ GCC_except_table3233
++ GCC_except_table3234
++ GCC_except_table3235
++ GCC_except_table3236
++ GCC_except_table3237
++ GCC_except_table3239
++ GCC_except_table3248
++ GCC_except_table3249
++ GCC_except_table3250
++ GCC_except_table3251
++ GCC_except_table3272
++ GCC_except_table3281
++ GCC_except_table3304
++ GCC_except_table3305
++ GCC_except_table3314
++ GCC_except_table3315
++ GCC_except_table3316
++ GCC_except_table3317
++ GCC_except_table3319
++ GCC_except_table3326
++ _OBJC_CLASS_$_ADLKTStatistics
++ _OBJC_IVAR_$_ADLKTExecutor._meanIntensitiesAtCoarsestScale
++ _OBJC_IVAR_$_ADLKTExecutorParameters._enableStatistics
++ _OBJC_IVAR_$_ADLKTOpticalFlow._computeMeanIntensityBuffer
++ _OBJC_IVAR_$_ADLKTOpticalFlow._meanIntensityBuffer
++ _OBJC_IVAR_$_ADLKTStatistics._meanIntensityDiffAtCoarsestScale
++ _OBJC_METACLASS_$_ADLKTStatistics
++ __OBJC_$_INSTANCE_METHODS_ADLKTStatistics
++ __OBJC_$_INSTANCE_VARIABLES_ADLKTStatistics
++ __OBJC_$_PROP_LIST_ADLKTStatistics
++ __OBJC_CLASS_RO_$_ADLKTStatistics
++ __OBJC_METACLASS_RO_$_ADLKTStatistics
++ __PromotedConst.9789
++ __PromotedConst.9790
++ __ZL15INSTRUMENTS_ENDjyyyy.3045
++ __ZL15INSTRUMENTS_ENDjyyyy.3059
++ __ZL15INSTRUMENTS_ENDjyyyy.3065
++ __ZL15INSTRUMENTS_ENDjyyyy.3304
++ __ZL15INSTRUMENTS_ENDjyyyy.3511
++ __ZL15INSTRUMENTS_ENDjyyyy.3521
++ __ZL15INSTRUMENTS_ENDjyyyy.3584
++ __ZL15INSTRUMENTS_ENDjyyyy.3765
++ __ZL15INSTRUMENTS_ENDjyyyy.3904
++ __ZL15INSTRUMENTS_ENDjyyyy.4253
++ __ZL15INSTRUMENTS_ENDjyyyy.4432
++ __ZL15INSTRUMENTS_ENDjyyyy.4608
++ __ZL15INSTRUMENTS_ENDjyyyy.4826
++ __ZL15INSTRUMENTS_ENDjyyyy.5297
++ __ZL15INSTRUMENTS_ENDjyyyy.5442
++ __ZL15INSTRUMENTS_ENDjyyyy.5669
++ __ZL15INSTRUMENTS_ENDjyyyy.5917
++ __ZL15INSTRUMENTS_ENDjyyyy.6190
++ __ZL15INSTRUMENTS_ENDjyyyy.6369
++ __ZL15INSTRUMENTS_ENDjyyyy.6483
++ __ZL15INSTRUMENTS_ENDjyyyy.6499
++ __ZL15INSTRUMENTS_ENDjyyyy.6685
++ __ZL15INSTRUMENTS_ENDjyyyy.6691
++ __ZL15INSTRUMENTS_ENDjyyyy.6821
++ __ZL15INSTRUMENTS_ENDjyyyy.6844
++ __ZL15INSTRUMENTS_ENDjyyyy.6869
++ __ZL15INSTRUMENTS_ENDjyyyy.7230
++ __ZL15INSTRUMENTS_ENDjyyyy.7270
++ __ZL15INSTRUMENTS_ENDjyyyy.7318
++ __ZL15INSTRUMENTS_ENDjyyyy.7429
++ __ZL15INSTRUMENTS_ENDjyyyy.7585
++ __ZL15INSTRUMENTS_ENDjyyyy.7769
++ __ZL15INSTRUMENTS_ENDjyyyy.7775
++ __ZL15INSTRUMENTS_ENDjyyyy.7831
++ __ZL15INSTRUMENTS_ENDjyyyy.7841
++ __ZL15INSTRUMENTS_ENDjyyyy.7991
++ __ZL15INSTRUMENTS_ENDjyyyy.8308
++ __ZL15INSTRUMENTS_ENDjyyyy.8334
++ __ZL15INSTRUMENTS_ENDjyyyy.8491
++ __ZL15INSTRUMENTS_ENDjyyyy.8515
++ __ZL15INSTRUMENTS_ENDjyyyy.8763
++ __ZL15INSTRUMENTS_ENDjyyyy.9300
++ __ZL15INSTRUMENTS_ENDjyyyy.9366
++ __ZL15INSTRUMENTS_ENDjyyyy.9550
++ __ZL15INSTRUMENTS_ENDjyyyy.9766
++ __ZL15INSTRUMENTS_ENDjyyyy.9772
++ __ZL17INSTRUMENTS_EVENTjyyyy.3046
++ __ZL17INSTRUMENTS_EVENTjyyyy.3060
++ __ZL17INSTRUMENTS_EVENTjyyyy.3066
++ __ZL17INSTRUMENTS_EVENTjyyyy.3305
++ __ZL17INSTRUMENTS_EVENTjyyyy.3512
++ __ZL17INSTRUMENTS_EVENTjyyyy.3522
++ __ZL17INSTRUMENTS_EVENTjyyyy.3585
++ __ZL17INSTRUMENTS_EVENTjyyyy.3766
++ __ZL17INSTRUMENTS_EVENTjyyyy.3905
++ __ZL17INSTRUMENTS_EVENTjyyyy.4254
++ __ZL17INSTRUMENTS_EVENTjyyyy.4433
++ __ZL17INSTRUMENTS_EVENTjyyyy.4609
++ __ZL17INSTRUMENTS_EVENTjyyyy.4827
++ __ZL17INSTRUMENTS_EVENTjyyyy.5298
++ __ZL17INSTRUMENTS_EVENTjyyyy.5443
++ __ZL17INSTRUMENTS_EVENTjyyyy.5670
++ __ZL17INSTRUMENTS_EVENTjyyyy.5918
++ __ZL17INSTRUMENTS_EVENTjyyyy.6191
++ __ZL17INSTRUMENTS_EVENTjyyyy.6370
++ __ZL17INSTRUMENTS_EVENTjyyyy.6484
++ __ZL17INSTRUMENTS_EVENTjyyyy.6500
++ __ZL17INSTRUMENTS_EVENTjyyyy.6686
++ __ZL17INSTRUMENTS_EVENTjyyyy.6692
++ __ZL17INSTRUMENTS_EVENTjyyyy.6822
++ __ZL17INSTRUMENTS_EVENTjyyyy.6845
++ __ZL17INSTRUMENTS_EVENTjyyyy.6870
++ __ZL17INSTRUMENTS_EVENTjyyyy.7231
++ __ZL17INSTRUMENTS_EVENTjyyyy.7271
++ __ZL17INSTRUMENTS_EVENTjyyyy.7319
++ __ZL17INSTRUMENTS_EVENTjyyyy.7430
++ __ZL17INSTRUMENTS_EVENTjyyyy.7586
++ __ZL17INSTRUMENTS_EVENTjyyyy.7770
++ __ZL17INSTRUMENTS_EVENTjyyyy.7776
++ __ZL17INSTRUMENTS_EVENTjyyyy.7832
++ __ZL17INSTRUMENTS_EVENTjyyyy.7842
++ __ZL17INSTRUMENTS_EVENTjyyyy.7992
++ __ZL17INSTRUMENTS_EVENTjyyyy.8309
++ __ZL17INSTRUMENTS_EVENTjyyyy.8335
++ __ZL17INSTRUMENTS_EVENTjyyyy.8492
++ __ZL17INSTRUMENTS_EVENTjyyyy.8516
++ __ZL17INSTRUMENTS_EVENTjyyyy.8764
++ __ZL17INSTRUMENTS_EVENTjyyyy.9301
++ __ZL17INSTRUMENTS_EVENTjyyyy.9367
++ __ZL17INSTRUMENTS_EVENTjyyyy.9551
++ __ZL17INSTRUMENTS_EVENTjyyyy.9767
++ __ZL17INSTRUMENTS_EVENTjyyyy.9773
++ __ZL17INSTRUMENTS_STARTjyyyy.3047
++ __ZL17INSTRUMENTS_STARTjyyyy.3061
++ __ZL17INSTRUMENTS_STARTjyyyy.3067
++ __ZL17INSTRUMENTS_STARTjyyyy.3306
++ __ZL17INSTRUMENTS_STARTjyyyy.3513
++ __ZL17INSTRUMENTS_STARTjyyyy.3523
++ __ZL17INSTRUMENTS_STARTjyyyy.3586
++ __ZL17INSTRUMENTS_STARTjyyyy.3767
++ __ZL17INSTRUMENTS_STARTjyyyy.3906
++ __ZL17INSTRUMENTS_STARTjyyyy.4255
++ __ZL17INSTRUMENTS_STARTjyyyy.4434
++ __ZL17INSTRUMENTS_STARTjyyyy.4610
++ __ZL17INSTRUMENTS_STARTjyyyy.4828
++ __ZL17INSTRUMENTS_STARTjyyyy.5299
++ __ZL17INSTRUMENTS_STARTjyyyy.5444
++ __ZL17INSTRUMENTS_STARTjyyyy.5671
++ __ZL17INSTRUMENTS_STARTjyyyy.5919
++ __ZL17INSTRUMENTS_STARTjyyyy.6192
++ __ZL17INSTRUMENTS_STARTjyyyy.6371
++ __ZL17INSTRUMENTS_STARTjyyyy.6485
++ __ZL17INSTRUMENTS_STARTjyyyy.6501
++ __ZL17INSTRUMENTS_STARTjyyyy.6687
++ __ZL17INSTRUMENTS_STARTjyyyy.6693
++ __ZL17INSTRUMENTS_STARTjyyyy.6823
++ __ZL17INSTRUMENTS_STARTjyyyy.6846
++ __ZL17INSTRUMENTS_STARTjyyyy.6871
++ __ZL17INSTRUMENTS_STARTjyyyy.7232
++ __ZL17INSTRUMENTS_STARTjyyyy.7272
++ __ZL17INSTRUMENTS_STARTjyyyy.7320
++ __ZL17INSTRUMENTS_STARTjyyyy.7431
++ __ZL17INSTRUMENTS_STARTjyyyy.7587
++ __ZL17INSTRUMENTS_STARTjyyyy.7771
++ __ZL17INSTRUMENTS_STARTjyyyy.7777
++ __ZL17INSTRUMENTS_STARTjyyyy.7833
++ __ZL17INSTRUMENTS_STARTjyyyy.7843
++ __ZL17INSTRUMENTS_STARTjyyyy.7993
++ __ZL17INSTRUMENTS_STARTjyyyy.8310
++ __ZL17INSTRUMENTS_STARTjyyyy.8336
++ __ZL17INSTRUMENTS_STARTjyyyy.8493
++ __ZL17INSTRUMENTS_STARTjyyyy.8517
++ __ZL17INSTRUMENTS_STARTjyyyy.8765
++ __ZL17INSTRUMENTS_STARTjyyyy.9302
++ __ZL17INSTRUMENTS_STARTjyyyy.9368
++ __ZL17INSTRUMENTS_STARTjyyyy.9552
++ __ZL17INSTRUMENTS_STARTjyyyy.9768
++ __ZL17INSTRUMENTS_STARTjyyyy.9774
++ ___block_descriptor_40_ea8_32w_e18_v16?0"NSString"8lw32l8
++ ___block_literal_global.6455
++ ___block_literal_global.8873
++ _objc_msgSend$_createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:outMeanIntensityAtCoarsestScale:error:
++ _objc_msgSend$_createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:outMeanIntensityAtCoarsestScale:error:
++ _objc_msgSend$_downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:outMeanIntensity:
++ _objc_msgSend$enableStatistics
++ _objc_msgSend$encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:outMeanIntensityAtCoarsestScale:
++ _objc_msgSend$lastExecutionStatistics
++ _objc_msgSend$setMeanIntensityDiffAtCoarsestScale:
++ _objc_msgSend$validateInputs:validBufferRect:outputConfidence:
+- -[ADLKTOpticalFlow _createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:error:]
+- -[ADLKTOpticalFlow _createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:error:]
+- -[ADLKTOpticalFlow _downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:]
+- -[ADLKTOpticalFlow encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:]
+- GCC_except_table2315
+- GCC_except_table2317
+- GCC_except_table2319
+- GCC_except_table2322
+- GCC_except_table2326
+- GCC_except_table2327
+- GCC_except_table2341
+- GCC_except_table2347
+- GCC_except_table2348
+- GCC_except_table2350
+- GCC_except_table2351
+- GCC_except_table2352
+- GCC_except_table2354
+- GCC_except_table2361
+- GCC_except_table2366
+- GCC_except_table2367
+- GCC_except_table2368
+- GCC_except_table2373
+- GCC_except_table2380
+- GCC_except_table2383
+- GCC_except_table2389
+- GCC_except_table2392
+- GCC_except_table2395
+- GCC_except_table2398
+- GCC_except_table2401
+- GCC_except_table2448
+- GCC_except_table2455
+- GCC_except_table2459
+- GCC_except_table2461
+- GCC_except_table2465
+- GCC_except_table2466
+- GCC_except_table2470
+- GCC_except_table2477
+- GCC_except_table2490
+- GCC_except_table2509
+- GCC_except_table2510
+- GCC_except_table2513
+- GCC_except_table2514
+- GCC_except_table2515
+- GCC_except_table2520
+- GCC_except_table2527
+- GCC_except_table2543
+- GCC_except_table2544
+- GCC_except_table2545
+- GCC_except_table2548
+- GCC_except_table2549
+- GCC_except_table2579
+- GCC_except_table2580
+- GCC_except_table2581
+- GCC_except_table2582
+- GCC_except_table2583
+- GCC_except_table2584
+- GCC_except_table2585
+- GCC_except_table2586
+- GCC_except_table2596
+- GCC_except_table2598
+- GCC_except_table2599
+- GCC_except_table2600
+- GCC_except_table2601
+- GCC_except_table2602
+- GCC_except_table2603
+- GCC_except_table2618
+- GCC_except_table2622
+- GCC_except_table2623
+- GCC_except_table2627
+- GCC_except_table2629
+- GCC_except_table2633
+- GCC_except_table2636
+- GCC_except_table2639
+- GCC_except_table2648
+- GCC_except_table2650
+- GCC_except_table2651
+- GCC_except_table2652
+- GCC_except_table2653
+- GCC_except_table2654
+- GCC_except_table2669
+- GCC_except_table2670
+- GCC_except_table2674
+- GCC_except_table2675
+- GCC_except_table2680
+- GCC_except_table2696
+- GCC_except_table2699
+- GCC_except_table2700
+- GCC_except_table2701
+- GCC_except_table2702
+- GCC_except_table2706
+- GCC_except_table2711
+- GCC_except_table2712
+- GCC_except_table2713
+- GCC_except_table2722
+- GCC_except_table2731
+- GCC_except_table2734
+- GCC_except_table2735
+- GCC_except_table2736
+- GCC_except_table2737
+- GCC_except_table2741
+- GCC_except_table2751
+- GCC_except_table2752
+- GCC_except_table2753
+- GCC_except_table2754
+- GCC_except_table2755
+- GCC_except_table2784
+- GCC_except_table2785
+- GCC_except_table2786
+- GCC_except_table2789
+- GCC_except_table2798
+- GCC_except_table2799
+- GCC_except_table2800
+- GCC_except_table2801
+- GCC_except_table2820
+- GCC_except_table2823
+- GCC_except_table2824
+- GCC_except_table2825
+- GCC_except_table2826
+- GCC_except_table2827
+- GCC_except_table2829
+- GCC_except_table2847
+- GCC_except_table2865
+- GCC_except_table2866
+- GCC_except_table2868
+- GCC_except_table2869
+- GCC_except_table2872
+- GCC_except_table2882
+- GCC_except_table2900
+- GCC_except_table2901
+- GCC_except_table2902
+- GCC_except_table2903
+- GCC_except_table2904
+- GCC_except_table2925
+- GCC_except_table2941
+- GCC_except_table2944
+- GCC_except_table2945
+- GCC_except_table2955
+- GCC_except_table2977
+- GCC_except_table2984
+- GCC_except_table2990
+- GCC_except_table2991
+- GCC_except_table2994
+- GCC_except_table2995
+- GCC_except_table2996
+- GCC_except_table3024
+- GCC_except_table3025
+- GCC_except_table3031
+- GCC_except_table3038
+- GCC_except_table3040
+- GCC_except_table3049
+- GCC_except_table3050
+- GCC_except_table3051
+- GCC_except_table3053
+- GCC_except_table3054
+- GCC_except_table3055
+- GCC_except_table3056
+- GCC_except_table3060
+- GCC_except_table3065
+- GCC_except_table3072
+- GCC_except_table3074
+- GCC_except_table3081
+- GCC_except_table3086
+- GCC_except_table3091
+- GCC_except_table3092
+- GCC_except_table3095
+- GCC_except_table3097
+- GCC_except_table3104
+- GCC_except_table3108
+- GCC_except_table3109
+- GCC_except_table3110
+- GCC_except_table3111
+- GCC_except_table3113
+- GCC_except_table3114
+- GCC_except_table3115
+- GCC_except_table3124
+- GCC_except_table3128
+- GCC_except_table3129
+- GCC_except_table3138
+- GCC_except_table3143
+- GCC_except_table3147
+- GCC_except_table3149
+- GCC_except_table3150
+- GCC_except_table3156
+- GCC_except_table3165
+- GCC_except_table3172
+- GCC_except_table3175
+- GCC_except_table3176
+- GCC_except_table3187
+- GCC_except_table3196
+- GCC_except_table3197
+- GCC_except_table3198
+- GCC_except_table3202
+- GCC_except_table3216
+- GCC_except_table3217
+- GCC_except_table3220
+- GCC_except_table3221
+- GCC_except_table3222
+- GCC_except_table3226
+- GCC_except_table3227
+- GCC_except_table3231
+- GCC_except_table3240
+- GCC_except_table3241
+- GCC_except_table3242
+- GCC_except_table3243
+- GCC_except_table3256
+- GCC_except_table3265
+- GCC_except_table3282
+- GCC_except_table3283
+- GCC_except_table3288
+- GCC_except_table3289
+- GCC_except_table3292
+- GCC_except_table3301
+- GCC_except_table3303
+- GCC_except_table3310
+- __PromotedConst.9748
+- __PromotedConst.9749
+- __ZL15INSTRUMENTS_ENDjyyyy.3042
+- __ZL15INSTRUMENTS_ENDjyyyy.3056
+- __ZL15INSTRUMENTS_ENDjyyyy.3062
+- __ZL15INSTRUMENTS_ENDjyyyy.3301
+- __ZL15INSTRUMENTS_ENDjyyyy.3507
+- __ZL15INSTRUMENTS_ENDjyyyy.3517
+- __ZL15INSTRUMENTS_ENDjyyyy.3580
+- __ZL15INSTRUMENTS_ENDjyyyy.3761
+- __ZL15INSTRUMENTS_ENDjyyyy.3900
+- __ZL15INSTRUMENTS_ENDjyyyy.4249
+- __ZL15INSTRUMENTS_ENDjyyyy.4428
+- __ZL15INSTRUMENTS_ENDjyyyy.4604
+- __ZL15INSTRUMENTS_ENDjyyyy.4822
+- __ZL15INSTRUMENTS_ENDjyyyy.5293
+- __ZL15INSTRUMENTS_ENDjyyyy.5438
+- __ZL15INSTRUMENTS_ENDjyyyy.5665
+- __ZL15INSTRUMENTS_ENDjyyyy.5913
+- __ZL15INSTRUMENTS_ENDjyyyy.6154
+- __ZL15INSTRUMENTS_ENDjyyyy.6332
+- __ZL15INSTRUMENTS_ENDjyyyy.6446
+- __ZL15INSTRUMENTS_ENDjyyyy.6462
+- __ZL15INSTRUMENTS_ENDjyyyy.6648
+- __ZL15INSTRUMENTS_ENDjyyyy.6654
+- __ZL15INSTRUMENTS_ENDjyyyy.6784
+- __ZL15INSTRUMENTS_ENDjyyyy.6807
+- __ZL15INSTRUMENTS_ENDjyyyy.6832
+- __ZL15INSTRUMENTS_ENDjyyyy.7193
+- __ZL15INSTRUMENTS_ENDjyyyy.7233
+- __ZL15INSTRUMENTS_ENDjyyyy.7281
+- __ZL15INSTRUMENTS_ENDjyyyy.7392
+- __ZL15INSTRUMENTS_ENDjyyyy.7548
+- __ZL15INSTRUMENTS_ENDjyyyy.7731
+- __ZL15INSTRUMENTS_ENDjyyyy.7737
+- __ZL15INSTRUMENTS_ENDjyyyy.7793
+- __ZL15INSTRUMENTS_ENDjyyyy.7803
+- __ZL15INSTRUMENTS_ENDjyyyy.7953
+- __ZL15INSTRUMENTS_ENDjyyyy.8269
+- __ZL15INSTRUMENTS_ENDjyyyy.8295
+- __ZL15INSTRUMENTS_ENDjyyyy.8452
+- __ZL15INSTRUMENTS_ENDjyyyy.8476
+- __ZL15INSTRUMENTS_ENDjyyyy.8724
+- __ZL15INSTRUMENTS_ENDjyyyy.9260
+- __ZL15INSTRUMENTS_ENDjyyyy.9326
+- __ZL15INSTRUMENTS_ENDjyyyy.9509
+- __ZL15INSTRUMENTS_ENDjyyyy.9725
+- __ZL15INSTRUMENTS_ENDjyyyy.9731
+- __ZL17INSTRUMENTS_EVENTjyyyy.3043
+- __ZL17INSTRUMENTS_EVENTjyyyy.3057
+- __ZL17INSTRUMENTS_EVENTjyyyy.3063
+- __ZL17INSTRUMENTS_EVENTjyyyy.3302
+- __ZL17INSTRUMENTS_EVENTjyyyy.3508
+- __ZL17INSTRUMENTS_EVENTjyyyy.3518
+- __ZL17INSTRUMENTS_EVENTjyyyy.3581
+- __ZL17INSTRUMENTS_EVENTjyyyy.3762
+- __ZL17INSTRUMENTS_EVENTjyyyy.3901
+- __ZL17INSTRUMENTS_EVENTjyyyy.4250
+- __ZL17INSTRUMENTS_EVENTjyyyy.4429
+- __ZL17INSTRUMENTS_EVENTjyyyy.4605
+- __ZL17INSTRUMENTS_EVENTjyyyy.4823
+- __ZL17INSTRUMENTS_EVENTjyyyy.5294
+- __ZL17INSTRUMENTS_EVENTjyyyy.5439
+- __ZL17INSTRUMENTS_EVENTjyyyy.5666
+- __ZL17INSTRUMENTS_EVENTjyyyy.5914
+- __ZL17INSTRUMENTS_EVENTjyyyy.6155
+- __ZL17INSTRUMENTS_EVENTjyyyy.6333
+- __ZL17INSTRUMENTS_EVENTjyyyy.6447
+- __ZL17INSTRUMENTS_EVENTjyyyy.6463
+- __ZL17INSTRUMENTS_EVENTjyyyy.6649
+- __ZL17INSTRUMENTS_EVENTjyyyy.6655
+- __ZL17INSTRUMENTS_EVENTjyyyy.6785
+- __ZL17INSTRUMENTS_EVENTjyyyy.6808
+- __ZL17INSTRUMENTS_EVENTjyyyy.6833
+- __ZL17INSTRUMENTS_EVENTjyyyy.7194
+- __ZL17INSTRUMENTS_EVENTjyyyy.7234
+- __ZL17INSTRUMENTS_EVENTjyyyy.7282
+- __ZL17INSTRUMENTS_EVENTjyyyy.7393
+- __ZL17INSTRUMENTS_EVENTjyyyy.7549
+- __ZL17INSTRUMENTS_EVENTjyyyy.7732
+- __ZL17INSTRUMENTS_EVENTjyyyy.7738
+- __ZL17INSTRUMENTS_EVENTjyyyy.7794
+- __ZL17INSTRUMENTS_EVENTjyyyy.7804
+- __ZL17INSTRUMENTS_EVENTjyyyy.7954
+- __ZL17INSTRUMENTS_EVENTjyyyy.8270
+- __ZL17INSTRUMENTS_EVENTjyyyy.8296
+- __ZL17INSTRUMENTS_EVENTjyyyy.8453
+- __ZL17INSTRUMENTS_EVENTjyyyy.8477
+- __ZL17INSTRUMENTS_EVENTjyyyy.8725
+- __ZL17INSTRUMENTS_EVENTjyyyy.9261
+- __ZL17INSTRUMENTS_EVENTjyyyy.9327
+- __ZL17INSTRUMENTS_EVENTjyyyy.9510
+- __ZL17INSTRUMENTS_EVENTjyyyy.9726
+- __ZL17INSTRUMENTS_EVENTjyyyy.9732
+- __ZL17INSTRUMENTS_STARTjyyyy.3044
+- __ZL17INSTRUMENTS_STARTjyyyy.3058
+- __ZL17INSTRUMENTS_STARTjyyyy.3064
+- __ZL17INSTRUMENTS_STARTjyyyy.3303
+- __ZL17INSTRUMENTS_STARTjyyyy.3509
+- __ZL17INSTRUMENTS_STARTjyyyy.3519
+- __ZL17INSTRUMENTS_STARTjyyyy.3582
+- __ZL17INSTRUMENTS_STARTjyyyy.3763
+- __ZL17INSTRUMENTS_STARTjyyyy.3902
+- __ZL17INSTRUMENTS_STARTjyyyy.4251
+- __ZL17INSTRUMENTS_STARTjyyyy.4430
+- __ZL17INSTRUMENTS_STARTjyyyy.4606
+- __ZL17INSTRUMENTS_STARTjyyyy.4824
+- __ZL17INSTRUMENTS_STARTjyyyy.5295
+- __ZL17INSTRUMENTS_STARTjyyyy.5440
+- __ZL17INSTRUMENTS_STARTjyyyy.5667
+- __ZL17INSTRUMENTS_STARTjyyyy.5915
+- __ZL17INSTRUMENTS_STARTjyyyy.6156
+- __ZL17INSTRUMENTS_STARTjyyyy.6334
+- __ZL17INSTRUMENTS_STARTjyyyy.6448
+- __ZL17INSTRUMENTS_STARTjyyyy.6464
+- __ZL17INSTRUMENTS_STARTjyyyy.6650
+- __ZL17INSTRUMENTS_STARTjyyyy.6656
+- __ZL17INSTRUMENTS_STARTjyyyy.6786
+- __ZL17INSTRUMENTS_STARTjyyyy.6809
+- __ZL17INSTRUMENTS_STARTjyyyy.6834
+- __ZL17INSTRUMENTS_STARTjyyyy.7195
+- __ZL17INSTRUMENTS_STARTjyyyy.7235
+- __ZL17INSTRUMENTS_STARTjyyyy.7283
+- __ZL17INSTRUMENTS_STARTjyyyy.7394
+- __ZL17INSTRUMENTS_STARTjyyyy.7550
+- __ZL17INSTRUMENTS_STARTjyyyy.7733
+- __ZL17INSTRUMENTS_STARTjyyyy.7739
+- __ZL17INSTRUMENTS_STARTjyyyy.7795
+- __ZL17INSTRUMENTS_STARTjyyyy.7805
+- __ZL17INSTRUMENTS_STARTjyyyy.7955
+- __ZL17INSTRUMENTS_STARTjyyyy.8271
+- __ZL17INSTRUMENTS_STARTjyyyy.8297
+- __ZL17INSTRUMENTS_STARTjyyyy.8454
+- __ZL17INSTRUMENTS_STARTjyyyy.8478
+- __ZL17INSTRUMENTS_STARTjyyyy.8726
+- __ZL17INSTRUMENTS_STARTjyyyy.9262
+- __ZL17INSTRUMENTS_STARTjyyyy.9328
+- __ZL17INSTRUMENTS_STARTjyyyy.9511
+- __ZL17INSTRUMENTS_STARTjyyyy.9727
+- __ZL17INSTRUMENTS_STARTjyyyy.9733
+- ___block_descriptor_40_ea8_32s_e18_v16?0"NSString"8ls32l8
+- ___block_literal_global.6418
+- ___block_literal_global.8834
+- _objc_msgSend$_createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:error:
+- _objc_msgSend$_createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:error:
+- _objc_msgSend$_downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:
+- _objc_msgSend$encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:
+CStrings:
++ "150.2"
++ "ADLKTStatistics"
++ "ADLKTStatistics cannot be computed because statistis is disabled in executor parameters"
++ "ADLKTStatistics meanIntensitiesAtCoarsestScale cannot be computed for first frame"
++ "B56@0:8@1624@32@40^@48"
++ "B64@0:8@16@2432@40@48^@56"
++ "TB,N,V_enableStatistics"
++ "Td,N,V_meanIntensityDiffAtCoarsestScale"
++ "_computeMeanIntensityBuffer"
++ "_createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:outMeanIntensityAtCoarsestScale:error:"
++ "_createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:outMeanIntensityAtCoarsestScale:error:"
++ "_downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:outMeanIntensity:"
++ "_enableStatistics"
++ "_meanIntensitiesAtCoarsestScale"
++ "_meanIntensityBuffer"
++ "_meanIntensityDiffAtCoarsestScale"
++ "enableStatistics"
++ "encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:outMeanIntensityAtCoarsestScale:"
++ "failed to serialize ADLKT statistics to json with error:%@"
++ "i64@0:8@16@24@324048@56"
++ "lastExecutionStatistics"
++ "meanIntensityDiffAtCoarsestScale"
++ "q40@0:8^{__CVBuffer=}16^{CGRect={CGPoint=dd}{CGSize=dd}}24^{__CVBuffer=}32"
++ "q96@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64@72@80@88"
++ "setEnableStatistics:"
++ "setMeanIntensityDiffAtCoarsestScale:"
++ "validateInputs:validBufferRect:outputConfidence:"
+- "150.0"
+- "B48@0:8@1624@32^@40"
+- "B56@0:8@16@2432@40^@48"
+- "_createImagePyramidWithCommandBuffer:cropSizeRatio:inOutPyramidsArray:error:"
+- "_createImagePyramidWithCommandBuffer:in_tex:cropSizeRatio:outPyramidsArray:error:"
+- "_downscale2XWithCommandBuffer:in_tex:out_tex:scaling_factor:cropSizeRatio:"
+- "encodePyramidFeaturesToCommandBuffer:grayscaleTexture:validBufferRect:outPyramidsArray:outFeaturesArray:outDerivitiveArray:"
+- "i56@0:8@16@24@324048"
+- "q88@0:8@16@24{CGRect={CGPoint=dd}{CGSize=dd}}32@64@72@80"
+
+```

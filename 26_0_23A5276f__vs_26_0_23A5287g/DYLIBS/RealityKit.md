@@ -1,0 +1,176 @@
+## RealityKit
+
+> `/System/Library/Frameworks/RealityKit.framework/RealityKit`
+
+```diff
+
+-403.0.15.0.5
+-  __TEXT.__text: 0x7c1b4
+-  __TEXT.__auth_stubs: 0x4b10
++403.0.18.0.6
++  __TEXT.__text: 0x7bfa8
++  __TEXT.__auth_stubs: 0x4ba0
+   __TEXT.__objc_methlist: 0x117c
+-  __TEXT.__const: 0x41d0
++  __TEXT.__const: 0x4150
+   __TEXT.__cstring: 0x3334
+-  __TEXT.__swift5_typeref: 0x1658
+-  __TEXT.__swift5_capture: 0x444
+-  __TEXT.__constg_swiftt: 0x1ac0
+-  __TEXT.__swift5_reflstr: 0x187d
+-  __TEXT.__swift5_fieldmd: 0x146c
++  __TEXT.__swift5_typeref: 0x163e
++  __TEXT.__swift5_capture: 0x464
++  __TEXT.__constg_swiftt: 0x1a58
++  __TEXT.__swift5_reflstr: 0x17ed
++  __TEXT.__swift5_fieldmd: 0x13f8
+   __TEXT.__swift5_builtin: 0x1cc
+   __TEXT.__swift5_assocty: 0x2e8
+   __TEXT.__swift5_proto: 0x2ac
+
+   __TEXT.__swift_as_ret: 0x48
+   __TEXT.__oslogstring: 0x79
+   __TEXT.__swift5_mpenum: 0x88
+-  __TEXT.__swift5_protos: 0x14
+-  __TEXT.__swift5_types2: 0x4
+-  __TEXT.__unwind_info: 0x1b18
+-  __TEXT.__eh_frame: 0x1848
++  __TEXT.__swift5_protos: 0x10
++  __TEXT.__unwind_info: 0x1ae0
++  __TEXT.__eh_frame: 0x1870
+   __TEXT.__objc_classname: 0xc2
+   __TEXT.__objc_methname: 0x308c
+   __TEXT.__objc_methtype: 0x1ce6
+-  __DATA_CONST.__got: 0x970
++  __DATA_CONST.__got: 0x978
+   __DATA_CONST.__const: 0x5a0
+   __DATA_CONST.__objc_classlist: 0xa8
+   __DATA_CONST.__objc_protolist: 0xc0
+   __DATA_CONST.__objc_imageinfo: 0x8
+   __DATA_CONST.__objc_selrefs: 0xe88
+   __DATA_CONST.__objc_protorefs: 0x60
+-  __AUTH_CONST.__auth_got: 0x2588
+-  __AUTH_CONST.__const: 0x2da0
++  __AUTH_CONST.__auth_got: 0x25d0
++  __AUTH_CONST.__const: 0x2d98
+   __AUTH_CONST.__objc_const: 0x2f38
+   __AUTH.__objc_data: 0xa60
+   __AUTH.__data: 0x1040
+-  __DATA.__data: 0x1768
++  __DATA.__data: 0x16f8
+   __DATA.__bss: 0x4b10
+   __DATA.__common: 0x68
+   __DATA_DIRTY.__objc_data: 0x568
+
+   - /usr/lib/swift/libswift_Concurrency.dylib
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsimd.dylib
+-  UUID: ED8EEA53-A85C-3FAB-9144-EF0062DBB20B
+-  Functions: 2693
+-  Symbols:   9358
++  UUID: 06CEF71B-A37B-3678-8683-E4FCC7C6E028
++  Functions: 2664
++  Symbols:   9316
+   CStrings:  1100
+ 
+Symbols:
++ _$s10RealityKit20ARKitAnchorComponentV015registerBuiltinE0yyFZ
++ _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF00A10Foundation0de6EffectF0VySo16MTLCommandBuffer_pGvg
++ _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF00A10Foundation0de6EffectF0VySo16MTLCommandBuffer_pGvr
++ _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF00A10Foundation0de6EffectF0VySo16MTLCommandBuffer_pGvr.resume.0
++ _$s10RealityKit9ComponentP0A10FoundationE15registerBuiltin6bundle02reC5Class6access12availabilityySo8NSBundleC_So011REComponentI3PtraSgAD0C4InfoV6AccessOAP12AvailabilityVtFZ
++ _$s17RealityFoundation13ComponentInfoV12AvailabilityV10introduced10deprecated9obsoletedAESayAC17SupportedPlatformVG_AKSgALtcfC
++ _$s17RealityFoundation13ComponentInfoV12AvailabilityVMa
++ _$s17RealityFoundation13ComponentInfoV15PlatformVersionV13stringLiteralAESS_tcfC
++ _$s17RealityFoundation13ComponentInfoV15PlatformVersionVMa
++ _$s17RealityFoundation13ComponentInfoV17SupportedPlatformV3iOSyAeC0F7VersionVFZ
++ _$s17RealityFoundation13ComponentInfoV17SupportedPlatformV8visionOSyAeC0F7VersionVFZ
++ _$s17RealityFoundation13ComponentInfoV17SupportedPlatformVMa
++ _$s17RealityFoundation13ComponentInfoV17SupportedPlatformVMn
++ _$s17RealityFoundation13ComponentInfoV6AccessO3apiyA2EmFWC
++ _$s17RealityFoundation13ComponentInfoV6AccessOMa
++ _$s17RealityFoundation24PostProcessEffectContextVMn
++ _$s17RealityFoundation24PostProcessEffectContextVyACyxGSo9MTLDevice_p_xSo10MTLTexture_pSoAF_pSoAF_pSo13simd_float4x4aSdtcfC
++ _$s17RealityFoundation24PostProcessEffectContextVySo16MTLCommandBuffer_pGMD
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfC17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tt2g5
++ _$sScTss5NeverORs_rlE4name8priority9operationScTyxABGSSSg_ScPSgxyYaYAcntcfCyt_Tt2g5
++ _$sSo16MTLCommandBuffer_pMD
++ _$sSo8NSBundleC10FoundationE11__dsoHandleABSgSV_tcfC
++ _$sSo8NSBundleCML
++ _$sSo8NSBundleCMa
++ _$ss23_ContiguousArrayStorageCy17RealityFoundation13ComponentInfoV17SupportedPlatformVGMD
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTR17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tg5TA.79Tu
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68TQ0_
++ _$sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.68Tu
++ _objectdestroy.87Tm
++ _symbolic _____y_____G s23_ContiguousArrayStorageC 17RealityFoundation13ComponentInfoV17SupportedPlatformV
++ _symbolic _____y______pG 17RealityFoundation24PostProcessEffectContextV So16MTLCommandBufferP
+- _$s10RealityKit17PostProcessEffectMp
+- _$s10RealityKit17PostProcessEffectP04postD07contextyAA0cdE7ContextVySo16MTLCommandBuffer_pG_tFTj
+- _$s10RealityKit17PostProcessEffectP04postD07contextyAA0cdE7ContextVySo16MTLCommandBuffer_pG_tFTq
+- _$s10RealityKit17PostProcessEffectP7prepare3forySo9MTLDevice_p_tF
+- _$s10RealityKit17PostProcessEffectP7prepare3forySo9MTLDevice_p_tFTj
+- _$s10RealityKit17PostProcessEffectP7prepare3forySo9MTLDevice_p_tFTq
+- _$s10RealityKit17PostProcessEffectPAAE7prepare3forySo9MTLDevice_p_tF
+- _$s10RealityKit17PostProcessEffectTL
+- _$s10RealityKit17PostProcessEffect_pMF
+- _$s10RealityKit24PostProcessEffectContextV10projectionSo13simd_float4x4avM
+- _$s10RealityKit24PostProcessEffectContextV10projectionSo13simd_float4x4avM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV10projectionSo13simd_float4x4avg
+- _$s10RealityKit24PostProcessEffectContextV10projectionSo13simd_float4x4avs
+- _$s10RealityKit24PostProcessEffectContextV13commandBufferxvM
+- _$s10RealityKit24PostProcessEffectContextV13commandBufferxvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV13commandBufferxvg
+- _$s10RealityKit24PostProcessEffectContextV13commandBufferxvs
+- _$s10RealityKit24PostProcessEffectContextV18sourceColorTextureSo10MTLTexture_pvM
+- _$s10RealityKit24PostProcessEffectContextV18sourceColorTextureSo10MTLTexture_pvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV18sourceColorTextureSo10MTLTexture_pvg
+- _$s10RealityKit24PostProcessEffectContextV18sourceColorTextureSo10MTLTexture_pvs
+- _$s10RealityKit24PostProcessEffectContextV18sourceDepthTextureSo10MTLTexture_pvM
+- _$s10RealityKit24PostProcessEffectContextV18sourceDepthTextureSo10MTLTexture_pvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV18sourceDepthTextureSo10MTLTexture_pvg
+- _$s10RealityKit24PostProcessEffectContextV18sourceDepthTextureSo10MTLTexture_pvs
+- _$s10RealityKit24PostProcessEffectContextV18targetColorTextureSo10MTLTexture_pvM
+- _$s10RealityKit24PostProcessEffectContextV18targetColorTextureSo10MTLTexture_pvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV18targetColorTextureSo10MTLTexture_pvg
+- _$s10RealityKit24PostProcessEffectContextV18targetColorTextureSo10MTLTexture_pvs
+- _$s10RealityKit24PostProcessEffectContextV4timeSdvM
+- _$s10RealityKit24PostProcessEffectContextV4timeSdvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV4timeSdvg
+- _$s10RealityKit24PostProcessEffectContextV4timeSdvs
+- _$s10RealityKit24PostProcessEffectContextV6deviceSo9MTLDevice_pvM
+- _$s10RealityKit24PostProcessEffectContextV6deviceSo9MTLDevice_pvM.resume.0
+- _$s10RealityKit24PostProcessEffectContextV6deviceSo9MTLDevice_pvg
+- _$s10RealityKit24PostProcessEffectContextV6deviceSo9MTLDevice_pvs
+- _$s10RealityKit24PostProcessEffectContextVMF
+- _$s10RealityKit24PostProcessEffectContextVMI
+- _$s10RealityKit24PostProcessEffectContextVMP
+- _$s10RealityKit24PostProcessEffectContextVMa
+- _$s10RealityKit24PostProcessEffectContextVMi
+- _$s10RealityKit24PostProcessEffectContextVMn
+- _$s10RealityKit24PostProcessEffectContextVMr
+- _$s10RealityKit24PostProcessEffectContextVWV
+- _$s10RealityKit24PostProcessEffectContextVwet
+- _$s10RealityKit24PostProcessEffectContextVwst
+- _$s10RealityKit24PostProcessEffectContextVwta
+- _$s10RealityKit24PostProcessEffectContextVwtk
+- _$s10RealityKit24PostProcessEffectContextVwxx
+- _$s10RealityKit24PostProcessEffectContextVySo16MTLCommandBuffer_pGMD
+- _$s10RealityKit24PostProcessEffectContextVySo16MTLCommandBuffer_pGWOh
+- _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF0AA0de6EffectF0VySo16MTLCommandBuffer_pGvg
+- _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF0AA0de6EffectF0VySo16MTLCommandBuffer_pGvr
+- _$s10RealityKit6ARViewC18PostProcessContextV011realityViewdeF0AA0de6EffectF0VySo16MTLCommandBuffer_pGvr.resume.0
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfC17RealityFoundation22SpatialTrackingSessionC23UnavailableCapabilitiesVSg_Tt1g5
+- _$sScTss5NeverORs_rlE8priority9operationScTyxABGScPSg_xyYaYAcntcfCyt_Tt1g5
+- ___swift_cannot_copy_noncopyable_type
+- _objectdestroy.77Tm
+- _swift_checkMetadataState
+- _swift_initStructMetadata
+- _symbolic $s10RealityKit17PostProcessEffectP
+- _symbolic _____ 10RealityKit24PostProcessEffectContextV
+- _symbolic _____y______pG 10RealityKit24PostProcessEffectContextV So16MTLCommandBufferP
+
+```
