@@ -306,6 +306,367 @@ CStrings:
 
 </details>
 
+## MachO
+
+### 🆕 NEW (1)
+
+- `/Applications/FindMyRemoteUIService.app/PlugIns/FMDCFUTheftAndLossReminderExtension.appex/FMDCFUTheftAndLossReminderExtension`
+
+### ⬆️ Updated (114)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+- [/Applications/AirDropUI.app/AirDropUI](MACHOS/AirDropUI.md)
+- [/Applications/AppDistributionLaunchAngel.app/AppDistributionLaunchAngel](MACHOS/AppDistributionLaunchAngel.md)
+- [/Applications/ClarityCamera.app/ClarityCamera](MACHOS/ClarityCamera.md)
+- [/Applications/ColorPickerUIService.app/ColorPickerUIService](MACHOS/ColorPickerUIService.md)
+- [/Applications/Diagnostics.app/Diagnostics](MACHOS/Diagnostics.md)
+- [/Applications/DiagnosticsService.app/PlugIns/Diagnostic-6004.appex/Diagnostic-6004](MACHOS/Diagnostic-6004.md)
+- [/Applications/FindMyRemoteUIService.app/FindMyRemoteUIService](MACHOS/FindMyRemoteUIService.md)
+- [/Applications/GameCenterUIService.app/PlugIns/GameCenterMessageExtension.appex/GameCenterMessageExtension](MACHOS/GameCenterMessageExtension.md)
+- [/Applications/GameOverlayUI.app/GameOverlayUI](MACHOS/GameOverlayUI.md)
+- [/Applications/Preferences.app/Preferences](MACHOS/Preferences.md)
+- [/Applications/SharingUIService.app/SharingUIService](MACHOS/SharingUIService.md)
+- [/Applications/SharingViewService.app/SharingViewService](MACHOS/SharingViewService.md)
+- [/Applications/Tamale.app/Tamale](MACHOS/Tamale.md)
+- [/System/Library/Accounts/ServiceOwners/AMSMediaServiceOwner.bundle/AMSMediaServiceOwner](MACHOS/AMSMediaServiceOwner.md)
+- [/System/Library/AppleMediaServices/DynamicUI/PlugIns/StoreDynamicUIPlugin.bundle/StoreDynamicUIPlugin](MACHOS/StoreDynamicUIPlugin.md)
+- [/System/Library/Assistant/FlowDelegatePlugins/CarCommandsFlowDelegatePlugin.bundle/CarCommandsFlowDelegatePlugin](MACHOS/CarCommandsFlowDelegatePlugin.md)
+- [/System/Library/Assistant/Plugins/PreferencesAssistant.assistantBundle/PreferencesAssistant](MACHOS/PreferencesAssistant.md)
+- [/System/Library/Audio/Plug-Ins/AVC/AVCHalogen.driver/AVCHalogen](MACHOS/AVCHalogen.md)
+- [/System/Library/Audio/Plug-Ins/HAL/AirPlayHalogen.driver/AirPlayHalogen](MACHOS/AirPlayHalogen.md)
+- [/System/Library/Audio/Plug-Ins/HAL/CarPlayHalogen.driver/CarPlayHalogen](MACHOS/CarPlayHalogen.md)
+- [/System/Library/Audio/Plug-Ins/HAL/OctaviaHalogen.driver/OctaviaHalogen](MACHOS/OctaviaHalogen.md)
+- [/System/Library/CoreServices/ClarityBoard.app/ClarityBoard](MACHOS/ClarityBoard.md)
+- [/System/Library/CoreServices/powerd.bundle/powerd](MACHOS/powerd.md)
+- [/System/Library/ExtensionKit/Extensions/ADFollowUpExtension.appex/ADFollowUpExtension](MACHOS/ADFollowUpExtension.md)
+- [/System/Library/ExtensionKit/Extensions/GenerativeAssistantExtension.appex/GenerativeAssistantExtension](MACHOS/GenerativeAssistantExtension.md)
+- [/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributiond](MACHOS/managedappdistributiond.md)
+- [/System/Library/Frameworks/Security.framework/CircleJoinRequested/CircleJoinRequested](MACHOS/CircleJoinRequested.md)
+- [/System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy](MACHOS/CloudKeychainProxy.md)
+- [/System/Library/Frameworks/Security.framework/XPCServices/TrustedPeersHelper.xpc/TrustedPeersHelper](MACHOS/TrustedPeersHelper.md)
+- [/System/Library/Frameworks/Security.framework/swcagent](MACHOS/swcagent.md)
+- [/System/Library/Frameworks/StoreKit.framework/Support/storekitd](MACHOS/storekitd.md)
+- [/System/Library/Frameworks/UIKit.framework/PlugIns/com.apple.UIKit.ColorPicker.appex/com.apple.UIKit.ColorPicker](MACHOS/com.apple.UIKit.ColorPicker.md)
+- [/System/Library/Messages/PlugIns/RCS.imservice/RCS](MACHOS/RCS.md)
+- [/System/Library/PreferenceBundles/AppInstallationSettings.bundle/AppInstallationSettings](MACHOS/AppInstallationSettings.md)
+- [/System/Library/PreferenceBundles/PasswordsSettings.bundle/PasswordsSettings](MACHOS/PasswordsSettings.md)
+- [/System/Library/PreferenceBundles/WallpaperSettings.bundle/WallpaperSettings](MACHOS/WallpaperSettings.md)
+- [/System/Library/PrivateFrameworks/ASOctaneSupport.framework/XPCServices/ASOctaneSupportXPCService.xpc/ASOctaneSupportXPCService](MACHOS/ASOctaneSupportXPCService.md)
+- [/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored](MACHOS/appstored.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServices.framework/amsaccountsd](MACHOS/amsaccountsd.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Extensions/UtilityExtension.appex/UtilityExtension](MACHOS/UtilityExtension.md)
+- [/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd](MACHOS/amsengagementd.md)
+- [/System/Library/PrivateFrameworks/BookDataStore.framework/Support/bookdatastored](MACHOS/bookdatastored.md)
+- [/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/XPCServices/com.apple.dt.DTMLModelRunnerService.xpc/com.apple.dt.DTMLModelRunnerService](MACHOS/com.apple.dt.DTMLModelRunnerService.md)
+- [/System/Library/PrivateFrameworks/DiskImages2.framework/XPCServices/diskimagescontroller.xpc/diskimagescontroller](MACHOS/diskimagescontroller.md)
+- [/System/Library/PrivateFrameworks/FindMyDevice.framework/XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/FindMyDeviceSharedConfigurationXPCService](MACHOS/FindMyDeviceSharedConfigurationXPCService.md)
+- [/System/Library/PrivateFrameworks/GameCenterUI.framework/PlugIns/GameCenterMatchmakerExtension.appex/GameCenterMatchmakerExtension](MACHOS/GameCenterMatchmakerExtension.md)
+- [/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd](MACHOS/identityservicesd.md)
+- [/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/imagent](MACHOS/imagent.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd](MACHOS/mediaanalysisd.md)
+- [/System/Library/PrivateFrameworks/MediaAnalysis.framework/mediaanalysisd-service](MACHOS/mediaanalysisd-service.md)
+- [/System/Library/PrivateFrameworks/Message.framework/XPCServices/SearchIndexer.xpc/SearchIndexer](MACHOS/SearchIndexer.md)
+- [/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/Accessory Updater Service.xpc/Accessory Updater Service](MACHOS/Accessory_Updater_Service.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/Support/softwareupdated](MACHOS/softwareupdated.md)
+- [/System/Library/PrivateFrameworks/MobileSoftwareUpdate.framework/XPCServices/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.xpc/com.apple.MobileSoftwareUpdate.CleanupPreparePathService](MACHOS/com.apple.MobileSoftwareUpdate.CleanupPreparePathService.md)
+- [/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged](MACHOS/amsondevicestoraged.md)
+- [/System/Library/PrivateFrameworks/PassKitCore.framework/passd](MACHOS/passd.md)
+- [/System/Library/PrivateFrameworks/SoftwareUpdateServicesUI.framework/Plugins/SoftwareUpdateServicesUIPlugin.servicebundle/SoftwareUpdateServicesUIPlugin](MACHOS/SoftwareUpdateServicesUIPlugin.md)
+- [/System/Library/PrivateFrameworks/SonicKit.framework/PlugIns/SonicDiagnostics.appex/SonicDiagnostics](MACHOS/SonicDiagnostics.md)
+- [/System/Library/UserEventPlugins/com.apple.cts.plugin/com.apple.cts](MACHOS/com.apple.cts.md)
+- [/System/Library/VideoProcessors/VideoStabilizationV2.bundle/VideoStabilizationV2](MACHOS/VideoStabilizationV2.md)
+- [/private/var/staged_system_apps/AppleTV.app/PlugIns/TVWidgetExtension.appex/TVWidgetExtension](MACHOS/TVWidgetExtension.md)
+- [/private/var/staged_system_apps/AppleVisionProApp.app/AppleVisionProApp](MACHOS/AppleVisionProApp.md)
+- [/private/var/staged_system_apps/Books.app/Books](MACHOS/Books.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookCore.framework/BookCore](MACHOS/BookCore.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookEPUB.framework/BookEPUB](MACHOS/BookEPUB.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BookStoreUI.framework/BookStoreUI](MACHOS/BookStoreUI.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BooksPersonalization.framework/BooksPersonalization](MACHOS/BooksPersonalization.md)
+- [/private/var/staged_system_apps/Books.app/Frameworks/BooksUI.framework/BooksUI](MACHOS/BooksUI.md)
+- [/private/var/staged_system_apps/FindMy.app/FindMy](MACHOS/FindMy.md)
+- [/private/var/staged_system_apps/FindMy.app/Frameworks/FindMyAppCore.framework/FindMyAppCore](MACHOS/FindMyAppCore.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyNotificationsService.appex/FindMyNotificationsService](MACHOS/FindMyNotificationsService.md)
+- [/private/var/staged_system_apps/FindMy.app/PlugIns/FindMyWidgetPeople.appex/FindMyWidgetPeople](MACHOS/FindMyWidgetPeople.md)
+- [/private/var/staged_system_apps/MobileMail.app/MobileMail](MACHOS/MobileMail.md)
+- [/private/var/staged_system_apps/MobileMail.app/PlugIns/MailWidgetExtension.appex/MailWidgetExtension](MACHOS/MailWidgetExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/MobileNotes](MACHOS/MobileNotes.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.SharingExtension.appex/com.apple.mobilenotes.SharingExtension](MACHOS/com.apple.mobilenotes.SharingExtension.md)
+- [/private/var/staged_system_apps/MobileNotes.app/PlugIns/com.apple.mobilenotes.WidgetExtension.appex/com.apple.mobilenotes.WidgetExtension](MACHOS/com.apple.mobilenotes.WidgetExtension.md)
+- [/private/var/staged_system_apps/MobileSMS.app/MobileSMS](MACHOS/MobileSMS.md)
+- [/private/var/staged_system_apps/MobileSafari.app/PlugIns/SafariWidgetExtension.appex/SafariWidgetExtension](MACHOS/SafariWidgetExtension.md)
+- [/private/var/staged_system_apps/MobileSafari.app/PlugIns/com.apple.mobilesafari.SafariDiagnosticExtension.appex/com.apple.mobilesafari.SafariDiagnosticExtension](MACHOS/com.apple.mobilesafari.SafariDiagnosticExtension.md)
+- [/private/var/staged_system_apps/News.app/PlugIns/NewsTag.appex/NewsTag](MACHOS/NewsTag.md)
+- [/private/var/staged_system_apps/Passbook.app/PlugIns/PassbookLockedWidgetsExtension.appex/PassbookLockedWidgetsExtension](MACHOS/PassbookLockedWidgetsExtension.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/PodcastsTranscripts.framework/PodcastsTranscripts](MACHOS/PodcastsTranscripts.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKit.framework/ShelfKit](MACHOS/ShelfKit.md)
+- [/private/var/staged_system_apps/Podcasts.app/Frameworks/ShelfKitCollectionViews.framework/ShelfKitCollectionViews](MACHOS/ShelfKitCollectionViews.md)
+- [/private/var/staged_system_apps/Podcasts.app/Podcasts](MACHOS/Podcasts.md)
+- [/sbin/launchd](MACHOS/launchd.md)
+- [/usr/libexec/ASPCarryLog](MACHOS/ASPCarryLog.md)
+- [/usr/libexec/bluetoothuserd](MACHOS/bluetoothuserd.md)
+- [/usr/libexec/coreidvd](MACHOS/coreidvd.md)
+- [/usr/libexec/cryptexd](MACHOS/cryptexd.md)
+- [/usr/libexec/diskimagesiod](MACHOS/diskimagesiod.md)
+- [/usr/libexec/driverkitd](MACHOS/driverkitd.md)
+- [/usr/libexec/eligibilityd](MACHOS/eligibilityd.md)
+- [/usr/libexec/findmydeviced](MACHOS/findmydeviced.md)
+- [/usr/libexec/fskitd](MACHOS/fskitd.md)
+- [/usr/libexec/gamed](MACHOS/gamed.md)
+- [/usr/libexec/idcredd](MACHOS/idcredd.md)
+- [/usr/libexec/inboxupdaterd](MACHOS/inboxupdaterd.md)
+- [/usr/libexec/keychainsharingmessagingd](MACHOS/keychainsharingmessagingd.md)
+- [/usr/libexec/launchd_cache_loader](MACHOS/launchd_cache_loader.md)
+- [/usr/libexec/mediaparserd](MACHOS/mediaparserd.md)
+- [/usr/libexec/mediaplaybackd](MACHOS/mediaplaybackd.md)
+- [/usr/libexec/nanoregistryd](MACHOS/nanoregistryd.md)
+- [/usr/libexec/promotedcontentd](MACHOS/promotedcontentd.md)
+- [/usr/libexec/searchpartyd](MACHOS/searchpartyd.md)
+- [/usr/libexec/securityd](MACHOS/securityd.md)
+- [/usr/libexec/securityuploadd](MACHOS/securityuploadd.md)
+- [/usr/libexec/seserviced](MACHOS/seserviced.md)
+- [/usr/libexec/swtransparencyd](MACHOS/swtransparencyd.md)
+- [/usr/libexec/transparencyd](MACHOS/transparencyd.md)
+- [/usr/libexec/videocodecd](MACHOS/videocodecd.md)
+- [/usr/libexec/xpcproxy](MACHOS/xpcproxy.md)
+- [/usr/libexec/xpcroleaccountd](MACHOS/xpcroleaccountd.md)
+
+</details>
+
+### 🔑 Entitlements
+
+- [Entitlements DIFF](Entitlements.md)
+
+## Firmware
+
+### ⬆️ Updated (3)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+#### AppleAVE2FW_H17.im4p
+
+>  `AppleAVE2FW_H17.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0xf3d38
++  __TEXT.__text: 0xf34d8
+   __TEXT._rtk_mtab: 0x2d0
+   __TEXT.__const: 0x22844
+-  __TEXT.__cstring: 0x1417b
++  __TEXT.__cstring: 0x140ff
+   __TEXT.__constructor: 0x0
+   __TEXT.__chain_starts: 0x0
+   __DATA.__const: 0x2a20
+
+   __DATA._rtk_heap: 0x0
+   __DATA._rtk_threads: 0x0
+   __DATA.__zerofill: 0xcbd58
+-  UUID: F6B6FCE5-C471-3318-8FEC-89FCF9CFC551
++  UUID: 80123C74-2A29-395C-B892-E546918FBA85
+   Functions: 0
+   Symbols:   1538
+-  CStrings:  2423
++  CStrings:  2421
+ 
+Symbols:
++ __ZN16LinearRegression4initEffff
+- __ZN16LinearRegression4initEfff
+CStrings:
++ "%s::%s:%d wrong start point %d %d"
++ "8002.47.0"
+- "%s::%s:%d BITBOX OVERFLOW (QPMODOFF) Frame# %d - ABR: %d HRD: %d"
+- "%s::%s:%d BITBOX OVERFLOW (QPMODON) Frame# %d - ABR: %d HRD: %d qpModLevel %d"
+- "8002.46.0"
+- "start_pt < 128"
+
+```
+
+#### adc-rheia-d9x.im4p
+
+>  `adc-rheia-d9x.im4p`
+
+```diff
+
+ 
+-  __TEXT.__text: 0x837018
++  __TEXT.__text: 0x837114
+   __TEXT.__const: 0x9b59a0
+   __TEXT.text_env: 0x4fda4
+   __TEXT._rtk_mtab: 0x2b8
+-  __TEXT.__cstring: 0xa37aa
++  __TEXT.__cstring: 0xa38c0
+   __TEXT.__data_copy: 0x200000
+   __TEXT.__constructor: 0x0
+   __TEXT.__chain_starts: 0x0
+
+   __DATA._rtk_boot_l1: 0x80
+   __DATA.__gxf_data: 0x10
+   __DATA.__zerofill: 0x5bb620
+-  UUID: 7FFF55B8-A0B6-375C-BA24-3D7EB9B554FE
++  UUID: 9FD7F568-B660-306D-B5EE-E11F585266C0
+   Functions: 0
+   Symbols:   0
+-  CStrings:  17880
++  CStrings:  17882
+ 
+CStrings:
++ "(bandwidthCtrl.scratchRegisterAddr >= PMC_BWR_AGENT_INTERFACE_START_ADDR && bandwidthCtrl.scratchRegisterAddr < PMC_BWR_AGENT_INTERFACE_END_ADDR)"
++ "(clockCtrl.scratchRegisterAddr >= PMS_PTD_UPDATE_SPACE_START_ADDR && clockCtrl.scratchRegisterAddr < PMS_PTD_UPDATE_SPACE_END_ADDR)"
++ "18:55:48"
+- "21:24:54"
+
+```
+
+#### exclave_sharedcache
+
+>  `exclave_sharedcache`
+
+```diff
+
+ 543.140.10.0.0
+-  __TEXT.__text: 0x4efdf4
++  __TEXT.__text: 0x4f0274
+   __TEXT.__lcxx_override: 0x200
+   __TEXT.__cstring: 0x3a03f
+   __TEXT.__const: 0xfe6c8
+
+   __TEXT.__term_offsets: 0x0
+   __TEXT.__swift5_replace: 0x0
+   __TEXT.__thread_starts: 0x40
+-  __TEXT.__eh_frame: 0x27494
++  __TEXT.__eh_frame: 0x27454
+   __DATA.__got: 0x18
+   __DATA.__auth_ptr: 0x2a8
+   __DATA.__mod_init_func: 0x38
+
+   __PDATA.__common: 0x2530
+   __DATA_CONST.__mod_init_func: 0x0
+   __DATA_CONST.__mod_term_func: 0x0
+-  UUID: C18C75E3-7531-377D-A375-D6BDB288D6A1
+-  Functions: 19748
++  UUID: 1F115866-F18D-300B-BC27-914E706ABE31
++  Functions: 19754
+   Symbols:   0
+   CStrings:  5775
+ 
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B4b2ugBj-4W-xvnp5ji6oce7NbWgQMv9ccTMXoc/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
++ "/AppleInternal/Library/BuildRoots/4~B4b3ugA1YoM5dFcznu453S5pX6jxgo3qghV3PM8/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
++ "/AppleInternal/Library/BuildRoots/4~B4b4ugAsVIhbtfN7bhglAs1ptFJIKt8yPORzuqY/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/local/standalone/RTKit/usr/include/protocols/mbi_tightbeam_protocol.h"
+- "/AppleInternal/Library/BuildRoots/4~B2QSugDlp4jJdIpArgtmJmwKWCq0bVTSthSNPzs/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
+- "/AppleInternal/Library/BuildRoots/4~B2QTugAaOYSVLiPB9vjfqQHz-UmwVZQVULRdqYo/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/include/xrt/thread.h"
+- "/AppleInternal/Library/BuildRoots/4~B2qVugAFIK2Xcm1K0dMCaZzwp709zLgORzOLKPw/Applications/Xcode.app/Contents/Developer/Platforms/ExclaveCore.iPhoneOS.platform/Developer/SDKs/ExclaveCore.iPhoneOS18.6.Internal.sdk/System/ExclaveCore/usr/local/standalone/RTKit/usr/include/protocols/mbi_tightbeam_protocol.h"
+
+```
+
+
+</details>
+
+### iBoot
+
+| iOS | Version |
+| :-- | :------ |
+| 18.6 *(22G5064d)* | iBoot-11881.140.90.0.1 |
+| 18.6 *(22G5073b)* | iBoot-11881.140.95 |
+
+#### 🆕 NEW (5)
+
+<details>
+  <summary><i>View NEW</i></summary>
+
+##### `RTKit.bin`
+  - `SPMI Fatal Error: %s `
+  - `Read Shelf life-  data=%d, return state=%d , rc = %d`
+  - `drv_gg_veridian.cpp`
+##### `iboot_blob31.bin`
+  - `HW Q Reset`
+  - `Filter Modification`
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-5204.140.29.d93.REL`
+##### `iboot`
+  - `Q/S#/wvM"}9`
+  - `O7uw(aMw~7n`
+  - `uutrrxsqpsQ`
+  - `Q}6ukR˴GR`
+  - `5ŪKFYSb+DVh`
+  - `EplBSFtpT"e`
+  - `d8,EC+D1TU[s`
+  - `H)l90!:á<`
+  - `iBoot-11881.140.95`
+  - `(42êqFHB?`
+  - `967e686f15e0c4707a92c01c75926aa2`
+  - `l(G5LEoBARe$J>}z`
+  - `ǨmB?x%ʊB`
+  - `5/JEDCF>d-%}`
+  - `}D,n9)IiNJO`
+  - `i+dLEXWUZeaW`
+  - `~ȇ|ȇ|ȇ|`
+  - `root@qwdh2.p1l.plx.sd...2025/07/02@23:57:15`
+  - `G56d0^(J[f`
+  - `x*9Ǧ[Çu#`
+  - `I4q%jTU;jT`
+  - `rVdf iAib^`
+  - `ʂ)Ĺ"jF$N`
+##### `iboot_blob28.bin`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpVt`
+  - `!C#C?CRC]l`
+  - `COFOROSOTO6h`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkl<`
+
+</details>
+
+#### ❌ Removed (5)
+
+<details>
+  <summary><i>View Removed</i></summary>
+
+##### `AppleSMCFirmware.bin`
+  - `AppleSMCFirmware_H17-5204.140.28.d93.REL`
+##### `iboot_blob28.bin`
+  - `TCAPACDLHDHPNIRNDVPUVilpslpVX`
+  - `DAcKBcSBcSHcOIcDLcTRcSAmBDmCFmLFmCHmSMmkP<`
+  - `!C#C?CRC]T`
+  - `1SB2SBTFCATCEPDPIHMPLrAPsDPfNPTPPpSPiW`
+  - `COFOROSOTO6P`
+##### `iboot_blob31.bin`
+  - `er Modification`
+##### `iboot`
+  - `}P-2Z5UiVMR`
+  - `(C%ek4,ËC`
+  - `root@89h6x.p1l.plx.sd...2025/06/10@19:32:25`
+  - `2ea74dc3b99c4070b3f2f3a58af93d05`
+  - `,Op8y,p-63`
+  - `iBoot-11881.140.90.0.1`
+  - `6.............`
+  - `Bd>Ww!KP q`
+  - `%9Os¤E4-T7`
+  - `kmTvh#[1jK`
+  - `sIzꝣ,dgm`
+  - `-=?%iȿ6,H`
+  - `5vT/jT/RGz4`
+  - `œcYɤw[$O`
+  - `ki*T@:$L^AAb`
+  - `{U\\\\\\\\\\\`
+  - `YO68v!&EY)`
+  - `z<()%5ǥƔ`
+  - `9~_ âʝk]`
+  - `LvsY5^"/( `
+  - `˸"M1lHGT]`
+  - `!*9yG\ErV#Q`
+  - `Ty'R5:+'a;`
+  - `uutsrwsqpsQ`
+  - `rlɃeV)@#%g"2`
+##### `RTKit.bin`
+  - `lf life-  data=%d, return state=%d , rc = %d`
+  - `SPMI Fatal Error: %s Blocked`
+  - `HW Q Reset`
+
+</details>
+
 ## DSC
 
 ### WebKit
@@ -422,6 +783,171 @@ CStrings:
 - [/usr/lib/system/liblaunch.dylib](DYLIBS/liblaunch.dylib.md)
 - [/usr/lib/system/libsystem_eligibility.dylib](DYLIBS/libsystem_eligibility.dylib.md)
 - [/usr/lib/system/libsystem_kernel.dylib](DYLIBS/libsystem_kernel.dylib.md)
+
+</details>
+
+## Files
+
+### 🆕 New
+
+#### IPSW (2)
+
+- `Firmware/Mav24-1.70.02.Release.bbfw`
+- `Firmware/Mav24-1.70.02.Release.plist`
+
+#### filesystem (101)
+
+<details>
+  <summary><i>View Files</i></summary>
+
+- `/Applications/FindMyRemoteUIService.app/PlugIns/FMDCFUTheftAndLossReminderExtension.appex/Entitlements.plist`
+- `/Applications/FindMyRemoteUIService.app/PlugIns/FMDCFUTheftAndLossReminderExtension.appex/FMDCFUTheftAndLossReminderExtension`
+- `/Applications/FindMyRemoteUIService.app/PlugIns/FMDCFUTheftAndLossReminderExtension.appex/Info.plist`
+- `/Applications/FindMyRemoteUIService.app/PlugIns/FMDCFUTheftAndLossReminderExtension.appex/_CodeSignature/CodeResources`
+- `/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/Templates/metadata/mediaType.dtag/pl.dtag.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/AudioFlowDelegatePlugin.bundle/Templates/metadata/musicGenre.dtag/pl.dtag.bin`
+- `/System/Library/Assistant/FlowDelegatePlugins/DailyBriefingFlowPlugin.bundle/Templates/metadata/dailyBriefingDomainNames.dtag/pl.dtag.bin`
+- `/System/Library/PrivateFrameworks/APConfigurationSystem.framework/APCS/APAMSNetworkFacade/ConfigurationNode.json`
+- `/System/Library/PrivateFrameworks/APConfigurationSystem.framework/APCS/Policy/AggregatedTimespent/ConfigurationNode.json`
+- `/System/Library/PrivateFrameworks/IMDaemonCore.framework/MessageSendableUTIs.plist`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_CallContact.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/fr-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Contacts_FacetimeContact.cat/zh-tw.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/ar.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/da.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/de.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/en-au.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/en-ca.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/en-gb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/es-mx.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/es.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/fi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/fr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/he.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/hi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/it.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/ja.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/ko.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/ms.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/nb.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/nl.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/pt.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/ru.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/sv.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/th.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/tr.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/vi.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/yue.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/zh-cn.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/zh-hk.cat.bin`
+- `/System/Library/PrivateFrameworks/SiriSuggestionsBaseModel.framework/Templates/dialog/BaseSuggestions.catfamily/Notes_CreateNote.cat/zh-tw.cat.bin`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/AssetData`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/AssetData/CarPlayAppDenylist.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/AssetData/CarPlayCapabilities.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/AssetData/CarPlayDisabledAssetIDs.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/AssetData/CarPlayLiveActivitiesDenylist.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/281779a4b5f38c348e28b6d402fafd4b0caeaa2d.asset/Info.plist`
+
+</details>
+
+### ❌ Removed
+
+#### IPSW (2)
+
+- `Firmware/Mav24-1.70.01.Release.bbfw`
+- `Firmware/Mav24-1.70.01.Release.plist`
+
+#### filesystem (7)
+
+- `/System/Library/Messages/PlugIns/iMessage.imservice/MessageSendableUTIs.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset/AssetData`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset/AssetData/CarPlayAppDenylist.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset/AssetData/CarPlayCapabilities.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset/AssetData/CarPlayDisabledAssetIDs.plist`
+- `/private/var/MobileAsset/PreinstalledAssetsV2/InstallWithOs/com_apple_MobileAsset_CarExperienceAssets/ef74750324338ab23d16544744b1ef52ce4d3d8c.asset/Info.plist`
+
+## Feature Flags
+
+### ⬆️ Updated (1)
+
+<details>
+  <summary><i>View Updated</i></summary>
+
+#### MarketplaceKit.plist
+
+>  `Domain/MarketplaceKit.plist`
+
+```diff
+
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
++	<key>NewInstallSheetFlow</key>
++	<dict>
++		<key>DevelopmentPhase</key>
++		<string>FeatureComplete</string>
++	</dict>
+ 	<key>WebDistribution</key>
+ 	<dict>
+ 		<key>DevelopmentPhase</key>
+
+```
+
 
 </details>
 
