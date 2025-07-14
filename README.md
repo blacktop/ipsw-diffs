@@ -128,6 +128,7 @@
 
 - [18.5 (22F76) .vs 18.6 beta 1 (22G5054d)](18_5_22F76__vs_18_6_22G5054d/README.md)
 - [18.6 beta 1 (22G5054d) .vs 18.6 beta 2 (22G5064d)](18_6_22G5054d__vs_18_6_22G5064d/README.md)
+- [18.6 beta 1 (22G5064d) .vs 18.6 beta 3 (22G5073b)](18_6_22G5064d__vs_18_6_22G5073b/README.md)
 
 ### iOS 26.0 beta
 

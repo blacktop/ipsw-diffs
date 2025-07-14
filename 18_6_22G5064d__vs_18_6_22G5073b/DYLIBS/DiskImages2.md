@@ -1,0 +1,95 @@
+## DiskImages2
+
+> `/System/Library/PrivateFrameworks/DiskImages2.framework/DiskImages2`
+
+```diff
+
+-385.140.3.0.0
+-  __TEXT.__text: 0x170f7c
++385.140.4.0.0
++  __TEXT.__text: 0x17103c
+   __TEXT.__auth_stubs: 0x1ef0
+   __TEXT.__objc_methlist: 0x2f34
+   __TEXT.__const: 0xdc84
+
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+   - /usr/local/lib/libcurl.4.dylib
+-  UUID: E3C9BF7D-959E-3D1B-BC0A-F40A379DABC7
+-  Functions: 8683
+-  Symbols:   25138
++  UUID: 995ED369-3257-344F-8EC2-E4E2A8170C42
++  Functions: 8684
++  Symbols:   25140
+   CStrings:  3707
+ 
+Symbols:
++ __ZL16offset_is_mappedRKNSt3__120__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIN5boost3icl17discrete_intervalIyNS_4lessEEEN4udif7details8run_infoEEEPNS_11__tree_nodeISB_PvEElEEEESJ_y
++ __ZN13DiskImageUDIF31udif_extents_iterator_interface9_make_valEv
++ __ZN18DiskImageStackable36stackable_extents_iterator_interface9_make_valEv
++ __ZN38transformed_extents_iterator_interface9_make_valEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE4syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE5_syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE6xsputnEPKcl
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE8overflowEi
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEEC2ERKS2_
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED1Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED2Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEEC1ERKS2_
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZN7di_asif7details31asif_extents_iterator_interface9_make_valEv
++ __ZN9DiskImage34default_extents_iterator_interface9_make_valEv
++ __ZNK6di_log11log_printerILm339EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZTCN6di_log6loggerINS_11log_printerILm339EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
++ __ZTIN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTIN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTSN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTSN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTTN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTVN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTVN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
+- GCC_except_table235
+- __ZN13DiskImageUDIF31udif_extents_iterator_interface8make_valEv
+- __ZN18DiskImageStackable36stackable_extents_iterator_interface8make_valEv
+- __ZN38transformed_extents_iterator_interface8make_valEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED2Ev
+- __ZN6di_log6loggerINS_11log_printerILm337EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm337EEEED1Ev
+- __ZN7di_asif7details31asif_extents_iterator_interface8make_valEv
+- __ZN9DiskImage34default_extents_iterator_interface8make_valEv
+- __ZNK6di_log11log_printerILm337EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm337EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZThn360_N6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
+CStrings:
++ "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
++ "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"
++ "/AppleInternal/Library/BuildRoots/4~B4cDugDprqwN8CWK0SKViEc3rk9F5B6reCpz-64/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
+- "/AppleInternal/Library/BuildRoots/4~B3UwugBkGxmGpF2o5KNZ54_bfMkohHtl7GQNVMg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/algorithm/hex.hpp"
+- "/AppleInternal/Library/BuildRoots/4~B3UwugBkGxmGpF2o5KNZ54_bfMkohHtl7GQNVMg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/detail/sha1.hpp"
+- "/AppleInternal/Library/BuildRoots/4~B3UwugBkGxmGpF2o5KNZ54_bfMkohHtl7GQNVMg/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.6.Internal.sdk/usr/local/include/boost/uuid/string_generator.hpp"
+
+```
